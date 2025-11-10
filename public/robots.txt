@@ -1,0 +1,184 @@
+# theanswerengine.ai - COMPLETE AEO Optimization (2025)
+# Allows ALL major AI platforms for maximum citation opportunities
+
+# ============================================
+# STANDARD CRAWLERS - Allow All
+# ============================================
+User-agent: *
+Allow: /
+
+# ============================================
+# OPENAI (ChatGPT, GPT-4, GPT-5)
+# ============================================
+# GPTBot - Model training
+User-agent: GPTBot
+Allow: /
+
+# ChatGPT-User - Real-time citations when users ask questions
+User-agent: ChatGPT-User
+Allow: /
+
+# OAI-SearchBot - ChatGPT search indexing (CRITICAL)
+User-agent: OAI-SearchBot
+Allow: /
+
+# ChatGPT Agent - AI agent feature
+User-agent: ChatGPT Agent
+Allow: /
+
+# ============================================
+# ANTHROPIC (Claude)
+# ============================================
+# ClaudeBot - Main training crawler
+User-agent: ClaudeBot
+Allow: /
+
+# Claude-User - Real-time citations for Claude AI
+User-agent: Claude-User
+Allow: /
+
+# Claude-SearchBot - Search quality improvement
+User-agent: Claude-SearchBot
+Allow: /
+
+# Claude-Web - Web-focused crawl
+User-agent: Claude-Web
+Allow: /
+
+# anthropic-ai - Bulk model training
+User-agent: anthropic-ai
+Allow: /
+
+# ============================================
+# GOOGLE (Gemini, AI Overviews, Vertex AI)
+# ============================================
+# Google-Extended - AI training for Gemini
+User-agent: Google-Extended
+Allow: /
+
+# GoogleOther - Various Google product teams
+User-agent: GoogleOther
+Allow: /
+
+# Google-CloudVertexBot - Vertex AI generative APIs
+User-agent: Google-CloudVertexBot
+Allow: /
+
+# Gemini-Deep-Research - Deep research feature
+User-agent: Gemini-Deep-Research
+Allow: /
+
+# ============================================
+# MICROSOFT (Bing, Copilot)
+# ============================================
+# BingBot - Bing search and Copilot (CRITICAL)
+User-agent: BingBot
+Allow: /
+
+# ============================================
+# PERPLEXITY
+# ============================================
+# PerplexityBot - Index builder
+User-agent: PerplexityBot
+Allow: /
+
+# Perplexity-User - User-triggered fetches (real-time)
+User-agent: Perplexity-User
+Allow: /
+
+# ============================================
+# META (Facebook AI, Llama)
+# ============================================
+# FacebookBot
+User-agent: FacebookBot
+Allow: /
+
+# Meta-ExternalAgent - Meta AI features
+User-agent: Meta-ExternalAgent
+Allow: /
+
+# Meta-ExternalFetcher
+User-agent: Meta-ExternalFetcher
+Allow: /
+
+# ============================================
+# APPLE (Siri, Apple Intelligence)
+# ============================================
+# Applebot - Siri and Spotlight
+User-agent: Applebot
+Allow: /
+
+# Applebot-Extended - Apple Intelligence training
+User-agent: Applebot-Extended
+Allow: /
+
+# ============================================
+# AMAZON (Alexa, Amazon AI)
+# ============================================
+# Amazonbot - Amazon AI services
+User-agent: Amazonbot
+Allow: /
+
+# ============================================
+# OTHER MAJOR AI PLATFORMS
+# ============================================
+# Common Crawl - Used by many AI models
+User-agent: CCBot
+Allow: /
+
+# DuckDuckGo AI
+User-agent: DuckAssistBot
+Allow: /
+
+# Mistral AI (Le Chat)
+User-agent: MistralAI-User
+Allow: /
+
+# You.com AI
+User-agent: YouBot
+Allow: /
+
+# Cohere AI
+User-agent: cohere-ai
+Allow: /
+
+# ByteDance (TikTok, Doubao)
+User-agent: Bytespider
+Allow: /
+
+# Diffbot - Knowledge graph
+User-agent: Diffbot
+Allow: /
+
+# ImagesiftBot - Image AI
+User-agent: ImagesiftBot
+Allow: /
+
+# Omgili/Webz.io
+User-agent: Omgilibot
+Allow: /
+
+User-agent: Omgili
+Allow: /
+
+User-agent: webzio-extended
+Allow: /
+
+# ============================================
+# SECURITY - Block These Paths
+# ============================================
+User-agent: *
+Disallow: /api/
+Disallow: /admin/
+Disallow: /_next/
+
+# ============================================
+# SITEMAP - Critical for Discovery
+# ============================================
+Sitemap: https://theanswerengine.ai/sitemap.xml
+
+# ============================================
+# LAST UPDATED: November 2025
+# This robots.txt is optimized for Answer Engine Optimization (AEO)
+# All content is explicitly made available for AI training and citations
+# ============================================
