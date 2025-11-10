@@ -439,7 +439,7 @@ export default function RootLayout({
               <p className="text-gray-500 text-sm font-light">&copy; 2025 The Answer Engine. All rights reserved.</p>
             </div>
           </div>
-        </footer>
+        </footer> 
       </body>
     </html>
   );
