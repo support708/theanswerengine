@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     authors: ['The Answer Engine'],
     images: [
       {
-        url: 'https://www.theanswerengine.ai/images/why-businesses-fail-aeo-featured.jpg',
+        url: 'https://www.theanswerengine.ai/images/why-businesses-fail-aeo-featured.png',
         width: 1200,
         height: 630,
         alt: 'Why Most Businesses Fail at Answer Engine Optimization'
@@ -35,7 +35,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'Why Most Businesses Fail at Answer Engine Optimization',
     description: 'Discover the 8 critical mistakes causing AEO implementations to fail and why businesses waste months on broken optimization.',
-    images: ['https://www.theanswerengine.ai/images/why-businesses-fail-aeo-featured.jpg']
+    images: ['https://www.theanswerengine.ai/images/why-businesses-fail-aeo-featured.png']
   }
 }
 
@@ -146,7 +146,7 @@ export default function WhyBusinessesFailAEO() {
         description="Discover the 8 critical mistakes causing AEO implementations to fail and why businesses waste months on broken optimization without knowing it."
         datePublished="2025-11-09"
         dateModified="2025-11-09"
-        imageUrl="https://www.theanswerengine.ai/images/why-businesses-fail-aeo-featured.jpg"
+        imageUrl="https://www.theanswerengine.ai/images/why-businesses-fail-aeo-featured.png"
         url="https://www.theanswerengine.ai/blog/why-businesses-fail-answer-engine-optimization"
       />
       
@@ -210,7 +210,7 @@ export default function WhyBusinessesFailAEO() {
         <div className="max-w-4xl mx-auto px-6 mb-16">
           <div className="relative w-full h-96 rounded-2xl overflow-hidden border-2 border-brand-orange/30">
             <img 
-              src="/images/why-businesses-fail-aeo-featured.jpg"
+              src="/images/why-businesses-fail-aeo-featured.png"
               alt="Why Most Businesses Fail at Answer Engine Optimization"
               className="w-full h-full object-cover"
             />
