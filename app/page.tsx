@@ -91,6 +91,7 @@ export default function Home() {
   const { ref: statsRef, isInView: statsInView } = useInView();
   const [formData, setFormData] = useState({
     name: '',
+    email: '',
     company: '',
     website: ''
   });
@@ -110,6 +111,7 @@ export default function Home() {
         },
         body: JSON.stringify({
           name: formData.name,
+          email: formData.email,
           company: formData.company,
           website: formData.website,
           _subject: 'New Answer Audit Request'
@@ -118,7 +120,7 @@ export default function Home() {
 
       if (response.ok) {
         setSubmitStatus('success');
-        setFormData({ name: '', company: '', website: '' });
+        setFormData({ name: '', email: '', company: '', website: '' });
       } else {
         setSubmitStatus('error');
       }
@@ -181,18 +183,9 @@ export default function Home() {
           background: linear-gradient(135deg, #bf172e, #9f1326);
           color: #bf172e;
         }
-
-        @keyframes google-shimmer {
-          0%, 100% { opacity: 1; transform: translateX(0); }
-          50% { opacity: 0.8; transform: translateX(2px); }
-        }
-
-        .google-accent {
-          animation: google-shimmer 4s ease-in-out infinite;
-        }
       `}</style>
 
-      {/* Organization Schema */}
+      {/* Schema */}
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{
@@ -200,7 +193,7 @@ export default function Home() {
             "@context": "https://schema.org",
             "@type": "ProfessionalService",
             "name": "The Answer Engine",
-            "description": "Answer Engine Optimization specialists helping local service businesses get cited by AI platforms like Google AI Overviews, ChatGPT, Claude, and Perplexity",
+            "description": "Answer Engine Optimization specialists helping local service businesses get cited by AI platforms like Gemini, ChatGPT, Claude, and Perplexity. 90-day citation guarantee. Exclusive territory protection.",
             "url": "https://theanswerengine.ai",
             "telephone": "+1-213-444-2229",
             "email": "support@theanswerengine.ai",
@@ -211,7 +204,6 @@ export default function Home() {
         }}
       />
 
-      {/* WebPage Schema */}
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{
@@ -219,14 +211,13 @@ export default function Home() {
             "@context": "https://schema.org",
             "@type": "WebPage",
             "name": "The Answer Engine - Answer Engine Optimization (AEO)",
-            "description": "Get your business cited by Google AI Overviews, ChatGPT, Claude, and Perplexity. Stop competing for rankings. Start being THE answer.",
+            "description": "Get your business cited by Gemini, ChatGPT, Claude, and Perplexity. 90-day guarantee. Exclusive territory protection. Stop competing for rankings, start being THE answer.",
             "url": "https://theanswerengine.ai",
             "inLanguage": "en-US"
           })
         }}
       />
 
-      {/* Service Schema */}
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{
@@ -234,7 +225,7 @@ export default function Home() {
             "@context": "https://schema.org",
             "@type": "Service",
             "name": "Answer Engine Optimization",
-            "description": "Professional Answer Engine Optimization service that gets local businesses cited by Google AI Overviews and other AI platforms instead of their competitors",
+            "description": "Professional Answer Engine Optimization service with 90-day citation guarantee. We get local businesses cited by Gemini, ChatGPT, Claude, and Perplexity. Exclusive territory - only one business per category per area.",
             "provider": {
               "@type": "Organization",
               "name": "The Answer Engine"
@@ -245,7 +236,6 @@ export default function Home() {
         }}
       />
 
-      {/* FAQPage Schema */}
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{
@@ -258,23 +248,23 @@ export default function Home() {
                 "name": "What is Answer Engine Optimization?",
                 "acceptedAnswer": {
                   "@type": "Answer",
-                  "text": "Answer Engine Optimization (AEO) is the practice of optimizing content to be cited by AI platforms like Google AI Overviews, ChatGPT, Claude, and Perplexity as the authoritative answer, rather than just ranking in traditional search results."
+                  "text": "Answer Engine Optimization (AEO) is the practice of optimizing content to be cited by AI platforms like Gemini, ChatGPT, Claude, and Perplexity as the authoritative answer, rather than just ranking in traditional search results."
                 }
               },
               {
                 "@type": "Question",
-                "name": "How long does it take to see results?",
+                "name": "Do you guarantee results?",
                 "acceptedAnswer": {
                   "@type": "Answer",
-                  "text": "Most businesses see their first AI citations within 60-90 days of implementation. Full AI citation dominance across multiple platforms typically takes 3-6 months."
+                  "text": "Yes. We offer a 90-day citation guarantee. If you don't get cited by at least 2 AI engines within 90 days, we'll continue working for free until you do, or provide a full refund. Your choice."
                 }
               },
               {
                 "@type": "Question",
-                "name": "What's included in the Answer Authority Foundation Package?",
+                "name": "Do you work with competing businesses in the same area?",
                 "acceptedAnswer": {
                   "@type": "Answer",
-                  "text": "The package includes comprehensive content optimization, technical implementation, multi-platform AI citation testing, and a 90-day performance guarantee."
+                  "text": "No. We only work with one business per category per geographic area. Once you secure your spot, we will not work with any competing business in your service area. Your authority position is protected."
                 }
               }
             ]
@@ -305,6 +295,7 @@ export default function Home() {
           <div className="luxury-pixel w-3 h-3 brand-orange rounded-sm" style={{animationDelay: '0.8s'}} />
         </div>
 
+        {/* 1. HERO SECTION */}
         <section className="relative max-w-6xl mx-auto px-6 pt-20 sm:pt-32 pb-32 sm:pb-40">
           <div className="flex justify-center mb-16">
             <video 
@@ -324,7 +315,6 @@ export default function Home() {
             </video>
           </div>
 
-          {/* BRAND COLOR PIXEL DIVIDER */}
           <div className="flex justify-center gap-3 mb-12">
             <div className="luxury-pixel w-4 h-4 brand-orange rounded-sm" style={{animationDelay: '0s'}} />
             <div className="luxury-pixel w-4 h-4 brand-purple rounded-sm" style={{animationDelay: '0.4s'}} />
@@ -332,35 +322,16 @@ export default function Home() {
           </div>
 
           <div className="text-center mb-16">
-            {/* Google AI Badge */}
-            <div className="inline-flex items-center gap-3 px-6 py-3 rounded-2xl mb-8 bg-gradient-to-r from-blue-500/10 via-red-500/10 via-yellow-500/10 to-green-500/10 border border-white/[0.1] google-accent">
-              <svg className="w-5 h-5" viewBox="0 0 24 24" fill="none">
-                <path d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z" fill="#4285F4"/>
-                <path d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z" fill="#34A853"/>
-                <path d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l2.85-2.22.81-.62z" fill="#FBBC05"/>
-                <path d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z" fill="#EA4335"/>
-              </svg>
-              <span className="text-sm font-medium text-white tracking-wide">Featured in Google AI Overviews</span>
-            </div>
-
             <h1 className="text-5xl sm:text-6xl lg:text-7xl font-light mb-8 leading-tight text-gray-100">
-              Get Your Business<br />
-              <span className="font-normal text-white">Cited by AI</span>
+              Your Competitors Are Being<br />
+              <span className="font-normal text-white">Cited By ChatGPT. Are You?</span>
             </h1>
             
-            <p className="text-2xl sm:text-3xl mb-8 font-light" style={{color: '#f27d24'}}>
-              Stop Competing for Rankings. Start Being THE Answer.
+            <p className="text-xl text-gray-400 max-w-3xl mx-auto leading-relaxed font-light mb-12">
+              Right now, when someone asks AI for the best plumber in Phoenix, HVAC contractor in Los Angeles, real estate agent in Chicago, or electrician in Charlotte, AI recommends your competitors.
+              <br /><br />
+              <span className="text-white font-medium">We make AI cite you instead across Gemini, ChatGPT, Claude & Perplexity.</span>
             </p>
-
-            <p className="text-xl text-gray-400 max-w-3xl mx-auto leading-relaxed font-light mb-6">
-              While your competitors fight for page 1 rankings, you become the authoritative answer that <span className="text-white font-medium">Google AI Overviews</span>, ChatGPT, Claude, and Perplexity recommend.
-            </p>
-
-            {/* Google Emphasis Badge */}
-            <div className="inline-flex items-center gap-2 px-4 py-2 rounded-xl mb-12 bg-blue-500/5 border border-blue-500/20">
-              <div className="w-1.5 h-1.5 bg-blue-400 rounded-full" />
-              <span className="text-sm text-blue-300">Optimized for Google's Gemini AI + Other Platforms</span>
-            </div>
 
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a 
@@ -368,25 +339,91 @@ export default function Home() {
                 className="inline-flex items-center justify-center gap-3 px-8 py-4 rounded-xl text-lg font-medium text-white transition-all shadow-lg hover:shadow-xl"
                 style={{background: 'linear-gradient(to right, #f27d24, #d66d1f)', boxShadow: '0 10px 40px rgba(242, 125, 36, 0.25)'}}
               >
-                Get Your Free Answer Audit
+                Get My Free Lead Analysis
                 <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={2}>
                   <path strokeLinecap="round" strokeLinejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3" />
                 </svg>
               </a>
               
               <a 
-                href="/case-studies"
+                href="tel:2134442229"
                 className="inline-flex items-center justify-center gap-3 px-8 py-4 rounded-xl text-lg font-medium bg-white/[0.05] text-gray-300 hover:bg-white/[0.08] border border-white/[0.1] hover:border-white/[0.2] transition-all"
               >
-                View Case Studies
-                <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={2}>
-                  <path strokeLinecap="round" strokeLinejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3" />
-                </svg>
+                📱 Text Me: (213) 444-2229
               </a>
             </div>
           </div>
         </section>
 
+        {/* 2. PROTECTED TERRITORY BANNER */}
+        <section className="max-w-6xl mx-auto px-6 pb-32">
+          <div className="bg-gradient-to-r from-[#362478]/10 to-[#f27d24]/10 border border-white/[0.1] rounded-2xl p-8 text-center relative overflow-hidden">
+            <div className="absolute top-4 left-4">
+              <div className="luxury-pixel w-2 h-2 brand-purple rounded-sm" />
+            </div>
+            <div className="absolute bottom-4 right-4">
+              <div className="luxury-pixel w-2 h-2 brand-orange rounded-sm" />
+            </div>
+            
+            <h3 className="text-2xl sm:text-3xl font-light mb-3 text-gray-100">
+              ⚡ <span className="font-normal text-white">Protected Territory:</span> Only One Business Per Category, Per Area
+            </h3>
+            <p className="text-gray-400 max-w-2xl mx-auto">
+              First come, first served. Your competitors are locked out once you claim your spot.
+            </p>
+          </div>
+        </section>
+
+        {/* 3. CASE STUDY SECTION */}
+        <section className="max-w-6xl mx-auto px-6 pb-32">
+          <div className="bg-white/[0.02] backdrop-blur-xl border border-white/[0.05] rounded-3xl p-12 sm:p-16 relative overflow-hidden">
+            <div className="absolute top-6 left-6 flex gap-2">
+              <div className="luxury-pixel w-2.5 h-2.5 brand-orange rounded-sm" />
+              <div className="luxury-pixel w-2.5 h-2.5 brand-purple rounded-sm" style={{animationDelay: '0.5s'}} />
+            </div>
+
+            <div className="text-center mb-12">
+              <div className="inline-flex items-center gap-2 px-4 py-2 rounded-xl mb-8 border" style={{background: 'linear-gradient(to right, rgba(54, 36, 120, 0.1), rgba(54, 36, 120, 0.15))', borderColor: 'rgba(54, 36, 120, 0.2)'}}>
+                <div className="luxury-pixel w-2 h-2 brand-purple rounded-sm" />
+                <span className="text-sm font-medium tracking-wider uppercase" style={{color: '#a89bd9'}}>Case Study</span>
+              </div>
+
+              <h2 className="text-4xl sm:text-5xl lg:text-6xl font-light mb-8 leading-tight text-gray-100">
+                If It Works In <span className="font-normal text-white">Real Estate</span>,<br />
+                It Works Anywhere
+              </h2>
+              
+              <p className="text-xl text-gray-400 max-w-3xl mx-auto leading-relaxed font-light mb-12">
+                We tested this on LA County real estate: 70,000+ agents competing for the same prospects.
+                <br /><br />
+                <span className="text-white font-medium">Justin Borges</span> (13+ years, $200M+ in sales) became the ONE agent AI recommends in his area. No ads. No algorithm chasing. Just authority.
+                <br /><br />
+                If it works in the most competitive market, it works for plumbers, HVAC, dentists, attorneys, and any local business with far less competition.
+              </p>
+
+              <p className="text-2xl font-light" style={{color: '#f27d24'}}>
+                We proved it in LA. Now we're bringing it to Phoenix, Chicago, Charlotte, and cities nationwide.
+              </p>
+            </div>
+
+            <div className="absolute bottom-6 right-6 flex gap-2">
+              <div className="luxury-pixel w-2.5 h-2.5 brand-purple rounded-sm" style={{animationDelay: '0.3s'}} />
+              <div className="luxury-pixel w-2.5 h-2.5 brand-orange rounded-sm" style={{animationDelay: '0.7s'}} />
+            </div>
+          </div>
+        </section>
+
+        <div className="max-w-6xl mx-auto px-6">
+          <div className="flex justify-center gap-2 mb-32 opacity-60">
+            <div className="luxury-pixel w-3 h-3 brand-orange rounded-sm" />
+            <div className="w-px h-3 bg-gradient-to-b from-[#f27d24]/20 via-[#362478]/20 to-[#f27d24]/20" />
+            <div className="luxury-pixel w-3 h-3 brand-purple rounded-sm" style={{animationDelay: '0.3s'}} />
+            <div className="w-px h-3 bg-gradient-to-b from-[#362478]/20 via-[#f27d24]/20 to-[#362478]/20" />
+            <div className="luxury-pixel w-3 h-3 brand-orange rounded-sm" style={{animationDelay: '0.6s'}} />
+          </div>
+        </div>
+
+        {/* 4. STATS SECTION */}
         <section ref={statsRef} className="max-w-6xl mx-auto px-6 pb-32">
           <div className="bg-white/[0.03] backdrop-blur-xl border border-white/[0.05] rounded-2xl p-12 sm:p-16 relative overflow-hidden">
             <div className="absolute top-4 left-4 flex gap-2">
@@ -439,82 +476,12 @@ export default function Home() {
           </div>
         </div>
 
-        <section className="max-w-6xl mx-auto px-6 pb-32">
-          <div className="text-center mb-16">
-            <div className="inline-flex items-center gap-2 px-4 py-2 rounded-xl mb-8 border" style={{background: 'linear-gradient(to right, rgba(54, 36, 120, 0.1), rgba(54, 36, 120, 0.15))', borderColor: 'rgba(54, 36, 120, 0.2)'}}>
-              <div className="luxury-pixel w-2 h-2 brand-purple rounded-sm" />
-              <span className="text-sm font-medium tracking-wider uppercase" style={{color: '#a89bd9'}}>The Problem</span>
-            </div>
-
-            <h2 className="text-4xl sm:text-5xl lg:text-6xl font-light mb-8 leading-tight text-gray-100">
-              The Search Landscape Has<br />
-              <span className="font-normal text-white">Fundamentally Changed</span>
-            </h2>
-
-            <p className="text-xl text-gray-400 max-w-3xl mx-auto leading-relaxed font-light">
-              <span className="text-white font-medium">Google AI Overviews (powered by Gemini)</span>, ChatGPT, Claude, and Perplexity now answer questions directly—above all traditional rankings.
-            </p>
-          </div>
-
-          <div className="grid md:grid-cols-3 gap-6 max-w-5xl mx-auto">
-            {[
-              {
-                title: "Google AI Overviews Dominate",
-                description: "Google's AI-powered answers appear above traditional results, capturing attention before users even see rankings.",
-                icon: (
-                  <svg className="w-6 h-6" viewBox="0 0 24 24" fill="none">
-                    <path d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z" fill="currentColor"/>
-                  </svg>
-                ),
-                bgStyle: {background: 'linear-gradient(to bottom right, rgba(66, 133, 244, 0.1), rgba(66, 133, 244, 0.15))'}
-              },
-              {
-                title: "AI Citations Win",
-                description: "AI platforms cite 2-3 sources maximum. You're either the recommended answer or you're invisible.",
-                icon: (
-                  <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={2}>
-                    <path strokeLinecap="round" strokeLinejoin="round" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
-                  </svg>
-                ),
-                bgStyle: {background: 'linear-gradient(to bottom right, rgba(242, 125, 36, 0.1), rgba(214, 109, 31, 0.15))'}
-              },
-              {
-                title: "Early Advantage",
-                description: "Most competitors haven't adapted yet. The businesses that move now dominate their markets.",
-                icon: (
-                  <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={2}>
-                    <path strokeLinecap="round" strokeLinejoin="round" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
-                  </svg>
-                ),
-                bgStyle: {background: 'linear-gradient(to bottom right, rgba(54, 36, 120, 0.1), rgba(42, 26, 95, 0.15))'}
-              }
-            ].map((item, i) => (
-              <div key={i} className="bg-white/[0.02] backdrop-blur-xl border border-white/[0.05] rounded-2xl p-8 hover:border-white/[0.08] transition-colors">
-                <div className="w-12 h-12 rounded-xl flex items-center justify-center mb-6 mx-auto text-white" style={item.bgStyle}>
-                  {item.icon}
-                </div>
-                <h3 className="text-xl font-medium text-white mb-3 text-center">{item.title}</h3>
-                <p className="text-gray-400 text-center leading-relaxed font-light">{item.description}</p>
-              </div>
-            ))}
-          </div>
-        </section>
-
-        <div className="max-w-6xl mx-auto px-6">
-          <div className="flex justify-center gap-2 mb-32 opacity-60">
-            <div className="luxury-pixel w-3 h-3 brand-orange rounded-sm" />
-            <div className="w-px h-3 bg-gradient-to-b from-[#f27d24]/20 via-[#362478]/20 to-[#f27d24]/20" />
-            <div className="luxury-pixel w-3 h-3 brand-purple rounded-sm" style={{animationDelay: '0.3s'}} />
-            <div className="w-px h-3 bg-gradient-to-b from-[#362478]/20 via-[#f27d24]/20 to-[#362478]/20" />
-            <div className="luxury-pixel w-3 h-3 brand-orange rounded-sm" style={{animationDelay: '0.6s'}} />
-          </div>
-        </div>
-
+        {/* 5. HOW IT WORKS SECTION */}
         <section className="max-w-6xl mx-auto px-6 pb-32">
           <div className="text-center mb-16">
             <div className="inline-flex items-center gap-2 px-4 py-2 rounded-xl mb-8 border" style={{background: 'linear-gradient(to right, rgba(242, 125, 36, 0.1), rgba(214, 109, 31, 0.15))', borderColor: 'rgba(242, 125, 36, 0.2)'}}>
-              <div className="luxury-pixel w-2 h-2 brand-orange rounded-sm animate-pulse" />
-              <span className="text-sm font-medium tracking-wider uppercase" style={{color: '#f27d24'}}>The Solution</span>
+              <div className="luxury-pixel w-2 h-2 brand-orange rounded-sm" />
+              <span className="text-sm font-medium tracking-wider uppercase" style={{color: '#f27d24'}}>How It Works</span>
             </div>
 
             <h2 className="text-4xl sm:text-5xl lg:text-6xl font-light mb-8 leading-tight text-gray-100">
@@ -523,15 +490,35 @@ export default function Home() {
             </h2>
 
             <p className="text-xl text-gray-400 max-w-3xl mx-auto leading-relaxed font-light">
-              Through proven methodologies developed over two years of testing, we position your business as the authority that Google AI Overviews and other platforms cite—not your competitors.
+              Traditional SEO is dead. AI engines decide who gets recommended, not search rankings.
             </p>
           </div>
 
-          <div className="grid md:grid-cols-3 gap-6 max-w-5xl mx-auto">
+          <div className="grid md:grid-cols-4 gap-6 max-w-6xl mx-auto">
             {[
               {
-                title: "Expertise Extraction",
-                description: "We capture and structure your authentic expertise in formats Google's Gemini AI and other platforms recognize and trust.",
+                title: "Who's Getting Your Leads Report",
+                description: "We test 50+ customer queries across Gemini, ChatGPT, Claude & Perplexity to see which businesses AI recommends in your area.",
+                icon: (
+                  <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={2}>
+                    <path strokeLinecap="round" strokeLinejoin="round" d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2" />
+                  </svg>
+                ),
+                bgStyle: {background: 'linear-gradient(to bottom right, rgba(242, 125, 36, 0.1), rgba(214, 109, 31, 0.15))'}
+              },
+              {
+                title: "Gap Analysis",
+                description: "We identify the exact content, structure, and signals AI engines need to cite your business over competitors.",
+                icon: (
+                  <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={2}>
+                    <path strokeLinecap="round" strokeLinejoin="round" d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z" />
+                  </svg>
+                ),
+                bgStyle: {background: 'linear-gradient(to bottom right, rgba(54, 36, 120, 0.1), rgba(42, 26, 95, 0.15))'}
+              },
+              {
+                title: "Answer Authority Foundation",
+                description: "We create 6 research-backed articles in your authentic voice, structured specifically for AI citation.",
                 icon: (
                   <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={2}>
                     <path strokeLinecap="round" strokeLinejoin="round" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
@@ -540,24 +527,14 @@ export default function Home() {
                 bgStyle: {background: 'linear-gradient(to bottom right, rgba(242, 125, 36, 0.1), rgba(214, 109, 31, 0.15))'}
               },
               {
-                title: "Technical Implementation",
-                description: "Specialized technical infrastructure that makes your content parseable and verifiable by AI systems.",
+                title: "Citation Monitoring",
+                description: "Track your monthly citation rate. Watch AI engines start recommending you to prospects asking buying questions.",
                 icon: (
                   <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={2}>
-                    <path strokeLinecap="round" strokeLinejoin="round" d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4" />
+                    <path strokeLinecap="round" strokeLinejoin="round" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
                   </svg>
                 ),
                 bgStyle: {background: 'linear-gradient(to bottom right, rgba(54, 36, 120, 0.1), rgba(42, 26, 95, 0.15))'}
-              },
-              {
-                title: "Multi-Platform Verification",
-                description: "Systematic testing across Google AI Overviews, ChatGPT, Claude, and Perplexity until you dominate.",
-                icon: (
-                  <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={2}>
-                    <path strokeLinecap="round" strokeLinejoin="round" d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z" />
-                  </svg>
-                ),
-                bgStyle: {background: 'linear-gradient(to bottom right, rgba(242, 125, 36, 0.1), rgba(214, 109, 31, 0.15))'}
               }
             ].map((item, i) => (
               <div key={i} className="bg-white/[0.02] backdrop-blur-xl border border-white/[0.05] rounded-2xl p-8 hover:border-white/[0.08] transition-colors">
@@ -565,7 +542,7 @@ export default function Home() {
                   {item.icon}
                 </div>
                 <h3 className="text-xl font-medium text-white mb-3 text-center">{item.title}</h3>
-                <p className="text-gray-400 text-center leading-relaxed font-light">{item.description}</p>
+                <p className="text-gray-400 text-center leading-relaxed font-light text-sm">{item.description}</p>
               </div>
             ))}
           </div>
@@ -581,62 +558,43 @@ export default function Home() {
           </div>
         </div>
 
+        {/* 6. GUARANTEE SECTION (NO PRICING) */}
         <section className="max-w-4xl mx-auto px-6 pb-32">
-          <div className="bg-white/[0.02] backdrop-blur-xl border border-white/[0.05] rounded-3xl p-12 sm:p-16 relative overflow-hidden">
-            <div className="absolute top-6 left-6 flex gap-2">
+          <div className="bg-gradient-to-r from-green-500/10 to-green-600/10 border border-green-500/20 rounded-2xl p-12 sm:p-16 relative overflow-hidden">
+            <div className="absolute top-6 left-6">
               <div className="luxury-pixel w-2.5 h-2.5 brand-orange rounded-sm" />
-              <div className="luxury-pixel w-2.5 h-2.5 brand-purple rounded-sm" style={{animationDelay: '0.5s'}} />
             </div>
-
-            <div className="text-center mb-12">
-              <div className="inline-flex items-center gap-2 px-4 py-2 rounded-xl mb-8 border" style={{background: 'linear-gradient(to right, rgba(242, 125, 36, 0.1), rgba(214, 109, 31, 0.15))', borderColor: 'rgba(242, 125, 36, 0.2)'}}>
-                <div className="luxury-pixel w-2 h-2 brand-orange rounded-sm" />
-                <span className="text-sm font-medium tracking-wider uppercase" style={{color: '#f27d24'}}>Our Package</span>
+            
+            <div className="text-center">
+              <div className="w-20 h-20 rounded-full flex items-center justify-center mx-auto mb-6" style={{background: 'linear-gradient(to bottom right, #10b981, #059669)'}}>
+                <svg className="w-10 h-10 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={2}>
+                  <path strokeLinecap="round" strokeLinejoin="round" d="M9 12.75L11.25 15 15 9.75m-3-7.036A11.959 11.959 0 013.598 6 11.99 11.99 0 003 9.749c0 5.592 3.824 10.29 9 11.623 5.176-1.332 9-6.03 9-11.622 0-1.31-.21-2.571-.598-3.751h-.152c-3.196 0-6.1-1.248-8.25-3.285z" />
+                </svg>
               </div>
-
-              <h2 className="text-3xl sm:text-4xl lg:text-5xl font-light mb-6 text-gray-100 leading-tight">
-                The <span className="font-normal text-white">Answer Authority Foundation</span>
+              
+              <h2 className="text-4xl sm:text-5xl font-light mb-4 text-gray-100">
+                <span className="font-normal text-white">Zero-Risk Guarantee</span>
               </h2>
               
-              <p className="text-xl text-gray-400 mb-12 leading-relaxed font-light">
-                Everything you need to dominate Google AI Overviews and other AI platforms in your market.
+              <p className="text-2xl font-light mb-6" style={{color: '#f27d24'}}>
+                Get cited within 90 days, or we work for free until you do.
               </p>
+              
+              <p className="text-lg text-gray-300 max-w-2xl mx-auto leading-relaxed mb-8">
+                Don't want to wait? Get a full refund instead. <span className="text-white font-medium">Your choice.</span>
+                <br /><br />
+                We've never had to give a refund. When you follow our process, AI engines cite you.
+              </p>
+              
+              <div className="bg-white/[0.03] border border-white/[0.05] rounded-xl p-6 max-w-xl mx-auto">
+                <p className="text-gray-400 leading-relaxed">
+                  Plus, your territory is protected. Once you secure your spot, we won't work with any competing business in your category and area.
+                </p>
+              </div>
             </div>
-
-            <div className="space-y-4 mb-12">
-              {[
-                "Complete content optimization for Google AI Overviews and other AI platforms",
-                "Technical implementation and schema markup",
-                "Multi-platform AI citation verification",
-                "90-day performance guarantee"
-              ].map((text, i) => (
-                <div key={i} className="flex items-start gap-4 p-4 rounded-xl bg-white/[0.02] border border-white/[0.03] hover:border-white/[0.06] transition-colors">
-                  <div className="flex-shrink-0 w-6 h-6 rounded-lg flex items-center justify-center mt-0.5" style={{background: 'linear-gradient(to bottom right, rgba(242, 125, 36, 0.2), rgba(214, 109, 31, 0.2))', borderColor: 'rgba(242, 125, 36, 0.2)', borderWidth: '1px'}}>
-                    <svg className="w-4 h-4" style={{color: '#f27d24'}} fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2.5}>
-                      <path strokeLinecap="round" strokeLinejoin="round" d="M5 13l4 4L19 7" />
-                    </svg>
-                  </div>
-                  <span className="text-gray-300 text-base leading-relaxed">{text}</span>
-                </div>
-              ))}
-            </div>
-
-            <div className="text-center">
-              <a 
-                href="#audit-form"
-                className="inline-flex items-center justify-center gap-3 px-8 py-4 rounded-xl text-lg font-medium text-white transition-all shadow-lg hover:shadow-xl"
-                style={{background: 'linear-gradient(to right, #f27d24, #d66d1f)', boxShadow: '0 10px 40px rgba(242, 125, 36, 0.25)'}}
-              >
-                Get Your Free Answer Audit
-                <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={2}>
-                  <path strokeLinecap="round" strokeLinejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3" />
-                </svg>
-              </a>
-            </div>
-
-            <div className="absolute bottom-6 right-6 flex gap-2">
-              <div className="luxury-pixel w-2.5 h-2.5 brand-purple rounded-sm" style={{animationDelay: '0.3s'}} />
-              <div className="luxury-pixel w-2.5 h-2.5 brand-orange rounded-sm" style={{animationDelay: '0.7s'}} />
+            
+            <div className="absolute bottom-6 right-6">
+              <div className="luxury-pixel w-2.5 h-2.5 brand-purple rounded-sm" style={{animationDelay: '0.5s'}} />
             </div>
           </div>
         </section>
@@ -651,6 +609,68 @@ export default function Home() {
           </div>
         </div>
 
+        {/* 7. TEXT ME CALLOUT */}
+        <section className="max-w-4xl mx-auto px-6 pb-32">
+          <div className="bg-white/[0.02] backdrop-blur-xl border border-white/[0.05] rounded-3xl p-12 relative overflow-hidden">
+            <div className="absolute top-6 left-6">
+              <div className="luxury-pixel w-2.5 h-2.5 brand-orange rounded-sm" />
+            </div>
+            <div className="absolute bottom-6 right-6">
+              <div className="luxury-pixel w-2.5 h-2.5 brand-purple rounded-sm" style={{animationDelay: '0.5s'}} />
+            </div>
+
+            <div className="text-center">
+              <h3 className="text-3xl font-light mb-4 text-gray-100">
+                <span className="font-normal text-white">Not Sure If This Is Right For You?</span>
+              </h3>
+              
+              <p className="text-xl text-gray-400 mb-6 leading-relaxed">
+                Text me your industry, city, and biggest lead headache.
+              </p>
+
+              <p className="text-base text-gray-400 max-w-2xl mx-auto mb-8 leading-relaxed">
+                If you're not a fit, I'll tell you. If your competitor claimed your territory, I'll tell you. If this won't work, I'll say so. No pitch, just honest answers.
+              </p>
+
+              <a 
+                href="tel:2134442229"
+                className="inline-flex items-center justify-center gap-3 px-8 py-4 rounded-xl text-2xl font-medium text-white transition-all shadow-lg hover:shadow-xl mb-4"
+                style={{background: 'linear-gradient(to right, #f27d24, #d66d1f)', boxShadow: '0 10px 40px rgba(242, 125, 36, 0.25)'}}
+              >
+                📱 (213) 444-2229
+              </a>
+
+              <p className="text-sm text-gray-500 mb-8">
+                Usually respond within 2 hours during business hours.
+              </p>
+
+              <div className="border-t border-white/[0.05] pt-8">
+                <p className="text-gray-400 mb-4">Or prefer the formal route?</p>
+                <a 
+                  href="#audit-form"
+                  className="inline-flex items-center gap-2 text-[#f27d24] hover:text-[#d66d1f] transition-colors text-lg"
+                >
+                  Get My Free Lead Analysis
+                  <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={2}>
+                    <path strokeLinecap="round" strokeLinejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3" />
+                  </svg>
+                </a>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <div className="max-w-6xl mx-auto px-6">
+          <div className="flex justify-center gap-2 mb-32 opacity-60">
+            <div className="luxury-pixel w-3 h-3 brand-orange rounded-sm" />
+            <div className="w-px h-3 bg-gradient-to-b from-[#f27d24]/20 via-[#362478]/20 to-[#f27d24]/20" />
+            <div className="luxury-pixel w-3 h-3 brand-purple rounded-sm" style={{animationDelay: '0.3s'}} />
+            <div className="w-px h-3 bg-gradient-to-b from-[#362478]/20 via-[#f27d24]/20 to-[#362478]/20" />
+            <div className="luxury-pixel w-3 h-3 brand-orange rounded-sm" style={{animationDelay: '0.6s'}} />
+          </div>
+        </div>
+
+        {/* 8. FORM SECTION */}
         <section id="audit-form" className="max-w-4xl mx-auto px-6 pb-32">
           <div className="bg-white/[0.02] backdrop-blur-xl border border-white/[0.05] rounded-3xl p-12 sm:p-16 relative overflow-hidden">
             <div className="absolute top-6 left-6 flex gap-2">
@@ -666,15 +686,19 @@ export default function Home() {
 
               <h2 className="text-3xl sm:text-4xl lg:text-5xl font-light mb-6 text-gray-100 leading-tight">
                 Get Your Free<br />
-                <span className="font-normal text-white">Answer Audit</span>
+                <span className="font-normal text-white">Lead Analysis</span>
               </h2>
               
               <p className="text-lg text-gray-400 max-w-2xl mx-auto leading-relaxed mb-4">
-                Discover exactly where you rank in <span className="text-white font-medium">Google AI Overviews</span> and other AI platforms when they answer questions about your services.
+                See exactly where AI engines are recommending your competitors and how to position your business as the trusted answer instead.
               </p>
               
+              <p className="text-base font-medium text-white max-w-2xl mx-auto mb-4">
+                Plus: Find out if your territory is still available.
+              </p>
+
               <p className="text-base text-gray-500 max-w-2xl mx-auto">
-                See which competitors are getting cited instead of you across Google, ChatGPT, Claude, and Perplexity.
+                We only work with one business per category, per area. Whether you're in Los Angeles, Phoenix, Chicago, Charlotte, or anywhere else, if a competitor in your area claimed their spot, we'll let you know.
               </p>
             </div>
 
@@ -687,14 +711,14 @@ export default function Home() {
                 </div>
                 <h3 className="text-2xl font-medium text-white mb-3">Thank You!</h3>
                 <p className="text-gray-300 leading-relaxed">
-                  We've received your request. Our team will analyze your AI citation performance and send you a detailed Answer Audit within 24-48 hours.
+                  We've received your request. Our team will analyze your AI citation performance and send you a detailed Lead Analysis within 48 hours.
                 </p>
               </div>
             ) : (
               <>
                 {submitStatus === 'error' && (
                   <div className="border rounded-2xl p-4 mb-6 text-center" style={{background: 'linear-gradient(to right, rgba(234, 67, 53, 0.1), rgba(234, 67, 53, 0.15))', borderColor: 'rgba(234, 67, 53, 0.2)'}}>
-                    <p style={{color: '#ea4335'}}>There was an error submitting your form. Please try again.</p>
+                    <p style={{color: '#ea4335'}}>There was an error submitting your form. Please try again or text us at (213) 444-2229.</p>
                   </div>
                 )}
                 
@@ -703,20 +727,32 @@ export default function Home() {
                     <label htmlFor="name" className="block text-sm font-medium text-gray-300 mb-2">
                       Your Name *
                     </label>
-                    <div>
-  <label htmlFor="name" className="block text-sm font-medium text-gray-300 mb-2">
-  </label>
-  <input
-    type="text"
-    id="name"
-    name="name"
-    required
-    value={formData.name}
-    onChange={handleChange}
-    className="w-full px-4 py-3 rounded-xl bg-white/[0.05] border border-white/[0.1] text-white placeholder-gray-500 focus:outline-none focus:border-[#f27d24]/50 focus:bg-white/[0.08] transition-all"
-    placeholder="John Smith"
-  />
-</div>
+                    <input
+                      type="text"
+                      id="name"
+                      name="name"
+                      required
+                      value={formData.name}
+                      onChange={handleChange}
+                      className="w-full px-4 py-3 rounded-xl bg-white/[0.05] border border-white/[0.1] text-white placeholder-gray-500 focus:outline-none focus:border-[#f27d24]/50 focus:bg-white/[0.08] transition-all"
+                      placeholder="John Smith"
+                    />
+                  </div>
+
+                  <div>
+                    <label htmlFor="email" className="block text-sm font-medium text-gray-300 mb-2">
+                      Email Address *
+                    </label>
+                    <input
+                      type="email"
+                      id="email"
+                      name="email"
+                      required
+                      value={formData.email}
+                      onChange={handleChange}
+                      className="w-full px-4 py-3 rounded-xl bg-white/[0.05] border border-white/[0.1] text-white placeholder-gray-500 focus:outline-none focus:border-[#f27d24]/50 focus:bg-white/[0.08] transition-all"
+                      placeholder="john@example.com"
+                    />
                   </div>
 
                   <div>
@@ -730,24 +766,23 @@ export default function Home() {
                       required
                       value={formData.company}
                       onChange={handleChange}
-                      className="w-full px-4 py-3 rounded-xl bg-white/[0.05] border border-white/[0.1] text-white placeholder-gray-500 focus:outline-none focus:bg-white/[0.08] transition-all"
+                      className="w-full px-4 py-3 rounded-xl bg-white/[0.05] border border-white/[0.1] text-white placeholder-gray-500 focus:outline-none focus:border-[#f27d24]/50 focus:bg-white/[0.08] transition-all"
                       placeholder="Acme Corporation"
                     />
                   </div>
 
                   <div>
                     <label htmlFor="website" className="block text-sm font-medium text-gray-300 mb-2">
-                      Website URL *
+                      Website URL <span className="text-gray-500 font-normal">(Optional)</span>
                     </label>
                     <input
-                      type="url"
+                      type="text"
                       id="website"
                       name="website"
-                      required
                       value={formData.website}
                       onChange={handleChange}
-                      className="w-full px-4 py-3 rounded-xl bg-white/[0.05] border border-white/[0.1] text-white placeholder-gray-500 focus:outline-none focus:bg-white/[0.08] transition-all"
-                      placeholder="https://www.example.com"
+                      className="w-full px-4 py-3 rounded-xl bg-white/[0.05] border border-white/[0.1] text-white placeholder-gray-500 focus:outline-none focus:border-[#f27d24]/50 focus:bg-white/[0.08] transition-all"
+                      placeholder="www.example.com or leave blank"
                     />
                   </div>
 
@@ -767,7 +802,7 @@ export default function Home() {
                       </>
                     ) : (
                       <>
-                        Get My Free Answer Audit
+                        Get My Free Lead Analysis
                         <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={2}>
                           <path strokeLinecap="round" strokeLinejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3" />
                         </svg>
@@ -775,9 +810,14 @@ export default function Home() {
                     )}
                   </button>
 
-                  <p className="text-center text-sm text-gray-500 mt-4">
-                    We'll analyze your performance in Google AI Overviews and show you exactly where competitors are winning.
-                  </p>
+                  <div className="text-center pt-6 border-t border-white/[0.05]">
+                    <p className="text-sm text-gray-500 mb-4">
+                      Covered by our guarantee: Get cited within 90 days, or we work for free until you do. Or full refund. Your choice.
+                    </p>
+                    <p className="text-sm text-gray-400">
+                      Or skip the form and text JB directly: <a href="tel:2134442229" className="text-[#f27d24] hover:text-[#d66d1f]">(213) 444-2229</a>
+                    </p>
+                  </div>
                 </form>
               </>
             )}
