@@ -53,5 +53,16 @@
     "image": "/images/how-to-get-ai-recommend-business-featured.png",
     "publishDate": "2025-11-09",
     "featured": true
+  },
+  {
+    "id": 6,
+    "title": "Is Answer Engine Optimization Worth It for Local Service Businesses?",
+    "slug": "is-answer-engine-optimization-worth-it",
+    "excerpt": "Discover which local service businesses see strongest ROI from AEO and when to invest, wait, or skip Answer Engine Optimization entirely.",
+    "category": "AEO Strategy",
+    "readTime": "14 min",
+    "image": "/images/is-aeo-worth-it-featured.png",
+    "publishDate": "2025-11-09",
+    "featured": true
   }
 ]
