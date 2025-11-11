@@ -42,5 +42,16 @@
     "image": "/images/why-businesses-fail-aeo-featured.png",
     "publishDate": "2024-12-15",
     "featured": true
+  },
+  {
+    "id": 5,
+    "title": "How to Get Google AI Overviews and ChatGPT to Recommend Your Business",
+    "slug": "how-to-get-google-ai-chatgpt-recommend-business",
+    "excerpt": "Learn the four foundation requirements AI platforms actually evaluate before citing any business—and why most companies fail at all four.",
+    "category": "Answer Engine Optimization",
+    "readTime": "12 min",
+    "image": "/images/how-to-get-ai-recommend-business-featured.png",
+    "publishDate": "2025-11-09",
+    "featured": true
   }
 ]
