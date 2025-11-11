@@ -6,7 +6,7 @@
     "excerpt": "AI platforms now answer questions directly, bypassing search results entirely. Learn why being #1 on Google no longer guarantees traffic.",
     "category": "Answer Engine Optimization",
     "readTime": "5 min",
-    "image": "/google-rankings-dont-matter-featured.png",
+    "image": "/images/google-rankings-featured.png",
     "publishDate": "2024-12-01",
     "featured": true
   },
@@ -17,7 +17,7 @@
     "excerpt": "The complete guide to AEO: what it is, why it matters, and how it's replacing traditional SEO for forward-thinking businesses.",
     "category": "AEO Fundamentals",
     "readTime": "7 min",
-    "image": "/what-is-aeo-featured.png",
+    "image": "/images/what-is-aeo-featured.png",
     "publishDate": "2024-12-05",
     "featured": true
   },
@@ -28,7 +28,7 @@
     "excerpt": "Discover the technical factors that determine which businesses get cited by ChatGPT, Claude, and Google AI Overviews.",
     "category": "AI Technology",
     "readTime": "8 min",
-    "image": "/how-ai-chooses-businesses-featured.png",
+    "image": "/images/how-ai-chooses-businesses-featured.png",
     "publishDate": "2024-12-10",
     "featured": false
   }
