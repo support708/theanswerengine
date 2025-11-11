@@ -206,26 +206,14 @@ export default function WhyBusinessesFailAEO() {
           </div>
         </header>
 
-        {/* Featured Image Placeholder */}
+        {/* Featured Image - CORRECTED */}
         <div className="max-w-4xl mx-auto px-6 mb-16">
-          <div className="relative w-full h-96 bg-gradient-to-br from-brand-purple/20 via-brand-orange/10 to-brand-red/20 rounded-2xl overflow-hidden border-2 border-brand-orange/30">
-            {/* Pixel grid overlay */}
-            <div className="absolute inset-0 opacity-30">
-              <div className="grid grid-cols-8 gap-4 h-full p-8">
-                {[...Array(64)].map((_, i) => (
-                  <div
-                    key={i}
-                    className="bg-white/10 rounded-sm animate-pulse"
-                    style={{ animationDelay: `${i * 0.05}s` }}
-                  />
-                ))}
-              </div>
-            </div>
-            
-            {/* Image attribution */}
-            <div className="absolute bottom-4 right-4 text-xs text-gray-400">
-              Featured Image
-            </div>
+          <div className="relative w-full h-96 rounded-2xl overflow-hidden border-2 border-brand-orange/30">
+            <img 
+              src="/images/why-businesses-fail-aeo-featured.jpg"
+              alt="Why Most Businesses Fail at Answer Engine Optimization"
+              className="w-full h-full object-cover"
+            />
           </div>
         </div>
 
