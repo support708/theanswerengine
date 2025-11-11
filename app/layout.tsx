@@ -76,18 +76,18 @@ export default function RootLayout({
         <nav className="bg-[#0A0A0F]/80 backdrop-blur-xl border-b border-white/[0.05] sticky top-0 z-50">
           <div className="max-w-6xl mx-auto px-6 py-4">
             <div className="flex items-center justify-between">
-              {/* Logo with Premium Text */}
-              <a href="/" className="flex items-center gap-4 group">
+              {/* Logo with Premium Text - NOW SHOWS ON ALL SCREEN SIZES */}
+              <a href="/" className="flex items-center gap-3 group">
                 <img 
                   src="/TheAnswerEngine_Color_just_logo.png" 
                   alt="The Answer Engine" 
-                  className="h-12 transition-opacity group-hover:opacity-80"
+                  className="h-10 sm:h-12 transition-opacity group-hover:opacity-80"
                 />
-                <div className="hidden lg:block">
-                  <div className="text-xl font-medium text-white tracking-tight">
+                <div>
+                  <div className="text-base sm:text-xl font-medium text-white tracking-tight">
                     The Answer Engine
                   </div>
-                  <div className="text-xs text-orange-400 font-medium tracking-[0.15em] uppercase">
+                  <div className="text-[0.65rem] sm:text-xs text-orange-400 font-medium tracking-[0.15em] uppercase">
                     Become the Answer
                   </div>
                 </div>
