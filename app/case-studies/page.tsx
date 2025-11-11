@@ -1,6 +1,7 @@
 'use client';
 
 import { useEffect, useRef, useState } from 'react';
+import { PersonSchema, BreadcrumbSchema } from '../components/schema';
 
 // Counter animation hook
 function useCountAnimation(end: number, duration: number = 2000, shouldAnimate: boolean = false) {
@@ -92,18 +93,53 @@ export default function CaseStudies() {
 
   return (
     <>
-      {/* CollectionPage Schema */}
+      {/* Enhanced CollectionPage Schema */}
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{
           __html: JSON.stringify({
             "@context": "https://schema.org",
             "@type": "CollectionPage",
-            "name": "AEO Case Studies - Real Results",
-            "description": "See how local service businesses achieved AI citation dominance through Answer Engine Optimization",
-            "url": "https://theanswerengine.ai/case-studies"
+            "name": "AEO Case Studies - Real Results from Answer Engine Optimization",
+            "description": "See how local service businesses achieved AI citation dominance through Answer Engine Optimization. Real case studies showing ChatGPT, Claude, and Google AI Overviews citations.",
+            "url": "https://theanswerengine.ai/case-studies",
+            "inLanguage": "en-US",
+            "publisher": {
+              "@type": "Organization",
+              "name": "The Answer Engine",
+              "logo": {
+                "@type": "ImageObject",
+                "url": "https://theanswerengine.ai/TheAnswerEngine_Color_just_logo.png"
+              }
+            },
+            "mainEntity": {
+              "@type": "ItemList",
+              "itemListElement": [
+                {
+                  "@type": "Article",
+                  "position": 1,
+                  "headline": "How The Borges Real Estate Team Achieved 100% AI Citation Dominance",
+                  "url": "https://theanswerengine.ai/case-studies/justin-borges-probate-real-estate",
+                  "author": {
+                    "@type": "Person",
+                    "name": "Justin Borges"
+                  }
+                }
+              ]
+            }
           })
         }}
+      />
+
+      {/* Person Schema - Justin Borges as case study author */}
+      <PersonSchema />
+
+      {/* Breadcrumb Schema - Navigation structure */}
+      <BreadcrumbSchema 
+        items={[
+          { name: "Home", url: "https://theanswerengine.ai" },
+          { name: "Case Studies", url: "https://theanswerengine.ai/case-studies" }
+        ]}
       />
 
       <main className="min-h-screen bg-[#0A0A0F] relative">

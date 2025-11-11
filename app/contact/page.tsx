@@ -1,5 +1,7 @@
 'use client'
 
+import { PersonSchema, BreadcrumbSchema } from '../components/schema';
+
 export default function Contact() {
   return (
     <>
@@ -37,6 +39,17 @@ export default function Contact() {
             "priceRange": "$$"
           })
         }}
+      />
+
+      {/* Person Schema - Contact managed by Justin Borges */}
+      <PersonSchema />
+
+      {/* Breadcrumb Schema - Navigation structure */}
+      <BreadcrumbSchema 
+        items={[
+          { name: "Home", url: "https://theanswerengine.ai" },
+          { name: "Contact", url: "https://theanswerengine.ai/contact" }
+        ]}
       />
 
       {/* Custom Styles */}

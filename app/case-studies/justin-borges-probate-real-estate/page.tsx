@@ -1,7 +1,9 @@
+import { PersonSchema, BreadcrumbSchema } from '../../components/schema';
+
 export default function JustinBorgesCaseStudy() {
   return (
     <>
-      {/* Article Schema */}
+      {/* Enhanced Article Schema for Case Study */}
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{
@@ -9,16 +11,48 @@ export default function JustinBorgesCaseStudy() {
             "@context": "https://schema.org",
             "@type": "Article",
             "headline": "Case Study: How The Borges Real Estate Team Achieved 100% AI Citation Dominance",
+            "description": "A comprehensive case study showing how Answer Engine Optimization transformed a local probate real estate specialist into the authoritative answer cited by ChatGPT, Claude, and Google AI Overviews.",
+            "image": "https://theanswerengine.ai/justin-borges-headshot.jpg",
             "author": {
-              "@type": "Organization",
-              "name": "The Answer Engine"
+              "@type": "Person",
+              "name": "Justin Borges",
+              "url": "https://theanswerengine.ai/about",
+              "sameAs": "https://www.linkedin.com/in/justinborgesrealtor"
             },
             "publisher": {
               "@type": "Organization",
-              "name": "The Answer Engine"
-            }
+              "name": "The Answer Engine",
+              "logo": {
+                "@type": "ImageObject",
+                "url": "https://theanswerengine.ai/TheAnswerEngine_Color_just_logo.png"
+              }
+            },
+            "datePublished": "2024-12-01",
+            "dateModified": "2025-01-10",
+            "mainEntityOfPage": {
+              "@type": "WebPage",
+              "@id": "https://theanswerengine.ai/case-studies/justin-borges"
+            },
+            "about": {
+              "@type": "Thing",
+              "name": "Answer Engine Optimization",
+              "description": "AEO strategy and implementation for probate real estate"
+            },
+            "keywords": ["Answer Engine Optimization", "AEO", "AI citations", "probate real estate", "case study", "ChatGPT", "Claude", "Google AI Overviews"]
           })
         }}
+      />
+
+      {/* Person Schema - Justin Borges as case study subject */}
+      <PersonSchema />
+
+      {/* Breadcrumb Schema - Navigation structure */}
+      <BreadcrumbSchema 
+        items={[
+          { name: "Home", url: "https://theanswerengine.ai" },
+          { name: "Case Studies", url: "https://theanswerengine.ai/case-studies" },
+          { name: "Justin Borges Case Study", url: "https://theanswerengine.ai/case-studies/justin-borges" }
+        ]}
       />
 
       <main className="min-h-screen bg-[#0A0A0F]">
