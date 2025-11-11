@@ -1,6 +1,7 @@
 'use client';
 
 import { useEffect, useRef, useState } from 'react';
+import { PersonSchema, BreadcrumbSchema } from './components/schema';
 
 // Counter animation hook
 function useCountAnimation(end: number, duration: number = 2000, shouldAnimate: boolean = false) {
@@ -228,17 +229,23 @@ export default function Home() {
         }}
       />
 
+      {/* Person Schema - Justin Borges as AEO authority */}
+      <PersonSchema />
+
+      {/* Breadcrumb Schema - Site structure */}
+      <BreadcrumbSchema 
+        items={[
+          { name: "Home", url: "https://theanswerengine.ai" }
+        ]}
+      />
+
       <main className="min-h-screen bg-[#0A0A0F] relative">
-        {/* Subtle gradient overlay */}
         <div className="absolute inset-0 bg-gradient-to-b from-purple-950/10 via-transparent to-orange-950/10 pointer-events-none" />
         
-        {/* Simple pixel accent - top corners */}
         <div className="absolute top-0 left-0 w-2 h-2 bg-orange-500/40" />
         <div className="absolute top-0 left-2 w-2 h-2 bg-purple-500/40" />
 
-        {/* Hero Section */}
         <section className="relative max-w-6xl mx-auto px-6 pt-20 sm:pt-32 pb-32 sm:pb-40">
-          {/* Animated Logo */}
           <div className="flex justify-center mb-16">
             <video 
               autoPlay 
@@ -257,14 +264,12 @@ export default function Home() {
             </video>
           </div>
 
-          {/* Simple pixel divider */}
           <div className="flex justify-center gap-2 mb-12">
             <div className="w-1.5 h-1.5 bg-orange-500" />
             <div className="w-1.5 h-1.5 bg-purple-500" />
             <div className="w-1.5 h-1.5 bg-orange-500" />
           </div>
 
-          {/* Hero Content */}
           <div className="text-center mb-16">
             <h1 className="text-5xl sm:text-6xl lg:text-7xl font-light mb-8 leading-tight text-gray-100">
               Get Your Business<br />
@@ -279,7 +284,6 @@ export default function Home() {
               While your competitors fight for page 1 rankings, you become the authoritative answer that AI recommends.
             </p>
 
-            {/* CTA Buttons */}
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a 
                 href="#audit-form"
@@ -304,7 +308,6 @@ export default function Home() {
           </div>
         </section>
 
-        {/* Stats Section with Animation - SLEEKER VERSION */}
         <section ref={statsRef} className="max-w-6xl mx-auto px-6 pb-32">
           <div className="bg-white/[0.03] backdrop-blur-xl border border-white/[0.05] rounded-2xl p-12 sm:p-16">
             <div className="grid md:grid-cols-3 gap-12 sm:gap-16">
@@ -337,7 +340,6 @@ export default function Home() {
           </div>
         </section>
 
-        {/* Divider */}
         <div className="max-w-6xl mx-auto px-6">
           <div className="flex justify-center gap-1 mb-32 opacity-20">
             {[...Array(50)].map((_, i) => (
@@ -346,7 +348,6 @@ export default function Home() {
           </div>
         </div>
 
-        {/* Problem Section */}
         <section className="max-w-6xl mx-auto px-6 pb-32">
           <div className="text-center mb-16">
             <div className="inline-flex items-center gap-2 px-4 py-2 rounded-xl mb-8 bg-gradient-to-r from-purple-500/10 to-purple-600/10 border border-purple-500/20">
@@ -408,7 +409,6 @@ export default function Home() {
           </div>
         </section>
 
-        {/* Divider */}
         <div className="max-w-6xl mx-auto px-6">
           <div className="flex justify-center gap-1 mb-32 opacity-20">
             {[...Array(50)].map((_, i) => (
@@ -417,7 +417,6 @@ export default function Home() {
           </div>
         </div>
 
-        {/* Solution Section */}
         <section className="max-w-6xl mx-auto px-6 pb-32">
           <div className="text-center mb-16">
             <div className="inline-flex items-center gap-2 px-4 py-2 rounded-xl mb-8 bg-gradient-to-r from-orange-500/10 to-orange-600/10 border border-orange-500/20">
@@ -479,7 +478,6 @@ export default function Home() {
           </div>
         </section>
 
-        {/* Divider */}
         <div className="max-w-6xl mx-auto px-6">
           <div className="flex justify-center gap-1 mb-32 opacity-20">
             {[...Array(50)].map((_, i) => (
@@ -488,7 +486,6 @@ export default function Home() {
           </div>
         </div>
 
-        {/* Package Section - No Price */}
         <section className="max-w-4xl mx-auto px-6 pb-32">
           <div className="bg-white/[0.02] backdrop-blur-xl border border-white/[0.05] rounded-3xl p-12 sm:p-16">
             <div className="text-center mb-12">
@@ -538,7 +535,6 @@ export default function Home() {
           </div>
         </section>
 
-        {/* Divider */}
         <div className="max-w-6xl mx-auto px-6">
           <div className="flex justify-center gap-1 mb-32 opacity-20">
             {[...Array(50)].map((_, i) => (
@@ -547,10 +543,8 @@ export default function Home() {
           </div>
         </div>
 
-        {/* Free Answer Audit Form Section */}
         <section id="audit-form" className="max-w-4xl mx-auto px-6 pb-32">
           <div className="bg-white/[0.02] backdrop-blur-xl border border-white/[0.05] rounded-3xl p-12 sm:p-16">
-            {/* Header */}
             <div className="text-center mb-12">
               <div className="flex justify-center gap-1.5 mb-8">
                 <div className="w-1 h-1 bg-orange-500/60" />
@@ -568,7 +562,6 @@ export default function Home() {
               </p>
             </div>
 
-            {/* Form */}
             {submitStatus === 'success' ? (
               <div className="bg-gradient-to-r from-green-500/10 to-green-600/10 border border-green-500/20 rounded-2xl p-8 text-center">
                 <div className="w-16 h-16 rounded-full bg-gradient-to-br from-green-500 to-green-600 flex items-center justify-center mx-auto mb-4">
@@ -590,7 +583,6 @@ export default function Home() {
                 )}
                 
                 <form onSubmit={handleSubmit} className="space-y-6">
-                  {/* Name Field */}
                   <div>
                     <label htmlFor="name" className="block text-sm font-medium text-gray-300 mb-2">
                       Your Name *
@@ -607,7 +599,6 @@ export default function Home() {
                     />
                   </div>
 
-                  {/* Company Name Field */}
                   <div>
                     <label htmlFor="company" className="block text-sm font-medium text-gray-300 mb-2">
                       Company Name *
@@ -624,7 +615,6 @@ export default function Home() {
                     />
                   </div>
 
-                  {/* Website Field */}
                   <div>
                     <label htmlFor="website" className="block text-sm font-medium text-gray-300 mb-2">
                       Website URL *
@@ -641,7 +631,6 @@ export default function Home() {
                     />
                   </div>
 
-                  {/* Submit Button */}
                   <button
                     type="submit"
                     disabled={isSubmitting}
