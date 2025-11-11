@@ -31,5 +31,16 @@
     "image": "/images/how-ai-chooses-businesses-featured.png",
     "publishDate": "2024-12-10",
     "featured": false
+  },
+  {
+    "id": 4,
+    "title": "Why Most Businesses Fail at Answer Engine Optimization",
+    "slug": "why-businesses-fail-answer-engine-optimization",
+    "excerpt": "Discover the 8 critical mistakes causing AEO implementations to fail and why businesses waste months on broken optimization without knowing it.",
+    "category": "Answer Engine Optimization",
+    "readTime": "16 min",
+    "image": "/images/why-businesses-fail-aeo-featured.jpg",
+    "publishDate": "2024-12-15",
+    "featured": true
   }
 ]
