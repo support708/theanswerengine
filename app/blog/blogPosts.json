@@ -64,5 +64,16 @@
     "image": "/images/is-aeo-worth-it-featured.png",
     "publishDate": "2025-11-09",
     "featured": true
+  },
+  {
+    "id": 7,
+    "title": "The Complete Guide to Answer Engine Optimization for Local Service Businesses",
+    "slug": "complete-guide-answer-engine-optimization",
+    "excerpt": "Everything local service businesses need to know about getting AI platforms like ChatGPT, Claude, and Google AI to cite your business instead of competitors.",
+    "category": "AEO Fundamentals",
+    "readTime": "12 min",
+    "image": "/images/aeo-complete-guide.jpg",
+    "publishDate": "2025-11-11",
+    "featured": true
   }
 ]
