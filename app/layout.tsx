@@ -3,6 +3,8 @@
 import { useState } from 'react';
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
+import { Analytics } from '@vercel/analytics/react';
+import { SpeedInsights } from '@vercel/speed-insights/next';
 import "./globals.css";
 
 const geistSans = Geist({
@@ -424,7 +426,10 @@ export default function RootLayout({
               <p className="text-gray-500 text-sm font-light">&copy; 2025 The Answer Engine. All rights reserved.</p>
             </div>
           </div>
-        </footer> 
+        </footer>
+        
+        <Analytics />
+        <SpeedInsights />
       </body>
     </html>
   );
