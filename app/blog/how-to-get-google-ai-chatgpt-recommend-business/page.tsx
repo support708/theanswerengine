@@ -1,8 +1,81 @@
+import type { Metadata } from 'next';
+import Link from 'next/link';
+import Script from 'next/script';
+
+// ISR Configuration
+export const revalidate = 86400; // 24 hours
+export const dynamic = 'force-static';
+export const dynamicParams = true;
+
+// Enhanced Metadata
+export async function generateMetadata(): Promise<Metadata> {
+  const lastUpdated = new Date().toISOString().split('T')[0];
+  const publishDate = '2025-11-09';
+  
+  return {
+    title: 'How to Get Google AI Overviews and ChatGPT to Recommend Your Business | The Answer Engine',
+    description: 'Learn what Google AI Overviews and ChatGPT require to cite your business. Discover the four foundation requirements most businesses miss.',
+    
+    openGraph: {
+      title: 'How to Get Google AI Overviews and ChatGPT to Recommend Your Business',
+      description: 'The four foundation requirements AI platforms evaluate before citing any business—and why most companies fail at all four.',
+      type: 'article',
+      publishedTime: publishDate,
+      modifiedTime: lastUpdated,
+      authors: ['The Answer Engine Team'],
+      url: 'https://theanswerengine.ai/blog/how-to-get-google-ai-chatgpt-recommend-business',
+      images: [
+        {
+          url: 'https://theanswerengine.ai/images/how-to-get-ai-recommend-business-featured.png',
+          width: 1200,
+          height: 630,
+          alt: 'How to Get Google AI and ChatGPT to Recommend Your Business',
+        }
+      ],
+      siteName: 'The Answer Engine',
+    },
+    
+    twitter: {
+      card: 'summary_large_image',
+      title: 'How to Get Google AI and ChatGPT to Recommend Your Business',
+      description: 'The four foundation requirements AI platforms evaluate before citing businesses.',
+      images: ['https://theanswerengine.ai/images/how-to-get-ai-recommend-business-featured.png'],
+      creator: '@theanswerengine',
+    },
+    
+    alternates: {
+      canonical: 'https://theanswerengine.ai/blog/how-to-get-google-ai-chatgpt-recommend-business',
+    },
+    
+    other: {
+      'article:modified_time': lastUpdated,
+      'article:published_time': publishDate,
+      'article:author': 'The Answer Engine Team',
+      'article:section': 'Answer Engine Optimization',
+    },
+    
+    keywords: [
+      'Google AI Overviews',
+      'ChatGPT recommendations',
+      'AI citation',
+      'how to get cited by AI',
+      'Google AI optimization',
+      'ChatGPT business recommendations',
+      'answer engine optimization',
+    ],
+  };
+}
+
 export default function HowToGetAIRecommendBusiness() {
+  const publishDate = '2025-11-09';
+  const lastUpdated = new Date().toISOString().split('T')[0];
+  const articleUrl = 'https://theanswerengine.ai/blog/how-to-get-google-ai-chatgpt-recommend-business';
+  
   return (
     <>
-      {/* Article Schema with Complete Metadata */}
-      <script
+      {/* Enhanced Article Schema */}
+      <Script
+        id="article-schema"
         type="application/ld+json"
         dangerouslySetInnerHTML={{
           __html: JSON.stringify({
@@ -10,42 +83,49 @@ export default function HowToGetAIRecommendBusiness() {
             "@type": "Article",
             "headline": "How to Get Google AI Overviews and ChatGPT to Recommend Your Business",
             "description": "Learn what Google AI Overviews and ChatGPT require to cite your business. Discover the four foundation requirements most businesses miss.",
-            "image": "https://www.theanswerengine.ai/images/how-to-get-ai-recommend-business-featured.png",
+            "image": {
+              "@type": "ImageObject",
+              "url": "https://theanswerengine.ai/images/how-to-get-ai-recommend-business-featured.png",
+              "width": 1200,
+              "height": 630
+            },
             "author": {
               "@type": "Organization",
-              "name": "The Answer Engine",
-              "url": "https://www.theanswerengine.ai",
-              "logo": {
-                "@type": "ImageObject",
-                "url": "https://www.theanswerengine.ai/TheAnswerEngine_Color.png"
-              }
+              "name": "The Answer Engine Team",
+              "url": "https://theanswerengine.ai",
+              "description": "Specialized Answer Engine Optimization team with 2+ years experience, 500+ schema implementations, and 100+ featured snippet wins across multiple AI platforms."
             },
             "publisher": {
               "@type": "Organization",
               "name": "The Answer Engine",
               "logo": {
                 "@type": "ImageObject",
-                "url": "https://www.theanswerengine.ai/TheAnswerEngine_Color.png",
+                "url": "https://theanswerengine.ai/TheAnswerEngine_Color.png",
                 "width": 600,
                 "height": 60
               }
             },
-            "datePublished": "2025-11-09",
-            "dateModified": "2025-11-09",
+            "datePublished": publishDate,
+            "dateModified": lastUpdated,
             "mainEntityOfPage": {
               "@type": "WebPage",
-              "@id": "https://www.theanswerengine.ai/blog/how-to-get-google-ai-chatgpt-recommend-business"
+              "@id": articleUrl
             },
             "articleSection": "Answer Engine Optimization",
             "keywords": ["Google AI Overviews", "ChatGPT recommendations", "AI citation", "how to get cited by AI", "Google AI optimization", "ChatGPT business recommendations", "answer engine optimization"],
             "wordCount": 4000,
-            "inLanguage": "en-US"
+            "inLanguage": "en-US",
+            "speakable": {
+              "@type": "SpeakableSpecification",
+              "cssSelector": [".article-intro"]
+            }
           })
         }}
       />
 
-      {/* Complete FAQ Schema - All 8 Questions */}
-      <script
+      {/* Complete FAQ Schema */}
+      <Script
+        id="faq-schema"
         type="application/ld+json"
         dangerouslySetInnerHTML={{
           __html: JSON.stringify({
@@ -122,7 +202,8 @@ export default function HowToGetAIRecommendBusiness() {
       />
 
       {/* BreadcrumbList Schema */}
-      <script
+      <Script
+        id="breadcrumb-schema"
         type="application/ld+json"
         dangerouslySetInnerHTML={{
           __html: JSON.stringify({
@@ -133,19 +214,19 @@ export default function HowToGetAIRecommendBusiness() {
                 "@type": "ListItem",
                 "position": 1,
                 "name": "Home",
-                "item": "https://www.theanswerengine.ai"
+                "item": "https://theanswerengine.ai"
               },
               {
                 "@type": "ListItem",
                 "position": 2,
                 "name": "Blog",
-                "item": "https://www.theanswerengine.ai/blog"
+                "item": "https://theanswerengine.ai/blog"
               },
               {
                 "@type": "ListItem",
                 "position": 3,
                 "name": "How to Get Google AI Overviews and ChatGPT to Recommend Your Business",
-                "item": "https://www.theanswerengine.ai/blog/how-to-get-google-ai-chatgpt-recommend-business"
+                "item": articleUrl
               }
             ]
           })
@@ -153,15 +234,16 @@ export default function HowToGetAIRecommendBusiness() {
       />
 
       {/* Organization Schema */}
-      <script
+      <Script
+        id="organization-schema"
         type="application/ld+json"
         dangerouslySetInnerHTML={{
           __html: JSON.stringify({
             "@context": "https://schema.org",
             "@type": "Organization",
             "name": "The Answer Engine",
-            "url": "https://www.theanswerengine.ai",
-            "logo": "https://www.theanswerengine.ai/TheAnswerEngine_Color.png",
+            "url": "https://theanswerengine.ai",
+            "logo": "https://theanswerengine.ai/TheAnswerEngine_Color.png",
             "description": "We specialize in Answer Engine Optimization (AEO) for local service businesses, positioning companies to be cited by Google AI Overviews, ChatGPT, Claude, and Perplexity.",
             "sameAs": [
               "https://www.linkedin.com/company/theanswerengine",
@@ -170,14 +252,15 @@ export default function HowToGetAIRecommendBusiness() {
             "contactPoint": {
               "@type": "ContactPoint",
               "contactType": "Sales",
-              "url": "https://www.theanswerengine.ai/#contact"
+              "url": "https://theanswerengine.ai/#contact"
             }
           })
         }}
       />
 
       {/* WebPage Schema */}
-      <script
+      <Script
+        id="webpage-schema"
         type="application/ld+json"
         dangerouslySetInnerHTML={{
           __html: JSON.stringify({
@@ -185,12 +268,12 @@ export default function HowToGetAIRecommendBusiness() {
             "@type": "WebPage",
             "name": "How to Get Google AI Overviews and ChatGPT to Recommend Your Business | The Answer Engine",
             "description": "Learn what Google AI Overviews and ChatGPT require to cite your business. Discover the four foundation requirements most businesses miss.",
-            "url": "https://www.theanswerengine.ai/blog/how-to-get-google-ai-chatgpt-recommend-business",
+            "url": articleUrl,
             "inLanguage": "en-US",
             "isPartOf": {
               "@type": "WebSite",
               "name": "The Answer Engine",
-              "url": "https://www.theanswerengine.ai"
+              "url": "https://theanswerengine.ai"
             },
             "about": {
               "@type": "Thing",
@@ -198,8 +281,49 @@ export default function HowToGetAIRecommendBusiness() {
             },
             "primaryImageOfPage": {
               "@type": "ImageObject",
-              "url": "https://www.theanswerengine.ai/images/how-to-get-ai-recommend-business-featured.png"
+              "url": "https://theanswerengine.ai/images/how-to-get-ai-recommend-business-featured.png"
             }
+          })
+        }}
+      />
+
+      {/* HowTo Schema */}
+      <Script
+        id="howto-schema"
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "HowTo",
+            "name": "How to Get AI Platforms to Recommend Your Business",
+            "description": "Step-by-step process for getting Google AI Overviews and ChatGPT to cite your business",
+            "totalTime": "P90D",
+            "step": [
+              {
+                "@type": "HowToStep",
+                "position": 1,
+                "name": "Implement Technical Schema Infrastructure",
+                "text": "Deploy perfect schema markup including FAQPage, Article, Organization, LocalBusiness, and BreadcrumbList schema without syntax errors."
+              },
+              {
+                "@type": "HowToStep",
+                "position": 2,
+                "name": "Create Question-Answer Content Architecture",
+                "text": "Restructure content into explicit question-answer pairs with clear structure that AI platforms can easily extract."
+              },
+              {
+                "@type": "HowToStep",
+                "position": 3,
+                "name": "Document Verifiable Expertise",
+                "text": "Add specific certifications, credentials, years of experience, and verifiable expertise signals that AI can validate."
+              },
+              {
+                "@type": "HowToStep",
+                "position": 4,
+                "name": "Build Comprehensive Topic Coverage",
+                "text": "Create interconnected content clusters that comprehensively address entire topic areas, not scattered blog posts."
+              }
+            ]
           })
         }}
       />
@@ -234,12 +358,14 @@ export default function HowToGetAIRecommendBusiness() {
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-light mb-6 leading-tight text-gray-100">
               How to Get <span className="font-normal text-white">Google AI Overviews and ChatGPT</span> to Recommend Your Business
             </h1>
-            <p className="text-xl sm:text-2xl text-gray-400 leading-relaxed mb-6 font-light">
+            <p className="text-xl sm:text-2xl text-gray-400 leading-relaxed mb-6 font-light article-intro">
               Most businesses optimize for keywords and backlinks while AI platforms ignore them completely. Here are the four foundation requirements Google AI Overviews and ChatGPT actually evaluate before citing any business—and why most companies fail at all four.
             </p>
             <div className="flex items-center gap-3 text-sm text-gray-500 font-light">
               <span className="w-1.5 h-1.5 bg-orange-500/50 rounded-full" />
               <span>Published November 9, 2025</span>
+              <span className="text-gray-700">•</span>
+              <span>Updated {new Date(lastUpdated).toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' })}</span>
               <span className="text-gray-700">•</span>
               <span>By The Answer Engine Team</span>
             </div>

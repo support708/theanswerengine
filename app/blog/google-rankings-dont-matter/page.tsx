@@ -1,8 +1,82 @@
-export default function BlogPost() {
+import type { Metadata } from 'next';
+import Link from 'next/link';
+import Script from 'next/script';
+
+// ISR Configuration
+export const revalidate = 86400; // 24 hours
+export const dynamic = 'force-static';
+export const dynamicParams = true;
+
+// Enhanced Metadata
+export async function generateMetadata(): Promise<Metadata> {
+  const lastUpdated = new Date().toISOString().split('T')[0];
+  const publishDate = '2025-01-08';
+  
+  return {
+    title: 'Why Your Google Rankings Don\'t Matter Anymore | The Answer Engine',
+    description: 'Google AI Overviews, ChatGPT, Claude, and Perplexity are answering questions directly. Learn why even #1 rankings get 0 clicks and how to get cited by AI instead.',
+    
+    openGraph: {
+      title: 'The Real Reason Your Google Rankings Don\'t Matter Anymore',
+      description: 'Google AI Overviews, ChatGPT, Claude answer questions directly. Even #1 rankings get 0 clicks. Here\'s how to get cited instead.',
+      type: 'article',
+      publishedTime: publishDate,
+      modifiedTime: lastUpdated,
+      authors: ['The Answer Engine Team'],
+      url: 'https://theanswerengine.ai/blog/google-rankings-dont-matter',
+      images: [
+        {
+          url: 'https://theanswerengine.ai/google-rankings-featured.png',
+          width: 1200,
+          height: 630,
+          alt: 'Why Google Rankings Don\'t Matter Anymore in 2025',
+        }
+      ],
+      siteName: 'The Answer Engine',
+    },
+    
+    twitter: {
+      card: 'summary_large_image',
+      title: 'Why Your Google Rankings Don\'t Matter Anymore',
+      description: 'Even #1 rankings get 0 clicks now. Here\'s how to get cited by AI instead.',
+      images: ['https://theanswerengine.ai/google-rankings-featured.png'],
+      creator: '@theanswerengine',
+    },
+    
+    alternates: {
+      canonical: 'https://theanswerengine.ai/blog/google-rankings-dont-matter',
+    },
+    
+    other: {
+      'article:modified_time': lastUpdated,
+      'article:published_time': publishDate,
+      'article:author': 'The Answer Engine Team',
+      'article:section': 'Answer Engine Optimization',
+    },
+    
+    keywords: [
+      'Answer Engine Optimization',
+      'Google AI Overviews',
+      'ChatGPT optimization',
+      'AI citations',
+      'SEO vs AEO',
+      'featured snippets',
+      'local SEO',
+      'schema markup',
+    ],
+  };
+}
+
+export default function GoogleRankingsDontMatter() {
+  const publishDate = '2025-01-08';
+  const lastUpdated = new Date().toISOString().split('T')[0];
+  const articleUrl = 'https://theanswerengine.ai/blog/google-rankings-dont-matter';
+  
   return (
     <>
       {/* Organization Schema */}
-      <script
+      <Script
+        id="organization-schema"
         type="application/ld+json"
         dangerouslySetInnerHTML={{
           __html: JSON.stringify({
@@ -29,7 +103,8 @@ export default function BlogPost() {
       />
 
       {/* BreadcrumbList Schema */}
-      <script
+      <Script
+        id="breadcrumb-schema"
         type="application/ld+json"
         dangerouslySetInnerHTML={{
           __html: JSON.stringify({
@@ -52,15 +127,16 @@ export default function BlogPost() {
                 "@type": "ListItem",
                 "position": 3,
                 "name": "Why Google Rankings Don't Matter Anymore",
-                "item": "https://theanswerengine.ai/blog/google-rankings-dont-matter"
+                "item": articleUrl
               }
             ]
           })
         }}
       />
 
-      {/* Article Schema with Complete Metadata */}
-      <script
+      {/* Enhanced Article Schema */}
+      <Script
+        id="article-schema"
         type="application/ld+json"
         dangerouslySetInnerHTML={{
           __html: JSON.stringify({
@@ -71,8 +147,8 @@ export default function BlogPost() {
             "image": {
               "@type": "ImageObject",
               "url": "https://theanswerengine.ai/google-rankings-featured.png",
-              "width": 1024,
-              "height": 1024
+              "width": 1200,
+              "height": 630
             },
             "author": {
               "@type": "Organization",
@@ -88,22 +164,27 @@ export default function BlogPost() {
                 "url": "https://theanswerengine.ai/TheAnswerEngine_Color_just_logo.png"
               }
             },
-            "datePublished": "2025-01-08",
-            "dateModified": "2025-01-08",
+            "datePublished": publishDate,
+            "dateModified": lastUpdated,
             "mainEntityOfPage": {
               "@type": "WebPage",
-              "@id": "https://theanswerengine.ai/blog/google-rankings-dont-matter"
+              "@id": articleUrl
             },
             "keywords": "Answer Engine Optimization, AEO, Google AI Overviews, ChatGPT optimization, featured snippets, AI citations, local SEO, schema markup",
-            "articleSection": "Search Engine Optimization",
+            "articleSection": "Answer Engine Optimization",
             "wordCount": 4500,
-            "inLanguage": "en-US"
+            "inLanguage": "en-US",
+            "speakable": {
+              "@type": "SpeakableSpecification",
+              "cssSelector": [".article-intro"]
+            }
           })
         }}
       />
 
-      {/* Complete FAQ Schema - All 7 Questions */}
-      <script
+      {/* Complete FAQ Schema */}
+      <Script
+        id="faq-schema"
         type="application/ld+json"
         dangerouslySetInnerHTML={{
           __html: JSON.stringify({
@@ -172,7 +253,8 @@ export default function BlogPost() {
       />
 
       {/* WebPage Schema */}
-      <script
+      <Script
+        id="webpage-schema"
         type="application/ld+json"
         dangerouslySetInnerHTML={{
           __html: JSON.stringify({
@@ -180,7 +262,7 @@ export default function BlogPost() {
             "@type": "WebPage",
             "name": "Why Google Rankings Don't Matter Anymore | The Answer Engine",
             "description": "Google AI Overviews, ChatGPT, Claude, and Perplexity are answering questions directly. Learn how to get cited by AI instead of ignored.",
-            "url": "https://theanswerengine.ai/blog/google-rankings-dont-matter",
+            "url": articleUrl,
             "inLanguage": "en-US",
             "isPartOf": {
               "@type": "WebSite",
@@ -195,6 +277,41 @@ export default function BlogPost() {
               "@type": "ImageObject",
               "url": "https://theanswerengine.ai/google-rankings-featured.png"
             }
+          })
+        }}
+      />
+
+      {/* HowTo Schema */}
+      <Script
+        id="howto-schema"
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "HowTo",
+            "name": "How to Get AI Platforms to Cite Your Business Instead of Competitors",
+            "description": "Step-by-step process for optimizing your business to be cited by Google AI Overviews, ChatGPT, and other AI platforms",
+            "totalTime": "P90D",
+            "step": [
+              {
+                "@type": "HowToStep",
+                "position": 1,
+                "name": "Implement Structured Data Markup",
+                "text": "Add FAQ, Article, and LocalBusiness schema to help AI platforms understand and extract your content."
+              },
+              {
+                "@type": "HowToStep",
+                "position": 2,
+                "name": "Create Direct Answer Content",
+                "text": "Structure content as clear questions and answers rather than keyword-optimized paragraphs."
+              },
+              {
+                "@type": "HowToStep",
+                "position": 3,
+                "name": "Document Your Expertise",
+                "text": "Provide verifiable credentials, case studies, and specific examples AI can validate."
+              }
+            ]
           })
         }}
       />
@@ -229,12 +346,14 @@ export default function BlogPost() {
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-light mb-6 leading-tight text-gray-100">
               The Real Reason Your <span className="font-normal text-white">Google Rankings</span> Don't Matter Anymore
             </h1>
-            <p className="text-xl sm:text-2xl text-gray-400 leading-relaxed mb-6 font-light">
+            <p className="text-xl sm:text-2xl text-gray-400 leading-relaxed mb-6 font-light article-intro">
               Google AI Overviews, ChatGPT, Claude, and Perplexity are answering questions directly — which means even a #1 ranking can get 0 clicks. Here's how to get cited instead of ignored.
             </p>
             <div className="flex items-center gap-3 text-sm text-gray-500 font-light">
               <span className="w-1.5 h-1.5 bg-orange-500/50 rounded-full" />
               <span>Published January 8, 2025</span>
+              <span className="text-gray-700">•</span>
+              <span>Updated {new Date(lastUpdated).toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' })}</span>
               <span className="text-gray-700">•</span>
               <span>By The Answer Engine Team</span>
             </div>

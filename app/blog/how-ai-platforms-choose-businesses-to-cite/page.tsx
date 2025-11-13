@@ -1,8 +1,81 @@
+import type { Metadata } from 'next';
+import Link from 'next/link';
+import Script from 'next/script';
+
+// ISR Configuration
+export const revalidate = 86400; // 24 hours
+export const dynamic = 'force-static';
+export const dynamicParams = true;
+
+// Enhanced Metadata
+export async function generateMetadata(): Promise<Metadata> {
+  const lastUpdated = new Date().toISOString().split('T')[0];
+  const publishDate = '2025-11-09';
+  
+  return {
+    title: 'How AI Platforms Choose Which Businesses to Cite | The Answer Engine',
+    description: 'Discover how ChatGPT, Claude, and Perplexity actually decide which businesses to recommend using weighted authority assessment and cross-validation.',
+    
+    openGraph: {
+      title: 'How AI Platforms Choose Which Businesses to Cite',
+      description: 'Discover the systematic evaluation process AI platforms use to decide which businesses to cite by name.',
+      type: 'article',
+      publishedTime: publishDate,
+      modifiedTime: lastUpdated,
+      authors: ['The Answer Engine Team'],
+      url: 'https://theanswerengine.ai/blog/how-ai-platforms-choose-businesses-to-cite',
+      images: [
+        {
+          url: 'https://theanswerengine.ai/images/how-ai-chooses-businesses-featured.png',
+          width: 1200,
+          height: 630,
+          alt: 'How AI Platforms Choose Which Businesses to Cite',
+        }
+      ],
+      siteName: 'The Answer Engine',
+    },
+    
+    twitter: {
+      card: 'summary_large_image',
+      title: 'How AI Platforms Choose Which Businesses to Cite',
+      description: 'The systematic evaluation process AI uses to decide which businesses to recommend.',
+      images: ['https://theanswerengine.ai/images/how-ai-chooses-businesses-featured.png'],
+      creator: '@theanswerengine',
+    },
+    
+    alternates: {
+      canonical: 'https://theanswerengine.ai/blog/how-ai-platforms-choose-businesses-to-cite',
+    },
+    
+    other: {
+      'article:modified_time': lastUpdated,
+      'article:published_time': publishDate,
+      'article:author': 'The Answer Engine Team',
+      'article:section': 'Answer Engine Optimization',
+    },
+    
+    keywords: [
+      'AI citations',
+      'how AI chooses businesses',
+      'AI platform selection',
+      'ChatGPT recommendations',
+      'AI search ranking',
+      'answer engine authority',
+      'weighted authority assessment',
+    ],
+  };
+}
+
 export default function HowAIChoosesBlogPost() {
+  const publishDate = '2025-11-09';
+  const lastUpdated = new Date().toISOString().split('T')[0];
+  const articleUrl = 'https://theanswerengine.ai/blog/how-ai-platforms-choose-businesses-to-cite';
+  
   return (
     <>
-      {/* Article Schema with Complete Metadata */}
-      <script
+      {/* Enhanced Article Schema */}
+      <Script
+        id="article-schema"
         type="application/ld+json"
         dangerouslySetInnerHTML={{
           __html: JSON.stringify({
@@ -10,42 +83,49 @@ export default function HowAIChoosesBlogPost() {
             "@type": "Article",
             "headline": "How AI Platforms Choose Which Businesses to Cite",
             "description": "Discover how ChatGPT, Claude, and Perplexity actually decide which businesses to recommend using weighted authority assessment and cross-validation.",
-            "image": "https://www.theanswerengine.ai/images/how-ai-chooses-businesses-featured.png",
+            "image": {
+              "@type": "ImageObject",
+              "url": "https://theanswerengine.ai/images/how-ai-chooses-businesses-featured.png",
+              "width": 1200,
+              "height": 630
+            },
             "author": {
               "@type": "Organization",
-              "name": "The Answer Engine",
-              "url": "https://www.theanswerengine.ai",
-              "logo": {
-                "@type": "ImageObject",
-                "url": "https://www.theanswerengine.ai/TheAnswerEngine_Color.png"
-              }
+              "name": "The Answer Engine Team",
+              "url": "https://theanswerengine.ai",
+              "description": "Specialized Answer Engine Optimization team with 2+ years experience, 500+ schema implementations, and 100+ featured snippet wins across multiple AI platforms."
             },
             "publisher": {
               "@type": "Organization",
               "name": "The Answer Engine",
               "logo": {
                 "@type": "ImageObject",
-                "url": "https://www.theanswerengine.ai/TheAnswerEngine_Color.png",
+                "url": "https://theanswerengine.ai/TheAnswerEngine_Color.png",
                 "width": 600,
                 "height": 60
               }
             },
-            "datePublished": "2025-11-09",
-            "dateModified": "2025-11-09",
+            "datePublished": publishDate,
+            "dateModified": lastUpdated,
             "mainEntityOfPage": {
               "@type": "WebPage",
-              "@id": "https://www.theanswerengine.ai/blog/how-ai-platforms-choose-businesses-to-cite"
+              "@id": articleUrl
             },
             "articleSection": "Answer Engine Optimization",
             "keywords": ["AI citations", "how AI chooses businesses", "AI platform selection", "ChatGPT recommendations", "AI search ranking", "answer engine authority"],
             "wordCount": 2700,
-            "inLanguage": "en-US"
+            "inLanguage": "en-US",
+            "speakable": {
+              "@type": "SpeakableSpecification",
+              "cssSelector": [".article-intro"]
+            }
           })
         }}
       />
 
-      {/* Complete FAQ Schema - All 8 Questions */}
-      <script
+      {/* Complete FAQ Schema */}
+      <Script
+        id="faq-schema"
         type="application/ld+json"
         dangerouslySetInnerHTML={{
           __html: JSON.stringify({
@@ -122,7 +202,8 @@ export default function HowAIChoosesBlogPost() {
       />
 
       {/* BreadcrumbList Schema */}
-      <script
+      <Script
+        id="breadcrumb-schema"
         type="application/ld+json"
         dangerouslySetInnerHTML={{
           __html: JSON.stringify({
@@ -133,19 +214,19 @@ export default function HowAIChoosesBlogPost() {
                 "@type": "ListItem",
                 "position": 1,
                 "name": "Home",
-                "item": "https://www.theanswerengine.ai/"
+                "item": "https://theanswerengine.ai"
               },
               {
                 "@type": "ListItem",
                 "position": 2,
                 "name": "Blog",
-                "item": "https://www.theanswerengine.ai/blog"
+                "item": "https://theanswerengine.ai/blog"
               },
               {
                 "@type": "ListItem",
                 "position": 3,
                 "name": "How AI Platforms Choose Businesses to Cite",
-                "item": "https://www.theanswerengine.ai/blog/how-ai-platforms-choose-businesses-to-cite"
+                "item": articleUrl
               }
             ]
           })
@@ -153,15 +234,16 @@ export default function HowAIChoosesBlogPost() {
       />
 
       {/* Organization Schema */}
-      <script
+      <Script
+        id="organization-schema"
         type="application/ld+json"
         dangerouslySetInnerHTML={{
           __html: JSON.stringify({
             "@context": "https://schema.org",
             "@type": "Organization",
             "name": "The Answer Engine",
-            "url": "https://www.theanswerengine.ai",
-            "logo": "https://www.theanswerengine.ai/TheAnswerEngine_Color.png",
+            "url": "https://theanswerengine.ai",
+            "logo": "https://theanswerengine.ai/TheAnswerEngine_Color.png",
             "description": "We specialize in Answer Engine Optimization (AEO) for local service businesses, positioning companies to be cited by Google AI Overviews, ChatGPT, Claude, and Perplexity.",
             "sameAs": [
               "https://www.linkedin.com/company/theanswerengine",
@@ -170,14 +252,15 @@ export default function HowAIChoosesBlogPost() {
             "contactPoint": {
               "@type": "ContactPoint",
               "contactType": "Sales",
-              "url": "https://www.theanswerengine.ai/#contact"
+              "url": "https://theanswerengine.ai/#contact"
             }
           })
         }}
       />
 
       {/* WebPage Schema */}
-      <script
+      <Script
+        id="webpage-schema"
         type="application/ld+json"
         dangerouslySetInnerHTML={{
           __html: JSON.stringify({
@@ -185,12 +268,12 @@ export default function HowAIChoosesBlogPost() {
             "@type": "WebPage",
             "name": "How AI Platforms Choose Which Businesses to Cite | The Answer Engine",
             "description": "Discover how ChatGPT, Claude, and Perplexity actually decide which businesses to recommend using weighted authority assessment and cross-validation.",
-            "url": "https://www.theanswerengine.ai/blog/how-ai-platforms-choose-businesses-to-cite",
+            "url": articleUrl,
             "inLanguage": "en-US",
             "isPartOf": {
               "@type": "WebSite",
               "name": "The Answer Engine",
-              "url": "https://www.theanswerengine.ai"
+              "url": "https://theanswerengine.ai"
             },
             "about": {
               "@type": "Thing",
@@ -198,8 +281,42 @@ export default function HowAIChoosesBlogPost() {
             },
             "primaryImageOfPage": {
               "@type": "ImageObject",
-              "url": "https://www.theanswerengine.ai/images/how-ai-chooses-businesses-featured.png"
+              "url": "https://theanswerengine.ai/images/how-ai-chooses-businesses-featured.png"
             }
+          })
+        }}
+      />
+
+      {/* HowTo Schema */}
+      <Script
+        id="howto-schema"
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "HowTo",
+            "name": "How to Understand AI Platform Business Selection Process",
+            "description": "Learn the three-layer authority assessment AI platforms use to decide which businesses to cite",
+            "step": [
+              {
+                "@type": "HowToStep",
+                "position": 1,
+                "name": "Understand Source Type Authority",
+                "text": "AI platforms first assess what type of source you are before reading content. Build authority through professional website structure and verifiable credentials."
+              },
+              {
+                "@type": "HowToStep",
+                "position": 2,
+                "name": "Structure Content for AI Extraction",
+                "text": "Organize information with clear headings, FAQ sections, and explicit documentation that AI can easily extract and verify."
+              },
+              {
+                "@type": "HowToStep",
+                "position": 3,
+                "name": "Enable Cross-Validation",
+                "text": "Ensure consistency between website claims and external databases, registries, and authoritative sources that AI platforms use for verification."
+              }
+            ]
           })
         }}
       />
@@ -234,12 +351,14 @@ export default function HowAIChoosesBlogPost() {
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-light mb-6 leading-tight text-gray-100">
               How <span className="font-normal text-white">AI Platforms Choose</span> Which Businesses to Cite
             </h1>
-            <p className="text-xl sm:text-2xl text-gray-400 leading-relaxed mb-6 font-light">
+            <p className="text-xl sm:text-2xl text-gray-400 leading-relaxed mb-6 font-light article-intro">
               When someone asks ChatGPT or Claude to recommend a business, these AI platforms use a systematic, weighted evaluation process to determine which sources are trustworthy enough to cite by name. Understanding this selection mechanism is the difference between being consistently cited and remaining invisible.
             </p>
             <div className="flex items-center gap-3 text-sm text-gray-500 font-light">
               <span className="w-1.5 h-1.5 bg-orange-500/50 rounded-full" />
               <span>Published November 9, 2025</span>
+              <span className="text-gray-700">•</span>
+              <span>Updated {new Date(lastUpdated).toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' })}</span>
               <span className="text-gray-700">•</span>
               <span>By The Answer Engine Team</span>
             </div>

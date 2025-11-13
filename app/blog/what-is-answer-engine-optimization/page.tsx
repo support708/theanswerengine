@@ -1,8 +1,80 @@
+import type { Metadata } from 'next';
+import Link from 'next/link';
+import Script from 'next/script';
+
+// ISR Configuration
+export const revalidate = 86400; // 24 hours
+export const dynamic = 'force-static';
+export const dynamicParams = true;
+
+// Enhanced Metadata
+export async function generateMetadata(): Promise<Metadata> {
+  const lastUpdated = new Date().toISOString().split('T')[0];
+  const publishDate = '2025-11-09';
+  
+  return {
+    title: 'What is Answer Engine Optimization (AEO)? The Complete Guide for 2025 | The Answer Engine',
+    description: 'Complete guide explaining what Answer Engine Optimization (AEO) is, how it differs from traditional SEO, and why local businesses need to implement it now to dominate AI-powered search.',
+    
+    openGraph: {
+      title: 'What is Answer Engine Optimization (AEO)? The Complete Guide for 2025',
+      description: 'Learn how AEO differs from traditional SEO and why local businesses must implement it now.',
+      type: 'article',
+      publishedTime: publishDate,
+      modifiedTime: lastUpdated,
+      authors: ['The Answer Engine Team'],
+      url: 'https://theanswerengine.ai/blog/what-is-answer-engine-optimization',
+      images: [
+        {
+          url: 'https://theanswerengine.ai/images/what-is-aeo-featured.png',
+          width: 1200,
+          height: 630,
+          alt: 'What is Answer Engine Optimization (AEO)',
+        }
+      ],
+      siteName: 'The Answer Engine',
+    },
+    
+    twitter: {
+      card: 'summary_large_image',
+      title: 'What is Answer Engine Optimization (AEO)?',
+      description: 'Complete guide to AEO for local businesses in 2025.',
+      images: ['https://theanswerengine.ai/images/what-is-aeo-featured.png'],
+      creator: '@theanswerengine',
+    },
+    
+    alternates: {
+      canonical: 'https://theanswerengine.ai/blog/what-is-answer-engine-optimization',
+    },
+    
+    other: {
+      'article:modified_time': lastUpdated,
+      'article:published_time': publishDate,
+      'article:author': 'The Answer Engine Team',
+      'article:section': 'Answer Engine Optimization',
+    },
+    
+    keywords: [
+      'answer engine optimization',
+      'AEO',
+      'AI search optimization',
+      'ChatGPT optimization',
+      'local business SEO',
+      'AI citations',
+    ],
+  };
+}
+
 export default function WhatIsAEOBlogPost() {
+  const publishDate = '2025-11-09';
+  const lastUpdated = new Date().toISOString().split('T')[0];
+  const articleUrl = 'https://theanswerengine.ai/blog/what-is-answer-engine-optimization';
+  
   return (
     <>
-      {/* Article Schema with Complete Metadata */}
-      <script
+      {/* Enhanced Article Schema */}
+      <Script
+        id="article-schema"
         type="application/ld+json"
         dangerouslySetInnerHTML={{
           __html: JSON.stringify({
@@ -10,42 +82,49 @@ export default function WhatIsAEOBlogPost() {
             "@type": "Article",
             "headline": "What is Answer Engine Optimization (AEO)? The Complete Guide for 2025",
             "description": "Complete guide explaining what Answer Engine Optimization (AEO) is, how it differs from traditional SEO, and why local businesses need to implement it now to dominate AI-powered search.",
-            "image": "https://www.theanswerengine.ai/images/what-is-aeo-featured.png",
+            "image": {
+              "@type": "ImageObject",
+              "url": "https://theanswerengine.ai/images/what-is-aeo-featured.png",
+              "width": 1200,
+              "height": 630
+            },
             "author": {
               "@type": "Organization",
-              "name": "The Answer Engine",
-              "url": "https://www.theanswerengine.ai",
-              "logo": {
-                "@type": "ImageObject",
-                "url": "https://www.theanswerengine.ai/TheAnswerEngine_Color.png"
-              }
+              "name": "The Answer Engine Team",
+              "url": "https://theanswerengine.ai",
+              "description": "Specialized Answer Engine Optimization team with 2+ years experience, 500+ schema implementations, and 100+ featured snippet wins across multiple AI platforms."
             },
             "publisher": {
               "@type": "Organization",
               "name": "The Answer Engine",
               "logo": {
                 "@type": "ImageObject",
-                "url": "https://www.theanswerengine.ai/TheAnswerEngine_Color.png",
+                "url": "https://theanswerengine.ai/TheAnswerEngine_Color.png",
                 "width": 600,
                 "height": 60
               }
             },
-            "datePublished": "2025-11-09",
-            "dateModified": "2025-11-09",
+            "datePublished": publishDate,
+            "dateModified": lastUpdated,
             "mainEntityOfPage": {
               "@type": "WebPage",
-              "@id": "https://www.theanswerengine.ai/blog/what-is-answer-engine-optimization"
+              "@id": articleUrl
             },
             "articleSection": "Answer Engine Optimization",
             "keywords": ["answer engine optimization", "AEO", "AI search optimization", "ChatGPT optimization", "local business SEO", "AI citations"],
             "wordCount": 2400,
-            "inLanguage": "en-US"
+            "inLanguage": "en-US",
+            "speakable": {
+              "@type": "SpeakableSpecification",
+              "cssSelector": [".article-intro"]
+            }
           })
         }}
       />
 
-      {/* Complete FAQ Schema - All 8 Questions */}
-      <script
+      {/* Complete FAQ Schema */}
+      <Script
+        id="faq-schema"
         type="application/ld+json"
         dangerouslySetInnerHTML={{
           __html: JSON.stringify({
@@ -122,7 +201,8 @@ export default function WhatIsAEOBlogPost() {
       />
 
       {/* BreadcrumbList Schema */}
-      <script
+      <Script
+        id="breadcrumb-schema"
         type="application/ld+json"
         dangerouslySetInnerHTML={{
           __html: JSON.stringify({
@@ -133,19 +213,19 @@ export default function WhatIsAEOBlogPost() {
                 "@type": "ListItem",
                 "position": 1,
                 "name": "Home",
-                "item": "https://www.theanswerengine.ai/"
+                "item": "https://theanswerengine.ai/"
               },
               {
                 "@type": "ListItem",
                 "position": 2,
                 "name": "Blog",
-                "item": "https://www.theanswerengine.ai/blog"
+                "item": "https://theanswerengine.ai/blog"
               },
               {
                 "@type": "ListItem",
                 "position": 3,
                 "name": "What is Answer Engine Optimization",
-                "item": "https://www.theanswerengine.ai/blog/what-is-answer-engine-optimization"
+                "item": articleUrl
               }
             ]
           })
@@ -153,15 +233,16 @@ export default function WhatIsAEOBlogPost() {
       />
 
       {/* Organization Schema */}
-      <script
+      <Script
+        id="organization-schema"
         type="application/ld+json"
         dangerouslySetInnerHTML={{
           __html: JSON.stringify({
             "@context": "https://schema.org",
             "@type": "Organization",
             "name": "The Answer Engine",
-            "url": "https://www.theanswerengine.ai",
-            "logo": "https://www.theanswerengine.ai/TheAnswerEngine_Color.png",
+            "url": "https://theanswerengine.ai",
+            "logo": "https://theanswerengine.ai/TheAnswerEngine_Color.png",
             "description": "We specialize in Answer Engine Optimization (AEO) for local service businesses, positioning companies to be cited by Google AI Overviews, ChatGPT, Claude, and Perplexity.",
             "sameAs": [
               "https://www.linkedin.com/company/theanswerengine",
@@ -170,14 +251,15 @@ export default function WhatIsAEOBlogPost() {
             "contactPoint": {
               "@type": "ContactPoint",
               "contactType": "Sales",
-              "url": "https://www.theanswerengine.ai/#contact"
+              "url": "https://theanswerengine.ai/#contact"
             }
           })
         }}
       />
 
       {/* WebPage Schema */}
-      <script
+      <Script
+        id="webpage-schema"
         type="application/ld+json"
         dangerouslySetInnerHTML={{
           __html: JSON.stringify({
@@ -185,12 +267,12 @@ export default function WhatIsAEOBlogPost() {
             "@type": "WebPage",
             "name": "What is Answer Engine Optimization (AEO)? | The Answer Engine",
             "description": "Complete guide to Answer Engine Optimization (AEO) - learn how it differs from SEO and why local businesses need it to dominate AI-powered search.",
-            "url": "https://www.theanswerengine.ai/blog/what-is-answer-engine-optimization",
+            "url": articleUrl,
             "inLanguage": "en-US",
             "isPartOf": {
               "@type": "WebSite",
               "name": "The Answer Engine",
-              "url": "https://www.theanswerengine.ai"
+              "url": "https://theanswerengine.ai"
             },
             "about": {
               "@type": "Thing",
@@ -198,7 +280,7 @@ export default function WhatIsAEOBlogPost() {
             },
             "primaryImageOfPage": {
               "@type": "ImageObject",
-              "url": "https://www.theanswerengine.ai/images/what-is-aeo-featured.png"
+              "url": "https://theanswerengine.ai/images/what-is-aeo-featured.png"
             }
           })
         }}
@@ -234,12 +316,14 @@ export default function WhatIsAEOBlogPost() {
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-light mb-6 leading-tight text-gray-100">
               What is <span className="font-normal text-white">Answer Engine Optimization (AEO)?</span> The Complete Guide for 2025
             </h1>
-            <p className="text-xl sm:text-2xl text-gray-400 leading-relaxed mb-6 font-light">
+            <p className="text-xl sm:text-2xl text-gray-400 leading-relaxed mb-6 font-light article-intro">
               Answer Engine Optimization is the practice of positioning your business as the authoritative source that AI platforms cite when answering questions about your services. Learn how it differs from traditional SEO and why local businesses must implement it now.
             </p>
             <div className="flex items-center gap-3 text-sm text-gray-500 font-light">
               <span className="w-1.5 h-1.5 bg-orange-500/50 rounded-full" />
               <span>Published November 9, 2025</span>
+              <span className="text-gray-700">•</span>
+              <span>Updated {new Date(lastUpdated).toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' })}</span>
               <span className="text-gray-700">•</span>
               <span>By The Answer Engine Team</span>
             </div>
