@@ -1,25 +1,28 @@
-'use client'
-
-import { PersonSchema, BreadcrumbSchema } from '../components/schema';
+'use client';
 
 export default function Contact() {
   return (
     <>
-      {/* ContactPage Schema */}
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{
           __html: JSON.stringify({
             "@context": "https://schema.org",
             "@type": "ContactPage",
-            "name": "Contact The Answer Engine",
-            "description": "Get in touch with The Answer Engine for Answer Engine Optimization services. Schedule your free AEO strategy call.",
-            "url": "https://theanswerengine.ai/contact"
+            "name": "Contact The Answer Engine - AEO Strategy Call",
+            "description": "Get in touch with The Answer Engine for Answer Engine Optimization services. Schedule your free 30-minute AEO strategy call to dominate AI citations.",
+            "url": "https://theanswerengine.ai/contact",
+            "inLanguage": "en-US",
+            "mainEntity": {
+              "@type": "Organization",
+              "name": "The Answer Engine",
+              "telephone": "+1-213-444-2229",
+              "email": "support@theanswerengine.ai"
+            }
           })
         }}
       />
 
-      {/* LocalBusiness Schema with Contact Info */}
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{
@@ -27,32 +30,105 @@ export default function Contact() {
             "@context": "https://schema.org",
             "@type": "ProfessionalService",
             "name": "The Answer Engine",
-            "description": "Answer Engine Optimization specialists helping local service businesses get cited by AI platforms",
+            "description": "Answer Engine Optimization specialists helping local service businesses get cited by AI platforms like ChatGPT, Claude, Google AI Overviews, and Perplexity.",
             "url": "https://theanswerengine.ai",
+            "logo": "https://theanswerengine.ai/TheAnswerEngine_Color.png",
             "telephone": "+1-213-444-2229",
             "email": "support@theanswerengine.ai",
             "address": {
               "@type": "PostalAddress",
-              "addressCountry": "US"
+              "addressCountry": "US",
+              "addressRegion": "CA"
             },
-            "areaServed": "United States",
-            "priceRange": "$$"
+            "areaServed": {
+              "@type": "Country",
+              "name": "United States"
+            },
+            "priceRange": "$$",
+            "openingHours": "Mo-Fr 09:00-18:00",
+            "contactPoint": {
+              "@type": "ContactPoint",
+              "telephone": "+1-213-444-2229",
+              "contactType": "Sales",
+              "email": "support@theanswerengine.ai",
+              "availableLanguage": "English"
+            }
           })
         }}
       />
 
-      {/* Person Schema - Contact managed by Justin Borges */}
-      <PersonSchema />
-
-      {/* Breadcrumb Schema - Navigation structure */}
-      <BreadcrumbSchema 
-        items={[
-          { name: "Home", url: "https://theanswerengine.ai" },
-          { name: "Contact", url: "https://theanswerengine.ai/contact" }
-        ]}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://theanswerengine.ai"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Contact",
+                "item": "https://theanswerengine.ai/contact"
+              }
+            ]
+          })
+        }}
       />
 
-      {/* Custom Styles */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "Organization",
+            "name": "The Answer Engine",
+            "url": "https://theanswerengine.ai",
+            "logo": "https://theanswerengine.ai/TheAnswerEngine_Color.png",
+            "description": "We specialize in Answer Engine Optimization (AEO) for local service businesses, positioning companies to be cited by Google AI Overviews, ChatGPT, Claude, and Perplexity.",
+            "sameAs": [
+              "https://www.linkedin.com/company/theanswerengine",
+              "https://twitter.com/theanswerengine"
+            ],
+            "contactPoint": {
+              "@type": "ContactPoint",
+              "contactType": "Sales",
+              "telephone": "+1-213-444-2229",
+              "email": "support@theanswerengine.ai",
+              "url": "https://theanswerengine.ai/contact"
+            }
+          })
+        }}
+      />
+
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "WebPage",
+            "name": "Contact The Answer Engine - Schedule Your Free AEO Strategy Call",
+            "description": "Schedule your free 30-minute Answer Engine Optimization strategy call. Learn where you're losing to competitors in AI citations.",
+            "url": "https://theanswerengine.ai/contact",
+            "inLanguage": "en-US",
+            "isPartOf": {
+              "@type": "WebSite",
+              "name": "The Answer Engine",
+              "url": "https://theanswerengine.ai"
+            },
+            "about": {
+              "@type": "Thing",
+              "name": "Answer Engine Optimization Contact"
+            }
+          })
+        }}
+      />
+
       <style jsx>{`
         @keyframes fadeIn {
           from {
@@ -105,19 +181,15 @@ export default function Contact() {
       `}</style>
 
       <main className="min-h-screen bg-[#0A0A0F] relative">
-        {/* Subtle gradient overlay */}
         <div className="absolute inset-0 bg-gradient-to-b from-purple-950/10 via-transparent to-orange-950/10 pointer-events-none" />
         
-        {/* Simple pixel accent - top corners */}
         <div className="absolute top-0 left-0 w-2 h-2 bg-orange-500/40" />
         <div className="absolute top-0 left-2 w-2 h-2 bg-purple-500/40" />
         <div className="absolute top-0 right-0 w-2 h-2 bg-orange-500/40" />
         <div className="absolute top-0 right-2 w-2 h-2 bg-purple-500/40" />
 
         <div className="max-w-4xl mx-auto px-6 py-20 sm:py-32 relative">
-          {/* Header */}
           <header className="text-center mb-24 fade-in">
-            {/* Simple pixel divider */}
             <div className="flex justify-center gap-2 mb-12">
               <div className="w-1.5 h-1.5 bg-orange-500" />
               <div className="w-1.5 h-1.5 bg-purple-500" />
@@ -130,25 +202,22 @@ export default function Contact() {
             </h1>
             
             <p className="text-xl text-gray-400 max-w-2xl mx-auto leading-relaxed font-light">
-              Ready to dominate AI search? Let's discuss how to get your business cited by ChatGPT, Claude, and Google AI Overviews.
+              Ready to dominate AI search? Let's discuss how to get your business cited by ChatGPT, Claude, Google AI Overviews, and Perplexity.
             </p>
           </header>
 
-          {/* Contact Cards */}
           <div className="grid sm:grid-cols-2 gap-6 mb-24 fade-in" style={{ animationDelay: '0.1s' }}>
-            {/* Phone */}
             <div className="card-soft-hover bg-white/[0.03] backdrop-blur-xl border border-white/[0.05] rounded-2xl p-10 group">
               <div className="text-center">
-                {/* Icon */}
                 <div className="inline-flex items-center justify-center w-16 h-16 rounded-xl mb-6 bg-gradient-to-br from-orange-500/10 to-orange-600/10 border border-orange-500/20 group-hover:border-orange-500/40 transition-colors">
                   <svg className="w-8 h-8 text-orange-400" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={1.5}>
                     <path strokeLinecap="round" strokeLinejoin="round" d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 002.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035 12.035 0 01-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 00-1.091-.852H4.5A2.25 2.25 0 002.25 4.5v2.25z" />
                   </svg>
                 </div>
                 
-                <h3 className="text-2xl font-medium mb-3 text-white">
+                <h2 className="text-2xl font-medium mb-3 text-white">
                   Call Us
-                </h3>
+                </h2>
                 
                 <p className="text-gray-500 text-sm mb-8">
                   Speak with an AEO specialist
@@ -163,19 +232,17 @@ export default function Contact() {
               </div>
             </div>
 
-            {/* Email */}
             <div className="card-soft-hover bg-white/[0.03] backdrop-blur-xl border border-white/[0.05] rounded-2xl p-10 group">
               <div className="text-center">
-                {/* Icon */}
                 <div className="inline-flex items-center justify-center w-16 h-16 rounded-xl mb-6 bg-gradient-to-br from-purple-500/10 to-purple-600/10 border border-purple-500/20 group-hover:border-purple-500/40 transition-colors">
                   <svg className="w-8 h-8 text-purple-400" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={1.5}>
                     <path strokeLinecap="round" strokeLinejoin="round" d="M21.75 6.75v10.5a2.25 2.25 0 01-2.25 2.25h-15a2.25 2.25 0 01-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0019.5 4.5h-15a2.25 2.25 0 00-2.25 2.25m19.5 0v.243a2.25 2.25 0 01-1.07 1.916l-7.5 4.615a2.25 2.25 0 01-2.36 0L3.32 8.91a2.25 2.25 0 01-1.07-1.916V6.75" />
                   </svg>
                 </div>
                 
-                <h3 className="text-2xl font-medium mb-3 text-white">
+                <h2 className="text-2xl font-medium mb-3 text-white">
                   Email Us
-                </h3>
+                </h2>
                 
                 <p className="text-gray-500 text-sm mb-8">
                   Get a response within 24 hours
@@ -191,7 +258,6 @@ export default function Contact() {
             </div>
           </div>
 
-          {/* Divider */}
           <div className="flex justify-center gap-1 mb-24 opacity-30">
             {[...Array(50)].map((_, i) => (
               <div 
@@ -202,10 +268,8 @@ export default function Contact() {
             ))}
           </div>
 
-          {/* CTA Section */}
           <div className="bg-white/[0.02] backdrop-blur-xl border border-white/[0.05] rounded-3xl p-12 sm:p-16 fade-in" style={{ animationDelay: '0.2s' }}>
             <div className="text-center mb-12">
-              {/* Simple pixel accent */}
               <div className="flex justify-center gap-1.5 mb-8">
                 <div className="w-1 h-1 bg-orange-500/60" />
                 <div className="w-1 h-1 bg-purple-500/60" />
@@ -222,7 +286,6 @@ export default function Contact() {
               </p>
             </div>
 
-            {/* Benefits */}
             <div className="space-y-4 mb-12 max-w-2xl mx-auto">
               {[
                 "See exactly where you're losing to competitors in AI citations",
@@ -240,7 +303,6 @@ export default function Contact() {
               ))}
             </div>
 
-            {/* CTA Buttons */}
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a 
                 href="tel:+12134442229"
@@ -264,7 +326,6 @@ export default function Contact() {
             </div>
           </div>
 
-          {/* Footer Info */}
           <div className="mt-16 text-center">
             <div className="inline-flex flex-col sm:flex-row items-center gap-6 text-sm text-gray-500">
               <div className="flex items-center gap-2">
@@ -280,7 +341,6 @@ export default function Contact() {
           </div>
         </div>
 
-        {/* Mobile CTA */}
         <div className="md:hidden fixed bottom-0 left-0 right-0 p-4 bg-[#0A0A0F]/95 backdrop-blur-xl border-t border-white/[0.05] z-50">
           <div className="flex gap-3">
             <a 

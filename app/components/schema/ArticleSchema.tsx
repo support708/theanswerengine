@@ -19,7 +19,7 @@ export function ArticleSchema({
   dateModified,
   authorName = "Justin Borges",
   authorJobTitle = "Founder & AEO Strategist",
-  imageUrl = "https://theanswerengine.ai/TheAnswerEngine_Color_just_logo.png",
+  imageUrl = "https://theanswerengine.ai/TheAnswerEngine_Color.png",
   url
 }: ArticleSchemaProps) {
   const schema = {
@@ -32,7 +32,6 @@ export function ArticleSchema({
     "dateModified": dateModified,
     "url": url,
     
-    // Author - References Person schema
     "author": {
       "@type": "Person",
       "name": authorName,
@@ -44,18 +43,16 @@ export function ArticleSchema({
       }
     },
     
-    // Publisher - The Answer Engine
     "publisher": {
       "@type": "Organization",
       "name": "The Answer Engine",
       "url": "https://theanswerengine.ai",
       "logo": {
         "@type": "ImageObject",
-        "url": "https://theanswerengine.ai/TheAnswerEngine_Color_just_logo.png"
+        "url": "https://theanswerengine.ai/TheAnswerEngine_Color.png"
       }
     },
     
-    // Helps AI understand this is current, maintained content
     "mainEntityOfPage": {
       "@type": "WebPage",
       "@id": url

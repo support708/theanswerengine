@@ -26,9 +26,8 @@ export default function RootLayout({
     <html lang="en">
       <head>
         <title>The Answer Engine - Answer Engine Optimization (AEO)</title>
-        <meta name="description" content="Get your business cited by AI platforms like ChatGPT, Claude, and Google AI Overviews. Answer Engine Optimization for local service businesses." />
+        <meta name="description" content="Get your business cited by AI platforms like ChatGPT, Claude, Google AI Overviews, and Perplexity. Answer Engine Optimization for local service businesses." />
         
-        {/* Organization Schema - Appears on all pages */}
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
@@ -36,22 +35,24 @@ export default function RootLayout({
               "@context": "https://schema.org",
               "@type": "Organization",
               "name": "The Answer Engine",
-              "description": "Answer Engine Optimization specialists helping businesses get cited by AI platforms like ChatGPT, Claude, and Google AI Overviews",
+              "description": "Answer Engine Optimization specialists helping businesses get cited by AI platforms like ChatGPT, Claude, Google AI Overviews, and Perplexity",
               "url": "https://theanswerengine.ai",
-              "logo": "https://theanswerengine.ai/TheAnswerEngine_Color_just_logo.png",
+              "logo": "https://theanswerengine.ai/TheAnswerEngine_Color.png",
               "contactPoint": {
                 "@type": "ContactPoint",
                 "telephone": "+1-213-444-2229",
-                "contactType": "Customer Service",
+                "contactType": "Sales",
                 "email": "support@theanswerengine.ai",
                 "availableLanguage": "English"
               },
-              "sameAs": []
+              "sameAs": [
+                "https://www.linkedin.com/company/theanswerengine",
+                "https://twitter.com/theanswerengine"
+              ]
             })
           }}
         />
 
-        {/* WebSite Schema - Appears on all pages */}
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
@@ -60,10 +61,22 @@ export default function RootLayout({
               "@type": "WebSite",
               "name": "The Answer Engine",
               "url": "https://theanswerengine.ai",
-              "description": "Get your business cited by AI platforms like ChatGPT, Claude, and Google AI Overviews. Answer Engine Optimization for local service businesses.",
+              "description": "Get your business cited by AI platforms like ChatGPT, Claude, Google AI Overviews, and Perplexity. Answer Engine Optimization for local service businesses.",
               "publisher": {
                 "@type": "Organization",
-                "name": "The Answer Engine"
+                "name": "The Answer Engine",
+                "logo": {
+                  "@type": "ImageObject",
+                  "url": "https://theanswerengine.ai/TheAnswerEngine_Color.png"
+                }
+              },
+              "potentialAction": {
+                "@type": "SearchAction",
+                "target": {
+                  "@type": "EntryPoint",
+                  "urlTemplate": "https://theanswerengine.ai/blog?q={search_term_string}"
+                },
+                "query-input": "required name=search_term_string"
               }
             })
           }}
@@ -72,14 +85,12 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased bg-[#0A0A0F]`}
       >
-        {/* Navigation Header */}
         <nav className="bg-[#0A0A0F]/80 backdrop-blur-xl border-b border-white/[0.05] sticky top-0 z-50">
           <div className="max-w-6xl mx-auto px-6 py-4">
             <div className="flex items-center justify-between">
-              {/* Logo with Premium Text - NOW SHOWS ON ALL SCREEN SIZES */}
               <a href="/" className="flex items-center gap-3 group">
                 <img 
-                  src="/TheAnswerEngine_Color_just_logo.png" 
+                  src="/TheAnswerEngine_Color.png" 
                   alt="The Answer Engine" 
                   className="h-10 sm:h-12 transition-opacity group-hover:opacity-80"
                 />
@@ -93,7 +104,6 @@ export default function RootLayout({
                 </div>
               </a>
               
-              {/* Desktop Navigation Links */}
               <div className="hidden md:flex items-center space-x-8">
                 <a 
                   href="/" 
@@ -127,19 +137,16 @@ export default function RootLayout({
                 </a>
               </div>
 
-              {/* Mobile Menu Button */}
               <button 
                 onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
                 className="md:hidden text-gray-300 hover:text-white transition-colors"
                 aria-label="Toggle mobile menu"
               >
                 {mobileMenuOpen ? (
-                  // X icon when menu is open
                   <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={2}>
                     <path strokeLinecap="round" strokeLinejoin="round" d="M6 18L18 6M6 6l12 12" />
                   </svg>
                 ) : (
-                  // Hamburger icon when menu is closed
                   <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={2}>
                     <path strokeLinecap="round" strokeLinejoin="round" d="M4 6h16M4 12h16M4 18h16" />
                   </svg>
@@ -147,7 +154,6 @@ export default function RootLayout({
               </button>
             </div>
 
-            {/* Mobile Menu */}
             {mobileMenuOpen && (
               <div className="md:hidden mt-4 pb-4 border-t border-white/[0.05] pt-4 animate-in fade-in slide-in-from-top-2 duration-200">
                 <div className="flex flex-col space-y-4">
@@ -192,23 +198,18 @@ export default function RootLayout({
           </div>
         </nav>
 
-        {/* Page Content */}
         {children}
 
-        {/* Contact Section */}
         <section id="contact" className="bg-[#0A0A0F] py-20 sm:py-32 relative">
-          {/* Subtle gradient overlay */}
           <div className="absolute inset-0 bg-gradient-to-b from-purple-950/10 via-transparent to-orange-950/10 pointer-events-none" />
           
           <div className="max-w-4xl mx-auto px-6 relative">
-            {/* Simple pixel divider */}
             <div className="flex justify-center gap-2 mb-12">
               <div className="w-1.5 h-1.5 bg-orange-500" />
               <div className="w-1.5 h-1.5 bg-purple-500" />
               <div className="w-1.5 h-1.5 bg-orange-500" />
             </div>
 
-            {/* Header */}
             <header className="text-center mb-20">
               <h2 className="text-4xl sm:text-5xl lg:text-6xl font-light mb-8 leading-tight tracking-tight text-gray-100">
                 Get Started with<br />
@@ -216,16 +217,13 @@ export default function RootLayout({
               </h2>
               
               <p className="text-xl text-gray-400 max-w-2xl mx-auto leading-relaxed font-light">
-                Ready to dominate AI search? Let's discuss how to get your business cited by ChatGPT, Claude, and Google AI Overviews.
+                Ready to dominate AI search? Let's discuss how to get your business cited by ChatGPT, Claude, Google AI Overviews, and Perplexity.
               </p>
             </header>
 
-            {/* Contact Cards */}
             <div className="grid sm:grid-cols-2 gap-6 mb-20">
-              {/* Phone */}
               <div className="bg-white/[0.03] backdrop-blur-xl border border-white/[0.05] rounded-2xl p-10 hover:border-white/[0.08] transition-all group">
                 <div className="text-center">
-                  {/* Icon */}
                   <div className="inline-flex items-center justify-center w-16 h-16 rounded-xl mb-6 bg-gradient-to-br from-orange-500/10 to-orange-600/10 border border-orange-500/20 group-hover:border-orange-500/40 transition-colors">
                     <svg className="w-8 h-8 text-orange-400" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={1.5}>
                       <path strokeLinecap="round" strokeLinejoin="round" d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 002.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035 12.035 0 01-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 00-1.091-.852H4.5A2.25 2.25 0 002.25 4.5v2.25z" />
@@ -249,10 +247,8 @@ export default function RootLayout({
                 </div>
               </div>
 
-              {/* Email */}
               <div className="bg-white/[0.03] backdrop-blur-xl border border-white/[0.05] rounded-2xl p-10 hover:border-white/[0.08] transition-all group">
                 <div className="text-center">
-                  {/* Icon */}
                   <div className="inline-flex items-center justify-center w-16 h-16 rounded-xl mb-6 bg-gradient-to-br from-purple-500/10 to-purple-600/10 border border-purple-500/20 group-hover:border-purple-500/40 transition-colors">
                     <svg className="w-8 h-8 text-purple-400" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={1.5}>
                       <path strokeLinecap="round" strokeLinejoin="round" d="M21.75 6.75v10.5a2.25 2.25 0 01-2.25 2.25h-15a2.25 2.25 0 01-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0019.5 4.5h-15a2.25 2.25 0 00-2.25 2.25m19.5 0v.243a2.25 2.25 0 01-1.07 1.916l-7.5 4.615a2.25 2.25 0 01-2.36 0L3.32 8.91a2.25 2.25 0 01-1.07-1.916V6.75" />
@@ -277,10 +273,8 @@ export default function RootLayout({
               </div>
             </div>
 
-            {/* CTA Section */}
             <div className="bg-white/[0.02] backdrop-blur-xl border border-white/[0.05] rounded-3xl p-12 sm:p-16">
               <div className="text-center mb-12">
-                {/* Simple pixel accent */}
                 <div className="flex justify-center gap-1.5 mb-8">
                   <div className="w-1 h-1 bg-orange-500/60" />
                   <div className="w-1 h-1 bg-purple-500/60" />
@@ -297,7 +291,6 @@ export default function RootLayout({
                 </p>
               </div>
 
-              {/* Benefits */}
               <div className="space-y-4 mb-12 max-w-2xl mx-auto">
                 {[
                   "See exactly where you're losing to competitors in AI citations",
@@ -315,7 +308,6 @@ export default function RootLayout({
                 ))}
               </div>
 
-              {/* CTA Buttons */}
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
                 <a 
                   href="tel:+12134442229"
@@ -339,7 +331,6 @@ export default function RootLayout({
               </div>
             </div>
 
-            {/* Footer Info */}
             <div className="mt-16 text-center">
               <div className="inline-flex flex-col sm:flex-row items-center gap-6 text-sm text-gray-500">
                 <div className="flex items-center gap-2">
@@ -356,10 +347,8 @@ export default function RootLayout({
           </div>
         </section>
 
-        {/* Footer */}
         <footer className="bg-[#0A0A0F] border-t border-white/[0.05] text-white py-16">
           <div className="max-w-6xl mx-auto px-6">
-            {/* Subtle pixel accent */}
             <div className="flex justify-center gap-1.5 mb-12">
               <div className="w-1 h-1 bg-orange-500/60" />
               <div className="w-1 h-1 bg-purple-500/60" />
@@ -367,10 +356,9 @@ export default function RootLayout({
             </div>
 
             <div className="grid md:grid-cols-3 gap-12 mb-12">
-              {/* Company Info */}
               <div>
                 <img 
-                  src="/TheAnswerEngine_Color_just_logo.png" 
+                  src="/TheAnswerEngine_Color.png" 
                   alt="The Answer Engine" 
                   className="h-12 mb-6 opacity-90"
                 />
@@ -379,7 +367,6 @@ export default function RootLayout({
                 </p>
               </div>
 
-              {/* Quick Links */}
               <div>
                 <h3 className="font-medium text-white mb-4">Quick Links</h3>
                 <ul className="space-y-3 text-gray-400 text-sm">
@@ -410,7 +397,6 @@ export default function RootLayout({
                 </ul>
               </div>
 
-              {/* Contact */}
               <div>
                 <h3 className="font-medium text-white mb-4">Get In Touch</h3>
                 <p className="text-gray-400 text-sm mb-6 font-light">
@@ -425,7 +411,6 @@ export default function RootLayout({
               </div>
             </div>
 
-            {/* Divider */}
             <div className="flex justify-center gap-1 mb-8 opacity-20">
               {[...Array(60)].map((_, i) => (
                 <div 

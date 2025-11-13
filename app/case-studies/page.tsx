@@ -1,9 +1,7 @@
 'use client';
 
 import { useEffect, useRef, useState } from 'react';
-import { PersonSchema, BreadcrumbSchema } from '../components/schema';
 
-// Counter animation hook
 function useCountAnimation(end: number, duration: number = 2000, shouldAnimate: boolean = false) {
   const [count, setCount] = useState(0);
 
@@ -17,7 +15,6 @@ function useCountAnimation(end: number, duration: number = 2000, shouldAnimate: 
       if (startTime === null) startTime = currentTime;
       const progress = Math.min((currentTime - startTime) / duration, 1);
       
-      // Easing function for smooth animation
       const easeOutQuart = 1 - Math.pow(1 - progress, 4);
       const currentCount = Math.floor(easeOutQuart * (end - startValue) + startValue);
       
@@ -36,7 +33,6 @@ function useCountAnimation(end: number, duration: number = 2000, shouldAnimate: 
   return count;
 }
 
-// Intersection Observer hook
 function useInView(options = {}) {
   const ref = useRef<HTMLDivElement>(null);
   const [isInView, setIsInView] = useState(false);
@@ -62,7 +58,6 @@ function useInView(options = {}) {
   return { ref, isInView };
 }
 
-// Stat component with animation
 function AnimatedStat({ 
   value, 
   suffix = '', 
@@ -93,7 +88,6 @@ export default function CaseStudies() {
 
   return (
     <>
-      {/* Enhanced CollectionPage Schema */}
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{
@@ -107,10 +101,18 @@ export default function CaseStudies() {
             "publisher": {
               "@type": "Organization",
               "name": "The Answer Engine",
+              "url": "https://theanswerengine.ai",
               "logo": {
                 "@type": "ImageObject",
-                "url": "https://theanswerengine.ai/TheAnswerEngine_Color_just_logo.png"
+                "url": "https://theanswerengine.ai/TheAnswerEngine_Color.png",
+                "width": 600,
+                "height": 60
               }
+            },
+            "author": {
+              "@type": "Organization",
+              "name": "The Answer Engine Team",
+              "url": "https://theanswerengine.ai"
             },
             "mainEntity": {
               "@type": "ItemList",
@@ -119,10 +121,15 @@ export default function CaseStudies() {
                   "@type": "Article",
                   "position": 1,
                   "headline": "How The Borges Real Estate Team Achieved 100% AI Citation Dominance",
+                  "description": "A probate real estate specialist achieved dominant AI citations across ChatGPT, Claude, and Perplexity within 60 days through strategic Answer Engine Optimization.",
                   "url": "https://theanswerengine.ai/case-studies/justin-borges-probate-real-estate",
                   "author": {
-                    "@type": "Person",
-                    "name": "Justin Borges"
+                    "@type": "Organization",
+                    "name": "The Answer Engine Team"
+                  },
+                  "publisher": {
+                    "@type": "Organization",
+                    "name": "The Answer Engine"
                   }
                 }
               ]
@@ -131,34 +138,118 @@ export default function CaseStudies() {
         }}
       />
 
-      {/* Person Schema - Justin Borges as case study author */}
-      <PersonSchema />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://theanswerengine.ai"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Case Studies",
+                "item": "https://theanswerengine.ai/case-studies"
+              }
+            ]
+          })
+        }}
+      />
 
-      {/* Breadcrumb Schema - Navigation structure */}
-      <BreadcrumbSchema 
-        items={[
-          { name: "Home", url: "https://theanswerengine.ai" },
-          { name: "Case Studies", url: "https://theanswerengine.ai/case-studies" }
-        ]}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "Organization",
+            "name": "The Answer Engine",
+            "url": "https://theanswerengine.ai",
+            "logo": "https://theanswerengine.ai/TheAnswerEngine_Color.png",
+            "description": "We specialize in Answer Engine Optimization (AEO) for local service businesses, positioning companies to be cited by Google AI Overviews, ChatGPT, Claude, and Perplexity.",
+            "sameAs": [
+              "https://www.linkedin.com/company/theanswerengine",
+              "https://twitter.com/theanswerengine"
+            ],
+            "contactPoint": {
+              "@type": "ContactPoint",
+              "contactType": "Sales",
+              "url": "https://theanswerengine.ai/#contact"
+            }
+          })
+        }}
+      />
+
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "WebPage",
+            "name": "AEO Case Studies - Real Results from Answer Engine Optimization",
+            "description": "See how local service businesses achieved AI citation dominance through Answer Engine Optimization.",
+            "url": "https://theanswerengine.ai/case-studies",
+            "inLanguage": "en-US",
+            "isPartOf": {
+              "@type": "WebSite",
+              "name": "The Answer Engine",
+              "url": "https://theanswerengine.ai"
+            },
+            "about": {
+              "@type": "Thing",
+              "name": "Answer Engine Optimization Case Studies"
+            }
+          })
+        }}
+      />
+
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "Article",
+            "headline": "How The Borges Real Estate Team Achieved 100% AI Citation Dominance",
+            "description": "A probate real estate specialist achieved dominant AI citations across ChatGPT, Claude, and Perplexity within 60 days through strategic Answer Engine Optimization.",
+            "author": {
+              "@type": "Organization",
+              "name": "The Answer Engine Team"
+            },
+            "publisher": {
+              "@type": "Organization",
+              "name": "The Answer Engine",
+              "logo": {
+                "@type": "ImageObject",
+                "url": "https://theanswerengine.ai/TheAnswerEngine_Color.png"
+              }
+            },
+            "datePublished": "2025-11-09",
+            "mainEntityOfPage": {
+              "@type": "WebPage",
+              "@id": "https://theanswerengine.ai/case-studies"
+            }
+          })
+        }}
       />
 
       <main className="min-h-screen bg-[#0A0A0F] relative">
-        {/* Subtle gradient overlay */}
         <div className="absolute inset-0 bg-gradient-to-b from-purple-950/10 via-transparent to-orange-950/10 pointer-events-none" />
         
-        {/* Simple pixel accent - top corners */}
         <div className="absolute top-0 left-0 w-2 h-2 bg-orange-500/40" />
         <div className="absolute top-0 left-2 w-2 h-2 bg-purple-500/40" />
 
         <div className="max-w-6xl mx-auto px-6 py-20 sm:py-32 relative">
-          {/* Simple pixel divider */}
           <div className="flex gap-2 mb-12">
             <div className="w-1.5 h-1.5 bg-orange-500" />
             <div className="w-1.5 h-1.5 bg-purple-500" />
             <div className="w-1.5 h-1.5 bg-orange-500" />
           </div>
 
-          {/* Header */}
           <header className="text-center mb-20">
             <div className="inline-flex items-center gap-2 px-4 py-2 rounded-xl mb-8 bg-gradient-to-r from-orange-500/10 to-orange-600/10 border border-orange-500/20">
               <div className="w-1.5 h-1.5 bg-orange-500 rounded-full animate-pulse" />
@@ -176,12 +267,11 @@ export default function CaseStudies() {
             </p>
           </header>
 
-          {/* Stats Bar with Animation */}
           <div ref={statsRef} className="mb-20">
             <div className="bg-white/[0.03] backdrop-blur-xl border border-white/[0.05] rounded-2xl p-8 sm:p-12">
               <div className="grid md:grid-cols-3 gap-8 sm:gap-12">
                 <AnimatedStat 
-                  value={90}
+                  value={60}
                   suffix=""
                   label="Days to First AI Citations"
                   gradient="from-orange-400 to-orange-500"
@@ -190,9 +280,9 @@ export default function CaseStudies() {
                 
                 <div className="text-center md:border-x border-white/[0.05] md:px-4">
                   <AnimatedStat 
-                    value={70}
+                    value={100}
                     suffix="%"
-                    label="Lower Cost Per Lead"
+                    label="AI Citation Success Rate"
                     gradient="from-purple-400 to-purple-500"
                     isInView={statsInView}
                   />
@@ -209,16 +299,13 @@ export default function CaseStudies() {
             </div>
           </div>
 
-          {/* Divider */}
           <div className="flex justify-center gap-1 mb-20 opacity-20">
             {[...Array(50)].map((_, i) => (
               <div key={i} className="w-px h-px bg-gray-600" />
             ))}
           </div>
 
-          {/* Case Study Card */}
           <article className="bg-white/[0.03] backdrop-blur-xl border border-white/[0.05] rounded-3xl overflow-hidden hover:border-white/[0.08] transition-all mb-20">
-            {/* Card Header */}
             <div className="relative h-56 bg-gradient-to-r from-purple-900/40 to-orange-600/40 backdrop-blur-xl border-b border-white/[0.05] flex items-center justify-center">
               <div className="absolute inset-0 bg-gradient-to-b from-transparent to-black/20" />
               <div className="text-center text-white relative z-10">
@@ -231,9 +318,7 @@ export default function CaseStudies() {
               </div>
             </div>
 
-            {/* Card Content */}
             <div className="p-8 sm:p-12 lg:p-16">
-              {/* Challenge */}
               <div className="mb-16">
                 <h3 className="text-3xl font-light mb-6 text-gray-100">
                   The <span className="font-normal text-white">Challenge</span>
@@ -243,7 +328,6 @@ export default function CaseStudies() {
                 </p>
               </div>
 
-              {/* Results Grid */}
               <div className="mb-16">
                 <h3 className="text-3xl font-light mb-8 text-gray-100">
                   The <span className="font-normal text-white">Results</span>
@@ -288,7 +372,6 @@ export default function CaseStudies() {
                 </div>
               </div>
 
-              {/* Quote */}
               <div className="relative p-8 sm:p-10 rounded-2xl mb-12 bg-white/[0.02] backdrop-blur-xl border-l-4 border-orange-500">
                 <svg className="absolute top-6 left-6 w-10 h-10 text-orange-500/20" fill="currentColor" viewBox="0 0 24 24">
                   <path d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h3.983v10h-9.983z"/>
@@ -301,7 +384,6 @@ export default function CaseStudies() {
                 </div>
               </div>
 
-              {/* CTA */}
               <div className="text-center">
                 <a 
                   href="/case-studies/justin-borges-probate-real-estate"
@@ -316,16 +398,13 @@ export default function CaseStudies() {
             </div>
           </article>
 
-          {/* Divider */}
           <div className="flex justify-center gap-1 mb-20 opacity-20">
             {[...Array(50)].map((_, i) => (
               <div key={i} className="w-px h-px bg-gray-600" />
             ))}
           </div>
 
-          {/* CTA Section */}
           <div className="bg-white/[0.02] backdrop-blur-xl border border-white/[0.05] rounded-3xl p-12 sm:p-16 text-center">
-            {/* Simple pixel accent */}
             <div className="flex justify-center gap-1.5 mb-8">
               <div className="w-1 h-1 bg-orange-500/60" />
               <div className="w-1 h-1 bg-purple-500/60" />
@@ -342,7 +421,7 @@ export default function CaseStudies() {
             </p>
             
             <a 
-              href="#contact"
+              href="/#contact"
               className="inline-flex items-center justify-center gap-3 px-8 py-4 rounded-xl text-lg font-medium bg-gradient-to-r from-purple-500 to-purple-600 text-white hover:from-purple-600 hover:to-purple-700 transition-all shadow-lg shadow-purple-500/25"
             >
               <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={2}>

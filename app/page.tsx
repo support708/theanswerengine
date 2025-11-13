@@ -1,9 +1,7 @@
 'use client';
 
 import { useEffect, useRef, useState } from 'react';
-import { PersonSchema, BreadcrumbSchema } from './components/schema';
 
-// Counter animation hook
 function useCountAnimation(end: number, duration: number = 2000, shouldAnimate: boolean = false) {
   const [count, setCount] = useState(0);
 
@@ -35,7 +33,6 @@ function useCountAnimation(end: number, duration: number = 2000, shouldAnimate: 
   return count;
 }
 
-// Intersection Observer hook
 function useInView(options = {}) {
   const ref = useRef<HTMLDivElement>(null);
   const [isInView, setIsInView] = useState(false);
@@ -61,7 +58,6 @@ function useInView(options = {}) {
   return { ref, isInView };
 }
 
-// Animated Stat Component
 function AnimatedStat({ 
   value, 
   suffix = '', 
@@ -141,7 +137,6 @@ export default function Home() {
 
   return (
     <>
-      {/* Custom styles with EXACT BRAND COLORS */}
       <style jsx global>{`
         @keyframes pixel-glow {
           0%, 100% { 
@@ -166,26 +161,22 @@ export default function Home() {
           background: linear-gradient(135deg, rgba(255,255,255,0.3), transparent);
         }
 
-        /* BRAND ORANGE: #f27d24 */
         .brand-orange {
           background: linear-gradient(135deg, #f27d24, #d66d1f);
           color: #f27d24;
         }
 
-        /* BRAND PURPLE: #362478 */
         .brand-purple {
           background: linear-gradient(135deg, #362478, #2a1a5f);
           color: #362478;
         }
 
-        /* BRAND RED: #bf172e */
         .brand-red {
           background: linear-gradient(135deg, #bf172e, #9f1326);
           color: #bf172e;
         }
       `}</style>
 
-      {/* Schema */}
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{
@@ -193,13 +184,28 @@ export default function Home() {
             "@context": "https://schema.org",
             "@type": "ProfessionalService",
             "name": "The Answer Engine",
-            "description": "Answer Engine Optimization specialists helping local service businesses get cited by AI platforms like Gemini, ChatGPT, Claude, and Perplexity. 90-day citation guarantee. Exclusive territory protection.",
+            "description": "Answer Engine Optimization specialists helping local service businesses get cited by AI platforms like Google AI Overviews, ChatGPT, Claude, and Perplexity. 90-day citation guarantee. Exclusive territory protection.",
             "url": "https://theanswerengine.ai",
+            "logo": "https://theanswerengine.ai/TheAnswerEngine_Color.png",
             "telephone": "+1-213-444-2229",
             "email": "support@theanswerengine.ai",
             "priceRange": "$$",
             "areaServed": "United States",
-            "logo": "https://theanswerengine.ai/TheAnswerEngine_Color_just_logo.png"
+            "address": {
+              "@type": "PostalAddress",
+              "addressCountry": "US"
+            },
+            "contactPoint": {
+              "@type": "ContactPoint",
+              "contactType": "Sales",
+              "telephone": "+1-213-444-2229",
+              "email": "support@theanswerengine.ai",
+              "availableLanguage": "English"
+            },
+            "sameAs": [
+              "https://www.linkedin.com/company/theanswerengine",
+              "https://twitter.com/theanswerengine"
+            ]
           })
         }}
       />
@@ -211,9 +217,14 @@ export default function Home() {
             "@context": "https://schema.org",
             "@type": "WebPage",
             "name": "The Answer Engine - Answer Engine Optimization (AEO)",
-            "description": "Get your business cited by Gemini, ChatGPT, Claude, and Perplexity. 90-day guarantee. Exclusive territory protection. Stop competing for rankings, start being THE answer.",
+            "description": "Get your business cited by Google AI Overviews, ChatGPT, Claude, and Perplexity. 90-day guarantee. Exclusive territory protection. Stop competing for rankings, start being THE answer.",
             "url": "https://theanswerengine.ai",
-            "inLanguage": "en-US"
+            "inLanguage": "en-US",
+            "isPartOf": {
+              "@type": "WebSite",
+              "name": "The Answer Engine",
+              "url": "https://theanswerengine.ai"
+            }
           })
         }}
       />
@@ -225,10 +236,11 @@ export default function Home() {
             "@context": "https://schema.org",
             "@type": "Service",
             "name": "Answer Engine Optimization",
-            "description": "Professional Answer Engine Optimization service with 90-day citation guarantee. We get local businesses cited by Gemini, ChatGPT, Claude, and Perplexity. Exclusive territory - only one business per category per area.",
+            "description": "Professional Answer Engine Optimization service with 90-day citation guarantee. We get local businesses cited by Google AI Overviews, ChatGPT, Claude, and Perplexity. Exclusive territory - only one business per category per area.",
             "provider": {
               "@type": "Organization",
-              "name": "The Answer Engine"
+              "name": "The Answer Engine",
+              "url": "https://theanswerengine.ai"
             },
             "serviceType": "Answer Engine Optimization",
             "areaServed": "United States"
@@ -248,7 +260,7 @@ export default function Home() {
                 "name": "What is Answer Engine Optimization?",
                 "acceptedAnswer": {
                   "@type": "Answer",
-                  "text": "Answer Engine Optimization (AEO) is the practice of optimizing content to be cited by AI platforms like Gemini, ChatGPT, Claude, and Perplexity as the authoritative answer, rather than just ranking in traditional search results."
+                  "text": "Answer Engine Optimization (AEO) is the practice of optimizing content to be cited by AI platforms like Google AI Overviews, ChatGPT, Claude, and Perplexity as the authoritative answer, rather than just ranking in traditional search results."
                 }
               },
               {
@@ -272,30 +284,38 @@ export default function Home() {
         }}
       />
 
-      <PersonSchema />
-      <BreadcrumbSchema 
-        items={[
-          { name: "Home", url: "https://theanswerengine.ai" }
-        ]}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://theanswerengine.ai"
+              }
+            ]
+          })
+        }}
       />
 
       <main className="min-h-screen bg-[#0A0A0F] relative overflow-hidden">
         <div className="absolute inset-0 bg-gradient-to-b from-purple-950/10 via-transparent to-orange-950/10 pointer-events-none" />
         
-        {/* BRAND COLOR LUXURY PIXELS - Top Left */}
         <div className="absolute top-0 left-0 flex gap-1 p-2">
           <div className="luxury-pixel w-3 h-3 brand-orange rounded-sm" style={{animationDelay: '0s'}} />
           <div className="luxury-pixel w-3 h-3 brand-purple rounded-sm" style={{animationDelay: '0.5s'}} />
           <div className="luxury-pixel w-3 h-3 brand-orange rounded-sm" style={{animationDelay: '1s'}} />
         </div>
 
-        {/* BRAND COLOR LUXURY PIXELS - Top Right */}
         <div className="absolute top-0 right-0 flex gap-1 p-2">
           <div className="luxury-pixel w-3 h-3 brand-purple rounded-sm" style={{animationDelay: '0.3s'}} />
           <div className="luxury-pixel w-3 h-3 brand-orange rounded-sm" style={{animationDelay: '0.8s'}} />
         </div>
 
-        {/* 1. HERO SECTION */}
         <section className="relative max-w-6xl mx-auto px-6 pt-20 sm:pt-32 pb-32 sm:pb-40">
           <div className="flex justify-center mb-16">
             <video 
@@ -304,11 +324,11 @@ export default function Home() {
               loop 
               playsInline
               className="h-32 sm:h-40 w-auto opacity-90"
-              poster="/TheAnswerEngine_Color_just_logo.png"
+              poster="/TheAnswerEngine_Color.png"
             >
               <source src="/Logo_Animation_Generation.mp4" type="video/mp4" />
               <img 
-                src="/TheAnswerEngine_Color_just_logo.png" 
+                src="/TheAnswerEngine_Color.png" 
                 alt="The Answer Engine" 
                 className="h-32 sm:h-40 opacity-90"
               />
@@ -330,7 +350,7 @@ export default function Home() {
             <p className="text-xl text-gray-400 max-w-3xl mx-auto leading-relaxed font-light mb-12">
               Right now, when someone asks AI for the best plumber in Phoenix, HVAC contractor in Los Angeles, real estate agent in Chicago, or electrician in Charlotte, AI recommends your competitors.
               <br /><br />
-              <span className="text-white font-medium">We make AI cite you instead across Gemini, ChatGPT, Claude & Perplexity.</span>
+              <span className="text-white font-medium">We make AI cite you instead across Google AI Overviews, ChatGPT, Claude & Perplexity.</span>
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
@@ -355,7 +375,6 @@ export default function Home() {
           </div>
         </section>
 
-        {/* 2. PROTECTED TERRITORY BANNER */}
         <section className="max-w-6xl mx-auto px-6 pb-32">
           <div className="bg-gradient-to-r from-[#362478]/10 to-[#f27d24]/10 border border-white/[0.1] rounded-2xl p-8 text-center relative overflow-hidden">
             <div className="absolute top-4 left-4">
@@ -365,16 +384,15 @@ export default function Home() {
               <div className="luxury-pixel w-2 h-2 brand-orange rounded-sm" />
             </div>
             
-            <h3 className="text-2xl sm:text-3xl font-light mb-3 text-gray-100">
+            <h2 className="text-2xl sm:text-3xl font-light mb-3 text-gray-100">
               ⚡ <span className="font-normal text-white">Protected Territory:</span> Only One Business Per Category, Per Area
-            </h3>
+            </h2>
             <p className="text-gray-400 max-w-2xl mx-auto">
               First come, first served. Your competitors are locked out once you claim your spot.
             </p>
           </div>
         </section>
 
-        {/* 3. CASE STUDY SECTION */}
         <section className="max-w-6xl mx-auto px-6 pb-32">
           <div className="bg-white/[0.02] backdrop-blur-xl border border-white/[0.05] rounded-3xl p-12 sm:p-16 relative overflow-hidden">
             <div className="absolute top-6 left-6 flex gap-2">
@@ -423,7 +441,6 @@ export default function Home() {
           </div>
         </div>
 
-        {/* 4. STATS SECTION */}
         <section ref={statsRef} className="max-w-6xl mx-auto px-6 pb-32">
           <div className="bg-white/[0.03] backdrop-blur-xl border border-white/[0.05] rounded-2xl p-12 sm:p-16 relative overflow-hidden">
             <div className="absolute top-4 left-4 flex gap-2">
@@ -476,7 +493,6 @@ export default function Home() {
           </div>
         </div>
 
-        {/* 5. HOW IT WORKS SECTION */}
         <section className="max-w-6xl mx-auto px-6 pb-32">
           <div className="text-center mb-16">
             <div className="inline-flex items-center gap-2 px-4 py-2 rounded-xl mb-8 border" style={{background: 'linear-gradient(to right, rgba(242, 125, 36, 0.1), rgba(214, 109, 31, 0.15))', borderColor: 'rgba(242, 125, 36, 0.2)'}}>
@@ -498,7 +514,7 @@ export default function Home() {
             {[
               {
                 title: "Who's Getting Your Leads Report",
-                description: "We test 50+ customer queries across Gemini, ChatGPT, Claude & Perplexity to see which businesses AI recommends in your area.",
+                description: "We test 50+ customer queries across Google AI Overviews, ChatGPT, Claude & Perplexity to see which businesses AI recommends in your area.",
                 icon: (
                   <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={2}>
                     <path strokeLinecap="round" strokeLinejoin="round" d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2" />
@@ -558,7 +574,6 @@ export default function Home() {
           </div>
         </div>
 
-        {/* 6. GUARANTEE SECTION (NO PRICING) */}
         <section className="max-w-4xl mx-auto px-6 pb-32">
           <div className="bg-gradient-to-r from-green-500/10 to-green-600/10 border border-green-500/20 rounded-2xl p-12 sm:p-16 relative overflow-hidden">
             <div className="absolute top-6 left-6">
@@ -609,7 +624,6 @@ export default function Home() {
           </div>
         </div>
 
-        {/* 7. TEXT ME CALLOUT */}
         <section className="max-w-4xl mx-auto px-6 pb-32">
           <div className="bg-white/[0.02] backdrop-blur-xl border border-white/[0.05] rounded-3xl p-12 relative overflow-hidden">
             <div className="absolute top-6 left-6">
@@ -670,7 +684,6 @@ export default function Home() {
           </div>
         </div>
 
-        {/* 8. FORM SECTION */}
         <section id="audit-form" className="max-w-4xl mx-auto px-6 pb-32">
           <div className="bg-white/[0.02] backdrop-blur-xl border border-white/[0.05] rounded-3xl p-12 sm:p-16 relative overflow-hidden">
             <div className="absolute top-6 left-6 flex gap-2">
