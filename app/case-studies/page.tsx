@@ -120,8 +120,8 @@ export default function CaseStudies() {
                 {
                   "@type": "Article",
                   "position": 1,
-                  "headline": "How The Borges Real Estate Team Achieved 100% AI Citation Dominance",
-                  "description": "A probate real estate specialist achieved dominant AI citations across ChatGPT, Claude, and Perplexity within 60 days through strategic Answer Engine Optimization.",
+                  "headline": "How The Borges Real Estate Team Achieved Page 1 Authority in 90 Days",
+                  "description": "A local real estate specialist went from page 2-3 invisibility to page 1 authority on 12+ high-value queries through strategic Answer Engine Optimization.",
                   "url": "https://theanswerengine.ai/case-studies/justin-borges-probate-real-estate",
                   "author": {
                     "@type": "Organization",
@@ -214,8 +214,8 @@ export default function CaseStudies() {
           __html: JSON.stringify({
             "@context": "https://schema.org",
             "@type": "Article",
-            "headline": "How The Borges Real Estate Team Achieved 100% AI Citation Dominance",
-            "description": "A probate real estate specialist achieved dominant AI citations across ChatGPT, Claude, and Perplexity within 60 days through strategic Answer Engine Optimization.",
+            "headline": "How The Borges Real Estate Team Achieved Page 1 Authority in 90 Days",
+            "description": "A local real estate specialist went from page 2-3 invisibility to page 1 authority on 12+ high-value queries through strategic Answer Engine Optimization.",
             "author": {
               "@type": "Organization",
               "name": "The Answer Engine Team"
@@ -263,7 +263,7 @@ export default function CaseStudies() {
             </h1>
             
             <p className="text-xl text-gray-400 max-w-3xl mx-auto leading-relaxed font-light">
-              See how Answer Engine Optimization helped local service businesses dominate AI platforms like ChatGPT, Claude, and Google AI Overviews—stealing market share from competitors who still fight for rankings.
+              See how Answer Engine Optimization helped local service businesses dominate AI search—generating qualified leads from ChatGPT, Claude, and Google AI Overviews while competitors still fight for page rankings.
             </p>
           </header>
 
@@ -271,27 +271,27 @@ export default function CaseStudies() {
             <div className="bg-white/[0.03] backdrop-blur-xl border border-white/[0.05] rounded-2xl p-8 sm:p-12">
               <div className="grid md:grid-cols-3 gap-8 sm:gap-12">
                 <AnimatedStat 
-                  value={60}
+                  value={680}
                   suffix=""
-                  label="Days to First AI Citations"
+                  label="Weekly Clicks Without Ad Spend"
                   gradient="from-orange-400 to-orange-500"
                   isInView={statsInView}
                 />
                 
                 <div className="text-center md:border-x border-white/[0.05] md:px-4">
                   <AnimatedStat 
-                    value={100}
-                    suffix="%"
-                    label="AI Citation Success Rate"
+                    value={12}
+                    suffix="+"
+                    label="Position 1-5 Rankings Achieved"
                     gradient="from-purple-400 to-purple-500"
                     isInView={statsInView}
                   />
                 </div>
                 
                 <AnimatedStat 
-                  value={100}
-                  suffix="%"
-                  label="Client Success Rate"
+                  value={90}
+                  suffix=" Days"
+                  label="From Invisible to Authority"
                   gradient="from-orange-400 to-orange-500"
                   isInView={statsInView}
                 />
@@ -323,8 +323,32 @@ export default function CaseStudies() {
                 <h3 className="text-3xl font-light mb-6 text-gray-100">
                   The <span className="font-normal text-white">Challenge</span>
                 </h3>
+                <p className="text-lg text-gray-300 leading-relaxed font-light mb-6">
+                  Justin Borges had what most local service businesses have: genuine expertise built over 15 years in Los Angeles real estate. He was the go-to agent for complex transactions that most competitors avoid or don't understand.
+                </p>
                 <p className="text-lg text-gray-300 leading-relaxed font-light">
-                  A probate real estate specialist competing in the saturated Los Angeles market needed to differentiate from hundreds of realtors fighting for the same keywords. Traditional SEO wasn't cutting it—they needed to be THE answer AI platforms recommended.
+                  But when potential clients searched online? They found Zillow. Not Justin.
+                </p>
+                <p className="text-lg text-gray-300 leading-relaxed font-light mt-6">
+                  He was ranking on page 2-3 for valuable queries—completely invisible. His expertise existed, but his online authority didn't. And in the age of AI search, being invisible to Google means being invisible to ChatGPT, Claude, and Perplexity too.
+                </p>
+              </div>
+
+              <div className="mb-16">
+                <h3 className="text-3xl font-light mb-6 text-gray-100">
+                  The <span className="font-normal text-white">Approach</span>
+                </h3>
+                <p className="text-lg text-gray-300 leading-relaxed font-light mb-6">
+                  We didn't try to beat Zillow at their game. We played a different game entirely.
+                </p>
+                <p className="text-lg text-gray-300 leading-relaxed font-light mb-6">
+                  Instead of chasing impossible generic searches where Zillow dominates, we positioned Justin's actual expertise in specific areas where he has genuine authority—and where potential clients are desperately searching for trustworthy guidance.
+                </p>
+                <p className="text-lg text-gray-300 leading-relaxed font-light">
+                  The approach: Strategic positioning that transforms expertise into authority content AI engines cite.
+                </p>
+                <p className="text-lg text-gray-300 leading-relaxed font-light mt-6">
+                  90 days later, Justin went from page 2-3 invisibility to page 1 visibility on 12+ high-value queries—without spending a dollar on ads.
                 </p>
               </div>
 
@@ -335,32 +359,46 @@ export default function CaseStudies() {
                 <div className="grid sm:grid-cols-2 gap-6">
                   {[
                     {
-                      title: "Dominant AI Citations",
-                      description: "ChatGPT, Claude, and Perplexity now cite The Borges Team as the probate expert for Los Angeles real estate",
+                      metric: "Position 1",
+                      title: "The Question Your Clients Always Ask",
+                      description: "Ranked #1 for the investment/ROI question in Justin's niche. What's the ROI question YOUR clients ask before hiring you?",
                       gradient: "from-orange-500 to-orange-600"
                     },
                     {
-                      title: "Proposition 19 Authority",
-                      description: "Established as THE cited expert for California Proposition 19 probate implications",
+                      metric: "63 Clicks",
+                      title: "The Regulation That Confuses Everyone",
+                      description: "One article explaining complex local rules generated 15,752 impressions. What regulation confuses YOUR clients?",
                       gradient: "from-purple-500 to-purple-600"
                     },
                     {
-                      title: "Higher Quality Leads",
-                      description: "AI-sourced leads come pre-qualified and trust the recommendation",
+                      metric: "34 Clicks",
+                      title: "The Urgent Opportunity You Captured Fast",
+                      description: "Published expert content on time-sensitive market situation within 2 weeks. What urgent needs arise in YOUR market?",
                       gradient: "from-orange-500 to-orange-600"
                     },
                     {
-                      title: "60-Day Timeline",
-                      description: "First AI citations achieved within 60 days of implementation",
+                      metric: "Position 3.48",
+                      title: "The Specialized Service Few Offer",
+                      description: "Ranked top 5 for complex service only 5% of competitors handle. What specialized service do YOU offer that others don't?",
+                      gradient: "from-purple-500 to-purple-600"
+                    },
+                    {
+                      metric: "$17,000",
+                      title: "Weekly Ad Value Generated Organically",
+                      description: "680 clicks without ad spend. In your industry with your average CPC, what would that be worth?",
+                      gradient: "from-orange-500 to-orange-600"
+                    },
+                    {
+                      metric: "90 Days",
+                      title: "From Invisible to Authority",
+                      description: "Timeline from strategy to 12+ page 1 rankings. How much is 90 days worth to establish YOUR authority online?",
                       gradient: "from-purple-500 to-purple-600"
                     }
                   ].map((result, i) => (
                     <div key={i} className="bg-white/[0.02] backdrop-blur-xl border border-white/[0.05] rounded-xl p-6 hover:border-white/[0.08] transition-colors">
                       <div className="flex items-start gap-4">
-                        <div className={`flex-shrink-0 w-10 h-10 rounded-lg flex items-center justify-center bg-gradient-to-br ${result.gradient}`}>
-                          <svg className="w-5 h-5 text-white" fill="currentColor" viewBox="0 0 20 20">
-                            <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd"/>
-                          </svg>
+                        <div className={`flex-shrink-0 text-3xl font-light text-transparent bg-clip-text bg-gradient-to-r ${result.gradient}`}>
+                          {result.metric}
                         </div>
                         <div>
                           <div className="font-medium text-white mb-2">{result.title}</div>
@@ -372,16 +410,261 @@ export default function CaseStudies() {
                 </div>
               </div>
 
+              <div className="mb-16">
+                <h3 className="text-3xl font-light mb-6 text-gray-100">
+                  The <span className="font-normal text-white">Pattern</span>
+                </h3>
+                <p className="text-lg text-gray-300 leading-relaxed font-light mb-8">
+                  Every local service business has three types of expertise opportunities:
+                </p>
+                
+                <div className="space-y-6">
+                  <div className="bg-white/[0.02] backdrop-blur-xl border border-white/[0.05] rounded-xl p-6">
+                    <h4 className="text-xl text-white mb-3">1. The Complex Problem Most Competitors Avoid</h4>
+                    <p className="text-gray-300 mb-3">
+                      For Justin: confusing local regulations his competitors won't touch
+                    </p>
+                    <p className="text-sm text-gray-400 italic">
+                      For you: licensing, permits, compliance, technical certifications, specialized methods...
+                    </p>
+                  </div>
+
+                  <div className="bg-white/[0.02] backdrop-blur-xl border border-white/[0.05] rounded-xl p-6">
+                    <h4 className="text-xl text-white mb-3">2. The Specialized Service Only You (and 2-3 Others) Offer</h4>
+                    <p className="text-gray-300 mb-3">
+                      For Justin: complex estate transactions requiring specific expertise
+                    </p>
+                    <p className="text-sm text-gray-400 italic">
+                      For you: niche certifications, unique methodologies, specialized equipment, industry sub-specializations...
+                    </p>
+                  </div>
+
+                  <div className="bg-white/[0.02] backdrop-blur-xl border border-white/[0.05] rounded-xl p-6">
+                    <h4 className="text-xl text-white mb-3">3. The Local/Timely Knowledge National Brands Can't Match</h4>
+                    <p className="text-gray-300 mb-3">
+                      For Justin: neighborhood-specific market dynamics and urgent local issues
+                    </p>
+                    <p className="text-sm text-gray-400 italic">
+                      For you: local regulations, regional variations, community-specific needs, timely opportunities...
+                    </p>
+                  </div>
+                </div>
+
+                <p className="text-lg text-gray-300 leading-relaxed font-light mt-8">
+                  We positioned Justin's expertise in all three categories.
+                </p>
+                <p className="text-lg text-gray-300 leading-relaxed font-light mt-4">
+                  Result: 12+ position 1-5 rankings where his ideal clients search for guidance.
+                </p>
+                <p className="text-lg font-medium text-orange-400 mt-6">
+                  The question: What are YOUR three categories?
+                </p>
+              </div>
+
+              <div className="mb-16">
+                <h3 className="text-3xl font-light mb-8 text-gray-100">
+                  Strategic Content <span className="font-normal text-white">Performance</span>
+                </h3>
+                
+                <div className="space-y-6">
+                  <div className="bg-white/[0.02] backdrop-blur-xl border border-white/[0.05] rounded-xl p-6">
+                    <h4 className="text-xl text-white mb-4">Content Type 1: The Regulation Nobody Else Explains Clearly</h4>
+                    <div className="grid sm:grid-cols-3 gap-4 mb-4">
+                      <div>
+                        <div className="text-sm text-gray-500">Performance</div>
+                        <div className="text-orange-400 font-medium">63 clicks in 7 days</div>
+                      </div>
+                      <div>
+                        <div className="text-sm text-gray-500">Visibility</div>
+                        <div className="text-orange-400 font-medium">15,752 impressions</div>
+                      </div>
+                      <div>
+                        <div className="text-sm text-gray-500">Result</div>
+                        <div className="text-orange-400 font-medium">Authority positioning</div>
+                      </div>
+                    </div>
+                    <p className="text-sm text-gray-400 italic">
+                      Translation for your business: What regulation, compliance requirement, or technical standard confuses your customers? That's your opportunity.
+                    </p>
+                  </div>
+
+                  <div className="bg-white/[0.02] backdrop-blur-xl border border-white/[0.05] rounded-xl p-6">
+                    <h4 className="text-xl text-white mb-4">Content Type 2: The Urgent Situation Requiring Fast Expert Guidance</h4>
+                    <div className="grid sm:grid-cols-3 gap-4 mb-4">
+                      <div>
+                        <div className="text-sm text-gray-500">Speed</div>
+                        <div className="text-purple-400 font-medium">Published in 2 weeks</div>
+                      </div>
+                      <div>
+                        <div className="text-sm text-gray-500">Early Traction</div>
+                        <div className="text-purple-400 font-medium">34 clicks in 3 weeks</div>
+                      </div>
+                      <div>
+                        <div className="text-sm text-gray-500">Position</div>
+                        <div className="text-purple-400 font-medium">4.76 and climbing</div>
+                      </div>
+                    </div>
+                    <p className="text-sm text-gray-400 italic">
+                      Translation for your business: What time-sensitive situations create immediate need in your market? Be the first expert voice when it happens.
+                    </p>
+                  </div>
+
+                  <div className="bg-white/[0.02] backdrop-blur-xl border border-white/[0.05] rounded-xl p-6">
+                    <h4 className="text-xl text-white mb-4">Content Type 3: The Specialized Process Your Competitors Don't Understand</h4>
+                    <div className="grid sm:grid-cols-3 gap-4 mb-4">
+                      <div>
+                        <div className="text-sm text-gray-500">Performance</div>
+                        <div className="text-orange-400 font-medium">21 clicks in 7 days</div>
+                      </div>
+                      <div>
+                        <div className="text-sm text-gray-500">Position</div>
+                        <div className="text-orange-400 font-medium">3.48 (AI citation range)</div>
+                      </div>
+                      <div>
+                        <div className="text-sm text-gray-500">Lead Type</div>
+                        <div className="text-orange-400 font-medium">High-value, complex</div>
+                      </div>
+                    </div>
+                    <p className="text-sm text-gray-400 italic">
+                      Translation for your business: What specialized service or process separates you from 95% of competitors? That's your positioning advantage.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div className="mb-16">
+                <h3 className="text-3xl font-light mb-8 text-gray-100">
+                  How This Translates to <span className="font-normal text-white">Your Business</span>
+                </h3>
+                
+                <p className="text-lg text-gray-300 leading-relaxed font-light mb-8">
+                  Justin's in real estate. You're not. But the principles are identical:
+                </p>
+
+                <div className="space-y-6">
+                  <div className="bg-white/[0.02] backdrop-blur-xl border border-white/[0.05] rounded-xl p-6">
+                    <h4 className="text-lg font-medium text-orange-400 mb-3">IF YOU'RE A CONTRACTOR:</h4>
+                    <ul className="space-y-2 text-gray-300">
+                      <li>• The complex problem: Permit requirements, code compliance, specialized techniques</li>
+                      <li>• The specialized service: Certifications only 5% of contractors have</li>
+                      <li>• The local knowledge: Regional building codes, climate-specific solutions</li>
+                    </ul>
+                  </div>
+
+                  <div className="bg-white/[0.02] backdrop-blur-xl border border-white/[0.05] rounded-xl p-6">
+                    <h4 className="text-lg font-medium text-purple-400 mb-3">IF YOU'RE AN ATTORNEY:</h4>
+                    <ul className="space-y-2 text-gray-300">
+                      <li>• The complex problem: Legal issues most attorneys won't touch</li>
+                      <li>• The specialized service: Your niche practice area (only 3 firms in the region)</li>
+                      <li>• The local knowledge: State-specific regulations, local court procedures</li>
+                    </ul>
+                  </div>
+
+                  <div className="bg-white/[0.02] backdrop-blur-xl border border-white/[0.05] rounded-xl p-6">
+                    <h4 className="text-lg font-medium text-orange-400 mb-3">IF YOU'RE A CPA:</h4>
+                    <ul className="space-y-2 text-gray-300">
+                      <li>• The complex problem: Complex tax situations (real estate, crypto, international)</li>
+                      <li>• The specialized service: Industry specialization (construction, medical, etc.)</li>
+                      <li>• The local knowledge: State/local tax nuances most CPAs miss</li>
+                    </ul>
+                  </div>
+
+                  <div className="bg-white/[0.02] backdrop-blur-xl border border-white/[0.05] rounded-xl p-6">
+                    <h4 className="text-lg font-medium text-purple-400 mb-3">IF YOU'RE IN HOME SERVICES:</h4>
+                    <ul className="space-y-2 text-gray-300">
+                      <li>• The complex problem: Technical issues most companies can't diagnose</li>
+                      <li>• The specialized service: Equipment/methods competitors don't offer</li>
+                      <li>• The local knowledge: Local codes, climate issues, regional factors</li>
+                    </ul>
+                  </div>
+                </div>
+
+                <p className="text-lg text-gray-300 leading-relaxed font-light mt-8">
+                  The strategy is the same. Only the specifics change.
+                </p>
+                <p className="text-lg font-medium text-orange-400 mt-6">
+                  The question: What are YOUR three expertise areas where you have unfair advantage?
+                </p>
+              </div>
+
               <div className="relative p-8 sm:p-10 rounded-2xl mb-12 bg-white/[0.02] backdrop-blur-xl border-l-4 border-orange-500">
                 <svg className="absolute top-6 left-6 w-10 h-10 text-orange-500/20" fill="currentColor" viewBox="0 0 24 24">
                   <path d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h3.983v10h-9.983z"/>
                 </svg>
                 <p className="text-lg sm:text-xl italic text-gray-300 leading-relaxed font-light relative z-10 mb-6">
-                  "Before AEO, we competed with hundreds of realtors for rankings. Now when people ask ChatGPT or Claude about probate real estate in LA, WE'RE the answer they get. Game changer."
+                  "I've been in LA real estate for 15 years, but online I was invisible. Page 2-3 for everything that mattered.
+                  <br/><br/>
+                  Here's what changed: Instead of competing for generic searches against companies with unlimited budgets, we identified the specific problems where I have genuine expertise—the complex situations most of my competitors avoid or don't understand.
+                  <br/><br/>
+                  90 days later, I'm ranking #1 and page 1 for those searches.
+                  <br/><br/>
+                  But the real transformation wasn't the rankings—it was the lead QUALITY.
+                  <br/><br/>
+                  Before: Price shoppers comparing five options, focused on cost<br/>
+                  After: People who already trust my expertise, focused on getting their problem solved
+                  <br/><br/>
+                  When someone finds my content, reads it, and calls—they're not asking 'how much do you charge?' They're saying 'I need YOUR help specifically with this complex situation.'
+                  <br/><br/>
+                  That's a completely different sales conversation. And those deals close way faster."
                 </p>
                 <div className="font-medium text-orange-400 relative z-10">
                   — Justin Borges, The Borges Real Estate Team
                 </div>
+              </div>
+
+              <div className="mb-12">
+                <h3 className="text-3xl font-light mb-8 text-gray-100">
+                  Why This Matters for <span className="font-normal text-white">Every Local Service Business</span>
+                </h3>
+                
+                <p className="text-lg text-gray-300 leading-relaxed font-light mb-6">
+                  Your potential clients are asking AI platforms specific questions:
+                </p>
+
+                <div className="bg-white/[0.02] backdrop-blur-xl border border-white/[0.05] rounded-xl p-8 mb-6">
+                  <ul className="space-y-3 text-gray-300">
+                    <li className="flex items-start gap-3">
+                      <span className="text-orange-400 mt-1">•</span>
+                      <span>"How do I handle [complex regulatory situation]?"</span>
+                    </li>
+                    <li className="flex items-start gap-3">
+                      <span className="text-orange-400 mt-1">•</span>
+                      <span>"What should I know about [specialized service I need]?"</span>
+                    </li>
+                    <li className="flex items-start gap-3">
+                      <span className="text-orange-400 mt-1">•</span>
+                      <span>"Who can help with [urgent technical problem]?"</span>
+                    </li>
+                  </ul>
+                </div>
+
+                <p className="text-lg text-gray-300 leading-relaxed font-light mb-6">
+                  When they ask ChatGPT, Claude, or Google AI these questions, who gets cited?
+                </p>
+
+                <p className="text-lg text-gray-300 leading-relaxed font-light mb-6">
+                  Right now? Probably a national brand with no local expertise. Or a generic industry site with surface-level information.
+                </p>
+
+                <p className="text-lg text-gray-300 leading-relaxed font-light mb-6">
+                  But it SHOULD be you—the local expert who actually understands the nuances, the regional factors, the specific complications.
+                </p>
+
+                <p className="text-lg text-gray-300 leading-relaxed font-light mb-6">
+                  Answer Engine Optimization positions your genuine expertise where AI platforms look for authoritative sources.
+                </p>
+
+                <p className="text-lg font-medium text-white">
+                  So when someone in your market asks the complex question only you can answer properly—YOUR name comes up. Not your competitor's. Not a generic national brand.
+                </p>
+
+                <p className="text-xl font-medium text-orange-400 mt-8">
+                  You.
+                </p>
+
+                <p className="text-lg text-gray-300 leading-relaxed font-light mt-6">
+                  That's what we do.
+                </p>
               </div>
 
               <div className="text-center">
@@ -417,7 +700,7 @@ export default function CaseStudies() {
             </h2>
             
             <p className="text-xl text-gray-400 mb-10 max-w-2xl mx-auto leading-relaxed font-light">
-              Get your free 30-minute AEO strategy call and discover where you're losing to competitors in AI citations.
+              Get your free 30-minute AEO strategy call and discover where you're losing to competitors in AI search results.
             </p>
             
             <a 
