@@ -2,22 +2,79 @@ import type { Metadata } from 'next';
 import Link from 'next/link';
 import Script from 'next/script';
 
-export const metadata: Metadata = {
-  title: 'The Complete Guide to Answer Engine Optimization for Local Service Businesses | The Answer Engine',
-  description: 'Learn how Answer Engine Optimization gets ChatGPT, Claude, Google AI to cite your local service business instead of competitors. Complete AEO guide with implementation strategy.',
-  openGraph: {
-    title: 'The Complete Guide to Answer Engine Optimization for Local Service Businesses',
-    description: 'Learn how Answer Engine Optimization gets ChatGPT, Claude, Google AI to cite your local service business instead of competitors.',
-    type: 'article',
-    publishedTime: '2025-11-11',
-    authors: ['The Answer Engine'],
-  },
-};
+// ISR Configuration
+export const revalidate = 86400; // 24 hours
+export const dynamic = 'force-static';
+export const dynamicParams = true;
+
+// Enhanced Metadata
+export async function generateMetadata(): Promise<Metadata> {
+  const lastUpdated = new Date().toISOString().split('T')[0];
+  const publishDate = '2025-11-11';
+  
+  return {
+    title: 'The Complete Guide to Answer Engine Optimization for Local Service Businesses | The Answer Engine',
+    description: 'Learn how Answer Engine Optimization gets ChatGPT, Claude, Google AI to cite your local service business instead of competitors. Complete AEO guide with implementation strategy.',
+    
+    openGraph: {
+      title: 'The Complete Guide to Answer Engine Optimization for Local Service Businesses',
+      description: 'Learn how Answer Engine Optimization gets ChatGPT, Claude, Google AI to cite your local service business instead of competitors.',
+      type: 'article',
+      publishedTime: publishDate,
+      modifiedTime: lastUpdated,
+      authors: ['JB', 'The Answer Engine'],
+      url: 'https://theanswerengine.ai/blog/complete-guide-answer-engine-optimization',
+      images: [
+        {
+          url: 'https://theanswerengine.ai/images/aeo-complete-guide.jpg',
+          width: 1200,
+          height: 630,
+          alt: 'Complete Guide to Answer Engine Optimization',
+        }
+      ],
+      siteName: 'The Answer Engine',
+    },
+    
+    twitter: {
+      card: 'summary_large_image',
+      title: 'The Complete Guide to Answer Engine Optimization',
+      description: 'Get AI platforms to cite your business instead of competitors',
+      images: ['https://theanswerengine.ai/images/aeo-complete-guide.jpg'],
+      creator: '@theanswerengine',
+    },
+    
+    alternates: {
+      canonical: 'https://theanswerengine.ai/blog/complete-guide-answer-engine-optimization',
+    },
+    
+    other: {
+      'article:modified_time': lastUpdated,
+      'article:published_time': publishDate,
+      'article:author': 'JB',
+      'article:section': 'Answer Engine Optimization',
+    },
+    
+    keywords: [
+      'Answer Engine Optimization',
+      'AEO',
+      'AI citations',
+      'ChatGPT business recommendations',
+      'Google AI Overviews',
+      'local business AI optimization',
+      'SEO vs AEO',
+      'AI search optimization',
+    ],
+  };
+}
 
 export default function CompleteGuideAEO() {
+  const publishDate = '2025-11-11';
+  const lastUpdated = new Date().toISOString().split('T')[0];
+  const articleUrl = 'https://theanswerengine.ai/blog/complete-guide-answer-engine-optimization';
+  
   return (
     <>
-      {/* Article Schema */}
+      {/* Enhanced Article Schema */}
       <Script
         id="article-schema"
         type="application/ld+json"
@@ -26,11 +83,16 @@ export default function CompleteGuideAEO() {
             "@context": "https://schema.org",
             "@type": "Article",
             "headline": "The Complete Guide to Answer Engine Optimization for Local Service Businesses",
-            "description": "Learn how Answer Engine Optimization gets ChatGPT, Claude, Google AI to cite your local service business instead of competitors. Complete AEO guide with implementation strategy.",
+            "description": "Learn how Answer Engine Optimization gets ChatGPT, Claude, Google AI to cite your local service business instead of competitors.",
             "author": {
               "@type": "Organization",
               "name": "The Answer Engine",
               "url": "https://theanswerengine.ai",
+              "founder": {
+                "@type": "Person",
+                "name": "JB",
+                "jobTitle": "Founder & AEO Strategist"
+              },
               "logo": {
                 "@type": "ImageObject",
                 "url": "https://theanswerengine.ai/logo.png",
@@ -48,11 +110,17 @@ export default function CompleteGuideAEO() {
                 "height": 60
               }
             },
-            "datePublished": "2025-11-11",
-            "dateModified": "2025-11-11",
+            "datePublished": publishDate,
+            "dateModified": lastUpdated,
+            "image": {
+              "@type": "ImageObject",
+              "url": "https://theanswerengine.ai/images/aeo-complete-guide.jpg",
+              "width": 1200,
+              "height": 630
+            },
             "mainEntityOfPage": {
               "@type": "WebPage",
-              "@id": "https://theanswerengine.ai/blog/complete-guide-answer-engine-optimization"
+              "@id": articleUrl
             },
             "articleSection": "Answer Engine Optimization",
             "keywords": [
@@ -65,12 +133,17 @@ export default function CompleteGuideAEO() {
               "SEO vs AEO",
               "AI search optimization"
             ],
-            "wordCount": 3247
+            "wordCount": 3247,
+            "timeRequired": "PT12M",
+            "speakable": {
+              "@type": "SpeakableSpecification",
+              "cssSelector": ["#featured-snippet"]
+            }
           })
         }}
       />
 
-      {/* FAQPage Schema */}
+      {/* FAQ Schema */}
       <Script
         id="faq-schema"
         type="application/ld+json"
@@ -148,7 +221,58 @@ export default function CompleteGuideAEO() {
         }}
       />
 
-      {/* BreadcrumbList Schema */}
+      {/* HowTo Schema */}
+      <Script
+        id="howto-schema"
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "HowTo",
+            "name": "How to Get AI Platforms to Recommend Your Business",
+            "description": "Step-by-step process for getting ChatGPT, Claude, Perplexity, and Google AI to cite your business",
+            "totalTime": "P90D",
+            "step": [
+              {
+                "@type": "HowToStep",
+                "position": 1,
+                "name": "Create Comprehensive Authoritative Content",
+                "text": "Build hub-and-spoke content architecture with comprehensive guides supported by detailed spoke articles."
+              },
+              {
+                "@type": "HowToStep",
+                "position": 2,
+                "name": "Implement Technical Schema Markup",
+                "text": "Add LocalBusiness, FAQ, Article, and Organization schema to help AI systems interpret your content."
+              },
+              {
+                "@type": "HowToStep",
+                "position": 3,
+                "name": "Optimize Entity Recognition",
+                "text": "Ensure consistent business information across all platforms for cross-platform validation."
+              }
+            ]
+          })
+        }}
+      />
+
+      {/* DefinedTerm Schema */}
+      <Script
+        id="definedterm-schema"
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "DefinedTerm",
+            "name": "Answer Engine Optimization",
+            "description": "The practice of making your business the trusted authority that AI platforms cite when people ask questions.",
+            "termCode": "AEO",
+            "url": articleUrl
+          })
+        }}
+      />
+
+      {/* Breadcrumb Schema */}
       <Script
         id="breadcrumb-schema"
         type="application/ld+json"
@@ -173,7 +297,7 @@ export default function CompleteGuideAEO() {
                 "@type": "ListItem",
                 "position": 3,
                 "name": "Complete Guide to Answer Engine Optimization",
-                "item": "https://theanswerengine.ai/blog/complete-guide-answer-engine-optimization"
+                "item": articleUrl
               }
             ]
           })
@@ -189,7 +313,7 @@ export default function CompleteGuideAEO() {
             "@context": "https://schema.org",
             "@type": "WebPage",
             "name": "The Complete Guide to Answer Engine Optimization",
-            "url": "https://theanswerengine.ai/blog/complete-guide-answer-engine-optimization",
+            "url": articleUrl,
             "description": "Comprehensive guide to getting AI platforms to cite your local service business",
             "inLanguage": "en-US",
             "isPartOf": {
@@ -235,6 +359,7 @@ export default function CompleteGuideAEO() {
 
       <article className="min-h-screen bg-[#0A0A0F] text-white">
         <div className="mx-auto max-w-4xl px-6 py-20">
+          
           {/* Breadcrumbs */}
           <nav className="mb-8 flex items-center gap-2 text-sm text-gray-400">
             <Link href="/" className="hover:text-orange-400 transition-colors">
@@ -261,9 +386,11 @@ export default function CompleteGuideAEO() {
             </h1>
 
             <div className="flex items-center gap-6 text-sm text-gray-400">
-              <time dateTime="2025-11-11">November 11, 2025</time>
+              <time dateTime={publishDate}>November 11, 2025</time>
               <span>•</span>
               <span>12 min read</span>
+              <span>•</span>
+              <span>Updated: {new Date(lastUpdated).toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' })}</span>
             </div>
           </header>
 
@@ -724,6 +851,7 @@ export default function CompleteGuideAEO() {
               </p>
             </div>
           </section>
+
         </div>
       </article>
     </>
