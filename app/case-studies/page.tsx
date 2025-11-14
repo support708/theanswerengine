@@ -263,7 +263,7 @@ export default function CaseStudies() {
             </h1>
             
             <p className="text-xl text-gray-400 max-w-3xl mx-auto leading-relaxed font-light">
-              See how Answer Engine Optimization helped local service businesses dominate AI search—generating qualified leads from ChatGPT, Claude, and Google AI Overviews while competitors still fight for page rankings.
+              See how Answer Engine Optimization helped local service businesses dominate AI search generating qualified leads from ChatGPT, Claude, and Google AI Overviews while competitors still fight for page rankings.
             </p>
           </header>
 
