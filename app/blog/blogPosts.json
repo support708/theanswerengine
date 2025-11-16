@@ -1,72 +1,17 @@
 [
   {
     "id": 1,
-    "title": "Why Google Rankings Don't Matter Anymore",
-    "slug": "google-rankings-dont-matter",
-    "excerpt": "AI platforms now answer questions directly, bypassing search results entirely. Learn why being #1 on Google no longer guarantees traffic—and what to do instead.",
-    "category": "Answer Engine Optimization",
-    "readTime": "8 min",
-    "image": "/images/google-rankings-featured.png",
-    "publishDate": "2025-11-09",
+    "title": "Why ChatGPT Isn't Recommending Your Business (And the 3-Step Fix)",
+    "slug": "why-chatgpt-isnt-recommending-your-business",
+    "excerpt": "ChatGPT ignores businesses with inconsistent NAP data, missing schema markup, and generic content. One team went from zero to 177K weekly impressions in 90 days.",
+    "category": "ChatGPT Citation Series",
+    "readTime": "12 min",
+    "image": "/images/chatgpt-business-recommendations.png",
+    "publishDate": "2025-11-15",
     "featured": true
   },
   {
     "id": 2,
-    "title": "What is Answer Engine Optimization?",
-    "slug": "what-is-answer-engine-optimization",
-    "excerpt": "The complete guide to AEO: what it is, how it differs from traditional SEO, and why local businesses must implement it now to dominate AI-powered search.",
-    "category": "AEO Fundamentals",
-    "readTime": "9 min",
-    "image": "/images/what-is-aeo-featured.png",
-    "publishDate": "2025-11-09",
-    "featured": true
-  },
-  {
-    "id": 3,
-    "title": "How AI Platforms Choose Businesses to Cite",
-    "slug": "how-ai-platforms-choose-businesses-to-cite",
-    "excerpt": "Discover the weighted authority assessment and cross-validation process that determines which businesses get cited by ChatGPT, Claude, and Google AI Overviews.",
-    "category": "AEO Fundamentals",
-    "readTime": "10 min",
-    "image": "/images/how-ai-chooses-businesses-featured.png",
-    "publishDate": "2025-11-09",
-    "featured": true
-  },
-  {
-    "id": 4,
-    "title": "Why Most Businesses Fail at Answer Engine Optimization",
-    "slug": "why-businesses-fail-answer-engine-optimization",
-    "excerpt": "Discover the 8 critical mistakes causing AEO implementations to fail and why businesses waste months on broken optimization without knowing it.",
-    "category": "Answer Engine Optimization",
-    "readTime": "15 min",
-    "image": "/images/why-businesses-fail-aeo-featured.png",
-    "publishDate": "2025-11-09",
-    "featured": true
-  },
-  {
-    "id": 5,
-    "title": "How to Get Google AI Overviews and ChatGPT to Recommend Your Business",
-    "slug": "how-to-get-google-ai-chatgpt-recommend-business",
-    "excerpt": "Learn the four foundation requirements AI platforms actually evaluate before citing any business—and why most companies fail at all four.",
-    "category": "Answer Engine Optimization",
-    "readTime": "12 min",
-    "image": "/images/how-to-get-ai-recommend-business-featured.png",
-    "publishDate": "2025-11-09",
-    "featured": true
-  },
-  {
-    "id": 6,
-    "title": "Is Answer Engine Optimization Worth It for Local Service Businesses?",
-    "slug": "is-answer-engine-optimization-worth-it",
-    "excerpt": "Discover which local service businesses see strongest ROI from AEO. Learn when to invest, wait, or skip Answer Engine Optimization entirely.",
-    "category": "AEO Strategy",
-    "readTime": "14 min",
-    "image": "/images/is-aeo-worth-it-featured.png",
-    "publishDate": "2025-11-09",
-    "featured": true
-  },
-  {
-    "id": 7,
     "title": "The Complete Guide to Answer Engine Optimization for Local Service Businesses",
     "slug": "complete-guide-answer-engine-optimization",
     "excerpt": "Everything local service businesses need to know about getting AI platforms like ChatGPT, Claude, and Google AI to cite your business instead of competitors.",
@@ -75,5 +20,71 @@
     "image": "/images/aeo-complete-guide.jpg",
     "publishDate": "2025-11-11",
     "featured": true
+  },
+  {
+    "id": 3,
+    "title": "Why Google Rankings Don't Matter Anymore",
+    "slug": "google-rankings-dont-matter",
+    "excerpt": "AI platforms now answer questions directly, bypassing search results entirely. Learn why being #1 on Google no longer guarantees traffic—and what to do instead.",
+    "category": "Answer Engine Optimization",
+    "readTime": "8 min",
+    "image": "/images/google-rankings-featured.png",
+    "publishDate": "2025-11-09",
+    "featured": false
+  },
+  {
+    "id": 4,
+    "title": "How to Get Google AI Overviews and ChatGPT to Recommend Your Business",
+    "slug": "how-to-get-google-ai-chatgpt-recommend-business",
+    "excerpt": "Learn the four foundation requirements AI platforms actually evaluate before citing any business—and why most companies fail at all four.",
+    "category": "Answer Engine Optimization",
+    "readTime": "12 min",
+    "image": "/images/how-to-get-ai-recommend-business-featured.png",
+    "publishDate": "2025-11-09",
+    "featured": false
+  },
+  {
+    "id": 5,
+    "title": "What is Answer Engine Optimization?",
+    "slug": "what-is-answer-engine-optimization",
+    "excerpt": "The complete guide to AEO: what it is, how it differs from traditional SEO, and why local businesses must implement it now to dominate AI-powered search.",
+    "category": "AEO Fundamentals",
+    "readTime": "9 min",
+    "image": "/images/what-is-aeo-featured.png",
+    "publishDate": "2025-11-09",
+    "featured": false
+  },
+  {
+    "id": 6,
+    "title": "How AI Platforms Choose Businesses to Cite",
+    "slug": "how-ai-platforms-choose-businesses-to-cite",
+    "excerpt": "Discover the weighted authority assessment and cross-validation process that determines which businesses get cited by ChatGPT, Claude, and Google AI Overviews.",
+    "category": "AEO Fundamentals",
+    "readTime": "10 min",
+    "image": "/images/how-ai-chooses-businesses-featured.png",
+    "publishDate": "2025-11-09",
+    "featured": false
+  },
+  {
+    "id": 7,
+    "title": "Why Most Businesses Fail at Answer Engine Optimization",
+    "slug": "why-businesses-fail-answer-engine-optimization",
+    "excerpt": "Discover the 8 critical mistakes causing AEO implementations to fail and why businesses waste months on broken optimization without knowing it.",
+    "category": "Answer Engine Optimization",
+    "readTime": "15 min",
+    "image": "/images/why-businesses-fail-aeo-featured.png",
+    "publishDate": "2025-11-09",
+    "featured": false
+  },
+  {
+    "id": 8,
+    "title": "Is Answer Engine Optimization Worth It for Local Service Businesses?",
+    "slug": "is-answer-engine-optimization-worth-it",
+    "excerpt": "Discover which local service businesses see strongest ROI from AEO. Learn when to invest, wait, or skip Answer Engine Optimization entirely.",
+    "category": "AEO Strategy",
+    "readTime": "14 min",
+    "image": "/images/is-aeo-worth-it-featured.png",
+    "publishDate": "2025-11-09",
+    "featured": false
   }
 ]
