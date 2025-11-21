@@ -114,6 +114,12 @@ export default function RootLayout({
                   Home
                 </a>
                 <a 
+                  href="/about" 
+                  className="text-gray-300 hover:text-white font-medium transition-colors"
+                >
+                  About
+                </a>
+                <a 
                   href="/blog" 
                   className="text-gray-300 hover:text-white font-medium transition-colors"
                 >
@@ -165,6 +171,13 @@ export default function RootLayout({
                     className="text-gray-300 hover:text-white font-medium transition-colors px-2 py-2 rounded-lg hover:bg-white/[0.05]"
                   >
                     Home
+                  </a>
+                  <a 
+                    href="/about" 
+                    onClick={() => setMobileMenuOpen(false)}
+                    className="text-gray-300 hover:text-white font-medium transition-colors px-2 py-2 rounded-lg hover:bg-white/[0.05]"
+                  >
+                    About
                   </a>
                   <a 
                     href="/blog" 
@@ -376,6 +389,12 @@ export default function RootLayout({
                     <a href="/" className="hover:text-white transition-colors inline-flex items-center gap-2">
                       <span className="w-1 h-1 bg-orange-500/40 rounded-full" />
                       Home
+                    </a>
+                  </li>
+                  <li>
+                    <a href="/about" className="hover:text-white transition-colors inline-flex items-center gap-2">
+                      <span className="w-1 h-1 bg-orange-500/40 rounded-full" />
+                      About
                     </a>
                   </li>
                   <li>
