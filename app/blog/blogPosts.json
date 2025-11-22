@@ -15,6 +15,20 @@
   },
   {
     "id": 2,
+    "title": "How ChatGPT Chooses Which Businesses to Recommend: Inside the Algorithm",
+    "slug": "how-chatgpt-chooses-businesses-to-recommend",
+    "excerpt": "Learn how ChatGPT chooses which businesses to recommend. Discover the 7 core signals AI platforms use to identify expert local service providers.",
+    "category": "AI Algorithm Series",
+    "author": "JB",
+    "readTime": "38 min",
+    "image": "/images/chatgpt-business-selection-algorithm-2025.png",
+    "publishDate": "2025-11-21",
+    "lastModified": "2025-11-21",
+    "featured": true,
+    "tags": ["ChatGPT", "AI Algorithm", "7 Core Signals", "Business Selection", "AEO"]
+  },
+  {
+    "id": 3,
     "title": "Why ChatGPT Isn't Recommending Your Business (And the 3-Step Fix)",
     "slug": "why-chatgpt-isnt-recommending-your-business",
     "excerpt": "ChatGPT ignores businesses with inconsistent NAP data, missing schema markup, and generic content. One team went from zero to 177K weekly impressions in 90 days.",
@@ -28,7 +42,7 @@
     "tags": ["ChatGPT", "AI Citations", "NAP Data", "Schema Markup"]
   },
   {
-    "id": 3,
+    "id": 4,
     "title": "The Complete Guide to Answer Engine Optimization for Local Service Businesses",
     "slug": "complete-guide-answer-engine-optimization",
     "excerpt": "Everything local service businesses need to know about getting AI platforms like ChatGPT, Claude, and Google AI to cite your business instead of competitors.",
@@ -42,7 +56,7 @@
     "tags": ["AEO", "Local Business", "AI Platforms", "Complete Guide"]
   },
   {
-    "id": 4,
+    "id": 5,
     "title": "Why Google Rankings Don't Matter Anymore",
     "slug": "google-rankings-dont-matter",
     "excerpt": "AI platforms now answer questions directly, bypassing search results entirely. Learn why being #1 on Google no longer guarantees traffic—and what to do instead.",
@@ -56,7 +70,7 @@
     "tags": ["Google", "Search Rankings", "AI Search", "SEO"]
   },
   {
-    "id": 5,
+    "id": 6,
     "title": "How to Get Google AI Overviews and ChatGPT to Recommend Your Business",
     "slug": "how-to-get-google-ai-chatgpt-recommend-business",
     "excerpt": "Learn the four foundation requirements AI platforms actually evaluate before citing any business—and why most companies fail at all four.",
@@ -70,7 +84,7 @@
     "tags": ["Google AI Overviews", "ChatGPT", "Business Citations", "AI Recommendations"]
   },
   {
-    "id": 6,
+    "id": 7,
     "title": "What is Answer Engine Optimization?",
     "slug": "what-is-answer-engine-optimization",
     "excerpt": "The complete guide to AEO: what it is, how it differs from traditional SEO, and why local businesses must implement it now to dominate AI-powered search.",
@@ -84,7 +98,7 @@
     "tags": ["AEO", "SEO", "AI Search", "Fundamentals"]
   },
   {
-    "id": 7,
+    "id": 8,
     "title": "How AI Platforms Choose Businesses to Cite",
     "slug": "how-ai-platforms-choose-businesses-to-cite",
     "excerpt": "Discover the weighted authority assessment and cross-validation process that determines which businesses get cited by ChatGPT, Claude, and Google AI Overviews.",
@@ -98,7 +112,7 @@
     "tags": ["AI Platforms", "Authority Assessment", "Citations", "Selection Process"]
   },
   {
-    "id": 8,
+    "id": 9,
     "title": "Why Most Businesses Fail at Answer Engine Optimization",
     "slug": "why-businesses-fail-answer-engine-optimization",
     "excerpt": "Discover the 8 critical mistakes causing AEO implementations to fail and why businesses waste months on broken optimization without knowing it.",
@@ -112,7 +126,7 @@
     "tags": ["AEO Mistakes", "Common Failures", "Optimization Errors", "Business Strategy"]
   },
   {
-    "id": 9,
+    "id": 10,
     "title": "Is Answer Engine Optimization Worth It for Local Service Businesses?",
     "slug": "is-answer-engine-optimization-worth-it",
     "excerpt": "Discover which local service businesses see strongest ROI from AEO. Learn when to invest, wait, or skip Answer Engine Optimization entirely.",
