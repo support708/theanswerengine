@@ -1,6 +1,5 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
-import Script from 'next/script';
 
 // ISR Configuration
 export const revalidate = 86400; // 24 hours
@@ -75,7 +74,7 @@ export default function HowToGetInTheAnswerEngine() {
   return (
     <>
       {/* Enhanced Article Schema */}
-      <Script
+      <script
         id="article-schema"
         type="application/ld+json"
         dangerouslySetInnerHTML={{
@@ -129,7 +128,7 @@ export default function HowToGetInTheAnswerEngine() {
       />
 
       {/* Complete FAQ Schema */}
-      <Script
+      <script
         id="faq-schema"
         type="application/ld+json"
         dangerouslySetInnerHTML={{
@@ -183,7 +182,7 @@ export default function HowToGetInTheAnswerEngine() {
       />
 
       {/* BreadcrumbList Schema */}
-      <Script
+      <script
         id="breadcrumb-schema"
         type="application/ld+json"
         dangerouslySetInnerHTML={{
@@ -215,7 +214,7 @@ export default function HowToGetInTheAnswerEngine() {
       />
 
       {/* Organization Schema */}
-      <Script
+      <script
         id="organization-schema"
         type="application/ld+json"
         dangerouslySetInnerHTML={{
@@ -256,7 +255,7 @@ export default function HowToGetInTheAnswerEngine() {
       />
 
       {/* WebPage Schema */}
-      <Script
+      <script
         id="webpage-schema"
         type="application/ld+json"
         dangerouslySetInnerHTML={{
@@ -285,7 +284,7 @@ export default function HowToGetInTheAnswerEngine() {
       />
 
       {/* HowTo Schema */}
-      <Script
+      <script
         id="howto-schema"
         type="application/ld+json"
         dangerouslySetInnerHTML={{
