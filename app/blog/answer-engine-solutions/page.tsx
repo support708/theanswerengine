@@ -1,5 +1,4 @@
 import { Metadata } from 'next';
-import Script from 'next/script';
 import Link from 'next/link';
 
 export const revalidate = 86400;
@@ -321,45 +320,32 @@ export default function AnswerEngineSolutionsPage() {
 
   return (
     <>
-      {/* SCHEMA 1: Article */}
-      <Script
-        id="article-schema"
+      {/* Schema Markup - Using lowercase script tags for SSR */}
+      <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }}
       />
-      {/* SCHEMA 2: FAQPage */}
-      <Script
-        id="faq-schema"
+      <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
       />
-      {/* SCHEMA 3: Person */}
-      <Script
-        id="person-schema"
+      <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(personSchema) }}
       />
-      {/* SCHEMA 4: LocalBusiness */}
-      <Script
-        id="local-business-schema"
+      <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(localBusinessSchema) }}
       />
-      {/* SCHEMA 5: BreadcrumbList */}
-      <Script
-        id="breadcrumb-schema"
+      <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}
       />
-      {/* SCHEMA 6: WebPage */}
-      <Script
-        id="webpage-schema"
+      <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(webPageSchema) }}
       />
-      {/* SCHEMA 7: HowTo */}
-      <Script
-        id="howto-schema"
+      <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(howToSchema) }}
       />
