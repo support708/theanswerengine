@@ -265,9 +265,6 @@ export default function AnswerEngineSolutionsPage() {
         "name": "Perplexity"
       }
     ],
-    "breadcrumb": {
-      "@id": "https://theanswerengine.ai/blog/answer-engine-solutions#breadcrumb"
-    },
     "primaryImageOfPage": {
       "@type": "ImageObject",
       "url": "https://theanswerengine.ai/images/answer-engine-solutions-featured.png"
