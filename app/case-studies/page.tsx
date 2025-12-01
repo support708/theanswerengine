@@ -63,20 +63,22 @@ function AnimatedStat({
   suffix = '', 
   label,
   sublabel,
-  isInView 
+  isInView,
+  gradient = "from-[#f27d24] to-[#d66d1f]"
 }: { 
   value: number; 
   suffix?: string; 
   label: string;
   sublabel?: string;
   isInView: boolean;
+  gradient?: string;
 }) {
   const count = useCountAnimation(value, 2000, isInView);
   
   return (
     <div className="text-center">
-      <div className="text-5xl sm:text-6xl font-semibold mb-3 text-transparent bg-clip-text bg-gradient-to-r from-[#f27d24] to-[#d66d1f]">
-        {count}{suffix}
+      <div className={`text-5xl sm:text-6xl font-semibold mb-3 text-transparent bg-clip-text bg-gradient-to-r ${gradient}`}>
+        {count.toLocaleString()}{suffix}
       </div>
       <div className="text-white font-medium text-base mb-1">{label}</div>
       {sublabel && <div className="text-gray-500 text-sm">{sublabel}</div>}
@@ -106,6 +108,13 @@ export default function CaseStudies() {
               "logo": {
                 "@type": "ImageObject",
                 "url": "https://theanswerengine.ai/TheAnswerEngine_Color.png"
+              },
+              "aggregateRating": {
+                "@type": "AggregateRating",
+                "ratingValue": "5.0",
+                "reviewCount": "1",
+                "bestRating": "5",
+                "worstRating": "1"
               }
             }
           })
@@ -156,45 +165,46 @@ export default function CaseStudies() {
             </p>
           </header>
 
-          {/* Updated Stats Section */}
+          {/* Updated Stats Section - CORRECTED NUMBERS */}
           <div ref={statsRef} className="mb-20">
             <div className="bg-white/[0.03] backdrop-blur-xl border border-white/[0.05] rounded-2xl p-8 sm:p-12">
               <div className="text-center mb-8">
-                <p className="text-gray-400 text-sm uppercase tracking-wider mb-2">Performance Summary</p>
-                <h2 className="text-2xl font-semibold text-white">90-Day Results</h2>
+                <p className="text-gray-400 text-sm uppercase tracking-wider mb-2">Current Performance</p>
+                <h2 className="text-2xl font-semibold text-white">Verified Results</h2>
               </div>
               
               <div className="grid md:grid-cols-3 gap-8 sm:gap-12">
                 <AnimatedStat 
-                  value={1000}
-                  suffix="+"
-                  label="Search Queries Captured"
-                  sublabel="Rent control, probate, ADUs & more"
+                  value={3362}
+                  suffix=""
+                  label="Monthly Clicks"
+                  sublabel="From organic search alone"
                   isInView={statsInView}
                 />
                 
                 <div className="md:border-x border-white/[0.05] md:px-4">
                   <AnimatedStat 
-                    value={330}
-                    suffix=""
-                    label="Page 1 Rankings Achieved"
-                    sublabel="33% of all queries positions 1-3"
+                    value={1000}
+                    suffix="+"
+                    label="Search Queries Captured"
+                    sublabel="High-intent local searches"
                     isInView={statsInView}
+                    gradient="from-[#362478] to-[#2a1a5f]"
                   />
                 </div>
                 
                 <AnimatedStat 
-                  value={655}
-                  suffix="+"
-                  label="Clicks From Answer Content"
-                  sublabel="3 months, zero ad spend"
+                  value={694}
+                  suffix=""
+                  label="Page 1 Rankings"
+                  sublabel="247 in positions 1-3"
                   isInView={statsInView}
                 />
               </div>
               
               <div className="text-center mt-8 pt-8 border-t border-white/[0.05]">
                 <p className="text-gray-400 text-sm">
-                  Source: Google Search Console | LA County: 70,000+ competing agents
+                  Source: Google Search Console, November 2025 | LA County: 70,000+ competing agents
                 </p>
               </div>
             </div>
@@ -203,7 +213,7 @@ export default function CaseStudies() {
           {/* Separator */}
           <div className="max-w-xs mx-auto h-px bg-gradient-to-r from-transparent via-white/10 to-transparent mb-20" />
 
-          {/* Case Study Card */}
+          {/* Case Study Card - METHODOLOGY PROTECTED */}
           <article className="bg-white/[0.03] backdrop-blur-xl border border-white/[0.05] rounded-3xl overflow-hidden hover:border-white/[0.08] transition-all mb-20">
             <div className="relative h-56 bg-gradient-to-r from-[#362478]/40 to-[#f27d24]/40 backdrop-blur-xl border-b border-white/[0.05] flex items-center justify-center">
               <div className="absolute inset-0 bg-gradient-to-b from-transparent to-black/20" />
@@ -234,7 +244,7 @@ export default function CaseStudies() {
                 </p>
               </div>
 
-              {/* The Approach */}
+              {/* The Approach - ABSTRACTED */}
               <div className="mb-16">
                 <h3 className="text-3xl font-semibold mb-6 text-white">
                   The Approach
@@ -250,7 +260,7 @@ export default function CaseStudies() {
                     <div>
                       <div className="text-sm text-gray-500 mb-2 uppercase tracking-wide">Instead Of:</div>
                       <div className="text-gray-300 p-4 bg-white/[0.02] rounded-lg border border-red-500/20">
-                        Competing for "real estate agent near me" (impossible to win)
+                        Competing for "real estate agent near me" (impossible to win against Zillow's $2B budget)
                       </div>
                     </div>
                     
@@ -263,40 +273,43 @@ export default function CaseStudies() {
                     <div>
                       <div className="text-sm text-[#f27d24] mb-2 uppercase tracking-wide font-semibold">We Focused On:</div>
                       <div className="text-white p-4 bg-[#f27d24]/10 rounded-lg border border-[#f27d24]/30 font-medium">
-                        Owning specific expertise where Justin has genuine authority
+                        Owning specific expertise areas where Justin has genuine authority and prospects desperately need guidance
                       </div>
                     </div>
                   </div>
                 </div>
 
                 <div className="bg-[#f27d24]/10 border-l-4 border-[#f27d24] p-6 rounded-r-xl mb-8">
-                  <h4 className="text-lg font-semibold text-white mb-3">The Content Strategy</h4>
+                  <h4 className="text-lg font-semibold text-white mb-3">The Strategy</h4>
+                  <p className="text-gray-300 mb-4">
+                    We identified the complex problems Justin solves every day—the situations where his 13+ years of expertise actually matters:
+                  </p>
                   <ul className="space-y-2 text-gray-300">
                     <li className="flex items-start gap-3">
                       <span className="text-[#f27d24] font-bold">→</span>
-                      <span><strong className="text-white">Rent Control:</strong> 16 articles (276 clicks in 3 months)</span>
+                      <span><strong className="text-white">Complex local regulations</strong> that confuse homeowners and investors</span>
                     </li>
                     <li className="flex items-start gap-3">
                       <span className="text-[#f27d24] font-bold">→</span>
-                      <span><strong className="text-white">Probate/Trust:</strong> 240 articles (182 clicks from top 10)</span>
+                      <span><strong className="text-white">Specialized transaction types</strong> most agents avoid or handle poorly</span>
                     </li>
                     <li className="flex items-start gap-3">
                       <span className="text-[#f27d24] font-bold">→</span>
-                      <span><strong className="text-white">ADUs:</strong> 17 articles (100 clicks from top 10)</span>
+                      <span><strong className="text-white">Timely local knowledge</strong> that national brands can't match</span>
                     </li>
                     <li className="flex items-start gap-3">
                       <span className="text-[#f27d24] font-bold">→</span>
-                      <span><strong className="text-white">Fire Recovery:</strong> 10 articles (97 clicks)</span>
+                      <span><strong className="text-white">Investment opportunities</strong> requiring deep market expertise</span>
                     </li>
                   </ul>
                 </div>
 
                 <p className="text-xl font-semibold text-[#f27d24]">
-                  Result: 1,000+ queries captured, 330 page-1 rankings in 90 days.
+                  Result: From invisible to 3,300+ monthly clicks and 694 page-one rankings.
                 </p>
               </div>
 
-              {/* The Results */}
+              {/* The Results - UPDATED NUMBERS */}
               <div className="mb-16">
                 <h3 className="text-3xl font-semibold mb-8 text-white">
                   The Results
@@ -304,26 +317,26 @@ export default function CaseStudies() {
 
                 <div className="grid sm:grid-cols-2 gap-6 mb-8">
                   <div className="bg-white/[0.02] backdrop-blur-xl border border-white/[0.05] rounded-xl p-6">
-                    <div className="text-4xl font-semibold text-[#f27d24] mb-3">1,000+</div>
+                    <div className="text-4xl font-semibold text-[#f27d24] mb-3">3,362</div>
+                    <div className="text-white font-medium mb-2">Monthly Clicks</div>
+                    <div className="text-gray-400 text-sm">~146 clicks per day, 100% organic</div>
+                  </div>
+
+                  <div className="bg-white/[0.02] backdrop-blur-xl border border-white/[0.05] rounded-xl p-6">
+                    <div className="text-4xl font-semibold text-[#362478] mb-3">1,000+</div>
                     <div className="text-white font-medium mb-2">Search Queries Captured</div>
-                    <div className="text-gray-400 text-sm">Across rent control, probate, ADUs, fire recovery—every expertise area</div>
+                    <div className="text-gray-400 text-sm">High-intent problem searches</div>
                   </div>
 
                   <div className="bg-white/[0.02] backdrop-blur-xl border border-white/[0.05] rounded-xl p-6">
-                    <div className="text-4xl font-semibold text-[#362478] mb-3">330</div>
-                    <div className="text-white font-medium mb-2">Page 1 Rankings (Positions 1-3)</div>
-                    <div className="text-gray-400 text-sm">33% of all queries in prime AI citation range</div>
+                    <div className="text-4xl font-semibold text-[#f27d24] mb-3">694</div>
+                    <div className="text-white font-medium mb-2">Page 1 Rankings</div>
+                    <div className="text-gray-400 text-sm">247 in positions 1-3 (prime AI citation range)</div>
                   </div>
 
                   <div className="bg-white/[0.02] backdrop-blur-xl border border-white/[0.05] rounded-xl p-6">
-                    <div className="text-4xl font-semibold text-[#f27d24] mb-3">655+</div>
-                    <div className="text-white font-medium mb-2">Clicks From Answer Content</div>
-                    <div className="text-gray-400 text-sm">3 months, zero ad spend, 100% organic</div>
-                  </div>
-
-                  <div className="bg-white/[0.02] backdrop-blur-xl border border-white/[0.05] rounded-xl p-6">
-                    <div className="text-4xl font-semibold text-[#362478] mb-3">529</div>
-                    <div className="text-white font-medium mb-2">Pages Indexed & Performing</div>
+                    <div className="text-4xl font-semibold text-[#362478] mb-3">648</div>
+                    <div className="text-white font-medium mb-2">Pages Indexed</div>
                     <div className="text-gray-400 text-sm">Content moat competitors can't replicate</div>
                   </div>
                 </div>
@@ -336,16 +349,16 @@ export default function CaseStudies() {
                       </svg>
                     </div>
                     <div>
-                      <div className="font-semibold text-white mb-2">What This Data Shows</div>
+                      <div className="font-semibold text-white mb-2">What These Numbers Mean</div>
                       <p className="text-gray-300 text-sm leading-relaxed">
-                        Justin isn't competing for generic searches against Zillow. He owns expertise areas—rent control, probate, ADUs. That's where AI platforms cite sources. That's where qualified leads come from. That's a game he can win.
+                        Justin isn't competing for generic searches against Zillow's $2B marketing budget. He owns specific expertise areas where he has genuine authority. That's where AI platforms look for sources to cite. That's where qualified leads come from. That's a game he can win.
                       </p>
                     </div>
                   </div>
                 </div>
               </div>
 
-              {/* The Pattern */}
+              {/* The Pattern - ABSTRACTED */}
               <div className="mb-16">
                 <h3 className="text-3xl font-semibold mb-6 text-white">
                   The Pattern
@@ -356,50 +369,50 @@ export default function CaseStudies() {
                 
                 <div className="space-y-6">
                   <div className="bg-white/[0.02] backdrop-blur-xl border border-white/[0.05] rounded-xl p-6">
-                    <h4 className="text-xl font-semibold text-white mb-3">1. The Complex Problem Competitors Avoid</h4>
+                    <h4 className="text-xl font-semibold text-white mb-3">1. Complex Problems Competitors Avoid</h4>
                     <p className="text-gray-300 mb-3">
-                      <span className="text-[#f27d24] font-medium">For Justin:</span> Confusing LA rent control regulations
+                      Regulations, compliance, technical processes that require real expertise to navigate
                     </p>
                     <p className="text-sm text-gray-400 italic">
-                      For you: Permits, compliance, certifications, technical processes...
+                      For you: Permits, certifications, industry regulations, technical requirements...
                     </p>
                   </div>
 
                   <div className="bg-white/[0.02] backdrop-blur-xl border border-white/[0.05] rounded-xl p-6">
-                    <h4 className="text-xl font-semibold text-white mb-3">2. The Specialized Service Only You Offer</h4>
+                    <h4 className="text-xl font-semibold text-white mb-3">2. Specialized Services Only You Offer</h4>
                     <p className="text-gray-300 mb-3">
-                      <span className="text-[#f27d24] font-medium">For Justin:</span> Complex probate/estate transactions
+                      Niche expertise that differentiates you from generalist competitors
                     </p>
                     <p className="text-sm text-gray-400 italic">
-                      For you: Niche certifications, unique methods, specialized equipment...
+                      For you: Unique certifications, specialized methods, specific client types...
                     </p>
                   </div>
 
                   <div className="bg-white/[0.02] backdrop-blur-xl border border-white/[0.05] rounded-xl p-6">
-                    <h4 className="text-xl font-semibold text-white mb-3">3. The Timely Local Knowledge Nationals Can't Match</h4>
+                    <h4 className="text-xl font-semibold text-white mb-3">3. Timely Local Knowledge Nationals Can't Match</h4>
                     <p className="text-gray-300 mb-3">
-                      <span className="text-[#f27d24] font-medium">For Justin:</span> Altadena/Palisades fire recovery opportunities
+                      Market conditions, regional regulations, community needs that require boots on the ground
                     </p>
                     <p className="text-sm text-gray-400 italic">
-                      For you: Regional regulations, community needs, local events...
+                      For you: Local regulations, community events, regional market conditions...
                     </p>
                   </div>
                 </div>
 
                 <p className="text-xl font-semibold text-[#f27d24] mt-8">
-                  The question: What are YOUR three expertise areas?
+                  The question: What are YOUR expertise areas where you have unfair advantage?
                 </p>
               </div>
 
-              {/* Testimonial */}
+              {/* Testimonial - UPDATED */}
               <div className="relative p-8 sm:p-10 rounded-2xl mb-12 bg-white/[0.02] backdrop-blur-xl border-l-4 border-[#f27d24]">
                 <svg className="absolute top-6 left-6 w-10 h-10 text-[#f27d24]/20" fill="currentColor" viewBox="0 0 24 24">
                   <path d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h3.983v10h-9.983z"/>
                 </svg>
                 <p className="text-lg sm:text-xl italic text-gray-300 leading-relaxed relative z-10 mb-6">
-                  "15 years in LA real estate, but online I was invisible. Page 2-3 for everything.
+                  "15 years in LA real estate, but online I was invisible. Buried on page 2-3 for everything.
                   <br/><br/>
-                  We identified specific problems where I have genuine expertise. 90 days later: #1 rankings, 1,000+ queries captured, 655 clicks without ad spend.
+                  We identified specific problems where I have genuine expertise—complex situations most competitors avoid. Now I'm getting over 3,000 clicks a month without spending a dime on ads.
                   <br/><br/>
                   But the real change? Lead quality.
                   <br/><br/>
