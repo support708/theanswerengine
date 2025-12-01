@@ -166,5 +166,19 @@
     "lastModified": "2025-12-01",
     "featured": true,
     "tags": ["AEO", "AI Citations", "ChatGPT", "How To", "Getting Started", "Answer Engine"]
+  },
+  {
+    "id": 13,
+    "title": "Answer Engine Solutions for Local Service Businesses (2025 Guide)",
+    "slug": "answer-engine-solutions",
+    "excerpt": "Answer engine solutions help local service businesses get cited by AI platforms like ChatGPT, Claude, and Google AI Overview. Learn the 4 components that drive AI citations.",
+    "category": "AEO Fundamentals",
+    "author": "Justin Borges",
+    "readTime": "9 min",
+    "image": "/images/answer-engine-solutions-featured.png",
+    "publishDate": "2025-12-01",
+    "lastModified": "2025-12-01",
+    "featured": true,
+    "tags": ["AEO", "Answer Engine Solutions", "AI Citations", "Local Business", "ChatGPT", "2025 Guide"]
   }
 ]
