@@ -152,5 +152,19 @@
     "lastModified": "2025-11-09",
     "featured": false,
     "tags": ["ROI", "Local Business", "Investment Strategy", "AEO Value"]
+  },
+  {
+    "id": 12,
+    "title": "How to Get in the Answer Engine: Complete Guide to AI Citations",
+    "slug": "how-to-get-in-the-answer-engine",
+    "excerpt": "Learn how to get your business cited by AI systems like ChatGPT, Claude, and Google AI Overview. 5-step process to answer engine optimization for local service businesses.",
+    "category": "AEO Fundamentals",
+    "author": "Justin Borges",
+    "readTime": "8 min",
+    "image": "/images/how-to-get-in-answer-engine-featured.png",
+    "publishDate": "2025-12-01",
+    "lastModified": "2025-12-01",
+    "featured": true,
+    "tags": ["AEO", "AI Citations", "ChatGPT", "How To", "Getting Started", "Answer Engine"]
   }
 ]
