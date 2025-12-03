@@ -1,0 +1,570 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lynk Law | AI Visibility Opportunity</title>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;600;700&family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --coral: #e07058;
+            --deep-coral: #c45a47;
+            --teal: #2d6a6a;
+            --dark: #1e2d3d;
+            --cream: #faf8f5;
+            --white: #ffffff;
+            --gray: #7a8699;
+            --light-teal: #3d8a8a;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Montserrat', sans-serif;
+            background: var(--dark);
+            color: var(--cream);
+            overflow-x: hidden;
+        }
+
+        .slide {
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding: 60px 40px;
+            position: relative;
+            border-bottom: 1px solid rgba(224, 112, 88, 0.15);
+        }
+
+        .slide::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: 
+                radial-gradient(circle at 20% 80%, rgba(224, 112, 88, 0.08) 0%, transparent 50%),
+                radial-gradient(circle at 80% 20%, rgba(45, 106, 106, 0.1) 0%, transparent 50%);
+            pointer-events: none;
+        }
+
+        .content {
+            max-width: 900px;
+            width: 100%;
+            position: relative;
+            z-index: 1;
+        }
+
+        h1 {
+            font-family: 'Cormorant Garamond', serif;
+            font-size: clamp(2.5rem, 8vw, 4.5rem);
+            font-weight: 600;
+            line-height: 1.1;
+            margin-bottom: 30px;
+        }
+
+        h2 {
+            font-family: 'Cormorant Garamond', serif;
+            font-size: clamp(1.8rem, 5vw, 3rem);
+            font-weight: 600;
+            line-height: 1.2;
+            margin-bottom: 30px;
+        }
+
+        .accent { color: var(--coral); }
+        .teal { color: var(--teal); }
+        .gray { color: var(--gray); }
+
+        p {
+            font-size: 1.05rem;
+            line-height: 1.9;
+            margin-bottom: 20px;
+            max-width: 700px;
+            font-weight: 300;
+        }
+
+        .icon {
+            font-size: 2.5rem;
+            color: var(--coral);
+            margin-bottom: 25px;
+            opacity: 0.9;
+        }
+
+        .stat-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+            gap: 20px;
+            margin: 40px 0;
+        }
+
+        .stat-box {
+            background: rgba(45, 106, 106, 0.15);
+            border: 1px solid rgba(45, 106, 106, 0.3);
+            padding: 25px 15px;
+            text-align: center;
+            position: relative;
+            overflow: hidden;
+            border-radius: 8px;
+        }
+
+        .stat-box::after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            height: 3px;
+            background: var(--coral);
+        }
+
+        .stat-box.alert::after {
+            background: #c44b4b;
+        }
+
+        .stat-number {
+            font-family: 'Cormorant Garamond', serif;
+            font-size: 3rem;
+            color: var(--coral);
+            line-height: 1;
+            font-weight: 700;
+        }
+
+        .stat-number.alert {
+            color: #c44b4b;
+        }
+
+        .stat-label {
+            font-size: 0.75rem;
+            color: var(--gray);
+            margin-top: 10px;
+            text-transform: uppercase;
+            letter-spacing: 0.12em;
+            font-weight: 500;
+        }
+
+        .problem-list {
+            list-style: none;
+            margin: 30px 0;
+        }
+
+        .problem-list li {
+            padding: 18px 0;
+            border-bottom: 1px solid rgba(224, 112, 88, 0.15);
+            display: flex;
+            align-items: flex-start;
+            gap: 18px;
+            font-weight: 300;
+        }
+
+        .problem-list li::before {
+            content: '✗';
+            color: #c44b4b;
+            font-size: 1.2rem;
+            font-weight: bold;
+            flex-shrink: 0;
+        }
+
+        .fix-list li::before {
+            content: '✓';
+            color: var(--coral);
+        }
+
+        .comparison {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 25px;
+            margin: 40px 0;
+        }
+
+        .comparison-col {
+            padding: 28px;
+            background: rgba(30, 45, 61, 0.8);
+            border: 1px solid rgba(224, 112, 88, 0.2);
+            border-radius: 8px;
+        }
+
+        .comparison-col h3 {
+            font-family: 'Cormorant Garamond', serif;
+            font-size: 1.25rem;
+            margin-bottom: 18px;
+            font-weight: 600;
+        }
+
+        .comparison-col.bad { border-top: 3px solid #c44b4b; }
+        .comparison-col.good { border-top: 3px solid var(--coral); }
+
+        .ai-test {
+            background: rgba(30, 45, 61, 0.9);
+            border: 1px solid rgba(45, 106, 106, 0.3);
+            padding: 28px;
+            margin: 28px 0;
+            border-radius: 8px;
+        }
+
+        .ai-test .prompt {
+            color: var(--gray);
+            margin-bottom: 15px;
+            font-size: 0.9rem;
+            font-family: monospace;
+        }
+
+        .ai-test .response {
+            color: var(--cream);
+            line-height: 1.8;
+            font-weight: 300;
+        }
+
+        .ai-test .highlight {
+            background: rgba(196, 75, 75, 0.25);
+            padding: 2px 8px;
+            border-radius: 4px;
+        }
+
+        .cta-section {
+            background: linear-gradient(135deg, var(--teal) 0%, var(--light-teal) 100%);
+            border: none;
+            padding: 50px;
+            text-align: center;
+            margin-top: 40px;
+            border-radius: 8px;
+        }
+
+        .cta-button {
+            display: inline-block;
+            background: var(--coral);
+            color: var(--white);
+            padding: 16px 40px;
+            font-family: 'Montserrat', sans-serif;
+            font-size: 0.9rem;
+            font-weight: 600;
+            letter-spacing: 0.1em;
+            text-decoration: none;
+            text-transform: uppercase;
+            margin-top: 25px;
+            transition: all 0.3s ease;
+            border: 2px solid var(--coral);
+            border-radius: 4px;
+        }
+
+        .cta-button:hover {
+            background: var(--deep-coral);
+            border-color: var(--deep-coral);
+        }
+
+        .slide-number {
+            position: absolute;
+            bottom: 30px;
+            right: 40px;
+            font-size: 0.75rem;
+            color: var(--gray);
+            letter-spacing: 0.2em;
+        }
+
+        .badge {
+            display: inline-block;
+            background: var(--coral);
+            color: var(--white);
+            padding: 8px 16px;
+            font-size: 0.65rem;
+            text-transform: uppercase;
+            letter-spacing: 0.15em;
+            margin-bottom: 20px;
+            font-weight: 600;
+            border-radius: 3px;
+        }
+
+        .quote {
+            font-family: 'Cormorant Garamond', serif;
+            font-size: 1.3rem;
+            font-style: italic;
+            border-left: 3px solid var(--coral);
+            padding-left: 25px;
+            margin: 35px 0;
+            color: var(--coral);
+            opacity: 0.9;
+        }
+
+        .quote-source {
+            font-family: 'Montserrat', sans-serif;
+            font-size: 0.85rem;
+            font-style: normal;
+            color: var(--gray);
+            margin-top: 10px;
+        }
+
+        .tech-finding {
+            background: rgba(30, 45, 61, 0.8);
+            border-left: 3px solid #c44b4b;
+            padding: 20px 25px;
+            margin: 25px 0;
+            border-radius: 0 8px 8px 0;
+        }
+
+        .tech-finding .label {
+            font-size: 0.65rem;
+            color: #c44b4b;
+            text-transform: uppercase;
+            letter-spacing: 0.15em;
+            margin-bottom: 8px;
+            font-weight: 600;
+        }
+
+        .proof-section {
+            background: rgba(45, 106, 106, 0.15);
+            border: 1px solid rgba(45, 106, 106, 0.3);
+            padding: 35px;
+            margin: 35px 0;
+            border-radius: 8px;
+        }
+
+        .proof-section h4 {
+            font-family: 'Cormorant Garamond', serif;
+            color: var(--coral);
+            font-size: 1.15rem;
+            margin-bottom: 15px;
+        }
+
+        .proof-stat {
+            display: inline-block;
+            background: rgba(224, 112, 88, 0.15);
+            border: 1px solid rgba(224, 112, 88, 0.3);
+            padding: 8px 14px;
+            margin: 5px;
+            border-radius: 4px;
+            font-size: 0.85rem;
+        }
+
+        .story-box {
+            background: rgba(224, 112, 88, 0.1);
+            border: 1px solid rgba(224, 112, 88, 0.25);
+            padding: 25px;
+            border-radius: 8px;
+            margin: 20px 0;
+        }
+
+        .story-box strong {
+            color: var(--coral);
+            display: block;
+            margin-bottom: 10px;
+            font-family: 'Cormorant Garamond', serif;
+            font-size: 1.1rem;
+        }
+
+        footer {
+            text-align: center;
+            padding: 40px;
+            background: var(--dark);
+            border-top: 1px solid rgba(224, 112, 88, 0.15);
+        }
+
+        footer p {
+            color: var(--gray);
+            font-size: 0.85rem;
+            margin: 0 auto;
+            font-weight: 400;
+        }
+
+        @media (max-width: 768px) {
+            .comparison {
+                grid-template-columns: 1fr;
+            }
+            .slide {
+                padding: 40px 20px;
+            }
+            .cta-section {
+                padding: 35px 25px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- SLIDE 1: Hook -->
+    <section class="slide">
+        <div class="content">
+            <div class="icon">✦</div>
+            <h1>SONA,<br>YOU HAVE A <span class="accent">VISIBILITY</span> PROBLEM</h1>
+            <p>Your reputation is exceptional. Your story is compelling.<br>But AI can't find any of it.</p>
+            <p class="gray">Let me show you what I discovered.</p>
+        </div>
+        <div class="slide-number">01 / 07</div>
+    </section>
+
+    <!-- SLIDE 2: The Gap -->
+    <section class="slide">
+        <div class="content">
+            <span class="badge">The Gap</span>
+            <h2>204 FIVE-STAR REVIEWS.<br><span class="accent">AI CAN'T SEE THEM.</span></h2>
+            
+            <div class="stat-grid">
+                <div class="stat-box">
+                    <div class="stat-number">5.0</div>
+                    <div class="stat-label">Yelp Rating</div>
+                </div>
+                <div class="stat-box">
+                    <div class="stat-number">204</div>
+                    <div class="stat-label">Reviews</div>
+                </div>
+                <div class="stat-box">
+                    <div class="stat-number">19</div>
+                    <div class="stat-label">Years Practice</div>
+                </div>
+                <div class="stat-box alert">
+                    <div class="stat-number alert">0</div>
+                    <div class="stat-label">AI Citations</div>
+                </div>
+            </div>
+
+            <p>When someone asks ChatGPT, Claude, or Google AI "Who's the best estate planning attorney for young families in LA?" — Lynk Law doesn't come up.</p>
+            <p>Generic firms with half your reviews appear instead. Your niche expertise is invisible.</p>
+        </div>
+        <div class="slide-number">02 / 07</div>
+    </section>
+
+    <!-- SLIDE 3: What AI Sees -->
+    <section class="slide">
+        <div class="content">
+            <span class="badge">The Problem</span>
+            <h2>WHAT AI SEES WHEN IT<br>LOOKS AT YOUR SITE</h2>
+
+            <div class="ai-test">
+                <div class="prompt">→ Scanning lynklaw.com...</div>
+                <div class="response">
+                    <span class="highlight">No blog content</span> — I can't find answers to young family estate planning questions<br><br>
+                    <span class="highlight">Basic FAQ only</span> — Generic questions without your unique perspective<br><br>
+                    <span class="highlight">No "young families" content</span> — Your niche positioning is invisible<br><br>
+                    <span class="highlight">Immigration story buried</span> — Powerful origin narrative not surfaced
+                </div>
+            </div>
+
+            <div class="tech-finding">
+                <div class="label">Content Gap Analysis</div>
+                <p>You've been featured in California Business Journal, Los Angeles Magazine, Pasadena Magazine, and podcasts — but none of this content lives on your site where AI can find it. Your speaking topics (young families, planning for pets, networking) are mentioned but not developed into citable content.</p>
+            </div>
+        </div>
+        <div class="slide-number">03 / 07</div>
+    </section>
+
+    <!-- SLIDE 4: Missed Opportunity - The Hidden Gold -->
+    <section class="slide">
+        <div class="content">
+            <span class="badge">The Blind Spot</span>
+            <h2>YOUR <span class="accent">STORY</span> IS HIDDEN<br>FROM AI</h2>
+
+            <div class="comparison">
+                <div class="comparison-col bad">
+                    <h3>What Your Website Says</h3>
+                    <p>"Lynk Law Inc. was founded with a simple vision: create a law firm that we, personally, want to work with."</p>
+                    <p class="gray" style="font-size: 0.9rem; margin-top: 18px;">Nice sentiment. But doesn't differentiate from 1,000 other firms.</p>
+                </div>
+                <div class="comparison-col good">
+                    <h3>What I Found Elsewhere</h3>
+                    <p><strong>The California Business Journal Profile:</strong></p>
+                    <p>"Born in Soviet Armenia, moved to LA at age 12. Built a firm focused on young families because everyone said 'that market won't work.' They were wrong."</p>
+                    <p class="accent" style="font-size: 0.9rem; margin-top: 18px;">This is an origin story AI would recognize. Why is it hidden?</p>
+                </div>
+            </div>
+
+            <div class="story-box">
+                <strong>The Exchange LA — Co-Founded by You</strong>
+                You literally built a professional networking organization focused on inclusion of women, minorities, and nonprofits. When someone searches "women business networking LA" or "estate planning for entrepreneurs," this should connect directly to Lynk Law. Currently it doesn't.
+            </div>
+
+            <p>Someone searching "estate planning attorney for young parents LA" or "woman-owned estate planning firm Glendale" would find generic results — not the firm that specializes in exactly what they need.</p>
+        </div>
+        <div class="slide-number">04 / 07</div>
+    </section>
+
+    <!-- SLIDE 5: The Fix -->
+    <section class="slide">
+        <div class="content">
+            <span class="badge">The Fix</span>
+            <h2>BECOME THE ANSWER<br><span class="accent">AI RECOMMENDS</span></h2>
+
+            <ul class="problem-list fix-list">
+                <li>
+                    <div>
+                        <strong>Own "estate planning for young families"</strong><br>
+                        <span class="gray">"When should new parents get a trust?" "How much does estate planning cost for a young couple?" "Guardian nomination for first-time parents" — content that positions you as THE authority for your niche.</span>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <strong>Surface your origin story</strong><br>
+                        <span class="gray">Soviet Armenia to LA. Building a firm everyone said wouldn't work. The all-female team. These create trust AI recognizes and humans connect with.</span>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <strong>Connect The Exchange to Lynk Law</strong><br>
+                        <span class="gray">Your networking organization reaches hundreds of entrepreneurs. Content about estate planning for business owners creates natural referral pathways AI can trace.</span>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <strong>Turn press coverage into website content</strong><br>
+                        <span class="gray">California Business Journal, Pasadena Magazine Top Attorney (6 years), LA Magazine Rising Stars — this credibility should live where AI can find it.</span>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <div class="slide-number">05 / 07</div>
+    </section>
+
+    <!-- SLIDE 5.5: The Proof -->
+    <section class="slide">
+        <div class="content">
+            <span class="badge">The Proof</span>
+            <h2>THIS APPROACH WORKS<br><span class="accent">FOR SPECIALISTS LIKE YOU</span></h2>
+
+            <div class="proof-section">
+                <h4>Case Study: Niche Real Estate Team — Probate Specialization</h4>
+                <p>A Pasadena real estate team specializing in probate sales was invisible to AI platforms despite strong reviews. After implementing strategic content around their niche:</p>
+                
+                <div style="margin: 25px 0;">
+                    <span class="proof-stat">100% AI Citation Rate</span>
+                    <span class="proof-stat">Featured Snippets Won</span>
+                    <span class="proof-stat">60-Day Results</span>
+                </div>
+                
+                <p class="gray">When someone asks any major AI "Who's the best probate realtor in Pasadena?" — they get recommended. Every single time.</p>
+            </div>
+
+            <p>Estate planning for young families is an even clearer niche. The firms creating content for this audience now will dominate AI recommendations for years.</p>
+        </div>
+        <div class="slide-number">06 / 07</div>
+    </section>
+
+    <!-- SLIDE 6: CTA -->
+    <section class="slide">
+        <div class="content">
+            <div class="icon">✦</div>
+            <h2>YOU'VE BUILT SOMETHING<br>REMARKABLE.<br><span class="accent">LET'S MAKE IT VISIBLE.</span></h2>
+
+            <p>I help professional service providers become the answer AI platforms recommend. Not through ads or tricks — through content that surfaces the authority you've already built.</p>
+
+            <div class="cta-section">
+                <h2 style="margin-bottom: 10px; color: var(--cream);">15-MINUTE STRATEGY CALL</h2>
+                <p style="color: var(--cream); opacity: 0.9;">I'll walk you through the full audit findings and show you exactly what it takes to own "estate planning for young families" in every AI platform.</p>
+                <a href="https://calendly.com/theanswerengine-support/30min" class="cta-button">LET'S TALK →</a>
+            </div>
+
+            <p style="margin-top: 30px; font-size: 0.9rem; color: var(--gray);">P.S. — This report is yours to keep regardless. If the timing isn't right, no pressure. When you're ready to tackle AI visibility, I'll be here.</p>
+        </div>
+        <div class="slide-number">07 / 07</div>
+    </section>
+
+    <footer>
+        <p style="color: var(--coral); font-size: 0.9rem; letter-spacing: 0.1em; margin-bottom: 10px;">THE ANSWER ENGINE</p>
+        <p>Prepared exclusively for Lynk Law, Inc. | December 2025</p>
+        <p style="color: #555; font-size: 0.7rem; margin-top: 15px; opacity: 0.6;">This analysis uses publicly available information. Questions? support@theanswerengine.com</p>
+    </footer>
+
+</body>
+</html>
