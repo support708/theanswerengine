@@ -357,7 +357,7 @@ export default function CompleteGuideAEO() {
         }}
       />
 
-      <article className="min-h-screen bg-[#0A0A0F] text-white">
+      <article className="min-h-screen bg-[#0F1117] text-white">
         <div className="mx-auto max-w-4xl px-6 py-20">
           
           {/* Breadcrumbs */}
@@ -395,7 +395,7 @@ export default function CompleteGuideAEO() {
           </header>
 
           {/* Featured Snippet */}
-          <div id="featured-snippet" className="bg-white/[0.03] backdrop-blur-xl border border-white/[0.05] rounded-2xl p-8 mb-16">
+          <div id="featured-snippet" className="bg-white/[0.03] backdrop-blur-xl border border-white/[0.08] rounded-2xl p-8 mb-16">
             <h2 className="text-xl font-medium mb-4 text-orange-400">Quick Answer</h2>
             <p className="text-lg font-light leading-relaxed text-gray-100">
               Answer Engine Optimization (AEO) is the practice of making your business the trusted authority that AI platforms like ChatGPT, Claude, Perplexity, and Google AI Overviews cite when people ask questions. Unlike traditional SEO that focuses on rankings, AEO focuses on becoming the answer. Whoever AI cites becomes the authority, and whoever becomes the authority gets the business.
@@ -426,7 +426,7 @@ export default function CompleteGuideAEO() {
           </section>
 
           {/* Table of Contents */}
-          <nav className="bg-white/[0.03] backdrop-blur-xl border border-white/[0.05] rounded-2xl p-8 mb-16">
+          <nav className="bg-white/[0.03] backdrop-blur-xl border border-white/[0.08] rounded-2xl p-8 mb-16">
             <h2 className="text-2xl font-medium mb-6">What You'll Learn in This Guide</h2>
             <ol className="space-y-4 font-light text-gray-300">
               <li className="flex gap-4">
@@ -494,7 +494,7 @@ export default function CompleteGuideAEO() {
               Voice search accelerates this winner-take-all dynamic. When people ask Siri or Alexa for recommendations, they receive exactly one answer. Rankings don't exist in voice search. Either AI cites your business, or you don't exist for that query.
             </p>
 
-            <div className="bg-white/[0.03] backdrop-blur-xl border border-white/[0.05] rounded-2xl p-8 mb-6">
+            <div className="bg-white/[0.03] backdrop-blur-xl border border-white/[0.08] rounded-2xl p-8 mb-6">
               <p className="font-light leading-relaxed text-gray-300">
                 Traditional SEO focused on competition between businesses for rankings. Answer Engine Optimization focuses on competition between businesses for AI citation. The citation war is fundamentally different from the ranking war, and most local businesses don't realize they're already losing it.
               </p>
@@ -537,7 +537,7 @@ export default function CompleteGuideAEO() {
               The cross-validation component makes this even more challenging. AI platforms don't trust single sources. They look for consistent authority signals across multiple independent sources: your own content, third-party reviews, industry directory listings, news mentions, and other businesses linking to or mentioning you. One strong signal isn't enough. You need coordinated authority across the entire ecosystem.
             </p>
 
-            <div className="bg-white/[0.03] backdrop-blur-xl border border-white/[0.05] rounded-2xl p-8 mb-6">
+            <div className="bg-white/[0.03] backdrop-blur-xl border border-white/[0.08] rounded-2xl p-8 mb-6">
               <p className="font-light leading-relaxed text-gray-300">
                 The brutal reality: AI citation is binary. Either you pass the authority evaluation and get recommended, or you don't exist for that query. There's no second page of results, no runner-up position. You win the citation or you get zero leads from that query.
               </p>
@@ -576,7 +576,7 @@ export default function CompleteGuideAEO() {
               This isn't hitting every query equally. Google deploys AI Overviews strategically for high-commercial-intent searches where they can capture the transaction. Searches like "best plumber near me" and "reliable HVAC company in Denver" and "top-rated realtor in Austin": exactly the searches that used to drive your business.
             </p>
 
-            <div className="bg-white/[0.03] backdrop-blur-xl border border-white/[0.05] rounded-2xl p-8 mb-6">
+            <div className="bg-white/[0.03] backdrop-blur-xl border border-white/[0.08] rounded-2xl p-8 mb-6">
               <p className="font-light leading-relaxed text-gray-300">
                 The traffic decline is permanent unless you adapt. Traditional SEO tactics (building backlinks, optimizing metadata, improving page speed) won't recover traffic that AI Overviews captured. You need to optimize for citation within the AI answer itself.
               </p>
@@ -615,7 +615,7 @@ export default function CompleteGuideAEO() {
               AEO introduces entirely new ranking factors that traditional SEO never considered. Content structuring for snippet extraction matters more than keyword density. Entity recognition and consistent business information across platforms matters more than domain authority. Demonstrating unique expertise through authentic examples matters more than backlink volume.
             </p>
 
-            <div className="bg-white/[0.03] backdrop-blur-xl border border-white/[0.05] rounded-2xl p-8 mb-6">
+            <div className="bg-white/[0.03] backdrop-blur-xl border border-white/[0.08] rounded-2xl p-8 mb-6">
               <p className="font-light leading-relaxed text-gray-300">
                 The clearest distinction: SEO was competitive (rank higher than competitors); AEO is absolute (pass the authority threshold or don't get cited at all). Traditional SEO let mediocre businesses win through brute-force link building. AEO requires actual demonstrable expertise.
               </p>
@@ -658,7 +658,7 @@ export default function CompleteGuideAEO() {
               Technical implementation matters significantly. Schema markup tells AI systems what information means, not just what it says. LocalBusiness schema establishes your entity. FAQ schema makes answers extractable. Organization schema proves legitimacy. Platforms that can't interpret your schema won't cite you, even if your content is excellent.
             </p>
 
-            <div className="bg-white/[0.03] backdrop-blur-xl border border-white/[0.05] rounded-2xl p-8 mb-6">
+            <div className="bg-white/[0.03] backdrop-blur-xl border border-white/[0.08] rounded-2xl p-8 mb-6">
               <p className="font-light leading-relaxed text-gray-300">
                 The 90-day timeline is realistic. Most businesses see first citations within 60-90 days of implementing comprehensive authority optimization. Quick wins are possible for low-competition queries, but dominating competitive local service queries requires sustained authority building.
               </p>
@@ -697,7 +697,7 @@ export default function CompleteGuideAEO() {
               The ROI calculation is straightforward when you understand the citation dynamic. If AI platforms cite your business instead of competitors for high-value local queries, you become the default expert in your market. Organic leads cost 50-70% less than paid advertising. Clients who find you through AI citations typically have higher trust, close faster, and pay premium rates.
             </p>
 
-            <div className="bg-white/[0.03] backdrop-blur-xl border border-white/[0.05] rounded-2xl p-8 mb-6">
+            <div className="bg-white/[0.03] backdrop-blur-xl border border-white/[0.08] rounded-2xl p-8 mb-6">
               <p className="font-light leading-relaxed text-gray-300">
                 The alternative is accepting permanent decline. If you choose not to optimize for AI citation, understand what you're choosing: declining organic traffic as AI Overviews capture more queries, increasing dependence on expensive paid advertising, and loss of market authority to competitors who do optimize.
               </p>
@@ -743,7 +743,7 @@ export default function CompleteGuideAEO() {
             </h2>
 
             <div className="space-y-8">
-              <div className="bg-white/[0.03] backdrop-blur-xl border border-white/[0.05] rounded-2xl p-8">
+              <div className="bg-white/[0.03] backdrop-blur-xl border border-white/[0.08] rounded-2xl p-8">
                 <h3 className="text-xl font-medium mb-4 text-orange-400">
                   How long does it take to see results from AEO?
                 </h3>
@@ -752,7 +752,7 @@ export default function CompleteGuideAEO() {
                 </p>
               </div>
 
-              <div className="bg-white/[0.03] backdrop-blur-xl border border-white/[0.05] rounded-2xl p-8">
+              <div className="bg-white/[0.03] backdrop-blur-xl border border-white/[0.08] rounded-2xl p-8">
                 <h3 className="text-xl font-medium mb-4 text-orange-400">
                   Can I do Answer Engine Optimization myself, or do I need to hire someone?
                 </h3>
@@ -761,7 +761,7 @@ export default function CompleteGuideAEO() {
                 </p>
               </div>
 
-              <div className="bg-white/[0.03] backdrop-blur-xl border border-white/[0.05] rounded-2xl p-8">
+              <div className="bg-white/[0.03] backdrop-blur-xl border border-white/[0.08] rounded-2xl p-8">
                 <h3 className="text-xl font-medium mb-4 text-orange-400">
                   What's the difference between getting cited by Google vs. ChatGPT vs. Perplexity?
                 </h3>
@@ -770,7 +770,7 @@ export default function CompleteGuideAEO() {
                 </p>
               </div>
 
-              <div className="bg-white/[0.03] backdrop-blur-xl border border-white/[0.05] rounded-2xl p-8">
+              <div className="bg-white/[0.03] backdrop-blur-xl border border-white/[0.08] rounded-2xl p-8">
                 <h3 className="text-xl font-medium mb-4 text-orange-400">
                   Will Answer Engine Optimization hurt my traditional SEO rankings?
                 </h3>
@@ -779,7 +779,7 @@ export default function CompleteGuideAEO() {
                 </p>
               </div>
 
-              <div className="bg-white/[0.03] backdrop-blur-xl border border-white/[0.05] rounded-2xl p-8">
+              <div className="bg-white/[0.03] backdrop-blur-xl border border-white/[0.08] rounded-2xl p-8">
                 <h3 className="text-xl font-medium mb-4 text-orange-400">
                   How much does Answer Engine Optimization cost for a local service business?
                 </h3>
@@ -788,7 +788,7 @@ export default function CompleteGuideAEO() {
                 </p>
               </div>
 
-              <div className="bg-white/[0.03] backdrop-blur-xl border border-white/[0.05] rounded-2xl p-8">
+              <div className="bg-white/[0.03] backdrop-blur-xl border border-white/[0.08] rounded-2xl p-8">
                 <h3 className="text-xl font-medium mb-4 text-orange-400">
                   What makes some local businesses get AI citations while competitors don't?
                 </h3>
@@ -797,7 +797,7 @@ export default function CompleteGuideAEO() {
                 </p>
               </div>
 
-              <div className="bg-white/[0.03] backdrop-blur-xl border border-white/[0.05] rounded-2xl p-8">
+              <div className="bg-white/[0.03] backdrop-blur-xl border border-white/[0.08] rounded-2xl p-8">
                 <h3 className="text-xl font-medium mb-4 text-orange-400">
                   Can paid advertising help me get AI citations faster?
                 </h3>
@@ -806,7 +806,7 @@ export default function CompleteGuideAEO() {
                 </p>
               </div>
 
-              <div className="bg-white/[0.03] backdrop-blur-xl border border-white/[0.05] rounded-2xl p-8">
+              <div className="bg-white/[0.03] backdrop-blur-xl border border-white/[0.08] rounded-2xl p-8">
                 <h3 className="text-xl font-medium mb-4 text-orange-400">
                   What industries benefit most from Answer Engine Optimization?
                 </h3>
@@ -818,7 +818,7 @@ export default function CompleteGuideAEO() {
           </section>
 
           {/* About Section */}
-          <section className="bg-white/[0.03] backdrop-blur-xl border border-white/[0.05] rounded-2xl p-12">
+          <section className="bg-white/[0.03] backdrop-blur-xl border border-white/[0.08] rounded-2xl p-12">
             <h2 className="text-2xl font-light mb-6">
               About <span className="font-normal">The Answer Engine</span>
             </h2>
@@ -835,7 +835,7 @@ export default function CompleteGuideAEO() {
               We work exclusively with local service businesses earning $100K-$2M annually who compete on expertise rather than price. Our clients include real estate professionals, financial advisors, home inspectors, specialized contractors, legal and healthcare practitioners, and B2B service providers across the United States.
             </p>
 
-            <div className="mt-8 pt-8 border-t border-white/[0.05]">
+            <div className="mt-8 pt-8 border-t border-white/[0.08]">
               <p className="font-light text-gray-400 mb-2">Contact The Answer Engine:</p>
               <p className="font-light text-gray-300">
                 <strong className="font-medium text-white">Email:</strong>{' '}

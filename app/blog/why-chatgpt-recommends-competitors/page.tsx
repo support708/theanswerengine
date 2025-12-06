@@ -201,7 +201,7 @@ export default function WhyChatGPTRecommendsCompetitors() {
     <>
       <ComprehensiveSchema />
       
-      <article className="min-h-screen bg-[#0A0A0F] relative overflow-hidden">
+      <article className="min-h-screen bg-[#0F1117] relative overflow-hidden">
         {/* Gradient overlay */}
         <div className="absolute inset-0 bg-gradient-to-b from-purple-950/5 via-transparent to-orange-950/5 pointer-events-none" />
         
@@ -280,7 +280,7 @@ export default function WhyChatGPTRecommendsCompetitors() {
               How Does ChatGPT Actually Choose Which Businesses to Recommend?
             </h2>
 
-            <div className="bg-white/[0.02] border-l-4 border-[#362478]/50 p-6 rounded-r-xl mb-8">
+            <div className="bg-white/[0.03] border-l-4 border-[#362478]/50 p-6 rounded-r-xl mb-8">
               <p className="text-[#a89bd9] font-semibold mb-2">Direct Answer:</p>
               <p className="text-gray-300 leading-relaxed">
                 ChatGPT recommends businesses that demonstrate clear expertise, consistent information, and strong topical authority. It analyzes not just websites, but the entire digital footprint around your business. The companies it recommends usually have detailed explanations, niche clarity, strong service descriptions, and content that matches real user questions.
@@ -289,7 +289,7 @@ export default function WhyChatGPTRecommendsCompetitors() {
 
             {/* Comparison Table */}
             <div className="overflow-x-auto mb-8">
-              <table className="w-full bg-white/[0.02] border border-white/[0.1] rounded-xl overflow-hidden">
+              <table className="w-full bg-white/[0.03] border border-white/[0.1] rounded-xl overflow-hidden">
                 <thead className="bg-white/[0.05]">
                   <tr>
                     <th className="px-6 py-4 text-left text-sm font-semibold text-white">Factor</th>
@@ -355,7 +355,7 @@ export default function WhyChatGPTRecommendsCompetitors() {
               What Are the 7 Biggest Reasons ChatGPT Recommends Your Competitors?
             </h2>
 
-            <div className="bg-white/[0.02] border-l-4 border-[#362478]/50 p-6 rounded-r-xl mb-8">
+            <div className="bg-white/[0.03] border-l-4 border-[#362478]/50 p-6 rounded-r-xl mb-8">
               <p className="text-[#a89bd9] font-semibold mb-2">Direct Answer:</p>
               <p className="text-gray-300 leading-relaxed">
                 The main reasons competitors appear instead of you include: missing expertise content, unclear service pages, weak niche positioning, inconsistent online information, outdated websites, thin authority signals, and lack of structured FAQs. These gaps make ChatGPT view competitors as more trustworthy options.
@@ -402,7 +402,7 @@ export default function WhyChatGPTRecommendsCompetitors() {
               ].map((reason) => (
                 <div 
                   key={reason.number}
-                  className="bg-white/[0.02] border border-white/[0.05] rounded-xl p-6 hover:border-white/[0.15] transition-all"
+                  className="bg-white/[0.03] border border-white/[0.08] rounded-xl p-6 hover:border-white/[0.15] transition-all"
                 >
                   <div className="flex items-start gap-4">
                     <div className="flex-shrink-0 w-10 h-10 rounded-lg bg-[#f27d24]/20 border border-[#f27d24]/30 flex items-center justify-center">
@@ -456,7 +456,7 @@ export default function WhyChatGPTRecommendsCompetitors() {
               ].map((faq, index) => (
                 <div 
                   key={index}
-                  className="bg-white/[0.02] border border-white/[0.05] rounded-xl p-6 hover:border-white/[0.15] transition-all"
+                  className="bg-white/[0.03] border border-white/[0.08] rounded-xl p-6 hover:border-white/[0.15] transition-all"
                 >
                   <h3 className="text-lg font-semibold text-white mb-3">{faq.question}</h3>
                   <p className="text-gray-300 leading-relaxed">{faq.answer}</p>
@@ -490,7 +490,7 @@ export default function WhyChatGPTRecommendsCompetitors() {
           </section>
 
           {/* Platform Disclaimer */}
-          <section className="text-sm text-gray-500 italic border-t border-white/[0.05] pt-8">
+          <section className="text-sm text-gray-500 italic border-t border-white/[0.08] pt-8">
             <p>
               <strong>Platform Disclaimer:</strong> ChatGPT recommendations are determined by OpenAI's algorithms and subject to change. The Answer Engine optimizes expertise documentation but cannot guarantee specific AI platform placements.
             </p>

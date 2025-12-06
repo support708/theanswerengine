@@ -252,7 +252,7 @@ export default function HowChatGPTChoosesBusiness() {
     <>
       <ComprehensiveSchema />
       
-      <article className="min-h-screen bg-[#0A0A0F] relative overflow-hidden">
+      <article className="min-h-screen bg-[#0F1117] relative overflow-hidden">
         {/* Gradient overlay */}
         <div className="absolute inset-0 bg-gradient-to-b from-purple-950/5 via-transparent to-orange-950/5 pointer-events-none" />
         
@@ -322,7 +322,7 @@ export default function HowChatGPTChoosesBusiness() {
               How ChatGPT Processes Information to Make Business Recommendations
             </h2>
 
-            <div className="bg-white/[0.02] border-l-4 border-[#362478]/50 p-6 rounded-r-xl mb-8">
+            <div className="bg-white/[0.03] border-l-4 border-[#362478]/50 p-6 rounded-r-xl mb-8">
               <p className="text-[#a89bd9] font-semibold mb-2">Direct Answer:</p>
               <p className="text-gray-300 leading-relaxed">
                 ChatGPT makes recommendations by combining pre-trained knowledge with real-time web browsing. It analyzes content quality, clarity, depth, and expertise markers, then synthesizes information from multiple trusted sources to identify credible businesses. Recommendations are based on perceived expertise and user safety—not paid listings, backlinks, or traditional SEO signals.
@@ -367,7 +367,7 @@ export default function HowChatGPTChoosesBusiness() {
               The 7 Core Signals ChatGPT Evaluates When Choosing Businesses
             </h2>
 
-            <div className="bg-white/[0.02] border-l-4 border-[#362478]/50 p-6 rounded-r-xl mb-8">
+            <div className="bg-white/[0.03] border-l-4 border-[#362478]/50 p-6 rounded-r-xl mb-8">
               <p className="text-[#a89bd9] font-semibold mb-2">Direct Answer:</p>
               <p className="text-gray-300 leading-relaxed">
                 ChatGPT evaluates seven primary signals: content depth and comprehensiveness, authentic expertise markers, structured information architecture, entity recognition and consistency, educational value over marketing language, local authority indicators, and trust/transparency signals. Businesses that score highly across all seven dimensions—particularly those demonstrating verifiable expertise through detailed process explanations—are significantly more likely to earn recommendations.
@@ -401,7 +401,7 @@ export default function HowChatGPTChoosesBusiness() {
 
                 <p>Generic, marketing-focused content gets ignored. Detailed, educational content that demonstrates true expertise gets rewarded with citations.</p>
 
-                <div className="bg-white/[0.02] border border-white/[0.05] rounded-xl p-6 mt-6">
+                <div className="bg-white/[0.03] border border-white/[0.08] rounded-xl p-6 mt-6">
                   <p className="font-semibold text-white mb-3">Example:</p>
                   <p className="mb-3">A generic HVAC page says: "We install ductless mini-splits. Call for a free quote!"</p>
                   <p className="mb-3">An expert-level page explains: "Ductless mini-split installation in older homes requires specific considerations for electrical capacity (typically 240V/20A minimum), wall structure assessment to support indoor units (12-15 lbs each), and condensate drainage planning. In Pasadena's historic Craftsman homes, we often encounter plaster-on-lath walls requiring specialized mounting techniques..."</p>
@@ -560,7 +560,7 @@ export default function HowChatGPTChoosesBusiness() {
 
             {/* Comparison Table */}
             <div className="overflow-x-auto mb-8">
-              <table className="w-full bg-white/[0.02] border border-white/[0.1] rounded-xl overflow-hidden">
+              <table className="w-full bg-white/[0.03] border border-white/[0.1] rounded-xl overflow-hidden">
                 <thead className="bg-white/[0.05]">
                   <tr>
                     <th className="px-6 py-4 text-left text-sm font-semibold text-white">Signal Dimension</th>
@@ -618,7 +618,7 @@ export default function HowChatGPTChoosesBusiness() {
               ChatGPT vs Google: Why Traditional SEO Tactics Don't Work for AI Recommendations
             </h2>
 
-            <div className="bg-white/[0.02] border-l-4 border-[#362478]/50 p-6 rounded-r-xl mb-8">
+            <div className="bg-white/[0.03] border-l-4 border-[#362478]/50 p-6 rounded-r-xl mb-8">
               <p className="text-[#a89bd9] font-semibold mb-2">Direct Answer:</p>
               <p className="text-gray-300 leading-relaxed">
                 Google ranks pages based on backlinks, domain authority, keywords, and user behavior signals. ChatGPT evaluates content meaning, expertise depth, clarity, and trustworthiness through direct content analysis. Google displays hundreds of results allowing users to choose; ChatGPT selects 3-5 recommendations it trusts. This fundamental difference makes traditional SEO tactics ineffective for AI citations.
@@ -627,7 +627,7 @@ export default function HowChatGPTChoosesBusiness() {
 
             {/* Comparison Table */}
             <div className="overflow-x-auto mb-8">
-              <table className="w-full bg-white/[0.02] border border-white/[0.1] rounded-xl overflow-hidden">
+              <table className="w-full bg-white/[0.03] border border-white/[0.1] rounded-xl overflow-hidden">
                 <thead className="bg-white/[0.05]">
                   <tr>
                     <th className="px-6 py-4 text-left text-sm font-semibold text-white">Ranking Factor</th>
@@ -702,7 +702,7 @@ export default function HowChatGPTChoosesBusiness() {
               Multi-Platform AI Optimization: ChatGPT, Claude, Gemini, and Perplexity
             </h2>
 
-            <div className="bg-white/[0.02] border-l-4 border-[#362478]/50 p-6 rounded-r-xl mb-8">
+            <div className="bg-white/[0.03] border-l-4 border-[#362478]/50 p-6 rounded-r-xl mb-8">
               <p className="text-[#a89bd9] font-semibold mb-2">Direct Answer:</p>
               <p className="text-gray-300 leading-relaxed">
                 ChatGPT, Claude, Gemini, and Perplexity all evaluate content expertise and quality, but each platform weighs signals differently. ChatGPT excels at contextual synthesis, Claude prioritizes careful source citation, Gemini integrates Google's ecosystem data, and Perplexity emphasizes real-time citations. Despite differences, all platforms reward clear, educational, expert-level content with consistent business information and proper structure.
@@ -714,7 +714,7 @@ export default function HowChatGPTChoosesBusiness() {
                 <h3 className="text-2xl font-semibold text-white mb-4">Platform-Specific Characteristics</h3>
 
                 <div className="space-y-6">
-                  <div className="bg-white/[0.02] border border-white/[0.05] rounded-xl p-6">
+                  <div className="bg-white/[0.03] border border-white/[0.08] rounded-xl p-6">
                     <h4 className="text-xl font-semibold text-white mb-3">ChatGPT (OpenAI)</h4>
                     <ul className="space-y-2 pl-6 list-disc">
                       <li>User Base: 100M+ weekly users (largest reach)</li>
@@ -724,7 +724,7 @@ export default function HowChatGPTChoosesBusiness() {
                     </ul>
                   </div>
 
-                  <div className="bg-white/[0.02] border border-white/[0.05] rounded-xl p-6">
+                  <div className="bg-white/[0.03] border border-white/[0.08] rounded-xl p-6">
                     <h4 className="text-xl font-semibold text-white mb-3">Claude (Anthropic)</h4>
                     <ul className="space-y-2 pl-6 list-disc">
                       <li>User Base: Growing rapidly, enterprise-focused</li>
@@ -734,7 +734,7 @@ export default function HowChatGPTChoosesBusiness() {
                     </ul>
                   </div>
 
-                  <div className="bg-white/[0.02] border border-white/[0.05] rounded-xl p-6">
+                  <div className="bg-white/[0.03] border border-white/[0.08] rounded-xl p-6">
                     <h4 className="text-xl font-semibold text-white mb-3">Gemini (Google)</h4>
                     <ul className="space-y-2 pl-6 list-disc">
                       <li>User Base: Integrated with Google ecosystem</li>
@@ -744,7 +744,7 @@ export default function HowChatGPTChoosesBusiness() {
                     </ul>
                   </div>
 
-                  <div className="bg-white/[0.02] border border-white/[0.05] rounded-xl p-6">
+                  <div className="bg-white/[0.03] border border-white/[0.08] rounded-xl p-6">
                     <h4 className="text-xl font-semibold text-white mb-3">Perplexity</h4>
                     <ul className="space-y-2 pl-6 list-disc">
                       <li>User Base: 100M+ weekly queries, research-focused users</li>
@@ -821,7 +821,7 @@ export default function HowChatGPTChoosesBusiness() {
               ].map((faq, index) => (
                 <div 
                   key={index}
-                  className="bg-white/[0.02] border border-white/[0.05] rounded-xl p-6 hover:border-white/[0.15] transition-all"
+                  className="bg-white/[0.03] border border-white/[0.08] rounded-xl p-6 hover:border-white/[0.15] transition-all"
                 >
                   <h3 className="text-lg font-semibold text-white mb-3">{faq.question}</h3>
                   <p className="text-gray-300 leading-relaxed">{faq.answer}</p>
@@ -855,7 +855,7 @@ export default function HowChatGPTChoosesBusiness() {
           </section>
 
           {/* Platform Disclaimer */}
-          <section className="text-sm text-gray-500 italic border-t border-white/[0.05] pt-8">
+          <section className="text-sm text-gray-500 italic border-t border-white/[0.08] pt-8">
             <p>
               <strong>Platform Disclaimer:</strong> ChatGPT recommendations are determined by OpenAI's algorithms and subject to change. The Answer Engine optimizes expertise documentation but cannot guarantee specific AI platform placements. The AERO-7 Framework is based on extensive testing and continuous monitoring but represents analysis of current patterns, not official guidance from AI platform providers.
             </p>

@@ -316,7 +316,7 @@ export default function GoogleRankingsDontMatter() {
         }}
       />
 
-      <main className="min-h-screen bg-[#0A0A0F] relative">
+      <main className="min-h-screen bg-[#0F1117] relative">
         {/* Subtle gradient overlay */}
         <div className="absolute inset-0 bg-gradient-to-b from-purple-950/10 via-transparent to-orange-950/10 pointer-events-none" />
         
@@ -326,7 +326,7 @@ export default function GoogleRankingsDontMatter() {
 
         <article className="max-w-4xl mx-auto px-6 py-20 sm:py-32 relative">
           {/* Featured Image */}
-          <div className="mb-12 rounded-2xl overflow-hidden border border-white/[0.05] max-w-3xl mx-auto">
+          <div className="mb-12 rounded-2xl overflow-hidden border border-white/[0.08] max-w-3xl mx-auto">
             <img 
               src="/google-rankings-featured.png" 
               alt="Why Google rankings don't matter as much in 2025: Google AI Overviews and AI chatbots like ChatGPT now answer user questions directly" 
@@ -374,7 +374,7 @@ export default function GoogleRankingsDontMatter() {
             <p className="text-gray-300 text-lg leading-relaxed mb-6 font-light">
               When someone searches "best plumber near me," Google AI Overviews might generate an answer like:
             </p>
-            <blockquote className="border-l-4 border-orange-500/50 pl-6 py-4 my-8 bg-white/[0.02] rounded-r-lg">
+            <blockquote className="border-l-4 border-orange-500/50 pl-6 py-4 my-8 bg-white/[0.03] rounded-r-lg">
               <p className="text-gray-400 text-lg italic leading-relaxed font-light">
                 "Based on customer reviews and licensing verification, ABC Plumbing offers 24/7 emergency service with licensed technicians. They specialize in leak detection and water heater replacement, with same-day service available in most areas."
               </p>
@@ -568,7 +568,7 @@ export default function GoogleRankingsDontMatter() {
                   a: "Absolutely—local service businesses may benefit most from AEO. When someone asks 'Who's the best plumber near me?' they want a specific recommendation, not ten links to explore."
                 }
               ].map((faq, i) => (
-                <div key={i} className="bg-white/[0.02] backdrop-blur-xl border border-white/[0.05] rounded-xl p-6 hover:border-white/[0.08] transition-colors">
+                <div key={i} className="bg-white/[0.03] backdrop-blur-xl border border-white/[0.08] rounded-xl p-6 hover:border-white/[0.08] transition-colors">
                   <h3 className="text-xl font-light mb-3 text-white">
                     {faq.q}
                   </h3>
@@ -580,7 +580,7 @@ export default function GoogleRankingsDontMatter() {
             </div>
 
             {/* Author Section */}
-            <div className="mt-16 pt-12 border-t border-white/[0.05]">
+            <div className="mt-16 pt-12 border-t border-white/[0.08]">
               <h3 className="text-2xl font-light mb-6 text-gray-100">
                 <span className="font-normal text-white">About the Author</span>
               </h3>

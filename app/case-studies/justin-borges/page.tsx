@@ -213,7 +213,7 @@ export default function JustinBorgesCaseStudy() {
         }}
       />
 
-      <main className="min-h-screen bg-[#0A0A0F]">
+      <main className="min-h-screen bg-[#0F1117]">
         <article className="max-w-4xl mx-auto px-6 py-16">
           {/* Breadcrumbs */}
           <nav className="text-sm text-gray-500 mb-8">
@@ -263,7 +263,7 @@ export default function JustinBorgesCaseStudy() {
           </header>
 
           {/* Results Summary - UPDATED WITH REAL DATA */}
-          <section className="mb-16 bg-white/[0.02] backdrop-blur-xl border border-white/[0.05] rounded-2xl p-8 sm:p-12">
+          <section className="mb-16 bg-white/[0.03] backdrop-blur-xl border border-white/[0.08] rounded-2xl p-8 sm:p-12">
             <div className="text-center mb-8">
               <p className="text-gray-400 text-sm uppercase tracking-wider mb-2">Verified Results</p>
               <h2 className="text-2xl font-semibold text-white">Current Performance</h2>
@@ -286,13 +286,13 @@ export default function JustinBorgesCaseStudy() {
               </div>
             </div>
 
-            <div className="mt-8 pt-8 border-t border-white/[0.05]">
+            <div className="mt-8 pt-8 border-t border-white/[0.08]">
               <div className="grid sm:grid-cols-2 gap-6">
-                <div className="text-center p-4 bg-white/[0.02] rounded-lg">
+                <div className="text-center p-4 bg-white/[0.03] rounded-lg">
                   <div className="text-2xl font-semibold text-white mb-1">247</div>
                   <div className="text-sm text-gray-400">Queries in Top 3 Positions</div>
                 </div>
-                <div className="text-center p-4 bg-white/[0.02] rounded-lg">
+                <div className="text-center p-4 bg-white/[0.03] rounded-lg">
                   <div className="text-2xl font-semibold text-white mb-1">694</div>
                   <div className="text-sm text-gray-400">Queries on Page 1</div>
                 </div>
@@ -319,7 +319,7 @@ export default function JustinBorgesCaseStudy() {
                 Justin Borges had 13+ years of experience, $200M+ in career sales, and genuine expertise in complex transactions most agents avoid. But online? Invisible.
               </p>
 
-              <div className="bg-white/[0.02] backdrop-blur-xl border-l-4 border-[#f27d24] p-6 rounded-r-xl">
+              <div className="bg-white/[0.03] backdrop-blur-xl border-l-4 border-[#f27d24] p-6 rounded-r-xl">
                 <h3 className="text-xl font-semibold text-white mb-4">The Specific Problem</h3>
                 <ul className="space-y-3 text-gray-300">
                   <li className="flex items-start gap-3">
@@ -355,13 +355,13 @@ export default function JustinBorgesCaseStudy() {
               We didn't try to beat Zillow at their game. We played a different game entirely.
             </p>
 
-            <div className="bg-white/[0.02] backdrop-blur-xl border border-white/[0.05] rounded-xl p-8 mb-8">
+            <div className="bg-white/[0.03] backdrop-blur-xl border border-white/[0.08] rounded-xl p-8 mb-8">
               <h3 className="text-xl font-semibold text-white mb-6">The Strategic Shift</h3>
               
               <div className="space-y-6">
                 <div>
                   <div className="text-sm text-gray-500 mb-2 uppercase tracking-wide">Instead Of:</div>
-                  <div className="text-gray-300 p-4 bg-white/[0.02] rounded-lg border border-red-500/20">
+                  <div className="text-gray-300 p-4 bg-white/[0.03] rounded-lg border border-red-500/20">
                     Competing for "real estate agent near me" (Position 21, page 3, invisible)
                   </div>
                 </div>
@@ -421,7 +421,7 @@ export default function JustinBorgesCaseStudy() {
 
             <div className="space-y-6 mb-12">
               {/* Traffic Performance */}
-              <div className="bg-white/[0.02] backdrop-blur-xl border border-white/[0.05] rounded-xl p-6">
+              <div className="bg-white/[0.03] backdrop-blur-xl border border-white/[0.08] rounded-xl p-6">
                 <h3 className="text-xl font-semibold text-white mb-6 flex items-center gap-3">
                   <span className="w-8 h-8 rounded-lg bg-gradient-to-br from-[#f27d24] to-[#d66d1f] flex items-center justify-center">
                     <svg className="w-5 h-5 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={2}>
@@ -432,22 +432,22 @@ export default function JustinBorgesCaseStudy() {
                 </h3>
 
                 <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-4">
-                  <div className="p-4 bg-white/[0.02] rounded-lg text-center">
+                  <div className="p-4 bg-white/[0.03] rounded-lg text-center">
                     <div className="text-3xl font-semibold text-[#f27d24] mb-2">3,362</div>
                     <div className="text-sm text-gray-400">Monthly Clicks</div>
                     <div className="text-xs text-gray-500 mt-1">~146/day average</div>
                   </div>
-                  <div className="p-4 bg-white/[0.02] rounded-lg text-center">
+                  <div className="p-4 bg-white/[0.03] rounded-lg text-center">
                     <div className="text-3xl font-semibold text-[#362478] mb-2">488K+</div>
                     <div className="text-sm text-gray-400">Monthly Impressions</div>
                     <div className="text-xs text-gray-500 mt-1">Brand visibility</div>
                   </div>
-                  <div className="p-4 bg-white/[0.02] rounded-lg text-center">
+                  <div className="p-4 bg-white/[0.03] rounded-lg text-center">
                     <div className="text-3xl font-semibold text-[#f27d24] mb-2">$0</div>
                     <div className="text-sm text-gray-400">Ad Spend</div>
                     <div className="text-xs text-gray-500 mt-1">100% organic</div>
                   </div>
-                  <div className="p-4 bg-white/[0.02] rounded-lg text-center">
+                  <div className="p-4 bg-white/[0.03] rounded-lg text-center">
                     <div className="text-3xl font-semibold text-[#362478] mb-2">648</div>
                     <div className="text-sm text-gray-400">Pages Indexed</div>
                     <div className="text-xs text-gray-500 mt-1">Content moat</div>
@@ -456,7 +456,7 @@ export default function JustinBorgesCaseStudy() {
               </div>
 
               {/* Ranking Performance */}
-              <div className="bg-white/[0.02] backdrop-blur-xl border border-white/[0.05] rounded-xl p-6">
+              <div className="bg-white/[0.03] backdrop-blur-xl border border-white/[0.08] rounded-xl p-6">
                 <h3 className="text-xl font-semibold text-white mb-6 flex items-center gap-3">
                   <span className="w-8 h-8 rounded-lg bg-gradient-to-br from-[#362478] to-[#2a1a5f] flex items-center justify-center">
                     <svg className="w-5 h-5 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={2}>
@@ -483,7 +483,7 @@ export default function JustinBorgesCaseStudy() {
                     <div className="text-3xl font-semibold text-[#362478]">694</div>
                   </div>
                   
-                  <div className="flex items-center justify-between p-4 bg-white/[0.02] rounded-lg">
+                  <div className="flex items-center justify-between p-4 bg-white/[0.03] rounded-lg">
                     <div>
                       <div className="text-white font-semibold">Total Queries Captured</div>
                       <div className="text-sm text-gray-400">Unique search terms ranking</div>
@@ -494,7 +494,7 @@ export default function JustinBorgesCaseStudy() {
               </div>
 
               {/* Device Breakdown */}
-              <div className="bg-white/[0.02] backdrop-blur-xl border border-white/[0.05] rounded-xl p-6">
+              <div className="bg-white/[0.03] backdrop-blur-xl border border-white/[0.08] rounded-xl p-6">
                 <h3 className="text-xl font-semibold text-white mb-6 flex items-center gap-3">
                   <span className="w-8 h-8 rounded-lg bg-gradient-to-br from-[#f27d24] to-[#d66d1f] flex items-center justify-center">
                     <svg className="w-5 h-5 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={2}>
@@ -505,17 +505,17 @@ export default function JustinBorgesCaseStudy() {
                 </h3>
 
                 <div className="grid sm:grid-cols-3 gap-4">
-                  <div className="p-4 bg-white/[0.02] rounded-lg text-center">
+                  <div className="p-4 bg-white/[0.03] rounded-lg text-center">
                     <div className="text-2xl font-semibold text-[#f27d24] mb-2">1,819</div>
                     <div className="text-sm text-gray-400">Mobile Clicks</div>
                     <div className="text-xs text-gray-500 mt-1">54% of traffic</div>
                   </div>
-                  <div className="p-4 bg-white/[0.02] rounded-lg text-center">
+                  <div className="p-4 bg-white/[0.03] rounded-lg text-center">
                     <div className="text-2xl font-semibold text-[#362478] mb-2">1,495</div>
                     <div className="text-sm text-gray-400">Desktop Clicks</div>
                     <div className="text-xs text-gray-500 mt-1">44% of traffic</div>
                   </div>
-                  <div className="p-4 bg-white/[0.02] rounded-lg text-center">
+                  <div className="p-4 bg-white/[0.03] rounded-lg text-center">
                     <div className="text-2xl font-semibold text-white mb-2">48</div>
                     <div className="text-sm text-gray-400">Tablet Clicks</div>
                     <div className="text-xs text-gray-500 mt-1">2% of traffic</div>
@@ -554,7 +554,7 @@ export default function JustinBorgesCaseStudy() {
                 Answer Engine Optimization says: "Own specific expertise and position it where AI platforms cite sources."
               </p>
 
-              <div className="bg-white/[0.02] backdrop-blur-xl border border-white/[0.05] rounded-xl p-8 my-8">
+              <div className="bg-white/[0.03] backdrop-blur-xl border border-white/[0.08] rounded-xl p-8 my-8">
                 <h3 className="text-xl font-semibold text-white mb-6">The Strategic Difference</h3>
                 
                 <div className="space-y-6">
@@ -613,7 +613,7 @@ export default function JustinBorgesCaseStudy() {
             </p>
 
             <div className="space-y-6">
-              <div className="bg-white/[0.02] backdrop-blur-xl border border-white/[0.05] rounded-xl p-6">
+              <div className="bg-white/[0.03] backdrop-blur-xl border border-white/[0.08] rounded-xl p-6">
                 <h3 className="text-lg font-semibold text-[#f27d24] mb-4">Every Local Service Business Has:</h3>
                 <ul className="space-y-4 text-gray-300">
                   <li className="flex items-start gap-3">
@@ -653,7 +653,7 @@ export default function JustinBorgesCaseStudy() {
 
           {/* Testimonial */}
           <section className="mb-16">
-            <div className="bg-gradient-to-br from-white/[0.05] to-white/[0.02] backdrop-blur-xl border border-white/[0.05] rounded-2xl p-8 sm:p-12">
+            <div className="bg-gradient-to-br from-white/[0.05] to-white/[0.02] backdrop-blur-xl border border-white/[0.08] rounded-2xl p-8 sm:p-12">
               <svg className="w-12 h-12 text-[#f27d24]/30 mb-6" fill="currentColor" viewBox="0 0 24 24">
                 <path d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h3.983v10h-9.983z"/>
               </svg>
@@ -676,7 +676,7 @@ export default function JustinBorgesCaseStudy() {
           </section>
 
           {/* CTA */}
-          <section className="bg-gradient-to-br from-white/[0.05] to-white/[0.02] backdrop-blur-xl border border-white/[0.05] rounded-2xl p-8 sm:p-12 text-center">
+          <section className="bg-gradient-to-br from-white/[0.05] to-white/[0.02] backdrop-blur-xl border border-white/[0.08] rounded-2xl p-8 sm:p-12 text-center">
             <h2 className="text-3xl sm:text-4xl font-semibold mb-6 text-white">
               Ready to Position YOUR Expertise?
             </h2>
