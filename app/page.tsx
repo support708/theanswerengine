@@ -827,52 +827,27 @@ export default function Home() {
               <h2 className="text-3xl sm:text-4xl font-semibold text-white font-heading">What Business Owners Say</h2>
             </div>
 
-            <div className="grid md:grid-cols-2 gap-6 max-w-4xl mx-auto">
-              {[
-                {
-                  quote: "JB doesn't just understand SEO—he understands how AI actually decides who to recommend. That's a completely different skill set, and it's working.",
-                  name: "Justin Borges",
-                  role: "The Borges Real Estate Team, Pasadena",
-                  initials: "JB",
-                  bgColor: "bg-[#362478]"
-                },
-                {
-                  quote: "I was skeptical that this would work in my market. 90 days later, I'm the only contractor Perplexity recommends in my zip code.",
-                  name: "Home Services Client",
-                  role: "Los Angeles County",
-                  initials: "★",
-                  bgColor: "bg-emerald-600"
-                }
-              ].map((testimonial, i) => (
-                <div
-                  key={i}
-                  className={`bg-white/[0.03] border border-white/[0.08] rounded-2xl p-8 transition-all duration-500 ease-out ${
-                    testimonialsAnim.isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-6'
-                  }`}
-                  style={{ transitionDelay: testimonialsAnim.isVisible ? `${i * 150}ms` : '0ms' }}
-                >
-                  <div className="flex gap-1 mb-4">
-                    {[...Array(5)].map((_, j) => (
-                      <svg key={j} className="w-5 h-5 text-[#f27d24]" fill="currentColor" viewBox="0 0 20 20">
-                        <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
-                      </svg>
-                    ))}
-                  </div>
-                  <p className="text-gray-300 text-lg leading-relaxed mb-6">"{testimonial.quote}"</p>
-                  <div className="flex items-center gap-4">
-                    <div className={`w-12 h-12 rounded-full ${testimonial.bgColor} flex items-center justify-center text-white font-semibold`}>{testimonial.initials}</div>
-                    <div>
-                      <div className="text-white font-medium">{testimonial.name}</div>
-                      <div className="text-gray-500 text-sm">{testimonial.role}</div>
-                    </div>
+            <div className="max-w-2xl mx-auto">
+              <div className="bg-white/[0.03] border border-white/[0.08] rounded-2xl p-8 sm:p-10">
+                <div className="flex gap-1 mb-6">
+                  {[...Array(5)].map((_, i) => (
+                    <svg key={i} className="w-6 h-6 text-[#f27d24]" fill="currentColor" viewBox="0 0 20 20">
+                      <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                    </svg>
+                  ))}
+                </div>
+                <blockquote className="text-xl sm:text-2xl text-gray-200 leading-relaxed mb-8">
+                  "JB doesn't just understand SEO—he understands how AI actually decides who to recommend. That's a completely different skill set, and it's working."
+                </blockquote>
+                <div className="flex items-center gap-4">
+                  <div className="w-14 h-14 rounded-full bg-[#362478] flex items-center justify-center text-white font-semibold text-lg">JB</div>
+                  <div>
+                    <div className="text-white font-semibold text-lg">Justin Borges</div>
+                    <div className="text-gray-400">The Borges Real Estate Team, Pasadena CA</div>
                   </div>
                 </div>
-              ))}
+              </div>
             </div>
-
-            <p className="text-center text-gray-500 text-sm mt-10">
-              Currently serving clients in: Real Estate • Property Management • Home Services
-            </p>
           </div>
         </section>
 
