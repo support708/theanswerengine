@@ -1,6 +1,7 @@
 'use client';
 
 import { useEffect, useRef, useState, RefObject } from 'react';
+import Image from 'next/image';
 
 // Hook to respect reduced motion preferences (accessibility)
 const usePrefersReducedMotion = () => {
@@ -523,16 +524,18 @@ export default function Home() {
       <main className="min-h-screen bg-[#0F1117] relative overflow-hidden">
         {/* Sticky Header */}
         <header
-          className={`fixed top-0 left-0 right-0 z-50 bg-[#0F1117]/90 backdrop-blur-md border-b border-white/[0.08] transition-all duration-300 ${
+          className={`fixed top-0 left-0 right-0 z-50 bg-[#0F1117]/80 backdrop-blur-xl border-b border-white/[0.08] transition-all duration-300 ${
             showStickyHeader
               ? 'opacity-100 translate-y-0'
               : 'opacity-0 -translate-y-full pointer-events-none'
           }`}
         >
           <div className="max-w-6xl mx-auto px-6 py-3 flex items-center justify-between">
-            <img
+            <Image
               src="/TheAnswerEngine_white logo only.png"
               alt="The Answer Engine"
+              width={120}
+              height={32}
               className="h-8 w-auto"
             />
             <a
@@ -552,9 +555,12 @@ export default function Home() {
         {/* Hero Section */}
         <section ref={heroRef} className="relative max-w-5xl mx-auto px-6 pt-16 sm:pt-24 pb-24 sm:pb-32">
           <div className="flex justify-center mb-12">
-            <img 
-              src="/TheAnswerEngine_white logo only.png" 
-              alt="The Answer Engine" 
+            <Image
+              src="/TheAnswerEngine_white logo only.png"
+              alt="The Answer Engine"
+              width={384}
+              height={128}
+              priority
               className="h-24 sm:h-32 w-auto"
             />
           </div>
@@ -853,9 +859,11 @@ export default function Home() {
                     onClick={() => setActiveImage(citation.image)}
                     className="w-full rounded-xl overflow-hidden border border-white/[0.08] cursor-zoom-in transition-all duration-200 hover:border-white/20 hover:shadow-lg"
                   >
-                    <img
+                    <Image
                       src={citation.image}
                       alt={citation.alt}
+                      width={400}
+                      height={300}
                       className="w-full h-auto"
                       loading="lazy"
                     />
@@ -1379,10 +1387,13 @@ export default function Home() {
             className="fixed inset-0 z-50 bg-black/90 flex items-center justify-center p-4 cursor-zoom-out"
             onClick={() => setActiveImage(null)}
           >
-            <img
+            <Image
               src={activeImage}
               alt="Enlarged screenshot"
-              className="max-w-full max-h-full rounded-lg"
+              width={1200}
+              height={900}
+              className="max-w-full max-h-full rounded-lg object-contain"
+              unoptimized
             />
           </div>
         )}
