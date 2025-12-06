@@ -114,6 +114,14 @@ export default function Contact() {
         <div className="max-w-4xl mx-auto px-6 py-20 sm:py-32 relative">
           {/* Header */}
           <header className="text-center mb-20">
+            <div className="flex justify-center mb-12">
+              <img
+                src="/TheAnswerEngine_white logo only.png"
+                alt="The Answer Engine"
+                className="h-24 sm:h-32 w-auto"
+              />
+            </div>
+
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-semibold mb-8 leading-tight text-white font-heading">
               Get Started with<br />
               <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#f27d24] to-[#d66d1f]">Answer Engine Optimization</span>

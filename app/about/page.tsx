@@ -33,42 +33,10 @@ export default function AboutPage() {
   return (
     <>
       <style jsx global>{`
-        @keyframes pixel-glow {
-          0%, 100% { 
-            box-shadow: 0 0 10px currentColor, 0 0 20px currentColor;
-            opacity: 1;
-          }
-          50% { 
-            box-shadow: 0 0 15px currentColor, 0 0 30px currentColor;
-            opacity: 0.85;
-          }
-        }
-
-        .luxury-pixel {
-          position: relative;
-          animation: pixel-glow 5s ease-in-out infinite;
-        }
-
-        .brand-orange {
-          background: #f27d24;
-          color: #f27d24;
-        }
-
-        .brand-purple {
-          background: #362478;
-          color: #362478;
-        }
-
-        @media (prefers-reduced-motion: reduce) {
-          .luxury-pixel {
-            animation: none;
-          }
-        }
-
         *:focus-visible {
-          outline: 2px solid #f27d24;
-          outline-offset: 2px;
-          border-radius: 4px;
+          outline: none;
+          box-shadow: 0 0 0 2px #0F1117, 0 0 0 4px #f27d24;
+          border-radius: 8px;
         }
 
         .hover-lift {
@@ -280,17 +248,6 @@ export default function AboutPage() {
 
       <main className="min-h-screen bg-[#0F1117] relative overflow-hidden">
         <div className="absolute inset-0 bg-gradient-to-b from-purple-950/5 via-transparent to-orange-950/5 pointer-events-none" />
-        
-        {/* Corner pixels */}
-        <div className="absolute top-0 left-0 flex gap-2 p-4">
-          <div className="luxury-pixel w-3 h-3 brand-orange rounded-sm" />
-          <div className="luxury-pixel w-3 h-3 brand-purple rounded-sm" style={{animationDelay: '1s'}} />
-        </div>
-
-        <div className="absolute top-0 right-0 flex gap-2 p-4">
-          <div className="luxury-pixel w-3 h-3 brand-purple rounded-sm" style={{animationDelay: '0.5s'}} />
-          <div className="luxury-pixel w-3 h-3 brand-orange rounded-sm" style={{animationDelay: '1.5s'}} />
-        </div>
 
         {/* Hero Section */}
         <section className="relative max-w-5xl mx-auto px-6 pt-16 sm:pt-24 pb-24 sm:pb-32">

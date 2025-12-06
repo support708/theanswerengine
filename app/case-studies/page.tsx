@@ -150,11 +150,19 @@ export default function CaseStudies() {
 
         <div className="max-w-6xl mx-auto px-6 py-20 sm:py-32 relative">
           <header className="text-center mb-20">
+            <div className="flex justify-center mb-12">
+              <img
+                src="/TheAnswerEngine_white logo only.png"
+                alt="The Answer Engine"
+                className="h-24 sm:h-32 w-auto"
+              />
+            </div>
+
             <div className="inline-flex items-center gap-2 px-4 py-2 rounded-xl mb-8 bg-[#f27d24]/10 border border-[#f27d24]/20">
               <div className="w-2 h-2 bg-[#f27d24] rounded-full" />
               <span className="text-sm font-semibold tracking-wider uppercase text-[#f27d24]">Proven Results</span>
             </div>
-            
+
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-semibold mb-8 leading-tight text-white font-heading">
               Real Businesses. Real AI Citations.<br />
               <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#f27d24] to-[#d66d1f]">Real Results.</span>
