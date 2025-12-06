@@ -71,7 +71,7 @@ export default function AnswerEngineSolutionsPage() {
       "name": "The Answer Engine",
       "logo": {
         "@type": "ImageObject",
-        "url": "https://theanswerengine.ai/images/TheAnswerEngine_Color.png"
+        "url": "https://theanswerengine.ai/images/TheAnswerEngine_white.png"
       }
     },
     "datePublished": "2025-12-01",
@@ -347,7 +347,7 @@ export default function AnswerEngineSolutionsPage() {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(howToSchema) }}
       />
 
-      <main className="min-h-screen bg-[#0A0A0F]">
+      <main className="min-h-screen bg-[#0F1117]">
         {/* Hero Section */}
         <section className="relative py-16 sm:py-20 lg:py-24 overflow-hidden">
           <div className="absolute inset-0 bg-gradient-to-b from-orange-500/5 via-transparent to-transparent" />

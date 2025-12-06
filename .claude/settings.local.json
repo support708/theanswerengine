@@ -1,0 +1,15 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(ls:*)",
+      "WebSearch",
+      "Bash(dir \"C:\\Users\\Justi\\theanswerengine-nextjs\")",
+      "Bash(dir \"C:\\Users\\Justi\\Downloads\")",
+      "Bash(dir:*)",
+      "Bash(copy:*)",
+      "Bash(npm run build:*)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}

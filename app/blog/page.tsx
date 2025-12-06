@@ -76,7 +76,7 @@ export default function Blog() {
               "url": "https://theanswerengine.ai",
               "logo": {
                 "@type": "ImageObject",
-                "url": "https://theanswerengine.ai/TheAnswerEngine_Color.png",
+                "url": "https://theanswerengine.ai/TheAnswerEngine_white%20logo%20only.png",
                 "width": 600,
                 "height": 60
               }
@@ -144,7 +144,7 @@ export default function Blog() {
             "@type": "Organization",
             "name": "The Answer Engine",
             "url": "https://theanswerengine.ai",
-            "logo": "https://theanswerengine.ai/TheAnswerEngine_Color.png",
+            "logo": "https://theanswerengine.ai/TheAnswerEngine_white%20logo%20only.png",
             "description": "We specialize in Answer Engine Optimization (AEO) for local service businesses, positioning companies to be cited by Google AI Overviews, ChatGPT, Claude, and Perplexity.",
             "sameAs": [
               "https://www.linkedin.com/company/theanswerengine",
@@ -181,7 +181,7 @@ export default function Blog() {
         }}
       />
 
-      <main className="min-h-screen bg-[#0A0A0F] relative overflow-hidden">
+      <main className="min-h-screen bg-[#0F1117] relative overflow-hidden">
         {/* Gradient overlay */}
         <div className="absolute inset-0 bg-gradient-to-b from-purple-950/5 via-transparent to-orange-950/5 pointer-events-none" />
         
@@ -199,7 +199,7 @@ export default function Blog() {
               <span className="text-sm font-semibold tracking-wider uppercase text-[#f27d24]">AEO Insights</span>
             </div>
             
-            <h1 className="text-5xl sm:text-6xl lg:text-7xl font-semibold mb-8 leading-tight text-white">
+            <h1 className="text-5xl sm:text-6xl lg:text-7xl font-semibold mb-8 leading-tight text-white font-heading">
               Answer Engine Optimization Blog
             </h1>
             
@@ -219,7 +219,7 @@ export default function Blog() {
                   <div className="w-2 h-2 rounded-full bg-[#362478]" />
                   <span className="text-sm font-semibold tracking-wider uppercase text-[#a89bd9]">Featured</span>
                 </div>
-                <h2 className="text-3xl sm:text-4xl font-semibold text-white mb-3">
+                <h2 className="text-3xl sm:text-4xl font-semibold text-white mb-3 font-heading">
                   Essential Reading
                 </h2>
                 <p className="text-gray-400 text-lg">Core insights for Answer Engine Optimization mastery</p>
@@ -229,7 +229,7 @@ export default function Blog() {
                 {featuredPosts.map((post) => (
                   <article 
                     key={post.id}
-                    className="bg-white/[0.02] backdrop-blur-xl border border-[#f27d24]/20 rounded-2xl overflow-hidden hover:border-[#f27d24]/40 transition-all hover:-translate-y-1 group"
+                    className="bg-white/[0.03] backdrop-blur-xl border border-[#f27d24]/20 rounded-2xl overflow-hidden hover:border-[#f27d24]/40 transition-all hover:-translate-y-1 group"
                   >
                     <Link href={`/blog/${post.slug}`} className="block">
                       <div className="relative h-48 bg-gradient-to-br from-[#362478]/20 to-[#f27d24]/20 flex items-center justify-center overflow-hidden">
@@ -277,7 +277,7 @@ export default function Blog() {
 
           {/* All Posts Section */}
           <div className="mb-12">
-            <h2 className="text-3xl sm:text-4xl font-semibold text-white mb-3">
+            <h2 className="text-3xl sm:text-4xl font-semibold text-white mb-3 font-heading">
               All Articles
             </h2>
             <p className="text-gray-400 text-lg">Complete library of AEO insights and strategies</p>
@@ -288,7 +288,7 @@ export default function Blog() {
             {allPosts.map((post) => (
               <article 
                 key={post.id}
-                className="bg-white/[0.02] backdrop-blur-xl border border-white/[0.05] rounded-2xl overflow-hidden hover:border-white/[0.15] transition-all hover:-translate-y-1 group"
+                className="bg-white/[0.03] backdrop-blur-xl border border-white/[0.08] rounded-2xl overflow-hidden hover:border-white/[0.15] transition-all hover:-translate-y-1 group"
               >
                 <Link href={`/blog/${post.slug}`} className="block">
                   <div className="relative h-48 bg-gradient-to-br from-[#362478]/20 to-[#f27d24]/20 flex items-center justify-center overflow-hidden">
@@ -331,7 +331,7 @@ export default function Blog() {
 
           {/* CTA Section */}
           <div className="bg-gradient-to-br from-[#f27d24]/10 to-[#d66d1f]/10 border-2 border-[#f27d24]/30 rounded-3xl p-12 sm:p-16 text-center hover:-translate-y-1 transition-all">
-            <h2 className="text-4xl sm:text-5xl font-semibold mb-6 text-white leading-tight">
+            <h2 className="text-4xl sm:text-5xl font-semibold mb-6 text-white leading-tight font-heading">
               Ready to Get Cited by AI?
             </h2>
             

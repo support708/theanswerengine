@@ -99,7 +99,7 @@ export default function WhatIsAEOBlogPost() {
               "name": "The Answer Engine",
               "logo": {
                 "@type": "ImageObject",
-                "url": "https://theanswerengine.ai/TheAnswerEngine_Color.png",
+                "url": "https://theanswerengine.ai/TheAnswerEngine_white.png",
                 "width": 600,
                 "height": 60
               }
@@ -242,7 +242,7 @@ export default function WhatIsAEOBlogPost() {
             "@type": "Organization",
             "name": "The Answer Engine",
             "url": "https://theanswerengine.ai",
-            "logo": "https://theanswerengine.ai/TheAnswerEngine_Color.png",
+            "logo": "https://theanswerengine.ai/TheAnswerEngine_white.png",
             "description": "We specialize in Answer Engine Optimization (AEO) for local service businesses, positioning companies to be cited by Google AI Overviews, ChatGPT, Claude, and Perplexity.",
             "sameAs": [
               "https://www.linkedin.com/company/theanswerengine",
@@ -286,7 +286,7 @@ export default function WhatIsAEOBlogPost() {
         }}
       />
 
-      <main className="min-h-screen bg-[#0A0A0F] relative">
+      <main className="min-h-screen bg-[#0F1117] relative">
         {/* Subtle gradient overlay */}
         <div className="absolute inset-0 bg-gradient-to-b from-purple-950/10 via-transparent to-orange-950/10 pointer-events-none" />
         
@@ -296,7 +296,7 @@ export default function WhatIsAEOBlogPost() {
 
         <article className="max-w-4xl mx-auto px-6 py-20 sm:py-32 relative">
           {/* Featured Image */}
-          <div className="mb-12 rounded-2xl overflow-hidden border border-white/[0.05]">
+          <div className="mb-12 rounded-2xl overflow-hidden border border-white/[0.08]">
             <img 
               src="/images/what-is-aeo-featured.png" 
               alt="What is Answer Engine Optimization (AEO) - diagram showing AI platforms citing authoritative sources" 
@@ -484,39 +484,39 @@ export default function WhatIsAEOBlogPost() {
                   </tr>
                 </thead>
                 <tbody className="text-gray-400 font-light">
-                  <tr className="border-b border-white/[0.05]">
+                  <tr className="border-b border-white/[0.08]">
                     <td className="py-3 px-4">Optimize to rank #1-10 in results</td>
                     <td className="py-3 px-4">Optimize to be the cited source in AI answers</td>
                   </tr>
-                  <tr className="border-b border-white/[0.05]">
+                  <tr className="border-b border-white/[0.08]">
                     <td className="py-3 px-4">Focus on keyword volume</td>
                     <td className="py-3 px-4">Focus on question intent</td>
                   </tr>
-                  <tr className="border-b border-white/[0.05]">
+                  <tr className="border-b border-white/[0.08]">
                     <td className="py-3 px-4">Build as many backlinks as possible</td>
                     <td className="py-3 px-4">Build citation-worthy content quality</td>
                   </tr>
-                  <tr className="border-b border-white/[0.05]">
+                  <tr className="border-b border-white/[0.08]">
                     <td className="py-3 px-4">Target high search volume keywords</td>
                     <td className="py-3 px-4">Target high-intent questions</td>
                   </tr>
-                  <tr className="border-b border-white/[0.05]">
+                  <tr className="border-b border-white/[0.08]">
                     <td className="py-3 px-4">Write 2,000+ word blog posts</td>
                     <td className="py-3 px-4">Write complete, concise answers (400-1,200 words)</td>
                   </tr>
-                  <tr className="border-b border-white/[0.05]">
+                  <tr className="border-b border-white/[0.08]">
                     <td className="py-3 px-4">Generic meta descriptions</td>
                     <td className="py-3 px-4">FAQ schema with explicit Q&A pairs</td>
                   </tr>
-                  <tr className="border-b border-white/[0.05]">
+                  <tr className="border-b border-white/[0.08]">
                     <td className="py-3 px-4">Author bios are optional</td>
                     <td className="py-3 px-4">Detailed credentials are required</td>
                   </tr>
-                  <tr className="border-b border-white/[0.05]">
+                  <tr className="border-b border-white/[0.08]">
                     <td className="py-3 px-4">Generic "about us" content</td>
                     <td className="py-3 px-4">Specific, verifiable expertise signals</td>
                   </tr>
-                  <tr className="border-b border-white/[0.05]">
+                  <tr className="border-b border-white/[0.08]">
                     <td className="py-3 px-4">Keywords in H2 tags</td>
                     <td className="py-3 px-4">Questions in H2 tags, answers immediately following</td>
                   </tr>
@@ -625,42 +625,42 @@ export default function WhatIsAEOBlogPost() {
                   </tr>
                 </thead>
                 <tbody className="text-gray-400 font-light">
-                  <tr className="border-b border-white/[0.05]">
+                  <tr className="border-b border-white/[0.08]">
                     <td className="py-3 px-4 font-medium text-gray-300">Learning Curve</td>
                     <td className="py-3 px-4">6-12 months of trial and error</td>
                     <td className="py-3 px-4">Immediate implementation from proven systems</td>
                   </tr>
-                  <tr className="border-b border-white/[0.05]">
+                  <tr className="border-b border-white/[0.08]">
                     <td className="py-3 px-4 font-medium text-gray-300">Schema Implementation</td>
                     <td className="py-3 px-4">Self-taught syntax, high error risk</td>
                     <td className="py-3 px-4">Pre-validated markup, zero syntax errors</td>
                   </tr>
-                  <tr className="border-b border-white/[0.05]">
+                  <tr className="border-b border-white/[0.08]">
                     <td className="py-3 px-4 font-medium text-gray-300">Diagnostic Capability</td>
                     <td className="py-3 px-4">No visibility into what's broken</td>
                     <td className="py-3 px-4">Systematic testing across all AI platforms</td>
                   </tr>
-                  <tr className="border-b border-white/[0.05]">
+                  <tr className="border-b border-white/[0.08]">
                     <td className="py-3 px-4 font-medium text-gray-300">Content Architecture</td>
                     <td className="py-3 px-4">Experimental structure</td>
                     <td className="py-3 px-4">Battle-tested framework</td>
                   </tr>
-                  <tr className="border-b border-white/[0.05]">
+                  <tr className="border-b border-white/[0.08]">
                     <td className="py-3 px-4 font-medium text-gray-300">Time to First Citations</td>
                     <td className="py-3 px-4">6-12 months (if successful)</td>
                     <td className="py-3 px-4">60-90 days with proper implementation</td>
                   </tr>
-                  <tr className="border-b border-white/[0.05]">
+                  <tr className="border-b border-white/[0.08]">
                     <td className="py-3 px-4 font-medium text-gray-300">Hidden Failure Risk</td>
                     <td className="py-3 px-4">High - months wasted on broken implementations</td>
                     <td className="py-3 px-4">Low - continuous monitoring and adjustment</td>
                   </tr>
-                  <tr className="border-b border-white/[0.05]">
+                  <tr className="border-b border-white/[0.08]">
                     <td className="py-3 px-4 font-medium text-gray-300">Total Time Investment</td>
                     <td className="py-3 px-4">100-200 hours over 6-12 months</td>
                     <td className="py-3 px-4">5-10 hours for collaboration/approval</td>
                   </tr>
-                  <tr className="border-b border-white/[0.05]">
+                  <tr className="border-b border-white/[0.08]">
                     <td className="py-3 px-4 font-medium text-gray-300">Best For</td>
                     <td className="py-3 px-4">Technical teams with 6+ months to invest</td>
                     <td className="py-3 px-4">Businesses seeking fast, reliable results</td>
@@ -722,7 +722,7 @@ export default function WhatIsAEOBlogPost() {
                   a: "Featured snippet wins in Google Search, inclusion in Google AI Overviews, citations in ChatGPT/Claude/Perplexity responses, and—most importantly—quality of organic traffic. Businesses typically see fewer tire-kickers and more serious inquiries as AI platforms pre-qualify leads by citing established authorities."
                 }
               ].map((faq, i) => (
-                <div key={i} className="bg-white/[0.02] backdrop-blur-xl border border-white/[0.05] rounded-xl p-6 hover:border-white/[0.08] transition-colors">
+                <div key={i} className="bg-white/[0.03] backdrop-blur-xl border border-white/[0.08] rounded-xl p-6 hover:border-white/[0.08] transition-colors">
                   <h3 className="text-xl font-light mb-3 text-white">
                     {faq.q}
                   </h3>
@@ -734,7 +734,7 @@ export default function WhatIsAEOBlogPost() {
             </div>
 
             {/* Author Section */}
-            <div className="mt-16 pt-12 border-t border-white/[0.05]">
+            <div className="mt-16 pt-12 border-t border-white/[0.08]">
               <h3 className="text-2xl font-light mb-6 text-gray-100">
                 <span className="font-normal text-white">About the Author</span>
               </h3>
@@ -773,11 +773,11 @@ export default function WhatIsAEOBlogPost() {
             </div>
 
             {/* Related Articles */}
-            <div className="mt-16 pt-12 border-t border-white/[0.05]">
+            <div className="mt-16 pt-12 border-t border-white/[0.08]">
               <h3 className="text-2xl font-light mb-6 text-gray-100">
                 <span className="font-normal text-white">Related Articles</span>
               </h3>
-              <div className="bg-white/[0.02] backdrop-blur-xl border border-white/[0.05] rounded-xl p-6 hover:border-white/[0.08] transition-colors">
+              <div className="bg-white/[0.03] backdrop-blur-xl border border-white/[0.08] rounded-xl p-6 hover:border-white/[0.08] transition-colors">
                 <a href="/blog/google-rankings-dont-matter" className="group">
                   <h4 className="text-xl font-light text-white mb-2 group-hover:text-orange-400 transition-colors">
                     The Real Reason Your Google Rankings Don't Matter Anymore

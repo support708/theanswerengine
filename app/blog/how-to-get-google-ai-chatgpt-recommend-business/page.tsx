@@ -100,7 +100,7 @@ export default function HowToGetAIRecommendBusiness() {
               "name": "The Answer Engine",
               "logo": {
                 "@type": "ImageObject",
-                "url": "https://theanswerengine.ai/TheAnswerEngine_Color.png",
+                "url": "https://theanswerengine.ai/TheAnswerEngine_white%20logo%20only.png",
                 "width": 600,
                 "height": 60
               }
@@ -243,7 +243,7 @@ export default function HowToGetAIRecommendBusiness() {
             "@type": "Organization",
             "name": "The Answer Engine",
             "url": "https://theanswerengine.ai",
-            "logo": "https://theanswerengine.ai/TheAnswerEngine_Color.png",
+            "logo": "https://theanswerengine.ai/TheAnswerEngine_white%20logo%20only.png",
             "description": "We specialize in Answer Engine Optimization (AEO) for local service businesses, positioning companies to be cited by Google AI Overviews, ChatGPT, Claude, and Perplexity.",
             "sameAs": [
               "https://www.linkedin.com/company/theanswerengine",
@@ -328,7 +328,7 @@ export default function HowToGetAIRecommendBusiness() {
         }}
       />
 
-      <main className="min-h-screen bg-[#0A0A0F] relative">
+      <main className="min-h-screen bg-[#0F1117] relative">
         {/* Subtle gradient overlay */}
         <div className="absolute inset-0 bg-gradient-to-b from-purple-950/10 via-transparent to-orange-950/10 pointer-events-none" />
         
@@ -338,7 +338,7 @@ export default function HowToGetAIRecommendBusiness() {
 
         <article className="max-w-4xl mx-auto px-6 py-20 sm:py-32 relative">
           {/* Featured Image */}
-          <div className="mb-12 rounded-2xl overflow-hidden border border-white/[0.05] max-w-3xl mx-auto">
+          <div className="mb-12 rounded-2xl overflow-hidden border border-white/[0.08] max-w-3xl mx-auto">
             <img 
               src="/images/how-to-get-ai-recommend-business-featured.png" 
               alt="How to get Google AI Overviews and ChatGPT to recommend your business - the four foundation requirements" 
@@ -476,7 +476,7 @@ export default function HowToGetAIRecommendBusiness() {
               <strong className="text-white font-medium">Content that AI platforms cite:</strong>
             </p>
 
-            <p className="text-gray-300 text-lg leading-relaxed mb-6 font-light border-l-4 border-orange-500/50 pl-6 py-4 bg-white/[0.02] rounded-r-lg">
+            <p className="text-gray-300 text-lg leading-relaxed mb-6 font-light border-l-4 border-orange-500/50 pl-6 py-4 bg-white/[0.03] rounded-r-lg">
               <strong className="text-white font-medium">How long does HVAC installation take?</strong><br /><br />
               Complete HVAC system installation typically requires 8-12 hours for standard residential properties. Complex installations with ductwork modifications may extend to 2-3 days. Emergency replacements can often be completed within 4-6 hours when existing infrastructure is compatible.
             </p>
@@ -485,7 +485,7 @@ export default function HowToGetAIRecommendBusiness() {
               <strong className="text-gray-400 font-medium">Content that AI platforms ignore:</strong>
             </p>
 
-            <p className="text-gray-300 text-lg leading-relaxed mb-8 font-light border-l-4 border-gray-600/50 pl-6 py-4 bg-white/[0.02] rounded-r-lg">
+            <p className="text-gray-300 text-lg leading-relaxed mb-8 font-light border-l-4 border-gray-600/50 pl-6 py-4 bg-white/[0.03] rounded-r-lg">
               "When you're considering HVAC installation, timing is one of many important factors to think about. Our experienced team works efficiently to minimize disruption to your home. Every project is unique, and we take the time needed to ensure quality results..."
             </p>
 
@@ -817,7 +817,7 @@ export default function HowToGetAIRecommendBusiness() {
                   a: "Late mover disadvantage is real but not insurmountable. Requires more aggressive systematic implementation and strategic targeting of subtopics where competitors have incomplete coverage. Diagnostic analysis reveals specific opportunities for displacement even when competitors have established position."
                 }
               ].map((faq, i) => (
-                <div key={i} className="bg-white/[0.02] backdrop-blur-xl border border-white/[0.05] rounded-xl p-6 hover:border-white/[0.08] transition-colors">
+                <div key={i} className="bg-white/[0.03] backdrop-blur-xl border border-white/[0.08] rounded-xl p-6 hover:border-white/[0.08] transition-colors">
                   <h3 className="text-xl font-light mb-3 text-white">
                     {faq.q}
                   </h3>
@@ -829,7 +829,7 @@ export default function HowToGetAIRecommendBusiness() {
             </div>
 
             {/* Author Section */}
-            <div className="mt-16 pt-12 border-t border-white/[0.05]">
+            <div className="mt-16 pt-12 border-t border-white/[0.08]">
               <h3 className="text-2xl font-light mb-6 text-gray-100">
                 <span className="font-normal text-white">About the Author</span>
               </h3>
@@ -868,12 +868,12 @@ export default function HowToGetAIRecommendBusiness() {
             </div>
 
             {/* Related Articles */}
-            <div className="mt-16 pt-12 border-t border-white/[0.05]">
+            <div className="mt-16 pt-12 border-t border-white/[0.08]">
               <h3 className="text-2xl font-light mb-6 text-gray-100">
                 <span className="font-normal text-white">Related Articles</span>
               </h3>
               <div className="space-y-4">
-                <div className="bg-white/[0.02] backdrop-blur-xl border border-white/[0.05] rounded-xl p-6 hover:border-white/[0.08] transition-colors">
+                <div className="bg-white/[0.03] backdrop-blur-xl border border-white/[0.08] rounded-xl p-6 hover:border-white/[0.08] transition-colors">
                   <a href="/blog/what-is-answer-engine-optimization" className="group">
                     <h4 className="text-xl font-light text-white mb-2 group-hover:text-orange-400 transition-colors">
                       What is Answer Engine Optimization (AEO)? The Complete Guide for 2025
@@ -883,7 +883,7 @@ export default function HowToGetAIRecommendBusiness() {
                     </p>
                   </a>
                 </div>
-                <div className="bg-white/[0.02] backdrop-blur-xl border border-white/[0.05] rounded-xl p-6 hover:border-white/[0.08] transition-colors">
+                <div className="bg-white/[0.03] backdrop-blur-xl border border-white/[0.08] rounded-xl p-6 hover:border-white/[0.08] transition-colors">
                   <a href="/blog/how-ai-platforms-choose-businesses-to-cite" className="group">
                     <h4 className="text-xl font-light text-white mb-2 group-hover:text-orange-400 transition-colors">
                       How AI Platforms Choose Which Businesses to Cite

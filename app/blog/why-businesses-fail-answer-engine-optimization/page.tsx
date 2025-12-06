@@ -100,7 +100,7 @@ export default function WhyBusinessesFailAEO() {
               "name": "The Answer Engine",
               "logo": {
                 "@type": "ImageObject",
-                "url": "https://theanswerengine.ai/TheAnswerEngine_Color.png",
+                "url": "https://theanswerengine.ai/TheAnswerEngine_white.png",
                 "width": 600,
                 "height": 60
               }
@@ -243,7 +243,7 @@ export default function WhyBusinessesFailAEO() {
             "@type": "Organization",
             "name": "The Answer Engine",
             "url": "https://theanswerengine.ai",
-            "logo": "https://theanswerengine.ai/TheAnswerEngine_Color.png",
+            "logo": "https://theanswerengine.ai/TheAnswerEngine_white.png",
             "description": "We specialize in Answer Engine Optimization (AEO) for local service businesses, positioning companies to be cited by Google AI Overviews, ChatGPT, Claude, and Perplexity.",
             "sameAs": [
               "https://www.linkedin.com/company/theanswerengine",
@@ -327,7 +327,7 @@ export default function WhyBusinessesFailAEO() {
         }}
       />
 
-      <main className="min-h-screen bg-[#0A0A0F] relative">
+      <main className="min-h-screen bg-[#0F1117] relative">
         {/* Subtle gradient overlay */}
         <div className="absolute inset-0 bg-gradient-to-b from-purple-950/10 via-transparent to-orange-950/10 pointer-events-none" />
         
@@ -337,7 +337,7 @@ export default function WhyBusinessesFailAEO() {
 
         <article className="max-w-4xl mx-auto px-6 py-20 sm:py-32 relative">
           {/* Featured Image */}
-          <div className="mb-12 rounded-2xl overflow-hidden border border-white/[0.05]">
+          <div className="mb-12 rounded-2xl overflow-hidden border border-white/[0.08]">
             <img 
               src="/images/why-businesses-fail-aeo-featured.png" 
               alt="Why Most Businesses Fail at Answer Engine Optimization - common mistakes and invisible failures" 
@@ -408,7 +408,7 @@ export default function WhyBusinessesFailAEO() {
               Most businesses lack systematic methods to test whether AI platforms can even see their content, let alone cite it. They operate on assumptions:
             </p>
 
-            <div className="bg-white/[0.02] backdrop-blur-xl border-l-4 border-red-500 rounded-r-xl p-6 mb-8 space-y-4">
+            <div className="bg-white/[0.03] backdrop-blur-xl border-l-4 border-red-500 rounded-r-xl p-6 mb-8 space-y-4">
               <p className="text-gray-300 font-light italic">
                 "We added FAQ sections to our website" → <span className="text-red-400">Assumption:</span> AI platforms will cite those answers
               </p>
@@ -602,7 +602,7 @@ export default function WhyBusinessesFailAEO() {
               Schema markup tells AI platforms how to interpret your content's structure. It's invisible to human readers but critical for AI platform understanding.
             </p>
 
-            <div className="bg-white/[0.02] backdrop-blur-xl border-l-4 border-red-500 rounded-r-xl p-6 mb-8">
+            <div className="bg-white/[0.03] backdrop-blur-xl border-l-4 border-red-500 rounded-r-xl p-6 mb-8">
               <h4 className="text-white font-medium mb-4">Common schema failures that break everything:</h4>
               <ul className="space-y-3 text-gray-300 font-light">
                 <li className="flex items-start gap-3">
@@ -866,7 +866,7 @@ export default function WhyBusinessesFailAEO() {
                   a: "Analyzing why AI platforms cite competitors reveals which expertise signals, content structures, and technical elements they prioritize. Studying who gets cited for your target queries and identifying patterns in their implementation accelerates your own optimization—but requires knowing what to look for and how to analyze it systematically."
                 }
               ].map((faq, i) => (
-                <div key={i} className="bg-white/[0.02] backdrop-blur-xl border border-white/[0.05] rounded-xl p-6 hover:border-white/[0.08] transition-colors">
+                <div key={i} className="bg-white/[0.03] backdrop-blur-xl border border-white/[0.08] rounded-xl p-6 hover:border-white/[0.08] transition-colors">
                   <h3 className="text-xl font-light mb-3 text-white">
                     {faq.q}
                   </h3>
@@ -878,7 +878,7 @@ export default function WhyBusinessesFailAEO() {
             </div>
 
             {/* Author Section */}
-            <div className="mt-16 pt-12 border-t border-white/[0.05]">
+            <div className="mt-16 pt-12 border-t border-white/[0.08]">
               <h3 className="text-2xl font-light mb-6 text-gray-100">
                 <span className="font-normal text-white">About the Author</span>
               </h3>
@@ -917,12 +917,12 @@ export default function WhyBusinessesFailAEO() {
             </div>
 
             {/* Related Articles */}
-            <div className="mt-16 pt-12 border-t border-white/[0.05]">
+            <div className="mt-16 pt-12 border-t border-white/[0.08]">
               <h3 className="text-2xl font-light mb-6 text-gray-100">
                 <span className="font-normal text-white">Related Articles</span>
               </h3>
               <div className="space-y-4">
-                <div className="bg-white/[0.02] backdrop-blur-xl border border-white/[0.05] rounded-xl p-6 hover:border-white/[0.08] transition-colors">
+                <div className="bg-white/[0.03] backdrop-blur-xl border border-white/[0.08] rounded-xl p-6 hover:border-white/[0.08] transition-colors">
                   <a href="/blog/google-rankings-dont-matter" className="group">
                     <h4 className="text-xl font-light text-white mb-2 group-hover:text-orange-400 transition-colors">
                       The Real Reason Your Google Rankings Don't Matter Anymore
@@ -932,7 +932,7 @@ export default function WhyBusinessesFailAEO() {
                     </p>
                   </a>
                 </div>
-                <div className="bg-white/[0.02] backdrop-blur-xl border border-white/[0.05] rounded-xl p-6 hover:border-white/[0.08] transition-colors">
+                <div className="bg-white/[0.03] backdrop-blur-xl border border-white/[0.08] rounded-xl p-6 hover:border-white/[0.08] transition-colors">
                   <a href="/blog/what-is-answer-engine-optimization" className="group">
                     <h4 className="text-xl font-light text-white mb-2 group-hover:text-orange-400 transition-colors">
                       What is Answer Engine Optimization (AEO)? Complete Guide
@@ -942,7 +942,7 @@ export default function WhyBusinessesFailAEO() {
                     </p>
                   </a>
                 </div>
-                <div className="bg-white/[0.02] backdrop-blur-xl border border-white/[0.05] rounded-xl p-6 hover:border-white/[0.08] transition-colors">
+                <div className="bg-white/[0.03] backdrop-blur-xl border border-white/[0.08] rounded-xl p-6 hover:border-white/[0.08] transition-colors">
                   <a href="/blog/how-ai-platforms-choose-businesses-to-cite" className="group">
                     <h4 className="text-xl font-light text-white mb-2 group-hover:text-orange-400 transition-colors">
                       How AI Platforms Choose Which Businesses to Cite

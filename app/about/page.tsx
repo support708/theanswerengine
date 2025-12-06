@@ -72,12 +72,22 @@ export default function AboutPage() {
         }
 
         .hover-lift {
-          transition: all 300ms ease;
+          transition: all 500ms cubic-bezier(0.16, 1, 0.3, 1);
         }
-        
+
         .hover-lift:hover {
-          transform: translateY(-4px);
-          border-color: rgba(255,255,255,0.15);
+          transform: translateY(-6px);
+          box-shadow: 0 24px 48px -12px rgba(0, 0, 0, 0.35);
+          border-color: rgba(255,255,255,0.12);
+        }
+
+        @media (prefers-reduced-motion: reduce) {
+          .hover-lift {
+            transition: none;
+          }
+          .hover-lift:hover {
+            transform: none;
+          }
         }
       `}</style>
 
@@ -92,7 +102,7 @@ export default function AboutPage() {
             "name": "The Answer Engine",
             "alternateName": "Answer Engine Optimization",
             "url": "https://theanswerengine.ai",
-            "logo": "https://theanswerengine.ai/TheAnswerEngine_Color.png",
+            "logo": "https://theanswerengine.ai/TheAnswerEngine_white%20logo%20only.png",
             "description": "Answer Engine Optimization specialists helping local service businesses get cited by AI platforms like Google AI Overviews, ChatGPT, Claude, and Perplexity. Founded 2025 by Justin Borges.",
             "email": "support@theanswerengine.ai",
             "telephone": "+1-213-444-2229",
@@ -268,7 +278,7 @@ export default function AboutPage() {
         }}
       />
 
-      <main className="min-h-screen bg-[#0A0A0F] relative overflow-hidden">
+      <main className="min-h-screen bg-[#0F1117] relative overflow-hidden">
         <div className="absolute inset-0 bg-gradient-to-b from-purple-950/5 via-transparent to-orange-950/5 pointer-events-none" />
         
         {/* Corner pixels */}
@@ -286,14 +296,14 @@ export default function AboutPage() {
         <section className="relative max-w-5xl mx-auto px-6 pt-16 sm:pt-24 pb-24 sm:pb-32">
           <div className="flex justify-center mb-12">
             <img 
-              src="/TheAnswerEngine_Color.png" 
+              src="/TheAnswerEngine_white logo only.png" 
               alt="The Answer Engine - Answer Engine Optimization" 
               className="h-24 sm:h-32 w-auto"
             />
           </div>
 
           <div className="text-center mb-12">
-            <h1 className="text-5xl sm:text-6xl lg:text-7xl font-semibold mb-8 leading-tight text-white">
+            <h1 className="text-5xl sm:text-6xl lg:text-7xl font-semibold mb-8 leading-tight text-white font-heading">
               About The Answer Engine
             </h1>
             
@@ -309,13 +319,13 @@ export default function AboutPage() {
 
         {/* What is The Answer Engine */}
         <section className="max-w-5xl mx-auto px-6 pb-24">
-          <div className="bg-white/[0.02] backdrop-blur-xl border border-white/[0.05] rounded-3xl p-12 sm:p-16 hover-lift">
+          <div className="bg-white/[0.03] backdrop-blur-xl border border-white/[0.08] rounded-3xl p-12 sm:p-16 hover-lift">
             <div className="inline-flex items-center gap-2 px-4 py-2 rounded-xl mb-8 bg-[#f27d24]/10 border border-[#f27d24]/20">
               <div className="w-2 h-2 rounded-full bg-[#f27d24]" />
               <span className="text-sm font-semibold tracking-wider uppercase text-[#f27d24]">Our Mission</span>
             </div>
 
-            <h2 className="text-4xl sm:text-5xl font-semibold mb-8 text-white">
+            <h2 className="text-4xl sm:text-5xl font-semibold mb-8 text-white font-heading">
               What is The Answer Engine?
             </h2>
 
@@ -328,7 +338,7 @@ export default function AboutPage() {
                 We position small businesses as the definitive answers that AI systems recommend when users ask relevant questions in their market. Our clients transform from price-competing vendors into trusted authorities.
               </p>
 
-              <div className="bg-white/[0.03] border border-white/[0.05] rounded-2xl p-8 my-8">
+              <div className="bg-white/[0.03] border border-white/[0.08] rounded-2xl p-8 my-8">
                 <h3 className="text-2xl font-semibold text-white mb-4">The Core Problem We Solve</h3>
                 <p className="text-gray-400 mb-4">
                   Your potential customers aren't scrolling through ten pages of Google results anymore. They're asking AI one question and trusting the first answer they get.
@@ -347,13 +357,13 @@ export default function AboutPage() {
 
         {/* Founder Story */}
         <section className="max-w-5xl mx-auto px-6 pb-24">
-          <div className="bg-white/[0.02] backdrop-blur-xl border border-white/[0.05] rounded-3xl p-12 sm:p-16 hover-lift">
+          <div className="bg-white/[0.03] backdrop-blur-xl border border-white/[0.08] rounded-3xl p-12 sm:p-16 hover-lift">
             <div className="inline-flex items-center gap-2 px-4 py-2 rounded-xl mb-8 bg-[#362478]/10 border border-[#362478]/20">
               <div className="w-2 h-2 rounded-full bg-[#362478]" />
               <span className="text-sm font-semibold tracking-wider uppercase text-[#a89bd9]">Origin Story</span>
             </div>
 
-            <h2 className="text-4xl sm:text-5xl font-semibold mb-8 text-white">
+            <h2 className="text-4xl sm:text-5xl font-semibold mb-8 text-white font-heading">
               Who Founded The Answer Engine?
             </h2>
 
@@ -367,15 +377,15 @@ export default function AboutPage() {
               </p>
 
               <div className="grid sm:grid-cols-3 gap-6 my-8">
-                <div className="bg-white/[0.03] border border-white/[0.05] rounded-2xl p-6 text-center">
+                <div className="bg-white/[0.03] border border-white/[0.08] rounded-2xl p-6 text-center">
                   <div className="text-3xl font-semibold text-white mb-2">13+ Years</div>
                   <div className="text-gray-400">Real Estate Experience</div>
                 </div>
-                <div className="bg-white/[0.03] border border-white/[0.05] rounded-2xl p-6 text-center">
+                <div className="bg-white/[0.03] border border-white/[0.08] rounded-2xl p-6 text-center">
                   <div className="text-3xl font-semibold text-white mb-2">$200M+</div>
                   <div className="text-gray-400">In Sales Volume</div>
                 </div>
-                <div className="bg-white/[0.03] border border-white/[0.05] rounded-2xl p-6 text-center">
+                <div className="bg-white/[0.03] border border-white/[0.08] rounded-2xl p-6 text-center">
                   <div className="text-3xl font-semibold text-white mb-2">100%</div>
                   <div className="text-gray-400">AI Citation Rate</div>
                 </div>
@@ -385,7 +395,7 @@ export default function AboutPage() {
                 When ChatGPT, Claude, and Perplexity started citing Justin specifically for probate sales queries—ahead of every competitor in Pasadena—he realized something fundamental had shifted.
               </p>
 
-              <div className="bg-white/[0.03] border border-white/[0.05] rounded-2xl p-8 my-8">
+              <div className="bg-white/[0.03] border border-white/[0.08] rounded-2xl p-8 my-8">
                 <p className="text-white font-semibold mb-4">
                   Being recommended by AI isn't luck. It's a repeatable methodology.
                 </p>
@@ -409,7 +419,7 @@ export default function AboutPage() {
               <span className="text-sm font-semibold tracking-wider uppercase text-[#f27d24]">Core Principles</span>
             </div>
 
-            <h2 className="text-4xl sm:text-5xl font-semibold mb-6 text-white">
+            <h2 className="text-4xl sm:text-5xl font-semibold mb-6 text-white font-heading">
               What Makes Us Different
             </h2>
 
@@ -443,7 +453,7 @@ export default function AboutPage() {
             ].map((value, i) => (
               <div 
                 key={i}
-                className="bg-white/[0.02] border border-white/[0.05] rounded-2xl p-8 hover-lift"
+                className="bg-white/[0.03] border border-white/[0.08] rounded-2xl p-8 hover-lift"
                 style={{
                   opacity: valuesInView ? 1 : 0,
                   transform: valuesInView ? 'translateY(0)' : 'translateY(20px)',
@@ -491,8 +501,8 @@ export default function AboutPage() {
 
         {/* How We're Different */}
         <section className="max-w-5xl mx-auto px-6 pb-24">
-          <div className="bg-white/[0.02] backdrop-blur-xl border border-white/[0.05] rounded-3xl p-12 sm:p-16 hover-lift">
-            <h2 className="text-4xl sm:text-5xl font-semibold mb-8 text-white">
+          <div className="bg-white/[0.03] backdrop-blur-xl border border-white/[0.08] rounded-3xl p-12 sm:p-16 hover-lift">
+            <h2 className="text-4xl sm:text-5xl font-semibold mb-8 text-white font-heading">
               How is The Answer Engine Different From Traditional SEO Agencies?
             </h2>
 
@@ -506,7 +516,7 @@ export default function AboutPage() {
             </div>
 
             <div className="grid md:grid-cols-2 gap-8">
-              <div className="bg-white/[0.03] border border-white/[0.05] rounded-2xl p-6">
+              <div className="bg-white/[0.03] border border-white/[0.08] rounded-2xl p-6">
                 <h3 className="text-xl font-semibold text-white mb-4 flex items-center gap-2">
                   <span className="text-gray-500">❌</span>
                   Traditional SEO
@@ -577,8 +587,8 @@ export default function AboutPage() {
 
         {/* Who We Serve */}
         <section className="max-w-5xl mx-auto px-6 pb-24">
-          <div className="bg-white/[0.02] backdrop-blur-xl border border-white/[0.05] rounded-3xl p-12 sm:p-16 hover-lift">
-            <h2 className="text-4xl sm:text-5xl font-semibold mb-8 text-white">
+          <div className="bg-white/[0.03] backdrop-blur-xl border border-white/[0.08] rounded-3xl p-12 sm:p-16 hover-lift">
+            <h2 className="text-4xl sm:text-5xl font-semibold mb-8 text-white font-heading">
               Who Does The Answer Engine Serve?
             </h2>
 
@@ -601,14 +611,14 @@ export default function AboutPage() {
                 'Financial Advisors',
                 'General Contractors'
               ].map((industry) => (
-                <div key={industry} className="bg-white/[0.03] border border-white/[0.05] rounded-xl p-4 text-center text-gray-300">
+                <div key={industry} className="bg-white/[0.03] border border-white/[0.08] rounded-xl p-4 text-center text-gray-300">
                   {industry}
                 </div>
               ))}
             </div>
 
             <div className="grid md:grid-cols-2 gap-8">
-              <div className="bg-white/[0.03] border border-white/[0.05] rounded-2xl p-8">
+              <div className="bg-white/[0.03] border border-white/[0.08] rounded-2xl p-8">
                 <h3 className="text-xl font-semibold text-white mb-4 flex items-center gap-2">
                   <span className="text-emerald-500">✓</span>
                   You're Ideal If:
@@ -633,7 +643,7 @@ export default function AboutPage() {
                 </ul>
               </div>
 
-              <div className="bg-white/[0.03] border border-white/[0.05] rounded-2xl p-8">
+              <div className="bg-white/[0.03] border border-white/[0.08] rounded-2xl p-8">
                 <h3 className="text-xl font-semibold text-white mb-4 flex items-center gap-2">
                   <span className="text-red-400">✗</span>
                   You're Not Ideal If:
@@ -664,7 +674,7 @@ export default function AboutPage() {
         {/* FAQ Section */}
         <section className="max-w-4xl mx-auto px-6 pb-24">
           <div className="text-center mb-16">
-            <h2 className="text-4xl sm:text-5xl font-semibold mb-6 text-white">
+            <h2 className="text-4xl sm:text-5xl font-semibold mb-6 text-white font-heading">
               Frequently Asked Questions
             </h2>
             <p className="text-xl text-gray-400">
@@ -691,7 +701,7 @@ export default function AboutPage() {
                 answer: "AI citations typically begin appearing within 30-60 days as platforms index optimized content. Authority compounds over time, with most clients seeing consistent citation rates between months 3-6. We provide 90-day performance tracking to capture initial momentum and identify optimization opportunities for sustained growth."
               }
             ].map((faq, i) => (
-              <div key={i} className="bg-white/[0.02] border border-white/[0.05] rounded-2xl p-8 hover-lift">
+              <div key={i} className="bg-white/[0.03] border border-white/[0.08] rounded-2xl p-8 hover-lift">
                 <h3 className="text-xl font-semibold text-white mb-4">{faq.question}</h3>
                 <p className="text-gray-400 leading-relaxed">{faq.answer}</p>
               </div>
@@ -702,7 +712,7 @@ export default function AboutPage() {
         {/* CTA Section */}
         <section className="max-w-4xl mx-auto px-6 pb-32">
           <div className="bg-gradient-to-br from-[#f27d24]/10 to-[#d66d1f]/10 border-2 border-[#f27d24]/30 rounded-3xl p-12 sm:p-16 text-center hover-lift">
-            <h2 className="text-4xl sm:text-5xl font-semibold mb-6 text-white">
+            <h2 className="text-4xl sm:text-5xl font-semibold mb-6 text-white font-heading">
               Ready to Become the Answer?
             </h2>
             
@@ -739,7 +749,7 @@ export default function AboutPage() {
         </section>
 
         {/* Footer */}
-        <footer className="border-t border-white/[0.05] py-12">
+        <footer className="border-t border-white/[0.08] py-12">
           <div className="max-w-6xl mx-auto px-6 text-center">
             <p className="text-gray-500 text-sm mb-4">
               © 2025 The Answer Engine. All rights reserved.

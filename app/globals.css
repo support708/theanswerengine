@@ -3,6 +3,11 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
+
+  /* Modern easing curves for 2025-2026 */
+  --ease-out-expo: cubic-bezier(0.16, 1, 0.3, 1);
+  --ease-out-quart: cubic-bezier(0.25, 1, 0.5, 1);
+  --ease-in-out-quart: cubic-bezier(0.76, 0, 0.24, 1);
 }
 
 @theme inline {
@@ -22,5 +27,78 @@
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Inter', Arial, Helvetica, sans-serif;
+}
+
+/* Heading font class */
+.font-heading {
+  font-family: 'Outfit', sans-serif;
+}
+
+/* Enhanced hover effects with modern easing */
+.hover-lift {
+  transition: all 500ms var(--ease-out-expo);
+}
+
+.hover-lift:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 24px 48px -12px rgba(0, 0, 0, 0.35);
+  border-color: rgba(255, 255, 255, 0.12);
+}
+
+/* Scroll animation classes */
+.animate-fade-in {
+  transition: opacity 700ms var(--ease-out-expo), transform 700ms var(--ease-out-expo);
+}
+
+.animate-fade-in-hidden {
+  opacity: 0;
+  transform: translateY(2rem);
+}
+
+.animate-fade-in-visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Staggered animation helper */
+.stagger-item {
+  transition: opacity 500ms var(--ease-out-expo), transform 500ms var(--ease-out-expo);
+}
+
+.stagger-item-hidden {
+  opacity: 0;
+  transform: translateY(1.5rem);
+}
+
+.stagger-item-visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Reduced motion preferences - REQUIRED for accessibility */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+
+  .hover-lift:hover {
+    transform: none;
+  }
+
+  .animate-fade-in,
+  .stagger-item {
+    transition: none !important;
+  }
+
+  .animate-fade-in-hidden,
+  .stagger-item-hidden {
+    opacity: 1;
+    transform: none;
+  }
 }

@@ -104,7 +104,7 @@ export default function HowToGetInTheAnswerEngine() {
               "name": "The Answer Engine",
               "logo": {
                 "@type": "ImageObject",
-                "url": "https://theanswerengine.ai/TheAnswerEngine_Color.png",
+                "url": "https://theanswerengine.ai/TheAnswerEngine_white.png",
                 "width": 600,
                 "height": 60
               }
@@ -223,7 +223,7 @@ export default function HowToGetInTheAnswerEngine() {
             "@type": "LocalBusiness",
             "name": "The Answer Engine",
             "url": "https://theanswerengine.ai",
-            "logo": "https://theanswerengine.ai/TheAnswerEngine_Color.png",
+            "logo": "https://theanswerengine.ai/TheAnswerEngine_white.png",
             "description": "Answer Engine Optimization agency helping local service businesses get cited by AI platforms like ChatGPT, Claude, Perplexity, and Google AI Overview.",
             "telephone": "(213) 444-2229",
             "address": {
@@ -329,7 +329,7 @@ export default function HowToGetInTheAnswerEngine() {
         }}
       />
 
-      <main className="min-h-screen bg-[#0A0A0F] relative">
+      <main className="min-h-screen bg-[#0F1117] relative">
         {/* Subtle gradient overlay */}
         <div className="absolute inset-0 bg-gradient-to-b from-purple-950/10 via-transparent to-orange-950/10 pointer-events-none" />
         
@@ -339,7 +339,7 @@ export default function HowToGetInTheAnswerEngine() {
 
         <article className="max-w-4xl mx-auto px-6 py-20 sm:py-32 relative">
           {/* Featured Image */}
-          <div className="mb-12 rounded-2xl overflow-hidden border border-white/[0.05]">
+          <div className="mb-12 rounded-2xl overflow-hidden border border-white/[0.08]">
             <img 
               src="/images/how-to-get-in-answer-engine-featured.png" 
               alt="How to Get in the Answer Engine - Complete Guide to AI Citations" 
@@ -428,35 +428,35 @@ export default function HowToGetInTheAnswerEngine() {
             </p>
 
             <div className="space-y-8 mb-8">
-              <div className="bg-white/[0.02] backdrop-blur-xl border border-white/[0.05] rounded-xl p-6">
+              <div className="bg-white/[0.03] backdrop-blur-xl border border-white/[0.08] rounded-xl p-6">
                 <h4 className="text-xl font-medium text-white mb-3">1. Direct Answer Quality</h4>
                 <p className="text-gray-300 font-light leading-relaxed">
                   AI prioritizes content that directly answers the question in the first paragraph. If someone asks about plumber pricing, content with a specific price range upfront gets cited over content that buries the answer after 500 words of introduction.
                 </p>
               </div>
 
-              <div className="bg-white/[0.02] backdrop-blur-xl border border-white/[0.05] rounded-xl p-6">
+              <div className="bg-white/[0.03] backdrop-blur-xl border border-white/[0.08] rounded-xl p-6">
                 <h4 className="text-xl font-medium text-white mb-3">2. Entity Recognition</h4>
                 <p className="text-gray-300 font-light leading-relaxed">
                   AI needs to identify your business as a real entity with verifiable credentials. Schema markup tells AI your business name, location, services, and credentials. Without proper entity markup, AI can't verify you're legitimate.
                 </p>
               </div>
 
-              <div className="bg-white/[0.02] backdrop-blur-xl border border-white/[0.05] rounded-xl p-6">
+              <div className="bg-white/[0.03] backdrop-blur-xl border border-white/[0.08] rounded-xl p-6">
                 <h4 className="text-xl font-medium text-white mb-3">3. Topical Authority</h4>
                 <p className="text-gray-300 font-light leading-relaxed">
                   A single blog post won't establish expertise. AI looks for depth—multiple interconnected pieces demonstrating comprehensive knowledge. We build hub-and-spoke content clusters for this reason: one comprehensive guide supported by 4-6 detailed spoke articles.
                 </p>
               </div>
 
-              <div className="bg-white/[0.02] backdrop-blur-xl border border-white/[0.05] rounded-xl p-6">
+              <div className="bg-white/[0.03] backdrop-blur-xl border border-white/[0.08] rounded-xl p-6">
                 <h4 className="text-xl font-medium text-white mb-3">4. Freshness & Accuracy</h4>
                 <p className="text-gray-300 font-light leading-relaxed">
                   AI favors current content. Articles with 2025 pricing, current regulations, and recent updates signal reliability. Outdated content gets deprioritized.
                 </p>
               </div>
 
-              <div className="bg-white/[0.02] backdrop-blur-xl border border-white/[0.05] rounded-xl p-6">
+              <div className="bg-white/[0.03] backdrop-blur-xl border border-white/[0.08] rounded-xl p-6">
                 <h4 className="text-xl font-medium text-white mb-3">5. Source Credibility</h4>
                 <p className="text-gray-300 font-light leading-relaxed">
                   Does the content come from someone with verifiable expertise? AI evaluates author credentials, business credentials, and external authority signals—mentions on reputable sites, consistent NAP data, positive reviews on established platforms.
@@ -522,22 +522,22 @@ export default function HowToGetInTheAnswerEngine() {
             </p>
 
             <div className="space-y-4 mb-8">
-              <div className="bg-white/[0.02] backdrop-blur-xl border-l-4 border-orange-500 rounded-r-xl p-4">
+              <div className="bg-white/[0.03] backdrop-blur-xl border-l-4 border-orange-500 rounded-r-xl p-4">
                 <p className="text-gray-300 font-light">
                   <strong className="text-white font-medium">Featured Snippet Block:</strong> Open with 40-60 words directly answering the target question
                 </p>
               </div>
-              <div className="bg-white/[0.02] backdrop-blur-xl border-l-4 border-orange-500 rounded-r-xl p-4">
+              <div className="bg-white/[0.03] backdrop-blur-xl border-l-4 border-orange-500 rounded-r-xl p-4">
                 <p className="text-gray-300 font-light">
                   <strong className="text-white font-medium">Comprehensive FAQ:</strong> Include 5-10 related questions with FAQ schema markup
                 </p>
               </div>
-              <div className="bg-white/[0.02] backdrop-blur-xl border-l-4 border-orange-500 rounded-r-xl p-4">
+              <div className="bg-white/[0.03] backdrop-blur-xl border-l-4 border-orange-500 rounded-r-xl p-4">
                 <p className="text-gray-300 font-light">
                   <strong className="text-white font-medium">Authoritative Depth:</strong> Cover the topic completely, not superficially
                 </p>
               </div>
-              <div className="bg-white/[0.02] backdrop-blur-xl border-l-4 border-orange-500 rounded-r-xl p-4">
+              <div className="bg-white/[0.03] backdrop-blur-xl border-l-4 border-orange-500 rounded-r-xl p-4">
                 <p className="text-gray-300 font-light">
                   <strong className="text-white font-medium">Local Specificity:</strong> City-specific content outranks generic national content
                 </p>
@@ -724,7 +724,7 @@ export default function HowToGetInTheAnswerEngine() {
                   a: "Any service business where customers research before buying: real estate, legal, medical, home services (HVAC, plumbing, electrical), financial advisors, and professional services. The more complex the decision, the more likely customers ask AI for guidance."
                 }
               ].map((faq, i) => (
-                <div key={i} className="bg-white/[0.02] backdrop-blur-xl border border-white/[0.05] rounded-xl p-6 hover:border-white/[0.08] transition-colors">
+                <div key={i} className="bg-white/[0.03] backdrop-blur-xl border border-white/[0.08] rounded-xl p-6 hover:border-white/[0.08] transition-colors">
                   <h3 className="text-xl font-light mb-3 text-white">
                     {faq.q}
                   </h3>
@@ -736,7 +736,7 @@ export default function HowToGetInTheAnswerEngine() {
             </div>
 
             {/* Author Section */}
-            <div className="mt-16 pt-12 border-t border-white/[0.05]">
+            <div className="mt-16 pt-12 border-t border-white/[0.08]">
               <h3 className="text-2xl font-light mb-6 text-gray-100">
                 <span className="font-normal text-white">About the Author</span>
               </h3>
@@ -757,12 +757,12 @@ export default function HowToGetInTheAnswerEngine() {
             </div>
 
             {/* Related Articles */}
-            <div className="mt-16 pt-12 border-t border-white/[0.05]">
+            <div className="mt-16 pt-12 border-t border-white/[0.08]">
               <h3 className="text-2xl font-light mb-6 text-gray-100">
                 <span className="font-normal text-white">Related Articles</span>
               </h3>
               <div className="space-y-4">
-                <div className="bg-white/[0.02] backdrop-blur-xl border border-white/[0.05] rounded-xl p-6 hover:border-white/[0.08] transition-colors">
+                <div className="bg-white/[0.03] backdrop-blur-xl border border-white/[0.08] rounded-xl p-6 hover:border-white/[0.08] transition-colors">
                   <a href="/blog/aeo-case-study-real-estate" className="group">
                     <h4 className="text-xl font-light text-white mb-2 group-hover:text-orange-400 transition-colors">
                       AEO Case Study: How a Real Estate Team Dominates AI Search
@@ -772,7 +772,7 @@ export default function HowToGetInTheAnswerEngine() {
                     </p>
                   </a>
                 </div>
-                <div className="bg-white/[0.02] backdrop-blur-xl border border-white/[0.05] rounded-xl p-6 hover:border-white/[0.08] transition-colors">
+                <div className="bg-white/[0.03] backdrop-blur-xl border border-white/[0.08] rounded-xl p-6 hover:border-white/[0.08] transition-colors">
                   <a href="/blog/why-businesses-fail-answer-engine-optimization" className="group">
                     <h4 className="text-xl font-light text-white mb-2 group-hover:text-orange-400 transition-colors">
                       Why Most Businesses Fail at Answer Engine Optimization
@@ -782,7 +782,7 @@ export default function HowToGetInTheAnswerEngine() {
                     </p>
                   </a>
                 </div>
-                <div className="bg-white/[0.02] backdrop-blur-xl border border-white/[0.05] rounded-xl p-6 hover:border-white/[0.08] transition-colors">
+                <div className="bg-white/[0.03] backdrop-blur-xl border border-white/[0.08] rounded-xl p-6 hover:border-white/[0.08] transition-colors">
                   <a href="/blog/what-is-answer-engine-optimization" className="group">
                     <h4 className="text-xl font-light text-white mb-2 group-hover:text-orange-400 transition-colors">
                       What is Answer Engine Optimization (AEO)? Complete Guide

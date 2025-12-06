@@ -32,7 +32,7 @@ export default function Contact() {
             "name": "The Answer Engine",
             "description": "Answer Engine Optimization specialists helping local service businesses get cited by AI platforms like ChatGPT, Claude, Google AI Overviews, and Perplexity.",
             "url": "https://theanswerengine.ai",
-            "logo": "https://theanswerengine.ai/TheAnswerEngine_Color.png",
+            "logo": "https://theanswerengine.ai/TheAnswerEngine_white%20logo%20only.png",
             "telephone": "+1-213-444-2229",
             "email": "support@theanswerengine.ai",
             "address": {
@@ -83,22 +83,38 @@ export default function Contact() {
 
       <style jsx>{`
         .hover-lift {
-          transition: all 300ms ease;
+          transition: all 500ms cubic-bezier(0.16, 1, 0.3, 1);
         }
-        
+
         .hover-lift:hover {
-          transform: translateY(-4px);
-          border-color: rgba(255,255,255,0.15);
+          transform: translateY(-6px);
+          box-shadow: 0 24px 48px -12px rgba(0, 0, 0, 0.35);
+          border-color: rgba(255,255,255,0.12);
+        }
+
+        *:focus-visible {
+          outline: none;
+          box-shadow: 0 0 0 2px #0F1117, 0 0 0 4px #f27d24;
+          border-radius: 8px;
+        }
+
+        @media (prefers-reduced-motion: reduce) {
+          .hover-lift {
+            transition: none;
+          }
+          .hover-lift:hover {
+            transform: none;
+          }
         }
       `}</style>
 
-      <main className="min-h-screen bg-[#0A0A0F] relative">
+      <main className="min-h-screen bg-[#0F1117] relative">
         <div className="absolute inset-0 bg-gradient-to-b from-purple-950/5 via-transparent to-orange-950/5 pointer-events-none" />
 
         <div className="max-w-4xl mx-auto px-6 py-20 sm:py-32 relative">
           {/* Header */}
           <header className="text-center mb-20">
-            <h1 className="text-4xl sm:text-5xl lg:text-6xl font-semibold mb-8 leading-tight text-white">
+            <h1 className="text-4xl sm:text-5xl lg:text-6xl font-semibold mb-8 leading-tight text-white font-heading">
               Get Started with<br />
               <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#f27d24] to-[#d66d1f]">Answer Engine Optimization</span>
             </h1>
@@ -110,7 +126,7 @@ export default function Contact() {
 
           {/* Contact Cards */}
           <div className="grid sm:grid-cols-2 gap-6 mb-20">
-            <div className="hover-lift bg-white/[0.03] backdrop-blur-xl border border-white/[0.05] rounded-2xl p-10">
+            <div className="hover-lift bg-white/[0.03] backdrop-blur-xl border border-white/[0.08] rounded-2xl p-10">
               <div className="text-center">
                 <div className="inline-flex items-center justify-center w-16 h-16 rounded-xl mb-6 bg-[#f27d24]/10 border border-[#f27d24]/20">
                   <svg className="w-8 h-8 text-[#f27d24]" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={2}>
@@ -135,7 +151,7 @@ export default function Contact() {
               </div>
             </div>
 
-            <div className="hover-lift bg-white/[0.03] backdrop-blur-xl border border-white/[0.05] rounded-2xl p-10">
+            <div className="hover-lift bg-white/[0.03] backdrop-blur-xl border border-white/[0.08] rounded-2xl p-10">
               <div className="text-center">
                 <div className="inline-flex items-center justify-center w-16 h-16 rounded-xl mb-6 bg-[#362478]/10 border border-[#362478]/20">
                   <svg className="w-8 h-8 text-[#a89bd9]" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={2}>
@@ -165,9 +181,9 @@ export default function Contact() {
           <div className="max-w-xs mx-auto h-px bg-gradient-to-r from-transparent via-white/10 to-transparent mb-20" />
 
           {/* Strategy Call Section */}
-          <div className="bg-white/[0.02] backdrop-blur-xl border border-white/[0.05] rounded-3xl p-12 sm:p-16">
+          <div className="bg-white/[0.03] backdrop-blur-xl border border-white/[0.08] rounded-3xl p-12 sm:p-16">
             <div className="text-center mb-12">
-              <h2 className="text-3xl sm:text-4xl lg:text-5xl font-semibold mb-6 text-white leading-tight">
+              <h2 className="text-3xl sm:text-4xl lg:text-5xl font-semibold mb-6 text-white leading-tight font-heading">
                 Free 30-Minute<br />
                 AEO Strategy Call
               </h2>
@@ -183,7 +199,7 @@ export default function Contact() {
                 "Identify your 3 highest-value expertise areas to own",
                 "Get a 90-day roadmap to dominate AI recommendations in your market"
               ].map((text, i) => (
-                <div key={i} className="flex items-start gap-4 p-4 rounded-xl bg-white/[0.02] border border-white/[0.03]">
+                <div key={i} className="flex items-start gap-4 p-4 rounded-xl bg-white/[0.03] border border-white/[0.03]">
                   <div className="flex-shrink-0 w-6 h-6 rounded-lg flex items-center justify-center bg-[#f27d24]/20 border border-[#f27d24]/20 mt-0.5">
                     <svg className="w-4 h-4 text-[#f27d24]" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2.5}>
                       <path strokeLinecap="round" strokeLinejoin="round" d="M5 13l4 4L19 7" />
@@ -217,7 +233,7 @@ export default function Contact() {
             </div>
 
             {/* Guarantee Note */}
-            <div className="mt-12 pt-8 border-t border-white/[0.05] text-center">
+            <div className="mt-12 pt-8 border-t border-white/[0.08] text-center">
               <p className="text-gray-400 text-sm max-w-xl mx-auto">
                 <span className="text-white font-semibold">90-day guarantee:</span> Get cited by 2+ AI engines or we work for free until you do. Or full refund. Your choice.
               </p>
@@ -241,7 +257,7 @@ export default function Contact() {
         </div>
 
         {/* Mobile Sticky Footer */}
-        <div className="md:hidden fixed bottom-0 left-0 right-0 p-4 bg-[#0A0A0F]/95 backdrop-blur-xl border-t border-white/[0.05] z-50">
+        <div className="md:hidden fixed bottom-0 left-0 right-0 p-4 bg-[#0F1117]/95 backdrop-blur-xl border-t border-white/[0.08] z-50">
           <div className="flex gap-3">
             <a 
               href="tel:+12134442229" 
