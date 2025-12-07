@@ -345,7 +345,7 @@ export default function Contact() {
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a
                 href="tel:+12134442229"
-                className="inline-flex items-center justify-center gap-3 px-8 py-4 rounded-xl text-base sm:text-lg font-semibold text-white transition-all duration-300 shadow-[0_4px_24px_rgba(242,125,36,0.3)] hover:shadow-[0_8px_32px_rgba(242,125,36,0.4)] hover:-translate-y-0.5 active:scale-[0.98] bg-[#f27d24] hover:bg-[#d66d1f]"
+                className="group inline-flex items-center justify-center gap-3 px-8 py-4 bg-gradient-to-r from-[#f27d24] to-[#d66d1f] rounded-xl text-base sm:text-lg font-semibold text-white shadow-[0_0_30px_rgba(242,125,36,0.3)] hover:shadow-[0_0_50px_rgba(242,125,36,0.5)] transition-all duration-500 hover:scale-[1.02] active:scale-[0.98]"
               >
                 <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={2} aria-hidden="true">
                   <path strokeLinecap="round" strokeLinejoin="round" d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 002.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035 12.035 0 01-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 00-1.091-.852H4.5A2.25 2.25 0 002.25 4.5v2.25z" />
@@ -355,7 +355,7 @@ export default function Contact() {
 
               <a
                 href="mailto:support@theanswerengine.ai"
-                className="inline-flex items-center justify-center gap-3 px-8 py-4 rounded-xl text-base sm:text-lg font-semibold text-white transition-all duration-300 bg-white/[0.05] hover:bg-white/[0.08] border border-white/[0.1] hover:border-white/[0.15]"
+                className="inline-flex items-center justify-center gap-3 px-8 py-4 bg-white/[0.05] border border-white/[0.1] rounded-xl text-base sm:text-lg font-semibold text-white hover:bg-white/[0.1] hover:border-white/[0.15] transition-all duration-300"
               >
                 <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={2} aria-hidden="true">
                   <path strokeLinecap="round" strokeLinejoin="round" d="M21.75 6.75v10.5a2.25 2.25 0 01-2.25 2.25h-15a2.25 2.25 0 01-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0019.5 4.5h-15a2.25 2.25 0 00-2.25 2.25m19.5 0v.243a2.25 2.25 0 01-1.07 1.916l-7.5 4.615a2.25 2.25 0 01-2.36 0L3.32 8.91a2.25 2.25 0 01-1.07-1.916V6.75" />
@@ -407,11 +407,11 @@ export default function Contact() {
         </div>
 
         {/* Mobile Sticky Footer */}
-        <div className="md:hidden fixed bottom-0 left-0 right-0 p-4 bg-[#0F1117]/95 backdrop-blur-xl border-t border-white/[0.08] z-50">
+        <div className="md:hidden fixed bottom-0 left-0 right-0 p-4 bg-[#0F1117]/95 backdrop-blur-xl border-t border-white/[0.05] z-50">
           <div className="flex gap-3">
             <a
               href="tel:+12134442229"
-              className="flex-1 flex items-center justify-center gap-2 py-3.5 rounded-xl font-semibold bg-[#f27d24] text-white active:scale-[0.98] transition-transform"
+              className="flex-1 flex items-center justify-center gap-2 py-3.5 rounded-xl font-semibold bg-gradient-to-r from-[#f27d24] to-[#d66d1f] text-white shadow-[0_0_20px_rgba(242,125,36,0.3)] active:scale-[0.98] transition-all"
             >
               <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={2} aria-hidden="true">
                 <path strokeLinecap="round" strokeLinejoin="round" d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 002.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035 12.035 0 01-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 00-1.091-.852H4.5A2.25 2.25 0 002.25 4.5v2.25z" />
@@ -420,7 +420,7 @@ export default function Contact() {
             </a>
             <a
               href="mailto:support@theanswerengine.ai"
-              className="flex-1 flex items-center justify-center gap-2 py-3.5 rounded-xl font-semibold bg-white/[0.05] text-gray-300 border border-white/[0.1] active:scale-[0.98] transition-transform"
+              className="flex-1 flex items-center justify-center gap-2 py-3.5 rounded-xl font-semibold bg-white/[0.05] text-white border border-white/[0.1] active:scale-[0.98] transition-all"
             >
               <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={2} aria-hidden="true">
                 <path strokeLinecap="round" strokeLinejoin="round" d="M21.75 6.75v10.5a2.25 2.25 0 01-2.25 2.25h-15a2.25 2.25 0 01-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0019.5 4.5h-15a2.25 2.25 0 00-2.25 2.25m19.5 0v.243a2.25 2.25 0 01-1.07 1.916l-7.5 4.615a2.25 2.25 0 01-2.36 0L3.32 8.91a2.25 2.25 0 01-1.07-1.916V6.75" />

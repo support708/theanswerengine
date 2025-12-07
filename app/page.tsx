@@ -560,7 +560,7 @@ export default function Home() {
             />
             <a
               href="#territory-check"
-              className="inline-flex items-center gap-2 px-5 py-2.5 rounded-lg text-sm font-semibold text-white transition-all shadow-[0_4px_16px_rgba(242,125,36,0.25)] hover:shadow-[0_6px_20px_rgba(242,125,36,0.35)] hover:-translate-y-0.5 bg-[#f27d24] hover:bg-[#d66d1f]"
+              className="inline-flex items-center gap-2 px-5 py-2.5 bg-gradient-to-r from-[#f27d24] to-[#d66d1f] rounded-lg font-semibold text-white text-sm shadow-[0_0_20px_rgba(242,125,36,0.3)] hover:shadow-[0_0_30px_rgba(242,125,36,0.5)] transition-all duration-300 hover:scale-[1.02]"
             >
               Check My Territory
               <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={2} aria-hidden="true">
@@ -730,7 +730,11 @@ export default function Home() {
         <div className="h-px w-full bg-gradient-to-r from-transparent via-white/10 to-transparent" />
 
         {/* Case Study */}
-        <section id="case-study" className="max-w-5xl mx-auto px-6 pb-32">
+        <section id="case-study" className="relative py-24 sm:py-32 overflow-hidden">
+          <div className="absolute inset-0 pointer-events-none">
+            <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[400px] bg-[radial-gradient(ellipse_at_center,rgba(54,36,120,0.08),transparent_70%)]" />
+          </div>
+          <div className="relative max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
           <div
             ref={caseStudyAnim.ref}
             className={`bg-white/[0.03] backdrop-blur-xl border border-white/[0.08] rounded-3xl p-12 sm:p-16 hover-lift transition-all duration-700 ease-out ${
@@ -777,16 +781,22 @@ export default function Home() {
               </p>
             </div>
           </div>
+          </div>
         </section>
 
-        {/* Separator */}
-        <div className="max-w-xs mx-auto h-px bg-gradient-to-r from-transparent via-white/10 to-transparent mb-24" />
+        {/* Section Divider */}
+        <div className="relative h-px w-full max-w-4xl mx-auto">
+          <div className="absolute inset-0 bg-gradient-to-r from-transparent via-white/10 to-transparent" />
+        </div>
 
         {/* AI Citation Examples Section */}
-        <section className="max-w-6xl mx-auto px-6 pb-32">
+        <section className="relative py-24 sm:py-32 overflow-hidden">
+          <div className="absolute inset-0 pointer-events-none">
+            <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[400px] bg-[radial-gradient(ellipse_at_center,rgba(242,125,36,0.08),transparent_70%)]" />
+          </div>
           <div
             ref={citationsAnim.ref}
-            className={`transition-all duration-700 ease-out ${
+            className={`relative max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 transition-all duration-700 ease-out ${
               citationsAnim.isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'
             }`}
           >
@@ -892,39 +902,50 @@ export default function Home() {
           </div>
         </section>
 
+        {/* Section Divider */}
+        <div className="relative h-px w-full max-w-4xl mx-auto">
+          <div className="absolute inset-0 bg-gradient-to-r from-transparent via-white/10 to-transparent" />
+        </div>
+
         {/* Testimonials Section */}
-        <section className="max-w-5xl mx-auto px-6 pb-32">
+        <section className="relative py-24 sm:py-32 overflow-hidden">
+          <div className="absolute inset-0 pointer-events-none">
+            <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[400px] bg-[radial-gradient(ellipse_at_center,rgba(242,125,36,0.08),transparent_70%)]" />
+          </div>
           <div
             ref={testimonialsAnim.ref}
-            className={`transition-all duration-700 ease-out ${
+            className={`relative max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 transition-all duration-700 ease-out ${
               testimonialsAnim.isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'
             }`}
           >
             <div className="text-center mb-12">
-              <div className="inline-flex items-center gap-2 px-4 py-2 rounded-xl mb-6 bg-[#f27d24]/10 border border-[#f27d24]/20">
-                <div className="w-2 h-2 rounded-full bg-[#f27d24]" />
-                <span className="text-sm font-semibold tracking-wider uppercase text-[#f27d24]">Client Results</span>
+              <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-white/[0.03] border border-white/[0.08]">
+                <div className="w-2 h-2 rounded-full bg-[#f27d24] animate-pulse" />
+                <span className="text-sm text-white/60 tracking-wide">Client Results</span>
               </div>
-              <h2 className="text-3xl sm:text-4xl font-semibold text-white font-heading">What Business Owners Say</h2>
+              <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold font-heading text-center text-white tracking-tight mt-6">What Business Owners Say</h2>
             </div>
 
             <div className="max-w-2xl mx-auto">
-              <div className="bg-white/[0.03] border border-white/[0.08] rounded-2xl p-8 sm:p-10">
+              <div className="relative bg-white/[0.02] border border-white/[0.06] rounded-2xl p-8 sm:p-12">
+                <svg className="absolute top-8 left-8 w-16 h-16 text-[#f27d24]/10" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                  <path d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h3.983v10h-9.983z"/>
+                </svg>
                 <div className="flex gap-1 mb-6">
                   {[...Array(5)].map((_, i) => (
-                    <svg key={i} className="w-6 h-6 text-[#f27d24]" fill="currentColor" viewBox="0 0 20 20" aria-hidden="true">
-                      <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                    <svg key={i} className="w-5 h-5 text-[#f27d24]" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                      <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/>
                     </svg>
                   ))}
                 </div>
-                <blockquote className="text-xl sm:text-2xl text-gray-200 leading-relaxed mb-8">
-                  "JB doesn't just understand SEO—he understands how AI actually decides who to recommend. That's a completely different skill set, and it's working."
+                <blockquote className="text-xl sm:text-2xl text-white/90 leading-relaxed mb-8 relative z-10">
+                  &ldquo;JB doesn&apos;t just understand SEO—he understands how AI actually decides who to recommend. That&apos;s a completely different skill set, and it&apos;s working.&rdquo;
                 </blockquote>
                 <div className="flex items-center gap-4">
-                  <div className="w-14 h-14 rounded-full bg-[#362478] flex items-center justify-center text-white font-semibold text-lg">JB</div>
+                  <div className="w-14 h-14 rounded-full bg-gradient-to-br from-[#f27d24]/20 to-[#362478]/20 ring-2 ring-[#f27d24]/30 ring-offset-2 ring-offset-[#0F1117] flex items-center justify-center text-white font-semibold text-lg">JB</div>
                   <div>
-                    <div className="text-white font-semibold text-lg">Justin Borges</div>
-                    <div className="text-gray-400">The Borges Real Estate Team, Pasadena CA</div>
+                    <p className="font-semibold text-white font-heading">Justin Borges</p>
+                    <p className="text-sm text-white/50">The Borges Real Estate Team, Pasadena CA</p>
                   </div>
                 </div>
               </div>
@@ -1385,38 +1406,51 @@ export default function Home() {
         </section>
 
         {/* Footer */}
-        <footer className="border-t border-white/[0.06] py-16 mt-8">
-          <div className="max-w-6xl mx-auto px-6">
-            <div className="flex flex-col items-center">
-              <Image
-                src="/TheAnswerEngine_white logo only.png"
-                alt="The Answer Engine"
-                width={120}
-                height={40}
-                className="h-10 w-auto mb-6 opacity-40"
-              />
-              <p className="text-gray-400 text-sm mb-4 text-center max-w-md">
-                Serving local service businesses nationwide. Proven in America's most competitive market—LA County real estate.
-              </p>
-              <p className="text-gray-500 text-sm mb-4">
-                © 2025 The Answer Engine. All rights reserved.
-              </p>
-              <p className="text-gray-600 text-xs mb-4">
-                Answer Engine Optimization • Territory Protection • 90-Day Citation Guarantee
-              </p>
-              <div className="flex items-center gap-4">
-                <a href="https://www.linkedin.com/company/theanswerengine" target="_blank" rel="noopener noreferrer" className="text-gray-500 hover:text-white transition-colors">
-                  <span className="sr-only">LinkedIn</span>
-                  <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
-                    <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
-                  </svg>
-                </a>
-                <a href="https://instagram.com/theanswerengine" target="_blank" rel="noopener noreferrer" className="text-gray-500 hover:text-white transition-colors">
-                  <span className="sr-only">Instagram</span>
-                  <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
-                    <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"/>
-                  </svg>
-                </a>
+        <footer className="relative border-t border-white/[0.05] bg-gradient-to-b from-[#0F1117] to-[#0a0a0f]">
+          <div className="absolute top-0 left-1/2 -translate-x-1/2 w-[600px] h-[200px] bg-[radial-gradient(ellipse_at_top,rgba(242,125,36,0.05),transparent_70%)] pointer-events-none" />
+          <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
+            <div className="flex flex-col md:flex-row justify-between items-start gap-12 mb-12">
+              <div className="max-w-sm">
+                <Image
+                  src="/TheAnswerEngine_white logo only.png"
+                  alt="The Answer Engine"
+                  width={120}
+                  height={40}
+                  className="h-10 w-auto mb-4 opacity-60"
+                />
+                <p className="text-white/50 text-sm">We help local service businesses become the answer AI platforms recommend.</p>
+              </div>
+              <div className="grid grid-cols-2 sm:grid-cols-3 gap-8">
+                <div>
+                  <h4 className="text-sm font-semibold text-white mb-4 font-heading">Company</h4>
+                  <ul className="space-y-3">
+                    <li><a href="/about" className="text-sm text-white/50 hover:text-white transition-colors">About</a></li>
+                    <li><a href="/case-studies" className="text-sm text-white/50 hover:text-white transition-colors">Case Studies</a></li>
+                    <li><a href="/blog" className="text-sm text-white/50 hover:text-white transition-colors">Blog</a></li>
+                  </ul>
+                </div>
+                <div>
+                  <h4 className="text-sm font-semibold text-white mb-4 font-heading">Services</h4>
+                  <ul className="space-y-3">
+                    <li><a href="#territory-check" className="text-sm text-white/50 hover:text-white transition-colors">Territory Check</a></li>
+                    <li><a href="/contact" className="text-sm text-white/50 hover:text-white transition-colors">Contact</a></li>
+                  </ul>
+                </div>
+                <div>
+                  <h4 className="text-sm font-semibold text-white mb-4 font-heading">Connect</h4>
+                  <ul className="space-y-3">
+                    <li><a href="https://www.linkedin.com/company/theanswerengine" target="_blank" rel="noopener noreferrer" className="text-sm text-white/50 hover:text-white transition-colors">LinkedIn</a></li>
+                    <li><a href="https://instagram.com/theanswerengine" target="_blank" rel="noopener noreferrer" className="text-sm text-white/50 hover:text-white transition-colors">Instagram</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div className="h-px bg-gradient-to-r from-transparent via-white/10 to-transparent mb-8" />
+            <div className="flex flex-col sm:flex-row justify-between items-center gap-4">
+              <p className="text-sm text-white/40">&copy; 2025 The Answer Engine. All rights reserved.</p>
+              <div className="flex items-center gap-6">
+                <a href="/privacy" className="text-sm text-white/40 hover:text-white transition-colors">Privacy Policy</a>
+                <a href="/terms" className="text-sm text-white/40 hover:text-white transition-colors">Terms of Service</a>
               </div>
             </div>
           </div>
@@ -1426,7 +1460,7 @@ export default function Home() {
         <div className={`fixed bottom-6 left-4 right-4 z-50 sm:hidden transition-all duration-300 ${showMobileCta ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-full pointer-events-none'}`}>
           <a
             href="#territory-check"
-            className="flex items-center justify-center gap-2 w-full py-4 rounded-xl text-base font-semibold text-white bg-[#f27d24] shadow-lg shadow-[#f27d24]/40 active:scale-[0.98] transition-all duration-200"
+            className="flex items-center justify-center gap-2 w-full py-4 rounded-xl text-base font-semibold text-white bg-gradient-to-r from-[#f27d24] to-[#d66d1f] shadow-[0_0_30px_rgba(242,125,36,0.4)] active:scale-[0.98] transition-all duration-200"
           >
             Check Your Territory
             <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={2} aria-hidden="true">
