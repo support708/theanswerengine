@@ -1,54 +1,62 @@
-import type { Metadata } from 'next';
+'use client';
+
+import { useEffect, useRef, useState, RefObject } from 'react';
+import Image from 'next/image';
 import Link from 'next/link';
-import Script from 'next/script';
 import blogPosts from './blogPosts.json';
 
-// Static Metadata
-export const metadata: Metadata = {
-  title: 'Answer Engine Optimization Blog - Expert AEO Insights & Strategies | The Answer Engine',
-  description: 'Expert insights on Answer Engine Optimization, AI citations, and how to get your business recommended by ChatGPT, Claude, Google AI Overviews, and Perplexity.',
-  
-  openGraph: {
-    title: 'Answer Engine Optimization Blog - Expert AEO Insights',
-    description: 'Learn how to get AI platforms to cite your business instead of competitors.',
-    type: 'website',
-    url: 'https://theanswerengine.ai/blog',
-    images: [
-      {
-        url: 'https://theanswerengine.ai/images/blog-featured.png',
-        width: 1200,
-        height: 630,
-        alt: 'Answer Engine Optimization Blog',
-      }
-    ],
-    siteName: 'The Answer Engine',
-  },
-  
-  twitter: {
-    card: 'summary_large_image',
-    title: 'Answer Engine Optimization Blog',
-    description: 'Expert insights on AEO and AI citations.',
-    images: ['https://theanswerengine.ai/images/blog-featured.png'],
-    creator: '@theanswerengine',
-  },
-  
-  alternates: {
-    canonical: 'https://theanswerengine.ai/blog',
-  },
-  
-  keywords: [
-    'answer engine optimization',
-    'AEO blog',
-    'AI citations',
-    'ChatGPT optimization',
-    'Google AI Overviews',
-    'AI search optimization',
-  ],
+// Hook to respect reduced motion preferences
+const usePrefersReducedMotion = () => {
+  const [prefersReducedMotion, setPrefersReducedMotion] = useState(false);
+
+  useEffect(() => {
+    const mediaQuery = window.matchMedia('(prefers-reduced-motion: reduce)');
+    setPrefersReducedMotion(mediaQuery.matches);
+
+    const handler = (e: MediaQueryListEvent) => setPrefersReducedMotion(e.matches);
+    mediaQuery.addEventListener('change', handler);
+    return () => mediaQuery.removeEventListener('change', handler);
+  }, []);
+
+  return prefersReducedMotion;
+};
+
+// Hook for scroll-triggered animations
+const useScrollAnimation = (): { ref: RefObject<HTMLDivElement | null>; isVisible: boolean } => {
+  const ref = useRef<HTMLDivElement>(null);
+  const prefersReducedMotion = usePrefersReducedMotion();
+  const [isVisible, setIsVisible] = useState(false);
+
+  useEffect(() => {
+    if (prefersReducedMotion) {
+      setIsVisible(true);
+      return;
+    }
+
+    const observer = new IntersectionObserver(
+      ([entry]) => {
+        if (entry.isIntersecting) {
+          setIsVisible(true);
+          observer.unobserve(entry.target);
+        }
+      },
+      { threshold: 0.1, rootMargin: '0px 0px -50px 0px' }
+    );
+
+    if (ref.current) observer.observe(ref.current);
+    return () => observer.disconnect();
+  }, [prefersReducedMotion]);
+
+  return { ref, isVisible };
 };
 
 export default function Blog() {
+  const featuredAnim = useScrollAnimation();
+  const allPostsAnim = useScrollAnimation();
+  const ctaAnim = useScrollAnimation();
+
   // Sort posts by date (newest first)
-  const sortedPosts = [...blogPosts].sort((a, b) => 
+  const sortedPosts = [...blogPosts].sort((a, b) =>
     new Date(b.publishDate).getTime() - new Date(a.publishDate).getTime()
   );
 
@@ -58,9 +66,54 @@ export default function Blog() {
 
   return (
     <>
+      <style jsx global>{`
+        :root {
+          --ease-out-expo: cubic-bezier(0.16, 1, 0.3, 1);
+          --ease-out-quart: cubic-bezier(0.25, 1, 0.5, 1);
+        }
+
+        *:focus-visible {
+          outline: none;
+          box-shadow: 0 0 0 2px #0F1117, 0 0 0 4px #f27d24;
+          border-radius: 8px;
+          transition: box-shadow 200ms var(--ease-out-quart);
+        }
+
+        button:focus-visible, a:focus-visible {
+          outline: none;
+          box-shadow: 0 0 0 2px #0F1117, 0 0 0 4px #f27d24, 0 0 20px rgba(242, 125, 36, 0.3);
+        }
+
+        .font-heading {
+          font-family: 'Plus Jakarta Sans', system-ui, sans-serif;
+        }
+
+        .hover-lift {
+          transition: all 500ms var(--ease-out-expo);
+        }
+
+        .hover-lift:hover {
+          transform: translateY(-6px);
+          box-shadow: 0 24px 48px -12px rgba(0, 0, 0, 0.4);
+          border-color: rgba(255, 255, 255, 0.12);
+        }
+
+        html {
+          scroll-behavior: smooth;
+        }
+
+        @media (prefers-reduced-motion: reduce) {
+          html {
+            scroll-behavior: auto;
+          }
+          .hover-lift:hover {
+            transform: none;
+          }
+        }
+      `}</style>
+
       {/* Enhanced CollectionPage Schema */}
-      <Script
-        id="collection-schema"
+      <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{
           __html: JSON.stringify({
@@ -91,8 +144,7 @@ export default function Blog() {
       />
 
       {/* ItemList Schema for Blog Posts */}
-      <Script
-        id="itemlist-schema"
+      <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{
           __html: JSON.stringify({
@@ -109,8 +161,7 @@ export default function Blog() {
       />
 
       {/* Breadcrumb Schema */}
-      <Script
-        id="breadcrumb-schema"
+      <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{
           __html: JSON.stringify({
@@ -135,8 +186,7 @@ export default function Blog() {
       />
 
       {/* Organization Schema */}
-      <Script
-        id="organization-schema"
+      <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{
           __html: JSON.stringify({
@@ -148,20 +198,19 @@ export default function Blog() {
             "description": "We specialize in Answer Engine Optimization (AEO) for local service businesses, positioning companies to be cited by Google AI Overviews, ChatGPT, Claude, and Perplexity.",
             "sameAs": [
               "https://www.linkedin.com/company/theanswerengine",
-              "https://twitter.com/theanswerengine"
+              "https://instagram.com/theanswerengine"
             ],
             "contactPoint": {
               "@type": "ContactPoint",
               "contactType": "Sales",
-              "url": "https://theanswerengine.ai/#contact"
+              "url": "https://theanswerengine.ai/#territory-check"
             }
           })
         }}
       />
 
       {/* WebSite Schema */}
-      <Script
-        id="website-schema"
+      <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{
           __html: JSON.stringify({
@@ -185,171 +234,231 @@ export default function Blog() {
         {/* Gradient overlay */}
         <div className="absolute inset-0 bg-gradient-to-b from-purple-950/5 via-transparent to-orange-950/5 pointer-events-none" />
 
-        <div className="max-w-6xl mx-auto px-6 py-20 sm:py-32 relative">
+        <div className="max-w-6xl mx-auto px-6 py-16 sm:py-24 relative">
+          {/* Back to Home */}
+          <div className="flex justify-center mb-8">
+            <Link
+              href="/"
+              className="inline-flex items-center gap-2 text-gray-500 hover:text-gray-300 transition-colors text-sm"
+            >
+              <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={2} aria-hidden="true">
+                <path strokeLinecap="round" strokeLinejoin="round" d="M10.5 19.5L3 12m0 0l7.5-7.5M3 12h18" />
+              </svg>
+              Back to Home
+            </Link>
+          </div>
+
           {/* Header */}
-          <header className="text-center mb-20">
-            <div className="flex justify-center mb-12">
-              <img
-                src="/TheAnswerEngine_white logo only.png"
-                alt="The Answer Engine"
-                className="h-24 sm:h-32 w-auto"
-              />
+          <header className="text-center mb-16 sm:mb-20">
+            <div className="flex justify-center mb-10">
+              <Link href="/">
+                <Image
+                  src="/TheAnswerEngine_white logo only.png"
+                  alt="The Answer Engine"
+                  width={384}
+                  height={128}
+                  priority
+                  className="h-20 sm:h-28 w-auto"
+                />
+              </Link>
             </div>
 
-            <div className="inline-flex items-center gap-2 px-4 py-2 rounded-xl mb-8 bg-[#f27d24]/10 border border-[#f27d24]/20">
+            <div className="inline-flex items-center gap-2 px-4 py-2 rounded-xl mb-6 bg-[#f27d24]/10 border border-[#f27d24]/20">
               <div className="w-2 h-2 rounded-full bg-[#f27d24]" />
               <span className="text-sm font-semibold tracking-wider uppercase text-[#f27d24]">AEO Insights</span>
             </div>
 
-            <h1 className="text-5xl sm:text-6xl lg:text-7xl font-semibold mb-8 leading-tight text-white font-heading">
+            <h1 className="text-3xl sm:text-4xl lg:text-5xl font-semibold mb-6 leading-tight text-white font-heading">
               Answer Engine Optimization Blog
             </h1>
-            
-            <p className="text-xl text-gray-400 max-w-3xl mx-auto leading-relaxed">
+
+            <p className="text-lg sm:text-xl text-gray-400 max-w-3xl mx-auto leading-relaxed">
               Expert insights on getting your business cited by AI platforms like ChatGPT, Claude, Google AI Overviews, and Perplexity.
             </p>
           </header>
 
           {/* Separator */}
-          <div className="max-w-xs mx-auto h-px bg-gradient-to-r from-transparent via-white/10 to-transparent mb-20" />
+          <div className="max-w-xs mx-auto h-px bg-gradient-to-r from-transparent via-white/10 to-transparent mb-16 sm:mb-20" />
 
           {/* Featured Posts Section */}
           {featuredPosts.length > 0 && (
             <>
-              <div className="mb-12">
-                <div className="inline-flex items-center gap-2 px-4 py-2 rounded-xl mb-4 bg-[#362478]/10 border border-[#362478]/20">
-                  <div className="w-2 h-2 rounded-full bg-[#362478]" />
-                  <span className="text-sm font-semibold tracking-wider uppercase text-[#a89bd9]">Featured</span>
+              <div
+                ref={featuredAnim.ref}
+                className={`transition-all duration-700 ease-out ${
+                  featuredAnim.isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'
+                }`}
+              >
+                <div className="mb-10">
+                  <div className="inline-flex items-center gap-2 px-4 py-2 rounded-xl mb-4 bg-[#362478]/10 border border-[#362478]/20">
+                    <div className="w-2 h-2 rounded-full bg-[#362478]" />
+                    <span className="text-sm font-semibold tracking-wider uppercase text-[#a89bd9]">Featured</span>
+                  </div>
+                  <h2 className="text-2xl sm:text-3xl font-semibold text-white mb-2 font-heading">
+                    Essential Reading
+                  </h2>
+                  <p className="text-gray-400 text-base sm:text-lg">Core insights for Answer Engine Optimization mastery</p>
                 </div>
-                <h2 className="text-3xl sm:text-4xl font-semibold text-white mb-3 font-heading">
-                  Essential Reading
-                </h2>
-                <p className="text-gray-400 text-lg">Core insights for Answer Engine Optimization mastery</p>
-              </div>
 
-              <div className="grid md:grid-cols-3 gap-6 mb-24">
-                {featuredPosts.map((post) => (
-                  <article 
-                    key={post.id}
-                    className="bg-white/[0.03] backdrop-blur-xl border border-[#f27d24]/20 rounded-2xl overflow-hidden hover:border-[#f27d24]/40 transition-all hover:-translate-y-1 group"
-                  >
-                    <Link href={`/blog/${post.slug}`} className="block">
-                      <div className="relative h-48 bg-gradient-to-br from-[#362478]/20 to-[#f27d24]/20 flex items-center justify-center overflow-hidden">
-                        <img 
-                          src={post.image}
-                          alt={post.title}
-                          className="w-full h-full object-cover opacity-90 group-hover:scale-105 transition-transform duration-300"
-                        />
-                        <div className="absolute top-4 right-4 px-3 py-1.5 bg-[#f27d24] text-white text-xs font-semibold rounded-lg shadow-lg">
-                          Featured
+                <div className="grid md:grid-cols-3 gap-6 mb-16 sm:mb-20">
+                  {featuredPosts.map((post, i) => (
+                    <article
+                      key={post.id}
+                      className={`hover-lift bg-white/[0.03] backdrop-blur-xl border border-[#f27d24]/20 rounded-2xl overflow-hidden hover:border-[#f27d24]/40 group transition-all duration-500 ${
+                        featuredAnim.isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-6'
+                      }`}
+                      style={{ transitionDelay: featuredAnim.isVisible ? `${100 + i * 100}ms` : '0ms' }}
+                    >
+                      <Link href={`/blog/${post.slug}`} className="block">
+                        <div className="relative h-44 sm:h-48 bg-gradient-to-br from-[#362478]/20 to-[#f27d24]/20 flex items-center justify-center overflow-hidden">
+                          <Image
+                            src={post.image}
+                            alt={post.title}
+                            width={400}
+                            height={200}
+                            className="w-full h-full object-cover opacity-90 group-hover:scale-105 transition-transform duration-500"
+                          />
+                          <div className="absolute top-3 right-3 px-2.5 py-1 bg-[#f27d24] text-white text-xs font-semibold rounded-lg shadow-lg">
+                            Featured
+                          </div>
                         </div>
-                      </div>
-                      
-                      <div className="p-6">
-                        <div className="flex items-center gap-3 text-sm text-gray-500 mb-3">
-                          <span className="text-[#f27d24]">{post.category}</span>
-                          <span>•</span>
-                          <span>{post.readTime}</span>
+
+                        <div className="p-5 sm:p-6">
+                          <div className="flex items-center gap-2 text-xs sm:text-sm text-gray-500 mb-3">
+                            <span className="text-[#f27d24]">{post.category}</span>
+                            <span>•</span>
+                            <span>{post.readTime}</span>
+                          </div>
+
+                          <h3 className="text-lg sm:text-xl font-semibold text-white mb-3 group-hover:text-[#f27d24] transition-colors leading-tight font-heading line-clamp-2">
+                            {post.title}
+                          </h3>
+
+                          <p className="text-gray-400 leading-relaxed mb-4 text-sm line-clamp-2">
+                            {post.excerpt}
+                          </p>
+
+                          <div className="flex items-center gap-2 text-[#f27d24] font-semibold text-sm">
+                            Read Article
+                            <svg className="w-4 h-4 group-hover:translate-x-1 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={2} aria-hidden="true">
+                              <path strokeLinecap="round" strokeLinejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3" />
+                            </svg>
+                          </div>
                         </div>
-                        
-                        <h3 className="text-xl font-semibold text-white mb-3 group-hover:text-[#f27d24] transition-colors leading-tight">
-                          {post.title}
-                        </h3>
-                        
-                        <p className="text-gray-400 leading-relaxed mb-4 text-sm">
-                          {post.excerpt}
-                        </p>
-                        
-                        <div className="flex items-center gap-2 text-[#f27d24] font-semibold text-sm">
-                          Read Article
-                          <svg className="w-4 h-4 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={2}>
-                            <path strokeLinecap="round" strokeLinejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3" />
-                          </svg>
-                        </div>
-                      </div>
-                    </Link>
-                  </article>
-                ))}
+                      </Link>
+                    </article>
+                  ))}
+                </div>
               </div>
 
               {/* Separator */}
-              <div className="max-w-xs mx-auto h-px bg-gradient-to-r from-transparent via-white/10 to-transparent mb-24" />
+              <div className="max-w-xs mx-auto h-px bg-gradient-to-r from-transparent via-white/10 to-transparent mb-16 sm:mb-20" />
             </>
           )}
 
           {/* All Posts Section */}
-          <div className="mb-12">
-            <h2 className="text-3xl sm:text-4xl font-semibold text-white mb-3 font-heading">
-              All Articles
-            </h2>
-            <p className="text-gray-400 text-lg">Complete library of AEO insights and strategies</p>
-          </div>
+          <div
+            ref={allPostsAnim.ref}
+            className={`transition-all duration-700 ease-out ${
+              allPostsAnim.isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'
+            }`}
+          >
+            <div className="mb-10">
+              <h2 className="text-2xl sm:text-3xl font-semibold text-white mb-2 font-heading">
+                All Articles
+              </h2>
+              <p className="text-gray-400 text-base sm:text-lg">Complete library of AEO insights and strategies</p>
+            </div>
 
-          {/* Blog Posts Grid */}
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 mb-24">
-            {allPosts.map((post) => (
-              <article 
-                key={post.id}
-                className="bg-white/[0.03] backdrop-blur-xl border border-white/[0.08] rounded-2xl overflow-hidden hover:border-white/[0.15] transition-all hover:-translate-y-1 group"
-              >
-                <Link href={`/blog/${post.slug}`} className="block">
-                  <div className="relative h-48 bg-gradient-to-br from-[#362478]/20 to-[#f27d24]/20 flex items-center justify-center overflow-hidden">
-                    <img 
-                      src={post.image}
-                      alt={post.title}
-                      className="w-full h-full object-cover opacity-90 group-hover:scale-105 transition-transform duration-300"
-                    />
-                  </div>
-                  
-                  <div className="p-6">
-                    <div className="flex items-center gap-3 text-sm text-gray-500 mb-3">
-                      <span className="text-[#f27d24]">{post.category}</span>
-                      <span>•</span>
-                      <span>{post.readTime}</span>
+            {/* Blog Posts Grid */}
+            <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 mb-16 sm:mb-20">
+              {allPosts.map((post, i) => (
+                <article
+                  key={post.id}
+                  className={`hover-lift bg-white/[0.03] backdrop-blur-xl border border-white/[0.08] rounded-2xl overflow-hidden hover:border-white/[0.15] group transition-all duration-500 ${
+                    allPostsAnim.isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-6'
+                  }`}
+                  style={{ transitionDelay: allPostsAnim.isVisible ? `${(i % 6) * 50}ms` : '0ms' }}
+                >
+                  <Link href={`/blog/${post.slug}`} className="block">
+                    <div className="relative h-44 sm:h-48 bg-gradient-to-br from-[#362478]/20 to-[#f27d24]/20 flex items-center justify-center overflow-hidden">
+                      <Image
+                        src={post.image}
+                        alt={post.title}
+                        width={400}
+                        height={200}
+                        className="w-full h-full object-cover opacity-90 group-hover:scale-105 transition-transform duration-500"
+                      />
                     </div>
-                    
-                    <h3 className="text-xl font-semibold text-white mb-3 group-hover:text-[#f27d24] transition-colors leading-tight">
-                      {post.title}
-                    </h3>
-                    
-                    <p className="text-gray-400 leading-relaxed mb-4 text-sm">
-                      {post.excerpt}
-                    </p>
-                    
-                    <div className="flex items-center gap-2 text-[#f27d24] font-semibold text-sm">
-                      Read Article
-                      <svg className="w-4 h-4 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={2}>
-                        <path strokeLinecap="round" strokeLinejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3" />
-                      </svg>
+
+                    <div className="p-5 sm:p-6">
+                      <div className="flex items-center gap-2 text-xs sm:text-sm text-gray-500 mb-3">
+                        <span className="text-[#f27d24]">{post.category}</span>
+                        <span>•</span>
+                        <span>{post.readTime}</span>
+                      </div>
+
+                      <h3 className="text-lg sm:text-xl font-semibold text-white mb-3 group-hover:text-[#f27d24] transition-colors leading-tight font-heading line-clamp-2">
+                        {post.title}
+                      </h3>
+
+                      <p className="text-gray-400 leading-relaxed mb-4 text-sm line-clamp-2">
+                        {post.excerpt}
+                      </p>
+
+                      <div className="flex items-center gap-2 text-[#f27d24] font-semibold text-sm">
+                        Read Article
+                        <svg className="w-4 h-4 group-hover:translate-x-1 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={2} aria-hidden="true">
+                          <path strokeLinecap="round" strokeLinejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3" />
+                        </svg>
+                      </div>
                     </div>
-                  </div>
-                </Link>
-              </article>
-            ))}
+                  </Link>
+                </article>
+              ))}
+            </div>
           </div>
 
           {/* Separator */}
-          <div className="max-w-xs mx-auto h-px bg-gradient-to-r from-transparent via-white/10 to-transparent mb-24" />
+          <div className="max-w-xs mx-auto h-px bg-gradient-to-r from-transparent via-white/10 to-transparent mb-16 sm:mb-20" />
 
           {/* CTA Section */}
-          <div className="bg-gradient-to-br from-[#f27d24]/10 to-[#d66d1f]/10 border-2 border-[#f27d24]/30 rounded-3xl p-12 sm:p-16 text-center hover:-translate-y-1 transition-all">
-            <h2 className="text-4xl sm:text-5xl font-semibold mb-6 text-white leading-tight font-heading">
+          <div
+            ref={ctaAnim.ref}
+            className={`bg-gradient-to-br from-[#f27d24]/10 to-[#d66d1f]/10 border-2 border-[#f27d24]/30 rounded-3xl p-8 sm:p-12 lg:p-16 text-center hover-lift transition-all duration-700 ease-out ${
+              ctaAnim.isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'
+            }`}
+          >
+            <h2 className="text-2xl sm:text-3xl lg:text-4xl font-semibold mb-6 text-white leading-tight font-heading">
               Ready to Get Cited by AI?
             </h2>
-            
-            <p className="text-xl text-gray-300 mb-10 max-w-2xl mx-auto leading-relaxed">
-              Schedule your free 30-minute AEO strategy call and discover where you're losing to competitors in AI citations.
+
+            <p className="text-lg sm:text-xl text-gray-300 mb-8 max-w-2xl mx-auto leading-relaxed">
+              Check if your territory is available and discover where you're losing to competitors in AI citations.
             </p>
-            
-            <a 
-              href="/#contact"
-              className="inline-flex items-center justify-center gap-3 px-10 py-5 rounded-xl text-lg font-semibold text-white transition-all shadow-[0_4px_24px_rgba(242,125,36,0.3)] hover:shadow-[0_8px_32px_rgba(242,125,36,0.4)] hover:-translate-y-0.5 bg-[#f27d24] hover:bg-[#d66d1f]"
+
+            <Link
+              href="/#territory-check"
+              className="inline-flex items-center justify-center gap-3 px-8 sm:px-10 py-4 sm:py-5 rounded-xl text-base sm:text-lg font-semibold text-white transition-all duration-300 shadow-[0_4px_24px_rgba(242,125,36,0.3)] hover:shadow-[0_8px_32px_rgba(242,125,36,0.4)] hover:-translate-y-0.5 active:scale-[0.98] bg-[#f27d24] hover:bg-[#d66d1f]"
             >
-              Schedule Free Strategy Call
-              <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={2}>
+              Check Your Territory
+              <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={2} aria-hidden="true">
                 <path strokeLinecap="round" strokeLinejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3" />
               </svg>
-            </a>
+            </Link>
+          </div>
+
+          {/* Back to Home */}
+          <div className="mt-12 text-center">
+            <Link
+              href="/"
+              className="inline-flex items-center gap-2 text-gray-500 hover:text-white transition-colors text-sm"
+            >
+              <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={2} aria-hidden="true">
+                <path strokeLinecap="round" strokeLinejoin="round" d="M10.5 19.5L3 12m0 0l7.5-7.5M3 12h18" />
+              </svg>
+              Back to Home
+            </Link>
           </div>
         </div>
       </main>

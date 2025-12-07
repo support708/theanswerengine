@@ -1,106 +1,70 @@
 import { MetadataRoute } from 'next';
-import fs from 'fs';
-import path from 'path';
 
-function getBlogPosts(): string[] {
-  const blogDir = path.join(process.cwd(), 'app', 'blog');
-  
-  try {
-    const entries = fs.readdirSync(blogDir, { withFileTypes: true });
-    
-    return entries
-      .filter(entry => entry.isDirectory())
-      .map(entry => entry.name)
-      .filter(name => !name.startsWith('_') && name !== 'page.tsx');
-  } catch (error) {
-    console.log('Blog directory not found or empty');
-    return [];
-  }
-}
-
-function getCaseStudies(): string[] {
-  const caseStudiesDir = path.join(process.cwd(), 'app', 'case-studies');
-  
-  try {
-    const entries = fs.readdirSync(caseStudiesDir, { withFileTypes: true });
-    
-    return entries
-      .filter(entry => entry.isDirectory())
-      .map(entry => entry.name)
-      .filter(name => !name.startsWith('_') && name !== 'page.tsx');
-  } catch (error) {
-    console.log('Case studies directory not found or empty');
-    return [];
-  }
-}
-
-function isHubPage(slug: string): boolean {
-  const hubIndicators = [
-    'what-is',
-    'complete-guide',
-    'ultimate-guide',
-    'comprehensive',
-    'everything-you-need',
-  ];
-  
-  return hubIndicators.some(indicator => slug.includes(indicator));
-}
+// Import blog posts for dynamic sitemap generation
+import blogPosts from './blog/blogPosts.json';
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const baseUrl = 'https://theanswerengine.ai';
-  const currentDate = new Date();
 
-  const blogPosts = getBlogPosts();
-  const caseStudies = getCaseStudies();
-
-  const corePages: MetadataRoute.Sitemap = [
+  // Static pages
+  const staticPages: MetadataRoute.Sitemap = [
     {
       url: baseUrl,
-      lastModified: currentDate,
-      changeFrequency: 'daily' as const,
-      priority: 1.0,
+      lastModified: new Date(),
+      changeFrequency: 'weekly',
+      priority: 1,
     },
     {
-      url: `${baseUrl}/blog`,
-      lastModified: currentDate,
-      changeFrequency: 'weekly' as const,
+      url: `${baseUrl}/about`,
+      lastModified: new Date(),
+      changeFrequency: 'monthly',
+      priority: 0.8,
+    },
+    {
+      url: `${baseUrl}/contact`,
+      lastModified: new Date(),
+      changeFrequency: 'monthly',
       priority: 0.8,
     },
     {
       url: `${baseUrl}/case-studies`,
-      lastModified: currentDate,
-      changeFrequency: 'monthly' as const,
-      priority: 0.85,
+      lastModified: new Date(),
+      changeFrequency: 'weekly',
+      priority: 0.9,
     },
     {
-      url: `${baseUrl}/contact`,
-      lastModified: currentDate,
-      changeFrequency: 'monthly' as const,
+      url: `${baseUrl}/case-studies/justin-borges`,
+      lastModified: new Date(),
+      changeFrequency: 'monthly',
       priority: 0.8,
+    },
+    {
+      url: `${baseUrl}/blog`,
+      lastModified: new Date(),
+      changeFrequency: 'daily',
+      priority: 0.9,
+    },
+    {
+      url: `${baseUrl}/privacy`,
+      lastModified: new Date(),
+      changeFrequency: 'yearly',
+      priority: 0.3,
+    },
+    {
+      url: `${baseUrl}/terms`,
+      lastModified: new Date(),
+      changeFrequency: 'yearly',
+      priority: 0.3,
     },
   ];
 
-  const blogPages: MetadataRoute.Sitemap = blogPosts.map(slug => {
-    const isHub = isHubPage(slug);
-    
-    return {
-      url: `${baseUrl}/blog/${slug}`,
-      lastModified: currentDate,
-      changeFrequency: 'weekly' as const,
-      priority: isHub ? 0.9 : 0.8,
-    };
-  });
-
-  const caseStudyPages: MetadataRoute.Sitemap = caseStudies.map(slug => ({
-    url: `${baseUrl}/case-studies/${slug}`,
-    lastModified: currentDate,
+  // Dynamic blog post pages
+  const blogPages: MetadataRoute.Sitemap = blogPosts.map((post) => ({
+    url: `${baseUrl}/blog/${post.slug}`,
+    lastModified: new Date(post.lastModified),
     changeFrequency: 'monthly' as const,
-    priority: 0.85,
+    priority: 0.7,
   }));
 
-  return [
-    ...corePages,
-    ...blogPages,
-    ...caseStudyPages,
-  ];
+  return [...staticPages, ...blogPages];
 }

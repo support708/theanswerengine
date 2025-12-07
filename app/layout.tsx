@@ -3,6 +3,7 @@
 import { useState } from 'react';
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
+import Image from 'next/image';
 import { Analytics } from '@vercel/analytics/react';
 import { SpeedInsights } from '@vercel/speed-insights/next';
 import "./globals.css";
@@ -30,8 +31,10 @@ export default function RootLayout({
         <title>The Answer Engine - Answer Engine Optimization (AEO)</title>
         <meta name="description" content="Get your business cited by AI platforms like ChatGPT, Claude, Google AI Overviews, and Perplexity. Answer Engine Optimization for local service businesses." />
 
-        {/* Google Fonts - Outfit for headings, Inter for body */}
-        <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+        {/* Google Fonts - Plus Jakarta Sans for headings, Inter for body */}
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
+        <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
 
         {/* Favicon links for all platforms */}
         <link rel="icon" href="/favicon.ico" sizes="any" />
@@ -60,7 +63,7 @@ export default function RootLayout({
               },
               "sameAs": [
                 "https://www.linkedin.com/company/theanswerengine",
-                "https://twitter.com/theanswerengine"
+                "https://instagram.com/theanswerengine"
               ]
             })
           }}
@@ -100,14 +103,24 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased bg-[#0F1117]`}
       >
+        {/* Skip to main content link for accessibility */}
+        <a
+          href="#main-content"
+          className="sr-only focus:not-sr-only focus:absolute focus:top-4 focus:left-4 focus:z-[100] focus:px-4 focus:py-2 focus:bg-[#f27d24] focus:text-white focus:rounded-lg focus:outline-none"
+        >
+          Skip to main content
+        </a>
+
         <nav className="bg-[#0F1117]/80 backdrop-blur-xl border-b border-white/[0.08] sticky top-0 z-50">
           <div className="max-w-6xl mx-auto px-6 py-4">
             <div className="flex items-center justify-between">
               <a href="/" className="flex items-center gap-3 group">
-                <img 
-                  src="/TheAnswerEngine_white logo only.png" 
-                  alt="The Answer Engine" 
-                  className="h-10 sm:h-12 transition-opacity group-hover:opacity-80"
+                <Image
+                  src="/TheAnswerEngine_white logo only.png"
+                  alt="The Answer Engine"
+                  width={160}
+                  height={48}
+                  className="h-10 sm:h-12 w-auto transition-opacity group-hover:opacity-80"
                 />
                 <div>
                   <div className="text-base sm:text-xl font-medium text-white tracking-tight">
@@ -158,17 +171,18 @@ export default function RootLayout({
                 </a>
               </div>
 
-              <button 
+              <button
                 onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
                 className="md:hidden text-gray-300 hover:text-white transition-colors"
                 aria-label="Toggle mobile menu"
+                aria-expanded={mobileMenuOpen}
               >
                 {mobileMenuOpen ? (
-                  <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={2}>
+                  <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={2} aria-hidden="true">
                     <path strokeLinecap="round" strokeLinejoin="round" d="M6 18L18 6M6 6l12 12" />
                   </svg>
                 ) : (
-                  <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={2}>
+                  <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={2} aria-hidden="true">
                     <path strokeLinecap="round" strokeLinejoin="round" d="M4 6h16M4 12h16M4 18h16" />
                   </svg>
                 )}
@@ -226,7 +240,9 @@ export default function RootLayout({
           </div>
         </nav>
 
-        {children}
+        <main id="main-content">
+          {children}
+        </main>
 
         <section id="contact" className="bg-[#0F1117] py-20 sm:py-32 relative">
           <div className="absolute inset-0 bg-gradient-to-b from-purple-950/10 via-transparent to-orange-950/10 pointer-events-none" />
@@ -385,10 +401,12 @@ export default function RootLayout({
 
             <div className="grid md:grid-cols-3 gap-12 mb-12">
               <div>
-                <img 
-                  src="/TheAnswerEngine_white logo only.png" 
-                  alt="The Answer Engine" 
-                  className="h-12 mb-6 opacity-90"
+                <Image
+                  src="/TheAnswerEngine_white logo only.png"
+                  alt="The Answer Engine"
+                  width={160}
+                  height={48}
+                  className="h-12 w-auto mb-6 opacity-90"
                 />
                 <p className="text-gray-400 text-sm leading-relaxed font-light">
                   Answer Engine Optimization for local service businesses. Get cited by AI platforms instead of your competitors.
@@ -455,7 +473,11 @@ export default function RootLayout({
             </div>
 
             <div className="text-center">
-              <p className="text-gray-500 text-sm font-light">&copy; 2025 The Answer Engine. All rights reserved.</p>
+              <p className="text-gray-500 text-sm font-light mb-4">&copy; {new Date().getFullYear()} The Answer Engine. All rights reserved.</p>
+              <div className="flex justify-center gap-6 text-xs text-gray-600">
+                <a href="/privacy" className="hover:text-gray-400 transition-colors">Privacy Policy</a>
+                <a href="/terms" className="hover:text-gray-400 transition-colors">Terms of Service</a>
+              </div>
             </div>
           </div>
         </footer>

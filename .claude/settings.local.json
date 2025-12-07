@@ -11,7 +11,11 @@
       "Bash(git add:*)",
       "Bash(git commit:*)",
       "Bash(git fetch:*)",
-      "Bash(git push:*)"
+      "Bash(git push:*)",
+      "Bash(findstr:*)",
+      "Bash(del \"public\\file.svg\" \"public\\globe.svg\" \"public\\next.svg\" \"public\\vercel.svg\" \"public\\window.svg\")",
+      "Bash(npm run dev)",
+      "Bash(echo.)"
     ],
     "deny": [],
     "ask": []

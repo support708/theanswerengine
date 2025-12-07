@@ -32,7 +32,32 @@ body {
 
 /* Heading font class */
 .font-heading {
-  font-family: 'Outfit', sans-serif;
+  font-family: 'Plus Jakarta Sans', system-ui, sans-serif;
+}
+
+/* Better select styling for dark mode */
+select option {
+  background-color: #1a1a24;
+  color: white;
+}
+
+/* Smooth scroll */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Protected territory pulse animation */
+@keyframes pulse-subtle {
+  0%, 100% {
+    box-shadow: 0 0 60px rgba(242, 125, 36, 0.2);
+  }
+  50% {
+    box-shadow: 0 0 80px rgba(242, 125, 36, 0.35);
+  }
+}
+
+.animate-pulse-subtle {
+  animation: pulse-subtle 4s ease-in-out infinite;
 }
 
 /* Enhanced hover effects with modern easing */
@@ -76,8 +101,25 @@ body {
   transform: translateY(0);
 }
 
+/* Focus visible styles for accessibility */
+*:focus-visible {
+  outline: none;
+  box-shadow: 0 0 0 2px #0F1117, 0 0 0 4px #f27d24;
+  border-radius: 8px;
+  transition: box-shadow 200ms var(--ease-out-quart);
+}
+
+button:focus-visible, a:focus-visible {
+  outline: none;
+  box-shadow: 0 0 0 2px #0F1117, 0 0 0 4px #f27d24, 0 0 20px rgba(242, 125, 36, 0.3);
+}
+
 /* Reduced motion preferences - REQUIRED for accessibility */
 @media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
   *,
   *::before,
   *::after {
@@ -100,5 +142,9 @@ body {
   .stagger-item-hidden {
     opacity: 1;
     transform: none;
+  }
+
+  .animate-pulse-subtle {
+    animation: none;
   }
 }

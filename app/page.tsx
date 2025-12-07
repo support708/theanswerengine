@@ -55,6 +55,7 @@ export default function Home() {
   const [showMobileCta, setShowMobileCta] = useState(false);
   const [expandedFaq, setExpandedFaq] = useState<number | null>(null);
   const [activeImage, setActiveImage] = useState<string | null>(null);
+  const [formStatus, setFormStatus] = useState<'idle' | 'submitting' | 'success' | 'error'>('idle');
 
   // Scroll animation refs for each section
   const caseStudyAnim = useScrollAnimation();
@@ -101,6 +102,34 @@ export default function Home() {
     };
   }, [activeImage]);
 
+  // Handle form submission
+  const handleFormSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
+    e.preventDefault();
+    setFormStatus('submitting');
+
+    const form = e.currentTarget;
+    const formData = new FormData(form);
+
+    try {
+      const response = await fetch('https://formspree.io/f/xqagkqwl', {
+        method: 'POST',
+        body: formData,
+        headers: {
+          'Accept': 'application/json'
+        }
+      });
+
+      if (response.ok) {
+        setFormStatus('success');
+        form.reset();
+      } else {
+        setFormStatus('error');
+      }
+    } catch {
+      setFormStatus('error');
+    }
+  };
+
   return (
     <>
       <style jsx global>{`
@@ -114,6 +143,16 @@ export default function Home() {
         button:focus-visible, a:focus-visible {
           outline: none;
           box-shadow: 0 0 0 2px #0F1117, 0 0 0 4px #f27d24, 0 0 20px rgba(242, 125, 36, 0.3);
+        }
+
+        @keyframes shimmer {
+          0% { transform: translateX(-100%); opacity: 0; }
+          50% { opacity: 1; }
+          100% { transform: translateX(100%); opacity: 0; }
+        }
+
+        .animate-shimmer {
+          animation: shimmer 3s ease-in-out infinite;
         }
       `}</style>
 
@@ -162,7 +201,7 @@ export default function Home() {
             "aggregateRating": {
               "@type": "AggregateRating",
               "ratingValue": "5.0",
-              "reviewCount": "12",
+              "reviewCount": "1",
               "bestRating": "5",
               "worstRating": "1"
             },
@@ -176,7 +215,7 @@ export default function Home() {
             },
             "sameAs": [
               "https://www.linkedin.com/company/theanswerengine",
-              "https://twitter.com/theanswerengine"
+              "https://instagram.com/theanswerengine"
             ],
             "knowsAbout": [
               "Answer Engine Optimization",
@@ -351,7 +390,7 @@ export default function Home() {
             "aggregateRating": {
               "@type": "AggregateRating",
               "ratingValue": "5.0",
-              "reviewCount": "12",
+              "reviewCount": "1",
               "bestRating": "5",
               "worstRating": "1"
             }
@@ -387,24 +426,6 @@ export default function Home() {
                 },
                 "reviewBody": "JB doesn't just understand SEO—he understands how AI actually decides who to recommend. That's a completely different skill set, and it's working.",
                 "datePublished": "2025-01-15",
-                "itemReviewed": {
-                  "@type": "Service",
-                  "name": "Answer Engine Optimization"
-                }
-              },
-              {
-                "@type": "Review",
-                "reviewRating": {
-                  "@type": "Rating",
-                  "ratingValue": "5",
-                  "bestRating": "5"
-                },
-                "author": {
-                  "@type": "Person",
-                  "name": "Home Services Client"
-                },
-                "reviewBody": "I was skeptical that this would work in my market. 90 days later, I'm the only contractor Perplexity recommends in my zip code.",
-                "datePublished": "2025-02-01",
                 "itemReviewed": {
                   "@type": "Service",
                   "name": "Answer Engine Optimization"
@@ -456,7 +477,7 @@ export default function Home() {
               "worksFor": {
                 "@type": "RealEstateAgent",
                 "name": "The Borges Real Estate Team",
-                "url": "https://lametrohomefinder.com",
+                "url": "https://theanswerengine.ai/#case-study",
                 "areaServed": "Los Angeles County"
               }
             },
@@ -541,7 +562,7 @@ export default function Home() {
               className="inline-flex items-center gap-2 px-5 py-2.5 rounded-lg text-sm font-semibold text-white transition-all shadow-[0_4px_16px_rgba(242,125,36,0.25)] hover:shadow-[0_6px_20px_rgba(242,125,36,0.35)] hover:-translate-y-0.5 bg-[#f27d24] hover:bg-[#d66d1f]"
             >
               Check My Territory
-              <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={2}>
+              <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={2} aria-hidden="true">
                 <path strokeLinecap="round" strokeLinejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3" />
               </svg>
             </a>
@@ -552,7 +573,22 @@ export default function Home() {
         
         {/* Hero Section */}
         <section ref={heroRef} className="relative max-w-5xl mx-auto px-6 pt-16 sm:pt-24 pb-24 sm:pb-32">
-          <div className="flex justify-center mb-12">
+          {/* Background Glow Effect */}
+          <div className="absolute top-0 left-1/2 -translate-x-1/2 w-[800px] h-[600px] pointer-events-none">
+            <div className="absolute inset-0 bg-[radial-gradient(ellipse_80%_50%_at_50%_-20%,rgba(242,125,36,0.15),transparent)]" />
+          </div>
+
+          {/* Subtle Dot Grid Pattern */}
+          <svg className="absolute inset-0 w-full h-full opacity-[0.03] pointer-events-none" aria-hidden="true">
+            <defs>
+              <pattern id="hero-grid" width="40" height="40" patternUnits="userSpaceOnUse">
+                <circle cx="1" cy="1" r="1" fill="white" />
+              </pattern>
+            </defs>
+            <rect width="100%" height="100%" fill="url(#hero-grid)" />
+          </svg>
+
+          <div className="flex justify-center mb-12 relative z-10">
             <Image
               src="/TheAnswerEngine_white logo only.png"
               alt="The Answer Engine"
@@ -563,16 +599,22 @@ export default function Home() {
             />
           </div>
 
-          <div className="text-center mb-12">
-            <h1 className="text-5xl sm:text-6xl lg:text-7xl font-semibold mb-8 leading-tight text-white font-heading">
-              ChatGPT Recommends<br />
-              Your Competitors. Not You.<br />
-              <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#f27d24] to-[#d66d1f]">
+          <div className="text-center mb-12 relative z-10">
+            {/* Floating Badge */}
+            <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-white/[0.03] border border-white/[0.08] mb-6">
+              <div className="w-2 h-2 rounded-full bg-emerald-400 animate-pulse" />
+              <span className="text-sm text-white/60">Answer Engine Optimization Agency</span>
+            </div>
+
+            <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-semibold mb-8 leading-[1.1] tracking-tight text-white font-heading">
+              <span className="block">ChatGPT Recommends</span>
+              <span className="block">Your Competitors. Not You.</span>
+              <span className="block text-transparent bg-clip-text bg-gradient-to-r from-[#f27d24] to-[#d66d1f]">
                 Let's Fix That.
               </span>
             </h1>
 
-            <p className="text-xl sm:text-2xl text-gray-300 max-w-3xl mx-auto leading-relaxed mb-12">
+            <p className="hero-description text-lg sm:text-xl md:text-2xl text-gray-300 max-w-3xl mx-auto leading-relaxed mb-12">
               When customers ask AI to find the best service provider in your area, your competitors get cited. We make AI cite you instead.
             </p>
 
@@ -585,33 +627,30 @@ export default function Home() {
               ))}
             </div>
 
-            {/* AI Platform Trust Badges */}
-            <div className="flex flex-wrap items-center justify-center gap-6 sm:gap-8 mb-12 opacity-60">
-              <span className="text-gray-500 text-sm">Optimize for:</span>
-              <div className="flex items-center gap-2">
-                <div className="w-6 h-6 rounded bg-[#10a37f] flex items-center justify-center">
-                  <span className="text-white font-bold text-xs">G</span>
-                </div>
-                <span className="text-gray-400 text-sm hidden sm:inline">ChatGPT</span>
+            {/* AI Platform Logos Strip */}
+            <div className="flex flex-col items-center mt-8 mb-2">
+              <div className="flex items-center justify-center gap-6 sm:gap-8 opacity-50">
+                {/* ChatGPT */}
+                <svg className="h-6 w-6 text-white" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                  <path d="M22.282 9.821a5.985 5.985 0 0 0-.516-4.91 6.046 6.046 0 0 0-6.51-2.9A6.065 6.065 0 0 0 4.981 4.18a5.985 5.985 0 0 0-3.998 2.9 6.046 6.046 0 0 0 .743 7.097 5.98 5.98 0 0 0 .51 4.911 6.051 6.051 0 0 0 6.515 2.9A5.985 5.985 0 0 0 13.26 24a6.056 6.056 0 0 0 5.772-4.206 5.99 5.99 0 0 0 3.997-2.9 6.056 6.056 0 0 0-.747-7.073zM13.26 22.43a4.476 4.476 0 0 1-2.876-1.04l.141-.081 4.779-2.758a.795.795 0 0 0 .392-.681v-6.737l2.02 1.168a.071.071 0 0 1 .038.052v5.583a4.504 4.504 0 0 1-4.494 4.494zM3.6 18.304a4.47 4.47 0 0 1-.535-3.014l.142.085 4.783 2.759a.771.771 0 0 0 .78 0l5.843-3.369v2.332a.08.08 0 0 1-.033.062L9.74 19.95a4.5 4.5 0 0 1-6.14-1.646zM2.34 7.896a4.485 4.485 0 0 1 2.366-1.973V11.6a.766.766 0 0 0 .388.676l5.815 3.355-2.02 1.168a.076.076 0 0 1-.071 0l-4.83-2.786A4.504 4.504 0 0 1 2.34 7.872zm16.597 3.855l-5.833-3.387L15.119 7.2a.076.076 0 0 1 .071 0l4.83 2.791a4.494 4.494 0 0 1-.676 8.105v-5.678a.79.79 0 0 0-.407-.667zm2.01-3.023l-.141-.085-4.774-2.782a.776.776 0 0 0-.785 0L9.409 9.23V6.897a.066.066 0 0 1 .028-.061l4.83-2.787a4.5 4.5 0 0 1 6.68 4.66zm-12.64 4.135l-2.02-1.164a.08.08 0 0 1-.038-.057V6.075a4.5 4.5 0 0 1 7.375-3.453l-.142.08L8.704 5.46a.795.795 0 0 0-.393.681zm1.097-2.365l2.602-1.5 2.607 1.5v2.999l-2.597 1.5-2.607-1.5z"/>
+                </svg>
+                {/* Claude */}
+                <svg className="h-6 w-6 text-white" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                  <path d="M4.709 15.955l4.72-2.647.08-.23-.08-.222-4.72-2.647A8.94 8.94 0 0 0 3 14.078c0 1.377.615 2.65 1.709 3.877zm7.291-11.87c-1.787 0-3.472.477-4.947 1.258l4.72 2.647.227.08.227-.08 4.72-2.647A10.853 10.853 0 0 0 12 4.085zm7.291 6.124l-4.72 2.647-.08.222.08.23 4.72 2.647A8.94 8.94 0 0 0 21 12.078c0-1.377-.615-2.65-1.709-3.869zm-7.518 3.099L7.29 15.955l-.003.004.003.004 4.72 2.647c.15.084.303.084.453 0l4.72-2.647.004-.004-.004-.004-4.72-2.647a.464.464 0 0 0-.453 0z"/>
+                </svg>
+                {/* Perplexity */}
+                <svg className="h-6 w-6 text-white" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                  <path d="M12 2L2 7v10l10 5 10-5V7L12 2zm0 2.18l6.9 3.45L12 11.08 5.1 7.63 12 4.18zM4 8.82l7 3.5v7.36l-7-3.5V8.82zm9 10.86v-7.36l7-3.5v7.36l-7 3.5z"/>
+                </svg>
+                {/* Google */}
+                <svg className="h-6 w-6 text-white" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                  <path d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z"/>
+                  <path d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z"/>
+                  <path d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l2.85-2.22.81-.62z"/>
+                  <path d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z"/>
+                </svg>
               </div>
-              <div className="flex items-center gap-2">
-                <div className="w-6 h-6 rounded bg-[#D97757] flex items-center justify-center">
-                  <span className="text-white font-bold text-xs">C</span>
-                </div>
-                <span className="text-gray-400 text-sm hidden sm:inline">Claude</span>
-              </div>
-              <div className="flex items-center gap-2">
-                <div className="w-6 h-6 rounded bg-[#20B8CD] flex items-center justify-center">
-                  <span className="text-white font-bold text-xs">P</span>
-                </div>
-                <span className="text-gray-400 text-sm hidden sm:inline">Perplexity</span>
-              </div>
-              <div className="flex items-center gap-2">
-                <div className="w-6 h-6 rounded bg-gradient-to-br from-blue-500 to-green-500 flex items-center justify-center">
-                  <span className="text-white font-bold text-xs">G</span>
-                </div>
-                <span className="text-gray-400 text-sm hidden sm:inline">Google AI</span>
-              </div>
+              <p className="text-xs text-white/40 mt-3 tracking-wide">Optimized for AI platforms</p>
             </div>
 
             <a
@@ -619,7 +658,7 @@ export default function Home() {
               className="inline-flex items-center justify-center gap-3 px-10 py-5 rounded-xl text-lg font-semibold text-white transition-all duration-300 shadow-[0_4px_24px_rgba(242,125,36,0.3)] hover:shadow-[0_8px_40px_rgba(242,125,36,0.5)] hover:-translate-y-1 hover:scale-[1.02] active:scale-[0.98] bg-[#f27d24] hover:bg-[#d66d1f]"
             >
               Show Me Who's Stealing My Leads
-              <svg className="w-5 h-5 transition-transform duration-300 group-hover:translate-x-1" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={2}>
+              <svg className="w-5 h-5 transition-transform duration-300 group-hover:translate-x-1" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={2} aria-hidden="true">
                 <path strokeLinecap="round" strokeLinejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3" />
               </svg>
             </a>
@@ -627,12 +666,17 @@ export default function Home() {
             <p className="text-gray-500 text-sm mt-6">
               One business per category, per city. Nationwide availability—check if your territory is open.
             </p>
+
+            {/* Animated Gradient Line Separator */}
+            <div className="relative h-px w-full max-w-xl mx-auto overflow-hidden mt-16">
+              <div className="absolute inset-0 bg-gradient-to-r from-transparent via-[#f27d24]/50 to-transparent" />
+            </div>
           </div>
         </section>
 
         {/* Protected Territory - PROPERLY SIZED */}
         <section className="max-w-5xl mx-auto px-6 pb-24">
-          <div className="bg-[#f27d24] text-white rounded-2xl p-8 sm:p-12 text-center shadow-[0_0_60px_rgba(242,125,36,0.2)] border-2 border-[#d66d1f] relative overflow-hidden">
+          <div className="bg-[#f27d24] text-white rounded-2xl p-8 sm:p-12 text-center shadow-[0_0_80px_rgba(242,125,36,0.25)] border-2 border-[#d66d1f] relative overflow-hidden animate-pulse-subtle">
             <div className="absolute inset-0 opacity-5" style={{
               backgroundImage: 'radial-gradient(circle at 2px 2px, white 1px, transparent 0)',
               backgroundSize: '32px 32px'
@@ -640,7 +684,7 @@ export default function Home() {
             
             <div className="relative z-10">
               <div className="inline-flex items-center gap-2 bg-black/20 px-4 py-1.5 rounded-lg mb-4">
-                <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
+                <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
                   <path d="M11.25 5.337c0-.355-.186-.676-.401-.959a1.647 1.647 0 01-.349-1.003c0-1.036 1.007-1.875 2.25-1.875S15 2.34 15 3.375c0 .369-.128.713-.349 1.003-.215.283-.401.604-.401.959 0 .332.278.598.61.578 1.91-.114 3.79-.342 5.632-.676a.75.75 0 01.878.645 49.17 49.17 0 01.376 5.452.657.657 0 01-.66.664c-.354 0-.675-.186-.958-.401a1.647 1.647 0 00-1.003-.349c-1.035 0-1.875 1.007-1.875 2.25s.84 2.25 1.875 2.25c.369 0 .713-.128 1.003-.349.283-.215.604-.401.959-.401.31 0 .557.262.534.571a48.774 48.774 0 01-.595 4.845.75.75 0 01-.61.61c-1.82.317-3.673.533-5.555.642a.58.58 0 01-.611-.581c0-.355.186-.676.401-.959.221-.29.349-.634.349-1.003 0-1.035-1.007-1.875-2.25-1.875s-2.25.84-2.25 1.875c0 .369.128.713.349 1.003.215.283.401.604.401.959a.641.641 0 01-.658.643 49.118 49.118 0 01-4.708-.36.75.75 0 01-.645-.878c.293-1.614.504-3.257.629-4.924A.53.53 0 005.337 15c-.355 0-.676.186-.959.401-.29.221-.634.349-1.003.349-1.036 0-1.875-1.007-1.875-2.25s.84-2.25 1.875-2.25c.369 0 .713.128 1.003.349.283.215.604.401.959.401a.656.656 0 00.659-.663 47.703 47.703 0 00-.31-4.82.75.75 0 01.83-.832c1.343.155 2.703.254 4.077.294a.64.64 0 00.657-.642z" />
                 </svg>
                 <span className="font-bold text-xs tracking-wider uppercase">Protected Territory</span>
@@ -658,7 +702,7 @@ export default function Home() {
         </section>
 
         {/* Case Study */}
-        <section className="max-w-5xl mx-auto px-6 pb-24">
+        <section id="case-study" className="max-w-5xl mx-auto px-6 pb-32">
           <div
             ref={caseStudyAnim.ref}
             className={`bg-white/[0.03] backdrop-blur-xl border border-white/[0.08] rounded-3xl p-12 sm:p-16 hover-lift transition-all duration-700 ease-out ${
@@ -681,11 +725,11 @@ export default function Home() {
                 </p>
               </div>
 
-              <div className="grid sm:grid-cols-3 gap-6 mb-8">
+              <div className="grid sm:grid-cols-3 gap-8 mb-8">
                 {[
-                  { value: '1,000+', label: 'Search Queries Ranked' },
-                  { value: '70,000+', label: 'Competing Agents' },
-                  { value: '#1', label: 'AI Citations in Market' }
+                  { value: '1,000+', label: 'Search Queries Ranked', color: 'text-[#f27d24]' },
+                  { value: '70,000+', label: 'Competing Agents', color: 'text-white' },
+                  { value: '#1', label: 'AI Citations in Market', color: 'text-emerald-400' }
                 ].map((stat, i) => (
                   <div
                     key={i}
@@ -694,23 +738,15 @@ export default function Home() {
                     }`}
                     style={{ transitionDelay: caseStudyAnim.isVisible ? `${i * 100 + 200}ms` : '0ms' }}
                   >
-                    <div className="text-3xl font-semibold text-white mb-2">{stat.value}</div>
-                    <div className="text-gray-400">{stat.label}</div>
+                    <div className={`text-4xl sm:text-5xl font-bold mb-2 font-heading ${stat.color}`}>{stat.value}</div>
+                    <div className="text-gray-400 text-sm uppercase tracking-wider">{stat.label}</div>
                   </div>
                 ))}
               </div>
 
-              <a
-                href="https://lametrohomefinder.com"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="inline-flex items-center gap-2 text-[#f27d24] hover:text-[#d66d1f] transition-colors text-lg font-medium"
-              >
-                See the proof: lametrohomefinder.com
-                <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={2}>
-                  <path strokeLinecap="round" strokeLinejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3" />
-                </svg>
-              </a>
+              <p className="text-gray-400 text-base">
+                Full case study details shared during your territory consultation.
+              </p>
             </div>
           </div>
         </section>
@@ -719,7 +755,7 @@ export default function Home() {
         <div className="max-w-xs mx-auto h-px bg-gradient-to-r from-transparent via-white/10 to-transparent mb-24" />
 
         {/* AI Citation Examples Section */}
-        <section className="max-w-6xl mx-auto px-6 pb-24">
+        <section className="max-w-6xl mx-auto px-6 pb-32">
           <div
             ref={citationsAnim.ref}
             className={`transition-all duration-700 ease-out ${
@@ -739,7 +775,7 @@ export default function Home() {
               </p>
             </div>
 
-            <div className="grid md:grid-cols-2 gap-6 mb-8">
+            <div className="grid md:grid-cols-2 gap-8 mb-8">
               {[
                 {
                   platform: 'ChatGPT',
@@ -750,9 +786,9 @@ export default function Home() {
                   alt: 'ChatGPT screenshot recommending Justin Borges for rent controlled property sales in Los Angeles'
                 },
                 {
-                  platform: 'Google AI',
+                  platform: 'Google AI Overview',
                   icon: 'G',
-                  bgColor: 'bg-gradient-to-br from-blue-500 to-green-500',
+                  bgColor: 'bg-gradient-to-br from-blue-500 via-red-500 to-yellow-500',
                   query: 'Who is the best agent for RSO properties in LA?',
                   image: '/citations/google-rso.png',
                   alt: 'Google AI Overview citing Justin Borges as expert for RSO rent stabilized properties in Los Angeles'
@@ -766,9 +802,9 @@ export default function Home() {
                   alt: 'ChatGPT screenshot recommending Justin Borges for probate real estate sales in Los Angeles'
                 },
                 {
-                  platform: 'Google AI',
+                  platform: 'Google AI Overview',
                   icon: 'G',
-                  bgColor: 'bg-gradient-to-br from-blue-500 to-green-500',
+                  bgColor: 'bg-gradient-to-br from-blue-500 via-red-500 to-yellow-500',
                   query: 'Realtor specializing in inherited property Los Angeles',
                   image: '/citations/google-inherited.png',
                   alt: 'Google AI Overview citing Justin Borges as specialist for inherited property sales in Los Angeles'
@@ -776,31 +812,48 @@ export default function Home() {
               ].map((citation, i) => (
                 <div
                   key={i}
-                  className={`bg-white/[0.03] border border-white/[0.08] rounded-2xl p-5 hover-lift transition-all duration-500 ease-out ${
+                  className={`group bg-white/[0.02] border border-white/[0.06] rounded-2xl overflow-hidden hover-lift transition-all duration-500 ease-out ${
                     citationsAnim.isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-6'
                   }`}
                   style={{ transitionDelay: citationsAnim.isVisible ? `${i * 100}ms` : '0ms' }}
                 >
-                  <div className="flex items-center gap-3 mb-3">
-                    <div className={`w-8 h-8 rounded-lg ${citation.bgColor} flex items-center justify-center`}>
-                      <span className="text-white font-bold text-sm">{citation.icon}</span>
-                    </div>
-                    <div className="text-white font-medium text-sm">{citation.platform}</div>
-                  </div>
-                  <p className="text-gray-400 text-sm mb-4 italic">&ldquo;{citation.query}&rdquo;</p>
+                  {/* Screenshot first - hero treatment */}
                   <button
                     onClick={() => setActiveImage(citation.image)}
-                    className="w-full rounded-xl overflow-hidden border border-white/[0.08] cursor-zoom-in transition-all duration-200 hover:border-white/20 hover:shadow-lg"
+                    className="w-full cursor-zoom-in transition-all duration-300 group-hover:opacity-95"
                   >
-                    <Image
-                      src={citation.image}
-                      alt={citation.alt}
-                      width={400}
-                      height={300}
-                      className="w-full h-auto"
-                      loading="lazy"
-                    />
+                    <div className="relative">
+                      <Image
+                        src={citation.image}
+                        alt={citation.alt}
+                        width={600}
+                        height={400}
+                        className="w-full h-auto"
+                        loading="lazy"
+                      />
+                      {/* Subtle gradient overlay at bottom */}
+                      <div className="absolute inset-x-0 bottom-0 h-24 bg-gradient-to-t from-[#0F1117] to-transparent" />
+                    </div>
                   </button>
+
+                  {/* Info bar at bottom */}
+                  <div className="p-5 border-t border-white/[0.06]">
+                    <div className="flex items-center gap-3 mb-2">
+                      <div className={`w-7 h-7 rounded-lg ${citation.bgColor} flex items-center justify-center`}>
+                        <span className="text-white font-bold text-xs">{citation.icon}</span>
+                      </div>
+                      <div className="text-white font-medium text-sm">{citation.platform}</div>
+                      <button
+                        onClick={() => setActiveImage(citation.image)}
+                        className="ml-auto text-gray-500 hover:text-white transition-colors"
+                      >
+                        <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={2} aria-hidden="true">
+                          <path strokeLinecap="round" strokeLinejoin="round" d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607zM10.5 7.5v6m3-3h-6" />
+                        </svg>
+                      </button>
+                    </div>
+                    <p className="text-gray-400 text-sm italic leading-relaxed">&ldquo;{citation.query}&rdquo;</p>
+                  </div>
                 </div>
               ))}
             </div>
@@ -812,7 +865,7 @@ export default function Home() {
         </section>
 
         {/* Testimonials Section */}
-        <section className="max-w-5xl mx-auto px-6 pb-24">
+        <section className="max-w-5xl mx-auto px-6 pb-32">
           <div
             ref={testimonialsAnim.ref}
             className={`transition-all duration-700 ease-out ${
@@ -831,7 +884,7 @@ export default function Home() {
               <div className="bg-white/[0.03] border border-white/[0.08] rounded-2xl p-8 sm:p-10">
                 <div className="flex gap-1 mb-6">
                   {[...Array(5)].map((_, i) => (
-                    <svg key={i} className="w-6 h-6 text-[#f27d24]" fill="currentColor" viewBox="0 0 20 20">
+                    <svg key={i} className="w-6 h-6 text-[#f27d24]" fill="currentColor" viewBox="0 0 20 20" aria-hidden="true">
                       <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
                     </svg>
                   ))}
@@ -855,7 +908,7 @@ export default function Home() {
         <div className="max-w-xs mx-auto h-px bg-gradient-to-r from-transparent via-white/10 to-transparent mb-24" />
 
         {/* How It Works */}
-        <section className="max-w-5xl mx-auto px-6 pb-24">
+        <section id="how-it-works" className="max-w-5xl mx-auto px-6 pb-32">
           <div
             ref={processAnim.ref}
             className={`transition-all duration-700 ease-out ${
@@ -878,7 +931,7 @@ export default function Home() {
             </div>
 
             <div className="relative">
-              <div className="absolute left-8 top-0 bottom-0 w-1 bg-gradient-to-b from-[#f27d24] via-[#362478] to-[#f27d24] rounded-full" />
+              <div className="absolute left-[30px] top-0 bottom-0 w-1.5 bg-gradient-to-b from-[#f27d24] via-[#362478] to-[#f27d24] rounded-full shadow-[0_0_20px_rgba(242,125,36,0.3)]" />
 
               <div className="space-y-12">
                 {[
@@ -908,7 +961,7 @@ export default function Home() {
                     }`}
                     style={{ transitionDelay: processAnim.isVisible ? `${i * 150}ms` : '0ms' }}
                   >
-                    <div className="absolute left-0 w-16 h-16 rounded-xl bg-gradient-to-br from-[#f27d24] to-[#d66d1f] flex items-center justify-center text-white text-2xl font-bold shadow-lg shadow-[#f27d24]/20 ring-4 ring-[#f27d24]/10">
+                    <div className="absolute left-0 w-16 h-16 rounded-2xl bg-gradient-to-br from-[#f27d24] to-[#d66d1f] flex items-center justify-center text-white text-2xl font-bold shadow-[0_8px_32px_rgba(242,125,36,0.4)] ring-4 ring-[#f27d24]/20 font-heading">
                       {step.number}
                     </div>
 
@@ -929,7 +982,7 @@ export default function Home() {
         </section>
 
         {/* Before/After Comparison Section */}
-        <section className="max-w-5xl mx-auto px-6 py-24">
+        <section className="max-w-5xl mx-auto px-6 py-32">
           <div
             ref={beforeAfterAnim.ref}
             className={`transition-all duration-700 ease-out ${
@@ -969,7 +1022,7 @@ export default function Home() {
                       }`}
                       style={{ transitionDelay: beforeAfterAnim.isVisible ? `${200 + i * 75}ms` : '0ms' }}
                     >
-                      <svg className="w-5 h-5 text-red-400 flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={2}>
+                      <svg className="w-5 h-5 text-red-400 flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={2} aria-hidden="true">
                         <path strokeLinecap="round" strokeLinejoin="round" d="M6 18L18 6M6 6l12 12" />
                       </svg>
                       <span className="text-gray-400">{item}</span>
@@ -1004,7 +1057,7 @@ export default function Home() {
                       }`}
                       style={{ transitionDelay: beforeAfterAnim.isVisible ? `${200 + i * 75}ms` : '0ms' }}
                     >
-                      <svg className="w-5 h-5 text-emerald-400 flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={2}>
+                      <svg className="w-5 h-5 text-emerald-400 flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={2} aria-hidden="true">
                       <path strokeLinecap="round" strokeLinejoin="round" d="M5 13l4 4L19 7" />
                     </svg>
                     <span className="text-gray-300">{item}</span>
@@ -1017,7 +1070,7 @@ export default function Home() {
         </section>
 
         {/* Guarantee */}
-        <section className="max-w-4xl mx-auto px-6 pb-24">
+        <section className="max-w-4xl mx-auto px-6 pb-32">
           <div
             ref={guaranteeAnim.ref}
             className={`bg-gradient-to-br from-emerald-500/10 to-emerald-600/10 border-2 border-emerald-500/30 rounded-3xl p-12 sm:p-16 relative overflow-hidden hover-lift transition-all duration-700 ease-out ${
@@ -1026,7 +1079,7 @@ export default function Home() {
           >
             <div className="text-center relative z-10">
               <div className="w-20 h-20 rounded-full bg-gradient-to-br from-emerald-500 to-emerald-600 flex items-center justify-center mx-auto mb-8 shadow-lg">
-                <svg className="w-10 h-10 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={2.5}>
+                <svg className="w-10 h-10 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={2} aria-hidden="true">
                   <path strokeLinecap="round" strokeLinejoin="round" d="M9 12.75L11.25 15 15 9.75m-3-7.036A11.959 11.959 0 013.598 6 11.99 11.99 0 003 9.749c0 5.592 3.824 10.29 9 11.623 5.176-1.332 9-6.03 9-11.622 0-1.31-.21-2.571-.598-3.751h-.152c-3.196 0-6.1-1.248-8.25-3.285z" />
                 </svg>
               </div>
@@ -1048,7 +1101,7 @@ export default function Home() {
                     }`}
                     style={{ transitionDelay: guaranteeAnim.isVisible ? `${200 + i * 100}ms` : '0ms' }}
                   >
-                    <svg className="w-6 h-6 text-emerald-500 flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={2.5}>
+                    <svg className="w-6 h-6 text-emerald-500 flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={2} aria-hidden="true">
                       <path strokeLinecap="round" strokeLinejoin="round" d="M5 13l4 4L19 7" />
                     </svg>
                     <span className="text-lg text-white">{item}</span>
@@ -1066,7 +1119,7 @@ export default function Home() {
         </section>
 
         {/* FAQ Section */}
-        <section id="faq-section" className="max-w-4xl mx-auto px-6 pb-24">
+        <section id="faq-section" className="max-w-4xl mx-auto px-6 pb-32">
           <div
             ref={faqAnim.ref}
             className={`transition-all duration-700 ease-out ${
@@ -1110,9 +1163,10 @@ export default function Home() {
                   <button
                     onClick={() => setExpandedFaq(expandedFaq === i ? null : i)}
                     className="w-full px-6 py-5 text-left flex items-center justify-between"
+                    aria-expanded={expandedFaq === i}
                   >
                     <span className="text-white font-medium text-lg">{faq.q}</span>
-                    <svg className={`w-5 h-5 text-gray-400 transition-transform duration-300 ${expandedFaq === i ? 'rotate-180' : ''}`} fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={2}>
+                    <svg className={`w-5 h-5 text-gray-400 transition-transform duration-300 ${expandedFaq === i ? 'rotate-180' : ''}`} fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={2} aria-hidden="true">
                       <path strokeLinecap="round" strokeLinejoin="round" d="M19 9l-7 7-7-7" />
                     </svg>
                   </button>
@@ -1139,7 +1193,7 @@ export default function Home() {
               href="tel:2134442229"
               className="inline-flex items-center justify-center gap-2 px-8 py-4 rounded-xl text-xl font-semibold text-white transition-all bg-white/10 hover:bg-white/15 border border-white/20 hover:border-white/30"
             >
-              <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={2}>
+              <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={2} aria-hidden="true">
                 <path strokeLinecap="round" strokeLinejoin="round" d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 002.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035 12.035 0 01-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 00-1.091-.852H4.5A2.25 2.25 0 002.25 4.5v2.25z" />
               </svg>
               (213) 444-2229
@@ -1176,78 +1230,167 @@ export default function Home() {
               </p>
             </div>
 
-            <form className="space-y-5 max-w-md mx-auto" action="https://formspree.io/f/xqagkqwl" method="POST">
-              <div
-                className={`transition-all duration-500 ease-out ${
-                  territoryAnim.isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-4'
-                }`}
-                style={{ transitionDelay: territoryAnim.isVisible ? '100ms' : '0ms' }}
-              >
-                <label className="block text-sm font-semibold text-gray-300 mb-2">Industry *</label>
-                <select name="industry" required className="w-full px-4 py-3 rounded-xl bg-white/[0.05] border border-white/[0.1] text-white focus:outline-none focus:ring-2 focus:ring-[#f27d24]">
-                  <option value="">Select your industry</option>
-                  <option value="plumbing">Plumbing</option>
-                  <option value="hvac">HVAC</option>
-                  <option value="electrical">Electrical</option>
-                  <option value="real-estate">Real Estate</option>
-                  <option value="attorney">Attorney</option>
-                  <option value="dentist">Dentist</option>
-                  <option value="other">Other</option>
-                </select>
-              </div>
-
-              <div
-                className={`transition-all duration-500 ease-out ${
-                  territoryAnim.isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-4'
-                }`}
-                style={{ transitionDelay: territoryAnim.isVisible ? '200ms' : '0ms' }}
-              >
-                <label className="block text-sm font-semibold text-gray-300 mb-2">City / Area *</label>
-                <input type="text" name="city" required placeholder="e.g., Phoenix, AZ" className="w-full px-4 py-3 rounded-xl bg-white/[0.05] border border-white/[0.1] text-white placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-[#f27d24]" />
-              </div>
-
-              <div
-                className={`transition-all duration-500 ease-out ${
-                  territoryAnim.isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-4'
-                }`}
-                style={{ transitionDelay: territoryAnim.isVisible ? '300ms' : '0ms' }}
-              >
-                <label className="block text-sm font-semibold text-gray-300 mb-2">Email *</label>
-                <input type="email" name="email" required placeholder="you@company.com" className="w-full px-4 py-3 rounded-xl bg-white/[0.05] border border-white/[0.1] text-white placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-[#f27d24]" />
-              </div>
-
-              <input type="hidden" name="_subject" value="Territory Check Request" />
-
-              <div
-                className={`transition-all duration-500 ease-out ${
-                  territoryAnim.isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-4'
-                }`}
-                style={{ transitionDelay: territoryAnim.isVisible ? '400ms' : '0ms' }}
-              >
-                <button type="submit" className="w-full px-8 py-4 rounded-xl text-lg font-semibold text-white bg-[#f27d24] hover:bg-[#d66d1f] transition-all shadow-[0_4px_24px_rgba(242,125,36,0.3)] hover:shadow-[0_8px_32px_rgba(242,125,36,0.4)] hover:-translate-y-0.5 active:scale-[0.98]">
-                  Check Availability
+            {formStatus === 'success' ? (
+              <div className="text-center py-8">
+                <div className="w-16 h-16 mx-auto mb-4 rounded-full bg-green-500/20 flex items-center justify-center">
+                  <svg className="w-8 h-8 text-green-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
+                  </svg>
+                </div>
+                <h3 className="text-xl font-semibold text-white mb-2">Request Received!</h3>
+                <p className="text-gray-400 mb-4">We'll check your territory and respond within 24 hours.</p>
+                <button
+                  onClick={() => setFormStatus('idle')}
+                  className="text-[#f27d24] hover:text-[#d66d1f] transition-colors text-sm font-medium"
+                >
+                  Submit another request
                 </button>
               </div>
+            ) : (
+              <form className="space-y-5 max-w-md mx-auto" onSubmit={handleFormSubmit}>
+                <div
+                  className={`transition-all duration-500 ease-out ${
+                    territoryAnim.isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-4'
+                  }`}
+                  style={{ transitionDelay: territoryAnim.isVisible ? '100ms' : '0ms' }}
+                >
+                  <label htmlFor="industry" className="block text-sm font-semibold text-gray-300 mb-2">Industry *</label>
+                  <select
+                    id="industry"
+                    name="industry"
+                    required
+                    disabled={formStatus === 'submitting'}
+                    className="w-full px-4 py-3.5 rounded-xl bg-[#1a1a24] border border-white/[0.1] text-white focus:outline-none focus:ring-2 focus:ring-[#f27d24] focus:border-transparent appearance-none cursor-pointer disabled:opacity-50 disabled:cursor-not-allowed"
+                    style={{
+                      backgroundImage: `url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 24 24' stroke='%239ca3af'%3E%3Cpath stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M19 9l-7 7-7-7'%3E%3C/path%3E%3C/svg%3E")`,
+                      backgroundRepeat: 'no-repeat',
+                      backgroundPosition: 'right 12px center',
+                      backgroundSize: '20px',
+                    }}
+                  >
+                    <option value="">Select your industry</option>
+                    <option value="plumbing">Plumbing</option>
+                    <option value="hvac">HVAC</option>
+                    <option value="electrical">Electrical</option>
+                    <option value="real-estate">Real Estate</option>
+                    <option value="attorney">Attorney</option>
+                    <option value="dentist">Dentist</option>
+                    <option value="other">Other</option>
+                  </select>
+                </div>
 
-              <p className="text-center text-gray-500 text-sm">
-                We'll respond within 24 hours with your territory status.
-              </p>
-            </form>
+                <div
+                  className={`transition-all duration-500 ease-out ${
+                    territoryAnim.isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-4'
+                  }`}
+                  style={{ transitionDelay: territoryAnim.isVisible ? '200ms' : '0ms' }}
+                >
+                  <label htmlFor="city" className="block text-sm font-semibold text-gray-300 mb-2">City / Area *</label>
+                  <input
+                    id="city"
+                    type="text"
+                    name="city"
+                    required
+                    disabled={formStatus === 'submitting'}
+                    placeholder="e.g., Phoenix, AZ"
+                    className="w-full px-4 py-3.5 rounded-xl bg-[#1a1a24] border border-white/[0.1] text-white placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-[#f27d24] focus:border-transparent disabled:opacity-50 disabled:cursor-not-allowed"
+                  />
+                </div>
+
+                <div
+                  className={`transition-all duration-500 ease-out ${
+                    territoryAnim.isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-4'
+                  }`}
+                  style={{ transitionDelay: territoryAnim.isVisible ? '300ms' : '0ms' }}
+                >
+                  <label htmlFor="email" className="block text-sm font-semibold text-gray-300 mb-2">Email *</label>
+                  <input
+                    id="email"
+                    type="email"
+                    name="email"
+                    required
+                    disabled={formStatus === 'submitting'}
+                    placeholder="you@company.com"
+                    className="w-full px-4 py-3.5 rounded-xl bg-[#1a1a24] border border-white/[0.1] text-white placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-[#f27d24] focus:border-transparent disabled:opacity-50 disabled:cursor-not-allowed"
+                  />
+                </div>
+
+                <input type="hidden" name="_subject" value="Territory Check Request" />
+
+                {formStatus === 'error' && (
+                  <div className="p-3 rounded-lg bg-red-500/10 border border-red-500/20 text-red-400 text-sm text-center">
+                    Something went wrong. Please try again or email us directly.
+                  </div>
+                )}
+
+                <div
+                  className={`transition-all duration-500 ease-out ${
+                    territoryAnim.isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-4'
+                  }`}
+                  style={{ transitionDelay: territoryAnim.isVisible ? '400ms' : '0ms' }}
+                >
+                  <button
+                    type="submit"
+                    disabled={formStatus === 'submitting'}
+                    className="w-full px-8 py-4 rounded-xl text-lg font-semibold text-white bg-[#f27d24] hover:bg-[#d66d1f] transition-all shadow-[0_4px_24px_rgba(242,125,36,0.3)] hover:shadow-[0_8px_32px_rgba(242,125,36,0.4)] hover:-translate-y-0.5 active:scale-[0.98] disabled:opacity-70 disabled:cursor-not-allowed disabled:hover:translate-y-0 disabled:hover:shadow-[0_4px_24px_rgba(242,125,36,0.3)] flex items-center justify-center gap-2"
+                  >
+                    {formStatus === 'submitting' ? (
+                      <>
+                        <svg className="animate-spin h-5 w-5 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
+                          <circle className="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="4"></circle>
+                          <path className="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"></path>
+                        </svg>
+                        Checking...
+                      </>
+                    ) : (
+                      'Check Availability'
+                    )}
+                  </button>
+                </div>
+
+                <p className="text-center text-gray-500 text-sm">
+                  We'll respond within 24 hours with your territory status.
+                </p>
+              </form>
+            )}
           </div>
         </section>
 
         {/* Footer */}
-        <footer className="border-t border-white/[0.08] py-12">
-          <div className="max-w-6xl mx-auto px-6 text-center">
-            <p className="text-gray-400 text-sm mb-4">
-              Serving local service businesses nationwide. Proven in America's most competitive market—LA County real estate.
-            </p>
-            <p className="text-gray-500 text-sm mb-4">
-              © 2025 The Answer Engine. All rights reserved.
-            </p>
-            <p className="text-gray-600 text-xs">
-              Answer Engine Optimization • Territory Protection • 90-Day Citation Guarantee
-            </p>
+        <footer className="border-t border-white/[0.06] py-16 mt-8">
+          <div className="max-w-6xl mx-auto px-6">
+            <div className="flex flex-col items-center">
+              <Image
+                src="/TheAnswerEngine_white logo only.png"
+                alt="The Answer Engine"
+                width={120}
+                height={40}
+                className="h-10 w-auto mb-6 opacity-40"
+              />
+              <p className="text-gray-400 text-sm mb-4 text-center max-w-md">
+                Serving local service businesses nationwide. Proven in America's most competitive market—LA County real estate.
+              </p>
+              <p className="text-gray-500 text-sm mb-4">
+                © 2025 The Answer Engine. All rights reserved.
+              </p>
+              <p className="text-gray-600 text-xs mb-4">
+                Answer Engine Optimization • Territory Protection • 90-Day Citation Guarantee
+              </p>
+              <div className="flex items-center gap-4">
+                <a href="https://www.linkedin.com/company/theanswerengine" target="_blank" rel="noopener noreferrer" className="text-gray-500 hover:text-white transition-colors">
+                  <span className="sr-only">LinkedIn</span>
+                  <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                    <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
+                  </svg>
+                </a>
+                <a href="https://instagram.com/theanswerengine" target="_blank" rel="noopener noreferrer" className="text-gray-500 hover:text-white transition-colors">
+                  <span className="sr-only">Instagram</span>
+                  <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                    <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"/>
+                  </svg>
+                </a>
+              </div>
+            </div>
           </div>
         </footer>
 
@@ -1258,7 +1401,7 @@ export default function Home() {
             className="flex items-center justify-center gap-2 w-full py-4 rounded-xl text-base font-semibold text-white bg-[#f27d24] shadow-lg shadow-[#f27d24]/40 active:scale-[0.98] transition-all duration-200"
           >
             Check Your Territory
-            <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={2}>
+            <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={2} aria-hidden="true">
               <path strokeLinecap="round" strokeLinejoin="round" d="M19 9l-7 7-7-7" />
             </svg>
           </a>
@@ -1267,17 +1410,28 @@ export default function Home() {
         {/* Lightbox Modal */}
         {activeImage && (
           <div
-            className="fixed inset-0 z-50 bg-black/90 flex items-center justify-center p-4 cursor-zoom-out"
+            className="fixed inset-0 z-50 bg-black/95 backdrop-blur-sm flex items-center justify-center p-4 sm:p-8 cursor-zoom-out"
             onClick={() => setActiveImage(null)}
           >
-            <Image
-              src={activeImage}
-              alt="Enlarged screenshot"
-              width={1200}
-              height={900}
-              className="max-w-full max-h-full rounded-lg object-contain"
-              unoptimized
-            />
+            <div className="relative max-w-5xl w-full">
+              <Image
+                src={activeImage}
+                alt="Enlarged screenshot"
+                width={1400}
+                height={1000}
+                className="w-full h-auto rounded-xl shadow-2xl"
+                unoptimized
+              />
+              <button
+                onClick={() => setActiveImage(null)}
+                className="absolute -top-12 right-0 text-gray-400 hover:text-white transition-colors flex items-center gap-2 text-sm"
+              >
+                Press ESC or click to close
+                <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={2} aria-hidden="true">
+                  <path strokeLinecap="round" strokeLinejoin="round" d="M6 18L18 6M6 6l12 12" />
+                </svg>
+              </button>
+            </div>
           </div>
         )}
       </main>
