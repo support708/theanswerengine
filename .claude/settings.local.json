@@ -15,7 +15,13 @@
       "Bash(findstr:*)",
       "Bash(del \"public\\file.svg\" \"public\\globe.svg\" \"public\\next.svg\" \"public\\vercel.svg\" \"public\\window.svg\")",
       "Bash(npm run dev)",
-      "Bash(echo.)"
+      "Bash(echo.)",
+      "Bash(npm audit:*)",
+      "Bash(npm outdated:*)",
+      "Bash(npm install:*)",
+      "Bash(taskkill:*)",
+      "Bash(powershell -Command:*)",
+      "Bash(if exist .next rmdir /s /q .next)"
     ],
     "deny": [],
     "ask": []

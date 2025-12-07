@@ -147,4 +147,92 @@ button:focus-visible, a:focus-visible {
   .animate-pulse-subtle {
     animation: none;
   }
+
+  .animate-fade-up,
+  .animate-hero-fade-in {
+    animation: none;
+    opacity: 1;
+    transform: none;
+  }
+}
+
+/* Hero Section Animations */
+@keyframes fade-up {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes hero-fade-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.animate-fade-up {
+  animation: fade-up 0.6s ease-out forwards;
+}
+
+.animate-hero-fade-in {
+  animation: hero-fade-in 0.6s ease-out forwards;
+}
+
+/* Print Stylesheet */
+@media print {
+  body {
+    background: white !important;
+    color: black !important;
+  }
+
+  nav,
+  footer,
+  .sticky-header,
+  .mobile-cta,
+  #mobile-sticky-cta,
+  [class*="fixed"] {
+    display: none !important;
+  }
+
+  a[href]::after {
+    content: " (" attr(href) ")";
+    font-size: 0.8em;
+    color: #666;
+  }
+
+  /* Remove dark backgrounds */
+  .bg-\[\#0F1117\],
+  .bg-\[\#0a0a0f\],
+  [class*="bg-gradient"],
+  [class*="backdrop-blur"] {
+    background: white !important;
+  }
+
+  /* Make all text readable */
+  * {
+    color: black !important;
+    text-shadow: none !important;
+    box-shadow: none !important;
+  }
+
+  /* Show contact info */
+  .contact-info {
+    display: block !important;
+  }
+
+  /* Page breaks */
+  section {
+    page-break-inside: avoid;
+  }
+
+  h1, h2, h3 {
+    page-break-after: avoid;
+  }
 }

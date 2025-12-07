@@ -2,6 +2,7 @@
 
 import { useEffect, useRef, useState, RefObject } from 'react';
 import Image from 'next/image';
+import FocusTrap from 'focus-trap-react';
 
 // Hook to respect reduced motion preferences (accessibility)
 const usePrefersReducedMotion = () => {
@@ -571,135 +572,162 @@ export default function Home() {
 
         <div className="absolute inset-0 bg-gradient-to-b from-purple-950/5 via-transparent to-orange-950/5 pointer-events-none" />
         
-        {/* Hero Section */}
-        <section ref={heroRef} className="relative max-w-5xl mx-auto px-6 pt-16 sm:pt-24 pb-24 sm:pb-32">
-          {/* Background Glow Effect */}
-          <div className="absolute top-0 left-1/2 -translate-x-1/2 w-[800px] h-[600px] pointer-events-none">
-            <div className="absolute inset-0 bg-[radial-gradient(ellipse_80%_50%_at_50%_-20%,rgba(242,125,36,0.15),transparent)]" />
-          </div>
+        {/* ==================== HERO SECTION ==================== */}
+        <section ref={heroRef} className="relative min-h-screen flex flex-col items-center justify-center px-4 sm:px-6 lg:px-8 overflow-hidden bg-gradient-to-b from-[#0F1117] via-[#0F1117] to-[#0a0a0f]">
 
-          {/* Subtle Dot Grid Pattern */}
-          <svg className="absolute inset-0 w-full h-full opacity-[0.03] pointer-events-none" aria-hidden="true">
-            <defs>
-              <pattern id="hero-grid" width="40" height="40" patternUnits="userSpaceOnUse">
-                <circle cx="1" cy="1" r="1" fill="white" />
-              </pattern>
-            </defs>
-            <rect width="100%" height="100%" fill="url(#hero-grid)" />
-          </svg>
-
-          <div className="flex justify-center mb-12 relative z-10">
-            <Image
-              src="/TheAnswerEngine_white logo only.png"
-              alt="The Answer Engine"
-              width={384}
-              height={128}
-              priority
-              className="h-24 sm:h-32 w-auto"
-            />
-          </div>
-
-          <div className="text-center mb-12 relative z-10">
-            {/* Floating Badge */}
-            <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-white/[0.03] border border-white/[0.08] mb-6">
-              <div className="w-2 h-2 rounded-full bg-emerald-400 animate-pulse" />
-              <span className="text-sm text-white/60">Answer Engine Optimization Agency</span>
+          {/* Background Effects */}
+          <div className="absolute inset-0 pointer-events-none">
+            {/* Radial glow - centered behind content */}
+            <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[800px] h-[600px]">
+              <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,rgba(242,125,36,0.25),transparent_70%)]" />
             </div>
 
-            <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-semibold mb-8 leading-[1.1] tracking-tight text-white font-heading">
-              <span className="block">ChatGPT Recommends</span>
-              <span className="block">Your Competitors. Not You.</span>
-              <span className="block text-transparent bg-clip-text bg-gradient-to-r from-[#f27d24] to-[#d66d1f]">
-                Let's Fix That.
-              </span>
-            </h1>
-
-            <p className="hero-description text-lg sm:text-xl md:text-2xl text-gray-300 max-w-3xl mx-auto leading-relaxed mb-12">
-              When customers ask AI to find the best service provider in your area, your competitors get cited. We make AI cite you instead.
-            </p>
-
-            {/* Industry badges */}
-            <div className="flex flex-wrap justify-center gap-3 mb-8">
-              {['Plumbers', 'HVAC', 'Real Estate', 'Electricians', 'Attorneys', 'Dentists'].map((industry) => (
-                <span key={industry} className="px-4 py-2 bg-white/5 border border-white/[0.08] rounded-lg text-gray-300 text-sm">
-                  {industry}
-                </span>
-              ))}
+            {/* Secondary purple glow - offset */}
+            <div className="absolute top-1/3 right-1/4 w-[400px] h-[400px]">
+              <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,rgba(54,36,120,0.15),transparent_70%)]" />
             </div>
 
-            {/* AI Platform Logos Strip */}
-            <div className="flex flex-col items-center mt-8 mb-2">
-              <div className="flex items-center justify-center gap-6 sm:gap-8 opacity-50">
-                {/* ChatGPT */}
+            {/* Dot grid pattern */}
+            <svg className="absolute inset-0 w-full h-full opacity-[0.03]" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+              <defs>
+                <pattern id="hero-grid" width="40" height="40" patternUnits="userSpaceOnUse">
+                  <circle cx="1" cy="1" r="1" fill="white" />
+                </pattern>
+              </defs>
+              <rect width="100%" height="100%" fill="url(#hero-grid)" />
+            </svg>
+
+            {/* Noise texture overlay */}
+            <div className="absolute inset-0 opacity-[0.02]" style={{
+              backgroundImage: `url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.65' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)'/%3E%3C/svg%3E")`
+            }} />
+          </div>
+
+          {/* Badge */}
+          <div className="relative z-10 inline-flex items-center gap-2 px-4 py-2 rounded-full bg-white/[0.03] border border-white/[0.08] mb-8 opacity-0 animate-hero-fade-in" style={{ animationDelay: '0ms', animationFillMode: 'forwards' }}>
+            <div className="w-2 h-2 rounded-full bg-emerald-400 animate-pulse" />
+            <span className="text-sm text-white/60 tracking-wide">Answer Engine Optimization Agency</span>
+          </div>
+
+          {/* Headline */}
+          <h1 className="relative z-10 text-center font-heading">
+            <span
+              className="block text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold text-white leading-[1.05] tracking-tight opacity-0 animate-fade-up"
+              style={{ animationDelay: '100ms', animationFillMode: 'forwards' }}
+            >
+              ChatGPT Recommends
+            </span>
+            <span
+              className="block text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold text-white leading-[1.05] tracking-tight mt-2 opacity-0 animate-fade-up"
+              style={{ animationDelay: '200ms', animationFillMode: 'forwards' }}
+            >
+              Your Competitors<span className="text-[#f27d24]">.</span> Not You<span className="text-[#f27d24]">.</span>
+            </span>
+            <span
+              className="block text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold leading-[1.05] tracking-tight mt-2 text-transparent bg-clip-text bg-gradient-to-r from-[#f27d24] to-[#d66d1f] opacity-0 animate-fade-up"
+              style={{ animationDelay: '300ms', animationFillMode: 'forwards' }}
+            >
+              Let's Fix That.
+            </span>
+          </h1>
+
+          {/* Subheadline */}
+          <p
+            className="hero-description relative z-10 text-lg sm:text-xl text-white/60 max-w-2xl mx-auto text-center mt-8 mb-8 opacity-0 animate-fade-up"
+            style={{ animationDelay: '400ms', animationFillMode: 'forwards' }}
+          >
+            We help local service businesses become the answer AI platforms recommend—turning invisible experts into the obvious choice.
+          </p>
+
+          {/* AI Platform Logos */}
+          <div
+            className="relative z-10 flex flex-col items-center mb-10 opacity-0 animate-fade-up"
+            style={{ animationDelay: '500ms', animationFillMode: 'forwards' }}
+          >
+            <div className="flex items-center justify-center gap-6 sm:gap-8">
+              {/* ChatGPT */}
+              <div className="opacity-50 hover:opacity-80 transition-opacity" title="ChatGPT">
                 <svg className="h-6 w-6 text-white" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
                   <path d="M22.282 9.821a5.985 5.985 0 0 0-.516-4.91 6.046 6.046 0 0 0-6.51-2.9A6.065 6.065 0 0 0 4.981 4.18a5.985 5.985 0 0 0-3.998 2.9 6.046 6.046 0 0 0 .743 7.097 5.98 5.98 0 0 0 .51 4.911 6.051 6.051 0 0 0 6.515 2.9A5.985 5.985 0 0 0 13.26 24a6.056 6.056 0 0 0 5.772-4.206 5.99 5.99 0 0 0 3.997-2.9 6.056 6.056 0 0 0-.747-7.073zM13.26 22.43a4.476 4.476 0 0 1-2.876-1.04l.141-.081 4.779-2.758a.795.795 0 0 0 .392-.681v-6.737l2.02 1.168a.071.071 0 0 1 .038.052v5.583a4.504 4.504 0 0 1-4.494 4.494zM3.6 18.304a4.47 4.47 0 0 1-.535-3.014l.142.085 4.783 2.759a.771.771 0 0 0 .78 0l5.843-3.369v2.332a.08.08 0 0 1-.033.062L9.74 19.95a4.5 4.5 0 0 1-6.14-1.646zM2.34 7.896a4.485 4.485 0 0 1 2.366-1.973V11.6a.766.766 0 0 0 .388.676l5.815 3.355-2.02 1.168a.076.076 0 0 1-.071 0l-4.83-2.786A4.504 4.504 0 0 1 2.34 7.872zm16.597 3.855l-5.833-3.387L15.119 7.2a.076.076 0 0 1 .071 0l4.83 2.791a4.494 4.494 0 0 1-.676 8.105v-5.678a.79.79 0 0 0-.407-.667zm2.01-3.023l-.141-.085-4.774-2.782a.776.776 0 0 0-.785 0L9.409 9.23V6.897a.066.066 0 0 1 .028-.061l4.83-2.787a4.5 4.5 0 0 1 6.68 4.66zm-12.64 4.135l-2.02-1.164a.08.08 0 0 1-.038-.057V6.075a4.5 4.5 0 0 1 7.375-3.453l-.142.08L8.704 5.46a.795.795 0 0 0-.393.681zm1.097-2.365l2.602-1.5 2.607 1.5v2.999l-2.597 1.5-2.607-1.5z"/>
                 </svg>
-                {/* Claude */}
-                <svg className="h-6 w-6 text-white" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
-                  <path d="M4.709 15.955l4.72-2.647.08-.23-.08-.222-4.72-2.647A8.94 8.94 0 0 0 3 14.078c0 1.377.615 2.65 1.709 3.877zm7.291-11.87c-1.787 0-3.472.477-4.947 1.258l4.72 2.647.227.08.227-.08 4.72-2.647A10.853 10.853 0 0 0 12 4.085zm7.291 6.124l-4.72 2.647-.08.222.08.23 4.72 2.647A8.94 8.94 0 0 0 21 12.078c0-1.377-.615-2.65-1.709-3.869zm-7.518 3.099L7.29 15.955l-.003.004.003.004 4.72 2.647c.15.084.303.084.453 0l4.72-2.647.004-.004-.004-.004-4.72-2.647a.464.464 0 0 0-.453 0z"/>
+              </div>
+
+              {/* Claude */}
+              <div className="opacity-50 hover:opacity-80 transition-opacity" title="Claude">
+                <svg className="h-6 w-6 text-white" viewBox="0 0 46 32" fill="currentColor" aria-hidden="true">
+                  <path d="M23.0156 0L32.2268 28.0552H46L36.7888 0H23.0156ZM0 28.0552H13.7731L22.9844 0H9.21122L0 28.0552Z" />
                 </svg>
-                {/* Perplexity */}
+              </div>
+
+              {/* Perplexity */}
+              <div className="opacity-50 hover:opacity-80 transition-opacity" title="Perplexity">
                 <svg className="h-6 w-6 text-white" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
                   <path d="M12 2L2 7v10l10 5 10-5V7L12 2zm0 2.18l6.9 3.45L12 11.08 5.1 7.63 12 4.18zM4 8.82l7 3.5v7.36l-7-3.5V8.82zm9 10.86v-7.36l7-3.5v7.36l-7 3.5z"/>
                 </svg>
-                {/* Google */}
-                <svg className="h-6 w-6 text-white" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
-                  <path d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z"/>
-                  <path d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z"/>
-                  <path d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l2.85-2.22.81-.62z"/>
-                  <path d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z"/>
+              </div>
+
+              {/* Google AI */}
+              <div className="opacity-50 hover:opacity-80 transition-opacity" title="Google AI">
+                <svg className="h-6 w-6" viewBox="0 0 24 24" aria-hidden="true">
+                  <path fill="#4285F4" d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z"/>
+                  <path fill="#34A853" d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z"/>
+                  <path fill="#FBBC05" d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l2.85-2.22.81-.62z"/>
+                  <path fill="#EA4335" d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z"/>
                 </svg>
               </div>
-              <p className="text-xs text-white/40 mt-3 tracking-wide">Optimized for AI platforms</p>
             </div>
+            <p className="text-xs text-white/40 mt-4 tracking-wide">Platforms we optimize for</p>
+          </div>
 
+          {/* CTA Section */}
+          <div
+            className="relative z-10 flex flex-col items-center pb-24 opacity-0 animate-fade-up"
+            style={{ animationDelay: '600ms', animationFillMode: 'forwards' }}
+          >
+            {/* Primary CTA */}
             <a
               href="#territory-check"
-              className="inline-flex items-center justify-center gap-3 px-10 py-5 rounded-xl text-lg font-semibold text-white transition-all duration-300 shadow-[0_4px_24px_rgba(242,125,36,0.3)] hover:shadow-[0_8px_40px_rgba(242,125,36,0.5)] hover:-translate-y-1 hover:scale-[1.02] active:scale-[0.98] bg-[#f27d24] hover:bg-[#d66d1f]"
+              className="group inline-flex items-center gap-2 px-8 py-4 bg-gradient-to-r from-[#f27d24] to-[#d66d1f] rounded-xl font-semibold text-white shadow-[0_0_30px_rgba(242,125,36,0.3)] hover:shadow-[0_0_50px_rgba(242,125,36,0.5)] transition-all duration-500 hover:scale-[1.02] active:scale-[0.98]"
             >
-              Show Me Who's Stealing My Leads
-              <svg className="w-5 h-5 transition-transform duration-300 group-hover:translate-x-1" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={2} aria-hidden="true">
-                <path strokeLinecap="round" strokeLinejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3" />
+              Check My Territory
+              <svg
+                className="w-5 h-5 group-hover:translate-x-1 transition-transform duration-300"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+                aria-hidden="true"
+              >
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
               </svg>
             </a>
 
-            <p className="text-gray-500 text-sm mt-6">
-              One business per category, per city. Nationwide availability—check if your territory is open.
+            <a href="#case-study" className="mt-4 text-sm text-white/50 hover:text-white/80 transition-colors duration-300">See how we did it for an LA County realtor</a>
+
+            {/* Social proof line */}
+            <p className="mt-6 text-sm text-white/40 flex items-center gap-2">
+              <span className="inline-block w-2 h-2 rounded-full bg-emerald-400/80" />
+              Only accepting 3 new clients per month
             </p>
+          </div>
 
-            {/* Animated Gradient Line Separator */}
-            <div className="relative h-px w-full max-w-xl mx-auto overflow-hidden mt-16">
-              <div className="absolute inset-0 bg-gradient-to-r from-transparent via-[#f27d24]/50 to-transparent" />
+          {/* Scroll Indicator */}
+          <div className="absolute bottom-6 left-1/2 -translate-x-1/2 flex flex-col items-center gap-2 opacity-0 animate-hero-fade-in" style={{ animationDelay: '1000ms', animationFillMode: 'forwards' }}>
+            <span className="text-xs text-white/30 tracking-widest uppercase">Scroll</span>
+            <div className="animate-bounce">
+              <svg className="w-5 h-5 text-white/30" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 14l-7 7m0 0l-7-7m7 7V3" />
+              </svg>
             </div>
           </div>
-        </section>
 
-        {/* Protected Territory - PROPERLY SIZED */}
-        <section className="max-w-5xl mx-auto px-6 pb-24">
-          <div className="bg-[#f27d24] text-white rounded-2xl p-8 sm:p-12 text-center shadow-[0_0_80px_rgba(242,125,36,0.25)] border-2 border-[#d66d1f] relative overflow-hidden animate-pulse-subtle">
-            <div className="absolute inset-0 opacity-5" style={{
-              backgroundImage: 'radial-gradient(circle at 2px 2px, white 1px, transparent 0)',
-              backgroundSize: '32px 32px'
-            }} />
-            
-            <div className="relative z-10">
-              <div className="inline-flex items-center gap-2 bg-black/20 px-4 py-1.5 rounded-lg mb-4">
-                <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
-                  <path d="M11.25 5.337c0-.355-.186-.676-.401-.959a1.647 1.647 0 01-.349-1.003c0-1.036 1.007-1.875 2.25-1.875S15 2.34 15 3.375c0 .369-.128.713-.349 1.003-.215.283-.401.604-.401.959 0 .332.278.598.61.578 1.91-.114 3.79-.342 5.632-.676a.75.75 0 01.878.645 49.17 49.17 0 01.376 5.452.657.657 0 01-.66.664c-.354 0-.675-.186-.958-.401a1.647 1.647 0 00-1.003-.349c-1.035 0-1.875 1.007-1.875 2.25s.84 2.25 1.875 2.25c.369 0 .713-.128 1.003-.349.283-.215.604-.401.959-.401.31 0 .557.262.534.571a48.774 48.774 0 01-.595 4.845.75.75 0 01-.61.61c-1.82.317-3.673.533-5.555.642a.58.58 0 01-.611-.581c0-.355.186-.676.401-.959.221-.29.349-.634.349-1.003 0-1.035-1.007-1.875-2.25-1.875s-2.25.84-2.25 1.875c0 .369.128.713.349 1.003.215.283.401.604.401.959a.641.641 0 01-.658.643 49.118 49.118 0 01-4.708-.36.75.75 0 01-.645-.878c.293-1.614.504-3.257.629-4.924A.53.53 0 005.337 15c-.355 0-.676.186-.959.401-.29.221-.634.349-1.003.349-1.036 0-1.875-1.007-1.875-2.25s.84-2.25 1.875-2.25c.369 0 .713.128 1.003.349.283.215.604.401.959.401a.656.656 0 00.659-.663 47.703 47.703 0 00-.31-4.82.75.75 0 01.83-.832c1.343.155 2.703.254 4.077.294a.64.64 0 00.657-.642z" />
-                </svg>
-                <span className="font-bold text-xs tracking-wider uppercase">Protected Territory</span>
-              </div>
-              
-              <h2 className="text-3xl sm:text-4xl font-bold mb-3 font-heading">
-                Only One Business Per Category, Per Area
-              </h2>
-              
-              <p className="text-lg text-white/90 max-w-xl mx-auto">
-                First come, first served. Your competitors are locked out once you claim your spot.
-              </p>
-            </div>
-          </div>
+          {/* Subtle section divider */}
+          <div className="absolute bottom-0 left-0 right-0 h-px bg-gradient-to-r from-transparent via-[#f27d24]/20 to-transparent" />
+
         </section>
+        {/* ==================== END HERO SECTION ==================== */}
+
+        {/* Subtle section divider */}
+        <div className="h-px w-full bg-gradient-to-r from-transparent via-white/10 to-transparent" />
 
         {/* Case Study */}
         <section id="case-study" className="max-w-5xl mx-auto px-6 pb-32">
@@ -1407,32 +1435,38 @@ export default function Home() {
           </a>
         </div>
 
-        {/* Lightbox Modal */}
+        {/* Lightbox Modal with Focus Trap */}
         {activeImage && (
-          <div
-            className="fixed inset-0 z-50 bg-black/95 backdrop-blur-sm flex items-center justify-center p-4 sm:p-8 cursor-zoom-out"
-            onClick={() => setActiveImage(null)}
-          >
-            <div className="relative max-w-5xl w-full">
-              <Image
-                src={activeImage}
-                alt="Enlarged screenshot"
-                width={1400}
-                height={1000}
-                className="w-full h-auto rounded-xl shadow-2xl"
-                unoptimized
-              />
-              <button
-                onClick={() => setActiveImage(null)}
-                className="absolute -top-12 right-0 text-gray-400 hover:text-white transition-colors flex items-center gap-2 text-sm"
-              >
-                Press ESC or click to close
-                <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={2} aria-hidden="true">
-                  <path strokeLinecap="round" strokeLinejoin="round" d="M6 18L18 6M6 6l12 12" />
-                </svg>
-              </button>
+          <FocusTrap>
+            <div
+              className="fixed inset-0 z-50 bg-black/95 backdrop-blur-sm flex items-center justify-center p-4 sm:p-8 cursor-zoom-out"
+              onClick={() => setActiveImage(null)}
+              role="dialog"
+              aria-modal="true"
+              aria-label="Enlarged image view"
+            >
+              <div className="relative max-w-5xl w-full">
+                <Image
+                  src={activeImage}
+                  alt="Enlarged screenshot"
+                  width={1400}
+                  height={1000}
+                  className="w-full h-auto rounded-xl shadow-2xl"
+                  unoptimized
+                />
+                <button
+                  onClick={() => setActiveImage(null)}
+                  className="absolute -top-12 right-0 text-gray-400 hover:text-white transition-colors flex items-center gap-2 text-sm"
+                  autoFocus
+                >
+                  Press ESC or click to close
+                  <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={2} aria-hidden="true">
+                    <path strokeLinecap="round" strokeLinejoin="round" d="M6 18L18 6M6 6l12 12" />
+                  </svg>
+                </button>
+              </div>
             </div>
-          </div>
+          </FocusTrap>
         )}
       </main>
     </>

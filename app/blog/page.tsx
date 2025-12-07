@@ -324,10 +324,14 @@ export default function Blog() {
                         </div>
 
                         <div className="p-5 sm:p-6">
-                          <div className="flex items-center gap-2 text-xs sm:text-sm text-gray-500 mb-3">
+                          <div className="flex items-center flex-wrap gap-x-2 gap-y-1 text-xs sm:text-sm text-gray-500 mb-3">
                             <span className="text-[#f27d24]">{post.category}</span>
                             <span>•</span>
                             <span>{post.readTime}</span>
+                            <span>•</span>
+                            <time dateTime={post.publishDate}>
+                              {new Date(post.publishDate).toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' })}
+                            </time>
                           </div>
 
                           <h3 className="text-lg sm:text-xl font-semibold text-white mb-3 group-hover:text-[#f27d24] transition-colors leading-tight font-heading line-clamp-2">
@@ -392,10 +396,14 @@ export default function Blog() {
                     </div>
 
                     <div className="p-5 sm:p-6">
-                      <div className="flex items-center gap-2 text-xs sm:text-sm text-gray-500 mb-3">
+                      <div className="flex items-center flex-wrap gap-x-2 gap-y-1 text-xs sm:text-sm text-gray-500 mb-3">
                         <span className="text-[#f27d24]">{post.category}</span>
                         <span>•</span>
                         <span>{post.readTime}</span>
+                        <span>•</span>
+                        <time dateTime={post.publishDate}>
+                          {new Date(post.publishDate).toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' })}
+                        </time>
                       </div>
 
                       <h3 className="text-lg sm:text-xl font-semibold text-white mb-3 group-hover:text-[#f27d24] transition-colors leading-tight font-heading line-clamp-2">
