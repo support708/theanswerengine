@@ -115,7 +115,7 @@ export default function JustinBorgesCaseStudy() {
                 "@type": "Article",
                 "@id": "https://theanswerengine.ai/case-studies/justin-borges#article",
                 "headline": "Case Study: 3,300+ Monthly Clicks in LA's Most Competitive Market",
-                "description": "How Answer Engine Optimization helped The Borges Real Estate Team capture 3,300+ monthly clicks and dominate 1,000+ search queries—competing against 70,000 agents without ad spend.",
+                "description": "How Answer Engine Optimization helped The Borges Real Estate Team capture 3,300+ monthly clicks and dominate 1,000+ search queries, competing against 70,000 agents without ad spend.",
                 "image": "https://theanswerengine.ai/justin-borges-headshot.jpg",
                 "author": {
                   "@id": "https://theanswerengine.ai/#jb-author"
@@ -331,7 +331,7 @@ export default function JustinBorgesCaseStudy() {
             </div>
 
             <p className="text-lg sm:text-xl text-gray-300 leading-relaxed">
-              How strategic Answer Engine Optimization helped one real estate team go from invisible to generating 3,300+ monthly clicks and dominating 1,000+ search queries—without spending a dollar on ads.
+              How strategic Answer Engine Optimization helped one real estate team go from invisible to generating 3,300+ monthly clicks and dominating 1,000+ search queries, all without spending a dollar on ads.
             </p>
           </header>
 
@@ -474,7 +474,7 @@ export default function JustinBorgesCaseStudy() {
               <div className="bg-[#f27d24]/10 border-l-4 border-[#f27d24] p-6 rounded-r-xl">
                 <h3 className="text-lg font-semibold text-white mb-3 font-heading">The Strategy</h3>
                 <p className="text-gray-300 mb-4">
-                  We identified the complex problems Justin solves every day—the situations where his 13+ years of expertise actually matters:
+                  We identified the complex problems Justin solves every day, the situations where his 13+ years of expertise actually matters:
                 </p>
                 <ul className="space-y-2 text-gray-300">
                   {[
@@ -600,7 +600,7 @@ export default function JustinBorgesCaseStudy() {
               <blockquote className="text-lg sm:text-xl text-gray-200 leading-relaxed mb-8">
                 "15 years in LA real estate, but online I was invisible. Buried on page 2-3 for everything.
                 <br/><br/>
-                We identified specific problems where I have genuine expertise—complex situations most competitors avoid. Now I'm getting over 3,000 clicks a month without spending a dime on ads.
+                We identified specific problems where I have genuine expertise, complex situations most competitors avoid. Now I'm getting over 3,000 clicks a month without spending a dime on ads.
                 <br/><br/>
                 But the real change? <span className="text-white font-semibold">Lead quality.</span>
                 <br/><br/>

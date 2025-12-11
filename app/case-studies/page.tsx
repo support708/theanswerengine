@@ -237,7 +237,7 @@ export default function CaseStudies() {
             </h1>
 
             <p className="text-lg sm:text-xl text-gray-400 max-w-3xl mx-auto leading-relaxed">
-              See how Answer Engine Optimization helped local service businesses dominate AI search—generating qualified leads from ChatGPT, Claude, and Google AI Overviews.
+              See how Answer Engine Optimization helped local service businesses dominate AI search, generating qualified leads from ChatGPT, Claude, and Google AI Overviews.
             </p>
           </header>
 
@@ -349,7 +349,7 @@ export default function CaseStudies() {
                   "15 years in LA real estate, but online I was invisible. Now I'm getting over 3,000 clicks a month without spending a dime on ads. But the real change? <span className="text-white font-medium">Lead quality.</span> People trust my expertise and need MY help specifically."
                 </p>
                 <div className="font-semibold text-[#f27d24] relative z-10 pl-6 sm:pl-0">
-                  — Justin Borges, The Borges Real Estate Team
+                  - Justin Borges, The Borges Real Estate Team
                 </div>
               </div>
 

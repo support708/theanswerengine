@@ -213,7 +213,7 @@ export default function About() {
               <div className="space-y-6 text-base sm:text-lg text-gray-300 leading-relaxed">
                 <p>
                   Search is changing. When people ask ChatGPT, Claude, Perplexity, or Google AI Overviews for recommendations,
-                  <span className="text-white font-medium"> AI doesn't show a list of 10 blue links</span>—it gives one answer.
+                  <span className="text-white font-medium"> AI doesn't show a list of 10 blue links</span>. It gives one answer.
                 </p>
 
                 <p>
@@ -224,7 +224,7 @@ export default function About() {
                   <p className="text-white font-medium mb-2">The harsh reality:</p>
                   <p className="text-gray-300">
                     Most local businesses have spent years building SEO strategies designed for the old Google.
-                    But AI engines work differently. They don't rank pages—they cite authorities.
+                    But AI engines work differently. They don't rank pages. They cite authorities.
                     And right now, your competitors are probably getting cited instead of you.
                   </p>
                 </div>
@@ -255,7 +255,7 @@ export default function About() {
 
               <p className="text-center text-lg text-gray-300 leading-relaxed max-w-2xl mx-auto">
                 We help local service businesses become the trusted source that AI platforms cite when prospects ask buying questions.
-                Not through tricks or hacks—through genuine authority positioning.
+                Not through tricks or hacks, but through genuine authority positioning.
               </p>
             </div>
           </section>
@@ -295,7 +295,7 @@ export default function About() {
                   },
                   {
                     title: "Proven in Competition",
-                    description: "Our methods work in America's most competitive market—LA County real estate with 70,000+ agents. Your industry has less competition.",
+                    description: "Our methods work in America's most competitive market: LA County real estate with 70,000+ agents. Your industry has less competition.",
                     icon: (
                       <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={2} aria-hidden="true">
                         <path strokeLinecap="round" strokeLinejoin="round" d="M16 8v8m-4-5v5m-4-2v2m-2 4h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z" />

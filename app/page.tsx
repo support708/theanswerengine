@@ -282,7 +282,7 @@ export default function Home() {
                 "name": "How is AEO different from regular SEO?",
                 "acceptedAnswer": {
                   "@type": "Answer",
-                  "text": "Traditional SEO gets you on page 1. AEO gets you cited as THE answer. When someone asks AI 'who's the best plumber in Phoenix,' we make sure AI says your name—not a list of 10 competitors."
+                  "text": "Traditional SEO gets you on page 1. AEO gets you cited as THE answer. When someone asks AI 'who's the best plumber in Phoenix,' we make sure AI says your name, not a list of 10 competitors."
                 }
               },
               {
@@ -322,7 +322,7 @@ export default function Home() {
                 "@type": "HowToStep",
                 "position": 1,
                 "name": "Competitive Audit",
-                "text": "We test 50+ customer queries across Google AI, ChatGPT, Claude & Perplexity to see who AI recommends—and identify exactly what you need to outrank them.",
+                "text": "We test 50+ customer queries across Google AI, ChatGPT, Claude & Perplexity to see who AI recommends and identify exactly what you need to outrank them.",
                 "url": "https://theanswerengine.ai/#how-it-works"
               },
               {
@@ -425,7 +425,7 @@ export default function Home() {
                     "name": "The Borges Real Estate Team"
                   }
                 },
-                "reviewBody": "JB doesn't just understand SEO—he understands how AI actually decides who to recommend. That's a completely different skill set, and it's working.",
+                "reviewBody": "JB doesn't just understand SEO. He understands how AI actually decides who to recommend. That's a completely different skill set, and it's working.",
                 "datePublished": "2025-01-15",
                 "itemReviewed": {
                   "@type": "Service",
@@ -446,7 +446,7 @@ export default function Home() {
             "@type": "DefinedTerm",
             "name": "Answer Engine Optimization",
             "alternateName": ["AEO", "AI Search Optimization", "AI Citation Optimization"],
-            "description": "Answer Engine Optimization (AEO) is the practice of structuring content so AI platforms—ChatGPT, Claude, Perplexity, Google AI Overviews—cite your business as the trusted answer. Unlike traditional SEO which optimizes for rankings, AEO optimizes for being the definitive answer AI recommends.",
+            "description": "Answer Engine Optimization (AEO) is the practice of structuring content so AI platforms like ChatGPT, Claude, Perplexity, and Google AI Overviews cite your business as the trusted answer. Unlike traditional SEO which optimizes for rankings, AEO optimizes for being the definitive answer AI recommends.",
             "inDefinedTermSet": {
               "@type": "DefinedTermSet",
               "name": "Digital Marketing Terminology",
@@ -579,12 +579,12 @@ export default function Home() {
           <div className="absolute inset-0 pointer-events-none">
             {/* Radial glow - centered behind content */}
             <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[800px] h-[600px]">
-              <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,rgba(242,125,36,0.25),transparent_70%)]" />
+              <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,rgba(242,125,36,0.30),transparent_70%)]" />
             </div>
 
             {/* Secondary purple glow - offset */}
             <div className="absolute top-1/3 right-1/4 w-[400px] h-[400px]">
-              <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,rgba(54,36,120,0.15),transparent_70%)]" />
+              <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,rgba(54,36,120,0.20),transparent_70%)]" />
             </div>
 
             {/* Dot grid pattern */}
@@ -604,7 +604,7 @@ export default function Home() {
           </div>
 
           {/* Badge */}
-          <div className="relative z-10 inline-flex items-center gap-2 px-4 py-2 rounded-full bg-white/[0.03] border border-white/[0.08] mb-8 opacity-0 animate-hero-fade-in" style={{ animationDelay: '0ms', animationFillMode: 'forwards' }}>
+          <div className="relative z-10 inline-flex items-center gap-2 px-4 py-2 rounded-full bg-white/[0.03] border border-white/[0.08] mb-6 opacity-0 animate-hero-fade-in" style={{ animationDelay: '0ms', animationFillMode: 'forwards' }}>
             <div className="w-2 h-2 rounded-full bg-emerald-400 animate-pulse" />
             <span className="text-sm text-white/60 tracking-wide">Answer Engine Optimization Agency</span>
           </div>
@@ -613,19 +613,19 @@ export default function Home() {
           <h1 className="relative z-10 text-center font-heading">
             <span
               className="block text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold text-white leading-[1.05] tracking-tight opacity-0 animate-fade-up"
-              style={{ animationDelay: '100ms', animationFillMode: 'forwards' }}
+              style={{ animationDelay: '100ms', animationFillMode: 'forwards', textShadow: '0 2px 40px rgba(0,0,0,0.3)' }}
             >
               ChatGPT Recommends
             </span>
             <span
-              className="block text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold text-white leading-[1.05] tracking-tight mt-2 opacity-0 animate-fade-up"
-              style={{ animationDelay: '200ms', animationFillMode: 'forwards' }}
+              className="block text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold text-white leading-[1.05] tracking-tight mt-1 opacity-0 animate-fade-up"
+              style={{ animationDelay: '200ms', animationFillMode: 'forwards', textShadow: '0 2px 40px rgba(0,0,0,0.3)' }}
             >
               Your Competitors<span className="text-[#f27d24]">.</span> Not You<span className="text-[#f27d24]">.</span>
             </span>
             <span
-              className="block text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold leading-[1.05] tracking-tight mt-2 text-transparent bg-clip-text bg-gradient-to-r from-[#f27d24] to-[#d66d1f] opacity-0 animate-fade-up"
-              style={{ animationDelay: '300ms', animationFillMode: 'forwards' }}
+              className="block text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold leading-[1.05] tracking-tight mt-1 text-transparent bg-clip-text bg-gradient-to-r from-[#f27d24] to-[#d66d1f] opacity-0 animate-fade-up"
+              style={{ animationDelay: '300ms', animationFillMode: 'forwards', textShadow: '0 2px 40px rgba(0,0,0,0.3)' }}
             >
               Let's Fix That.
             </span>
@@ -633,42 +633,48 @@ export default function Home() {
 
           {/* Subheadline */}
           <p
-            className="hero-description relative z-10 text-lg sm:text-xl text-white/60 max-w-2xl mx-auto text-center mt-8 mb-8 opacity-0 animate-fade-up"
+            className="hero-description relative z-10 text-lg sm:text-xl text-white/60 max-w-2xl mx-auto text-center mt-6 mb-6 opacity-0 animate-fade-up"
             style={{ animationDelay: '400ms', animationFillMode: 'forwards' }}
           >
-            We help local service businesses become the answer AI platforms recommend—turning invisible experts into the obvious choice.
+            We help local service businesses become the answer AI platforms recommend, turning invisible experts into the obvious choice.
           </p>
 
           {/* AI Platform Logos */}
           <div
-            className="relative z-10 flex flex-col items-center mb-10 opacity-0 animate-fade-up"
+            className="relative z-10 flex flex-col items-center mb-8 opacity-0 animate-fade-up"
             style={{ animationDelay: '500ms', animationFillMode: 'forwards' }}
           >
-            <div className="flex items-center justify-center gap-6 sm:gap-8">
+            <div className="flex items-center justify-center gap-8 sm:gap-10">
               {/* ChatGPT */}
-              <div className="opacity-50 hover:opacity-80 transition-opacity" title="ChatGPT">
-                <svg className="h-6 w-6 text-white" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+              <div className="opacity-50 hover:opacity-90 transition-all duration-300 hover:scale-110" title="ChatGPT">
+                <svg className="h-8 w-8 text-white" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
                   <path d="M22.282 9.821a5.985 5.985 0 0 0-.516-4.91 6.046 6.046 0 0 0-6.51-2.9A6.065 6.065 0 0 0 4.981 4.18a5.985 5.985 0 0 0-3.998 2.9 6.046 6.046 0 0 0 .743 7.097 5.98 5.98 0 0 0 .51 4.911 6.051 6.051 0 0 0 6.515 2.9A5.985 5.985 0 0 0 13.26 24a6.056 6.056 0 0 0 5.772-4.206 5.99 5.99 0 0 0 3.997-2.9 6.056 6.056 0 0 0-.747-7.073zM13.26 22.43a4.476 4.476 0 0 1-2.876-1.04l.141-.081 4.779-2.758a.795.795 0 0 0 .392-.681v-6.737l2.02 1.168a.071.071 0 0 1 .038.052v5.583a4.504 4.504 0 0 1-4.494 4.494zM3.6 18.304a4.47 4.47 0 0 1-.535-3.014l.142.085 4.783 2.759a.771.771 0 0 0 .78 0l5.843-3.369v2.332a.08.08 0 0 1-.033.062L9.74 19.95a4.5 4.5 0 0 1-6.14-1.646zM2.34 7.896a4.485 4.485 0 0 1 2.366-1.973V11.6a.766.766 0 0 0 .388.676l5.815 3.355-2.02 1.168a.076.076 0 0 1-.071 0l-4.83-2.786A4.504 4.504 0 0 1 2.34 7.872zm16.597 3.855l-5.833-3.387L15.119 7.2a.076.076 0 0 1 .071 0l4.83 2.791a4.494 4.494 0 0 1-.676 8.105v-5.678a.79.79 0 0 0-.407-.667zm2.01-3.023l-.141-.085-4.774-2.782a.776.776 0 0 0-.785 0L9.409 9.23V6.897a.066.066 0 0 1 .028-.061l4.83-2.787a4.5 4.5 0 0 1 6.68 4.66zm-12.64 4.135l-2.02-1.164a.08.08 0 0 1-.038-.057V6.075a4.5 4.5 0 0 1 7.375-3.453l-.142.08L8.704 5.46a.795.795 0 0 0-.393.681zm1.097-2.365l2.602-1.5 2.607 1.5v2.999l-2.597 1.5-2.607-1.5z"/>
                 </svg>
               </div>
 
               {/* Claude */}
-              <div className="opacity-50 hover:opacity-80 transition-opacity" title="Claude">
-                <svg className="h-6 w-6 text-white" viewBox="0 0 46 32" fill="currentColor" aria-hidden="true">
-                  <path d="M23.0156 0L32.2268 28.0552H46L36.7888 0H23.0156ZM0 28.0552H13.7731L22.9844 0H9.21122L0 28.0552Z" />
+              <div className="opacity-50 hover:opacity-90 transition-all duration-300 hover:scale-110" title="Claude">
+                <svg className="h-8 w-8" viewBox="0 0 1024 1024" fill="white" aria-hidden="true">
+                  <path d="M472.5 1013.3l-12.7-9.8-6.4-15c-3.5-8.2-6.4-15.7-6.4-16.8 0-1 3.3-17.2 7.4-36 4.1-18.8 8.6-40.3 10.1-47.7 1.5-7.4 7.8-38.7 14.1-69.5 7.9-38.7 13.5-69 17.9-98 4.3-28.1 7.6-46.1 9.9-54.5 1.9-6.8 3.2-12.8 3-13.2-0.9-1.5-6.1-0.8-7.7 1-0.8 0.9-15.6 21.1-32.9 44.7-17.2 23.7-51.7 70.5-76.6 104l-45.2 61-36 38.5-36 38.5-8.8 3.6-8.7 3.6-13.5-6.8c-7.4-3.7-14.3-7.4-15.2-8.1-1.6-1.2-1.7-2.2-0.3-14.8l1.4-13.4 7.8-11.5c4.3-6.3 31.7-41.9 60.8-79.1 29.2-37.1 66.9-85.5 83.7-107.5 16.9-22 39-49.7 49.2-61.5 17.1-19.8 18.5-21.8 18.6-25.4 0-3.5-0.2-3.8-2.3-3.4-1.3 0.2-63 39.8-137.3 88l-134.9 87.5-23.6 2.9-23.6 3-10.2-9.6-10.3-9.5 1.3-15.7 1.2-15.7 6.1-5.9c3.6-3.5 22.3-17.1 45.1-32.8l39-26.8 101-56.6 101-56.6 1.8-5c1.7-4.4 1.7-5.2 0.4-7.9l-1.5-3.1-23.3-1.2c-12.9-0.7-48.1-1.9-78.4-2.7-64.2-1.8-130.9-4.4-201-8-42.8-2.2-51.9-3-63-5.2-7.2-1.4-13.6-3-14.3-3.6-0.7-0.5-6-7.3-11.8-14.9l-10.6-14 0.7-6.1c0.3-3.4 1-6.8 1.5-7.7 0.5-0.9 5.2-4.5 10.5-8l9.6-6.4 14.2 1.2c23.6 2 169.7 12 208.2 14.2 20.9 1.2 58 4.4 88.5 7.6 28.9 3 56.9 5.4 62.3 5.4 9.5 0 9.8-0.1 10.7-2.6 1.6-4.1 1.3-4.6-4.8-9.6-7.5-6.2-86.7-59.8-156.7-106.1-30.8-20.3-69.7-47-86.5-59.2-16.8-12.2-36.6-26.3-44.2-31.3-12.4-8.3-14.3-10-21.5-19.1l-7.9-10.1-3.3-21.1-3.2-21.2 2.9-3.1c2.7-2.9 22.8-25.3 24.1-26.8 1-1.2 39.4 2 43.9 3.6 2.4 0.9 12 7.5 21.5 14.8 9.5 7.3 37 28.6 61.2 47.3 24.3 18.7 67.5 51.2 96 72.2 28.6 21.1 55.2 41 59.1 44.2l7.1 6 3.6-2.5c2.3-1.5 3.7-3.3 3.7-4.5 0-1.2-2.2-5.8-4.9-10.3-2.6-4.4-16.9-29.9-31.6-56.6-31.2-56.4-81.5-143.4-102.1-176.6-7.9-12.7-14.8-24.4-15.5-26-3.1-8.2-10-38.4-10.6-46.4l-0.6-8.8 15.9-21.6 15.9-21.5 8.5-2.7 8.5-2.7 18.1 2.2c9.9 1.3 19.6 2.6 21.4 3 1.9 0.4 6.6 3.5 11.9 8.1l8.7 7.5 11.4 26c34.1 78 59.2 132.1 80.4 173.5 69.6 135.5 62.2 120.2 68.7 142 8.7 29.2 7.8 27.4 12.7 27.8l4.2 0.3 0-6.4c0-13.4 5.3-74.9 10-116.7 2.7-24 7-67.4 9.5-96.5 2.4-29.2 5.4-62.7 6.6-74.5l2.2-21.5 8-19.6 8-19.6 14.5-9.4c7.9-5.2 15.2-9.8 16.1-10.2 1.2-0.6 5.2 0.9 13.7 5l11.9 5.9 10.1 14.5 10.1 14.4-7.7 50c-4.7 30.3-12.9 76.8-20.8 118-7.2 37.4-16 83.3-19.5 102l-6.4 34 5 0.3c4.8 0.3 5.2 0.1 9.9-4.5 2.7-2.6 14.4-17.4 26.1-32.8 27.9-36.9 88.9-113.2 105.7-132 28.9-32.6 53.3-57.7 65.2-67.2l11.8-9.3 21.4 0 21.5 0 14.5 21.4c8 11.8 15.3 22.7 16.2 24.3 1.6 2.8 1.5 3.5-5.4 27.2-4 13.4-7.6 24.9-8 25.5-0.5 0.6-10.3 13-21.8 27.6-32.1 40.6-58.5 75-87.5 114-23.8 32.1-28.1 38.4-43.6 65l-17.1 29.4 1.8 2.6c1.6 2.2 2.5 2.6 5.7 2.2 2.1-0.2 31.5-6.2 65.3-13.4 60.5-12.8 112-22.5 174-32.9l31.5-5.2 15.5 7.2c8.5 4 16.4 7.8 17.6 8.6 1.5 1 2.6 3.5 3.8 9.2l1.7 7.9-7 16.9-6.9 17-39.3 9.8c-21.9 5.4-63.4 14.6-93.4 20.7-48.1 9.7-190.2 42.3-196.4 45-2.3 1-2.3 1.2-0.8 2.8 1.4 1.3 8.4 2.3 35.4 5 31.4 3 37.7 3.3 88.3 4.2 50.5 0.8 58.7 1.2 112.2 5.3l57.7 4.4 16.8 11.1 16.8 11.1 9 12.2c5 6.8 9.4 12.9 9.9 13.7 0.9 1.6-1 17.5-2.5 20.4-0.5 0.9-12.2 7.4-26.1 14.4l-25.2 12.7-17.6-4.1c-61.4-14.4-215.4-51.3-240.7-57.6-16.6-4.2-32.3-7.6-34.8-7.6-4.2 0-4.5 0.2-4.5 2.6 0 3.7 36.4 39.1 89.5 86.9 23.1 20.8 66.3 60.5 96.1 88.1l54 50.2 2.3 10.9c1.3 5.9 2.5 11.3 2.8 11.8 0.2 0.6-2.7 5.4-6.3 10.6-3.7 5.1-6.8 9.5-6.9 9.6 0 0.1-3.2-0.2-7-0.8l-7-1.1-47-35.2c-28.9-21.7-53.6-41-64-50.3-9.3-8.2-36.1-31-59.4-50.6-34.1-28.7-42.9-35.7-45.2-35.7-2.7 0-2.9 0.3-2.9 4.1 0 3.7 5.1 11.8 59.4 93.2l59.5 89.2 2.4 22.5 2.5 22.5-3.4 7.5-3.5 7.5-12.6 4.4-12.7 4.4-14.2-2.3-14.2-2.4-30-42c-39.3-55.1-82.7-121.7-113.2-173.7-13.4-22.8-24.4-41.5-24.5-41.7-0.2-0.2-1.8 0.4-3.7 1.3l-3.4 1.7-14.3 154.6c-8.2 88.5-14.8 155.3-15.4 156.2-0.7 0.8-3.7 4.5-6.9 8.1-5.7 6.6-5.8 6.6-20.5 12.3-8.1 3.1-15.1 5.6-15.4 5.6-0.4 0-6.4-4.4-13.4-9.7z"/>
                 </svg>
               </div>
 
               {/* Perplexity */}
-              <div className="opacity-50 hover:opacity-80 transition-opacity" title="Perplexity">
-                <svg className="h-6 w-6 text-white" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
-                  <path d="M12 2L2 7v10l10 5 10-5V7L12 2zm0 2.18l6.9 3.45L12 11.08 5.1 7.63 12 4.18zM4 8.82l7 3.5v7.36l-7-3.5V8.82zm9 10.86v-7.36l7-3.5v7.36l-7 3.5z"/>
+              <div className="opacity-50 hover:opacity-90 transition-all duration-300 hover:scale-110" title="Perplexity">
+                <svg className="h-8 w-8" viewBox="0 0 24 24" fill="none" stroke="white" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+                  <path d="M12 2V22"/>
+                  <path d="M4 6L12 12L20 6"/>
+                  <path d="M4 18L12 12L20 18"/>
+                  <path d="M4 6V18"/>
+                  <path d="M20 6V18"/>
+                  <path d="M1 12H4"/>
+                  <path d="M20 12H23"/>
                 </svg>
               </div>
 
               {/* Google AI */}
-              <div className="opacity-50 hover:opacity-80 transition-opacity" title="Google AI">
-                <svg className="h-6 w-6" viewBox="0 0 24 24" aria-hidden="true">
+              <div className="opacity-50 hover:opacity-90 transition-all duration-300 hover:scale-110" title="Google AI">
+                <svg className="h-8 w-8" viewBox="0 0 24 24" aria-hidden="true">
                   <path fill="#4285F4" d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z"/>
                   <path fill="#34A853" d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z"/>
                   <path fill="#FBBC05" d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l2.85-2.22.81-.62z"/>
@@ -691,7 +697,7 @@ export default function Home() {
             >
               Check My Territory
               <svg
-                className="w-5 h-5 group-hover:translate-x-1 transition-transform duration-300"
+                className="w-5 h-5 group-hover:translate-x-1.5 transition-transform duration-300"
                 fill="none"
                 viewBox="0 0 24 24"
                 stroke="currentColor"
@@ -939,7 +945,7 @@ export default function Home() {
                   ))}
                 </div>
                 <blockquote className="text-xl sm:text-2xl text-white/90 leading-relaxed mb-8 relative z-10">
-                  &ldquo;JB doesn&apos;t just understand SEO—he understands how AI actually decides who to recommend. That&apos;s a completely different skill set, and it&apos;s working.&rdquo;
+                  &ldquo;JB doesn&apos;t just understand SEO. He understands how AI actually decides who to recommend. That&apos;s a completely different skill set, and it&apos;s working.&rdquo;
                 </blockquote>
                 <div className="flex items-center gap-4">
                   <div className="w-14 h-14 rounded-full bg-gradient-to-br from-[#f27d24]/20 to-[#362478]/20 ring-2 ring-[#f27d24]/30 ring-offset-2 ring-offset-[#0F1117] flex items-center justify-center text-white font-semibold text-lg">JB</div>
@@ -987,7 +993,7 @@ export default function Home() {
                   {
                     number: '1',
                     title: "Competitive Audit",
-                    description: "We test 50+ customer queries across Google AI, ChatGPT, Claude & Perplexity to see who AI recommends—and identify exactly what you need to outrank them.",
+                    description: "We test 50+ customer queries across Google AI, ChatGPT, Claude & Perplexity to see who AI recommends and identify exactly what you need to outrank them.",
                     timeline: "Week 1-2"
                   },
                   {
@@ -1139,9 +1145,9 @@ export default function Home() {
 
               <div className="space-y-4 text-left max-w-xl mx-auto mb-8">
                 {[
-                  "Get cited by AI within 90 days — or I keep working for free until you do",
+                  "Get cited by AI within 90 days, or I keep working for free until you do",
                   "Don't want to wait? Request a full refund instead. Your choice.",
-                  "Territory protection included — I won't work with your competitors"
+                  "Territory protection included. I won't work with your competitors"
                 ].map((item, i) => (
                   <div
                     key={i}
@@ -1160,7 +1166,7 @@ export default function Home() {
 
               <div className="bg-white/[0.05] border border-white/[0.08] rounded-xl p-6 max-w-xl mx-auto">
                 <p className="text-gray-300 leading-relaxed">
-                  I've never had to give a refund. When you follow the process, AI engines cite you. Plus, your territory is protected—I won't work with competing businesses in your area.
+                  I've never had to give a refund. When you follow the process, AI engines cite you. Plus, your territory is protected. I won't work with competing businesses in your area.
                 </p>
               </div>
             </div>
@@ -1183,11 +1189,11 @@ export default function Home() {
               {[
                 {
                   q: "What exactly is Answer Engine Optimization?",
-                  a: "AEO is the practice of structuring your content so AI platforms—ChatGPT, Claude, Perplexity, Google AI Overviews—cite your business as the trusted answer. It's not about ranking on Google anymore. It's about being the business AI recommends."
+                  a: "AEO is the practice of structuring your content so AI platforms like ChatGPT, Claude, Perplexity, and Google AI Overviews cite your business as the trusted answer. It's not about ranking on Google anymore. It's about being the business AI recommends."
                 },
                 {
                   q: "How is this different from regular SEO?",
-                  a: "Traditional SEO gets you on page 1. AEO gets you cited as THE answer. When someone asks AI 'who's the best plumber in Phoenix,' we make sure AI says your name—not a list of 10 competitors."
+                  a: "Traditional SEO gets you on page 1. AEO gets you cited as THE answer. When someone asks AI 'who's the best plumber in Phoenix,' we make sure AI says your name, not a list of 10 competitors."
                 },
                 {
                   q: "How long until I see results?",
