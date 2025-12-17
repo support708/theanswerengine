@@ -1,6 +1,5 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
-import Script from 'next/script';
 
 // ISR Configuration
 export const revalidate = 86400; // 24 hours
@@ -8,324 +7,185 @@ export const dynamic = 'force-static';
 export const dynamicParams = true;
 
 // Enhanced Metadata
-export async function generateMetadata(): Promise<Metadata> {
-  const lastUpdated = new Date().toISOString().split('T')[0];
-  const publishDate = '2025-11-09';
-  
-  return {
-    title: 'Why Most Businesses Fail at Answer Engine Optimization | The Answer Engine',
-    description: 'Discover the 8 critical mistakes causing AEO implementations to fail and why businesses waste months on broken optimization without knowing it.',
-    
-    openGraph: {
-      title: 'Why Most Businesses Fail at Answer Engine Optimization',
-      description: 'The 8 critical mistakes causing AEO failures and why broken implementations stay invisible for months.',
-      type: 'article',
-      publishedTime: publishDate,
-      modifiedTime: lastUpdated,
-      authors: ['The Answer Engine Team'],
-      url: 'https://theanswerengine.ai/blog/why-businesses-fail-answer-engine-optimization',
-      images: [
-        {
-          url: 'https://theanswerengine.ai/images/why-businesses-fail-aeo-featured.png',
-          width: 1200,
-          height: 630,
-          alt: 'Why Most Businesses Fail at Answer Engine Optimization',
-        }
-      ],
-      siteName: 'The Answer Engine',
-    },
-    
-    twitter: {
-      card: 'summary_large_image',
-      title: 'Why Most Businesses Fail at Answer Engine Optimization',
-      description: 'The 8 critical mistakes causing AEO implementations to fail.',
-      images: ['https://theanswerengine.ai/images/why-businesses-fail-aeo-featured.png'],
-      creator: '@theanswerengine',
-    },
-    
-    alternates: {
-      canonical: 'https://theanswerengine.ai/blog/why-businesses-fail-answer-engine-optimization',
-    },
-    
-    other: {
-      'article:modified_time': lastUpdated,
-      'article:published_time': publishDate,
-      'article:author': 'The Answer Engine Team',
-      'article:section': 'Answer Engine Optimization',
-    },
-    
-    keywords: [
-      'AEO mistakes',
-      'answer engine optimization failures',
-      'why AEO fails',
-      'common AEO errors',
-      'business optimization mistakes',
-      'AI citation problems',
-      'AEO implementation errors',
+export const metadata: Metadata = {
+  title: 'Why Most Businesses Fail at Answer Engine Optimization | The Answer Engine',
+  description: 'Discover the 8 critical mistakes causing AEO implementations to fail and why businesses waste months on broken optimization without knowing it.',
+
+  openGraph: {
+    title: 'Why Most Businesses Fail at Answer Engine Optimization',
+    description: 'The 8 critical mistakes causing AEO failures and why broken implementations stay invisible for months.',
+    type: 'article',
+    publishedTime: '2025-11-09',
+    modifiedTime: '2025-11-09',
+    authors: ['Justin Borges'],
+    url: 'https://theanswerengine.ai/blog/why-businesses-fail-answer-engine-optimization',
+    images: [
+      {
+        url: 'https://theanswerengine.ai/images/why-businesses-fail-aeo-featured.png',
+        width: 1200,
+        height: 630,
+        alt: 'Why Most Businesses Fail at Answer Engine Optimization',
+      }
     ],
+    siteName: 'The Answer Engine',
+  },
+
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Why Most Businesses Fail at Answer Engine Optimization',
+    description: 'The 8 critical mistakes causing AEO implementations to fail.',
+    images: ['https://theanswerengine.ai/images/why-businesses-fail-aeo-featured.png'],
+    creator: '@theanswerengine',
+  },
+
+  alternates: {
+    canonical: 'https://theanswerengine.ai/blog/why-businesses-fail-answer-engine-optimization',
+  },
+
+  keywords: [
+    'AEO mistakes',
+    'answer engine optimization failures',
+    'why AEO fails',
+    'common AEO errors',
+    'business optimization mistakes',
+    'AI citation problems',
+    'AEO implementation errors',
+  ],
+};
+
+// JSON-LD Schema Component
+function ComprehensiveSchema() {
+  const schemaData = {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Article",
+        "@id": "https://theanswerengine.ai/blog/why-businesses-fail-answer-engine-optimization#article",
+        "headline": "Why Most Businesses Fail at Answer Engine Optimization",
+        "description": "Discover the 8 critical mistakes causing AEO implementations to fail and why businesses waste months on broken optimization without knowing it.",
+        "image": {
+          "@type": "ImageObject",
+          "url": "https://theanswerengine.ai/images/why-businesses-fail-aeo-featured.png",
+          "width": 1200,
+          "height": 630
+        },
+        "author": {
+          "@type": "Person",
+          "@id": "https://theanswerengine.ai/about#founder"
+        },
+        "publisher": {
+          "@type": "Organization",
+          "@id": "https://theanswerengine.ai/#organization"
+        },
+        "datePublished": "2025-11-09T09:00:00-08:00",
+        "dateModified": "2025-11-09T09:00:00-08:00",
+        "mainEntityOfPage": {
+          "@type": "WebPage",
+          "@id": "https://theanswerengine.ai/blog/why-businesses-fail-answer-engine-optimization"
+        },
+        "articleSection": "Answer Engine Optimization",
+        "keywords": "AEO mistakes, answer engine optimization failures, why AEO fails, common AEO errors",
+        "wordCount": 4800
+      },
+      {
+        "@type": "FAQPage",
+        "@id": "https://theanswerengine.ai/blog/why-businesses-fail-answer-engine-optimization#faq",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "Can I fix these mistakes myself if I know what they are?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Awareness of common mistakes helps, but fixing them requires diagnostic capability you may not have. Specialists can diagnose failures in hours versus the months DIY attempts typically require."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How long does it take to recover from broken AEO implementation?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Depends on what broke and how long it stayed broken. Simple fixes (correcting schema syntax) can show results within weeks once fixed. Architectural problems require comprehensive rebuilding."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What's the most expensive AEO mistake?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Implementing broken optimization and not discovering the failure for months. By the time you discover the problem, competitors have built months of citation authority advantage."
+            }
+          }
+        ]
+      },
+      {
+        "@type": "BreadcrumbList",
+        "@id": "https://theanswerengine.ai/blog/why-businesses-fail-answer-engine-optimization#breadcrumb",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://theanswerengine.ai"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Blog",
+            "item": "https://theanswerengine.ai/blog"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Why Most Businesses Fail at Answer Engine Optimization"
+          }
+        ]
+      },
+      {
+        "@type": "Organization",
+        "@id": "https://theanswerengine.ai/#organization",
+        "name": "The Answer Engine",
+        "url": "https://theanswerengine.ai",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://theanswerengine.ai/TheAnswerEngine_white.png",
+          "width": 600,
+          "height": 60
+        },
+        "description": "We specialize in Answer Engine Optimization (AEO) for local service businesses, positioning companies to be cited by Google AI Overviews, ChatGPT, Claude, and Perplexity."
+      },
+      {
+        "@type": "WebPage",
+        "@id": "https://theanswerengine.ai/blog/why-businesses-fail-answer-engine-optimization",
+        "url": "https://theanswerengine.ai/blog/why-businesses-fail-answer-engine-optimization",
+        "name": "Why Most Businesses Fail at Answer Engine Optimization",
+        "isPartOf": {
+          "@type": "WebSite",
+          "@id": "https://theanswerengine.ai/#website",
+          "url": "https://theanswerengine.ai",
+          "name": "The Answer Engine"
+        },
+        "breadcrumb": {
+          "@id": "https://theanswerengine.ai/blog/why-businesses-fail-answer-engine-optimization#breadcrumb"
+        }
+      }
+    ]
   };
+
+  return (
+    <script
+      type="application/ld+json"
+      dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
+    />
+  );
 }
 
 export default function WhyBusinessesFailAEO() {
   const publishDate = '2025-11-09';
-  const lastUpdated = new Date().toISOString().split('T')[0];
-  const articleUrl = 'https://theanswerengine.ai/blog/why-businesses-fail-answer-engine-optimization';
-  
+  const lastUpdated = '2025-11-09';
+
   return (
     <>
-      {/* Enhanced Article Schema */}
-      <Script
-        id="article-schema"
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{
-          __html: JSON.stringify({
-            "@context": "https://schema.org",
-            "@type": "Article",
-            "headline": "Why Most Businesses Fail at Answer Engine Optimization",
-            "description": "Discover the 8 critical mistakes causing AEO implementations to fail and why businesses waste months on broken optimization without knowing it.",
-            "image": {
-              "@type": "ImageObject",
-              "url": "https://theanswerengine.ai/images/why-businesses-fail-aeo-featured.png",
-              "width": 1200,
-              "height": 630
-            },
-            "author": {
-              "@type": "Organization",
-              "name": "The Answer Engine Team",
-              "url": "https://theanswerengine.ai",
-              "description": "Specialized Answer Engine Optimization team with 2+ years experience, 500+ schema implementations, and 100+ featured snippet wins across multiple AI platforms."
-            },
-            "publisher": {
-              "@type": "Organization",
-              "name": "The Answer Engine",
-              "logo": {
-                "@type": "ImageObject",
-                "url": "https://theanswerengine.ai/TheAnswerEngine_white.png",
-                "width": 600,
-                "height": 60
-              }
-            },
-            "datePublished": publishDate,
-            "dateModified": lastUpdated,
-            "mainEntityOfPage": {
-              "@type": "WebPage",
-              "@id": articleUrl
-            },
-            "articleSection": "Answer Engine Optimization",
-            "keywords": ["AEO mistakes", "answer engine optimization failures", "why AEO fails", "common AEO errors", "business optimization mistakes", "AI citation problems"],
-            "wordCount": 4800,
-            "inLanguage": "en-US",
-            "speakable": {
-              "@type": "SpeakableSpecification",
-              "cssSelector": [".article-intro"]
-            }
-          })
-        }}
-      />
-
-      {/* Complete FAQ Schema */}
-      <Script
-        id="faq-schema"
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{
-          __html: JSON.stringify({
-            "@context": "https://schema.org",
-            "@type": "FAQPage",
-            "mainEntity": [
-              {
-                "@type": "Question",
-                "name": "Can I fix these mistakes myself if I know what they are?",
-                "acceptedAnswer": {
-                  "@type": "Answer",
-                  "text": "Awareness of common mistakes helps, but fixing them requires diagnostic capability you may not have. For example, knowing schema errors cause problems doesn't help you identify which specific implementation details are wrong. Specialists can diagnose failures in hours versus the months DIY attempts typically require."
-                }
-              },
-              {
-                "@type": "Question",
-                "name": "How long does it take to recover from broken AEO implementation?",
-                "acceptedAnswer": {
-                  "@type": "Answer",
-                  "text": "Depends on what broke and how long it stayed broken. Simple fixes (correcting schema syntax) can show results within weeks once fixed. Architectural problems (poor topic coverage, wrong content structure) require comprehensive rebuilding that takes significantly longer to demonstrate results."
-                }
-              },
-              {
-                "@type": "Question",
-                "name": "Will traditional SEO help fix these AEO failures?",
-                "acceptedAnswer": {
-                  "@type": "Answer",
-                  "text": "Traditional SEO foundations remain valuable (domain authority, backlinks, technical performance), but they won't fix AEO-specific failures. Schema errors, insufficient expertise documentation, and poor content architecture aren't traditional SEO problems. Focusing on SEO when AEO implementation is broken wastes time addressing symptoms rather than causes."
-                }
-              },
-              {
-                "@type": "Question",
-                "name": "How do I know if my current implementation is working or broken?",
-                "acceptedAnswer": {
-                  "@type": "Answer",
-                  "text": "You need systematic testing and diagnostic capability to validate whether AI platforms are actually citing you. If you're consistently absent from AI responses while competitors appear, implementation is broken. If you appear occasionally but inconsistently, partial elements work but others fail. Without diagnostic systems, you're guessing."
-                }
-              },
-              {
-                "@type": "Question",
-                "name": "Are some industries harder for AEO than others?",
-                "acceptedAnswer": {
-                  "@type": "Answer",
-                  "text": "Not harder—different. Highly regulated industries (legal, medical, financial) need more explicit disclaimers and credential documentation. Highly competitive markets need more comprehensive topic coverage to establish authority. Local service businesses often have easier paths due to specific geographic expertise advantages over national competitors."
-                }
-              },
-              {
-                "@type": "Question",
-                "name": "What's the most expensive AEO mistake?",
-                "acceptedAnswer": {
-                  "@type": "Answer",
-                  "text": "Implementing broken optimization and not discovering the failure for months. You invest time creating content, building structure, documenting expertise—all while a single technical error makes everything invisible to AI platforms. By the time you discover the problem, competitors have built months of citation authority advantage."
-                }
-              },
-              {
-                "@type": "Question",
-                "name": "Should I optimize for all AI platforms simultaneously or focus on one?",
-                "acceptedAnswer": {
-                  "@type": "Answer",
-                  "text": "Universal best practices (proper schema, comprehensive content, expertise documentation) work across platforms. The foundational elements deliver most of the value. Platform-specific optimization provides marginal gains but shouldn't distract from getting fundamentals right first."
-                }
-              },
-              {
-                "@type": "Question",
-                "name": "Can competitor citations help me understand what's working?",
-                "acceptedAnswer": {
-                  "@type": "Answer",
-                  "text": "Analyzing why AI platforms cite competitors reveals which expertise signals, content structures, and technical elements they prioritize. Studying who gets cited for your target queries and identifying patterns in their implementation accelerates your own optimization—but requires knowing what to look for and how to analyze it systematically."
-                }
-              }
-            ]
-          })
-        }}
-      />
-
-      {/* BreadcrumbList Schema */}
-      <Script
-        id="breadcrumb-schema"
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{
-          __html: JSON.stringify({
-            "@context": "https://schema.org",
-            "@type": "BreadcrumbList",
-            "itemListElement": [
-              {
-                "@type": "ListItem",
-                "position": 1,
-                "name": "Home",
-                "item": "https://theanswerengine.ai"
-              },
-              {
-                "@type": "ListItem",
-                "position": 2,
-                "name": "Blog",
-                "item": "https://theanswerengine.ai/blog"
-              },
-              {
-                "@type": "ListItem",
-                "position": 3,
-                "name": "Why Most Businesses Fail at Answer Engine Optimization",
-                "item": articleUrl
-              }
-            ]
-          })
-        }}
-      />
-
-      {/* Organization Schema */}
-      <Script
-        id="organization-schema"
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{
-          __html: JSON.stringify({
-            "@context": "https://schema.org",
-            "@type": "Organization",
-            "name": "The Answer Engine",
-            "url": "https://theanswerengine.ai",
-            "logo": "https://theanswerengine.ai/TheAnswerEngine_white.png",
-            "description": "We specialize in Answer Engine Optimization (AEO) for local service businesses, positioning companies to be cited by Google AI Overviews, ChatGPT, Claude, and Perplexity.",
-            "sameAs": [
-              "https://www.linkedin.com/company/theanswerengine",
-              "https://twitter.com/theanswerengine"
-            ],
-            "contactPoint": {
-              "@type": "ContactPoint",
-              "contactType": "Sales",
-              "url": "https://theanswerengine.ai/#contact"
-            }
-          })
-        }}
-      />
-
-      {/* WebPage Schema */}
-      <Script
-        id="webpage-schema"
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{
-          __html: JSON.stringify({
-            "@context": "https://schema.org",
-            "@type": "WebPage",
-            "name": "Why Most Businesses Fail at Answer Engine Optimization | The Answer Engine",
-            "description": "Discover the 8 critical mistakes causing AEO implementations to fail and why businesses waste months on broken optimization without knowing it.",
-            "url": articleUrl,
-            "inLanguage": "en-US",
-            "isPartOf": {
-              "@type": "WebSite",
-              "name": "The Answer Engine",
-              "url": "https://theanswerengine.ai"
-            },
-            "about": {
-              "@type": "Thing",
-              "name": "Answer Engine Optimization Mistakes"
-            },
-            "primaryImageOfPage": {
-              "@type": "ImageObject",
-              "url": "https://theanswerengine.ai/images/why-businesses-fail-aeo-featured.png"
-            }
-          })
-        }}
-      />
-
-      {/* HowTo Schema */}
-      <Script
-        id="howto-schema"
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{
-          __html: JSON.stringify({
-            "@context": "https://schema.org",
-            "@type": "HowTo",
-            "name": "How to Avoid Common AEO Implementation Failures",
-            "description": "Learn to identify and prevent the 8 critical mistakes that cause AEO implementations to fail",
-            "step": [
-              {
-                "@type": "HowToStep",
-                "position": 1,
-                "name": "Implement Diagnostic Testing",
-                "text": "Establish systematic validation methods to test whether AI platforms can properly read and cite your content before assuming optimization is working."
-              },
-              {
-                "@type": "HowToStep",
-                "position": 2,
-                "name": "Validate Technical Implementation",
-                "text": "Use schema validation tools to ensure structured data markup has no syntax errors that would prevent AI platforms from processing your content."
-              },
-              {
-                "@type": "HowToStep",
-                "position": 3,
-                "name": "Document Authentic Expertise",
-                "text": "Replace generic template language with specific, verifiable expertise signals that demonstrate real local market knowledge."
-              },
-              {
-                "@type": "HowToStep",
-                "position": 4,
-                "name": "Build Comprehensive Topic Coverage",
-                "text": "Create systematic content architecture that addresses complete topic areas rather than scattered blog posts on disconnected subjects."
-              }
-            ]
-          })
-        }}
-      />
+      <ComprehensiveSchema />
 
       <main className="min-h-screen bg-[#0F1117] relative">
         {/* Subtle gradient overlay */}

@@ -25,7 +25,11 @@
       "Bash(git -C \"C:\\Users\\Justi\\theanswerengine-nextjs\" status)",
       "Bash(git -C \"C:\\Users\\Justi\\theanswerengine-nextjs\" add \"public/The_Answer_Engine_Solo_Logo_Transparent.png\")",
       "Bash(git -C \"C:\\Users\\Justi\\theanswerengine-nextjs\" commit -m \"$(cat <<''EOF''\nAdd logo for email signature\n\n🤖 Generated with [Claude Code](https://claude.com/claude-code)\n\nCo-Authored-By: Claude Opus 4.5 <noreply@anthropic.com>\nEOF\n)\")",
-      "Bash(git -C \"C:\\Users\\Justi\\theanswerengine-nextjs\" push)"
+      "Bash(git -C \"C:\\Users\\Justi\\theanswerengine-nextjs\" push)",
+      "Bash(del:*)",
+      "Bash(del nul)",
+      "Bash(cmd /c \"del \\?\\C:\\Users\\Justi\\theanswerengine-nextjs\\nul\")",
+      "Bash(git reset:*)"
     ],
     "deny": [],
     "ask": []

@@ -1,6 +1,5 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
-import Script from 'next/script';
 
 // ISR Configuration
 export const revalidate = 86400; // 24 hours
@@ -8,325 +7,231 @@ export const dynamic = 'force-static';
 export const dynamicParams = true;
 
 // Enhanced Metadata
-export async function generateMetadata(): Promise<Metadata> {
-  const lastUpdated = new Date().toISOString().split('T')[0];
-  const publishDate = '2025-11-09';
-  
-  return {
-    title: 'How to Get Google AI Overviews and ChatGPT to Recommend Your Business | The Answer Engine',
-    description: 'Learn what Google AI Overviews and ChatGPT require to cite your business. Discover the four foundation requirements most businesses miss.',
-    
-    openGraph: {
-      title: 'How to Get Google AI Overviews and ChatGPT to Recommend Your Business',
-      description: 'The four foundation requirements AI platforms evaluate before citing any business—and why most companies fail at all four.',
-      type: 'article',
-      publishedTime: publishDate,
-      modifiedTime: lastUpdated,
-      authors: ['The Answer Engine Team'],
-      url: 'https://theanswerengine.ai/blog/how-to-get-google-ai-chatgpt-recommend-business',
-      images: [
-        {
-          url: 'https://theanswerengine.ai/images/how-to-get-ai-recommend-business-featured.png',
-          width: 1200,
-          height: 630,
-          alt: 'How to Get Google AI and ChatGPT to Recommend Your Business',
-        }
-      ],
-      siteName: 'The Answer Engine',
-    },
-    
-    twitter: {
-      card: 'summary_large_image',
-      title: 'How to Get Google AI and ChatGPT to Recommend Your Business',
-      description: 'The four foundation requirements AI platforms evaluate before citing businesses.',
-      images: ['https://theanswerengine.ai/images/how-to-get-ai-recommend-business-featured.png'],
-      creator: '@theanswerengine',
-    },
-    
-    alternates: {
-      canonical: 'https://theanswerengine.ai/blog/how-to-get-google-ai-chatgpt-recommend-business',
-    },
-    
-    other: {
-      'article:modified_time': lastUpdated,
-      'article:published_time': publishDate,
-      'article:author': 'The Answer Engine Team',
-      'article:section': 'Answer Engine Optimization',
-    },
-    
-    keywords: [
-      'Google AI Overviews',
-      'ChatGPT recommendations',
-      'AI citation',
-      'how to get cited by AI',
-      'Google AI optimization',
-      'ChatGPT business recommendations',
-      'answer engine optimization',
+export const metadata: Metadata = {
+  title: 'How to Get Google AI Overviews and ChatGPT to Recommend Your Business | The Answer Engine',
+  description: 'Learn what Google AI Overviews and ChatGPT require to cite your business. Discover the four foundation requirements most businesses miss.',
+
+  openGraph: {
+    title: 'How to Get Google AI Overviews and ChatGPT to Recommend Your Business',
+    description: 'The four foundation requirements AI platforms evaluate before citing any business—and why most companies fail at all four.',
+    type: 'article',
+    publishedTime: '2025-11-09',
+    modifiedTime: '2025-11-09',
+    authors: ['Justin Borges'],
+    url: 'https://theanswerengine.ai/blog/how-to-get-google-ai-chatgpt-recommend-business',
+    images: [
+      {
+        url: 'https://theanswerengine.ai/images/how-to-get-ai-recommend-business-featured.png',
+        width: 1200,
+        height: 630,
+        alt: 'How to Get Google AI and ChatGPT to Recommend Your Business',
+      }
     ],
+    siteName: 'The Answer Engine',
+  },
+
+  twitter: {
+    card: 'summary_large_image',
+    title: 'How to Get Google AI and ChatGPT to Recommend Your Business',
+    description: 'The four foundation requirements AI platforms evaluate before citing businesses.',
+    images: ['https://theanswerengine.ai/images/how-to-get-ai-recommend-business-featured.png'],
+    creator: '@theanswerengine',
+  },
+
+  alternates: {
+    canonical: 'https://theanswerengine.ai/blog/how-to-get-google-ai-chatgpt-recommend-business',
+  },
+
+  keywords: [
+    'Google AI Overviews',
+    'ChatGPT recommendations',
+    'AI citation',
+    'how to get cited by AI',
+    'Google AI optimization',
+    'ChatGPT business recommendations',
+    'answer engine optimization',
+  ],
+};
+
+// JSON-LD Schema Component
+function ComprehensiveSchema() {
+  const schemaData = {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Article",
+        "@id": "https://theanswerengine.ai/blog/how-to-get-google-ai-chatgpt-recommend-business#article",
+        "headline": "How to Get Google AI Overviews and ChatGPT to Recommend Your Business",
+        "alternativeHeadline": "The Four Foundation Requirements AI Platforms Evaluate Before Citing Any Business",
+        "description": "Learn what Google AI Overviews and ChatGPT require to cite your business. Discover the four foundation requirements most businesses miss.",
+        "image": {
+          "@type": "ImageObject",
+          "url": "https://theanswerengine.ai/images/how-to-get-ai-recommend-business-featured.png",
+          "width": 1200,
+          "height": 630
+        },
+        "author": {
+          "@type": "Person",
+          "@id": "https://theanswerengine.ai/about#founder"
+        },
+        "publisher": {
+          "@type": "Organization",
+          "@id": "https://theanswerengine.ai/#organization"
+        },
+        "datePublished": "2025-11-09T09:00:00-08:00",
+        "dateModified": "2025-11-09T09:00:00-08:00",
+        "mainEntityOfPage": {
+          "@type": "WebPage",
+          "@id": "https://theanswerengine.ai/blog/how-to-get-google-ai-chatgpt-recommend-business"
+        },
+        "articleSection": "Answer Engine Optimization",
+        "keywords": "Google AI Overviews, ChatGPT recommendations, AI citation, how to get cited by AI, answer engine optimization",
+        "wordCount": 4000
+      },
+      {
+        "@type": "FAQPage",
+        "@id": "https://theanswerengine.ai/blog/how-to-get-google-ai-chatgpt-recommend-business#faq",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "Do I need to optimize for Google AI Overviews AND ChatGPT separately?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "The foundational requirements overlap significantly. Proper expertise documentation, structured content, comprehensive topic coverage, and specific information work across all platforms."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How long before I see AI platforms citing my business?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Timeline depends on current foundation and implementation quality. With proper technical structure and systematic content architecture, businesses typically see initial citations within 2-4 months."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What happens if I don't optimize for AI platforms?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Your competitors who do optimize capture AI-driven customer searches. As more people use Google AI Overviews and conversational AI platforms, businesses not getting cited become progressively invisible."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What's the most critical element to get right first?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Technical foundation. Perfect schema implementation and proper content structure are table stakes. Without them, nothing else matters—AI platforms simply can't parse your content regardless of quality."
+            }
+          }
+        ]
+      },
+      {
+        "@type": "HowTo",
+        "@id": "https://theanswerengine.ai/blog/how-to-get-google-ai-chatgpt-recommend-business#howto",
+        "name": "How to Get AI Platforms to Recommend Your Business",
+        "description": "Step-by-step process for getting Google AI Overviews and ChatGPT to cite your business",
+        "totalTime": "P90D",
+        "step": [
+          {
+            "@type": "HowToStep",
+            "position": 1,
+            "name": "Implement Technical Schema Infrastructure",
+            "text": "Deploy perfect schema markup including FAQPage, Article, Organization, LocalBusiness, and BreadcrumbList schema without syntax errors."
+          },
+          {
+            "@type": "HowToStep",
+            "position": 2,
+            "name": "Create Question-Answer Content Architecture",
+            "text": "Restructure content into explicit question-answer pairs with clear structure that AI platforms can easily extract."
+          },
+          {
+            "@type": "HowToStep",
+            "position": 3,
+            "name": "Document Verifiable Expertise",
+            "text": "Add specific certifications, credentials, years of experience, and verifiable expertise signals that AI can validate."
+          },
+          {
+            "@type": "HowToStep",
+            "position": 4,
+            "name": "Build Comprehensive Topic Coverage",
+            "text": "Create interconnected content clusters that comprehensively address entire topic areas, not scattered blog posts."
+          }
+        ]
+      },
+      {
+        "@type": "BreadcrumbList",
+        "@id": "https://theanswerengine.ai/blog/how-to-get-google-ai-chatgpt-recommend-business#breadcrumb",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://theanswerengine.ai"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Blog",
+            "item": "https://theanswerengine.ai/blog"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "How to Get Google AI Overviews and ChatGPT to Recommend Your Business"
+          }
+        ]
+      },
+      {
+        "@type": "Organization",
+        "@id": "https://theanswerengine.ai/#organization",
+        "name": "The Answer Engine",
+        "url": "https://theanswerengine.ai",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://theanswerengine.ai/TheAnswerEngine_white.png",
+          "width": 600,
+          "height": 60
+        },
+        "description": "We specialize in Answer Engine Optimization (AEO) for local service businesses, positioning companies to be cited by Google AI Overviews, ChatGPT, Claude, and Perplexity.",
+        "sameAs": [
+          "https://www.linkedin.com/company/theanswerengine",
+          "https://twitter.com/theanswerengine"
+        ]
+      },
+      {
+        "@type": "WebPage",
+        "@id": "https://theanswerengine.ai/blog/how-to-get-google-ai-chatgpt-recommend-business",
+        "url": "https://theanswerengine.ai/blog/how-to-get-google-ai-chatgpt-recommend-business",
+        "name": "How to Get Google AI Overviews and ChatGPT to Recommend Your Business",
+        "isPartOf": {
+          "@type": "WebSite",
+          "@id": "https://theanswerengine.ai/#website",
+          "url": "https://theanswerengine.ai",
+          "name": "The Answer Engine"
+        },
+        "breadcrumb": {
+          "@id": "https://theanswerengine.ai/blog/how-to-get-google-ai-chatgpt-recommend-business#breadcrumb"
+        }
+      }
+    ]
   };
+
+  return (
+    <script
+      type="application/ld+json"
+      dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
+    />
+  );
 }
 
 export default function HowToGetAIRecommendBusiness() {
   const publishDate = '2025-11-09';
-  const lastUpdated = new Date().toISOString().split('T')[0];
-  const articleUrl = 'https://theanswerengine.ai/blog/how-to-get-google-ai-chatgpt-recommend-business';
-  
+  const lastUpdated = '2025-11-09';
+
   return (
     <>
-      {/* Enhanced Article Schema */}
-      <Script
-        id="article-schema"
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{
-          __html: JSON.stringify({
-            "@context": "https://schema.org",
-            "@type": "Article",
-            "headline": "How to Get Google AI Overviews and ChatGPT to Recommend Your Business",
-            "description": "Learn what Google AI Overviews and ChatGPT require to cite your business. Discover the four foundation requirements most businesses miss.",
-            "image": {
-              "@type": "ImageObject",
-              "url": "https://theanswerengine.ai/images/how-to-get-ai-recommend-business-featured.png",
-              "width": 1200,
-              "height": 630
-            },
-            "author": {
-              "@type": "Organization",
-              "name": "The Answer Engine Team",
-              "url": "https://theanswerengine.ai",
-              "description": "Specialized Answer Engine Optimization team with 2+ years experience, 500+ schema implementations, and 100+ featured snippet wins across multiple AI platforms."
-            },
-            "publisher": {
-              "@type": "Organization",
-              "name": "The Answer Engine",
-              "logo": {
-                "@type": "ImageObject",
-                "url": "https://theanswerengine.ai/TheAnswerEngine_white%20logo%20only.png",
-                "width": 600,
-                "height": 60
-              }
-            },
-            "datePublished": publishDate,
-            "dateModified": lastUpdated,
-            "mainEntityOfPage": {
-              "@type": "WebPage",
-              "@id": articleUrl
-            },
-            "articleSection": "Answer Engine Optimization",
-            "keywords": ["Google AI Overviews", "ChatGPT recommendations", "AI citation", "how to get cited by AI", "Google AI optimization", "ChatGPT business recommendations", "answer engine optimization"],
-            "wordCount": 4000,
-            "inLanguage": "en-US",
-            "speakable": {
-              "@type": "SpeakableSpecification",
-              "cssSelector": [".article-intro"]
-            }
-          })
-        }}
-      />
-
-      {/* Complete FAQ Schema */}
-      <Script
-        id="faq-schema"
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{
-          __html: JSON.stringify({
-            "@context": "https://schema.org",
-            "@type": "FAQPage",
-            "mainEntity": [
-              {
-                "@type": "Question",
-                "name": "Do I need to optimize for Google AI Overviews AND ChatGPT separately?",
-                "acceptedAnswer": {
-                  "@type": "Answer",
-                  "text": "The foundational requirements overlap significantly. Proper expertise documentation, structured content, comprehensive topic coverage, and specific information work across all platforms. You're not optimizing for completely different systems—you're meeting universal AI citation requirements that apply broadly."
-                }
-              },
-              {
-                "@type": "Question",
-                "name": "How long before I see AI platforms citing my business?",
-                "acceptedAnswer": {
-                  "@type": "Answer",
-                  "text": "Timeline depends on current foundation and implementation quality. With proper technical structure and systematic content architecture, businesses typically see initial citations within 2-4 months, with increasing frequency as authority builds. Without proper foundation, you may never see consistent citation regardless of time invested."
-                }
-              },
-              {
-                "@type": "Question",
-                "name": "Can I just hire an SEO agency to handle AEO?",
-                "acceptedAnswer": {
-                  "@type": "Answer",
-                  "text": "Traditional SEO expertise doesn't automatically transfer to AEO. Many SEO agencies lack technical schema implementation experience, content architecture frameworks for AI citation, or diagnostic systems to validate whether optimization is working versus broken. AEO requires specialized expertise beyond traditional SEO skillsets."
-                }
-              },
-              {
-                "@type": "Question",
-                "name": "What happens if I don't optimize for AI platforms?",
-                "acceptedAnswer": {
-                  "@type": "Answer",
-                  "text": "Your competitors who do optimize capture AI-driven customer searches. As more people use Google AI Overviews and conversational AI platforms, businesses not getting cited become progressively invisible. The advantage gap widens as early movers establish citation authority that compounds over time."
-                }
-              },
-              {
-                "@type": "Question",
-                "name": "Is this just a temporary trend or fundamental shift?",
-                "acceptedAnswer": {
-                  "@type": "Answer",
-                  "text": "AI-powered search represents a fundamental shift in how people find businesses. Google AI Overviews are now default for most queries. ChatGPT has over 100 million weekly active users. This isn't a temporary trend—it's the new reality of customer acquisition. Businesses optimizing now are positioning for sustained competitive advantage."
-                }
-              },
-              {
-                "@type": "Question",
-                "name": "What's the most critical element to get right first?",
-                "acceptedAnswer": {
-                  "@type": "Answer",
-                  "text": "Technical foundation. Perfect schema implementation and proper content structure are table stakes. Without them, nothing else matters—AI platforms simply can't parse your content regardless of quality. Get technical foundation right first, then build content and expertise documentation on that foundation."
-                }
-              },
-              {
-                "@type": "Question",
-                "name": "Can businesses in highly regulated industries still get AI citations?",
-                "acceptedAnswer": {
-                  "@type": "Answer",
-                  "text": "Yes, but they need more explicit disclaimers and careful credential documentation. AI platforms cite legal, medical, and financial sources regularly—but they require clear expertise validation and appropriate disclaimers. Regulated industries actually have advantages due to verifiable licensing and certification requirements."
-                }
-              },
-              {
-                "@type": "Question",
-                "name": "What if my competitors are already getting consistent AI citations?",
-                "acceptedAnswer": {
-                  "@type": "Answer",
-                  "text": "Late mover disadvantage is real but not insurmountable. Requires more aggressive systematic implementation and strategic targeting of subtopics where competitors have incomplete coverage. Diagnostic analysis reveals specific opportunities for displacement even when competitors have established position."
-                }
-              }
-            ]
-          })
-        }}
-      />
-
-      {/* BreadcrumbList Schema */}
-      <Script
-        id="breadcrumb-schema"
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{
-          __html: JSON.stringify({
-            "@context": "https://schema.org",
-            "@type": "BreadcrumbList",
-            "itemListElement": [
-              {
-                "@type": "ListItem",
-                "position": 1,
-                "name": "Home",
-                "item": "https://theanswerengine.ai"
-              },
-              {
-                "@type": "ListItem",
-                "position": 2,
-                "name": "Blog",
-                "item": "https://theanswerengine.ai/blog"
-              },
-              {
-                "@type": "ListItem",
-                "position": 3,
-                "name": "How to Get Google AI Overviews and ChatGPT to Recommend Your Business",
-                "item": articleUrl
-              }
-            ]
-          })
-        }}
-      />
-
-      {/* Organization Schema */}
-      <Script
-        id="organization-schema"
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{
-          __html: JSON.stringify({
-            "@context": "https://schema.org",
-            "@type": "Organization",
-            "name": "The Answer Engine",
-            "url": "https://theanswerengine.ai",
-            "logo": "https://theanswerengine.ai/TheAnswerEngine_white%20logo%20only.png",
-            "description": "We specialize in Answer Engine Optimization (AEO) for local service businesses, positioning companies to be cited by Google AI Overviews, ChatGPT, Claude, and Perplexity.",
-            "sameAs": [
-              "https://www.linkedin.com/company/theanswerengine",
-              "https://twitter.com/theanswerengine"
-            ],
-            "contactPoint": {
-              "@type": "ContactPoint",
-              "contactType": "Sales",
-              "url": "https://theanswerengine.ai/#contact"
-            }
-          })
-        }}
-      />
-
-      {/* WebPage Schema */}
-      <Script
-        id="webpage-schema"
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{
-          __html: JSON.stringify({
-            "@context": "https://schema.org",
-            "@type": "WebPage",
-            "name": "How to Get Google AI Overviews and ChatGPT to Recommend Your Business | The Answer Engine",
-            "description": "Learn what Google AI Overviews and ChatGPT require to cite your business. Discover the four foundation requirements most businesses miss.",
-            "url": articleUrl,
-            "inLanguage": "en-US",
-            "isPartOf": {
-              "@type": "WebSite",
-              "name": "The Answer Engine",
-              "url": "https://theanswerengine.ai"
-            },
-            "about": {
-              "@type": "Thing",
-              "name": "AI Citations and Business Recommendations"
-            },
-            "primaryImageOfPage": {
-              "@type": "ImageObject",
-              "url": "https://theanswerengine.ai/images/how-to-get-ai-recommend-business-featured.png"
-            }
-          })
-        }}
-      />
-
-      {/* HowTo Schema */}
-      <Script
-        id="howto-schema"
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{
-          __html: JSON.stringify({
-            "@context": "https://schema.org",
-            "@type": "HowTo",
-            "name": "How to Get AI Platforms to Recommend Your Business",
-            "description": "Step-by-step process for getting Google AI Overviews and ChatGPT to cite your business",
-            "totalTime": "P90D",
-            "step": [
-              {
-                "@type": "HowToStep",
-                "position": 1,
-                "name": "Implement Technical Schema Infrastructure",
-                "text": "Deploy perfect schema markup including FAQPage, Article, Organization, LocalBusiness, and BreadcrumbList schema without syntax errors."
-              },
-              {
-                "@type": "HowToStep",
-                "position": 2,
-                "name": "Create Question-Answer Content Architecture",
-                "text": "Restructure content into explicit question-answer pairs with clear structure that AI platforms can easily extract."
-              },
-              {
-                "@type": "HowToStep",
-                "position": 3,
-                "name": "Document Verifiable Expertise",
-                "text": "Add specific certifications, credentials, years of experience, and verifiable expertise signals that AI can validate."
-              },
-              {
-                "@type": "HowToStep",
-                "position": 4,
-                "name": "Build Comprehensive Topic Coverage",
-                "text": "Create interconnected content clusters that comprehensively address entire topic areas, not scattered blog posts."
-              }
-            ]
-          })
-        }}
-      />
+      <ComprehensiveSchema />
 
       <main className="min-h-screen bg-[#0F1117] relative">
         {/* Subtle gradient overlay */}

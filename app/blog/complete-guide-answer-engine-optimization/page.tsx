@@ -1,6 +1,5 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
-import Script from 'next/script';
 
 // ISR Configuration
 export const revalidate = 86400; // 24 hours
@@ -8,354 +7,223 @@ export const dynamic = 'force-static';
 export const dynamicParams = true;
 
 // Enhanced Metadata
-export async function generateMetadata(): Promise<Metadata> {
-  const lastUpdated = new Date().toISOString().split('T')[0];
-  const publishDate = '2025-11-11';
-  
-  return {
-    title: 'The Complete Guide to Answer Engine Optimization for Local Service Businesses | The Answer Engine',
-    description: 'Learn how Answer Engine Optimization gets ChatGPT, Claude, Google AI to cite your local service business instead of competitors. Complete AEO guide with implementation strategy.',
-    
-    openGraph: {
-      title: 'The Complete Guide to Answer Engine Optimization for Local Service Businesses',
-      description: 'Learn how Answer Engine Optimization gets ChatGPT, Claude, Google AI to cite your local service business instead of competitors.',
-      type: 'article',
-      publishedTime: publishDate,
-      modifiedTime: lastUpdated,
-      authors: ['JB', 'The Answer Engine'],
-      url: 'https://theanswerengine.ai/blog/complete-guide-answer-engine-optimization',
-      images: [
-        {
-          url: 'https://theanswerengine.ai/images/aeo-complete-guide.jpg',
-          width: 1200,
-          height: 630,
-          alt: 'Complete Guide to Answer Engine Optimization',
-        }
-      ],
-      siteName: 'The Answer Engine',
-    },
-    
-    twitter: {
-      card: 'summary_large_image',
-      title: 'The Complete Guide to Answer Engine Optimization',
-      description: 'Get AI platforms to cite your business instead of competitors',
-      images: ['https://theanswerengine.ai/images/aeo-complete-guide.jpg'],
-      creator: '@theanswerengine',
-    },
-    
-    alternates: {
-      canonical: 'https://theanswerengine.ai/blog/complete-guide-answer-engine-optimization',
-    },
-    
-    other: {
-      'article:modified_time': lastUpdated,
-      'article:published_time': publishDate,
-      'article:author': 'JB',
-      'article:section': 'Answer Engine Optimization',
-    },
-    
-    keywords: [
-      'Answer Engine Optimization',
-      'AEO',
-      'AI citations',
-      'ChatGPT business recommendations',
-      'Google AI Overviews',
-      'local business AI optimization',
-      'SEO vs AEO',
-      'AI search optimization',
+export const metadata: Metadata = {
+  title: 'The Complete Guide to Answer Engine Optimization for Local Service Businesses | The Answer Engine',
+  description: 'Learn how Answer Engine Optimization gets ChatGPT, Claude, Google AI to cite your local service business instead of competitors. Complete AEO guide with implementation strategy.',
+
+  openGraph: {
+    title: 'The Complete Guide to Answer Engine Optimization for Local Service Businesses',
+    description: 'Learn how Answer Engine Optimization gets ChatGPT, Claude, Google AI to cite your local service business instead of competitors.',
+    type: 'article',
+    publishedTime: '2025-11-11',
+    modifiedTime: '2025-11-11',
+    authors: ['Justin Borges'],
+    url: 'https://theanswerengine.ai/blog/complete-guide-answer-engine-optimization',
+    images: [
+      {
+        url: 'https://theanswerengine.ai/images/aeo-complete-guide.jpg',
+        width: 1200,
+        height: 630,
+        alt: 'Complete Guide to Answer Engine Optimization',
+      }
     ],
+    siteName: 'The Answer Engine',
+  },
+
+  twitter: {
+    card: 'summary_large_image',
+    title: 'The Complete Guide to Answer Engine Optimization',
+    description: 'Get AI platforms to cite your business instead of competitors',
+    images: ['https://theanswerengine.ai/images/aeo-complete-guide.jpg'],
+    creator: '@theanswerengine',
+  },
+
+  alternates: {
+    canonical: 'https://theanswerengine.ai/blog/complete-guide-answer-engine-optimization',
+  },
+
+  keywords: [
+    'Answer Engine Optimization',
+    'AEO',
+    'AI citations',
+    'ChatGPT business recommendations',
+    'Google AI Overviews',
+    'local business AI optimization',
+    'SEO vs AEO',
+    'AI search optimization',
+  ],
+};
+
+// JSON-LD Schema Component
+function ComprehensiveSchema() {
+  const schemaData = {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Article",
+        "@id": "https://theanswerengine.ai/blog/complete-guide-answer-engine-optimization#article",
+        "headline": "The Complete Guide to Answer Engine Optimization for Local Service Businesses",
+        "alternativeHeadline": "Everything Local Service Businesses Need to Know About Getting AI Platforms to Cite You",
+        "description": "Learn how Answer Engine Optimization gets ChatGPT, Claude, Google AI to cite your local service business instead of competitors.",
+        "image": {
+          "@type": "ImageObject",
+          "url": "https://theanswerengine.ai/images/aeo-complete-guide.jpg",
+          "width": 1200,
+          "height": 630
+        },
+        "author": {
+          "@type": "Person",
+          "@id": "https://theanswerengine.ai/about#founder"
+        },
+        "publisher": {
+          "@type": "Organization",
+          "@id": "https://theanswerengine.ai/#organization"
+        },
+        "datePublished": "2025-11-11T09:00:00-08:00",
+        "dateModified": "2025-11-11T09:00:00-08:00",
+        "mainEntityOfPage": {
+          "@type": "WebPage",
+          "@id": "https://theanswerengine.ai/blog/complete-guide-answer-engine-optimization"
+        },
+        "articleSection": "Answer Engine Optimization",
+        "keywords": "Answer Engine Optimization, AEO, AI citations, ChatGPT business recommendations, Google AI Overviews, local business AI optimization",
+        "wordCount": 3247
+      },
+      {
+        "@type": "FAQPage",
+        "@id": "https://theanswerengine.ai/blog/complete-guide-answer-engine-optimization#faq",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "How long does it take to see results from AEO?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Most local service businesses see first AI citations within 60-90 days of implementing comprehensive authority optimization. Some low-competition queries produce faster results (30-45 days), while highly competitive local markets may require 120 days or more."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Can I do Answer Engine Optimization myself?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Technically possible but practically difficult for most local service business owners. Effective AEO requires expertise in content strategy, technical SEO, schema markup, entity optimization, and AI platform evaluation. Professional implementation costs $2,997+ for foundational setup."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Will Answer Engine Optimization hurt my traditional SEO rankings?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "No. AEO is complementary to SEO, not competitive. Proper implementation actually improves traditional rankings through better content quality, technical optimization, and authority signals."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How much does Answer Engine Optimization cost?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Foundational implementation (Answer Authority Foundation Package) starts at $2,997 including voice capture, hub-and-spoke content creation, technical schema implementation, entity optimization, and 90-day performance guarantee."
+            }
+          }
+        ]
+      },
+      {
+        "@type": "HowTo",
+        "@id": "https://theanswerengine.ai/blog/complete-guide-answer-engine-optimization#howto",
+        "name": "How to Get AI Platforms to Recommend Your Business",
+        "description": "Step-by-step process for getting ChatGPT, Claude, Perplexity, and Google AI to cite your business",
+        "totalTime": "P90D",
+        "step": [
+          {
+            "@type": "HowToStep",
+            "position": 1,
+            "name": "Create Comprehensive Authoritative Content",
+            "text": "Build hub-and-spoke content architecture with comprehensive guides supported by detailed spoke articles."
+          },
+          {
+            "@type": "HowToStep",
+            "position": 2,
+            "name": "Implement Technical Schema Markup",
+            "text": "Add LocalBusiness, FAQ, Article, and Organization schema to help AI systems interpret your content."
+          },
+          {
+            "@type": "HowToStep",
+            "position": 3,
+            "name": "Optimize Entity Recognition",
+            "text": "Ensure consistent business information across all platforms for cross-platform validation."
+          }
+        ]
+      },
+      {
+        "@type": "BreadcrumbList",
+        "@id": "https://theanswerengine.ai/blog/complete-guide-answer-engine-optimization#breadcrumb",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://theanswerengine.ai"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Blog",
+            "item": "https://theanswerengine.ai/blog"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Complete Guide to Answer Engine Optimization"
+          }
+        ]
+      },
+      {
+        "@type": "Organization",
+        "@id": "https://theanswerengine.ai/#organization",
+        "name": "The Answer Engine",
+        "url": "https://theanswerengine.ai",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://theanswerengine.ai/TheAnswerEngine_white.png",
+          "width": 600,
+          "height": 60
+        },
+        "description": "The Answer Engine specializes in helping local service businesses become the trusted authority AI platforms cite instead of competitors through Answer Engine Optimization (AEO).",
+        "foundingDate": "2025"
+      },
+      {
+        "@type": "WebPage",
+        "@id": "https://theanswerengine.ai/blog/complete-guide-answer-engine-optimization",
+        "url": "https://theanswerengine.ai/blog/complete-guide-answer-engine-optimization",
+        "name": "The Complete Guide to Answer Engine Optimization",
+        "isPartOf": {
+          "@type": "WebSite",
+          "@id": "https://theanswerengine.ai/#website",
+          "url": "https://theanswerengine.ai",
+          "name": "The Answer Engine"
+        },
+        "breadcrumb": {
+          "@id": "https://theanswerengine.ai/blog/complete-guide-answer-engine-optimization#breadcrumb"
+        }
+      }
+    ]
   };
+
+  return (
+    <script
+      type="application/ld+json"
+      dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
+    />
+  );
 }
 
 export default function CompleteGuideAEO() {
   const publishDate = '2025-11-11';
-  const lastUpdated = new Date().toISOString().split('T')[0];
-  const articleUrl = 'https://theanswerengine.ai/blog/complete-guide-answer-engine-optimization';
-  
+  const lastUpdated = '2025-11-11';
+
   return (
     <>
-      {/* Enhanced Article Schema */}
-      <Script
-        id="article-schema"
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{
-          __html: JSON.stringify({
-            "@context": "https://schema.org",
-            "@type": "Article",
-            "headline": "The Complete Guide to Answer Engine Optimization for Local Service Businesses",
-            "description": "Learn how Answer Engine Optimization gets ChatGPT, Claude, Google AI to cite your local service business instead of competitors.",
-            "author": {
-              "@type": "Organization",
-              "name": "The Answer Engine",
-              "url": "https://theanswerengine.ai",
-              "founder": {
-                "@type": "Person",
-                "name": "JB",
-                "jobTitle": "Founder & AEO Strategist"
-              },
-              "logo": {
-                "@type": "ImageObject",
-                "url": "https://theanswerengine.ai/logo.png",
-                "width": 600,
-                "height": 60
-              }
-            },
-            "publisher": {
-              "@type": "Organization",
-              "name": "The Answer Engine",
-              "logo": {
-                "@type": "ImageObject",
-                "url": "https://theanswerengine.ai/logo.png",
-                "width": 600,
-                "height": 60
-              }
-            },
-            "datePublished": publishDate,
-            "dateModified": lastUpdated,
-            "image": {
-              "@type": "ImageObject",
-              "url": "https://theanswerengine.ai/images/aeo-complete-guide.jpg",
-              "width": 1200,
-              "height": 630
-            },
-            "mainEntityOfPage": {
-              "@type": "WebPage",
-              "@id": articleUrl
-            },
-            "articleSection": "Answer Engine Optimization",
-            "keywords": [
-              "Answer Engine Optimization",
-              "AEO",
-              "AI citations",
-              "ChatGPT business recommendations",
-              "Google AI Overviews",
-              "local business AI optimization",
-              "SEO vs AEO",
-              "AI search optimization"
-            ],
-            "wordCount": 3247,
-            "timeRequired": "PT12M",
-            "speakable": {
-              "@type": "SpeakableSpecification",
-              "cssSelector": ["#featured-snippet"]
-            }
-          })
-        }}
-      />
-
-      {/* FAQ Schema */}
-      <Script
-        id="faq-schema"
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{
-          __html: JSON.stringify({
-            "@context": "https://schema.org",
-            "@type": "FAQPage",
-            "mainEntity": [
-              {
-                "@type": "Question",
-                "name": "How long does it take to see results from AEO?",
-                "acceptedAnswer": {
-                  "@type": "Answer",
-                  "text": "Most local service businesses see first AI citations within 60-90 days of implementing comprehensive authority optimization. Some low-competition queries produce faster results (30-45 days), while highly competitive local markets may require 120 days or more. The timeline depends on your current authority baseline, competitive intensity, and implementation quality."
-                }
-              },
-              {
-                "@type": "Question",
-                "name": "Can I do Answer Engine Optimization myself, or do I need to hire someone?",
-                "acceptedAnswer": {
-                  "@type": "Answer",
-                  "text": "Technically possible but practically difficult for most local service business owners. Effective AEO requires expertise in content strategy, technical SEO, schema markup, entity optimization, and AI platform evaluation. Professional implementation costs $2,997+ for foundational setup but dramatically increases citation probability compared to DIY approaches."
-                }
-              },
-              {
-                "@type": "Question",
-                "name": "What's the difference between getting cited by Google vs. ChatGPT vs. Perplexity?",
-                "acceptedAnswer": {
-                  "@type": "Answer",
-                  "text": "Each platform uses different authority evaluation priorities. Google AI Overviews weight structured data and featured snippet optimization highest. ChatGPT prioritizes authentic voice and comprehensive explanations. Perplexity focuses on citation diversity and source quality. Claude evaluates expertise depth and logical structure."
-                }
-              },
-              {
-                "@type": "Question",
-                "name": "Will Answer Engine Optimization hurt my traditional SEO rankings?",
-                "acceptedAnswer": {
-                  "@type": "Answer",
-                  "text": "No. AEO is complementary to SEO, not competitive. Proper implementation actually improves traditional rankings through better content quality, technical optimization, and authority signals. You need both ranking AND citation to capture modern search traffic."
-                }
-              },
-              {
-                "@type": "Question",
-                "name": "How much does Answer Engine Optimization cost for a local service business?",
-                "acceptedAnswer": {
-                  "@type": "Answer",
-                  "text": "Foundational implementation (Answer Authority Foundation Package) starts at $2,997 including voice capture, hub-and-spoke content creation, technical schema implementation, entity optimization, and 90-day performance guarantee. Ongoing content updates typically add $500-1,500/month."
-                }
-              },
-              {
-                "@type": "Question",
-                "name": "What makes some local businesses get AI citations while competitors don't?",
-                "acceptedAnswer": {
-                  "@type": "Answer",
-                  "text": "AI platforms evaluate layered authority across six dimensions: answer quality, entity optimization, relevance through comprehensive content, optimization structure with proper technical implementation, voice authenticity, and authority signals from reviews and third-party validation."
-                }
-              },
-              {
-                "@type": "Question",
-                "name": "Can paid advertising help me get AI citations faster?",
-                "acceptedAnswer": {
-                  "@type": "Answer",
-                  "text": "No. AI citations are editorial, not paid placement. Running Google Ads doesn't influence whether AI platforms cite your business. The only path to citation is earning authority through comprehensive content, technical optimization, and cross-platform validation."
-                }
-              },
-              {
-                "@type": "Question",
-                "name": "What industries benefit most from Answer Engine Optimization?",
-                "acceptedAnswer": {
-                  "@type": "Answer",
-                  "text": "Local service businesses with high customer lifetime value and expertise differentiation see strongest ROI: real estate agents, financial advisors, home inspectors, specialized contractors, legal professionals, healthcare practitioners, and B2B service providers."
-                }
-              }
-            ]
-          })
-        }}
-      />
-
-      {/* HowTo Schema */}
-      <Script
-        id="howto-schema"
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{
-          __html: JSON.stringify({
-            "@context": "https://schema.org",
-            "@type": "HowTo",
-            "name": "How to Get AI Platforms to Recommend Your Business",
-            "description": "Step-by-step process for getting ChatGPT, Claude, Perplexity, and Google AI to cite your business",
-            "totalTime": "P90D",
-            "step": [
-              {
-                "@type": "HowToStep",
-                "position": 1,
-                "name": "Create Comprehensive Authoritative Content",
-                "text": "Build hub-and-spoke content architecture with comprehensive guides supported by detailed spoke articles."
-              },
-              {
-                "@type": "HowToStep",
-                "position": 2,
-                "name": "Implement Technical Schema Markup",
-                "text": "Add LocalBusiness, FAQ, Article, and Organization schema to help AI systems interpret your content."
-              },
-              {
-                "@type": "HowToStep",
-                "position": 3,
-                "name": "Optimize Entity Recognition",
-                "text": "Ensure consistent business information across all platforms for cross-platform validation."
-              }
-            ]
-          })
-        }}
-      />
-
-      {/* DefinedTerm Schema */}
-      <Script
-        id="definedterm-schema"
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{
-          __html: JSON.stringify({
-            "@context": "https://schema.org",
-            "@type": "DefinedTerm",
-            "name": "Answer Engine Optimization",
-            "description": "The practice of making your business the trusted authority that AI platforms cite when people ask questions.",
-            "termCode": "AEO",
-            "url": articleUrl
-          })
-        }}
-      />
-
-      {/* Breadcrumb Schema */}
-      <Script
-        id="breadcrumb-schema"
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{
-          __html: JSON.stringify({
-            "@context": "https://schema.org",
-            "@type": "BreadcrumbList",
-            "itemListElement": [
-              {
-                "@type": "ListItem",
-                "position": 1,
-                "name": "Home",
-                "item": "https://theanswerengine.ai"
-              },
-              {
-                "@type": "ListItem",
-                "position": 2,
-                "name": "Blog",
-                "item": "https://theanswerengine.ai/blog"
-              },
-              {
-                "@type": "ListItem",
-                "position": 3,
-                "name": "Complete Guide to Answer Engine Optimization",
-                "item": articleUrl
-              }
-            ]
-          })
-        }}
-      />
-
-      {/* WebPage Schema */}
-      <Script
-        id="webpage-schema"
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{
-          __html: JSON.stringify({
-            "@context": "https://schema.org",
-            "@type": "WebPage",
-            "name": "The Complete Guide to Answer Engine Optimization",
-            "url": articleUrl,
-            "description": "Comprehensive guide to getting AI platforms to cite your local service business",
-            "inLanguage": "en-US",
-            "isPartOf": {
-              "@type": "WebSite",
-              "name": "The Answer Engine",
-              "url": "https://theanswerengine.ai"
-            }
-          })
-        }}
-      />
-
-      {/* Organization Schema */}
-      <Script
-        id="organization-schema"
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{
-          __html: JSON.stringify({
-            "@context": "https://schema.org",
-            "@type": "Organization",
-            "name": "The Answer Engine",
-            "url": "https://theanswerengine.ai",
-            "logo": {
-              "@type": "ImageObject",
-              "url": "https://theanswerengine.ai/logo.png",
-              "width": 600,
-              "height": 60
-            },
-            "description": "The Answer Engine specializes in helping local service businesses become the trusted authority AI platforms cite instead of competitors through Answer Engine Optimization (AEO).",
-            "foundingDate": "2025",
-            "contactPoint": {
-              "@type": "ContactPoint",
-              "contactType": "Customer Service",
-              "email": "support@theanswerengine.ai",
-              "availableLanguage": "English"
-            },
-            "areaServed": {
-              "@type": "Country",
-              "name": "United States"
-            }
-          })
-        }}
-      />
+      <ComprehensiveSchema />
 
       <article className="min-h-screen bg-[#0F1117] text-white">
         <div className="mx-auto max-w-4xl px-6 py-20">

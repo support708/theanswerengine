@@ -1,6 +1,5 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
-import Script from 'next/script';
 
 // ISR Configuration
 export const revalidate = 86400; // 24 hours
@@ -8,318 +7,185 @@ export const dynamic = 'force-static';
 export const dynamicParams = true;
 
 // Enhanced Metadata
-export async function generateMetadata(): Promise<Metadata> {
-  const lastUpdated = new Date().toISOString().split('T')[0];
-  const publishDate = '2025-11-09';
-  
-  return {
-    title: 'How AI Platforms Choose Which Businesses to Cite | The Answer Engine',
-    description: 'Discover how ChatGPT, Claude, and Perplexity actually decide which businesses to recommend using weighted authority assessment and cross-validation.',
-    
-    openGraph: {
-      title: 'How AI Platforms Choose Which Businesses to Cite',
-      description: 'Discover the systematic evaluation process AI platforms use to decide which businesses to cite by name.',
-      type: 'article',
-      publishedTime: publishDate,
-      modifiedTime: lastUpdated,
-      authors: ['The Answer Engine Team'],
-      url: 'https://theanswerengine.ai/blog/how-ai-platforms-choose-businesses-to-cite',
-      images: [
-        {
-          url: 'https://theanswerengine.ai/images/how-ai-chooses-businesses-featured.png',
-          width: 1200,
-          height: 630,
-          alt: 'How AI Platforms Choose Which Businesses to Cite',
-        }
-      ],
-      siteName: 'The Answer Engine',
-    },
-    
-    twitter: {
-      card: 'summary_large_image',
-      title: 'How AI Platforms Choose Which Businesses to Cite',
-      description: 'The systematic evaluation process AI uses to decide which businesses to recommend.',
-      images: ['https://theanswerengine.ai/images/how-ai-chooses-businesses-featured.png'],
-      creator: '@theanswerengine',
-    },
-    
-    alternates: {
-      canonical: 'https://theanswerengine.ai/blog/how-ai-platforms-choose-businesses-to-cite',
-    },
-    
-    other: {
-      'article:modified_time': lastUpdated,
-      'article:published_time': publishDate,
-      'article:author': 'The Answer Engine Team',
-      'article:section': 'Answer Engine Optimization',
-    },
-    
-    keywords: [
-      'AI citations',
-      'how AI chooses businesses',
-      'AI platform selection',
-      'ChatGPT recommendations',
-      'AI search ranking',
-      'answer engine authority',
-      'weighted authority assessment',
+export const metadata: Metadata = {
+  title: 'How AI Platforms Choose Which Businesses to Cite | The Answer Engine',
+  description: 'Discover how ChatGPT, Claude, and Perplexity actually decide which businesses to recommend using weighted authority assessment and cross-validation.',
+
+  openGraph: {
+    title: 'How AI Platforms Choose Which Businesses to Cite',
+    description: 'Discover the systematic evaluation process AI platforms use to decide which businesses to cite by name.',
+    type: 'article',
+    publishedTime: '2025-11-09',
+    modifiedTime: '2025-11-09',
+    authors: ['Justin Borges'],
+    url: 'https://theanswerengine.ai/blog/how-ai-platforms-choose-businesses-to-cite',
+    images: [
+      {
+        url: 'https://theanswerengine.ai/images/how-ai-chooses-businesses-featured.png',
+        width: 1200,
+        height: 630,
+        alt: 'How AI Platforms Choose Which Businesses to Cite',
+      }
     ],
+    siteName: 'The Answer Engine',
+  },
+
+  twitter: {
+    card: 'summary_large_image',
+    title: 'How AI Platforms Choose Which Businesses to Cite',
+    description: 'The systematic evaluation process AI uses to decide which businesses to recommend.',
+    images: ['https://theanswerengine.ai/images/how-ai-chooses-businesses-featured.png'],
+    creator: '@theanswerengine',
+  },
+
+  alternates: {
+    canonical: 'https://theanswerengine.ai/blog/how-ai-platforms-choose-businesses-to-cite',
+  },
+
+  keywords: [
+    'AI citations',
+    'how AI chooses businesses',
+    'AI platform selection',
+    'ChatGPT recommendations',
+    'AI search ranking',
+    'answer engine authority',
+    'weighted authority assessment',
+  ],
+};
+
+// JSON-LD Schema Component
+function ComprehensiveSchema() {
+  const schemaData = {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Article",
+        "@id": "https://theanswerengine.ai/blog/how-ai-platforms-choose-businesses-to-cite#article",
+        "headline": "How AI Platforms Choose Which Businesses to Cite",
+        "description": "Discover how ChatGPT, Claude, and Perplexity actually decide which businesses to recommend using weighted authority assessment and cross-validation.",
+        "image": {
+          "@type": "ImageObject",
+          "url": "https://theanswerengine.ai/images/how-ai-chooses-businesses-featured.png",
+          "width": 1200,
+          "height": 630
+        },
+        "author": {
+          "@type": "Person",
+          "@id": "https://theanswerengine.ai/about#founder"
+        },
+        "publisher": {
+          "@type": "Organization",
+          "@id": "https://theanswerengine.ai/#organization"
+        },
+        "datePublished": "2025-11-09T09:00:00-08:00",
+        "dateModified": "2025-11-09T09:00:00-08:00",
+        "mainEntityOfPage": {
+          "@type": "WebPage",
+          "@id": "https://theanswerengine.ai/blog/how-ai-platforms-choose-businesses-to-cite"
+        },
+        "articleSection": "Answer Engine Optimization",
+        "keywords": "AI citations, how AI chooses businesses, ChatGPT recommendations, answer engine authority",
+        "wordCount": 2700
+      },
+      {
+        "@type": "FAQPage",
+        "@id": "https://theanswerengine.ai/blog/how-ai-platforms-choose-businesses-to-cite#faq",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "How do AI platforms verify business credentials?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "AI platforms cross-reference claims against authoritative databases, public business registries, licensing boards, and professional associations. They look for consistency between your website information and these external verification sources."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How long does it take to start getting AI citations?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "With proper implementation, initial citations for specific queries can appear within weeks. Consistent, broad citation across multiple AI platforms typically takes 2-3 months as systems recognize your comprehensive authority."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Do AI platforms prefer certain business sizes or types?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "AI platforms don't inherently prefer large businesses over small ones. They prefer authoritative sources regardless of size. Local businesses with specific geographic expertise often outperform national brands for location-specific queries."
+            }
+          }
+        ]
+      },
+      {
+        "@type": "BreadcrumbList",
+        "@id": "https://theanswerengine.ai/blog/how-ai-platforms-choose-businesses-to-cite#breadcrumb",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://theanswerengine.ai"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Blog",
+            "item": "https://theanswerengine.ai/blog"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "How AI Platforms Choose Businesses to Cite"
+          }
+        ]
+      },
+      {
+        "@type": "Organization",
+        "@id": "https://theanswerengine.ai/#organization",
+        "name": "The Answer Engine",
+        "url": "https://theanswerengine.ai",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://theanswerengine.ai/TheAnswerEngine_white.png",
+          "width": 600,
+          "height": 60
+        },
+        "description": "We specialize in Answer Engine Optimization (AEO) for local service businesses, positioning companies to be cited by Google AI Overviews, ChatGPT, Claude, and Perplexity."
+      },
+      {
+        "@type": "WebPage",
+        "@id": "https://theanswerengine.ai/blog/how-ai-platforms-choose-businesses-to-cite",
+        "url": "https://theanswerengine.ai/blog/how-ai-platforms-choose-businesses-to-cite",
+        "name": "How AI Platforms Choose Which Businesses to Cite",
+        "isPartOf": {
+          "@type": "WebSite",
+          "@id": "https://theanswerengine.ai/#website",
+          "url": "https://theanswerengine.ai",
+          "name": "The Answer Engine"
+        },
+        "breadcrumb": {
+          "@id": "https://theanswerengine.ai/blog/how-ai-platforms-choose-businesses-to-cite#breadcrumb"
+        }
+      }
+    ]
   };
+
+  return (
+    <script
+      type="application/ld+json"
+      dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
+    />
+  );
 }
 
 export default function HowAIChoosesBlogPost() {
   const publishDate = '2025-11-09';
-  const lastUpdated = new Date().toISOString().split('T')[0];
-  const articleUrl = 'https://theanswerengine.ai/blog/how-ai-platforms-choose-businesses-to-cite';
-  
+  const lastUpdated = '2025-11-09';
+
   return (
     <>
-      {/* Enhanced Article Schema */}
-      <Script
-        id="article-schema"
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{
-          __html: JSON.stringify({
-            "@context": "https://schema.org",
-            "@type": "Article",
-            "headline": "How AI Platforms Choose Which Businesses to Cite",
-            "description": "Discover how ChatGPT, Claude, and Perplexity actually decide which businesses to recommend using weighted authority assessment and cross-validation.",
-            "image": {
-              "@type": "ImageObject",
-              "url": "https://theanswerengine.ai/images/how-ai-chooses-businesses-featured.png",
-              "width": 1200,
-              "height": 630
-            },
-            "author": {
-              "@type": "Organization",
-              "name": "The Answer Engine Team",
-              "url": "https://theanswerengine.ai",
-              "description": "Specialized Answer Engine Optimization team with 2+ years experience, 500+ schema implementations, and 100+ featured snippet wins across multiple AI platforms."
-            },
-            "publisher": {
-              "@type": "Organization",
-              "name": "The Answer Engine",
-              "logo": {
-                "@type": "ImageObject",
-                "url": "https://theanswerengine.ai/TheAnswerEngine_white.png",
-                "width": 600,
-                "height": 60
-              }
-            },
-            "datePublished": publishDate,
-            "dateModified": lastUpdated,
-            "mainEntityOfPage": {
-              "@type": "WebPage",
-              "@id": articleUrl
-            },
-            "articleSection": "Answer Engine Optimization",
-            "keywords": ["AI citations", "how AI chooses businesses", "AI platform selection", "ChatGPT recommendations", "AI search ranking", "answer engine authority"],
-            "wordCount": 2700,
-            "inLanguage": "en-US",
-            "speakable": {
-              "@type": "SpeakableSpecification",
-              "cssSelector": [".article-intro"]
-            }
-          })
-        }}
-      />
-
-      {/* Complete FAQ Schema */}
-      <Script
-        id="faq-schema"
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{
-          __html: JSON.stringify({
-            "@context": "https://schema.org",
-            "@type": "FAQPage",
-            "mainEntity": [
-              {
-                "@type": "Question",
-                "name": "How do AI platforms verify business credentials?",
-                "acceptedAnswer": {
-                  "@type": "Answer",
-                  "text": "AI platforms cross-reference claims against authoritative databases, public business registries, licensing boards, and professional associations. They look for consistency between your website information and these external verification sources. Unverifiable or inconsistent claims reduce citation probability significantly."
-                }
-              },
-              {
-                "@type": "Question",
-                "name": "Can traditional SEO help with AI citations?",
-                "acceptedAnswer": {
-                  "@type": "Answer",
-                  "text": "Traditional SEO foundations—domain authority, quality backlinks, technical site performance—remain valuable. However, they're necessary but not sufficient. AI platforms require additional signals: structured data markup, explicit expertise documentation, and verifiable credentials that traditional SEO didn't emphasize."
-                }
-              },
-              {
-                "@type": "Question",
-                "name": "Why do AI platforms cite some businesses but not others with similar credentials?",
-                "acceptedAnswer": {
-                  "@type": "Answer",
-                  "text": "Credentials alone don't determine citations. AI platforms evaluate how expertise is documented and structured. Two businesses with identical qualifications see different results based on content structure, specificity of information, and technical implementation. The business that makes information extraction easier gets cited more frequently."
-                }
-              },
-              {
-                "@type": "Question",
-                "name": "Do AI platforms prefer certain business sizes or types?",
-                "acceptedAnswer": {
-                  "@type": "Answer",
-                  "text": "AI platforms don't inherently prefer large businesses over small ones. They prefer authoritative sources regardless of size. Local businesses with specific geographic expertise often outperform national brands for location-specific queries because they provide more relevant, detailed local information."
-                }
-              },
-              {
-                "@type": "Question",
-                "name": "How long does it take to start getting AI citations?",
-                "acceptedAnswer": {
-                  "@type": "Answer",
-                  "text": "With proper implementation, initial citations for specific queries can appear within weeks. Consistent, broad citation across multiple AI platforms typically takes 2-3 months as systems recognize your comprehensive authority. The timeline depends entirely on implementation quality—broken or incomplete optimization can delay results by months."
-                }
-              },
-              {
-                "@type": "Question",
-                "name": "What happens to businesses that AI platforms never cite?",
-                "acceptedAnswer": {
-                  "@type": "Answer",
-                  "text": "They become increasingly invisible as more consumers use AI platforms for research. Even with traditional search traffic, they lose competitive positioning because prospects research multiple options and AI-recommended businesses start with credibility advantages. Over time, non-cited businesses face exponentially higher customer acquisition costs."
-                }
-              },
-              {
-                "@type": "Question",
-                "name": "Can I test which AI platforms are citing my business?",
-                "acceptedAnswer": {
-                  "@type": "Answer",
-                  "text": "Yes—ask the same questions you expect customers to ask across ChatGPT, Claude, Perplexity, and Google AI Overviews. Document which businesses get mentioned and why. This competitive intelligence reveals where you stand relative to competitors and which content gaps you need to address."
-                }
-              },
-              {
-                "@type": "Question",
-                "name": "Do AI platforms update their citations frequently?",
-                "acceptedAnswer": {
-                  "@type": "Answer",
-                  "text": "AI platforms continuously refine citation selections based on new training data, user feedback, and content updates. However, established authority positions compound over time—businesses that become reliable sources get preferential treatment. This makes early optimization increasingly valuable."
-                }
-              }
-            ]
-          })
-        }}
-      />
-
-      {/* BreadcrumbList Schema */}
-      <Script
-        id="breadcrumb-schema"
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{
-          __html: JSON.stringify({
-            "@context": "https://schema.org",
-            "@type": "BreadcrumbList",
-            "itemListElement": [
-              {
-                "@type": "ListItem",
-                "position": 1,
-                "name": "Home",
-                "item": "https://theanswerengine.ai"
-              },
-              {
-                "@type": "ListItem",
-                "position": 2,
-                "name": "Blog",
-                "item": "https://theanswerengine.ai/blog"
-              },
-              {
-                "@type": "ListItem",
-                "position": 3,
-                "name": "How AI Platforms Choose Businesses to Cite",
-                "item": articleUrl
-              }
-            ]
-          })
-        }}
-      />
-
-      {/* Organization Schema */}
-      <Script
-        id="organization-schema"
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{
-          __html: JSON.stringify({
-            "@context": "https://schema.org",
-            "@type": "Organization",
-            "name": "The Answer Engine",
-            "url": "https://theanswerengine.ai",
-            "logo": "https://theanswerengine.ai/TheAnswerEngine_white.png",
-            "description": "We specialize in Answer Engine Optimization (AEO) for local service businesses, positioning companies to be cited by Google AI Overviews, ChatGPT, Claude, and Perplexity.",
-            "sameAs": [
-              "https://www.linkedin.com/company/theanswerengine",
-              "https://twitter.com/theanswerengine"
-            ],
-            "contactPoint": {
-              "@type": "ContactPoint",
-              "contactType": "Sales",
-              "url": "https://theanswerengine.ai/#contact"
-            }
-          })
-        }}
-      />
-
-      {/* WebPage Schema */}
-      <Script
-        id="webpage-schema"
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{
-          __html: JSON.stringify({
-            "@context": "https://schema.org",
-            "@type": "WebPage",
-            "name": "How AI Platforms Choose Which Businesses to Cite | The Answer Engine",
-            "description": "Discover how ChatGPT, Claude, and Perplexity actually decide which businesses to recommend using weighted authority assessment and cross-validation.",
-            "url": articleUrl,
-            "inLanguage": "en-US",
-            "isPartOf": {
-              "@type": "WebSite",
-              "name": "The Answer Engine",
-              "url": "https://theanswerengine.ai"
-            },
-            "about": {
-              "@type": "Thing",
-              "name": "AI Citations and Business Selection"
-            },
-            "primaryImageOfPage": {
-              "@type": "ImageObject",
-              "url": "https://theanswerengine.ai/images/how-ai-chooses-businesses-featured.png"
-            }
-          })
-        }}
-      />
-
-      {/* HowTo Schema */}
-      <Script
-        id="howto-schema"
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{
-          __html: JSON.stringify({
-            "@context": "https://schema.org",
-            "@type": "HowTo",
-            "name": "How to Understand AI Platform Business Selection Process",
-            "description": "Learn the three-layer authority assessment AI platforms use to decide which businesses to cite",
-            "step": [
-              {
-                "@type": "HowToStep",
-                "position": 1,
-                "name": "Understand Source Type Authority",
-                "text": "AI platforms first assess what type of source you are before reading content. Build authority through professional website structure and verifiable credentials."
-              },
-              {
-                "@type": "HowToStep",
-                "position": 2,
-                "name": "Structure Content for AI Extraction",
-                "text": "Organize information with clear headings, FAQ sections, and explicit documentation that AI can easily extract and verify."
-              },
-              {
-                "@type": "HowToStep",
-                "position": 3,
-                "name": "Enable Cross-Validation",
-                "text": "Ensure consistency between website claims and external databases, registries, and authoritative sources that AI platforms use for verification."
-              }
-            ]
-          })
-        }}
-      />
+      <ComprehensiveSchema />
 
       <main className="min-h-screen bg-[#0F1117] relative">
         {/* Subtle gradient overlay */}

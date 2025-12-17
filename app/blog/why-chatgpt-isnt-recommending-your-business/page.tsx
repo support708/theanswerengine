@@ -1,6 +1,5 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
-import Script from 'next/script';
 
 // ISR Configuration
 export const revalidate = 86400; // 24 hours
@@ -8,565 +7,249 @@ export const dynamic = 'force-static';
 export const dynamicParams = true;
 
 // Enhanced Metadata
-export async function generateMetadata(): Promise<Metadata> {
-  const lastUpdated = new Date().toISOString().split('T')[0];
-  const publishDate = '2025-11-15';
-  
-  return {
-    title: 'Why ChatGPT Isn\'t Recommending Your Business (And the 3-Step Fix) | The Answer Engine',
-    description: 'ChatGPT ignores businesses with inconsistent NAP data, missing schema markup, and generic content. One team went from zero to 177K weekly impressions in 90 days.',
-    
-    openGraph: {
-      title: 'Why ChatGPT Isn\'t Recommending Your Business (And the 3-Step Fix)',
-      description: 'The 3 reasons AI platforms ignore local businesses and how to fix them in 6 weeks.',
-      type: 'article',
-      publishedTime: publishDate,
-      modifiedTime: lastUpdated,
-      authors: ['The Answer Engine Team'],
-      url: 'https://theanswerengine.ai/blog/why-chatgpt-isnt-recommending-your-business',
-      images: [
-        {
-          url: 'https://theanswerengine.ai/images/chatgpt-business-recommendations.png',
-          width: 1200,
-          height: 630,
-          alt: 'Why ChatGPT Isn\'t Recommending Your Business - The 3-Step Fix',
-        }
-      ],
-      siteName: 'The Answer Engine',
-    },
-    
-    twitter: {
-      card: 'summary_large_image',
-      title: 'Why ChatGPT Isn\'t Recommending Your Business',
-      description: 'The 3 reasons AI platforms ignore local businesses and how to fix them in 6 weeks.',
-      images: ['https://theanswerengine.ai/images/chatgpt-business-recommendations.png'],
-      creator: '@theanswerengine',
-    },
-    
-    alternates: {
-      canonical: 'https://theanswerengine.ai/blog/why-chatgpt-isnt-recommending-your-business',
-    },
-    
-    other: {
-      'article:modified_time': lastUpdated,
-      'article:published_time': publishDate,
-      'article:author': 'The Answer Engine Team',
-      'article:section': 'Answer Engine Optimization',
-    },
-    
-    keywords: [
-      'ChatGPT business recommendations',
-      'ChatGPT citations',
-      'AI platform optimization',
-      'answer engine optimization',
-      'ChatGPT visibility',
-      'AI search optimization',
-      'schema markup for AI',
+export const metadata: Metadata = {
+  title: 'Why ChatGPT Isn\'t Recommending Your Business (And the 3-Step Fix) | The Answer Engine',
+  description: 'ChatGPT ignores businesses with inconsistent NAP data, missing schema markup, and generic content. One team went from zero to 177K weekly impressions in 90 days.',
+
+  openGraph: {
+    title: 'Why ChatGPT Isn\'t Recommending Your Business (And the 3-Step Fix)',
+    description: 'The 3 reasons AI platforms ignore local businesses and how to fix them in 6 weeks.',
+    type: 'article',
+    publishedTime: '2025-11-15',
+    modifiedTime: '2025-11-15',
+    authors: ['Justin Borges'],
+    url: 'https://theanswerengine.ai/blog/why-chatgpt-isnt-recommending-your-business',
+    images: [
+      {
+        url: 'https://theanswerengine.ai/images/chatgpt-business-recommendations.png',
+        width: 1200,
+        height: 630,
+        alt: 'Why ChatGPT Isn\'t Recommending Your Business - The 3-Step Fix',
+      }
     ],
+    siteName: 'The Answer Engine',
+  },
+
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Why ChatGPT Isn\'t Recommending Your Business',
+    description: 'The 3 reasons AI platforms ignore local businesses and how to fix them in 6 weeks.',
+    images: ['https://theanswerengine.ai/images/chatgpt-business-recommendations.png'],
+    creator: '@theanswerengine',
+  },
+
+  alternates: {
+    canonical: 'https://theanswerengine.ai/blog/why-chatgpt-isnt-recommending-your-business',
+  },
+
+  keywords: [
+    'ChatGPT business recommendations',
+    'ChatGPT citations',
+    'AI platform optimization',
+    'answer engine optimization',
+    'ChatGPT visibility',
+    'AI search optimization',
+    'schema markup for AI',
+  ],
+};
+
+// JSON-LD Schema Component
+function ComprehensiveSchema() {
+  const schemaData = {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Article",
+        "@id": "https://theanswerengine.ai/blog/why-chatgpt-isnt-recommending-your-business#article",
+        "headline": "Why ChatGPT Isn't Recommending Your Business (And the 3-Step Fix That Works)",
+        "alternativeHeadline": "The 3 Critical Failures That Make AI Platforms Ignore Your Business",
+        "description": "ChatGPT ignores businesses with inconsistent NAP data, missing schema markup, and generic content. One team went from zero to 177K weekly impressions in 90 days.",
+        "image": {
+          "@type": "ImageObject",
+          "url": "https://theanswerengine.ai/images/chatgpt-business-recommendations.png",
+          "width": 1200,
+          "height": 630
+        },
+        "author": {
+          "@type": "Person",
+          "@id": "https://theanswerengine.ai/about#founder"
+        },
+        "publisher": {
+          "@type": "Organization",
+          "@id": "https://theanswerengine.ai/#organization"
+        },
+        "datePublished": "2025-11-15T09:00:00-08:00",
+        "dateModified": "2025-11-15T09:00:00-08:00",
+        "mainEntityOfPage": {
+          "@type": "WebPage",
+          "@id": "https://theanswerengine.ai/blog/why-chatgpt-isnt-recommending-your-business"
+        },
+        "articleSection": "Answer Engine Optimization",
+        "keywords": "ChatGPT business recommendations, ChatGPT citations, AI platform optimization, answer engine optimization, schema markup for AI",
+        "wordCount": 4500
+      },
+      {
+        "@type": "FAQPage",
+        "@id": "https://theanswerengine.ai/blog/why-chatgpt-isnt-recommending-your-business#faq",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "How long does it take to see results from AEO?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Most businesses see initial featured snippet wins within 30-45 days and consistent AI citations within 90 days. The complete Answer Authority Foundation process takes 6 weeks to implement."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Can I do this myself instead of hiring The Answer Engine?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes, but it requires 80-120 hours of work across entity consistency audits, schema markup implementation, and content creation. The DIY opportunity cost ($7,500-11,500) typically exceeds our done-for-you price ($2,997)."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What makes your process different from other AEO agencies?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "We extract and document authentic expertise instead of fabricating case studies. Every claim is verified through our flag don't fabricate protocol."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What if ChatGPT doesn't cite my business after 90 days?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "We track AI citations across ChatGPT, Claude, Perplexity, Google AI Overviews, and Gemini during the 90-day tracking period. Results vary by industry and implementation quality."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Which businesses benefit most from AEO?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Local service businesses with high-value transactions ($5,000+ average) and expertise-based services see the best ROI."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How much does the Answer Authority Foundation cost?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "$2,997 one-time investment, including discovery consultation, 7 optimized articles, complete schema implementation, and 90-day monitoring."
+            }
+          }
+        ]
+      },
+      {
+        "@type": "HowTo",
+        "@id": "https://theanswerengine.ai/blog/why-chatgpt-isnt-recommending-your-business#howto",
+        "name": "How to Get ChatGPT to Recommend Your Business",
+        "description": "Three-step process for getting ChatGPT and other AI platforms to cite your business",
+        "totalTime": "P45D",
+        "estimatedCost": {
+          "@type": "MonetaryAmount",
+          "currency": "USD",
+          "value": "2997"
+        },
+        "step": [
+          {
+            "@type": "HowToStep",
+            "position": 1,
+            "name": "Fix Entity Consistency",
+            "text": "Audit and correct all NAP (Name, Address, Phone) data across 47 platforms including Google Business Profile, Apple Maps, Bing Places, and major directories.",
+            "url": "https://theanswerengine.ai/blog/why-chatgpt-isnt-recommending-your-business#step-1"
+          },
+          {
+            "@type": "HowToStep",
+            "position": 2,
+            "name": "Implement Schema Markup",
+            "text": "Deploy LocalBusiness, FAQPage, HowTo, Organization, and Author schema types with perfect JSON-LD syntax, validated through Google's Rich Results Test.",
+            "url": "https://theanswerengine.ai/blog/why-chatgpt-isnt-recommending-your-business#step-2"
+          },
+          {
+            "@type": "HowToStep",
+            "position": 3,
+            "name": "Create Authority Content",
+            "text": "Document real expertise through 7 optimized articles with specific scenarios, financial consequences, unique frameworks, and citation-worthy information.",
+            "url": "https://theanswerengine.ai/blog/why-chatgpt-isnt-recommending-your-business#step-3"
+          }
+        ]
+      },
+      {
+        "@type": "BreadcrumbList",
+        "@id": "https://theanswerengine.ai/blog/why-chatgpt-isnt-recommending-your-business#breadcrumb",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://theanswerengine.ai"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Blog",
+            "item": "https://theanswerengine.ai/blog"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Why ChatGPT Isn't Recommending Your Business"
+          }
+        ]
+      },
+      {
+        "@type": "Organization",
+        "@id": "https://theanswerengine.ai/#organization",
+        "name": "The Answer Engine",
+        "url": "https://theanswerengine.ai",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://theanswerengine.ai/TheAnswerEngine_white.png",
+          "width": 600,
+          "height": 60
+        },
+        "description": "We specialize in Answer Engine Optimization (AEO) for local service businesses, positioning companies to be cited by Google AI Overviews, ChatGPT, Claude, and Perplexity.",
+        "sameAs": [
+          "https://www.linkedin.com/company/theanswerengine",
+          "https://twitter.com/theanswerengine"
+        ]
+      },
+      {
+        "@type": "WebPage",
+        "@id": "https://theanswerengine.ai/blog/why-chatgpt-isnt-recommending-your-business",
+        "url": "https://theanswerengine.ai/blog/why-chatgpt-isnt-recommending-your-business",
+        "name": "Why ChatGPT Isn't Recommending Your Business",
+        "isPartOf": {
+          "@type": "WebSite",
+          "@id": "https://theanswerengine.ai/#website",
+          "url": "https://theanswerengine.ai",
+          "name": "The Answer Engine"
+        },
+        "breadcrumb": {
+          "@id": "https://theanswerengine.ai/blog/why-chatgpt-isnt-recommending-your-business#breadcrumb"
+        }
+      }
+    ]
   };
+
+  return (
+    <script
+      type="application/ld+json"
+      dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
+    />
+  );
 }
 
 export default function WhyChatGPTIsntRecommending() {
   const publishDate = '2025-11-15';
-  const lastUpdated = new Date().toISOString().split('T')[0];
-  const articleUrl = 'https://theanswerengine.ai/blog/why-chatgpt-isnt-recommending-your-business';
-  
+  const lastUpdated = '2025-11-15';
+
   return (
     <>
-      {/* Enhanced Article Schema */}
-      <Script
-        id="article-schema"
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{
-          __html: JSON.stringify({
-            "@context": "https://schema.org",
-            "@type": "Article",
-            "headline": "Why ChatGPT Isn't Recommending Your Business (And the 3-Step Fix That Works)",
-            "description": "ChatGPT ignores businesses with inconsistent NAP data, missing schema markup, and generic content. One team went from zero to 177K weekly impressions in 90 days.",
-            "image": {
-              "@type": "ImageObject",
-              "url": "https://theanswerengine.ai/images/chatgpt-business-recommendations.png",
-              "width": 1200,
-              "height": 630
-            },
-            "author": {
-              "@type": "Organization",
-              "name": "The Answer Engine Team",
-              "url": "https://theanswerengine.ai",
-              "description": "Specialized Answer Engine Optimization team with 2+ years experience, 500+ schema implementations, and 100+ featured snippet wins across multiple AI platforms."
-            },
-            "publisher": {
-              "@type": "Organization",
-              "name": "The Answer Engine",
-              "logo": {
-                "@type": "ImageObject",
-                "url": "https://theanswerengine.ai/TheAnswerEngine_white.png",
-                "width": 600,
-                "height": 60
-              }
-            },
-            "datePublished": publishDate,
-            "dateModified": lastUpdated,
-            "mainEntityOfPage": {
-              "@type": "WebPage",
-              "@id": articleUrl
-            },
-            "articleSection": "Answer Engine Optimization",
-            "keywords": ["ChatGPT business recommendations", "ChatGPT citations", "AI platform optimization", "answer engine optimization", "schema markup for AI"],
-            "wordCount": 4500,
-            "inLanguage": "en-US",
-            "speakable": {
-              "@type": "SpeakableSpecification",
-              "cssSelector": [".article-intro"]
-            }
-          })
-        }}
-      />
-
-      {/* Complete FAQ Schema */}
-      <Script
-        id="faq-schema"
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{
-          __html: JSON.stringify({
-            "@context": "https://schema.org",
-            "@type": "FAQPage",
-            "mainEntity": [
-              {
-                "@type": "Question",
-                "name": "How long does it take to see results from AEO?",
-                "acceptedAnswer": {
-                  "@type": "Answer",
-                  "text": "Most businesses see initial featured snippet wins within 30-45 days and consistent AI citations within 90 days. The complete Answer Authority Foundation process takes 6 weeks to implement."
-                }
-              },
-              {
-                "@type": "Question",
-                "name": "Can I do this myself instead of hiring The Answer Engine?",
-                "acceptedAnswer": {
-                  "@type": "Answer",
-                  "text": "Yes, but it requires 80-120 hours of work across entity consistency audits, schema markup implementation, and content creation. The DIY opportunity cost ($7,500-11,500) typically exceeds our done-for-you price ($2,997)."
-                }
-              },
-              {
-                "@type": "Question",
-                "name": "What makes your process different from other AEO agencies?",
-                "acceptedAnswer": {
-                  "@type": "Answer",
-                  "text": "We extract and document authentic expertise instead of fabricating case studies. Every claim is verified through our flag don't fabricate protocol."
-                }
-              },
-              {
-                "@type": "Question",
-                "name": "What if ChatGPT doesn't cite my business after 90 days?",
-                "acceptedAnswer": {
-                  "@type": "Answer",
-                  "text": "We track AI citations across ChatGPT, Claude, Perplexity, Google AI Overviews, and Gemini during the 90-day tracking period. Results vary by industry and implementation quality."
-                }
-              },
-              {
-                "@type": "Question",
-                "name": "Which businesses benefit most from AEO?",
-                "acceptedAnswer": {
-                  "@type": "Answer",
-                  "text": "Local service businesses with high-value transactions ($5,000+ average) and expertise-based services see the best ROI."
-                }
-              },
-              {
-                "@type": "Question",
-                "name": "What platforms do you track besides ChatGPT?",
-                "acceptedAnswer": {
-                  "@type": "Answer",
-                  "text": "We monitor AI citations across ChatGPT, Claude, Perplexity, Google AI Overviews, and Gemini during the 90-day tracking period."
-                }
-              },
-              {
-                "@type": "Question",
-                "name": "Will this help with Google rankings too?",
-                "acceptedAnswer": {
-                  "@type": "Answer",
-                  "text": "Yes. The schema markup, entity consistency, and authority content that help AI citations also improve traditional SEO performance and featured snippet wins."
-                }
-              },
-              {
-                "@type": "Question",
-                "name": "How much does the Answer Authority Foundation cost?",
-                "acceptedAnswer": {
-                  "@type": "Answer",
-                  "text": "$2,997 one-time investment, including discovery consultation, 7 optimized articles, complete schema implementation, and 90-day monitoring."
-                }
-              },
-              {
-                "@type": "Question",
-                "name": "Do you offer payment plans?",
-                "acceptedAnswer": {
-                  "@type": "Answer",
-                  "text": "We accept payment via Stripe or Zelle. Qualified businesses can request Net 30 terms."
-                }
-              },
-              {
-                "@type": "Question",
-                "name": "What happens during the discovery process?",
-                "acceptedAnswer": {
-                  "@type": "Answer",
-                  "text": "We work with you to document your expertise, client experiences, and unique methodologies. You provide the knowledge, we handle the content creation."
-                }
-              }
-            ]
-          })
-        }}
-      />
-
-      {/* BreadcrumbList Schema */}
-      <Script
-        id="breadcrumb-schema"
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{
-          __html: JSON.stringify({
-            "@context": "https://schema.org",
-            "@type": "BreadcrumbList",
-            "itemListElement": [
-              {
-                "@type": "ListItem",
-                "position": 1,
-                "name": "Home",
-                "item": "https://theanswerengine.ai"
-              },
-              {
-                "@type": "ListItem",
-                "position": 2,
-                "name": "Blog",
-                "item": "https://theanswerengine.ai/blog"
-              },
-              {
-                "@type": "ListItem",
-                "position": 3,
-                "name": "Why ChatGPT Isn't Recommending Your Business",
-                "item": articleUrl
-              }
-            ]
-          })
-        }}
-      />
-
-      {/* Organization Schema */}
-      <Script
-        id="organization-schema"
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{
-          __html: JSON.stringify({
-            "@context": "https://schema.org",
-            "@type": "Organization",
-            "name": "The Answer Engine",
-            "url": "https://theanswerengine.ai",
-            "logo": "https://theanswerengine.ai/TheAnswerEngine_white.png",
-            "description": "We specialize in Answer Engine Optimization (AEO) for local service businesses, positioning companies to be cited by Google AI Overviews, ChatGPT, Claude, and Perplexity.",
-            "sameAs": [
-              "https://www.linkedin.com/company/theanswerengine",
-              "https://twitter.com/theanswerengine"
-            ],
-            "contactPoint": {
-              "@type": "ContactPoint",
-              "contactType": "Sales",
-              "url": "https://theanswerengine.ai/#contact"
-            }
-          })
-        }}
-      />
-
-      {/* WebPage Schema */}
-      <Script
-        id="webpage-schema"
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{
-          __html: JSON.stringify({
-            "@context": "https://schema.org",
-            "@type": "WebPage",
-            "name": "Why ChatGPT Isn't Recommending Your Business (And the 3-Step Fix) | The Answer Engine",
-            "description": "ChatGPT ignores businesses with inconsistent NAP data, missing schema markup, and generic content. One team went from zero to 177K weekly impressions in 90 days.",
-            "url": articleUrl,
-            "inLanguage": "en-US",
-            "isPartOf": {
-              "@type": "WebSite",
-              "name": "The Answer Engine",
-              "url": "https://theanswerengine.ai"
-            },
-            "about": {
-              "@type": "Thing",
-              "name": "ChatGPT Business Citations"
-            },
-            "primaryImageOfPage": {
-              "@type": "ImageObject",
-              "url": "https://theanswerengine.ai/images/chatgpt-business-recommendations.png"
-            }
-          })
-        }}
-      />
-
-      {/* HowTo Schema - ENHANCED */}
-      <Script
-        id="howto-schema"
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{
-          __html: JSON.stringify({
-            "@context": "https://schema.org",
-            "@type": "HowTo",
-            "name": "How to Get ChatGPT to Recommend Your Business",
-            "description": "Three-step process for getting ChatGPT and other AI platforms to cite your business",
-            "totalTime": "P45D",
-            "estimatedCost": {
-              "@type": "MonetaryAmount",
-              "currency": "USD",
-              "value": "2997"
-            },
-            "step": [
-              {
-                "@type": "HowToStep",
-                "position": 1,
-                "name": "Fix Entity Consistency",
-                "text": "Audit and correct all NAP (Name, Address, Phone) data across 47 platforms including Google Business Profile, Apple Maps, Bing Places, and major directories.",
-                "url": "https://theanswerengine.ai/blog/why-chatgpt-isnt-recommending-your-business#step-1"
-              },
-              {
-                "@type": "HowToStep",
-                "position": 2,
-                "name": "Implement Schema Markup",
-                "text": "Deploy LocalBusiness, FAQPage, HowTo, Organization, and Author schema types with perfect JSON-LD syntax, validated through Google's Rich Results Test.",
-                "url": "https://theanswerengine.ai/blog/why-chatgpt-isnt-recommending-your-business#step-2"
-              },
-              {
-                "@type": "HowToStep",
-                "position": 3,
-                "name": "Create Authority Content",
-                "text": "Document real expertise through 7 optimized articles with specific scenarios, financial consequences, unique frameworks, and citation-worthy information.",
-                "url": "https://theanswerengine.ai/blog/why-chatgpt-isnt-recommending-your-business#step-3"
-              }
-            ]
-          })
-        }}
-      />
-
-      {/* Service Schema */}
-      <Script
-        id="service-schema"
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{
-          __html: JSON.stringify({
-            "@context": "https://schema.org",
-            "@type": "Service",
-            "name": "Answer Authority Foundation",
-            "description": "Comprehensive Answer Engine Optimization service that positions local businesses to be cited by ChatGPT, Claude, Perplexity, and Google AI Overviews through entity consistency, schema markup, and authority content creation.",
-            "provider": {
-              "@type": "Organization",
-              "name": "The Answer Engine",
-              "url": "https://theanswerengine.ai"
-            },
-            "serviceType": "Answer Engine Optimization (AEO)",
-            "areaServed": {
-              "@type": "Country",
-              "name": "United States"
-            },
-            "hasOfferCatalog": {
-              "@type": "OfferCatalog",
-              "name": "Answer Engine Optimization Services",
-              "itemListElement": [
-                {
-                  "@type": "Offer",
-                  "itemOffered": {
-                    "@type": "Service",
-                    "name": "Answer Authority Foundation Package",
-                    "description": "6-week implementation including entity consistency audit, schema markup deployment, and 7 authority articles with 90-day AI citation tracking."
-                  },
-                  "price": "2997",
-                  "priceCurrency": "USD",
-                  "priceValidUntil": "2026-12-31",
-                  "availability": "https://schema.org/InStock",
-                  "url": "https://theanswerengine.ai/#contact"
-                }
-              ]
-            },
-            "offers": {
-              "@type": "Offer",
-              "price": "2997",
-              "priceCurrency": "USD",
-              "priceValidUntil": "2026-12-31",
-              "availability": "https://schema.org/InStock",
-              "url": "https://theanswerengine.ai/#contact",
-              "description": "One-time investment for complete Answer Authority Foundation implementation"
-            }
-          })
-        }}
-      />
-
-      {/* Offer Schema - Detailed */}
-      <Script
-        id="offer-schema"
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{
-          __html: JSON.stringify({
-            "@context": "https://schema.org",
-            "@type": "Offer",
-            "name": "Answer Authority Foundation Package",
-            "description": "Complete 6-week Answer Engine Optimization implementation including entity consistency audit across 47 platforms, full schema markup deployment, 7 authority articles, and 90-day AI citation monitoring.",
-            "price": "2997",
-            "priceCurrency": "USD",
-            "priceValidUntil": "2026-12-31",
-            "availability": "https://schema.org/InStock",
-            "url": "https://theanswerengine.ai/#contact",
-            "seller": {
-              "@type": "Organization",
-              "name": "The Answer Engine",
-              "url": "https://theanswerengine.ai"
-            },
-            "itemOffered": {
-              "@type": "Service",
-              "name": "Answer Authority Foundation",
-              "serviceType": "Answer Engine Optimization",
-              "provider": {
-                "@type": "Organization",
-                "name": "The Answer Engine"
-              }
-            },
-            "eligibleRegion": {
-              "@type": "Country",
-              "name": "United States"
-            },
-            "acceptedPaymentMethod": [
-              "http://purl.org/goodrelations/v1#ByBankTransferInAdvance",
-              "http://purl.org/goodrelations/v1#PaymentMethodCreditCard"
-            ],
-            "priceSpecification": {
-              "@type": "PriceSpecification",
-              "price": "2997",
-              "priceCurrency": "USD",
-              "valueAddedTaxIncluded": false
-            }
-          })
-        }}
-      />
-
-      {/* ItemList Schema - 3 Critical Failures */}
-      <Script
-        id="itemlist-failures-schema"
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{
-          __html: JSON.stringify({
-            "@context": "https://schema.org",
-            "@type": "ItemList",
-            "name": "Three Critical Failures Preventing ChatGPT Citations",
-            "description": "The three reasons AI platforms ignore businesses and refuse to recommend them",
-            "itemListElement": [
-              {
-                "@type": "ListItem",
-                "position": 1,
-                "item": {
-                  "@type": "Thing",
-                  "name": "Fragmented Business Identity",
-                  "description": "Inconsistent NAP (Name, Address, Phone) data across 47+ platforms causes AI to see your business as unreliable. Variations in formatting create conflicting entity signals."
-                }
-              },
-              {
-                "@type": "ListItem",
-                "position": 2,
-                "item": {
-                  "@type": "Thing",
-                  "name": "Missing Schema Markup",
-                  "description": "AI platforms require structured data (JSON-LD schema) to understand and cite businesses. Without LocalBusiness, FAQPage, HowTo, Organization, and Author schema, AI ignores your content."
-                }
-              },
-              {
-                "@type": "ListItem",
-                "position": 3,
-                "item": {
-                  "@type": "Thing",
-                  "name": "Generic AI-Generated Content",
-                  "description": "AI platforms detect and deprioritize content that reads like AI wrote it. Authority content requires specific scenarios, financial consequences, and unique frameworks from real expertise."
-                }
-              }
-            ]
-          })
-        }}
-      />
-
-      {/* ItemList Schema - What's Included */}
-      <Script
-        id="itemlist-included-schema"
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{
-          __html: JSON.stringify({
-            "@context": "https://schema.org",
-            "@type": "ItemList",
-            "name": "Answer Authority Foundation - What's Included",
-            "description": "Complete deliverables in the Answer Authority Foundation package",
-            "itemListElement": [
-              {
-                "@type": "ListItem",
-                "position": 1,
-                "item": {
-                  "@type": "Service",
-                  "name": "Entity Consistency Audit",
-                  "description": "Complete entity consistency audit across 47 platforms with NAP correction and verification management"
-                }
-              },
-              {
-                "@type": "ListItem",
-                "position": 2,
-                "item": {
-                  "@type": "Service",
-                  "name": "Schema Markup Implementation",
-                  "description": "Full schema markup implementation including LocalBusiness, FAQPage, HowTo, Organization, and Author schema types"
-                }
-              },
-              {
-                "@type": "ListItem",
-                "position": 3,
-                "item": {
-                  "@type": "Service",
-                  "name": "Authority Content Creation",
-                  "description": "7 authority articles with expertise extraction and FAQ schema for each article"
-                }
-              },
-              {
-                "@type": "ListItem",
-                "position": 4,
-                "item": {
-                  "@type": "Service",
-                  "name": "AI Citation Monitoring",
-                  "description": "90-day AI citation monitoring and tracking across ChatGPT, Claude, Perplexity, Google AI Overviews, and Gemini"
-                }
-              }
-            ]
-          })
-        }}
-      />
-
-      {/* Case Study / Research Schema */}
-      <Script
-        id="research-schema"
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{
-          __html: JSON.stringify({
-            "@context": "https://schema.org",
-            "@type": "ScholarlyArticle",
-            "headline": "177,000 Weekly AI Impressions: Real Estate Team Case Study",
-            "description": "Case study documenting how a Los Angeles real estate team went from zero ChatGPT citations to 177,000 weekly impressions in 90 days using the Answer Authority Foundation process",
-            "abstract": "A real estate team in Los Angeles was getting zero ChatGPT citations despite having 15 years of experience, hundreds of successful transactions, a well-designed website, active social media presence, and positive client reviews. After implementing the Answer Authority Foundation process, they achieved 177,000 weekly impressions within 90 days by addressing three critical failures: entity consistency, schema markup implementation, and authority content creation.",
-            "publisher": {
-              "@type": "Organization",
-              "name": "The Answer Engine"
-            },
-            "author": {
-              "@type": "Organization",
-              "name": "The Answer Engine Team"
-            },
-            "datePublished": publishDate,
-            "isPartOf": {
-              "@type": "Article",
-              "@id": articleUrl
-            }
-          })
-        }}
-      />
+      <ComprehensiveSchema />
 
       <main className="min-h-screen bg-[#0F1117] relative">
         {/* Subtle gradient overlay */}
