@@ -52,226 +52,139 @@ export const metadata: Metadata = {
   ],
 };
 
+// JSON-LD Schema Component
+function ComprehensiveSchema() {
+  const schemaData = {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Article",
+        "@id": "https://theanswerengine.ai/blog/what-is-answer-engine-optimization#article",
+        "headline": "What is Answer Engine Optimization (AEO)? The Complete Guide for 2025",
+        "description": "Complete guide explaining what Answer Engine Optimization (AEO) is, how it differs from traditional SEO, and why local businesses need to implement it now.",
+        "image": {
+          "@type": "ImageObject",
+          "url": "https://theanswerengine.ai/images/what-is-aeo-featured.png",
+          "width": 1200,
+          "height": 630
+        },
+        "author": {
+          "@type": "Person",
+          "@id": "https://theanswerengine.ai/about#founder"
+        },
+        "publisher": {
+          "@type": "Organization",
+          "@id": "https://theanswerengine.ai/#organization"
+        },
+        "datePublished": "2025-11-09T09:00:00-08:00",
+        "dateModified": "2025-11-09T09:00:00-08:00",
+        "mainEntityOfPage": {
+          "@type": "WebPage",
+          "@id": "https://theanswerengine.ai/blog/what-is-answer-engine-optimization"
+        },
+        "articleSection": "Answer Engine Optimization",
+        "keywords": "answer engine optimization, AEO, AI search optimization, ChatGPT optimization",
+        "wordCount": 2400
+      },
+      {
+        "@type": "FAQPage",
+        "@id": "https://theanswerengine.ai/blog/what-is-answer-engine-optimization#faq",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "What's the difference between AEO and traditional SEO?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Traditional SEO optimized to rank in the top 10 search results. Answer Engine Optimization (AEO) optimizes to be cited by AI platforms as the authoritative source in direct answers."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Can I do Answer Engine Optimization myself?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "The content creation is possible for businesses with strong writing skills. The technical implementation—properly structured schema, content architecture, and systematic validation—is where most DIY attempts fail."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What happens if I wait to implement AEO?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "AI platforms favor established authorities. Once a competitor is consistently cited as the expert in your category, displacing them becomes exponentially harder."
+            }
+          }
+        ]
+      },
+      {
+        "@type": "BreadcrumbList",
+        "@id": "https://theanswerengine.ai/blog/what-is-answer-engine-optimization#breadcrumb",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://theanswerengine.ai"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Blog",
+            "item": "https://theanswerengine.ai/blog"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "What is Answer Engine Optimization"
+          }
+        ]
+      },
+      {
+        "@type": "Organization",
+        "@id": "https://theanswerengine.ai/#organization",
+        "name": "The Answer Engine",
+        "url": "https://theanswerengine.ai",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://theanswerengine.ai/TheAnswerEngine_white.png",
+          "width": 600,
+          "height": 60
+        },
+        "description": "We specialize in Answer Engine Optimization (AEO) for local service businesses, positioning companies to be cited by Google AI Overviews, ChatGPT, Claude, and Perplexity."
+      },
+      {
+        "@type": "WebPage",
+        "@id": "https://theanswerengine.ai/blog/what-is-answer-engine-optimization",
+        "url": "https://theanswerengine.ai/blog/what-is-answer-engine-optimization",
+        "name": "What is Answer Engine Optimization (AEO)?",
+        "isPartOf": {
+          "@type": "WebSite",
+          "@id": "https://theanswerengine.ai/#website",
+          "url": "https://theanswerengine.ai",
+          "name": "The Answer Engine"
+        },
+        "breadcrumb": {
+          "@id": "https://theanswerengine.ai/blog/what-is-answer-engine-optimization#breadcrumb"
+        }
+      }
+    ]
+  };
+
+  return (
+    <script
+      type="application/ld+json"
+      dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
+    />
+  );
+}
+
 export default function WhatIsAEOBlogPost() {
   const publishDate = '2025-11-09';
-  const lastUpdated = new Date().toISOString().split('T')[0];
-  const articleUrl = 'https://theanswerengine.ai/blog/what-is-answer-engine-optimization';
-  
+  const lastUpdated = '2025-11-09';
+
   return (
     <>
-      {/* Enhanced Article Schema */}
-      <Script
-        id="article-schema"
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{
-          __html: JSON.stringify({
-            "@context": "https://schema.org",
-            "@type": "Article",
-            "headline": "What is Answer Engine Optimization (AEO)? The Complete Guide for 2025",
-            "description": "Complete guide explaining what Answer Engine Optimization (AEO) is, how it differs from traditional SEO, and why local businesses need to implement it now to dominate AI-powered search.",
-            "image": {
-              "@type": "ImageObject",
-              "url": "https://theanswerengine.ai/images/what-is-aeo-featured.png",
-              "width": 1200,
-              "height": 630
-            },
-            "author": {
-              "@type": "Organization",
-              "name": "The Answer Engine Team",
-              "url": "https://theanswerengine.ai",
-              "description": "Specialized Answer Engine Optimization team with 2+ years experience, 500+ schema implementations, and 100+ featured snippet wins across multiple AI platforms."
-            },
-            "publisher": {
-              "@type": "Organization",
-              "name": "The Answer Engine",
-              "logo": {
-                "@type": "ImageObject",
-                "url": "https://theanswerengine.ai/TheAnswerEngine_white.png",
-                "width": 600,
-                "height": 60
-              }
-            },
-            "datePublished": publishDate,
-            "dateModified": lastUpdated,
-            "mainEntityOfPage": {
-              "@type": "WebPage",
-              "@id": articleUrl
-            },
-            "articleSection": "Answer Engine Optimization",
-            "keywords": ["answer engine optimization", "AEO", "AI search optimization", "ChatGPT optimization", "local business SEO", "AI citations"],
-            "wordCount": 2400,
-            "inLanguage": "en-US",
-            "speakable": {
-              "@type": "SpeakableSpecification",
-              "cssSelector": [".article-intro"]
-            }
-          })
-        }}
-      />
-
-      {/* Complete FAQ Schema */}
-      <Script
-        id="faq-schema"
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{
-          __html: JSON.stringify({
-            "@context": "https://schema.org",
-            "@type": "FAQPage",
-            "mainEntity": [
-              {
-                "@type": "Question",
-                "name": "What's the difference between AEO and traditional SEO?",
-                "acceptedAnswer": {
-                  "@type": "Answer",
-                  "text": "Traditional SEO optimized to rank in the top 10 search results. Answer Engine Optimization (AEO) optimizes to be cited by AI platforms as the authoritative source in direct answers. AEO requires structured data markup, explicit question-answer formatting, and verifiable expertise signals that traditional SEO didn't emphasize."
-                }
-              },
-              {
-                "@type": "Question",
-                "name": "Can I do Answer Engine Optimization myself?",
-                "acceptedAnswer": {
-                  "@type": "Answer",
-                  "text": "The content creation is possible for businesses with strong writing skills and research capabilities. The technical implementation—properly structured schema, content architecture, and systematic validation—is where most DIY attempts fail. Many businesses spend months on broken implementations without realizing why AI platforms aren't citing them."
-                }
-              },
-              {
-                "@type": "Question",
-                "name": "How is AEO different from featured snippet optimization?",
-                "acceptedAnswer": {
-                  "@type": "Answer",
-                  "text": "Featured snippets are one component of AEO, focused primarily on Google Search. AEO encompasses optimization for ChatGPT, Claude, Perplexity, and Google AI Overviews simultaneously. It requires more comprehensive technical and content architecture than featured snippet optimization alone."
-                }
-              },
-              {
-                "@type": "Question",
-                "name": "Do I need to abandon traditional SEO if I do AEO?",
-                "acceptedAnswer": {
-                  "@type": "Answer",
-                  "text": "No. AEO builds on traditional SEO foundations. Domain authority, quality backlinks, and technical site performance remain important. The focus shifts from 'ranking higher' to 'providing structured, verifiable answers.' Content optimized for AI citations typically performs well in traditional search as well."
-                }
-              },
-              {
-                "@type": "Question",
-                "name": "How much does Answer Engine Optimization cost?",
-                "acceptedAnswer": {
-                  "@type": "Answer",
-                  "text": "Investment varies based on business size, competitive landscape, and implementation scope. Our Answer Authority Foundation Package provides complete content architecture, technical optimization, and strategic positioning for local service businesses. Schedule a strategy call to discuss your specific situation."
-                }
-              },
-              {
-                "@type": "Question",
-                "name": "What happens if I wait to implement AEO?",
-                "acceptedAnswer": {
-                  "@type": "Answer",
-                  "text": "AI platforms favor established authorities. Once a competitor is consistently cited as the expert in your category, displacing them becomes exponentially harder. The businesses establishing authority positions now will compound that advantage over time, making late movers increasingly invisible in AI-powered search."
-                }
-              },
-              {
-                "@type": "Question",
-                "name": "Will AEO work for businesses outside major cities?",
-                "acceptedAnswer": {
-                  "@type": "Answer",
-                  "text": "Often better than for businesses in highly competitive major markets. Smaller markets have less competition for AI citations, making it easier to establish category authority. Proper implementation of local expertise signals and geographic service area documentation is key."
-                }
-              },
-              {
-                "@type": "Question",
-                "name": "How do you measure AEO success?",
-                "acceptedAnswer": {
-                  "@type": "Answer",
-                  "text": "Featured snippet wins in Google Search, inclusion in Google AI Overviews, citations in ChatGPT/Claude/Perplexity responses, and—most importantly—quality of organic traffic. Businesses typically see fewer tire-kickers and more serious inquiries as AI platforms pre-qualify leads by citing established authorities."
-                }
-              }
-            ]
-          })
-        }}
-      />
-
-      {/* BreadcrumbList Schema */}
-      <Script
-        id="breadcrumb-schema"
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{
-          __html: JSON.stringify({
-            "@context": "https://schema.org",
-            "@type": "BreadcrumbList",
-            "itemListElement": [
-              {
-                "@type": "ListItem",
-                "position": 1,
-                "name": "Home",
-                "item": "https://theanswerengine.ai/"
-              },
-              {
-                "@type": "ListItem",
-                "position": 2,
-                "name": "Blog",
-                "item": "https://theanswerengine.ai/blog"
-              },
-              {
-                "@type": "ListItem",
-                "position": 3,
-                "name": "What is Answer Engine Optimization",
-                "item": articleUrl
-              }
-            ]
-          })
-        }}
-      />
-
-      {/* Organization Schema */}
-      <Script
-        id="organization-schema"
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{
-          __html: JSON.stringify({
-            "@context": "https://schema.org",
-            "@type": "Organization",
-            "name": "The Answer Engine",
-            "url": "https://theanswerengine.ai",
-            "logo": "https://theanswerengine.ai/TheAnswerEngine_white.png",
-            "description": "We specialize in Answer Engine Optimization (AEO) for local service businesses, positioning companies to be cited by Google AI Overviews, ChatGPT, Claude, and Perplexity.",
-            "sameAs": [
-              "https://www.linkedin.com/company/theanswerengine",
-              "https://twitter.com/theanswerengine"
-            ],
-            "contactPoint": {
-              "@type": "ContactPoint",
-              "contactType": "Sales",
-              "url": "https://theanswerengine.ai/#contact"
-            }
-          })
-        }}
-      />
-
-      {/* WebPage Schema */}
-      <Script
-        id="webpage-schema"
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{
-          __html: JSON.stringify({
-            "@context": "https://schema.org",
-            "@type": "WebPage",
-            "name": "What is Answer Engine Optimization (AEO)? | The Answer Engine",
-            "description": "Complete guide to Answer Engine Optimization (AEO) - learn how it differs from SEO and why local businesses need it to dominate AI-powered search.",
-            "url": articleUrl,
-            "inLanguage": "en-US",
-            "isPartOf": {
-              "@type": "WebSite",
-              "name": "The Answer Engine",
-              "url": "https://theanswerengine.ai"
-            },
-            "about": {
-              "@type": "Thing",
-              "name": "Answer Engine Optimization"
-            },
-            "primaryImageOfPage": {
-              "@type": "ImageObject",
-              "url": "https://theanswerengine.ai/images/what-is-aeo-featured.png"
-            }
-          })
-        }}
-      />
+      <ComprehensiveSchema />
 
       <main className="min-h-screen bg-[#0F1117] relative">
         {/* Subtle gradient overlay */}

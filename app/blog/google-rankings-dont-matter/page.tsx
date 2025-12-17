@@ -54,254 +54,140 @@ export const metadata: Metadata = {
   ],
 };
 
+// JSON-LD Schema Component
+function ComprehensiveSchema() {
+  const schemaData = {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Article",
+        "@id": "https://theanswerengine.ai/blog/google-rankings-dont-matter#article",
+        "headline": "Why Your Google Rankings Don't Matter Anymore",
+        "description": "Google AI Overviews, ChatGPT, Claude, and Perplexity are answering questions directly. Even #1 rankings get 0 clicks now.",
+        "image": {
+          "@type": "ImageObject",
+          "url": "https://theanswerengine.ai/images/google-rankings-featured.png",
+          "width": 1200,
+          "height": 630
+        },
+        "author": {
+          "@type": "Person",
+          "@id": "https://theanswerengine.ai/about#founder"
+        },
+        "publisher": {
+          "@type": "Organization",
+          "@id": "https://theanswerengine.ai/#organization"
+        },
+        "datePublished": "2025-11-09T09:00:00-08:00",
+        "dateModified": "2025-11-09T09:00:00-08:00",
+        "mainEntityOfPage": {
+          "@type": "WebPage",
+          "@id": "https://theanswerengine.ai/blog/google-rankings-dont-matter"
+        },
+        "articleSection": "Answer Engine Optimization",
+        "keywords": "Google rankings, SEO vs AEO, Google AI Overviews, ChatGPT, AI citations",
+        "wordCount": 4500
+      },
+      {
+        "@type": "FAQPage",
+        "@id": "https://theanswerengine.ai/blog/google-rankings-dont-matter#faq",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "Why don't my Google rankings matter as much anymore?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Google AI Overviews now answer most queries directly above traditional search results, meaning users get their information without clicking through to websites. Even with a #1 ranking, you may lose significant traffic."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What's the difference between SEO and Answer Engine Optimization?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Traditional SEO optimized to rank in search results (top 10 positions). Answer Engine Optimization (AEO) optimizes to be cited by AI as the authoritative answer—whether that's Google AI Overviews, ChatGPT, Claude, or Perplexity."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How long does it take to start getting AI citations?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "With proper Answer Engine Optimization, most businesses see their first featured snippet wins within 60-90 days. Full AI citation across multiple platforms typically takes 3-6 months of consistent, structured content creation."
+            }
+          }
+        ]
+      },
+      {
+        "@type": "BreadcrumbList",
+        "@id": "https://theanswerengine.ai/blog/google-rankings-dont-matter#breadcrumb",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://theanswerengine.ai"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Blog",
+            "item": "https://theanswerengine.ai/blog"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Why Google Rankings Don't Matter Anymore"
+          }
+        ]
+      },
+      {
+        "@type": "Organization",
+        "@id": "https://theanswerengine.ai/#organization",
+        "name": "The Answer Engine",
+        "url": "https://theanswerengine.ai",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://theanswerengine.ai/TheAnswerEngine_white.png",
+          "width": 600,
+          "height": 60
+        },
+        "description": "The Answer Engine specializes in Answer Engine Optimization (AEO) for local service businesses.",
+        "foundingDate": "2025"
+      },
+      {
+        "@type": "WebPage",
+        "@id": "https://theanswerengine.ai/blog/google-rankings-dont-matter",
+        "url": "https://theanswerengine.ai/blog/google-rankings-dont-matter",
+        "name": "Why Google Rankings Don't Matter Anymore",
+        "isPartOf": {
+          "@type": "WebSite",
+          "@id": "https://theanswerengine.ai/#website",
+          "url": "https://theanswerengine.ai",
+          "name": "The Answer Engine"
+        },
+        "breadcrumb": {
+          "@id": "https://theanswerengine.ai/blog/google-rankings-dont-matter#breadcrumb"
+        }
+      }
+    ]
+  };
+
+  return (
+    <script
+      type="application/ld+json"
+      dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
+    />
+  );
+}
+
 export default function GoogleRankingsDontMatter() {
-  const publishDate = '2025-01-08';
-  const lastUpdated = new Date().toISOString().split('T')[0];
-  const articleUrl = 'https://theanswerengine.ai/blog/google-rankings-dont-matter';
-  
+  const publishDate = '2025-11-09';
+  const lastUpdated = '2025-11-09';
+
   return (
     <>
-      {/* Organization Schema */}
-      <Script
-        id="organization-schema"
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{
-          __html: JSON.stringify({
-            "@context": "https://schema.org",
-            "@type": "Organization",
-            "name": "The Answer Engine",
-            "url": "https://theanswerengine.ai",
-            "logo": "https://theanswerengine.ai/TheAnswerEngine_Color_just_logo.png",
-            "description": "The Answer Engine specializes in Answer Engine Optimization (AEO) for local service businesses. We help companies get cited by Google AI Overviews, ChatGPT, Claude, Perplexity, and other AI platforms.",
-            "foundingDate": "2023",
-            "areaServed": "United States",
-            "knowsAbout": [
-              "Answer Engine Optimization",
-              "AI Citation Optimization",
-              "Featured Snippet Optimization",
-              "Schema Markup Implementation",
-              "Google AI Overviews",
-              "ChatGPT Optimization",
-              "Local SEO",
-              "E-E-A-T Optimization"
-            ]
-          })
-        }}
-      />
-
-      {/* BreadcrumbList Schema */}
-      <Script
-        id="breadcrumb-schema"
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{
-          __html: JSON.stringify({
-            "@context": "https://schema.org",
-            "@type": "BreadcrumbList",
-            "itemListElement": [
-              {
-                "@type": "ListItem",
-                "position": 1,
-                "name": "Home",
-                "item": "https://theanswerengine.ai"
-              },
-              {
-                "@type": "ListItem",
-                "position": 2,
-                "name": "Blog",
-                "item": "https://theanswerengine.ai/blog"
-              },
-              {
-                "@type": "ListItem",
-                "position": 3,
-                "name": "Why Google Rankings Don't Matter Anymore",
-                "item": articleUrl
-              }
-            ]
-          })
-        }}
-      />
-
-      {/* Enhanced Article Schema */}
-      <Script
-        id="article-schema"
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{
-          __html: JSON.stringify({
-            "@context": "https://schema.org",
-            "@type": "Article",
-            "headline": "The Real Reason Your Google Rankings Don't Matter Anymore",
-            "description": "Google AI Overviews, ChatGPT, Claude, and Perplexity are answering questions directly — which means even a #1 ranking can get 0 clicks. Here's how to get cited instead of ignored.",
-            "image": {
-              "@type": "ImageObject",
-              "url": "https://theanswerengine.ai/google-rankings-featured.png",
-              "width": 1200,
-              "height": 630
-            },
-            "author": {
-              "@type": "Organization",
-              "name": "The Answer Engine Team",
-              "url": "https://theanswerengine.ai",
-              "description": "Specialized Answer Engine Optimization team with 2+ years experience, 500+ schema implementations, and 100+ featured snippet wins across multiple AI platforms."
-            },
-            "publisher": {
-              "@type": "Organization",
-              "name": "The Answer Engine",
-              "logo": {
-                "@type": "ImageObject",
-                "url": "https://theanswerengine.ai/TheAnswerEngine_Color_just_logo.png"
-              }
-            },
-            "datePublished": publishDate,
-            "dateModified": lastUpdated,
-            "mainEntityOfPage": {
-              "@type": "WebPage",
-              "@id": articleUrl
-            },
-            "keywords": "Answer Engine Optimization, AEO, Google AI Overviews, ChatGPT optimization, featured snippets, AI citations, local SEO, schema markup",
-            "articleSection": "Answer Engine Optimization",
-            "wordCount": 4500,
-            "inLanguage": "en-US",
-            "speakable": {
-              "@type": "SpeakableSpecification",
-              "cssSelector": [".article-intro"]
-            }
-          })
-        }}
-      />
-
-      {/* Complete FAQ Schema */}
-      <Script
-        id="faq-schema"
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{
-          __html: JSON.stringify({
-            "@context": "https://schema.org",
-            "@type": "FAQPage",
-            "mainEntity": [
-              {
-                "@type": "Question",
-                "name": "Why don't my Google rankings matter as much anymore?",
-                "acceptedAnswer": {
-                  "@type": "Answer",
-                  "text": "Google AI Overviews now answer most queries directly above traditional search results, meaning users get their information without clicking through to websites. Even with a #1 ranking, you may lose significant traffic if Google's AI provides the answer first. Add to this the millions of searches now happening on ChatGPT and other AI platforms, and traditional rankings represent a shrinking portion of how customers find businesses."
-                }
-              },
-              {
-                "@type": "Question",
-                "name": "What's the difference between SEO and Answer Engine Optimization?",
-                "acceptedAnswer": {
-                  "@type": "Answer",
-                  "text": "Traditional SEO optimized to rank in search results (top 10 positions). Answer Engine Optimization (AEO) optimizes to be cited by AI as the authoritative answer—whether that's Google AI Overviews, ChatGPT, Claude, or Perplexity. SEO focused on keywords and backlinks. AEO focuses on structured data, direct answers, and demonstrable expertise that AI can verify and trust."
-                }
-              },
-              {
-                "@type": "Question",
-                "name": "How do I know if AI platforms are citing my competitors instead of me?",
-                "acceptedAnswer": {
-                  "@type": "Answer",
-                  "text": "Test it yourself. Ask ChatGPT, Claude, or Perplexity questions your customers would ask about your services in your area. For example: 'Who's the best real estate agent for flood recovery properties in Houston?' If your competitors are mentioned and you're not, you have an AEO visibility problem. Google AI Overviews can be tested by searching your target queries and seeing which businesses Google's AI cites in its answers."
-                }
-              },
-              {
-                "@type": "Question",
-                "name": "Do I still need traditional SEO if I do Answer Engine Optimization?",
-                "acceptedAnswer": {
-                  "@type": "Answer",
-                  "text": "Yes, but the priorities shift. Basic SEO hygiene (site speed, mobile optimization, secure hosting) remains important. However, focus should move from 'ranking higher' to 'providing better answers.' The content that wins AI citations often ranks well anyway, because both systems value expertise and user-focused content. Think of SEO as table stakes and AEO as competitive advantage."
-                }
-              },
-              {
-                "@type": "Question",
-                "name": "How long does it take to start getting AI citations?",
-                "acceptedAnswer": {
-                  "@type": "Answer",
-                  "text": "With proper Answer Engine Optimization, most businesses see their first featured snippet wins (which feed AI citations) within 60-90 days. Full AI citation across multiple platforms typically takes 3-6 months of consistent, structured content creation. This is faster than traditional SEO, which often takes 6-12 months to show significant ranking improvements, because AI platforms reward expertise signals more quickly than traditional ranking algorithms."
-                }
-              },
-              {
-                "@type": "Question",
-                "name": "What happens to my existing SEO investment?",
-                "acceptedAnswer": {
-                  "@type": "Answer",
-                  "text": "Nothing is wasted. Your domain authority, existing backlinks, and quality content remain valuable assets. AEO builds on that foundation rather than replacing it. However, you may need to restructure content to be more answer-focused, add schema markup, and strengthen expertise signals. Think of it as upgrading your content for the AI era rather than starting over."
-                }
-              },
-              {
-                "@type": "Question",
-                "name": "Can AI citations work for local service businesses?",
-                "acceptedAnswer": {
-                  "@type": "Answer",
-                  "text": "Absolutely—local service businesses may benefit most from AEO. When someone asks 'Who's the best plumber near me?' they want a specific recommendation, not ten links to explore. AI platforms provide that specific recommendation. Local businesses that demonstrate deep expertise in their service area, document their credentials properly, and provide detailed answer-first content dominate AI citations in their markets."
-                }
-              }
-            ]
-          })
-        }}
-      />
-
-      {/* WebPage Schema */}
-      <Script
-        id="webpage-schema"
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{
-          __html: JSON.stringify({
-            "@context": "https://schema.org",
-            "@type": "WebPage",
-            "name": "Why Google Rankings Don't Matter Anymore | The Answer Engine",
-            "description": "Google AI Overviews, ChatGPT, Claude, and Perplexity are answering questions directly. Learn how to get cited by AI instead of ignored.",
-            "url": articleUrl,
-            "inLanguage": "en-US",
-            "isPartOf": {
-              "@type": "WebSite",
-              "name": "The Answer Engine",
-              "url": "https://theanswerengine.ai"
-            },
-            "about": {
-              "@type": "Thing",
-              "name": "Answer Engine Optimization"
-            },
-            "primaryImageOfPage": {
-              "@type": "ImageObject",
-              "url": "https://theanswerengine.ai/google-rankings-featured.png"
-            }
-          })
-        }}
-      />
-
-      {/* HowTo Schema */}
-      <Script
-        id="howto-schema"
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{
-          __html: JSON.stringify({
-            "@context": "https://schema.org",
-            "@type": "HowTo",
-            "name": "How to Get AI Platforms to Cite Your Business Instead of Competitors",
-            "description": "Step-by-step process for optimizing your business to be cited by Google AI Overviews, ChatGPT, and other AI platforms",
-            "totalTime": "P90D",
-            "step": [
-              {
-                "@type": "HowToStep",
-                "position": 1,
-                "name": "Implement Structured Data Markup",
-                "text": "Add FAQ, Article, and LocalBusiness schema to help AI platforms understand and extract your content."
-              },
-              {
-                "@type": "HowToStep",
-                "position": 2,
-                "name": "Create Direct Answer Content",
-                "text": "Structure content as clear questions and answers rather than keyword-optimized paragraphs."
-              },
-              {
-                "@type": "HowToStep",
-                "position": 3,
-                "name": "Document Your Expertise",
-                "text": "Provide verifiable credentials, case studies, and specific examples AI can validate."
-              }
-            ]
-          })
-        }}
-      />
+      <ComprehensiveSchema />
 
       <main className="min-h-screen bg-[#0F1117] relative">
         {/* Subtle gradient overlay */}
