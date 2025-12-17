@@ -237,5 +237,19 @@
     "lastModified": "2025-12-17",
     "featured": true,
     "tags": ["Google Reviews", "AI Visibility", "ChatGPT", "Reviews", "Local Business"]
+  },
+  {
+    "id": 18,
+    "title": "Why Bing Places Matters More Than You Think (The ChatGPT Connection)",
+    "slug": "bing-places-chatgpt-connection",
+    "excerpt": "ChatGPT pulls local business data from Bing, not Google. Learn why claiming your Bing Places listing is the hidden key to AI visibility most businesses ignore.",
+    "category": "AI Visibility",
+    "author": "JB",
+    "readTime": "10 min",
+    "image": "/images/bing-places-chatgpt-connection.png",
+    "publishDate": "2025-12-17",
+    "lastModified": "2025-12-17",
+    "featured": true,
+    "tags": ["Bing Places", "ChatGPT", "AI Visibility", "Microsoft", "Local Business"]
   }
 ]
