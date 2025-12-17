@@ -251,5 +251,19 @@
     "lastModified": "2025-12-17",
     "featured": true,
     "tags": ["Bing Places", "ChatGPT", "AI Visibility", "Microsoft", "Local Business"]
+  },
+  {
+    "id": 19,
+    "title": "ChatGPT Can't See Your Google Business Profile — Here's What It CAN See",
+    "slug": "chatgpt-cant-see-google-business-profile",
+    "excerpt": "Your Google Business Profile is invisible to ChatGPT. Learn exactly what information sources ChatGPT can access about your business and how to optimize them.",
+    "category": "AI Visibility",
+    "author": "JB",
+    "readTime": "9 min",
+    "image": "/images/chatgpt-cant-see-gbp.png",
+    "publishDate": "2025-12-17",
+    "lastModified": "2025-12-17",
+    "featured": true,
+    "tags": ["Google Business Profile", "ChatGPT", "AI Visibility", "Data Sources", "Local Business"]
   }
 ]
