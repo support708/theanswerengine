@@ -223,5 +223,19 @@
     "lastModified": "2025-12-16",
     "featured": true,
     "tags": ["AI Visibility", "ChatGPT", "DIY Test", "AI Recommendations", "Competitor Analysis", "Free Tool"]
+  },
+  {
+    "id": 17,
+    "title": "Do Google Reviews Affect AI Recommendations? (The Surprising Truth)",
+    "slug": "do-google-reviews-affect-ai-recommendations",
+    "excerpt": "ChatGPT can't read your Google reviews. Learn which reviews AI platforms actually see, why your 5-star rating might be invisible, and how to fix it.",
+    "category": "AI Visibility",
+    "author": "JB",
+    "readTime": "8 min",
+    "image": "/images/google-reviews-ai-recommendations.png",
+    "publishDate": "2025-12-17",
+    "lastModified": "2025-12-17",
+    "featured": true,
+    "tags": ["Google Reviews", "AI Visibility", "ChatGPT", "Reviews", "Local Business"]
   }
 ]
