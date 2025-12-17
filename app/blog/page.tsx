@@ -153,7 +153,7 @@ export default function Blog() {
             "itemListElement": sortedPosts.map((post, index) => ({
               "@type": "ListItem",
               "position": index + 1,
-              "url": `https://theanswerengine.ai/blog/${post.slug}`,
+              "url": post.customUrl ? `https://theanswerengine.ai${post.customUrl}` : `https://theanswerengine.ai/blog/${post.slug}`,
               "name": post.title
             }))
           })
@@ -309,7 +309,7 @@ export default function Blog() {
                       }`}
                       style={{ transitionDelay: featuredAnim.isVisible ? `${100 + i * 100}ms` : '0ms' }}
                     >
-                      <Link href={`/blog/${post.slug}`} className="block">
+                      <Link href={post.customUrl || `/blog/${post.slug}`} className="block">
                         <div className="relative h-44 sm:h-48 bg-gradient-to-br from-[#362478]/20 to-[#f27d24]/20 flex items-center justify-center overflow-hidden">
                           <Image
                             src={post.image}
@@ -384,7 +384,7 @@ export default function Blog() {
                   }`}
                   style={{ transitionDelay: allPostsAnim.isVisible ? `${(i % 6) * 50}ms` : '0ms' }}
                 >
-                  <Link href={`/blog/${post.slug}`} className="block">
+                  <Link href={post.customUrl || `/blog/${post.slug}`} className="block">
                     <div className="relative h-44 sm:h-48 bg-gradient-to-br from-[#362478]/20 to-[#f27d24]/20 flex items-center justify-center overflow-hidden">
                       <Image
                         src={post.image}

@@ -180,5 +180,34 @@
     "lastModified": "2025-12-01",
     "featured": true,
     "tags": ["AEO", "Answer Engine Solutions", "AI Citations", "Local Business", "ChatGPT", "2025 Guide"]
+  },
+  {
+    "id": 14,
+    "title": "AEO Case Study: 4,100+ Monthly Clicks in LA Real Estate",
+    "slug": "case-studies/justin-borges",
+    "customUrl": "/case-studies/justin-borges",
+    "excerpt": "How a Los Angeles real estate team achieved 4,128 monthly clicks, 606K+ impressions, and 100% AI citation rates through Answer Engine Optimization in 4 months.",
+    "category": "Case Study",
+    "author": "JB",
+    "readTime": "8 min",
+    "image": "/images/aeo-case-study-la-real-estate-4128-clicks.png",
+    "publishDate": "2025-12-16",
+    "lastModified": "2025-12-16",
+    "featured": true,
+    "tags": ["Case Study", "Real Estate", "Los Angeles", "AEO Results", "AI Citations", "Google Search Console"]
+  },
+  {
+    "id": 15,
+    "title": "AEO vs SEO: What's the Difference? (2025 Comparison Guide)",
+    "slug": "aeo-vs-seo",
+    "excerpt": "AEO optimizes content for AI citations from ChatGPT, Claude, and Google AI Overview. SEO optimizes for search rankings. Learn when to use each and why AEO matters now.",
+    "category": "AEO Fundamentals",
+    "author": "JB",
+    "readTime": "10 min",
+    "image": "/images/aeo-vs-seo-comparison-guide-2025.png",
+    "publishDate": "2025-12-16",
+    "lastModified": "2025-12-16",
+    "featured": true,
+    "tags": ["AEO", "SEO", "Comparison", "AI Citations", "Search Rankings", "2025 Guide"]
   }
 ]
