@@ -1,6 +1,5 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
-import Script from 'next/script';
 
 // ISR Configuration
 export const revalidate = 86400; // 24 hours
@@ -8,64 +7,52 @@ export const dynamic = 'force-static';
 export const dynamicParams = true;
 
 // Enhanced Metadata
-export async function generateMetadata(): Promise<Metadata> {
-  const lastUpdated = new Date().toISOString().split('T')[0];
-  const publishDate = '2025-01-08';
-  
-  return {
-    title: 'Why Your Google Rankings Don\'t Matter Anymore | The Answer Engine',
-    description: 'Google AI Overviews, ChatGPT, Claude, and Perplexity are answering questions directly. Learn why even #1 rankings get 0 clicks and how to get cited by AI instead.',
-    
-    openGraph: {
-      title: 'The Real Reason Your Google Rankings Don\'t Matter Anymore',
-      description: 'Google AI Overviews, ChatGPT, Claude answer questions directly. Even #1 rankings get 0 clicks. Here\'s how to get cited instead.',
-      type: 'article',
-      publishedTime: publishDate,
-      modifiedTime: lastUpdated,
-      authors: ['The Answer Engine Team'],
-      url: 'https://theanswerengine.ai/blog/google-rankings-dont-matter',
-      images: [
-        {
-          url: 'https://theanswerengine.ai/google-rankings-featured.png',
-          width: 1200,
-          height: 630,
-          alt: 'Why Google Rankings Don\'t Matter Anymore in 2025',
-        }
-      ],
-      siteName: 'The Answer Engine',
-    },
-    
-    twitter: {
-      card: 'summary_large_image',
-      title: 'Why Your Google Rankings Don\'t Matter Anymore',
-      description: 'Even #1 rankings get 0 clicks now. Here\'s how to get cited by AI instead.',
-      images: ['https://theanswerengine.ai/google-rankings-featured.png'],
-      creator: '@theanswerengine',
-    },
-    
-    alternates: {
-      canonical: 'https://theanswerengine.ai/blog/google-rankings-dont-matter',
-    },
-    
-    other: {
-      'article:modified_time': lastUpdated,
-      'article:published_time': publishDate,
-      'article:author': 'The Answer Engine Team',
-      'article:section': 'Answer Engine Optimization',
-    },
-    
-    keywords: [
-      'Answer Engine Optimization',
-      'Google AI Overviews',
-      'ChatGPT optimization',
-      'AI citations',
-      'SEO vs AEO',
-      'featured snippets',
-      'local SEO',
-      'schema markup',
+export const metadata: Metadata = {
+  title: 'Why Your Google Rankings Don\'t Matter Anymore | The Answer Engine',
+  description: 'Google AI Overviews, ChatGPT, Claude, and Perplexity are answering questions directly. Learn why even #1 rankings get 0 clicks and how to get cited by AI instead.',
+
+  openGraph: {
+    title: 'The Real Reason Your Google Rankings Don\'t Matter Anymore',
+    description: 'Google AI Overviews, ChatGPT, Claude answer questions directly. Even #1 rankings get 0 clicks. Here\'s how to get cited instead.',
+    type: 'article',
+    publishedTime: '2025-11-09',
+    modifiedTime: '2025-11-09',
+    authors: ['Justin Borges'],
+    url: 'https://theanswerengine.ai/blog/google-rankings-dont-matter',
+    images: [
+      {
+        url: 'https://theanswerengine.ai/images/google-rankings-featured.png',
+        width: 1200,
+        height: 630,
+        alt: 'Why Google Rankings Don\'t Matter Anymore in 2025',
+      }
     ],
-  };
-}
+    siteName: 'The Answer Engine',
+  },
+
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Why Your Google Rankings Don\'t Matter Anymore',
+    description: 'Even #1 rankings get 0 clicks now. Here\'s how to get cited by AI instead.',
+    images: ['https://theanswerengine.ai/images/google-rankings-featured.png'],
+    creator: '@theanswerengine',
+  },
+
+  alternates: {
+    canonical: 'https://theanswerengine.ai/blog/google-rankings-dont-matter',
+  },
+
+  keywords: [
+    'Answer Engine Optimization',
+    'Google AI Overviews',
+    'ChatGPT optimization',
+    'AI citations',
+    'SEO vs AEO',
+    'featured snippets',
+    'local SEO',
+    'schema markup',
+  ],
+};
 
 export default function GoogleRankingsDontMatter() {
   const publishDate = '2025-01-08';

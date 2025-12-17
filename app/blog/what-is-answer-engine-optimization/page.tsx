@@ -1,6 +1,5 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
-import Script from 'next/script';
 
 // ISR Configuration
 export const revalidate = 86400; // 24 hours
@@ -8,62 +7,50 @@ export const dynamic = 'force-static';
 export const dynamicParams = true;
 
 // Enhanced Metadata
-export async function generateMetadata(): Promise<Metadata> {
-  const lastUpdated = new Date().toISOString().split('T')[0];
-  const publishDate = '2025-11-09';
-  
-  return {
-    title: 'What is Answer Engine Optimization (AEO)? The Complete Guide for 2025 | The Answer Engine',
-    description: 'Complete guide explaining what Answer Engine Optimization (AEO) is, how it differs from traditional SEO, and why local businesses need to implement it now to dominate AI-powered search.',
-    
-    openGraph: {
-      title: 'What is Answer Engine Optimization (AEO)? The Complete Guide for 2025',
-      description: 'Learn how AEO differs from traditional SEO and why local businesses must implement it now.',
-      type: 'article',
-      publishedTime: publishDate,
-      modifiedTime: lastUpdated,
-      authors: ['The Answer Engine Team'],
-      url: 'https://theanswerengine.ai/blog/what-is-answer-engine-optimization',
-      images: [
-        {
-          url: 'https://theanswerengine.ai/images/what-is-aeo-featured.png',
-          width: 1200,
-          height: 630,
-          alt: 'What is Answer Engine Optimization (AEO)',
-        }
-      ],
-      siteName: 'The Answer Engine',
-    },
-    
-    twitter: {
-      card: 'summary_large_image',
-      title: 'What is Answer Engine Optimization (AEO)?',
-      description: 'Complete guide to AEO for local businesses in 2025.',
-      images: ['https://theanswerengine.ai/images/what-is-aeo-featured.png'],
-      creator: '@theanswerengine',
-    },
-    
-    alternates: {
-      canonical: 'https://theanswerengine.ai/blog/what-is-answer-engine-optimization',
-    },
-    
-    other: {
-      'article:modified_time': lastUpdated,
-      'article:published_time': publishDate,
-      'article:author': 'The Answer Engine Team',
-      'article:section': 'Answer Engine Optimization',
-    },
-    
-    keywords: [
-      'answer engine optimization',
-      'AEO',
-      'AI search optimization',
-      'ChatGPT optimization',
-      'local business SEO',
-      'AI citations',
+export const metadata: Metadata = {
+  title: 'What is Answer Engine Optimization (AEO)? The Complete Guide for 2025 | The Answer Engine',
+  description: 'Complete guide explaining what Answer Engine Optimization (AEO) is, how it differs from traditional SEO, and why local businesses need to implement it now to dominate AI-powered search.',
+
+  openGraph: {
+    title: 'What is Answer Engine Optimization (AEO)? The Complete Guide for 2025',
+    description: 'Learn how AEO differs from traditional SEO and why local businesses must implement it now.',
+    type: 'article',
+    publishedTime: '2025-11-09',
+    modifiedTime: '2025-11-09',
+    authors: ['Justin Borges'],
+    url: 'https://theanswerengine.ai/blog/what-is-answer-engine-optimization',
+    images: [
+      {
+        url: 'https://theanswerengine.ai/images/what-is-aeo-featured.png',
+        width: 1200,
+        height: 630,
+        alt: 'What is Answer Engine Optimization (AEO)',
+      }
     ],
-  };
-}
+    siteName: 'The Answer Engine',
+  },
+
+  twitter: {
+    card: 'summary_large_image',
+    title: 'What is Answer Engine Optimization (AEO)?',
+    description: 'Complete guide to AEO for local businesses in 2025.',
+    images: ['https://theanswerengine.ai/images/what-is-aeo-featured.png'],
+    creator: '@theanswerengine',
+  },
+
+  alternates: {
+    canonical: 'https://theanswerengine.ai/blog/what-is-answer-engine-optimization',
+  },
+
+  keywords: [
+    'answer engine optimization',
+    'AEO',
+    'AI search optimization',
+    'ChatGPT optimization',
+    'local business SEO',
+    'AI citations',
+  ],
+};
 
 export default function WhatIsAEOBlogPost() {
   const publishDate = '2025-11-09';

@@ -1,6 +1,5 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
-import Script from 'next/script';
 
 // ISR Configuration
 export const revalidate = 86400; // 24 hours
@@ -8,323 +7,184 @@ export const dynamic = 'force-static';
 export const dynamicParams = true;
 
 // Enhanced Metadata
-export async function generateMetadata(): Promise<Metadata> {
-  const lastUpdated = new Date().toISOString().split('T')[0];
-  const publishDate = '2025-11-09';
-  
-  return {
-    title: 'Is Answer Engine Optimization Worth It for Local Service Businesses? | The Answer Engine',
-    description: 'Discover which local service businesses see strongest ROI from AEO. Learn when to invest, wait, or skip Answer Engine Optimization entirely.',
-    
-    openGraph: {
-      title: 'Is Answer Engine Optimization Worth It for Local Service Businesses?',
-      description: 'Honest ROI framework: which businesses see 300% returns and which should wait.',
-      type: 'article',
-      publishedTime: publishDate,
-      modifiedTime: lastUpdated,
-      authors: ['The Answer Engine Team'],
-      url: 'https://theanswerengine.ai/blog/is-answer-engine-optimization-worth-it',
-      images: [
-        {
-          url: 'https://theanswerengine.ai/images/is-aeo-worth-it-featured.png',
-          width: 1200,
-          height: 630,
-          alt: 'Is Answer Engine Optimization Worth It for Local Businesses',
-        }
-      ],
-      siteName: 'The Answer Engine',
-    },
-    
-    twitter: {
-      card: 'summary_large_image',
-      title: 'Is Answer Engine Optimization Worth It?',
-      description: 'Honest ROI analysis for local service businesses considering AEO investment.',
-      images: ['https://theanswerengine.ai/images/is-aeo-worth-it-featured.png'],
-      creator: '@theanswerengine',
-    },
-    
-    alternates: {
-      canonical: 'https://theanswerengine.ai/blog/is-answer-engine-optimization-worth-it',
-    },
-    
-    other: {
-      'article:modified_time': lastUpdated,
-      'article:published_time': publishDate,
-      'article:author': 'The Answer Engine Team',
-      'article:section': 'Answer Engine Optimization',
-    },
-    
-    keywords: [
-      'AEO ROI',
-      'answer engine optimization worth it',
-      'should I invest in AEO',
-      'AEO cost benefit',
-      'local business AEO investment',
-      'answer engine optimization value',
+export const metadata: Metadata = {
+  title: 'Is Answer Engine Optimization Worth It for Local Service Businesses? | The Answer Engine',
+  description: 'Discover which local service businesses see strongest ROI from AEO. Learn when to invest, wait, or skip Answer Engine Optimization entirely.',
+
+  openGraph: {
+    title: 'Is Answer Engine Optimization Worth It for Local Service Businesses?',
+    description: 'Honest ROI framework: which businesses see 300% returns and which should wait.',
+    type: 'article',
+    publishedTime: '2025-11-09',
+    modifiedTime: '2025-11-09',
+    authors: ['Justin Borges'],
+    url: 'https://theanswerengine.ai/blog/is-answer-engine-optimization-worth-it',
+    images: [
+      {
+        url: 'https://theanswerengine.ai/images/is-aeo-worth-it-featured.png',
+        width: 1200,
+        height: 630,
+        alt: 'Is Answer Engine Optimization Worth It for Local Businesses',
+      }
     ],
+    siteName: 'The Answer Engine',
+  },
+
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Is Answer Engine Optimization Worth It?',
+    description: 'Honest ROI analysis for local service businesses considering AEO investment.',
+    images: ['https://theanswerengine.ai/images/is-aeo-worth-it-featured.png'],
+    creator: '@theanswerengine',
+  },
+
+  alternates: {
+    canonical: 'https://theanswerengine.ai/blog/is-answer-engine-optimization-worth-it',
+  },
+
+  keywords: [
+    'AEO ROI',
+    'answer engine optimization worth it',
+    'should I invest in AEO',
+    'AEO cost benefit',
+    'local business AEO investment',
+    'answer engine optimization value',
+  ],
+};
+
+// JSON-LD Schema Component
+function ComprehensiveSchema() {
+  const schemaData = {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Article",
+        "@id": "https://theanswerengine.ai/blog/is-answer-engine-optimization-worth-it#article",
+        "headline": "Is Answer Engine Optimization Worth It for Local Service Businesses?",
+        "description": "Discover which local service businesses see strongest ROI from AEO. Learn when to invest, wait, or skip Answer Engine Optimization entirely.",
+        "image": {
+          "@type": "ImageObject",
+          "url": "https://theanswerengine.ai/images/is-aeo-worth-it-featured.png",
+          "width": 1200,
+          "height": 630
+        },
+        "author": {
+          "@type": "Person",
+          "@id": "https://theanswerengine.ai/about#founder"
+        },
+        "publisher": {
+          "@type": "Organization",
+          "@id": "https://theanswerengine.ai/#organization"
+        },
+        "datePublished": "2025-11-09T09:00:00-08:00",
+        "dateModified": "2025-11-09T09:00:00-08:00",
+        "mainEntityOfPage": {
+          "@type": "WebPage",
+          "@id": "https://theanswerengine.ai/blog/is-answer-engine-optimization-worth-it"
+        },
+        "articleSection": "Answer Engine Optimization",
+        "keywords": "AEO ROI, answer engine optimization worth it, should I invest in AEO, local business AEO investment",
+        "wordCount": 4200
+      },
+      {
+        "@type": "FAQPage",
+        "@id": "https://theanswerengine.ai/blog/is-answer-engine-optimization-worth-it#faq",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "How much does professional AEO implementation typically cost?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Investment varies based on business complexity, market competition, and implementation scope. The right question isn't cost in isolation—it's whether investment generates positive ROI within your acceptable timeline."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Can small local businesses compete with larger companies on AI citations?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Often yes—local businesses have geographic specificity advantages national companies lack. AI platforms favor specific local expertise over generic national presence."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Should I wait to see if AI search becomes more popular?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "AI-powered search is already mainstream. Google AI Overviews appear for most queries. ChatGPT has over 100 million weekly active users. Markets with established competitor citations get harder to enter, not easier."
+            }
+          }
+        ]
+      },
+      {
+        "@type": "BreadcrumbList",
+        "@id": "https://theanswerengine.ai/blog/is-answer-engine-optimization-worth-it#breadcrumb",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://theanswerengine.ai"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Blog",
+            "item": "https://theanswerengine.ai/blog"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Is Answer Engine Optimization Worth It?"
+          }
+        ]
+      },
+      {
+        "@type": "Organization",
+        "@id": "https://theanswerengine.ai/#organization",
+        "name": "The Answer Engine",
+        "url": "https://theanswerengine.ai",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://theanswerengine.ai/TheAnswerEngine_white.png",
+          "width": 600,
+          "height": 60
+        },
+        "description": "We specialize in Answer Engine Optimization (AEO) for local service businesses, positioning companies to be cited by Google AI Overviews, ChatGPT, Claude, and Perplexity."
+      },
+      {
+        "@type": "WebPage",
+        "@id": "https://theanswerengine.ai/blog/is-answer-engine-optimization-worth-it",
+        "url": "https://theanswerengine.ai/blog/is-answer-engine-optimization-worth-it",
+        "name": "Is Answer Engine Optimization Worth It?",
+        "isPartOf": {
+          "@type": "WebSite",
+          "@id": "https://theanswerengine.ai/#website",
+          "url": "https://theanswerengine.ai",
+          "name": "The Answer Engine"
+        },
+        "breadcrumb": {
+          "@id": "https://theanswerengine.ai/blog/is-answer-engine-optimization-worth-it#breadcrumb"
+        }
+      }
+    ]
   };
+
+  return (
+    <script
+      type="application/ld+json"
+      dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
+    />
+  );
 }
 
 export default function IsAEOWorthItBlogPost() {
   const publishDate = '2025-11-09';
-  const lastUpdated = new Date().toISOString().split('T')[0];
-  const articleUrl = 'https://theanswerengine.ai/blog/is-answer-engine-optimization-worth-it';
-  
+  const lastUpdated = '2025-11-09';
+
   return (
     <>
-      {/* Enhanced Article Schema */}
-      <Script
-        id="article-schema"
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{
-          __html: JSON.stringify({
-            "@context": "https://schema.org",
-            "@type": "Article",
-            "headline": "Is Answer Engine Optimization Worth It for Local Service Businesses?",
-            "description": "Discover which local service businesses see strongest ROI from AEO. Learn when to invest, wait, or skip Answer Engine Optimization entirely.",
-            "image": {
-              "@type": "ImageObject",
-              "url": "https://theanswerengine.ai/images/is-aeo-worth-it-featured.png",
-              "width": 1200,
-              "height": 630
-            },
-            "author": {
-              "@type": "Organization",
-              "name": "The Answer Engine Team",
-              "url": "https://theanswerengine.ai",
-              "description": "Specialized Answer Engine Optimization team with 2+ years experience, 500+ schema implementations, and 100+ featured snippet wins across multiple AI platforms."
-            },
-            "publisher": {
-              "@type": "Organization",
-              "name": "The Answer Engine",
-              "logo": {
-                "@type": "ImageObject",
-                "url": "https://theanswerengine.ai/TheAnswerEngine_white%20logo%20only.png",
-                "width": 600,
-                "height": 60
-              }
-            },
-            "datePublished": publishDate,
-            "dateModified": lastUpdated,
-            "mainEntityOfPage": {
-              "@type": "WebPage",
-              "@id": articleUrl
-            },
-            "articleSection": "Answer Engine Optimization",
-            "keywords": ["AEO ROI", "answer engine optimization worth it", "should I invest in AEO", "AEO cost benefit", "local business AEO investment", "answer engine optimization value"],
-            "wordCount": 4200,
-            "inLanguage": "en-US",
-            "speakable": {
-              "@type": "SpeakableSpecification",
-              "cssSelector": [".article-intro"]
-            }
-          })
-        }}
-      />
-
-      {/* Complete FAQ Schema */}
-      <Script
-        id="faq-schema"
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{
-          __html: JSON.stringify({
-            "@context": "https://schema.org",
-            "@type": "FAQPage",
-            "mainEntity": [
-              {
-                "@type": "Question",
-                "name": "How much does professional AEO implementation typically cost?",
-                "acceptedAnswer": {
-                  "@type": "Answer",
-                  "text": "Investment varies significantly based on business complexity, market competition, and implementation scope. Factors include technical infrastructure needs, content volume requirements, expertise documentation complexity, and competitive displacement difficulty. The right question isn't cost in isolation—it's whether investment generates positive ROI within your acceptable timeline."
-                }
-              },
-              {
-                "@type": "Question",
-                "name": "Can I start with basic AEO and expand later?",
-                "acceptedAnswer": {
-                  "@type": "Answer",
-                  "text": "Partial implementation often wastes investment. Foundation elements (technical structure, expertise documentation, content architecture) are interdependent. Implementing some but not others typically means AI platforms can't properly process what you do implement. Better to assess whether complete systematic implementation makes sense, then commit fully or wait."
-                }
-              },
-              {
-                "@type": "Question",
-                "name": "How do I know if my competitors have optimized for AI citations?",
-                "acceptedAnswer": {
-                  "@type": "Answer",
-                  "text": "Test systematically across AI platforms. Ask questions your customers would ask across Google AI Overviews, ChatGPT, Claude, and Perplexity. Document which businesses get cited and why. If competitors appear consistently while you don't, they've likely optimized. If nobody appears consistently, you're in early market timing—strong opportunity."
-                }
-              },
-              {
-                "@type": "Question",
-                "name": "What if I invest in AEO and it doesn't work?",
-                "acceptedAnswer": {
-                  "@type": "Answer",
-                  "text": "Proper implementation with correct technical foundation, systematic content architecture, and verifiable expertise documentation typically works—the question is timeline. Doesn't work usually means premature abandonment before reaching authority building phases, or broken implementation that wasn't properly diagnosed. This is why diagnostic capability matters so much."
-                }
-              },
-              {
-                "@type": "Question",
-                "name": "Should I wait to see if AI search becomes more popular?",
-                "acceptedAnswer": {
-                  "@type": "Answer",
-                  "text": "AI-powered search is already mainstream. Google AI Overviews appear for most queries. ChatGPT has over 100 million weekly active users. The question isn't whether AI search matters—it's whether waiting for more proof costs you early mover advantage. Markets with established competitor citations get harder to enter, not easier."
-                }
-              },
-              {
-                "@type": "Question",
-                "name": "What's the biggest mistake businesses make with AEO investment?",
-                "acceptedAnswer": {
-                  "@type": "Answer",
-                  "text": "Treating it like traditional marketing with expected immediate returns. AEO builds compound authority over time. Businesses expecting results in weeks abandon working strategies before reaching valuable phases. Second biggest mistake: partial implementation hoping for full results. Missing foundation elements makes everything else ineffective."
-                }
-              },
-              {
-                "@type": "Question",
-                "name": "How is AEO ROI different from traditional SEO ROI?",
-                "acceptedAnswer": {
-                  "@type": "Answer",
-                  "text": "Traditional SEO delivered incremental traffic increases you could measure weekly. AEO delivers citation authority that compounds over time but builds more slowly initially. Early months show minimal return while foundation builds. Later months show accelerating returns as authority compounds. Timeline expectations determine perceived success versus failure."
-                }
-              },
-              {
-                "@type": "Question",
-                "name": "Can small local businesses compete with larger companies on AI citations?",
-                "acceptedAnswer": {
-                  "@type": "Answer",
-                  "text": "Often yes—local businesses have geographic specificity advantages national companies lack. AI platforms favor specific local expertise over generic national presence. A Phoenix landscape architect with deep local plant knowledge beats a national chain's generic advice. Small businesses with proper implementation often win local citations over larger competitors."
-                }
-              }
-            ]
-          })
-        }}
-      />
-
-      {/* BreadcrumbList Schema */}
-      <Script
-        id="breadcrumb-schema"
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{
-          __html: JSON.stringify({
-            "@context": "https://schema.org",
-            "@type": "BreadcrumbList",
-            "itemListElement": [
-              {
-                "@type": "ListItem",
-                "position": 1,
-                "name": "Home",
-                "item": "https://theanswerengine.ai"
-              },
-              {
-                "@type": "ListItem",
-                "position": 2,
-                "name": "Blog",
-                "item": "https://theanswerengine.ai/blog"
-              },
-              {
-                "@type": "ListItem",
-                "position": 3,
-                "name": "Is Answer Engine Optimization Worth It for Local Service Businesses?",
-                "item": articleUrl
-              }
-            ]
-          })
-        }}
-      />
-
-      {/* Organization Schema */}
-      <Script
-        id="organization-schema"
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{
-          __html: JSON.stringify({
-            "@context": "https://schema.org",
-            "@type": "Organization",
-            "name": "The Answer Engine",
-            "url": "https://theanswerengine.ai",
-            "logo": "https://theanswerengine.ai/TheAnswerEngine_white%20logo%20only.png",
-            "description": "We specialize in Answer Engine Optimization (AEO) for local service businesses, positioning companies to be cited by Google AI Overviews, ChatGPT, Claude, and Perplexity.",
-            "sameAs": [
-              "https://www.linkedin.com/company/theanswerengine",
-              "https://twitter.com/theanswerengine"
-            ],
-            "contactPoint": {
-              "@type": "ContactPoint",
-              "contactType": "Sales",
-              "url": "https://theanswerengine.ai/#contact"
-            }
-          })
-        }}
-      />
-
-      {/* WebPage Schema */}
-      <Script
-        id="webpage-schema"
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{
-          __html: JSON.stringify({
-            "@context": "https://schema.org",
-            "@type": "WebPage",
-            "name": "Is Answer Engine Optimization Worth It for Local Service Businesses? | The Answer Engine",
-            "description": "Discover which local service businesses see strongest ROI from AEO. Learn when to invest, wait, or skip Answer Engine Optimization entirely.",
-            "url": articleUrl,
-            "inLanguage": "en-US",
-            "isPartOf": {
-              "@type": "WebSite",
-              "name": "The Answer Engine",
-              "url": "https://theanswerengine.ai"
-            },
-            "about": {
-              "@type": "Thing",
-              "name": "Answer Engine Optimization ROI"
-            },
-            "primaryImageOfPage": {
-              "@type": "ImageObject",
-              "url": "https://theanswerengine.ai/images/is-aeo-worth-it-featured.png"
-            }
-          })
-        }}
-      />
-
-      {/* HowTo Schema */}
-      <Script
-        id="howto-schema"
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{
-          __html: JSON.stringify({
-            "@context": "https://schema.org",
-            "@type": "HowTo",
-            "name": "How to Determine If AEO Is Worth It for Your Business",
-            "description": "Decision framework for evaluating Answer Engine Optimization ROI",
-            "step": [
-              {
-                "@type": "HowToStep",
-                "position": 1,
-                "name": "Calculate Customer Acquisition Economics",
-                "text": "Determine your average customer lifetime value, current acquisition costs, and acceptable payback period."
-              },
-              {
-                "@type": "HowToStep",
-                "position": 2,
-                "name": "Assess Competitive Positioning",
-                "text": "Test AI platforms to see which competitors get cited and identify market timing (early, mid, or late)."
-              },
-              {
-                "@type": "HowToStep",
-                "position": 3,
-                "name": "Evaluate Implementation Approach",
-                "text": "Decide between DIY learning timeline versus specialist partnership based on urgency and expertise."
-              },
-              {
-                "@type": "HowToStep",
-                "position": 4,
-                "name": "Make Strategic Decision",
-                "text": "Invest if CLV justifies timeline, you're early/mid-market, and can commit to complete implementation."
-              }
-            ]
-          })
-        }}
-      />
+      <ComprehensiveSchema />
 
       <main className="min-h-screen bg-[#0A0A0F] relative">
         {/* Subtle gradient overlay */}
