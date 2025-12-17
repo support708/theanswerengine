@@ -209,5 +209,19 @@
     "lastModified": "2025-12-16",
     "featured": true,
     "tags": ["AEO", "SEO", "Comparison", "AI Citations", "Search Rankings", "2025 Guide"]
+  },
+  {
+    "id": 16,
+    "title": "How to Check If AI Is Recommending Your Business (5-Minute Test)",
+    "slug": "check-if-ai-recommends-your-business",
+    "excerpt": "Test whether ChatGPT, Claude, and Google AI recommend your business or your competitors. Free 5-minute audit you can do right now to check your AI visibility.",
+    "category": "DIY Guide",
+    "author": "JB",
+    "readTime": "5 min",
+    "image": "/images/ai-recommendation-test-5-minute-audit.png",
+    "publishDate": "2025-12-16",
+    "lastModified": "2025-12-16",
+    "featured": true,
+    "tags": ["AI Visibility", "ChatGPT", "DIY Test", "AI Recommendations", "Competitor Analysis", "Free Tool"]
   }
 ]
