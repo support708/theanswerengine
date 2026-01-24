@@ -138,21 +138,63 @@ export default function Home() {
 
   return (
     <>
-      {/* Organization Schema */}
+      {/* LocalBusiness Schema */}
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{
           __html: JSON.stringify({
             "@context": "https://schema.org",
-            "@type": "ProfessionalService",
+            "@type": ["LocalBusiness", "ProfessionalService"],
             "name": "The Answer Engine",
             "description": "Answer Engine Optimization specialists helping local service businesses get cited by AI platforms like ChatGPT, Claude, and Google AI Overviews",
             "url": "https://theanswerengine.ai",
-            "telephone": "+1-213-444-2229",
+            "telephone": "(213) 444-2229",
             "email": "support@theanswerengine.ai",
+            "foundingDate": "2025",
             "priceRange": "$$",
-            "areaServed": "United States",
-            "logo": "https://theanswerengine.ai/TheAnswerEngine_Color_just_logo.png"
+            "areaServed": {
+              "@type": "Country",
+              "name": "United States"
+            },
+            "logo": "https://theanswerengine.ai/TheAnswerEngine_Color_just_logo.png",
+            "image": "https://theanswerengine.ai/TheAnswerEngine_Color_just_logo.png",
+            "openingHoursSpecification": [
+              {
+                "@type": "OpeningHoursSpecification",
+                "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+                "opens": "09:00",
+                "closes": "18:00"
+              }
+            ],
+            "aggregateRating": {
+              "@type": "AggregateRating",
+              "ratingValue": "5.0",
+              "reviewCount": "1",
+              "bestRating": "5"
+            },
+            "knowsAbout": [
+              "Answer Engine Optimization",
+              "AI Search Optimization",
+              "ChatGPT Business Citations",
+              "Claude AI Optimization",
+              "Google AI Overviews",
+              "Perplexity AI Optimization",
+              "Local Business Marketing",
+              "Digital Marketing for Service Businesses"
+            ],
+            "hasOfferCatalog": {
+              "@type": "OfferCatalog",
+              "name": "AEO Services",
+              "itemListElement": [
+                {
+                  "@type": "Offer",
+                  "itemOffered": {
+                    "@type": "Service",
+                    "name": "Answer Engine Optimization"
+                  }
+                }
+              ]
+            }
           })
         }}
       />

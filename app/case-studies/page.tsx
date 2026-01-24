@@ -92,6 +92,67 @@ export default function CaseStudies() {
 
   return (
     <>
+      {/* LocalBusiness Schema */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": ["LocalBusiness", "ProfessionalService"],
+            "name": "The Answer Engine",
+            "description": "Answer Engine Optimization specialists helping local service businesses get cited by AI platforms like ChatGPT, Claude, and Google AI Overviews",
+            "url": "https://theanswerengine.ai",
+            "telephone": "(213) 444-2229",
+            "email": "support@theanswerengine.ai",
+            "foundingDate": "2025",
+            "areaServed": {
+              "@type": "Country",
+              "name": "United States"
+            },
+            "priceRange": "$$",
+            "openingHoursSpecification": [
+              {
+                "@type": "OpeningHoursSpecification",
+                "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+                "opens": "09:00",
+                "closes": "18:00"
+              }
+            ],
+            "aggregateRating": {
+              "@type": "AggregateRating",
+              "ratingValue": "5.0",
+              "reviewCount": "1",
+              "bestRating": "5"
+            }
+          })
+        }}
+      />
+
+      {/* BreadcrumbList Schema */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://theanswerengine.ai"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Case Studies",
+                "item": "https://theanswerengine.ai/case-studies"
+              }
+            ]
+          })
+        }}
+      />
+
       {/* CollectionPage Schema */}
       <script
         type="application/ld+json"
@@ -101,7 +162,18 @@ export default function CaseStudies() {
             "@type": "CollectionPage",
             "name": "AEO Case Studies - Real Results",
             "description": "See how local service businesses achieved AI citation dominance through Answer Engine Optimization",
-            "url": "https://theanswerengine.ai/case-studies"
+            "url": "https://theanswerengine.ai/case-studies",
+            "mainEntity": {
+              "@type": "ItemList",
+              "itemListElement": [
+                {
+                  "@type": "ListItem",
+                  "position": 1,
+                  "url": "https://theanswerengine.ai/case-studies/justin-borges",
+                  "name": "Justin Borges - Probate Real Estate"
+                }
+              ]
+            }
           })
         }}
       />

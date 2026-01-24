@@ -1,6 +1,73 @@
 export default function JustinBorgesCaseStudy() {
   return (
     <>
+      {/* LocalBusiness Schema */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": ["LocalBusiness", "ProfessionalService"],
+            "name": "The Answer Engine",
+            "description": "Answer Engine Optimization specialists helping local service businesses get cited by AI platforms like ChatGPT, Claude, and Google AI Overviews",
+            "url": "https://theanswerengine.ai",
+            "telephone": "(213) 444-2229",
+            "email": "support@theanswerengine.ai",
+            "foundingDate": "2025",
+            "areaServed": {
+              "@type": "Country",
+              "name": "United States"
+            },
+            "priceRange": "$$",
+            "openingHoursSpecification": [
+              {
+                "@type": "OpeningHoursSpecification",
+                "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+                "opens": "09:00",
+                "closes": "18:00"
+              }
+            ],
+            "aggregateRating": {
+              "@type": "AggregateRating",
+              "ratingValue": "5.0",
+              "reviewCount": "1",
+              "bestRating": "5"
+            }
+          })
+        }}
+      />
+
+      {/* BreadcrumbList Schema */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://theanswerengine.ai"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Case Studies",
+                "item": "https://theanswerengine.ai/case-studies"
+              },
+              {
+                "@type": "ListItem",
+                "position": 3,
+                "name": "Justin Borges",
+                "item": "https://theanswerengine.ai/case-studies/justin-borges"
+              }
+            ]
+          })
+        }}
+      />
+
       {/* Article Schema */}
       <script
         type="application/ld+json"
@@ -9,14 +76,66 @@ export default function JustinBorgesCaseStudy() {
             "@context": "https://schema.org",
             "@type": "Article",
             "headline": "Case Study: How The Borges Real Estate Team Achieved 100% AI Citation Dominance",
+            "description": "A comprehensive look at how Answer Engine Optimization transformed a local probate real estate specialist into the authoritative answer cited by ChatGPT, Claude, and Google AI Overviews.",
+            "datePublished": "2025-01-01",
+            "dateModified": "2025-01-01",
             "author": {
               "@type": "Organization",
-              "name": "The Answer Engine"
+              "name": "The Answer Engine",
+              "url": "https://theanswerengine.ai"
             },
             "publisher": {
               "@type": "Organization",
-              "name": "The Answer Engine"
-            }
+              "name": "The Answer Engine",
+              "url": "https://theanswerengine.ai",
+              "logo": {
+                "@type": "ImageObject",
+                "url": "https://theanswerengine.ai/TheAnswerEngine_Color_just_logo.png"
+              }
+            },
+            "mainEntityOfPage": {
+              "@type": "WebPage",
+              "@id": "https://theanswerengine.ai/case-studies/justin-borges"
+            },
+            "about": {
+              "@type": "Thing",
+              "name": "Answer Engine Optimization Case Study"
+            },
+            "keywords": ["AEO case study", "AI citation", "ChatGPT optimization", "real estate marketing", "probate real estate"]
+          })
+        }}
+      />
+
+      {/* Review/Results Schema */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "Review",
+            "itemReviewed": {
+              "@type": "Service",
+              "name": "Answer Engine Optimization",
+              "provider": {
+                "@type": "Organization",
+                "name": "The Answer Engine"
+              }
+            },
+            "reviewRating": {
+              "@type": "Rating",
+              "ratingValue": "5",
+              "bestRating": "5"
+            },
+            "author": {
+              "@type": "Person",
+              "name": "Justin Borges",
+              "jobTitle": "Real Estate Agent",
+              "worksFor": {
+                "@type": "Organization",
+                "name": "The Borges Real Estate Team"
+              }
+            },
+            "reviewBody": "Achieved 100% AI citation rate and 40% increase in qualified leads within 60 days of implementing Answer Engine Optimization."
           })
         }}
       />

@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm run dev:*)",
+      "Bash(timeout:*)",
+      "WebFetch(domain:theanswerengine.ai)",
+      "WebFetch(domain:share.google)",
+      "WebFetch(domain:www.google.com)"
+    ]
+  }
+}

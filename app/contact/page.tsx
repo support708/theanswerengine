@@ -3,6 +3,49 @@
 export default function Contact() {
   return (
     <>
+      {/* LocalBusiness Schema */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": ["LocalBusiness", "ProfessionalService"],
+            "name": "The Answer Engine",
+            "description": "Answer Engine Optimization specialists helping local service businesses get cited by AI platforms like ChatGPT, Claude, and Google AI Overviews",
+            "url": "https://theanswerengine.ai",
+            "telephone": "(213) 444-2229",
+            "email": "support@theanswerengine.ai",
+            "foundingDate": "2025",
+            "areaServed": {
+              "@type": "Country",
+              "name": "United States"
+            },
+            "priceRange": "$$",
+            "openingHoursSpecification": [
+              {
+                "@type": "OpeningHoursSpecification",
+                "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+                "opens": "09:00",
+                "closes": "18:00"
+              }
+            ],
+            "aggregateRating": {
+              "@type": "AggregateRating",
+              "ratingValue": "5.0",
+              "reviewCount": "1",
+              "bestRating": "5"
+            },
+            "knowsAbout": [
+              "Answer Engine Optimization",
+              "AI Search Optimization",
+              "ChatGPT Business Citations",
+              "Google AI Overviews",
+              "Local Business Marketing"
+            ]
+          })
+        }}
+      />
+
       {/* ContactPage Schema */}
       <script
         type="application/ld+json"
@@ -12,29 +55,38 @@ export default function Contact() {
             "@type": "ContactPage",
             "name": "Contact The Answer Engine",
             "description": "Get in touch with The Answer Engine for Answer Engine Optimization services. Schedule your free AEO strategy call.",
-            "url": "https://theanswerengine.ai/contact"
+            "url": "https://theanswerengine.ai/contact",
+            "mainEntity": {
+              "@type": "Organization",
+              "name": "The Answer Engine",
+              "telephone": "(213) 444-2229",
+              "email": "support@theanswerengine.ai"
+            }
           })
         }}
       />
 
-      {/* LocalBusiness Schema with Contact Info */}
+      {/* BreadcrumbList Schema */}
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{
           __html: JSON.stringify({
             "@context": "https://schema.org",
-            "@type": "ProfessionalService",
-            "name": "The Answer Engine",
-            "description": "Answer Engine Optimization specialists helping local service businesses get cited by AI platforms",
-            "url": "https://theanswerengine.ai",
-            "telephone": "+1-213-444-2229",
-            "email": "support@theanswerengine.ai",
-            "address": {
-              "@type": "PostalAddress",
-              "addressCountry": "US"
-            },
-            "areaServed": "United States",
-            "priceRange": "$$"
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://theanswerengine.ai"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Contact",
+                "item": "https://theanswerengine.ai/contact"
+              }
+            ]
           })
         }}
       />

@@ -67,7 +67,7 @@ export default function BlogPost() {
             "@context": "https://schema.org",
             "@type": "Article",
             "headline": "The Real Reason Your Google Rankings Don't Matter Anymore",
-            "description": "Google AI Overviews, ChatGPT, Claude, and Perplexity are answering questions directly — which means even a #1 ranking can get 0 clicks. Here's how to get cited instead of ignored.",
+            "description": "Google AI Overviews, ChatGPT, Claude, and Perplexity are answering questions directly - which means even a #1 ranking can get 0 clicks. Here's how to get cited instead of ignored.",
             "image": {
               "@type": "ImageObject",
               "url": "https://theanswerengine.ai/google-rankings-featured.png",
@@ -123,7 +123,7 @@ export default function BlogPost() {
                 "name": "What's the difference between SEO and Answer Engine Optimization?",
                 "acceptedAnswer": {
                   "@type": "Answer",
-                  "text": "Traditional SEO optimized to rank in search results (top 10 positions). Answer Engine Optimization (AEO) optimizes to be cited by AI as the authoritative answer—whether that's Google AI Overviews, ChatGPT, Claude, or Perplexity. SEO focused on keywords and backlinks. AEO focuses on structured data, direct answers, and demonstrable expertise that AI can verify and trust."
+                  "text": "Traditional SEO optimized to rank in search results (top 10 positions). Answer Engine Optimization (AEO) optimizes to be cited by AI as the authoritative answer-whether that's Google AI Overviews, ChatGPT, Claude, or Perplexity. SEO focused on keywords and backlinks. AEO focuses on structured data, direct answers, and demonstrable expertise that AI can verify and trust."
                 }
               },
               {
@@ -163,7 +163,7 @@ export default function BlogPost() {
                 "name": "Can AI citations work for local service businesses?",
                 "acceptedAnswer": {
                   "@type": "Answer",
-                  "text": "Absolutely—local service businesses may benefit most from AEO. When someone asks 'Who's the best plumber near me?' they want a specific recommendation, not ten links to explore. AI platforms provide that specific recommendation. Local businesses that demonstrate deep expertise in their service area, document their credentials properly, and provide detailed answer-first content dominate AI citations in their markets."
+                  "text": "Absolutely-local service businesses may benefit most from AEO. When someone asks 'Who's the best plumber near me?' they want a specific recommendation, not ten links to explore. AI platforms provide that specific recommendation. Local businesses that demonstrate deep expertise in their service area, document their credentials properly, and provide detailed answer-first content dominate AI citations in their markets."
                 }
               }
             ]
@@ -248,7 +248,7 @@ export default function BlogPost() {
               The Real Reason Your <span className="font-normal text-white">Google Rankings</span> Don't Matter Anymore
             </h1>
             <p className="text-xl sm:text-2xl text-gray-400 leading-relaxed mb-6 font-light">
-              Google AI Overviews, ChatGPT, Claude, and Perplexity are answering questions directly — which means even a #1 ranking can get 0 clicks. Here's how to get cited instead of ignored.
+              Google AI Overviews, ChatGPT, Claude, and Perplexity are answering questions directly - which means even a #1 ranking can get 0 clicks. Here's how to get cited instead of ignored.
             </p>
             <div className="flex items-center gap-3 text-sm text-gray-500 font-light">
               <span className="w-1.5 h-1.5 bg-orange-500/50 rounded-full" />
@@ -268,7 +268,7 @@ export default function BlogPost() {
               What Are <span className="font-normal text-white">Google AI Overviews?</span> (And Why They Matter More Than Rankings)
             </h2>
             <p className="text-gray-300 text-lg leading-relaxed mb-6 font-light">
-              Google AI Overviews appear at the very top of search results—above all traditional rankings—and use generative AI to answer user questions in a few sentences. Think of them as featured snippets on steroids.
+              Google AI Overviews appear at the very top of search results-above all traditional rankings-and use generative AI to answer user questions in a few sentences. Think of them as featured snippets on steroids.
             </p>
             <p className="text-gray-300 text-lg leading-relaxed mb-6 font-light">
               When someone searches "best plumber near me," Google AI Overviews might generate an answer like:
@@ -296,7 +296,7 @@ export default function BlogPost() {
             </p>
             <ul className="space-y-3 mb-8 text-gray-300 text-lg">
               {[
-                "I need a real estate agent who specializes in flood recovery properties in Houston—who's best?",
+                "I need a real estate agent who specializes in flood recovery properties in Houston-who's best?",
                 "What HVAC company in Phoenix offers the best warranty on new AC systems?",
                 "Which local contractor in Denver knows the most about energy-efficient home renovations?"
               ].map((item, i) => (
@@ -363,10 +363,10 @@ export default function BlogPost() {
               <strong className="text-white font-medium">Example:</strong> Two HVAC companies in Phoenix both rank on page one for "air conditioning repair Phoenix."
             </p>
             <p className="text-gray-300 text-lg leading-relaxed mb-6 font-light">
-              Company A has traditional SEO optimization—meta tags, backlinks, fast-loading pages.
+              Company A has traditional SEO optimization-meta tags, backlinks, fast-loading pages.
             </p>
             <p className="text-gray-300 text-lg leading-relaxed mb-6 font-light">
-              Company B has Answer Engine Optimization—structured FAQs, detailed service descriptions, author credentials, customer case studies with specific outcomes.
+              Company B has Answer Engine Optimization-structured FAQs, detailed service descriptions, author credentials, customer case studies with specific outcomes.
             </p>
             <p className="text-gray-300 text-lg leading-relaxed mb-6 font-light">
               When someone asks ChatGPT "Who's the best HVAC company for AC repair in Phoenix?", ChatGPT cites Company B with specific reasons: "They have EPA-certified technicians, offer same-day service, and specialize in the high-efficiency systems common in Phoenix's extreme climate."
@@ -386,7 +386,7 @@ export default function BlogPost() {
               The Technical Infrastructure Challenge
             </h3>
             <p className="text-gray-300 text-lg leading-relaxed mb-6 font-light">
-              AI platforms require multiple layers of structured data markup working together without conflicts. A single syntax error in your schema markup breaks the entire implementation—and most business owners don't discover the error for months.
+              AI platforms require multiple layers of structured data markup working together without conflicts. A single syntax error in your schema markup breaks the entire implementation-and most business owners don't discover the error for months.
             </p>
 
             <h3 className="text-2xl font-light mt-12 mb-4 text-orange-400">
@@ -400,7 +400,7 @@ export default function BlogPost() {
               The Authority Documentation Gap
             </h3>
             <p className="text-gray-300 text-lg leading-relaxed mb-6 font-light">
-              AI platforms verify credentials before citing sources. This isn't about claiming expertise—it's about structuring your credentials in machine-readable formats that AI can validate.
+              AI platforms verify credentials before citing sources. This isn't about claiming expertise-it's about structuring your credentials in machine-readable formats that AI can validate.
             </p>
 
             {/* CTA Section */}
@@ -444,7 +444,7 @@ export default function BlogPost() {
                 },
                 {
                   q: "What's the difference between SEO and Answer Engine Optimization?",
-                  a: "Traditional SEO optimized to rank in search results (top 10 positions). Answer Engine Optimization (AEO) optimizes to be cited by AI as the authoritative answer—whether that's Google AI Overviews, ChatGPT, Claude, or Perplexity."
+                  a: "Traditional SEO optimized to rank in search results (top 10 positions). Answer Engine Optimization (AEO) optimizes to be cited by AI as the authoritative answer-whether that's Google AI Overviews, ChatGPT, Claude, or Perplexity."
                 },
                 {
                   q: "How do I know if AI platforms are citing my competitors instead of me?",
@@ -464,7 +464,7 @@ export default function BlogPost() {
                 },
                 {
                   q: "Can AI citations work for local service businesses?",
-                  a: "Absolutely—local service businesses may benefit most from AEO. When someone asks 'Who's the best plumber near me?' they want a specific recommendation, not ten links to explore."
+                  a: "Absolutely-local service businesses may benefit most from AEO. When someone asks 'Who's the best plumber near me?' they want a specific recommendation, not ten links to explore."
                 }
               ].map((faq, i) => (
                 <div key={i} className="bg-white/[0.02] backdrop-blur-xl border border-white/[0.05] rounded-xl p-6 hover:border-white/[0.08] transition-colors">
@@ -504,7 +504,7 @@ export default function BlogPost() {
                 </ul>
               </div>
               <p className="text-gray-300 leading-relaxed mb-6 font-light">
-                The Answer Engine specializes in Answer Engine Optimization (AEO) for local service businesses. We help companies get cited by Google AI Overviews, ChatGPT, Claude, Perplexity, and other AI platforms—positioning them as the trusted expert in their market.
+                The Answer Engine specializes in Answer Engine Optimization (AEO) for local service businesses. We help companies get cited by Google AI Overviews, ChatGPT, Claude, Perplexity, and other AI platforms-positioning them as the trusted expert in their market.
               </p>
               <p>
                 <a href="/" className="inline-flex items-center gap-2 text-orange-400 font-medium hover:text-orange-300 transition-colors group">
