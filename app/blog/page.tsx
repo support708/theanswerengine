@@ -1,6 +1,17 @@
 export default function Blog() {
   const blogPosts = [
     {
+      slug: "get-business-recommended-by-chatgpt",
+      title: "How to Get Your Business Recommended by ChatGPT",
+      subtitle: "(Case Study: 89% Growth)",
+      description: "Real results from AI search optimization: 89% click growth, 2.9M impressions, and 5 closed deals in 4 months — starting from near-zero traffic.",
+      date: "Mar 4, 2026",
+      category: "Case Study",
+      readTime: "12 min",
+      image: "/blog/get-business-recommended-by-chatgpt.svg",
+      featured: true
+    },
+    {
       slug: "seo-not-generating-leads",
       title: "Why Am I Paying for SEO But Not Getting Leads?",
       subtitle: "",
@@ -215,7 +226,8 @@ export default function Blog() {
     "ChatGPT Citation Series": "bg-blue-500/20 text-blue-300 border-blue-500/30",
     "DIY Guide": "bg-green-500/20 text-green-300 border-green-500/30",
     "Pricing & Services": "bg-amber-500/20 text-amber-300 border-amber-500/30",
-    "SEO & AI": "bg-rose-500/20 text-rose-300 border-rose-500/30"
+    "SEO & AI": "bg-rose-500/20 text-rose-300 border-rose-500/30",
+    "Case Study": "bg-emerald-500/20 text-emerald-300 border-emerald-500/30"
   };
 
   return (
@@ -303,34 +315,43 @@ export default function Blog() {
         {/* Subtle gradient overlay */}
         <div className="absolute inset-0 bg-gradient-to-b from-purple-950/10 via-transparent to-orange-950/10 pointer-events-none" />
 
-        {/* Simple pixel accent - top corners */}
-        <div className="absolute top-0 left-0 w-2 h-2 bg-orange-500/40" />
-        <div className="absolute top-0 left-2 w-2 h-2 bg-purple-500/40" />
-
         <div className="max-w-6xl mx-auto px-6 py-20 sm:py-32 relative">
-          {/* Logo */}
-          <a href="/" className="inline-block mb-16 group">
-            <img
-              src="/TheAnswerEngine_Color_just_logo.png"
-              alt="The Answer Engine Logo"
-              className="h-16 opacity-90 group-hover:opacity-100 transition-opacity"
-            />
-          </a>
+          {/* Back to Home */}
+          <div className="flex justify-center mb-8">
+            <a href="/" className="inline-flex items-center gap-2 text-gray-400 hover:text-white transition-colors">
+              <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={2}>
+                <path strokeLinecap="round" strokeLinejoin="round" d="M10.5 19.5L3 12m0 0l7.5-7.5M3 12h18" />
+              </svg>
+              Back to Home
+            </a>
+          </div>
 
-          {/* Simple pixel divider */}
-          <div className="flex gap-2 mb-12">
-            <div className="w-1.5 h-1.5 bg-orange-500" />
-            <div className="w-1.5 h-1.5 bg-purple-500" />
-            <div className="w-1.5 h-1.5 bg-orange-500" />
+          {/* Centered Logo */}
+          <div className="flex justify-center mb-8">
+            <a href="/" className="group">
+              <img
+                src="/TheAnswerEngine_White_just_logo.png"
+                alt="The Answer Engine Logo"
+                className="h-24 opacity-90 group-hover:opacity-100 transition-opacity"
+              />
+            </a>
+          </div>
+
+          {/* AEO Insights Badge */}
+          <div className="flex justify-center mb-8">
+            <span className="inline-flex items-center gap-2 px-4 py-2 rounded-full border border-white/20 bg-white/5 text-sm text-gray-300">
+              <span className="w-2 h-2 rounded-full bg-orange-500"></span>
+              AEO INSIGHTS
+            </span>
           </div>
 
           {/* Page Title */}
-          <h1 className="text-4xl sm:text-5xl lg:text-6xl font-light mb-6 leading-tight text-gray-100">
-            <span className="font-normal text-white">AEO Insights</span> & Strategy
+          <h1 className="text-4xl sm:text-5xl lg:text-6xl font-light mb-6 leading-tight text-white text-center">
+            Answer Engine Optimization Blog
           </h1>
 
-          <p className="text-xl text-gray-400 mb-16 font-light leading-relaxed max-w-3xl">
-            Learn how to dominate AI search and get your business cited by ChatGPT, Claude, and Perplexity.
+          <p className="text-xl text-gray-400 mb-16 font-light leading-relaxed max-w-3xl mx-auto text-center">
+            Expert insights on getting your business cited by AI platforms like ChatGPT, Claude, Google AI Overviews, and Perplexity.
           </p>
 
           {/* Featured Posts */}
