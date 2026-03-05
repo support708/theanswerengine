@@ -265,5 +265,47 @@
     "lastModified": "2025-12-17",
     "featured": true,
     "tags": ["Google Business Profile", "ChatGPT", "AI Visibility", "Data Sources", "Local Business"]
+  },
+  {
+    "id": 20,
+    "title": "How to Get Your Business Recommended by ChatGPT (Case Study: 89% Growth)",
+    "slug": "get-business-recommended-by-chatgpt",
+    "excerpt": "The exact strategy that got a local business recommended by ChatGPT and AI platforms — producing 89% click growth, 2.9 million impressions, and 5 closed deals in 4 months.",
+    "category": "Case Study",
+    "author": "Justin Borges",
+    "readTime": "12 min",
+    "image": "/blog/get-business-recommended-by-chatgpt.svg",
+    "publishDate": "2026-03-04",
+    "lastModified": "2026-03-04",
+    "featured": true,
+    "tags": ["Case Study", "ChatGPT", "AI Recommendations", "AEO Results", "Business Growth"]
+  },
+  {
+    "id": 21,
+    "title": "Why Am I Paying for SEO But Not Getting Any Leads?",
+    "slug": "seo-not-generating-leads",
+    "excerpt": "Nearly 60% of searches now end without a click because AI answers directly. Learn why your SEO rankings look good but leads are down, and what actually generates leads now.",
+    "category": "SEO & Lead Generation",
+    "author": "Justin Borges",
+    "readTime": "10 min",
+    "image": "/blog/seo-not-generating-leads.svg",
+    "publishDate": "2026-03-04",
+    "lastModified": "2026-03-04",
+    "featured": false,
+    "tags": ["SEO", "Lead Generation", "AI Search", "Zero-Click Searches"]
+  },
+  {
+    "id": 22,
+    "title": "Why Your Website Stopped Getting Calls (The Shift Nobody Told You About)",
+    "slug": "website-stopped-getting-calls",
+    "excerpt": "Nearly 60% of searches now end without a click because AI answers questions directly. Learn why your website traffic looks fine but calls have dropped.",
+    "category": "AI Visibility",
+    "author": "Justin Borges",
+    "readTime": "8 min",
+    "image": "/blog/website-stopped-getting-calls.svg",
+    "publishDate": "2026-03-04",
+    "lastModified": "2026-03-04",
+    "featured": false,
+    "tags": ["Website Traffic", "Phone Calls", "AI Search", "Zero-Click Searches"]
   }
 ]
