@@ -191,11 +191,10 @@ export default function GoogleRankingsDontMatter() {
 
       <main className="min-h-screen bg-[#0F1117] relative">
         {/* Subtle gradient overlay */}
-        <div className="absolute inset-0 bg-gradient-to-b from-purple-950/10 via-transparent to-orange-950/10 pointer-events-none" />
         
         {/* Simple pixel accent - top corners */}
-        <div className="absolute top-0 left-0 w-2 h-2 bg-orange-500/40" />
-        <div className="absolute top-0 left-2 w-2 h-2 bg-purple-500/40" />
+        <div className="absolute top-0 left-0 w-2 h-2 bg-white/20" />
+        <div className="absolute top-0 left-2 w-2 h-2 bg-white/15" />
 
         <article className="max-w-4xl mx-auto px-6 py-20 sm:py-32 relative">
           {/* Featured Image */}
@@ -203,7 +202,7 @@ export default function GoogleRankingsDontMatter() {
             <img 
               src="/google-rankings-featured.png" 
               alt="Why Google rankings don't matter as much in 2025: Google AI Overviews and AI chatbots like ChatGPT now answer user questions directly" 
-              className="w-full"
+              className="w-full grayscale brightness-75"
             />
           </div>
 
@@ -211,9 +210,9 @@ export default function GoogleRankingsDontMatter() {
           <header className="mb-16">
             {/* Simple pixel divider */}
             <div className="flex gap-2 mb-8">
-              <div className="w-1.5 h-1.5 bg-orange-500" />
-              <div className="w-1.5 h-1.5 bg-purple-500" />
-              <div className="w-1.5 h-1.5 bg-orange-500" />
+              <div className="w-1.5 h-1.5 bg-white/40" />
+              <div className="w-1.5 h-1.5 bg-white/30" />
+              <div className="w-1.5 h-1.5 bg-white/40" />
             </div>
 
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-light mb-6 leading-tight text-gray-100">
@@ -223,7 +222,7 @@ export default function GoogleRankingsDontMatter() {
               Google AI Overviews, ChatGPT, Claude, and Perplexity are answering questions directly — which means even a #1 ranking can get 0 clicks. Here's how to get cited instead of ignored.
             </p>
             <div className="flex items-center gap-3 text-sm text-gray-500 font-light">
-              <span className="w-1.5 h-1.5 bg-orange-500/50 rounded-full" />
+              <span className="w-1.5 h-1.5 bg-white/25 rounded-full" />
               <span>Published January 8, 2025</span>
               <span className="text-gray-700">•</span>
               <span>Updated {new Date(lastUpdated).toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' })}</span>
@@ -247,7 +246,7 @@ export default function GoogleRankingsDontMatter() {
             <p className="text-gray-300 text-lg leading-relaxed mb-6 font-light">
               When someone searches "best plumber near me," Google AI Overviews might generate an answer like:
             </p>
-            <blockquote className="border-l-4 border-orange-500/50 pl-6 py-4 my-8 bg-white/[0.03] rounded-r-lg">
+            <blockquote className="border-l-4 border-white/[0.15] pl-6 py-4 my-8 bg-white/[0.03] rounded-r-lg">
               <p className="text-gray-400 text-lg italic leading-relaxed font-light">
                 "Based on customer reviews and licensing verification, ABC Plumbing offers 24/7 emergency service with licensed technicians. They specialize in leak detection and water heater replacement, with same-day service available in most areas."
               </p>
@@ -275,7 +274,7 @@ export default function GoogleRankingsDontMatter() {
                 "Which local contractor in Denver knows the most about energy-efficient home renovations?"
               ].map((item, i) => (
                 <li key={i} className="flex items-start gap-3">
-                  <span className="flex-shrink-0 w-1.5 h-1.5 bg-orange-500/60 rounded-full mt-3" />
+                  <span className="flex-shrink-0 w-1.5 h-1.5 bg-white/30 rounded-full mt-3" />
                   <span className="font-light leading-relaxed">{item}</span>
                 </li>
               ))}
@@ -304,7 +303,7 @@ export default function GoogleRankingsDontMatter() {
                 "Page load speed (important, but not the deciding factor for citations)"
               ].map((item, i) => (
                 <li key={i} className="flex items-start gap-3">
-                  <span className="flex-shrink-0 w-1.5 h-1.5 bg-purple-500/60 rounded-full mt-3" />
+                  <span className="flex-shrink-0 w-1.5 h-1.5 bg-white/25 rounded-full mt-3" />
                   <span className="font-light leading-relaxed">{item}</span>
                 </li>
               ))}
@@ -321,7 +320,7 @@ export default function GoogleRankingsDontMatter() {
                 "Local relevance signals (service area, years in business, local case examples)"
               ].map((item, i) => (
                 <li key={i} className="flex items-start gap-3">
-                  <span className="flex-shrink-0 w-1.5 h-1.5 bg-orange-500/60 rounded-full mt-3" />
+                  <span className="flex-shrink-0 w-1.5 h-1.5 bg-white/30 rounded-full mt-3" />
                   <span className="font-light leading-relaxed">{item}</span>
                 </li>
               ))}
@@ -356,21 +355,21 @@ export default function GoogleRankingsDontMatter() {
               Understanding what needs to happen and successfully executing it are two very different things. Here's what's actually involved in Answer Engine Optimization:
             </p>
 
-            <h3 className="text-2xl font-light mt-12 mb-4 text-orange-400">
+            <h3 className="text-2xl font-light mt-12 mb-4 text-white/60">
               The Technical Infrastructure Challenge
             </h3>
             <p className="text-gray-300 text-lg leading-relaxed mb-6 font-light">
               AI platforms require multiple layers of structured data markup working together without conflicts. A single syntax error in your schema markup breaks the entire implementation—and most business owners don't discover the error for months.
             </p>
 
-            <h3 className="text-2xl font-light mt-12 mb-4 text-orange-400">
+            <h3 className="text-2xl font-light mt-12 mb-4 text-white/60">
               The Content Architecture Problem
             </h3>
             <p className="text-gray-300 text-lg leading-relaxed mb-6 font-light">
               Every piece of content needs explicit question-answer mapping. But here's the challenge: the same article must simultaneously satisfy Google's E-E-A-T requirements AND conversational AI parsing.
             </p>
 
-            <h3 className="text-2xl font-light mt-12 mb-4 text-orange-400">
+            <h3 className="text-2xl font-light mt-12 mb-4 text-white/60">
               The Authority Documentation Gap
             </h3>
             <p className="text-gray-300 text-lg leading-relaxed mb-6 font-light">
@@ -378,7 +377,7 @@ export default function GoogleRankingsDontMatter() {
             </p>
 
             {/* CTA Section */}
-            <div className="my-16 p-10 rounded-2xl bg-white/[0.03] backdrop-blur-xl border-l-4 border-orange-500">
+            <div className="my-16 p-10 rounded-2xl bg-white/[0.03] backdrop-blur-xl border-l-4 border-white/[0.15]">
               <h3 className="text-2xl sm:text-3xl font-light mb-4 text-gray-100">
                 Stop Losing Customers to <span className="font-normal text-white">Competitors Who Show Up in AI Answers</span>
               </h3>
@@ -387,7 +386,7 @@ export default function GoogleRankingsDontMatter() {
               </p>
               <a 
                 href="/#contact" 
-                className="inline-flex items-center justify-center gap-3 px-8 py-4 rounded-xl text-lg font-medium bg-gradient-to-r from-orange-500 to-orange-600 text-white hover:from-orange-600 hover:to-orange-700 transition-all shadow-lg shadow-orange-500/25"
+                className="inline-flex items-center justify-center gap-3 px-8 py-4 rounded-xl text-lg font-medium bg-gradient-to-r from-white/40 to-white/50 text-white hover:from-white/50 hover:to-white/50 transition-all shadow-lg shadow-white/12"
               >
                 Schedule Your Free Strategy Call
                 <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={2}>
@@ -471,7 +470,7 @@ export default function GoogleRankingsDontMatter() {
                     "Multi-platform AI testing across Google AI Overviews, ChatGPT, Claude, and Perplexity"
                   ].map((item, i) => (
                     <li key={i} className="flex items-start gap-3">
-                      <span className="flex-shrink-0 w-1.5 h-1.5 bg-orange-500/60 rounded-full mt-2.5" />
+                      <span className="flex-shrink-0 w-1.5 h-1.5 bg-white/30 rounded-full mt-2.5" />
                       <span>{item}</span>
                     </li>
                   ))}
@@ -481,7 +480,7 @@ export default function GoogleRankingsDontMatter() {
                 The Answer Engine specializes in Answer Engine Optimization (AEO) for local service businesses. We help companies get cited by Google AI Overviews, ChatGPT, Claude, Perplexity, and other AI platforms—positioning them as the trusted expert in their market.
               </p>
               <p>
-                <a href="/" className="inline-flex items-center gap-2 text-orange-400 font-medium hover:text-orange-300 transition-colors group">
+                <a href="/" className="inline-flex items-center gap-2 text-white/60 font-medium hover:text-white/70 transition-colors group">
                   Learn more at TheAnswerEngine.ai
                   <svg className="w-4 h-4 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={2}>
                     <path strokeLinecap="round" strokeLinejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3" />

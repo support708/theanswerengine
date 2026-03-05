@@ -253,11 +253,10 @@ export default function WhyChatGPTIsntRecommending() {
 
       <main className="min-h-screen bg-[#0F1117] relative">
         {/* Subtle gradient overlay */}
-        <div className="absolute inset-0 bg-gradient-to-b from-purple-950/10 via-transparent to-orange-950/10 pointer-events-none" />
         
         {/* Simple pixel accent - top corners */}
-        <div className="absolute top-0 left-0 w-2 h-2 bg-orange-500/40" />
-        <div className="absolute top-0 left-2 w-2 h-2 bg-purple-500/40" />
+        <div className="absolute top-0 left-0 w-2 h-2 bg-white/20" />
+        <div className="absolute top-0 left-2 w-2 h-2 bg-white/15" />
 
         <article className="max-w-4xl mx-auto px-6 py-20 sm:py-32 relative">
           {/* Featured Image */}
@@ -265,7 +264,7 @@ export default function WhyChatGPTIsntRecommending() {
             <img 
               src="/images/chatgpt-business-recommendations.png" 
               alt="Why ChatGPT isn't recommending your business - the three critical reasons and how to fix them" 
-              className="w-full"
+              className="w-full grayscale brightness-75"
             />
           </div>
 
@@ -273,9 +272,9 @@ export default function WhyChatGPTIsntRecommending() {
           <header className="mb-16">
             {/* Simple pixel divider */}
             <div className="flex gap-2 mb-8">
-              <div className="w-1.5 h-1.5 bg-orange-500" />
-              <div className="w-1.5 h-1.5 bg-purple-500" />
-              <div className="w-1.5 h-1.5 bg-orange-500" />
+              <div className="w-1.5 h-1.5 bg-white/40" />
+              <div className="w-1.5 h-1.5 bg-white/30" />
+              <div className="w-1.5 h-1.5 bg-white/40" />
             </div>
 
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-light mb-6 leading-tight text-gray-100">
@@ -285,7 +284,7 @@ export default function WhyChatGPTIsntRecommending() {
               ChatGPT ignores businesses with inconsistent NAP data, missing schema markup, and generic content. One team went from zero to 177,000 weekly impressions in 90 days. Here's exactly what they fixed and what most businesses still get wrong.
             </p>
             <div className="flex items-center gap-3 text-sm text-gray-500 font-light">
-              <span className="w-1.5 h-1.5 bg-orange-500/50 rounded-full" />
+              <span className="w-1.5 h-1.5 bg-white/25 rounded-full" />
               <span>Published November 15, 2025</span>
               <span className="text-gray-700">•</span>
               <span>Updated {new Date(lastUpdated).toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' })}</span>
@@ -325,7 +324,7 @@ export default function WhyChatGPTIsntRecommending() {
                 "Positive client reviews"
               ].map((item, i) => (
                 <li key={i} className="flex items-start gap-3">
-                  <span className="flex-shrink-0 w-1.5 h-1.5 bg-purple-500/60 rounded-full mt-3" />
+                  <span className="flex-shrink-0 w-1.5 h-1.5 bg-white/25 rounded-full mt-3" />
                   <span className="font-light leading-relaxed">{item}</span>
                 </li>
               ))}
@@ -351,7 +350,7 @@ export default function WhyChatGPTIsntRecommending() {
               AI platforms don't evaluate businesses the way humans do. Understanding these three failures is the difference between visibility and complete invisibility.
             </p>
 
-            <h3 className="text-2xl font-light mt-12 mb-6 text-orange-400">
+            <h3 className="text-2xl font-light mt-12 mb-6 text-white/60">
               Reason 1: Your Business Identity Is Fragmented Across the Internet
             </h3>
 
@@ -375,7 +374,7 @@ export default function WhyChatGPTIsntRecommending() {
                 "44+ other platforms"
               ].map((item, i) => (
                 <li key={i} className="flex items-start gap-3">
-                  <span className="flex-shrink-0 w-1.5 h-1.5 bg-orange-500/60 rounded-full mt-3" />
+                  <span className="flex-shrink-0 w-1.5 h-1.5 bg-white/30 rounded-full mt-3" />
                   <span className="font-light leading-relaxed">{item}</span>
                 </li>
               ))}
@@ -385,7 +384,7 @@ export default function WhyChatGPTIsntRecommending() {
               If your NAP (Name, Address, Phone) data is inconsistent across these platforms, even slightly, AI treats your business as unreliable.
             </p>
 
-            <h4 className="text-xl font-light mt-10 mb-4 text-purple-400">
+            <h4 className="text-xl font-light mt-10 mb-4 text-white/60">
               The Hidden Inconsistencies
             </h4>
 
@@ -438,7 +437,7 @@ export default function WhyChatGPTIsntRecommending() {
               </p>
             </div>
 
-            <h4 className="text-xl font-light mt-10 mb-4 text-purple-400">
+            <h4 className="text-xl font-light mt-10 mb-4 text-white/60">
               The Compounding Problem
             </h4>
 
@@ -455,7 +454,7 @@ export default function WhyChatGPTIsntRecommending() {
                 "You moved offices but forgot to update lesser-known directories"
               ].map((item, i) => (
                 <li key={i} className="flex items-start gap-3">
-                  <span className="flex-shrink-0 w-1.5 h-1.5 bg-purple-500/60 rounded-full mt-3" />
+                  <span className="flex-shrink-0 w-1.5 h-1.5 bg-white/25 rounded-full mt-3" />
                   <span className="font-light leading-relaxed">{item}</span>
                 </li>
               ))}
@@ -465,7 +464,7 @@ export default function WhyChatGPTIsntRecommending() {
               <strong className="text-white font-medium">The result:</strong> When ChatGPT evaluates your business, it sees conflicting data and assigns low confidence to your entity, making citation unlikely even if you're otherwise qualified.
             </p>
 
-            <h4 className="text-xl font-light mt-10 mb-4 text-purple-400">
+            <h4 className="text-xl font-light mt-10 mb-4 text-white/60">
               The Time Sink
             </h4>
 
@@ -484,7 +483,7 @@ export default function WhyChatGPTIsntRecommending() {
                 "Re-checking everything after corrections"
               ].map((item, i) => (
                 <li key={i} className="flex items-start gap-3">
-                  <span className="flex-shrink-0 w-1.5 h-1.5 bg-orange-500/60 rounded-full mt-3" />
+                  <span className="flex-shrink-0 w-1.5 h-1.5 bg-white/30 rounded-full mt-3" />
                   <span className="font-light leading-relaxed">{item}</span>
                 </li>
               ))}
@@ -498,7 +497,7 @@ export default function WhyChatGPTIsntRecommending() {
               This is solvable, but it's tedious, technical, and one mistake can restart the verification cycle.
             </p>
 
-            <h3 className="text-2xl font-light mt-12 mb-6 text-orange-400">
+            <h3 className="text-2xl font-light mt-12 mb-6 text-white/60">
               Reason 2: You're Speaking Human, But AI Only Reads Structure
             </h3>
 
@@ -518,7 +517,7 @@ export default function WhyChatGPTIsntRecommending() {
               Your passion, your story, your customer focus? <strong className="text-white font-medium">Meaningless to AI</strong> unless you translate it into structured language.
             </p>
 
-            <h4 className="text-xl font-light mt-10 mb-4 text-purple-400">
+            <h4 className="text-xl font-light mt-10 mb-4 text-white/60">
               What You Probably Have vs. What AI Needs
             </h4>
 
@@ -536,7 +535,7 @@ export default function WhyChatGPTIsntRecommending() {
               </p>
             </div>
 
-            <h4 className="text-xl font-light mt-10 mb-4 text-purple-400">
+            <h4 className="text-xl font-light mt-10 mb-4 text-white/60">
               What AI Actually Needs: Schema Markup
             </h4>
 
@@ -553,13 +552,13 @@ export default function WhyChatGPTIsntRecommending() {
                 "This article is written by a credible source"
               ].map((item, i) => (
                 <li key={i} className="flex items-start gap-3">
-                  <span className="flex-shrink-0 w-1.5 h-1.5 bg-orange-500/60 rounded-full mt-3" />
+                  <span className="flex-shrink-0 w-1.5 h-1.5 bg-white/30 rounded-full mt-3" />
                   <span className="font-light leading-relaxed">{item}</span>
                 </li>
               ))}
             </ul>
 
-            <h4 className="text-xl font-light mt-10 mb-4 text-purple-400">
+            <h4 className="text-xl font-light mt-10 mb-4 text-white/60">
               The Required Schema Types
             </h4>
 
@@ -572,13 +571,13 @@ export default function WhyChatGPTIsntRecommending() {
                 "Author Schema: Expertise attribution for content"
               ].map((item, i) => (
                 <li key={i} className="flex items-start gap-3">
-                  <span className="flex-shrink-0 w-1.5 h-1.5 bg-orange-500/60 rounded-full mt-3" />
+                  <span className="flex-shrink-0 w-1.5 h-1.5 bg-white/30 rounded-full mt-3" />
                   <span className="font-light leading-relaxed">{item}</span>
                 </li>
               ))}
             </ul>
 
-            <h4 className="text-xl font-light mt-10 mb-4 text-purple-400">
+            <h4 className="text-xl font-light mt-10 mb-4 text-white/60">
               The Complexity
             </h4>
 
@@ -595,7 +594,7 @@ export default function WhyChatGPTIsntRecommending() {
                 "Cross-linked to other schema types for maximum authority"
               ].map((item, i) => (
                 <li key={i} className="flex items-start gap-3">
-                  <span className="flex-shrink-0 w-1.5 h-1.5 bg-purple-500/60 rounded-full mt-3" />
+                  <span className="flex-shrink-0 w-1.5 h-1.5 bg-white/25 rounded-full mt-3" />
                   <span className="font-light leading-relaxed">{item}</span>
                 </li>
               ))}
@@ -610,7 +609,7 @@ export default function WhyChatGPTIsntRecommending() {
             </p>
 
             {/* CTA Section */}
-            <div className="my-16 p-10 rounded-2xl bg-white/[0.03] backdrop-blur-xl border-l-4 border-orange-500">
+            <div className="my-16 p-10 rounded-2xl bg-white/[0.03] backdrop-blur-xl border-l-4 border-white/[0.15]">
               <h3 className="text-2xl sm:text-3xl font-light mb-4 text-gray-100">
                 Stop <span className="font-normal text-white">Wasting Months on Trial and Error</span>
               </h3>
@@ -619,7 +618,7 @@ export default function WhyChatGPTIsntRecommending() {
               </p>
               <a 
                 href="/#contact" 
-                className="inline-flex items-center justify-center gap-3 px-8 py-4 rounded-xl text-lg font-medium bg-gradient-to-r from-orange-500 to-orange-600 text-white hover:from-orange-600 hover:to-orange-700 transition-all shadow-lg shadow-orange-500/25"
+                className="inline-flex items-center justify-center gap-3 px-8 py-4 rounded-xl text-lg font-medium bg-gradient-to-r from-white/40 to-white/50 text-white hover:from-white/50 hover:to-white/50 transition-all shadow-lg shadow-white/12"
               >
                 Schedule Your Free Discovery Call
                 <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={2}>
@@ -628,7 +627,7 @@ export default function WhyChatGPTIsntRecommending() {
               </a>
             </div>
 
-            <h3 className="text-2xl font-light mt-12 mb-6 text-orange-400">
+            <h3 className="text-2xl font-light mt-12 mb-6 text-white/60">
               Reason 3: Your Content Sounds Like Everyone Else (Including AI)
             </h3>
 
@@ -640,7 +639,7 @@ export default function WhyChatGPTIsntRecommending() {
               AI platforms automatically deprioritize anything that reads like AI wrote it. They're looking for authentic expertise, specific scenarios, and information that demonstrates real-world experience.
             </p>
 
-            <h4 className="text-xl font-light mt-10 mb-4 text-purple-400">
+            <h4 className="text-xl font-light mt-10 mb-4 text-white/60">
               Generic Content AI Always Ignores
             </h4>
 
@@ -657,11 +656,11 @@ export default function WhyChatGPTIsntRecommending() {
               </p>
             </div>
 
-            <h4 className="text-xl font-light mt-10 mb-4 text-purple-400">
+            <h4 className="text-xl font-light mt-10 mb-4 text-white/60">
               Authority Content AI Actually Cites
             </h4>
 
-            <div className="bg-white/[0.03] backdrop-blur-xl border-l-4 border-orange-500/50 p-6 mb-6">
+            <div className="bg-white/[0.03] backdrop-blur-xl border-l-4 border-white/[0.15] p-6 mb-6">
               <p className="text-gray-300 leading-relaxed font-light">
                 "When I walk into a probate property with an executor, the first thing I tell them is: <strong className="text-white font-medium">don't touch anything yet.</strong> Families lose $50,000+ in tax benefits by clearing homes before proper valuation. Here's the 7-step checklist we use before a single box gets moved..."
               </p>
@@ -680,7 +679,7 @@ export default function WhyChatGPTIsntRecommending() {
                 "Cannot be replicated by generic AI content"
               ].map((item, i) => (
                 <li key={i} className="flex items-start gap-3">
-                  <span className="flex-shrink-0 w-1.5 h-1.5 bg-orange-500/60 rounded-full mt-3" />
+                  <span className="flex-shrink-0 w-1.5 h-1.5 bg-white/30 rounded-full mt-3" />
                   <span className="font-light leading-relaxed">{item}</span>
                 </li>
               ))}
@@ -690,7 +689,7 @@ export default function WhyChatGPTIsntRecommending() {
               AI loves this. People love this. Google loves this.
             </p>
 
-            <h4 className="text-xl font-light mt-10 mb-4 text-purple-400">
+            <h4 className="text-xl font-light mt-10 mb-4 text-white/60">
               The Challenge
             </h4>
 
@@ -707,7 +706,7 @@ export default function WhyChatGPTIsntRecommending() {
                 "Structuring content as explicit question-answer pairs"
               ].map((item, i) => (
                 <li key={i} className="flex items-start gap-3">
-                  <span className="flex-shrink-0 w-1.5 h-1.5 bg-purple-500/60 rounded-full mt-3" />
+                  <span className="flex-shrink-0 w-1.5 h-1.5 bg-white/25 rounded-full mt-3" />
                   <span className="font-light leading-relaxed">{item}</span>
                 </li>
               ))}
@@ -733,7 +732,7 @@ export default function WhyChatGPTIsntRecommending() {
               Some competitors currently getting cited are using <strong className="text-white font-medium">fabricated case studies</strong>, made-up testimonials, and fake authority signals. And yes, for now, AI often believes them.
             </p>
 
-            <h3 className="text-2xl font-light mt-12 mb-4 text-orange-400">
+            <h3 className="text-2xl font-light mt-12 mb-4 text-white/60">
               Why Fabrication Works (Temporarily)
             </h3>
 
@@ -741,7 +740,7 @@ export default function WhyChatGPTIsntRecommending() {
               AI doesn't verify every claim. It rewards structure, clarity, and schema, not honesty. If your content is technically well-structured and contains specific metrics, AI will cite it regardless of whether those metrics are real.
             </p>
 
-            <h3 className="text-2xl font-light mt-12 mb-4 text-orange-400">
+            <h3 className="text-2xl font-light mt-12 mb-4 text-white/60">
               Why Fabrication Is Dangerous
             </h3>
 
@@ -754,13 +753,13 @@ export default function WhyChatGPTIsntRecommending() {
                 "Your reputation becomes fragile instead of defensible"
               ].map((item, i) => (
                 <li key={i} className="flex items-start gap-3">
-                  <span className="flex-shrink-0 w-1.5 h-1.5 bg-purple-500/60 rounded-full mt-3" />
+                  <span className="flex-shrink-0 w-1.5 h-1.5 bg-white/25 rounded-full mt-3" />
                   <span className="font-light leading-relaxed">{item}</span>
                 </li>
               ))}
             </ul>
 
-            <h3 className="text-2xl font-light mt-12 mb-4 text-orange-400">
+            <h3 className="text-2xl font-light mt-12 mb-4 text-white/60">
               Our Standard: Flag, Don't Fabricate
             </h3>
 
@@ -780,7 +779,7 @@ export default function WhyChatGPTIsntRecommending() {
                 "Documented with permission when using client specifics"
               ].map((item, i) => (
                 <li key={i} className="flex items-start gap-3">
-                  <span className="flex-shrink-0 w-1.5 h-1.5 bg-orange-500/60 rounded-full mt-3" />
+                  <span className="flex-shrink-0 w-1.5 h-1.5 bg-white/30 rounded-full mt-3" />
                   <span className="font-light leading-relaxed">{item}</span>
                 </li>
               ))}
@@ -801,7 +800,7 @@ export default function WhyChatGPTIsntRecommending() {
               The Los Angeles real estate team that went from zero to 177,000 weekly impressions didn't guess. They systematically addressed all three failures in the correct sequence.
             </p>
 
-            <h3 id="step-1" className="text-2xl font-light mt-12 mb-6 text-orange-400">
+            <h3 id="step-1" className="text-2xl font-light mt-12 mb-6 text-white/60">
               Step 1: Fix Entity Consistency (Week 1-2)
             </h3>
 
@@ -819,7 +818,7 @@ export default function WhyChatGPTIsntRecommending() {
                 "Re-audit after corrections to ensure consistency"
               ].map((item, i) => (
                 <li key={i} className="flex items-start gap-3">
-                  <span className="flex-shrink-0 w-1.5 h-1.5 bg-orange-500/60 rounded-full mt-3" />
+                  <span className="flex-shrink-0 w-1.5 h-1.5 bg-white/30 rounded-full mt-3" />
                   <span className="font-light leading-relaxed">{item}</span>
                 </li>
               ))}
@@ -829,7 +828,7 @@ export default function WhyChatGPTIsntRecommending() {
               <strong className="text-white font-medium">Timeline:</strong> 2 weeks (including verification wait times)
             </p>
 
-            <h3 id="step-2" className="text-2xl font-light mt-12 mb-6 text-orange-400">
+            <h3 id="step-2" className="text-2xl font-light mt-12 mb-6 text-white/60">
               Step 2: Implement Schema Markup (Week 2-3)
             </h3>
 
@@ -848,7 +847,7 @@ export default function WhyChatGPTIsntRecommending() {
                 "Monitor Search Console for schema errors"
               ].map((item, i) => (
                 <li key={i} className="flex items-start gap-3">
-                  <span className="flex-shrink-0 w-1.5 h-1.5 bg-orange-500/60 rounded-full mt-3" />
+                  <span className="flex-shrink-0 w-1.5 h-1.5 bg-white/30 rounded-full mt-3" />
                   <span className="font-light leading-relaxed">{item}</span>
                 </li>
               ))}
@@ -858,7 +857,7 @@ export default function WhyChatGPTIsntRecommending() {
               <strong className="text-white font-medium">Timeline:</strong> 1 week for implementation, ongoing monitoring
             </p>
 
-            <h3 id="step-3" className="text-2xl font-light mt-12 mb-6 text-orange-400">
+            <h3 id="step-3" className="text-2xl font-light mt-12 mb-6 text-white/60">
               Step 3: Create Authority Content (Week 3-6)
             </h3>
 
@@ -877,7 +876,7 @@ export default function WhyChatGPTIsntRecommending() {
                 "Cross-link content to build topical authority"
               ].map((item, i) => (
                 <li key={i} className="flex items-start gap-3">
-                  <span className="flex-shrink-0 w-1.5 h-1.5 bg-orange-500/60 rounded-full mt-3" />
+                  <span className="flex-shrink-0 w-1.5 h-1.5 bg-white/30 rounded-full mt-3" />
                   <span className="font-light leading-relaxed">{item}</span>
                 </li>
               ))}
@@ -895,7 +894,7 @@ export default function WhyChatGPTIsntRecommending() {
               This is the exact systematic process we use. Not theory. Not guesswork. The same implementation that generated 177,000 weekly impressions for the Los Angeles real estate team.
             </p>
 
-            <h3 className="text-2xl font-light mt-12 mb-6 text-orange-400">
+            <h3 className="text-2xl font-light mt-12 mb-6 text-white/60">
               What's Included
             </h3>
 
@@ -909,13 +908,13 @@ export default function WhyChatGPTIsntRecommending() {
                 "90-day AI citation monitoring and tracking"
               ].map((item, i) => (
                 <li key={i} className="flex items-start gap-3">
-                  <span className="flex-shrink-0 w-1.5 h-1.5 bg-orange-500/60 rounded-full mt-3" />
+                  <span className="flex-shrink-0 w-1.5 h-1.5 bg-white/30 rounded-full mt-3" />
                   <span className="font-light leading-relaxed">{item}</span>
                 </li>
               ))}
             </ul>
 
-            <h3 className="text-2xl font-light mt-12 mb-6 text-orange-400">
+            <h3 className="text-2xl font-light mt-12 mb-6 text-white/60">
               Investment
             </h3>
 
@@ -935,14 +934,14 @@ export default function WhyChatGPTIsntRecommending() {
                 "3-6 month timeline vs. our 6-week implementation"
               ].map((item, i) => (
                 <li key={i} className="flex items-start gap-3">
-                  <span className="flex-shrink-0 w-1.5 h-1.5 bg-purple-500/60 rounded-full mt-3" />
+                  <span className="flex-shrink-0 w-1.5 h-1.5 bg-white/25 rounded-full mt-3" />
                   <span className="font-light leading-relaxed">{item}</span>
                 </li>
               ))}
             </ul>
 
             {/* Final CTA */}
-            <div className="my-16 p-10 rounded-2xl bg-gradient-to-br from-orange-500/10 to-purple-500/10 backdrop-blur-xl border border-orange-500/20">
+            <div className="my-16 p-10 rounded-2xl bg-gradient-to-br from-white/[0.06] to-white/[0.06] backdrop-blur-xl border border-white/[0.15]/20">
               <h3 className="text-2xl sm:text-3xl font-light mb-4 text-gray-100">
                 Book Your <span className="font-normal text-white">Discovery Call</span>
               </h3>
@@ -970,7 +969,7 @@ export default function WhyChatGPTIsntRecommending() {
               <div className="text-center">
                 <a 
                   href="/#contact?utm_source=blog&utm_medium=cta&utm_campaign=chatgpt-spoke1" 
-                  className="inline-flex items-center justify-center gap-3 px-8 py-4 rounded-xl text-lg font-medium bg-gradient-to-r from-orange-500 to-orange-600 text-white hover:from-orange-600 hover:to-orange-700 transition-all shadow-lg shadow-orange-500/25"
+                  className="inline-flex items-center justify-center gap-3 px-8 py-4 rounded-xl text-lg font-medium bg-gradient-to-r from-white/40 to-white/50 text-white hover:from-white/50 hover:to-white/50 transition-all shadow-lg shadow-white/12"
                 >
                   Book Your Discovery Call — Start Your Authority Build ($2,997)
                   <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={2}>
@@ -1068,7 +1067,7 @@ export default function WhyChatGPTIsntRecommending() {
                     "50+ local service business AEO implementations completed"
                   ].map((item, i) => (
                     <li key={i} className="flex items-start gap-3">
-                      <span className="flex-shrink-0 w-1.5 h-1.5 bg-orange-500/60 rounded-full mt-2.5" />
+                      <span className="flex-shrink-0 w-1.5 h-1.5 bg-white/30 rounded-full mt-2.5" />
                       <span>{item}</span>
                     </li>
                   ))}
@@ -1078,7 +1077,7 @@ export default function WhyChatGPTIsntRecommending() {
                 The Answer Engine specializes in Answer Engine Optimization (AEO) for local service businesses. We position companies to be cited by Google AI Overviews, ChatGPT, Claude, Perplexity, and other AI platforms, making them the trusted expert AI recommends in their market.
               </p>
               <p>
-                <a href="/" className="inline-flex items-center gap-2 text-orange-400 font-medium hover:text-orange-300 transition-colors group">
+                <a href="/" className="inline-flex items-center gap-2 text-white/60 font-medium hover:text-white/70 transition-colors group">
                   Learn more at TheAnswerEngine.ai
                   <svg className="w-4 h-4 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={2}>
                     <path strokeLinecap="round" strokeLinejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3" />
@@ -1095,7 +1094,7 @@ export default function WhyChatGPTIsntRecommending() {
               <div className="space-y-4">
                 <div className="bg-white/[0.03] backdrop-blur-xl border border-white/[0.08] rounded-xl p-6 hover:border-white/[0.08] transition-colors">
                   <a href="/blog/how-to-get-google-ai-chatgpt-recommend-business" className="group">
-                    <h4 className="text-xl font-light text-white mb-2 group-hover:text-orange-400 transition-colors">
+                    <h4 className="text-xl font-light text-white mb-2 group-hover:text-white/60 transition-colors">
                       How to Get Google AI Overviews and ChatGPT to Recommend Your Business
                     </h4>
                     <p className="text-gray-400 font-light leading-relaxed">
@@ -1105,7 +1104,7 @@ export default function WhyChatGPTIsntRecommending() {
                 </div>
                 <div className="bg-white/[0.03] backdrop-blur-xl border border-white/[0.08] rounded-xl p-6 hover:border-white/[0.08] transition-colors">
                   <a href="/blog/what-is-answer-engine-optimization" className="group">
-                    <h4 className="text-xl font-light text-white mb-2 group-hover:text-orange-400 transition-colors">
+                    <h4 className="text-xl font-light text-white mb-2 group-hover:text-white/60 transition-colors">
                       What is Answer Engine Optimization (AEO)? The Complete Guide for 2025
                     </h4>
                     <p className="text-gray-400 font-light leading-relaxed">

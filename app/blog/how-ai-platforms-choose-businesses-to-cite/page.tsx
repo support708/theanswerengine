@@ -189,11 +189,10 @@ export default function HowAIChoosesBlogPost() {
 
       <main className="min-h-screen bg-[#0F1117] relative">
         {/* Subtle gradient overlay */}
-        <div className="absolute inset-0 bg-gradient-to-b from-purple-950/10 via-transparent to-orange-950/10 pointer-events-none" />
         
         {/* Simple pixel accent - top corners */}
-        <div className="absolute top-0 left-0 w-2 h-2 bg-orange-500/40" />
-        <div className="absolute top-0 left-2 w-2 h-2 bg-purple-500/40" />
+        <div className="absolute top-0 left-0 w-2 h-2 bg-white/20" />
+        <div className="absolute top-0 left-2 w-2 h-2 bg-white/15" />
 
         <article className="max-w-4xl mx-auto px-6 py-20 sm:py-32 relative">
           {/* Featured Image */}
@@ -201,7 +200,7 @@ export default function HowAIChoosesBlogPost() {
             <img 
               src="/images/how-ai-chooses-businesses-featured.png" 
               alt="How AI platforms choose which businesses to cite - weighted authority assessment diagram" 
-              className="w-full"
+              className="w-full grayscale brightness-75"
             />
           </div>
 
@@ -209,9 +208,9 @@ export default function HowAIChoosesBlogPost() {
           <header className="mb-16">
             {/* Simple pixel divider */}
             <div className="flex gap-2 mb-8">
-              <div className="w-1.5 h-1.5 bg-orange-500" />
-              <div className="w-1.5 h-1.5 bg-purple-500" />
-              <div className="w-1.5 h-1.5 bg-orange-500" />
+              <div className="w-1.5 h-1.5 bg-white/40" />
+              <div className="w-1.5 h-1.5 bg-white/30" />
+              <div className="w-1.5 h-1.5 bg-white/40" />
             </div>
 
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-light mb-6 leading-tight text-gray-100">
@@ -221,7 +220,7 @@ export default function HowAIChoosesBlogPost() {
               When someone asks ChatGPT or Claude to recommend a business, these AI platforms use a systematic, weighted evaluation process to determine which sources are trustworthy enough to cite by name. Understanding this selection mechanism is the difference between being consistently cited and remaining invisible.
             </p>
             <div className="flex items-center gap-3 text-sm text-gray-500 font-light">
-              <span className="w-1.5 h-1.5 bg-orange-500/50 rounded-full" />
+              <span className="w-1.5 h-1.5 bg-white/25 rounded-full" />
               <span>Published November 9, 2025</span>
               <span className="text-gray-700">•</span>
               <span>Updated {new Date(lastUpdated).toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' })}</span>
@@ -264,7 +263,7 @@ export default function HowAIChoosesBlogPost() {
               AI platforms evaluate potential citations through three distinct layers, each serving a different verification purpose.
             </p>
 
-            <h3 className="text-2xl font-light mt-12 mb-4 text-orange-400">
+            <h3 className="text-2xl font-light mt-12 mb-4 text-white/60">
               Layer 1: Source Type Authority
             </h3>
 
@@ -285,7 +284,7 @@ export default function HowAIChoosesBlogPost() {
                 "Major news publications with editorial standards"
               ].map((item, i) => (
                 <li key={i} className="flex items-start gap-3">
-                  <span className="flex-shrink-0 w-1.5 h-1.5 bg-orange-500/60 rounded-full mt-3" />
+                  <span className="flex-shrink-0 w-1.5 h-1.5 bg-white/30 rounded-full mt-3" />
                   <span className="font-light leading-relaxed">{item}</span>
                 </li>
               ))}
@@ -303,7 +302,7 @@ export default function HowAIChoosesBlogPost() {
                 "Long-established domain names with consistent publishing history"
               ].map((item, i) => (
                 <li key={i} className="flex items-start gap-3">
-                  <span className="flex-shrink-0 w-1.5 h-1.5 bg-purple-500/60 rounded-full mt-3" />
+                  <span className="flex-shrink-0 w-1.5 h-1.5 bg-white/25 rounded-full mt-3" />
                   <span className="font-light leading-relaxed">{item}</span>
                 </li>
               ))}
@@ -331,7 +330,7 @@ export default function HowAIChoosesBlogPost() {
               Where traditional SEO treated all websites similarly if they had good backlinks, AI platforms start with source-type bias. A 20-year-old business website with documented expertise has inherent advantages over a new domain—regardless of technical optimization.
             </p>
 
-            <h3 className="text-2xl font-light mt-12 mb-4 text-orange-400">
+            <h3 className="text-2xl font-light mt-12 mb-4 text-white/60">
               Layer 2: Content Structure and Clarity
             </h3>
 
@@ -363,7 +362,7 @@ export default function HowAIChoosesBlogPost() {
               The challenge: Most business websites were built for human readers who forgive vague language and infer context. AI platforms require explicit documentation of everything they might cite.
             </p>
 
-            <h3 className="text-2xl font-light mt-12 mb-4 text-orange-400">
+            <h3 className="text-2xl font-light mt-12 mb-4 text-white/60">
               Layer 3: Cross-Validation and Consistency
             </h3>
 
@@ -403,7 +402,7 @@ export default function HowAIChoosesBlogPost() {
               Google's 2015 algorithm looked for backlinks, keyword density, and technical SEO metrics. AI platforms evaluate content through an entirely different lens focused on answer extraction and verification.
             </p>
 
-            <h3 className="text-2xl font-light mt-12 mb-4 text-orange-400">
+            <h3 className="text-2xl font-light mt-12 mb-4 text-white/60">
               The Query Fan-Out Process
             </h3>
 
@@ -429,7 +428,7 @@ export default function HowAIChoosesBlogPost() {
                 "What warranties should be standard?"
               ].map((item, i) => (
                 <li key={i} className="flex items-start gap-3">
-                  <span className="flex-shrink-0 w-1.5 h-1.5 bg-orange-500/60 rounded-full mt-3" />
+                  <span className="flex-shrink-0 w-1.5 h-1.5 bg-white/30 rounded-full mt-3" />
                   <span className="font-light leading-relaxed">{item}</span>
                 </li>
               ))}
@@ -440,7 +439,7 @@ export default function HowAIChoosesBlogPost() {
             </p>
 
             {/* CTA Section */}
-            <div className="my-16 p-10 rounded-2xl bg-white/[0.03] backdrop-blur-xl border-l-4 border-orange-500">
+            <div className="my-16 p-10 rounded-2xl bg-white/[0.03] backdrop-blur-xl border-l-4 border-white/[0.15]">
               <h3 className="text-2xl sm:text-3xl font-light mb-4 text-gray-100">
                 Ready to Understand <span className="font-normal text-white">Where You Stand</span> in AI Platform Evaluation?
               </h3>
@@ -449,7 +448,7 @@ export default function HowAIChoosesBlogPost() {
               </p>
               <a 
                 href="/#contact" 
-                className="inline-flex items-center justify-center gap-3 px-8 py-4 rounded-xl text-lg font-medium bg-gradient-to-r from-orange-500 to-orange-600 text-white hover:from-orange-600 hover:to-orange-700 transition-all shadow-lg shadow-orange-500/25"
+                className="inline-flex items-center justify-center gap-3 px-8 py-4 rounded-xl text-lg font-medium bg-gradient-to-r from-white/40 to-white/50 text-white hover:from-white/50 hover:to-white/50 transition-all shadow-lg shadow-white/12"
               >
                 Schedule Your Free AI Citation Analysis
                 <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={2}>
@@ -466,7 +465,7 @@ export default function HowAIChoosesBlogPost() {
               The businesses establishing AI citation authority now aren't just getting ahead—they're building compounding advantages that become harder to overcome as time passes.
             </p>
 
-            <h3 className="text-2xl font-light mt-12 mb-4 text-orange-400">
+            <h3 className="text-2xl font-light mt-12 mb-4 text-white/60">
               The Citation Preference Lock-In
             </h3>
 
@@ -478,7 +477,7 @@ export default function HowAIChoosesBlogPost() {
               In traditional SEO, a new competitor with better content and backlinks could overtake established players within months. In AI citation, displacing an established authority requires demonstrably superior information across the entire topic area—a significantly higher bar.
             </p>
 
-            <h3 className="text-2xl font-light mt-12 mb-4 text-orange-400">
+            <h3 className="text-2xl font-light mt-12 mb-4 text-white/60">
               The Market Timing Reality
             </h3>
 
@@ -498,7 +497,7 @@ export default function HowAIChoosesBlogPost() {
               Understanding how AI platforms choose citations changes the fundamental approach to online visibility.
             </p>
 
-            <h3 className="text-2xl font-light mt-12 mb-4 text-orange-400">
+            <h3 className="text-2xl font-light mt-12 mb-4 text-white/60">
               The Strategic Shift Required
             </h3>
 
@@ -518,13 +517,13 @@ export default function HowAIChoosesBlogPost() {
                 "Technical implementation separates cited businesses from invisible ones"
               ].map((item, i) => (
                 <li key={i} className="flex items-start gap-3">
-                  <span className="flex-shrink-0 w-1.5 h-1.5 bg-orange-500/60 rounded-full mt-3" />
+                  <span className="flex-shrink-0 w-1.5 h-1.5 bg-white/30 rounded-full mt-3" />
                   <span className="font-light leading-relaxed">{item}</span>
                 </li>
               ))}
             </ul>
 
-            <h3 className="text-2xl font-light mt-12 mb-4 text-orange-400">
+            <h3 className="text-2xl font-light mt-12 mb-4 text-white/60">
               The DIY Reality Check
             </h3>
 
@@ -632,7 +631,7 @@ export default function HowAIChoosesBlogPost() {
                     "50+ local service business AEO implementations completed"
                   ].map((item, i) => (
                     <li key={i} className="flex items-start gap-3">
-                      <span className="flex-shrink-0 w-1.5 h-1.5 bg-orange-500/60 rounded-full mt-2.5" />
+                      <span className="flex-shrink-0 w-1.5 h-1.5 bg-white/30 rounded-full mt-2.5" />
                       <span>{item}</span>
                     </li>
                   ))}
@@ -642,7 +641,7 @@ export default function HowAIChoosesBlogPost() {
                 The Answer Engine specializes in Answer Engine Optimization (AEO) for local service businesses. We position companies to be cited by Google AI Overviews, ChatGPT, Claude, Perplexity, and other AI platforms—making them the trusted expert AI recommends in their market.
               </p>
               <p>
-                <a href="/" className="inline-flex items-center gap-2 text-orange-400 font-medium hover:text-orange-300 transition-colors group">
+                <a href="/" className="inline-flex items-center gap-2 text-white/60 font-medium hover:text-white/70 transition-colors group">
                   Learn more at TheAnswerEngine.ai
                   <svg className="w-4 h-4 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={2}>
                     <path strokeLinecap="round" strokeLinejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3" />
@@ -659,7 +658,7 @@ export default function HowAIChoosesBlogPost() {
               <div className="space-y-4">
                 <div className="bg-white/[0.03] backdrop-blur-xl border border-white/[0.08] rounded-xl p-6 hover:border-white/[0.08] transition-colors">
                   <a href="/blog/what-is-answer-engine-optimization" className="group">
-                    <h4 className="text-xl font-light text-white mb-2 group-hover:text-orange-400 transition-colors">
+                    <h4 className="text-xl font-light text-white mb-2 group-hover:text-white/60 transition-colors">
                       What is Answer Engine Optimization (AEO)? The Complete Guide for 2025
                     </h4>
                     <p className="text-gray-400 font-light leading-relaxed">
@@ -669,7 +668,7 @@ export default function HowAIChoosesBlogPost() {
                 </div>
                 <div className="bg-white/[0.03] backdrop-blur-xl border border-white/[0.08] rounded-xl p-6 hover:border-white/[0.08] transition-colors">
                   <a href="/blog/google-rankings-dont-matter" className="group">
-                    <h4 className="text-xl font-light text-white mb-2 group-hover:text-orange-400 transition-colors">
+                    <h4 className="text-xl font-light text-white mb-2 group-hover:text-white/60 transition-colors">
                       The Real Reason Your Google Rankings Don't Matter Anymore
                     </h4>
                     <p className="text-gray-400 font-light leading-relaxed">

@@ -331,11 +331,10 @@ export default function HowToGetInTheAnswerEngine() {
 
       <main className="min-h-screen bg-[#0F1117] relative">
         {/* Subtle gradient overlay */}
-        <div className="absolute inset-0 bg-gradient-to-b from-purple-950/10 via-transparent to-orange-950/10 pointer-events-none" />
         
         {/* Simple pixel accent - top corners */}
-        <div className="absolute top-0 left-0 w-2 h-2 bg-orange-500/40" />
-        <div className="absolute top-0 left-2 w-2 h-2 bg-purple-500/40" />
+        <div className="absolute top-0 left-0 w-2 h-2 bg-white/20" />
+        <div className="absolute top-0 left-2 w-2 h-2 bg-white/15" />
 
         <article className="max-w-4xl mx-auto px-6 py-20 sm:py-32 relative">
           {/* Featured Image */}
@@ -343,7 +342,7 @@ export default function HowToGetInTheAnswerEngine() {
             <img 
               src="/images/how-to-get-in-answer-engine-featured.png" 
               alt="How to Get in the Answer Engine - Complete Guide to AI Citations" 
-              className="w-full"
+              className="w-full grayscale brightness-75"
             />
           </div>
 
@@ -351,9 +350,9 @@ export default function HowToGetInTheAnswerEngine() {
           <header className="mb-16">
             {/* Simple pixel divider */}
             <div className="flex gap-2 mb-8">
-              <div className="w-1.5 h-1.5 bg-orange-500" />
-              <div className="w-1.5 h-1.5 bg-purple-500" />
-              <div className="w-1.5 h-1.5 bg-orange-500" />
+              <div className="w-1.5 h-1.5 bg-white/40" />
+              <div className="w-1.5 h-1.5 bg-white/30" />
+              <div className="w-1.5 h-1.5 bg-white/40" />
             </div>
 
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-light mb-6 leading-tight text-gray-100">
@@ -363,7 +362,7 @@ export default function HowToGetInTheAnswerEngine() {
               To get in the answer engine, structure your content to directly answer questions in the first 60 words, implement FAQ schema markup, build topical authority through hub-and-spoke content clusters, and establish verifiable business credentials. At The Answer Engine, we've helped clients achieve 40+ first-page rankings and AI citations within 90 days using this approach.
             </p>
             <div className="flex items-center gap-3 text-sm text-gray-500 font-light">
-              <span className="w-1.5 h-1.5 bg-orange-500/50 rounded-full" />
+              <span className="w-1.5 h-1.5 bg-white/25 rounded-full" />
               <span>Published December 1, 2025</span>
               <span className="text-gray-700">•</span>
               <span>Updated {new Date(lastUpdated).toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' })}</span>
@@ -395,7 +394,7 @@ export default function HowToGetInTheAnswerEngine() {
               Why Getting in the Answer Engine <span className="font-normal text-white">Matters</span>
             </h2>
 
-            <h3 className="text-2xl font-light mt-12 mb-4 text-orange-400">
+            <h3 className="text-2xl font-light mt-12 mb-4 text-white/60">
               The Zero-Click Reality
             </h3>
 
@@ -403,7 +402,7 @@ export default function HowToGetInTheAnswerEngine() {
               When AI provides a complete answer, users don't click through to websites. If your business isn't included in that answer, you don't get the call. There's no second place—either you're the recommendation or you're invisible.
             </p>
 
-            <h3 className="text-2xl font-light mt-12 mb-4 text-orange-400">
+            <h3 className="text-2xl font-light mt-12 mb-4 text-white/60">
               Trust Transfer
             </h3>
 
@@ -411,7 +410,7 @@ export default function HowToGetInTheAnswerEngine() {
               Users trust AI recommendations because they believe the AI has evaluated all options. Being cited by ChatGPT or Claude carries implicit endorsement that advertising can't buy. We've seen these leads convert at significantly higher rates than traditional sources.
             </p>
 
-            <h3 className="text-2xl font-light mt-12 mb-4 text-orange-400">
+            <h3 className="text-2xl font-light mt-12 mb-4 text-white/60">
               Compounding Authority
             </h3>
 
@@ -468,7 +467,7 @@ export default function HowToGetInTheAnswerEngine() {
               The 5-Step Process to <span className="font-normal text-white">Get in the Answer Engine</span>
             </h2>
 
-            <h3 className="text-2xl font-light mt-12 mb-4 text-orange-400">
+            <h3 className="text-2xl font-light mt-12 mb-4 text-white/60">
               Step 1: Identify Your Target Questions
             </h3>
 
@@ -485,13 +484,13 @@ export default function HowToGetInTheAnswerEngine() {
                 "What AI currently answers about your service"
               ].map((item, i) => (
                 <li key={i} className="flex items-start gap-3">
-                  <span className="flex-shrink-0 w-1.5 h-1.5 bg-orange-500/60 rounded-full mt-3" />
+                  <span className="flex-shrink-0 w-1.5 h-1.5 bg-white/30 rounded-full mt-3" />
                   <span className="font-light leading-relaxed">{item}</span>
                 </li>
               ))}
             </ul>
 
-            <h3 className="text-2xl font-light mt-12 mb-4 text-orange-400">
+            <h3 className="text-2xl font-light mt-12 mb-4 text-white/60">
               Step 2: Audit Your Current AI Visibility
             </h3>
 
@@ -507,13 +506,13 @@ export default function HowToGetInTheAnswerEngine() {
                 "What information is missing from current answers?"
               ].map((item, i) => (
                 <li key={i} className="flex items-start gap-3">
-                  <span className="flex-shrink-0 w-1.5 h-1.5 bg-orange-500/60 rounded-full mt-3" />
+                  <span className="flex-shrink-0 w-1.5 h-1.5 bg-white/30 rounded-full mt-3" />
                   <span className="font-light leading-relaxed">{item}</span>
                 </li>
               ))}
             </ul>
 
-            <h3 className="text-2xl font-light mt-12 mb-4 text-orange-400">
+            <h3 className="text-2xl font-light mt-12 mb-4 text-white/60">
               Step 3: Create Answer-Optimized Content
             </h3>
 
@@ -522,29 +521,29 @@ export default function HowToGetInTheAnswerEngine() {
             </p>
 
             <div className="space-y-4 mb-8">
-              <div className="bg-white/[0.03] backdrop-blur-xl border-l-4 border-orange-500 rounded-r-xl p-4">
+              <div className="bg-white/[0.03] backdrop-blur-xl border-l-4 border-white/[0.15] rounded-r-xl p-4">
                 <p className="text-gray-300 font-light">
                   <strong className="text-white font-medium">Featured Snippet Block:</strong> Open with 40-60 words directly answering the target question
                 </p>
               </div>
-              <div className="bg-white/[0.03] backdrop-blur-xl border-l-4 border-orange-500 rounded-r-xl p-4">
+              <div className="bg-white/[0.03] backdrop-blur-xl border-l-4 border-white/[0.15] rounded-r-xl p-4">
                 <p className="text-gray-300 font-light">
                   <strong className="text-white font-medium">Comprehensive FAQ:</strong> Include 5-10 related questions with FAQ schema markup
                 </p>
               </div>
-              <div className="bg-white/[0.03] backdrop-blur-xl border-l-4 border-orange-500 rounded-r-xl p-4">
+              <div className="bg-white/[0.03] backdrop-blur-xl border-l-4 border-white/[0.15] rounded-r-xl p-4">
                 <p className="text-gray-300 font-light">
                   <strong className="text-white font-medium">Authoritative Depth:</strong> Cover the topic completely, not superficially
                 </p>
               </div>
-              <div className="bg-white/[0.03] backdrop-blur-xl border-l-4 border-orange-500 rounded-r-xl p-4">
+              <div className="bg-white/[0.03] backdrop-blur-xl border-l-4 border-white/[0.15] rounded-r-xl p-4">
                 <p className="text-gray-300 font-light">
                   <strong className="text-white font-medium">Local Specificity:</strong> City-specific content outranks generic national content
                 </p>
               </div>
             </div>
 
-            <h3 className="text-2xl font-light mt-12 mb-4 text-orange-400">
+            <h3 className="text-2xl font-light mt-12 mb-4 text-white/60">
               Step 4: Implement Technical Optimization
             </h3>
 
@@ -559,13 +558,13 @@ export default function HowToGetInTheAnswerEngine() {
                 "Site Speed & Mobile: Fast, mobile-friendly sites signal quality"
               ].map((item, i) => (
                 <li key={i} className="flex items-start gap-3">
-                  <span className="flex-shrink-0 w-1.5 h-1.5 bg-orange-500/60 rounded-full mt-3" />
+                  <span className="flex-shrink-0 w-1.5 h-1.5 bg-white/30 rounded-full mt-3" />
                   <span className="font-light leading-relaxed">{item}</span>
                 </li>
               ))}
             </ul>
 
-            <h3 className="text-2xl font-light mt-12 mb-4 text-orange-400">
+            <h3 className="text-2xl font-light mt-12 mb-4 text-white/60">
               Step 5: Monitor and Iterate
             </h3>
 
@@ -581,7 +580,7 @@ export default function HowToGetInTheAnswerEngine() {
                 "Competitive monitoring for new opportunities"
               ].map((item, i) => (
                 <li key={i} className="flex items-start gap-3">
-                  <span className="flex-shrink-0 w-1.5 h-1.5 bg-orange-500/60 rounded-full mt-3" />
+                  <span className="flex-shrink-0 w-1.5 h-1.5 bg-white/30 rounded-full mt-3" />
                   <span className="font-light leading-relaxed">{item}</span>
                 </li>
               ))}
@@ -663,13 +662,13 @@ export default function HowToGetInTheAnswerEngine() {
             </p>
 
             <p className="text-gray-300 text-lg leading-relaxed mb-8 font-light">
-              <a href="/blog/aeo-case-study-real-estate" className="text-orange-400 hover:text-orange-300 transition-colors">
+              <a href="/blog/aeo-case-study-real-estate" className="text-white/60 hover:text-white/70 transition-colors">
                 Read the full case study: How a Real Estate Team Dominates AI Search →
               </a>
             </p>
 
             {/* CTA Section */}
-            <div className="my-16 p-10 rounded-2xl bg-white/[0.03] backdrop-blur-xl border-l-4 border-orange-500">
+            <div className="my-16 p-10 rounded-2xl bg-white/[0.03] backdrop-blur-xl border-l-4 border-white/[0.15]">
               <h3 className="text-2xl sm:text-3xl font-light mb-4 text-gray-100">
                 Get Your Free <span className="font-normal text-white">AI Citation Audit</span>
               </h3>
@@ -678,7 +677,7 @@ export default function HowToGetInTheAnswerEngine() {
               </p>
               <a 
                 href="/#contact" 
-                className="inline-flex items-center justify-center gap-3 px-8 py-4 rounded-xl text-lg font-medium bg-gradient-to-r from-orange-500 to-orange-600 text-white hover:from-orange-600 hover:to-orange-700 transition-all shadow-lg shadow-orange-500/25"
+                className="inline-flex items-center justify-center gap-3 px-8 py-4 rounded-xl text-lg font-medium bg-gradient-to-r from-white/40 to-white/50 text-white hover:from-white/50 hover:to-white/50 transition-all shadow-lg shadow-white/12"
               >
                 Schedule Your Free Audit
                 <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={2}>
@@ -747,7 +746,7 @@ export default function HowToGetInTheAnswerEngine() {
                 Justin Borges founded The Answer Engine to help local service businesses get cited by AI platforms like ChatGPT, Claude, Perplexity, and Google AI Overview. With a background in both real estate and digital marketing, Justin developed the Answer Engine Optimization methodology after achieving 100% AI citation rates for his own real estate team in Los Angeles.
               </p>
               <p>
-                <a href="/" className="inline-flex items-center gap-2 text-orange-400 font-medium hover:text-orange-300 transition-colors group">
+                <a href="/" className="inline-flex items-center gap-2 text-white/60 font-medium hover:text-white/70 transition-colors group">
                   Learn more at TheAnswerEngine.ai
                   <svg className="w-4 h-4 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={2}>
                     <path strokeLinecap="round" strokeLinejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3" />
@@ -764,7 +763,7 @@ export default function HowToGetInTheAnswerEngine() {
               <div className="space-y-4">
                 <div className="bg-white/[0.03] backdrop-blur-xl border border-white/[0.08] rounded-xl p-6 hover:border-white/[0.08] transition-colors">
                   <a href="/blog/aeo-case-study-real-estate" className="group">
-                    <h4 className="text-xl font-light text-white mb-2 group-hover:text-orange-400 transition-colors">
+                    <h4 className="text-xl font-light text-white mb-2 group-hover:text-white/60 transition-colors">
                       AEO Case Study: How a Real Estate Team Dominates AI Search
                     </h4>
                     <p className="text-gray-400 font-light leading-relaxed">
@@ -774,7 +773,7 @@ export default function HowToGetInTheAnswerEngine() {
                 </div>
                 <div className="bg-white/[0.03] backdrop-blur-xl border border-white/[0.08] rounded-xl p-6 hover:border-white/[0.08] transition-colors">
                   <a href="/blog/why-businesses-fail-answer-engine-optimization" className="group">
-                    <h4 className="text-xl font-light text-white mb-2 group-hover:text-orange-400 transition-colors">
+                    <h4 className="text-xl font-light text-white mb-2 group-hover:text-white/60 transition-colors">
                       Why Most Businesses Fail at Answer Engine Optimization
                     </h4>
                     <p className="text-gray-400 font-light leading-relaxed">
@@ -784,7 +783,7 @@ export default function HowToGetInTheAnswerEngine() {
                 </div>
                 <div className="bg-white/[0.03] backdrop-blur-xl border border-white/[0.08] rounded-xl p-6 hover:border-white/[0.08] transition-colors">
                   <a href="/blog/what-is-answer-engine-optimization" className="group">
-                    <h4 className="text-xl font-light text-white mb-2 group-hover:text-orange-400 transition-colors">
+                    <h4 className="text-xl font-light text-white mb-2 group-hover:text-white/60 transition-colors">
                       What is Answer Engine Optimization (AEO)? Complete Guide
                     </h4>
                     <p className="text-gray-400 font-light leading-relaxed">

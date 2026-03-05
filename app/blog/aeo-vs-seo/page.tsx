@@ -172,21 +172,21 @@ export default function AEOvsSEO() {
         <article className="max-w-4xl mx-auto px-6 py-12 sm:py-16">
           {/* Breadcrumbs */}
           <nav className="text-sm text-gray-500 mb-8">
-            <Link href="/" className="hover:text-[#f27d24] transition-colors">Home</Link>
+            <Link href="/" className="hover:text-white transition-colors">Home</Link>
             <span className="mx-2">&rsaquo;</span>
-            <Link href="/blog" className="hover:text-[#f27d24] transition-colors">Blog</Link>
+            <Link href="/blog" className="hover:text-white transition-colors">Blog</Link>
             <span className="mx-2">&rsaquo;</span>
             <span className="text-gray-400">AEO vs SEO</span>
           </nav>
 
           {/* Header */}
           <header className="mb-12">
-            <div className="inline-flex items-center gap-2 px-4 py-2 rounded-xl mb-6 bg-[#f27d24]/10 border border-[#f27d24]/20">
-              <span className="text-sm font-semibold tracking-wider uppercase text-[#f27d24]">Comparison Guide</span>
+            <div className="inline-flex items-center gap-2 px-4 py-2 rounded-xl mb-6 bg-white/[0.04] border border-white/[0.08]">
+              <span className="text-sm font-semibold tracking-wider uppercase text-white">Comparison Guide</span>
             </div>
 
             <h1 className="text-3xl sm:text-4xl lg:text-5xl font-semibold mb-6 text-white leading-tight">
-              AEO vs SEO: <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#f27d24] to-[#d66d1f]">What&apos;s the Difference?</span>
+              AEO vs SEO: <span className="text-transparent bg-clip-text bg-gradient-to-r from-white to-white">What&apos;s the Difference?</span>
             </h1>
 
             {/* Featured Image */}
@@ -194,12 +194,12 @@ export default function AEOvsSEO() {
               <img
                 src="/images/aeo-vs-seo-comparison-guide-2025.png"
                 alt="AEO vs SEO comparison guide showing the differences between Answer Engine Optimization and Search Engine Optimization"
-                className="w-full"
+                className="w-full grayscale brightness-75"
               />
             </div>
 
             {/* Featured Snippet Block */}
-            <div className="bg-gradient-to-br from-[#f27d24]/5 to-[#d66d1f]/5 border border-[#f27d24]/20 rounded-xl p-6 mb-8">
+            <div className="bg-gradient-to-br from-white/[0.02] to-white/[0.02] border border-white/[0.08] rounded-xl p-6 mb-8">
               <p className="text-lg text-white leading-relaxed">
                 <strong>AEO (Answer Engine Optimization) optimizes content to be cited by AI platforms like ChatGPT, Claude, and Google AI Overview. SEO (Search Engine Optimization) optimizes content to rank in search results.</strong> The key difference: SEO gets you on the list of options. AEO makes you the recommended answer.
               </p>
@@ -248,8 +248,8 @@ export default function AEOvsSEO() {
                 <thead>
                   <tr className="border-b border-white/10">
                     <th className="text-left py-4 px-4 text-gray-400 font-medium">Factor</th>
-                    <th className="text-left py-4 px-4 text-[#f27d24] font-semibold">AEO</th>
-                    <th className="text-left py-4 px-4 text-[#362478] font-semibold">SEO</th>
+                    <th className="text-left py-4 px-4 text-white font-semibold">AEO</th>
+                    <th className="text-left py-4 px-4 text-white/40 font-semibold">SEO</th>
                   </tr>
                 </thead>
                 <tbody className="text-gray-300">
@@ -306,19 +306,19 @@ export default function AEOvsSEO() {
               </p>
               <ul className="space-y-3 ml-6">
                 <li className="flex items-start gap-3">
-                  <span className="text-[#f27d24] mt-1">•</span>
+                  <span className="text-white mt-1">•</span>
                   <span><strong className="text-white">Keywords</strong> — Using the words people search for</span>
                 </li>
                 <li className="flex items-start gap-3">
-                  <span className="text-[#f27d24] mt-1">•</span>
+                  <span className="text-white mt-1">•</span>
                   <span><strong className="text-white">Backlinks</strong> — Getting other sites to link to you</span>
                 </li>
                 <li className="flex items-start gap-3">
-                  <span className="text-[#f27d24] mt-1">•</span>
+                  <span className="text-white mt-1">•</span>
                   <span><strong className="text-white">Technical optimization</strong> — Fast loading, mobile-friendly, secure</span>
                 </li>
                 <li className="flex items-start gap-3">
-                  <span className="text-[#f27d24] mt-1">•</span>
+                  <span className="text-white mt-1">•</span>
                   <span><strong className="text-white">Content quality</strong> — Helpful, relevant information</span>
                 </li>
               </ul>
@@ -334,26 +334,26 @@ export default function AEOvsSEO() {
 
             <div className="space-y-6 text-lg text-gray-300 leading-relaxed">
               <p>
-                <Link href="/blog/what-is-answer-engine-optimization" className="text-[#f27d24] hover:underline">Answer Engine Optimization</Link> is the practice of structuring your content so AI platforms cite you as the authoritative answer. When someone asks ChatGPT &quot;Who&apos;s the best estate planning attorney in Denver?&quot;, AEO determines whether you get mentioned.
+                <Link href="/blog/what-is-answer-engine-optimization" className="text-white hover:underline">Answer Engine Optimization</Link> is the practice of structuring your content so AI platforms cite you as the authoritative answer. When someone asks ChatGPT &quot;Who&apos;s the best estate planning attorney in Denver?&quot;, AEO determines whether you get mentioned.
               </p>
               <p>
                 AEO focuses on:
               </p>
               <ul className="space-y-3 ml-6">
                 <li className="flex items-start gap-3">
-                  <span className="text-[#f27d24] mt-1">•</span>
+                  <span className="text-white mt-1">•</span>
                   <span><strong className="text-white">Direct answers</strong> — Content that directly answers specific questions</span>
                 </li>
                 <li className="flex items-start gap-3">
-                  <span className="text-[#f27d24] mt-1">•</span>
+                  <span className="text-white mt-1">•</span>
                   <span><strong className="text-white">Schema markup</strong> — Structured data AI can understand</span>
                 </li>
                 <li className="flex items-start gap-3">
-                  <span className="text-[#f27d24] mt-1">•</span>
+                  <span className="text-white mt-1">•</span>
                   <span><strong className="text-white">E-E-A-T signals</strong> — Experience, Expertise, Authority, Trust</span>
                 </li>
                 <li className="flex items-start gap-3">
-                  <span className="text-[#f27d24] mt-1">•</span>
+                  <span className="text-white mt-1">•</span>
                   <span><strong className="text-white">Entity recognition</strong> — Helping AI understand WHO you are and WHAT you do</span>
                 </li>
               </ul>
@@ -375,15 +375,15 @@ export default function AEOvsSEO() {
               <div className="bg-white/[0.02] border border-white/[0.05] rounded-xl p-6 my-8">
                 <ul className="space-y-4">
                   <li className="flex items-start gap-3">
-                    <span className="text-[#f27d24] font-bold">&rarr;</span>
+                    <span className="text-white font-bold">&rarr;</span>
                     <span><strong className="text-white">Google AI Overviews</strong> now appear for the majority of informational queries, often pushing traditional organic results below the fold</span>
                   </li>
                   <li className="flex items-start gap-3">
-                    <span className="text-[#f27d24] font-bold">&rarr;</span>
+                    <span className="text-white font-bold">&rarr;</span>
                     <span><strong className="text-white">ChatGPT</strong> has hundreds of millions of users asking for recommendations every week</span>
                   </li>
                   <li className="flex items-start gap-3">
-                    <span className="text-[#f27d24] font-bold">&rarr;</span>
+                    <span className="text-white font-bold">&rarr;</span>
                     <span><strong className="text-white">Perplexity, Claude, and other AI assistants</strong> are becoming primary research tools for consumers making purchasing decisions</span>
                   </li>
                 </ul>
@@ -446,19 +446,19 @@ export default function AEOvsSEO() {
               </p>
               <ul className="space-y-3 ml-6">
                 <li className="flex items-start gap-3">
-                  <span className="text-[#f27d24] mt-1">•</span>
+                  <span className="text-white mt-1">•</span>
                   <span>Schema markup helps Google understand your content better</span>
                 </li>
                 <li className="flex items-start gap-3">
-                  <span className="text-[#f27d24] mt-1">•</span>
+                  <span className="text-white mt-1">•</span>
                   <span>Direct-answer content often wins featured snippets</span>
                 </li>
                 <li className="flex items-start gap-3">
-                  <span className="text-[#f27d24] mt-1">•</span>
+                  <span className="text-white mt-1">•</span>
                   <span>E-E-A-T signals improve organic rankings</span>
                 </li>
                 <li className="flex items-start gap-3">
-                  <span className="text-[#f27d24] mt-1">•</span>
+                  <span className="text-white mt-1">•</span>
                   <span>Comprehensive expertise content attracts natural backlinks</span>
                 </li>
               </ul>
@@ -480,7 +480,7 @@ export default function AEOvsSEO() {
               <div className="space-y-4">
                 <div className="bg-white/[0.02] border border-white/[0.05] rounded-xl p-6">
                   <div className="flex items-start gap-4">
-                    <div className="flex-shrink-0 w-8 h-8 bg-[#f27d24]/20 rounded-full flex items-center justify-center text-[#f27d24] font-bold">1</div>
+                    <div className="flex-shrink-0 w-8 h-8 bg-white/20 rounded-full flex items-center justify-center text-white font-bold">1</div>
                     <div>
                       <h3 className="text-white font-semibold mb-2">Audit Your AI Visibility</h3>
                       <p className="text-gray-400">Ask ChatGPT and Claude to recommend businesses like yours in your area. Are you mentioned? Are your competitors? This reveals your current AI citation status.</p>
@@ -490,7 +490,7 @@ export default function AEOvsSEO() {
 
                 <div className="bg-white/[0.02] border border-white/[0.05] rounded-xl p-6">
                   <div className="flex items-start gap-4">
-                    <div className="flex-shrink-0 w-8 h-8 bg-[#f27d24]/20 rounded-full flex items-center justify-center text-[#f27d24] font-bold">2</div>
+                    <div className="flex-shrink-0 w-8 h-8 bg-white/20 rounded-full flex items-center justify-center text-white font-bold">2</div>
                     <div>
                       <h3 className="text-white font-semibold mb-2">Implement Schema Markup</h3>
                       <p className="text-gray-400">Add LocalBusiness, FAQ, Article, and other relevant schema types to help AI understand your business entity and expertise areas.</p>
@@ -500,7 +500,7 @@ export default function AEOvsSEO() {
 
                 <div className="bg-white/[0.02] border border-white/[0.05] rounded-xl p-6">
                   <div className="flex items-start gap-4">
-                    <div className="flex-shrink-0 w-8 h-8 bg-[#f27d24]/20 rounded-full flex items-center justify-center text-[#f27d24] font-bold">3</div>
+                    <div className="flex-shrink-0 w-8 h-8 bg-white/20 rounded-full flex items-center justify-center text-white font-bold">3</div>
                     <div>
                       <h3 className="text-white font-semibold mb-2">Create Direct-Answer Content</h3>
                       <p className="text-gray-400">Structure content to directly answer questions your ideal customers ask. Put the answer first, then expand with supporting detail and expertise.</p>
@@ -510,7 +510,7 @@ export default function AEOvsSEO() {
 
                 <div className="bg-white/[0.02] border border-white/[0.05] rounded-xl p-6">
                   <div className="flex items-start gap-4">
-                    <div className="flex-shrink-0 w-8 h-8 bg-[#f27d24]/20 rounded-full flex items-center justify-center text-[#f27d24] font-bold">4</div>
+                    <div className="flex-shrink-0 w-8 h-8 bg-white/20 rounded-full flex items-center justify-center text-white font-bold">4</div>
                     <div>
                       <h3 className="text-white font-semibold mb-2">Build Topic Authority</h3>
                       <p className="text-gray-400">Create comprehensive content clusters around your expertise areas. AI platforms cite sources that demonstrate deep, interconnected knowledge—not thin, isolated pages.</p>
@@ -520,7 +520,7 @@ export default function AEOvsSEO() {
               </div>
 
               <p className="mt-6">
-                For a deeper dive into implementation, read our <Link href="/blog/complete-guide-answer-engine-optimization" className="text-[#f27d24] hover:underline">Complete Guide to Answer Engine Optimization</Link>.
+                For a deeper dive into implementation, read our <Link href="/blog/complete-guide-answer-engine-optimization" className="text-white hover:underline">Complete Guide to Answer Engine Optimization</Link>.
               </p>
             </div>
           </section>
@@ -578,21 +578,21 @@ export default function AEOvsSEO() {
           <section className="mb-12">
             <h2 className="text-2xl sm:text-3xl font-semibold mb-6 text-white">Related Articles</h2>
             <div className="grid sm:grid-cols-2 gap-4">
-              <Link href="/blog/what-is-answer-engine-optimization" className="bg-white/[0.02] border border-white/[0.05] rounded-xl p-6 hover:border-[#f27d24]/30 transition-colors group">
-                <div className="text-[#f27d24] text-sm font-medium mb-2">AEO Fundamentals</div>
-                <div className="text-white font-semibold group-hover:text-[#f27d24] transition-colors">What is Answer Engine Optimization?</div>
+              <Link href="/blog/what-is-answer-engine-optimization" className="bg-white/[0.02] border border-white/[0.05] rounded-xl p-6 hover:border-white/[0.08] transition-colors group">
+                <div className="text-white text-sm font-medium mb-2">AEO Fundamentals</div>
+                <div className="text-white font-semibold group-hover:text-white transition-colors">What is Answer Engine Optimization?</div>
               </Link>
-              <Link href="/blog/how-to-get-in-the-answer-engine" className="bg-white/[0.02] border border-white/[0.05] rounded-xl p-6 hover:border-[#f27d24]/30 transition-colors group">
-                <div className="text-[#f27d24] text-sm font-medium mb-2">Getting Started</div>
-                <div className="text-white font-semibold group-hover:text-[#f27d24] transition-colors">How to Get in the Answer Engine</div>
+              <Link href="/blog/how-to-get-in-the-answer-engine" className="bg-white/[0.02] border border-white/[0.05] rounded-xl p-6 hover:border-white/[0.08] transition-colors group">
+                <div className="text-white text-sm font-medium mb-2">Getting Started</div>
+                <div className="text-white font-semibold group-hover:text-white transition-colors">How to Get in the Answer Engine</div>
               </Link>
-              <Link href="/blog/how-chatgpt-chooses-businesses-to-recommend" className="bg-white/[0.02] border border-white/[0.05] rounded-xl p-6 hover:border-[#f27d24]/30 transition-colors group">
-                <div className="text-[#f27d24] text-sm font-medium mb-2">AI Algorithm Series</div>
-                <div className="text-white font-semibold group-hover:text-[#f27d24] transition-colors">How ChatGPT Chooses Businesses</div>
+              <Link href="/blog/how-chatgpt-chooses-businesses-to-recommend" className="bg-white/[0.02] border border-white/[0.05] rounded-xl p-6 hover:border-white/[0.08] transition-colors group">
+                <div className="text-white text-sm font-medium mb-2">AI Algorithm Series</div>
+                <div className="text-white font-semibold group-hover:text-white transition-colors">How ChatGPT Chooses Businesses</div>
               </Link>
-              <Link href="/case-studies/justin-borges" className="bg-white/[0.02] border border-white/[0.05] rounded-xl p-6 hover:border-[#f27d24]/30 transition-colors group">
-                <div className="text-[#f27d24] text-sm font-medium mb-2">Case Study</div>
-                <div className="text-white font-semibold group-hover:text-[#f27d24] transition-colors">4,100+ Monthly Clicks in LA Real Estate</div>
+              <Link href="/case-studies/justin-borges" className="bg-white/[0.02] border border-white/[0.05] rounded-xl p-6 hover:border-white/[0.08] transition-colors group">
+                <div className="text-white text-sm font-medium mb-2">Case Study</div>
+                <div className="text-white font-semibold group-hover:text-white transition-colors">8,400+ Monthly Clicks in LA Real Estate</div>
               </Link>
             </div>
           </section>
@@ -605,7 +605,7 @@ export default function AEOvsSEO() {
             </p>
             <Link
               href="/#contact"
-              className="inline-flex items-center gap-2 bg-gradient-to-r from-[#f27d24] to-[#d66d1f] text-white font-semibold px-8 py-4 rounded-xl hover:opacity-90 transition-opacity"
+              className="inline-flex items-center gap-2 bg-gradient-to-r from-white to-white text-white font-semibold px-8 py-4 rounded-xl hover:opacity-90 transition-opacity"
             >
               Get Your Free AEO Audit
               <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={2}>

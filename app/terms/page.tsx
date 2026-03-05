@@ -13,7 +13,6 @@ export const metadata: Metadata = {
 export default function Terms() {
   return (
     <main className="min-h-screen bg-[#0F1117] relative">
-      <div className="absolute inset-0 bg-gradient-to-b from-purple-950/5 via-transparent to-orange-950/5 pointer-events-none" />
 
       <div className="max-w-3xl mx-auto px-6 py-16 sm:py-24 relative">
         {/* Back to Home */}
@@ -168,8 +167,8 @@ export default function Terms() {
             </p>
             <div className="mt-4 p-4 bg-white/[0.03] rounded-xl border border-white/[0.08]">
               <p><strong className="text-white">The Answer Engine</strong></p>
-              <p>Email: <a href="mailto:support@theanswerengine.ai" className="text-[#f27d24] hover:text-[#d66d1f] transition-colors">support@theanswerengine.ai</a></p>
-              <p>Phone: <a href="tel:+12134442229" className="text-[#f27d24] hover:text-[#d66d1f] transition-colors">(213) 444-2229</a></p>
+              <p>Email: <a href="mailto:support@theanswerengine.ai" className="text-white hover:text-white/80 transition-colors">support@theanswerengine.ai</a></p>
+              <p>Phone: <a href="tel:+12134442229" className="text-white hover:text-white/80 transition-colors">(213) 444-2229</a></p>
             </div>
           </section>
         </div>

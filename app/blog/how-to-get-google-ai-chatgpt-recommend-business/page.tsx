@@ -235,11 +235,10 @@ export default function HowToGetAIRecommendBusiness() {
 
       <main className="min-h-screen bg-[#0F1117] relative">
         {/* Subtle gradient overlay */}
-        <div className="absolute inset-0 bg-gradient-to-b from-purple-950/10 via-transparent to-orange-950/10 pointer-events-none" />
         
         {/* Simple pixel accent - top corners */}
-        <div className="absolute top-0 left-0 w-2 h-2 bg-orange-500/40" />
-        <div className="absolute top-0 left-2 w-2 h-2 bg-purple-500/40" />
+        <div className="absolute top-0 left-0 w-2 h-2 bg-white/20" />
+        <div className="absolute top-0 left-2 w-2 h-2 bg-white/15" />
 
         <article className="max-w-4xl mx-auto px-6 py-20 sm:py-32 relative">
           {/* Featured Image */}
@@ -247,7 +246,7 @@ export default function HowToGetAIRecommendBusiness() {
             <img 
               src="/images/how-to-get-ai-recommend-business-featured.png" 
               alt="How to get Google AI Overviews and ChatGPT to recommend your business - the four foundation requirements" 
-              className="w-full"
+              className="w-full grayscale brightness-75"
             />
           </div>
 
@@ -255,9 +254,9 @@ export default function HowToGetAIRecommendBusiness() {
           <header className="mb-16">
             {/* Simple pixel divider */}
             <div className="flex gap-2 mb-8">
-              <div className="w-1.5 h-1.5 bg-orange-500" />
-              <div className="w-1.5 h-1.5 bg-purple-500" />
-              <div className="w-1.5 h-1.5 bg-orange-500" />
+              <div className="w-1.5 h-1.5 bg-white/40" />
+              <div className="w-1.5 h-1.5 bg-white/30" />
+              <div className="w-1.5 h-1.5 bg-white/40" />
             </div>
 
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-light mb-6 leading-tight text-gray-100">
@@ -267,7 +266,7 @@ export default function HowToGetAIRecommendBusiness() {
               Most businesses optimize for keywords and backlinks while AI platforms ignore them completely. Here are the four foundation requirements Google AI Overviews and ChatGPT actually evaluate before citing any business—and why most companies fail at all four.
             </p>
             <div className="flex items-center gap-3 text-sm text-gray-500 font-light">
-              <span className="w-1.5 h-1.5 bg-orange-500/50 rounded-full" />
+              <span className="w-1.5 h-1.5 bg-white/25 rounded-full" />
               <span>Published November 9, 2025</span>
               <span className="text-gray-700">•</span>
               <span>Updated {new Date(lastUpdated).toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' })}</span>
@@ -314,7 +313,7 @@ export default function HowToGetAIRecommendBusiness() {
               AI platforms read structured data markup (schema) before they read your visible content. Without proper technical implementation, even perfectly written content remains invisible.
             </p>
 
-            <h3 className="text-2xl font-light mt-12 mb-4 text-orange-400">
+            <h3 className="text-2xl font-light mt-12 mb-4 text-white/60">
               Why Schema Matters More Than You Think
             </h3>
 
@@ -339,13 +338,13 @@ export default function HowToGetAIRecommendBusiness() {
                 "BreadcrumbList Schema: Clarifies site structure and content hierarchy"
               ].map((item, i) => (
                 <li key={i} className="flex items-start gap-3">
-                  <span className="flex-shrink-0 w-1.5 h-1.5 bg-orange-500/60 rounded-full mt-3" />
+                  <span className="flex-shrink-0 w-1.5 h-1.5 bg-white/30 rounded-full mt-3" />
                   <span className="font-light leading-relaxed">{item}</span>
                 </li>
               ))}
             </ul>
 
-            <h3 className="text-2xl font-light mt-12 mb-4 text-orange-400">
+            <h3 className="text-2xl font-light mt-12 mb-4 text-white/60">
               The Hidden Failure Point
             </h3>
 
@@ -369,7 +368,7 @@ export default function HowToGetAIRecommendBusiness() {
               AI platforms don't extract answers from long-form content the way humans do. They look for explicit question-answer pairs with clear structure.
             </p>
 
-            <h3 className="text-2xl font-light mt-12 mb-4 text-orange-400">
+            <h3 className="text-2xl font-light mt-12 mb-4 text-white/60">
               How AI Platforms Parse Content
             </h3>
 
@@ -381,7 +380,7 @@ export default function HowToGetAIRecommendBusiness() {
               <strong className="text-white font-medium">Content that AI platforms cite:</strong>
             </p>
 
-            <p className="text-gray-300 text-lg leading-relaxed mb-6 font-light border-l-4 border-orange-500/50 pl-6 py-4 bg-white/[0.03] rounded-r-lg">
+            <p className="text-gray-300 text-lg leading-relaxed mb-6 font-light border-l-4 border-white/[0.15] pl-6 py-4 bg-white/[0.03] rounded-r-lg">
               <strong className="text-white font-medium">How long does HVAC installation take?</strong><br /><br />
               Complete HVAC system installation typically requires 8-12 hours for standard residential properties. Complex installations with ductwork modifications may extend to 2-3 days. Emergency replacements can often be completed within 4-6 hours when existing infrastructure is compatible.
             </p>
@@ -398,7 +397,7 @@ export default function HowToGetAIRecommendBusiness() {
               The first example provides immediate, specific information. The second sounds professional but gives AI platforms nothing concrete to cite.
             </p>
 
-            <h3 className="text-2xl font-light mt-12 mb-4 text-orange-400">
+            <h3 className="text-2xl font-light mt-12 mb-4 text-white/60">
               The Content Architecture Framework
             </h3>
 
@@ -415,7 +414,7 @@ export default function HowToGetAIRecommendBusiness() {
                 "FAQ section with 5-10 common variations"
               ].map((item, i) => (
                 <li key={i} className="flex items-start gap-3">
-                  <span className="flex-shrink-0 w-1.5 h-1.5 bg-orange-500/60 rounded-full mt-3" />
+                  <span className="flex-shrink-0 w-1.5 h-1.5 bg-white/30 rounded-full mt-3" />
                   <span className="font-light leading-relaxed">{item}</span>
                 </li>
               ))}
@@ -433,7 +432,7 @@ export default function HowToGetAIRecommendBusiness() {
               AI platforms don't trust claims—they look for verifiable credentials and specific expertise documentation.
             </p>
 
-            <h3 className="text-2xl font-light mt-12 mb-4 text-orange-400">
+            <h3 className="text-2xl font-light mt-12 mb-4 text-white/60">
               What Counts as Verifiable Expertise
             </h3>
 
@@ -469,7 +468,7 @@ export default function HowToGetAIRecommendBusiness() {
                 "Licenses and regulatory compliance"
               ].map((item, i) => (
                 <li key={i} className="flex items-start gap-3">
-                  <span className="flex-shrink-0 w-1.5 h-1.5 bg-orange-500/60 rounded-full mt-3" />
+                  <span className="flex-shrink-0 w-1.5 h-1.5 bg-white/30 rounded-full mt-3" />
                   <span className="font-light leading-relaxed">{item}</span>
                 </li>
               ))}
@@ -487,7 +486,7 @@ export default function HowToGetAIRecommendBusiness() {
               <strong className="text-white font-medium">After:</strong> "Our team includes four NATE-certified technicians and two EPA Section 608-certified specialists. Since 2008, we've completed 3,247 HVAC installations across Maricopa County, specializing in high-efficiency systems designed for Phoenix's extreme climate where summer temperatures consistently exceed 110°F."
             </p>
 
-            <h3 className="text-2xl font-light mt-12 mb-4 text-orange-400">
+            <h3 className="text-2xl font-light mt-12 mb-4 text-white/60">
               The Documentation Challenge
             </h3>
 
@@ -503,7 +502,7 @@ export default function HowToGetAIRecommendBusiness() {
               AI platforms favor sources that comprehensively address entire topic areas, not businesses with scattered blog posts on disconnected subjects.
             </p>
 
-            <h3 className="text-2xl font-light mt-12 mb-4 text-orange-400">
+            <h3 className="text-2xl font-light mt-12 mb-4 text-white/60">
               The Topic Cluster Strategy
             </h3>
 
@@ -542,7 +541,7 @@ export default function HowToGetAIRecommendBusiness() {
                 "FAQ pages addressing 20+ common installation questions"
               ].map((item, i) => (
                 <li key={i} className="flex items-start gap-3">
-                  <span className="flex-shrink-0 w-1.5 h-1.5 bg-orange-500/60 rounded-full mt-3" />
+                  <span className="flex-shrink-0 w-1.5 h-1.5 bg-white/30 rounded-full mt-3" />
                   <span className="font-light leading-relaxed">{item}</span>
                 </li>
               ))}
@@ -553,7 +552,7 @@ export default function HowToGetAIRecommendBusiness() {
             </p>
 
             {/* CTA Section */}
-            <div className="my-16 p-10 rounded-2xl bg-white/[0.03] backdrop-blur-xl border-l-4 border-orange-500">
+            <div className="my-16 p-10 rounded-2xl bg-white/[0.03] backdrop-blur-xl border-l-4 border-white/[0.15]">
               <h3 className="text-2xl sm:text-3xl font-light mb-4 text-gray-100">
                 Stop Guessing About <span className="font-normal text-white">What AI Platforms Actually Require</span>
               </h3>
@@ -562,7 +561,7 @@ export default function HowToGetAIRecommendBusiness() {
               </p>
               <a 
                 href="/#contact" 
-                className="inline-flex items-center justify-center gap-3 px-8 py-4 rounded-xl text-lg font-medium bg-gradient-to-r from-orange-500 to-orange-600 text-white hover:from-orange-600 hover:to-orange-700 transition-all shadow-lg shadow-orange-500/25"
+                className="inline-flex items-center justify-center gap-3 px-8 py-4 rounded-xl text-lg font-medium bg-gradient-to-r from-white/40 to-white/50 text-white hover:from-white/50 hover:to-white/50 transition-all shadow-lg shadow-white/12"
               >
                 Schedule Your Free AI Citation Analysis
                 <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={2}>
@@ -579,7 +578,7 @@ export default function HowToGetAIRecommendBusiness() {
               Understanding these four requirements is different from implementing them successfully.
             </p>
 
-            <h3 className="text-2xl font-light mt-12 mb-4 text-orange-400">
+            <h3 className="text-2xl font-light mt-12 mb-4 text-white/60">
               Why DIY Implementation Usually Fails
             </h3>
 
@@ -595,7 +594,7 @@ export default function HowToGetAIRecommendBusiness() {
                 "No diagnostic feedback when things are broken"
               ].map((item, i) => (
                 <li key={i} className="flex items-start gap-3">
-                  <span className="flex-shrink-0 w-1.5 h-1.5 bg-purple-500/60 rounded-full mt-3" />
+                  <span className="flex-shrink-0 w-1.5 h-1.5 bg-white/25 rounded-full mt-3" />
                   <span className="font-light leading-relaxed">{item}</span>
                 </li>
               ))}
@@ -613,7 +612,7 @@ export default function HowToGetAIRecommendBusiness() {
                 "Documenting expertise without sounding like a resume"
               ].map((item, i) => (
                 <li key={i} className="flex items-start gap-3">
-                  <span className="flex-shrink-0 w-1.5 h-1.5 bg-purple-500/60 rounded-full mt-3" />
+                  <span className="flex-shrink-0 w-1.5 h-1.5 bg-white/25 rounded-full mt-3" />
                   <span className="font-light leading-relaxed">{item}</span>
                 </li>
               ))}
@@ -659,7 +658,7 @@ export default function HowToGetAIRecommendBusiness() {
                 "Comprehensive topic coverage"
               ].map((item, i) => (
                 <li key={i} className="flex items-start gap-3">
-                  <span className="flex-shrink-0 w-1.5 h-1.5 bg-orange-500/60 rounded-full mt-3" />
+                  <span className="flex-shrink-0 w-1.5 h-1.5 bg-white/30 rounded-full mt-3" />
                   <span className="font-light leading-relaxed">{item}</span>
                 </li>
               ))}
@@ -753,7 +752,7 @@ export default function HowToGetAIRecommendBusiness() {
                     "50+ local service business AEO implementations completed"
                   ].map((item, i) => (
                     <li key={i} className="flex items-start gap-3">
-                      <span className="flex-shrink-0 w-1.5 h-1.5 bg-orange-500/60 rounded-full mt-2.5" />
+                      <span className="flex-shrink-0 w-1.5 h-1.5 bg-white/30 rounded-full mt-2.5" />
                       <span>{item}</span>
                     </li>
                   ))}
@@ -763,7 +762,7 @@ export default function HowToGetAIRecommendBusiness() {
                 The Answer Engine specializes in Answer Engine Optimization (AEO) for local service businesses. We position companies to be cited by Google AI Overviews, ChatGPT, Claude, Perplexity, and other AI platforms—making them the trusted expert AI recommends in their market.
               </p>
               <p>
-                <a href="/" className="inline-flex items-center gap-2 text-orange-400 font-medium hover:text-orange-300 transition-colors group">
+                <a href="/" className="inline-flex items-center gap-2 text-white/60 font-medium hover:text-white/70 transition-colors group">
                   Learn more at TheAnswerEngine.ai
                   <svg className="w-4 h-4 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={2}>
                     <path strokeLinecap="round" strokeLinejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3" />
@@ -780,7 +779,7 @@ export default function HowToGetAIRecommendBusiness() {
               <div className="space-y-4">
                 <div className="bg-white/[0.03] backdrop-blur-xl border border-white/[0.08] rounded-xl p-6 hover:border-white/[0.08] transition-colors">
                   <a href="/blog/what-is-answer-engine-optimization" className="group">
-                    <h4 className="text-xl font-light text-white mb-2 group-hover:text-orange-400 transition-colors">
+                    <h4 className="text-xl font-light text-white mb-2 group-hover:text-white/60 transition-colors">
                       What is Answer Engine Optimization (AEO)? The Complete Guide for 2025
                     </h4>
                     <p className="text-gray-400 font-light leading-relaxed">
@@ -790,7 +789,7 @@ export default function HowToGetAIRecommendBusiness() {
                 </div>
                 <div className="bg-white/[0.03] backdrop-blur-xl border border-white/[0.08] rounded-xl p-6 hover:border-white/[0.08] transition-colors">
                   <a href="/blog/how-ai-platforms-choose-businesses-to-cite" className="group">
-                    <h4 className="text-xl font-light text-white mb-2 group-hover:text-orange-400 transition-colors">
+                    <h4 className="text-xl font-light text-white mb-2 group-hover:text-white/60 transition-colors">
                       How AI Platforms Choose Which Businesses to Cite
                     </h4>
                     <p className="text-gray-400 font-light leading-relaxed">

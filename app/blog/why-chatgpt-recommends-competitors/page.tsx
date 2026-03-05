@@ -203,7 +203,6 @@ export default function WhyChatGPTRecommendsCompetitors() {
       
       <article className="min-h-screen bg-[#0F1117] relative overflow-hidden">
         {/* Gradient overlay */}
-        <div className="absolute inset-0 bg-gradient-to-b from-purple-950/5 via-transparent to-orange-950/5 pointer-events-none" />
         
         <div className="max-w-4xl mx-auto px-6 py-20 sm:py-32 relative">
           <Breadcrumb />
@@ -216,15 +215,15 @@ export default function WhyChatGPTRecommendsCompetitors() {
               width={1200}
               height={630}
               priority
-              className="w-full"
+              className="w-full grayscale brightness-75"
             />
           </div>
 
           {/* Article Header */}
           <header className="mb-12">
-            <div className="inline-flex items-center gap-2 px-4 py-2 rounded-xl mb-6 bg-[#f27d24]/10 border border-[#f27d24]/20">
-              <div className="w-2 h-2 rounded-full bg-[#f27d24]" />
-              <span className="text-sm font-semibold tracking-wider uppercase text-[#f27d24]">ChatGPT Citation Series</span>
+            <div className="inline-flex items-center gap-2 px-4 py-2 rounded-xl mb-6 bg-white/[0.04] border border-white/[0.08]">
+              <div className="w-2 h-2 rounded-full bg-white" />
+              <span className="text-sm font-semibold tracking-wider uppercase text-white">ChatGPT Citation Series</span>
             </div>
 
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-semibold mb-6 leading-tight text-white">
@@ -234,13 +233,13 @@ export default function WhyChatGPTRecommendsCompetitors() {
             <div className="flex items-center gap-4 text-sm text-gray-400 mb-8">
               <time dateTime="2025-11-17">November 17, 2025</time>
               <span>•</span>
-              <span>By <Link href="/about" className="text-[#f27d24] hover:text-[#d66d1f] transition-colors">Justin Borges</Link></span>
+              <span>By <Link href="/about" className="text-white hover:text-white transition-colors">Justin Borges</Link></span>
               <span>•</span>
               <span>12 min read</span>
             </div>
 
             {/* Featured Snippet */}
-            <div className="bg-[#f27d24]/10 border-l-4 border-[#f27d24] p-6 rounded-r-xl">
+            <div className="bg-white/[0.04] border-l-4 border-white/[0.08] p-6 rounded-r-xl">
               <p className="text-lg text-gray-300 leading-relaxed">
                 ChatGPT recommends your competitors when they appear to be the safest, clearest experts in your category. It looks for well-structured expertise, consistent information, niche authority, and content that answers real user questions. If your competitors have deeper, clearer, or more organized authority signals, ChatGPT will choose them over you.
               </p>
@@ -251,7 +250,7 @@ export default function WhyChatGPTRecommendsCompetitors() {
           <section className="mb-16 text-gray-300 space-y-4 text-lg leading-relaxed">
             <p>Right now, customers are asking ChatGPT questions like:</p>
             
-            <ul className="space-y-2 pl-6 border-l-2 border-[#362478]/30">
+            <ul className="space-y-2 pl-6 border-l-2 border-white/[0.08]">
               <li>"Who's the best HVAC company near me?"</li>
               <li>"Which attorney specializes in probate in Los Angeles?"</li>
               <li>"What real estate team knows inherited property sales?"</li>
@@ -272,7 +271,7 @@ export default function WhyChatGPTRecommendsCompetitors() {
           </section>
 
           {/* Separator */}
-          <div className="max-w-xs mx-auto h-px bg-gradient-to-r from-transparent via-white/10 to-transparent mb-16" />
+          <div className="max-w-xs mx-auto h-px bg-gradient-to-r from-transparent via-white/[0.06] to-transparent mb-16" />
 
           {/* Section 1: How ChatGPT Chooses */}
           <section className="mb-16">
@@ -280,8 +279,8 @@ export default function WhyChatGPTRecommendsCompetitors() {
               How Does ChatGPT Actually Choose Which Businesses to Recommend?
             </h2>
 
-            <div className="bg-white/[0.03] border-l-4 border-[#362478]/50 p-6 rounded-r-xl mb-8">
-              <p className="text-[#a89bd9] font-semibold mb-2">Direct Answer:</p>
+            <div className="bg-white/[0.03] border-l-4 border-white/[0.08]/50 p-6 rounded-r-xl mb-8">
+              <p className="text-white/40 font-semibold mb-2">Direct Answer:</p>
               <p className="text-gray-300 leading-relaxed">
                 ChatGPT recommends businesses that demonstrate clear expertise, consistent information, and strong topical authority. It analyzes not just websites, but the entire digital footprint around your business. The companies it recommends usually have detailed explanations, niche clarity, strong service descriptions, and content that matches real user questions.
               </p>
@@ -299,27 +298,27 @@ export default function WhyChatGPTRecommendsCompetitors() {
                 </thead>
                 <tbody className="divide-y divide-white/[0.05]">
                   <tr>
-                    <td className="px-6 py-4 font-medium text-[#f27d24]">Expert Clarity</td>
+                    <td className="px-6 py-4 font-medium text-white">Expert Clarity</td>
                     <td className="px-6 py-4 text-gray-300">Depth of knowledge demonstration</td>
                     <td className="px-6 py-4 text-gray-300">Document processes, not just services</td>
                   </tr>
                   <tr>
-                    <td className="px-6 py-4 font-medium text-[#f27d24]">Consistency</td>
+                    <td className="px-6 py-4 font-medium text-white">Consistency</td>
                     <td className="px-6 py-4 text-gray-300">Matching info across platforms</td>
                     <td className="px-6 py-4 text-gray-300">Audit all online profiles</td>
                   </tr>
                   <tr>
-                    <td className="px-6 py-4 font-medium text-[#f27d24]">Structure</td>
+                    <td className="px-6 py-4 font-medium text-white">Structure</td>
                     <td className="px-6 py-4 text-gray-300">Organized, scannable content</td>
                     <td className="px-6 py-4 text-gray-300">Use headings, FAQs, step-by-step guides</td>
                   </tr>
                   <tr>
-                    <td className="px-6 py-4 font-medium text-[#f27d24]">Safety</td>
+                    <td className="px-6 py-4 font-medium text-white">Safety</td>
                     <td className="px-6 py-4 text-gray-300">Verified credentials & realistic claims</td>
                     <td className="px-6 py-4 text-gray-300">Include licenses, avoid exaggeration</td>
                   </tr>
                   <tr>
-                    <td className="px-6 py-4 font-medium text-[#f27d24]">Depth</td>
+                    <td className="px-6 py-4 font-medium text-white">Depth</td>
                     <td className="px-6 py-4 text-gray-300">Explanations beyond surface marketing</td>
                     <td className="px-6 py-4 text-gray-300">Answer the "how" and "why" questions</td>
                   </tr>
@@ -339,7 +338,7 @@ export default function WhyChatGPTRecommendsCompetitors() {
                 <li><strong className="text-white">Structure</strong> (headings, FAQs, step-by-step content)</li>
               </ul>
 
-              <div className="bg-[#f27d24]/10 border-l-4 border-[#f27d24] p-6 rounded-r-xl mt-6">
+              <div className="bg-white/[0.04] border-l-4 border-white/[0.08] p-6 rounded-r-xl mt-6">
                 <p className="font-semibold text-white mb-2">Practical Takeaway:</p>
                 <p>If a human reading your website wouldn't immediately say, "Wow, this person knows exactly what they're doing," ChatGPT won't say it either.</p>
               </div>
@@ -347,7 +346,7 @@ export default function WhyChatGPTRecommendsCompetitors() {
           </section>
 
           {/* Separator */}
-          <div className="max-w-xs mx-auto h-px bg-gradient-to-r from-transparent via-white/10 to-transparent mb-16" />
+          <div className="max-w-xs mx-auto h-px bg-gradient-to-r from-transparent via-white/[0.06] to-transparent mb-16" />
 
           {/* Section 2: 7 Biggest Reasons */}
           <section className="mb-16">
@@ -355,8 +354,8 @@ export default function WhyChatGPTRecommendsCompetitors() {
               What Are the 7 Biggest Reasons ChatGPT Recommends Your Competitors?
             </h2>
 
-            <div className="bg-white/[0.03] border-l-4 border-[#362478]/50 p-6 rounded-r-xl mb-8">
-              <p className="text-[#a89bd9] font-semibold mb-2">Direct Answer:</p>
+            <div className="bg-white/[0.03] border-l-4 border-white/[0.08]/50 p-6 rounded-r-xl mb-8">
+              <p className="text-white/40 font-semibold mb-2">Direct Answer:</p>
               <p className="text-gray-300 leading-relaxed">
                 The main reasons competitors appear instead of you include: missing expertise content, unclear service pages, weak niche positioning, inconsistent online information, outdated websites, thin authority signals, and lack of structured FAQs. These gaps make ChatGPT view competitors as more trustworthy options.
               </p>
@@ -405,8 +404,8 @@ export default function WhyChatGPTRecommendsCompetitors() {
                   className="bg-white/[0.03] border border-white/[0.08] rounded-xl p-6 hover:border-white/[0.15] transition-all"
                 >
                   <div className="flex items-start gap-4">
-                    <div className="flex-shrink-0 w-10 h-10 rounded-lg bg-[#f27d24]/20 border border-[#f27d24]/30 flex items-center justify-center">
-                      <span className="text-[#f27d24] font-bold">{reason.number}</span>
+                    <div className="flex-shrink-0 w-10 h-10 rounded-lg bg-white/20 border border-white/[0.08] flex items-center justify-center">
+                      <span className="text-white font-bold">{reason.number}</span>
                     </div>
                     <div>
                       <h3 className="text-xl font-semibold text-white mb-2">{reason.title}</h3>
@@ -419,7 +418,7 @@ export default function WhyChatGPTRecommendsCompetitors() {
           </section>
 
           {/* Separator */}
-          <div className="max-w-xs mx-auto h-px bg-gradient-to-r from-transparent via-white/10 to-transparent mb-16" />
+          <div className="max-w-xs mx-auto h-px bg-gradient-to-r from-transparent via-white/[0.06] to-transparent mb-16" />
 
           {/* FAQ Section */}
           <section className="mb-16">
@@ -466,10 +465,10 @@ export default function WhyChatGPTRecommendsCompetitors() {
           </section>
 
           {/* Separator */}
-          <div className="max-w-xs mx-auto h-px bg-gradient-to-r from-transparent via-white/10 to-transparent mb-16" />
+          <div className="max-w-xs mx-auto h-px bg-gradient-to-r from-transparent via-white/[0.06] to-transparent mb-16" />
 
           {/* CTA Section */}
-          <section className="mb-16 bg-gradient-to-br from-[#f27d24]/10 to-[#d66d1f]/10 border-2 border-[#f27d24]/30 rounded-3xl p-12 text-center hover:-translate-y-1 transition-all">
+          <section className="mb-16 bg-gradient-to-br from-white/[0.02] to-white/[0.02] border-2 border-white/[0.08] rounded-3xl p-12 text-center hover:-translate-y-1 transition-all">
             <h2 className="text-3xl sm:text-4xl font-semibold mb-6 text-white">
               Ready to Shift AI Citations to Your Business?
             </h2>
@@ -480,7 +479,7 @@ export default function WhyChatGPTRecommendsCompetitors() {
             
             <a 
               href="/#contact"
-              className="inline-flex items-center justify-center gap-3 px-10 py-5 rounded-xl text-lg font-semibold text-white transition-all shadow-[0_4px_24px_rgba(242,125,36,0.3)] hover:shadow-[0_8px_32px_rgba(242,125,36,0.4)] hover:-translate-y-0.5 bg-[#f27d24] hover:bg-[#d66d1f]"
+              className="inline-flex items-center justify-center gap-3 px-10 py-5 rounded-xl text-lg font-semibold text-white transition-all  hover: hover:-translate-y-0.5 bg-white hover:bg-white"
             >
               Schedule Free Strategy Call
               <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={2}>

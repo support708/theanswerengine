@@ -254,7 +254,6 @@ export default function HowChatGPTChoosesBusiness() {
       
       <article className="min-h-screen bg-[#0F1117] relative overflow-hidden">
         {/* Gradient overlay */}
-        <div className="absolute inset-0 bg-gradient-to-b from-purple-950/5 via-transparent to-orange-950/5 pointer-events-none" />
         
         <div className="max-w-4xl mx-auto px-6 py-20 sm:py-32 relative">
           <Breadcrumb />
@@ -267,15 +266,15 @@ export default function HowChatGPTChoosesBusiness() {
               width={1200}
               height={630}
               priority
-              className="w-full"
+              className="w-full grayscale brightness-75"
             />
           </div>
 
           {/* Article Header */}
           <header className="mb-12">
-            <div className="inline-flex items-center gap-2 px-4 py-2 rounded-xl mb-6 bg-[#f27d24]/10 border border-[#f27d24]/20">
-              <div className="w-2 h-2 rounded-full bg-[#f27d24]" />
-              <span className="text-sm font-semibold tracking-wider uppercase text-[#f27d24]">AI Algorithm Series</span>
+            <div className="inline-flex items-center gap-2 px-4 py-2 rounded-xl mb-6 bg-white/[0.04] border border-white/[0.08]">
+              <div className="w-2 h-2 rounded-full bg-white" />
+              <span className="text-sm font-semibold tracking-wider uppercase text-white">AI Algorithm Series</span>
             </div>
 
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-semibold mb-6 leading-tight text-white">
@@ -285,13 +284,13 @@ export default function HowChatGPTChoosesBusiness() {
             <div className="flex items-center gap-4 text-sm text-gray-400 mb-8">
               <time dateTime="2025-11-21">November 21, 2025</time>
               <span>•</span>
-              <span>By <Link href="/about" className="text-[#f27d24] hover:text-[#d66d1f] transition-colors">JB</Link></span>
+              <span>By <Link href="/about" className="text-white hover:text-white transition-colors">JB</Link></span>
               <span>•</span>
               <span>38 min read</span>
             </div>
 
             {/* Featured Snippet */}
-            <div className="bg-[#f27d24]/10 border-l-4 border-[#f27d24] p-6 rounded-r-xl">
+            <div className="bg-white/[0.04] border-l-4 border-white/[0.08] p-6 rounded-r-xl">
               <p className="text-lg text-gray-300 leading-relaxed">
                 ChatGPT chooses businesses to recommend by evaluating expertise, content depth, local authority, and trust signals across seven core dimensions. It prioritizes companies that explain their processes clearly, demonstrate verifiable knowledge, and publish comprehensive educational content. Unlike Google, ChatGPT analyzes meaning and expertise—not keywords—to identify the most reliable businesses to recommend.
               </p>
@@ -314,7 +313,7 @@ export default function HowChatGPTChoosesBusiness() {
           </section>
 
           {/* Separator */}
-          <div className="max-w-xs mx-auto h-px bg-gradient-to-r from-transparent via-white/10 to-transparent mb-16" />
+          <div className="max-w-xs mx-auto h-px bg-gradient-to-r from-transparent via-white/[0.06] to-transparent mb-16" />
 
           {/* Section 1: How ChatGPT Processes Information */}
           <section className="mb-16">
@@ -322,8 +321,8 @@ export default function HowChatGPTChoosesBusiness() {
               How ChatGPT Processes Information to Make Business Recommendations
             </h2>
 
-            <div className="bg-white/[0.03] border-l-4 border-[#362478]/50 p-6 rounded-r-xl mb-8">
-              <p className="text-[#a89bd9] font-semibold mb-2">Direct Answer:</p>
+            <div className="bg-white/[0.03] border-l-4 border-white/[0.08]/50 p-6 rounded-r-xl mb-8">
+              <p className="text-white/40 font-semibold mb-2">Direct Answer:</p>
               <p className="text-gray-300 leading-relaxed">
                 ChatGPT makes recommendations by combining pre-trained knowledge with real-time web browsing. It analyzes content quality, clarity, depth, and expertise markers, then synthesizes information from multiple trusted sources to identify credible businesses. Recommendations are based on perceived expertise and user safety—not paid listings, backlinks, or traditional SEO signals.
               </p>
@@ -351,7 +350,7 @@ export default function HowChatGPTChoosesBusiness() {
 
               <p>There is no paid placement system, no bidding mechanism, and no way to "buy" your way into recommendations. Everything is based on perceived expertise and reliability as determined by content analysis.</p>
 
-              <div className="bg-[#362478]/10 border-l-4 border-[#362478] p-6 rounded-r-xl mt-6">
+              <div className="bg-white/[0.04] border-l-4 border-white/[0.08] p-6 rounded-r-xl mt-6">
                 <p className="font-semibold text-white mb-2">Testing Note:</p>
                 <p>Through extensive testing across local services, we found that businesses with comprehensive educational articles (1,500+ words) were cited significantly more frequently than businesses with only basic service pages. Content depth matters enormously.</p>
               </div>
@@ -359,7 +358,7 @@ export default function HowChatGPTChoosesBusiness() {
           </section>
 
           {/* Separator */}
-          <div className="max-w-xs mx-auto h-px bg-gradient-to-r from-transparent via-white/10 to-transparent mb-16" />
+          <div className="max-w-xs mx-auto h-px bg-gradient-to-r from-transparent via-white/[0.06] to-transparent mb-16" />
 
           {/* Section 2: The 7 Core Signals */}
           <section className="mb-16">
@@ -367,14 +366,14 @@ export default function HowChatGPTChoosesBusiness() {
               The 7 Core Signals ChatGPT Evaluates When Choosing Businesses
             </h2>
 
-            <div className="bg-white/[0.03] border-l-4 border-[#362478]/50 p-6 rounded-r-xl mb-8">
-              <p className="text-[#a89bd9] font-semibold mb-2">Direct Answer:</p>
+            <div className="bg-white/[0.03] border-l-4 border-white/[0.08]/50 p-6 rounded-r-xl mb-8">
+              <p className="text-white/40 font-semibold mb-2">Direct Answer:</p>
               <p className="text-gray-300 leading-relaxed">
                 ChatGPT evaluates seven primary signals: content depth and comprehensiveness, authentic expertise markers, structured information architecture, entity recognition and consistency, educational value over marketing language, local authority indicators, and trust/transparency signals. Businesses that score highly across all seven dimensions—particularly those demonstrating verifiable expertise through detailed process explanations—are significantly more likely to earn recommendations.
               </p>
             </div>
 
-            <div className="bg-[#f27d24]/10 border border-[#f27d24]/20 p-6 rounded-xl mb-8">
+            <div className="bg-white/[0.04] border border-white/[0.08] p-6 rounded-xl mb-8">
               <p className="text-white font-semibold">
                 These seven signals form The Answer Engine's proprietary AERO-7 Framework, developed through extensive testing and continuous monitoring of AI platform citations.
               </p>
@@ -405,7 +404,7 @@ export default function HowChatGPTChoosesBusiness() {
                   <p className="font-semibold text-white mb-3">Example:</p>
                   <p className="mb-3">A generic HVAC page says: "We install ductless mini-splits. Call for a free quote!"</p>
                   <p className="mb-3">An expert-level page explains: "Ductless mini-split installation in older homes requires specific considerations for electrical capacity (typically 240V/20A minimum), wall structure assessment to support indoor units (12-15 lbs each), and condensate drainage planning. In Pasadena's historic Craftsman homes, we often encounter plaster-on-lath walls requiring specialized mounting techniques..."</p>
-                  <p className="text-[#f27d24] font-semibold">ChatGPT recognizes the second example as genuine expertise.</p>
+                  <p className="text-white font-semibold">ChatGPT recognizes the second example as genuine expertise.</p>
                 </div>
               </div>
             </div>
@@ -570,37 +569,37 @@ export default function HowChatGPTChoosesBusiness() {
                 </thead>
                 <tbody className="divide-y divide-white/[0.05]">
                   <tr>
-                    <td className="px-6 py-4 font-medium text-[#f27d24]">Content Depth</td>
+                    <td className="px-6 py-4 font-medium text-white">Content Depth</td>
                     <td className="px-6 py-4 text-gray-300">Word count, topic coverage, detail level</td>
                     <td className="px-6 py-4 text-gray-300">"This business understands its field deeply"</td>
                   </tr>
                   <tr>
-                    <td className="px-6 py-4 font-medium text-[#f27d24]">Expertise Markers</td>
+                    <td className="px-6 py-4 font-medium text-white">Expertise Markers</td>
                     <td className="px-6 py-4 text-gray-300">Technical specificity, process knowledge</td>
                     <td className="px-6 py-4 text-gray-300">"Only a real expert would write this"</td>
                   </tr>
                   <tr>
-                    <td className="px-6 py-4 font-medium text-[#f27d24]">Information Structure</td>
+                    <td className="px-6 py-4 font-medium text-white">Information Structure</td>
                     <td className="px-6 py-4 text-gray-300">Schema markup, heading hierarchy</td>
                     <td className="px-6 py-4 text-gray-300">"I can extract this information safely"</td>
                   </tr>
                   <tr>
-                    <td className="px-6 py-4 font-medium text-[#f27d24]">Entity Clarity</td>
+                    <td className="px-6 py-4 font-medium text-white">Entity Clarity</td>
                     <td className="px-6 py-4 text-gray-300">NAP consistency, business identity</td>
                     <td className="px-6 py-4 text-gray-300">"This is a trustworthy, verifiable entity"</td>
                   </tr>
                   <tr>
-                    <td className="px-6 py-4 font-medium text-[#f27d24]">Educational Value</td>
+                    <td className="px-6 py-4 font-medium text-white">Educational Value</td>
                     <td className="px-6 py-4 text-gray-300">Teaching vs selling ratio</td>
                     <td className="px-6 py-4 text-gray-300">"This content helps the user make decisions"</td>
                   </tr>
                   <tr>
-                    <td className="px-6 py-4 font-medium text-[#f27d24]">Local Authority</td>
+                    <td className="px-6 py-4 font-medium text-white">Local Authority</td>
                     <td className="px-6 py-4 text-gray-300">Geographic specificity, local knowledge</td>
                     <td className="px-6 py-4 text-gray-300">"This is a genuine local expert"</td>
                   </tr>
                   <tr>
-                    <td className="px-6 py-4 font-medium text-[#f27d24]">Transparency</td>
+                    <td className="px-6 py-4 font-medium text-white">Transparency</td>
                     <td className="px-6 py-4 text-gray-300">Licenses, realistic timelines, limitations</td>
                     <td className="px-6 py-4 text-gray-300">"Low risk to recommend this business"</td>
                   </tr>
@@ -610,7 +609,7 @@ export default function HowChatGPTChoosesBusiness() {
           </section>
 
           {/* Separator */}
-          <div className="max-w-xs mx-auto h-px bg-gradient-to-r from-transparent via-white/10 to-transparent mb-16" />
+          <div className="max-w-xs mx-auto h-px bg-gradient-to-r from-transparent via-white/[0.06] to-transparent mb-16" />
 
           {/* Section 3: ChatGPT vs Google */}
           <section className="mb-16">
@@ -618,8 +617,8 @@ export default function HowChatGPTChoosesBusiness() {
               ChatGPT vs Google: Why Traditional SEO Tactics Don't Work for AI Recommendations
             </h2>
 
-            <div className="bg-white/[0.03] border-l-4 border-[#362478]/50 p-6 rounded-r-xl mb-8">
-              <p className="text-[#a89bd9] font-semibold mb-2">Direct Answer:</p>
+            <div className="bg-white/[0.03] border-l-4 border-white/[0.08]/50 p-6 rounded-r-xl mb-8">
+              <p className="text-white/40 font-semibold mb-2">Direct Answer:</p>
               <p className="text-gray-300 leading-relaxed">
                 Google ranks pages based on backlinks, domain authority, keywords, and user behavior signals. ChatGPT evaluates content meaning, expertise depth, clarity, and trustworthiness through direct content analysis. Google displays hundreds of results allowing users to choose; ChatGPT selects 3-5 recommendations it trusts. This fundamental difference makes traditional SEO tactics ineffective for AI citations.
               </p>
@@ -637,32 +636,32 @@ export default function HowChatGPTChoosesBusiness() {
                 </thead>
                 <tbody className="divide-y divide-white/[0.05]">
                   <tr>
-                    <td className="px-6 py-4 font-medium text-[#f27d24]">Primary Signal</td>
+                    <td className="px-6 py-4 font-medium text-white">Primary Signal</td>
                     <td className="px-6 py-4 text-gray-300">Backlinks + Domain Authority</td>
                     <td className="px-6 py-4 text-gray-300">Expertise + Content Quality</td>
                   </tr>
                   <tr>
-                    <td className="px-6 py-4 font-medium text-[#f27d24]">Keyword Importance</td>
+                    <td className="px-6 py-4 font-medium text-white">Keyword Importance</td>
                     <td className="px-6 py-4 text-gray-300">Critical - exact match matters</td>
                     <td className="px-6 py-4 text-gray-300">Irrelevant - semantic meaning matters</td>
                   </tr>
                   <tr>
-                    <td className="px-6 py-4 font-medium text-[#f27d24]">Content Style</td>
+                    <td className="px-6 py-4 font-medium text-white">Content Style</td>
                     <td className="px-6 py-4 text-gray-300">Keyword-optimized, SEO-focused</td>
                     <td className="px-6 py-4 text-gray-300">Natural language, educational</td>
                   </tr>
                   <tr>
-                    <td className="px-6 py-4 font-medium text-[#f27d24]">Manipulation</td>
+                    <td className="px-6 py-4 font-medium text-white">Manipulation</td>
                     <td className="px-6 py-4 text-gray-300">Possible through links/technical tricks</td>
                     <td className="px-6 py-4 text-gray-300">Nearly impossible to game</td>
                   </tr>
                   <tr>
-                    <td className="px-6 py-4 font-medium text-[#f27d24]">Paid Influence</td>
+                    <td className="px-6 py-4 font-medium text-white">Paid Influence</td>
                     <td className="px-6 py-4 text-gray-300">Ads available, pay-per-click</td>
                     <td className="px-6 py-4 text-gray-300">No paid placement exists</td>
                   </tr>
                   <tr>
-                    <td className="px-6 py-4 font-medium text-[#f27d24]">Results Display</td>
+                    <td className="px-6 py-4 font-medium text-white">Results Display</td>
                     <td className="px-6 py-4 text-gray-300">100+ organic results per query</td>
                     <td className="px-6 py-4 text-gray-300">3-5 selected recommendations</td>
                   </tr>
@@ -694,7 +693,7 @@ export default function HowChatGPTChoosesBusiness() {
           </section>
 
           {/* Separator */}
-          <div className="max-w-xs mx-auto h-px bg-gradient-to-r from-transparent via-white/10 to-transparent mb-16" />
+          <div className="max-w-xs mx-auto h-px bg-gradient-to-r from-transparent via-white/[0.06] to-transparent mb-16" />
 
           {/* Section 4: Multi-Platform */}
           <section className="mb-16">
@@ -702,8 +701,8 @@ export default function HowChatGPTChoosesBusiness() {
               Multi-Platform AI Optimization: ChatGPT, Claude, Gemini, and Perplexity
             </h2>
 
-            <div className="bg-white/[0.03] border-l-4 border-[#362478]/50 p-6 rounded-r-xl mb-8">
-              <p className="text-[#a89bd9] font-semibold mb-2">Direct Answer:</p>
+            <div className="bg-white/[0.03] border-l-4 border-white/[0.08]/50 p-6 rounded-r-xl mb-8">
+              <p className="text-white/40 font-semibold mb-2">Direct Answer:</p>
               <p className="text-gray-300 leading-relaxed">
                 ChatGPT, Claude, Gemini, and Perplexity all evaluate content expertise and quality, but each platform weighs signals differently. ChatGPT excels at contextual synthesis, Claude prioritizes careful source citation, Gemini integrates Google's ecosystem data, and Perplexity emphasizes real-time citations. Despite differences, all platforms reward clear, educational, expert-level content with consistent business information and proper structure.
               </p>
@@ -776,7 +775,7 @@ export default function HowChatGPTChoosesBusiness() {
           </section>
 
           {/* Separator */}
-          <div className="max-w-xs mx-auto h-px bg-gradient-to-r from-transparent via-white/10 to-transparent mb-16" />
+          <div className="max-w-xs mx-auto h-px bg-gradient-to-r from-transparent via-white/[0.06] to-transparent mb-16" />
 
           {/* FAQ Section */}
           <section className="mb-16">
@@ -831,10 +830,10 @@ export default function HowChatGPTChoosesBusiness() {
           </section>
 
           {/* Separator */}
-          <div className="max-w-xs mx-auto h-px bg-gradient-to-r from-transparent via-white/10 to-transparent mb-16" />
+          <div className="max-w-xs mx-auto h-px bg-gradient-to-r from-transparent via-white/[0.06] to-transparent mb-16" />
 
           {/* CTA Section */}
-          <section className="mb-16 bg-gradient-to-br from-[#f27d24]/10 to-[#d66d1f]/10 border-2 border-[#f27d24]/30 rounded-3xl p-12 text-center hover:-translate-y-1 transition-all">
+          <section className="mb-16 bg-gradient-to-br from-white/[0.02] to-white/[0.02] border-2 border-white/[0.08] rounded-3xl p-12 text-center hover:-translate-y-1 transition-all">
             <h2 className="text-3xl sm:text-4xl font-semibold mb-6 text-white">
               Ready to Get Your Business Cited by ChatGPT?
             </h2>
@@ -845,7 +844,7 @@ export default function HowChatGPTChoosesBusiness() {
             
             <a 
               href="/#contact"
-              className="inline-flex items-center justify-center gap-3 px-10 py-5 rounded-xl text-lg font-semibold text-white transition-all shadow-[0_4px_24px_rgba(242,125,36,0.3)] hover:shadow-[0_8px_32px_rgba(242,125,36,0.4)] hover:-translate-y-0.5 bg-[#f27d24] hover:bg-[#d66d1f]"
+              className="inline-flex items-center justify-center gap-3 px-10 py-5 rounded-xl text-lg font-semibold text-white transition-all  hover: hover:-translate-y-0.5 bg-white hover:bg-white"
             >
               Schedule Free Strategy Call
               <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={2}>

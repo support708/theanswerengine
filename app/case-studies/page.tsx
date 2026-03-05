@@ -66,24 +66,22 @@ function AnimatedStat({
   label,
   sublabel,
   isInView,
-  gradient = "from-[#f27d24] to-[#d66d1f]"
 }: {
   value: number;
   suffix?: string;
   label: string;
   sublabel?: string;
   isInView: boolean;
-  gradient?: string;
 }) {
   const count = useCountAnimation(value, 2000, isInView);
 
   return (
     <div className="text-center">
-      <div className={`text-4xl sm:text-5xl lg:text-6xl font-semibold mb-3 text-transparent bg-clip-text bg-gradient-to-r ${gradient} font-heading`}>
+      <div className="text-4xl sm:text-5xl lg:text-6xl font-semibold mb-3 text-white font-heading">
         {count.toLocaleString()}{suffix}
       </div>
       <div className="text-white font-medium text-sm sm:text-base mb-1">{label}</div>
-      {sublabel && <div className="text-gray-500 text-xs sm:text-sm">{sublabel}</div>}
+      {sublabel && <div className="text-white/30 text-xs sm:text-sm">{sublabel}</div>}
     </div>
   );
 }
@@ -103,14 +101,14 @@ export default function CaseStudies() {
 
         *:focus-visible {
           outline: none;
-          box-shadow: 0 0 0 2px #0F1117, 0 0 0 4px #f27d24;
+          box-shadow: 0 0 0 2px #0F1117, 0 0 0 4px rgba(255,255,255,0.4);
           border-radius: 8px;
           transition: box-shadow 200ms var(--ease-out-quart);
         }
 
         button:focus-visible, a:focus-visible {
           outline: none;
-          box-shadow: 0 0 0 2px #0F1117, 0 0 0 4px #f27d24, 0 0 20px rgba(242, 125, 36, 0.3);
+          box-shadow: 0 0 0 2px #0F1117, 0 0 0 4px rgba(255,255,255,0.4);
         }
 
         .font-heading {
@@ -196,14 +194,13 @@ export default function CaseStudies() {
       />
 
       <main className="min-h-screen bg-[#0F1117] relative">
-        <div className="absolute inset-0 bg-gradient-to-b from-purple-950/5 via-transparent to-orange-950/5 pointer-events-none" />
 
         <div className="max-w-6xl mx-auto px-6 py-16 sm:py-24 relative">
           {/* Back to Home */}
           <div className="flex justify-center mb-8">
             <Link
               href="/"
-              className="inline-flex items-center gap-2 text-gray-500 hover:text-gray-300 transition-colors text-sm"
+              className="inline-flex items-center gap-2 text-white/30 hover:text-white/60 transition-colors text-sm"
             >
               <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={2} aria-hidden="true">
                 <path strokeLinecap="round" strokeLinejoin="round" d="M10.5 19.5L3 12m0 0l7.5-7.5M3 12h18" />
@@ -226,14 +223,11 @@ export default function CaseStudies() {
               </Link>
             </div>
 
-            <div className="inline-flex items-center gap-2 px-4 py-2 rounded-xl mb-6 bg-[#f27d24]/10 border border-[#f27d24]/20">
-              <div className="w-2 h-2 bg-[#f27d24] rounded-full" />
-              <span className="text-sm font-semibold tracking-wider uppercase text-[#f27d24]">Proven Results</span>
-            </div>
+            <span className="text-sm font-medium tracking-widest uppercase text-white/30 mb-6 block">Proven Results</span>
 
             <h1 className="text-3xl sm:text-4xl lg:text-5xl font-semibold mb-6 leading-tight text-white font-heading">
               <span className="block">Real Businesses. Real AI Citations.</span>
-              <span className="block text-transparent bg-clip-text bg-gradient-to-r from-[#f27d24] to-[#d66d1f]">Real Results.</span>
+              <span className="block text-white">Real Results.</span>
             </h1>
 
             <p className="text-lg sm:text-xl text-gray-400 max-w-3xl mx-auto leading-relaxed">
@@ -267,7 +261,6 @@ export default function CaseStudies() {
                     label="Search Queries Captured"
                     sublabel="High-intent local searches"
                     isInView={statsInView}
-                    gradient="from-[#362478] to-[#2a1a5f]"
                   />
                 </div>
 
@@ -289,7 +282,7 @@ export default function CaseStudies() {
           </div>
 
           {/* Separator */}
-          <div className="max-w-xs mx-auto h-px bg-gradient-to-r from-transparent via-white/10 to-transparent mb-16 sm:mb-20" />
+          <div className="max-w-xs mx-auto h-px bg-gradient-to-r from-transparent via-white/[0.06] to-transparent mb-16 sm:mb-20" />
 
           {/* Case Study Card */}
           <article
@@ -298,7 +291,7 @@ export default function CaseStudies() {
               cardInView ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'
             }`}
           >
-            <div className="relative h-48 sm:h-56 bg-gradient-to-r from-[#362478]/40 to-[#f27d24]/40 backdrop-blur-xl border-b border-white/[0.08] flex items-center justify-center">
+            <div className="relative h-48 sm:h-56 bg-white/[0.04] backdrop-blur-xl border-b border-white/[0.08] flex items-center justify-center">
               <div className="absolute inset-0 bg-gradient-to-b from-transparent to-black/20" />
               <div className="text-center text-white relative z-10 px-6">
                 <div className="text-xs font-semibold mb-3 tracking-widest uppercase text-gray-300">
@@ -327,10 +320,10 @@ export default function CaseStudies() {
               {/* Results Grid */}
               <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-4 mb-10">
                 {[
-                  { value: '3,362', label: 'Monthly Clicks', sublabel: '100% organic', color: 'text-[#f27d24]' },
-                  { value: '1,000+', label: 'Queries Captured', sublabel: 'High-intent searches', color: 'text-[#362478]' },
-                  { value: '694', label: 'Page 1 Rankings', sublabel: '247 in top 3', color: 'text-[#f27d24]' },
-                  { value: '$0', label: 'Ad Spend', sublabel: 'Zero paid ads', color: 'text-emerald-400' }
+                  { value: '8,400+', label: 'Monthly Clicks', sublabel: '100% organic', color: 'text-white' },
+                  { value: '1,000+', label: 'Queries Captured', sublabel: 'High-intent searches', color: 'text-white' },
+                  { value: '1.1M+', label: 'Monthly Impressions', sublabel: '~38K/day average', color: 'text-white' },
+                  { value: '$0', label: 'Ad Spend', sublabel: 'Zero paid ads', color: 'text-white' }
                 ].map((stat, i) => (
                   <div key={i} className="bg-white/[0.03] backdrop-blur-xl border border-white/[0.08] rounded-xl p-4 sm:p-5 text-center">
                     <div className={`text-2xl sm:text-3xl font-semibold ${stat.color} mb-2 font-heading`}>{stat.value}</div>
@@ -341,14 +334,14 @@ export default function CaseStudies() {
               </div>
 
               {/* Testimonial */}
-              <div className="relative p-6 sm:p-8 rounded-2xl mb-10 bg-white/[0.03] backdrop-blur-xl border-l-4 border-[#f27d24]">
-                <svg className="absolute top-4 left-4 w-8 h-8 text-[#f27d24]/20" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+              <div className="relative p-6 sm:p-8 rounded-2xl mb-10 bg-white/[0.03] backdrop-blur-xl border-l-4 border-white/[0.08]">
+                <svg className="absolute top-4 left-4 w-8 h-8 text-white/10" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
                   <path d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h3.983v10h-9.983z"/>
                 </svg>
                 <p className="text-base sm:text-lg italic text-gray-300 leading-relaxed relative z-10 mb-4 pl-6 sm:pl-0">
                   "15 years in LA real estate, but online I was invisible. Now I'm getting over 3,000 clicks a month without spending a dime on ads. But the real change? <span className="text-white font-medium">Lead quality.</span> People trust my expertise and need MY help specifically."
                 </p>
-                <div className="font-semibold text-[#f27d24] relative z-10 pl-6 sm:pl-0">
+                <div className="font-semibold text-white/40 relative z-10 pl-6 sm:pl-0">
                   - Justin Borges, The Borges Real Estate Team
                 </div>
               </div>
@@ -356,7 +349,7 @@ export default function CaseStudies() {
               <div className="text-center">
                 <Link
                   href="/case-studies/justin-borges"
-                  className="inline-flex items-center justify-center gap-3 px-8 py-4 rounded-xl text-base sm:text-lg font-semibold text-white transition-all duration-300 shadow-[0_4px_24px_rgba(242,125,36,0.3)] hover:shadow-[0_8px_32px_rgba(242,125,36,0.4)] hover:-translate-y-0.5 active:scale-[0.98] bg-[#f27d24] hover:bg-[#d66d1f]"
+                  className="inline-flex items-center justify-center gap-3 px-8 py-4 rounded-xl text-base sm:text-lg font-semibold text-[#0F1117] transition-all duration-300 hover:-translate-y-0.5 active:scale-[0.98] bg-white hover:bg-white/90"
                 >
                   Read Full Case Study
                   <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={2} aria-hidden="true">
@@ -368,7 +361,7 @@ export default function CaseStudies() {
           </article>
 
           {/* Separator */}
-          <div className="max-w-xs mx-auto h-px bg-gradient-to-r from-transparent via-white/10 to-transparent mb-16 sm:mb-20" />
+          <div className="max-w-xs mx-auto h-px bg-gradient-to-r from-transparent via-white/[0.06] to-transparent mb-16 sm:mb-20" />
 
           {/* CTA */}
           <div
@@ -387,7 +380,7 @@ export default function CaseStudies() {
 
             <Link
               href="/#territory-check"
-              className="inline-flex items-center justify-center gap-3 px-8 sm:px-10 py-4 sm:py-5 rounded-xl text-base sm:text-lg font-semibold text-white transition-all duration-300 shadow-[0_4px_24px_rgba(54,36,120,0.3)] hover:shadow-[0_8px_32px_rgba(54,36,120,0.4)] hover:-translate-y-0.5 active:scale-[0.98] bg-[#362478] hover:bg-[#2a1a5f]"
+              className="inline-flex items-center justify-center gap-3 px-8 sm:px-10 py-4 sm:py-5 rounded-xl text-base sm:text-lg font-semibold text-[#0F1117] transition-all duration-300 hover:-translate-y-0.5 active:scale-[0.98] bg-white hover:bg-white/90"
             >
               <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={2} aria-hidden="true">
                 <path strokeLinecap="round" strokeLinejoin="round" d="M9 12.75L11.25 15 15 9.75m-3-7.036A11.959 11.959 0 013.598 6 11.99 11.99 0 003 9.749c0 5.592 3.824 10.29 9 11.623 5.176-1.332 9-6.03 9-11.622 0-1.31-.21-2.571-.598-3.751h-.152c-3.196 0-6.1-1.248-8.25-3.285z" />
@@ -400,7 +393,7 @@ export default function CaseStudies() {
           <div className="mt-12 text-center">
             <Link
               href="/"
-              className="inline-flex items-center gap-2 text-gray-500 hover:text-white transition-colors text-sm"
+              className="inline-flex items-center gap-2 text-white/30 hover:text-white/60 transition-colors text-sm"
             >
               <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={2} aria-hidden="true">
                 <path strokeLinecap="round" strokeLinejoin="round" d="M10.5 19.5L3 12m0 0l7.5-7.5M3 12h18" />

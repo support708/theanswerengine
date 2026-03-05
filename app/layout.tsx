@@ -2,7 +2,7 @@
 
 import { useState } from 'react';
 import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
+import { Geist, Geist_Mono, Plus_Jakarta_Sans, Inter } from "next/font/google";
 import Image from 'next/image';
 import { Analytics } from '@vercel/analytics/react';
 import { SpeedInsights } from '@vercel/speed-insights/next';
@@ -18,6 +18,18 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
+const plusJakarta = Plus_Jakarta_Sans({
+  variable: "--font-heading",
+  subsets: ["latin"],
+  weight: ["500", "600", "700"],
+});
+
+const inter = Inter({
+  variable: "--font-body",
+  subsets: ["latin"],
+  weight: ["400", "500", "600"],
+});
+
 export default function RootLayout({
   children,
 }: Readonly<{
@@ -30,11 +42,6 @@ export default function RootLayout({
       <head>
         <title>The Answer Engine - Answer Engine Optimization (AEO)</title>
         <meta name="description" content="Get your business cited by AI platforms like ChatGPT, Claude, Google AI Overviews, and Perplexity. Answer Engine Optimization for local service businesses." />
-
-        {/* Google Fonts - Plus Jakarta Sans for headings, Inter for body */}
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
-        <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
 
         {/* Favicon links for all platforms */}
         <link rel="icon" href="/favicon.ico" sizes="any" />
@@ -101,12 +108,12 @@ export default function RootLayout({
         />
       </head>
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased bg-[#0F1117]`}
+        className={`${geistSans.variable} ${geistMono.variable} ${plusJakarta.variable} ${inter.variable} antialiased bg-[#0F1117]`}
       >
         {/* Skip to main content link for accessibility */}
         <a
           href="#main-content"
-          className="sr-only focus:not-sr-only focus:absolute focus:top-4 focus:left-4 focus:z-[100] focus:px-4 focus:py-2 focus:bg-[#f27d24] focus:text-white focus:rounded-lg focus:outline-none"
+          className="sr-only focus:not-sr-only focus:absolute focus:top-4 focus:left-4 focus:z-[100] focus:px-4 focus:py-2 focus:bg-white focus:text-[#0F1117] focus:rounded-lg focus:outline-none"
         >
           Skip to main content
         </a>
@@ -120,16 +127,11 @@ export default function RootLayout({
                   alt="The Answer Engine"
                   width={160}
                   height={48}
-                  className="h-10 sm:h-12 w-auto transition-opacity group-hover:opacity-80"
+                  className="h-8 sm:h-9 w-auto opacity-90 group-hover:opacity-100 transition-opacity"
                 />
-                <div>
-                  <div className="text-base sm:text-xl font-medium text-white tracking-tight">
-                    The Answer Engine
-                  </div>
-                  <div className="text-[0.65rem] sm:text-xs text-orange-400 font-medium tracking-[0.15em] uppercase">
-                    Become the Answer
-                  </div>
-                </div>
+                <span className="text-[15px] font-semibold text-white/90 tracking-tight hidden sm:block">
+                  The Answer Engine
+                </span>
               </a>
               
               <div className="hidden md:flex items-center space-x-8">
@@ -163,9 +165,9 @@ export default function RootLayout({
                 >
                   Contact
                 </a>
-                <a 
-                  href="#contact" 
-                  className="bg-gradient-to-r from-orange-500 to-orange-600 text-white px-6 py-2 rounded-lg font-medium hover:from-orange-600 hover:to-orange-700 transition-all shadow-lg shadow-orange-500/25"
+                <a
+                  href="#contact"
+                  className="bg-white text-[#0F1117] px-5 py-2 rounded-lg text-sm font-semibold hover:bg-white/90 transition-all"
                 >
                   Get Started
                 </a>
@@ -227,10 +229,10 @@ export default function RootLayout({
                   >
                     Contact
                   </a>
-                  <a 
-                    href="#contact" 
+                  <a
+                    href="#contact"
                     onClick={() => setMobileMenuOpen(false)}
-                    className="bg-gradient-to-r from-orange-500 to-orange-600 text-white px-6 py-3 rounded-lg font-medium hover:from-orange-600 hover:to-orange-700 transition-all shadow-lg shadow-orange-500/25 text-center"
+                    className="bg-white text-[#0F1117] px-6 py-3 rounded-lg font-semibold text-center hover:bg-white/90 transition-all"
                   >
                     Get Started
                   </a>
@@ -245,71 +247,39 @@ export default function RootLayout({
         </main>
 
         <section id="contact" className="bg-[#0F1117] py-20 sm:py-32 relative">
-          <div className="absolute inset-0 bg-gradient-to-b from-purple-950/10 via-transparent to-orange-950/10 pointer-events-none" />
           
           <div className="max-w-4xl mx-auto px-6 relative">
-            <div className="flex justify-center gap-2 mb-12">
-              <div className="w-1.5 h-1.5 bg-orange-500" />
-              <div className="w-1.5 h-1.5 bg-purple-500" />
-              <div className="w-1.5 h-1.5 bg-orange-500" />
-            </div>
-
             <header className="text-center mb-20">
-              <h2 className="text-4xl sm:text-5xl lg:text-6xl font-light mb-8 leading-tight tracking-tight text-gray-100 font-heading">
-                Get Started with<br />
-                <span className="font-normal text-white">Answer Engine Optimization</span>
+              <p className="text-sm text-white/30 uppercase tracking-widest mb-6">Contact</p>
+              <h2 className="text-3xl sm:text-4xl lg:text-5xl font-semibold mb-6 leading-tight tracking-tight text-white font-heading">
+                Get started
               </h2>
-              
-              <p className="text-xl text-gray-300 max-w-2xl mx-auto leading-relaxed font-light">
-                Ready to dominate AI search? Let's discuss how to get your business cited by ChatGPT, Claude, Google AI Overviews, and Perplexity.
+              <p className="text-lg text-white/40 max-w-lg mx-auto leading-relaxed">
+                Let&apos;s discuss how to get your business cited by AI platforms.
               </p>
             </header>
 
             <div className="grid sm:grid-cols-2 gap-6 mb-20">
-              <div className="bg-white/[0.03] backdrop-blur-xl border border-white/[0.08] rounded-2xl p-10 hover:border-white/[0.12] transition-all group">
+              <div className="border border-white/[0.06] rounded-2xl p-10 hover:border-white/[0.10] transition-all">
                 <div className="text-center">
-                  <div className="inline-flex items-center justify-center w-16 h-16 rounded-xl mb-6 bg-gradient-to-br from-orange-500/10 to-orange-600/10 border border-orange-500/20 group-hover:border-orange-500/40 transition-colors">
-                    <svg className="w-8 h-8 text-orange-400" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={1.5}>
-                      <path strokeLinecap="round" strokeLinejoin="round" d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 002.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035 12.035 0 01-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 00-1.091-.852H4.5A2.25 2.25 0 002.25 4.5v2.25z" />
-                    </svg>
-                  </div>
-
-                  <h3 className="text-2xl font-medium mb-3 text-white font-heading">
-                    Call Us
-                  </h3>
-
-                  <p className="text-gray-400 text-sm mb-8">
-                    Speak with an AEO specialist
-                  </p>
-
+                  <h3 className="text-lg font-medium mb-2 text-white font-heading">Call</h3>
+                  <p className="text-white/30 text-sm mb-6">Speak with an AEO specialist</p>
                   <a
                     href="tel:+12134442229"
-                    className="inline-block text-3xl font-medium text-orange-400 hover:text-orange-300 transition-colors"
+                    className="inline-block text-2xl font-medium text-white hover:text-white/80 transition-colors"
                   >
                     (213) 444-2229
                   </a>
                 </div>
               </div>
 
-              <div className="bg-white/[0.03] backdrop-blur-xl border border-white/[0.08] rounded-2xl p-10 hover:border-white/[0.12] transition-all group">
+              <div className="border border-white/[0.06] rounded-2xl p-10 hover:border-white/[0.10] transition-all">
                 <div className="text-center">
-                  <div className="inline-flex items-center justify-center w-16 h-16 rounded-xl mb-6 bg-gradient-to-br from-purple-500/10 to-purple-600/10 border border-purple-500/20 group-hover:border-purple-500/40 transition-colors">
-                    <svg className="w-8 h-8 text-purple-400" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={1.5}>
-                      <path strokeLinecap="round" strokeLinejoin="round" d="M21.75 6.75v10.5a2.25 2.25 0 01-2.25 2.25h-15a2.25 2.25 0 01-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0019.5 4.5h-15a2.25 2.25 0 00-2.25 2.25m19.5 0v.243a2.25 2.25 0 01-1.07 1.916l-7.5 4.615a2.25 2.25 0 01-2.36 0L3.32 8.91a2.25 2.25 0 01-1.07-1.916V6.75" />
-                    </svg>
-                  </div>
-                  
-                  <h3 className="text-2xl font-medium mb-3 text-white font-heading">
-                    Email Us
-                  </h3>
-
-                  <p className="text-gray-400 text-sm mb-8">
-                    Get a response within 24 hours
-                  </p>
-                  
-                  <a 
+                  <h3 className="text-lg font-medium mb-2 text-white font-heading">Email</h3>
+                  <p className="text-white/30 text-sm mb-6">Response within 24 hours</p>
+                  <a
                     href="mailto:support@theanswerengine.ai"
-                    className="inline-block text-lg font-medium text-purple-400 hover:text-purple-300 transition-colors break-all"
+                    className="inline-block text-lg font-medium text-white/60 hover:text-white transition-colors break-all"
                   >
                     support@theanswerengine.ai
                   </a>
@@ -317,166 +287,96 @@ export default function RootLayout({
               </div>
             </div>
 
-            <div className="bg-white/[0.03] backdrop-blur-xl border border-white/[0.08] rounded-3xl p-12 sm:p-16">
-              <div className="text-center mb-12">
-                <div className="flex justify-center gap-1.5 mb-8">
-                  <div className="w-1 h-1 bg-orange-500/60" />
-                  <div className="w-1 h-1 bg-purple-500/60" />
-                  <div className="w-1 h-1 bg-orange-500/60" />
-                </div>
-
-                <h3 className="text-3xl sm:text-4xl lg:text-5xl font-light mb-6 text-gray-100 leading-tight font-heading">
-                  Schedule Your Free<br />
-                  <span className="font-normal text-white">30-Minute AEO Strategy Call</span>
+            <div className="border border-white/[0.06] rounded-2xl p-12 sm:p-16">
+              <div className="text-center mb-10">
+                <h3 className="text-2xl sm:text-3xl font-semibold mb-4 text-white font-heading tracking-tight">
+                  Free 30-minute strategy call
                 </h3>
-
-                <p className="text-lg text-gray-300 max-w-2xl mx-auto leading-relaxed">
-                  We'll analyze where you're losing to competitors in AI citations right now, identify your highest-value opportunities, and map out a 90-day plan to dominate AI recommendations in your market.
+                <p className="text-white/40 max-w-lg mx-auto leading-relaxed">
+                  We&apos;ll map where you&apos;re losing to competitors in AI citations and build your 90-day plan.
                 </p>
               </div>
 
-              <div className="space-y-4 mb-12 max-w-2xl mx-auto">
+              <div className="space-y-3 mb-10 max-w-md mx-auto">
                 {[
-                  "See exactly where you're losing to competitors in AI citations",
-                  "Identify your highest-value featured snippet opportunities",
-                  "90-day plan to dominate AI recommendations in your market"
+                  "See where competitors outrank you in AI citations",
+                  "Identify your highest-value opportunities",
+                  "Get a concrete 90-day implementation plan"
                 ].map((text, i) => (
-                  <div key={i} className="flex items-start gap-4 p-4 rounded-xl bg-white/[0.02] border border-white/[0.03] hover:border-white/[0.06] transition-colors">
-                    <div className="flex-shrink-0 w-6 h-6 rounded-lg flex items-center justify-center bg-gradient-to-br from-orange-500/20 to-purple-500/20 border border-orange-500/20 mt-0.5">
-                      <svg className="w-4 h-4 text-orange-400" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2.5}>
-                        <path strokeLinecap="round" strokeLinejoin="round" d="M5 13l4 4L19 7" />
-                      </svg>
-                    </div>
-                    <span className="text-gray-300 text-base leading-relaxed">{text}</span>
+                  <div key={i} className="flex items-start gap-3">
+                    <div className="w-1 h-1 rounded-full bg-white/30 mt-2.5 flex-shrink-0" />
+                    <span className="text-white/50 text-[15px]">{text}</span>
                   </div>
                 ))}
               </div>
 
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
-                <a 
+                <a
                   href="tel:+12134442229"
-                  className="inline-flex items-center justify-center gap-3 px-8 py-4 rounded-xl text-lg font-medium bg-gradient-to-r from-orange-500 to-orange-600 text-white hover:from-orange-600 hover:to-orange-700 transition-all shadow-lg shadow-orange-500/25 hover:shadow-xl hover:shadow-orange-500/40"
+                  className="inline-flex items-center justify-center gap-2 px-7 py-3.5 rounded-xl text-[15px] font-semibold bg-white text-[#0F1117] hover:bg-white/90 transition-all"
                 >
-                  <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={2}>
-                    <path strokeLinecap="round" strokeLinejoin="round" d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 002.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035 12.035 0 01-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 00-1.091-.852H4.5A2.25 2.25 0 002.25 4.5v2.25z" />
-                  </svg>
-                  Call Now: (213) 444-2229
+                  Call: (213) 444-2229
                 </a>
-                
-                <a 
+                <a
                   href="mailto:support@theanswerengine.ai"
-                  className="inline-flex items-center justify-center gap-3 px-8 py-4 rounded-xl text-lg font-medium bg-white/[0.05] text-gray-300 hover:bg-white/[0.08] border border-white/[0.1] hover:border-white/[0.2] transition-all"
+                  className="inline-flex items-center justify-center gap-2 px-7 py-3.5 rounded-xl text-[15px] font-medium text-white/60 hover:text-white border border-white/[0.08] hover:border-white/[0.15] transition-all"
                 >
-                  <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={2}>
-                    <path strokeLinecap="round" strokeLinejoin="round" d="M21.75 6.75v10.5a2.25 2.25 0 01-2.25 2.25h-15a2.25 2.25 0 01-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0019.5 4.5h-15a2.25 2.25 0 00-2.25 2.25m19.5 0v.243a2.25 2.25 0 01-1.07 1.916l-7.5 4.615a2.25 2.25 0 01-2.36 0L3.32 8.91a2.25 2.25 0 01-1.07-1.916V6.75" />
-                  </svg>
                   Email Us
                 </a>
               </div>
             </div>
 
-            <div className="mt-16 text-center">
-              <div className="inline-flex flex-col sm:flex-row items-center gap-6 text-sm text-gray-500">
-                <div className="flex items-center gap-2">
-                  <div className="w-1.5 h-1.5 rounded-full bg-orange-500/50" />
-                  <span><span className="text-gray-400 font-medium">Response Time:</span> Within 24 hours on business days</span>
-                </div>
-                <div className="hidden sm:block w-px h-4 bg-gray-800" />
-                <div className="flex items-center gap-2">
-                  <div className="w-1.5 h-1.5 rounded-full bg-purple-500/50" />
-                  <span><span className="text-gray-400 font-medium">Hours:</span> Monday - Friday, 9 AM - 6 PM PT</span>
-                </div>
-              </div>
+            <div className="mt-12 text-center">
+              <p className="text-sm text-white/20">
+                Mon-Fri, 9 AM - 6 PM PT. Response within 24 hours.
+              </p>
             </div>
           </div>
         </section>
 
-        <footer className="bg-[#0F1117] border-t border-white/[0.08] text-white py-16">
+        <footer className="border-t border-white/[0.06] text-white py-16">
           <div className="max-w-6xl mx-auto px-6">
-            <div className="flex justify-center gap-1.5 mb-12">
-              <div className="w-1 h-1 bg-orange-500/60" />
-              <div className="w-1 h-1 bg-purple-500/60" />
-              <div className="w-1 h-1 bg-orange-500/60" />
-            </div>
-
-            <div className="grid md:grid-cols-3 gap-12 mb-12">
-              <div>
+            <div className="flex flex-col md:flex-row justify-between items-start gap-12 mb-12">
+              <div className="max-w-sm">
                 <Image
                   src="/TheAnswerEngine_white logo only.png"
                   alt="The Answer Engine"
-                  width={160}
-                  height={48}
-                  className="h-12 w-auto mb-6 opacity-90"
+                  width={120}
+                  height={40}
+                  className="h-8 w-auto mb-4 opacity-60"
                 />
-                <p className="text-gray-400 text-sm leading-relaxed font-light">
-                  Answer Engine Optimization for local service businesses. Get cited by AI platforms instead of your competitors.
+                <p className="text-white/30 text-sm">
+                  Answer Engine Optimization for local service businesses.
                 </p>
               </div>
 
-              <div>
-                <h3 className="font-medium text-white mb-4 font-heading">Quick Links</h3>
-                <ul className="space-y-3 text-gray-400 text-sm">
-                  <li>
-                    <a href="/" className="hover:text-white transition-colors inline-flex items-center gap-2">
-                      <span className="w-1 h-1 bg-orange-500/40 rounded-full" />
-                      Home
-                    </a>
-                  </li>
-                  <li>
-                    <a href="/about" className="hover:text-white transition-colors inline-flex items-center gap-2">
-                      <span className="w-1 h-1 bg-orange-500/40 rounded-full" />
-                      About
-                    </a>
-                  </li>
-                  <li>
-                    <a href="/blog" className="hover:text-white transition-colors inline-flex items-center gap-2">
-                      <span className="w-1 h-1 bg-orange-500/40 rounded-full" />
-                      Blog
-                    </a>
-                  </li>
-                  <li>
-                    <a href="/case-studies" className="hover:text-white transition-colors inline-flex items-center gap-2">
-                      <span className="w-1 h-1 bg-orange-500/40 rounded-full" />
-                      Case Studies
-                    </a>
-                  </li>
-                  <li>
-                    <a href="#contact" className="hover:text-white transition-colors inline-flex items-center gap-2">
-                      <span className="w-1 h-1 bg-orange-500/40 rounded-full" />
-                      Contact
-                    </a>
-                  </li>
-                </ul>
-              </div>
-
-              <div>
-                <h3 className="font-medium text-white mb-4 font-heading">Get In Touch</h3>
-                <p className="text-gray-400 text-sm mb-6 font-light">
-                  Ready to dominate AI search?
-                </p>
-                <a 
-                  href="#contact" 
-                  className="inline-flex items-center justify-center px-6 py-3 rounded-lg font-medium bg-gradient-to-r from-orange-500 to-orange-600 text-white hover:from-orange-600 hover:to-orange-700 transition-all shadow-lg shadow-orange-500/25 text-sm"
-                >
-                  Schedule Strategy Call
-                </a>
+              <div className="grid grid-cols-2 gap-12">
+                <div>
+                  <h3 className="text-sm font-medium text-white/50 mb-4">Pages</h3>
+                  <ul className="space-y-3">
+                    <li><a href="/" className="text-sm text-white/30 hover:text-white/60 transition-colors">Home</a></li>
+                    <li><a href="/about" className="text-sm text-white/30 hover:text-white/60 transition-colors">About</a></li>
+                    <li><a href="/blog" className="text-sm text-white/30 hover:text-white/60 transition-colors">Blog</a></li>
+                    <li><a href="/case-studies" className="text-sm text-white/30 hover:text-white/60 transition-colors">Case Studies</a></li>
+                  </ul>
+                </div>
+                <div>
+                  <h3 className="text-sm font-medium text-white/50 mb-4">Connect</h3>
+                  <ul className="space-y-3">
+                    <li><a href="#contact" className="text-sm text-white/30 hover:text-white/60 transition-colors">Contact</a></li>
+                    <li><a href="https://www.linkedin.com/company/theanswerengine" target="_blank" rel="noopener noreferrer" className="text-sm text-white/30 hover:text-white/60 transition-colors">LinkedIn</a></li>
+                    <li><a href="https://instagram.com/theanswerengine" target="_blank" rel="noopener noreferrer" className="text-sm text-white/30 hover:text-white/60 transition-colors">Instagram</a></li>
+                  </ul>
+                </div>
               </div>
             </div>
 
-            <div className="flex justify-center gap-1 mb-8 opacity-20">
-              {[...Array(60)].map((_, i) => (
-                <div 
-                  key={i} 
-                  className="w-px h-px bg-gray-600"
-                />
-              ))}
-            </div>
-
-            <div className="text-center">
-              <p className="text-gray-500 text-sm font-light mb-4">&copy; {new Date().getFullYear()} The Answer Engine. All rights reserved.</p>
-              <div className="flex justify-center gap-6 text-xs text-gray-600">
-                <a href="/privacy" className="hover:text-gray-400 transition-colors">Privacy Policy</a>
-                <a href="/terms" className="hover:text-gray-400 transition-colors">Terms of Service</a>
+            <div className="h-px bg-white/[0.04] mb-8" />
+            <div className="flex flex-col sm:flex-row justify-between items-center gap-4">
+              <p className="text-sm text-white/20">&copy; {new Date().getFullYear()} The Answer Engine</p>
+              <div className="flex items-center gap-6">
+                <a href="/privacy" className="text-sm text-white/20 hover:text-white/40 transition-colors">Privacy</a>
+                <a href="/terms" className="text-sm text-white/20 hover:text-white/40 transition-colors">Terms</a>
               </div>
             </div>
           </div>

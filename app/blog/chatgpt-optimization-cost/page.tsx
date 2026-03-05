@@ -257,7 +257,6 @@ export default function ChatGPTOptimizationCost() {
       
       <article className="min-h-screen bg-[#0F1117] relative overflow-hidden">
         {/* Gradient overlay */}
-        <div className="absolute inset-0 bg-gradient-to-b from-purple-950/5 via-transparent to-orange-950/5 pointer-events-none" />
         
         <div className="max-w-4xl mx-auto px-6 py-20 sm:py-32 relative">
           <Breadcrumb />
@@ -270,15 +269,15 @@ export default function ChatGPTOptimizationCost() {
               width={1200}
               height={630}
               priority
-              className="w-full"
+              className="w-full grayscale brightness-75"
             />
           </div>
 
           {/* Article Header */}
           <header className="mb-12">
-            <div className="inline-flex items-center gap-2 px-4 py-2 rounded-xl mb-6 bg-[#f27d24]/10 border border-[#f27d24]/20">
-              <div className="w-2 h-2 rounded-full bg-[#f27d24]" />
-              <span className="text-sm font-semibold tracking-wider uppercase text-[#f27d24]">Pricing & Services</span>
+            <div className="inline-flex items-center gap-2 px-4 py-2 rounded-xl mb-6 bg-white/[0.04] border border-white/[0.08]">
+              <div className="w-2 h-2 rounded-full bg-white" />
+              <span className="text-sm font-semibold tracking-wider uppercase text-white">Pricing & Services</span>
             </div>
 
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-semibold mb-6 leading-tight text-white">
@@ -288,13 +287,13 @@ export default function ChatGPTOptimizationCost() {
             <div className="flex items-center gap-4 text-sm text-gray-400 mb-8">
               <time dateTime="2025-01-15">January 15, 2025</time>
               <span>•</span>
-              <span>By <Link href="/about" className="text-[#f27d24] hover:text-[#d66d1f] transition-colors">JB</Link></span>
+              <span>By <Link href="/about" className="text-white hover:text-white transition-colors">JB</Link></span>
               <span>•</span>
               <span>19 min read</span>
             </div>
 
             {/* Featured Snippet */}
-            <div className="bg-[#f27d24]/10 border-l-4 border-[#f27d24] p-6 rounded-r-xl">
+            <div className="bg-white/[0.04] border-l-4 border-white/[0.08] p-6 rounded-r-xl">
               <p className="text-lg text-gray-300 leading-relaxed">
                 ChatGPT optimization for local service businesses typically costs $1,500–$5,000+ as a one-time, upfront project. At The Answer Engine, our Answer Authority Foundation package is $2,997 (full upfront payment required) and includes 6 spoke articles, 1 hub article, and 90 days of monitoring. DIY approaches cost under $500 but require 4–8 months and 40–60 hours of work. Unlike traditional SEO agencies charging $2,000–$5,000 monthly, professional AEO is a one-time investment in evergreen content.
               </p>
@@ -317,7 +316,7 @@ export default function ChatGPTOptimizationCost() {
           </section>
 
           {/* Separator */}
-          <div className="max-w-xs mx-auto h-px bg-gradient-to-r from-transparent via-white/10 to-transparent mb-16" />
+          <div className="max-w-xs mx-auto h-px bg-gradient-to-r from-transparent via-white/[0.06] to-transparent mb-16" />
 
           {/* Section 1: Quick Pricing Overview */}
           <section className="mb-16">
@@ -325,8 +324,8 @@ export default function ChatGPTOptimizationCost() {
               ChatGPT Optimization Pricing: Quick Overview
             </h2>
 
-            <div className="bg-white/[0.03] border-l-4 border-[#362478]/50 p-6 rounded-r-xl mb-8">
-              <p className="text-[#a89bd9] font-semibold mb-2">Direct Answer:</p>
+            <div className="bg-white/[0.03] border-l-4 border-white/[0.08]/50 p-6 rounded-r-xl mb-8">
+              <p className="text-white/40 font-semibold mb-2">Direct Answer:</p>
               <p className="text-gray-300 leading-relaxed">
                 Professional ChatGPT optimization for local businesses ranges from $1,500 to $50,000+ depending on business size, competitive landscape, and coverage scope. Most small-to-medium local service businesses invest $2,997–$7,500 for foundational optimization. This is a one-time upfront investment, not a monthly subscription, and includes comprehensive content creation, technical implementation, and performance monitoring.
               </p>
@@ -345,25 +344,25 @@ export default function ChatGPTOptimizationCost() {
                 </thead>
                 <tbody className="divide-y divide-white/[0.05]">
                   <tr>
-                    <td className="px-6 py-4 font-medium text-[#f27d24]">DIY Optimization</td>
+                    <td className="px-6 py-4 font-medium text-white">DIY Optimization</td>
                     <td className="px-6 py-4 text-gray-300">$0–$500</td>
                     <td className="px-6 py-4 text-gray-300">4–8 months (40-60 hours)</td>
                     <td className="px-6 py-4 text-gray-300">Technical business owners with time</td>
                   </tr>
                   <tr>
-                    <td className="px-6 py-4 font-medium text-[#f27d24]">Foundation Package</td>
+                    <td className="px-6 py-4 font-medium text-white">Foundation Package</td>
                     <td className="px-6 py-4 text-gray-300">$2,997</td>
                     <td className="px-6 py-4 text-gray-300">6 weeks (professional delivery)</td>
                     <td className="px-6 py-4 text-gray-300">Single-specialty local businesses</td>
                   </tr>
                   <tr>
-                    <td className="px-6 py-4 font-medium text-[#f27d24]">Multi-Hub Package</td>
+                    <td className="px-6 py-4 font-medium text-white">Multi-Hub Package</td>
                     <td className="px-6 py-4 text-gray-300">$5,394–$8,988</td>
                     <td className="px-6 py-4 text-gray-300">10–24 weeks</td>
                     <td className="px-6 py-4 text-gray-300">Multi-specialty businesses</td>
                   </tr>
                   <tr>
-                    <td className="px-6 py-4 font-medium text-[#f27d24]">Enterprise Package</td>
+                    <td className="px-6 py-4 font-medium text-white">Enterprise Package</td>
                     <td className="px-6 py-4 text-gray-300">$25,000–$50,000+</td>
                     <td className="px-6 py-4 text-gray-300">6+ months (ongoing)</td>
                     <td className="px-6 py-4 text-gray-300">Multi-location, franchise operations</td>
@@ -390,7 +389,7 @@ export default function ChatGPTOptimizationCost() {
           </section>
 
           {/* Separator */}
-          <div className="max-w-xs mx-auto h-px bg-gradient-to-r from-transparent via-white/10 to-transparent mb-16" />
+          <div className="max-w-xs mx-auto h-px bg-gradient-to-r from-transparent via-white/[0.06] to-transparent mb-16" />
 
           {/* Section 2: DIY Approach */}
           <section className="mb-16">
@@ -398,8 +397,8 @@ export default function ChatGPTOptimizationCost() {
               DIY ChatGPT Optimization: The $0–$500 Option
             </h2>
 
-            <div className="bg-white/[0.03] border-l-4 border-[#362478]/50 p-6 rounded-r-xl mb-8">
-              <p className="text-[#a89bd9] font-semibold mb-2">Direct Answer:</p>
+            <div className="bg-white/[0.03] border-l-4 border-white/[0.08]/50 p-6 rounded-r-xl mb-8">
+              <p className="text-white/40 font-semibold mb-2">Direct Answer:</p>
               <p className="text-gray-300 leading-relaxed">
                 DIY ChatGPT optimization costs under $500 in direct expenses (tools, software) but requires 40–60 hours of work over 4–8 months. You need technical knowledge of schema markup, understanding of AI citation patterns, content creation skills, and significant time investment. Success rate is approximately 30–40% for first-time attempts without professional guidance.
               </p>
@@ -477,7 +476,7 @@ export default function ChatGPTOptimizationCost() {
           </section>
 
           {/* Separator */}
-          <div className="max-w-xs mx-auto h-px bg-gradient-to-r from-transparent via-white/10 to-transparent mb-16" />
+          <div className="max-w-xs mx-auto h-px bg-gradient-to-r from-transparent via-white/[0.06] to-transparent mb-16" />
 
           {/* Section 3: Professional Packages */}
           <section className="mb-16">
@@ -485,8 +484,8 @@ export default function ChatGPTOptimizationCost() {
               Professional ChatGPT Optimization: $2,997–$8,988 Package Breakdown
             </h2>
 
-            <div className="bg-white/[0.03] border-l-4 border-[#362478]/50 p-6 rounded-r-xl mb-8">
-              <p className="text-[#a89bd9] font-semibold mb-2">Direct Answer:</p>
+            <div className="bg-white/[0.03] border-l-4 border-white/[0.08]/50 p-6 rounded-r-xl mb-8">
+              <p className="text-white/40 font-semibold mb-2">Direct Answer:</p>
               <p className="text-gray-300 leading-relaxed">
                 The Answer Engine's professional packages range from $2,997 (Foundation) to $8,988 (Market Leader), all requiring full upfront payment. Each package includes voice capture interviews, professionally written articles optimized with our proprietary AERO-6 framework, complete schema markup implementation, and 90-day AI citation monitoring. This is a one-time investment with no recurring fees.
               </p>
@@ -494,7 +493,7 @@ export default function ChatGPTOptimizationCost() {
 
             <div className="text-gray-300 space-y-8 leading-relaxed">
               {/* Foundation Package */}
-              <div className="bg-gradient-to-br from-[#f27d24]/10 to-[#d66d1f]/10 border-2 border-[#f27d24]/30 rounded-2xl p-8">
+              <div className="bg-gradient-to-br from-white/[0.02] to-white/[0.02] border-2 border-white/[0.08] rounded-2xl p-8">
                 <h3 className="text-2xl font-semibold text-white mb-4">Foundation Package: $2,997</h3>
                 
                 <p className="mb-4"><strong className="text-white">Perfect for:</strong> Single-specialty local service businesses testing AEO or targeting one core service area</p>
@@ -520,9 +519,9 @@ export default function ChatGPTOptimizationCost() {
               </div>
 
               {/* Authority Package */}
-              <div className="bg-gradient-to-br from-[#362478]/10 to-[#5a3d99]/10 border-2 border-[#362478]/30 rounded-2xl p-8">
-                <div className="inline-flex items-center gap-2 px-3 py-1 rounded-lg mb-4 bg-[#f27d24]/20 border border-[#f27d24]/40">
-                  <span className="text-xs font-semibold tracking-wider uppercase text-[#f27d24]">MOST POPULAR</span>
+              <div className="bg-gradient-to-br from-white/[0.02] to-white/[0.02] border-2 border-white/[0.08] rounded-2xl p-8">
+                <div className="inline-flex items-center gap-2 px-3 py-1 rounded-lg mb-4 bg-white/20 border border-white/[0.08]/40">
+                  <span className="text-xs font-semibold tracking-wider uppercase text-white">MOST POPULAR</span>
                 </div>
 
                 <h3 className="text-2xl font-semibold text-white mb-4">Authority Package (2x): $5,394</h3>
@@ -553,7 +552,7 @@ export default function ChatGPTOptimizationCost() {
               </div>
 
               {/* Dominance Package */}
-              <div className="bg-gradient-to-br from-[#362478]/10 to-[#5a3d99]/10 border-2 border-[#362478]/30 rounded-2xl p-8">
+              <div className="bg-gradient-to-br from-white/[0.02] to-white/[0.02] border-2 border-white/[0.08] rounded-2xl p-8">
                 <h3 className="text-2xl font-semibold text-white mb-4">Dominance Package (3x): $7,491</h3>
                 
                 <p className="mb-4"><strong className="text-white">Perfect for:</strong> Growing businesses seeking competitive advantage across multiple specialties</p>
@@ -581,9 +580,9 @@ export default function ChatGPTOptimizationCost() {
               </div>
 
               {/* Market Leader Package */}
-              <div className="bg-gradient-to-br from-[#f27d24]/10 to-[#d66d1f]/10 border-2 border-[#f27d24]/30 rounded-2xl p-8">
-                <div className="inline-flex items-center gap-2 px-3 py-1 rounded-lg mb-4 bg-[#362478]/20 border border-[#362478]/40">
-                  <span className="text-xs font-semibold tracking-wider uppercase text-[#a89bd9]">BEST VALUE</span>
+              <div className="bg-gradient-to-br from-white/[0.02] to-white/[0.02] border-2 border-white/[0.08] rounded-2xl p-8">
+                <div className="inline-flex items-center gap-2 px-3 py-1 rounded-lg mb-4 bg-white/[0.04] border border-white/[0.08]/40">
+                  <span className="text-xs font-semibold tracking-wider uppercase text-white/40">BEST VALUE</span>
                 </div>
 
                 <h3 className="text-2xl font-semibold text-white mb-4">Market Leader Package (4x): $8,988</h3>
@@ -615,7 +614,7 @@ export default function ChatGPTOptimizationCost() {
                   <p>Market leaders with $1M+ revenue, multi-location or franchise operations, businesses with diverse service offerings, companies with aggressive growth goals, those wanting to lock out competition completely, premium brands requiring comprehensive coverage.</p>
                 </div>
 
-                <div className="bg-[#f27d24]/10 border-l-4 border-[#f27d24] p-4 rounded-r-xl mt-4">
+                <div className="bg-white/[0.04] border-l-4 border-white/[0.08] p-4 rounded-r-xl mt-4">
                   <p className="font-semibold text-white">Value Proposition:</p>
                   <p>Get the 4th content pillar at 50% off. Costs less than 3 Foundation packages but delivers 4 complete pillars. The 25% discount puts $3,000 back in your pocket.</p>
                 </div>
@@ -654,7 +653,7 @@ export default function ChatGPTOptimizationCost() {
           </section>
 
           {/* Separator */}
-          <div className="max-w-xs mx-auto h-px bg-gradient-to-r from-transparent via-white/10 to-transparent mb-16" />
+          <div className="max-w-xs mx-auto h-px bg-gradient-to-r from-transparent via-white/[0.06] to-transparent mb-16" />
 
           {/* Section 4: Enterprise Pricing */}
           <section className="mb-16">
@@ -662,8 +661,8 @@ export default function ChatGPTOptimizationCost() {
               Enterprise ChatGPT Optimization: $25,000–$50,000+ Investment
             </h2>
 
-            <div className="bg-white/[0.03] border-l-4 border-[#362478]/50 p-6 rounded-r-xl mb-8">
-              <p className="text-[#a89bd9] font-semibold mb-2">Direct Answer:</p>
+            <div className="bg-white/[0.03] border-l-4 border-white/[0.08]/50 p-6 rounded-r-xl mb-8">
+              <p className="text-white/40 font-semibold mb-2">Direct Answer:</p>
               <p className="text-gray-300 leading-relaxed">
                 Enterprise ChatGPT optimization for multi-location businesses, franchises, or companies with 10+ service specialties typically costs $25,000–$50,000+ and includes comprehensive content coverage (50+ articles), multi-location optimization, ongoing content refresh, dedicated account management, quarterly strategy sessions, and continuous monitoring/optimization. These are custom-scoped projects requiring 6–12 months of implementation.
               </p>
@@ -739,7 +738,7 @@ export default function ChatGPTOptimizationCost() {
           </section>
 
           {/* Separator */}
-          <div className="max-w-xs mx-auto h-px bg-gradient-to-r from-transparent via-white/10 to-transparent mb-16" />
+          <div className="max-w-xs mx-auto h-px bg-gradient-to-r from-transparent via-white/[0.06] to-transparent mb-16" />
 
           {/* Section 5: Cost Comparison */}
           <section className="mb-16">
@@ -747,8 +746,8 @@ export default function ChatGPTOptimizationCost() {
               ChatGPT Optimization vs Traditional Marketing: Cost Comparison
             </h2>
 
-            <div className="bg-white/[0.03] border-l-4 border-[#362478]/50 p-6 rounded-r-xl mb-8">
-              <p className="text-[#a89bd9] font-semibold mb-2">Direct Answer:</p>
+            <div className="bg-white/[0.03] border-l-4 border-white/[0.08]/50 p-6 rounded-r-xl mb-8">
+              <p className="text-white/40 font-semibold mb-2">Direct Answer:</p>
               <p className="text-gray-300 leading-relaxed">
                 Traditional SEO agencies charge $2,000–$5,000 per month ($24K–$60K annually) for ongoing services. ChatGPT optimization is a one-time investment ($2,997–$8,988 for most businesses) that creates evergreen content working 24/7 for years. The cost per article is also significantly lower: $428–$499 vs $500–$1,500 for standard content marketing agencies, while delivering AI-optimized strategic architecture they don't provide.
               </p>
@@ -826,13 +825,13 @@ export default function ChatGPTOptimizationCost() {
                   <li>What you get: Voice-captured authentic expertise, AERO-6 framework optimization, hub-and-spoke strategic architecture, complete schema markup, 95%+ quality audit scores, 90-day AI citation monitoring</li>
                 </ul>
 
-                <p className="text-[#f27d24] font-semibold">You save $500–$7,500 while getting significantly more value and expertise.</p>
+                <p className="text-white font-semibold">You save $500–$7,500 while getting significantly more value and expertise.</p>
               </div>
             </div>
           </section>
 
           {/* Separator */}
-          <div className="max-w-xs mx-auto h-px bg-gradient-to-r from-transparent via-white/10 to-transparent mb-16" />
+          <div className="max-w-xs mx-auto h-px bg-gradient-to-r from-transparent via-white/[0.06] to-transparent mb-16" />
 
           {/* Section 6: ROI & Timeline */}
           <section className="mb-16">
@@ -840,8 +839,8 @@ export default function ChatGPTOptimizationCost() {
               ROI Timeline: When Does ChatGPT Optimization Pay For Itself?
             </h2>
 
-            <div className="bg-white/[0.03] border-l-4 border-[#362478]/50 p-6 rounded-r-xl mb-8">
-              <p className="text-[#a89bd9] font-semibold mb-2">Direct Answer:</p>
+            <div className="bg-white/[0.03] border-l-4 border-white/[0.08]/50 p-6 rounded-r-xl mb-8">
+              <p className="text-white/40 font-semibold mb-2">Direct Answer:</p>
               <p className="text-gray-300 leading-relaxed">
                 Most businesses see initial AI citations within 30–90 days post-publication. For the Foundation package at $2,997, if you generate just 1 new client per month from AI platforms, ROI is achieved in 1–3 months depending on your average client value ($1,000–$3,000+ typical for local services). The content continues working 24/7 for years, providing ongoing returns long after the initial investment.
               </p>
@@ -851,22 +850,22 @@ export default function ChatGPTOptimizationCost() {
               <h3 className="text-2xl font-semibold text-white mb-4">Timeline to Results</h3>
 
               <div className="space-y-4 mb-8">
-                <div className="bg-white/[0.03] border-l-4 border-[#f27d24] rounded-r-xl p-6">
+                <div className="bg-white/[0.03] border-l-4 border-white/[0.08] rounded-r-xl p-6">
                   <p className="font-semibold text-white mb-2">Weeks 1–6: Content Creation</p>
                   <p>Voice capture interview, article drafting, multi-round audits, client review, final optimization, publication with schema markup.</p>
                 </div>
 
-                <div className="bg-white/[0.03] border-l-4 border-[#f27d24] rounded-r-xl p-6">
+                <div className="bg-white/[0.03] border-l-4 border-white/[0.08] rounded-r-xl p-6">
                   <p className="font-semibold text-white mb-2">Weeks 7–10: AI Platform Indexing</p>
                   <p>AI platforms discover and analyze your content. Search engines index pages. Schema markup processed. Entity recognition established.</p>
                 </div>
 
-                <div className="bg-white/[0.03] border-l-4 border-[#f27d24] rounded-r-xl p-6">
+                <div className="bg-white/[0.03] border-l-4 border-white/[0.08] rounded-r-xl p-6">
                   <p className="font-semibold text-white mb-2">Weeks 11–14: Initial Citations Begin</p>
                   <p>First ChatGPT citations appear. Testing shows your business being recommended. Claude and Perplexity citations follow. Citation frequency increases.</p>
                 </div>
 
-                <div className="bg-white/[0.03] border-l-4 border-[#f27d24] rounded-r-xl p-6">
+                <div className="bg-white/[0.03] border-l-4 border-white/[0.08] rounded-r-xl p-6">
                   <p className="font-semibold text-white mb-2">Months 4–6: Citation Dominance</p>
                   <p>Consistent citations across all AI platforms. Competitors unable to displace your authority. Lead volume from AI platforms stabilizes. ROI typically achieved during this period.</p>
                 </div>
@@ -875,7 +874,7 @@ export default function ChatGPTOptimizationCost() {
               <h3 className="text-2xl font-semibold text-white mb-4">ROI Calculations by Package</h3>
 
               {/* Foundation ROI */}
-              <div className="bg-gradient-to-br from-[#f27d24]/10 to-[#d66d1f]/10 border border-[#f27d24]/20 rounded-xl p-6 mb-6">
+              <div className="bg-gradient-to-br from-white/[0.02] to-white/[0.02] border border-white/[0.08] rounded-xl p-6 mb-6">
                 <p className="font-semibold text-white mb-4">Foundation Package ($2,997)</p>
                 <ul className="space-y-3 pl-6 list-disc">
                   <li>
@@ -906,7 +905,7 @@ export default function ChatGPTOptimizationCost() {
               </div>
 
               {/* Market Leader ROI */}
-              <div className="bg-gradient-to-br from-[#362478]/10 to-[#5a3d99]/10 border border-[#362478]/20 rounded-xl p-6 mb-6">
+              <div className="bg-gradient-to-br from-white/[0.02] to-white/[0.02] border border-white/[0.08] rounded-xl p-6 mb-6">
                 <p className="font-semibold text-white mb-4">Market Leader Package ($8,988)</p>
                 <ul className="space-y-3 pl-6 list-disc">
                   <li>
@@ -950,7 +949,7 @@ export default function ChatGPTOptimizationCost() {
           </section>
 
           {/* Separator */}
-          <div className="max-w-xs mx-auto h-px bg-gradient-to-r from-transparent via-white/10 to-transparent mb-16" />
+          <div className="max-w-xs mx-auto h-px bg-gradient-to-r from-transparent via-white/[0.06] to-transparent mb-16" />
 
           {/* Section 7: Red Flags */}
           <section className="mb-16">
@@ -958,8 +957,8 @@ export default function ChatGPTOptimizationCost() {
               Pricing Red Flags: What to Avoid When Evaluating AEO Providers
             </h2>
 
-            <div className="bg-white/[0.03] border-l-4 border-[#362478]/50 p-6 rounded-r-xl mb-8">
-              <p className="text-[#a89bd9] font-semibold mb-2">Direct Answer:</p>
+            <div className="bg-white/[0.03] border-l-4 border-white/[0.08]/50 p-6 rounded-r-xl mb-8">
+              <p className="text-white/40 font-semibold mb-2">Direct Answer:</p>
               <p className="text-gray-300 leading-relaxed">
                 Major red flags include guaranteed #1 rankings (AI platforms don't have rankings), pay-per-performance pricing (indicates lack of confidence in methodology), cheap bulk article packages under $1,000 (quality insufficient for AI citation), no voice capture process (generic content won't demonstrate authentic expertise), promises of immediate results (AI indexing takes 30–90 days), and lack of schema markup implementation (critical for AI platform recognition).
               </p>
@@ -1031,7 +1030,7 @@ export default function ChatGPTOptimizationCost() {
           </section>
 
           {/* Separator */}
-          <div className="max-w-xs mx-auto h-px bg-gradient-to-r from-transparent via-white/10 to-transparent mb-16" />
+          <div className="max-w-xs mx-auto h-px bg-gradient-to-r from-transparent via-white/[0.06] to-transparent mb-16" />
 
           {/* FAQ Section */}
           <section className="mb-16">
@@ -1086,10 +1085,10 @@ export default function ChatGPTOptimizationCost() {
           </section>
 
           {/* Separator */}
-          <div className="max-w-xs mx-auto h-px bg-gradient-to-r from-transparent via-white/10 to-transparent mb-16" />
+          <div className="max-w-xs mx-auto h-px bg-gradient-to-r from-transparent via-white/[0.06] to-transparent mb-16" />
 
           {/* CTA Section */}
-          <section className="mb-16 bg-gradient-to-br from-[#f27d24]/10 to-[#d66d1f]/10 border-2 border-[#f27d24]/30 rounded-3xl p-12 text-center hover:-translate-y-1 transition-all">
+          <section className="mb-16 bg-gradient-to-br from-white/[0.02] to-white/[0.02] border-2 border-white/[0.08] rounded-3xl p-12 text-center hover:-translate-y-1 transition-all">
             <h2 className="text-3xl sm:text-4xl font-semibold mb-6 text-white">
               Ready to Get Your Business Cited by ChatGPT?
             </h2>
@@ -1100,7 +1099,7 @@ export default function ChatGPTOptimizationCost() {
             
             <a 
               href="/#contact"
-              className="inline-flex items-center justify-center gap-3 px-10 py-5 rounded-xl text-lg font-semibold text-white transition-all shadow-[0_4px_24px_rgba(242,125,36,0.3)] hover:shadow-[0_8px_32px_rgba(242,125,36,0.4)] hover:-translate-y-0.5 bg-[#f27d24] hover:bg-[#d66d1f]"
+              className="inline-flex items-center justify-center gap-3 px-10 py-5 rounded-xl text-lg font-semibold text-white transition-all  hover: hover:-translate-y-0.5 bg-white hover:bg-white"
             >
               Schedule Free Strategy Call
               <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={2}>

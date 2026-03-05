@@ -188,11 +188,10 @@ export default function WhatIsAEOBlogPost() {
 
       <main className="min-h-screen bg-[#0F1117] relative">
         {/* Subtle gradient overlay */}
-        <div className="absolute inset-0 bg-gradient-to-b from-purple-950/10 via-transparent to-orange-950/10 pointer-events-none" />
         
         {/* Simple pixel accent - top corners */}
-        <div className="absolute top-0 left-0 w-2 h-2 bg-orange-500/40" />
-        <div className="absolute top-0 left-2 w-2 h-2 bg-purple-500/40" />
+        <div className="absolute top-0 left-0 w-2 h-2 bg-white/20" />
+        <div className="absolute top-0 left-2 w-2 h-2 bg-white/15" />
 
         <article className="max-w-4xl mx-auto px-6 py-20 sm:py-32 relative">
           {/* Featured Image */}
@@ -200,7 +199,7 @@ export default function WhatIsAEOBlogPost() {
             <img 
               src="/images/what-is-aeo-featured.png" 
               alt="What is Answer Engine Optimization (AEO) - diagram showing AI platforms citing authoritative sources" 
-              className="w-full"
+              className="w-full grayscale brightness-75"
             />
           </div>
 
@@ -208,9 +207,9 @@ export default function WhatIsAEOBlogPost() {
           <header className="mb-16">
             {/* Simple pixel divider */}
             <div className="flex gap-2 mb-8">
-              <div className="w-1.5 h-1.5 bg-orange-500" />
-              <div className="w-1.5 h-1.5 bg-purple-500" />
-              <div className="w-1.5 h-1.5 bg-orange-500" />
+              <div className="w-1.5 h-1.5 bg-white/40" />
+              <div className="w-1.5 h-1.5 bg-white/30" />
+              <div className="w-1.5 h-1.5 bg-white/40" />
             </div>
 
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-light mb-6 leading-tight text-gray-100">
@@ -220,7 +219,7 @@ export default function WhatIsAEOBlogPost() {
               Answer Engine Optimization is the practice of positioning your business as the authoritative source that AI platforms cite when answering questions about your services. Learn how it differs from traditional SEO and why local businesses must implement it now.
             </p>
             <div className="flex items-center gap-3 text-sm text-gray-500 font-light">
-              <span className="w-1.5 h-1.5 bg-orange-500/50 rounded-full" />
+              <span className="w-1.5 h-1.5 bg-white/25 rounded-full" />
               <span>Published November 9, 2025</span>
               <span className="text-gray-700">•</span>
               <span>Updated {new Date(lastUpdated).toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' })}</span>
@@ -279,7 +278,7 @@ export default function WhatIsAEOBlogPost() {
               The challenge: AI platforms evaluate dozens of signals simultaneously to determine which sources are trustworthy enough to cite. Miss any critical element, and even excellent content remains invisible.
             </p>
 
-            <h3 className="text-2xl font-light mt-12 mb-4 text-orange-400">
+            <h3 className="text-2xl font-light mt-12 mb-4 text-white/60">
               The Multi-Layered Challenge
             </h3>
 
@@ -343,7 +342,7 @@ export default function WhatIsAEOBlogPost() {
               Google's 2015 algorithm looked for signals like keyword density, backlink quantity, and page authority metrics. AI platforms evaluate content through a completely different lens.
             </p>
 
-            <h3 className="text-2xl font-light mt-12 mb-4 text-orange-400">
+            <h3 className="text-2xl font-light mt-12 mb-4 text-white/60">
               What AI Platforms Actually Evaluate
             </h3>
 
@@ -371,7 +370,7 @@ export default function WhatIsAEOBlogPost() {
               Many businesses assume AEO is just "SEO with a new name." This misunderstanding costs them visibility.
             </p>
 
-            <h3 className="text-2xl font-light mt-12 mb-6 text-orange-400">
+            <h3 className="text-2xl font-light mt-12 mb-6 text-white/60">
               The Fundamental Differences
             </h3>
 
@@ -424,7 +423,7 @@ export default function WhatIsAEOBlogPost() {
               </table>
             </div>
 
-            <h3 className="text-2xl font-light mt-12 mb-4 text-orange-400">
+            <h3 className="text-2xl font-light mt-12 mb-4 text-white/60">
               Why Your Current SEO Investment Isn't Wasted
             </h3>
 
@@ -440,7 +439,7 @@ export default function WhatIsAEOBlogPost() {
                 "Existing quality content (can be retrofitted with AEO optimization)"
               ].map((item, i) => (
                 <li key={i} className="flex items-start gap-3">
-                  <span className="flex-shrink-0 w-1.5 h-1.5 bg-orange-500/60 rounded-full mt-3" />
+                  <span className="flex-shrink-0 w-1.5 h-1.5 bg-white/30 rounded-full mt-3" />
                   <span className="font-light leading-relaxed">{item}</span>
                 </li>
               ))}
@@ -471,7 +470,7 @@ export default function WhatIsAEOBlogPost() {
             </p>
 
             {/* CTA Section */}
-            <div className="my-16 p-10 rounded-2xl bg-white/[0.03] backdrop-blur-xl border-l-4 border-orange-500">
+            <div className="my-16 p-10 rounded-2xl bg-white/[0.03] backdrop-blur-xl border-l-4 border-white/[0.15]">
               <h3 className="text-2xl sm:text-3xl font-light mb-4 text-gray-100">
                 Ready to <span className="font-normal text-white">Dominate AI Citations</span> in Your Market?
               </h3>
@@ -480,7 +479,7 @@ export default function WhatIsAEOBlogPost() {
               </p>
               <a 
                 href="/#contact" 
-                className="inline-flex items-center justify-center gap-3 px-8 py-4 rounded-xl text-lg font-medium bg-gradient-to-r from-orange-500 to-orange-600 text-white hover:from-orange-600 hover:to-orange-700 transition-all shadow-lg shadow-orange-500/25"
+                className="inline-flex items-center justify-center gap-3 px-8 py-4 rounded-xl text-lg font-medium bg-gradient-to-r from-white/40 to-white/50 text-white hover:from-white/50 hover:to-white/50 transition-all shadow-lg shadow-white/12"
               >
                 Schedule Your Free AEO Strategy Call
                 <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={2}>
@@ -511,7 +510,7 @@ export default function WhatIsAEOBlogPost() {
               Work with experts who've already solved these challenges, know which implementations succeed, and can diagnose why AI platforms aren't citing your content before you waste months on broken approaches.
             </p>
 
-            <h3 className="text-2xl font-light mt-12 mb-6 text-orange-400">
+            <h3 className="text-2xl font-light mt-12 mb-6 text-white/60">
               AEO Implementation: DIY vs Specialist Partnership
             </h3>
 
@@ -653,7 +652,7 @@ export default function WhatIsAEOBlogPost() {
                     "50+ local service business AEO implementations completed"
                   ].map((item, i) => (
                     <li key={i} className="flex items-start gap-3">
-                      <span className="flex-shrink-0 w-1.5 h-1.5 bg-orange-500/60 rounded-full mt-2.5" />
+                      <span className="flex-shrink-0 w-1.5 h-1.5 bg-white/30 rounded-full mt-2.5" />
                       <span>{item}</span>
                     </li>
                   ))}
@@ -663,7 +662,7 @@ export default function WhatIsAEOBlogPost() {
                 The Answer Engine specializes in Answer Engine Optimization (AEO) for local service businesses. We position companies to be cited by Google AI Overviews, ChatGPT, Claude, Perplexity, and other AI platforms—making them the trusted expert AI recommends in their market.
               </p>
               <p>
-                <a href="/" className="inline-flex items-center gap-2 text-orange-400 font-medium hover:text-orange-300 transition-colors group">
+                <a href="/" className="inline-flex items-center gap-2 text-white/60 font-medium hover:text-white/70 transition-colors group">
                   Learn more at TheAnswerEngine.ai
                   <svg className="w-4 h-4 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={2}>
                     <path strokeLinecap="round" strokeLinejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3" />
@@ -679,7 +678,7 @@ export default function WhatIsAEOBlogPost() {
               </h3>
               <div className="bg-white/[0.03] backdrop-blur-xl border border-white/[0.08] rounded-xl p-6 hover:border-white/[0.08] transition-colors">
                 <a href="/blog/google-rankings-dont-matter" className="group">
-                  <h4 className="text-xl font-light text-white mb-2 group-hover:text-orange-400 transition-colors">
+                  <h4 className="text-xl font-light text-white mb-2 group-hover:text-white/60 transition-colors">
                     The Real Reason Your Google Rankings Don't Matter Anymore
                   </h4>
                   <p className="text-gray-400 font-light leading-relaxed">

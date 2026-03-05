@@ -206,21 +206,21 @@ export default function CheckAIRecommendation() {
         <article className="max-w-4xl mx-auto px-6 py-12 sm:py-16">
           {/* Breadcrumbs */}
           <nav className="text-sm text-gray-500 mb-8">
-            <Link href="/" className="hover:text-[#f27d24] transition-colors">Home</Link>
+            <Link href="/" className="hover:text-white transition-colors">Home</Link>
             <span className="mx-2">&rsaquo;</span>
-            <Link href="/blog" className="hover:text-[#f27d24] transition-colors">Blog</Link>
+            <Link href="/blog" className="hover:text-white transition-colors">Blog</Link>
             <span className="mx-2">&rsaquo;</span>
             <span className="text-gray-400">Check If AI Recommends You</span>
           </nav>
 
           {/* Header */}
           <header className="mb-12">
-            <div className="inline-flex items-center gap-2 px-4 py-2 rounded-xl mb-6 bg-[#f27d24]/10 border border-[#f27d24]/20">
-              <span className="text-sm font-semibold tracking-wider uppercase text-[#f27d24]">DIY Guide</span>
+            <div className="inline-flex items-center gap-2 px-4 py-2 rounded-xl mb-6 bg-white/[0.04] border border-white/[0.08]">
+              <span className="text-sm font-semibold tracking-wider uppercase text-white">DIY Guide</span>
             </div>
 
             <h1 className="text-3xl sm:text-4xl lg:text-5xl font-semibold mb-6 text-white leading-tight">
-              How to Check If AI Is <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#f27d24] to-[#d66d1f]">Recommending Your Business</span>
+              How to Check If AI Is <span className="text-transparent bg-clip-text bg-gradient-to-r from-white to-white">Recommending Your Business</span>
             </h1>
 
             {/* Featured Image */}
@@ -228,12 +228,12 @@ export default function CheckAIRecommendation() {
               <img
                 src="/images/ai-recommendation-test-5-minute-audit.png"
                 alt="5-minute test to check if AI platforms like ChatGPT are recommending your business"
-                className="w-full"
+                className="w-full grayscale brightness-75"
               />
             </div>
 
             {/* Featured Snippet Block */}
-            <div className="bg-gradient-to-br from-[#f27d24]/5 to-[#d66d1f]/5 border border-[#f27d24]/20 rounded-xl p-6 mb-8">
+            <div className="bg-gradient-to-br from-white/[0.02] to-white/[0.02] border border-white/[0.08] rounded-xl p-6 mb-8">
               <p className="text-lg text-white leading-relaxed">
                 <strong>To check if AI recommends your business: Open ChatGPT, type &quot;Who is the best [your service] in [your city]?&quot; and see if you&apos;re mentioned.</strong> Repeat on Claude, Perplexity, and Google. If competitors appear but you don&apos;t, you have an AI visibility gap that&apos;s costing you customers.
               </p>
@@ -274,7 +274,7 @@ export default function CheckAIRecommendation() {
                 Most business owners have no idea whether AI platforms recommend them or their competitors. They&apos;re flying blind while potential customers get sent elsewhere.
               </p>
               <p>
-                This 5-minute test will show you exactly where you stand—and whether you&apos;re losing business to competitors who&apos;ve figured out <Link href="/blog/aeo-vs-seo" className="text-[#f27d24] hover:underline">Answer Engine Optimization</Link>.
+                This 5-minute test will show you exactly where you stand—and whether you&apos;re losing business to competitors who&apos;ve figured out <Link href="/blog/aeo-vs-seo" className="text-white hover:underline">Answer Engine Optimization</Link>.
               </p>
             </div>
           </section>
@@ -287,11 +287,11 @@ export default function CheckAIRecommendation() {
               {/* Step 1 */}
               <div className="bg-white/[0.02] border border-white/[0.05] rounded-xl p-6">
                 <div className="flex items-start gap-4">
-                  <div className="flex-shrink-0 w-10 h-10 bg-[#f27d24] rounded-full flex items-center justify-center text-white font-bold text-lg">1</div>
+                  <div className="flex-shrink-0 w-10 h-10 bg-white rounded-full flex items-center justify-center text-white font-bold text-lg">1</div>
                   <div className="flex-1">
                     <h3 className="text-xl font-semibold text-white mb-3">Open ChatGPT</h3>
                     <p className="text-gray-300 mb-4">
-                      Go to <span className="text-[#f27d24]">chat.openai.com</span> and start a new conversation. The free version works fine for this test—you don&apos;t need a paid account.
+                      Go to <span className="text-white">chat.openai.com</span> and start a new conversation. The free version works fine for this test—you don&apos;t need a paid account.
                     </p>
                     <div className="bg-black/30 rounded-lg p-4 border border-white/10">
                       <p className="text-gray-400 text-sm">💡 <strong className="text-gray-300">Tip:</strong> Use an incognito/private browser window to avoid any personalization affecting results.</p>
@@ -303,7 +303,7 @@ export default function CheckAIRecommendation() {
               {/* Step 2 */}
               <div className="bg-white/[0.02] border border-white/[0.05] rounded-xl p-6">
                 <div className="flex items-start gap-4">
-                  <div className="flex-shrink-0 w-10 h-10 bg-[#f27d24] rounded-full flex items-center justify-center text-white font-bold text-lg">2</div>
+                  <div className="flex-shrink-0 w-10 h-10 bg-white rounded-full flex items-center justify-center text-white font-bold text-lg">2</div>
                   <div className="flex-1">
                     <h3 className="text-xl font-semibold text-white mb-3">Ask for a Recommendation</h3>
                     <p className="text-gray-300 mb-4">
@@ -325,7 +325,7 @@ export default function CheckAIRecommendation() {
               {/* Step 3 */}
               <div className="bg-white/[0.02] border border-white/[0.05] rounded-xl p-6">
                 <div className="flex items-start gap-4">
-                  <div className="flex-shrink-0 w-10 h-10 bg-[#f27d24] rounded-full flex items-center justify-center text-white font-bold text-lg">3</div>
+                  <div className="flex-shrink-0 w-10 h-10 bg-white rounded-full flex items-center justify-center text-white font-bold text-lg">3</div>
                   <div className="flex-1">
                     <h3 className="text-xl font-semibold text-white mb-3">Analyze the Response</h3>
                     <p className="text-gray-300 mb-4">
@@ -333,19 +333,19 @@ export default function CheckAIRecommendation() {
                     </p>
                     <ul className="space-y-3 text-gray-300">
                       <li className="flex items-start gap-3">
-                        <span className="text-[#f27d24] mt-1">•</span>
+                        <span className="text-white mt-1">•</span>
                         <span><strong className="text-white">Your business name</strong> — Are you mentioned by name?</span>
                       </li>
                       <li className="flex items-start gap-3">
-                        <span className="text-[#f27d24] mt-1">•</span>
+                        <span className="text-white mt-1">•</span>
                         <span><strong className="text-white">Competitor names</strong> — Who else is mentioned?</span>
                       </li>
                       <li className="flex items-start gap-3">
-                        <span className="text-[#f27d24] mt-1">•</span>
+                        <span className="text-white mt-1">•</span>
                         <span><strong className="text-white">Position</strong> — If you are mentioned, are you first, last, or buried?</span>
                       </li>
                       <li className="flex items-start gap-3">
-                        <span className="text-[#f27d24] mt-1">•</span>
+                        <span className="text-white mt-1">•</span>
                         <span><strong className="text-white">Context</strong> — Does it mention your specialties or just your name?</span>
                       </li>
                     </ul>
@@ -359,7 +359,7 @@ export default function CheckAIRecommendation() {
               {/* Step 4 */}
               <div className="bg-white/[0.02] border border-white/[0.05] rounded-xl p-6">
                 <div className="flex items-start gap-4">
-                  <div className="flex-shrink-0 w-10 h-10 bg-[#f27d24] rounded-full flex items-center justify-center text-white font-bold text-lg">4</div>
+                  <div className="flex-shrink-0 w-10 h-10 bg-white rounded-full flex items-center justify-center text-white font-bold text-lg">4</div>
                   <div className="flex-1">
                     <h3 className="text-xl font-semibold text-white mb-3">Test Other Platforms</h3>
                     <p className="text-gray-300 mb-4">
@@ -390,7 +390,7 @@ export default function CheckAIRecommendation() {
               {/* Step 5 */}
               <div className="bg-white/[0.02] border border-white/[0.05] rounded-xl p-6">
                 <div className="flex items-start gap-4">
-                  <div className="flex-shrink-0 w-10 h-10 bg-[#f27d24] rounded-full flex items-center justify-center text-white font-bold text-lg">5</div>
+                  <div className="flex-shrink-0 w-10 h-10 bg-white rounded-full flex items-center justify-center text-white font-bold text-lg">5</div>
                   <div className="flex-1">
                     <h3 className="text-xl font-semibold text-white mb-3">Score Your Results</h3>
                     <p className="text-gray-300 mb-4">
@@ -491,7 +491,7 @@ export default function CheckAIRecommendation() {
             <div className="mt-8 bg-white/[0.02] border border-white/[0.05] rounded-xl p-6">
               <div className="flex items-start gap-4">
                 <div className="flex-shrink-0">
-                  <svg className="w-6 h-6 text-[#f27d24]" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={2}>
+                  <svg className="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={2}>
                     <path strokeLinecap="round" strokeLinejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
                   </svg>
                 </div>
@@ -534,7 +534,7 @@ export default function CheckAIRecommendation() {
               </div>
 
               <p>
-                The good news: all of these are fixable. Learn more about <Link href="/blog/how-chatgpt-chooses-businesses-to-recommend" className="text-[#f27d24] hover:underline">how ChatGPT chooses which businesses to recommend</Link>.
+                The good news: all of these are fixable. Learn more about <Link href="/blog/how-chatgpt-chooses-businesses-to-recommend" className="text-white hover:underline">how ChatGPT chooses which businesses to recommend</Link>.
               </p>
             </div>
           </section>
@@ -570,20 +570,20 @@ export default function CheckAIRecommendation() {
                 <h3 className="text-xl font-semibold text-white mb-4">If you&apos;re NOT being recommended:</h3>
                 <ul className="space-y-3">
                   <li className="flex items-start gap-3">
-                    <span className="text-[#f27d24] mt-1">&rarr;</span>
+                    <span className="text-white mt-1">&rarr;</span>
                     <span>Understand what competitors are doing differently</span>
                   </li>
                   <li className="flex items-start gap-3">
-                    <span className="text-[#f27d24] mt-1">&rarr;</span>
+                    <span className="text-white mt-1">&rarr;</span>
                     <span>Audit your schema markup and structured data</span>
                   </li>
                   <li className="flex items-start gap-3">
-                    <span className="text-[#f27d24] mt-1">&rarr;</span>
+                    <span className="text-white mt-1">&rarr;</span>
                     <span>Create content that directly answers customer questions</span>
                   </li>
                   <li className="flex items-start gap-3">
-                    <span className="text-[#f27d24] mt-1">&rarr;</span>
-                    <span>Consider a professional <Link href="/blog/what-is-answer-engine-optimization" className="text-[#f27d24] hover:underline">AEO strategy</Link></span>
+                    <span className="text-white mt-1">&rarr;</span>
+                    <span>Consider a professional <Link href="/blog/what-is-answer-engine-optimization" className="text-white hover:underline">AEO strategy</Link></span>
                   </li>
                 </ul>
               </div>
@@ -643,21 +643,21 @@ export default function CheckAIRecommendation() {
           <section className="mb-12">
             <h2 className="text-2xl sm:text-3xl font-semibold mb-6 text-white">Related Articles</h2>
             <div className="grid sm:grid-cols-2 gap-4">
-              <Link href="/blog/aeo-vs-seo" className="bg-white/[0.02] border border-white/[0.05] rounded-xl p-6 hover:border-[#f27d24]/30 transition-colors group">
-                <div className="text-[#f27d24] text-sm font-medium mb-2">Comparison</div>
-                <div className="text-white font-semibold group-hover:text-[#f27d24] transition-colors">AEO vs SEO: What&apos;s the Difference?</div>
+              <Link href="/blog/aeo-vs-seo" className="bg-white/[0.02] border border-white/[0.05] rounded-xl p-6 hover:border-white/[0.08] transition-colors group">
+                <div className="text-white text-sm font-medium mb-2">Comparison</div>
+                <div className="text-white font-semibold group-hover:text-white transition-colors">AEO vs SEO: What&apos;s the Difference?</div>
               </Link>
-              <Link href="/blog/how-chatgpt-chooses-businesses-to-recommend" className="bg-white/[0.02] border border-white/[0.05] rounded-xl p-6 hover:border-[#f27d24]/30 transition-colors group">
-                <div className="text-[#f27d24] text-sm font-medium mb-2">AI Algorithm</div>
-                <div className="text-white font-semibold group-hover:text-[#f27d24] transition-colors">How ChatGPT Chooses Businesses</div>
+              <Link href="/blog/how-chatgpt-chooses-businesses-to-recommend" className="bg-white/[0.02] border border-white/[0.05] rounded-xl p-6 hover:border-white/[0.08] transition-colors group">
+                <div className="text-white text-sm font-medium mb-2">AI Algorithm</div>
+                <div className="text-white font-semibold group-hover:text-white transition-colors">How ChatGPT Chooses Businesses</div>
               </Link>
-              <Link href="/blog/why-chatgpt-recommends-your-competitors" className="bg-white/[0.02] border border-white/[0.05] rounded-xl p-6 hover:border-[#f27d24]/30 transition-colors group">
-                <div className="text-[#f27d24] text-sm font-medium mb-2">Competitive Analysis</div>
-                <div className="text-white font-semibold group-hover:text-[#f27d24] transition-colors">Why ChatGPT Recommends Competitors</div>
+              <Link href="/blog/why-chatgpt-recommends-your-competitors" className="bg-white/[0.02] border border-white/[0.05] rounded-xl p-6 hover:border-white/[0.08] transition-colors group">
+                <div className="text-white text-sm font-medium mb-2">Competitive Analysis</div>
+                <div className="text-white font-semibold group-hover:text-white transition-colors">Why ChatGPT Recommends Competitors</div>
               </Link>
-              <Link href="/case-studies/justin-borges" className="bg-white/[0.02] border border-white/[0.05] rounded-xl p-6 hover:border-[#f27d24]/30 transition-colors group">
-                <div className="text-[#f27d24] text-sm font-medium mb-2">Case Study</div>
-                <div className="text-white font-semibold group-hover:text-[#f27d24] transition-colors">From Invisible to 4,100+ Monthly Clicks</div>
+              <Link href="/case-studies/justin-borges" className="bg-white/[0.02] border border-white/[0.05] rounded-xl p-6 hover:border-white/[0.08] transition-colors group">
+                <div className="text-white text-sm font-medium mb-2">Case Study</div>
+                <div className="text-white font-semibold group-hover:text-white transition-colors">From Invisible to 8,400+ Monthly Clicks</div>
               </Link>
             </div>
           </section>
@@ -670,7 +670,7 @@ export default function CheckAIRecommendation() {
             </p>
             <Link
               href="/#contact"
-              className="inline-flex items-center gap-2 bg-gradient-to-r from-[#f27d24] to-[#d66d1f] text-white font-semibold px-8 py-4 rounded-xl hover:opacity-90 transition-opacity"
+              className="inline-flex items-center gap-2 bg-gradient-to-r from-white to-white text-white font-semibold px-8 py-4 rounded-xl hover:opacity-90 transition-opacity"
             >
               Get Your Free AEO Audit
               <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={2}>

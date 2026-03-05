@@ -188,11 +188,10 @@ export default function IsAEOWorthItBlogPost() {
 
       <main className="min-h-screen bg-[#0A0A0F] relative">
         {/* Subtle gradient overlay */}
-        <div className="absolute inset-0 bg-gradient-to-b from-purple-950/10 via-transparent to-orange-950/10 pointer-events-none" />
         
         {/* Simple pixel accent - top corners */}
-        <div className="absolute top-0 left-0 w-2 h-2 bg-orange-500/40" />
-        <div className="absolute top-0 left-2 w-2 h-2 bg-purple-500/40" />
+        <div className="absolute top-0 left-0 w-2 h-2 bg-white/20" />
+        <div className="absolute top-0 left-2 w-2 h-2 bg-white/15" />
 
         <article className="max-w-4xl mx-auto px-6 py-20 sm:py-32 relative">
           {/* Featured Image */}
@@ -200,7 +199,7 @@ export default function IsAEOWorthItBlogPost() {
             <img 
               src="/images/is-aeo-worth-it-featured.png" 
               alt="Is Answer Engine Optimization worth it for local service businesses - ROI analysis and decision framework" 
-              className="w-full"
+              className="w-full grayscale brightness-75"
             />
           </div>
 
@@ -208,9 +207,9 @@ export default function IsAEOWorthItBlogPost() {
           <header className="mb-16">
             {/* Simple pixel divider */}
             <div className="flex gap-2 mb-8">
-              <div className="w-1.5 h-1.5 bg-orange-500" />
-              <div className="w-1.5 h-1.5 bg-purple-500" />
-              <div className="w-1.5 h-1.5 bg-orange-500" />
+              <div className="w-1.5 h-1.5 bg-white/40" />
+              <div className="w-1.5 h-1.5 bg-white/30" />
+              <div className="w-1.5 h-1.5 bg-white/40" />
             </div>
 
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-light mb-6 leading-tight text-gray-100">
@@ -220,7 +219,7 @@ export default function IsAEOWorthItBlogPost() {
               Some local businesses see 300% ROI from Answer Engine Optimization within 6 months. Others waste thousands on implementations that never deliver results. Here's the honest framework for determining whether AEO makes strategic sense for your specific business—and when waiting is the smarter move.
             </p>
             <div className="flex items-center gap-3 text-sm text-gray-500 font-light">
-              <span className="w-1.5 h-1.5 bg-orange-500/50 rounded-full" />
+              <span className="w-1.5 h-1.5 bg-white/25 rounded-full" />
               <span>Published November 9, 2025</span>
               <span className="text-gray-700">•</span>
               <span>Updated {new Date(lastUpdated).toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' })}</span>
@@ -247,7 +246,7 @@ export default function IsAEOWorthItBlogPost() {
               This reframing matters because it forces specificity. What's "sufficient value"? What's your "acceptable timeline"? Without concrete answers, businesses make emotional decisions dressed up as strategic analysis.
             </p>
 
-            <h3 className="text-2xl font-light mt-12 mb-4 text-orange-400">
+            <h3 className="text-2xl font-light mt-12 mb-4 text-white/60">
               The Three Variables That Determine AEO ROI
             </h3>
 
@@ -283,7 +282,7 @@ export default function IsAEOWorthItBlogPost() {
               Not all businesses benefit equally from Answer Engine Optimization. Here's the honest assessment of which categories see fastest, strongest returns.
             </p>
 
-            <h3 className="text-2xl font-light mt-12 mb-4 text-orange-400">
+            <h3 className="text-2xl font-light mt-12 mb-4 text-white/60">
               Tier 1: Strongest AEO ROI Potential
             </h3>
 
@@ -300,7 +299,7 @@ export default function IsAEOWorthItBlogPost() {
                 "Long sales cycles where thought leadership builds trust"
               ].map((item, i) => (
                 <li key={i} className="flex items-start gap-3">
-                  <span className="flex-shrink-0 w-1.5 h-1.5 bg-orange-500/60 rounded-full mt-3" />
+                  <span className="flex-shrink-0 w-1.5 h-1.5 bg-white/30 rounded-full mt-3" />
                   <span className="font-light leading-relaxed">{item}</span>
                 </li>
               ))}
@@ -321,7 +320,7 @@ export default function IsAEOWorthItBlogPost() {
                 "Legal services (estate planning, real estate law, business formation)"
               ].map((item, i) => (
                 <li key={i} className="flex items-start gap-3">
-                  <span className="flex-shrink-0 w-1.5 h-1.5 bg-orange-500/60 rounded-full mt-3" />
+                  <span className="flex-shrink-0 w-1.5 h-1.5 bg-white/30 rounded-full mt-3" />
                   <span className="font-light leading-relaxed">{item}</span>
                 </li>
               ))}
@@ -331,7 +330,7 @@ export default function IsAEOWorthItBlogPost() {
               <strong className="text-white font-medium">Why ROI is strongest:</strong> Single AI citation generating one qualified customer can cover 6-12 months of AEO investment. These businesses already invest heavily in marketing because customer value justifies acquisition costs.
             </p>
 
-            <h3 className="text-2xl font-light mt-12 mb-4 text-orange-400">
+            <h3 className="text-2xl font-light mt-12 mb-4 text-white/60">
               Tier 2: Strong ROI with Longer Timeline
             </h3>
 
@@ -348,7 +347,7 @@ export default function IsAEOWorthItBlogPost() {
                 "Local expertise provides meaningful advantage"
               ].map((item, i) => (
                 <li key={i} className="flex items-start gap-3">
-                  <span className="flex-shrink-0 w-1.5 h-1.5 bg-purple-500/60 rounded-full mt-3" />
+                  <span className="flex-shrink-0 w-1.5 h-1.5 bg-white/25 rounded-full mt-3" />
                   <span className="font-light leading-relaxed">{item}</span>
                 </li>
               ))}
@@ -369,7 +368,7 @@ export default function IsAEOWorthItBlogPost() {
                 "Handyman services"
               ].map((item, i) => (
                 <li key={i} className="flex items-start gap-3">
-                  <span className="flex-shrink-0 w-1.5 h-1.5 bg-purple-500/60 rounded-full mt-3" />
+                  <span className="flex-shrink-0 w-1.5 h-1.5 bg-white/25 rounded-full mt-3" />
                   <span className="font-light leading-relaxed">{item}</span>
                 </li>
               ))}
@@ -379,7 +378,7 @@ export default function IsAEOWorthItBlogPost() {
               <strong className="text-white font-medium">Why ROI takes longer:</strong> Lower individual transaction value means more citations needed to justify investment. However, repeat business and referrals from properly qualified leads compound value over time.
             </p>
 
-            <h3 className="text-2xl font-light mt-12 mb-4 text-orange-400">
+            <h3 className="text-2xl font-light mt-12 mb-4 text-white/60">
               Tier 3: Questionable ROI for Most Businesses
             </h3>
 
@@ -433,7 +432,7 @@ export default function IsAEOWorthItBlogPost() {
               Understanding realistic timelines prevents premature abandonment of working strategies.
             </p>
 
-            <h3 className="text-2xl font-light mt-12 mb-4 text-orange-400">
+            <h3 className="text-2xl font-light mt-12 mb-4 text-white/60">
               Months 1-3: Foundation Building Phase
             </h3>
 
@@ -450,7 +449,7 @@ export default function IsAEOWorthItBlogPost() {
                 "Topic cluster foundation"
               ].map((item, i) => (
                 <li key={i} className="flex items-start gap-3">
-                  <span className="flex-shrink-0 w-1.5 h-1.5 bg-orange-500/60 rounded-full mt-3" />
+                  <span className="flex-shrink-0 w-1.5 h-1.5 bg-white/30 rounded-full mt-3" />
                   <span className="font-light leading-relaxed">{item}</span>
                 </li>
               ))}
@@ -464,7 +463,7 @@ export default function IsAEOWorthItBlogPost() {
               Minimal to zero AI citations. This is normal and expected. Foundation work is invisible to AI platforms until content reaches critical mass and authority signals accumulate.
             </p>
 
-            <h3 className="text-2xl font-light mt-12 mb-4 text-orange-400">
+            <h3 className="text-2xl font-light mt-12 mb-4 text-white/60">
               Months 4-6: Initial Citation Phase
             </h3>
 
@@ -480,7 +479,7 @@ export default function IsAEOWorthItBlogPost() {
                 "Sporadic mentions in ChatGPT/Claude for specific queries"
               ].map((item, i) => (
                 <li key={i} className="flex items-start gap-3">
-                  <span className="flex-shrink-0 w-1.5 h-1.5 bg-orange-500/60 rounded-full mt-3" />
+                  <span className="flex-shrink-0 w-1.5 h-1.5 bg-white/30 rounded-full mt-3" />
                   <span className="font-light leading-relaxed">{item}</span>
                 </li>
               ))}
@@ -494,7 +493,7 @@ export default function IsAEOWorthItBlogPost() {
               1-3 qualified inquiries attributed to AI citations. Not enough to justify investment yet—but proof of concept that implementation is working.
             </p>
 
-            <h3 className="text-2xl font-light mt-12 mb-4 text-orange-400">
+            <h3 className="text-2xl font-light mt-12 mb-4 text-white/60">
               Months 7-12: Authority Compounding Phase
             </h3>
 
@@ -510,7 +509,7 @@ export default function IsAEOWorthItBlogPost() {
                 "Organic link growth from AI-cited content"
               ].map((item, i) => (
                 <li key={i} className="flex items-start gap-3">
-                  <span className="flex-shrink-0 w-1.5 h-1.5 bg-orange-500/60 rounded-full mt-3" />
+                  <span className="flex-shrink-0 w-1.5 h-1.5 bg-white/30 rounded-full mt-3" />
                   <span className="font-light leading-relaxed">{item}</span>
                 </li>
               ))}
@@ -524,7 +523,7 @@ export default function IsAEOWorthItBlogPost() {
               5-15 qualified inquiries per month from AI citations. For Tier 1 businesses (high CLV), this often justifies full investment. For Tier 2, approaching breakeven or positive ROI.
             </p>
 
-            <h3 className="text-2xl font-light mt-12 mb-4 text-orange-400">
+            <h3 className="text-2xl font-light mt-12 mb-4 text-white/60">
               Month 13+: Sustained Authority Phase
             </h3>
 
@@ -540,7 +539,7 @@ export default function IsAEOWorthItBlogPost() {
                 "Reduced ongoing maintenance requirements"
               ].map((item, i) => (
                 <li key={i} className="flex items-start gap-3">
-                  <span className="flex-shrink-0 w-1.5 h-1.5 bg-orange-500/60 rounded-full mt-3" />
+                  <span className="flex-shrink-0 w-1.5 h-1.5 bg-white/30 rounded-full mt-3" />
                   <span className="font-light leading-relaxed">{item}</span>
                 </li>
               ))}
@@ -555,7 +554,7 @@ export default function IsAEOWorthItBlogPost() {
             </p>
 
             {/* CTA Section */}
-            <div className="my-16 p-10 rounded-2xl bg-white/[0.03] backdrop-blur-xl border-l-4 border-orange-500">
+            <div className="my-16 p-10 rounded-2xl bg-white/[0.03] backdrop-blur-xl border-l-4 border-white/[0.15]">
               <h3 className="text-2xl sm:text-3xl font-light mb-4 text-gray-100">
                 Not Sure If <span className="font-normal text-white">AEO Makes Sense</span> for Your Business?
               </h3>
@@ -564,7 +563,7 @@ export default function IsAEOWorthItBlogPost() {
               </p>
               <a 
                 href="/#contact" 
-                className="inline-flex items-center justify-center gap-3 px-8 py-4 rounded-xl text-lg font-medium bg-gradient-to-r from-orange-500 to-orange-600 text-white hover:from-orange-600 hover:to-orange-700 transition-all shadow-lg shadow-orange-500/25"
+                className="inline-flex items-center justify-center gap-3 px-8 py-4 rounded-xl text-lg font-medium bg-gradient-to-r from-white/40 to-white/50 text-white hover:from-white/50 hover:to-white/50 transition-all shadow-lg shadow-white/12"
               >
                 Schedule Your Free ROI Assessment
                 <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={2} aria-hidden="true">
@@ -581,7 +580,7 @@ export default function IsAEOWorthItBlogPost() {
               "Should I wait to invest in AEO?" is the question we hear most frequently. The answer depends on competitive dynamics in your specific market.
             </p>
 
-            <h3 className="text-2xl font-light mt-12 mb-4 text-orange-400">
+            <h3 className="text-2xl font-light mt-12 mb-4 text-white/60">
               Scenario 1: No Competitors Have Optimized Yet
             </h3>
 
@@ -589,7 +588,7 @@ export default function IsAEOWorthItBlogPost() {
               <strong className="text-white font-medium">Analysis:</strong> When you ask AI platforms about services in your market and nobody gets consistently cited, you're looking at early market timing. First mover advantage is strongest here. Waiting means competitors establish positions you'll need to displace rather than simply claim.
             </p>
 
-            <h3 className="text-2xl font-light mt-12 mb-4 text-orange-400">
+            <h3 className="text-2xl font-light mt-12 mb-4 text-white/60">
               Scenario 2: One Competitor Dominates AI Citations
             </h3>
 
@@ -597,7 +596,7 @@ export default function IsAEOWorthItBlogPost() {
               <strong className="text-white font-medium">Analysis:</strong> Displacement is possible but requires more aggressive implementation. Late mover disadvantage exists but isn't insurmountable. Strategic targeting of subtopics where competitor coverage is incomplete can establish initial citations, then expand.
             </p>
 
-            <h3 className="text-2xl font-light mt-12 mb-4 text-orange-400">
+            <h3 className="text-2xl font-light mt-12 mb-4 text-white/60">
               Scenario 3: Multiple Competitors Already Established
             </h3>
 
@@ -613,7 +612,7 @@ export default function IsAEOWorthItBlogPost() {
               Many businesses attempt "budget AEO"—implementing some elements while skipping others. This almost always fails.
             </p>
 
-            <h3 className="text-2xl font-light mt-12 mb-4 text-orange-400">
+            <h3 className="text-2xl font-light mt-12 mb-4 text-white/60">
               The Interdependency Problem
             </h3>
 
@@ -648,7 +647,7 @@ export default function IsAEOWorthItBlogPost() {
               Use this framework to make an informed decision:
             </p>
 
-            <h3 className="text-2xl font-light mt-12 mb-4 text-orange-400">
+            <h3 className="text-2xl font-light mt-12 mb-4 text-white/60">
               Step 1: Calculate Your Customer Acquisition Economics
             </h3>
 
@@ -660,13 +659,13 @@ export default function IsAEOWorthItBlogPost() {
                 "What's your acceptable payback period?"
               ].map((item, i) => (
                 <li key={i} className="flex items-start gap-3">
-                  <span className="flex-shrink-0 w-1.5 h-1.5 bg-orange-500/60 rounded-full mt-3" />
+                  <span className="flex-shrink-0 w-1.5 h-1.5 bg-white/30 rounded-full mt-3" />
                   <span className="font-light leading-relaxed">{item}</span>
                 </li>
               ))}
             </ul>
 
-            <h3 className="text-2xl font-light mt-12 mb-4 text-orange-400">
+            <h3 className="text-2xl font-light mt-12 mb-4 text-white/60">
               Step 2: Assess Competitive Positioning
             </h3>
 
@@ -678,13 +677,13 @@ export default function IsAEOWorthItBlogPost() {
                 "Determine if you're early, middle, or late to market"
               ].map((item, i) => (
                 <li key={i} className="flex items-start gap-3">
-                  <span className="flex-shrink-0 w-1.5 h-1.5 bg-orange-500/60 rounded-full mt-3" />
+                  <span className="flex-shrink-0 w-1.5 h-1.5 bg-white/30 rounded-full mt-3" />
                   <span className="font-light leading-relaxed">{item}</span>
                 </li>
               ))}
             </ul>
 
-            <h3 className="text-2xl font-light mt-12 mb-4 text-orange-400">
+            <h3 className="text-2xl font-light mt-12 mb-4 text-white/60">
               Step 3: Evaluate Implementation Approach
             </h3>
 
@@ -696,13 +695,13 @@ export default function IsAEOWorthItBlogPost() {
                 "Can you commit to complete implementation versus partial?"
               ].map((item, i) => (
                 <li key={i} className="flex items-start gap-3">
-                  <span className="flex-shrink-0 w-1.5 h-1.5 bg-orange-500/60 rounded-full mt-3" />
+                  <span className="flex-shrink-0 w-1.5 h-1.5 bg-white/30 rounded-full mt-3" />
                   <span className="font-light leading-relaxed">{item}</span>
                 </li>
               ))}
             </ul>
 
-            <h3 className="text-2xl font-light mt-12 mb-4 text-orange-400">
+            <h3 className="text-2xl font-light mt-12 mb-4 text-white/60">
               Step 4: Make the Strategic Decision
             </h3>
 
@@ -718,7 +717,7 @@ export default function IsAEOWorthItBlogPost() {
                 "You understand this builds compound authority, not immediate traffic"
               ].map((item, i) => (
                 <li key={i} className="flex items-start gap-3">
-                  <span className="flex-shrink-0 w-1.5 h-1.5 bg-orange-500/60 rounded-full mt-3" />
+                  <span className="flex-shrink-0 w-1.5 h-1.5 bg-white/30 rounded-full mt-3" />
                   <span className="font-light leading-relaxed">{item}</span>
                 </li>
               ))}
@@ -838,7 +837,7 @@ export default function IsAEOWorthItBlogPost() {
                     "50+ local service business AEO implementations completed"
                   ].map((item, i) => (
                     <li key={i} className="flex items-start gap-3">
-                      <span className="flex-shrink-0 w-1.5 h-1.5 bg-orange-500/60 rounded-full mt-2.5" />
+                      <span className="flex-shrink-0 w-1.5 h-1.5 bg-white/30 rounded-full mt-2.5" />
                       <span>{item}</span>
                     </li>
                   ))}
@@ -848,7 +847,7 @@ export default function IsAEOWorthItBlogPost() {
                 The Answer Engine specializes in Answer Engine Optimization (AEO) for local service businesses. We position companies to be cited by Google AI Overviews, ChatGPT, Claude, Perplexity, and other AI platforms—making them the trusted expert AI recommends in their market.
               </p>
               <p>
-                <a href="/" className="inline-flex items-center gap-2 text-orange-400 font-medium hover:text-orange-300 transition-colors group">
+                <a href="/" className="inline-flex items-center gap-2 text-white/60 font-medium hover:text-white/70 transition-colors group">
                   Learn more at TheAnswerEngine.ai
                   <svg className="w-4 h-4 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={2} aria-hidden="true">
                     <path strokeLinecap="round" strokeLinejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3" />
@@ -865,7 +864,7 @@ export default function IsAEOWorthItBlogPost() {
               <div className="space-y-4">
                 <div className="bg-white/[0.02] backdrop-blur-xl border border-white/[0.05] rounded-xl p-6 hover:border-white/[0.08] transition-colors">
                   <a href="/blog/what-is-answer-engine-optimization" className="group">
-                    <h4 className="text-xl font-light text-white mb-2 group-hover:text-orange-400 transition-colors">
+                    <h4 className="text-xl font-light text-white mb-2 group-hover:text-white/60 transition-colors">
                       What is Answer Engine Optimization (AEO)? The Complete Guide for 2025
                     </h4>
                     <p className="text-gray-400 font-light leading-relaxed">
@@ -875,7 +874,7 @@ export default function IsAEOWorthItBlogPost() {
                 </div>
                 <div className="bg-white/[0.02] backdrop-blur-xl border border-white/[0.05] rounded-xl p-6 hover:border-white/[0.08] transition-colors">
                   <a href="/blog/how-to-get-google-ai-chatgpt-recommend-business" className="group">
-                    <h4 className="text-xl font-light text-white mb-2 group-hover:text-orange-400 transition-colors">
+                    <h4 className="text-xl font-light text-white mb-2 group-hover:text-white/60 transition-colors">
                       How to Get Google AI Overviews and ChatGPT to Recommend Your Business
                     </h4>
                     <p className="text-gray-400 font-light leading-relaxed">

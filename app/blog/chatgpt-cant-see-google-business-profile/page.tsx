@@ -161,25 +161,25 @@ export default function ChatGPTCantSeeGBP() {
         <article className="max-w-4xl mx-auto px-6 py-12 sm:py-16">
           {/* Breadcrumbs */}
           <nav className="text-sm text-gray-500 mb-8">
-            <Link href="/" className="hover:text-[#f27d24] transition-colors">Home</Link>
+            <Link href="/" className="hover:text-white transition-colors">Home</Link>
             <span className="mx-2">›</span>
-            <Link href="/blog" className="hover:text-[#f27d24] transition-colors">Blog</Link>
+            <Link href="/blog" className="hover:text-white transition-colors">Blog</Link>
             <span className="mx-2">›</span>
             <span className="text-gray-400">What ChatGPT Can See</span>
           </nav>
 
           {/* Header */}
           <header className="mb-12">
-            <div className="inline-flex items-center gap-2 px-4 py-2 rounded-xl mb-6 bg-[#f27d24]/10 border border-[#f27d24]/20">
-              <span className="text-sm font-semibold tracking-wider uppercase text-[#f27d24]">AI Visibility</span>
+            <div className="inline-flex items-center gap-2 px-4 py-2 rounded-xl mb-6 bg-white/[0.04] border border-white/[0.08]">
+              <span className="text-sm font-semibold tracking-wider uppercase text-white">AI Visibility</span>
             </div>
 
             <h1 className="text-3xl sm:text-4xl lg:text-5xl font-semibold mb-6 text-white leading-tight">
-              ChatGPT Can't See Your Google Business Profile — <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#f27d24] to-[#d66d1f]">Here's What It CAN See</span>
+              ChatGPT Can't See Your Google Business Profile — <span className="text-transparent bg-clip-text bg-gradient-to-r from-white to-white">Here's What It CAN See</span>
             </h1>
 
             {/* Featured Snippet Block */}
-            <div className="bg-gradient-to-br from-[#f27d24]/5 to-[#d66d1f]/5 border border-[#f27d24]/20 rounded-xl p-6 mb-8">
+            <div className="bg-gradient-to-br from-white/[0.02] to-white/[0.02] border border-white/[0.08] rounded-xl p-6 mb-8">
               <p className="text-lg text-white leading-relaxed">
                 <strong>ChatGPT cannot access your Google Business Profile, Google reviews, or Google Maps data.</strong> It uses Bing's search index instead. To be visible to ChatGPT, optimize your website, claim your Bing Places listing, and build presence on platforms like Yelp and Facebook that ChatGPT can actually crawl.
               </p>
@@ -206,7 +206,7 @@ export default function ChatGPTCantSeeGBP() {
             <img
               src="/images/chatgpt-cant-see-gbp.png"
               alt="ChatGPT cannot see Google Business Profile - what AI can and cannot access about your business"
-              className="w-full h-auto"
+              className="w-full h-auto grayscale brightness-75"
             />
           </div>
 
@@ -271,7 +271,7 @@ export default function ChatGPTCantSeeGBP() {
             <div className="bg-white/[0.02] border border-white/[0.05] rounded-xl p-6">
               <div className="flex items-start gap-4">
                 <div className="flex-shrink-0">
-                  <svg className="w-6 h-6 text-[#f27d24]" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={2}>
+                  <svg className="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={2}>
                     <path strokeLinecap="round" strokeLinejoin="round" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z" />
                   </svg>
                 </div>
@@ -368,8 +368,8 @@ export default function ChatGPTCantSeeGBP() {
               {/* Website */}
               <div className="bg-white/[0.02] border border-white/[0.05] rounded-xl p-6">
                 <div className="flex items-center gap-3 mb-4">
-                  <div className="w-10 h-10 bg-[#f27d24]/20 rounded-lg flex items-center justify-center">
-                    <span className="text-[#f27d24] font-bold">1</span>
+                  <div className="w-10 h-10 bg-white/20 rounded-lg flex items-center justify-center">
+                    <span className="text-white font-bold">1</span>
                   </div>
                   <h3 className="text-xl font-semibold text-white">Your Website (Most Important)</h3>
                 </div>
@@ -403,13 +403,13 @@ export default function ChatGPTCantSeeGBP() {
               {/* Bing Places */}
               <div className="bg-white/[0.02] border border-white/[0.05] rounded-xl p-6">
                 <div className="flex items-center gap-3 mb-4">
-                  <div className="w-10 h-10 bg-[#f27d24]/20 rounded-lg flex items-center justify-center">
-                    <span className="text-[#f27d24] font-bold">2</span>
+                  <div className="w-10 h-10 bg-white/20 rounded-lg flex items-center justify-center">
+                    <span className="text-white font-bold">2</span>
                   </div>
                   <h3 className="text-xl font-semibold text-white">Bing Places Listing</h3>
                 </div>
                 <p className="text-gray-300 mb-4">
-                  This is essentially your "Google Business Profile for ChatGPT." Visit <span className="text-[#f27d24]">bingplaces.com</span> to claim or create your listing.
+                  This is essentially your "Google Business Profile for ChatGPT." Visit <span className="text-white">bingplaces.com</span> to claim or create your listing.
                 </p>
                 <div className="bg-black/30 rounded-lg p-4 border border-white/10">
                   <h4 className="font-semibold text-white mb-2">Optimization Checklist</h4>
@@ -428,8 +428,8 @@ export default function ChatGPTCantSeeGBP() {
               {/* Yelp */}
               <div className="bg-white/[0.02] border border-white/[0.05] rounded-xl p-6">
                 <div className="flex items-center gap-3 mb-4">
-                  <div className="w-10 h-10 bg-[#f27d24]/20 rounded-lg flex items-center justify-center">
-                    <span className="text-[#f27d24] font-bold">3</span>
+                  <div className="w-10 h-10 bg-white/20 rounded-lg flex items-center justify-center">
+                    <span className="text-white font-bold">3</span>
                   </div>
                   <h3 className="text-xl font-semibold text-white">Yelp Profile</h3>
                 </div>
@@ -451,8 +451,8 @@ export default function ChatGPTCantSeeGBP() {
               {/* Reviews on Website */}
               <div className="bg-white/[0.02] border border-white/[0.05] rounded-xl p-6">
                 <div className="flex items-center gap-3 mb-4">
-                  <div className="w-10 h-10 bg-[#f27d24]/20 rounded-lg flex items-center justify-center">
-                    <span className="text-[#f27d24] font-bold">4</span>
+                  <div className="w-10 h-10 bg-white/20 rounded-lg flex items-center justify-center">
+                    <span className="text-white font-bold">4</span>
                   </div>
                   <h3 className="text-xl font-semibold text-white">Testimonials on Your Website</h3>
                 </div>
@@ -529,7 +529,7 @@ export default function ChatGPTCantSeeGBP() {
               </table>
             </div>
 
-            <div className="bg-gradient-to-br from-[#f27d24]/5 to-[#d66d1f]/5 border border-[#f27d24]/20 rounded-xl p-6">
+            <div className="bg-gradient-to-br from-white/[0.02] to-white/[0.02] border border-white/[0.08] rounded-xl p-6">
               <h4 className="font-semibold text-white mb-3">The Common Denominator</h4>
               <p className="text-gray-300">
                 Notice what every AI platform can access: <span className="text-white font-medium">your website</span>. While the platforms differ in what other sources they use, your website is universally visible. This makes your website the single most important asset for AI visibility across all platforms.
@@ -549,7 +549,7 @@ export default function ChatGPTCantSeeGBP() {
 
             <div className="my-8 space-y-4">
               <div className="flex items-start gap-4 p-4 bg-white/[0.02] border border-white/[0.05] rounded-xl">
-                <div className="flex-shrink-0 w-8 h-8 bg-[#f27d24] rounded-full flex items-center justify-center text-white font-bold">1</div>
+                <div className="flex-shrink-0 w-8 h-8 bg-white rounded-full flex items-center justify-center text-white font-bold">1</div>
                 <div>
                   <h4 className="font-semibold text-white">Optimize Your Website</h4>
                   <p className="text-gray-400 text-sm">Visible to all AI platforms. Clear services, locations, testimonials as text, proper schema markup.</p>
@@ -557,7 +557,7 @@ export default function ChatGPTCantSeeGBP() {
               </div>
 
               <div className="flex items-start gap-4 p-4 bg-white/[0.02] border border-white/[0.05] rounded-xl">
-                <div className="flex-shrink-0 w-8 h-8 bg-[#f27d24] rounded-full flex items-center justify-center text-white font-bold">2</div>
+                <div className="flex-shrink-0 w-8 h-8 bg-white rounded-full flex items-center justify-center text-white font-bold">2</div>
                 <div>
                   <h4 className="font-semibold text-white">Claim Bing Places</h4>
                   <p className="text-gray-400 text-sm">Direct pathway to ChatGPT and Microsoft Copilot. Free, takes 15 minutes, import from Google.</p>
@@ -565,7 +565,7 @@ export default function ChatGPTCantSeeGBP() {
               </div>
 
               <div className="flex items-start gap-4 p-4 bg-white/[0.02] border border-white/[0.05] rounded-xl">
-                <div className="flex-shrink-0 w-8 h-8 bg-[#f27d24] rounded-full flex items-center justify-center text-white font-bold">3</div>
+                <div className="flex-shrink-0 w-8 h-8 bg-white rounded-full flex items-center justify-center text-white font-bold">3</div>
                 <div>
                   <h4 className="font-semibold text-white">Build Yelp Presence</h4>
                   <p className="text-gray-400 text-sm">Frequently cited by ChatGPT. Complete profile, encourage reviews, respond to feedback.</p>
@@ -573,7 +573,7 @@ export default function ChatGPTCantSeeGBP() {
               </div>
 
               <div className="flex items-start gap-4 p-4 bg-white/[0.02] border border-white/[0.05] rounded-xl">
-                <div className="flex-shrink-0 w-8 h-8 bg-[#f27d24] rounded-full flex items-center justify-center text-white font-bold">4</div>
+                <div className="flex-shrink-0 w-8 h-8 bg-white rounded-full flex items-center justify-center text-white font-bold">4</div>
                 <div>
                   <h4 className="font-semibold text-white">Display Reviews on Website</h4>
                   <p className="text-gray-400 text-sm">Makes your Google reviews visible to AI. Add as text, include schema, link to sources.</p>
@@ -581,7 +581,7 @@ export default function ChatGPTCantSeeGBP() {
               </div>
 
               <div className="flex items-start gap-4 p-4 bg-white/[0.02] border border-white/[0.05] rounded-xl">
-                <div className="flex-shrink-0 w-8 h-8 bg-[#f27d24] rounded-full flex items-center justify-center text-white font-bold">5</div>
+                <div className="flex-shrink-0 w-8 h-8 bg-white rounded-full flex items-center justify-center text-white font-bold">5</div>
                 <div>
                   <h4 className="font-semibold text-white">Keep Google Business Profile Updated</h4>
                   <p className="text-gray-400 text-sm">Still essential for Google Search, Maps, and Google AI Overview. Don't neglect it.</p>
@@ -643,21 +643,21 @@ export default function ChatGPTCantSeeGBP() {
           <section className="mb-12">
             <h2 className="text-2xl sm:text-3xl font-semibold mb-6 text-white">Related Articles</h2>
             <div className="grid sm:grid-cols-2 gap-4">
-              <Link href="/blog/do-google-reviews-affect-ai-recommendations" className="bg-white/[0.02] border border-white/[0.05] rounded-xl p-6 hover:border-[#f27d24]/30 transition-colors group">
-                <div className="text-[#f27d24] text-sm font-medium mb-2">Reviews & AI</div>
-                <div className="text-white font-semibold group-hover:text-[#f27d24] transition-colors">Do Google Reviews Affect AI Recommendations?</div>
+              <Link href="/blog/do-google-reviews-affect-ai-recommendations" className="bg-white/[0.02] border border-white/[0.05] rounded-xl p-6 hover:border-white/[0.08] transition-colors group">
+                <div className="text-white text-sm font-medium mb-2">Reviews & AI</div>
+                <div className="text-white font-semibold group-hover:text-white transition-colors">Do Google Reviews Affect AI Recommendations?</div>
               </Link>
-              <Link href="/blog/bing-places-chatgpt-connection" className="bg-white/[0.02] border border-white/[0.05] rounded-xl p-6 hover:border-[#f27d24]/30 transition-colors group">
-                <div className="text-[#f27d24] text-sm font-medium mb-2">Hidden Connection</div>
-                <div className="text-white font-semibold group-hover:text-[#f27d24] transition-colors">Why Bing Places Matters (The ChatGPT Connection)</div>
+              <Link href="/blog/bing-places-chatgpt-connection" className="bg-white/[0.02] border border-white/[0.05] rounded-xl p-6 hover:border-white/[0.08] transition-colors group">
+                <div className="text-white text-sm font-medium mb-2">Hidden Connection</div>
+                <div className="text-white font-semibold group-hover:text-white transition-colors">Why Bing Places Matters (The ChatGPT Connection)</div>
               </Link>
-              <Link href="/blog/check-if-ai-recommends-your-business" className="bg-white/[0.02] border border-white/[0.05] rounded-xl p-6 hover:border-[#f27d24]/30 transition-colors group">
-                <div className="text-[#f27d24] text-sm font-medium mb-2">DIY Guide</div>
-                <div className="text-white font-semibold group-hover:text-[#f27d24] transition-colors">How to Check If AI Recommends Your Business</div>
+              <Link href="/blog/check-if-ai-recommends-your-business" className="bg-white/[0.02] border border-white/[0.05] rounded-xl p-6 hover:border-white/[0.08] transition-colors group">
+                <div className="text-white text-sm font-medium mb-2">DIY Guide</div>
+                <div className="text-white font-semibold group-hover:text-white transition-colors">How to Check If AI Recommends Your Business</div>
               </Link>
-              <Link href="/blog/why-chatgpt-recommends-competitors" className="bg-white/[0.02] border border-white/[0.05] rounded-xl p-6 hover:border-[#f27d24]/30 transition-colors group">
-                <div className="text-[#f27d24] text-sm font-medium mb-2">Problem Solving</div>
-                <div className="text-white font-semibold group-hover:text-[#f27d24] transition-colors">Why ChatGPT Recommends Your Competitors</div>
+              <Link href="/blog/why-chatgpt-recommends-competitors" className="bg-white/[0.02] border border-white/[0.05] rounded-xl p-6 hover:border-white/[0.08] transition-colors group">
+                <div className="text-white text-sm font-medium mb-2">Problem Solving</div>
+                <div className="text-white font-semibold group-hover:text-white transition-colors">Why ChatGPT Recommends Your Competitors</div>
               </Link>
             </div>
           </section>
@@ -670,7 +670,7 @@ export default function ChatGPTCantSeeGBP() {
             </p>
             <Link
               href="/#contact"
-              className="inline-flex items-center gap-2 bg-gradient-to-r from-[#f27d24] to-[#d66d1f] text-white font-semibold px-8 py-4 rounded-xl hover:opacity-90 transition-opacity"
+              className="inline-flex items-center gap-2 bg-gradient-to-r from-white to-white text-white font-semibold px-8 py-4 rounded-xl hover:opacity-90 transition-opacity"
             >
               Get Your Free AEO Audit
               <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={2}>

@@ -53,6 +53,8 @@ export default function About() {
   const storyAnim = useScrollAnimation();
   const missionAnim = useScrollAnimation();
   const approachAnim = useScrollAnimation();
+  const founderAnim = useScrollAnimation();
+  const resultsAnim = useScrollAnimation();
   const ctaAnim = useScrollAnimation();
 
   return (
@@ -65,14 +67,14 @@ export default function About() {
 
         *:focus-visible {
           outline: none;
-          box-shadow: 0 0 0 2px #0F1117, 0 0 0 4px #f27d24;
+          box-shadow: 0 0 0 2px #0F1117, 0 0 0 4px rgba(255,255,255,0.4);
           border-radius: 8px;
           transition: box-shadow 200ms var(--ease-out-quart);
         }
 
         button:focus-visible, a:focus-visible {
           outline: none;
-          box-shadow: 0 0 0 2px #0F1117, 0 0 0 4px #f27d24, 0 0 20px rgba(242, 125, 36, 0.3);
+          box-shadow: 0 0 0 2px #0F1117, 0 0 0 4px rgba(255,255,255,0.4), ;
         }
 
         .font-heading {
@@ -152,7 +154,7 @@ export default function About() {
       />
 
       <main className="min-h-screen bg-[#0F1117] relative">
-        <div className="absolute inset-0 bg-gradient-to-b from-purple-950/5 via-transparent to-orange-950/5 pointer-events-none" />
+        {/* removed gradient overlay */}
 
         <div className="max-w-4xl mx-auto px-6 py-16 sm:py-24 relative">
           {/* Back to Home */}
@@ -183,20 +185,15 @@ export default function About() {
               </Link>
             </div>
 
-            <div className="inline-flex items-center gap-2 px-4 py-2 rounded-xl mb-6 bg-[#362478]/10 border border-[#362478]/20">
-              <div className="w-2 h-2 rounded-full bg-[#362478]" />
-              <span className="text-sm font-semibold tracking-wider uppercase text-[#a89bd9]">About Us</span>
-            </div>
+            <p className="text-sm text-white/30 uppercase tracking-widest mb-6">About</p>
 
-            <h1 className="text-3xl sm:text-4xl lg:text-5xl font-semibold mb-6 leading-tight text-white font-heading">
-              We Make AI Recommend
-              <span className="block text-transparent bg-clip-text bg-gradient-to-r from-[#f27d24] to-[#d66d1f]">
-                Your Business
-              </span>
+            <h1 className="text-3xl sm:text-4xl lg:text-5xl font-semibold mb-6 leading-tight text-white font-heading tracking-tight">
+              We make AI recommend<br />
+              <span className="text-white/40">your business.</span>
             </h1>
 
-            <p className="text-lg sm:text-xl text-gray-400 max-w-2xl mx-auto leading-relaxed">
-              The Answer Engine is the leading Answer Engine Optimization agency for local service businesses who want to dominate AI search.
+            <p className="text-lg text-white/40 max-w-lg mx-auto leading-relaxed">
+              Answer Engine Optimization for local service businesses who want to be the answer AI recommends.
             </p>
           </header>
 
@@ -220,12 +217,11 @@ export default function About() {
                   If you're not that answer, you're invisible.
                 </p>
 
-                <div className="bg-white/[0.03] backdrop-blur-xl border-l-4 border-[#f27d24] p-6 rounded-r-xl">
-                  <p className="text-white font-medium mb-2">The harsh reality:</p>
-                  <p className="text-gray-300">
-                    Most local businesses have spent years building SEO strategies designed for the old Google.
-                    But AI engines work differently. They don't rank pages. They cite authorities.
-                    And right now, your competitors are probably getting cited instead of you.
+                <div className="border-l border-white/[0.10] pl-6 py-2">
+                  <p className="text-white/60 leading-relaxed">
+                    Most local businesses have spent years optimizing for the old Google.
+                    But AI engines work differently. They don&apos;t rank pages &mdash; they cite authorities.
+                    Your competitors are probably getting cited instead of you.
                   </p>
                 </div>
               </div>
@@ -233,35 +229,32 @@ export default function About() {
           </section>
 
           {/* Separator */}
-          <div className="max-w-xs mx-auto h-px bg-gradient-to-r from-transparent via-white/10 to-transparent mb-16 sm:mb-20" />
+          <div className="max-w-xs mx-auto h-px bg-gradient-to-r from-transparent via-white/[0.06] to-transparent mb-16 sm:mb-20" />
 
           {/* Mission Section */}
           <section className="mb-16 sm:mb-20">
             <div
               ref={missionAnim.ref}
-              className={`bg-white/[0.03] backdrop-blur-xl border border-white/[0.08] rounded-2xl p-8 sm:p-12 transition-all duration-700 ease-out ${
+              className={`border border-white/[0.06] rounded-2xl p-8 sm:p-12 transition-all duration-700 ease-out ${
                 missionAnim.isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'
               }`}
             >
-              <div className="text-center mb-8">
-                <div className="inline-flex items-center gap-2 px-4 py-2 rounded-xl mb-4 bg-[#f27d24]/10 border border-[#f27d24]/20">
-                  <div className="w-2 h-2 rounded-full bg-[#f27d24]" />
-                  <span className="text-sm font-semibold tracking-wider uppercase text-[#f27d24]">Our Mission</span>
-                </div>
-                <h2 className="text-2xl sm:text-3xl font-semibold text-white font-heading">
-                  Position Local Experts as AI-Cited Authorities
+              <div className="text-center mb-6">
+                <p className="text-sm text-white/30 uppercase tracking-widest mb-4">Mission</p>
+                <h2 className="text-2xl sm:text-3xl font-semibold text-white font-heading tracking-tight">
+                  Position local experts as AI-cited authorities
                 </h2>
               </div>
 
-              <p className="text-center text-lg text-gray-300 leading-relaxed max-w-2xl mx-auto">
-                We help local service businesses become the trusted source that AI platforms cite when prospects ask buying questions.
-                Not through tricks or hacks, but through genuine authority positioning.
+              <p className="text-center text-white/40 leading-relaxed max-w-lg mx-auto">
+                We help local service businesses become the trusted source that AI cites.
+                Not through tricks &mdash; through genuine authority positioning.
               </p>
             </div>
           </section>
 
           {/* Separator */}
-          <div className="max-w-xs mx-auto h-px bg-gradient-to-r from-transparent via-white/10 to-transparent mb-16 sm:mb-20" />
+          <div className="max-w-xs mx-auto h-px bg-gradient-to-r from-transparent via-white/[0.06] to-transparent mb-16 sm:mb-20" />
 
           {/* Our Approach Section */}
           <section className="mb-16 sm:mb-20">
@@ -314,16 +307,13 @@ export default function About() {
                 ].map((item, i) => (
                   <div
                     key={i}
-                    className={`hover-lift bg-white/[0.03] backdrop-blur-xl border border-white/[0.08] rounded-2xl p-6 transition-all duration-500 ${
+                    className={`border border-white/[0.06] rounded-2xl p-6 transition-all duration-500 ${
                       approachAnim.isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-6'
                     }`}
                     style={{ transitionDelay: approachAnim.isVisible ? `${100 + i * 100}ms` : '0ms' }}
                   >
-                    <div className="inline-flex items-center justify-center w-12 h-12 rounded-xl mb-4 bg-[#f27d24]/10 border border-[#f27d24]/20 text-[#f27d24]">
-                      {item.icon}
-                    </div>
                     <h3 className="text-lg font-semibold text-white mb-2 font-heading">{item.title}</h3>
-                    <p className="text-gray-400 text-sm leading-relaxed">{item.description}</p>
+                    <p className="text-white/40 text-sm leading-relaxed">{item.description}</p>
                   </div>
                 ))}
               </div>
@@ -331,38 +321,119 @@ export default function About() {
           </section>
 
           {/* Separator */}
-          <div className="max-w-xs mx-auto h-px bg-gradient-to-r from-transparent via-white/10 to-transparent mb-16 sm:mb-20" />
+          <div className="max-w-xs mx-auto h-px bg-gradient-to-r from-transparent via-white/[0.06] to-transparent mb-16 sm:mb-20" />
+
+          {/* Founder Section */}
+          <section className="mb-16 sm:mb-20">
+            <div
+              ref={founderAnim.ref}
+              className={`transition-all duration-700 ease-out ${
+                founderAnim.isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'
+              }`}
+            >
+              <div className="bg-white/[0.03] backdrop-blur-xl border border-white/[0.08] rounded-2xl p-8 sm:p-12">
+                <div className="flex flex-col sm:flex-row items-center sm:items-start gap-8">
+                  <div className="flex-shrink-0">
+                    <div className="w-24 h-24 rounded-2xl bg-white/[0.04] border border-white/[0.08] flex items-center justify-center">
+                      <span className="text-3xl font-heading text-white">JB</span>
+                    </div>
+                  </div>
+                  <div>
+                    <span className="text-xs font-medium tracking-widest uppercase text-white/30 mb-3 block">Founder</span>
+                    <h3 className="text-xl sm:text-2xl font-heading text-white mb-3">Justin Borges</h3>
+                    <p className="text-white/50 leading-relaxed mb-4">
+                      Before building The Answer Engine, JB spent 13+ years in real estate, building a team that closed $200M+ in sales across LA County. When AI started reshaping how customers find businesses, he didn&apos;t wait — he built the system that now powers AI visibility for local service businesses nationwide.
+                    </p>
+                    <div className="flex flex-wrap gap-4 text-sm text-white/40">
+                      <span className="flex items-center gap-1.5">
+                        <div className="w-1 h-1 rounded-full bg-white/30" />
+                        13+ Years in Business
+                      </span>
+                      <span className="flex items-center gap-1.5">
+                        <div className="w-1 h-1 rounded-full bg-white/30" />
+                        $200M+ in Sales
+                      </span>
+                      <span className="flex items-center gap-1.5">
+                        <div className="w-1 h-1 rounded-full bg-white/30" />
+                        100% AI Citation Rate
+                      </span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          {/* Separator */}
+          <div className="max-w-xs mx-auto h-px bg-gradient-to-r from-transparent via-white/[0.06] to-transparent mb-16 sm:mb-20" />
+
+          {/* Results Stats Bar */}
+          <section className="mb-16 sm:mb-20">
+            <div
+              ref={resultsAnim.ref}
+              className={`transition-all duration-700 ease-out ${
+                resultsAnim.isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'
+              }`}
+            >
+              <div className="text-center mb-8">
+                <h2 className="text-2xl sm:text-3xl font-heading text-white">Results That Speak</h2>
+              </div>
+              <div className="grid grid-cols-2 sm:grid-cols-4 gap-4">
+                {[
+                  { value: '8,400+', label: 'Monthly Clicks', color: 'text-white' },
+                  { value: '1.1M+', label: 'Impressions', color: 'text-white' },
+                  { value: '100%', label: 'AI Citation Rate', color: 'text-white' },
+                  { value: '90-Day', label: 'Guarantee', color: 'text-white' },
+                ].map((stat, i) => (
+                  <div
+                    key={i}
+                    className={`bg-white/[0.03] border border-white/[0.08] rounded-2xl p-6 text-center transition-all duration-500 ${
+                      resultsAnim.isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-4'
+                    }`}
+                    style={{ transitionDelay: resultsAnim.isVisible ? `${i * 100}ms` : '0ms' }}
+                  >
+                    <div className={`text-2xl sm:text-3xl font-heading ${stat.color} mb-1`}>{stat.value}</div>
+                    <div className="text-xs sm:text-sm text-gray-500 uppercase tracking-wider">{stat.label}</div>
+                  </div>
+                ))}
+              </div>
+            </div>
+          </section>
+
+          {/* Separator */}
+          <div className="max-w-xs mx-auto h-px bg-gradient-to-r from-transparent via-white/[0.06] to-transparent mb-16 sm:mb-20" />
 
           {/* CTA Section */}
           <section>
             <div
               ref={ctaAnim.ref}
-              className={`bg-gradient-to-br from-[#f27d24]/10 to-[#d66d1f]/10 border-2 border-[#f27d24]/30 rounded-3xl p-8 sm:p-12 lg:p-16 text-center hover-lift transition-all duration-700 ease-out ${
+              className={`border border-white/[0.08] rounded-2xl p-8 sm:p-12 lg:p-16 text-center transition-all duration-700 ease-out ${
                 ctaAnim.isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'
               }`}
             >
-              <h2 className="text-2xl sm:text-3xl lg:text-4xl font-semibold mb-6 text-white leading-tight font-heading">
-                Ready to Become the Answer?
+              <h2 className="text-2xl sm:text-3xl lg:text-4xl font-semibold mb-4 leading-tight font-heading">
+                <span className="text-white">Ready to become</span>{' '}
+                <span className="text-white/40">the answer?</span>
               </h2>
 
-              <p className="text-lg sm:text-xl text-gray-300 mb-8 max-w-2xl mx-auto leading-relaxed">
-                Check if your territory is available and discover where you're losing to competitors in AI citations.
+              <p className="text-base sm:text-lg text-white/50 mb-8 max-w-xl mx-auto leading-relaxed">
+                Check if your territory is available and see where competitors are winning AI citations.
               </p>
 
-              <div className="flex flex-col sm:flex-row gap-4 justify-center">
+              <div className="flex flex-col sm:flex-row gap-3 justify-center">
                 <Link
                   href="/#territory-check"
-                  className="inline-flex items-center justify-center gap-3 px-8 sm:px-10 py-4 sm:py-5 rounded-xl text-base sm:text-lg font-semibold text-white transition-all duration-300 shadow-[0_4px_24px_rgba(242,125,36,0.3)] hover:shadow-[0_8px_32px_rgba(242,125,36,0.4)] hover:-translate-y-0.5 active:scale-[0.98] bg-[#f27d24] hover:bg-[#d66d1f]"
+                  className="group inline-flex items-center justify-center gap-2.5 px-7 py-3.5 bg-white text-[#0F1117] rounded-xl font-semibold text-[15px] hover:bg-white/90 transition-all duration-200 active:scale-[0.98]"
                 >
-                  Check Your Territory
-                  <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={2} aria-hidden="true">
+                  Check Territory
+                  <svg className="w-4 h-4 transition-transform duration-200 group-hover:translate-x-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={2} aria-hidden="true">
                     <path strokeLinecap="round" strokeLinejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3" />
                   </svg>
                 </Link>
 
                 <Link
                   href="/case-studies"
-                  className="inline-flex items-center justify-center gap-3 px-8 py-4 rounded-xl text-base sm:text-lg font-semibold text-white transition-all duration-300 bg-white/[0.05] hover:bg-white/[0.08] border border-white/[0.1] hover:border-white/[0.15]"
+                  className="inline-flex items-center justify-center gap-2.5 px-7 py-3.5 rounded-xl font-medium text-[15px] text-white/60 hover:text-white border border-white/[0.08] hover:border-white/[0.15] transition-all duration-200"
                 >
                   View Case Studies
                 </Link>
@@ -374,7 +445,7 @@ export default function About() {
           <div className="mt-12 text-center">
             <Link
               href="/"
-              className="inline-flex items-center gap-2 text-gray-500 hover:text-white transition-colors text-sm"
+              className="inline-flex items-center gap-2 text-white/30 hover:text-white/60 transition-colors text-sm"
             >
               <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={2} aria-hidden="true">
                 <path strokeLinecap="round" strokeLinejoin="round" d="M10.5 19.5L3 12m0 0l7.5-7.5M3 12h18" />

@@ -52,6 +52,21 @@ const useScrollAnimation = (): { ref: RefObject<HTMLDivElement | null>; isVisibl
 export default function Contact() {
   const cardsAnim = useScrollAnimation();
   const strategyAnim = useScrollAnimation();
+  const faqAnim = useScrollAnimation();
+  const [expandedFaq, setExpandedFaq] = useState<number | null>(null);
+
+  // Mouse glow handlers for hover-lift cards
+  const handleCardMouseMove = (e: React.MouseEvent<HTMLElement>) => {
+    const rect = e.currentTarget.getBoundingClientRect();
+    const x = ((e.clientX - rect.left) / rect.width) * 100;
+    const y = ((e.clientY - rect.top) / rect.height) * 100;
+    e.currentTarget.style.setProperty('--mouse-x', `${x}%`);
+    e.currentTarget.style.setProperty('--mouse-y', `${y}%`);
+  };
+  const handleCardMouseLeave = (e: React.MouseEvent<HTMLElement>) => {
+    e.currentTarget.style.setProperty('--mouse-x', '50%');
+    e.currentTarget.style.setProperty('--mouse-y', '50%');
+  };
 
   return (
     <>
@@ -63,14 +78,14 @@ export default function Contact() {
 
         *:focus-visible {
           outline: none;
-          box-shadow: 0 0 0 2px #0F1117, 0 0 0 4px #f27d24;
+          box-shadow: 0 0 0 2px #0F1117, 0 0 0 4px rgba(255,255,255,0.4);
           border-radius: 8px;
           transition: box-shadow 200ms var(--ease-out-quart);
         }
 
         button:focus-visible, a:focus-visible {
           outline: none;
-          box-shadow: 0 0 0 2px #0F1117, 0 0 0 4px #f27d24, 0 0 20px rgba(242, 125, 36, 0.3);
+          box-shadow: 0 0 0 2px #0F1117, 0 0 0 4px rgba(255,255,255,0.4);
         }
 
         .font-heading {
@@ -183,7 +198,6 @@ export default function Contact() {
       />
 
       <main className="min-h-screen bg-[#0F1117] relative pb-24 md:pb-0">
-        <div className="absolute inset-0 bg-gradient-to-b from-purple-950/5 via-transparent to-orange-950/5 pointer-events-none" />
 
         <div className="max-w-4xl mx-auto px-6 py-16 sm:py-24 relative">
           {/* Header */}
@@ -192,7 +206,7 @@ export default function Contact() {
             <div className="flex justify-center mb-8">
               <Link
                 href="/"
-                className="inline-flex items-center gap-2 text-gray-500 hover:text-gray-300 transition-colors text-sm"
+                className="inline-flex items-center gap-2 text-white/30 hover:text-white/60 transition-colors text-sm"
               >
                 <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={2} aria-hidden="true">
                   <path strokeLinecap="round" strokeLinejoin="round" d="M10.5 19.5L3 12m0 0l7.5-7.5M3 12h18" />
@@ -215,10 +229,8 @@ export default function Contact() {
             </div>
 
             <h1 className="text-3xl sm:text-4xl lg:text-5xl font-semibold mb-6 leading-tight text-white font-heading">
-              <span className="block">Get Started with</span>
-              <span className="block text-transparent bg-clip-text bg-gradient-to-r from-[#f27d24] to-[#d66d1f]">
-                Answer Engine Optimization
-              </span>
+              <span className="block">Get started with</span>
+              <span className="block text-white/40">Answer Engine Optimization</span>
             </h1>
 
             <p className="text-lg sm:text-xl text-gray-400 max-w-2xl mx-auto leading-relaxed">
@@ -238,10 +250,12 @@ export default function Contact() {
                 cardsAnim.isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-6'
               }`}
               style={{ transitionDelay: cardsAnim.isVisible ? '100ms' : '0ms' }}
+              onMouseMove={handleCardMouseMove}
+              onMouseLeave={handleCardMouseLeave}
             >
               <div className="text-center">
-                <div className="inline-flex items-center justify-center w-14 h-14 rounded-xl mb-5 bg-[#f27d24]/10 border border-[#f27d24]/20 ring-4 ring-[#f27d24]/5">
-                  <svg className="w-7 h-7 text-[#f27d24]" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={2} aria-hidden="true">
+                <div className="inline-flex items-center justify-center w-14 h-14 rounded-xl mb-5 bg-white/[0.04] border border-white/[0.08]">
+                  <svg className="w-7 h-7 text-white/60" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={2} aria-hidden="true">
                     <path strokeLinecap="round" strokeLinejoin="round" d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 002.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035 12.035 0 01-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 00-1.091-.852H4.5A2.25 2.25 0 002.25 4.5v2.25z" />
                   </svg>
                 </div>
@@ -256,7 +270,7 @@ export default function Contact() {
 
                 <a
                   href="tel:+12134442229"
-                  className="inline-block text-2xl sm:text-3xl font-semibold text-[#f27d24] hover:text-[#d66d1f] transition-colors font-heading"
+                  className="inline-block text-2xl sm:text-3xl font-semibold text-white hover:text-white/80 transition-colors font-heading"
                 >
                   (213) 444-2229
                 </a>
@@ -268,10 +282,12 @@ export default function Contact() {
                 cardsAnim.isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-6'
               }`}
               style={{ transitionDelay: cardsAnim.isVisible ? '200ms' : '0ms' }}
+              onMouseMove={handleCardMouseMove}
+              onMouseLeave={handleCardMouseLeave}
             >
               <div className="text-center">
-                <div className="inline-flex items-center justify-center w-14 h-14 rounded-xl mb-5 bg-[#362478]/10 border border-[#362478]/20 ring-4 ring-[#362478]/5">
-                  <svg className="w-7 h-7 text-[#a89bd9]" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={2} aria-hidden="true">
+                <div className="inline-flex items-center justify-center w-14 h-14 rounded-xl mb-5 bg-white/[0.04] border border-white/[0.08]">
+                  <svg className="w-7 h-7 text-white/60" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={2} aria-hidden="true">
                     <path strokeLinecap="round" strokeLinejoin="round" d="M21.75 6.75v10.5a2.25 2.25 0 01-2.25 2.25h-15a2.25 2.25 0 01-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0019.5 4.5h-15a2.25 2.25 0 00-2.25 2.25m19.5 0v.243a2.25 2.25 0 01-1.07 1.916l-7.5 4.615a2.25 2.25 0 01-2.36 0L3.32 8.91a2.25 2.25 0 01-1.07-1.916V6.75" />
                   </svg>
                 </div>
@@ -286,7 +302,7 @@ export default function Contact() {
 
                 <a
                   href="mailto:support@theanswerengine.ai"
-                  className="inline-block text-base sm:text-lg font-medium text-[#a89bd9] hover:text-[#9989c9] transition-colors break-all"
+                  className="inline-block text-base sm:text-lg font-medium text-white hover:text-white/80 transition-colors break-all"
                 >
                   support@theanswerengine.ai
                 </a>
@@ -295,7 +311,7 @@ export default function Contact() {
           </div>
 
           {/* Separator */}
-          <div className="max-w-xs mx-auto h-px bg-gradient-to-r from-transparent via-white/10 to-transparent mb-20" />
+          <div className="max-w-xs mx-auto h-px bg-gradient-to-r from-transparent via-white/[0.06] to-transparent mb-20" />
 
           {/* Strategy Call Section */}
           <div
@@ -305,10 +321,7 @@ export default function Contact() {
             }`}
           >
             <div className="text-center mb-10">
-              <div className="inline-flex items-center gap-2 px-4 py-2 rounded-xl mb-6 bg-[#f27d24]/10 border border-[#f27d24]/20">
-                <div className="w-2 h-2 rounded-full bg-[#f27d24]" />
-                <span className="text-sm font-semibold tracking-wider uppercase text-[#f27d24]">Free Consultation</span>
-              </div>
+              <span className="text-sm font-medium tracking-widest uppercase text-white/30 mb-6 block">Free Consultation</span>
 
               <h2 className="text-2xl sm:text-3xl lg:text-4xl font-semibold mb-4 text-white leading-tight font-heading">
                 30-Minute AEO Strategy Call
@@ -332,8 +345,8 @@ export default function Contact() {
                   }`}
                   style={{ transitionDelay: strategyAnim.isVisible ? `${200 + i * 100}ms` : '0ms' }}
                 >
-                  <div className="flex-shrink-0 w-6 h-6 rounded-lg flex items-center justify-center bg-emerald-500/20 border border-emerald-500/20 mt-0.5">
-                    <svg className="w-4 h-4 text-emerald-400" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2} aria-hidden="true">
+                  <div className="flex-shrink-0 w-6 h-6 rounded-lg flex items-center justify-center bg-white/[0.06] border border-white/[0.08] mt-0.5">
+                    <svg className="w-4 h-4 text-white/60" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2} aria-hidden="true">
                       <path strokeLinecap="round" strokeLinejoin="round" d="M5 13l4 4L19 7" />
                     </svg>
                   </div>
@@ -345,7 +358,7 @@ export default function Contact() {
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a
                 href="tel:+12134442229"
-                className="group inline-flex items-center justify-center gap-3 px-8 py-4 bg-gradient-to-r from-[#f27d24] to-[#d66d1f] rounded-xl text-base sm:text-lg font-semibold text-white shadow-[0_0_30px_rgba(242,125,36,0.3)] hover:shadow-[0_0_50px_rgba(242,125,36,0.5)] transition-all duration-500 hover:scale-[1.02] active:scale-[0.98]"
+                className="group inline-flex items-center justify-center gap-3 px-8 py-4 bg-white text-[#0F1117] rounded-xl text-base sm:text-lg font-semibold hover:bg-white/90 transition-all duration-200 active:scale-[0.98]"
               >
                 <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={2} aria-hidden="true">
                   <path strokeLinecap="round" strokeLinejoin="round" d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 002.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035 12.035 0 01-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 00-1.091-.852H4.5A2.25 2.25 0 002.25 4.5v2.25z" />
@@ -367,7 +380,7 @@ export default function Contact() {
             {/* Guarantee Note */}
             <div className="mt-10 pt-8 border-t border-white/[0.06] text-center">
               <div className="inline-flex items-center gap-2 text-gray-400 text-sm">
-                <svg className="w-5 h-5 text-emerald-400" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={2} aria-hidden="true">
+                <svg className="w-5 h-5 text-white/40" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={2} aria-hidden="true">
                   <path strokeLinecap="round" strokeLinejoin="round" d="M9 12.75L11.25 15 15 9.75m-3-7.036A11.959 11.959 0 013.598 6 11.99 11.99 0 003 9.749c0 5.592 3.824 10.29 9 11.623 5.176-1.332 9-6.03 9-11.622 0-1.31-.21-2.571-.598-3.751h-.152c-3.196 0-6.1-1.248-8.25-3.285z" />
                 </svg>
                 <span>
@@ -377,16 +390,66 @@ export default function Contact() {
             </div>
           </div>
 
+          {/* Mini FAQ */}
+          <div
+            ref={faqAnim.ref}
+            className={`mt-16 transition-all duration-700 ease-out ${
+              faqAnim.isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'
+            }`}
+          >
+            <h3 className="text-xl font-heading text-white mb-6 text-center">Common Questions</h3>
+            <div className="space-y-3">
+              {[
+                {
+                  q: 'What happens on the strategy call?',
+                  a: 'We test your business across ChatGPT, Claude, and Google AI right on the call. You\'ll see exactly who AI recommends instead of you, and we\'ll map out a 90-day plan to change that.',
+                },
+                {
+                  q: 'How long does it take to see results?',
+                  a: 'Most clients see their first AI citations within 60-90 days. That\'s why we back everything with a 90-day guarantee.',
+                },
+                {
+                  q: 'Do you work with businesses outside the US?',
+                  a: 'Currently we focus on US-based local service businesses, as AI citation patterns and data sources vary significantly by region.',
+                },
+              ].map((item, i) => (
+                <button
+                  key={i}
+                  onClick={() => setExpandedFaq(expandedFaq === i ? null : i)}
+                  className="w-full text-left bg-white/[0.02] border border-white/[0.06] rounded-xl p-5 hover:border-white/[0.1] transition-all duration-300"
+                >
+                  <div className="flex items-center justify-between gap-4">
+                    <span className="text-white font-medium text-sm sm:text-base">{item.q}</span>
+                    <svg
+                      className={`w-5 h-5 text-gray-500 flex-shrink-0 transition-transform duration-300 ${expandedFaq === i ? 'rotate-180' : ''}`}
+                      fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={2}
+                    >
+                      <path strokeLinecap="round" strokeLinejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5" />
+                    </svg>
+                  </div>
+                  <div
+                    className="grid transition-[grid-template-rows] duration-500 ease-out"
+                    style={{ gridTemplateRows: expandedFaq === i ? '1fr' : '0fr' }}
+                  >
+                    <div className={`overflow-hidden min-h-0 transition-opacity duration-300 ${expandedFaq === i ? 'opacity-100' : 'opacity-0'}`}>
+                      <p className="mt-3 text-gray-400 text-sm leading-relaxed">{item.a}</p>
+                    </div>
+                  </div>
+                </button>
+              ))}
+            </div>
+          </div>
+
           {/* Info Footer */}
           <div className="mt-12 text-center">
             <div className="inline-flex flex-col sm:flex-row items-center gap-4 sm:gap-6 text-sm text-gray-500">
               <div className="flex items-center gap-2">
-                <div className="w-1.5 h-1.5 rounded-full bg-emerald-500" />
+                <div className="w-1.5 h-1.5 rounded-full bg-white/30" />
                 <span><span className="text-gray-400">Response:</span> Within 2 hours (business hours)</span>
               </div>
               <div className="hidden sm:block w-px h-4 bg-white/10" />
               <div className="flex items-center gap-2">
-                <div className="w-1.5 h-1.5 rounded-full bg-[#f27d24]" />
+                <div className="w-1.5 h-1.5 rounded-full bg-white/30" />
                 <span><span className="text-gray-400">Hours:</span> Mon-Fri, 9 AM - 6 PM PT</span>
               </div>
             </div>
@@ -396,7 +459,7 @@ export default function Contact() {
           <div className="mt-12 text-center">
             <Link
               href="/"
-              className="inline-flex items-center gap-2 text-gray-500 hover:text-white transition-colors text-sm"
+              className="inline-flex items-center gap-2 text-white/30 hover:text-white/60 transition-colors text-sm"
             >
               <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={2} aria-hidden="true">
                 <path strokeLinecap="round" strokeLinejoin="round" d="M10.5 19.5L3 12m0 0l7.5-7.5M3 12h18" />
@@ -411,7 +474,7 @@ export default function Contact() {
           <div className="flex gap-3">
             <a
               href="tel:+12134442229"
-              className="flex-1 flex items-center justify-center gap-2 py-3.5 rounded-xl font-semibold bg-gradient-to-r from-[#f27d24] to-[#d66d1f] text-white shadow-[0_0_20px_rgba(242,125,36,0.3)] active:scale-[0.98] transition-all"
+              className="flex-1 flex items-center justify-center gap-2 py-3.5 rounded-xl font-semibold bg-white text-[#0F1117] active:scale-[0.98] transition-all"
             >
               <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={2} aria-hidden="true">
                 <path strokeLinecap="round" strokeLinejoin="round" d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 002.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035 12.035 0 01-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 00-1.091-.852H4.5A2.25 2.25 0 002.25 4.5v2.25z" />

@@ -350,24 +350,24 @@ export default function AnswerEngineSolutionsPage() {
       <main className="min-h-screen bg-[#0F1117]">
         {/* Hero Section */}
         <section className="relative py-16 sm:py-20 lg:py-24 overflow-hidden">
-          <div className="absolute inset-0 bg-gradient-to-b from-orange-500/5 via-transparent to-transparent" />
-          <div className="absolute top-20 left-10 w-2 h-2 bg-orange-500/40 rounded-full" />
-          <div className="absolute top-40 right-20 w-1 h-1 bg-purple-500/40 rounded-full" />
-          <div className="absolute bottom-20 left-1/4 w-1.5 h-1.5 bg-orange-500/30 rounded-full" />
+          <div className="absolute inset-0 bg-gradient-to-b from-white/[0.03] via-transparent to-transparent" />
+          <div className="absolute top-20 left-10 w-2 h-2 bg-white/20 rounded-full" />
+          <div className="absolute top-40 right-20 w-1 h-1 bg-white/15 rounded-full" />
+          <div className="absolute bottom-20 left-1/4 w-1.5 h-1.5 bg-white/15 rounded-full" />
           
           <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 relative">
             {/* Breadcrumb */}
             <nav className="flex items-center space-x-2 text-sm text-gray-400 mb-8">
-              <Link href="/" className="hover:text-orange-400 transition-colors">Home</Link>
+              <Link href="/" className="hover:text-white/60 transition-colors">Home</Link>
               <span>/</span>
-              <Link href="/blog" className="hover:text-orange-400 transition-colors">Blog</Link>
+              <Link href="/blog" className="hover:text-white/60 transition-colors">Blog</Link>
               <span>/</span>
               <span className="text-gray-500">Answer Engine Solutions</span>
             </nav>
 
             {/* Category & Read Time */}
             <div className="flex items-center space-x-4 mb-6">
-              <span className="px-3 py-1 bg-orange-500/10 text-orange-400 text-sm font-medium rounded-full border border-orange-500/20">
+              <span className="px-3 py-1 bg-white/40/10 text-white/60 text-sm font-medium rounded-full border border-white/[0.15]/20">
                 AEO Fundamentals
               </span>
               <span className="text-gray-400 text-sm">9 min read</span>
@@ -375,15 +375,15 @@ export default function AnswerEngineSolutionsPage() {
 
             {/* Pixel Divider */}
             <div className="flex items-center space-x-1 mb-6">
-              <div className="w-8 h-1 bg-gradient-to-r from-orange-500 to-orange-400" />
-              <div className="w-2 h-2 bg-orange-500" />
-              <div className="w-1 h-1 bg-orange-400" />
+              <div className="w-8 h-1 bg-gradient-to-r from-white/40 to-white/60" />
+              <div className="w-2 h-2 bg-white/40" />
+              <div className="w-1 h-1 bg-white/60" />
             </div>
 
             {/* Title */}
             <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-white mb-6 leading-tight">
               Answer Engine Solutions for Local Service Businesses
-              <span className="text-orange-400"> (2025 Guide)</span>
+              <span className="text-white/60"> (2025 Guide)</span>
             </h1>
 
             {/* Intro/Snippet */}
@@ -393,7 +393,7 @@ export default function AnswerEngineSolutionsPage() {
 
             {/* Author & Date */}
             <div className="flex items-center space-x-4 text-sm text-gray-400">
-              <span>By <span className="text-orange-400">Justin Borges</span>, Founder of The Answer Engine</span>
+              <span>By <span className="text-white/60">Justin Borges</span>, Founder of The Answer Engine</span>
               <span>•</span>
               <span>Updated December 2025</span>
             </div>
@@ -404,10 +404,10 @@ export default function AnswerEngineSolutionsPage() {
         <article className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 pb-16">
           <div className="prose prose-lg prose-invert max-w-none 
             prose-headings:text-white prose-headings:font-bold
-            prose-h2:text-2xl prose-h2:mt-12 prose-h2:mb-6 prose-h2:text-orange-400
+            prose-h2:text-2xl prose-h2:mt-12 prose-h2:mb-6 prose-h2:text-white/60
             prose-h3:text-xl prose-h3:mt-8 prose-h3:mb-4
             prose-p:text-gray-300 prose-p:leading-relaxed
-            prose-a:text-orange-400 prose-a:no-underline hover:prose-a:underline
+            prose-a:text-white/60 prose-a:no-underline hover:prose-a:underline
             prose-strong:text-white
             prose-li:text-gray-300
             prose-ul:my-6 prose-ol:my-6">
@@ -554,32 +554,32 @@ export default function AnswerEngineSolutionsPage() {
                   <tr className="border-b border-gray-800">
                     <td className="py-4 px-4 text-gray-300">Time investment</td>
                     <td className="py-4 px-4 text-gray-400">100+ hours</td>
-                    <td className="py-4 px-4 text-orange-400">Minimal (we handle it)</td>
+                    <td className="py-4 px-4 text-white/60">Minimal (we handle it)</td>
                   </tr>
                   <tr className="border-b border-gray-800">
                     <td className="py-4 px-4 text-gray-300">Content quality</td>
                     <td className="py-4 px-4 text-gray-400">Variable</td>
-                    <td className="py-4 px-4 text-orange-400">95%+ audit scores</td>
+                    <td className="py-4 px-4 text-white/60">95%+ audit scores</td>
                   </tr>
                   <tr className="border-b border-gray-800">
                     <td className="py-4 px-4 text-gray-300">Schema implementation</td>
                     <td className="py-4 px-4 text-gray-400">Often incomplete</td>
-                    <td className="py-4 px-4 text-orange-400">Comprehensive 7-type markup</td>
+                    <td className="py-4 px-4 text-white/60">Comprehensive 7-type markup</td>
                   </tr>
                   <tr className="border-b border-gray-800">
                     <td className="py-4 px-4 text-gray-300">Expertise extraction</td>
                     <td className="py-4 px-4 text-gray-400">Nearly impossible solo</td>
-                    <td className="py-4 px-4 text-orange-400">Proprietary methodology</td>
+                    <td className="py-4 px-4 text-white/60">Proprietary methodology</td>
                   </tr>
                   <tr className="border-b border-gray-800">
                     <td className="py-4 px-4 text-gray-300">Typical timeline</td>
                     <td className="py-4 px-4 text-gray-400">6-12 months</td>
-                    <td className="py-4 px-4 text-orange-400">6 weeks</td>
+                    <td className="py-4 px-4 text-white/60">6 weeks</td>
                   </tr>
                   <tr className="border-b border-gray-800">
                     <td className="py-4 px-4 text-gray-300">Cost</td>
                     <td className="py-4 px-4 text-gray-400">"Free" (but time cost)</td>
-                    <td className="py-4 px-4 text-orange-400">$2,997+</td>
+                    <td className="py-4 px-4 text-white/60">$2,997+</td>
                   </tr>
                 </tbody>
               </table>
@@ -615,7 +615,7 @@ export default function AnswerEngineSolutionsPage() {
 
           {/* FAQ Section */}
           <section className="mt-16" id="faq">
-            <h2 className="text-2xl font-bold text-orange-400 mb-8">Frequently Asked Questions</h2>
+            <h2 className="text-2xl font-bold text-white/60 mb-8">Frequently Asked Questions</h2>
             
             <div className="space-y-6">
               <div className="bg-gray-900/50 border border-gray-800 rounded-lg p-6">
@@ -666,7 +666,7 @@ export default function AnswerEngineSolutionsPage() {
           </section>
 
           {/* CTA Section */}
-          <section className="mt-16 bg-gradient-to-r from-orange-500/10 to-purple-500/10 border border-orange-500/20 rounded-xl p-8 text-center">
+          <section className="mt-16 bg-gradient-to-r from-white/[0.06] to-white/[0.06] border border-white/[0.15]/20 rounded-xl p-8 text-center">
             <h2 className="text-2xl font-bold text-white mb-4">
               Ready to Become the Recommended Answer?
             </h2>
@@ -675,7 +675,7 @@ export default function AnswerEngineSolutionsPage() {
             </p>
             <Link 
               href="/contact" 
-              className="inline-flex items-center px-8 py-4 bg-orange-500 hover:bg-orange-600 text-white font-semibold rounded-lg transition-colors"
+              className="inline-flex items-center px-8 py-4 bg-white/40 hover:bg-white/50 text-white font-semibold rounded-lg transition-colors"
             >
               Get Your Free AEO Audit →
             </Link>
@@ -684,7 +684,7 @@ export default function AnswerEngineSolutionsPage() {
           {/* Author Section */}
           <section className="mt-16 pt-8 border-t border-gray-800">
             <div className="flex items-start space-x-4">
-              <div className="w-16 h-16 bg-gradient-to-br from-orange-500 to-purple-500 rounded-full flex-shrink-0" />
+              <div className="w-16 h-16 bg-gradient-to-br from-white/40 to-white/30 rounded-full flex-shrink-0" />
               <div>
                 <h3 className="text-lg font-semibold text-white mb-2">Justin Borges</h3>
                 <p className="text-gray-400 text-sm leading-relaxed">
@@ -699,8 +699,8 @@ export default function AnswerEngineSolutionsPage() {
             <h2 className="text-xl font-bold text-white mb-6">Related Articles</h2>
             <div className="grid md:grid-cols-3 gap-6">
               <Link href="/blog/how-to-get-in-the-answer-engine" className="group">
-                <div className="bg-gray-900/50 border border-gray-800 rounded-lg p-4 hover:border-orange-500/50 transition-colors">
-                  <h3 className="text-white font-semibold group-hover:text-orange-400 transition-colors mb-2">
+                <div className="bg-gray-900/50 border border-gray-800 rounded-lg p-4 hover:border-white/[0.15] transition-colors">
+                  <h3 className="text-white font-semibold group-hover:text-white/60 transition-colors mb-2">
                     How to Get in the Answer Engine
                   </h3>
                   <p className="text-gray-400 text-sm">
@@ -709,8 +709,8 @@ export default function AnswerEngineSolutionsPage() {
                 </div>
               </Link>
               <Link href="/blog/complete-guide-answer-engine-optimization" className="group">
-                <div className="bg-gray-900/50 border border-gray-800 rounded-lg p-4 hover:border-orange-500/50 transition-colors">
-                  <h3 className="text-white font-semibold group-hover:text-orange-400 transition-colors mb-2">
+                <div className="bg-gray-900/50 border border-gray-800 rounded-lg p-4 hover:border-white/[0.15] transition-colors">
+                  <h3 className="text-white font-semibold group-hover:text-white/60 transition-colors mb-2">
                     The Complete Guide to AEO
                   </h3>
                   <p className="text-gray-400 text-sm">
@@ -719,8 +719,8 @@ export default function AnswerEngineSolutionsPage() {
                 </div>
               </Link>
               <Link href="/blog/why-businesses-fail-answer-engine-optimization" className="group">
-                <div className="bg-gray-900/50 border border-gray-800 rounded-lg p-4 hover:border-orange-500/50 transition-colors">
-                  <h3 className="text-white font-semibold group-hover:text-orange-400 transition-colors mb-2">
+                <div className="bg-gray-900/50 border border-gray-800 rounded-lg p-4 hover:border-white/[0.15] transition-colors">
+                  <h3 className="text-white font-semibold group-hover:text-white/60 transition-colors mb-2">
                     Why Most Businesses Fail at AEO
                   </h3>
                   <p className="text-gray-400 text-sm">

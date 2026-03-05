@@ -189,11 +189,10 @@ export default function WhyBusinessesFailAEO() {
 
       <main className="min-h-screen bg-[#0F1117] relative">
         {/* Subtle gradient overlay */}
-        <div className="absolute inset-0 bg-gradient-to-b from-purple-950/10 via-transparent to-orange-950/10 pointer-events-none" />
         
         {/* Simple pixel accent - top corners */}
-        <div className="absolute top-0 left-0 w-2 h-2 bg-orange-500/40" />
-        <div className="absolute top-0 left-2 w-2 h-2 bg-purple-500/40" />
+        <div className="absolute top-0 left-0 w-2 h-2 bg-white/20" />
+        <div className="absolute top-0 left-2 w-2 h-2 bg-white/15" />
 
         <article className="max-w-4xl mx-auto px-6 py-20 sm:py-32 relative">
           {/* Featured Image */}
@@ -201,7 +200,7 @@ export default function WhyBusinessesFailAEO() {
             <img 
               src="/images/why-businesses-fail-aeo-featured.png" 
               alt="Why Most Businesses Fail at Answer Engine Optimization - common mistakes and invisible failures" 
-              className="w-full"
+              className="w-full grayscale brightness-75"
             />
           </div>
 
@@ -209,9 +208,9 @@ export default function WhyBusinessesFailAEO() {
           <header className="mb-16">
             {/* Simple pixel divider */}
             <div className="flex gap-2 mb-8">
-              <div className="w-1.5 h-1.5 bg-orange-500" />
-              <div className="w-1.5 h-1.5 bg-purple-500" />
-              <div className="w-1.5 h-1.5 bg-orange-500" />
+              <div className="w-1.5 h-1.5 bg-white/40" />
+              <div className="w-1.5 h-1.5 bg-white/30" />
+              <div className="w-1.5 h-1.5 bg-white/40" />
             </div>
 
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-light mb-6 leading-tight text-gray-100">
@@ -221,7 +220,7 @@ export default function WhyBusinessesFailAEO() {
               Discover the 8 critical mistakes causing AEO implementations to fail and why businesses waste months on broken optimization without knowing it. Understanding these invisible failures is the difference between AI citation success and expensive trial-and-error.
             </p>
             <div className="flex items-center gap-3 text-sm text-gray-500 font-light">
-              <span className="w-1.5 h-1.5 bg-orange-500/50 rounded-full" />
+              <span className="w-1.5 h-1.5 bg-white/25 rounded-full" />
               <span>Published November 9, 2025</span>
               <span className="text-gray-700">•</span>
               <span>Updated {new Date(lastUpdated).toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' })}</span>
@@ -260,7 +259,7 @@ export default function WhyBusinessesFailAEO() {
               Answer Engine Optimization operates differently. You can implement what seems like proper optimization, publish optimized content, and see absolutely nothing change for months. But you don't know if you're succeeding slowly or failing completely.
             </p>
 
-            <h3 className="text-2xl font-light mt-12 mb-4 text-orange-400">
+            <h3 className="text-2xl font-light mt-12 mb-4 text-white/60">
               The Diagnostic Blindspot
             </h3>
 
@@ -296,7 +295,7 @@ export default function WhyBusinessesFailAEO() {
               The single most common failure pattern is applying traditional SEO tactics to Answer Engine Optimization and expecting similar results.
             </p>
 
-            <h3 className="text-2xl font-light mt-12 mb-4 text-orange-400">
+            <h3 className="text-2xl font-light mt-12 mb-4 text-white/60">
               The Keyword Optimization Trap
             </h3>
 
@@ -334,7 +333,7 @@ export default function WhyBusinessesFailAEO() {
               The business optimizing for keywords gets ignored. The business answering actual questions gets cited.
             </p>
 
-            <h3 className="text-2xl font-light mt-12 mb-4 text-orange-400">
+            <h3 className="text-2xl font-light mt-12 mb-4 text-white/60">
               The Content Volume Assumption
             </h3>
 
@@ -380,7 +379,7 @@ export default function WhyBusinessesFailAEO() {
               AI platforms have been trained on billions of web pages. They've seen every variation of generic business content imaginable.
             </p>
 
-            <h3 className="text-2xl font-light mt-12 mb-4 text-orange-400">
+            <h3 className="text-2xl font-light mt-12 mb-4 text-white/60">
               The Template Language Problem
             </h3>
 
@@ -414,7 +413,7 @@ export default function WhyBusinessesFailAEO() {
               These phrases appear on millions of websites. They provide zero unique information, no verifiable claims, no specific value that justifies citation.
             </p>
 
-            <h3 className="text-2xl font-light mt-12 mb-4 text-orange-400">
+            <h3 className="text-2xl font-light mt-12 mb-4 text-white/60">
               The Authenticity Detection Gap
             </h3>
 
@@ -454,7 +453,7 @@ export default function WhyBusinessesFailAEO() {
               One of the most expensive AEO failures is implementing technical optimization incorrectly and not discovering the error for months.
             </p>
 
-            <h3 className="text-2xl font-light mt-12 mb-4 text-orange-400">
+            <h3 className="text-2xl font-light mt-12 mb-4 text-white/60">
               The Schema Markup Disaster
             </h3>
 
@@ -466,23 +465,23 @@ export default function WhyBusinessesFailAEO() {
               <h4 className="text-white font-medium mb-4">Common schema failures that break everything:</h4>
               <ul className="space-y-3 text-gray-300 font-light">
                 <li className="flex items-start gap-3">
-                  <span className="flex-shrink-0 w-1.5 h-1.5 bg-orange-500/60 rounded-full mt-3" />
+                  <span className="flex-shrink-0 w-1.5 h-1.5 bg-white/30 rounded-full mt-3" />
                   <span>Missing closing tags in FAQ schema</span>
                 </li>
                 <li className="flex items-start gap-3">
-                  <span className="flex-shrink-0 w-1.5 h-1.5 bg-orange-500/60 rounded-full mt-3" />
+                  <span className="flex-shrink-0 w-1.5 h-1.5 bg-white/30 rounded-full mt-3" />
                   <span>Incorrect property names (using "question" instead of "name")</span>
                 </li>
                 <li className="flex items-start gap-3">
-                  <span className="flex-shrink-0 w-1.5 h-1.5 bg-orange-500/60 rounded-full mt-3" />
+                  <span className="flex-shrink-0 w-1.5 h-1.5 bg-white/30 rounded-full mt-3" />
                   <span>Improper JSON-LD syntax (missing commas, mismatched brackets)</span>
                 </li>
                 <li className="flex items-start gap-3">
-                  <span className="flex-shrink-0 w-1.5 h-1.5 bg-orange-500/60 rounded-full mt-3" />
+                  <span className="flex-shrink-0 w-1.5 h-1.5 bg-white/30 rounded-full mt-3" />
                   <span>Invalid URLs in schema references</span>
                 </li>
                 <li className="flex items-start gap-3">
-                  <span className="flex-shrink-0 w-1.5 h-1.5 bg-orange-500/60 rounded-full mt-3" />
+                  <span className="flex-shrink-0 w-1.5 h-1.5 bg-white/30 rounded-full mt-3" />
                   <span>Multiple schema blocks with conflicting information</span>
                 </li>
               </ul>
@@ -492,7 +491,7 @@ export default function WhyBusinessesFailAEO() {
               When schema fails validation, AI platforms may not process your content at all. You'll have perfectly written FAQs that AI simply can't read.
             </p>
 
-            <h3 className="text-2xl font-light mt-12 mb-4 text-orange-400">
+            <h3 className="text-2xl font-light mt-12 mb-4 text-white/60">
               The Testing Gap
             </h3>
 
@@ -508,7 +507,7 @@ export default function WhyBusinessesFailAEO() {
                 "If syntax errors are preventing all their optimization efforts"
               ].map((item, i) => (
                 <li key={i} className="flex items-start gap-3">
-                  <span className="flex-shrink-0 w-1.5 h-1.5 bg-orange-500/60 rounded-full mt-3" />
+                  <span className="flex-shrink-0 w-1.5 h-1.5 bg-white/30 rounded-full mt-3" />
                   <span className="font-light leading-relaxed">{item}</span>
                 </li>
               ))}
@@ -526,7 +525,7 @@ export default function WhyBusinessesFailAEO() {
               AI platforms don't trust claims—they look for verifiable credentials and specific expertise signals that most business websites completely lack.
             </p>
 
-            <h3 className="text-2xl font-light mt-12 mb-4 text-orange-400">
+            <h3 className="text-2xl font-light mt-12 mb-4 text-white/60">
               The Credentials Gap
             </h3>
 
@@ -566,7 +565,7 @@ export default function WhyBusinessesFailAEO() {
               Even with proper technical implementation and expertise documentation, businesses fail when content isn't architecturally structured for AI extraction.
             </p>
 
-            <h3 className="text-2xl font-light mt-12 mb-4 text-orange-400">
+            <h3 className="text-2xl font-light mt-12 mb-4 text-white/60">
               The Topic Coverage Problem
             </h3>
 
@@ -603,7 +602,7 @@ export default function WhyBusinessesFailAEO() {
             </p>
 
             {/* CTA Section */}
-            <div className="my-16 p-10 rounded-2xl bg-white/[0.03] backdrop-blur-xl border-l-4 border-orange-500">
+            <div className="my-16 p-10 rounded-2xl bg-white/[0.03] backdrop-blur-xl border-l-4 border-white/[0.15]">
               <h3 className="text-2xl sm:text-3xl font-light mb-4 text-gray-100">
                 Ready to See <span className="font-normal text-white">Where Your Business Stands?</span>
               </h3>
@@ -612,7 +611,7 @@ export default function WhyBusinessesFailAEO() {
               </p>
               <a 
                 href="/#contact" 
-                className="inline-flex items-center justify-center gap-3 px-8 py-4 rounded-xl text-lg font-medium bg-gradient-to-r from-orange-500 to-orange-600 text-white hover:from-orange-600 hover:to-orange-700 transition-all shadow-lg shadow-orange-500/25"
+                className="inline-flex items-center justify-center gap-3 px-8 py-4 rounded-xl text-lg font-medium bg-gradient-to-r from-white/40 to-white/50 text-white hover:from-white/50 hover:to-white/50 transition-all shadow-lg shadow-white/12"
               >
                 Schedule Your Free Analysis
                 <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={2}>
@@ -633,7 +632,7 @@ export default function WhyBusinessesFailAEO() {
               AEO is different. The businesses establishing AI citation patterns now are creating advantages that compound dramatically over time.
             </p>
 
-            <h3 className="text-2xl font-light mt-12 mb-4 text-orange-400">
+            <h3 className="text-2xl font-light mt-12 mb-4 text-white/60">
               The Early Authority Premium
             </h3>
 
@@ -645,7 +644,7 @@ export default function WhyBusinessesFailAEO() {
               New entrants don't just face catching up—they face active displacement of established sources that AI platforms already trust.
             </p>
 
-            <h3 className="text-2xl font-light mt-12 mb-4 text-orange-400">
+            <h3 className="text-2xl font-light mt-12 mb-4 text-white/60">
               The Winner-Take-Most Dynamic
             </h3>
 
@@ -757,7 +756,7 @@ export default function WhyBusinessesFailAEO() {
                     "50+ local service business AEO implementations completed"
                   ].map((item, i) => (
                     <li key={i} className="flex items-start gap-3">
-                      <span className="flex-shrink-0 w-1.5 h-1.5 bg-orange-500/60 rounded-full mt-2.5" />
+                      <span className="flex-shrink-0 w-1.5 h-1.5 bg-white/30 rounded-full mt-2.5" />
                       <span>{item}</span>
                     </li>
                   ))}
@@ -767,7 +766,7 @@ export default function WhyBusinessesFailAEO() {
                 The Answer Engine specializes in Answer Engine Optimization (AEO) for local service businesses. We position companies to be cited by Google AI Overviews, ChatGPT, Claude, Perplexity, and other AI platforms—making them the trusted expert AI recommends in their market.
               </p>
               <p>
-                <a href="/" className="inline-flex items-center gap-2 text-orange-400 font-medium hover:text-orange-300 transition-colors group">
+                <a href="/" className="inline-flex items-center gap-2 text-white/60 font-medium hover:text-white/70 transition-colors group">
                   Learn more at TheAnswerEngine.ai
                   <svg className="w-4 h-4 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={2}>
                     <path strokeLinecap="round" strokeLinejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3" />
@@ -784,7 +783,7 @@ export default function WhyBusinessesFailAEO() {
               <div className="space-y-4">
                 <div className="bg-white/[0.03] backdrop-blur-xl border border-white/[0.08] rounded-xl p-6 hover:border-white/[0.08] transition-colors">
                   <a href="/blog/google-rankings-dont-matter" className="group">
-                    <h4 className="text-xl font-light text-white mb-2 group-hover:text-orange-400 transition-colors">
+                    <h4 className="text-xl font-light text-white mb-2 group-hover:text-white/60 transition-colors">
                       The Real Reason Your Google Rankings Don't Matter Anymore
                     </h4>
                     <p className="text-gray-400 font-light leading-relaxed">
@@ -794,7 +793,7 @@ export default function WhyBusinessesFailAEO() {
                 </div>
                 <div className="bg-white/[0.03] backdrop-blur-xl border border-white/[0.08] rounded-xl p-6 hover:border-white/[0.08] transition-colors">
                   <a href="/blog/what-is-answer-engine-optimization" className="group">
-                    <h4 className="text-xl font-light text-white mb-2 group-hover:text-orange-400 transition-colors">
+                    <h4 className="text-xl font-light text-white mb-2 group-hover:text-white/60 transition-colors">
                       What is Answer Engine Optimization (AEO)? Complete Guide
                     </h4>
                     <p className="text-gray-400 font-light leading-relaxed">
@@ -804,7 +803,7 @@ export default function WhyBusinessesFailAEO() {
                 </div>
                 <div className="bg-white/[0.03] backdrop-blur-xl border border-white/[0.08] rounded-xl p-6 hover:border-white/[0.08] transition-colors">
                   <a href="/blog/how-ai-platforms-choose-businesses-to-cite" className="group">
-                    <h4 className="text-xl font-light text-white mb-2 group-hover:text-orange-400 transition-colors">
+                    <h4 className="text-xl font-light text-white mb-2 group-hover:text-white/60 transition-colors">
                       How AI Platforms Choose Which Businesses to Cite
                     </h4>
                     <p className="text-gray-400 font-light leading-relaxed">

@@ -157,21 +157,21 @@ export default function GoogleReviewsAIRecommendations() {
         <article className="max-w-4xl mx-auto px-6 py-12 sm:py-16">
           {/* Breadcrumbs */}
           <nav className="text-sm text-gray-500 mb-8">
-            <Link href="/" className="hover:text-[#f27d24] transition-colors">Home</Link>
+            <Link href="/" className="hover:text-white transition-colors">Home</Link>
             <span className="mx-2">›</span>
-            <Link href="/blog" className="hover:text-[#f27d24] transition-colors">Blog</Link>
+            <Link href="/blog" className="hover:text-white transition-colors">Blog</Link>
             <span className="mx-2">›</span>
             <span className="text-gray-400">Google Reviews & AI</span>
           </nav>
 
           {/* Header */}
           <header className="mb-12">
-            <div className="inline-flex items-center gap-2 px-4 py-2 rounded-xl mb-6 bg-[#f27d24]/10 border border-[#f27d24]/20">
-              <span className="text-sm font-semibold tracking-wider uppercase text-[#f27d24]">AI Visibility</span>
+            <div className="inline-flex items-center gap-2 px-4 py-2 rounded-xl mb-6 bg-white/[0.04] border border-white/[0.08]">
+              <span className="text-sm font-semibold tracking-wider uppercase text-white">AI Visibility</span>
             </div>
 
             <h1 className="text-3xl sm:text-4xl lg:text-5xl font-semibold mb-6 text-white leading-tight">
-              Do Google Reviews Affect AI Recommendations? <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#f27d24] to-[#d66d1f]">(The Surprising Truth)</span>
+              Do Google Reviews Affect AI Recommendations? <span className="text-transparent bg-clip-text bg-gradient-to-r from-white to-white">(The Surprising Truth)</span>
             </h1>
 
             {/* Featured Image */}
@@ -179,12 +179,12 @@ export default function GoogleReviewsAIRecommendations() {
               <img
                 src="/images/google-reviews-ai-recommendations.png"
                 alt="Do Google Reviews Affect AI Recommendations - The Surprising Truth"
-                className="w-full"
+                className="w-full grayscale brightness-75"
               />
             </div>
 
             {/* Featured Snippet Block */}
-            <div className="bg-gradient-to-br from-[#f27d24]/5 to-[#d66d1f]/5 border border-[#f27d24]/20 rounded-xl p-6 mb-8">
+            <div className="bg-gradient-to-br from-white/[0.02] to-white/[0.02] border border-white/[0.08] rounded-xl p-6 mb-8">
               <p className="text-lg text-white leading-relaxed">
                 <strong>No, ChatGPT cannot see your Google reviews.</strong> Google's review pages require JavaScript to load, which AI crawlers can't execute. Your 200+ five-star reviews are invisible to ChatGPT, Claude, and Perplexity. To get AI recommendations, you need reviews on platforms AI can actually read—your website, Yelp, and Bing-indexed directories.
               </p>
@@ -319,7 +319,7 @@ export default function GoogleReviewsAIRecommendations() {
             <div className="bg-white/[0.02] border border-white/[0.05] rounded-xl p-6">
               <div className="flex items-start gap-4">
                 <div className="flex-shrink-0">
-                  <svg className="w-6 h-6 text-[#f27d24]" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={2}>
+                  <svg className="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={2}>
                     <path strokeLinecap="round" strokeLinejoin="round" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z" />
                   </svg>
                 </div>
@@ -376,8 +376,8 @@ export default function GoogleReviewsAIRecommendations() {
 
               <div className="bg-white/[0.02] border border-white/[0.05] rounded-xl p-5">
                 <div className="flex items-center gap-3 mb-3">
-                  <div className="w-10 h-10 bg-[#f27d24]/20 rounded-lg flex items-center justify-center">
-                    <span className="text-[#f27d24] font-bold">W</span>
+                  <div className="w-10 h-10 bg-white/20 rounded-lg flex items-center justify-center">
+                    <span className="text-white font-bold">W</span>
                   </div>
                   <h3 className="font-semibold text-white">Your Website</h3>
                 </div>
@@ -400,7 +400,7 @@ export default function GoogleReviewsAIRecommendations() {
               {/* Step 1 */}
               <div className="bg-white/[0.02] border border-white/[0.05] rounded-xl p-6">
                 <div className="flex items-start gap-4">
-                  <div className="flex-shrink-0 w-10 h-10 bg-[#f27d24] rounded-full flex items-center justify-center text-white font-bold text-lg">1</div>
+                  <div className="flex-shrink-0 w-10 h-10 bg-white rounded-full flex items-center justify-center text-white font-bold text-lg">1</div>
                   <div className="flex-1">
                     <h3 className="text-xl font-semibold text-white mb-3">Display Reviews as Text on Your Website</h3>
                     <p className="text-gray-300 mb-4">
@@ -416,7 +416,7 @@ export default function GoogleReviewsAIRecommendations() {
               {/* Step 2 */}
               <div className="bg-white/[0.02] border border-white/[0.05] rounded-xl p-6">
                 <div className="flex items-start gap-4">
-                  <div className="flex-shrink-0 w-10 h-10 bg-[#f27d24] rounded-full flex items-center justify-center text-white font-bold text-lg">2</div>
+                  <div className="flex-shrink-0 w-10 h-10 bg-white rounded-full flex items-center justify-center text-white font-bold text-lg">2</div>
                   <div className="flex-1">
                     <h3 className="text-xl font-semibold text-white mb-3">Add Review Schema Markup</h3>
                     <p className="text-gray-300 mb-4">
@@ -432,7 +432,7 @@ export default function GoogleReviewsAIRecommendations() {
               {/* Step 3 */}
               <div className="bg-white/[0.02] border border-white/[0.05] rounded-xl p-6">
                 <div className="flex items-start gap-4">
-                  <div className="flex-shrink-0 w-10 h-10 bg-[#f27d24] rounded-full flex items-center justify-center text-white font-bold text-lg">3</div>
+                  <div className="flex-shrink-0 w-10 h-10 bg-white rounded-full flex items-center justify-center text-white font-bold text-lg">3</div>
                   <div className="flex-1">
                     <h3 className="text-xl font-semibold text-white mb-3">Diversify Your Review Platforms</h3>
                     <p className="text-gray-300 mb-4">
@@ -448,14 +448,14 @@ export default function GoogleReviewsAIRecommendations() {
               {/* Step 4 */}
               <div className="bg-white/[0.02] border border-white/[0.05] rounded-xl p-6">
                 <div className="flex items-start gap-4">
-                  <div className="flex-shrink-0 w-10 h-10 bg-[#f27d24] rounded-full flex items-center justify-center text-white font-bold text-lg">4</div>
+                  <div className="flex-shrink-0 w-10 h-10 bg-white rounded-full flex items-center justify-center text-white font-bold text-lg">4</div>
                   <div className="flex-1">
                     <h3 className="text-xl font-semibold text-white mb-3">Link to Original Reviews</h3>
                     <p className="text-gray-300 mb-4">
                       When displaying reviews on your site, include a "See original review" link to the source. This adds credibility for human visitors and helps AI verify authenticity.
                     </p>
                     <div className="bg-black/30 rounded-lg p-4 border border-white/10">
-                      <p className="text-gray-400 text-sm"><strong className="text-gray-300">Example:</strong> "Fixed our AC on the hottest day of the year. Lifesaver!" - Maria T. <span className="text-[#f27d24]">[See review on Yelp]</span></p>
+                      <p className="text-gray-400 text-sm"><strong className="text-gray-300">Example:</strong> "Fixed our AC on the hottest day of the year. Lifesaver!" - Maria T. <span className="text-white">[See review on Yelp]</span></p>
                     </div>
                   </div>
                 </div>
@@ -476,19 +476,19 @@ export default function GoogleReviewsAIRecommendations() {
               </p>
               <ul className="space-y-3 ml-4">
                 <li className="flex items-start gap-3">
-                  <span className="text-[#f27d24] mt-1">•</span>
+                  <span className="text-white mt-1">•</span>
                   <span><strong className="text-white">Google Search rankings</strong> — Reviews are a major local SEO factor</span>
                 </li>
                 <li className="flex items-start gap-3">
-                  <span className="text-[#f27d24] mt-1">•</span>
+                  <span className="text-white mt-1">•</span>
                   <span><strong className="text-white">Google Maps visibility</strong> — More reviews = more prominent map placement</span>
                 </li>
                 <li className="flex items-start gap-3">
-                  <span className="text-[#f27d24] mt-1">•</span>
+                  <span className="text-white mt-1">•</span>
                   <span><strong className="text-white">Google AI Overviews</strong> — Google's own AI can read Google reviews</span>
                 </li>
                 <li className="flex items-start gap-3">
-                  <span className="text-[#f27d24] mt-1">•</span>
+                  <span className="text-white mt-1">•</span>
                   <span><strong className="text-white">Customer trust</strong> — People still check Google reviews before calling</span>
                 </li>
               </ul>
@@ -551,21 +551,21 @@ export default function GoogleReviewsAIRecommendations() {
           <section className="mb-12">
             <h2 className="text-2xl sm:text-3xl font-semibold mb-6 text-white">Related Articles</h2>
             <div className="grid sm:grid-cols-2 gap-4">
-              <Link href="/blog/check-if-ai-recommends-your-business" className="bg-white/[0.02] border border-white/[0.05] rounded-xl p-6 hover:border-[#f27d24]/30 transition-colors group">
-                <div className="text-[#f27d24] text-sm font-medium mb-2">DIY Guide</div>
-                <div className="text-white font-semibold group-hover:text-[#f27d24] transition-colors">How to Check If AI Recommends Your Business</div>
+              <Link href="/blog/check-if-ai-recommends-your-business" className="bg-white/[0.02] border border-white/[0.05] rounded-xl p-6 hover:border-white/[0.08] transition-colors group">
+                <div className="text-white text-sm font-medium mb-2">DIY Guide</div>
+                <div className="text-white font-semibold group-hover:text-white transition-colors">How to Check If AI Recommends Your Business</div>
               </Link>
-              <Link href="/blog/how-chatgpt-chooses-businesses-to-recommend" className="bg-white/[0.02] border border-white/[0.05] rounded-xl p-6 hover:border-[#f27d24]/30 transition-colors group">
-                <div className="text-[#f27d24] text-sm font-medium mb-2">AI Algorithm</div>
-                <div className="text-white font-semibold group-hover:text-[#f27d24] transition-colors">How ChatGPT Chooses Businesses to Recommend</div>
+              <Link href="/blog/how-chatgpt-chooses-businesses-to-recommend" className="bg-white/[0.02] border border-white/[0.05] rounded-xl p-6 hover:border-white/[0.08] transition-colors group">
+                <div className="text-white text-sm font-medium mb-2">AI Algorithm</div>
+                <div className="text-white font-semibold group-hover:text-white transition-colors">How ChatGPT Chooses Businesses to Recommend</div>
               </Link>
-              <Link href="/blog/why-chatgpt-recommends-competitors" className="bg-white/[0.02] border border-white/[0.05] rounded-xl p-6 hover:border-[#f27d24]/30 transition-colors group">
-                <div className="text-[#f27d24] text-sm font-medium mb-2">Problem Solving</div>
-                <div className="text-white font-semibold group-hover:text-[#f27d24] transition-colors">Why ChatGPT Recommends Your Competitors</div>
+              <Link href="/blog/why-chatgpt-recommends-competitors" className="bg-white/[0.02] border border-white/[0.05] rounded-xl p-6 hover:border-white/[0.08] transition-colors group">
+                <div className="text-white text-sm font-medium mb-2">Problem Solving</div>
+                <div className="text-white font-semibold group-hover:text-white transition-colors">Why ChatGPT Recommends Your Competitors</div>
               </Link>
-              <Link href="/blog/aeo-vs-seo" className="bg-white/[0.02] border border-white/[0.05] rounded-xl p-6 hover:border-[#f27d24]/30 transition-colors group">
-                <div className="text-[#f27d24] text-sm font-medium mb-2">Comparison</div>
-                <div className="text-white font-semibold group-hover:text-[#f27d24] transition-colors">AEO vs SEO: What's the Difference?</div>
+              <Link href="/blog/aeo-vs-seo" className="bg-white/[0.02] border border-white/[0.05] rounded-xl p-6 hover:border-white/[0.08] transition-colors group">
+                <div className="text-white text-sm font-medium mb-2">Comparison</div>
+                <div className="text-white font-semibold group-hover:text-white transition-colors">AEO vs SEO: What's the Difference?</div>
               </Link>
             </div>
           </section>
@@ -578,7 +578,7 @@ export default function GoogleReviewsAIRecommendations() {
             </p>
             <Link
               href="/#contact"
-              className="inline-flex items-center gap-2 bg-gradient-to-r from-[#f27d24] to-[#d66d1f] text-white font-semibold px-8 py-4 rounded-xl hover:opacity-90 transition-opacity"
+              className="inline-flex items-center gap-2 bg-gradient-to-r from-white to-white text-white font-semibold px-8 py-4 rounded-xl hover:opacity-90 transition-opacity"
             >
               Get Your Free AEO Audit
               <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={2}>

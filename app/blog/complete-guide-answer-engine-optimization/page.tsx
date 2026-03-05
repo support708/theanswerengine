@@ -230,11 +230,11 @@ export default function CompleteGuideAEO() {
           
           {/* Breadcrumbs */}
           <nav className="mb-8 flex items-center gap-2 text-sm text-gray-400">
-            <Link href="/" className="hover:text-orange-400 transition-colors">
+            <Link href="/" className="hover:text-white/60 transition-colors">
               Home
             </Link>
             <span>/</span>
-            <Link href="/blog" className="hover:text-orange-400 transition-colors">
+            <Link href="/blog" className="hover:text-white/60 transition-colors">
               Blog
             </Link>
             <span>/</span>
@@ -244,9 +244,9 @@ export default function CompleteGuideAEO() {
           {/* Article Header */}
           <header className="mb-16">
             <div className="mb-6 flex gap-2">
-              <div className="w-1.5 h-1.5 bg-orange-500" />
-              <div className="w-1.5 h-1.5 bg-purple-500" />
-              <div className="w-1.5 h-1.5 bg-orange-500" />
+              <div className="w-1.5 h-1.5 bg-white/40" />
+              <div className="w-1.5 h-1.5 bg-white/30" />
+              <div className="w-1.5 h-1.5 bg-white/40" />
             </div>
 
             <h1 className="text-5xl md:text-6xl font-light leading-tight mb-6">
@@ -264,7 +264,7 @@ export default function CompleteGuideAEO() {
 
           {/* Featured Snippet */}
           <div id="featured-snippet" className="bg-white/[0.03] backdrop-blur-xl border border-white/[0.08] rounded-2xl p-8 mb-16">
-            <h2 className="text-xl font-medium mb-4 text-orange-400">Quick Answer</h2>
+            <h2 className="text-xl font-medium mb-4 text-white/60">Quick Answer</h2>
             <p className="text-lg font-light leading-relaxed text-gray-100">
               Answer Engine Optimization (AEO) is the practice of making your business the trusted authority that AI platforms like ChatGPT, Claude, Perplexity, and Google AI Overviews cite when people ask questions. Unlike traditional SEO that focuses on rankings, AEO focuses on becoming the answer. Whoever AI cites becomes the authority, and whoever becomes the authority gets the business.
             </p>
@@ -298,38 +298,38 @@ export default function CompleteGuideAEO() {
             <h2 className="text-2xl font-medium mb-6">What You'll Learn in This Guide</h2>
             <ol className="space-y-4 font-light text-gray-300">
               <li className="flex gap-4">
-                <span className="text-orange-400 font-medium">1.</span>
-                <Link href="#section-1" className="hover:text-orange-400 transition-colors">
+                <span className="text-white/60 font-medium">1.</span>
+                <Link href="#section-1" className="hover:text-white/60 transition-colors">
                   The Real Reason Your Google Rankings Don't Matter Anymore
                 </Link>
               </li>
               <li className="flex gap-4">
-                <span className="text-orange-400 font-medium">2.</span>
-                <Link href="#section-2" className="hover:text-orange-400 transition-colors">
+                <span className="text-white/60 font-medium">2.</span>
+                <Link href="#section-2" className="hover:text-white/60 transition-colors">
                   Why Local Businesses Are Invisible to AI Search
                 </Link>
               </li>
               <li className="flex gap-4">
-                <span className="text-orange-400 font-medium">3.</span>
-                <Link href="#section-3" className="hover:text-orange-400 transition-colors">
+                <span className="text-white/60 font-medium">3.</span>
+                <Link href="#section-3" className="hover:text-white/60 transition-colors">
                   Why Your Google Traffic Dropped in 2025
                 </Link>
               </li>
               <li className="flex gap-4">
-                <span className="text-orange-400 font-medium">4.</span>
-                <Link href="#section-4" className="hover:text-orange-400 transition-colors">
+                <span className="text-white/60 font-medium">4.</span>
+                <Link href="#section-4" className="hover:text-white/60 transition-colors">
                   The Difference Between SEO and Answer Engine Optimization
                 </Link>
               </li>
               <li className="flex gap-4">
-                <span className="text-orange-400 font-medium">5.</span>
-                <Link href="#section-5" className="hover:text-orange-400 transition-colors">
+                <span className="text-white/60 font-medium">5.</span>
+                <Link href="#section-5" className="hover:text-white/60 transition-colors">
                   How to Get AI Platforms to Recommend Your Business
                 </Link>
               </li>
               <li className="flex gap-4">
-                <span className="text-orange-400 font-medium">6.</span>
-                <Link href="#section-6" className="hover:text-orange-400 transition-colors">
+                <span className="text-white/60 font-medium">6.</span>
+                <Link href="#section-6" className="hover:text-white/60 transition-colors">
                   Is Answer Engine Optimization Worth It for Your Business?
                 </Link>
               </li>
@@ -370,7 +370,7 @@ export default function CompleteGuideAEO() {
 
             <Link 
               href="/blog/google-rankings-dont-matter"
-              className="inline-flex items-center gap-2 text-orange-400 hover:text-orange-300 transition-colors font-medium"
+              className="inline-flex items-center gap-2 text-white/60 hover:text-white/70 transition-colors font-medium"
             >
               Read the complete analysis
               <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -413,7 +413,7 @@ export default function CompleteGuideAEO() {
 
             <Link 
               href="/blog/how-ai-platforms-choose-businesses-to-cite"
-              className="inline-flex items-center gap-2 text-orange-400 hover:text-orange-300 transition-colors font-medium"
+              className="inline-flex items-center gap-2 text-white/60 hover:text-white/70 transition-colors font-medium"
             >
               Understand the full citation process
               <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -452,7 +452,7 @@ export default function CompleteGuideAEO() {
 
             <Link 
               href="/blog/why-businesses-fail-answer-engine-optimization"
-              className="inline-flex items-center gap-2 text-orange-400 hover:text-orange-300 transition-colors font-medium"
+              className="inline-flex items-center gap-2 text-white/60 hover:text-white/70 transition-colors font-medium"
             >
               See the data behind the decline
               <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -491,7 +491,7 @@ export default function CompleteGuideAEO() {
 
             <Link 
               href="/blog/what-is-answer-engine-optimization"
-              className="inline-flex items-center gap-2 text-orange-400 hover:text-orange-300 transition-colors font-medium"
+              className="inline-flex items-center gap-2 text-white/60 hover:text-white/70 transition-colors font-medium"
             >
               Understand all the specific differences
               <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -534,7 +534,7 @@ export default function CompleteGuideAEO() {
 
             <Link 
               href="/blog/how-to-get-google-ai-chatgpt-recommend-business"
-              className="inline-flex items-center gap-2 text-orange-400 hover:text-orange-300 transition-colors font-medium"
+              className="inline-flex items-center gap-2 text-white/60 hover:text-white/70 transition-colors font-medium"
             >
               Get the complete implementation strategy
               <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -573,7 +573,7 @@ export default function CompleteGuideAEO() {
 
             <Link 
               href="/blog/is-answer-engine-optimization-worth-it"
-              className="inline-flex items-center gap-2 text-orange-400 hover:text-orange-300 transition-colors font-medium"
+              className="inline-flex items-center gap-2 text-white/60 hover:text-white/70 transition-colors font-medium"
             >
               Get the complete ROI framework
               <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -583,7 +583,7 @@ export default function CompleteGuideAEO() {
           </section>
 
           {/* CTA Section */}
-          <section className="bg-gradient-to-br from-orange-500/10 to-purple-500/10 border border-orange-500/20 rounded-2xl p-12 mb-20">
+          <section className="bg-gradient-to-br from-white/[0.06] to-white/[0.06] border border-white/[0.15]/20 rounded-2xl p-12 mb-20">
             <h2 className="text-3xl font-light mb-6">
               Ready to Stop Competing on Price and <span className="font-normal">Become the AI-Recommended Expert?</span>
             </h2>
@@ -598,7 +598,7 @@ export default function CompleteGuideAEO() {
 
             <Link
               href="/contact"
-              className="inline-flex bg-gradient-to-r from-orange-500 to-orange-600 text-white px-8 py-4 rounded-xl font-medium hover:from-orange-600 hover:to-orange-700 shadow-lg shadow-orange-500/25 transition-all"
+              className="inline-flex bg-gradient-to-r from-white/40 to-white/50 text-white px-8 py-4 rounded-xl font-medium hover:from-white/50 hover:to-white/50 shadow-lg shadow-white/12 transition-all"
             >
               Get Your Free AERO-6 Competitive Audit
             </Link>
@@ -612,7 +612,7 @@ export default function CompleteGuideAEO() {
 
             <div className="space-y-8">
               <div className="bg-white/[0.03] backdrop-blur-xl border border-white/[0.08] rounded-2xl p-8">
-                <h3 className="text-xl font-medium mb-4 text-orange-400">
+                <h3 className="text-xl font-medium mb-4 text-white/60">
                   How long does it take to see results from AEO?
                 </h3>
                 <p className="font-light leading-relaxed text-gray-300">
@@ -621,7 +621,7 @@ export default function CompleteGuideAEO() {
               </div>
 
               <div className="bg-white/[0.03] backdrop-blur-xl border border-white/[0.08] rounded-2xl p-8">
-                <h3 className="text-xl font-medium mb-4 text-orange-400">
+                <h3 className="text-xl font-medium mb-4 text-white/60">
                   Can I do Answer Engine Optimization myself, or do I need to hire someone?
                 </h3>
                 <p className="font-light leading-relaxed text-gray-300">
@@ -630,7 +630,7 @@ export default function CompleteGuideAEO() {
               </div>
 
               <div className="bg-white/[0.03] backdrop-blur-xl border border-white/[0.08] rounded-2xl p-8">
-                <h3 className="text-xl font-medium mb-4 text-orange-400">
+                <h3 className="text-xl font-medium mb-4 text-white/60">
                   What's the difference between getting cited by Google vs. ChatGPT vs. Perplexity?
                 </h3>
                 <p className="font-light leading-relaxed text-gray-300">
@@ -639,7 +639,7 @@ export default function CompleteGuideAEO() {
               </div>
 
               <div className="bg-white/[0.03] backdrop-blur-xl border border-white/[0.08] rounded-2xl p-8">
-                <h3 className="text-xl font-medium mb-4 text-orange-400">
+                <h3 className="text-xl font-medium mb-4 text-white/60">
                   Will Answer Engine Optimization hurt my traditional SEO rankings?
                 </h3>
                 <p className="font-light leading-relaxed text-gray-300">
@@ -648,7 +648,7 @@ export default function CompleteGuideAEO() {
               </div>
 
               <div className="bg-white/[0.03] backdrop-blur-xl border border-white/[0.08] rounded-2xl p-8">
-                <h3 className="text-xl font-medium mb-4 text-orange-400">
+                <h3 className="text-xl font-medium mb-4 text-white/60">
                   How much does Answer Engine Optimization cost for a local service business?
                 </h3>
                 <p className="font-light leading-relaxed text-gray-300">
@@ -657,7 +657,7 @@ export default function CompleteGuideAEO() {
               </div>
 
               <div className="bg-white/[0.03] backdrop-blur-xl border border-white/[0.08] rounded-2xl p-8">
-                <h3 className="text-xl font-medium mb-4 text-orange-400">
+                <h3 className="text-xl font-medium mb-4 text-white/60">
                   What makes some local businesses get AI citations while competitors don't?
                 </h3>
                 <p className="font-light leading-relaxed text-gray-300">
@@ -666,7 +666,7 @@ export default function CompleteGuideAEO() {
               </div>
 
               <div className="bg-white/[0.03] backdrop-blur-xl border border-white/[0.08] rounded-2xl p-8">
-                <h3 className="text-xl font-medium mb-4 text-orange-400">
+                <h3 className="text-xl font-medium mb-4 text-white/60">
                   Can paid advertising help me get AI citations faster?
                 </h3>
                 <p className="font-light leading-relaxed text-gray-300">
@@ -675,7 +675,7 @@ export default function CompleteGuideAEO() {
               </div>
 
               <div className="bg-white/[0.03] backdrop-blur-xl border border-white/[0.08] rounded-2xl p-8">
-                <h3 className="text-xl font-medium mb-4 text-orange-400">
+                <h3 className="text-xl font-medium mb-4 text-white/60">
                   What industries benefit most from Answer Engine Optimization?
                 </h3>
                 <p className="font-light leading-relaxed text-gray-300">
@@ -707,13 +707,13 @@ export default function CompleteGuideAEO() {
               <p className="font-light text-gray-400 mb-2">Contact The Answer Engine:</p>
               <p className="font-light text-gray-300">
                 <strong className="font-medium text-white">Email:</strong>{' '}
-                <a href="mailto:support@theanswerengine.ai" className="text-orange-400 hover:text-orange-300 transition-colors">
+                <a href="mailto:support@theanswerengine.ai" className="text-white/60 hover:text-white/70 transition-colors">
                   support@theanswerengine.ai
                 </a>
               </p>
               <p className="font-light text-gray-300">
                 <strong className="font-medium text-white">Website:</strong>{' '}
-                <a href="https://theanswerengine.ai" className="text-orange-400 hover:text-orange-300 transition-colors">
+                <a href="https://theanswerengine.ai" className="text-white/60 hover:text-white/70 transition-colors">
                   theanswerengine.ai
                 </a>
               </p>

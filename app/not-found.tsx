@@ -18,7 +18,7 @@ export default function NotFound() {
           />
         </Link>
 
-        <h1 className="text-[150px] sm:text-[200px] font-bold font-heading leading-none text-transparent bg-clip-text bg-gradient-to-r from-[#f27d24] to-[#d66d1f] opacity-20">404</h1>
+        <h1 className="text-[150px] sm:text-[200px] font-bold font-heading leading-none text-white/10">404</h1>
         <div className="-mt-16 sm:-mt-20 relative">
           <h2 className="text-2xl sm:text-3xl font-bold font-heading text-white mb-4">Page Not Found</h2>
           <p className="text-white/60 mb-8 max-w-md mx-auto">This page got lost in the AI recommendations. Let&apos;s get you back on track.</p>
@@ -26,7 +26,7 @@ export default function NotFound() {
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link
               href="/"
-              className="group inline-flex items-center justify-center gap-2 px-8 py-4 bg-gradient-to-r from-[#f27d24] to-[#d66d1f] rounded-xl font-semibold text-white shadow-[0_0_30px_rgba(242,125,36,0.3)] hover:shadow-[0_0_50px_rgba(242,125,36,0.5)] transition-all duration-500 hover:scale-[1.02] active:scale-[0.98]"
+              className="group inline-flex items-center justify-center gap-2 px-8 py-4 bg-white text-[#0F1117] rounded-xl font-semibold hover:bg-white/90 transition-all duration-200 active:scale-[0.98]"
             >
               <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 19l-7-7m0 0l7-7m-7 7h18" />

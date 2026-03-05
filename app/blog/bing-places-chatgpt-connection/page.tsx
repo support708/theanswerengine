@@ -211,25 +211,25 @@ export default function BingPlacesChatGPTConnection() {
         <article className="max-w-4xl mx-auto px-6 py-12 sm:py-16">
           {/* Breadcrumbs */}
           <nav className="text-sm text-gray-500 mb-8">
-            <Link href="/" className="hover:text-[#f27d24] transition-colors">Home</Link>
+            <Link href="/" className="hover:text-white transition-colors">Home</Link>
             <span className="mx-2">›</span>
-            <Link href="/blog" className="hover:text-[#f27d24] transition-colors">Blog</Link>
+            <Link href="/blog" className="hover:text-white transition-colors">Blog</Link>
             <span className="mx-2">›</span>
             <span className="text-gray-400">Bing Places & ChatGPT</span>
           </nav>
 
           {/* Header */}
           <header className="mb-12">
-            <div className="inline-flex items-center gap-2 px-4 py-2 rounded-xl mb-6 bg-[#f27d24]/10 border border-[#f27d24]/20">
-              <span className="text-sm font-semibold tracking-wider uppercase text-[#f27d24]">AI Visibility</span>
+            <div className="inline-flex items-center gap-2 px-4 py-2 rounded-xl mb-6 bg-white/[0.04] border border-white/[0.08]">
+              <span className="text-sm font-semibold tracking-wider uppercase text-white">AI Visibility</span>
             </div>
 
             <h1 className="text-3xl sm:text-4xl lg:text-5xl font-semibold mb-6 text-white leading-tight">
-              Why Bing Places Matters More Than You Think <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#f27d24] to-[#d66d1f]">(The ChatGPT Connection)</span>
+              Why Bing Places Matters More Than You Think <span className="text-transparent bg-clip-text bg-gradient-to-r from-white to-white">(The ChatGPT Connection)</span>
             </h1>
 
             {/* Featured Snippet Block */}
-            <div className="bg-gradient-to-br from-[#f27d24]/5 to-[#d66d1f]/5 border border-[#f27d24]/20 rounded-xl p-6 mb-8">
+            <div className="bg-gradient-to-br from-white/[0.02] to-white/[0.02] border border-white/[0.08] rounded-xl p-6 mb-8">
               <p className="text-lg text-white leading-relaxed">
                 <strong>ChatGPT uses Bing, not Google, for real-time local business information.</strong> When someone asks ChatGPT for a business recommendation in your area, it searches Bing's index—which includes Bing Places listings. If you've only optimized your Google Business Profile, you're invisible to the AI platform with over 400 million weekly users.
               </p>
@@ -256,7 +256,7 @@ export default function BingPlacesChatGPTConnection() {
             <img
               src="/images/bing-places-chatgpt-connection.png"
               alt="Bing Places and ChatGPT connection - how Microsoft's business listings power AI recommendations"
-              className="w-full h-auto"
+              className="w-full h-auto grayscale brightness-75"
             />
           </div>
 
@@ -333,7 +333,7 @@ export default function BingPlacesChatGPTConnection() {
             <div className="bg-white/[0.02] border border-white/[0.05] rounded-xl p-6">
               <div className="flex items-start gap-4">
                 <div className="flex-shrink-0">
-                  <svg className="w-6 h-6 text-[#f27d24]" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={2}>
+                  <svg className="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={2}>
                     <path strokeLinecap="round" strokeLinejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
                   </svg>
                 </div>
@@ -360,19 +360,19 @@ export default function BingPlacesChatGPTConnection() {
               </p>
               <ul className="space-y-2 ml-4">
                 <li className="flex items-start gap-3">
-                  <span className="text-[#f27d24] mt-1">•</span>
+                  <span className="text-white mt-1">•</span>
                   <span>"Find me a good contractor for kitchen remodeling"</span>
                 </li>
                 <li className="flex items-start gap-3">
-                  <span className="text-[#f27d24] mt-1">•</span>
+                  <span className="text-white mt-1">•</span>
                   <span>"Who's the best real estate agent in [neighborhood]?"</span>
                 </li>
                 <li className="flex items-start gap-3">
-                  <span className="text-[#f27d24] mt-1">•</span>
+                  <span className="text-white mt-1">•</span>
                   <span>"Recommend an HVAC company that does same-day service"</span>
                 </li>
                 <li className="flex items-start gap-3">
-                  <span className="text-[#f27d24] mt-1">•</span>
+                  <span className="text-white mt-1">•</span>
                   <span>"What's the highest-rated dentist near downtown?"</span>
                 </li>
               </ul>
@@ -383,15 +383,15 @@ export default function BingPlacesChatGPTConnection() {
 
             <div className="my-8 grid sm:grid-cols-3 gap-4">
               <div className="bg-white/[0.02] border border-white/[0.05] rounded-xl p-5 text-center">
-                <div className="text-3xl font-bold text-[#f27d24] mb-2">400M+</div>
+                <div className="text-3xl font-bold text-white mb-2">400M+</div>
                 <div className="text-gray-400 text-sm">Weekly ChatGPT users</div>
               </div>
               <div className="bg-white/[0.02] border border-white/[0.05] rounded-xl p-5 text-center">
-                <div className="text-3xl font-bold text-[#f27d24] mb-2">~5%</div>
+                <div className="text-3xl font-bold text-white mb-2">~5%</div>
                 <div className="text-gray-400 text-sm">Local businesses with optimized Bing Places</div>
               </div>
               <div className="bg-white/[0.02] border border-white/[0.05] rounded-xl p-5 text-center">
-                <div className="text-3xl font-bold text-[#f27d24] mb-2">$0</div>
+                <div className="text-3xl font-bold text-white mb-2">$0</div>
                 <div className="text-gray-400 text-sm">Cost to claim your listing</div>
               </div>
             </div>
@@ -405,11 +405,11 @@ export default function BingPlacesChatGPTConnection() {
               {/* Step 1 */}
               <div className="bg-white/[0.02] border border-white/[0.05] rounded-xl p-6">
                 <div className="flex items-start gap-4">
-                  <div className="flex-shrink-0 w-10 h-10 bg-[#f27d24] rounded-full flex items-center justify-center text-white font-bold text-lg">1</div>
+                  <div className="flex-shrink-0 w-10 h-10 bg-white rounded-full flex items-center justify-center text-white font-bold text-lg">1</div>
                   <div className="flex-1">
                     <h3 className="text-xl font-semibold text-white mb-3">Go to Bing Places for Business</h3>
                     <p className="text-gray-300 mb-4">
-                      Visit <span className="text-[#f27d24]">bingplaces.com</span> and click "Get Started" or "Claim your business." You'll need to sign in with a Microsoft account—if you don't have one, you can create a free account in minutes.
+                      Visit <span className="text-white">bingplaces.com</span> and click "Get Started" or "Claim your business." You'll need to sign in with a Microsoft account—if you don't have one, you can create a free account in minutes.
                     </p>
                   </div>
                 </div>
@@ -418,7 +418,7 @@ export default function BingPlacesChatGPTConnection() {
               {/* Step 2 */}
               <div className="bg-white/[0.02] border border-white/[0.05] rounded-xl p-6">
                 <div className="flex items-start gap-4">
-                  <div className="flex-shrink-0 w-10 h-10 bg-[#f27d24] rounded-full flex items-center justify-center text-white font-bold text-lg">2</div>
+                  <div className="flex-shrink-0 w-10 h-10 bg-white rounded-full flex items-center justify-center text-white font-bold text-lg">2</div>
                   <div className="flex-1">
                     <h3 className="text-xl font-semibold text-white mb-3">Search for Your Business</h3>
                     <p className="text-gray-300 mb-4">
@@ -434,7 +434,7 @@ export default function BingPlacesChatGPTConnection() {
               {/* Step 3 */}
               <div className="bg-white/[0.02] border border-white/[0.05] rounded-xl p-6">
                 <div className="flex items-start gap-4">
-                  <div className="flex-shrink-0 w-10 h-10 bg-[#f27d24] rounded-full flex items-center justify-center text-white font-bold text-lg">3</div>
+                  <div className="flex-shrink-0 w-10 h-10 bg-white rounded-full flex items-center justify-center text-white font-bold text-lg">3</div>
                   <div className="flex-1">
                     <h3 className="text-xl font-semibold text-white mb-3">Import from Google (Optional)</h3>
                     <p className="text-gray-300 mb-4">
@@ -450,7 +450,7 @@ export default function BingPlacesChatGPTConnection() {
               {/* Step 4 */}
               <div className="bg-white/[0.02] border border-white/[0.05] rounded-xl p-6">
                 <div className="flex items-start gap-4">
-                  <div className="flex-shrink-0 w-10 h-10 bg-[#f27d24] rounded-full flex items-center justify-center text-white font-bold text-lg">4</div>
+                  <div className="flex-shrink-0 w-10 h-10 bg-white rounded-full flex items-center justify-center text-white font-bold text-lg">4</div>
                   <div className="flex-1">
                     <h3 className="text-xl font-semibold text-white mb-3">Complete Every Field</h3>
                     <p className="text-gray-300 mb-4">
@@ -476,7 +476,7 @@ export default function BingPlacesChatGPTConnection() {
               {/* Step 5 */}
               <div className="bg-white/[0.02] border border-white/[0.05] rounded-xl p-6">
                 <div className="flex items-start gap-4">
-                  <div className="flex-shrink-0 w-10 h-10 bg-[#f27d24] rounded-full flex items-center justify-center text-white font-bold text-lg">5</div>
+                  <div className="flex-shrink-0 w-10 h-10 bg-white rounded-full flex items-center justify-center text-white font-bold text-lg">5</div>
                   <div className="flex-1">
                     <h3 className="text-xl font-semibold text-white mb-3">Add Quality Photos</h3>
                     <p className="text-gray-300 mb-4">
@@ -489,7 +489,7 @@ export default function BingPlacesChatGPTConnection() {
               {/* Step 6 */}
               <div className="bg-white/[0.02] border border-white/[0.05] rounded-xl p-6">
                 <div className="flex items-start gap-4">
-                  <div className="flex-shrink-0 w-10 h-10 bg-[#f27d24] rounded-full flex items-center justify-center text-white font-bold text-lg">6</div>
+                  <div className="flex-shrink-0 w-10 h-10 bg-white rounded-full flex items-center justify-center text-white font-bold text-lg">6</div>
                   <div className="flex-1">
                     <h3 className="text-xl font-semibold text-white mb-3">Verify Your Listing</h3>
                     <p className="text-gray-300 mb-4">
@@ -502,7 +502,7 @@ export default function BingPlacesChatGPTConnection() {
               {/* Step 7 */}
               <div className="bg-white/[0.02] border border-white/[0.05] rounded-xl p-6">
                 <div className="flex items-start gap-4">
-                  <div className="flex-shrink-0 w-10 h-10 bg-[#f27d24] rounded-full flex items-center justify-center text-white font-bold text-lg">7</div>
+                  <div className="flex-shrink-0 w-10 h-10 bg-white rounded-full flex items-center justify-center text-white font-bold text-lg">7</div>
                   <div className="flex-1">
                     <h3 className="text-xl font-semibold text-white mb-3">Maintain and Update</h3>
                     <p className="text-gray-300 mb-4">
@@ -581,19 +581,19 @@ export default function BingPlacesChatGPTConnection() {
               </p>
               <ul className="space-y-3 ml-4">
                 <li className="flex items-start gap-3">
-                  <span className="text-[#f27d24] mt-1">•</span>
+                  <span className="text-white mt-1">•</span>
                   <span><strong className="text-white">Google Search results</strong> — Still 90%+ of search traffic</span>
                 </li>
                 <li className="flex items-start gap-3">
-                  <span className="text-[#f27d24] mt-1">•</span>
+                  <span className="text-white mt-1">•</span>
                   <span><strong className="text-white">Google Maps</strong> — Where most local searches end up</span>
                 </li>
                 <li className="flex items-start gap-3">
-                  <span className="text-[#f27d24] mt-1">•</span>
+                  <span className="text-white mt-1">•</span>
                   <span><strong className="text-white">Google AI Overview</strong> — Google's own AI can read your GBP</span>
                 </li>
                 <li className="flex items-start gap-3">
-                  <span className="text-[#f27d24] mt-1">•</span>
+                  <span className="text-white mt-1">•</span>
                   <span><strong className="text-white">Customer trust</strong> — Many people still check Google before contacting</span>
                 </li>
               </ul>
@@ -602,23 +602,23 @@ export default function BingPlacesChatGPTConnection() {
               </p>
             </div>
 
-            <div className="my-8 bg-gradient-to-br from-[#f27d24]/5 to-[#d66d1f]/5 border border-[#f27d24]/20 rounded-xl p-6">
+            <div className="my-8 bg-gradient-to-br from-white/[0.02] to-white/[0.02] border border-white/[0.08] rounded-xl p-6">
               <h4 className="font-semibold text-white mb-3">The Visibility Stack for 2025</h4>
               <div className="space-y-3 text-gray-300">
                 <div className="flex items-center gap-3">
-                  <span className="text-[#f27d24]">1.</span>
+                  <span className="text-white">1.</span>
                   <span><strong className="text-white">Google Business Profile</strong> → Google Search, Maps, AI Overview</span>
                 </div>
                 <div className="flex items-center gap-3">
-                  <span className="text-[#f27d24]">2.</span>
+                  <span className="text-white">2.</span>
                   <span><strong className="text-white">Bing Places</strong> → ChatGPT, Bing Search, Microsoft Copilot</span>
                 </div>
                 <div className="flex items-center gap-3">
-                  <span className="text-[#f27d24]">3.</span>
+                  <span className="text-white">3.</span>
                   <span><strong className="text-white">Your Website</strong> → All AI platforms, traditional search, direct traffic</span>
                 </div>
                 <div className="flex items-center gap-3">
-                  <span className="text-[#f27d24]">4.</span>
+                  <span className="text-white">4.</span>
                   <span><strong className="text-white">Third-party directories</strong> → Yelp, industry-specific platforms, Perplexity</span>
                 </div>
               </div>
@@ -678,21 +678,21 @@ export default function BingPlacesChatGPTConnection() {
           <section className="mb-12">
             <h2 className="text-2xl sm:text-3xl font-semibold mb-6 text-white">Related Articles</h2>
             <div className="grid sm:grid-cols-2 gap-4">
-              <Link href="/blog/do-google-reviews-affect-ai-recommendations" className="bg-white/[0.02] border border-white/[0.05] rounded-xl p-6 hover:border-[#f27d24]/30 transition-colors group">
-                <div className="text-[#f27d24] text-sm font-medium mb-2">Reviews & AI</div>
-                <div className="text-white font-semibold group-hover:text-[#f27d24] transition-colors">Do Google Reviews Affect AI Recommendations?</div>
+              <Link href="/blog/do-google-reviews-affect-ai-recommendations" className="bg-white/[0.02] border border-white/[0.05] rounded-xl p-6 hover:border-white/[0.08] transition-colors group">
+                <div className="text-white text-sm font-medium mb-2">Reviews & AI</div>
+                <div className="text-white font-semibold group-hover:text-white transition-colors">Do Google Reviews Affect AI Recommendations?</div>
               </Link>
-              <Link href="/blog/check-if-ai-recommends-your-business" className="bg-white/[0.02] border border-white/[0.05] rounded-xl p-6 hover:border-[#f27d24]/30 transition-colors group">
-                <div className="text-[#f27d24] text-sm font-medium mb-2">DIY Guide</div>
-                <div className="text-white font-semibold group-hover:text-[#f27d24] transition-colors">How to Check If AI Recommends Your Business</div>
+              <Link href="/blog/check-if-ai-recommends-your-business" className="bg-white/[0.02] border border-white/[0.05] rounded-xl p-6 hover:border-white/[0.08] transition-colors group">
+                <div className="text-white text-sm font-medium mb-2">DIY Guide</div>
+                <div className="text-white font-semibold group-hover:text-white transition-colors">How to Check If AI Recommends Your Business</div>
               </Link>
-              <Link href="/blog/why-chatgpt-isnt-recommending-your-business" className="bg-white/[0.02] border border-white/[0.05] rounded-xl p-6 hover:border-[#f27d24]/30 transition-colors group">
-                <div className="text-[#f27d24] text-sm font-medium mb-2">Troubleshooting</div>
-                <div className="text-white font-semibold group-hover:text-[#f27d24] transition-colors">Why ChatGPT Isn't Recommending Your Business</div>
+              <Link href="/blog/why-chatgpt-isnt-recommending-your-business" className="bg-white/[0.02] border border-white/[0.05] rounded-xl p-6 hover:border-white/[0.08] transition-colors group">
+                <div className="text-white text-sm font-medium mb-2">Troubleshooting</div>
+                <div className="text-white font-semibold group-hover:text-white transition-colors">Why ChatGPT Isn't Recommending Your Business</div>
               </Link>
-              <Link href="/blog/aeo-vs-seo" className="bg-white/[0.02] border border-white/[0.05] rounded-xl p-6 hover:border-[#f27d24]/30 transition-colors group">
-                <div className="text-[#f27d24] text-sm font-medium mb-2">Comparison</div>
-                <div className="text-white font-semibold group-hover:text-[#f27d24] transition-colors">AEO vs SEO: What's the Difference?</div>
+              <Link href="/blog/aeo-vs-seo" className="bg-white/[0.02] border border-white/[0.05] rounded-xl p-6 hover:border-white/[0.08] transition-colors group">
+                <div className="text-white text-sm font-medium mb-2">Comparison</div>
+                <div className="text-white font-semibold group-hover:text-white transition-colors">AEO vs SEO: What's the Difference?</div>
               </Link>
             </div>
           </section>
@@ -705,7 +705,7 @@ export default function BingPlacesChatGPTConnection() {
             </p>
             <Link
               href="/#contact"
-              className="inline-flex items-center gap-2 bg-gradient-to-r from-[#f27d24] to-[#d66d1f] text-white font-semibold px-8 py-4 rounded-xl hover:opacity-90 transition-opacity"
+              className="inline-flex items-center gap-2 bg-gradient-to-r from-white to-white text-white font-semibold px-8 py-4 rounded-xl hover:opacity-90 transition-opacity"
             >
               Get Your Free AEO Audit
               <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={2}>
