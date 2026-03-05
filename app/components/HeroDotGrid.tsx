@@ -17,9 +17,9 @@ export default function HeroDotGrid({ className = '' }: { className?: string }) 
         style={{
           background: mounted
             ? `
-              radial-gradient(ellipse 80% 50% at 20% 40%, rgba(255,255,255,0.03), transparent),
-              radial-gradient(ellipse 60% 80% at 80% 20%, rgba(255,255,255,0.02), transparent),
-              radial-gradient(ellipse 50% 60% at 50% 80%, rgba(255,255,255,0.025), transparent)
+              radial-gradient(ellipse 80% 50% at 20% 40%, rgba(255,255,255,0.05), transparent),
+              radial-gradient(ellipse 60% 80% at 80% 20%, rgba(255,255,255,0.04), transparent),
+              radial-gradient(ellipse 50% 60% at 50% 80%, rgba(255,255,255,0.045), transparent)
             `
             : 'transparent',
           opacity: mounted ? 1 : 0,
@@ -35,7 +35,7 @@ export default function HeroDotGrid({ className = '' }: { className?: string }) 
           height: '400px',
           left: '10%',
           top: '20%',
-          background: 'radial-gradient(circle, rgba(255,255,255,0.025), transparent 70%)',
+          background: 'radial-gradient(circle, rgba(255,255,255,0.045), transparent 70%)',
           animation: mounted ? 'meshFloat1 20s ease-in-out infinite' : 'none',
         }}
       />
@@ -48,7 +48,7 @@ export default function HeroDotGrid({ className = '' }: { className?: string }) 
           height: '500px',
           right: '10%',
           top: '10%',
-          background: 'radial-gradient(circle, rgba(255,255,255,0.02), transparent 70%)',
+          background: 'radial-gradient(circle, rgba(255,255,255,0.04), transparent 70%)',
           animation: mounted ? 'meshFloat2 25s ease-in-out infinite' : 'none',
         }}
       />
@@ -61,7 +61,7 @@ export default function HeroDotGrid({ className = '' }: { className?: string }) 
           height: '300px',
           left: '40%',
           bottom: '10%',
-          background: 'radial-gradient(circle, rgba(255,255,255,0.02), transparent 70%)',
+          background: 'radial-gradient(circle, rgba(255,255,255,0.04), transparent 70%)',
           animation: mounted ? 'meshFloat3 18s ease-in-out infinite' : 'none',
         }}
       />

@@ -1,4 +1,5 @@
 import type { Metadata } from 'next';
+import { ReadingProgress } from '../components/ReadingProgress';
 
 export const metadata: Metadata = {
   title: 'Answer Engine Optimization Blog - Expert AEO Insights & Strategies | The Answer Engine',
@@ -47,5 +48,10 @@ export default function BlogLayout({
 }: {
   children: React.ReactNode;
 }) {
-  return children;
+  return (
+    <>
+      <ReadingProgress />
+      {children}
+    </>
+  );
 }

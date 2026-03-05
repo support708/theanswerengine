@@ -42,7 +42,7 @@ const useScrollAnimation = (): { ref: RefObject<HTMLDivElement | null>; isVisibl
           observer.unobserve(entry.target);
         }
       },
-      { threshold: 0.1, rootMargin: '0px 0px -50px 0px' }
+      { threshold: 0.1, rootMargin: '100px 0px 0px 0px' }
     );
 
     if (ref.current) observer.observe(ref.current);
@@ -613,7 +613,7 @@ export default function Home() {
               Become the answer
             </span>
             <span
-              className="block text-fluid-hero font-heading-hero text-white/40 mt-1 opacity-0 animate-fade-up"
+              className="block text-fluid-hero font-heading-hero text-white/60 mt-1 opacity-0 animate-fade-up"
               style={{ animationDelay: '200ms', animationFillMode: 'forwards' }}
             >
               AI recommends.
@@ -644,7 +644,7 @@ export default function Home() {
             </a>
             <a
               href="#case-study"
-              className="inline-flex items-center gap-2.5 px-7 py-3.5 rounded-xl font-medium text-[15px] text-white/60 hover:text-white border border-white/[0.08] hover:border-white/[0.15] transition-all duration-200"
+              className="inline-flex items-center gap-2.5 px-7 py-3.5 rounded-xl font-medium text-[15px] text-white/80 hover:text-white border border-white/[0.15] hover:border-white/[0.25] transition-all duration-200"
             >
               See Results
             </a>
@@ -696,7 +696,7 @@ export default function Home() {
 
               <h2 className="text-3xl sm:text-4xl lg:text-5xl font-semibold mb-6 leading-tight text-white font-heading tracking-tight">
                 70,000 agents competing.<br />
-                <span className="text-white/40">One gets cited.</span>
+                <span className="text-white/60">One gets cited.</span>
               </h2>
 
               <p className="text-lg text-white/50 max-w-xl mx-auto mb-12 leading-relaxed">
@@ -807,7 +807,7 @@ export default function Home() {
                         alt={citation.alt}
                         width={600}
                         height={400}
-                        className="w-full h-auto"
+                        className="w-full h-auto object-cover aspect-[3/2]"
                         loading="lazy"
                       />
                       {/* Subtle gradient overlay at bottom */}
@@ -855,17 +855,14 @@ export default function Home() {
         </div>
 
         {/* Testimonials Section */}
-        <section className="relative py-24 sm:py-32 overflow-hidden">
-          <div className="absolute inset-0 pointer-events-none">
-            <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[400px] bg-[radial-gradient(ellipse_at_center,rgba(255,255,255,0.02),transparent_70%)]" />
-          </div>
+        <section className="relative py-16 sm:py-20 overflow-hidden">
           <div
             ref={testimonialsAnim.ref}
-            className={`relative max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 transition-all duration-700 ease-out ${
+            className={`relative max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 transition-all duration-700 ease-out ${
               testimonialsAnim.isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'
             }`}
           >
-            <div className="max-w-2xl mx-auto">
+            <div className="max-w-3xl mx-auto border border-white/[0.06] rounded-2xl p-10 sm:p-14 bg-white/[0.02]">
               <div className="relative">
                 <blockquote className="text-2xl sm:text-3xl lg:text-4xl font-light text-white/80 leading-[1.3] mb-10 font-heading tracking-tight">
                   &ldquo;He understands how AI actually decides who to recommend. That&apos;s a completely different skill set, and it&apos;s working.&rdquo;
@@ -883,10 +880,10 @@ export default function Home() {
         </section>
 
         {/* Separator */}
-        <div className="max-w-xs mx-auto h-px bg-gradient-to-r from-transparent via-white/[0.06] to-transparent mb-24" />
+        <div className="max-w-xs mx-auto h-px bg-gradient-to-r from-transparent via-white/[0.06] to-transparent mb-16" />
 
         {/* How It Works */}
-        <section id="how-it-works" className="max-w-5xl mx-auto px-6 pb-32">
+        <section id="how-it-works" className="max-w-5xl mx-auto px-6 pb-20 sm:pb-24">
           <div
             ref={processAnim.ref}
             className={`transition-all duration-700 ease-out ${
@@ -933,7 +930,7 @@ export default function Home() {
                   }`}
                   style={{ transitionDelay: processAnim.isVisible ? `${i * 100}ms` : '0ms' }}
                 >
-                  <div className="text-sm text-white/20 font-mono mb-6">{step.number}</div>
+                  <div className="text-2xl font-semibold text-white/10 font-mono mb-4">{step.number}</div>
                   <h3 className="text-xl font-semibold text-white font-heading mb-3">{step.title}</h3>
                   <p className="text-white/40 leading-relaxed text-[15px] mb-4">{step.description}</p>
                   <span className="text-xs text-white/20">{step.timeline}</span>
@@ -944,7 +941,7 @@ export default function Home() {
         </section>
 
         {/* Before/After */}
-        <section className="max-w-5xl mx-auto px-6 py-32">
+        <section className="max-w-5xl mx-auto px-6 py-20 sm:py-24">
           <div
             ref={beforeAfterAnim.ref}
             className={`transition-all duration-700 ease-out ${
@@ -996,7 +993,7 @@ export default function Home() {
         </section>
 
         {/* Guarantee */}
-        <section className="max-w-4xl mx-auto px-6 pb-32">
+        <section className="max-w-4xl mx-auto px-6 pb-20 sm:pb-24">
           <div
             ref={guaranteeAnim.ref}
             className={`border border-white/[0.06] rounded-2xl p-12 sm:p-16 transition-all duration-700 ease-out ${
@@ -1037,7 +1034,7 @@ export default function Home() {
         </section>
 
         {/* FAQ Section */}
-        <section id="faq-section" className="max-w-4xl mx-auto px-6 pb-32">
+        <section id="faq-section" className="max-w-4xl mx-auto px-6 pb-20 sm:pb-24">
           <div
             ref={faqAnim.ref}
             className={`transition-all duration-700 ease-out ${
@@ -1249,55 +1246,6 @@ export default function Home() {
           </div>
         </section>
 
-        {/* Footer */}
-        <footer className="relative border-t border-white/[0.06]">
-          <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
-            <div className="flex flex-col md:flex-row justify-between items-start gap-12 mb-12">
-              <div className="max-w-sm">
-                <Image
-                  src="/TheAnswerEngine_white logo only.png"
-                  alt="The Answer Engine"
-                  width={120}
-                  height={40}
-                  className="h-10 w-auto mb-4 opacity-60"
-                />
-                <p className="text-white/50 text-sm">We help local service businesses become the answer AI platforms recommend.</p>
-              </div>
-              <div className="grid grid-cols-2 sm:grid-cols-3 gap-8">
-                <div>
-                  <h4 className="text-sm font-semibold text-white mb-4 font-heading">Company</h4>
-                  <ul className="space-y-3">
-                    <li><a href="/about" className="text-sm text-white/50 hover:text-white transition-colors">About</a></li>
-                    <li><a href="/case-studies" className="text-sm text-white/50 hover:text-white transition-colors">Case Studies</a></li>
-                    <li><a href="/blog" className="text-sm text-white/50 hover:text-white transition-colors">Blog</a></li>
-                  </ul>
-                </div>
-                <div>
-                  <h4 className="text-sm font-semibold text-white mb-4 font-heading">Services</h4>
-                  <ul className="space-y-3">
-                    <li><a href="#territory-check" className="text-sm text-white/50 hover:text-white transition-colors">Territory Check</a></li>
-                    <li><a href="/contact" className="text-sm text-white/50 hover:text-white transition-colors">Contact</a></li>
-                  </ul>
-                </div>
-                <div>
-                  <h4 className="text-sm font-semibold text-white mb-4 font-heading">Connect</h4>
-                  <ul className="space-y-3">
-                    <li><a href="https://www.linkedin.com/company/theanswerengine" target="_blank" rel="noopener noreferrer" className="text-sm text-white/50 hover:text-white transition-colors">LinkedIn</a></li>
-                    <li><a href="https://instagram.com/theanswerengine" target="_blank" rel="noopener noreferrer" className="text-sm text-white/50 hover:text-white transition-colors">Instagram</a></li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-            <div className="h-px bg-gradient-to-r from-transparent via-white/[0.06] to-transparent mb-8" />
-            <div className="flex flex-col sm:flex-row justify-between items-center gap-4">
-              <p className="text-sm text-white/40">&copy; 2025 The Answer Engine. All rights reserved.</p>
-              <div className="flex items-center gap-6">
-                <a href="/privacy" className="text-sm text-white/40 hover:text-white transition-colors">Privacy Policy</a>
-                <a href="/terms" className="text-sm text-white/40 hover:text-white transition-colors">Terms of Service</a>
-              </div>
-            </div>
-          </div>
-        </footer>
 
         {/* Mobile Floating CTA */}
         <div className={`fixed bottom-6 left-4 right-4 z-50 sm:hidden transition-all duration-300 ${showMobileCta ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-full pointer-events-none'}`}>
