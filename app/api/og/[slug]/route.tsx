@@ -1,8 +1,7 @@
 import { ImageResponse } from 'next/og';
 import { readLeads } from '@/lib/leads';
 import { getIndustryColors } from '@/lib/report-template';
-import { promises as fs } from 'fs';
-import path from 'path';
+import reportMetadata from '@/data/report-metadata.json';
 
 export const runtime = 'nodejs';
 
@@ -14,17 +13,7 @@ interface ReportMeta {
   topCompetitor: string;
 }
 
-/** Read committed report-metadata.json (works on Vercel, unlike leads.json) */
-async function getReportMetadata(slug: string): Promise<ReportMeta | null> {
-  try {
-    const metaPath = path.join(process.cwd(), 'data', 'report-metadata.json');
-    const data = await fs.readFile(metaPath, 'utf-8');
-    const metadata = JSON.parse(data) as Record<string, ReportMeta>;
-    return metadata[slug] ?? null;
-  } catch {
-    return null;
-  }
-}
+const metadata = reportMetadata as Record<string, ReportMeta>;
 
 export async function GET(
   _req: Request,
@@ -50,8 +39,8 @@ export async function GET(
     topCompetitor = competitors[0]?.name || 'Your competitors';
     reviewCount = lead.research?.reviewCount || lead.reviewCount || 0;
   } else {
-    // Fallback: committed metadata file (available on Vercel)
-    const meta = await getReportMetadata(slug);
+    // Fallback: imported metadata (bundled at build time, works on Vercel)
+    const meta = metadata[slug] ?? null;
     if (!meta) {
       return new Response('Not found', { status: 404 });
     }
