@@ -16,6 +16,18 @@
     {
       "path": "/api/cron/followup",
       "schedule": "0 16 * * 1-5"
+    },
+    {
+      "path": "/api/cron/blog",
+      "schedule": "0 15 * * 1-5"
+    },
+    {
+      "path": "/api/cron/blog",
+      "schedule": "0 19 * * 1-5"
+    },
+    {
+      "path": "/api/cron/blog?action=publish",
+      "schedule": "0 22 * * 1-5"
     }
   ]
 }
