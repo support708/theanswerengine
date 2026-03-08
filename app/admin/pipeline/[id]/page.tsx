@@ -150,20 +150,23 @@ export default function LeadReviewPage() {
             </dl>
           </div>
 
-          {/* AERO-7 Score */}
+          {/* AERO-10 Score */}
           {lead.research?.aero7 && (
             <div className="bg-zinc-900 border border-zinc-700 rounded-lg p-4">
               <h2 className="text-sm font-semibold text-zinc-400 uppercase tracking-wider mb-3">
-                AERO-7 Score: <span className="text-[#FF6A00]">{lead.research.aero7.total}/70</span>
+                AERO-10 Score: <span className="text-[#FF6A00]">{lead.research.aero7.total}/100</span>
               </h2>
               <div className="space-y-2">
-                <ScoreBar label="Answer Quality" score={lead.research.aero7.answerQuality} />
-                <ScoreBar label="Entity Optimization" score={lead.research.aero7.entityOptimization} />
-                <ScoreBar label="Relevance & Freshness" score={lead.research.aero7.relevanceFreshness} />
-                <ScoreBar label="Optimization Structure" score={lead.research.aero7.optimizationStructure} />
-                <ScoreBar label="Voice & Authenticity" score={lead.research.aero7.voiceAuthenticity} />
-                <ScoreBar label="Authority Signals" score={lead.research.aero7.authoritySignals} />
-                <ScoreBar label="AI Visibility" score={lead.research.aero7.aiVisibility} />
+                <ScoreBar label="P1: Answer Quality" score={lead.research.aero7.answerQuality} />
+                <ScoreBar label="P2: Entity Optimization" score={lead.research.aero7.entityOptimization} />
+                <ScoreBar label="P3: Relevance & Freshness" score={lead.research.aero7.relevanceFreshness} />
+                <ScoreBar label="P4: Optimization Structure" score={lead.research.aero7.optimizationStructure} />
+                <ScoreBar label="P5: Voice & Authenticity" score={lead.research.aero7.voiceAuthenticity} />
+                <ScoreBar label="P6: Authority Signals" score={lead.research.aero7.authoritySignals} />
+                <ScoreBar label="P7: Authority Distribution" score={lead.research.aero7.authorityDistribution} />
+                <ScoreBar label="P8: Consensus & Co-Citation" score={lead.research.aero7.consensusCoCitation} />
+                <ScoreBar label="P9: Platform Readiness" score={lead.research.aero7.platformReadiness} />
+                <ScoreBar label="P10: Technical Accessibility" score={lead.research.aero7.technicalAccessibility} />
               </div>
             </div>
           )}

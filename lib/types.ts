@@ -15,16 +15,22 @@ export type LeadStatus =
   | 'closed_lost'
   | 'no_response';
 
-export interface AERO7Score {
-  answerQuality: number;       // 0-10
-  entityOptimization: number;  // 0-10
-  relevanceFreshness: number;  // 0-10
-  optimizationStructure: number; // 0-10
-  voiceAuthenticity: number;   // 0-10
-  authoritySignals: number;    // 0-10
-  aiVisibility: number;        // 0-10
-  total: number;               // 0-70
+export interface AERO10Score {
+  answerQuality: number;            // P1: 0-10
+  entityOptimization: number;       // P2: 0-10
+  relevanceFreshness: number;       // P3: 0-10
+  optimizationStructure: number;    // P4: 0-10
+  voiceAuthenticity: number;        // P5: 0-10
+  authoritySignals: number;         // P6: 0-10
+  authorityDistribution: number;    // P7: 0-10
+  consensusCoCitation: number;      // P8: 0-10 (NEW)
+  platformReadiness: number;        // P9: 0-10 (NEW)
+  technicalAccessibility: number;   // P10: 0-10 (NEW)
+  total: number;                    // 0-100
 }
+
+/** @deprecated Use AERO10Score instead */
+export type AERO7Score = AERO10Score;
 
 export interface ResearchResults {
   reviewCount: number;
@@ -42,7 +48,7 @@ export interface ResearchResults {
   recentContent: boolean;
   uniqueStory: string | null;
   aiCited: boolean;
-  aero7: AERO7Score;
+  aero7: AERO10Score;
   rawNotes: string;
   researchedAt: string;
 }

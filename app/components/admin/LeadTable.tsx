@@ -28,7 +28,7 @@ export default function LeadTable({ leads, onAction }: LeadTableProps) {
             <th className="px-4 py-3">City</th>
             <th className="px-4 py-3">Niche</th>
             <th className="px-4 py-3">Status</th>
-            <th className="px-4 py-3">AERO-7</th>
+            <th className="px-4 py-3">AERO-10</th>
             <th className="px-4 py-3">Actions</th>
           </tr>
         </thead>
@@ -59,7 +59,7 @@ export default function LeadTable({ leads, onAction }: LeadTableProps) {
               </td>
               <td className="px-4 py-3 text-zinc-300">
                 {lead.research?.aero7?.total != null ? (
-                  <span className="font-mono">{lead.research.aero7.total}/70</span>
+                  <span className="font-mono">{lead.research.aero7.total}/100</span>
                 ) : (
                   <span className="text-zinc-600">--</span>
                 )}

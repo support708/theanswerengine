@@ -7,6 +7,7 @@ import { parseAERO7FromResearch } from '@/lib/aero7-scorer';
 import { getIndustryColors, CALENDLY_URL, REPORT_FOOTER } from '@/lib/report-template';
 import { runFabricationScan, runEmDashScan, stripEmDashes } from '@/lib/fabrication-scan';
 import { notifyResearchComplete, notifyReportReady } from '@/lib/telegram';
+import { deployReport, isDeployConfigured } from '@/lib/deploy';
 import type { ResearchResults } from '@/lib/types';
 
 export const maxDuration = 120; // Allow up to 2 minutes for Vercel
@@ -39,14 +40,26 @@ export async function POST(req: NextRequest) {
     // ─── STEP 2: Research with Claude Haiku + web_search ───
     const researchSystemPrompt = [{
       type: 'text' as const,
-      text: `You are a business intelligence researcher for an Answer Engine Optimization agency.
-Your job is to research a local service business and return structured data.
+      text: `You are a business intelligence researcher for The Answer Engine, an Answer Engine Optimization agency.
+Your job is to research a local service business and return structured data using the AERO-10 framework (10 pillars, 100 points).
 
 CRITICAL RULES:
 - Only report facts you can verify through web search. Never fabricate.
 - If you cannot find a piece of information, set it to null or empty.
-- No em-dashes in any output.
+- No em-dashes in any output. Use commas or "to" instead.
 - Return ONLY valid JSON, no markdown fences, no commentary.
+
+AERO-10 SCORING GUIDE (score each 0-10):
+P1 Answer Quality: Directness, snippet-readiness of answers on their site. 10 = 40-60 word lead + proof assets.
+P2 Entity Optimization: Schema markup depth. 10 = 7+ schema types, zero validation errors.
+P3 Relevance & Freshness: Content age + intent alignment. 10 = updated <3 months + perfect query match.
+P4 Optimization Structure: H-tag hierarchy, paragraph length, mobile. 10 = perfect structure.
+P5 Voice & Authenticity: Real voice, verified examples, zero fabrication feel. 10 = sounds like a real expert.
+P6 Authority Signals: Credentials, licenses, author bios, reviews embedded. 10 = full credentials + 5+ reviews.
+P7 Authority Distribution: Third-party presence, earned media, multi-platform AI visibility. 10 = cited on 4-5 AI platforms.
+P8 Consensus & Co-Citation: Cross-platform mentions (0-4) + semantic co-mention (0-3) + citation consistency (0-3). How often independent sources mention them together with their service keywords.
+P9 Platform-Specific Readiness: ChatGPT+Gemini readiness (0-4) + Perplexity/Reddit presence (0-3) + Claude+Google AIO E-E-A-T depth (0-3).
+P10 Technical AI Accessibility: Bot access in robots.txt (0-4) + NAP consistency (0-3) + fresh GBP signals (0-3). Check if GPTBot, ClaudeBot, PerplexityBot are allowed.
 
 Return a JSON object with this exact structure:
 {
@@ -72,7 +85,10 @@ Return a JSON object with this exact structure:
     "optimizationStructure": 0-10,
     "voiceAuthenticity": 0-10,
     "authoritySignals": 0-10,
-    "aiVisibility": 0-10
+    "authorityDistribution": 0-10,
+    "consensusCoCitation": 0-10,
+    "platformReadiness": 0-10,
+    "technicalAccessibility": 0-10
   },
   "rawNotes": "string - brief summary of key findings"
 }`,
@@ -100,8 +116,12 @@ Tasks:
 3. Check if their site has FAQ pages, blog/articles, schema markup
 4. Search AI platforms: "best ${lead.serviceNiche} in ${lead.city}" to see if they appear
 5. Identify who AI DOES recommend instead and why
-6. Score each AERO-7 dimension based on what you find
-7. Surface any "hidden differentiators" - things that make them unique but aren't visible to AI
+6. Check their robots.txt for GPTBot, ClaudeBot, PerplexityBot access (P10)
+7. Check for NAP consistency across Google, Yelp, and their website (P10)
+8. Look for mentions on Reddit, LinkedIn, local news, industry directories (P8)
+9. Check GBP activity: recent posts, photos, Q&A, review responses (P10)
+10. Score all 10 AERO-10 pillars based on what you find
+11. Surface any "hidden differentiators" - things that make them unique but aren't visible to AI
 
 Return the JSON object as specified.`;
 
@@ -225,7 +245,7 @@ Section 1 - THE HOOK:
 Subhead using an adjective that fits their reputation and credentials.
 
 Section 2 - THE GAP:
-Stats panel: [X] Five-Star Reviews | [X] Years in Business | [X] Credentials/Awards | 0 AI Citations
+Stats panel: [X] Five-Star Reviews | [X] Years in Business | [X] Credentials/Awards | AERO-10 Score: [X]/100
 
 Section 3 - WHAT AI SEES:
 Terminal/chat-style block simulating a ChatGPT query like "best [service] in [city]"
@@ -279,6 +299,19 @@ RESEARCH DATA:
 - GMB: ${research.gmbPresent ? 'Yes' : 'No'}
 - Schema: ${research.schemaDetected ? 'Yes' : 'No'}
 
+AERO-10 SCORES (out of 100):
+- P1 Answer Quality: ${research.aero7.answerQuality}/10
+- P2 Entity Optimization: ${research.aero7.entityOptimization}/10
+- P3 Relevance & Freshness: ${research.aero7.relevanceFreshness}/10
+- P4 Optimization Structure: ${research.aero7.optimizationStructure}/10
+- P5 Voice & Authenticity: ${research.aero7.voiceAuthenticity}/10
+- P6 Authority Signals: ${research.aero7.authoritySignals}/10
+- P7 Authority Distribution: ${research.aero7.authorityDistribution}/10
+- P8 Consensus & Co-Citation: ${research.aero7.consensusCoCitation}/10
+- P9 Platform-Specific Readiness: ${research.aero7.platformReadiness}/10
+- P10 Technical AI Accessibility: ${research.aero7.technicalAccessibility}/10
+- TOTAL: ${research.aero7.total}/100
+
 Generate the complete HTML now.`;
 
     const reportResponse = await callClaude({
@@ -305,6 +338,8 @@ Generate the complete HTML now.`;
       research.reviewCount ? `${research.reviewCount}` : '',
       research.rating ? `${research.rating}` : '',
       research.yearsInBusiness ? `${research.yearsInBusiness}` : '',
+      `${research.aero7.total} out of 100`,
+      `${research.aero7.total}/100`,
     ].filter(Boolean);
 
     const fabricationResult = runFabricationScan(reportHtml, verifiedData);
@@ -326,18 +361,31 @@ Generate the complete HTML now.`;
     const cardPath = path.join(reportDir, `${lead.reportSlug}-card.html`);
     await fs.writeFile(cardPath, cardHtml, 'utf-8');
 
+    // Auto-deploy to production via GitHub API
+    let deployed = false;
+    if (isDeployConfigured()) {
+      const deployResult = await deployReport(lead.reportSlug!, reportHtml);
+      deployed = deployResult.success;
+      if (!deployed) {
+        console.error('Deploy failed:', deployResult.error);
+      }
+    }
+
     // Update lead status to report_ready with scan results
+    const actionLog = (await getLeadById(leadId))!.actionLog;
+    actionLog.push({ action: 'Report generated', timestamp: new Date().toISOString() });
+    actionLog.push({ action: `Fabrication scan: ${fabricationResult.clean ? 'CLEAN' : `${fabricationResult.flags.length} flags`}`, timestamp: new Date().toISOString() });
+    actionLog.push({ action: `Em-dash scan: ${emDashResult.clean ? 'CLEAN' : `${emDashResult.count} found, auto-stripped`}`, timestamp: new Date().toISOString() });
+    actionLog.push({ action: 'Preview card generated', timestamp: new Date().toISOString() });
+    if (deployed) {
+      actionLog.push({ action: 'Report deployed to production', timestamp: new Date().toISOString() });
+    }
+
     const finalLead = await updateLead(leadId, {
       status: 'report_ready',
       fabricationFlags: fabricationResult.flags,
       emDashClean: emDashResult.clean || true, // true after stripping
-      actionLog: [
-        ...(await getLeadById(leadId))!.actionLog,
-        { action: 'Report generated', timestamp: new Date().toISOString() },
-        { action: `Fabrication scan: ${fabricationResult.clean ? 'CLEAN' : `${fabricationResult.flags.length} flags`}`, timestamp: new Date().toISOString() },
-        { action: `Em-dash scan: ${emDashResult.clean ? 'CLEAN' : `${emDashResult.count} found, auto-stripped`}`, timestamp: new Date().toISOString() },
-        { action: 'Preview card generated', timestamp: new Date().toISOString() },
-      ],
+      actionLog,
     });
 
     // Telegram: report ready notification
@@ -347,8 +395,9 @@ Generate the complete HTML now.`;
 
     return NextResponse.json({
       success: true,
-      reportUrl: `/blindspot/${lead.reportSlug}.html`,
+      reportUrl: `/blindspot/${lead.reportSlug}`,
       cardUrl: `/blindspot/${lead.reportSlug}-card.html`,
+      deployed,
       fabricationScan: { clean: fabricationResult.clean, flagCount: fabricationResult.flags.length },
       emDashScan: { clean: emDashResult.clean, count: emDashResult.count },
     });
@@ -458,7 +507,7 @@ h1 {
   <div class="badge">AI Visibility Report</div>
   <div class="icon">&#128065;&#65039;</div>
   <h1>${firstName}, You Have a Visibility Problem</h1>
-  <p class="subtitle">${reviewText} &bull; ${yearsText} &bull; 0 AI Citations</p>
+  <p class="subtitle">${reviewText} &bull; ${yearsText} &bull; AERO-10: ${research.aero7.total}/100</p>
   <a href="https://theanswerengine.ai/blindspot/${slug}" class="cta">VIEW FULL REPORT &rarr;</a>
   <div class="branding">The Answer Engine</div>
 </div>

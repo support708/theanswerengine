@@ -1,4 +1,25 @@
+import { readFileSync } from 'fs';
+import { join } from 'path';
+
 const ANTHROPIC_API_URL = 'https://api.anthropic.com/v1/messages';
+
+/**
+ * Get the API key, falling back to reading .env.local directly
+ * when a system env var overrides it with an empty string.
+ */
+function getApiKey(): string | undefined {
+  const key = process.env.ANTHROPIC_API_KEY;
+  if (key) return key;
+
+  // Fallback: system env may override .env.local with empty string
+  try {
+    const envFile = readFileSync(join(process.cwd(), '.env.local'), 'utf-8');
+    const match = envFile.match(/^ANTHROPIC_API_KEY=(.+)$/m);
+    if (match?.[1]) return match[1].trim();
+  } catch { /* .env.local not found */ }
+
+  return undefined;
+}
 
 // Simple in-memory rate limiter for report generation
 const rateLimiter = {
@@ -44,7 +65,7 @@ export async function callClaude(options: {
   maxTokens?: number;
   tools?: unknown[];
 }): Promise<AnthropicResponse> {
-  const apiKey = process.env.ANTHROPIC_API_KEY;
+  const apiKey = getApiKey();
   if (!apiKey) throw new Error('ANTHROPIC_API_KEY not configured');
 
   const body: Record<string, unknown> = {

@@ -61,10 +61,12 @@ export async function notifyResearchComplete(lead: Lead): Promise<void> {
 
   const r = lead.research;
   const grade = getAERO7Grade(r.aero7.total);
-  const threshold = r.aero7.total <= 20 ? 'Invisible. Priority prospect.' :
-    r.aero7.total <= 40 ? 'Weak. Excellent prospect.' :
-    r.aero7.total <= 55 ? 'Moderate. Good prospect.' :
-    'Authority. Minor optimization only.';
+  const threshold = r.aero7.total <= 39 ? 'AI Invisible. Priority prospect.' :
+    r.aero7.total <= 49 ? 'Rebuilding Required. Excellent prospect.' :
+    r.aero7.total <= 59 ? 'Below Standard. Good prospect.' :
+    r.aero7.total <= 69 ? 'Average. Significant work needed.' :
+    r.aero7.total <= 79 ? 'Competitive. Strategic improvements.' :
+    'Strong Position. Minor tune-ups.';
 
   const diffList = r.hiddenDifferentiators.length > 0
     ? r.hiddenDifferentiators.slice(0, 3).map(d => `  - ${d}`).join('\n')
@@ -72,7 +74,7 @@ export async function notifyResearchComplete(lead: Lead): Promise<void> {
 
   await sendMessage(
     `<b>Research complete:</b> ${lead.businessName} (${lead.contactFirstName})\n\n` +
-    `AERO-7: ${r.aero7.total}/70 (${grade}) ${threshold}\n` +
+    `AERO-10: ${r.aero7.total}/100 (${grade}) ${threshold}\n` +
     `Reviews: ${r.reviewCount || 'Unknown'} at ${r.rating || '?'} stars\n` +
     `AI Citations: ${r.aiCited ? 'Yes' : '0 across all platforms'}\n` +
     `Top competitor: ${lead.competitorName || 'Unknown'}\n\n` +
@@ -86,7 +88,7 @@ export async function notifyReportReady(lead: Lead): Promise<void> {
 
   await sendMessage(
     `<b>Report ready:</b> ${lead.businessName} (${lead.contactFirstName})\n\n` +
-    `AERO-7: ${lead.research?.aero7.total ?? '?'}/70\n` +
+    `AERO-10: ${lead.research?.aero7.total ?? '?'}/100\n` +
     `Fabrication scan: ${fabricationStatus}\n` +
     `Em-dash scan: ${emDashStatus}\n\n` +
     `Review now:\nhttps://theanswerengine.ai/admin/pipeline/${lead.id}`

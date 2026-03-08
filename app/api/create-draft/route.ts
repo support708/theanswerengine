@@ -1,6 +1,7 @@
 import { NextRequest, NextResponse } from 'next/server';
 import { getLeadById, updateLead } from '@/lib/leads';
 import { buildEmailSubject, buildEmailBody } from '@/lib/gmail';
+import { createGmailDraft, isGmailConfigured } from '@/lib/gmail-api';
 import { notifyEmailDrafted } from '@/lib/telegram';
 
 export async function POST(req: NextRequest) {
@@ -18,28 +19,56 @@ export async function POST(req: NextRequest) {
     return NextResponse.json({ error: 'Report must be ready before drafting email' }, { status: 400 });
   }
 
+  if (!lead.contactEmail) {
+    return NextResponse.json({ error: 'Lead has no contact email' }, { status: 400 });
+  }
+
   const subject = buildEmailSubject(lead);
   const body = buildEmailBody(lead);
 
-  // Return the email content for the admin to review and create draft via Gmail MCP
-  // The actual Gmail draft creation happens through the Gmail MCP connected to Claude Code
-  // In production, this would integrate with Gmail API directly
+  let draftId: string | null = null;
+  let gmailUsed = false;
+
+  // Try to create a real Gmail draft if credentials are configured
+  if (isGmailConfigured()) {
+    try {
+      const result = await createGmailDraft({
+        to: lead.contactEmail,
+        subject,
+        body,
+      });
+      if (result) {
+        draftId = result.draftId;
+        gmailUsed = true;
+      }
+    } catch (error) {
+      console.error('Gmail draft creation failed:', error);
+      // Fall through — still mark as drafted with email content returned
+    }
+  }
 
   const updated = await updateLead(leadId, {
     status: 'email_drafted',
+    emailDraftId: draftId,
     actionLog: [
       ...lead.actionLog,
-      { action: 'Email draft prepared', timestamp: new Date().toISOString() },
+      {
+        action: gmailUsed
+          ? `Gmail draft created (${draftId})`
+          : 'Email draft prepared (manual send required)',
+        timestamp: new Date().toISOString(),
+      },
     ],
   });
 
-  // Telegram notification
   if (updated) {
     await notifyEmailDrafted(updated);
   }
 
   return NextResponse.json({
     success: true,
+    gmailDraft: gmailUsed,
+    draftId,
     email: {
       to: lead.contactEmail,
       subject,

@@ -30,8 +30,12 @@ export interface FabricationResult {
 export function runFabricationScan(html: string, verifiedData: string[]): FabricationResult {
   const flags: string[] = [];
 
-  // Strip HTML tags for text analysis
-  const text = html.replace(/<[^>]*>/g, ' ').replace(/\s+/g, ' ');
+  // Strip style/script blocks first, then HTML tags for text analysis
+  const text = html
+    .replace(/<style[\s\S]*?<\/style>/gi, '')
+    .replace(/<script[\s\S]*?<\/script>/gi, '')
+    .replace(/<[^>]*>/g, ' ')
+    .replace(/\s+/g, ' ');
 
   for (const pattern of FABRICATION_PATTERNS) {
     const matches = text.match(pattern);
