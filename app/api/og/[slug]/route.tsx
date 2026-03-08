@@ -1,8 +1,30 @@
 import { ImageResponse } from 'next/og';
 import { readLeads } from '@/lib/leads';
 import { getIndustryColors } from '@/lib/report-template';
+import { promises as fs } from 'fs';
+import path from 'path';
 
 export const runtime = 'nodejs';
+
+interface ReportMeta {
+  businessName: string;
+  serviceNiche: string;
+  reviewCount: number;
+  score: number | null;
+  topCompetitor: string;
+}
+
+/** Read committed report-metadata.json (works on Vercel, unlike leads.json) */
+async function getReportMetadata(slug: string): Promise<ReportMeta | null> {
+  try {
+    const metaPath = path.join(process.cwd(), 'data', 'report-metadata.json');
+    const data = await fs.readFile(metaPath, 'utf-8');
+    const metadata = JSON.parse(data) as Record<string, ReportMeta>;
+    return metadata[slug] ?? null;
+  } catch {
+    return null;
+  }
+}
 
 export async function GET(
   _req: Request,
@@ -10,19 +32,37 @@ export async function GET(
 ) {
   const { slug } = await params;
 
-  // Find lead by reportSlug
+  // Try leads.json first (local dev), fall back to committed report-metadata.json (production)
+  let businessName = '';
+  let serviceNiche = '';
+  let score: number | null = null;
+  let topCompetitor = 'Your competitors';
+  let reviewCount = 0;
+
   const leads = await readLeads();
   const lead = leads.find(l => l.reportSlug === slug);
 
-  if (!lead) {
-    return new Response('Not found', { status: 404 });
+  if (lead) {
+    businessName = lead.businessName;
+    serviceNiche = lead.serviceNiche;
+    score = lead.research?.aero7?.total ?? null;
+    const competitors = lead.research?.topCompetitors ?? [];
+    topCompetitor = competitors[0]?.name || 'Your competitors';
+    reviewCount = lead.research?.reviewCount || lead.reviewCount || 0;
+  } else {
+    // Fallback: committed metadata file (available on Vercel)
+    const meta = await getReportMetadata(slug);
+    if (!meta) {
+      return new Response('Not found', { status: 404 });
+    }
+    businessName = meta.businessName;
+    serviceNiche = meta.serviceNiche;
+    score = meta.score;
+    topCompetitor = meta.topCompetitor;
+    reviewCount = meta.reviewCount;
   }
 
-  const colors = getIndustryColors(lead.serviceNiche);
-  const score = lead.research?.aero7?.total ?? null;
-  const competitors = lead.research?.topCompetitors ?? [];
-  const topCompetitor = competitors[0]?.name || 'Your competitors';
-  const reviewCount = lead.research?.reviewCount || lead.reviewCount || 0;
+  const colors = getIndustryColors(serviceNiche);
 
   return new ImageResponse(
     (
@@ -107,7 +147,7 @@ export async function GET(
               display: 'flex',
             }}
           >
-            {lead.businessName}
+            {businessName}
           </div>
 
           {/* Stats row */}
