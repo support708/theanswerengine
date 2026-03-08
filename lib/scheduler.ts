@@ -37,7 +37,7 @@ export async function runHuntSession(trigger: HuntTrigger): Promise<HuntSession>
     session.metro = metro;
 
     // 2. Run 3 search passes (with rate-limit delays between passes)
-    const RATE_LIMIT_DELAY_MS = 90_000; // 90s between API calls (free tier: 10K input tokens/min, web_search is token-heavy)
+    const RATE_LIMIT_DELAY_MS = 15_000; // 15s between API calls (Tier 1: 50K input tokens/min)
 
     let painSignals: string[] = [];
     try {
