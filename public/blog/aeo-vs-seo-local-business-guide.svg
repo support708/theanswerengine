@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1e1b4b;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#111827;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <!-- VS divider pattern -->
+  <line x1="600" y1="80" x2="600" y2="550" stroke="rgba(255,106,0,0.2)" stroke-width="1" stroke-dasharray="8 8"/>
+  <circle cx="600" cy="315" r="50" fill="rgba(255,106,0,0.1)" stroke="rgba(255,106,0,0.3)" stroke-width="1"/>
+  <text x="600" y="328" font-family="system-ui, -apple-system, sans-serif" font-size="28" font-weight="700" fill="#FF6A00" text-anchor="middle">VS</text>
+  <!-- Left side -->
+  <text x="300" y="280" font-family="system-ui, -apple-system, sans-serif" font-size="72" font-weight="700" fill="white" text-anchor="middle">AEO</text>
+  <text x="300" y="340" font-family="system-ui, -apple-system, sans-serif" font-size="18" fill="rgba(255,255,255,0.5)" text-anchor="middle">Answer Engine</text>
+  <!-- Right side -->
+  <text x="900" y="280" font-family="system-ui, -apple-system, sans-serif" font-size="72" font-weight="700" fill="rgba(255,255,255,0.4)" text-anchor="middle">SEO</text>
+  <text x="900" y="340" font-family="system-ui, -apple-system, sans-serif" font-size="18" fill="rgba(255,255,255,0.3)" text-anchor="middle">Search Engine</text>
+  <!-- Category pill -->
+  <rect x="40" y="40" width="200" height="32" rx="16" fill="rgba(255,106,0,0.15)" stroke="rgba(255,106,0,0.3)" stroke-width="1"/>
+  <text x="140" y="62" font-family="system-ui, -apple-system, sans-serif" font-size="14" font-weight="500" fill="#FF6A00" text-anchor="middle">Competitive Intelligence</text>
+  <!-- Subtitle -->
+  <text x="600" y="450" font-family="system-ui, -apple-system, sans-serif" font-size="28" font-weight="600" fill="rgba(255,255,255,0.7)" text-anchor="middle">What Local Businesses Actually Need</text>
+  <!-- Footer -->
+  <text x="600" y="580" font-family="system-ui, -apple-system, sans-serif" font-size="16" font-weight="500" fill="rgba(255,255,255,0.5)" text-anchor="middle" letter-spacing="4">THE ANSWER ENGINE</text>
+  <circle cx="1120" cy="590" r="30" fill="rgba(255,255,255,0.1)"/>
+  <text x="1120" y="598" font-family="system-ui, -apple-system, sans-serif" font-size="20" font-weight="700" fill="rgba(255,255,255,0.3)" text-anchor="middle">AE</text>
+</svg>

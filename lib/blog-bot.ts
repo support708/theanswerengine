@@ -240,6 +240,83 @@ export async function auditArticle(code: string): Promise<{ audit: AuditResult; 
   return { audit, tokens };
 }
 
+/**
+ * Generate an SVG hero image for a blog post.
+ * Matches the brand style: dark gradient, orange accents, geometric patterns.
+ */
+export function generateBlogSvg(title: string, category: string, slug: string): string {
+  // Split title into lines (max ~30 chars per line for readability)
+  const words = title.split(' ');
+  const lines: string[] = [];
+  let current = '';
+  for (const word of words) {
+    if ((current + ' ' + word).trim().length > 28 && current) {
+      lines.push(current.trim());
+      current = word;
+    } else {
+      current = current ? current + ' ' + word : word;
+    }
+  }
+  if (current.trim()) lines.push(current.trim());
+
+  // Use slug hash for deterministic pattern variation
+  const hash = slug.split('').reduce((h, c) => ((h << 5) - h + c.charCodeAt(0)) | 0, 0);
+  const patternType = Math.abs(hash) % 4;
+
+  // Gradient colors based on pattern type
+  const gradients = [
+    ['#1a1a2e', '#16213e', '#0f3460'],
+    ['#0c2d48', '#1a1a2e', '#111827'],
+    ['#1e1b4b', '#172554', '#111827'],
+    ['#172554', '#1e1b4b', '#111827'],
+  ];
+  const [c1, c2, c3] = gradients[patternType];
+
+  // Pattern SVG elements
+  const patterns = [
+    `<circle cx="900" cy="315" r="200" stroke="rgba(255,106,0,0.15)" stroke-width="0.5" fill="none"/>
+     <circle cx="900" cy="315" r="140" stroke="rgba(255,106,0,0.1)" stroke-width="0.5" fill="none"/>
+     <circle cx="900" cy="315" r="80" stroke="rgba(255,106,0,0.2)" stroke-width="0.5" fill="none"/>`,
+    `<rect x="850" y="150" width="250" height="250" rx="8" stroke="rgba(255,106,0,0.12)" stroke-width="0.5" fill="none" transform="rotate(15 975 275)"/>
+     <rect x="880" y="180" width="190" height="190" rx="6" stroke="rgba(255,106,0,0.08)" stroke-width="0.5" fill="none" transform="rotate(15 975 275)"/>`,
+    `<line x1="600" y1="80" x2="600" y2="550" stroke="rgba(255,106,0,0.15)" stroke-width="1" stroke-dasharray="8 8"/>
+     <circle cx="600" cy="315" r="120" stroke="rgba(255,106,0,0.08)" stroke-width="0.5" fill="none"/>
+     <circle cx="600" cy="315" r="60" stroke="rgba(255,106,0,0.12)" stroke-width="0.5" fill="none"/>`,
+    `<path d="M 100 500 A 400 400 0 0 1 900 500" stroke="rgba(255,106,0,0.1)" stroke-width="0.5" fill="none"/>
+     <path d="M 200 500 A 300 300 0 0 1 800 500" stroke="rgba(255,106,0,0.15)" stroke-width="0.5" fill="none"/>
+     <path d="M 300 500 A 200 200 0 0 1 700 500" stroke="rgba(255,106,0,0.08)" stroke-width="0.5" fill="none"/>`,
+  ];
+
+  const titleY = 240;
+  const titleLines = lines.map((line, i) => {
+    const isLast = i === lines.length - 1;
+    const fill = isLast && lines.length > 1 ? '#FF6A00' : 'white';
+    return `<text x="80" y="${titleY + i * 65}" font-family="system-ui, -apple-system, sans-serif" font-size="48" font-weight="700" fill="${fill}">${escapeXml(line)}</text>`;
+  }).join('\n  ');
+
+  return `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:${c1};stop-opacity:1" />
+      <stop offset="50%" style="stop-color:${c2};stop-opacity:1" />
+      <stop offset="100%" style="stop-color:${c3};stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  ${patterns[patternType]}
+  <rect x="40" y="40" width="${Math.min(category.length * 10 + 40, 250)}" height="32" rx="16" fill="rgba(255,106,0,0.15)" stroke="rgba(255,106,0,0.3)" stroke-width="1"/>
+  <text x="${Math.min(category.length * 5 + 60, 165)}" y="62" font-family="system-ui, -apple-system, sans-serif" font-size="14" font-weight="500" fill="#FF6A00" text-anchor="middle">${escapeXml(category)}</text>
+  ${titleLines}
+  <text x="600" y="580" font-family="system-ui, -apple-system, sans-serif" font-size="16" font-weight="500" fill="rgba(255,255,255,0.5)" text-anchor="middle" letter-spacing="4">THE ANSWER ENGINE</text>
+  <circle cx="1120" cy="590" r="30" fill="rgba(255,255,255,0.1)"/>
+  <text x="1120" y="598" font-family="system-ui, -apple-system, sans-serif" font-size="20" font-weight="700" fill="rgba(255,255,255,0.3)" text-anchor="middle">AE</text>
+</svg>`;
+}
+
+function escapeXml(str: string): string {
+  return str.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
+}
+
 export async function runPipeline(topic: BlogTopic): Promise<{
   research: ResearchOutput;
   code: string;

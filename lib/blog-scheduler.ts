@@ -3,7 +3,7 @@
  * Picks topic -> runs 3-call pipeline -> writes files -> updates metadata -> notifies.
  */
 
-import { runPipeline } from './blog-bot';
+import { runPipeline, generateBlogSvg } from './blog-bot';
 import {
   readBlogState,
   getNextTopic,
@@ -123,6 +123,14 @@ export async function runBlogSession(trigger: 'cron' | 'manual'): Promise<BlogSe
     // Audit passed - publish!
     const today = new Date().toISOString().split('T')[0];
 
+    // Generate SVG hero image
+    const heroSvg = generateBlogSvg(
+      result.research.refinedTitle,
+      result.research.category || topic.category,
+      finalSlug,
+    );
+    const imagePath = `/blog/${finalSlug}.svg`;
+
     if (IS_VERCEL && process.env.GITHUB_TOKEN) {
       // PRODUCTION: Publish via GitHub API (triggers Vercel auto-deploy)
       // 1. Get current blogPosts.json from GitHub
@@ -138,20 +146,21 @@ export async function runBlogSession(trigger: 'cron' | 'manual'): Promise<BlogSe
         category: result.research.category || topic.category,
         author: 'The Answer Engine Team',
         readTime: `${result.research.readTimeMinutes} min`,
-        image: `/blog/${finalSlug}/hero`,
+        image: imagePath,
         publishDate: today,
         lastModified: today,
-        featured: false,
+        featured: true,
         tags: result.research.tags,
       };
 
       currentPosts.push(postMeta);
 
-      // 2. Commit both files via GitHub API
+      // 2. Commit all files via GitHub API (page + metadata + SVG image)
       const { commitSha } = await publishToGitHub(
         [
           { path: `app/blog/${finalSlug}/page.tsx`, content: result.code },
           { path: 'app/blog/blogPosts.json', content: JSON.stringify(currentPosts, null, 2) },
+          { path: `public/blog/${finalSlug}.svg`, content: heroSvg },
         ],
         `blog: ${result.research.refinedTitle}`,
       );
@@ -159,6 +168,13 @@ export async function runBlogSession(trigger: 'cron' | 'manual'): Promise<BlogSe
     } else {
       // LOCAL: Write files directly (for development/CLI usage)
       await writeBlogPostPage(finalSlug, result.code);
+
+      // Write SVG hero image
+      const { promises: fs } = await import('fs');
+      const path = await import('path');
+      const svgPath = path.join(process.cwd(), 'public', 'blog', `${finalSlug}.svg`);
+      await fs.mkdir(path.dirname(svgPath), { recursive: true });
+      await fs.writeFile(svgPath, heroSvg, 'utf-8');
 
       const nextId = await getNextBlogPostId();
       const postMeta: BlogPostMeta = {
@@ -169,10 +185,10 @@ export async function runBlogSession(trigger: 'cron' | 'manual'): Promise<BlogSe
         category: result.research.category || topic.category,
         author: 'The Answer Engine Team',
         readTime: `${result.research.readTimeMinutes} min`,
-        image: `/blog/${finalSlug}/hero`,
+        image: imagePath,
         publishDate: today,
         lastModified: today,
-        featured: false,
+        featured: true,
         tags: result.research.tags,
       };
       await appendBlogPost(postMeta);
