@@ -10,8 +10,9 @@ import { parseAERO7FromResearch } from '@/lib/aero7-scorer';
 import { getIndustryColors, CALENDLY_URL, REPORT_FOOTER } from '@/lib/report-template';
 import { runFabricationScan, runEmDashScan, stripEmDashes } from '@/lib/fabrication-scan';
 import { buildEmailSubject, buildEmailBody, buildHtmlEmailBody } from '@/lib/gmail';
-import { createGmailDraft, isGmailConfigured } from '@/lib/gmail-api';
-import { notifyResearchComplete, notifyReportReady, notifyEmailDrafted } from '@/lib/telegram';
+import { sendGmailMessage, isGmailConfigured } from '@/lib/gmail-api';
+import { canSendToday, logSend } from '@/lib/email-scheduler';
+import { notifyResearchComplete, notifyReportReady, notifyStatusChange } from '@/lib/telegram';
 import { deployReport, isDeployConfigured } from '@/lib/deploy';
 import type { ResearchResults } from '@/lib/types';
 import { promises as fs } from 'fs';
@@ -399,7 +400,7 @@ Generate the complete HTML now.`;
     }
   }
 
-  // STEP 3: Email Draft
+  // STEP 3: Auto-Send Email (100% autonomous, no approval gate)
   if (step === 'full' || step === 'email') {
     const currentLead = (await getLeadById(leadId))!;
     if (currentLead.status !== 'report_ready') {
@@ -407,46 +408,56 @@ Generate the complete HTML now.`;
     } else if (!currentLead.contactEmail) {
       result.email = 'skipped (no email address)';
     } else {
-      const subject = buildEmailSubject(currentLead);
-      const body = buildEmailBody(currentLead);
-      const htmlBody = buildHtmlEmailBody(currentLead);
+      // Check domain warmup rate limit
+      const sendStatus = await canSendToday();
+      if (!sendStatus.allowed) {
+        result.email = `rate_limited (${sendStatus.sent}/${sendStatus.limit} today)`;
+      } else {
+        const subject = buildEmailSubject(currentLead);
+        const body = buildEmailBody(currentLead);
+        const htmlBody = buildHtmlEmailBody(currentLead);
 
-      let draftId: string | null = null;
-      let gmailUsed = false;
+        let sent = false;
+        let messageId = '';
 
-      if (isGmailConfigured()) {
-        try {
-          const gmailResult = await createGmailDraft({
-            to: currentLead.contactEmail,
-            subject,
-            body,
-            htmlBody,
-          });
-          if (gmailResult) {
-            draftId = gmailResult.draftId;
-            gmailUsed = true;
+        if (isGmailConfigured()) {
+          try {
+            const gmailResult = await sendGmailMessage({
+              to: currentLead.contactEmail,
+              subject,
+              body,
+              htmlBody,
+            });
+            if (gmailResult) {
+              sent = true;
+              messageId = gmailResult.messageId;
+            }
+          } catch (error) {
+            console.error('Gmail send failed:', error);
           }
-        } catch (error) {
-          console.error('Gmail draft creation failed:', error);
         }
+
+        const newStatus = sent ? 'sent' : 'email_drafted';
+        const updated = await updateLead(leadId, {
+          status: newStatus,
+          actionLog: [
+            ...currentLead.actionLog,
+            {
+              action: sent
+                ? `Initial email auto-sent via Gmail (${messageId})`
+                : 'Email send failed, saved as draft',
+              timestamp: new Date().toISOString(),
+            },
+          ],
+        });
+
+        if (sent) {
+          await logSend(currentLead.id, currentLead.contactEmail, 'initial');
+        }
+
+        if (updated) await notifyStatusChange(updated, newStatus);
+        result.email = { to: currentLead.contactEmail, subject, sent };
       }
-
-      const updated = await updateLead(leadId, {
-        status: 'email_drafted',
-        emailDraftId: draftId,
-        actionLog: [
-          ...currentLead.actionLog,
-          {
-            action: gmailUsed
-              ? `Gmail draft created (${draftId})`
-              : 'Email draft prepared (auto-pipeline)',
-            timestamp: new Date().toISOString(),
-          },
-        ],
-      });
-
-      if (updated) await notifyEmailDrafted(updated);
-      result.email = { to: currentLead.contactEmail, subject, gmailDraft: gmailUsed };
     }
   }
 

@@ -1,20 +1,30 @@
 /**
  * Cron endpoint for follow-up email sequences.
- * Runs daily, finds leads due for follow-ups, creates Gmail drafts.
- * Respects daily send rate limits for domain warmup.
+ * Runs daily, finds leads due for follow-ups, AUTO-SENDS emails.
+ * 100% autonomous -- no manual approval gate.
  *
- * Schedule: Daily at 9am PT (16:00 UTC) Mon-Fri
+ * Schedule: Daily at 9am PT (16:00 UTC)
+ * Rate limited by domain warmup plan in lib/email-scheduler.ts
  */
 import { NextRequest, NextResponse } from 'next/server';
 import { readLeads, updateLead, getLeadById } from '@/lib/leads';
 import { getFollowUpTemplates } from '@/lib/gmail';
-import { createGmailDraft, isGmailConfigured } from '@/lib/gmail-api';
+import { sendGmailMessage, isGmailConfigured } from '@/lib/gmail-api';
 import { getLeadsDueForFollowUp, canSendToday, logSend } from '@/lib/email-scheduler';
 import { notifyStatusChange } from '@/lib/telegram';
 
 export const maxDuration = 60;
 
+// Vercel cron sends GET requests
+export async function GET(req: NextRequest) {
+  return handleRequest(req);
+}
+
 export async function POST(req: NextRequest) {
+  return handleRequest(req);
+}
+
+async function handleRequest(req: NextRequest) {
   // Auth check
   const authHeader = req.headers.get('authorization');
   const secret = process.env.CRON_SECRET;
@@ -46,23 +56,25 @@ export async function POST(req: NextRequest) {
       }
 
       const templates = getFollowUpTemplates(lead, followUpType);
-      let draftId: string | null = null;
-      let gmailUsed = false;
+      let sent = false;
+      let messageId = '';
+      let threadId = '';
 
-      if (isGmailConfigured()) {
+      if (isGmailConfigured() && lead.contactEmail) {
         try {
-          const gmailResult = await createGmailDraft({
+          const result = await sendGmailMessage({
             to: lead.contactEmail,
             subject: templates.subject,
             body: templates.body,
             htmlBody: templates.htmlBody,
           });
-          if (gmailResult) {
-            draftId = gmailResult.draftId;
-            gmailUsed = true;
+          if (result) {
+            sent = true;
+            messageId = result.messageId;
+            threadId = result.threadId;
           }
         } catch (error) {
-          console.error(`Gmail draft failed for ${lead.businessName} (${followUpType}):`, error);
+          console.error(`Follow-up send failed for ${lead.businessName} (${followUpType}):`, error);
         }
       }
 
@@ -71,40 +83,41 @@ export async function POST(req: NextRequest) {
       if (currentLead) {
         await updateLead(lead.id, {
           status: followUpType,
-          emailDraftId: draftId || currentLead.emailDraftId,
           actionLog: [
             ...currentLead.actionLog,
             {
-              action: gmailUsed
-                ? `${followUpType} Gmail draft created (${draftId})`
-                : `${followUpType} email prepared`,
+              action: sent
+                ? `${followUpType} auto-sent via Gmail (${messageId})`
+                : `${followUpType} send failed, no Gmail configured`,
               timestamp: new Date().toISOString(),
             },
           ],
         });
 
         // Log the send for rate limiting
-        await logSend(lead.id, lead.contactEmail, followUpType);
+        if (sent) {
+          await logSend(lead.id, lead.contactEmail, followUpType);
+        }
 
         // Telegram notification
-        await notifyStatusChange(currentLead, followUpType);
+        await notifyStatusChange(currentLead, `${followUpType} (auto-sent)`);
       }
 
       results.push({
         leadId: lead.id,
         business: lead.businessName,
         type: followUpType,
-        status: gmailUsed ? 'draft_created' : 'prepared',
+        status: sent ? 'auto_sent' : 'send_failed',
       });
     }
 
-    // Check for leads past follow_up_3 that should be marked no_response
+    // Auto-close leads past follow_up_3 with no response
     const staleLeads = leads.filter(l => {
       if (l.status !== 'follow_up_3') return false;
       const lastAction = l.actionLog[l.actionLog.length - 1];
       if (!lastAction) return false;
       const daysSince = Math.floor((Date.now() - new Date(lastAction.timestamp).getTime()) / (1000 * 60 * 60 * 24));
-      return daysSince >= 7; // 7 days after follow_up_3 with no response
+      return daysSince >= 7;
     });
 
     for (const lead of staleLeads) {
@@ -112,10 +125,10 @@ export async function POST(req: NextRequest) {
         status: 'no_response',
         actionLog: [
           ...lead.actionLog,
-          { action: 'Auto-marked no_response (no reply after 3 follow-ups)', timestamp: new Date().toISOString() },
+          { action: 'Auto-closed: no response after 3 follow-ups', timestamp: new Date().toISOString() },
         ],
       });
-      await notifyStatusChange(lead, 'no_response');
+      await notifyStatusChange(lead, 'no_response (auto-closed)');
       results.push({
         leadId: lead.id,
         business: lead.businessName,

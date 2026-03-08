@@ -1,5 +1,5 @@
 /**
- * Gmail API integration for creating email drafts.
+ * Gmail API integration for creating drafts and sending emails.
  * Requires OAuth2 credentials in environment variables:
  *   GMAIL_CLIENT_ID, GMAIL_CLIENT_SECRET, GMAIL_REFRESH_TOKEN
  *
@@ -43,12 +43,36 @@ export async function createGmailDraft(options: {
   const gmail = getGmailClient();
   if (!gmail) return null;
 
+  const encodedEmail = buildRawEmail(options);
+
+  const response = await gmail.users.drafts.create({
+    userId: 'me',
+    requestBody: {
+      message: { raw: encodedEmail },
+    },
+  });
+
+  return {
+    draftId: response.data.id!,
+    messageId: response.data.message?.id || '',
+  };
+}
+
+/**
+ * Build a raw RFC 2822 email encoded as URL-safe Base64.
+ */
+function buildRawEmail(options: {
+  to: string;
+  subject: string;
+  body: string;
+  htmlBody?: string;
+  from?: string;
+}): string {
   const fromAddress = options.from || process.env.GMAIL_SEND_AS || 'support@theanswerengine.ai';
 
   let rawEmail: string;
 
   if (options.htmlBody) {
-    // Multipart email with both plain text and HTML
     const boundary = `boundary_${Date.now()}`;
     const emailLines = [
       `From: ${fromAddress}`,
@@ -71,7 +95,6 @@ export async function createGmailDraft(options: {
     ];
     rawEmail = emailLines.join('\r\n');
   } else {
-    // Plain text only
     const emailLines = [
       `From: ${fromAddress}`,
       `To: ${options.to}`,
@@ -83,22 +106,63 @@ export async function createGmailDraft(options: {
     rawEmail = emailLines.join('\r\n');
   }
 
-  const encodedEmail = Buffer.from(rawEmail)
+  return Buffer.from(rawEmail)
     .toString('base64')
     .replace(/\+/g, '-')
     .replace(/\//g, '_')
     .replace(/=+$/, '');
+}
 
-  const response = await gmail.users.drafts.create({
+/**
+ * Send an email directly (no draft, no approval gate).
+ * Returns the message ID and thread ID if successful.
+ */
+export async function sendGmailMessage(options: {
+  to: string;
+  subject: string;
+  body: string;
+  htmlBody?: string;
+  from?: string;
+  threadId?: string;
+}): Promise<{ messageId: string; threadId: string } | null> {
+  const gmail = getGmailClient();
+  if (!gmail) return null;
+
+  const encodedEmail = buildRawEmail(options);
+
+  const requestBody: Record<string, unknown> = {
+    raw: encodedEmail,
+  };
+  if (options.threadId) {
+    requestBody.threadId = options.threadId;
+  }
+
+  const response = await gmail.users.messages.send({
     userId: 'me',
-    requestBody: {
-      message: { raw: encodedEmail },
-    },
+    requestBody,
   });
 
   return {
-    draftId: response.data.id!,
-    messageId: response.data.message?.id || '',
+    messageId: response.data.id || '',
+    threadId: response.data.threadId || '',
+  };
+}
+
+/**
+ * Send an existing Gmail draft (converts draft to sent message).
+ */
+export async function sendGmailDraft(draftId: string): Promise<{ messageId: string; threadId: string } | null> {
+  const gmail = getGmailClient();
+  if (!gmail) return null;
+
+  const response = await gmail.users.drafts.send({
+    userId: 'me',
+    requestBody: { id: draftId },
+  });
+
+  return {
+    messageId: response.data.id || '',
+    threadId: response.data.threadId || '',
   };
 }
 
