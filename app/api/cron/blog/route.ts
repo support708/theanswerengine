@@ -1,18 +1,18 @@
 /**
- * Vercel Cron endpoint for Blog Bot.
- * Protected by CRON_SECRET - not by NextAuth (excluded in middleware).
+ * Vercel Cron endpoint for The Content Engine.
+ * Protected by CRON_SECRET.
  *
- * GET /api/cron/blog          — Generate mode: run pipeline, stage article
- * GET /api/cron/blog?action=publish — Publish mode: batch push all staged articles
+ * GET /api/cron/blog?action=remind  — Daily Telegram reminder to run blog protocol
+ * GET /api/cron/blog?action=publish — Batch push all staged articles
+ * GET /api/cron/blog                — Generate mode (manual/API trigger)
  */
 
 import { NextRequest, NextResponse } from 'next/server';
 import { runBlogSession, publishStagedArticles } from '@/lib/blog-scheduler';
 
-export const maxDuration = 120; // 2 minutes max for Vercel Pro
+export const maxDuration = 120;
 
 export async function GET(request: NextRequest) {
-  // Verify CRON_SECRET
   const authHeader = request.headers.get('authorization');
   const cronSecret = process.env.CRON_SECRET;
 
@@ -24,12 +24,26 @@ export async function GET(request: NextRequest) {
     return NextResponse.json({ error: 'Unauthorized' }, { status: 401 });
   }
 
-  // Check if blog bot is enabled
-  if (process.env.BLOG_ENABLED !== 'true') {
-    return NextResponse.json({ message: 'Blog bot is disabled', hint: 'Set BLOG_ENABLED=true' }, { status: 200 });
-  }
-
   const action = request.nextUrl.searchParams.get('action');
+
+  // --- Daily Reminder ---
+  if (action === 'remind') {
+    try {
+      const { sendMessage } = await import('@/lib/telegram');
+      await sendMessage(
+        `<b>The Content Engine</b>\n\n` +
+        `Time to run your daily blog protocol.\n` +
+        `Open Claude Code and say:\n` +
+        `"run daily blog protocol"`
+      );
+      return NextResponse.json({ success: true, message: 'Reminder sent' });
+    } catch (err) {
+      return NextResponse.json(
+        { error: err instanceof Error ? err.message : 'Reminder failed' },
+        { status: 500 },
+      );
+    }
+  }
 
   // --- Batch Publish Mode ---
   if (action === 'publish') {
@@ -51,7 +65,11 @@ export async function GET(request: NextRequest) {
     }
   }
 
-  // --- Generate Mode (default) ---
+  // --- Generate Mode (needs BLOG_ENABLED) ---
+  if (process.env.BLOG_ENABLED !== 'true') {
+    return NextResponse.json({ message: 'Blog bot is disabled', hint: 'Set BLOG_ENABLED=true' }, { status: 200 });
+  }
+
   try {
     const session = await runBlogSession('cron');
     const duration = session.completedAt

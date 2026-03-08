@@ -12,7 +12,7 @@ const TELEGRAM_API = 'https://api.telegram.org/bot';
 
 let lastSent = 0;
 
-async function sendMessage(text: string): Promise<void> {
+export async function sendMessage(text: string): Promise<void> {
   const token = process.env.TELEGRAM_BOT_TOKEN;
   const chatId = process.env.TELEGRAM_CHAT_ID;
 
@@ -174,30 +174,20 @@ export async function notifyBlogPublished(session: BlogSession): Promise<void> {
     (session.auditTokens * 0.000003) // Haiku avg
   ).toFixed(3);
 
-  if (session.published) {
-    await sendMessage(
-      `<b>Blog Staged</b> | ${session.topicTitle}\n\n` +
-      `Score: ${session.auditScore}/100\n` +
-      `Tokens: ${totalTokens.toLocaleString()} | Est. cost: $${estCost}\n` +
-      `Trigger: ${session.trigger}\n` +
-      `Queued for end-of-day batch publish`
-    );
-  } else {
+  // Silent on success - daily digest handles notification
+  if (!session.published) {
     const reason = session.error || 'Unknown error';
     await sendMessage(
-      `<b>Blog FAILED</b> | ${session.topicTitle}\n\n` +
-      `Score: ${session.auditScore}/100\n` +
-      `Error: ${reason.slice(0, 200)}\n` +
-      `Trigger: ${session.trigger}`
+      `<b>Content Engine</b> | Failed\n` +
+      `${session.topicTitle}\n` +
+      `${reason.slice(0, 200)}`
     );
   }
 }
 
-export async function notifyBlogBatchPublished(count: number, commitSha: string): Promise<void> {
+export async function notifyBlogBatchPublished(count: number, _commitSha: string): Promise<void> {
   await sendMessage(
-    `<b>Blog Batch Published</b>\n\n` +
-    `${count} article${count > 1 ? 's' : ''} pushed in one commit\n` +
-    `Commit: ${commitSha.slice(0, 7)}\n` +
-    `One Vercel rebuild triggered`
+    `<b>The Content Engine</b>\n` +
+    `${count} new article${count > 1 ? 's' : ''} live on theanswerengine.ai/blog`
   );
 }
