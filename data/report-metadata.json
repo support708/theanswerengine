@@ -4,6 +4,12 @@
     "serviceNiche": "Roofing Contractor",
     "reviewCount": 89,
     "score": 32,
-    "topCompetitor": "Roof Repair Specialist"
+    "topCompetitor": "Roof Repair Specialist",
+    "brandColors": {
+      "primary": "#FF7700",
+      "secondary": "#2EA3F2",
+      "text": "#333333",
+      "background": "#FFFFFF"
+    }
   }
 }

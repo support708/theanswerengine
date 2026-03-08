@@ -4,12 +4,20 @@ import reportMetadata from '@/data/report-metadata.json';
 
 export const runtime = 'edge';
 
+interface BrandColors {
+  primary: string;
+  secondary: string;
+  text: string;
+  background: string;
+}
+
 interface ReportMeta {
   businessName: string;
   serviceNiche: string;
   reviewCount: number;
   score: number | null;
   topCompetitor: string;
+  brandColors?: BrandColors;
 }
 
 const metadata = reportMetadata as Record<string, ReportMeta>;
@@ -25,8 +33,12 @@ export async function GET(
     return new Response('Not found', { status: 404 });
   }
 
-  const { businessName, serviceNiche, score, topCompetitor, reviewCount } = meta;
-  const colors = getIndustryColors(serviceNiche);
+  const { businessName, serviceNiche, score, topCompetitor, reviewCount, brandColors } = meta;
+  const industryColors = getIndustryColors(serviceNiche);
+  // Override accent with prospect's brand color when available
+  const colors = brandColors
+    ? { ...industryColors, accent: brandColors.primary }
+    : industryColors;
 
   return new ImageResponse(
     (
