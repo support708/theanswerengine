@@ -37,6 +37,7 @@ export async function createGmailDraft(options: {
   to: string;
   subject: string;
   body: string;
+  htmlBody?: string;
   from?: string;
 }): Promise<{ draftId: string; messageId: string } | null> {
   const gmail = getGmailClient();
@@ -44,17 +45,44 @@ export async function createGmailDraft(options: {
 
   const fromAddress = options.from || process.env.GMAIL_SEND_AS || 'support@theanswerengine.ai';
 
-  // Build RFC 2822 email
-  const emailLines = [
-    `From: ${fromAddress}`,
-    `To: ${options.to}`,
-    `Subject: ${options.subject}`,
-    'Content-Type: text/plain; charset=utf-8',
-    '',
-    options.body,
-  ];
+  let rawEmail: string;
 
-  const rawEmail = emailLines.join('\r\n');
+  if (options.htmlBody) {
+    // Multipart email with both plain text and HTML
+    const boundary = `boundary_${Date.now()}`;
+    const emailLines = [
+      `From: ${fromAddress}`,
+      `To: ${options.to}`,
+      `Subject: ${options.subject}`,
+      'MIME-Version: 1.0',
+      `Content-Type: multipart/alternative; boundary="${boundary}"`,
+      '',
+      `--${boundary}`,
+      'Content-Type: text/plain; charset=utf-8',
+      '',
+      options.body,
+      '',
+      `--${boundary}`,
+      'Content-Type: text/html; charset=utf-8',
+      '',
+      options.htmlBody,
+      '',
+      `--${boundary}--`,
+    ];
+    rawEmail = emailLines.join('\r\n');
+  } else {
+    // Plain text only
+    const emailLines = [
+      `From: ${fromAddress}`,
+      `To: ${options.to}`,
+      `Subject: ${options.subject}`,
+      'Content-Type: text/plain; charset=utf-8',
+      '',
+      options.body,
+    ];
+    rawEmail = emailLines.join('\r\n');
+  }
+
   const encodedEmail = Buffer.from(rawEmail)
     .toString('base64')
     .replace(/\+/g, '-')

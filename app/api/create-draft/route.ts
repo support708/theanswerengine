@@ -1,6 +1,6 @@
 import { NextRequest, NextResponse } from 'next/server';
 import { getLeadById, updateLead } from '@/lib/leads';
-import { buildEmailSubject, buildEmailBody } from '@/lib/gmail';
+import { buildEmailSubject, buildEmailBody, buildHtmlEmailBody } from '@/lib/gmail';
 import { createGmailDraft, isGmailConfigured } from '@/lib/gmail-api';
 import { notifyEmailDrafted } from '@/lib/telegram';
 
@@ -25,6 +25,7 @@ export async function POST(req: NextRequest) {
 
   const subject = buildEmailSubject(lead);
   const body = buildEmailBody(lead);
+  const htmlBody = buildHtmlEmailBody(lead);
 
   let draftId: string | null = null;
   let gmailUsed = false;
@@ -36,6 +37,7 @@ export async function POST(req: NextRequest) {
         to: lead.contactEmail,
         subject,
         body,
+        htmlBody,
       });
       if (result) {
         draftId = result.draftId;
