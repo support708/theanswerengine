@@ -5,7 +5,7 @@
 
 import type { HuntSession, HuntTrigger, RawProspect } from './hunter-types';
 import { readHuntState, writeHuntState, appendHuntLog, readBacklog, writeBacklog } from './hunter-data';
-import { getRotationTarget, advanceRotation, runSearchPass1, runSearchPass2, runSearchPass3, scoreProspect, classifyPriority } from './hunter';
+import { getRotationTarget, advanceRotation, runSearchPass1, runSearchPass2, runSearchPass3, scoreProspect, classifyPriority, checkOutreachReadiness } from './hunter';
 import { isDuplicate } from './deduplicator';
 import { readLeads, writeLeads, generateId, generateSlug } from './leads';
 import { notifyHuntComplete } from './telegram';
@@ -26,6 +26,7 @@ export async function runHuntSession(trigger: HuntTrigger): Promise<HuntSession>
     p2Queued: 0,
     p3Backlogged: 0,
     duplicatesSkipped: 0,
+    outreachReadyCount: 0,
     errors: [],
   };
 
@@ -68,10 +69,11 @@ export async function runHuntSession(trigger: HuntTrigger): Promise<HuntSession>
 
     session.prospectsFound = prospects.length;
 
-    // 3. Score all prospects
+    // 3. Score all prospects and check outreach readiness
     for (const prospect of prospects) {
       prospect.scoreBreakdown = scoreProspect(prospect);
       prospect.priority = classifyPriority(prospect.scoreBreakdown.total);
+      prospect.outreachReady = checkOutreachReadiness(prospect);
     }
 
     // 4. Deduplicate
@@ -96,6 +98,7 @@ export async function runHuntSession(trigger: HuntTrigger): Promise<HuntSession>
         newLeads.push(lead);
         if (prospect.priority === 'P1') session.p1Queued++;
         else session.p2Queued++;
+        if (prospect.outreachReady) session.outreachReadyCount++;
       } else if (prospect.priority === 'P3') {
         newBacklog.push(prospect);
         session.p3Backlogged++;
@@ -146,6 +149,22 @@ export async function runHuntSession(trigger: HuntTrigger): Promise<HuntSession>
 
 function prospectToLead(prospect: RawProspect, sessionId: string): Lead {
   const now = new Date().toISOString();
+
+  // Extract top competitor from citation results for the lead's competitorName field
+  const topCompetitor = prospect.citationResults
+    .flatMap(r => r.competitorsCited)
+    .filter(Boolean)[0] || '';
+
+  // Build notes with citation summary
+  const citationSummary = prospect.citationResults.length > 0
+    ? `AI citation: not cited on ${prospect.citationResults.filter(r => !r.cited).length}/${prospect.citationResults.length} platforms. ` +
+      `Competitors cited: ${[...new Set(prospect.citationResults.flatMap(r => r.competitorsCited))].slice(0, 3).join(', ') || 'none found'}.`
+    : `Pain signals: ${prospect.painSignals.slice(0, 2).join('; ')}`;
+
+  const outreachNote = prospect.outreachReady
+    ? 'Outreach-ready: YES (citation data + contact + differentiator verified).'
+    : 'Outreach-ready: NO (missing data for SOP templates, needs manual enrichment).';
+
   return {
     id: generateId(),
     businessName: prospect.businessName,
@@ -154,22 +173,25 @@ function prospectToLead(prospect: RawProspect, sessionId: string): Lead {
     websiteUrl: prospect.website || '',
     city: prospect.city,
     serviceNiche: prospect.serviceNiche,
-    competitorName: '',
+    competitorName: topCompetitor,
     reviewCount: prospect.reviewCount ?? null,
     rating: prospect.rating ?? null,
-    notes: `Auto-discovered by Lead Hunter. Pain signals: ${prospect.painSignals.slice(0, 2).join('; ')}`,
+    notes: `Auto-discovered by Lead Hunter. ${citationSummary} ${outreachNote}${prospect.differentiator ? ` Differentiator: ${prospect.differentiator}` : ''}`,
     status: 'queued',
     research: null,
     reportSlug: generateSlug(prospect.businessName),
     emailDraftId: null,
     fabricationFlags: [],
     emDashClean: false,
-    actionLog: [{ action: `Queued by Lead Hunter (${prospect.priority}, score: ${prospect.scoreBreakdown.total})`, timestamp: now }],
+    actionLog: [{ action: `Queued by Lead Hunter (${prospect.priority}, score: ${prospect.scoreBreakdown.total}, outreach-ready: ${prospect.outreachReady})`, timestamp: now }],
     createdAt: now,
     updatedAt: now,
     huntSource: sessionId,
     huntScore: prospect.scoreBreakdown.total,
     huntPriority: prospect.priority,
+    huntCitationResults: prospect.citationResults.length > 0 ? prospect.citationResults : undefined,
+    huntDifferentiator: prospect.differentiator,
+    huntOutreachReady: prospect.outreachReady,
   };
 }
 

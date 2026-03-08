@@ -111,6 +111,28 @@ export async function notifyStatusChange(lead: Lead, newStatus: string): Promise
   );
 }
 
+export async function notifyFollowUpDrafted(lead: Lead, stage: number, gmailUsed: boolean): Promise<void> {
+  const draftNote = gmailUsed ? 'Gmail draft ready' : 'Draft prepared (check admin)';
+  const stageLabel = stage === 3 ? 'FINAL follow-up (soft close, no Calendly)' : `Follow-up ${stage}`;
+
+  await sendMessage(
+    `<b>${stageLabel} drafted:</b> ${lead.businessName}\n` +
+    `To: ${lead.contactEmail}\n` +
+    `${draftNote}\n\n` +
+    `Review and send from Gmail, then mark status in admin:\n` +
+    `https://theanswerengine.ai/admin/pipeline/${lead.id}`
+  );
+}
+
+export async function notifyAutoClosedNoResponse(lead: Lead): Promise<void> {
+  await sendMessage(
+    `<b>Auto-closed:</b> ${lead.businessName}\n` +
+    `Status: No Response (after 3 follow-ups)\n` +
+    `Contact: ${lead.contactFirstName} (${lead.contactEmail})\n\n` +
+    `Lead moved to no_response. Can be reopened from admin if they reply later.`
+  );
+}
+
 export async function notifyHuntComplete(session: {
   trigger: string;
   vertical: string;
@@ -120,10 +142,15 @@ export async function notifyHuntComplete(session: {
   p2Queued: number;
   p3Backlogged: number;
   duplicatesSkipped: number;
+  outreachReadyCount?: number;
   errors: string[];
 }): Promise<void> {
   const errorLine = session.errors.length > 0
     ? `\nErrors: ${session.errors.length} (${session.errors[0]?.slice(0, 80)})`
+    : '';
+
+  const outreachLine = typeof session.outreachReadyCount === 'number'
+    ? `\nOutreach-ready: ${session.outreachReadyCount} (have citation data + contact + differentiator)`
     : '';
 
   await sendMessage(
@@ -133,6 +160,7 @@ export async function notifyHuntComplete(session: {
     `P1: ${session.p1Queued} queued | P2: ${session.p2Queued} queued\n` +
     `P3: ${session.p3Backlogged} backlogged\n` +
     `Dupes skipped: ${session.duplicatesSkipped}` +
+    outreachLine +
     errorLine
   );
 }

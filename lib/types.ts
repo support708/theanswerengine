@@ -78,6 +78,12 @@ export interface Lead {
   huntSource?: string;
   huntScore?: number;
   huntPriority?: 'P1' | 'P2' | 'P3';
+  /** Structured citation test results from hunter discovery */
+  huntCitationResults?: import('./hunter-types').CitationResult[];
+  /** Real differentiator from reviews/about page for outreach templates */
+  huntDifferentiator?: string;
+  /** Whether hunter provided enough verified data for SOP outreach templates */
+  huntOutreachReady?: boolean;
 }
 
 export interface LeadFormData {

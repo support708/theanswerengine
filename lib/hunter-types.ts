@@ -16,6 +16,14 @@ export type HuntPriority = 'P1' | 'P2' | 'P3';
 
 export type HuntTrigger = 'cron_daily' | 'cron_weekly' | 'cron_monthly' | 'manual';
 
+/** AI citation test result for a single platform */
+export interface CitationResult {
+  platform: 'chatgpt' | 'claude' | 'perplexity' | 'google_ai';
+  query: string;
+  cited: boolean;
+  competitorsCited: string[];
+}
+
 export interface RawProspect {
   businessName: string;
   contactName?: string;
@@ -28,6 +36,12 @@ export interface RawProspect {
   reviewCount?: number;
   rating?: number;
   painSignals: string[];
+  /** Structured AI citation test results (SOP Phase 3) */
+  citationResults: CitationResult[];
+  /** Real differentiator from reviews/about page (SOP Phase 4) */
+  differentiator?: string;
+  /** Whether this prospect has enough verified data for outreach templates */
+  outreachReady: boolean;
   scoreBreakdown: LeadScoreBreakdown;
   priority: HuntPriority;
 }
@@ -44,6 +58,8 @@ export interface HuntSession {
   p2Queued: number;
   p3Backlogged: number;
   duplicatesSkipped: number;
+  /** How many queued leads passed the Fabrication Gate (outreach-ready) */
+  outreachReadyCount: number;
   errors: string[];
 }
 

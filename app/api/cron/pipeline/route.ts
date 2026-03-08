@@ -19,7 +19,16 @@ import path from 'path';
 
 export const maxDuration = 300; // 5 minutes for processing multiple leads
 
+// Vercel cron sends GET requests
+export async function GET(req: NextRequest) {
+  return handleRequest(req);
+}
+
 export async function POST(req: NextRequest) {
+  return handleRequest(req);
+}
+
+async function handleRequest(req: NextRequest) {
   // Auth check
   const authHeader = req.headers.get('authorization');
   const secret = process.env.CRON_SECRET;
@@ -169,7 +178,7 @@ Tasks:
 Return the JSON object as specified.`;
 
       const researchResponse = await callClaudeWithWebSearch({
-        model: 'claude-haiku-4-5-20251001',
+        model: 'claude-haiku-4-5',
         system: researchSystemPrompt,
         messages: [{ role: 'user', content: researchPrompt }],
         maxTokens: 4096,
