@@ -98,6 +98,10 @@ export function buildHtmlEmailBody(lead: Lead): string {
 </a>
 <!--<![endif]-->
 
+<div style="text-align:center;margin:0 0 24px 0;">
+<a href="${reportUrl}" target="_blank" style="display:inline-block;background:#FF6A00;color:#ffffff;font-family:Arial,sans-serif;font-size:16px;font-weight:bold;padding:14px 32px;border-radius:6px;text-decoration:none;letter-spacing:0.5px;">View Your Full Report</a>
+</div>
+
 <p>The report is yours regardless. No strings attached.</p>
 
 <p>I'll walk you through exactly what I found on a 30-minute Zoom. No pitch, just the data and what it means for your market. If it makes sense to talk about next steps after that, great. If not, you keep the report either way.</p>
