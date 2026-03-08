@@ -1,15 +1,20 @@
 /**
  * Lead Hunter Bot — Session Scheduler
- * Orchestrates the full hunt flow: rotation → search → score → dedupe → queue.
+ * Orchestrates the full hunt flow: rotation -> search -> score -> dedupe -> queue.
+ *
+ * On Vercel: all data reads come from GitHub API at session start,
+ * all writes are batched into a single atomic GitHub commit at session end.
  */
 
 import type { HuntSession, HuntTrigger, RawProspect } from './hunter-types';
-import { readHuntState, writeHuntState, appendHuntLog, readBacklog, writeBacklog } from './hunter-data';
+import { readHuntState, writeHuntState, appendHuntLog, readHuntLog, readBacklog, writeBacklog, flushHuntDataToGitHub } from './hunter-data';
 import { getRotationTarget, advanceRotation, runSearchPass1, runSearchPass2, runSearchPass3, scoreProspect, classifyPriority, checkOutreachReadiness } from './hunter';
 import { isDuplicate } from './deduplicator';
 import { readLeads, writeLeads, generateId, generateSlug } from './leads';
-import { notifyHuntComplete } from './telegram';
+import { notifyHuntFailure } from './telegram';
 import type { Lead } from './types';
+
+const IS_VERCEL = !!process.env.VERCEL;
 
 export async function runHuntSession(trigger: HuntTrigger): Promise<HuntSession> {
   const sessionId = `hunt_${Date.now()}_${Math.random().toString(36).slice(2, 6)}`;
@@ -31,14 +36,18 @@ export async function runHuntSession(trigger: HuntTrigger): Promise<HuntSession>
   };
 
   try {
-    // 1. Read current state and determine rotation target
+    // 1. Read all state upfront (from GitHub on Vercel, local fs otherwise)
     const state = await readHuntState();
+    const existingLeads = await readLeads();
+    const backlog = await readBacklog();
+    const log = IS_VERCEL ? await readHuntLog() : [];
+
     const { vertical, metro } = getRotationTarget(state);
     session.vertical = vertical;
     session.metro = metro;
 
     // 2. Run 3 search passes (with rate-limit delays between passes)
-    const RATE_LIMIT_DELAY_MS = 15_000; // 15s between API calls (Tier 1: 50K input tokens/min)
+    const RATE_LIMIT_DELAY_MS = 15_000;
 
     let painSignals: string[] = [];
     try {
@@ -63,7 +72,6 @@ export async function runHuntSession(trigger: HuntTrigger): Promise<HuntSession>
         prospects = await runSearchPass3(prospects);
       } catch (err) {
         session.errors.push(`Pass 3 enrichment failed: ${err instanceof Error ? err.message : String(err)}`);
-        // Non-fatal — keep prospects without enrichment
       }
     }
 
@@ -76,9 +84,7 @@ export async function runHuntSession(trigger: HuntTrigger): Promise<HuntSession>
       prospect.outreachReady = checkOutreachReadiness(prospect);
     }
 
-    // 4. Deduplicate
-    const existingLeads = await readLeads();
-    const backlog = await readBacklog();
+    // 4. Deduplicate (in-memory comparison)
     const unique: RawProspect[] = [];
     for (const prospect of prospects) {
       if (isDuplicate(prospect, existingLeads, backlog)) {
@@ -103,22 +109,12 @@ export async function runHuntSession(trigger: HuntTrigger): Promise<HuntSession>
         newBacklog.push(prospect);
         session.p3Backlogged++;
       }
-      // Below P3 threshold: discard
     }
 
-    // 6. Write queued leads
-    if (newLeads.length > 0) {
-      const allLeads = [...existingLeads, ...newLeads];
-      await writeLeads(allLeads);
-    }
+    // 6. Update state in memory
+    const allLeads = [...existingLeads, ...newLeads];
+    const allBacklog = [...backlog, ...newBacklog];
 
-    // 7. Write backlog
-    if (newBacklog.length > 0) {
-      const allBacklog = [...backlog, ...newBacklog];
-      await writeBacklog(allBacklog);
-    }
-
-    // 8. Update state
     const updatedState = advanceRotation(state);
     const now = new Date().toISOString();
     if (trigger === 'cron_daily' || trigger === 'manual') updatedState.lastDailyRun = now;
@@ -126,22 +122,49 @@ export async function runHuntSession(trigger: HuntTrigger): Promise<HuntSession>
     if (trigger === 'cron_monthly') updatedState.lastMonthlyRun = now;
     updatedState.totalLeadsQueued += newLeads.length;
     updatedState.totalSessionsRun += 1;
-    await writeHuntState(updatedState);
 
-    // 9. Finalize session
     session.completedAt = new Date().toISOString();
-    await appendHuntLog(session);
+    log.push(session);
 
-    // 10. Telegram notification
-    try {
-      await notifyHuntComplete(session);
-    } catch {
-      session.errors.push('Telegram notification failed');
+    // 7. Persist all data
+    if (IS_VERCEL) {
+      // Single atomic GitHub commit with ALL updated data
+      try {
+        const summary = `${vertical} x ${metro} | +${newLeads.length} leads`;
+        await flushHuntDataToGitHub({
+          state: updatedState,
+          log,
+          backlog: allBacklog,
+          leads: allLeads,
+          sessionSummary: summary,
+        });
+      } catch (err) {
+        session.errors.push(`GitHub flush failed: ${err instanceof Error ? err.message : String(err)}`);
+      }
+    } else {
+      // Local filesystem writes
+      if (newLeads.length > 0) await writeLeads(allLeads);
+      if (newBacklog.length > 0) await writeBacklog(allBacklog);
+      await writeHuntState(updatedState);
+      await appendHuntLog(session);
+    }
+
+    // 8. Telegram notification — only on errors
+    if (session.errors.length > 0) {
+      try {
+        await notifyHuntFailure(vertical, metro, session.errors.join('; '));
+      } catch {
+        // Silent — don't add to errors array for notification failures
+      }
     }
   } catch (err) {
     session.errors.push(`Fatal: ${err instanceof Error ? err.message : String(err)}`);
     session.completedAt = new Date().toISOString();
-    await appendHuntLog(session);
+
+    // Try to log the failed session
+    if (!IS_VERCEL) {
+      await appendHuntLog(session);
+    }
   }
 
   return session;
@@ -150,12 +173,10 @@ export async function runHuntSession(trigger: HuntTrigger): Promise<HuntSession>
 function prospectToLead(prospect: RawProspect, sessionId: string): Lead {
   const now = new Date().toISOString();
 
-  // Extract top competitor from citation results for the lead's competitorName field
   const topCompetitor = prospect.citationResults
     .flatMap(r => r.competitorsCited)
     .filter(Boolean)[0] || '';
 
-  // Build notes with citation summary
   const citationSummary = prospect.citationResults.length > 0
     ? `AI citation: not cited on ${prospect.citationResults.filter(r => !r.cited).length}/${prospect.citationResults.length} platforms. ` +
       `Competitors cited: ${[...new Set(prospect.citationResults.flatMap(r => r.competitorsCited))].slice(0, 3).join(', ') || 'none found'}.`
@@ -201,7 +222,7 @@ export async function getHuntStatus(): Promise<{
   nextTarget: { vertical: string; metro: string };
 }> {
   const state = await readHuntState();
-  const log = await (await import('./hunter-data')).readHuntLog();
+  const log = await readHuntLog();
   const lastSession = log.length > 0 ? log[log.length - 1] : undefined;
   const nextTarget = getRotationTarget(state);
 

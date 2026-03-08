@@ -14,8 +14,12 @@
       "schedule": "0 14 1 * *"
     },
     {
+      "path": "/api/cron/pipeline",
+      "schedule": "0 17 * * 1-5"
+    },
+    {
       "path": "/api/cron/followup",
-      "schedule": "0 16 * * 1-5"
+      "schedule": "0 19 * * 1-5"
     },
     {
       "path": "/api/cron/blog?action=remind",

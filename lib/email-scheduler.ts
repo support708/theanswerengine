@@ -18,8 +18,11 @@
 import { promises as fs } from 'fs';
 import path from 'path';
 import type { Lead } from './types';
+import { getFileContentSafe, publishToGitHub } from './github-publish';
 
+const IS_VERCEL = !!process.env.VERCEL;
 const SEND_LOG_PATH = path.join(process.cwd(), 'data', 'send-log.json');
+const GH_SEND_LOG = 'data/send-log.json';
 
 // --- Domain warmup daily limits ---
 
@@ -37,19 +40,26 @@ interface SendLog {
 
 async function readSendLog(): Promise<SendLog> {
   try {
+    if (IS_VERCEL) {
+      const data = await getFileContentSafe(GH_SEND_LOG);
+      if (data) return JSON.parse(data) as SendLog;
+      return { startDate: new Date().toISOString().split('T')[0], entries: [] };
+    }
     const data = await fs.readFile(SEND_LOG_PATH, 'utf-8');
     return JSON.parse(data) as SendLog;
   } catch {
-    const log: SendLog = {
-      startDate: new Date().toISOString().split('T')[0],
-      entries: [],
-    };
-    await writeSendLog(log);
-    return log;
+    return { startDate: new Date().toISOString().split('T')[0], entries: [] };
   }
 }
 
 async function writeSendLog(log: SendLog): Promise<void> {
+  if (IS_VERCEL) {
+    await publishToGitHub(
+      [{ path: GH_SEND_LOG, content: JSON.stringify(log, null, 2) }],
+      `data: update send log (${log.entries.length} entries)`,
+    );
+    return;
+  }
   await fs.mkdir(path.dirname(SEND_LOG_PATH), { recursive: true });
   await fs.writeFile(SEND_LOG_PATH, JSON.stringify(log, null, 2), 'utf-8');
 }

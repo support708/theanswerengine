@@ -1,6 +1,7 @@
 /**
  * Cron-accessible pipeline trigger.
- * Runs research + report + email draft on all queued leads.
+ * Runs research + report + email on all queued leads.
+ * 100% autonomous: 3-attempt retry per lead, Telegram only on failure.
  * Protected by CRON_SECRET.
  */
 import { NextRequest, NextResponse } from 'next/server';
@@ -12,13 +13,15 @@ import { runFabricationScan, runEmDashScan, stripEmDashes } from '@/lib/fabricat
 import { buildEmailSubject, buildEmailBody, buildHtmlEmailBody } from '@/lib/gmail';
 import { sendGmailMessage, isGmailConfigured } from '@/lib/gmail-api';
 import { canSendToday, logSend } from '@/lib/email-scheduler';
-import { notifyResearchComplete, notifyReportReady, notifyStatusChange } from '@/lib/telegram';
+import { notifyPipelineFailure } from '@/lib/telegram';
 import { deployReport, isDeployConfigured } from '@/lib/deploy';
 import type { ResearchResults } from '@/lib/types';
 import { promises as fs } from 'fs';
 import path from 'path';
 
-export const maxDuration = 120; // 2 minutes - processes 1 lead per invocation to save Vercel usage
+export const maxDuration = 120;
+
+const MAX_RETRIES = 3;
 
 // Vercel cron sends GET requests
 export async function GET(req: NextRequest) {
@@ -39,12 +42,11 @@ async function handleRequest(req: NextRequest) {
 
   const url = new URL(req.url);
   const leadId = url.searchParams.get('leadId');
-  const step = url.searchParams.get('step') || 'full'; // 'research', 'report', 'email', 'full'
+  const step = url.searchParams.get('step') || 'full';
 
   try {
     if (leadId) {
-      // Process a single lead
-      const result = await processLead(leadId, step);
+      const result = await processLeadWithRetry(leadId, step);
       return NextResponse.json({ success: true, result });
     }
 
@@ -58,12 +60,8 @@ async function handleRequest(req: NextRequest) {
 
     const results = [];
     for (const lead of queued) {
-      try {
-        const result = await processLead(lead.id, step);
-        results.push(result);
-      } catch (err) {
-        results.push({ leadId: lead.id, error: err instanceof Error ? err.message : String(err) });
-      }
+      const result = await processLeadWithRetry(lead.id, step);
+      results.push(result);
     }
 
     return NextResponse.json({ success: true, processed: results.length, results });
@@ -73,6 +71,45 @@ async function handleRequest(req: NextRequest) {
       { status: 500 }
     );
   }
+}
+
+/**
+ * Retry wrapper: attempts processLead up to MAX_RETRIES times.
+ * Only sends Telegram notification after all retries are exhausted.
+ */
+async function processLeadWithRetry(leadId: string, step: string) {
+  let lastError = '';
+
+  for (let attempt = 1; attempt <= MAX_RETRIES; attempt++) {
+    try {
+      const result = await processLead(leadId, step);
+      return result;
+    } catch (err) {
+      lastError = err instanceof Error ? err.message : String(err);
+      console.error(`Pipeline attempt ${attempt}/${MAX_RETRIES} failed for ${leadId}: ${lastError}`);
+
+      if (attempt < MAX_RETRIES) {
+        // Wait before retrying (exponential backoff: 5s, 15s)
+        await new Promise(r => setTimeout(r, attempt * 5000));
+      }
+    }
+  }
+
+  // All retries exhausted — notify Telegram
+  try {
+    const lead = await getLeadById(leadId);
+    await notifyPipelineFailure(
+      leadId,
+      lead?.businessName || 'Unknown',
+      step,
+      lastError,
+      MAX_RETRIES,
+    );
+  } catch {
+    console.error('Failed to send Telegram failure notification');
+  }
+
+  return { leadId, error: `Failed after ${MAX_RETRIES} attempts: ${lastError}` };
 }
 
 async function processLead(leadId: string, step: string) {
@@ -236,7 +273,7 @@ Return the JSON object as specified.`;
         };
       }
 
-      const updatedAfterResearch = await updateLead(leadId, {
+      await updateLead(leadId, {
         status: 'research_complete',
         research,
         competitorName: lead.competitorName || (research.topCompetitors[0]?.name ?? ''),
@@ -248,7 +285,6 @@ Return the JSON object as specified.`;
         ],
       });
 
-      if (updatedAfterResearch) await notifyResearchComplete(updatedAfterResearch);
       result.research = { aero10: research.aero7.total, competitors: research.topCompetitors.length };
     }
   }
@@ -360,7 +396,7 @@ Generate the complete HTML now.`;
       const emDashResult = runEmDashScan(reportHtml);
       if (!emDashResult.clean) reportHtml = stripEmDashes(reportHtml);
 
-      // Save report locally
+      // Save report locally (ephemeral on Vercel, but deployReport handles persistence)
       const reportDir = path.join(process.cwd(), 'public', 'blindspot');
       await fs.mkdir(reportDir, { recursive: true });
       await fs.writeFile(path.join(reportDir, `${currentLead.reportSlug}.html`), reportHtml, 'utf-8');
@@ -383,14 +419,13 @@ Generate the complete HTML now.`;
         actionLog.push({ action: 'Report deployed to production', timestamp: new Date().toISOString() });
       }
 
-      const finalLead = await updateLead(leadId, {
+      await updateLead(leadId, {
         status: 'report_ready',
         fabricationFlags: fabricationResult.flags,
         emDashClean: emDashResult.clean || true,
         actionLog,
       });
 
-      if (finalLead) await notifyReportReady(finalLead);
       result.report = {
         url: `/blindspot/${currentLead.reportSlug}`,
         deployed,
@@ -438,7 +473,7 @@ Generate the complete HTML now.`;
         }
 
         const newStatus = sent ? 'sent' : 'email_drafted';
-        const updated = await updateLead(leadId, {
+        await updateLead(leadId, {
           status: newStatus,
           actionLog: [
             ...currentLead.actionLog,
@@ -455,7 +490,6 @@ Generate the complete HTML now.`;
           await logSend(currentLead.id, currentLead.contactEmail, 'initial');
         }
 
-        if (updated) await notifyStatusChange(updated, newStatus);
         result.email = { to: currentLead.contactEmail, subject, sent };
       }
     }

@@ -11,7 +11,7 @@ import { readLeads, updateLead, getLeadById } from '@/lib/leads';
 import { getFollowUpTemplates } from '@/lib/gmail';
 import { sendGmailMessage, isGmailConfigured } from '@/lib/gmail-api';
 import { getLeadsDueForFollowUp, canSendToday, logSend } from '@/lib/email-scheduler';
-import { notifyStatusChange } from '@/lib/telegram';
+import { notifyFollowUpFailure } from '@/lib/telegram';
 
 export const maxDuration = 60;
 
@@ -99,8 +99,10 @@ async function handleRequest(req: NextRequest) {
           await logSend(lead.id, lead.contactEmail, followUpType);
         }
 
-        // Telegram notification
-        await notifyStatusChange(currentLead, `${followUpType} (auto-sent)`);
+        // Only notify on failure
+        if (!sent) {
+          await notifyFollowUpFailure(lead.businessName, followUpType, 'Gmail send failed or not configured');
+        }
       }
 
       results.push({
@@ -128,7 +130,6 @@ async function handleRequest(req: NextRequest) {
           { action: 'Auto-closed: no response after 3 follow-ups', timestamp: new Date().toISOString() },
         ],
       });
-      await notifyStatusChange(lead, 'no_response (auto-closed)');
       results.push({
         leadId: lead.id,
         business: lead.businessName,

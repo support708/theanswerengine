@@ -1,7 +1,7 @@
 /**
- * GitHub API publisher for Blog Bot.
- * Creates commits via the GitHub REST API (no git CLI needed).
- * This enables auto-publishing from Vercel serverless functions.
+ * GitHub API for reading/writing files from Vercel serverless.
+ * Used by Blog Bot, Lead Hunter, and Follow-Up Engine for persistent state.
+ * Creates atomic multi-file commits via the GitHub REST API (no git CLI needed).
  */
 
 const GITHUB_API = 'https://api.github.com';
@@ -155,12 +155,29 @@ export async function publishToGitHub(
 
 /**
  * Get the current content of a file from GitHub.
- * Used to read blogPosts.json before updating it.
+ * Throws on failure (use getFileContentSafe for optional files).
  */
 export async function getFileContent(filePath: string): Promise<string> {
   const res = await githubFetch(
     `/repos/${REPO_OWNER}/${REPO_NAME}/contents/${filePath}?ref=${BRANCH}`,
   );
+  if (!res.ok) throw new Error(`Failed to get file ${filePath}: ${res.status}`);
+  const data = await res.json();
+  return Buffer.from(data.content, 'base64').toString('utf-8');
+}
+
+/**
+ * Get file content from GitHub, returning null if file doesn't exist (404).
+ * Used for state files that may not exist on first run.
+ */
+export async function getFileContentSafe(filePath: string): Promise<string | null> {
+  const token = process.env.GITHUB_TOKEN;
+  if (!token) return null;
+
+  const res = await githubFetch(
+    `/repos/${REPO_OWNER}/${REPO_NAME}/contents/${filePath}?ref=${BRANCH}`,
+  );
+  if (res.status === 404) return null;
   if (!res.ok) throw new Error(`Failed to get file ${filePath}: ${res.status}`);
   const data = await res.json();
   return Buffer.from(data.content, 'base64').toString('utf-8');

@@ -166,6 +166,33 @@ export async function notifyHuntComplete(session: {
   );
 }
 
+export async function notifyPipelineFailure(leadId: string, businessName: string, step: string, error: string, attempts: number): Promise<void> {
+  await sendMessage(
+    `<b>Pipeline FAILED</b> (${attempts} attempts)\n` +
+    `Business: ${businessName}\n` +
+    `Step: ${step}\n` +
+    `Error: ${error.slice(0, 300)}\n\n` +
+    `Lead ID: ${leadId}\n` +
+    `Check admin: https://theanswerengine.ai/admin/pipeline/${leadId}`
+  );
+}
+
+export async function notifyHuntFailure(vertical: string, metro: string, error: string): Promise<void> {
+  await sendMessage(
+    `<b>Hunt FAILED</b> | ${vertical} x ${metro}\n` +
+    `Error: ${error.slice(0, 300)}`
+  );
+}
+
+export async function notifyFollowUpFailure(businessName: string, followUpType: string, error: string): Promise<void> {
+  await sendMessage(
+    `<b>Follow-up FAILED</b>\n` +
+    `Business: ${businessName}\n` +
+    `Type: ${followUpType}\n` +
+    `Error: ${error.slice(0, 300)}`
+  );
+}
+
 export async function notifyBlogPublished(session: BlogSession): Promise<void> {
   // Silent on success — only notify on failure
   if (!session.published) {
