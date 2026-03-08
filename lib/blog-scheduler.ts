@@ -14,9 +14,13 @@ import {
   appendBlogPost,
   getNextBlogPostId,
   writeBlogPostPage,
+  readBlogPosts,
 } from './blog-data';
+import { publishToGitHub, getFileContent } from './github-publish';
 import { notifyBlogPublished } from './telegram';
 import type { BlogSession, BlogPostMeta } from './blog-types';
+
+const IS_VERCEL = !!process.env.VERCEL;
 
 const MAX_DAILY_CRON = 4;
 
@@ -117,37 +121,72 @@ export async function runBlogSession(trigger: 'cron' | 'manual'): Promise<BlogSe
     }
 
     // Audit passed - publish!
-    // 1. Write page.tsx
-    await writeBlogPostPage(finalSlug, result.code);
-
-    // 2. Update blogPosts.json
-    const nextId = await getNextBlogPostId();
     const today = new Date().toISOString().split('T')[0];
-    const postMeta: BlogPostMeta = {
-      id: nextId,
-      title: result.research.refinedTitle,
-      slug: finalSlug,
-      excerpt: result.research.excerpt,
-      category: result.research.category || topic.category,
-      author: 'The Answer Engine Team',
-      readTime: `${result.research.readTimeMinutes} min`,
-      image: `/blog/${finalSlug}/hero`,
-      publishDate: today,
-      lastModified: today,
-      featured: false,
-      tags: result.research.tags,
-    };
-    await appendBlogPost(postMeta);
 
-    // 3. Mark topic as published
+    if (IS_VERCEL && process.env.GITHUB_TOKEN) {
+      // PRODUCTION: Publish via GitHub API (triggers Vercel auto-deploy)
+      // 1. Get current blogPosts.json from GitHub
+      const currentPostsJson = await getFileContent('app/blog/blogPosts.json');
+      const currentPosts = JSON.parse(currentPostsJson) as BlogPostMeta[];
+      const nextId = currentPosts.reduce((max, p) => Math.max(max, p.id), 0) + 1;
+
+      const postMeta: BlogPostMeta = {
+        id: nextId,
+        title: result.research.refinedTitle,
+        slug: finalSlug,
+        excerpt: result.research.excerpt,
+        category: result.research.category || topic.category,
+        author: 'The Answer Engine Team',
+        readTime: `${result.research.readTimeMinutes} min`,
+        image: `/blog/${finalSlug}/hero`,
+        publishDate: today,
+        lastModified: today,
+        featured: false,
+        tags: result.research.tags,
+      };
+
+      currentPosts.push(postMeta);
+
+      // 2. Commit both files via GitHub API
+      const { commitSha } = await publishToGitHub(
+        [
+          { path: `app/blog/${finalSlug}/page.tsx`, content: result.code },
+          { path: 'app/blog/blogPosts.json', content: JSON.stringify(currentPosts, null, 2) },
+        ],
+        `blog: ${result.research.refinedTitle}`,
+      );
+      console.log(`Published via GitHub API: ${commitSha}`);
+    } else {
+      // LOCAL: Write files directly (for development/CLI usage)
+      await writeBlogPostPage(finalSlug, result.code);
+
+      const nextId = await getNextBlogPostId();
+      const postMeta: BlogPostMeta = {
+        id: nextId,
+        title: result.research.refinedTitle,
+        slug: finalSlug,
+        excerpt: result.research.excerpt,
+        category: result.research.category || topic.category,
+        author: 'The Answer Engine Team',
+        readTime: `${result.research.readTimeMinutes} min`,
+        image: `/blog/${finalSlug}/hero`,
+        publishDate: today,
+        lastModified: today,
+        featured: false,
+        tags: result.research.tags,
+      };
+      await appendBlogPost(postMeta);
+    }
+
+    // Mark topic as published
     await markTopicPublished(topic.id);
     session.published = true;
     session.completedAt = new Date().toISOString();
 
-    // 4. Log session
+    // Log session
     await appendBlogSession(session);
 
-    // 5. Telegram notification
+    // Telegram notification
     try {
       await notifyBlogPublished(session);
     } catch (err) {

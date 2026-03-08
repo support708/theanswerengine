@@ -697,10 +697,7 @@ export default function AEOGuidePage() {
             </p>
             <a
               href="/blindspot"
-              className="inline-block text-white font-semibold px-6 py-3 rounded-lg transition-colors"
-              style={{ backgroundColor: '#FF6A00' }}
-              onMouseOver={(e) => (e.currentTarget.style.backgroundColor = '#ea580c')}
-              onMouseOut={(e) => (e.currentTarget.style.backgroundColor = '#FF6A00')}
+              className="inline-block bg-[#FF6A00] hover:bg-orange-600 text-white font-semibold px-6 py-3 rounded-lg transition-colors"
             >
               Get Your Free Blind Spot Report
             </a>

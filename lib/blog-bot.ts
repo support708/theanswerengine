@@ -67,6 +67,7 @@ CONTENT RULES:
 - Conversational but authoritative tone.
 - Include practical, actionable advice.
 - 1500-2500 words target.
+- ZERO inline event handlers (no onClick, onMouseOver, onMouseOut, onChange, onFocus, onBlur). This is a Server Component. Use Tailwind hover:/focus: classes instead (e.g. hover:bg-orange-600).
 
 PAGE STRUCTURE (must include ALL of these):
 1. ISR config: export const revalidate = 86400; export const dynamic = 'force-static'; export const dynamicParams = true;
@@ -130,6 +131,7 @@ SCORING (100 points total):
 - Content Quality (20 pts): Informative, actionable, proper heading hierarchy
 - Brand Compliance (15 pts): Correct colors (#0F1117, #FF6A00), dark theme, proper layout
 - Zero Em-Dashes (10 pts): No -- or \u2014 characters anywhere (instant 0 if found)
+- No Event Handlers (5 pts): No inline onClick/onMouseOver/etc. (Server Component)
 - FAQ Section (10 pts): At least 4 FAQ Q&As present
 - CTA Present (10 pts): Links to /blindspot or similar
 
