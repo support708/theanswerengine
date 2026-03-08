@@ -22,7 +22,7 @@ import type { BlogSession, BlogPostMeta } from './blog-types';
 
 const IS_VERCEL = !!process.env.VERCEL;
 
-const MAX_DAILY_CRON = 4;
+const MAX_DAILY_CRON = 2;
 
 export async function runBlogSession(trigger: 'cron' | 'manual'): Promise<BlogSession> {
   const sessionId = `blog_${Date.now()}_${Math.random().toString(36).slice(2, 8)}`;

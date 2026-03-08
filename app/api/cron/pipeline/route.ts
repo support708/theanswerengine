@@ -18,7 +18,7 @@ import type { ResearchResults } from '@/lib/types';
 import { promises as fs } from 'fs';
 import path from 'path';
 
-export const maxDuration = 300; // 5 minutes for processing multiple leads
+export const maxDuration = 120; // 2 minutes - processes 1 lead per invocation to save Vercel usage
 
 // Vercel cron sends GET requests
 export async function GET(req: NextRequest) {
