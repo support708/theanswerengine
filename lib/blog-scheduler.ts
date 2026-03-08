@@ -93,8 +93,24 @@ export async function runBlogSession(trigger: 'cron' | 'manual'): Promise<BlogSe
   };
 
   try {
+    // Gather existing titles/slugs for duplicate prevention
+    let existingTitles: string[] = [];
+    let existingSlugs: string[] = [];
+    try {
+      if (IS_VERCEL && process.env.GITHUB_TOKEN) {
+        const postsJson = await getFileContent('app/blog/blogPosts.json');
+        const posts = JSON.parse(postsJson) as BlogPostMeta[];
+        existingTitles = posts.map(p => p.title);
+        existingSlugs = posts.map(p => p.slug);
+      } else {
+        const posts = await readBlogPosts();
+        existingTitles = posts.map(p => p.title);
+        existingSlugs = posts.map(p => p.slug);
+      }
+    } catch { /* first run — no posts yet */ }
+
     // Run the 3-call pipeline
-    const result = await runPipeline(topic);
+    const result = await runPipeline(topic, existingTitles, existingSlugs);
 
     session.researchTokens = result.researchTokens;
     session.generationTokens = result.generationTokens;

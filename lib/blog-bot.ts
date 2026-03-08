@@ -30,6 +30,14 @@ RULES:
 - Tone: authoritative but accessible, no jargon without explanation
 - Find 5-8 FAQ questions real people ask about this topic
 
+KEYWORD STRATEGY (CRITICAL):
+- Use web_search to find what people ACTUALLY search for on Google related to this topic
+- Prioritize SEO keywords over AEO jargon. Most business owners search "how to get on ChatGPT" not "answer engine optimization"
+- The refined title MUST target a real search query people type into Google
+- Look at Google autocomplete, "People Also Ask", and competitor article titles for inspiration
+- Do NOT use the same title or near-identical title as any existing article (a list of existing titles will be provided)
+- The slug must be unique and not duplicate any existing slug
+
 OUTPUT FORMAT: Return ONLY valid JSON matching this structure:
 {
   "refinedTitle": "Optimized H1 title (under 65 chars for search)",
@@ -150,7 +158,11 @@ A score of 85+ passes. Be strict but fair.`,
 
 // --- Pipeline Functions ---
 
-export async function researchTopic(topic: BlogTopic): Promise<{ research: ResearchOutput; tokens: number }> {
+export async function researchTopic(topic: BlogTopic, existingTitles: string[] = [], existingSlugs: string[] = []): Promise<{ research: ResearchOutput; tokens: number }> {
+  const duplicateWarning = existingTitles.length > 0
+    ? `\n\nEXISTING ARTICLES (do NOT duplicate these titles or slugs):\nTitles: ${existingTitles.map(t => `"${t}"`).join(', ')}\nSlugs: ${existingSlugs.join(', ')}`
+    : '';
+
   const response = await callClaudeWithWebSearch({
     model: HAIKU,
     system: RESEARCH_SYSTEM,
@@ -161,7 +173,9 @@ Target keyword: "${topic.targetKeyword}"
 Category: ${topic.category}
 Pillar: ${topic.pillar}
 
-Find current stats, competitor gaps, and FAQs. Return structured JSON.`,
+Find current stats, competitor gaps, and FAQs. Use web_search to find what real people search for on Google about this topic. Target SEO-friendly titles that match actual search queries.${duplicateWarning}
+
+Return structured JSON.`,
     }],
     maxTokens: 4096,
   });
@@ -317,7 +331,7 @@ function escapeXml(str: string): string {
   return str.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
 }
 
-export async function runPipeline(topic: BlogTopic): Promise<{
+export async function runPipeline(topic: BlogTopic, existingTitles: string[] = [], existingSlugs: string[] = []): Promise<{
   research: ResearchOutput;
   code: string;
   audit: AuditResult;
@@ -325,8 +339,8 @@ export async function runPipeline(topic: BlogTopic): Promise<{
   generationTokens: number;
   auditTokens: number;
 }> {
-  // Call 1: Research
-  const { research, tokens: researchTokens } = await researchTopic(topic);
+  // Call 1: Research (pass existing titles/slugs to prevent duplicates)
+  const { research, tokens: researchTokens } = await researchTopic(topic, existingTitles, existingSlugs);
 
   await delay(15000); // Rate limit buffer
 

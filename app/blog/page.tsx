@@ -326,14 +326,24 @@ export default function Blog() {
                     >
                       <Link href={post.customUrl || `/blog/${post.slug}`} className="block">
                         <div className="relative h-44 sm:h-48 bg-gradient-to-br from-white/[0.02] to-white/[0.04] flex items-center justify-center overflow-hidden ring-1 ring-inset ring-white/[0.06]">
-                          <Image
-                            src={post.image}
-                            alt={post.title}
-                            width={400}
-                            height={200}
-                            className="w-full h-full object-cover opacity-70 group-hover:scale-105 transition-transform duration-500 grayscale brightness-75"
-                          />
-                          <BlogCardPattern index={i} className="absolute inset-0 w-full h-full pointer-events-none z-[1]" />
+                          {post.image.endsWith('.svg') ? (
+                            <img
+                              src={post.image}
+                              alt={post.title}
+                              className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                            />
+                          ) : (
+                            <Image
+                              src={post.image}
+                              alt={post.title}
+                              width={400}
+                              height={200}
+                              className="w-full h-full object-cover opacity-70 group-hover:scale-105 transition-transform duration-500 grayscale brightness-75"
+                            />
+                          )}
+                          {!post.image.endsWith('.svg') && (
+                            <BlogCardPattern index={i} className="absolute inset-0 w-full h-full pointer-events-none z-[1]" />
+                          )}
                           <div className="absolute inset-0 bg-gradient-to-t from-[#0F1117] via-transparent to-[#0F1117]/40 pointer-events-none z-[2]" />
                           <div className="absolute top-3 right-3 px-2.5 py-1 bg-white/[0.1] text-white/60 backdrop-blur-sm border border-white/[0.1] text-xs font-semibold rounded-lg shadow-lg z-[3]">
                             Featured
@@ -427,14 +437,24 @@ export default function Blog() {
                 >
                   <Link href={post.customUrl || `/blog/${post.slug}`} className="block">
                     <div className="relative h-44 sm:h-48 bg-gradient-to-br from-white/[0.02] to-white/[0.04] flex items-center justify-center overflow-hidden ring-1 ring-inset ring-white/[0.06]">
-                      <Image
-                        src={post.image}
-                        alt={post.title}
-                        width={400}
-                        height={200}
-                        className="w-full h-full object-cover opacity-70 group-hover:scale-105 transition-transform duration-500 grayscale brightness-75"
-                      />
-                      <BlogCardPattern index={i + 10} className="absolute inset-0 w-full h-full pointer-events-none z-[1]" />
+                      {post.image.endsWith('.svg') ? (
+                        <img
+                          src={post.image}
+                          alt={post.title}
+                          className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                        />
+                      ) : (
+                        <Image
+                          src={post.image}
+                          alt={post.title}
+                          width={400}
+                          height={200}
+                          className="w-full h-full object-cover opacity-70 group-hover:scale-105 transition-transform duration-500 grayscale brightness-75"
+                        />
+                      )}
+                      {!post.image.endsWith('.svg') && (
+                        <BlogCardPattern index={i + 10} className="absolute inset-0 w-full h-full pointer-events-none z-[1]" />
+                      )}
                       <div className="absolute inset-0 bg-gradient-to-t from-[#0F1117] via-transparent to-[#0F1117]/40 pointer-events-none z-[2]" />
                     </div>
 
