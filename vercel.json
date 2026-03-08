@@ -11,7 +11,7 @@
     },
     {
       "path": "/api/cron/hunt?trigger=cron_monthly",
-      "schedule": "0 14 1-7 * 1"
+      "schedule": "0 14 1 * *"
     }
   ]
 }
