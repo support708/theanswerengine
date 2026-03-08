@@ -1,0 +1,88 @@
+[
+  {
+    "businessName": "Mar Vista Roofing",
+    "contactName": "Patrick Farrell",
+    "website": "https://www.marvistaroofing.com",
+    "phone": "(310) 393-7664",
+    "city": "Los Angeles",
+    "state": "CA",
+    "serviceNiche": "Roofing Contractor",
+    "painSignals": [
+      "Operating since 1972 with established reputation",
+      "Minimal online content marketing and limited structured schema implementation"
+    ],
+    "scoreBreakdown": {
+      "aiBlindSpot": 6,
+      "reputationStrength": 0,
+      "contentGap": 6,
+      "revenuePotential": 6,
+      "contactQuality": 2.5,
+      "total": 20.5
+    },
+    "priority": "P3"
+  },
+  {
+    "businessName": "The Roof Doctors",
+    "contactName": "Adam Wilfley",
+    "website": "https://theroofdoctors.net",
+    "city": "Los Angeles",
+    "state": "CA",
+    "serviceNiche": "Roofing Contractor",
+    "painSignals": [
+      "30+ years experience with strong local trust",
+      "Limited blog content and outdated digital marketing presence"
+    ],
+    "scoreBreakdown": {
+      "aiBlindSpot": 6,
+      "reputationStrength": 0,
+      "contentGap": 6,
+      "revenuePotential": 6,
+      "contactQuality": 1.5,
+      "total": 19.5
+    },
+    "priority": "P3"
+  },
+  {
+    "businessName": "Silvestre Roofing",
+    "website": "https://silvestreroofing.net",
+    "phone": "(626) 591-8753",
+    "city": "La Puente",
+    "state": "CA",
+    "serviceNiche": "Roofing Contractor",
+    "painSignals": [
+      "24 years of quality craftsmanship with customer loyalty",
+      "Inadequate structured data markup for AI indexing"
+    ],
+    "scoreBreakdown": {
+      "aiBlindSpot": 6,
+      "reputationStrength": 0,
+      "contentGap": 6,
+      "revenuePotential": 6,
+      "contactQuality": 1,
+      "total": 19
+    },
+    "priority": "P3"
+  },
+  {
+    "businessName": "Preferred Roofing",
+    "contactName": "David Paine",
+    "website": "https://preferredroofinginc.com",
+    "phone": "(818) 787-1811",
+    "city": "Los Angeles",
+    "state": "CA",
+    "serviceNiche": "Roofing Contractor",
+    "painSignals": [
+      "30+ years experience with 8,000+ completed projects",
+      "Established reputation but opportunity for modern digital marketing and content strategy"
+    ],
+    "scoreBreakdown": {
+      "aiBlindSpot": 6,
+      "reputationStrength": 0,
+      "contentGap": 6,
+      "revenuePotential": 6,
+      "contactQuality": 2.5,
+      "total": 20.5
+    },
+    "priority": "P3"
+  }
+]
