@@ -167,14 +167,7 @@ export async function notifyHuntComplete(session: {
 }
 
 export async function notifyBlogPublished(session: BlogSession): Promise<void> {
-  const totalTokens = session.researchTokens + session.generationTokens + session.auditTokens;
-  const estCost = (
-    (session.researchTokens * 0.000003) + // Haiku avg
-    (session.generationTokens * 0.000009) + // Sonnet avg
-    (session.auditTokens * 0.000003) // Haiku avg
-  ).toFixed(3);
-
-  // Silent on success - daily digest handles notification
+  // Silent on success — only notify on failure
   if (!session.published) {
     const reason = session.error || 'Unknown error';
     await sendMessage(
