@@ -9,7 +9,7 @@ import { callClaudeWithWebSearch, callClaude, extractText, checkRateLimit } from
 import { parseAERO7FromResearch } from '@/lib/aero7-scorer';
 import { getIndustryColors, CALENDLY_URL, REPORT_FOOTER } from '@/lib/report-template';
 import { runFabricationScan, runEmDashScan, stripEmDashes } from '@/lib/fabrication-scan';
-import { buildEmailSubject, buildEmailBody } from '@/lib/gmail';
+import { buildEmailSubject, buildEmailBody, buildHtmlEmailBody } from '@/lib/gmail';
 import { createGmailDraft, isGmailConfigured } from '@/lib/gmail-api';
 import { notifyResearchComplete, notifyReportReady, notifyEmailDrafted } from '@/lib/telegram';
 import { deployReport, isDeployConfigured } from '@/lib/deploy';
@@ -270,6 +270,9 @@ CRITICAL RULES:
 - All styles must be inline or in a <style> tag in <head>.
 - Use system fonts: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif.
 - Every claim must come from the research data provided. Never fabricate.
+- NEVER include fake case studies, fabricated statistics, or invented testimonials.
+- Do NOT create any "proof" or "results" sections with made-up numbers.
+- If a data point is null or empty, omit that section gracefully.
 
 BRAND COLORS:
 - Hero gradient: ${brand.heroGradientFrom} to ${brand.heroGradientTo}
@@ -284,8 +287,7 @@ Section 2 - THE GAP: Stats panel with reviews, years, credentials, AERO-10 score
 Section 3 - WHAT AI SEES: Terminal/chat simulation showing competitor cited instead
 Section 4 - HIDDEN DIFFERENTIATORS: 3-5 cards from research
 Section 5 - THE FIX: 4-item grid (Answer-First, Schema, Entity, Authority)
-Section 6 - THE PROOF: Case study stats
-Section 7 - CTA: "BOOK A 30-MIN CALL" linking to ${CALENDLY_URL}
+Section 6 - CTA: "BOOK A 30-MIN CALL" linking to ${CALENDLY_URL}
 FOOTER: "${REPORT_FOOTER}"`,
         cache_control: { type: 'ephemeral' as const },
       }];
@@ -398,6 +400,7 @@ Generate the complete HTML now.`;
     } else {
       const subject = buildEmailSubject(currentLead);
       const body = buildEmailBody(currentLead);
+      const htmlBody = buildHtmlEmailBody(currentLead);
 
       let draftId: string | null = null;
       let gmailUsed = false;
@@ -408,6 +411,7 @@ Generate the complete HTML now.`;
             to: currentLead.contactEmail,
             subject,
             body,
+            htmlBody,
           });
           if (gmailResult) {
             draftId = gmailResult.draftId;

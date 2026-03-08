@@ -135,3 +135,12 @@ dist
 .yarn/install-state.gz
 .pnp.*
 nul
+.vercel
+
+# Pipeline data files (auto-generated)
+data/leads.json
+data/hunt-state.json
+data/hunt-log.json
+data/prospect-backlog.json
+data/send-log.json
+.env.production

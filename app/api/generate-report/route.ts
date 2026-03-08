@@ -229,6 +229,8 @@ CRITICAL RULES:
 - All styles must be inline or in a <style> tag in <head>.
 - Use system fonts: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif.
 - Every claim must come from the research data provided. Never fabricate.
+- NEVER include fake case studies, fabricated statistics, or invented testimonials.
+- Do NOT create any "proof" or "results" sections with made-up numbers.
 - If a data point is null or empty, omit that section gracefully.
 
 BRAND COLORS:
@@ -258,10 +260,7 @@ Section 5 - THE FIX:
 4-item grid: Answer-First Content, Schema Markup, Entity Optimization, Authority Signals.
 Brief description for each.
 
-Section 6 - THE PROOF:
-Case study stat block: "After implementing the Answer Authority Foundation: 100% AI citation rate within 60 days."
-
-Section 7 - CTA:
+Section 6 - CTA:
 Primary CTA text: "I'll walk you through exactly what I found on a 30-minute Zoom. No pitch, just the data and what it means for your market. If it makes sense to talk about next steps after that, great. If not, you keep the report either way."
 Button: "BOOK A 30-MIN CALL" linking to ${CALENDLY_URL}
 Below: "The report is yours regardless. No strings attached."

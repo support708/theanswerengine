@@ -1,6 +1,7 @@
 import { NextRequest, NextResponse } from 'next/server';
 import { readLeads, writeLeads, generateId, generateSlug } from '@/lib/leads';
 import { sanitizeField, sanitizeEmail, sanitizeUrl } from '@/lib/sanitize';
+import { normalizeBusinessName, extractDomain } from '@/lib/deduplicator';
 import { notifyLeadCreated } from '@/lib/telegram';
 import type { Lead, LeadFormData } from '@/lib/types';
 
@@ -37,6 +38,36 @@ export async function POST(req: NextRequest) {
   const reviewCount = body.reviewCount ? parseInt(body.reviewCount, 10) || null : null;
   const rating = body.rating ? parseFloat(body.rating) || null : null;
 
+  const leads = await readLeads();
+
+  // Dedup check: prevent same business/email from being added twice
+  const normalizedName = normalizeBusinessName(businessName);
+  const normalizedEmail = contactEmail.toLowerCase().trim();
+  const domain = websiteUrl ? extractDomain(websiteUrl) : null;
+
+  const duplicate = leads.find(existing => {
+    // Match by normalized name + city
+    if (normalizeBusinessName(existing.businessName) === normalizedName && existing.city.toLowerCase() === city.toLowerCase()) {
+      return true;
+    }
+    // Match by email
+    if (normalizedEmail && existing.contactEmail.toLowerCase() === normalizedEmail) {
+      return true;
+    }
+    // Match by domain
+    if (domain && existing.websiteUrl && extractDomain(existing.websiteUrl) === domain) {
+      return true;
+    }
+    return false;
+  });
+
+  if (duplicate) {
+    return NextResponse.json(
+      { error: `Duplicate lead: ${duplicate.businessName} (${duplicate.status}) already exists`, existingId: duplicate.id },
+      { status: 409 }
+    );
+  }
+
   const lead: Lead = {
     id: generateId(),
     businessName,
@@ -60,7 +91,6 @@ export async function POST(req: NextRequest) {
     updatedAt: new Date().toISOString(),
   };
 
-  const leads = await readLeads();
   leads.push(lead);
   await writeLeads(leads);
 
