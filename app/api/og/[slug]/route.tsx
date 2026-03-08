@@ -1,9 +1,8 @@
 import { ImageResponse } from 'next/og';
-import { readLeads } from '@/lib/leads';
 import { getIndustryColors } from '@/lib/report-template';
 import reportMetadata from '@/data/report-metadata.json';
 
-export const runtime = 'nodejs';
+export const runtime = 'edge';
 
 interface ReportMeta {
   businessName: string;
@@ -21,36 +20,12 @@ export async function GET(
 ) {
   const { slug } = await params;
 
-  // Try leads.json first (local dev), fall back to committed report-metadata.json (production)
-  let businessName = '';
-  let serviceNiche = '';
-  let score: number | null = null;
-  let topCompetitor = 'Your competitors';
-  let reviewCount = 0;
-
-  const leads = await readLeads();
-  const lead = leads.find(l => l.reportSlug === slug);
-
-  if (lead) {
-    businessName = lead.businessName;
-    serviceNiche = lead.serviceNiche;
-    score = lead.research?.aero7?.total ?? null;
-    const competitors = lead.research?.topCompetitors ?? [];
-    topCompetitor = competitors[0]?.name || 'Your competitors';
-    reviewCount = lead.research?.reviewCount || lead.reviewCount || 0;
-  } else {
-    // Fallback: imported metadata (bundled at build time, works on Vercel)
-    const meta = metadata[slug] ?? null;
-    if (!meta) {
-      return new Response('Not found', { status: 404 });
-    }
-    businessName = meta.businessName;
-    serviceNiche = meta.serviceNiche;
-    score = meta.score;
-    topCompetitor = meta.topCompetitor;
-    reviewCount = meta.reviewCount;
+  const meta = metadata[slug];
+  if (!meta) {
+    return new Response('Not found', { status: 404 });
   }
 
+  const { businessName, serviceNiche, score, topCompetitor, reviewCount } = meta;
   const colors = getIndustryColors(serviceNiche);
 
   return new ImageResponse(
