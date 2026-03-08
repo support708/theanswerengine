@@ -6,12 +6,13 @@
 
 import { promises as fs } from 'fs';
 import path from 'path';
-import type { BlogTopic, BlogState, BlogSession, BlogPostMeta } from './blog-types';
+import type { BlogTopic, BlogState, BlogSession, BlogPostMeta, StagedArticle } from './blog-types';
 
 const DATA_DIR = path.join(process.cwd(), 'data');
 const STATE_PATH = path.join(DATA_DIR, 'blog-state.json');
 const TOPICS_PATH = path.join(DATA_DIR, 'blog-topics.json');
 const BLOG_POSTS_PATH = path.join(process.cwd(), 'app', 'blog', 'blogPosts.json');
+const STAGED_PATH = path.join(DATA_DIR, 'blog-staged.json');
 
 const DEFAULT_STATE: BlogState = {
   totalPublished: 0,
@@ -235,4 +236,27 @@ export async function writeBlogPostPage(slug: string, content: string): Promise<
   const dir = path.join(process.cwd(), 'app', 'blog', slug);
   await fs.mkdir(dir, { recursive: true });
   await fs.writeFile(path.join(dir, 'page.tsx'), content, 'utf-8');
+}
+
+// --- Staged Articles (batch publishing) ---
+
+export async function readStagedArticles(): Promise<StagedArticle[]> {
+  try {
+    const data = await fs.readFile(STAGED_PATH, 'utf-8');
+    return JSON.parse(data) as StagedArticle[];
+  } catch {
+    return [];
+  }
+}
+
+export async function stageBlogArticle(article: StagedArticle): Promise<void> {
+  await ensureDir();
+  const staged = await readStagedArticles();
+  staged.push(article);
+  await fs.writeFile(STAGED_PATH, JSON.stringify(staged, null, 2), 'utf-8');
+}
+
+export async function clearStagedArticles(): Promise<void> {
+  await ensureDir();
+  await fs.writeFile(STAGED_PATH, '[]', 'utf-8');
 }

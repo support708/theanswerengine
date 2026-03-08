@@ -15,10 +15,13 @@ import {
   getNextBlogPostId,
   writeBlogPostPage,
   readBlogPosts,
+  readStagedArticles,
+  stageBlogArticle,
+  clearStagedArticles,
 } from './blog-data';
 import { publishToGitHub, getFileContent } from './github-publish';
 import { notifyBlogPublished } from './telegram';
-import type { BlogSession, BlogPostMeta } from './blog-types';
+import type { BlogSession, BlogPostMeta, StagedArticle } from './blog-types';
 
 const IS_VERCEL = !!process.env.VERCEL;
 
@@ -148,14 +151,8 @@ export async function runBlogSession(trigger: 'cron' | 'manual'): Promise<BlogSe
     const imagePath = `/blog/${finalSlug}.svg`;
 
     if (IS_VERCEL && process.env.GITHUB_TOKEN) {
-      // PRODUCTION: Publish via GitHub API (triggers Vercel auto-deploy)
-      // 1. Get current blogPosts.json from GitHub
-      const currentPostsJson = await getFileContent('app/blog/blogPosts.json');
-      const currentPosts = JSON.parse(currentPostsJson) as BlogPostMeta[];
-      const nextId = currentPosts.reduce((max, p) => Math.max(max, p.id), 0) + 1;
-
-      const postMeta: BlogPostMeta = {
-        id: nextId,
+      // PRODUCTION: Stage article for end-of-day batch publish
+      const postMeta: Omit<BlogPostMeta, 'id'> = {
         title: result.research.refinedTitle,
         slug: finalSlug,
         excerpt: result.research.excerpt,
@@ -169,18 +166,16 @@ export async function runBlogSession(trigger: 'cron' | 'manual'): Promise<BlogSe
         tags: result.research.tags,
       };
 
-      currentPosts.push(postMeta);
-
-      // 2. Commit all files via GitHub API (page + metadata + SVG image)
-      const { commitSha } = await publishToGitHub(
-        [
-          { path: `app/blog/${finalSlug}/page.tsx`, content: result.code },
-          { path: 'app/blog/blogPosts.json', content: JSON.stringify(currentPosts, null, 2) },
-          { path: `public/blog/${finalSlug}.svg`, content: heroSvg },
-        ],
-        `blog: ${result.research.refinedTitle}`,
-      );
-      console.log(`Published via GitHub API: ${commitSha}`);
+      await stageBlogArticle({
+        slug: finalSlug,
+        code: result.code,
+        svg: heroSvg,
+        postMeta,
+        topicId: topic.id,
+        session,
+        stagedAt: new Date().toISOString(),
+      });
+      console.log(`Staged for batch publish: ${finalSlug}`);
     } else {
       // LOCAL: Write files directly (for development/CLI usage)
       await writeBlogPostPage(finalSlug, result.code);
@@ -242,11 +237,64 @@ export async function runBlogSession(trigger: 'cron' | 'manual'): Promise<BlogSe
   }
 }
 
+// --- Batch Publish (end-of-day cron) ---
+
+export async function publishStagedArticles(): Promise<{ count: number; commitSha?: string }> {
+  const staged = await readStagedArticles();
+  if (staged.length === 0) {
+    return { count: 0 };
+  }
+
+  // Fetch current blogPosts.json from GitHub
+  const currentPostsJson = await getFileContent('app/blog/blogPosts.json');
+  const currentPosts = JSON.parse(currentPostsJson) as BlogPostMeta[];
+  let nextId = currentPosts.reduce((max, p) => Math.max(max, p.id), 0) + 1;
+
+  // Build file list for single atomic commit
+  const files: { path: string; content: string }[] = [];
+  const titles: string[] = [];
+
+  for (const article of staged) {
+    const postMeta: BlogPostMeta = {
+      ...article.postMeta,
+      id: nextId++,
+    };
+    currentPosts.push(postMeta);
+    titles.push(postMeta.title);
+
+    files.push({ path: `app/blog/${article.slug}/page.tsx`, content: article.code });
+    files.push({ path: `public/blog/${article.slug}.svg`, content: article.svg });
+  }
+
+  // Add updated blogPosts.json
+  files.push({ path: 'app/blog/blogPosts.json', content: JSON.stringify(currentPosts, null, 2) });
+
+  // Single GitHub commit for all articles
+  const commitMsg = staged.length === 1
+    ? `blog: ${titles[0]}`
+    : `blog: publish ${staged.length} articles`;
+  const { commitSha } = await publishToGitHub(files, commitMsg);
+  console.log(`Batch published ${staged.length} articles: ${commitSha}`);
+
+  // Clear staged articles
+  await clearStagedArticles();
+
+  // Telegram notification
+  try {
+    const { notifyBlogBatchPublished } = await import('./telegram');
+    await notifyBlogBatchPublished(staged.length, commitSha);
+  } catch { /* non-critical */ }
+
+  return { count: staged.length, commitSha };
+}
+
 export async function getBlogStatus(): Promise<{
   state: Awaited<ReturnType<typeof readBlogState>>;
   lastSession?: BlogSession;
+  stagedCount?: number;
 }> {
   const state = await readBlogState();
   const lastSession = state.sessions.length > 0 ? state.sessions[state.sessions.length - 1] : undefined;
-  return { state, lastSession };
+  const staged = await readStagedArticles();
+  return { state, lastSession, stagedCount: staged.length };
 }

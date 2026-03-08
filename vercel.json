@@ -24,6 +24,10 @@
     {
       "path": "/api/cron/blog",
       "schedule": "0 19 * * 1-5"
+    },
+    {
+      "path": "/api/cron/blog?action=publish",
+      "schedule": "0 22 * * 1-5"
     }
   ]
 }

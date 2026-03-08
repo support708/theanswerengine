@@ -176,11 +176,11 @@ export async function notifyBlogPublished(session: BlogSession): Promise<void> {
 
   if (session.published) {
     await sendMessage(
-      `<b>Blog Published</b> | ${session.topicTitle}\n\n` +
+      `<b>Blog Staged</b> | ${session.topicTitle}\n\n` +
       `Score: ${session.auditScore}/100\n` +
       `Tokens: ${totalTokens.toLocaleString()} | Est. cost: $${estCost}\n` +
-      `Trigger: ${session.trigger}\n\n` +
-      `https://theanswerengine.ai/blog/${session.slug}`
+      `Trigger: ${session.trigger}\n` +
+      `Queued for end-of-day batch publish`
     );
   } else {
     const reason = session.error || 'Unknown error';
@@ -191,4 +191,13 @@ export async function notifyBlogPublished(session: BlogSession): Promise<void> {
       `Trigger: ${session.trigger}`
     );
   }
+}
+
+export async function notifyBlogBatchPublished(count: number, commitSha: string): Promise<void> {
+  await sendMessage(
+    `<b>Blog Batch Published</b>\n\n` +
+    `${count} article${count > 1 ? 's' : ''} pushed in one commit\n` +
+    `Commit: ${commitSha.slice(0, 7)}\n` +
+    `One Vercel rebuild triggered`
+  );
 }

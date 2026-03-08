@@ -58,6 +58,16 @@ export interface AuditResult {
   suggestions: string[];
 }
 
+export interface StagedArticle {
+  slug: string;
+  code: string;
+  svg: string;
+  postMeta: Omit<BlogPostMeta, 'id'>;
+  topicId: string;
+  session: BlogSession;
+  stagedAt: string;
+}
+
 export interface BlogPostMeta {
   id: number;
   title: string;

@@ -1,11 +1,13 @@
 /**
  * Vercel Cron endpoint for Blog Bot.
  * Protected by CRON_SECRET - not by NextAuth (excluded in middleware).
- * Runs 4x daily on weekdays (see vercel.json).
+ *
+ * GET /api/cron/blog          — Generate mode: run pipeline, stage article
+ * GET /api/cron/blog?action=publish — Publish mode: batch push all staged articles
  */
 
 import { NextRequest, NextResponse } from 'next/server';
-import { runBlogSession } from '@/lib/blog-scheduler';
+import { runBlogSession, publishStagedArticles } from '@/lib/blog-scheduler';
 
 export const maxDuration = 120; // 2 minutes max for Vercel Pro
 
@@ -27,6 +29,29 @@ export async function GET(request: NextRequest) {
     return NextResponse.json({ message: 'Blog bot is disabled', hint: 'Set BLOG_ENABLED=true' }, { status: 200 });
   }
 
+  const action = request.nextUrl.searchParams.get('action');
+
+  // --- Batch Publish Mode ---
+  if (action === 'publish') {
+    try {
+      const result = await publishStagedArticles();
+      if (result.count === 0) {
+        return NextResponse.json({ success: true, message: 'No staged articles to publish' });
+      }
+      return NextResponse.json({
+        success: true,
+        published: result.count,
+        commitSha: result.commitSha,
+      });
+    } catch (err) {
+      return NextResponse.json(
+        { error: err instanceof Error ? err.message : 'Batch publish failed' },
+        { status: 500 },
+      );
+    }
+  }
+
+  // --- Generate Mode (default) ---
   try {
     const session = await runBlogSession('cron');
     const duration = session.completedAt
@@ -41,7 +66,7 @@ export async function GET(request: NextRequest) {
         slug: session.slug,
         auditScore: session.auditScore,
         auditPassed: session.auditPassed,
-        published: session.published,
+        staged: session.published,
         totalTokens: session.researchTokens + session.generationTokens + session.auditTokens,
         duration,
         error: session.error || null,
