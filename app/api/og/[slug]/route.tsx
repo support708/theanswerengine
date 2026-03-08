@@ -86,7 +86,10 @@ export async function GET(
           style={{
             display: 'flex',
             alignItems: 'center',
-            padding: '24 32 0 32',
+            paddingTop: 24,
+            paddingRight: 32,
+            paddingBottom: 0,
+            paddingLeft: 32,
             gap: '12',
           }}
         >
@@ -120,7 +123,10 @@ export async function GET(
           style={{
             display: 'flex',
             flexDirection: 'column',
-            padding: '20 32 0 32',
+            paddingTop: 20,
+            paddingRight: 32,
+            paddingBottom: 0,
+            paddingLeft: 32,
             flex: 1,
           }}
         >
@@ -154,7 +160,7 @@ export async function GET(
                 flexDirection: 'column',
                 background: 'rgba(255,255,255,0.08)',
                 borderRadius: '8',
-                padding: '12 16',
+                paddingTop: 12, paddingRight: 16, paddingBottom: 12, paddingLeft: 16,
                 flex: 1,
               }}
             >
@@ -174,7 +180,7 @@ export async function GET(
                   flexDirection: 'column',
                   background: 'rgba(255,255,255,0.08)',
                   borderRadius: '8',
-                  padding: '12 16',
+                  paddingTop: 12, paddingRight: 16, paddingBottom: 12, paddingLeft: 16,
                   flex: 1,
                 }}
               >
@@ -195,7 +201,7 @@ export async function GET(
                   flexDirection: 'column',
                   background: 'rgba(255,255,255,0.08)',
                   borderRadius: '8',
-                  padding: '12 16',
+                  paddingTop: 12, paddingRight: 16, paddingBottom: 12, paddingLeft: 16,
                   flex: 1,
                 }}
               >
