@@ -11,7 +11,14 @@
     "publishDate": "2025-11-23",
     "lastModified": "2025-11-23",
     "featured": true,
-    "tags": ["Pricing", "ChatGPT Optimization", "AEO Cost", "ROI", "Investment", "Package Comparison"]
+    "tags": [
+      "Pricing",
+      "ChatGPT Optimization",
+      "AEO Cost",
+      "ROI",
+      "Investment",
+      "Package Comparison"
+    ]
   },
   {
     "id": 2,
@@ -25,7 +32,13 @@
     "publishDate": "2025-11-21",
     "lastModified": "2025-11-21",
     "featured": true,
-    "tags": ["ChatGPT", "AI Algorithm", "7 Core Signals", "Business Selection", "AEO"]
+    "tags": [
+      "ChatGPT",
+      "AI Algorithm",
+      "7 Core Signals",
+      "Business Selection",
+      "AEO"
+    ]
   },
   {
     "id": 3,
@@ -39,7 +52,12 @@
     "publishDate": "2025-11-15",
     "lastModified": "2025-11-15",
     "featured": true,
-    "tags": ["ChatGPT", "AI Citations", "NAP Data", "Schema Markup"]
+    "tags": [
+      "ChatGPT",
+      "AI Citations",
+      "NAP Data",
+      "Schema Markup"
+    ]
   },
   {
     "id": 4,
@@ -53,7 +71,12 @@
     "publishDate": "2025-11-17",
     "lastModified": "2025-11-17",
     "featured": true,
-    "tags": ["ChatGPT", "AI Citations", "Competitors", "Authority Signals"]
+    "tags": [
+      "ChatGPT",
+      "AI Citations",
+      "Competitors",
+      "Authority Signals"
+    ]
   },
   {
     "id": 5,
@@ -67,7 +90,12 @@
     "publishDate": "2025-11-11",
     "lastModified": "2025-11-11",
     "featured": true,
-    "tags": ["AEO", "Local Business", "AI Platforms", "Complete Guide"]
+    "tags": [
+      "AEO",
+      "Local Business",
+      "AI Platforms",
+      "Complete Guide"
+    ]
   },
   {
     "id": 6,
@@ -81,7 +109,12 @@
     "publishDate": "2025-11-09",
     "lastModified": "2025-11-09",
     "featured": false,
-    "tags": ["Google", "Search Rankings", "AI Search", "SEO"]
+    "tags": [
+      "Google",
+      "Search Rankings",
+      "AI Search",
+      "SEO"
+    ]
   },
   {
     "id": 7,
@@ -95,7 +128,12 @@
     "publishDate": "2025-11-09",
     "lastModified": "2025-11-09",
     "featured": false,
-    "tags": ["Google AI Overviews", "ChatGPT", "Business Citations", "AI Recommendations"]
+    "tags": [
+      "Google AI Overviews",
+      "ChatGPT",
+      "Business Citations",
+      "AI Recommendations"
+    ]
   },
   {
     "id": 8,
@@ -109,7 +147,12 @@
     "publishDate": "2025-11-09",
     "lastModified": "2025-11-09",
     "featured": false,
-    "tags": ["AEO", "SEO", "AI Search", "Fundamentals"]
+    "tags": [
+      "AEO",
+      "SEO",
+      "AI Search",
+      "Fundamentals"
+    ]
   },
   {
     "id": 9,
@@ -123,7 +166,12 @@
     "publishDate": "2025-11-09",
     "lastModified": "2025-11-09",
     "featured": false,
-    "tags": ["AI Platforms", "Authority Assessment", "Citations", "Selection Process"]
+    "tags": [
+      "AI Platforms",
+      "Authority Assessment",
+      "Citations",
+      "Selection Process"
+    ]
   },
   {
     "id": 10,
@@ -137,7 +185,12 @@
     "publishDate": "2025-11-09",
     "lastModified": "2025-11-09",
     "featured": false,
-    "tags": ["AEO Mistakes", "Common Failures", "Optimization Errors", "Business Strategy"]
+    "tags": [
+      "AEO Mistakes",
+      "Common Failures",
+      "Optimization Errors",
+      "Business Strategy"
+    ]
   },
   {
     "id": 11,
@@ -151,7 +204,12 @@
     "publishDate": "2025-11-09",
     "lastModified": "2025-11-09",
     "featured": false,
-    "tags": ["ROI", "Local Business", "Investment Strategy", "AEO Value"]
+    "tags": [
+      "ROI",
+      "Local Business",
+      "Investment Strategy",
+      "AEO Value"
+    ]
   },
   {
     "id": 12,
@@ -165,7 +223,14 @@
     "publishDate": "2025-12-01",
     "lastModified": "2025-12-01",
     "featured": true,
-    "tags": ["AEO", "AI Citations", "ChatGPT", "How To", "Getting Started", "Answer Engine"]
+    "tags": [
+      "AEO",
+      "AI Citations",
+      "ChatGPT",
+      "How To",
+      "Getting Started",
+      "Answer Engine"
+    ]
   },
   {
     "id": 13,
@@ -179,7 +244,14 @@
     "publishDate": "2025-12-01",
     "lastModified": "2025-12-01",
     "featured": true,
-    "tags": ["AEO", "Answer Engine Solutions", "AI Citations", "Local Business", "ChatGPT", "2025 Guide"]
+    "tags": [
+      "AEO",
+      "Answer Engine Solutions",
+      "AI Citations",
+      "Local Business",
+      "ChatGPT",
+      "2025 Guide"
+    ]
   },
   {
     "id": 14,
@@ -194,7 +266,14 @@
     "publishDate": "2025-12-16",
     "lastModified": "2026-03-04",
     "featured": true,
-    "tags": ["Case Study", "Real Estate", "Los Angeles", "AEO Results", "AI Citations", "Google Search Console"]
+    "tags": [
+      "Case Study",
+      "Real Estate",
+      "Los Angeles",
+      "AEO Results",
+      "AI Citations",
+      "Google Search Console"
+    ]
   },
   {
     "id": 15,
@@ -208,7 +287,14 @@
     "publishDate": "2025-12-16",
     "lastModified": "2025-12-16",
     "featured": true,
-    "tags": ["AEO", "SEO", "Comparison", "AI Citations", "Search Rankings", "2025 Guide"]
+    "tags": [
+      "AEO",
+      "SEO",
+      "Comparison",
+      "AI Citations",
+      "Search Rankings",
+      "2025 Guide"
+    ]
   },
   {
     "id": 16,
@@ -222,7 +308,14 @@
     "publishDate": "2025-12-16",
     "lastModified": "2025-12-16",
     "featured": true,
-    "tags": ["AI Visibility", "ChatGPT", "DIY Test", "AI Recommendations", "Competitor Analysis", "Free Tool"]
+    "tags": [
+      "AI Visibility",
+      "ChatGPT",
+      "DIY Test",
+      "AI Recommendations",
+      "Competitor Analysis",
+      "Free Tool"
+    ]
   },
   {
     "id": 17,
@@ -236,7 +329,13 @@
     "publishDate": "2025-12-17",
     "lastModified": "2025-12-17",
     "featured": true,
-    "tags": ["Google Reviews", "AI Visibility", "ChatGPT", "Reviews", "Local Business"]
+    "tags": [
+      "Google Reviews",
+      "AI Visibility",
+      "ChatGPT",
+      "Reviews",
+      "Local Business"
+    ]
   },
   {
     "id": 18,
@@ -250,7 +349,13 @@
     "publishDate": "2025-12-17",
     "lastModified": "2025-12-17",
     "featured": true,
-    "tags": ["Bing Places", "ChatGPT", "AI Visibility", "Microsoft", "Local Business"]
+    "tags": [
+      "Bing Places",
+      "ChatGPT",
+      "AI Visibility",
+      "Microsoft",
+      "Local Business"
+    ]
   },
   {
     "id": 19,
@@ -264,7 +369,13 @@
     "publishDate": "2025-12-17",
     "lastModified": "2025-12-17",
     "featured": true,
-    "tags": ["Google Business Profile", "ChatGPT", "AI Visibility", "Data Sources", "Local Business"]
+    "tags": [
+      "Google Business Profile",
+      "ChatGPT",
+      "AI Visibility",
+      "Data Sources",
+      "Local Business"
+    ]
   },
   {
     "id": 20,
@@ -278,7 +389,13 @@
     "publishDate": "2026-03-04",
     "lastModified": "2026-03-04",
     "featured": true,
-    "tags": ["Case Study", "ChatGPT", "AI Recommendations", "AEO Results", "Business Growth"]
+    "tags": [
+      "Case Study",
+      "ChatGPT",
+      "AI Recommendations",
+      "AEO Results",
+      "Business Growth"
+    ]
   },
   {
     "id": 21,
@@ -292,7 +409,12 @@
     "publishDate": "2026-03-04",
     "lastModified": "2026-03-04",
     "featured": false,
-    "tags": ["SEO", "Lead Generation", "AI Search", "Zero-Click Searches"]
+    "tags": [
+      "SEO",
+      "Lead Generation",
+      "AI Search",
+      "Zero-Click Searches"
+    ]
   },
   {
     "id": 22,
@@ -306,6 +428,115 @@
     "publishDate": "2026-03-04",
     "lastModified": "2026-03-04",
     "featured": false,
-    "tags": ["Website Traffic", "Phone Calls", "AI Search", "Zero-Click Searches"]
+    "tags": [
+      "Website Traffic",
+      "Phone Calls",
+      "AI Search",
+      "Zero-Click Searches"
+    ]
+  },
+  {
+    "id": 23,
+    "title": "Answer Engine Optimization: Complete AEO Guide for 2026",
+    "slug": "answer-engine-optimization-aeo-guide",
+    "excerpt": "Answer Engine Optimization helps your content get cited by AI systems like ChatGPT, Perplexity, and Google AI Overviews. Learn AEO strategies to dominate AI-powered search visibility.",
+    "category": "AEO Education",
+    "author": "The Answer Engine Team",
+    "readTime": "12 min",
+    "image": "/blog/answer-engine-optimization-aeo-guide/hero",
+    "publishDate": "2026-03-08",
+    "lastModified": "2026-03-08",
+    "featured": false,
+    "tags": [
+      "answer-engine-optimization",
+      "AEO",
+      "AI-search",
+      "generative-AI",
+      "content-optimization",
+      "ChatGPT-optimization",
+      "AI-visibility",
+      "voice-search",
+      "search-trends-2026",
+      "zero-click-search",
+      "business-visibility",
+      "local-service-marketing"
+    ]
+  },
+  {
+    "id": 24,
+    "title": "Get Cited by ChatGPT: Local Business Owner's AEO Guide",
+    "slug": "get-cited-chatgpt-local-business-guide",
+    "excerpt": "Learn how to get cited by ChatGPT and boost conversions 4.4x higher than Google. Proven tactics for local service businesses to dominate AI search.",
+    "category": "How-To Guides",
+    "author": "The Answer Engine Team",
+    "readTime": "9 min",
+    "image": "/blog/get-cited-chatgpt-local-business-guide/hero",
+    "publishDate": "2026-03-08",
+    "lastModified": "2026-03-08",
+    "featured": false,
+    "tags": [
+      "AI visibility",
+      "ChatGPT SEO",
+      "local business marketing",
+      "generative engine optimization",
+      "GEO strategy",
+      "answer capsules",
+      "AEO marketing",
+      "AI citations",
+      "local search",
+      "content optimization",
+      "authority building",
+      "AI discoverability"
+    ]
+  },
+  {
+    "id": 25,
+    "title": "AEO vs SEO: What Local Businesses Actually Need",
+    "slug": "aeo-vs-seo-local-business-guide",
+    "excerpt": "AEO vs SEO: Local businesses need both strategies. Learn the differences, why AI-driven search changes visibility, and actionable tactics to dominate your market in 2025.",
+    "category": "Competitive Intelligence",
+    "author": "The Answer Engine Team",
+    "readTime": "8 min",
+    "image": "/blog/aeo-vs-seo-local-business-guide/hero",
+    "publishDate": "2026-03-08",
+    "lastModified": "2026-03-08",
+    "featured": false,
+    "tags": [
+      "AEO",
+      "SEO",
+      "Answer Engine Optimization",
+      "Local Business",
+      "Digital Marketing",
+      "AI Search",
+      "Content Strategy",
+      "Local SEO",
+      "ChatGPT",
+      "Google AI Overviews"
+    ]
+  },
+  {
+    "id": 26,
+    "title": "Google AI Overviews Replacing Search: What You Need to Know",
+    "slug": "google-ai-overviews-replacing-search",
+    "excerpt": "Google AI Overviews now appear in 60% of searches, fundamentally changing how users discover information. Learn why they're replacing traditional results and how to adapt.",
+    "category": "AEO Education",
+    "author": "The Answer Engine Team",
+    "readTime": "8 min",
+    "image": "/blog/google-ai-overviews-replacing-search/hero",
+    "publishDate": "2026-03-08",
+    "lastModified": "2026-03-08",
+    "featured": false,
+    "tags": [
+      "AEO",
+      "AI Overviews",
+      "Google Search",
+      "Generative Engine Optimization",
+      "SEO Strategy",
+      "AI Citations",
+      "Search Visibility",
+      "Zero-Click Searches",
+      "Digital Marketing",
+      "Content Strategy"
+    ]
   }
 ]

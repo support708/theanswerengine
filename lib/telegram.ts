@@ -5,6 +5,7 @@
  */
 
 import type { Lead } from './types';
+import type { BlogSession } from './blog-types';
 import { getAERO7Grade } from './aero7-scorer';
 
 const TELEGRAM_API = 'https://api.telegram.org/bot';
@@ -163,4 +164,31 @@ export async function notifyHuntComplete(session: {
     outreachLine +
     errorLine
   );
+}
+
+export async function notifyBlogPublished(session: BlogSession): Promise<void> {
+  const totalTokens = session.researchTokens + session.generationTokens + session.auditTokens;
+  const estCost = (
+    (session.researchTokens * 0.000003) + // Haiku avg
+    (session.generationTokens * 0.000009) + // Sonnet avg
+    (session.auditTokens * 0.000003) // Haiku avg
+  ).toFixed(3);
+
+  if (session.published) {
+    await sendMessage(
+      `<b>Blog Published</b> | ${session.topicTitle}\n\n` +
+      `Score: ${session.auditScore}/100\n` +
+      `Tokens: ${totalTokens.toLocaleString()} | Est. cost: $${estCost}\n` +
+      `Trigger: ${session.trigger}\n\n` +
+      `https://theanswerengine.ai/blog/${session.slug}`
+    );
+  } else {
+    const reason = session.error || 'Unknown error';
+    await sendMessage(
+      `<b>Blog FAILED</b> | ${session.topicTitle}\n\n` +
+      `Score: ${session.auditScore}/100\n` +
+      `Error: ${reason.slice(0, 200)}\n` +
+      `Trigger: ${session.trigger}`
+    );
+  }
 }
