@@ -13,7 +13,7 @@ import { runFabricationScan, runEmDashScan, stripEmDashes } from '@/lib/fabricat
 import { buildEmailSubject, buildEmailBody, buildHtmlEmailBody } from '@/lib/gmail';
 import { sendGmailMessage, isGmailConfigured } from '@/lib/gmail-api';
 import { canSendToday, logSend } from '@/lib/email-scheduler';
-import { notifyPipelineFailure } from '@/lib/telegram';
+import { notifyPipelineFailure, sendMessage } from '@/lib/telegram';
 import { deployReport, isDeployConfigured } from '@/lib/deploy';
 import type { ResearchResults } from '@/lib/types';
 import { promises as fs } from 'fs';
@@ -448,52 +448,107 @@ Generate the complete HTML now.`;
       if (!sendStatus.allowed) {
         result.email = `rate_limited (${sendStatus.sent}/${sendStatus.limit} today)`;
       } else {
-        const subject = buildEmailSubject(currentLead);
-        const body = buildEmailBody(currentLead);
-        const htmlBody = buildHtmlEmailBody(currentLead);
+        // Verify report is live before sending email (prevents 404 links)
+        if (!currentLead.reportSlug) {
+          result.email = 'skipped (no report slug)';
+          return result;
+        }
+        const reportUrl = `https://theanswerengine.ai/blindspot/${currentLead.reportSlug}`;
+        const reportLive = await waitForReportLive(currentLead.reportSlug);
+        if (!reportLive) {
+          result.email = 'skipped (report not live yet, will retry next cron)';
+        } else {
+          const subject = buildEmailSubject(currentLead);
+          const body = buildEmailBody(currentLead);
+          const htmlBody = buildHtmlEmailBody(currentLead);
 
-        let sent = false;
-        let messageId = '';
+          let sent = false;
+          let messageId = '';
 
-        if (isGmailConfigured()) {
-          try {
-            const gmailResult = await sendGmailMessage({
-              to: currentLead.contactEmail,
-              subject,
-              body,
-              htmlBody,
-            });
-            if (gmailResult) {
-              sent = true;
-              messageId = gmailResult.messageId;
+          if (isGmailConfigured()) {
+            try {
+              const gmailResult = await sendGmailMessage({
+                to: currentLead.contactEmail,
+                subject,
+                body,
+                htmlBody,
+              });
+              if (gmailResult) {
+                sent = true;
+                messageId = gmailResult.messageId;
+              }
+            } catch (error) {
+              console.error('Gmail send failed:', error);
             }
-          } catch (error) {
-            console.error('Gmail send failed:', error);
           }
+
+          const newStatus = sent ? 'sent' : 'email_drafted';
+          await updateLead(leadId, {
+            status: newStatus,
+            actionLog: [
+              ...currentLead.actionLog,
+              {
+                action: sent
+                  ? `Initial email auto-sent via Gmail (${messageId})`
+                  : 'Email send failed, saved as draft',
+                timestamp: new Date().toISOString(),
+              },
+            ],
+          });
+
+          if (sent) {
+            await logSend(currentLead.id, currentLead.contactEmail, 'initial');
+            // Notify: email successfully sent for this lead
+            try {
+              await sendMessage(
+                `<b>Email Sent</b>\n` +
+                `${currentLead.businessName} (${currentLead.contactFirstName})\n` +
+                `To: ${currentLead.contactEmail}\n` +
+                `Report: ${reportUrl}`,
+              );
+            } catch {
+              // Silent — email was sent, notification is secondary
+            }
+          }
+
+          result.email = { to: currentLead.contactEmail, subject, sent };
         }
-
-        const newStatus = sent ? 'sent' : 'email_drafted';
-        await updateLead(leadId, {
-          status: newStatus,
-          actionLog: [
-            ...currentLead.actionLog,
-            {
-              action: sent
-                ? `Initial email auto-sent via Gmail (${messageId})`
-                : 'Email send failed, saved as draft',
-              timestamp: new Date().toISOString(),
-            },
-          ],
-        });
-
-        if (sent) {
-          await logSend(currentLead.id, currentLead.contactEmail, 'initial');
-        }
-
-        result.email = { to: currentLead.contactEmail, subject, sent };
       }
     }
   }
 
   return result;
+}
+
+/**
+ * Wait for the report page and OG image to be live on production.
+ * Checks every 15s for up to 90s (6 attempts) after deploy.
+ * Returns true if both the report page and OG image return 200.
+ */
+async function waitForReportLive(slug: string): Promise<boolean> {
+  const reportUrl = `https://theanswerengine.ai/blindspot/${slug}`;
+  const ogUrl = `https://theanswerengine.ai/api/og/${slug}`;
+  const MAX_CHECKS = 6;
+  const INTERVAL = 15_000; // 15 seconds
+
+  for (let i = 0; i < MAX_CHECKS; i++) {
+    try {
+      const [reportRes, ogRes] = await Promise.all([
+        fetch(reportUrl, { method: 'HEAD', redirect: 'follow' }),
+        fetch(ogUrl, { method: 'HEAD', redirect: 'follow' }),
+      ]);
+
+      if (reportRes.ok && ogRes.ok) {
+        return true;
+      }
+    } catch {
+      // Network error — keep trying
+    }
+
+    if (i < MAX_CHECKS - 1) {
+      await new Promise(r => setTimeout(r, INTERVAL));
+    }
+  }
+
+  return false;
 }
