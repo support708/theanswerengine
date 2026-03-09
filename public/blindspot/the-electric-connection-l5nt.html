@@ -1,0 +1,770 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Blind Spot Report | The Electric Connection | The Answer Engine</title>
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    background: #f8f8f6;
+    color: #1a1a2e;
+    line-height: 1.6;
+  }
+
+  a { color: inherit; text-decoration: none; }
+
+  /* ── HERO ── */
+  .hero {
+    background: linear-gradient(135deg, #0a0a1a 0%, #1a2744 100%);
+    padding: 60px 24px 70px;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .hero::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: radial-gradient(ellipse at 70% 30%, rgba(255,106,0,0.12) 0%, transparent 60%);
+    pointer-events: none;
+  }
+
+  .logo-badge {
+    display: inline-block;
+    background: rgba(255,106,0,0.15);
+    border: 1px solid rgba(255,106,0,0.4);
+    color: #FF6A00;
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 2.5px;
+    text-transform: uppercase;
+    padding: 6px 16px;
+    border-radius: 20px;
+    margin-bottom: 32px;
+  }
+
+  .hero h1 {
+    font-size: clamp(28px, 5vw, 52px);
+    font-weight: 800;
+    color: #ffffff;
+    line-height: 1.15;
+    max-width: 780px;
+    margin: 0 auto 20px;
+    letter-spacing: -0.5px;
+  }
+
+  .hero h1 span { color: #FF6A00; }
+
+  .hero-sub {
+    font-size: clamp(15px, 2vw, 18px);
+    color: rgba(255,255,255,0.65);
+    max-width: 560px;
+    margin: 0 auto 0;
+  }
+
+  .hero-divider {
+    width: 60px;
+    height: 3px;
+    background: #FF6A00;
+    margin: 28px auto 0;
+    border-radius: 2px;
+  }
+
+  /* ── SECTION WRAPPERS ── */
+  .section {
+    padding: 60px 24px;
+    max-width: 960px;
+    margin: 0 auto;
+  }
+
+  .section-dark {
+    background: #1a2744;
+    color: #ffffff;
+    padding: 60px 24px;
+  }
+
+  .section-dark .inner {
+    max-width: 960px;
+    margin: 0 auto;
+  }
+
+  .section-label {
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 2.5px;
+    text-transform: uppercase;
+    color: #FF6A00;
+    margin-bottom: 12px;
+  }
+
+  .section-title {
+    font-size: clamp(22px, 3.5vw, 36px);
+    font-weight: 800;
+    line-height: 1.2;
+    margin-bottom: 12px;
+  }
+
+  .section-sub {
+    font-size: 16px;
+    color: rgba(255,255,255,0.65);
+    max-width: 580px;
+    margin-bottom: 40px;
+  }
+
+  .section-sub-dark {
+    font-size: 16px;
+    color: #555;
+    max-width: 580px;
+    margin-bottom: 40px;
+  }
+
+  /* ── GAP STATS ── */
+  .stats-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 20px;
+    margin-bottom: 32px;
+  }
+
+  .stat-card {
+    background: #ffffff;
+    border-radius: 14px;
+    padding: 28px 22px;
+    text-align: center;
+    box-shadow: 0 2px 16px rgba(0,0,0,0.07);
+    border-top: 4px solid #FF6A00;
+    position: relative;
+  }
+
+  .stat-number {
+    font-size: clamp(32px, 5vw, 48px);
+    font-weight: 900;
+    color: #1a2744;
+    line-height: 1;
+    margin-bottom: 6px;
+  }
+
+  .stat-number span { color: #FF6A00; }
+
+  .stat-label {
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    color: #888;
+  }
+
+  .stat-note {
+    font-size: 12px;
+    color: #aaa;
+    margin-top: 6px;
+  }
+
+  /* AERO Score */
+  .aero-box {
+    background: #1a2744;
+    border-radius: 14px;
+    padding: 32px 28px;
+    display: flex;
+    align-items: center;
+    gap: 28px;
+    flex-wrap: wrap;
+  }
+
+  .aero-circle {
+    flex-shrink: 0;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 6px solid #FF6A00;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: rgba(255,106,0,0.08);
+  }
+
+  .aero-num {
+    font-size: 30px;
+    font-weight: 900;
+    color: #ffffff;
+    line-height: 1;
+  }
+
+  .aero-denom {
+    font-size: 12px;
+    color: rgba(255,255,255,0.5);
+    font-weight: 600;
+  }
+
+  .aero-text h3 {
+    font-size: 20px;
+    font-weight: 800;
+    color: #ffffff;
+    margin-bottom: 8px;
+  }
+
+  .aero-text p {
+    font-size: 14px;
+    color: rgba(255,255,255,0.65);
+    max-width: 480px;
+  }
+
+  .score-bar-wrap {
+    width: 100%;
+    background: rgba(255,255,255,0.12);
+    border-radius: 8px;
+    height: 10px;
+    margin-top: 14px;
+    overflow: hidden;
+  }
+
+  .score-bar-fill {
+    height: 100%;
+    width: 64%;
+    background: linear-gradient(90deg, #FF6A00, #ff9a00);
+    border-radius: 8px;
+  }
+
+  .credentials-strip {
+    background: #ffffff;
+    border-radius: 14px;
+    padding: 24px 28px;
+    box-shadow: 0 2px 16px rgba(0,0,0,0.07);
+    margin-top: 20px;
+  }
+
+  .credentials-strip h4 {
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    color: #FF6A00;
+    margin-bottom: 14px;
+  }
+
+  .cred-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+
+  .cred-pill {
+    background: #f0f4ff;
+    border: 1px solid #d0d8f0;
+    color: #1a2744;
+    font-size: 12px;
+    font-weight: 600;
+    padding: 6px 14px;
+    border-radius: 20px;
+  }
+
+  /* ── TERMINAL ── */
+  .terminal-wrap {
+    background: #0d1117;
+    border-radius: 14px;
+    overflow: hidden;
+    box-shadow: 0 8px 40px rgba(0,0,0,0.35);
+    max-width: 720px;
+    margin: 0 auto;
+  }
+
+  .terminal-bar {
+    background: #1c1c1e;
+    padding: 12px 16px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+
+  .dot { width: 12px; height: 12px; border-radius: 50%; }
+  .dot-r { background: #ff5f56; }
+  .dot-y { background: #ffbd2e; }
+  .dot-g { background: #27c93f; }
+
+  .terminal-label {
+    margin-left: 10px;
+    font-size: 12px;
+    color: rgba(255,255,255,0.4);
+    font-family: "SF Mono", "Fira Code", monospace;
+  }
+
+  .terminal-body {
+    padding: 28px;
+    font-family: "SF Mono", "Fira Code", "Courier New", monospace;
+    font-size: 13px;
+    line-height: 1.8;
+  }
+
+  .t-prompt { color: #4ade80; }
+  .t-question { color: #e2e8f0; }
+  .t-thinking { color: rgba(255,255,255,0.35); font-style: italic; }
+  .t-ai-label { color: #60a5fa; font-weight: 700; }
+  .t-response { color: #e2e8f0; }
+  .t-highlight { color: #FF6A00; font-weight: 700; }
+  .t-missing { color: #f87171; }
+  .t-line { margin-bottom: 4px; }
+  .t-gap { margin-bottom: 16px; }
+
+  /* ── DIFFERENTIATORS ── */
+  .diff-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 20px;
+  }
+
+  .diff-card {
+    background: #ffffff;
+    border-radius: 14px;
+    padding: 28px 24px;
+    box-shadow: 0 2px 16px rgba(0,0,0,0.07);
+    border-left: 4px solid #FF6A00;
+    transition: transform 0.2s;
+  }
+
+  .diff-card:hover { transform: translateY(-3px); }
+
+  .diff-icon {
+    font-size: 28px;
+    margin-bottom: 14px;
+    display: block;
+  }
+
+  .diff-card h3 {
+    font-size: 16px;
+    font-weight: 800;
+    color: #1a2744;
+    margin-bottom: 8px;
+  }
+
+  .diff-card p {
+    font-size: 14px;
+    color: #555;
+    line-height: 1.6;
+  }
+
+  /* ── THE FIX ── */
+  .fix-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+  }
+
+  .fix-card {
+    background: rgba(255,255,255,0.07);
+    border: 1px solid rgba(255,255,255,0.12);
+    border-radius: 14px;
+    padding: 28px 22px;
+    text-align: center;
+    transition: background 0.2s;
+  }
+
+  .fix-card:hover { background: rgba(255,106,0,0.1); }
+
+  .fix-step {
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #FF6A00;
+    margin-bottom: 12px;
+  }
+
+  .fix-icon {
+    font-size: 32px;
+    margin-bottom: 14px;
+    display: block;
+  }
+
+  .fix-card h3 {
+    font-size: 15px;
+    font-weight: 800;
+    color: #ffffff;
+    margin-bottom: 10px;
+  }
+
+  .fix-card p {
+    font-size: 13px;
+    color: rgba(255,255,255,0.6);
+    line-height: 1.6;
+  }
+
+  /* ── ALERT BOX ── */
+  .alert-box {
+    background: rgba(255,106,0,0.08);
+    border: 1px solid rgba(255,106,0,0.3);
+    border-radius: 12px;
+    padding: 20px 24px;
+    margin-bottom: 40px;
+    display: flex;
+    align-items: flex-start;
+    gap: 14px;
+  }
+
+  .alert-icon { font-size: 22px; flex-shrink: 0; margin-top: 2px; }
+
+  .alert-box p {
+    font-size: 14px;
+    color: rgba(255,255,255,0.85);
+    line-height: 1.6;
+  }
+
+  .alert-box strong { color: #FF6A00; }
+
+  /* ── CTA ── */
+  .cta-section {
+    background: linear-gradient(135deg, #0a0a1a 0%, #1a2744 100%);
+    padding: 80px 24px;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .cta-section::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: radial-gradient(ellipse at 30% 70%, rgba(255,106,0,0.15) 0%, transparent 60%);
+    pointer-events: none;
+  }
+
+  .cta-section h2 {
+    font-size: clamp(26px, 4vw, 42px);
+    font-weight: 900;
+    color: #ffffff;
+    line-height: 1.2;
+    margin-bottom: 16px;
+    position: relative;
+  }
+
+  .cta-section h2 span { color: #FF6A00; }
+
+  .cta-section p {
+    font-size: 16px;
+    color: rgba(255,255,255,0.65);
+    max-width: 520px;
+    margin: 0 auto 36px;
+    position: relative;
+  }
+
+  .cta-btn {
+    display: inline-block;
+    background: #FF6A00;
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: 800;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    padding: 18px 44px;
+    border-radius: 50px;
+    position: relative;
+    transition: transform 0.2s, box-shadow 0.2s;
+    box-shadow: 0 6px 30px rgba(255,106,0,0.45);
+  }
+
+  .cta-btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 10px 40px rgba(255,106,0,0.55);
+  }
+
+  .cta-note {
+    margin-top: 20px;
+    font-size: 13px;
+    color: rgba(255,255,255,0.4);
+    position: relative;
+  }
+
+  /* ── FOOTER ── */
+  footer {
+    background: #0a0a1a;
+    padding: 28px 24px;
+    text-align: center;
+  }
+
+  footer p {
+    font-size: 12px;
+    color: rgba(255,255,255,0.35);
+    line-height: 1.7;
+  }
+
+  footer a {
+    color: rgba(255,106,0,0.7);
+    text-decoration: underline;
+  }
+
+  /* ── DIVIDER ── */
+  .orange-bar {
+    width: 48px;
+    height: 4px;
+    background: #FF6A00;
+    border-radius: 2px;
+    margin-bottom: 24px;
+  }
+
+  /* ── RESPONSIVE ── */
+  @media (max-width: 600px) {
+    .aero-box { flex-direction: column; text-align: center; }
+    .terminal-body { padding: 18px; font-size: 12px; }
+    .stats-grid { grid-template-columns: repeat(2, 1fr); }
+  }
+</style>
+</head>
+<body>
+
+<!-- ═══════════════════════════════════════
+     SECTION 1: THE HOOK
+═══════════════════════════════════════ -->
+<section class="hero">
+  <div class="logo-badge">The Answer Engine &bull; Blind Spot Report</div>
+  <h1>Kim, You Have a<br><span>Visibility Problem.</span></h1>
+  <p class="hero-sub">
+    The Electric Connection has 47 years of trust, 392 five-star reviews, and a lifetime guarantee. But when someone in Los Angeles asks an AI assistant who to call for an electrician, your name does not come up.
+  </p>
+  <div class="hero-divider"></div>
+</section>
+
+
+<!-- ═══════════════════════════════════════
+     SECTION 2: THE GAP
+═══════════════════════════════════════ -->
+<section class="section">
+  <div class="section-label">Section 02, The Gap</div>
+  <div class="section-title" style="color:#1a2744;">Your Proof Is Real. Your AI Presence Is Not.</div>
+  <p class="section-sub-dark">
+    On paper, The Electric Connection is one of the most credentialed electricians in Los Angeles. In the AI layer, that proof is invisible. Here is what the data shows.
+  </p>
+
+  <div class="stats-grid">
+    <div class="stat-card">
+      <div class="stat-number">392</div>
+      <div class="stat-label">Google Reviews</div>
+      <div class="stat-note">4.8 star average</div>
+    </div>
+    <div class="stat-card">
+      <div class="stat-number">47<span>yr</span></div>
+      <div class="stat-label">Years in Business</div>
+      <div class="stat-note">Founded 1979</div>
+    </div>
+    <div class="stat-card">
+      <div class="stat-number">A<span>+</span></div>
+      <div class="stat-label">BBB Rating</div>
+      <div class="stat-note">Accredited Business</div>
+    </div>
+    <div class="stat-card">
+      <div class="stat-number">30<span>+</span></div>
+      <div class="stat-label">Certified Employees</div>
+      <div class="stat-note">Fully staffed vans</div>
+    </div>
+  </div>
+
+  <div class="aero-box">
+    <div class="aero-circle">
+      <div class="aero-num">64</div>
+      <div class="aero-denom">/ 100</div>
+    </div>
+    <div class="aero-text" style="flex:1;">
+      <h3>Your AERO-10 Score: 64 out of 100</h3>
+      <p>The AERO-10 measures how well your business is structured for AI discovery. A score of 64 means AI engines are finding partial signals but missing the structured, authoritative content they need to confidently recommend you over competitors like Powell Electric.</p>
+      <div class="score-bar-wrap">
+        <div class="score-bar-fill"></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="credentials-strip">
+    <h4>Verified Credentials and Awards</h4>
+    <div class="cred-list">
+      <span class="cred-pill">Licensed C10 406002</span>
+      <span class="cred-pill">Fully Bonded and Insured</span>
+      <span class="cred-pill">BBB A+ Accredited</span>
+      <span class="cred-pill">Angie's List Super Service Award (Since 2005)</span>
+      <span class="cred-pill">ThreeBestRated Top 3 in LA</span>
+      <span class="cred-pill">H.A.S. Electric, Inc. DBA</span>
+      <span class="cred-pill">Nextdoor Recommended</span>
+    </div>
+  </div>
+</section>
+
+
+<!-- ═══════════════════════════════════════
+     SECTION 3: WHAT AI SEES
+═══════════════════════════════════════ -->
+<div class="section-dark">
+  <div class="inner">
+    <div class="section-label">Section 03, What AI Sees</div>
+    <div class="section-title">When Customers Ask AI, Your Competitor Answers.</div>
+    <p class="section-sub">
+      Here is a simulation of what happens when a Los Angeles homeowner asks an AI assistant for an electrician recommendation right now.
+    </p>
+
+    <div class="alert-box">
+      <div class="alert-icon">&#9888;</div>
+      <p><strong>AI Citation Status: Not Cited.</strong> The Electric Connection does not currently appear in AI-generated responses for Los Angeles electrician queries despite outranking competitors on trust signals, tenure, and verified credentials.</p>
+    </div>
+
+    <div class="terminal-wrap">
+      <div class="terminal-bar">
+        <div class="dot dot-r"></div>
+        <div class="dot dot-y"></div>
+        <div class="dot dot-g"></div>
+        <span class="terminal-label">AI Assistant, Los Angeles Electrician Query</span>
+      </div>
+      <div class="terminal-body">
+        <div class="t-line t-gap">
+          <span class="t-prompt">User &gt; </span>
+          <span class="t-question">Who are the best residential electricians in Los Angeles? I need someone reliable with experience.</span>
+        </div>
+        <div class="t-line">
+          <span class="t-thinking">&#9679; AI is generating a response...</span>
+        </div>
+        <br>
+        <div class="t-line">
+          <span class="t-ai-label">AI Assistant:</span>
+        </div>
+        <div class="t-line t-gap">
+          <span class="t-response">Here are some well-regarded electricians in Los Angeles based on available information:</span>
+        </div>
+        <div class="t-line">
+          <span class="t-highlight">1. Powell Electric</span>
+          <span class="t-response">, frequently mentioned for residential work in the LA area...</span>
+        </div>
+        <div class="t-line t-gap">
+          <span class="t-response">2. [Other competitor], notable for commercial projects...</span>
+        </div>
+        <div class="t-line t-gap">
+          <span class="t-missing">&#10007; The Electric Connection, NOT mentioned.</span>
+        </div>
+        <div class="t-line" style="color:rgba(255,255,255,0.3); font-size:11px;">
+         , Despite: 47 years operating, 392 reviews at 4.8 stars, BBB A+ rating, lifetime guarantee, and 18+ consecutive Angie's List awards. AI lacks structured signals to surface this business.
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<!-- ═══════════════════════════════════════
+     SECTION 4: HIDDEN DIFFERENTIATORS
+═══════════════════════════════════════ -->
+<section class="section">
+  <div class="section-label">Section 04, Hidden Differentiators</div>
+  <div class="section-title" style="color:#1a2744;">What Makes You Different Is Not Being Communicated to AI.</div>
+  <p class="section-sub-dark">
+    These genuine competitive advantages exist. They are simply not structured in a way that AI engines can find, parse, and cite with confidence.
+  </p>
+
+  <div class="diff-grid">
+    <div class="diff-card">
+      <span class="diff-icon">&#127981;</span>
+      <h3>47 Years of Founder-Led Operation</h3>
+      <p>Kim Hopkins founded The Electric Connection in 1979 and remains personally involved today. That continuity of leadership and accountability is rare in the trades and nearly impossible for AI to discover without structured content explicitly stating it.</p>
+    </div>
+
+    <div class="diff-card">
+      <span class="diff-icon">&#9679;&#9679;&#9679;</span>
+      <h3>Lifetime Guarantee on All Work</h3>
+      <p>Few electricians in any market offer a lifetime guarantee. This is a concrete, verifiable differentiator that should appear in structured FAQ content, schema markup, and service page copy so AI can cite it as a trust signal.</p>
+    </div>
+
+    <div class="diff-card">
+      <span class="diff-icon">&#128663;</span>
+      <h3>Fully Equipped Vans for One-Trip Completion</h3>
+      <p>Every van is stocked to complete most jobs in a single visit. This speaks directly to the customer pain point of wasted time and repeat scheduling. It is a specific operational detail that differentiates you but does not appear in AI-readable formats.</p>
+    </div>
+
+    <div class="diff-card">
+      <span class="diff-icon">&#128267;</span>
+      <h3>EV Charger Installation Specialization</h3>
+      <p>The Electric Connection has expanded into EV charger installation, capturing a fast-growing residential demand in Los Angeles. This service line deserves its own structured content and entity signals to capture AI queries from EV owners.</p>
+    </div>
+
+    <div class="diff-card">
+      <span class="diff-icon">&#128220;</span>
+      <h3>63+ Page Educational Blog Library</h3>
+      <p>A substantial library of electrical tips and guides demonstrates expertise and generates topical authority. With proper Answer-First structuring, this content could directly feed AI responses and establish The Electric Connection as the default cited source.</p>
+    </div>
+
+    <div class="diff-card">
+      <span class="diff-icon">&#128222;</span>
+      <h3>Free Phone Estimates with Real Electricians</h3>
+      <p>Prospective customers can speak with an in-office electrician before committing. This transparent, no-pressure approach is a genuine differentiator. Structured content around this policy would help AI surface it when users ask about "how to find a trustworthy electrician."</p>
+    </div>
+  </div>
+</section>
+
+
+<!-- ═══════════════════════════════════════
+     SECTION 5: THE FIX
+═══════════════════════════════════════ -->
+<div class="section-dark">
+  <div class="inner">
+    <div class="section-label">Section 05, The Fix</div>
+    <div class="section-title">Four Moves That Put You on AI's Radar.</div>
+    <p class="section-sub">
+      This is not about redesigning your website or starting from scratch. It is about restructuring what you already have so AI engines can read, trust, and cite it.
+    </p>
+
+    <div class="fix-grid">
+      <div class="fix-card">
+        <div class="fix-step">Step 01</div>
+        <span class="fix-icon">&#128172;</span>
+        <h3>Answer-First Content</h3>
+        <p>Reframe your existing blog and service pages so each one leads with a direct, concise answer to a real customer question. AI engines extract and cite answers, not marketing copy.</p>
+      </div>
+
+      <div class="fix-card">
+        <div class="fix-step">Step 02</div>
+        <span class="fix-icon">&#128196;</span>
+        <h3>Schema Markup</h3>
+        <p>Implement structured data for your business entity, reviews, services, credentials, and FAQs. Schema is how you hand AI the exact facts it needs to surface you in responses.</p>
+      </div>
+
+      <div class="fix-card">
+        <div class="fix-step">Step 03</div>
+        <span class="fix-icon">&#127968;</span>
+        <h3>Entity Authority</h3>
+        <p>Establish The Electric Connection as a named, consistent entity across authoritative sources. Your 47-year history, founder name, license number, and awards should all point to a single, coherent knowledge profile.</p>
+      </div>
+
+      <div class="fix-card">
+        <div class="fix-step">Step 04</div>
+        <span class="fix-icon">&#127942;</span>
+        <h3>Authority Signals</h3>
+        <p>Surface your Angie's List awards, BBB accreditation, ThreeBestRated recognition, and lifetime guarantee in machine-readable formats. AI needs these signals explicitly stated, not just implied.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<!-- ═══════════════════════════════════════
+     SECTION 6: CTA
+═══════════════════════════════════════ -->
+<section class="cta-section">
+  <h2>Kim, Let's Close the<br><span>AI Visibility Gap.</span></h2>
+  <p>
+    In 30 minutes, we will walk through exactly which changes would move The Electric Connection from invisible to cited in AI responses across Los Angeles.
+  </p>
+  <a class="cta-btn" href="https://calendly.com/theanswerengine-support/30min" target="_blank" rel="noopener">
+    Book a 30-Min Strategy Call
+  </a>
+  <div class="cta-note">No commitment required. Bring your questions.</div>
+</section>
+
+
+<!-- ═══════════════════════════════════════
+     FOOTER
+═══════════════════════════════════════ -->
+<footer>
+  <p>
+    This analysis uses publicly available information about The Electric Connection and reflects AI citation patterns observed at time of research.<br>
+    Questions? <a href="mailto:support@theanswerengine.ai">support@theanswerengine.ai</a>
+  </p>
+</footer>
+
+</body>
+</html>

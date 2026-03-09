@@ -725,8 +725,76 @@
     "reviewCount": 392,
     "rating": 4.8,
     "notes": "Auto-discovered by Lead Hunter. AI citation: not cited on 0/1 platforms. Competitors cited: Powell Electric, Prime Electric, East West Electric. Outreach-ready: YES (citation data + contact + differentiator verified). Differentiator: Operating since 1979 (47 years), Angie's List Super Service Award winner, 30-employee company, lifetime guarantee on all work",
-    "status": "queued",
-    "research": null,
+    "status": "report_ready",
+    "research": {
+      "reviewCount": 392,
+      "rating": 4.8,
+      "yearsInBusiness": 47,
+      "credentials": [
+        "Fully licensed, bonded, and insured",
+        "Licensed Electrical Contractor, License C10 406002",
+        "H.A.S. Electric, Inc. DBA",
+        "BBB A+ Rating",
+        "Angie's List Super Service Award (annually since 2005)"
+      ],
+      "awards": [
+        "Angie's List Super Service Award (multiple years, since 2005)",
+        "BBB A+ Accredited Business",
+        "ThreeBestRated.com Top 3 Electricians in Los Angeles"
+      ],
+      "communityInvolvement": [
+        "Nextdoor presence (Tujunga and Los Angeles neighborhoods)",
+        "Local community service since 1979",
+        "Featured in local electrician directories and ratings sites"
+      ],
+      "hiddenDifferentiators": [
+        "Operating since 1979 (47 years in business)",
+        "Founder Kim Hopkins maintains personal involvement and visible leadership",
+        "30-employee company with certified electricians",
+        "Lifetime guarantee on all electrical work",
+        "Free over-the-phone estimates with in-office electrician available",
+        "Fully equipped vans for one-trip job completion",
+        "Transparent upfront pricing with no surprise charges",
+        "EV charger installation specialization",
+        "Extensive blog content library (63+ pages of electrical tips)"
+      ],
+      "topCompetitors": [
+        {
+          "name": "Powell Electric",
+          "reason": "Primary competitor mentioned in research; 736 Yelp reviews, higher brand visibility in paid advertising (TV commercials), 56 years in business, 24/7 emergency service, but mixed customer perception on pricing fairness"
+        },
+        {
+          "name": "East West Electric",
+          "reason": "Mentioned as top-rated electrician on Yelp's best electricians list for Los Angeles; strong local reputation"
+        },
+        {
+          "name": "Prime Electric",
+          "reason": "Competitor mentioned in context; alternative provider for Los Angeles area electrical services"
+        }
+      ],
+      "faqContentPresent": true,
+      "blogPresent": true,
+      "gmbPresent": true,
+      "schemaDetected": false,
+      "recentContent": true,
+      "uniqueStory": "Founded in 1979 by Kim Hopkins, The Electric Connection grew from a solo operation into a 30-person licensed electrical contractor specializing in residential, commercial, and industrial work across Los Angeles and Orange County. The company differentiates through founder-led commitment to quality and customer treatment philosophy, lifetime guarantees, and evolution into modern services like EV charger installation.",
+      "aiCited": false,
+      "aero7": {
+        "answerQuality": 7,
+        "entityOptimization": 5,
+        "relevanceFreshness": 8,
+        "optimizationStructure": 6,
+        "voiceAuthenticity": 8,
+        "authoritySignals": 8,
+        "authorityDistribution": 7,
+        "consensusCoCitation": 6,
+        "platformReadiness": 5,
+        "technicalAccessibility": 4,
+        "total": 64
+      },
+      "rawNotes": "The Electric Connection maintains solid fundamentals: 392 Yelp reviews at 4.8 rating, consistent presence across Yelp, Google, Angi, BBB, and niche directories (ThreeBestRated, HomeAdvisor). However, the company faces specific optimization gaps: (1) No structured schema markup detected despite rich content—missing LocalBusiness, AggregateRating, Organization schemas. (2) Blog content (63+ pages) drives topical authority but appears orphaned with limited internal linking strategy. (3) NAP consistency issues: Two Yelp listings (Robertson Blvd in Los Angeles vs Commerce Ave in Tujunga), Tujunga office listed as main in website copy but Los Angeles address on business cards/GMB. (4) AI visibility severely limited: Not cited on ChatGPT, Gemini, Perplexity, or Claude for 'best electrician Los Angeles' queries; Powell Electric dominates these placements. (5) robots.txt: No evidence of blocking AI training bots (ClaudeBot, GPTBot), suggesting openness but minimal strategic optimization for AI crawlers. (6) LinkedIn presence minimal (131 followers, inactive posting). (7) Established reputation (47 years, A+ BBB, annual Angie's awards, 300+ A-ratings on Angie's List per company claims) but unable to convert into AI-powered search visibility. (8) Website updates recent (September 2025) but stale content on some pages (reviews from 2021-2022). (9) Platform readiness: Homepage Q&A moderation on Yelp shows responsiveness, but no FAQ schema or structured FAQ implementation. (10) Technical debt: Multiple phone numbers (5 variations), address variations (Robertson, Tujunga), outdated employee count discrepancies (25 vs 30) create data consistency friction for AI systems. Competitive positioning: Powell Electric achieved higher visibility through TV advertising, 24/7 emergency positioning, and superior robots.txt/schema implementation. Recommendation: Implement comprehensive schema markup (Organization, LocalBusiness, AggregateRating, BreadcrumbList), consolidate NAP across all platforms, create FAQ schema page, establish AI readiness strategy (allow search crawlers while blocking training bots), and develop structured internal linking for blog content to drive topical clustering.",
+      "researchedAt": "2026-03-09T05:32:09.164Z"
+    },
     "reportSlug": "the-electric-connection-l5nt",
     "emailDraftId": null,
     "fabricationFlags": [],
@@ -735,10 +803,38 @@
       {
         "action": "Queued by Lead Hunter (P2, score: 33.5, outreach-ready: true)",
         "timestamp": "2026-03-09T02:13:45.366Z"
+      },
+      {
+        "action": "Research started (auto-pipeline)",
+        "timestamp": "2026-03-09T05:31:41.492Z"
+      },
+      {
+        "action": "Research completed (AERO-10: 64/100)",
+        "timestamp": "2026-03-09T05:32:09.164Z"
+      },
+      {
+        "action": "Report generation started",
+        "timestamp": "2026-03-09T05:32:09.164Z"
+      },
+      {
+        "action": "Report generated",
+        "timestamp": "2026-03-09T05:33:49.200Z"
+      },
+      {
+        "action": "Fabrication scan: CLEAN",
+        "timestamp": "2026-03-09T05:33:49.200Z"
+      },
+      {
+        "action": "Em-dash scan: 9 found, auto-stripped",
+        "timestamp": "2026-03-09T05:33:49.200Z"
+      },
+      {
+        "action": "Report + OG metadata deployed to production",
+        "timestamp": "2026-03-09T05:33:49.289Z"
       }
     ],
     "createdAt": "2026-03-09T02:13:45.366Z",
-    "updatedAt": "2026-03-09T02:13:45.366Z",
+    "updatedAt": "2026-03-09T05:33:49.200Z",
     "huntSource": "hunt_1773022316078_kn4h",
     "huntScore": 33.5,
     "huntPriority": "P2",
