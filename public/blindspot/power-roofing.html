@@ -1,0 +1,801 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Blind Spot Report | Power Roofing | The Answer Engine</title>
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    background: #f8f8f6;
+    color: #1a1a2e;
+    line-height: 1.6;
+  }
+
+  /* HERO */
+  .hero {
+    background: linear-gradient(135deg, #0a0a1a 0%, #1a2744 100%);
+    padding: 60px 24px 70px;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+  }
+  .hero::before {
+    content: '';
+    position: absolute;
+    top: -80px; left: 50%;
+    transform: translateX(-50%);
+    width: 600px; height: 600px;
+    background: radial-gradient(circle, rgba(255,106,0,0.12) 0%, transparent 70%);
+    pointer-events: none;
+  }
+  .logo-badge {
+    display: inline-block;
+    background: rgba(255,106,0,0.15);
+    border: 1px solid rgba(255,106,0,0.4);
+    color: #FF6A00;
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 2.5px;
+    text-transform: uppercase;
+    padding: 6px 16px;
+    border-radius: 20px;
+    margin-bottom: 32px;
+  }
+  .hero h1 {
+    font-size: clamp(28px, 5vw, 52px);
+    font-weight: 900;
+    color: #ffffff;
+    line-height: 1.15;
+    max-width: 780px;
+    margin: 0 auto 20px;
+    letter-spacing: -0.5px;
+  }
+  .hero h1 span { color: #FF6A00; }
+  .hero p {
+    color: rgba(255,255,255,0.65);
+    font-size: clamp(15px, 2.5vw, 18px);
+    max-width: 560px;
+    margin: 0 auto 36px;
+  }
+  .hero-meta {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    flex-wrap: wrap;
+  }
+  .hero-meta-item {
+    color: rgba(255,255,255,0.5);
+    font-size: 13px;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+  }
+  .hero-meta-item span { color: #FF6A00; font-weight: 700; }
+
+  /* SECTION WRAPPER */
+  .section {
+    padding: 64px 24px;
+    max-width: 1060px;
+    margin: 0 auto;
+  }
+  .section-label {
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: #FF6A00;
+    margin-bottom: 12px;
+  }
+  .section-title {
+    font-size: clamp(22px, 4vw, 36px);
+    font-weight: 800;
+    color: #0a0a1a;
+    line-height: 1.2;
+    margin-bottom: 16px;
+  }
+  .section-subtitle {
+    font-size: clamp(15px, 2vw, 17px);
+    color: #555;
+    max-width: 620px;
+    margin-bottom: 40px;
+  }
+
+  /* GAP / STATS PANEL */
+  .gap-section {
+    background: #1a2744;
+    padding: 64px 24px;
+  }
+  .gap-inner {
+    max-width: 1060px;
+    margin: 0 auto;
+  }
+  .gap-section .section-label { color: #FF6A00; }
+  .gap-section .section-title { color: #fff; }
+  .gap-section .section-subtitle { color: rgba(255,255,255,0.6); }
+
+  .stats-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    margin-bottom: 40px;
+  }
+  .stat-card {
+    background: rgba(255,255,255,0.06);
+    border: 1px solid rgba(255,255,255,0.1);
+    border-radius: 14px;
+    padding: 28px 24px;
+    text-align: center;
+  }
+  .stat-number {
+    font-size: clamp(36px, 5vw, 52px);
+    font-weight: 900;
+    color: #FF6A00;
+    line-height: 1;
+    margin-bottom: 6px;
+  }
+  .stat-label {
+    font-size: 13px;
+    color: rgba(255,255,255,0.55);
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+  }
+
+  .aero-wrapper {
+    background: rgba(255,106,0,0.08);
+    border: 1px solid rgba(255,106,0,0.25);
+    border-radius: 16px;
+    padding: 32px;
+    display: flex;
+    align-items: center;
+    gap: 32px;
+    flex-wrap: wrap;
+  }
+  .aero-score-circle {
+    width: 110px;
+    height: 110px;
+    border-radius: 50%;
+    border: 4px solid #FF6A00;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    background: rgba(255,106,0,0.1);
+  }
+  .aero-score-circle .num {
+    font-size: 34px;
+    font-weight: 900;
+    color: #FF6A00;
+    line-height: 1;
+  }
+  .aero-score-circle .denom {
+    font-size: 13px;
+    color: rgba(255,255,255,0.5);
+  }
+  .aero-details { flex: 1; min-width: 220px; }
+  .aero-details h3 {
+    font-size: 18px;
+    font-weight: 800;
+    color: #fff;
+    margin-bottom: 8px;
+  }
+  .aero-details p {
+    font-size: 14px;
+    color: rgba(255,255,255,0.6);
+    line-height: 1.6;
+  }
+  .aero-bar-wrap { margin-top: 14px; }
+  .aero-bar-bg {
+    background: rgba(255,255,255,0.1);
+    border-radius: 8px;
+    height: 10px;
+    overflow: hidden;
+  }
+  .aero-bar-fill {
+    height: 100%;
+    width: 45%;
+    background: linear-gradient(90deg, #FF6A00, #ff9a50);
+    border-radius: 8px;
+    position: relative;
+  }
+
+  .credentials-row {
+    margin-top: 32px;
+  }
+  .credentials-row h3 {
+    font-size: 13px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: rgba(255,255,255,0.4);
+    margin-bottom: 14px;
+  }
+  .cred-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  .cred-tag {
+    background: rgba(255,255,255,0.07);
+    border: 1px solid rgba(255,255,255,0.12);
+    color: rgba(255,255,255,0.75);
+    font-size: 12px;
+    padding: 6px 14px;
+    border-radius: 20px;
+    font-weight: 500;
+  }
+
+  /* TERMINAL */
+  .terminal-wrap {
+    background: #0d0f1a;
+    border-radius: 16px;
+    overflow: hidden;
+    border: 1px solid rgba(255,255,255,0.08);
+    box-shadow: 0 24px 60px rgba(0,0,0,0.25);
+  }
+  .terminal-bar {
+    background: #1e1f2e;
+    padding: 12px 18px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    border-bottom: 1px solid rgba(255,255,255,0.06);
+  }
+  .t-dot {
+    width: 12px; height: 12px;
+    border-radius: 50%;
+    flex-shrink: 0;
+  }
+  .t-dot.red { background: #ff5f57; }
+  .t-dot.yellow { background: #febc2e; }
+  .t-dot.green { background: #28c840; }
+  .t-title {
+    font-size: 12px;
+    color: rgba(255,255,255,0.35);
+    margin-left: 8px;
+    font-family: monospace;
+  }
+  .terminal-body { padding: 28px; }
+  .t-query {
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
+    margin-bottom: 22px;
+  }
+  .t-icon {
+    width: 32px; height: 32px;
+    border-radius: 8px;
+    display: flex; align-items: center; justify-content: center;
+    font-size: 15px;
+    flex-shrink: 0;
+  }
+  .t-icon.user { background: rgba(255,106,0,0.2); }
+  .t-icon.ai { background: rgba(100,160,255,0.15); }
+  .t-bubble {
+    background: rgba(255,255,255,0.06);
+    border-radius: 12px;
+    padding: 14px 18px;
+    font-size: 14px;
+    color: rgba(255,255,255,0.8);
+    line-height: 1.6;
+    flex: 1;
+  }
+  .t-bubble.ai-response {
+    background: rgba(100,160,255,0.07);
+    border: 1px solid rgba(100,160,255,0.12);
+  }
+  .t-bubble .highlight-competitor {
+    color: #5db8ff;
+    font-weight: 700;
+  }
+  .t-bubble .missing {
+    color: #ff6a6a;
+    background: rgba(255,100,100,0.1);
+    border-radius: 4px;
+    padding: 0 4px;
+  }
+  .t-cursor {
+    display: inline-block;
+    width: 8px; height: 14px;
+    background: #FF6A00;
+    vertical-align: middle;
+    margin-left: 4px;
+    animation: blink 1s step-end infinite;
+  }
+  @keyframes blink { 0%,100%{opacity:1} 50%{opacity:0} }
+
+  .ai-label {
+    display: inline-block;
+    font-size: 10px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #5db8ff;
+    background: rgba(93,184,255,0.1);
+    border: 1px solid rgba(93,184,255,0.2);
+    border-radius: 4px;
+    padding: 2px 8px;
+    margin-bottom: 10px;
+  }
+
+  .not-cited-alert {
+    margin-top: 28px;
+    background: rgba(255,80,80,0.08);
+    border: 1px solid rgba(255,80,80,0.25);
+    border-radius: 12px;
+    padding: 20px 24px;
+    display: flex;
+    align-items: flex-start;
+    gap: 16px;
+  }
+  .alert-icon {
+    font-size: 24px;
+    flex-shrink: 0;
+    margin-top: 2px;
+  }
+  .alert-text h4 {
+    color: #ff6a6a;
+    font-size: 15px;
+    font-weight: 700;
+    margin-bottom: 4px;
+  }
+  .alert-text p {
+    color: rgba(255,255,255,0.55);
+    font-size: 13px;
+    line-height: 1.6;
+  }
+
+  /* DIFFERENTIATORS */
+  .diff-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 20px;
+  }
+  .diff-card {
+    background: #ffffff;
+    border-radius: 16px;
+    padding: 28px;
+    border: 1px solid rgba(0,0,0,0.07);
+    box-shadow: 0 4px 20px rgba(0,0,0,0.05);
+    position: relative;
+    overflow: hidden;
+  }
+  .diff-card::after {
+    content: '';
+    position: absolute;
+    top: 0; left: 0;
+    width: 4px; height: 100%;
+    background: #FF6A00;
+    border-radius: 4px 0 0 4px;
+  }
+  .diff-icon {
+    font-size: 28px;
+    margin-bottom: 14px;
+    display: block;
+  }
+  .diff-card h3 {
+    font-size: 16px;
+    font-weight: 800;
+    color: #0a0a1a;
+    margin-bottom: 8px;
+  }
+  .diff-card p {
+    font-size: 14px;
+    color: #666;
+    line-height: 1.65;
+  }
+  .diff-badge {
+    display: inline-block;
+    margin-top: 12px;
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #FF6A00;
+    background: rgba(255,106,0,0.1);
+    border-radius: 20px;
+    padding: 4px 12px;
+  }
+
+  /* THE FIX */
+  .fix-section {
+    background: #1a2744;
+    padding: 64px 24px;
+  }
+  .fix-inner { max-width: 1060px; margin: 0 auto; }
+  .fix-section .section-title { color: #fff; }
+  .fix-section .section-subtitle { color: rgba(255,255,255,0.6); }
+
+  .fix-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 20px;
+  }
+  .fix-card {
+    background: rgba(255,255,255,0.05);
+    border: 1px solid rgba(255,255,255,0.1);
+    border-radius: 16px;
+    padding: 28px 24px;
+    position: relative;
+  }
+  .fix-number {
+    font-size: 48px;
+    font-weight: 900;
+    color: rgba(255,106,0,0.15);
+    line-height: 1;
+    position: absolute;
+    top: 18px; right: 22px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  }
+  .fix-card-icon {
+    font-size: 26px;
+    margin-bottom: 14px;
+    display: block;
+  }
+  .fix-card h3 {
+    font-size: 15px;
+    font-weight: 800;
+    color: #fff;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+  }
+  .fix-card p {
+    font-size: 13px;
+    color: rgba(255,255,255,0.55);
+    line-height: 1.65;
+  }
+  .fix-card ul {
+    list-style: none;
+    margin-top: 12px;
+  }
+  .fix-card ul li {
+    font-size: 13px;
+    color: rgba(255,255,255,0.55);
+    padding: 4px 0;
+    padding-left: 16px;
+    position: relative;
+  }
+  .fix-card ul li::before {
+    content: '→';
+    position: absolute;
+    left: 0;
+    color: #FF6A00;
+    font-size: 12px;
+  }
+
+  /* CTA */
+  .cta-section {
+    padding: 72px 24px;
+    max-width: 1060px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  .cta-box {
+    background: linear-gradient(135deg, #0a0a1a 0%, #1a2744 100%);
+    border-radius: 24px;
+    padding: 60px 40px;
+    position: relative;
+    overflow: hidden;
+  }
+  .cta-box::before {
+    content: '';
+    position: absolute;
+    bottom: -100px; right: -100px;
+    width: 400px; height: 400px;
+    background: radial-gradient(circle, rgba(255,106,0,0.15) 0%, transparent 65%);
+    pointer-events: none;
+  }
+  .cta-box .section-label { color: #FF6A00; }
+  .cta-box h2 {
+    font-size: clamp(26px, 4vw, 42px);
+    font-weight: 900;
+    color: #fff;
+    line-height: 1.2;
+    margin-bottom: 16px;
+  }
+  .cta-box p {
+    color: rgba(255,255,255,0.6);
+    font-size: 16px;
+    max-width: 500px;
+    margin: 0 auto 36px;
+  }
+  .cta-btn {
+    display: inline-block;
+    background: #FF6A00;
+    color: #fff;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 800;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    padding: 18px 44px;
+    border-radius: 50px;
+    transition: background 0.2s, transform 0.2s;
+    box-shadow: 0 8px 30px rgba(255,106,0,0.4);
+  }
+  .cta-btn:hover {
+    background: #ff8533;
+    transform: translateY(-2px);
+  }
+  .cta-sub {
+    margin-top: 18px;
+    font-size: 13px;
+    color: rgba(255,255,255,0.35);
+  }
+
+  /* FOOTER */
+  footer {
+    background: #0a0a1a;
+    padding: 28px 24px;
+    text-align: center;
+  }
+  footer p {
+    font-size: 12px;
+    color: rgba(255,255,255,0.3);
+    max-width: 600px;
+    margin: 0 auto;
+    line-height: 1.7;
+  }
+  footer a {
+    color: rgba(255,106,0,0.7);
+    text-decoration: none;
+  }
+  footer a:hover { color: #FF6A00; }
+
+  /* RESPONSIVE */
+  @media (max-width: 600px) {
+    .hero { padding: 48px 20px 56px; }
+    .aero-wrapper { flex-direction: column; align-items: flex-start; }
+    .aero-score-circle { margin: 0 auto; }
+    .cta-box { padding: 40px 24px; }
+    .terminal-body { padding: 18px; }
+  }
+</style>
+</head>
+<body>
+
+<!-- ==================== SECTION 1: THE HOOK ==================== -->
+<section class="hero">
+  <div class="logo-badge">The Answer Engine &nbsp;|&nbsp; Blind Spot Report</div>
+  <h1>Israel, You Have a<br><span>Visibility Problem.</span></h1>
+  <p>Power Roofing has 20 years of proven work, 192 five-star reviews, and industry-leading certifications. Yet when AI answers roofing questions in Los Angeles, your business is invisible.</p>
+  <div class="hero-meta">
+    <div class="hero-meta-item">📍 <span>Los Angeles, CA</span></div>
+    <div class="hero-meta-item">🏷️ <span>Roofing Contractor</span></div>
+    <div class="hero-meta-item">🌐 <span>power-roofing.com</span></div>
+  </div>
+</section>
+
+<!-- ==================== SECTION 2: THE GAP ==================== -->
+<div class="gap-section">
+  <div class="gap-inner">
+    <div class="section-label">The Gap</div>
+    <h2 class="section-title">Your Credentials Are Real. Your AI Presence Is Not.</h2>
+    <p class="section-subtitle">Here is what Power Roofing has built over two decades, compared to what AI engines actually know about you.</p>
+
+    <div class="stats-grid">
+      <div class="stat-card">
+        <div class="stat-number">192</div>
+        <div class="stat-label">Google Reviews</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-number">5.0</div>
+        <div class="stat-label">Star Rating</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-number">20+</div>
+        <div class="stat-label">Years in Business</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-number">6</div>
+        <div class="stat-label">Industry Credentials</div>
+      </div>
+    </div>
+
+    <div class="aero-wrapper">
+      <div class="aero-score-circle">
+        <span class="num">45</span>
+        <span class="denom">/ 100</span>
+      </div>
+      <div class="aero-details">
+        <h3>AERO-10 Visibility Score: Critical</h3>
+        <p>A score of 45 out of 100 means AI engines like ChatGPT, Gemini, and Perplexity cannot reliably surface Power Roofing when potential customers ask for roofing contractors in Los Angeles. Competitors with weaker real-world records are winning those conversations simply because their digital footprint is structured for AI discovery.</p>
+        <div class="aero-bar-wrap">
+          <div class="aero-bar-bg"><div class="aero-bar-fill"></div></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="credentials-row">
+      <h3>Verified Credentials Power Roofing Holds</h3>
+      <div class="cred-tags">
+        <span class="cred-tag">CA Roofing License #1073368</span>
+        <span class="cred-tag">General Building License</span>
+        <span class="cred-tag">Licensed, Bonded &amp; Insured</span>
+        <span class="cred-tag">CertainTeed Certified</span>
+        <span class="cred-tag">Polyglass Certified</span>
+        <span class="cred-tag">Owens Corning Preferred Contractor</span>
+        <span class="cred-tag">Veteran Discount Available</span>
+        <span class="cred-tag">Senior Discount Available</span>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ==================== SECTION 3: WHAT AI SEES ==================== -->
+<section class="section">
+  <div class="section-label">What AI Sees</div>
+  <h2 class="section-title">When Customers Ask AI, This Is What Happens</h2>
+  <p class="section-subtitle">AI engines are now the first stop for service recommendations. Here is a simulation of what a real query looks like today, and why Power Roofing does not appear.</p>
+
+  <div class="terminal-wrap">
+    <div class="terminal-bar">
+      <div class="t-dot red"></div>
+      <div class="t-dot yellow"></div>
+      <div class="t-dot green"></div>
+      <span class="t-title">AI Answer Engine, Live Query Simulation</span>
+    </div>
+    <div class="terminal-body">
+
+      <div class="t-query">
+        <div class="t-icon user">🧑</div>
+        <div class="t-bubble">
+          "Who is the best roofing contractor in Los Angeles for flat roofs? I need someone licensed, experienced, and trustworthy."
+        </div>
+      </div>
+
+      <div class="t-query">
+        <div class="t-icon ai">🤖</div>
+        <div class="t-bubble ai-response">
+          <div class="ai-label">AI RESPONSE</div>
+          For flat roof work in Los Angeles, a frequently cited option is <span class="highlight-competitor">EBA Roofing</span>, which has strong structured data and a visible web presence optimized for AI discovery. Other results vary by platform.<br><br>
+          <span class="missing">Power Roofing is not surfaced in this query</span>, despite holding CertainTeed and Polyglass flat roof certifications, a California Roofing License, 192 five-star reviews, and 20 years of local experience. The reason: AI engines cannot find structured, citable information about Power Roofing across authoritative sources.<span class="t-cursor"></span>
+        </div>
+      </div>
+
+      <div class="not-cited-alert">
+        <div class="alert-icon">⚠️</div>
+        <div class="alert-text">
+          <h4>Power Roofing Is Not Being Cited by AI</h4>
+          <p>Customers asking ChatGPT, Gemini, Perplexity, and voice assistants for roofing contractors in Los Angeles are not hearing Power Roofing's name. A competitor with fewer credentials and less experience is filling that gap because their content is structured for AI consumption. This is a solvable problem.</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ==================== SECTION 4: HIDDEN DIFFERENTIATORS ==================== -->
+<section style="background:#fff; padding: 64px 24px;">
+  <div style="max-width:1060px; margin:0 auto;">
+    <div class="section-label">Hidden Differentiators</div>
+    <h2 class="section-title">What Makes Power Roofing Different, That AI Cannot See</h2>
+    <p class="section-subtitle">These are real, documented advantages that exist nowhere in AI-readable format. Every one of them is a reason a customer would choose Power Roofing over a competitor.</p>
+
+    <div class="diff-grid">
+
+      <div class="diff-card">
+        <span class="diff-icon">🚁</span>
+        <h3>Drone Inspection Technology</h3>
+        <p>Power Roofing uses drone technology to perform comprehensive roof assessments, providing customers with aerial views and detailed documentation that most contractors simply cannot offer. This is a meaningful differentiator that no AI engine currently knows about.</p>
+        <span class="diff-badge">Tech Advantage</span>
+      </div>
+
+      <div class="diff-card">
+        <span class="diff-icon">📋</span>
+        <h3>Full Reports with Photos and Video</h3>
+        <p>Every consultation includes a detailed full roof report complete with photos and videos. Customers receive visual documentation of their roof's condition before any work begins, building trust and enabling informed decisions. This transparency is rare in the industry.</p>
+        <span class="diff-badge">Customer Education</span>
+      </div>
+
+      <div class="diff-card">
+        <span class="diff-icon">🏆</span>
+        <h3>Industry-Leading Labor Warranties</h3>
+        <p>Power Roofing offers some of the strongest labor warranties in the roofing industry. Combined with material warranties from certified manufacturer partners like Owens Corning and CertainTeed, customers receive multi-layer protection that competitors rarely match.</p>
+        <span class="diff-badge">Risk Reduction</span>
+      </div>
+
+      <div class="diff-card">
+        <span class="diff-icon">🧱</span>
+        <h3>Material Samples at First Meeting</h3>
+        <p>From the very first consultation, Power Roofing arrives with actual material samples so customers can see and feel their options. This hands-on approach to education shortens decision timelines and builds confidence before the contract is signed.</p>
+        <span class="diff-badge">Sales Differentiator</span>
+      </div>
+
+      <div class="diff-card">
+        <span class="diff-icon">📍</span>
+        <h3>Three Locations Across Greater LA</h3>
+        <p>With offices in Los Angeles, Sherman Oaks, and Irvine, and a service area stretching from Malibu to Dana Point, Power Roofing has regional coverage that most single-location competitors cannot offer. This multi-location presence signals operational scale and stability.</p>
+        <span class="diff-badge">Geographic Reach</span>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ==================== SECTION 5: THE FIX ==================== -->
+<div class="fix-section">
+  <div class="fix-inner">
+    <div class="section-label">The Fix</div>
+    <h2 class="section-title" style="color:#fff;">Four Things That Get Power Roofing Cited by AI</h2>
+    <p class="section-subtitle">The Answer Engine's AEO framework is built specifically to make businesses like Power Roofing discoverable and citable across every major AI platform.</p>
+
+    <div class="fix-grid">
+
+      <div class="fix-card">
+        <span class="fix-number">1</span>
+        <span class="fix-card-icon">✍️</span>
+        <h3>Answer-First Content</h3>
+        <p>Rewrite your web pages and service descriptions so they directly answer the questions customers are asking AI engines right now.</p>
+        <ul>
+          <li>FAQ pages structured for AI parsing</li>
+          <li>Flat roof certification content</li>
+          <li>Drone inspection explainer pages</li>
+          <li>Warranty comparison content</li>
+        </ul>
+      </div>
+
+      <div class="fix-card">
+        <span class="fix-number">2</span>
+        <span class="fix-card-icon">🗂️</span>
+        <h3>Schema Markup</h3>
+        <p>Embed structured data that tells AI engines exactly who Power Roofing is, what services you offer, and why you are authoritative.</p>
+        <ul>
+          <li>LocalBusiness schema with all locations</li>
+          <li>License numbers in structured format</li>
+          <li>Review and rating schema</li>
+          <li>Service area markup (Malibu to Dana Point)</li>
+        </ul>
+      </div>
+
+      <div class="fix-card">
+        <span class="fix-number">3</span>
+        <span class="fix-card-icon">🔗</span>
+        <h3>Entity Building</h3>
+        <p>Establish Power Roofing as a named, verifiable entity across the web so AI systems can triangulate and trust your business data.</p>
+        <ul>
+          <li>Consistent NAP across all directories</li>
+          <li>Owner Israel Cohen entity signals</li>
+          <li>Manufacturer certification profiles</li>
+          <li>Multi-location entity reinforcement</li>
+        </ul>
+      </div>
+
+      <div class="fix-card">
+        <span class="fix-number">4</span>
+        <span class="fix-card-icon">🏛️</span>
+        <h3>Authority Signals</h3>
+        <p>Build the third-party citations and topical authority that AI engines require before recommending a contractor to their users.</p>
+        <ul>
+          <li>Trade publication mentions</li>
+          <li>Manufacturer partner profile links</li>
+          <li>Community and veteran discount PR</li>
+          <li>20-year expertise content assets</li>
+        </ul>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+<!-- ==================== SECTION 6: CTA ==================== -->
+<section class="cta-section">
+  <div class="cta-box">
+    <div class="section-label">Next Step</div>
+    <h2>Let's Get Power Roofing<br>Into the AI Conversation</h2>
+    <p>In 30 minutes, we will walk through your AERO-10 score in detail and show you exactly which changes will move the needle fastest for your market in Los Angeles.</p>
+    <a class="cta-btn" href="https://calendly.com/theanswerengine-support/30min" target="_blank" rel="noopener">BOOK YOUR FREE 30-MIN CALL</a>
+    <p class="cta-sub">No obligation. No sales pressure. Just a clear action plan.</p>
+  </div>
+</section>
+
+<!-- ==================== FOOTER ==================== -->
+<footer>
+  <p>This analysis uses publicly available information and is prepared by The Answer Engine for Power Roofing. All credentials, reviews, and business details are sourced from publicly accessible platforms at time of research. Questions? <a href="mailto:support@theanswerengine.ai">support@theanswerengine.ai</a></p>
+</footer>
+
+</body>
+</html>

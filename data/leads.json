@@ -136,12 +136,73 @@
     "websiteUrl": "https://www.power-roofing.com",
     "city": "Los Angeles",
     "serviceNiche": "Roofing Contractor",
-    "competitorName": "",
-    "reviewCount": null,
+    "competitorName": "EBA Roofing",
+    "reviewCount": 192,
     "rating": 5,
     "notes": "Auto-discovered by Lead Hunter. Pain signals: Over 20 years experience with strong reviews; Lacks comprehensive service pages and AI-friendly content architecture",
-    "status": "queued",
-    "research": null,
+    "status": "report_ready",
+    "research": {
+      "reviewCount": 192,
+      "rating": 5,
+      "yearsInBusiness": 20,
+      "credentials": [
+        "California Roofing License 1073368",
+        "General Building License",
+        "Licensed, Bonded & Insured",
+        "CertainTeed Certified - Flat Roof Applications",
+        "Polyglass Certified - Flat Roof Applications",
+        "Owens Corning Preferred Contractor"
+      ],
+      "awards": [],
+      "communityInvolvement": [
+        "Serves Los Angeles, Orange County, Malibu to Dana Point service area",
+        "Veteran discount available",
+        "Senior discount available"
+      ],
+      "hiddenDifferentiators": [
+        "Drone inspection technology for roof assessment",
+        "Detailed full roof reports with photos and videos during consultations",
+        "Material samples provided at initial meeting",
+        "Transparent project progress tracking with inspection schedules",
+        "Strong labor warranties - among the strongest in industry",
+        "Financing options available",
+        "Free estimates",
+        "Custom seamless rain gutter installations",
+        "Multiple locations (Los Angeles, Sherman Oaks, Irvine)"
+      ],
+      "topCompetitors": [
+        {
+          "name": "EBA Roofing",
+          "reason": "Family-owned, 20+ years experience, 5.0 rating on Angi, 4.9 on Houzz, winner of 2021 Angie's List Award, stronger content marketing presence, active social media, more comprehensive service listings, specializes in solar panel removal/reinstallation"
+        },
+        {
+          "name": "Arana Roofing (rebranded to Sol Roofing)",
+          "reason": "BuildZoom score 114 (top 2%), consistent 5-star reviews on Thumbtack, strong Nextdoor presence, better content strategy, appears in major AI recommendation lists more frequently, over 26 years in business, strong emphasis on before/after photos"
+        }
+      ],
+      "faqContentPresent": false,
+      "blogPresent": false,
+      "gmbPresent": true,
+      "schemaDetected": false,
+      "recentContent": false,
+      "uniqueStory": "Israeli-owned company (owner Israel Cohen), over 20 years experience, strong focus on transparent communication and customer education with drone technology for roof inspection, emphasis on first-time quality execution with strong warranties",
+      "aiCited": false,
+      "aero7": {
+        "answerQuality": 4,
+        "entityOptimization": 2,
+        "relevanceFreshness": 3,
+        "optimizationStructure": 3,
+        "voiceAuthenticity": 6,
+        "authoritySignals": 7,
+        "authorityDistribution": 5,
+        "consensusCoCitation": 6,
+        "platformReadiness": 4,
+        "technicalAccessibility": 5,
+        "total": 45
+      },
+      "rawNotes": "Power Roofing has strong real-world reviews (5 stars on Houzz, Porch 4.97/5, Birdeye 5.0/192 reviews, Yelp presence with 143 photos) but lacks AI optimization strategy. Owner Israel Cohen is well-reviewed and personally engaged with customers. BuildZoom score of 118 places them in top 1% of CA contractors. PAIN POINTS CONFIRMED: (1) No FAQ page on website (2) No blog content (3) No visible schema markup (4) Limited content architecture - basic service pages without comprehensive information architecture (5) Not appearing in AI recommendation lists despite strong reviews - Angi/Angi.com lists recommend EBA and Arana more prominently. Business started 2/16/2021 per BBB (newer than claimed 20 years experience - discrepancy noted). Website structure is basic with limited interior pages. NAP consistency verified across Yelp, Birdeye, Porch, BBP, Facebook. Competitors EBA Roofing and Arana Roofing appear more frequently in AI-generated recommendations due to better content strategy. No Reddit mentions found. Nextdoor presence with positive community engagement. Recently featured on Nextdoor (Nov 2023, Feb 2023 posts). Not found in AI citation scenarios for 'best roofing contractor Los Angeles' searches. Main competitive disadvantage is lack of comprehensive content marketing, no blog, no FAQ section, no structured data markup that would help AI systems understand and cite their business. Primary differentiator is strong personal customer service from Israel Cohen and innovative use of drone technology for inspections.",
+      "researchedAt": "2026-03-09T05:04:28.924Z"
+    },
     "reportSlug": "power-roofing",
     "emailDraftId": null,
     "fabricationFlags": [],
@@ -154,10 +215,38 @@
       {
         "action": "Research started (auto-pipeline)",
         "timestamp": "2026-03-08T05:12:53.873Z"
+      },
+      {
+        "action": "Research started (auto-pipeline)",
+        "timestamp": "2026-03-09T05:04:05.602Z"
+      },
+      {
+        "action": "Research completed (AERO-10: 45/100)",
+        "timestamp": "2026-03-09T05:04:28.924Z"
+      },
+      {
+        "action": "Report generation started",
+        "timestamp": "2026-03-09T05:04:28.924Z"
+      },
+      {
+        "action": "Report generated",
+        "timestamp": "2026-03-09T05:06:18.275Z"
+      },
+      {
+        "action": "Fabrication scan: CLEAN",
+        "timestamp": "2026-03-09T05:06:18.275Z"
+      },
+      {
+        "action": "Em-dash scan: 1 found, auto-stripped",
+        "timestamp": "2026-03-09T05:06:18.275Z"
+      },
+      {
+        "action": "Report deployed to production",
+        "timestamp": "2026-03-09T05:06:18.275Z"
       }
     ],
     "createdAt": "2026-03-08T04:28:02.786Z",
-    "updatedAt": "2026-03-08T05:12:53.874Z",
+    "updatedAt": "2026-03-09T05:06:18.275Z",
     "huntSource": "hunt_1772943739618_2vrc",
     "huntScore": 29.5,
     "huntPriority": "P2"
