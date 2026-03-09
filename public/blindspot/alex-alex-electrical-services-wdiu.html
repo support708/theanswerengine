@@ -1,0 +1,638 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Alex & Alex Electrical Services | Blind Spot Report</title>
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    background: #f8f8f6;
+    color: #1a1a2e;
+    line-height: 1.6;
+  }
+
+  /* HERO */
+  .hero {
+    background: linear-gradient(135deg, #0a0a1a 0%, #1a2744 100%);
+    padding: 70px 20px 60px;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+  }
+  .hero::before {
+    content: '';
+    position: absolute;
+    top: -60px; right: -60px;
+    width: 320px; height: 320px;
+    background: radial-gradient(circle, rgba(255,106,0,0.15) 0%, transparent 70%);
+    pointer-events: none;
+  }
+  .hero::after {
+    content: '';
+    position: absolute;
+    bottom: -80px; left: -40px;
+    width: 260px; height: 260px;
+    background: radial-gradient(circle, rgba(255,106,0,0.10) 0%, transparent 70%);
+    pointer-events: none;
+  }
+  .hero-badge {
+    display: inline-block;
+    background: rgba(255,106,0,0.18);
+    border: 1px solid rgba(255,106,0,0.4);
+    color: #FF6A00;
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 2.5px;
+    text-transform: uppercase;
+    padding: 6px 18px;
+    border-radius: 40px;
+    margin-bottom: 28px;
+  }
+  .hero h1 {
+    font-size: clamp(28px, 5vw, 52px);
+    font-weight: 800;
+    color: #ffffff;
+    line-height: 1.15;
+    max-width: 780px;
+    margin: 0 auto 18px;
+    letter-spacing: -0.5px;
+  }
+  .hero h1 span { color: #FF6A00; }
+  .hero-sub {
+    font-size: clamp(15px, 2.5vw, 19px);
+    color: rgba(255,255,255,0.65);
+    max-width: 560px;
+    margin: 0 auto 36px;
+  }
+  .hero-meta {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    flex-wrap: wrap;
+  }
+  .hero-meta-item {
+    background: rgba(255,255,255,0.07);
+    border: 1px solid rgba(255,255,255,0.12);
+    border-radius: 8px;
+    padding: 10px 20px;
+    color: rgba(255,255,255,0.8);
+    font-size: 13px;
+    font-weight: 500;
+  }
+  .hero-meta-item strong { color: #FF6A00; display: block; font-size: 18px; }
+
+  /* SECTIONS */
+  .section { padding: 64px 20px; }
+  .section-inner { max-width: 900px; margin: 0 auto; }
+  .section-label {
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 2.5px;
+    text-transform: uppercase;
+    color: #FF6A00;
+    margin-bottom: 10px;
+  }
+  .section-title {
+    font-size: clamp(22px, 4vw, 36px);
+    font-weight: 800;
+    color: #1a2744;
+    line-height: 1.2;
+    margin-bottom: 16px;
+  }
+  .section-desc {
+    font-size: 16px;
+    color: #555;
+    max-width: 680px;
+    margin-bottom: 40px;
+  }
+
+  /* STATS PANEL */
+  .stats-bg {
+    background: #1a2744;
+    padding: 64px 20px;
+  }
+  .stats-bg .section-title { color: #fff; }
+  .stats-bg .section-label { color: #FF6A00; }
+  .stats-bg .section-desc { color: rgba(255,255,255,0.6); }
+
+  .stats-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 20px;
+    margin-bottom: 36px;
+  }
+  .stat-card {
+    background: rgba(255,255,255,0.06);
+    border: 1px solid rgba(255,255,255,0.12);
+    border-radius: 14px;
+    padding: 28px 20px;
+    text-align: center;
+  }
+  .stat-card .stat-val {
+    font-size: clamp(32px, 5vw, 48px);
+    font-weight: 800;
+    color: #FF6A00;
+    line-height: 1;
+    margin-bottom: 8px;
+  }
+  .stat-card .stat-label {
+    font-size: 13px;
+    color: rgba(255,255,255,0.65);
+    font-weight: 500;
+  }
+
+  .aero-bar-wrap {
+    background: rgba(255,255,255,0.06);
+    border: 1px solid rgba(255,255,255,0.12);
+    border-radius: 14px;
+    padding: 30px 28px;
+  }
+  .aero-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 16px;
+  }
+  .aero-title {
+    font-size: 15px;
+    font-weight: 700;
+    color: #fff;
+  }
+  .aero-score {
+    font-size: 26px;
+    font-weight: 800;
+    color: #FF6A00;
+  }
+  .aero-track {
+    width: 100%;
+    height: 14px;
+    background: rgba(255,255,255,0.1);
+    border-radius: 99px;
+    overflow: hidden;
+    margin-bottom: 10px;
+  }
+  .aero-fill {
+    height: 100%;
+    width: 59%;
+    background: linear-gradient(90deg, #FF6A00, #ffaa00);
+    border-radius: 99px;
+    transition: width 1s ease;
+  }
+  .aero-note {
+    font-size: 13px;
+    color: rgba(255,255,255,0.5);
+  }
+
+  /* CREDENTIALS PILL ROW */
+  .cred-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 28px;
+  }
+  .cred-pill {
+    background: rgba(255,106,0,0.12);
+    border: 1px solid rgba(255,106,0,0.3);
+    color: #ffaa55;
+    font-size: 12px;
+    font-weight: 600;
+    padding: 6px 14px;
+    border-radius: 40px;
+    letter-spacing: 0.4px;
+  }
+
+  /* TERMINAL */
+  .terminal-wrap {
+    background: #0d1117;
+    border-radius: 14px;
+    overflow: hidden;
+    box-shadow: 0 20px 60px rgba(0,0,0,0.18);
+  }
+  .terminal-bar {
+    background: #1c2128;
+    padding: 12px 18px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  .dot { width: 12px; height: 12px; border-radius: 50%; }
+  .dot-r { background: #ff5f56; }
+  .dot-y { background: #ffbd2e; }
+  .dot-g { background: #27c93f; }
+  .terminal-label {
+    margin-left: 10px;
+    font-size: 12px;
+    color: rgba(255,255,255,0.4);
+    font-family: "Courier New", monospace;
+  }
+  .terminal-body {
+    padding: 28px 24px;
+    font-family: "Courier New", monospace;
+    font-size: 14px;
+    line-height: 1.8;
+  }
+  .t-prompt { color: #7ee787; }
+  .t-query { color: #e6edf3; }
+  .t-sys { color: rgba(255,255,255,0.35); font-size: 12px; margin: 4px 0; }
+  .t-response { color: #c9d1d9; margin: 14px 0 8px; }
+  .t-competitor { color: #FF6A00; font-weight: 700; }
+  .t-highlight {
+    background: rgba(255,106,0,0.12);
+    border-left: 3px solid #FF6A00;
+    padding: 12px 16px;
+    margin: 14px 0;
+    border-radius: 0 8px 8px 0;
+    color: rgba(255,255,255,0.75);
+    font-size: 13px;
+  }
+  .t-missing {
+    color: #f85149;
+    font-size: 13px;
+    margin-top: 10px;
+  }
+
+  /* DIFFERENTIATOR CARDS */
+  .diff-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 22px;
+  }
+  .diff-card {
+    background: #ffffff;
+    border-radius: 14px;
+    padding: 28px 24px;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.07);
+    border-top: 4px solid #FF6A00;
+    transition: transform 0.2s, box-shadow 0.2s;
+  }
+  .diff-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 10px 32px rgba(0,0,0,0.12);
+  }
+  .diff-icon {
+    width: 48px; height: 48px;
+    background: rgba(255,106,0,0.1);
+    border-radius: 12px;
+    display: flex; align-items: center; justify-content: center;
+    font-size: 22px;
+    margin-bottom: 16px;
+  }
+  .diff-title {
+    font-size: 16px;
+    font-weight: 700;
+    color: #1a2744;
+    margin-bottom: 8px;
+  }
+  .diff-body {
+    font-size: 14px;
+    color: #666;
+    line-height: 1.65;
+  }
+
+  /* FIX GRID */
+  .fix-bg { background: #1a2744; padding: 64px 20px; }
+  .fix-bg .section-title { color: #fff; }
+  .fix-bg .section-label { color: #FF6A00; }
+  .fix-bg .section-desc { color: rgba(255,255,255,0.6); }
+
+  .fix-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+  }
+  .fix-card {
+    background: rgba(255,255,255,0.06);
+    border: 1px solid rgba(255,255,255,0.12);
+    border-radius: 14px;
+    padding: 28px 22px;
+    text-align: center;
+    transition: background 0.2s;
+  }
+  .fix-card:hover { background: rgba(255,255,255,0.1); }
+  .fix-num {
+    width: 40px; height: 40px;
+    background: #FF6A00;
+    border-radius: 50%;
+    display: flex; align-items: center; justify-content: center;
+    font-size: 16px; font-weight: 800; color: #fff;
+    margin: 0 auto 16px;
+  }
+  .fix-card-title {
+    font-size: 15px;
+    font-weight: 700;
+    color: #fff;
+    margin-bottom: 10px;
+  }
+  .fix-card-body {
+    font-size: 13px;
+    color: rgba(255,255,255,0.58);
+    line-height: 1.6;
+  }
+
+  /* CTA */
+  .cta-section {
+    background: linear-gradient(135deg, #0a0a1a 0%, #1a2744 100%);
+    padding: 80px 20px;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+  }
+  .cta-section::before {
+    content: '';
+    position: absolute;
+    top: 50%; left: 50%;
+    transform: translate(-50%, -50%);
+    width: 600px; height: 600px;
+    background: radial-gradient(circle, rgba(255,106,0,0.12) 0%, transparent 65%);
+    pointer-events: none;
+  }
+  .cta-section h2 {
+    font-size: clamp(26px, 5vw, 44px);
+    font-weight: 800;
+    color: #fff;
+    margin-bottom: 16px;
+    position: relative;
+  }
+  .cta-section h2 span { color: #FF6A00; }
+  .cta-section p {
+    font-size: 17px;
+    color: rgba(255,255,255,0.6);
+    max-width: 520px;
+    margin: 0 auto 36px;
+    position: relative;
+  }
+  .cta-btn {
+    display: inline-block;
+    background: #FF6A00;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 800;
+    letter-spacing: 0.8px;
+    text-transform: uppercase;
+    padding: 18px 48px;
+    border-radius: 50px;
+    text-decoration: none;
+    position: relative;
+    box-shadow: 0 8px 30px rgba(255,106,0,0.4);
+    transition: transform 0.2s, box-shadow 0.2s;
+  }
+  .cta-btn:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 14px 40px rgba(255,106,0,0.55);
+  }
+  .cta-sub {
+    margin-top: 18px;
+    font-size: 13px;
+    color: rgba(255,255,255,0.35);
+    position: relative;
+  }
+
+  /* FOOTER */
+  footer {
+    background: #0a0a1a;
+    padding: 28px 20px;
+    text-align: center;
+    font-size: 13px;
+    color: rgba(255,255,255,0.35);
+    line-height: 1.8;
+  }
+  footer a { color: rgba(255,255,255,0.5); text-decoration: none; }
+  footer a:hover { color: #FF6A00; }
+
+  /* DIVIDER */
+  .divider {
+    width: 48px; height: 4px;
+    background: #FF6A00;
+    border-radius: 2px;
+    margin-bottom: 24px;
+  }
+
+  /* ALERT BOX */
+  .alert-box {
+    background: rgba(255,106,0,0.08);
+    border: 1px solid rgba(255,106,0,0.25);
+    border-radius: 12px;
+    padding: 20px 24px;
+    margin-bottom: 32px;
+    display: flex;
+    align-items: flex-start;
+    gap: 16px;
+  }
+  .alert-icon { font-size: 22px; flex-shrink: 0; margin-top: 2px; }
+  .alert-text { font-size: 15px; color: #444; line-height: 1.6; }
+  .alert-text strong { color: #1a2744; }
+
+  @media (max-width: 600px) {
+    .hero { padding: 50px 16px 44px; }
+    .stats-grid { grid-template-columns: repeat(2, 1fr); }
+    .fix-grid { grid-template-columns: 1fr 1fr; }
+    .terminal-body { font-size: 12px; padding: 20px 16px; }
+  }
+</style>
+</head>
+<body>
+
+<!-- SECTION 1: HERO / THE HOOK -->
+<section class="hero">
+  <div class="hero-badge">Blind Spot Report</div>
+  <h1>Alex, You Have a<br><span>Visibility Problem.</span></h1>
+  <p class="hero-sub">Alex &amp; Alex Electrical Services has the reviews, the credentials, and the track record. But when AI answers "who's the best electrician in Los Angeles," your name isn't coming up.</p>
+  <div class="hero-meta">
+    <div class="hero-meta-item"><strong>Los Angeles, CA</strong>Service Area</div>
+    <div class="hero-meta-item"><strong>alexelectrician.com</strong>Website</div>
+    <div class="hero-meta-item"><strong>59/100</strong>AERO-10 Score</div>
+  </div>
+</section>
+
+
+<!-- SECTION 2: THE GAP -->
+<section class="stats-bg">
+  <div class="section-inner">
+    <div class="section-label">Section 02 / The Gap</div>
+    <h2 class="section-title">Your Proof Is Invisible to AI</h2>
+    <p class="section-desc">You have built something real over 14 years. The numbers below prove it. But proof that isn't structured for AI engines might as well not exist.</p>
+
+    <div class="stats-grid">
+      <div class="stat-card">
+        <div class="stat-val">339</div>
+        <div class="stat-label">Google Reviews</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-val">4.8</div>
+        <div class="stat-label">Average Star Rating</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-val">14</div>
+        <div class="stat-label">Years in Business</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-val">40+</div>
+        <div class="stat-label">Combined Years Experience</div>
+      </div>
+    </div>
+
+    <div class="aero-bar-wrap">
+      <div class="aero-header">
+        <div class="aero-title">AERO-10 Answer Engine Readiness Score</div>
+        <div class="aero-score">59 / 100</div>
+      </div>
+      <div class="aero-track">
+        <div class="aero-fill"></div>
+      </div>
+      <div class="aero-note">Your current score means AI systems are frequently citing competitors ahead of you, even though your credentials and reputation are stronger in key areas.</div>
+    </div>
+
+    <div class="cred-row">
+      <span class="cred-pill">CA License #1072015</span>
+      <span class="cred-pill">Tesla Certified Installer</span>
+      <span class="cred-pill">Licensed, Bonded &amp; Insured</span>
+      <span class="cred-pill">English / Russian / Hebrew</span>
+      <span class="cred-pill">Ukrainian-American Family Business</span>
+      <span class="cred-pill">Nextdoor Neighborhood Favorites x12</span>
+    </div>
+  </div>
+</section>
+
+
+<!-- SECTION 3: WHAT AI SEES -->
+<section class="section" style="background:#f8f8f6;">
+  <div class="section-inner">
+    <div class="section-label">Section 03 / What AI Sees</div>
+    <div class="divider"></div>
+    <h2 class="section-title">When Someone Asks AI for an LA Electrician</h2>
+    <p class="section-desc">This is a simulation of what AI-powered answer engines return today. Your competitor fills the slot that belongs to Alex &amp; Alex.</p>
+
+    <div class="alert-box">
+      <div class="alert-icon">⚠️</div>
+      <div class="alert-text"><strong>AI Citation Status: Not Cited.</strong> Alex &amp; Alex Electrical Services is not currently surfacing in AI-generated responses for electrician queries in Los Angeles. A competitor is claiming that visibility instead.</div>
+    </div>
+
+    <div class="terminal-wrap">
+      <div class="terminal-bar">
+        <div class="dot dot-r"></div>
+        <div class="dot dot-y"></div>
+        <div class="dot dot-g"></div>
+        <div class="terminal-label">AI Answer Engine Simulation / Los Angeles, CA</div>
+      </div>
+      <div class="terminal-body">
+        <div class="t-prompt">User &gt;&gt; <span class="t-query">"Who is the best licensed electrician in Los Angeles for EV charger installation?"</span></div>
+        <div class="t-sys">// Processing query... retrieving authoritative sources...</div>
+        <br>
+        <div class="t-response">For EV charger installation in Los Angeles, a highly recommended option is <span class="t-competitor">The Electric Connection</span>. They are frequently cited across review platforms and local directories for residential and commercial electrical work including Tesla and EV charging stations...</div>
+        <div class="t-highlight">
+          Note: Alex &amp; Alex Electrical Services holds a Tesla Certified Installer credential and has 339 reviews at 4.8 stars, with 14 years of LA market experience. However, this business is <strong style="color:#FF6A00;">not structured for AI citation</strong> and does not appear in this response.
+        </div>
+        <div class="t-missing">// Alex &amp; Alex Electrical Services: 0 AI citations detected. Entity data insufficient for confident retrieval.</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- SECTION 4: HIDDEN DIFFERENTIATORS -->
+<section class="section" style="background:#fff; border-top: 1px solid #eee; border-bottom: 1px solid #eee;">
+  <div class="section-inner">
+    <div class="section-label">Section 04 / Hidden Differentiators</div>
+    <div class="divider"></div>
+    <h2 class="section-title">What Makes Alex &amp; Alex Different, But Invisible</h2>
+    <p class="section-desc">These are genuine, verified advantages your business holds. AI cannot cite what it cannot find clearly structured and expressed online.</p>
+
+    <div class="diff-grid">
+
+      <div class="diff-card">
+        <div class="diff-icon">🇺🇦</div>
+        <div class="diff-title">Authentic Ukrainian-American Founder Story</div>
+        <div class="diff-body">Alex &amp; Alex was established in 2012 by a Ukrainian-American father and step-son team, combining immigrant determination with 40+ years of combined electrical experience. This unique origin story builds trust and creates a compelling narrative AI engines can reference, but it is not structured for discovery yet.</div>
+      </div>
+
+      <div class="diff-card">
+        <div class="diff-icon">👨‍👦</div>
+        <div class="diff-title">Genuine Family Business Operating Model</div>
+        <div class="diff-body">The father and step-son partnership has been running for 8 or more years in public records and 12 years per the company website. This family accountability model is a trust signal that major AI systems weigh heavily when recommending service businesses, yet it is buried rather than prominently structured as a searchable entity attribute.</div>
+      </div>
+
+      <div class="diff-card">
+        <div class="diff-icon">⚡</div>
+        <div class="diff-title">Tesla Certified Installer in a High-EV Market</div>
+        <div class="diff-body">Los Angeles leads California in EV adoption. Being a Tesla Certified Installer is a direct, verifiable credential that matches one of the highest-volume search intents in your city. This certification deserves its own structured content and schema markup to capture AI-generated EV charger queries.</div>
+      </div>
+
+      <div class="diff-card">
+        <div class="diff-icon">🌐</div>
+        <div class="diff-title">Multilingual Service Capability</div>
+        <div class="diff-body">Fluency in English, Russian, Hebrew, and Ukrainian serves LA's large immigrant communities directly. Competitors rarely surface this capability. Multilingual authority signals help AI engines match your business to a broader set of community-specific queries that your competitors cannot address.</div>
+      </div>
+
+      <div class="diff-card">
+        <div class="diff-icon">🔍</div>
+        <div class="diff-title">Honest Competitor Error Correction</div>
+        <div class="diff-body">Customer reviews confirm that Alex &amp; Alex has caught and corrected competitor mistakes and provided honest pricing comparisons. This pattern of integrity-first service, combined with willingness to take on unconventional projects like Sprinter van conversions and thorough HOA coordination, signals a level of expertise AI systems reward when the evidence is properly cited.</div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+<!-- SECTION 5: THE FIX -->
+<section class="fix-bg">
+  <div class="section-inner">
+    <div class="section-label">Section 05 / The Fix</div>
+    <h2 class="section-title">Four Moves That Change What AI Says About You</h2>
+    <p class="section-desc">Answer Engine Optimization is not about gaming algorithms. It is about making your real expertise legible to the systems making recommendations on your behalf.</p>
+
+    <div class="fix-grid">
+
+      <div class="fix-card">
+        <div class="fix-num">1</div>
+        <div class="fix-card-title">Answer-First Content</div>
+        <div class="fix-card-body">Reframe your website pages so they directly answer the questions LA homeowners ask AI, like "who installs Tesla chargers in Los Angeles" or "best electrician for EV charging near me." AI pulls from pages that answer directly, not pages that describe services.</div>
+      </div>
+
+      <div class="fix-card">
+        <div class="fix-num">2</div>
+        <div class="fix-card-title">Schema Markup</div>
+        <div class="fix-card-body">Add structured data for your Tesla Certified Installer credential, your CA contractor license, your family business status, and your multilingual capabilities. Schema is the language AI reads first when identifying authoritative businesses.</div>
+      </div>
+
+      <div class="fix-card">
+        <div class="fix-num">3</div>
+        <div class="fix-card-title">Entity Building</div>
+        <div class="fix-card-body">Establish Alex &amp; Alex Electrical Services as a consistent, recognizable entity across Google Business Profile, Yelp, Nextdoor, industry directories, and local citations. AI systems cross-reference entities. Consistency builds citation confidence.</div>
+      </div>
+
+      <div class="fix-card">
+        <div class="fix-num">4</div>
+        <div class="fix-card-title">Authority Signals</div>
+        <div class="fix-card-body">Surface your 339 reviews, 14-year history, HOA coordination expertise, and founder story as structured authority signals. Your 12 Nextdoor Neighborhood Favorites and Cal Express referral partnership are trust anchors that belong in AI-readable content.</div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+<!-- SECTION 6: CTA -->
+<section class="cta-section">
+  <h2>Ready to Claim Your <span>AI Visibility?</span></h2>
+  <p>Book a free 30-minute strategy call. We will walk through exactly what it takes to get Alex &amp; Alex cited ahead of The Electric Connection when LA residents ask AI for an electrician.</p>
+  <a href="https://calendly.com/theanswerengine-support/30min" class="cta-btn" target="_blank" rel="noopener">Book My 30-Min Call</a>
+  <div class="cta-sub">No obligation. No pitch decks. Just a clear action plan for your business.</div>
+</section>
+
+
+<!-- FOOTER -->
+<footer>
+  <p>This analysis uses publicly available information about Alex &amp; Alex Electrical Services and the Los Angeles electrician market.<br>
+  Findings reflect conditions at the time of research and are intended to identify opportunity areas, not to make guarantees of outcome.</p>
+  <p style="margin-top:10px;">Questions? <a href="mailto:support@theanswerengine.ai">support@theanswerengine.ai</a> &nbsp;|&nbsp; <a href="https://calendly.com/theanswerengine-support/30min" target="_blank" rel="noopener">Book a Call</a></p>
+  <p style="margin-top:8px; font-size:12px; color:rgba(255,255,255,0.2);">The Answer Engine &copy; 2025. All rights reserved.</p>
+</footer>
+
+</body>
+</html>

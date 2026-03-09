@@ -493,20 +493,108 @@
     "reviewCount": 339,
     "rating": 4.8,
     "notes": "Auto-discovered by Lead Hunter. AI citation: not cited on 0/1 platforms. Competitors cited: The Electric Connection, Powell Electric, Prime Electric. Outreach-ready: YES (citation data + contact + differentiator verified). Differentiator: Established 2012, Tesla-certified, family-operated (father and step-son), 40+ years combined experience, 339 Google reviews",
-    "status": "queued",
-    "research": null,
+    "status": "report_ready",
+    "research": {
+      "reviewCount": 339,
+      "rating": 4.8,
+      "yearsInBusiness": 14,
+      "credentials": [
+        "California Contractors State License #1072015 (expires 6/30/2027)",
+        "Tesla Certified Installer",
+        "Licensed, bonded, insured",
+        "English, Russian, Hebrew fluent"
+      ],
+      "awards": [],
+      "communityInvolvement": [
+        "Nextdoor presence with 12 neighborhood favorites",
+        "Cal Express Patching referral partner mentioned on Nextdoor"
+      ],
+      "hiddenDifferentiators": [
+        "Ukrainian-American immigrant success story (2012 establishment)",
+        "Father and step-son family operation for 8 years publicly, 12 years website claim",
+        "40+ combined years electrical experience at founding",
+        "Willingness to handle 'unique' projects (Sprinter van conversion)",
+        "Thorough HOA coordination capability verified by reviews",
+        "Willing to catch and fix competitor errors (honest pricing comparison)",
+        "Multi-language capability (Ukrainian, Russian, Hebrew)"
+      ],
+      "topCompetitors": [
+        {
+          "name": "The Electric Connection",
+          "reason": "40+ years in business (since 1979), 392 Yelp reviews, larger team, established authority signal, blog presence"
+        },
+        {
+          "name": "Powell Electric",
+          "reason": "Listed as mentioned competitor, appears on 3BestRated listings alongside Electric Connection"
+        },
+        {
+          "name": "Prime Electric",
+          "reason": "Family-owned competitor listed on Expertise.com, commercial/residential/industrial coverage"
+        }
+      ],
+      "faqContentPresent": false,
+      "blogPresent": false,
+      "gmbPresent": false,
+      "schemaDetected": false,
+      "recentContent": false,
+      "uniqueStory": "Ukrainian-American family business founded 2012 by father and step-son with 40+ combined years electrical experience. Successfully transitioned immigrant roots into trusted LA electrical authority through Tesla EV charger specialization and thorough, honest service approach. Notable for willingness to fix competitor mistakes and handle unconventional projects.",
+      "aiCited": false,
+      "aero7": {
+        "answerQuality": 7,
+        "entityOptimization": 4,
+        "relevanceFreshness": 6,
+        "optimizationStructure": 4,
+        "voiceAuthenticity": 8,
+        "authoritySignals": 7,
+        "authorityDistribution": 7,
+        "consensusCoCitation": 6,
+        "platformReadiness": 5,
+        "technicalAccessibility": 5,
+        "total": 59
+      },
+      "rawNotes": "VERIFIED FACTS: 339 Yelp reviews (confirmed), 4.8 rating (confirmed), established 2012 (confirmed via Yelp, Nextdoor, BBB), Tesla-certified (confirmed multiple sources), father and step-son operation (confirmed - Nextdoor says '8 years', website says '12 years'), 40+ years combined experience (confirmed), licensed CA #1072015 expiring 6/30/2027 (confirmed BBB). CONTENT GAPS: No FAQ section detected on main site. No blog articles found. No Google My Business dedicated page (appears only on aggregators). No schema markup detected. Last website update appears Nov 2021 per metadata. PLATFORM PRESENCE: Strong Yelp (339 reviews, 4.8 stars), Nextdoor (12 favorites), Trustindex (4.9 stars, 348 customers), multiple directory listings (ZoomInfo, BBB non-accredited, Expertise.com). AUTHORITY: Licensed electrician with valid state license. Positive reviews on 5+ platforms. Embedded customer testimonials on website and Yelp. No major awards found. BBB file opened 9/5/2023 but business started 12/16/2020 per BBB (discrepancy with 2012 founding claim). AI CITATIONS: Not mentioned on any AI recommendation platform found. The Electric Connection appears more prominently in broader AI recommendations. COMPETITOR COMPARISON: Electric Connection has blog, longer tenure claim (40+ years, founded 1979), higher review count on Yelp (392 vs 339), more established SEO presence, LinkedIn profile for owner. Alex & Alex more recent, Tesla-focused, appears more responsive on multiple platforms. STRUCTURE ISSUES: Website appears basic WordPress, needs H-tag hierarchy improvement, no dedicated service pages, limited content depth. Mobile-friendly but minimal SEO optimization. NAP CONSISTENCY: Address verified as 3521 S Bentley Ave, Los Angeles, CA 90034 across Yelp, BBB, multiple directories. Phone numbers vary (310-905-5050 on most, 310-430-0257 on ZoomInfo). OPPORTUNITIES: No blog/FAQ content for long-tail search visibility. No presence on major platforms like Expertise rankings. Limited schema markup. Content freshness appears stale. Could benefit from structured data, regular blog updates, and active schema markup for featured snippets.",
+      "researchedAt": "2026-03-09T05:22:45.405Z"
+    },
     "reportSlug": "alex-alex-electrical-services-wdiu",
     "emailDraftId": null,
     "fabricationFlags": [],
-    "emDashClean": false,
+    "emDashClean": true,
     "actionLog": [
       {
         "action": "Queued by Lead Hunter (P2, score: 33.5, outreach-ready: true)",
         "timestamp": "2026-03-09T02:13:45.365Z"
+      },
+      {
+        "action": "Research started (auto-pipeline)",
+        "timestamp": "2026-03-09T05:22:19.923Z"
+      },
+      {
+        "action": "Research completed (AERO-10: 59/100)",
+        "timestamp": "2026-03-09T05:22:45.405Z"
+      },
+      {
+        "action": "Report generation started",
+        "timestamp": "2026-03-09T05:22:45.405Z"
+      },
+      {
+        "action": "Report generated",
+        "timestamp": "2026-03-09T05:24:23.763Z"
+      },
+      {
+        "action": "Fabrication scan: CLEAN",
+        "timestamp": "2026-03-09T05:24:23.763Z"
+      },
+      {
+        "action": "Em-dash scan: CLEAN",
+        "timestamp": "2026-03-09T05:24:23.763Z"
+      },
+      {
+        "action": "Report deployed to production",
+        "timestamp": "2026-03-09T05:24:23.763Z"
       }
     ],
     "createdAt": "2026-03-09T02:13:45.365Z",
-    "updatedAt": "2026-03-09T02:13:45.365Z",
+    "updatedAt": "2026-03-09T05:24:23.763Z",
     "huntSource": "hunt_1773022316078_kn4h",
     "huntScore": 33.5,
     "huntPriority": "P2",
