@@ -6,7 +6,8 @@
 
 import { NextRequest, NextResponse } from 'next/server';
 import { runHuntSession, getTodayQueuedCount } from '@/lib/scheduler';
-import { notifyHuntComplete, notifyHuntDailySummary } from '@/lib/telegram';
+import { getHuntStatus } from '@/lib/scheduler';
+import { sendMessage, notifyHuntComplete, notifyHuntDailySummary } from '@/lib/telegram';
 import { readHuntLog } from '@/lib/hunter-data';
 import type { HuntTrigger } from '@/lib/hunter-types';
 
@@ -39,6 +40,22 @@ export async function GET(request: NextRequest) {
   const chainDepth = parseInt(request.nextUrl.searchParams.get('chain') || '0', 10);
 
   try {
+    // Notify hunt start (only on first invocation, not chained re-invokes)
+    if (chainDepth === 0) {
+      try {
+        const { nextTarget } = await getHuntStatus();
+        const quota = parseInt(process.env.HUNT_MAX_LEADS_PER_SESSION || '10', 10);
+        await sendMessage(
+          `<b>Hunt Starting</b>\n` +
+          `Trigger: ${safeTrigger}\n` +
+          `Target: ${nextTarget.vertical} x ${nextTarget.metro}\n` +
+          `Daily quota: ${quota} leads`
+        );
+      } catch {
+        // Silent — don't block hunt for notification failure
+      }
+    }
+
     const session = await runHuntSession(safeTrigger);
     const leadsQueued = session.p1Queued + session.p2Queued;
     const quota = parseInt(process.env.HUNT_MAX_LEADS_PER_SESSION || '10', 10);
