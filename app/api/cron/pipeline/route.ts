@@ -102,7 +102,7 @@ async function handleRequest(req: NextRequest) {
     // Pick 1 lead per run — full pipeline (research+report+email) takes ~120-180s
     // Includes email_drafted (Gmail retry) and report_ready (deploy retry)
     const pickable = ['queued', 'report_ready', 'email_drafted'];
-    const toPick = leads.filter(l => pickable.includes(l.status) && l.contactEmail).slice(0, 1);
+    const toPick = leads.filter(l => pickable.includes(l.status) && l.contactEmail && l.contactEmail.includes('@')).slice(0, 1);
 
     if (toPick.length === 0) {
       return NextResponse.json({ success: true, message: 'No leads to process' });
