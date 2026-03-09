@@ -19,6 +19,32 @@ import { readHuntLog } from './hunter-data';
 
 const HUNT_MODEL = 'claude-haiku-4-5';
 
+/**
+ * Validate and sanitize an email string.
+ * Returns the email if valid, undefined if not.
+ * Catches AI hallucinations like "Not found", "N/A", "unknown@", etc.
+ */
+export function sanitizeEmail(raw: string | undefined | null): string | undefined {
+  if (!raw || typeof raw !== 'string') return undefined;
+  const trimmed = raw.trim().toLowerCase();
+
+  // Reject obvious non-emails
+  const rejectPatterns = [
+    'not found', 'not available', 'n/a', 'none', 'unknown', 'no email',
+    'unavailable', 'not listed', 'not provided', 'no contact',
+  ];
+  if (rejectPatterns.some(p => trimmed.includes(p))) return undefined;
+
+  // Must have @ and . after @
+  if (!trimmed.includes('@') || !trimmed.includes('.')) return undefined;
+
+  // Basic email regex
+  const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+  if (!emailRegex.test(trimmed)) return undefined;
+
+  return trimmed;
+}
+
 // --- Rotation ---
 
 export function getRotationTarget(state: HuntState): { vertical: string; metro: string } {
@@ -249,7 +275,7 @@ Include ALL businesses from the list. Omit any field you cannot verify rather th
             return {
               businessName: p.businessName || '',
               contactName: p.contactName,
-              contactEmail: p.contactEmail,
+              contactEmail: sanitizeEmail(p.contactEmail),
               website: p.website,
               phone: p.phone,
               city,

@@ -8,7 +8,7 @@
 
 import type { HuntSession, HuntTrigger, RawProspect } from './hunter-types';
 import { readHuntState, writeHuntState, appendHuntLog, readHuntLog, readBacklog, writeBacklog, flushHuntDataToGitHub } from './hunter-data';
-import { getRotationTarget, getRotationTargetWithLearning, advanceRotation, runSearchPass1, runSearchPass2, runSearchPass3, scoreProspect, classifyPriority, checkOutreachReadiness } from './hunter';
+import { getRotationTarget, getRotationTargetWithLearning, advanceRotation, runSearchPass1, runSearchPass2, runSearchPass3, scoreProspect, classifyPriority, checkOutreachReadiness, sanitizeEmail } from './hunter';
 import { isDuplicate } from './deduplicator';
 import { readLeads, writeLeads, generateId, generateSlug } from './leads';
 import { notifyHuntFailure } from './telegram';
@@ -101,8 +101,9 @@ export async function runHuntSession(trigger: HuntTrigger): Promise<HuntSession>
     const newBacklog: RawProspect[] = [];
 
     for (const prospect of unique) {
-      // No email = backlog, regardless of score (can't email = can't convert)
-      if (!prospect.contactEmail) {
+      // No valid email = backlog, regardless of score (can't email = can't convert)
+      // sanitizeEmail catches "Not found", "N/A", missing @, etc.
+      if (!sanitizeEmail(prospect.contactEmail)) {
         newBacklog.push(prospect);
         session.p3Backlogged++;
         continue;

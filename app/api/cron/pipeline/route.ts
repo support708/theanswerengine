@@ -99,9 +99,28 @@ async function handleRequest(req: NextRequest) {
       await flushLeadsWithFiles(leads, [], 'pipeline: recover stuck leads');
     }
 
+    // Auto-fail leads with invalid emails (catches "Not found", missing @, etc.)
+    // These can never be emailed and would otherwise clog the queue forever.
+    const pickable = ['queued', 'report_ready', 'email_drafted'];
+    let needsCleanupFlush = false;
+    for (const lead of leads) {
+      if (pickable.includes(lead.status) && (!lead.contactEmail || !lead.contactEmail.includes('@'))) {
+        lead.status = 'failed';
+        lead.actionLog.push({
+          action: `Auto-failed: invalid email "${lead.contactEmail || '(empty)'}" — cannot send outreach`,
+          timestamp: new Date().toISOString(),
+        });
+        lead.updatedAt = new Date().toISOString();
+        needsCleanupFlush = true;
+        console.log(`Auto-failed lead ${lead.businessName}: invalid email "${lead.contactEmail}"`);
+      }
+    }
+    if (needsCleanupFlush) {
+      await flushLeadsWithFiles(leads, [], 'pipeline: auto-failed leads with invalid emails');
+    }
+
     // Pick 1 lead per run — full pipeline (research+report+email) takes ~120-180s
     // Includes email_drafted (Gmail retry) and report_ready (deploy retry)
-    const pickable = ['queued', 'report_ready', 'email_drafted'];
     const toPick = leads.filter(l => pickable.includes(l.status) && l.contactEmail && l.contactEmail.includes('@')).slice(0, 1);
 
     if (toPick.length === 0) {
