@@ -267,7 +267,7 @@
     "reviewCount": null,
     "rating": 5,
     "notes": "Auto-discovered by Lead Hunter. Pain signals: Family-owned since 1984 with 35+ years experience; Strong reviews but opportunity for enhanced digital presence and SEO optimization",
-    "status": "queued",
+    "status": "failed",
     "research": null,
     "reportSlug": "guardian-roofs",
     "emailDraftId": null,
@@ -281,10 +281,14 @@
       {
         "action": "Research started (auto-pipeline)",
         "timestamp": "2026-03-08T05:12:53.876Z"
+      },
+      {
+        "action": "Auto-failed: invalid email \"(empty)\" — cannot send outreach",
+        "timestamp": "2026-03-09T14:00:04.143Z"
       }
     ],
     "createdAt": "2026-03-08T04:28:02.786Z",
-    "updatedAt": "2026-03-08T05:12:53.877Z",
+    "updatedAt": "2026-03-09T14:00:04.143Z",
     "huntSource": "hunt_1772943739618_2vrc",
     "huntScore": 27,
     "huntPriority": "P2"
@@ -433,7 +437,7 @@
     "reviewCount": 62,
     "rating": 4.5,
     "notes": "Auto-discovered by Lead Hunter. Pain signals: 20+ years experience with established presence; Limited blog content and minimal AI-friendly content architecture",
-    "status": "queued",
+    "status": "failed",
     "research": null,
     "reportSlug": "l-a-roofing",
     "emailDraftId": null,
@@ -443,10 +447,14 @@
       {
         "action": "Queued by Lead Hunter (P2, score: 29.5)",
         "timestamp": "2026-03-08T04:28:02.786Z"
+      },
+      {
+        "action": "Auto-failed: invalid email \"(empty)\" — cannot send outreach",
+        "timestamp": "2026-03-09T14:00:04.143Z"
       }
     ],
     "createdAt": "2026-03-08T04:28:02.786Z",
-    "updatedAt": "2026-03-08T04:28:02.786Z",
+    "updatedAt": "2026-03-09T14:00:04.143Z",
     "huntSource": "hunt_1772943739618_2vrc",
     "huntScore": 29.5,
     "huntPriority": "P2"
@@ -463,7 +471,7 @@
     "reviewCount": 270,
     "rating": 4.7,
     "notes": "Auto-discovered by Lead Hunter. Pain signals: 35+ years of proven experience; Limited structured content marketing despite strong local reputation and review presence",
-    "status": "queued",
+    "status": "failed",
     "research": null,
     "reportSlug": "roof-doctors-los-angeles-county",
     "emailDraftId": null,
@@ -473,10 +481,14 @@
       {
         "action": "Queued by Lead Hunter (P2, score: 31.5)",
         "timestamp": "2026-03-08T04:28:02.786Z"
+      },
+      {
+        "action": "Auto-failed: invalid email \"(empty)\" — cannot send outreach",
+        "timestamp": "2026-03-09T14:00:04.143Z"
       }
     ],
     "createdAt": "2026-03-08T04:28:02.786Z",
-    "updatedAt": "2026-03-08T04:28:02.786Z",
+    "updatedAt": "2026-03-09T14:00:04.143Z",
     "huntSource": "hunt_1772943739618_2vrc",
     "huntScore": 31.5,
     "huntPriority": "P2"
@@ -493,7 +505,7 @@
     "reviewCount": 339,
     "rating": 4.8,
     "notes": "Auto-discovered by Lead Hunter. AI citation: not cited on 0/1 platforms. Competitors cited: The Electric Connection, Powell Electric, Prime Electric. Outreach-ready: YES (citation data + contact + differentiator verified). Differentiator: Established 2012, Tesla-certified, family-operated (father and step-son), 40+ years combined experience, 339 Google reviews",
-    "status": "email_drafted",
+    "status": "failed",
     "research": {
       "reviewCount": 339,
       "rating": 4.8,
@@ -599,10 +611,14 @@
       {
         "action": "Email send failed, saved as draft",
         "timestamp": "2026-03-09T05:29:03.612Z"
+      },
+      {
+        "action": "Auto-failed: invalid email \"Not found\" — cannot send outreach",
+        "timestamp": "2026-03-09T14:00:04.143Z"
       }
     ],
     "createdAt": "2026-03-09T02:13:45.365Z",
-    "updatedAt": "2026-03-09T05:29:03.612Z",
+    "updatedAt": "2026-03-09T14:00:04.143Z",
     "huntSource": "hunt_1773022316078_kn4h",
     "huntScore": 33.5,
     "huntPriority": "P2",
@@ -634,7 +650,7 @@
     "reviewCount": 239,
     "rating": 4.9,
     "notes": "Auto-discovered by Lead Hunter. AI citation: not cited on 0/1 platforms. Competitors cited: The Electric Connection, Powell Electric, Prime Electric. Outreach-ready: YES (citation data + contact + differentiator verified). Differentiator: Established 2012, family-owned, worked on major projects including Starbucks and Universal Studios Hollywood, 10+ years prior experience",
-    "status": "queued",
+    "status": "failed",
     "research": null,
     "reportSlug": "east-west-electric-89k6",
     "emailDraftId": null,
@@ -644,10 +660,14 @@
       {
         "action": "Queued by Lead Hunter (P2, score: 33.5, outreach-ready: true)",
         "timestamp": "2026-03-09T02:13:45.366Z"
+      },
+      {
+        "action": "Auto-failed: invalid email \"Not found\" — cannot send outreach",
+        "timestamp": "2026-03-09T14:00:04.143Z"
       }
     ],
     "createdAt": "2026-03-09T02:13:45.366Z",
-    "updatedAt": "2026-03-09T02:13:45.366Z",
+    "updatedAt": "2026-03-09T14:00:04.143Z",
     "huntSource": "hunt_1773022316078_kn4h",
     "huntScore": 33.5,
     "huntPriority": "P2",
@@ -679,7 +699,7 @@
     "reviewCount": 403,
     "rating": 4.9,
     "notes": "Auto-discovered by Lead Hunter. AI citation: not cited on 1/1 platforms. Competitors cited: The Electric Connection, Powell Electric, Prime Electric. Outreach-ready: YES (citation data + contact + differentiator verified). Differentiator: Established 2014, owner has 15+ years electrical experience, quick same-day availability, 230+ reviews on Yelp",
-    "status": "queued",
+    "status": "failed",
     "research": null,
     "reportSlug": "mh-electric-4twf",
     "emailDraftId": null,
@@ -689,10 +709,14 @@
       {
         "action": "Queued by Lead Hunter (P1, score: 39.5, outreach-ready: true)",
         "timestamp": "2026-03-09T02:13:45.366Z"
+      },
+      {
+        "action": "Auto-failed: invalid email \"(empty)\" — cannot send outreach",
+        "timestamp": "2026-03-09T14:00:04.143Z"
       }
     ],
     "createdAt": "2026-03-09T02:13:45.366Z",
-    "updatedAt": "2026-03-09T02:13:45.366Z",
+    "updatedAt": "2026-03-09T14:00:04.143Z",
     "huntSource": "hunt_1773022316078_kn4h",
     "huntScore": 39.5,
     "huntPriority": "P1",
@@ -866,7 +890,7 @@
     "reviewCount": 736,
     "rating": 4.8,
     "notes": "Auto-discovered by Lead Hunter. AI citation: not cited on 0/1 platforms. Competitors cited: The Electric Connection, Prime Electric, East West Electric. Outreach-ready: YES (citation data + contact + differentiator verified). Differentiator: Established 1971 (55 years), 2,766 building permits, family-owned, same-day service available, high BuildZoom score of 106",
-    "status": "queued",
+    "status": "failed",
     "research": null,
     "reportSlug": "powell-electric-j50w",
     "emailDraftId": null,
@@ -876,10 +900,14 @@
       {
         "action": "Queued by Lead Hunter (P2, score: 33.5, outreach-ready: true)",
         "timestamp": "2026-03-09T02:13:45.366Z"
+      },
+      {
+        "action": "Auto-failed: invalid email \"Not found\" — cannot send outreach",
+        "timestamp": "2026-03-09T14:00:04.144Z"
       }
     ],
     "createdAt": "2026-03-09T02:13:45.366Z",
-    "updatedAt": "2026-03-09T02:13:45.366Z",
+    "updatedAt": "2026-03-09T14:00:04.144Z",
     "huntSource": "hunt_1773022316078_kn4h",
     "huntScore": 33.5,
     "huntPriority": "P2",
@@ -956,7 +984,7 @@
     "reviewCount": 486,
     "rating": 4.8,
     "notes": "Auto-discovered by Lead Hunter. AI citation: not cited on 1/1 platforms. Competitors cited: The Electric Connection, Powell Electric, Prime Electric. Outreach-ready: YES (citation data + contact + differentiator verified). Differentiator: Established 2003, 486 Yelp reviews, works with major brands including Tesla and Bloomingdales, 10% off first-time customers",
-    "status": "queued",
+    "status": "failed",
     "research": null,
     "reportSlug": "b-k-electric-services-lmo5",
     "emailDraftId": null,
@@ -966,10 +994,14 @@
       {
         "action": "Queued by Lead Hunter (P1, score: 37.5, outreach-ready: true)",
         "timestamp": "2026-03-09T02:13:45.366Z"
+      },
+      {
+        "action": "Auto-failed: invalid email \"Not found\" — cannot send outreach",
+        "timestamp": "2026-03-09T14:00:04.144Z"
       }
     ],
     "createdAt": "2026-03-09T02:13:45.366Z",
-    "updatedAt": "2026-03-09T02:13:45.366Z",
+    "updatedAt": "2026-03-09T14:00:04.144Z",
     "huntSource": "hunt_1773022316078_kn4h",
     "huntScore": 37.5,
     "huntPriority": "P1",
@@ -1322,7 +1354,7 @@
     "reviewCount": 511,
     "rating": 4.1,
     "notes": "Auto-discovered by Lead Hunter. AI citation: not cited on 1/1 platforms. Competitors cited: Smile LA Downtown Modern Dentistry, Downtown Dental, Larchmont Dental Associates. Outreach-ready: YES (citation data + contact + differentiator verified). Differentiator: Multi-specialty office with all specialists under one roof, established 2011, accepts PPO insurance, affordable financing options available",
-    "status": "queued",
+    "status": "failed",
     "research": null,
     "reportSlug": "cal-dental-group-ji4o",
     "emailDraftId": null,
@@ -1332,10 +1364,14 @@
       {
         "action": "Queued by Lead Hunter (P1, score: 38, outreach-ready: true)",
         "timestamp": "2026-03-09T02:38:32.048Z"
+      },
+      {
+        "action": "Auto-failed: invalid email \"Not publicly available\" — cannot send outreach",
+        "timestamp": "2026-03-09T14:00:04.144Z"
       }
     ],
     "createdAt": "2026-03-09T02:38:32.048Z",
-    "updatedAt": "2026-03-09T02:38:32.048Z",
+    "updatedAt": "2026-03-09T14:00:04.144Z",
     "huntSource": "hunt_1773023618468_oxni",
     "huntScore": 38,
     "huntPriority": "P1",
@@ -1368,7 +1404,7 @@
     "reviewCount": 75,
     "rating": 4.6,
     "notes": "Auto-discovered by Lead Hunter. AI citation: not cited on 0/1 platforms. Competitors cited: Smile LA Downtown Modern Dentistry, Downtown Dental, Larchmont Dental Associates. Outreach-ready: YES (citation data + contact + differentiator verified). Differentiator: Over 40 years in practice since 1984, fewer than 10 dentists nationally with American Academy of Cosmetic Dentistry accreditation and Academy of General Dentistry mastership, UCLA Clinical Assistant Professor",
-    "status": "queued",
+    "status": "failed",
     "research": null,
     "reportSlug": "westside-dental-associates-9qt0",
     "emailDraftId": null,
@@ -1378,10 +1414,14 @@
       {
         "action": "Queued by Lead Hunter (P2, score: 34, outreach-ready: true)",
         "timestamp": "2026-03-09T02:38:32.048Z"
+      },
+      {
+        "action": "Auto-failed: invalid email \"Not publicly available\" — cannot send outreach",
+        "timestamp": "2026-03-09T14:00:04.144Z"
       }
     ],
     "createdAt": "2026-03-09T02:38:32.048Z",
-    "updatedAt": "2026-03-09T02:38:32.048Z",
+    "updatedAt": "2026-03-09T14:00:04.144Z",
     "huntSource": "hunt_1773023618468_oxni",
     "huntScore": 34,
     "huntPriority": "P2",
@@ -1413,7 +1453,7 @@
     "reviewCount": 1529,
     "rating": 4.8,
     "notes": "Auto-discovered by Lead Hunter. AI citation: not cited on 1/1 platforms. Competitors cited: Smile LA Downtown Modern Dentistry, Downtown Dental, Larchmont Dental Associates. Outreach-ready: YES (citation data + contact + differentiator verified). Differentiator: Over a decade in practice, multiple California locations, 1,500+ Google reviews, IV sedation available, specializes in anxiety-free dentistry",
-    "status": "queued",
+    "status": "failed",
     "research": null,
     "reportSlug": "fuller-smiles-los-angeles-louc",
     "emailDraftId": null,
@@ -1423,10 +1463,14 @@
       {
         "action": "Queued by Lead Hunter (P1, score: 40, outreach-ready: true)",
         "timestamp": "2026-03-09T02:38:32.048Z"
+      },
+      {
+        "action": "Auto-failed: invalid email \"Not publicly available\" — cannot send outreach",
+        "timestamp": "2026-03-09T14:00:04.144Z"
       }
     ],
     "createdAt": "2026-03-09T02:38:32.048Z",
-    "updatedAt": "2026-03-09T02:38:32.048Z",
+    "updatedAt": "2026-03-09T14:00:04.144Z",
     "huntSource": "hunt_1773023618468_oxni",
     "huntScore": 40,
     "huntPriority": "P1",
@@ -1504,7 +1548,7 @@
     "reviewCount": 481,
     "rating": 4.6,
     "notes": "Auto-discovered by Lead Hunter. AI citation: not cited on 0/1 platforms. Competitors cited: Smile LA Downtown Modern Dentistry, Larchmont Dental Associates, Westside Dental Associates. Outreach-ready: YES (citation data + contact + differentiator verified). Differentiator: 29 years in business since 1996, A+ BBB rating, over 20 years experience, same-day crown technology, convenient downtown location with validated parking",
-    "status": "queued",
+    "status": "failed",
     "research": null,
     "reportSlug": "downtown-dental-n4cc",
     "emailDraftId": null,
@@ -1514,10 +1558,14 @@
       {
         "action": "Queued by Lead Hunter (P1, score: 36, outreach-ready: true)",
         "timestamp": "2026-03-09T02:38:32.048Z"
+      },
+      {
+        "action": "Auto-failed: invalid email \"Not publicly available\" — cannot send outreach",
+        "timestamp": "2026-03-09T14:00:04.144Z"
       }
     ],
     "createdAt": "2026-03-09T02:38:32.048Z",
-    "updatedAt": "2026-03-09T02:38:32.048Z",
+    "updatedAt": "2026-03-09T14:00:04.144Z",
     "huntSource": "hunt_1773023618468_oxni",
     "huntScore": 36,
     "huntPriority": "P1",
