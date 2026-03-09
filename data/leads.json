@@ -697,5 +697,460 @@
     ],
     "huntDifferentiator": "Operating since 1982 (44 years), 3,911 reviews on Birdeye, 24/7 emergency service, 60-90 minute response guarantee, largest review count",
     "huntOutreachReady": true
+  },
+  {
+    "id": "lead_1773023912047_h4wfp1",
+    "businessName": "Smile LA Downtown Modern Dentistry",
+    "contactFirstName": "Dr.",
+    "contactEmail": "office@smilela.com",
+    "websiteUrl": "https://smilela.com/",
+    "city": "Los Angeles",
+    "serviceNiche": "Dentist",
+    "competitorName": "Downtown Dental",
+    "reviewCount": 536,
+    "rating": 4.9,
+    "notes": "Auto-discovered by Lead Hunter. AI citation: not cited on 0/1 platforms. Competitors cited: Downtown Dental, Larchmont Dental Associates, Westside Dental Associates. Outreach-ready: YES (citation data + contact + differentiator verified). Differentiator: Practicing advanced clinical dentistry since 1997, 4.9-star Google rating, Best of BusinessRate 2025 award recipient, multiple locations, specializes in cosmetic dentistry and AI-powered decay detection",
+    "status": "queued",
+    "research": null,
+    "reportSlug": "smile-la-downtown-modern-dentistry-dydv",
+    "emailDraftId": null,
+    "fabricationFlags": [],
+    "emDashClean": false,
+    "actionLog": [
+      {
+        "action": "Queued by Lead Hunter (P1, score: 36, outreach-ready: true)",
+        "timestamp": "2026-03-09T02:38:32.047Z"
+      }
+    ],
+    "createdAt": "2026-03-09T02:38:32.047Z",
+    "updatedAt": "2026-03-09T02:38:32.047Z",
+    "huntSource": "hunt_1773023618468_oxni",
+    "huntScore": 36,
+    "huntPriority": "P1",
+    "huntCitationResults": [
+      {
+        "platform": "chatgpt",
+        "query": "best Dentist in Los Angeles",
+        "cited": true,
+        "competitorsCited": [
+          "Downtown Dental",
+          "Larchmont Dental Associates",
+          "Westside Dental Associates",
+          "Personal Dental Office"
+        ]
+      }
+    ],
+    "huntDifferentiator": "Practicing advanced clinical dentistry since 1997, 4.9-star Google rating, Best of BusinessRate 2025 award recipient, multiple locations, specializes in cosmetic dentistry and AI-powered decay detection",
+    "huntOutreachReady": true
+  },
+  {
+    "id": "lead_1773023912048_txdo74",
+    "businessName": "Los Angeles Dental Arts",
+    "contactFirstName": "Dr.",
+    "contactEmail": "drburnett@losangelesdentalarts.com",
+    "websiteUrl": "https://www.losangelesdentalarts.com/",
+    "city": "Los Angeles",
+    "serviceNiche": "Dentist",
+    "competitorName": "Smile LA Downtown Modern Dentistry",
+    "reviewCount": 388,
+    "rating": 4.9,
+    "notes": "Auto-discovered by Lead Hunter. AI citation: not cited on 1/1 platforms. Competitors cited: Smile LA Downtown Modern Dentistry, Downtown Dental, Larchmont Dental Associates. Outreach-ready: YES (citation data + contact + differentiator verified). Differentiator: 32 years of experience in biomimetic dentistry, 4.9-star Google rating, only African American dentist to hold title of Director at USC School of Dentistry, specializes in tooth preservation",
+    "status": "queued",
+    "research": null,
+    "reportSlug": "los-angeles-dental-arts-pw00",
+    "emailDraftId": null,
+    "fabricationFlags": [],
+    "emDashClean": false,
+    "actionLog": [
+      {
+        "action": "Queued by Lead Hunter (P1, score: 40, outreach-ready: true)",
+        "timestamp": "2026-03-09T02:38:32.048Z"
+      }
+    ],
+    "createdAt": "2026-03-09T02:38:32.048Z",
+    "updatedAt": "2026-03-09T02:38:32.048Z",
+    "huntSource": "hunt_1773023618468_oxni",
+    "huntScore": 40,
+    "huntPriority": "P1",
+    "huntCitationResults": [
+      {
+        "platform": "chatgpt",
+        "query": "best Dentist in Los Angeles",
+        "cited": false,
+        "competitorsCited": [
+          "Smile LA Downtown Modern Dentistry",
+          "Downtown Dental",
+          "Larchmont Dental Associates",
+          "Westside Dental Associates",
+          "Personal Dental Office"
+        ]
+      }
+    ],
+    "huntDifferentiator": "32 years of experience in biomimetic dentistry, 4.9-star Google rating, only African American dentist to hold title of Director at USC School of Dentistry, specializes in tooth preservation",
+    "huntOutreachReady": true
+  },
+  {
+    "id": "lead_1773023912048_uzp5sb",
+    "businessName": "Happy Smiles",
+    "contactFirstName": "Dr.",
+    "contactEmail": "dalia@doctor.com",
+    "websiteUrl": "https://www.happysmilesla.com/en/",
+    "city": "Los Angeles",
+    "serviceNiche": "Dentist",
+    "competitorName": "Smile LA Downtown Modern Dentistry",
+    "reviewCount": 36,
+    "rating": null,
+    "notes": "Auto-discovered by Lead Hunter. AI citation: not cited on 1/1 platforms. Competitors cited: Smile LA Downtown Modern Dentistry, Downtown Dental, Larchmont Dental Associates. Outreach-ready: YES (citation data + contact + differentiator verified). Differentiator: Pediatric dentistry specialist, 10+ years treating children, affordable pricing, multiple locations, accepts financing options",
+    "status": "queued",
+    "research": null,
+    "reportSlug": "happy-smiles-cyu1",
+    "emailDraftId": null,
+    "fabricationFlags": [],
+    "emDashClean": false,
+    "actionLog": [
+      {
+        "action": "Queued by Lead Hunter (P2, score: 30, outreach-ready: true)",
+        "timestamp": "2026-03-09T02:38:32.048Z"
+      }
+    ],
+    "createdAt": "2026-03-09T02:38:32.048Z",
+    "updatedAt": "2026-03-09T02:38:32.048Z",
+    "huntSource": "hunt_1773023618468_oxni",
+    "huntScore": 30,
+    "huntPriority": "P2",
+    "huntCitationResults": [
+      {
+        "platform": "chatgpt",
+        "query": "best Dentist in Los Angeles",
+        "cited": false,
+        "competitorsCited": [
+          "Smile LA Downtown Modern Dentistry",
+          "Downtown Dental",
+          "Larchmont Dental Associates",
+          "Westside Dental Associates",
+          "Personal Dental Office"
+        ]
+      }
+    ],
+    "huntDifferentiator": "Pediatric dentistry specialist, 10+ years treating children, affordable pricing, multiple locations, accepts financing options",
+    "huntOutreachReady": true
+  },
+  {
+    "id": "lead_1773023912048_hsyrx0",
+    "businessName": "Larchmont Dental Associates",
+    "contactFirstName": "Dr.",
+    "contactEmail": "larchmontdentists@gmail.com",
+    "websiteUrl": "https://www.larchmontdentists.com",
+    "city": "Los Angeles",
+    "serviceNiche": "Dentist",
+    "competitorName": "Smile LA Downtown Modern Dentistry",
+    "reviewCount": 118,
+    "rating": 5,
+    "notes": "Auto-discovered by Lead Hunter. AI citation: not cited on 0/1 platforms. Competitors cited: Smile LA Downtown Modern Dentistry, Downtown Dental, Westside Dental Associates. Outreach-ready: YES (citation data + contact + differentiator verified). Differentiator: Established 2016, 5.0-star rating on Rank My Dentist, family-owned practice, known for pain-free procedures and comprehensive cosmetic dentistry",
+    "status": "queued",
+    "research": null,
+    "reportSlug": "larchmont-dental-associates-ja1p",
+    "emailDraftId": null,
+    "fabricationFlags": [],
+    "emDashClean": false,
+    "actionLog": [
+      {
+        "action": "Queued by Lead Hunter (P1, score: 36, outreach-ready: true)",
+        "timestamp": "2026-03-09T02:38:32.048Z"
+      }
+    ],
+    "createdAt": "2026-03-09T02:38:32.048Z",
+    "updatedAt": "2026-03-09T02:38:32.048Z",
+    "huntSource": "hunt_1773023618468_oxni",
+    "huntScore": 36,
+    "huntPriority": "P1",
+    "huntCitationResults": [
+      {
+        "platform": "chatgpt",
+        "query": "best Dentist in Los Angeles",
+        "cited": true,
+        "competitorsCited": [
+          "Smile LA Downtown Modern Dentistry",
+          "Downtown Dental",
+          "Westside Dental Associates",
+          "Personal Dental Office"
+        ]
+      }
+    ],
+    "huntDifferentiator": "Established 2016, 5.0-star rating on Rank My Dentist, family-owned practice, known for pain-free procedures and comprehensive cosmetic dentistry",
+    "huntOutreachReady": true
+  },
+  {
+    "id": "lead_1773023912048_uog5n1",
+    "businessName": "Smileywood Dental Office",
+    "contactFirstName": "Dr.",
+    "contactEmail": "e_zau17@yahoo.com",
+    "websiteUrl": "https://www.smileywooddentaloffice.com/",
+    "city": "Los Angeles",
+    "serviceNiche": "Dentist",
+    "competitorName": "Smile LA Downtown Modern Dentistry",
+    "reviewCount": 76,
+    "rating": 5,
+    "notes": "Auto-discovered by Lead Hunter. AI citation: not cited on 1/1 platforms. Competitors cited: Smile LA Downtown Modern Dentistry, Downtown Dental, Larchmont Dental Associates. Outreach-ready: YES (citation data + contact + differentiator verified). Differentiator: Over 20 years experience, 5.0-star rating, specializes in cosmetic and restorative dentistry, known for patient comfort and educational approach",
+    "status": "queued",
+    "research": null,
+    "reportSlug": "smileywood-dental-office-i9jv",
+    "emailDraftId": null,
+    "fabricationFlags": [],
+    "emDashClean": false,
+    "actionLog": [
+      {
+        "action": "Queued by Lead Hunter (P1, score: 38, outreach-ready: true)",
+        "timestamp": "2026-03-09T02:38:32.048Z"
+      }
+    ],
+    "createdAt": "2026-03-09T02:38:32.048Z",
+    "updatedAt": "2026-03-09T02:38:32.048Z",
+    "huntSource": "hunt_1773023618468_oxni",
+    "huntScore": 38,
+    "huntPriority": "P1",
+    "huntCitationResults": [
+      {
+        "platform": "chatgpt",
+        "query": "best Dentist in Los Angeles",
+        "cited": false,
+        "competitorsCited": [
+          "Smile LA Downtown Modern Dentistry",
+          "Downtown Dental",
+          "Larchmont Dental Associates",
+          "Westside Dental Associates",
+          "Personal Dental Office"
+        ]
+      }
+    ],
+    "huntDifferentiator": "Over 20 years experience, 5.0-star rating, specializes in cosmetic and restorative dentistry, known for patient comfort and educational approach",
+    "huntOutreachReady": true
+  },
+  {
+    "id": "lead_1773023912048_k5tpiw",
+    "businessName": "Cal Dental Group",
+    "contactFirstName": "Dr.",
+    "contactEmail": "Not publicly available",
+    "websiteUrl": "https://caldentalgroup.com/",
+    "city": "Los Angeles",
+    "serviceNiche": "Dentist",
+    "competitorName": "Smile LA Downtown Modern Dentistry",
+    "reviewCount": 511,
+    "rating": 4.1,
+    "notes": "Auto-discovered by Lead Hunter. AI citation: not cited on 1/1 platforms. Competitors cited: Smile LA Downtown Modern Dentistry, Downtown Dental, Larchmont Dental Associates. Outreach-ready: YES (citation data + contact + differentiator verified). Differentiator: Multi-specialty office with all specialists under one roof, established 2011, accepts PPO insurance, affordable financing options available",
+    "status": "queued",
+    "research": null,
+    "reportSlug": "cal-dental-group-ji4o",
+    "emailDraftId": null,
+    "fabricationFlags": [],
+    "emDashClean": false,
+    "actionLog": [
+      {
+        "action": "Queued by Lead Hunter (P1, score: 38, outreach-ready: true)",
+        "timestamp": "2026-03-09T02:38:32.048Z"
+      }
+    ],
+    "createdAt": "2026-03-09T02:38:32.048Z",
+    "updatedAt": "2026-03-09T02:38:32.048Z",
+    "huntSource": "hunt_1773023618468_oxni",
+    "huntScore": 38,
+    "huntPriority": "P1",
+    "huntCitationResults": [
+      {
+        "platform": "chatgpt",
+        "query": "best Dentist in Los Angeles",
+        "cited": false,
+        "competitorsCited": [
+          "Smile LA Downtown Modern Dentistry",
+          "Downtown Dental",
+          "Larchmont Dental Associates",
+          "Westside Dental Associates",
+          "Personal Dental Office"
+        ]
+      }
+    ],
+    "huntDifferentiator": "Multi-specialty office with all specialists under one roof, established 2011, accepts PPO insurance, affordable financing options available",
+    "huntOutreachReady": true
+  },
+  {
+    "id": "lead_1773023912048_jyq7ah",
+    "businessName": "Westside Dental Associates",
+    "contactFirstName": "Dr.",
+    "contactEmail": "Not publicly available",
+    "websiteUrl": "https://www.leslatnerdds.com/",
+    "city": "Los Angeles",
+    "serviceNiche": "Dentist",
+    "competitorName": "Smile LA Downtown Modern Dentistry",
+    "reviewCount": 75,
+    "rating": 4.6,
+    "notes": "Auto-discovered by Lead Hunter. AI citation: not cited on 0/1 platforms. Competitors cited: Smile LA Downtown Modern Dentistry, Downtown Dental, Larchmont Dental Associates. Outreach-ready: YES (citation data + contact + differentiator verified). Differentiator: Over 40 years in practice since 1984, fewer than 10 dentists nationally with American Academy of Cosmetic Dentistry accreditation and Academy of General Dentistry mastership, UCLA Clinical Assistant Professor",
+    "status": "queued",
+    "research": null,
+    "reportSlug": "westside-dental-associates-9qt0",
+    "emailDraftId": null,
+    "fabricationFlags": [],
+    "emDashClean": false,
+    "actionLog": [
+      {
+        "action": "Queued by Lead Hunter (P2, score: 34, outreach-ready: true)",
+        "timestamp": "2026-03-09T02:38:32.048Z"
+      }
+    ],
+    "createdAt": "2026-03-09T02:38:32.048Z",
+    "updatedAt": "2026-03-09T02:38:32.048Z",
+    "huntSource": "hunt_1773023618468_oxni",
+    "huntScore": 34,
+    "huntPriority": "P2",
+    "huntCitationResults": [
+      {
+        "platform": "chatgpt",
+        "query": "best Dentist in Los Angeles",
+        "cited": true,
+        "competitorsCited": [
+          "Smile LA Downtown Modern Dentistry",
+          "Downtown Dental",
+          "Larchmont Dental Associates",
+          "Personal Dental Office"
+        ]
+      }
+    ],
+    "huntDifferentiator": "Over 40 years in practice since 1984, fewer than 10 dentists nationally with American Academy of Cosmetic Dentistry accreditation and Academy of General Dentistry mastership, UCLA Clinical Assistant Professor",
+    "huntOutreachReady": true
+  },
+  {
+    "id": "lead_1773023912048_wpu0wc",
+    "businessName": "Fuller Smiles Los Angeles",
+    "contactFirstName": "Dr.",
+    "contactEmail": "Not publicly available",
+    "websiteUrl": "https://dentistoflosangeles.com/",
+    "city": "Los Angeles",
+    "serviceNiche": "Dentist",
+    "competitorName": "Smile LA Downtown Modern Dentistry",
+    "reviewCount": 1529,
+    "rating": 4.8,
+    "notes": "Auto-discovered by Lead Hunter. AI citation: not cited on 1/1 platforms. Competitors cited: Smile LA Downtown Modern Dentistry, Downtown Dental, Larchmont Dental Associates. Outreach-ready: YES (citation data + contact + differentiator verified). Differentiator: Over a decade in practice, multiple California locations, 1,500+ Google reviews, IV sedation available, specializes in anxiety-free dentistry",
+    "status": "queued",
+    "research": null,
+    "reportSlug": "fuller-smiles-los-angeles-louc",
+    "emailDraftId": null,
+    "fabricationFlags": [],
+    "emDashClean": false,
+    "actionLog": [
+      {
+        "action": "Queued by Lead Hunter (P1, score: 40, outreach-ready: true)",
+        "timestamp": "2026-03-09T02:38:32.048Z"
+      }
+    ],
+    "createdAt": "2026-03-09T02:38:32.048Z",
+    "updatedAt": "2026-03-09T02:38:32.048Z",
+    "huntSource": "hunt_1773023618468_oxni",
+    "huntScore": 40,
+    "huntPriority": "P1",
+    "huntCitationResults": [
+      {
+        "platform": "chatgpt",
+        "query": "best Dentist in Los Angeles",
+        "cited": false,
+        "competitorsCited": [
+          "Smile LA Downtown Modern Dentistry",
+          "Downtown Dental",
+          "Larchmont Dental Associates",
+          "Westside Dental Associates",
+          "Personal Dental Office"
+        ]
+      }
+    ],
+    "huntDifferentiator": "Over a decade in practice, multiple California locations, 1,500+ Google reviews, IV sedation available, specializes in anxiety-free dentistry",
+    "huntOutreachReady": true
+  },
+  {
+    "id": "lead_1773023912048_yzl6om",
+    "businessName": "Personal Dental Office",
+    "contactFirstName": "Dr.",
+    "contactEmail": "renata623@gmail.com",
+    "websiteUrl": "https://www.personaldentaloffice.com/",
+    "city": "Los Angeles",
+    "serviceNiche": "Dentist",
+    "competitorName": "Smile LA Downtown Modern Dentistry",
+    "reviewCount": 279,
+    "rating": 4.7,
+    "notes": "Auto-discovered by Lead Hunter. AI citation: not cited on 0/1 platforms. Competitors cited: Smile LA Downtown Modern Dentistry, Downtown Dental, Larchmont Dental Associates. Outreach-ready: YES (citation data + contact + differentiator verified). Differentiator: Multi-specialty practice with 15+ dental professionals, decades of experience, comprehensive services from general to oral surgery under one roof, patient education focus",
+    "status": "queued",
+    "research": null,
+    "reportSlug": "personal-dental-office-00fd",
+    "emailDraftId": null,
+    "fabricationFlags": [],
+    "emDashClean": false,
+    "actionLog": [
+      {
+        "action": "Queued by Lead Hunter (P1, score: 36, outreach-ready: true)",
+        "timestamp": "2026-03-09T02:38:32.048Z"
+      }
+    ],
+    "createdAt": "2026-03-09T02:38:32.048Z",
+    "updatedAt": "2026-03-09T02:38:32.048Z",
+    "huntSource": "hunt_1773023618468_oxni",
+    "huntScore": 36,
+    "huntPriority": "P1",
+    "huntCitationResults": [
+      {
+        "platform": "chatgpt",
+        "query": "best Dentist in Los Angeles",
+        "cited": true,
+        "competitorsCited": [
+          "Smile LA Downtown Modern Dentistry",
+          "Downtown Dental",
+          "Larchmont Dental Associates",
+          "Westside Dental Associates"
+        ]
+      }
+    ],
+    "huntDifferentiator": "Multi-specialty practice with 15+ dental professionals, decades of experience, comprehensive services from general to oral surgery under one roof, patient education focus",
+    "huntOutreachReady": true
+  },
+  {
+    "id": "lead_1773023912048_a2z84i",
+    "businessName": "Downtown Dental",
+    "contactFirstName": "Dr.",
+    "contactEmail": "Not publicly available",
+    "websiteUrl": "https://www.downtowndentalla.com/",
+    "city": "Los Angeles",
+    "serviceNiche": "Dentist",
+    "competitorName": "Smile LA Downtown Modern Dentistry",
+    "reviewCount": 481,
+    "rating": 4.6,
+    "notes": "Auto-discovered by Lead Hunter. AI citation: not cited on 0/1 platforms. Competitors cited: Smile LA Downtown Modern Dentistry, Larchmont Dental Associates, Westside Dental Associates. Outreach-ready: YES (citation data + contact + differentiator verified). Differentiator: 29 years in business since 1996, A+ BBB rating, over 20 years experience, same-day crown technology, convenient downtown location with validated parking",
+    "status": "queued",
+    "research": null,
+    "reportSlug": "downtown-dental-n4cc",
+    "emailDraftId": null,
+    "fabricationFlags": [],
+    "emDashClean": false,
+    "actionLog": [
+      {
+        "action": "Queued by Lead Hunter (P1, score: 36, outreach-ready: true)",
+        "timestamp": "2026-03-09T02:38:32.048Z"
+      }
+    ],
+    "createdAt": "2026-03-09T02:38:32.048Z",
+    "updatedAt": "2026-03-09T02:38:32.048Z",
+    "huntSource": "hunt_1773023618468_oxni",
+    "huntScore": 36,
+    "huntPriority": "P1",
+    "huntCitationResults": [
+      {
+        "platform": "chatgpt",
+        "query": "best Dentist in Los Angeles",
+        "cited": true,
+        "competitorsCited": [
+          "Smile LA Downtown Modern Dentistry",
+          "Larchmont Dental Associates",
+          "Westside Dental Associates",
+          "Personal Dental Office"
+        ]
+      }
+    ],
+    "huntDifferentiator": "29 years in business since 1996, A+ BBB rating, over 20 years experience, same-day crown technology, convenient downtown location with validated parking",
+    "huntOutreachReady": true
   }
 ]

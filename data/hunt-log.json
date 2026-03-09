@@ -74,5 +74,20 @@
     "outreachReadyCount": 9,
     "errors": [],
     "completedAt": "2026-03-09T02:13:45.366Z"
+  },
+  {
+    "id": "hunt_1773023618468_oxni",
+    "startedAt": "2026-03-09T02:33:38.468Z",
+    "trigger": "manual",
+    "vertical": "Dentist",
+    "metro": "Los Angeles, CA",
+    "prospectsFound": 10,
+    "p1Queued": 8,
+    "p2Queued": 2,
+    "p3Backlogged": 0,
+    "duplicatesSkipped": 0,
+    "outreachReadyCount": 10,
+    "errors": [],
+    "completedAt": "2026-03-09T02:38:32.048Z"
   }
 ]
