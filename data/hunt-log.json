@@ -59,5 +59,20 @@
     "outreachReadyCount": 0,
     "errors": [],
     "completedAt": "2026-03-09T01:26:44.736Z"
+  },
+  {
+    "id": "hunt_1773022316078_kn4h",
+    "startedAt": "2026-03-09T02:11:56.078Z",
+    "trigger": "manual",
+    "vertical": "Electrician",
+    "metro": "Los Angeles, CA",
+    "prospectsFound": 10,
+    "p1Queued": 4,
+    "p2Queued": 5,
+    "p3Backlogged": 1,
+    "duplicatesSkipped": 0,
+    "outreachReadyCount": 9,
+    "errors": [],
+    "completedAt": "2026-03-09T02:13:45.366Z"
   }
 ]

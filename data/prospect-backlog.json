@@ -84,5 +84,41 @@
       "total": 20.5
     },
     "priority": "P3"
+  },
+  {
+    "businessName": "Volta Electric",
+    "contactName": "Roy",
+    "website": "https://www.voltaelectricinc.com/",
+    "city": "Los Angeles",
+    "state": "CA",
+    "serviceNiche": "Electrician",
+    "painSignals": [
+      "Volta Electric has multiple Google reviews but is not recommended by AI assistants for \"Electrician in Los Angeles\""
+    ],
+    "citationResults": [
+      {
+        "platform": "chatgpt",
+        "query": "best Electrician in Los Angeles",
+        "cited": false,
+        "competitorsCited": [
+          "The Electric Connection",
+          "Powell Electric",
+          "Prime Electric",
+          "East West Electric",
+          "Alex & Alex Electrical Services"
+        ]
+      }
+    ],
+    "differentiator": "Modern electrical contractor, specializes in EV charger installation, recently expanded Santa Monica service area, positive Trustindex reviews",
+    "outreachReady": false,
+    "scoreBreakdown": {
+      "aiBlindSpot": 9,
+      "reputationStrength": 0,
+      "contentGap": 6,
+      "revenuePotential": 5,
+      "contactQuality": 2.5,
+      "total": 22.5
+    },
+    "priority": "P3"
   }
 ]
