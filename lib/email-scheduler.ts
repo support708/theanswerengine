@@ -75,6 +75,25 @@ export async function logSend(leadId: string, email: string, type: SendLogEntry[
   await writeSendLog(log);
 }
 
+/**
+ * Prepare a send log entry and return the file content for batching into
+ * an atomic flush (avoids a separate GitHub commit).
+ */
+export async function prepareSendLogFile(
+  leadId: string,
+  email: string,
+  type: SendLogEntry['type'],
+): Promise<{ path: string; content: string }> {
+  const log = await readSendLog();
+  log.entries.push({
+    leadId,
+    email,
+    type,
+    sentAt: new Date().toISOString(),
+  });
+  return { path: GH_SEND_LOG, content: JSON.stringify(log, null, 2) };
+}
+
 /** Get current daily send limit based on domain warmup weeks */
 export async function getDailyLimit(): Promise<number> {
   const log = await readSendLog();

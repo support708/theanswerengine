@@ -60,7 +60,10 @@ async function handleRequest(req: NextRequest) {
       let messageId = '';
       let threadId = '';
 
+      // Log send BEFORE sending to prevent double-send on crash
       if (isGmailConfigured() && lead.contactEmail) {
+        await logSend(lead.id, lead.contactEmail, followUpType);
+
         try {
           const result = await sendGmailMessage({
             to: lead.contactEmail,
@@ -93,11 +96,6 @@ async function handleRequest(req: NextRequest) {
             },
           ],
         });
-
-        // Log the send for rate limiting
-        if (sent) {
-          await logSend(lead.id, lead.contactEmail, followUpType);
-        }
 
         // Only notify on failure
         if (!sent) {

@@ -18,7 +18,7 @@ import { getIndustryColors, CALENDLY_URL, REPORT_FOOTER } from '@/lib/report-tem
 import { runFabricationScan, runEmDashScan, stripEmDashes } from '@/lib/fabrication-scan';
 import { buildEmailSubject, buildEmailBody, buildHtmlEmailBody } from '@/lib/gmail';
 import { sendGmailMessage, isGmailConfigured } from '@/lib/gmail-api';
-import { canSendToday, logSend } from '@/lib/email-scheduler';
+import { canSendToday, prepareSendLogFile } from '@/lib/email-scheduler';
 import { notifyPipelineFailure, sendMessage } from '@/lib/telegram';
 import { isDeployConfigured } from '@/lib/deploy';
 import type { Lead, ResearchResults } from '@/lib/types';
@@ -82,9 +82,10 @@ async function handleRequest(req: NextRequest) {
         if (lastAction) {
           const elapsed = Date.now() - new Date(lastAction.timestamp).getTime();
           if (elapsed > STALE_THRESHOLD) {
+            const oldStatus = lead.status;
             lead.status = 'queued';
             lead.actionLog.push({
-              action: `Auto-recovered from stuck "${lead.status}" status (${Math.round(elapsed / 60000)}m stale)`,
+              action: `Auto-recovered from stuck "${oldStatus}" status (${Math.round(elapsed / 60000)}m stale)`,
               timestamp: new Date().toISOString(),
             });
             lead.updatedAt = new Date().toISOString();
@@ -98,16 +99,19 @@ async function handleRequest(req: NextRequest) {
       await flushLeadsWithFiles(leads, [], 'pipeline: recover stuck leads');
     }
 
-    // Pick 1 queued lead with an email address
-    const queued = leads.filter(l => l.status === 'queued' && l.contactEmail).slice(0, 1);
+    // Pick leads to process: 1 queued lead OR 1 report_ready lead that needs email retry
+    const pickable = ['queued', 'report_ready'];
+    const toPick = leads.filter(l => pickable.includes(l.status) && l.contactEmail).slice(0, 1);
 
-    if (queued.length === 0) {
-      return NextResponse.json({ success: true, message: 'No queued leads to process' });
+    if (toPick.length === 0) {
+      return NextResponse.json({ success: true, message: 'No leads to process' });
     }
 
     const results = [];
-    for (const lead of queued) {
-      const result = await processLeadWithRetry(lead.id, step, leads);
+    for (const lead of toPick) {
+      // report_ready leads skip straight to email step
+      const pickStep = lead.status === 'report_ready' ? 'email' : step;
+      const result = await processLeadWithRetry(lead.id, pickStep, leads);
       results.push(result);
     }
 
@@ -515,8 +519,8 @@ Generate the complete HTML now.`;
           const body = buildEmailBody(lead);
           const htmlBody = buildHtmlEmailBody(lead);
 
-          // Log send BEFORE sending to prevent race condition
-          await logSend(lead.id, lead.contactEmail, 'initial');
+          // Prepare send log entry for batching (no separate commit)
+          const sendLogFile = await prepareSendLogFile(lead.id, lead.contactEmail, 'initial');
 
           let sent = false;
           let messageId = '';
@@ -548,10 +552,10 @@ Generate the complete HTML now.`;
           });
           lead.updatedAt = new Date().toISOString();
 
-          // === FLUSH 2: Atomic commit — leads.json with final status ===
+          // === FLUSH 2: Atomic commit — leads.json + send-log.json ===
           await flushLeadsWithFiles(
             leads,
-            [],
+            [sendLogFile],
             `pipeline: ${lead.businessName} — ${sent ? 'email sent' : 'email draft'}`,
           );
 
