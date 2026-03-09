@@ -120,5 +120,197 @@
       "total": 22.5
     },
     "priority": "P3"
+  },
+  {
+    "businessName": "AJ Chiropractic Clinic",
+    "contactName": "Dr. Jake Yang",
+    "website": "https://chiroyang.com/",
+    "phone": "(213) 471-9128",
+    "city": "Los Angeles",
+    "state": "CA",
+    "serviceNiche": "Chiropractor",
+    "reviewCount": 90,
+    "rating": 5,
+    "painSignals": [
+      "AJ Chiropractic Clinic has 90 Google reviews but is not recommended by AI assistants for \"Chiropractor in Los Angeles\""
+    ],
+    "citationResults": [
+      {
+        "platform": "chatgpt",
+        "query": "best Chiropractor in Los Angeles",
+        "cited": false,
+        "competitorsCited": [
+          "Wilshire Center Chiropractic",
+          "Yonsei Chiropractic Clinic",
+          "The Joint Chiropractic",
+          "BodyPro Chiropractic & Sports Medicine",
+          "Chiropractic Care Center"
+        ]
+      }
+    ],
+    "differentiator": "Established 2011, Dr. Yang certified in Graston Technique and sports medicine, specializes in spinal decompression",
+    "outreachReady": true,
+    "scoreBreakdown": {
+      "aiBlindSpot": 9,
+      "reputationStrength": 10.5,
+      "contentGap": 6,
+      "revenuePotential": 6,
+      "contactQuality": 3,
+      "total": 34.5
+    },
+    "priority": "P2"
+  },
+  {
+    "businessName": "Yonsei Chiropractic Clinic",
+    "contactName": "Dr. Hyeon Joo Park",
+    "website": "https://www.yonseichiro.com/",
+    "phone": "(213) 381-5500",
+    "city": "Los Angeles",
+    "state": "CA",
+    "serviceNiche": "Chiropractor",
+    "reviewCount": 122,
+    "rating": 4.9,
+    "painSignals": [
+      "Yonsei Chiropractic Clinic appears in AI recommendations but may have optimization gaps"
+    ],
+    "citationResults": [
+      {
+        "platform": "chatgpt",
+        "query": "best Chiropractor in Los Angeles",
+        "cited": true,
+        "competitorsCited": [
+          "Wilshire Center Chiropractic",
+          "The Joint Chiropractic",
+          "BodyPro Chiropractic & Sports Medicine",
+          "Chiropractic Care Center"
+        ]
+      }
+    ],
+    "differentiator": "Established 2001, 24+ years in business, first Korean American chiropractic clinic, specializes in upper cervical and TMJ care",
+    "outreachReady": true,
+    "scoreBreakdown": {
+      "aiBlindSpot": 5,
+      "reputationStrength": 12.5,
+      "contentGap": 6,
+      "revenuePotential": 6,
+      "contactQuality": 3,
+      "total": 32.5
+    },
+    "priority": "P2"
+  },
+  {
+    "businessName": "The Joint Chiropractic",
+    "contactName": "Not found",
+    "website": "https://www.thejoint.com/california/los-angeles/wilshire-highland-31146",
+    "phone": "(323) 870-7432",
+    "city": "Los Angeles",
+    "state": "CA",
+    "serviceNiche": "Chiropractor",
+    "reviewCount": 353,
+    "rating": 4.4,
+    "painSignals": [
+      "The Joint Chiropractic appears in AI recommendations but may have optimization gaps"
+    ],
+    "citationResults": [
+      {
+        "platform": "chatgpt",
+        "query": "best Chiropractor in Los Angeles",
+        "cited": true,
+        "competitorsCited": [
+          "Wilshire Center Chiropractic",
+          "Yonsei Chiropractic Clinic",
+          "BodyPro Chiropractic & Sports Medicine",
+          "Chiropractic Care Center"
+        ]
+      }
+    ],
+    "differentiator": "Founded 1999, largest chiropractic franchise network with 500+ locations, walk-in welcome, affordable transparent pricing",
+    "outreachReady": true,
+    "scoreBreakdown": {
+      "aiBlindSpot": 5,
+      "reputationStrength": 10.5,
+      "contentGap": 6,
+      "revenuePotential": 6,
+      "contactQuality": 3,
+      "total": 30.5
+    },
+    "priority": "P2"
+  },
+  {
+    "businessName": "Chiropractic Care Center",
+    "contactName": "Dr. Edward Pan",
+    "website": "https://www.chirocaredowntown.com/",
+    "phone": "(213) 627-0287",
+    "city": "Los Angeles",
+    "state": "CA",
+    "serviceNiche": "Chiropractor",
+    "reviewCount": 65,
+    "rating": 4.7,
+    "painSignals": [
+      "Chiropractic Care Center appears in AI recommendations but may have optimization gaps"
+    ],
+    "citationResults": [
+      {
+        "platform": "chatgpt",
+        "query": "best Chiropractor in Los Angeles",
+        "cited": true,
+        "competitorsCited": [
+          "Wilshire Center Chiropractic",
+          "Yonsei Chiropractic Clinic",
+          "The Joint Chiropractic",
+          "BodyPro Chiropractic & Sports Medicine"
+        ]
+      }
+    ],
+    "differentiator": "Best Chiropractor awarded by LA Magazine 2018-2020, LA Downtown News 2014 & 2017, established 2007, specializes in spinal decompression",
+    "outreachReady": true,
+    "scoreBreakdown": {
+      "aiBlindSpot": 5,
+      "reputationStrength": 10.5,
+      "contentGap": 6,
+      "revenuePotential": 6,
+      "contactQuality": 3,
+      "total": 30.5
+    },
+    "priority": "P2"
+  },
+  {
+    "businessName": "The LA Chiropractor",
+    "contactName": "Dr. Ben Shamoiel",
+    "website": "https://www.thelachiropractor.com/",
+    "phone": "(310) 478-7775",
+    "city": "Los Angeles",
+    "state": "CA",
+    "serviceNiche": "Chiropractor",
+    "reviewCount": 76,
+    "rating": 5,
+    "painSignals": [
+      "The LA Chiropractor has 76 Google reviews but is not recommended by AI assistants for \"Chiropractor in Los Angeles\""
+    ],
+    "citationResults": [
+      {
+        "platform": "chatgpt",
+        "query": "best Chiropractor in Los Angeles",
+        "cited": false,
+        "competitorsCited": [
+          "Wilshire Center Chiropractic",
+          "Yonsei Chiropractic Clinic",
+          "The Joint Chiropractic",
+          "BodyPro Chiropractic & Sports Medicine",
+          "Chiropractic Care Center"
+        ]
+      }
+    ],
+    "differentiator": "Specializes in post-concussion syndrome and upper cervical care, patients travel from other cities/states for migraine relief",
+    "outreachReady": true,
+    "scoreBreakdown": {
+      "aiBlindSpot": 9,
+      "reputationStrength": 10.5,
+      "contentGap": 6,
+      "revenuePotential": 6,
+      "contactQuality": 3,
+      "total": 34.5
+    },
+    "priority": "P2"
   }
 ]

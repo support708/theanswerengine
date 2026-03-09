@@ -89,5 +89,20 @@
     "outreachReadyCount": 10,
     "errors": [],
     "completedAt": "2026-03-09T02:38:32.048Z"
+  },
+  {
+    "id": "hunt_1773061221808_5npi",
+    "startedAt": "2026-03-09T13:00:21.808Z",
+    "trigger": "cron_daily",
+    "vertical": "Chiropractor",
+    "metro": "Los Angeles, CA",
+    "prospectsFound": 10,
+    "p1Queued": 3,
+    "p2Queued": 2,
+    "p3Backlogged": 5,
+    "duplicatesSkipped": 0,
+    "outreachReadyCount": 5,
+    "errors": [],
+    "completedAt": "2026-03-09T13:01:29.519Z"
   }
 ]

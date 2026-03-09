@@ -1536,5 +1536,233 @@
     ],
     "huntDifferentiator": "29 years in business since 1996, A+ BBB rating, over 20 years experience, same-day crown technology, convenient downtown location with validated parking",
     "huntOutreachReady": true
+  },
+  {
+    "id": "lead_1773061289518_syna8q",
+    "businessName": "Wilshire Center Chiropractic",
+    "contactFirstName": "Dr.",
+    "contactEmail": "wilshirechiro@gmail.com",
+    "websiteUrl": "https://wilshirecenterchiro.com/",
+    "city": "Los Angeles",
+    "serviceNiche": "Chiropractor",
+    "competitorName": "Yonsei Chiropractic Clinic",
+    "reviewCount": 39,
+    "rating": 5,
+    "notes": "Auto-discovered by Lead Hunter. AI citation: not cited on 0/1 platforms. Competitors cited: Yonsei Chiropractic Clinic, The Joint Chiropractic, BodyPro Chiropractic & Sports Medicine. Outreach-ready: YES (citation data + contact + differentiator verified). Differentiator: Established 2008, specialized in spinal decompression, private treatment rooms, integrated team with acupuncture and massage",
+    "status": "queued",
+    "research": null,
+    "reportSlug": "wilshire-center-chiropractic-1djo",
+    "emailDraftId": null,
+    "fabricationFlags": [],
+    "emDashClean": false,
+    "actionLog": [
+      {
+        "action": "Queued by Lead Hunter (P2, score: 31, outreach-ready: true)",
+        "timestamp": "2026-03-09T13:01:29.518Z"
+      }
+    ],
+    "createdAt": "2026-03-09T13:01:29.518Z",
+    "updatedAt": "2026-03-09T13:01:29.518Z",
+    "huntSource": "hunt_1773061221808_5npi",
+    "huntScore": 31,
+    "huntPriority": "P2",
+    "huntCitationResults": [
+      {
+        "platform": "chatgpt",
+        "query": "best Chiropractor in Los Angeles",
+        "cited": true,
+        "competitorsCited": [
+          "Yonsei Chiropractic Clinic",
+          "The Joint Chiropractic",
+          "BodyPro Chiropractic & Sports Medicine",
+          "Chiropractic Care Center"
+        ]
+      }
+    ],
+    "huntDifferentiator": "Established 2008, specialized in spinal decompression, private treatment rooms, integrated team with acupuncture and massage",
+    "huntOutreachReady": true
+  },
+  {
+    "id": "lead_1773061289518_64ehyf",
+    "businessName": "Koyama Chiropractic & Acupuncture Clinic",
+    "contactFirstName": "Dr.",
+    "contactEmail": "saoriacupuncture@gmail.com",
+    "websiteUrl": "https://www.ko-yamaclinic.com/",
+    "city": "Los Angeles",
+    "serviceNiche": "Chiropractor",
+    "competitorName": "Wilshire Center Chiropractic",
+    "reviewCount": 157,
+    "rating": 4.5,
+    "notes": "Auto-discovered by Lead Hunter. AI citation: not cited on 1/1 platforms. Competitors cited: Wilshire Center Chiropractic, Yonsei Chiropractic Clinic, The Joint Chiropractic. Outreach-ready: YES (citation data + contact + differentiator verified). Differentiator: Established 2012, 32+ years clinic history, specializes in Japanese color therapy, applied kinesiology, acupuncture",
+    "status": "queued",
+    "research": null,
+    "reportSlug": "koyama-chiropractic-acupuncture-clinic-4xwr",
+    "emailDraftId": null,
+    "fabricationFlags": [],
+    "emDashClean": false,
+    "actionLog": [
+      {
+        "action": "Queued by Lead Hunter (P1, score: 38.5, outreach-ready: true)",
+        "timestamp": "2026-03-09T13:01:29.518Z"
+      }
+    ],
+    "createdAt": "2026-03-09T13:01:29.518Z",
+    "updatedAt": "2026-03-09T13:01:29.518Z",
+    "huntSource": "hunt_1773061221808_5npi",
+    "huntScore": 38.5,
+    "huntPriority": "P1",
+    "huntCitationResults": [
+      {
+        "platform": "chatgpt",
+        "query": "best Chiropractor in Los Angeles",
+        "cited": false,
+        "competitorsCited": [
+          "Wilshire Center Chiropractic",
+          "Yonsei Chiropractic Clinic",
+          "The Joint Chiropractic",
+          "BodyPro Chiropractic & Sports Medicine",
+          "Chiropractic Care Center"
+        ]
+      }
+    ],
+    "huntDifferentiator": "Established 2012, 32+ years clinic history, specializes in Japanese color therapy, applied kinesiology, acupuncture",
+    "huntOutreachReady": true
+  },
+  {
+    "id": "lead_1773061289518_0k15w2",
+    "businessName": "Spine Solution Chiropractic",
+    "contactFirstName": "Yong",
+    "contactEmail": "spinesolutionchiro@gmail.com",
+    "websiteUrl": "http://www.spinesolutionchiro.com/",
+    "city": "Los Angeles",
+    "serviceNiche": "Chiropractor",
+    "competitorName": "Wilshire Center Chiropractic",
+    "reviewCount": 174,
+    "rating": 4.5,
+    "notes": "Auto-discovered by Lead Hunter. AI citation: not cited on 1/1 platforms. Competitors cited: Wilshire Center Chiropractic, Yonsei Chiropractic Clinic, The Joint Chiropractic. Outreach-ready: YES (citation data + contact + differentiator verified). Differentiator: Established 2009, specializes in disc decompression therapy, multiple locations, praised for friendly staff and clinical skills",
+    "status": "queued",
+    "research": null,
+    "reportSlug": "spine-solution-chiropractic-7c7p",
+    "emailDraftId": null,
+    "fabricationFlags": [],
+    "emDashClean": false,
+    "actionLog": [
+      {
+        "action": "Queued by Lead Hunter (P1, score: 38.5, outreach-ready: true)",
+        "timestamp": "2026-03-09T13:01:29.518Z"
+      }
+    ],
+    "createdAt": "2026-03-09T13:01:29.518Z",
+    "updatedAt": "2026-03-09T13:01:29.518Z",
+    "huntSource": "hunt_1773061221808_5npi",
+    "huntScore": 38.5,
+    "huntPriority": "P1",
+    "huntCitationResults": [
+      {
+        "platform": "chatgpt",
+        "query": "best Chiropractor in Los Angeles",
+        "cited": false,
+        "competitorsCited": [
+          "Wilshire Center Chiropractic",
+          "Yonsei Chiropractic Clinic",
+          "The Joint Chiropractic",
+          "BodyPro Chiropractic & Sports Medicine",
+          "Chiropractic Care Center"
+        ]
+      }
+    ],
+    "huntDifferentiator": "Established 2009, specializes in disc decompression therapy, multiple locations, praised for friendly staff and clinical skills",
+    "huntOutreachReady": true
+  },
+  {
+    "id": "lead_1773061289518_yrj65g",
+    "businessName": "BodyPro Chiropractic & Sports Medicine",
+    "contactFirstName": "Dr.",
+    "contactEmail": "info@bodyprochiro.com",
+    "websiteUrl": "https://www.bodyprochiro.com/",
+    "city": "Los Angeles",
+    "serviceNiche": "Chiropractor",
+    "competitorName": "Wilshire Center Chiropractic",
+    "reviewCount": 150,
+    "rating": 5,
+    "notes": "Auto-discovered by Lead Hunter. AI citation: not cited on 0/1 platforms. Competitors cited: Wilshire Center Chiropractic, Yonsei Chiropractic Clinic, The Joint Chiropractic. Outreach-ready: YES (citation data + contact + differentiator verified). Differentiator: 7 years serving LA, specializes in sports medicine, treats professional and Olympic athletes, first office with Tecar therapy in USA",
+    "status": "queued",
+    "research": null,
+    "reportSlug": "bodypro-chiropractic-sports-medicine-yqfw",
+    "emailDraftId": null,
+    "fabricationFlags": [],
+    "emDashClean": false,
+    "actionLog": [
+      {
+        "action": "Queued by Lead Hunter (P2, score: 34.5, outreach-ready: true)",
+        "timestamp": "2026-03-09T13:01:29.518Z"
+      }
+    ],
+    "createdAt": "2026-03-09T13:01:29.518Z",
+    "updatedAt": "2026-03-09T13:01:29.518Z",
+    "huntSource": "hunt_1773061221808_5npi",
+    "huntScore": 34.5,
+    "huntPriority": "P2",
+    "huntCitationResults": [
+      {
+        "platform": "chatgpt",
+        "query": "best Chiropractor in Los Angeles",
+        "cited": true,
+        "competitorsCited": [
+          "Wilshire Center Chiropractic",
+          "Yonsei Chiropractic Clinic",
+          "The Joint Chiropractic",
+          "Chiropractic Care Center"
+        ]
+      }
+    ],
+    "huntDifferentiator": "7 years serving LA, specializes in sports medicine, treats professional and Olympic athletes, first office with Tecar therapy in USA",
+    "huntOutreachReady": true
+  },
+  {
+    "id": "lead_1773061289519_9py5s8",
+    "businessName": "Health Atlast",
+    "contactFirstName": "Dr.",
+    "contactEmail": "Drhigashi@gmail.com",
+    "websiteUrl": "https://www.healthatlastusa.com/locations/health-atlast-west-la",
+    "city": "Los Angeles",
+    "serviceNiche": "Chiropractor",
+    "competitorName": "Wilshire Center Chiropractic",
+    "reviewCount": 101,
+    "rating": 4.8,
+    "notes": "Auto-discovered by Lead Hunter. AI citation: not cited on 1/1 platforms. Competitors cited: Wilshire Center Chiropractic, Yonsei Chiropractic Clinic, The Joint Chiropractic. Outreach-ready: YES (citation data + contact + differentiator verified). Differentiator: Revolutionary multidisciplinary clinic with MDs, chiropractors, acupuncture, massage, founded 2001, integrated wellness approach",
+    "status": "queued",
+    "research": null,
+    "reportSlug": "health-atlast-dhn8",
+    "emailDraftId": null,
+    "fabricationFlags": [],
+    "emDashClean": false,
+    "actionLog": [
+      {
+        "action": "Queued by Lead Hunter (P1, score: 38.5, outreach-ready: true)",
+        "timestamp": "2026-03-09T13:01:29.518Z"
+      }
+    ],
+    "createdAt": "2026-03-09T13:01:29.518Z",
+    "updatedAt": "2026-03-09T13:01:29.518Z",
+    "huntSource": "hunt_1773061221808_5npi",
+    "huntScore": 38.5,
+    "huntPriority": "P1",
+    "huntCitationResults": [
+      {
+        "platform": "chatgpt",
+        "query": "best Chiropractor in Los Angeles",
+        "cited": false,
+        "competitorsCited": [
+          "Wilshire Center Chiropractic",
+          "Yonsei Chiropractic Clinic",
+          "The Joint Chiropractic",
+          "BodyPro Chiropractic & Sports Medicine",
+          "Chiropractic Care Center"
+        ]
+      }
+    ],
+    "huntDifferentiator": "Revolutionary multidisciplinary clinic with MDs, chiropractors, acupuncture, massage, founded 2001, integrated wellness approach",
+    "huntOutreachReady": true
   }
 ]
