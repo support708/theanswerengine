@@ -26,19 +26,19 @@ const GH_SEND_LOG = 'data/send-log.json';
 
 // --- Domain warmup daily limits ---
 
-interface SendLogEntry {
+export interface SendLogEntry {
   leadId: string;
   email: string;
   type: 'initial' | 'follow_up_1' | 'follow_up_2' | 'follow_up_3';
   sentAt: string;
 }
 
-interface SendLog {
+export interface SendLog {
   startDate: string; // when we started sending (for warmup calculation)
   entries: SendLogEntry[];
 }
 
-async function readSendLog(): Promise<SendLog> {
+export async function readSendLog(): Promise<SendLog> {
   try {
     if (IS_VERCEL) {
       const data = await getFileContentSafe(GH_SEND_LOG);

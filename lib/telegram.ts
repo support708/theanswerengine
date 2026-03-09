@@ -145,6 +145,9 @@ export async function notifyHuntComplete(session: {
   duplicatesSkipped: number;
   outreachReadyCount?: number;
   errors: string[];
+  quotaTarget?: number;
+  totalToday?: number;
+  chainDepth?: number;
 }): Promise<void> {
   const errorLine = session.errors.length > 0
     ? `\nErrors: ${session.errors.length} (${session.errors[0]?.slice(0, 80)})`
@@ -152,6 +155,11 @@ export async function notifyHuntComplete(session: {
 
   const outreachLine = typeof session.outreachReadyCount === 'number'
     ? `\nOutreach-ready: ${session.outreachReadyCount} (have citation data + contact + differentiator)`
+    : '';
+
+  const quotaLine = typeof session.quotaTarget === 'number'
+    ? `\nQuota: ${session.totalToday ?? 0}/${session.quotaTarget} today` +
+      (session.chainDepth ? ` (chain ${session.chainDepth})` : '')
     : '';
 
   await sendMessage(
@@ -162,6 +170,7 @@ export async function notifyHuntComplete(session: {
     `P3: ${session.p3Backlogged} backlogged\n` +
     `Dupes skipped: ${session.duplicatesSkipped}` +
     outreachLine +
+    quotaLine +
     errorLine
   );
 }
@@ -174,6 +183,36 @@ export async function notifyPipelineFailure(leadId: string, businessName: string
     `Error: ${error.slice(0, 300)}\n\n` +
     `Lead ID: ${leadId}\n` +
     `Check admin: https://theanswerengine.ai/admin/pipeline/${leadId}`
+  );
+}
+
+/**
+ * Daily hunt summary — sent when quota is filled or chain exhausted.
+ * Includes expense report (API calls), leads queued, and verticals covered.
+ */
+export async function notifyHuntDailySummary(summary: {
+  totalQueued: number;
+  quota: number;
+  chainDepth: number;
+  sessionsToday: { vertical: string; metro: string; p1: number; p2: number; p3: number; dupes: number }[];
+  estimatedCost: number;
+}): Promise<void> {
+  const quotaStatus = summary.totalQueued >= summary.quota ? 'FILLED' : `${summary.totalQueued}/${summary.quota}`;
+
+  const sessionLines = summary.sessionsToday
+    .map((s, i) => `  ${i + 1}. ${s.vertical} x ${s.metro} | P1: ${s.p1}, P2: ${s.p2}, P3: ${s.p3}, Dupes: ${s.dupes}`)
+    .join('\n');
+
+  await sendMessage(
+    `<b>Daily Hunt Summary</b>\n\n` +
+    `Quota: ${quotaStatus}\n` +
+    `Total P1+P2 queued: ${summary.totalQueued}\n` +
+    `Chain runs: ${summary.chainDepth + 1}\n\n` +
+    `<b>Sessions:</b>\n${sessionLines}\n\n` +
+    `<b>Expense Report:</b>\n` +
+    `  API calls: ~${(summary.chainDepth + 1) * 3} (3 per session x ${summary.chainDepth + 1} chains)\n` +
+    `  Est. cost: $${summary.estimatedCost.toFixed(4)}\n` +
+    `  Model: claude-haiku-4-5 (${(summary.chainDepth + 1) * 3} web search calls)`
   );
 }
 

@@ -14,6 +14,8 @@
 import { callClaudeWithWebSearch, extractText } from './anthropic';
 import type { RawProspect, LeadScoreBreakdown, HuntPriority, HuntState, CitationResult } from './hunter-types';
 import { VERTICALS, METROS } from './hunter-types';
+import { getCurrentHuntPriorities } from './learning-data';
+import { readHuntLog } from './hunter-data';
 
 const HUNT_MODEL = 'claude-haiku-4-5';
 
@@ -48,6 +50,55 @@ export function advanceRotation(state: HuntState): HuntState {
     currentMetroIndex: mi,
     currentWeek: week,
   };
+}
+
+/**
+ * Learning-aware rotation: 50/50 explore/exploit strategy.
+ * Even sessions: pure rotation (exploration of new verticals/metros).
+ * Odd sessions: pick the top priority from learning data (exploitation of winners).
+ * Falls back to pure rotation if no learning data exists.
+ */
+export async function getRotationTargetWithLearning(
+  state: HuntState,
+): Promise<{ vertical: string; metro: string }> {
+  let priorities: import('./learning').HuntPriority[] = [];
+  try {
+    priorities = await getCurrentHuntPriorities();
+  } catch {
+    // Learning log may not exist yet — fall back to pure rotation
+  }
+
+  // If no learning data, pure rotation
+  if (priorities.length === 0) {
+    return getRotationTarget(state);
+  }
+
+  // 50/50 explore/exploit
+  const useExploitation = state.totalSessionsRun % 2 === 0;
+  if (!useExploitation) {
+    return getRotationTarget(state);
+  }
+
+  // Exploitation: pick the highest-scoring priority not run in last 3 sessions
+  let recentPairs: Set<string>;
+  try {
+    const log = await readHuntLog();
+    const last3 = log.slice(-3);
+    recentPairs = new Set(last3.map(s => `${s.vertical}|${s.metro}`));
+  } catch {
+    recentPairs = new Set();
+  }
+
+  const bestPriority = priorities.find(
+    p => !recentPairs.has(`${p.vertical}|${p.metro}`) && p.sampleSize >= 2
+  );
+
+  if (bestPriority) {
+    return { vertical: bestPriority.vertical, metro: bestPriority.metro };
+  }
+
+  // Fallback to rotation if all priorities were recently run
+  return getRotationTarget(state);
 }
 
 // --- Search Pass 1: Business Discovery (find real businesses, always returns results) ---

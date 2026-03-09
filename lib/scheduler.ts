@@ -8,7 +8,7 @@
 
 import type { HuntSession, HuntTrigger, RawProspect } from './hunter-types';
 import { readHuntState, writeHuntState, appendHuntLog, readHuntLog, readBacklog, writeBacklog, flushHuntDataToGitHub } from './hunter-data';
-import { getRotationTarget, advanceRotation, runSearchPass1, runSearchPass2, runSearchPass3, scoreProspect, classifyPriority, checkOutreachReadiness } from './hunter';
+import { getRotationTarget, getRotationTargetWithLearning, advanceRotation, runSearchPass1, runSearchPass2, runSearchPass3, scoreProspect, classifyPriority, checkOutreachReadiness } from './hunter';
 import { isDuplicate } from './deduplicator';
 import { readLeads, writeLeads, generateId, generateSlug } from './leads';
 import { notifyHuntFailure } from './telegram';
@@ -42,7 +42,8 @@ export async function runHuntSession(trigger: HuntTrigger): Promise<HuntSession>
     const backlog = await readBacklog();
     const log = IS_VERCEL ? await readHuntLog() : [];
 
-    const { vertical, metro } = getRotationTarget(state);
+    // Use learning-aware rotation (50/50 explore/exploit when data available)
+    const { vertical, metro } = await getRotationTargetWithLearning(state);
     session.vertical = vertical;
     session.metro = metro;
 
@@ -224,6 +225,18 @@ function prospectToLead(prospect: RawProspect, sessionId: string): Lead {
   };
 }
 
+/**
+ * Count how many P1+P2 leads were queued today across all hunt sessions.
+ * Used by the hunt cron to decide if quota is met.
+ */
+export async function getTodayQueuedCount(): Promise<number> {
+  const log = await readHuntLog();
+  const todayStr = new Date().toISOString().split('T')[0];
+  return log
+    .filter(session => session.startedAt.startsWith(todayStr))
+    .reduce((sum, session) => sum + session.p1Queued + session.p2Queued, 0);
+}
+
 export async function getHuntStatus(): Promise<{
   state: import('./hunter-types').HuntState;
   lastSession?: HuntSession;
@@ -232,7 +245,7 @@ export async function getHuntStatus(): Promise<{
   const state = await readHuntState();
   const log = await readHuntLog();
   const lastSession = log.length > 0 ? log[log.length - 1] : undefined;
-  const nextTarget = getRotationTarget(state);
+  const nextTarget = await getRotationTargetWithLearning(state);
 
   return { state, lastSession, nextTarget };
 }
