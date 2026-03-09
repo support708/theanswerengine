@@ -8,7 +8,7 @@ import { NextRequest, NextResponse } from 'next/server';
 import { runHuntSession } from '@/lib/scheduler';
 import type { HuntTrigger } from '@/lib/hunter-types';
 
-export const maxDuration = 300; // 5 minutes — hunt runs 3 API calls with web search
+export const maxDuration = 300; // 5 minutes — hunt runs 4 API calls with web search (discovery + citation + enrichment + email hunt)
 
 export async function GET(request: NextRequest) {
   // Verify CRON_SECRET

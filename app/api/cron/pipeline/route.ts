@@ -25,7 +25,7 @@ import type { Lead, ResearchResults } from '@/lib/types';
 import { promises as fs } from 'fs';
 import path from 'path';
 
-export const maxDuration = 120;
+export const maxDuration = 300; // 5 minutes — processes up to 3 leads per run
 
 const MAX_RETRIES = 3;
 
@@ -99,9 +99,9 @@ async function handleRequest(req: NextRequest) {
       await flushLeadsWithFiles(leads, [], 'pipeline: recover stuck leads');
     }
 
-    // Pick leads to process: 1 queued lead OR 1 report_ready lead that needs email retry
+    // Pick leads to process: up to 3 queued/report_ready leads per run
     const pickable = ['queued', 'report_ready'];
-    const toPick = leads.filter(l => pickable.includes(l.status) && l.contactEmail).slice(0, 1);
+    const toPick = leads.filter(l => pickable.includes(l.status) && l.contactEmail).slice(0, 3);
 
     if (toPick.length === 0) {
       return NextResponse.json({ success: true, message: 'No leads to process' });

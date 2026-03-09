@@ -394,7 +394,80 @@ Only include contacts and differentiators you can verify from public sources. Om
   return prospects;
 }
 
-// --- Pass 4: Outreach-Readiness Check (SOP Fabrication Gate) ---
+// --- Pass 4: Dedicated Email Hunt (for valid leads missing email) ---
+
+export async function runEmailHunt(
+  prospects: RawProspect[],
+): Promise<RawProspect[]> {
+  const needsEmail = prospects.filter(p => !p.contactEmail && p.contactName);
+  if (needsEmail.length === 0) return prospects;
+
+  const businessList = needsEmail
+    .map(p => `- ${p.businessName} | owner: ${p.contactName} | website: ${p.website || 'unknown'} | city: ${p.city}, ${p.state}`)
+    .join('\n');
+
+  const response = await callClaudeWithWebSearch({
+    model: HUNT_MODEL,
+    system: `You are an email researcher. Your ONLY job is to find real, verified business email addresses by searching business websites, Google Business profiles, Yelp, BBB, LinkedIn, and other public directories. Return ONLY a JSON array. No commentary.`,
+    messages: [
+      {
+        role: 'user',
+        content: `I need email addresses for these business owners. Search their websites (especially Contact, About, and footer sections), Google Business profiles, Yelp business pages, BBB listings, and LinkedIn.
+
+${businessList}
+
+Search strategies:
+1. Visit each business website and look for contact page, footer, or about page emails
+2. Search "[business name] [city] email" or "[owner name] [business name] email"
+3. Check their Google Business profile for listed email
+4. Look on Yelp, BBB, and LinkedIn for contact info
+5. Try common patterns: info@domain.com, [firstname]@domain.com
+
+Return a JSON array:
+[{
+  "businessName": "exact name",
+  "contactEmail": "verified email address",
+  "emailSource": "where you found it (e.g. website contact page, Google Business, Yelp)"
+}]
+
+Only include emails you actually found. Do NOT guess or fabricate emails.`,
+      },
+    ],
+    maxTokens: 2048,
+  });
+
+  const text = extractText(response);
+
+  try {
+    const match = text.match(/\[[\s\S]*\]/);
+    if (match) {
+      const results = JSON.parse(match[0]) as {
+        businessName: string;
+        contactEmail?: string;
+        emailSource?: string;
+      }[];
+
+      for (const result of results) {
+        if (!result.contactEmail) continue;
+        // Basic email validation
+        if (!result.contactEmail.includes('@') || !result.contactEmail.includes('.')) continue;
+
+        const prospect = prospects.find(
+          p => p.businessName.toLowerCase() === result.businessName.toLowerCase(),
+        );
+        if (prospect && !prospect.contactEmail) {
+          prospect.contactEmail = result.contactEmail;
+        }
+      }
+    }
+  } catch {
+    // Email hunt failed — prospects keep what they have
+  }
+
+  return prospects;
+}
+
+// --- Pass 5: Outreach-Readiness Check (SOP Fabrication Gate) ---
 
 /**
  * Checks whether a prospect has enough verified data
