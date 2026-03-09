@@ -25,7 +25,7 @@ import type { Lead, ResearchResults } from '@/lib/types';
 import { promises as fs } from 'fs';
 import path from 'path';
 
-export const maxDuration = 300; // 5 minutes — processes up to 2 leads per run
+export const maxDuration = 300; // 5 minutes — processes 1 lead per run (full pipeline ~120-180s)
 
 const MAX_RETRIES = 3;
 
@@ -99,10 +99,10 @@ async function handleRequest(req: NextRequest) {
       await flushLeadsWithFiles(leads, [], 'pipeline: recover stuck leads');
     }
 
-    // Pick leads to process: up to 2 per run (safe within 300s timeout)
+    // Pick 1 lead per run — full pipeline (research+report+email) takes ~120-180s
     // Includes email_drafted (Gmail retry) and report_ready (deploy retry)
     const pickable = ['queued', 'report_ready', 'email_drafted'];
-    const toPick = leads.filter(l => pickable.includes(l.status) && l.contactEmail).slice(0, 2);
+    const toPick = leads.filter(l => pickable.includes(l.status) && l.contactEmail).slice(0, 1);
 
     if (toPick.length === 0) {
       return NextResponse.json({ success: true, message: 'No leads to process' });
