@@ -60,6 +60,34 @@ export async function updateLead(id: string, updates: Partial<Lead>): Promise<Le
   return leads[idx];
 }
 
+/**
+ * Atomic flush: write leads + extra files in a single GitHub commit.
+ * Used by the pipeline to batch all state changes + report HTML into one commit.
+ * Falls back to filesystem writes locally.
+ */
+export async function flushLeadsWithFiles(
+  leads: Lead[],
+  extraFiles: { path: string; content: string }[],
+  commitMessage: string,
+): Promise<void> {
+  if (IS_VERCEL) {
+    const files = [
+      { path: GH_LEADS, content: JSON.stringify(leads, null, 2) },
+      ...extraFiles,
+    ];
+    await publishToGitHub(files, commitMessage);
+  } else {
+    // Local: write leads + extra files to filesystem
+    await fs.mkdir(path.dirname(LEADS_PATH), { recursive: true });
+    await fs.writeFile(LEADS_PATH, JSON.stringify(leads, null, 2), 'utf-8');
+    for (const file of extraFiles) {
+      const filePath = path.join(process.cwd(), file.path);
+      await fs.mkdir(path.dirname(filePath), { recursive: true });
+      await fs.writeFile(filePath, file.content, 'utf-8');
+    }
+  }
+}
+
 export function generateSlug(businessName: string): string {
   const base = businessName
     .toLowerCase()

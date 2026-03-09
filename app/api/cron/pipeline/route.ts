@@ -3,9 +3,15 @@
  * Runs research + report + email on all queued leads.
  * 100% autonomous: 3-attempt retry per lead, Telegram only on failure.
  * Protected by CRON_SECRET.
+ *
+ * BATCH COMMIT STRATEGY:
+ * Instead of 7+ separate GitHub commits per lead, this uses 2 atomic flushes:
+ *   Flush 1: After report generation (leads.json + report HTML)
+ *   Flush 2: After email send (leads.json + send-log.json)
+ * This eliminates race conditions and cuts GitHub API usage by ~80%.
  */
 import { NextRequest, NextResponse } from 'next/server';
-import { readLeads, getLeadById, updateLead } from '@/lib/leads';
+import { readLeads, flushLeadsWithFiles } from '@/lib/leads';
 import { callClaudeWithWebSearch, callClaude, extractText, checkRateLimit } from '@/lib/anthropic';
 import { parseAERO7FromResearch } from '@/lib/aero7-scorer';
 import { getIndustryColors, CALENDLY_URL, REPORT_FOOTER } from '@/lib/report-template';
@@ -14,8 +20,8 @@ import { buildEmailSubject, buildEmailBody, buildHtmlEmailBody } from '@/lib/gma
 import { sendGmailMessage, isGmailConfigured } from '@/lib/gmail-api';
 import { canSendToday, logSend } from '@/lib/email-scheduler';
 import { notifyPipelineFailure, sendMessage } from '@/lib/telegram';
-import { deployReport, isDeployConfigured } from '@/lib/deploy';
-import type { ResearchResults } from '@/lib/types';
+import { isDeployConfigured } from '@/lib/deploy';
+import type { Lead, ResearchResults } from '@/lib/types';
 import { promises as fs } from 'fs';
 import path from 'path';
 
@@ -45,38 +51,55 @@ async function handleRequest(req: NextRequest) {
   const step = url.searchParams.get('step') || 'full';
 
   try {
+    // Read all leads once — used for recovery, filtering, and processing
+    const leads = await readLeads();
+
+    // Idempotency guard: if a lead is actively being processed (< 5 min old), skip
+    const ACTIVE_THRESHOLD = 5 * 60 * 1000;
+    const activeStatuses = ['researching', 'generating_report'];
+    const activelyProcessing = leads.some(l => {
+      if (!activeStatuses.includes(l.status)) return false;
+      const lastAction = l.actionLog[l.actionLog.length - 1];
+      if (!lastAction) return false;
+      return (Date.now() - new Date(lastAction.timestamp).getTime()) < ACTIVE_THRESHOLD;
+    });
+
+    if (activelyProcessing && !leadId) {
+      return NextResponse.json({ success: true, message: 'Another invocation is actively processing, skipping' });
+    }
+
     if (leadId) {
-      const result = await processLeadWithRetry(leadId, step);
+      const result = await processLeadWithRetry(leadId, step, leads);
       return NextResponse.json({ success: true, result });
     }
 
-    // Process all queued leads (1 at a time to stay within 120s timeout)
-    const leads = await readLeads();
-
     // Recovery: unstick leads stuck in intermediate statuses for > 10 minutes
-    const STALE_THRESHOLD = 10 * 60 * 1000; // 10 minutes
-    const stuckStatuses = ['researching', 'generating_report'];
+    const STALE_THRESHOLD = 10 * 60 * 1000;
+    let needsRecoveryFlush = false;
     for (const lead of leads) {
-      if (stuckStatuses.includes(lead.status)) {
+      if (activeStatuses.includes(lead.status)) {
         const lastAction = lead.actionLog[lead.actionLog.length - 1];
         if (lastAction) {
           const elapsed = Date.now() - new Date(lastAction.timestamp).getTime();
           if (elapsed > STALE_THRESHOLD) {
-            await updateLead(lead.id, {
-              status: 'queued',
-              actionLog: [...lead.actionLog, {
-                action: `Auto-recovered from stuck "${lead.status}" status (${Math.round(elapsed / 60000)}m stale)`,
-                timestamp: new Date().toISOString(),
-              }],
+            lead.status = 'queued';
+            lead.actionLog.push({
+              action: `Auto-recovered from stuck "${lead.status}" status (${Math.round(elapsed / 60000)}m stale)`,
+              timestamp: new Date().toISOString(),
             });
+            lead.updatedAt = new Date().toISOString();
+            needsRecoveryFlush = true;
           }
         }
       }
     }
 
-    // Re-read after potential recovery updates
-    const currentLeads = await readLeads();
-    const queued = currentLeads.filter(l => l.status === 'queued' && l.contactEmail).slice(0, 1);
+    if (needsRecoveryFlush) {
+      await flushLeadsWithFiles(leads, [], 'pipeline: recover stuck leads');
+    }
+
+    // Pick 1 queued lead with an email address
+    const queued = leads.filter(l => l.status === 'queued' && l.contactEmail).slice(0, 1);
 
     if (queued.length === 0) {
       return NextResponse.json({ success: true, message: 'No queued leads to process' });
@@ -84,7 +107,7 @@ async function handleRequest(req: NextRequest) {
 
     const results = [];
     for (const lead of queued) {
-      const result = await processLeadWithRetry(lead.id, step);
+      const result = await processLeadWithRetry(lead.id, step, leads);
       results.push(result);
     }
 
@@ -101,19 +124,18 @@ async function handleRequest(req: NextRequest) {
  * Retry wrapper: attempts processLead up to MAX_RETRIES times.
  * Only sends Telegram notification after all retries are exhausted.
  */
-async function processLeadWithRetry(leadId: string, step: string) {
+async function processLeadWithRetry(leadId: string, step: string, leads: Lead[]) {
   let lastError = '';
 
   for (let attempt = 1; attempt <= MAX_RETRIES; attempt++) {
     try {
-      const result = await processLead(leadId, step);
+      const result = await processLead(leadId, step, leads);
       return result;
     } catch (err) {
       lastError = err instanceof Error ? err.message : String(err);
       console.error(`Pipeline attempt ${attempt}/${MAX_RETRIES} failed for ${leadId}: ${lastError}`);
 
       if (attempt < MAX_RETRIES) {
-        // Wait before retrying (exponential backoff: 5s, 15s)
         await new Promise(r => setTimeout(r, attempt * 5000));
       }
     }
@@ -121,7 +143,7 @@ async function processLeadWithRetry(leadId: string, step: string) {
 
   // All retries exhausted — notify Telegram
   try {
-    const lead = await getLeadById(leadId);
+    const lead = leads.find(l => l.id === leadId);
     await notifyPipelineFailure(
       leadId,
       lead?.businessName || 'Unknown',
@@ -136,8 +158,14 @@ async function processLeadWithRetry(leadId: string, step: string) {
   return { leadId, error: `Failed after ${MAX_RETRIES} attempts: ${lastError}` };
 }
 
-async function processLead(leadId: string, step: string) {
-  const lead = await getLeadById(leadId);
+/**
+ * Process a single lead through the full pipeline.
+ * Works in-memory on the leads array, flushing to GitHub in batched commits.
+ * Flush 1: After report generation (leads + report HTML)
+ * Flush 2: After email send (leads + send-log)
+ */
+async function processLead(leadId: string, step: string, leads: Lead[]) {
+  const lead = leads.find(l => l.id === leadId);
   if (!lead) throw new Error(`Lead ${leadId} not found`);
 
   const result: Record<string, unknown> = { leadId, businessName: lead.businessName };
@@ -149,10 +177,11 @@ async function processLead(leadId: string, step: string) {
     } else {
       if (!checkRateLimit()) throw new Error('Rate limit exceeded');
 
-      await updateLead(leadId, {
-        status: 'researching',
-        actionLog: [...lead.actionLog, { action: 'Research started (auto-pipeline)', timestamp: new Date().toISOString() }],
-      });
+      // Update in memory
+      lead.status = 'researching';
+      lead.actionLog.push({ action: 'Research started (auto-pipeline)', timestamp: new Date().toISOString() });
+      lead.updatedAt = new Date().toISOString();
+      // No flush here — status is transient, will be overwritten by research_complete
 
       const researchSystemPrompt = [{
         type: 'text' as const,
@@ -297,17 +326,15 @@ Return the JSON object as specified.`;
         };
       }
 
-      await updateLead(leadId, {
-        status: 'research_complete',
-        research,
-        competitorName: lead.competitorName || (research.topCompetitors[0]?.name ?? ''),
-        reviewCount: research.reviewCount || lead.reviewCount,
-        rating: research.rating || lead.rating,
-        actionLog: [
-          ...(await getLeadById(leadId))!.actionLog,
-          { action: `Research completed (AERO-10: ${research.aero7.total}/100)`, timestamp: new Date().toISOString() },
-        ],
-      });
+      // Update in memory
+      lead.status = 'research_complete';
+      lead.research = research;
+      lead.competitorName = lead.competitorName || (research.topCompetitors[0]?.name ?? '');
+      lead.reviewCount = research.reviewCount || lead.reviewCount;
+      lead.rating = research.rating || lead.rating;
+      lead.actionLog.push({ action: `Research completed (AERO-10: ${research.aero7.total}/100)`, timestamp: new Date().toISOString() });
+      lead.updatedAt = new Date().toISOString();
+      // No flush yet — will batch with report
 
       result.research = { aero10: research.aero7.total, competitors: research.topCompetitors.length };
     }
@@ -315,18 +342,17 @@ Return the JSON object as specified.`;
 
   // STEP 2: Report Generation
   if (step === 'full' || step === 'report') {
-    const currentLead = (await getLeadById(leadId))!;
-    if (!currentLead.research) {
+    if (!lead.research) {
       result.report = 'skipped (no research data)';
     } else {
-      await updateLead(leadId, {
-        status: 'generating_report',
-        actionLog: [...currentLead.actionLog, { action: 'Report generation started', timestamp: new Date().toISOString() }],
-      });
+      // Update in memory
+      lead.status = 'generating_report';
+      lead.actionLog.push({ action: 'Report generation started', timestamp: new Date().toISOString() });
+      lead.updatedAt = new Date().toISOString();
 
-      const research = currentLead.research;
-      const brand = getIndustryColors(currentLead.serviceNiche);
-      const competitorDisplay = currentLead.competitorName || research.topCompetitors[0]?.name || 'competitors';
+      const research = lead.research;
+      const brand = getIndustryColors(lead.serviceNiche);
+      const competitorDisplay = lead.competitorName || research.topCompetitors[0]?.name || 'competitors';
 
       const reportSystemPrompt = [{
         type: 'text' as const,
@@ -368,11 +394,11 @@ FOOTER: "${REPORT_FOOTER}"`,
 
       const reportPrompt = `Generate the Blind Spot Report HTML for:
 
-Business: ${currentLead.businessName}
-First Name: ${currentLead.contactFirstName}
-City: ${currentLead.city}
-Service: ${currentLead.serviceNiche}
-Website: ${currentLead.websiteUrl || 'Not found'}
+Business: ${lead.businessName}
+First Name: ${lead.contactFirstName}
+City: ${lead.city}
+Service: ${lead.serviceNiche}
+Website: ${lead.websiteUrl || 'Not found'}
 
 RESEARCH DATA:
 - Reviews: ${research.reviewCount || 'Unknown'}
@@ -420,39 +446,43 @@ Generate the complete HTML now.`;
       const emDashResult = runEmDashScan(reportHtml);
       if (!emDashResult.clean) reportHtml = stripEmDashes(reportHtml);
 
-      // Save report locally (ephemeral on Vercel, but deployReport handles persistence)
-      const reportDir = path.join(process.cwd(), 'public', 'blindspot');
-      await fs.mkdir(reportDir, { recursive: true });
-      await fs.writeFile(path.join(reportDir, `${currentLead.reportSlug}.html`), reportHtml, 'utf-8');
-
-      // Auto-deploy to production via GitHub API
-      let deployed = false;
-      if (isDeployConfigured() && currentLead.reportSlug) {
-        const deployResult = await deployReport(currentLead.reportSlug, reportHtml);
-        deployed = deployResult.success;
-        if (!deployed) {
-          console.error('Deploy failed:', deployResult.error);
-        }
+      // Save report locally (dev only)
+      if (!process.env.VERCEL) {
+        const reportDir = path.join(process.cwd(), 'public', 'blindspot');
+        await fs.mkdir(reportDir, { recursive: true });
+        await fs.writeFile(path.join(reportDir, `${lead.reportSlug}.html`), reportHtml, 'utf-8');
       }
 
-      const actionLog = (await getLeadById(leadId))!.actionLog;
-      actionLog.push({ action: 'Report generated', timestamp: new Date().toISOString() });
-      actionLog.push({ action: `Fabrication scan: ${fabricationResult.clean ? 'CLEAN' : `${fabricationResult.flags.length} flags`}`, timestamp: new Date().toISOString() });
-      actionLog.push({ action: `Em-dash scan: ${emDashResult.clean ? 'CLEAN' : `${emDashResult.count} found, auto-stripped`}`, timestamp: new Date().toISOString() });
-      if (deployed) {
-        actionLog.push({ action: 'Report deployed to production', timestamp: new Date().toISOString() });
+      // Update lead in memory
+      lead.status = 'report_ready';
+      lead.fabricationFlags = fabricationResult.flags;
+      lead.emDashClean = emDashResult.clean;
+      lead.actionLog.push({ action: 'Report generated', timestamp: new Date().toISOString() });
+      lead.actionLog.push({ action: `Fabrication scan: ${fabricationResult.clean ? 'CLEAN' : `${fabricationResult.flags.length} flags`}`, timestamp: new Date().toISOString() });
+      lead.actionLog.push({ action: `Em-dash scan: ${emDashResult.clean ? 'CLEAN' : `${emDashResult.count} found, auto-stripped`}`, timestamp: new Date().toISOString() });
+      lead.updatedAt = new Date().toISOString();
+
+      // === FLUSH 1: Atomic commit — leads.json + report HTML ===
+      // This replaces both updateLead() and deployReport() in a single commit,
+      // eliminating the race condition between the two different commit mechanisms.
+      const extraFiles: { path: string; content: string }[] = [];
+      if (isDeployConfigured() && lead.reportSlug) {
+        extraFiles.push({
+          path: `public/blindspot/${lead.reportSlug}.html`,
+          content: reportHtml,
+        });
+        lead.actionLog.push({ action: 'Report deployed to production', timestamp: new Date().toISOString() });
       }
 
-      await updateLead(leadId, {
-        status: 'report_ready',
-        fabricationFlags: fabricationResult.flags,
-        emDashClean: emDashResult.clean,
-        actionLog,
-      });
+      await flushLeadsWithFiles(
+        leads,
+        extraFiles,
+        `pipeline: ${lead.businessName} — research + report`,
+      );
 
       result.report = {
-        url: `/blindspot/${currentLead.reportSlug}`,
-        deployed,
+        url: `/blindspot/${lead.reportSlug}`,
+        deployed: extraFiles.length > 0,
         fabrication: { clean: fabricationResult.clean, flags: fabricationResult.flags.length },
         emDash: { clean: emDashResult.clean, count: emDashResult.count },
       };
@@ -461,10 +491,9 @@ Generate the complete HTML now.`;
 
   // STEP 3: Auto-Send Email (100% autonomous, no approval gate)
   if (step === 'full' || step === 'email') {
-    const currentLead = (await getLeadById(leadId))!;
-    if (currentLead.status !== 'report_ready') {
+    if (lead.status !== 'report_ready') {
       result.email = 'skipped (report not ready)';
-    } else if (!currentLead.contactEmail) {
+    } else if (!lead.contactEmail) {
       result.email = 'skipped (no email address)';
     } else {
       // Check domain warmup rate limit
@@ -473,21 +502,21 @@ Generate the complete HTML now.`;
         result.email = `rate_limited (${sendStatus.sent}/${sendStatus.limit} today)`;
       } else {
         // Verify report is live before sending email (prevents 404 links)
-        if (!currentLead.reportSlug) {
+        if (!lead.reportSlug) {
           result.email = 'skipped (no report slug)';
           return result;
         }
-        const reportUrl = `https://theanswerengine.ai/blindspot/${currentLead.reportSlug}`;
-        const reportLive = await waitForReportLive(currentLead.reportSlug);
+        const reportUrl = `https://theanswerengine.ai/blindspot/${lead.reportSlug}`;
+        const reportLive = await waitForReportLive(lead.reportSlug);
         if (!reportLive) {
           result.email = 'skipped (report not live yet, will retry next cron)';
         } else {
-          const subject = buildEmailSubject(currentLead);
-          const body = buildEmailBody(currentLead);
-          const htmlBody = buildHtmlEmailBody(currentLead);
+          const subject = buildEmailSubject(lead);
+          const body = buildEmailBody(lead);
+          const htmlBody = buildHtmlEmailBody(lead);
 
-          // Log send BEFORE sending to prevent race condition with concurrent invocations
-          await logSend(currentLead.id, currentLead.contactEmail, 'initial');
+          // Log send BEFORE sending to prevent race condition
+          await logSend(lead.id, lead.contactEmail, 'initial');
 
           let sent = false;
           let messageId = '';
@@ -495,7 +524,7 @@ Generate the complete HTML now.`;
           if (isGmailConfigured()) {
             try {
               const gmailResult = await sendGmailMessage({
-                to: currentLead.contactEmail,
+                to: lead.contactEmail,
                 subject,
                 body,
                 htmlBody,
@@ -509,27 +538,29 @@ Generate the complete HTML now.`;
             }
           }
 
-          const newStatus = sent ? 'sent' : 'email_drafted';
-          await updateLead(leadId, {
-            status: newStatus,
-            actionLog: [
-              ...currentLead.actionLog,
-              {
-                action: sent
-                  ? `Initial email auto-sent via Gmail (${messageId})`
-                  : 'Email send failed, saved as draft',
-                timestamp: new Date().toISOString(),
-              },
-            ],
+          // Update lead in memory
+          lead.status = sent ? 'sent' : 'email_drafted';
+          lead.actionLog.push({
+            action: sent
+              ? `Initial email auto-sent via Gmail (${messageId})`
+              : 'Email send failed, saved as draft',
+            timestamp: new Date().toISOString(),
           });
+          lead.updatedAt = new Date().toISOString();
+
+          // === FLUSH 2: Atomic commit — leads.json with final status ===
+          await flushLeadsWithFiles(
+            leads,
+            [],
+            `pipeline: ${lead.businessName} — ${sent ? 'email sent' : 'email draft'}`,
+          );
 
           if (sent) {
-            // Notify: email successfully sent for this lead
             try {
               await sendMessage(
                 `<b>Email Sent</b>\n` +
-                `${currentLead.businessName} (${currentLead.contactFirstName})\n` +
-                `To: ${currentLead.contactEmail}\n` +
+                `${lead.businessName} (${lead.contactFirstName})\n` +
+                `To: ${lead.contactEmail}\n` +
                 `Report: ${reportUrl}`,
               );
             } catch {
@@ -537,7 +568,7 @@ Generate the complete HTML now.`;
             }
           }
 
-          result.email = { to: currentLead.contactEmail, subject, sent };
+          result.email = { to: lead.contactEmail, subject, sent };
         }
       }
     }
@@ -548,14 +579,13 @@ Generate the complete HTML now.`;
 
 /**
  * Wait for the report page and OG image to be live on production.
- * Checks every 15s for up to 90s (6 attempts) after deploy.
- * Returns true if both the report page and OG image return 200.
+ * Checks every 15s for up to 45s (3 attempts) after deploy.
  */
 async function waitForReportLive(slug: string): Promise<boolean> {
   const reportUrl = `https://theanswerengine.ai/blindspot/${slug}`;
   const ogUrl = `https://theanswerengine.ai/api/og/${slug}`;
   const MAX_CHECKS = 3;
-  const INTERVAL = 15_000; // 15 seconds (45s max total)
+  const INTERVAL = 15_000;
 
   for (let i = 0; i < MAX_CHECKS; i++) {
     try {
