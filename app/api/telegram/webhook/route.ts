@@ -31,6 +31,15 @@ interface TelegramUpdate {
 
 export async function POST(req: NextRequest) {
   try {
+    // Verify webhook secret token (prevents spoofed requests)
+    const webhookSecret = process.env.TELEGRAM_WEBHOOK_SECRET;
+    if (webhookSecret) {
+      const headerSecret = req.headers.get('x-telegram-bot-api-secret-token');
+      if (headerSecret !== webhookSecret) {
+        return NextResponse.json({ ok: true });
+      }
+    }
+
     const update: TelegramUpdate = await req.json();
 
     // Only process text messages

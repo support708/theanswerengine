@@ -61,10 +61,13 @@ export async function updateLead(id: string, updates: Partial<Lead>): Promise<Le
 }
 
 export function generateSlug(businessName: string): string {
-  return businessName
+  const base = businessName
     .toLowerCase()
     .replace(/[^a-z0-9]+/g, '-')
     .replace(/^-|-$/g, '');
+  // Append short hash to prevent slug collisions between similar business names
+  const hash = Math.random().toString(36).slice(2, 6);
+  return `${base}-${hash}`;
 }
 
 export function generateId(): string {

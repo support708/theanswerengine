@@ -50,9 +50,33 @@ async function handleRequest(req: NextRequest) {
       return NextResponse.json({ success: true, result });
     }
 
-    // Process all queued leads (up to 3 to stay within timeout)
+    // Process all queued leads (1 at a time to stay within 120s timeout)
     const leads = await readLeads();
-    const queued = leads.filter(l => l.status === 'queued').slice(0, 3);
+
+    // Recovery: unstick leads stuck in intermediate statuses for > 10 minutes
+    const STALE_THRESHOLD = 10 * 60 * 1000; // 10 minutes
+    const stuckStatuses = ['researching', 'generating_report'];
+    for (const lead of leads) {
+      if (stuckStatuses.includes(lead.status)) {
+        const lastAction = lead.actionLog[lead.actionLog.length - 1];
+        if (lastAction) {
+          const elapsed = Date.now() - new Date(lastAction.timestamp).getTime();
+          if (elapsed > STALE_THRESHOLD) {
+            await updateLead(lead.id, {
+              status: 'queued',
+              actionLog: [...lead.actionLog, {
+                action: `Auto-recovered from stuck "${lead.status}" status (${Math.round(elapsed / 60000)}m stale)`,
+                timestamp: new Date().toISOString(),
+              }],
+            });
+          }
+        }
+      }
+    }
+
+    // Re-read after potential recovery updates
+    const currentLeads = await readLeads();
+    const queued = currentLeads.filter(l => l.status === 'queued' && l.contactEmail).slice(0, 1);
 
     if (queued.length === 0) {
       return NextResponse.json({ success: true, message: 'No queued leads to process' });
@@ -422,7 +446,7 @@ Generate the complete HTML now.`;
       await updateLead(leadId, {
         status: 'report_ready',
         fabricationFlags: fabricationResult.flags,
-        emDashClean: emDashResult.clean || true,
+        emDashClean: emDashResult.clean,
         actionLog,
       });
 
@@ -462,6 +486,9 @@ Generate the complete HTML now.`;
           const body = buildEmailBody(currentLead);
           const htmlBody = buildHtmlEmailBody(currentLead);
 
+          // Log send BEFORE sending to prevent race condition with concurrent invocations
+          await logSend(currentLead.id, currentLead.contactEmail, 'initial');
+
           let sent = false;
           let messageId = '';
 
@@ -497,7 +524,6 @@ Generate the complete HTML now.`;
           });
 
           if (sent) {
-            await logSend(currentLead.id, currentLead.contactEmail, 'initial');
             // Notify: email successfully sent for this lead
             try {
               await sendMessage(
@@ -528,8 +554,8 @@ Generate the complete HTML now.`;
 async function waitForReportLive(slug: string): Promise<boolean> {
   const reportUrl = `https://theanswerengine.ai/blindspot/${slug}`;
   const ogUrl = `https://theanswerengine.ai/api/og/${slug}`;
-  const MAX_CHECKS = 6;
-  const INTERVAL = 15_000; // 15 seconds
+  const MAX_CHECKS = 3;
+  const INTERVAL = 15_000; // 15 seconds (45s max total)
 
   for (let i = 0; i < MAX_CHECKS; i++) {
     try {
