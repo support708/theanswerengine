@@ -8,7 +8,7 @@
 
 import type { HuntSession, HuntTrigger, RawProspect } from './hunter-types';
 import { readHuntState, writeHuntState, appendHuntLog, readHuntLog, readBacklog, writeBacklog, flushHuntDataToGitHub } from './hunter-data';
-import { getRotationTarget, advanceRotation, runSearchPass1, runSearchPass2, runSearchPass3, runEmailHunt, scoreProspect, classifyPriority, checkOutreachReadiness } from './hunter';
+import { getRotationTarget, advanceRotation, runSearchPass1, runSearchPass2, runSearchPass3, scoreProspect, classifyPriority, checkOutreachReadiness } from './hunter';
 import { isDuplicate } from './deduplicator';
 import { readLeads, writeLeads, generateId, generateSlug } from './leads';
 import { notifyHuntFailure } from './telegram';
@@ -73,17 +73,6 @@ export async function runHuntSession(trigger: HuntTrigger): Promise<HuntSession>
         prospects = await runSearchPass3(prospects);
       } catch (err) {
         session.errors.push(`Pass 3 enrichment failed: ${err instanceof Error ? err.message : String(err)}`);
-      }
-    }
-
-    // Pass 4: Dedicated email hunt (for prospects still missing email after Pass 3)
-    const missingEmail = prospects.filter(p => !p.contactEmail && p.contactName);
-    if (missingEmail.length > 0) {
-      await new Promise(r => setTimeout(r, RATE_LIMIT_DELAY_MS));
-      try {
-        prospects = await runEmailHunt(prospects);
-      } catch (err) {
-        session.errors.push(`Pass 4 email hunt failed: ${err instanceof Error ? err.message : String(err)}`);
       }
     }
 

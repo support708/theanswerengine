@@ -11,7 +11,7 @@ const STATUS_ORDER: LeadStatus[] = [
   'queued', 'researching', 'research_complete', 'generating_report',
   'report_ready', 'email_drafted', 'approved', 'sent',
   'replied', 'follow_up_1', 'follow_up_2', 'follow_up_3',
-  'closed_won', 'closed_lost', 'no_response',
+  'closed_won', 'closed_lost', 'no_response', 'failed',
 ];
 
 interface HuntStatus {

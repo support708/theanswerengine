@@ -16,6 +16,7 @@ const STATUS_CONFIG: Record<LeadStatus, { label: string; color: string; bg: stri
   closed_won: { label: 'Won', color: 'text-green-400', bg: 'bg-green-800/40' },
   closed_lost: { label: 'Lost', color: 'text-red-400', bg: 'bg-red-900/30' },
   no_response: { label: 'No Response', color: 'text-yellow-300', bg: 'bg-yellow-900/30' },
+  failed: { label: 'Failed', color: 'text-red-300', bg: 'bg-red-900/50' },
 };
 
 export default function StatusBadge({ status }: { status: LeadStatus }) {

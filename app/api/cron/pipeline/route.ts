@@ -25,7 +25,7 @@ import type { Lead, ResearchResults } from '@/lib/types';
 import { promises as fs } from 'fs';
 import path from 'path';
 
-export const maxDuration = 300; // 5 minutes — processes up to 3 leads per run
+export const maxDuration = 300; // 5 minutes — processes up to 2 leads per run
 
 const MAX_RETRIES = 3;
 
@@ -99,9 +99,10 @@ async function handleRequest(req: NextRequest) {
       await flushLeadsWithFiles(leads, [], 'pipeline: recover stuck leads');
     }
 
-    // Pick leads to process: up to 3 queued/report_ready leads per run
-    const pickable = ['queued', 'report_ready'];
-    const toPick = leads.filter(l => pickable.includes(l.status) && l.contactEmail).slice(0, 3);
+    // Pick leads to process: up to 2 per run (safe within 300s timeout)
+    // Includes email_drafted (Gmail retry) and report_ready (deploy retry)
+    const pickable = ['queued', 'report_ready', 'email_drafted'];
+    const toPick = leads.filter(l => pickable.includes(l.status) && l.contactEmail).slice(0, 2);
 
     if (toPick.length === 0) {
       return NextResponse.json({ success: true, message: 'No leads to process' });
@@ -109,8 +110,8 @@ async function handleRequest(req: NextRequest) {
 
     const results = [];
     for (const lead of toPick) {
-      // report_ready leads skip straight to email step
-      const pickStep = lead.status === 'report_ready' ? 'email' : step;
+      // report_ready and email_drafted leads skip straight to email step
+      const pickStep = (lead.status === 'report_ready' || lead.status === 'email_drafted') ? 'email' : step;
       const result = await processLeadWithRetry(lead.id, pickStep, leads);
       results.push(result);
     }
@@ -145,9 +146,25 @@ async function processLeadWithRetry(leadId: string, step: string, leads: Lead[])
     }
   }
 
-  // All retries exhausted — notify Telegram
+  // All retries exhausted — mark as failed (dead letter) to prevent infinite retry loops
+  const lead = leads.find(l => l.id === leadId);
+  if (lead) {
+    lead.status = 'failed';
+    lead.actionLog.push({
+      action: `Dead-lettered after ${MAX_RETRIES} failed attempts: ${lastError}`,
+      timestamp: new Date().toISOString(),
+    });
+    lead.updatedAt = new Date().toISOString();
+
+    try {
+      await flushLeadsWithFiles(leads, [], `pipeline: ${lead.businessName} — dead-lettered`);
+    } catch {
+      console.error('Failed to flush dead-letter status');
+    }
+  }
+
+  // Notify Telegram
   try {
-    const lead = leads.find(l => l.id === leadId);
     await notifyPipelineFailure(
       leadId,
       lead?.businessName || 'Unknown',
@@ -159,7 +176,7 @@ async function processLeadWithRetry(leadId: string, step: string, leads: Lead[])
     console.error('Failed to send Telegram failure notification');
   }
 
-  return { leadId, error: `Failed after ${MAX_RETRIES} attempts: ${lastError}` };
+  return { leadId, error: `Dead-lettered after ${MAX_RETRIES} attempts: ${lastError}` };
 }
 
 /**
@@ -348,6 +365,17 @@ Return the JSON object as specified.`;
   if (step === 'full' || step === 'report') {
     if (!lead.research) {
       result.report = 'skipped (no research data)';
+    } else if (lead.research.aero7.total === 0) {
+      // Research returned stub/zero data — re-queue for another attempt
+      lead.status = 'queued';
+      lead.research = null;
+      lead.actionLog.push({
+        action: 'Research returned stub data (AERO-10: 0/100), re-queued for retry',
+        timestamp: new Date().toISOString(),
+      });
+      lead.updatedAt = new Date().toISOString();
+      await flushLeadsWithFiles(leads, [], `pipeline: ${lead.businessName} — re-queued (stub research)`);
+      result.report = 'skipped (stub research data, re-queued)';
     } else {
       // Update in memory
       lead.status = 'generating_report';
@@ -583,12 +611,12 @@ Generate the complete HTML now.`;
 
 /**
  * Wait for the report page and OG image to be live on production.
- * Checks every 15s for up to 45s (3 attempts) after deploy.
+ * Checks every 15s for up to 30s (2 attempts) after deploy.
  */
 async function waitForReportLive(slug: string): Promise<boolean> {
   const reportUrl = `https://theanswerengine.ai/blindspot/${slug}`;
   const ogUrl = `https://theanswerengine.ai/api/og/${slug}`;
-  const MAX_CHECKS = 3;
+  const MAX_CHECKS = 2;
   const INTERVAL = 15_000;
 
   for (let i = 0; i < MAX_CHECKS; i++) {

@@ -319,40 +319,55 @@ function buildFallbackCitation(
   }];
 }
 
-// --- Search Pass 3: Contact Enrichment + Differentiator (SOP Phase 4) ---
+// --- Search Pass 3: Contact Enrichment + Email Hunt + Differentiator (combined) ---
 
 export async function runSearchPass3(
   prospects: RawProspect[],
 ): Promise<RawProspect[]> {
   if (prospects.length === 0) return [];
 
-  // Enrich prospects missing key contact info or differentiator
+  // Enrich all prospects missing ANY key data (email, name, or differentiator)
   const needsEnrichment = prospects.filter(p => !p.contactEmail || !p.contactName || !p.differentiator);
   if (needsEnrichment.length === 0) return prospects;
 
   const businessList = needsEnrichment
-    .map(p => `- ${p.businessName} (${p.city}, ${p.state}) - website: ${p.website || 'unknown'} - reviews: ${p.reviewCount || '?'}`)
+    .map(p => {
+      const missing: string[] = [];
+      if (!p.contactEmail) missing.push('EMAIL');
+      if (!p.contactName) missing.push('OWNER NAME');
+      if (!p.differentiator) missing.push('DIFFERENTIATOR');
+      return `- ${p.businessName} (${p.city}, ${p.state}) | website: ${p.website || 'unknown'} | reviews: ${p.reviewCount || '?'} | NEEDS: ${missing.join(', ')}`;
+    })
     .join('\n');
 
   const response = await callClaudeWithWebSearch({
     model: HUNT_MODEL,
-    system: `You are a contact researcher. Search business websites, LinkedIn, Google reviews, and public directories for owner/manager names, email addresses, and unique business differentiators. A differentiator is something specific that makes this business stand out: years in business, family-owned status, specialty service, award, community involvement, unique review theme, etc. Return ONLY a JSON array. No markdown.`,
+    system: `You are a business contact researcher. Your #1 priority is finding EMAIL ADDRESSES. Search aggressively: business websites (contact page, footer, about page), Google Business profiles, Yelp, BBB, LinkedIn, and any public directory. Also find owner names and one unique differentiator per business. Return ONLY a JSON array. No markdown, no commentary.`,
     messages: [
       {
         role: 'user',
-        content: `Find contact information and differentiators for these businesses:
+        content: `Find contact info for these businesses. EMAIL is the top priority.
 
 ${businessList}
 
-Return a JSON array:
+Search strategies for EMAIL (try ALL of these):
+1. Visit the business website contact page, footer, and about page
+2. Search Google for "[business name] [city] email" and "[business name] contact"
+3. Check Google Business profile for listed email
+4. Check Yelp business page for email
+5. Search BBB for the business listing
+6. Search LinkedIn for the owner/business
+7. If you find the website domain, try info@domain.com or contact@domain.com
+
+Return a JSON array with ALL businesses (even if you only found partial info):
 [{
   "businessName": "exact name from above",
   "contactName": "Owner/Manager full name",
-  "contactEmail": "their email",
-  "differentiator": "One specific real thing from their reviews, About page, or community presence that makes them stand out. Must be verifiable."
+  "contactEmail": "their email address (THIS IS CRITICAL)",
+  "differentiator": "One specific verifiable thing that makes them stand out"
 }]
 
-Only include contacts and differentiators you can verify from public sources. Omit if not found.`,
+Include every field you can find. Omit only if truly unfindable after searching.`,
       },
     ],
     maxTokens: 2048,
@@ -379,7 +394,10 @@ Only include contacts and differentiators you can verify from public sources. Om
             prospect.contactName = enrichment.contactName;
           }
           if (enrichment.contactEmail && !prospect.contactEmail) {
-            prospect.contactEmail = enrichment.contactEmail;
+            // Basic email validation
+            if (enrichment.contactEmail.includes('@') && enrichment.contactEmail.includes('.')) {
+              prospect.contactEmail = enrichment.contactEmail;
+            }
           }
           if (enrichment.differentiator && !prospect.differentiator) {
             prospect.differentiator = enrichment.differentiator;
@@ -389,79 +407,6 @@ Only include contacts and differentiators you can verify from public sources. Om
     }
   } catch {
     // Enrichment failed — prospects keep what they have
-  }
-
-  return prospects;
-}
-
-// --- Pass 4: Dedicated Email Hunt (for valid leads missing email) ---
-
-export async function runEmailHunt(
-  prospects: RawProspect[],
-): Promise<RawProspect[]> {
-  const needsEmail = prospects.filter(p => !p.contactEmail && p.contactName);
-  if (needsEmail.length === 0) return prospects;
-
-  const businessList = needsEmail
-    .map(p => `- ${p.businessName} | owner: ${p.contactName} | website: ${p.website || 'unknown'} | city: ${p.city}, ${p.state}`)
-    .join('\n');
-
-  const response = await callClaudeWithWebSearch({
-    model: HUNT_MODEL,
-    system: `You are an email researcher. Your ONLY job is to find real, verified business email addresses by searching business websites, Google Business profiles, Yelp, BBB, LinkedIn, and other public directories. Return ONLY a JSON array. No commentary.`,
-    messages: [
-      {
-        role: 'user',
-        content: `I need email addresses for these business owners. Search their websites (especially Contact, About, and footer sections), Google Business profiles, Yelp business pages, BBB listings, and LinkedIn.
-
-${businessList}
-
-Search strategies:
-1. Visit each business website and look for contact page, footer, or about page emails
-2. Search "[business name] [city] email" or "[owner name] [business name] email"
-3. Check their Google Business profile for listed email
-4. Look on Yelp, BBB, and LinkedIn for contact info
-5. Try common patterns: info@domain.com, [firstname]@domain.com
-
-Return a JSON array:
-[{
-  "businessName": "exact name",
-  "contactEmail": "verified email address",
-  "emailSource": "where you found it (e.g. website contact page, Google Business, Yelp)"
-}]
-
-Only include emails you actually found. Do NOT guess or fabricate emails.`,
-      },
-    ],
-    maxTokens: 2048,
-  });
-
-  const text = extractText(response);
-
-  try {
-    const match = text.match(/\[[\s\S]*\]/);
-    if (match) {
-      const results = JSON.parse(match[0]) as {
-        businessName: string;
-        contactEmail?: string;
-        emailSource?: string;
-      }[];
-
-      for (const result of results) {
-        if (!result.contactEmail) continue;
-        // Basic email validation
-        if (!result.contactEmail.includes('@') || !result.contactEmail.includes('.')) continue;
-
-        const prospect = prospects.find(
-          p => p.businessName.toLowerCase() === result.businessName.toLowerCase(),
-        );
-        if (prospect && !prospect.contactEmail) {
-          prospect.contactEmail = result.contactEmail;
-        }
-      }
-    }
-  } catch {
-    // Email hunt failed — prospects keep what they have
   }
 
   return prospects;

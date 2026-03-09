@@ -13,7 +13,8 @@ export type LeadStatus =
   | 'follow_up_3'
   | 'closed_won'
   | 'closed_lost'
-  | 'no_response';
+  | 'no_response'
+  | 'failed';
 
 export interface AERO10Score {
   answerQuality: number;            // P1: 0-10
