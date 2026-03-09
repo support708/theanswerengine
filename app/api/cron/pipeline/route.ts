@@ -610,23 +610,19 @@ Generate the complete HTML now.`;
 }
 
 /**
- * Wait for the report page and OG image to be live on production.
+ * Wait for the report page to be live on production.
  * Checks every 15s for up to 30s (2 attempts) after deploy.
+ * Only checks report page — OG image is optional (not all reports have metadata).
  */
 async function waitForReportLive(slug: string): Promise<boolean> {
-  const reportUrl = `https://theanswerengine.ai/blindspot/${slug}`;
-  const ogUrl = `https://theanswerengine.ai/api/og/${slug}`;
+  const reportUrl = `https://www.theanswerengine.ai/blindspot/${slug}`;
   const MAX_CHECKS = 2;
   const INTERVAL = 15_000;
 
   for (let i = 0; i < MAX_CHECKS; i++) {
     try {
-      const [reportRes, ogRes] = await Promise.all([
-        fetch(reportUrl, { method: 'HEAD', redirect: 'follow' }),
-        fetch(ogUrl, { method: 'HEAD', redirect: 'follow' }),
-      ]);
-
-      if (reportRes.ok && ogRes.ok) {
+      const reportRes = await fetch(reportUrl, { method: 'HEAD', redirect: 'follow' });
+      if (reportRes.ok) {
         return true;
       }
     } catch {
