@@ -523,7 +523,7 @@ Generate the complete HTML now.`;
 
   // STEP 3: Auto-Send Email (100% autonomous, no approval gate)
   if (step === 'full' || step === 'email') {
-    if (lead.status !== 'report_ready') {
+    if (lead.status !== 'report_ready' && lead.status !== 'email_drafted') {
       result.email = 'skipped (report not ready)';
     } else if (!lead.contactEmail) {
       result.email = 'skipped (no email address)';
