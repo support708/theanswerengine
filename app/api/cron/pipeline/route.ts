@@ -494,7 +494,7 @@ Generate the complete HTML now.`;
       lead.actionLog.push({ action: `Em-dash scan: ${emDashResult.clean ? 'CLEAN' : `${emDashResult.count} found, auto-stripped`}`, timestamp: new Date().toISOString() });
       lead.updatedAt = new Date().toISOString();
 
-      // === FLUSH 1: Atomic commit — leads.json + report HTML ===
+      // === FLUSH 1: Atomic commit — leads.json + report HTML + OG metadata ===
       // This replaces both updateLead() and deployReport() in a single commit,
       // eliminating the race condition between the two different commit mechanisms.
       const extraFiles: { path: string; content: string }[] = [];
@@ -503,7 +503,29 @@ Generate the complete HTML now.`;
           path: `public/blindspot/${lead.reportSlug}.html`,
           content: reportHtml,
         });
-        lead.actionLog.push({ action: 'Report deployed to production', timestamp: new Date().toISOString() });
+
+        // Add OG image metadata so /api/og/[slug] works for email previews
+        let reportMeta: Record<string, unknown> = {};
+        try {
+          const { getFileContentSafe } = await import('@/lib/github-publish');
+          const existing = await getFileContentSafe('data/report-metadata.json');
+          if (existing) reportMeta = JSON.parse(existing);
+        } catch {
+          // File may not exist yet or parse failed — start fresh
+        }
+        reportMeta[lead.reportSlug] = {
+          businessName: lead.businessName,
+          serviceNiche: lead.serviceNiche,
+          reviewCount: research.reviewCount || 0,
+          score: research.aero7.total,
+          topCompetitor: competitorDisplay,
+        };
+        extraFiles.push({
+          path: 'data/report-metadata.json',
+          content: JSON.stringify(reportMeta, null, 2),
+        });
+
+        lead.actionLog.push({ action: 'Report + OG metadata deployed to production', timestamp: new Date().toISOString() });
       }
 
       await flushLeadsWithFiles(
