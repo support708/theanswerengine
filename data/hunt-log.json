@@ -44,5 +44,20 @@
     "duplicatesSkipped": 0,
     "errors": [],
     "completedAt": "2026-03-08T04:28:02.794Z"
+  },
+  {
+    "id": "hunt_1773019561994_ffoz",
+    "startedAt": "2026-03-09T01:26:01.995Z",
+    "trigger": "cron_daily",
+    "vertical": "Plumber",
+    "metro": "Los Angeles, CA",
+    "prospectsFound": 0,
+    "p1Queued": 0,
+    "p2Queued": 0,
+    "p3Backlogged": 0,
+    "duplicatesSkipped": 0,
+    "outreachReadyCount": 0,
+    "errors": [],
+    "completedAt": "2026-03-09T01:26:44.736Z"
   }
 ]
