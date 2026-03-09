@@ -8,7 +8,7 @@ import { NextRequest, NextResponse } from 'next/server';
 import { runHuntSession } from '@/lib/scheduler';
 import type { HuntTrigger } from '@/lib/hunter-types';
 
-export const maxDuration = 120; // 2 minutes max for Vercel Pro
+export const maxDuration = 300; // 5 minutes — hunt runs 3 API calls with web search
 
 export async function GET(request: NextRequest) {
   // Verify CRON_SECRET
@@ -30,7 +30,7 @@ export async function GET(request: NextRequest) {
 
   // Determine trigger type from query param
   const trigger = (request.nextUrl.searchParams.get('trigger') || 'cron_daily') as HuntTrigger;
-  const validTriggers: HuntTrigger[] = ['cron_daily', 'cron_weekly', 'cron_monthly'];
+  const validTriggers: HuntTrigger[] = ['cron_daily', 'cron_weekly', 'cron_monthly', 'manual'];
   const safeTrigger = validTriggers.includes(trigger) ? trigger : 'cron_daily';
 
   try {

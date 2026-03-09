@@ -47,7 +47,7 @@ export async function runHuntSession(trigger: HuntTrigger): Promise<HuntSession>
     session.metro = metro;
 
     // 2. Run 3 search passes (with rate-limit delays between passes)
-    const RATE_LIMIT_DELAY_MS = 15_000;
+    const RATE_LIMIT_DELAY_MS = 5_000;
 
     // Pass 1: Discover real businesses (simple web search, high reliability)
     let businessNames: string[] = [];
