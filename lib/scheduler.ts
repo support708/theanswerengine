@@ -49,23 +49,24 @@ export async function runHuntSession(trigger: HuntTrigger): Promise<HuntSession>
     // 2. Run 3 search passes (with rate-limit delays between passes)
     const RATE_LIMIT_DELAY_MS = 15_000;
 
-    let painSignals: string[] = [];
+    // Pass 1: Discover real businesses (simple web search, high reliability)
+    let businessNames: string[] = [];
     try {
-      painSignals = await runSearchPass1(vertical, metro);
+      businessNames = await runSearchPass1(vertical, metro);
     } catch (err) {
       session.errors.push(`Pass 1 failed: ${err instanceof Error ? err.message : String(err)}`);
     }
 
+    // Pass 2: AI citation test + prospect profiles (always runs)
     let prospects: RawProspect[] = [];
-    if (painSignals.length > 0) {
-      await new Promise(r => setTimeout(r, RATE_LIMIT_DELAY_MS));
-      try {
-        prospects = await runSearchPass2(painSignals, vertical, metro);
-      } catch (err) {
-        session.errors.push(`Pass 2 failed: ${err instanceof Error ? err.message : String(err)}`);
-      }
+    await new Promise(r => setTimeout(r, RATE_LIMIT_DELAY_MS));
+    try {
+      prospects = await runSearchPass2(businessNames, vertical, metro);
+    } catch (err) {
+      session.errors.push(`Pass 2 failed: ${err instanceof Error ? err.message : String(err)}`);
     }
 
+    // Pass 3: Contact enrichment (runs if we have prospects)
     if (prospects.length > 0) {
       await new Promise(r => setTimeout(r, RATE_LIMIT_DELAY_MS));
       try {

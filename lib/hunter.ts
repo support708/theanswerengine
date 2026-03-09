@@ -1,13 +1,13 @@
 /**
- * Lead Hunter Bot — Core Logic (v2, aligned with Morning Lead Hunt SOP v1.1)
+ * Lead Hunter Bot — Core Logic (v3)
  *
- * 4-pass search strategy:
- *   Pass 1: Pain signal detection (SOP Phase 2)
- *   Pass 2: Direct prospect discovery + structured citation test (SOP Phase 3)
- *   Pass 3: Contact enrichment + differentiator extraction (SOP Phase 4)
- *   Pass 4: Outreach-readiness check (SOP Fabrication Gate)
+ * 3-pass search strategy:
+ *   Pass 1: Business discovery — find real businesses via web search (reliable, never empty)
+ *   Pass 2: AI citation test — ask who AI recommends, cross-reference, build prospect profiles
+ *   Pass 3: Contact enrichment + differentiator extraction
+ *   Scoring: 5-factor with citation-weighted AI Blind Spot score
+ *   Gate: Outreach-readiness check (Fabrication Gate)
  *
- * 5-factor scoring with citation-weighted AI Blind Spot score.
  * Uses Claude Haiku for cost-efficient discovery.
  */
 
@@ -50,96 +50,109 @@ export function advanceRotation(state: HuntState): HuntState {
   };
 }
 
-// --- Search Pass 1: Pain Signal Detection (SOP Phase 2) ---
+// --- Search Pass 1: Business Discovery (find real businesses, always returns results) ---
 
 export async function runSearchPass1(
   vertical: string,
   metro: string,
 ): Promise<string[]> {
-  const response = await callClaudeWithWebSearch({
-    model: HUNT_MODEL,
-    system: `You are a lead researcher for an AI visibility agency. Your job is to find local service businesses that are NOT being recommended by AI platforms (ChatGPT, Claude, Google AI, Perplexity). Search the web for real businesses. Return ONLY a JSON array of pain signal strings. No markdown, no explanation.`,
-    messages: [
-      {
-        role: 'user',
-        content: `Search for ${vertical} businesses in ${metro} that have signs of being invisible to AI recommendations. Look for:
-- Businesses with good Google reviews but no AI presence
-- Businesses with outdated websites or no blog content
-- Businesses without structured data/schema markup
-- Businesses that competitors are outranking in AI results
-- Businesses posting on Reddit, forums, or social media about losing leads or visibility
-
-Return a JSON array of 5-10 pain signal descriptions, each mentioning a specific real business name. Example format:
-["ABC Plumbing in Houston has 200+ Google reviews but ChatGPT recommends their competitor XYZ instead", "..."]`,
-      },
-    ],
-    maxTokens: 2048,
-  });
-
-  const text = extractText(response);
-
-  try {
-    const match = text.match(/\[[\s\S]*\]/);
-    if (match) {
-      return JSON.parse(match[0]) as string[];
-    }
-  } catch {
-    // If JSON parsing fails, split by newlines and filter
-  }
-
-  return text
-    .split('\n')
-    .map(l => l.replace(/^[-*\d.)\s]+/, '').trim())
-    .filter(l => l.length > 20);
-}
-
-// --- Search Pass 2: Prospect Discovery + Structured Citation Test (SOP Phase 3) ---
-
-export async function runSearchPass2(
-  painSignals: string[],
-  vertical: string,
-  metro: string,
-): Promise<RawProspect[]> {
-  const signalContext = painSignals.slice(0, 5).join('\n');
   const maxLeads = process.env.HUNT_MAX_LEADS_PER_SESSION || '10';
 
   const response = await callClaudeWithWebSearch({
     model: HUNT_MODEL,
-    system: `You are a lead researcher finding specific business details and testing their AI visibility. Search the web for real, verifiable information. For EACH business, you must also run a citation test: search for their service type + city on AI platforms and record which competitors appear instead. Return ONLY a JSON array. No markdown, no explanation. If you cannot verify a detail, omit it rather than guessing.`,
+    system: `You are a business researcher. Your ONLY job is to search the web and find real, currently operating local service businesses. You must return a JSON array of business names. Do not add commentary, caveats, or explanations. Just the JSON array.`,
     messages: [
       {
         role: 'user',
-        content: `Based on these pain signals about ${vertical} businesses in ${metro}:
+        content: `Search for ${vertical} businesses currently operating in ${metro}. Find ${maxLeads} real businesses by searching Google, Yelp, and local directories.
 
-${signalContext}
+Requirements:
+- Each must be a real, currently operating business (not a directory or aggregator)
+- Include businesses of varying sizes (some well-known, some smaller local shops)
+- Prefer businesses that have a website and Google reviews
 
-Search the web and find up to ${maxLeads} specific businesses. For each business:
-1. Get their basic info (name, website, phone, reviews, rating)
-2. Run a citation test: search "${vertical} in ${metro}" and note which businesses AI platforms recommend
-3. Record which competitors appear in AI results and whether THIS business appears
-4. Look for a real differentiator from their reviews or About page (e.g. "87 Google reviews, family-owned since 1985, specializes in emergency calls")
+Return ONLY a JSON array of business names. Nothing else.
+Example: ["Smith Plumbing", "Jones & Sons HVAC", "Metro Electric Services"]`,
+      },
+    ],
+    maxTokens: 1024,
+  });
 
-Return a JSON array with this exact structure:
-[{
-  "businessName": "Real Business Name",
-  "contactName": "Owner/Manager name if found",
-  "contactEmail": "email if found on website",
-  "website": "https://their-website.com",
-  "phone": "phone number if found",
-  "city": "city name",
-  "state": "state abbreviation",
-  "serviceNiche": "${vertical}",
-  "reviewCount": 123,
-  "rating": 4.5,
-  "painSignals": ["specific signal 1", "specific signal 2"],
-  "citationResults": [
-    {"platform": "chatgpt", "query": "${vertical} in ${metro}", "cited": false, "competitorsCited": ["Competitor A", "Competitor B"]},
-    {"platform": "google_ai", "query": "best ${vertical} ${metro}", "cited": false, "competitorsCited": ["Competitor C"]}
-  ],
-  "differentiator": "87 Google reviews, family-owned since 1985, known for same-day emergency service"
-}]
+  const text = extractText(response);
 
-Only include businesses you can verify exist via web search. Omit any field you cannot verify. Citation results must reflect what you actually found in AI platform searches.`,
+  // Try JSON array extraction
+  try {
+    const match = text.match(/\[[\s\S]*?\]/);
+    if (match) {
+      const parsed = JSON.parse(match[0]) as string[];
+      if (parsed.length > 0) return parsed;
+    }
+  } catch {
+    // JSON parsing failed
+  }
+
+  // Fallback: extract business names from text lines
+  const lines = text
+    .split('\n')
+    .map(l => l.replace(/^[-*\d.)"'\s]+/, '').replace(/["',]+$/, '').trim())
+    .filter(l => l.length > 3 && l.length < 80 && !l.toLowerCase().startsWith('i ') && !l.toLowerCase().startsWith('here'));
+
+  return lines.length > 0 ? lines : [];
+}
+
+// --- Search Pass 2: AI Citation Test + Prospect Profiles (SOP Phase 3) ---
+
+export async function runSearchPass2(
+  businessNames: string[],
+  vertical: string,
+  metro: string,
+): Promise<RawProspect[]> {
+  const maxLeads = process.env.HUNT_MAX_LEADS_PER_SESSION || '10';
+  const city = metro.split(',')[0].trim();
+  const state = metro.split(',')[1]?.trim() || '';
+
+  // Build the business list prompt section
+  const hasNames = businessNames.length > 0;
+  const businessListSection = hasNames
+    ? `I have a list of ${vertical} businesses in ${metro}. For each one, search the web and gather their details.\n\nBusinesses to research:\n${businessNames.slice(0, 10).map((n, i) => `${i + 1}. ${n}`).join('\n')}`
+    : `Search the web and find ${maxLeads} real ${vertical} businesses currently operating in ${metro}. Search Google, Yelp, and local directories.`;
+
+  const response = await callClaudeWithWebSearch({
+    model: HUNT_MODEL,
+    system: `You are a business intelligence researcher. Search the web for detailed information about local service businesses. Return ONLY valid JSON with the requested structure. No commentary, no caveats, no markdown fences. You MUST return data -- never return an empty result.`,
+    messages: [
+      {
+        role: 'user',
+        content: `${businessListSection}
+
+For EACH business, search for:
+1. Their website URL
+2. Their Google review count and star rating
+3. Owner or manager name (from website About page, LinkedIn, or directory)
+4. Contact email (from their website contact page)
+5. Phone number
+6. A unique differentiator (years in business, specialty, awards, review themes)
+
+Also answer this question: If a customer asked "Who is the best ${vertical} in ${city}?", which 3-5 businesses would most AI assistants recommend based on their online presence? List those as the "topCited" businesses.
+
+Return this exact JSON structure:
+{
+  "topCited": ["Business A", "Business B", "Business C"],
+  "businesses": [
+    {
+      "businessName": "Exact Business Name",
+      "website": "https://...",
+      "phone": "(555) 123-4567",
+      "contactName": "Owner Name",
+      "contactEmail": "email@business.com",
+      "reviewCount": 150,
+      "rating": 4.7,
+      "differentiator": "Family-owned since 1992, 500+ Google reviews, specializes in emergency service"
+    }
+  ]
+}
+
+Include ALL businesses from the list. Omit any field you cannot verify rather than guessing.`,
       },
     ],
     maxTokens: 4096,
@@ -148,38 +161,86 @@ Only include businesses you can verify exist via web search. Omit any field you 
   const text = extractText(response);
 
   try {
-    const match = text.match(/\[[\s\S]*\]/);
-    if (match) {
-      const parsed = JSON.parse(match[0]) as Partial<RawProspect>[];
-      return parsed
-        .filter(p => p.businessName && p.city)
-        .map(p => {
-          const signals = Array.isArray(p.painSignals) ? p.painSignals : [];
-          const citations = parseCitationResults(p.citationResults);
-          // Fallback: if Haiku didn't return structured citations, extract competitors from pain signals
-          const effectiveCitations = citations.length > 0
-            ? citations
-            : buildFallbackCitation(signals, p.businessName || '', vertical, metro);
+    // Try to parse as the new {topCited, businesses} structure
+    const jsonMatch = text.match(/\{[\s\S]*\}/);
+    if (jsonMatch) {
+      const parsed = JSON.parse(jsonMatch[0]) as {
+        topCited?: string[];
+        businesses?: Partial<RawProspect>[];
+      };
 
-          return {
-            businessName: p.businessName || '',
-            contactName: p.contactName,
-            contactEmail: p.contactEmail,
-            website: p.website,
-            phone: p.phone,
-            city: p.city || metro.split(',')[0].trim(),
-            state: p.state || metro.split(',')[1]?.trim() || '',
-            serviceNiche: p.serviceNiche || vertical,
-            reviewCount: typeof p.reviewCount === 'number' ? p.reviewCount : undefined,
-            rating: typeof p.rating === 'number' ? p.rating : undefined,
-            painSignals: signals,
-            citationResults: effectiveCitations,
-            differentiator: typeof p.differentiator === 'string' ? p.differentiator : undefined,
-            outreachReady: false, // Set in Pass 4
-            scoreBreakdown: { aiBlindSpot: 0, reputationStrength: 0, contentGap: 0, revenuePotential: 0, contactQuality: 0, total: 0 },
-            priority: 'P3' as HuntPriority,
-          };
-        });
+      const topCited = Array.isArray(parsed.topCited) ? parsed.topCited : [];
+      const businesses = Array.isArray(parsed.businesses) ? parsed.businesses : [];
+
+      if (businesses.length > 0) {
+        return businesses
+          .filter(p => p.businessName)
+          .map(p => {
+            const isCited = topCited.some(tc =>
+              tc.toLowerCase().includes((p.businessName || '').toLowerCase()) ||
+              (p.businessName || '').toLowerCase().includes(tc.toLowerCase()),
+            );
+
+            // Build citation result: not cited = prospect opportunity
+            const citationResults: CitationResult[] = [{
+              platform: 'chatgpt' as const,
+              query: `best ${vertical} in ${city}`,
+              cited: isCited,
+              competitorsCited: topCited.filter(tc =>
+                !tc.toLowerCase().includes((p.businessName || '').toLowerCase()),
+              ).slice(0, 5),
+            }];
+
+            const painSignals = isCited
+              ? [`${p.businessName} appears in AI recommendations but may have optimization gaps`]
+              : [`${p.businessName} has ${p.reviewCount || 'multiple'} Google reviews but is not recommended by AI assistants for "${vertical} in ${city}"`];
+
+            return {
+              businessName: p.businessName || '',
+              contactName: p.contactName,
+              contactEmail: p.contactEmail,
+              website: p.website,
+              phone: p.phone,
+              city,
+              state,
+              serviceNiche: vertical,
+              reviewCount: typeof p.reviewCount === 'number' ? p.reviewCount : undefined,
+              rating: typeof p.rating === 'number' ? p.rating : undefined,
+              painSignals,
+              citationResults,
+              differentiator: typeof p.differentiator === 'string' ? p.differentiator : undefined,
+              outreachReady: false,
+              scoreBreakdown: { aiBlindSpot: 0, reputationStrength: 0, contentGap: 0, revenuePotential: 0, contactQuality: 0, total: 0 },
+              priority: 'P3' as HuntPriority,
+            };
+          });
+      }
+    }
+
+    // Fallback: try parsing as a plain array (old format)
+    const arrayMatch = text.match(/\[[\s\S]*\]/);
+    if (arrayMatch) {
+      const parsed = JSON.parse(arrayMatch[0]) as Partial<RawProspect>[];
+      return parsed
+        .filter(p => p.businessName)
+        .map(p => ({
+          businessName: p.businessName || '',
+          contactName: p.contactName,
+          contactEmail: p.contactEmail,
+          website: p.website,
+          phone: p.phone,
+          city,
+          state,
+          serviceNiche: vertical,
+          reviewCount: typeof p.reviewCount === 'number' ? p.reviewCount : undefined,
+          rating: typeof p.rating === 'number' ? p.rating : undefined,
+          painSignals: Array.isArray(p.painSignals) ? p.painSignals : [],
+          citationResults: parseCitationResults(p.citationResults),
+          differentiator: typeof p.differentiator === 'string' ? p.differentiator : undefined,
+          outreachReady: false,
+          scoreBreakdown: { aiBlindSpot: 0, reputationStrength: 0, contentGap: 0, revenuePotential: 0, contactQuality: 0, total: 0 },
+          priority: 'P3' as HuntPriority,
+        }));
     }
   } catch {
     // JSON parsing failed
