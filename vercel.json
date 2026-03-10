@@ -2,42 +2,6 @@
   "cleanUrls": true,
   "crons": [
     {
-      "path": "/api/cron/hunt?trigger=cron_daily",
-      "schedule": "0 13 * * 1-5"
-    },
-    {
-      "path": "/api/cron/hunt?trigger=cron_weekly",
-      "schedule": "30 13 * * 5"
-    },
-    {
-      "path": "/api/cron/hunt?trigger=cron_monthly",
-      "schedule": "0 14 1 * *"
-    },
-    {
-      "path": "/api/cron/pipeline",
-      "schedule": "0 14 * * 1-5"
-    },
-    {
-      "path": "/api/cron/pipeline",
-      "schedule": "0 15 * * 1-5"
-    },
-    {
-      "path": "/api/cron/pipeline",
-      "schedule": "0 17 * * 1-5"
-    },
-    {
-      "path": "/api/cron/pipeline",
-      "schedule": "0 19 * * 1-5"
-    },
-    {
-      "path": "/api/cron/pipeline",
-      "schedule": "0 21 * * 1-5"
-    },
-    {
-      "path": "/api/cron/followup",
-      "schedule": "0 19 * * 1-5"
-    },
-    {
       "path": "/api/cron/blog?action=remind",
       "schedule": "0 15 * * 1-5"
     },
