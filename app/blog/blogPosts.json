@@ -538,5 +538,30 @@
       "Digital Marketing",
       "Content Strategy"
     ]
+  },
+  {
+    "id": 27,
+    "title": "How Do I Get My Business Found on Voice Search and AI?",
+    "slug": "how-do-i-get-my-business-found-voice-search-ai",
+    "excerpt": "Voice search drives 58% of local business queries. Learn how to optimize your business for Siri, Alexa, Google Assistant, and AI platforms so customers find you first.",
+    "category": "Voice Search & AI",
+    "author": "The Answer Engine Team",
+    "readTime": "10 min",
+    "image": "/blog/how-do-i-get-my-business-found-voice-search-ai.svg",
+    "publishDate": "2026-03-09",
+    "lastModified": "2026-03-09",
+    "featured": true,
+    "tags": [
+      "Voice Search",
+      "AI Visibility",
+      "Local Business",
+      "Google Assistant",
+      "Siri",
+      "Alexa",
+      "Schema Markup",
+      "FAQ Optimization",
+      "AEO",
+      "Answer Engine Optimization"
+    ]
   }
 ]
