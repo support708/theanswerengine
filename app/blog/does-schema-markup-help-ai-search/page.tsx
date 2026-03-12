@@ -345,69 +345,55 @@ export default function Page() {
 
             {/* Section 4 */}
             <h2 className="text-2xl font-bold text-white mt-12 mb-4 font-plus-jakarta">
-              The 5 Schema Types Every Local Business Needs
+              Schema Types That AI Platforms Care About
             </h2>
             <p className="text-gray-300 leading-relaxed mb-4">
-              If you are a local service business, here are the five schema types to
-              implement first, in order of priority.
+              There are dozens of schema types available, but AI platforms do not weight
+              them equally. Some types have a direct, measurable impact on AI citations.
+              Others have minimal effect. The difference between businesses that get
+              cited and businesses that do not often comes down to which schema types
+              they implemented and how they implemented them.
             </p>
-            <div className="my-6 p-6 rounded-xl border border-gray-800 bg-gray-900">
-              <ul className="space-y-4 text-gray-300">
-                <li className="flex items-start gap-3">
-                  <span className="text-orange-400 font-bold mt-0.5">1.</span>
-                  <span><strong className="text-white">LocalBusiness</strong>: Your business name, address, phone, hours, service area, and categories. This is the foundation. Without it, AI platforms may not even identify you as a local service provider.</span>
-                </li>
-                <li className="flex items-start gap-3">
-                  <span className="text-orange-400 font-bold mt-0.5">2.</span>
-                  <span><strong className="text-white">FAQPage</strong>: Questions and answers about your services. This maps directly to how AI platforms generate conversational responses. Every service page should have FAQ schema.</span>
-                </li>
-                <li className="flex items-start gap-3">
-                  <span className="text-orange-400 font-bold mt-0.5">3.</span>
-                  <span><strong className="text-white">Service</strong>: Define each service you offer with descriptions, pricing, and service areas. This helps AI platforms match your business to specific service queries.</span>
-                </li>
-                <li className="flex items-start gap-3">
-                  <span className="text-orange-400 font-bold mt-0.5">4.</span>
-                  <span><strong className="text-white">Article</strong>: Use on blog posts and educational content. Signals authoritative editorial content that AI can cite as a knowledge source.</span>
-                </li>
-                <li className="flex items-start gap-3">
-                  <span className="text-orange-400 font-bold mt-0.5">5.</span>
-                  <span><strong className="text-white">Review / AggregateRating</strong>: Your review data in structured format. AI platforms cross-reference review signals to validate business quality before recommending.</span>
-                </li>
-              </ul>
-            </div>
+            <p className="text-gray-300 leading-relaxed mb-4">
+              What we can say publicly: the schema types that matter most are the ones
+              that help AI platforms{' '}
+              <strong className="text-white">identify what your business is, what you
+              offer, and what questions you can answer</strong>. If your schema does not
+              clearly communicate those three things, AI platforms will default to sources
+              that do.
+            </p>
+            <p className="text-gray-300 leading-relaxed mb-4">
+              The mistake most businesses make is treating schema like a checklist:
+              install a plugin, check a box, move on. But which schema types you choose,
+              how you layer them, and how they connect to your content structure all
+              affect whether AI actually trusts your data. Getting this right is the
+              difference between schema that generates citations and schema that just
+              passes a validation test.
+            </p>
 
             {/* Section 5 */}
             <h2 className="text-2xl font-bold text-white mt-12 mb-4 font-plus-jakarta">
-              How to Add Schema Markup to Your Website
+              Why Most Schema Implementations Fail
             </h2>
             <p className="text-gray-300 leading-relaxed mb-4">
-              Schema markup is added as JSON-LD (JavaScript Object Notation for Linked
-              Data) in a script tag within the head or body of your HTML. Here is the
-              practical path for different platforms.
+              Here is the uncomfortable truth: most businesses that have schema markup
+              on their site are not getting any AI visibility benefit from it. The schema
+              is technically valid. It passes Google&apos;s Rich Results Test. But it is
+              not doing anything meaningful for AI citations.
             </p>
             <p className="text-gray-300 leading-relaxed mb-4">
-              <strong className="text-white">WordPress:</strong> Install Rank Math or
-              Yoast SEO. Both have built-in schema generators that add LocalBusiness,
-              Article, and FAQPage schema through a visual interface. No code required.
+              The reason is that adding schema is easy. Adding schema that actually
+              influences AI platform behavior requires understanding how each platform
+              processes structured data, which types they prioritize, and how schema
+              interacts with your content quality and site authority. A valid schema
+              implementation and an effective schema implementation are two very
+              different things.
             </p>
             <p className="text-gray-300 leading-relaxed mb-4">
-              <strong className="text-white">Shopify or Wix:</strong> Use built-in
-              schema options or install schema apps from the marketplace. Most handle
-              Product and Organization schema automatically. You may need an app for
-              FAQPage and LocalBusiness schema.
-            </p>
-            <p className="text-gray-300 leading-relaxed mb-4">
-              <strong className="text-white">Custom websites:</strong> A developer
-              can add JSON-LD schema in a few hours. The format is straightforward: a
-              script tag with type &quot;application/ld+json&quot; containing your
-              structured data object. Google&apos;s Structured Data Markup Helper can
-              generate the code for you to paste in.
-            </p>
-            <p className="text-gray-300 leading-relaxed mb-4">
-              <strong className="text-white">Testing:</strong> Always validate your
-              schema using Google&apos;s Rich Results Test. It shows which schema types
-              are detected, any errors, and whether your page is eligible for rich
-              results and AI features.
+              This is why we run schema audits as part of our AI visibility assessments.
+              We do not just check if schema is present. We evaluate whether it is
+              configured in a way that actually moves the needle on AI citations for
+              your specific business and competitive landscape.
             </p>
 
             {/* Section 6 */}

@@ -94,7 +94,7 @@ const jsonLd = {
           name: 'What are the main ranking factors for Perplexity citations?',
           acceptedAnswer: {
             '@type': 'Answer',
-            text: 'The five main factors are citation frequency (how often your domain is cited across queries, accounting for up to 35% of ranking weight), content freshness (recently published or updated content gets a significant boost), domain authority (approximately 15% of the algorithm), content structure (clean headings, schema markup, extractable answers), and author entity recognition (consistent authorship across platforms).',
+            text: 'The five main factors are citation frequency (how often your domain is cited across queries, and the single largest ranking signal), content freshness (recently published or updated content gets a significant boost), domain authority (meaningful but not dominant), content structure (clean headings, schema markup, extractable answers), and author entity recognition (consistent authorship across platforms).',
           },
         },
         {
@@ -293,11 +293,11 @@ export default function Page() {
             </p>
 
             <h3 className="text-xl font-semibold text-white mt-8 mb-3 font-plus-jakarta">
-              1. Citation Frequency (Up to 35% of Ranking Weight)
+              1. Citation Frequency (The Compounding Factor)
             </h3>
             <p className="text-gray-300 leading-relaxed mb-4">
-              <strong className="text-white">Citation frequency drives up to 35% of all
-              AI answer inclusions for a domain.</strong> This is a compounding effect:
+              <strong className="text-white">Citation frequency is the single largest
+              driver of AI answer inclusions for a domain.</strong> This is a compounding effect:
               the more often Perplexity cites your domain across different queries, the
               more it trusts your domain for future queries. This is why building a
               broad content footprint matters. If Perplexity has cited your plumbing
@@ -323,11 +323,11 @@ export default function Page() {
             </p>
 
             <h3 className="text-xl font-semibold text-white mt-8 mb-3 font-plus-jakarta">
-              3. Domain Authority (Approximately 15% of Algorithm)
+              3. Domain Authority (A Meaningful But Not Dominant Factor)
             </h3>
             <p className="text-gray-300 leading-relaxed mb-4">
-              Domain authority accounts for approximately 15% of Perplexity&apos;s
-              ranking algorithm. Perplexity maintains curated authority domains for
+              Domain authority plays a meaningful role in Perplexity&apos;s ranking, but
+              it is not the dominant factor many assume. Perplexity maintains curated authority domains for
               different categories: GitHub and Stack Overflow for technical content,
               Amazon and Walmart for products, Reddit and LinkedIn for discussions.
             </p>
@@ -371,40 +371,29 @@ export default function Page() {
 
             {/* Section 3 */}
             <h2 className="text-2xl font-bold text-white mt-12 mb-4 font-plus-jakarta">
-              How to Get Your Business Cited by Perplexity
+              What This Means for Your Business
             </h2>
             <p className="text-gray-300 leading-relaxed mb-4">
-              Based on these ranking factors, here is a practical checklist for
-              improving your Perplexity citation rate.
+              Understanding these ranking factors is one thing. Actually getting cited
+              is another. The businesses we work with that earn consistent Perplexity
+              citations have one thing in common: they produce content that Perplexity
+              <strong className="text-white"> cannot find anywhere else</strong>.
             </p>
-            <div className="my-6 p-6 rounded-xl border border-gray-800 bg-gray-900">
-              <ul className="space-y-3 text-gray-300">
-                <li className="flex items-start gap-3">
-                  <span className="text-orange-400 font-bold mt-0.5">1.</span>
-                  <span><strong className="text-white">Publish original data.</strong> If you state a specific fact or statistic that no other source has, Perplexity must cite you when it uses it. Case studies, survey results, pricing data, and local market insights are all examples of citable original data.</span>
-                </li>
-                <li className="flex items-start gap-3">
-                  <span className="text-orange-400 font-bold mt-0.5">2.</span>
-                  <span><strong className="text-white">Update content regularly.</strong> Refresh your key pages at least quarterly. Update year references, add new data, and adjust the modified date. Perplexity rewards freshness more heavily than most platforms.</span>
-                </li>
-                <li className="flex items-start gap-3">
-                  <span className="text-orange-400 font-bold mt-0.5">3.</span>
-                  <span><strong className="text-white">Structure content for extraction.</strong> Use clear headings, lead with direct answers, and keep paragraphs short. Add FAQ sections with concise answers. Perplexity needs to grab a clean quote or fact to cite you.</span>
-                </li>
-                <li className="flex items-start gap-3">
-                  <span className="text-orange-400 font-bold mt-0.5">4.</span>
-                  <span><strong className="text-white">Add schema markup.</strong> FAQPage, Article, and Organization schema help Perplexity understand your content structure and entity identity. Pages with schema-defined entities earn more citations.</span>
-                </li>
-                <li className="flex items-start gap-3">
-                  <span className="text-orange-400 font-bold mt-0.5">5.</span>
-                  <span><strong className="text-white">Build author presence.</strong> Publish under a consistent author name across your site, LinkedIn, and industry platforms. Perplexity cross-references authorship to evaluate expertise.</span>
-                </li>
-                <li className="flex items-start gap-3">
-                  <span className="text-orange-400 font-bold mt-0.5">6.</span>
-                  <span><strong className="text-white">Cover your niche comprehensively.</strong> The more Perplexity cites you on related queries, the more it trusts you for future queries in that space. Build deep content clusters (hub and spoke) to become the default source for your topic.</span>
-                </li>
-              </ul>
-            </div>
+            <p className="text-gray-300 leading-relaxed mb-4">
+              Original data is the most reliable path to Perplexity citations. If you
+              state a specific fact, statistic, or insight that no other source has,
+              Perplexity is required to cite you when it uses it. That is how RAG works.
+              Case studies, survey results, market-specific pricing data, and local
+              insights are the types of content that earn citations consistently.
+            </p>
+            <p className="text-gray-300 leading-relaxed mb-4">
+              The challenge is that knowing which factors matter is not the same as
+              knowing how to optimize for them. Each of these five factors has specific
+              implementation strategies that vary by industry, geography, and competitive
+              landscape. A plumber in Dallas needs a different approach than a
+              personal injury attorney in Miami. The ranking factors are the same;
+              the execution is not.
+            </p>
 
             {/* Section 4 */}
             <h2 className="text-2xl font-bold text-white mt-12 mb-4 font-plus-jakarta">
@@ -516,11 +505,11 @@ export default function Page() {
                 </h3>
                 <p className="text-gray-300 leading-relaxed">
                   The five main factors are{' '}
-                  <strong className="text-white">citation frequency</strong> (up to
-                  35% of ranking weight),{' '}
+                  <strong className="text-white">citation frequency</strong> (the
+                  single largest signal),{' '}
                   <strong className="text-white">content freshness</strong> (major
                   signal),{' '}
-                  <strong className="text-white">domain authority</strong> (~15%),{' '}
+                  <strong className="text-white">domain authority</strong> (meaningful but not dominant),{' '}
                   <strong className="text-white">content structure</strong> (clean
                   headings and schema), and{' '}
                   <strong className="text-white">author entity recognition</strong>{' '}
