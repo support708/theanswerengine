@@ -1,0 +1,1428 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AI Visibility Gap Report | LOA Construction and Austin Roofing</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Sans:wght@300;400;500;700&display=swap');
+
+  :root {
+    --orange: #264a9e;
+    --purple: #362478;
+    --red: #bf172e;
+    --black: #000000;
+    --white: #ffffff;
+    --dark: #080810;
+    --dark2: #0f0f1a;
+    --dark3: #16162a;
+    --muted: rgba(255,255,255,0.45);
+    --border: rgba(255,255,255,0.08);
+  }
+
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  html { scroll-behavior: smooth; }
+
+  body {
+    background: var(--dark);
+    color: var(--white);
+    font-family: 'DM Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    overflow-x: hidden;
+  }
+
+  /* NAV DOTS */
+  .nav-dots {
+    position: fixed;
+    right: 28px;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 100;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .nav-dot {
+    width: 8px; height: 8px;
+    border-radius: 50%;
+    background: rgba(255,255,255,0.2);
+    cursor: pointer;
+    transition: all 0.3s ease;
+    border: none;
+  }
+  .nav-dot.active, .nav-dot:hover { background: var(--orange); transform: scale(1.4); }
+
+  /* SLIDE BASE */
+  .slide {
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 80px 48px 100px;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .slide-inner {
+    width: 100%;
+    max-width: 900px;
+    position: relative;
+    z-index: 2;
+  }
+
+  /* FOOTER */
+  .slide-footer {
+    position: absolute;
+    bottom: 0; left: 0; right: 0;
+    padding: 18px 48px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid var(--border);
+    font-size: 11px;
+    color: var(--muted);
+    letter-spacing: 0.08em;
+    z-index: 10;
+  }
+  .footer-logo {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 14px;
+    letter-spacing: 0.15em;
+    color: var(--orange);
+  }
+
+  /* SLIDE NUMBER */
+  .slide-num {
+    position: absolute;
+    top: 32px; right: 48px;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 13px;
+    letter-spacing: 0.2em;
+    color: var(--muted);
+    z-index: 10;
+  }
+
+  /* LABEL TAG */
+  .label {
+    display: inline-block;
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    padding: 6px 14px;
+    border-radius: 3px;
+    margin-bottom: 28px;
+  }
+  .label-orange { background: rgba(38,74,158,0.15); color: var(--orange); border: 1px solid rgba(38,74,158,0.3); }
+  .label-red { background: rgba(191,23,46,0.15); color: var(--red); border: 1px solid rgba(191,23,46,0.3); }
+  .label-purple { background: rgba(54,36,120,0.4); color: #a89eee; border: 1px solid rgba(168,158,238,0.3); }
+
+  /* BACKGROUNDS */
+  .bg-grid {
+    position: absolute;
+    inset: 0;
+    background-image:
+      linear-gradient(rgba(38,74,158,0.03) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(38,74,158,0.03) 1px, transparent 1px);
+    background-size: 60px 60px;
+    z-index: 0;
+  }
+  .bg-glow-orange {
+    position: absolute;
+    width: 600px; height: 600px;
+    border-radius: 50%;
+    background: radial-gradient(circle, rgba(38,74,158,0.12) 0%, transparent 70%);
+    z-index: 0;
+  }
+  .bg-glow-red {
+    position: absolute;
+    width: 500px; height: 500px;
+    border-radius: 50%;
+    background: radial-gradient(circle, rgba(191,23,46,0.10) 0%, transparent 70%);
+    z-index: 0;
+  }
+  .bg-glow-purple {
+    position: absolute;
+    width: 700px; height: 700px;
+    border-radius: 50%;
+    background: radial-gradient(circle, rgba(54,36,120,0.18) 0%, transparent 70%);
+    z-index: 0;
+  }
+
+  /* ================================
+     SLIDE 1 — THE HOOK
+  ================================ */
+  #slide1 { background: var(--dark); }
+
+  .s1-eyebrow {
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 0.25em;
+    text-transform: uppercase;
+    color: var(--orange);
+    margin-bottom: 20px;
+  }
+
+  .s1-headline {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: clamp(52px, 8vw, 96px);
+    line-height: 0.92;
+    letter-spacing: 0.01em;
+    margin-bottom: 32px;
+  }
+  .s1-headline .line-white { color: var(--white); display: block; }
+  .s1-headline .line-orange { color: var(--orange); display: block; }
+  .s1-headline .line-red { color: var(--red); display: block; }
+
+  .s1-subhead {
+    font-size: 18px;
+    font-weight: 300;
+    color: var(--muted);
+    max-width: 580px;
+    line-height: 1.6;
+    margin-bottom: 48px;
+  }
+  .s1-subhead strong { color: var(--white); font-weight: 500; }
+
+  .s1-stat-bar {
+    display: flex;
+    gap: 0;
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    overflow: hidden;
+    max-width: 640px;
+  }
+  .s1-stat {
+    flex: 1;
+    padding: 24px 28px;
+    border-right: 1px solid var(--border);
+  }
+  .s1-stat:last-child { border-right: none; }
+  .s1-stat-num {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 42px;
+    line-height: 1;
+    margin-bottom: 6px;
+  }
+  .s1-stat-label {
+    font-size: 11px;
+    font-weight: 500;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--muted);
+  }
+  .num-orange { color: var(--orange); }
+  .num-red { color: var(--red); }
+  .num-white { color: var(--white); }
+
+  /* ================================
+     SLIDE 2 — PROOF
+  ================================ */
+  #slide2 { background: var(--dark2); }
+
+  .s2-headline {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: clamp(36px, 5vw, 56px);
+    line-height: 1;
+    letter-spacing: 0.02em;
+    margin-bottom: 12px;
+  }
+  .s2-sub {
+    font-size: 15px;
+    color: var(--muted);
+    margin-bottom: 40px;
+    font-weight: 300;
+  }
+
+  .chatgpt-window {
+    background: #1a1a2e;
+    border: 1px solid rgba(255,255,255,0.1);
+    border-radius: 12px;
+    overflow: hidden;
+    max-width: 700px;
+  }
+  .chatgpt-header {
+    background: #111122;
+    padding: 14px 20px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border-bottom: 1px solid rgba(255,255,255,0.06);
+  }
+  .chatgpt-dot { width: 10px; height: 10px; border-radius: 50%; }
+  .chatgpt-logo {
+    margin-left: auto;
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    color: rgba(255,255,255,0.3);
+  }
+  .chatgpt-query {
+    padding: 20px 24px;
+    background: rgba(255,255,255,0.03);
+    font-size: 14px;
+    color: rgba(255,255,255,0.7);
+    border-bottom: 1px solid rgba(255,255,255,0.06);
+    font-style: italic;
+  }
+  .chatgpt-response {
+    padding: 24px;
+  }
+  .chatgpt-response p {
+    font-size: 14px;
+    line-height: 1.7;
+    color: rgba(255,255,255,0.75);
+    margin-bottom: 16px;
+  }
+  .ai-mention {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    background: rgba(255,255,255,0.06);
+    border-radius: 4px;
+    padding: 2px 10px;
+    font-size: 13px;
+    color: var(--white);
+    margin: 3px;
+  }
+  .ai-mention.competitor { color: #4ade80; }
+  .ai-mention.missing {
+    color: var(--red);
+    background: rgba(191,23,46,0.15);
+    border: 1px solid rgba(191,23,46,0.3);
+    text-decoration: line-through;
+    text-decoration-color: var(--red);
+  }
+  .missing-label {
+    display: inline-block;
+    background: var(--red);
+    color: white;
+    font-size: 10px;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    padding: 3px 8px;
+    border-radius: 3px;
+    margin-left: 8px;
+    text-decoration: none;
+  }
+
+  .vs-bar {
+    display: flex;
+    gap: 16px;
+    margin-top: 32px;
+    max-width: 700px;
+  }
+  .vs-card {
+    flex: 1;
+    padding: 20px 24px;
+    border-radius: 8px;
+    border: 1px solid var(--border);
+  }
+  .vs-card.them { border-color: rgba(74,222,128,0.25); background: rgba(74,222,128,0.05); }
+  .vs-card.you { border-color: rgba(191,23,46,0.35); background: rgba(191,23,46,0.07); }
+  .vs-card-label {
+    font-size: 10px;
+    font-weight: 700;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    margin-bottom: 12px;
+  }
+  .vs-card.them .vs-card-label { color: #4ade80; }
+  .vs-card.you .vs-card-label { color: var(--red); }
+  .vs-card-name {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 26px;
+    letter-spacing: 0.03em;
+    margin-bottom: 8px;
+  }
+  .vs-card.them .vs-card-name { color: #4ade80; }
+  .vs-card.you .vs-card-name { color: var(--red); }
+  .vs-card-detail {
+    font-size: 13px;
+    color: var(--muted);
+    line-height: 1.5;
+  }
+
+  /* ================================
+     SLIDE 3 — MONEY MATH
+  ================================ */
+  #slide3 { background: var(--dark); }
+
+  .money-headline {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: clamp(36px, 5vw, 52px);
+    letter-spacing: 0.02em;
+    line-height: 1;
+    margin-bottom: 40px;
+  }
+
+  .math-table {
+    width: 100%;
+    max-width: 760px;
+    border-collapse: collapse;
+  }
+  .math-table th {
+    padding: 14px 20px;
+    font-size: 10px;
+    font-weight: 700;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: var(--muted);
+    text-align: left;
+    border-bottom: 1px solid var(--border);
+  }
+  .math-table th:last-child { text-align: right; }
+  .math-table td {
+    padding: 18px 20px;
+    font-size: 15px;
+    border-bottom: 1px solid var(--border);
+    vertical-align: top;
+  }
+  .math-table td:last-child { text-align: right; font-weight: 600; }
+  .math-table tr.highlight-bad td { background: rgba(191,23,46,0.06); }
+  .math-table tr.highlight-bad td:last-child { color: var(--red); }
+  .math-table tr.highlight-good td { background: rgba(74,222,128,0.04); }
+  .math-table tr.highlight-good td:last-child { color: #4ade80; }
+  .math-table tr.total-row td {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 22px;
+    letter-spacing: 0.05em;
+    border-bottom: none;
+    padding-top: 24px;
+  }
+  .math-sub {
+    font-size: 12px;
+    color: var(--muted);
+    margin-top: 4px;
+    font-weight: 300;
+  }
+
+  .math-verdict {
+    margin-top: 32px;
+    max-width: 760px;
+    padding: 24px 28px;
+    border-left: 3px solid var(--orange);
+    background: rgba(38,74,158,0.06);
+    border-radius: 0 8px 8px 0;
+  }
+  .math-verdict p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: rgba(255,255,255,0.85);
+  }
+  .math-verdict strong { color: var(--orange); }
+
+  /* COMPARISON CARDS — Slide 3 v2 */
+  .comparison-cards {
+    display: flex;
+    gap: 20px;
+    max-width: 760px;
+    margin-bottom: 8px;
+  }
+  .comparison-card {
+    flex: 1;
+    padding: 28px 24px;
+    border-radius: 10px;
+    border: 1px solid var(--border);
+  }
+  .comparison-card.paid {
+    border-color: rgba(191,23,46,0.35);
+    background: rgba(191,23,46,0.05);
+  }
+  .comparison-card.free {
+    border-color: rgba(74,222,128,0.25);
+    background: rgba(74,222,128,0.05);
+  }
+  .comparison-card-label {
+    font-size: 10px;
+    font-weight: 700;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    margin-bottom: 14px;
+  }
+  .comparison-card.paid .comparison-card-label { color: var(--red); }
+  .comparison-card.free .comparison-card-label { color: #4ade80; }
+  .comparison-card-channel {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 22px;
+    letter-spacing: 0.03em;
+    margin-bottom: 12px;
+  }
+  .comparison-card.paid .comparison-card-channel { color: var(--red); }
+  .comparison-card.free .comparison-card-channel { color: #4ade80; }
+  .comparison-card-body {
+    font-size: 14px;
+    color: rgba(255,255,255,0.7);
+    line-height: 1.6;
+    margin-bottom: 16px;
+  }
+  .comparison-card-benchmark {
+    font-size: 12px;
+    color: var(--muted);
+    line-height: 1.5;
+    padding-top: 14px;
+    border-top: 1px solid var(--border);
+  }
+
+  /* ================================
+     SLIDE 4 — GAP ANALYSIS
+  ================================ */
+  #slide4 { background: var(--dark2); }
+
+  .gap-headline {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: clamp(36px, 5vw, 52px);
+    letter-spacing: 0.02em;
+    line-height: 1;
+    margin-bottom: 12px;
+  }
+  .gap-sub {
+    font-size: 15px;
+    color: var(--muted);
+    margin-bottom: 40px;
+    font-weight: 300;
+  }
+
+  .gap-grid {
+    display: grid;
+    grid-template-columns: 1fr 60px 1fr;
+    gap: 0;
+    max-width: 820px;
+    align-items: start;
+  }
+  .gap-col-label {
+    font-size: 10px;
+    font-weight: 700;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    padding: 0 0 16px 0;
+    margin-bottom: 4px;
+  }
+  .gap-col-label.you { color: var(--red); }
+  .gap-col-label.them { color: #4ade80; }
+  .gap-divider { display: flex; align-items: center; justify-content: center; padding-top: 36px; }
+  .gap-vs { font-family: 'Bebas Neue', sans-serif; font-size: 28px; color: var(--muted); }
+
+  .gap-item {
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
+    padding: 14px 0;
+    border-bottom: 1px solid var(--border);
+  }
+  .gap-item:last-child { border-bottom: none; }
+  .gap-icon {
+    width: 22px; height: 22px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 11px;
+    flex-shrink: 0;
+    margin-top: 2px;
+  }
+  .gap-icon.bad { background: rgba(191,23,46,0.2); color: var(--red); }
+  .gap-icon.good { background: rgba(74,222,128,0.15); color: #4ade80; }
+  .gap-text { font-size: 14px; line-height: 1.5; }
+  .gap-text strong { display: block; font-weight: 600; font-size: 14px; margin-bottom: 2px; }
+  .gap-text span { font-size: 12px; color: var(--muted); font-weight: 300; }
+
+  /* ================================
+     SLIDE 5 — THE FIX
+  ================================ */
+  #slide5 { background: var(--dark3); }
+
+  .fix-headline {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: clamp(36px, 5vw, 56px);
+    letter-spacing: 0.02em;
+    line-height: 1;
+    margin-bottom: 40px;
+  }
+
+  .timeline {
+    max-width: 760px;
+    position: relative;
+  }
+  .timeline::before {
+    content: '';
+    position: absolute;
+    left: 18px;
+    top: 0; bottom: 0;
+    width: 2px;
+    background: linear-gradient(to bottom, var(--orange), var(--purple));
+    z-index: 0;
+  }
+  .timeline-item {
+    display: flex;
+    gap: 28px;
+    margin-bottom: 28px;
+    position: relative;
+    z-index: 1;
+  }
+  .timeline-dot {
+    width: 38px; height: 38px;
+    border-radius: 50%;
+    background: var(--dark3);
+    border: 2px solid var(--orange);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 16px;
+    color: var(--orange);
+    flex-shrink: 0;
+  }
+  .timeline-content {
+    padding-top: 6px;
+    padding-bottom: 8px;
+  }
+  .timeline-week {
+    font-size: 10px;
+    font-weight: 700;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: var(--orange);
+    margin-bottom: 6px;
+  }
+  .timeline-title {
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 6px;
+  }
+  .timeline-desc {
+    font-size: 13px;
+    color: var(--muted);
+    line-height: 1.6;
+  }
+
+  .fix-package {
+    margin-top: 32px;
+    max-width: 760px;
+    padding: 28px 32px;
+    background: linear-gradient(135deg, rgba(38,74,158,0.1), rgba(54,36,120,0.15));
+    border: 1px solid rgba(38,74,158,0.25);
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 24px;
+  }
+  .fix-package-name {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 28px;
+    letter-spacing: 0.05em;
+    color: var(--orange);
+    margin-bottom: 6px;
+  }
+  .fix-package-desc {
+    font-size: 13px;
+    color: var(--muted);
+    max-width: 420px;
+    line-height: 1.5;
+  }
+  .fix-price {
+    text-align: right;
+    flex-shrink: 0;
+  }
+  .fix-price-num {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 48px;
+    color: var(--white);
+    line-height: 1;
+  }
+  .fix-price-label {
+    font-size: 11px;
+    color: var(--muted);
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+  }
+
+  /* Slide 5 v2 — Inline CTA (replaces pricing box) */
+  .fix-next-step {
+    padding: 28px 32px;
+    border-left: 3px solid var(--orange);
+    background: rgba(38,74,158,0.06);
+    border-radius: 0 8px 8px 0;
+    margin-top: 32px;
+    max-width: 760px;
+  }
+  .fix-next-step p {
+    font-size: 15px;
+    line-height: 1.6;
+    color: rgba(255,255,255,0.8);
+    margin-bottom: 12px;
+  }
+  .cta-button-inline {
+    display: inline-block;
+    margin-top: 16px;
+    background: var(--orange);
+    color: #000;
+    font-weight: 700;
+    padding: 14px 32px;
+    border-radius: 4px;
+    text-decoration: none;
+    font-size: 14px;
+    letter-spacing: 0.06em;
+    transition: all 0.2s ease;
+  }
+  .cta-button-inline:hover {
+    background: #ff8c33;
+    transform: translateY(-2px);
+    box-shadow: 0 8px 24px rgba(38,74,158,0.3);
+  }
+
+  /* ================================
+     SLIDE 6 — PROOF / CASE STUDY
+  ================================ */
+  #slide6 { background: var(--dark); }
+
+  .proof-headline {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: clamp(36px, 5vw, 52px);
+    letter-spacing: 0.02em;
+    line-height: 1;
+    margin-bottom: 12px;
+  }
+  .proof-sub {
+    font-size: 15px;
+    color: var(--muted);
+    margin-bottom: 40px;
+    font-weight: 300;
+  }
+
+  .proof-card {
+    max-width: 820px;
+    background: var(--dark2);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    overflow: hidden;
+  }
+  .proof-card-header {
+    padding: 24px 32px;
+    background: linear-gradient(90deg, rgba(38,74,158,0.12), rgba(54,36,120,0.15));
+    border-bottom: 1px solid var(--border);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .proof-client { font-size: 13px; color: var(--muted); margin-bottom: 4px; }
+  .proof-client-name {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 26px;
+    letter-spacing: 0.05em;
+    color: var(--white);
+  }
+  .proof-badge {
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: var(--orange);
+    background: rgba(38,74,158,0.15);
+    border: 1px solid rgba(38,74,158,0.3);
+    padding: 6px 14px;
+    border-radius: 4px;
+  }
+  .proof-stats-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 0;
+  }
+  .proof-stat {
+    padding: 28px 24px;
+    border-right: 1px solid var(--border);
+    text-align: center;
+  }
+  .proof-stat:last-child { border-right: none; }
+  .proof-stat-before {
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    color: var(--red);
+    margin-bottom: 8px;
+  }
+  .proof-stat-after {
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    color: #4ade80;
+    margin-bottom: 8px;
+  }
+  .proof-stat-num {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 44px;
+    line-height: 1;
+    margin-bottom: 6px;
+  }
+  .proof-stat-label {
+    font-size: 11px;
+    color: var(--muted);
+    letter-spacing: 0.05em;
+    line-height: 1.4;
+  }
+  .proof-quote {
+    padding: 28px 32px;
+    border-top: 1px solid var(--border);
+    display: flex;
+    gap: 20px;
+    align-items: flex-start;
+  }
+  .proof-quote-mark {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 72px;
+    color: var(--orange);
+    line-height: 0.6;
+    flex-shrink: 0;
+    margin-top: 12px;
+  }
+  .proof-quote-text {
+    font-size: 15px;
+    line-height: 1.7;
+    color: rgba(255,255,255,0.8);
+    font-style: italic;
+  }
+  .proof-quote-attr {
+    margin-top: 12px;
+    font-size: 12px;
+    color: var(--muted);
+    font-style: normal;
+  }
+
+  .proof-disclaimer {
+    margin-top: 16px;
+    font-size: 11px;
+    color: rgba(255,255,255,0.25);
+    max-width: 820px;
+  }
+
+  /* ================================
+     SLIDE 7 — CTA
+  ================================ */
+  #slide7 {
+    background: var(--dark);
+    text-align: center;
+  }
+
+  .cta-eyebrow {
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 0.25em;
+    text-transform: uppercase;
+    color: var(--orange);
+    margin-bottom: 24px;
+  }
+
+  .cta-headline {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: clamp(52px, 9vw, 108px);
+    line-height: 0.88;
+    letter-spacing: 0.01em;
+    margin-bottom: 28px;
+  }
+  .cta-headline .line1 { color: var(--white); display: block; }
+  .cta-headline .line2 { color: var(--orange); display: block; }
+  .cta-headline .line3 { color: rgba(255,255,255,0.2); display: block; }
+
+  .cta-sub {
+    font-size: 17px;
+    font-weight: 300;
+    color: var(--muted);
+    max-width: 500px;
+    margin: 0 auto 48px;
+    line-height: 1.6;
+  }
+
+  .cta-button {
+    display: inline-block;
+    background: var(--orange);
+    color: var(--black);
+    font-family: 'DM Sans', sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 20px 48px;
+    border-radius: 4px;
+    transition: all 0.2s ease;
+    cursor: pointer;
+    border: none;
+    margin-bottom: 16px;
+  }
+  .cta-button:hover {
+    background: #ff8c33;
+    transform: translateY(-2px);
+    box-shadow: 0 12px 40px rgba(38,74,158,0.35);
+  }
+
+  .cta-micro {
+    display: block;
+    font-size: 12px;
+    color: var(--muted);
+    margin-top: 14px;
+    letter-spacing: 0.05em;
+  }
+
+  .cta-guarantee {
+    margin-top: 48px;
+    display: inline-flex;
+    align-items: center;
+    gap: 12px;
+    padding: 16px 28px;
+    border: 1px solid var(--border);
+    border-radius: 40px;
+    font-size: 13px;
+    color: var(--muted);
+  }
+  .cta-guarantee-icon { color: #4ade80; font-size: 16px; }
+
+  /* MICRO CTA — Slides 2, 4, 6 */
+  .slide-micro-cta {
+    text-align: center;
+    padding: 16px 48px 0;
+    position: relative;
+    z-index: 10;
+  }
+  .slide-micro-cta a {
+    font-size: 13px;
+    color: var(--orange);
+    text-decoration: none;
+    letter-spacing: 0.05em;
+    opacity: 0.8;
+    transition: opacity 0.2s ease;
+  }
+  .slide-micro-cta a:hover {
+    opacity: 1;
+  }
+
+  /* RESPONSIVE */
+  @media (max-width: 768px) {
+    .slide { padding: 60px 24px 80px; }
+    .slide-footer { padding: 16px 24px; }
+    .slide-num { right: 24px; }
+    .s1-stat-bar { flex-direction: column; }
+    .s1-stat { border-right: none; border-bottom: 1px solid var(--border); }
+    .gap-grid { grid-template-columns: 1fr; }
+    .gap-divider { display: none; }
+    .proof-stats-grid { grid-template-columns: repeat(2, 1fr); }
+    .proof-stat:nth-child(2) { border-right: none; }
+    .fix-package { flex-direction: column; }
+    .nav-dots { display: none; }
+    .vs-bar { flex-direction: column; }
+    .comparison-cards { flex-direction: column; }
+  }
+</style>
+</head>
+<body>
+
+<!-- NAV DOTS -->
+<nav class="nav-dots" id="navDots">
+  <button class="nav-dot active" onclick="scrollToSlide(1)"></button>
+  <button class="nav-dot" onclick="scrollToSlide(2)"></button>
+  <button class="nav-dot" onclick="scrollToSlide(3)"></button>
+  <button class="nav-dot" onclick="scrollToSlide(4)"></button>
+  <button class="nav-dot" onclick="scrollToSlide(5)"></button>
+  <button class="nav-dot" onclick="scrollToSlide(6)"></button>
+  <button class="nav-dot" onclick="scrollToSlide(7)"></button>
+</nav>
+
+<!-- ================================
+     SLIDE 1 — THE HOOK
+     FIX: Stat bar uses verified data only. Subhead removes dollar spend.
+================================ -->
+<section class="slide" id="slide1">
+  <div class="bg-grid"></div>
+  <div class="bg-glow-orange" style="top:-200px;left:-200px;"></div>
+  <span class="slide-num">01 / 07</span>
+
+  <div class="slide-inner">
+    <div class="s1-eyebrow">AI Visibility Report | Confidential</div>
+
+    <h1 class="s1-headline">
+      <span class="line-white">WHILE YOU PAID</span>
+      <span class="line-orange">Google Local Pack,</span>
+      <span class="line-red">The Guild Collective<br>GOT IT FREE.</span>
+    </h1>
+
+    <p class="s1-subhead">
+      You're running active <strong>Google Local Pack</strong> campaigns to show up when someone searches
+      "<strong>Roofing in Austin</strong>."<br>
+      Yesterday, ChatGPT answered that exact question.<br>
+      It recommended <strong style="color:var(--red);">The Guild Collective</strong>. Not you.
+    </p>
+
+    <div class="s1-stat-bar">
+      <div class="s1-stat">
+        <div class="s1-stat-num num-red">90+</div>
+        <div class="s1-stat-label">Days The Guild Collective has been getting free AI referrals</div>
+      </div>
+      <div class="s1-stat">
+        <div class="s1-stat-num num-orange">$0</div>
+        <div class="s1-stat-label">What The Guild Collective pays per AI recommendation</div>
+      </div>
+      <div class="s1-stat">
+        <div class="s1-stat-num num-white">961</div>
+        <div class="s1-stat-label">LOA Construction and Austin Roofing's Google reviews that AI isn't citing</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="slide-footer">
+    <span class="footer-logo">LOA CONSTRUCTION AND AUSTIN ROOFING</span>
+    <span>loaconstruction.com</span>
+  </div>
+</section>
+
+
+<!-- ================================
+     SLIDE 2 — THE PROOF
+     FIX: VS card softened (no dollar spend). Micro-CTA added.
+================================ -->
+<section class="slide" id="slide2">
+  <div class="bg-grid"></div>
+  <div class="bg-glow-red" style="top:10%;right:-100px;"></div>
+  <span class="slide-num">02 / 07</span>
+
+  <div class="slide-inner">
+    <div class="label label-red">Live AI Test — Conducted March 12, 2026</div>
+    <h2 class="s2-headline">THIS IS WHAT YOUR<br>CUSTOMERS SEE.</h2>
+    <p class="s2-sub">We asked ChatGPT and Perplexity the same question your ads are targeting. Here's the exact response.</p>
+
+    <div class="chatgpt-window">
+      <div class="chatgpt-header">
+        <div class="chatgpt-dot" style="background:#ff5f57"></div>
+        <div class="chatgpt-dot" style="background:#ffbd2e"></div>
+        <div class="chatgpt-dot" style="background:#28c840"></div>
+        <div class="chatgpt-logo">ChatGPT</div>
+      </div>
+      <div class="chatgpt-query">
+        "best Roofing in Austin"
+      </div>
+      <div class="chatgpt-response">
+        <p>Here are some highly recommended <strong>Roofing</strong> providers in <strong>Austin</strong>:</p>
+        <p>
+          <span class="ai-mention competitor">&#10003; The Guild Collective</span>
+          <span class="ai-mention competitor">&#10003; Longhorn Roofing</span>
+          <span class="ai-mention competitor">&#10003; Wilson Roofing</span>
+          <span class="ai-mention missing">LOA Construction and Austin Roofing <span class="missing-label">NOT CITED</span></span>
+        </p>
+        <p style="font-size:12px;color:rgba(255,255,255,0.35);margin-bottom:0;">
+          * Test conducted March 12, 2026. Results reflect AI training data and content signals at time of query.
+        </p>
+      </div>
+    </div>
+
+    <div class="vs-bar">
+      <div class="vs-card them">
+        <div class="vs-card-label">Recommended by AI</div>
+        <div class="vs-card-name">The Guild Collective</div>
+        <div class="vs-card-detail">Gets recommended for free.<br>Paid $0 in AI advertising.<br>Captured your customer.</div>
+      </div>
+      <div class="vs-card you">
+        <div class="vs-card-label">Invisible to AI</div>
+        <div class="vs-card-name">LOA Construction and Austin Roofing</div>
+        <div class="vs-card-detail">Running active Google Local Pack ads for Roofing in Austin.<br>Zero AI citations found.<br>That customer went to The Guild Collective.</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="slide-micro-cta">
+    <a href="https://calendly.com/theanswerengine-support/30min">Ready to see this fixed? Book 15 minutes. &#8594;</a>
+  </div>
+
+  <div class="slide-footer">
+    <span class="footer-logo">LOA CONSTRUCTION AND AUSTIN ROOFING</span>
+    <span>loaconstruction.com</span>
+  </div>
+</section>
+
+
+<!-- ================================
+     SLIDE 3 — MONEY MATH
+     FIX: Full rewrite. Comparison cards with industry benchmarks.
+     No fabricated spend numbers. No table.
+================================ -->
+<section class="slide" id="slide3">
+  <div class="bg-grid"></div>
+  <div class="bg-glow-purple" style="bottom:-200px;left:-200px;"></div>
+  <span class="slide-num">03 / 07</span>
+
+  <div class="slide-inner">
+    <div class="label label-orange">The Visibility Math</div>
+    <h2 class="money-headline">EVERY CLICK YOU BUY,<br>The Guild Collective GETS THEIRS FREE.</h2>
+
+    <div class="comparison-cards">
+      <div class="comparison-card paid">
+        <div class="comparison-card-label">How You're Getting Customers Now</div>
+        <div class="comparison-card-channel">Google Local Pack Ads</div>
+        <div class="comparison-card-body">
+          Every customer costs money. Stop paying, stop appearing. No compounding. No permanence.
+        </div>
+        <div class="comparison-card-benchmark">
+          Roofing contractors in competitive markets typically pay $25-65 per click and $500-1,500 per booked job through paid search.<br>
+          <span style="opacity:0.6;">Industry benchmarks via WordStream &amp; Google Ads data</span>
+        </div>
+      </div>
+      <div class="comparison-card free">
+        <div class="comparison-card-label">How The Guild Collective Is Getting Customers</div>
+        <div class="comparison-card-channel">AI Citations</div>
+        <div class="comparison-card-body">
+          $0 per recommendation. Runs 24/7. Every new AI user is a new impression. Compounds over time.
+        </div>
+        <div class="comparison-card-benchmark">
+          When someone asks ChatGPT for a Roofing in Austin, The Guild Collective gets the recommendation. Cost to The Guild Collective: $0.
+        </div>
+      </div>
+    </div>
+
+    <div class="math-verdict">
+      <p>
+        The gap between what you're paying and what <strong>The Guild Collective</strong> pays isn't a small difference. It's the entire business model.
+      </p>
+    </div>
+  </div>
+
+  <div class="slide-footer">
+    <span class="footer-logo">LOA CONSTRUCTION AND AUSTIN ROOFING</span>
+    <span>loaconstruction.com</span>
+  </div>
+</section>
+
+
+<!-- ================================
+     SLIDE 4 — GAP ANALYSIS
+     FIX: Removed AERO-7. Fixed jargon. Added micro-CTA.
+================================ -->
+<section class="slide" id="slide4">
+  <div class="bg-grid"></div>
+  <div class="bg-glow-red" style="top:50%;right:-150px;transform:translateY(-50%);"></div>
+  <span class="slide-num">04 / 07</span>
+
+  <div class="slide-inner">
+    <div class="label label-red">AI Visibility Assessment — LOA Construction and Austin Roofing</div>
+    <h2 class="gap-headline">WHAT AI SEES WHEN IT LOOKS<br>FOR Roofing IN Austin.</h2>
+    <p class="gap-sub">We analyzed what AI platforms read — and what they're reading about The Guild Collective that they aren't reading about you.</p>
+
+    <div class="gap-grid">
+      <!-- YOUR COLUMN -->
+      <div>
+        <div class="gap-col-label you">LOA Construction and Austin Roofing — Current State</div>
+        <div class="gap-item">
+          <div class="gap-icon bad">&#10007;</div>
+          <div class="gap-text">
+            <strong>No Answer-Optimized Content</strong>
+            <span>0 blog posts, none structured for AI queries</span>
+          </div>
+        </div>
+        <div class="gap-item">
+          <div class="gap-icon bad">&#10007;</div>
+          <div class="gap-text">
+            <strong>No Schema Markup</strong>
+            <span>AI can't read your structured data — detected but incomplete</span>
+          </div>
+        </div>
+        <div class="gap-item">
+          <div class="gap-icon bad">&#10007;</div>
+          <div class="gap-text">
+            <strong>No FAQ Architecture</strong>
+            <span>You have no pages that directly answer what AI is asked</span>
+          </div>
+        </div>
+        <div class="gap-item">
+          <div class="gap-icon bad">&#10007;</div>
+          <div class="gap-text">
+            <strong>Expertise Not Documented</strong>
+            <span>961 reviews — none of it AI-readable</span>
+          </div>
+        </div>
+        <div class="gap-item">
+          <div class="gap-icon bad">&#10007;</div>
+          <div class="gap-text">
+            <strong>No Topical Authority Online</strong>
+            <span>No connected content that signals you're the expert source on Roofing in Austin</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- DIVIDER -->
+      <div class="gap-divider"><div class="gap-vs">VS</div></div>
+
+      <!-- COMPETITOR COLUMN -->
+      <div>
+        <div class="gap-col-label them">The Guild Collective — What AI Sees</div>
+        <div class="gap-item">
+          <div class="gap-icon good">&#10003;</div>
+          <div class="gap-text">
+            <strong>Answer-Optimized Articles</strong>
+            <span>Content written to directly answer queries AI receives</span>
+          </div>
+        </div>
+        <div class="gap-item">
+          <div class="gap-icon good">&#10003;</div>
+          <div class="gap-text">
+            <strong>LocalBusiness Schema Markup</strong>
+            <span>Structured data AI platforms parse and trust</span>
+          </div>
+        </div>
+        <div class="gap-item">
+          <div class="gap-icon good">&#10003;</div>
+          <div class="gap-text">
+            <strong>FAQ Pages Targeting AI Queries</strong>
+            <span>Direct question-and-answer format AI cites verbatim</span>
+          </div>
+        </div>
+        <div class="gap-item">
+          <div class="gap-icon good">&#10003;</div>
+          <div class="gap-text">
+            <strong>Credentials Documented On-Site</strong>
+            <span>Authority signals AI uses to validate recommendations</span>
+          </div>
+        </div>
+        <div class="gap-item">
+          <div class="gap-icon good">&#10003;</div>
+          <div class="gap-text">
+            <strong>Connected Expert Content</strong>
+            <span>Multiple pages that together signal deep expertise — exactly what AI looks for when choosing who to cite</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="slide-micro-cta">
+    <a href="https://calendly.com/theanswerengine-support/30min">Ready to see this fixed? Book 15 minutes. &#8594;</a>
+  </div>
+
+  <div class="slide-footer">
+    <span class="footer-logo">LOA CONSTRUCTION AND AUSTIN ROOFING</span>
+    <span>loaconstruction.com</span>
+  </div>
+</section>
+
+
+<!-- ================================
+     SLIDE 5 — THE FIX
+     FIX: Removed all pricing. Simplified timeline. Added inline CTA.
+================================ -->
+<section class="slide" id="slide5">
+  <div class="bg-grid"></div>
+  <div class="bg-glow-orange" style="bottom:-100px;right:-100px;"></div>
+  <span class="slide-num">05 / 07</span>
+
+  <div class="slide-inner">
+    <div class="label label-orange">The Solution</div>
+    <h2 class="fix-headline">FROM INVISIBLE<br>TO RECOMMENDED.<br><span style="color:var(--orange);">IN 6 WEEKS.</span></h2>
+
+    <div class="timeline">
+      <div class="timeline-item">
+        <div class="timeline-dot">1</div>
+        <div class="timeline-content">
+          <div class="timeline-week">Week 1</div>
+          <div class="timeline-title">We learn your business</div>
+          <div class="timeline-desc">A conversation where we uncover what makes you different, what you've built, and why customers choose you. This is the raw material AI needs to recommend you.</div>
+        </div>
+      </div>
+      <div class="timeline-item">
+        <div class="timeline-dot">2</div>
+        <div class="timeline-content">
+          <div class="timeline-week">Weeks 2-4</div>
+          <div class="timeline-title">We build your AI presence</div>
+          <div class="timeline-desc">Content structured the way AI platforms read and cite — written in your voice, targeting the exact questions your customers are asking.</div>
+        </div>
+      </div>
+      <div class="timeline-item">
+        <div class="timeline-dot">3</div>
+        <div class="timeline-content">
+          <div class="timeline-week">Week 5</div>
+          <div class="timeline-title">We make your site AI-readable</div>
+          <div class="timeline-desc">Technical layer that signals to AI platforms who you are, what you do, and why you're the credible answer in your market.</div>
+        </div>
+      </div>
+      <div class="timeline-item">
+        <div class="timeline-dot">4</div>
+        <div class="timeline-content">
+          <div class="timeline-week">Week 6+</div>
+          <div class="timeline-title">AI starts recommending you</div>
+          <div class="timeline-desc">Citations begin appearing. Unlike ads, they compound over time and they don't stop when you stop paying. This is visibility you own.</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="fix-next-step">
+      <p>The path from invisible to recommended is straightforward — and faster than you'd expect.</p>
+      <p>The 15-minute call is where we look at your specific situation and map out exactly what it would take for your business.</p>
+      <a href="https://calendly.com/theanswerengine-support/30min" class="cta-button-inline">See What's Possible for LOA Construction and Austin Roofing &#8594;</a>
+    </div>
+  </div>
+
+  <div class="slide-footer">
+    <span class="footer-logo">LOA CONSTRUCTION AND AUSTIN ROOFING</span>
+    <span>loaconstruction.com</span>
+  </div>
+</section>
+
+
+<!-- ================================
+     SLIDE 6 — PROOF
+     FIX: Micro-CTA added. Case study card kept exactly as-is.
+================================ -->
+<!-- TODO: Justin to confirm whether to add marketing agency pre-handle text to Slide 6 -->
+<section class="slide" id="slide6">
+  <div class="bg-grid"></div>
+  <div class="bg-glow-purple" style="top:50%;left:50%;transform:translate(-50%,-50%);"></div>
+  <span class="slide-num">06 / 07</span>
+
+  <div class="slide-inner">
+    <div class="label label-purple">Real Client. Real Results.</div>
+    <h2 class="proof-headline">IT WORKS.<br>HERE'S THE PROOF.</h2>
+    <p class="proof-sub">This is what happens when a local business builds AI authority the right way.</p>
+
+    <div class="proof-card">
+      <div class="proof-card-header">
+        <div>
+          <div class="proof-client">Client Case Study</div>
+          <div class="proof-client-name">The Borges Real Estate Team — Pasadena, CA</div>
+        </div>
+        <div class="proof-badge">Verified Results</div>
+      </div>
+      <div class="proof-stats-grid">
+        <div class="proof-stat">
+          <div class="proof-stat-before">Before</div>
+          <div class="proof-stat-num" style="color:var(--red);">0</div>
+          <div class="proof-stat-label">AI citations across all platforms</div>
+        </div>
+        <div class="proof-stat">
+          <div class="proof-stat-after">After</div>
+          <div class="proof-stat-num" style="color:#4ade80;">100%</div>
+          <div class="proof-stat-label">Citation rate on target probate queries</div>
+        </div>
+        <div class="proof-stat">
+          <div class="proof-stat-after">Result</div>
+          <div class="proof-stat-num" style="color:var(--orange);">7</div>
+          <div class="proof-stat-label">AI platforms citing the business</div>
+        </div>
+        <div class="proof-stat">
+          <div class="proof-stat-after">Timeline</div>
+          <div class="proof-stat-num" style="color:var(--white);">90</div>
+          <div class="proof-stat-label">Days from publish to first citation</div>
+        </div>
+      </div>
+      <div class="proof-quote">
+        <div class="proof-quote-mark">"</div>
+        <div>
+          <div class="proof-quote-text">
+            We built the content infrastructure from scratch using the Answer Authority Framework. Within 90 days, ChatGPT was recommending us for probate real estate in Pasadena. That query now sends leads that cost us nothing per click and come pre-educated on exactly what we do.
+          </div>
+          <div class="proof-quote-attr">— Justin Borges, The Borges Real Estate Team | DRE #01940318 | lametrohomefinder.com</div>
+        </div>
+      </div>
+    </div>
+
+    <p class="proof-disclaimer">* Citation results vary by market, vertical, and competitive landscape. Timeline reflects typical 60-90 day post-publication window.</p>
+  </div>
+
+  <div class="slide-micro-cta">
+    <a href="https://calendly.com/theanswerengine-support/30min">Ready to see this fixed? Book 15 minutes. &#8594;</a>
+  </div>
+
+  <div class="slide-footer">
+    <span class="footer-logo">LOA CONSTRUCTION AND AUSTIN ROOFING</span>
+    <span>loaconstruction.com</span>
+  </div>
+</section>
+
+
+<!-- ================================
+     SLIDE 7 — CTA
+     FIX: Aspirational headline. Guarantee above button. New CTA copy.
+================================ -->
+<section class="slide" id="slide7">
+  <div class="bg-grid"></div>
+  <div class="bg-glow-orange" style="top:-100px;left:50%;transform:translateX(-50%);"></div>
+  <div class="bg-glow-purple" style="bottom:-100px;left:50%;transform:translateX(-50%);"></div>
+  <span class="slide-num">07 / 07</span>
+
+  <div class="slide-inner" style="text-align:center;">
+    <div class="cta-eyebrow">One Ask. 15 Minutes.</div>
+
+    <h2 class="cta-headline">
+      <span class="line2">LOA Construction and Austin Roofing</span>
+      <span class="line1">SHOULD BE THE</span>
+      <span class="line3">ANSWER.</span>
+    </h2>
+
+    <p class="cta-sub">
+      Right now, when someone in Austin asks AI for the best Roofing, your business doesn't come up. That's fixable. The 15-minute call is where we figure out exactly how.
+    </p>
+
+    <div class="cta-guarantee">
+      <span class="cta-guarantee-icon">&#10003;</span>
+      <span>Free to you — no obligation, no proposal, no pitch deck.</span>
+    </div>
+
+    <br><br>
+
+    <a href="https://calendly.com/theanswerengine-support/30min" class="cta-button">
+      Find Out What It Takes &#8594;
+    </a>
+    <span class="cta-micro">This report is yours to keep — whether we work together or not.</span>
+  </div>
+
+  <div class="slide-footer">
+    <span class="footer-logo">LOA CONSTRUCTION AND AUSTIN ROOFING</span>
+    <span>loaconstruction.com</span>
+  </div>
+</section>
+
+
+<script>
+  // NAV DOT ACTIVE STATE
+  const slides = document.querySelectorAll('.slide');
+  const dots = document.querySelectorAll('.nav-dot');
+
+  function scrollToSlide(n) {
+    document.getElementById('slide' + n).scrollIntoView({ behavior: 'smooth' });
+  }
+
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        const id = entry.target.id;
+        const idx = parseInt(id.replace('slide','')) - 1;
+        dots.forEach(d => d.classList.remove('active'));
+        if (dots[idx]) dots[idx].classList.add('active');
+      }
+    });
+  }, { threshold: 0.5 });
+
+  slides.forEach(s => observer.observe(s));
+
+  // FADE IN ANIMATION
+  const fadeEls = document.querySelectorAll('.slide-inner > *');
+  const fadeObserver = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        entry.target.style.opacity = '1';
+        entry.target.style.transform = 'translateY(0)';
+      }
+    });
+  }, { threshold: 0.1 });
+
+  document.querySelectorAll('.slide-inner').forEach(inner => {
+    Array.from(inner.children).forEach((child, i) => {
+      child.style.opacity = '0';
+      child.style.transform = 'translateY(24px)';
+      child.style.transition = `opacity 0.6s ease ${i * 0.1}s, transform 0.6s ease ${i * 0.1}s`;
+      fadeObserver.observe(child);
+    });
+  });
+</script>
+
+</body>
+</html>
