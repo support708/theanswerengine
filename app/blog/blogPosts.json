@@ -563,5 +563,71 @@
       "AEO",
       "Answer Engine Optimization"
     ]
+  },
+  {
+    "id": 28,
+    "title": "How to Write Blog Content That Gets Cited by AI",
+    "slug": "hub-spoke-content-strategy-ai-citations",
+    "excerpt": "Hub and spoke content builds topical authority so AI platforms cite your business. Learn how to structure pillar pages and supporting content that ChatGPT and Google AI trust.",
+    "category": "How-To Guides",
+    "author": "The Answer Engine Team",
+    "readTime": "10 min",
+    "image": "/blog/hub-spoke-content-strategy-ai-citations.svg",
+    "publishDate": "2026-03-11",
+    "lastModified": "2026-03-11",
+    "featured": true,
+    "tags": [
+      "Hub and Spoke",
+      "Topical Authority",
+      "Content Strategy",
+      "AI Citations",
+      "Content Clusters",
+      "AEO",
+      "Pillar Pages"
+    ]
+  },
+  {
+    "id": 29,
+    "title": "Does Schema Markup Help You Show Up on AI Search?",
+    "slug": "does-schema-markup-help-ai-search",
+    "excerpt": "Schema markup gives your content a 2.5x higher chance of appearing in AI answers. Learn which schema types ChatGPT, Perplexity, and Google AI Overviews actually use.",
+    "category": "How-To Guides",
+    "author": "The Answer Engine Team",
+    "readTime": "9 min",
+    "image": "/blog/does-schema-markup-help-ai-search.svg",
+    "publishDate": "2026-03-11",
+    "lastModified": "2026-03-11",
+    "featured": true,
+    "tags": [
+      "Schema Markup",
+      "Structured Data",
+      "AI Search",
+      "ChatGPT",
+      "Google AI Overviews",
+      "FAQPage Schema",
+      "AEO"
+    ]
+  },
+  {
+    "id": 30,
+    "title": "How Does Perplexity AI Choose Which Businesses to Cite?",
+    "slug": "how-perplexity-decides-what-to-cite",
+    "excerpt": "Perplexity uses RAG to cite real web sources. Learn the 5 ranking factors that determine which businesses get cited, from domain authority to content freshness.",
+    "category": "Platform Deep Dives",
+    "author": "The Answer Engine Team",
+    "readTime": "10 min",
+    "image": "/blog/how-perplexity-decides-what-to-cite.svg",
+    "publishDate": "2026-03-11",
+    "lastModified": "2026-03-11",
+    "featured": true,
+    "tags": [
+      "Perplexity AI",
+      "AI Citations",
+      "RAG",
+      "Ranking Factors",
+      "Content Freshness",
+      "AEO",
+      "Platform Deep Dive"
+    ]
   }
 ]
