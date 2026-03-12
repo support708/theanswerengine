@@ -1,6 +1,6 @@
 ---
 name: content-engine
-description: "Generate 1-5 fully optimized AEO blog articles as Next.js page.tsx Server Components for theanswerengine.com. Triggers on requests to create blog content, run the content engine, or pump out articles. Default: 5 articles per run."
+description: "Generate 1-10 fully optimized AEO blog articles as Next.js page.tsx Server Components for theanswerengine.com. Triggers on requests to create blog content, run the content engine, or pump out articles. Default: 5 articles per run."
 user-invocable: true
 argument-hint: "[count] (default: 5)"
 allowed-tools: Read, Write, Edit, Bash, Grep, Glob, WebSearch, WebFetch, Agent, TodoWrite
@@ -42,8 +42,10 @@ Read data/blog-topics.json
 Pick queued topics first. If no queued topics remain, generate new ones.
 
 ### 3. Determine Count
-- Default: 5 articles
+- Parse `$ARGUMENTS` as integer. If not a valid number or empty, default to **5**
 - Override with argument: `/content-engine 3` produces 3 articles
+- Maximum: 10 per run (to avoid excessive context usage)
+- **Category variety**: Avoid publishing all articles in the same category. Mix across How-To Guides, Platform Deep Dives, Myth Busters, Business Pain Points, and Comparisons.
 
 ## Article Generation Pipeline (Per Article)
 
@@ -80,9 +82,11 @@ Generate a complete Next.js page.tsx following this EXACT structure:
 
 ```tsx
 import type { Metadata } from 'next'
+import Link from 'next/link'
 
 export const revalidate = 86400
 export const dynamic = 'force-static'
+export const dynamicParams = true
 
 const title = 'Title Here'
 const description = 'Meta description under 160 chars'
@@ -142,6 +146,7 @@ export default function Page() {
 - CTA links to `/blindspot`
 - Author: "The Answer Engine Team"
 - **PROTECT THE SAUCE**: Teach the "what" and "why", never the exact "how". No step-by-step implementation guides, no framework blueprints, no code examples. Hint at the solution, create demand for our services.
+- **Internal linking**: Each article should link to 2-3 related existing articles from blogPosts.json where relevant in the body text. Use `<Link href="/blog/{slug}">` for these.
 
 ### Step 4: Generate SVG Hero Image
 
@@ -155,7 +160,9 @@ Create a 1200x630 SVG with:
 
 Save to: `public/blog/{slug}.svg`
 
-Use the `generateBlogSvg()` function pattern from `lib/blog-bot.ts` as reference.
+Reference implementation: `lib/blog-bot.ts:generateBlogSvg()` (line ~261). Read that function and replicate its pattern.
+
+Use `next/link` `Link` component for all internal links (`/blog`, `/blindspot`, `/`). Use `<a href>` only for external URLs.
 
 ### Step 5: Quality Audit
 
@@ -171,7 +178,7 @@ Run these checks on EVERY article (fail = fix and re-check):
 | Schema present | `@graph` with Article + FAQPage + BreadcrumbList | YES |
 | FAQ count | At least 5 Q&As | YES |
 | CTA present | Link to `/blindspot` | YES |
-| ISR config | `revalidate = 86400` + `dynamic = 'force-static'` | YES |
+| ISR config | `revalidate = 86400` + `dynamic = 'force-static'` + `dynamicParams = true` | YES |
 | No 'use client' | Server Component only | YES |
 | Sauce protected | No step-by-step implementation guides or blueprints | YES |
 | Meta description | Under 160 chars | WARN |
@@ -180,6 +187,8 @@ Run these checks on EVERY article (fail = fix and re-check):
 If any auto-fail check fails, fix the article and re-audit before proceeding.
 
 ### Step 6: Update blogPosts.json
+
+Calculate `next_id` as: highest existing `id` in blogPosts.json + 1 (increment per article).
 
 Add entry for each article:
 ```json
@@ -202,6 +211,8 @@ Add entry for each article:
 ### Step 7: Update blog-topics.json (if topic was queued)
 
 Mark topic status as `"published"` with `publishedAt` timestamp.
+
+**Note:** `data/blog-topics.json` is gitignored. It will not be included in the git commit. This is expected.
 
 ## Post-Generation
 
