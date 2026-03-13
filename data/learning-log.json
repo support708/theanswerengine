@@ -1,0 +1,119 @@
+{
+  "retrospectives": [
+    {
+      "id": "retro_20260313",
+      "weekEnding": "2026-03-13",
+      "generatedAt": "2026-03-13T18:00:28.951Z",
+      "totalLeads": 30,
+      "leadsQueuedThisWeek": 30,
+      "leadsSentThisWeek": 5,
+      "nicheMetrics": [
+        {
+          "niche": "Roofing Contractor",
+          "sent": 3,
+          "replied": 0,
+          "closedWon": 0,
+          "closedLost": 0,
+          "noResponse": 0,
+          "inProgress": 3,
+          "replyRate": 0,
+          "conversionRate": 0,
+          "avgAeroScore": 50
+        }
+      ],
+      "metroMetrics": [
+        {
+          "metro": "Northridge",
+          "sent": 1,
+          "replied": 0,
+          "closedWon": 0,
+          "replyRate": 0,
+          "conversionRate": 0
+        },
+        {
+          "metro": "Los Angeles",
+          "sent": 2,
+          "replied": 0,
+          "closedWon": 0,
+          "replyRate": 0,
+          "conversionRate": 0
+        }
+      ],
+      "followUpMetrics": {
+        "repliedAtStage": {
+          "initial": 0,
+          "follow_up_1": 0,
+          "follow_up_2": 0,
+          "follow_up_3": 0
+        },
+        "totalByType": {
+          "initial": 5,
+          "follow_up_1": 0,
+          "follow_up_2": 0,
+          "follow_up_3": 0
+        },
+        "replyRateByStage": {
+          "initial": 0,
+          "follow_up_1": 0,
+          "follow_up_2": 0,
+          "follow_up_3": 0
+        }
+      },
+      "velocityMetrics": {
+        "avgQueuedToSentHours": 24.8,
+        "avgSentToReplyHours": 0,
+        "avgSentToCloseHours": 0,
+        "fastestClose": null
+      },
+      "aeroCorrelation": {
+        "avgScoreReplied": 0,
+        "avgScoreNoResponse": 0,
+        "avgScoreClosedWon": 0
+      },
+      "huntPriorities": [
+        {
+          "vertical": "Roofing Contractor",
+          "metro": "Northridge",
+          "score": 0,
+          "reason": "Roofing Contractor: 0% reply (0/3), Northridge: 0% reply (0/1)",
+          "replyRate": 0,
+          "sampleSize": 1
+        },
+        {
+          "vertical": "Roofing Contractor",
+          "metro": "Los Angeles",
+          "score": 0,
+          "reason": "Roofing Contractor: 0% reply (0/3), Los Angeles: 0% reply (0/2)",
+          "replyRate": 0,
+          "sampleSize": 2
+        }
+      ],
+      "trends": {
+        "replyRateDelta": 0,
+        "conversionRateDelta": 0,
+        "volumeDelta": 0,
+        "improving": [],
+        "declining": []
+      }
+    }
+  ],
+  "currentPriorities": [
+    {
+      "vertical": "Roofing Contractor",
+      "metro": "Northridge",
+      "score": 0,
+      "reason": "Roofing Contractor: 0% reply (0/3), Northridge: 0% reply (0/1)",
+      "replyRate": 0,
+      "sampleSize": 1
+    },
+    {
+      "vertical": "Roofing Contractor",
+      "metro": "Los Angeles",
+      "score": 0,
+      "reason": "Roofing Contractor: 0% reply (0/3), Los Angeles: 0% reply (0/2)",
+      "replyRate": 0,
+      "sampleSize": 2
+    }
+  ],
+  "updatedAt": "2026-03-13T18:00:29.021Z"
+}
