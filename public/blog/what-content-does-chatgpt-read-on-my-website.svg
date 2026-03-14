@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1a1a2e;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#16213e;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#0f3460;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <!-- Document scanning pattern -->
+  <rect x="830" y="80" width="180" height="240" rx="6" stroke="rgba(255,106,0,0.12)" stroke-width="0.8" fill="none"/>
+  <line x1="860" y1="120" x2="980" y2="120" stroke="rgba(255,106,0,0.1)" stroke-width="0.5"/>
+  <line x1="860" y1="145" x2="960" y2="145" stroke="rgba(255,106,0,0.08)" stroke-width="0.5"/>
+  <line x1="860" y1="170" x2="980" y2="170" stroke="rgba(255,106,0,0.1)" stroke-width="0.5"/>
+  <line x1="860" y1="195" x2="940" y2="195" stroke="rgba(255,106,0,0.06)" stroke-width="0.5"/>
+  <line x1="860" y1="220" x2="970" y2="220" stroke="rgba(255,106,0,0.08)" stroke-width="0.5"/>
+  <line x1="860" y1="245" x2="980" y2="245" stroke="rgba(255,106,0,0.06)" stroke-width="0.5"/>
+  <line x1="860" y1="270" x2="950" y2="270" stroke="rgba(255,106,0,0.05)" stroke-width="0.5"/>
+  <!-- Eye icon -->
+  <ellipse cx="1060" cy="400" rx="80" ry="45" stroke="rgba(255,106,0,0.15)" stroke-width="0.6" fill="none"/>
+  <circle cx="1060" cy="400" r="20" stroke="rgba(255,106,0,0.2)" stroke-width="0.6" fill="none"/>
+  <circle cx="1060" cy="400" r="6" fill="rgba(255,106,0,0.1)"/>
+  <!-- Dashed scan lines -->
+  <line x1="1010" y1="180" x2="830" y2="240" stroke="rgba(255,106,0,0.06)" stroke-width="0.3" stroke-dasharray="4 4"/>
+  <line x1="1010" y1="200" x2="830" y2="260" stroke="rgba(255,106,0,0.06)" stroke-width="0.3" stroke-dasharray="4 4"/>
+  <!-- Category pill -->
+  <rect x="40" y="40" width="130" height="32" rx="16" fill="rgba(255,106,0,0.15)" stroke="rgba(255,106,0,0.3)" stroke-width="1"/>
+  <text x="105" y="62" font-family="system-ui, -apple-system, sans-serif" font-size="14" font-weight="500" fill="#FF6A00" text-anchor="middle">How-To Guides</text>
+  <!-- Title -->
+  <text x="80" y="220" font-family="system-ui, -apple-system, sans-serif" font-size="46" font-weight="700" fill="white">What Content Does</text>
+  <text x="80" y="280" font-family="system-ui, -apple-system, sans-serif" font-size="46" font-weight="700" fill="white">ChatGPT Actually Read</text>
+  <text x="80" y="340" font-family="system-ui, -apple-system, sans-serif" font-size="46" font-weight="700" fill="#FF6A00">on Your Site?</text>
+  <!-- Watermark -->
+  <text x="600" y="580" font-family="system-ui, -apple-system, sans-serif" font-size="16" font-weight="500" fill="rgba(255,255,255,0.5)" text-anchor="middle" letter-spacing="4">THE ANSWER ENGINE</text>
+  <!-- AE logo -->
+  <circle cx="1120" cy="590" r="30" fill="rgba(255,255,255,0.1)"/>
+  <text x="1120" y="598" font-family="system-ui, -apple-system, sans-serif" font-size="20" font-weight="700" fill="rgba(255,255,255,0.3)" text-anchor="middle">AE</text>
+</svg>

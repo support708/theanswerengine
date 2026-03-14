@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" fill="none">
+  <rect width="1200" height="630" fill="#0F1117"/>
+  <defs>
+    <linearGradient id="heroBg" x1="0" y1="0" x2="1200" y2="630" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#1a1a2e"/>
+      <stop offset="50%" stop-color="#16213e"/>
+      <stop offset="100%" stop-color="#0f3460"/>
+    </linearGradient>
+    <linearGradient id="accentGlow" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#FF6A00" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#FF6A00" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#heroBg)"/>
+
+  <!-- Grid pattern -->
+  <line x1="200" y1="0" x2="200" y2="630" stroke="#FF6A00" stroke-width="0.3" opacity="0.15"/>
+  <line x1="400" y1="0" x2="400" y2="630" stroke="#FF6A00" stroke-width="0.3" opacity="0.15"/>
+  <line x1="600" y1="0" x2="600" y2="630" stroke="#FF6A00" stroke-width="0.3" opacity="0.15"/>
+  <line x1="800" y1="0" x2="800" y2="630" stroke="#FF6A00" stroke-width="0.3" opacity="0.15"/>
+  <line x1="1000" y1="0" x2="1000" y2="630" stroke="#FF6A00" stroke-width="0.3" opacity="0.15"/>
+  <line x1="0" y1="157" x2="1200" y2="157" stroke="#FF6A00" stroke-width="0.3" opacity="0.15"/>
+  <line x1="0" y1="315" x2="1200" y2="315" stroke="#FF6A00" stroke-width="0.3" opacity="0.15"/>
+  <line x1="0" y1="472" x2="1200" y2="472" stroke="#FF6A00" stroke-width="0.3" opacity="0.15"/>
+
+  <!-- Search icon (magnifying glass with AI sparkle) -->
+  <circle cx="900" cy="200" r="80" stroke="#FF6A00" stroke-width="2" opacity="0.25"/>
+  <circle cx="900" cy="200" r="55" stroke="#FF6A00" stroke-width="1.5" opacity="0.2"/>
+  <line x1="940" y1="245" x2="980" y2="285" stroke="#FF6A00" stroke-width="3" opacity="0.25" stroke-linecap="round"/>
+
+  <!-- AI sparkle inside magnifying glass -->
+  <circle cx="900" cy="200" r="4" fill="#FF6A00" opacity="0.5"/>
+  <line x1="900" y1="180" x2="900" y2="220" stroke="#FF6A00" stroke-width="1.5" opacity="0.4"/>
+  <line x1="880" y1="200" x2="920" y2="200" stroke="#FF6A00" stroke-width="1.5" opacity="0.4"/>
+  <line x1="886" y1="186" x2="914" y2="214" stroke="#FF6A00" stroke-width="1" opacity="0.3"/>
+  <line x1="914" y1="186" x2="886" y2="214" stroke="#FF6A00" stroke-width="1" opacity="0.3"/>
+
+  <!-- Flowing data lines -->
+  <path d="M50,500 Q200,350 400,420 T750,300 T1100,380" stroke="#FF6A00" stroke-width="1" opacity="0.15" fill="none"/>
+  <path d="M50,530 Q250,400 500,460 T900,340 T1150,420" stroke="#FF6A00" stroke-width="0.8" opacity="0.1" fill="none"/>
+
+  <!-- Concentric rings background -->
+  <circle cx="150" cy="500" r="120" stroke="#FF6A00" stroke-width="0.5" opacity="0.08"/>
+  <circle cx="150" cy="500" r="80" stroke="#FF6A00" stroke-width="0.5" opacity="0.1"/>
+  <circle cx="150" cy="500" r="40" stroke="#FF6A00" stroke-width="0.5" opacity="0.12"/>
+
+  <!-- Category label -->
+  <text x="80" y="180" font-family="system-ui, sans-serif" font-size="16" font-weight="600" fill="#FF6A00" opacity="0.9">PLATFORM DEEP DIVES</text>
+
+  <!-- Title -->
+  <text x="80" y="260" font-family="system-ui, sans-serif" font-size="48" font-weight="800" fill="white">Is Your Business Ready</text>
+  <text x="80" y="320" font-family="system-ui, sans-serif" font-size="48" font-weight="800" fill="white">for Google AI Mode?</text>
+
+  <!-- Stat highlight -->
+  <rect x="80" y="360" width="320" height="60" rx="12" fill="#FF6A00" fill-opacity="0.1" stroke="#FF6A00" stroke-width="1" stroke-opacity="0.3"/>
+  <text x="100" y="397" font-family="system-ui, sans-serif" font-size="20" font-weight="700" fill="#FF6A00">93% Zero-Click Rate</text>
+
+  <!-- Brand -->
+  <text x="80" y="480" font-family="system-ui, sans-serif" font-size="18" font-weight="600" fill="white" opacity="0.7">theanswerengine.ai</text>
+
+  <!-- Small dots decoration -->
+  <circle cx="1050" cy="450" r="3" fill="#FF6A00" opacity="0.3"/>
+  <circle cx="1080" cy="430" r="2" fill="#FF6A00" opacity="0.25"/>
+  <circle cx="1020" cy="470" r="2.5" fill="#FF6A00" opacity="0.2"/>
+  <circle cx="1100" cy="460" r="2" fill="#FF6A00" opacity="0.15"/>
+</svg>

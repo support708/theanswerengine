@@ -629,5 +629,111 @@
       "AEO",
       "Platform Deep Dive"
     ]
+  },
+  {
+    "id": 31,
+    "title": "Can AI Replace My Marketing Agency?",
+    "slug": "can-ai-replace-my-marketing-agency",
+    "excerpt": "AI tools handle 88% of daily marketing tasks, yet 74% of companies see no ROI. Discover what AI actually replaces, what it cannot, and where agencies still win.",
+    "category": "Myth Busters",
+    "author": "The Answer Engine Team",
+    "readTime": "10 min",
+    "image": "/blog/can-ai-replace-my-marketing-agency.svg",
+    "publishDate": "2026-03-14",
+    "lastModified": "2026-03-14",
+    "featured": false,
+    "tags": [
+      "AI Marketing",
+      "Marketing Agency",
+      "AI Tools",
+      "ROI",
+      "Myth Busters",
+      "Strategy",
+      "AEO"
+    ]
+  },
+  {
+    "id": 32,
+    "title": "How Does Claude AI Decide Which Businesses to Trust?",
+    "slug": "how-claude-ai-evaluates-business-authority",
+    "excerpt": "Claude AI weighs five authority pillars when deciding which businesses to cite. Learn what signals matter, why most businesses fail the trust test, and how to close the gap.",
+    "category": "Platform Deep Dives",
+    "author": "The Answer Engine Team",
+    "readTime": "10 min",
+    "image": "/blog/how-claude-ai-evaluates-business-authority.svg",
+    "publishDate": "2026-03-14",
+    "lastModified": "2026-03-14",
+    "featured": true,
+    "tags": [
+      "Claude AI",
+      "Anthropic",
+      "AI Authority",
+      "Business Trust",
+      "Platform Deep Dive",
+      "AEO"
+    ]
+  },
+  {
+    "id": 33,
+    "title": "What Content Does ChatGPT Read on Your Site?",
+    "slug": "what-content-does-chatgpt-read-on-my-website",
+    "excerpt": "35.7% of top websites block ChatGPT entirely. Learn what content AI can actually access on your site, what it ignores, and why your visibility may be zero.",
+    "category": "How-To Guides",
+    "author": "The Answer Engine Team",
+    "readTime": "9 min",
+    "image": "/blog/what-content-does-chatgpt-read-on-my-website.svg",
+    "publishDate": "2026-03-14",
+    "lastModified": "2026-03-14",
+    "featured": false,
+    "tags": [
+      "ChatGPT",
+      "Website Content",
+      "AI Crawling",
+      "robots.txt",
+      "AI Visibility",
+      "AEO"
+    ]
+  },
+  {
+    "id": 34,
+    "title": "Why Is My Competitor on AI Search but Not Me?",
+    "slug": "why-is-my-competitor-on-ai-search-not-me",
+    "excerpt": "Only 1.2% of businesses get cited by ChatGPT. Learn the five advantages your competitor has in AI search visibility and what signals AI platforms actually evaluate.",
+    "category": "Business Pain Points",
+    "author": "The Answer Engine Team",
+    "readTime": "10 min",
+    "image": "/blog/why-is-my-competitor-on-ai-search-not-me.svg",
+    "publishDate": "2026-03-14",
+    "lastModified": "2026-03-14",
+    "featured": false,
+    "tags": [
+      "AI Search",
+      "Competitor Analysis",
+      "AI Visibility",
+      "Business Pain Points",
+      "ChatGPT",
+      "AEO"
+    ]
+  },
+  {
+    "id": 35,
+    "title": "Is Your Business Ready for Google AI Mode?",
+    "slug": "is-your-business-ready-for-google-ai-mode",
+    "excerpt": "Google AI Mode generates 93% zero-click answers with only 13.7% citation overlap with organic results. Learn what changed, why it matters, and how to prepare.",
+    "category": "Platform Deep Dives",
+    "author": "The Answer Engine Team",
+    "readTime": "10 min",
+    "image": "/blog/is-your-business-ready-for-google-ai-mode.svg",
+    "publishDate": "2026-03-14",
+    "lastModified": "2026-03-14",
+    "featured": true,
+    "tags": [
+      "Google AI Mode",
+      "AI Overviews",
+      "Google Search",
+      "Platform Deep Dive",
+      "Zero-Click",
+      "AEO"
+    ]
   }
 ]
