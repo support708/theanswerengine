@@ -73,7 +73,7 @@ ${inputData.existingSlugs.length > 0 ? inputData.existingSlugs.map((s: string) =
 Produce a comprehensive research brief. Use your tools to research the topic, analyze competitors, and gather current data. Return the structured research brief.`;
 
     const result = await agent.generate(prompt, {
-      output: { schema: researchBriefSchema },
+      structuredOutput: { schema: researchBriefSchema },
     });
 
     return {
@@ -127,7 +127,7 @@ ESTIMATED READ TIME: ${brief.readTimeMinutes} minutes
 Write the full article following AEO best practices. Return the structured article output.`;
 
     const result = await agent.generate(prompt, {
-      output: { schema: articleOutputSchema },
+      structuredOutput: { schema: articleOutputSchema },
     });
 
     return {
@@ -178,7 +178,7 @@ Generate the following schemas:
 Validate each schema using the schema-validator tool. Return all schemas and validation results.`;
 
     const result = await agent.generate(prompt, {
-      output: { schema: schemaOutputSchema },
+      structuredOutput: { schema: schemaOutputSchema },
     });
 
     // Pass the article through so the audit step has access to both
@@ -239,7 +239,7 @@ Schema Validation: ${schemas.validationResults.allValid ? 'All schemas valid' : 
 Use the content-scorer and schema-validator tools to objectively measure quality metrics. Then apply your expert judgment for the final audit score. Be ruthless - this content represents The Answer Engine's brand.`;
 
     const result = await agent.generate(prompt, {
-      output: { schema: auditReportSchema },
+      structuredOutput: { schema: auditReportSchema },
     });
 
     return {
