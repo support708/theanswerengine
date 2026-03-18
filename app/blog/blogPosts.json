@@ -735,5 +735,132 @@
       "Zero-Click",
       "AEO"
     ]
+  },
+  {
+    "id": 36,
+    "title": "The 5-Minute AI Visibility Audit You Can Do Right Now",
+    "slug": "5-minute-ai-visibility-audit",
+    "excerpt": "Run a free 5-minute audit to check if ChatGPT, Perplexity, and Google AI recommend your business. Step-by-step guide with exact prompts to test your AI search presence today.",
+    "category": "DIY Guide",
+    "author": "The Answer Engine Team",
+    "readTime": "8 min",
+    "image": "/blog/5-minute-ai-visibility-audit.svg",
+    "publishDate": "2026-03-17",
+    "lastModified": "2026-03-17",
+    "featured": true,
+    "tags": [
+      "AI Visibility",
+      "DIY Guide",
+      "ChatGPT",
+      "Perplexity",
+      "AI Audit",
+      "AEO"
+    ]
+  },
+  {
+    "id": 37,
+    "title": "How Online Reviews Shape AI Recommendations (Beyond Star Ratings)",
+    "slug": "how-online-reviews-shape-ai-recommendations",
+    "excerpt": "AI platforms read your review text, not just your star rating. Learn which review signals ChatGPT, Perplexity, and Google AI actually evaluate when recommending local businesses.",
+    "category": "AI Visibility",
+    "author": "The Answer Engine Team",
+    "readTime": "10 min",
+    "image": "/blog/how-online-reviews-shape-ai-recommendations.svg",
+    "publishDate": "2026-03-17",
+    "lastModified": "2026-03-17",
+    "featured": true,
+    "tags": [
+      "AI Visibility",
+      "Online Reviews",
+      "ChatGPT",
+      "Review Strategy",
+      "Sentiment Analysis",
+      "AEO"
+    ]
+  },
+  {
+    "id": 38,
+    "title": "How Home Service Companies Are Dominating AI Search Right Now",
+    "slug": "how-home-service-companies-dominate-ai-search",
+    "excerpt": "Plumbers, HVAC techs, and roofers are winning AI citations while competitors stay invisible. Learn the strategies home service companies are using to dominate ChatGPT and Google AI.",
+    "category": "Industry Guides",
+    "author": "The Answer Engine Team",
+    "readTime": "10 min",
+    "image": "/blog/how-home-service-companies-dominate-ai-search.svg",
+    "publishDate": "2026-03-17",
+    "lastModified": "2026-03-17",
+    "featured": true,
+    "tags": [
+      "Home Services",
+      "AI Search",
+      "Industry Guide",
+      "HVAC",
+      "Plumbing",
+      "Roofing",
+      "AEO"
+    ]
+  },
+  {
+    "id": 39,
+    "title": "What Happens When a Customer Asks AI to Find a Business Like Yours",
+    "slug": "what-happens-when-customer-asks-ai-find-business",
+    "excerpt": "Walk through exactly what happens behind the scenes when a potential customer asks ChatGPT or Google AI to find a local service business. See why most businesses never appear.",
+    "category": "AEO Education",
+    "author": "The Answer Engine Team",
+    "readTime": "9 min",
+    "image": "/blog/what-happens-when-customer-asks-ai-find-business.svg",
+    "publishDate": "2026-03-17",
+    "lastModified": "2026-03-17",
+    "featured": true,
+    "tags": [
+      "AEO Education",
+      "AI Search",
+      "Customer Journey",
+      "ChatGPT",
+      "AI Recommendations",
+      "AEO"
+    ]
+  },
+  {
+    "id": 40,
+    "title": "Why Fresh Content Is the Key to AI Search Visibility",
+    "slug": "why-fresh-content-key-ai-search-visibility",
+    "excerpt": "AI platforms prioritize recently updated content when deciding which businesses to cite. Learn why content freshness is a critical signal and how to use it to your advantage.",
+    "category": "Content Strategy",
+    "author": "The Answer Engine Team",
+    "readTime": "9 min",
+    "image": "/blog/why-fresh-content-key-ai-search-visibility.svg",
+    "publishDate": "2026-03-17",
+    "lastModified": "2026-03-17",
+    "featured": false,
+    "tags": [
+      "Content Strategy",
+      "Content Freshness",
+      "AI Search",
+      "Blog Strategy",
+      "AI Citations",
+      "AEO"
+    ]
+  },
+  {
+    "id": 41,
+    "title": "AI Search Is Replacing the Map Pack: What Local Businesses Must Know",
+    "slug": "ai-search-replacing-map-pack",
+    "excerpt": "Google AI Mode and AI Overviews are replacing the Map Pack as the primary way customers find local businesses. Learn what this shift means and how to stay visible.",
+    "category": "AEO Education",
+    "author": "The Answer Engine Team",
+    "readTime": "10 min",
+    "image": "/blog/ai-search-replacing-map-pack.svg",
+    "publishDate": "2026-03-17",
+    "lastModified": "2026-03-17",
+    "featured": true,
+    "tags": [
+      "Map Pack",
+      "Google Maps",
+      "AI Search",
+      "Local Business",
+      "AI Overviews",
+      "AEO"
+    ]
   }
 ]

@@ -1,0 +1,164 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" fill="none">
+  <defs>
+    <linearGradient id="bg4" x1="0" y1="630" x2="1200" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#0F1117"/>
+      <stop offset="50%" stop-color="#0f3460"/>
+      <stop offset="100%" stop-color="#1a1a2e"/>
+    </linearGradient>
+    <filter id="glow4">
+      <feGaussianBlur stdDeviation="6" result="blur"/>
+      <feComposite in="SourceGraphic" in2="blur" operator="over"/>
+    </filter>
+    <filter id="bigGlow4">
+      <feGaussianBlur stdDeviation="18"/>
+    </filter>
+    <linearGradient id="freshGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#FF6A00" stop-opacity="0.5"/>
+      <stop offset="100%" stop-color="#FF6A00" stop-opacity="0.05"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="630" fill="url(#bg4)"/>
+
+  <!-- Hex pattern -->
+  <g opacity="0.04">
+    <polygon points="100,50 130,33 160,50 160,83 130,100 100,83" stroke="#FF6A00" stroke-width="0.5" fill="none"/>
+    <polygon points="160,50 190,33 220,50 220,83 190,100 160,83" stroke="#FF6A00" stroke-width="0.5" fill="none"/>
+    <polygon points="130,100 160,83 190,100 190,133 160,150 130,133" stroke="#FF6A00" stroke-width="0.5" fill="none"/>
+    <polygon points="900,350 930,333 960,350 960,383 930,400 900,383" stroke="#FF6A00" stroke-width="0.5" fill="none"/>
+    <polygon points="960,350 990,333 1020,350 1020,383 990,400 960,383" stroke="#FF6A00" stroke-width="0.5" fill="none"/>
+    <polygon points="1020,350 1050,333 1080,350 1080,383 1050,400 1020,383" stroke="#FF6A00" stroke-width="0.5" fill="none"/>
+  </g>
+
+  <!-- Calendar icon (left) -->
+  <g transform="translate(150, 130)">
+    <!-- Calendar body -->
+    <rect x="0" y="20" width="160" height="140" rx="10" fill="#0a1628" stroke="#FF6A00" stroke-width="1.5" opacity="0.7"/>
+    <!-- Calendar header -->
+    <rect x="0" y="20" width="160" height="35" rx="10" fill="#FF6A00" opacity="0.2"/>
+    <rect x="0" y="45" width="160" height="10" fill="#FF6A00" opacity="0.2"/>
+    <!-- Calendar rings -->
+    <rect x="35" y="10" width="8" height="25" rx="4" fill="#FF6A00" opacity="0.5"/>
+    <rect x="75" y="10" width="8" height="25" rx="4" fill="#FF6A00" opacity="0.5"/>
+    <rect x="115" y="10" width="8" height="25" rx="4" fill="#FF6A00" opacity="0.5"/>
+
+    <!-- Calendar grid - days -->
+    <g opacity="0.2">
+      <rect x="15" y="70" width="16" height="16" rx="3" fill="#FF6A00"/>
+      <rect x="40" y="70" width="16" height="16" rx="3" fill="#FF6A00"/>
+      <rect x="65" y="70" width="16" height="16" rx="3" fill="#FF6A00"/>
+      <rect x="90" y="70" width="16" height="16" rx="3" fill="#FF6A00"/>
+      <rect x="115" y="70" width="16" height="16" rx="3" fill="#FF6A00"/>
+      <rect x="15" y="95" width="16" height="16" rx="3" fill="#FF6A00"/>
+      <rect x="40" y="95" width="16" height="16" rx="3" fill="#FF6A00"/>
+      <rect x="65" y="95" width="16" height="16" rx="3" fill="#FF6A00"/>
+      <rect x="90" y="95" width="16" height="16" rx="3" fill="#FF6A00"/>
+      <rect x="115" y="95" width="16" height="16" rx="3" fill="#FF6A00"/>
+      <rect x="15" y="120" width="16" height="16" rx="3" fill="#FF6A00"/>
+      <rect x="40" y="120" width="16" height="16" rx="3" fill="#FF6A00"/>
+      <rect x="65" y="120" width="16" height="16" rx="3" fill="#FF6A00"/>
+    </g>
+    <!-- Highlighted "today" -->
+    <rect x="90" y="120" width="16" height="16" rx="3" fill="#FF6A00" opacity="0.7"/>
+    <rect x="115" y="120" width="16" height="16" rx="3" fill="#FF6A00" opacity="0.15"/>
+
+    <!-- Refresh arrow on calendar -->
+    <g transform="translate(55, 165)" opacity="0.6">
+      <path d="M0,12 A12,12 0 1,1 12,24" stroke="#FF6A00" stroke-width="2" fill="none" stroke-linecap="round"/>
+      <polygon points="12,24 8,20 16,20" fill="#FF6A00"/>
+    </g>
+  </g>
+
+  <!-- Content flow / document stack (center) -->
+  <g transform="translate(470, 100)">
+    <!-- Back document (faded/old) -->
+    <rect x="40" y="0" width="140" height="180" rx="8" fill="#0a1628" stroke="#FF6A00" stroke-width="0.8" opacity="0.2"/>
+    <rect x="55" y="15" width="80" height="6" rx="3" fill="#FF6A00" opacity="0.08"/>
+    <rect x="55" y="28" width="100" height="5" rx="2" fill="#FF6A00" opacity="0.05"/>
+    <rect x="55" y="38" width="90" height="5" rx="2" fill="#FF6A00" opacity="0.05"/>
+
+    <!-- Middle document -->
+    <rect x="20" y="25" width="140" height="180" rx="8" fill="#0a1628" stroke="#FF6A00" stroke-width="1" opacity="0.4"/>
+    <rect x="35" y="40" width="80" height="6" rx="3" fill="#FF6A00" opacity="0.15"/>
+    <rect x="35" y="53" width="100" height="5" rx="2" fill="#FF6A00" opacity="0.1"/>
+    <rect x="35" y="63" width="90" height="5" rx="2" fill="#FF6A00" opacity="0.1"/>
+
+    <!-- Front document (fresh/new - glowing) -->
+    <rect x="0" y="50" width="140" height="180" rx="8" fill="#0a1628" stroke="#FF6A00" stroke-width="1.5" opacity="0.8"/>
+    <!-- Fresh indicator glow -->
+    <rect x="0" y="50" width="140" height="180" rx="8" fill="url(#freshGrad)" opacity="0.1"/>
+    <!-- Document header -->
+    <rect x="15" y="65" width="90" height="8" rx="3" fill="#FF6A00" opacity="0.3"/>
+    <!-- Content lines -->
+    <rect x="15" y="82" width="110" height="5" rx="2" fill="#FF6A00" opacity="0.15"/>
+    <rect x="15" y="93" width="100" height="5" rx="2" fill="#FF6A00" opacity="0.15"/>
+    <rect x="15" y="104" width="80" height="5" rx="2" fill="#FF6A00" opacity="0.12"/>
+    <rect x="15" y="115" width="105" height="5" rx="2" fill="#FF6A00" opacity="0.15"/>
+    <rect x="15" y="126" width="70" height="5" rx="2" fill="#FF6A00" opacity="0.1"/>
+    <!-- Image placeholder -->
+    <rect x="15" y="140" width="110" height="40" rx="4" fill="#FF6A00" opacity="0.08" stroke="#FF6A00" stroke-width="0.5" opacity="0.15"/>
+    <!-- Timestamp -->
+    <rect x="15" y="195" width="50" height="12" rx="4" fill="#FF6A00" opacity="0.2"/>
+    <text x="40" y="204" text-anchor="middle" fill="#FF6A00" font-family="system-ui, sans-serif" font-size="7" font-weight="600" opacity="0.6">TODAY</text>
+
+    <!-- NEW badge -->
+    <rect x="100" y="45" width="45" height="18" rx="9" fill="#FF6A00" opacity="0.8"/>
+    <text x="122" y="58" text-anchor="middle" fill="white" font-family="system-ui, sans-serif" font-size="9" font-weight="700">NEW</text>
+  </g>
+
+  <!-- Rising freshness graph (right) -->
+  <g transform="translate(800, 120)">
+    <!-- Axes -->
+    <line x1="20" y1="220" x2="250" y2="220" stroke="#FF6A00" stroke-width="1" opacity="0.3"/>
+    <line x1="20" y1="20" x2="20" y2="220" stroke="#FF6A00" stroke-width="1" opacity="0.3"/>
+
+    <!-- Grid lines -->
+    <line x1="20" y1="170" x2="250" y2="170" stroke="#FF6A00" stroke-width="0.5" opacity="0.1"/>
+    <line x1="20" y1="120" x2="250" y2="120" stroke="#FF6A00" stroke-width="0.5" opacity="0.1"/>
+    <line x1="20" y1="70" x2="250" y2="70" stroke="#FF6A00" stroke-width="0.5" opacity="0.1"/>
+
+    <!-- Bar chart - ascending freshness -->
+    <rect x="40" y="180" width="25" height="40" rx="3" fill="#FF6A00" opacity="0.15"/>
+    <rect x="80" y="155" width="25" height="65" rx="3" fill="#FF6A00" opacity="0.25"/>
+    <rect x="120" y="125" width="25" height="95" rx="3" fill="#FF6A00" opacity="0.35"/>
+    <rect x="160" y="85" width="25" height="135" rx="3" fill="#FF6A00" opacity="0.5"/>
+    <rect x="200" y="45" width="25" height="175" rx="3" fill="#FF6A00" opacity="0.65"/>
+
+    <!-- Trend line -->
+    <path d="M52,175 L92,148 L132,118 L172,78 L212,38" stroke="#FF6A00" stroke-width="2" fill="none" opacity="0.6" stroke-linecap="round" stroke-linejoin="round"/>
+    <!-- Arrow tip -->
+    <polygon points="212,38 205,42 208,50" fill="#FF6A00" opacity="0.6"/>
+
+    <!-- Y-axis label -->
+    <text x="8" y="125" text-anchor="middle" fill="#FF6A00" font-family="system-ui, sans-serif" font-size="9" font-weight="600" opacity="0.4" transform="rotate(-90, 8, 125)">AI VISIBILITY</text>
+
+    <!-- X-axis label -->
+    <text x="135" y="245" text-anchor="middle" fill="#FF6A00" font-family="system-ui, sans-serif" font-size="9" font-weight="600" opacity="0.4">CONTENT FRESHNESS</text>
+  </g>
+
+  <!-- Connection lines calendar to docs -->
+  <line x1="310" y1="250" x2="470" y2="250" stroke="#FF6A00" stroke-width="1" opacity="0.15" stroke-dasharray="4,4"/>
+  <!-- Connection docs to graph -->
+  <line x1="610" y1="250" x2="800" y2="250" stroke="#FF6A00" stroke-width="1" opacity="0.15" stroke-dasharray="4,4"/>
+
+  <!-- Floating particles -->
+  <circle cx="420" cy="80" r="2" fill="#FF6A00" opacity="0.3"/>
+  <circle cx="700" cy="100" r="1.5" fill="#FF6A00" opacity="0.25"/>
+  <circle cx="380" cy="400" r="2" fill="#FF6A00" opacity="0.2"/>
+  <circle cx="1100" cy="450" r="1.5" fill="#FF6A00" opacity="0.25"/>
+  <circle cx="80" cy="450" r="2" fill="#FF6A00" opacity="0.2"/>
+
+  <!-- Category pill -->
+  <rect x="50" y="30" width="150" height="32" rx="16" fill="#FF6A00" opacity="0.9"/>
+  <text x="125" y="51" text-anchor="middle" fill="white" font-family="system-ui, sans-serif" font-size="13" font-weight="600">Content Strategy</text>
+
+  <!-- Title -->
+  <text x="600" y="510" text-anchor="middle" fill="white" font-family="system-ui, sans-serif" font-size="32" font-weight="700">Why Fresh Content Is the Key to</text>
+  <text x="600" y="550" text-anchor="middle" fill="#FF6A00" font-family="system-ui, sans-serif" font-size="32" font-weight="700">AI Search Visibility</text>
+
+  <!-- Watermark -->
+  <text x="600" y="615" text-anchor="middle" fill="white" font-family="system-ui, sans-serif" font-size="11" font-weight="500" opacity="0.3">THE ANSWER ENGINE</text>
+
+  <circle cx="1155" cy="590" r="22" fill="#FF6A00" opacity="0.15" stroke="#FF6A00" stroke-width="1" opacity="0.3"/>
+  <text x="1155" y="596" text-anchor="middle" fill="#FF6A00" font-family="system-ui, sans-serif" font-size="14" font-weight="700" opacity="0.5">AE</text>
+</svg>

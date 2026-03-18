@@ -1,0 +1,171 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" fill="none">
+  <defs>
+    <linearGradient id="bg6" x1="0" y1="0" x2="1200" y2="630" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#0f3460"/>
+      <stop offset="50%" stop-color="#0F1117"/>
+      <stop offset="100%" stop-color="#1a1a2e"/>
+    </linearGradient>
+    <filter id="glow6">
+      <feGaussianBlur stdDeviation="6" result="blur"/>
+      <feComposite in="SourceGraphic" in2="blur" operator="over"/>
+    </filter>
+    <filter id="bigGlow6">
+      <feGaussianBlur stdDeviation="20"/>
+    </filter>
+    <linearGradient id="fadeOut" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#FF6A00" stop-opacity="0.5"/>
+      <stop offset="100%" stop-color="#FF6A00" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="630" fill="url(#bg6)"/>
+
+  <!-- Topographic/map lines background -->
+  <g opacity="0.05">
+    <path d="M0,200 Q300,150 600,200 Q900,250 1200,180" stroke="#FF6A00" stroke-width="1" fill="none"/>
+    <path d="M0,250 Q300,200 600,250 Q900,300 1200,230" stroke="#FF6A00" stroke-width="1" fill="none"/>
+    <path d="M0,300 Q300,250 600,300 Q900,350 1200,280" stroke="#FF6A00" stroke-width="1" fill="none"/>
+    <path d="M0,350 Q300,300 600,350 Q900,400 1200,330" stroke="#FF6A00" stroke-width="1" fill="none"/>
+    <path d="M0,400 Q300,350 600,400 Q900,450 1200,380" stroke="#FF6A00" stroke-width="1" fill="none"/>
+  </g>
+
+  <!-- LEFT SIDE: Fading Map Pack (the old way) -->
+  <g transform="translate(100, 100)" opacity="0.6">
+    <!-- Map container -->
+    <rect x="0" y="0" width="280" height="300" rx="12" fill="#0a1628" stroke="#FF6A00" stroke-width="1" opacity="0.4"/>
+
+    <!-- Map area -->
+    <rect x="10" y="10" width="260" height="140" rx="6" fill="#0f1d36" opacity="0.6"/>
+    <!-- Map roads -->
+    <line x1="80" y1="10" x2="80" y2="150" stroke="#FF6A00" stroke-width="0.5" opacity="0.15"/>
+    <line x1="180" y1="10" x2="180" y2="150" stroke="#FF6A00" stroke-width="0.5" opacity="0.15"/>
+    <line x1="10" y1="60" x2="270" y2="60" stroke="#FF6A00" stroke-width="0.5" opacity="0.15"/>
+    <line x1="10" y1="110" x2="270" y2="110" stroke="#FF6A00" stroke-width="0.5" opacity="0.15"/>
+
+    <!-- Map pins (fading) -->
+    <!-- Pin 1 -->
+    <g transform="translate(70, 40)" opacity="0.5">
+      <path d="M8,0 C12,0 16,4 16,8 C16,14 8,22 8,22 C8,22 0,14 0,8 C0,4 4,0 8,0 Z" fill="#FF6A00"/>
+      <circle cx="8" cy="8" r="3" fill="#0F1117"/>
+    </g>
+    <!-- Pin 2 -->
+    <g transform="translate(150, 70)" opacity="0.35">
+      <path d="M8,0 C12,0 16,4 16,8 C16,14 8,22 8,22 C8,22 0,14 0,8 C0,4 4,0 8,0 Z" fill="#FF6A00"/>
+      <circle cx="8" cy="8" r="3" fill="#0F1117"/>
+    </g>
+    <!-- Pin 3 -->
+    <g transform="translate(220, 100)" opacity="0.2">
+      <path d="M8,0 C12,0 16,4 16,8 C16,14 8,22 8,22 C8,22 0,14 0,8 C0,4 4,0 8,0 Z" fill="#FF6A00"/>
+      <circle cx="8" cy="8" r="3" fill="#0F1117"/>
+    </g>
+
+    <!-- Listing rows (fading) -->
+    <rect x="15" y="165" width="250" height="38" rx="5" fill="#FF6A00" opacity="0.08" stroke="#FF6A00" stroke-width="0.5" opacity="0.2"/>
+    <circle cx="35" cy="184" r="8" fill="#FF6A00" opacity="0.15"/>
+    <rect x="50" y="175" width="120" height="6" rx="2" fill="#FF6A00" opacity="0.12"/>
+    <rect x="50" y="186" width="80" height="5" rx="2" fill="#FF6A00" opacity="0.08"/>
+
+    <rect x="15" y="210" width="250" height="38" rx="5" fill="#FF6A00" opacity="0.05" stroke="#FF6A00" stroke-width="0.5" opacity="0.12"/>
+    <circle cx="35" cy="229" r="8" fill="#FF6A00" opacity="0.1"/>
+    <rect x="50" y="220" width="110" height="6" rx="2" fill="#FF6A00" opacity="0.08"/>
+    <rect x="50" y="231" width="70" height="5" rx="2" fill="#FF6A00" opacity="0.05"/>
+
+    <rect x="15" y="255" width="250" height="38" rx="5" fill="#FF6A00" opacity="0.03" stroke="#FF6A00" stroke-width="0.5" opacity="0.08"/>
+    <circle cx="35" cy="274" r="8" fill="#FF6A00" opacity="0.06"/>
+    <rect x="50" y="265" width="100" height="6" rx="2" fill="#FF6A00" opacity="0.05"/>
+    <rect x="50" y="276" width="60" height="5" rx="2" fill="#FF6A00" opacity="0.03"/>
+
+    <!-- Fade overlay -->
+    <rect x="0" y="200" width="280" height="100" fill="url(#bg6)" opacity="0.6"/>
+
+    <!-- "OLD WAY" label -->
+    <text x="140" y="320" text-anchor="middle" fill="#FF6A00" font-family="system-ui, sans-serif" font-size="12" font-weight="600" opacity="0.4">THE MAP PACK</text>
+  </g>
+
+  <!-- CENTER: Transformation arrow -->
+  <g transform="translate(440, 220)">
+    <!-- Large arrow -->
+    <line x1="0" y1="30" x2="100" y2="30" stroke="#FF6A00" stroke-width="3" opacity="0.4" stroke-linecap="round"/>
+    <polygon points="100,30 88,20 88,40" fill="#FF6A00" opacity="0.5"/>
+    <!-- Lightning bolts (transformation energy) -->
+    <path d="M40,10 L35,25 L45,25 L38,42" stroke="#FF6A00" stroke-width="1.5" fill="none" opacity="0.3" stroke-linecap="round"/>
+    <path d="M60,5 L55,20 L65,20 L58,37" stroke="#FF6A00" stroke-width="1.5" fill="none" opacity="0.25" stroke-linecap="round"/>
+  </g>
+
+  <!-- RIGHT SIDE: AI Answer Panel (the new way) -->
+  <g transform="translate(600, 80)">
+    <!-- AI response container -->
+    <rect x="0" y="0" width="440" height="340" rx="14" fill="#0a1628" stroke="#FF6A00" stroke-width="1.8" opacity="0.8"/>
+
+    <!-- Header bar -->
+    <rect x="0" y="0" width="440" height="40" rx="14" fill="#FF6A00" opacity="0.12"/>
+    <rect x="430" y="0" width="10" height="28" fill="#FF6A00" opacity="0.12"/>
+    <!-- AI icon in header -->
+    <circle cx="25" cy="20" r="10" fill="#FF6A00" opacity="0.3"/>
+    <text x="25" y="24" text-anchor="middle" fill="#FF6A00" font-family="system-ui, sans-serif" font-size="10" font-weight="700" opacity="0.8">AI</text>
+    <!-- Title bar text -->
+    <rect x="45" y="14" width="120" height="7" rx="3" fill="#FF6A00" opacity="0.25"/>
+
+    <!-- AI response text -->
+    <rect x="20" y="55" width="350" height="6" rx="2" fill="#FF6A00" opacity="0.2"/>
+    <rect x="20" y="68" width="380" height="6" rx="2" fill="#FF6A00" opacity="0.18"/>
+    <rect x="20" y="81" width="300" height="6" rx="2" fill="#FF6A00" opacity="0.15"/>
+
+    <!-- Cited business card 1 (highlighted) -->
+    <rect x="20" y="105" width="400" height="60" rx="8" fill="#FF6A00" opacity="0.08" stroke="#FF6A00" stroke-width="1.2" opacity="0.4"/>
+    <!-- Business icon -->
+    <circle cx="50" cy="135" r="15" fill="#FF6A00" opacity="0.2"/>
+    <text x="50" y="140" text-anchor="middle" fill="#FF6A00" font-family="system-ui, sans-serif" font-size="14" font-weight="700" opacity="0.6">1</text>
+    <!-- Business name -->
+    <rect x="75" y="118" width="160" height="8" rx="3" fill="#FF6A00" opacity="0.35"/>
+    <!-- Description -->
+    <rect x="75" y="132" width="300" height="5" rx="2" fill="#FF6A00" opacity="0.15"/>
+    <rect x="75" y="143" width="250" height="5" rx="2" fill="#FF6A00" opacity="0.12"/>
+    <!-- Citation badge -->
+    <rect x="360" y="122" width="45" height="16" rx="8" fill="#FF6A00" opacity="0.3"/>
+    <text x="382" y="134" text-anchor="middle" fill="white" font-family="system-ui, sans-serif" font-size="8" font-weight="600" opacity="0.8">CITED</text>
+
+    <!-- Cited business card 2 -->
+    <rect x="20" y="175" width="400" height="55" rx="8" fill="#FF6A00" opacity="0.05" stroke="#FF6A00" stroke-width="0.8" opacity="0.25"/>
+    <circle cx="50" cy="202" r="15" fill="#FF6A00" opacity="0.12"/>
+    <text x="50" y="207" text-anchor="middle" fill="#FF6A00" font-family="system-ui, sans-serif" font-size="14" font-weight="700" opacity="0.4">2</text>
+    <rect x="75" y="188" width="140" height="8" rx="3" fill="#FF6A00" opacity="0.2"/>
+    <rect x="75" y="202" width="280" height="5" rx="2" fill="#FF6A00" opacity="0.1"/>
+    <rect x="75" y="213" width="220" height="5" rx="2" fill="#FF6A00" opacity="0.08"/>
+
+    <!-- More AI response text -->
+    <rect x="20" y="248" width="360" height="6" rx="2" fill="#FF6A00" opacity="0.15"/>
+    <rect x="20" y="261" width="390" height="6" rx="2" fill="#FF6A00" opacity="0.12"/>
+    <rect x="20" y="274" width="280" height="6" rx="2" fill="#FF6A00" opacity="0.1"/>
+
+    <!-- Follow-up prompt -->
+    <rect x="20" y="300" width="400" height="28" rx="14" fill="#0f1d36" stroke="#FF6A00" stroke-width="0.8" opacity="0.4"/>
+    <rect x="35" y="310" width="120" height="5" rx="2" fill="#FF6A00" opacity="0.1"/>
+    <!-- Send button -->
+    <circle cx="395" cy="314" r="10" fill="#FF6A00" opacity="0.3"/>
+    <polygon points="391,314 399,314 395,308" fill="#FF6A00" opacity="0.5" transform="rotate(90, 395, 314)"/>
+
+    <!-- "THE NEW WAY" label -->
+    <text x="220" y="365" text-anchor="middle" fill="#FF6A00" font-family="system-ui, sans-serif" font-size="12" font-weight="600" opacity="0.7">AI-POWERED DISCOVERY</text>
+  </g>
+
+  <!-- Floating particles -->
+  <circle cx="550" cy="120" r="2" fill="#FF6A00" opacity="0.3"/>
+  <circle cx="450" cy="400" r="1.5" fill="#FF6A00" opacity="0.2"/>
+  <circle cx="1100" cy="480" r="2" fill="#FF6A00" opacity="0.25"/>
+  <circle cx="50" cy="500" r="1.5" fill="#FF6A00" opacity="0.2"/>
+
+  <!-- Category pill -->
+  <rect x="50" y="30" width="130" height="32" rx="16" fill="#FF6A00" opacity="0.9"/>
+  <text x="115" y="51" text-anchor="middle" fill="white" font-family="system-ui, sans-serif" font-size="13" font-weight="600">AEO Education</text>
+
+  <!-- Title -->
+  <text x="600" y="510" text-anchor="middle" fill="white" font-family="system-ui, sans-serif" font-size="30" font-weight="700">AI Search Is Replacing the Map Pack:</text>
+  <text x="600" y="550" text-anchor="middle" fill="#FF6A00" font-family="system-ui, sans-serif" font-size="30" font-weight="700">What Local Businesses Must Know</text>
+
+  <!-- Watermark -->
+  <text x="600" y="615" text-anchor="middle" fill="white" font-family="system-ui, sans-serif" font-size="11" font-weight="500" opacity="0.3">THE ANSWER ENGINE</text>
+
+  <circle cx="1155" cy="590" r="22" fill="#FF6A00" opacity="0.15" stroke="#FF6A00" stroke-width="1" opacity="0.3"/>
+  <text x="1155" y="596" text-anchor="middle" fill="#FF6A00" font-family="system-ui, sans-serif" font-size="14" font-weight="700" opacity="0.5">AE</text>
+</svg>
