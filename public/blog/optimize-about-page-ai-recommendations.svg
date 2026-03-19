@@ -1,0 +1,122 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="bg10" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0f3460;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#0F1117;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1a1a2e;stop-opacity:1" />
+    </linearGradient>
+    <filter id="glow10">
+      <feGaussianBlur stdDeviation="6" result="blur10"/>
+      <feMerge>
+        <feMergeNode in="blur10"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <filter id="glowSoft10">
+      <feGaussianBlur stdDeviation="12" result="blur10s"/>
+      <feMerge>
+        <feMergeNode in="blur10s"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg10)"/>
+  <!-- Subtle background pattern lines -->
+  <line x1="0" y1="100" x2="1200" y2="100" stroke="rgba(255,106,0,0.05)" stroke-width="0.5"/>
+  <line x1="0" y1="200" x2="1200" y2="200" stroke="rgba(255,106,0,0.05)" stroke-width="0.5"/>
+  <line x1="0" y1="300" x2="1200" y2="300" stroke="rgba(255,106,0,0.05)" stroke-width="0.5"/>
+  <line x1="0" y1="400" x2="1200" y2="400" stroke="rgba(255,106,0,0.05)" stroke-width="0.5"/>
+  <line x1="0" y1="500" x2="1200" y2="500" stroke="rgba(255,106,0,0.05)" stroke-width="0.5"/>
+  <line x1="300" y1="0" x2="300" y2="630" stroke="rgba(255,106,0,0.05)" stroke-width="0.5"/>
+  <line x1="600" y1="0" x2="600" y2="630" stroke="rgba(255,106,0,0.05)" stroke-width="0.5"/>
+  <line x1="900" y1="0" x2="900" y2="630" stroke="rgba(255,106,0,0.05)" stroke-width="0.5"/>
+
+  <!-- About page wireframe (right side) -->
+  <g transform="translate(780, 80)">
+    <!-- Browser window frame -->
+    <rect x="0" y="0" width="340" height="420" rx="8" fill="rgba(255,255,255,0.06)" stroke="rgba(255,255,255,0.12)" stroke-width="1"/>
+    <!-- Browser top bar -->
+    <rect x="0" y="0" width="340" height="30" rx="8" fill="rgba(255,255,255,0.08)"/>
+    <rect x="0" y="20" width="340" height="10" fill="rgba(255,255,255,0.08)"/>
+    <circle cx="18" cy="14" r="4" fill="rgba(255,80,80,0.5)"/>
+    <circle cx="34" cy="14" r="4" fill="rgba(255,200,50,0.5)"/>
+    <circle cx="50" cy="14" r="4" fill="rgba(80,200,80,0.5)"/>
+    <!-- URL bar -->
+    <rect x="70" y="8" width="200" height="14" rx="7" fill="rgba(255,255,255,0.06)"/>
+    <text x="170" y="19" font-family="system-ui, sans-serif" font-size="8" fill="rgba(255,255,255,0.3)" text-anchor="middle">/about</text>
+
+    <!-- Page content wireframe -->
+    <!-- Header section -->
+    <rect x="20" y="45" width="120" height="10" rx="2" fill="rgba(255,255,255,0.15)"/>
+    <rect x="20" y="62" width="200" height="6" rx="2" fill="rgba(255,255,255,0.08)"/>
+    <rect x="20" y="74" width="180" height="6" rx="2" fill="rgba(255,255,255,0.08)"/>
+
+    <!-- Authority signal 1 - highlighted with orange glow -->
+    <rect x="15" y="95" width="310" height="55" rx="4" fill="rgba(255,106,0,0.08)" stroke="#FF6A00" stroke-width="1.5" filter="url(#glow10)" stroke-opacity="0.6"/>
+    <!-- Trust badge icon -->
+    <circle cx="42" cy="122" r="14" fill="rgba(255,106,0,0.2)" stroke="#FF6A00" stroke-width="1"/>
+    <text x="42" y="127" font-family="system-ui, sans-serif" font-size="14" fill="#FF6A00" text-anchor="middle">&#x2713;</text>
+    <rect x="65" y="108" width="100" height="7" rx="2" fill="rgba(255,106,0,0.4)"/>
+    <rect x="65" y="120" width="160" height="5" rx="2" fill="rgba(255,255,255,0.1)"/>
+    <rect x="65" y="130" width="140" height="5" rx="2" fill="rgba(255,255,255,0.1)"/>
+    <!-- "AI Reads This" label -->
+    <rect x="240" y="100" width="75" height="18" rx="9" fill="rgba(255,106,0,0.25)"/>
+    <text x="277" y="113" font-family="system-ui, sans-serif" font-size="8" fill="#FF6A00" text-anchor="middle" font-weight="600">AI SIGNAL</text>
+
+    <!-- Regular content block -->
+    <rect x="20" y="165" width="300" height="6" rx="2" fill="rgba(255,255,255,0.08)"/>
+    <rect x="20" y="177" width="260" height="6" rx="2" fill="rgba(255,255,255,0.08)"/>
+    <rect x="20" y="189" width="280" height="6" rx="2" fill="rgba(255,255,255,0.08)"/>
+
+    <!-- Authority signal 2 - highlighted -->
+    <rect x="15" y="210" width="310" height="55" rx="4" fill="rgba(255,106,0,0.08)" stroke="#FF6A00" stroke-width="1.5" filter="url(#glow10)" stroke-opacity="0.6"/>
+    <!-- Star/rating icon -->
+    <text x="42" y="244" font-family="system-ui, sans-serif" font-size="18" fill="#FF6A00" text-anchor="middle">&#x2605;</text>
+    <rect x="65" y="225" width="90" height="7" rx="2" fill="rgba(255,106,0,0.4)"/>
+    <rect x="65" y="237" width="170" height="5" rx="2" fill="rgba(255,255,255,0.1)"/>
+    <rect x="65" y="247" width="150" height="5" rx="2" fill="rgba(255,255,255,0.1)"/>
+    <!-- "AI Reads This" label -->
+    <rect x="240" y="215" width="75" height="18" rx="9" fill="rgba(255,106,0,0.25)"/>
+    <text x="277" y="228" font-family="system-ui, sans-serif" font-size="8" fill="#FF6A00" text-anchor="middle" font-weight="600">AI SIGNAL</text>
+
+    <!-- Regular content -->
+    <rect x="20" y="280" width="290" height="6" rx="2" fill="rgba(255,255,255,0.08)"/>
+    <rect x="20" y="292" width="250" height="6" rx="2" fill="rgba(255,255,255,0.08)"/>
+
+    <!-- Authority signal 3 - highlighted -->
+    <rect x="15" y="312" width="310" height="55" rx="4" fill="rgba(255,106,0,0.08)" stroke="#FF6A00" stroke-width="1.5" filter="url(#glow10)" stroke-opacity="0.6"/>
+    <!-- Shield icon -->
+    <text x="42" y="346" font-family="system-ui, sans-serif" font-size="18" fill="#FF6A00" text-anchor="middle">&#x26A1;</text>
+    <rect x="65" y="327" width="110" height="7" rx="2" fill="rgba(255,106,0,0.4)"/>
+    <rect x="65" y="339" width="180" height="5" rx="2" fill="rgba(255,255,255,0.1)"/>
+    <rect x="65" y="349" width="160" height="5" rx="2" fill="rgba(255,255,255,0.1)"/>
+    <rect x="240" y="317" width="75" height="18" rx="9" fill="rgba(255,106,0,0.25)"/>
+    <text x="277" y="330" font-family="system-ui, sans-serif" font-size="8" fill="#FF6A00" text-anchor="middle" font-weight="600">AI SIGNAL</text>
+
+    <!-- Footer area -->
+    <rect x="20" y="385" width="300" height="6" rx="2" fill="rgba(255,255,255,0.06)"/>
+    <rect x="20" y="397" width="200" height="6" rx="2" fill="rgba(255,255,255,0.06)"/>
+  </g>
+
+  <!-- Connector lines from wireframe to left -->
+  <line x1="750" y1="130" x2="780" y2="122" stroke="rgba(255,106,0,0.2)" stroke-width="1" stroke-dasharray="4,4"/>
+  <line x1="750" y1="250" x2="780" y2="237" stroke="rgba(255,106,0,0.2)" stroke-width="1" stroke-dasharray="4,4"/>
+  <line x1="750" y1="360" x2="780" y2="340" stroke="rgba(255,106,0,0.2)" stroke-width="1" stroke-dasharray="4,4"/>
+
+  <!-- Decorative circles -->
+  <circle cx="150" cy="120" r="80" stroke="rgba(255,106,0,0.08)" stroke-width="0.5" fill="none"/>
+  <circle cx="150" cy="120" r="50" stroke="rgba(255,106,0,0.06)" stroke-width="0.5" fill="none"/>
+
+  <!-- Title text (left side) -->
+  <text x="80" y="250" font-family="system-ui, -apple-system, sans-serif" font-size="48" font-weight="700" fill="white">Optimize Your</text>
+  <text x="80" y="310" font-family="system-ui, -apple-system, sans-serif" font-size="48" font-weight="700" fill="white">About Page</text>
+  <text x="80" y="370" font-family="system-ui, -apple-system, sans-serif" font-size="48" font-weight="700" fill="#FF6A00" filter="url(#glow10)">for AI</text>
+
+  <!-- Subtitle -->
+  <text x="80" y="420" font-family="system-ui, -apple-system, sans-serif" font-size="20" font-weight="400" fill="rgba(255,255,255,0.45)">Turn Your About Page Into an AI Magnet</text>
+
+  <!-- Footer branding -->
+  <text x="600" y="580" font-family="system-ui, -apple-system, sans-serif" font-size="16" font-weight="500" fill="rgba(255,255,255,0.5)" text-anchor="middle" letter-spacing="4">THE ANSWER ENGINE</text>
+  <circle cx="1120" cy="590" r="30" fill="rgba(255,255,255,0.1)"/>
+  <text x="1120" y="598" font-family="system-ui, -apple-system, sans-serif" font-size="20" font-weight="700" fill="rgba(255,255,255,0.3)" text-anchor="middle">AE</text>
+</svg>
