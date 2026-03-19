@@ -862,5 +862,132 @@
       "AI Overviews",
       "AEO"
     ]
+  },
+  {
+    "id": 42,
+    "title": "How to Build a FAQ Page That AI Actually Cites",
+    "slug": "how-to-build-faq-page-ai-cites",
+    "excerpt": "Pages with FAQPage schema are 3.2x more likely to appear in AI answers. Learn how to structure your FAQ page so ChatGPT, Perplexity, and Google AI Overviews cite your business.",
+    "category": "AEO Education",
+    "author": "The Answer Engine Team",
+    "readTime": "10 min",
+    "image": "/blog/how-to-build-faq-page-ai-cites.svg",
+    "publishDate": "2026-03-18",
+    "lastModified": "2026-03-18",
+    "featured": true,
+    "tags": [
+      "FAQ Page",
+      "FAQ Schema",
+      "AI Citations",
+      "Structured Data",
+      "ChatGPT",
+      "AEO"
+    ]
+  },
+  {
+    "id": 43,
+    "title": "The Hidden Cost of Ignoring AI Search (Revenue Impact Analysis)",
+    "slug": "hidden-cost-ignoring-ai-search",
+    "excerpt": "Businesses ignoring AI search are losing traffic, leads, and revenue. See the real data on zero-click searches, AI adoption rates, and the cost of staying invisible.",
+    "category": "Market Analysis",
+    "author": "The Answer Engine Team",
+    "readTime": "10 min",
+    "image": "/blog/hidden-cost-ignoring-ai-search.svg",
+    "publishDate": "2026-03-18",
+    "lastModified": "2026-03-18",
+    "featured": true,
+    "tags": [
+      "AI Search",
+      "Revenue Impact",
+      "Zero-Click Searches",
+      "AI Visibility",
+      "Market Analysis",
+      "AEO"
+    ]
+  },
+  {
+    "id": 44,
+    "title": "Why Your Competitors Show Up on Perplexity and You Don't",
+    "slug": "why-competitors-show-up-perplexity-not-you",
+    "excerpt": "Perplexity AI cites your competitors because they publish citable content, structured data, and fresh updates. Learn the 5 reasons you are invisible and how to fix it.",
+    "category": "AI Visibility",
+    "author": "The Answer Engine Team",
+    "readTime": "11 min",
+    "image": "/blog/why-competitors-show-up-perplexity-not-you.svg",
+    "publishDate": "2026-03-18",
+    "lastModified": "2026-03-18",
+    "featured": true,
+    "tags": [
+      "Perplexity AI",
+      "AI Visibility",
+      "AI Citations",
+      "Competitor Analysis",
+      "AI Search",
+      "AEO"
+    ]
+  },
+  {
+    "id": 45,
+    "title": "How to Optimize Your About Page for AI Recommendations",
+    "slug": "optimize-about-page-ai-recommendations",
+    "excerpt": "Your About page is one of the first pages AI platforms read when evaluating your business. Learn how to structure it so ChatGPT, Perplexity, and Google AI actually recommend you.",
+    "category": "AEO Education",
+    "author": "The Answer Engine Team",
+    "readTime": "11 min",
+    "image": "/blog/optimize-about-page-ai-recommendations.svg",
+    "publishDate": "2026-03-18",
+    "lastModified": "2026-03-18",
+    "featured": true,
+    "tags": [
+      "About Page",
+      "AI Recommendations",
+      "E-E-A-T",
+      "Trust Signals",
+      "AI Visibility",
+      "AEO"
+    ]
+  },
+  {
+    "id": 46,
+    "title": "How to Track Your AI Search Visibility (Tools and Metrics That Matter)",
+    "slug": "how-to-track-ai-search-visibility",
+    "excerpt": "Learn which tools and metrics actually measure your AI search visibility. Compare Otterly, Peec AI, Profound, and free methods for tracking citations across ChatGPT, Perplexity, and Google AI.",
+    "category": "AEO Education",
+    "author": "The Answer Engine Team",
+    "readTime": "10 min",
+    "image": "/blog/how-to-track-ai-search-visibility.svg",
+    "publishDate": "2026-03-18",
+    "lastModified": "2026-03-18",
+    "featured": true,
+    "tags": [
+      "AI Visibility",
+      "Tracking Tools",
+      "AI Search Metrics",
+      "AI Citations",
+      "Share of LLM",
+      "AEO"
+    ]
+  },
+  {
+    "id": 47,
+    "title": "Why Multi-Location Businesses Struggle with AI Search",
+    "slug": "why-multi-location-businesses-struggle-ai-search",
+    "excerpt": "Only 1.2% of multi-location brand locations get recommended by ChatGPT. Learn why franchises, chains, and multi-office businesses face unique AI search challenges and how to fix them.",
+    "category": "AI Visibility",
+    "author": "The Answer Engine Team",
+    "readTime": "11 min",
+    "image": "/blog/why-multi-location-businesses-struggle-ai-search.svg",
+    "publishDate": "2026-03-18",
+    "lastModified": "2026-03-18",
+    "featured": true,
+    "tags": [
+      "AI Visibility",
+      "Multi-Location",
+      "Franchise SEO",
+      "AI Search",
+      "ChatGPT",
+      "Local SEO",
+      "AEO"
+    ]
   }
 ]
