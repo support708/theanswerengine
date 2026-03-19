@@ -9,10 +9,10 @@ export const metadata: Metadata = {
     title: 'Answer Engine Optimization Blog - Expert AEO Insights',
     description: 'Learn how to get AI platforms to cite your business instead of competitors.',
     type: 'website',
-    url: 'https://theanswerengine.ai/blog',
+    url: 'https://www.theanswerengine.ai/blog',
     images: [
       {
-        url: 'https://theanswerengine.ai/images/blog-featured.png',
+        url: 'https://www.theanswerengine.ai/images/blog-featured.png',
         width: 1200,
         height: 630,
         alt: 'Answer Engine Optimization Blog',
@@ -25,12 +25,12 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'Answer Engine Optimization Blog',
     description: 'Expert insights on AEO and AI citations.',
-    images: ['https://theanswerengine.ai/images/blog-featured.png'],
+    images: ['https://www.theanswerengine.ai/images/blog-featured.png'],
     creator: '@theanswerengine',
   },
 
   alternates: {
-    canonical: 'https://theanswerengine.ai/blog',
+    canonical: 'https://www.theanswerengine.ai/blog',
   },
 
   keywords: [

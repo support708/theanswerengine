@@ -6,6 +6,22 @@ import { SpeedInsights } from '@vercel/speed-insights/next';
 import Nav from './components/Nav';
 import "./globals.css";
 
+export const metadata: Metadata = {
+  title: {
+    default: 'The Answer Engine | Answer Engine Optimization (AEO)',
+    template: '%s | The Answer Engine'
+  },
+  description: 'Get your business cited by AI platforms like ChatGPT, Claude, Google AI Overviews, and Perplexity. Answer Engine Optimization for local service businesses.',
+  alternates: {
+    canonical: 'https://www.theanswerengine.ai'
+  },
+  openGraph: {
+    siteName: 'The Answer Engine',
+    type: 'website',
+    locale: 'en_US'
+  }
+};
+
 const geistSans = Geist({
   variable: "--font-geist-sans",
   subsets: ["latin"],
@@ -36,9 +52,6 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-        <title>The Answer Engine - Answer Engine Optimization (AEO)</title>
-        <meta name="description" content="Get your business cited by AI platforms like ChatGPT, Claude, Google AI Overviews, and Perplexity. Answer Engine Optimization for local service businesses." />
-
         {/* Favicon links for all platforms */}
         <link rel="icon" href="/favicon.ico" sizes="any" />
         <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
@@ -55,8 +68,8 @@ export default function RootLayout({
               "@type": "Organization",
               "name": "The Answer Engine",
               "description": "Answer Engine Optimization specialists helping businesses get cited by AI platforms like ChatGPT, Claude, Google AI Overviews, and Perplexity",
-              "url": "https://theanswerengine.ai",
-              "logo": "https://theanswerengine.ai/TheAnswerEngine_white%20logo%20only.png",
+              "url": "https://www.theanswerengine.ai",
+              "logo": "https://www.theanswerengine.ai/TheAnswerEngine_white%20logo%20only.png",
               "contactPoint": {
                 "@type": "ContactPoint",
                 "telephone": "+1-213-444-2229",
@@ -79,14 +92,14 @@ export default function RootLayout({
               "@context": "https://schema.org",
               "@type": "WebSite",
               "name": "The Answer Engine",
-              "url": "https://theanswerengine.ai",
+              "url": "https://www.theanswerengine.ai",
               "description": "Get your business cited by AI platforms like ChatGPT, Claude, Google AI Overviews, and Perplexity. Answer Engine Optimization for local service businesses.",
               "publisher": {
                 "@type": "Organization",
                 "name": "The Answer Engine",
                 "logo": {
                   "@type": "ImageObject",
-                  "url": "https://theanswerengine.ai/TheAnswerEngine_white%20logo%20only.png",
+                  "url": "https://www.theanswerengine.ai/TheAnswerEngine_white%20logo%20only.png",
                   "width": 400,
                   "height": 400
                 }
@@ -95,7 +108,7 @@ export default function RootLayout({
                 "@type": "SearchAction",
                 "target": {
                   "@type": "EntryPoint",
-                  "urlTemplate": "https://theanswerengine.ai/blog?q={search_term_string}"
+                  "urlTemplate": "https://www.theanswerengine.ai/blog?q={search_term_string}"
                 },
                 "query-input": "required name=search_term_string"
               }

@@ -260,8 +260,8 @@ export default function Home() {
                   "@type": "Offer",
                   "itemOffered": {
                     "@type": "Service",
-                    "name": "Answer Authority Foundation",
-                    "description": "Complete AEO implementation including competitive audit, 6 AI-optimized articles, schema implementation, and 90-day citation monitoring"
+                    "name": "Answer Engine Optimization Service",
+                    "description": "Complete AEO implementation including competitive audit, AI-optimized articles, schema implementation, and citation monitoring"
                   }
                 }
               ]
@@ -337,11 +337,6 @@ export default function Home() {
             "name": "How to Get Cited by AI Platforms Like ChatGPT and Google AI",
             "description": "The Answer Engine's 3-step process to make AI platforms trust and cite your business as the authoritative answer.",
             "totalTime": "P90D",
-            "estimatedCost": {
-              "@type": "MonetaryAmount",
-              "currency": "USD",
-              "value": "2997"
-            },
             "step": [
               {
                 "@type": "HowToStep",
@@ -353,8 +348,8 @@ export default function Home() {
               {
                 "@type": "HowToStep",
                 "position": 2,
-                "name": "Answer Authority Foundation",
-                "text": "We create 6 research-backed articles in your authentic voice, structured specifically for AI citation with proper schema markup.",
+                "name": "Content Creation & Schema Implementation",
+                "text": "We create research-backed articles in your authentic voice, structured specifically for AI citation with proper schema markup.",
                 "url": "https://theanswerengine.ai/#how-it-works"
               },
               {
@@ -375,51 +370,6 @@ export default function Home() {
                 "name": "Schema Markup Implementation"
               }
             ]
-          })
-        }}
-      />
-
-      {/* Product/Offer Schema - Pricing */}
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{
-          __html: JSON.stringify({
-            "@context": "https://schema.org",
-            "@type": "Product",
-            "name": "Answer Authority Foundation Package",
-            "description": "Complete Answer Engine Optimization implementation for local service businesses. Includes competitive audit across 50+ queries, 6 AI-optimized articles, schema implementation, and 90-day citation monitoring with guaranteed results.",
-            "brand": {
-              "@type": "Brand",
-              "name": "The Answer Engine"
-            },
-            "offers": {
-              "@type": "Offer",
-              "url": "https://theanswerengine.ai/#territory-check",
-              "priceCurrency": "USD",
-              "price": "2997",
-              "priceValidUntil": "2025-12-31",
-              "availability": "https://schema.org/LimitedAvailability",
-              "itemCondition": "https://schema.org/NewCondition",
-              "seller": {
-                "@type": "Organization",
-                "name": "The Answer Engine"
-              },
-              "hasMerchantReturnPolicy": {
-                "@type": "MerchantReturnPolicy",
-                "applicableCountry": "US",
-                "returnPolicyCategory": "https://schema.org/MerchantReturnFiniteReturnWindow",
-                "merchantReturnDays": 90,
-                "returnMethod": "https://schema.org/ReturnByMail",
-                "returnFees": "https://schema.org/FreeReturn"
-              }
-            },
-            "aggregateRating": {
-              "@type": "AggregateRating",
-              "ratingValue": "5.0",
-              "reviewCount": "1",
-              "bestRating": "5",
-              "worstRating": "1"
-            }
           })
         }}
       />
@@ -1066,7 +1016,7 @@ export default function Home() {
                 },
                 {
                   q: "What's the investment?",
-                  a: "The Answer Authority Foundation is $2,997, delivered over 6 weeks. This includes your competitive audit, 6 AI-optimized articles, schema implementation, and 90-day citation monitoring."
+                  a: "Our AEO implementation is delivered over 6 weeks. This includes your competitive audit, AI-optimized articles, schema implementation, and citation monitoring. Book a call to discuss pricing for your market."
                 }
               ].map((faq, i) => (
                 <div
