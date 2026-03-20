@@ -1,38 +1,83 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
   <defs>
-    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" style="stop-color:#1a1a2e;stop-opacity:1" />
-      <stop offset="50%" style="stop-color:#16213e;stop-opacity:1" />
-      <stop offset="100%" style="stop-color:#0f3460;stop-opacity:1" />
+    <linearGradient id="bgCARM" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1a3b0d;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#0F1117;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#3b1a0d;stop-opacity:1" />
     </linearGradient>
+    <filter id="glowCARM"><feGaussianBlur stdDeviation="6" result="blurCARM"/><feMerge><feMergeNode in="blurCARM"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
   </defs>
-  <rect width="1200" height="630" fill="url(#bg)"/>
-  <!-- Orange geometric patterns -->
-  <circle cx="180" cy="315" r="140" stroke="#FF6A00" stroke-width="0.8" fill="none" opacity="0.25"/>
-  <circle cx="180" cy="315" r="90" stroke="#FF6A00" stroke-width="0.6" fill="none" opacity="0.2"/>
-  <circle cx="180" cy="315" r="45" stroke="#FF6A00" stroke-width="1" fill="none" opacity="0.3"/>
-  <circle cx="1020" cy="315" r="140" stroke="#FF6A00" stroke-width="0.8" fill="none" opacity="0.25"/>
-  <circle cx="1020" cy="315" r="90" stroke="#FF6A00" stroke-width="0.6" fill="none" opacity="0.2"/>
-  <circle cx="1020" cy="315" r="45" stroke="#FF6A00" stroke-width="1" fill="none" opacity="0.3"/>
-  <!-- Connecting line -->
-  <line x1="320" y1="315" x2="880" y2="315" stroke="#FF6A00" stroke-width="0.6" stroke-dasharray="12 6" opacity="0.2"/>
-  <!-- Corner accents -->
-  <rect x="40" y="40" width="16" height="16" fill="#FF6A00" opacity="0.15"/>
-  <rect x="1144" y="40" width="16" height="16" fill="#FF6A00" opacity="0.15"/>
-  <rect x="40" y="574" width="16" height="16" fill="#FF6A00" opacity="0.15"/>
-  <rect x="1144" y="574" width="16" height="16" fill="#FF6A00" opacity="0.15"/>
-  <!-- Diamond shapes -->
-  <path d="M180 175 L220 315 L180 455 L140 315 Z" stroke="#FF6A00" stroke-width="0.5" fill="none" opacity="0.15"/>
-  <path d="M1020 175 L1060 315 L1020 455 L980 315 Z" stroke="#FF6A00" stroke-width="0.5" fill="none" opacity="0.15"/>
-  <!-- Category pill -->
-  <rect x="440" y="120" width="120" height="32" rx="16" fill="rgba(255,106,0,0.2)" stroke="rgba(255,106,0,0.3)" stroke-width="1"/>
-  <text x="500" y="142" font-family="system-ui, -apple-system, sans-serif" font-size="14" font-weight="500" fill="#FF6A00" text-anchor="middle">Myth Busters</text>
-  <!-- Title text -->
-  <text x="600" y="270" font-family="system-ui, -apple-system, sans-serif" font-size="52" font-weight="700" fill="white" text-anchor="middle">Can AI Replace My</text>
-  <text x="600" y="340" font-family="system-ui, -apple-system, sans-serif" font-size="52" font-weight="700" fill="#FF6A00" text-anchor="middle">Marketing Agency?</text>
-  <!-- Watermark -->
+  <rect width="1200" height="630" fill="url(#bgCARM)"/>
+  <line x1="0" y1="126" x2="1200" y2="126" stroke="rgba(255,106,0,0.05)" stroke-width="0.5"/>
+  <line x1="0" y1="252" x2="1200" y2="252" stroke="rgba(255,106,0,0.05)" stroke-width="0.5"/>
+  <line x1="0" y1="378" x2="1200" y2="378" stroke="rgba(255,106,0,0.05)" stroke-width="0.5"/>
+  <line x1="0" y1="504" x2="1200" y2="504" stroke="rgba(255,106,0,0.05)" stroke-width="0.5"/>
+  <line x1="300" y1="0" x2="300" y2="630" stroke="rgba(255,106,0,0.05)" stroke-width="0.5"/>
+  <line x1="600" y1="0" x2="600" y2="630" stroke="rgba(255,106,0,0.05)" stroke-width="0.5"/>
+  <line x1="900" y1="0" x2="900" y2="630" stroke="rgba(255,106,0,0.05)" stroke-width="0.5"/>
+  <!-- AI vs Agency Comparison -->
+  <g transform="translate(660, 45)">
+    <rect x="0" y="0" width="470" height="470" rx="12" fill="rgba(255,255,255,0.06)" stroke="rgba(255,255,255,0.12)" stroke-width="1"/>
+    <text x="235" y="28" font-family="system-ui, sans-serif" font-size="12" fill="rgba(255,255,255,0.5)" text-anchor="middle" font-weight="600">AI vs AGENCY COMPARISON</text>
+    <!-- Column headers -->
+    <rect x="20" y="42" width="135" height="30" rx="6" fill="rgba(255,255,255,0.04)"/>
+    <text x="87" y="62" font-family="system-ui, sans-serif" font-size="9" fill="rgba(255,255,255,0.5)" text-anchor="middle" font-weight="600">TASK</text>
+    <rect x="163" y="42" width="135" height="30" rx="6" fill="rgba(100,150,255,0.08)" stroke="rgba(100,150,255,0.4)" stroke-width="1"/>
+    <text x="230" y="62" font-family="system-ui, sans-serif" font-size="9" fill="rgba(100,150,255,0.9)" text-anchor="middle" font-weight="600">AI TOOLS</text>
+    <rect x="306" y="42" width="144" height="30" rx="6" fill="rgba(255,106,0,0.08)" stroke="#FF6A00" stroke-width="1.5" stroke-opacity="0.6"/>
+    <text x="378" y="62" font-family="system-ui, sans-serif" font-size="9" fill="#FF6A00" text-anchor="middle" font-weight="700">HUMAN AGENCY</text>
+    <!-- Rows -->
+    <text x="87" y="95" font-family="system-ui, sans-serif" font-size="8" fill="rgba(255,255,255,0.6)" text-anchor="middle">Content Writing</text>
+    <text x="230" y="95" font-family="system-ui, sans-serif" font-size="9" fill="rgba(100,220,100,0.9)" text-anchor="middle" font-weight="600">&#x2713; Good</text>
+    <text x="378" y="95" font-family="system-ui, sans-serif" font-size="9" fill="rgba(100,220,100,0.9)" text-anchor="middle" font-weight="600">&#x2713; Better</text>
+    <line x1="20" y1="105" x2="450" y2="105" stroke="rgba(255,255,255,0.06)" stroke-width="0.5"/>
+    <text x="87" y="125" font-family="system-ui, sans-serif" font-size="8" fill="rgba(255,255,255,0.6)" text-anchor="middle">Local Strategy</text>
+    <text x="230" y="125" font-family="system-ui, sans-serif" font-size="9" fill="rgba(255,80,80,0.85)" text-anchor="middle" font-weight="600">&#x2717; Weak</text>
+    <text x="378" y="125" font-family="system-ui, sans-serif" font-size="9" fill="rgba(100,220,100,0.9)" text-anchor="middle" font-weight="600">&#x2713; Strong</text>
+    <line x1="20" y1="135" x2="450" y2="135" stroke="rgba(255,255,255,0.06)" stroke-width="0.5"/>
+    <text x="87" y="155" font-family="system-ui, sans-serif" font-size="8" fill="rgba(255,255,255,0.6)" text-anchor="middle">Schema Markup</text>
+    <text x="230" y="155" font-family="system-ui, sans-serif" font-size="9" fill="rgba(255,200,50,0.9)" text-anchor="middle" font-weight="600">~ Partial</text>
+    <text x="378" y="155" font-family="system-ui, sans-serif" font-size="9" fill="rgba(100,220,100,0.9)" text-anchor="middle" font-weight="600">&#x2713; Complete</text>
+    <line x1="20" y1="165" x2="450" y2="165" stroke="rgba(255,255,255,0.06)" stroke-width="0.5"/>
+    <text x="87" y="185" font-family="system-ui, sans-serif" font-size="8" fill="rgba(255,255,255,0.6)" text-anchor="middle">Relationship Building</text>
+    <text x="230" y="185" font-family="system-ui, sans-serif" font-size="9" fill="rgba(255,80,80,0.85)" text-anchor="middle" font-weight="600">&#x2717; No</text>
+    <text x="378" y="185" font-family="system-ui, sans-serif" font-size="9" fill="rgba(100,220,100,0.9)" text-anchor="middle" font-weight="600">&#x2713; Yes</text>
+    <line x1="20" y1="195" x2="450" y2="195" stroke="rgba(255,255,255,0.06)" stroke-width="0.5"/>
+    <text x="87" y="215" font-family="system-ui, sans-serif" font-size="8" fill="rgba(255,255,255,0.6)" text-anchor="middle">AEO Optimization</text>
+    <text x="230" y="215" font-family="system-ui, sans-serif" font-size="9" fill="rgba(255,80,80,0.85)" text-anchor="middle" font-weight="600">&#x2717; No</text>
+    <text x="378" y="215" font-family="system-ui, sans-serif" font-size="9" fill="#FF6A00" text-anchor="middle" font-weight="700">&#x2713; Specialized</text>
+    <!-- Cost comparison -->
+    <line x1="20" y1="235" x2="450" y2="235" stroke="rgba(255,255,255,0.08)" stroke-width="0.5"/>
+    <text x="20" y="260" font-family="system-ui, sans-serif" font-size="10" fill="rgba(255,255,255,0.5)" font-weight="600">MONTHLY COST COMPARISON</text>
+    <rect x="20" y="270" width="205" height="55" rx="8" fill="rgba(100,150,255,0.06)" stroke="rgba(100,150,255,0.4)" stroke-width="1"/>
+    <text x="122" y="290" font-family="system-ui, sans-serif" font-size="9" fill="rgba(100,150,255,0.9)" text-anchor="middle" font-weight="600">AI TOOLS STACK</text>
+    <text x="122" y="315" font-family="system-ui, sans-serif" font-size="18" fill="white" text-anchor="middle" font-weight="700">$200/mo</text>
+    <rect x="245" y="270" width="205" height="55" rx="8" fill="rgba(255,106,0,0.08)" stroke="#FF6A00" stroke-width="1.5" stroke-opacity="0.6" filter="url(#glowCARM)"/>
+    <text x="347" y="290" font-family="system-ui, sans-serif" font-size="9" fill="#FF6A00" text-anchor="middle" font-weight="600">AEO AGENCY</text>
+    <text x="347" y="315" font-family="system-ui, sans-serif" font-size="18" fill="#FF6A00" text-anchor="middle" font-weight="700" filter="url(#glowCARM)">$2.5K/mo</text>
+    <!-- ROI -->
+    <text x="20" y="350" font-family="system-ui, sans-serif" font-size="10" fill="rgba(255,255,255,0.5)" font-weight="600">BUT THE ROI TELLS A DIFFERENT STORY</text>
+    <text x="20" y="378" font-family="system-ui, sans-serif" font-size="9" fill="rgba(255,255,255,0.5)">AI Tools ROI</text>
+    <rect x="130" y="367" width="300" height="16" rx="3" fill="rgba(255,255,255,0.06)"/>
+    <rect x="130" y="367" width="60" height="16" rx="3" fill="rgba(100,150,255,0.5)"/>
+    <text x="200" y="379" font-family="system-ui, sans-serif" font-size="8" fill="rgba(100,150,255,0.9)" font-weight="700">1.2x</text>
+    <text x="20" y="403" font-family="system-ui, sans-serif" font-size="9" fill="rgba(255,255,255,0.5)">AEO Agency ROI</text>
+    <rect x="130" y="392" width="300" height="16" rx="3" fill="rgba(255,255,255,0.06)"/>
+    <rect x="130" y="392" width="255" height="16" rx="3" fill="rgba(255,106,0,0.5)"/>
+    <text x="395" y="404" font-family="system-ui, sans-serif" font-size="8" fill="#FF6A00" font-weight="700">5.8x</text>
+    <!-- Verdict -->
+    <rect x="20" y="420" width="430" height="35" rx="6" fill="rgba(255,106,0,0.08)" stroke="#FF6A00" stroke-width="1.5" stroke-opacity="0.5"/>
+    <text x="235" y="435" font-family="system-ui, sans-serif" font-size="9" fill="rgba(255,255,255,0.6)" text-anchor="middle">VERDICT</text>
+    <text x="235" y="449" font-family="system-ui, sans-serif" font-size="9" fill="#FF6A00" text-anchor="middle" font-weight="600">AI assists, but human strategy drives real results</text>
+  </g>
+  <circle cx="100" cy="130" r="60" stroke="rgba(255,106,0,0.06)" stroke-width="0.5" fill="none"/>
+  <rect x="40" y="40" width="120" height="32" rx="16" fill="rgba(255,106,0,0.15)" stroke="rgba(255,106,0,0.3)" stroke-width="1"/>
+  <text x="100" y="62" font-family="system-ui, -apple-system, sans-serif" font-size="14" font-weight="500" fill="#FF6A00" text-anchor="middle">Myth Busters</text>
+  <text x="80" y="260" font-family="system-ui, -apple-system, sans-serif" font-size="46" font-weight="700" fill="white">Can AI Replace My</text>
+  <text x="80" y="320" font-family="system-ui, -apple-system, sans-serif" font-size="46" font-weight="700" fill="#FF6A00" filter="url(#glowCARM)">Marketing Agency?</text>
+  <text x="80" y="380" font-family="system-ui, -apple-system, sans-serif" font-size="46" font-weight="700" fill="white">The Real Answer</text>
+  <text x="80" y="430" font-family="system-ui, -apple-system, sans-serif" font-size="20" font-weight="400" fill="rgba(255,255,255,0.45)">AI Tools vs Human Strategy Compared</text>
   <text x="600" y="580" font-family="system-ui, -apple-system, sans-serif" font-size="16" font-weight="500" fill="rgba(255,255,255,0.5)" text-anchor="middle" letter-spacing="4">THE ANSWER ENGINE</text>
-  <!-- AE logo circle -->
   <circle cx="1120" cy="590" r="30" fill="rgba(255,255,255,0.1)"/>
   <text x="1120" y="598" font-family="system-ui, -apple-system, sans-serif" font-size="20" font-weight="700" fill="rgba(255,255,255,0.3)" text-anchor="middle">AE</text>
 </svg>

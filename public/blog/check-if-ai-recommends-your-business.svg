@@ -6,6 +6,7 @@
       <stop offset="100%" style="stop-color:#0d3b1a;stop-opacity:1" />
     </linearGradient>
     <filter id="glow14"><feGaussianBlur stdDeviation="6" result="blur14"/><feMerge><feMergeNode in="blur14"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <filter id="glowSoft14"><feGaussianBlur stdDeviation="12" result="blur14s"/><feMerge><feMergeNode in="blur14s"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
   </defs>
   <rect width="1200" height="630" fill="url(#bg14)"/>
   <line x1="0" y1="126" x2="1200" y2="126" stroke="rgba(255,106,0,0.05)" stroke-width="0.5"/>
@@ -18,61 +19,61 @@
   <!-- Phone mockup with ChatGPT -->
   <g transform="translate(730, 35)">
     <!-- Phone frame -->
-    <rect x="50" y="0" width="260" height="490" rx="30" fill="rgba(255,255,255,0.03)" stroke="rgba(255,255,255,0.15)" stroke-width="2"/>
-    <rect x="130" y="8" width="100" height="6" rx="3" fill="rgba(255,255,255,0.1)"/>
+    <rect x="50" y="0" width="260" height="490" rx="30" fill="rgba(255,255,255,0.05)" stroke="rgba(255,255,255,0.2)" stroke-width="2"/>
+    <rect x="130" y="8" width="100" height="6" rx="3" fill="rgba(255,255,255,0.15)"/>
     <!-- Screen area -->
-    <rect x="60" y="30" width="240" height="440" rx="4" fill="rgba(0,0,0,0.3)"/>
+    <rect x="60" y="30" width="240" height="440" rx="4" fill="rgba(0,0,0,0.4)"/>
     <!-- ChatGPT header -->
-    <rect x="60" y="30" width="240" height="35" fill="rgba(255,255,255,0.05)"/>
-    <text x="180" y="52" font-family="system-ui, sans-serif" font-size="11" fill="rgba(255,255,255,0.4)" text-anchor="middle" font-weight="600">ChatGPT</text>
+    <rect x="60" y="30" width="240" height="35" fill="rgba(255,255,255,0.07)"/>
+    <text x="180" y="52" font-family="system-ui, sans-serif" font-size="12" fill="rgba(255,255,255,0.6)" text-anchor="middle" font-weight="600">ChatGPT</text>
     <!-- User query -->
-    <rect x="120" y="80" width="170" height="30" rx="12" fill="rgba(255,106,0,0.1)" stroke="rgba(255,106,0,0.2)" stroke-width="1"/>
-    <text x="205" y="100" font-family="system-ui, sans-serif" font-size="9" fill="rgba(255,255,255,0.5)" text-anchor="middle">"Best [your service] near me"</text>
+    <rect x="120" y="80" width="170" height="30" rx="12" fill="rgba(255,106,0,0.15)" stroke="rgba(255,106,0,0.3)" stroke-width="1"/>
+    <text x="205" y="100" font-family="system-ui, sans-serif" font-size="9" fill="rgba(255,255,255,0.6)" text-anchor="middle">"Best [your service] near me"</text>
     <!-- AI response -->
-    <rect x="70" y="125" width="215" height="20" rx="4" fill="rgba(255,255,255,0.03)"/>
-    <text x="80" y="139" font-family="system-ui, sans-serif" font-size="9" fill="rgba(255,255,255,0.35)">Here are the top recommendations:</text>
-    <!-- Result 1 - found -->
-    <rect x="70" y="155" width="215" height="50" rx="6" fill="rgba(100,220,100,0.06)" stroke="rgba(100,220,100,0.2)" stroke-width="1"/>
-    <circle cx="88" cy="175" r="10" fill="rgba(100,220,100,0.15)"/>
-    <text x="88" y="179" font-family="system-ui, sans-serif" font-size="10" fill="rgba(100,220,100,0.7)" text-anchor="middle">&#x2713;</text>
-    <text x="105" y="173" font-family="system-ui, sans-serif" font-size="10" fill="rgba(100,220,100,0.7)" font-weight="600">Your Business Name</text>
-    <rect x="105" y="182" width="120" height="4" rx="2" fill="rgba(255,255,255,0.06)"/>
-    <rect x="105" y="190" width="90" height="4" rx="2" fill="rgba(255,255,255,0.04)"/>
+    <rect x="70" y="125" width="215" height="20" rx="4" fill="rgba(255,255,255,0.04)"/>
+    <text x="80" y="139" font-family="system-ui, sans-serif" font-size="9" fill="rgba(255,255,255,0.5)">Here are the top recommendations:</text>
+    <!-- Result 1 - highlighted -->
+    <rect x="70" y="155" width="215" height="50" rx="6" fill="rgba(100,220,100,0.1)" stroke="rgba(100,220,100,0.4)" stroke-width="1.5"/>
+    <circle cx="88" cy="175" r="10" fill="rgba(100,220,100,0.25)"/>
+    <text x="88" y="179" font-family="system-ui, sans-serif" font-size="10" fill="rgba(100,220,100,0.9)" text-anchor="middle">&#x2713;</text>
+    <text x="105" y="173" font-family="system-ui, sans-serif" font-size="10" fill="rgba(100,220,100,0.9)" font-weight="600">Your Business Name</text>
+    <rect x="105" y="182" width="120" height="5" rx="2" fill="rgba(255,255,255,0.08)"/>
+    <rect x="105" y="191" width="90" height="5" rx="2" fill="rgba(255,255,255,0.06)"/>
     <!-- Result 2 -->
-    <rect x="70" y="215" width="215" height="45" rx="6" fill="rgba(255,255,255,0.03)" stroke="rgba(255,255,255,0.06)" stroke-width="1"/>
-    <text x="85" y="240" font-family="system-ui, sans-serif" font-size="9" fill="rgba(255,255,255,0.3)">2. Competitor A</text>
-    <rect x="85" y="245" width="100" height="4" rx="2" fill="rgba(255,255,255,0.04)"/>
+    <rect x="70" y="215" width="215" height="45" rx="6" fill="rgba(255,255,255,0.04)" stroke="rgba(255,255,255,0.1)" stroke-width="1"/>
+    <text x="85" y="240" font-family="system-ui, sans-serif" font-size="10" fill="rgba(255,255,255,0.45)">2. Competitor A</text>
+    <rect x="85" y="245" width="100" height="4" rx="2" fill="rgba(255,255,255,0.06)"/>
     <!-- Result 3 -->
-    <rect x="70" y="270" width="215" height="45" rx="6" fill="rgba(255,255,255,0.03)" stroke="rgba(255,255,255,0.06)" stroke-width="1"/>
-    <text x="85" y="295" font-family="system-ui, sans-serif" font-size="9" fill="rgba(255,255,255,0.25)">3. Competitor B</text>
-    <rect x="85" y="300" width="80" height="4" rx="2" fill="rgba(255,255,255,0.03)"/>
+    <rect x="70" y="270" width="215" height="45" rx="6" fill="rgba(255,255,255,0.04)" stroke="rgba(255,255,255,0.08)" stroke-width="1"/>
+    <text x="85" y="295" font-family="system-ui, sans-serif" font-size="10" fill="rgba(255,255,255,0.4)">3. Competitor B</text>
+    <rect x="85" y="300" width="80" height="4" rx="2" fill="rgba(255,255,255,0.05)"/>
     <!-- Status badge -->
-    <rect x="85" y="335" width="190" height="30" rx="6" fill="rgba(100,220,100,0.08)" stroke="rgba(100,220,100,0.25)" stroke-width="1"/>
-    <text x="180" y="355" font-family="system-ui, sans-serif" font-size="9" fill="rgba(100,220,100,0.7)" text-anchor="middle" font-weight="600">&#x2713; YOU ARE BEING RECOMMENDED</text>
+    <rect x="85" y="335" width="190" height="30" rx="6" fill="rgba(100,220,100,0.12)" stroke="rgba(100,220,100,0.4)" stroke-width="1.5"/>
+    <text x="180" y="355" font-family="system-ui, sans-serif" font-size="9" fill="rgba(100,220,100,0.9)" text-anchor="middle" font-weight="600">&#x2713; YOU ARE BEING RECOMMENDED</text>
     <!-- Platform checks -->
-    <text x="85" y="390" font-family="system-ui, sans-serif" font-size="9" fill="rgba(100,220,100,0.6)">&#x2713; ChatGPT: Cited</text>
-    <text x="85" y="408" font-family="system-ui, sans-serif" font-size="9" fill="rgba(255,200,50,0.5)">&#x25CB; Gemini: Partial</text>
-    <text x="85" y="426" font-family="system-ui, sans-serif" font-size="9" fill="rgba(255,80,80,0.5)">&#x2717; Perplexity: Not found</text>
-    <text x="85" y="455" font-family="system-ui, sans-serif" font-size="8" fill="rgba(255,255,255,0.2)">Last checked: Today</text>
+    <text x="85" y="390" font-family="system-ui, sans-serif" font-size="10" fill="rgba(100,220,100,0.8)">&#x2713; ChatGPT: Cited</text>
+    <text x="85" y="408" font-family="system-ui, sans-serif" font-size="10" fill="rgba(255,200,50,0.8)">&#x25CB; Gemini: Partial</text>
+    <text x="85" y="426" font-family="system-ui, sans-serif" font-size="10" fill="rgba(255,80,80,0.8)">&#x2717; Perplexity: Not found</text>
+    <text x="85" y="455" font-family="system-ui, sans-serif" font-size="9" fill="rgba(255,255,255,0.35)">Last checked: Today</text>
   </g>
   <!-- Side labels -->
   <g transform="translate(370, 120)">
-    <rect x="0" y="0" width="130" height="50" rx="8" fill="rgba(255,106,0,0.06)" stroke="rgba(255,106,0,0.15)" stroke-width="1"/>
-    <text x="65" y="20" font-family="system-ui, sans-serif" font-size="9" fill="rgba(255,255,255,0.4)" text-anchor="middle" font-weight="600">STEP 1</text>
-    <text x="65" y="38" font-family="system-ui, sans-serif" font-size="8" fill="rgba(255,106,0,0.5)" text-anchor="middle">Ask the AI about you</text>
-    <line x1="130" y1="25" x2="200" y2="70" stroke="rgba(255,106,0,0.15)" stroke-width="1" stroke-dasharray="4,4"/>
+    <rect x="0" y="0" width="130" height="50" rx="8" fill="rgba(255,106,0,0.08)" stroke="rgba(255,106,0,0.25)" stroke-width="1"/>
+    <text x="65" y="20" font-family="system-ui, sans-serif" font-size="9" fill="rgba(255,255,255,0.5)" text-anchor="middle" font-weight="600">STEP 1</text>
+    <text x="65" y="38" font-family="system-ui, sans-serif" font-size="9" fill="#FF6A00" text-anchor="middle">Ask the AI about you</text>
+    <line x1="130" y1="25" x2="200" y2="70" stroke="rgba(255,106,0,0.25)" stroke-width="1" stroke-dasharray="4,4"/>
   </g>
   <g transform="translate(370, 240)">
-    <rect x="0" y="0" width="130" height="50" rx="8" fill="rgba(255,106,0,0.06)" stroke="rgba(255,106,0,0.15)" stroke-width="1"/>
-    <text x="65" y="20" font-family="system-ui, sans-serif" font-size="9" fill="rgba(255,255,255,0.4)" text-anchor="middle" font-weight="600">STEP 2</text>
-    <text x="65" y="38" font-family="system-ui, sans-serif" font-size="8" fill="rgba(255,106,0,0.5)" text-anchor="middle">Check all 3 platforms</text>
+    <rect x="0" y="0" width="130" height="50" rx="8" fill="rgba(255,106,0,0.08)" stroke="rgba(255,106,0,0.25)" stroke-width="1"/>
+    <text x="65" y="20" font-family="system-ui, sans-serif" font-size="9" fill="rgba(255,255,255,0.5)" text-anchor="middle" font-weight="600">STEP 2</text>
+    <text x="65" y="38" font-family="system-ui, sans-serif" font-size="9" fill="#FF6A00" text-anchor="middle">Check all 3 platforms</text>
   </g>
   <g transform="translate(370, 360)">
-    <rect x="0" y="0" width="130" height="50" rx="8" fill="rgba(255,106,0,0.06)" stroke="rgba(255,106,0,0.15)" stroke-width="1"/>
-    <text x="65" y="20" font-family="system-ui, sans-serif" font-size="9" fill="rgba(255,255,255,0.4)" text-anchor="middle" font-weight="600">STEP 3</text>
-    <text x="65" y="38" font-family="system-ui, sans-serif" font-size="8" fill="rgba(255,106,0,0.5)" text-anchor="middle">Document the gaps</text>
+    <rect x="0" y="0" width="130" height="50" rx="8" fill="rgba(255,106,0,0.08)" stroke="rgba(255,106,0,0.25)" stroke-width="1"/>
+    <text x="65" y="20" font-family="system-ui, sans-serif" font-size="9" fill="rgba(255,255,255,0.5)" text-anchor="middle" font-weight="600">STEP 3</text>
+    <text x="65" y="38" font-family="system-ui, sans-serif" font-size="9" fill="#FF6A00" text-anchor="middle">Document the gaps</text>
   </g>
-  <circle cx="100" cy="130" r="60" stroke="rgba(255,106,0,0.05)" stroke-width="0.5" fill="none"/>
+  <circle cx="100" cy="130" r="60" stroke="rgba(255,106,0,0.06)" stroke-width="0.5" fill="none"/>
   <rect x="40" y="40" width="170" height="32" rx="16" fill="rgba(255,106,0,0.15)" stroke="rgba(255,106,0,0.3)" stroke-width="1"/>
   <text x="125" y="62" font-family="system-ui, -apple-system, sans-serif" font-size="14" font-weight="500" fill="#FF6A00" text-anchor="middle">Free Assessment</text>
   <text x="80" y="260" font-family="system-ui, -apple-system, sans-serif" font-size="46" font-weight="700" fill="white">Does AI</text>

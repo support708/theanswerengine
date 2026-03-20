@@ -6,6 +6,7 @@
       <stop offset="100%" style="stop-color:#0d2e3b;stop-opacity:1" />
     </linearGradient>
     <filter id="glow11"><feGaussianBlur stdDeviation="6" result="blur11"/><feMerge><feMergeNode in="blur11"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <filter id="glowSoft11"><feGaussianBlur stdDeviation="12" result="blur11s"/><feMerge><feMergeNode in="blur11s"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
   </defs>
   <rect width="1200" height="630" fill="url(#bg11)"/>
   <line x1="0" y1="126" x2="1200" y2="126" stroke="rgba(255,106,0,0.05)" stroke-width="0.5"/>
@@ -17,57 +18,57 @@
   <line x1="900" y1="0" x2="900" y2="630" stroke="rgba(255,106,0,0.05)" stroke-width="0.5"/>
   <!-- 5-step vertical pipeline -->
   <g transform="translate(680, 40)">
-    <rect x="0" y="0" width="440" height="480" rx="12" fill="rgba(255,255,255,0.04)" stroke="rgba(255,255,255,0.08)" stroke-width="1"/>
-    <text x="220" y="28" font-family="system-ui, sans-serif" font-size="12" fill="rgba(255,255,255,0.4)" text-anchor="middle" font-weight="600">5-STEP AEO PIPELINE</text>
-    <!-- Step 1 -->
-    <rect x="20" y="45" width="400" height="65" rx="8" fill="rgba(255,106,0,0.08)" stroke="#FF6A00" stroke-width="1.5" filter="url(#glow11)"/>
-    <circle cx="50" cy="77" r="16" fill="rgba(255,106,0,0.2)" stroke="#FF6A00" stroke-width="1.5"/>
+    <rect x="0" y="0" width="440" height="480" rx="12" fill="rgba(255,255,255,0.06)" stroke="rgba(255,255,255,0.12)" stroke-width="1"/>
+    <text x="220" y="28" font-family="system-ui, sans-serif" font-size="12" fill="rgba(255,255,255,0.5)" text-anchor="middle" font-weight="600">5-STEP AEO PIPELINE</text>
+    <!-- Step 1 - highlighted -->
+    <rect x="20" y="45" width="400" height="65" rx="8" fill="rgba(255,106,0,0.1)" stroke="#FF6A00" stroke-width="1.5" filter="url(#glow11)" stroke-opacity="0.7"/>
+    <circle cx="50" cy="77" r="16" fill="rgba(255,106,0,0.3)" stroke="#FF6A00" stroke-width="2"/>
     <text x="50" y="82" font-family="system-ui, sans-serif" font-size="14" fill="#FF6A00" text-anchor="middle" font-weight="700">1</text>
-    <text x="80" y="72" font-family="system-ui, sans-serif" font-size="12" fill="rgba(255,255,255,0.7)" font-weight="600">Audit Your AI Visibility</text>
-    <text x="80" y="90" font-family="system-ui, sans-serif" font-size="9" fill="rgba(255,255,255,0.35)">Search your business on ChatGPT, Gemini, Perplexity</text>
-    <text x="80" y="104" font-family="system-ui, sans-serif" font-size="9" fill="rgba(255,106,0,0.5)">&#x2192; Baseline your current citation status</text>
+    <text x="80" y="72" font-family="system-ui, sans-serif" font-size="12" fill="rgba(255,255,255,0.85)" font-weight="600">Audit Your AI Visibility</text>
+    <text x="80" y="90" font-family="system-ui, sans-serif" font-size="9" fill="rgba(255,255,255,0.5)">Search your business on ChatGPT, Gemini, Perplexity</text>
+    <text x="80" y="104" font-family="system-ui, sans-serif" font-size="9" fill="#FF6A00">&#x2192; Baseline your current citation status</text>
     <!-- Connector -->
-    <line x1="220" y1="110" x2="220" y2="125" stroke="rgba(255,106,0,0.3)" stroke-width="1.5"/>
-    <polygon points="215,123 220,133 225,123" fill="rgba(255,106,0,0.3)"/>
+    <line x1="220" y1="110" x2="220" y2="125" stroke="rgba(255,106,0,0.5)" stroke-width="2"/>
+    <polygon points="215,123 220,133 225,123" fill="rgba(255,106,0,0.5)"/>
     <!-- Step 2 -->
-    <rect x="20" y="135" width="400" height="65" rx="8" fill="rgba(255,255,255,0.03)" stroke="rgba(255,255,255,0.1)" stroke-width="1"/>
-    <circle cx="50" cy="167" r="16" fill="rgba(100,220,100,0.12)" stroke="rgba(100,220,100,0.4)" stroke-width="1.5"/>
-    <text x="50" y="172" font-family="system-ui, sans-serif" font-size="14" fill="rgba(100,220,100,0.7)" text-anchor="middle" font-weight="700">2</text>
-    <text x="80" y="162" font-family="system-ui, sans-serif" font-size="12" fill="rgba(255,255,255,0.6)" font-weight="600">Deploy Schema Markup</text>
-    <text x="80" y="180" font-family="system-ui, sans-serif" font-size="9" fill="rgba(255,255,255,0.3)">LocalBusiness, FAQ, Review, Service schemas</text>
-    <text x="80" y="194" font-family="system-ui, sans-serif" font-size="9" fill="rgba(100,220,100,0.5)">&#x2192; Make your data machine-readable</text>
+    <rect x="20" y="135" width="400" height="65" rx="8" fill="rgba(100,220,100,0.06)" stroke="rgba(100,220,100,0.3)" stroke-width="1.5"/>
+    <circle cx="50" cy="167" r="16" fill="rgba(100,220,100,0.2)" stroke="rgba(100,220,100,0.6)" stroke-width="2"/>
+    <text x="50" y="172" font-family="system-ui, sans-serif" font-size="14" fill="rgba(100,220,100,0.9)" text-anchor="middle" font-weight="700">2</text>
+    <text x="80" y="162" font-family="system-ui, sans-serif" font-size="12" fill="rgba(255,255,255,0.8)" font-weight="600">Deploy Schema Markup</text>
+    <text x="80" y="180" font-family="system-ui, sans-serif" font-size="9" fill="rgba(255,255,255,0.5)">LocalBusiness, FAQ, Review, Service schemas</text>
+    <text x="80" y="194" font-family="system-ui, sans-serif" font-size="9" fill="rgba(100,220,100,0.8)">&#x2192; Make your data machine-readable</text>
     <!-- Connector -->
-    <line x1="220" y1="200" x2="220" y2="215" stroke="rgba(255,106,0,0.25)" stroke-width="1.5"/>
-    <polygon points="215,213 220,223 225,213" fill="rgba(255,106,0,0.25)"/>
+    <line x1="220" y1="200" x2="220" y2="215" stroke="rgba(255,106,0,0.4)" stroke-width="2"/>
+    <polygon points="215,213 220,223 225,213" fill="rgba(255,106,0,0.4)"/>
     <!-- Step 3 -->
-    <rect x="20" y="225" width="400" height="65" rx="8" fill="rgba(255,255,255,0.03)" stroke="rgba(255,255,255,0.1)" stroke-width="1"/>
-    <circle cx="50" cy="257" r="16" fill="rgba(100,150,255,0.12)" stroke="rgba(100,150,255,0.4)" stroke-width="1.5"/>
-    <text x="50" y="262" font-family="system-ui, sans-serif" font-size="14" fill="rgba(100,150,255,0.7)" text-anchor="middle" font-weight="700">3</text>
-    <text x="80" y="252" font-family="system-ui, sans-serif" font-size="12" fill="rgba(255,255,255,0.6)" font-weight="600">Build Authority Content</text>
-    <text x="80" y="270" font-family="system-ui, sans-serif" font-size="9" fill="rgba(255,255,255,0.3)">Expert Q&amp;A pages, detailed service descriptions</text>
-    <text x="80" y="284" font-family="system-ui, sans-serif" font-size="9" fill="rgba(100,150,255,0.5)">&#x2192; Create content AI wants to cite</text>
+    <rect x="20" y="225" width="400" height="65" rx="8" fill="rgba(100,150,255,0.06)" stroke="rgba(100,150,255,0.3)" stroke-width="1.5"/>
+    <circle cx="50" cy="257" r="16" fill="rgba(100,150,255,0.2)" stroke="rgba(100,150,255,0.6)" stroke-width="2"/>
+    <text x="50" y="262" font-family="system-ui, sans-serif" font-size="14" fill="rgba(100,150,255,0.9)" text-anchor="middle" font-weight="700">3</text>
+    <text x="80" y="252" font-family="system-ui, sans-serif" font-size="12" fill="rgba(255,255,255,0.8)" font-weight="600">Build Authority Content</text>
+    <text x="80" y="270" font-family="system-ui, sans-serif" font-size="9" fill="rgba(255,255,255,0.5)">Expert Q&amp;A pages, detailed service descriptions</text>
+    <text x="80" y="284" font-family="system-ui, sans-serif" font-size="9" fill="rgba(100,150,255,0.8)">&#x2192; Create content AI wants to cite</text>
     <!-- Connector -->
-    <line x1="220" y1="290" x2="220" y2="305" stroke="rgba(255,106,0,0.2)" stroke-width="1.5"/>
-    <polygon points="215,303 220,313 225,303" fill="rgba(255,106,0,0.2)"/>
+    <line x1="220" y1="290" x2="220" y2="305" stroke="rgba(255,106,0,0.35)" stroke-width="2"/>
+    <polygon points="215,303 220,313 225,303" fill="rgba(255,106,0,0.35)"/>
     <!-- Step 4 -->
-    <rect x="20" y="315" width="400" height="65" rx="8" fill="rgba(255,255,255,0.03)" stroke="rgba(255,255,255,0.1)" stroke-width="1"/>
-    <circle cx="50" cy="347" r="16" fill="rgba(255,200,50,0.12)" stroke="rgba(255,200,50,0.4)" stroke-width="1.5"/>
-    <text x="50" y="352" font-family="system-ui, sans-serif" font-size="14" fill="rgba(255,200,50,0.7)" text-anchor="middle" font-weight="700">4</text>
-    <text x="80" y="342" font-family="system-ui, sans-serif" font-size="12" fill="rgba(255,255,255,0.6)" font-weight="600">Fix NAP &amp; Citations</text>
-    <text x="80" y="360" font-family="system-ui, sans-serif" font-size="9" fill="rgba(255,255,255,0.3)">Consistent info across all directories and platforms</text>
-    <text x="80" y="374" font-family="system-ui, sans-serif" font-size="9" fill="rgba(255,200,50,0.5)">&#x2192; Eliminate conflicting signals</text>
+    <rect x="20" y="315" width="400" height="65" rx="8" fill="rgba(255,200,50,0.06)" stroke="rgba(255,200,50,0.3)" stroke-width="1.5"/>
+    <circle cx="50" cy="347" r="16" fill="rgba(255,200,50,0.2)" stroke="rgba(255,200,50,0.6)" stroke-width="2"/>
+    <text x="50" y="352" font-family="system-ui, sans-serif" font-size="14" fill="rgba(255,200,50,0.9)" text-anchor="middle" font-weight="700">4</text>
+    <text x="80" y="342" font-family="system-ui, sans-serif" font-size="12" fill="rgba(255,255,255,0.8)" font-weight="600">Fix NAP &amp; Citations</text>
+    <text x="80" y="360" font-family="system-ui, sans-serif" font-size="9" fill="rgba(255,255,255,0.5)">Consistent info across all directories and platforms</text>
+    <text x="80" y="374" font-family="system-ui, sans-serif" font-size="9" fill="rgba(255,200,50,0.8)">&#x2192; Eliminate conflicting signals</text>
     <!-- Connector -->
-    <line x1="220" y1="380" x2="220" y2="395" stroke="rgba(255,106,0,0.15)" stroke-width="1.5"/>
-    <polygon points="215,393 220,403 225,393" fill="rgba(255,106,0,0.15)"/>
+    <line x1="220" y1="380" x2="220" y2="395" stroke="rgba(255,106,0,0.3)" stroke-width="2"/>
+    <polygon points="215,393 220,403 225,393" fill="rgba(255,106,0,0.3)"/>
     <!-- Step 5 -->
-    <rect x="20" y="405" width="400" height="65" rx="8" fill="rgba(255,106,0,0.06)" stroke="rgba(255,106,0,0.2)" stroke-width="1"/>
-    <circle cx="50" cy="437" r="16" fill="rgba(200,150,255,0.12)" stroke="rgba(200,150,255,0.4)" stroke-width="1.5"/>
-    <text x="50" y="442" font-family="system-ui, sans-serif" font-size="14" fill="rgba(200,150,255,0.7)" text-anchor="middle" font-weight="700">5</text>
-    <text x="80" y="432" font-family="system-ui, sans-serif" font-size="12" fill="rgba(255,255,255,0.6)" font-weight="600">Monitor &amp; Optimize</text>
-    <text x="80" y="450" font-family="system-ui, sans-serif" font-size="9" fill="rgba(255,255,255,0.3)">Track AI citations, adjust strategy, expand coverage</text>
-    <text x="80" y="464" font-family="system-ui, sans-serif" font-size="9" fill="rgba(200,150,255,0.5)">&#x2192; Continuous improvement cycle</text>
+    <rect x="20" y="405" width="400" height="65" rx="8" fill="rgba(200,150,255,0.06)" stroke="rgba(200,150,255,0.3)" stroke-width="1.5"/>
+    <circle cx="50" cy="437" r="16" fill="rgba(200,150,255,0.2)" stroke="rgba(200,150,255,0.6)" stroke-width="2"/>
+    <text x="50" y="442" font-family="system-ui, sans-serif" font-size="14" fill="rgba(200,150,255,0.9)" text-anchor="middle" font-weight="700">5</text>
+    <text x="80" y="432" font-family="system-ui, sans-serif" font-size="12" fill="rgba(255,255,255,0.8)" font-weight="600">Monitor &amp; Optimize</text>
+    <text x="80" y="450" font-family="system-ui, sans-serif" font-size="9" fill="rgba(255,255,255,0.5)">Track AI citations, adjust strategy, expand coverage</text>
+    <text x="80" y="464" font-family="system-ui, sans-serif" font-size="9" fill="rgba(200,150,255,0.8)">&#x2192; Continuous improvement cycle</text>
   </g>
-  <circle cx="100" cy="130" r="60" stroke="rgba(255,106,0,0.05)" stroke-width="0.5" fill="none"/>
+  <circle cx="100" cy="130" r="60" stroke="rgba(255,106,0,0.06)" stroke-width="0.5" fill="none"/>
   <rect x="40" y="40" width="160" height="32" rx="16" fill="rgba(255,106,0,0.15)" stroke="rgba(255,106,0,0.3)" stroke-width="1"/>
   <text x="120" y="62" font-family="system-ui, -apple-system, sans-serif" font-size="14" font-weight="500" fill="#FF6A00" text-anchor="middle">Getting Started</text>
   <text x="80" y="250" font-family="system-ui, -apple-system, sans-serif" font-size="46" font-weight="700" fill="white">How to Get In</text>

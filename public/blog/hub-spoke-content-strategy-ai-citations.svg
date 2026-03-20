@@ -1,32 +1,68 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
   <defs>
-    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" style="stop-color:#1a1a2e;stop-opacity:1" />
-      <stop offset="50%" style="stop-color:#16213e;stop-opacity:1" />
-      <stop offset="100%" style="stop-color:#0f3460;stop-opacity:1" />
+    <linearGradient id="bgHSCS" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0d3b2e;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#0F1117;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#2e0d1a;stop-opacity:1" />
     </linearGradient>
+    <filter id="glowHSCS"><feGaussianBlur stdDeviation="6" result="blurHSCS"/><feMerge><feMergeNode in="blurHSCS"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
   </defs>
-  <rect width="1200" height="630" fill="url(#bg)"/>
-  <!-- Hub and spoke pattern -->
-  <circle cx="900" cy="315" r="80" stroke="rgba(255,106,0,0.2)" stroke-width="1" fill="none"/>
-  <circle cx="900" cy="315" r="6" fill="rgba(255,106,0,0.4)"/>
-  <line x1="900" y1="315" x2="780" y2="215" stroke="rgba(255,106,0,0.15)" stroke-width="0.8"/>
-  <line x1="900" y1="315" x2="1020" y2="215" stroke="rgba(255,106,0,0.15)" stroke-width="0.8"/>
-  <line x1="900" y1="315" x2="780" y2="415" stroke="rgba(255,106,0,0.15)" stroke-width="0.8"/>
-  <line x1="900" y1="315" x2="1020" y2="415" stroke="rgba(255,106,0,0.15)" stroke-width="0.8"/>
-  <line x1="900" y1="315" x2="750" y2="315" stroke="rgba(255,106,0,0.15)" stroke-width="0.8"/>
-  <line x1="900" y1="315" x2="1050" y2="315" stroke="rgba(255,106,0,0.15)" stroke-width="0.8"/>
-  <circle cx="780" cy="215" r="18" stroke="rgba(255,106,0,0.12)" stroke-width="0.5" fill="none"/>
-  <circle cx="1020" cy="215" r="18" stroke="rgba(255,106,0,0.12)" stroke-width="0.5" fill="none"/>
-  <circle cx="780" cy="415" r="18" stroke="rgba(255,106,0,0.12)" stroke-width="0.5" fill="none"/>
-  <circle cx="1020" cy="415" r="18" stroke="rgba(255,106,0,0.12)" stroke-width="0.5" fill="none"/>
-  <circle cx="750" cy="315" r="18" stroke="rgba(255,106,0,0.12)" stroke-width="0.5" fill="none"/>
-  <circle cx="1050" cy="315" r="18" stroke="rgba(255,106,0,0.12)" stroke-width="0.5" fill="none"/>
+  <rect width="1200" height="630" fill="url(#bgHSCS)"/>
+  <line x1="0" y1="126" x2="1200" y2="126" stroke="rgba(255,106,0,0.05)" stroke-width="0.5"/>
+  <line x1="0" y1="252" x2="1200" y2="252" stroke="rgba(255,106,0,0.05)" stroke-width="0.5"/>
+  <line x1="0" y1="378" x2="1200" y2="378" stroke="rgba(255,106,0,0.05)" stroke-width="0.5"/>
+  <line x1="0" y1="504" x2="1200" y2="504" stroke="rgba(255,106,0,0.05)" stroke-width="0.5"/>
+  <line x1="300" y1="0" x2="300" y2="630" stroke="rgba(255,106,0,0.05)" stroke-width="0.5"/>
+  <line x1="600" y1="0" x2="600" y2="630" stroke="rgba(255,106,0,0.05)" stroke-width="0.5"/>
+  <line x1="900" y1="0" x2="900" y2="630" stroke="rgba(255,106,0,0.05)" stroke-width="0.5"/>
+  <!-- Hub & Spoke Diagram -->
+  <g transform="translate(660, 45)">
+    <rect x="0" y="0" width="470" height="470" rx="12" fill="rgba(255,255,255,0.06)" stroke="rgba(255,255,255,0.12)" stroke-width="1"/>
+    <text x="235" y="28" font-family="system-ui, sans-serif" font-size="12" fill="rgba(255,255,255,0.5)" text-anchor="middle" font-weight="600">CONTENT ARCHITECTURE</text>
+    <!-- Central Hub -->
+    <circle cx="235" cy="200" r="55" fill="rgba(255,106,0,0.12)" stroke="#FF6A00" stroke-width="2" filter="url(#glowHSCS)"/>
+    <text x="235" y="193" font-family="system-ui, sans-serif" font-size="11" fill="#FF6A00" text-anchor="middle" font-weight="700">HUB PAGE</text>
+    <text x="235" y="210" font-family="system-ui, sans-serif" font-size="8" fill="rgba(255,255,255,0.5)" text-anchor="middle">Pillar Content</text>
+    <!-- Spoke lines -->
+    <line x1="185" y1="160" x2="95" y2="90" stroke="rgba(255,106,0,0.4)" stroke-width="1.5"/>
+    <line x1="285" y1="160" x2="375" y2="90" stroke="rgba(100,220,100,0.4)" stroke-width="1.5"/>
+    <line x1="180" y1="210" x2="65" y2="210" stroke="rgba(100,150,255,0.4)" stroke-width="1.5"/>
+    <line x1="290" y1="210" x2="405" y2="210" stroke="rgba(255,200,50,0.4)" stroke-width="1.5"/>
+    <line x1="195" y1="245" x2="115" y2="310" stroke="rgba(200,150,255,0.4)" stroke-width="1.5"/>
+    <line x1="275" y1="245" x2="355" y2="310" stroke="rgba(255,150,150,0.4)" stroke-width="1.5"/>
+    <!-- Spoke nodes -->
+    <rect x="40" y="70" width="105" height="38" rx="6" fill="rgba(255,106,0,0.06)" stroke="rgba(255,106,0,0.4)" stroke-width="1"/>
+    <text x="92" y="94" font-family="system-ui, sans-serif" font-size="8" fill="#FF6A00" text-anchor="middle" font-weight="600">Service Page 1</text>
+    <rect x="325" y="70" width="105" height="38" rx="6" fill="rgba(100,220,100,0.06)" stroke="rgba(100,220,100,0.4)" stroke-width="1"/>
+    <text x="377" y="94" font-family="system-ui, sans-serif" font-size="8" fill="rgba(100,220,100,0.9)" text-anchor="middle" font-weight="600">Blog Post A</text>
+    <rect x="20" y="192" width="105" height="38" rx="6" fill="rgba(100,150,255,0.06)" stroke="rgba(100,150,255,0.4)" stroke-width="1"/>
+    <text x="72" y="216" font-family="system-ui, sans-serif" font-size="8" fill="rgba(100,150,255,0.9)" text-anchor="middle" font-weight="600">FAQ Page</text>
+    <rect x="345" y="192" width="105" height="38" rx="6" fill="rgba(255,200,50,0.06)" stroke="rgba(255,200,50,0.4)" stroke-width="1"/>
+    <text x="397" y="216" font-family="system-ui, sans-serif" font-size="8" fill="rgba(255,200,50,0.9)" text-anchor="middle" font-weight="600">Case Study</text>
+    <rect x="60" y="295" width="105" height="38" rx="6" fill="rgba(200,150,255,0.06)" stroke="rgba(200,150,255,0.4)" stroke-width="1"/>
+    <text x="112" y="319" font-family="system-ui, sans-serif" font-size="8" fill="rgba(200,150,255,0.9)" text-anchor="middle" font-weight="600">Guide</text>
+    <rect x="305" y="295" width="105" height="38" rx="6" fill="rgba(255,150,150,0.06)" stroke="rgba(255,150,150,0.4)" stroke-width="1"/>
+    <text x="357" y="319" font-family="system-ui, sans-serif" font-size="8" fill="rgba(255,150,150,0.9)" text-anchor="middle" font-weight="600">Location Page</text>
+    <!-- Results section -->
+    <line x1="20" y1="350" x2="450" y2="350" stroke="rgba(255,255,255,0.08)" stroke-width="0.5"/>
+    <text x="20" y="375" font-family="system-ui, sans-serif" font-size="10" fill="rgba(255,255,255,0.5)" font-weight="600">HUB-SPOKE IMPACT ON AI CITATIONS</text>
+    <rect x="20" y="385" width="135" height="65" rx="8" fill="rgba(100,220,100,0.08)" stroke="rgba(100,220,100,0.4)" stroke-width="1.5"/>
+    <text x="87" y="405" font-family="system-ui, sans-serif" font-size="9" fill="rgba(100,220,100,0.9)" text-anchor="middle" font-weight="600">TOPICAL AUTHORITY</text>
+    <text x="87" y="435" font-family="system-ui, sans-serif" font-size="18" fill="rgba(100,220,100,0.9)" text-anchor="middle" font-weight="700">+340%</text>
+    <rect x="167" y="385" width="135" height="65" rx="8" fill="rgba(255,106,0,0.08)" stroke="#FF6A00" stroke-width="1.5" stroke-opacity="0.6"/>
+    <text x="234" y="405" font-family="system-ui, sans-serif" font-size="9" fill="#FF6A00" text-anchor="middle" font-weight="600">CITATION RATE</text>
+    <text x="234" y="435" font-family="system-ui, sans-serif" font-size="18" fill="#FF6A00" text-anchor="middle" font-weight="700" filter="url(#glowHSCS)">+270%</text>
+    <rect x="314" y="385" width="136" height="65" rx="8" fill="rgba(100,150,255,0.08)" stroke="rgba(100,150,255,0.4)" stroke-width="1.5"/>
+    <text x="382" y="405" font-family="system-ui, sans-serif" font-size="9" fill="rgba(100,150,255,0.9)" text-anchor="middle" font-weight="600">INTERNAL LINKS</text>
+    <text x="382" y="435" font-family="system-ui, sans-serif" font-size="18" fill="white" text-anchor="middle" font-weight="700">6x</text>
+  </g>
+  <circle cx="100" cy="130" r="60" stroke="rgba(255,106,0,0.06)" stroke-width="0.5" fill="none"/>
   <rect x="40" y="40" width="130" height="32" rx="16" fill="rgba(255,106,0,0.15)" stroke="rgba(255,106,0,0.3)" stroke-width="1"/>
-  <text x="105" y="62" font-family="system-ui, -apple-system, sans-serif" font-size="14" font-weight="500" fill="#FF6A00" text-anchor="middle">How-To Guides</text>
-  <text x="80" y="240" font-family="system-ui, -apple-system, sans-serif" font-size="48" font-weight="700" fill="white">How to Write Blog Content</text>
-  <text x="80" y="305" font-family="system-ui, -apple-system, sans-serif" font-size="48" font-weight="700" fill="white">That Gets Cited</text>
-  <text x="80" y="370" font-family="system-ui, -apple-system, sans-serif" font-size="48" font-weight="700" fill="#FF6A00">by AI Platforms</text>
+  <text x="105" y="62" font-family="system-ui, -apple-system, sans-serif" font-size="14" font-weight="500" fill="#FF6A00" text-anchor="middle">How-To Guide</text>
+  <text x="80" y="260" font-family="system-ui, -apple-system, sans-serif" font-size="46" font-weight="700" fill="white">Hub &amp; Spoke Content</text>
+  <text x="80" y="320" font-family="system-ui, -apple-system, sans-serif" font-size="46" font-weight="700" fill="white">Strategy for</text>
+  <text x="80" y="380" font-family="system-ui, -apple-system, sans-serif" font-size="46" font-weight="700" fill="#FF6A00" filter="url(#glowHSCS)">AI Citations</text>
+  <text x="80" y="430" font-family="system-ui, -apple-system, sans-serif" font-size="20" font-weight="400" fill="rgba(255,255,255,0.45)">Build Topical Authority AI Trusts</text>
   <text x="600" y="580" font-family="system-ui, -apple-system, sans-serif" font-size="16" font-weight="500" fill="rgba(255,255,255,0.5)" text-anchor="middle" letter-spacing="4">THE ANSWER ENGINE</text>
   <circle cx="1120" cy="590" r="30" fill="rgba(255,255,255,0.1)"/>
   <text x="1120" y="598" font-family="system-ui, -apple-system, sans-serif" font-size="20" font-weight="700" fill="rgba(255,255,255,0.3)" text-anchor="middle">AE</text>

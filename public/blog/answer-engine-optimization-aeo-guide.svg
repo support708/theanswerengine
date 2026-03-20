@@ -1,26 +1,75 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
   <defs>
-    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" style="stop-color:#1a1a2e;stop-opacity:1" />
-      <stop offset="50%" style="stop-color:#16213e;stop-opacity:1" />
-      <stop offset="100%" style="stop-color:#0f3460;stop-opacity:1" />
+    <linearGradient id="bgAEOG" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0d1a3b;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#0F1117;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1a0d2e;stop-opacity:1" />
     </linearGradient>
+    <filter id="glowAEOG"><feGaussianBlur stdDeviation="6" result="blurAEOG"/><feMerge><feMergeNode in="blurAEOG"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
   </defs>
-  <rect width="1200" height="630" fill="url(#bg)"/>
-  <!-- Geometric pattern -->
-  <circle cx="900" cy="315" r="200" stroke="rgba(255,106,0,0.15)" stroke-width="0.5" fill="none"/>
-  <circle cx="900" cy="315" r="140" stroke="rgba(255,106,0,0.1)" stroke-width="0.5" fill="none"/>
-  <circle cx="900" cy="315" r="80" stroke="rgba(255,106,0,0.2)" stroke-width="0.5" fill="none"/>
-  <line x1="0" y1="315" x2="1200" y2="315" stroke="rgba(255,106,0,0.05)" stroke-width="0.5"/>
+  <rect width="1200" height="630" fill="url(#bgAEOG)"/>
+  <line x1="0" y1="126" x2="1200" y2="126" stroke="rgba(255,106,0,0.05)" stroke-width="0.5"/>
+  <line x1="0" y1="252" x2="1200" y2="252" stroke="rgba(255,106,0,0.05)" stroke-width="0.5"/>
+  <line x1="0" y1="378" x2="1200" y2="378" stroke="rgba(255,106,0,0.05)" stroke-width="0.5"/>
+  <line x1="0" y1="504" x2="1200" y2="504" stroke="rgba(255,106,0,0.05)" stroke-width="0.5"/>
+  <line x1="300" y1="0" x2="300" y2="630" stroke="rgba(255,106,0,0.05)" stroke-width="0.5"/>
+  <line x1="600" y1="0" x2="600" y2="630" stroke="rgba(255,106,0,0.05)" stroke-width="0.5"/>
   <line x1="900" y1="0" x2="900" y2="630" stroke="rgba(255,106,0,0.05)" stroke-width="0.5"/>
-  <!-- Category pill -->
+  <!-- AEO Framework Dashboard -->
+  <g transform="translate(660, 45)">
+    <rect x="0" y="0" width="470" height="470" rx="12" fill="rgba(255,255,255,0.06)" stroke="rgba(255,255,255,0.12)" stroke-width="1"/>
+    <text x="235" y="28" font-family="system-ui, sans-serif" font-size="12" fill="rgba(255,255,255,0.5)" text-anchor="middle" font-weight="600">AEO FRAMEWORK OVERVIEW</text>
+    <!-- 3 pillar cards -->
+    <rect x="20" y="42" width="135" height="75" rx="8" fill="rgba(255,106,0,0.08)" stroke="#FF6A00" stroke-width="1.5" stroke-opacity="0.6" filter="url(#glowAEOG)"/>
+    <text x="87" y="62" font-family="system-ui, sans-serif" font-size="9" fill="#FF6A00" text-anchor="middle" font-weight="600">PILLAR 1</text>
+    <text x="87" y="88" font-family="system-ui, sans-serif" font-size="14" fill="white" text-anchor="middle" font-weight="700">Schema</text>
+    <text x="87" y="108" font-family="system-ui, sans-serif" font-size="8" fill="rgba(255,255,255,0.4)" text-anchor="middle">Structured Data</text>
+    <rect x="167" y="42" width="135" height="75" rx="8" fill="rgba(100,220,100,0.08)" stroke="rgba(100,220,100,0.4)" stroke-width="1.5"/>
+    <text x="234" y="62" font-family="system-ui, sans-serif" font-size="9" fill="rgba(100,220,100,0.9)" text-anchor="middle" font-weight="600">PILLAR 2</text>
+    <text x="234" y="88" font-family="system-ui, sans-serif" font-size="14" fill="white" text-anchor="middle" font-weight="700">Content</text>
+    <text x="234" y="108" font-family="system-ui, sans-serif" font-size="8" fill="rgba(255,255,255,0.4)" text-anchor="middle">Authority Signals</text>
+    <rect x="314" y="42" width="135" height="75" rx="8" fill="rgba(100,150,255,0.08)" stroke="rgba(100,150,255,0.4)" stroke-width="1.5"/>
+    <text x="381" y="62" font-family="system-ui, sans-serif" font-size="9" fill="rgba(100,150,255,0.9)" text-anchor="middle" font-weight="600">PILLAR 3</text>
+    <text x="381" y="88" font-family="system-ui, sans-serif" font-size="14" fill="white" text-anchor="middle" font-weight="700">Citations</text>
+    <text x="381" y="108" font-family="system-ui, sans-serif" font-size="8" fill="rgba(255,255,255,0.4)" text-anchor="middle">Trust Network</text>
+    <!-- AEO Score Gauge -->
+    <text x="20" y="145" font-family="system-ui, sans-serif" font-size="10" fill="rgba(255,255,255,0.5)" font-weight="600">OVERALL AEO READINESS</text>
+    <rect x="20" y="155" width="430" height="50" rx="6" fill="rgba(255,255,255,0.03)"/>
+    <rect x="30" y="168" width="410" height="22" rx="4" fill="rgba(255,255,255,0.06)"/>
+    <rect x="30" y="168" width="360" height="22" rx="4" fill="rgba(255,106,0,0.5)"/>
+    <text x="400" y="184" font-family="system-ui, sans-serif" font-size="11" fill="#FF6A00" font-weight="700">87%</text>
+    <!-- Chapter breakdown -->
+    <text x="20" y="230" font-family="system-ui, sans-serif" font-size="10" fill="rgba(255,255,255,0.5)" font-weight="600">GUIDE CHAPTERS</text>
+    <rect x="20" y="242" width="430" height="30" rx="6" fill="rgba(255,106,0,0.06)" stroke="rgba(255,106,0,0.3)" stroke-width="1"/>
+    <text x="35" y="262" font-family="system-ui, sans-serif" font-size="9" fill="#FF6A00" font-weight="600">CH 1</text>
+    <text x="75" y="262" font-family="system-ui, sans-serif" font-size="9" fill="rgba(255,255,255,0.8)">What is AEO &amp; Why It Matters</text>
+    <rect x="20" y="278" width="430" height="30" rx="6" fill="rgba(100,220,100,0.04)" stroke="rgba(100,220,100,0.3)" stroke-width="1"/>
+    <text x="35" y="298" font-family="system-ui, sans-serif" font-size="9" fill="rgba(100,220,100,0.9)" font-weight="600">CH 2</text>
+    <text x="75" y="298" font-family="system-ui, sans-serif" font-size="9" fill="rgba(255,255,255,0.8)">Schema Markup Implementation</text>
+    <rect x="20" y="314" width="430" height="30" rx="6" fill="rgba(100,150,255,0.04)" stroke="rgba(100,150,255,0.3)" stroke-width="1"/>
+    <text x="35" y="334" font-family="system-ui, sans-serif" font-size="9" fill="rgba(100,150,255,0.9)" font-weight="600">CH 3</text>
+    <text x="75" y="334" font-family="system-ui, sans-serif" font-size="9" fill="rgba(255,255,255,0.8)">Authority Content Strategy</text>
+    <rect x="20" y="350" width="430" height="30" rx="6" fill="rgba(255,200,50,0.04)" stroke="rgba(255,200,50,0.3)" stroke-width="1"/>
+    <text x="35" y="370" font-family="system-ui, sans-serif" font-size="9" fill="rgba(255,200,50,0.9)" font-weight="600">CH 4</text>
+    <text x="75" y="370" font-family="system-ui, sans-serif" font-size="9" fill="rgba(255,255,255,0.8)">Citation Building &amp; NAP</text>
+    <rect x="20" y="386" width="430" height="30" rx="6" fill="rgba(200,150,255,0.04)" stroke="rgba(200,150,255,0.3)" stroke-width="1"/>
+    <text x="35" y="406" font-family="system-ui, sans-serif" font-size="9" fill="rgba(200,150,255,0.9)" font-weight="600">CH 5</text>
+    <text x="75" y="406" font-family="system-ui, sans-serif" font-size="9" fill="rgba(255,255,255,0.8)">Measuring &amp; Optimizing Results</text>
+    <!-- Bottom stats -->
+    <rect x="20" y="425" width="430" height="32" rx="6" fill="rgba(255,106,0,0.08)" stroke="#FF6A00" stroke-width="1.5" stroke-opacity="0.5"/>
+    <text x="140" y="446" font-family="system-ui, sans-serif" font-size="10" fill="rgba(255,255,255,0.5)" text-anchor="middle">READ TIME</text>
+    <text x="140" y="446" font-family="system-ui, sans-serif" font-size="10" fill="#FF6A00" text-anchor="middle" dx="80" font-weight="700">18 min</text>
+    <line x1="280" y1="430" x2="280" y2="452" stroke="rgba(255,255,255,0.1)" stroke-width="0.5"/>
+    <text x="350" y="446" font-family="system-ui, sans-serif" font-size="10" fill="rgba(255,255,255,0.5)" text-anchor="middle">DIFFICULTY</text>
+    <text x="430" y="446" font-family="system-ui, sans-serif" font-size="10" fill="rgba(100,220,100,0.9)" text-anchor="middle" font-weight="700">Beginner</text>
+  </g>
+  <circle cx="100" cy="130" r="60" stroke="rgba(255,106,0,0.06)" stroke-width="0.5" fill="none"/>
   <rect x="40" y="40" width="150" height="32" rx="16" fill="rgba(255,106,0,0.15)" stroke="rgba(255,106,0,0.3)" stroke-width="1"/>
   <text x="115" y="62" font-family="system-ui, -apple-system, sans-serif" font-size="14" font-weight="500" fill="#FF6A00" text-anchor="middle">AEO Education</text>
-  <!-- Title -->
-  <text x="80" y="260" font-family="system-ui, -apple-system, sans-serif" font-size="48" font-weight="700" fill="white">Answer Engine</text>
-  <text x="80" y="325" font-family="system-ui, -apple-system, sans-serif" font-size="48" font-weight="700" fill="white">Optimization:</text>
-  <text x="80" y="390" font-family="system-ui, -apple-system, sans-serif" font-size="48" font-weight="700" fill="#FF6A00">Complete AEO Guide</text>
-  <!-- Footer -->
+  <text x="80" y="260" font-family="system-ui, -apple-system, sans-serif" font-size="46" font-weight="700" fill="white">Answer Engine</text>
+  <text x="80" y="320" font-family="system-ui, -apple-system, sans-serif" font-size="46" font-weight="700" fill="white">Optimization:</text>
+  <text x="80" y="380" font-family="system-ui, -apple-system, sans-serif" font-size="46" font-weight="700" fill="#FF6A00" filter="url(#glowAEOG)">Complete AEO Guide</text>
+  <text x="80" y="430" font-family="system-ui, -apple-system, sans-serif" font-size="20" font-weight="400" fill="rgba(255,255,255,0.45)">The 5-Pillar Framework</text>
   <text x="600" y="580" font-family="system-ui, -apple-system, sans-serif" font-size="16" font-weight="500" fill="rgba(255,255,255,0.5)" text-anchor="middle" letter-spacing="4">THE ANSWER ENGINE</text>
   <circle cx="1120" cy="590" r="30" fill="rgba(255,255,255,0.1)"/>
   <text x="1120" y="598" font-family="system-ui, -apple-system, sans-serif" font-size="20" font-weight="700" fill="rgba(255,255,255,0.3)" text-anchor="middle">AE</text>

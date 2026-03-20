@@ -6,6 +6,7 @@
       <stop offset="100%" style="stop-color:#2e0a1a;stop-opacity:1" />
     </linearGradient>
     <filter id="glow9"><feGaussianBlur stdDeviation="6" result="blur9"/><feMerge><feMergeNode in="blur9"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <filter id="glowSoft9"><feGaussianBlur stdDeviation="12" result="blur9s"/><feMerge><feMergeNode in="blur9s"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
   </defs>
   <rect width="1200" height="630" fill="url(#bg9)"/>
   <line x1="0" y1="126" x2="1200" y2="126" stroke="rgba(255,106,0,0.05)" stroke-width="0.5"/>
@@ -17,41 +18,41 @@
   <line x1="900" y1="0" x2="900" y2="630" stroke="rgba(255,106,0,0.05)" stroke-width="0.5"/>
   <!-- Terminal / Error log display -->
   <g transform="translate(660, 50)">
-    <rect x="0" y="0" width="470" height="460" rx="12" fill="rgba(0,0,0,0.4)" stroke="rgba(255,80,80,0.2)" stroke-width="1"/>
+    <rect x="0" y="0" width="470" height="460" rx="12" fill="rgba(0,0,0,0.5)" stroke="rgba(255,80,80,0.3)" stroke-width="1.5"/>
     <!-- Terminal header -->
-    <rect x="0" y="0" width="470" height="32" rx="12" fill="rgba(255,255,255,0.06)"/>
-    <rect x="0" y="20" width="470" height="12" fill="rgba(255,255,255,0.06)"/>
-    <circle cx="18" cy="16" r="5" fill="rgba(255,80,80,0.6)"/>
-    <circle cx="36" cy="16" r="5" fill="rgba(255,200,50,0.5)"/>
-    <circle cx="54" cy="16" r="5" fill="rgba(80,200,80,0.4)"/>
-    <text x="235" y="20" font-family="monospace" font-size="10" fill="rgba(255,255,255,0.3)" text-anchor="middle">aeo-diagnostic.log</text>
+    <rect x="0" y="0" width="470" height="32" rx="12" fill="rgba(255,255,255,0.08)"/>
+    <rect x="0" y="20" width="470" height="12" fill="rgba(255,255,255,0.08)"/>
+    <circle cx="18" cy="16" r="5" fill="rgba(255,80,80,0.7)"/>
+    <circle cx="36" cy="16" r="5" fill="rgba(255,200,50,0.6)"/>
+    <circle cx="54" cy="16" r="5" fill="rgba(80,200,80,0.5)"/>
+    <text x="235" y="20" font-family="monospace" font-size="10" fill="rgba(255,255,255,0.4)" text-anchor="middle">aeo-diagnostic.log</text>
     <!-- Error entries -->
-    <text x="15" y="58" font-family="monospace" font-size="10" fill="rgba(255,80,80,0.7)">[FAIL] Schema validation errors: 12</text>
-    <text x="15" y="78" font-family="monospace" font-size="9" fill="rgba(255,255,255,0.25)">  &#x251C;&#x2500; LocalBusiness schema: MISSING</text>
-    <text x="15" y="95" font-family="monospace" font-size="9" fill="rgba(255,255,255,0.25)">  &#x251C;&#x2500; FAQ schema: MISSING</text>
-    <text x="15" y="112" font-family="monospace" font-size="9" fill="rgba(255,255,255,0.25)">  &#x2514;&#x2500; Review schema: INVALID</text>
-    <line x1="15" y1="125" x2="455" y2="125" stroke="rgba(255,255,255,0.06)" stroke-width="0.5"/>
-    <text x="15" y="145" font-family="monospace" font-size="10" fill="rgba(255,80,80,0.7)">[FAIL] NAP consistency check: 3 conflicts</text>
-    <text x="15" y="165" font-family="monospace" font-size="9" fill="rgba(255,255,255,0.25)">  &#x251C;&#x2500; Google: "123 Main St"</text>
-    <text x="15" y="182" font-family="monospace" font-size="9" fill="rgba(255,255,255,0.25)">  &#x251C;&#x2500; Yelp: "123 Main Street"</text>
-    <text x="15" y="199" font-family="monospace" font-size="9" fill="rgba(255,255,255,0.25)">  &#x2514;&#x2500; Website: "123 Main St."</text>
-    <line x1="15" y1="212" x2="455" y2="212" stroke="rgba(255,255,255,0.06)" stroke-width="0.5"/>
-    <text x="15" y="232" font-family="monospace" font-size="10" fill="rgba(255,80,80,0.7)">[FAIL] Content authority: BELOW THRESHOLD</text>
-    <text x="15" y="252" font-family="monospace" font-size="9" fill="rgba(255,255,255,0.25)">  &#x251C;&#x2500; Word count avg: 187 (need 800+)</text>
-    <text x="15" y="269" font-family="monospace" font-size="9" fill="rgba(255,255,255,0.25)">  &#x251C;&#x2500; FAQ pages: 0 (need 5+)</text>
-    <text x="15" y="286" font-family="monospace" font-size="9" fill="rgba(255,255,255,0.25)">  &#x2514;&#x2500; Expert signals: NONE DETECTED</text>
-    <line x1="15" y1="299" x2="455" y2="299" stroke="rgba(255,255,255,0.06)" stroke-width="0.5"/>
-    <text x="15" y="319" font-family="monospace" font-size="10" fill="rgba(255,200,50,0.6)">[WARN] Page speed: 6.8s (limit 5s)</text>
-    <text x="15" y="339" font-family="monospace" font-size="9" fill="rgba(255,255,255,0.25)">  &#x2514;&#x2500; AI crawlers will timeout before render</text>
-    <line x1="15" y1="352" x2="455" y2="352" stroke="rgba(255,255,255,0.06)" stroke-width="0.5"/>
-    <text x="15" y="372" font-family="monospace" font-size="10" fill="rgba(255,200,50,0.6)">[WARN] Review score: 3.2 (need 4.0+)</text>
-    <text x="15" y="392" font-family="monospace" font-size="9" fill="rgba(255,255,255,0.25)">  &#x2514;&#x2500; 8 reviews across 2 platforms</text>
+    <text x="15" y="58" font-family="monospace" font-size="11" fill="rgba(255,80,80,0.9)">[FAIL] Schema validation errors: 12</text>
+    <text x="15" y="78" font-family="monospace" font-size="10" fill="rgba(255,255,255,0.4)">  &#x251C;&#x2500; LocalBusiness schema: MISSING</text>
+    <text x="15" y="95" font-family="monospace" font-size="10" fill="rgba(255,255,255,0.4)">  &#x251C;&#x2500; FAQ schema: MISSING</text>
+    <text x="15" y="112" font-family="monospace" font-size="10" fill="rgba(255,255,255,0.4)">  &#x2514;&#x2500; Review schema: INVALID</text>
+    <line x1="15" y1="125" x2="455" y2="125" stroke="rgba(255,255,255,0.08)" stroke-width="0.5"/>
+    <text x="15" y="145" font-family="monospace" font-size="11" fill="rgba(255,80,80,0.9)">[FAIL] NAP consistency check: 3 conflicts</text>
+    <text x="15" y="165" font-family="monospace" font-size="10" fill="rgba(255,255,255,0.4)">  &#x251C;&#x2500; Google: "123 Main St"</text>
+    <text x="15" y="182" font-family="monospace" font-size="10" fill="rgba(255,255,255,0.4)">  &#x251C;&#x2500; Yelp: "123 Main Street"</text>
+    <text x="15" y="199" font-family="monospace" font-size="10" fill="rgba(255,255,255,0.4)">  &#x2514;&#x2500; Website: "123 Main St."</text>
+    <line x1="15" y1="212" x2="455" y2="212" stroke="rgba(255,255,255,0.08)" stroke-width="0.5"/>
+    <text x="15" y="232" font-family="monospace" font-size="11" fill="rgba(255,80,80,0.9)">[FAIL] Content authority: BELOW THRESHOLD</text>
+    <text x="15" y="252" font-family="monospace" font-size="10" fill="rgba(255,255,255,0.4)">  &#x251C;&#x2500; Word count avg: 187 (need 800+)</text>
+    <text x="15" y="269" font-family="monospace" font-size="10" fill="rgba(255,255,255,0.4)">  &#x251C;&#x2500; FAQ pages: 0 (need 5+)</text>
+    <text x="15" y="286" font-family="monospace" font-size="10" fill="rgba(255,255,255,0.4)">  &#x2514;&#x2500; Expert signals: NONE DETECTED</text>
+    <line x1="15" y1="299" x2="455" y2="299" stroke="rgba(255,255,255,0.08)" stroke-width="0.5"/>
+    <text x="15" y="319" font-family="monospace" font-size="11" fill="rgba(255,200,50,0.85)">[WARN] Page speed: 6.8s (limit 5s)</text>
+    <text x="15" y="339" font-family="monospace" font-size="10" fill="rgba(255,255,255,0.4)">  &#x2514;&#x2500; AI crawlers will timeout before render</text>
+    <line x1="15" y1="352" x2="455" y2="352" stroke="rgba(255,255,255,0.08)" stroke-width="0.5"/>
+    <text x="15" y="372" font-family="monospace" font-size="11" fill="rgba(255,200,50,0.85)">[WARN] Review score: 3.2 (need 4.0+)</text>
+    <text x="15" y="392" font-family="monospace" font-size="10" fill="rgba(255,255,255,0.4)">  &#x2514;&#x2500; 8 reviews across 2 platforms</text>
     <!-- Summary bar -->
-    <rect x="15" y="410" width="440" height="38" rx="6" fill="rgba(255,80,80,0.08)" stroke="rgba(255,80,80,0.3)" stroke-width="1"/>
-    <text x="235" y="426" font-family="monospace" font-size="10" fill="rgba(255,80,80,0.8)" text-anchor="middle" font-weight="700">DIAGNOSIS: 3 CRITICAL  2 WARNING  0 PASS</text>
-    <text x="235" y="442" font-family="monospace" font-size="9" fill="rgba(255,80,80,0.5)" text-anchor="middle">AI CITATION PROBABILITY: &lt;5%</text>
+    <rect x="15" y="410" width="440" height="38" rx="6" fill="rgba(255,80,80,0.12)" stroke="rgba(255,80,80,0.5)" stroke-width="1.5"/>
+    <text x="235" y="426" font-family="monospace" font-size="11" fill="rgba(255,80,80,0.95)" text-anchor="middle" font-weight="700">DIAGNOSIS: 3 CRITICAL  2 WARNING  0 PASS</text>
+    <text x="235" y="442" font-family="monospace" font-size="10" fill="#FF6A00" text-anchor="middle" filter="url(#glow9)">AI CITATION PROBABILITY: &lt;5%</text>
   </g>
-  <circle cx="100" cy="130" r="60" stroke="rgba(255,106,0,0.05)" stroke-width="0.5" fill="none"/>
+  <circle cx="100" cy="130" r="60" stroke="rgba(255,106,0,0.06)" stroke-width="0.5" fill="none"/>
   <rect x="40" y="40" width="170" height="32" rx="16" fill="rgba(255,106,0,0.15)" stroke="rgba(255,106,0,0.3)" stroke-width="1"/>
   <text x="125" y="62" font-family="system-ui, -apple-system, sans-serif" font-size="14" font-weight="500" fill="#FF6A00" text-anchor="middle">Common Mistakes</text>
   <text x="80" y="250" font-family="system-ui, -apple-system, sans-serif" font-size="46" font-weight="700" fill="white">Why Businesses</text>
