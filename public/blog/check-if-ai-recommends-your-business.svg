@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0d3b2e;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#0a2520;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#111827;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <!-- Decorative checkmark -->
+  <path d="M 1020 140 L 1050 170 L 1100 110" stroke="rgba(255,106,0,0.15)" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="1060" cy="140" r="50" stroke="rgba(255,106,0,0.08)" stroke-width="1" fill="none"/>
+  <!-- Decorative search magnifier -->
+  <circle cx="1000" cy="400" r="24" stroke="rgba(255,255,255,0.06)" stroke-width="2" fill="none"/>
+  <line x1="1018" y1="418" x2="1038" y2="438" stroke="rgba(255,255,255,0.06)" stroke-width="2" stroke-linecap="round"/>
+  <rect x="40" y="40" width="110" height="32" rx="16" fill="rgba(255,106,0,0.15)" stroke="rgba(255,106,0,0.3)" stroke-width="1"/>
+  <text x="95" y="62" font-family="system-ui, -apple-system, sans-serif" font-size="14" font-weight="500" fill="#FF6A00" text-anchor="middle">DIY Guide</text>
+  <text x="80" y="240" font-family="system-ui, -apple-system, sans-serif" font-size="48" font-weight="700" fill="white">Check If AI Recommends</text>
+  <text x="80" y="305" font-family="system-ui, -apple-system, sans-serif" font-size="48" font-weight="700" fill="#FF6A00">Your Business</text>
+  <text x="600" y="580" font-family="system-ui, -apple-system, sans-serif" font-size="16" font-weight="500" fill="rgba(255,255,255,0.5)" text-anchor="middle" letter-spacing="4">THE ANSWER ENGINE</text>
+  <circle cx="1120" cy="590" r="30" fill="rgba(255,255,255,0.1)"/>
+  <text x="1120" y="598" font-family="system-ui, -apple-system, sans-serif" font-size="20" font-weight="700" fill="rgba(255,255,255,0.3)" text-anchor="middle">AE</text>
+</svg>

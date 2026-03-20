@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1a3a1a;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#0f2a15;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#111827;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <!-- Decorative ascending bar chart -->
+  <g opacity="0.06">
+    <rect x="950" y="300" width="30" height="60" rx="3" fill="white"/>
+    <rect x="990" y="260" width="30" height="100" rx="3" fill="white"/>
+    <rect x="1030" y="210" width="30" height="150" rx="3" fill="white"/>
+    <rect x="1070" y="150" width="30" height="210" rx="3" fill="#FF6A00"/>
+  </g>
+  <!-- Decorative upward trend line -->
+  <path d="M 920 350 L 970 310 L 1020 280 L 1070 220 L 1120 140" stroke="rgba(255,106,0,0.1)" stroke-width="2" fill="none" stroke-dasharray="6,4"/>
+  <!-- Decorative checkmark -->
+  <path d="M 1080 420 L 1100 445 L 1140 400" stroke="rgba(255,106,0,0.08)" stroke-width="3" fill="none" stroke-linecap="round"/>
+  <rect x="40" y="40" width="150" height="32" rx="16" fill="rgba(255,106,0,0.15)" stroke="rgba(255,106,0,0.3)" stroke-width="1"/>
+  <text x="115" y="62" font-family="system-ui, -apple-system, sans-serif" font-size="14" font-weight="500" fill="#FF6A00" text-anchor="middle">AEO Strategy</text>
+  <text x="80" y="240" font-family="system-ui, -apple-system, sans-serif" font-size="48" font-weight="700" fill="white">Is Answer Engine Optimization</text>
+  <text x="80" y="305" font-family="system-ui, -apple-system, sans-serif" font-size="48" font-weight="700" fill="#FF6A00">Worth It?</text>
+  <text x="600" y="580" font-family="system-ui, -apple-system, sans-serif" font-size="16" font-weight="500" fill="rgba(255,255,255,0.5)" text-anchor="middle" letter-spacing="4">THE ANSWER ENGINE</text>
+  <circle cx="1120" cy="590" r="30" fill="rgba(255,255,255,0.1)"/>
+  <text x="1120" y="598" font-family="system-ui, -apple-system, sans-serif" font-size="20" font-weight="700" fill="rgba(255,255,255,0.3)" text-anchor="middle">AE</text>
+</svg>
