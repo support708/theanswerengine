@@ -1,29 +1,82 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
   <defs>
-    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" style="stop-color:#7c2d12;stop-opacity:1" />
-      <stop offset="50%" style="stop-color:#3b1a5e;stop-opacity:1" />
-      <stop offset="100%" style="stop-color:#111827;stop-opacity:1" />
+    <linearGradient id="bg21" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1a0d4e;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#0F1117;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#0d2e4e;stop-opacity:1" />
     </linearGradient>
+    <filter id="glow21"><feGaussianBlur stdDeviation="6" result="blur21"/><feMerge><feMergeNode in="blur21"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
   </defs>
-  <rect width="1200" height="630" fill="url(#bg)"/>
-  <!-- Decorative Gemini-inspired star shapes -->
-  <polygon points="980,130 990,160 1020,160 995,178 1005,208 980,190 955,208 965,178 940,160 970,160" fill="none" stroke="rgba(255,106,0,0.1)" stroke-width="1.5"/>
-  <polygon points="1100,200 1107,218 1127,218 1111,230 1117,248 1100,238 1083,248 1089,230 1073,218 1093,218" fill="none" stroke="rgba(255,255,255,0.06)" stroke-width="1"/>
-  <!-- Citation quote marks -->
-  <text x="920" y="420" font-family="Georgia, serif" font-size="120" fill="rgba(255,106,0,0.06)">"</text>
-  <text x="1060" y="470" font-family="Georgia, serif" font-size="120" fill="rgba(255,106,0,0.06)">"</text>
-  <!-- Connecting lines -->
-  <line x1="950" y1="320" x2="1100" y2="280" stroke="rgba(255,255,255,0.03)" stroke-width="1"/>
-  <line x1="950" y1="350" x2="1100" y2="310" stroke="rgba(255,255,255,0.03)" stroke-width="1"/>
-  <!-- Category badge -->
-  <rect x="40" y="40" width="140" height="32" rx="16" fill="rgba(255,106,0,0.15)" stroke="rgba(255,106,0,0.3)" stroke-width="1"/>
-  <text x="110" y="62" font-family="system-ui, -apple-system, sans-serif" font-size="14" font-weight="500" fill="#FF6A00" text-anchor="middle">AEO Education</text>
-  <!-- Title -->
-  <text x="80" y="240" font-family="system-ui, -apple-system, sans-serif" font-size="48" font-weight="700" fill="white">Get Your Business Cited</text>
-  <text x="80" y="305" font-family="system-ui, -apple-system, sans-serif" font-size="48" font-weight="700" fill="white">in</text>
-  <text x="80" y="370" font-family="system-ui, -apple-system, sans-serif" font-size="48" font-weight="700" fill="#FF6A00">Google Gemini</text>
-  <!-- Footer -->
+  <rect width="1200" height="630" fill="url(#bg21)"/>
+  <line x1="0" y1="126" x2="1200" y2="126" stroke="rgba(255,106,0,0.05)" stroke-width="0.5"/>
+  <line x1="0" y1="252" x2="1200" y2="252" stroke="rgba(255,106,0,0.05)" stroke-width="0.5"/>
+  <line x1="0" y1="378" x2="1200" y2="378" stroke="rgba(255,106,0,0.05)" stroke-width="0.5"/>
+  <line x1="0" y1="504" x2="1200" y2="504" stroke="rgba(255,106,0,0.05)" stroke-width="0.5"/>
+  <line x1="300" y1="0" x2="300" y2="630" stroke="rgba(255,106,0,0.05)" stroke-width="0.5"/>
+  <line x1="600" y1="0" x2="600" y2="630" stroke="rgba(255,106,0,0.05)" stroke-width="0.5"/>
+  <line x1="900" y1="0" x2="900" y2="630" stroke="rgba(255,106,0,0.05)" stroke-width="0.5"/>
+  <!-- Gemini interface mockup -->
+  <g transform="translate(660, 45)">
+    <rect x="0" y="0" width="470" height="470" rx="12" fill="rgba(255,255,255,0.04)" stroke="rgba(255,255,255,0.08)" stroke-width="1"/>
+    <!-- Gemini header -->
+    <rect x="0" y="0" width="470" height="38" rx="12" fill="rgba(100,150,255,0.06)"/>
+    <rect x="0" y="26" width="470" height="12" fill="rgba(100,150,255,0.06)"/>
+    <!-- Gemini star logo -->
+    <text x="25" y="24" font-family="system-ui, sans-serif" font-size="16" fill="rgba(100,150,255,0.6)">&#x2726;</text>
+    <text x="45" y="24" font-family="system-ui, sans-serif" font-size="13" fill="rgba(100,150,255,0.7)" font-weight="700">Gemini</text>
+    <text x="110" y="24" font-family="system-ui, sans-serif" font-size="10" fill="rgba(255,255,255,0.25)">by Google</text>
+    <!-- User query -->
+    <rect x="160" y="55" width="280" height="32" rx="12" fill="rgba(100,150,255,0.08)" stroke="rgba(100,150,255,0.2)" stroke-width="1"/>
+    <text x="175" y="75" font-family="system-ui, sans-serif" font-size="10" fill="rgba(255,255,255,0.4)">"Who's the best plumber in [city]?"</text>
+    <!-- Gemini response -->
+    <rect x="20" y="100" width="430" height="20" rx="4" fill="rgba(255,255,255,0.02)"/>
+    <text x="30" y="115" font-family="system-ui, sans-serif" font-size="10" fill="rgba(255,255,255,0.4)">Based on my analysis, here are top recommendations:</text>
+    <!-- Citation card 1 - YOUR BUSINESS (highlighted) -->
+    <rect x="20" y="130" width="430" height="90" rx="8" fill="rgba(255,106,0,0.06)" stroke="#FF6A00" stroke-width="1.5" filter="url(#glow21)"/>
+    <rect x="35" y="142" width="55" height="18" rx="9" fill="rgba(255,106,0,0.2)"/>
+    <text x="62" y="155" font-family="system-ui, sans-serif" font-size="8" fill="#FF6A00" text-anchor="middle" font-weight="700">CITED</text>
+    <text x="100" y="155" font-family="system-ui, sans-serif" font-size="12" fill="rgba(255,255,255,0.7)" font-weight="600">Your Business Name</text>
+    <text x="35" y="176" font-family="system-ui, sans-serif" font-size="9" fill="rgba(255,255,255,0.35)">"Highly rated with consistent positive reviews across</text>
+    <text x="35" y="190" font-family="system-ui, sans-serif" font-size="9" fill="rgba(255,255,255,0.35)">multiple platforms. Licensed, insured, and responsive."</text>
+    <rect x="35" y="200" width="120" height="14" rx="3" fill="rgba(100,150,255,0.08)"/>
+    <text x="95" y="211" font-family="system-ui, sans-serif" font-size="7" fill="rgba(100,150,255,0.6)" text-anchor="middle">Source: yourbusiness.com</text>
+    <!-- Citation card 2 -->
+    <rect x="20" y="230" width="430" height="55" rx="6" fill="rgba(255,255,255,0.02)" stroke="rgba(255,255,255,0.06)" stroke-width="1"/>
+    <text x="35" y="252" font-family="system-ui, sans-serif" font-size="10" fill="rgba(255,255,255,0.4)">2. Smith's Plumbing Co.</text>
+    <rect x="35" y="260" width="200" height="4" rx="2" fill="rgba(255,255,255,0.04)"/>
+    <rect x="35" y="270" width="160" height="4" rx="2" fill="rgba(255,255,255,0.03)"/>
+    <!-- What Gemini values -->
+    <line x1="20" y1="300" x2="450" y2="300" stroke="rgba(255,255,255,0.06)" stroke-width="0.5"/>
+    <text x="235" y="325" font-family="system-ui, sans-serif" font-size="11" fill="rgba(255,255,255,0.5)" text-anchor="middle" font-weight="600">WHAT GEMINI PRIORITIZES</text>
+    <!-- Signal cards -->
+    <rect x="20" y="340" width="100" height="55" rx="6" fill="rgba(100,150,255,0.06)" stroke="rgba(100,150,255,0.15)" stroke-width="1"/>
+    <text x="70" y="358" font-family="system-ui, sans-serif" font-size="8" fill="rgba(100,150,255,0.7)" text-anchor="middle" font-weight="600">Google Data</text>
+    <text x="70" y="378" font-family="system-ui, sans-serif" font-size="16" fill="rgba(100,150,255,0.6)" text-anchor="middle" font-weight="700">#1</text>
+    <text x="70" y="392" font-family="system-ui, sans-serif" font-size="7" fill="rgba(255,255,255,0.2)" text-anchor="middle">GBP + Maps</text>
+    <rect x="130" y="340" width="100" height="55" rx="6" fill="rgba(100,220,100,0.06)" stroke="rgba(100,220,100,0.15)" stroke-width="1"/>
+    <text x="180" y="358" font-family="system-ui, sans-serif" font-size="8" fill="rgba(100,220,100,0.7)" text-anchor="middle" font-weight="600">Reviews</text>
+    <text x="180" y="378" font-family="system-ui, sans-serif" font-size="16" fill="rgba(100,220,100,0.6)" text-anchor="middle" font-weight="700">#2</text>
+    <text x="180" y="392" font-family="system-ui, sans-serif" font-size="7" fill="rgba(255,255,255,0.2)" text-anchor="middle">Rating + Volume</text>
+    <rect x="240" y="340" width="100" height="55" rx="6" fill="rgba(255,106,0,0.06)" stroke="rgba(255,106,0,0.15)" stroke-width="1"/>
+    <text x="290" y="358" font-family="system-ui, sans-serif" font-size="8" fill="rgba(255,106,0,0.7)" text-anchor="middle" font-weight="600">Schema</text>
+    <text x="290" y="378" font-family="system-ui, sans-serif" font-size="16" fill="rgba(255,106,0,0.6)" text-anchor="middle" font-weight="700">#3</text>
+    <text x="290" y="392" font-family="system-ui, sans-serif" font-size="7" fill="rgba(255,255,255,0.2)" text-anchor="middle">Structured data</text>
+    <rect x="350" y="340" width="100" height="55" rx="6" fill="rgba(200,150,255,0.06)" stroke="rgba(200,150,255,0.15)" stroke-width="1"/>
+    <text x="400" y="358" font-family="system-ui, sans-serif" font-size="8" fill="rgba(200,150,255,0.7)" text-anchor="middle" font-weight="600">Content</text>
+    <text x="400" y="378" font-family="system-ui, sans-serif" font-size="16" fill="rgba(200,150,255,0.6)" text-anchor="middle" font-weight="700">#4</text>
+    <text x="400" y="392" font-family="system-ui, sans-serif" font-size="7" fill="rgba(255,255,255,0.2)" text-anchor="middle">Expert authority</text>
+    <!-- Key difference -->
+    <rect x="60" y="410" width="350" height="48" rx="8" fill="rgba(100,150,255,0.06)" stroke="rgba(100,150,255,0.2)" stroke-width="1"/>
+    <text x="235" y="430" font-family="system-ui, sans-serif" font-size="9" fill="rgba(100,150,255,0.7)" text-anchor="middle" font-weight="600">KEY DIFFERENCE FROM CHATGPT</text>
+    <text x="235" y="450" font-family="system-ui, sans-serif" font-size="9" fill="rgba(255,255,255,0.35)" text-anchor="middle">Gemini HAS access to Google Business Profile data</text>
+  </g>
+  <circle cx="100" cy="130" r="60" stroke="rgba(255,106,0,0.05)" stroke-width="0.5" fill="none"/>
+  <rect x="40" y="40" width="170" height="32" rx="16" fill="rgba(255,106,0,0.15)" stroke="rgba(255,106,0,0.3)" stroke-width="1"/>
+  <text x="125" y="62" font-family="system-ui, -apple-system, sans-serif" font-size="14" font-weight="500" fill="#FF6A00" text-anchor="middle">Gemini Strategy</text>
+  <text x="80" y="250" font-family="system-ui, -apple-system, sans-serif" font-size="46" font-weight="700" fill="white">How to Get Cited</text>
+  <text x="80" y="310" font-family="system-ui, -apple-system, sans-serif" font-size="46" font-weight="700" fill="white">in Google</text>
+  <text x="80" y="370" font-family="system-ui, -apple-system, sans-serif" font-size="46" font-weight="700" fill="#FF6A00" filter="url(#glow21)">Gemini</text>
+  <text x="80" y="420" font-family="system-ui, -apple-system, sans-serif" font-size="20" font-weight="400" fill="rgba(255,255,255,0.45)">The Google AI Optimization Playbook</text>
   <text x="600" y="580" font-family="system-ui, -apple-system, sans-serif" font-size="16" font-weight="500" fill="rgba(255,255,255,0.5)" text-anchor="middle" letter-spacing="4">THE ANSWER ENGINE</text>
   <circle cx="1120" cy="590" r="30" fill="rgba(255,255,255,0.1)"/>
   <text x="1120" y="598" font-family="system-ui, -apple-system, sans-serif" font-size="20" font-weight="700" fill="rgba(255,255,255,0.3)" text-anchor="middle">AE</text>

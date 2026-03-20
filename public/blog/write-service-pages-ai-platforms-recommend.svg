@@ -1,32 +1,82 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
   <defs>
-    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" style="stop-color:#064e3b;stop-opacity:1" />
-      <stop offset="50%" style="stop-color:#1e3a5f;stop-opacity:1" />
-      <stop offset="100%" style="stop-color:#111827;stop-opacity:1" />
+    <linearGradient id="bg20" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0d3b2e;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#0F1117;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1a3b0d;stop-opacity:1" />
     </linearGradient>
+    <filter id="glow20"><feGaussianBlur stdDeviation="6" result="blur20"/><feMerge><feMergeNode in="blur20"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
   </defs>
-  <rect width="1200" height="630" fill="url(#bg)"/>
-  <!-- Decorative document/page outlines -->
-  <rect x="920" y="120" width="120" height="160" rx="8" fill="none" stroke="rgba(255,255,255,0.06)" stroke-width="1.5"/>
-  <line x1="940" y1="155" x2="1020" y2="155" stroke="rgba(255,255,255,0.06)" stroke-width="1"/>
-  <line x1="940" y1="175" x2="1000" y2="175" stroke="rgba(255,255,255,0.06)" stroke-width="1"/>
-  <line x1="940" y1="195" x2="1010" y2="195" stroke="rgba(255,255,255,0.06)" stroke-width="1"/>
-  <line x1="940" y1="215" x2="980" y2="215" stroke="rgba(255,255,255,0.06)" stroke-width="1"/>
-  <!-- Checkmark -->
-  <circle cx="1080" cy="140" r="18" fill="rgba(255,106,0,0.1)" stroke="rgba(255,106,0,0.2)" stroke-width="1.5"/>
-  <polyline points="1070,140 1077,148 1092,133" fill="none" stroke="rgba(255,106,0,0.3)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-  <!-- Floating brackets -->
-  <text x="880" y="420" font-family="monospace" font-size="60" fill="rgba(255,255,255,0.04)">{</text>
-  <text x="1100" y="420" font-family="monospace" font-size="60" fill="rgba(255,255,255,0.04)">}</text>
-  <!-- Category badge -->
-  <rect x="40" y="40" width="140" height="32" rx="16" fill="rgba(255,106,0,0.15)" stroke="rgba(255,106,0,0.3)" stroke-width="1"/>
-  <text x="110" y="62" font-family="system-ui, -apple-system, sans-serif" font-size="14" font-weight="500" fill="#FF6A00" text-anchor="middle">AEO Education</text>
-  <!-- Title -->
-  <text x="80" y="240" font-family="system-ui, -apple-system, sans-serif" font-size="48" font-weight="700" fill="white">Write Service Pages</text>
-  <text x="80" y="305" font-family="system-ui, -apple-system, sans-serif" font-size="48" font-weight="700" fill="white">AI Platforms</text>
-  <text x="80" y="370" font-family="system-ui, -apple-system, sans-serif" font-size="48" font-weight="700" fill="#FF6A00">Recommend</text>
-  <!-- Footer -->
+  <rect width="1200" height="630" fill="url(#bg20)"/>
+  <line x1="0" y1="126" x2="1200" y2="126" stroke="rgba(255,106,0,0.05)" stroke-width="0.5"/>
+  <line x1="0" y1="252" x2="1200" y2="252" stroke="rgba(255,106,0,0.05)" stroke-width="0.5"/>
+  <line x1="0" y1="378" x2="1200" y2="378" stroke="rgba(255,106,0,0.05)" stroke-width="0.5"/>
+  <line x1="0" y1="504" x2="1200" y2="504" stroke="rgba(255,106,0,0.05)" stroke-width="0.5"/>
+  <line x1="300" y1="0" x2="300" y2="630" stroke="rgba(255,106,0,0.05)" stroke-width="0.5"/>
+  <line x1="600" y1="0" x2="600" y2="630" stroke="rgba(255,106,0,0.05)" stroke-width="0.5"/>
+  <line x1="900" y1="0" x2="900" y2="630" stroke="rgba(255,106,0,0.05)" stroke-width="0.5"/>
+  <!-- Browser wireframe service page -->
+  <g transform="translate(660, 45)">
+    <rect x="0" y="0" width="470" height="470" rx="12" fill="rgba(255,255,255,0.04)" stroke="rgba(255,255,255,0.08)" stroke-width="1"/>
+    <!-- Browser chrome -->
+    <rect x="0" y="0" width="470" height="30" rx="12" fill="rgba(255,255,255,0.06)"/>
+    <rect x="0" y="18" width="470" height="12" fill="rgba(255,255,255,0.06)"/>
+    <circle cx="16" cy="15" r="4" fill="rgba(255,80,80,0.5)"/>
+    <circle cx="30" cy="15" r="4" fill="rgba(255,200,50,0.5)"/>
+    <circle cx="44" cy="15" r="4" fill="rgba(80,200,80,0.4)"/>
+    <rect x="80" y="8" width="300" height="14" rx="7" fill="rgba(255,255,255,0.04)"/>
+    <text x="230" y="19" font-family="system-ui, sans-serif" font-size="8" fill="rgba(255,255,255,0.2)" text-anchor="middle">yourbusiness.com/services/plumbing</text>
+    <!-- Service page content -->
+    <rect x="20" y="40" width="430" height="25" rx="4" fill="rgba(255,255,255,0.03)"/>
+    <text x="30" y="57" font-family="system-ui, sans-serif" font-size="12" fill="rgba(255,255,255,0.5)" font-weight="700">Professional Plumbing Services</text>
+    <!-- AI signal badges -->
+    <rect x="340" y="43" width="100" height="18" rx="4" fill="rgba(100,220,100,0.1)" stroke="rgba(100,220,100,0.3)" stroke-width="1"/>
+    <text x="390" y="56" font-family="system-ui, sans-serif" font-size="7" fill="rgba(100,220,100,0.7)" text-anchor="middle" font-weight="600">AI SIGNAL &#x2713;</text>
+    <!-- Service description block -->
+    <rect x="20" y="75" width="430" height="60" rx="6" fill="rgba(255,106,0,0.04)" stroke="rgba(255,106,0,0.15)" stroke-width="1"/>
+    <text x="30" y="92" font-family="system-ui, sans-serif" font-size="9" fill="rgba(255,106,0,0.5)" font-weight="600">SERVICE DESCRIPTION (800+ words)</text>
+    <rect x="30" y="98" width="350" height="5" rx="2" fill="rgba(255,255,255,0.06)"/>
+    <rect x="30" y="108" width="300" height="5" rx="2" fill="rgba(255,255,255,0.04)"/>
+    <rect x="30" y="118" width="380" height="5" rx="2" fill="rgba(255,255,255,0.04)"/>
+    <text x="420" y="128" font-family="system-ui, sans-serif" font-size="7" fill="rgba(100,220,100,0.6)" text-anchor="end">&#x2713;</text>
+    <!-- Schema markup indicator -->
+    <rect x="20" y="145" width="430" height="45" rx="6" fill="rgba(100,150,255,0.05)" stroke="rgba(100,150,255,0.15)" stroke-width="1"/>
+    <text x="30" y="162" font-family="monospace" font-size="8" fill="rgba(100,150,255,0.5)">&lt;script type="application/ld+json"&gt;</text>
+    <text x="30" y="175" font-family="monospace" font-size="8" fill="rgba(100,150,255,0.4)">  "@type": "Service", "provider": ...</text>
+    <text x="420" y="182" font-family="system-ui, sans-serif" font-size="7" fill="rgba(100,220,100,0.6)" text-anchor="end">SCHEMA &#x2713;</text>
+    <!-- FAQ section -->
+    <rect x="20" y="200" width="430" height="95" rx="6" fill="rgba(255,106,0,0.04)" stroke="rgba(255,106,0,0.12)" stroke-width="1"/>
+    <text x="30" y="218" font-family="system-ui, sans-serif" font-size="9" fill="rgba(255,106,0,0.5)" font-weight="600">FAQ SECTION (5+ Questions)</text>
+    <text x="30" y="238" font-family="system-ui, sans-serif" font-size="9" fill="rgba(255,255,255,0.35)">Q: How much does emergency plumbing cost?</text>
+    <rect x="30" y="244" width="280" height="4" rx="2" fill="rgba(255,255,255,0.04)"/>
+    <text x="30" y="262" font-family="system-ui, sans-serif" font-size="9" fill="rgba(255,255,255,0.35)">Q: Do you offer same-day service?</text>
+    <rect x="30" y="268" width="250" height="4" rx="2" fill="rgba(255,255,255,0.04)"/>
+    <text x="30" y="286" font-family="system-ui, sans-serif" font-size="9" fill="rgba(255,255,255,0.3)">Q: What areas do you serve?</text>
+    <text x="420" y="288" font-family="system-ui, sans-serif" font-size="7" fill="rgba(100,220,100,0.6)" text-anchor="end">FAQ &#x2713;</text>
+    <!-- Review embed -->
+    <rect x="20" y="305" width="430" height="55" rx="6" fill="rgba(255,200,50,0.04)" stroke="rgba(255,200,50,0.12)" stroke-width="1"/>
+    <text x="30" y="322" font-family="system-ui, sans-serif" font-size="9" fill="rgba(255,200,50,0.5)" font-weight="600">EMBEDDED REVIEWS</text>
+    <text x="30" y="340" font-family="system-ui, sans-serif" font-size="9" fill="rgba(255,200,50,0.4)">&#x2605;&#x2605;&#x2605;&#x2605;&#x2605; "Best plumber in town..."</text>
+    <text x="30" y="354" font-family="system-ui, sans-serif" font-size="8" fill="rgba(255,255,255,0.2)">- John D. (Google Review)</text>
+    <text x="420" y="354" font-family="system-ui, sans-serif" font-size="7" fill="rgba(100,220,100,0.6)" text-anchor="end">TRUST &#x2713;</text>
+    <!-- CTA section -->
+    <rect x="20" y="370" width="430" height="40" rx="6" fill="rgba(100,220,100,0.06)" stroke="rgba(100,220,100,0.15)" stroke-width="1"/>
+    <rect x="30" y="378" width="120" height="24" rx="6" fill="rgba(255,106,0,0.2)" stroke="#FF6A00" stroke-width="1"/>
+    <text x="90" y="394" font-family="system-ui, sans-serif" font-size="9" fill="#FF6A00" text-anchor="middle" font-weight="600">Get Free Quote</text>
+    <text x="170" y="394" font-family="system-ui, sans-serif" font-size="9" fill="rgba(255,255,255,0.3)">(555) 987-6543</text>
+    <text x="420" y="394" font-family="system-ui, sans-serif" font-size="7" fill="rgba(100,220,100,0.6)" text-anchor="end">CTA &#x2713;</text>
+    <!-- Score -->
+    <rect x="120" y="425" width="230" height="35" rx="8" fill="rgba(100,220,100,0.08)" stroke="rgba(100,220,100,0.25)" stroke-width="1"/>
+    <text x="235" y="440" font-family="system-ui, sans-serif" font-size="9" fill="rgba(255,255,255,0.4)" text-anchor="middle">AI CITATION READINESS</text>
+    <text x="235" y="455" font-family="system-ui, sans-serif" font-size="11" fill="rgba(100,220,100,0.8)" text-anchor="middle" font-weight="700">&#x2713; ALL SIGNALS PRESENT</text>
+  </g>
+  <circle cx="100" cy="130" r="60" stroke="rgba(255,106,0,0.05)" stroke-width="0.5" fill="none"/>
+  <rect x="40" y="40" width="170" height="32" rx="16" fill="rgba(255,106,0,0.15)" stroke="rgba(255,106,0,0.3)" stroke-width="1"/>
+  <text x="125" y="62" font-family="system-ui, -apple-system, sans-serif" font-size="14" font-weight="500" fill="#FF6A00" text-anchor="middle">Content Strategy</text>
+  <text x="80" y="250" font-family="system-ui, -apple-system, sans-serif" font-size="46" font-weight="700" fill="white">Write Service Pages</text>
+  <text x="80" y="310" font-family="system-ui, -apple-system, sans-serif" font-size="46" font-weight="700" fill="white">AI Platforms</text>
+  <text x="80" y="370" font-family="system-ui, -apple-system, sans-serif" font-size="46" font-weight="700" fill="#FF6A00" filter="url(#glow20)">Recommend</text>
+  <text x="80" y="420" font-family="system-ui, -apple-system, sans-serif" font-size="20" font-weight="400" fill="rgba(255,255,255,0.45)">The Anatomy of a Citation-Ready Page</text>
   <text x="600" y="580" font-family="system-ui, -apple-system, sans-serif" font-size="16" font-weight="500" fill="rgba(255,255,255,0.5)" text-anchor="middle" letter-spacing="4">THE ANSWER ENGINE</text>
   <circle cx="1120" cy="590" r="30" fill="rgba(255,255,255,0.1)"/>
   <text x="1120" y="598" font-family="system-ui, -apple-system, sans-serif" font-size="20" font-weight="700" fill="rgba(255,255,255,0.3)" text-anchor="middle">AE</text>
