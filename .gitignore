@@ -147,3 +147,4 @@ data/blog-state.json
 data/blog-topics.json
 data/blog-staged.json
 .env.production
+logs/
