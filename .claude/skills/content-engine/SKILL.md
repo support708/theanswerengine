@@ -141,8 +141,52 @@ export default function Page() {
 - ZERO em-dashes (use colons, commas, periods)
 - ZERO inline event handlers (no onClick, onMouseOver). Use Tailwind `hover:` / `focus:` classes.
 - This is a **Server Component** (no 'use client', no useState, no useEffect)
-- 1500-2500 words target
+- 2000-3500 words target (Championship articles are longer)
 - At least 5 FAQ Q&As
+
+**Championship Format Rules (MANDATORY):**
+Every article MUST include at minimum:
+- **15+ CTA touchpoints** (mix of ae-cta-block, ae-cta-inline, ae-final-cta, tel/email links)
+- **30+ visual components** (stats grids, callouts, comparison tables, etc.)
+- **Stats grid near the top** with 4 topic-relevant metrics
+- **Inline CTAs every 2-3 sections** (small contextual prompts)
+- **At least 2 callout boxes** (ae-callout-info, ae-callout-warning, ae-callout-success, ae-callout-orange)
+- **At least 1 comparison table or decision matrix** relevant to the topic
+- **At least 1 pros/cons section**
+- **Cheat sheet or key takeaway box** near the bottom
+- **Author card** before the FAQ section
+- **Final CTA with pulse glow animation** at the very end
+
+**Championship CSS Classes (defined in globals.css):**
+Use these CSS classes directly in JSX. All classes are prefixed with `ae-` to avoid conflicts.
+
+| Component | Usage | JSX Pattern |
+|-----------|-------|-------------|
+| Stats Grid | `<div className="ae-stats-grid">` with `<div className="ae-stat-card">` children | 4 cards with ae-stat-emoji, ae-stat-value, ae-stat-label |
+| Callout | `<div className="ae-callout ae-callout-info">` | ae-callout-title + p |
+| Comparison Table | `<table className="ae-comparison-table">` | thead/tbody with standard td/th |
+| Decision Matrix | `<div className="ae-decision-matrix">` | ae-decision-row with ae-decision-if, ae-decision-arrow, ae-decision-then |
+| Pros/Cons | `<div className="ae-pros-cons">` | ae-pros-box + ae-cons-box with ul/li |
+| Cheat Sheet | `<div className="ae-cheat-sheet">` | ae-cheat-sheet-title + table |
+| Dollar Compare | `<div className="ae-dollar-compare">` | ae-dollar-item with ae-dollar-label, ae-dollar-price |
+| Tier Badge | `<span className="ae-tier-badge ae-tier-premium">` | Inline badge |
+| Bar Group | `<div className="ae-bar-group">` | ae-bar-item with ae-bar-label, ae-bar-track, ae-bar-fill, ae-bar-value |
+| CTA Block | `<div className="ae-cta-block">` | h3 + p + ae-cta-primary link |
+| CTA Inline | `<div className="ae-cta-inline">` | p + link |
+| Final CTA | `<div className="ae-final-cta">` | h2 + p + ae-cta-primary |
+| Author Card | `<div className="ae-author-card">` | ae-author-avatar + name/role |
+| TOC | `<div className="ae-toc">` | ae-toc-title + ol/li with links |
+| Timeline | `<div className="ae-timeline">` | ae-timeline-item with step/title/desc |
+| Quote | `<div className="ae-quote">` | p + cite |
+| Takeaway | `<div className="ae-takeaway">` | ae-takeaway-title + p |
+| Section Label | `<span className="ae-section-label">` | Inline pill badge |
+
+**CTA Placement Guide:**
+1. After intro paragraph: ae-cta-inline (contextual)
+2. After every 2-3 content sections: ae-cta-inline or ae-cta-block
+3. Before FAQ section: ae-cta-block (full 3-tier with phone/email)
+4. After FAQ: ae-final-cta with pulse glow
+5. Tel/sms links scattered in callouts and inline CTAs
 - **3-tier CTA block** (MANDATORY in every article, placed before the FAQ section):
   ```tsx
   <div className="not-prose my-16 p-8 rounded-2xl bg-gradient-to-br from-[#FF6A00]/10 to-transparent border border-[#FF6A00]/20">
