@@ -73,256 +73,116 @@ export default function HowToGetInTheAnswerEngine() {
   
   return (
     <>
-      {/* Enhanced Article Schema */}
+      {/* Schema Markup - @graph structure */}
       <script
-        id="article-schema"
         type="application/ld+json"
         dangerouslySetInnerHTML={{
           __html: JSON.stringify({
             "@context": "https://schema.org",
-            "@type": "Article",
-            "headline": "How to Get in the Answer Engine: A Complete Guide to Getting Your Business Cited by AI in 2025",
-            "description": "Learn how to get your business cited by AI systems like ChatGPT, Claude, and Google AI Overview. Step-by-step guide to answer engine optimization for local service businesses.",
-            "image": {
-              "@type": "ImageObject",
-              "url": "https://theanswerengine.ai/images/how-to-get-in-answer-engine-featured.png",
-              "width": 1200,
-              "height": 630
-            },
-            "author": {
-              "@type": "Person",
-              "name": "Justin Borges",
-              "jobTitle": "Founder",
-              "url": "https://theanswerengine.ai",
-              "worksFor": {
-                "@type": "Organization",
-                "name": "The Answer Engine"
-              }
-            },
-            "publisher": {
-              "@type": "Organization",
-              "name": "The Answer Engine",
-              "logo": {
-                "@type": "ImageObject",
-                "url": "https://theanswerengine.ai/TheAnswerEngine_white.png",
-                "width": 600,
-                "height": 60
-              }
-            },
-            "datePublished": publishDate,
-            "dateModified": lastUpdated,
-            "mainEntityOfPage": {
-              "@type": "WebPage",
-              "@id": articleUrl
-            },
-            "articleSection": "Answer Engine Optimization",
-            "keywords": ["how to get in the answer engine", "answer engine optimization", "AI citations", "ChatGPT citations", "AEO", "get cited by AI"],
-            "wordCount": 1650,
-            "inLanguage": "en-US",
-            "speakable": {
-              "@type": "SpeakableSpecification",
-              "cssSelector": [".article-intro"]
-            }
-          })
-        }}
-      />
-
-      {/* Complete FAQ Schema */}
-      <script
-        id="faq-schema"
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{
-          __html: JSON.stringify({
-            "@context": "https://schema.org",
-            "@type": "FAQPage",
-            "mainEntity": [
+            "@graph": [
               {
-                "@type": "Question",
-                "name": "How long does it take to get cited by AI systems?",
-                "acceptedAnswer": {
-                  "@type": "Answer",
-                  "text": "Most businesses see initial AI citations within 60-90 days of implementing answer engine optimization. Building strong topical authority typically takes 4-6 months of consistent content creation. Our fastest client achieved AI citations in 47 days."
-                }
+                "@type": "Article",
+                "headline": "How to Get in the Answer Engine: A Complete Guide to Getting Your Business Cited by AI in 2025",
+                "description": "Learn how to get your business cited by AI systems like ChatGPT, Claude, and Google AI Overview. Step-by-step guide to answer engine optimization for local service businesses.",
+                "image": {
+                  "@type": "ImageObject",
+                  "url": "https://theanswerengine.ai/images/how-to-get-in-answer-engine-featured.png",
+                  "width": 1200,
+                  "height": 630
+                },
+                "author": {
+                  "@type": "Organization",
+                  "name": "The Answer Engine",
+                  "url": "https://theanswerengine.ai"
+                },
+                "publisher": {
+                  "@type": "Organization",
+                  "name": "The Answer Engine",
+                  "logo": {
+                    "@type": "ImageObject",
+                    "url": "https://theanswerengine.ai/TheAnswerEngine_white.png",
+                    "width": 600,
+                    "height": 60
+                  }
+                },
+                "datePublished": publishDate,
+                "dateModified": lastUpdated,
+                "mainEntityOfPage": {
+                  "@type": "WebPage",
+                  "@id": articleUrl
+                },
+                "articleSection": "Answer Engine Optimization",
+                "keywords": ["how to get in the answer engine", "answer engine optimization", "AI citations", "ChatGPT citations", "AEO", "get cited by AI"],
+                "wordCount": 1650,
+                "inLanguage": "en-US"
               },
               {
-                "@type": "Question",
-                "name": "Can small businesses compete with large companies for AI citations?",
-                "acceptedAnswer": {
-                  "@type": "Answer",
-                  "text": "Yes. AI systems prioritize relevance and expertise over brand size. A local plumber with comprehensive content about plumbing in their city can outrank national brands for local queries. The key is specificity and demonstrated local expertise."
-                }
+                "@type": "FAQPage",
+                "mainEntity": [
+                  {
+                    "@type": "Question",
+                    "name": "How long does it take to get cited by AI systems?",
+                    "acceptedAnswer": {
+                      "@type": "Answer",
+                      "text": "Most businesses see initial AI citations within 60-90 days of implementing answer engine optimization. Building strong topical authority typically takes 4-6 months of consistent content creation. Our fastest client achieved AI citations in 47 days."
+                    }
+                  },
+                  {
+                    "@type": "Question",
+                    "name": "Can small businesses compete with large companies for AI citations?",
+                    "acceptedAnswer": {
+                      "@type": "Answer",
+                      "text": "Yes. AI systems prioritize relevance and expertise over brand size. A local plumber with comprehensive content about plumbing in their city can outrank national brands for local queries. The key is specificity and demonstrated local expertise."
+                    }
+                  },
+                  {
+                    "@type": "Question",
+                    "name": "Do I need to optimize for every AI platform separately?",
+                    "acceptedAnswer": {
+                      "@type": "Answer",
+                      "text": "No. ChatGPT, Claude, Perplexity, and Google AI Overviews all draw from web content. Content optimized for answer engines generally performs across all platforms. Focus on creating authoritative content rather than platform-specific tricks."
+                    }
+                  },
+                  {
+                    "@type": "Question",
+                    "name": "Is answer engine optimization different from SEO?",
+                    "acceptedAnswer": {
+                      "@type": "Answer",
+                      "text": "AEO builds on traditional SEO but prioritizes being cited as the definitive answer over simply ranking. This means more emphasis on direct answer formatting, FAQ structure, and authoritative depth. Good AEO typically improves traditional rankings too."
+                    }
+                  },
+                  {
+                    "@type": "Question",
+                    "name": "What industries benefit most from answer engine optimization?",
+                    "acceptedAnswer": {
+                      "@type": "Answer",
+                      "text": "Any service business where customers research before buying: real estate, legal, medical, home services (HVAC, plumbing, electrical), financial advisors, and professional services. The more complex the decision, the more likely customers ask AI for guidance."
+                    }
+                  }
+                ]
               },
               {
-                "@type": "Question",
-                "name": "Do I need to optimize for every AI platform separately?",
-                "acceptedAnswer": {
-                  "@type": "Answer",
-                  "text": "No. ChatGPT, Claude, Perplexity, and Google AI Overviews all draw from web content. Content optimized for answer engines generally performs across all platforms. Focus on creating authoritative content rather than platform-specific tricks."
-                }
-              },
-              {
-                "@type": "Question",
-                "name": "Is answer engine optimization different from SEO?",
-                "acceptedAnswer": {
-                  "@type": "Answer",
-                  "text": "AEO builds on traditional SEO but prioritizes being cited as the definitive answer over simply ranking. This means more emphasis on direct answer formatting, FAQ structure, and authoritative depth. Good AEO typically improves traditional rankings too."
-                }
-              },
-              {
-                "@type": "Question",
-                "name": "What industries benefit most from answer engine optimization?",
-                "acceptedAnswer": {
-                  "@type": "Answer",
-                  "text": "Any service business where customers research before buying: real estate, legal, medical, home services (HVAC, plumbing, electrical), financial advisors, and professional services. The more complex the decision, the more likely customers ask AI for guidance."
-                }
-              }
-            ]
-          })
-        }}
-      />
-
-      {/* BreadcrumbList Schema */}
-      <script
-        id="breadcrumb-schema"
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{
-          __html: JSON.stringify({
-            "@context": "https://schema.org",
-            "@type": "BreadcrumbList",
-            "itemListElement": [
-              {
-                "@type": "ListItem",
-                "position": 1,
-                "name": "Home",
-                "item": "https://theanswerengine.ai"
-              },
-              {
-                "@type": "ListItem",
-                "position": 2,
-                "name": "Blog",
-                "item": "https://theanswerengine.ai/blog"
-              },
-              {
-                "@type": "ListItem",
-                "position": 3,
-                "name": "How to Get in the Answer Engine",
-                "item": articleUrl
-              }
-            ]
-          })
-        }}
-      />
-
-      {/* Organization Schema */}
-      <script
-        id="organization-schema"
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{
-          __html: JSON.stringify({
-            "@context": "https://schema.org",
-            "@type": "LocalBusiness",
-            "name": "The Answer Engine",
-            "url": "https://theanswerengine.ai",
-            "logo": "https://theanswerengine.ai/TheAnswerEngine_white.png",
-            "description": "Answer Engine Optimization agency helping local service businesses get cited by AI platforms like ChatGPT, Claude, Perplexity, and Google AI Overview.",
-            "telephone": "(213) 444-2229",
-            "address": {
-              "@type": "PostalAddress",
-              "addressLocality": "Los Angeles",
-              "addressRegion": "CA",
-              "addressCountry": "US"
-            },
-            "geo": {
-              "@type": "GeoCoordinates",
-              "latitude": 34.0522,
-              "longitude": -118.2437
-            },
-            "areaServed": {
-              "@type": "Country",
-              "name": "United States"
-            },
-            "priceRange": "$$",
-            "aggregateRating": {
-              "@type": "AggregateRating",
-              "ratingValue": "5.0",
-              "reviewCount": "1"
-            },
-            "sameAs": [
-              "https://www.google.com/maps?q=The+Answer+Engine&kgmid=/g/11yq2khd8q"
-            ]
-          })
-        }}
-      />
-
-      {/* WebPage Schema */}
-      <script
-        id="webpage-schema"
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{
-          __html: JSON.stringify({
-            "@context": "https://schema.org",
-            "@type": "WebPage",
-            "name": "How to Get in the Answer Engine | The Answer Engine",
-            "description": "Complete guide to getting your business cited by AI systems like ChatGPT, Claude, and Google AI Overview. Learn answer engine optimization strategies.",
-            "url": articleUrl,
-            "inLanguage": "en-US",
-            "isPartOf": {
-              "@type": "WebSite",
-              "name": "The Answer Engine",
-              "url": "https://theanswerengine.ai"
-            },
-            "about": {
-              "@type": "Thing",
-              "name": "Answer Engine Optimization"
-            },
-            "primaryImageOfPage": {
-              "@type": "ImageObject",
-              "url": "https://theanswerengine.ai/images/how-to-get-in-answer-engine-featured.png"
-            }
-          })
-        }}
-      />
-
-      {/* HowTo Schema */}
-      <script
-        id="howto-schema"
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{
-          __html: JSON.stringify({
-            "@context": "https://schema.org",
-            "@type": "HowTo",
-            "name": "How to Get Your Business Cited by AI Answer Engines",
-            "description": "Learn the 5-step process to getting your business cited by ChatGPT, Claude, Google AI Overview, and Perplexity",
-            "step": [
-              {
-                "@type": "HowToStep",
-                "position": 1,
-                "name": "Identify Your Target Questions",
-                "text": "List the questions your ideal customers actually ask using sales team insights, Google Search Console data, People Also Ask boxes, and current AI responses about your service."
-              },
-              {
-                "@type": "HowToStep",
-                "position": 2,
-                "name": "Audit Your Current AI Visibility",
-                "text": "Ask ChatGPT, Claude, and Perplexity your target questions and document whether you're mentioned, which competitors are cited, and what information is missing."
-              },
-              {
-                "@type": "HowToStep",
-                "position": 3,
-                "name": "Create Answer-Optimized Content",
-                "text": "Structure content with featured snippet blocks (40-60 words), comprehensive FAQ sections with schema markup, authoritative depth, and local specificity."
-              },
-              {
-                "@type": "HowToStep",
-                "position": 4,
-                "name": "Implement Technical Optimization",
-                "text": "Add Article, FAQ, LocalBusiness, and Person schema markup. Build hub-and-spoke internal linking structures. Ensure fast, mobile-friendly performance."
-              },
-              {
-                "@type": "HowToStep",
-                "position": 5,
-                "name": "Monitor and Iterate",
-                "text": "Conduct weekly AI citation checks, monthly Search Console analysis, quarterly content updates, and ongoing competitive monitoring."
+                "@type": "BreadcrumbList",
+                "itemListElement": [
+                  {
+                    "@type": "ListItem",
+                    "position": 1,
+                    "name": "Home",
+                    "item": "https://theanswerengine.ai"
+                  },
+                  {
+                    "@type": "ListItem",
+                    "position": 2,
+                    "name": "Blog",
+                    "item": "https://theanswerengine.ai/blog"
+                  },
+                  {
+                    "@type": "ListItem",
+                    "position": 3,
+                    "name": "How to Get in the Answer Engine",
+                    "item": articleUrl
+                  }
+                ]
               }
             ]
           })
@@ -686,11 +546,28 @@ export default function HowToGetInTheAnswerEngine() {
               </a>
             </div>
 
+            {/* CTA Section */}
+            <div className="rounded-2xl p-8 sm:p-10 text-center my-16" style={{ background: 'linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%)' }}>
+              <h2 className="text-2xl sm:text-3xl font-bold text-white mb-4 font-plus-jakarta">Find Out If AI Is Recommending Your Business</h2>
+              <p className="text-gray-300 mb-6 max-w-2xl mx-auto">Most businesses have no idea whether AI platforms are sending them customers or sending them to competitors. Our free blind spot report shows you exactly where you stand.</p>
+              <Link href="/blindspot" className="inline-block px-8 py-4 rounded-lg font-semibold text-white transition-all duration-200 hover:brightness-110" style={{ backgroundColor: '#FF6A00' }}>Get Your Free Blind Spot Report</Link>
+    <div className="flex flex-wrap items-center gap-6 mt-6 pt-6 border-t border-[#FF6A00]/10">
+      <a href="tel:+12134442229" className="flex items-center gap-2 text-gray-400 hover:text-white transition-colors">
+        <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" /></svg>
+        (213) 444-2229
+      </a>
+      <a href="mailto:support@theanswerengine.ai" className="flex items-center gap-2 text-gray-400 hover:text-white transition-colors">
+        <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" /></svg>
+        support@theanswerengine.ai
+      </a>
+    </div>
+            </div>
+
             {/* Divider */}
             <div className="flex justify-center gap-1 my-16 opacity-20">
               {[...Array(50)].map((_, i) => (
-                <div 
-                  key={i} 
+                <div
+                  key={i}
                   className="w-px h-px bg-gray-600"
                 />
               ))}

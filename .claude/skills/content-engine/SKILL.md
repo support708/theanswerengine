@@ -143,7 +143,28 @@ export default function Page() {
 - This is a **Server Component** (no 'use client', no useState, no useEffect)
 - 1500-2500 words target
 - At least 5 FAQ Q&As
-- CTA links to `/blindspot`
+- **3-tier CTA block** (MANDATORY in every article, placed before the FAQ section):
+  ```tsx
+  <div className="not-prose my-16 p-8 rounded-2xl bg-gradient-to-br from-[#FF6A00]/10 to-transparent border border-[#FF6A00]/20">
+    <h3 className="font-plus-jakarta text-2xl font-bold text-white mb-3">{CTA heading}</h3>
+    <p className="text-gray-400 mb-6">{CTA description mentioning Blind Spot Report}</p>
+    <Link href="/blindspot" className="inline-flex items-center gap-2 bg-[#FF6A00] text-white px-6 py-3 rounded-lg font-semibold hover:bg-[#e55f00] transition-colors">
+      Get Your Free Blind Spot Report
+      <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" /></svg>
+    </Link>
+    <div className="flex flex-wrap items-center gap-6 mt-6 pt-6 border-t border-[#FF6A00]/10">
+      <a href="tel:+12134442229" className="flex items-center gap-2 text-gray-400 hover:text-white transition-colors">
+        <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" /></svg>
+        (213) 444-2229
+      </a>
+      <a href="mailto:support@theanswerengine.ai" className="flex items-center gap-2 text-gray-400 hover:text-white transition-colors">
+        <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" /></svg>
+        support@theanswerengine.ai
+      </a>
+    </div>
+  </div>
+  ```
+  Vary the h3 heading and description per article. Always include all 3 tiers: Blind Spot button + phone + email.
 - Author: "The Answer Engine Team"
 - **PROTECT THE SAUCE**: Teach the "what" and "why", never the exact "how". No step-by-step implementation guides, no framework blueprints, no code examples. Hint at the solution, create demand for our services.
 - **Internal linking**: Each article should link to 2-3 related existing articles from blogPosts.json where relevant in the body text. Use `<Link href="/blog/{slug}">` for these.

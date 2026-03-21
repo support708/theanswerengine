@@ -604,6 +604,23 @@ export default function CompleteGuideAEO() {
             </Link>
           </section>
 
+          {/* CTA Section */}
+          <div className="rounded-2xl p-8 sm:p-10 text-center my-16" style={{ background: 'linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%)' }}>
+            <h2 className="text-2xl sm:text-3xl font-bold text-white mb-4 font-plus-jakarta">Find Out If AI Is Recommending Your Business</h2>
+            <p className="text-gray-300 mb-6 max-w-2xl mx-auto">Most businesses have no idea whether AI platforms are sending them customers or sending them to competitors. Our free blind spot report shows you exactly where you stand.</p>
+            <Link href="/blindspot" className="inline-block px-8 py-4 rounded-lg font-semibold text-white transition-all duration-200 hover:brightness-110" style={{ backgroundColor: '#FF6A00' }}>Get Your Free Blind Spot Report</Link>
+    <div className="flex flex-wrap items-center gap-6 mt-6 pt-6 border-t border-[#FF6A00]/10">
+      <a href="tel:+12134442229" className="flex items-center gap-2 text-gray-400 hover:text-white transition-colors">
+        <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" /></svg>
+        (213) 444-2229
+      </a>
+      <a href="mailto:support@theanswerengine.ai" className="flex items-center gap-2 text-gray-400 hover:text-white transition-colors">
+        <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" /></svg>
+        support@theanswerengine.ai
+      </a>
+    </div>
+          </div>
+
           {/* FAQ Section */}
           <section className="mb-20">
             <h2 className="text-3xl font-light mb-12">

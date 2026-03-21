@@ -1,193 +1,128 @@
+import Link from 'next/link';
+
 export default function BlogPost() {
+  const jsonLd = {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Article",
+        "headline": "Why Am I Paying for SEO But Not Getting Any Leads?",
+        "description": "Nearly 60% of searches now end without a click because AI answers directly. Learn why your SEO rankings look good but leads are down, and what actually generates leads now.",
+        "image": {
+          "@type": "ImageObject",
+          "url": "https://theanswerengine.ai/blog/seo-not-generating-leads.svg",
+          "width": 1200,
+          "height": 630
+        },
+        "author": {
+          "@type": "Organization",
+          "name": "The Answer Engine",
+          "url": "https://theanswerengine.ai"
+        },
+        "publisher": {
+          "@type": "Organization",
+          "name": "The Answer Engine",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "https://theanswerengine.ai/TheAnswerEngine_Color_just_logo.png"
+          }
+        },
+        "datePublished": "2026-01-24",
+        "dateModified": "2026-01-24",
+        "mainEntityOfPage": {
+          "@type": "WebPage",
+          "@id": "https://theanswerengine.ai/blog/seo-not-generating-leads"
+        },
+        "keywords": "SEO not generating leads, paying for SEO no results, SEO rankings up but no calls, is SEO worth it, AI visibility, Answer Engine Optimization",
+        "articleSection": "SEO & AI Visibility",
+        "wordCount": 1800,
+        "inLanguage": "en-US"
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "Why is my SEO not generating leads anymore?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Nearly 60% of searches now end without a click because AI answers questions directly. High-intent buyers get recommendations from AI before they see search results and call whoever AI recommends."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Should I stop paying for SEO?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "No. SEO still provides value for informational searches and builds topical authority. But SEO alone is no longer enough - you need AI visibility alongside SEO to capture high-intent buyers."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How is AI visibility different from SEO?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "SEO optimizes for search engine rankings using keywords and backlinks. AI visibility optimizes for being recommended when people ask AI assistants for suggestions. Research shows AI uses different signals - brand mentions matter more than domain authority."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Can my SEO agency handle AI visibility?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Some can, most can't. Ask your agency about their strategy for AI-generated answers. If they don't have data on AI platform mentions, you may need specialized help alongside your SEO."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Why can't ChatGPT see my Google reviews?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "ChatGPT uses Bing's web index, not Google's data. To influence AI recommendations, you need reviews on platforms AI can read - Yelp, BBB, and sites indexed by Bing."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How long before I see results from AI visibility optimization?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Most businesses see measurable changes in AI citations within 90-120 days when they establish clear authority signals across the platforms AI reads."
+            }
+          }
+        ]
+      },
+      {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://theanswerengine.ai"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Blog",
+            "item": "https://theanswerengine.ai/blog"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Why Am I Paying for SEO But Not Getting Leads?",
+            "item": "https://theanswerengine.ai/blog/seo-not-generating-leads"
+          }
+        ]
+      }
+    ]
+  };
+
   return (
     <>
-      {/* Organization Schema */}
+      {/* Schema Markup - @graph structure */}
       <script
         type="application/ld+json"
-        dangerouslySetInnerHTML={{
-          __html: JSON.stringify({
-            "@context": "https://schema.org",
-            "@type": "Organization",
-            "name": "The Answer Engine",
-            "url": "https://theanswerengine.ai",
-            "logo": "https://theanswerengine.ai/TheAnswerEngine_Color_just_logo.png",
-            "description": "The Answer Engine specializes in Answer Engine Optimization (AEO) for local service businesses. We help companies get cited by Google AI Overviews, ChatGPT, Claude, Perplexity, and other AI platforms.",
-            "foundingDate": "2023",
-            "areaServed": "United States",
-            "knowsAbout": [
-              "Answer Engine Optimization",
-              "AI Citation Optimization",
-              "Featured Snippet Optimization",
-              "Schema Markup Implementation",
-              "Google AI Overviews",
-              "ChatGPT Optimization",
-              "Local SEO",
-              "E-E-A-T Optimization"
-            ]
-          })
-        }}
-      />
-
-      {/* BreadcrumbList Schema */}
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{
-          __html: JSON.stringify({
-            "@context": "https://schema.org",
-            "@type": "BreadcrumbList",
-            "itemListElement": [
-              {
-                "@type": "ListItem",
-                "position": 1,
-                "name": "Home",
-                "item": "https://theanswerengine.ai"
-              },
-              {
-                "@type": "ListItem",
-                "position": 2,
-                "name": "Blog",
-                "item": "https://theanswerengine.ai/blog"
-              },
-              {
-                "@type": "ListItem",
-                "position": 3,
-                "name": "Why Am I Paying for SEO But Not Getting Leads?",
-                "item": "https://theanswerengine.ai/blog/seo-not-generating-leads"
-              }
-            ]
-          })
-        }}
-      />
-
-      {/* Article Schema */}
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{
-          __html: JSON.stringify({
-            "@context": "https://schema.org",
-            "@type": "Article",
-            "headline": "Why Am I Paying for SEO But Not Getting Any Leads?",
-            "description": "Nearly 60% of searches now end without a click because AI answers directly. Learn why your SEO rankings look good but leads are down, and what actually generates leads now.",
-            "image": {
-              "@type": "ImageObject",
-              "url": "https://theanswerengine.ai/blog/seo-not-generating-leads.svg",
-              "width": 1200,
-              "height": 630
-            },
-            "author": {
-              "@type": "Organization",
-              "name": "The Answer Engine",
-              "url": "https://theanswerengine.ai"
-            },
-            "publisher": {
-              "@type": "Organization",
-              "name": "The Answer Engine",
-              "logo": {
-                "@type": "ImageObject",
-                "url": "https://theanswerengine.ai/TheAnswerEngine_Color_just_logo.png"
-              }
-            },
-            "datePublished": "2026-01-24",
-            "dateModified": "2026-01-24",
-            "mainEntityOfPage": {
-              "@type": "WebPage",
-              "@id": "https://theanswerengine.ai/blog/seo-not-generating-leads"
-            },
-            "keywords": "SEO not generating leads, paying for SEO no results, SEO rankings up but no calls, is SEO worth it, AI visibility, Answer Engine Optimization",
-            "articleSection": "SEO & AI Visibility",
-            "wordCount": 1800,
-            "inLanguage": "en-US"
-          })
-        }}
-      />
-
-      {/* FAQ Schema */}
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{
-          __html: JSON.stringify({
-            "@context": "https://schema.org",
-            "@type": "FAQPage",
-            "mainEntity": [
-              {
-                "@type": "Question",
-                "name": "Why is my SEO not generating leads anymore?",
-                "acceptedAnswer": {
-                  "@type": "Answer",
-                  "text": "Nearly 60% of searches now end without a click because AI answers questions directly. High-intent buyers get recommendations from AI before they see search results and call whoever AI recommends."
-                }
-              },
-              {
-                "@type": "Question",
-                "name": "Should I stop paying for SEO?",
-                "acceptedAnswer": {
-                  "@type": "Answer",
-                  "text": "No. SEO still provides value for informational searches and builds topical authority. But SEO alone is no longer enough - you need AI visibility alongside SEO to capture high-intent buyers."
-                }
-              },
-              {
-                "@type": "Question",
-                "name": "How is AI visibility different from SEO?",
-                "acceptedAnswer": {
-                  "@type": "Answer",
-                  "text": "SEO optimizes for search engine rankings using keywords and backlinks. AI visibility optimizes for being recommended when people ask AI assistants for suggestions. Research shows AI uses different signals - brand mentions matter more than domain authority."
-                }
-              },
-              {
-                "@type": "Question",
-                "name": "Can my SEO agency handle AI visibility?",
-                "acceptedAnswer": {
-                  "@type": "Answer",
-                  "text": "Some can, most can't. Ask your agency about their strategy for AI-generated answers. If they don't have data on AI platform mentions, you may need specialized help alongside your SEO."
-                }
-              },
-              {
-                "@type": "Question",
-                "name": "Why can't ChatGPT see my Google reviews?",
-                "acceptedAnswer": {
-                  "@type": "Answer",
-                  "text": "ChatGPT uses Bing's web index, not Google's data. To influence AI recommendations, you need reviews on platforms AI can read - Yelp, BBB, and sites indexed by Bing."
-                }
-              },
-              {
-                "@type": "Question",
-                "name": "How long before I see results from AI visibility optimization?",
-                "acceptedAnswer": {
-                  "@type": "Answer",
-                  "text": "Most businesses see measurable changes in AI citations within 90-120 days when they establish clear authority signals across the platforms AI reads."
-                }
-              }
-            ]
-          })
-        }}
-      />
-
-      {/* WebPage Schema */}
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{
-          __html: JSON.stringify({
-            "@context": "https://schema.org",
-            "@type": "WebPage",
-            "name": "Why Am I Paying for SEO But Not Getting Leads? | The Answer Engine",
-            "description": "Your SEO rankings are up but leads are down. Here's why: nearly 60% of searches now end without a click. AI answers first - and your rankings don't matter if AI skips you.",
-            "url": "https://theanswerengine.ai/blog/seo-not-generating-leads",
-            "inLanguage": "en-US",
-            "isPartOf": {
-              "@type": "WebSite",
-              "name": "The Answer Engine",
-              "url": "https://theanswerengine.ai"
-            },
-            "about": {
-              "@type": "Thing",
-              "name": "SEO and AI Visibility"
-            },
-            "primaryImageOfPage": {
-              "@type": "ImageObject",
-              "url": "https://theanswerengine.ai/blog/seo-not-generating-leads.svg"
-            }
-          })
-        }}
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
       />
 
       <main className="min-h-screen bg-[#0A0A0F] relative">
@@ -602,6 +537,23 @@ export default function BlogPost() {
                   <path strokeLinecap="round" strokeLinejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3" />
                 </svg>
               </a>
+            </div>
+
+            {/* CTA Section */}
+            <div className="rounded-2xl p-8 sm:p-10 text-center my-16" style={{ background: 'linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%)' }}>
+              <h2 className="text-2xl sm:text-3xl font-bold text-white mb-4 font-plus-jakarta">Find Out If AI Is Recommending Your Business</h2>
+              <p className="text-gray-300 mb-6 max-w-2xl mx-auto">Most businesses have no idea whether AI platforms are sending them customers or sending them to competitors. Our free blind spot report shows you exactly where you stand.</p>
+              <Link href="/blindspot" className="inline-block px-8 py-4 rounded-lg font-semibold text-white transition-all duration-200 hover:brightness-110" style={{ backgroundColor: '#FF6A00' }}>Get Your Free Blind Spot Report</Link>
+    <div className="flex flex-wrap items-center gap-6 mt-6 pt-6 border-t border-[#FF6A00]/10">
+      <a href="tel:+12134442229" className="flex items-center gap-2 text-gray-400 hover:text-white transition-colors">
+        <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" /></svg>
+        (213) 444-2229
+      </a>
+      <a href="mailto:support@theanswerengine.ai" className="flex items-center gap-2 text-gray-400 hover:text-white transition-colors">
+        <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" /></svg>
+        support@theanswerengine.ai
+      </a>
+    </div>
             </div>
 
             {/* Divider */}

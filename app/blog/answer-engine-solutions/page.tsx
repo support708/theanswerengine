@@ -45,306 +45,113 @@ export async function generateMetadata(): Promise<Metadata> {
 }
 
 export default function AnswerEngineSolutionsPage() {
-  
-  // SCHEMA 1: Article
-  const articleSchema = {
-    "@context": "https://schema.org",
-    "@type": "Article",
-    "headline": "Answer Engine Solutions for Local Service Businesses (2025 Guide)",
-    "description": "Answer engine solutions help local service businesses get cited by AI platforms like ChatGPT, Claude, and Google AI Overview. Learn the 4 components that drive AI citations.",
-    "image": "https://theanswerengine.ai/images/answer-engine-solutions-featured.png",
-    "author": {
-      "@type": "Person",
-      "@id": "https://theanswerengine.ai/#justin-borges",
-      "name": "Justin Borges",
-      "url": "https://theanswerengine.ai/about",
-      "jobTitle": "Founder",
-      "worksFor": {
-        "@type": "Organization",
-        "@id": "https://theanswerengine.ai/#business",
-        "name": "The Answer Engine"
-      }
-    },
-    "publisher": {
-      "@type": "Organization",
-      "@id": "https://theanswerengine.ai/#business",
-      "name": "The Answer Engine",
-      "logo": {
-        "@type": "ImageObject",
-        "url": "https://theanswerengine.ai/images/TheAnswerEngine_white.png"
-      }
-    },
-    "datePublished": "2025-12-01",
-    "dateModified": "2025-12-01",
-    "mainEntityOfPage": {
-      "@type": "WebPage",
-      "@id": "https://theanswerengine.ai/blog/answer-engine-solutions"
-    },
-    "keywords": ["answer engine solutions", "AEO", "AI citations", "local service business", "ChatGPT optimization", "answer engine optimization"]
-  };
 
-  // SCHEMA 2: FAQPage
-  const faqSchema = {
+  const jsonLd = {
     "@context": "https://schema.org",
-    "@type": "FAQPage",
-    "mainEntity": [
+    "@graph": [
       {
-        "@type": "Question",
-        "name": "How long until I see results from answer engine solutions?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "Most clients see ranking improvements within 30-60 days, with AI citations beginning around 60-90 days. Full results typically materialize within 90-120 days as AI platforms index your authority content."
-        }
+        "@type": "Article",
+        "headline": "Answer Engine Solutions for Local Service Businesses (2025 Guide)",
+        "description": "Answer engine solutions help local service businesses get cited by AI platforms like ChatGPT, Claude, and Google AI Overview. Learn the 4 components that drive AI citations.",
+        "image": "https://theanswerengine.ai/images/answer-engine-solutions-featured.png",
+        "author": {
+          "@type": "Organization",
+          "name": "The Answer Engine",
+          "url": "https://theanswerengine.ai"
+        },
+        "publisher": {
+          "@type": "Organization",
+          "name": "The Answer Engine",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "https://theanswerengine.ai/images/TheAnswerEngine_white.png"
+          }
+        },
+        "datePublished": "2025-12-01",
+        "dateModified": "2025-12-01",
+        "mainEntityOfPage": {
+          "@type": "WebPage",
+          "@id": "https://theanswerengine.ai/blog/answer-engine-solutions"
+        },
+        "keywords": ["answer engine solutions", "AEO", "AI citations", "local service business", "ChatGPT optimization", "answer engine optimization"]
       },
       {
-        "@type": "Question",
-        "name": "Do answer engine solutions replace traditional SEO?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "No—they complement it. AEO builds on SEO fundamentals but adds AI-specific elements like schema markup, featured snippet optimization, and cross-platform citation strategies."
-        }
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "How long until I see results from answer engine solutions?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Most clients see ranking improvements within 30-60 days, with AI citations beginning around 60-90 days. Full results typically materialize within 90-120 days as AI platforms index your authority content."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Do answer engine solutions replace traditional SEO?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "No—they complement it. AEO builds on SEO fundamentals but adds AI-specific elements like schema markup, featured snippet optimization, and cross-platform citation strategies."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How much do professional answer engine solutions cost?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Quality solutions range from $2,997 for foundation packages to $8,988+ for market dominance packages. Providers charging under $1,000 can't deliver the expertise extraction and audits required for results."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Can I implement answer engine solutions myself?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Technically yes, but success is rare. The expertise extraction component requires objectivity most business owners can't apply to themselves. It's like trying to see your own blind spots."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What's the difference between AEO and answer engine solutions?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "AEO is the discipline. Answer engine solutions are the services that implement AEO—including content creation, schema markup, and optimization."
+            }
+          }
+        ]
       },
       {
-        "@type": "Question",
-        "name": "How much do professional answer engine solutions cost?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "Quality solutions range from $2,997 for foundation packages to $8,988+ for market dominance packages. Providers charging under $1,000 can't deliver the expertise extraction and audits required for results."
-        }
-      },
-      {
-        "@type": "Question",
-        "name": "Can I implement answer engine solutions myself?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "Technically yes, but success is rare. The expertise extraction component requires objectivity most business owners can't apply to themselves. It's like trying to see your own blind spots."
-        }
-      },
-      {
-        "@type": "Question",
-        "name": "What's the difference between AEO and answer engine solutions?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "AEO is the discipline. Answer engine solutions are the services that implement AEO—including content creation, schema markup, and optimization."
-        }
-      }
-    ]
-  };
-
-  // SCHEMA 3: Person (Author)
-  const personSchema = {
-    "@context": "https://schema.org",
-    "@type": "Person",
-    "@id": "https://theanswerengine.ai/#justin-borges",
-    "name": "Justin Borges",
-    "jobTitle": "Founder",
-    "worksFor": {
-      "@type": "Organization",
-      "@id": "https://theanswerengine.ai/#business",
-      "name": "The Answer Engine",
-      "url": "https://theanswerengine.ai"
-    },
-    "description": "Founder of The Answer Engine, a Los Angeles-based AEO agency helping local service businesses get cited by AI platforms including ChatGPT, Claude, Perplexity, and Google AI Overview. His methodology combines proprietary expertise extraction, hub-and-spoke content architecture, and the AERO-6 audit framework.",
-    "url": "https://theanswerengine.ai/about",
-    "knowsAbout": [
-      "Answer Engine Optimization",
-      "AI Citations",
-      "Local SEO",
-      "Schema Markup",
-      "Content Strategy"
-    ],
-    "sameAs": [
-      "https://www.linkedin.com/in/justinborges/"
-    ]
-  };
-
-  // SCHEMA 4: LocalBusiness (Verified GBP Data)
-  const localBusinessSchema = {
-    "@context": "https://schema.org",
-    "@type": "LocalBusiness",
-    "@id": "https://theanswerengine.ai/#business",
-    "name": "The Answer Engine",
-    "description": "Answer Engine Optimization agency helping local service businesses get cited by AI platforms like ChatGPT, Claude, Perplexity, and Google AI Overview.",
-    "url": "https://theanswerengine.ai",
-    "telephone": "(213) 444-2229",
-    "email": "support@theanswerengine.ai",
-    "address": {
-      "@type": "PostalAddress",
-      "addressLocality": "Los Angeles",
-      "addressRegion": "CA",
-      "addressCountry": "US"
-    },
-    "geo": {
-      "@type": "GeoCoordinates",
-      "latitude": 34.0522,
-      "longitude": -118.2437
-    },
-    "areaServed": {
-      "@type": "Country",
-      "name": "United States"
-    },
-    "serviceType": [
-      "Answer Engine Optimization",
-      "AEO Services",
-      "AI Citation Optimization",
-      "Content Strategy"
-    ],
-    "priceRange": "$$",
-    "aggregateRating": {
-      "@type": "AggregateRating",
-      "ratingValue": "5.0",
-      "reviewCount": "1"
-    },
-    "sameAs": [
-      "https://www.google.com/search?kgmid=/g/11yq2khd8q"
-    ]
-  };
-
-  // SCHEMA 5: BreadcrumbList
-  const breadcrumbSchema = {
-    "@context": "https://schema.org",
-    "@type": "BreadcrumbList",
-    "itemListElement": [
-      {
-        "@type": "ListItem",
-        "position": 1,
-        "name": "Home",
-        "item": "https://theanswerengine.ai"
-      },
-      {
-        "@type": "ListItem",
-        "position": 2,
-        "name": "Blog",
-        "item": "https://theanswerengine.ai/blog"
-      },
-      {
-        "@type": "ListItem",
-        "position": 3,
-        "name": "Answer Engine Solutions for Local Service Businesses",
-        "item": "https://theanswerengine.ai/blog/answer-engine-solutions"
-      }
-    ]
-  };
-
-  // SCHEMA 6: WebPage
-  const webPageSchema = {
-    "@context": "https://schema.org",
-    "@type": "WebPage",
-    "@id": "https://theanswerengine.ai/blog/answer-engine-solutions",
-    "name": "Answer Engine Solutions for Local Service Businesses (2025 Guide)",
-    "description": "Answer engine solutions help local service businesses get cited by AI platforms like ChatGPT, Claude, and Google AI Overview. Learn the 4 components that drive AI citations.",
-    "url": "https://theanswerengine.ai/blog/answer-engine-solutions",
-    "datePublished": "2025-12-01",
-    "dateModified": "2025-12-01",
-    "inLanguage": "en-US",
-    "isPartOf": {
-      "@type": "WebSite",
-      "@id": "https://theanswerengine.ai/#website",
-      "name": "The Answer Engine",
-      "url": "https://theanswerengine.ai"
-    },
-    "about": {
-      "@type": "Thing",
-      "name": "Answer Engine Optimization"
-    },
-    "mentions": [
-      {
-        "@type": "Thing",
-        "name": "ChatGPT"
-      },
-      {
-        "@type": "Thing",
-        "name": "Claude"
-      },
-      {
-        "@type": "Thing",
-        "name": "Google AI Overview"
-      },
-      {
-        "@type": "Thing",
-        "name": "Perplexity"
-      }
-    ],
-    "primaryImageOfPage": {
-      "@type": "ImageObject",
-      "url": "https://theanswerengine.ai/images/answer-engine-solutions-featured.png"
-    }
-  };
-
-  // SCHEMA 7: HowTo
-  const howToSchema = {
-    "@context": "https://schema.org",
-    "@type": "HowTo",
-    "name": "How to Implement Answer Engine Solutions for Your Business",
-    "description": "The 4 components of effective answer engine solutions for local service businesses to get cited by AI platforms.",
-    "totalTime": "PT6W",
-    "estimatedCost": {
-      "@type": "MonetaryAmount",
-      "currency": "USD",
-      "value": "2997"
-    },
-    "step": [
-      {
-        "@type": "HowToStep",
-        "position": 1,
-        "name": "Authentic Expertise Extraction",
-        "text": "Use a proprietary methodology to extract and document the authentic expertise that AI platforms recognize as authoritative. This captures your exact process, local knowledge, and hard-won lessons.",
-        "url": "https://theanswerengine.ai/blog/answer-engine-solutions#authentic-expertise-extraction"
-      },
-      {
-        "@type": "HowToStep",
-        "position": 2,
-        "name": "Hub-and-Spoke Content Architecture",
-        "text": "Build one comprehensive hub guide (4,000-6,000 words) supported by six spoke articles (1,500-2,500 words each) that address specific questions, all connected through internal links.",
-        "url": "https://theanswerengine.ai/blog/answer-engine-solutions#hub-and-spoke-content-architecture"
-      },
-      {
-        "@type": "HowToStep",
-        "position": 3,
-        "name": "Technical Schema Markup",
-        "text": "Implement LocalBusiness, Article, FAQ, Person, and Review schema to help AI platforms understand your content, credentials, and authority signals.",
-        "url": "https://theanswerengine.ai/blog/answer-engine-solutions#technical-schema-markup"
-      },
-      {
-        "@type": "HowToStep",
-        "position": 4,
-        "name": "Quality Audits (95%+ Threshold)",
-        "text": "Use the AERO-6 framework to audit content for Answer Quality, Entity Optimization, Relevance & Freshness, Optimization Structure, Voice & Authenticity, and Authority Signals before publication.",
-        "url": "https://theanswerengine.ai/blog/answer-engine-solutions#quality-audits"
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://theanswerengine.ai"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Blog",
+            "item": "https://theanswerengine.ai/blog"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Answer Engine Solutions for Local Service Businesses",
+            "item": "https://theanswerengine.ai/blog/answer-engine-solutions"
+          }
+        ]
       }
     ]
   };
 
   return (
     <>
-      {/* Schema Markup - Using lowercase script tags for SSR */}
+      {/* Schema Markup - @graph structure */}
       <script
         type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }}
-      />
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
-      />
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(personSchema) }}
-      />
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(localBusinessSchema) }}
-      />
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}
-      />
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(webPageSchema) }}
-      />
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(howToSchema) }}
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
       />
 
       <main className="min-h-screen bg-[#0F1117]">
@@ -611,6 +418,23 @@ export default function AnswerEngineSolutionsPage() {
               <li>Can't explain what makes their content different</li>
             </ul>
 
+          </div>
+
+          {/* CTA Section */}
+          <div className="rounded-2xl p-8 sm:p-10 text-center my-16" style={{ background: 'linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%)' }}>
+            <h2 className="text-2xl sm:text-3xl font-bold text-white mb-4 font-plus-jakarta">Find Out If AI Is Recommending Your Business</h2>
+            <p className="text-gray-300 mb-6 max-w-2xl mx-auto">Most businesses have no idea whether AI platforms are sending them customers or sending them to competitors. Our free blind spot report shows you exactly where you stand.</p>
+            <Link href="/blindspot" className="inline-block px-8 py-4 rounded-lg font-semibold text-white transition-all duration-200 hover:brightness-110" style={{ backgroundColor: '#FF6A00' }}>Get Your Free Blind Spot Report</Link>
+    <div className="flex flex-wrap items-center gap-6 mt-6 pt-6 border-t border-[#FF6A00]/10">
+      <a href="tel:+12134442229" className="flex items-center gap-2 text-gray-400 hover:text-white transition-colors">
+        <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" /></svg>
+        (213) 444-2229
+      </a>
+      <a href="mailto:support@theanswerengine.ai" className="flex items-center gap-2 text-gray-400 hover:text-white transition-colors">
+        <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" /></svg>
+        support@theanswerengine.ai
+      </a>
+    </div>
           </div>
 
           {/* FAQ Section */}

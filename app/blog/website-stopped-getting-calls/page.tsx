@@ -1,194 +1,128 @@
+import Link from 'next/link';
+
 export default function BlogPost() {
+  const jsonLd = {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Article",
+        "headline": "Why Your Website Stopped Getting Calls (The Shift Nobody Told You About)",
+        "description": "Nearly 60% of searches now end without a click because AI answers questions directly. Learn why your website traffic looks fine but calls have dropped.",
+        "image": {
+          "@type": "ImageObject",
+          "url": "https://theanswerengine.ai/website-stopped-getting-calls-featured.png",
+          "width": 1024,
+          "height": 1024
+        },
+        "author": {
+          "@type": "Organization",
+          "name": "The Answer Engine",
+          "url": "https://theanswerengine.ai"
+        },
+        "publisher": {
+          "@type": "Organization",
+          "name": "The Answer Engine",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "https://theanswerengine.ai/TheAnswerEngine_Color_just_logo.png"
+          }
+        },
+        "datePublished": "2026-01-24",
+        "dateModified": "2026-01-24",
+        "mainEntityOfPage": {
+          "@type": "WebPage",
+          "@id": "https://theanswerengine.ai/blog/website-stopped-getting-calls"
+        },
+        "keywords": "website not getting calls, website traffic but no leads, AI search, zero-click searches, Answer Engine Optimization, AEO, local business marketing",
+        "articleSection": "Answer Engine Optimization",
+        "wordCount": 1800,
+        "inLanguage": "en-US"
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "Why is my website getting traffic but no phone calls?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Nearly 60% of searches now end without a click because AI answers questions directly. High-intent buyers get recommendations from AI and call that business without ever visiting a website."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How do I know if AI is recommending my competitors instead of me?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Ask ChatGPT, Google AI Overview, and Perplexity 'Who's the best [your service] in [your city]?' If your competitor shows up consistently and you don't, AI is sending them your potential customers."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Does ChatGPT use my Google Business Profile?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "No. ChatGPT uses Bing's web index, not Google's data. You need to claim Bing Places and ensure your information is consistent across platforms AI actually reads."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What changed about how people find local businesses?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "AI assistants now answer questions directly instead of showing a list of websites. When someone asks for a recommendation, AI gives one or two answers-not ten."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Can I still get leads if I'm not showing up in AI recommendations?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes, but you're competing for a shrinking pool. Only about 40% of searches result in website clicks anymore. Businesses in AI recommendations get access to the other 60%."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How long does it take to start showing up in AI recommendations?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Businesses implementing comprehensive AI visibility strategies typically see changes within 90-120 days through consistent authority signals across multiple platforms."
+            }
+          }
+        ]
+      },
+      {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://theanswerengine.ai"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Blog",
+            "item": "https://theanswerengine.ai/blog"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Why Your Website Stopped Getting Calls",
+            "item": "https://theanswerengine.ai/blog/website-stopped-getting-calls"
+          }
+        ]
+      }
+    ]
+  };
+
   return (
     <>
-      {/* Organization Schema */}
+      {/* Schema Markup - @graph structure */}
       <script
         type="application/ld+json"
-        dangerouslySetInnerHTML={{
-          __html: JSON.stringify({
-            "@context": "https://schema.org",
-            "@type": "Organization",
-            "name": "The Answer Engine",
-            "url": "https://theanswerengine.ai",
-            "logo": "https://theanswerengine.ai/TheAnswerEngine_Color_just_logo.png",
-            "description": "The Answer Engine specializes in Answer Engine Optimization (AEO) for local service businesses. We help companies get cited by Google AI Overviews, ChatGPT, Claude, Perplexity, and other AI platforms.",
-            "foundingDate": "2023",
-            "areaServed": "United States",
-            "knowsAbout": [
-              "Answer Engine Optimization",
-              "AI Citation Optimization",
-              "Featured Snippet Optimization",
-              "Schema Markup Implementation",
-              "Google AI Overviews",
-              "ChatGPT Optimization",
-              "Local SEO",
-              "E-E-A-T Optimization"
-            ]
-          })
-        }}
-      />
-
-      {/* BreadcrumbList Schema */}
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{
-          __html: JSON.stringify({
-            "@context": "https://schema.org",
-            "@type": "BreadcrumbList",
-            "itemListElement": [
-              {
-                "@type": "ListItem",
-                "position": 1,
-                "name": "Home",
-                "item": "https://theanswerengine.ai"
-              },
-              {
-                "@type": "ListItem",
-                "position": 2,
-                "name": "Blog",
-                "item": "https://theanswerengine.ai/blog"
-              },
-              {
-                "@type": "ListItem",
-                "position": 3,
-                "name": "Why Your Website Stopped Getting Calls",
-                "item": "https://theanswerengine.ai/blog/website-stopped-getting-calls"
-              }
-            ]
-          })
-        }}
-      />
-
-      {/* Article Schema with Complete Metadata */}
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{
-          __html: JSON.stringify({
-            "@context": "https://schema.org",
-            "@type": "Article",
-            "headline": "Why Your Website Stopped Getting Calls (The Shift Nobody Told You About)",
-            "description": "Nearly 60% of searches now end without a click because AI answers questions directly. Learn why your website traffic looks fine but calls have dropped.",
-            "image": {
-              "@type": "ImageObject",
-              "url": "https://theanswerengine.ai/website-stopped-getting-calls-featured.png",
-              "width": 1024,
-              "height": 1024
-            },
-            "author": {
-              "@type": "Organization",
-              "name": "The Answer Engine Team",
-              "url": "https://theanswerengine.ai",
-              "description": "Specialized Answer Engine Optimization team with 2+ years experience, 500+ schema implementations, and 100+ featured snippet wins across multiple AI platforms."
-            },
-            "publisher": {
-              "@type": "Organization",
-              "name": "The Answer Engine",
-              "logo": {
-                "@type": "ImageObject",
-                "url": "https://theanswerengine.ai/TheAnswerEngine_Color_just_logo.png"
-              }
-            },
-            "datePublished": "2026-01-24",
-            "dateModified": "2026-01-24",
-            "mainEntityOfPage": {
-              "@type": "WebPage",
-              "@id": "https://theanswerengine.ai/blog/website-stopped-getting-calls"
-            },
-            "keywords": "website not getting calls, website traffic but no leads, AI search, zero-click searches, Answer Engine Optimization, AEO, local business marketing",
-            "articleSection": "Answer Engine Optimization",
-            "wordCount": 1800,
-            "inLanguage": "en-US"
-          })
-        }}
-      />
-
-      {/* Complete FAQ Schema */}
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{
-          __html: JSON.stringify({
-            "@context": "https://schema.org",
-            "@type": "FAQPage",
-            "mainEntity": [
-              {
-                "@type": "Question",
-                "name": "Why is my website getting traffic but no phone calls?",
-                "acceptedAnswer": {
-                  "@type": "Answer",
-                  "text": "Nearly 60% of searches now end without a click because AI answers questions directly. High-intent buyers get recommendations from AI and call that business without ever visiting a website."
-                }
-              },
-              {
-                "@type": "Question",
-                "name": "How do I know if AI is recommending my competitors instead of me?",
-                "acceptedAnswer": {
-                  "@type": "Answer",
-                  "text": "Ask ChatGPT, Google AI Overview, and Perplexity 'Who's the best [your service] in [your city]?' If your competitor shows up consistently and you don't, AI is sending them your potential customers."
-                }
-              },
-              {
-                "@type": "Question",
-                "name": "Does ChatGPT use my Google Business Profile?",
-                "acceptedAnswer": {
-                  "@type": "Answer",
-                  "text": "No. ChatGPT uses Bing's web index, not Google's data. You need to claim Bing Places and ensure your information is consistent across platforms AI actually reads."
-                }
-              },
-              {
-                "@type": "Question",
-                "name": "What changed about how people find local businesses?",
-                "acceptedAnswer": {
-                  "@type": "Answer",
-                  "text": "AI assistants now answer questions directly instead of showing a list of websites. When someone asks for a recommendation, AI gives one or two answers-not ten."
-                }
-              },
-              {
-                "@type": "Question",
-                "name": "Can I still get leads if I'm not showing up in AI recommendations?",
-                "acceptedAnswer": {
-                  "@type": "Answer",
-                  "text": "Yes, but you're competing for a shrinking pool. Only about 40% of searches result in website clicks anymore. Businesses in AI recommendations get access to the other 60%."
-                }
-              },
-              {
-                "@type": "Question",
-                "name": "How long does it take to start showing up in AI recommendations?",
-                "acceptedAnswer": {
-                  "@type": "Answer",
-                  "text": "Businesses implementing comprehensive AI visibility strategies typically see changes within 90-120 days through consistent authority signals across multiple platforms."
-                }
-              }
-            ]
-          })
-        }}
-      />
-
-      {/* WebPage Schema */}
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{
-          __html: JSON.stringify({
-            "@context": "https://schema.org",
-            "@type": "WebPage",
-            "name": "Why Your Website Stopped Getting Calls | The Answer Engine",
-            "description": "Your website traffic looks fine but the phone stopped ringing. Here's what changed-and why your competitors are getting calls instead of you.",
-            "url": "https://theanswerengine.ai/blog/website-stopped-getting-calls",
-            "inLanguage": "en-US",
-            "isPartOf": {
-              "@type": "WebSite",
-              "name": "The Answer Engine",
-              "url": "https://theanswerengine.ai"
-            },
-            "about": {
-              "@type": "Thing",
-              "name": "Answer Engine Optimization"
-            },
-            "primaryImageOfPage": {
-              "@type": "ImageObject",
-              "url": "https://theanswerengine.ai/website-stopped-getting-calls-featured.png"
-            }
-          })
-        }}
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
       />
 
       <main className="min-h-screen bg-[#0A0A0F] relative">
@@ -593,6 +527,23 @@ export default function BlogPost() {
                   <path strokeLinecap="round" strokeLinejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3" />
                 </svg>
               </a>
+            </div>
+
+            {/* CTA Section */}
+            <div className="rounded-2xl p-8 sm:p-10 text-center my-16" style={{ background: 'linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%)' }}>
+              <h2 className="text-2xl sm:text-3xl font-bold text-white mb-4 font-plus-jakarta">Find Out If AI Is Recommending Your Business</h2>
+              <p className="text-gray-300 mb-6 max-w-2xl mx-auto">Most businesses have no idea whether AI platforms are sending them customers or sending them to competitors. Our free blind spot report shows you exactly where you stand.</p>
+              <Link href="/blindspot" className="inline-block px-8 py-4 rounded-lg font-semibold text-white transition-all duration-200 hover:brightness-110" style={{ backgroundColor: '#FF6A00' }}>Get Your Free Blind Spot Report</Link>
+    <div className="flex flex-wrap items-center gap-6 mt-6 pt-6 border-t border-[#FF6A00]/10">
+      <a href="tel:+12134442229" className="flex items-center gap-2 text-gray-400 hover:text-white transition-colors">
+        <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" /></svg>
+        (213) 444-2229
+      </a>
+      <a href="mailto:support@theanswerengine.ai" className="flex items-center gap-2 text-gray-400 hover:text-white transition-colors">
+        <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" /></svg>
+        support@theanswerengine.ai
+      </a>
+    </div>
             </div>
 
             {/* Divider */}

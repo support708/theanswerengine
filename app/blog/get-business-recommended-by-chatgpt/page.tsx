@@ -1,199 +1,128 @@
+import Link from 'next/link';
+
 export default function BlogPost() {
+  const jsonLd = {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Article",
+        "headline": "How to Get Your Business Recommended by ChatGPT (Case Study: 89% Growth, 5 Deals Closed)",
+        "description": "The exact strategy that got a local business recommended by ChatGPT and AI platforms — producing 89% click growth, 2.9 million impressions, and 5 closed deals in 4 months.",
+        "image": {
+          "@type": "ImageObject",
+          "url": "https://theanswerengine.ai/blog/get-business-recommended-by-chatgpt.svg",
+          "width": 1024,
+          "height": 1024
+        },
+        "author": {
+          "@type": "Organization",
+          "name": "The Answer Engine",
+          "url": "https://theanswerengine.ai"
+        },
+        "publisher": {
+          "@type": "Organization",
+          "name": "The Answer Engine",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "https://theanswerengine.ai/TheAnswerEngine_Color_just_logo.png"
+          }
+        },
+        "datePublished": "2026-03-04",
+        "dateModified": "2026-03-04",
+        "mainEntityOfPage": {
+          "@type": "WebPage",
+          "@id": "https://theanswerengine.ai/blog/get-business-recommended-by-chatgpt"
+        },
+        "keywords": "how to get business recommended by ChatGPT, get recommended by AI, ChatGPT business recommendations, AI search optimization, how to show up in AI search results, ChatGPT SEO, answer engine optimization case study",
+        "articleSection": "Case Study",
+        "wordCount": 3000,
+        "inLanguage": "en-US"
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "What results can a local business expect from AEO?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Results vary significantly by niche, market competition, content investment, and baseline visibility. This case study shows an 89% click increase in 90 days, growing from hundreds of monthly clicks to over 8,400. AI citations typically begin appearing within 60 to 90 days of consistent, schema-optimized content publication."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How long does AEO take to produce results?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "This real estate team saw measurable traffic growth within the first 30 days and significant ranking improvements by month two. Closed deals attributed to content began appearing in the fourth month of the content push."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Can AEO actually generate leads and closed business?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. This case study documents 5 closed real estate deals in 2026 directly attributed to blog content, including one client who discovered the agent through ChatGPT before ever visiting the website."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What is the difference between AEO and traditional SEO?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Traditional SEO targets Google rankings. AEO targets AI citations — getting your business recommended by ChatGPT, Perplexity, Claude, and Google AI Overviews. The two complement each other; AEO adds schema markup, FAQ structures, and topical cluster architecture that SEO alone doesn't address."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Does AEO work for real estate agents?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Real estate is one of the strongest AEO verticals because buyers and sellers ask extremely specific, high-stakes questions that AI platforms actively try to answer. Agents with documented local expertise in complex niches — probate, rent control, inheritance — are particularly well-positioned."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How much does Answer Engine Optimization cost?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "The Answer Engine's Foundation Package starts at $2,997 and includes six authority spoke articles and one comprehensive hub guide with full schema implementation. Monthly authority builder packages range from $2,097 to $2,497 per month."
+            }
+          }
+        ]
+      },
+      {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://theanswerengine.ai"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Blog",
+            "item": "https://theanswerengine.ai/blog"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "How to Get Your Business Recommended by ChatGPT",
+            "item": "https://theanswerengine.ai/blog/get-business-recommended-by-chatgpt"
+          }
+        ]
+      }
+    ]
+  };
+
   return (
     <>
-      {/* Organization Schema */}
+      {/* Schema Markup - @graph structure */}
       <script
         type="application/ld+json"
-        dangerouslySetInnerHTML={{
-          __html: JSON.stringify({
-            "@context": "https://schema.org",
-            "@type": "Organization",
-            "name": "The Answer Engine",
-            "url": "https://theanswerengine.ai",
-            "logo": "https://theanswerengine.ai/TheAnswerEngine_Color_just_logo.png",
-            "description": "The Answer Engine specializes in Answer Engine Optimization (AEO) for local service businesses. We help companies get cited by Google AI Overviews, ChatGPT, Claude, Perplexity, and other AI platforms.",
-            "foundingDate": "2023",
-            "areaServed": "United States",
-            "knowsAbout": [
-              "Answer Engine Optimization",
-              "AI Citation Optimization",
-              "Featured Snippet Optimization",
-              "Schema Markup Implementation",
-              "Google AI Overviews",
-              "ChatGPT Optimization",
-              "Local SEO",
-              "E-E-A-T Optimization"
-            ]
-          })
-        }}
-      />
-
-      {/* BreadcrumbList Schema */}
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{
-          __html: JSON.stringify({
-            "@context": "https://schema.org",
-            "@type": "BreadcrumbList",
-            "itemListElement": [
-              {
-                "@type": "ListItem",
-                "position": 1,
-                "name": "Home",
-                "item": "https://theanswerengine.ai"
-              },
-              {
-                "@type": "ListItem",
-                "position": 2,
-                "name": "Blog",
-                "item": "https://theanswerengine.ai/blog"
-              },
-              {
-                "@type": "ListItem",
-                "position": 3,
-                "name": "How to Get Your Business Recommended by ChatGPT",
-                "item": "https://theanswerengine.ai/blog/get-business-recommended-by-chatgpt"
-              }
-            ]
-          })
-        }}
-      />
-
-      {/* Article Schema */}
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{
-          __html: JSON.stringify({
-            "@context": "https://schema.org",
-            "@type": "Article",
-            "headline": "How to Get Your Business Recommended by ChatGPT (Case Study: 89% Growth, 5 Deals Closed)",
-            "description": "The exact strategy that got a local business recommended by ChatGPT and AI platforms — producing 89% click growth, 2.9 million impressions, and 5 closed deals in 4 months.",
-            "image": {
-              "@type": "ImageObject",
-              "url": "https://theanswerengine.ai/blog/get-business-recommended-by-chatgpt.svg",
-              "width": 1024,
-              "height": 1024
-            },
-            "author": {
-              "@type": "Person",
-              "name": "Justin Borges",
-              "jobTitle": "Founder",
-              "worksFor": {
-                "@type": "Organization",
-                "name": "The Answer Engine"
-              },
-              "url": "https://theanswerengine.ai",
-              "description": "Justin Borges is the founder of The Answer Engine, a Pasadena-based AEO agency. His methodology combines proprietary voice capture interviews, hub-and-spoke content architecture, and full technical schema implementation."
-            },
-            "publisher": {
-              "@type": "Organization",
-              "name": "The Answer Engine",
-              "logo": {
-                "@type": "ImageObject",
-                "url": "https://theanswerengine.ai/TheAnswerEngine_Color_just_logo.png"
-              }
-            },
-            "datePublished": "2026-03-04",
-            "dateModified": "2026-03-04",
-            "mainEntityOfPage": {
-              "@type": "WebPage",
-              "@id": "https://theanswerengine.ai/blog/get-business-recommended-by-chatgpt"
-            },
-            "keywords": "how to get business recommended by ChatGPT, get recommended by AI, ChatGPT business recommendations, AI search optimization, how to show up in AI search results, ChatGPT SEO, answer engine optimization case study",
-            "articleSection": "Case Study",
-            "wordCount": 3000,
-            "inLanguage": "en-US"
-          })
-        }}
-      />
-
-      {/* FAQ Schema */}
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{
-          __html: JSON.stringify({
-            "@context": "https://schema.org",
-            "@type": "FAQPage",
-            "mainEntity": [
-              {
-                "@type": "Question",
-                "name": "What results can a local business expect from AEO?",
-                "acceptedAnswer": {
-                  "@type": "Answer",
-                  "text": "Results vary significantly by niche, market competition, content investment, and baseline visibility. This case study shows an 89% click increase in 90 days, growing from hundreds of monthly clicks to over 8,400. AI citations typically begin appearing within 60 to 90 days of consistent, schema-optimized content publication."
-                }
-              },
-              {
-                "@type": "Question",
-                "name": "How long does AEO take to produce results?",
-                "acceptedAnswer": {
-                  "@type": "Answer",
-                  "text": "This real estate team saw measurable traffic growth within the first 30 days and significant ranking improvements by month two. Closed deals attributed to content began appearing in the fourth month of the content push."
-                }
-              },
-              {
-                "@type": "Question",
-                "name": "Can AEO actually generate leads and closed business?",
-                "acceptedAnswer": {
-                  "@type": "Answer",
-                  "text": "Yes. This case study documents 5 closed real estate deals in 2026 directly attributed to blog content, including one client who discovered the agent through ChatGPT before ever visiting the website."
-                }
-              },
-              {
-                "@type": "Question",
-                "name": "What is the difference between AEO and traditional SEO?",
-                "acceptedAnswer": {
-                  "@type": "Answer",
-                  "text": "Traditional SEO targets Google rankings. AEO targets AI citations — getting your business recommended by ChatGPT, Perplexity, Claude, and Google AI Overviews. The two complement each other; AEO adds schema markup, FAQ structures, and topical cluster architecture that SEO alone doesn't address."
-                }
-              },
-              {
-                "@type": "Question",
-                "name": "Does AEO work for real estate agents?",
-                "acceptedAnswer": {
-                  "@type": "Answer",
-                  "text": "Real estate is one of the strongest AEO verticals because buyers and sellers ask extremely specific, high-stakes questions that AI platforms actively try to answer. Agents with documented local expertise in complex niches — probate, rent control, inheritance — are particularly well-positioned."
-                }
-              },
-              {
-                "@type": "Question",
-                "name": "How much does Answer Engine Optimization cost?",
-                "acceptedAnswer": {
-                  "@type": "Answer",
-                  "text": "The Answer Engine's Foundation Package starts at $2,997 and includes six authority spoke articles and one comprehensive hub guide with full schema implementation. Monthly authority builder packages range from $2,097 to $2,497 per month."
-                }
-              }
-            ]
-          })
-        }}
-      />
-
-      {/* WebPage Schema */}
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{
-          __html: JSON.stringify({
-            "@context": "https://schema.org",
-            "@type": "WebPage",
-            "name": "How to Get Your Business Recommended by ChatGPT (Case Study: 89% Growth, 5 Deals) | The Answer Engine",
-            "description": "The exact strategy that got a local business recommended by ChatGPT — 89% click growth, 2.9M impressions, and 5 closed deals in 4 months from near-zero traffic.",
-            "url": "https://theanswerengine.ai/blog/get-business-recommended-by-chatgpt",
-            "inLanguage": "en-US",
-            "isPartOf": {
-              "@type": "WebSite",
-              "name": "The Answer Engine",
-              "url": "https://theanswerengine.ai"
-            },
-            "about": {
-              "@type": "Thing",
-              "name": "How to Get Your Business Recommended by ChatGPT and AI Platforms"
-            },
-            "primaryImageOfPage": {
-              "@type": "ImageObject",
-              "url": "https://theanswerengine.ai/blog/get-business-recommended-by-chatgpt.svg"
-            }
-          })
-        }}
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
       />
 
       <main className="min-h-screen bg-[#0A0A0F] relative">
@@ -589,6 +518,23 @@ export default function BlogPost() {
               {[...Array(50)].map((_, i) => (
                 <div key={i} className="w-px h-px bg-gray-600" />
               ))}
+            </div>
+
+            {/* CTA Section */}
+            <div className="rounded-2xl p-8 sm:p-10 text-center my-16" style={{ background: 'linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%)' }}>
+              <h2 className="text-2xl sm:text-3xl font-bold text-white mb-4 font-plus-jakarta">Find Out If AI Is Recommending Your Business</h2>
+              <p className="text-gray-300 mb-6 max-w-2xl mx-auto">Most businesses have no idea whether AI platforms are sending them customers or sending them to competitors. Our free blind spot report shows you exactly where you stand.</p>
+              <Link href="/blindspot" className="inline-block px-8 py-4 rounded-lg font-semibold text-white transition-all duration-200 hover:brightness-110" style={{ backgroundColor: '#FF6A00' }}>Get Your Free Blind Spot Report</Link>
+    <div className="flex flex-wrap items-center gap-6 mt-6 pt-6 border-t border-[#FF6A00]/10">
+      <a href="tel:+12134442229" className="flex items-center gap-2 text-gray-400 hover:text-white transition-colors">
+        <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" /></svg>
+        (213) 444-2229
+      </a>
+      <a href="mailto:support@theanswerengine.ai" className="flex items-center gap-2 text-gray-400 hover:text-white transition-colors">
+        <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" /></svg>
+        support@theanswerengine.ai
+      </a>
+    </div>
             </div>
 
             {/* FAQ Section */}
