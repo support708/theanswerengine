@@ -258,7 +258,7 @@
     "title": "AEO Case Study: 8,400+ Monthly Clicks in LA Real Estate",
     "slug": "case-studies/justin-borges",
     "customUrl": "/case-studies/justin-borges",
-    "excerpt": "How a Los Angeles real estate team achieved 8,400+ monthly clicks, 1.1M+ impressions, and 100% AI citation rates through Answer Engine Optimization\u00e2\u20ac\u201dwith 81% click growth in 3 months.",
+    "excerpt": "How a Los Angeles real estate team achieved 8,400+ monthly clicks, 1.1M+ impressions, and 100% AI citation rates through Answer Engine Optimizationâ€”with 81% click growth in 3 months.",
     "category": "Case Study",
     "author": "JB",
     "readTime": "8 min",
@@ -359,7 +359,7 @@
   },
   {
     "id": 19,
-    "title": "ChatGPT Can't See Your Google Business Profile \u00e2\u20ac\u201d Here's What It CAN See",
+    "title": "ChatGPT Can't See Your Google Business Profile â€” Here's What It CAN See",
     "slug": "chatgpt-cant-see-google-business-profile",
     "excerpt": "Your Google Business Profile is invisible to ChatGPT. Learn exactly what information sources ChatGPT can access about your business and how to optimize them.",
     "category": "AI Visibility",
@@ -381,7 +381,7 @@
     "id": 20,
     "title": "How to Get Your Business Recommended by ChatGPT (Case Study: 89% Growth)",
     "slug": "get-business-recommended-by-chatgpt",
-    "excerpt": "The exact strategy that got a local business recommended by ChatGPT and AI platforms \u00e2\u20ac\u201d producing 89% click growth, 2.9 million impressions, and 5 closed deals in 4 months.",
+    "excerpt": "The exact strategy that got a local business recommended by ChatGPT and AI platforms â€” producing 89% click growth, 2.9 million impressions, and 5 closed deals in 4 months.",
     "category": "Case Study",
     "author": "Justin Borges",
     "readTime": "12 min",
@@ -1115,6 +1115,86 @@
       "Local SEO",
       "AI Visibility",
       "AEO"
+    ]
+  },
+  {
+    "id": 54,
+    "title": "Why Your LinkedIn Profile Matters for AI Search",
+    "slug": "linkedin-profile-ai-search-visibility",
+    "excerpt": "LinkedIn is one of the most-cited sources in AI search. Learn how your LinkedIn presence influences whether AI platforms recommend your business.",
+    "category": "Platform Deep Dives",
+    "author": "The Answer Engine Team",
+    "readTime": "10 min",
+    "image": "/blog/linkedin-profile-ai-search-visibility.svg",
+    "publishDate": "2026-03-20",
+    "lastModified": "2026-03-20",
+    "featured": true,
+    "tags": [
+      "LinkedIn",
+      "AI Search",
+      "Platform Deep Dive",
+      "AI Citations",
+      "AI Visibility"
+    ]
+  },
+  {
+    "id": 55,
+    "title": "Zero-Click Search: Why Nobody Visits Your Site",
+    "slug": "zero-click-search-killing-website-traffic",
+    "excerpt": "Over 80% of AI-triggered searches end without a click. Your website traffic is dropping and AI summaries are the reason. Here is what to do about it.",
+    "category": "Business Pain Points",
+    "author": "The Answer Engine Team",
+    "readTime": "11 min",
+    "image": "/blog/zero-click-search-killing-website-traffic.svg",
+    "publishDate": "2026-03-20",
+    "lastModified": "2026-03-20",
+    "featured": true,
+    "tags": [
+      "Zero-Click Search",
+      "AI Overviews",
+      "Website Traffic",
+      "Google AI",
+      "SEO"
+    ]
+  },
+  {
+    "id": 56,
+    "title": "How Customers Actually Use AI to Find Businesses",
+    "slug": "how-customers-use-ai-to-find-local-businesses",
+    "excerpt": "ChatGPT processes billions of prompts daily and holds growing search market share. Understand exactly how real customers use AI to choose businesses.",
+    "category": "How-To Guides",
+    "author": "The Answer Engine Team",
+    "readTime": "11 min",
+    "image": "/blog/how-customers-use-ai-to-find-local-businesses.svg",
+    "publishDate": "2026-03-20",
+    "lastModified": "2026-03-20",
+    "featured": true,
+    "tags": [
+      "Customer Behavior",
+      "AI Search",
+      "ChatGPT",
+      "Local Business",
+      "AI Recommendations"
+    ]
+  },
+  {
+    "id": 57,
+    "title": "Why Competitors Get Mentioned on Reddit and AI",
+    "slug": "reddit-mentions-boost-ai-search-visibility",
+    "excerpt": "Nearly half of AI citations come from community platforms like Reddit and YouTube. If your competitors are discussed there and you are not, AI will recommend them.",
+    "category": "Myth Busters",
+    "author": "The Answer Engine Team",
+    "readTime": "11 min",
+    "image": "/blog/reddit-mentions-boost-ai-search-visibility.svg",
+    "publishDate": "2026-03-20",
+    "lastModified": "2026-03-20",
+    "featured": true,
+    "tags": [
+      "Reddit",
+      "Community Platforms",
+      "AI Citations",
+      "YouTube",
+      "AI Visibility"
     ]
   }
 ]

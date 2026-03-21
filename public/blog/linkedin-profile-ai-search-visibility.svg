@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="bgLNAI" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0d2e3b;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#0F1117;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#0d2e3b;stop-opacity:1" />
+    </linearGradient>
+    <filter id="glowLNAI"><feGaussianBlur stdDeviation="6" result="blurLNAI"/><feMerge><feMergeNode in="blurLNAI"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <linearGradient id="scoreRingLNAI" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#FF6A00;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#FF9A40;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bgLNAI)"/>
+  <line x1="0" y1="126" x2="1200" y2="126" stroke="rgba(255,106,0,0.05)" stroke-width="0.5"/>
+  <line x1="0" y1="252" x2="1200" y2="252" stroke="rgba(255,106,0,0.05)" stroke-width="0.5"/>
+  <line x1="0" y1="378" x2="1200" y2="378" stroke="rgba(255,106,0,0.05)" stroke-width="0.5"/>
+  <line x1="0" y1="504" x2="1200" y2="504" stroke="rgba(255,106,0,0.05)" stroke-width="0.5"/>
+  <line x1="300" y1="0" x2="300" y2="630" stroke="rgba(255,106,0,0.05)" stroke-width="0.5"/>
+  <line x1="600" y1="0" x2="600" y2="630" stroke="rgba(255,106,0,0.05)" stroke-width="0.5"/>
+  <line x1="900" y1="0" x2="900" y2="630" stroke="rgba(255,106,0,0.05)" stroke-width="0.5"/>
+  <!-- Right Panel: LinkedIn AI Scoring Dashboard -->
+  <g transform="translate(650, 50)">
+    <rect x="0" y="0" width="480" height="440" rx="12" fill="rgba(255,255,255,0.06)" stroke="rgba(255,255,255,0.12)" stroke-width="1"/>
+    <text x="240" y="28" font-family="system-ui, sans-serif" font-size="12" fill="rgba(255,255,255,0.5)" text-anchor="middle" font-weight="600">LINKEDIN AI SCORING DASHBOARD</text>
+    <!-- Central Score Circle -->
+    <circle cx="240" cy="110" r="55" fill="none" stroke="rgba(255,255,255,0.08)" stroke-width="6"/>
+    <circle cx="240" cy="110" r="55" fill="none" stroke="url(#scoreRingLNAI)" stroke-width="6" stroke-dasharray="300 50" stroke-linecap="round"/>
+    <circle cx="240" cy="110" r="42" fill="rgba(255,106,0,0.08)"/>
+    <text x="240" y="118" font-family="system-ui, sans-serif" font-size="32" fill="#FF6A00" text-anchor="middle" font-weight="800" filter="url(#glowLNAI)">8.7</text>
+    <text x="240" y="138" font-family="system-ui, sans-serif" font-size="8" fill="rgba(255,255,255,0.4)" text-anchor="middle" font-weight="600" letter-spacing="1.5">LINKEDIN AI SCORE</text>
+    <!-- Signal Bar 1: Profile Completeness 92% -->
+    <text x="20" y="195" font-family="system-ui, sans-serif" font-size="9" fill="rgba(255,255,255,0.6)">Profile Completeness</text>
+    <text x="420" y="195" font-family="system-ui, sans-serif" font-size="10" fill="rgba(100,220,100,0.9)" text-anchor="end" font-weight="700">92%</text>
+    <rect x="20" y="200" width="440" height="6" rx="3" fill="rgba(255,255,255,0.06)"/>
+    <rect x="20" y="200" width="405" height="6" rx="3" fill="rgba(100,220,100,0.7)"/>
+    <!-- Signal Bar 2: Content Frequency 74% -->
+    <text x="20" y="228" font-family="system-ui, sans-serif" font-size="9" fill="rgba(255,255,255,0.6)">Content Frequency</text>
+    <text x="420" y="228" font-family="system-ui, sans-serif" font-size="10" fill="#FF6A00" text-anchor="end" font-weight="700">74%</text>
+    <rect x="20" y="233" width="440" height="6" rx="3" fill="rgba(255,255,255,0.06)"/>
+    <rect x="20" y="233" width="326" height="6" rx="3" fill="rgba(255,106,0,0.7)"/>
+    <!-- Signal Bar 3: Engagement Rate 61% -->
+    <text x="20" y="261" font-family="system-ui, sans-serif" font-size="9" fill="rgba(255,255,255,0.6)">Engagement Rate</text>
+    <text x="420" y="261" font-family="system-ui, sans-serif" font-size="10" fill="rgba(255,200,60,0.9)" text-anchor="end" font-weight="700">61%</text>
+    <rect x="20" y="266" width="440" height="6" rx="3" fill="rgba(255,255,255,0.06)"/>
+    <rect x="20" y="266" width="268" height="6" rx="3" fill="rgba(255,200,60,0.7)"/>
+    <!-- Signal Bar 4: Article Count 45% -->
+    <text x="20" y="294" font-family="system-ui, sans-serif" font-size="9" fill="rgba(255,255,255,0.6)">Article Count</text>
+    <text x="420" y="294" font-family="system-ui, sans-serif" font-size="10" fill="rgba(255,80,80,0.9)" text-anchor="end" font-weight="700">45%</text>
+    <rect x="20" y="299" width="440" height="6" rx="3" fill="rgba(255,255,255,0.06)"/>
+    <rect x="20" y="299" width="198" height="6" rx="3" fill="rgba(255,80,80,0.7)"/>
+    <!-- Signal Bar 5: Network Authority 83% -->
+    <text x="20" y="327" font-family="system-ui, sans-serif" font-size="9" fill="rgba(255,255,255,0.6)">Network Authority</text>
+    <text x="420" y="327" font-family="system-ui, sans-serif" font-size="10" fill="rgba(100,220,100,0.9)" text-anchor="end" font-weight="700">83%</text>
+    <rect x="20" y="332" width="440" height="6" rx="3" fill="rgba(255,255,255,0.06)"/>
+    <rect x="20" y="332" width="365" height="6" rx="3" fill="rgba(100,220,100,0.7)"/>
+    <!-- Bottom Insight Box -->
+    <rect x="20" y="360" width="440" height="60" rx="8" fill="rgba(255,106,0,0.08)" stroke="#FF6A00" stroke-width="1.5" stroke-opacity="0.5"/>
+    <text x="240" y="385" font-family="system-ui, sans-serif" font-size="10" fill="rgba(255,255,255,0.6)" text-anchor="middle" font-weight="600">KEY INSIGHT</text>
+    <text x="240" y="406" font-family="system-ui, sans-serif" font-size="11" fill="#FF6A00" text-anchor="middle" font-weight="700">LinkedIn is now a top-5 cited source in AI search</text>
+  </g>
+  <!-- Decorative circle -->
+  <circle cx="100" cy="130" r="60" stroke="rgba(255,106,0,0.06)" stroke-width="0.5" fill="none"/>
+  <!-- Category pill -->
+  <rect x="40" y="40" width="220" height="32" rx="16" fill="rgba(255,106,0,0.15)" stroke="rgba(255,106,0,0.3)" stroke-width="1"/>
+  <text x="150" y="62" font-family="system-ui, -apple-system, sans-serif" font-size="14" font-weight="500" fill="#FF6A00" text-anchor="middle">Platform Deep Dive</text>
+  <!-- Title -->
+  <text x="80" y="260" font-family="system-ui, -apple-system, sans-serif" font-size="38" font-weight="700" fill="white">Why Your LinkedIn</text>
+  <text x="80" y="310" font-family="system-ui, -apple-system, sans-serif" font-size="38" font-weight="700" fill="white">Profile Matters for</text>
+  <text x="80" y="360" font-family="system-ui, -apple-system, sans-serif" font-size="38" font-weight="700" fill="#FF6A00" filter="url(#glowLNAI)">AI Search</text>
+  <!-- Subtitle -->
+  <text x="80" y="410" font-family="system-ui, -apple-system, sans-serif" font-size="20" font-weight="400" fill="rgba(255,255,255,0.45)">Optimize Your Professional Presence</text>
+  <!-- Footer -->
+  <text x="600" y="580" font-family="system-ui, -apple-system, sans-serif" font-size="16" font-weight="500" fill="rgba(255,255,255,0.5)" text-anchor="middle" letter-spacing="4">THE ANSWER ENGINE</text>
+  <circle cx="1120" cy="590" r="30" fill="rgba(255,255,255,0.1)"/>
+  <text x="1120" y="598" font-family="system-ui, -apple-system, sans-serif" font-size="20" font-weight="700" fill="rgba(255,255,255,0.3)" text-anchor="middle">AE</text>
+</svg>

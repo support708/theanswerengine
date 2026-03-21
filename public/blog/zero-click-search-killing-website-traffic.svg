@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="bgZCSR" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#3b0d0d;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#0F1117;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#3b0d0d;stop-opacity:1" />
+    </linearGradient>
+    <filter id="glowZCSR"><feGaussianBlur stdDeviation="6" result="blurZCSR"/><feMerge><feMergeNode in="blurZCSR"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <linearGradient id="trendZCSR" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:rgba(255,80,80,0.8);stop-opacity:1" />
+      <stop offset="100%" style="stop-color:rgba(255,80,80,0.3);stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bgZCSR)"/>
+  <line x1="0" y1="126" x2="1200" y2="126" stroke="rgba(255,106,0,0.05)" stroke-width="0.5"/>
+  <line x1="0" y1="252" x2="1200" y2="252" stroke="rgba(255,106,0,0.05)" stroke-width="0.5"/>
+  <line x1="0" y1="378" x2="1200" y2="378" stroke="rgba(255,106,0,0.05)" stroke-width="0.5"/>
+  <line x1="0" y1="504" x2="1200" y2="504" stroke="rgba(255,106,0,0.05)" stroke-width="0.5"/>
+  <line x1="300" y1="0" x2="300" y2="630" stroke="rgba(255,106,0,0.05)" stroke-width="0.5"/>
+  <line x1="600" y1="0" x2="600" y2="630" stroke="rgba(255,106,0,0.05)" stroke-width="0.5"/>
+  <line x1="900" y1="0" x2="900" y2="630" stroke="rgba(255,106,0,0.05)" stroke-width="0.5"/>
+  <!-- Right Panel: Zero-Click Metrics -->
+  <g transform="translate(650, 50)">
+    <rect x="0" y="0" width="480" height="440" rx="12" fill="rgba(255,255,255,0.06)" stroke="rgba(255,255,255,0.12)" stroke-width="1"/>
+    <text x="240" y="28" font-family="system-ui, sans-serif" font-size="12" fill="rgba(255,255,255,0.5)" text-anchor="middle" font-weight="600">SEARCH LANDSCAPE ANALYSIS</text>
+    <!-- 3 Metric Cards -->
+    <rect x="20" y="45" width="135" height="85" rx="8" fill="rgba(255,80,80,0.08)" stroke="rgba(255,80,80,0.3)" stroke-width="1"/>
+    <text x="87" y="72" font-family="system-ui, sans-serif" font-size="9" fill="rgba(255,255,255,0.5)" text-anchor="middle" font-weight="600">ZERO-CLICK RATE</text>
+    <text x="87" y="108" font-family="system-ui, sans-serif" font-size="32" fill="rgba(255,80,80,0.9)" text-anchor="middle" font-weight="800">83%</text>
+    <rect x="172" y="45" width="135" height="85" rx="8" fill="rgba(255,106,0,0.08)" stroke="rgba(255,106,0,0.3)" stroke-width="1"/>
+    <text x="240" y="72" font-family="system-ui, sans-serif" font-size="9" fill="rgba(255,255,255,0.5)" text-anchor="middle" font-weight="600">AI OVERVIEWS</text>
+    <text x="240" y="108" font-family="system-ui, sans-serif" font-size="32" fill="#FF6A00" text-anchor="middle" font-weight="800">25%</text>
+    <rect x="325" y="45" width="135" height="85" rx="8" fill="rgba(100,220,100,0.08)" stroke="rgba(100,220,100,0.3)" stroke-width="1"/>
+    <text x="392" y="72" font-family="system-ui, sans-serif" font-size="9" fill="rgba(255,255,255,0.5)" text-anchor="middle" font-weight="600">AI CONVERSION</text>
+    <text x="392" y="108" font-family="system-ui, sans-serif" font-size="32" fill="rgba(100,220,100,0.9)" text-anchor="middle" font-weight="800">5x</text>
+    <!-- Traffic Trend Chart -->
+    <text x="20" y="160" font-family="system-ui, sans-serif" font-size="10" fill="rgba(255,255,255,0.5)" font-weight="600">ORGANIC TRAFFIC TREND</text>
+    <rect x="20" y="170" width="440" height="150" rx="6" fill="rgba(255,255,255,0.03)"/>
+    <!-- Chart grid lines -->
+    <line x1="20" y1="200" x2="460" y2="200" stroke="rgba(255,255,255,0.04)" stroke-width="0.5"/>
+    <line x1="20" y1="240" x2="460" y2="240" stroke="rgba(255,255,255,0.04)" stroke-width="0.5"/>
+    <line x1="20" y1="280" x2="460" y2="280" stroke="rgba(255,255,255,0.04)" stroke-width="0.5"/>
+    <!-- Y-axis labels -->
+    <text x="30" y="195" font-family="system-ui, sans-serif" font-size="8" fill="rgba(255,255,255,0.3)">100%</text>
+    <text x="30" y="235" font-family="system-ui, sans-serif" font-size="8" fill="rgba(255,255,255,0.3)">75%</text>
+    <text x="30" y="275" font-family="system-ui, sans-serif" font-size="8" fill="rgba(255,255,255,0.3)">50%</text>
+    <text x="30" y="315" font-family="system-ui, sans-serif" font-size="8" fill="rgba(255,255,255,0.3)">25%</text>
+    <!-- X-axis labels -->
+    <text x="70" y="315" font-family="system-ui, sans-serif" font-size="8" fill="rgba(255,255,255,0.3)">2020</text>
+    <text x="170" y="315" font-family="system-ui, sans-serif" font-size="8" fill="rgba(255,255,255,0.3)">2022</text>
+    <text x="270" y="315" font-family="system-ui, sans-serif" font-size="8" fill="rgba(255,255,255,0.3)">2024</text>
+    <text x="370" y="315" font-family="system-ui, sans-serif" font-size="8" fill="rgba(255,255,255,0.3)">2026</text>
+    <!-- Declining traffic line -->
+    <polyline points="70,190 120,195 170,205 220,218 270,240 320,265 370,285 420,300" fill="none" stroke="rgba(255,80,80,0.8)" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <!-- Area under the line -->
+    <polygon points="70,190 120,195 170,205 220,218 270,240 320,265 370,285 420,300 420,310 70,310" fill="rgba(255,80,80,0.1)"/>
+    <!-- Trend arrow -->
+    <text x="430" y="295" font-family="system-ui, sans-serif" font-size="14" fill="rgba(255,80,80,0.8)">&#x2193;</text>
+    <!-- Bottom Insight Box -->
+    <rect x="20" y="340" width="440" height="80" rx="8" fill="rgba(255,106,0,0.08)" stroke="#FF6A00" stroke-width="1.5" stroke-opacity="0.5"/>
+    <text x="240" y="368" font-family="system-ui, sans-serif" font-size="10" fill="rgba(255,255,255,0.6)" text-anchor="middle" font-weight="600">THE OPPORTUNITY</text>
+    <text x="240" y="393" font-family="system-ui, sans-serif" font-size="11" fill="#FF6A00" text-anchor="middle" font-weight="700">AI search traffic converts 5x higher than organic</text>
+    <text x="240" y="410" font-family="system-ui, sans-serif" font-size="9" fill="rgba(255,255,255,0.4)" text-anchor="middle">Fewer visits, but dramatically higher intent</text>
+  </g>
+  <!-- Decorative circle -->
+  <circle cx="100" cy="130" r="60" stroke="rgba(255,106,0,0.06)" stroke-width="0.5" fill="none"/>
+  <!-- Category pill -->
+  <rect x="40" y="40" width="230" height="32" rx="16" fill="rgba(255,106,0,0.15)" stroke="rgba(255,106,0,0.3)" stroke-width="1"/>
+  <text x="155" y="62" font-family="system-ui, -apple-system, sans-serif" font-size="14" font-weight="500" fill="#FF6A00" text-anchor="middle">Business Pain Point</text>
+  <!-- Title -->
+  <text x="80" y="260" font-family="system-ui, -apple-system, sans-serif" font-size="38" font-weight="700" fill="white">Zero-Click Search: Why</text>
+  <text x="80" y="310" font-family="system-ui, -apple-system, sans-serif" font-size="38" font-weight="700" fill="white">Nobody Visits</text>
+  <text x="80" y="360" font-family="system-ui, -apple-system, sans-serif" font-size="38" font-weight="700" fill="#FF6A00" filter="url(#glowZCSR)">Your Site</text>
+  <!-- Subtitle -->
+  <text x="80" y="410" font-family="system-ui, -apple-system, sans-serif" font-size="20" font-weight="400" fill="rgba(255,255,255,0.45)">The Traffic Shift You Cannot Ignore</text>
+  <!-- Footer -->
+  <text x="600" y="580" font-family="system-ui, -apple-system, sans-serif" font-size="16" font-weight="500" fill="rgba(255,255,255,0.5)" text-anchor="middle" letter-spacing="4">THE ANSWER ENGINE</text>
+  <circle cx="1120" cy="590" r="30" fill="rgba(255,255,255,0.1)"/>
+  <text x="1120" y="598" font-family="system-ui, -apple-system, sans-serif" font-size="20" font-weight="700" fill="rgba(255,255,255,0.3)" text-anchor="middle">AE</text>
+</svg>
