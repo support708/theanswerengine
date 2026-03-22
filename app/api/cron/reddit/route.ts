@@ -2,9 +2,9 @@
  * Vercel Cron endpoint for Reddit Opportunity Monitor.
  * Protected by CRON_SECRET (not NextAuth).
  *
- * Polls Reddit for posts matching client keywords, scores them with AI,
- * alerts Justin via Telegram for high-scoring opportunities, and stores
- * results for client email digests.
+ * Processes ONE client per invocation (rotating), to stay within
+ * the 5-minute Vercel function timeout. With 4 clients and a 15-min
+ * cron, each client gets scanned roughly once per hour.
  *
  * Schedule: every 15 minutes (configured in vercel.json)
  * Kill switch: REDDIT_ENABLED env var
@@ -33,7 +33,9 @@ import type { RedditPost, RedditOpportunity, ClientRedditConfig, RedditCronResul
 export const maxDuration = 300; // 5 minutes
 
 const MIN_SCORE = parseFloat(process.env.REDDIT_MIN_SCORE || '6');
-const MAX_POSTS_TO_SCORE_PER_RUN = 30; // Cap to avoid timeout
+const MAX_POSTS_TO_SCORE_PER_RUN = 15; // Keep low to fit in timeout
+const MAX_SUBREDDITS_PER_RUN = 4; // Limit subreddits per client per run
+const MAX_QUERIES_PER_SUB = 2; // Limit queries per subreddit
 
 export async function GET(request: NextRequest) {
   // Auth
@@ -79,121 +81,131 @@ export async function GET(request: NextRequest) {
       return NextResponse.json({ status: 'no_active_clients' });
     }
 
+    // Rotate: pick one client per invocation based on current time
+    // With 15-min cron and 4 clients, each client scanned ~once per hour
+    const clientIndex = request.nextUrl.searchParams.has('client')
+      ? configs.findIndex(c => c.clientSlug === request.nextUrl.searchParams.get('client'))
+      : Math.floor(Date.now() / (15 * 60 * 1000)) % configs.length;
+
+    const safeIndex = clientIndex >= 0 && clientIndex < configs.length ? clientIndex : 0;
+    const config = configs[safeIndex];
+
     let totalScored = 0;
+    result.byClient[config.clientSlug] = { scanned: 0, qualified: 0 };
 
-    for (const config of configs) {
-      result.byClient[config.clientSlug] = { scanned: 0, qualified: 0 };
+    try {
+      // Pick top queries for this client
+      const searchQueries = config.keywords.slice(0, MAX_QUERIES_PER_SUB);
 
-      try {
-        // Pick top 3 keyword queries for this client (most specific first)
-        const searchQueries = config.keywords.slice(0, 3);
+      // Limit subreddits per run
+      const subreddits = [...new Set(config.subreddits)].slice(0, MAX_SUBREDDITS_PER_RUN);
 
-        // Deduplicate subreddits
-        const subreddits = [...new Set(config.subreddits)];
+      // Search each subreddit with each query
+      const allPosts: RedditPost[] = [];
+      const seenInRun = new Set<string>();
 
-        // Search each subreddit with each query
-        const allPosts: RedditPost[] = [];
-        const seenInRun = new Set<string>();
+      for (const subreddit of subreddits) {
+        for (const query of searchQueries) {
+          if (totalScored >= MAX_POSTS_TO_SCORE_PER_RUN) break;
 
-        for (const subreddit of subreddits) {
-          for (const query of searchQueries) {
-            // Stop if we've hit the scoring cap
-            if (totalScored >= MAX_POSTS_TO_SCORE_PER_RUN) break;
+          // Check time budget: leave 60s for scoring + flushing
+          if (Date.now() - startTime > 180_000) break; // 3 min max for fetching
 
-            try {
-              const posts = await searchSubreddit(subreddit, query, {
-                sort: 'new',
-                timeFilter: 'day',
-                limit: 10,
-              });
+          try {
+            const posts = await searchSubreddit(subreddit, query, {
+              sort: 'new',
+              timeFilter: 'day',
+              limit: 10,
+            });
 
-              for (const post of posts) {
-                // Deduplicate within this run (O(1) Set lookup)
-                if (!seenInRun.has(post.id)) {
-                  seenInRun.add(post.id);
-                  allPosts.push(post);
-                }
+            for (const post of posts) {
+              if (!seenInRun.has(post.id)) {
+                seenInRun.add(post.id);
+                allPosts.push(post);
               }
-            } catch (err) {
-              const errMsg = err instanceof Error ? err.message : 'Unknown';
-              // Don't fail the whole run for one subreddit error
-              console.error(`Reddit search failed: r/${subreddit} "${query}": ${errMsg}`);
             }
-          }
-
-          if (totalScored >= MAX_POSTS_TO_SCORE_PER_RUN) break;
-        }
-
-        result.byClient[config.clientSlug].scanned = allPosts.length;
-        result.scanned += allPosts.length;
-
-        // Process each post
-        for (const post of allPosts) {
-          if (totalScored >= MAX_POSTS_TO_SCORE_PER_RUN) break;
-
-          // Skip already-seen posts
-          if (isPostSeen(state, post.id)) continue;
-
-          // Mark as seen immediately (even if we don't score it)
-          markPostSeen(state, post.id);
-
-          // Quick relevance pre-filter (saves API calls)
-          if (!quickRelevanceCheck(post, config)) continue;
-
-          // Score with AI
-          totalScored++;
-          const score = await scoreOpportunity(post, config);
-
-          // Check threshold
-          if (score.composite >= MIN_SCORE) {
-            const opportunity: RedditOpportunity = {
-              id: `reddit_${Date.now()}_${Math.random().toString(36).slice(2, 8)}`,
-              postId: post.id,
-              clientSlug: config.clientSlug,
-              businessName: config.businessName,
-              subreddit: post.subreddit,
-              title: post.title,
-              selftext: post.selftext.slice(0, 500),
-              author: post.author,
-              postUrl: post.url,
-              postCreatedUtc: post.created_utc,
-              score,
-              discoveredAt: new Date().toISOString(),
-              digestSentAt: null,
-              telegramSentAt: null,
-              status: 'pending',
-            };
-
-            addOpportunity(store, opportunity);
-            recordOpportunity(state, config.clientSlug, score.businessImpact);
-            result.byClient[config.clientSlug].qualified++;
-            result.qualified++;
-
-            // Send Telegram alert to Justin
-            try {
-              await sendTelegramAlert(opportunity, config);
-              opportunity.telegramSentAt = new Date().toISOString();
-            } catch {
-              // Non-blocking
-            }
+          } catch (err) {
+            const errMsg = err instanceof Error ? err.message : 'Unknown';
+            console.error(`Reddit search failed: r/${subreddit} "${query}": ${errMsg}`);
           }
         }
-      } catch (err) {
-        const errMsg = err instanceof Error ? err.message : 'Unknown';
-        result.errors.push(`${config.clientSlug}: ${errMsg}`);
+
+        if (totalScored >= MAX_POSTS_TO_SCORE_PER_RUN) break;
+        if (Date.now() - startTime > 180_000) break;
       }
+
+      result.byClient[config.clientSlug].scanned = allPosts.length;
+      result.scanned += allPosts.length;
+
+      // Process each post
+      for (const post of allPosts) {
+        if (totalScored >= MAX_POSTS_TO_SCORE_PER_RUN) break;
+        if (Date.now() - startTime > 240_000) break; // 4 min hard cap
+
+        // Skip already-seen posts
+        if (isPostSeen(state, post.id)) continue;
+
+        // Mark as seen immediately
+        markPostSeen(state, post.id);
+
+        // Quick relevance pre-filter
+        if (!quickRelevanceCheck(post, config)) continue;
+
+        // Score with AI
+        totalScored++;
+        const score = await scoreOpportunity(post, config);
+
+        // Check threshold
+        if (score.composite >= MIN_SCORE) {
+          const opportunity: RedditOpportunity = {
+            id: `reddit_${Date.now()}_${Math.random().toString(36).slice(2, 8)}`,
+            postId: post.id,
+            clientSlug: config.clientSlug,
+            businessName: config.businessName,
+            subreddit: post.subreddit,
+            title: post.title,
+            selftext: post.selftext.slice(0, 500),
+            author: post.author,
+            postUrl: post.url,
+            postCreatedUtc: post.created_utc,
+            score,
+            discoveredAt: new Date().toISOString(),
+            digestSentAt: null,
+            telegramSentAt: null,
+            status: 'pending',
+          };
+
+          addOpportunity(store, opportunity);
+          recordOpportunity(state, config.clientSlug, score.businessImpact);
+          result.byClient[config.clientSlug].qualified++;
+          result.qualified++;
+
+          // Send Telegram alert to Justin
+          try {
+            await sendTelegramAlert(opportunity, config);
+            opportunity.telegramSentAt = new Date().toISOString();
+          } catch {
+            // Non-blocking
+          }
+        }
+      }
+    } catch (err) {
+      const errMsg = err instanceof Error ? err.message : 'Unknown';
+      result.errors.push(`${config.clientSlug}: ${errMsg}`);
     }
 
     // Update scanned count in monthly stats
     recordScanned(state, result.scanned);
 
-    // Prune old data
-    pruneSeenPosts(state);
-    pruneOldOpportunities(store);
+    // Prune old data (only on first client of rotation to avoid repeated work)
+    if (safeIndex === 0) {
+      pruneSeenPosts(state);
+      pruneOldOpportunities(store);
+    }
 
-    // Check if it's the 1st of the month — send monthly summary
+    // Monthly summary check (only on 1st of month, first client rotation)
     const today = new Date();
-    if (today.getDate() === 1 && today.getHours() < 1) {
+    if (today.getDate() === 1 && today.getHours() < 1 && safeIndex === 0) {
       try {
         const summary = buildMonthlySummary(
           state.monthlyStats.month,
@@ -207,18 +219,23 @@ export async function GET(request: NextRequest) {
       }
     }
 
-    // Atomic flush: write state + opportunities in one commit
+    // Atomic flush
     await flushRedditData(state, store);
 
     result.durationMs = Date.now() - startTime;
 
-    return NextResponse.json(result);
+    return NextResponse.json({
+      ...result,
+      clientProcessed: config.clientSlug,
+      clientIndex: safeIndex,
+      totalClients: configs.length,
+      nextClient: configs[(safeIndex + 1) % configs.length]?.clientSlug,
+    });
   } catch (err) {
     result.success = false;
     result.errors.push(err instanceof Error ? err.message : 'Unknown error');
     result.durationMs = Date.now() - startTime;
 
-    // Notify Justin of failure
     try {
       await sendMessage(
         `<b>Reddit Monitor FAILED</b>\n` +
@@ -226,7 +243,7 @@ export async function GET(request: NextRequest) {
         `Duration: ${(result.durationMs / 1000).toFixed(1)}s`,
       );
     } catch {
-      // Can't even send telegram - log and return
+      // Can't even send telegram
     }
 
     return NextResponse.json(result, { status: 500 });
@@ -258,13 +275,6 @@ async function sendTelegramAlert(
   // Add draft response if available
   if (opp.score.draftResponse) {
     msg += `\n\n<b>--- Draft Response (copy/paste) ---</b>\n\n${opp.score.draftResponse}`;
-
-    msg += `\n\n<b>--- Reddit Account Tips ---</b>\n` +
-      `- Post from ${config.authorName || 'client'}'s personal Reddit account (not a brand account)\n` +
-      `- Username should be their real name or professional handle\n` +
-      `- Profile bio: "${config.authorTitle}, ${config.businessName}"\n` +
-      `- Build karma first: comment on 5-10 posts in r/${opp.subreddit} before posting this\n` +
-      `- Never post the same response in multiple threads`;
   }
 
   await sendMessage(msg);
