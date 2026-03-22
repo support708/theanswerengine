@@ -207,531 +207,671 @@ export default function BingPlacesChatGPTConnection() {
     <>
       <ComprehensiveSchema />
 
-      <main className="min-h-screen bg-[#0A0A0F]">
-        <article className="max-w-4xl mx-auto px-6 py-12 sm:py-16">
-          {/* Breadcrumbs */}
-          <nav className="text-sm text-gray-500 mb-8">
-            <Link href="/" className="hover:text-white transition-colors">Home</Link>
-            <span className="mx-2">›</span>
-            <Link href="/blog" className="hover:text-white transition-colors">Blog</Link>
-            <span className="mx-2">›</span>
-            <span className="text-gray-400">Bing Places & ChatGPT</span>
+      <main className="min-h-screen" style={{ backgroundColor: '#0F1117', color: 'white' }}>
+        <div className="max-w-4xl mx-auto px-6 py-20">
+
+          {/* Breadcrumb */}
+          <nav aria-label="Breadcrumb" className="mb-8">
+            <ol className="flex flex-wrap items-center gap-2 text-sm text-gray-400">
+              <li><Link href="/" className="hover:text-orange-400 transition-colors">Home</Link></li>
+              <li className="text-gray-600">/</li>
+              <li><Link href="/blog" className="hover:text-orange-400 transition-colors">Blog</Link></li>
+              <li className="text-gray-600">/</li>
+              <li className="text-gray-300 truncate max-w-xs sm:max-w-none">Bing Places &amp; ChatGPT Connection</li>
+            </ol>
           </nav>
 
-          {/* Header */}
-          <header className="mb-12">
-            <div className="inline-flex items-center gap-2 px-4 py-2 rounded-xl mb-6 bg-white/[0.04] border border-white/[0.08]">
-              <span className="text-sm font-semibold tracking-wider uppercase text-white">AI Visibility</span>
-            </div>
-
-            <h1 className="text-3xl sm:text-4xl lg:text-5xl font-semibold mb-6 text-white leading-tight">
-              Why Bing Places Matters More Than You Think <span className="text-transparent bg-clip-text bg-gradient-to-r from-white to-white">(The ChatGPT Connection)</span>
-            </h1>
-
-            {/* Featured Snippet Block */}
-            <div className="bg-gradient-to-br from-white/[0.02] to-white/[0.02] border border-white/[0.08] rounded-xl p-6 mb-8">
-              <p className="text-lg text-white leading-relaxed">
-                <strong>ChatGPT uses Bing, not Google, for real-time local business information.</strong> When someone asks ChatGPT for a business recommendation in your area, it searches Bing's index—which includes Bing Places listings. If you've only optimized your Google Business Profile, you're invisible to the AI platform with over 400 million weekly users.
-              </p>
-            </div>
-
-            <div className="flex flex-wrap gap-4 text-sm text-gray-400">
-              <div className="flex items-center gap-2">
-                <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={2}>
-                  <path strokeLinecap="round" strokeLinejoin="round" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
-                </svg>
-                <span>10 min read</span>
+          {/* Hero Section */}
+          <div
+            className="relative overflow-hidden rounded-2xl mb-12"
+            style={{ background: 'linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%)' }}
+          >
+            <svg className="absolute inset-0 w-full h-full opacity-10" viewBox="0 0 800 400" fill="none" aria-hidden="true">
+              <circle cx="200" cy="200" r="180" stroke="#FF6A00" strokeWidth="0.5" />
+              <circle cx="200" cy="200" r="120" stroke="#FF6A00" strokeWidth="0.5" />
+              <circle cx="200" cy="200" r="60" stroke="#FF6A00" strokeWidth="0.5" />
+              <rect x="450" y="50" width="120" height="120" stroke="#FF6A00" strokeWidth="0.4" fill="none" />
+              <rect x="480" y="80" width="60" height="60" stroke="#FF6A00" strokeWidth="0.4" fill="none" />
+              <line x1="0" y1="150" x2="800" y2="150" stroke="#FF6A00" strokeWidth="0.3" />
+              <line x1="0" y1="250" x2="800" y2="250" stroke="#FF6A00" strokeWidth="0.3" />
+              <line x1="300" y1="0" x2="300" y2="400" stroke="#FF6A00" strokeWidth="0.3" />
+              <line x1="600" y1="0" x2="600" y2="400" stroke="#FF6A00" strokeWidth="0.3" />
+              <polygon points="550,300 650,180 750,300" stroke="#FF6A00" strokeWidth="0.5" fill="none" />
+              <circle cx="650" cy="320" r="40" stroke="#FF6A00" strokeWidth="0.4" />
+            </svg>
+            <div className="relative px-8 py-16 sm:px-12 sm:py-20">
+              <p className="text-sm font-medium text-orange-400 mb-4">AI Visibility</p>
+              <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-white leading-tight mb-6 font-plus-jakarta">
+                Why Bing Places Matters More Than You Think <span className="text-[#FF6A00]">(The ChatGPT Connection)</span>
+              </h1>
+              <div className="flex items-center gap-4 text-sm text-gray-400">
+                <span>December 17, 2025</span>
+                <span>-</span>
+                <span>12 min read</span>
+                <span>-</span>
+                <span>JB</span>
               </div>
-              <div className="flex items-center gap-2">
-                <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={2}>
-                  <path strokeLinecap="round" strokeLinejoin="round" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
-                </svg>
-                <span>Updated December 2025</span>
-              </div>
             </div>
-          </header>
-
-          {/* Featured Image */}
-          <div className="mb-12 rounded-2xl overflow-hidden">
-            <img
-              src="/images/bing-places-chatgpt-connection.png"
-              alt="Bing Places and ChatGPT connection - how Microsoft's business listings power AI recommendations"
-              className="w-full h-auto grayscale brightness-75"
-            />
           </div>
 
-          {/* The Problem */}
-          <section className="mb-12">
-            <div className="space-y-6 text-lg text-gray-300 leading-relaxed">
+          {/* Stats Grid */}
+          <div className="not-prose ae-stats-grid">
+            <div className="ae-stat-card">
+              <div className="ae-stat-emoji">🔗</div>
+              <div className="ae-stat-value ae-accent">400M+</div>
+              <div className="ae-stat-label">Weekly ChatGPT Users Powered by Bing</div>
+            </div>
+            <div className="ae-stat-card">
+              <div className="ae-stat-emoji">🚫</div>
+              <div className="ae-stat-value ae-accent">0%</div>
+              <div className="ae-stat-label">Google Business Profile Data Used by ChatGPT</div>
+            </div>
+            <div className="ae-stat-card">
+              <div className="ae-stat-emoji">📉</div>
+              <div className="ae-stat-value ae-accent">~5%</div>
+              <div className="ae-stat-label">Local Businesses With Optimized Bing Places</div>
+            </div>
+            <div className="ae-stat-card">
+              <div className="ae-stat-emoji">💰</div>
+              <div className="ae-stat-value ae-accent">$0</div>
+              <div className="ae-stat-label">Cost to Claim Your Bing Places Listing</div>
+            </div>
+          </div>
+
+          {/* Article Body */}
+          <article className="prose prose-invert prose-lg max-w-none prose-headings:font-plus-jakarta prose-headings:text-white prose-p:text-gray-300 prose-a:text-[#FF6A00] prose-a:no-underline hover:prose-a:underline prose-strong:text-white">
+
+            {/* Intro */}
+            <p className="text-xl text-gray-300 leading-relaxed mb-10">
+              If you have spent months perfecting your Google Business Profile, collecting five-star reviews, posting updates, and uploading photos, you are doing great work. But there is a massive blind spot most local business owners miss entirely: <strong>ChatGPT does not use Google. It uses Bing.</strong> When someone asks ChatGPT for a local recommendation, your Google profile is invisible. Your Bing Places listing is the gateway.
+            </p>
+
+            <div className="not-prose ae-callout ae-callout-warning">
+              <div className="ae-callout-title">The Blind Spot Nobody Talks About</div>
               <p>
-                If you're like most local business owners, you've invested significant time in your Google Business Profile. You've added photos, collected reviews, posted updates, and optimized every field. Google shows you prominently in local search results.
-              </p>
-              <p>
-                Then someone asks ChatGPT: <span className="text-white font-medium">"Who's the best plumber near me?"</span>
-              </p>
-              <p>
-                Your competitor gets mentioned. You don't.
-              </p>
-              <p>
-                The reason is simpler than you'd expect: <span className="text-white font-medium">ChatGPT doesn't use Google. It uses Bing.</span>
+                Microsoft has invested billions in OpenAI. As part of that deal, ChatGPT's web browsing runs on Bing's search infrastructure. When a potential customer asks ChatGPT to find the best plumber, dentist, or contractor in their area, it searches Bing, not Google. If your Bing Places listing is unclaimed, incomplete, or nonexistent, ChatGPT cannot recommend you.
               </p>
             </div>
-          </section>
 
-          {/* The Microsoft-OpenAI Connection */}
-          <section className="mb-12">
-            <h2 className="text-2xl sm:text-3xl font-semibold mb-6 text-white">The Microsoft-OpenAI Connection Explained</h2>
-
-            <div className="space-y-6 text-lg text-gray-300 leading-relaxed">
-              <p>
-                Microsoft has invested billions of dollars in OpenAI, the company behind ChatGPT. As part of this partnership, ChatGPT's web browsing capability is powered by Bing's search infrastructure—not Google's.
-              </p>
-              <p>
-                When ChatGPT needs current information—like local business recommendations—it queries Bing's search index. This means:
-              </p>
+            <div className="not-prose ae-cta-inline">
+              <p>Not sure if ChatGPT can actually find your business?</p>
+              <Link href="/blindspot">Get Your Free Blind Spot Report</Link>
             </div>
 
-            <div className="my-8 overflow-x-auto">
-              <table className="w-full border-collapse text-sm">
+            {/* Section 1 */}
+            <span className="not-prose ae-section-label">The Data Pipeline</span>
+            <h2 className="text-2xl font-bold text-white mt-4 mb-4 font-plus-jakarta">
+              The Microsoft-OpenAI Connection Explained
+            </h2>
+
+            <p>
+              Microsoft has invested over $13 billion in OpenAI. That is not a casual partnership. It is the deepest integration between a search engine and an AI platform in the industry. ChatGPT's real-time browsing capability queries Bing's search index for current information, local business data, and product recommendations.
+            </p>
+            <p>
+              This means that when ChatGPT needs to answer a question about local services, it pulls from the same data that powers Bing Search, Bing Maps, and Microsoft Copilot. Your Bing Places listing sits at the center of that data pipeline.
+            </p>
+
+            {/* Comparison Table */}
+            <div className="not-prose ae-comparison-table">
+              <table>
                 <thead>
-                  <tr className="border-b border-white/10">
-                    <th className="text-left py-4 px-4 text-gray-400 font-medium">Data Source</th>
-                    <th className="text-center py-4 px-4 text-gray-400 font-medium">Google Uses</th>
-                    <th className="text-center py-4 px-4 text-gray-400 font-medium">ChatGPT Uses</th>
+                  <tr>
+                    <th>Data Source</th>
+                    <th>Google Uses</th>
+                    <th>ChatGPT Uses</th>
+                    <th>Perplexity Uses</th>
                   </tr>
                 </thead>
-                <tbody className="text-gray-300">
-                  <tr className="border-b border-white/5">
-                    <td className="py-4 px-4">Google Business Profile</td>
-                    <td className="py-4 px-4 text-center text-green-400">✓ Yes</td>
-                    <td className="py-4 px-4 text-center text-red-400">✗ No</td>
-                  </tr>
-                  <tr className="border-b border-white/5">
-                    <td className="py-4 px-4">Bing Places</td>
-                    <td className="py-4 px-4 text-center text-red-400">✗ No</td>
-                    <td className="py-4 px-4 text-center text-green-400">✓ Yes</td>
-                  </tr>
-                  <tr className="border-b border-white/5">
-                    <td className="py-4 px-4">Your Website</td>
-                    <td className="py-4 px-4 text-center text-green-400">✓ Yes</td>
-                    <td className="py-4 px-4 text-center text-green-400">✓ Yes</td>
-                  </tr>
-                  <tr className="border-b border-white/5">
-                    <td className="py-4 px-4">Yelp</td>
-                    <td className="py-4 px-4 text-center text-green-400">✓ Yes</td>
-                    <td className="py-4 px-4 text-center text-green-400">✓ Yes</td>
+                <tbody>
+                  <tr>
+                    <td>Google Business Profile</td>
+                    <td className="text-green-400">Yes</td>
+                    <td className="text-red-400">No</td>
+                    <td className="text-yellow-400">Indirectly</td>
                   </tr>
                   <tr>
-                    <td className="py-4 px-4">Google Reviews</td>
-                    <td className="py-4 px-4 text-center text-green-400">✓ Yes</td>
-                    <td className="py-4 px-4 text-center text-red-400">✗ No</td>
+                    <td>Bing Places</td>
+                    <td className="text-red-400">No</td>
+                    <td className="text-green-400">Yes</td>
+                    <td className="text-green-400">Yes</td>
+                  </tr>
+                  <tr>
+                    <td>Your Website</td>
+                    <td className="text-green-400">Yes</td>
+                    <td className="text-green-400">Yes</td>
+                    <td className="text-green-400">Yes</td>
+                  </tr>
+                  <tr>
+                    <td>Yelp / Directories</td>
+                    <td className="text-green-400">Yes</td>
+                    <td className="text-green-400">Yes</td>
+                    <td className="text-green-400">Yes</td>
+                  </tr>
+                  <tr>
+                    <td>Google Reviews</td>
+                    <td className="text-green-400">Yes</td>
+                    <td className="text-red-400">No</td>
+                    <td className="text-yellow-400">Indirectly</td>
                   </tr>
                 </tbody>
               </table>
             </div>
 
-            <div className="bg-white/[0.02] border border-white/[0.05] rounded-xl p-6">
-              <div className="flex items-start gap-4">
-                <div className="flex-shrink-0">
-                  <svg className="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={2}>
-                    <path strokeLinecap="round" strokeLinejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
-                  </svg>
+            <div className="not-prose ae-callout ae-callout-info">
+              <div className="ae-callout-title">The Data Gap</div>
+              <p>
+                Your perfectly optimized Google Business Profile is invisible to ChatGPT. Meanwhile, your competitor who claimed their free Bing Places listing six months ago is getting recommended to hundreds of potential customers asking AI for help. That is not a theory. It is how the data pipeline works.
+              </p>
+            </div>
+
+            <div className="not-prose ae-cta-inline">
+              <p>Want to see exactly which AI platforms can find you?</p>
+              <a href="tel:+12134442229">Call (213) 444-2229 for a Free AI Visibility Check</a>
+            </div>
+
+            {/* Section 2 */}
+            <span className="not-prose ae-section-label">Why Now</span>
+            <h2 className="text-2xl font-bold text-white mt-4 mb-4 font-plus-jakarta">
+              Why Bing Places Matters More Than Ever
+            </h2>
+
+            <p>
+              For years, Bing Places was an afterthought. Google dominated with 90%+ market share, so most businesses ignored Microsoft's platform entirely. But AI has rewritten the rules. ChatGPT now has over 400 million weekly active users, and many of them are asking questions like:
+            </p>
+            <ul>
+              <li>&quot;Find me a good contractor for kitchen remodeling&quot;</li>
+              <li>&quot;Who is the best real estate agent in [neighborhood]?&quot;</li>
+              <li>&quot;Recommend an HVAC company that does same-day service&quot;</li>
+              <li>&quot;What is the highest-rated dentist near downtown?&quot;</li>
+            </ul>
+            <p>
+              Every one of those queries hits Bing's index. If your Bing Places listing is claimed, complete, and optimized, you are in the running. If not, you are invisible to a platform with more users than most social media networks.
+            </p>
+
+            {/* Bar Chart */}
+            <div className="not-prose ae-bar-group">
+              <h3 className="text-lg font-semibold text-white mb-4">AI Platform Data Sources</h3>
+              <div className="ae-bar-item">
+                <div className="ae-bar-label">ChatGPT (Bing-Powered)</div>
+                <div className="ae-bar-track">
+                  <div className="ae-bar-fill" style={{ width: '95%' }}></div>
                 </div>
-                <div>
-                  <h4 className="font-semibold text-white mb-2">The Data Gap</h4>
-                  <p className="text-gray-300">
-                    Your perfectly optimized Google Business Profile is invisible to ChatGPT. Meanwhile, your competitor who claimed their free Bing Places listing six months ago is getting recommended to hundreds of potential customers asking AI for help.
-                  </p>
+                <div className="ae-bar-value">95%</div>
+              </div>
+              <div className="ae-bar-item">
+                <div className="ae-bar-label">Microsoft Copilot (Bing-Powered)</div>
+                <div className="ae-bar-track">
+                  <div className="ae-bar-fill" style={{ width: '100%' }}></div>
                 </div>
+                <div className="ae-bar-value">100%</div>
+              </div>
+              <div className="ae-bar-item">
+                <div className="ae-bar-label">Perplexity (Multi-Source)</div>
+                <div className="ae-bar-track">
+                  <div className="ae-bar-fill" style={{ width: '60%' }}></div>
+                </div>
+                <div className="ae-bar-value">60%</div>
+              </div>
+              <div className="ae-bar-item">
+                <div className="ae-bar-label">Google AI Overview (Google Only)</div>
+                <div className="ae-bar-track">
+                  <div className="ae-bar-fill" style={{ width: '10%' }}></div>
+                </div>
+                <div className="ae-bar-value">10%</div>
               </div>
             </div>
-          </section>
 
-          {/* Why This Matters Now */}
-          <section className="mb-12">
-            <h2 className="text-2xl sm:text-3xl font-semibold mb-6 text-white">Why Bing Places Matters More in 2025</h2>
+            <div className="not-prose ae-takeaway">
+              <strong>Key takeaway:</strong> Bing Places is the single most impactful free listing you can claim for AI visibility. It feeds data to ChatGPT, Microsoft Copilot, and indirectly to Perplexity. No other single profile covers that much of the AI landscape.
+            </div>
 
-            <div className="space-y-6 text-lg text-gray-300 leading-relaxed">
+            <div className="not-prose ae-cta-inline">
+              <p>Wondering how your Bing Places listing stacks up?</p>
+              <Link href="/blindspot">Run a Free Blind Spot Report Now</Link>
+            </div>
+
+            {/* Section 3 */}
+            <span className="not-prose ae-section-label">Step-by-Step</span>
+            <h2 className="text-2xl font-bold text-white mt-4 mb-4 font-plus-jakarta">
+              How to Claim Your Bing Places Listing (Complete Guide)
+            </h2>
+
+            <p>
+              The entire process takes about 15 to 20 minutes of active work, plus a few days for verification. Here is the full timeline:
+            </p>
+
+            {/* Timeline */}
+            <div className="not-prose ae-timeline">
+              <div className="ae-timeline-item">
+                <strong>Step 1: Go to Bing Places for Business</strong>
+                <p>Visit bingplaces.com and click &quot;Get Started.&quot; Sign in with a Microsoft account. If you do not have one, create a free account first. This takes about 2 minutes.</p>
+              </div>
+              <div className="ae-timeline-item">
+                <strong>Step 2: Search for Your Business</strong>
+                <p>Enter your business name and address. Bing may already have a listing from aggregated data sources. If it exists, claim it. If not, create a new one. Either path takes about 3 minutes.</p>
+              </div>
+              <div className="ae-timeline-item">
+                <strong>Step 3: Import from Google (Optional)</strong>
+                <p>Bing offers an import feature that pulls your Google Business Profile data automatically. This saves significant time on data entry. Authorize the connection and review every imported field for accuracy.</p>
+              </div>
+              <div className="ae-timeline-item">
+                <strong>Step 4: Complete Every Single Field</strong>
+                <p>Fill in business name, address, phone, website, hours, categories, services, and a detailed description. More complete profiles rank higher and provide richer data for ChatGPT to reference.</p>
+              </div>
+              <div className="ae-timeline-item">
+                <strong>Step 5: Upload Quality Photos</strong>
+                <p>Add your logo, storefront, team photos, and work samples. Visual content helps both human users and AI systems understand the scope and quality of your business.</p>
+              </div>
+              <div className="ae-timeline-item">
+                <strong>Step 6: Verify Your Listing</strong>
+                <p>Complete verification via phone, email, or postcard. Unverified listings have severely limited visibility. This step is non-negotiable for appearing in ChatGPT results.</p>
+              </div>
+              <div className="ae-timeline-item">
+                <strong>Step 7: Set Quarterly Reminders</strong>
+                <p>Update seasonal hours, add new services, refresh photos, and keep all information current. Active, maintained listings consistently outperform stale ones in AI recommendations.</p>
+              </div>
+            </div>
+
+            <div className="not-prose ae-callout ae-callout-success">
+              <div className="ae-callout-title">Pro Tip: Google Import Shortcut</div>
               <p>
-                For years, Bing Places was an afterthought. Google dominated search with over 90% market share, so most businesses reasonably focused their efforts there.
+                Even if you import from Google, review every field. Some data transfers incorrectly. Also add any Bing-specific fields that Google does not have. The goal is a listing that stands on its own, not a mirror of your Google profile.
               </p>
-              <p>
-                But the rise of AI has changed the equation. ChatGPT now has over 200 million weekly active users. Many of those users ask questions like:
-              </p>
-              <ul className="space-y-2 ml-4">
-                <li className="flex items-start gap-3">
-                  <span className="text-white mt-1">•</span>
-                  <span>"Find me a good contractor for kitchen remodeling"</span>
-                </li>
-                <li className="flex items-start gap-3">
-                  <span className="text-white mt-1">•</span>
-                  <span>"Who's the best real estate agent in [neighborhood]?"</span>
-                </li>
-                <li className="flex items-start gap-3">
-                  <span className="text-white mt-1">•</span>
-                  <span>"Recommend an HVAC company that does same-day service"</span>
-                </li>
-                <li className="flex items-start gap-3">
-                  <span className="text-white mt-1">•</span>
-                  <span>"What's the highest-rated dentist near downtown?"</span>
-                </li>
+            </div>
+
+            <div className="not-prose ae-cta-inline">
+              <p>Need help optimizing your Bing Places listing for AI?</p>
+              <a href="mailto:support@theanswerengine.ai">Email Us at support@theanswerengine.ai</a>
+            </div>
+
+            {/* Section 4 */}
+            <span className="not-prose ae-section-label">Optimization</span>
+            <h2 className="text-2xl font-bold text-white mt-4 mb-4 font-plus-jakarta">
+              Optimizing Your Bing Places Listing for AI Recommendations
+            </h2>
+
+            <p>
+              Claiming your listing is step one. Optimizing it is where you separate yourself from every other business that simply filled in the basics and walked away.
+            </p>
+
+            {/* Cheat Sheet */}
+            <div className="not-prose ae-cheat-sheet">
+              <div className="ae-cheat-sheet-title">Bing Places Optimization Cheat Sheet</div>
+              <ul>
+                <li><strong>Business Description:</strong> Write a natural, keyword-rich description (250+ words). Include services, neighborhoods, credentials, and what makes you different.</li>
+                <li><strong>Categories:</strong> Select one primary category (most specific match) and all relevant secondary categories. Review annually for new options.</li>
+                <li><strong>Service Areas:</strong> List specific neighborhoods, suburbs, and landmarks. Do not just pick a city. Be granular.</li>
+                <li><strong>Photos:</strong> Upload 10+ high-quality images: logo, storefront, team, and completed work. Update quarterly.</li>
+                <li><strong>Hours:</strong> Include regular hours, holiday hours, seasonal variations, and emergency availability if offered.</li>
+                <li><strong>NAP Consistency:</strong> Name, Address, Phone must match exactly across Bing, Google, Yelp, and your website.</li>
+                <li><strong>Services List:</strong> Add every service you offer with natural descriptions. This is what AI reads when matching queries.</li>
+                <li><strong>Update Frequency:</strong> Touch your listing at least once per quarter. Stale listings get deprioritized by Bing indexing.</li>
               </ul>
-              <p>
-                When ChatGPT answers these questions, it's pulling from Bing's index. Your Bing Places listing directly influences whether you get mentioned.
-              </p>
             </div>
 
-            <div className="my-8 grid sm:grid-cols-3 gap-4">
-              <div className="bg-white/[0.02] border border-white/[0.05] rounded-xl p-5 text-center">
-                <div className="text-3xl font-bold text-white mb-2">400M+</div>
-                <div className="text-gray-400 text-sm">Weekly ChatGPT users</div>
-              </div>
-              <div className="bg-white/[0.02] border border-white/[0.05] rounded-xl p-5 text-center">
-                <div className="text-3xl font-bold text-white mb-2">~5%</div>
-                <div className="text-gray-400 text-sm">Local businesses with optimized Bing Places</div>
-              </div>
-              <div className="bg-white/[0.02] border border-white/[0.05] rounded-xl p-5 text-center">
-                <div className="text-3xl font-bold text-white mb-2">$0</div>
-                <div className="text-gray-400 text-sm">Cost to claim your listing</div>
-              </div>
-            </div>
-          </section>
-
-          {/* How to Claim Your Bing Places Listing */}
-          <section className="mb-12">
-            <h2 className="text-2xl sm:text-3xl font-semibold mb-6 text-white">How to Claim Your Bing Places Listing (Step-by-Step)</h2>
-
-            <div className="space-y-6">
-              {/* Step 1 */}
-              <div className="bg-white/[0.02] border border-white/[0.05] rounded-xl p-6">
-                <div className="flex items-start gap-4">
-                  <div className="flex-shrink-0 w-10 h-10 bg-white rounded-full flex items-center justify-center text-white font-bold text-lg">1</div>
-                  <div className="flex-1">
-                    <h3 className="text-xl font-semibold text-white mb-3">Go to Bing Places for Business</h3>
-                    <p className="text-gray-300 mb-4">
-                      Visit <span className="text-white">bingplaces.com</span> and click "Get Started" or "Claim your business." You'll need to sign in with a Microsoft account—if you don't have one, you can create a free account in minutes.
-                    </p>
-                  </div>
-                </div>
-              </div>
-
-              {/* Step 2 */}
-              <div className="bg-white/[0.02] border border-white/[0.05] rounded-xl p-6">
-                <div className="flex items-start gap-4">
-                  <div className="flex-shrink-0 w-10 h-10 bg-white rounded-full flex items-center justify-center text-white font-bold text-lg">2</div>
-                  <div className="flex-1">
-                    <h3 className="text-xl font-semibold text-white mb-3">Search for Your Business</h3>
-                    <p className="text-gray-300 mb-4">
-                      Search your business name and address. Bing may already have a listing for you (pulled from various data sources). If so, you'll claim the existing listing. If not, you'll create a new one.
-                    </p>
-                    <div className="bg-black/30 rounded-lg p-4 border border-white/10">
-                      <p className="text-gray-400 text-sm"><strong className="text-gray-300">Pro tip:</strong> Even if Bing has your business info, it's often incomplete or outdated. Claiming your listing lets you control what information appears.</p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              {/* Step 3 */}
-              <div className="bg-white/[0.02] border border-white/[0.05] rounded-xl p-6">
-                <div className="flex items-start gap-4">
-                  <div className="flex-shrink-0 w-10 h-10 bg-white rounded-full flex items-center justify-center text-white font-bold text-lg">3</div>
-                  <div className="flex-1">
-                    <h3 className="text-xl font-semibold text-white mb-3">Import from Google (Optional)</h3>
-                    <p className="text-gray-300 mb-4">
-                      Bing offers a "Import from Google" option that pulls your Google Business Profile data automatically. This saves significant time on data entry. You'll authorize Bing to access your Google Business account, and it imports your business details, categories, hours, and photos.
-                    </p>
-                    <div className="bg-black/30 rounded-lg p-4 border border-white/10">
-                      <p className="text-gray-400 text-sm"><strong className="text-gray-300">Important:</strong> Even if you import from Google, review every field. Some data may not transfer correctly, and you'll want to optimize specifically for Bing's format.</p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              {/* Step 4 */}
-              <div className="bg-white/[0.02] border border-white/[0.05] rounded-xl p-6">
-                <div className="flex items-start gap-4">
-                  <div className="flex-shrink-0 w-10 h-10 bg-white rounded-full flex items-center justify-center text-white font-bold text-lg">4</div>
-                  <div className="flex-1">
-                    <h3 className="text-xl font-semibold text-white mb-3">Complete Every Field</h3>
-                    <p className="text-gray-300 mb-4">
-                      Fill in all available information. More complete profiles rank better in Bing results and provide richer data for ChatGPT to reference.
-                    </p>
-                    <div className="bg-black/30 rounded-lg p-4 border border-white/10">
-                      <p className="text-gray-400 text-sm mb-2"><strong className="text-gray-300">Essential fields:</strong></p>
-                      <ul className="text-gray-400 text-sm space-y-1 ml-4">
-                        <li>• Business name (exactly as it appears everywhere else)</li>
-                        <li>• Complete address with suite/unit numbers</li>
-                        <li>• Primary and secondary phone numbers</li>
-                        <li>• Website URL</li>
-                        <li>• Business hours (including holiday hours)</li>
-                        <li>• Business categories (choose all that apply)</li>
-                        <li>• Services offered (be specific)</li>
-                        <li>• Business description (use keywords naturally)</li>
-                      </ul>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              {/* Step 5 */}
-              <div className="bg-white/[0.02] border border-white/[0.05] rounded-xl p-6">
-                <div className="flex items-start gap-4">
-                  <div className="flex-shrink-0 w-10 h-10 bg-white rounded-full flex items-center justify-center text-white font-bold text-lg">5</div>
-                  <div className="flex-1">
-                    <h3 className="text-xl font-semibold text-white mb-3">Add Quality Photos</h3>
-                    <p className="text-gray-300 mb-4">
-                      Upload your logo, storefront photo (if applicable), team photos, and images showcasing your work. Photos help users recognize your business and provide context for AI systems analyzing your business.
-                    </p>
-                  </div>
-                </div>
-              </div>
-
-              {/* Step 6 */}
-              <div className="bg-white/[0.02] border border-white/[0.05] rounded-xl p-6">
-                <div className="flex items-start gap-4">
-                  <div className="flex-shrink-0 w-10 h-10 bg-white rounded-full flex items-center justify-center text-white font-bold text-lg">6</div>
-                  <div className="flex-1">
-                    <h3 className="text-xl font-semibold text-white mb-3">Verify Your Listing</h3>
-                    <p className="text-gray-300 mb-4">
-                      Bing requires verification to confirm you're authorized to manage this business listing. Options typically include phone verification, email verification, or a postcard mailed to your business address. Complete this step—unverified listings have limited visibility.
-                    </p>
-                  </div>
-                </div>
-              </div>
-
-              {/* Step 7 */}
-              <div className="bg-white/[0.02] border border-white/[0.05] rounded-xl p-6">
-                <div className="flex items-start gap-4">
-                  <div className="flex-shrink-0 w-10 h-10 bg-white rounded-full flex items-center justify-center text-white font-bold text-lg">7</div>
-                  <div className="flex-1">
-                    <h3 className="text-xl font-semibold text-white mb-3">Maintain and Update</h3>
-                    <p className="text-gray-300 mb-4">
-                      Set a quarterly reminder to review your listing. Update seasonal hours, add new services, refresh photos, and ensure all information stays current. Active, maintained listings perform better in search results.
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </section>
-
-          {/* Optimization Tips */}
-          <section className="mb-12">
-            <h2 className="text-2xl sm:text-3xl font-semibold mb-6 text-white">Optimizing Your Bing Places Listing for AI</h2>
-
-            <div className="space-y-6 text-lg text-gray-300 leading-relaxed">
-              <p>
-                Simply claiming your listing isn't enough. To maximize your chances of being recommended by ChatGPT, optimize these key elements:
-              </p>
+            {/* Decision Matrix */}
+            <div className="not-prose ae-decision-matrix">
+              <table>
+                <thead>
+                  <tr>
+                    <th>Profile Field</th>
+                    <th>Impact on AI Visibility</th>
+                    <th>Time to Complete</th>
+                    <th>Priority</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>Business Name + Address</td>
+                    <td>Critical</td>
+                    <td>2 min</td>
+                    <td className="text-red-400 font-semibold">P0</td>
+                  </tr>
+                  <tr>
+                    <td>Categories</td>
+                    <td>High</td>
+                    <td>3 min</td>
+                    <td className="text-red-400 font-semibold">P0</td>
+                  </tr>
+                  <tr>
+                    <td>Business Description</td>
+                    <td>High</td>
+                    <td>10 min</td>
+                    <td className="text-orange-400 font-semibold">P1</td>
+                  </tr>
+                  <tr>
+                    <td>Services List</td>
+                    <td>High</td>
+                    <td>5 min</td>
+                    <td className="text-orange-400 font-semibold">P1</td>
+                  </tr>
+                  <tr>
+                    <td>Photos (10+)</td>
+                    <td>Medium</td>
+                    <td>15 min</td>
+                    <td className="text-yellow-400 font-semibold">P2</td>
+                  </tr>
+                  <tr>
+                    <td>Service Areas</td>
+                    <td>Medium</td>
+                    <td>5 min</td>
+                    <td className="text-yellow-400 font-semibold">P2</td>
+                  </tr>
+                  <tr>
+                    <td>Holiday/Seasonal Hours</td>
+                    <td>Low</td>
+                    <td>3 min</td>
+                    <td className="text-gray-400 font-semibold">P3</td>
+                  </tr>
+                </tbody>
+              </table>
             </div>
 
-            <div className="grid sm:grid-cols-2 gap-4 my-8">
-              <div className="bg-white/[0.02] border border-white/[0.05] rounded-xl p-5">
-                <h3 className="font-semibold text-white mb-3">Business Description</h3>
-                <p className="text-gray-400 text-sm mb-3">Write a natural, detailed description that includes:</p>
-                <ul className="text-gray-400 text-sm space-y-1 ml-4">
-                  <li>• What services you provide</li>
-                  <li>• Areas/neighborhoods you serve</li>
-                  <li>• What makes you different</li>
-                  <li>• Your experience/credentials</li>
+            <div className="not-prose ae-cta-inline">
+              <p>Want a done-for-you AI optimization strategy?</p>
+              <Link href="/blindspot">See What AI Platforms Are Missing About Your Business</Link>
+            </div>
+
+            {/* Section 5 */}
+            <span className="not-prose ae-section-label">The Full Stack</span>
+            <h2 className="text-2xl font-bold text-white mt-4 mb-4 font-plus-jakarta">
+              Google Business Profile vs. Bing Places: You Need Both
+            </h2>
+
+            <p>
+              This is not a question of replacing Google with Bing. Google still dominates traditional search with 90%+ market share. Your Google Business Profile directly influences Google Search, Google Maps, and Google AI Overviews.
+            </p>
+            <p>
+              But ignoring Bing Places in 2026 is like ignoring mobile in 2012. The numbers are small today, but the growth trajectory is exponential. The businesses that claim and optimize their Bing Places listings now will own the AI recommendation space before competitors even realize it matters.
+            </p>
+
+            {/* Pros and Cons */}
+            <div className="not-prose ae-pros-cons">
+              <div className="ae-pros-box">
+                <div className="ae-pros-title">Google Business Profile Strengths</div>
+                <ul>
+                  <li>90%+ traditional search market share</li>
+                  <li>Google Maps integration (dominant navigation)</li>
+                  <li>Google AI Overviews data source</li>
+                  <li>Review collection powerhouse</li>
+                  <li>Posts and updates features</li>
+                  <li>Deep analytics and insights</li>
                 </ul>
               </div>
-
-              <div className="bg-white/[0.02] border border-white/[0.05] rounded-xl p-5">
-                <h3 className="font-semibold text-white mb-3">Business Categories</h3>
-                <p className="text-gray-400 text-sm mb-3">Select all relevant categories:</p>
-                <ul className="text-gray-400 text-sm space-y-1 ml-4">
-                  <li>• Primary category: most specific match</li>
-                  <li>• Secondary categories: related services</li>
-                  <li>• Don't stretch—irrelevant categories hurt</li>
-                  <li>• Review annually for new options</li>
-                </ul>
-              </div>
-
-              <div className="bg-white/[0.02] border border-white/[0.05] rounded-xl p-5">
-                <h3 className="font-semibold text-white mb-3">Service Areas</h3>
-                <p className="text-gray-400 text-sm mb-3">Be specific about where you work:</p>
-                <ul className="text-gray-400 text-sm space-y-1 ml-4">
-                  <li>• List neighborhoods by name</li>
-                  <li>• Include suburbs/cities you serve</li>
-                  <li>• Mention landmarks if relevant</li>
-                  <li>• Set accurate service radius</li>
-                </ul>
-              </div>
-
-              <div className="bg-white/[0.02] border border-white/[0.05] rounded-xl p-5">
-                <h3 className="font-semibold text-white mb-3">Hours & Availability</h3>
-                <p className="text-gray-400 text-sm mb-3">Keep this current:</p>
-                <ul className="text-gray-400 text-sm space-y-1 ml-4">
-                  <li>• Regular business hours</li>
-                  <li>• Holiday schedule</li>
-                  <li>• Special hours (seasonal)</li>
-                  <li>• Emergency/after-hours if offered</li>
+              <div className="ae-cons-box">
+                <div className="ae-cons-title">Google Business Profile Gaps</div>
+                <ul>
+                  <li>Invisible to ChatGPT entirely</li>
+                  <li>Not used by Microsoft Copilot</li>
+                  <li>Limited influence on Perplexity</li>
+                  <li>Does not feed Bing Search or Maps</li>
+                  <li>Growing competition for Map Pack spots</li>
+                  <li>Increasing pay-to-play dynamics</li>
                 </ul>
               </div>
             </div>
-          </section>
 
-          {/* What About Google? */}
-          <section className="mb-12">
-            <h2 className="text-2xl sm:text-3xl font-semibold mb-6 text-white">Should You Still Maintain Your Google Business Profile?</h2>
-
-            <div className="space-y-6 text-lg text-gray-300 leading-relaxed">
-              <p>
-                <span className="text-white font-medium">Absolutely yes.</span> Google still dominates traditional search. Your Google Business Profile directly impacts:
-              </p>
-              <ul className="space-y-3 ml-4">
-                <li className="flex items-start gap-3">
-                  <span className="text-white mt-1">•</span>
-                  <span><strong className="text-white">Google Search results</strong> — Still 90%+ of search traffic</span>
-                </li>
-                <li className="flex items-start gap-3">
-                  <span className="text-white mt-1">•</span>
-                  <span><strong className="text-white">Google Maps</strong> — Where most local searches end up</span>
-                </li>
-                <li className="flex items-start gap-3">
-                  <span className="text-white mt-1">•</span>
-                  <span><strong className="text-white">Google AI Overview</strong> — Google's own AI can read your GBP</span>
-                </li>
-                <li className="flex items-start gap-3">
-                  <span className="text-white mt-1">•</span>
-                  <span><strong className="text-white">Customer trust</strong> — Many people still check Google before contacting</span>
-                </li>
-              </ul>
-              <p>
-                The strategy is both, not either/or. Optimize Google Business Profile for Google visibility. Optimize Bing Places for ChatGPT and Microsoft Copilot visibility. Together, they cover the majority of how people discover local businesses in 2025.
-              </p>
+            <div className="not-prose ae-quote">
+              <p>&quot;The businesses that win in AI search are the ones that show up everywhere AI looks. Google covers one platform. Bing Places covers three.&quot;</p>
             </div>
 
-            <div className="my-8 bg-gradient-to-br from-white/[0.02] to-white/[0.02] border border-white/[0.08] rounded-xl p-6">
-              <h4 className="font-semibold text-white mb-3">The Visibility Stack for 2025</h4>
-              <div className="space-y-3 text-gray-300">
-                <div className="flex items-center gap-3">
-                  <span className="text-white">1.</span>
-                  <span><strong className="text-white">Google Business Profile</strong> → Google Search, Maps, AI Overview</span>
-                </div>
-                <div className="flex items-center gap-3">
-                  <span className="text-white">2.</span>
-                  <span><strong className="text-white">Bing Places</strong> → ChatGPT, Bing Search, Microsoft Copilot</span>
-                </div>
-                <div className="flex items-center gap-3">
-                  <span className="text-white">3.</span>
-                  <span><strong className="text-white">Your Website</strong> → All AI platforms, traditional search, direct traffic</span>
-                </div>
-                <div className="flex items-center gap-3">
-                  <span className="text-white">4.</span>
-                  <span><strong className="text-white">Third-party directories</strong> → Yelp, industry-specific platforms, Perplexity</span>
-                </div>
+            {/* The Visibility Stack */}
+            <h3>The Complete AI Visibility Stack for 2026</h3>
+
+            <div className="not-prose ae-stats-grid">
+              <div className="ae-stat-card">
+                <div className="ae-stat-emoji">1</div>
+                <div className="ae-stat-value ae-accent">GBP</div>
+                <div className="ae-stat-label">Google Search, Maps, AI Overviews</div>
+              </div>
+              <div className="ae-stat-card">
+                <div className="ae-stat-emoji">2</div>
+                <div className="ae-stat-value ae-accent">Bing</div>
+                <div className="ae-stat-label">ChatGPT, Copilot, Bing Search</div>
+              </div>
+              <div className="ae-stat-card">
+                <div className="ae-stat-emoji">3</div>
+                <div className="ae-stat-value ae-accent">Website</div>
+                <div className="ae-stat-label">All AI Platforms, Direct Traffic</div>
+              </div>
+              <div className="ae-stat-card">
+                <div className="ae-stat-emoji">4</div>
+                <div className="ae-stat-value ae-accent">Directories</div>
+                <div className="ae-stat-label">Yelp, Industry Platforms, Perplexity</div>
               </div>
             </div>
-          </section>
 
-          {/* CTA Section */}
-          <div className="rounded-2xl p-8 sm:p-10 text-center my-16" style={{ background: 'linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%)' }}>
-            <h2 className="text-2xl sm:text-3xl font-bold text-white mb-4 font-plus-jakarta">Find Out If AI Is Recommending Your Business</h2>
-            <p className="text-gray-300 mb-6 max-w-2xl mx-auto">Most businesses have no idea whether AI platforms are sending them customers or sending them to competitors. Our free blind spot report shows you exactly where you stand.</p>
-            <Link href="/blindspot" className="inline-block px-8 py-4 rounded-lg font-semibold text-white transition-all duration-200 hover:brightness-110" style={{ backgroundColor: '#FF6A00' }}>Get Your Free Blind Spot Report</Link>
-    <div className="flex flex-wrap items-center gap-6 mt-6 pt-6 border-t border-[#FF6A00]/10">
-      <a href="tel:+12134442229" className="flex items-center gap-2 text-gray-400 hover:text-white transition-colors">
-        <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" /></svg>
-        (213) 444-2229
-      </a>
-      <a href="mailto:support@theanswerengine.ai" className="flex items-center gap-2 text-gray-400 hover:text-white transition-colors">
-        <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" /></svg>
-        support@theanswerengine.ai
-      </a>
-    </div>
+            <div className="not-prose ae-cta-inline">
+              <p>Ready to cover all four layers of the visibility stack?</p>
+              <a href="tel:+12134442229">Call (213) 444-2229 to Get Started</a>
+            </div>
+
+            {/* Section 6 */}
+            <span className="not-prose ae-section-label">Common Mistakes</span>
+            <h2 className="text-2xl font-bold text-white mt-4 mb-4 font-plus-jakarta">
+              5 Bing Places Mistakes That Kill Your ChatGPT Visibility
+            </h2>
+
+            <div className="not-prose ae-callout ae-callout-warning">
+              <div className="ae-callout-title">Mistake 1: Never Claiming the Listing</div>
+              <p>
+                This is the most common and most damaging mistake. Bing may have a listing for your business from aggregated data, but it is likely incomplete, outdated, or inaccurate. An unclaimed listing is a liability, not an asset. It takes 15 minutes to claim. There is no excuse not to.
+              </p>
+            </div>
+
+            <div className="not-prose ae-callout ae-callout-warning">
+              <div className="ae-callout-title">Mistake 2: Treating It Like a Google Clone</div>
+              <p>
+                Importing from Google and walking away is a half measure. Bing has its own fields, its own categories, and its own ranking factors. Optimize for Bing specifically. Different platforms reward different signals.
+              </p>
+            </div>
+
+            <div className="not-prose ae-callout ae-callout-warning">
+              <div className="ae-callout-title">Mistake 3: Skipping Verification</div>
+              <p>
+                Unverified listings have severely limited visibility in Bing results. That means they have severely limited visibility in ChatGPT results. Complete the verification step. It is non-negotiable.
+              </p>
+            </div>
+
+            <div className="not-prose ae-callout ae-callout-info">
+              <div className="ae-callout-title">Mistake 4: Leaving Fields Blank</div>
+              <p>
+                Every empty field is a missed signal. AI systems reward completeness. A listing with 100% field completion will outperform one with 60% completion in AI recommendations every time.
+              </p>
+            </div>
+
+            <div className="not-prose ae-callout ae-callout-info">
+              <div className="ae-callout-title">Mistake 5: Set It and Forget It</div>
+              <p>
+                Stale listings get deprioritized. Bing tracks when listings were last updated. Set a quarterly reminder to refresh your listing with new photos, updated services, and current information.
+              </p>
+            </div>
+
+            <div className="not-prose ae-cta-inline">
+              <p>Not sure if you are making these mistakes?</p>
+              <a href="mailto:support@theanswerengine.ai">Email support@theanswerengine.ai for a Free Review</a>
+            </div>
+
+            {/* Section 7 */}
+            <span className="not-prose ae-section-label">Results Timeline</span>
+            <h2 className="text-2xl font-bold text-white mt-4 mb-4 font-plus-jakarta">
+              How Long Before You See Results?
+            </h2>
+
+            <p>
+              After claiming and optimizing your Bing Places listing, here is a realistic timeline:
+            </p>
+
+            {/* Bar Chart for Timeline */}
+            <div className="not-prose ae-bar-group">
+              <h3 className="text-lg font-semibold text-white mb-4">Expected Results Timeline</h3>
+              <div className="ae-bar-item">
+                <div className="ae-bar-label">Listing Indexed by Bing</div>
+                <div className="ae-bar-track">
+                  <div className="ae-bar-fill" style={{ width: '15%' }}></div>
+                </div>
+                <div className="ae-bar-value">1-2 weeks</div>
+              </div>
+              <div className="ae-bar-item">
+                <div className="ae-bar-label">Visible in Bing Search</div>
+                <div className="ae-bar-track">
+                  <div className="ae-bar-fill" style={{ width: '25%' }}></div>
+                </div>
+                <div className="ae-bar-value">2-3 weeks</div>
+              </div>
+              <div className="ae-bar-item">
+                <div className="ae-bar-label">Surfacing in ChatGPT</div>
+                <div className="ae-bar-track">
+                  <div className="ae-bar-fill" style={{ width: '40%' }}></div>
+                </div>
+                <div className="ae-bar-value">2-4 weeks</div>
+              </div>
+              <div className="ae-bar-item">
+                <div className="ae-bar-label">Consistent AI Recommendations</div>
+                <div className="ae-bar-track">
+                  <div className="ae-bar-fill" style={{ width: '65%' }}></div>
+                </div>
+                <div className="ae-bar-value">4-8 weeks</div>
+              </div>
+              <div className="ae-bar-item">
+                <div className="ae-bar-label">Full Authority Signal Built</div>
+                <div className="ae-bar-track">
+                  <div className="ae-bar-fill" style={{ width: '100%' }}></div>
+                </div>
+                <div className="ae-bar-value">3-6 months</div>
+              </div>
+            </div>
+
+            <div className="not-prose ae-takeaway">
+              <strong>Key takeaway:</strong> Verification must be completed first. More complete profiles get indexed faster and surface more consistently. The sooner you start, the sooner you appear in AI recommendations.
+            </div>
+
+            <div className="not-prose ae-cta-inline">
+              <p>Want to accelerate your AI visibility timeline?</p>
+              <Link href="/blindspot">Get Your Free Blind Spot Report</Link>
+            </div>
+
+            {/* FAQ Section */}
+            <span className="not-prose ae-section-label">FAQ</span>
+            <h2 className="text-2xl font-bold text-white mt-4 mb-8 font-plus-jakarta">
+              Frequently Asked Questions
+            </h2>
+
+            <div className="not-prose space-y-6 mb-12">
+              <div className="ae-callout ae-callout-info">
+                <div className="ae-callout-title">Does ChatGPT use Bing for local business information?</div>
+                <p>
+                  Yes. ChatGPT's browsing functionality is powered by Bing's search index. When users ask for local business recommendations, ChatGPT retrieves data from Bing's index, including Bing Places listings. Your Bing Places profile is a direct pathway to ChatGPT visibility.
+                </p>
+              </div>
+
+              <div className="ae-callout ae-callout-info">
+                <div className="ae-callout-title">How do I claim my Bing Places listing?</div>
+                <p>
+                  Visit bingplaces.com and sign in with a Microsoft account. Search for your business to check if a listing exists. Claim the existing listing or create a new one. Verify ownership through phone, email, or postcard, then complete all profile fields.
+                </p>
+              </div>
+
+              <div className="ae-callout ae-callout-info">
+                <div className="ae-callout-title">Is Bing Places the same as Google Business Profile?</div>
+                <p>
+                  They serve the same purpose but feed different ecosystems. Google Business Profile powers Google Search and Maps. Bing Places powers Bing Search, Bing Maps, ChatGPT, and Microsoft Copilot. You need both to cover the full AI landscape.
+                </p>
+              </div>
+
+              <div className="ae-callout ae-callout-info">
+                <div className="ae-callout-title">Can I import my Google Business Profile to Bing Places?</div>
+                <p>
+                  Yes. Bing Places has a direct import feature. During setup, authorize Bing to pull your Google data. This saves time, but always review every field after import. Some data may not transfer correctly, and you should optimize specifically for Bing.
+                </p>
+              </div>
+
+              <div className="ae-callout ae-callout-info">
+                <div className="ae-callout-title">Why does ChatGPT not show my business when I have a Google Business Profile?</div>
+                <p>
+                  ChatGPT cannot access Google's data directly. It uses Bing's search index for all real-time information. If you only have a Google Business Profile and have not claimed your Bing Places listing, ChatGPT lacks the data it needs to recommend you.
+                </p>
+              </div>
+
+              <div className="ae-callout ae-callout-info">
+                <div className="ae-callout-title">How long does it take for Bing Places to affect ChatGPT results?</div>
+                <p>
+                  Typically 2 to 4 weeks after claiming and optimizing. Verification must be completed first. More complete profiles get indexed faster and more thoroughly. Consistent updates over the following months build stronger authority signals.
+                </p>
+              </div>
+            </div>
+
+            <div className="not-prose ae-cta-inline">
+              <p>Still have questions about AI visibility?</p>
+              <a href="tel:+12134442229">Call (213) 444-2229 for Answers</a>
+            </div>
+
+            {/* Related Reading */}
+            <span className="not-prose ae-section-label">Related Reading</span>
+            <h2 className="text-2xl font-bold text-white mt-4 mb-6 font-plus-jakarta">
+              Related Articles
+            </h2>
+
+            <div className="not-prose grid sm:grid-cols-2 gap-4 mb-12">
+              <Link href="/blog/do-google-reviews-affect-ai-recommendations" className="ae-stat-card hover:border-[#FF6A00]/30 transition-colors">
+                <div className="ae-stat-emoji">Reviews</div>
+                <div className="ae-stat-label">Do Google Reviews Affect AI Recommendations?</div>
+              </Link>
+              <Link href="/blog/check-if-ai-recommends-your-business" className="ae-stat-card hover:border-[#FF6A00]/30 transition-colors">
+                <div className="ae-stat-emoji">DIY</div>
+                <div className="ae-stat-label">How to Check If AI Recommends Your Business</div>
+              </Link>
+              <Link href="/blog/why-chatgpt-isnt-recommending-your-business" className="ae-stat-card hover:border-[#FF6A00]/30 transition-colors">
+                <div className="ae-stat-emoji">Debug</div>
+                <div className="ae-stat-label">Why ChatGPT Is Not Recommending Your Business</div>
+              </Link>
+              <Link href="/blog/aeo-vs-seo" className="ae-stat-card hover:border-[#FF6A00]/30 transition-colors">
+                <div className="ae-stat-emoji">Compare</div>
+                <div className="ae-stat-label">AEO vs SEO: What Is the Difference?</div>
+              </Link>
+            </div>
+
+            <div className="not-prose ae-cta-inline">
+              <p>Want the full picture of your AI presence?</p>
+              <a href="mailto:support@theanswerengine.ai">Email support@theanswerengine.ai</a>
+            </div>
+
+            {/* Author Card */}
+            <div className="not-prose ae-author-card">
+              <div>
+                <strong>About The Answer Engine</strong>
+                <p>We help local service businesses get found, cited, and recommended by AI platforms like ChatGPT, Google AI Overviews, and Perplexity. No fluff, no hype. Just the data that drives real leads.</p>
+              </div>
+            </div>
+
+          </article>
+
+          {/* Mid CTA Block */}
+          <div className="not-prose ae-cta-block">
+            <h2>Find Out If AI Is Recommending Your Business</h2>
+            <p>Most businesses have no idea whether AI platforms are sending them customers or sending them to competitors. Our free blind spot report shows you exactly where you stand across ChatGPT, Perplexity, Google AI Overviews, and more.</p>
+            <Link href="/blindspot">Get Your Free Blind Spot Report</Link>
+            <div className="flex flex-wrap items-center justify-center gap-6 mt-6 pt-6 border-t border-[#FF6A00]/10">
+              <a href="tel:+12134442229" className="text-gray-400 hover:text-white transition-colors">(213) 444-2229</a>
+              <a href="mailto:support@theanswerengine.ai" className="text-gray-400 hover:text-white transition-colors">support@theanswerengine.ai</a>
+            </div>
           </div>
 
-          {/* FAQ Section */}
-          <section className="mb-12">
-            <h2 className="text-2xl sm:text-3xl font-semibold mb-8 text-white">Frequently Asked Questions</h2>
-
-            <div className="space-y-6">
-              <div className="bg-white/[0.02] border border-white/[0.05] rounded-xl p-6">
-                <h3 className="text-lg font-semibold text-white mb-3">Does ChatGPT use Bing for local business information?</h3>
-                <p className="text-gray-300 leading-relaxed">
-                  Yes. ChatGPT's browsing functionality is powered by Bing's search index. When ChatGPT searches for local businesses, it retrieves information from Bing's index, which includes Bing Places business listings. This makes Bing Places a direct pathway to ChatGPT visibility.
-                </p>
-              </div>
-
-              <div className="bg-white/[0.02] border border-white/[0.05] rounded-xl p-6">
-                <h3 className="text-lg font-semibold text-white mb-3">How do I claim my Bing Places listing?</h3>
-                <p className="text-gray-300 leading-relaxed">
-                  Visit bingplaces.com and sign in with a Microsoft account. Search for your business to see if a listing already exists. If it does, claim it. If not, create a new listing. You'll need to verify ownership through phone, email, or postcard. Complete all profile fields including business hours, services, and photos.
-                </p>
-              </div>
-
-              <div className="bg-white/[0.02] border border-white/[0.05] rounded-xl p-6">
-                <h3 className="text-lg font-semibold text-white mb-3">Is Bing Places the same as Google Business Profile?</h3>
-                <p className="text-gray-300 leading-relaxed">
-                  Bing Places is Microsoft's equivalent to Google Business Profile. Both are free business listing services that help your business appear in search results and maps. The key difference: Google Business Profile feeds Google Search and Maps, while Bing Places feeds Bing Search, Bing Maps, and importantly, ChatGPT.
-                </p>
-              </div>
-
-              <div className="bg-white/[0.02] border border-white/[0.05] rounded-xl p-6">
-                <h3 className="text-lg font-semibold text-white mb-3">Can I import my Google Business Profile to Bing Places?</h3>
-                <p className="text-gray-300 leading-relaxed">
-                  Yes. Bing Places offers a direct import feature from Google Business Profile. During setup, you can authorize Bing to pull your business information from Google, saving time on data entry. However, you should still review and optimize the listing specifically for Bing.
-                </p>
-              </div>
-
-              <div className="bg-white/[0.02] border border-white/[0.05] rounded-xl p-6">
-                <h3 className="text-lg font-semibold text-white mb-3">Why doesn't ChatGPT show my business when I have a Google Business Profile?</h3>
-                <p className="text-gray-300 leading-relaxed">
-                  ChatGPT cannot access Google's data directly. It uses Bing's search index for real-time information. If you only have a Google Business Profile and haven't claimed your Bing Places listing, ChatGPT may not have accurate or complete information about your business to include in recommendations.
-                </p>
-              </div>
-
-              <div className="bg-white/[0.02] border border-white/[0.05] rounded-xl p-6">
-                <h3 className="text-lg font-semibold text-white mb-3">How long does it take for Bing Places to affect ChatGPT results?</h3>
-                <p className="text-gray-300 leading-relaxed">
-                  After claiming and optimizing your Bing Places listing, it typically takes 2-4 weeks for the information to be indexed and potentially surface in ChatGPT responses. Verification must be completed first, and more complete profiles are indexed faster and more thoroughly.
-                </p>
-              </div>
-            </div>
-          </section>
-
-          {/* Related Content */}
-          <section className="mb-12">
-            <h2 className="text-2xl sm:text-3xl font-semibold mb-6 text-white">Related Articles</h2>
-            <div className="grid sm:grid-cols-2 gap-4">
-              <Link href="/blog/do-google-reviews-affect-ai-recommendations" className="bg-white/[0.02] border border-white/[0.05] rounded-xl p-6 hover:border-white/[0.08] transition-colors group">
-                <div className="text-white text-sm font-medium mb-2">Reviews & AI</div>
-                <div className="text-white font-semibold group-hover:text-white transition-colors">Do Google Reviews Affect AI Recommendations?</div>
-              </Link>
-              <Link href="/blog/check-if-ai-recommends-your-business" className="bg-white/[0.02] border border-white/[0.05] rounded-xl p-6 hover:border-white/[0.08] transition-colors group">
-                <div className="text-white text-sm font-medium mb-2">DIY Guide</div>
-                <div className="text-white font-semibold group-hover:text-white transition-colors">How to Check If AI Recommends Your Business</div>
-              </Link>
-              <Link href="/blog/why-chatgpt-isnt-recommending-your-business" className="bg-white/[0.02] border border-white/[0.05] rounded-xl p-6 hover:border-white/[0.08] transition-colors group">
-                <div className="text-white text-sm font-medium mb-2">Troubleshooting</div>
-                <div className="text-white font-semibold group-hover:text-white transition-colors">Why ChatGPT Isn't Recommending Your Business</div>
-              </Link>
-              <Link href="/blog/aeo-vs-seo" className="bg-white/[0.02] border border-white/[0.05] rounded-xl p-6 hover:border-white/[0.08] transition-colors group">
-                <div className="text-white text-sm font-medium mb-2">Comparison</div>
-                <div className="text-white font-semibold group-hover:text-white transition-colors">AEO vs SEO: What's the Difference?</div>
-              </Link>
-            </div>
-          </section>
-
-          {/* CTA */}
-          <section className="text-center py-12 border-t border-white/[0.05]">
-            <h2 className="text-2xl sm:text-3xl font-semibold mb-4 text-white">Not Sure If AI Can Find Your Business?</h2>
-            <p className="text-gray-400 mb-8 max-w-2xl mx-auto">
-              Our free AEO audit checks your visibility across ChatGPT, Perplexity, Google AI Overview, and more. See exactly where you're being recommended—and where you're missing.
-            </p>
-            <Link
-              href="/#contact"
-              className="inline-flex items-center gap-2 bg-gradient-to-r from-white to-white text-white font-semibold px-8 py-4 rounded-xl hover:opacity-90 transition-opacity"
-            >
-              Get Your Free AEO Audit
-              <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={2}>
-                <path strokeLinecap="round" strokeLinejoin="round" d="M17 8l4 4m0 0l-4 4m4-4H3" />
-              </svg>
+          {/* Final CTA */}
+          <div className="not-prose ae-final-cta">
+            <h2>Not Sure If AI Can Find Your Business?</h2>
+            <p>Our free AEO audit checks your visibility across ChatGPT, Perplexity, Google AI Overview, and more. See exactly where you are being recommended and where you are missing.</p>
+            <Link href="/blindspot" className="ae-final-cta-pulse">
+              Get Your Free Blind Spot Report
             </Link>
+            <div className="flex flex-wrap items-center justify-center gap-6 mt-6">
+              <a href="tel:+12134442229" className="text-gray-400 hover:text-white transition-colors">(213) 444-2229</a>
+              <a href="mailto:support@theanswerengine.ai" className="text-gray-400 hover:text-white transition-colors">support@theanswerengine.ai</a>
+            </div>
             <p className="text-gray-500 text-sm mt-4">Discover if ChatGPT is recommending your competitors instead of you.</p>
-          </section>
-        </article>
+          </div>
+
+        </div>
       </main>
     </>
   );

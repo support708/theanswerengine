@@ -261,15 +261,41 @@ export default function Page() {
               <div className="flex items-center gap-4 text-sm text-gray-400">
                 <span>March 19, 2026</span>
                 <span>-</span>
-                <span>12 min read</span>
+                <span>14 min read</span>
                 <span>-</span>
                 <span>The Answer Engine Team</span>
               </div>
             </div>
           </div>
 
+          {/* Stats Grid */}
+          <div className="not-prose">
+            <div className="ae-stats-grid">
+              <div className="ae-stat-card">
+                <div className="ae-stat-emoji">📂</div>
+                <div className="ae-stat-value ae-accent">42%</div>
+                <div className="ae-stat-label">AI CITATIONS FROM LISTINGS</div>
+              </div>
+              <div className="ae-stat-card">
+                <div className="ae-stat-emoji">🔗</div>
+                <div className="ae-stat-value ae-accent">6.8M</div>
+                <div className="ae-stat-label">CITATIONS ANALYZED</div>
+              </div>
+              <div className="ae-stat-card">
+                <div className="ae-stat-emoji">📈</div>
+                <div className="ae-stat-value ae-accent">3x</div>
+                <div className="ae-stat-label">CITATION LIFT W/ PROFILES</div>
+              </div>
+              <div className="ae-stat-card">
+                <div className="ae-stat-emoji">🎯</div>
+                <div className="ae-stat-value ae-accent">86%</div>
+                <div className="ae-stat-label">FROM BRAND-MANAGED SOURCES</div>
+              </div>
+            </div>
+          </div>
+
           {/* Article Body */}
-          <article className="prose prose-invert prose-lg max-w-none">
+          <article className="prose prose-invert prose-lg max-w-none prose-headings:font-plus-jakarta prose-headings:text-white prose-p:text-gray-300 prose-a:text-[#FF6A00] prose-a:no-underline hover:prose-a:underline prose-strong:text-white">
 
             {/* Intro */}
             <p className="text-xl text-gray-300 leading-relaxed mb-10">
@@ -288,23 +314,33 @@ export default function Page() {
               is which ones actually count.
             </p>
 
-            {/* Stat Callout 1 */}
-            <div className="rounded-xl border border-orange-500/30 bg-orange-500/5 p-6 mb-10">
-              <p className="text-orange-400 font-semibold text-lg mb-2">Listings Drive Nearly Half of AI Citations</p>
-              <p className="text-gray-300 text-base leading-relaxed">
-                Yext analyzed 6.8 million AI citations across 1.6 million
-                responses from ChatGPT, Gemini, and Perplexity (July to August
-                2025). First-party websites generated 44% of citations, while
-                listings generated 42%. Reviews and social media accounted for
-                just 8%. Your directory presence is nearly as important as your
-                own website for AI visibility.
-              </p>
+            {/* Callout: Listings Drive Nearly Half */}
+            <div className="not-prose">
+              <div className="ae-callout ae-callout-warning">
+                <div className="ae-callout-title">Listings Drive Nearly Half of AI Citations</div>
+                <p>
+                  Yext analyzed 6.8 million AI citations across 1.6 million
+                  responses from ChatGPT, Gemini, and Perplexity (July to August
+                  2025). First-party websites generated 44% of citations, while
+                  listings generated 42%. Reviews and social media accounted for
+                  just 8%. Your directory presence is nearly as important as your
+                  own website for AI visibility.
+                </p>
+              </div>
             </div>
 
-            <h2 className="text-2xl font-bold text-white mt-12 mb-4 font-plus-jakarta">
-              How AI Platforms Actually Use Directory Data
-            </h2>
-            <p className="text-gray-300 leading-relaxed mb-4">
+            {/* CTA Inline 1 */}
+            <div className="not-prose">
+              <div className="ae-cta-inline">
+                <p>Not sure which directories are helping or hurting your AI visibility?</p>
+                <Link href="/blindspot">Get Your Free Blind Spot Report →</Link>
+              </div>
+            </div>
+
+            {/* Section: How AI Platforms Use Directory Data */}
+            <div className="not-prose"><span className="ae-section-label">AI + Directories</span></div>
+            <h2>How AI Platforms Actually Use Directory Data</h2>
+            <p>
               Traditional search engines crawl directories and use them as
               ranking signals. AI platforms do something different. They
               cross-reference your business information across multiple sources,
@@ -316,9 +352,9 @@ export default function Page() {
               most common version or avoids mentioning your contact details
               entirely.
             </p>
-            <p className="text-gray-300 leading-relaxed mb-4">
+            <p>
               This cross-referencing behavior makes{' '}
-              <Link href="/blog/does-schema-markup-help-ai-search" className="text-orange-400 underline hover:text-orange-300">
+              <Link href="/blog/does-schema-markup-help-ai-search">
                 structured data and schema markup
               </Link>{' '}
               even more valuable. AI systems treat structured directory listings
@@ -328,32 +364,72 @@ export default function Page() {
               information carries more weight than a plain-text mention on a
               generic business directory.
             </p>
-            <p className="text-gray-300 leading-relaxed mb-6">
+            <p>
               Each AI platform also has distinct preferences for where it pulls
               directory data. Understanding these differences is the key to
               building a listing strategy that works across all of them.
             </p>
 
-            <h2 className="text-2xl font-bold text-white mt-12 mb-4 font-plus-jakarta">
-              What Each AI Platform Cites (and Why It Matters)
-            </h2>
-            <p className="text-gray-300 leading-relaxed mb-4">
+            {/* Quote */}
+            <div className="not-prose">
+              <div className="ae-quote">
+                <p>AI does not care how many directories list you. It cares whether the directories it trusts all tell the same story about your business.</p>
+              </div>
+            </div>
+
+            {/* CTA Inline 2 */}
+            <div className="not-prose">
+              <div className="ae-cta-inline">
+                <p>Want to see exactly what AI platforms say about you right now?</p>
+                <Link href="/blindspot">Get Your Free Blind Spot Report →</Link>
+              </div>
+            </div>
+
+            {/* Section: What Each AI Platform Cites */}
+            <div className="not-prose"><span className="ae-section-label">Platform Breakdown</span></div>
+            <h2>What Each AI Platform Cites (and Why It Matters)</h2>
+            <p>
               The Yext study revealed that AI models show distinct preferences
               when pulling from directory sources. These are not minor
               differences. Each platform has a meaningfully different approach
               to directory data.
             </p>
 
-            <h3 className="text-xl font-bold text-white mt-8 mb-3 font-plus-jakarta">
-              ChatGPT (OpenAI)
-            </h3>
-            <p className="text-gray-300 leading-relaxed mb-4">
+            {/* Bar Group: Platform Listing Reliance */}
+            <div className="not-prose">
+              <div className="ae-bar-group">
+                <div className="ae-bar-group-title">Percentage of Citations from Directory Listings</div>
+                <div className="ae-bar-item">
+                  <div className="ae-bar-label">ChatGPT</div>
+                  <div className="ae-bar-track"><div className="ae-bar-fill" style={{ width: '49%' }}></div></div>
+                  <div className="ae-bar-value">48.7%</div>
+                </div>
+                <div className="ae-bar-item">
+                  <div className="ae-bar-label">Gemini</div>
+                  <div className="ae-bar-track"><div className="ae-bar-fill" style={{ width: '38%' }}></div></div>
+                  <div className="ae-bar-value">~38%</div>
+                </div>
+                <div className="ae-bar-item">
+                  <div className="ae-bar-label">Perplexity</div>
+                  <div className="ae-bar-track"><div className="ae-bar-fill" style={{ width: '35%' }}></div></div>
+                  <div className="ae-bar-value">~35%</div>
+                </div>
+                <div className="ae-bar-item">
+                  <div className="ae-bar-label">Google AI Overviews</div>
+                  <div className="ae-bar-track"><div className="ae-bar-fill" style={{ width: '30%' }}></div></div>
+                  <div className="ae-bar-value">~30%</div>
+                </div>
+              </div>
+            </div>
+
+            <h3>ChatGPT (OpenAI)</h3>
+            <p>
               ChatGPT leans heavily on listings, with 48.7% of its citations
               coming from directory and listing sources according to the Yext
               study. This makes it the most listing-dependent of the three major
               AI platforms. ChatGPT draws from Bing&apos;s data ecosystem, which
               means your{' '}
-              <Link href="/blog/bing-places-chatgpt-connection" className="text-orange-400 underline hover:text-orange-300">
+              <Link href="/blog/bing-places-chatgpt-connection">
                 Bing Places profile
               </Link>{' '}
               is particularly important. Businesses with profiles on review
@@ -363,10 +439,8 @@ export default function Page() {
               36,127 buying-intent queries.
             </p>
 
-            <h3 className="text-xl font-bold text-white mt-8 mb-3 font-plus-jakarta">
-              Google AI Overviews
-            </h3>
-            <p className="text-gray-300 leading-relaxed mb-4">
+            <h3>Google AI Overviews</h3>
+            <p>
               Google AI Overviews favor first-party websites (52.1% of Gemini
               citations come from websites), but directories still play a
               significant supporting role. Yelp recorded over 246,000 mentions in
@@ -375,15 +449,13 @@ export default function Page() {
               into AI Overviews, making it the single most important listing for
               any local business targeting Google&apos;s AI features. If you have
               not verified whether{' '}
-              <Link href="/blog/is-your-business-ready-for-google-ai-mode" className="text-orange-400 underline hover:text-orange-300">
+              <Link href="/blog/is-your-business-ready-for-google-ai-mode">
                 your business is ready for Google AI Mode
               </Link>, now is the time.
             </p>
 
-            <h3 className="text-xl font-bold text-white mt-8 mb-3 font-plus-jakarta">
-              Perplexity
-            </h3>
-            <p className="text-gray-300 leading-relaxed mb-6">
+            <h3>Perplexity</h3>
+            <p>
               Perplexity takes a different approach. It diversifies across
               sources and leans into industry-specific directories more than its
               competitors. In healthcare, Zocdoc drives citations. In
@@ -394,66 +466,231 @@ export default function Page() {
               industry-specific directory presence is what moves the needle.
             </p>
 
-            {/* Stat Callout 2 */}
-            <div className="rounded-xl border border-orange-500/30 bg-orange-500/5 p-6 mb-10">
-              <p className="text-orange-400 font-semibold text-lg mb-2">3x More Likely to Be Cited</p>
-              <p className="text-gray-300 text-base leading-relaxed">
-                First Page Sage analyzed 36,127 buying-intent queries on ChatGPT.
-                Businesses with profiles on platforms like Yelp, Trustpilot, G2,
-                and Capterra had three times higher chances of being chosen as a
-                source compared to businesses without those profiles. Directory
-                presence is not optional for AI visibility.
-              </p>
+            {/* Callout: 3x More Likely */}
+            <div className="not-prose">
+              <div className="ae-callout ae-callout-success">
+                <div className="ae-callout-title">3x More Likely to Be Cited</div>
+                <p>
+                  First Page Sage analyzed 36,127 buying-intent queries on ChatGPT.
+                  Businesses with profiles on platforms like Yelp, Trustpilot, G2,
+                  and Capterra had three times higher chances of being chosen as a
+                  source compared to businesses without those profiles. Directory
+                  presence is not optional for AI visibility.
+                </p>
+              </div>
             </div>
 
-            <h2 className="text-2xl font-bold text-white mt-12 mb-4 font-plus-jakarta">
-              The Directories That Actually Move the Needle
-            </h2>
-            <p className="text-gray-300 leading-relaxed mb-4">
+            {/* CTA Inline 3 */}
+            <div className="not-prose">
+              <div className="ae-cta-inline">
+                <p>Wondering if ChatGPT is citing your competitors instead of you?</p>
+                <Link href="/blindspot">Get Your Free Blind Spot Report →</Link>
+              </div>
+            </div>
+
+            {/* Section: Directories That Move the Needle */}
+            <div className="not-prose"><span className="ae-section-label">Directory Tiers</span></div>
+            <h2>The Directories That Actually Move the Needle</h2>
+            <p>
               Based on the citation research from Yext, First Page Sage, and
               Semrush, here are the directory categories that AI platforms
               consistently pull from, ranked by impact.
             </p>
 
-            <h3 className="text-xl font-bold text-white mt-8 mb-3 font-plus-jakarta">
-              Tier 1: Non-Negotiable Listings
-            </h3>
-            <ul className="text-gray-300 mb-6 space-y-2">
-              <li><strong className="text-white">Google Business Profile.</strong> The foundation of local AI visibility. Google AI Overviews pull directly from GBP data. Complete every field, add photos, respond to reviews, and keep hours updated.</li>
-              <li><strong className="text-white">Bing Places.</strong> ChatGPT relies on Bing&apos;s data ecosystem. If you are not on Bing Places, you are largely invisible to ChatGPT for local queries. Claim and verify your listing.</li>
-              <li><strong className="text-white">Yelp.</strong> With 246,000+ mentions in Google AI Overviews and strong citation presence across all three major AI platforms, Yelp remains essential. Maintain complete business details and respond to reviews.</li>
-              <li><strong className="text-white">Apple Business Connect.</strong> Siri and Apple&apos;s AI features pull from Apple Maps data. As Apple integrates more AI into its products, this listing will only grow in importance.</li>
+            {/* Decision Matrix: Directory Tiers */}
+            <div className="not-prose">
+              <table className="ae-decision-matrix">
+                <thead>
+                  <tr>
+                    <th>Directory</th>
+                    <th>Tier</th>
+                    <th>Primary AI Platform</th>
+                    <th>Action</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>Google Business Profile</td>
+                    <td>Tier 1</td>
+                    <td>Google AI Overviews</td>
+                    <td>Claim + optimize immediately</td>
+                  </tr>
+                  <tr>
+                    <td>Bing Places</td>
+                    <td>Tier 1</td>
+                    <td>ChatGPT</td>
+                    <td>Claim + optimize immediately</td>
+                  </tr>
+                  <tr>
+                    <td>Yelp</td>
+                    <td>Tier 1</td>
+                    <td>All platforms</td>
+                    <td>Claim + optimize immediately</td>
+                  </tr>
+                  <tr>
+                    <td>Apple Business Connect</td>
+                    <td>Tier 1</td>
+                    <td>Siri / Apple AI</td>
+                    <td>Claim + optimize immediately</td>
+                  </tr>
+                  <tr>
+                    <td>BBB</td>
+                    <td>Tier 2</td>
+                    <td>All (trust signal)</td>
+                    <td>Claim if service business</td>
+                  </tr>
+                  <tr>
+                    <td>Industry directories</td>
+                    <td>Tier 2</td>
+                    <td>Perplexity</td>
+                    <td>Top 2-3 for your vertical</td>
+                  </tr>
+                  <tr>
+                    <td>Trustpilot / G2</td>
+                    <td>Tier 2</td>
+                    <td>ChatGPT</td>
+                    <td>Claim if e-commerce or SaaS</td>
+                  </tr>
+                  <tr>
+                    <td>Data aggregators</td>
+                    <td>Tier 3</td>
+                    <td>Indirect (feeds others)</td>
+                    <td>Verify NAP accuracy</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+
+            <h3>Tier 1: Non-Negotiable Listings</h3>
+            <ul>
+              <li><strong>Google Business Profile.</strong> The foundation of local AI visibility. Google AI Overviews pull directly from GBP data. Complete every field, add photos, respond to reviews, and keep hours updated.</li>
+              <li><strong>Bing Places.</strong> ChatGPT relies on Bing&apos;s data ecosystem. If you are not on Bing Places, you are largely invisible to ChatGPT for local queries. Claim and verify your listing.</li>
+              <li><strong>Yelp.</strong> With 246,000+ mentions in Google AI Overviews and strong citation presence across all three major AI platforms, Yelp remains essential. Maintain complete business details and respond to reviews.</li>
+              <li><strong>Apple Business Connect.</strong> Siri and Apple&apos;s AI features pull from Apple Maps data. As Apple integrates more AI into its products, this listing will only grow in importance.</li>
             </ul>
 
-            <h3 className="text-xl font-bold text-white mt-8 mb-3 font-plus-jakarta">
-              Tier 2: High-Impact Supporting Listings
-            </h3>
-            <ul className="text-gray-300 mb-6 space-y-2">
-              <li><strong className="text-white">Better Business Bureau (BBB).</strong> AI platforms use BBB as a trust signal, especially for service businesses. An accredited BBB profile with an A+ rating carries weight in AI recommendations for contractors, financial services, and professional services.</li>
-              <li><strong className="text-white">Industry-specific directories.</strong> These vary by vertical: Zocdoc and Healthgrades for healthcare, TripAdvisor for hospitality, Avvo for legal, Houzz for home services, Clutch and G2 for B2B software. Perplexity in particular favors these specialized sources.</li>
-              <li><strong className="text-white">Trustpilot and G2.</strong> Review-heavy platforms that AI systems reference when evaluating business credibility. Particularly important for e-commerce and SaaS businesses.</li>
+            {/* CTA Inline 4 */}
+            <div className="not-prose">
+              <div className="ae-cta-inline">
+                <p>Have questions about which directories matter for your industry?</p>
+                <a href="tel:+12134442229">Call us: (213) 444-2229 →</a>
+              </div>
+            </div>
+
+            <h3>Tier 2: High-Impact Supporting Listings</h3>
+            <ul>
+              <li><strong>Better Business Bureau (BBB).</strong> AI platforms use BBB as a trust signal, especially for service businesses. An accredited BBB profile with an A+ rating carries weight in AI recommendations for contractors, financial services, and professional services.</li>
+              <li><strong>Industry-specific directories.</strong> These vary by vertical: Zocdoc and Healthgrades for healthcare, TripAdvisor for hospitality, Avvo for legal, Houzz for home services, Clutch and G2 for B2B software. Perplexity in particular favors these specialized sources.</li>
+              <li><strong>Trustpilot and G2.</strong> Review-heavy platforms that AI systems reference when evaluating business credibility. Particularly important for e-commerce and SaaS businesses.</li>
             </ul>
 
-            <h3 className="text-xl font-bold text-white mt-8 mb-3 font-plus-jakarta">
-              Tier 3: Helpful but Not Critical
-            </h3>
-            <ul className="text-gray-300 mb-6 space-y-2">
-              <li><strong className="text-white">Chamber of Commerce listings.</strong> Provide local authority signals and are sometimes cited for location-specific queries.</li>
-              <li><strong className="text-white">Data aggregators (Foursquare, Data Axle).</strong> Feed information to many smaller directories. Ensuring accuracy here prevents errors from cascading across dozens of listings.</li>
-              <li><strong className="text-white">Facebook Business page.</strong> While not a directory in the traditional sense, AI platforms do reference Facebook business data, especially for hours, reviews, and contact information.</li>
+            <h3>Tier 3: Helpful but Not Critical</h3>
+            <ul>
+              <li><strong>Chamber of Commerce listings.</strong> Provide local authority signals and are sometimes cited for location-specific queries.</li>
+              <li><strong>Data aggregators (Foursquare, Data Axle).</strong> Feed information to many smaller directories. Ensuring accuracy here prevents errors from cascading across dozens of listings.</li>
+              <li><strong>Facebook Business page.</strong> While not a directory in the traditional sense, AI platforms do reference Facebook business data, especially for hours, reviews, and contact information.</li>
             </ul>
 
-            <h2 className="text-2xl font-bold text-white mt-12 mb-4 font-plus-jakarta">
-              Why 86% of AI Citations Come from Sources You Already Control
-            </h2>
-            <p className="text-gray-300 leading-relaxed mb-4">
+            {/* Industry Directory Cheat Sheet */}
+            <div className="not-prose">
+              <div className="ae-cheat-sheet">
+                <div className="ae-cheat-sheet-title">Industry Directory Cheat Sheet</div>
+                <table className="ae-comparison-table">
+                  <thead>
+                    <tr>
+                      <th>Industry</th>
+                      <th>Must-Have Directories</th>
+                      <th>Primary AI Beneficiary</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>Healthcare</td>
+                      <td>Zocdoc, Healthgrades, WebMD</td>
+                      <td>Perplexity, Google AI</td>
+                    </tr>
+                    <tr>
+                      <td>Hospitality</td>
+                      <td>TripAdvisor, OpenTable, Booking.com</td>
+                      <td>Perplexity (239K+ citations)</td>
+                    </tr>
+                    <tr>
+                      <td>Legal</td>
+                      <td>Avvo, FindLaw, Martindale</td>
+                      <td>Perplexity, ChatGPT</td>
+                    </tr>
+                    <tr>
+                      <td>Home Services</td>
+                      <td>Houzz, Angi, HomeAdvisor</td>
+                      <td>Google AI, ChatGPT</td>
+                    </tr>
+                    <tr>
+                      <td>B2B / SaaS</td>
+                      <td>G2, Capterra, Clutch</td>
+                      <td>ChatGPT (3x citation lift)</td>
+                    </tr>
+                    <tr>
+                      <td>Real Estate</td>
+                      <td>Zillow, Realtor.com, Redfin</td>
+                      <td>Google AI, Perplexity</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+
+            {/* CTA Inline 5 */}
+            <div className="not-prose">
+              <div className="ae-cta-inline">
+                <p>Not sure which industry directories AI actually pulls from for your business?</p>
+                <Link href="/blindspot">Get Your Free Blind Spot Report →</Link>
+              </div>
+            </div>
+
+            {/* Section: 86% Brand-Managed */}
+            <div className="not-prose"><span className="ae-section-label">You Own This</span></div>
+            <h2>Why 86% of AI Citations Come from Sources You Already Control</h2>
+            <p>
               One of the most important findings from the Yext study is that 86%
               of AI citations come from brand-managed sources. That includes your
               website, your directory listings, and your social profiles. Only 2%
               of citations came from forums like Reddit once location context and
               query intent were applied.
             </p>
-            <p className="text-gray-300 leading-relaxed mb-6">
+
+            {/* Bar Group: Citation Sources */}
+            <div className="not-prose">
+              <div className="ae-bar-group">
+                <div className="ae-bar-group-title">Where AI Citations Actually Come From</div>
+                <div className="ae-bar-item">
+                  <div className="ae-bar-label">First-Party Websites</div>
+                  <div className="ae-bar-track"><div className="ae-bar-fill" style={{ width: '44%' }}></div></div>
+                  <div className="ae-bar-value">44%</div>
+                </div>
+                <div className="ae-bar-item">
+                  <div className="ae-bar-label">Directory Listings</div>
+                  <div className="ae-bar-track"><div className="ae-bar-fill" style={{ width: '42%' }}></div></div>
+                  <div className="ae-bar-value">42%</div>
+                </div>
+                <div className="ae-bar-item">
+                  <div className="ae-bar-label">Reviews + Social</div>
+                  <div className="ae-bar-track"><div className="ae-bar-fill" style={{ width: '8%' }}></div></div>
+                  <div className="ae-bar-value">8%</div>
+                </div>
+                <div className="ae-bar-item">
+                  <div className="ae-bar-label">Forums (Reddit, etc.)</div>
+                  <div className="ae-bar-track"><div className="ae-bar-fill" style={{ width: '2%' }}></div></div>
+                  <div className="ae-bar-value">2%</div>
+                </div>
+                <div className="ae-bar-item">
+                  <div className="ae-bar-label">Other Sources</div>
+                  <div className="ae-bar-track"><div className="ae-bar-fill" style={{ width: '4%' }}></div></div>
+                  <div className="ae-bar-value">4%</div>
+                </div>
+              </div>
+            </div>
+
+            <p>
               This is good news. It means AI visibility is not about chasing
               viral Reddit threads or hoping someone writes about you on a forum.
               It is about systematically managing the sources you already own:
@@ -463,130 +700,336 @@ export default function Page() {
               checkboxes.
             </p>
 
-            <h2 className="text-2xl font-bold text-white mt-12 mb-4 font-plus-jakarta">
-              NAP Consistency: The Trust Signal AI Cannot Ignore
-            </h2>
-            <p className="text-gray-300 leading-relaxed mb-4">
+            {/* Callout: You Control This */}
+            <div className="not-prose">
+              <div className="ae-callout ae-callout-info">
+                <div className="ae-callout-title">You Control 86% of Your AI Visibility</div>
+                <p>
+                  Unlike traditional SEO where backlinks from external sites drive rankings,
+                  AI citations overwhelmingly come from sources you already manage. Your website
+                  and your directory listings together account for 86% of all AI citations.
+                  This means improvements are entirely within your control.
+                </p>
+              </div>
+            </div>
+
+            {/* CTA Inline 6 */}
+            <div className="not-prose">
+              <div className="ae-cta-inline">
+                <p>Want to know exactly which brand-managed sources AI is pulling from for your business?</p>
+                <Link href="/blindspot">Get Your Free Blind Spot Report →</Link>
+              </div>
+            </div>
+
+            {/* Section: NAP Consistency */}
+            <div className="not-prose"><span className="ae-section-label">NAP Consistency</span></div>
+            <h2>NAP Consistency: The Trust Signal AI Cannot Ignore</h2>
+            <p>
               Your business name, address, and phone number need to be identical
               across every listing. Not similar. Identical. AI systems
               cross-reference this data to verify accuracy. When they find
               conflicts, they lower their confidence in your information and may
               exclude you from recommendations entirely.
             </p>
-            <p className="text-gray-300 leading-relaxed mb-4">
+
+            {/* Pros and Cons: NAP */}
+            <div className="not-prose">
+              <div className="ae-pros-cons">
+                <div className="ae-pros-box">
+                  <div className="ae-pros-title">Consistent NAP Signals</div>
+                  <ul>
+                    <li>AI gains high confidence in your data</li>
+                    <li>Contact info appears in AI responses</li>
+                    <li>Business gets recommended with full details</li>
+                    <li>Cross-platform trust score increases</li>
+                  </ul>
+                </div>
+                <div className="ae-cons-box">
+                  <div className="ae-cons-title">Inconsistent NAP Signals</div>
+                  <ul>
+                    <li>AI cannot verify which info is correct</li>
+                    <li>Contact details omitted from responses</li>
+                    <li>Business may not appear at all</li>
+                    <li>Competitors with clean data get cited instead</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <p>
               Common consistency mistakes that hurt AI visibility:
             </p>
-            <ul className="text-gray-300 mb-6 space-y-2">
-              <li><strong className="text-white">Abbreviation mismatches.</strong> &quot;St&quot; versus &quot;Street,&quot; &quot;Ave&quot; versus &quot;Avenue.&quot; Pick one format and use it everywhere.</li>
-              <li><strong className="text-white">Suite number variations.</strong> &quot;Suite 200,&quot; &quot;Ste 200,&quot; &quot;#200.&quot; These look like different locations to an AI system.</li>
-              <li><strong className="text-white">Old phone numbers.</strong> If you changed your number two years ago, every listing needs to reflect the current one. A single outdated listing can create doubt about which number is correct.</li>
-              <li><strong className="text-white">Business name differences.</strong> &quot;Joe&apos;s Plumbing,&quot; &quot;Joe&apos;s Plumbing LLC,&quot; &quot;Joe&apos;s Plumbing &amp; Heating.&quot; AI sees these as potentially different businesses.</li>
+            <ul>
+              <li><strong>Abbreviation mismatches.</strong> &quot;St&quot; versus &quot;Street,&quot; &quot;Ave&quot; versus &quot;Avenue.&quot; Pick one format and use it everywhere.</li>
+              <li><strong>Suite number variations.</strong> &quot;Suite 200,&quot; &quot;Ste 200,&quot; &quot;#200.&quot; These look like different locations to an AI system.</li>
+              <li><strong>Old phone numbers.</strong> If you changed your number two years ago, every listing needs to reflect the current one. A single outdated listing can create doubt about which number is correct.</li>
+              <li><strong>Business name differences.</strong> &quot;Joe&apos;s Plumbing,&quot; &quot;Joe&apos;s Plumbing LLC,&quot; &quot;Joe&apos;s Plumbing &amp; Heating.&quot; AI sees these as potentially different businesses.</li>
             </ul>
-            <p className="text-gray-300 leading-relaxed mb-6">
+            <p>
               Create a master document with your exact NAP information and use it
               as the single source of truth for every listing. This is the
               simplest, highest-impact action you can take to improve your AI
               directory presence. For a deeper look at how AI handles your contact
               data, read our guide on{' '}
-              <Link href="/blog/why-chatgpt-isnt-recommending-your-business" className="text-orange-400 underline hover:text-orange-300">
+              <Link href="/blog/why-chatgpt-isnt-recommending-your-business">
                 why ChatGPT is not recommending your business
               </Link>.
             </p>
 
-            {/* Stat Callout 3 */}
-            <div className="rounded-xl border border-orange-500/30 bg-orange-500/5 p-6 mb-10">
-              <p className="text-orange-400 font-semibold text-lg mb-2">Only 11% Overlap Between Platforms</p>
-              <p className="text-gray-300 text-base leading-relaxed">
-                A Semrush study of over 150,000 LLM citations found that only 11%
-                of domains are cited by both ChatGPT and Perplexity. These
-                platforms use significantly different source selection strategies.
-                Optimizing for one AI platform does not guarantee visibility on
-                the others. You need directory coverage that spans multiple
-                ecosystems.
-              </p>
+            {/* CTA Inline 7 */}
+            <div className="not-prose">
+              <div className="ae-cta-inline">
+                <p>NAP issues hiding in your listings? We will find them.</p>
+                <Link href="/blindspot">Get Your Free Blind Spot Report →</Link>
+              </div>
             </div>
 
-            <h2 className="text-2xl font-bold text-white mt-12 mb-4 font-plus-jakarta">
-              How to Audit Your Current Directory Presence
-            </h2>
-            <p className="text-gray-300 leading-relaxed mb-4">
+            {/* Callout: 11% Overlap */}
+            <div className="not-prose">
+              <div className="ae-callout ae-callout-warning">
+                <div className="ae-callout-title">Only 11% Overlap Between Platforms</div>
+                <p>
+                  A Semrush study of over 150,000 LLM citations found that only 11%
+                  of domains are cited by both ChatGPT and Perplexity. These
+                  platforms use significantly different source selection strategies.
+                  Optimizing for one AI platform does not guarantee visibility on
+                  the others. You need directory coverage that spans multiple
+                  ecosystems.
+                </p>
+              </div>
+            </div>
+
+            {/* Section: Audit Your Directory Presence */}
+            <div className="not-prose"><span className="ae-section-label">Audit Process</span></div>
+            <h2>How to Audit Your Current Directory Presence</h2>
+            <p>
               Before adding new listings, audit what you already have. Many
               businesses have outdated or incomplete profiles on directories they
               signed up for years ago. Here is a practical audit process:
             </p>
-            <ol className="text-gray-300 mb-6 space-y-2 list-decimal list-inside">
-              <li><strong className="text-white">Search for your business on each Tier 1 directory.</strong> Google Business Profile, Bing Places, Yelp, Apple Business Connect. Verify that each listing exists, is claimed, and has complete information.</li>
-              <li><strong className="text-white">Check NAP consistency.</strong> Compare your name, address, and phone number across every listing. Flag any discrepancies, no matter how small.</li>
-              <li><strong className="text-white">Review completeness.</strong> Check whether each listing has business hours, service descriptions, photos, categories, and a link to your website. Incomplete listings get less weight from AI systems.</li>
-              <li><strong className="text-white">Test your AI visibility.</strong> Ask ChatGPT, Perplexity, and Google AI a question that should surface your business. Note whether you appear and what information the AI shares about you. Our{' '}
-                <Link href="/blog/5-minute-ai-visibility-audit" className="text-orange-400 underline hover:text-orange-300">
-                  5-minute AI visibility audit
-                </Link>{' '}
-                walks you through this step by step.
-              </li>
-              <li><strong className="text-white">Identify gaps in industry-specific directories.</strong> Look up the top directories in your vertical. Are you listed? Is the information current?</li>
-            </ol>
 
-            <h2 className="text-2xl font-bold text-white mt-12 mb-4 font-plus-jakarta">
-              The Listing Optimization Checklist
-            </h2>
-            <p className="text-gray-300 leading-relaxed mb-4">
+            {/* Timeline: Audit Steps */}
+            <div className="not-prose">
+              <div className="ae-timeline">
+                <div className="ae-timeline-item">
+                  <strong>Step 1: Search Tier 1 Directories</strong>
+                  <p>Google Business Profile, Bing Places, Yelp, Apple Business Connect. Verify that each listing exists, is claimed, and has complete information.</p>
+                </div>
+                <div className="ae-timeline-item">
+                  <strong>Step 2: Check NAP Consistency</strong>
+                  <p>Compare your name, address, and phone number across every listing. Flag any discrepancies, no matter how small.</p>
+                </div>
+                <div className="ae-timeline-item">
+                  <strong>Step 3: Review Completeness</strong>
+                  <p>Check whether each listing has business hours, service descriptions, photos, categories, and a link to your website. Incomplete listings get less weight from AI systems.</p>
+                </div>
+                <div className="ae-timeline-item">
+                  <strong>Step 4: Test Your AI Visibility</strong>
+                  <p>Ask ChatGPT, Perplexity, and Google AI a question that should surface your business. Note whether you appear and what information the AI shares. Our{' '}
+                    <Link href="/blog/5-minute-ai-visibility-audit">
+                      5-minute AI visibility audit
+                    </Link>{' '}
+                    walks you through this step by step.</p>
+                </div>
+                <div className="ae-timeline-item">
+                  <strong>Step 5: Identify Industry Gaps</strong>
+                  <p>Look up the top directories in your vertical. Are you listed? Is the information current?</p>
+                </div>
+              </div>
+            </div>
+
+            {/* CTA Inline 8 */}
+            <div className="not-prose">
+              <div className="ae-cta-inline">
+                <p>Skip the manual audit. We check all of this for you, free.</p>
+                <Link href="/blindspot">Get Your Free Blind Spot Report →</Link>
+              </div>
+            </div>
+
+            {/* Section: Listing Optimization Checklist */}
+            <div className="not-prose"><span className="ae-section-label">Optimization Checklist</span></div>
+            <h2>The Listing Optimization Checklist</h2>
+            <p>
               Once your listings are claimed and consistent, optimize them for
               maximum AI visibility. Each listing should include:
             </p>
-            <ul className="text-gray-300 mb-6 space-y-2">
-              <li><strong className="text-white">Complete and accurate NAP data.</strong> Identical across every platform, matching your website&apos;s contact page exactly.</li>
-              <li><strong className="text-white">Detailed service descriptions.</strong> Use natural language that matches how customers actually search. &quot;Emergency plumbing repair in Austin, TX&quot; is better than &quot;plumbing services.&quot;</li>
-              <li><strong className="text-white">Business categories.</strong> Select all relevant categories on each platform. AI systems use these to match your business to user queries.</li>
-              <li><strong className="text-white">Current business hours.</strong> Including holiday hours. AI platforms frequently cite hours when answering &quot;is [business] open now?&quot; queries.</li>
-              <li><strong className="text-white">High-quality photos.</strong> Particularly on Yelp and Google Business Profile. Photos signal an active, legitimate business.</li>
-              <li><strong className="text-white">Review responses.</strong> Respond to reviews on every platform. AI systems consider review engagement as a signal of business activity and customer care.</li>
-              <li><strong className="text-white">Website link.</strong> Every listing should link back to your primary website, reinforcing the connection between your directory presence and your main site.</li>
-            </ul>
 
-            <h2 className="text-2xl font-bold text-white mt-12 mb-4 font-plus-jakarta">
-              What to Skip: Directories That Do Not Help
-            </h2>
-            <p className="text-gray-300 leading-relaxed mb-4">
+            {/* Cheat Sheet: Optimization Checklist */}
+            <div className="not-prose">
+              <div className="ae-cheat-sheet">
+                <div className="ae-cheat-sheet-title">Listing Optimization Checklist</div>
+                <ul>
+                  <li><strong>Complete and accurate NAP data</strong> identical across every platform, matching your website contact page exactly</li>
+                  <li><strong>Detailed service descriptions</strong> using natural language that matches how customers actually search</li>
+                  <li><strong>Business categories</strong> selected on each platform so AI systems can match you to user queries</li>
+                  <li><strong>Current business hours</strong> including holiday hours (AI frequently cites hours for &quot;is [business] open now?&quot; queries)</li>
+                  <li><strong>High-quality photos</strong> particularly on Yelp and Google Business Profile</li>
+                  <li><strong>Review responses</strong> on every platform to signal active engagement</li>
+                  <li><strong>Website link</strong> on every listing, reinforcing the connection between your directory presence and your main site</li>
+                </ul>
+              </div>
+            </div>
+
+            {/* CTA Inline 9 */}
+            <div className="not-prose">
+              <div className="ae-cta-inline">
+                <p>Want a personalized checklist for your business? Talk to our team.</p>
+                <a href="mailto:support@theanswerengine.ai">Email us: support@theanswerengine.ai →</a>
+              </div>
+            </div>
+
+            {/* Section: What to Skip */}
+            <div className="not-prose"><span className="ae-section-label">Skip These</span></div>
+            <h2>What to Skip: Directories That Do Not Help</h2>
+            <p>
               Not every directory is worth your time. Some common time-wasters:
             </p>
-            <ul className="text-gray-300 mb-6 space-y-2">
-              <li><strong className="text-white">Pay-to-play directories with no organic visibility.</strong> If a directory only shows your listing to people who search within that directory (and nobody does), it adds no AI value.</li>
-              <li><strong className="text-white">Spam directories.</strong> Low-quality directories that accept any submission without verification can actually hurt your credibility. AI systems can identify patterns associated with spammy link networks.</li>
-              <li><strong className="text-white">Directories with no structured data.</strong> If a directory stores your information as unstructured text with no schema markup, AI platforms have a harder time extracting and verifying your data.</li>
-              <li><strong className="text-white">Duplicate listings on the same platform.</strong> Having two Yelp pages or two Google Business Profiles creates confusion for AI and lowers confidence in both listings.</li>
-            </ul>
 
-            <h2 className="text-2xl font-bold text-white mt-12 mb-4 font-plus-jakarta">
-              Building a Directory Strategy That Compounds Over Time
-            </h2>
-            <p className="text-gray-300 leading-relaxed mb-4">
+            {/* Pros/Cons: Worth It vs Not */}
+            <div className="not-prose">
+              <div className="ae-pros-cons">
+                <div className="ae-pros-box">
+                  <div className="ae-pros-title">Directories Worth Your Time</div>
+                  <ul>
+                    <li>Directories AI platforms actually cite</li>
+                    <li>Platforms with structured data support</li>
+                    <li>Review sites with organic traffic</li>
+                    <li>Industry-specific verified directories</li>
+                  </ul>
+                </div>
+                <div className="ae-cons-box">
+                  <div className="ae-cons-title">Directories to Avoid</div>
+                  <ul>
+                    <li>Pay-to-play with no organic visibility</li>
+                    <li>Spam directories with no verification</li>
+                    <li>Directories with no structured data</li>
+                    <li>Duplicate listings on the same platform</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <p>
+              Pay-to-play directories with no organic visibility add no AI value. Spam
+              directories that accept any submission without verification can actually
+              hurt your credibility. Directories with no structured data make it harder
+              for AI to extract and verify your information. And duplicate listings on
+              the same platform create confusion for AI and lower confidence in both.
+            </p>
+
+            {/* CTA Inline 10 */}
+            <div className="not-prose">
+              <div className="ae-cta-inline">
+                <p>Not sure if a directory is helping or hurting? We will tell you.</p>
+                <Link href="/blindspot">Get Your Free Blind Spot Report →</Link>
+              </div>
+            </div>
+
+            {/* Section: DIY vs Professional */}
+            <div className="not-prose"><span className="ae-section-label">DIY vs. Pro</span></div>
+            <h2>DIY Directory Audit vs. Professional Analysis</h2>
+            <p>
+              A manual directory audit gives you a solid foundation. You can claim
+              listings, fix NAP issues, and verify completeness on your own. But
+              there are limits to what a manual check can catch.
+            </p>
+
+            {/* Comparison Table */}
+            <div className="not-prose">
+              <table className="ae-comparison-table">
+                <thead>
+                  <tr>
+                    <th>Feature</th>
+                    <th>DIY Audit</th>
+                    <th>Professional Analysis</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>Directories checked</td>
+                    <td>Tier 1 (4 platforms)</td>
+                    <td>All tiers + industry-specific</td>
+                  </tr>
+                  <tr>
+                    <td>NAP consistency scan</td>
+                    <td>Manual comparison</td>
+                    <td>Automated cross-reference</td>
+                  </tr>
+                  <tr>
+                    <td>AI visibility testing</td>
+                    <td>3 prompts</td>
+                    <td>Dozens of prompt variations</td>
+                  </tr>
+                  <tr>
+                    <td>Competitor directory mapping</td>
+                    <td>No</td>
+                    <td>Yes, full landscape</td>
+                  </tr>
+                  <tr>
+                    <td>Structured data audit</td>
+                    <td>No</td>
+                    <td>Yes, with recommendations</td>
+                  </tr>
+                  <tr>
+                    <td>Prioritized action plan</td>
+                    <td>Generic</td>
+                    <td>Business-specific, ranked by impact</td>
+                  </tr>
+                  <tr>
+                    <td>Cost</td>
+                    <td>Free (your time)</td>
+                    <td>Free (Blind Spot Report)</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+
+            {/* Quote */}
+            <div className="not-prose">
+              <div className="ae-quote">
+                <p>Think of a manual directory audit as checking the oil in your car. It tells you if something is obviously wrong. A professional analysis is the full diagnostic scan that catches the problems you cannot see from the outside.</p>
+              </div>
+            </div>
+
+            {/* CTA Inline 11 */}
+            <div className="not-prose">
+              <div className="ae-cta-inline">
+                <p>Ready for the full diagnostic? It is free.</p>
+                <Link href="/blindspot">Get Your Free Blind Spot Report →</Link>
+              </div>
+            </div>
+
+            {/* Section: Building a Strategy */}
+            <div className="not-prose"><span className="ae-section-label">90-Day Plan</span></div>
+            <h2>Building a Directory Strategy That Compounds Over Time</h2>
+            <p>
               The best directory strategy is not a one-time project. It is an
-              ongoing process that builds authority over time. Here is a practical
-              approach:
+              ongoing process that builds authority over time.
             </p>
-            <p className="text-gray-300 leading-relaxed mb-4">
-              <strong className="text-white">Month 1:</strong> Claim and optimize
-              all Tier 1 listings. Fix any NAP inconsistencies. This alone can
-              shift your AI visibility significantly.
-            </p>
-            <p className="text-gray-300 leading-relaxed mb-4">
-              <strong className="text-white">Month 2:</strong> Add Tier 2
-              listings. Claim your BBB profile, sign up for the top two or three
-              industry-specific directories, and ensure Trustpilot or G2 profiles
-              are complete (if relevant to your industry).
-            </p>
-            <p className="text-gray-300 leading-relaxed mb-4">
-              <strong className="text-white">Month 3 and beyond:</strong> Monitor
-              and maintain. Set a quarterly reminder to review all listings for
-              accuracy. Respond to new reviews. Update photos and service
-              descriptions as your business evolves. Track your{' '}
-              <Link href="/blog/how-to-track-ai-search-visibility" className="text-orange-400 underline hover:text-orange-300">
-                AI search visibility
-              </Link>{' '}
-              to measure progress.
-            </p>
-            <p className="text-gray-300 leading-relaxed mb-6">
+
+            {/* Timeline: 90-Day Plan */}
+            <div className="not-prose">
+              <div className="ae-timeline">
+                <div className="ae-timeline-item">
+                  <strong>Month 1: Claim and Optimize Tier 1</strong>
+                  <p>Claim and optimize all Tier 1 listings. Fix any NAP inconsistencies. This alone can shift your AI visibility significantly.</p>
+                </div>
+                <div className="ae-timeline-item">
+                  <strong>Month 2: Add Tier 2 Listings</strong>
+                  <p>Claim your BBB profile, sign up for the top two or three industry-specific directories, and ensure Trustpilot or G2 profiles are complete (if relevant to your industry).</p>
+                </div>
+                <div className="ae-timeline-item">
+                  <strong>Month 3+: Monitor and Maintain</strong>
+                  <p>Set a quarterly reminder to review all listings for accuracy. Respond to new reviews. Update photos and service descriptions as your business evolves. Track your{' '}
+                    <Link href="/blog/how-to-track-ai-search-visibility">
+                      AI search visibility
+                    </Link>{' '}
+                    to measure progress.</p>
+                </div>
+              </div>
+            </div>
+
+            <p>
               This compounding effect matters because AI platforms reward
               consistency and freshness. A business with active, accurate listings
               across multiple directories signals to AI systems that it is
@@ -594,10 +1037,32 @@ export default function Page() {
               translates directly into more recommendations.
             </p>
 
-            <h2 className="text-2xl font-bold text-white mt-12 mb-4 font-plus-jakarta">
-              The Bottom Line
-            </h2>
-            <p className="text-gray-300 leading-relaxed mb-6">
+            {/* Callout: Compounding Effect */}
+            <div className="not-prose">
+              <div className="ae-callout ae-callout-success">
+                <div className="ae-callout-title">The Compounding Effect</div>
+                <p>
+                  Each accurate, complete listing reinforces the others. When AI sees consistent
+                  data across Google Business Profile, Bing Places, Yelp, and your industry directories,
+                  the confidence score for your business increases exponentially. This is why businesses
+                  that maintain clean listings across multiple platforms see disproportionate gains in
+                  AI recommendations over time.
+                </p>
+              </div>
+            </div>
+
+            {/* CTA Inline 12 */}
+            <div className="not-prose">
+              <div className="ae-cta-inline">
+                <p>Want to accelerate the compounding effect? Start with a baseline audit.</p>
+                <Link href="/blindspot">Get Your Free Blind Spot Report →</Link>
+              </div>
+            </div>
+
+            {/* Section: The Bottom Line */}
+            <div className="not-prose"><span className="ae-section-label">Bottom Line</span></div>
+            <h2>The Bottom Line</h2>
+            <p>
               Directory listings are not a relic of old SEO. They are one of the
               two largest sources of AI citations, accounting for 42% of all
               citations alongside first-party websites at 44%. But the game has
@@ -611,7 +1076,59 @@ export default function Page() {
               to their users.
             </p>
 
+            {/* Takeaway */}
+            <div className="not-prose">
+              <div className="ae-takeaway">
+                <div className="ae-takeaway-title">Key Takeaway</div>
+                <p>
+                  Directory listings account for 42% of all AI citations. Focus on the Tier 1
+                  platforms (Google Business Profile, Bing Places, Yelp, Apple Business Connect),
+                  add industry-specific Tier 2 directories, and make your NAP data identical
+                  everywhere. The businesses that move first on directory optimization will own
+                  the AI recommendations in their category.
+                </p>
+              </div>
+            </div>
+
+            {/* CTA Inline 13 */}
+            <div className="not-prose">
+              <div className="ae-cta-inline">
+                <p>Need help prioritizing? Call us directly.</p>
+                <a href="tel:+12134442229">Call (213) 444-2229 →</a>
+              </div>
+            </div>
+
           </article>
+
+          {/* Author Card */}
+          <div className="not-prose">
+            <div className="ae-author-card">
+              <div className="ae-author-avatar">AE</div>
+              <div>
+                <div className="ae-author-name">The Answer Engine Team</div>
+                <div className="ae-author-role">Helping businesses get found, recommended, and cited by AI search platforms</div>
+              </div>
+            </div>
+          </div>
+
+          {/* Full CTA Block */}
+          <div className="not-prose">
+            <div className="ae-cta-block">
+              <h2>Are Your Listings Helping or Hurting Your AI Visibility?</h2>
+              <p>
+                Our free Blind Spot Report audits your business across all major AI
+                platforms, checks your directory presence, maps your competitors, and
+                delivers a prioritized action plan. No pitch, just the data.
+              </p>
+              <div style={{display:'flex',flexDirection:'column',alignItems:'center',gap:'16px',marginTop:'24px'}}>
+                <Link href="/blindspot" className="ae-cta-primary">Get Your Free Blind Spot Report</Link>
+                <div style={{display:'flex',flexWrap:'wrap',gap:'24px',justifyContent:'center',marginTop:'8px'}}>
+                  <a href="tel:+12134442229" style={{color:'rgba(255,255,255,0.7)',fontSize:'0.9rem'}}>📞 (213) 444-2229</a>
+                  <a href="mailto:support@theanswerengine.ai" style={{color:'rgba(255,255,255,0.7)',fontSize:'0.9rem'}}>✉️ support@theanswerengine.ai</a>
+                </div>
+              </div>
+            </div>
+          </div>
 
           {/* FAQ Section */}
           <section className="mt-16 mb-16">
@@ -656,47 +1173,20 @@ export default function Page() {
             </div>
           </section>
 
-          {/* CTA Section */}
-          <section className="rounded-2xl border border-orange-500/30 bg-gradient-to-br from-orange-500/10 to-transparent p-8 sm:p-12 text-center mb-16">
-            <h2 className="text-2xl sm:text-3xl font-bold text-white mb-4 font-plus-jakarta">
-              Are Your Listings Helping or Hurting Your AI Visibility?
-            </h2>
-            <p className="text-gray-300 text-lg mb-6 max-w-2xl mx-auto">
-              Our free Blind Spot Report audits your business across all major AI
-              platforms, checks your directory presence, and delivers a
-              prioritized action plan. No pitch, just the data.
-            </p>
-            <Link
-              href="/blindspot"
-              className="inline-block bg-orange-500 text-white font-semibold px-8 py-4 rounded-xl text-lg hover:bg-orange-600 transition-colors"
-            >
-              Get Your Free Blind Spot Report
-            </Link>
-    <div className="flex flex-wrap items-center gap-6 mt-6 pt-6 border-t border-[#FF6A00]/10">
-      <a href="tel:+12134442229" className="flex items-center gap-2 text-gray-400 hover:text-white transition-colors">
-        <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" /></svg>
-        (213) 444-2229
-      </a>
-      <a href="mailto:support@theanswerengine.ai" className="flex items-center gap-2 text-gray-400 hover:text-white transition-colors">
-        <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" /></svg>
-        support@theanswerengine.ai
-      </a>
-    </div>
-          </section>
+          {/* Final CTA */}
+          <div className="not-prose">
+            <div className="ae-final-cta">
+              <div className="ae-final-cta-pulse"></div>
+              <h2>Stop Guessing. Start Getting Recommended.</h2>
+              <p>Your directory listings are either working for you or against you. Our Blind Spot Report checks every major AI platform, audits your directory presence, maps your competitors, and delivers a prioritized action plan. No pitch, just the data.</p>
+              <Link href="/blindspot" className="ae-cta-primary">Get Your Free Blind Spot Report</Link>
+              <div style={{display:'flex',flexWrap:'wrap',gap:'24px',justifyContent:'center',marginTop:'20px'}}>
+                <a href="tel:+12134442229" style={{color:'rgba(255,255,255,0.6)',fontSize:'0.9rem'}}>📞 (213) 444-2229</a>
+                <a href="mailto:support@theanswerengine.ai" style={{color:'rgba(255,255,255,0.6)',fontSize:'0.9rem'}}>✉️ support@theanswerengine.ai</a>
+              </div>
+            </div>
+          </div>
 
-          {/* Author Attribution */}
-          <section className="flex items-center gap-4 border-t border-gray-800 pt-8">
-            <div className="w-12 h-12 rounded-full bg-orange-500 flex items-center justify-center text-white font-bold text-lg flex-shrink-0">
-              AE
-            </div>
-            <div>
-              <p className="text-white font-semibold">The Answer Engine Team</p>
-              <p className="text-gray-500 text-sm">
-                Helping local businesses get found, recommended, and cited by AI
-                search platforms.
-              </p>
-            </div>
-          </section>
         </div>
       </main>
     </>

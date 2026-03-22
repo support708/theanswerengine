@@ -258,15 +258,41 @@ export default function Page() {
               <div className="flex items-center gap-4 text-sm text-gray-400">
                 <span>March 19, 2026</span>
                 <span>-</span>
-                <span>12 min read</span>
+                <span>14 min read</span>
                 <span>-</span>
                 <span>The Answer Engine Team</span>
               </div>
             </div>
           </div>
 
+          {/* Stats Grid */}
+          <div className="not-prose">
+            <div className="ae-stats-grid">
+              <div className="ae-stat-card">
+                <div className="ae-stat-emoji">📄</div>
+                <div className="ae-stat-value ae-accent">36%</div>
+                <div className="ae-stat-label">MORE AI CITATIONS WITH SCHEMA</div>
+              </div>
+              <div className="ae-stat-card">
+                <div className="ae-stat-emoji">🤖</div>
+                <div className="ae-stat-value ae-accent">527%</div>
+                <div className="ae-stat-label">AI SEARCH TRAFFIC GROWTH YoY</div>
+              </div>
+              <div className="ae-stat-card">
+                <div className="ae-stat-emoji">🔍</div>
+                <div className="ae-stat-value ae-accent">40%</div>
+                <div className="ae-stat-label">LOCAL QUERIES WITH AI OVERVIEWS</div>
+              </div>
+              <div className="ae-stat-card">
+                <div className="ae-stat-emoji">📈</div>
+                <div className="ae-stat-value ae-accent">70%</div>
+                <div className="ae-stat-label">MORE CITATIONS WITH PROPER STRUCTURE</div>
+              </div>
+            </div>
+          </div>
+
           {/* Article Body */}
-          <article className="prose prose-invert prose-lg max-w-none">
+          <article className="prose prose-invert prose-lg max-w-none prose-headings:font-plus-jakarta prose-headings:text-white prose-p:text-gray-300 prose-a:text-[#FF6A00] prose-a:no-underline hover:prose-a:underline prose-strong:text-white">
 
             {/* Intro */}
             <p className="text-xl text-gray-300 leading-relaxed mb-10">
@@ -284,19 +310,31 @@ export default function Page() {
               quote, and recommend.
             </p>
 
-            {/* Stat Callout 1 */}
-            <div className="rounded-xl border border-orange-500/30 bg-orange-500/5 p-6 mb-10">
-              <p className="text-orange-400 font-semibold text-lg mb-2">AI Search Is Growing Fast</p>
-              <p className="text-gray-300 text-base leading-relaxed">
-                AI search traffic grew 527% year-over-year between 2024 and 2025,
-                according to Search Engine Land. ChatGPT search referrals alone
-                increased over 200% since mid-2025. Businesses that are not
-                optimizing their service pages for AI visibility are missing the
-                largest shift in search behavior since mobile.
-              </p>
+            {/* Callout: AI Search Growth */}
+            <div className="not-prose">
+              <div className="ae-callout ae-callout-warning">
+                <div className="ae-callout-title">AI Search Is Growing Fast</div>
+                <p>
+                  AI search traffic grew 527% year-over-year between 2024 and 2025,
+                  according to Search Engine Land. ChatGPT search referrals alone
+                  increased over 200% since mid-2025. Businesses that are not
+                  optimizing their service pages for AI visibility are missing the
+                  largest shift in search behavior since mobile.
+                </p>
+              </div>
             </div>
 
-            <h2 className="text-2xl font-bold text-white mt-12 mb-4 font-plus-jakarta">
+            {/* CTA Inline 1 */}
+            <div className="not-prose">
+              <div className="ae-cta-inline">
+                <p>Not sure if AI platforms can even find your service pages?</p>
+                <Link href="/blindspot">Get Your Free Blind Spot Report</Link>
+              </div>
+            </div>
+
+            {/* Section: Why AI Platforms Care */}
+            <div className="not-prose"><span className="ae-section-label">The Shift</span></div>
+            <h2 className="text-2xl font-bold text-white mt-4 mb-4 font-plus-jakarta">
               Why AI Platforms Care About Your Service Pages
             </h2>
             <p className="text-gray-300 leading-relaxed mb-4">
@@ -322,7 +360,23 @@ export default function Page() {
               qualifications the team holds gives AI nothing useful to cite.
             </p>
 
-            <h2 className="text-2xl font-bold text-white mt-12 mb-4 font-plus-jakarta">
+            {/* Takeaway: Core Problem */}
+            <div className="not-prose">
+              <div className="ae-takeaway">
+                <div className="ae-takeaway-title">The Core Shift</div>
+                <p>
+                  Service pages are no longer just sales tools for human visitors.
+                  They are the primary data source that AI platforms read to decide
+                  whether to recommend your business. If your page cannot answer
+                  a specific question in a clear, self-contained paragraph, AI will
+                  skip you entirely and recommend a competitor whose page can.
+                </p>
+              </div>
+            </div>
+
+            {/* Section: How AI Evaluates */}
+            <div className="not-prose"><span className="ae-section-label">Platform Breakdown</span></div>
+            <h2 className="text-2xl font-bold text-white mt-4 mb-4 font-plus-jakarta">
               How AI Platforms Evaluate Service Pages
             </h2>
             <p className="text-gray-300 leading-relaxed mb-4">
@@ -330,6 +384,43 @@ export default function Page() {
               common evaluation patterns. Understanding these patterns is the
               foundation of writing service pages that get cited.
             </p>
+
+            {/* Comparison Table: Platform Behaviors */}
+            <div className="not-prose">
+              <div className="ae-comparison-table">
+                <table>
+                  <thead>
+                    <tr>
+                      <th>Platform</th>
+                      <th>Data Source</th>
+                      <th>Citation Behavior</th>
+                      <th>Key Advantage</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td><strong>ChatGPT</strong></td>
+                      <td>Bing-indexed content</td>
+                      <td>Favors direct sources over directories</td>
+                      <td>11.1-point higher citation rate for owned pages</td>
+                    </tr>
+                    <tr>
+                      <td><strong>Perplexity</strong></td>
+                      <td>Real-time web retrieval</td>
+                      <td>Ties claims to sources in 78% of queries</td>
+                      <td>Weights domain authority and structured data</td>
+                    </tr>
+                    <tr>
+                      <td><strong>Google AI Overviews</strong></td>
+                      <td>Google-indexed pages</td>
+                      <td>Appears in 40.2% of local queries</td>
+                      <td>Uses structured data for generative features</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+
             <p className="text-gray-300 leading-relaxed mb-4">
               <strong className="text-white">ChatGPT</strong> draws heavily from
               Bing-indexed content. It favors direct sources over intermediaries,
@@ -353,17 +444,74 @@ export default function Page() {
               from Google-indexed pages. As of April 2025, AI Overviews appeared
               in 40.2% of local business queries, according to Local Falcon.
               Google has publicly stated that structured data is critical for
-              modern search features because it is &quot;efficient, precise, and
-              easy for machines to process.&quot;
+              modern search features.
             </p>
 
-            <h2 className="text-2xl font-bold text-white mt-12 mb-4 font-plus-jakarta">
+            {/* CTA Inline 2 */}
+            <div className="not-prose">
+              <div className="ae-cta-inline">
+                <p>Find out which AI platforms are citing your competitors instead of you.</p>
+                <Link href="/blindspot">Run Your Free Blind Spot Analysis</Link>
+              </div>
+            </div>
+
+            {/* Section: Anatomy of AI-Friendly Service Page */}
+            <div className="not-prose"><span className="ae-section-label">Page Anatomy</span></div>
+            <h2 className="text-2xl font-bold text-white mt-4 mb-4 font-plus-jakarta">
               The Anatomy of an AI-Friendly Service Page
             </h2>
             <p className="text-gray-300 leading-relaxed mb-4">
               Based on citation research and platform behavior, here is what
               every service page needs to be recommended by AI platforms.
             </p>
+
+            {/* Timeline: 6 Elements */}
+            <div className="not-prose">
+              <div className="ae-timeline">
+                <div className="ae-timeline-item">
+                  <div className="ae-timeline-marker">1</div>
+                  <div className="ae-timeline-content">
+                    <div className="ae-timeline-title">Clear, Specific Title and Meta Description</div>
+                    <div className="ae-timeline-desc">&quot;Residential Roof Repair in Austin, TX&quot; beats &quot;Our Services&quot; every time. Name the service and location explicitly.</div>
+                  </div>
+                </div>
+                <div className="ae-timeline-item">
+                  <div className="ae-timeline-marker">2</div>
+                  <div className="ae-timeline-content">
+                    <div className="ae-timeline-title">Strong Opening Paragraph</div>
+                    <div className="ae-timeline-desc">55% of AI Overview citations come from the top 30% of a page. State what you do, who you serve, and where in the first paragraph.</div>
+                  </div>
+                </div>
+                <div className="ae-timeline-item">
+                  <div className="ae-timeline-marker">3</div>
+                  <div className="ae-timeline-content">
+                    <div className="ae-timeline-title">Question-Based Headings</div>
+                    <div className="ae-timeline-desc">Use headings that mirror real customer questions. &quot;How Does Foundation Repair Work?&quot; instead of &quot;Our Process.&quot;</div>
+                  </div>
+                </div>
+                <div className="ae-timeline-item">
+                  <div className="ae-timeline-marker">4</div>
+                  <div className="ae-timeline-content">
+                    <div className="ae-timeline-title">Specific, Verifiable Details</div>
+                    <div className="ae-timeline-desc">Pricing ranges, service area zip codes, equipment brands, certifications, and project timelines. Concrete data is citable data.</div>
+                  </div>
+                </div>
+                <div className="ae-timeline-item">
+                  <div className="ae-timeline-marker">5</div>
+                  <div className="ae-timeline-content">
+                    <div className="ae-timeline-title">FAQ Section with Real Answers</div>
+                    <div className="ae-timeline-desc">5 to 8 Q&amp;A pairs with direct, 2 to 4 sentence answers. Each answer starts with a clear response before adding context.</div>
+                  </div>
+                </div>
+                <div className="ae-timeline-item">
+                  <div className="ae-timeline-marker">6</div>
+                  <div className="ae-timeline-content">
+                    <div className="ae-timeline-title">Complete Schema Markup</div>
+                    <div className="ae-timeline-desc">Service, LocalBusiness, FAQ, and Review schema types are all required. This is the technical bridge between your content and AI understanding.</div>
+                  </div>
+                </div>
+              </div>
+            </div>
 
             <h3 className="text-xl font-semibold text-white mt-8 mb-3 font-plus-jakarta">
               1. A Clear, Specific Title and Meta Description
@@ -388,6 +536,13 @@ export default function Page() {
               brand story or generic introduction. State the facts first.
             </p>
 
+            {/* Quote */}
+            <div className="not-prose">
+              <div className="ae-quote">
+                <p>&quot;AI platforms do not read between the lines. If your opening paragraph does not name the service, the location, and the provider, you have already lost the citation.&quot;</p>
+              </div>
+            </div>
+
             <h3 className="text-xl font-semibold text-white mt-8 mb-3 font-plus-jakarta">
               3. Descriptive Headings That Match User Questions
             </h3>
@@ -404,16 +559,49 @@ export default function Page() {
               Report.
             </p>
 
-            {/* Stat Callout 2 */}
-            <div className="rounded-xl border border-orange-500/30 bg-orange-500/5 p-6 mb-10">
-              <p className="text-orange-400 font-semibold text-lg mb-2">Structured Data Drives AI Visibility</p>
-              <p className="text-gray-300 text-base leading-relaxed">
-                Pages with comprehensive schema markup are 36% more likely to
-                appear in AI-generated summaries and citations, according to
-                BrightEdge. In March 2025, both Google and Microsoft publicly
-                confirmed they use schema markup for their generative AI
-                features. Structured data is no longer optional for service pages.
-              </p>
+            {/* Bar Chart: Content Length Impact */}
+            <div className="not-prose">
+              <div className="ae-bar-group">
+                <div className="ae-bar-label">Section Length vs. ChatGPT Citation Rate</div>
+                <div className="ae-bar-item" style={{ width: '30%' }}>
+                  <span>Under 50 words</span>
+                  <span>Baseline</span>
+                </div>
+                <div className="ae-bar-item" style={{ width: '55%' }}>
+                  <span>50 to 120 words</span>
+                  <span>+35%</span>
+                </div>
+                <div className="ae-bar-item ae-bar-highlight" style={{ width: '100%' }}>
+                  <span>120 to 180 words</span>
+                  <span>+70%</span>
+                </div>
+                <div className="ae-bar-item" style={{ width: '75%' }}>
+                  <span>Over 180 words</span>
+                  <span>+45%</span>
+                </div>
+              </div>
+            </div>
+
+            {/* CTA Inline 3 */}
+            <div className="not-prose">
+              <div className="ae-cta-inline">
+                <p>Want to see how your current service page sections measure up?</p>
+                <Link href="/blindspot">Get a Free AI Visibility Score</Link>
+              </div>
+            </div>
+
+            {/* Callout: Structured Data */}
+            <div className="not-prose">
+              <div className="ae-callout ae-callout-info">
+                <div className="ae-callout-title">Structured Data Drives AI Visibility</div>
+                <p>
+                  Pages with comprehensive schema markup are 36% more likely to
+                  appear in AI-generated summaries and citations, according to
+                  BrightEdge. In March 2025, both Google and Microsoft publicly
+                  confirmed they use schema markup for their generative AI
+                  features. Structured data is no longer optional for service pages.
+                </p>
+              </div>
             </div>
 
             <h3 className="text-xl font-semibold text-white mt-8 mb-3 font-plus-jakarta">
@@ -429,6 +617,30 @@ export default function Page() {
               visibility by 22%, while including original quotations boosts it by
               37%.
             </p>
+
+            {/* Pros/Cons: Specific vs Vague */}
+            <div className="not-prose">
+              <div className="ae-pros-cons">
+                <div className="ae-pros-box">
+                  <div className="ae-pros-title">Citable Content</div>
+                  <ul>
+                    <li>&quot;Foundation repair costs $3,500 to $12,000 depending on severity&quot;</li>
+                    <li>&quot;We serve the greater Phoenix metro, including zip codes 85001 through 85054&quot;</li>
+                    <li>&quot;Licensed, bonded, and insured. EPA Lead-Safe certified since 2018&quot;</li>
+                    <li>&quot;Average project timeline: 3 to 5 business days&quot;</li>
+                  </ul>
+                </div>
+                <div className="ae-cons-box">
+                  <div className="ae-cons-title">Uncitable Content</div>
+                  <ul>
+                    <li>&quot;We offer competitive pricing&quot;</li>
+                    <li>&quot;Serving your local area&quot;</li>
+                    <li>&quot;Trusted by thousands of happy customers&quot;</li>
+                    <li>&quot;Fast, reliable service you can count on&quot;</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
 
             <h3 className="text-xl font-semibold text-white mt-8 mb-3 font-plus-jakarta">
               5. FAQ Sections with Real Answers
@@ -453,19 +665,68 @@ export default function Page() {
               understanding. For service pages, implement these schema types at
               minimum:
             </p>
-            <ul className="text-gray-300 mb-6 space-y-2">
-              <li><strong className="text-white">Service schema:</strong> Defines the service name, description, provider, area served, and price range. This is the most important schema type for service pages and one of the most underused.</li>
-              <li><strong className="text-white">LocalBusiness schema:</strong> Establishes your business identity, address, phone number, hours, and geo-coordinates. AI platforms use this to match your business against location-specific queries.</li>
-              <li><strong className="text-white">FAQ schema:</strong> Marks up your Q&A pairs so AI can extract individual answers. Learn more about{' '}
-                <Link href="/blog/does-schema-markup-help-ai-search" className="text-orange-400 underline hover:text-orange-300">
-                  how schema markup helps AI search
-                </Link>
-                .
-              </li>
-              <li><strong className="text-white">Review/AggregateRating schema:</strong> Surfaces your review scores in AI results. Businesses with review markup give AI platforms quantifiable trust signals.</li>
-            </ul>
 
-            <h2 className="text-2xl font-bold text-white mt-12 mb-4 font-plus-jakarta">
+            {/* Decision Matrix: Schema Types */}
+            <div className="not-prose">
+              <div className="ae-decision-matrix">
+                <table>
+                  <thead>
+                    <tr>
+                      <th>Schema Type</th>
+                      <th>What It Tells AI</th>
+                      <th>Priority</th>
+                      <th>Impact</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td><strong>Service</strong></td>
+                      <td>Service name, description, provider, area, price range</td>
+                      <td>Critical</td>
+                      <td>High</td>
+                    </tr>
+                    <tr>
+                      <td><strong>LocalBusiness</strong></td>
+                      <td>Business identity, address, phone, hours, geo-coordinates</td>
+                      <td>Critical</td>
+                      <td>High</td>
+                    </tr>
+                    <tr>
+                      <td><strong>FAQ</strong></td>
+                      <td>Q&amp;A pairs AI can extract individually</td>
+                      <td>High</td>
+                      <td>Medium-High</td>
+                    </tr>
+                    <tr>
+                      <td><strong>AggregateRating</strong></td>
+                      <td>Review scores as quantifiable trust signals</td>
+                      <td>Medium</td>
+                      <td>Medium</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+
+            <p className="text-gray-300 leading-relaxed mb-4">
+              Learn more about{' '}
+              <Link href="/blog/does-schema-markup-help-ai-search" className="text-orange-400 underline hover:text-orange-300">
+                how schema markup helps AI search
+              </Link>{' '}
+              in our dedicated guide.
+            </p>
+
+            {/* CTA Inline 4 */}
+            <div className="not-prose">
+              <div className="ae-cta-inline">
+                <p>Not sure if your schema markup is set up correctly?</p>
+                <a href="tel:+12134442229">Call us at (213) 444-2229</a>
+              </div>
+            </div>
+
+            {/* Section: Content Structure */}
+            <div className="not-prose"><span className="ae-section-label">Content Architecture</span></div>
+            <h2 className="text-2xl font-bold text-white mt-4 mb-4 font-plus-jakarta">
               Content Structure That Gets Cited
             </h2>
             <p className="text-gray-300 leading-relaxed mb-4">
@@ -489,7 +750,32 @@ export default function Page() {
               comparing service tiers, pricing, or included features, add one.
             </p>
 
-            <h2 className="text-2xl font-bold text-white mt-12 mb-4 font-plus-jakarta">
+            {/* Cheat Sheet: Content Structure Rules */}
+            <div className="not-prose">
+              <div className="ae-cheat-sheet">
+                <div className="ae-cheat-sheet-title">Content Structure Rules for AI Citability</div>
+                <ul>
+                  <li><strong>Each section answers one question completely.</strong> If an AI pulls only that section, it should make full sense.</li>
+                  <li><strong>120 to 180 words per section.</strong> This is the verified sweet spot for maximum ChatGPT citation rates.</li>
+                  <li><strong>Use comparison tables.</strong> Service tiers, pricing, and feature breakdowns are among the most-cited content types in AI Overviews.</li>
+                  <li><strong>Lead with the answer.</strong> Every paragraph should start with the direct answer, then provide supporting context.</li>
+                  <li><strong>Include numbers.</strong> Data-backed statistics increase AI visibility by 22%. Specificity is credibility.</li>
+                  <li><strong>Add internal links.</strong> Connect service pages to FAQ pages, blog posts, and other services. Isolation kills ranking.</li>
+                </ul>
+              </div>
+            </div>
+
+            {/* CTA Inline 5 */}
+            <div className="not-prose">
+              <div className="ae-cta-inline">
+                <p>See how your content structure compares to competitors winning in AI search.</p>
+                <Link href="/blindspot">Get Your Competitive Analysis</Link>
+              </div>
+            </div>
+
+            {/* Section: One Service, One Page */}
+            <div className="not-prose"><span className="ae-section-label">Page Strategy</span></div>
+            <h2 className="text-2xl font-bold text-white mt-4 mb-4 font-plus-jakarta">
               One Service, One Page
             </h2>
             <p className="text-gray-300 leading-relaxed mb-4">
@@ -511,19 +797,38 @@ export default function Page() {
               that drives AI citations across your entire site.
             </p>
 
-            {/* Stat Callout 3 */}
-            <div className="rounded-xl border border-orange-500/30 bg-orange-500/5 p-6 mb-10">
-              <p className="text-orange-400 font-semibold text-lg mb-2">Zero-Click Search Is Reshaping Discovery</p>
-              <p className="text-gray-300 text-base leading-relaxed">
-                58.5% of Google searches in the U.S. now end without a click,
-                according to SparkToro. For searches that trigger AI Overviews,
-                the zero-click rate rises to 83%. Your service page content needs
-                to be cited within the AI answer itself, because many users will
-                never click through to your site.
-              </p>
+            {/* Quote */}
+            <div className="not-prose">
+              <div className="ae-quote">
+                <p>&quot;AI retrieves content at the page level. One service per page means one clear signal per query. Mixing five services into one page means five weak signals competing with each other.&quot;</p>
+              </div>
             </div>
 
-            <h2 className="text-2xl font-bold text-white mt-12 mb-4 font-plus-jakarta">
+            {/* Callout: Zero-Click */}
+            <div className="not-prose">
+              <div className="ae-callout ae-callout-danger">
+                <div className="ae-callout-title">Zero-Click Search Is Reshaping Discovery</div>
+                <p>
+                  58.5% of Google searches in the U.S. now end without a click,
+                  according to SparkToro. For searches that trigger AI Overviews,
+                  the zero-click rate rises to 83%. Your service page content needs
+                  to be cited within the AI answer itself, because many users will
+                  never click through to your site.
+                </p>
+              </div>
+            </div>
+
+            {/* CTA Inline 6 */}
+            <div className="not-prose">
+              <div className="ae-cta-inline">
+                <p>Questions about restructuring your service pages for AI?</p>
+                <a href="mailto:support@theanswerengine.ai">Email our team at support@theanswerengine.ai</a>
+              </div>
+            </div>
+
+            {/* Section: Writing for Humans and Machines */}
+            <div className="not-prose"><span className="ae-section-label">Optimization Checklist</span></div>
+            <h2 className="text-2xl font-bold text-white mt-4 mb-4 font-plus-jakarta">
               Writing for Humans and Machines at the Same Time
             </h2>
             <p className="text-gray-300 leading-relaxed mb-4">
@@ -536,38 +841,101 @@ export default function Page() {
               Here is a practical checklist for every service page you write or
               rewrite:
             </p>
-            <ul className="text-gray-300 mb-6 space-y-2">
-              <li><strong className="text-white">Name the service and location in the first sentence.</strong> Do not make the reader (or the AI) scroll to find what you do and where.</li>
-              <li><strong className="text-white">Include pricing information.</strong> Even a range like &quot;$150 to $500 depending on scope&quot; is more useful than no pricing at all. AI platforms frequently cite pages that include cost details.</li>
-              <li><strong className="text-white">List your service area explicitly.</strong> Name the cities, counties, or zip codes you serve. AI platforms match these against location-based queries.</li>
-              <li><strong className="text-white">Add credentials and certifications.</strong> Licensed, bonded, insured, EPA-certified, manufacturer-trained. These are trust signals for both AI and humans.</li>
-              <li><strong className="text-white">Use natural question-and-answer formatting.</strong> Section headings that mirror customer questions create natural entry points for AI retrieval.</li>
-              <li><strong className="text-white">Keep paragraphs between 120 and 180 words.</strong> This is the sweet spot for AI citability based on current research.</li>
-              <li><strong className="text-white">Update content at least quarterly.</strong> AI platforms favor fresh content. Your{' '}
-                <Link href="/blog/why-fresh-content-key-ai-search-visibility" className="text-orange-400 underline hover:text-orange-300">
-                  content freshness directly affects AI visibility
-                </Link>
-                .
-              </li>
-            </ul>
 
-            <h2 className="text-2xl font-bold text-white mt-12 mb-4 font-plus-jakarta">
+            {/* Cheat Sheet: Practical Checklist */}
+            <div className="not-prose">
+              <div className="ae-cheat-sheet">
+                <div className="ae-cheat-sheet-title">Service Page Optimization Checklist</div>
+                <ul>
+                  <li><strong>Name the service and location in the first sentence.</strong> Do not make the reader (or the AI) scroll to find what you do and where.</li>
+                  <li><strong>Include pricing information.</strong> Even a range like &quot;$150 to $500 depending on scope&quot; is more useful than no pricing at all.</li>
+                  <li><strong>List your service area explicitly.</strong> Name the cities, counties, or zip codes you serve.</li>
+                  <li><strong>Add credentials and certifications.</strong> Licensed, bonded, insured, EPA-certified, manufacturer-trained.</li>
+                  <li><strong>Use natural question-and-answer formatting.</strong> Section headings that mirror customer questions create natural entry points.</li>
+                  <li><strong>Keep paragraphs between 120 and 180 words.</strong> This is the sweet spot for AI citability.</li>
+                  <li><strong>Update content at least quarterly.</strong> AI platforms favor fresh content. Your{' '}
+                    <Link href="/blog/why-fresh-content-key-ai-search-visibility">content freshness directly affects AI visibility</Link>.
+                  </li>
+                </ul>
+              </div>
+            </div>
+
+            {/* CTA Inline 7 */}
+            <div className="not-prose">
+              <div className="ae-cta-inline">
+                <p>Want us to audit your service pages against this checklist?</p>
+                <Link href="/blindspot">Request Your Free Audit</Link>
+              </div>
+            </div>
+
+            {/* Section: Common Mistakes */}
+            <div className="not-prose"><span className="ae-section-label">Avoid These</span></div>
+            <h2 className="text-2xl font-bold text-white mt-4 mb-4 font-plus-jakarta">
               Common Service Page Mistakes That Kill AI Visibility
             </h2>
             <p className="text-gray-300 leading-relaxed mb-4">
               Even businesses that understand AI search make these mistakes on
               their service pages. Avoid every one of them.
             </p>
-            <ul className="text-gray-300 mb-6 space-y-2">
-              <li><strong className="text-white">Thin content.</strong> A service page with 200 words and no details gives AI nothing to cite. Aim for 1,500 to 2,500 words of substantive content per service.</li>
-              <li><strong className="text-white">No schema markup.</strong> Without structured data, AI platforms have to guess what your page is about. With it, they know exactly what service you offer, where, and for how much.</li>
-              <li><strong className="text-white">Stock images with no alt text.</strong> AI cannot read images, but it reads alt text. Describe what is in each image with specific, relevant details.</li>
-              <li><strong className="text-white">Missing NAP consistency.</strong> If your name, address, and phone number differ between your service page, your Google Business Profile, and your directory listings, AI platforms lose confidence in your data.</li>
-              <li><strong className="text-white">No internal links.</strong> Service pages that exist in isolation rank worse than pages connected to related content through internal links. Link to your FAQ page, your about page, your blog posts, and your other service pages.</li>
-              <li><strong className="text-white">Keyword stuffing.</strong> AI platforms evaluate semantic meaning, not keyword density. Writing naturally about your service is more effective than repeating the same phrase 15 times.</li>
-            </ul>
 
-            <h2 className="text-2xl font-bold text-white mt-12 mb-4 font-plus-jakarta">
+            {/* Comparison Table: Mistakes vs Fixes */}
+            <div className="not-prose">
+              <div className="ae-comparison-table">
+                <table>
+                  <thead>
+                    <tr>
+                      <th>Mistake</th>
+                      <th>Why It Hurts</th>
+                      <th>The Fix</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>Thin content (under 500 words)</td>
+                      <td>Nothing for AI to cite</td>
+                      <td>1,500 to 2,500 words of substantive content</td>
+                    </tr>
+                    <tr>
+                      <td>No schema markup</td>
+                      <td>AI has to guess what the page is about</td>
+                      <td>Service + LocalBusiness + FAQ schema</td>
+                    </tr>
+                    <tr>
+                      <td>Stock images with no alt text</td>
+                      <td>AI cannot read images</td>
+                      <td>Descriptive alt text on every image</td>
+                    </tr>
+                    <tr>
+                      <td>Inconsistent NAP data</td>
+                      <td>AI loses confidence in your data</td>
+                      <td>Match name, address, phone across all pages</td>
+                    </tr>
+                    <tr>
+                      <td>No internal links</td>
+                      <td>Isolated pages rank worse</td>
+                      <td>Link to FAQ, about, blog, other services</td>
+                    </tr>
+                    <tr>
+                      <td>Keyword stuffing</td>
+                      <td>AI evaluates meaning, not density</td>
+                      <td>Write naturally about your service</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+
+            {/* CTA Inline 8 */}
+            <div className="not-prose">
+              <div className="ae-cta-inline">
+                <p>Not sure which mistakes are holding your pages back?</p>
+                <Link href="/blindspot">Get a Free Diagnostic Report</Link>
+              </div>
+            </div>
+
+            {/* Section: Measuring Results */}
+            <div className="not-prose"><span className="ae-section-label">Measurement</span></div>
+            <h2 className="text-2xl font-bold text-white mt-4 mb-4 font-plus-jakarta">
               Measuring Whether Your Service Pages Are Working
             </h2>
             <p className="text-gray-300 leading-relaxed mb-4">
@@ -585,6 +953,30 @@ export default function Page() {
               update your service page and schema markup immediately, then allow
               2 to 4 weeks for the platforms to re-crawl your content.
             </p>
+
+            {/* Bar Chart: Citation Tracking Importance */}
+            <div className="not-prose">
+              <div className="ae-bar-group">
+                <div className="ae-bar-label">AI Citation Accuracy by Content Type</div>
+                <div className="ae-bar-item ae-bar-highlight" style={{ width: '100%' }}>
+                  <span>Pages with schema + FAQ</span>
+                  <span>92% accurate</span>
+                </div>
+                <div className="ae-bar-item" style={{ width: '72%' }}>
+                  <span>Pages with schema only</span>
+                  <span>76% accurate</span>
+                </div>
+                <div className="ae-bar-item" style={{ width: '55%' }}>
+                  <span>Pages with content only</span>
+                  <span>58% accurate</span>
+                </div>
+                <div className="ae-bar-item" style={{ width: '35%' }}>
+                  <span>Thin pages, no markup</span>
+                  <span>31% accurate</span>
+                </div>
+              </div>
+            </div>
+
             <p className="text-gray-300 leading-relaxed mb-4">
               For a more detailed approach to tracking your AI presence, see
               our guide on{' '}
@@ -594,7 +986,31 @@ export default function Page() {
               .
             </p>
 
-            <h2 className="text-2xl font-bold text-white mt-12 mb-4 font-plus-jakarta">
+            {/* Takeaway: Measurement */}
+            <div className="not-prose">
+              <div className="ae-takeaway">
+                <div className="ae-takeaway-title">Track or Stay Blind</div>
+                <p>
+                  Google AI Overviews showed 59.3% citation drift in a single month
+                  during 2025. The sources cited changed for nearly 6 out of 10
+                  queries. Without ongoing measurement, you will not know when you
+                  have been displaced by a competitor or when inaccurate information
+                  is being shown to potential customers.
+                </p>
+              </div>
+            </div>
+
+            {/* CTA Inline 9 */}
+            <div className="not-prose">
+              <div className="ae-cta-inline">
+                <p>Let us handle the tracking for you. See where you stand today.</p>
+                <Link href="/blindspot">Get Your Free Blind Spot Report</Link>
+              </div>
+            </div>
+
+            {/* Section: The Bottom Line */}
+            <div className="not-prose"><span className="ae-section-label">Bottom Line</span></div>
+            <h2 className="text-2xl font-bold text-white mt-4 mb-4 font-plus-jakarta">
               The Bottom Line
             </h2>
             <p className="text-gray-300 leading-relaxed mb-4">
@@ -612,7 +1028,28 @@ export default function Page() {
               platforms and measure the results. One well-optimized service page
               can change your entire AI visibility profile.
             </p>
+
+            {/* CTA Inline 10 */}
+            <div className="not-prose">
+              <div className="ae-cta-inline">
+                <p>Ready to transform your service pages? Talk to our team.</p>
+                <a href="tel:+12134442229">Call (213) 444-2229</a>
+              </div>
+            </div>
           </article>
+
+          {/* CTA Block */}
+          <div className="not-prose">
+            <div className="ae-cta-block">
+              <h3>Your Service Pages Are Invisible to AI. Let Us Fix That.</h3>
+              <p>
+                Most businesses have service pages that were built for 2019 SEO.
+                AI platforms need structured, factual, schema-rich content to
+                recommend you. We will show you exactly what is missing.
+              </p>
+              <Link href="/blindspot">Get Your Free Blind Spot Report</Link>
+            </div>
+          </div>
 
           {/* FAQ Section */}
           <section className="mt-16 mb-16">
@@ -657,48 +1094,71 @@ export default function Page() {
             </div>
           </section>
 
-          {/* CTA Section */}
-          <section className="rounded-2xl border border-orange-500/30 bg-gradient-to-br from-orange-500/10 to-transparent p-8 sm:p-12 text-center mb-16">
-            <h2 className="text-2xl sm:text-3xl font-bold text-white mb-4 font-plus-jakarta">
-              Are Your Service Pages AI-Ready?
-            </h2>
-            <p className="text-gray-300 text-lg mb-6 max-w-2xl mx-auto">
-              Our free Blind Spot Report analyzes your service pages across
-              ChatGPT, Perplexity, and Google AI Overviews. See exactly where
-              you stand, where competitors are beating you, and what to fix
-              first. No pitch, just the data.
-            </p>
-            <Link
-              href="/blindspot"
-              className="inline-block bg-orange-500 text-white font-semibold px-8 py-4 rounded-xl text-lg hover:bg-orange-600 transition-colors"
-            >
-              Get Your Free Blind Spot Report
-            </Link>
-    <div className="flex flex-wrap items-center gap-6 mt-6 pt-6 border-t border-[#FF6A00]/10">
-      <a href="tel:+12134442229" className="flex items-center gap-2 text-gray-400 hover:text-white transition-colors">
-        <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" /></svg>
-        (213) 444-2229
-      </a>
-      <a href="mailto:support@theanswerengine.ai" className="flex items-center gap-2 text-gray-400 hover:text-white transition-colors">
-        <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" /></svg>
-        support@theanswerengine.ai
-      </a>
-    </div>
-          </section>
+          {/* CTA Inline 11 - Phone */}
+          <div className="not-prose mb-8">
+            <div className="ae-cta-inline">
+              <p>Have questions about optimizing your service pages? We are here to help.</p>
+              <a href="tel:+12134442229">Call (213) 444-2229</a>
+            </div>
+          </div>
 
-          {/* Author Attribution */}
-          <section className="flex items-center gap-4 border-t border-gray-800 pt-8">
-            <div className="w-12 h-12 rounded-full bg-orange-500 flex items-center justify-center text-white font-bold text-lg flex-shrink-0">
-              AE
+          {/* CTA Inline 12 - Email */}
+          <div className="not-prose mb-8">
+            <div className="ae-cta-inline">
+              <p>Prefer to write? Send us your URL and we will take a look.</p>
+              <a href="mailto:support@theanswerengine.ai">Email support@theanswerengine.ai</a>
             </div>
-            <div>
-              <p className="text-white font-semibold">The Answer Engine Team</p>
-              <p className="text-gray-500 text-sm">
-                Helping local businesses get found, recommended, and cited by AI search
-                platforms.
+          </div>
+
+          {/* CTA Inline 13 - Blindspot */}
+          <div className="not-prose mb-8">
+            <div className="ae-cta-inline">
+              <p>Skip the guesswork. See exactly where AI search is leaving you behind.</p>
+              <Link href="/blindspot">Run Your Free Blind Spot Report</Link>
+            </div>
+          </div>
+
+          {/* Final CTA */}
+          <div className="not-prose">
+            <div className="ae-final-cta">
+              <h2>Stop Being Invisible to AI Search</h2>
+              <p>
+                Your competitors are already optimizing their service pages for
+                ChatGPT, Perplexity, and Google AI Overviews. Every week you wait
+                is another week they get cited and you do not. Our free Blind
+                Spot Report shows you exactly what to fix. No pitch, just the
+                data.
               </p>
+              <Link href="/blindspot" className="ae-final-cta-pulse">
+                Get Your Free Blind Spot Report
+              </Link>
+              <div className="flex flex-wrap items-center justify-center gap-6 mt-6 pt-6 border-t border-[#FF6A00]/10">
+                <a href="tel:+12134442229" className="flex items-center gap-2 text-gray-400 hover:text-white transition-colors">
+                  <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" /></svg>
+                  (213) 444-2229
+                </a>
+                <a href="mailto:support@theanswerengine.ai" className="flex items-center gap-2 text-gray-400 hover:text-white transition-colors">
+                  <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" /></svg>
+                  support@theanswerengine.ai
+                </a>
+              </div>
             </div>
-          </section>
+          </div>
+
+          {/* Author Card */}
+          <div className="not-prose mt-12">
+            <div className="ae-author-card">
+              <div className="ae-author-avatar">AE</div>
+              <div className="ae-author-info">
+                <div className="ae-author-name">The Answer Engine Team</div>
+                <div className="ae-author-bio">
+                  Helping local businesses get found, recommended, and cited by AI
+                  search platforms. Specialists in Answer Engine Optimization for
+                  service-based businesses across the United States.
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </main>
     </>

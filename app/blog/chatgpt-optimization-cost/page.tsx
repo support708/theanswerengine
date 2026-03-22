@@ -230,907 +230,888 @@ function ComprehensiveSchema() {
   )
 }
 
-// Breadcrumb Component
-function Breadcrumb() {
-  return (
-    <nav aria-label="Breadcrumb" className="mb-8">
-      <ol className="flex items-center gap-2 text-sm text-gray-400">
-        <li>
-          <Link href="/" className="hover:text-white transition-colors">Home</Link>
-        </li>
-        <li>→</li>
-        <li>
-          <Link href="/blog" className="hover:text-white transition-colors">Blog</Link>
-        </li>
-        <li>→</li>
-        <li className="text-gray-500">ChatGPT Optimization Cost</li>
-      </ol>
-    </nav>
-  )
-}
-
-// Main Page Component
 export default function ChatGPTOptimizationCost() {
   return (
     <>
       <ComprehensiveSchema />
-      
-      <article className="min-h-screen bg-[#0F1117] relative overflow-hidden">
-        {/* Gradient overlay */}
-        
-        <div className="max-w-4xl mx-auto px-6 py-20 sm:py-32 relative">
-          <Breadcrumb />
-          
-          {/* Featured Image */}
-          <div className="mb-8 rounded-2xl overflow-hidden">
-            <Image
-              src="/images/chatgpt-optimization-cost-2025-pricing-guide.jpg"
-              alt="ChatGPT optimization pricing comparison showing DIY, professional foundation package, and enterprise investment levels for local businesses"
-              width={1200}
-              height={630}
-              priority
-              className="w-full grayscale brightness-75"
-            />
+
+      {/* Breadcrumb */}
+      <div className="max-w-4xl mx-auto px-6 pt-20 pb-4">
+        <nav className="flex items-center gap-2 text-sm text-gray-500">
+          <Link href="/" className="hover:text-[#FF6A00] transition-colors">Home</Link>
+          <span>/</span>
+          <Link href="/blog" className="hover:text-[#FF6A00] transition-colors">Blog</Link>
+          <span>/</span>
+          <span className="text-gray-400">ChatGPT Optimization Cost</span>
+        </nav>
+      </div>
+
+      {/* Hero */}
+      <header className="max-w-4xl mx-auto px-6 pb-12">
+        <div className="flex items-center gap-3 mb-6">
+          <span className="bg-[#FF6A00]/10 text-[#FF6A00] px-3 py-1 rounded-full text-xs font-semibold tracking-wide uppercase">Pricing &amp; Services</span>
+          <time className="text-gray-500 text-sm">January 15, 2025</time>
+          <span className="text-gray-600 text-sm">19 min read</span>
+        </div>
+        <h1 className="font-plus-jakarta text-4xl md:text-5xl font-bold text-white leading-tight mb-6">How Much Does ChatGPT Optimization Cost? (Real Pricing for Local Businesses in 2025)</h1>
+        <p className="text-gray-400 text-lg leading-relaxed max-w-2xl">ChatGPT optimization for local service businesses typically costs $1,500 to $5,000+ as a one-time, upfront project. Our Answer Authority Foundation package is $2,997 and includes 6 spoke articles, 1 hub article, and 90 days of monitoring. Here is the full breakdown.</p>
+      </header>
+
+      {/* Featured Image */}
+      <div className="max-w-4xl mx-auto px-6 pb-8">
+        <div className="rounded-2xl overflow-hidden">
+          <Image
+            src="/images/chatgpt-optimization-cost-2025-pricing-guide.jpg"
+            alt="ChatGPT optimization pricing comparison showing DIY, professional foundation package, and enterprise investment levels for local businesses"
+            width={1200}
+            height={630}
+            priority
+            className="w-full grayscale brightness-75"
+          />
+        </div>
+      </div>
+
+      {/* Article Body */}
+      <article className="max-w-4xl mx-auto px-6 pb-20">
+        <div className="prose prose-invert prose-lg max-w-none prose-headings:font-plus-jakarta prose-headings:text-white prose-p:text-gray-300 prose-a:text-[#FF6A00] prose-a:no-underline hover:prose-a:underline prose-strong:text-white">
+
+          {/* Hero Stats Grid */}
+          <div className="not-prose ae-stats-grid">
+            <div className="ae-stat-card">
+              <div className="ae-stat-emoji">💰</div>
+              <div className="ae-stat-value ae-accent">$2,997</div>
+              <div className="ae-stat-label">FOUNDATION PACKAGE</div>
+            </div>
+            <div className="ae-stat-card">
+              <div className="ae-stat-emoji">📄</div>
+              <div className="ae-stat-value ae-accent">7</div>
+              <div className="ae-stat-label">ARTICLES INCLUDED</div>
+            </div>
+            <div className="ae-stat-card">
+              <div className="ae-stat-emoji">📈</div>
+              <div className="ae-stat-value ae-accent">300%+</div>
+              <div className="ae-stat-label">YEAR 1 ROI</div>
+            </div>
+            <div className="ae-stat-card">
+              <div className="ae-stat-emoji">🎯</div>
+              <div className="ae-stat-value ae-accent">90 Days</div>
+              <div className="ae-stat-label">MONITORING INCLUDED</div>
+            </div>
           </div>
 
-          {/* Article Header */}
-          <header className="mb-12">
-            <div className="inline-flex items-center gap-2 px-4 py-2 rounded-xl mb-6 bg-white/[0.04] border border-white/[0.08]">
-              <div className="w-2 h-2 rounded-full bg-white" />
-              <span className="text-sm font-semibold tracking-wider uppercase text-white">Pricing & Services</span>
-            </div>
+          <p>If you are a local business owner wondering what it actually costs to get your business recommended by ChatGPT, you are asking the right question at exactly the right time.</p>
 
-            <h1 className="text-4xl sm:text-5xl lg:text-6xl font-semibold mb-6 leading-tight text-white">
-              How Much Does ChatGPT Optimization Cost? (Real Pricing for Local Businesses in 2025)
-            </h1>
-            
-            <div className="flex items-center gap-4 text-sm text-gray-400 mb-8">
-              <time dateTime="2025-01-15">January 15, 2025</time>
-              <span>•</span>
-              <span>By <Link href="/about" className="text-white hover:text-white transition-colors">JB</Link></span>
-              <span>•</span>
-              <span>19 min read</span>
-            </div>
+          <p>Over 100 million people now use ChatGPT weekly to find local service providers. Plumbers, HVAC contractors, real estate agents, attorneys, home inspectors, and more. When someone asks &quot;Who should I hire for X in [your city]?&quot; ChatGPT typically recommends just 3 to 5 businesses.</p>
 
-            {/* Featured Snippet */}
-            <div className="bg-white/[0.04] border-l-4 border-white/[0.08] p-6 rounded-r-xl">
-              <p className="text-lg text-gray-300 leading-relaxed">
-                ChatGPT optimization for local service businesses typically costs $1,500–$5,000+ as a one-time, upfront project. At The Answer Engine, our Answer Authority Foundation package is $2,997 (full upfront payment required) and includes 6 spoke articles, 1 hub article, and 90 days of monitoring. DIY approaches cost under $500 but require 4–8 months and 40–60 hours of work. Unlike traditional SEO agencies charging $2,000–$5,000 monthly, professional AEO is a one-time investment in evergreen content.
-              </p>
-            </div>
-          </header>
+          <div className="not-prose ae-callout ae-callout-warning">
+            <div className="ae-callout-title">The Core Question</div>
+            <p>Being one of those 3 to 5 businesses changes everything. But ChatGPT optimization (Answer Engine Optimization, or AEO) is fundamentally different from traditional SEO. The pricing structure is different. The timeline is different. The required expertise is different. This guide breaks it all down with complete transparency.</p>
+          </div>
 
-          {/* Introduction */}
-          <section className="mb-16 text-gray-300 space-y-4 text-lg leading-relaxed">
-            <p>If you're a local business owner wondering what it actually costs to get your business recommended by ChatGPT, you're asking the right question at exactly the right time.</p>
+          <p>We will cover DIY options (under $500), professional packages ($2,997 to $8,988), enterprise-level optimization ($25K to $50K+), and the hidden costs most providers never mention upfront. By the end, you will understand exactly what investment makes sense for your business size and goals.</p>
 
-            <p>Over 100 million people now use ChatGPT weekly to find local service providers—plumbers, HVAC contractors, real estate agents, attorneys, home inspectors, and more. When someone asks "Who should I hire for X in [your city]?" ChatGPT typically recommends just 3–5 businesses.</p>
+          <div className="not-prose ae-quote">
+            <p>&quot;The businesses that invest in AI visibility now will own their markets for the next decade. The ones that wait will pay 10x more to catch up.&quot;</p>
+          </div>
 
-            <p className="font-semibold text-white">Being one of those 3–5 businesses changes everything.</p>
-
-            <p>But here's what almost no one is telling you: ChatGPT optimization (Answer Engine Optimization, or AEO) is fundamentally different from traditional SEO. The pricing structure is different. The timeline is different. The required expertise is different.</p>
-
-            <p>In this guide, we're breaking down—with complete transparency—exactly what ChatGPT optimization costs in 2025, what you get for that investment, why pricing varies so dramatically, and most importantly, what actually drives results versus what's just marketing noise.</p>
-
-            <p>We'll cover DIY options (under $500), professional packages ($2,997–$8,988), enterprise-level optimization ($25K–$50K+), and the hidden costs most providers don't mention upfront. By the end, you'll understand exactly what investment makes sense for your business size and goals.</p>
-          </section>
-
-          {/* Separator */}
-          <div className="max-w-xs mx-auto h-px bg-gradient-to-r from-transparent via-white/[0.06] to-transparent mb-16" />
+          <div className="not-prose ae-cta-inline">
+            <p>Not sure if AI platforms are recommending your business or sending customers to competitors?</p>
+            <Link href="/blindspot">Get Your Free Blind Spot Report</Link>
+          </div>
 
           {/* Section 1: Quick Pricing Overview */}
-          <section className="mb-16">
-            <h2 className="text-3xl sm:text-4xl font-semibold mb-6 text-white">
-              ChatGPT Optimization Pricing: Quick Overview
-            </h2>
+          <span className="not-prose ae-section-label">Pricing Overview</span>
+          <h2>ChatGPT Optimization Pricing: Quick Overview</h2>
 
-            <div className="bg-white/[0.03] border-l-4 border-white/[0.08]/50 p-6 rounded-r-xl mb-8">
-              <p className="text-white/40 font-semibold mb-2">Direct Answer:</p>
-              <p className="text-gray-300 leading-relaxed">
-                Professional ChatGPT optimization for local businesses ranges from $1,500 to $50,000+ depending on business size, competitive landscape, and coverage scope. Most small-to-medium local service businesses invest $2,997–$7,500 for foundational optimization. This is a one-time upfront investment, not a monthly subscription, and includes comprehensive content creation, technical implementation, and performance monitoring.
-              </p>
+          <p>Professional ChatGPT optimization for local businesses ranges from $1,500 to $50,000+ depending on business size, competitive landscape, and coverage scope. Most small-to-medium local service businesses invest $2,997 to $7,500 for foundational optimization. This is a one-time upfront investment, not a monthly subscription.</p>
+
+          {/* Pricing Comparison Table */}
+          <div className="not-prose">
+            <table className="ae-comparison-table">
+              <thead>
+                <tr>
+                  <th>Approach</th>
+                  <th>Investment Range</th>
+                  <th>Time Required</th>
+                  <th>Best For</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td><span className="ae-tier-badge ae-tier-basic">DIY</span> DIY Optimization</td>
+                  <td>$0 to $500</td>
+                  <td>4 to 8 months (40-60 hours)</td>
+                  <td>Technical business owners with time</td>
+                </tr>
+                <tr>
+                  <td><span className="ae-tier-badge ae-tier-standard">Foundation</span> Foundation Package</td>
+                  <td>$2,997</td>
+                  <td>6 weeks (professional delivery)</td>
+                  <td>Single-specialty local businesses</td>
+                </tr>
+                <tr>
+                  <td><span className="ae-tier-badge ae-tier-premium">Multi-Hub</span> Multi-Hub Package</td>
+                  <td>$5,394 to $8,988</td>
+                  <td>10 to 24 weeks</td>
+                  <td>Multi-specialty businesses</td>
+                </tr>
+                <tr>
+                  <td><span className="ae-tier-badge ae-tier-premium">Enterprise</span> Enterprise Package</td>
+                  <td>$25,000 to $50,000+</td>
+                  <td>6+ months (ongoing)</td>
+                  <td>Multi-location, franchise operations</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+
+          <div className="not-prose ae-takeaway">
+            <div className="ae-takeaway-title">Key Takeaway</div>
+            <p>Unlike traditional SEO agencies that charge $2,000 to $5,000 per month ($24K to $60K annually), professional AEO is a one-time investment in evergreen content. The content keeps working for years without recurring fees.</p>
+          </div>
+
+          <h3>Why ChatGPT Optimization Costs What It Does</h3>
+
+          <p>Unlike traditional SEO (which focuses on keyword rankings and backlink building), ChatGPT optimization requires creating deeply educational, authentically expert-level content that AI platforms can verify as trustworthy and comprehensive.</p>
+
+          <div className="not-prose ae-bar-group">
+            <div className="ae-bar-item">
+              <div className="ae-bar-label">Voice Capture &amp; Expertise Extraction</div>
+              <div className="ae-bar-track"><div className="ae-bar-fill" style={{ width: '95%' }} /></div>
+              <div className="ae-bar-value">Critical</div>
             </div>
-
-            {/* Pricing Tiers Table */}
-            <div className="overflow-x-auto mb-8">
-              <table className="w-full bg-white/[0.03] border border-white/[0.1] rounded-xl overflow-hidden">
-                <thead className="bg-white/[0.05]">
-                  <tr>
-                    <th className="px-6 py-4 text-left text-sm font-semibold text-white">Approach</th>
-                    <th className="px-6 py-4 text-left text-sm font-semibold text-white">Investment Range</th>
-                    <th className="px-6 py-4 text-left text-sm font-semibold text-white">Time Required</th>
-                    <th className="px-6 py-4 text-left text-sm font-semibold text-white">Best For</th>
-                  </tr>
-                </thead>
-                <tbody className="divide-y divide-white/[0.05]">
-                  <tr>
-                    <td className="px-6 py-4 font-medium text-white">DIY Optimization</td>
-                    <td className="px-6 py-4 text-gray-300">$0–$500</td>
-                    <td className="px-6 py-4 text-gray-300">4–8 months (40-60 hours)</td>
-                    <td className="px-6 py-4 text-gray-300">Technical business owners with time</td>
-                  </tr>
-                  <tr>
-                    <td className="px-6 py-4 font-medium text-white">Foundation Package</td>
-                    <td className="px-6 py-4 text-gray-300">$2,997</td>
-                    <td className="px-6 py-4 text-gray-300">6 weeks (professional delivery)</td>
-                    <td className="px-6 py-4 text-gray-300">Single-specialty local businesses</td>
-                  </tr>
-                  <tr>
-                    <td className="px-6 py-4 font-medium text-white">Multi-Hub Package</td>
-                    <td className="px-6 py-4 text-gray-300">$5,394–$8,988</td>
-                    <td className="px-6 py-4 text-gray-300">10–24 weeks</td>
-                    <td className="px-6 py-4 text-gray-300">Multi-specialty businesses</td>
-                  </tr>
-                  <tr>
-                    <td className="px-6 py-4 font-medium text-white">Enterprise Package</td>
-                    <td className="px-6 py-4 text-gray-300">$25,000–$50,000+</td>
-                    <td className="px-6 py-4 text-gray-300">6+ months (ongoing)</td>
-                    <td className="px-6 py-4 text-gray-300">Multi-location, franchise operations</td>
-                  </tr>
-                </tbody>
-              </table>
+            <div className="ae-bar-item">
+              <div className="ae-bar-label">Content Depth (1,500 to 3,000+ words)</div>
+              <div className="ae-bar-track"><div className="ae-bar-fill" style={{ width: '90%' }} /></div>
+              <div className="ae-bar-value">Essential</div>
             </div>
-
-            <div className="text-gray-300 space-y-4 leading-relaxed">
-              <h3 className="text-2xl font-semibold text-white mb-4">Why ChatGPT Optimization Costs What It Does</h3>
-              
-              <p>Unlike traditional SEO (which focuses on keyword rankings and backlink building), ChatGPT optimization requires creating deeply educational, authentically expert-level content that AI platforms can verify as trustworthy and comprehensive.</p>
-
-              <p className="font-semibold text-white">Three factors drive the cost:</p>
-
-              <ul className="space-y-2 pl-6 list-disc">
-                <li><strong className="text-white">Voice Capture & Expertise Extraction:</strong> A 60–90 minute recorded interview with you, professionally processed to capture your authentic expertise and communication style. This cannot be skipped—AI platforms detect generic or fabricated content.</li>
-                <li><strong className="text-white">Content Depth Requirements:</strong> AI platforms require 1,500–3,000+ word comprehensive articles with technical specificity. Generic 400-word blog posts get ignored.</li>
-                <li><strong className="text-white">Technical Implementation:</strong> Schema markup, proper information architecture, entity consistency, and structured data implementation that AI platforms can parse reliably.</li>
-              </ul>
-
-              <p>Most businesses see this as a one-time investment that continues working for years, similar to building a website—except this specifically targets the 100+ million people asking AI platforms for business recommendations.</p>
+            <div className="ae-bar-item">
+              <div className="ae-bar-label">Schema Markup Implementation</div>
+              <div className="ae-bar-track"><div className="ae-bar-fill" style={{ width: '85%' }} /></div>
+              <div className="ae-bar-value">Required</div>
             </div>
-          </section>
+            <div className="ae-bar-item">
+              <div className="ae-bar-label">Hub-and-Spoke Architecture</div>
+              <div className="ae-bar-track"><div className="ae-bar-fill" style={{ width: '88%' }} /></div>
+              <div className="ae-bar-value">Foundational</div>
+            </div>
+          </div>
 
-          {/* Separator */}
-          <div className="max-w-xs mx-auto h-px bg-gradient-to-r from-transparent via-white/[0.06] to-transparent mb-16" />
+          <p>A 60 to 90 minute recorded interview with you captures your authentic expertise and communication style. AI platforms detect generic or fabricated content, so this step cannot be skipped. The content depth must reach 1,500 to 3,000+ words per article. Generic 400-word blog posts get ignored. And the technical implementation (schema markup, information architecture, entity consistency) ensures AI platforms can parse your content reliably.</p>
+
+          <div className="not-prose ae-cta-inline">
+            <p>Want to see if your current content is even visible to AI platforms?</p>
+            <Link href="/blindspot">Run a Free AI Visibility Check</Link>
+          </div>
 
           {/* Section 2: DIY Approach */}
-          <section className="mb-16">
-            <h2 className="text-3xl sm:text-4xl font-semibold mb-6 text-white">
-              DIY ChatGPT Optimization: The $0–$500 Option
-            </h2>
+          <span className="not-prose ae-section-label">DIY Route</span>
+          <h2>DIY ChatGPT Optimization: The $0 to $500 Option</h2>
 
-            <div className="bg-white/[0.03] border-l-4 border-white/[0.08]/50 p-6 rounded-r-xl mb-8">
-              <p className="text-white/40 font-semibold mb-2">Direct Answer:</p>
-              <p className="text-gray-300 leading-relaxed">
-                DIY ChatGPT optimization costs under $500 in direct expenses (tools, software) but requires 40–60 hours of work over 4–8 months. You need technical knowledge of schema markup, understanding of AI citation patterns, content creation skills, and significant time investment. Success rate is approximately 30–40% for first-time attempts without professional guidance.
-              </p>
+          <p>DIY ChatGPT optimization costs under $500 in direct expenses (tools, software) but requires 40 to 60 hours of work over 4 to 8 months. You need technical knowledge of schema markup, understanding of AI citation patterns, content creation skills, and significant time investment. Success rate is approximately 30 to 40% for first-time attempts without professional guidance.</p>
+
+          <div className="not-prose ae-pros-cons">
+            <div className="ae-pros-box">
+              <div className="ae-pros-title">DIY Advantages</div>
+              <ul>
+                <li>Lowest direct cost ($0 to $500)</li>
+                <li>Full control over content and timeline</li>
+                <li>Learn the AEO process firsthand</li>
+                <li>No dependency on external providers</li>
+              </ul>
             </div>
-
-            <div className="text-gray-300 space-y-4 leading-relaxed">
-              <h3 className="text-2xl font-semibold text-white mb-4">What DIY Actually Requires</h3>
-
-              <p className="font-semibold text-white">Technical Skills Needed:</p>
-              <ul className="space-y-2 pl-6 list-disc mb-4">
-                <li>Schema markup implementation (JSON-LD, Article schema, FAQPage schema, LocalBusiness schema)</li>
-                <li>WordPress or website CMS management</li>
-                <li>Basic understanding of HTML/CSS</li>
-                <li>Google Search Console and Analytics setup</li>
-                <li>Content strategy and information architecture</li>
+            <div className="ae-cons-box">
+              <div className="ae-cons-title">DIY Challenges</div>
+              <ul>
+                <li>40 to 60 hours of work over months</li>
+                <li>Only 35% success rate for first attempts</li>
+                <li>Steep learning curve for schema markup</li>
+                <li>40% of DIY projects get abandoned</li>
+                <li>Opportunity cost of $5,000 to $7,500+</li>
               </ul>
-
-              <p className="font-semibold text-white">Time Investment Breakdown:</p>
-              <ul className="space-y-2 pl-6 list-disc mb-4">
-                <li>Research and learning: 8–12 hours</li>
-                <li>Content planning and strategy: 4–6 hours</li>
-                <li>Writing 7 articles (1,500–3,000 words each): 20–30 hours</li>
-                <li>Schema markup implementation: 6–8 hours</li>
-                <li>Testing and optimization: 4–6 hours</li>
-                <li><strong className="text-white">Total: 42–62 hours over 4–8 months</strong></li>
-              </ul>
-
-              <p className="font-semibold text-white">Direct Costs:</p>
-              <ul className="space-y-2 pl-6 list-disc mb-4">
-                <li>Schema markup tools: $0–$50/month</li>
-                <li>Content editing software (Grammarly Pro, etc.): $12–$30/month</li>
-                <li>WordPress plugins or CMS tools: $0–$100 one-time</li>
-                <li>Stock images (optional): $0–$100</li>
-                <li><strong className="text-white">Total Direct Cost: $100–$500</strong></li>
-              </ul>
-
-              <h3 className="text-2xl font-semibold text-white mb-4 mt-8">The Hidden Cost: Opportunity Cost</h3>
-
-              <p>If your time is worth $100/hour (typical for business owners), 50 hours of DIY work represents $5,000 in opportunity cost. If you value your time at $150/hour (common for established professionals), that's $7,500 in opportunity cost.</p>
-
-              <p className="font-semibold text-white">Most business owners underestimate:</p>
-              <ul className="space-y-2 pl-6 list-disc mb-4">
-                <li>The learning curve for schema markup and technical implementation</li>
-                <li>The difficulty of writing 2,000+ word expert-level content</li>
-                <li>The importance of voice authenticity (AI detects generic writing)</li>
-                <li>The time required for proper testing and validation</li>
-              </ul>
-
-              <div className="bg-white/[0.03] border border-white/[0.08] rounded-xl p-6 mt-6">
-                <p className="font-semibold text-white mb-3">Reality Check:</p>
-                <p className="mb-3">We've analyzed 50+ DIY AEO attempts by local businesses. Success rate (achieving consistent AI citations within 6 months) was approximately 35%. The most common failure points:</p>
-                <ul className="space-y-1 pl-6 list-disc">
-                  <li>Content not detailed enough (below 1,500 words)</li>
-                  <li>Schema markup errors or missing fields</li>
-                  <li>Generic writing that doesn't demonstrate authentic expertise</li>
-                  <li>Incomplete hub-and-spoke architecture</li>
-                  <li>Abandoning the project before completion (40% gave up)</li>
-                </ul>
-              </div>
-
-              <h3 className="text-2xl font-semibold text-white mb-4 mt-8">When DIY Makes Sense</h3>
-
-              <p>DIY ChatGPT optimization is appropriate if you:</p>
-              <ul className="space-y-2 pl-6 list-disc">
-                <li>Have technical web development experience</li>
-                <li>Are a strong writer who can produce 2,000+ word articles</li>
-                <li>Have 50+ hours available over the next 4–6 months</li>
-                <li>Enjoy learning new technical systems</li>
-                <li>Can commit to seeing the project through to completion</li>
-                <li>Have low revenue currently (under $100K annually)</li>
-              </ul>
-
-              <p className="mt-4">For everyone else, professional optimization delivers faster results with significantly higher success rates.</p>
             </div>
-          </section>
+          </div>
 
-          {/* Separator */}
-          <div className="max-w-xs mx-auto h-px bg-gradient-to-r from-transparent via-white/[0.06] to-transparent mb-16" />
+          <h3>What DIY Actually Requires</h3>
+
+          <div className="not-prose ae-cheat-sheet">
+            <div className="ae-cheat-sheet-title">DIY Time Investment Breakdown</div>
+            <table>
+              <thead>
+                <tr>
+                  <th>Task</th>
+                  <th>Hours Required</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Research and learning</td>
+                  <td>8 to 12 hours</td>
+                </tr>
+                <tr>
+                  <td>Content planning and strategy</td>
+                  <td>4 to 6 hours</td>
+                </tr>
+                <tr>
+                  <td>Writing 7 articles (1,500 to 3,000 words each)</td>
+                  <td>20 to 30 hours</td>
+                </tr>
+                <tr>
+                  <td>Schema markup implementation</td>
+                  <td>6 to 8 hours</td>
+                </tr>
+                <tr>
+                  <td>Testing and optimization</td>
+                  <td>4 to 6 hours</td>
+                </tr>
+                <tr>
+                  <td><strong>Total</strong></td>
+                  <td><strong>42 to 62 hours</strong></td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+
+          <div className="not-prose ae-callout ae-callout-warning">
+            <div className="ae-callout-title">The Hidden Cost: Opportunity Cost</div>
+            <p>If your time is worth $100/hour (typical for business owners), 50 hours of DIY work represents $5,000 in opportunity cost. At $150/hour (common for established professionals), that jumps to $7,500. The direct cost looks cheap. The real cost is not.</p>
+          </div>
+
+          {/* DIY Cost Timeline */}
+          <div className="not-prose ae-timeline">
+            <div className="ae-timeline-item">
+              <strong>Month 1:</strong> Research AI citation patterns, study schema markup, analyze competitor content. Direct cost: $0. Time invested: 12 to 15 hours.
+            </div>
+            <div className="ae-timeline-item">
+              <strong>Month 2 to 3:</strong> Write first 3 spoke articles, implement initial schema, test with AI platforms. Direct cost: $50 to $200 (tools). Time invested: 15 to 20 hours.
+            </div>
+            <div className="ae-timeline-item">
+              <strong>Month 4 to 5:</strong> Complete remaining 4 articles, build hub-and-spoke links, refine schema. Direct cost: $50 to $100. Time invested: 10 to 15 hours.
+            </div>
+            <div className="ae-timeline-item">
+              <strong>Month 6 to 8:</strong> Wait for AI indexing, monitor citations, iterate on underperforming content. Direct cost: $0 to $100 (monitoring tools). Time invested: 5 to 10 hours.
+            </div>
+          </div>
+
+          <div className="not-prose ae-stats-grid">
+            <div className="ae-stat-card">
+              <div className="ae-stat-emoji">💵</div>
+              <div className="ae-stat-value ae-accent">$100 to $500</div>
+              <div className="ae-stat-label">DIY DIRECT COSTS</div>
+            </div>
+            <div className="ae-stat-card">
+              <div className="ae-stat-emoji">⏱️</div>
+              <div className="ae-stat-value ae-accent">$5,000 to $7,500</div>
+              <div className="ae-stat-label">DIY OPPORTUNITY COST</div>
+            </div>
+            <div className="ae-stat-card">
+              <div className="ae-stat-emoji">📊</div>
+              <div className="ae-stat-value ae-accent">$5,100 to $8,000</div>
+              <div className="ae-stat-label">DIY TRUE TOTAL COST</div>
+            </div>
+            <div className="ae-stat-card">
+              <div className="ae-stat-emoji">🎲</div>
+              <div className="ae-stat-value ae-accent">35%</div>
+              <div className="ae-stat-label">DIY SUCCESS RATE</div>
+            </div>
+          </div>
+
+          <div className="not-prose ae-callout ae-callout-info">
+            <div className="ae-callout-title">Reality Check: DIY Success Rates</div>
+            <p>We have analyzed 50+ DIY AEO attempts by local businesses. Success rate (achieving consistent AI citations within 6 months) was approximately 35%. The most common failures: content not detailed enough, schema markup errors, generic writing that does not demonstrate authentic expertise, incomplete hub-and-spoke architecture, and abandoning the project before completion (40% gave up).</p>
+          </div>
+
+          <div className="not-prose ae-decision-matrix">
+            <div className="ae-decision-title">When Does DIY Make Sense?</div>
+            <div className="ae-decision-row">
+              <div className="ae-decision-if">If you have technical web dev experience</div>
+              <div className="ae-decision-arrow">then</div>
+              <div className="ae-decision-then">DIY could work for you</div>
+            </div>
+            <div className="ae-decision-row">
+              <div className="ae-decision-if">If you can write 2,000+ word expert articles</div>
+              <div className="ae-decision-arrow">then</div>
+              <div className="ae-decision-then">DIY is realistic</div>
+            </div>
+            <div className="ae-decision-row">
+              <div className="ae-decision-if">If your revenue is under $100K annually</div>
+              <div className="ae-decision-arrow">then</div>
+              <div className="ae-decision-then">DIY makes financial sense</div>
+            </div>
+            <div className="ae-decision-row">
+              <div className="ae-decision-if">If you value speed and guaranteed quality</div>
+              <div className="ae-decision-arrow">then</div>
+              <div className="ae-decision-then">Professional optimization is the better path</div>
+            </div>
+          </div>
+
+          <div className="not-prose ae-cta-inline">
+            <p>Curious whether your business is already showing up in AI search results?</p>
+            <Link href="/blindspot">Check Your AI Visibility Free</Link>
+          </div>
 
           {/* Section 3: Professional Packages */}
-          <section className="mb-16">
-            <h2 className="text-3xl sm:text-4xl font-semibold mb-6 text-white">
-              Professional ChatGPT Optimization: $2,997–$8,988 Package Breakdown
-            </h2>
+          <span className="not-prose ae-section-label">Professional Packages</span>
+          <h2>Professional ChatGPT Optimization: $2,997 to $8,988 Package Breakdown</h2>
 
-            <div className="bg-white/[0.03] border-l-4 border-white/[0.08]/50 p-6 rounded-r-xl mb-8">
-              <p className="text-white/40 font-semibold mb-2">Direct Answer:</p>
-              <p className="text-gray-300 leading-relaxed">
-                The Answer Engine's professional packages range from $2,997 (Foundation) to $8,988 (Market Leader), all requiring full upfront payment. Each package includes voice capture interviews, professionally written articles optimized with our proprietary AERO-6 framework, complete schema markup implementation, and 90-day AI citation monitoring. This is a one-time investment with no recurring fees.
-              </p>
+          <p>The Answer Engine&apos;s professional packages range from $2,997 (Foundation) to $8,988 (Market Leader), all requiring full upfront payment. Each package includes voice capture interviews, professionally written articles optimized with the AERO-6 framework, complete schema markup implementation, and 90-day AI citation monitoring. This is a one-time investment with no recurring fees.</p>
+
+          <div className="not-prose">
+            <table className="ae-comparison-table">
+              <thead>
+                <tr>
+                  <th>Package</th>
+                  <th>Investment</th>
+                  <th>Articles</th>
+                  <th>Cost/Article</th>
+                  <th>Savings</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td><span className="ae-tier-badge ae-tier-standard">Foundation</span></td>
+                  <td>$2,997</td>
+                  <td>7 (6 spoke + 1 hub)</td>
+                  <td>$428</td>
+                  <td>Baseline</td>
+                </tr>
+                <tr>
+                  <td><span className="ae-tier-badge ae-tier-premium">Authority 2x</span></td>
+                  <td>$5,394</td>
+                  <td>14 (12 spoke + 2 hub)</td>
+                  <td>$385</td>
+                  <td>$600 saved</td>
+                </tr>
+                <tr>
+                  <td><span className="ae-tier-badge ae-tier-premium">Dominance 3x</span></td>
+                  <td>$7,491</td>
+                  <td>21 (18 spoke + 3 hub)</td>
+                  <td>$357</td>
+                  <td>$1,500 saved</td>
+                </tr>
+                <tr>
+                  <td><span className="ae-tier-badge ae-tier-premium">Market Leader 4x</span></td>
+                  <td>$8,988</td>
+                  <td>28 (24 spoke + 4 hub)</td>
+                  <td>$321</td>
+                  <td>$3,000 saved</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+
+          <h3>Foundation Package: $2,997</h3>
+
+          <div className="not-prose ae-callout ae-callout-info">
+            <div className="ae-callout-title">What You Get</div>
+            <p>6 spoke articles + 1 hub guide (7 total). Voice capture interview (60 to 90 minutes). AERO-6 optimization to 95%+ quality scores. Complete JSON-LD schema markup. Hub-and-spoke architecture. 90-day AI citation monitoring across ChatGPT, Claude, Perplexity, and Gemini. Timeline: 6 weeks from interview to publication.</p>
+          </div>
+
+          <div className="not-prose ae-bar-group">
+            <div className="ae-bar-item">
+              <div className="ae-bar-label">Single-specialty businesses ($250K to $1M revenue)</div>
+              <div className="ae-bar-track"><div className="ae-bar-fill" style={{ width: '100%' }} /></div>
+              <div className="ae-bar-value">Ideal fit</div>
             </div>
-
-            <div className="text-gray-300 space-y-8 leading-relaxed">
-              {/* Foundation Package */}
-              <div className="bg-gradient-to-br from-white/[0.02] to-white/[0.02] border-2 border-white/[0.08] rounded-2xl p-8">
-                <h3 className="text-2xl font-semibold text-white mb-4">Foundation Package: $2,997</h3>
-                
-                <p className="mb-4"><strong className="text-white">Perfect for:</strong> Single-specialty local service businesses testing AEO or targeting one core service area</p>
-
-                <p className="mb-4"><strong className="text-white">What You Get:</strong></p>
-                <ul className="space-y-2 pl-6 list-disc mb-4">
-                  <li><strong className="text-white">Content Delivered:</strong> 6 spoke articles + 1 hub guide (7 total articles)</li>
-                  <li><strong className="text-white">Voice Capture:</strong> 60–90 minute recorded interview to extract your authentic expertise</li>
-                  <li><strong className="text-white">AERO-6 Optimization:</strong> Every article scored and refined to 95%+ quality standards</li>
-                  <li><strong className="text-white">Schema Markup:</strong> Complete JSON-LD implementation (Article, FAQPage, HowTo, LocalBusiness)</li>
-                  <li><strong className="text-white">Hub-and-Spoke Architecture:</strong> Strategic topic coverage demonstrating comprehensive expertise</li>
-                  <li><strong className="text-white">90-Day Monitoring:</strong> AI citation tracking across ChatGPT, Claude, Perplexity, and Gemini</li>
-                </ul>
-
-                <p className="mb-4"><strong className="text-white">Timeline:</strong> 6 weeks from interview to publication</p>
-
-                <p className="mb-4"><strong className="text-white">Cost Per Article:</strong> $428 (significantly lower than typical $500-$1,500 content agency pricing)</p>
-
-                <div className="bg-white/[0.05] border border-white/[0.1] rounded-xl p-4 mt-4">
-                  <p className="font-semibold text-white mb-2">Best For:</p>
-                  <p>Businesses earning $250K–$1M revenue, single-service focus (e.g., HVAC installation, probate real estate, home inspection), testing AEO before full commitment, established local presence wanting AI visibility.</p>
-                </div>
-              </div>
-
-              {/* Authority Package */}
-              <div className="bg-gradient-to-br from-white/[0.02] to-white/[0.02] border-2 border-white/[0.08] rounded-2xl p-8">
-                <div className="inline-flex items-center gap-2 px-3 py-1 rounded-lg mb-4 bg-white/20 border border-white/[0.08]/40">
-                  <span className="text-xs font-semibold tracking-wider uppercase text-white">MOST POPULAR</span>
-                </div>
-
-                <h3 className="text-2xl font-semibold text-white mb-4">Authority Package (2x): $5,394</h3>
-                
-                <p className="mb-4"><strong className="text-white">Perfect for:</strong> Businesses with 2–3 core services wanting broader market presence</p>
-
-                <p className="mb-4"><strong className="text-white">What You Get:</strong></p>
-                <ul className="space-y-2 pl-6 list-disc mb-4">
-                  <li><strong className="text-white">Content Delivered:</strong> 12 spoke articles + 2 hub guides (14 total articles)</li>
-                  <li><strong className="text-white">Everything in Foundation PLUS:</strong></li>
-                  <li>Two distinct topical authority pillars</li>
-                  <li>Broader AI citation probability across service areas</li>
-                  <li>Extended delivery timeline for quality assurance</li>
-                  <li>Strategic topic selection across 2 service areas</li>
-                  <li>Priority interview scheduling</li>
-                </ul>
-
-                <p className="mb-4"><strong className="text-white">Timeline:</strong> 10–12 weeks</p>
-
-                <p className="mb-4"><strong className="text-white">Cost Per Article:</strong> $385 (10% per-set discount = $600 total savings)</p>
-
-                <p className="mb-4"><strong className="text-white">Price Per Set:</strong> $2,697 (vs. $2,997 individually)</p>
-
-                <div className="bg-white/[0.05] border border-white/[0.1] rounded-xl p-4 mt-4">
-                  <p className="font-semibold text-white mb-2">Best For:</p>
-                  <p>Established businesses ($500K–$1M revenue), multi-service providers (e.g., real estate + property tax consulting), businesses serious about AI visibility, those wanting ROI proof before full commitment. This is the sweet spot for most clients—comprehensive enough to demonstrate results, affordable enough to be accessible.</p>
-                </div>
-              </div>
-
-              {/* Dominance Package */}
-              <div className="bg-gradient-to-br from-white/[0.02] to-white/[0.02] border-2 border-white/[0.08] rounded-2xl p-8">
-                <h3 className="text-2xl font-semibold text-white mb-4">Dominance Package (3x): $7,491</h3>
-                
-                <p className="mb-4"><strong className="text-white">Perfect for:</strong> Growing businesses seeking competitive advantage across multiple specialties</p>
-
-                <p className="mb-4"><strong className="text-white">What You Get:</strong></p>
-                <ul className="space-y-2 pl-6 list-disc mb-4">
-                  <li><strong className="text-white">Content Delivered:</strong> 18 spoke articles + 3 hub guides (21 total articles)</li>
-                  <li><strong className="text-white">Everything in Authority PLUS:</strong></li>
-                  <li>Three comprehensive topical pillars</li>
-                  <li>Wider competitive moat (harder for competitors to match)</li>
-                  <li>Enhanced AI citation probability</li>
-                  <li>Quarterly strategy review call</li>
-                </ul>
-
-                <p className="mb-4"><strong className="text-white">Timeline:</strong> 14–18 weeks</p>
-
-                <p className="mb-4"><strong className="text-white">Cost Per Article:</strong> $357 (17% per-set discount = $1,500 total savings)</p>
-
-                <p className="mb-4"><strong className="text-white">Price Per Set:</strong> $2,497 (vs. $2,997 individually)</p>
-
-                <div className="bg-white/[0.05] border border-white/[0.1] rounded-xl p-4 mt-4">
-                  <p className="font-semibold text-white mb-2">Best For:</p>
-                  <p>Businesses with $1M–$3M revenue, multiple distinct service offerings, competitive markets requiring comprehensive coverage, established brands wanting to lock out competition.</p>
-                </div>
-              </div>
-
-              {/* Market Leader Package */}
-              <div className="bg-gradient-to-br from-white/[0.02] to-white/[0.02] border-2 border-white/[0.08] rounded-2xl p-8">
-                <div className="inline-flex items-center gap-2 px-3 py-1 rounded-lg mb-4 bg-white/[0.04] border border-white/[0.08]/40">
-                  <span className="text-xs font-semibold tracking-wider uppercase text-white/40">BEST VALUE</span>
-                </div>
-
-                <h3 className="text-2xl font-semibold text-white mb-4">Market Leader Package (4x): $8,988</h3>
-                
-                <p className="mb-4"><strong className="text-white">Perfect for:</strong> Industry leaders establishing complete market dominance</p>
-
-                <p className="mb-4"><strong className="text-white">What You Get:</strong></p>
-                <ul className="space-y-2 pl-6 list-disc mb-4">
-                  <li><strong className="text-white">Content Delivered:</strong> 24 spoke articles + 4 hub guides (28 total articles)</li>
-                  <li><strong className="text-white">Everything in Dominance PLUS:</strong></li>
-                  <li>Four comprehensive topical pillars</li>
-                  <li>Maximum AI citation probability</li>
-                  <li>Complete market category coverage</li>
-                  <li>Dedicated priority support</li>
-                  <li>Accelerated response times</li>
-                  <li>Quarterly strategy review calls</li>
-                  <li>Ongoing optimization recommendations</li>
-                  <li>Premium client status</li>
-                </ul>
-
-                <p className="mb-4"><strong className="text-white">Timeline:</strong> 18–24 weeks</p>
-
-                <p className="mb-4"><strong className="text-white">Cost Per Article:</strong> $321 (25% per-set discount = $3,000 total savings)</p>
-
-                <p className="mb-4"><strong className="text-white">Price Per Set:</strong> $2,247 (vs. $2,997 individually)</p>
-
-                <div className="bg-white/[0.05] border border-white/[0.1] rounded-xl p-4 mt-4">
-                  <p className="font-semibold text-white mb-2">Best For:</p>
-                  <p>Market leaders with $1M+ revenue, multi-location or franchise operations, businesses with diverse service offerings, companies with aggressive growth goals, those wanting to lock out competition completely, premium brands requiring comprehensive coverage.</p>
-                </div>
-
-                <div className="bg-white/[0.04] border-l-4 border-white/[0.08] p-4 rounded-r-xl mt-4">
-                  <p className="font-semibold text-white">Value Proposition:</p>
-                  <p>Get the 4th content pillar at 50% off. Costs less than 3 Foundation packages but delivers 4 complete pillars. The 25% discount puts $3,000 back in your pocket.</p>
-                </div>
-              </div>
-
-              <h3 className="text-2xl font-semibold text-white mb-4 mt-12">Payment Options</h3>
-
-              <div className="space-y-4">
-                <div>
-                  <p className="font-semibold text-white">Foundation Package ($2,997):</p>
-                  <ul className="space-y-1 pl-6 list-disc">
-                    <li>Option A: Full payment upon signing ($2,997)</li>
-                    <li>Option B: 50/50 split - 50% upon signing, 50% after interviews complete</li>
-                  </ul>
-                </div>
-
-                <div>
-                  <p className="font-semibold text-white">Authority Package ($5,394):</p>
-                  <ul className="space-y-1 pl-6 list-disc">
-                    <li>Option A: Full payment upon signing</li>
-                    <li>Option B: Milestone payments (33/33/34) - Upon signing, after first content set, upon completion</li>
-                    <li>Option C: 3 monthly payments of $1,798</li>
-                  </ul>
-                </div>
-
-                <div>
-                  <p className="font-semibold text-white">Dominance & Market Leader Packages:</p>
-                  <ul className="space-y-1 pl-6 list-disc">
-                    <li>Option A: Full payment upon signing</li>
-                    <li>Option B: Milestone payments (33/33/34)</li>
-                    <li>Option C: Quarterly payments</li>
-                  </ul>
-                </div>
-              </div>
+            <div className="ae-bar-item">
+              <div className="ae-bar-label">Testing AEO before full commitment</div>
+              <div className="ae-bar-track"><div className="ae-bar-fill" style={{ width: '95%' }} /></div>
+              <div className="ae-bar-value">Great fit</div>
             </div>
-          </section>
+            <div className="ae-bar-item">
+              <div className="ae-bar-label">Multi-service businesses</div>
+              <div className="ae-bar-track"><div className="ae-bar-fill" style={{ width: '50%' }} /></div>
+              <div className="ae-bar-value">Consider 2x+</div>
+            </div>
+          </div>
 
-          {/* Separator */}
-          <div className="max-w-xs mx-auto h-px bg-gradient-to-r from-transparent via-white/[0.06] to-transparent mb-16" />
+          <div className="not-prose ae-cta-inline">
+            <p>Have questions about which package fits your business? Talk to a human.</p>
+            <a href="tel:+12134442229">Call (213) 444-2229</a>
+          </div>
+
+          <h3>Authority Package (2x): $5,394</h3>
+
+          <p>Everything in Foundation, doubled. Two distinct topical authority pillars, 14 total articles, broader AI citation probability across service areas. Cost per article drops to $385 (10% per-set discount). Timeline: 10 to 12 weeks. Best for businesses with $500K to $1M revenue and 2 to 3 core service areas. This is the sweet spot for most clients.</p>
+
+          <h3>Dominance Package (3x): $7,491</h3>
+
+          <p>Three comprehensive topical pillars, 21 total articles, a wider competitive moat that is harder for competitors to match. Cost per article: $357 (17% discount). Timeline: 14 to 18 weeks. Includes quarterly strategy review call. Best for businesses with $1M to $3M revenue in competitive markets.</p>
+
+          <h3>Market Leader Package (4x): $8,988</h3>
+
+          <div className="not-prose ae-callout ae-callout-success">
+            <div className="ae-callout-title">Best Value</div>
+            <p>Four comprehensive topical pillars, 28 total articles, maximum AI citation probability, dedicated priority support, quarterly strategy reviews, and premium client status. Cost per article: $321 (25% discount). Get the 4th content pillar at 50% off. Costs less than 3 Foundation packages but delivers 4 complete pillars. The 25% discount puts $3,000 back in your pocket.</p>
+          </div>
+
+          <div className="not-prose ae-cta-inline">
+            <p>Not sure which package fits your business? Start with the data.</p>
+            <Link href="/blindspot">Get Your Free Blind Spot Report</Link>
+          </div>
+
+          <h3>Payment Options</h3>
+
+          <div className="not-prose ae-cheat-sheet">
+            <div className="ae-cheat-sheet-title">Payment Structures by Package</div>
+            <table>
+              <thead>
+                <tr>
+                  <th>Package</th>
+                  <th>Option A</th>
+                  <th>Option B</th>
+                  <th>Option C</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Foundation ($2,997)</td>
+                  <td>Full payment upon signing</td>
+                  <td>50/50 split (signing + post-interview)</td>
+                  <td>N/A</td>
+                </tr>
+                <tr>
+                  <td>Authority ($5,394)</td>
+                  <td>Full payment upon signing</td>
+                  <td>Milestone (33/33/34)</td>
+                  <td>3 monthly payments of $1,798</td>
+                </tr>
+                <tr>
+                  <td>Dominance ($7,491)</td>
+                  <td>Full payment upon signing</td>
+                  <td>Milestone (33/33/34)</td>
+                  <td>Quarterly payments</td>
+                </tr>
+                <tr>
+                  <td>Market Leader ($8,988)</td>
+                  <td>Full payment upon signing</td>
+                  <td>Milestone (33/33/34)</td>
+                  <td>Quarterly payments</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+
+          <div className="not-prose ae-cta-inline">
+            <p>Ready to see exactly where your competitors are beating you in AI search?</p>
+            <Link href="/blindspot">Get Your Free AI Blind Spot Report</Link>
+          </div>
 
           {/* Section 4: Enterprise Pricing */}
-          <section className="mb-16">
-            <h2 className="text-3xl sm:text-4xl font-semibold mb-6 text-white">
-              Enterprise ChatGPT Optimization: $25,000–$50,000+ Investment
-            </h2>
+          <span className="not-prose ae-section-label">Enterprise Tier</span>
+          <h2>Enterprise ChatGPT Optimization: $25,000 to $50,000+ Investment</h2>
 
-            <div className="bg-white/[0.03] border-l-4 border-white/[0.08]/50 p-6 rounded-r-xl mb-8">
-              <p className="text-white/40 font-semibold mb-2">Direct Answer:</p>
-              <p className="text-gray-300 leading-relaxed">
-                Enterprise ChatGPT optimization for multi-location businesses, franchises, or companies with 10+ service specialties typically costs $25,000–$50,000+ and includes comprehensive content coverage (50+ articles), multi-location optimization, ongoing content refresh, dedicated account management, quarterly strategy sessions, and continuous monitoring/optimization. These are custom-scoped projects requiring 6–12 months of implementation.
-              </p>
+          <p>Enterprise ChatGPT optimization for multi-location businesses, franchises, or companies with 10+ service specialties typically costs $25,000 to $50,000+ and includes comprehensive content coverage (50+ articles), multi-location optimization, ongoing content refresh, dedicated account management, quarterly strategy sessions, and continuous monitoring.</p>
+
+          <div className="not-prose ae-stats-grid">
+            <div className="ae-stat-card">
+              <div className="ae-stat-emoji">🏢</div>
+              <div className="ae-stat-value ae-accent">50+</div>
+              <div className="ae-stat-label">ARTICLES CREATED</div>
             </div>
-
-            <div className="text-gray-300 space-y-4 leading-relaxed">
-              <h3 className="text-2xl font-semibold text-white mb-4">What Enterprise Packages Include</h3>
-
-              <ul className="space-y-2 pl-6 list-disc mb-6">
-                <li><strong className="text-white">Comprehensive Content Coverage:</strong> 50–100+ articles covering all service areas, locations, and specialties</li>
-                <li><strong className="text-white">Multi-Location Optimization:</strong> Entity disambiguation, location-specific authority building, franchise SEO considerations</li>
-                <li><strong className="text-white">Ongoing Content Refresh:</strong> Quarterly updates to maintain freshness signals</li>
-                <li><strong className="text-white">Dedicated Account Management:</strong> Direct access to strategist, priority support</li>
-                <li><strong className="text-white">Quarterly Strategy Sessions:</strong> Performance reviews, competitive analysis, expansion planning</li>
-                <li><strong className="text-white">Advanced Monitoring:</strong> Real-time AI citation tracking, competitor monitoring, market intelligence</li>
-                <li><strong className="text-white">Custom Integrations:</strong> CRM integration, analytics dashboards, reporting systems</li>
-              </ul>
-
-              <h3 className="text-2xl font-semibold text-white mb-4">Who Needs Enterprise-Level Optimization</h3>
-
-              <p className="mb-4">Enterprise packages are appropriate for:</p>
-              <ul className="space-y-2 pl-6 list-disc mb-6">
-                <li>Multi-location businesses (5+ locations)</li>
-                <li>Franchise operations</li>
-                <li>Businesses with 10+ distinct service specialties</li>
-                <li>Companies operating in highly competitive markets</li>
-                <li>Organizations with $5M+ annual revenue</li>
-                <li>Brands requiring ongoing competitive dominance</li>
-              </ul>
-
-              <h3 className="text-2xl font-semibold text-white mb-4">Pricing Structure</h3>
-
-              <p className="mb-4">Enterprise pricing typically follows one of two models:</p>
-
-              <div className="bg-white/[0.03] border border-white/[0.08] rounded-xl p-6 mb-4">
-                <p className="font-semibold text-white mb-3">Model 1: Fixed-Scope Project</p>
-                <ul className="space-y-1 pl-6 list-disc">
-                  <li>Upfront investment: $25,000–$50,000</li>
-                  <li>Includes: Complete content buildout, technical implementation, 6-month monitoring</li>
-                  <li>Optional maintenance: $2,000–$5,000/month after initial project</li>
-                </ul>
-              </div>
-
-              <div className="bg-white/[0.03] border border-white/[0.08] rounded-xl p-6 mb-4">
-                <p className="font-semibold text-white mb-3">Model 2: Ongoing Retainer</p>
-                <ul className="space-y-1 pl-6 list-disc">
-                  <li>Monthly retainer: $5,000–$15,000/month</li>
-                  <li>Includes: Continuous content creation, optimization, monitoring, strategic consulting</li>
-                  <li>Minimum commitment: 12 months</li>
-                  <li>Total first-year investment: $60,000–$180,000</li>
-                </ul>
-              </div>
-
-              <h3 className="text-2xl font-semibold text-white mb-4">ROI Considerations for Enterprise</h3>
-
-              <p className="mb-4">For enterprise-level businesses, the ROI calculation is fundamentally different:</p>
-
-              <div className="bg-white/[0.03] border border-white/[0.08] rounded-xl p-6">
-                <p className="mb-3"><strong className="text-white">Example:</strong> Multi-location HVAC company with 10 locations</p>
-                <ul className="space-y-2 pl-6 list-disc">
-                  <li>Enterprise investment: $50,000</li>
-                  <li>Average customer value: $5,000</li>
-                  <li>AI-driven leads per month: 15–25 across all locations</li>
-                  <li>Conversion rate: 40%</li>
-                  <li>New monthly revenue from AI citations: $30,000–$50,000</li>
-                  <li><strong className="text-white">ROI timeline: 1–2 months</strong></li>
-                  <li><strong className="text-white">First-year return: 6x–10x investment</strong></li>
-                </ul>
-              </div>
-
-              <p className="mt-6">When you're operating at scale, the cost per location for enterprise packages is often lower than individual location optimization, while maintaining consistent quality and brand voice across all properties.</p>
+            <div className="ae-stat-card">
+              <div className="ae-stat-emoji">📍</div>
+              <div className="ae-stat-value ae-accent">5+</div>
+              <div className="ae-stat-label">LOCATIONS COVERED</div>
             </div>
-          </section>
+            <div className="ae-stat-card">
+              <div className="ae-stat-emoji">🔄</div>
+              <div className="ae-stat-value ae-accent">Quarterly</div>
+              <div className="ae-stat-label">CONTENT REFRESH</div>
+            </div>
+            <div className="ae-stat-card">
+              <div className="ae-stat-emoji">🤝</div>
+              <div className="ae-stat-value ae-accent">Dedicated</div>
+              <div className="ae-stat-label">ACCOUNT MANAGER</div>
+            </div>
+          </div>
 
-          {/* Separator */}
-          <div className="max-w-xs mx-auto h-px bg-gradient-to-r from-transparent via-white/[0.06] to-transparent mb-16" />
+          <h3>Enterprise Pricing Models</h3>
+
+          <div className="not-prose ae-pros-cons">
+            <div className="ae-pros-box">
+              <div className="ae-pros-title">Model 1: Fixed-Scope Project ($25K to $50K)</div>
+              <ul>
+                <li>Complete content buildout for all locations</li>
+                <li>Technical implementation across all properties</li>
+                <li>6-month monitoring and optimization</li>
+                <li>Optional maintenance: $2,000 to $5,000/month after initial project</li>
+              </ul>
+            </div>
+            <div className="ae-cons-box">
+              <div className="ae-cons-title">Model 2: Ongoing Retainer ($5K to $15K/mo)</div>
+              <ul>
+                <li>Continuous content creation and optimization</li>
+                <li>Monthly monitoring and strategic consulting</li>
+                <li>12-month minimum commitment required</li>
+                <li>First-year total: $60,000 to $180,000</li>
+              </ul>
+            </div>
+          </div>
+
+          <div className="not-prose ae-callout ae-callout-success">
+            <div className="ae-callout-title">Enterprise ROI Example</div>
+            <p>Multi-location HVAC company with 10 locations. Enterprise investment: $50,000. Average customer value: $5,000. AI-driven leads per month: 15 to 25 across all locations. Conversion rate: 40%. New monthly revenue from AI citations: $30,000 to $50,000. ROI timeline: 1 to 2 months. First-year return: 6x to 10x the investment.</p>
+          </div>
+
+          <div className="not-prose ae-cta-inline">
+            <p>Managing multiple locations? Find out which ones AI is already recommending.</p>
+            <Link href="/blindspot">Get Your Multi-Location AI Audit</Link>
+          </div>
 
           {/* Section 5: Cost Comparison */}
-          <section className="mb-16">
-            <h2 className="text-3xl sm:text-4xl font-semibold mb-6 text-white">
-              ChatGPT Optimization vs Traditional Marketing: Cost Comparison
-            </h2>
+          <span className="not-prose ae-section-label">Cost Comparison</span>
+          <h2>ChatGPT Optimization vs Traditional Marketing: Cost Comparison</h2>
 
-            <div className="bg-white/[0.03] border-l-4 border-white/[0.08]/50 p-6 rounded-r-xl mb-8">
-              <p className="text-white/40 font-semibold mb-2">Direct Answer:</p>
-              <p className="text-gray-300 leading-relaxed">
-                Traditional SEO agencies charge $2,000–$5,000 per month ($24K–$60K annually) for ongoing services. ChatGPT optimization is a one-time investment ($2,997–$8,988 for most businesses) that creates evergreen content working 24/7 for years. The cost per article is also significantly lower: $428–$499 vs $500–$1,500 for standard content marketing agencies, while delivering AI-optimized strategic architecture they don't provide.
-              </p>
+          <p>Traditional SEO agencies charge $2,000 to $5,000 per month ($24K to $60K annually) for ongoing services. ChatGPT optimization is a one-time investment ($2,997 to $8,988 for most businesses) that creates evergreen content working 24/7 for years.</p>
+
+          <div className="not-prose">
+            <table className="ae-comparison-table">
+              <thead>
+                <tr>
+                  <th>Marketing Approach</th>
+                  <th>Typical Cost</th>
+                  <th>Annual Investment</th>
+                  <th>AEO Advantage</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Traditional SEO Agency</td>
+                  <td>$2,000 to $5,000/month</td>
+                  <td>$24,000 to $60,000</td>
+                  <td>One-time investment, evergreen</td>
+                </tr>
+                <tr>
+                  <td>Content Marketing Agency</td>
+                  <td>$500 to $1,500 per article</td>
+                  <td>$3,500 to $10,500 (for 7)</td>
+                  <td>$428/article with strategic architecture</td>
+                </tr>
+                <tr>
+                  <td>Google Ads (PPC)</td>
+                  <td>$2,000 to $10,000/month</td>
+                  <td>$24,000 to $120,000</td>
+                  <td>No ongoing ad spend, organic citations</td>
+                </tr>
+                <tr>
+                  <td><strong>ChatGPT Optimization (TAE)</strong></td>
+                  <td><strong>$2,997 (one-time)</strong></td>
+                  <td><strong>$2,997 total</strong></td>
+                  <td><strong>Works for years, no recurring cost</strong></td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+
+          <div className="not-prose ae-takeaway">
+            <div className="ae-takeaway-title">Why AEO Costs Less Than SEO</div>
+            <p>Traditional SEO agencies charge monthly because they fight continuous algorithm changes, compete for backlinks, and manage technical updates. AI platforms evaluate content based on meaning and expertise, not backlinks. Once published with proper schema, it keeps working without ongoing maintenance. AEO is a capital investment (like building a website), not an operating expense (like advertising).</p>
+          </div>
+
+          <div className="not-prose ae-quote">
+            <p>&quot;Most businesses spend $24,000 to $60,000 per year on SEO that AI platforms ignore. One $2,997 investment in AEO keeps producing results for years.&quot;</p>
+          </div>
+
+          <h3>Cost-Per-Article Analysis</h3>
+
+          <div className="not-prose ae-bar-group">
+            <div className="ae-bar-item">
+              <div className="ae-bar-label">Content Marketing Agency (per article)</div>
+              <div className="ae-bar-track"><div className="ae-bar-fill" style={{ width: '100%' }} /></div>
+              <div className="ae-bar-value">$500 to $1,500</div>
             </div>
-
-            {/* Comparison Table */}
-            <div className="overflow-x-auto mb-8">
-              <table className="w-full bg-white/[0.03] border border-white/[0.1] rounded-xl overflow-hidden">
-                <thead className="bg-white/[0.05]">
-                  <tr>
-                    <th className="px-6 py-4 text-left text-sm font-semibold text-white">Marketing Approach</th>
-                    <th className="px-6 py-4 text-left text-sm font-semibold text-white">Typical Cost</th>
-                    <th className="px-6 py-4 text-left text-sm font-semibold text-white">Annual Investment</th>
-                    <th className="px-6 py-4 text-left text-sm font-semibold text-white">Our Advantage</th>
-                  </tr>
-                </thead>
-                <tbody className="divide-y divide-white/[0.05]">
-                  <tr>
-                    <td className="px-6 py-4 font-medium text-white">Traditional SEO Agency</td>
-                    <td className="px-6 py-4 text-gray-300">$2,000–$5,000/month</td>
-                    <td className="px-6 py-4 text-gray-300">$24,000–$60,000</td>
-                    <td className="px-6 py-4 text-gray-300">One-time investment, evergreen content, AI-first</td>
-                  </tr>
-                  <tr>
-                    <td className="px-6 py-4 font-medium text-white">Content Marketing Agency</td>
-                    <td className="px-6 py-4 text-gray-300">$500–$1,500 per article</td>
-                    <td className="px-6 py-4 text-gray-300">Foundation = $3,500–$10,500</td>
-                    <td className="px-6 py-4 text-gray-300">$428/article, strategic architecture, voice capture, AI optimization</td>
-                  </tr>
-                  <tr>
-                    <td className="px-6 py-4 font-medium text-white">Google Ads (PPC)</td>
-                    <td className="px-6 py-4 text-gray-300">$2,000–$10,000/month</td>
-                    <td className="px-6 py-4 text-gray-300">$24,000–$120,000</td>
-                    <td className="px-6 py-4 text-gray-300">No ongoing ad spend, organic AI citations</td>
-                  </tr>
-                  <tr>
-                    <td className="px-6 py-4 font-medium text-white">ChatGPT Optimization (TAE)</td>
-                    <td className="px-6 py-4 text-gray-300">$2,997 (one-time)</td>
-                    <td className="px-6 py-4 text-gray-300">$2,997 total</td>
-                    <td className="px-6 py-4 text-gray-300">Works for years, no recurring cost</td>
-                  </tr>
-                </tbody>
-              </table>
+            <div className="ae-bar-item">
+              <div className="ae-bar-label">Foundation Package (per article)</div>
+              <div className="ae-bar-track"><div className="ae-bar-fill" style={{ width: '43%' }} /></div>
+              <div className="ae-bar-value">$428</div>
             </div>
-
-            <div className="text-gray-300 space-y-4 leading-relaxed">
-              <h3 className="text-2xl font-semibold text-white mb-4">Why Professional AEO Costs Less Than Traditional SEO</h3>
-
-              <p>This seems counterintuitive, but there's a clear reason: traditional SEO agencies charge ongoing monthly fees because they're fighting continuous algorithm changes, competing for backlinks, and managing technical SEO updates.</p>
-
-              <p className="font-semibold text-white">ChatGPT optimization is different:</p>
-              <ul className="space-y-2 pl-6 list-disc mb-4">
-                <li>Content is evaluated based on meaning and expertise, not backlinks</li>
-                <li>Once published with proper schema markup, it continues working without ongoing maintenance</li>
-                <li>AI platforms reward genuine expertise, which doesn't require constant "optimization"</li>
-                <li>The content is evergreen—comprehensive expert knowledge doesn't become outdated quickly</li>
-              </ul>
-
-              <p>This makes AEO a capital investment (like building a website) rather than an operating expense (like advertising).</p>
-
-              <h3 className="text-2xl font-semibold text-white mb-4 mt-8">Cost-Per-Article Analysis</h3>
-
-              <div className="bg-white/[0.03] border border-white/[0.08] rounded-xl p-6">
-                <p className="mb-4"><strong className="text-white">Content Marketing Agency:</strong></p>
-                <ul className="space-y-1 pl-6 list-disc mb-6">
-                  <li>Typical blog post: $500–$1,500 per article</li>
-                  <li>7 articles: $3,500–$10,500</li>
-                  <li>What you get: Generic content, no schema optimization, no voice capture, no strategic architecture, no AI citation focus</li>
-                </ul>
-
-                <p className="mb-4"><strong className="text-white">The Answer Engine Foundation Package:</strong></p>
-                <ul className="space-y-1 pl-6 list-disc mb-6">
-                  <li>7 articles: $2,997 total</li>
-                  <li>Cost per article: $428</li>
-                  <li>What you get: Voice-captured authentic expertise, AERO-6 framework optimization, hub-and-spoke strategic architecture, complete schema markup, 95%+ quality audit scores, 90-day AI citation monitoring</li>
-                </ul>
-
-                <p className="text-white font-semibold">You save $500–$7,500 while getting significantly more value and expertise.</p>
-              </div>
+            <div className="ae-bar-item">
+              <div className="ae-bar-label">Authority 2x (per article)</div>
+              <div className="ae-bar-track"><div className="ae-bar-fill" style={{ width: '38%' }} /></div>
+              <div className="ae-bar-value">$385</div>
             </div>
-          </section>
+            <div className="ae-bar-item">
+              <div className="ae-bar-label">Market Leader 4x (per article)</div>
+              <div className="ae-bar-track"><div className="ae-bar-fill" style={{ width: '32%' }} /></div>
+              <div className="ae-bar-value">$321</div>
+            </div>
+          </div>
 
-          {/* Separator */}
-          <div className="max-w-xs mx-auto h-px bg-gradient-to-r from-transparent via-white/[0.06] to-transparent mb-16" />
+          <div className="not-prose ae-callout ae-callout-warning">
+            <div className="ae-callout-title">The Math Is Clear</div>
+            <p>You save $500 to $7,500 compared to content agencies while getting significantly more value: voice capture, strategic architecture, schema markup, quality audits, and AI citation monitoring. Content agencies do not provide any of those services.</p>
+          </div>
+
+          <div className="not-prose ae-cta-inline">
+            <p>See the gap between where you are and where your competitors rank in AI search.</p>
+            <Link href="/blindspot">Run Your Free Blind Spot Report</Link>
+          </div>
 
           {/* Section 6: ROI & Timeline */}
-          <section className="mb-16">
-            <h2 className="text-3xl sm:text-4xl font-semibold mb-6 text-white">
-              ROI Timeline: When Does ChatGPT Optimization Pay For Itself?
-            </h2>
+          <span className="not-prose ae-section-label">ROI Timeline</span>
+          <h2>ROI Timeline: When Does ChatGPT Optimization Pay For Itself?</h2>
 
-            <div className="bg-white/[0.03] border-l-4 border-white/[0.08]/50 p-6 rounded-r-xl mb-8">
-              <p className="text-white/40 font-semibold mb-2">Direct Answer:</p>
-              <p className="text-gray-300 leading-relaxed">
-                Most businesses see initial AI citations within 30–90 days post-publication. For the Foundation package at $2,997, if you generate just 1 new client per month from AI platforms, ROI is achieved in 1–3 months depending on your average client value ($1,000–$3,000+ typical for local services). The content continues working 24/7 for years, providing ongoing returns long after the initial investment.
-              </p>
+          <p>Most businesses see initial AI citations within 30 to 90 days post-publication. For the Foundation package at $2,997, if you generate just 1 new client per month from AI platforms, ROI is achieved in 1 to 3 months depending on your average client value.</p>
+
+          <div className="not-prose ae-timeline">
+            <div className="ae-timeline-item">
+              <strong>Weeks 1 to 6:</strong> Content creation phase. Voice capture interview, article writing, schema implementation, quality audits to 95%+ scores.
             </div>
-
-            <div className="text-gray-300 space-y-4 leading-relaxed">
-              <h3 className="text-2xl font-semibold text-white mb-4">Timeline to Results</h3>
-
-              <div className="space-y-4 mb-8">
-                <div className="bg-white/[0.03] border-l-4 border-white/[0.08] rounded-r-xl p-6">
-                  <p className="font-semibold text-white mb-2">Weeks 1–6: Content Creation</p>
-                  <p>Voice capture interview, article drafting, multi-round audits, client review, final optimization, publication with schema markup.</p>
-                </div>
-
-                <div className="bg-white/[0.03] border-l-4 border-white/[0.08] rounded-r-xl p-6">
-                  <p className="font-semibold text-white mb-2">Weeks 7–10: AI Platform Indexing</p>
-                  <p>AI platforms discover and analyze your content. Search engines index pages. Schema markup processed. Entity recognition established.</p>
-                </div>
-
-                <div className="bg-white/[0.03] border-l-4 border-white/[0.08] rounded-r-xl p-6">
-                  <p className="font-semibold text-white mb-2">Weeks 11–14: Initial Citations Begin</p>
-                  <p>First ChatGPT citations appear. Testing shows your business being recommended. Claude and Perplexity citations follow. Citation frequency increases.</p>
-                </div>
-
-                <div className="bg-white/[0.03] border-l-4 border-white/[0.08] rounded-r-xl p-6">
-                  <p className="font-semibold text-white mb-2">Months 4–6: Citation Dominance</p>
-                  <p>Consistent citations across all AI platforms. Competitors unable to displace your authority. Lead volume from AI platforms stabilizes. ROI typically achieved during this period.</p>
-                </div>
-              </div>
-
-              <h3 className="text-2xl font-semibold text-white mb-4">ROI Calculations by Package</h3>
-
-              {/* Foundation ROI */}
-              <div className="bg-gradient-to-br from-white/[0.02] to-white/[0.02] border border-white/[0.08] rounded-xl p-6 mb-6">
-                <p className="font-semibold text-white mb-4">Foundation Package ($2,997)</p>
-                <ul className="space-y-3 pl-6 list-disc">
-                  <li>
-                    <strong className="text-white">If average client value is $1,000:</strong>
-                    <ul className="space-y-1 pl-6 list-disc mt-2">
-                      <li>Need 3 clients from AI citations to break even</li>
-                      <li>At 1 client/month: ROI in 3 months</li>
-                      <li>Year 1 return: $12,000 revenue from $2,997 investment = 300% ROI</li>
-                    </ul>
-                  </li>
-                  <li>
-                    <strong className="text-white">If average client value is $3,000:</strong>
-                    <ul className="space-y-1 pl-6 list-disc mt-2">
-                      <li>Need 1 client from AI citations to break even</li>
-                      <li>At 1 client/month: ROI in 1 month</li>
-                      <li>Year 1 return: $36,000 revenue from $2,997 investment = 1,100% ROI</li>
-                    </ul>
-                  </li>
-                  <li>
-                    <strong className="text-white">If average client value is $10,000+ (high-value services):</strong>
-                    <ul className="space-y-1 pl-6 list-disc mt-2">
-                      <li>Break even with first AI-driven client</li>
-                      <li>Every subsequent client is pure profit</li>
-                      <li>Year 1 return: Potentially 10x–30x investment</li>
-                    </ul>
-                  </li>
-                </ul>
-              </div>
-
-              {/* Market Leader ROI */}
-              <div className="bg-gradient-to-br from-white/[0.02] to-white/[0.02] border border-white/[0.08] rounded-xl p-6 mb-6">
-                <p className="font-semibold text-white mb-4">Market Leader Package ($8,988)</p>
-                <ul className="space-y-3 pl-6 list-disc">
-                  <li>
-                    <strong className="text-white">Cost per article:</strong> $321 (25% discount vs. individual packages)
-                  </li>
-                  <li>
-                    <strong className="text-white">24 pieces of evergreen authority content</strong>
-                  </li>
-                  <li>
-                    <strong className="text-white">Comprehensive market coverage</strong>
-                  </li>
-                  <li>
-                    <strong className="text-white">If generating 2–3 new clients/month:</strong>
-                    <ul className="space-y-1 pl-6 list-disc mt-2">
-                      <li>At $3,000 average client value: ROI in 1–2 months</li>
-                      <li>Year 1 return: $72,000–$108,000 from $8,988 investment</li>
-                      <li>8x–12x return in first year</li>
-                    </ul>
-                  </li>
-                </ul>
-              </div>
-
-              <h3 className="text-2xl font-semibold text-white mb-4 mt-8">Long-Term Value Perspective</h3>
-
-              <p>Unlike paid advertising (which stops the moment you stop paying), ChatGPT optimization content works continuously:</p>
-
-              <div className="bg-white/[0.03] border border-white/[0.08] rounded-xl p-6">
-                <p className="mb-4"><strong className="text-white">5-Year Value Projection (Foundation Package):</strong></p>
-                <ul className="space-y-2 pl-6 list-disc">
-                  <li>One-time investment: $2,997</li>
-                  <li>Conservative estimate: 1 client/month from AI citations</li>
-                  <li>Average client value: $2,000</li>
-                  <li>5-year client acquisition: 60 clients</li>
-                  <li><strong className="text-white">Total 5-year value: $120,000 from $2,997 investment</strong></li>
-                  <li><strong className="text-white">40x return over 5 years</strong></li>
-                </ul>
-              </div>
-
-              <p className="mt-6">This calculation assumes zero growth in AI platform usage (unlikely—ChatGPT alone grew from 0 to 100M users in 18 months) and no improvement in your citation rates over time (also unlikely as your authority builds).</p>
+            <div className="ae-timeline-item">
+              <strong>Weeks 7 to 10:</strong> AI platform indexing phase. Content gets discovered and analyzed by ChatGPT, Claude, Perplexity, and Gemini.
             </div>
-          </section>
+            <div className="ae-timeline-item">
+              <strong>Weeks 11 to 14:</strong> Initial citations begin appearing. Your business starts getting recommended in relevant AI queries.
+            </div>
+            <div className="ae-timeline-item">
+              <strong>Months 4 to 6:</strong> Citation dominance. Consistent recommendations across multiple AI platforms for your target queries.
+            </div>
+          </div>
 
-          {/* Separator */}
-          <div className="max-w-xs mx-auto h-px bg-gradient-to-r from-transparent via-white/[0.06] to-transparent mb-16" />
+          <div className="not-prose ae-bar-group">
+            <div className="ae-bar-item">
+              <div className="ae-bar-label">Weeks 1 to 6: Content Creation</div>
+              <div className="ae-bar-track"><div className="ae-bar-fill" style={{ width: '25%' }} /></div>
+              <div className="ae-bar-value">Building</div>
+            </div>
+            <div className="ae-bar-item">
+              <div className="ae-bar-label">Weeks 7 to 10: AI Platform Indexing</div>
+              <div className="ae-bar-track"><div className="ae-bar-fill" style={{ width: '50%' }} /></div>
+              <div className="ae-bar-value">Indexing</div>
+            </div>
+            <div className="ae-bar-item">
+              <div className="ae-bar-label">Weeks 11 to 14: Initial Citations Begin</div>
+              <div className="ae-bar-track"><div className="ae-bar-fill" style={{ width: '75%' }} /></div>
+              <div className="ae-bar-value">Citations</div>
+            </div>
+            <div className="ae-bar-item">
+              <div className="ae-bar-label">Months 4 to 6: Citation Dominance</div>
+              <div className="ae-bar-track"><div className="ae-bar-fill" style={{ width: '100%' }} /></div>
+              <div className="ae-bar-value">Dominance</div>
+            </div>
+          </div>
+
+          <h3>ROI Calculations by Client Value</h3>
+
+          <div className="not-prose ae-cheat-sheet">
+            <div className="ae-cheat-sheet-title">Foundation Package ($2,997) ROI Scenarios</div>
+            <table>
+              <thead>
+                <tr>
+                  <th>Avg Client Value</th>
+                  <th>Clients to Break Even</th>
+                  <th>Break Even At 1/mo</th>
+                  <th>Year 1 ROI</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>$1,000</td>
+                  <td>3 clients</td>
+                  <td>3 months</td>
+                  <td>300% ($12,000)</td>
+                </tr>
+                <tr>
+                  <td>$3,000</td>
+                  <td>1 client</td>
+                  <td>1 month</td>
+                  <td>1,100% ($36,000)</td>
+                </tr>
+                <tr>
+                  <td>$10,000+</td>
+                  <td>1 client</td>
+                  <td>Immediate</td>
+                  <td>10x to 30x</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+
+          <div className="not-prose ae-callout ae-callout-success">
+            <div className="ae-callout-title">5-Year Value Projection</div>
+            <p>One-time investment: $2,997. Conservative estimate: 1 client/month from AI citations. Average client value: $2,000. 5-year client acquisition: 60 clients. Total 5-year value: $120,000 from a $2,997 investment. That is a 40x return over 5 years. And this assumes zero growth in AI platform usage, which is highly unlikely given ChatGPT alone grew from 0 to 100 million users in 18 months.</p>
+          </div>
+
+          <div className="not-prose ae-cta-inline">
+            <p>Discover exactly how many leads AI is sending to your competitors right now.</p>
+            <Link href="/blindspot">Get Your Free Blind Spot Report</Link>
+          </div>
 
           {/* Section 7: Red Flags */}
-          <section className="mb-16">
-            <h2 className="text-3xl sm:text-4xl font-semibold mb-6 text-white">
-              Pricing Red Flags: What to Avoid When Evaluating AEO Providers
-            </h2>
+          <span className="not-prose ae-section-label">Red Flags</span>
+          <h2>Pricing Red Flags: What to Avoid When Evaluating AEO Providers</h2>
 
-            <div className="bg-white/[0.03] border-l-4 border-white/[0.08]/50 p-6 rounded-r-xl mb-8">
-              <p className="text-white/40 font-semibold mb-2">Direct Answer:</p>
-              <p className="text-gray-300 leading-relaxed">
-                Major red flags include guaranteed #1 rankings (AI platforms don't have rankings), pay-per-performance pricing (indicates lack of confidence in methodology), cheap bulk article packages under $1,000 (quality insufficient for AI citation), no voice capture process (generic content won't demonstrate authentic expertise), promises of immediate results (AI indexing takes 30–90 days), and lack of schema markup implementation (critical for AI platform recognition).
-              </p>
-            </div>
+          <p>Major red flags include guaranteed #1 rankings, pay-per-performance pricing, cheap bulk article packages, no voice capture process, promises of immediate results, and lack of schema markup. Here is what to watch for.</p>
 
-            <div className="text-gray-300 space-y-6 leading-relaxed">
-              <div className="bg-red-900/10 border-l-4 border-red-500 rounded-r-xl p-6">
-                <p className="font-semibold text-red-400 mb-3">🚩 Red Flag #1: "Guaranteed #1 Rankings in ChatGPT"</p>
-                <p className="mb-2"><strong className="text-white">Why this is a problem:</strong> ChatGPT doesn't have rankings. It selects 3–5 businesses it deems most trustworthy for each query. Any provider promising "#1 rankings" fundamentally misunderstands how AI platforms work.</p>
-                <p><strong className="text-white">What to look for instead:</strong> Providers who discuss citation probability, authority building, and comprehensive expertise demonstration—not ranking positions.</p>
-              </div>
+          <div className="not-prose ae-callout ae-callout-warning">
+            <div className="ae-callout-title">Red Flag #1: &quot;Guaranteed #1 Rankings in ChatGPT&quot;</div>
+            <p>ChatGPT does not have rankings. It selects 3 to 5 businesses it deems most trustworthy for each query. Any provider promising &quot;#1 rankings&quot; fundamentally misunderstands how AI platforms work. Look for providers who discuss citation probability, authority building, and comprehensive expertise demonstration instead.</p>
+          </div>
 
-              <div className="bg-red-900/10 border-l-4 border-red-500 rounded-r-xl p-6">
-                <p className="font-semibold text-red-400 mb-3">🚩 Red Flag #2: Pay-Per-Performance Pricing</p>
-                <p className="mb-2"><strong className="text-white">Why this is a problem:</strong> "We only charge when you get citations" sounds attractive but usually indicates the provider lacks confidence in their methodology. They're hedging because they know results are uncertain. This also creates incentive misalignment—the provider profits from quantity of citations, not quality of clients.</p>
-                <p><strong className="text-white">What to look for instead:</strong> Fixed-scope projects with clear deliverables, quality standards, and realistic timeline expectations. Providers confident in their process charge upfront.</p>
-              </div>
+          <div className="not-prose ae-callout ae-callout-warning">
+            <div className="ae-callout-title">Red Flag #2: Pay-Per-Performance Pricing</div>
+            <p>&quot;We only charge when you get citations&quot; sounds attractive but usually indicates the provider lacks confidence in their methodology. They are hedging because they know results are uncertain. This also creates incentive misalignment. Look for fixed-scope projects with clear deliverables and quality standards instead.</p>
+          </div>
 
-              <div className="bg-red-900/10 border-l-4 border-red-500 rounded-r-xl p-6">
-                <p className="font-semibold text-red-400 mb-3">🚩 Red Flag #3: Bulk Article Packages Under $1,000</p>
-                <p className="mb-2"><strong className="text-white">Why this is a problem:</strong> "50 AI-optimized articles for $997!" These are AI-generated bulk content farms. ChatGPT detects generic, fabricated content instantly. These articles won't earn citations and may actually harm your credibility.</p>
-                <p><strong className="text-white">What to look for instead:</strong> Providers who emphasize quality over quantity, include voice capture for authentic expertise, and have multi-round audit processes. Real expertise costs more than $20/article to capture and produce.</p>
-              </div>
+          <div className="not-prose ae-callout ae-callout-warning">
+            <div className="ae-callout-title">Red Flag #3: Bulk Article Packages Under $1,000</div>
+            <p>&quot;50 AI-optimized articles for $997!&quot; These are AI-generated bulk content farms. ChatGPT detects generic, fabricated content instantly. These articles will not earn citations and may actually harm your credibility. Real expertise costs more than $20/article to capture and produce.</p>
+          </div>
 
-              <div className="bg-red-900/10 border-l-4 border-red-500 rounded-r-xl p-6">
-                <p className="font-semibold text-red-400 mb-3">🚩 Red Flag #4: No Voice Capture or Interview Process</p>
-                <p className="mb-2"><strong className="text-white">Why this is a problem:</strong> If a provider doesn't interview you or capture your expertise directly, they're writing generic content based on web research. AI platforms detect this immediately. Authentic expertise requires actually talking to experts.</p>
-                <p><strong className="text-white">What to look for instead:</strong> Providers with structured interview processes (60–90 minutes), transcript processing, and voice authenticity preservation in final content.</p>
-              </div>
+          <div className="not-prose ae-callout ae-callout-warning">
+            <div className="ae-callout-title">Red Flag #4: No Voice Capture or Interview Process</div>
+            <p>If a provider does not interview you or capture your expertise directly, they are writing generic content based on web research. AI platforms detect this immediately. Authentic expertise requires actually talking to the expert. Look for structured interview processes (60 to 90 minutes) with transcript processing.</p>
+          </div>
 
-              <div className="bg-red-900/10 border-l-4 border-red-500 rounded-r-xl p-6">
-                <p className="font-semibold text-red-400 mb-3">🚩 Red Flag #5: "Results in 7–14 Days"</p>
-                <p className="mb-2"><strong className="text-white">Why this is a problem:</strong> AI platforms need time to discover, analyze, and index your content. Anyone promising citations within 2 weeks either doesn't understand the process or is lying. Real timeline is 30–90 days for initial citations.</p>
-                <p><strong className="text-white">What to look for instead:</strong> Realistic timelines (6 weeks for content creation + 30–90 days for AI indexing) with clear milestone expectations.</p>
-              </div>
+          <div className="not-prose ae-cta-inline">
+            <p>Want straight answers about your AI visibility? No sales pitch, just data.</p>
+            <a href="mailto:support@theanswerengine.ai">Email support@theanswerengine.ai</a>
+          </div>
 
-              <div className="bg-red-900/10 border-l-4 border-red-500 rounded-r-xl p-6">
-                <p className="font-semibold text-red-400 mb-3">🚩 Red Flag #6: No Schema Markup Implementation</p>
-                <p className="mb-2"><strong className="text-white">Why this is a problem:</strong> Schema markup is critical for AI platforms to understand and parse your content reliably. Providers who don't include schema implementation are leaving out a foundational element of AEO.</p>
-                <p><strong className="text-white">What to look for instead:</strong> Explicit inclusion of JSON-LD schema markup (Article, FAQPage, HowTo, LocalBusiness) in all packages. Ask to see example implementations.</p>
-              </div>
+          <div className="not-prose ae-callout ae-callout-warning">
+            <div className="ae-callout-title">Red Flag #5: &quot;Results in 7 to 14 Days&quot;</div>
+            <p>AI platforms need time to discover, analyze, and index your content. Anyone promising citations within 2 weeks either does not understand the process or is misrepresenting results. Real timeline: 6 weeks for content creation plus 30 to 90 days for AI indexing.</p>
+          </div>
 
-              <div className="bg-red-900/10 border-l-4 border-red-500 rounded-r-xl p-6">
-                <p className="font-semibold text-red-400 mb-3">🚩 Red Flag #7: Monthly Retainer Required for Basic Service</p>
-                <p className="mb-2"><strong className="text-white">Why this is a problem:</strong> Some providers structure AEO like traditional SEO with ongoing monthly fees for basic optimization. This is unnecessary—once quality content is published with proper schema, it works continuously without monthly optimization.</p>
-                <p><strong className="text-white">What to look for instead:</strong> One-time project pricing for content creation and implementation. Monthly retainers should only apply to enterprise-level ongoing content production or active competitive monitoring—not basic optimization maintenance.</p>
-              </div>
+          <div className="not-prose ae-callout ae-callout-warning">
+            <div className="ae-callout-title">Red Flag #6: No Schema Markup Implementation</div>
+            <p>Schema markup is critical for AI platforms to understand and parse your content reliably. Providers who do not include schema implementation are leaving out a foundational element of AEO. Ask to see example JSON-LD implementations (Article, FAQPage, HowTo, LocalBusiness).</p>
+          </div>
 
-              <div className="bg-red-900/10 border-l-4 border-red-500 rounded-r-xl p-6">
-                <p className="font-semibold text-red-400 mb-3">🚩 Red Flag #8: No Quality Audit Process</p>
-                <p className="mb-2"><strong className="text-white">Why this is a problem:</strong> If the provider doesn't mention quality audits, scoring systems, or multi-round reviews, they're likely producing first-draft content without verification. AI platforms reward excellence—mediocre content gets ignored.</p>
-                <p><strong className="text-white">What to look for instead:</strong> Providers with explicit quality frameworks (like our AERO-6), defined score thresholds (we require 95%+), and multi-round refinement processes before publication.</p>
-              </div>
+          <div className="not-prose ae-callout ae-callout-warning">
+            <div className="ae-callout-title">Red Flag #7: Monthly Retainer Required for Basic Service</div>
+            <p>Some providers structure AEO like traditional SEO with ongoing monthly fees for basic optimization. This is unnecessary. Once quality content is published with proper schema, it works continuously without monthly optimization. Monthly retainers should only apply to enterprise-level ongoing content production.</p>
+          </div>
 
-              <h3 className="text-2xl font-semibold text-white mb-4 mt-8">Questions to Ask Any AEO Provider</h3>
+          <div className="not-prose ae-callout ae-callout-warning">
+            <div className="ae-callout-title">Red Flag #8: No Quality Audit Process</div>
+            <p>If the provider does not mention quality audits, scoring systems, or multi-round reviews, they are likely producing first-draft content without verification. AI platforms reward excellence. Mediocre content gets ignored. Look for explicit quality frameworks with defined score thresholds and multi-round refinement.</p>
+          </div>
 
-              <div className="bg-white/[0.03] border border-white/[0.08] rounded-xl p-6">
-                <ul className="space-y-3 pl-6 list-disc">
-                  <li><strong className="text-white">"How do you capture my authentic expertise?"</strong> (Look for: structured interview process, transcript analysis, voice preservation)</li>
-                  <li><strong className="text-white">"What quality control process do you use?"</strong> (Look for: multi-round audits, scoring frameworks, defined thresholds)</li>
-                  <li><strong className="text-white">"What schema markup do you implement?"</strong> (Look for: specific schema types, JSON-LD implementation, validation process)</li>
-                  <li><strong className="text-white">"What's a realistic timeline for initial citations?"</strong> (Look for: 6 weeks content + 30-90 days indexing, not "7-14 days")</li>
-                  <li><strong className="text-white">"Can you show me examples of your work?"</strong> (Look for: real client examples, citation documentation, before/after comparisons)</li>
-                  <li><strong className="text-white">"What's included in your pricing?"</strong> (Look for: transparent breakdown, no hidden fees, clear deliverables)</li>
-                  <li><strong className="text-white">"How do you measure success?"</strong> (Look for: AI citation tracking, not just "traffic" or vague metrics)</li>
-                </ul>
-              </div>
-            </div>
-          </section>
+          <div className="not-prose ae-cta-inline">
+            <p>Before talking to any AEO provider, know exactly where you stand in AI search.</p>
+            <Link href="/blindspot">Get Your Free Blind Spot Report</Link>
+          </div>
 
-          {/* Separator */}
-          <div className="max-w-xs mx-auto h-px bg-gradient-to-r from-transparent via-white/[0.06] to-transparent mb-16" />
+          <h3>Questions to Ask Any AEO Provider</h3>
 
-          {/* CTA Section */}
-          <div className="rounded-2xl p-8 sm:p-10 text-center my-16" style={{ background: 'linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%)' }}>
-            <h2 className="text-2xl sm:text-3xl font-bold text-white mb-4 font-plus-jakarta">Find Out If AI Is Recommending Your Business</h2>
-            <p className="text-gray-300 mb-6 max-w-2xl mx-auto">Most businesses have no idea whether AI platforms are sending them customers or sending them to competitors. Our free blind spot report shows you exactly where you stand.</p>
-            <Link href="/blindspot" className="inline-block px-8 py-4 rounded-lg font-semibold text-white transition-all duration-200 hover:brightness-110" style={{ backgroundColor: '#FF6A00' }}>Get Your Free Blind Spot Report</Link>
-    <div className="flex flex-wrap items-center gap-6 mt-6 pt-6 border-t border-[#FF6A00]/10">
-      <a href="tel:+12134442229" className="flex items-center gap-2 text-gray-400 hover:text-white transition-colors">
-        <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" /></svg>
-        (213) 444-2229
-      </a>
-      <a href="mailto:support@theanswerengine.ai" className="flex items-center gap-2 text-gray-400 hover:text-white transition-colors">
-        <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" /></svg>
-        support@theanswerengine.ai
-      </a>
-    </div>
+          <div className="not-prose ae-cheat-sheet">
+            <div className="ae-cheat-sheet-title">Provider Evaluation Checklist</div>
+            <table>
+              <thead>
+                <tr>
+                  <th>Question to Ask</th>
+                  <th>What the Right Answer Looks Like</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>&quot;How do you capture my authentic expertise?&quot;</td>
+                  <td>Structured interview, transcript analysis, voice preservation</td>
+                </tr>
+                <tr>
+                  <td>&quot;What quality control process do you use?&quot;</td>
+                  <td>Multi-round audits, scoring frameworks, defined thresholds</td>
+                </tr>
+                <tr>
+                  <td>&quot;What schema markup do you implement?&quot;</td>
+                  <td>Specific types (Article, FAQPage, HowTo), JSON-LD, validation</td>
+                </tr>
+                <tr>
+                  <td>&quot;What is a realistic timeline for citations?&quot;</td>
+                  <td>6 weeks content + 30 to 90 days indexing</td>
+                </tr>
+                <tr>
+                  <td>&quot;Can you show examples of your work?&quot;</td>
+                  <td>Real client examples, citation documentation, before/after</td>
+                </tr>
+                <tr>
+                  <td>&quot;What is included in your pricing?&quot;</td>
+                  <td>Transparent breakdown, no hidden fees, clear deliverables</td>
+                </tr>
+                <tr>
+                  <td>&quot;How do you measure success?&quot;</td>
+                  <td>AI citation tracking, not just &quot;traffic&quot; or vague metrics</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+
+          <div className="not-prose ae-cta-inline">
+            <p>Skip the guesswork. See real data on your AI visibility right now.</p>
+            <Link href="/blindspot">Run Your Free AI Visibility Check</Link>
           </div>
 
           {/* FAQ Section */}
-          <section className="mb-16">
-            <h2 className="text-3xl sm:text-4xl font-semibold mb-8 text-white">
-              Frequently Asked Questions About ChatGPT Optimization Costs
-            </h2>
+          <span className="not-prose ae-section-label">FAQ</span>
+          <h2>Frequently Asked Questions About ChatGPT Optimization Costs</h2>
 
-            <div className="space-y-6">
-              {[
-                {
-                  question: "How much does ChatGPT optimization typically cost?",
-                  answer: "Professional ChatGPT optimization typically costs $1,500–$5,000+ as a one-time investment for local service businesses. Our Answer Authority Foundation package is $2,997 and includes comprehensive content creation, voice capture interviews, and 90-day monitoring. DIY approaches can cost under $500 but require 40-60 hours of work over 4-8 months."
-                },
-                {
-                  question: "Is ChatGPT optimization a one-time cost or monthly subscription?",
-                  answer: "Professional ChatGPT optimization is typically a one-time upfront investment, not a monthly subscription. The content created is evergreen and continues working for years. Monthly SEO agencies cost $2,000-$5,000/month ($24K-$60K annually), while our one-time $2,997 Foundation package provides lasting value."
-                },
-                {
-                  question: "What's the difference between DIY and professional ChatGPT optimization?",
-                  answer: "DIY ChatGPT optimization costs under $500 but requires 40-60 hours of work, technical knowledge of schema markup, understanding of AI citation patterns, and 4-8 months to complete. Professional optimization includes voice capture interviews for authentic expertise, proven AERO-6 framework implementation, multi-round quality audits (95%+ scores required), and guaranteed results within 90 days."
-                },
-                {
-                  question: "How long does it take to see ROI from ChatGPT optimization?",
-                  answer: "Most businesses see initial AI citations within 30-90 days post-publication. For the Foundation package at $2,997, if you generate just 1 new client per month, ROI is achieved in 1-3 months depending on your average client value. The content continues working 24/7 for years, providing ongoing returns."
-                },
-                {
-                  question: "Why is professional AEO cheaper than traditional SEO agencies?",
-                  answer: "Traditional SEO agencies charge $2,000-$5,000 per month ($24K-$60K annually) for ongoing services. ChatGPT optimization is a one-time content investment ($2,997-$8,988) that doesn't require continuous optimization. AI platforms evaluate content meaning and expertise directly—not backlinks or domain authority—making the optimization process more efficient and cost-effective."
-                },
-                {
-                  question: "Can I start with one article to test ChatGPT optimization?",
-                  answer: "AI platforms look for topical authority, not individual articles. ChatGPT evaluates whether a business demonstrates comprehensive expertise across a subject area. The hub-and-spoke architecture (6 supporting articles feeding 1 comprehensive guide) is the minimum content structure that signals genuine expertise. Single articles rarely earn citations because they don't establish authority."
-                },
-                {
-                  question: "What red flags should I watch for when evaluating AEO providers?",
-                  answer: "Major red flags include: guaranteed #1 rankings (AI platforms don't have rankings), pay-per-performance pricing (indicates lack of confidence), cheap bulk article packages under $1,000 (quality insufficient for AI citation), no voice capture process (generic content won't demonstrate authentic expertise), promises of immediate results (AI indexing takes 30-90 days), and lack of schema markup implementation (critical for AI platform recognition)."
-                },
-                {
-                  question: "How does ChatGPT optimization pricing compare to content marketing agencies?",
-                  answer: "Content marketing agencies typically charge $500-$1,500 per blog post. The Answer Authority Foundation package at $2,997 includes 7 articles ($428 per article), plus strategic hub-and-spoke architecture, voice capture for authentic expertise, AERO-6 framework optimization, schema markup implementation, and 90-day AI citation monitoring—services content agencies don't provide."
-                }
-              ].map((faq, index) => (
-                <div 
-                  key={index}
-                  className="bg-white/[0.03] border border-white/[0.08] rounded-xl p-6 hover:border-white/[0.15] transition-all"
-                >
-                  <h3 className="text-lg font-semibold text-white mb-3">{faq.question}</h3>
-                  <p className="text-gray-300 leading-relaxed">{faq.answer}</p>
-                </div>
-              ))}
-            </div>
-          </section>
+          <h3>How much does ChatGPT optimization typically cost?</h3>
+          <p>Professional ChatGPT optimization typically costs $1,500 to $5,000+ as a one-time investment for local service businesses. Our Answer Authority Foundation package is $2,997 and includes comprehensive content creation, voice capture interviews, and 90-day monitoring. DIY approaches can cost under $500 but require 40 to 60 hours of work over 4 to 8 months.</p>
 
-          {/* Separator */}
-          <div className="max-w-xs mx-auto h-px bg-gradient-to-r from-transparent via-white/[0.06] to-transparent mb-16" />
+          <h3>Is ChatGPT optimization a one-time cost or monthly subscription?</h3>
+          <p>Professional ChatGPT optimization is typically a one-time upfront investment, not a monthly subscription. The content created is evergreen and continues working for years. Monthly SEO agencies cost $2,000 to $5,000/month ($24K to $60K annually), while our one-time $2,997 Foundation package provides lasting value.</p>
 
-          {/* CTA Section */}
-          <section className="mb-16 bg-gradient-to-br from-white/[0.02] to-white/[0.02] border-2 border-white/[0.08] rounded-3xl p-12 text-center hover:-translate-y-1 transition-all">
-            <h2 className="text-3xl sm:text-4xl font-semibold mb-6 text-white">
-              Ready to Get Your Business Cited by ChatGPT?
-            </h2>
-            
-            <p className="text-xl text-gray-300 mb-8 max-w-2xl mx-auto leading-relaxed">
-              Schedule your free 30-minute strategy call and discover exactly which package makes sense for your business size and goals.
-            </p>
-            
-            <a 
-              href="/#contact"
-              className="inline-flex items-center justify-center gap-3 px-10 py-5 rounded-xl text-lg font-semibold text-white transition-all  hover: hover:-translate-y-0.5 bg-white hover:bg-white"
-            >
-              Schedule Free Strategy Call
-              <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={2}>
-                <path strokeLinecap="round" strokeLinejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3" />
-              </svg>
-            </a>
-          </section>
+          <div className="not-prose ae-cta-inline">
+            <p>Wondering if your current marketing spend is delivering AI visibility?</p>
+            <Link href="/blindspot">Check Your AI Blind Spots Free</Link>
+          </div>
+
+          <h3>What is the difference between DIY and professional ChatGPT optimization?</h3>
+          <p>DIY ChatGPT optimization costs under $500 but requires 40 to 60 hours of work, technical knowledge of schema markup, understanding of AI citation patterns, and 4 to 8 months to complete. Professional optimization includes voice capture interviews for authentic expertise, the AERO-6 framework, multi-round quality audits (95%+ scores required), and results within 90 days.</p>
+
+          <h3>How long does it take to see ROI from ChatGPT optimization?</h3>
+          <p>Most businesses see initial AI citations within 30 to 90 days post-publication. For the Foundation package at $2,997, if you generate just 1 new client per month, ROI is achieved in 1 to 3 months depending on your average client value. The content continues working 24/7 for years.</p>
+
+          <h3>Why is professional AEO cheaper than traditional SEO agencies?</h3>
+          <p>Traditional SEO agencies charge $2,000 to $5,000 per month ($24K to $60K annually) for ongoing services. ChatGPT optimization is a one-time content investment ($2,997 to $8,988) that does not require continuous optimization. AI platforms evaluate content meaning and expertise directly, not backlinks or domain authority.</p>
+
+          <div className="not-prose ae-cta-inline">
+            <p>Find out if your investment in SEO is even being seen by AI platforms.</p>
+            <Link href="/blindspot">Get Your Free Blind Spot Report</Link>
+          </div>
+
+          <h3>Can I start with one article to test ChatGPT optimization?</h3>
+          <p>AI platforms look for topical authority, not individual articles. ChatGPT evaluates whether a business demonstrates comprehensive expertise across a subject area. The hub-and-spoke architecture (6 supporting articles feeding 1 comprehensive guide) is the minimum content structure that signals genuine expertise. Single articles rarely earn citations because they do not establish authority.</p>
+
+          <h3>What red flags should I watch for when evaluating AEO providers?</h3>
+          <p>Major red flags include: guaranteed #1 rankings (AI platforms do not have rankings), pay-per-performance pricing (indicates lack of confidence), cheap bulk article packages under $1,000 (quality insufficient for AI citation), no voice capture process (generic content will not demonstrate authentic expertise), promises of immediate results (AI indexing takes 30 to 90 days), and lack of schema markup implementation.</p>
+
+          <h3>How does ChatGPT optimization pricing compare to content marketing agencies?</h3>
+          <p>Content marketing agencies typically charge $500 to $1,500 per blog post. The Answer Authority Foundation package at $2,997 includes 7 articles ($428 per article), plus strategic hub-and-spoke architecture, voice capture for authentic expertise, AERO-6 framework optimization, schema markup implementation, and 90-day AI citation monitoring. Content agencies do not provide those services.</p>
+
+          <div className="not-prose ae-cta-inline">
+            <p>Still deciding? Let the data make the case. It takes 30 seconds.</p>
+            <Link href="/blindspot">Check Your AI Visibility Free</Link>
+          </div>
 
           {/* Pricing Disclaimer */}
-          <section className="text-sm text-gray-500 italic border-t border-white/[0.08] pt-8">
-            <p>
-              <strong>Pricing Disclaimer:</strong> All pricing quoted is effective as of January 2025 and subject to change. Package availability, deliverables, and timelines may vary based on business complexity and market conditions. The Answer Engine reserves the right to adjust pricing or package offerings. ROI estimates are based on typical results but individual business outcomes may vary. Citation rates depend on content quality, market competition, and AI platform algorithm updates beyond our control.
-            </p>
-          </section>
+          <div className="not-prose ae-callout ae-callout-info">
+            <div className="ae-callout-title">Pricing Disclaimer</div>
+            <p>All pricing quoted is effective as of January 2025 and subject to change. Package availability, deliverables, and timelines may vary based on business complexity and market conditions. ROI estimates are based on typical results but individual business outcomes may vary. Citation rates depend on content quality, market competition, and AI platform algorithm updates.</p>
+          </div>
+
+          {/* Author Card */}
+          <div className="not-prose ae-author-card">
+            <div className="ae-author-avatar">AE</div>
+            <div>
+              <div className="ae-author-name">JB</div>
+              <div className="ae-author-role">Founder, The Answer Engine</div>
+            </div>
+          </div>
+
+          {/* Final CTA */}
+          <div className="not-prose ae-final-cta">
+            <h2>Find Out If AI Is Recommending Your Business</h2>
+            <p>Most businesses have no idea whether AI platforms are sending them customers or sending them to competitors. Our free blind spot report shows you exactly where you stand. No pitch, just the data.</p>
+            <Link href="/blindspot" className="ae-final-cta-pulse">Get Your Free Blind Spot Report</Link>
+            <div className="ae-final-cta-contact">
+              <a href="tel:+12134442229">(213) 444-2229</a>
+              <a href="mailto:support@theanswerengine.ai">support@theanswerengine.ai</a>
+            </div>
+          </div>
+
         </div>
       </article>
     </>

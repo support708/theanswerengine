@@ -157,546 +157,702 @@ export default function ChatGPTCantSeeGBP() {
     <>
       <ComprehensiveSchema />
 
-      <main className="min-h-screen bg-[#0A0A0F]">
-        <article className="max-w-4xl mx-auto px-6 py-12 sm:py-16">
-          {/* Breadcrumbs */}
-          <nav className="text-sm text-gray-500 mb-8">
-            <Link href="/" className="hover:text-white transition-colors">Home</Link>
-            <span className="mx-2">›</span>
-            <Link href="/blog" className="hover:text-white transition-colors">Blog</Link>
-            <span className="mx-2">›</span>
-            <span className="text-gray-400">What ChatGPT Can See</span>
+      <main className="min-h-screen" style={{ backgroundColor: '#0F1117', color: 'white' }}>
+        <div className="max-w-4xl mx-auto px-6 py-20">
+
+          {/* Breadcrumb */}
+          <nav aria-label="Breadcrumb" className="mb-8">
+            <ol className="flex flex-wrap items-center gap-2 text-sm text-gray-400">
+              <li><Link href="/" className="hover:text-orange-400 transition-colors">Home</Link></li>
+              <li className="text-gray-600">/</li>
+              <li><Link href="/blog" className="hover:text-orange-400 transition-colors">Blog</Link></li>
+              <li className="text-gray-600">/</li>
+              <li className="text-gray-300 truncate max-w-xs sm:max-w-none">What ChatGPT Can See</li>
+            </ol>
           </nav>
 
-          {/* Header */}
-          <header className="mb-12">
-            <div className="inline-flex items-center gap-2 px-4 py-2 rounded-xl mb-6 bg-white/[0.04] border border-white/[0.08]">
-              <span className="text-sm font-semibold tracking-wider uppercase text-white">AI Visibility</span>
-            </div>
-
-            <h1 className="text-3xl sm:text-4xl lg:text-5xl font-semibold mb-6 text-white leading-tight">
-              ChatGPT Can't See Your Google Business Profile — <span className="text-transparent bg-clip-text bg-gradient-to-r from-white to-white">Here's What It CAN See</span>
-            </h1>
-
-            {/* Featured Snippet Block */}
-            <div className="bg-gradient-to-br from-white/[0.02] to-white/[0.02] border border-white/[0.08] rounded-xl p-6 mb-8">
-              <p className="text-lg text-white leading-relaxed">
-                <strong>ChatGPT cannot access your Google Business Profile, Google reviews, or Google Maps data.</strong> It uses Bing's search index instead. To be visible to ChatGPT, optimize your website, claim your Bing Places listing, and build presence on platforms like Yelp and Facebook that ChatGPT can actually crawl.
-              </p>
-            </div>
-
-            <div className="flex flex-wrap gap-4 text-sm text-gray-400">
-              <div className="flex items-center gap-2">
-                <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={2}>
-                  <path strokeLinecap="round" strokeLinejoin="round" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
-                </svg>
-                <span>9 min read</span>
-              </div>
-              <div className="flex items-center gap-2">
-                <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={2}>
-                  <path strokeLinecap="round" strokeLinejoin="round" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
-                </svg>
+          {/* Hero Section */}
+          <div className="relative overflow-hidden rounded-2xl mb-12" style={{ background: 'linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%)' }}>
+            <svg className="absolute inset-0 w-full h-full opacity-10" viewBox="0 0 800 400" fill="none" aria-hidden="true">
+              <circle cx="150" cy="200" r="160" stroke="#FF6A00" strokeWidth="0.5" />
+              <circle cx="150" cy="200" r="100" stroke="#FF6A00" strokeWidth="0.5" />
+              <circle cx="150" cy="200" r="40" stroke="#FF6A00" strokeWidth="0.5" />
+              <rect x="420" y="60" width="140" height="100" stroke="#FF6A00" strokeWidth="0.4" fill="none" />
+              <rect x="460" y="90" width="60" height="40" stroke="#FF6A00" strokeWidth="0.4" fill="none" />
+              <line x1="0" y1="130" x2="800" y2="130" stroke="#FF6A00" strokeWidth="0.3" />
+              <line x1="0" y1="270" x2="800" y2="270" stroke="#FF6A00" strokeWidth="0.3" />
+              <line x1="350" y1="0" x2="350" y2="400" stroke="#FF6A00" strokeWidth="0.3" />
+              <line x1="650" y1="0" x2="650" y2="400" stroke="#FF6A00" strokeWidth="0.3" />
+              <polygon points="580,300 680,200 780,300" stroke="#FF6A00" strokeWidth="0.5" fill="none" />
+              <circle cx="700" cy="340" r="35" stroke="#FF6A00" strokeWidth="0.4" />
+            </svg>
+            <div className="relative px-8 py-16 sm:px-12 sm:py-20">
+              <p className="text-sm font-medium text-orange-400 mb-4">AI Visibility</p>
+              <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-white leading-tight mb-6 font-plus-jakarta">
+                ChatGPT Can&apos;t See Your Google Business Profile. Here&apos;s What It CAN See.
+              </h1>
+              <div className="flex items-center gap-4 text-sm text-gray-400">
                 <span>Updated December 2025</span>
+                <span>-</span>
+                <span>9 min read</span>
+                <span>-</span>
+                <span>The Answer Engine Team</span>
               </div>
             </div>
-          </header>
-
-          {/* Featured Image */}
-          <div className="mb-12 rounded-2xl overflow-hidden">
-            <img
-              src="/images/chatgpt-cant-see-gbp.png"
-              alt="ChatGPT cannot see Google Business Profile - what AI can and cannot access about your business"
-              className="w-full h-auto grayscale brightness-75"
-            />
           </div>
 
-          {/* The Assumption */}
-          <section className="mb-12">
-            <div className="space-y-6 text-lg text-gray-300 leading-relaxed">
+          {/* Stats Grid */}
+          <div className="not-prose ae-stats-grid">
+            <div className="ae-stat-card">
+              <div className="ae-stat-emoji">🚫</div>
+              <div className="ae-stat-value ae-accent">0%</div>
+              <div className="ae-stat-label">GBP Data Visible to ChatGPT</div>
+            </div>
+            <div className="ae-stat-card">
+              <div className="ae-stat-emoji">🔍</div>
+              <div className="ae-stat-value ae-accent">100%</div>
+              <div className="ae-stat-label">Bing-Indexed Sites ChatGPT Can Read</div>
+            </div>
+            <div className="ae-stat-card">
+              <div className="ae-stat-emoji">📊</div>
+              <div className="ae-stat-value ae-accent">7+</div>
+              <div className="ae-stat-label">Alternative Sources ChatGPT Uses</div>
+            </div>
+            <div className="ae-stat-card">
+              <div className="ae-stat-emoji">🌐</div>
+              <div className="ae-stat-value ae-accent">#1</div>
+              <div className="ae-stat-label">Your Website Is the Top Signal</div>
+            </div>
+          </div>
+
+          {/* Article Body */}
+          <article className="prose prose-invert prose-lg max-w-none prose-headings:font-plus-jakarta prose-headings:text-white prose-p:text-gray-300 prose-a:text-[#FF6A00] prose-a:no-underline hover:prose-a:underline prose-strong:text-white">
+
+            {/* Intro */}
+            <p className="text-xl text-gray-300 leading-relaxed mb-10">
+              You have done everything right with your Google Business Profile. Photos uploaded. Hours updated. Reviews collected. Services listed. Your profile is complete, verified, and ranking well in Google Maps. So when someone asks ChatGPT who the best provider is in your city, you expect to be mentioned. But you are not. A competitor with a worse Google presence gets recommended instead. The reason is simple: ChatGPT literally cannot see your Google Business Profile. It is completely blind to it.
+            </p>
+
+            <div className="not-prose ae-callout ae-callout-warning">
+              <div className="ae-callout-title">The Uncomfortable Truth</div>
               <p>
-                You've done everything right with your Google Business Profile. Photos uploaded. Hours updated. Reviews collected. Services listed. Your profile is complete, verified, and ranking well in Google Maps.
-              </p>
-              <p>
-                So when someone asks ChatGPT <span className="text-white font-medium">"Who's the best electrician in [your city]?"</span> you expect to be mentioned.
-              </p>
-              <p>
-                But you're not. A competitor with a worse Google presence gets recommended instead.
-              </p>
-              <p className="text-white font-medium">
-                Here's what's happening: ChatGPT literally cannot see your Google Business Profile. It's completely blind to it.
+                All the time and money you have invested in Google Business Profile optimization has <strong>zero direct impact</strong> on ChatGPT recommendations. ChatGPT uses Bing, not Google. Your GBP reviews, photos, posts, and Q&amp;A entries are invisible to it. If ChatGPT is where your customers are going for recommendations, you are optimizing the wrong platform.
               </p>
             </div>
-          </section>
 
-          {/* Why ChatGPT Can't See GBP */}
-          <section className="mb-12">
-            <h2 className="text-2xl sm:text-3xl font-semibold mb-6 text-white">Why ChatGPT Is Blind to Google Business Profiles</h2>
-
-            <div className="space-y-6 text-lg text-gray-300 leading-relaxed">
-              <p>
-                There are two reasons ChatGPT can't access your Google Business Profile:
-              </p>
+            <div className="not-prose ae-cta-inline">
+              <p>Not sure if ChatGPT is recommending your competitors instead of you?</p>
+              <Link href="/blindspot">Get Your Free Blind Spot Report</Link>
             </div>
 
-            <div className="my-8 space-y-4">
-              <div className="bg-white/[0.02] border border-white/[0.05] rounded-xl p-6">
-                <div className="flex items-start gap-4">
-                  <div className="flex-shrink-0 w-10 h-10 bg-red-500/20 rounded-lg flex items-center justify-center">
-                    <span className="text-red-400 font-bold">1</span>
-                  </div>
-                  <div>
-                    <h3 className="text-lg font-semibold text-white mb-2">ChatGPT Uses Bing, Not Google</h3>
-                    <p className="text-gray-300">
-                      Microsoft has invested billions in OpenAI. As part of that partnership, ChatGPT's web browsing feature uses Bing's search infrastructure. When ChatGPT needs current information about local businesses, it queries Bing—not Google. Your Google Business Profile data simply isn't in the database ChatGPT searches.
-                    </p>
-                  </div>
-                </div>
+            {/* Section 1 */}
+            <span className="not-prose ae-section-label">The Problem</span>
+            <h2 className="text-2xl font-bold text-white mt-4 mb-4 font-plus-jakarta">
+              Why ChatGPT Is Completely Blind to Google Business Profiles
+            </h2>
+            <p className="text-gray-300 leading-relaxed mb-4">
+              There are two technical reasons ChatGPT cannot access your Google Business Profile, and understanding them is the first step toward fixing your AI visibility.
+            </p>
+
+            {/* Pros/Cons: Why GBP Is Invisible */}
+            <div className="not-prose ae-pros-cons">
+              <div className="ae-cons-box">
+                <div className="ae-cons-title">Reason 1: ChatGPT Uses Bing, Not Google</div>
+                <ul>
+                  <li>Microsoft invested billions in OpenAI</li>
+                  <li>ChatGPT&apos;s web browsing uses Bing&apos;s search infrastructure</li>
+                  <li>When it needs local business data, it queries Bing</li>
+                  <li>Your GBP data is not in Bing&apos;s database</li>
+                  <li>Google keeps its business data proprietary</li>
+                </ul>
               </div>
-
-              <div className="bg-white/[0.02] border border-white/[0.05] rounded-xl p-6">
-                <div className="flex items-start gap-4">
-                  <div className="flex-shrink-0 w-10 h-10 bg-red-500/20 rounded-lg flex items-center justify-center">
-                    <span className="text-red-400 font-bold">2</span>
-                  </div>
-                  <div>
-                    <h3 className="text-lg font-semibold text-white mb-2">Google Pages Require JavaScript</h3>
-                    <p className="text-gray-300">
-                      Even if ChatGPT tried to access Google Business Profiles directly, it would fail. Google's business pages load content dynamically using JavaScript. AI crawlers read raw HTML—they can't execute JavaScript. So when they hit a Google Business Profile, they see an error message instead of your business information.
-                    </p>
-                  </div>
-                </div>
+              <div className="ae-cons-box">
+                <div className="ae-cons-title">Reason 2: Google Pages Need JavaScript</div>
+                <ul>
+                  <li>GBP pages load content dynamically via JavaScript</li>
+                  <li>AI crawlers read raw HTML only</li>
+                  <li>They cannot execute JavaScript rendering</li>
+                  <li>When they hit a GBP page, they see an error</li>
+                  <li>Your business info never loads for them</li>
+                </ul>
               </div>
             </div>
 
-            <div className="bg-white/[0.02] border border-white/[0.05] rounded-xl p-6">
-              <div className="flex items-start gap-4">
-                <div className="flex-shrink-0">
-                  <svg className="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={2}>
-                    <path strokeLinecap="round" strokeLinejoin="round" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z" />
-                  </svg>
-                </div>
-                <div>
-                  <h4 className="font-semibold text-white mb-2">The Bottom Line</h4>
-                  <p className="text-gray-300">
-                    All the time you've invested in Google Business Profile optimization has zero direct impact on ChatGPT recommendations. It's still valuable for Google Search and Maps—but for AI platforms like ChatGPT, you need a different strategy.
-                  </p>
-                </div>
-              </div>
-            </div>
-          </section>
-
-          {/* What ChatGPT CAN See */}
-          <section className="mb-12">
-            <h2 className="text-2xl sm:text-3xl font-semibold mb-6 text-white">What ChatGPT CAN See About Your Business</h2>
-
-            <div className="space-y-6 text-lg text-gray-300 leading-relaxed">
-              <p>
-                The good news: ChatGPT isn't completely blind to your business. It can access several important information sources. Here's the complete breakdown:
-              </p>
+            <div className="not-prose ae-quote">
+              <p>Your Google Business Profile might be flawless. But to ChatGPT, it does not exist. Optimizing only for Google is like advertising on a billboard facing away from traffic.</p>
             </div>
 
-            <div className="my-8 overflow-x-auto">
-              <table className="w-full border-collapse text-sm">
+            <div className="not-prose ae-cta-inline">
+              <p>Want an expert to audit your AI visibility across all platforms?</p>
+              <a href="tel:+12134442229">Call (213) 444-2229</a>
+            </div>
+
+            {/* Section 2 */}
+            <span className="not-prose ae-section-label">The Data Map</span>
+            <h2 className="text-2xl font-bold text-white mt-4 mb-4 font-plus-jakarta">
+              What ChatGPT CAN See About Your Business
+            </h2>
+            <p className="text-gray-300 leading-relaxed mb-4">
+              The good news: ChatGPT is not completely blind to your business. It pulls from several important information sources. Here is the complete breakdown of what is visible and what is blocked.
+            </p>
+
+            {/* Comparison Table */}
+            <div className="not-prose ae-comparison-table">
+              <table>
                 <thead>
-                  <tr className="border-b border-white/10">
-                    <th className="text-left py-4 px-4 text-gray-400 font-medium">Source</th>
-                    <th className="text-center py-4 px-4 text-gray-400 font-medium">Visible to ChatGPT?</th>
-                    <th className="text-left py-4 px-4 text-gray-400 font-medium">What ChatGPT Gets From It</th>
+                  <tr>
+                    <th>Source</th>
+                    <th>Visible to ChatGPT?</th>
+                    <th>What ChatGPT Gets From It</th>
                   </tr>
                 </thead>
-                <tbody className="text-gray-300">
-                  <tr className="border-b border-white/5">
-                    <td className="py-4 px-4 font-medium text-white">Your Website</td>
-                    <td className="py-4 px-4 text-center text-green-400">✓ Yes</td>
-                    <td className="py-4 px-4">Services, areas served, about info, testimonials, contact details</td>
-                  </tr>
-                  <tr className="border-b border-white/5">
-                    <td className="py-4 px-4 font-medium text-white">Bing Places</td>
-                    <td className="py-4 px-4 text-center text-green-400">✓ Yes</td>
-                    <td className="py-4 px-4">Business name, address, phone, hours, categories, description</td>
-                  </tr>
-                  <tr className="border-b border-white/5">
-                    <td className="py-4 px-4 font-medium text-white">Yelp</td>
-                    <td className="py-4 px-4 text-center text-green-400">✓ Yes</td>
-                    <td className="py-4 px-4">Reviews, ratings, business info, photos</td>
-                  </tr>
-                  <tr className="border-b border-white/5">
-                    <td className="py-4 px-4 font-medium text-white">Facebook</td>
-                    <td className="py-4 px-4 text-center text-green-400">✓ Yes</td>
-                    <td className="py-4 px-4">Page info, reviews, posts (public only)</td>
-                  </tr>
-                  <tr className="border-b border-white/5">
-                    <td className="py-4 px-4 font-medium text-white">BBB</td>
-                    <td className="py-4 px-4 text-center text-green-400">✓ Yes</td>
-                    <td className="py-4 px-4">Rating, accreditation, complaint history</td>
-                  </tr>
-                  <tr className="border-b border-white/5">
-                    <td className="py-4 px-4 font-medium text-white">Industry Directories</td>
-                    <td className="py-4 px-4 text-center text-green-400">✓ Mostly</td>
-                    <td className="py-4 px-4">Listings, reviews, credentials (varies by directory)</td>
-                  </tr>
-                  <tr className="border-b border-white/5">
-                    <td className="py-4 px-4 font-medium text-white">News/PR Mentions</td>
-                    <td className="py-4 px-4 text-center text-green-400">✓ Yes</td>
-                    <td className="py-4 px-4">Media coverage, press releases, awards</td>
-                  </tr>
-                  <tr className="border-b border-white/5 bg-red-500/5">
-                    <td className="py-4 px-4 font-medium text-white">Google Business Profile</td>
-                    <td className="py-4 px-4 text-center text-red-400">✗ No</td>
-                    <td className="py-4 px-4">None - completely inaccessible</td>
-                  </tr>
-                  <tr className="border-b border-white/5 bg-red-500/5">
-                    <td className="py-4 px-4 font-medium text-white">Google Reviews</td>
-                    <td className="py-4 px-4 text-center text-red-400">✗ No</td>
-                    <td className="py-4 px-4">None - requires JavaScript</td>
-                  </tr>
-                  <tr className="bg-red-500/5">
-                    <td className="py-4 px-4 font-medium text-white">Google Maps</td>
-                    <td className="py-4 px-4 text-center text-red-400">✗ No</td>
-                    <td className="py-4 px-4">None - Google's proprietary data</td>
-                  </tr>
-                </tbody>
-              </table>
-            </div>
-          </section>
-
-          {/* Optimizing What ChatGPT CAN See */}
-          <section className="mb-12">
-            <h2 className="text-2xl sm:text-3xl font-semibold mb-6 text-white">How to Optimize What ChatGPT CAN See</h2>
-
-            <div className="space-y-8">
-              {/* Website */}
-              <div className="bg-white/[0.02] border border-white/[0.05] rounded-xl p-6">
-                <div className="flex items-center gap-3 mb-4">
-                  <div className="w-10 h-10 bg-white/20 rounded-lg flex items-center justify-center">
-                    <span className="text-white font-bold">1</span>
-                  </div>
-                  <h3 className="text-xl font-semibold text-white">Your Website (Most Important)</h3>
-                </div>
-                <p className="text-gray-300 mb-4">
-                  Your website is the primary source ChatGPT uses to understand your business. Make sure it clearly communicates:
-                </p>
-                <div className="grid sm:grid-cols-2 gap-4">
-                  <div className="bg-black/30 rounded-lg p-4 border border-white/10">
-                    <h4 className="font-semibold text-white mb-2">Must Have</h4>
-                    <ul className="text-gray-400 text-sm space-y-1">
-                      <li>• Explicit service descriptions</li>
-                      <li>• Service areas (neighborhood names)</li>
-                      <li>• Contact information on every page</li>
-                      <li>• About page with credentials</li>
-                      <li>• Testimonials as actual text</li>
-                    </ul>
-                  </div>
-                  <div className="bg-black/30 rounded-lg p-4 border border-white/10">
-                    <h4 className="font-semibold text-white mb-2">Technical Elements</h4>
-                    <ul className="text-gray-400 text-sm space-y-1">
-                      <li>• LocalBusiness schema markup</li>
-                      <li>• FAQ schema on relevant pages</li>
-                      <li>• Clear H1/H2 structure</li>
-                      <li>• Mobile-friendly design</li>
-                      <li>• Fast loading (no heavy JS)</li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-
-              {/* Bing Places */}
-              <div className="bg-white/[0.02] border border-white/[0.05] rounded-xl p-6">
-                <div className="flex items-center gap-3 mb-4">
-                  <div className="w-10 h-10 bg-white/20 rounded-lg flex items-center justify-center">
-                    <span className="text-white font-bold">2</span>
-                  </div>
-                  <h3 className="text-xl font-semibold text-white">Bing Places Listing</h3>
-                </div>
-                <p className="text-gray-300 mb-4">
-                  This is essentially your "Google Business Profile for ChatGPT." Visit <span className="text-white">bingplaces.com</span> to claim or create your listing.
-                </p>
-                <div className="bg-black/30 rounded-lg p-4 border border-white/10">
-                  <h4 className="font-semibold text-white mb-2">Optimization Checklist</h4>
-                  <ul className="text-gray-400 text-sm space-y-1">
-                    <li>✓ Claim and verify your listing</li>
-                    <li>✓ Complete every available field</li>
-                    <li>✓ Write a keyword-rich description</li>
-                    <li>✓ Select all relevant categories</li>
-                    <li>✓ Add photos (logo, team, work)</li>
-                    <li>✓ Keep hours and info current</li>
-                    <li>✓ Import from Google (then customize)</li>
-                  </ul>
-                </div>
-              </div>
-
-              {/* Yelp */}
-              <div className="bg-white/[0.02] border border-white/[0.05] rounded-xl p-6">
-                <div className="flex items-center gap-3 mb-4">
-                  <div className="w-10 h-10 bg-white/20 rounded-lg flex items-center justify-center">
-                    <span className="text-white font-bold">3</span>
-                  </div>
-                  <h3 className="text-xl font-semibold text-white">Yelp Profile</h3>
-                </div>
-                <p className="text-gray-300 mb-4">
-                  ChatGPT frequently cites Yelp for local business recommendations. Even if you've deprioritized Yelp for years, it's worth building presence there for AI visibility.
-                </p>
-                <div className="bg-black/30 rounded-lg p-4 border border-white/10">
-                  <h4 className="font-semibold text-white mb-2">Key Actions</h4>
-                  <ul className="text-gray-400 text-sm space-y-1">
-                    <li>✓ Claim your Yelp business page</li>
-                    <li>✓ Complete all profile information</li>
-                    <li>✓ Add high-quality photos</li>
-                    <li>✓ Respond to reviews (shows engagement)</li>
-                    <li>✓ Encourage satisfied customers to review on Yelp</li>
-                  </ul>
-                </div>
-              </div>
-
-              {/* Reviews on Website */}
-              <div className="bg-white/[0.02] border border-white/[0.05] rounded-xl p-6">
-                <div className="flex items-center gap-3 mb-4">
-                  <div className="w-10 h-10 bg-white/20 rounded-lg flex items-center justify-center">
-                    <span className="text-white font-bold">4</span>
-                  </div>
-                  <h3 className="text-xl font-semibold text-white">Testimonials on Your Website</h3>
-                </div>
-                <p className="text-gray-300 mb-4">
-                  Since ChatGPT can't see your Google reviews, the only way for it to know about your customer feedback is to display reviews directly on your website.
-                </p>
-                <div className="bg-black/30 rounded-lg p-4 border border-white/10">
-                  <h4 className="font-semibold text-white mb-2">How to Do It Right</h4>
-                  <ul className="text-gray-400 text-sm space-y-1">
-                    <li>✓ Add reviews as plain text (not JavaScript widgets)</li>
-                    <li>✓ Include reviewer first name and service type</li>
-                    <li>✓ Add Review schema markup</li>
-                    <li>✓ Link to original source when possible</li>
-                    <li>✓ Create a dedicated testimonials page</li>
-                    <li>✓ Add relevant testimonials to service pages</li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-          </section>
-
-          {/* What About Other AI Platforms? */}
-          <section className="mb-12">
-            <h2 className="text-2xl sm:text-3xl font-semibold mb-6 text-white">What About Other AI Platforms?</h2>
-
-            <div className="space-y-6 text-lg text-gray-300 leading-relaxed">
-              <p>
-                Different AI platforms have access to different data sources. Here's how the major ones compare:
-              </p>
-            </div>
-
-            <div className="my-8 overflow-x-auto">
-              <table className="w-full border-collapse text-sm">
-                <thead>
-                  <tr className="border-b border-white/10">
-                    <th className="text-left py-4 px-4 text-gray-400 font-medium">AI Platform</th>
-                    <th className="text-center py-4 px-4 text-gray-400 font-medium">Google Data</th>
-                    <th className="text-center py-4 px-4 text-gray-400 font-medium">Bing Data</th>
-                    <th className="text-center py-4 px-4 text-gray-400 font-medium">Your Website</th>
-                  </tr>
-                </thead>
-                <tbody className="text-gray-300">
-                  <tr className="border-b border-white/5">
-                    <td className="py-4 px-4 font-medium text-white">ChatGPT</td>
-                    <td className="py-4 px-4 text-center text-red-400">✗</td>
-                    <td className="py-4 px-4 text-center text-green-400">✓</td>
-                    <td className="py-4 px-4 text-center text-green-400">✓</td>
-                  </tr>
-                  <tr className="border-b border-white/5">
-                    <td className="py-4 px-4 font-medium text-white">Google AI Overview</td>
-                    <td className="py-4 px-4 text-center text-green-400">✓</td>
-                    <td className="py-4 px-4 text-center text-red-400">✗</td>
-                    <td className="py-4 px-4 text-center text-green-400">✓</td>
-                  </tr>
-                  <tr className="border-b border-white/5">
-                    <td className="py-4 px-4 font-medium text-white">Perplexity</td>
-                    <td className="py-4 px-4 text-center text-yellow-400">Limited</td>
-                    <td className="py-4 px-4 text-center text-green-400">✓</td>
-                    <td className="py-4 px-4 text-center text-green-400">✓</td>
-                  </tr>
-                  <tr className="border-b border-white/5">
-                    <td className="py-4 px-4 font-medium text-white">Claude</td>
-                    <td className="py-4 px-4 text-center text-yellow-400">Via search</td>
-                    <td className="py-4 px-4 text-center text-yellow-400">Via search</td>
-                    <td className="py-4 px-4 text-center text-green-400">✓</td>
+                <tbody>
+                  <tr>
+                    <td><strong>Your Website</strong></td>
+                    <td style={{ color: '#22c55e' }}>Yes</td>
+                    <td>Services, areas served, about info, testimonials, contact details</td>
                   </tr>
                   <tr>
-                    <td className="py-4 px-4 font-medium text-white">Microsoft Copilot</td>
-                    <td className="py-4 px-4 text-center text-red-400">✗</td>
-                    <td className="py-4 px-4 text-center text-green-400">✓</td>
-                    <td className="py-4 px-4 text-center text-green-400">✓</td>
+                    <td><strong>Bing Places</strong></td>
+                    <td style={{ color: '#22c55e' }}>Yes</td>
+                    <td>Business name, address, phone, hours, categories</td>
+                  </tr>
+                  <tr>
+                    <td><strong>Yelp</strong></td>
+                    <td style={{ color: '#22c55e' }}>Yes</td>
+                    <td>Reviews, ratings, business info, photos</td>
+                  </tr>
+                  <tr>
+                    <td><strong>Facebook</strong></td>
+                    <td style={{ color: '#22c55e' }}>Yes</td>
+                    <td>Page info, reviews, public posts</td>
+                  </tr>
+                  <tr>
+                    <td><strong>BBB</strong></td>
+                    <td style={{ color: '#22c55e' }}>Yes</td>
+                    <td>Rating, accreditation, complaint history</td>
+                  </tr>
+                  <tr>
+                    <td><strong>Industry Directories</strong></td>
+                    <td style={{ color: '#22c55e' }}>Mostly</td>
+                    <td>Listings, reviews, credentials (varies by directory)</td>
+                  </tr>
+                  <tr>
+                    <td><strong>News/PR Mentions</strong></td>
+                    <td style={{ color: '#22c55e' }}>Yes</td>
+                    <td>Media coverage, press releases, awards</td>
+                  </tr>
+                  <tr>
+                    <td><strong>Google Business Profile</strong></td>
+                    <td style={{ color: '#ef4444' }}>No</td>
+                    <td>Completely inaccessible</td>
+                  </tr>
+                  <tr>
+                    <td><strong>Google Reviews</strong></td>
+                    <td style={{ color: '#ef4444' }}>No</td>
+                    <td>Requires JavaScript, blocked</td>
+                  </tr>
+                  <tr>
+                    <td><strong>Google Maps</strong></td>
+                    <td style={{ color: '#ef4444' }}>No</td>
+                    <td>Google&apos;s proprietary data, blocked</td>
                   </tr>
                 </tbody>
               </table>
             </div>
 
-            <div className="bg-gradient-to-br from-white/[0.02] to-white/[0.02] border border-white/[0.08] rounded-xl p-6">
-              <h4 className="font-semibold text-white mb-3">The Common Denominator</h4>
-              <p className="text-gray-300">
-                Notice what every AI platform can access: <span className="text-white font-medium">your website</span>. While the platforms differ in what other sources they use, your website is universally visible. This makes your website the single most important asset for AI visibility across all platforms.
-              </p>
-            </div>
-          </section>
-
-          {/* Priority Action Plan */}
-          <section className="mb-12">
-            <h2 className="text-2xl sm:text-3xl font-semibold mb-6 text-white">Your AI Visibility Action Plan</h2>
-
-            <div className="space-y-6 text-lg text-gray-300 leading-relaxed">
+            <div className="not-prose ae-takeaway">
+              <div className="ae-takeaway-title">Key Takeaway</div>
               <p>
-                Based on what ChatGPT and other AI platforms can access, here's the priority order for optimization:
+                Seven major data sources are visible to ChatGPT. Three critical Google properties are completely blocked. If your entire online strategy revolves around Google, you are invisible to the fastest-growing search platform in history.
               </p>
             </div>
 
-            <div className="my-8 space-y-4">
-              <div className="flex items-start gap-4 p-4 bg-white/[0.02] border border-white/[0.05] rounded-xl">
-                <div className="flex-shrink-0 w-8 h-8 bg-white rounded-full flex items-center justify-center text-white font-bold">1</div>
-                <div>
-                  <h4 className="font-semibold text-white">Optimize Your Website</h4>
-                  <p className="text-gray-400 text-sm">Visible to all AI platforms. Clear services, locations, testimonials as text, proper schema markup.</p>
+            {/* Bar Chart: Source Impact */}
+            <div className="not-prose ae-bar-group">
+              <div className="ae-bar-item">
+                <div className="ae-bar-label">Your Website (Impact on ChatGPT)</div>
+                <div className="ae-bar-track">
+                  <div className="ae-bar-fill" style={{ width: '95%' }}></div>
                 </div>
+                <div className="ae-bar-value">95%</div>
               </div>
-
-              <div className="flex items-start gap-4 p-4 bg-white/[0.02] border border-white/[0.05] rounded-xl">
-                <div className="flex-shrink-0 w-8 h-8 bg-white rounded-full flex items-center justify-center text-white font-bold">2</div>
-                <div>
-                  <h4 className="font-semibold text-white">Claim Bing Places</h4>
-                  <p className="text-gray-400 text-sm">Direct pathway to ChatGPT and Microsoft Copilot. Free, takes 15 minutes, import from Google.</p>
+              <div className="ae-bar-item">
+                <div className="ae-bar-label">Bing Places Listing</div>
+                <div className="ae-bar-track">
+                  <div className="ae-bar-fill" style={{ width: '80%' }}></div>
                 </div>
+                <div className="ae-bar-value">80%</div>
               </div>
-
-              <div className="flex items-start gap-4 p-4 bg-white/[0.02] border border-white/[0.05] rounded-xl">
-                <div className="flex-shrink-0 w-8 h-8 bg-white rounded-full flex items-center justify-center text-white font-bold">3</div>
-                <div>
-                  <h4 className="font-semibold text-white">Build Yelp Presence</h4>
-                  <p className="text-gray-400 text-sm">Frequently cited by ChatGPT. Complete profile, encourage reviews, respond to feedback.</p>
+              <div className="ae-bar-item">
+                <div className="ae-bar-label">Yelp Profile</div>
+                <div className="ae-bar-track">
+                  <div className="ae-bar-fill" style={{ width: '70%' }}></div>
                 </div>
+                <div className="ae-bar-value">70%</div>
               </div>
-
-              <div className="flex items-start gap-4 p-4 bg-white/[0.02] border border-white/[0.05] rounded-xl">
-                <div className="flex-shrink-0 w-8 h-8 bg-white rounded-full flex items-center justify-center text-white font-bold">4</div>
-                <div>
-                  <h4 className="font-semibold text-white">Display Reviews on Website</h4>
-                  <p className="text-gray-400 text-sm">Makes your Google reviews visible to AI. Add as text, include schema, link to sources.</p>
+              <div className="ae-bar-item">
+                <div className="ae-bar-label">Facebook Page</div>
+                <div className="ae-bar-track">
+                  <div className="ae-bar-fill" style={{ width: '50%' }}></div>
                 </div>
+                <div className="ae-bar-value">50%</div>
               </div>
-
-              <div className="flex items-start gap-4 p-4 bg-white/[0.02] border border-white/[0.05] rounded-xl">
-                <div className="flex-shrink-0 w-8 h-8 bg-white rounded-full flex items-center justify-center text-white font-bold">5</div>
-                <div>
-                  <h4 className="font-semibold text-white">Keep Google Business Profile Updated</h4>
-                  <p className="text-gray-400 text-sm">Still essential for Google Search, Maps, and Google AI Overview. Don't neglect it.</p>
+              <div className="ae-bar-item">
+                <div className="ae-bar-label">Google Business Profile</div>
+                <div className="ae-bar-track">
+                  <div className="ae-bar-fill" style={{ width: '0%' }}></div>
                 </div>
+                <div className="ae-bar-value">0%</div>
               </div>
             </div>
-          </section>
 
-          {/* CTA Section */}
-          <div className="rounded-2xl p-8 sm:p-10 text-center my-16" style={{ background: 'linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%)' }}>
-            <h2 className="text-2xl sm:text-3xl font-bold text-white mb-4 font-plus-jakarta">Find Out If AI Is Recommending Your Business</h2>
-            <p className="text-gray-300 mb-6 max-w-2xl mx-auto">Most businesses have no idea whether AI platforms are sending them customers or sending them to competitors. Our free blind spot report shows you exactly where you stand.</p>
-            <Link href="/blindspot" className="inline-block px-8 py-4 rounded-lg font-semibold text-white transition-all duration-200 hover:brightness-110" style={{ backgroundColor: '#FF6A00' }}>Get Your Free Blind Spot Report</Link>
-    <div className="flex flex-wrap items-center gap-6 mt-6 pt-6 border-t border-[#FF6A00]/10">
-      <a href="tel:+12134442229" className="flex items-center gap-2 text-gray-400 hover:text-white transition-colors">
-        <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" /></svg>
-        (213) 444-2229
-      </a>
-      <a href="mailto:support@theanswerengine.ai" className="flex items-center gap-2 text-gray-400 hover:text-white transition-colors">
-        <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" /></svg>
-        support@theanswerengine.ai
-      </a>
-    </div>
+            <div className="not-prose ae-cta-inline">
+              <p>Find out exactly what ChatGPT sees (and misses) about your business.</p>
+              <Link href="/blindspot">Run Your Free AI Visibility Audit</Link>
+            </div>
+
+            {/* Section 3 */}
+            <span className="not-prose ae-section-label">The Playbook</span>
+            <h2 className="text-2xl font-bold text-white mt-4 mb-4 font-plus-jakarta">
+              How to Optimize What ChatGPT CAN See
+            </h2>
+            <p className="text-gray-300 leading-relaxed mb-4">
+              Now that you know where ChatGPT looks, here is how to make sure it finds the right information about your business at every source.
+            </p>
+
+            {/* Decision Matrix */}
+            <div className="not-prose ae-decision-matrix">
+              <table>
+                <thead>
+                  <tr>
+                    <th>Source</th>
+                    <th>Priority</th>
+                    <th>Time to Optimize</th>
+                    <th>Impact</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>Your Website</td>
+                    <td>Critical</td>
+                    <td>1-2 weeks</td>
+                    <td>Highest</td>
+                  </tr>
+                  <tr>
+                    <td>Bing Places</td>
+                    <td>High</td>
+                    <td>15 minutes</td>
+                    <td>High</td>
+                  </tr>
+                  <tr>
+                    <td>Yelp</td>
+                    <td>High</td>
+                    <td>1-2 hours</td>
+                    <td>High</td>
+                  </tr>
+                  <tr>
+                    <td>Website Testimonials</td>
+                    <td>High</td>
+                    <td>2-4 hours</td>
+                    <td>Medium-High</td>
+                  </tr>
+                  <tr>
+                    <td>Facebook Business Page</td>
+                    <td>Medium</td>
+                    <td>30 minutes</td>
+                    <td>Medium</td>
+                  </tr>
+                  <tr>
+                    <td>BBB Listing</td>
+                    <td>Medium</td>
+                    <td>30 minutes</td>
+                    <td>Medium</td>
+                  </tr>
+                  <tr>
+                    <td>Industry Directories</td>
+                    <td>Medium</td>
+                    <td>2-4 hours</td>
+                    <td>Varies</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+
+            {/* Cheat Sheet: Website Optimization */}
+            <div className="not-prose ae-cheat-sheet">
+              <div className="ae-cheat-sheet-title">Website Optimization Cheat Sheet for ChatGPT</div>
+              <p><strong>Content Must-Haves:</strong></p>
+              <ul>
+                <li>Explicit service descriptions on dedicated pages</li>
+                <li>Service areas with neighborhood-level specificity</li>
+                <li>Contact information visible on every page</li>
+                <li>About page with credentials, experience, and team info</li>
+                <li>Testimonials displayed as plain text (not JavaScript widgets)</li>
+              </ul>
+              <p><strong>Technical Must-Haves:</strong></p>
+              <ul>
+                <li>LocalBusiness schema markup on every page</li>
+                <li>FAQ schema on service and about pages</li>
+                <li>Clear H1/H2 heading hierarchy</li>
+                <li>Mobile-friendly, fast-loading design</li>
+                <li>Minimal JavaScript dependency for core content</li>
+              </ul>
+            </div>
+
+            <div className="not-prose ae-callout ae-callout-info">
+              <div className="ae-callout-title">Why Your Website Matters Most</div>
+              <p>
+                Your website is the <strong>only source visible to every AI platform</strong>: ChatGPT, Google AI Overview, Perplexity, Claude, and Microsoft Copilot. While each platform has different secondary sources, your website is the universal constant. Treating it as the foundation of your AI strategy is not optional.
+              </p>
+            </div>
+
+            <div className="not-prose ae-cta-inline">
+              <p>Need help optimizing your website for AI visibility?</p>
+              <a href="mailto:support@theanswerengine.ai">Email support@theanswerengine.ai</a>
+            </div>
+
+            {/* Cheat Sheet: Bing Places */}
+            <div className="not-prose ae-cheat-sheet">
+              <div className="ae-cheat-sheet-title">Bing Places Quick Setup Guide</div>
+              <ul>
+                <li>Visit bingplaces.com and claim or create your listing</li>
+                <li>Import your data from Google (then customize for Bing)</li>
+                <li>Complete every available field, including description</li>
+                <li>Write a keyword-rich business description</li>
+                <li>Select all relevant business categories</li>
+                <li>Upload photos: logo, team, recent work</li>
+                <li>Verify hours are current and accurate</li>
+              </ul>
+            </div>
+
+            <div className="not-prose ae-callout ae-callout-success">
+              <div className="ae-callout-title">Bing Places Is Essentially Your GBP for ChatGPT</div>
+              <p>
+                Think of Bing Places as your Google Business Profile for the ChatGPT ecosystem. Since ChatGPT runs on Bing infrastructure, having a complete and verified Bing Places listing is the most direct way to feed ChatGPT accurate business data. Most local businesses have never claimed theirs, which creates a massive opportunity for those who do.
+              </p>
+            </div>
+
+            <div className="not-prose ae-cta-inline">
+              <p>Want us to handle your Bing Places optimization?</p>
+              <Link href="/blindspot">Start with a Free Blind Spot Report</Link>
+            </div>
+
+            {/* Section 4: Yelp and Reviews */}
+            <span className="not-prose ae-section-label">Reviews That Matter</span>
+            <h2 className="text-2xl font-bold text-white mt-4 mb-4 font-plus-jakarta">
+              Why Yelp and Website Reviews Are Critical for ChatGPT
+            </h2>
+            <p className="text-gray-300 leading-relaxed mb-4">
+              ChatGPT frequently cites Yelp when recommending local businesses. Even if you have deprioritized Yelp for years, it is worth building a presence there specifically for AI visibility. Here is what to focus on.
+            </p>
+
+            <div className="not-prose ae-pros-cons">
+              <div className="ae-pros-box">
+                <div className="ae-pros-title">Yelp: What ChatGPT Can See</div>
+                <ul>
+                  <li>Your star rating and total review count</li>
+                  <li>Individual review text and content</li>
+                  <li>Business description and categories</li>
+                  <li>Photos uploaded to your listing</li>
+                  <li>Your responses to customer reviews</li>
+                </ul>
+              </div>
+              <div className="ae-cons-box">
+                <div className="ae-cons-title">Google Reviews: What ChatGPT Cannot See</div>
+                <ul>
+                  <li>Your Google star rating</li>
+                  <li>Individual Google review text</li>
+                  <li>Owner responses on Google</li>
+                  <li>Review photos on Google</li>
+                  <li>Google Q&amp;A entries</li>
+                </ul>
+              </div>
+            </div>
+
+            <p className="text-gray-300 leading-relaxed mb-4">
+              Since ChatGPT cannot see your Google reviews, the only way for it to know about your customer feedback is to display reviews directly on your website as plain text. Not embedded widgets. Not JavaScript-loaded carousels. Actual text that an AI crawler can read in the raw HTML.
+            </p>
+
+            <div className="not-prose ae-cheat-sheet">
+              <div className="ae-cheat-sheet-title">Making Reviews Visible to AI</div>
+              <ul>
+                <li>Add top reviews as plain text on service pages and a testimonials page</li>
+                <li>Include the reviewer&apos;s first name and the service they received</li>
+                <li>Add Review schema markup to each testimonial</li>
+                <li>Link to the original review source when possible</li>
+                <li>Create a dedicated testimonials page with 10+ reviews</li>
+                <li>Place relevant testimonials on each service page</li>
+              </ul>
+            </div>
+
+            <div className="not-prose ae-cta-inline">
+              <p>Unsure if your reviews are visible to AI platforms?</p>
+              <a href="tel:+12134442229">Call (213) 444-2229 for a Quick Check</a>
+            </div>
+
+            {/* Section 5: Platform Comparison */}
+            <span className="not-prose ae-section-label">Platform Breakdown</span>
+            <h2 className="text-2xl font-bold text-white mt-4 mb-4 font-plus-jakarta">
+              What About Other AI Platforms?
+            </h2>
+            <p className="text-gray-300 leading-relaxed mb-4">
+              Different AI platforms have access to different data sources. Here is how the major ones compare, and why a multi-platform strategy is essential.
+            </p>
+
+            {/* Comparison Table: AI Platforms */}
+            <div className="not-prose ae-comparison-table">
+              <table>
+                <thead>
+                  <tr>
+                    <th>AI Platform</th>
+                    <th>Google Data</th>
+                    <th>Bing Data</th>
+                    <th>Your Website</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><strong>ChatGPT</strong></td>
+                    <td style={{ color: '#ef4444' }}>No</td>
+                    <td style={{ color: '#22c55e' }}>Yes</td>
+                    <td style={{ color: '#22c55e' }}>Yes</td>
+                  </tr>
+                  <tr>
+                    <td><strong>Google AI Overview</strong></td>
+                    <td style={{ color: '#22c55e' }}>Yes</td>
+                    <td style={{ color: '#ef4444' }}>No</td>
+                    <td style={{ color: '#22c55e' }}>Yes</td>
+                  </tr>
+                  <tr>
+                    <td><strong>Perplexity</strong></td>
+                    <td style={{ color: '#eab308' }}>Limited</td>
+                    <td style={{ color: '#22c55e' }}>Yes</td>
+                    <td style={{ color: '#22c55e' }}>Yes</td>
+                  </tr>
+                  <tr>
+                    <td><strong>Claude</strong></td>
+                    <td style={{ color: '#eab308' }}>Via search</td>
+                    <td style={{ color: '#eab308' }}>Via search</td>
+                    <td style={{ color: '#22c55e' }}>Yes</td>
+                  </tr>
+                  <tr>
+                    <td><strong>Microsoft Copilot</strong></td>
+                    <td style={{ color: '#ef4444' }}>No</td>
+                    <td style={{ color: '#22c55e' }}>Yes</td>
+                    <td style={{ color: '#22c55e' }}>Yes</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+
+            <div className="not-prose ae-callout ae-callout-info">
+              <div className="ae-callout-title">The Common Denominator</div>
+              <p>
+                Notice what every AI platform can access: <strong>your website</strong>. While the platforms differ in what other sources they use, your website is universally visible. This makes your website the single most important asset for AI visibility across all platforms. No exceptions.
+              </p>
+            </div>
+
+            <div className="not-prose ae-cta-inline">
+              <p>See how your business scores across all five AI platforms.</p>
+              <Link href="/blindspot">Get Your Multi-Platform AI Audit</Link>
+            </div>
+
+            {/* Section 6: Action Plan */}
+            <span className="not-prose ae-section-label">The Action Plan</span>
+            <h2 className="text-2xl font-bold text-white mt-4 mb-4 font-plus-jakarta">
+              Your AI Visibility Action Plan (Priority Order)
+            </h2>
+            <p className="text-gray-300 leading-relaxed mb-4">
+              Based on what ChatGPT and other AI platforms can access, here is the exact order you should follow to maximize your AI visibility. Start from the top and work your way down.
+            </p>
+
+            {/* Timeline */}
+            <div className="not-prose ae-timeline">
+              <div className="ae-timeline-item">
+                <h3>Step 1: Optimize Your Website</h3>
+                <p>Visible to all AI platforms. Add clear service descriptions, location pages, testimonials as text, and proper schema markup. This is the single highest-impact action you can take.</p>
+              </div>
+              <div className="ae-timeline-item">
+                <h3>Step 2: Claim Bing Places</h3>
+                <p>Direct pathway to ChatGPT and Microsoft Copilot. Free to set up, takes 15 minutes, and you can import your data from Google to get started quickly.</p>
+              </div>
+              <div className="ae-timeline-item">
+                <h3>Step 3: Build Yelp Presence</h3>
+                <p>Frequently cited by ChatGPT for local recommendations. Complete your profile, encourage reviews from satisfied customers, and respond to all feedback.</p>
+              </div>
+              <div className="ae-timeline-item">
+                <h3>Step 4: Display Reviews on Website</h3>
+                <p>Makes your Google reviews visible to AI by embedding them as plain text on your site. Include Review schema markup and link to original sources.</p>
+              </div>
+              <div className="ae-timeline-item">
+                <h3>Step 5: Keep GBP Updated</h3>
+                <p>Still essential for Google Search, Google Maps, and Google AI Overview. Do not neglect it. Just understand that it covers one AI platform, not all of them.</p>
+              </div>
+            </div>
+
+            <div className="not-prose ae-callout ae-callout-warning">
+              <div className="ae-callout-title">Do Not Make This Mistake</div>
+              <p>
+                Most businesses pour all their optimization energy into Google Business Profile and ignore everything else. When customers start using ChatGPT for recommendations (and millions already are), these businesses are invisible. The fix is not to stop optimizing GBP. The fix is to <strong>also</strong> optimize the sources that ChatGPT can actually read.
+              </p>
+            </div>
+
+            <div className="not-prose ae-cta-inline">
+              <p>Not sure where your biggest AI visibility gaps are?</p>
+              <Link href="/blindspot">Get a Free Blind Spot Report</Link>
+            </div>
+
+            {/* Section 7: Bar Chart - Quick Wins */}
+            <span className="not-prose ae-section-label">Quick Wins</span>
+            <h2 className="text-2xl font-bold text-white mt-4 mb-4 font-plus-jakarta">
+              Time vs. Impact: Where to Focus First
+            </h2>
+
+            <div className="not-prose ae-bar-group">
+              <div className="ae-bar-item">
+                <div className="ae-bar-label">Claim Bing Places (15 min)</div>
+                <div className="ae-bar-track">
+                  <div className="ae-bar-fill" style={{ width: '85%' }}></div>
+                </div>
+                <div className="ae-bar-value">High</div>
+              </div>
+              <div className="ae-bar-item">
+                <div className="ae-bar-label">Add Review Schema (30 min)</div>
+                <div className="ae-bar-track">
+                  <div className="ae-bar-fill" style={{ width: '70%' }}></div>
+                </div>
+                <div className="ae-bar-value">High</div>
+              </div>
+              <div className="ae-bar-item">
+                <div className="ae-bar-label">Complete Yelp Profile (1 hr)</div>
+                <div className="ae-bar-track">
+                  <div className="ae-bar-fill" style={{ width: '75%' }}></div>
+                </div>
+                <div className="ae-bar-value">High</div>
+              </div>
+              <div className="ae-bar-item">
+                <div className="ae-bar-label">Add Testimonials as Text (2 hrs)</div>
+                <div className="ae-bar-track">
+                  <div className="ae-bar-fill" style={{ width: '80%' }}></div>
+                </div>
+                <div className="ae-bar-value">High</div>
+              </div>
+              <div className="ae-bar-item">
+                <div className="ae-bar-label">Full Website Overhaul (1-2 weeks)</div>
+                <div className="ae-bar-track">
+                  <div className="ae-bar-fill" style={{ width: '95%' }}></div>
+                </div>
+                <div className="ae-bar-value">Highest</div>
+              </div>
+            </div>
+
+            <div className="not-prose ae-cta-inline">
+              <p>Let our team handle the technical optimization for you.</p>
+              <a href="mailto:support@theanswerengine.ai">Email Us to Get Started</a>
+            </div>
+
+            {/* FAQ Section */}
+            <span className="not-prose ae-section-label">FAQ</span>
+            <h2 className="text-2xl font-bold text-white mt-4 mb-4 font-plus-jakarta">
+              Frequently Asked Questions
+            </h2>
+
+            <h3>Why can&apos;t ChatGPT see my Google Business Profile?</h3>
+            <p>
+              ChatGPT uses Bing&apos;s search infrastructure, not Google&apos;s. Google Business Profile data is proprietary to Google and not accessible through Bing. Additionally, many Google pages require JavaScript to render, which AI crawlers cannot execute. The result is that ChatGPT has zero access to your GBP information.
+            </p>
+
+            <h3>What information can ChatGPT see about my business?</h3>
+            <p>
+              ChatGPT can access your website content, Bing Places listing, Yelp profile, Facebook page, Better Business Bureau listing, industry directories, news articles mentioning your business, and any other publicly accessible web pages that do not require JavaScript to load. Your website carries the most weight.
+            </p>
+
+            <h3>Does my website affect ChatGPT recommendations?</h3>
+            <p>
+              Yes, significantly. Your website is one of the primary sources ChatGPT uses to understand your business. The content, structure, and information on your website directly influences whether ChatGPT recommends you and how it describes your services to users.
+            </p>
+
+            <h3>Can ChatGPT see my Google reviews?</h3>
+            <p>
+              No. Google reviews are part of Google Business Profile and require JavaScript to load. ChatGPT cannot access them. To make your customer feedback visible to ChatGPT, display reviews as plain text on your website or build a strong presence on Yelp, which ChatGPT reads directly.
+            </p>
+
+            <h3>How do I make my business visible to ChatGPT?</h3>
+            <p>
+              Focus on four priorities: (1) Optimize your website with clear information about your services and service areas, (2) Claim and complete your Bing Places listing, (3) Build a presence on Yelp and industry directories, (4) Display testimonials as text on your website with proper schema markup.
+            </p>
+
+            <h3>What about Google AI Overview? Can it see my Google Business Profile?</h3>
+            <p>
+              Yes. Google AI Overview is Google&apos;s own AI and can fully access your Google Business Profile, Google reviews, and all Google data. This is why you need different optimization strategies for different AI platforms. Google AI uses Google data, while ChatGPT uses Bing data. A complete strategy covers both.
+            </p>
+
+            <div className="not-prose ae-cta-inline">
+              <p>Have questions about AI visibility for your specific industry?</p>
+              <a href="tel:+12134442229">Call (213) 444-2229</a>
+            </div>
+
+            {/* Related Articles */}
+            <span className="not-prose ae-section-label">Keep Reading</span>
+            <h2 className="text-2xl font-bold text-white mt-4 mb-4 font-plus-jakarta">
+              Related Articles
+            </h2>
+          </article>
+
+          {/* Related Articles Grid - outside prose */}
+          <div className="not-prose grid sm:grid-cols-2 gap-4 mb-16">
+            <Link href="/blog/do-google-reviews-affect-ai-recommendations" className="bg-white/[0.02] border border-white/[0.05] rounded-xl p-6 hover:border-[#FF6A00]/30 transition-colors group">
+              <div className="text-[#FF6A00] text-sm font-medium mb-2">Reviews &amp; AI</div>
+              <div className="text-white font-semibold group-hover:text-[#FF6A00] transition-colors">Do Google Reviews Affect AI Recommendations?</div>
+            </Link>
+            <Link href="/blog/bing-places-chatgpt-connection" className="bg-white/[0.02] border border-white/[0.05] rounded-xl p-6 hover:border-[#FF6A00]/30 transition-colors group">
+              <div className="text-[#FF6A00] text-sm font-medium mb-2">Hidden Connection</div>
+              <div className="text-white font-semibold group-hover:text-[#FF6A00] transition-colors">Why Bing Places Matters (The ChatGPT Connection)</div>
+            </Link>
+            <Link href="/blog/check-if-ai-recommends-your-business" className="bg-white/[0.02] border border-white/[0.05] rounded-xl p-6 hover:border-[#FF6A00]/30 transition-colors group">
+              <div className="text-[#FF6A00] text-sm font-medium mb-2">DIY Guide</div>
+              <div className="text-white font-semibold group-hover:text-[#FF6A00] transition-colors">How to Check If AI Recommends Your Business</div>
+            </Link>
+            <Link href="/blog/why-chatgpt-recommends-competitors" className="bg-white/[0.02] border border-white/[0.05] rounded-xl p-6 hover:border-[#FF6A00]/30 transition-colors group">
+              <div className="text-[#FF6A00] text-sm font-medium mb-2">Problem Solving</div>
+              <div className="text-white font-semibold group-hover:text-[#FF6A00] transition-colors">Why ChatGPT Recommends Your Competitors</div>
+            </Link>
           </div>
 
-          {/* FAQ Section */}
-          <section className="mb-12">
-            <h2 className="text-2xl sm:text-3xl font-semibold mb-8 text-white">Frequently Asked Questions</h2>
-
-            <div className="space-y-6">
-              <div className="bg-white/[0.02] border border-white/[0.05] rounded-xl p-6">
-                <h3 className="text-lg font-semibold text-white mb-3">Why can't ChatGPT see my Google Business Profile?</h3>
-                <p className="text-gray-300 leading-relaxed">
-                  ChatGPT uses Bing's search infrastructure, not Google's. Google Business Profile data is proprietary to Google and not accessible through Bing. Additionally, many Google pages require JavaScript to render, which AI crawlers cannot execute.
-                </p>
-              </div>
-
-              <div className="bg-white/[0.02] border border-white/[0.05] rounded-xl p-6">
-                <h3 className="text-lg font-semibold text-white mb-3">What information can ChatGPT see about my business?</h3>
-                <p className="text-gray-300 leading-relaxed">
-                  ChatGPT can access your website content, Bing Places listing, Yelp profile, Facebook page, Better Business Bureau listing, industry directories, news articles mentioning your business, and any other publicly accessible web pages that don't require JavaScript to load.
-                </p>
-              </div>
-
-              <div className="bg-white/[0.02] border border-white/[0.05] rounded-xl p-6">
-                <h3 className="text-lg font-semibold text-white mb-3">Does my website affect ChatGPT recommendations?</h3>
-                <p className="text-gray-300 leading-relaxed">
-                  Yes, significantly. Your website is one of the primary sources ChatGPT uses to understand your business. The content, structure, and information on your website directly influences whether ChatGPT recommends you and how it describes your services.
-                </p>
-              </div>
-
-              <div className="bg-white/[0.02] border border-white/[0.05] rounded-xl p-6">
-                <h3 className="text-lg font-semibold text-white mb-3">Can ChatGPT see my Google reviews?</h3>
-                <p className="text-gray-300 leading-relaxed">
-                  No. Google reviews are part of Google Business Profile and require JavaScript to load. ChatGPT cannot access them. To have reviews visible to ChatGPT, display them as text on your website or build presence on platforms like Yelp that ChatGPT can read.
-                </p>
-              </div>
-
-              <div className="bg-white/[0.02] border border-white/[0.05] rounded-xl p-6">
-                <h3 className="text-lg font-semibold text-white mb-3">How do I make my business visible to ChatGPT?</h3>
-                <p className="text-gray-300 leading-relaxed">
-                  Focus on: 1) Optimizing your website with clear information about your services and service areas, 2) Claiming and completing your Bing Places listing, 3) Building presence on Yelp and industry directories, 4) Displaying testimonials as text on your website with schema markup.
-                </p>
-              </div>
-
-              <div className="bg-white/[0.02] border border-white/[0.05] rounded-xl p-6">
-                <h3 className="text-lg font-semibold text-white mb-3">What about Google AI Overview? Can it see my Google Business Profile?</h3>
-                <p className="text-gray-300 leading-relaxed">
-                  Yes. Google AI Overview is Google's own AI and can fully access your Google Business Profile, Google reviews, and all Google data. This is why you need different optimization strategies for different AI platforms—Google AI uses Google data, ChatGPT uses Bing data.
-                </p>
-              </div>
+          {/* Author Card */}
+          <div className="not-prose ae-author-card">
+            <div>
+              <strong>The Answer Engine Team</strong>
+              <p>We help local service businesses get cited, recommended, and chosen by AI platforms like ChatGPT, Google AI Overview, and Perplexity. No guesswork. No fluff. Just the data that moves the needle.</p>
             </div>
-          </section>
+          </div>
 
-          {/* Related Content */}
-          <section className="mb-12">
-            <h2 className="text-2xl sm:text-3xl font-semibold mb-6 text-white">Related Articles</h2>
-            <div className="grid sm:grid-cols-2 gap-4">
-              <Link href="/blog/do-google-reviews-affect-ai-recommendations" className="bg-white/[0.02] border border-white/[0.05] rounded-xl p-6 hover:border-white/[0.08] transition-colors group">
-                <div className="text-white text-sm font-medium mb-2">Reviews & AI</div>
-                <div className="text-white font-semibold group-hover:text-white transition-colors">Do Google Reviews Affect AI Recommendations?</div>
-              </Link>
-              <Link href="/blog/bing-places-chatgpt-connection" className="bg-white/[0.02] border border-white/[0.05] rounded-xl p-6 hover:border-white/[0.08] transition-colors group">
-                <div className="text-white text-sm font-medium mb-2">Hidden Connection</div>
-                <div className="text-white font-semibold group-hover:text-white transition-colors">Why Bing Places Matters (The ChatGPT Connection)</div>
-              </Link>
-              <Link href="/blog/check-if-ai-recommends-your-business" className="bg-white/[0.02] border border-white/[0.05] rounded-xl p-6 hover:border-white/[0.08] transition-colors group">
-                <div className="text-white text-sm font-medium mb-2">DIY Guide</div>
-                <div className="text-white font-semibold group-hover:text-white transition-colors">How to Check If AI Recommends Your Business</div>
-              </Link>
-              <Link href="/blog/why-chatgpt-recommends-competitors" className="bg-white/[0.02] border border-white/[0.05] rounded-xl p-6 hover:border-white/[0.08] transition-colors group">
-                <div className="text-white text-sm font-medium mb-2">Problem Solving</div>
-                <div className="text-white font-semibold group-hover:text-white transition-colors">Why ChatGPT Recommends Your Competitors</div>
-              </Link>
-            </div>
-          </section>
+          {/* CTA Block */}
+          <div className="not-prose ae-cta-block">
+            <h2>Find Out If AI Is Recommending Your Business</h2>
+            <p>Most businesses have no idea whether AI platforms are sending them customers or sending them to competitors. Our free blind spot report shows you exactly where you stand across ChatGPT, Google AI Overview, Perplexity, and more.</p>
+            <Link href="/blindspot">Get Your Free Blind Spot Report</Link>
+          </div>
 
-          {/* CTA */}
-          <section className="text-center py-12 border-t border-white/[0.05]">
-            <h2 className="text-2xl sm:text-3xl font-semibold mb-4 text-white">Curious What ChatGPT Actually Sees About Your Business?</h2>
-            <p className="text-gray-400 mb-8 max-w-2xl mx-auto">
-              Our free AEO audit tests your visibility across ChatGPT, Perplexity, Google AI Overview, and more. Find out exactly what information AI has access to—and what's missing.
-            </p>
-            <Link
-              href="/#contact"
-              className="inline-flex items-center gap-2 bg-gradient-to-r from-white to-white text-white font-semibold px-8 py-4 rounded-xl hover:opacity-90 transition-opacity"
-            >
-              Get Your Free AEO Audit
-              <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={2}>
-                <path strokeLinecap="round" strokeLinejoin="round" d="M17 8l4 4m0 0l-4 4m4-4H3" />
-              </svg>
-            </Link>
-            <p className="text-gray-500 text-sm mt-4">See the gap between what you think AI knows and what it actually sees.</p>
-          </section>
-        </article>
+          <div className="not-prose ae-cta-inline">
+            <p>Prefer to talk through your situation first?</p>
+            <a href="tel:+12134442229">Call (213) 444-2229</a>
+          </div>
+
+          <div className="not-prose ae-cta-inline">
+            <p>Or send us a message anytime.</p>
+            <a href="mailto:support@theanswerengine.ai">Email support@theanswerengine.ai</a>
+          </div>
+
+          {/* Final CTA */}
+          <div className="not-prose ae-final-cta">
+            <h2>Your Competitors Are Already Optimizing for AI Search. Are You?</h2>
+            <p>Every day you wait is another day your competitors get recommended by ChatGPT instead of you. The businesses that act now will own the AI recommendations in their market. The ones that wait will wonder where their leads went.</p>
+            <Link href="/blindspot" className="ae-final-cta-pulse">See What AI Sees About Your Business</Link>
+          </div>
+
+        </div>
       </main>
     </>
   );

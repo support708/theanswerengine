@@ -161,28 +161,6 @@ const jsonLd = {
   ],
 }
 
-function Breadcrumb() {
-  return (
-    <nav aria-label="Breadcrumb" className="mb-8">
-      <ol className="flex items-center gap-2 text-sm text-gray-500">
-        <li>
-          <a href="/" className="hover:text-orange-400 transition-colors">
-            Home
-          </a>
-        </li>
-        <li>/</li>
-        <li>
-          <a href="/blog" className="hover:text-orange-400 transition-colors">
-            Blog
-          </a>
-        </li>
-        <li>/</li>
-        <li className="text-gray-400 truncate max-w-[250px]">{title}</li>
-      </ol>
-    </nav>
-  )
-}
-
 export default function Page() {
   return (
     <>
@@ -190,462 +168,514 @@ export default function Page() {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
       />
-      <main
-        className="min-h-screen"
-        style={{ backgroundColor: '#0F1117', color: 'white' }}
-      >
-        <div className="max-w-4xl mx-auto px-6 py-20">
-          <Breadcrumb />
+      <main className="min-h-screen bg-[#0A0A0F]">
+        <article className="max-w-4xl mx-auto px-6 py-12 sm:py-16">
+          {/* Breadcrumbs */}
+          <nav className="text-sm text-gray-500 mb-8">
+            <Link href="/" className="hover:text-white transition-colors">Home</Link>
+            <span className="mx-2">&rsaquo;</span>
+            <Link href="/blog" className="hover:text-white transition-colors">Blog</Link>
+            <span className="mx-2">&rsaquo;</span>
+            <span className="text-gray-400">Website Too Slow for AI Crawlers</span>
+          </nav>
 
-          {/* Hero Section */}
-          <div
-            className="relative overflow-hidden rounded-2xl mb-12"
-            style={{
-              background:
-                'linear-gradient(135deg, #0c2d48 0%, #1a1a2e 50%, #111827 100%)',
-            }}
-          >
-            <svg
-              className="absolute inset-0 w-full h-full opacity-10"
-              viewBox="0 0 800 400"
-              fill="none"
-              aria-hidden="true"
-            >
-              {/* Speed / loading pattern */}
-              <circle cx="120" cy="200" r="60" stroke="#FF6A00" strokeWidth="2" fill="none" opacity="0.3" />
-              <circle cx="120" cy="200" r="45" stroke="#FF6A00" strokeWidth="1.5" fill="none" opacity="0.2" />
-              <circle cx="120" cy="200" r="30" stroke="#FF6A00" strokeWidth="1" fill="none" opacity="0.15" />
-              <line x1="120" y1="200" x2="120" y2="155" stroke="#FF6A00" strokeWidth="2" opacity="0.4" />
-              <line x1="120" y1="200" x2="148" y2="215" stroke="#FF6A00" strokeWidth="1.5" opacity="0.3" />
-              {/* Server bars */}
-              <rect x="300" y="80" width="12" height="240" rx="4" fill="#FF6A00" opacity="0.08" />
-              <rect x="330" y="120" width="12" height="200" rx="4" fill="#FF6A00" opacity="0.12" />
-              <rect x="360" y="160" width="12" height="160" rx="4" fill="#FF6A00" opacity="0.16" />
-              <rect x="390" y="100" width="12" height="220" rx="4" fill="#FF6A00" opacity="0.1" />
-              <rect x="420" y="140" width="12" height="180" rx="4" fill="#FF6A00" opacity="0.14" />
-              {/* Bot crawl lines */}
-              <path d="M550 80 L700 80 L700 120 L580 120 L580 160 L720 160" stroke="#FF6A00" strokeWidth="0.5" fill="none" opacity="0.25" />
-              <path d="M550 200 L650 200 L650 240 L580 240 L580 280 L700 280" stroke="#FF6A00" strokeWidth="0.5" fill="none" opacity="0.2" />
-              <circle cx="550" cy="80" r="4" fill="#FF6A00" opacity="0.3" />
-              <circle cx="550" cy="200" r="4" fill="#FF6A00" opacity="0.25" />
-              <text x="540" y="340" fontFamily="monospace" fontSize="11" fill="#FF6A00" opacity="0.15">TIMEOUT</text>
-            </svg>
-            <div className="relative px-8 py-16 sm:px-12 sm:py-20">
-              <p className="text-sm font-medium text-orange-400 mb-4">AEO Education</p>
-              <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-white leading-tight mb-6 font-plus-jakarta">
-                Why Your Website Loads Too Slow for AI Crawlers
-              </h1>
-              <div className="flex items-center gap-4 text-sm text-gray-400">
-                <span>March 19, 2026</span>
-                <span>-</span>
+          {/* Header */}
+          <header className="mb-12">
+            <div className="inline-flex items-center gap-2 px-4 py-2 rounded-xl mb-6 bg-white/[0.04] border border-white/[0.08]">
+              <span className="text-sm font-semibold tracking-wider uppercase text-white">AEO Education</span>
+            </div>
+
+            <h1 className="text-3xl sm:text-4xl lg:text-5xl font-semibold mb-6 text-white leading-tight font-plus-jakarta">
+              Why Your Website Loads Too Slow for AI Crawlers
+            </h1>
+
+            <div className="bg-gradient-to-br from-white/[0.02] to-white/[0.02] border border-white/[0.08] rounded-xl p-6 mb-8">
+              <p className="text-lg text-white leading-relaxed">
+                <strong>AI crawlers like GPTBot and PerplexityBot abandon slow pages in 1 to 5 seconds.</strong> If your server cannot deliver content within that window, your business is invisible to the fastest-growing discovery channel on the internet. This guide covers why speed kills AI visibility, how crawl budgets work, and the exact fixes to prioritize.
+              </p>
+            </div>
+
+            <div className="flex flex-wrap gap-4 text-sm text-gray-400">
+              <div className="flex items-center gap-2">
+                <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={2}>
+                  <path strokeLinecap="round" strokeLinejoin="round" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
+                </svg>
                 <span>12 min read</span>
-                <span>-</span>
+              </div>
+              <div className="flex items-center gap-2">
+                <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={2}>
+                  <path strokeLinecap="round" strokeLinejoin="round" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
+                </svg>
+                <span>March 19, 2026</span>
+              </div>
+              <div className="flex items-center gap-2">
+                <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={2}>
+                  <path strokeLinecap="round" strokeLinejoin="round" d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z" />
+                </svg>
                 <span>The Answer Engine Team</span>
               </div>
             </div>
-          </div>
+          </header>
 
-          {/* Article Body */}
-          <article className="prose prose-invert prose-lg max-w-none">
+          {/* Main Content */}
+          <div className="prose prose-invert prose-lg max-w-none prose-headings:font-plus-jakarta prose-headings:text-white prose-p:text-gray-300 prose-a:text-[#FF6A00] prose-a:no-underline hover:prose-a:underline prose-strong:text-white">
 
-            {/* Intro */}
-            <p className="text-xl text-gray-300 leading-relaxed mb-10">
-              Your website might rank on page one of Google. Your content might be
-              well-researched and genuinely useful. But if your pages take more than a
-              few seconds to load, AI crawlers are skipping you entirely. GPTBot,
-              PerplexityBot, Google-Extended, and ClaudeBot all have one thing in
-              common: they are less patient than traditional search engines, and they
-              will abandon slow pages without a second attempt.{' '}
-              <strong className="text-white">AI crawlers impose resource constraints and
-              tight timeouts of 1 to 5 seconds per page</strong>, according to crawler
-              analysis research published in 2025. If your server cannot deliver content
-              within that window, your business is invisible to the fastest-growing
-              discovery channel on the internet.
-            </p>
+            {/* Stats Grid */}
+            <div className="ae-stats-grid not-prose">
+              <div className="ae-stat-card">
+                <div className="ae-stat-value ae-accent">50B+</div>
+                <div className="ae-stat-label">AI crawler requests per day on Cloudflare alone (2025)</div>
+              </div>
+              <div className="ae-stat-card">
+                <div className="ae-stat-value ae-accent">1-5s</div>
+                <div className="ae-stat-label">Timeout window before AI crawlers abandon your page</div>
+              </div>
+              <div className="ae-stat-card">
+                <div className="ae-stat-value ae-accent">305%</div>
+                <div className="ae-stat-label">GPTBot traffic growth year over year (Cloudflare, 2025)</div>
+              </div>
+              <div className="ae-stat-card">
+                <div className="ae-stat-value ae-accent">4x</div>
+                <div className="ae-stat-label">Crawl rate multiplier from faster server response times</div>
+              </div>
+            </div>
 
             {/* Section 1 */}
-            <h2 className="text-2xl font-bold text-white mt-12 mb-4 font-plus-jakarta">
-              The AI Crawler Explosion: 50 Billion Requests Per Day
-            </h2>
-            <p className="text-gray-300 leading-relaxed mb-4">
-              The scale of AI crawling is staggering. According to Cloudflare&apos;s 2025
-              data, AI bots generate{' '}
-              <strong className="text-white">over 50 billion requests per day</strong> across
-              their network alone. That represents just under 1% of all web traffic
-              Cloudflare processes. And the volume is growing fast. OpenAI&apos;s GPTBot
-              grew 305% in a single year, jumping from 2.2% to 7.7% of all crawler
-              traffic observed by Cloudflare between 2024 and 2025.
-            </p>
-            <p className="text-gray-300 leading-relaxed mb-4">
-              These crawlers are not just indexing your site for search results. They
-              are collecting data to train large language models, power AI search
-              features, and generate real-time answers for users. When someone asks
-              ChatGPT or Perplexity about your industry, the AI pulls from the pages
-              its crawlers were able to successfully fetch and parse. If your pages
-              loaded too slowly during the crawl window, your content was never
-              ingested, and you cannot appear in those AI-generated answers.
-            </p>
-            <p className="text-gray-300 leading-relaxed mb-4">
-              The competitive pressure is real. Googlebot still leads the pack,
-              reaching{' '}
-              <strong className="text-white">11.6% of unique web pages</strong> compared to
-              GPTBot&apos;s 3.6% and PerplexityBot&apos;s 0.06%, according to Cloudflare&apos;s
-              crawler analysis. But those percentages translate to billions of page
-              requests. And unlike Googlebot, which has decades of crawling infrastructure
-              behind it, AI crawlers are newer, more aggressive, and far less forgiving
-              of performance issues. Understanding how these crawlers interact with your
-              site is foundational to{' '}
-              <Link href="/blog/what-content-does-chatgpt-read-on-my-website" className="text-orange-400 hover:text-orange-300 transition-colors">
-                optimizing what AI platforms actually read on your website
-              </Link>.
-            </p>
+            <span className="ae-section-label">The Scale</span>
+            <h2>The AI Crawler Explosion: 50 Billion Requests Per Day</h2>
 
-            {/* Stat Callout 1 */}
-            <div className="my-8 p-6 rounded-xl border border-orange-500/30 bg-orange-500/5">
-              <p className="text-lg font-semibold text-white mb-2">AI Crawler Traffic at Scale</p>
-              <ul className="space-y-2 text-gray-300">
-                <li className="flex items-start gap-3">
-                  <span className="text-orange-400 font-bold mt-0.5">&#8226;</span>
-                  <span><strong className="text-white">50 billion+</strong> AI crawler requests per day on Cloudflare&apos;s network (Cloudflare, 2025)</span>
-                </li>
-                <li className="flex items-start gap-3">
-                  <span className="text-orange-400 font-bold mt-0.5">&#8226;</span>
-                  <span>GPTBot traffic grew <strong className="text-white">305%</strong> year over year, from 2.2% to 7.7% of crawler share (Cloudflare, 2025)</span>
-                </li>
-                <li className="flex items-start gap-3">
-                  <span className="text-orange-400 font-bold mt-0.5">&#8226;</span>
-                  <span>AI bots consume up to <strong className="text-white">40% of total crawl activity</strong> on websites they target</span>
-                </li>
-              </ul>
+            <p>Your website might rank on page one of Google. Your content might be well-researched and genuinely useful. But if your pages take more than a few seconds to load, AI crawlers are skipping you entirely.</p>
+
+            <p>GPTBot, PerplexityBot, Google-Extended, and ClaudeBot all share one trait: they are less patient than traditional search engines, and they will abandon slow pages without a second attempt. According to Cloudflare&apos;s 2025 data, AI bots generate <strong>over 50 billion requests per day</strong> across their network alone. That represents just under 1% of all web traffic Cloudflare processes.</p>
+
+            <p>The volume is growing fast. OpenAI&apos;s GPTBot grew 305% in a single year, jumping from 2.2% to 7.7% of all crawler traffic observed by Cloudflare between 2024 and 2025.</p>
+
+            <div className="ae-callout not-prose">
+              <p>These crawlers are not just indexing your site for search results. They are collecting data to train large language models, power AI search features, and generate real-time answers for users. If your pages loaded too slowly during the crawl window, your content was never ingested, and you cannot appear in those AI-generated answers.</p>
+            </div>
+
+            <p>The competitive pressure is real. Googlebot still leads the pack, reaching <strong>11.6% of unique web pages</strong> compared to GPTBot&apos;s 3.6% and PerplexityBot&apos;s 0.06%. But those percentages translate to billions of page requests. Understanding how these crawlers interact with your site is foundational to <Link href="/blog/what-content-does-chatgpt-read-on-my-website">optimizing what AI platforms actually read on your website</Link>.</p>
+
+            {/* CTA 1 */}
+            <div className="ae-cta-inline not-prose">
+              <p>Wondering if AI crawlers can even access your pages?</p>
+              <Link href="/blindspot">Get Your Free Blind Spot Report &rarr;</Link>
             </div>
 
             {/* Section 2 */}
-            <h2 className="text-2xl font-bold text-white mt-12 mb-4 font-plus-jakarta">
-              Why AI Crawlers Are Less Patient Than Googlebot
-            </h2>
-            <p className="text-gray-300 leading-relaxed mb-4">
-              Google has invested decades in building crawl infrastructure that can
-              handle slow, broken, and JavaScript-heavy pages. Googlebot will wait,
-              re-queue, and even render your JavaScript before giving up. AI crawlers
-              do not have that luxury, and frankly, they do not need it. They are
-              optimizing for data quality over completeness.
-            </p>
-            <p className="text-gray-300 leading-relaxed mb-4">
-              GPTBot focuses on parsing the{' '}
-              <strong className="text-white">raw HTML content from the initial page load</strong>.
-              It does not execute JavaScript. It does not wait for your React app to
-              hydrate. It does not render your dynamically-loaded content sections. If
-              your primary content is not present in the initial HTML response, GPTBot
-              simply does not see it. The same applies to PerplexityBot and most other
-              AI crawlers currently operating at scale.
-            </p>
-            <p className="text-gray-300 leading-relaxed mb-4">
-              This is a critical distinction. Google needs{' '}
-              <strong className="text-white">9 times more time to crawl JavaScript pages
-              than plain HTML</strong>, according to rendering research from Onely. But
-              at least Google attempts the render. AI crawlers skip the render step
-              entirely. If your content depends on client-side JavaScript, you are
-              invisible to the majority of AI platforms. This is why{' '}
-              <Link href="/blog/does-schema-markup-help-ai-search" className="text-orange-400 hover:text-orange-300 transition-colors">
-                server-rendered content with proper schema markup
-              </Link>{' '}
-              is essential for AI discovery.
-            </p>
+            <span className="ae-section-label">The Patience Gap</span>
+            <h2>Why AI Crawlers Are Less Patient Than Googlebot</h2>
+
+            <p>Google has invested decades in building crawl infrastructure that can handle slow, broken, and JavaScript-heavy pages. Googlebot will wait, re-queue, and even render your JavaScript before giving up. AI crawlers do not have that luxury, and they do not need it. They are optimizing for data quality over completeness.</p>
+
+            <p>GPTBot focuses on parsing the <strong>raw HTML content from the initial page load</strong>. It does not execute JavaScript. It does not wait for your React app to hydrate. It does not render your dynamically-loaded content sections. If your primary content is not present in the initial HTML response, GPTBot simply does not see it.</p>
+
+            {/* Comparison Table */}
+            <div className="ae-comparison-table not-prose">
+              <table>
+                <thead>
+                  <tr>
+                    <th>Capability</th>
+                    <th>Googlebot</th>
+                    <th>AI Crawlers (GPTBot, PerplexityBot)</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>JavaScript Rendering</td>
+                    <td>Yes (with delay)</td>
+                    <td>No</td>
+                  </tr>
+                  <tr>
+                    <td>Timeout Tolerance</td>
+                    <td>High (retries, re-queues)</td>
+                    <td>Low (1-5 seconds, then abandon)</td>
+                  </tr>
+                  <tr>
+                    <td>Crawl Frequency</td>
+                    <td>Daily to weekly</td>
+                    <td>Infrequent, long revisit intervals</td>
+                  </tr>
+                  <tr>
+                    <td>Content Parsing</td>
+                    <td>Full DOM after render</td>
+                    <td>Raw HTML only</td>
+                  </tr>
+                  <tr>
+                    <td>Error Recovery</td>
+                    <td>Re-queues failed pages</td>
+                    <td>Moves on permanently</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+
+            <p>Google needs <strong>9 times more time to crawl JavaScript pages than plain HTML</strong>, according to rendering research from Onely. But at least Google attempts the render. AI crawlers skip the render step entirely. This is why <Link href="/blog/does-schema-markup-help-ai-search">server-rendered content with proper schema markup</Link> is essential for AI discovery.</p>
+
+            <div className="ae-quote not-prose">
+              <p>If your content depends on client-side JavaScript, you are invisible to the majority of AI platforms. There is no workaround. There is no exception.</p>
+            </div>
+
+            {/* CTA 2 */}
+            <div className="ae-cta-inline not-prose">
+              <p>Not sure if your site relies on JavaScript for critical content?</p>
+              <a href="tel:+12134442229">Call us: (213) 444-2229 &rarr;</a>
+            </div>
 
             {/* Section 3 */}
-            <h2 className="text-2xl font-bold text-white mt-12 mb-4 font-plus-jakarta">
-              How Server Response Time Controls Your Crawl Budget
-            </h2>
-            <p className="text-gray-300 leading-relaxed mb-4">
-              Crawl budget is the number of pages a bot will fetch from your site
-              during a given crawl session. Both Google and AI crawlers dynamically
-              adjust this budget based on your server&apos;s response time. When your
-              server responds quickly (under 200 milliseconds), crawlers increase their
-              request rate because fast responses signal a healthy server that can
-              handle the load. When responses slow down or return errors, crawlers
-              throttle back to avoid crashing your site.
-            </p>
-            <p className="text-gray-300 leading-relaxed mb-4">
-              The impact is dramatic.{' '}
-              <strong className="text-white">Improving server response time can multiply
-              your daily crawl rate by 4x</strong>, according to crawl budget research
-              published in 2026. That means a site with a 500-millisecond TTFB (time
-              to first byte) might get one quarter of the crawl coverage compared to
-              a competitor running at 100-millisecond TTFB. Over weeks and months,
-              that gap compounds. The faster site has more pages ingested by AI
-              platforms, which means more opportunities to appear in AI-generated
-              answers.
-            </p>
-            <p className="text-gray-300 leading-relaxed mb-4">
-              For large websites, this becomes a zero-sum game. AI crawlers like
-              GPTBot have an infrequent crawl frequency with long revisit intervals.
-              Unless a page is considered high-value and authoritative, GPTBot may only
-              crawl it once every few weeks. If that single crawl attempt hits a slow
-              page, you lose your window entirely. The crawler moves on, and your
-              content remains outside the AI&apos;s training and retrieval data.
-            </p>
+            <span className="ae-section-label">Crawl Budget</span>
+            <h2>How Server Response Time Controls Your Crawl Budget</h2>
 
-            {/* Stat Callout 2 */}
-            <div className="my-8 p-6 rounded-xl border border-orange-500/30 bg-orange-500/5">
-              <p className="text-lg font-semibold text-white mb-2">Speed and Crawl Budget</p>
-              <ul className="space-y-2 text-gray-300">
-                <li className="flex items-start gap-3">
-                  <span className="text-orange-400 font-bold mt-0.5">&#8226;</span>
-                  <span>Server response under 200ms: crawlers <strong className="text-white">increase request rate</strong> (Google Search Central)</span>
-                </li>
-                <li className="flex items-start gap-3">
-                  <span className="text-orange-400 font-bold mt-0.5">&#8226;</span>
-                  <span>Faster response time can boost daily crawl rate by <strong className="text-white">up to 4x</strong> (ClickRank, 2026)</span>
-                </li>
-                <li className="flex items-start gap-3">
-                  <span className="text-orange-400 font-bold mt-0.5">&#8226;</span>
-                  <span>5xx errors or timeouts cause crawlers to <strong className="text-white">immediately reduce crawl rate</strong> (Google Search Central)</span>
-                </li>
-              </ul>
+            <p>Crawl budget is the number of pages a bot will fetch from your site during a given crawl session. Both Google and AI crawlers dynamically adjust this budget based on your server&apos;s response time. When your server responds quickly (under 200 milliseconds), crawlers increase their request rate because fast responses signal a healthy server. When responses slow down, crawlers throttle back to avoid crashing your site.</p>
+
+            <p>The impact is dramatic. <strong>Improving server response time can multiply your daily crawl rate by 4x</strong>, according to crawl budget research published in 2026. A site with a 500-millisecond TTFB might get one quarter of the crawl coverage compared to a competitor running at 100-millisecond TTFB.</p>
+
+            {/* Bar Chart */}
+            <div className="ae-bar-group not-prose">
+              <h3>Daily Crawl Coverage by TTFB</h3>
+              <div className="ae-bar-item" style={{ '--bar-width': '100%' } as React.CSSProperties}>
+                <span className="ae-bar-label">100ms TTFB</span>
+                <span className="ae-bar-value">4x crawl rate (maximum coverage)</span>
+              </div>
+              <div className="ae-bar-item" style={{ '--bar-width': '75%' } as React.CSSProperties}>
+                <span className="ae-bar-label">200ms TTFB</span>
+                <span className="ae-bar-value">3x crawl rate (target threshold)</span>
+              </div>
+              <div className="ae-bar-item" style={{ '--bar-width': '50%' } as React.CSSProperties}>
+                <span className="ae-bar-label">500ms TTFB</span>
+                <span className="ae-bar-value">2x crawl rate (noticeable throttle)</span>
+              </div>
+              <div className="ae-bar-item" style={{ '--bar-width': '25%' } as React.CSSProperties}>
+                <span className="ae-bar-label">1000ms+ TTFB</span>
+                <span className="ae-bar-value">1x crawl rate (severe throttle)</span>
+              </div>
+            </div>
+
+            <p>For large websites, this becomes a zero-sum game. AI crawlers like GPTBot have an infrequent crawl frequency with long revisit intervals. Unless a page is considered high-value and authoritative, GPTBot may only crawl it once every few weeks. If that single crawl attempt hits a slow page, you lose your window entirely.</p>
+
+            <div className="ae-takeaway not-prose">
+              <div className="ae-takeaway-title">Key Takeaway</div>
+              <p>Every millisecond of TTFB reduction directly expands your crawl budget. The faster site gets more pages ingested by AI platforms, which means more opportunities to appear in AI-generated answers.</p>
+            </div>
+
+            {/* CTA 3 */}
+            <div className="ae-cta-inline not-prose">
+              <p>Want to know exactly how many of your pages AI crawlers are actually reaching?</p>
+              <Link href="/blindspot">Get Your Free Blind Spot Report &rarr;</Link>
             </div>
 
             {/* Section 4 */}
-            <h2 className="text-2xl font-bold text-white mt-12 mb-4 font-plus-jakarta">
-              The Double Penalty: AI Bots Slowing Your Site for Everyone
-            </h2>
-            <p className="text-gray-300 leading-relaxed mb-4">
-              Here is the cruel irony of AI crawlers: they can actually make your
-              website slower for real users, which in turn makes your site perform
-              worse for other crawlers too. AI bots now account for a significant
-              portion of all web traffic. Roughly{' '}
-              <strong className="text-white">49% to 51% of all internet traffic is now
-              bot-driven</strong>, with AI-oriented bots making up 4.2% of all HTML page
-              requests in 2025.
-            </p>
-            <p className="text-gray-300 leading-relaxed mb-4">
-              When multiple AI crawlers hit your site simultaneously, they consume
-              server resources that would otherwise serve your human visitors.
-              Increased server load from high-frequency scraping slows down your
-              website, and slower response times directly hurt your Core Web Vitals
-              scores. Specifically, your Largest Contentful Paint (LCP) and Interaction
-              to Next Paint (INP) metrics suffer, which can cost you organic search
-              rankings on Google.
-            </p>
-            <p className="text-gray-300 leading-relaxed mb-4">
-              The crawl-to-referral ratio makes this worse. Anthropic&apos;s ClaudeBot
-              crawls{' '}
-              <strong className="text-white">23,951 pages for every single referral</strong> it
-              sends back to the source website. GPTBot&apos;s ratio sits at 1,276 to 1.
-              Even Perplexity, which has the best ratio among major AI platforms, still
-              crawls hundreds of pages for every click it delivers. That means AI
-              crawlers consume enormous amounts of your server bandwidth while
-              delivering comparatively little traffic in return. Managing this balance
-              is part of broader{' '}
-              <Link href="/blog/how-perplexity-decides-what-to-cite" className="text-orange-400 hover:text-orange-300 transition-colors">
-                AI platform visibility strategy
-              </Link>.
-            </p>
+            <span className="ae-section-label">The Double Penalty</span>
+            <h2>AI Bots Slowing Your Site for Everyone</h2>
+
+            <p>Here is the cruel irony of AI crawlers: they can actually make your website slower for real users, which in turn makes your site perform worse for other crawlers too. Roughly <strong>49% to 51% of all internet traffic is now bot-driven</strong>, with AI-oriented bots making up 4.2% of all HTML page requests in 2025.</p>
+
+            <p>When multiple AI crawlers hit your site simultaneously, they consume server resources that would otherwise serve your human visitors. Increased server load from high-frequency scraping slows down your website, and slower response times directly hurt your Core Web Vitals scores.</p>
+
+            {/* Decision Matrix */}
+            <div className="ae-decision-matrix not-prose">
+              <h3>Crawl-to-Referral Ratio by AI Platform</h3>
+              <table>
+                <thead>
+                  <tr>
+                    <th>AI Platform</th>
+                    <th>Pages Crawled per Referral</th>
+                    <th>Server Impact</th>
+                    <th>ROI Efficiency</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>ClaudeBot (Anthropic)</td>
+                    <td>23,951 to 1</td>
+                    <td>Very High</td>
+                    <td>Low</td>
+                  </tr>
+                  <tr>
+                    <td>GPTBot (OpenAI)</td>
+                    <td>1,276 to 1</td>
+                    <td>High</td>
+                    <td>Moderate</td>
+                  </tr>
+                  <tr>
+                    <td>PerplexityBot</td>
+                    <td>Hundreds to 1</td>
+                    <td>Moderate</td>
+                    <td>Best among AI bots</td>
+                  </tr>
+                  <tr>
+                    <td>Googlebot</td>
+                    <td>Low ratio</td>
+                    <td>Managed</td>
+                    <td>Highest</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+
+            <p>AI crawlers consume enormous amounts of your server bandwidth while delivering comparatively little traffic in return. Managing this balance is part of broader <Link href="/blog/how-perplexity-decides-what-to-cite">AI platform visibility strategy</Link>.</p>
+
+            {/* CTA 4 */}
+            <div className="ae-cta-inline not-prose">
+              <p>Is AI crawler traffic hurting your site performance? Let us diagnose it.</p>
+              <a href="mailto:support@theanswerengine.ai">Email us: support@theanswerengine.ai &rarr;</a>
+            </div>
 
             {/* Section 5 */}
-            <h2 className="text-2xl font-bold text-white mt-12 mb-4 font-plus-jakarta">
-              Core Web Vitals as an AI Visibility Gatekeeper
-            </h2>
-            <p className="text-gray-300 leading-relaxed mb-4">
-              A 2026 analysis of{' '}
-              <strong className="text-white">107,000 pages</strong> published by Search
-              Engine Land revealed a critical threshold effect for AI search visibility.
-              Pages with an LCP above 5 seconds were routinely excluded from AI search
-              results. The data showed that Core Web Vitals act as a constraint rather
-              than a growth lever. Good performance does not boost your AI visibility,
-              but poor performance actively kills it.
-            </p>
-            <p className="text-gray-300 leading-relaxed mb-4">
-              The research found that pages optimized for sub-2-second LCP performed
-              no better in AI rankings than pages with a 2.5-second LCP. But once
-              load times crossed the 5-second mark, AI platforms began consistently
-              deprioritizing those pages. Think of it as a pass/fail gate: you need to
-              clear the performance threshold to be eligible for AI citations, but
-              going faster than the threshold does not earn extra credit.
-            </p>
-            <p className="text-gray-300 leading-relaxed mb-4">
-              This matters because AI systems generating answers from multiple sources
-              evaluate which sources provide the best user experience alongside content
-              quality. A page with excellent information but a 7-second load time may
-              get deprioritized in favor of a page with good information and a
-              2-second load time. The AI platforms are effectively filtering out sources
-              that would create a poor experience for the end user who clicks through.
-            </p>
+            <span className="ae-section-label">The Gatekeeper</span>
+            <h2>Core Web Vitals as an AI Visibility Gatekeeper</h2>
+
+            <p>A 2026 analysis of <strong>107,000 pages</strong> published by Search Engine Land revealed a critical threshold effect for AI search visibility. Pages with an LCP above 5 seconds were routinely excluded from AI search results.</p>
+
+            <p>The data showed that Core Web Vitals act as a constraint rather than a growth lever. Good performance does not boost your AI visibility, but poor performance actively kills it.</p>
+
+            {/* Pros and Cons */}
+            <div className="ae-pros-cons not-prose">
+              <div className="ae-pros">
+                <h4>Fast Sites (LCP Under 2.5s)</h4>
+                <ul>
+                  <li>Eligible for AI citations and recommendations</li>
+                  <li>Maximum crawl budget allocation</li>
+                  <li>Content fully ingested by AI platforms</li>
+                  <li>Good user experience for click-through visitors</li>
+                  <li>Higher Google organic rankings as a bonus</li>
+                </ul>
+              </div>
+              <div className="ae-cons">
+                <h4>Slow Sites (LCP Over 5s)</h4>
+                <ul>
+                  <li>Routinely excluded from AI search results</li>
+                  <li>Severely throttled crawl budget</li>
+                  <li>Content never makes it into AI datasets</li>
+                  <li>Poor experience drives away click-through traffic</li>
+                  <li>Organic rankings drop from Core Web Vitals failure</li>
+                </ul>
+              </div>
+            </div>
+
+            <p>Think of it as a pass/fail gate: you need to clear the performance threshold to be eligible for AI citations, but going faster than the threshold does not earn extra credit. Pages optimized for sub-2-second LCP performed no better in AI rankings than pages with a 2.5-second LCP. But once load times crossed the 5-second mark, AI platforms began consistently deprioritizing those pages.</p>
+
+            <div className="ae-callout not-prose">
+              <p>AI systems generating answers from multiple sources evaluate which sources provide the best user experience alongside content quality. A page with excellent information but a 7-second load time may get deprioritized in favor of a page with good information and a 2-second load time.</p>
+            </div>
+
+            {/* CTA 5 */}
+            <div className="ae-cta-inline not-prose">
+              <p>Find out if your Core Web Vitals are blocking you from AI search results.</p>
+              <Link href="/blindspot">Get Your Free Blind Spot Report &rarr;</Link>
+            </div>
 
             {/* Section 6 */}
-            <h2 className="text-2xl font-bold text-white mt-12 mb-4 font-plus-jakarta">
-              What to Fix First: The Speed Optimization Priority List
-            </h2>
-            <p className="text-gray-300 leading-relaxed mb-4">
-              Not all speed optimizations matter equally for AI crawler visibility.
-              Based on how AI crawlers actually process pages, here is the priority
-              order for fixes that will have the biggest impact on whether your content
-              gets ingested by AI platforms.
-            </p>
+            <span className="ae-section-label">The Fix List</span>
+            <h2>What to Fix First: The Speed Optimization Priority List</h2>
 
-            <h3 className="text-xl font-semibold text-white mt-8 mb-3 font-plus-jakarta">
-              1. Fix Your Server Response Time (TTFB)
-            </h3>
-            <p className="text-gray-300 leading-relaxed mb-4">
-              Your time to first byte should be under 200 milliseconds. This is the
-              single most important metric for AI crawler access because it determines
-              whether the crawler even begins receiving your content within its timeout
-              window. Upgrade your hosting, implement server-side caching, and use a
-              CDN to get responses to crawlers as fast as possible. Every millisecond
-              of TTFB reduction directly expands your crawl budget.
-            </p>
+            <p>Not all speed optimizations matter equally for AI crawler visibility. Based on how AI crawlers actually process pages, here is the priority order for fixes that will have the biggest impact on whether your content gets ingested by AI platforms.</p>
 
-            <h3 className="text-xl font-semibold text-white mt-8 mb-3 font-plus-jakarta">
-              2. Move to Server-Side Rendering
-            </h3>
-            <p className="text-gray-300 leading-relaxed mb-4">
-              Since AI crawlers do not execute JavaScript, your content must be
-              present in the initial HTML response. If you are running a single-page
-              application (React, Vue, or Angular) that relies on client-side
-              rendering, your critical content is invisible to GPTBot, PerplexityBot,
-              and most other AI crawlers. Switch to server-side rendering (SSR) or
-              static site generation (SSG) so your content is available in the raw
-              HTML. Frameworks like Next.js, Nuxt, and Astro make this straightforward.
-            </p>
+            {/* Cheat Sheet */}
+            <div className="ae-cheat-sheet not-prose">
+              <h3>AI Crawler Speed Optimization Cheat Sheet</h3>
+              <table>
+                <thead>
+                  <tr>
+                    <th>Priority</th>
+                    <th>Fix</th>
+                    <th>Target</th>
+                    <th>Impact on AI Visibility</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>#1</td>
+                    <td>Server Response Time (TTFB)</td>
+                    <td>Under 200ms</td>
+                    <td>Determines if crawlers even begin receiving content</td>
+                  </tr>
+                  <tr>
+                    <td>#2</td>
+                    <td>Server-Side Rendering</td>
+                    <td>Content in initial HTML</td>
+                    <td>Makes content visible to all AI crawlers</td>
+                  </tr>
+                  <tr>
+                    <td>#3</td>
+                    <td>Page Weight Reduction</td>
+                    <td>Minimal payload</td>
+                    <td>Reduces time within timeout window</td>
+                  </tr>
+                  <tr>
+                    <td>#4</td>
+                    <td>AI Crawler Rate Management</td>
+                    <td>Balanced access</td>
+                    <td>Prevents server overload from bot traffic</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
 
-            <h3 className="text-xl font-semibold text-white mt-8 mb-3 font-plus-jakarta">
-              3. Reduce Page Weight
-            </h3>
-            <p className="text-gray-300 leading-relaxed mb-4">
-              The median web page weight has grown 5x in the past 15 years. Every
-              unnecessary kilobyte adds to your load time and eats into the crawler&apos;s
-              patience. Compress images (use WebP or AVIF formats), minify your CSS
-              and JavaScript, lazy-load below-the-fold images, and eliminate
-              third-party scripts that are not essential to your core content. Remember
-              that AI crawlers only care about the text content, not your hero
-              animations or interactive widgets.
-            </p>
+            <h3>1. Fix Your Server Response Time (TTFB)</h3>
 
-            <h3 className="text-xl font-semibold text-white mt-8 mb-3 font-plus-jakarta">
-              4. Manage AI Crawler Access Strategically
-            </h3>
-            <p className="text-gray-300 leading-relaxed mb-4">
-              Use your robots.txt file and crawl-rate directives to manage how AI
-              bots access your site. You do not need to block them entirely, but you
-              should control the pace so they do not overwhelm your server. Some
-              platforms like Cloudflare now offer AI Crawl Control features that let
-              you set specific rate limits per bot. The goal is to keep your server
-              responsive for both AI crawlers and human visitors without one group
-              starving the other of resources.
-            </p>
+            <p>Your time to first byte should be under 200 milliseconds. This is the single most important metric for AI crawler access because it determines whether the crawler even begins receiving your content within its timeout window. Upgrade your hosting, implement server-side caching, and use a CDN to get responses to crawlers as fast as possible.</p>
 
-            {/* Stat Callout 3 */}
-            <div className="my-8 p-6 rounded-xl border border-orange-500/30 bg-orange-500/5">
-              <p className="text-lg font-semibold text-white mb-2">Performance Thresholds for AI Visibility</p>
-              <ul className="space-y-2 text-gray-300">
-                <li className="flex items-start gap-3">
-                  <span className="text-orange-400 font-bold mt-0.5">&#8226;</span>
-                  <span>Pages with LCP above 5 seconds: <strong className="text-white">routinely excluded</strong> from AI search results (Search Engine Land, 2026)</span>
-                </li>
-                <li className="flex items-start gap-3">
-                  <span className="text-orange-400 font-bold mt-0.5">&#8226;</span>
-                  <span>Target TTFB: <strong className="text-white">under 200 milliseconds</strong> to maintain maximum crawl rate</span>
-                </li>
-                <li className="flex items-start gap-3">
-                  <span className="text-orange-400 font-bold mt-0.5">&#8226;</span>
-                  <span>JavaScript-dependent pages take <strong className="text-white">9x longer</strong> to crawl than plain HTML (Onely)</span>
-                </li>
-              </ul>
+            <h3>2. Move to Server-Side Rendering</h3>
+
+            <p>Since AI crawlers do not execute JavaScript, your content must be present in the initial HTML response. If you are running a single-page application (React, Vue, or Angular) that relies on client-side rendering, your critical content is invisible to GPTBot, PerplexityBot, and most other AI crawlers. Switch to SSR or SSG. Frameworks like Next.js, Nuxt, and Astro make this straightforward.</p>
+
+            <h3>3. Reduce Page Weight</h3>
+
+            <p>The median web page weight has grown 5x in the past 15 years. Compress images (use WebP or AVIF), minify CSS and JavaScript, lazy-load below-the-fold images, and eliminate third-party scripts that are not essential. AI crawlers only care about the text content, not your hero animations or interactive widgets.</p>
+
+            <h3>4. Manage AI Crawler Access Strategically</h3>
+
+            <p>Use your robots.txt file and crawl-rate directives to manage how AI bots access your site. Platforms like Cloudflare now offer AI Crawl Control features that let you set specific rate limits per bot. The goal is to keep your server responsive for both AI crawlers and human visitors.</p>
+
+            {/* CTA 6 */}
+            <div className="ae-cta-inline not-prose">
+              <p>Need help implementing these fixes? Our team specializes in AI crawler optimization.</p>
+              <a href="tel:+12134442229">Call us: (213) 444-2229 &rarr;</a>
             </div>
 
             {/* Section 7 */}
-            <h2 className="text-2xl font-bold text-white mt-12 mb-4 font-plus-jakarta">
-              The Rendering Gap: Why JavaScript Sites Get Left Behind
-            </h2>
-            <p className="text-gray-300 leading-relaxed mb-4">
-              There is a fundamental disconnect between how modern websites are built
-              and how AI crawlers consume content. Developers build rich, interactive
-              experiences with JavaScript frameworks. AI crawlers want plain, fast,
-              server-rendered HTML. These two priorities are in direct conflict unless
-              you plan for both audiences.
-            </p>
-            <p className="text-gray-300 leading-relaxed mb-4">
-              Google has a separate rendering pipeline that processes JavaScript pages,
-              but even Google&apos;s system introduces delays. Research from Onely found
-              that the median rendering delay for Googlebot is 10 seconds. At the 90th
-              percentile, the delay jumps to 3 hours, and at the 99th percentile it
-              reaches 18 hours. That means even for Google, your JavaScript-rendered
-              content may not be processed for hours or days after the initial crawl.
-            </p>
-            <p className="text-gray-300 leading-relaxed mb-4">
-              AI crawlers have no rendering pipeline at all. GPTBot, PerplexityBot,
-              and ClaudeBot work strictly with what the server delivers in the HTML
-              response. If your pricing page, FAQ section, service descriptions, or
-              any other content loads via JavaScript after the initial page load, it
-              simply does not exist in the AI&apos;s dataset. This is one of the most
-              common reasons businesses with great content still fail to appear in
-              AI-generated answers. The content is there for humans who wait for the
-              page to render, but it is absent for the bots that need it instantly.
-              Getting your{' '}
-              <Link href="/blog/5-minute-ai-visibility-audit" className="text-orange-400 hover:text-orange-300 transition-colors">
-                AI visibility audit
-              </Link>{' '}
-              done is the fastest way to identify these rendering gaps.
-            </p>
+            <span className="ae-section-label">The Rendering Gap</span>
+            <h2>Why JavaScript Sites Get Left Behind</h2>
+
+            <p>There is a fundamental disconnect between how modern websites are built and how AI crawlers consume content. Developers build rich, interactive experiences with JavaScript frameworks. AI crawlers want plain, fast, server-rendered HTML. These two priorities are in direct conflict unless you plan for both audiences.</p>
+
+            {/* Timeline */}
+            <div className="ae-timeline not-prose">
+              <div className="ae-timeline-item">
+                <strong>Initial Crawl Request</strong>
+                <p>AI crawler sends HTTP request. Clock starts. The crawler expects a complete HTML response within 1 to 5 seconds.</p>
+              </div>
+              <div className="ae-timeline-item">
+                <strong>Server Response (TTFB)</strong>
+                <p>Server begins sending HTML. If this takes over 200ms, the crawler starts throttling future requests to your site.</p>
+              </div>
+              <div className="ae-timeline-item">
+                <strong>HTML Parsing</strong>
+                <p>Crawler reads the raw HTML. This is ALL it reads. No JavaScript execution, no rendering pipeline, no waiting for async content.</p>
+              </div>
+              <div className="ae-timeline-item">
+                <strong>Content or Nothing</strong>
+                <p>If your content is in the HTML: ingested. If your content loads via JavaScript after initial render: invisible. There is no middle ground.</p>
+              </div>
+              <div className="ae-timeline-item">
+                <strong>Timeout or Success</strong>
+                <p>Page delivered within the window? Content enters the AI dataset. Page too slow? Crawler moves on. Your content stays outside the AI knowledge base.</p>
+              </div>
+            </div>
+
+            <p>Google has a separate rendering pipeline, but even Google&apos;s system introduces delays. The median rendering delay for Googlebot is 10 seconds. At the 90th percentile, the delay jumps to 3 hours, and at the 99th percentile it reaches 18 hours.</p>
+
+            <p>AI crawlers have no rendering pipeline at all. If your pricing page, FAQ section, service descriptions, or any other content loads via JavaScript after the initial page load, it simply does not exist in the AI&apos;s dataset. Getting your <Link href="/blog/5-minute-ai-visibility-audit">AI visibility audit</Link> done is the fastest way to identify these rendering gaps.</p>
+
+            {/* CTA 7 */}
+            <div className="ae-cta-inline not-prose">
+              <p>JavaScript-heavy site? Find out what AI crawlers actually see on your pages.</p>
+              <Link href="/blindspot">Get Your Free Blind Spot Report &rarr;</Link>
+            </div>
 
             {/* Section 8 */}
-            <h2 className="text-2xl font-bold text-white mt-12 mb-4 font-plus-jakarta">
-              Measuring Your AI Crawler Performance
-            </h2>
-            <p className="text-gray-300 leading-relaxed mb-4">
-              You cannot fix what you do not measure. Start by checking your server
-              logs for requests from GPTBot, PerplexityBot, ClaudeBot, and
-              Google-Extended. Look at the response codes and response times for those
-              specific user agents. If you see 5xx errors, timeouts, or response times
-              above 2 seconds, those are pages that AI crawlers are likely abandoning.
-            </p>
-            <p className="text-gray-300 leading-relaxed mb-4">
-              Next, test your critical pages using Google&apos;s PageSpeed Insights and
-              check your Core Web Vitals in Google Search Console. Pay special attention
-              to LCP on mobile, since that is the metric most strongly correlated with
-              AI exclusion. Any page with an LCP above 5 seconds should be treated as
-              an emergency fix for AI visibility purposes.
-            </p>
-            <p className="text-gray-300 leading-relaxed mb-4">
-              Finally, use the &quot;View Page Source&quot; test. Right-click on your page and
-              view the raw HTML source. If your main content, headings, FAQ answers,
-              and service descriptions are not visible in that raw source, they are not
-              visible to AI crawlers either. This simple test catches the most common
-              rendering gap that blocks AI visibility.
-            </p>
+            <span className="ae-section-label">Measurement</span>
+            <h2>Measuring Your AI Crawler Performance</h2>
 
-            {/* Conclusion */}
-            <h2 className="text-2xl font-bold text-white mt-12 mb-4 font-plus-jakarta">
-              Speed Is No Longer Optional for AI Visibility
-            </h2>
-            <p className="text-gray-300 leading-relaxed mb-4">
-              The websites that appear in AI-generated answers share a few common
-              traits: fast server response times, content available in the initial
-              HTML, and clean page structure that crawlers can parse quickly. None of
-              this requires cutting-edge technology. It requires prioritizing the
-              fundamentals that developers have known about for years but often
-              deprioritize in favor of flashy features.
-            </p>
-            <p className="text-gray-300 leading-relaxed mb-4">
-              AI search is growing rapidly. Referral traffic from AI platforms
-              increased 527% according to Search Engine Land&apos;s 2026 reporting. Every
-              page on your site that loads too slowly for AI crawlers is a missed
-              opportunity to appear in those AI-generated recommendations. Fix your
-              server response time, render your content server-side, reduce your page
-              weight, and manage your crawler access. These four actions will determine
-              whether AI platforms can see your business at all.
-            </p>
-            <p className="text-gray-300 leading-relaxed mb-10">
-              The window for getting this right is narrowing. As AI platforms refine
-              their crawl strategies and tighten their timeouts, the performance gap
-              between sites that get crawled and sites that get skipped will only
-              widen. The businesses that invest in speed today will own the AI
-              visibility that their slower competitors cannot access tomorrow.
-            </p>
+            <p>You cannot fix what you do not measure. Here is a systematic approach to diagnosing AI crawler performance issues on your site.</p>
 
-          </article>
+            {/* Decision Matrix for Measurement */}
+            <div className="ae-decision-matrix not-prose">
+              <h3>AI Crawler Diagnostic Checklist</h3>
+              <table>
+                <thead>
+                  <tr>
+                    <th>Check</th>
+                    <th>What to Look For</th>
+                    <th>Tool</th>
+                    <th>Action if Failing</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>Server Logs</td>
+                    <td>GPTBot, PerplexityBot, ClaudeBot requests with 5xx or timeouts</td>
+                    <td>Server access logs</td>
+                    <td>Fix server errors immediately</td>
+                  </tr>
+                  <tr>
+                    <td>Response Times</td>
+                    <td>AI bot response times over 2 seconds</td>
+                    <td>Log analysis</td>
+                    <td>Optimize TTFB and caching</td>
+                  </tr>
+                  <tr>
+                    <td>Core Web Vitals</td>
+                    <td>LCP above 5 seconds on mobile</td>
+                    <td>PageSpeed Insights</td>
+                    <td>Treat as emergency fix</td>
+                  </tr>
+                  <tr>
+                    <td>View Source Test</td>
+                    <td>Main content missing from raw HTML</td>
+                    <td>Browser &quot;View Page Source&quot;</td>
+                    <td>Implement server-side rendering</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+
+            <p>Start by checking your server logs for requests from GPTBot, PerplexityBot, ClaudeBot, and Google-Extended. Look at the response codes and response times for those specific user agents. If you see 5xx errors, timeouts, or response times above 2 seconds, those are pages that AI crawlers are likely abandoning.</p>
+
+            <p>Use the &quot;View Page Source&quot; test. Right-click on your page and view the raw HTML source. If your main content, headings, FAQ answers, and service descriptions are not visible in that raw source, they are not visible to AI crawlers either. This simple test catches the most common rendering gap that blocks AI visibility.</p>
+
+            {/* CTA 8 */}
+            <div className="ae-cta-inline not-prose">
+              <p>Skip the manual audit. Get a comprehensive AI visibility report in 48 hours.</p>
+              <a href="mailto:support@theanswerengine.ai">Email us: support@theanswerengine.ai &rarr;</a>
+            </div>
+
+            {/* Section 9 */}
+            <span className="ae-section-label">The Bottom Line</span>
+            <h2>Speed Is No Longer Optional for AI Visibility</h2>
+
+            <p>The websites that appear in AI-generated answers share a few common traits: fast server response times, content available in the initial HTML, and clean page structure that crawlers can parse quickly. None of this requires cutting-edge technology. It requires prioritizing the fundamentals.</p>
+
+            {/* Stats Grid 2 */}
+            <div className="ae-stats-grid not-prose">
+              <div className="ae-stat-card">
+                <div className="ae-stat-value ae-accent">527%</div>
+                <div className="ae-stat-label">Increase in AI referral traffic (Search Engine Land, 2026)</div>
+              </div>
+              <div className="ae-stat-card">
+                <div className="ae-stat-value ae-accent">9x</div>
+                <div className="ae-stat-label">Longer to crawl JavaScript pages vs plain HTML (Onely)</div>
+              </div>
+              <div className="ae-stat-card">
+                <div className="ae-stat-value ae-accent">107K</div>
+                <div className="ae-stat-label">Pages analyzed showing LCP &gt; 5s excluded from AI results</div>
+              </div>
+              <div className="ae-stat-card">
+                <div className="ae-stat-value ae-accent">200ms</div>
+                <div className="ae-stat-label">Target TTFB to maintain maximum AI crawl rate</div>
+              </div>
+            </div>
+
+            <p>AI search is growing rapidly. Every page on your site that loads too slowly for AI crawlers is a missed opportunity to appear in those AI-generated recommendations. Fix your server response time, render your content server-side, reduce your page weight, and manage your crawler access. These four actions will determine whether AI platforms can see your business at all.</p>
+
+            <div className="ae-quote not-prose">
+              <p>The window for getting this right is narrowing. As AI platforms refine their crawl strategies and tighten their timeouts, the performance gap between sites that get crawled and sites that get skipped will only widen.</p>
+            </div>
+
+            <p>The businesses that invest in speed today will own the AI visibility that their slower competitors cannot access tomorrow.</p>
+
+            {/* CTA 9 */}
+            <div className="ae-cta-inline not-prose">
+              <p>Ready to make your site fast enough for AI crawlers?</p>
+              <Link href="/blindspot">Get Your Free Blind Spot Report &rarr;</Link>
+            </div>
+
+          </div>
 
           {/* FAQ Section */}
           <section className="mt-16 mb-16">
+            <span className="ae-section-label">FAQ</span>
             <h2 className="text-2xl font-bold text-white mb-8 font-plus-jakarta">
               Frequently Asked Questions
             </h2>
@@ -726,49 +756,54 @@ export default function Page() {
             </div>
           </section>
 
-          {/* CTA Section */}
-          <section className="my-16 p-8 sm:p-12 rounded-2xl text-center" style={{ background: 'linear-gradient(135deg, #1a0a00 0%, #2d1600 50%, #1a0a00 100%)', border: '1px solid rgba(255, 106, 0, 0.3)' }}>
-            <h2 className="text-2xl sm:text-3xl font-bold text-white mb-4 font-plus-jakarta">
-              Is Your Website Too Slow for AI?
-            </h2>
-            <p className="text-gray-300 mb-8 max-w-xl mx-auto">
-              Our free Blind Spot Report analyzes how AI platforms see your website,
-              including performance issues that block AI crawlers from ingesting your
-              content. No pitch, just the data.
-            </p>
-            <Link
-              href="/blindspot"
-              className="inline-block px-8 py-4 rounded-xl font-semibold text-white transition-all hover:scale-105"
-              style={{ backgroundColor: '#FF6A00' }}
-            >
-              Get Your Free Blind Spot Report
-            </Link>
-    <div className="flex flex-wrap items-center gap-6 mt-6 pt-6 border-t border-[#FF6A00]/10">
-      <a href="tel:+12134442229" className="flex items-center gap-2 text-gray-400 hover:text-white transition-colors">
-        <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" /></svg>
-        (213) 444-2229
-      </a>
-      <a href="mailto:support@theanswerengine.ai" className="flex items-center gap-2 text-gray-400 hover:text-white transition-colors">
-        <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" /></svg>
-        support@theanswerengine.ai
-      </a>
-    </div>
-          </section>
-
-          {/* Author Attribution */}
-          <div className="flex items-center gap-4 mt-12 pt-8 border-t border-gray-800">
-            <div className="w-12 h-12 rounded-full flex items-center justify-center text-white font-bold text-sm" style={{ backgroundColor: '#FF6A00' }}>
-              AE
-            </div>
-            <div>
-              <p className="text-white font-semibold">The Answer Engine Team</p>
-              <p className="text-gray-500 text-sm">
-                Helping businesses get discovered by AI search platforms.
-              </p>
+          {/* CTA Block */}
+          <div className="ae-cta-block not-prose">
+            <h3>Still Unsure About Your AI Crawler Readiness?</h3>
+            <p>Talk to a real person about your site&apos;s AI visibility. No bots, no automated reports.</p>
+            <div className="flex flex-wrap gap-4 justify-center">
+              <a href="tel:+12134442229">Call: (213) 444-2229</a>
+              <a href="mailto:support@theanswerengine.ai">Email: support@theanswerengine.ai</a>
             </div>
           </div>
 
-        </div>
+          {/* Final CTA */}
+          <div className="ae-final-cta not-prose">
+            <h2>Is Your Website Too Slow for AI?</h2>
+            <p>Our free Blind Spot Report analyzes how AI platforms see your website, including performance issues that block AI crawlers from ingesting your content. No pitch, just the data.</p>
+            <Link href="/blindspot" className="ae-final-cta-pulse">
+              Get Your Free Blind Spot Report
+            </Link>
+            <div className="flex flex-wrap items-center justify-center gap-6 mt-6 pt-6 border-t border-[#FF6A00]/10">
+              <a href="tel:+12134442229" className="flex items-center gap-2 text-gray-400 hover:text-white transition-colors">
+                <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" /></svg>
+                (213) 444-2229
+              </a>
+              <a href="mailto:support@theanswerengine.ai" className="flex items-center gap-2 text-gray-400 hover:text-white transition-colors">
+                <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" /></svg>
+                support@theanswerengine.ai
+              </a>
+            </div>
+          </div>
+
+          {/* Author Card */}
+          <div className="ae-author-card not-prose">
+            <div className="w-14 h-14 rounded-full flex items-center justify-center text-white font-bold text-lg flex-shrink-0" style={{ backgroundColor: '#FF6A00' }}>
+              AE
+            </div>
+            <div>
+              <p className="text-white font-semibold text-lg">The Answer Engine Team</p>
+              <p className="text-gray-400 text-sm mt-1">
+                Helping businesses get discovered by AI search platforms. We specialize in making your website visible to ChatGPT, Perplexity, Claude, and Google AI.
+              </p>
+              <div className="flex flex-wrap gap-4 mt-3">
+                <Link href="/blindspot" className="text-[#FF6A00] text-sm font-medium hover:underline">Get a Free Report</Link>
+                <a href="tel:+12134442229" className="text-gray-400 text-sm hover:text-white transition-colors">(213) 444-2229</a>
+                <a href="mailto:support@theanswerengine.ai" className="text-gray-400 text-sm hover:text-white transition-colors">support@theanswerengine.ai</a>
+              </div>
+            </div>
+          </div>
+
+        </article>
       </main>
     </>
   )

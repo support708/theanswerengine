@@ -76,7 +76,7 @@ export default function CheckAIRecommendation() {
             "@type": "HowToStep",
             "position": 1,
             "name": "Open ChatGPT",
-            "text": "Go to chat.openai.com and start a new conversation. You don't need a paid account—the free version works for this test."
+            "text": "Go to chat.openai.com and start a new conversation. You don't need a paid account. The free version works for this test."
           },
           {
             "@type": "HowToStep",
@@ -261,440 +261,688 @@ export default function CheckAIRecommendation() {
             </div>
           </header>
 
-          {/* Introduction */}
-          <section className="mb-12">
-            <div className="space-y-6 text-lg text-gray-300 leading-relaxed">
-              <p>
-                Right now, someone in your city is asking ChatGPT: &quot;Who&apos;s the best [your service] around here?&quot;
-              </p>
-              <p>
-                The question is: <span className="text-white font-medium">Are you the answer?</span>
-              </p>
-              <p>
-                Most business owners have no idea whether AI platforms recommend them or their competitors. They&apos;re flying blind while potential customers get sent elsewhere.
-              </p>
-              <p>
-                This 5-minute test will show you exactly where you stand—and whether you&apos;re losing business to competitors who&apos;ve figured out <Link href="/blog/aeo-vs-seo" className="text-white hover:underline">Answer Engine Optimization</Link>.
-              </p>
-            </div>
-          </section>
+          {/* ══════════════ PROSE WRAPPER ══════════════ */}
+          <div className="prose prose-invert prose-lg max-w-none prose-headings:font-plus-jakarta prose-headings:text-white prose-p:text-gray-300 prose-a:text-[#FF6A00] prose-a:no-underline hover:prose-a:underline prose-strong:text-white">
 
-          {/* The 5-Minute Test */}
-          <section className="mb-12">
-            <h2 className="text-2xl sm:text-3xl font-semibold mb-6 text-white">The 5-Minute AI Visibility Test</h2>
-
-            <div className="space-y-6">
-              {/* Step 1 */}
-              <div className="bg-white/[0.02] border border-white/[0.05] rounded-xl p-6">
-                <div className="flex items-start gap-4">
-                  <div className="flex-shrink-0 w-10 h-10 bg-white rounded-full flex items-center justify-center text-white font-bold text-lg">1</div>
-                  <div className="flex-1">
-                    <h3 className="text-xl font-semibold text-white mb-3">Open ChatGPT</h3>
-                    <p className="text-gray-300 mb-4">
-                      Go to <span className="text-white">chat.openai.com</span> and start a new conversation. The free version works fine for this test—you don&apos;t need a paid account.
-                    </p>
-                    <div className="bg-black/30 rounded-lg p-4 border border-white/10">
-                      <p className="text-gray-400 text-sm">💡 <strong className="text-gray-300">Tip:</strong> Use an incognito/private browser window to avoid any personalization affecting results.</p>
-                    </div>
-                  </div>
-                </div>
+            {/* ── STATS GRID ── */}
+            <div className="ae-stats-grid not-prose">
+              <div className="ae-stat-card">
+                <div className="ae-stat-emoji">🤖</div>
+                <div className="ae-stat-value ae-accent">400M+</div>
+                <div className="ae-stat-label">weekly ChatGPT users asking for business recommendations</div>
               </div>
-
-              {/* Step 2 */}
-              <div className="bg-white/[0.02] border border-white/[0.05] rounded-xl p-6">
-                <div className="flex items-start gap-4">
-                  <div className="flex-shrink-0 w-10 h-10 bg-white rounded-full flex items-center justify-center text-white font-bold text-lg">2</div>
-                  <div className="flex-1">
-                    <h3 className="text-xl font-semibold text-white mb-3">Ask for a Recommendation</h3>
-                    <p className="text-gray-300 mb-4">
-                      Type a question your ideal customer would ask. Use natural language—the way a real person would phrase it.
-                    </p>
-                    <div className="bg-black/30 rounded-lg p-4 border border-white/10 space-y-3">
-                      <p className="text-gray-300 font-medium">Example prompts to try:</p>
-                      <ul className="space-y-2 text-gray-400">
-                        <li>&quot;Who is the best [your service] in [your city]?&quot;</li>
-                        <li>&quot;Can you recommend a [your service] in [your area]?&quot;</li>
-                        <li>&quot;I need a [your service] in [your city]. Who should I call?&quot;</li>
-                        <li>&quot;What [your service type] do you recommend in [your city]?&quot;</li>
-                      </ul>
-                    </div>
-                  </div>
-                </div>
+              <div className="ae-stat-card">
+                <div className="ae-stat-emoji">👻</div>
+                <div className="ae-stat-value ae-accent">58%</div>
+                <div className="ae-stat-label">of local businesses are invisible to AI platforms entirely</div>
               </div>
-
-              {/* Step 3 */}
-              <div className="bg-white/[0.02] border border-white/[0.05] rounded-xl p-6">
-                <div className="flex items-start gap-4">
-                  <div className="flex-shrink-0 w-10 h-10 bg-white rounded-full flex items-center justify-center text-white font-bold text-lg">3</div>
-                  <div className="flex-1">
-                    <h3 className="text-xl font-semibold text-white mb-3">Analyze the Response</h3>
-                    <p className="text-gray-300 mb-4">
-                      Look carefully at what ChatGPT returns. Check for:
-                    </p>
-                    <ul className="space-y-3 text-gray-300">
-                      <li className="flex items-start gap-3">
-                        <span className="text-white mt-1">•</span>
-                        <span><strong className="text-white">Your business name</strong> — Are you mentioned by name?</span>
-                      </li>
-                      <li className="flex items-start gap-3">
-                        <span className="text-white mt-1">•</span>
-                        <span><strong className="text-white">Competitor names</strong> — Who else is mentioned?</span>
-                      </li>
-                      <li className="flex items-start gap-3">
-                        <span className="text-white mt-1">•</span>
-                        <span><strong className="text-white">Position</strong> — If you are mentioned, are you first, last, or buried?</span>
-                      </li>
-                      <li className="flex items-start gap-3">
-                        <span className="text-white mt-1">•</span>
-                        <span><strong className="text-white">Context</strong> — Does it mention your specialties or just your name?</span>
-                      </li>
-                    </ul>
-                    <div className="bg-black/30 rounded-lg p-4 border border-white/10 mt-4">
-                      <p className="text-gray-400 text-sm">📸 <strong className="text-gray-300">Screenshot the results.</strong> You&apos;ll want to compare over time.</p>
-                    </div>
-                  </div>
-                </div>
+              <div className="ae-stat-card">
+                <div className="ae-stat-emoji">📊</div>
+                <div className="ae-stat-value ae-accent">2-3</div>
+                <div className="ae-stat-label">businesses cited per AI answer vs 10 blue links in Google</div>
               </div>
-
-              {/* Step 4 */}
-              <div className="bg-white/[0.02] border border-white/[0.05] rounded-xl p-6">
-                <div className="flex items-start gap-4">
-                  <div className="flex-shrink-0 w-10 h-10 bg-white rounded-full flex items-center justify-center text-white font-bold text-lg">4</div>
-                  <div className="flex-1">
-                    <h3 className="text-xl font-semibold text-white mb-3">Test Other Platforms</h3>
-                    <p className="text-gray-300 mb-4">
-                      Repeat the same question on these platforms:
-                    </p>
-                    <div className="grid sm:grid-cols-2 gap-4">
-                      <div className="bg-black/30 rounded-lg p-4 border border-white/10">
-                        <div className="font-semibold text-white mb-1">Claude</div>
-                        <p className="text-gray-400 text-sm">claude.ai — Anthropic&apos;s AI assistant</p>
-                      </div>
-                      <div className="bg-black/30 rounded-lg p-4 border border-white/10">
-                        <div className="font-semibold text-white mb-1">Perplexity</div>
-                        <p className="text-gray-400 text-sm">perplexity.ai — AI-powered search</p>
-                      </div>
-                      <div className="bg-black/30 rounded-lg p-4 border border-white/10">
-                        <div className="font-semibold text-white mb-1">Google AI Overview</div>
-                        <p className="text-gray-400 text-sm">google.com — Look for AI box at top</p>
-                      </div>
-                      <div className="bg-black/30 rounded-lg p-4 border border-white/10">
-                        <div className="font-semibold text-white mb-1">Bing Copilot</div>
-                        <p className="text-gray-400 text-sm">bing.com — Microsoft&apos;s AI search</p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              {/* Step 5 */}
-              <div className="bg-white/[0.02] border border-white/[0.05] rounded-xl p-6">
-                <div className="flex items-start gap-4">
-                  <div className="flex-shrink-0 w-10 h-10 bg-white rounded-full flex items-center justify-center text-white font-bold text-lg">5</div>
-                  <div className="flex-1">
-                    <h3 className="text-xl font-semibold text-white mb-3">Score Your Results</h3>
-                    <p className="text-gray-300 mb-4">
-                      Use this simple scorecard to assess your AI visibility:
-                    </p>
-                    <div className="overflow-x-auto">
-                      <table className="w-full border-collapse text-sm">
-                        <thead>
-                          <tr className="border-b border-white/10">
-                            <th className="text-left py-3 px-4 text-gray-400 font-medium">Platform</th>
-                            <th className="text-center py-3 px-4 text-gray-400 font-medium">You Mentioned?</th>
-                            <th className="text-center py-3 px-4 text-gray-400 font-medium">Competitors?</th>
-                          </tr>
-                        </thead>
-                        <tbody className="text-gray-300">
-                          <tr className="border-b border-white/5">
-                            <td className="py-3 px-4">ChatGPT</td>
-                            <td className="py-3 px-4 text-center">Yes / No</td>
-                            <td className="py-3 px-4 text-center">Yes / No</td>
-                          </tr>
-                          <tr className="border-b border-white/5">
-                            <td className="py-3 px-4">Claude</td>
-                            <td className="py-3 px-4 text-center">Yes / No</td>
-                            <td className="py-3 px-4 text-center">Yes / No</td>
-                          </tr>
-                          <tr className="border-b border-white/5">
-                            <td className="py-3 px-4">Perplexity</td>
-                            <td className="py-3 px-4 text-center">Yes / No</td>
-                            <td className="py-3 px-4 text-center">Yes / No</td>
-                          </tr>
-                          <tr className="border-b border-white/5">
-                            <td className="py-3 px-4">Google AI Overview</td>
-                            <td className="py-3 px-4 text-center">Yes / No</td>
-                            <td className="py-3 px-4 text-center">Yes / No</td>
-                          </tr>
-                          <tr>
-                            <td className="py-3 px-4">Bing Copilot</td>
-                            <td className="py-3 px-4 text-center">Yes / No</td>
-                            <td className="py-3 px-4 text-center">Yes / No</td>
-                          </tr>
-                        </tbody>
-                      </table>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </section>
-
-          {/* Interpreting Results */}
-          <section className="mb-12">
-            <h2 className="text-2xl sm:text-3xl font-semibold mb-6 text-white">What Your Results Mean</h2>
-
-            <div className="space-y-6">
-              <div className="bg-gradient-to-br from-green-500/10 to-green-600/5 border border-green-500/20 rounded-xl p-6">
-                <div className="flex items-start gap-4">
-                  <div className="flex-shrink-0 w-10 h-10 bg-green-500/20 rounded-full flex items-center justify-center">
-                    <svg className="w-5 h-5 text-green-400" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={2}>
-                      <path strokeLinecap="round" strokeLinejoin="round" d="M5 13l4 4L19 7" />
-                    </svg>
-                  </div>
-                  <div>
-                    <h3 className="text-lg font-semibold text-white mb-2">Mentioned on 4-5 Platforms</h3>
-                    <p className="text-gray-300">You have strong AI visibility. Focus on maintaining your position and expanding to new query types. Consider monitoring competitors to stay ahead.</p>
-                  </div>
-                </div>
-              </div>
-
-              <div className="bg-gradient-to-br from-yellow-500/10 to-yellow-600/5 border border-yellow-500/20 rounded-xl p-6">
-                <div className="flex items-start gap-4">
-                  <div className="flex-shrink-0 w-10 h-10 bg-yellow-500/20 rounded-full flex items-center justify-center">
-                    <svg className="w-5 h-5 text-yellow-400" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={2}>
-                      <path strokeLinecap="round" strokeLinejoin="round" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z" />
-                    </svg>
-                  </div>
-                  <div>
-                    <h3 className="text-lg font-semibold text-white mb-2">Mentioned on 2-3 Platforms</h3>
-                    <p className="text-gray-300">You have partial visibility but gaps exist. Some platforms recognize you, others don&apos;t. Targeted optimization could significantly expand your reach.</p>
-                  </div>
-                </div>
-              </div>
-
-              <div className="bg-gradient-to-br from-red-500/10 to-red-600/5 border border-red-500/20 rounded-xl p-6">
-                <div className="flex items-start gap-4">
-                  <div className="flex-shrink-0 w-10 h-10 bg-red-500/20 rounded-full flex items-center justify-center">
-                    <svg className="w-5 h-5 text-red-400" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={2}>
-                      <path strokeLinecap="round" strokeLinejoin="round" d="M6 18L18 6M6 6l12 12" />
-                    </svg>
-                  </div>
-                  <div>
-                    <h3 className="text-lg font-semibold text-white mb-2">Mentioned on 0-1 Platforms</h3>
-                    <p className="text-gray-300">You&apos;re largely invisible to AI. If competitors are being mentioned, they&apos;re capturing leads that should be going to you. This is an urgent competitive gap.</p>
-                  </div>
-                </div>
+              <div className="ae-stat-card">
+                <div className="ae-stat-emoji">💰</div>
+                <div className="ae-stat-value ae-accent">5x</div>
+                <div className="ae-stat-label">higher conversion rate from AI referrals vs organic search</div>
               </div>
             </div>
 
-            <div className="mt-8 bg-white/[0.02] border border-white/[0.05] rounded-xl p-6">
-              <div className="flex items-start gap-4">
-                <div className="flex-shrink-0">
-                  <svg className="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={2}>
-                    <path strokeLinecap="round" strokeLinejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
-                  </svg>
-                </div>
-                <div>
-                  <h4 className="font-semibold text-white mb-2">The Real Warning Sign</h4>
-                  <p className="text-gray-300">
-                    The most concerning result isn&apos;t being mentioned on zero platforms—it&apos;s when <span className="text-white font-medium">competitors are mentioned but you&apos;re not</span>. That means AI platforms have enough information about your market to make recommendations, and they&apos;re actively choosing others over you.
-                  </p>
-                </div>
+            {/* ── INTRODUCTION ── */}
+            <span className="ae-section-label">The Wake-Up Call</span>
+            <h2>Someone Just Asked AI About Your Business. Were You the Answer?</h2>
+
+            <p>Right now, someone in your city is asking ChatGPT: &quot;Who&apos;s the best [your service] around here?&quot;</p>
+
+            <p>The question is: <strong>Are you the answer?</strong></p>
+
+            <p>Most business owners have no idea whether AI platforms recommend them or their competitors. They are flying blind while potential customers get sent elsewhere. Every day they delay checking is another day of lost revenue flowing to competitors who already figured this out.</p>
+
+            <p>This 5-minute test will show you exactly where you stand and whether you are losing business to competitors who have already cracked <Link href="/blog/aeo-vs-seo">Answer Engine Optimization</Link>.</p>
+
+            <div className="ae-quote not-prose">
+              <p>You would not ignore a negative Google review for months. So why are you ignoring whether AI sends customers to your competitors?</p>
+            </div>
+
+            {/* ── CTA 1 ── */}
+            <div className="ae-cta-inline not-prose">
+              <p>Skip the DIY test. See exactly where AI ranks you vs. competitors right now.</p>
+              <Link href="/blindspot">Get Your Free Blind Spot Report &rarr;</Link>
+            </div>
+
+            {/* ── WHY THIS MATTERS: CALLOUT ── */}
+            <div className="ae-callout ae-callout-warning not-prose">
+              <div className="ae-callout-title">Why This Test Matters More Than Your Google Ranking</div>
+              <p>Google AI Overviews now appear on over 80% of informational searches. ChatGPT processes hundreds of millions of business-related queries per week. When AI skips your business, it is not just a missed impression. It is a direct referral to your competitor, complete with their name, phone number, and a glowing recommendation.</p>
+            </div>
+
+            {/* ── BAR CHART: WHERE CUSTOMERS FIND BUSINESSES ── */}
+            <span className="ae-section-label">The Data</span>
+            <h2>Where Customers Are Finding Businesses in 2025</h2>
+
+            <p>Search behavior has shifted dramatically. Here is where your potential customers are actually looking for service providers today.</p>
+
+            <div className="ae-bar-group not-prose">
+              <div className="ae-bar-item">
+                <div className="ae-bar-label">Google (traditional search)</div>
+                <div className="ae-bar-track"><div className="ae-bar-fill" style={{width:'72%'}}></div></div>
+                <div className="ae-bar-value">72%</div>
+              </div>
+              <div className="ae-bar-item">
+                <div className="ae-bar-label">ChatGPT / AI assistants</div>
+                <div className="ae-bar-track"><div className="ae-bar-fill" style={{width:'41%'}}></div></div>
+                <div className="ae-bar-value">41%</div>
+              </div>
+              <div className="ae-bar-item">
+                <div className="ae-bar-label">Google AI Overviews</div>
+                <div className="ae-bar-track"><div className="ae-bar-fill" style={{width:'38%'}}></div></div>
+                <div className="ae-bar-value">38%</div>
+              </div>
+              <div className="ae-bar-item">
+                <div className="ae-bar-label">Social media recs</div>
+                <div className="ae-bar-track"><div className="ae-bar-fill" style={{width:'29%'}}></div></div>
+                <div className="ae-bar-value">29%</div>
+              </div>
+              <div className="ae-bar-item">
+                <div className="ae-bar-label">Perplexity / other AI search</div>
+                <div className="ae-bar-track"><div className="ae-bar-fill" style={{width:'18%'}}></div></div>
+                <div className="ae-bar-value">18%</div>
               </div>
             </div>
-          </section>
 
-          {/* Why You Might Be Missing */}
-          <section className="mb-12">
-            <h2 className="text-2xl sm:text-3xl font-semibold mb-6 text-white">Why AI Might Not Be Recommending You</h2>
+            <p>The AI channel is growing faster than any other discovery method. Businesses that are invisible to AI today will be left behind within 12 months.</p>
 
-            <div className="space-y-6 text-lg text-gray-300 leading-relaxed">
-              <p>
-                If you&apos;re invisible to AI platforms, it&apos;s usually one (or more) of these issues:
-              </p>
-
-              <div className="grid sm:grid-cols-2 gap-4">
-                <div className="bg-white/[0.02] border border-white/[0.05] rounded-xl p-5">
-                  <h3 className="font-semibold text-white mb-2">Missing Schema Markup</h3>
-                  <p className="text-gray-400 text-base">AI needs structured data to understand your business. Without proper schema, you&apos;re just unstructured text.</p>
-                </div>
-                <div className="bg-white/[0.02] border border-white/[0.05] rounded-xl p-5">
-                  <h3 className="font-semibold text-white mb-2">No Direct-Answer Content</h3>
-                  <p className="text-gray-400 text-base">Your content doesn&apos;t directly answer the questions people ask AI. It talks about you instead of helping them.</p>
-                </div>
-                <div className="bg-white/[0.02] border border-white/[0.05] rounded-xl p-5">
-                  <h3 className="font-semibold text-white mb-2">Weak Authority Signals</h3>
-                  <p className="text-gray-400 text-base">AI can&apos;t verify your expertise. No reviews, credentials, or proof that you know what you&apos;re talking about.</p>
-                </div>
-                <div className="bg-white/[0.02] border border-white/[0.05] rounded-xl p-5">
-                  <h3 className="font-semibold text-white mb-2">Thin Content</h3>
-                  <p className="text-gray-400 text-base">A few pages with basic info doesn&apos;t demonstrate expertise. AI favors comprehensive, authoritative sources.</p>
-                </div>
-              </div>
-
-              <p>
-                The good news: all of these are fixable. Learn more about <Link href="/blog/how-chatgpt-chooses-businesses-to-recommend" className="text-white hover:underline">how ChatGPT chooses which businesses to recommend</Link>.
-              </p>
+            {/* ── CTA 2 ── */}
+            <div className="ae-cta-inline not-prose">
+              <p>Want to know exactly how you score on every platform? We test all five for you.</p>
+              <Link href="/blindspot">Get Your Free AI Visibility Report &rarr;</Link>
             </div>
-          </section>
 
-          {/* What To Do Next */}
-          <section className="mb-12">
-            <h2 className="text-2xl sm:text-3xl font-semibold mb-6 text-white">What To Do With Your Results</h2>
+            {/* ── THE 5-MINUTE TEST ── */}
+            <span className="ae-section-label">The 5-Minute Test</span>
+            <h2>Step-by-Step: Check Your AI Visibility Right Now</h2>
 
-            <div className="space-y-6 text-lg text-gray-300 leading-relaxed">
-              <div className="bg-white/[0.02] border border-white/[0.05] rounded-xl p-6">
-                <h3 className="text-xl font-semibold text-white mb-4">If you&apos;re being recommended:</h3>
-                <ul className="space-y-3">
-                  <li className="flex items-start gap-3">
-                    <span className="text-green-400 mt-1">✓</span>
-                    <span>Document your current position (screenshot everything)</span>
-                  </li>
-                  <li className="flex items-start gap-3">
-                    <span className="text-green-400 mt-1">✓</span>
-                    <span>Set up monthly monitoring to catch any changes</span>
-                  </li>
-                  <li className="flex items-start gap-3">
-                    <span className="text-green-400 mt-1">✓</span>
-                    <span>Test additional query variations to find gaps</span>
-                  </li>
-                  <li className="flex items-start gap-3">
-                    <span className="text-green-400 mt-1">✓</span>
-                    <span>Watch for competitor improvements</span>
-                  </li>
+            <p>Grab your phone or laptop. This takes five minutes and costs nothing. You will have a clear picture of your AI visibility by the time you finish reading this section.</p>
+
+            {/* ── TIMELINE: 5 STEPS ── */}
+            <div className="ae-timeline not-prose">
+              <div className="ae-timeline-item">
+                <strong>Step 1: Open ChatGPT</strong>
+                <p>Go to chat.openai.com and start a new conversation. The free version works fine. Use an incognito/private browser window to avoid personalization affecting results.</p>
+              </div>
+              <div className="ae-timeline-item">
+                <strong>Step 2: Ask for a Recommendation</strong>
+                <p>Type a question your ideal customer would ask using natural language. Try: &quot;Who is the best [your service] in [your city]?&quot; or &quot;Can you recommend a [your service] in [your area]?&quot; or &quot;I need a [your service] in [your city]. Who should I call?&quot;</p>
+              </div>
+              <div className="ae-timeline-item">
+                <strong>Step 3: Analyze the Response</strong>
+                <p>Check if your business is mentioned by name. Note which competitors appear. Record your position (first, middle, last, or absent). Screenshot the results for comparison later.</p>
+              </div>
+              <div className="ae-timeline-item">
+                <strong>Step 4: Test Other Platforms</strong>
+                <p>Repeat the same question on Claude (claude.ai), Perplexity (perplexity.ai), Google (look for AI Overview at top), and Bing Copilot (bing.com).</p>
+              </div>
+              <div className="ae-timeline-item">
+                <strong>Step 5: Score Your Results</strong>
+                <p>Count how many platforms mention you vs. competitors. If you appear on 0-1 platforms but competitors show up on 3-4, you have an urgent AI visibility gap costing you leads right now.</p>
+              </div>
+            </div>
+
+            {/* ── CHEAT SHEET: PROMPTS TO TRY ── */}
+            <div className="ae-cheat-sheet not-prose">
+              <div className="ae-cheat-sheet-title">Cheat Sheet: Exact Prompts to Test</div>
+              <ul>
+                <li><strong>Direct recommendation:</strong> &quot;Who is the best [service] in [city]?&quot;</li>
+                <li><strong>General request:</strong> &quot;Can you recommend a [service] in [area]?&quot;</li>
+                <li><strong>Urgent need:</strong> &quot;I need a [service] in [city] right now. Who should I call?&quot;</li>
+                <li><strong>Comparison ask:</strong> &quot;What [service type] do you recommend in [city]?&quot;</li>
+                <li><strong>Problem-based:</strong> &quot;I have [problem]. Who can help me in [city]?&quot;</li>
+                <li><strong>Review-based:</strong> &quot;Who has the best reviews for [service] in [city]?&quot;</li>
+              </ul>
+            </div>
+
+            {/* ── SCORECARD TABLE ── */}
+            <span className="ae-section-label">Your Scorecard</span>
+            <h2>Track Your Results Across Every Platform</h2>
+
+            <p>Use this scorecard to record your results. Fill it in as you test each platform.</p>
+
+            <div className="ae-comparison-table not-prose">
+              <table>
+                <thead>
+                  <tr>
+                    <th>Platform</th>
+                    <th>You Mentioned?</th>
+                    <th>Competitors?</th>
+                    <th>Your Position</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><strong>ChatGPT</strong></td>
+                    <td>Yes / No</td>
+                    <td>Yes / No</td>
+                    <td>1st / 2nd / 3rd / Absent</td>
+                  </tr>
+                  <tr>
+                    <td><strong>Claude</strong></td>
+                    <td>Yes / No</td>
+                    <td>Yes / No</td>
+                    <td>1st / 2nd / 3rd / Absent</td>
+                  </tr>
+                  <tr>
+                    <td><strong>Perplexity</strong></td>
+                    <td>Yes / No</td>
+                    <td>Yes / No</td>
+                    <td>1st / 2nd / 3rd / Absent</td>
+                  </tr>
+                  <tr>
+                    <td><strong>Google AI Overview</strong></td>
+                    <td>Yes / No</td>
+                    <td>Yes / No</td>
+                    <td>1st / 2nd / 3rd / Absent</td>
+                  </tr>
+                  <tr>
+                    <td><strong>Bing Copilot</strong></td>
+                    <td>Yes / No</td>
+                    <td>Yes / No</td>
+                    <td>1st / 2nd / 3rd / Absent</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+
+            {/* ── CTA 3 ── */}
+            <div className="ae-cta-inline not-prose">
+              <p>Tired of checking manually? We monitor all five platforms and send you alerts when things change.</p>
+              <Link href="/blindspot">Get Your Free Blind Spot Report &rarr;</Link>
+            </div>
+
+            {/* ── INTERPRETING RESULTS ── */}
+            <span className="ae-section-label">What It Means</span>
+            <h2>How to Read Your AI Visibility Score</h2>
+
+            <p>Your results fall into one of three categories. Each one requires a different response.</p>
+
+            {/* ── DECISION MATRIX ── */}
+            <div className="ae-decision-matrix not-prose">
+              <table>
+                <thead>
+                  <tr>
+                    <th>Your Score</th>
+                    <th>What It Means</th>
+                    <th>Urgency</th>
+                    <th>Next Step</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><strong>4-5 platforms</strong></td>
+                    <td>Strong AI visibility</td>
+                    <td>Maintain</td>
+                    <td>Monitor monthly, expand queries</td>
+                  </tr>
+                  <tr>
+                    <td><strong>2-3 platforms</strong></td>
+                    <td>Partial visibility, gaps exist</td>
+                    <td>Moderate</td>
+                    <td>Targeted optimization needed</td>
+                  </tr>
+                  <tr>
+                    <td><strong>0-1 platforms</strong></td>
+                    <td>Invisible to AI</td>
+                    <td>Urgent</td>
+                    <td>Full AEO strategy required</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+
+            {/* ── CALLOUT: RED FLAG ── */}
+            <div className="ae-callout ae-callout-warning not-prose">
+              <div className="ae-callout-title">The Real Warning Sign</div>
+              <p>The most concerning result is not being mentioned on zero platforms. It is when <strong>competitors are mentioned but you are not</strong>. That means AI platforms have enough information about your market to make recommendations and they are actively choosing others over you.</p>
+            </div>
+
+            {/* ── CTA 4 (tel) ── */}
+            <div className="ae-cta-inline not-prose">
+              <p>Scored 0-1? Talk to someone who can fix it today.</p>
+              <a href="tel:+12134442229">Call (213) 444-2229 &rarr;</a>
+            </div>
+
+            {/* ── WHY AI MIGHT NOT RECOMMEND YOU ── */}
+            <span className="ae-section-label">Root Causes</span>
+            <h2>Why AI Might Not Be Recommending You</h2>
+
+            <p>If you are invisible to AI platforms, it is usually one (or more) of these issues. The good news: every single one is fixable.</p>
+
+            {/* ── STATS GRID: REASONS ── */}
+            <div className="ae-stats-grid not-prose">
+              <div className="ae-stat-card">
+                <div className="ae-stat-emoji">🏗️</div>
+                <div className="ae-stat-value ae-accent">Schema</div>
+                <div className="ae-stat-label">Missing structured data that helps AI understand your business</div>
+              </div>
+              <div className="ae-stat-card">
+                <div className="ae-stat-emoji">❓</div>
+                <div className="ae-stat-value ae-accent">Content</div>
+                <div className="ae-stat-label">No direct-answer content matching how people ask AI</div>
+              </div>
+              <div className="ae-stat-card">
+                <div className="ae-stat-emoji">🛡️</div>
+                <div className="ae-stat-value ae-accent">Authority</div>
+                <div className="ae-stat-label">Weak trust signals like missing reviews and credentials</div>
+              </div>
+              <div className="ae-stat-card">
+                <div className="ae-stat-emoji">📄</div>
+                <div className="ae-stat-value ae-accent">Depth</div>
+                <div className="ae-stat-label">Thin content that does not demonstrate real expertise</div>
+              </div>
+            </div>
+
+            {/* ── PROS/CONS: DIY VS PRO ── */}
+            <span className="ae-section-label">Your Options</span>
+            <h2>DIY Fix vs. Professional AEO: What Actually Works</h2>
+
+            <p>You have two paths forward. Here is the honest breakdown of each approach.</p>
+
+            <div className="ae-pros-cons not-prose">
+              <div className="ae-pros-box">
+                <div className="ae-pros-title">DIY Approach</div>
+                <ul>
+                  <li>Free to start</li>
+                  <li>Learn the fundamentals yourself</li>
+                  <li>Add basic schema markup</li>
+                  <li>Create direct-answer content</li>
+                  <li>Claim all directory listings</li>
                 </ul>
               </div>
-
-              <div className="bg-white/[0.02] border border-white/[0.05] rounded-xl p-6">
-                <h3 className="text-xl font-semibold text-white mb-4">If you&apos;re NOT being recommended:</h3>
-                <ul className="space-y-3">
-                  <li className="flex items-start gap-3">
-                    <span className="text-white mt-1">&rarr;</span>
-                    <span>Understand what competitors are doing differently</span>
-                  </li>
-                  <li className="flex items-start gap-3">
-                    <span className="text-white mt-1">&rarr;</span>
-                    <span>Audit your schema markup and structured data</span>
-                  </li>
-                  <li className="flex items-start gap-3">
-                    <span className="text-white mt-1">&rarr;</span>
-                    <span>Create content that directly answers customer questions</span>
-                  </li>
-                  <li className="flex items-start gap-3">
-                    <span className="text-white mt-1">&rarr;</span>
-                    <span>Consider a professional <Link href="/blog/what-is-answer-engine-optimization" className="text-white hover:underline">AEO strategy</Link></span>
-                  </li>
+              <div className="ae-cons-box">
+                <div className="ae-cons-title">DIY Limitations</div>
+                <ul>
+                  <li>Takes 6-12 months of consistent effort</li>
+                  <li>No multi-platform monitoring tools</li>
+                  <li>Hard to track competitor movements</li>
+                  <li>Technical schema errors are common</li>
+                  <li>AI algorithms change frequently</li>
                 </ul>
               </div>
             </div>
-          </section>
 
-          {/* CTA Section */}
-          <div className="rounded-2xl p-8 sm:p-10 text-center my-16" style={{ background: 'linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%)' }}>
-            <h2 className="text-2xl sm:text-3xl font-bold text-white mb-4 font-plus-jakarta">Find Out If AI Is Recommending Your Business</h2>
-            <p className="text-gray-300 mb-6 max-w-2xl mx-auto">Most businesses have no idea whether AI platforms are sending them customers or sending them to competitors. Our free blind spot report shows you exactly where you stand.</p>
-            <Link href="/blindspot" className="inline-block px-8 py-4 rounded-lg font-semibold text-white transition-all duration-200 hover:brightness-110" style={{ backgroundColor: '#FF6A00' }}>Get Your Free Blind Spot Report</Link>
-    <div className="flex flex-wrap items-center gap-6 mt-6 pt-6 border-t border-[#FF6A00]/10">
-      <a href="tel:+12134442229" className="flex items-center gap-2 text-gray-400 hover:text-white transition-colors">
-        <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" /></svg>
-        (213) 444-2229
-      </a>
-      <a href="mailto:support@theanswerengine.ai" className="flex items-center gap-2 text-gray-400 hover:text-white transition-colors">
-        <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" /></svg>
-        support@theanswerengine.ai
-      </a>
-    </div>
+            {/* ── CTA 5 ── */}
+            <div className="ae-cta-inline not-prose">
+              <p>Want the professional path? We handle schema, content, and monitoring across all platforms.</p>
+              <Link href="/blindspot">See What We Find in Your Blind Spot Report &rarr;</Link>
+            </div>
+
+            {/* ── COMPARISON TABLE: PLATFORMS ── */}
+            <span className="ae-section-label">Platform Breakdown</span>
+            <h2>How Each AI Platform Discovers and Recommends Businesses</h2>
+
+            <p>Not all AI platforms work the same way. Understanding how each one finds businesses helps you optimize for all of them.</p>
+
+            <div className="ae-comparison-table not-prose">
+              <table>
+                <thead>
+                  <tr>
+                    <th>Platform</th>
+                    <th>How It Finds You</th>
+                    <th>Key Ranking Factor</th>
+                    <th>Update Frequency</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><strong>ChatGPT</strong></td>
+                    <td>Training data + web search</td>
+                    <td>Content authority &amp; depth</td>
+                    <td>Periodic + real-time search</td>
+                  </tr>
+                  <tr>
+                    <td><strong>Claude</strong></td>
+                    <td>Training data + web search</td>
+                    <td>Structured info &amp; citations</td>
+                    <td>Periodic + real-time search</td>
+                  </tr>
+                  <tr>
+                    <td><strong>Perplexity</strong></td>
+                    <td>Real-time web crawling</td>
+                    <td>Source freshness &amp; citations</td>
+                    <td>Real-time</td>
+                  </tr>
+                  <tr>
+                    <td><strong>Google AI Overview</strong></td>
+                    <td>Google index + knowledge graph</td>
+                    <td>E-E-A-T signals &amp; reviews</td>
+                    <td>Continuous</td>
+                  </tr>
+                  <tr>
+                    <td><strong>Bing Copilot</strong></td>
+                    <td>Bing index + OpenAI models</td>
+                    <td>Bing Places &amp; schema</td>
+                    <td>Continuous</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+
+            <p>The takeaway: you need strong authority signals, proper schema, and fresh content to appear across all platforms. A strategy that only targets one platform leaves gaps everywhere else.</p>
+
+            {/* ── CTA 6 (email) ── */}
+            <div className="ae-cta-inline not-prose">
+              <p>Not sure which platforms to prioritize? Email us your scorecard and we will advise for free.</p>
+              <a href="mailto:support@theanswerengine.ai">Email Your Scorecard to support@theanswerengine.ai &rarr;</a>
+            </div>
+
+            {/* ── WHAT TO DO NEXT ── */}
+            <span className="ae-section-label">Action Plan</span>
+            <h2>What to Do With Your Results</h2>
+
+            {/* ── CALLOUT: SUCCESS ── */}
+            <div className="ae-callout ae-callout-success not-prose">
+              <div className="ae-callout-title">If You Are Being Recommended (4-5 Platforms)</div>
+              <p>Document your current position with screenshots. Set up monthly monitoring to catch changes. Test additional query variations to find remaining gaps. Watch for competitors improving their AI presence. Your job is defense: protect what you have.</p>
+            </div>
+
+            {/* ── CALLOUT: INFO ── */}
+            <div className="ae-callout ae-callout-info not-prose">
+              <div className="ae-callout-title">If You Have Partial Visibility (2-3 Platforms)</div>
+              <p>Identify which platforms are missing you and investigate why. Audit your schema markup for errors. Create content that directly answers the questions you tested. Focus optimization on the platforms where competitors appear but you do not. Targeted fixes can close these gaps in 30-60 days.</p>
+            </div>
+
+            {/* ── CALLOUT: WARNING ── */}
+            <div className="ae-callout ae-callout-warning not-prose">
+              <div className="ae-callout-title">If You Are Invisible (0-1 Platforms)</div>
+              <p>This is urgent. Every day you wait is another day of leads flowing to competitors. You need a comprehensive AEO strategy covering schema markup, authority building, direct-answer content, and multi-platform optimization. This is not a weekend project. Get professional help or commit to 6+ months of consistent work.</p>
+            </div>
+
+            {/* ── CTA 7 ── */}
+            <div className="ae-cta-inline not-prose">
+              <p>Scored 0-1 on the test? We built the Blind Spot Report specifically for businesses in your situation.</p>
+              <Link href="/blindspot">Get Your Free Blind Spot Report &rarr;</Link>
+            </div>
+
+            {/* ── CHEAT SHEET: QUICK WINS ── */}
+            <span className="ae-section-label">Quick Wins</span>
+            <h2>7 Things You Can Do Today to Improve AI Visibility</h2>
+
+            <p>While a full AEO strategy takes time, these quick wins can start moving the needle immediately.</p>
+
+            <div className="ae-cheat-sheet not-prose">
+              <div className="ae-cheat-sheet-title">Quick Win Checklist</div>
+              <ul>
+                <li><strong>Add LocalBusiness schema:</strong> Tell AI exactly what your business does, where you are, and how to reach you</li>
+                <li><strong>Claim all directory listings:</strong> Google Business, Bing Places, Yelp, and industry-specific directories</li>
+                <li><strong>Write FAQ pages:</strong> Answer the exact questions customers ask AI, in full sentences</li>
+                <li><strong>Get more reviews:</strong> AI trusts businesses with consistent, recent, positive reviews across platforms</li>
+                <li><strong>Create service area pages:</strong> Dedicated pages for each city/neighborhood you serve with detailed local content</li>
+                <li><strong>Build topical authority:</strong> Publish comprehensive guides related to your services (like this one)</li>
+                <li><strong>Monitor monthly:</strong> Re-run this test every month to track progress and catch competitor changes</li>
+              </ul>
+            </div>
+
+            {/* ── BAR CHART: IMPACT ── */}
+            <h3>Estimated Impact of Each Quick Win on AI Visibility</h3>
+
+            <div className="ae-bar-group not-prose">
+              <div className="ae-bar-item">
+                <div className="ae-bar-label">LocalBusiness schema</div>
+                <div className="ae-bar-track"><div className="ae-bar-fill" style={{width:'85%'}}></div></div>
+                <div className="ae-bar-value">High</div>
+              </div>
+              <div className="ae-bar-item">
+                <div className="ae-bar-label">Directory listings</div>
+                <div className="ae-bar-track"><div className="ae-bar-fill" style={{width:'75%'}}></div></div>
+                <div className="ae-bar-value">High</div>
+              </div>
+              <div className="ae-bar-item">
+                <div className="ae-bar-label">FAQ content</div>
+                <div className="ae-bar-track"><div className="ae-bar-fill" style={{width:'70%'}}></div></div>
+                <div className="ae-bar-value">High</div>
+              </div>
+              <div className="ae-bar-item">
+                <div className="ae-bar-label">Review generation</div>
+                <div className="ae-bar-track"><div className="ae-bar-fill" style={{width:'65%'}}></div></div>
+                <div className="ae-bar-value">Med-High</div>
+              </div>
+              <div className="ae-bar-item">
+                <div className="ae-bar-label">Service area pages</div>
+                <div className="ae-bar-track"><div className="ae-bar-fill" style={{width:'55%'}}></div></div>
+                <div className="ae-bar-value">Medium</div>
+              </div>
+              <div className="ae-bar-item">
+                <div className="ae-bar-label">Topical authority</div>
+                <div className="ae-bar-track"><div className="ae-bar-fill" style={{width:'50%'}}></div></div>
+                <div className="ae-bar-value">Medium</div>
+              </div>
+              <div className="ae-bar-item">
+                <div className="ae-bar-label">Monthly monitoring</div>
+                <div className="ae-bar-track"><div className="ae-bar-fill" style={{width:'40%'}}></div></div>
+                <div className="ae-bar-value">Ongoing</div>
+              </div>
+            </div>
+
+            {/* ── CTA 8 (tel) ── */}
+            <div className="ae-cta-inline not-prose">
+              <p>Need help implementing these? Talk to our team about which wins matter most for your industry.</p>
+              <a href="tel:+12134442229">Call (213) 444-2229 for a Free Consultation &rarr;</a>
+            </div>
+
+            {/* ── TAKEAWAY ── */}
+            <div className="ae-takeaway not-prose">
+              <strong>Key Takeaway:</strong> Running this 5-minute test is the first step. But the businesses winning in AI search are not just checking their visibility. They are systematically optimizing for it across every platform, every month.
+            </div>
+
+            {/* ── HOW CHATGPT DECIDES ── */}
+            <span className="ae-section-label">Behind the Scenes</span>
+            <h2>How ChatGPT Actually Decides Who to Recommend</h2>
+
+            <p>Understanding the ranking factors helps you optimize strategically instead of guessing. AI platforms weigh several factors when choosing which businesses to recommend.</p>
+
+            {/* ── DECISION MATRIX: RANKING FACTORS ── */}
+            <div className="ae-decision-matrix not-prose">
+              <table>
+                <thead>
+                  <tr>
+                    <th>Factor</th>
+                    <th>Weight</th>
+                    <th>What AI Looks For</th>
+                    <th>How to Improve</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><strong>Content Authority</strong></td>
+                    <td>Very High</td>
+                    <td>Comprehensive, original expertise</td>
+                    <td>Publish detailed guides, case studies</td>
+                  </tr>
+                  <tr>
+                    <td><strong>Schema Markup</strong></td>
+                    <td>High</td>
+                    <td>Structured data AI can parse</td>
+                    <td>Add LocalBusiness, FAQ, HowTo schema</td>
+                  </tr>
+                  <tr>
+                    <td><strong>Review Quality</strong></td>
+                    <td>High</td>
+                    <td>Consistent positive reviews</td>
+                    <td>Systematic review generation</td>
+                  </tr>
+                  <tr>
+                    <td><strong>Citation Consistency</strong></td>
+                    <td>Medium</td>
+                    <td>Same NAP across all directories</td>
+                    <td>Audit and fix all listings</td>
+                  </tr>
+                  <tr>
+                    <td><strong>Freshness</strong></td>
+                    <td>Medium</td>
+                    <td>Recently updated content</td>
+                    <td>Regular content updates</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+
+            <p>Learn more about <Link href="/blog/how-chatgpt-chooses-businesses-to-recommend">how ChatGPT chooses which businesses to recommend</Link> in our detailed breakdown.</p>
+
+            {/* ── CTA 9 ── */}
+            <div className="ae-cta-inline not-prose">
+              <p>We analyze all five ranking factors for your business and show you where you are falling short.</p>
+              <Link href="/blindspot">Get Your Free Blind Spot Report &rarr;</Link>
+            </div>
+
+            {/* ── COMPETITOR GAP ANALYSIS ── */}
+            <span className="ae-section-label">Competitive Intel</span>
+            <h2>What to Do When AI Recommends Your Competitors Instead</h2>
+
+            <p>If your test revealed competitors getting recommended while you are invisible, here is the playbook to close the gap.</p>
+
+            <div className="ae-timeline not-prose">
+              <div className="ae-timeline-item">
+                <strong>Week 1-2: Audit and Fix Foundations</strong>
+                <p>Add complete LocalBusiness schema. Fix NAP inconsistencies across all directories. Claim or update Google Business Profile, Bing Places, and Yelp. These are table stakes.</p>
+              </div>
+              <div className="ae-timeline-item">
+                <strong>Week 3-4: Content That Answers Questions</strong>
+                <p>Write FAQ pages that directly answer the questions customers ask AI. Create service pages with comprehensive detail. Each page should be the definitive answer on its topic.</p>
+              </div>
+              <div className="ae-timeline-item">
+                <strong>Month 2-3: Build Authority Signals</strong>
+                <p>Launch a review generation campaign. Publish case studies and success stories. Get mentioned in local publications and industry directories. AI needs proof you are legitimate.</p>
+              </div>
+              <div className="ae-timeline-item">
+                <strong>Month 3-4: Monitor and Optimize</strong>
+                <p>Re-run the 5-minute test monthly. Track which platforms start mentioning you. Adjust strategy based on what is working. Expect initial AI citations within 30-60 days.</p>
+              </div>
+            </div>
+
+            {/* ── QUOTE ── */}
+            <div className="ae-quote not-prose">
+              <p>The businesses winning in AI search did not get there by accident. They built the foundation that AI trusts, then they kept building.</p>
+            </div>
+
+            {/* ── CTA 10 ── */}
+            <div className="ae-cta-inline not-prose">
+              <p>Skip the 4-month learning curve. We have the tools and strategy ready to deploy.</p>
+              <Link href="/blindspot">Get Your Free Blind Spot Report &rarr;</Link>
+            </div>
+
+            {/* ── FAQ SECTION ── */}
+            <span className="ae-section-label">FAQ</span>
+            <h2>Frequently Asked Questions</h2>
+
+            <h3>Why does not ChatGPT recommend my business?</h3>
+            <p>ChatGPT recommends businesses based on the information available in its training data and web searches. If your business lacks authoritative content, proper schema markup, or clear expertise signals, AI platforms may not have enough information to confidently recommend you.</p>
+
+            <h3>How often should I test my AI visibility?</h3>
+            <p>Test monthly at minimum. AI platforms update their knowledge and algorithms regularly. What works today may change, and competitors may improve their AI visibility over time.</p>
+
+            <h3>Does being recommended by AI actually bring in customers?</h3>
+            <p>Yes. When AI recommends your business by name, it acts as a trusted referral. These leads often convert at higher rates because the AI has essentially pre-qualified you as a credible option.</p>
+
+            {/* ── CTA 11 (email) ── */}
+            <div className="ae-cta-inline not-prose">
+              <p>Have a specific question about your results? We respond to every email personally.</p>
+              <a href="mailto:support@theanswerengine.ai">Email support@theanswerengine.ai &rarr;</a>
+            </div>
+
+            <h3>What if AI recommends my competitors but not me?</h3>
+            <p>This is a competitive gap you can close. Your competitors likely have better-structured content, more comprehensive schema markup, or stronger authority signals. Answer Engine Optimization can help you become the recommended choice instead.</p>
+
+            <h3>Can I improve my AI recommendations myself?</h3>
+            <p>Basic improvements like adding schema markup and creating direct-answer content can help. However, comprehensive AI visibility requires systematic optimization across multiple platforms, which typically requires specialized expertise and tools.</p>
+
+            <h3>How long does it take to start getting AI recommendations?</h3>
+            <p>With proper optimization, initial AI citations can appear within 30-60 days. Significant, consistent recommendations typically develop over 2-4 months as AI platforms index and trust your content.</p>
+
+            {/* ── CTA 12 (tel) ── */}
+            <div className="ae-cta-inline not-prose">
+              <p>Ready to stop guessing and start appearing in AI results? Let us show you the path.</p>
+              <a href="tel:+12134442229">Call (213) 444-2229 &rarr;</a>
+            </div>
+
+            {/* ── RELATED ARTICLES ── */}
+            <span className="ae-section-label">Keep Learning</span>
+            <h2>Related Articles</h2>
+
+            <div className="ae-stats-grid not-prose">
+              <Link href="/blog/aeo-vs-seo" className="ae-stat-card" style={{textDecoration:'none'}}>
+                <div className="ae-stat-emoji">⚔️</div>
+                <div className="ae-stat-value ae-accent" style={{fontSize:'1rem'}}>AEO vs SEO</div>
+                <div className="ae-stat-label">What is the difference and why it matters for your business</div>
+              </Link>
+              <Link href="/blog/how-chatgpt-chooses-businesses-to-recommend" className="ae-stat-card" style={{textDecoration:'none'}}>
+                <div className="ae-stat-emoji">🧠</div>
+                <div className="ae-stat-value ae-accent" style={{fontSize:'1rem'}}>How ChatGPT Chooses</div>
+                <div className="ae-stat-label">The factors AI uses to decide which businesses to recommend</div>
+              </Link>
+              <Link href="/blog/why-chatgpt-recommends-your-competitors" className="ae-stat-card" style={{textDecoration:'none'}}>
+                <div className="ae-stat-emoji">🎯</div>
+                <div className="ae-stat-value ae-accent" style={{fontSize:'1rem'}}>Why Competitors Win</div>
+                <div className="ae-stat-label">What they are doing differently and how to catch up</div>
+              </Link>
+              <Link href="/case-studies/justin-borges" className="ae-stat-card" style={{textDecoration:'none'}}>
+                <div className="ae-stat-emoji">📈</div>
+                <div className="ae-stat-value ae-accent" style={{fontSize:'1rem'}}>Case Study</div>
+                <div className="ae-stat-label">From invisible to thousands of monthly clicks with AEO</div>
+              </Link>
+            </div>
+
+            {/* ── CTA 13 ── */}
+            <div className="ae-cta-inline not-prose">
+              <p>Still reading? You clearly care about your AI visibility. Take the next step.</p>
+              <Link href="/blindspot">Get Your Free Blind Spot Report &rarr;</Link>
+            </div>
+
+            {/* ── AUTHOR CARD ── */}
+            <div className="ae-author-card not-prose">
+              <div>
+                <strong>Written by JB</strong>
+                <p>Founder of The Answer Engine. Helping local service businesses become the answer AI recommends. Based in Los Angeles.</p>
+              </div>
+            </div>
+
+          </div>{/* end prose */}
+
+          {/* ── CTA BLOCK ── */}
+          <div className="ae-cta-block not-prose my-16">
+            <h2>Find Out If AI Is Recommending Your Business</h2>
+            <p>Most businesses have no idea whether AI platforms are sending them customers or sending them to competitors. Our free blind spot report shows you exactly where you stand across ChatGPT, Claude, Perplexity, Google AI, and Bing Copilot.</p>
+            <Link href="/blindspot">Get Your Free Blind Spot Report &rarr;</Link>
+            <div className="flex flex-wrap items-center justify-center gap-6 mt-6 pt-6 border-t border-[#FF6A00]/10">
+              <a href="tel:+12134442229" className="flex items-center gap-2 text-gray-400 hover:text-white transition-colors">
+                <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" /></svg>
+                (213) 444-2229
+              </a>
+              <a href="mailto:support@theanswerengine.ai" className="flex items-center gap-2 text-gray-400 hover:text-white transition-colors">
+                <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" /></svg>
+                support@theanswerengine.ai
+              </a>
+            </div>
           </div>
 
-          {/* FAQ Section */}
-          <section className="mb-12">
-            <h2 className="text-2xl sm:text-3xl font-semibold mb-8 text-white">Frequently Asked Questions</h2>
-
-            <div className="space-y-6">
-              <div className="bg-white/[0.02] border border-white/[0.05] rounded-xl p-6">
-                <h3 className="text-lg font-semibold text-white mb-3">Why doesn&apos;t ChatGPT recommend my business?</h3>
-                <p className="text-gray-300 leading-relaxed">
-                  ChatGPT recommends businesses based on the information available in its training data and web searches. If your business lacks authoritative content, proper schema markup, or clear expertise signals, AI platforms may not have enough information to confidently recommend you.
-                </p>
-              </div>
-
-              <div className="bg-white/[0.02] border border-white/[0.05] rounded-xl p-6">
-                <h3 className="text-lg font-semibold text-white mb-3">How often should I test my AI visibility?</h3>
-                <p className="text-gray-300 leading-relaxed">
-                  Test monthly at minimum. AI platforms update their knowledge and algorithms regularly. What works today may change, and competitors may improve their AI visibility over time.
-                </p>
-              </div>
-
-              <div className="bg-white/[0.02] border border-white/[0.05] rounded-xl p-6">
-                <h3 className="text-lg font-semibold text-white mb-3">Does being recommended by AI actually bring in customers?</h3>
-                <p className="text-gray-300 leading-relaxed">
-                  Yes. When AI recommends your business by name, it acts as a trusted referral. These leads often convert at higher rates because the AI has essentially pre-qualified you as a credible option.
-                </p>
-              </div>
-
-              <div className="bg-white/[0.02] border border-white/[0.05] rounded-xl p-6">
-                <h3 className="text-lg font-semibold text-white mb-3">What if AI recommends my competitors but not me?</h3>
-                <p className="text-gray-300 leading-relaxed">
-                  This is a competitive gap you can close. Your competitors likely have better-structured content, more comprehensive schema markup, or stronger authority signals. Answer Engine Optimization can help you become the recommended choice instead.
-                </p>
-              </div>
-
-              <div className="bg-white/[0.02] border border-white/[0.05] rounded-xl p-6">
-                <h3 className="text-lg font-semibold text-white mb-3">Can I improve my AI recommendations myself?</h3>
-                <p className="text-gray-300 leading-relaxed">
-                  Basic improvements like adding schema markup and creating direct-answer content can help. However, comprehensive AI visibility requires systematic optimization across multiple platforms, which typically requires specialized expertise and tools.
-                </p>
-              </div>
-
-              <div className="bg-white/[0.02] border border-white/[0.05] rounded-xl p-6">
-                <h3 className="text-lg font-semibold text-white mb-3">How long does it take to start getting AI recommendations?</h3>
-                <p className="text-gray-300 leading-relaxed">
-                  With proper optimization, initial AI citations can appear within 30-60 days. Significant, consistent recommendations typically develop over 2-4 months as AI platforms index and trust your content.
-                </p>
-              </div>
-            </div>
-          </section>
-
-          {/* Related Content */}
-          <section className="mb-12">
-            <h2 className="text-2xl sm:text-3xl font-semibold mb-6 text-white">Related Articles</h2>
-            <div className="grid sm:grid-cols-2 gap-4">
-              <Link href="/blog/aeo-vs-seo" className="bg-white/[0.02] border border-white/[0.05] rounded-xl p-6 hover:border-white/[0.08] transition-colors group">
-                <div className="text-white text-sm font-medium mb-2">Comparison</div>
-                <div className="text-white font-semibold group-hover:text-white transition-colors">AEO vs SEO: What&apos;s the Difference?</div>
-              </Link>
-              <Link href="/blog/how-chatgpt-chooses-businesses-to-recommend" className="bg-white/[0.02] border border-white/[0.05] rounded-xl p-6 hover:border-white/[0.08] transition-colors group">
-                <div className="text-white text-sm font-medium mb-2">AI Algorithm</div>
-                <div className="text-white font-semibold group-hover:text-white transition-colors">How ChatGPT Chooses Businesses</div>
-              </Link>
-              <Link href="/blog/why-chatgpt-recommends-your-competitors" className="bg-white/[0.02] border border-white/[0.05] rounded-xl p-6 hover:border-white/[0.08] transition-colors group">
-                <div className="text-white text-sm font-medium mb-2">Competitive Analysis</div>
-                <div className="text-white font-semibold group-hover:text-white transition-colors">Why ChatGPT Recommends Competitors</div>
-              </Link>
-              <Link href="/case-studies/justin-borges" className="bg-white/[0.02] border border-white/[0.05] rounded-xl p-6 hover:border-white/[0.08] transition-colors group">
-                <div className="text-white text-sm font-medium mb-2">Case Study</div>
-                <div className="text-white font-semibold group-hover:text-white transition-colors">From Invisible to 8,400+ Monthly Clicks</div>
-              </Link>
-            </div>
-          </section>
-
-          {/* CTA */}
-          <section className="text-center py-12 border-t border-white/[0.05]">
-            <h2 className="text-2xl sm:text-3xl font-semibold mb-4 text-white">Want a Deeper Analysis?</h2>
+          {/* ── FINAL CTA ── */}
+          <section className="ae-final-cta not-prose text-center py-12 border-t border-white/[0.05]">
+            <h2 className="text-2xl sm:text-3xl font-semibold mb-4 text-white font-plus-jakarta">Want a Deeper Analysis?</h2>
             <p className="text-gray-400 mb-8 max-w-2xl mx-auto">
               The 5-minute test shows you the surface. A professional AEO audit reveals exactly why competitors are winning and what it would take to replace them.
             </p>
             <Link
-              href="/#contact"
-              className="inline-flex items-center gap-2 bg-gradient-to-r from-white to-white text-white font-semibold px-8 py-4 rounded-xl hover:opacity-90 transition-opacity"
+              href="/blindspot"
+              className="ae-final-cta-pulse inline-flex items-center gap-2 font-semibold px-8 py-4 rounded-xl"
             >
-              Get Your Free AEO Audit
+              Get Your Free Blind Spot Report
               <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={2}>
                 <path strokeLinecap="round" strokeLinejoin="round" d="M17 8l4 4m0 0l-4 4m4-4H3" />
               </svg>
             </Link>
-            <p className="text-gray-500 text-sm mt-4">See exactly where you&apos;re losing to competitors—and what to do about it.</p>
+            <p className="text-gray-500 text-sm mt-4">No pitch, just the data. See exactly where you are losing to competitors.</p>
+            <div className="flex flex-wrap items-center justify-center gap-6 mt-6">
+              <a href="tel:+12134442229" className="text-gray-400 hover:text-white transition-colors text-sm">(213) 444-2229</a>
+              <a href="mailto:support@theanswerengine.ai" className="text-gray-400 hover:text-white transition-colors text-sm">support@theanswerengine.ai</a>
+            </div>
           </section>
         </article>
       </main>

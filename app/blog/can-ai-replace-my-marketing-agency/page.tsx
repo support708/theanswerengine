@@ -209,7 +209,6 @@ export default function Page() {
               fill="none"
               aria-hidden="true"
             >
-              {/* AI vs Human pattern */}
               <circle cx="200" cy="200" r="120" stroke="#FF6A00" strokeWidth="0.5" fill="none" />
               <circle cx="200" cy="200" r="80" stroke="#FF6A00" strokeWidth="0.5" fill="none" />
               <circle cx="200" cy="200" r="40" stroke="#FF6A00" strokeWidth="1" fill="none" />
@@ -225,22 +224,50 @@ export default function Page() {
               <rect x="740" y="340" width="12" height="12" fill="#FF6A00" opacity="0.2" />
             </svg>
             <div className="relative px-8 py-16 sm:px-12 sm:py-20">
-              <p className="text-sm font-medium text-orange-400 mb-4">Myth Busters</p>
+              <p className="inline-block text-sm font-medium text-orange-400 mb-4 border border-orange-500/30 rounded-full px-4 py-1">
+                Myth Busters
+              </p>
               <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-white leading-tight mb-6 font-plus-jakarta">
                 Can AI Replace My Marketing Agency?
               </h1>
               <div className="flex items-center gap-4 text-sm text-gray-400">
                 <span>March 14, 2026</span>
                 <span>-</span>
-                <span>10 min read</span>
+                <span>12 min read</span>
                 <span>-</span>
                 <span>The Answer Engine Team</span>
               </div>
             </div>
           </div>
 
+          {/* Stats Grid */}
+          <div className="not-prose">
+            <div className="ae-stats-grid">
+              <div className="ae-stat-card">
+                <div className="ae-stat-emoji">🤖</div>
+                <div className="ae-stat-value ae-accent">88%</div>
+                <div className="ae-stat-label">MARKETERS USE AI DAILY</div>
+              </div>
+              <div className="ae-stat-card">
+                <div className="ae-stat-emoji">📉</div>
+                <div className="ae-stat-value ae-accent">74%</div>
+                <div className="ae-stat-label">SEE NO ROI FROM AI</div>
+              </div>
+              <div className="ae-stat-card">
+                <div className="ae-stat-emoji">💰</div>
+                <div className="ae-stat-value ae-accent">$57.99B</div>
+                <div className="ae-stat-label">AI MARKETING MARKET</div>
+              </div>
+              <div className="ae-stat-card">
+                <div className="ae-stat-emoji">⏱️</div>
+                <div className="ae-stat-value ae-accent">11 hrs</div>
+                <div className="ae-stat-label">WEEKLY TIME SAVED</div>
+              </div>
+            </div>
+          </div>
+
           {/* Article Body */}
-          <article className="prose prose-invert prose-lg max-w-none">
+          <article className="prose prose-invert prose-lg max-w-none prose-headings:font-plus-jakarta prose-headings:text-white prose-p:text-gray-300 prose-a:text-[#FF6A00] prose-a:no-underline hover:prose-a:underline prose-strong:text-white">
 
             {/* Intro */}
             <p className="text-xl text-gray-300 leading-relaxed mb-10">
@@ -255,8 +282,30 @@ export default function Page() {
               strategy actually produces results.
             </p>
 
+            {/* Callout: The Core Tension */}
+            <div className="not-prose">
+              <div className="ae-callout ae-callout-warning">
+                <div className="ae-callout-title">The AI Marketing Paradox</div>
+                <p>
+                  AI tools are getting better every quarter. Adoption is at an all-time high.
+                  Yet three out of four companies using AI for marketing cannot point to
+                  measurable returns. The gap between tool access and strategic execution has
+                  never been wider.
+                </p>
+              </div>
+            </div>
+
+            {/* CTA Inline 1 */}
+            <div className="not-prose">
+              <div className="ae-cta-inline">
+                <p>Wondering if AI platforms even recommend your business right now?</p>
+                <Link href="/blindspot">Get Your Free Blind Spot Report &#8594;</Link>
+              </div>
+            </div>
+
             {/* Section 1 */}
-            <h2 className="text-2xl font-bold text-white mt-12 mb-4 font-plus-jakarta">
+            <div className="not-prose"><span className="ae-section-label">The Myth</span></div>
+            <h2 className="text-2xl font-bold text-white mt-4 mb-4 font-plus-jakarta">
               The Myth: AI Can Do Everything an Agency Does
             </h2>
             <p className="text-gray-300 leading-relaxed mb-4">
@@ -272,26 +321,69 @@ export default function Page() {
               but it cannot decide which widgets to build, who to sell them to, or how to
               position them against competitors.
             </p>
+
+            {/* Quote */}
+            <div className="not-prose">
+              <div className="ae-quote">
+                <p>
+                  &quot;The businesses that fire their agency and go AI-only almost always
+                  experience the same pattern: a burst of activity followed by a plateau
+                  of mediocrity.&quot;
+                </p>
+              </div>
+            </div>
+
             <p className="text-gray-300 leading-relaxed mb-4">
-              The businesses that fire their agency and go AI-only almost always experience
-              the same pattern: a burst of activity followed by a plateau of mediocrity.
               More content gets published, more emails get sent, more ads get created. But
               the leads do not increase. Sometimes they decline. The volume goes up while
               the value goes down.
             </p>
 
-            {/* Stat callout */}
-            <div className="my-8 p-6 rounded-xl border border-gray-700" style={{ backgroundColor: '#1a1a2e' }}>
-              <p className="text-3xl font-bold text-orange-400 mb-2">74%</p>
-              <p className="text-gray-300">
-                of companies have yet to show real ROI from their AI marketing investments,
-                according to industry benchmark data from Influencer Marketing Hub and
-                Amra and Elma&apos;s 2025 AI implementation study.
-              </p>
+            {/* Bar Chart: AI Adoption vs ROI Gap */}
+            <div className="not-prose">
+              <div className="ae-bar-group">
+                <div className="ae-bar-item">
+                  <div className="ae-bar-label">Marketers using AI daily</div>
+                  <div className="ae-bar-track">
+                    <div className="ae-bar-fill" style={{ width: '88%' }} />
+                  </div>
+                  <div className="ae-bar-value">88%</div>
+                </div>
+                <div className="ae-bar-item">
+                  <div className="ae-bar-label">AI accelerates content creation</div>
+                  <div className="ae-bar-track">
+                    <div className="ae-bar-fill" style={{ width: '93%' }} />
+                  </div>
+                  <div className="ae-bar-value">93%</div>
+                </div>
+                <div className="ae-bar-item">
+                  <div className="ae-bar-label">Report higher productivity</div>
+                  <div className="ae-bar-track">
+                    <div className="ae-bar-fill" style={{ width: '44%' }} />
+                  </div>
+                  <div className="ae-bar-value">44%</div>
+                </div>
+                <div className="ae-bar-item">
+                  <div className="ae-bar-label">See actual ROI from AI</div>
+                  <div className="ae-bar-track">
+                    <div className="ae-bar-fill" style={{ width: '26%' }} />
+                  </div>
+                  <div className="ae-bar-value">26%</div>
+                </div>
+              </div>
+            </div>
+
+            {/* CTA Inline 2 */}
+            <div className="not-prose">
+              <div className="ae-cta-inline">
+                <p>Is your marketing generating volume without value? Find out.</p>
+                <Link href="/blindspot">Run Your Free AI Visibility Check &#8594;</Link>
+              </div>
             </div>
 
             {/* Section 2 */}
-            <h2 className="text-2xl font-bold text-white mt-12 mb-4 font-plus-jakarta">
+            <div className="not-prose"><span className="ae-section-label">What AI Does Well</span></div>
+            <h2 className="text-2xl font-bold text-white mt-4 mb-4 font-plus-jakarta">
               What AI Actually Replaces (and Does Well)
             </h2>
             <p className="text-gray-300 leading-relaxed mb-4">
@@ -300,30 +392,18 @@ export default function Page() {
               real savings are, and where the real risks hide.
             </p>
 
-            <div className="my-6 p-6 rounded-xl border border-gray-800 bg-gray-900">
-              <h3 className="text-lg font-semibold text-orange-400 mb-4">Tasks AI Handles Effectively</h3>
-              <ul className="space-y-3 text-gray-300">
-                <li className="flex items-start gap-3">
-                  <span className="text-orange-400 font-bold mt-0.5">&#8226;</span>
-                  <span><strong className="text-white">First-draft content creation:</strong> blog outlines, social captions, email subject lines, product descriptions</span>
-                </li>
-                <li className="flex items-start gap-3">
-                  <span className="text-orange-400 font-bold mt-0.5">&#8226;</span>
-                  <span><strong className="text-white">Data aggregation and reporting:</strong> pulling metrics from multiple platforms into unified dashboards</span>
-                </li>
-                <li className="flex items-start gap-3">
-                  <span className="text-orange-400 font-bold mt-0.5">&#8226;</span>
-                  <span><strong className="text-white">A/B copy variations:</strong> generating dozens of ad headline and body text combinations for testing</span>
-                </li>
-                <li className="flex items-start gap-3">
-                  <span className="text-orange-400 font-bold mt-0.5">&#8226;</span>
-                  <span><strong className="text-white">Email personalization at scale:</strong> dynamic content blocks, send-time optimization, list segmentation</span>
-                </li>
-                <li className="flex items-start gap-3">
-                  <span className="text-orange-400 font-bold mt-0.5">&#8226;</span>
-                  <span><strong className="text-white">Social media scheduling:</strong> optimal posting times, content calendar automation, hashtag research</span>
-                </li>
-              </ul>
+            {/* Cheat Sheet: Tasks AI Handles */}
+            <div className="not-prose">
+              <div className="ae-cheat-sheet">
+                <div className="ae-cheat-sheet-title">Tasks AI Handles Effectively</div>
+                <ul>
+                  <li><strong>First-draft content creation:</strong> blog outlines, social captions, email subject lines, product descriptions</li>
+                  <li><strong>Data aggregation and reporting:</strong> pulling metrics from multiple platforms into unified dashboards</li>
+                  <li><strong>A/B copy variations:</strong> generating dozens of ad headline and body text combinations for testing</li>
+                  <li><strong>Email personalization at scale:</strong> dynamic content blocks, send-time optimization, list segmentation</li>
+                  <li><strong>Social media scheduling:</strong> optimal posting times, content calendar automation, hashtag research</li>
+                </ul>
+              </div>
             </div>
 
             <p className="text-gray-300 leading-relaxed mb-4">
@@ -332,25 +412,31 @@ export default function Page() {
               of 11 hours per week</strong>. That is real. Those are hours that used to go
               toward repetitive execution work, and AI handles it faster.
             </p>
-            <p className="text-gray-300 leading-relaxed mb-4">
-              If your agency is charging you $5,000 a month and primarily doing tasks from
-              that list above, then yes, AI tools can likely replace a significant portion
-              of what you are paying for. But that also means your agency was not providing
-              much strategic value to begin with.
-            </p>
 
-            {/* Stat callout */}
-            <div className="my-8 p-6 rounded-xl border border-gray-700" style={{ backgroundColor: '#1a1a2e' }}>
-              <p className="text-3xl font-bold text-orange-400 mb-2">88%</p>
-              <p className="text-gray-300">
-                of marketers now use AI tools in their daily workflow, with 93% reporting
-                that AI accelerates content creation processes (Digital Marketing Institute,
-                2025).
-              </p>
+            {/* Takeaway */}
+            <div className="not-prose">
+              <div className="ae-takeaway">
+                <div className="ae-takeaway-title">The Bottom Line on AI Tasks</div>
+                <p>
+                  If your agency is charging you $5,000 a month and primarily doing tasks from
+                  the list above, then yes, AI tools can likely replace a significant portion
+                  of what you are paying for. But that also means your agency was not providing
+                  much strategic value to begin with.
+                </p>
+              </div>
+            </div>
+
+            {/* CTA Inline 3 */}
+            <div className="not-prose">
+              <div className="ae-cta-inline">
+                <p>Not sure what your agency actually does vs. what AI could handle?</p>
+                <a href="tel:+12134442229">Call us at (213) 444-2229 &#8594;</a>
+              </div>
             </div>
 
             {/* Section 3 */}
-            <h2 className="text-2xl font-bold text-white mt-12 mb-4 font-plus-jakarta">
+            <div className="not-prose"><span className="ae-section-label">Where AI Falls Short</span></div>
+            <h2 className="text-2xl font-bold text-white mt-4 mb-4 font-plus-jakarta">
               What AI Cannot Replace (and Where Businesses Get Burned)
             </h2>
             <p className="text-gray-300 leading-relaxed mb-4">
@@ -359,48 +445,115 @@ export default function Page() {
               cannot provide.
             </p>
 
-            <div className="my-6 p-6 rounded-xl border border-gray-800 bg-gray-900">
-              <h3 className="text-lg font-semibold text-white mb-4">The Strategic Layer AI Cannot Touch</h3>
-              <ul className="space-y-3 text-gray-300">
-                <li className="flex items-start gap-3">
-                  <span className="text-orange-400 font-bold mt-0.5">&#8226;</span>
-                  <span><strong className="text-white">Competitive positioning:</strong> understanding your local market, identifying gaps, and positioning your business where competitors are weak</span>
-                </li>
-                <li className="flex items-start gap-3">
-                  <span className="text-orange-400 font-bold mt-0.5">&#8226;</span>
-                  <span><strong className="text-white">Brand differentiation:</strong> developing a voice and identity that resonates with your specific audience, not generic personas</span>
-                </li>
-                <li className="flex items-start gap-3">
-                  <span className="text-orange-400 font-bold mt-0.5">&#8226;</span>
-                  <span><strong className="text-white">Cross-channel orchestration:</strong> knowing when to shift budget from paid to organic, when to double down on email, when to pause social</span>
-                </li>
-                <li className="flex items-start gap-3">
-                  <span className="text-orange-400 font-bold mt-0.5">&#8226;</span>
-                  <span><strong className="text-white">Crisis and reputation management:</strong> responding to negative press, review attacks, or competitive moves with nuance</span>
-                </li>
-                <li className="flex items-start gap-3">
-                  <span className="text-orange-400 font-bold mt-0.5">&#8226;</span>
-                  <span><strong className="text-white">AI visibility strategy:</strong> ensuring your business is the one AI platforms recommend, not your competitor</span>
-                </li>
-              </ul>
+            {/* Decision Matrix: Strategic Layer */}
+            <div className="not-prose">
+              <div className="ae-decision-matrix">
+                <div className="ae-decision-matrix-title">The Strategic Layer AI Cannot Touch</div>
+                <table>
+                  <thead>
+                    <tr>
+                      <th>Strategic Function</th>
+                      <th>What It Requires</th>
+                      <th>Can AI Do It?</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>Competitive positioning</td>
+                      <td>Local market knowledge, gap identification</td>
+                      <td>No</td>
+                    </tr>
+                    <tr>
+                      <td>Brand differentiation</td>
+                      <td>Audience-specific voice and identity</td>
+                      <td>No</td>
+                    </tr>
+                    <tr>
+                      <td>Cross-channel orchestration</td>
+                      <td>Budget allocation, channel timing</td>
+                      <td>No</td>
+                    </tr>
+                    <tr>
+                      <td>Crisis management</td>
+                      <td>Nuance, reputation repair</td>
+                      <td>No</td>
+                    </tr>
+                    <tr>
+                      <td>AI visibility strategy</td>
+                      <td>Citation building, authority signals</td>
+                      <td>No</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
             </div>
 
-            <p className="text-gray-300 leading-relaxed mb-4">
-              Only 26% of consumers trust brands to use AI responsibly. Over 70% of
-              marketers cite generic, bland content as their top concern with AI outputs.
-              And 63% of business leaders flag inaccuracy as a primary risk of generative
-              AI in their organizations.
-            </p>
-            <p className="text-gray-300 leading-relaxed mb-4">
-              These are not minor issues. When your marketing sounds like everyone else
-              because it was generated by the same models, you lose the one thing that made
-              customers choose you: distinctiveness. AI can optimize, summarize, and
-              recommend. It cannot understand why a customer in your market behaves
-              differently than one in a different city. It cannot read the room.
-            </p>
+            {/* Callout: Trust Problem */}
+            <div className="not-prose">
+              <div className="ae-callout ae-callout-info">
+                <div className="ae-callout-title">The Trust Problem</div>
+                <p>
+                  Only 26% of consumers trust brands to use AI responsibly. Over 70% of
+                  marketers cite generic, bland content as their top concern with AI outputs.
+                  And 63% of business leaders flag inaccuracy as a primary risk of generative
+                  AI in their organizations. When your marketing sounds like everyone else,
+                  you lose the one thing that made customers choose you: distinctiveness.
+                </p>
+              </div>
+            </div>
+
+            {/* Bar Chart: AI Failure Factors */}
+            <div className="not-prose">
+              <div className="ae-bar-group">
+                <div className="ae-bar-item">
+                  <div className="ae-bar-label">Knowledge gaps</div>
+                  <div className="ae-bar-track">
+                    <div className="ae-bar-fill" style={{ width: '71.7%' }} />
+                  </div>
+                  <div className="ae-bar-value">71.7%</div>
+                </div>
+                <div className="ae-bar-item">
+                  <div className="ae-bar-label">Technical challenges</div>
+                  <div className="ae-bar-track">
+                    <div className="ae-bar-fill" style={{ width: '70%' }} />
+                  </div>
+                  <div className="ae-bar-value">70%</div>
+                </div>
+                <div className="ae-bar-item">
+                  <div className="ae-bar-label">Lack of training</div>
+                  <div className="ae-bar-track">
+                    <div className="ae-bar-fill" style={{ width: '67%' }} />
+                  </div>
+                  <div className="ae-bar-value">67%</div>
+                </div>
+                <div className="ae-bar-item">
+                  <div className="ae-bar-label">Bland/generic output</div>
+                  <div className="ae-bar-track">
+                    <div className="ae-bar-fill" style={{ width: '70%' }} />
+                  </div>
+                  <div className="ae-bar-value">70%</div>
+                </div>
+                <div className="ae-bar-item">
+                  <div className="ae-bar-label">Inaccuracy risk</div>
+                  <div className="ae-bar-track">
+                    <div className="ae-bar-fill" style={{ width: '63%' }} />
+                  </div>
+                  <div className="ae-bar-value">63%</div>
+                </div>
+              </div>
+            </div>
+
+            {/* CTA Inline 4 */}
+            <div className="not-prose">
+              <div className="ae-cta-inline">
+                <p>Want a strategy layer on top of your AI tools? Let&apos;s talk.</p>
+                <a href="mailto:support@theanswerengine.ai">Email us at support@theanswerengine.ai &#8594;</a>
+              </div>
+            </div>
 
             {/* Section 4 */}
-            <h2 className="text-2xl font-bold text-white mt-12 mb-4 font-plus-jakarta">
+            <div className="not-prose"><span className="ae-section-label">The Leveling Effect</span></div>
+            <h2 className="text-2xl font-bold text-white mt-4 mb-4 font-plus-jakarta">
               The Real Problem: AI Levels the Playing Field to Zero
             </h2>
             <p className="text-gray-300 leading-relaxed mb-4">
@@ -409,6 +562,54 @@ export default function Page() {
               nobody stands out. The playing field does not tilt in your favor. It flattens
               to the point where differentiation disappears entirely.
             </p>
+
+            {/* Comparison Table: With Strategy vs Without */}
+            <div className="not-prose">
+              <div className="ae-comparison-table">
+                <table>
+                  <thead>
+                    <tr>
+                      <th>Factor</th>
+                      <th>AI Tools Alone</th>
+                      <th>AI + Strategic Agency</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>Content output</td>
+                      <td>High volume, generic</td>
+                      <td>Strategic, differentiated</td>
+                    </tr>
+                    <tr>
+                      <td>Ad performance</td>
+                      <td>Same as every competitor</td>
+                      <td>Positioned against gaps</td>
+                    </tr>
+                    <tr>
+                      <td>Email engagement</td>
+                      <td>Personalized but unfocused</td>
+                      <td>Targeted by funnel stage</td>
+                    </tr>
+                    <tr>
+                      <td>AI search visibility</td>
+                      <td>Invisible or generic</td>
+                      <td>Cited and recommended</td>
+                    </tr>
+                    <tr>
+                      <td>Cost per lead</td>
+                      <td>Rising over time</td>
+                      <td>Declining with authority</td>
+                    </tr>
+                    <tr>
+                      <td>Competitive advantage</td>
+                      <td>None (same tools)</td>
+                      <td>Sustained differentiation</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+
             <p className="text-gray-300 leading-relaxed mb-4">
               If you and your three closest competitors all use ChatGPT to write blog
               posts, all use the same ad platforms with AI-optimized bidding, and all
@@ -416,13 +617,19 @@ export default function Page() {
               The AI did not give you an advantage. It gave everyone the same baseline
               competence.
             </p>
-            <p className="text-gray-300 leading-relaxed mb-4">
-              This is exactly what is happening in markets where AI adoption is highest.
-              The AI marketing market has exploded from $6.46 billion in 2018 to
-              $57.99 billion in 2026. Everyone has access to the same tools. The
-              competitive advantage now belongs to businesses that use those tools within
-              a differentiated strategy, not businesses that simply use the tools.
-            </p>
+
+            {/* Quote */}
+            <div className="not-prose">
+              <div className="ae-quote">
+                <p>
+                  &quot;The AI marketing market has exploded from $6.46 billion in 2018 to
+                  $57.99 billion in 2026. Everyone has access to the same tools. The
+                  competitive advantage now belongs to businesses that use those tools within
+                  a differentiated strategy.&quot;
+                </p>
+              </div>
+            </div>
+
             <p className="text-gray-300 leading-relaxed mb-4">
               Your agency (if it is a good one) provides the strategic differentiation
               that makes AI tools effective rather than just busy.{' '}
@@ -432,18 +639,17 @@ export default function Page() {
               </Link>
             </p>
 
-            {/* Stat callout */}
-            <div className="my-8 p-6 rounded-xl border border-gray-700" style={{ backgroundColor: '#1a1a2e' }}>
-              <p className="text-3xl font-bold text-orange-400 mb-2">$57.99B</p>
-              <p className="text-gray-300">
-                The AI marketing market in 2026, up from $6.46B in 2018. When everyone
-                has the same tools, strategy becomes the only differentiator (All About AI,
-                2026).
-              </p>
+            {/* CTA Inline 5 */}
+            <div className="not-prose">
+              <div className="ae-cta-inline">
+                <p>Are your competitors already outpacing you in AI search?</p>
+                <Link href="/blindspot">Check Your AI Blind Spots Free &#8594;</Link>
+              </div>
             </div>
 
             {/* Section 5 */}
-            <h2 className="text-2xl font-bold text-white mt-12 mb-4 font-plus-jakarta">
+            <div className="not-prose"><span className="ae-section-label">The Hidden Danger</span></div>
+            <h2 className="text-2xl font-bold text-white mt-4 mb-4 font-plus-jakarta">
               The Hidden Danger: AI That Creates Content AI Ignores
             </h2>
             <p className="text-gray-300 leading-relaxed mb-4">
@@ -452,12 +658,20 @@ export default function Page() {
               and Perplexity evaluate that content and decide it is not authoritative enough
               to recommend.
             </p>
-            <p className="text-gray-300 leading-relaxed mb-4">
-              AI search platforms do not reward volume. They reward authority, specificity,
-              and trustworthiness. When you flood your blog with AI-generated articles that
-              say the same things every other AI-generated article says, you are not building
-              authority. You are diluting it.
-            </p>
+
+            {/* Callout: The Irony */}
+            <div className="not-prose">
+              <div className="ae-callout ae-callout-warning">
+                <div className="ae-callout-title">The Content Irony</div>
+                <p>
+                  AI search platforms do not reward volume. They reward authority, specificity,
+                  and trustworthiness. When you flood your blog with AI-generated articles that
+                  say the same things every other AI-generated article says, you are not building
+                  authority. You are diluting it.
+                </p>
+              </div>
+            </div>
+
             <p className="text-gray-300 leading-relaxed mb-4">
               This is where the real damage happens.{' '}
               <Link href="/blog/website-stopped-getting-calls" className="text-orange-400 hover:text-orange-300 underline">
@@ -467,6 +681,48 @@ export default function Page() {
               because they have replaced distinctive, authoritative content with generic
               material that AI search platforms actively deprioritize.
             </p>
+
+            {/* Timeline: How AI Content Fails */}
+            <div className="not-prose">
+              <div className="ae-timeline">
+                <div className="ae-timeline-item">
+                  <div className="ae-timeline-marker">1</div>
+                  <div className="ae-timeline-content">
+                    <div className="ae-timeline-title">Business subscribes to AI writing tools</div>
+                    <div className="ae-timeline-desc">Cancels agency, starts generating content at scale.</div>
+                  </div>
+                </div>
+                <div className="ae-timeline-item">
+                  <div className="ae-timeline-marker">2</div>
+                  <div className="ae-timeline-content">
+                    <div className="ae-timeline-title">Content volume spikes dramatically</div>
+                    <div className="ae-timeline-desc">Blog posts, emails, and ads increase 5-10x in output.</div>
+                  </div>
+                </div>
+                <div className="ae-timeline-item">
+                  <div className="ae-timeline-marker">3</div>
+                  <div className="ae-timeline-content">
+                    <div className="ae-timeline-title">Content blends with every competitor</div>
+                    <div className="ae-timeline-desc">Same models produce same patterns. Differentiation vanishes.</div>
+                  </div>
+                </div>
+                <div className="ae-timeline-item">
+                  <div className="ae-timeline-marker">4</div>
+                  <div className="ae-timeline-content">
+                    <div className="ae-timeline-title">AI search platforms deprioritize the content</div>
+                    <div className="ae-timeline-desc">No authority signals. No unique value. Competitors get cited instead.</div>
+                  </div>
+                </div>
+                <div className="ae-timeline-item">
+                  <div className="ae-timeline-marker">5</div>
+                  <div className="ae-timeline-content">
+                    <div className="ae-timeline-title">Leads decline despite increased activity</div>
+                    <div className="ae-timeline-desc">More content, fewer results. The AI-only trap closes.</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
             <p className="text-gray-300 leading-relaxed mb-4">
               The businesses that AI platforms choose to recommend share specific
               characteristics: clear expertise signals, consistent brand presence across
@@ -479,8 +735,17 @@ export default function Page() {
               or not.
             </p>
 
+            {/* CTA Inline 6 */}
+            <div className="not-prose">
+              <div className="ae-cta-inline">
+                <p>Is AI-generated content actually hurting your visibility?</p>
+                <Link href="/blindspot">Find Out With a Free Analysis &#8594;</Link>
+              </div>
+            </div>
+
             {/* Section 6 */}
-            <h2 className="text-2xl font-bold text-white mt-12 mb-4 font-plus-jakarta">
+            <div className="not-prose"><span className="ae-section-label">Implementation Reality</span></div>
+            <h2 className="text-2xl font-bold text-white mt-4 mb-4 font-plus-jakarta">
               Why Implementation Fails Without Expertise
             </h2>
             <p className="text-gray-300 leading-relaxed mb-4">
@@ -490,6 +755,33 @@ export default function Page() {
               invest in employee AI training report 43% higher success rates in deploying
               AI projects.
             </p>
+
+            {/* Stats Grid: Implementation */}
+            <div className="not-prose">
+              <div className="ae-stats-grid">
+                <div className="ae-stat-card">
+                  <div className="ae-stat-emoji">📚</div>
+                  <div className="ae-stat-value ae-accent">71.7%</div>
+                  <div className="ae-stat-label">FAIL FROM KNOWLEDGE GAPS</div>
+                </div>
+                <div className="ae-stat-card">
+                  <div className="ae-stat-emoji">🔧</div>
+                  <div className="ae-stat-value ae-accent">70%</div>
+                  <div className="ae-stat-label">TECHNICAL CHALLENGES</div>
+                </div>
+                <div className="ae-stat-card">
+                  <div className="ae-stat-emoji">🎓</div>
+                  <div className="ae-stat-value ae-accent">43%</div>
+                  <div className="ae-stat-label">BETTER WITH TRAINING</div>
+                </div>
+                <div className="ae-stat-card">
+                  <div className="ae-stat-emoji">🏪</div>
+                  <div className="ae-stat-value ae-accent">67%</div>
+                  <div className="ae-stat-label">VENDOR SUCCESS RATE</div>
+                </div>
+              </div>
+            </div>
+
             <p className="text-gray-300 leading-relaxed mb-4">
               What this means in practice: buying AI tools without the expertise to
               configure, integrate, and strategically deploy them is like buying a commercial
@@ -497,70 +789,60 @@ export default function Page() {
               insufficient. The chef, the menu, the sourcing, the service model: those are
               what make it a business, not the appliances.
             </p>
-            <p className="text-gray-300 leading-relaxed mb-4">
-              Purchasing AI tools from specialized vendors succeeds about 67% of the time.
-              Building AI solutions internally succeeds only one-third as often. The
-              difference is expertise. Not tool access.
-            </p>
+
+            {/* Takeaway */}
+            <div className="not-prose">
+              <div className="ae-takeaway">
+                <div className="ae-takeaway-title">Vendor vs. DIY Success</div>
+                <p>
+                  Purchasing AI tools from specialized vendors succeeds about 67% of the time.
+                  Building AI solutions internally succeeds only one-third as often. The
+                  difference is expertise. Not tool access.
+                </p>
+              </div>
+            </div>
+
+            {/* CTA Inline 7 */}
+            <div className="not-prose">
+              <div className="ae-cta-inline">
+                <p>Need expert guidance on AI marketing implementation?</p>
+                <a href="tel:+12134442229">Call (213) 444-2229 for a free consultation &#8594;</a>
+              </div>
+            </div>
 
             {/* Section 7 */}
-            <h2 className="text-2xl font-bold text-white mt-12 mb-4 font-plus-jakarta">
+            <div className="not-prose"><span className="ae-section-label">The Honest Answer</span></div>
+            <h2 className="text-2xl font-bold text-white mt-4 mb-4 font-plus-jakarta">
               The Honest Answer: It Depends on Your Agency
             </h2>
             <p className="text-gray-300 leading-relaxed mb-4">
-              Here is the nuanced reality:
+              Here is the nuanced reality. Whether AI can replace your agency depends
+              entirely on what kind of agency you have.
             </p>
 
-            <div className="my-6 grid md:grid-cols-2 gap-4">
-              <div className="p-6 rounded-xl border border-red-500/30 bg-red-950/20">
-                <h3 className="text-lg font-semibold text-red-400 mb-3">AI Can Replace Your Agency If...</h3>
-                <ul className="space-y-2 text-gray-300 text-sm">
-                  <li className="flex items-start gap-2">
-                    <span className="text-red-400 mt-0.5">&#8226;</span>
-                    <span>They primarily post content and run basic ads</span>
-                  </li>
-                  <li className="flex items-start gap-2">
-                    <span className="text-red-400 mt-0.5">&#8226;</span>
-                    <span>Their reports focus on vanity metrics like impressions</span>
-                  </li>
-                  <li className="flex items-start gap-2">
-                    <span className="text-red-400 mt-0.5">&#8226;</span>
-                    <span>They cannot articulate your competitive positioning</span>
-                  </li>
-                  <li className="flex items-start gap-2">
-                    <span className="text-red-400 mt-0.5">&#8226;</span>
-                    <span>Their work feels interchangeable with any other agency</span>
-                  </li>
-                  <li className="flex items-start gap-2">
-                    <span className="text-red-400 mt-0.5">&#8226;</span>
-                    <span>They have no strategy for AI search visibility</span>
-                  </li>
-                </ul>
-              </div>
-              <div className="p-6 rounded-xl border border-green-500/30 bg-green-950/20">
-                <h3 className="text-lg font-semibold text-green-400 mb-3">AI Cannot Replace Your Agency If...</h3>
-                <ul className="space-y-2 text-gray-300 text-sm">
-                  <li className="flex items-start gap-2">
-                    <span className="text-green-400 mt-0.5">&#8226;</span>
-                    <span>They drive measurable revenue, not just activity</span>
-                  </li>
-                  <li className="flex items-start gap-2">
-                    <span className="text-green-400 mt-0.5">&#8226;</span>
-                    <span>They understand your market better than you expected</span>
-                  </li>
-                  <li className="flex items-start gap-2">
-                    <span className="text-green-400 mt-0.5">&#8226;</span>
-                    <span>They adapt strategy based on competitive intelligence</span>
-                  </li>
-                  <li className="flex items-start gap-2">
-                    <span className="text-green-400 mt-0.5">&#8226;</span>
-                    <span>They are using AI tools themselves to amplify their work</span>
-                  </li>
-                  <li className="flex items-start gap-2">
-                    <span className="text-green-400 mt-0.5">&#8226;</span>
-                    <span>They have a clear AI visibility and citation strategy</span>
-                  </li>
-                </ul>
+            {/* Pros/Cons */}
+            <div className="not-prose">
+              <div className="ae-pros-cons">
+                <div className="ae-cons-box">
+                  <div className="ae-cons-title">AI Can Replace Your Agency If...</div>
+                  <ul>
+                    <li>They primarily post content and run basic ads</li>
+                    <li>Their reports focus on vanity metrics like impressions</li>
+                    <li>They cannot articulate your competitive positioning</li>
+                    <li>Their work feels interchangeable with any other agency</li>
+                    <li>They have no strategy for AI search visibility</li>
+                  </ul>
+                </div>
+                <div className="ae-pros-box">
+                  <div className="ae-pros-title">AI Cannot Replace Your Agency If...</div>
+                  <ul>
+                    <li>They drive measurable revenue, not just activity</li>
+                    <li>They understand your market better than you expected</li>
+                    <li>They adapt strategy based on competitive intelligence</li>
+                    <li>They are using AI tools themselves to amplify their work</li>
+                    <li>They have a clear AI visibility and citation strategy</li>
+                  </ul>
+                </div>
               </div>
             </div>
 
@@ -577,8 +859,17 @@ export default function Page() {
               agencies that use AI as part of a strategic approach.
             </p>
 
+            {/* CTA Inline 8 */}
+            <div className="not-prose">
+              <div className="ae-cta-inline">
+                <p>Looking for an agency that uses AI strategically, not one that AI replaced?</p>
+                <Link href="/blindspot">Start With a Free Blind Spot Report &#8594;</Link>
+              </div>
+            </div>
+
             {/* Section 8 */}
-            <h2 className="text-2xl font-bold text-white mt-12 mb-4 font-plus-jakarta">
+            <div className="not-prose"><span className="ae-section-label">The Missing Variable</span></div>
+            <h2 className="text-2xl font-bold text-white mt-4 mb-4 font-plus-jakarta">
               The Overlooked Variable: Who Is AI Recommending?
             </h2>
             <p className="text-gray-300 leading-relaxed mb-4">
@@ -587,20 +878,79 @@ export default function Page() {
               asks ChatGPT, Google AI, or Perplexity for a recommendation in your
               industry, who do they name?
             </p>
-            <p className="text-gray-300 leading-relaxed mb-4">
-              This is the variable that neither your current agency nor your AI tools are
-              likely addressing. AI visibility is a distinct discipline. It requires
-              understanding how AI platforms evaluate authority, what sources they pull
-              from, and how to position your business as the authoritative answer.
-            </p>
+
+            {/* Callout: The Critical Question */}
+            <div className="not-prose">
+              <div className="ae-callout ae-callout-success">
+                <div className="ae-callout-title">The Only Question That Matters</div>
+                <p>
+                  This is the variable that neither your current agency nor your AI tools are
+                  likely addressing. AI visibility is a distinct discipline. It requires
+                  understanding how AI platforms evaluate authority, what sources they pull
+                  from, and how to position your business as the authoritative answer.
+                </p>
+              </div>
+            </div>
+
             <p className="text-gray-300 leading-relaxed mb-4">
               You could have the best AI tools and the best agency in the world. If AI
               search platforms are recommending your competitors instead of you, your
               marketing has a gap that no amount of content or ad spend will close.
             </p>
 
+            {/* CTA Inline 9 */}
+            <div className="not-prose">
+              <div className="ae-cta-inline">
+                <p>Find out who AI is recommending in your market right now.</p>
+                <Link href="/blindspot">Get Your Free Blind Spot Report &#8594;</Link>
+              </div>
+            </div>
+
+            {/* Section 9: The Smart Hybrid */}
+            <div className="not-prose"><span className="ae-section-label">The Smart Approach</span></div>
+            <h2 className="text-2xl font-bold text-white mt-4 mb-4 font-plus-jakarta">
+              The Smart Hybrid: AI Tools + Strategic Oversight
+            </h2>
+            <p className="text-gray-300 leading-relaxed mb-4">
+              The answer for most businesses is not AI or agency. It is AI and strategy.
+              The winning combination uses AI tools for execution speed while applying
+              human expertise for direction, differentiation, and the strategic decisions
+              that determine whether all that activity produces actual revenue.
+            </p>
+
+            {/* Cheat Sheet: Hybrid Playbook */}
+            <div className="not-prose">
+              <div className="ae-cheat-sheet">
+                <div className="ae-cheat-sheet-title">The Hybrid Marketing Playbook</div>
+                <ul>
+                  <li><strong>Use AI for:</strong> First drafts, data aggregation, scheduling, A/B testing, reporting</li>
+                  <li><strong>Use humans for:</strong> Strategy, positioning, competitive analysis, brand voice, crisis response</li>
+                  <li><strong>Use both for:</strong> Content planning, campaign optimization, market research, audience insights</li>
+                  <li><strong>Never use AI alone for:</strong> Brand strategy, reputation management, AI visibility, competitive positioning</li>
+                  <li><strong>Review cycle:</strong> Every AI output gets strategic review before publishing</li>
+                </ul>
+              </div>
+            </div>
+
+            {/* CTA Inline 10 */}
+            <div className="not-prose">
+              <div className="ae-cta-inline">
+                <p>Ready to build a hybrid strategy that actually works?</p>
+                <a href="mailto:support@theanswerengine.ai">Email support@theanswerengine.ai to get started &#8594;</a>
+              </div>
+            </div>
+
+            {/* CTA Inline 11 */}
+            <div className="not-prose">
+              <div className="ae-cta-inline">
+                <p>Prefer to talk through your specific situation?</p>
+                <a href="tel:+12134442229">Call (213) 444-2229 &#8594;</a>
+              </div>
+            </div>
+
             {/* FAQ Section */}
-            <h2 className="text-2xl font-bold text-white mt-16 mb-8 font-plus-jakarta">
+            <div className="not-prose"><span className="ae-section-label">FAQ</span></div>
+            <h2 className="text-2xl font-bold text-white mt-4 mb-8 font-plus-jakarta">
               Frequently Asked Questions
             </h2>
 
@@ -643,47 +993,74 @@ export default function Page() {
               ))}
             </section>
 
+            {/* CTA Inline 12 */}
+            <div className="not-prose">
+              <div className="ae-cta-inline">
+                <p>Still have questions about AI vs. agency for your business?</p>
+                <a href="mailto:support@theanswerengine.ai">Email us at support@theanswerengine.ai &#8594;</a>
+              </div>
+            </div>
+
+            {/* CTA Inline 13 */}
+            <div className="not-prose">
+              <div className="ae-cta-inline">
+                <p>Want to see what AI platforms say about your business today?</p>
+                <Link href="/blindspot">Run Your Free Blind Spot Report &#8594;</Link>
+              </div>
+            </div>
+
           </article>
 
-          {/* CTA Section */}
-          <div className="mt-16 p-8 rounded-2xl border border-gray-800 bg-gradient-to-r from-gray-900 to-gray-800">
-            <h2 className="text-2xl font-bold text-white mb-4 font-plus-jakarta">
-              Is AI Recommending You, or Your Competitors?
-            </h2>
-            <p className="text-gray-300 mb-6">
-              Whether you use an agency, AI tools, or both, one thing matters most:
-              who AI platforms recommend when your customers ask. Find out where you stand
-              with a free AI Blind Spot Report. No pitch, just the data on your current
-              AI visibility.
-            </p>
-            <a
-              href="/blindspot"
-              className="inline-block bg-[#FF6A00] text-white font-semibold px-6 py-3 rounded-lg hover:bg-orange-600 transition-colors"
-            >
-              Get Your Free Blind Spot Report
-            </a>
-    <div className="flex flex-wrap items-center gap-6 mt-6 pt-6 border-t border-[#FF6A00]/10">
-      <a href="tel:+12134442229" className="flex items-center gap-2 text-gray-400 hover:text-white transition-colors">
-        <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" /></svg>
-        (213) 444-2229
-      </a>
-      <a href="mailto:support@theanswerengine.ai" className="flex items-center gap-2 text-gray-400 hover:text-white transition-colors">
-        <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" /></svg>
-        support@theanswerengine.ai
-      </a>
-    </div>
+          {/* CTA Block */}
+          <div className="not-prose">
+            <div className="ae-cta-block">
+              <h2>Is AI Recommending You, or Your Competitors?</h2>
+              <p>
+                Whether you use an agency, AI tools, or both, one thing matters most:
+                who AI platforms recommend when your customers ask. Find out where you stand
+                with a free AI Blind Spot Report. No pitch, just the data on your current
+                AI visibility.
+              </p>
+              <Link href="/blindspot">Get Your Free Blind Spot Report &#8594;</Link>
+            </div>
           </div>
 
-          {/* Author Attribution */}
-          <div className="mt-12 pt-8 border-t border-gray-800">
-            <div className="flex items-center gap-4">
-              <div className="w-10 h-10 rounded-full bg-orange-500 flex items-center justify-center text-white font-bold text-sm flex-shrink-0">
+          {/* Final CTA */}
+          <div className="not-prose">
+            <div className="ae-final-cta">
+              <div className="ae-final-cta-pulse" />
+              <h2>Stop Guessing. Start Knowing.</h2>
+              <p>
+                Your competitors might already be optimizing for AI search visibility.
+                The first step is finding out where you stand. It takes 60 seconds and
+                costs nothing.
+              </p>
+              <Link href="/blindspot">Get Your Free AI Blind Spot Report &#8594;</Link>
+              <div className="flex flex-wrap items-center justify-center gap-6 mt-6 pt-6 border-t border-[#FF6A00]/20">
+                <a href="tel:+12134442229" className="flex items-center gap-2 text-gray-400 hover:text-white transition-colors">
+                  <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" /></svg>
+                  (213) 444-2229
+                </a>
+                <a href="mailto:support@theanswerengine.ai" className="flex items-center gap-2 text-gray-400 hover:text-white transition-colors">
+                  <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" /></svg>
+                  support@theanswerengine.ai
+                </a>
+              </div>
+            </div>
+          </div>
+
+          {/* Author Card */}
+          <div className="not-prose">
+            <div className="ae-author-card">
+              <div className="w-12 h-12 rounded-full bg-orange-500 flex items-center justify-center text-white font-bold text-lg flex-shrink-0">
                 AE
               </div>
               <div>
-                <p className="text-white font-medium text-sm">The Answer Engine Team</p>
-                <p className="text-gray-500 text-sm">
+                <p className="text-white font-semibold">The Answer Engine Team</p>
+                <p className="text-gray-400 text-sm">
                   Helping local service businesses stay visible in an AI-first world.
+                  We combine AI-powered research with human strategy to make sure the
+                  right customers find you.
                 </p>
               </div>
             </div>

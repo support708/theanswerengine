@@ -154,25 +154,34 @@ export default function GoogleReviewsAIRecommendations() {
       <ComprehensiveSchema />
 
       <main className="min-h-screen bg-[#0A0A0F]">
-        <article className="max-w-4xl mx-auto px-6 py-12 sm:py-16">
+        {/* Hero Section */}
+        <div className="max-w-4xl mx-auto px-6 pt-12 sm:pt-16">
           {/* Breadcrumbs */}
           <nav className="text-sm text-gray-500 mb-8">
             <Link href="/" className="hover:text-white transition-colors">Home</Link>
-            <span className="mx-2">›</span>
+            <span className="mx-2">/</span>
             <Link href="/blog" className="hover:text-white transition-colors">Blog</Link>
-            <span className="mx-2">›</span>
-            <span className="text-gray-400">Google Reviews & AI</span>
+            <span className="mx-2">/</span>
+            <span className="text-gray-400">Google Reviews &amp; AI</span>
           </nav>
 
           {/* Header */}
-          <header className="mb-12">
+          <header className="mb-10">
             <div className="inline-flex items-center gap-2 px-4 py-2 rounded-xl mb-6 bg-white/[0.04] border border-white/[0.08]">
               <span className="text-sm font-semibold tracking-wider uppercase text-white">AI Visibility</span>
             </div>
 
-            <h1 className="text-3xl sm:text-4xl lg:text-5xl font-semibold mb-6 text-white leading-tight">
-              Do Google Reviews Affect AI Recommendations? <span className="text-transparent bg-clip-text bg-gradient-to-r from-white to-white">(The Surprising Truth)</span>
+            <h1 className="text-3xl sm:text-4xl lg:text-5xl font-semibold mb-6 text-white leading-tight font-plus-jakarta">
+              Do Google Reviews Affect AI Recommendations? <span className="text-[#FF6A00]">(The Surprising Truth)</span>
             </h1>
+
+            <div className="flex flex-wrap gap-4 text-sm text-gray-400 mb-8">
+              <span>8 min read</span>
+              <span>|</span>
+              <span>Updated December 2025</span>
+              <span>|</span>
+              <span>By JB</span>
+            </div>
 
             {/* Featured Image */}
             <div className="mb-8 rounded-xl overflow-hidden border border-white/10">
@@ -182,428 +191,644 @@ export default function GoogleReviewsAIRecommendations() {
                 className="w-full grayscale brightness-75"
               />
             </div>
-
-            {/* Featured Snippet Block */}
-            <div className="bg-gradient-to-br from-white/[0.02] to-white/[0.02] border border-white/[0.08] rounded-xl p-6 mb-8">
-              <p className="text-lg text-white leading-relaxed">
-                <strong>No, ChatGPT cannot see your Google reviews.</strong> Google's review pages require JavaScript to load, which AI crawlers can't execute. Your 200+ five-star reviews are invisible to ChatGPT, Claude, and Perplexity. To get AI recommendations, you need reviews on platforms AI can actually read—your website, Yelp, and Bing-indexed directories.
-              </p>
-            </div>
-
-            <div className="flex flex-wrap gap-4 text-sm text-gray-400">
-              <div className="flex items-center gap-2">
-                <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={2}>
-                  <path strokeLinecap="round" strokeLinejoin="round" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
-                </svg>
-                <span>8 min read</span>
-              </div>
-              <div className="flex items-center gap-2">
-                <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={2}>
-                  <path strokeLinecap="round" strokeLinejoin="round" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
-                </svg>
-                <span>Updated December 2025</span>
-              </div>
-            </div>
           </header>
+        </div>
 
-          {/* The Problem */}
-          <section className="mb-12">
-            <div className="space-y-6 text-lg text-gray-300 leading-relaxed">
-              <p>
-                You've spent years building your Google reviews. Maybe you have 150, 200, or even 500+ reviews with a stellar 4.8-star average. Customers mention you're "the best in town." Your Google Business Profile looks incredible.
-              </p>
-              <p>
-                Then someone asks ChatGPT: <span className="text-white font-medium">"Who's the best plumber in [your city]?"</span>
-              </p>
-              <p>
-                And you're not mentioned. Your competitor with half your reviews gets the recommendation instead.
-              </p>
-              <p>
-                What's going on?
-              </p>
-              <p className="text-white font-medium">
-                Here's the uncomfortable truth: ChatGPT can't see your Google reviews at all.
-              </p>
-            </div>
-          </section>
+        {/* Article Body */}
+        <article className="max-w-4xl mx-auto px-6 pb-20">
+          <div className="prose prose-invert prose-lg max-w-none prose-headings:font-plus-jakarta prose-headings:text-white prose-p:text-gray-300 prose-a:text-[#FF6A00] prose-a:no-underline hover:prose-a:underline prose-strong:text-white">
 
-          {/* Why ChatGPT Can't See Google Reviews */}
-          <section className="mb-12">
-            <h2 className="text-2xl sm:text-3xl font-semibold mb-6 text-white">Why ChatGPT Can't Read Your Google Reviews</h2>
-
-            <div className="space-y-6 text-lg text-gray-300 leading-relaxed">
-              <p>
-                Google reviews exist behind a JavaScript wall. When you visit a Google Business Profile, your browser executes JavaScript code that loads the reviews dynamically. You see them because your browser runs that code.
-              </p>
-              <p>
-                AI crawlers don't work that way. They read raw HTML—the underlying code of a webpage before JavaScript runs. When ChatGPT or other AI platforms try to access Google review pages, they see something like this:
-              </p>
-
-              <div className="bg-black/40 rounded-xl p-6 border border-white/10 font-mono text-sm text-gray-400">
-                <p>"We're sorry, but this page requires JavaScript to function properly."</p>
+            {/* Hero Stats Grid */}
+            <div className="not-prose ae-stats-grid">
+              <div className="ae-stat-card">
+                <div className="ae-stat-emoji">🔍</div>
+                <div className="ae-stat-value ae-accent">0%</div>
+                <div className="ae-stat-label">GOOGLE REVIEWS AI CAN SEE</div>
               </div>
-
-              <p>
-                That's it. No reviews. No ratings. No customer testimonials. Just an error message.
-              </p>
-              <p>
-                This isn't a bug—it's how Google protects its data. And it means <span className="text-white font-medium">every Google review you've collected is invisible to AI platforms</span> that might otherwise recommend your business.
-              </p>
-            </div>
-          </section>
-
-          {/* The Visibility Gap */}
-          <section className="mb-12">
-            <h2 className="text-2xl sm:text-3xl font-semibold mb-6 text-white">The AI Visibility Gap: What This Means for Your Business</h2>
-
-            <div className="space-y-6 text-lg text-gray-300 leading-relaxed">
-              <p>
-                When ChatGPT provides local recommendations, it often mentions "highly rated" or "top-reviewed" businesses. But it's only referencing reviews it can actually see.
-              </p>
-              <p>
-                This creates a significant gap:
-              </p>
+              <div className="ae-stat-card">
+                <div className="ae-stat-emoji">🚫</div>
+                <div className="ae-stat-value ae-accent">JavaScript</div>
+                <div className="ae-stat-label">THE WALL BLOCKING AI</div>
+              </div>
+              <div className="ae-stat-card">
+                <div className="ae-stat-emoji">📊</div>
+                <div className="ae-stat-value ae-accent">5+</div>
+                <div className="ae-stat-label">PLATFORMS AI CAN CRAWL</div>
+              </div>
+              <div className="ae-stat-card">
+                <div className="ae-stat-emoji">⚡</div>
+                <div className="ae-stat-value ae-accent">100M+</div>
+                <div className="ae-stat-label">WEEKLY AI SEARCH USERS</div>
+              </div>
             </div>
 
-            <div className="my-8 overflow-x-auto">
-              <table className="w-full border-collapse text-sm">
+            {/* Featured Snippet / Callout */}
+            <div className="not-prose ae-callout ae-callout-warning">
+              <div className="ae-callout-title">The Hard Truth About Google Reviews and AI</div>
+              <p><strong>No, ChatGPT cannot see your Google reviews.</strong> Google&apos;s review pages require JavaScript to load, which AI crawlers cannot execute. Your 200+ five-star reviews are invisible to ChatGPT, Claude, and Perplexity. To earn AI recommendations, you need reviews on platforms AI can actually read: your website, Yelp, and Bing-indexed directories.</p>
+            </div>
+
+            <p>You have spent years building your Google reviews. Maybe you have 150, 200, or even 500+ reviews with a stellar 4.8-star average. Customers mention you are &quot;the best in town.&quot; Your Google Business Profile looks incredible.</p>
+
+            <p>Then someone asks ChatGPT: <strong>&quot;Who is the best plumber in [your city]?&quot;</strong></p>
+
+            <p>And you are not mentioned. Your competitor with half your reviews gets the recommendation instead.</p>
+
+            <div className="not-prose ae-cta-inline">
+              <p>Wondering if AI is sending customers to your competitors instead of you?</p>
+              <Link href="/blindspot">Get Your Free Blind Spot Report</Link>
+            </div>
+
+            {/* Section 1 */}
+            <span className="not-prose ae-section-label">The Core Problem</span>
+            <h2>Why ChatGPT Cannot Read Your Google Reviews</h2>
+
+            <p>Google reviews exist behind a JavaScript wall. When you visit a Google Business Profile, your browser executes JavaScript code that loads the reviews dynamically. You see them because your browser runs that code.</p>
+
+            <p>AI crawlers do not work that way. They read raw HTML, the underlying code of a webpage before JavaScript runs. When ChatGPT or other AI platforms try to access Google review pages, they get nothing useful.</p>
+
+            <div className="not-prose ae-quote">
+              <p>&quot;We are sorry, but this page requires JavaScript to function properly.&quot;</p>
+              <cite>What AI crawlers see when they visit Google review pages</cite>
+            </div>
+
+            <p>That is it. No reviews. No ratings. No customer testimonials. Just an error message.</p>
+
+            <p>This is not a bug. It is how Google protects its data. And it means <strong>every Google review you have collected is invisible to AI platforms</strong> that might otherwise recommend your business.</p>
+
+            <div className="not-prose ae-callout ae-callout-info">
+              <div className="ae-callout-title">Technical Reality</div>
+              <p>Google uses client-side JavaScript rendering for reviews. AI crawlers like ChatGPT&apos;s browsing tool, Perplexity&apos;s web search, and Claude&apos;s retrieval systems all rely on server-side HTML parsing. They literally cannot execute the JavaScript needed to see your reviews.</p>
+            </div>
+
+            <div className="not-prose ae-cta-inline">
+              <p>Not sure what AI platforms actually see about your business?</p>
+              <a href="tel:+12134442229">Call (213) 444-2229 for a free consultation</a>
+            </div>
+
+            {/* Section 2 */}
+            <span className="not-prose ae-section-label">The Visibility Gap</span>
+            <h2>The AI Visibility Gap: What This Means for Your Business</h2>
+
+            <p>When ChatGPT provides local recommendations, it often mentions &quot;highly rated&quot; or &quot;top-reviewed&quot; businesses. But it is only referencing reviews it can actually see. This creates a massive gap between your real reputation and your AI reputation.</p>
+
+            {/* Comparison Table */}
+            <div className="not-prose">
+              <table className="ae-comparison-table">
                 <thead>
-                  <tr className="border-b border-white/10">
-                    <th className="text-left py-4 px-4 text-gray-400 font-medium">Platform</th>
-                    <th className="text-center py-4 px-4 text-gray-400 font-medium">Google Sees</th>
-                    <th className="text-center py-4 px-4 text-gray-400 font-medium">ChatGPT Sees</th>
-                    <th className="text-center py-4 px-4 text-gray-400 font-medium">Perplexity Sees</th>
+                  <tr>
+                    <th>Platform</th>
+                    <th>Google Sees</th>
+                    <th>ChatGPT Sees</th>
+                    <th>Perplexity Sees</th>
                   </tr>
                 </thead>
-                <tbody className="text-gray-300">
-                  <tr className="border-b border-white/5">
-                    <td className="py-4 px-4">Google Reviews</td>
-                    <td className="py-4 px-4 text-center text-green-400">✓ Yes</td>
-                    <td className="py-4 px-4 text-center text-red-400">✗ No</td>
-                    <td className="py-4 px-4 text-center text-red-400">✗ No</td>
-                  </tr>
-                  <tr className="border-b border-white/5">
-                    <td className="py-4 px-4">Yelp Reviews</td>
-                    <td className="py-4 px-4 text-center text-green-400">✓ Yes</td>
-                    <td className="py-4 px-4 text-center text-green-400">✓ Yes</td>
-                    <td className="py-4 px-4 text-center text-green-400">✓ Yes</td>
-                  </tr>
-                  <tr className="border-b border-white/5">
-                    <td className="py-4 px-4">Facebook Reviews</td>
-                    <td className="py-4 px-4 text-center text-green-400">✓ Yes</td>
-                    <td className="py-4 px-4 text-center text-green-400">✓ Yes</td>
-                    <td className="py-4 px-4 text-center text-green-400">✓ Yes</td>
-                  </tr>
-                  <tr className="border-b border-white/5">
-                    <td className="py-4 px-4">Your Website (text)</td>
-                    <td className="py-4 px-4 text-center text-green-400">✓ Yes</td>
-                    <td className="py-4 px-4 text-center text-green-400">✓ Yes</td>
-                    <td className="py-4 px-4 text-center text-green-400">✓ Yes</td>
-                  </tr>
-                  <tr className="border-b border-white/5">
-                    <td className="py-4 px-4">BBB / Industry Directories</td>
-                    <td className="py-4 px-4 text-center text-green-400">✓ Yes</td>
-                    <td className="py-4 px-4 text-center text-green-400">✓ Yes</td>
-                    <td className="py-4 px-4 text-center text-green-400">✓ Yes</td>
+                <tbody>
+                  <tr>
+                    <td>Google Reviews</td>
+                    <td className="text-green-400">Yes</td>
+                    <td className="text-red-400">No</td>
+                    <td className="text-red-400">No</td>
                   </tr>
                   <tr>
-                    <td className="py-4 px-4">Website Widgets (JS)</td>
-                    <td className="py-4 px-4 text-center text-green-400">✓ Yes</td>
-                    <td className="py-4 px-4 text-center text-red-400">✗ No</td>
-                    <td className="py-4 px-4 text-center text-red-400">✗ No</td>
+                    <td>Yelp Reviews</td>
+                    <td className="text-green-400">Yes</td>
+                    <td className="text-green-400">Yes</td>
+                    <td className="text-green-400">Yes</td>
+                  </tr>
+                  <tr>
+                    <td>Facebook Reviews</td>
+                    <td className="text-green-400">Yes</td>
+                    <td className="text-green-400">Yes</td>
+                    <td className="text-green-400">Yes</td>
+                  </tr>
+                  <tr>
+                    <td>Your Website (text)</td>
+                    <td className="text-green-400">Yes</td>
+                    <td className="text-green-400">Yes</td>
+                    <td className="text-green-400">Yes</td>
+                  </tr>
+                  <tr>
+                    <td>BBB / Industry Directories</td>
+                    <td className="text-green-400">Yes</td>
+                    <td className="text-green-400">Yes</td>
+                    <td className="text-green-400">Yes</td>
+                  </tr>
+                  <tr>
+                    <td>Website Widgets (JS-based)</td>
+                    <td className="text-green-400">Yes</td>
+                    <td className="text-red-400">No</td>
+                    <td className="text-red-400">No</td>
                   </tr>
                 </tbody>
               </table>
             </div>
 
-            <div className="bg-white/[0.02] border border-white/[0.05] rounded-xl p-6">
-              <div className="flex items-start gap-4">
-                <div className="flex-shrink-0">
-                  <svg className="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={2}>
-                    <path strokeLinecap="round" strokeLinejoin="round" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z" />
-                  </svg>
-                </div>
-                <div>
-                  <h4 className="font-semibold text-white mb-2">The Widget Trap</h4>
-                  <p className="text-gray-300">
-                    Many businesses embed Google review widgets on their website thinking it helps. But those widgets also use JavaScript—so AI still can't read them. The reviews need to be actual text on your page, not dynamically loaded content.
-                  </p>
-                </div>
-              </div>
-            </div>
-          </section>
-
-          {/* What AI Can See */}
-          <section className="mb-12">
-            <h2 className="text-2xl sm:text-3xl font-semibold mb-6 text-white">What Review Sources AI Actually Uses</h2>
-
-            <div className="space-y-6 text-lg text-gray-300 leading-relaxed">
-              <p>
-                AI platforms aren't completely blind to your reputation. They can access reviews from sources that don't require JavaScript:
-              </p>
+            <div className="not-prose ae-callout ae-callout-warning">
+              <div className="ae-callout-title">The Widget Trap</div>
+              <p>Many businesses embed Google review widgets on their website thinking it helps. But those widgets also use JavaScript, so AI still cannot read them. The reviews need to be actual text on your page, not dynamically loaded content. If your &quot;testimonials&quot; page uses an Elfsight, Google, or Birdeye widget, AI sees a blank box.</p>
             </div>
 
-            <div className="grid sm:grid-cols-2 gap-4 my-8">
-              <div className="bg-white/[0.02] border border-white/[0.05] rounded-xl p-5">
-                <div className="flex items-center gap-3 mb-3">
-                  <div className="w-10 h-10 bg-red-500/20 rounded-lg flex items-center justify-center">
-                    <span className="text-red-400 font-bold">Y</span>
-                  </div>
-                  <h3 className="font-semibold text-white">Yelp</h3>
+            {/* Bar Chart: AI Visibility by Platform */}
+            <div className="not-prose ae-bar-group">
+              <h4>AI Crawlability by Review Platform</h4>
+              <div className="ae-bar-item">
+                <div className="ae-bar-label">Your Website (plain text)</div>
+                <div className="ae-bar-track">
+                  <div className="ae-bar-fill" style={{width:'100%'}}></div>
                 </div>
-                <p className="text-gray-400 text-sm">ChatGPT frequently cites Yelp ratings and review snippets. Yelp's pages are largely crawlable without JavaScript.</p>
+                <div className="ae-bar-value">100%</div>
               </div>
-
-              <div className="bg-white/[0.02] border border-white/[0.05] rounded-xl p-5">
-                <div className="flex items-center gap-3 mb-3">
-                  <div className="w-10 h-10 bg-blue-500/20 rounded-lg flex items-center justify-center">
-                    <span className="text-blue-400 font-bold">f</span>
-                  </div>
-                  <h3 className="font-semibold text-white">Facebook</h3>
+              <div className="ae-bar-item">
+                <div className="ae-bar-label">Yelp</div>
+                <div className="ae-bar-track">
+                  <div className="ae-bar-fill" style={{width:'90%'}}></div>
                 </div>
-                <p className="text-gray-400 text-sm">Public Facebook pages and reviews are accessible to AI. Community recommendations in groups can also surface.</p>
+                <div className="ae-bar-value">90%</div>
               </div>
-
-              <div className="bg-white/[0.02] border border-white/[0.05] rounded-xl p-5">
-                <div className="flex items-center gap-3 mb-3">
-                  <div className="w-10 h-10 bg-green-500/20 rounded-lg flex items-center justify-center">
-                    <span className="text-green-400 font-bold">BBB</span>
-                  </div>
-                  <h3 className="font-semibold text-white">Better Business Bureau</h3>
+              <div className="ae-bar-item">
+                <div className="ae-bar-label">BBB</div>
+                <div className="ae-bar-track">
+                  <div className="ae-bar-fill" style={{width:'85%'}}></div>
                 </div>
-                <p className="text-gray-400 text-sm">BBB ratings and complaint histories are crawlable. AI uses this as a trust signal for business recommendations.</p>
+                <div className="ae-bar-value">85%</div>
               </div>
-
-              <div className="bg-white/[0.02] border border-white/[0.05] rounded-xl p-5">
-                <div className="flex items-center gap-3 mb-3">
-                  <div className="w-10 h-10 bg-white/20 rounded-lg flex items-center justify-center">
-                    <span className="text-white font-bold">W</span>
-                  </div>
-                  <h3 className="font-semibold text-white">Your Website</h3>
+              <div className="ae-bar-item">
+                <div className="ae-bar-label">Facebook</div>
+                <div className="ae-bar-track">
+                  <div className="ae-bar-fill" style={{width:'75%'}}></div>
                 </div>
-                <p className="text-gray-400 text-sm">Reviews displayed as plain text on your website are fully visible to AI. This is the most controllable option.</p>
+                <div className="ae-bar-value">75%</div>
+              </div>
+              <div className="ae-bar-item">
+                <div className="ae-bar-label">Industry Directories</div>
+                <div className="ae-bar-track">
+                  <div className="ae-bar-fill" style={{width:'70%'}}></div>
+                </div>
+                <div className="ae-bar-value">70%</div>
+              </div>
+              <div className="ae-bar-item">
+                <div className="ae-bar-label">Google Reviews</div>
+                <div className="ae-bar-track">
+                  <div className="ae-bar-fill" style={{width:'0%'}}></div>
+                </div>
+                <div className="ae-bar-value">0%</div>
+              </div>
+              <div className="ae-bar-item">
+                <div className="ae-bar-label">JS Review Widgets</div>
+                <div className="ae-bar-track">
+                  <div className="ae-bar-fill" style={{width:'0%'}}></div>
+                </div>
+                <div className="ae-bar-value">0%</div>
               </div>
             </div>
 
-            <div className="space-y-6 text-lg text-gray-300 leading-relaxed">
-              <p>
-                Industry-specific directories also matter. If you're a contractor, reviews on HomeAdvisor or Angi can influence AI recommendations. For healthcare providers, Healthgrades and Zocdoc reviews are crawlable. Real estate agents benefit from Zillow and Realtor.com reviews.
-              </p>
+            <div className="not-prose ae-cta-inline">
+              <p>Want to know exactly which platforms are visible to AI for your business?</p>
+              <Link href="/blindspot">Get Your Free Blind Spot Report</Link>
             </div>
-          </section>
 
-          {/* How to Fix It */}
-          <section className="mb-12">
-            <h2 className="text-2xl sm:text-3xl font-semibold mb-6 text-white">How to Make Your Reviews Visible to AI</h2>
+            {/* Section 3: What AI Can See */}
+            <span className="not-prose ae-section-label">AI-Visible Platforms</span>
+            <h2>What Review Sources AI Actually Uses</h2>
 
-            <div className="space-y-6">
-              {/* Step 1 */}
-              <div className="bg-white/[0.02] border border-white/[0.05] rounded-xl p-6">
-                <div className="flex items-start gap-4">
-                  <div className="flex-shrink-0 w-10 h-10 bg-white rounded-full flex items-center justify-center text-white font-bold text-lg">1</div>
-                  <div className="flex-1">
-                    <h3 className="text-xl font-semibold text-white mb-3">Display Reviews as Text on Your Website</h3>
-                    <p className="text-gray-300 mb-4">
-                      Don't use JavaScript widgets. Manually add your best reviews as actual text content on your site. Create a dedicated testimonials page or add them to service pages.
-                    </p>
-                    <div className="bg-black/30 rounded-lg p-4 border border-white/10">
-                      <p className="text-gray-400 text-sm"><strong className="text-gray-300">Pro tip:</strong> Include the reviewer's first name and service type: "John S. - Emergency Plumbing Repair" This helps AI understand the context of the review.</p>
-                    </div>
-                  </div>
-                </div>
+            <p>AI platforms are not completely blind to your reputation. They can access reviews from sources that do not require JavaScript. Here is where you should be building review presence.</p>
+
+            {/* Decision Matrix */}
+            <div className="not-prose">
+              <table className="ae-decision-matrix">
+                <thead>
+                  <tr>
+                    <th>Platform</th>
+                    <th>AI Visibility</th>
+                    <th>Effort to Set Up</th>
+                    <th>Impact on AI Citations</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><strong>Your Website</strong></td>
+                    <td className="text-green-400">Highest</td>
+                    <td>Low</td>
+                    <td className="text-green-400">Very High</td>
+                  </tr>
+                  <tr>
+                    <td><strong>Yelp</strong></td>
+                    <td className="text-green-400">High</td>
+                    <td>Medium</td>
+                    <td className="text-green-400">High</td>
+                  </tr>
+                  <tr>
+                    <td><strong>Facebook</strong></td>
+                    <td className="text-green-400">High</td>
+                    <td>Low</td>
+                    <td>Medium</td>
+                  </tr>
+                  <tr>
+                    <td><strong>BBB</strong></td>
+                    <td className="text-green-400">High</td>
+                    <td>Medium</td>
+                    <td className="text-green-400">High</td>
+                  </tr>
+                  <tr>
+                    <td><strong>Industry Directories</strong></td>
+                    <td>Medium</td>
+                    <td>Varies</td>
+                    <td>Medium</td>
+                  </tr>
+                  <tr>
+                    <td><strong>Google Reviews</strong></td>
+                    <td className="text-red-400">Zero</td>
+                    <td>N/A</td>
+                    <td className="text-red-400">Zero for AI</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+
+            <p>Industry-specific directories also matter. If you are a contractor, reviews on HomeAdvisor or Angi can influence AI recommendations. For healthcare providers, Healthgrades and Zocdoc reviews are crawlable. Real estate agents benefit from Zillow and Realtor.com reviews.</p>
+
+            <div className="not-prose ae-takeaway">
+              <strong>Key takeaway:</strong> The platform with the highest AI visibility is the one you control completely: your own website. Plain-text reviews with schema markup are the single most effective way to make your reputation visible to AI.
+            </div>
+
+            <div className="not-prose ae-cta-inline">
+              <p>Need help getting your reviews visible to AI platforms?</p>
+              <a href="mailto:support@theanswerengine.ai">Email support@theanswerengine.ai</a>
+            </div>
+
+            {/* Section 4: How to Fix It */}
+            <span className="not-prose ae-section-label">The Fix</span>
+            <h2>How to Make Your Reviews Visible to AI (4-Step Action Plan)</h2>
+
+            {/* Timeline */}
+            <div className="not-prose ae-timeline">
+              <div className="ae-timeline-item">
+                <h4>Step 1: Display Reviews as Text on Your Website</h4>
+                <p>Do not use JavaScript widgets. Manually add your best reviews as actual text content on your site. Create a dedicated testimonials page or add them to service pages. Include the reviewer&apos;s first name and service type (e.g., &quot;John S., Emergency Plumbing Repair&quot;) so AI understands the context.</p>
               </div>
-
-              {/* Step 2 */}
-              <div className="bg-white/[0.02] border border-white/[0.05] rounded-xl p-6">
-                <div className="flex items-start gap-4">
-                  <div className="flex-shrink-0 w-10 h-10 bg-white rounded-full flex items-center justify-center text-white font-bold text-lg">2</div>
-                  <div className="flex-1">
-                    <h3 className="text-xl font-semibold text-white mb-3">Add Review Schema Markup</h3>
-                    <p className="text-gray-300 mb-4">
-                      Use structured data to explicitly tell AI platforms "these are customer reviews." Review schema helps AI understand what it's reading and increases citation likelihood.
-                    </p>
-                    <div className="bg-black/30 rounded-lg p-4 border border-white/10">
-                      <p className="text-gray-400 text-sm"><strong className="text-gray-300">Key schema types:</strong> Review, AggregateRating, and Testimonial. Your web developer can implement these, or use plugins like RankMath or Yoast SEO.</p>
-                    </div>
-                  </div>
-                </div>
+              <div className="ae-timeline-item">
+                <h4>Step 2: Add Review Schema Markup</h4>
+                <p>Use structured data to explicitly tell AI platforms &quot;these are customer reviews.&quot; Review schema helps AI understand what it is reading and increases citation likelihood. Key schema types: Review, AggregateRating, and Testimonial.</p>
               </div>
-
-              {/* Step 3 */}
-              <div className="bg-white/[0.02] border border-white/[0.05] rounded-xl p-6">
-                <div className="flex items-start gap-4">
-                  <div className="flex-shrink-0 w-10 h-10 bg-white rounded-full flex items-center justify-center text-white font-bold text-lg">3</div>
-                  <div className="flex-1">
-                    <h3 className="text-xl font-semibold text-white mb-3">Diversify Your Review Platforms</h3>
-                    <p className="text-gray-300 mb-4">
-                      Don't put all your eggs in the Google basket. Actively request reviews on Yelp, Facebook, and industry-specific directories that AI can crawl.
-                    </p>
-                    <div className="bg-black/30 rounded-lg p-4 border border-white/10">
-                      <p className="text-gray-400 text-sm"><strong className="text-gray-300">Rotation strategy:</strong> Ask every third customer to leave a Yelp review instead of Google. Build presence across multiple platforms over time.</p>
-                    </div>
-                  </div>
-                </div>
+              <div className="ae-timeline-item">
+                <h4>Step 3: Diversify Your Review Platforms</h4>
+                <p>Do not put all your eggs in the Google basket. Actively request reviews on Yelp, Facebook, and industry-specific directories that AI can crawl. Use a rotation strategy: ask every third customer to leave a Yelp review instead of Google.</p>
               </div>
-
-              {/* Step 4 */}
-              <div className="bg-white/[0.02] border border-white/[0.05] rounded-xl p-6">
-                <div className="flex items-start gap-4">
-                  <div className="flex-shrink-0 w-10 h-10 bg-white rounded-full flex items-center justify-center text-white font-bold text-lg">4</div>
-                  <div className="flex-1">
-                    <h3 className="text-xl font-semibold text-white mb-3">Link to Original Reviews</h3>
-                    <p className="text-gray-300 mb-4">
-                      When displaying reviews on your site, include a "See original review" link to the source. This adds credibility for human visitors and helps AI verify authenticity.
-                    </p>
-                    <div className="bg-black/30 rounded-lg p-4 border border-white/10">
-                      <p className="text-gray-400 text-sm"><strong className="text-gray-300">Example:</strong> "Fixed our AC on the hottest day of the year. Lifesaver!" - Maria T. <span className="text-white">[See review on Yelp]</span></p>
-                    </div>
-                  </div>
-                </div>
+              <div className="ae-timeline-item">
+                <h4>Step 4: Link to Original Reviews</h4>
+                <p>When displaying reviews on your site, include a &quot;See original review&quot; link to the source. This adds credibility for human visitors and helps AI verify authenticity.</p>
               </div>
             </div>
-          </section>
 
-          {/* Should You Still Collect Google Reviews */}
-          <section className="mb-12">
-            <h2 className="text-2xl sm:text-3xl font-semibold mb-6 text-white">Should You Still Collect Google Reviews?</h2>
-
-            <div className="space-y-6 text-lg text-gray-300 leading-relaxed">
-              <p>
-                <span className="text-white font-medium">Absolutely yes.</span> Google reviews still matter enormously—just not for AI recommendations specifically.
-              </p>
-              <p>
-                Google reviews directly impact:
-              </p>
-              <ul className="space-y-3 ml-4">
-                <li className="flex items-start gap-3">
-                  <span className="text-white mt-1">•</span>
-                  <span><strong className="text-white">Google Search rankings</strong> — Reviews are a major local SEO factor</span>
-                </li>
-                <li className="flex items-start gap-3">
-                  <span className="text-white mt-1">•</span>
-                  <span><strong className="text-white">Google Maps visibility</strong> — More reviews = more prominent map placement</span>
-                </li>
-                <li className="flex items-start gap-3">
-                  <span className="text-white mt-1">•</span>
-                  <span><strong className="text-white">Google AI Overviews</strong> — Google's own AI can read Google reviews</span>
-                </li>
-                <li className="flex items-start gap-3">
-                  <span className="text-white mt-1">•</span>
-                  <span><strong className="text-white">Customer trust</strong> — People still check Google reviews before calling</span>
-                </li>
-              </ul>
-              <p>
-                The strategy isn't either/or—it's both. Continue building Google reviews for Google visibility, while also creating review presence on AI-accessible platforms.
-              </p>
+            <div className="not-prose ae-cta-inline">
+              <p>Want us to handle the technical setup for you?</p>
+              <Link href="/blindspot">Start With a Free Blind Spot Report</Link>
             </div>
-          </section>
 
-          {/* CTA Section */}
-          <div className="rounded-2xl p-8 sm:p-10 text-center my-16" style={{ background: 'linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%)' }}>
-            <h2 className="text-2xl sm:text-3xl font-bold text-white mb-4 font-plus-jakarta">Find Out If AI Is Recommending Your Business</h2>
-            <p className="text-gray-300 mb-6 max-w-2xl mx-auto">Most businesses have no idea whether AI platforms are sending them customers or sending them to competitors. Our free blind spot report shows you exactly where you stand.</p>
-            <Link href="/blindspot" className="inline-block px-8 py-4 rounded-lg font-semibold text-white transition-all duration-200 hover:brightness-110" style={{ backgroundColor: '#FF6A00' }}>Get Your Free Blind Spot Report</Link>
-    <div className="flex flex-wrap items-center gap-6 mt-6 pt-6 border-t border-[#FF6A00]/10">
-      <a href="tel:+12134442229" className="flex items-center gap-2 text-gray-400 hover:text-white transition-colors">
-        <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" /></svg>
-        (213) 444-2229
-      </a>
-      <a href="mailto:support@theanswerengine.ai" className="flex items-center gap-2 text-gray-400 hover:text-white transition-colors">
-        <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" /></svg>
-        support@theanswerengine.ai
-      </a>
-    </div>
+            {/* Cheat Sheet */}
+            <div className="not-prose ae-cheat-sheet">
+              <div className="ae-cheat-sheet-title">Review Optimization Cheat Sheet</div>
+              <table>
+                <thead>
+                  <tr>
+                    <th>Action</th>
+                    <th>Time Investment</th>
+                    <th>AI Impact</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>Add 10 text reviews to your website</td>
+                    <td>2 hours</td>
+                    <td>Immediate visibility boost</td>
+                  </tr>
+                  <tr>
+                    <td>Add Review schema markup</td>
+                    <td>1 hour (or plugin setup)</td>
+                    <td>Structured data recognition</td>
+                  </tr>
+                  <tr>
+                    <td>Claim Yelp business page</td>
+                    <td>30 minutes</td>
+                    <td>New AI-visible review channel</td>
+                  </tr>
+                  <tr>
+                    <td>Request 5 Yelp reviews from past clients</td>
+                    <td>15 minutes</td>
+                    <td>Cross-platform presence</td>
+                  </tr>
+                  <tr>
+                    <td>Update BBB listing</td>
+                    <td>1 hour</td>
+                    <td>Trust signal for AI</td>
+                  </tr>
+                  <tr>
+                    <td>Remove JS review widgets</td>
+                    <td>30 minutes</td>
+                    <td>Replace invisible with visible</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+
+            <div className="not-prose ae-callout ae-callout-success">
+              <div className="ae-callout-title">Quick Win</div>
+              <p>The fastest path to AI review visibility: copy your 10 best Google reviews as plain text onto your website&apos;s testimonials page. Add Review schema markup. This single action makes those reviews visible to every AI platform immediately.</p>
+            </div>
+
+            <div className="not-prose ae-cta-inline">
+              <p>Need a roadmap tailored to your specific business?</p>
+              <a href="tel:+12134442229">Call (213) 444-2229</a>
+            </div>
+
+            {/* Section 5: Pros and Cons */}
+            <span className="not-prose ae-section-label">Strategy Analysis</span>
+            <h2>Should You Still Collect Google Reviews?</h2>
+
+            <p><strong>Absolutely yes.</strong> Google reviews still matter enormously. They just do not help with AI recommendations specifically. The strategy is not either/or. It is both.</p>
+
+            {/* Pros/Cons */}
+            <div className="not-prose ae-pros-cons">
+              <div className="ae-pros-box">
+                <div className="ae-pros-title">Why Google Reviews Still Matter</div>
+                <ul>
+                  <li>Google Search rankings (major local SEO factor)</li>
+                  <li>Google Maps visibility (more reviews = higher placement)</li>
+                  <li>Google AI Overviews (Google&apos;s own AI CAN read them)</li>
+                  <li>Customer trust (people still check before calling)</li>
+                  <li>Social proof on your Google Business Profile</li>
+                  <li>Conversion rate on Google Search results</li>
+                </ul>
+              </div>
+              <div className="ae-cons-box">
+                <div className="ae-cons-title">Where Google Reviews Fall Short</div>
+                <ul>
+                  <li>Invisible to ChatGPT completely</li>
+                  <li>Invisible to Claude and Perplexity</li>
+                  <li>Cannot be crawled by any non-Google AI</li>
+                  <li>JS widgets on your site are also invisible</li>
+                  <li>No structured data for third-party AI parsing</li>
+                  <li>Zero influence on AI recommendation rankings</li>
+                </ul>
+              </div>
+            </div>
+
+            <div className="not-prose ae-stats-grid">
+              <div className="ae-stat-card">
+                <div className="ae-stat-emoji">📈</div>
+                <div className="ae-stat-value ae-accent">93%</div>
+                <div className="ae-stat-label">CONSUMERS READ REVIEWS</div>
+              </div>
+              <div className="ae-stat-card">
+                <div className="ae-stat-emoji">🤖</div>
+                <div className="ae-stat-value ae-accent">3-5</div>
+                <div className="ae-stat-label">BUSINESSES AI RECOMMENDS</div>
+              </div>
+              <div className="ae-stat-card">
+                <div className="ae-stat-emoji">🔒</div>
+                <div className="ae-stat-value ae-accent">100%</div>
+                <div className="ae-stat-label">GOOGLE REVIEWS AI-BLOCKED</div>
+              </div>
+            </div>
+
+            <div className="not-prose ae-cta-inline">
+              <p>Find out if you are one of the 3-5 businesses AI recommends in your market.</p>
+              <Link href="/blindspot">Get Your Free Blind Spot Report</Link>
+            </div>
+
+            <div className="not-prose ae-cta-inline">
+              <p>Have questions about your review strategy? Talk to a specialist.</p>
+              <a href="tel:+12134442229">Call (213) 444-2229</a>
+            </div>
+
+            {/* Section 6: The Bigger Picture */}
+            <span className="not-prose ae-section-label">The Bigger Picture</span>
+            <h2>Why Your Competitor Gets AI Recommendations With Fewer Reviews</h2>
+
+            <p>This is the question that frustrates most business owners. You have 300 Google reviews. Your competitor has 47. But ChatGPT recommends them and not you.</p>
+
+            <p>The answer is simple: your competitor has reviews where AI can see them. Maybe they have 12 Yelp reviews, a testimonials page on their website, and a BBB listing. Those 12 visible reviews outweigh your 300 invisible ones in the AI world.</p>
+
+            <div className="not-prose ae-bar-group">
+              <h4>AI Recommendation Factors (Beyond Reviews)</h4>
+              <div className="ae-bar-item">
+                <div className="ae-bar-label">Website Content Quality</div>
+                <div className="ae-bar-track">
+                  <div className="ae-bar-fill" style={{width:'95%'}}></div>
+                </div>
+                <div className="ae-bar-value">95%</div>
+              </div>
+              <div className="ae-bar-item">
+                <div className="ae-bar-label">Crawlable Reviews</div>
+                <div className="ae-bar-track">
+                  <div className="ae-bar-fill" style={{width:'85%'}}></div>
+                </div>
+                <div className="ae-bar-value">85%</div>
+              </div>
+              <div className="ae-bar-item">
+                <div className="ae-bar-label">Structured Data / Schema</div>
+                <div className="ae-bar-track">
+                  <div className="ae-bar-fill" style={{width:'80%'}}></div>
+                </div>
+                <div className="ae-bar-value">80%</div>
+              </div>
+              <div className="ae-bar-item">
+                <div className="ae-bar-label">Directory Presence</div>
+                <div className="ae-bar-track">
+                  <div className="ae-bar-fill" style={{width:'70%'}}></div>
+                </div>
+                <div className="ae-bar-value">70%</div>
+              </div>
+              <div className="ae-bar-item">
+                <div className="ae-bar-label">Third-Party Mentions</div>
+                <div className="ae-bar-track">
+                  <div className="ae-bar-fill" style={{width:'65%'}}></div>
+                </div>
+                <div className="ae-bar-value">65%</div>
+              </div>
+              <div className="ae-bar-item">
+                <div className="ae-bar-label">Google Review Count</div>
+                <div className="ae-bar-track">
+                  <div className="ae-bar-fill" style={{width:'5%'}}></div>
+                </div>
+                <div className="ae-bar-value">5%</div>
+              </div>
+            </div>
+
+            <div className="not-prose ae-callout ae-callout-info">
+              <div className="ae-callout-title">The Real Competition Is Visibility, Not Volume</div>
+              <p>AI does not count reviews. It reads them. A business with 10 well-written, crawlable reviews on its website will outperform a business with 500 Google reviews that AI cannot access. The game has changed. Volume on Google is not enough. Visibility across AI-accessible platforms is what matters now.</p>
+            </div>
+
+            <div className="not-prose ae-cta-inline">
+              <p>See exactly where your competitors are visible and you are not.</p>
+              <Link href="/blindspot">Get Your Free Blind Spot Report</Link>
+            </div>
+
+            {/* Section 7: Industry-Specific Guidance */}
+            <span className="not-prose ae-section-label">By Industry</span>
+            <h2>Industry-Specific Review Platforms AI Can Read</h2>
+
+            <div className="not-prose ae-cheat-sheet">
+              <div className="ae-cheat-sheet-title">Where to Get Reviews by Industry</div>
+              <table>
+                <thead>
+                  <tr>
+                    <th>Industry</th>
+                    <th>Priority Platform 1</th>
+                    <th>Priority Platform 2</th>
+                    <th>Priority Platform 3</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>Plumbing / HVAC</td>
+                    <td>Your Website</td>
+                    <td>Yelp</td>
+                    <td>Angi / HomeAdvisor</td>
+                  </tr>
+                  <tr>
+                    <td>Real Estate</td>
+                    <td>Your Website</td>
+                    <td>Zillow</td>
+                    <td>Realtor.com</td>
+                  </tr>
+                  <tr>
+                    <td>Healthcare</td>
+                    <td>Your Website</td>
+                    <td>Healthgrades</td>
+                    <td>Zocdoc</td>
+                  </tr>
+                  <tr>
+                    <td>Legal</td>
+                    <td>Your Website</td>
+                    <td>Avvo</td>
+                    <td>FindLaw</td>
+                  </tr>
+                  <tr>
+                    <td>Restaurants</td>
+                    <td>Your Website</td>
+                    <td>Yelp</td>
+                    <td>TripAdvisor</td>
+                  </tr>
+                  <tr>
+                    <td>Auto Services</td>
+                    <td>Your Website</td>
+                    <td>Yelp</td>
+                    <td>BBB</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+
+            <p>Notice the pattern: your own website is always platform number one. Every industry benefits most from reviews published directly as text content on their site with proper schema markup.</p>
+
+            <div className="not-prose ae-callout ae-callout-success">
+              <div className="ae-callout-title">Universal Rule</div>
+              <p>Regardless of your industry, your own website is the single most controllable and AI-visible review platform. Every business should have at least 10 plain-text reviews with schema markup on their site before worrying about any other platform.</p>
+            </div>
+
+            <div className="not-prose ae-cta-inline">
+              <p>Not sure which platforms matter most for your specific industry?</p>
+              <a href="mailto:support@theanswerengine.ai">Email us for a free industry analysis</a>
+            </div>
+
+            <div className="not-prose ae-cta-inline">
+              <p>Want a complete AI visibility audit for your business?</p>
+              <Link href="/blindspot">Get Your Free Blind Spot Report</Link>
+            </div>
+
+            {/* FAQ Section */}
+            <span className="not-prose ae-section-label">FAQ</span>
+            <h2>Frequently Asked Questions</h2>
+
+            <h3>Can ChatGPT see my Google reviews?</h3>
+            <p>No. ChatGPT cannot directly access Google reviews because Google&apos;s review pages require JavaScript to load, which AI crawlers cannot execute. ChatGPT only sees reviews that are published on your own website or on third-party sites it can crawl.</p>
+
+            <h3>Which review platforms can AI actually read?</h3>
+            <p>AI platforms can read reviews from Yelp, Facebook, Better Business Bureau, industry-specific directories, and reviews you have embedded on your own website. The key is whether the reviews are accessible without JavaScript rendering.</p>
+
+            <h3>Why does ChatGPT recommend competitors with fewer reviews than me?</h3>
+            <p>Your competitors likely have reviews visible on platforms ChatGPT can access: their website, Yelp, or Bing-indexed directories. Even with fewer total reviews, if those reviews are visible to AI, they have an advantage over your invisible Google reviews.</p>
+
+            <div className="not-prose ae-cta-inline">
+              <p>Still have questions? We are happy to help.</p>
+              <a href="tel:+12134442229">Call (213) 444-2229</a>
+            </div>
+
+            <h3>How do I make my reviews visible to AI?</h3>
+            <p>Display your best reviews directly on your website as text (not embedded widgets that require JavaScript). Use Review schema markup to help AI understand they are testimonials. Encourage customers to also leave reviews on Yelp, Facebook, and industry directories.</p>
+
+            <h3>Do reviews affect what ChatGPT recommends?</h3>
+            <p>Yes, but only reviews ChatGPT can see. AI platforms reference &quot;highly rated&quot; and &quot;top-reviewed&quot; businesses in their recommendations. The reviews must be on crawlable platforms or your own website for AI to factor them into recommendations.</p>
+
+            <h3>Should I still collect Google reviews?</h3>
+            <p>Yes, absolutely. Google reviews still matter for Google Search rankings, Google Maps visibility, and customer trust. But for AI visibility specifically, you need to diversify where your reviews appear and display them on your own website.</p>
+
+            <div className="not-prose ae-cta-inline">
+              <p>Ready to make your reviews work for AI search?</p>
+              <Link href="/blindspot">Get Your Free Blind Spot Report</Link>
+            </div>
+
+            {/* Related Content */}
+            <span className="not-prose ae-section-label">Keep Reading</span>
+            <h2>Related Articles</h2>
+
+            <div className="not-prose grid sm:grid-cols-2 gap-4 mb-12">
+              <Link href="/blog/check-if-ai-recommends-your-business" className="bg-white/[0.02] border border-white/[0.05] rounded-xl p-6 hover:border-[#FF6A00]/30 transition-colors group">
+                <div className="text-[#FF6A00] text-sm font-medium mb-2">DIY Guide</div>
+                <div className="text-white font-semibold group-hover:text-[#FF6A00] transition-colors">How to Check If AI Recommends Your Business</div>
+              </Link>
+              <Link href="/blog/how-chatgpt-chooses-businesses-to-recommend" className="bg-white/[0.02] border border-white/[0.05] rounded-xl p-6 hover:border-[#FF6A00]/30 transition-colors group">
+                <div className="text-[#FF6A00] text-sm font-medium mb-2">AI Algorithm</div>
+                <div className="text-white font-semibold group-hover:text-[#FF6A00] transition-colors">How ChatGPT Chooses Businesses to Recommend</div>
+              </Link>
+              <Link href="/blog/why-chatgpt-recommends-competitors" className="bg-white/[0.02] border border-white/[0.05] rounded-xl p-6 hover:border-[#FF6A00]/30 transition-colors group">
+                <div className="text-[#FF6A00] text-sm font-medium mb-2">Problem Solving</div>
+                <div className="text-white font-semibold group-hover:text-[#FF6A00] transition-colors">Why ChatGPT Recommends Your Competitors</div>
+              </Link>
+              <Link href="/blog/aeo-vs-seo" className="bg-white/[0.02] border border-white/[0.05] rounded-xl p-6 hover:border-[#FF6A00]/30 transition-colors group">
+                <div className="text-[#FF6A00] text-sm font-medium mb-2">Comparison</div>
+                <div className="text-white font-semibold group-hover:text-[#FF6A00] transition-colors">AEO vs SEO: What is the Difference?</div>
+              </Link>
+            </div>
+
+            <div className="not-prose ae-cta-inline">
+              <p>Want to go deeper on AI visibility strategy?</p>
+              <Link href="/blindspot">Start With Your Free Blind Spot Report</Link>
+            </div>
+
+            {/* Author Card */}
+            <div className="not-prose ae-author-card">
+              <div>
+                <strong>About the Author</strong>
+                <p>JB is the founder of The Answer Engine, an AI visibility agency helping local service businesses get recommended by ChatGPT, Claude, Perplexity, and Google AI. With a focus on data-driven strategies that deliver measurable results, JB has helped dozens of businesses go from invisible to cited across major AI platforms.</p>
+              </div>
+            </div>
+
+            {/* Final CTA */}
+            <div className="not-prose ae-final-cta">
+              <h2>Find Out If AI Is Recommending Your Business</h2>
+              <p>Most businesses have no idea whether AI platforms are sending them customers or sending them to competitors. Your 5-star Google reviews might be completely invisible to the AI tools your future customers are using right now. Our free blind spot report shows you exactly where you stand.</p>
+              <Link href="/blindspot" className="ae-final-cta-pulse">Get Your Free Blind Spot Report</Link>
+              <div className="flex flex-wrap items-center justify-center gap-6 mt-6 pt-6 border-t border-[#FF6A00]/10">
+                <a href="tel:+12134442229" className="flex items-center gap-2 text-gray-400 hover:text-white transition-colors">
+                  <span>📞</span> (213) 444-2229
+                </a>
+                <a href="mailto:support@theanswerengine.ai" className="flex items-center gap-2 text-gray-400 hover:text-white transition-colors">
+                  <span>📧</span> support@theanswerengine.ai
+                </a>
+              </div>
+              <p className="text-gray-500 text-sm mt-4">No pitch, just the data. See the gap between your Google reputation and your AI visibility.</p>
+            </div>
+
+            <div className="not-prose ae-cta-inline">
+              <p>Questions before getting started? We are here to help.</p>
+              <a href="tel:+12134442229">Call (213) 444-2229 today</a>
+            </div>
+
           </div>
-
-          {/* FAQ Section */}
-          <section className="mb-12">
-            <h2 className="text-2xl sm:text-3xl font-semibold mb-8 text-white">Frequently Asked Questions</h2>
-
-            <div className="space-y-6">
-              <div className="bg-white/[0.02] border border-white/[0.05] rounded-xl p-6">
-                <h3 className="text-lg font-semibold text-white mb-3">Can ChatGPT see my Google reviews?</h3>
-                <p className="text-gray-300 leading-relaxed">
-                  No. ChatGPT cannot directly access Google reviews because Google's review pages require JavaScript to load, which AI crawlers can't execute. ChatGPT only sees reviews that are published on your own website or on third-party sites it can crawl.
-                </p>
-              </div>
-
-              <div className="bg-white/[0.02] border border-white/[0.05] rounded-xl p-6">
-                <h3 className="text-lg font-semibold text-white mb-3">Which review platforms can AI actually read?</h3>
-                <p className="text-gray-300 leading-relaxed">
-                  AI platforms can read reviews from Yelp, Facebook, Better Business Bureau, industry-specific directories, and reviews you've embedded on your own website. The key is whether the reviews are accessible without JavaScript rendering.
-                </p>
-              </div>
-
-              <div className="bg-white/[0.02] border border-white/[0.05] rounded-xl p-6">
-                <h3 className="text-lg font-semibold text-white mb-3">Why does ChatGPT recommend competitors with fewer reviews than me?</h3>
-                <p className="text-gray-300 leading-relaxed">
-                  Your competitors likely have reviews visible on platforms ChatGPT can access—their website, Yelp, or Bing-indexed directories. Even with fewer total reviews, if those reviews are visible to AI, they have an advantage over your invisible Google reviews.
-                </p>
-              </div>
-
-              <div className="bg-white/[0.02] border border-white/[0.05] rounded-xl p-6">
-                <h3 className="text-lg font-semibold text-white mb-3">How do I make my reviews visible to AI?</h3>
-                <p className="text-gray-300 leading-relaxed">
-                  Display your best reviews directly on your website as text (not embedded widgets that require JavaScript). Use Review schema markup to help AI understand they're testimonials. Encourage customers to also leave reviews on Yelp, Facebook, and industry directories.
-                </p>
-              </div>
-
-              <div className="bg-white/[0.02] border border-white/[0.05] rounded-xl p-6">
-                <h3 className="text-lg font-semibold text-white mb-3">Do reviews affect what ChatGPT recommends?</h3>
-                <p className="text-gray-300 leading-relaxed">
-                  Yes, but only reviews ChatGPT can see. Research shows AI platforms reference "highly rated" and "top-reviewed" businesses in their recommendations. The reviews must be on crawlable platforms or your own website for AI to factor them into recommendations.
-                </p>
-              </div>
-
-              <div className="bg-white/[0.02] border border-white/[0.05] rounded-xl p-6">
-                <h3 className="text-lg font-semibold text-white mb-3">Should I still collect Google reviews?</h3>
-                <p className="text-gray-300 leading-relaxed">
-                  Yes, absolutely. Google reviews still matter for Google Search rankings, Google Maps visibility, and customer trust. But for AI visibility specifically, you need to diversify where your reviews appear and display them on your own website.
-                </p>
-              </div>
-            </div>
-          </section>
-
-          {/* Related Content */}
-          <section className="mb-12">
-            <h2 className="text-2xl sm:text-3xl font-semibold mb-6 text-white">Related Articles</h2>
-            <div className="grid sm:grid-cols-2 gap-4">
-              <Link href="/blog/check-if-ai-recommends-your-business" className="bg-white/[0.02] border border-white/[0.05] rounded-xl p-6 hover:border-white/[0.08] transition-colors group">
-                <div className="text-white text-sm font-medium mb-2">DIY Guide</div>
-                <div className="text-white font-semibold group-hover:text-white transition-colors">How to Check If AI Recommends Your Business</div>
-              </Link>
-              <Link href="/blog/how-chatgpt-chooses-businesses-to-recommend" className="bg-white/[0.02] border border-white/[0.05] rounded-xl p-6 hover:border-white/[0.08] transition-colors group">
-                <div className="text-white text-sm font-medium mb-2">AI Algorithm</div>
-                <div className="text-white font-semibold group-hover:text-white transition-colors">How ChatGPT Chooses Businesses to Recommend</div>
-              </Link>
-              <Link href="/blog/why-chatgpt-recommends-competitors" className="bg-white/[0.02] border border-white/[0.05] rounded-xl p-6 hover:border-white/[0.08] transition-colors group">
-                <div className="text-white text-sm font-medium mb-2">Problem Solving</div>
-                <div className="text-white font-semibold group-hover:text-white transition-colors">Why ChatGPT Recommends Your Competitors</div>
-              </Link>
-              <Link href="/blog/aeo-vs-seo" className="bg-white/[0.02] border border-white/[0.05] rounded-xl p-6 hover:border-white/[0.08] transition-colors group">
-                <div className="text-white text-sm font-medium mb-2">Comparison</div>
-                <div className="text-white font-semibold group-hover:text-white transition-colors">AEO vs SEO: What's the Difference?</div>
-              </Link>
-            </div>
-          </section>
-
-          {/* CTA */}
-          <section className="text-center py-12 border-t border-white/[0.05]">
-            <h2 className="text-2xl sm:text-3xl font-semibold mb-4 text-white">Want to Know What AI Actually Sees About Your Business?</h2>
-            <p className="text-gray-400 mb-8 max-w-2xl mx-auto">
-              Our free AEO audit shows you exactly which platforms are recommending you, which are recommending competitors, and what's missing from your AI visibility strategy.
-            </p>
-            <Link
-              href="/#contact"
-              className="inline-flex items-center gap-2 bg-gradient-to-r from-white to-white text-white font-semibold px-8 py-4 rounded-xl hover:opacity-90 transition-opacity"
-            >
-              Get Your Free AEO Audit
-              <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={2}>
-                <path strokeLinecap="round" strokeLinejoin="round" d="M17 8l4 4m0 0l-4 4m4-4H3" />
-              </svg>
-            </Link>
-            <p className="text-gray-500 text-sm mt-4">See the gap between your Google reputation and your AI visibility.</p>
-          </section>
         </article>
       </main>
     </>

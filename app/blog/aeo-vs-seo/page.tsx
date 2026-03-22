@@ -186,7 +186,7 @@ export default function AEOvsSEO() {
             </div>
 
             <h1 className="text-3xl sm:text-4xl lg:text-5xl font-semibold mb-6 text-white leading-tight">
-              AEO vs SEO: <span className="text-transparent bg-clip-text bg-gradient-to-r from-white to-white">What&apos;s the Difference?</span>
+              AEO vs SEO: What&apos;s the Difference?
             </h1>
 
             {/* Featured Image */}
@@ -221,415 +221,680 @@ export default function AEOvsSEO() {
             </div>
           </header>
 
-          {/* Introduction */}
-          <section className="mb-12">
-            <div className="space-y-6 text-lg text-gray-300 leading-relaxed">
-              <p>
-                For 20+ years, SEO was the game. Rank higher, get more clicks, win more customers. Simple.
-              </p>
-              <p>
-                Then AI changed everything.
-              </p>
-              <p>
-                Now when someone asks ChatGPT &quot;Who&apos;s the best probate realtor in Pasadena?&quot; or Google shows an AI Overview answering &quot;How do I sell an inherited house?&quot;—the rules are different. Being on page one isn&apos;t enough. You need to be <span className="text-white font-medium">the answer AI recommends</span>.
-              </p>
-              <p>
-                That&apos;s the difference between SEO and AEO. And if you&apos;re a local service business, understanding this difference might be the most important thing you learn this year.
-              </p>
+          {/* Main Content with prose */}
+          <div className="prose prose-invert prose-lg max-w-none prose-headings:font-plus-jakarta prose-headings:text-white prose-p:text-gray-300 prose-a:text-[#FF6A00] prose-a:no-underline hover:prose-a:underline prose-strong:text-white">
+
+            {/* ── STATS GRID ── */}
+            <div className="ae-stats-grid not-prose">
+              <div className="ae-stat-card">
+                <div className="ae-stat-emoji">🔍</div>
+                <div className="ae-stat-value ae-accent">65%</div>
+                <div className="ae-stat-label">of Google searches end without a click in 2025</div>
+              </div>
+              <div className="ae-stat-card">
+                <div className="ae-stat-emoji">🤖</div>
+                <div className="ae-stat-value ae-accent">400M+</div>
+                <div className="ae-stat-label">weekly active ChatGPT users asking for recommendations</div>
+              </div>
+              <div className="ae-stat-card">
+                <div className="ae-stat-emoji">📉</div>
+                <div className="ae-stat-value ae-accent">2-3</div>
+                <div className="ae-stat-label">sources cited per AI answer vs 10 blue links in SEO</div>
+              </div>
+              <div className="ae-stat-card">
+                <div className="ae-stat-emoji">🚀</div>
+                <div className="ae-stat-value ae-accent">5x</div>
+                <div className="ae-stat-label">higher conversion rate from AI referrals vs organic search</div>
+              </div>
             </div>
-          </section>
 
-          {/* Quick Comparison Table */}
-          <section className="mb-12">
-            <h2 className="text-2xl sm:text-3xl font-semibold mb-6 text-white">AEO vs SEO: Quick Comparison</h2>
+            {/* ── INTRODUCTION ── */}
+            <span className="ae-section-label">The Shift</span>
+            <h2>Why This Comparison Matters Right Now</h2>
 
-            <div className="overflow-x-auto">
-              <table className="w-full border-collapse">
+            <p>For 20+ years, SEO was the game. Rank higher, get more clicks, win more customers. Simple.</p>
+
+            <p>Then AI changed everything.</p>
+
+            <p>Now when someone asks ChatGPT &quot;Who&apos;s the best probate realtor in Pasadena?&quot; or Google shows an AI Overview answering &quot;How do I sell an inherited house?&quot;, the rules are different. Being on page one is not enough. You need to be the answer AI recommends.</p>
+
+            <div className="ae-quote not-prose">
+              <p>SEO gets you on Google&apos;s list of 10 blue links. AEO makes you the one AI recommends by name.</p>
+            </div>
+
+            <p>That is the core difference between SEO and AEO. And if you are a local service business, understanding this difference might be the most important thing you learn this year.</p>
+
+            {/* ── CTA 1 ── */}
+            <div className="ae-cta-inline not-prose">
+              <p>Find out if AI platforms are recommending your competitors instead of you.</p>
+              <Link href="/blindspot">Get Your Free Blind Spot Report &rarr;</Link>
+            </div>
+
+            {/* ── TIMELINE: EVOLUTION ── */}
+            <span className="ae-section-label">Evolution</span>
+            <h2>How We Got Here: The Search Timeline</h2>
+
+            <p>Understanding the shift from SEO to AEO requires knowing how search itself has evolved. Each phase changed what it took to win customers online.</p>
+
+            <div className="ae-timeline not-prose">
+              <div className="ae-timeline-item">
+                <strong>1998-2005: The Keyword Era</strong>
+                <p>Google launches. Stuff keywords into pages, get ranked. Basic backlinks determine authority. SEO is born.</p>
+              </div>
+              <div className="ae-timeline-item">
+                <strong>2005-2015: The Quality Era</strong>
+                <p>Google Panda and Penguin punish spam. Content quality and legitimate backlinks become essential. SEO matures into a real discipline.</p>
+              </div>
+              <div className="ae-timeline-item">
+                <strong>2015-2022: The Experience Era</strong>
+                <p>Mobile-first indexing, Core Web Vitals, E-A-T signals. User experience joins content quality as a ranking factor. SEO gets technical.</p>
+              </div>
+              <div className="ae-timeline-item">
+                <strong>2022-2024: The AI Disruption</strong>
+                <p>ChatGPT launches. Google introduces AI Overviews. Users start asking AI directly instead of scrolling search results. The ground shifts.</p>
+              </div>
+              <div className="ae-timeline-item">
+                <strong>2025+: The Answer Era</strong>
+                <p>AI platforms become primary discovery channels. Being ranked is not enough. Being the cited, recommended answer is what drives business. AEO emerges as the new competitive edge.</p>
+              </div>
+            </div>
+
+            <div className="ae-takeaway not-prose">
+              <div className="ae-takeaway-title">Key Takeaway</div>
+              <p>Every era in search has rewarded businesses that adapted early. The transition from SEO-only to AEO+SEO is happening right now. Early movers in each previous era built lasting advantages.</p>
+            </div>
+
+            {/* ── CTA 2 ── */}
+            <div className="ae-cta-inline not-prose">
+              <p>Not sure where your business stands in this shift? Talk to an AEO specialist.</p>
+              <a href="tel:+12134442229">Call (213) 444-2229 for a Free Consultation &rarr;</a>
+            </div>
+
+            {/* ── COMPARISON TABLE ── */}
+            <span className="ae-section-label">Head-to-Head</span>
+            <h2>AEO vs SEO: The Complete Comparison</h2>
+
+            <p>The table below breaks down every major difference between these two strategies. Understanding each row will help you decide where to focus your marketing budget.</p>
+
+            <table className="ae-comparison-table not-prose">
+              <thead>
+                <tr>
+                  <th>Factor</th>
+                  <th>AEO</th>
+                  <th>SEO</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Goal</td>
+                  <td>Get cited by AI as the answer</td>
+                  <td>Rank in search results</td>
+                </tr>
+                <tr>
+                  <td>Platforms</td>
+                  <td>ChatGPT, Claude, Perplexity, Google AI Overview</td>
+                  <td>Google, Bing search results</td>
+                </tr>
+                <tr>
+                  <td>Content Focus</td>
+                  <td>Direct answers, expertise demonstration</td>
+                  <td>Keywords, backlinks, page authority</td>
+                </tr>
+                <tr>
+                  <td>User Journey</td>
+                  <td>AI recommends you directly by name</td>
+                  <td>User clicks through from a list to your site</td>
+                </tr>
+                <tr>
+                  <td>Competition Level</td>
+                  <td>Early mover advantage (low competition)</td>
+                  <td>Saturated (25+ years of competition)</td>
+                </tr>
+                <tr>
+                  <td>Key Signals</td>
+                  <td>Schema markup, E-E-A-T, entity recognition</td>
+                  <td>Backlinks, domain authority, keyword density</td>
+                </tr>
+                <tr>
+                  <td>Lead Quality</td>
+                  <td>Pre-qualified (AI vetted you first)</td>
+                  <td>Mixed (user still comparing options)</td>
+                </tr>
+                <tr>
+                  <td>Measurement</td>
+                  <td>AI citation frequency, brand mentions</td>
+                  <td>Rankings, impressions, click-through rate</td>
+                </tr>
+                <tr>
+                  <td>Time to Impact</td>
+                  <td>Weeks to months (less competition)</td>
+                  <td>Months to years (high competition)</td>
+                </tr>
+              </tbody>
+            </table>
+
+            <div className="ae-takeaway not-prose">
+              <div className="ae-takeaway-title">Key Takeaway</div>
+              <p>AEO and SEO serve different stages of how people find businesses. SEO puts you on the map. AEO makes AI recommend you when someone asks for the best option.</p>
+            </div>
+
+            {/* ── CTA 3 ── */}
+            <div className="ae-cta-inline not-prose">
+              <p>How visible is your business to AI search platforms right now? Most businesses have no idea.</p>
+              <Link href="/blindspot">Check Your AI Visibility Score &rarr;</Link>
+            </div>
+
+            {/* ── WHAT IS SEO ── */}
+            <span className="ae-section-label">Traditional SEO</span>
+            <h2>What is SEO? (The Foundation)</h2>
+
+            <p>Search Engine Optimization is the practice of improving your website to rank higher in search engine results. When someone searches &quot;plumber near me,&quot; SEO determines whether you show up on page 1 or page 10.</p>
+
+            <p>SEO has been the backbone of digital marketing since Google launched. The core pillars have remained consistent for over two decades:</p>
+
+            <ul>
+              <li><strong>Keywords:</strong> Using the words and phrases people actually search for</li>
+              <li><strong>Backlinks:</strong> Getting other reputable websites to link to your content</li>
+              <li><strong>Technical optimization:</strong> Fast loading speeds, mobile responsiveness, secure connections</li>
+              <li><strong>Content quality:</strong> Publishing helpful, relevant, well-organized information</li>
+            </ul>
+
+            <div className="ae-callout ae-callout-info not-prose">
+              <div className="ae-callout-title">Context</div>
+              <p>SEO still matters. It is table stakes for any business that wants to be found online. The problem is that it is no longer sufficient on its own. Everyone does SEO. The competitive advantage has shifted.</p>
+            </div>
+
+            <p>Think of SEO as qualifying for the race. You need it to get on the track. But finishing first now requires something more.</p>
+
+            {/* ── CTA 4 ── */}
+            <div className="ae-cta-inline not-prose">
+              <p>Questions about how SEO and AEO work together for your business? We are happy to walk you through it.</p>
+              <a href="mailto:support@theanswerengine.ai">Email support@theanswerengine.ai &rarr;</a>
+            </div>
+
+            {/* ── WHAT IS AEO ── */}
+            <span className="ae-section-label">Answer Engine Optimization</span>
+            <h2>What is AEO? (The Competitive Edge)</h2>
+
+            <p><Link href="/blog/what-is-answer-engine-optimization">Answer Engine Optimization</Link> is the practice of structuring your content so AI platforms cite you as the authoritative answer. When someone asks ChatGPT &quot;Who&apos;s the best estate planning attorney in Denver?&quot;, AEO determines whether you get mentioned.</p>
+
+            <p>AEO targets fundamentally different signals than SEO:</p>
+
+            <ul>
+              <li><strong>Direct answers:</strong> Content structured to answer specific questions immediately</li>
+              <li><strong>Schema markup:</strong> Structured data that helps AI understand your business entity</li>
+              <li><strong>E-E-A-T signals:</strong> Demonstrated Experience, Expertise, Authority, and Trust</li>
+              <li><strong>Entity recognition:</strong> Helping AI platforms understand WHO you are and WHAT you do</li>
+            </ul>
+
+            <div className="ae-callout ae-callout-warning not-prose">
+              <div className="ae-callout-title">The AEO Difference</div>
+              <p>SEO asks: &quot;How do I rank for this keyword?&quot; AEO asks: &quot;How do I become the source AI trusts enough to recommend by name?&quot; The answer requires a completely different content strategy.</p>
+            </div>
+
+            <p>The goal is not just to be found. It is to be <em>recommended</em>. And that distinction changes everything about how you create content, structure your website, and position your expertise online.</p>
+
+            {/* ── CTA 5 ── */}
+            <div className="ae-cta-inline not-prose">
+              <p>Are AI platforms recommending your competitors? There is only one way to find out.</p>
+              <Link href="/blindspot">Run Your Free AI Audit &rarr;</Link>
+            </div>
+
+            {/* ── WHY THIS MATTERS NOW ── */}
+            <span className="ae-section-label">Market Shift</span>
+            <h2>Why This Matters Right Now (Not Next Year)</h2>
+
+            <p>The shift from search to AI answers is already well underway. Three forces are converging to make AEO urgent:</p>
+
+            {/* ── BAR GROUP ── */}
+            <div className="ae-bar-group not-prose">
+              <div className="ae-bar-item">
+                <div className="ae-bar-label">Google queries with AI Overviews</div>
+                <div className="ae-bar-track"><div className="ae-bar-fill" style={{width:'47%'}}></div></div>
+                <div className="ae-bar-value">47%</div>
+              </div>
+              <div className="ae-bar-item">
+                <div className="ae-bar-label">Users who trust AI recommendations</div>
+                <div className="ae-bar-track"><div className="ae-bar-fill" style={{width:'72%'}}></div></div>
+                <div className="ae-bar-value">72%</div>
+              </div>
+              <div className="ae-bar-item">
+                <div className="ae-bar-label">Local searches starting on AI platforms</div>
+                <div className="ae-bar-track"><div className="ae-bar-fill" style={{width:'31%'}}></div></div>
+                <div className="ae-bar-value">31%</div>
+              </div>
+              <div className="ae-bar-item">
+                <div className="ae-bar-label">Businesses actively doing AEO</div>
+                <div className="ae-bar-track"><div className="ae-bar-fill" style={{width:'4%'}}></div></div>
+                <div className="ae-bar-value">&lt;4%</div>
+              </div>
+              <div className="ae-bar-item">
+                <div className="ae-bar-label">AI referral conversion rate advantage</div>
+                <div className="ae-bar-track"><div className="ae-bar-fill" style={{width:'85%'}}></div></div>
+                <div className="ae-bar-value">5x</div>
+              </div>
+            </div>
+
+            <p>Google AI Overviews now appear for nearly half of informational queries, often pushing traditional organic results below the fold. ChatGPT has hundreds of millions of users asking for recommendations weekly. Perplexity, Claude, and other AI assistants are becoming primary research tools for consumers making purchasing decisions.</p>
+
+            <div className="ae-callout ae-callout-warning not-prose">
+              <div className="ae-callout-title">Warning</div>
+              <p>When someone asks an AI &quot;Who should I hire for your service in your city?&quot; you are either part of the answer or you are invisible. There is no page two in AI search. There is cited or not cited.</p>
+            </div>
+
+            {/* ── CTA 6 ── */}
+            <div className="ae-cta-inline not-prose">
+              <p>The window for early-mover advantage is closing. See where you stand before competitors lock in their positions.</p>
+              <Link href="/blindspot">Get Your AI Visibility Report &rarr;</Link>
+            </div>
+
+            {/* ── KEY DIFFERENCES ── */}
+            <span className="ae-section-label">Deep Dive</span>
+            <h2>The 4 Key Differences That Actually Matter</h2>
+
+            <h3>1. Discovery vs. Recommendation</h3>
+            <p>SEO helps people <em>discover</em> you among many options. AEO makes AI <em>recommend</em> you as the best choice. Discovery means you are on the list. Recommendation means you are the answer.</p>
+
+            <p>This is not a subtle difference. When a potential customer sees 10 options on a Google results page, each business gets roughly a 10% chance of a click. When AI recommends 1-2 businesses by name, those businesses capture nearly all the intent.</p>
+
+            <h3>2. Keywords vs. Expertise</h3>
+            <p>SEO optimizes for keywords people type. AEO optimizes for questions people ask and the expertise needed to answer them. AI does not just match keywords. It evaluates whether your content demonstrates genuine authority.</p>
+
+            <p>A plumber who publishes content answering &quot;why does my water heater make a knocking sound?&quot; with detailed, experience-backed explanations builds expertise signals that AI platforms reward. Keyword-stuffed pages do not.</p>
+
+            <h3>3. Links vs. Trust Signals</h3>
+            <p>SEO weighs backlinks heavily. Who links to you matters. AEO weighs trust signals. Schema markup, verified credentials, consistent entity information across the web. AI needs to verify you are real and credible before it recommends you.</p>
+
+            <h3>4. Competition Level</h3>
+            <p>SEO is a 25-year-old battleground. Everyone is doing it. Ranking for competitive terms requires massive investment. AEO is emerging. Most businesses have not started. Early movers have a significant advantage that compounds over time.</p>
+
+            {/* ── PROS CONS ── */}
+            <div className="ae-pros-cons not-prose">
+              <div className="ae-pros-box">
+                <div className="ae-pros-title">AEO Advantages</div>
+                <ul>
+                  <li>Low competition right now</li>
+                  <li>Pre-qualified leads with 5x conversion rate</li>
+                  <li>First-mover advantage compounds over time</li>
+                  <li>Improves SEO as a side effect</li>
+                  <li>Works across ChatGPT, Claude, Perplexity, Google AI</li>
+                  <li>Higher trust from AI-referred customers</li>
+                </ul>
+              </div>
+              <div className="ae-cons-box">
+                <div className="ae-cons-title">AEO Challenges</div>
+                <ul>
+                  <li>Newer discipline with fewer established playbooks</li>
+                  <li>Requires technical schema implementation</li>
+                  <li>Harder to measure than traditional rankings</li>
+                  <li>AI algorithms evolve rapidly</li>
+                  <li>Requires consistent expertise content creation</li>
+                  <li>Most agencies do not offer it yet</li>
+                </ul>
+              </div>
+            </div>
+
+            <div className="ae-takeaway not-prose">
+              <div className="ae-takeaway-title">Key Takeaway</div>
+              <p>The challenges of AEO are real, but they are also temporary barriers. The advantages are structural and compounding. Early movers build an authority moat that gets harder for competitors to cross over time.</p>
+            </div>
+
+            {/* ── CTA 7 ── */}
+            <div className="ae-cta-inline not-prose">
+              <p>Not sure which strategy deserves more of your budget? Start with the data.</p>
+              <Link href="/blindspot">See Your AEO vs SEO Gap &rarr;</Link>
+            </div>
+
+            {/* ── DO YOU NEED BOTH ── */}
+            <span className="ae-section-label">Strategy</span>
+            <h2>Do You Need Both AEO and SEO?</h2>
+
+            <p>Short answer: <strong>Yes.</strong></p>
+
+            <p>SEO and AEO are not mutually exclusive. They are complementary. Good AEO actually improves your SEO because the same signals that AI platforms value also help Google rank your content higher:</p>
+
+            {/* ── CHEAT SHEET ── */}
+            <div className="ae-cheat-sheet not-prose">
+              <div className="ae-cheat-sheet-title">How AEO Improves SEO (Double Benefit)</div>
+              <table>
                 <thead>
-                  <tr className="border-b border-white/10">
-                    <th className="text-left py-4 px-4 text-gray-400 font-medium">Factor</th>
-                    <th className="text-left py-4 px-4 text-white font-semibold">AEO</th>
-                    <th className="text-left py-4 px-4 text-white/40 font-semibold">SEO</th>
+                  <tr>
+                    <th>AEO Action</th>
+                    <th>SEO Benefit</th>
                   </tr>
                 </thead>
-                <tbody className="text-gray-300">
-                  <tr className="border-b border-white/5">
-                    <td className="py-4 px-4 font-medium text-white">Goal</td>
-                    <td className="py-4 px-4">Get cited by AI as the answer</td>
-                    <td className="py-4 px-4">Rank in search results</td>
-                  </tr>
-                  <tr className="border-b border-white/5">
-                    <td className="py-4 px-4 font-medium text-white">Platforms</td>
-                    <td className="py-4 px-4">ChatGPT, Claude, Perplexity, Google AI Overview</td>
-                    <td className="py-4 px-4">Google, Bing search results</td>
-                  </tr>
-                  <tr className="border-b border-white/5">
-                    <td className="py-4 px-4 font-medium text-white">Content Focus</td>
-                    <td className="py-4 px-4">Direct answers, expertise demonstration</td>
-                    <td className="py-4 px-4">Keywords, backlinks, page authority</td>
-                  </tr>
-                  <tr className="border-b border-white/5">
-                    <td className="py-4 px-4 font-medium text-white">User Experience</td>
-                    <td className="py-4 px-4">AI recommends you directly</td>
-                    <td className="py-4 px-4">User clicks through to your site</td>
-                  </tr>
-                  <tr className="border-b border-white/5">
-                    <td className="py-4 px-4 font-medium text-white">Competition</td>
-                    <td className="py-4 px-4">Early mover advantage (low competition)</td>
-                    <td className="py-4 px-4">Saturated (high competition)</td>
-                  </tr>
-                  <tr className="border-b border-white/5">
-                    <td className="py-4 px-4 font-medium text-white">Key Signals</td>
-                    <td className="py-4 px-4">Schema markup, E-E-A-T, entity recognition</td>
-                    <td className="py-4 px-4">Backlinks, domain authority, keywords</td>
+                <tbody>
+                  <tr>
+                    <td>Add schema markup</td>
+                    <td>Google understands your content better, richer search results</td>
                   </tr>
                   <tr>
-                    <td className="py-4 px-4 font-medium text-white">Lead Quality</td>
-                    <td className="py-4 px-4">Pre-qualified (AI vetted you)</td>
-                    <td className="py-4 px-4">Mixed (still comparing options)</td>
+                    <td>Write direct-answer content</td>
+                    <td>Wins featured snippets and position zero</td>
+                  </tr>
+                  <tr>
+                    <td>Build E-E-A-T signals</td>
+                    <td>Improves organic rankings across all pages</td>
+                  </tr>
+                  <tr>
+                    <td>Create expertise content clusters</td>
+                    <td>Attracts natural backlinks from industry sources</td>
+                  </tr>
+                  <tr>
+                    <td>Ensure consistent entity data</td>
+                    <td>Strengthens local SEO and map pack presence</td>
                   </tr>
                 </tbody>
               </table>
             </div>
-          </section>
 
-          {/* What is SEO */}
-          <section className="mb-12">
-            <h2 className="text-2xl sm:text-3xl font-semibold mb-6 text-white">What is SEO?</h2>
-
-            <div className="space-y-6 text-lg text-gray-300 leading-relaxed">
-              <p>
-                Search Engine Optimization is the practice of improving your website to rank higher in search engine results. When someone searches &quot;plumber near me,&quot; SEO determines whether you show up on page 1 or page 10.
-              </p>
-              <p>
-                SEO focuses on:
-              </p>
-              <ul className="space-y-3 ml-6">
-                <li className="flex items-start gap-3">
-                  <span className="text-white mt-1">•</span>
-                  <span><strong className="text-white">Keywords</strong> — Using the words people search for</span>
-                </li>
-                <li className="flex items-start gap-3">
-                  <span className="text-white mt-1">•</span>
-                  <span><strong className="text-white">Backlinks</strong> — Getting other sites to link to you</span>
-                </li>
-                <li className="flex items-start gap-3">
-                  <span className="text-white mt-1">•</span>
-                  <span><strong className="text-white">Technical optimization</strong> — Fast loading, mobile-friendly, secure</span>
-                </li>
-                <li className="flex items-start gap-3">
-                  <span className="text-white mt-1">•</span>
-                  <span><strong className="text-white">Content quality</strong> — Helpful, relevant information</span>
-                </li>
-              </ul>
-              <p>
-                SEO has been the foundation of digital marketing since Google launched. It still matters—but it&apos;s no longer enough on its own.
-              </p>
+            <div className="ae-quote not-prose">
+              <p>Think of it this way: SEO is table stakes. Everyone is doing it. AEO is the emerging competitive advantage that most of your competitors have not figured out yet.</p>
             </div>
-          </section>
 
-          {/* What is AEO */}
-          <section className="mb-12">
-            <h2 className="text-2xl sm:text-3xl font-semibold mb-6 text-white">What is AEO?</h2>
-
-            <div className="space-y-6 text-lg text-gray-300 leading-relaxed">
-              <p>
-                <Link href="/blog/what-is-answer-engine-optimization" className="text-white hover:underline">Answer Engine Optimization</Link> is the practice of structuring your content so AI platforms cite you as the authoritative answer. When someone asks ChatGPT &quot;Who&apos;s the best estate planning attorney in Denver?&quot;, AEO determines whether you get mentioned.
-              </p>
-              <p>
-                AEO focuses on:
-              </p>
-              <ul className="space-y-3 ml-6">
-                <li className="flex items-start gap-3">
-                  <span className="text-white mt-1">•</span>
-                  <span><strong className="text-white">Direct answers</strong> — Content that directly answers specific questions</span>
-                </li>
-                <li className="flex items-start gap-3">
-                  <span className="text-white mt-1">•</span>
-                  <span><strong className="text-white">Schema markup</strong> — Structured data AI can understand</span>
-                </li>
-                <li className="flex items-start gap-3">
-                  <span className="text-white mt-1">•</span>
-                  <span><strong className="text-white">E-E-A-T signals</strong> — Experience, Expertise, Authority, Trust</span>
-                </li>
-                <li className="flex items-start gap-3">
-                  <span className="text-white mt-1">•</span>
-                  <span><strong className="text-white">Entity recognition</strong> — Helping AI understand WHO you are and WHAT you do</span>
-                </li>
-              </ul>
-              <p>
-                The goal isn&apos;t just to be found—it&apos;s to be <em>recommended</em>.
-              </p>
+            {/* ── CTA 8 ── */}
+            <div className="ae-cta-inline not-prose">
+              <p>Get a side-by-side analysis of your SEO and AEO performance. See where the real opportunities are hiding.</p>
+              <Link href="/blindspot">Run Your Visibility Comparison &rarr;</Link>
             </div>
-          </section>
 
-          {/* Why This Matters Now */}
-          <section className="mb-12">
-            <h2 className="text-2xl sm:text-3xl font-semibold mb-6 text-white">Why This Matters Now</h2>
+            {/* ── DECISION MATRIX ── */}
+            <span className="ae-section-label">Decision Framework</span>
+            <h2>When to Prioritize AEO vs SEO</h2>
 
-            <div className="space-y-6 text-lg text-gray-300 leading-relaxed">
-              <p>
-                The shift is already happening:
-              </p>
+            <p>Both strategies matter, but your budget and timeline should determine where you focus first. Use this decision framework to prioritize:</p>
 
-              <div className="bg-white/[0.02] border border-white/[0.05] rounded-xl p-6 my-8">
-                <ul className="space-y-4">
-                  <li className="flex items-start gap-3">
-                    <span className="text-white font-bold">&rarr;</span>
-                    <span><strong className="text-white">Google AI Overviews</strong> now appear for the majority of informational queries, often pushing traditional organic results below the fold</span>
-                  </li>
-                  <li className="flex items-start gap-3">
-                    <span className="text-white font-bold">&rarr;</span>
-                    <span><strong className="text-white">ChatGPT</strong> has hundreds of millions of users asking for recommendations every week</span>
-                  </li>
-                  <li className="flex items-start gap-3">
-                    <span className="text-white font-bold">&rarr;</span>
-                    <span><strong className="text-white">Perplexity, Claude, and other AI assistants</strong> are becoming primary research tools for consumers making purchasing decisions</span>
-                  </li>
-                </ul>
+            <div className="ae-decision-matrix not-prose">
+              <div className="ae-decision-matrix-title">Priority Framework</div>
+              <div className="ae-decision-row">
+                <div className="ae-decision-if">Your SEO rankings are stable but leads are dropping</div>
+                <div className="ae-decision-arrow">&rarr;</div>
+                <div className="ae-decision-then">Prioritize AEO. AI is siphoning your traffic.</div>
               </div>
-
-              <p>
-                When someone asks an AI &quot;Who should I hire for [your service] in [your city]?&quot;—you&apos;re either part of the answer or you&apos;re invisible.
-              </p>
-              <p>
-                SEO gets you on Google&apos;s list of 10 blue links. AEO makes you the one AI recommends by name.
-              </p>
-            </div>
-          </section>
-
-          {/* The Key Differences */}
-          <section className="mb-12">
-            <h2 className="text-2xl sm:text-3xl font-semibold mb-6 text-white">The Key Differences That Matter</h2>
-
-            <div className="space-y-8">
-              <div className="bg-white/[0.02] border border-white/[0.05] rounded-xl p-6">
-                <h3 className="text-xl font-semibold text-white mb-3">1. Discovery vs. Recommendation</h3>
-                <p className="text-gray-300 leading-relaxed">
-                  SEO helps people <em>discover</em> you among many options. AEO makes AI <em>recommend</em> you as the best choice. Discovery means you&apos;re on the list. Recommendation means you&apos;re the answer.
-                </p>
+              <div className="ae-decision-row">
+                <div className="ae-decision-if">You have zero search presence</div>
+                <div className="ae-decision-arrow">&rarr;</div>
+                <div className="ae-decision-then">Start with basic SEO, then layer in AEO foundations.</div>
               </div>
-
-              <div className="bg-white/[0.02] border border-white/[0.05] rounded-xl p-6">
-                <h3 className="text-xl font-semibold text-white mb-3">2. Keywords vs. Expertise</h3>
-                <p className="text-gray-300 leading-relaxed">
-                  SEO optimizes for keywords people type. AEO optimizes for questions people ask and the expertise needed to answer them. AI doesn&apos;t just match keywords—it evaluates whether your content demonstrates genuine authority.
-                </p>
+              <div className="ae-decision-row">
+                <div className="ae-decision-if">Competitors appear in ChatGPT but you do not</div>
+                <div className="ae-decision-arrow">&rarr;</div>
+                <div className="ae-decision-then">AEO is urgent. Every day you wait, they build authority.</div>
               </div>
-
-              <div className="bg-white/[0.02] border border-white/[0.05] rounded-xl p-6">
-                <h3 className="text-xl font-semibold text-white mb-3">3. Links vs. Signals</h3>
-                <p className="text-gray-300 leading-relaxed">
-                  SEO weighs backlinks heavily—who links to you matters. AEO weighs trust signals—schema markup, verified credentials, consistent entity information across the web. AI needs to verify you&apos;re real and credible.
-                </p>
+              <div className="ae-decision-row">
+                <div className="ae-decision-if">You rank on page 1 but competitors get AI citations</div>
+                <div className="ae-decision-arrow">&rarr;</div>
+                <div className="ae-decision-then">Add AEO immediately. Rankings alone will not protect you.</div>
               </div>
-
-              <div className="bg-white/[0.02] border border-white/[0.05] rounded-xl p-6">
-                <h3 className="text-xl font-semibold text-white mb-3">4. Competition Level</h3>
-                <p className="text-gray-300 leading-relaxed">
-                  SEO is a 25-year-old battleground. Everyone&apos;s doing it. Ranking for competitive terms requires massive investment. AEO is emerging—most businesses haven&apos;t started. Early movers have a significant advantage.
-                </p>
+              <div className="ae-decision-row">
+                <div className="ae-decision-if">You are in a local service business</div>
+                <div className="ae-decision-arrow">&rarr;</div>
+                <div className="ae-decision-then">Do both. AEO + SEO together yields the highest ROI.</div>
+              </div>
+              <div className="ae-decision-row">
+                <div className="ae-decision-if">You have limited budget</div>
+                <div className="ae-decision-arrow">&rarr;</div>
+                <div className="ae-decision-then">Invest in AEO. Less competition = faster results per dollar.</div>
               </div>
             </div>
-          </section>
 
-          {/* Do You Need Both */}
-          <section className="mb-12">
-            <h2 className="text-2xl sm:text-3xl font-semibold mb-6 text-white">Do You Need Both AEO and SEO?</h2>
-
-            <div className="space-y-6 text-lg text-gray-300 leading-relaxed">
-              <p>
-                Short answer: <span className="text-white font-medium">Yes.</span>
-              </p>
-              <p>
-                SEO and AEO aren&apos;t mutually exclusive—they&apos;re complementary. Good AEO actually improves your SEO because:
-              </p>
-              <ul className="space-y-3 ml-6">
-                <li className="flex items-start gap-3">
-                  <span className="text-white mt-1">•</span>
-                  <span>Schema markup helps Google understand your content better</span>
-                </li>
-                <li className="flex items-start gap-3">
-                  <span className="text-white mt-1">•</span>
-                  <span>Direct-answer content often wins featured snippets</span>
-                </li>
-                <li className="flex items-start gap-3">
-                  <span className="text-white mt-1">•</span>
-                  <span>E-E-A-T signals improve organic rankings</span>
-                </li>
-                <li className="flex items-start gap-3">
-                  <span className="text-white mt-1">•</span>
-                  <span>Comprehensive expertise content attracts natural backlinks</span>
-                </li>
-              </ul>
-              <p>
-                Think of it this way: SEO is table stakes. Everyone&apos;s doing it. AEO is the emerging competitive advantage that most of your competitors haven&apos;t figured out yet.
-              </p>
+            {/* ── CTA 9 ── */}
+            <div className="ae-cta-inline not-prose">
+              <p>Not sure where you fall in this matrix? Get a personalized analysis of your visibility landscape.</p>
+              <Link href="/blindspot">Get Your Custom Report &rarr;</Link>
             </div>
-          </section>
 
-          {/* How to Get Started */}
-          <section className="mb-12">
-            <h2 className="text-2xl sm:text-3xl font-semibold mb-6 text-white">How to Get Started with AEO</h2>
+            {/* ── HOW TO GET STARTED ── */}
+            <span className="ae-section-label">Implementation</span>
+            <h2>How to Get Started with AEO (4 Steps)</h2>
 
-            <div className="space-y-6 text-lg text-gray-300 leading-relaxed">
-              <p>
-                If you&apos;re already doing SEO, adding AEO involves these key steps:
-              </p>
+            <p>If you are already doing SEO, adding AEO involves four key steps. Each one builds on the previous, creating a compounding effect:</p>
 
-              <div className="space-y-4">
-                <div className="bg-white/[0.02] border border-white/[0.05] rounded-xl p-6">
-                  <div className="flex items-start gap-4">
-                    <div className="flex-shrink-0 w-8 h-8 bg-white/20 rounded-full flex items-center justify-center text-white font-bold">1</div>
-                    <div>
-                      <h3 className="text-white font-semibold mb-2">Audit Your AI Visibility</h3>
-                      <p className="text-gray-400">Ask ChatGPT and Claude to recommend businesses like yours in your area. Are you mentioned? Are your competitors? This reveals your current AI citation status.</p>
-                    </div>
-                  </div>
-                </div>
+            <h3>Step 1: Audit Your AI Visibility</h3>
+            <p>Ask ChatGPT and Claude to recommend businesses like yours in your area. Are you mentioned? Are your competitors? This reveals your current AI citation status and tells you exactly how much ground you need to cover.</p>
 
-                <div className="bg-white/[0.02] border border-white/[0.05] rounded-xl p-6">
-                  <div className="flex items-start gap-4">
-                    <div className="flex-shrink-0 w-8 h-8 bg-white/20 rounded-full flex items-center justify-center text-white font-bold">2</div>
-                    <div>
-                      <h3 className="text-white font-semibold mb-2">Implement Schema Markup</h3>
-                      <p className="text-gray-400">Add LocalBusiness, FAQ, Article, and other relevant schema types to help AI understand your business entity and expertise areas.</p>
-                    </div>
-                  </div>
-                </div>
+            <div className="ae-callout ae-callout-success not-prose">
+              <div className="ae-callout-title">Quick Test</div>
+              <p>Open ChatGPT right now and type: &quot;Who is the best [your service] in [your city]?&quot; If your business is not in the response, AI is sending those customers to your competitors instead.</p>
+            </div>
 
-                <div className="bg-white/[0.02] border border-white/[0.05] rounded-xl p-6">
-                  <div className="flex items-start gap-4">
-                    <div className="flex-shrink-0 w-8 h-8 bg-white/20 rounded-full flex items-center justify-center text-white font-bold">3</div>
-                    <div>
-                      <h3 className="text-white font-semibold mb-2">Create Direct-Answer Content</h3>
-                      <p className="text-gray-400">Structure content to directly answer questions your ideal customers ask. Put the answer first, then expand with supporting detail and expertise.</p>
-                    </div>
-                  </div>
-                </div>
+            <h3>Step 2: Implement Schema Markup</h3>
+            <p>Add LocalBusiness, FAQ, Article, and other relevant schema types to help AI understand your business entity and expertise areas. Schema is the language AI platforms speak. Without it, they cannot properly categorize or recommend your business.</p>
 
-                <div className="bg-white/[0.02] border border-white/[0.05] rounded-xl p-6">
-                  <div className="flex items-start gap-4">
-                    <div className="flex-shrink-0 w-8 h-8 bg-white/20 rounded-full flex items-center justify-center text-white font-bold">4</div>
-                    <div>
-                      <h3 className="text-white font-semibold mb-2">Build Topic Authority</h3>
-                      <p className="text-gray-400">Create comprehensive content clusters around your expertise areas. AI platforms cite sources that demonstrate deep, interconnected knowledge—not thin, isolated pages.</p>
-                    </div>
-                  </div>
-                </div>
+            <h3>Step 3: Create Direct-Answer Content</h3>
+            <p>Structure content to directly answer questions your ideal customers ask. Put the answer first, then expand with supporting detail and expertise. AI platforms favor content that gets to the point and demonstrates real knowledge.</p>
+
+            <h3>Step 4: Build Topic Authority</h3>
+            <p>Create comprehensive content clusters around your expertise areas using a <Link href="/blog/hub-spoke-content-strategy-ai-citations">hub-and-spoke architecture</Link>. AI platforms cite sources that demonstrate deep, interconnected knowledge, not thin, isolated pages.</p>
+
+            <div className="ae-takeaway not-prose">
+              <div className="ae-takeaway-title">Key Takeaway</div>
+              <p>These four steps work together as a system. Schema helps AI find you. Direct answers give AI something to cite. Topic authority convinces AI you are the best source. Skip any step and the system underperforms.</p>
+            </div>
+
+            {/* ── CTA 10 ── */}
+            <div className="ae-cta-inline not-prose">
+              <p>Want to know exactly which steps would have the biggest impact for your specific business?</p>
+              <Link href="/blindspot">Get Your Prioritized Action Plan &rarr;</Link>
+            </div>
+
+            {/* ── AEO IN ACTION ── */}
+            <span className="ae-section-label">Real-World Impact</span>
+            <h2>What Happens When AEO Works</h2>
+
+            <p>When AEO is implemented correctly, the results look different from traditional SEO wins. Instead of climbing from position 8 to position 3 on Google, you start appearing as a named recommendation in AI responses.</p>
+
+            {/* ── COMPARISON TABLE 2 ── */}
+            <table className="ae-comparison-table not-prose">
+              <thead>
+                <tr>
+                  <th>Metric</th>
+                  <th>SEO-Only Business</th>
+                  <th>AEO + SEO Business</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>AI citation rate</td>
+                  <td>0-2% of relevant queries</td>
+                  <td>15-40% of relevant queries</td>
+                </tr>
+                <tr>
+                  <td>Lead quality score</td>
+                  <td>Average (still comparing)</td>
+                  <td>High (pre-qualified by AI)</td>
+                </tr>
+                <tr>
+                  <td>Conversion rate</td>
+                  <td>2-4% from organic traffic</td>
+                  <td>10-20% from AI referrals</td>
+                </tr>
+                <tr>
+                  <td>Competitive moat</td>
+                  <td>Easily disrupted by algorithm updates</td>
+                  <td>Authority compounds over time</td>
+                </tr>
+                <tr>
+                  <td>Future-proofing</td>
+                  <td>Declining as AI grows</td>
+                  <td>Growing as AI adoption increases</td>
+                </tr>
+              </tbody>
+            </table>
+
+            <p>For a deeper dive into implementation strategies, read our <Link href="/blog/complete-guide-answer-engine-optimization">Complete Guide to Answer Engine Optimization</Link>.</p>
+
+            {/* ── CTA 11 ── */}
+            <div className="ae-cta-inline not-prose">
+              <p>Ready to see these kinds of results for your business? It starts with understanding your current position.</p>
+              <Link href="/blindspot">Start Your Free Assessment &rarr;</Link>
+            </div>
+
+            {/* ── COMMON MISTAKES ── */}
+            <span className="ae-section-label">Pitfalls</span>
+            <h2>5 Mistakes Businesses Make When Choosing Between AEO and SEO</h2>
+
+            <p>Most businesses approach this decision with outdated assumptions. Here are the five most common mistakes we see:</p>
+
+            <h3>Mistake 1: Thinking SEO alone is enough</h3>
+            <p>SEO is necessary but no longer sufficient. With AI answers eating into organic click-through rates, <Link href="/blog/seo-not-generating-leads">businesses relying solely on SEO</Link> are watching their lead volume decline even as their rankings hold steady.</p>
+
+            <h3>Mistake 2: Treating AEO as a replacement for SEO</h3>
+            <p>AEO extends SEO. It does not replace it. You still need a technically sound website, quality content, and search visibility. AEO adds a new layer of optimization on top of that foundation.</p>
+
+            <div className="ae-callout ae-callout-info not-prose">
+              <div className="ae-callout-title">Important Distinction</div>
+              <p>Dropping SEO for AEO is like dropping defense to focus on offense. You need both to win. The businesses that dominate their markets in 2025 and beyond will be the ones running both strategies simultaneously.</p>
+            </div>
+
+            <h3>Mistake 3: Waiting until competitors force the issue</h3>
+            <p>AI platforms favor established authorities. Once a competitor is consistently cited as the expert in your category, displacing them becomes exponentially harder. The early-mover advantage in AEO is real and significant.</p>
+
+            <h3>Mistake 4: Ignoring schema markup</h3>
+            <p><Link href="/blog/does-schema-markup-help-ai-search">Schema markup</Link> is the foundation of AI visibility. Without it, AI platforms struggle to understand who you are, what you do, and why you should be recommended. Most businesses either skip it entirely or implement it incorrectly.</p>
+
+            <h3>Mistake 5: Creating content for keywords instead of questions</h3>
+            <p>AI platforms answer questions. If your content is optimized for keyword density but does not actually answer the questions your customers are asking, AI will find a competitor who does.</p>
+
+            <div className="ae-callout ae-callout-warning not-prose">
+              <div className="ae-callout-title">Reality Check</div>
+              <p>Every month you delay AEO implementation, competitors who start now build more authority. AI platforms develop stronger associations with their brands. The cost of catching up increases. This is not a trend that reverses.</p>
+            </div>
+
+            {/* ── CTA 12 ── */}
+            <div className="ae-cta-inline not-prose">
+              <p>Are you making any of these mistakes? Find out with a comprehensive visibility analysis.</p>
+              <Link href="/blindspot">Discover Your Blind Spots &rarr;</Link>
+            </div>
+
+            {/* ── INVESTMENT COMPARISON ── */}
+            <span className="ae-section-label">Budget</span>
+            <h2>AEO vs SEO: Where Should Your Money Go?</h2>
+
+            <p>Budget allocation is the question every business owner asks. Here is how to think about the investment breakdown based on where you are today.</p>
+
+            <div className="ae-bar-group not-prose">
+              <div className="ae-bar-item">
+                <div className="ae-bar-label">Recommended AEO budget (no SEO foundation)</div>
+                <div className="ae-bar-track"><div className="ae-bar-fill" style={{width:'30%'}}></div></div>
+                <div className="ae-bar-value">30%</div>
               </div>
-
-              <p className="mt-6">
-                For a deeper dive into implementation, read our <Link href="/blog/complete-guide-answer-engine-optimization" className="text-white hover:underline">Complete Guide to Answer Engine Optimization</Link>.
-              </p>
+              <div className="ae-bar-item">
+                <div className="ae-bar-label">Recommended AEO budget (solid SEO in place)</div>
+                <div className="ae-bar-track"><div className="ae-bar-fill" style={{width:'60%'}}></div></div>
+                <div className="ae-bar-value">60%</div>
+              </div>
+              <div className="ae-bar-item">
+                <div className="ae-bar-label">Recommended AEO budget (competitor already cited)</div>
+                <div className="ae-bar-track"><div className="ae-bar-fill" style={{width:'80%'}}></div></div>
+                <div className="ae-bar-value">80%</div>
+              </div>
             </div>
-          </section>
 
-          {/* CTA Section */}
-          <div className="rounded-2xl p-8 sm:p-10 text-center my-16" style={{ background: 'linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%)' }}>
-            <h2 className="text-2xl sm:text-3xl font-bold text-white mb-4 font-plus-jakarta">Find Out If AI Is Recommending Your Business</h2>
-            <p className="text-gray-300 mb-6 max-w-2xl mx-auto">Most businesses have no idea whether AI platforms are sending them customers or sending them to competitors. Our free blind spot report shows you exactly where you stand.</p>
-            <Link href="/blindspot" className="inline-block px-8 py-4 rounded-lg font-semibold text-white transition-all duration-200 hover:brightness-110" style={{ backgroundColor: '#FF6A00' }}>Get Your Free Blind Spot Report</Link>
-    <div className="flex flex-wrap items-center gap-6 mt-6 pt-6 border-t border-[#FF6A00]/10">
-      <a href="tel:+12134442229" className="flex items-center gap-2 text-gray-400 hover:text-white transition-colors">
-        <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" /></svg>
-        (213) 444-2229
-      </a>
-      <a href="mailto:support@theanswerengine.ai" className="flex items-center gap-2 text-gray-400 hover:text-white transition-colors">
-        <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" /></svg>
-        support@theanswerengine.ai
-      </a>
-    </div>
+            <div className="ae-callout ae-callout-success not-prose">
+              <div className="ae-callout-title">Good News</div>
+              <p>Because AEO and SEO share overlapping signals (E-E-A-T, quality content, schema), investing in AEO often improves your SEO performance at the same time. It is not a zero-sum budget decision.</p>
+            </div>
+
+            {/* ── CTA 13 ── */}
+            <div className="ae-cta-inline not-prose">
+              <p>Want a custom budget recommendation based on your competitive landscape? Let us run the numbers.</p>
+              <a href="tel:+12134442229">Call (213) 444-2229 &rarr;</a>
+            </div>
+
+            {/* ── RELATED READING ── */}
+            <span className="ae-section-label">Go Deeper</span>
+            <h2>Related Articles</h2>
+
+            <ul>
+              <li><Link href="/blog/what-is-answer-engine-optimization">What is Answer Engine Optimization?</Link> (AEO fundamentals explained)</li>
+              <li><Link href="/blog/how-to-get-in-the-answer-engine">How to Get in the Answer Engine</Link> (step-by-step getting started guide)</li>
+              <li><Link href="/blog/how-chatgpt-chooses-businesses-to-recommend">How ChatGPT Chooses Businesses to Recommend</Link> (AI algorithm deep dive)</li>
+              <li><Link href="/blog/hidden-cost-ignoring-ai-search">The Hidden Cost of Ignoring AI Search</Link> (what inaction costs you)</li>
+              <li><Link href="/blog/google-ai-overviews-replacing-search">Are Google AI Overviews Replacing Search?</Link> (the platform shift explained)</li>
+              <li><Link href="/blog/how-ai-search-changes-sales-funnel">How AI Search Changes the Sales Funnel</Link> (customer journey impact)</li>
+            </ul>
+
+            {/* ── CTA 14 ── */}
+            <div className="ae-cta-inline not-prose">
+              <p>Reading is great. Data is better. Get a concrete picture of your AI visibility in under 48 hours.</p>
+              <Link href="/blindspot">Request Your Free Report &rarr;</Link>
+            </div>
+
+            {/* ── AUTHOR CARD ── */}
+            <div className="ae-author-card not-prose">
+              <div className="ae-author-avatar">AE</div>
+              <div>
+                <div className="ae-author-name">The Answer Engine Team</div>
+                <div className="ae-author-role">AEO specialists helping local service businesses get cited by AI platforms including ChatGPT, Claude, Perplexity, and Google AI Overviews.</div>
+              </div>
+            </div>
+
+            {/* ── CTA BLOCK ── */}
+            <div className="ae-cta-block not-prose">
+              <h3>Ready to Win in AI Search?</h3>
+              <p>Join the businesses that are already getting cited by ChatGPT, Claude, and Google AI. The first step is understanding where you stand today.</p>
+              <Link href="/blindspot" className="ae-cta-primary">Claim Your Free Report &rarr;</Link>
+              <div className="flex flex-wrap items-center justify-center gap-6 mt-4">
+                <a href="tel:+12134442229" className="flex items-center gap-2 text-gray-400 hover:text-white transition-colors text-sm">
+                  <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" /></svg>
+                  (213) 444-2229
+                </a>
+                <a href="mailto:support@theanswerengine.ai" className="flex items-center gap-2 text-gray-400 hover:text-white transition-colors text-sm">
+                  <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" /></svg>
+                  support@theanswerengine.ai
+                </a>
+              </div>
+            </div>
+
+            {/* ── FAQ SECTION ── */}
+            <span className="ae-section-label">FAQ</span>
+            <h2>Frequently Asked Questions</h2>
+
+            <h3>What is the main difference between AEO and SEO?</h3>
+            <p>SEO optimizes content to rank in search engine results pages. AEO optimizes content to be cited by AI platforms like ChatGPT, Claude, Perplexity, and Google AI Overview when they answer user questions directly. SEO gets you on the list. AEO makes you the recommended answer.</p>
+
+            <h3>Is AEO replacing SEO?</h3>
+            <p>AEO is not replacing SEO. It is extending it. You still need search visibility, but now you also need to be the source AI platforms cite. The best strategy combines both: rank in search results AND get cited by AI.</p>
+
+            <h3>Do I need both AEO and SEO for my business?</h3>
+            <p>For most local service businesses, yes. SEO drives search traffic while AEO captures AI-referred leads. As more users ask AI for recommendations instead of searching Google, businesses without AEO will lose visibility to competitors who have it.</p>
+
+            <h3>Which is more important in 2025: AEO or SEO?</h3>
+            <p>Both matter, but AEO is the emerging competitive advantage. SEO is table stakes. Everyone does it. AEO is where early movers capture market share before competitors realize what is happening.</p>
+
+            <h3>How do I know if my business needs AEO?</h3>
+            <p>Ask ChatGPT or Claude to recommend a business like yours in your area. If they do not mention you, but do mention competitors, you need AEO. If AI platforms cannot find authoritative content about your expertise, they will recommend someone else.</p>
+
+            <h3>Can I do AEO myself or do I need an agency?</h3>
+            <p>Basic AEO principles (schema markup, direct answers, expertise content) can be implemented yourself. However, comprehensive AEO, including expertise extraction, hub-and-spoke architecture, and multi-platform optimization, typically requires specialized knowledge and systematic processes.</p>
+
+            {/* ── CTA 15 ── */}
+            <div className="ae-cta-inline not-prose">
+              <p>Still have questions? The fastest way to get answers is to see exactly how AI platforms view your business today.</p>
+              <Link href="/blindspot">Get Your Free Blind Spot Report &rarr;</Link>
+            </div>
+
           </div>
 
-          {/* FAQ Section */}
-          <section className="mb-12">
-            <h2 className="text-2xl sm:text-3xl font-semibold mb-8 text-white">Frequently Asked Questions</h2>
-
-            <div className="space-y-6">
-              <div className="bg-white/[0.02] border border-white/[0.05] rounded-xl p-6">
-                <h3 className="text-lg font-semibold text-white mb-3">What is the main difference between AEO and SEO?</h3>
-                <p className="text-gray-300 leading-relaxed">
-                  SEO optimizes content to rank in search engine results pages. AEO optimizes content to be cited by AI platforms like ChatGPT, Claude, Perplexity, and Google AI Overview when they answer user questions directly.
-                </p>
-              </div>
-
-              <div className="bg-white/[0.02] border border-white/[0.05] rounded-xl p-6">
-                <h3 className="text-lg font-semibold text-white mb-3">Is AEO replacing SEO?</h3>
-                <p className="text-gray-300 leading-relaxed">
-                  AEO isn&apos;t replacing SEO—it&apos;s extending it. You still need search visibility, but now you also need to be the source AI platforms cite. The best strategy combines both: rank in search results AND get cited by AI.
-                </p>
-              </div>
-
-              <div className="bg-white/[0.02] border border-white/[0.05] rounded-xl p-6">
-                <h3 className="text-lg font-semibold text-white mb-3">Do I need both AEO and SEO for my business?</h3>
-                <p className="text-gray-300 leading-relaxed">
-                  For most local service businesses, yes. SEO drives search traffic while AEO captures AI-referred leads. As more users ask AI for recommendations instead of searching Google, businesses without AEO will lose visibility to competitors who have it.
-                </p>
-              </div>
-
-              <div className="bg-white/[0.02] border border-white/[0.05] rounded-xl p-6">
-                <h3 className="text-lg font-semibold text-white mb-3">Which is more important in 2025: AEO or SEO?</h3>
-                <p className="text-gray-300 leading-relaxed">
-                  Both matter, but AEO is the emerging competitive advantage. SEO is table stakes—everyone does it. AEO is where early movers capture market share before competitors realize what&apos;s happening.
-                </p>
-              </div>
-
-              <div className="bg-white/[0.02] border border-white/[0.05] rounded-xl p-6">
-                <h3 className="text-lg font-semibold text-white mb-3">How do I know if my business needs AEO?</h3>
-                <p className="text-gray-300 leading-relaxed">
-                  Ask ChatGPT or Claude to recommend a business like yours in your area. If they don&apos;t mention you—but do mention competitors—you need AEO. If AI platforms can&apos;t find authoritative content about your expertise, they&apos;ll recommend someone else.
-                </p>
-              </div>
-
-              <div className="bg-white/[0.02] border border-white/[0.05] rounded-xl p-6">
-                <h3 className="text-lg font-semibold text-white mb-3">Can I do AEO myself or do I need an agency?</h3>
-                <p className="text-gray-300 leading-relaxed">
-                  Basic AEO principles (schema markup, direct answers, expertise content) can be implemented yourself. However, comprehensive AEO—including expertise extraction, hub-and-spoke architecture, and multi-platform optimization—typically requires specialized knowledge and systematic processes.
-                </p>
-              </div>
+          {/* ── FINAL CTA ── */}
+          <div className="ae-final-cta">
+            <div className="ae-final-cta-pulse"></div>
+            <h2>Is AI Recommending Your Competitors Instead of You?</h2>
+            <p>Most businesses have no idea whether AI platforms are sending them customers or sending customers to their competitors. Our free blind spot report shows you exactly where you stand, which competitors AI is citing, and what it would take to become the recommended answer in your market.</p>
+            <Link href="/blindspot" className="ae-cta-primary">Get Your Free Blind Spot Report</Link>
+            <div className="flex flex-wrap items-center justify-center gap-6 mt-6 pt-6 border-t border-[#FF6A00]/10">
+              <a href="tel:+12134442229" className="flex items-center gap-2 text-gray-400 hover:text-white transition-colors">
+                <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" /></svg>
+                (213) 444-2229
+              </a>
+              <a href="mailto:support@theanswerengine.ai" className="flex items-center gap-2 text-gray-400 hover:text-white transition-colors">
+                <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" /></svg>
+                support@theanswerengine.ai
+              </a>
             </div>
-          </section>
+          </div>
 
-          {/* Related Content */}
-          <section className="mb-12">
-            <h2 className="text-2xl sm:text-3xl font-semibold mb-6 text-white">Related Articles</h2>
-            <div className="grid sm:grid-cols-2 gap-4">
-              <Link href="/blog/what-is-answer-engine-optimization" className="bg-white/[0.02] border border-white/[0.05] rounded-xl p-6 hover:border-white/[0.08] transition-colors group">
-                <div className="text-white text-sm font-medium mb-2">AEO Fundamentals</div>
-                <div className="text-white font-semibold group-hover:text-white transition-colors">What is Answer Engine Optimization?</div>
-              </Link>
-              <Link href="/blog/how-to-get-in-the-answer-engine" className="bg-white/[0.02] border border-white/[0.05] rounded-xl p-6 hover:border-white/[0.08] transition-colors group">
-                <div className="text-white text-sm font-medium mb-2">Getting Started</div>
-                <div className="text-white font-semibold group-hover:text-white transition-colors">How to Get in the Answer Engine</div>
-              </Link>
-              <Link href="/blog/how-chatgpt-chooses-businesses-to-recommend" className="bg-white/[0.02] border border-white/[0.05] rounded-xl p-6 hover:border-white/[0.08] transition-colors group">
-                <div className="text-white text-sm font-medium mb-2">AI Algorithm Series</div>
-                <div className="text-white font-semibold group-hover:text-white transition-colors">How ChatGPT Chooses Businesses</div>
-              </Link>
-              <Link href="/case-studies/justin-borges" className="bg-white/[0.02] border border-white/[0.05] rounded-xl p-6 hover:border-white/[0.08] transition-colors group">
-                <div className="text-white text-sm font-medium mb-2">Case Study</div>
-                <div className="text-white font-semibold group-hover:text-white transition-colors">8,400+ Monthly Clicks in LA Real Estate</div>
-              </Link>
-            </div>
-          </section>
-
-          {/* CTA */}
-          <section className="text-center py-12 border-t border-white/[0.05]">
-            <h2 className="text-2xl sm:text-3xl font-semibold mb-4 text-white">Is AI Recommending Your Competitors?</h2>
-            <p className="text-gray-400 mb-8 max-w-2xl mx-auto">
-              Find out where you&apos;re losing to competitors in AI citations—and what it would take to become the recommended answer.
-            </p>
-            <Link
-              href="/#contact"
-              className="inline-flex items-center gap-2 bg-gradient-to-r from-white to-white text-white font-semibold px-8 py-4 rounded-xl hover:opacity-90 transition-opacity"
-            >
-              Get Your Free AEO Audit
-              <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={2}>
-                <path strokeLinecap="round" strokeLinejoin="round" d="M17 8l4 4m0 0l-4 4m4-4H3" />
-              </svg>
-            </Link>
-          </section>
         </article>
       </main>
     </>

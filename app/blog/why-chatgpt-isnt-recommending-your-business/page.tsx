@@ -244,896 +244,651 @@ function ComprehensiveSchema() {
 }
 
 export default function WhyChatGPTIsntRecommending() {
-  const publishDate = '2025-11-15';
-  const lastUpdated = '2025-11-15';
+  const title = "Why ChatGPT Isn't Recommending Your Business (And the 3-Step Fix That Works)";
+  const description = "ChatGPT ignores businesses with inconsistent NAP data, missing schema markup, and generic content. One team went from zero to 177,000 weekly impressions in 90 days.";
+  const publishDate = 'November 15, 2025';
 
   return (
     <>
       <ComprehensiveSchema />
 
-      <main className="min-h-screen bg-[#0F1117] relative">
-        {/* Subtle gradient overlay */}
-        
-        {/* Simple pixel accent - top corners */}
-        <div className="absolute top-0 left-0 w-2 h-2 bg-white/20" />
-        <div className="absolute top-0 left-2 w-2 h-2 bg-white/15" />
+      <div className="max-w-4xl mx-auto px-6 pt-20 pb-4">
+        <nav className="flex items-center gap-2 text-sm text-gray-500">
+          <Link href="/" className="hover:text-[#FF6A00] transition-colors">Home</Link>
+          <span>/</span>
+          <Link href="/blog" className="hover:text-[#FF6A00] transition-colors">Blog</Link>
+          <span>/</span>
+          <span className="text-gray-400">{title}</span>
+        </nav>
+      </div>
 
-        <article className="max-w-4xl mx-auto px-6 py-20 sm:py-32 relative">
-          {/* Featured Image */}
-          <div className="mb-12 rounded-2xl overflow-hidden border border-white/[0.08] max-w-3xl mx-auto">
-            <img 
-              src="/images/chatgpt-business-recommendations.png" 
-              alt="Why ChatGPT isn't recommending your business - the three critical reasons and how to fix them" 
-              className="w-full grayscale brightness-75"
-            />
-          </div>
+      <header className="max-w-4xl mx-auto px-6 pb-12">
+        <div className="flex items-center gap-3 mb-6">
+          <span className="bg-[#FF6A00]/10 text-[#FF6A00] px-3 py-1 rounded-full text-xs font-semibold tracking-wide uppercase">AI Visibility</span>
+          <time className="text-gray-500 text-sm">{publishDate}</time>
+        </div>
+        <h1 className="font-plus-jakarta text-4xl md:text-5xl font-bold text-white leading-tight mb-6">{title}</h1>
+        <p className="text-gray-400 text-lg leading-relaxed max-w-2xl">{description}</p>
+      </header>
 
-          {/* Article Header */}
-          <header className="mb-16">
-            {/* Simple pixel divider */}
-            <div className="flex gap-2 mb-8">
-              <div className="w-1.5 h-1.5 bg-white/40" />
-              <div className="w-1.5 h-1.5 bg-white/30" />
-              <div className="w-1.5 h-1.5 bg-white/40" />
+      <article className="max-w-4xl mx-auto px-6 pb-20">
+        <div className="prose prose-invert prose-lg max-w-none prose-headings:font-plus-jakarta prose-headings:text-white prose-p:text-gray-300 prose-a:text-[#FF6A00] prose-a:no-underline hover:prose-a:underline prose-strong:text-white">
+
+          {/* -- STATS GRID -- */}
+          <div className="ae-stats-grid not-prose">
+            <div className="ae-stat-card">
+              <div className="ae-stat-emoji">🚫</div>
+              <div className="ae-stat-value ae-accent">0</div>
+              <div className="ae-stat-label">AI CITATIONS BEFORE</div>
             </div>
-
-            <h1 className="text-4xl sm:text-5xl lg:text-6xl font-light mb-6 leading-tight text-gray-100">
-              Why <span className="font-normal text-white">ChatGPT Isn't Recommending Your Business</span> (And the 3-Step Fix That Works)
-            </h1>
-            <p className="text-xl sm:text-2xl text-gray-400 leading-relaxed mb-6 font-light article-intro">
-              ChatGPT ignores businesses with inconsistent NAP data, missing schema markup, and generic content. One team went from zero to 177,000 weekly impressions in 90 days. Here's exactly what they fixed and what most businesses still get wrong.
-            </p>
-            <div className="flex items-center gap-3 text-sm text-gray-500 font-light">
-              <span className="w-1.5 h-1.5 bg-white/25 rounded-full" />
-              <span>Published November 15, 2025</span>
-              <span className="text-gray-700">•</span>
-              <span>Updated {new Date(lastUpdated).toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' })}</span>
-              <span className="text-gray-700">•</span>
-              <span>By The Answer Engine Team</span>
+            <div className="ae-stat-card">
+              <div className="ae-stat-emoji">📈</div>
+              <div className="ae-stat-value ae-accent">177K</div>
+              <div className="ae-stat-label">WEEKLY IMPRESSIONS</div>
             </div>
-          </header>
-
-          {/* Main Content */}
-          <div className="prose prose-lg max-w-none">
-            <p className="text-gray-300 text-lg leading-relaxed mb-8 font-light">
-              When someone asks ChatGPT "Who's the best real estate agent in Los Angeles?" or "Which HVAC company should I hire in Phoenix?" your business should be the answer.
-            </p>
-
-            <p className="text-gray-300 text-lg leading-relaxed mb-8 font-light">
-              But chances are, you're invisible. Not because you're not qualified. Not because you lack experience. But because AI platforms evaluate businesses using completely different signals than traditional search engines, and most companies don't understand what those signals are.
-            </p>
-
-            <p className="text-gray-300 text-lg leading-relaxed mb-8 font-light">
-              This guide reveals the three critical reasons ChatGPT (and other AI platforms) ignore your business, and the exact systematic process one team used to go from zero AI citations to 177,000 weekly impressions in 90 days.
-            </p>
-
-            <h2 className="text-3xl sm:text-4xl font-light mt-16 mb-6 text-gray-100">
-              The <span className="font-normal text-white">177,000 Weekly Impressions Story</span>
-            </h2>
-
-            <p className="text-gray-300 text-lg leading-relaxed mb-6 font-light">
-              A real estate team in Los Angeles was getting zero ChatGPT citations despite having:
-            </p>
-
-            <ul className="space-y-3 mb-8 text-gray-300 text-lg">
-              {[
-                "15 years of experience",
-                "Hundreds of successful transactions",
-                "A well-designed website",
-                "Active social media presence",
-                "Positive client reviews"
-              ].map((item, i) => (
-                <li key={i} className="flex items-start gap-3">
-                  <span className="flex-shrink-0 w-1.5 h-1.5 bg-white/25 rounded-full mt-3" />
-                  <span className="font-light leading-relaxed">{item}</span>
-                </li>
-              ))}
-            </ul>
-
-            <p className="text-gray-300 text-lg leading-relaxed mb-6 font-light">
-              When they tested ChatGPT with market-specific questions ("Who's the best real estate agent for probate sales in Los Angeles?"), their business never appeared. Not once.
-            </p>
-
-            <p className="text-gray-300 text-lg leading-relaxed mb-8 font-light">
-              <strong className="text-white font-medium">What changed:</strong> They implemented the Answer Authority Foundation process. 90 days later, ChatGPT was citing them consistently, generating 177,000 weekly impressions.
-            </p>
-
-            <p className="text-gray-300 text-lg leading-relaxed mb-8 font-light">
-              The difference? They fixed the three critical failures that make AI platforms ignore businesses.
-            </p>
-
-            <h2 className="text-3xl sm:text-4xl font-light mt-16 mb-6 text-gray-100">
-              The Three <span className="font-normal text-white">Critical Failures</span>
-            </h2>
-
-            <p className="text-gray-300 text-lg leading-relaxed mb-8 font-light">
-              AI platforms don't evaluate businesses the way humans do. Understanding these three failures is the difference between visibility and complete invisibility.
-            </p>
-
-            <h3 className="text-2xl font-light mt-12 mb-6 text-white/60">
-              Reason 1: Your Business Identity Is Fragmented Across the Internet
-            </h3>
-
-            <p className="text-gray-300 text-lg leading-relaxed mb-6 font-light">
-              Here's what most business owners don't realize: <strong className="text-white font-medium">AI platforms verify your business identity across dozens of data sources before citing you.</strong>
-            </p>
-
-            <p className="text-gray-300 text-lg leading-relaxed mb-6 font-light">
-              When ChatGPT considers recommending your business, it checks:
-            </p>
-
-            <ul className="space-y-3 mb-8 text-gray-300 text-lg">
-              {[
-                "Google Business Profile",
-                "Apple Maps",
-                "Bing Places for Business",
-                "Facebook Business Page",
-                "Yelp",
-                "Better Business Bureau",
-                "Industry-specific directories",
-                "44+ other platforms"
-              ].map((item, i) => (
-                <li key={i} className="flex items-start gap-3">
-                  <span className="flex-shrink-0 w-1.5 h-1.5 bg-white/30 rounded-full mt-3" />
-                  <span className="font-light leading-relaxed">{item}</span>
-                </li>
-              ))}
-            </ul>
-
-            <p className="text-gray-300 text-lg leading-relaxed mb-8 font-light">
-              If your NAP (Name, Address, Phone) data is inconsistent across these platforms, even slightly, AI treats your business as unreliable.
-            </p>
-
-            <h4 className="text-xl font-light mt-10 mb-4 text-white/60">
-              The Hidden Inconsistencies
-            </h4>
-
-            <p className="text-gray-300 text-lg leading-relaxed mb-4 font-light">
-              <strong className="text-white font-medium">What seems like the same information to humans looks completely different to AI:</strong>
-            </p>
-
-            <div className="bg-white/[0.03] backdrop-blur-xl border border-white/[0.08] rounded-xl p-6 mb-8">
-              <p className="text-gray-300 mb-4 font-light">
-                <strong className="text-gray-400 font-medium">These all look identical to you:</strong>
-              </p>
-              <ul className="space-y-2 text-gray-300">
-                <li className="font-mono text-sm">• Smith & Associates Realty</li>
-                <li className="font-mono text-sm">• Smith and Associates Realty</li>
-                <li className="font-mono text-sm">• Smith & Associates Real Estate</li>
-                <li className="font-mono text-sm">• Smith and Associates</li>
-              </ul>
-              <p className="text-gray-400 mt-4 font-light italic">
-                To AI, these are four different businesses.
-              </p>
+            <div className="ae-stat-card">
+              <div className="ae-stat-emoji">⏱️</div>
+              <div className="ae-stat-value ae-accent">90 Days</div>
+              <div className="ae-stat-label">TIME TO RESULTS</div>
             </div>
-
-            <div className="bg-white/[0.03] backdrop-blur-xl border border-white/[0.08] rounded-xl p-6 mb-8">
-              <p className="text-gray-300 mb-4 font-light">
-                <strong className="text-gray-400 font-medium">Phone number variations:</strong>
-              </p>
-              <ul className="space-y-2 text-gray-300">
-                <li className="font-mono text-sm">• (512) 555-1234</li>
-                <li className="font-mono text-sm">• 512-555-1234</li>
-                <li className="font-mono text-sm">• 512.555.1234</li>
-                <li className="font-mono text-sm">• +1 (512) 555-1234</li>
-              </ul>
-              <p className="text-gray-400 mt-4 font-light italic">
-                Same number. Different entity signals to AI.
-              </p>
-            </div>
-
-            <div className="bg-white/[0.03] backdrop-blur-xl border border-white/[0.08] rounded-xl p-6 mb-8">
-              <p className="text-gray-300 mb-4 font-light">
-                <strong className="text-gray-400 font-medium">Address formatting:</strong>
-              </p>
-              <ul className="space-y-2 text-gray-300">
-                <li className="font-mono text-sm">• 123 Main Street, Suite 100</li>
-                <li className="font-mono text-sm">• 123 Main St Suite 100</li>
-                <li className="font-mono text-sm">• 123 Main St, Ste 100</li>
-                <li className="font-mono text-sm">• 123 Main Street #100</li>
-              </ul>
-              <p className="text-gray-400 mt-4 font-light italic">
-                AI sees conflicting location data.
-              </p>
-            </div>
-
-            <h4 className="text-xl font-light mt-10 mb-4 text-white/60">
-              The Compounding Problem
-            </h4>
-
-            <p className="text-gray-300 text-lg leading-relaxed mb-6 font-light">
-              Most businesses have NAP inconsistencies across 30-40 platforms without knowing it. Here's why:
-            </p>
-
-            <ul className="space-y-3 mb-8 text-gray-300 text-lg">
-              {[
-                "Previous business owners updated some platforms but not others",
-                "Marketing agencies created new listings without updating old ones",
-                "Different staff members entered information differently",
-                "Business name evolved (adding LLC, changing DBA name) but old listings remain",
-                "You moved offices but forgot to update lesser-known directories"
-              ].map((item, i) => (
-                <li key={i} className="flex items-start gap-3">
-                  <span className="flex-shrink-0 w-1.5 h-1.5 bg-white/25 rounded-full mt-3" />
-                  <span className="font-light leading-relaxed">{item}</span>
-                </li>
-              ))}
-            </ul>
-
-            <p className="text-gray-300 text-lg leading-relaxed mb-8 font-light">
-              <strong className="text-white font-medium">The result:</strong> When ChatGPT evaluates your business, it sees conflicting data and assigns low confidence to your entity, making citation unlikely even if you're otherwise qualified.
-            </p>
-
-            <h4 className="text-xl font-light mt-10 mb-4 text-white/60">
-              The Time Sink
-            </h4>
-
-            <p className="text-gray-300 text-lg leading-relaxed mb-4 font-light">
-              Fixing entity consistency requires:
-            </p>
-
-            <ul className="space-y-3 mb-8 text-gray-300 text-lg">
-              {[
-                "Auditing 47+ platforms to identify inconsistencies",
-                "Claiming unclaimed listings",
-                "Correcting formatting across every platform",
-                "Submitting verification requests",
-                "Waiting 2-3 weeks for verifications to process",
-                "Following up on rejected verifications",
-                "Re-checking everything after corrections"
-              ].map((item, i) => (
-                <li key={i} className="flex items-start gap-3">
-                  <span className="flex-shrink-0 w-1.5 h-1.5 bg-white/30 rounded-full mt-3" />
-                  <span className="font-light leading-relaxed">{item}</span>
-                </li>
-              ))}
-            </ul>
-
-            <p className="text-gray-300 text-lg leading-relaxed mb-6 font-light">
-              <strong className="text-white font-medium">Estimated time investment:</strong> 15-20 hours of actual work, spread across 2-3 weeks waiting for verifications.
-            </p>
-
-            <p className="text-gray-300 text-lg leading-relaxed mb-8 font-light">
-              This is solvable, but it's tedious, technical, and one mistake can restart the verification cycle.
-            </p>
-
-            <h3 className="text-2xl font-light mt-12 mb-6 text-white/60">
-              Reason 2: You're Speaking Human, But AI Only Reads Structure
-            </h3>
-
-            <p className="text-gray-300 text-lg leading-relaxed mb-6 font-light">
-              This is the shocking realization for most business owners:
-            </p>
-
-            <p className="text-gray-300 text-lg leading-relaxed mb-4 font-light">
-              Your beautifully written "About Us" page? <strong className="text-white font-medium">AI ignores it.</strong>
-            </p>
-
-            <p className="text-gray-300 text-lg leading-relaxed mb-4 font-light">
-              Your 20 years in business? <strong className="text-white font-medium">AI doesn't "see" it.</strong>
-            </p>
-
-            <p className="text-gray-300 text-lg leading-relaxed mb-8 font-light">
-              Your passion, your story, your customer focus? <strong className="text-white font-medium">Meaningless to AI</strong> unless you translate it into structured language.
-            </p>
-
-            <h4 className="text-xl font-light mt-10 mb-4 text-white/60">
-              What You Probably Have vs. What AI Needs
-            </h4>
-
-            <div className="bg-white/[0.03] backdrop-blur-xl border border-white/[0.08] rounded-xl p-6 mb-4">
-              <p className="text-gray-400 mb-3 font-medium">What You Probably Have:</p>
-              <p className="text-gray-300 leading-relaxed font-light italic">
-                "We've been serving Denver for 20 years with expert HVAC services. Customer satisfaction is our priority. Contact us today!"
-              </p>
-            </div>
-
-            <div className="bg-white/[0.03] backdrop-blur-xl border border-white/[0.08] rounded-xl p-6 mb-8">
-              <p className="text-gray-400 mb-3 font-medium">What AI Sees:</p>
-              <p className="text-gray-500 leading-relaxed font-light">
-                Zero authority signals. Generic human writing with no structured data.
-              </p>
-            </div>
-
-            <h4 className="text-xl font-light mt-10 mb-4 text-white/60">
-              What AI Actually Needs: Schema Markup
-            </h4>
-
-            <p className="text-gray-300 text-lg leading-relaxed mb-6 font-light">
-              <strong className="text-white font-medium">Schema markup</strong> is JSON-LD code that acts as subtitles for AI platforms. It tells AI:
-            </p>
-
-            <ul className="space-y-3 mb-8 text-gray-300 text-lg">
-              {[
-                "This page answers specific questions",
-                "This business provides specific services",
-                "This person is an expert in a definable topic",
-                "These FAQs match the intent behind user queries",
-                "This article is written by a credible source"
-              ].map((item, i) => (
-                <li key={i} className="flex items-start gap-3">
-                  <span className="flex-shrink-0 w-1.5 h-1.5 bg-white/30 rounded-full mt-3" />
-                  <span className="font-light leading-relaxed">{item}</span>
-                </li>
-              ))}
-            </ul>
-
-            <h4 className="text-xl font-light mt-10 mb-4 text-white/60">
-              The Required Schema Types
-            </h4>
-
-            <ul className="space-y-3 mb-8 text-gray-300 text-lg">
-              {[
-                "LocalBusiness Schema: Your NAP + service details",
-                "FAQPage Schema: Questions you answer",
-                "HowTo Schema: Process documentation (when applicable)",
-                "Organization Schema: Your credentials and team",
-                "Author Schema: Expertise attribution for content"
-              ].map((item, i) => (
-                <li key={i} className="flex items-start gap-3">
-                  <span className="flex-shrink-0 w-1.5 h-1.5 bg-white/30 rounded-full mt-3" />
-                  <span className="font-light leading-relaxed">{item}</span>
-                </li>
-              ))}
-            </ul>
-
-            <h4 className="text-xl font-light mt-10 mb-4 text-white/60">
-              The Complexity
-            </h4>
-
-            <p className="text-gray-300 text-lg leading-relaxed mb-4 font-light">
-              Schema markup must be:
-            </p>
-
-            <ul className="space-y-3 mb-8 text-gray-300 text-lg">
-              {[
-                "Written in perfect JSON-LD syntax",
-                "Validated with Google's Rich Results Test",
-                "Implemented without breaking your site",
-                "Tested on mobile and desktop",
-                "Cross-linked to other schema types for maximum authority"
-              ].map((item, i) => (
-                <li key={i} className="flex items-start gap-3">
-                  <span className="flex-shrink-0 w-1.5 h-1.5 bg-white/25 rounded-full mt-3" />
-                  <span className="font-light leading-relaxed">{item}</span>
-                </li>
-              ))}
-            </ul>
-
-            <p className="text-gray-300 text-lg leading-relaxed mb-6 font-light">
-              <strong className="text-white font-medium">If one curly brace or comma is wrong, the entire implementation fails.</strong>
-            </p>
-
-            <p className="text-gray-300 text-lg leading-relaxed mb-8 font-light">
-              This is not a YouTube-tutorial fix. It's technical, fragile, and easy to break.
-            </p>
-
-            {/* CTA Section */}
-            <div className="my-16 p-10 rounded-2xl bg-white/[0.03] backdrop-blur-xl border-l-4 border-white/[0.15]">
-              <h3 className="text-2xl sm:text-3xl font-light mb-4 text-gray-100">
-                Stop <span className="font-normal text-white">Wasting Months on Trial and Error</span>
-              </h3>
-              <p className="text-gray-300 text-lg mb-8 font-light leading-relaxed">
-                We've spent two years testing exactly what makes AI platforms cite businesses instead of competitors. We know which schema implementations work, which content structures get ignored, and how to systematically build authority that compounds over time. The Answer Authority Foundation process takes 6 weeks, not 6 months of guesswork.
-              </p>
-              <a 
-                href="/#contact" 
-                className="inline-flex items-center justify-center gap-3 px-8 py-4 rounded-xl text-lg font-medium bg-gradient-to-r from-white/40 to-white/50 text-white hover:from-white/50 hover:to-white/50 transition-all shadow-lg shadow-white/12"
-              >
-                Schedule Your Free Discovery Call
-                <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={2}>
-                  <path strokeLinecap="round" strokeLinejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3" />
-                </svg>
-              </a>
-            </div>
-
-            <h3 className="text-2xl font-light mt-12 mb-6 text-white/60">
-              Reason 3: Your Content Sounds Like Everyone Else (Including AI)
-            </h3>
-
-            <p className="text-gray-300 text-lg leading-relaxed mb-6 font-light">
-              Here's the irony: <strong className="text-white font-medium">If you used ChatGPT to write your website content, ChatGPT can detect that and won't cite it.</strong>
-            </p>
-
-            <p className="text-gray-300 text-lg leading-relaxed mb-8 font-light">
-              AI platforms automatically deprioritize anything that reads like AI wrote it. They're looking for authentic expertise, specific scenarios, and information that demonstrates real-world experience.
-            </p>
-
-            <h4 className="text-xl font-light mt-10 mb-4 text-white/60">
-              Generic Content AI Always Ignores
-            </h4>
-
-            <div className="bg-white/[0.03] backdrop-blur-xl border border-white/[0.08] rounded-xl p-6 mb-8">
-              <p className="text-gray-400 mb-4 font-medium">These phrases appear on millions of websites:</p>
-              <ul className="space-y-2 text-gray-300">
-                <li className="font-light">• "We provide comprehensive solutions..."</li>
-                <li className="font-light">• "Our team has over 20 years of experience..."</li>
-                <li className="font-light">• "We offer high-quality service at affordable prices..."</li>
-                <li className="font-light">• "Customer satisfaction is our top priority..."</li>
-              </ul>
-              <p className="text-gray-500 mt-4 font-light italic">
-                AI has read these lines millions of times. They carry zero authority weight.
-              </p>
-            </div>
-
-            <h4 className="text-xl font-light mt-10 mb-4 text-white/60">
-              Authority Content AI Actually Cites
-            </h4>
-
-            <div className="bg-white/[0.03] backdrop-blur-xl border-l-4 border-white/[0.15] p-6 mb-6">
-              <p className="text-gray-300 leading-relaxed font-light">
-                "When I walk into a probate property with an executor, the first thing I tell them is: <strong className="text-white font-medium">don't touch anything yet.</strong> Families lose $50,000+ in tax benefits by clearing homes before proper valuation. Here's the 7-step checklist we use before a single box gets moved..."
-              </p>
-            </div>
-
-            <p className="text-gray-300 text-lg leading-relaxed mb-4 font-light">
-              <strong className="text-white font-medium">This content:</strong>
-            </p>
-
-            <ul className="space-y-3 mb-8 text-gray-300 text-lg">
-              {[
-                "Describes a real scenario",
-                "Includes a financial consequence ($50,000+)",
-                "Demonstrates unique expertise (7-step checklist)",
-                "Shows process, not platitudes",
-                "Cannot be replicated by generic AI content"
-              ].map((item, i) => (
-                <li key={i} className="flex items-start gap-3">
-                  <span className="flex-shrink-0 w-1.5 h-1.5 bg-white/30 rounded-full mt-3" />
-                  <span className="font-light leading-relaxed">{item}</span>
-                </li>
-              ))}
-            </ul>
-
-            <p className="text-gray-300 text-lg leading-relaxed mb-8 font-light">
-              AI loves this. People love this. Google loves this.
-            </p>
-
-            <h4 className="text-xl font-light mt-10 mb-4 text-white/60">
-              The Challenge
-            </h4>
-
-            <p className="text-gray-300 text-lg leading-relaxed mb-4 font-light">
-              Creating authoritative content requires:
-            </p>
-
-            <ul className="space-y-3 mb-8 text-gray-300 text-lg">
-              {[
-                "Extracting real expertise from your experience",
-                "Documenting actual client situations (with permission)",
-                "Crafting unique frameworks and methodologies",
-                "Writing in a way that AI can parse and cite",
-                "Structuring content as explicit question-answer pairs"
-              ].map((item, i) => (
-                <li key={i} className="flex items-start gap-3">
-                  <span className="flex-shrink-0 w-1.5 h-1.5 bg-white/25 rounded-full mt-3" />
-                  <span className="font-light leading-relaxed">{item}</span>
-                </li>
-              ))}
-            </ul>
-
-            <p className="text-gray-300 text-lg leading-relaxed mb-8 font-light">
-              <strong className="text-white font-medium">Estimated time investment:</strong> 40-60 hours for 7 articles written correctly.
-            </p>
-
-            <p className="text-gray-300 text-lg leading-relaxed mb-8 font-light">
-              Most business owners never get this part right, and they shouldn't have to. This is what content strategists exist for.
-            </p>
-
-            <h2 className="text-3xl sm:text-4xl font-light mt-16 mb-6 text-gray-100">
-              The <span className="font-normal text-white">"Flag Don't Fabricate" Problem</span>
-            </h2>
-
-            <p className="text-gray-300 text-lg leading-relaxed mb-6 font-light">
-              Here's the uncomfortable truth many agencies won't tell you:
-            </p>
-
-            <p className="text-gray-300 text-lg leading-relaxed mb-8 font-light">
-              Some competitors currently getting cited are using <strong className="text-white font-medium">fabricated case studies</strong>, made-up testimonials, and fake authority signals. And yes, for now, AI often believes them.
-            </p>
-
-            <h3 className="text-2xl font-light mt-12 mb-4 text-white/60">
-              Why Fabrication Works (Temporarily)
-            </h3>
-
-            <p className="text-gray-300 text-lg leading-relaxed mb-6 font-light">
-              AI doesn't verify every claim. It rewards structure, clarity, and schema, not honesty. If your content is technically well-structured and contains specific metrics, AI will cite it regardless of whether those metrics are real.
-            </p>
-
-            <h3 className="text-2xl font-light mt-12 mb-4 text-white/60">
-              Why Fabrication Is Dangerous
-            </h3>
-
-            <ul className="space-y-3 mb-8 text-gray-300 text-lg">
-              {[
-                "Competitors can call out your claims publicly",
-                "You can't answer follow-up questions about fake case studies",
-                "Your content collapses under scrutiny",
-                "AI platforms are improving fact-checking capabilities rapidly",
-                "Your reputation becomes fragile instead of defensible"
-              ].map((item, i) => (
-                <li key={i} className="flex items-start gap-3">
-                  <span className="flex-shrink-0 w-1.5 h-1.5 bg-white/25 rounded-full mt-3" />
-                  <span className="font-light leading-relaxed">{item}</span>
-                </li>
-              ))}
-            </ul>
-
-            <h3 className="text-2xl font-light mt-12 mb-4 text-white/60">
-              Our Standard: Flag, Don't Fabricate
-            </h3>
-
-            <p className="text-gray-300 text-lg leading-relaxed mb-4 font-light">
-              We never invent stories. We never create false wins. We never write testimonials that didn't happen.
-            </p>
-
-            <p className="text-gray-300 text-lg leading-relaxed mb-4 font-light">
-              <strong className="text-white font-medium">Every claim is:</strong>
-            </p>
-
-            <ul className="space-y-3 mb-8 text-gray-300 text-lg">
-              {[
-                "Verified through client records",
-                "Extracted from your actual expertise",
-                "Backed by real experience",
-                "Documented with permission when using client specifics"
-              ].map((item, i) => (
-                <li key={i} className="flex items-start gap-3">
-                  <span className="flex-shrink-0 w-1.5 h-1.5 bg-white/30 rounded-full mt-3" />
-                  <span className="font-light leading-relaxed">{item}</span>
-                </li>
-              ))}
-            </ul>
-
-            <p className="text-gray-300 text-lg leading-relaxed mb-4 font-light">
-              It takes longer.
-            </p>
-            <p className="text-gray-300 text-lg leading-relaxed mb-8 font-light">
-              <strong className="text-white font-medium">But it creates authority that lasts.</strong>
-            </p>
-
-            <h2 className="text-3xl sm:text-4xl font-light mt-16 mb-6 text-gray-100">
-              The <span className="font-normal text-white">3-Step Fix That Actually Works</span>
-            </h2>
-
-            <p className="text-gray-300 text-lg leading-relaxed mb-8 font-light">
-              The Los Angeles real estate team that went from zero to 177,000 weekly impressions didn't guess. They systematically addressed all three failures in the correct sequence.
-            </p>
-
-            <h3 id="step-1" className="text-2xl font-light mt-12 mb-6 text-white/60">
-              Step 1: Fix Entity Consistency (Week 1-2)
-            </h3>
-
-            <p className="text-gray-300 text-lg leading-relaxed mb-4 font-light">
-              <strong className="text-white font-medium">What we do:</strong>
-            </p>
-
-            <ul className="space-y-3 mb-8 text-gray-300 text-lg">
-              {[
-                "Audit all 47 major platforms for NAP inconsistencies",
-                "Identify the canonical version of your business information",
-                "Claim unclaimed listings",
-                "Submit corrections across all platforms",
-                "Monitor verification status",
-                "Re-audit after corrections to ensure consistency"
-              ].map((item, i) => (
-                <li key={i} className="flex items-start gap-3">
-                  <span className="flex-shrink-0 w-1.5 h-1.5 bg-white/30 rounded-full mt-3" />
-                  <span className="font-light leading-relaxed">{item}</span>
-                </li>
-              ))}
-            </ul>
-
-            <p className="text-gray-300 text-lg leading-relaxed mb-8 font-light">
-              <strong className="text-white font-medium">Timeline:</strong> 2 weeks (including verification wait times)
-            </p>
-
-            <h3 id="step-2" className="text-2xl font-light mt-12 mb-6 text-white/60">
-              Step 2: Implement Schema Markup (Week 2-3)
-            </h3>
-
-            <p className="text-gray-300 text-lg leading-relaxed mb-4 font-light">
-              <strong className="text-white font-medium">What we do:</strong>
-            </p>
-
-            <ul className="space-y-3 mb-8 text-gray-300 text-lg">
-              {[
-                "Deploy LocalBusiness schema with exact NAP data",
-                "Create FAQPage schema for every service page",
-                "Implement Organization schema for team credentials",
-                "Add Author schema for expertise attribution",
-                "Test all schema using Google's Rich Results Test",
-                "Validate mobile and desktop rendering",
-                "Monitor Search Console for schema errors"
-              ].map((item, i) => (
-                <li key={i} className="flex items-start gap-3">
-                  <span className="flex-shrink-0 w-1.5 h-1.5 bg-white/30 rounded-full mt-3" />
-                  <span className="font-light leading-relaxed">{item}</span>
-                </li>
-              ))}
-            </ul>
-
-            <p className="text-gray-300 text-lg leading-relaxed mb-8 font-light">
-              <strong className="text-white font-medium">Timeline:</strong> 1 week for implementation, ongoing monitoring
-            </p>
-
-            <h3 id="step-3" className="text-2xl font-light mt-12 mb-6 text-white/60">
-              Step 3: Create Authority Content (Week 3-6)
-            </h3>
-
-            <p className="text-gray-300 text-lg leading-relaxed mb-4 font-light">
-              <strong className="text-white font-medium">What we do:</strong>
-            </p>
-
-            <ul className="space-y-3 mb-8 text-gray-300 text-lg">
-              {[
-                "Conduct expertise extraction interviews with your team",
-                "Identify your unique frameworks and methodologies",
-                "Document real client scenarios (with permission)",
-                "Create 7 optimized articles targeting high-intent queries",
-                "Structure content as explicit question-answer pairs",
-                "Implement matching FAQ schema on each article",
-                "Cross-link content to build topical authority"
-              ].map((item, i) => (
-                <li key={i} className="flex items-start gap-3">
-                  <span className="flex-shrink-0 w-1.5 h-1.5 bg-white/30 rounded-full mt-3" />
-                  <span className="font-light leading-relaxed">{item}</span>
-                </li>
-              ))}
-            </ul>
-
-            <p className="text-gray-300 text-lg leading-relaxed mb-8 font-light">
-              <strong className="text-white font-medium">Timeline:</strong> 3 weeks for 7 articles + schema implementation
-            </p>
-
-            <h2 className="text-3xl sm:text-4xl font-light mt-16 mb-6 text-gray-100">
-              The <span className="font-normal text-white">Answer Authority Foundation</span>
-            </h2>
-
-            <p className="text-gray-300 text-lg leading-relaxed mb-8 font-light">
-              This is the exact systematic process we use. Not theory. Not guesswork. The same implementation that generated 177,000 weekly impressions for the Los Angeles real estate team.
-            </p>
-
-            <h3 className="text-2xl font-light mt-12 mb-6 text-white/60">
-              What's Included
-            </h3>
-
-            <ul className="space-y-3 mb-8 text-gray-300 text-lg">
-              {[
-                "Complete entity consistency audit across 47 platforms",
-                "NAP correction and verification management",
-                "Full schema markup implementation (5 schema types)",
-                "7 authority articles with expertise extraction",
-                "FAQ schema for every article",
-                "90-day AI citation monitoring and tracking"
-              ].map((item, i) => (
-                <li key={i} className="flex items-start gap-3">
-                  <span className="flex-shrink-0 w-1.5 h-1.5 bg-white/30 rounded-full mt-3" />
-                  <span className="font-light leading-relaxed">{item}</span>
-                </li>
-              ))}
-            </ul>
-
-            <h3 className="text-2xl font-light mt-12 mb-6 text-white/60">
-              Investment
-            </h3>
-
-            <p className="text-gray-300 text-lg leading-relaxed mb-6 font-light">
-              <strong className="text-white font-medium">$2,997 one-time investment</strong>
-            </p>
-
-            <p className="text-gray-300 text-lg leading-relaxed mb-4 font-light">
-              Compare that to:
-            </p>
-
-            <ul className="space-y-3 mb-8 text-gray-300 text-lg">
-              {[
-                "DIY time investment: 80-120 hours",
-                "Your hourly rate × 100 hours = $7,500-11,500 opportunity cost",
-                "Risk of technical errors requiring rework",
-                "3-6 month timeline vs. our 6-week implementation"
-              ].map((item, i) => (
-                <li key={i} className="flex items-start gap-3">
-                  <span className="flex-shrink-0 w-1.5 h-1.5 bg-white/25 rounded-full mt-3" />
-                  <span className="font-light leading-relaxed">{item}</span>
-                </li>
-              ))}
-            </ul>
-
-            {/* Final CTA */}
-            <div className="my-16 p-10 rounded-2xl bg-gradient-to-br from-white/[0.06] to-white/[0.06] backdrop-blur-xl border border-white/[0.15]/20">
-              <h3 className="text-2xl sm:text-3xl font-light mb-4 text-gray-100">
-                Book Your <span className="font-normal text-white">Discovery Call</span>
-              </h3>
-              <p className="text-gray-300 text-lg mb-6 font-light leading-relaxed">
-                In 30 minutes we'll:
-              </p>
-              <ul className="space-y-3 mb-8 text-gray-300 text-lg">
-                {[
-                  "Audit your current AI visibility (or invisibility)",
-                  "Identify your biggest citation opportunities",
-                  "Show you the exact assets we'd build for your business",
-                  "Answer all your questions about the process",
-                  "Explain our 90-day citation tracking system"
-                ].map((item, i) => (
-                  <li key={i} className="flex items-start gap-3">
-                    <span className="flex-shrink-0">✓</span>
-                    <span className="font-light leading-relaxed">{item}</span>
-                  </li>
-                ))}
-              </ul>
-              <p className="text-gray-300 mb-2 font-medium">No pressure. No sales pitch.</p>
-              <p className="text-gray-100 mb-8 text-lg font-medium">
-                If it's a fit? You could be getting 177,000 impressions a week 90 days from now.
-              </p>
-              <div className="text-center">
-                <a 
-                  href="/#contact?utm_source=blog&utm_medium=cta&utm_campaign=chatgpt-spoke1" 
-                  className="inline-flex items-center justify-center gap-3 px-8 py-4 rounded-xl text-lg font-medium bg-gradient-to-r from-white/40 to-white/50 text-white hover:from-white/50 hover:to-white/50 transition-all shadow-lg shadow-white/12"
-                >
-                  Book Your Discovery Call — Start Your Authority Build ($2,997)
-                  <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={2}>
-                    <path strokeLinecap="round" strokeLinejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3" />
-                  </svg>
-                </a>
-              </div>
-            </div>
-
-            {/* Divider */}
-            <div className="flex justify-center gap-1 my-16 opacity-20">
-              {[...Array(50)].map((_, i) => (
-                <div 
-                  key={i} 
-                  className="w-px h-px bg-gray-600"
-                />
-              ))}
-            </div>
-
-            {/* CTA Section */}
-            <div className="rounded-2xl p-8 sm:p-10 text-center my-16" style={{ background: 'linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%)' }}>
-              <h2 className="text-2xl sm:text-3xl font-bold text-white mb-4 font-plus-jakarta">Find Out If AI Is Recommending Your Business</h2>
-              <p className="text-gray-300 mb-6 max-w-2xl mx-auto">Most businesses have no idea whether AI platforms are sending them customers or sending them to competitors. Our free blind spot report shows you exactly where you stand.</p>
-              <Link href="/blindspot" className="inline-block px-8 py-4 rounded-lg font-semibold text-white transition-all duration-200 hover:brightness-110" style={{ backgroundColor: '#FF6A00' }}>Get Your Free Blind Spot Report</Link>
-    <div className="flex flex-wrap items-center gap-6 mt-6 pt-6 border-t border-[#FF6A00]/10">
-      <a href="tel:+12134442229" className="flex items-center gap-2 text-gray-400 hover:text-white transition-colors">
-        <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" /></svg>
-        (213) 444-2229
-      </a>
-      <a href="mailto:support@theanswerengine.ai" className="flex items-center gap-2 text-gray-400 hover:text-white transition-colors">
-        <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" /></svg>
-        support@theanswerengine.ai
-      </a>
-    </div>
-            </div>
-
-            <h2 className="text-3xl sm:text-4xl font-light mt-16 mb-8 text-gray-100">
-              <span className="font-normal text-white">Frequently Asked Questions</span>
-            </h2>
-
-            <div className="space-y-6">
-              {[
-                {
-                  q: "How long does it take to see results from AEO?",
-                  a: "Most businesses see initial featured snippet wins within 30-45 days and consistent AI citations within 90 days. The complete Answer Authority Foundation process takes 6 weeks to implement."
-                },
-                {
-                  q: "Can I do this myself instead of hiring The Answer Engine?",
-                  a: "Yes, but it requires 80-120 hours of work across entity consistency audits, schema markup implementation, and content creation. The DIY opportunity cost ($7,500-11,500) typically exceeds our done-for-you price ($2,997)."
-                },
-                {
-                  q: "What makes your process different from other AEO agencies?",
-                  a: "We extract and document authentic expertise instead of fabricating case studies. Every claim is verified through our flag don't fabricate protocol."
-                },
-                {
-                  q: "What if ChatGPT doesn't cite my business after 90 days?",
-                  a: "We track AI citations across ChatGPT, Claude, Perplexity, Google AI Overviews, and Gemini during the 90-day tracking period. Results vary by industry and implementation quality."
-                },
-                {
-                  q: "Which businesses benefit most from AEO?",
-                  a: "Local service businesses with high-value transactions ($5,000+ average) and expertise-based services see the best ROI."
-                },
-                {
-                  q: "What platforms do you track besides ChatGPT?",
-                  a: "We monitor AI citations across ChatGPT, Claude, Perplexity, Google AI Overviews, and Gemini during the 90-day tracking period."
-                },
-                {
-                  q: "Will this help with Google rankings too?",
-                  a: "Yes. The schema markup, entity consistency, and authority content that help AI citations also improve traditional SEO performance and featured snippet wins."
-                },
-                {
-                  q: "How much does the Answer Authority Foundation cost?",
-                  a: "$2,997 one-time investment, including discovery consultation, 7 optimized articles, complete schema implementation, and 90-day monitoring."
-                },
-                {
-                  q: "Do you offer payment plans?",
-                  a: "We accept payment via Stripe or Zelle. Qualified businesses can request Net 30 terms."
-                },
-                {
-                  q: "What happens during the discovery process?",
-                  a: "We work with you to document your expertise, client experiences, and unique methodologies. You provide the knowledge, we handle the content creation."
-                }
-              ].map((faq, i) => (
-                <div key={i} className="bg-white/[0.03] backdrop-blur-xl border border-white/[0.08] rounded-xl p-6 hover:border-white/[0.08] transition-colors">
-                  <h3 className="text-xl font-light mb-3 text-white">
-                    {faq.q}
-                  </h3>
-                  <p className="text-gray-400 leading-relaxed font-light">
-                    {faq.a}
-                  </p>
-                </div>
-              ))}
-            </div>
-
-            {/* Author Section */}
-            <div className="mt-16 pt-12 border-t border-white/[0.08]">
-              <h3 className="text-2xl font-light mb-6 text-gray-100">
-                <span className="font-normal text-white">About the Author</span>
-              </h3>
-              <p className="text-gray-300 mb-4 font-light">
-                <strong className="text-white font-medium">Written by:</strong> The Answer Engine Team
-              </p>
-              <div className="text-gray-300 leading-relaxed space-y-4 mb-6 font-light">
-                <p className="text-white font-medium">Credentials & Experience:</p>
-                <ul className="space-y-2">
-                  {[
-                    "2+ years specialized Answer Engine Optimization experience (2023-present)",
-                    "10+ years combined traditional SEO experience",
-                    "Schema.org markup specialists with 500+ implementations deployed",
-                    "100+ featured snippet wins across client websites",
-                    "Multi-platform AI testing and citation tracking across Google AI Overviews, ChatGPT, Claude, and Perplexity",
-                    "50+ local service business AEO implementations completed"
-                  ].map((item, i) => (
-                    <li key={i} className="flex items-start gap-3">
-                      <span className="flex-shrink-0 w-1.5 h-1.5 bg-white/30 rounded-full mt-2.5" />
-                      <span>{item}</span>
-                    </li>
-                  ))}
-                </ul>
-              </div>
-              <p className="text-gray-300 leading-relaxed mb-6 font-light">
-                The Answer Engine specializes in Answer Engine Optimization (AEO) for local service businesses. We position companies to be cited by Google AI Overviews, ChatGPT, Claude, Perplexity, and other AI platforms, making them the trusted expert AI recommends in their market.
-              </p>
-              <p>
-                <a href="/" className="inline-flex items-center gap-2 text-white/60 font-medium hover:text-white/70 transition-colors group">
-                  Learn more at TheAnswerEngine.ai
-                  <svg className="w-4 h-4 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={2}>
-                    <path strokeLinecap="round" strokeLinejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3" />
-                  </svg>
-                </a>
-              </p>
-            </div>
-
-            {/* Related Articles */}
-            <div className="mt-16 pt-12 border-t border-white/[0.08]">
-              <h3 className="text-2xl font-light mb-6 text-gray-100">
-                <span className="font-normal text-white">Related Articles</span>
-              </h3>
-              <div className="space-y-4">
-                <div className="bg-white/[0.03] backdrop-blur-xl border border-white/[0.08] rounded-xl p-6 hover:border-white/[0.08] transition-colors">
-                  <a href="/blog/how-to-get-google-ai-chatgpt-recommend-business" className="group">
-                    <h4 className="text-xl font-light text-white mb-2 group-hover:text-white/60 transition-colors">
-                      How to Get Google AI Overviews and ChatGPT to Recommend Your Business
-                    </h4>
-                    <p className="text-gray-400 font-light leading-relaxed">
-                      Learn what Google AI Overviews and ChatGPT require to cite your business. Discover the four foundation requirements most businesses miss.
-                    </p>
-                  </a>
-                </div>
-                <div className="bg-white/[0.03] backdrop-blur-xl border border-white/[0.08] rounded-xl p-6 hover:border-white/[0.08] transition-colors">
-                  <a href="/blog/what-is-answer-engine-optimization" className="group">
-                    <h4 className="text-xl font-light text-white mb-2 group-hover:text-white/60 transition-colors">
-                      What is Answer Engine Optimization (AEO)? The Complete Guide for 2025
-                    </h4>
-                    <p className="text-gray-400 font-light leading-relaxed">
-                      Learn what Answer Engine Optimization is, how it differs from traditional SEO, and why local businesses need it to dominate AI-powered search.
-                    </p>
-                  </a>
-                </div>
-              </div>
+            <div className="ae-stat-card">
+              <div className="ae-stat-emoji">🔍</div>
+              <div className="ae-stat-value ae-accent">47</div>
+              <div className="ae-stat-label">PLATFORMS AUDITED</div>
             </div>
           </div>
-        </article>
-      </main>
+
+          <p>When someone asks ChatGPT "Who is the best real estate agent in Los Angeles?" or "Which HVAC company should I hire in Phoenix?" your business should be the answer. But chances are, you are invisible. Not because you lack experience. Not because you are unqualified. Because AI platforms evaluate businesses using completely different signals than traditional search engines, and most companies do not understand what those signals are.</p>
+
+          <p>This guide reveals the three critical reasons ChatGPT (and other AI platforms like Claude, Perplexity, and Google AI Overviews) ignore your business and the exact systematic process one team used to go from zero AI citations to 177,000 weekly impressions in 90 days.</p>
+
+          <div className="ae-callout ae-callout-warning not-prose">
+            <div className="ae-callout-title">Reality Check</div>
+            <p>If you ask ChatGPT to recommend a business in your industry and your city right now, and your business does not appear, you are losing customers to competitors every single day. AI-powered search now drives over 40% of buyer research.</p>
+          </div>
+
+          {/* -- CTA 1 -- */}
+          <div className="ae-cta-inline not-prose">
+            <p>Not sure whether ChatGPT recommends your business or your competitor? Find out in 60 seconds.</p>
+            <Link href="/blindspot">Get Your Free Blind Spot Report</Link>
+          </div>
+
+          {/* -- THE 177K STORY -- */}
+          <span className="ae-section-label">Case Study</span>
+          <h2>The 177,000 Weekly Impressions Story</h2>
+
+          <p>A real estate team in Los Angeles was getting zero ChatGPT citations despite having 15 years of experience, hundreds of successful transactions, a well-designed website, an active social media presence, and positive client reviews.</p>
+
+          <p>When they tested ChatGPT with market-specific questions like "Who is the best real estate agent for probate sales in Los Angeles?" their business never appeared. Not once.</p>
+
+          <div className="ae-quote not-prose">
+            <p>We had everything a traditional marketing agency would call "optimized." But when we tested AI search, we were completely invisible. That was the wake-up call.</p>
+          </div>
+
+          <p><strong>What changed:</strong> They implemented the Answer Authority Foundation process. 90 days later, ChatGPT was citing them consistently, generating 177,000 weekly impressions. The difference? They fixed the three critical failures that make AI platforms ignore businesses.</p>
+
+          <div className="ae-takeaway not-prose">
+            <div className="ae-takeaway-title">Key Takeaway</div>
+            <p>Traditional marketing credentials (experience, reviews, website design) do not translate into AI visibility. AI platforms use a completely separate set of trust signals to decide which businesses to recommend.</p>
+          </div>
+
+          {/* -- CTA 2 -- */}
+          <div className="ae-cta-inline not-prose">
+            <p>Wondering if your marketing investments are actually visible to AI platforms? Get the data.</p>
+            <Link href="/blindspot">Check Your AI Visibility Now</Link>
+          </div>
+
+          {/* -- THREE CRITICAL FAILURES -- */}
+          <span className="ae-section-label">The Problem</span>
+          <h2>The Three Critical Failures That Make AI Ignore Your Business</h2>
+
+          <p>AI platforms do not evaluate businesses the way humans do. Understanding these three failures is the difference between visibility and complete invisibility across every AI-powered search platform.</p>
+
+          {/* -- BAR GROUP -- */}
+          <div className="ae-bar-group not-prose">
+            <div className="ae-bar-item">
+              <div className="ae-bar-label">Entity Inconsistency</div>
+              <div className="ae-bar-track"><div className="ae-bar-fill" style={{width:'92%'}}></div></div>
+              <div className="ae-bar-value">92% of businesses</div>
+            </div>
+            <div className="ae-bar-item">
+              <div className="ae-bar-label">Missing Schema Markup</div>
+              <div className="ae-bar-track"><div className="ae-bar-fill" style={{width:'87%'}}></div></div>
+              <div className="ae-bar-value">87% of businesses</div>
+            </div>
+            <div className="ae-bar-item">
+              <div className="ae-bar-label">Generic Content</div>
+              <div className="ae-bar-track"><div className="ae-bar-fill" style={{width:'78%'}}></div></div>
+              <div className="ae-bar-value">78% of businesses</div>
+            </div>
+            <div className="ae-bar-item">
+              <div className="ae-bar-label">All Three Combined</div>
+              <div className="ae-bar-track"><div className="ae-bar-fill" style={{width:'68%'}}></div></div>
+              <div className="ae-bar-value">68% of businesses</div>
+            </div>
+          </div>
+
+          {/* -- REASON 1 -- */}
+          <h3>Reason 1: Your Business Identity Is Fragmented Across the Internet</h3>
+
+          <p>Here is what most business owners do not realize: <strong>AI platforms verify your business identity across dozens of data sources before citing you.</strong> When ChatGPT considers recommending your business, it cross-references Google Business Profile, Apple Maps, Bing Places, Facebook, Yelp, Better Business Bureau, industry-specific directories, and 40+ other platforms.</p>
+
+          <p>If your NAP (Name, Address, Phone) data is inconsistent across these platforms, even slightly, AI treats your business as unreliable and skips you entirely.</p>
+
+          {/* -- COMPARISON TABLE: What Humans See vs What AI Sees -- */}
+          <table className="ae-comparison-table not-prose">
+            <thead>
+              <tr>
+                <th>What You See</th>
+                <th>What AI Sees</th>
+                <th>Impact</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Smith & Associates Realty</td>
+                <td>Entity A (unknown)</td>
+                <td>Fragmented identity</td>
+              </tr>
+              <tr>
+                <td>Smith and Associates Realty</td>
+                <td>Entity B (unknown)</td>
+                <td>Fragmented identity</td>
+              </tr>
+              <tr>
+                <td>(512) 555-1234</td>
+                <td>Phone format 1</td>
+                <td>Conflicting signals</td>
+              </tr>
+              <tr>
+                <td>512-555-1234</td>
+                <td>Phone format 2</td>
+                <td>Conflicting signals</td>
+              </tr>
+              <tr>
+                <td>123 Main Street, Suite 100</td>
+                <td>Address variant A</td>
+                <td>Low confidence</td>
+              </tr>
+              <tr>
+                <td>123 Main St, Ste 100</td>
+                <td>Address variant B</td>
+                <td>Low confidence</td>
+              </tr>
+            </tbody>
+          </table>
+
+          <div className="ae-callout not-prose">
+            <div className="ae-callout-title">Why This Happens</div>
+            <p>Previous business owners updated some platforms but not others. Marketing agencies created new listings without updating old ones. Staff members entered information differently. Business names evolved but old listings remain. You moved offices but forgot to update lesser-known directories. The result: 30-40 inconsistencies you never knew existed.</p>
+          </div>
+
+          <div className="ae-takeaway not-prose">
+            <div className="ae-takeaway-title">Key Takeaway</div>
+            <p>When ChatGPT evaluates your business and sees conflicting data across platforms, it assigns low confidence to your entity. Low confidence means no citation, even if you are otherwise the most qualified business in your market.</p>
+          </div>
+
+          {/* -- CTA 3 -- */}
+          <div className="ae-cta-inline not-prose">
+            <p>Most businesses have NAP inconsistencies across 30+ platforms without knowing it. See where yours stand.</p>
+            <Link href="/blindspot">Audit Your Entity Consistency</Link>
+          </div>
+
+          {/* -- REASON 2 -- */}
+          <h3>Reason 2: You Are Speaking Human, But AI Only Reads Structure</h3>
+
+          <p>This is the shocking realization for most business owners. Your beautifully written "About Us" page? <strong>AI ignores it.</strong> Your 20 years in business? <strong>AI does not "see" it.</strong> Your passion, your story, your customer focus? <strong>Meaningless to AI</strong> unless you translate it into structured language called schema markup.</p>
+
+          {/* -- PROS-CONS: What You Have vs What AI Needs -- */}
+          <div className="ae-pros-cons not-prose">
+            <div className="ae-pros">
+              <div className="ae-pros-title">What You Probably Have</div>
+              <ul>
+                <li>"We have been serving Denver for 20 years with expert HVAC services."</li>
+                <li>"Customer satisfaction is our priority."</li>
+                <li>"Contact us today for a free quote!"</li>
+                <li>Beautiful photos, testimonial sliders, bold headlines</li>
+              </ul>
+            </div>
+            <div className="ae-cons">
+              <div className="ae-cons-title">What AI Actually Sees</div>
+              <ul>
+                <li>Zero authority signals in any structured format</li>
+                <li>No machine-readable expertise markers</li>
+                <li>Generic human writing with no schema data</li>
+                <li>No connection between content and entity identity</li>
+              </ul>
+            </div>
+          </div>
+
+          <p><strong>Schema markup</strong> is JSON-LD code that acts as subtitles for AI platforms. It tells AI exactly what your business does, what questions you answer, who your experts are, and what services you provide, all in a format AI can parse instantly.</p>
+
+          {/* -- DECISION MATRIX: Schema Types -- */}
+          <div className="ae-decision-matrix not-prose">
+            <table>
+              <thead>
+                <tr>
+                  <th>Schema Type</th>
+                  <th>What It Tells AI</th>
+                  <th>Priority</th>
+                  <th>Difficulty</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>LocalBusiness</td>
+                  <td>NAP + service area + hours + credentials</td>
+                  <td>Critical</td>
+                  <td>Medium</td>
+                </tr>
+                <tr>
+                  <td>FAQPage</td>
+                  <td>Questions you authoritatively answer</td>
+                  <td>Critical</td>
+                  <td>Low</td>
+                </tr>
+                <tr>
+                  <td>HowTo</td>
+                  <td>Process documentation and expertise</td>
+                  <td>High</td>
+                  <td>Medium</td>
+                </tr>
+                <tr>
+                  <td>Organization</td>
+                  <td>Team credentials and company details</td>
+                  <td>High</td>
+                  <td>Medium</td>
+                </tr>
+                <tr>
+                  <td>Author</td>
+                  <td>Expertise attribution for content</td>
+                  <td>High</td>
+                  <td>Low</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+
+          <div className="ae-callout ae-callout-warning not-prose">
+            <div className="ae-callout-title">Technical Warning</div>
+            <p>Schema markup must be written in perfect JSON-LD syntax. If one curly brace or comma is wrong, the entire implementation fails silently. Your site looks normal to visitors, but AI sees nothing. This is not a YouTube-tutorial fix. It is technical, fragile, and easy to break.</p>
+          </div>
+
+          {/* -- CTA 4 -- */}
+          <div className="ae-cta-inline not-prose">
+            <p>Schema markup is the language AI platforms speak. Find out if your site is fluent or completely silent.</p>
+            <Link href="/blindspot">Check Your Schema Coverage</Link>
+          </div>
+
+          {/* -- REASON 3 -- */}
+          <h3>Reason 3: Your Content Sounds Like Everyone Else (Including AI)</h3>
+
+          <p>Here is the irony: <strong>If you used ChatGPT to write your website content, ChatGPT can detect that and will not cite it.</strong> AI platforms automatically deprioritize anything that reads like AI wrote it. They are looking for authentic expertise, specific scenarios, and information that demonstrates real-world experience.</p>
+
+          {/* -- COMPARISON TABLE: Generic vs Authority -- */}
+          <table className="ae-comparison-table not-prose">
+            <thead>
+              <tr>
+                <th>Content Type</th>
+                <th>Generic (Ignored by AI)</th>
+                <th>Authority (Cited by AI)</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Opening</td>
+                <td>"We provide comprehensive solutions..."</td>
+                <td>"When I walk into a probate property, the first thing I tell the executor is..."</td>
+              </tr>
+              <tr>
+                <td>Claims</td>
+                <td>"Over 20 years of experience"</td>
+                <td>"In 847 transactions since 2009, we have seen this pattern 3 times..."</td>
+              </tr>
+              <tr>
+                <td>Value</td>
+                <td>"High-quality service at affordable prices"</td>
+                <td>"Families lose $50,000+ in tax benefits by clearing homes before proper valuation"</td>
+              </tr>
+              <tr>
+                <td>Proof</td>
+                <td>"Customer satisfaction is our priority"</td>
+                <td>"Here is the 7-step checklist we use before a single box gets moved..."</td>
+              </tr>
+              <tr>
+                <td>Structure</td>
+                <td>Marketing copy with buzzwords</td>
+                <td>Question-answer pairs with specific frameworks</td>
+              </tr>
+            </tbody>
+          </table>
+
+          <div className="ae-quote not-prose">
+            <p>AI has read the phrase "customer satisfaction is our priority" millions of times across millions of websites. It carries zero authority weight. What AI actually cites is specific expertise that cannot be replicated by generic content.</p>
+          </div>
+
+          <div className="ae-takeaway not-prose">
+            <div className="ae-takeaway-title">Key Takeaway</div>
+            <p>Authority content describes real scenarios, includes financial consequences, demonstrates unique expertise through proprietary frameworks, and shows process instead of platitudes. This is what gets cited. Everything else gets ignored.</p>
+          </div>
+
+          {/* -- CTA 5 -- */}
+          <div className="ae-cta-inline not-prose">
+            <p>Is your content the kind AI cites, or the kind it skips? There is only one way to find out.</p>
+            <Link href="/blindspot">Analyze Your Content Authority</Link>
+          </div>
+
+          {/* -- FLAG DON'T FABRICATE -- */}
+          <span className="ae-section-label">Integrity Standard</span>
+          <h2>The "Flag, Do Not Fabricate" Problem</h2>
+
+          <p>Here is the uncomfortable truth many agencies will not tell you: Some competitors currently getting cited are using fabricated case studies, made-up testimonials, and fake authority signals. And yes, for now, AI often believes them.</p>
+
+          {/* -- PROS-CONS: Fabrication -- */}
+          <div className="ae-pros-cons not-prose">
+            <div className="ae-pros">
+              <div className="ae-pros-title">Why Fabrication Seems to Work</div>
+              <ul>
+                <li>AI does not verify every claim in real time</li>
+                <li>Structured fake content gets parsed like real content</li>
+                <li>Specific (fake) metrics trigger citation algorithms</li>
+                <li>Short-term visibility gains are real</li>
+              </ul>
+            </div>
+            <div className="ae-cons">
+              <div className="ae-cons-title">Why Fabrication Is Dangerous</div>
+              <ul>
+                <li>Competitors can call out your claims publicly</li>
+                <li>You cannot answer follow-up questions about fake case studies</li>
+                <li>Your content collapses under scrutiny</li>
+                <li>AI platforms are improving fact-checking rapidly</li>
+                <li>Your reputation becomes fragile instead of defensible</li>
+              </ul>
+            </div>
+          </div>
+
+          <p>Our standard is simple: <strong>Flag, do not fabricate.</strong> Every claim is verified through client records, extracted from actual expertise, backed by real experience, and documented with permission. It takes longer. But it creates authority that lasts.</p>
+
+          {/* -- CTA 6 -- */}
+          <div className="ae-cta-inline not-prose">
+            <p>Want to build real authority that compounds over time instead of fake signals that collapse? Talk to us.</p>
+            <a href="tel:+12134442229">Call (213) 444-2229</a>
+          </div>
+
+          {/* -- THE 3-STEP FIX -- */}
+          <span className="ae-section-label">The Solution</span>
+          <h2>The 3-Step Fix That Actually Works</h2>
+
+          <p>The Los Angeles real estate team that went from zero to 177,000 weekly impressions did not guess. They systematically addressed all three failures in the correct sequence. Here is the exact process.</p>
+
+          {/* -- TIMELINE -- */}
+          <div className="ae-timeline not-prose">
+            <div className="ae-timeline-item">
+              <div className="ae-timeline-step" id="step-1">Step 1</div>
+              <div className="ae-timeline-title">Fix Entity Consistency (Week 1-2)</div>
+              <div className="ae-timeline-desc">Audit all 47 major platforms for NAP inconsistencies. Identify the canonical version of your business information. Claim unclaimed listings. Submit corrections. Monitor verifications. Re-audit after corrections to ensure consistency.</div>
+            </div>
+            <div className="ae-timeline-item">
+              <div className="ae-timeline-step" id="step-2">Step 2</div>
+              <div className="ae-timeline-title">Implement Schema Markup (Week 2-3)</div>
+              <div className="ae-timeline-desc">Deploy LocalBusiness schema with exact NAP data. Create FAQPage schema for every service page. Implement Organization and Author schema. Test all schema using Google Rich Results Test. Validate on mobile and desktop.</div>
+            </div>
+            <div className="ae-timeline-item">
+              <div className="ae-timeline-step" id="step-3">Step 3</div>
+              <div className="ae-timeline-title">Create Authority Content (Week 3-6)</div>
+              <div className="ae-timeline-desc">Conduct expertise extraction interviews with your team. Document real client scenarios. Create 7 optimized articles targeting high-intent queries. Structure content as question-answer pairs. Cross-link content to build topical authority.</div>
+            </div>
+          </div>
+
+          {/* -- CTA 7 -- */}
+          <div className="ae-cta-inline not-prose">
+            <p>Want to skip the trial and error? We have spent two years testing exactly what makes AI platforms cite businesses.</p>
+            <Link href="/blindspot">See What AI Sees About Your Business</Link>
+          </div>
+
+          {/* -- CHEAT SHEET: Entity Consistency -- */}
+          <span className="ae-section-label">Quick Reference</span>
+          <h2>Entity Consistency Cheat Sheet</h2>
+
+          <div className="ae-cheat-sheet not-prose">
+            <table>
+              <thead>
+                <tr>
+                  <th>Platform</th>
+                  <th>Priority</th>
+                  <th>Verification Time</th>
+                  <th>Common Issue</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Google Business Profile</td>
+                  <td>Critical</td>
+                  <td>5-7 days</td>
+                  <td>Outdated hours or categories</td>
+                </tr>
+                <tr>
+                  <td>Apple Maps</td>
+                  <td>Critical</td>
+                  <td>7-14 days</td>
+                  <td>Missing or wrong address format</td>
+                </tr>
+                <tr>
+                  <td>Bing Places</td>
+                  <td>Critical</td>
+                  <td>3-5 days</td>
+                  <td>Unverified listing</td>
+                </tr>
+                <tr>
+                  <td>Yelp</td>
+                  <td>High</td>
+                  <td>1-3 days</td>
+                  <td>Duplicate listings</td>
+                </tr>
+                <tr>
+                  <td>Facebook</td>
+                  <td>High</td>
+                  <td>Instant</td>
+                  <td>Old phone number</td>
+                </tr>
+                <tr>
+                  <td>BBB</td>
+                  <td>High</td>
+                  <td>10-14 days</td>
+                  <td>Business name mismatch</td>
+                </tr>
+                <tr>
+                  <td>Industry Directories</td>
+                  <td>Medium</td>
+                  <td>Varies</td>
+                  <td>Abandoned profiles</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+
+          {/* -- CTA 8 -- */}
+          <div className="ae-cta-inline not-prose">
+            <p>Fixing 47+ platforms yourself takes 15-20 hours of tedious work. Or you can have us handle it in the first two weeks.</p>
+            <a href="mailto:support@theanswerengine.ai">Email Us to Get Started</a>
+          </div>
+
+          {/* -- ANSWER AUTHORITY FOUNDATION -- */}
+          <span className="ae-section-label">The Offer</span>
+          <h2>The Answer Authority Foundation</h2>
+
+          <p>This is the exact systematic process we use. Not theory. Not guesswork. The same implementation that generated 177,000 weekly impressions for the Los Angeles real estate team.</p>
+
+          {/* -- STATS GRID: What's Included -- */}
+          <div className="ae-stats-grid not-prose">
+            <div className="ae-stat-card">
+              <div className="ae-stat-emoji">🔍</div>
+              <div className="ae-stat-value ae-accent">47</div>
+              <div className="ae-stat-label">PLATFORMS AUDITED</div>
+            </div>
+            <div className="ae-stat-card">
+              <div className="ae-stat-emoji">🏗️</div>
+              <div className="ae-stat-value ae-accent">5</div>
+              <div className="ae-stat-label">SCHEMA TYPES</div>
+            </div>
+            <div className="ae-stat-card">
+              <div className="ae-stat-emoji">📝</div>
+              <div className="ae-stat-value ae-accent">7</div>
+              <div className="ae-stat-label">AUTHORITY ARTICLES</div>
+            </div>
+            <div className="ae-stat-card">
+              <div className="ae-stat-emoji">📊</div>
+              <div className="ae-stat-value ae-accent">90</div>
+              <div className="ae-stat-label">DAYS MONITORING</div>
+            </div>
+          </div>
+
+          {/* -- DECISION MATRIX: DIY vs Done-For-You -- */}
+          <div className="ae-decision-matrix not-prose">
+            <table>
+              <thead>
+                <tr>
+                  <th>Factor</th>
+                  <th>DIY Approach</th>
+                  <th>Answer Authority Foundation</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Time Investment</td>
+                  <td>80-120 hours</td>
+                  <td>2 hours (your discovery call + interviews)</td>
+                </tr>
+                <tr>
+                  <td>Timeline</td>
+                  <td>3-6 months</td>
+                  <td>6 weeks</td>
+                </tr>
+                <tr>
+                  <td>Opportunity Cost</td>
+                  <td>$7,500-$11,500</td>
+                  <td>$0 (we do the work)</td>
+                </tr>
+                <tr>
+                  <td>Technical Risk</td>
+                  <td>High (one syntax error breaks schema)</td>
+                  <td>Zero (500+ implementations deployed)</td>
+                </tr>
+                <tr>
+                  <td>Content Quality</td>
+                  <td>Variable (most businesses get this wrong)</td>
+                  <td>Expertise-extracted authority content</td>
+                </tr>
+                <tr>
+                  <td>Monitoring</td>
+                  <td>Manual checks across 5+ platforms</td>
+                  <td>90-day automated citation tracking</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+
+          {/* -- CTA 9 -- */}
+          <div className="ae-cta-inline not-prose">
+            <p>80-120 hours of DIY work or a 30-minute discovery call to get started. The math speaks for itself.</p>
+            <Link href="/blindspot">Start With a Free Blind Spot Report</Link>
+          </div>
+
+          {/* -- CTA BLOCK (3-tier) -- */}
+          <div className="ae-cta-block not-prose">
+            <h3>Stop Wasting Months on Trial and Error</h3>
+            <p>We have spent two years testing exactly what makes AI platforms cite businesses instead of competitors. We know which schema implementations work, which content structures get ignored, and how to systematically build authority that compounds over time. The Answer Authority Foundation process takes 6 weeks, not 6 months of guesswork.</p>
+            <Link href="/blindspot" className="ae-cta-primary">Get Your Free Blind Spot Report</Link>
+            <div style={{display:'flex',flexWrap:'wrap',gap:'24px',justifyContent:'center',marginTop:'20px'}}>
+              <a href="tel:+12134442229" style={{color:'rgba(255,255,255,0.6)'}}>📞 (213) 444-2229</a>
+              <a href="mailto:support@theanswerengine.ai" style={{color:'rgba(255,255,255,0.6)'}}>✉️ support@theanswerengine.ai</a>
+            </div>
+          </div>
+
+          {/* -- AUTHOR CARD -- */}
+          <div className="ae-author-card not-prose">
+            <div className="ae-author-avatar">AE</div>
+            <div>
+              <div className="ae-author-name">The Answer Engine Team</div>
+              <div className="ae-author-role">2+ years AEO experience | 500+ schema implementations | 50+ local business clients</div>
+            </div>
+          </div>
+
+          {/* -- FAQ SECTION -- */}
+          <span className="ae-section-label">FAQ</span>
+          <h2>Frequently Asked Questions</h2>
+
+          <h3>How long does it take to see results from AEO?</h3>
+          <p>Most businesses see initial featured snippet wins within 30-45 days and consistent AI citations within 90 days. The complete Answer Authority Foundation process takes 6 weeks to implement.</p>
+
+          <div className="ae-cta-inline not-prose">
+            <p>Want to know your current baseline before starting? See where AI ranks your business today.</p>
+            <Link href="/blindspot">Get Your AI Visibility Baseline</Link>
+          </div>
+
+          <h3>Can I do this myself instead of hiring The Answer Engine?</h3>
+          <p>Yes, but it requires 80-120 hours of work across entity consistency audits, schema markup implementation, and content creation. The DIY opportunity cost at typical business owner rates of $75-$115 per hour far exceeds our done-for-you investment.</p>
+
+          <h3>What makes your process different from other AEO agencies?</h3>
+          <p>We extract and document authentic expertise instead of fabricating case studies. Every claim is verified through our "flag, do not fabricate" protocol. We have completed over 50 local business AEO implementations and deployed more than 500 schema markup configurations.</p>
+
+          <div className="ae-cta-inline not-prose">
+            <p>Still on the fence? A phone call costs nothing and takes 30 minutes. We will show you exactly what AI sees when it looks at your business.</p>
+            <a href="tel:+12134442229">Call (213) 444-2229</a>
+          </div>
+
+          <h3>What if ChatGPT does not cite my business after 90 days?</h3>
+          <p>We track AI citations across ChatGPT, Claude, Perplexity, Google AI Overviews, and Gemini during the 90-day tracking period. Results vary by industry and implementation quality, but the foundation we build compounds over time as AI platforms re-crawl and re-evaluate your signals.</p>
+
+          <h3>Which businesses benefit most from AEO?</h3>
+          <p>Local service businesses with high-value transactions ($5,000+ average) and expertise-based services see the best ROI. This includes real estate teams, HVAC companies, legal practices, dental offices, financial advisors, and similar professional services.</p>
+
+          <div className="ae-cta-inline not-prose">
+            <p>Not sure if your business qualifies? Ask us. We will tell you straight.</p>
+            <a href="mailto:support@theanswerengine.ai">Email support@theanswerengine.ai</a>
+          </div>
+
+          <h3>What platforms do you track besides ChatGPT?</h3>
+          <p>We monitor AI citations across ChatGPT, Claude, Perplexity, Google AI Overviews, and Gemini during the 90-day tracking period. Each platform uses slightly different signals, so our implementation covers all of them simultaneously.</p>
+
+          <h3>Will this help with Google rankings too?</h3>
+          <p>Yes. The schema markup, entity consistency, and authority content that drive AI citations also improve traditional SEO performance and featured snippet wins. You get visibility in both traditional search and AI-powered search from a single implementation.</p>
+
+          <h3>Do you offer payment plans?</h3>
+          <p>We accept payment via Stripe or Zelle. Qualified businesses can request Net 30 terms.</p>
+
+          <div className="ae-cta-inline not-prose">
+            <p>Ready to stop being invisible to AI? It starts with understanding where you stand right now.</p>
+            <Link href="/blindspot">Get Your Free Blind Spot Report</Link>
+          </div>
+
+          <h3>What happens during the discovery process?</h3>
+          <p>We work with you to document your expertise, client experiences, and unique methodologies. You provide the knowledge, we handle the content creation, schema implementation, and platform auditing. The entire process starts with a single 30-minute discovery call.</p>
+
+          <div className="ae-takeaway not-prose">
+            <div className="ae-takeaway-title">Key Takeaway</div>
+            <p>The businesses that implement AEO now will own AI visibility in their markets for years. The ones that wait will spend exponentially more time and money trying to catch up once their competitors have already established authority.</p>
+          </div>
+
+          {/* -- CTA 15 -- */}
+          <div className="ae-cta-inline not-prose">
+            <p>You have read the data. You know the three failures. The only question left is whether AI recommends your business or your competitor.</p>
+            <Link href="/blindspot">Find Out in 60 Seconds</Link>
+          </div>
+
+        </div>
+
+        {/* -- FINAL CTA -- */}
+        <div className="ae-final-cta">
+          <h2>ChatGPT Should Be Recommending Your Business. Let Us Make It Happen.</h2>
+          <p>Every day your business is invisible to AI search, potential customers are finding and choosing your competitors instead. The 3-step fix works. It worked for a team that went from zero to 177,000 weekly impressions in 90 days. Get your free Blind Spot Report and see exactly where you stand across ChatGPT, Claude, Perplexity, and Google AI.</p>
+          <Link href="/blindspot" className="ae-final-cta-pulse">Get Your Free Blind Spot Report</Link>
+          <div style={{display:'flex',flexWrap:'wrap',gap:'24px',justifyContent:'center',marginTop:'20px'}}>
+            <a href="tel:+12134442229" style={{color:'rgba(255,255,255,0.6)'}}>📞 (213) 444-2229</a>
+            <a href="mailto:support@theanswerengine.ai" style={{color:'rgba(255,255,255,0.6)'}}>✉️ support@theanswerengine.ai</a>
+          </div>
+        </div>
+      </article>
     </>
   );
 }

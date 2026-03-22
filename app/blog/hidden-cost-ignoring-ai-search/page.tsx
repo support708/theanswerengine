@@ -160,30 +160,6 @@ const jsonLd = {
   ],
 }
 
-function Breadcrumb() {
-  return (
-    <nav aria-label="Breadcrumb" className="mb-8">
-      <ol className="flex flex-wrap items-center gap-2 text-sm text-gray-400">
-        <li>
-          <Link href="/" className="hover:text-orange-400 transition-colors">
-            Home
-          </Link>
-        </li>
-        <li className="text-gray-600">/</li>
-        <li>
-          <Link href="/blog" className="hover:text-orange-400 transition-colors">
-            Blog
-          </Link>
-        </li>
-        <li className="text-gray-600">/</li>
-        <li className="text-gray-300 truncate max-w-xs sm:max-w-none">
-          The Hidden Cost of Ignoring AI Search
-        </li>
-      </ol>
-    </nav>
-  )
-}
-
 export default function Page() {
   return (
     <>
@@ -191,454 +167,593 @@ export default function Page() {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
       />
-      <main
-        className="min-h-screen"
-        style={{ backgroundColor: '#0F1117', color: 'white' }}
-      >
-        <div className="max-w-4xl mx-auto px-6 py-20">
-          <Breadcrumb />
 
-          {/* Hero Section */}
-          <div
-            className="relative overflow-hidden rounded-2xl mb-12"
-            style={{
-              background:
-                'linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%)',
-            }}
-          >
-            <svg
-              className="absolute inset-0 w-full h-full opacity-10"
-              viewBox="0 0 800 400"
-              fill="none"
-              aria-hidden="true"
-            >
-              <circle cx="650" cy="120" r="180" stroke="#FF6A00" strokeWidth="0.5" />
-              <circle cx="650" cy="120" r="120" stroke="#FF6A00" strokeWidth="0.5" />
-              <circle cx="650" cy="120" r="60" stroke="#FF6A00" strokeWidth="0.5" />
-              <line x1="0" y1="80" x2="800" y2="80" stroke="#FF6A00" strokeWidth="0.3" />
-              <line x1="0" y1="200" x2="800" y2="200" stroke="#FF6A00" strokeWidth="0.3" />
-              <line x1="0" y1="320" x2="800" y2="320" stroke="#FF6A00" strokeWidth="0.3" />
-              <line x1="150" y1="0" x2="150" y2="400" stroke="#FF6A00" strokeWidth="0.3" />
-              <line x1="450" y1="0" x2="450" y2="400" stroke="#FF6A00" strokeWidth="0.3" />
-              <polygon
-                points="60,370 180,230 300,370"
-                stroke="#FF6A00"
-                strokeWidth="0.5"
-                fill="none"
-              />
-              <polygon
-                points="220,390 350,250 480,390"
-                stroke="#FF6A00"
-                strokeWidth="0.4"
-                fill="none"
-              />
-            </svg>
-            <div className="relative px-8 py-16 sm:px-12 sm:py-20">
-              <p className="text-sm font-medium text-orange-400 mb-4">Market Analysis</p>
-              <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-white leading-tight mb-6 font-plus-jakarta">
-                The Hidden Cost of Ignoring AI Search (Revenue Impact Analysis)
-              </h1>
-              <div className="flex items-center gap-4 text-sm text-gray-400">
-                <span>March 18, 2026</span>
-                <span>-</span>
-                <span>10 min read</span>
-                <span>-</span>
-                <span>The Answer Engine Team</span>
-              </div>
+      <div className="max-w-4xl mx-auto px-6 pt-20 pb-4">
+        <nav className="flex items-center gap-2 text-sm text-gray-500">
+          <Link href="/" className="hover:text-[#FF6A00] transition-colors">Home</Link>
+          <span>/</span>
+          <Link href="/blog" className="hover:text-[#FF6A00] transition-colors">Blog</Link>
+          <span>/</span>
+          <span className="text-gray-400">The Hidden Cost of Ignoring AI Search</span>
+        </nav>
+      </div>
+
+      <header className="max-w-4xl mx-auto px-6 pb-12">
+        <div className="flex items-center gap-3 mb-6">
+          <span className="bg-[#FF6A00]/10 text-[#FF6A00] px-3 py-1 rounded-full text-xs font-semibold tracking-wide uppercase">Market Analysis</span>
+          <time className="text-gray-500 text-sm">2026-03-18</time>
+        </div>
+        <h1 className="font-plus-jakarta text-4xl md:text-5xl font-bold text-white leading-tight mb-6">The Hidden Cost of Ignoring AI Search (Revenue Impact Analysis)</h1>
+        <p className="text-gray-400 text-lg leading-relaxed max-w-2xl">Businesses ignoring AI search are losing traffic, leads, and revenue. See the real data on zero-click searches, AI adoption rates, and the cost of staying invisible.</p>
+      </header>
+
+      <article className="max-w-4xl mx-auto px-6 pb-20">
+        <div className="prose prose-invert prose-lg max-w-none prose-headings:font-plus-jakarta prose-headings:text-white prose-p:text-gray-300 prose-a:text-[#FF6A00] prose-a:no-underline hover:prose-a:underline prose-strong:text-white">
+
+          {/* ── STATS GRID ── */}
+          <div className="ae-stats-grid not-prose">
+            <div className="ae-stat-card">
+              <div className="ae-stat-emoji">📉</div>
+              <div className="ae-stat-value ae-accent">58.5%</div>
+              <div className="ae-stat-label">ZERO-CLICK RATE</div>
+            </div>
+            <div className="ae-stat-card">
+              <div className="ae-stat-emoji">🤖</div>
+              <div className="ae-stat-value ae-accent">810M</div>
+              <div className="ae-stat-label">DAILY AI USERS</div>
+            </div>
+            <div className="ae-stat-card">
+              <div className="ae-stat-emoji">🎯</div>
+              <div className="ae-stat-value ae-accent">5x</div>
+              <div className="ae-stat-label">AI CONVERSION RATE</div>
+            </div>
+            <div className="ae-stat-card">
+              <div className="ae-stat-emoji">📊</div>
+              <div className="ae-stat-value ae-accent">-25%</div>
+              <div className="ae-stat-label">SEARCH VOLUME DROP</div>
             </div>
           </div>
 
-          {/* Article Body */}
-          <article className="prose prose-invert prose-lg max-w-none">
+          <p>If your business strategy still treats Google page-one rankings as the finish line, you are already paying a price you may not see on any invoice. AI-powered search is redirecting how customers discover, evaluate, and choose businesses. The companies that ignore this shift are not standing still. They are falling behind, one invisible lost lead at a time.</p>
 
-            {/* Intro */}
-            <p className="text-xl text-gray-300 leading-relaxed mb-10">
-              If your business strategy still treats Google page-one rankings as the finish line,
-              you are already paying a price you may not see on any invoice. AI-powered search
-              is redirecting how customers discover, evaluate, and choose businesses. The
-              companies that ignore this shift are not standing still. They are falling behind,
-              one invisible lost lead at a time.
-            </p>
+          <div className="ae-callout ae-callout-warning not-prose">
+            <div className="ae-callout-title">Warning</div>
+            <p>Every month you remain invisible to AI search, your competitors compound their authority advantage. This is not a problem that fixes itself. It accelerates.</p>
+          </div>
 
-            {/* Section 1 */}
-            <h2 className="text-2xl font-bold text-white mt-12 mb-4 font-plus-jakarta">
-              The Traffic That Disappeared Without Warning
-            </h2>
-            <p className="text-gray-300 leading-relaxed mb-4">
-              Something unusual happened to organic search traffic in 2025. Businesses that had
-              spent years building their rankings started noticing a slow, persistent decline in
-              website visits, even though their positions had not changed. The culprit was not a
-              Google algorithm update in the traditional sense. It was{' '}
-              <Link href="/blog/google-ai-overviews-replacing-search" className="text-orange-400 hover:text-orange-300 transition-colors">
-                the expansion of AI Overviews
-              </Link>{' '}
-              and zero-click search behavior.
-            </p>
-            <p className="text-gray-300 leading-relaxed mb-4">
-              According to Semrush data from 2025,{' '}
-              <strong className="text-white">58.5% of U.S. Google searches</strong> now end
-              without a single click to any website. The user types a question, reads the
-              AI-generated summary at the top of the page, and leaves. No visit to your site.
-              No phone call. No form submission.
-            </p>
-            <p className="text-gray-300 leading-relaxed mb-4">
-              For searches that trigger AI Overviews specifically, the picture is even more
-              stark. Those searches show an average zero-click rate of{' '}
-              <strong className="text-white">83%</strong>, according to analysis by
-              Superprompt.com. In Google&apos;s dedicated AI Mode, where the system delivers a
-              comprehensive conversational response, 93% of sessions end without a website
-              click.
-            </p>
-            <p className="text-gray-300 leading-relaxed mb-4">
-              The scale of traffic loss is not theoretical. Clicks to the top 50 news sites
-              fell from 2.3 billion to less than 1.7 billion monthly visits in just 12 months,
-              according to AdExchanger reporting. An ALM Corp analysis from February 2026 found
-              classic organic click share dropped between 11 and 23 percentage points across
-              every vertical measured.
-            </p>
+          {/* ── SECTION 1: TRAFFIC DISAPPEARED ── */}
+          <span className="ae-section-label">Traffic Collapse</span>
+          <h2>The Traffic That Disappeared Without Warning</h2>
 
-            {/* Stat Callout 1 */}
-            <div className="rounded-xl border border-orange-500/30 bg-orange-500/5 p-6 my-8">
-              <p className="text-orange-400 font-semibold text-lg mb-2">The Zero-Click Reality</p>
-              <p className="text-gray-300 text-base leading-relaxed">
-                <strong className="text-white">58.5%</strong> of all U.S. Google searches end
-                without a click. When AI Overviews appear, that number jumps to{' '}
-                <strong className="text-white">83%</strong>. In Google AI Mode, it reaches{' '}
-                <strong className="text-white">93%</strong>. Nearly 39% of marketers have
-                already reported measurable traffic declines since AI Overviews launched.
-              </p>
+          <p>Something unusual happened to organic search traffic in 2025. Businesses that had spent years building their rankings started noticing a slow, persistent decline in website visits, even though their positions had not changed. The culprit was not a Google algorithm update in the traditional sense. It was <Link href="/blog/google-ai-overviews-replacing-search">the expansion of AI Overviews</Link> and zero-click search behavior.</p>
+
+          <p>According to Semrush data from 2025, <strong>58.5% of U.S. Google searches</strong> now end without a single click to any website. The user types a question, reads the AI-generated summary at the top of the page, and leaves. No visit to your site. No phone call. No form submission.</p>
+
+          <p>For searches that trigger AI Overviews specifically, the picture is even more stark. Those searches show an average zero-click rate of <strong>83%</strong>. In Google&apos;s dedicated AI Mode, where the system delivers a comprehensive conversational response, 93% of sessions end without a website click.</p>
+
+          {/* ── BAR GROUP: ZERO-CLICK RATES ── */}
+          <div className="ae-bar-group not-prose">
+            <div className="ae-bar-item">
+              <div className="ae-bar-label">Google AI Mode</div>
+              <div className="ae-bar-track"><div className="ae-bar-fill" style={{width:'93%'}}></div></div>
+              <div className="ae-bar-value">93%</div>
             </div>
-
-            {/* Section 2 */}
-            <h2 className="text-2xl font-bold text-white mt-12 mb-4 font-plus-jakarta">
-              AI Search Adoption Is Not a Future Trend. It Is Happening Now.
-            </h2>
-            <p className="text-gray-300 leading-relaxed mb-4">
-              The speed at which consumers have adopted AI search tools is unlike anything
-              the digital marketing world has seen. ChatGPT reached{' '}
-              <strong className="text-white">810 million daily users</strong>. Google AI
-              Overviews now reach{' '}
-              <strong className="text-white">1.5 billion monthly users</strong>. AI platforms
-              generated 1.13 billion referral visits in June 2025 alone, a 357% increase from
-              June 2024.
-            </p>
-            <p className="text-gray-300 leading-relaxed mb-4">
-              Over half of consumers have now tried LLM-powered search, and 34% use an AI
-              search tool daily or near-daily. Approximately 3 in 4 American respondents say
-              they use AI for search at least weekly. The most commonly used generative AI
-              tool is ChatGPT (52%), followed by Google Gemini (30%) and Microsoft Copilot
-              (20%).
-            </p>
-            <p className="text-gray-300 leading-relaxed mb-4">
-              These are not early adopters experimenting with a novelty. This is mainstream
-              consumer behavior. When someone in your service area asks an AI assistant
-              &quot;who is the best plumber near me&quot; or &quot;which roofer should I
-              hire,&quot; and your business is not in the answer, you are invisible to a
-              growing share of your market.
-            </p>
-
-            {/* Section 3 */}
-            <h2 className="text-2xl font-bold text-white mt-12 mb-4 font-plus-jakarta">
-              The Revenue Impact: What Invisibility Actually Costs
-            </h2>
-            <p className="text-gray-300 leading-relaxed mb-4">
-              Here is where the analysis moves from abstract to concrete. AI search traffic
-              does not just represent volume. It represents{' '}
-              <em>higher-quality</em> volume. According to Semrush data, AI search traffic
-              converts at{' '}
-              <strong className="text-white">14.2%</strong> compared to Google organic at just{' '}
-              <strong className="text-white">2.8%</strong>. The average visitor from an AI
-              platform is worth{' '}
-              <strong className="text-white">4.4 times more</strong> than the average
-              traditional organic search visitor, based on conversion rates.
-            </p>
-            <p className="text-gray-300 leading-relaxed mb-4">
-              Think about what that means for a local service business. If you are a home
-              services company generating 10 leads per month from organic search, and AI
-              platforms are now sending 5 leads per month to your competitor who is visible
-              in AI answers, those 5 AI-sourced leads convert at roughly five times the rate.
-              Your competitor is not just getting more leads. They are getting dramatically
-              better leads.
-            </p>
-            <p className="text-gray-300 leading-relaxed mb-4">
-              Meanwhile, Gartner predicts that by 2026, traditional search engine volume will
-              drop <strong className="text-white">25%</strong> as users shift to generative AI
-              assistants. That could mean Google&apos;s query count declines from roughly 14
-              billion per day to around 10 to 11 billion per day. The traffic pool you have
-              been fishing in is shrinking. The new pool, AI search, is growing at more than
-              40% per month. And if{' '}
-              <Link href="/blog/seo-not-generating-leads" className="text-orange-400 hover:text-orange-300 transition-colors">
-                your SEO is no longer generating leads
-              </Link>
-              , this shift is likely a factor.
-            </p>
-
-            {/* Stat Callout 2 */}
-            <div className="rounded-xl border border-orange-500/30 bg-orange-500/5 p-6 my-8">
-              <p className="text-orange-400 font-semibold text-lg mb-2">AI Traffic Converts at 5x the Rate</p>
-              <p className="text-gray-300 text-base leading-relaxed">
-                AI search visitors convert at <strong className="text-white">14.2%</strong>,
-                compared to <strong className="text-white">2.8%</strong> for traditional Google
-                organic visitors. The average AI platform visitor is worth{' '}
-                <strong className="text-white">4.4x more</strong> than a traditional search
-                visitor. Every month you are absent from AI results, you are losing your
-                highest-converting potential customers.
-              </p>
+            <div className="ae-bar-item">
+              <div className="ae-bar-label">AI Overview Queries</div>
+              <div className="ae-bar-track"><div className="ae-bar-fill" style={{width:'83%'}}></div></div>
+              <div className="ae-bar-value">83%</div>
             </div>
-
-            {/* Section 4 */}
-            <h2 className="text-2xl font-bold text-white mt-12 mb-4 font-plus-jakarta">
-              The Customer Acquisition Math Has Changed
-            </h2>
-            <p className="text-gray-300 leading-relaxed mb-4">
-              Generative Engine Optimization (GEO), the practice of optimizing content to
-              be cited by AI systems, delivers an average customer acquisition cost of{' '}
-              <strong className="text-white">$559</strong> across all industries, according to
-              First Page Sage benchmarks. That represents a 14.4% cost premium over traditional
-              SEO. But it also generates 27% higher conversion rates and 9.2% higher lead
-              quality.
-            </p>
-            <p className="text-gray-300 leading-relaxed mb-4">
-              Companies deploying AI-powered marketing solutions are seeing an average{' '}
-              <strong className="text-white">37% reduction</strong> in overall customer
-              acquisition costs compared to those relying on traditional tactics alone. The
-              reason is straightforward: AI recommendations carry implied endorsement value.
-              When ChatGPT or Google AI suggests your business as the answer to a
-              customer&apos;s question, that recommendation reduces the friction and skepticism
-              that typically drives up acquisition costs.
-            </p>
-            <p className="text-gray-300 leading-relaxed mb-4">
-              For businesses still relying exclusively on traditional SEO and paid ads, the
-              math is moving against you. Your competitors who invest in AI visibility are
-              getting better leads at lower effective costs, while your own cost per lead
-              rises as the traditional search pool contracts.
-            </p>
-
-            {/* Section 5 */}
-            <h2 className="text-2xl font-bold text-white mt-12 mb-4 font-plus-jakarta">
-              Which Industries Are Feeling the Pain First
-            </h2>
-            <p className="text-gray-300 leading-relaxed mb-4">
-              The revenue impact of AI search is not evenly distributed. Some industries are
-              being hit harder and faster than others. Since the rollout of AI Overviews,
-              nearly <strong className="text-white">39% of marketers</strong> have reported
-              traffic drops. But the pain is concentrated in specific verticals.
-            </p>
-            <p className="text-gray-300 leading-relaxed mb-4">
-              Tech companies have been hit hardest, with{' '}
-              <strong className="text-white">44%</strong> reporting traffic declines. Travel
-              and hospitality follows at <strong className="text-white">43%</strong>, and
-              retail and e-commerce at <strong className="text-white">35%</strong>. These
-              industries tend to have high volumes of informational and comparison queries,
-              exactly the type of searches where AI Overviews appear most frequently.
-            </p>
-            <p className="text-gray-300 leading-relaxed mb-4">
-              For local service businesses, the impact is increasingly visible. As we
-              covered in our analysis of{' '}
-              <Link href="/blog/ai-search-replacing-map-pack" className="text-orange-400 hover:text-orange-300 transition-colors">
-                AI search replacing the Map Pack
-              </Link>
-              , AI local packs now surface only 32% as many unique businesses as traditional
-              Map Packs. If your business relied on appearing in those three coveted Map Pack
-              spots, the pool of visible businesses is getting smaller, and the criteria for
-              inclusion are shifting toward AI-specific signals.
-            </p>
-
-            {/* Section 6 */}
-            <h2 className="text-2xl font-bold text-white mt-12 mb-4 font-plus-jakarta">
-              The Compounding Cost of Waiting
-            </h2>
-            <p className="text-gray-300 leading-relaxed mb-4">
-              One of the most dangerous aspects of ignoring AI search is that the cost
-              compounds over time. Unlike paid advertising, where you can turn on a campaign
-              and see results within days, AI visibility is built through content authority,
-              structured data, and consistent signals. It takes months to establish the kind
-              of trust that makes AI platforms cite your business.
-            </p>
-            <p className="text-gray-300 leading-relaxed mb-4">
-              Every month you delay is a month your competitors are building that authority
-              ahead of you. AI search traffic is growing at more than 40% per month. Monthly
-              sessions on AI platforms are now 56% the size of traditional search worldwide.
-              The gap between where you are and where you need to be widens with each passing
-              week.
-            </p>
-            <p className="text-gray-300 leading-relaxed mb-4">
-              Meanwhile, the trust signals that matter for AI visibility overlap heavily with
-              the signals that drive traditional SEO performance. Businesses that invest in
-              AI optimization are strengthening their overall digital presence, while those
-              that ignore it are maintaining a strategy built for a search landscape that is
-              actively shrinking.
-            </p>
-
-            {/* Stat Callout 3 */}
-            <div className="rounded-xl border border-orange-500/30 bg-orange-500/5 p-6 my-8">
-              <p className="text-orange-400 font-semibold text-lg mb-2">The Search Volume Shift</p>
-              <p className="text-gray-300 text-base leading-relaxed">
-                Gartner projects traditional search volume will drop{' '}
-                <strong className="text-white">25%</strong> by 2026. AI referral traffic grew{' '}
-                <strong className="text-white">357%</strong> year-over-year in 2025, reaching
-                1.13 billion visits in a single month. AI search sessions are already{' '}
-                <strong className="text-white">56%</strong> the size of traditional search
-                globally.
-              </p>
+            <div className="ae-bar-item">
+              <div className="ae-bar-label">All U.S. Google Searches</div>
+              <div className="ae-bar-track"><div className="ae-bar-fill" style={{width:'58%'}}></div></div>
+              <div className="ae-bar-value">58.5%</div>
             </div>
-
-            {/* Section 7 */}
-            <h2 className="text-2xl font-bold text-white mt-12 mb-4 font-plus-jakarta">
-              What Businesses That Act Now Are Doing Differently
-            </h2>
-            <p className="text-gray-300 leading-relaxed mb-4">
-              The businesses gaining ground in AI search are not doing anything exotic. They
-              are taking the same foundational principles that have always worked in digital
-              marketing and applying them with AI platforms in mind.
-            </p>
-            <p className="text-gray-300 leading-relaxed mb-4">
-              First, they are creating content that directly answers the questions their
-              customers actually ask. AI platforms reward clarity and specificity. A page
-              that opens with a direct answer to &quot;how much does a roof replacement
-              cost&quot; will outperform a page that buries that information behind three
-              paragraphs of company history.
-            </p>
-            <p className="text-gray-300 leading-relaxed mb-4">
-              Second, they are building structured data and schema markup that helps AI
-              systems understand their business, services, and service area. When your website
-              tells AI platforms exactly what you do, where you do it, and what your customers
-              say about you, you become significantly easier for those platforms to recommend.
-            </p>
-            <p className="text-gray-300 leading-relaxed mb-4">
-              Third, they are maintaining consistent and accurate information across every
-              platform where their business appears. AI systems cross-reference multiple
-              sources. Inconsistent NAP data (name, address, phone), contradictory service
-              descriptions, or outdated information create friction that makes AI platforms
-              less likely to cite your business.
-            </p>
-            <p className="text-gray-300 leading-relaxed mb-4">
-              If you have noticed{' '}
-              <Link href="/blog/website-stopped-getting-calls" className="text-orange-400 hover:text-orange-300 transition-colors">
-                your website stopped getting calls
-              </Link>{' '}
-              despite stable rankings, this is likely the shift you are experiencing. The
-              solution is not more of the same SEO. It is expanding your visibility into
-              the channels where your customers are actually searching.
-            </p>
-
-            {/* Section 8 */}
-            <h2 className="text-2xl font-bold text-white mt-12 mb-4 font-plus-jakarta">
-              The Bottom Line: Inaction Is the Most Expensive Strategy
-            </h2>
-            <p className="text-gray-300 leading-relaxed mb-4">
-              Every data point in this analysis leads to the same conclusion. The cost of
-              ignoring AI search is not zero. It is the sum of every lead your competitors
-              are capturing while you remain invisible, every high-intent customer who asks
-              an AI assistant for a recommendation and never hears your name, and every
-              month of compounding disadvantage as AI adoption continues to accelerate.
-            </p>
-            <p className="text-gray-300 leading-relaxed mb-4">
-              The businesses that treat AI search as a &quot;future problem&quot; are the
-              ones most likely to find themselves scrambling when the numbers become too
-              obvious to ignore. And by that point, their competitors will have months or
-              years of head start building the authority and trust signals that AI platforms
-              use to decide who gets recommended.
-            </p>
-            <p className="text-gray-300 leading-relaxed mb-10">
-              The shift is not coming. It is here. The only question is whether you will
-              position your business to benefit from it, or pay the hidden cost of
-              pretending it does not apply to you.
-            </p>
-          </article>
-
-          {/* FAQ Section */}
-          <section className="mt-16 mb-16">
-            <h2 className="text-2xl font-bold text-white mb-8 font-plus-jakarta">
-              Frequently Asked Questions
-            </h2>
-            <div className="grid gap-4">
-              {[
-                {
-                  q: 'How much traffic are businesses losing to AI search?',
-                  a: 'Nearly 39% of marketers have reported traffic drops since the rollout of AI Overviews. Searches that trigger AI Overviews show an average zero-click rate of 83%, meaning the vast majority of users never click through to any website. Publishers have reported losses ranging from 20% to 90% of their organic traffic over the past year.',
-                },
-                {
-                  q: 'What percentage of searches now end without a click?',
-                  a: 'According to Semrush data from 2025, 58.5% of U.S. Google searches end without a single click to any website. For searches that trigger AI Overviews specifically, the zero-click rate jumps to 83%. In Google AI Mode, which delivers comprehensive AI responses, zero-click rates reach 93%.',
-                },
-                {
-                  q: 'How many consumers are using AI to search for businesses?',
-                  a: 'Over half of consumers have tried LLM search, and 34% use an AI search tool daily or near-daily. Approximately 3 in 4 American respondents say they use AI for search at least weekly. ChatGPT alone has 810 million daily users, and Google AI Overviews reach 1.5 billion monthly users.',
-                },
-                {
-                  q: 'Is AI search traffic actually more valuable than traditional search traffic?',
-                  a: 'Yes. AI search traffic converts at 14.2% compared to Google organic at 2.8%, making it roughly five times more effective. The average visitor from an AI platform is worth 4.4 times more than the average traditional organic search visitor based on conversion rates.',
-                },
-                {
-                  q: 'How much will traditional search volume decline because of AI?',
-                  a: "Gartner predicts that by 2026, traditional search engine volume will drop 25% as users shift to generative AI assistants. This could mean Google's query count declines from roughly 14 billion per day to around 10 to 11 billion per day.",
-                },
-                {
-                  q: 'What is the cost of acquiring customers through AI search vs traditional search?',
-                  a: 'Generative Engine Optimization delivers an average customer acquisition cost of $559, which is a 14.4% premium over traditional SEO. However, it generates 27% higher conversion rates and 9.2% higher lead quality. Companies using AI-powered marketing solutions see an average 37% reduction in overall customer acquisition costs.',
-                },
-              ].map((faq, i) => (
-                <div
-                  key={i}
-                  className="rounded-xl border border-gray-800 bg-gray-900/50 p-6"
-                >
-                  <h3 className="text-lg font-semibold text-white mb-3 font-plus-jakarta">
-                    {faq.q}
-                  </h3>
-                  <p className="text-gray-400 leading-relaxed">{faq.a}</p>
-                </div>
-              ))}
+            <div className="ae-bar-item">
+              <div className="ae-bar-label">Marketers Reporting Drops</div>
+              <div className="ae-bar-track"><div className="ae-bar-fill" style={{width:'39%'}}></div></div>
+              <div className="ae-bar-value">39%</div>
             </div>
-          </section>
+          </div>
 
-          {/* CTA Section */}
-          <section className="rounded-2xl border border-orange-500/30 bg-orange-500/5 p-8 sm:p-12 text-center mb-16">
-            <h2 className="text-2xl sm:text-3xl font-bold text-white mb-4 font-plus-jakarta">
-              How Much Revenue Is AI Search Costing You?
-            </h2>
-            <p className="text-gray-300 text-lg mb-8 max-w-2xl mx-auto">
-              Find out whether AI platforms can see your business, whether they
-              recommend your competitors instead, and exactly where the gaps are.
-              Free analysis, zero obligation.
-            </p>
-            <Link
-              href="/blindspot"
-              className="inline-block bg-orange-500 text-white font-semibold px-8 py-4 rounded-lg text-lg hover:bg-orange-600 transition-colors"
-            >
-              Get Your Free Blind Spot Report
-            </Link>
-    <div className="flex flex-wrap items-center gap-6 mt-6 pt-6 border-t border-[#FF6A00]/10">
-      <a href="tel:+12134442229" className="flex items-center gap-2 text-gray-400 hover:text-white transition-colors">
-        <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" /></svg>
-        (213) 444-2229
-      </a>
-      <a href="mailto:support@theanswerengine.ai" className="flex items-center gap-2 text-gray-400 hover:text-white transition-colors">
-        <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" /></svg>
-        support@theanswerengine.ai
-      </a>
-    </div>
-            <p className="text-gray-500 text-sm mt-4">No pitch, just the data.</p>
-          </section>
+          <p>The scale of traffic loss is not theoretical. Clicks to the top 50 news sites fell from 2.3 billion to less than 1.7 billion monthly visits in just 12 months. Classic organic click share dropped between 11 and 23 percentage points across every vertical measured.</p>
 
-          {/* Author Attribution */}
-          <section className="flex items-center gap-4 border-t border-gray-800 pt-8">
-            <div
-              className="w-14 h-14 rounded-full flex items-center justify-center flex-shrink-0"
-              style={{ backgroundColor: '#FF6A00' }}
-            >
-              <span className="text-white font-bold text-lg">AE</span>
+          <div className="ae-takeaway not-prose">
+            <div className="ae-takeaway-title">Key Takeaway</div>
+            <p>Your rankings did not change. The rules did. The majority of searches now resolve without a single click to any website, and AI Overviews are accelerating that trend.</p>
+          </div>
+
+          {/* ── CTA 1 ── */}
+          <div className="ae-cta-inline not-prose">
+            <p>Wondering how much traffic AI is siphoning from your business? Find out with a free analysis.</p>
+            <Link href="/blindspot">Get Your Free Blind Spot Report &#8594;</Link>
+          </div>
+
+          {/* ── SECTION 2: AI ADOPTION ── */}
+          <span className="ae-section-label">Adoption Rates</span>
+          <h2>AI Search Adoption Is Not a Future Trend. It Is Happening Now.</h2>
+
+          <p>The speed at which consumers have adopted AI search tools is unlike anything the digital marketing world has seen. ChatGPT reached <strong>810 million daily users</strong>. Google AI Overviews now reach <strong>1.5 billion monthly users</strong>. AI platforms generated 1.13 billion referral visits in June 2025 alone, a 357% increase from June 2024.</p>
+
+          <p>Over half of consumers have now tried LLM-powered search, and 34% use an AI search tool daily or near-daily. Approximately 3 in 4 American respondents say they use AI for search at least weekly.</p>
+
+          {/* ── STATS GRID: PLATFORM USAGE ── */}
+          <div className="ae-stats-grid not-prose">
+            <div className="ae-stat-card">
+              <div className="ae-stat-emoji">💬</div>
+              <div className="ae-stat-value ae-accent">52%</div>
+              <div className="ae-stat-label">USE CHATGPT</div>
             </div>
+            <div className="ae-stat-card">
+              <div className="ae-stat-emoji">🔮</div>
+              <div className="ae-stat-value ae-accent">30%</div>
+              <div className="ae-stat-label">USE GEMINI</div>
+            </div>
+            <div className="ae-stat-card">
+              <div className="ae-stat-emoji">🖥️</div>
+              <div className="ae-stat-value ae-accent">20%</div>
+              <div className="ae-stat-label">USE COPILOT</div>
+            </div>
+            <div className="ae-stat-card">
+              <div className="ae-stat-emoji">📈</div>
+              <div className="ae-stat-value ae-accent">357%</div>
+              <div className="ae-stat-label">YOY REFERRAL GROWTH</div>
+            </div>
+          </div>
+
+          <p>These are not early adopters experimenting with a novelty. This is mainstream consumer behavior. When someone in your service area asks an AI assistant &quot;who is the best plumber near me&quot; or &quot;which roofer should I hire,&quot; and your business is not in the answer, you are invisible to a growing share of your market.</p>
+
+          <div className="ae-callout ae-callout-info not-prose">
+            <div className="ae-callout-title">Insight</div>
+            <p>AI search is not replacing Google overnight. It is layering on top of it. But the users who engage with AI search are the highest-intent buyers in your market, and they are making decisions before they ever visit a website.</p>
+          </div>
+
+          {/* ── CTA 2 ── */}
+          <div className="ae-cta-inline not-prose">
+            <p>Are AI platforms recommending your competitors instead of you? There is one way to find out.</p>
+            <Link href="/blindspot">Run a Free AI Visibility Check &#8594;</Link>
+          </div>
+
+          {/* ── SECTION 3: REVENUE IMPACT ── */}
+          <span className="ae-section-label">Revenue Impact</span>
+          <h2>The Revenue Impact: What Invisibility Actually Costs</h2>
+
+          <p>Here is where the analysis moves from abstract to concrete. AI search traffic does not just represent volume. It represents <em>higher-quality</em> volume. AI search traffic converts at <strong>14.2%</strong> compared to Google organic at just <strong>2.8%</strong>. The average visitor from an AI platform is worth <strong>4.4 times more</strong> than the average traditional organic search visitor, based on conversion rates.</p>
+
+          {/* ── COMPARISON TABLE ── */}
+          <table className="ae-comparison-table not-prose">
+            <thead>
+              <tr>
+                <th>Metric</th>
+                <th>Traditional Google</th>
+                <th>AI Search</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Conversion Rate</td>
+                <td>2.8%</td>
+                <td>14.2%</td>
+              </tr>
+              <tr>
+                <td>Visitor Value</td>
+                <td>1x (baseline)</td>
+                <td>4.4x higher</td>
+              </tr>
+              <tr>
+                <td>Lead Quality</td>
+                <td>Standard intent</td>
+                <td>Pre-qualified by AI</td>
+              </tr>
+              <tr>
+                <td>Trust Signal</td>
+                <td>Ranking position</td>
+                <td>AI endorsement</td>
+              </tr>
+              <tr>
+                <td>Growth Trend</td>
+                <td>Declining (-25% projected)</td>
+                <td>Growing (+357% YOY)</td>
+              </tr>
+              <tr>
+                <td>Competition</td>
+                <td>10 results on page 1</td>
+                <td>1 to 3 recommended answers</td>
+              </tr>
+            </tbody>
+          </table>
+
+          <p>Think about what that means for a local service business. If you are a home services company generating 10 leads per month from organic search, and AI platforms are now sending 5 leads per month to your competitor who is visible in AI answers, those 5 AI-sourced leads convert at roughly five times the rate. Your competitor is not just getting more leads. They are getting dramatically better leads.</p>
+
+          <div className="ae-callout ae-callout-warning not-prose">
+            <div className="ae-callout-title">Reality Check</div>
+            <p>Every lead that AI sends to your competitor is a lead your business never even knew existed. There is no missed-call notification for AI invisibility. The revenue just silently goes elsewhere.</p>
+          </div>
+
+          <p>Meanwhile, Gartner predicts that by 2026, traditional search engine volume will drop <strong>25%</strong> as users shift to generative AI assistants. That could mean Google&apos;s query count declines from roughly 14 billion per day to around 10 to 11 billion per day. The traffic pool you have been fishing in is shrinking. The new pool, AI search, is growing at more than 40% per month. And if <Link href="/blog/seo-not-generating-leads">your SEO is no longer generating leads</Link>, this shift is likely a factor.</p>
+
+          {/* ── CTA 3 ── */}
+          <div className="ae-cta-inline not-prose">
+            <p>How many high-converting AI leads are going to your competitors right now? Get the data.</p>
+            <Link href="/blindspot">See Your AI Revenue Gap &#8594;</Link>
+          </div>
+
+          {/* ── SECTION 4: CAC ── */}
+          <span className="ae-section-label">Acquisition Cost</span>
+          <h2>The Customer Acquisition Math Has Changed</h2>
+
+          <p>Generative Engine Optimization (GEO), the practice of optimizing content to be cited by AI systems, delivers an average customer acquisition cost of <strong>$559</strong> across all industries. That represents a 14.4% cost premium over traditional SEO. But it also generates 27% higher conversion rates and 9.2% higher lead quality.</p>
+
+          {/* ── PROS/CONS ── */}
+          <div className="ae-pros-cons not-prose">
+            <div className="ae-pros-box">
+              <div className="ae-pros-title">GEO Advantages</div>
+              <ul>
+                <li>27% higher conversion rates than traditional SEO</li>
+                <li>9.2% higher lead quality scores</li>
+                <li>AI endorsement carries implicit trust</li>
+                <li>37% lower overall CAC with AI-powered marketing</li>
+                <li>Compounds over time as authority builds</li>
+                <li>Works across ChatGPT, Gemini, Claude, Perplexity</li>
+              </ul>
+            </div>
+            <div className="ae-cons-box">
+              <div className="ae-cons-title">GEO Considerations</div>
+              <ul>
+                <li>14.4% cost premium over traditional SEO</li>
+                <li>Requires new measurement frameworks</li>
+                <li>Takes months to build AI trust signals</li>
+                <li>Evolving best practices and standards</li>
+                <li>Cannot be gamed like traditional rankings</li>
+                <li>Demands genuine expertise and authority</li>
+              </ul>
+            </div>
+          </div>
+
+          <p>Companies deploying AI-powered marketing solutions are seeing an average <strong>37% reduction</strong> in overall customer acquisition costs compared to those relying on traditional tactics alone. The reason is straightforward: AI recommendations carry implied endorsement value. When ChatGPT or Google AI suggests your business as the answer to a customer&apos;s question, that recommendation reduces the friction and skepticism that typically drives up acquisition costs.</p>
+
+          <div className="ae-takeaway not-prose">
+            <div className="ae-takeaway-title">Key Takeaway</div>
+            <p>GEO costs slightly more per lead than traditional SEO, but the leads convert at higher rates and close at higher values. The net math favors businesses that invest in AI visibility now.</p>
+          </div>
+
+          {/* ── CTA 4 ── */}
+          <div className="ae-cta-inline not-prose">
+            <p>Want to know what your customer acquisition cost looks like in the AI search era? Start with the data.</p>
+            <Link href="/blindspot">Get Your Free Blind Spot Report &#8594;</Link>
+          </div>
+
+          {/* ── CTA 5 (phone) ── */}
+          <div className="ae-cta-inline not-prose">
+            <p>Have questions about AI visibility for your specific industry? Talk to a real person.</p>
+            <a href="tel:+12134442229">Call (213) 444-2229 &#8594;</a>
+          </div>
+
+          {/* ── SECTION 5: INDUSTRIES ── */}
+          <span className="ae-section-label">Industry Impact</span>
+          <h2>Which Industries Are Feeling the Pain First</h2>
+
+          <p>The revenue impact of AI search is not evenly distributed. Some industries are being hit harder and faster than others. Since the rollout of AI Overviews, nearly <strong>39% of marketers</strong> have reported traffic drops. But the pain is concentrated in specific verticals.</p>
+
+          {/* ── BAR GROUP: INDUSTRY IMPACT ── */}
+          <div className="ae-bar-group not-prose">
+            <div className="ae-bar-item">
+              <div className="ae-bar-label">Tech Companies</div>
+              <div className="ae-bar-track"><div className="ae-bar-fill" style={{width:'44%'}}></div></div>
+              <div className="ae-bar-value">44%</div>
+            </div>
+            <div className="ae-bar-item">
+              <div className="ae-bar-label">Travel &amp; Hospitality</div>
+              <div className="ae-bar-track"><div className="ae-bar-fill" style={{width:'43%'}}></div></div>
+              <div className="ae-bar-value">43%</div>
+            </div>
+            <div className="ae-bar-item">
+              <div className="ae-bar-label">Retail &amp; E-commerce</div>
+              <div className="ae-bar-track"><div className="ae-bar-fill" style={{width:'35%'}}></div></div>
+              <div className="ae-bar-value">35%</div>
+            </div>
+            <div className="ae-bar-item">
+              <div className="ae-bar-label">Home Services</div>
+              <div className="ae-bar-track"><div className="ae-bar-fill" style={{width:'32%'}}></div></div>
+              <div className="ae-bar-value">32%</div>
+            </div>
+            <div className="ae-bar-item">
+              <div className="ae-bar-label">Healthcare</div>
+              <div className="ae-bar-track"><div className="ae-bar-fill" style={{width:'30%'}}></div></div>
+              <div className="ae-bar-value">30%</div>
+            </div>
+          </div>
+
+          <p>These industries tend to have high volumes of informational and comparison queries, exactly the type of searches where AI Overviews appear most frequently.</p>
+
+          <p>For local service businesses, the impact is increasingly visible. As we covered in our analysis of <Link href="/blog/ai-search-replacing-map-pack">AI search replacing the Map Pack</Link>, AI local packs now surface only 32% as many unique businesses as traditional Map Packs. If your business relied on appearing in those three coveted Map Pack spots, the pool of visible businesses is getting smaller, and the criteria for inclusion are shifting toward AI-specific signals.</p>
+
+          <div className="ae-callout ae-callout-info not-prose">
+            <div className="ae-callout-title">Insight</div>
+            <p>Industries with high informational query volume are feeling the pain first. But every industry will follow the same curve as AI search expands. The question is not if your industry will be affected, but when.</p>
+          </div>
+
+          {/* ── CTA 6 ── */}
+          <div className="ae-cta-inline not-prose">
+            <p>Your industry is already being reshaped by AI search. See exactly how it affects your business.</p>
+            <Link href="/blindspot">Check Your Industry Visibility &#8594;</Link>
+          </div>
+
+          {/* ── SECTION 6: COMPOUNDING COST ── */}
+          <span className="ae-section-label">Compounding Risk</span>
+          <h2>The Compounding Cost of Waiting</h2>
+
+          <p>One of the most dangerous aspects of ignoring AI search is that the cost compounds over time. Unlike paid advertising, where you can turn on a campaign and see results within days, AI visibility is built through content authority, structured data, and consistent signals. It takes months to establish the kind of trust that makes AI platforms cite your business.</p>
+
+          {/* ── TIMELINE ── */}
+          <div className="ae-timeline not-prose">
+            <div className="ae-timeline-item">
+              <div className="ae-timeline-step">Month 1-3</div>
+              <div className="ae-timeline-title">Competitor Begins AI Optimization</div>
+              <div className="ae-timeline-desc">Your competitor starts building structured data, authority signals, and AI-friendly content. You notice nothing.</div>
+            </div>
+            <div className="ae-timeline-item">
+              <div className="ae-timeline-step">Month 4-6</div>
+              <div className="ae-timeline-title">AI Starts Citing Competitor</div>
+              <div className="ae-timeline-desc">ChatGPT and Google AI begin recommending your competitor for industry queries. Your traffic dips slightly.</div>
+            </div>
+            <div className="ae-timeline-item">
+              <div className="ae-timeline-step">Month 7-9</div>
+              <div className="ae-timeline-title">Authority Gap Widens</div>
+              <div className="ae-timeline-desc">AI platforms reinforce what they have learned. Competitor gets cited more, builds more trust. Your visibility drops further.</div>
+            </div>
+            <div className="ae-timeline-item">
+              <div className="ae-timeline-step">Month 10-12</div>
+              <div className="ae-timeline-title">Catch-Up Becomes Expensive</div>
+              <div className="ae-timeline-desc">You now need 6+ months of intensive work to match what your competitor built in 3. The gap keeps growing every day you wait.</div>
+            </div>
+          </div>
+
+          <p>Every month you delay is a month your competitors are building that authority ahead of you. AI search traffic is growing at more than 40% per month. Monthly sessions on AI platforms are now 56% the size of traditional search worldwide. The gap between where you are and where you need to be widens with each passing week.</p>
+
+          <div className="ae-callout ae-callout-warning not-prose">
+            <div className="ae-callout-title">Warning</div>
+            <p>AI authority compounds like interest. Every month of delay does not add a fixed cost. It multiplies the cost of catching up. Businesses that start now will have a structural advantage that late movers may never close.</p>
+          </div>
+
+          <p>Meanwhile, the trust signals that matter for AI visibility overlap heavily with the signals that drive traditional SEO performance. Businesses that invest in AI optimization are strengthening their overall digital presence, while those that ignore it are maintaining a strategy built for a search landscape that is actively shrinking.</p>
+
+          {/* ── CTA 7 ── */}
+          <div className="ae-cta-inline not-prose">
+            <p>The longer you wait, the more it costs to catch up. Start with a free assessment today.</p>
+            <Link href="/blindspot">Get Your Free Blind Spot Report &#8594;</Link>
+          </div>
+
+          {/* ── SECTION 7: WHAT WINNERS DO ── */}
+          <span className="ae-section-label">Strategy</span>
+          <h2>What Businesses That Act Now Are Doing Differently</h2>
+
+          <p>The businesses gaining ground in AI search are not doing anything exotic. They are taking the same foundational principles that have always worked in digital marketing and applying them with AI platforms in mind.</p>
+
+          {/* ── DECISION MATRIX ── */}
+          <div className="ae-decision-matrix not-prose">
+            <table>
+              <thead>
+                <tr>
+                  <th>What They Are Doing</th>
+                  <th>Why It Works for AI</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Creating direct-answer content</td>
+                  <td>AI rewards clarity and specificity over keyword density</td>
+                </tr>
+                <tr>
+                  <td>Building structured data and schema</td>
+                  <td>Helps AI systems understand services, location, and reputation</td>
+                </tr>
+                <tr>
+                  <td>Maintaining consistent NAP everywhere</td>
+                  <td>AI cross-references multiple sources and penalizes inconsistency</td>
+                </tr>
+                <tr>
+                  <td>Publishing original research</td>
+                  <td>Unique data gives AI a reason to cite you over competitors</td>
+                </tr>
+                <tr>
+                  <td>Building multi-platform presence</td>
+                  <td>AI trusts businesses corroborated across reviews, directories, content</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+
+          <p>If you have noticed <Link href="/blog/website-stopped-getting-calls">your website stopped getting calls</Link> despite stable rankings, this is likely the shift you are experiencing. The solution is not more of the same SEO. It is expanding your visibility into the channels where your customers are actually searching.</p>
+
+          <div className="ae-takeaway not-prose">
+            <div className="ae-takeaway-title">Key Takeaway</div>
+            <p>The winners are not using secret tactics. They are building genuine authority that AI platforms can verify across multiple sources. The losers are doing the same SEO they did in 2020 and wondering why it stopped working.</p>
+          </div>
+
+          {/* ── CTA 8 ── */}
+          <div className="ae-cta-inline not-prose">
+            <p>See exactly what the winners in your industry are doing differently in AI search.</p>
+            <Link href="/blindspot">Analyze Your Competitive Gap &#8594;</Link>
+          </div>
+
+          {/* ── CTA 9 (email) ── */}
+          <div className="ae-cta-inline not-prose">
+            <p>Prefer to start with an email? Send us your website and we will tell you where you stand.</p>
+            <a href="mailto:support@theanswerengine.ai">Email support@theanswerengine.ai &#8594;</a>
+          </div>
+
+          {/* ── SECTION 8: BOTTOM LINE ── */}
+          <span className="ae-section-label">Bottom Line</span>
+          <h2>Inaction Is the Most Expensive Strategy</h2>
+
+          <p>Every data point in this analysis leads to the same conclusion. The cost of ignoring AI search is not zero. It is the sum of every lead your competitors are capturing while you remain invisible, every high-intent customer who asks an AI assistant for a recommendation and never hears your name, and every month of compounding disadvantage as AI adoption continues to accelerate.</p>
+
+          {/* ── CHEAT SHEET ── */}
+          <div className="ae-cheat-sheet not-prose">
+            <div className="ae-cheat-sheet-title">The Hidden Costs of AI Invisibility</div>
+            <table>
+              <thead>
+                <tr>
+                  <th>#</th>
+                  <th>Hidden Cost</th>
+                  <th>Impact</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>1</td>
+                  <td>Lost high-intent leads to competitors</td>
+                  <td>AI leads convert at 5x the rate of organic</td>
+                </tr>
+                <tr>
+                  <td>2</td>
+                  <td>Shrinking traditional search pool</td>
+                  <td>25% projected decline by end of 2026</td>
+                </tr>
+                <tr>
+                  <td>3</td>
+                  <td>Rising cost per lead from old channels</td>
+                  <td>Same spend, fewer results as traffic contracts</td>
+                </tr>
+                <tr>
+                  <td>4</td>
+                  <td>Compounding competitor authority</td>
+                  <td>Every month of delay multiplies the catch-up cost</td>
+                </tr>
+                <tr>
+                  <td>5</td>
+                  <td>Invisible brand in AI recommendations</td>
+                  <td>75% of Americans use AI search weekly</td>
+                </tr>
+                <tr>
+                  <td>6</td>
+                  <td>Missing the highest-converting channel</td>
+                  <td>14.2% conversion vs 2.8% traditional</td>
+                </tr>
+                <tr>
+                  <td>7</td>
+                  <td>Reduced Map Pack visibility</td>
+                  <td>AI packs show 68% fewer businesses</td>
+                </tr>
+                <tr>
+                  <td>8</td>
+                  <td>No measurement of actual visibility</td>
+                  <td>Cannot fix what you cannot see</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+
+          <p>The businesses that treat AI search as a &quot;future problem&quot; are the ones most likely to find themselves scrambling when the numbers become too obvious to ignore. And by that point, their competitors will have months or years of head start building the authority and trust signals that AI platforms use to decide who gets recommended.</p>
+
+          <div className="ae-callout ae-callout-success not-prose">
+            <div className="ae-callout-title">The Good News</div>
+            <p>The businesses that start optimizing for AI visibility today are still early. The majority of your competitors have not begun. Right now, you can build a lead that compounds every month. Six months from now, that window will be much smaller.</p>
+          </div>
+
+          <p>The shift is not coming. It is here. The only question is whether you will position your business to benefit from it, or pay the hidden cost of pretending it does not apply to you.</p>
+
+          {/* ── CTA 10 ── */}
+          <div className="ae-cta-inline not-prose">
+            <p>The data is clear. The trend is accelerating. The only unknown is where your business stands.</p>
+            <Link href="/blindspot">Find Out in 60 Seconds &#8594;</Link>
+          </div>
+
+          {/* ── QUOTE ── */}
+          <div className="ae-quote not-prose">
+            <p>&quot;The best time to optimize for AI search was six months ago. The second best time is today.&quot;</p>
+          </div>
+
+          {/* ── CTA BLOCK ── */}
+          <div className="ae-cta-block not-prose">
+            <h3>Your Competitors Are Building AI Authority While You Read This</h3>
+            <p>Every day without AI visibility is a day your competitors capture leads you never knew existed. Get your free Blind Spot Report and see exactly where you stand across ChatGPT, Claude, Perplexity, and Google AI.</p>
+            <Link href="/blindspot" className="ae-cta-primary">Get Your Free Blind Spot Report</Link>
+            <div style={{display:'flex',flexWrap:'wrap',gap:'24px',justifyContent:'center',marginTop:'20px'}}>
+              <a href="tel:+12134442229" style={{color:'rgba(255,255,255,0.6)'}}>📞 (213) 444-2229</a>
+              <a href="mailto:support@theanswerengine.ai" style={{color:'rgba(255,255,255,0.6)'}}>✉️ support@theanswerengine.ai</a>
+            </div>
+          </div>
+
+          {/* ── AUTHOR CARD ── */}
+          <div className="ae-author-card not-prose">
+            <div className="ae-author-avatar">AE</div>
             <div>
-              <p className="text-white font-semibold">The Answer Engine Team</p>
-              <p className="text-gray-400 text-sm">
-                Research-driven insights on AI search, answer engine optimization, and the
-                future of local business visibility.
-              </p>
+              <div className="ae-author-name">The Answer Engine Team</div>
+              <div className="ae-author-role">Research-driven insights on AI search, answer engine optimization, and the future of local business visibility.</div>
             </div>
-          </section>
+          </div>
+
+          {/* ── FAQ ── */}
+          <span className="ae-section-label">FAQ</span>
+          <h2>Frequently Asked Questions</h2>
+
+          <h3>How much traffic are businesses losing to AI search?</h3>
+          <p>Nearly 39% of marketers have reported traffic drops since the rollout of AI Overviews. Searches that trigger AI Overviews show an average zero-click rate of 83%, meaning the vast majority of users never click through to any website. Publishers have reported losses ranging from 20% to 90% of their organic traffic over the past year.</p>
+
+          {/* ── CTA 11 ── */}
+          <div className="ae-cta-inline not-prose">
+            <p>Traffic dropping but rankings stable? That is the signature of AI search disruption. See exactly what is happening.</p>
+            <Link href="/blindspot">Diagnose Your Traffic Drop &#8594;</Link>
+          </div>
+
+          <h3>What percentage of searches now end without a click?</h3>
+          <p>According to Semrush data from 2025, 58.5% of U.S. Google searches end without a single click to any website. For searches that trigger AI Overviews specifically, the zero-click rate jumps to 83%. In Google AI Mode, which delivers comprehensive AI responses, zero-click rates reach 93%.</p>
+
+          <h3>How many consumers are using AI to search for businesses?</h3>
+          <p>Over half of consumers have tried LLM search, and 34% use an AI search tool daily or near-daily. Approximately 3 in 4 American respondents say they use AI for search at least weekly. ChatGPT alone has 810 million daily users, and Google AI Overviews reach 1.5 billion monthly users.</p>
+
+          {/* ── CTA 12 (phone) ── */}
+          <div className="ae-cta-inline not-prose">
+            <p>Want to discuss how AI search is affecting your specific business? Call us directly.</p>
+            <a href="tel:+12134442229">Call (213) 444-2229 &#8594;</a>
+          </div>
+
+          <h3>Is AI search traffic actually more valuable than traditional search traffic?</h3>
+          <p>Yes. AI search traffic converts at 14.2% compared to Google organic at 2.8%, making it roughly five times more effective. The average visitor from an AI platform is worth 4.4 times more than the average traditional organic search visitor based on conversion rates.</p>
+
+          <h3>How much will traditional search volume decline because of AI?</h3>
+          <p>Gartner predicts that by 2026, traditional search engine volume will drop 25% as users shift to generative AI assistants. This could mean Google&apos;s query count declines from roughly 14 billion per day to around 10 to 11 billion per day.</p>
+
+          {/* ── CTA 13 ── */}
+          <div className="ae-cta-inline not-prose">
+            <p>Traditional search is shrinking. AI search is exploding. See which side your business is on.</p>
+            <Link href="/blindspot">Get Your AI Visibility Score &#8594;</Link>
+          </div>
+
+          <h3>What is the cost of acquiring customers through AI search vs traditional search?</h3>
+          <p>Generative Engine Optimization delivers an average customer acquisition cost of $559, which is a 14.4% premium over traditional SEO. However, it generates 27% higher conversion rates and 9.2% higher lead quality. Companies using AI-powered marketing solutions see an average 37% reduction in overall customer acquisition costs.</p>
+
+          {/* ── CTA 14 (email) ── */}
+          <div className="ae-cta-inline not-prose">
+            <p>Questions about AI search costs for your industry? Drop us a line and we will break it down.</p>
+            <a href="mailto:support@theanswerengine.ai">Email support@theanswerengine.ai &#8594;</a>
+          </div>
+
+          <div className="ae-takeaway not-prose">
+            <div className="ae-takeaway-title">Key Takeaway</div>
+            <p>The hidden cost of ignoring AI search is not a line item on any invoice. It is the sum of every lead, every customer, and every dollar of revenue that silently goes to competitors who showed up where you did not.</p>
+          </div>
+
+          {/* ── CTA 15 ── */}
+          <div className="ae-cta-inline not-prose">
+            <p>You have read the data. You know the trend. The only question left is whether AI recommends your business or your competitor.</p>
+            <Link href="/blindspot">Find Out Now &#8594;</Link>
+          </div>
+
         </div>
-      </main>
+
+        {/* ── FINAL CTA ── */}
+        <div className="ae-final-cta">
+          <h2>Stop Paying the Hidden Cost. Start Getting Recommended.</h2>
+          <p>Your competitors are building AI authority every day you wait. Every month of delay compounds the gap. Get your free Blind Spot Report and see exactly where you stand across ChatGPT, Claude, Perplexity, and Google AI. No pitch, just the data.</p>
+          <Link href="/blindspot" className="ae-final-cta-pulse">Get Your Free Blind Spot Report</Link>
+          <div style={{display:'flex',flexWrap:'wrap',gap:'24px',justifyContent:'center',marginTop:'20px'}}>
+            <a href="tel:+12134442229" style={{color:'rgba(255,255,255,0.6)'}}>📞 (213) 444-2229</a>
+            <a href="mailto:support@theanswerengine.ai" style={{color:'rgba(255,255,255,0.6)'}}>✉️ support@theanswerengine.ai</a>
+          </div>
+        </div>
+      </article>
     </>
   )
 }

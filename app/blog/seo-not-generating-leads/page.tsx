@@ -125,520 +125,533 @@ export default function BlogPost() {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
       />
 
-      <main className="min-h-screen bg-[#0A0A0F] relative">
-        {/* Subtle gradient overlay */}
-        <div className="absolute inset-0 bg-gradient-to-b from-purple-950/10 via-transparent to-orange-950/10 pointer-events-none" />
+      <div className="max-w-4xl mx-auto px-6 pt-20 pb-4">
+        <nav className="flex items-center gap-2 text-sm text-gray-500">
+          <Link href="/" className="hover:text-[#FF6A00] transition-colors">Home</Link>
+          <span>/</span>
+          <Link href="/blog" className="hover:text-[#FF6A00] transition-colors">Blog</Link>
+          <span>/</span>
+          <span className="text-gray-400">Why Am I Paying for SEO But Not Getting Leads?</span>
+        </nav>
+      </div>
 
-        {/* Simple pixel accent - top corners */}
-        <div className="absolute top-0 left-0 w-2 h-2 bg-orange-500/40" />
-        <div className="absolute top-0 left-2 w-2 h-2 bg-purple-500/40" />
+      <header className="max-w-4xl mx-auto px-6 pb-12">
+        <div className="flex items-center gap-3 mb-6">
+          <span className="bg-[#FF6A00]/10 text-[#FF6A00] px-3 py-1 rounded-full text-xs font-semibold tracking-wide uppercase">SEO &amp; AI Visibility</span>
+          <time className="text-gray-500 text-sm">2026-01-24</time>
+        </div>
+        <h1 className="font-plus-jakarta text-4xl md:text-5xl font-bold text-white leading-tight mb-6">Why Am I Paying for SEO But Not Getting Any Leads?</h1>
+        <p className="text-gray-400 text-lg leading-relaxed max-w-2xl">Nearly 60% of searches now end without a click because AI answers directly. Your SEO rankings look good but leads are down. Here is why, and what actually generates leads now.</p>
+      </header>
 
-        <article className="max-w-4xl mx-auto px-6 py-20 sm:py-32 relative">
-          {/* Logo */}
-          <a href="/" className="inline-block mb-12 group">
-            <img
-              src="/TheAnswerEngine_Color_just_logo.png"
-              alt="The Answer Engine Logo"
-              className="h-16 opacity-90 group-hover:opacity-100 transition-opacity"
-            />
-          </a>
+      <article className="max-w-4xl mx-auto px-6 pb-20">
+        <div className="prose prose-invert prose-lg max-w-none prose-headings:font-plus-jakarta prose-headings:text-white prose-p:text-gray-300 prose-a:text-[#FF6A00] prose-a:no-underline hover:prose-a:underline prose-strong:text-white">
 
-          {/* Breadcrumbs */}
-          <nav className="text-sm text-gray-500 mb-12 font-light">
-            <a href="/" className="hover:text-orange-400 transition-colors">Home</a>
-            <span className="mx-2 text-gray-700">&rsaquo;</span>
-            <a href="/blog" className="hover:text-orange-400 transition-colors">Blog</a>
-            <span className="mx-2 text-gray-700">&rsaquo;</span>
-            <span className="text-gray-400">Why Am I Paying for SEO But Not Getting Leads?</span>
-          </nav>
-
-          {/* Featured Image */}
-          <div className="mb-12 rounded-2xl overflow-hidden border border-white/[0.05]">
-            <img
-              src="/blog/seo-not-generating-leads.svg"
-              alt="Why Am I Paying for SEO But Not Getting Any Leads?"
-              className="w-full"
-            />
+          {/* STATS GRID */}
+          <div className="ae-stats-grid not-prose">
+            <div className="ae-stat-card">
+              <div className="ae-stat-value ae-accent">60%</div>
+              <div className="ae-stat-label">ZERO-CLICK SEARCHES</div>
+            </div>
+            <div className="ae-stat-card">
+              <div className="ae-stat-value ae-accent">41%</div>
+              <div className="ae-stat-label">AI RECS FROM LISTS</div>
+            </div>
+            <div className="ae-stat-card">
+              <div className="ae-stat-value ae-accent">90 days</div>
+              <div className="ae-stat-label">TIME TO AI VISIBILITY</div>
+            </div>
+            <div className="ae-stat-card">
+              <div className="ae-stat-value ae-accent">5,766</div>
+              <div className="ae-stat-label">CLIENT CLICKS/MO</div>
+            </div>
           </div>
 
-          {/* Article Header */}
-          <header className="mb-16">
-            {/* Simple pixel divider */}
-            <div className="flex gap-2 mb-8">
-              <div className="w-1.5 h-1.5 bg-orange-500" />
-              <div className="w-1.5 h-1.5 bg-purple-500" />
-              <div className="w-1.5 h-1.5 bg-orange-500" />
-            </div>
+          <p>Your SEO agency sends you a report every month. Rankings are up. Traffic looks healthy. They are hitting their KPIs. But your phone is not ringing. Leads are down. And you are starting to wonder if you are just burning money.</p>
 
-            <h1 className="text-4xl sm:text-5xl lg:text-6xl font-light mb-6 leading-tight text-gray-100">
-              Why Am I <span className="font-normal text-white">Paying for SEO</span> But Not Getting Any Leads?
-            </h1>
-            <p className="text-xl sm:text-2xl text-gray-400 leading-relaxed mb-6 font-light">
-              Your SEO rankings are up but leads are down. Here's why: nearly 60% of searches now end without a click. AI answers first - and your rankings don't matter if AI skips you.
-            </p>
-            <div className="flex items-center gap-3 text-sm text-gray-500 font-light">
-              <span className="w-1.5 h-1.5 bg-orange-500/50 rounded-full" />
-              <span>Published January 24, 2026</span>
-              <span className="text-gray-700">•</span>
-              <span>By The Answer Engine Team</span>
-            </div>
-          </header>
+          <p>Here is the uncomfortable truth: <strong>your SEO agency might be doing everything right, and it still will not work.</strong> Not because they are bad at SEO. Because SEO alone is not enough anymore.</p>
 
-          {/* The Short Answer Box */}
-          <div className="mb-12 p-8 rounded-2xl bg-white/[0.03] backdrop-blur-xl border border-orange-500/30">
-            <h2 className="text-xl font-medium text-orange-400 mb-4">The Short Answer</h2>
-            <p className="text-gray-300 text-lg leading-relaxed font-light">
-              <strong className="text-white font-medium">You're paying for SEO but not getting leads because the way people find businesses changed.</strong> Nearly 60% of searches now end without anyone clicking a website (<a href="https://sparktoro.com/blog/2024-zero-click-search-study-for-every-1000-us-google-searches-only-374-clicks-go-to-the-open-web/" className="text-orange-400 hover:text-orange-300 underline" target="_blank" rel="noopener noreferrer">SparkToro, 2024</a>). People ask AI for recommendations, AI gives them one answer, and they call that business. Your page 1 ranking doesn't matter if AI answers the question before anyone sees your listing.
-            </p>
-            <p className="text-gray-400 text-base leading-relaxed font-light mt-4">
-              Your SEO agency is probably doing their job. The problem isn't your agency - it's that SEO alone no longer reaches the people ready to buy.
-            </p>
+          <div className="ae-callout ae-callout-warning not-prose">
+            <div className="ae-callout-title">The Core Problem</div>
+            <p>Nearly 60% of searches now end without anyone clicking a website. People ask AI for recommendations, AI gives them one answer, and they call that business. Your page 1 ranking does not matter if AI answers the question before anyone sees your listing.</p>
           </div>
 
-          {/* Main Content */}
-          <div className="prose prose-lg max-w-none">
-            <p className="text-gray-300 text-lg leading-relaxed mb-6 font-light">
-              Your SEO agency sends you a report every month.
-            </p>
-            <p className="text-gray-300 text-lg leading-relaxed mb-6 font-light">
-              Rankings are up. Traffic is "healthy." They're hitting their KPIs.
-            </p>
-            <p className="text-gray-300 text-lg leading-relaxed mb-6 font-light">
-              But your phone isn't ringing. Leads are down. And you're starting to wonder if you're just burning money.
-            </p>
-            <p className="text-gray-300 text-lg leading-relaxed mb-8 font-light">
-              Here's the uncomfortable truth: <strong className="text-white font-medium">Your SEO agency might be doing everything right - and it still won't work.</strong>
-            </p>
-            <p className="text-gray-300 text-lg leading-relaxed mb-8 font-light">
-              Not because they're bad at SEO. Because SEO alone isn't enough anymore.
-            </p>
+          <div className="ae-takeaway not-prose">
+            <div className="ae-takeaway-title">Key Takeaway</div>
+            <p>Your SEO agency is probably doing their job. The problem is not your agency. The problem is that SEO alone no longer reaches the people ready to buy.</p>
+          </div>
 
-            <h2 className="text-3xl sm:text-4xl font-light mt-16 mb-6 text-gray-100">
-              The Report <span className="font-normal text-white">Looks Good.</span> The Results Don't.
-            </h2>
-            <p className="text-gray-300 text-lg leading-relaxed mb-4 font-light">
-              Let's look at what your agency is probably showing you:
-            </p>
-            <ul className="space-y-3 mb-8 text-gray-300 text-lg">
-              {[
-                '"You\'re ranking on page 1 for 47 keywords!"',
-                '"Organic traffic increased 23% this quarter!"',
-                '"Domain authority is up 4 points!"'
-              ].map((item, i) => (
-                <li key={i} className="flex items-start gap-3">
-                  <span className="flex-shrink-0 w-1.5 h-1.5 bg-orange-500/60 rounded-full mt-3" />
-                  <span className="font-light leading-relaxed">{item}</span>
-                </li>
-              ))}
-            </ul>
-            <p className="text-gray-300 text-lg leading-relaxed mb-6 font-light">
-              These metrics were meaningful five years ago. Today, they're vanity numbers.
-            </p>
-            <p className="text-gray-300 text-lg leading-relaxed mb-8 font-light">
-              Here's what they don't show you: <strong className="text-white font-medium">Nearly 60% of Google searches now end without a click.</strong> According to SparkToro and Datos (2024), people search, AI gives them an answer, and they never visit any website.
-            </p>
-            <p className="text-gray-300 text-lg leading-relaxed mb-8 font-light">
-              Your page 1 ranking doesn't matter if the searcher never scrolls past the AI-generated answer at the top.
-            </p>
+          {/* CTA 1 */}
+          <div className="ae-cta-inline not-prose">
+            <p>Find out right now whether AI is recommending you or sending leads to your competitors.</p>
+            <Link href="/blindspot">Get Your Free Blind Spot Report &rarr;</Link>
+          </div>
 
-            <h2 className="text-3xl sm:text-4xl font-light mt-16 mb-6 text-gray-100">
-              What Your SEO Investment <span className="font-normal text-white">Actually Delivers Now</span>
-            </h2>
-            <p className="text-gray-300 text-lg leading-relaxed mb-6 font-light">
-              Here's the honest breakdown:
-            </p>
+          {/* SECTION: THE REPORT LOOKS GOOD */}
+          <span className="ae-section-label">The Disconnect</span>
+          <h2>The Report Looks Good. The Results Do Not.</h2>
 
-            {/* Comparison Table */}
-            <div className="overflow-x-auto mb-8">
-              <table className="w-full border-collapse">
-                <thead>
-                  <tr className="border-b border-white/10">
-                    <th className="text-left py-4 px-4 text-green-400 font-medium">SEO Still Works For</th>
-                    <th className="text-left py-4 px-4 text-red-400 font-medium">SEO Doesn't Work For</th>
-                  </tr>
-                </thead>
-                <tbody className="text-gray-300 font-light">
-                  <tr className="border-b border-white/5">
-                    <td className="py-3 px-4">Informational searches ("how to fix a leaky faucet")</td>
-                    <td className="py-3 px-4">"Who should I hire" searches (AI answers directly)</td>
-                  </tr>
-                  <tr className="border-b border-white/5">
-                    <td className="py-3 px-4">Comparison content ("plumber vs handyman")</td>
-                    <td className="py-3 px-4">Voice searches ("Hey Siri, find me a plumber")</td>
-                  </tr>
-                  <tr className="border-b border-white/5">
-                    <td className="py-3 px-4">Research-stage queries ("average cost of kitchen remodel")</td>
-                    <td className="py-3 px-4">Urgent need searches ("I need a plumber right now")</td>
-                  </tr>
-                  <tr className="border-b border-white/5">
-                    <td className="py-3 px-4">Long-form educational content</td>
-                    <td className="py-3 px-4">High-intent buyer queries</td>
-                  </tr>
-                  <tr>
-                    <td className="py-3 px-4">Building topical authority over time</td>
-                    <td className="py-3 px-4">Immediate lead generation</td>
-                  </tr>
-                </tbody>
-              </table>
+          <p>Let us look at what your agency is probably showing you: page 1 rankings for dozens of keywords, organic traffic increasing quarter over quarter, domain authority climbing steadily. These metrics were meaningful five years ago. Today, they are vanity numbers.</p>
+
+          <p>Here is what they do not show you: nearly 60% of Google searches now end without a click, according to SparkToro and Datos (2024). People search, AI gives them an answer, and they never visit any website. Your page 1 ranking does not matter if the searcher never scrolls past the AI-generated answer at the top.</p>
+
+          {/* BAR GROUP */}
+          <div className="ae-bar-group not-prose">
+            <div className="ae-bar-item">
+              <div className="ae-bar-label">Page 1 Keywords</div>
+              <div className="ae-bar-track"><div className="ae-bar-fill" style={{width:'90%'}}></div></div>
+              <div className="ae-bar-value">Looks Great</div>
             </div>
-
-            <p className="text-gray-300 text-lg leading-relaxed mb-6 font-light">
-              The problem? Those right-column searches are where the money is. Those are the people ready to hire today. And they're increasingly going to whoever AI recommends.
-            </p>
-            <p className="text-gray-300 text-lg leading-relaxed mb-8 font-light">
-              <strong className="text-white font-medium">Your SEO investment is capturing the researchers. Your competitor - the one AI recommends - is capturing the buyers.</strong>
-            </p>
-
-            <h2 className="text-3xl sm:text-4xl font-light mt-16 mb-6 text-gray-100">
-              What Your Agency <span className="font-normal text-white">Isn't Telling You</span>
-            </h2>
-            <p className="text-gray-300 text-lg leading-relaxed mb-6 font-light">
-              Most SEO agencies are still running playbooks from five years ago. Keyword optimization. Backlink building. Technical audits. Content calendars.
-            </p>
-            <p className="text-gray-300 text-lg leading-relaxed mb-6 font-light">
-              That stuff still matters - for the 40% of searches where people actually click through to websites.
-            </p>
-            <p className="text-gray-300 text-lg leading-relaxed mb-6 font-light">
-              But the high-intent searches? The "who should I hire" searches? Those are increasingly answered by AI. And AI evaluates businesses differently than Google does.
-            </p>
-            <p className="text-gray-300 text-lg leading-relaxed mb-6 font-light">
-              When someone asks ChatGPT "Who's the best plumber in Denver?" it doesn't check your domain authority score. According to research from Onely and Ahrefs (December 2025), AI systems prioritize completely different signals:
-            </p>
-
-            <h3 className="text-2xl font-light mt-12 mb-6 text-orange-400">
-              What AI Actually Looks For:
-            </h3>
-            <ol className="space-y-4 mb-8 text-gray-300 text-lg">
-              <li className="flex items-start gap-4">
-                <span className="flex-shrink-0 w-8 h-8 rounded-full bg-orange-500/20 flex items-center justify-center text-orange-400 font-medium">1</span>
-                <div>
-                  <strong className="text-white font-medium">Brand mentions across authoritative sources</strong>
-                  <span className="font-light leading-relaxed"> - Are you featured in industry lists, local publications, and trusted directories?</span>
-                </div>
-              </li>
-              <li className="flex items-start gap-4">
-                <span className="flex-shrink-0 w-8 h-8 rounded-full bg-orange-500/20 flex items-center justify-center text-orange-400 font-medium">2</span>
-                <div>
-                  <strong className="text-white font-medium">Authoritative list appearances</strong>
-                  <span className="font-light leading-relaxed"> - Being named in "best of" articles accounts for 41% of ChatGPT brand recommendations (Onely research)</span>
-                </div>
-              </li>
-              <li className="flex items-start gap-4">
-                <span className="flex-shrink-0 w-8 h-8 rounded-full bg-orange-500/20 flex items-center justify-center text-orange-400 font-medium">3</span>
-                <div>
-                  <strong className="text-white font-medium">Consistent business information</strong>
-                  <span className="font-light leading-relaxed"> - Is your name, address, and phone identical everywhere AI looks?</span>
-                </div>
-              </li>
-              <li className="flex items-start gap-4">
-                <span className="flex-shrink-0 w-8 h-8 rounded-full bg-orange-500/20 flex items-center justify-center text-orange-400 font-medium">4</span>
-                <div>
-                  <strong className="text-white font-medium">Content that directly answers questions</strong>
-                  <span className="font-light leading-relaxed"> - Not keyword-stuffed pages. Real expertise that AI can cite.</span>
-                </div>
-              </li>
-              <li className="flex items-start gap-4">
-                <span className="flex-shrink-0 w-8 h-8 rounded-full bg-orange-500/20 flex items-center justify-center text-orange-400 font-medium">5</span>
-                <div>
-                  <strong className="text-white font-medium">Reviews on platforms AI can access</strong>
-                  <span className="font-light leading-relaxed"> - <a href="/blog/bing-places-chatgpt-connection" className="text-orange-400 hover:text-orange-300 underline">ChatGPT can't see your Google reviews</a>. It reads Yelp, BBB, and other platforms indexed by Bing.</span>
-                </div>
-              </li>
-            </ol>
-            <p className="text-gray-300 text-lg leading-relaxed mb-8 font-light">
-              Traditional SEO metrics like domain authority have "weak correlation" with AI recommendations, according to Ahrefs' study of 75,000 brands. Your SEO agency isn't optimizing for what AI actually measures.
-            </p>
-
-            <h2 className="text-3xl sm:text-4xl font-light mt-16 mb-6 text-gray-100">
-              The Real Reason <span className="font-normal text-white">Your Leads Dried Up</span>
-            </h2>
-            <p className="text-gray-300 text-lg leading-relaxed mb-6 font-light">
-              Here's what's actually happening:
-            </p>
-
-            <div className="grid md:grid-cols-2 gap-6 mb-8">
-              <div className="bg-white/[0.02] border border-white/[0.05] rounded-xl p-6">
-                <h4 className="text-purple-400 font-medium mb-4">The Old Customer Journey</h4>
-                <ol className="space-y-2 text-gray-400 font-light text-sm">
-                  <li>1. Customer searches "emergency plumber Phoenix"</li>
-                  <li>2. Sees 10 results on Google</li>
-                  <li>3. Clicks 2-3 websites, compares</li>
-                  <li>4. Calls the one that looks most professional</li>
-                  <li className="text-green-400">5. Your SEO investment pays off</li>
-                </ol>
-              </div>
-              <div className="bg-white/[0.02] border border-orange-500/20 rounded-xl p-6">
-                <h4 className="text-orange-400 font-medium mb-4">The New Customer Journey</h4>
-                <ol className="space-y-2 text-gray-400 font-light text-sm">
-                  <li>1. Customer asks ChatGPT "I need an emergency plumber in Phoenix, who should I call?"</li>
-                  <li>2. ChatGPT recommends one company with a phone number</li>
-                  <li>3. Customer calls that company</li>
-                  <li>4. Your website never enters the picture</li>
-                  <li className="text-red-400">5. Your SEO investment generates reports, not leads</li>
-                </ol>
-              </div>
+            <div className="ae-bar-item">
+              <div className="ae-bar-label">Organic Traffic</div>
+              <div className="ae-bar-track"><div className="ae-bar-fill" style={{width:'75%'}}></div></div>
+              <div className="ae-bar-value">Up 23%</div>
             </div>
-
-            <p className="text-gray-300 text-lg leading-relaxed mb-8 font-light">
-              <strong className="text-white font-medium">The customer journey changed. Your marketing didn't.</strong>
-            </p>
-
-            <h2 className="text-3xl sm:text-4xl font-light mt-16 mb-6 text-gray-100">
-              Proof: <span className="font-normal text-white">What Happens When You Optimize for AI</span>
-            </h2>
-            <p className="text-gray-300 text-lg leading-relaxed mb-6 font-light">
-              One of our clients - a real estate agent in Los Angeles - had strong SEO rankings but noticed leads declining. After implementing AI visibility optimization alongside their existing SEO:
-            </p>
-            <p className="text-gray-300 text-lg leading-relaxed mb-4 font-light">
-              <strong className="text-white font-medium">Verified Results (Google Search Console, January 2026):</strong>
-            </p>
-            <ul className="space-y-3 mb-8 text-gray-300 text-lg">
-              {[
-                "5,766 clicks in the last 30 days from organic search",
-                "10,654 clicks from strategic content clusters designed to win AI citations",
-                "3,800+ clicks from a single topic cluster (rent control content)",
-                "3,700+ clicks from probate and trust content"
-              ].map((item, i) => (
-                <li key={i} className="flex items-start gap-3">
-                  <span className="flex-shrink-0 w-1.5 h-1.5 bg-orange-500/60 rounded-full mt-3" />
-                  <span className="font-light leading-relaxed">{item}</span>
-                </li>
-              ))}
-            </ul>
-            <p className="text-gray-300 text-lg leading-relaxed mb-8 font-light">
-              The difference? They stopped creating keyword-optimized pages and started creating answer-optimized content that AI systems recognize as authoritative.
-            </p>
-
-            <h2 className="text-3xl sm:text-4xl font-light mt-16 mb-6 text-gray-100">
-              "But My <span className="font-normal text-white">Rankings Are Great!</span>"
-            </h2>
-            <p className="text-gray-300 text-lg leading-relaxed mb-6 font-light">
-              I know. That's the frustrating part.
-            </p>
-            <p className="text-gray-300 text-lg leading-relaxed mb-6 font-light">
-              You might be ranking #1 for your most important keywords. Your agency might be doing genuinely excellent work. The technical SEO might be flawless.
-            </p>
-            <p className="text-gray-300 text-lg leading-relaxed mb-6 font-light">
-              <strong className="text-white font-medium">And it doesn't matter</strong> if AI is answering the question before anyone sees your ranking.
-            </p>
-            <p className="text-gray-300 text-lg leading-relaxed mb-8 font-light">
-              Think about it: When was the last time you personally scrolled past an AI answer to click on a regular search result? When the AI answer is good enough, most people stop there. Your customers are doing the same thing.
-            </p>
-
-            <h2 className="text-3xl sm:text-4xl font-light mt-16 mb-6 text-gray-100">
-              The Conversation You Need to <span className="font-normal text-white">Have With Your Agency</span>
-            </h2>
-            <p className="text-gray-300 text-lg leading-relaxed mb-6 font-light">
-              Don't fire your SEO agency. But do have this conversation:
-            </p>
-            <p className="text-gray-300 text-lg leading-relaxed mb-6 font-light">
-              <strong className="text-white font-medium">Ask them:</strong> "What's our strategy for showing up in AI-generated answers?"
-            </p>
-            <ul className="space-y-4 mb-8 text-gray-300 text-lg">
-              <li className="flex items-start gap-3">
-                <span className="flex-shrink-0 w-1.5 h-1.5 bg-red-500/60 rounded-full mt-3" />
-                <span className="font-light leading-relaxed">If they say "AI pulls from Google, so SEO is enough" - <strong className="text-red-400">they're behind.</strong> Research shows AI uses different ranking signals.</span>
-              </li>
-              <li className="flex items-start gap-3">
-                <span className="flex-shrink-0 w-1.5 h-1.5 bg-yellow-500/60 rounded-full mt-3" />
-                <span className="font-light leading-relaxed">If they say "We're monitoring AI mentions but haven't built a strategy yet" - <strong className="text-yellow-400">at least they're aware.</strong></span>
-              </li>
-              <li className="flex items-start gap-3">
-                <span className="flex-shrink-0 w-1.5 h-1.5 bg-green-500/60 rounded-full mt-3" />
-                <span className="font-light leading-relaxed">If they say "That's not really SEO, that's a different service" - <strong className="text-green-400">they're right,</strong> and you need both.</span>
-              </li>
-            </ul>
-            <p className="text-gray-300 text-lg leading-relaxed mb-8 font-light">
-              SEO and AI visibility are becoming separate disciplines. Your agency might be excellent at one and have no expertise in the other.
-            </p>
-
-            <h2 className="text-3xl sm:text-4xl font-light mt-16 mb-6 text-gray-100">
-              The <span className="font-normal text-white">4-Step Framework:</span> What Actually Gets You Leads Now
-            </h2>
-
-            <div className="space-y-6 mb-8">
-              <div className="bg-white/[0.02] border border-white/[0.05] rounded-xl p-6">
-                <h4 className="text-orange-400 font-medium mb-2">Step 1: AI Platform Visibility</h4>
-                <p className="text-gray-400 font-light mb-3">You need to show up when people ask ChatGPT, Google AI Overview, Perplexity, and Claude for recommendations. This requires:</p>
-                <ul className="space-y-1 text-gray-400 font-light text-sm">
-                  <li>• Claiming listings on platforms AI actually reads (Bing, Apple Maps, data aggregators)</li>
-                  <li>• Consistent business information everywhere</li>
-                  <li>• Content structured the way AI systems prefer</li>
-                  <li>• Being featured in authoritative "best of" lists in your industry</li>
-                </ul>
-              </div>
-              <div className="bg-white/[0.02] border border-white/[0.05] rounded-xl p-6">
-                <h4 className="text-orange-400 font-medium mb-2">Step 2: Answer-First Content</h4>
-                <p className="text-gray-400 font-light mb-3">AI is looking for content that directly answers questions. Not keyword-stuffed pages. Real answers to real questions:</p>
-                <ul className="space-y-1 text-gray-400 font-light text-sm">
-                  <li>• "How much does [service] cost in [your city]?"</li>
-                  <li>• "What should I look for when hiring a [your profession]?"</li>
-                  <li>• "How do I know if I need [your service]?"</li>
-                </ul>
-              </div>
-              <div className="bg-white/[0.02] border border-white/[0.05] rounded-xl p-6">
-                <h4 className="text-orange-400 font-medium mb-2">Step 3: Multi-Platform Authority</h4>
-                <p className="text-gray-400 font-light mb-3">AI systems cross-reference your business across multiple sources. This means:</p>
-                <ul className="space-y-1 text-gray-400 font-light text-sm">
-                  <li>• Reviews on Yelp, BBB, and industry directories (not just Google)</li>
-                  <li>• Mentions in local publications and industry blogs</li>
-                  <li>• Consistent NAP (name, address, phone) across all platforms</li>
-                  <li>• Being listed in relevant "best of" articles and roundups</li>
-                </ul>
-              </div>
-              <div className="bg-white/[0.02] border border-white/[0.05] rounded-xl p-6">
-                <h4 className="text-orange-400 font-medium mb-2">Step 4: Keep Your SEO Foundation</h4>
-                <p className="text-gray-400 font-light">Don't abandon SEO. It still captures 40% of searches and builds the topical authority that AI also recognizes. But SEO alone is now incomplete. Think of it like this: <strong className="text-white">SEO is still the foundation. But AI visibility is now the roof.</strong> Without both, you're exposed.</p>
-              </div>
+            <div className="ae-bar-item">
+              <div className="ae-bar-label">Domain Authority</div>
+              <div className="ae-bar-track"><div className="ae-bar-fill" style={{width:'65%'}}></div></div>
+              <div className="ae-bar-value">+4 Points</div>
             </div>
-
-            <h2 className="text-3xl sm:text-4xl font-light mt-16 mb-6 text-gray-100">
-              Find Out <span className="font-normal text-white">What AI Says About You</span>
-            </h2>
-            <p className="text-gray-300 text-lg leading-relaxed mb-6 font-light">
-              Before your next conversation with your SEO agency, find out where you actually stand:
-            </p>
-            <ol className="space-y-3 mb-8 text-gray-300 text-lg">
-              <li className="flex items-start gap-3">
-                <span className="flex-shrink-0 w-6 h-6 rounded-full bg-orange-500/20 flex items-center justify-center text-orange-400 font-medium text-sm">1</span>
-                <span className="font-light leading-relaxed">Ask ChatGPT: "Who's the best [your service] in [your city]?"</span>
-              </li>
-              <li className="flex items-start gap-3">
-                <span className="flex-shrink-0 w-6 h-6 rounded-full bg-orange-500/20 flex items-center justify-center text-orange-400 font-medium text-sm">2</span>
-                <span className="font-light leading-relaxed">Ask Google (and look at the AI Overview, not the regular results)</span>
-              </li>
-              <li className="flex items-start gap-3">
-                <span className="flex-shrink-0 w-6 h-6 rounded-full bg-orange-500/20 flex items-center justify-center text-orange-400 font-medium text-sm">3</span>
-                <span className="font-light leading-relaxed">Ask Perplexity the same question</span>
-              </li>
-              <li className="flex items-start gap-3">
-                <span className="flex-shrink-0 w-6 h-6 rounded-full bg-orange-500/20 flex items-center justify-center text-orange-400 font-medium text-sm">4</span>
-                <span className="font-light leading-relaxed">Check if your competitor shows up instead of you</span>
-              </li>
-            </ol>
-            <p className="text-gray-300 text-lg leading-relaxed mb-8 font-light">
-              If AI isn't recommending you, that's your leak. That's where your leads are going. And no amount of SEO will fix it.
-            </p>
-
-            {/* CTA Section */}
-            <div className="my-16 p-10 rounded-2xl bg-white/[0.03] backdrop-blur-xl border-l-4 border-orange-500">
-              <h3 className="text-2xl sm:text-3xl font-light mb-4 text-gray-100">
-                Want a Complete <span className="font-normal text-white">AI Visibility Audit?</span>
-              </h3>
-              <p className="text-gray-300 text-lg mb-8 font-light leading-relaxed">
-                We'll show you exactly where you stand across every major AI platform, what your competitors are doing differently, and what it would take to become the business AI recommends.
-              </p>
-              <a
-                href="/#contact"
-                className="inline-flex items-center justify-center gap-3 px-8 py-4 rounded-xl text-lg font-medium bg-gradient-to-r from-orange-500 to-orange-600 text-white hover:from-orange-600 hover:to-orange-700 transition-all shadow-lg shadow-orange-500/25"
-              >
-                Get Your Free AI Visibility Audit
-                <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={2}>
-                  <path strokeLinecap="round" strokeLinejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3" />
-                </svg>
-              </a>
+            <div className="ae-bar-item">
+              <div className="ae-bar-label">Actual Leads Generated</div>
+              <div className="ae-bar-track"><div className="ae-bar-fill" style={{width:'15%'}}></div></div>
+              <div className="ae-bar-value">Declining</div>
             </div>
-
-            {/* CTA Section */}
-            <div className="rounded-2xl p-8 sm:p-10 text-center my-16" style={{ background: 'linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%)' }}>
-              <h2 className="text-2xl sm:text-3xl font-bold text-white mb-4 font-plus-jakarta">Find Out If AI Is Recommending Your Business</h2>
-              <p className="text-gray-300 mb-6 max-w-2xl mx-auto">Most businesses have no idea whether AI platforms are sending them customers or sending them to competitors. Our free blind spot report shows you exactly where you stand.</p>
-              <Link href="/blindspot" className="inline-block px-8 py-4 rounded-lg font-semibold text-white transition-all duration-200 hover:brightness-110" style={{ backgroundColor: '#FF6A00' }}>Get Your Free Blind Spot Report</Link>
-    <div className="flex flex-wrap items-center gap-6 mt-6 pt-6 border-t border-[#FF6A00]/10">
-      <a href="tel:+12134442229" className="flex items-center gap-2 text-gray-400 hover:text-white transition-colors">
-        <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" /></svg>
-        (213) 444-2229
-      </a>
-      <a href="mailto:support@theanswerengine.ai" className="flex items-center gap-2 text-gray-400 hover:text-white transition-colors">
-        <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" /></svg>
-        support@theanswerengine.ai
-      </a>
-    </div>
+            <div className="ae-bar-item">
+              <div className="ae-bar-label">Phone Calls from Search</div>
+              <div className="ae-bar-track"><div className="ae-bar-fill" style={{width:'12%'}}></div></div>
+              <div className="ae-bar-value">Down</div>
             </div>
+          </div>
 
-            {/* Divider */}
-            <div className="flex justify-center gap-1 my-16 opacity-20">
-              {[...Array(50)].map((_, i) => (
-                <div
-                  key={i}
-                  className="w-px h-px bg-gray-600"
-                />
-              ))}
+          <div className="ae-callout ae-callout-info not-prose">
+            <div className="ae-callout-title">Insight</div>
+            <p>The gap between SEO metrics and actual business results is widening every quarter. High rankings no longer translate to high lead volume the way they used to.</p>
+          </div>
+
+          {/* CTA 2 */}
+          <div className="ae-cta-inline not-prose">
+            <p>Stop guessing why leads dried up. See the data that explains everything.</p>
+            <Link href="/blindspot">Run Your Free AI Visibility Check &rarr;</Link>
+          </div>
+
+          {/* SECTION: WHAT SEO DELIVERS NOW */}
+          <span className="ae-section-label">Honest Assessment</span>
+          <h2>What Your SEO Investment Actually Delivers Now</h2>
+
+          <table className="ae-comparison-table not-prose">
+            <thead>
+              <tr>
+                <th>SEO Still Works For</th>
+                <th>SEO Does Not Work For</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Informational searches ("how to fix a leaky faucet")</td>
+                <td>"Who should I hire" searches (AI answers directly)</td>
+              </tr>
+              <tr>
+                <td>Comparison content ("plumber vs handyman")</td>
+                <td>Voice searches ("Hey Siri, find me a plumber")</td>
+              </tr>
+              <tr>
+                <td>Research-stage queries ("average cost of kitchen remodel")</td>
+                <td>Urgent need searches ("I need a plumber right now")</td>
+              </tr>
+              <tr>
+                <td>Long-form educational content</td>
+                <td>High-intent buyer queries</td>
+              </tr>
+              <tr>
+                <td>Building topical authority over time</td>
+                <td>Immediate lead generation</td>
+              </tr>
+            </tbody>
+          </table>
+
+          <p>The problem? Those right-column searches are where the money is. Those are the people ready to hire today. And they are increasingly going to whoever AI recommends.</p>
+
+          <p><strong>Your SEO investment is capturing the researchers. Your competitor, the one AI recommends, is capturing the buyers.</strong></p>
+
+          <div className="ae-takeaway not-prose">
+            <div className="ae-takeaway-title">Key Takeaway</div>
+            <p>SEO captures people who are browsing. AI captures people who are buying. The highest-value searches now go through AI, not traditional search results.</p>
+          </div>
+
+          {/* CTA 3 */}
+          <div className="ae-cta-inline not-prose">
+            <p>Are you capturing browsers while your competitors capture buyers? Find out in 60 seconds.</p>
+            <Link href="/blindspot">See Who AI Recommends Instead &rarr;</Link>
+          </div>
+
+          {/* SECTION: WHAT YOUR AGENCY ISN'T TELLING YOU */}
+          <span className="ae-section-label">The Blind Spot</span>
+          <h2>What Your Agency Is Not Telling You</h2>
+
+          <p>Most SEO agencies are still running playbooks from five years ago. Keyword optimization. Backlink building. Technical audits. Content calendars. That stuff still matters for the 40% of searches where people actually click through to websites.</p>
+
+          <p>But the high-intent searches? The "who should I hire" searches? Those are increasingly answered by AI. And AI evaluates businesses differently than Google does.</p>
+
+          <p>When someone asks ChatGPT "Who is the best plumber in Denver?" it does not check your domain authority score. According to research from Onely and Ahrefs (December 2025), AI systems prioritize completely different signals.</p>
+
+          {/* DECISION MATRIX */}
+          <div className="ae-decision-matrix not-prose">
+            <table>
+              <thead>
+                <tr>
+                  <th>What AI Actually Looks For</th>
+                  <th>Why It Matters</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Brand mentions across authoritative sources</td>
+                  <td>AI cross-references your business across the entire web</td>
+                </tr>
+                <tr>
+                  <td>Authoritative "best of" list appearances</td>
+                  <td>Accounts for 41% of ChatGPT brand recommendations (Onely research)</td>
+                </tr>
+                <tr>
+                  <td>Consistent business information everywhere</td>
+                  <td>Inconsistent NAP data signals untrustworthiness to AI</td>
+                </tr>
+                <tr>
+                  <td>Content that directly answers questions</td>
+                  <td>AI cites expertise, not keyword-stuffed pages</td>
+                </tr>
+                <tr>
+                  <td>Reviews on platforms AI can access</td>
+                  <td><Link href="/blog/bing-places-chatgpt-connection">ChatGPT cannot see your Google reviews</Link>. It reads Yelp, BBB, and Bing-indexed sites</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+
+          <div className="ae-callout ae-callout-warning not-prose">
+            <div className="ae-callout-title">Reality Check</div>
+            <p>Traditional SEO metrics like domain authority have a weak correlation with AI recommendations, according to Ahrefs' study of 75,000 brands. Your SEO agency is not optimizing for what AI actually measures.</p>
+          </div>
+
+          {/* CTA 4 */}
+          <div className="ae-cta-inline not-prose">
+            <p>Your SEO metrics look great, but do AI platforms even know you exist? There is only one way to find out.</p>
+            <Link href="/blindspot">Check Your AI Visibility Score &rarr;</Link>
+          </div>
+
+          {/* SECTION: THE REAL REASON */}
+          <span className="ae-section-label">Root Cause</span>
+          <h2>The Real Reason Your Leads Dried Up</h2>
+
+          <p>The customer journey changed. Your marketing did not. Here is exactly how it shifted:</p>
+
+          {/* TIMELINE */}
+          <div className="ae-timeline not-prose">
+            <div className="ae-timeline-item">
+              <div className="ae-timeline-step">Before</div>
+              <div className="ae-timeline-title">Customer searches "emergency plumber Phoenix"</div>
+              <div className="ae-timeline-desc">Sees 10 results on Google. Clicks 2 to 3 websites, compares them. Calls the one that looks most professional. Your SEO investment pays off.</div>
             </div>
-
-            <h2 className="text-3xl sm:text-4xl font-light mt-16 mb-8 text-gray-100">
-              <span className="font-normal text-white">Frequently Asked Questions</span>
-            </h2>
-
-            <div className="space-y-6">
-              {[
-                {
-                  q: "Why is my SEO not generating leads anymore?",
-                  a: "Nearly 60% of searches now end without a click because AI answers questions directly. Your SEO rankings may be strong, but high-intent buyers - the people ready to hire today - are getting recommendations from AI before they see search results. They call whoever AI recommends."
-                },
-                {
-                  q: "Should I stop paying for SEO?",
-                  a: "No. SEO still provides value for informational and research searches, and it builds topical authority that AI also recognizes. But SEO alone is no longer enough - you need AI visibility alongside your SEO to capture high-intent buyers who ask AI for recommendations."
-                },
-                {
-                  q: "How is AI visibility different from SEO?",
-                  a: "SEO optimizes for search engine rankings using factors like keywords, backlinks, and technical performance. AI visibility optimizes for being recommended when people ask AI assistants like ChatGPT, Google AI Overview, and Perplexity for suggestions. Research shows AI uses different signals - brand mentions and authoritative list appearances matter more than domain authority scores."
-                },
-                {
-                  q: "Can my SEO agency handle AI visibility?",
-                  a: "Some can, most can't. Ask your agency specifically about their strategy for AI-generated answers. If they don't have data on which AI platforms mention your business or a strategy for increasing AI citations, you may need specialized help alongside your SEO."
-                },
-                {
-                  q: "Why can't ChatGPT see my Google reviews?",
-                  a: "ChatGPT uses Bing's web index, not Google's data. This means it can't directly access Google Business Profile information including reviews. To influence AI recommendations, you need reviews on platforms AI can read - Yelp, BBB, industry directories, and sites indexed by Bing."
-                },
-                {
-                  q: "How long before I see results from AI visibility optimization?",
-                  a: "Most businesses see measurable changes in AI citations within 90-120 days. Unlike SEO, which compounds slowly over years, AI visibility can shift more quickly when you establish clear authority signals across the right platforms. The key is consistency across all platforms AI reads, not just Google."
-                }
-              ].map((faq, i) => (
-                <div key={i} className="bg-white/[0.02] backdrop-blur-xl border border-white/[0.05] rounded-xl p-6 hover:border-white/[0.08] transition-colors">
-                  <h3 className="text-xl font-light mb-3 text-white">
-                    {faq.q}
-                  </h3>
-                  <p className="text-gray-400 leading-relaxed font-light">
-                    {faq.a}
-                  </p>
-                </div>
-              ))}
+            <div className="ae-timeline-item">
+              <div className="ae-timeline-step">Now</div>
+              <div className="ae-timeline-title">Customer asks AI "I need an emergency plumber in Phoenix"</div>
+              <div className="ae-timeline-desc">AI recommends one company with a phone number. Customer calls that company. Your website never enters the picture. Your SEO generates reports, not leads.</div>
             </div>
+          </div>
 
-            {/* Author Section */}
-            <div className="mt-16 pt-12 border-t border-white/[0.05]">
-              <h3 className="text-2xl font-light mb-6 text-gray-100">
-                <span className="font-normal text-white">About The Answer Engine</span>
-              </h3>
-              <p className="text-gray-300 leading-relaxed mb-6 font-light">
-                We help local service businesses become the answer when customers ask AI for recommendations. We work alongside your existing SEO - not instead of it - to capture the leads traditional search is no longer delivering. Our clients see results like 5,700+ monthly clicks from strategic content optimized for AI visibility.
-              </p>
-              <p>
-                <a href="/case-studies/justin-borges" className="inline-flex items-center gap-2 text-orange-400 font-medium hover:text-orange-300 transition-colors group">
-                  See our case studies
-                  <svg className="w-4 h-4 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={2}>
-                    <path strokeLinecap="round" strokeLinejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3" />
-                  </svg>
-                </a>
-              </p>
+          <div className="ae-quote not-prose">
+            <blockquote>The customer journey changed. Your marketing did not. That is the entire problem in one sentence.</blockquote>
+          </div>
+
+          {/* CTA 5 */}
+          <div className="ae-cta-inline not-prose">
+            <p>The new customer journey bypasses your website entirely. See exactly where you are losing leads.</p>
+            <Link href="/blindspot">Map Your Lead Leak &rarr;</Link>
+          </div>
+
+          {/* SECTION: PROOF */}
+          <span className="ae-section-label">Real Results</span>
+          <h2>What Happens When You Optimize for AI</h2>
+
+          <p>One of our clients, a real estate agent in Los Angeles, had strong SEO rankings but noticed leads declining. After implementing AI visibility optimization alongside their existing SEO:</p>
+
+          <div className="ae-stats-grid not-prose">
+            <div className="ae-stat-card">
+              <div className="ae-stat-value ae-accent">5,766</div>
+              <div className="ae-stat-label">MONTHLY ORGANIC CLICKS</div>
             </div>
+            <div className="ae-stat-card">
+              <div className="ae-stat-value ae-accent">10,654</div>
+              <div className="ae-stat-label">AI-OPTIMIZED CLICKS</div>
+            </div>
+            <div className="ae-stat-card">
+              <div className="ae-stat-value ae-accent">3,800+</div>
+              <div className="ae-stat-label">SINGLE TOPIC CLUSTER</div>
+            </div>
+            <div className="ae-stat-card">
+              <div className="ae-stat-value ae-accent">3,700+</div>
+              <div className="ae-stat-label">PROBATE CONTENT CLICKS</div>
+            </div>
+          </div>
 
-            {/* Sources */}
-            <div className="mt-12 pt-8 border-t border-white/[0.05]">
-              <h4 className="text-sm font-medium text-gray-500 uppercase tracking-wider mb-4">Sources Cited</h4>
-              <ul className="space-y-2 text-sm text-gray-500 font-light">
-                <li>1. SparkToro/Datos 2024 Zero-Click Search Study</li>
-                <li>2. Onely - "How ChatGPT Decides Which Brands to Recommend" (December 2025)</li>
-                <li>3. Ahrefs - "Top Brand Visibility Factors in ChatGPT, AI Mode, and AI Overviews" (December 2025)</li>
-                <li>4. Client GSC Data: lametrohomefinder.com (January 2026)</li>
+          <p>Verified from Google Search Console, January 2026. The difference? They stopped creating keyword-optimized pages and started creating answer-optimized content that AI systems recognize as authoritative.</p>
+
+          <div className="ae-callout ae-callout-success not-prose">
+            <div className="ae-callout-title">Proven Result</div>
+            <p>Strategic content clusters designed to win AI citations delivered nearly double the clicks compared to traditional SEO pages alone. Same business, same market, different strategy.</p>
+          </div>
+
+          {/* CTA 6 */}
+          <div className="ae-cta-inline not-prose">
+            <p>These results came from understanding exactly where AI visibility gaps existed. Find yours.</p>
+            <Link href="/blindspot">Get the Same Analysis Free &rarr;</Link>
+          </div>
+
+          {/* SECTION: BUT MY RANKINGS */}
+          <span className="ae-section-label">Hard Truth</span>
+          <h2>"But My Rankings Are Great!"</h2>
+
+          <p>I know. That is the frustrating part. You might be ranking #1 for your most important keywords. Your agency might be doing genuinely excellent work. The technical SEO might be flawless.</p>
+
+          <p><strong>And it does not matter</strong> if AI is answering the question before anyone sees your ranking.</p>
+
+          <p>Think about it: when was the last time you personally scrolled past an AI answer to click on a regular search result? When the AI answer is good enough, most people stop there. Your customers are doing the same thing.</p>
+
+          <div className="ae-takeaway not-prose">
+            <div className="ae-takeaway-title">Key Takeaway</div>
+            <p>Rankings measure where you appear in a list. In 2026, the list is increasingly irrelevant because AI gives a single recommendation, not ten options.</p>
+          </div>
+
+          {/* CTA 7 */}
+          <div className="ae-cta-inline not-prose">
+            <p>Rankings mean nothing if AI never mentions you. See what AI actually says when someone asks about your industry.</p>
+            <Link href="/blindspot">Test Your AI Presence &rarr;</Link>
+          </div>
+
+          {/* SECTION: AGENCY CONVERSATION */}
+          <span className="ae-section-label">Take Action</span>
+          <h2>The Conversation You Need to Have With Your Agency</h2>
+
+          <p>Do not fire your SEO agency. But do have this conversation. Ask them: "What is our strategy for showing up in AI-generated answers?"</p>
+
+          {/* PROS/CONS */}
+          <div className="ae-pros-cons not-prose">
+            <div className="ae-pros-box">
+              <div className="ae-pros-title">Good Agency Answers</div>
+              <ul>
+                <li>"We are monitoring AI mentions and building a strategy"</li>
+                <li>"That is a different discipline and you need both"</li>
+                <li>"We can add AI visibility services to our scope"</li>
+                <li>"Let us show you where AI is citing your competitors"</li>
+              </ul>
+            </div>
+            <div className="ae-cons-box">
+              <div className="ae-cons-title">Red Flag Answers</div>
+              <ul>
+                <li>"AI pulls from Google, so SEO is enough"</li>
+                <li>"AI search is a fad, it will pass"</li>
+                <li>"Domain authority is what matters for everything"</li>
+                <li>"We do not track AI mentions"</li>
               </ul>
             </div>
           </div>
-        </article>
-      </main>
+
+          <p>SEO and AI visibility are becoming separate disciplines. Your agency might be excellent at one and have no expertise in the other. The agencies that tell you honestly that they need to expand their approach are the ones worth keeping.</p>
+
+          {/* CTA 8 */}
+          <div className="ae-cta-inline not-prose">
+            <p>Bring real data to that conversation. Show your agency exactly where AI visibility gaps exist.</p>
+            <Link href="/blindspot">Get Data for Your Agency Meeting &rarr;</Link>
+          </div>
+
+          {/* SECTION: 4-STEP FRAMEWORK */}
+          <span className="ae-section-label">The Framework</span>
+          <h2>The 4-Step Framework: What Actually Gets You Leads Now</h2>
+
+          {/* CHEAT SHEET */}
+          <div className="ae-cheat-sheet not-prose">
+            <div className="ae-cheat-sheet-title">Lead Generation Framework for 2026</div>
+            <table>
+              <thead>
+                <tr>
+                  <th>Step</th>
+                  <th>Action</th>
+                  <th>Priority</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>1</td>
+                  <td>AI Platform Visibility: Claim listings on Bing, Apple Maps, and data aggregators that AI reads. Ensure consistent business info everywhere.</td>
+                  <td>Critical</td>
+                </tr>
+                <tr>
+                  <td>2</td>
+                  <td>Answer-First Content: Create content that directly answers questions AI is fielding. Real answers, not keyword-stuffed pages.</td>
+                  <td>Critical</td>
+                </tr>
+                <tr>
+                  <td>3</td>
+                  <td>Multi-Platform Authority: Get reviews on Yelp, BBB, and industry directories. Get mentioned in local publications and "best of" lists.</td>
+                  <td>High</td>
+                </tr>
+                <tr>
+                  <td>4</td>
+                  <td>Keep Your SEO Foundation: SEO still captures 40% of searches and builds topical authority. SEO is the foundation. AI visibility is the roof.</td>
+                  <td>High</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+
+          <div className="ae-callout ae-callout-info not-prose">
+            <div className="ae-callout-title">Insight</div>
+            <p>Step 1 is where most businesses fail. They optimize for Google but ignore Bing, Apple Maps, and the data aggregators that feed AI recommendations. AI does not pull from Google the way most people assume.</p>
+          </div>
+
+          <div className="ae-takeaway not-prose">
+            <div className="ae-takeaway-title">Key Takeaway</div>
+            <p>SEO is still the foundation. AI visibility is now the roof. Without both, you are exposed. The businesses winning right now are running both tracks simultaneously.</p>
+          </div>
+
+          {/* CTA 9 */}
+          <div className="ae-cta-inline not-prose">
+            <p>Step 1 starts with knowing where you stand. Our free report covers all four steps for your specific business.</p>
+            <Link href="/blindspot">Start Your 4-Step Assessment &rarr;</Link>
+          </div>
+
+          {/* SECTION: FIND OUT WHAT AI SAYS */}
+          <span className="ae-section-label">Self-Audit</span>
+          <h2>Find Out What AI Says About You</h2>
+
+          <p>Before your next conversation with your SEO agency, find out where you actually stand. Run these four tests yourself:</p>
+
+          {/* TIMELINE as steps */}
+          <div className="ae-timeline not-prose">
+            <div className="ae-timeline-item">
+              <div className="ae-timeline-step">Test 1</div>
+              <div className="ae-timeline-title">Ask ChatGPT</div>
+              <div className="ae-timeline-desc">"Who is the best [your service] in [your city]?" See if your business appears in the recommendation.</div>
+            </div>
+            <div className="ae-timeline-item">
+              <div className="ae-timeline-step">Test 2</div>
+              <div className="ae-timeline-title">Check Google AI Overview</div>
+              <div className="ae-timeline-desc">Search your main keyword and look at the AI Overview box at the top, not the regular results below.</div>
+            </div>
+            <div className="ae-timeline-item">
+              <div className="ae-timeline-step">Test 3</div>
+              <div className="ae-timeline-title">Ask Perplexity</div>
+              <div className="ae-timeline-desc">Same question, different AI. Perplexity cites sources, so you can see exactly which competitors it references.</div>
+            </div>
+            <div className="ae-timeline-item">
+              <div className="ae-timeline-step">Test 4</div>
+              <div className="ae-timeline-title">Compare Against Competitors</div>
+              <div className="ae-timeline-desc">If your competitor shows up instead of you, that is your lead leak. That is where your customers are going.</div>
+            </div>
+          </div>
+
+          <p>If AI is not recommending you, that is your leak. That is where your leads are going. And no amount of SEO will fix it.</p>
+
+          {/* CTA 10 */}
+          <div className="ae-cta-inline not-prose">
+            <p>These manual tests give you a snapshot. Our report gives you the full picture across every major AI platform.</p>
+            <Link href="/blindspot">Get the Complete AI Audit &rarr;</Link>
+          </div>
+
+          {/* CTA BLOCK */}
+          <div className="ae-cta-block not-prose">
+            <h3>Your SEO Is Not Broken. The Market Changed.</h3>
+            <p>You do not need to fire your SEO agency. You need to add AI visibility to your marketing strategy before your competitors lock in the top recommendation spots. Every month you wait, they build more authority signals. Get your free report and see exactly where you stand.</p>
+            <Link href="/blindspot" className="ae-cta-primary">Get Your Free Blind Spot Report</Link>
+            <div style={{display:'flex',flexWrap:'wrap',gap:'24px',justifyContent:'center',marginTop:'20px'}}>
+              <a href="tel:+12134442229" style={{color:'rgba(255,255,255,0.6)'}}>Call: (213) 444-2229</a>
+              <a href="mailto:support@theanswerengine.ai" style={{color:'rgba(255,255,255,0.6)'}}>Email: support@theanswerengine.ai</a>
+            </div>
+          </div>
+
+          {/* AUTHOR CARD */}
+          <div className="ae-author-card not-prose">
+            <div className="ae-author-avatar">AE</div>
+            <div>
+              <div className="ae-author-name">The Answer Engine Team</div>
+              <div className="ae-author-role">We help local service businesses become the answer when customers ask AI for recommendations.</div>
+            </div>
+          </div>
+
+          {/* FAQ SECTION */}
+          <span className="ae-section-label">FAQ</span>
+          <h2>Frequently Asked Questions</h2>
+
+          <h3>Why is my SEO not generating leads anymore?</h3>
+          <p>Nearly 60% of searches now end without a click because AI answers questions directly. Your SEO rankings may be strong, but high-intent buyers are getting recommendations from AI before they see search results. They call whoever AI recommends.</p>
+
+          {/* CTA 11 */}
+          <div className="ae-cta-inline not-prose">
+            <p>If your leads dropped despite strong rankings, AI search is the most likely explanation. Get the data.</p>
+            <Link href="/blindspot">Diagnose Your Lead Drop &rarr;</Link>
+          </div>
+
+          <h3>Should I stop paying for SEO?</h3>
+          <p>No. SEO still provides value for informational and research searches, and it builds topical authority that AI also recognizes. But SEO alone is no longer enough. You need AI visibility alongside your SEO to capture high-intent buyers who ask AI for recommendations.</p>
+
+          <h3>How is AI visibility different from SEO?</h3>
+          <p>SEO optimizes for search engine rankings using factors like keywords, backlinks, and technical performance. AI visibility optimizes for being recommended when people ask AI assistants like ChatGPT, Google AI Overview, and Perplexity for suggestions. Research shows AI uses different signals. Brand mentions and authoritative list appearances matter more than domain authority scores.</p>
+
+          {/* CTA 12 */}
+          <div className="ae-cta-inline not-prose">
+            <p>AI visibility requires different signals than SEO. Find out which ones your business is missing.</p>
+            <Link href="/blindspot">See Your AI Signal Gaps &rarr;</Link>
+          </div>
+
+          <h3>Can my SEO agency handle AI visibility?</h3>
+          <p>Some can, most cannot. Ask your agency specifically about their strategy for AI-generated answers. If they do not have data on which AI platforms mention your business or a strategy for increasing AI citations, you may need specialized help alongside your SEO.</p>
+
+          <h3>Why can not ChatGPT see my Google reviews?</h3>
+          <p>ChatGPT uses Bing's web index, not Google's data. This means it cannot directly access Google Business Profile information including reviews. To influence AI recommendations, you need reviews on platforms AI can read: Yelp, BBB, industry directories, and sites indexed by Bing.</p>
+
+          {/* CTA 13 */}
+          <div className="ae-cta-inline not-prose">
+            <p>Most businesses have reviews in all the wrong places for AI. See where yours stand.</p>
+            <Link href="/blindspot">Check Your Review Visibility &rarr;</Link>
+          </div>
+
+          <h3>How long before I see results from AI visibility optimization?</h3>
+          <p>Most businesses see measurable changes in AI citations within 90 to 120 days. Unlike SEO, which compounds slowly over years, AI visibility can shift more quickly when you establish clear authority signals across the right platforms. The key is consistency across all platforms AI reads, not just Google.</p>
+
+          <div className="ae-takeaway not-prose">
+            <div className="ae-takeaway-title">Key Takeaway</div>
+            <p>SEO is not dead. But SEO alone is no longer a complete lead generation strategy. The businesses that add AI visibility to their marketing mix are the ones capturing the buyers that SEO can no longer reach.</p>
+          </div>
+
+          {/* CTA 14 */}
+          <div className="ae-cta-inline not-prose">
+            <p>You have read the data. You know the trend. The only question left is whether AI recommends your business or your competitor.</p>
+            <Link href="/blindspot">Find Out in 60 Seconds &rarr;</Link>
+          </div>
+
+          {/* SOURCES */}
+          <span className="ae-section-label">Sources</span>
+          <h2>Sources Cited</h2>
+
+          <p>1. SparkToro/Datos 2024 Zero-Click Search Study<br />
+          2. Onely: "How ChatGPT Decides Which Brands to Recommend" (December 2025)<br />
+          3. Ahrefs: "Top Brand Visibility Factors in ChatGPT, AI Mode, and AI Overviews" (December 2025)<br />
+          4. Client GSC Data: lametrohomefinder.com (January 2026)</p>
+
+        </div>
+
+        {/* FINAL CTA */}
+        <div className="ae-final-cta">
+          <h2>Stop Paying for Rankings That Do Not Generate Leads</h2>
+          <p>Your SEO is not broken. The market shifted to AI. Every day you wait, your competitors build more authority signals that make them the default AI recommendation in your market. Get your free Blind Spot Report and see exactly where you stand across ChatGPT, Claude, Perplexity, and Google AI.</p>
+          <Link href="/blindspot" className="ae-final-cta-pulse">Get Your Free Blind Spot Report</Link>
+          <div style={{display:'flex',flexWrap:'wrap',gap:'24px',justifyContent:'center',marginTop:'20px'}}>
+            <a href="tel:+12134442229" style={{color:'rgba(255,255,255,0.6)'}}>Call: (213) 444-2229</a>
+            <a href="mailto:support@theanswerengine.ai" style={{color:'rgba(255,255,255,0.6)'}}>Email: support@theanswerengine.ai</a>
+          </div>
+        </div>
+      </article>
     </>
   );
 }

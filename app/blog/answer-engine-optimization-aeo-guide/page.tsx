@@ -171,28 +171,6 @@ const jsonLd = {
   ],
 }
 
-function Breadcrumb() {
-  return (
-    <nav aria-label="Breadcrumb" className="mb-8">
-      <ol className="flex items-center gap-2 text-sm text-gray-400">
-        <li>
-          <Link href="/" className="hover:text-orange-400 transition-colors">
-            Home
-          </Link>
-        </li>
-        <li className="text-gray-600">/</li>
-        <li>
-          <Link href="/blog" className="hover:text-orange-400 transition-colors">
-            Blog
-          </Link>
-        </li>
-        <li className="text-gray-600">/</li>
-        <li className="text-gray-300 truncate max-w-xs">Answer Engine Optimization Guide</li>
-      </ol>
-    </nav>
-  )
-}
-
 export default function AEOGuidePage() {
   return (
     <>
@@ -201,427 +179,739 @@ export default function AEOGuidePage() {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
       />
 
-      <main
-        className="min-h-screen"
-        style={{ backgroundColor: '#0F1117', color: '#D1D5DB' }}
-      >
-        <div className="max-w-4xl mx-auto px-6 py-20">
-          <Breadcrumb />
+      <main className="min-h-screen bg-[#0A0A0F]">
+        <article className="max-w-4xl mx-auto px-6 py-12 sm:py-16">
 
-          {/* Hero Section */}
-          <div
-            className="relative overflow-hidden rounded-2xl mb-12"
-            style={{
-              background:
-                'linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%)',
-            }}
-          >
-            <svg
-              className="absolute inset-0 w-full h-full opacity-10"
-              viewBox="0 0 800 400"
-              fill="none"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <circle cx="650" cy="80" r="200" stroke="#FF6A00" strokeWidth="0.5" />
-              <circle cx="650" cy="80" r="140" stroke="#FF6A00" strokeWidth="0.5" />
-              <circle cx="650" cy="80" r="80" stroke="#FF6A00" strokeWidth="0.5" />
-              <line x1="0" y1="200" x2="800" y2="200" stroke="#FF6A00" strokeWidth="0.3" />
-              <line x1="400" y1="0" x2="400" y2="400" stroke="#FF6A00" strokeWidth="0.3" />
-              <rect x="50" y="120" width="200" height="160" stroke="#FF6A00" strokeWidth="0.4" />
-              <rect x="80" y="150" width="140" height="100" stroke="#FF6A00" strokeWidth="0.4" />
-              <line x1="0" y1="0" x2="800" y2="400" stroke="#FF6A00" strokeWidth="0.2" />
-              <polygon points="150,50 250,50 200,140" stroke="#FF6A00" strokeWidth="0.4" fill="none" />
-              <circle cx="200" cy="320" r="60" stroke="#FF6A00" strokeWidth="0.4" />
-              <line x1="550" y1="200" x2="800" y2="350" stroke="#FF6A00" strokeWidth="0.3" />
-              <line x1="550" y1="200" x2="700" y2="50" stroke="#FF6A00" strokeWidth="0.3" />
-            </svg>
-            <div className="relative px-8 py-16 sm:px-12 sm:py-20">
-              <p className="text-sm font-medium text-orange-400 mb-4">AEO Education</p>
-              <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-white leading-tight mb-6 font-plus-jakarta">
-                Answer Engine Optimization: Complete AEO Guide for 2026
-              </h1>
-              <div className="flex items-center gap-4 text-sm text-gray-400">
-                <span>March 8, 2026</span>
-                <span>-</span>
-                <span>12 min read</span>
-                <span>-</span>
-                <span>The Answer Engine Team</span>
-              </div>
+          {/* Breadcrumbs */}
+          <nav className="text-sm text-gray-500 mb-8" aria-label="Breadcrumb">
+            <Link href="/" className="hover:text-white transition-colors">Home</Link>
+            <span className="mx-2">&rsaquo;</span>
+            <Link href="/blog" className="hover:text-white transition-colors">Blog</Link>
+            <span className="mx-2">&rsaquo;</span>
+            <span className="text-gray-400">Answer Engine Optimization Guide</span>
+          </nav>
+
+          {/* Hero */}
+          <header className="mb-12">
+            <div className="inline-flex items-center gap-2 px-4 py-2 rounded-xl mb-6 bg-white/[0.04] border border-white/[0.08]">
+              <span className="text-sm font-semibold tracking-wider uppercase text-white">AEO Education</span>
             </div>
-          </div>
 
-          {/* Article Body */}
-          <article className="prose prose-invert max-w-none">
+            <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-white leading-tight mb-6 font-plus-jakarta">
+              Answer Engine Optimization: Complete AEO Guide for 2026
+            </h1>
 
-            {/* Intro */}
-            <p className="text-xl text-gray-200 leading-relaxed mb-8">
-              Answer Engine Optimization (AEO) is the practice of structuring your content so AI systems like ChatGPT, Perplexity, and Google AI Overviews select it as the source for their answers. If your business is not showing up in those answers, you are invisible to a rapidly growing slice of your potential customers.
-            </p>
-
-            <p className="text-gray-300 leading-relaxed mb-10">
-              Here is the reality: 40% of search queries now go to AI assistants rather than traditional search engines, and Gartner projects traditional search traffic will decline 25% by 2026. The businesses that figure out AEO now are building a competitive moat. The ones that wait are already losing ground.
-            </p>
-
-            {/* Section 1 */}
-            <h2 className="text-2xl font-bold text-white mt-12 mb-4 font-plus-jakarta">
-              What Is Answer Engine Optimization (AEO)?
-            </h2>
-            <p className="text-gray-300 leading-relaxed mb-4">
-              Answer Engine Optimization is the process of making your content easy for AI systems to find, understand, and cite when answering user questions. Traditional SEO gets you ranked in a list of blue links. AEO gets you cited as the actual answer.
-            </p>
-            <p className="text-gray-300 leading-relaxed mb-4">
-              The distinction matters because AI systems do not send users to a list of ten options. They synthesize an answer and attribute it to one or a handful of sources. If your content is not structured to be extracted and cited, you simply do not exist in that answer.
-            </p>
-            <p className="text-gray-300 leading-relaxed mb-8">
-              For a local plumber, dentist, roofer, or any service business, this is not an abstract tech problem. It is a lead-generation problem. When someone asks an AI assistant, "Who is the best emergency plumber near me?" the businesses that have invested in AEO are the ones that get mentioned.
-            </p>
-
-            {/* Section 2 */}
-            <h2 className="text-2xl font-bold text-white mt-12 mb-4 font-plus-jakarta">
-              Why Answer Engine Optimization Matters Right Now
-            </h2>
-            <p className="text-gray-300 leading-relaxed mb-4">
-              The numbers are hard to ignore. ChatGPT reached 900 million monthly users by late 2025. Over 800 million people use ChatGPT or related products weekly for information. AI Overviews now appear in 16% of all Google desktop searches in the United States.
-            </p>
-            <p className="text-gray-300 leading-relaxed mb-4">
-              Meanwhile, 60% of US searches in 2024 ended without a click, up from 26% in 2022. Only 35% of Google searches end with a click-through. Non-branded keyword click-through rates drop by nearly 20% when AI Overviews appear.
-            </p>
-
-            {/* Stat callout */}
-            <div
-              className="rounded-xl p-6 mb-8 border border-gray-700"
-              style={{ backgroundColor: '#1a1a2e' }}
-            >
-              <p className="text-4xl font-bold text-orange-400 mb-2">4.4x</p>
-              <p className="text-gray-300">
-                AI citation visitors convert at 4.4 times the rate of traditional organic search visitors. Getting cited is not just about visibility. It drives better-quality leads.
+            <div className="bg-gradient-to-br from-white/[0.02] to-white/[0.02] border border-white/[0.08] rounded-xl p-6 mb-8">
+              <p className="text-lg text-white leading-relaxed">
+                <strong>Answer Engine Optimization (AEO) is the practice of structuring your content so AI systems like ChatGPT, Perplexity, and Google AI Overviews select it as the source for their answers.</strong> If your business is not showing up in those answers, you are invisible to a rapidly growing slice of your potential customers.
               </p>
             </div>
 
-            <p className="text-gray-300 leading-relaxed mb-4">
-              Companies that implemented AEO strategies in early 2024 captured 3.4 times more answer engine traffic than competitors who delayed. That gap is widening every month. Voice commerce alone is projected to reach $80 billion annually, all driven by AI assistants answering questions and recommending services.
-            </p>
-            <p className="text-gray-300 leading-relaxed mb-8">
-              The bottom line: the customers who used to find you by scrolling through Google results are increasingly getting their answers directly from AI. If your content is not in the mix, you are not in the consideration set.
-            </p>
+            <div className="flex flex-wrap gap-4 text-sm text-gray-400">
+              <div className="flex items-center gap-2">
+                <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={2}>
+                  <path strokeLinecap="round" strokeLinejoin="round" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
+                </svg>
+                <span>12 min read</span>
+              </div>
+              <div className="flex items-center gap-2">
+                <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={2}>
+                  <path strokeLinecap="round" strokeLinejoin="round" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
+                </svg>
+                <span>Published March 8, 2026</span>
+              </div>
+              <div className="flex items-center gap-2">
+                <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={2}>
+                  <path strokeLinecap="round" strokeLinejoin="round" d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z" />
+                </svg>
+                <span>The Answer Engine Team</span>
+              </div>
+            </div>
+          </header>
+
+          {/* Stats Grid */}
+          <div className="ae-stats-grid not-prose">
+            <div className="ae-stat-card">
+              <div className="ae-stat-emoji">&#x1F4C9;</div>
+              <div className="ae-stat-value ae-accent">40%</div>
+              <div className="ae-stat-label">of search queries now go to AI assistants instead of traditional engines</div>
+            </div>
+            <div className="ae-stat-card">
+              <div className="ae-stat-emoji">&#x1F916;</div>
+              <div className="ae-stat-value ae-accent">900M</div>
+              <div className="ae-stat-label">monthly ChatGPT users by late 2025, all seeking instant answers</div>
+            </div>
+            <div className="ae-stat-card">
+              <div className="ae-stat-emoji">&#x1F680;</div>
+              <div className="ae-stat-value ae-accent">4.4x</div>
+              <div className="ae-stat-label">higher conversion rate from AI citation visitors vs organic search</div>
+            </div>
+            <div className="ae-stat-card">
+              <div className="ae-stat-emoji">&#x26A0;&#xFE0F;</div>
+              <div className="ae-stat-value ae-accent">60%</div>
+              <div className="ae-stat-label">of US searches in 2024 ended with zero clicks to any website</div>
+            </div>
+          </div>
+
+          {/* Main Content */}
+          <div className="prose prose-invert prose-lg max-w-none prose-headings:font-plus-jakarta prose-headings:text-white prose-p:text-gray-300 prose-a:text-[#FF6A00] prose-a:no-underline hover:prose-a:underline prose-strong:text-white">
+
+            {/* Section 1 */}
+            <span className="ae-section-label">The Foundation</span>
+            <h2>What Is Answer Engine Optimization (AEO)?</h2>
+
+            <p>Answer Engine Optimization is the process of making your content easy for AI systems to find, understand, and cite when answering user questions. Traditional SEO gets you ranked in a list of blue links. AEO gets you cited as the actual answer.</p>
+
+            <p>The distinction matters because AI systems do not send users to a list of ten options. They synthesize an answer and attribute it to one or a handful of sources. If your content is not structured to be extracted and cited, you simply do not exist in that answer.</p>
+
+            <div className="ae-callout ae-callout-warning not-prose">
+              <div className="ae-callout-title">Reality Check</div>
+              <p>When someone asks an AI assistant, &quot;Who is the best emergency plumber near me?&quot; only the businesses that have invested in AEO get mentioned. Everyone else is invisible. This is not an abstract tech problem. It is a lead-generation problem.</p>
+            </div>
+
+            <p>For a local plumber, dentist, roofer, or any service business, AEO determines whether you show up when AI platforms answer questions about your industry and location. The stakes are simple: get cited or get skipped.</p>
+
+            {/* CTA 1 */}
+            <div className="ae-cta-inline not-prose">
+              <p>Are AI platforms citing your business or your competitors? <Link href="/blindspot">Get your free Blind Spot Report</Link> and find out in 60 seconds.</p>
+            </div>
+
+            {/* Section 2 */}
+            <span className="ae-section-label">The Urgency</span>
+            <h2>Why Answer Engine Optimization Matters Right Now</h2>
+
+            <p>The numbers are hard to ignore. ChatGPT reached 900 million monthly users by late 2025. Over 800 million people use ChatGPT or related products weekly for information. AI Overviews now appear in 16% of all Google desktop searches in the United States.</p>
+
+            <p>Meanwhile, 60% of US searches in 2024 ended without a click, up from 26% in 2022. Only 35% of Google searches end with a click-through. Non-branded keyword click-through rates drop by nearly 20% when AI Overviews appear.</p>
+
+            {/* Bar Group */}
+            <div className="ae-bar-group not-prose">
+              <h3 style={{ color: 'white', marginBottom: '16px', fontWeight: 600 }}>The Zero-Click Trend</h3>
+              <div className="ae-bar-item">
+                <span className="ae-bar-label">Zero-click searches (2024)</span>
+                <div className="ae-bar-track"><div className="ae-bar-fill" style={{ width: '60%' }}></div></div>
+                <span className="ae-bar-value">60%</span>
+              </div>
+              <div className="ae-bar-item">
+                <span className="ae-bar-label">Zero-click searches (2022)</span>
+                <div className="ae-bar-track"><div className="ae-bar-fill" style={{ width: '26%' }}></div></div>
+                <span className="ae-bar-value">26%</span>
+              </div>
+              <div className="ae-bar-item">
+                <span className="ae-bar-label">CTR drop with AI Overviews</span>
+                <div className="ae-bar-track"><div className="ae-bar-fill" style={{ width: '20%' }}></div></div>
+                <span className="ae-bar-value">-20%</span>
+              </div>
+              <div className="ae-bar-item">
+                <span className="ae-bar-label">Google searches ending in click</span>
+                <div className="ae-bar-track"><div className="ae-bar-fill" style={{ width: '35%' }}></div></div>
+                <span className="ae-bar-value">35%</span>
+              </div>
+            </div>
+
+            <div className="ae-callout ae-callout-info not-prose">
+              <div className="ae-callout-title">The Conversion Advantage</div>
+              <p>AI citation visitors convert at 4.4 times the rate of traditional organic search visitors. Getting cited is not just about visibility. It drives better-quality leads who arrive already trusting your expertise.</p>
+            </div>
+
+            <p>Companies that implemented AEO strategies in early 2024 captured 3.4 times more answer engine traffic than competitors who delayed. That gap is widening every month. Voice commerce alone is projected to reach $80 billion annually, all driven by AI assistants answering questions and recommending services.</p>
+
+            <div className="ae-takeaway not-prose">
+              <strong>Key Takeaway:</strong> The customers who used to find you by scrolling through Google results are increasingly getting their answers directly from AI. If your content is not in the mix, you are not in the consideration set. Gartner projects traditional search traffic will decline 25% by 2026.
+            </div>
+
+            {/* CTA 2 */}
+            <div className="ae-cta-inline not-prose">
+              <p>Not sure if AI platforms can even see your business? <Link href="/blindspot">Run the free visibility check</Link> before your competitors do.</p>
+            </div>
 
             {/* Section 3 */}
-            <h2 className="text-2xl font-bold text-white mt-12 mb-4 font-plus-jakarta">
-              AEO vs. SEO: Key Differences Explained
-            </h2>
-            <p className="text-gray-300 leading-relaxed mb-6">
-              AEO does not replace SEO. It builds on top of it. Here is how the two approaches differ in practice:
-            </p>
+            <span className="ae-section-label">The Comparison</span>
+            <h2>AEO vs. SEO: Key Differences Explained</h2>
 
-            <div className="overflow-x-auto mb-8">
-              <table className="w-full text-sm border-collapse">
+            <p>AEO does not replace SEO. It builds on top of it. Here is how the two approaches differ in practice:</p>
+
+            {/* Comparison Table */}
+            <div className="ae-comparison-table not-prose">
+              <table>
                 <thead>
-                  <tr style={{ backgroundColor: '#1a1a2e' }}>
-                    <th className="text-left p-4 text-white font-semibold border border-gray-700">Factor</th>
-                    <th className="text-left p-4 text-white font-semibold border border-gray-700">Traditional SEO</th>
-                    <th className="text-left p-4 text-orange-400 font-semibold border border-gray-700">AEO</th>
+                  <tr>
+                    <th>Factor</th>
+                    <th>Traditional SEO</th>
+                    <th>Answer Engine Optimization</th>
                   </tr>
                 </thead>
                 <tbody>
                   <tr>
-                    <td className="p-4 text-gray-300 border border-gray-700">Goal</td>
-                    <td className="p-4 text-gray-300 border border-gray-700">Rank in a list of results</td>
-                    <td className="p-4 text-gray-300 border border-gray-700">Be cited as the answer</td>
-                  </tr>
-                  <tr style={{ backgroundColor: '#161622' }}>
-                    <td className="p-4 text-gray-300 border border-gray-700">Success metric</td>
-                    <td className="p-4 text-gray-300 border border-gray-700">Rankings, clicks, impressions</td>
-                    <td className="p-4 text-gray-300 border border-gray-700">Citations, mentions in AI responses</td>
+                    <td><strong>Goal</strong></td>
+                    <td>Rank in a list of results</td>
+                    <td>Be cited as the answer</td>
                   </tr>
                   <tr>
-                    <td className="p-4 text-gray-300 border border-gray-700">Content format</td>
-                    <td className="p-4 text-gray-300 border border-gray-700">Keyword-rich pages</td>
-                    <td className="p-4 text-gray-300 border border-gray-700">Structured, extractable answers</td>
-                  </tr>
-                  <tr style={{ backgroundColor: '#161622' }}>
-                    <td className="p-4 text-gray-300 border border-gray-700">Traffic model</td>
-                    <td className="p-4 text-gray-300 border border-gray-700">Click-through from results</td>
-                    <td className="p-4 text-gray-300 border border-gray-700">Citation credibility plus direct referral</td>
+                    <td><strong>Success metric</strong></td>
+                    <td>Rankings, clicks, impressions</td>
+                    <td>Citations, mentions in AI responses</td>
                   </tr>
                   <tr>
-                    <td className="p-4 text-gray-300 border border-gray-700">Platform</td>
-                    <td className="p-4 text-gray-300 border border-gray-700">Google, Bing</td>
-                    <td className="p-4 text-gray-300 border border-gray-700">ChatGPT, Perplexity, Google AI, Copilot</td>
+                    <td><strong>Content format</strong></td>
+                    <td>Keyword-rich pages</td>
+                    <td>Structured, extractable answers</td>
+                  </tr>
+                  <tr>
+                    <td><strong>Traffic model</strong></td>
+                    <td>Click-through from results</td>
+                    <td>Citation credibility plus direct referral</td>
+                  </tr>
+                  <tr>
+                    <td><strong>Platform</strong></td>
+                    <td>Google, Bing</td>
+                    <td>ChatGPT, Perplexity, Google AI, Copilot</td>
+                  </tr>
+                  <tr>
+                    <td><strong>Authority signal</strong></td>
+                    <td>Backlinks, domain age</td>
+                    <td>E-E-A-T, third-party citations, schema</td>
                   </tr>
                 </tbody>
               </table>
             </div>
 
-            <p className="text-gray-300 leading-relaxed mb-8">
-              Critically, 99% of URLs appearing in Google AI Mode come from the top 20 organic search results. And 76% of cited sources in Google AI Overviews come from the top 10 organic results. So SEO still powers your foundation. AEO is how you get surfaced as the answer once you have that foundation.
-            </p>
+            <p>Critically, 99% of URLs appearing in Google AI Mode come from the top 20 organic search results. And 76% of cited sources in Google AI Overviews come from the top 10 organic results. So SEO still powers your foundation. AEO is how you get surfaced as the answer once you have that foundation.</p>
+
+            {/* Pros / Cons */}
+            <div className="ae-pros-cons not-prose">
+              <div className="ae-pros-box">
+                <div className="ae-pros-title">Why AEO + SEO Together Wins</div>
+                <ul>
+                  <li>SEO builds the domain authority AI systems trust</li>
+                  <li>AEO structures content for AI extraction</li>
+                  <li>Combined approach covers both blue links and AI answers</li>
+                  <li>Schema markup benefits both channels simultaneously</li>
+                  <li>99% of AI Mode URLs come from top 20 organic results</li>
+                </ul>
+              </div>
+              <div className="ae-cons-box">
+                <div className="ae-cons-title">Risks of Ignoring AEO</div>
+                <ul>
+                  <li>Invisible when customers ask AI for recommendations</li>
+                  <li>Competitors capture AI citation traffic first</li>
+                  <li>Missing the 4.4x conversion advantage</li>
+                  <li>No presence in growing voice commerce market</li>
+                  <li>Declining organic traffic with no alternative channel</li>
+                </ul>
+              </div>
+            </div>
+
+            {/* CTA 3 */}
+            <div className="ae-cta-inline not-prose">
+              <p>Want to talk strategy? Call us at <a href="tel:+12134442229">(213) 444-2229</a> or email <a href="mailto:support@theanswerengine.ai">support@theanswerengine.ai</a>.</p>
+            </div>
 
             {/* Section 4 */}
-            <h2 className="text-2xl font-bold text-white mt-12 mb-4 font-plus-jakarta">
-              How Answer Engines Work: The Technology Behind AEO
-            </h2>
-            <p className="text-gray-300 leading-relaxed mb-4">
-              AI answer engines use large language models (LLMs) to process a question, retrieve relevant content from their training data or live web searches, synthesize an answer, and in many cases cite the sources they drew from.
-            </p>
-            <p className="text-gray-300 leading-relaxed mb-4">
-              Each platform works slightly differently. Google AI Overviews pull primarily from indexed web pages, heavily weighted toward pages that already rank well organically. Perplexity performs live web searches and cites sources directly. ChatGPT, in its browsing mode, also retrieves live content. Microsoft Copilot is integrated into Windows and Microsoft 365 products, drawing from Bing's index.
-            </p>
-            <p className="text-gray-300 leading-relaxed mb-8">
-              What they all have in common: they prefer content that is clearly structured, specific, and easy to extract. A wall of text with no headers and buried answers is difficult for an LLM to parse. A page with a clear question, a direct two-sentence answer, and supporting detail organized in scannable lists is much more likely to be cited.
-            </p>
+            <span className="ae-section-label">How It Works</span>
+            <h2>How Answer Engines Work: The Technology Behind AEO</h2>
+
+            <p>AI answer engines use large language models (LLMs) to process a question, retrieve relevant content from their training data or live web searches, synthesize an answer, and in many cases cite the sources they drew from.</p>
+
+            <p>Each platform works slightly differently. Google AI Overviews pull primarily from indexed web pages, heavily weighted toward pages that already rank well organically. Perplexity performs live web searches and cites sources directly. ChatGPT, in its browsing mode, also retrieves live content. Microsoft Copilot is integrated into Windows and Microsoft 365 products, drawing from Bing&apos;s index.</p>
+
+            {/* Timeline */}
+            <div className="ae-timeline not-prose">
+              <div className="ae-timeline-item">
+                <strong>Step 1: User asks a question</strong>
+                <p>A potential customer types a question into ChatGPT, Perplexity, or Google. The AI system begins processing.</p>
+              </div>
+              <div className="ae-timeline-item">
+                <strong>Step 2: AI retrieves content</strong>
+                <p>The system searches its training data and/or performs a live web search to find relevant, authoritative sources.</p>
+              </div>
+              <div className="ae-timeline-item">
+                <strong>Step 3: AI synthesizes an answer</strong>
+                <p>The LLM evaluates content quality, structure, and authority signals. It selects one or a few sources to build its answer.</p>
+              </div>
+              <div className="ae-timeline-item">
+                <strong>Step 4: Citation or silence</strong>
+                <p>Your business is either cited as the answer (with a link and credibility boost) or completely absent. There is no middle ground.</p>
+              </div>
+            </div>
+
+            <p>What all AI platforms have in common: they prefer content that is clearly structured, specific, and easy to extract. A wall of text with no headers and buried answers is difficult for an LLM to parse. A page with a clear question, a direct two-sentence answer, and supporting detail organized in scannable lists is much more likely to be cited.</p>
+
+            {/* CTA 4 */}
+            <div className="ae-cta-inline not-prose">
+              <p>Is your content structured for AI extraction? <Link href="/blindspot">Check your AI visibility score</Link> for free.</p>
+            </div>
 
             {/* Section 5 */}
-            <h2 className="text-2xl font-bold text-white mt-12 mb-4 font-plus-jakarta">
-              Core AEO Strategies and Best Practices
-            </h2>
-            <p className="text-gray-300 leading-relaxed mb-6">
-              These are the practical moves that actually improve your AI citation rate:
-            </p>
+            <span className="ae-section-label">The Playbook</span>
+            <h2>Core AEO Strategies and Best Practices</h2>
 
-            <div className="space-y-6 mb-8">
-              <div className="flex gap-4">
-                <div className="flex-shrink-0 w-8 h-8 rounded-full flex items-center justify-center text-sm font-bold text-white" style={{ backgroundColor: '#FF6A00' }}>1</div>
-                <div>
-                  <h3 className="text-white font-semibold mb-1">Answer questions directly in the first 50 words</h3>
-                  <p className="text-gray-400 text-sm leading-relaxed">AI systems scan for concise, extractable answers. Put the direct answer at the top, then support it with detail. This is called the "answer extract zone."</p>
-                </div>
-              </div>
-              <div className="flex gap-4">
-                <div className="flex-shrink-0 w-8 h-8 rounded-full flex items-center justify-center text-sm font-bold text-white" style={{ backgroundColor: '#FF6A00' }}>2</div>
-                <div>
-                  <h3 className="text-white font-semibold mb-1">Use question-based headers that match how people actually ask</h3>
-                  <p className="text-gray-400 text-sm leading-relaxed">Instead of "Our Services," write "What plumbing services do we offer in Denver?" This matches conversational AI queries and signals to the system exactly what your content answers.</p>
-                </div>
-              </div>
-              <div className="flex gap-4">
-                <div className="flex-shrink-0 w-8 h-8 rounded-full flex items-center justify-center text-sm font-bold text-white" style={{ backgroundColor: '#FF6A00' }}>3</div>
-                <div>
-                  <h3 className="text-white font-semibold mb-1">Write in lists, steps, and tables</h3>
-                  <p className="text-gray-400 text-sm leading-relaxed">Listicles make up 32% of all AI citations. LLMs prefer to extract from a single comprehensive source rather than piece together fragments. Scannable structure wins.</p>
-                </div>
-              </div>
-              <div className="flex gap-4">
-                <div className="flex-shrink-0 w-8 h-8 rounded-full flex items-center justify-center text-sm font-bold text-white" style={{ backgroundColor: '#FF6A00' }}>4</div>
-                <div>
-                  <h3 className="text-white font-semibold mb-1">Include freshness signals throughout your content</h3>
-                  <p className="text-gray-400 text-sm leading-relaxed">Use specific year references (2025, 2026), clear publication dates, and update your content quarterly. AI systems weight recency heavily.</p>
-                </div>
-              </div>
-              <div className="flex gap-4">
-                <div className="flex-shrink-0 w-8 h-8 rounded-full flex items-center justify-center text-sm font-bold text-white" style={{ backgroundColor: '#FF6A00' }}>5</div>
-                <div>
-                  <h3 className="text-white font-semibold mb-1">Earn third-party coverage and citations</h3>
-                  <p className="text-gray-400 text-sm leading-relaxed">82% of links cited by AI come from earned media sources: PR, third-party blogs, industry coverage. Being cited by others makes you more likely to be cited by AI.</p>
-                </div>
-              </div>
-              <div className="flex gap-4">
-                <div className="flex-shrink-0 w-8 h-8 rounded-full flex items-center justify-center text-sm font-bold text-white" style={{ backgroundColor: '#FF6A00' }}>6</div>
-                <div>
-                  <h3 className="text-white font-semibold mb-1">Be transparent about pricing and service details</h3>
-                  <p className="text-gray-400 text-sm leading-relaxed">For local service businesses, AI systems frequently cite pages with clear pricing and cost information. If your website hides pricing, you lose a major citation trigger.</p>
-                </div>
-              </div>
+            <p>These are the practical moves that actually improve your AI citation rate:</p>
+
+            {/* Decision Matrix */}
+            <div className="ae-decision-matrix not-prose">
+              <table>
+                <thead>
+                  <tr>
+                    <th>Strategy</th>
+                    <th>Impact</th>
+                    <th>Difficulty</th>
+                    <th>Priority</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>Direct answers in first 50 words</td>
+                    <td>Very High</td>
+                    <td>Easy</td>
+                    <td>Start Here</td>
+                  </tr>
+                  <tr>
+                    <td>Question-based headers</td>
+                    <td>High</td>
+                    <td>Easy</td>
+                    <td>Start Here</td>
+                  </tr>
+                  <tr>
+                    <td>Lists, steps, and tables</td>
+                    <td>Very High</td>
+                    <td>Medium</td>
+                    <td>Week 1</td>
+                  </tr>
+                  <tr>
+                    <td>Schema markup (FAQ, LocalBusiness)</td>
+                    <td>High</td>
+                    <td>Medium</td>
+                    <td>Week 1-2</td>
+                  </tr>
+                  <tr>
+                    <td>Freshness signals and dates</td>
+                    <td>Medium</td>
+                    <td>Easy</td>
+                    <td>Ongoing</td>
+                  </tr>
+                  <tr>
+                    <td>Third-party citations and PR</td>
+                    <td>Very High</td>
+                    <td>Hard</td>
+                    <td>Month 1+</td>
+                  </tr>
+                  <tr>
+                    <td>Pricing transparency</td>
+                    <td>High</td>
+                    <td>Easy</td>
+                    <td>Week 1</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+
+            <h3>1. Answer questions directly in the first 50 words</h3>
+            <p>AI systems scan for concise, extractable answers. Put the direct answer at the top, then support it with detail. This is called the &quot;answer extract zone.&quot; If the AI has to dig through three paragraphs of preamble to find what it needs, it will pick a competitor&apos;s cleaner page instead.</p>
+
+            <h3>2. Use question-based headers that match how people actually ask</h3>
+            <p>Instead of &quot;Our Services,&quot; write &quot;What plumbing services do we offer in Denver?&quot; This matches conversational AI queries and signals to the system exactly what your content answers.</p>
+
+            <h3>3. Write in lists, steps, and tables</h3>
+            <p>Listicles make up 32% of all AI citations. LLMs prefer to extract from a single comprehensive source rather than piece together fragments. Scannable structure wins every time.</p>
+
+            <h3>4. Include freshness signals throughout your content</h3>
+            <p>Use specific year references (2025, 2026), clear publication dates, and update your content quarterly. AI systems weight recency heavily when deciding which source to cite.</p>
+
+            <h3>5. Earn third-party coverage and citations</h3>
+            <p>82% of links cited by AI come from earned media sources: PR, third-party blogs, industry coverage. Being cited by others makes you more likely to be cited by AI.</p>
+
+            <h3>6. Be transparent about pricing and service details</h3>
+            <p>For local service businesses, AI systems frequently cite pages with clear pricing and cost information. If your website hides pricing, you lose a major citation trigger.</p>
+
+            <div className="ae-quote not-prose">
+              <blockquote>&quot;LLMs prefer to extract information from a single, comprehensive source rather than aggregate from multiple pages.&quot;</blockquote>
+              <cite>Analysis of 177 million AI citations</cite>
+            </div>
+
+            {/* CTA 5 */}
+            <div className="ae-cta-inline not-prose">
+              <p>Not sure which AEO strategies matter most for your business? <Link href="/blindspot">Get your personalized AI visibility report</Link> and we will show you exactly where to start.</p>
             </div>
 
             {/* Section 6 */}
-            <h2 className="text-2xl font-bold text-white mt-12 mb-4 font-plus-jakarta">
-              Content Structure for AI Citations
-            </h2>
-            <p className="text-gray-300 leading-relaxed mb-4">
-              Structure is not about aesthetics. It is about extractability. AI systems parse your HTML to understand what your content says and whether it answers a specific question. Here is what to prioritize:
-            </p>
-            <ul className="space-y-3 mb-8 text-gray-300">
-              <li className="flex gap-3">
-                <span className="text-orange-400 font-bold flex-shrink-0">.</span>
-                <span><strong className="text-white">Clear H1, H2, H3 hierarchy:</strong> Each heading should reflect a distinct question or topic. Avoid vague headers like "Overview" or "More Info."</span>
-              </li>
-              <li className="flex gap-3">
-                <span className="text-orange-400 font-bold flex-shrink-0">.</span>
-                <span><strong className="text-white">Short paragraphs:</strong> Two to four sentences per paragraph. Long blocks of text are hard for LLMs to extract clean answers from.</span>
-              </li>
-              <li className="flex gap-3">
-                <span className="text-orange-400 font-bold flex-shrink-0">.</span>
-                <span><strong className="text-white">Dedicated FAQ sections:</strong> Every service page and blog post should have a FAQ section. This creates explicit Q&A pairs that AI systems can directly cite.</span>
-              </li>
-              <li className="flex gap-3">
-                <span className="text-orange-400 font-bold flex-shrink-0">.</span>
-                <span><strong className="text-white">Comparison content:</strong> Guides like "When to DIY vs. Call a Roofer" position your expertise while answering exactly the kind of decision-stage question AI gets asked.</span>
-              </li>
-              <li className="flex gap-3">
-                <span className="text-orange-400 font-bold flex-shrink-0">.</span>
-                <span><strong className="text-white">Topical clusters:</strong> Build interconnected pages on related questions rather than isolated posts. AI systems favor sources that demonstrate deep topic authority.</span>
-              </li>
-            </ul>
+            <span className="ae-section-label">Content Architecture</span>
+            <h2>Content Structure for AI Citations</h2>
+
+            <p>Structure is not about aesthetics. It is about extractability. AI systems parse your HTML to understand what your content says and whether it answers a specific question. Here is what to prioritize:</p>
+
+            <div className="ae-callout ae-callout-success not-prose">
+              <div className="ae-callout-title">The Extractability Checklist</div>
+              <ul style={{ marginTop: '8px', paddingLeft: '20px' }}>
+                <li><strong>Clear H1, H2, H3 hierarchy</strong> with each heading reflecting a distinct question or topic</li>
+                <li><strong>Short paragraphs</strong> of two to four sentences for clean answer extraction</li>
+                <li><strong>Dedicated FAQ sections</strong> creating explicit Q&A pairs AI can cite directly</li>
+                <li><strong>Comparison content</strong> that positions your expertise at decision-stage queries</li>
+                <li><strong>Topical clusters</strong> of interconnected pages demonstrating deep topic authority</li>
+              </ul>
+            </div>
+
+            <p>Every service page and blog post should have a FAQ section. This creates explicit Q&A pairs that AI systems can directly cite. Build interconnected pages on related questions rather than isolated posts. AI systems favor sources that demonstrate deep topic authority.</p>
+
+            {/* CTA 6 */}
+            <div className="ae-cta-inline not-prose">
+              <p>Questions about content structure? Email us at <a href="mailto:support@theanswerengine.ai">support@theanswerengine.ai</a> for a free content audit.</p>
+            </div>
 
             {/* Section 7 */}
-            <h2 className="text-2xl font-bold text-white mt-12 mb-4 font-plus-jakarta">
-              Technical AEO: Schema Markup and Structured Data
-            </h2>
-            <p className="text-gray-300 leading-relaxed mb-4">
-              Schema markup is machine-readable code you add to your pages that tells AI systems and search engines exactly what your content contains. For AEO, these schema types matter most:
-            </p>
-            <ul className="space-y-3 mb-6 text-gray-300">
-              <li className="flex gap-3">
-                <span className="text-orange-400 flex-shrink-0 font-bold">FAQPage:</span>
-                <span>Marks up your FAQ content so AI systems can extract individual Q&A pairs. This is the single highest-impact schema implementation for most service businesses.</span>
-              </li>
-              <li className="flex gap-3">
-                <span className="text-orange-400 flex-shrink-0 font-bold">LocalBusiness:</span>
-                <span>Confirms your service area, hours, phone number, and address. Critical for any geographically specific AI answer about local services.</span>
-              </li>
-              <li className="flex gap-3">
-                <span className="text-orange-400 flex-shrink-0 font-bold">HowTo:</span>
-                <span>Structures step-by-step content so AI can cleanly extract procedural answers.</span>
-              </li>
-              <li className="flex gap-3">
-                <span className="text-orange-400 flex-shrink-0 font-bold">Article and BreadcrumbList:</span>
-                <span>Helps AI understand your content hierarchy and the relationships between pages on your site.</span>
-              </li>
-            </ul>
-            <p className="text-gray-300 leading-relaxed mb-8">
-              If you are a local service business and you do not have LocalBusiness and FAQPage schema on your site, those are your two starting points. They signal exactly the kind of geographic and service-specific information AI assistants pull when answering local queries.
-            </p>
+            <span className="ae-section-label">Technical Foundation</span>
+            <h2>Technical AEO: Schema Markup and Structured Data</h2>
 
-            {/* Section 8 */}
-            <h2 className="text-2xl font-bold text-white mt-12 mb-4 font-plus-jakarta">
-              Building Authority and Trust Signals (E-E-A-T)
-            </h2>
-            <p className="text-gray-300 leading-relaxed mb-4">
-              E-E-A-T stands for Experience, Expertise, Authoritativeness, and Trustworthiness. Google developed it to evaluate content quality, but it is equally how AI systems assess whether your content is worth citing.
-            </p>
-            <p className="text-gray-300 leading-relaxed mb-4">
-              LLMs favor content that reflects real-world use, personal insights, and original research. This aligns directly with E-E-A-T. For a local service business, that means:
-            </p>
-            <ul className="space-y-2 mb-6 text-gray-300">
-              <li className="flex gap-3"><span className="text-orange-400">.</span><span>Prominently display your licenses, certifications, and insurance. AI weights licensed professionals highly.</span></li>
-              <li className="flex gap-3"><span className="text-orange-400">.</span><span>Include case studies and specific project examples with real outcomes.</span></li>
-              <li className="flex gap-3"><span className="text-orange-400">.</span><span>Feature genuine customer reviews. Positive reviews from Google Business Profile and Yelp appear in AI responses and are crucial for trust signals.</span></li>
-              <li className="flex gap-3"><span className="text-orange-400">.</span><span>Write content with clear author attribution, not anonymous pages.</span></li>
-              <li className="flex gap-3"><span className="text-orange-400">.</span><span>Get featured in local news, industry publications, and authoritative directories.</span></li>
-            </ul>
-            <p className="text-gray-300 leading-relaxed mb-8">
-              82% of links cited by AI come from earned media: PR, third-party blogs, and coverage from credible outside sources. Your own website matters, but being talked about by others is what really drives AI citation authority.
-            </p>
+            <p>Schema markup is machine-readable code you add to your pages that tells AI systems and search engines exactly what your content contains. For AEO, these schema types matter most:</p>
 
-            {/* Section 9 */}
-            <h2 className="text-2xl font-bold text-white mt-12 mb-4 font-plus-jakarta">
-              Multi-Platform AEO: ChatGPT, Perplexity, and Google AI Overviews
-            </h2>
-            <p className="text-gray-300 leading-relaxed mb-4">
-              Not all AI platforms work the same way. Optimizing for one does not guarantee visibility in another, though there is significant overlap. Here is a platform-by-platform breakdown:
-            </p>
-
-            <div className="space-y-4 mb-8">
-              <div className="rounded-xl p-5 border border-gray-700" style={{ backgroundColor: '#1a1a2e' }}>
-                <h3 className="text-white font-semibold mb-2">ChatGPT (OpenAI)</h3>
-                <p className="text-gray-400 text-sm">900 million monthly users by late 2025. Prefers comprehensive, well-explained content. In browsing mode, it performs live searches. Prioritize in-depth explanations, clear definitions, and thorough FAQ coverage. Your Google Business Profile and third-party reviews factor into location-specific answers.</p>
+            <div className="ae-stats-grid not-prose">
+              <div className="ae-stat-card">
+                <div className="ae-stat-emoji">&#x2753;</div>
+                <div className="ae-stat-value ae-accent">FAQ</div>
+                <div className="ae-stat-label">FAQPage schema: highest-impact implementation for most service businesses</div>
               </div>
-              <div className="rounded-xl p-5 border border-gray-700" style={{ backgroundColor: '#1a1a2e' }}>
-                <h3 className="text-white font-semibold mb-2">Perplexity AI</h3>
-                <p className="text-gray-400 text-sm">Performs live web searches with explicit citations. Every answer shows sources. Being cited here is the clearest form of AEO success. Perplexity favors sources that are current, well-structured, and clearly authoritative. When Perplexity cites your site, it functions as a direct third-party endorsement of your credibility.</p>
+              <div className="ae-stat-card">
+                <div className="ae-stat-emoji">&#x1F4CD;</div>
+                <div className="ae-stat-value ae-accent">Local</div>
+                <div className="ae-stat-label">LocalBusiness schema: critical for geographically specific AI answers</div>
               </div>
-              <div className="rounded-xl p-5 border border-gray-700" style={{ backgroundColor: '#1a1a2e' }}>
-                <h3 className="text-white font-semibold mb-2">Google AI Overviews</h3>
-                <p className="text-gray-400 text-sm">Appears in 16% of all Google desktop searches. Strongly tied to organic ranking, with 76% of cited sources coming from top 10 organic results. Your SEO foundation directly powers Google AI Overviews performance. FAQPage schema and structured content are particularly effective here.</p>
+              <div className="ae-stat-card">
+                <div className="ae-stat-emoji">&#x1F527;</div>
+                <div className="ae-stat-value ae-accent">HowTo</div>
+                <div className="ae-stat-label">HowTo schema: structures step-by-step content for procedural answers</div>
               </div>
-              <div className="rounded-xl p-5 border border-gray-700" style={{ backgroundColor: '#1a1a2e' }}>
-                <h3 className="text-white font-semibold mb-2">Microsoft Copilot</h3>
-                <p className="text-gray-400 text-sm">Integrated into Windows and Office 365. Draws from Bing's index. Local business visibility here comes from Bing Places listings, strong domain authority, and structured content. Often overlooked, but represents a significant reach given Microsoft's enterprise user base.</p>
+              <div className="ae-stat-card">
+                <div className="ae-stat-emoji">&#x1F4F0;</div>
+                <div className="ae-stat-value ae-accent">Article</div>
+                <div className="ae-stat-label">Article + BreadcrumbList: helps AI understand content hierarchy</div>
               </div>
             </div>
 
+            <p>If you are a local service business and you do not have LocalBusiness and FAQPage schema on your site, those are your two starting points. They signal exactly the kind of geographic and service-specific information AI assistants pull when answering local queries.</p>
+
+            {/* CTA 7 */}
+            <div className="ae-cta-inline not-prose">
+              <p>Want to know if your schema markup is working? <Link href="/blindspot">Run the free visibility check</Link> to see what AI platforms can actually read on your site.</p>
+            </div>
+
+            {/* Section 8 */}
+            <span className="ae-section-label">Trust Signals</span>
+            <h2>Building Authority and Trust Signals (E-E-A-T)</h2>
+
+            <p>E-E-A-T stands for Experience, Expertise, Authoritativeness, and Trustworthiness. Google developed it to evaluate content quality, but it is equally how AI systems assess whether your content is worth citing.</p>
+
+            <p>LLMs favor content that reflects real-world use, personal insights, and original research. This aligns directly with E-E-A-T. For a local service business, that means:</p>
+
+            <div className="ae-callout ae-callout-info not-prose">
+              <div className="ae-callout-title">E-E-A-T Action Items for Local Businesses</div>
+              <ul style={{ marginTop: '8px', paddingLeft: '20px' }}>
+                <li>Display your licenses, certifications, and insurance prominently</li>
+                <li>Include case studies and specific project examples with real outcomes</li>
+                <li>Feature genuine customer reviews from Google Business Profile and Yelp</li>
+                <li>Write content with clear author attribution, not anonymous pages</li>
+                <li>Get featured in local news, industry publications, and authoritative directories</li>
+              </ul>
+            </div>
+
+            {/* Bar Group */}
+            <div className="ae-bar-group not-prose">
+              <h3 style={{ color: 'white', marginBottom: '16px', fontWeight: 600 }}>Where AI Citations Come From</h3>
+              <div className="ae-bar-item">
+                <span className="ae-bar-label">Earned media (PR, third-party)</span>
+                <div className="ae-bar-track"><div className="ae-bar-fill" style={{ width: '82%' }}></div></div>
+                <span className="ae-bar-value">82%</span>
+              </div>
+              <div className="ae-bar-item">
+                <span className="ae-bar-label">Owned website content</span>
+                <div className="ae-bar-track"><div className="ae-bar-fill" style={{ width: '18%' }}></div></div>
+                <span className="ae-bar-value">18%</span>
+              </div>
+              <div className="ae-bar-item">
+                <span className="ae-bar-label">Top 10 organic results cited by AI</span>
+                <div className="ae-bar-track"><div className="ae-bar-fill" style={{ width: '76%' }}></div></div>
+                <span className="ae-bar-value">76%</span>
+              </div>
+              <div className="ae-bar-item">
+                <span className="ae-bar-label">Top 20 organic in AI Mode</span>
+                <div className="ae-bar-track"><div className="ae-bar-fill" style={{ width: '99%' }}></div></div>
+                <span className="ae-bar-value">99%</span>
+              </div>
+            </div>
+
+            <div className="ae-takeaway not-prose">
+              <strong>Key Takeaway:</strong> 82% of links cited by AI come from earned media: PR, third-party blogs, and coverage from credible outside sources. Your own website matters, but being talked about by others is what really drives AI citation authority.
+            </div>
+
+            {/* CTA 8 */}
+            <div className="ae-cta-inline not-prose">
+              <p>Curious how your trust signals stack up? Call <a href="tel:+12134442229">(213) 444-2229</a> for a free consultation.</p>
+            </div>
+
+            {/* Section 9 */}
+            <span className="ae-section-label">Platform Breakdown</span>
+            <h2>Multi-Platform AEO: ChatGPT, Perplexity, and Google AI Overviews</h2>
+
+            <p>Not all AI platforms work the same way. Optimizing for one does not guarantee visibility in another, though there is significant overlap. Here is a platform-by-platform breakdown:</p>
+
+            {/* Comparison Table for Platforms */}
+            <div className="ae-comparison-table not-prose">
+              <table>
+                <thead>
+                  <tr>
+                    <th>Platform</th>
+                    <th>Scale</th>
+                    <th>How It Works</th>
+                    <th>AEO Priority</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><strong>ChatGPT</strong></td>
+                    <td>900M monthly users</td>
+                    <td>Training data + live browsing</td>
+                    <td>In-depth explanations, FAQ coverage</td>
+                  </tr>
+                  <tr>
+                    <td><strong>Perplexity AI</strong></td>
+                    <td>Growing rapidly</td>
+                    <td>Live web search with citations</td>
+                    <td>Current, well-structured sources</td>
+                  </tr>
+                  <tr>
+                    <td><strong>Google AI Overviews</strong></td>
+                    <td>16% of Google desktop</td>
+                    <td>Tied to organic rankings</td>
+                    <td>FAQPage schema, top 10 ranking</td>
+                  </tr>
+                  <tr>
+                    <td><strong>Microsoft Copilot</strong></td>
+                    <td>Enterprise reach</td>
+                    <td>Bing index integration</td>
+                    <td>Bing Places, domain authority</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+
+            <div className="ae-callout ae-callout-warning not-prose">
+              <div className="ae-callout-title">Do Not Overlook Perplexity</div>
+              <p>When Perplexity AI cites your site, it functions as a direct third-party endorsement of your credibility. The AI has essentially vetted your content and chosen it as a reliable answer. This is digital word-of-mouth at scale, and it is growing faster than most businesses realize.</p>
+            </div>
+
+            {/* CTA 9 */}
+            <div className="ae-cta-inline not-prose">
+              <p>See how you appear across all AI platforms. <Link href="/blindspot">Get your free multi-platform AI visibility report</Link>.</p>
+            </div>
+
             {/* Section 10 */}
-            <h2 className="text-2xl font-bold text-white mt-12 mb-4 font-plus-jakarta">
-              Common AEO Mistakes to Avoid
-            </h2>
-            <ul className="space-y-4 mb-8 text-gray-300">
-              <li className="flex gap-3">
-                <span className="text-orange-400 font-bold flex-shrink-0">1.</span>
-                <div>
-                  <strong className="text-white">Treating AEO as a replacement for SEO.</strong> You cannot get cited in AI answers if your site does not have domain authority. Build both simultaneously.
-                </div>
-              </li>
-              <li className="flex gap-3">
-                <span className="text-orange-400 font-bold flex-shrink-0">2.</span>
-                <div>
-                  <strong className="text-white">Writing for keywords instead of questions.</strong> AI systems respond to questions. If your content does not answer specific questions in clear language, it will not be extracted.
-                </div>
-              </li>
-              <li className="flex gap-3">
-                <span className="text-orange-400 font-bold flex-shrink-0">3.</span>
-                <div>
-                  <strong className="text-white">Ignoring your Google Business Profile.</strong> For local service queries, AI pulls from your GBP data: hours, reviews, services, location. An incomplete or outdated profile is an AEO liability.
-                </div>
-              </li>
-              <li className="flex gap-3">
-                <span className="text-orange-400 font-bold flex-shrink-0">4.</span>
-                <div>
-                  <strong className="text-white">Publishing content and never updating it.</strong> AI systems prioritize recency. Content that has not been refreshed in over a year is at a disadvantage, especially in fast-moving categories.
-                </div>
-              </li>
-              <li className="flex gap-3">
-                <span className="text-orange-400 font-bold flex-shrink-0">5.</span>
-                <div>
-                  <strong className="text-white">No schema markup at all.</strong> Without structured data, you are relying entirely on AI systems to infer what your content is about. Schema removes the guesswork.
-                </div>
-              </li>
-              <li className="flex gap-3">
-                <span className="text-orange-400 font-bold flex-shrink-0">6.</span>
-                <div>
-                  <strong className="text-white">Only optimizing your own site and ignoring third-party mentions.</strong> 82% of AI citations come from earned media. If you have no presence on review sites, industry directories, or local news, your AEO ceiling is low.
-                </div>
-              </li>
-            </ul>
+            <span className="ae-section-label">Avoid These Traps</span>
+            <h2>Common AEO Mistakes to Avoid</h2>
+
+            <div className="ae-callout ae-callout-warning not-prose">
+              <div className="ae-callout-title">6 Mistakes That Kill AI Visibility</div>
+              <ol style={{ marginTop: '8px', paddingLeft: '20px' }}>
+                <li><strong>Treating AEO as a replacement for SEO.</strong> You cannot get cited in AI answers if your site does not have domain authority. Build both simultaneously.</li>
+                <li><strong>Writing for keywords instead of questions.</strong> AI systems respond to questions. If your content does not answer specific questions in clear language, it will not be extracted.</li>
+                <li><strong>Ignoring your Google Business Profile.</strong> For local service queries, AI pulls from your GBP data: hours, reviews, services, location. An incomplete or outdated profile is an AEO liability.</li>
+                <li><strong>Publishing content and never updating it.</strong> AI systems prioritize recency. Content that has not been refreshed in over a year is at a disadvantage.</li>
+                <li><strong>No schema markup at all.</strong> Without structured data, you are relying entirely on AI systems to infer what your content is about. Schema removes the guesswork.</li>
+                <li><strong>Only optimizing your own site.</strong> 82% of AI citations come from earned media. If you have no presence on review sites, industry directories, or local news, your AEO ceiling is low.</li>
+              </ol>
+            </div>
+
+            {/* CTA 10 */}
+            <div className="ae-cta-inline not-prose">
+              <p>Making any of these mistakes? <Link href="/blindspot">Find out with a free AI visibility check</Link> that shows exactly what needs fixing.</p>
+            </div>
 
             {/* Section 11 */}
-            <h2 className="text-2xl font-bold text-white mt-12 mb-4 font-plus-jakarta">
-              Measuring AEO Success: Metrics That Matter
-            </h2>
-            <p className="text-gray-300 leading-relaxed mb-4">
-              Traditional analytics tools were not built to track AI citations. You will need a combination of approaches:
-            </p>
-            <ul className="space-y-3 mb-6 text-gray-300">
-              <li className="flex gap-3"><span className="text-orange-400">.</span><span><strong className="text-white">AI citation tracking:</strong> Tools like Profound monitor your brand and URL visibility across AI answers, showing what questions your site ranks for, what sources AI pulls from, and where gaps exist.</span></li>
-              <li className="flex gap-3"><span className="text-orange-400">.</span><span><strong className="text-white">HubSpot AI Search Grader:</strong> Benchmarks your AEO and generative engine optimization (GEO) performance against competitors.</span></li>
-              <li className="flex gap-3"><span className="text-orange-400">.</span><span><strong className="text-white">Manual testing:</strong> Regularly query ChatGPT, Perplexity, and Google AI with questions your customers would ask, and note whether your business appears.</span></li>
-              <li className="flex gap-3"><span className="text-orange-400">.</span><span><strong className="text-white">Referral traffic from AI platforms:</strong> Check Google Analytics for referral traffic from Perplexity and other AI sources. This is currently measurable and growing.</span></li>
-              <li className="flex gap-3"><span className="text-orange-400">.</span><span><strong className="text-white">Brand mention monitoring:</strong> Track how often your business name appears in AI-generated answers using tools that scan AI outputs for brand mentions.</span></li>
-            </ul>
-            <p className="text-gray-300 leading-relaxed mb-8">
-              The measurement infrastructure for AEO is still maturing, but the gap between businesses investing in tracking and those flying blind is a real competitive advantage.
-            </p>
+            <span className="ae-section-label">Measurement</span>
+            <h2>Measuring AEO Success: Metrics That Matter</h2>
+
+            <p>Traditional analytics tools were not built to track AI citations. You will need a combination of approaches:</p>
+
+            <div className="ae-stats-grid not-prose">
+              <div className="ae-stat-card">
+                <div className="ae-stat-emoji">&#x1F4CA;</div>
+                <div className="ae-stat-value ae-accent">Track</div>
+                <div className="ae-stat-label">AI citation tracking with tools like Profound for brand and URL visibility</div>
+              </div>
+              <div className="ae-stat-card">
+                <div className="ae-stat-emoji">&#x1F50D;</div>
+                <div className="ae-stat-value ae-accent">Test</div>
+                <div className="ae-stat-label">Manual queries on ChatGPT, Perplexity, and Google AI for your business</div>
+              </div>
+              <div className="ae-stat-card">
+                <div className="ae-stat-emoji">&#x1F4C8;</div>
+                <div className="ae-stat-value ae-accent">Measure</div>
+                <div className="ae-stat-label">Referral traffic from AI platforms in Google Analytics</div>
+              </div>
+              <div className="ae-stat-card">
+                <div className="ae-stat-emoji">&#x1F3AF;</div>
+                <div className="ae-stat-value ae-accent">Benchmark</div>
+                <div className="ae-stat-label">HubSpot AI Search Grader for AEO/GEO performance scoring</div>
+              </div>
+            </div>
+
+            <p>The measurement infrastructure for AEO is still maturing, but the gap between businesses investing in tracking and those flying blind is a real competitive advantage. Monitor brand mentions, track referral traffic from AI platforms, and regularly test how your business appears in AI answers.</p>
+
+            {/* CTA 11 */}
+            <div className="ae-cta-inline not-prose">
+              <p>We track your AI visibility for you. <a href="mailto:support@theanswerengine.ai">Email us</a> to learn how our monitoring works.</p>
+            </div>
 
             {/* Section 12 */}
-            <h2 className="text-2xl font-bold text-white mt-12 mb-4 font-plus-jakarta">
-              AEO Timeline: How Long to See Results
-            </h2>
-            <p className="text-gray-300 leading-relaxed mb-4">
-              Businesses with strong domain authority and well-structured content often see citations begin appearing in AI responses within 4 to 6 weeks of implementing AEO best practices. Consistent citation patterns typically require 3 to 6 months of sustained effort.
-            </p>
-            <p className="text-gray-300 leading-relaxed mb-4">
-              Your timeline depends on three things: your existing SEO foundation, how thoroughly you implement content structure and schema, and how aggressively you pursue earned media and third-party mentions.
-            </p>
-            <p className="text-gray-300 leading-relaxed mb-8">
-              The businesses seeing the fastest AEO results are those that already have decent organic rankings and layer AEO-specific improvements on top. If you are starting from zero, building the SEO foundation first adds time, but the two efforts run in parallel and reinforce each other.
-            </p>
+            <span className="ae-section-label">Timeline</span>
+            <h2>AEO Timeline: How Long to See Results</h2>
+
+            {/* Timeline */}
+            <div className="ae-timeline not-prose">
+              <div className="ae-timeline-item">
+                <strong>Weeks 1-2: Foundation</strong>
+                <p>Implement schema markup, restructure headers to question format, add FAQ sections. Quick wins that signal AI systems immediately.</p>
+              </div>
+              <div className="ae-timeline-item">
+                <strong>Weeks 3-6: Early Citations</strong>
+                <p>Businesses with strong domain authority begin seeing citations in AI responses. Update Google Business Profile and start pricing transparency.</p>
+              </div>
+              <div className="ae-timeline-item">
+                <strong>Months 2-3: Building Momentum</strong>
+                <p>Consistent content publishing, earned media outreach, and topical cluster development. Citation patterns start becoming reliable.</p>
+              </div>
+              <div className="ae-timeline-item">
+                <strong>Months 3-6: Sustained Authority</strong>
+                <p>Full AEO program running. Consistent citation patterns across multiple AI platforms. Measurable impact on lead quality and volume.</p>
+              </div>
+            </div>
+
+            <p>Your timeline depends on three things: your existing SEO foundation, how thoroughly you implement content structure and schema, and how aggressively you pursue earned media and third-party mentions.</p>
+
+            <div className="ae-takeaway not-prose">
+              <strong>Key Takeaway:</strong> The businesses seeing the fastest AEO results are those that already have decent organic rankings and layer AEO-specific improvements on top. If you are starting from zero, building the SEO foundation first adds time, but the two efforts run in parallel and reinforce each other.
+            </div>
+
+            {/* CTA 12 */}
+            <div className="ae-cta-inline not-prose">
+              <p>Ready to start your AEO timeline? <Link href="/blindspot">Get your free Blind Spot Report</Link> and see where you stand today.</p>
+            </div>
 
             {/* Section 13 */}
-            <h2 className="text-2xl font-bold text-white mt-12 mb-4 font-plus-jakarta">
-              AEO for Local Service Businesses: Your Specific Playbook
-            </h2>
-            <p className="text-gray-300 leading-relaxed mb-4">
-              Most AEO guides talk in abstractions. Here is what it looks like for a concrete local service business, whether you are a plumber, roofer, dentist, or landscaper:
-            </p>
-            <ul className="space-y-3 mb-8 text-gray-300">
-              <li className="flex gap-3"><span className="text-orange-400 font-bold flex-shrink-0">.</span><span><strong className="text-white">Service area pages:</strong> Create dedicated pages for each geographic market you serve, structured with clear service descriptions, coverage area, availability, and pricing ranges.</span></li>
-              <li className="flex gap-3"><span className="text-orange-400 font-bold flex-shrink-0">.</span><span><strong className="text-white">Local FAQ expansion:</strong> Answer the specific questions local customers ask: licensing, warranties, response time, what happens during a service call, payment options.</span></li>
-              <li className="flex gap-3"><span className="text-orange-400 font-bold flex-shrink-0">.</span><span><strong className="text-white">Problem-solution content:</strong> Optimize for questions like "How do I know if I need a new roof?" with clear, actionable answers that position your expertise before the pitch.</span></li>
-              <li className="flex gap-3"><span className="text-orange-400 font-bold flex-shrink-0">.</span><span><strong className="text-white">Comparison guides:</strong> "Plumbing Services: When to DIY vs. Call a Professional" creates decision-stage content that AI gets asked constantly.</span></li>
-              <li className="flex gap-3"><span className="text-orange-400 font-bold flex-shrink-0">.</span><span><strong className="text-white">Credentials front and center:</strong> Licenses, certifications, insurance, years in business. AI weights licensed professionals highly in service recommendation queries.</span></li>
-              <li className="flex gap-3"><span className="text-orange-400 font-bold flex-shrink-0">.</span><span><strong className="text-white">Pricing transparency:</strong> Even ranges ("emergency plumbing typically runs $150 to $400 for the first hour") create citation-worthy content for decision-stage queries.</span></li>
-            </ul>
+            <span className="ae-section-label">Local Business Playbook</span>
+            <h2>AEO for Local Service Businesses: Your Specific Playbook</h2>
 
-          </article>
+            <p>Most AEO guides talk in abstractions. Here is what it looks like for a concrete local service business, whether you are a plumber, roofer, dentist, or landscaper:</p>
+
+            <div className="ae-callout ae-callout-success not-prose">
+              <div className="ae-callout-title">The Local AEO Action Plan</div>
+              <ul style={{ marginTop: '8px', paddingLeft: '20px' }}>
+                <li><strong>Service area pages:</strong> Dedicated pages for each geographic market with clear service descriptions, coverage area, availability, and pricing ranges</li>
+                <li><strong>Local FAQ expansion:</strong> Answer specific questions local customers ask: licensing, warranties, response time, payment options</li>
+                <li><strong>Problem-solution content:</strong> Optimize for questions like &quot;How do I know if I need a new roof?&quot; with clear, actionable answers</li>
+                <li><strong>Comparison guides:</strong> &quot;Plumbing Services: When to DIY vs. Call a Professional&quot; creates decision-stage content AI gets asked constantly</li>
+                <li><strong>Credentials front and center:</strong> Licenses, certifications, insurance, years in business. AI weights licensed professionals highly</li>
+                <li><strong>Pricing transparency:</strong> Even ranges (&quot;emergency plumbing typically runs $150 to $400 for the first hour&quot;) create citation-worthy content</li>
+              </ul>
+            </div>
+
+            {/* CTA 13 */}
+            <div className="ae-cta-inline not-prose">
+              <p>Running a local service business? Call <a href="tel:+12134442229">(213) 444-2229</a> to discuss your specific AEO strategy.</p>
+            </div>
+
+            {/* Cheat Sheet */}
+            <div className="ae-cheat-sheet not-prose">
+              <div className="ae-cheat-sheet-title">AEO Quick-Start Cheat Sheet</div>
+              <table>
+                <thead>
+                  <tr>
+                    <th>Action</th>
+                    <th>When</th>
+                    <th>Why</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>Add FAQPage + LocalBusiness schema</td>
+                    <td>Day 1</td>
+                    <td>Highest-impact technical signal for AI</td>
+                  </tr>
+                  <tr>
+                    <td>Rewrite headers as questions</td>
+                    <td>Day 1-3</td>
+                    <td>Matches how people query AI assistants</td>
+                  </tr>
+                  <tr>
+                    <td>Put direct answers in first 50 words</td>
+                    <td>Day 1-3</td>
+                    <td>Creates the &quot;answer extract zone&quot; AI scans for</td>
+                  </tr>
+                  <tr>
+                    <td>Add pricing info to service pages</td>
+                    <td>Week 1</td>
+                    <td>Major citation trigger for local queries</td>
+                  </tr>
+                  <tr>
+                    <td>Build FAQ sections on every page</td>
+                    <td>Week 1-2</td>
+                    <td>Explicit Q&A pairs AI can directly cite</td>
+                  </tr>
+                  <tr>
+                    <td>Update Google Business Profile</td>
+                    <td>Week 1</td>
+                    <td>AI pulls GBP data for local answers</td>
+                  </tr>
+                  <tr>
+                    <td>Pursue earned media and PR</td>
+                    <td>Month 1+</td>
+                    <td>82% of AI citations come from third-party sources</td>
+                  </tr>
+                  <tr>
+                    <td>Refresh content quarterly</td>
+                    <td>Ongoing</td>
+                    <td>AI systems weight recency in citation decisions</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+
+            {/* CTA 14 */}
+            <div className="ae-cta-inline not-prose">
+              <p>This cheat sheet is just the beginning. <Link href="/blindspot">Get your free Blind Spot Report</Link> for a personalized action plan based on your actual AI visibility.</p>
+            </div>
+
+          </div>{/* end prose */}
+
+          {/* Author Card */}
+          <div className="ae-author-card not-prose">
+            <div className="w-14 h-14 rounded-full flex items-center justify-center text-white font-bold text-lg flex-shrink-0" style={{ backgroundColor: '#FF6A00' }}>
+              AE
+            </div>
+            <div>
+              <p style={{ color: 'white', fontWeight: 600, marginBottom: '4px' }}>The Answer Engine Team</p>
+              <p style={{ color: '#9CA3AF', fontSize: '14px' }}>We help local service businesses become the answer AI platforms recommend. Published March 8, 2026 at theanswerengine.ai</p>
+            </div>
+          </div>
+
+          {/* CTA Block */}
+          <div className="ae-cta-block not-prose">
+            <h2 style={{ color: 'white', fontSize: '24px', fontWeight: 700, marginBottom: '12px' }}>Find Out If AI Platforms Can See Your Business</h2>
+            <p style={{ color: '#D1D5DB', marginBottom: '24px' }}>Most local service businesses have zero visibility in AI answers right now. Get a free AI visibility check and see exactly where you stand. No pitch, just the data.</p>
+            <div style={{ display: 'flex', flexWrap: 'wrap', gap: '12px', marginBottom: '20px' }}>
+              <Link href="/blindspot" className="inline-block bg-[#FF6A00] hover:bg-orange-600 text-white font-semibold px-6 py-3 rounded-lg transition-colors">
+                Get Your Free Blind Spot Report
+              </Link>
+            </div>
+            <div style={{ display: 'flex', flexWrap: 'wrap', alignItems: 'center', gap: '24px', paddingTop: '16px', borderTop: '1px solid rgba(255, 106, 0, 0.1)' }}>
+              <a href="tel:+12134442229" className="flex items-center gap-2 text-gray-400 hover:text-white transition-colors">
+                <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" /></svg>
+                (213) 444-2229
+              </a>
+              <a href="mailto:support@theanswerengine.ai" className="flex items-center gap-2 text-gray-400 hover:text-white transition-colors">
+                <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" /></svg>
+                support@theanswerengine.ai
+              </a>
+            </div>
+          </div>
 
           {/* FAQ Section */}
           <section className="mt-16">
@@ -687,46 +977,26 @@ export default function AEOGuidePage() {
             </div>
           </section>
 
-          {/* CTA Section */}
-          <div className="mt-16 p-8 rounded-2xl border border-gray-800 bg-gradient-to-r from-gray-900 to-gray-800">
-            <h2 className="text-2xl font-bold text-white mb-4 font-plus-jakarta">
-              Find Out If AI Platforms Can See Your Business
-            </h2>
-            <p className="text-gray-300 mb-6">
-              Most local service businesses have zero visibility in AI answers right now. Get a free AI visibility check and see exactly where you stand. No pitch, just the data.
-            </p>
-            <a
-              href="/blindspot"
-              className="inline-block bg-[#FF6A00] hover:bg-orange-600 text-white font-semibold px-6 py-3 rounded-lg transition-colors"
-            >
-              Get Your Free Blind Spot Report
-            </a>
-    <div className="flex flex-wrap items-center gap-6 mt-6 pt-6 border-t border-[#FF6A00]/10">
-      <a href="tel:+12134442229" className="flex items-center gap-2 text-gray-400 hover:text-white transition-colors">
-        <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" /></svg>
-        (213) 444-2229
-      </a>
-      <a href="mailto:support@theanswerengine.ai" className="flex items-center gap-2 text-gray-400 hover:text-white transition-colors">
-        <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" /></svg>
-        support@theanswerengine.ai
-      </a>
-    </div>
+          {/* CTA 15 */}
+          <div className="ae-cta-inline not-prose" style={{ marginTop: '32px' }}>
+            <p>Still have questions? Reach out at <a href="mailto:support@theanswerengine.ai">support@theanswerengine.ai</a> or call <a href="tel:+12134442229">(213) 444-2229</a>. We are here to help.</p>
           </div>
 
-          {/* Author Attribution */}
-          <div className="mt-12 pt-8 border-t border-gray-800 flex items-center gap-4">
-            <div
-              className="w-10 h-10 rounded-full flex items-center justify-center text-white font-bold text-sm flex-shrink-0"
-              style={{ backgroundColor: '#FF6A00' }}
-            >
-              AE
-            </div>
-            <div>
-              <p className="text-white text-sm font-medium">The Answer Engine Team</p>
-              <p className="text-gray-500 text-xs">Published March 8, 2026 at theanswerengine.ai</p>
+          {/* Final CTA */}
+          <div className="ae-final-cta not-prose">
+            <div className="ae-final-cta-pulse"></div>
+            <h2 style={{ color: 'white', fontSize: '28px', fontWeight: 700, marginBottom: '12px', position: 'relative', zIndex: 1 }}>Your Competitors Are Already Optimizing for AI. Are You?</h2>
+            <p style={{ color: '#D1D5DB', marginBottom: '24px', maxWidth: '600px', marginLeft: 'auto', marginRight: 'auto', position: 'relative', zIndex: 1 }}>Every day you wait, competitors capture more AI citations, more trust, and more customers. The businesses that move first build a moat that gets harder to cross over time.</p>
+            <Link href="/blindspot" className="inline-block bg-[#FF6A00] hover:bg-orange-600 text-white font-bold px-8 py-4 rounded-xl text-lg transition-colors" style={{ position: 'relative', zIndex: 1 }}>
+              Get Your Free Blind Spot Report Now
+            </Link>
+            <div style={{ display: 'flex', justifyContent: 'center', gap: '24px', marginTop: '16px', position: 'relative', zIndex: 1 }}>
+              <a href="tel:+12134442229" className="text-gray-400 hover:text-white transition-colors text-sm">(213) 444-2229</a>
+              <a href="mailto:support@theanswerengine.ai" className="text-gray-400 hover:text-white transition-colors text-sm">support@theanswerengine.ai</a>
             </div>
           </div>
-        </div>
+
+        </article>
       </main>
     </>
   )

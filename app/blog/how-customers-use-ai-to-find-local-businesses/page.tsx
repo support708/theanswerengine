@@ -91,18 +91,152 @@ export default function Page() {
       <article className="max-w-4xl mx-auto px-6 pb-20">
         <div className="prose prose-invert prose-lg max-w-none prose-headings:font-plus-jakarta prose-headings:text-white prose-p:text-gray-300 prose-a:text-[#FF6A00] prose-a:no-underline hover:prose-a:underline prose-strong:text-white">
 
+          {/* ── STATS GRID ── */}
+          <div className="ae-stats-grid not-prose">
+            <div className="ae-stat-card">
+              <div className="ae-stat-emoji">📊</div>
+              <div className="ae-stat-value ae-accent">17%</div>
+              <div className="ae-stat-label">CHATGPT MARKET SHARE</div>
+            </div>
+            <div className="ae-stat-card">
+              <div className="ae-stat-emoji">💬</div>
+              <div className="ae-stat-value ae-accent">2.5B</div>
+              <div className="ae-stat-label">DAILY PROMPTS</div>
+            </div>
+            <div className="ae-stat-card">
+              <div className="ae-stat-emoji">⏱️</div>
+              <div className="ae-stat-value ae-accent">14 min</div>
+              <div className="ae-stat-label">AVG SESSION LENGTH</div>
+            </div>
+            <div className="ae-stat-card">
+              <div className="ae-stat-emoji">🎯</div>
+              <div className="ae-stat-value ae-accent">5x</div>
+              <div className="ae-stat-label">CONVERSION RATE</div>
+            </div>
+          </div>
+
           <p>Your customers are changing how they search for businesses. Not gradually. Rapidly. ChatGPT alone now processes billions of prompts every day, and it has captured double-digit search market share for the first time. No competitor has ever taken that much share from Google this quickly.</p>
 
           <p>But here is what most business owners miss: AI is not replacing Google. It is changing the way people make decisions before they ever reach Google. And if you do not understand that difference, you will keep optimizing for the wrong thing.</p>
 
+          <div className="ae-callout ae-callout-warning not-prose">
+            <div className="ae-callout-title">Reality Check</div>
+            <p>If your marketing strategy only targets Google, you are already invisible to the fastest-growing search channel in history. AI search is not coming. It is here.</p>
+          </div>
+
+          {/* ── CTA INLINE 1 ── */}
+          <div className="ae-cta-inline not-prose">
+            <p>Are you visible where your customers are actually searching?</p>
+            <Link href="/blindspot">Get Your Free Blind Spot Report →</Link>
+          </div>
+
+          {/* ── SECTION: NEW SEARCH BEHAVIOR ── */}
+          <span className="ae-section-label">Customer Behavior</span>
           <h2>The New Search Behavior Pattern</h2>
 
           <p>The old pattern was linear. Customer has a question, goes to Google, clicks a few results, makes a decision. The new pattern is conversational. Customer has a question, opens ChatGPT (or Perplexity, or Claude), has a back-and-forth conversation, narrows their options, and then goes to Google to find the specific business the AI recommended.</p>
 
           <p>This is why the data shows that most ChatGPT users still also use Google. It is not either-or. It is a two-step process where AI handles the evaluation phase and Google handles the navigation phase.</p>
 
-          <p><Link href="/blog/what-happens-when-customer-asks-ai-find-business">When a customer asks AI to find a business</Link>, the conversation follows a pattern that looks nothing like a Google search. They start broad ("I need a plumber"), get specific through follow-up questions ("one who does tankless water heater installs"), and then ask for a direct recommendation ("which one should I call first?"). The AI guides them through a decision funnel that used to happen across ten Google searches and five different websites.</p>
+          <p><Link href="/blog/what-happens-when-customer-asks-ai-find-business">When a customer asks AI to find a business</Link>, the conversation follows a pattern that looks nothing like a Google search. They start broad, get specific through follow-up questions, and then ask for a direct recommendation. The AI guides them through a decision funnel that used to happen across ten Google searches and five different websites.</p>
 
+          {/* ── TIMELINE ── */}
+          <div className="ae-timeline not-prose">
+            <div className="ae-timeline-item">
+              <div className="ae-timeline-step">Step 1</div>
+              <div className="ae-timeline-title">Initial Query</div>
+              <div className="ae-timeline-desc">Customer opens ChatGPT and types a broad question like &quot;I need a plumber&quot; or &quot;best dentist for kids.&quot;</div>
+            </div>
+            <div className="ae-timeline-item">
+              <div className="ae-timeline-step">Step 2</div>
+              <div className="ae-timeline-title">Conversation</div>
+              <div className="ae-timeline-desc">AI asks clarifying questions about location, budget, specific needs, and urgency to narrow options.</div>
+            </div>
+            <div className="ae-timeline-item">
+              <div className="ae-timeline-step">Step 3</div>
+              <div className="ae-timeline-title">Refinement</div>
+              <div className="ae-timeline-desc">Customer pushes back, asks for alternatives, compares options, and requests specific details about each recommendation.</div>
+            </div>
+            <div className="ae-timeline-item">
+              <div className="ae-timeline-step">Step 4</div>
+              <div className="ae-timeline-title">Decision</div>
+              <div className="ae-timeline-desc">AI provides a final recommendation with reasoning. Customer feels confident because the answer was personalized through conversation.</div>
+            </div>
+            <div className="ae-timeline-item">
+              <div className="ae-timeline-step">Step 5</div>
+              <div className="ae-timeline-title">Action</div>
+              <div className="ae-timeline-desc">Customer clicks through to the recommended business website or Googles the business name directly to make contact.</div>
+            </div>
+          </div>
+
+          <div className="ae-takeaway not-prose">
+            <div className="ae-takeaway-title">Key Takeaway</div>
+            <p>The customer journey now starts with an AI conversation, not a Google search. By the time they reach your website, the decision is already 80% made.</p>
+          </div>
+
+          {/* ── CTA INLINE 2 ── */}
+          <div className="ae-cta-inline not-prose">
+            <p>Find out if AI is recommending your business or your competitors.</p>
+            <Link href="/blindspot">Run Your Free AI Visibility Check →</Link>
+          </div>
+
+          {/* ── SECTION: COMPARISON TABLE ── */}
+          <span className="ae-section-label">Search Comparison</span>
+          <h2>Google Search vs AI Search: How Customer Behavior Differs</h2>
+
+          <p>Understanding the difference between how customers interact with Google versus AI search is critical for adapting your marketing strategy. The table below breaks down the key behavioral differences.</p>
+
+          <div className="not-prose">
+            <table className="ae-comparison-table">
+              <thead>
+                <tr>
+                  <th>Behavior</th>
+                  <th>Google Search</th>
+                  <th>AI Search</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Query Style</td>
+                  <td>Short keywords (&quot;plumber near me&quot;)</td>
+                  <td>Full sentences (&quot;I need a plumber who does tankless installs&quot;)</td>
+                </tr>
+                <tr>
+                  <td>Session Length</td>
+                  <td>~5 minutes average</td>
+                  <td>~14 minutes average</td>
+                </tr>
+                <tr>
+                  <td>Decision Process</td>
+                  <td>Scan 10 results, click 2-3</td>
+                  <td>Conversational back-and-forth refinement</td>
+                </tr>
+                <tr>
+                  <td>Trust Level</td>
+                  <td>Varies by result position</td>
+                  <td>Treated like a knowledgeable friend</td>
+                </tr>
+                <tr>
+                  <td>Follow-ups</td>
+                  <td>New separate searches</td>
+                  <td>Continuous thread of conversation</td>
+                </tr>
+                <tr>
+                  <td>Conversion Rate</td>
+                  <td>Baseline</td>
+                  <td>Up to 5x higher</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+
+          <div className="ae-callout ae-callout-info not-prose">
+            <div className="ae-callout-title">Key Insight</div>
+            <p>AI search sessions last 3x longer because users are having real conversations, not just scanning links. This deeper engagement means AI recommendations carry significantly more influence over purchasing decisions.</p>
+          </div>
+
+          {/* ── SECTION: SESSION LENGTH ── */}
+          <span className="ae-section-label">Session Analytics</span>
           <h2>Why AI Sessions Are Three Times Longer Than Google</h2>
 
           <p>A typical ChatGPT session lasts nearly three times as long as a Google session. That is not because ChatGPT is slower. It is because users are having genuine conversations. They ask follow-up questions. They refine their criteria. They push back on recommendations and ask for alternatives.</p>
@@ -111,14 +245,84 @@ export default function Page() {
 
           <p>For your business, this means the recommendation AI gives carries enormous weight. A user who spent fourteen minutes in conversation with ChatGPT, progressively narrowing their options until the AI recommended your business, is much more convinced than someone who clicked your Google listing because it was the third organic result.</p>
 
+          {/* ── DECISION MATRIX ── */}
+          <div className="ae-decision-matrix not-prose">
+            <div className="ae-decision-matrix-title">How AI Processes Customer Queries</div>
+            <div className="ae-decision-row">
+              <div className="ae-decision-if">Customer asks &quot;best plumber near me&quot;</div>
+              <div className="ae-decision-arrow">&rarr;</div>
+              <div className="ae-decision-then">AI evaluates reviews, website authority, third-party mentions, and geographic relevance</div>
+            </div>
+            <div className="ae-decision-row">
+              <div className="ae-decision-if">Customer asks &quot;is [Company] any good?&quot;</div>
+              <div className="ae-decision-arrow">&rarr;</div>
+              <div className="ae-decision-then">AI checks review sentiment, complaint patterns, response quality, and industry reputation</div>
+            </div>
+            <div className="ae-decision-row">
+              <div className="ae-decision-if">Customer asks &quot;who should I hire for a roof replacement?&quot;</div>
+              <div className="ae-decision-arrow">&rarr;</div>
+              <div className="ae-decision-then">AI cross-references licensing, insurance mentions, project examples, and community feedback</div>
+            </div>
+            <div className="ae-decision-row">
+              <div className="ae-decision-if">Customer asks &quot;compare [Business A] vs [Business B]&quot;</div>
+              <div className="ae-decision-arrow">&rarr;</div>
+              <div className="ae-decision-then">AI weighs breadth of mentions, review volume, pricing transparency, and specialization signals</div>
+            </div>
+            <div className="ae-decision-row">
+              <div className="ae-decision-if">Customer asks &quot;which dentist is best for kids?&quot;</div>
+              <div className="ae-decision-arrow">&rarr;</div>
+              <div className="ae-decision-then">AI looks for pediatric specialization signals, parent reviews, office environment mentions</div>
+            </div>
+          </div>
+
+          <div className="ae-takeaway not-prose">
+            <div className="ae-takeaway-title">Key Takeaway</div>
+            <p>AI does not just match keywords like Google. It synthesizes information from dozens of sources to build a recommendation. The businesses that show up are the ones with the broadest, most consistent presence across the web.</p>
+          </div>
+
+          {/* ── CTA INLINE 3 ── */}
+          <div className="ae-cta-inline not-prose">
+            <p>What does AI actually say when customers ask about your industry?</p>
+            <Link href="/blindspot">See Your AI Presence Score →</Link>
+          </div>
+
+          {/* ── SECTION: WHERE AI GETS RECOMMENDATIONS ── */}
+          <span className="ae-section-label">Data Sources</span>
           <h2>Where AI Gets Its Recommendations</h2>
 
-          <p>This is the part that should concern every business owner who is not actively managing their AI presence. The vast majority of brand mentions in AI search results come from third-party pages, not from the business's own website.</p>
+          <p>This is the part that should concern every business owner who is not actively managing their AI presence. The vast majority of brand mentions in AI search results come from third-party pages, not from the business&apos;s own website.</p>
 
-          <p>Read that again. When AI recommends a business, it is usually citing information it found on review sites, industry directories, news articles, community forums, and social platforms. Not the business's own About page or service descriptions.</p>
+          <p>Read that again. When AI recommends a business, it is usually citing information it found on review sites, industry directories, news articles, community forums, and social platforms. Not the business&apos;s own About page or service descriptions.</p>
+
+          {/* ── BAR GROUP ── */}
+          <div className="ae-bar-group not-prose">
+            <div className="ae-bar-item">
+              <div className="ae-bar-label">Third-Party Sources</div>
+              <div className="ae-bar-track"><div className="ae-bar-fill" style={{width:'85%'}}></div></div>
+              <div className="ae-bar-value">85%</div>
+            </div>
+            <div className="ae-bar-item">
+              <div className="ae-bar-label">Business Own Website</div>
+              <div className="ae-bar-track"><div className="ae-bar-fill" style={{width:'15%'}}></div></div>
+              <div className="ae-bar-value">15%</div>
+            </div>
+          </div>
 
           <p><Link href="/blog/how-chatgpt-chooses-businesses-to-recommend">How ChatGPT chooses which businesses to recommend</Link> depends on the strength and consistency of those third-party signals. If your business has a strong website but no presence anywhere else, AI has very little to work with. If your competitor has reviews on Google, mentions on Reddit, citations in industry publications, and a solid LinkedIn presence, AI has a much stronger signal to draw from.</p>
 
+          <div className="ae-callout ae-callout-orange not-prose">
+            <div className="ae-callout-title">Warning for Business Owners</div>
+            <p>85% of the information AI uses to recommend (or skip) your business comes from sources you do not control. Reviews, directories, forums, and news articles carry far more weight than your own website. If you are not actively building presence across these channels, AI has nothing to work with.</p>
+          </div>
+
+          {/* ── CTA INLINE 4 ── */}
+          <div className="ae-cta-inline not-prose">
+            <p>Discover which third-party sources AI is pulling your business data from.</p>
+            <Link href="/blindspot">Get Your Source Analysis →</Link>
+          </div>
+
+          {/* ── SECTION: AI EXPANDS THE PIE ── */}
+          <span className="ae-section-label">Market Growth</span>
           <h2>AI Search Expands the Pie, It Does Not Shrink It</h2>
 
           <p>One of the most counterintuitive findings in recent data is that AI search is not cannibalizing Google. Users who adopt ChatGPT for search do not stop using Google. They use both. AI handles the questions that Google was never great at answering: nuanced comparisons, personalized recommendations, and complex decision support.</p>
@@ -127,6 +331,45 @@ export default function Page() {
 
           <p><Link href="/blog/how-ai-search-changes-sales-funnel">The sales funnel itself is being reshaped by AI search</Link>. The awareness and consideration phases are increasingly happening inside AI conversations, while Google is becoming more of a navigation tool for users who already know what they want.</p>
 
+          {/* ── PROS/CONS ── */}
+          <div className="ae-pros-cons not-prose">
+            <div className="ae-pros-box">
+              <div className="ae-pros-title">AI Search Advantages for Businesses</div>
+              <ul>
+                <li>Higher conversion rates from pre-qualified visitors</li>
+                <li>Longer engagement means deeper trust building</li>
+                <li>Personalized recommendations match intent precisely</li>
+                <li>Expands total search volume beyond Google alone</li>
+                <li>Less competition than saturated Google results pages</li>
+                <li>Brand mentions feel like peer recommendations</li>
+              </ul>
+            </div>
+            <div className="ae-cons-box">
+              <div className="ae-cons-title">AI Search Challenges for Businesses</div>
+              <ul>
+                <li>Most businesses have zero AI optimization strategy</li>
+                <li>Cannot buy ads or pay for placement in AI answers</li>
+                <li>Third-party sources drive 85% of AI brand mentions</li>
+                <li>Outdated or negative reviews are amplified by AI</li>
+                <li>No direct analytics dashboard for AI visibility</li>
+                <li>Requires consistent presence across many platforms</li>
+              </ul>
+            </div>
+          </div>
+
+          <div className="ae-takeaway not-prose">
+            <div className="ae-takeaway-title">Key Takeaway</div>
+            <p>AI search is additive, not a replacement. Your customers are searching more than ever, but they are doing it in places your current strategy does not cover. The businesses that build AI presence now will dominate while competitors are still catching up.</p>
+          </div>
+
+          {/* ── CTA INLINE 5 ── */}
+          <div className="ae-cta-inline not-prose">
+            <p>Your competitors are invisible to AI too. Be the first in your market to fix that.</p>
+            <Link href="/blindspot">Claim Your Market First →</Link>
+          </div>
+
+          {/* ── SECTION: CONVERSION ADVANTAGE ── */}
+          <span className="ae-section-label">Conversion Data</span>
           <h2>The Conversion Advantage Nobody Talks About</h2>
 
           <p>AI-referred traffic converts at a significantly higher rate than traditional organic traffic. Some studies put the difference at five times higher. This makes intuitive sense when you think about the user experience.</p>
@@ -135,6 +378,19 @@ export default function Page() {
 
           <p>This is why raw traffic numbers are becoming a misleading metric. Ten visitors from AI search may be worth more than fifty visitors from organic Google. The quality of the traffic matters more than the quantity, especially when zero-click search is reducing quantity across the board.</p>
 
+          <div className="ae-callout ae-callout-info not-prose">
+            <div className="ae-callout-title">The Math That Matters</div>
+            <p>If AI traffic converts at 5x the rate of Google organic, then 100 AI visitors equal the value of 500 Google visitors. Businesses that ignore AI search are leaving their highest-quality leads on the table.</p>
+          </div>
+
+          {/* ── CTA INLINE 6 ── */}
+          <div className="ae-cta-inline not-prose">
+            <p>Stop chasing volume. Start capturing the visitors who are ready to buy.</p>
+            <Link href="/blindspot">See Your AI Conversion Potential →</Link>
+          </div>
+
+          {/* ── SECTION: WHAT THIS MEANS ── */}
+          <span className="ae-section-label">Action Plan</span>
           <h2>What This Means for Your Business Right Now</h2>
 
           <p>The shift is happening whether you participate or not. Your customers are already asking AI for recommendations. The only question is whether AI mentions your business when they do.</p>
@@ -143,29 +399,82 @@ export default function Page() {
 
           <p>If you have been relying exclusively on your website and Google rankings, you are operating in one channel of a multi-channel world. Your customers are already in the other channels. The question is whether you will meet them there.</p>
 
-          <div className="not-prose my-16 p-8 rounded-2xl bg-gradient-to-br from-[#FF6A00]/10 to-transparent border border-[#FF6A00]/20">
-            <h3 className="font-plus-jakarta text-2xl font-bold text-white mb-3">Find Out What AI Says About Your Business</h3>
-            <p className="text-gray-400 mb-6">Our free Blind Spot Report shows exactly how you appear across ChatGPT, Claude, Perplexity, and Google AI. See what your customers see when they ask AI about your industry.</p>
-            <Link href="/blindspot" className="inline-flex items-center gap-2 bg-[#FF6A00] text-white px-6 py-3 rounded-lg font-semibold hover:bg-[#e55f00] transition-colors">
-              Get Your Free Blind Spot Report
-              <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" /></svg>
-            </Link>
-    <div className="flex flex-wrap items-center gap-6 mt-6 pt-6 border-t border-[#FF6A00]/10">
-      <a href="tel:+12134442229" className="flex items-center gap-2 text-gray-400 hover:text-white transition-colors">
-        <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" /></svg>
-        (213) 444-2229
-      </a>
-      <a href="mailto:support@theanswerengine.ai" className="flex items-center gap-2 text-gray-400 hover:text-white transition-colors">
-        <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" /></svg>
-        support@theanswerengine.ai
-      </a>
-    </div>
+          {/* ── CHEAT SHEET ── */}
+          <div className="ae-cheat-sheet not-prose">
+            <div className="ae-cheat-sheet-title">How Customers Search with AI</div>
+            <table>
+              <thead>
+                <tr>
+                  <th>What Customers Do</th>
+                  <th>What It Means for You</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Ask full-sentence questions instead of keywords</td>
+                  <td>Your content needs to answer real questions, not just target keywords</td>
+                </tr>
+                <tr>
+                  <td>Have multi-turn conversations with AI</td>
+                  <td>AI needs depth of information about your business to answer follow-ups</td>
+                </tr>
+                <tr>
+                  <td>Ask AI to compare you to competitors</td>
+                  <td>Your differentiators must be visible across third-party sources</td>
+                </tr>
+                <tr>
+                  <td>Trust AI like a friend recommendation</td>
+                  <td>Review quality and volume directly impact AI recommendations</td>
+                </tr>
+                <tr>
+                  <td>Click through only after AI pre-qualifies</td>
+                  <td>AI visitors are 5x more likely to convert than Google visitors</td>
+                </tr>
+                <tr>
+                  <td>Use Google after AI to navigate to the business</td>
+                  <td>Brand search and direct traffic will increase as AI adoption grows</td>
+                </tr>
+                <tr>
+                  <td>Spend 14 min on average per AI session</td>
+                  <td>Longer sessions mean the recommendation AI gives carries much more weight</td>
+                </tr>
+              </tbody>
+            </table>
           </div>
 
+          {/* ── CTA INLINE 7 ── */}
+          <div className="ae-cta-inline not-prose">
+            <p>Get the data on exactly how AI sees your business today.</p>
+            <Link href="/blindspot">Run Your Free Analysis →</Link>
+          </div>
+
+          {/* ── CTA BLOCK ── */}
+          <div className="ae-cta-block not-prose">
+            <h3>Your Customers Are Already Asking AI About You</h3>
+            <p>The question is not whether AI search matters. The question is what AI says when your customers ask. Our free Blind Spot Report shows you exactly how you appear across ChatGPT, Claude, Perplexity, and Google AI.</p>
+            <Link href="/blindspot">Get Your Free Blind Spot Report →</Link>
+          </div>
+
+          {/* ── AUTHOR CARD ── */}
+          <div className="ae-author-card not-prose">
+            <div className="ae-author-avatar">AE</div>
+            <div>
+              <div className="ae-author-name">The Answer Engine Team</div>
+              <div className="ae-author-role">Helping businesses get found by AI search platforms</div>
+            </div>
+          </div>
+
+          {/* ── FAQ ── */}
+          <span className="ae-section-label">FAQ</span>
           <h2>Frequently Asked Questions</h2>
 
           <h3>Are customers using ChatGPT instead of Google to find businesses?</h3>
           <p>Increasingly, yes. ChatGPT has captured double-digit search market share as of early 2026. However, most users still also use Google. AI is expanding how people search rather than completely replacing traditional search engines.</p>
+
+          <div className="ae-cta-inline not-prose">
+            <p>See how this shift affects your specific business.</p>
+            <Link href="/blindspot">Check Your AI Visibility →</Link>
+          </div>
 
           <h3>What percentage of people now search with AI instead of Google?</h3>
           <p>ChatGPT alone holds a significant share of the search market as of 2026, the first competitor to reach double-digit share against Google. When you factor in Perplexity, Claude, and Google AI itself, the total AI search volume is even larger.</p>
@@ -173,25 +482,44 @@ export default function Page() {
           <h3>Do people trust AI recommendations when choosing a local business?</h3>
           <p>Trust in AI recommendations is growing. Users tend to treat AI suggestions similarly to a recommendation from a knowledgeable friend. The conversational format creates a sense of personal guidance that traditional search results do not.</p>
 
+          <div className="ae-cta-inline not-prose">
+            <p>Find out if AI recommends you or your competitor when trust is on the line.</p>
+            <Link href="/blindspot">Get Your Trust Score →</Link>
+          </div>
+
           <h3>What types of questions do customers ask AI about businesses?</h3>
           <p>Customers ask AI comparison questions (who is the best plumber near me), evaluation questions (is this company reliable), process questions (how do I hire a contractor), and specific recommendation questions (which dentist should I choose for my child).</p>
 
           <h3>Is ChatGPT actually replacing Google for buying decisions?</h3>
           <p>Not replacing, but supplementing. Most ChatGPT users still use Google in the same month. What is happening is that AI is becoming the first stop for research and evaluation, while Google gets used for navigation and quick lookups.</p>
 
+          <div className="ae-cta-inline not-prose">
+            <p>Are you winning the research phase or losing it to competitors?</p>
+            <Link href="/blindspot">Find Out Now →</Link>
+          </div>
+
           <h3>How long do people spend searching on ChatGPT vs Google?</h3>
           <p>A typical ChatGPT session lasts nearly three times longer than a Google session. Users spend more time in conversation with AI, asking follow-up questions and refining their search. This deeper engagement means the recommendations AI gives carry more weight.</p>
 
           <h3>Do people who find my business through AI actually become customers?</h3>
           <p>AI-referred traffic converts at a significantly higher rate than traditional organic search traffic. Users who reach your business through AI have already been pre-qualified by the AI conversation, making them more likely to convert.</p>
-        </div>
 
-        <div className="mt-16 pt-8 border-t border-gray-800 flex items-center gap-4">
-          <div className="w-12 h-12 rounded-full bg-[#FF6A00]/20 flex items-center justify-center text-[#FF6A00] font-bold text-lg">AE</div>
-          <div>
-            <p className="text-white font-semibold">The Answer Engine Team</p>
-            <p className="text-gray-500 text-sm">Helping businesses get found by AI search platforms</p>
+          <div className="ae-cta-inline not-prose">
+            <p>Stop missing out on your highest-converting traffic source.</p>
+            <Link href="/blindspot">See What You Are Missing →</Link>
           </div>
+
+          {/* ── FINAL CTA ── */}
+          <div className="ae-final-cta not-prose">
+            <h2>Find Out What AI Says About Your Business</h2>
+            <p>Our free Blind Spot Report shows exactly how you appear across ChatGPT, Claude, Perplexity, and Google AI. See what your customers see when they ask AI about your industry.</p>
+            <Link href="/blindspot" className="ae-cta-primary">Get Your Free Blind Spot Report</Link>
+            <div style={{display:'flex',flexWrap:'wrap',gap:'24px',justifyContent:'center',marginTop:'20px'}}>
+              <a href="tel:+12134442229" style={{color:'rgba(255,255,255,0.6)'}}>📞 (213) 444-2229</a>
+              <a href="mailto:support@theanswerengine.ai" style={{color:'rgba(255,255,255,0.6)'}}>✉️ support@theanswerengine.ai</a>
+            </div>
+          </div>
+
         </div>
       </article>
     </>

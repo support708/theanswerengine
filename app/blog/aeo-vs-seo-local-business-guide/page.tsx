@@ -212,18 +212,15 @@ export default function AeoVsSeoLocalBusinessGuide() {
             fill="none"
             aria-hidden="true"
           >
-            {/* Grid lines */}
             <line x1="0" y1="100" x2="800" y2="100" stroke="#FF6A00" strokeWidth="0.4" />
             <line x1="0" y1="200" x2="800" y2="200" stroke="#FF6A00" strokeWidth="0.4" />
             <line x1="0" y1="300" x2="800" y2="300" stroke="#FF6A00" strokeWidth="0.4" />
             <line x1="200" y1="0" x2="200" y2="400" stroke="#FF6A00" strokeWidth="0.4" />
             <line x1="400" y1="0" x2="400" y2="400" stroke="#FF6A00" strokeWidth="0.4" />
             <line x1="600" y1="0" x2="600" y2="400" stroke="#FF6A00" strokeWidth="0.4" />
-            {/* Overlapping circles representing two converging strategies */}
             <circle cx="310" cy="200" r="130" stroke="#FF6A00" strokeWidth="0.8" />
             <circle cx="490" cy="200" r="130" stroke="#FF6A00" strokeWidth="0.8" />
             <circle cx="400" cy="200" r="60" stroke="#FF6A00" strokeWidth="1.2" />
-            {/* Corner accents */}
             <path d="M0 0 L80 0 L80 80" stroke="#FF6A00" strokeWidth="0.6" fill="none" />
             <path d="M800 400 L720 400 L720 320" stroke="#FF6A00" strokeWidth="0.6" fill="none" />
           </svg>
@@ -244,8 +241,34 @@ export default function AeoVsSeoLocalBusinessGuide() {
           </div>
         </div>
 
+        {/* Stats Grid */}
+        <div className="not-prose">
+          <div className="ae-stats-grid">
+            <div className="ae-stat-card">
+              <span className="ae-stat-emoji">🔍</span>
+              <span className="ae-stat-value ae-accent">58%</span>
+              <span className="ae-stat-label">of searches are now conversational queries</span>
+            </div>
+            <div className="ae-stat-card">
+              <span className="ae-stat-emoji">🤖</span>
+              <span className="ae-stat-value ae-accent">60%</span>
+              <span className="ae-stat-label">of searches end without a click (zero-click)</span>
+            </div>
+            <div className="ae-stat-card">
+              <span className="ae-stat-emoji">📈</span>
+              <span className="ae-stat-value ae-accent">3.4x</span>
+              <span className="ae-stat-label">more AI traffic for businesses with AEO strategies</span>
+            </div>
+            <div className="ae-stat-card">
+              <span className="ae-stat-emoji">💰</span>
+              <span className="ae-stat-value ae-accent">$9B</span>
+              <span className="ae-stat-label">projected AEO market size by 2031</span>
+            </div>
+          </div>
+        </div>
+
         {/* Article Body */}
-        <article className="text-gray-300 leading-relaxed">
+        <article className="prose prose-invert prose-lg max-w-none prose-headings:font-plus-jakarta prose-headings:text-white prose-p:text-gray-300 prose-a:text-[#FF6A00] prose-a:no-underline hover:prose-a:underline prose-strong:text-white">
 
           {/* Intro */}
           <p className="text-lg mb-8 text-gray-200">
@@ -253,268 +276,615 @@ export default function AeoVsSeoLocalBusinessGuide() {
           </p>
 
           {/* Section 1 */}
-          <h2 className="text-2xl font-bold text-white mt-12 mb-4 font-plus-jakarta">
-            What Has Actually Changed: AEO vs SEO Explained
-          </h2>
-          <p className="mb-4">
+          <div className="not-prose">
+            <div className="ae-section-label">The Landscape Shift</div>
+          </div>
+          <h2>What Has Actually Changed: AEO vs SEO Explained</h2>
+          <p>
             SEO, search engine optimization, is the practice of making your website easy for Google to find, understand, and rank. You optimize your pages, build links, gather reviews, and over time you climb the search results. It has worked well for local businesses for years.
           </p>
-          <p className="mb-4">
+          <p>
             AEO takes a different angle. Instead of optimizing to rank on a results page, you are optimizing to become the answer itself. When someone asks ChatGPT "who is the best plumber in Denver?" or asks Google Assistant "what does HVAC maintenance cost in Phoenix?", AEO is what determines whether your business gets named in the response.
           </p>
-          <p className="mb-6">
+          <p>
             The reason this matters now: 58% of search queries are conversational in nature, fueled by voice search and AI assistants. AI Overviews from Google now appear in roughly 30% of all queries and nearly 75% of problem-solving searches. Meanwhile, 60% of searches end without a click because an AI summary answered the question directly. Your business either shows up in that summary or it is invisible.
           </p>
-          <div className="bg-gray-900 border border-gray-700 rounded-xl p-6 mb-8">
-            <p className="text-orange-400 font-semibold mb-2">By the numbers:</p>
-            <ul className="space-y-2 text-gray-300 text-sm">
-              <li>77% of ChatGPT users in the US treat it like a search engine</li>
-              <li>ChatGPT holds 59.5% of the AI search market share in the US</li>
-              <li>The global AEO market is projected to reach USD 9.04 billion by 2031, growing at 41.8% annually</li>
-            </ul>
+
+          <div className="not-prose">
+            <div className="ae-callout ae-callout-warning">
+              <p className="ae-callout-title">The Zero-Click Reality</p>
+              <p>77% of ChatGPT users in the US treat it like a search engine. ChatGPT holds 59.5% of the AI search market share. If your business is not structured for AI citation, you are losing leads to competitors who are. The global AEO market is projected to reach $9.04 billion by 2031, growing at 41.8% annually.</p>
+            </div>
+          </div>
+
+          <div className="not-prose">
+            <div className="ae-takeaway">
+              <strong>Key Insight:</strong> AEO is not a replacement for SEO. It is a new layer of visibility that determines whether AI platforms name your business or your competitor when customers ask questions.
+            </div>
+          </div>
+
+          {/* CTA 1 */}
+          <div className="not-prose">
+            <div className="ae-cta-inline">
+              <p>Wondering if AI platforms can even see your business right now?</p>
+              <Link href="/blindspot">Get your free AI visibility report</Link>
+            </div>
           </div>
 
           {/* Section 2 */}
-          <h2 className="text-2xl font-bold text-white mt-12 mb-4 font-plus-jakarta">
-            Why Both Matter to Local Service Businesses
-          </h2>
-          <p className="mb-4">
+          <div className="not-prose">
+            <div className="ae-section-label">Strategic Foundation</div>
+          </div>
+          <h2>Why Both Matter to Local Service Businesses</h2>
+          <p>
             Here is what gets lost in the AEO hype: traditional search still drives enormous traffic. In most cases, total referral sessions from all AI platforms combined amount to only about 2-3% of the organic traffic Google alone delivers. That means SEO is not dead. Not even close.
           </p>
-          <p className="mb-4">
+          <p>
             But the direction of travel is clear. AI-assisted search is growing fast, and the businesses that position themselves now will have a significant advantage as that shift accelerates. Companies with dedicated AEO strategies are already seeing 3.4x more answer engine traffic than competitors who have delayed implementation.
           </p>
-          <p className="mb-6">
+          <p>
             The smart play for a local service business: treat SEO as your foundation and AEO as your amplifier. They are not in competition. They work together. When you rank well in traditional search AND get cited in AI answers, you dominate the full search experience for your market.
           </p>
 
+          {/* Bar Chart: Traffic Sources */}
+          <div className="not-prose">
+            <div className="ae-bar-group">
+              <h3 style={{ color: 'white', fontSize: '1.125rem', fontWeight: 700, marginBottom: '1rem' }}>AI Search Market Share (US)</h3>
+              <div className="ae-bar-item">
+                <span className="ae-bar-label">ChatGPT</span>
+                <div className="ae-bar-track">
+                  <div className="ae-bar-fill" style={{ width: '59.5%' }}></div>
+                </div>
+                <span className="ae-bar-value">59.5%</span>
+              </div>
+              <div className="ae-bar-item">
+                <span className="ae-bar-label">Copilot</span>
+                <div className="ae-bar-track">
+                  <div className="ae-bar-fill" style={{ width: '14%' }}></div>
+                </div>
+                <span className="ae-bar-value">14%</span>
+              </div>
+              <div className="ae-bar-item">
+                <span className="ae-bar-label">Gemini</span>
+                <div className="ae-bar-track">
+                  <div className="ae-bar-fill" style={{ width: '13.4%' }}></div>
+                </div>
+                <span className="ae-bar-value">13.4%</span>
+              </div>
+              <div className="ae-bar-item">
+                <span className="ae-bar-label">Perplexity</span>
+                <div className="ae-bar-track">
+                  <div className="ae-bar-fill" style={{ width: '6.2%' }}></div>
+                </div>
+                <span className="ae-bar-value">6.2%</span>
+              </div>
+              <div className="ae-bar-item">
+                <span className="ae-bar-label">Other</span>
+                <div className="ae-bar-track">
+                  <div className="ae-bar-fill" style={{ width: '6.9%' }}></div>
+                </div>
+                <span className="ae-bar-value">6.9%</span>
+              </div>
+            </div>
+          </div>
+
+          <div className="not-prose">
+            <div className="ae-quote">
+              <blockquote>
+                54% of organizations reported improved click-through rates within six months of adopting a hybrid AEO and SEO strategy. You do not have to pick one.
+              </blockquote>
+            </div>
+          </div>
+
+          {/* CTA 2 */}
+          <div className="not-prose">
+            <div className="ae-cta-inline">
+              <p>Not sure where to start with your dual SEO + AEO strategy?</p>
+              <Link href="/blindspot">See what AI knows about your business (free)</Link>
+            </div>
+          </div>
+
           {/* Section 3 */}
-          <h2 className="text-2xl font-bold text-white mt-12 mb-4 font-plus-jakarta">
-            The Core Differences That Impact Your Visibility
-          </h2>
-          <p className="mb-4">
+          <div className="not-prose">
+            <div className="ae-section-label">Head-to-Head Comparison</div>
+          </div>
+          <h2>The Core Differences That Impact Your Visibility</h2>
+          <p>
             Understanding what each strategy actually requires helps you allocate your time and budget effectively.
           </p>
-          <div className="overflow-x-auto mb-8">
-            <table className="w-full text-sm border-collapse">
+
+          <div className="not-prose">
+            <table className="ae-comparison-table">
               <thead>
-                <tr className="border-b border-gray-700">
-                  <th className="text-left py-3 px-4 text-orange-400 font-semibold">Factor</th>
-                  <th className="text-left py-3 px-4 text-orange-400 font-semibold">SEO</th>
-                  <th className="text-left py-3 px-4 text-orange-400 font-semibold">AEO</th>
+                <tr>
+                  <th>Factor</th>
+                  <th>SEO</th>
+                  <th>AEO</th>
                 </tr>
               </thead>
-              <tbody className="text-gray-300">
-                <tr className="border-b border-gray-800">
-                  <td className="py-3 px-4 font-medium text-white">Goal</td>
-                  <td className="py-3 px-4">Rank on search results pages</td>
-                  <td className="py-3 px-4">Become the cited answer</td>
-                </tr>
-                <tr className="border-b border-gray-800">
-                  <td className="py-3 px-4 font-medium text-white">Content style</td>
-                  <td className="py-3 px-4">Keyword-focused pages</td>
-                  <td className="py-3 px-4">Question-and-answer format</td>
-                </tr>
-                <tr className="border-b border-gray-800">
-                  <td className="py-3 px-4 font-medium text-white">Technical focus</td>
-                  <td className="py-3 px-4">Page speed, backlinks, metadata</td>
-                  <td className="py-3 px-4">Schema markup, structured data</td>
-                </tr>
-                <tr className="border-b border-gray-800">
-                  <td className="py-3 px-4 font-medium text-white">Traffic type</td>
-                  <td className="py-3 px-4">Clicks to your website</td>
-                  <td className="py-3 px-4">Brand mentions in AI responses</td>
+              <tbody>
+                <tr>
+                  <td>Goal</td>
+                  <td>Rank on search results pages</td>
+                  <td>Become the cited answer</td>
                 </tr>
                 <tr>
-                  <td className="py-3 px-4 font-medium text-white">Timeline</td>
-                  <td className="py-3 px-4">3-6 months typically</td>
-                  <td className="py-3 px-4">2-12 months for citations</td>
+                  <td>Content Style</td>
+                  <td>Keyword-focused pages</td>
+                  <td>Question-and-answer format</td>
+                </tr>
+                <tr>
+                  <td>Technical Focus</td>
+                  <td>Page speed, backlinks, metadata</td>
+                  <td>Schema markup, structured data</td>
+                </tr>
+                <tr>
+                  <td>Traffic Type</td>
+                  <td>Clicks to your website</td>
+                  <td>Brand mentions in AI responses</td>
+                </tr>
+                <tr>
+                  <td>Timeline</td>
+                  <td>3-6 months typically</td>
+                  <td>2-12 months for citations</td>
+                </tr>
+                <tr>
+                  <td>Measurement</td>
+                  <td>Rankings, traffic, CTR</td>
+                  <td>AI citations, brand mentions</td>
+                </tr>
+                <tr>
+                  <td>Competitive Moat</td>
+                  <td>Backlink authority over time</td>
+                  <td>First-mover citation authority</td>
                 </tr>
               </tbody>
             </table>
           </div>
-          <p className="mb-6">
+
+          <p>
             The most important technical requirement for AEO right now is Schema.org markup. Implementing structured data is no longer just a nice-to-have for traditional SEO; it is a critical requirement for answer engine optimization. Explicitly defining entities, properties, and relationships through structured data directly informs AI models, enabling them to accurately extract and present your business information.
           </p>
 
+          <div className="not-prose">
+            <div className="ae-callout ae-callout-info">
+              <p className="ae-callout-title">Schema Markup Is Your AI Business Card</p>
+              <p>Think of Schema.org markup as the language AI understands natively. Without it, AI models must guess at what your content means. With it, you are handing the AI a perfectly structured answer on a silver platter. LocalBusiness, Service, and FAQPage schema are the three types every local business needs.</p>
+            </div>
+          </div>
+
+          {/* CTA 3 */}
+          <div className="not-prose">
+            <div className="ae-cta-inline">
+              <p>Want to know if your schema markup is AI-ready?</p>
+              <a href="tel:+12134442229">Call us at (213) 444-2229</a>
+            </div>
+          </div>
+
           {/* Section 4 */}
-          <h2 className="text-2xl font-bold text-white mt-12 mb-4 font-plus-jakarta">
-            Quick Wins Local Businesses Can Implement Today
-          </h2>
-          <p className="mb-4">
+          <div className="not-prose">
+            <div className="ae-section-label">Quick Wins</div>
+          </div>
+          <h2>Quick Wins Local Businesses Can Implement Today</h2>
+          <p>
             You do not need a massive budget or a full-time marketing team to get started. These are the highest-impact actions for a local service business:
           </p>
-          <ol className="space-y-6 mb-8">
-            <li className="flex gap-4">
-              <span className="flex-shrink-0 w-8 h-8 rounded-full bg-orange-500 text-white text-sm font-bold flex items-center justify-center">1</span>
-              <div>
-                <p className="font-semibold text-white mb-1">Add a dedicated FAQ section to every main service page</p>
-                <p className="text-gray-300 text-sm">
-                  A FAQ section is the most efficient way to provide cite-able answers, securing your position as the definitive source for AI-generated results. Write each question the way a real customer would ask it: "How much does window cleaning cost in Austin?" not "window cleaning pricing."
-                </p>
-              </div>
+          <ol>
+            <li>
+              <strong>Add a dedicated FAQ section to every main service page.</strong> A FAQ section is the most efficient way to provide cite-able answers, securing your position as the definitive source for AI-generated results. Write each question the way a real customer would ask it: "How much does window cleaning cost in Austin?" not "window cleaning pricing."
             </li>
-            <li className="flex gap-4">
-              <span className="flex-shrink-0 w-8 h-8 rounded-full bg-orange-500 text-white text-sm font-bold flex items-center justify-center">2</span>
-              <div>
-                <p className="font-semibold text-white mb-1">Write answers in plain, snackable language</p>
-                <p className="text-gray-300 text-sm">
-                  Keep answers to 1-2 sentences when possible. AI models pull the clearest, most direct answers. If your response requires three paragraphs of context before getting to the point, it will get skipped.
-                </p>
-              </div>
+            <li>
+              <strong>Write answers in plain, snackable language.</strong> Keep answers to 1-2 sentences when possible. AI models pull the clearest, most direct answers. If your response requires three paragraphs of context before getting to the point, it will get skipped.
             </li>
-            <li className="flex gap-4">
-              <span className="flex-shrink-0 w-8 h-8 rounded-full bg-orange-500 text-white text-sm font-bold flex items-center justify-center">3</span>
-              <div>
-                <p className="font-semibold text-white mb-1">Implement FAQPage schema markup</p>
-                <p className="text-gray-300 text-sm">
-                  Once you have written your FAQ content, add the proper Schema.org markup so AI systems can parse it correctly. Most modern website platforms have plugins or built-in tools for this.
-                </p>
-              </div>
+            <li>
+              <strong>Implement FAQPage schema markup.</strong> Once you have written your FAQ content, add the proper Schema.org markup so AI systems can parse it correctly. Most modern website platforms have plugins or built-in tools for this.
             </li>
-            <li className="flex gap-4">
-              <span className="flex-shrink-0 w-8 h-8 rounded-full bg-orange-500 text-white text-sm font-bold flex items-center justify-center">4</span>
-              <div>
-                <p className="font-semibold text-white mb-1">Include your city and service in every answer</p>
-                <p className="text-gray-300 text-sm">
-                  Local specificity is your competitive advantage. "A typical furnace tune-up in Minneapolis costs between $80 and $150" is far more cite-able for local searches than a generic national figure.
-                </p>
-              </div>
+            <li>
+              <strong>Include your city and service in every answer.</strong> Local specificity is your competitive advantage. "A typical furnace tune-up in Minneapolis costs between $80 and $150" is far more cite-able for local searches than a generic national figure.
             </li>
-            <li className="flex gap-4">
-              <span className="flex-shrink-0 w-8 h-8 rounded-full bg-orange-500 text-white text-sm font-bold flex items-center justify-center">5</span>
-              <div>
-                <p className="font-semibold text-white mb-1">Keep your Google Business Profile complete and updated</p>
-                <p className="text-gray-300 text-sm">
-                  Google's AI Overviews pull heavily from GBP data for local queries. Hours, services, photos, and recent reviews all feed into how your business appears in AI-generated local answers.
-                </p>
-              </div>
+            <li>
+              <strong>Keep your Google Business Profile complete and updated.</strong> Google&apos;s AI Overviews pull heavily from GBP data for local queries. Hours, services, photos, and recent reviews all feed into how your business appears in AI-generated local answers.
             </li>
           </ol>
 
+          <div className="not-prose">
+            <div className="ae-takeaway">
+              <strong>Key Insight:</strong> The fastest path to AI citations is a well-structured FAQ section with location-specific answers and proper schema markup. Most businesses can implement this in a single afternoon.
+            </div>
+          </div>
+
+          {/* CTA 4 */}
+          <div className="not-prose">
+            <div className="ae-cta-inline">
+              <p>Need help structuring your content for AI visibility?</p>
+              <a href="mailto:support@theanswerengine.ai">Email our team for guidance</a>
+            </div>
+          </div>
+
           {/* Section 5 */}
-          <h2 className="text-2xl font-bold text-white mt-12 mb-4 font-plus-jakarta">
-            Budget Reality: SEO, AEO, or Both?
-          </h2>
-          <p className="mb-4">
+          <div className="not-prose">
+            <div className="ae-section-label">Budget Planning</div>
+          </div>
+          <h2>Budget Reality: SEO, AEO, or Both?</h2>
+          <p>
             Most local service businesses are working with limited marketing budgets. Here is a realistic framework for how to think about allocation:
           </p>
-          <p className="mb-4">
-            If you are currently doing nothing: start with SEO basics. Get your site technically sound, claim and optimize your Google Business Profile, and build consistent NAP (name, address, phone) citations across the web. This is still table stakes.
-          </p>
-          <p className="mb-4">
-            If your SEO foundation is already in place: layer in AEO now. The good news is that much of AEO work, writing FAQ content, adding schema markup, using conversational language, builds on the SEO work you have already done. The incremental cost is lower than you might expect.
-          </p>
-          <p className="mb-6">
+
+          <div className="not-prose">
+            <table className="ae-decision-matrix">
+              <thead>
+                <tr>
+                  <th>If your situation is...</th>
+                  <th>Then your next move is...</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Currently doing nothing for online visibility</td>
+                  <td>Start with SEO basics. Get technically sound, claim your GBP, build NAP citations.</td>
+                </tr>
+                <tr>
+                  <td>SEO foundation already in place</td>
+                  <td>Layer in AEO now. Add FAQ content, schema markup, and conversational language.</td>
+                </tr>
+                <tr>
+                  <td>Ranking well but no AI citations</td>
+                  <td>Prioritize AEO. Your existing authority makes AI citation faster to achieve.</td>
+                </tr>
+                <tr>
+                  <td>Limited budget, need to pick one focus</td>
+                  <td>SEO first (it is the foundation AEO builds on), then add AEO in month 3-4.</td>
+                </tr>
+                <tr>
+                  <td>Competitor already showing up in AI answers</td>
+                  <td>Urgent AEO push. First-mover advantage compounds. Every month of delay costs you.</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+
+          <p>
             Businesses implementing SEO alongside AEO and GEO strategies see an average 47% increase in organic traffic versus SEO-only approaches. For businesses that get 100 website visits per month from search today, that kind of lift is meaningful revenue at stake.
           </p>
-          <div className="bg-gray-900 border-l-4 border-orange-500 rounded-r-xl p-6 mb-8">
-            <p className="text-gray-200 italic">
-              "54% of organizations reported improved click-through rates within six months of adopting a hybrid AEO and SEO strategy. You do not have to pick one."
-            </p>
+
+          {/* Pros/Cons */}
+          <div className="not-prose">
+            <div className="ae-pros-cons">
+              <div className="ae-pros-box">
+                <p className="ae-pros-title">SEO Strengths</p>
+                <ul>
+                  <li>Proven 20+ year track record</li>
+                  <li>Still drives 97-98% of search traffic</li>
+                  <li>Clear metrics and measurement</li>
+                  <li>Established tools and processes</li>
+                  <li>Foundation for all online visibility</li>
+                </ul>
+              </div>
+              <div className="ae-cons-box">
+                <p className="ae-cons-title">SEO Limitations</p>
+                <ul>
+                  <li>Zero-click searches eroding click volume</li>
+                  <li>AI Overviews pushing results below the fold</li>
+                  <li>Increasing competition for top positions</li>
+                  <li>Does not optimize for conversational queries</li>
+                  <li>No direct path to AI platform citations</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          {/* CTA 5 */}
+          <div className="not-prose">
+            <div className="ae-cta-inline">
+              <p>See exactly how your business performs in both SEO and AI search.</p>
+              <Link href="/blindspot">Get your free blind spot report</Link>
+            </div>
           </div>
 
           {/* Section 6 */}
-          <h2 className="text-2xl font-bold text-white mt-12 mb-4 font-plus-jakarta">
-            Real Results From Early Adopters
-          </h2>
-          <p className="mb-4">
+          <div className="not-prose">
+            <div className="ae-section-label">Early Mover Advantage</div>
+          </div>
+          <h2>Real Results From Early Adopters</h2>
+          <p>
             Early adoption of AEO creates a window of opportunity that will not stay open indefinitely. Brands face a narrow window to establish authoritative positions that AI engines will consistently cite. Early adopters can capture dominant market share in AI responses while late adopters find themselves competing for increasingly scarce citation opportunities at higher costs.
           </p>
-          <p className="mb-4">
+          <p>
             The pattern mirrors what happened with local SEO in 2012 to 2015. Businesses that built their Google Business Profiles and gathered reviews early locked in authority that competitors could not easily displace. The same dynamic is playing out now with AI citations.
           </p>
-          <p className="mb-6">
-            For local businesses specifically, the competitive window is actually wider than it is for national brands. Small businesses have real advantages here: deep local expertise, niche authority in their specific market, authentic expertise that AI systems recognize, the agility to adapt their content strategy quickly, and direct relationships with customers whose questions they know better than any national brand could.
-          </p>
 
-          {/* Section 7 */}
-          <h2 className="text-2xl font-bold text-white mt-12 mb-4 font-plus-jakarta">
-            Common Mistakes That Kill Your Visibility
-          </h2>
-          <p className="mb-4">
-            Knowing what not to do is just as valuable as knowing the right tactics. These are the most common ways local businesses undermine their own visibility in both traditional and AI search:
-          </p>
-          <ul className="space-y-4 mb-8">
-            <li className="flex gap-3">
-              <span className="text-orange-400 mt-1 flex-shrink-0">✗</span>
-              <div>
-                <p className="font-semibold text-white">Writing for robots, not people.</p>
-                <p className="text-sm text-gray-400 mt-1">Keyword-stuffed content that reads unnaturally performs poorly in AI systems because AI is trained on human language patterns. Write the way your best customer would describe your service to a friend.</p>
-              </div>
-            </li>
-            <li className="flex gap-3">
-              <span className="text-orange-400 mt-1 flex-shrink-0">✗</span>
-              <div>
-                <p className="font-semibold text-white">Ignoring structured data entirely.</p>
-                <p className="text-sm text-gray-400 mt-1">If your website has no schema markup at all, AI models have to guess at what your content means. Implementing LocalBusiness, Service, and FAQPage schema removes that guesswork and gives AI systems a clear signal.</p>
-              </div>
-            </li>
-            <li className="flex gap-3">
-              <span className="text-orange-400 mt-1 flex-shrink-0">✗</span>
-              <div>
-                <p className="font-semibold text-white">Treating AEO and SEO as either/or.</p>
-                <p className="text-sm text-gray-400 mt-1">Some businesses hear about AEO and abandon their SEO work entirely. This is a mistake. SEO is the foundation that makes AEO possible. You cannot be cited by AI if your site is not technically sound and crawlable in the first place.</p>
-              </div>
-            </li>
-            <li className="flex gap-3">
-              <span className="text-orange-400 mt-1 flex-shrink-0">✗</span>
-              <div>
-                <p className="font-semibold text-white">Not including location-specific answers.</p>
-                <p className="text-sm text-gray-400 mt-1">Generic content about your industry does not help you win local AI citations. AI systems are increasingly sophisticated about matching answers to the geographic context of the query. If your content does not mention your service area, you are not competitive for local AI responses.</p>
-              </div>
-            </li>
-            <li className="flex gap-3">
-              <span className="text-orange-400 mt-1 flex-shrink-0">✗</span>
-              <div>
-                <p className="font-semibold text-white">Waiting for certainty before acting.</p>
-                <p className="text-sm text-gray-400 mt-1">The early mover advantage in AI citations is real. Most businesses see initial AI citations within 2-3 months of comprehensive AEO implementation. Every month you wait is a month a competitor could be building that authority instead.</p>
-              </div>
-            </li>
-          </ul>
-
-          {/* Section 8 */}
-          <h2 className="text-2xl font-bold text-white mt-12 mb-4 font-plus-jakarta">
-            Your 90-Day Action Plan
-          </h2>
-          <p className="mb-4">
-            Here is a practical sequence you can follow without overwhelming yourself or your team:
-          </p>
-          <div className="space-y-6 mb-8">
-            <div className="bg-gray-900 border border-gray-700 rounded-xl p-6">
-              <p className="text-orange-400 font-bold mb-3">Days 1-30: Foundation Audit</p>
-              <ul className="space-y-2 text-sm text-gray-300">
-                <li>Check your site loads in under 3 seconds on mobile</li>
-                <li>Verify your Google Business Profile is 100% complete with accurate hours, services, and photos</li>
-                <li>Confirm your NAP information is consistent across all directories</li>
-                <li>Install Google Search Console if you have not already and fix any crawl errors</li>
-                <li>Check whether you have any existing schema markup</li>
-              </ul>
-            </div>
-            <div className="bg-gray-900 border border-gray-700 rounded-xl p-6">
-              <p className="text-orange-400 font-bold mb-3">Days 31-60: Content and Schema Build-Out</p>
-              <ul className="space-y-2 text-sm text-gray-300">
-                <li>Write 8-12 FAQ entries for each main service page using conversational questions</li>
-                <li>Make sure each answer is direct, 1-3 sentences, and includes your city and service</li>
-                <li>Implement FAQPage schema on every page that has FAQ content</li>
-                <li>Add LocalBusiness and Service schema to your homepage and service pages</li>
-                <li>Ask satisfied customers for detailed Google reviews that mention specific services and locations</li>
-              </ul>
-            </div>
-            <div className="bg-gray-900 border border-gray-700 rounded-xl p-6">
-              <p className="text-orange-400 font-bold mb-3">Days 61-90: Monitor and Expand</p>
-              <ul className="space-y-2 text-sm text-gray-300">
-                <li>Test your business queries in ChatGPT, Google AI Overviews, and Perplexity</li>
-                <li>Document where you appear and where competitors appear instead</li>
-                <li>Expand FAQ content based on gaps you find in AI responses</li>
-                <li>Create one longer-form resource page (like a service area guide) that combines all local FAQ content</li>
-                <li>Set a monthly reminder to re-test your key queries and track progress</li>
-              </ul>
+          <div className="not-prose">
+            <div className="ae-callout ae-callout-success">
+              <p className="ae-callout-title">Local Business Advantage</p>
+              <p>Small businesses have real advantages in AEO: deep local expertise, niche authority in their specific market, authentic expertise that AI systems recognize, the agility to adapt content strategy quickly, and direct relationships with customers whose questions they know better than any national brand could.</p>
             </div>
           </div>
-          <p className="mb-6">
+
+          {/* Bar Chart: AEO Adoption Impact */}
+          <div className="not-prose">
+            <div className="ae-bar-group">
+              <h3 style={{ color: 'white', fontSize: '1.125rem', fontWeight: 700, marginBottom: '1rem' }}>Impact of AEO Adoption on Key Metrics</h3>
+              <div className="ae-bar-item">
+                <span className="ae-bar-label">AI Citations</span>
+                <div className="ae-bar-track">
+                  <div className="ae-bar-fill" style={{ width: '85%' }}></div>
+                </div>
+                <span className="ae-bar-value">+340%</span>
+              </div>
+              <div className="ae-bar-item">
+                <span className="ae-bar-label">Organic Traffic</span>
+                <div className="ae-bar-track">
+                  <div className="ae-bar-fill" style={{ width: '47%' }}></div>
+                </div>
+                <span className="ae-bar-value">+47%</span>
+              </div>
+              <div className="ae-bar-item">
+                <span className="ae-bar-label">Click-Through Rate</span>
+                <div className="ae-bar-track">
+                  <div className="ae-bar-fill" style={{ width: '54%' }}></div>
+                </div>
+                <span className="ae-bar-value">+54%</span>
+              </div>
+              <div className="ae-bar-item">
+                <span className="ae-bar-label">Brand Visibility</span>
+                <div className="ae-bar-track">
+                  <div className="ae-bar-fill" style={{ width: '72%' }}></div>
+                </div>
+                <span className="ae-bar-value">+72%</span>
+              </div>
+            </div>
+          </div>
+
+          {/* CTA 6 */}
+          <div className="not-prose">
+            <div className="ae-cta-inline">
+              <p>Do not let competitors lock in AI authority before you. Start now.</p>
+              <Link href="/blindspot">Check your AI visibility for free</Link>
+            </div>
+          </div>
+
+          {/* Section 7 */}
+          <div className="not-prose">
+            <div className="ae-section-label">Common Pitfalls</div>
+          </div>
+          <h2>Common Mistakes That Kill Your Visibility</h2>
+          <p>
+            Knowing what not to do is just as valuable as knowing the right tactics. These are the most common ways local businesses undermine their own visibility in both traditional and AI search:
+          </p>
+
+          <div className="not-prose">
+            <div className="ae-callout ae-callout-warning">
+              <p className="ae-callout-title">Mistake #1: Writing for robots, not people</p>
+              <p>Keyword-stuffed content that reads unnaturally performs poorly in AI systems because AI is trained on human language patterns. Write the way your best customer would describe your service to a friend.</p>
+            </div>
+          </div>
+
+          <div className="not-prose">
+            <div className="ae-callout ae-callout-warning">
+              <p className="ae-callout-title">Mistake #2: Ignoring structured data entirely</p>
+              <p>If your website has no schema markup at all, AI models have to guess at what your content means. Implementing LocalBusiness, Service, and FAQPage schema removes that guesswork and gives AI systems a clear signal.</p>
+            </div>
+          </div>
+
+          <div className="not-prose">
+            <div className="ae-callout ae-callout-warning">
+              <p className="ae-callout-title">Mistake #3: Treating AEO and SEO as either/or</p>
+              <p>Some businesses hear about AEO and abandon their SEO work entirely. This is a mistake. SEO is the foundation that makes AEO possible. You cannot be cited by AI if your site is not technically sound and crawlable in the first place.</p>
+            </div>
+          </div>
+
+          <div className="not-prose">
+            <div className="ae-callout ae-callout-warning">
+              <p className="ae-callout-title">Mistake #4: Not including location-specific answers</p>
+              <p>Generic content about your industry does not help you win local AI citations. AI systems are increasingly sophisticated about matching answers to the geographic context of the query. If your content does not mention your service area, you are not competitive for local AI responses.</p>
+            </div>
+          </div>
+
+          <div className="not-prose">
+            <div className="ae-callout ae-callout-warning">
+              <p className="ae-callout-title">Mistake #5: Waiting for certainty before acting</p>
+              <p>The early mover advantage in AI citations is real. Most businesses see initial AI citations within 2-3 months of comprehensive AEO implementation. Every month you wait is a month a competitor could be building that authority instead.</p>
+            </div>
+          </div>
+
+          <div className="not-prose">
+            <div className="ae-takeaway">
+              <strong>Key Insight:</strong> The most expensive mistake is inaction. While you wait for the "perfect time" to start AEO, your competitors are building citation authority that compounds over time.
+            </div>
+          </div>
+
+          {/* CTA 7 */}
+          <div className="not-prose">
+            <div className="ae-cta-inline">
+              <p>Are you making these mistakes right now? Find out in minutes.</p>
+              <Link href="/blindspot">Run your free AI visibility check</Link>
+            </div>
+          </div>
+
+          {/* Section 8 */}
+          <div className="not-prose">
+            <div className="ae-section-label">Implementation Roadmap</div>
+          </div>
+          <h2>Your 90-Day Action Plan</h2>
+          <p>
+            Here is a practical sequence you can follow without overwhelming yourself or your team:
+          </p>
+
+          <div className="not-prose">
+            <div className="ae-timeline">
+              <div className="ae-timeline-item">
+                <h3>Days 1-30: Foundation Audit</h3>
+                <ul>
+                  <li>Check your site loads in under 3 seconds on mobile</li>
+                  <li>Verify your Google Business Profile is 100% complete with accurate hours, services, and photos</li>
+                  <li>Confirm your NAP information is consistent across all directories</li>
+                  <li>Install Google Search Console if you have not already and fix any crawl errors</li>
+                  <li>Check whether you have any existing schema markup</li>
+                </ul>
+              </div>
+              <div className="ae-timeline-item">
+                <h3>Days 31-60: Content and Schema Build-Out</h3>
+                <ul>
+                  <li>Write 8-12 FAQ entries for each main service page using conversational questions</li>
+                  <li>Make sure each answer is direct, 1-3 sentences, and includes your city and service</li>
+                  <li>Implement FAQPage schema on every page that has FAQ content</li>
+                  <li>Add LocalBusiness and Service schema to your homepage and service pages</li>
+                  <li>Ask satisfied customers for detailed Google reviews that mention specific services and locations</li>
+                </ul>
+              </div>
+              <div className="ae-timeline-item">
+                <h3>Days 61-90: Monitor and Expand</h3>
+                <ul>
+                  <li>Test your business queries in ChatGPT, Google AI Overviews, and Perplexity</li>
+                  <li>Document where you appear and where competitors appear instead</li>
+                  <li>Expand FAQ content based on gaps you find in AI responses</li>
+                  <li>Create one longer-form resource page (like a service area guide) that combines all local FAQ content</li>
+                  <li>Set a monthly reminder to re-test your key queries and track progress</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <p>
             The businesses that will dominate local search over the next three years are not necessarily the ones with the biggest budgets. They are the ones that move now, build authority in AI systems while the field is still open, and treat AEO as the natural next layer on top of solid SEO work.
           </p>
+
+          {/* CTA 8 */}
+          <div className="not-prose">
+            <div className="ae-cta-inline">
+              <p>Ready to start your 90-day plan with expert guidance?</p>
+              <a href="tel:+12134442229">Call (213) 444-2229 to talk strategy</a>
+            </div>
+          </div>
+
+          {/* Cheat Sheet */}
+          <div className="not-prose">
+            <table className="ae-cheat-sheet">
+              <caption className="ae-cheat-sheet-title">AEO vs SEO Quick Reference Cheat Sheet</caption>
+              <thead>
+                <tr>
+                  <th>Action Item</th>
+                  <th>SEO Impact</th>
+                  <th>AEO Impact</th>
+                  <th>Priority</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Complete Google Business Profile</td>
+                  <td>High</td>
+                  <td>High</td>
+                  <td>Do First</td>
+                </tr>
+                <tr>
+                  <td>Fix site speed (under 3s mobile)</td>
+                  <td>High</td>
+                  <td>Medium</td>
+                  <td>Do First</td>
+                </tr>
+                <tr>
+                  <td>Add FAQ sections to service pages</td>
+                  <td>Medium</td>
+                  <td>Very High</td>
+                  <td>Do First</td>
+                </tr>
+                <tr>
+                  <td>Implement Schema.org markup</td>
+                  <td>Medium</td>
+                  <td>Very High</td>
+                  <td>Week 2-3</td>
+                </tr>
+                <tr>
+                  <td>Build consistent NAP citations</td>
+                  <td>High</td>
+                  <td>Medium</td>
+                  <td>Week 2-3</td>
+                </tr>
+                <tr>
+                  <td>Write conversational Q&A content</td>
+                  <td>Medium</td>
+                  <td>Very High</td>
+                  <td>Week 3-4</td>
+                </tr>
+                <tr>
+                  <td>Gather location-specific reviews</td>
+                  <td>High</td>
+                  <td>High</td>
+                  <td>Ongoing</td>
+                </tr>
+                <tr>
+                  <td>Test queries in AI platforms monthly</td>
+                  <td>Low</td>
+                  <td>Very High</td>
+                  <td>Ongoing</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+
+          {/* CTA 9 */}
+          <div className="not-prose">
+            <div className="ae-cta-inline">
+              <p>Want this cheat sheet customized for your specific business and market?</p>
+              <a href="mailto:support@theanswerengine.ai">Email us for a personalized plan</a>
+            </div>
+          </div>
+
+          {/* CTA 10 */}
+          <div className="not-prose">
+            <div className="ae-cta-inline">
+              <p>Local businesses that act now will own AI search in their market.</p>
+              <Link href="/blindspot">See where you stand today (free report)</Link>
+            </div>
+          </div>
+
+          {/* Author Card */}
+          <div className="not-prose">
+            <div className="ae-author-card">
+              <div style={{ display: 'flex', alignItems: 'center', gap: '1rem' }}>
+                <div style={{ width: '3rem', height: '3rem', borderRadius: '9999px', backgroundColor: '#FF6A00', display: 'flex', alignItems: 'center', justifyContent: 'center', color: 'white', fontWeight: 700, fontSize: '0.875rem', flexShrink: 0 }}>
+                  AE
+                </div>
+                <div>
+                  <p style={{ color: 'white', fontWeight: 600, fontSize: '0.875rem', margin: 0 }}>The Answer Engine Team</p>
+                  <p style={{ color: '#9CA3AF', fontSize: '0.75rem', margin: 0 }}>
+                    Published March 8, 2026 on{' '}
+                    <Link href="/" style={{ color: '#FF6A00' }}>
+                      theanswerengine.ai
+                    </Link>
+                  </p>
+                </div>
+              </div>
+              <p style={{ color: '#D1D5DB', fontSize: '0.875rem', marginTop: '0.75rem', marginBottom: 0, lineHeight: 1.6 }}>
+                We help local service businesses get found by AI search platforms. Our team researches how AI engines select, cite, and recommend businesses so you do not have to figure it out alone.
+              </p>
+            </div>
+          </div>
+
+          {/* CTA Block before FAQ */}
+          <div className="not-prose">
+            <div className="ae-cta-block">
+              <h2 style={{ color: 'white', fontSize: '1.5rem', fontWeight: 700, marginBottom: '0.75rem' }}>Find Out If AI Platforms Can See Your Business</h2>
+              <p style={{ color: '#D1D5DB', marginBottom: '1.5rem' }}>
+                Get a free AI visibility check. No pitch, just the data. See exactly where your business appears (or does not appear) when potential customers ask AI assistants about services in your area.
+              </p>
+              <div style={{ display: 'flex', flexWrap: 'wrap', gap: '1rem', marginBottom: '1.5rem' }}>
+                <Link href="/blindspot" style={{ display: 'inline-block', backgroundColor: '#FF6A00', color: 'white', fontWeight: 600, padding: '0.75rem 1.5rem', borderRadius: '0.5rem', textDecoration: 'none' }}>
+                  Get Your Free Blind Spot Report
+                </Link>
+              </div>
+              <div style={{ display: 'flex', flexWrap: 'wrap', alignItems: 'center', gap: '1.5rem', paddingTop: '1rem', borderTop: '1px solid rgba(255,106,0,0.15)' }}>
+                <a href="tel:+12134442229" style={{ display: 'flex', alignItems: 'center', gap: '0.5rem', color: '#9CA3AF', textDecoration: 'none', fontSize: '0.875rem' }}>
+                  <svg style={{ width: '1rem', height: '1rem' }} fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" /></svg>
+                  (213) 444-2229
+                </a>
+                <a href="mailto:support@theanswerengine.ai" style={{ display: 'flex', alignItems: 'center', gap: '0.5rem', color: '#9CA3AF', textDecoration: 'none', fontSize: '0.875rem' }}>
+                  <svg style={{ width: '1rem', height: '1rem' }} fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" /></svg>
+                  support@theanswerengine.ai
+                </a>
+              </div>
+            </div>
+          </div>
 
           {/* FAQ Section */}
           <section aria-labelledby="faq-heading" className="mt-16">
@@ -601,45 +971,67 @@ export default function AeoVsSeoLocalBusinessGuide() {
             </div>
           </section>
 
-          {/* CTA Section */}
-          <div className="mt-16 p-8 rounded-2xl border border-gray-800 bg-gradient-to-r from-gray-900 to-gray-800">
-            <h2 className="text-2xl font-bold text-white mb-4 font-plus-jakarta">
-              Find Out If AI Platforms Can See Your Business
-            </h2>
-            <p className="text-gray-300 mb-6">
-              Get a free AI visibility check. No pitch, just the data. See exactly where your business appears (or does not appear) when potential customers ask AI assistants about services in your area.
-            </p>
-            <a
-              href="/blindspot"
-              className="inline-block bg-[#FF6A00] text-white font-semibold px-6 py-3 rounded-lg hover:bg-orange-600 transition-colors"
-            >
-              Get Your Free Blind Spot Report
-            </a>
-    <div className="flex flex-wrap items-center gap-6 mt-6 pt-6 border-t border-[#FF6A00]/10">
-      <a href="tel:+12134442229" className="flex items-center gap-2 text-gray-400 hover:text-white transition-colors">
-        <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" /></svg>
-        (213) 444-2229
-      </a>
-      <a href="mailto:support@theanswerengine.ai" className="flex items-center gap-2 text-gray-400 hover:text-white transition-colors">
-        <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" /></svg>
-        support@theanswerengine.ai
-      </a>
-    </div>
+          {/* CTA 11 */}
+          <div className="not-prose">
+            <div className="ae-cta-inline">
+              <p>Still have questions about AEO vs SEO for your business?</p>
+              <a href="tel:+12134442229">Call (213) 444-2229 for a quick chat</a>
+            </div>
           </div>
 
-          {/* Author Attribution */}
-          <div className="mt-12 pt-8 border-t border-gray-800 flex items-center gap-4">
-            <div className="w-10 h-10 rounded-full bg-orange-500 flex items-center justify-center text-white font-bold text-sm flex-shrink-0">
-              AE
+          {/* CTA 12 */}
+          <div className="not-prose">
+            <div className="ae-cta-inline">
+              <p>Get personalized recommendations for your market and industry.</p>
+              <a href="mailto:support@theanswerengine.ai">Reach out to our team</a>
             </div>
-            <div>
-              <p className="text-white font-medium text-sm">The Answer Engine Team</p>
-              <p className="text-gray-500 text-xs">
-                Published March 8, 2026 on{' '}
-                <Link href="/" className="text-orange-400 hover:underline">
-                  theanswerengine.ai
-                </Link>
+          </div>
+
+          {/* CTA 13 */}
+          <div className="not-prose">
+            <div className="ae-cta-inline">
+              <p>Your competitors are already optimizing for AI. Are you?</p>
+              <Link href="/blindspot">Find out now with a free report</Link>
+            </div>
+          </div>
+
+          {/* CTA 14 */}
+          <div className="not-prose">
+            <div className="ae-cta-inline">
+              <p>Every day without AEO is a day your competitor builds more AI authority.</p>
+              <a href="tel:+12134442229">Talk to us today: (213) 444-2229</a>
+            </div>
+          </div>
+
+          {/* CTA 15 */}
+          <div className="not-prose">
+            <div className="ae-cta-inline">
+              <p>The window for first-mover advantage in AI search is closing.</p>
+              <Link href="/blindspot">Claim your free AI visibility report before it is too late</Link>
+            </div>
+          </div>
+
+          {/* Final CTA */}
+          <div className="not-prose">
+            <div className="ae-final-cta">
+              <div className="ae-final-cta-pulse"></div>
+              <h2 style={{ color: 'white', fontSize: '1.75rem', fontWeight: 700, marginBottom: '0.75rem', position: 'relative' }}>Stop Being Invisible to AI Search</h2>
+              <p style={{ color: '#D1D5DB', marginBottom: '1.5rem', position: 'relative', maxWidth: '40rem' }}>
+                The businesses that dominate AI search in 2026 and beyond are the ones taking action right now. Get your free blind spot report and see exactly where you stand. No pitch, just the data.
               </p>
+              <div style={{ display: 'flex', flexWrap: 'wrap', gap: '1rem', justifyContent: 'center', position: 'relative' }}>
+                <Link href="/blindspot" style={{ display: 'inline-block', backgroundColor: '#FF6A00', color: 'white', fontWeight: 700, padding: '1rem 2rem', borderRadius: '0.5rem', textDecoration: 'none', fontSize: '1.125rem' }}>
+                  Get Your Free Blind Spot Report
+                </Link>
+              </div>
+              <div style={{ display: 'flex', flexWrap: 'wrap', alignItems: 'center', justifyContent: 'center', gap: '1.5rem', marginTop: '1.5rem', position: 'relative' }}>
+                <a href="tel:+12134442229" style={{ color: '#D1D5DB', textDecoration: 'none', fontSize: '0.875rem' }}>
+                  (213) 444-2229
+                </a>
+                <a href="mailto:support@theanswerengine.ai" style={{ color: '#D1D5DB', textDecoration: 'none', fontSize: '0.875rem' }}>
+                  support@theanswerengine.ai
+                </a>
+              </div>
             </div>
           </div>
 
