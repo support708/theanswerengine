@@ -1,0 +1,65 @@
+{
+  "processes": [
+    {
+      "name": "borges-tc",
+      "status": "online",
+      "pid": 9940,
+      "cpu": "0%",
+      "memory": "168.6 MB",
+      "uptime": "2h",
+      "restarts": 0
+    },
+    {
+      "name": "telegram-bot",
+      "status": "online",
+      "pid": 10136,
+      "cpu": "0%",
+      "memory": "64.5 MB",
+      "uptime": "2h",
+      "restarts": 0
+    }
+  ],
+  "scheduledTasks": [
+    {
+      "id": "api-cost-monitor",
+      "description": "Check Anthropic API usage",
+      "schedule": "every 30 min",
+      "enabled": true,
+      "lastRun": "2026-03-13T20:00:00Z",
+      "lastResult": "success"
+    },
+    {
+      "id": "claude-update-check",
+      "description": "Check for Claude Code updates",
+      "schedule": "every 2 hours",
+      "enabled": true,
+      "lastRun": "2026-03-13T20:00:00Z",
+      "lastResult": "success"
+    },
+    {
+      "id": "nightly-memory-rebuild",
+      "description": "Consolidate daily context into long-term memory",
+      "schedule": "2:04 AM daily",
+      "enabled": true,
+      "lastRun": null,
+      "lastResult": null
+    },
+    {
+      "id": "heartbeat-monitor",
+      "description": "Check PM2 processes, restart dead bots",
+      "schedule": "every 30 min",
+      "enabled": true,
+      "lastRun": "2026-03-13T20:00:00Z",
+      "lastResult": "success"
+    }
+  ],
+  "systemHealth": "healthy",
+  "dailyContext": "# Daily Context � 2026-03-13\n\n## Active Threads\n- Building three-layer memory system + Command Center dashboard\n- PM2 managing TC Bot + Telegram Bot (both online)\n- TC Bot DocuSign still broken (400 error)\n\n## Decisions Made\n- Command Center dashboard on theanswerengine.ai (secured)\n- PM2 for all process management\n- Playwright as default browser automation",
+  "machine": {
+    "hostname": "JUSTINS-PC",
+    "platform": "win32",
+    "uptime": 86400,
+    "nodeVersion": "v22.x"
+  },
+  "lastUpdated": "2026-03-13T23:47:53.244Z"
+}
