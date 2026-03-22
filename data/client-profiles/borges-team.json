@@ -409,7 +409,8 @@
     "total_contract": 0,
     "stripe_customer_id": null,
     "primary_contact_name": "Justin Borges",
-    "primary_contact_email": "justin@lametrohomefinder.com",
+    "contact_email": "justin@theborgesrealestateteam.com",
+    "primary_contact_email": "justin@theborgesrealestateteam.com",
     "primary_contact_phone": "(626) 240-1750"
   }
 }

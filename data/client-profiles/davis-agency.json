@@ -372,7 +372,8 @@
     "total_contract": 2997,
     "stripe_customer_id": "REQUIRED",
     "primary_contact_name": "Derrik Davis",
-    "primary_contact_email": "REQUIRED",
+    "contact_email": "dd@davisagencytx.com",
+    "primary_contact_email": "dd@davisagencytx.com",
     "primary_contact_phone": "(512) 608-8811",
     "next_action": "Publish Spoke 1 and Spoke 2. Schedule supplemental interview for neighborhood insider content before building Zilker/Bouldin/Travis Heights/Barton Hills spokes."
   }

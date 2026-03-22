@@ -85,7 +85,9 @@ export async function checkAndSendDigests(): Promise<DigestCronResult> {
         continue;
       }
 
-      const email = profile.engagement.contact_email;
+      const email = profile.engagement?.contact_email
+        || (profile.engagement as Record<string, unknown>)?.primary_contact_email as string
+        || '';
       if (!email || email === 'REQUIRED' || email === 'VERIFY') {
         result.errors.push(`${clientSlug}: no valid contact email`);
         continue;
