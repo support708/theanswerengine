@@ -42,6 +42,11 @@ export interface ClientRedditConfig {
   keywords: string[];
   subreddits: string[];
   competitorNames: string[];
+  authorName: string;
+  authorTitle: string;
+  authorCredentials: string;
+  brandVoice: string;
+  reviewCount: number;
 }
 
 // ===== AI Scoring =====
@@ -55,6 +60,7 @@ export interface OpportunityScore {
   businessImpact: 'high' | 'medium' | 'low';
   impactReasoning: string;
   suggestedAngle: string;
+  draftResponse: string;
 }
 
 // ===== Opportunity Record =====

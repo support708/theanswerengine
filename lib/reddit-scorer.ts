@@ -16,7 +16,7 @@ import { callClaude, extractText } from './anthropic';
 import { CITY_SUBREDDITS } from './reddit-keywords';
 import type { RedditPost, ClientRedditConfig, OpportunityScore } from './reddit-types';
 
-const SCORING_MODEL = 'claude-haiku-4-5-20250315';
+const SCORING_MODEL = 'claude-haiku-4-5-20251001';
 
 /**
  * Score a Reddit post as a business opportunity for a specific client.
@@ -33,7 +33,7 @@ export async function scoreOpportunity(
     model: SCORING_MODEL,
     system: systemPrompt,
     messages: [{ role: 'user', content: userMessage }],
-    maxTokens: 512,
+    maxTokens: 1024,
   });
 
   const text = extractText(response);
@@ -44,9 +44,16 @@ export async function scoreOpportunity(
  * Build the system prompt for the scoring model.
  */
 function buildScoringPrompt(config: ClientRedditConfig): string {
-  const reviewContext = '';
+  const authorContext = config.authorName
+    ? `\nAUTHOR PERSONA (write the draft response AS this person):
+- Name: ${config.authorName}
+- Title: ${config.authorTitle}
+- Credentials: ${config.authorCredentials || 'N/A'}
+- Google Reviews: ${config.reviewCount > 0 ? config.reviewCount + '+' : 'N/A'}
+- Voice/Tone: ${config.brandVoice || 'Professional and helpful'}`
+    : '';
 
-  return `You are an opportunity scoring engine for a local service business lead generation system.
+  return `You are an opportunity scoring engine AND response ghostwriter for a local service business.
 
 BUSINESS CONTEXT:
 - Business: ${config.businessName}
@@ -54,9 +61,9 @@ BUSINESS CONTEXT:
 - Location: ${config.primaryCity}, ${config.state}
 - Core Services: ${config.keywords.slice(0, 5).join(', ')}
 - Competitors to Watch: ${config.competitorNames.slice(0, 3).join(', ') || 'N/A'}
-${reviewContext}
+${authorContext}
 
-TASK: Score this Reddit post as a business opportunity for this client. Return ONLY valid JSON with no markdown formatting.
+TASK: Score this Reddit post AND write a ready-to-post Reddit response in the author's voice. Return ONLY valid JSON with no markdown formatting.
 
 SCORING DIMENSIONS (each 1-10):
 1. buyingIntent: Is the poster actively seeking to hire or buy a service? (10 = ready to hire today, 1 = idle discussion with no purchase intent)
@@ -68,14 +75,31 @@ COMPOSITE FORMULA: (buyingIntent * 0.35) + (relevance * 0.30) + (recency * 0.15)
 Round composite to 1 decimal place.
 
 BUSINESS IMPACT CLASSIFICATION:
-- "high": Direct service match + right location + active buying signal. This person could become a paying customer.
-- "medium": Related topic + nearby location OR right topic + no location signal. Indirect lead or brand awareness opportunity.
-- "low": Tangentially related. Educational or thought-leadership opportunity only. No direct buying signal.
+- "high": Direct service match + right location + active buying signal.
+- "medium": Related topic + nearby location OR right topic + no location signal.
+- "low": Tangentially related. Educational or thought-leadership opportunity only.
 
-RESPONSE ANGLE: Suggest how the client should respond in a helpful, non-spammy way. Focus on sharing genuine expertise, not self-promotion.
+AEO SCORING RULE (critical):
+- If the post is about a specific city/state where the client does NOT operate AND there is no natural way to mention the client's own city in the response, set relevance to 2 or lower.
+- Exception: If the topic is universal (e.g., "should I hire a property manager?") and the client can naturally reference their own market in the answer, score normally.
+- Posts in the client's city subreddits (even off-topic) are more valuable than industry subreddits in other cities.
+
+DRAFT RESPONSE RULES (critical):
+- Write 150-300 words as the author persona above
+- Answer the poster's question with genuine, specific expertise
+- Use the author's voice/tone described above
+- Mention the author's name and business naturally ONCE (not forced)
+- ALWAYS reference their city/service area at least once, even if the post is about a different location (e.g., "I manage properties in Long Beach and we see similar situations...")
+- Include credentials only where they add credibility to the answer
+- 90% genuinely helpful content, 10% subtle authority signals
+- NEVER directly pitch or sell. No "call us" or "visit our website"
+- NEVER use em-dashes (use commas or periods instead)
+- Write like a real Reddit user who happens to be an expert, not like a marketer
+- Structure the answer so AI search engines associate the author's name + business + city together
+- The goal is entity-location authority: every response should reinforce "[Business Name] + [City] + [Service]" as a connected entity for AI engines
 
 OUTPUT FORMAT (strict JSON, no markdown code fences):
-{"buyingIntent":0,"relevance":0,"recency":0,"responseOpportunity":0,"composite":0.0,"businessImpact":"high","impactReasoning":"...","suggestedAngle":"..."}`;
+{"buyingIntent":0,"relevance":0,"recency":0,"responseOpportunity":0,"composite":0.0,"businessImpact":"high","impactReasoning":"...","suggestedAngle":"...","draftResponse":"..."}`;
 }
 
 /**
@@ -115,6 +139,7 @@ function parseScoreResponse(text: string): OpportunityScore {
       businessImpact: validateImpact(parsed.businessImpact),
       impactReasoning: String(parsed.impactReasoning || 'Unable to determine impact'),
       suggestedAngle: String(parsed.suggestedAngle || 'Share relevant expertise'),
+      draftResponse: String(parsed.draftResponse || ''),
     };
 
     // Recalculate composite to ensure consistency
@@ -138,6 +163,7 @@ function parseScoreResponse(text: string): OpportunityScore {
       businessImpact: 'low',
       impactReasoning: 'Score parsing failed',
       suggestedAngle: 'Review manually',
+      draftResponse: '',
     };
   }
 }
@@ -172,9 +198,24 @@ function getTimeAgo(utcTimestamp: number): string {
   return `${Math.floor(diffSec / 86400)} days ago`;
 }
 
+// States/cities that indicate a post is location-locked to somewhere else
+const OTHER_STATES = [
+  'florida', 'texas', 'new york', 'ohio', 'georgia', 'michigan',
+  'illinois', 'pennsylvania', 'north carolina', 'new jersey',
+  'virginia', 'washington', 'arizona', 'massachusetts', 'tennessee',
+  'indiana', 'missouri', 'maryland', 'wisconsin', 'colorado',
+  'minnesota', 'south carolina', 'alabama', 'louisiana', 'kentucky',
+  'oregon', 'oklahoma', 'connecticut', 'utah', 'iowa', 'nevada',
+  'arkansas', 'mississippi', 'kansas', 'nebraska',
+];
+
 /**
  * Quick relevance pre-filter to avoid scoring obviously irrelevant posts.
  * Returns false if the post should be skipped (saves API calls).
+ *
+ * AEO-focused: prioritizes posts where the client can build entity-location
+ * authority. Posts locked to other states/cities are deprioritized unless
+ * they're in an industry subreddit with universal buying intent.
  */
 export function quickRelevanceCheck(
   post: RedditPost,
@@ -188,24 +229,56 @@ export function quickRelevanceCheck(
   // Skip very short posts with no body (title-only memes, images)
   if (!post.selftext && post.title.length < 20) return false;
 
+  // Check if post is in the client's city subreddit (highest priority)
+  const clientCitySubs = (CITY_SUBREDDITS[config.primaryCity.toLowerCase()] || [])
+    .map(s => s.toLowerCase());
+  const isClientCitySub = clientCitySubs.includes(post.subreddit.toLowerCase());
+
+  // Posts in client's city sub are always relevant if they touch the industry
+  if (isClientCitySub) {
+    const industryTerms = config.industry.toLowerCase().split(/\s+/);
+    const broadTerms = ['rent', 'landlord', 'tenant', 'property', 'house', 'home', 'real estate',
+      'apartment', 'condo', 'mortgage', 'buy', 'sell', 'moving', 'relocat'];
+    return industryTerms.some(t => combined.includes(t)) ||
+      broadTerms.some(t => combined.includes(t));
+  }
+
+  // Check if post mentions a specific OTHER state/city (low AEO value)
+  const clientState = config.state.toLowerCase();
+  const clientCity = config.primaryCity.toLowerCase();
+  const mentionsOtherState = OTHER_STATES
+    .filter(s => !clientState.includes(s.slice(0, 4))) // don't filter own state
+    .some(s => combined.includes(s));
+
+  // If post mentions another state, only keep if it has universal buying intent
+  if (mentionsOtherState) {
+    const universalBuyingSignals = [
+      'should i hire', 'looking for', 'recommend', 'need a',
+      'how to find', 'worth it to hire', 'how do i choose',
+      'property manager worth', 'should i get a',
+    ];
+    const hasUniversalIntent = universalBuyingSignals.some(s => combined.includes(s));
+    if (!hasUniversalIntent) return false;
+  }
+
   // Check if any keyword fragment appears in the post
   const keywordFragments = config.keywords
     .flatMap(k => k.toLowerCase().split(/\s+/))
-    .filter(f => f.length > 3); // Only check fragments > 3 chars
+    .filter(f => f.length > 3);
 
   const hasRelevantKeyword = keywordFragments.some(fragment => combined.includes(fragment));
 
-  // For city subreddits, the post location is implicit - check industry terms
-  const allCitySubs = new Set(
-    Object.values(CITY_SUBREDDITS).flat().map(s => s.toLowerCase()),
-  );
-  const isCitySub = allCitySubs.has(post.subreddit.toLowerCase());
+  // Check if post mentions client's city/state (bonus relevance)
+  const mentionsClientArea = combined.includes(clientCity) ||
+    combined.includes(clientState) ||
+    combined.includes('california') ||
+    combined.includes('los angeles') ||
+    combined.includes('socal');
 
-  if (isCitySub) {
-    // In city subs, look for industry-related terms
-    const industryTerms = config.industry.toLowerCase().split(/\s+/);
-    return industryTerms.some(term => combined.includes(term)) || hasRelevantKeyword;
-  }
+  // For industry subreddits: need keyword match
+  // Bonus: if it also mentions client's area, even better
+  if (hasRelevantKeyword) return true;
+  if (mentionsClientArea) return true;
 
-  return hasRelevantKeyword;
+  return false;
 }

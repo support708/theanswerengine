@@ -256,6 +256,10 @@ export function deriveClientRedditConfig(profile: ClientProfile): ClientRedditCo
     return null;
   }
 
+  const credentials = (profile.author?.credentials || [])
+    .map((c: { name: string; number?: string }) => c.name + (c.number ? ` #${c.number}` : ''))
+    .join(', ');
+
   return {
     clientSlug: profile._meta.client_slug,
     businessName: profile.business.dba || profile.business.legal_name,
@@ -266,6 +270,11 @@ export function deriveClientRedditConfig(profile: ClientProfile): ClientRedditCo
     keywords: deriveKeywords(profile),
     subreddits: deriveSubreddits(profile),
     competitorNames: (profile.competitors || []).map(c => c.name),
+    authorName: profile.author?.full_name || '',
+    authorTitle: profile.author?.job_title || '',
+    authorCredentials: credentials,
+    brandVoice: (profile as Record<string, unknown> & { brand?: { brand_voice_notes?: string } }).brand?.brand_voice_notes || '',
+    reviewCount: profile.reviews?.google?.count || 0,
   };
 }
 

@@ -246,7 +246,7 @@ async function sendTelegramAlert(
 
   const impactLabel = opp.score.businessImpact.charAt(0).toUpperCase() + opp.score.businessImpact.slice(1);
 
-  const msg = `<b>Reddit Opportunity</b> | ${config.businessName}\n` +
+  let msg = `<b>Reddit Opportunity</b> | ${config.businessName}\n` +
     `${impactEmoji} Score: ${opp.score.composite}/10 (${impactLabel} Impact)\n\n` +
     `<b>r/${opp.subreddit}</b>: "${truncate(opp.title, 100)}"\n\n` +
     `Intent: ${opp.score.buyingIntent} | Relevance: ${opp.score.relevance} | ` +
@@ -254,6 +254,18 @@ async function sendTelegramAlert(
     `<b>Impact:</b> ${opp.score.impactReasoning}\n` +
     `<b>Angle:</b> ${opp.score.suggestedAngle}\n\n` +
     `${opp.postUrl}`;
+
+  // Add draft response if available
+  if (opp.score.draftResponse) {
+    msg += `\n\n<b>--- Draft Response (copy/paste) ---</b>\n\n${opp.score.draftResponse}`;
+
+    msg += `\n\n<b>--- Reddit Account Tips ---</b>\n` +
+      `- Post from ${config.authorName || 'client'}'s personal Reddit account (not a brand account)\n` +
+      `- Username should be their real name or professional handle\n` +
+      `- Profile bio: "${config.authorTitle}, ${config.businessName}"\n` +
+      `- Build karma first: comment on 5-10 posts in r/${opp.subreddit} before posting this\n` +
+      `- Never post the same response in multiple threads`;
+  }
 
   await sendMessage(msg);
 }
