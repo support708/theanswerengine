@@ -1,6 +1,161 @@
 {
-  "client_id": "lovery-re",
-  "business_name": "Lovery Real Estate",
-  "status": "active",
-  "notes": "AERO-7 audit completed"
+  "_meta": {
+    "schema_version": "1.0",
+    "client_slug": "lovery-re",
+    "answer_engine_package": "answer-authority-foundation",
+    "account_status": "active",
+    "assigned_va": "TBD",
+    "created": "2026-03",
+    "notes": "San Diego agent. DRE #02110091. Top 10% San Diego County 2022-2023. Relationship-first approach. Strong social media presence (TikTok). Chula Vista based."
+  },
+
+  "business": {
+    "legal_name": "Lovery Real Estate",
+    "dba": "Lovery Real Estate",
+    "business_type": "RealEstateAgent",
+    "industry": "Real Estate",
+    "founded_year": "2020",
+    "employee_count": 1,
+    "price_range": "$$$"
+  },
+
+  "contact": {
+    "website_url": "https://loveryrealestate.com",
+    "phone": "+1-619-432-3434",
+    "phone_display": "(619) 432-3434",
+    "email": "ryan@loveryrealestate.com",
+    "address": {
+      "street": "323 Minot Avenue",
+      "city": "Chula Vista",
+      "state": "CA",
+      "zip": "91910",
+      "country": "US"
+    }
+  },
+
+  "author": {
+    "full_name": "Ryan Fisher",
+    "first_name": "Ryan",
+    "job_title": "Founder / Real Estate Agent",
+    "bio_short": "Ryan Fisher is the founder of Lovery Real Estate, serving San Diego County with a relationship-first approach. Top 10% of San Diego County agents in 2022 and 2023. DRE #02110091.",
+    "credentials": [
+      {
+        "type": "License",
+        "name": "California Real Estate License",
+        "number": "02110091",
+        "issuing_body": "California Department of Real Estate"
+      }
+    ],
+    "years_experience": 5,
+    "knows_about": [
+      "San Diego Real Estate",
+      "First-Time Home Buyers",
+      "Investment Properties",
+      "House Flipping",
+      "New Construction",
+      "Luxury Homes San Diego",
+      "Military Family Relocation",
+      "Chula Vista Real Estate",
+      "North Park Real Estate",
+      "La Jolla Mesa Real Estate"
+    ],
+    "social": {
+      "facebook": "https://www.facebook.com/itsryanfisher/",
+      "instagram": "",
+      "tiktok": ""
+    }
+  },
+
+  "reviews": {
+    "google": {
+      "rating": 5.0,
+      "count": 18
+    },
+    "yelp": {
+      "rating": 5.0,
+      "count": 18
+    }
+  },
+
+  "service_area": {
+    "primary_city": "San Diego",
+    "primary_state": "CA",
+    "cities": [
+      "San Diego",
+      "Chula Vista",
+      "Bonita",
+      "North Park",
+      "University Heights",
+      "La Jolla",
+      "Hilltop"
+    ],
+    "counties": [
+      "San Diego County"
+    ],
+    "radius_miles": 30,
+    "service_area_description": "San Diego County including Chula Vista, North Park, University Heights, La Jolla, and Bonita"
+  },
+
+  "services": [
+    {
+      "name": "Residential Real Estate Sales",
+      "description": "Buying and selling homes in San Diego County with a relationship-first approach and high-touch service.",
+      "is_primary": true
+    },
+    {
+      "name": "Investment Property Services",
+      "description": "Flipping, developing, and investment property acquisition and disposition in San Diego.",
+      "is_primary": false
+    },
+    {
+      "name": "First-Time Home Buyer Guidance",
+      "description": "Specialized support for first-time buyers navigating the San Diego market.",
+      "is_primary": false
+    }
+  ],
+
+  "competitors": [],
+
+  "citation_monitoring": {
+    "target_queries": [
+      {
+        "query": "best real estate agent San Diego",
+        "intent": "commercial",
+        "priority": "high"
+      },
+      {
+        "query": "real estate agent Chula Vista CA",
+        "intent": "commercial",
+        "priority": "high"
+      },
+      {
+        "query": "first time home buyer San Diego",
+        "intent": "informational",
+        "priority": "high"
+      },
+      {
+        "query": "investment property San Diego",
+        "intent": "commercial",
+        "priority": "medium"
+      },
+      {
+        "query": "homes for sale North Park San Diego",
+        "intent": "commercial",
+        "priority": "medium"
+      }
+    ]
+  },
+
+  "brand": {
+    "brand_voice_notes": "Ryan is approachable, genuine, and optimistic. He speaks like a trusted friend who happens to be a real estate expert. Casual but professional. Uses phrases like 'move forward' and 'clear and confident.' Avoids corporate jargon. His perspective is always from someone who genuinely cares about his clients' experience, not just the transaction. References specific San Diego neighborhoods and local market knowledge."
+  },
+
+  "engagement": {
+    "package": "answer-authority-foundation",
+    "contact_name": "Ryan Fisher",
+    "contact_email": "ryan@loveryrealestate.com",
+    "primary_contact_email": "ryan@loveryrealestate.com",
+    "contact_phone": "+1-619-432-3434",
+    "preferred_contact": "email"
+  }
 }
