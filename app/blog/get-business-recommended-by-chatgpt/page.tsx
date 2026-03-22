@@ -320,22 +320,22 @@ export default function BlogPost() {
                 </tr>
                 <tr>
                   <td>Total impressions (90 days)</td>
-                  <td colspan={2}>Cumulative</td>
+                  <td colSpan={2}>Cumulative</td>
                   <td><strong>2,910,653</strong></td>
                 </tr>
                 <tr>
                   <td>Total clicks (90 days)</td>
-                  <td colspan={2}>Cumulative</td>
+                  <td colSpan={2}>Cumulative</td>
                   <td><strong>19,650</strong></td>
                 </tr>
                 <tr>
                   <td>Unique queries ranking</td>
-                  <td colspan={2}>Total</td>
+                  <td colSpan={2}>Total</td>
                   <td>1,000+</td>
                 </tr>
                 <tr>
                   <td>Peak single-day clicks</td>
-                  <td colspan={2}>Best day</td>
+                  <td colSpan={2}>Best day</td>
                   <td>427</td>
                 </tr>
               </tbody>
