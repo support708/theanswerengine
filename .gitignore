@@ -146,5 +146,7 @@ data/send-log.json
 data/blog-state.json
 data/blog-topics.json
 data/blog-staged.json
+data/reddit-state.json
+data/reddit-opportunities.json
 .env.production
 logs/

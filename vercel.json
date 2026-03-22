@@ -12,6 +12,14 @@
     {
       "path": "/api/cron/retrospective",
       "schedule": "0 18 * * 5"
+    },
+    {
+      "path": "/api/cron/reddit",
+      "schedule": "*/15 * * * *"
+    },
+    {
+      "path": "/api/cron/reddit-digest",
+      "schedule": "7 * * * *"
     }
   ]
 }

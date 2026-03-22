@@ -1,0 +1,415 @@
+{
+  "_meta": {
+    "schema_version": "1.0",
+    "client_slug": "borges-team",
+    "package": "internal",
+    "account_status": "active",
+    "assigned_va": "internal",
+    "created": "2026-03",
+    "notes": "Internal client — The Borges Real Estate Team at eXp Realty. lametrohomefinder.com on Squarespace + Ylopo IDX. 13+ years, $200M+ career sales."
+  },
+
+  "business": {
+    "legal_name": "The Borges Real Estate Team",
+    "dba": "The Borges Real Estate Team at eXp Realty",
+    "business_type": "real_estate_team",
+    "industry": "Real Estate",
+    "brokerage": "eXp Realty",
+    "founded_year": "2012",
+    "employee_count": "2-5",
+    "price_range": "$$$",
+    "license_type": "DRE",
+    "license_number": "01940318",
+    "license_state": "CA",
+    "career_sales_volume": "$200M+",
+    "list_to_sale_ratio": "106%"
+  },
+
+  "contact": {
+    "website_url": "https://www.lametrohomefinder.com",
+    "idx_search_url": "https://search.lametrohomefinder.com/search?s[orderBy]=sourceCreationDate%2Cdesc&s[page]=1&s[locations][0][city]={CITY}&s[locations][0][state]=CA&s[limit]=18&ip=t",
+    "gbp_url": "REQUIRED",
+    "phone_display": "(626) 240-1750",
+    "phone_e164": "+16262401750",
+    "email": "justin@lametrohomefinder.com",
+    "address": {
+      "street": "680 E Colorado Blvd Suite 180",
+      "city": "Pasadena",
+      "state": "CA",
+      "zip": "91101",
+      "country": "US"
+    },
+    "geo": {
+      "lat": 34.1478,
+      "lng": -118.1445
+    }
+  },
+
+  "author": {
+    "full_name": "Justin Borges",
+    "job_title": "Team Leader, The Borges Real Estate Team at eXp Realty",
+    "bio_short": "Justin Borges is a Pasadena-based real estate agent with 13+ years of experience and over $200M in career sales. He specializes in probate and inherited property, Proposition 19 transfers, rent-controlled property sales, and architectural homes throughout Pasadena, Altadena, and the greater San Gabriel Valley.",
+    "bio_long": "Justin Borges founded The Borges Real Estate Team at eXp Realty after more than a decade helping Los Angeles County residents navigate complex real estate situations. With over $200M in career sales and a 106% average list-to-sale ratio, Justin has built his practice around the cases most agents avoid: probate sales, inherited property, rent-controlled buildings, fire recovery, and the architectural homes that define communities like Pasadena and Altadena. He holds DRE license #01940318 and serves Pasadena, Altadena, Greater LA, and the San Gabriel Valley.",
+    "headshot_url": "REQUIRED",
+    "credentials": [
+      {
+        "name": "DRE License",
+        "full_name": "California Department of Real Estate License",
+        "issuing_body": "California DRE",
+        "number": "01940318"
+      }
+    ],
+    "years_experience": 13,
+    "knows_about": [
+      "Probate and inherited property sales",
+      "Proposition 19 parent-child transfers",
+      "Rent-controlled property sales Los Angeles",
+      "RSO and JCO compliance",
+      "Ellis Act evictions",
+      "Fire recovery consultation Altadena",
+      "1031 exchanges California",
+      "VA loan home purchase",
+      "FHA loans Los Angeles",
+      "Down payment assistance programs California",
+      "Architectural homes Pasadena",
+      "Craftsman Victorian Mid-Century Modern Spanish Revival",
+      "Cash offers Los Angeles",
+      "New construction Inland Empire",
+      "Foreclosure AB 2424 California"
+    ],
+    "social": {
+      "linkedin": "REQUIRED",
+      "instagram": "REQUIRED",
+      "facebook": "REQUIRED",
+      "youtube": "REQUIRED"
+    }
+  },
+
+  "team_members": [
+    {
+      "name": "Jason Patrick Hamilton",
+      "nickname": "JPH",
+      "dre": "REQUIRED",
+      "phone": "(626) 414-4101",
+      "email": "jph@theborgesrealestateteam.com",
+      "specialty": "South Pasadena, first-time buyers"
+    },
+    {
+      "name": "Brandon Thompson",
+      "dre": "02207636",
+      "phone": "REQUIRED",
+      "email": "REQUIRED",
+      "specialty": "Inland Empire"
+    },
+    {
+      "name": "Nick Despotidis",
+      "dre": "REQUIRED",
+      "phone": "REQUIRED",
+      "email": "REQUIRED",
+      "specialty": "Investor-focused, GRID LA Investor Club",
+      "note": "Content for Nick kept separate from Borges Team branding (gridlainvestorclub.com)"
+    }
+  ],
+
+  "reviews": {
+    "google": {
+      "rating": 5.0,
+      "count": 79,
+      "url": "REQUIRED",
+      "verified": true
+    }
+  },
+
+  "service_area": {
+    "primary_city": "Pasadena",
+    "cities": [
+      "Pasadena",
+      "Altadena",
+      "Arcadia",
+      "Monrovia",
+      "Sierra Madre",
+      "San Marino",
+      "La Canada Flintridge",
+      "Glendale",
+      "Burbank",
+      "Alhambra",
+      "San Gabriel",
+      "Temple City",
+      "Rosemead",
+      "El Monte",
+      "Pomona",
+      "Ontario",
+      "Rancho Cucamonga",
+      "West Covina",
+      "Covina",
+      "Glendora",
+      "Los Angeles"
+    ],
+    "counties": ["Los Angeles County", "San Bernardino County"],
+    "radius_miles": 40,
+    "service_area_description": "Pasadena, Altadena, Greater Los Angeles, and the San Gabriel Valley — with Inland Empire coverage via Brandon Thompson"
+  },
+
+  "services": [
+    {
+      "name": "Probate and Inherited Property Sales",
+      "description": "Navigating the complexities of selling inherited property, working with estate attorneys, and managing the emotional and legal process with sensitivity",
+      "url": "https://www.lametrohomefinder.com/blog",
+      "is_primary": true
+    },
+    {
+      "name": "Proposition 19 Transfers",
+      "description": "Helping families transfer property tax bases under Prop 19 — parent-child transfers, grandparent-grandchild transfers, primary residence requirements",
+      "url": "https://www.lametrohomefinder.com/blog",
+      "is_primary": true
+    },
+    {
+      "name": "Rent-Controlled Property Sales",
+      "description": "Selling RSO-covered and JCO-covered properties in Los Angeles and Pasadena, with full compliance guidance",
+      "url": "https://www.lametrohomefinder.com/blog",
+      "is_primary": true
+    },
+    {
+      "name": "Fire Recovery Consultation",
+      "description": "Helping Altadena and Eaton Fire affected homeowners understand their options — rebuild, sell, or navigate insurance claims",
+      "url": "https://www.lametrohomefinder.com/blog",
+      "is_primary": true
+    },
+    {
+      "name": "VA Loan Home Purchase",
+      "description": "Helping veterans use VA loan benefits — including the CA VA Amendatory Clause advantage that protects buyers from low appraisals even when appraisal contingency is waived",
+      "url": "https://www.lametrohomefinder.com/blog",
+      "is_primary": true
+    },
+    {
+      "name": "1031 Exchange Advisory",
+      "description": "Guiding investors through 1031 exchanges — identification rules, timing, qualified intermediaries, and replacement property selection",
+      "url": "https://www.lametrohomefinder.com/blog",
+      "is_primary": false
+    },
+    {
+      "name": "Architectural Home Sales",
+      "description": "Specializing in Craftsman, Victorian, Mid-Century Modern, and Spanish Revival homes in Pasadena and surrounding communities",
+      "url": "https://www.lametrohomefinder.com/blog",
+      "is_primary": false
+    },
+    {
+      "name": "New Construction Inland Empire",
+      "description": "Helping buyers navigate new construction purchases in the Inland Empire via Brandon Thompson",
+      "url": "https://www.lametrohomefinder.com/blog",
+      "is_primary": false
+    }
+  ],
+
+  "cms": {
+    "platform": "squarespace",
+    "blog_base_url": "https://www.lametrohomefinder.com/blog",
+    "schema_injection_method": "page_header_code_injection",
+    "idx_platform": "ylopo",
+    "va_access_notes": "Squarespace admin access. Schema goes in Advanced → Page Header Code Injection per post. Cannot inject schema site-wide in blog post body blocks."
+  },
+
+  "gsc": {
+    "property_url": "https://www.lametrohomefinder.com",
+    "property_type": "url_prefix",
+    "access_level": "owner",
+    "sitemap_url": "https://www.lametrohomefinder.com/sitemap.xml"
+  },
+
+  "hub_and_spoke": {
+    "clusters": [
+      {
+        "cluster_id": "probate-inherited-property",
+        "hub_topic": "Selling Inherited Property in California",
+        "hub_url": "REQUIRED",
+        "hub_status": "active",
+        "hub_aero7_score": null,
+        "spokes": []
+      },
+      {
+        "cluster_id": "proposition-19",
+        "hub_topic": "Proposition 19 Property Tax Transfers in California",
+        "hub_url": "REQUIRED",
+        "hub_status": "active",
+        "hub_aero7_score": null,
+        "spokes": []
+      },
+      {
+        "cluster_id": "rent-control-rso",
+        "hub_topic": "Selling Rent-Controlled Property in Los Angeles",
+        "hub_url": "REQUIRED",
+        "hub_status": "active",
+        "hub_aero7_score": null,
+        "spokes": []
+      },
+      {
+        "cluster_id": "fire-recovery-altadena",
+        "hub_topic": "Fire Recovery Real Estate Guide — Altadena and Eaton Fire",
+        "hub_url": "REQUIRED",
+        "hub_status": "active",
+        "hub_aero7_score": null,
+        "spokes": []
+      },
+      {
+        "cluster_id": "va-loans",
+        "hub_topic": "VA Loan Home Buying Guide — California",
+        "hub_url": "REQUIRED",
+        "hub_status": "active",
+        "hub_aero7_score": null,
+        "spokes": []
+      },
+      {
+        "cluster_id": "1031-exchange",
+        "hub_topic": "1031 Exchange Guide for California Investors",
+        "hub_url": "REQUIRED",
+        "hub_status": "active",
+        "hub_aero7_score": null,
+        "spokes": []
+      },
+      {
+        "cluster_id": "cash-offers",
+        "hub_topic": "Cash Offers for Los Angeles Homes",
+        "hub_url": "REQUIRED",
+        "hub_status": "active",
+        "hub_aero7_score": null,
+        "spokes": []
+      },
+      {
+        "cluster_id": "la-schools",
+        "hub_topic": "LA County Schools and Real Estate Guide",
+        "hub_url": "PENDING",
+        "hub_status": "in_progress",
+        "hub_aero7_score": null,
+        "spokes": [],
+        "notes": "Master pillar → 5 geographic hubs → 26 spokes. In progress."
+      }
+    ]
+  },
+
+  "citation_monitoring": {
+    "last_checked": null,
+    "target_queries": [
+      {
+        "query": "probate real estate agent Pasadena CA",
+        "intent": "commercial_investigation",
+        "priority": "high",
+        "cluster_id": "probate-inherited-property"
+      },
+      {
+        "query": "how to sell inherited property in California",
+        "intent": "informational",
+        "priority": "high",
+        "cluster_id": "probate-inherited-property"
+      },
+      {
+        "query": "Proposition 19 parent child transfer California",
+        "intent": "informational",
+        "priority": "high",
+        "cluster_id": "proposition-19"
+      },
+      {
+        "query": "selling rent controlled property Los Angeles",
+        "intent": "informational",
+        "priority": "high",
+        "cluster_id": "rent-control-rso"
+      },
+      {
+        "query": "Altadena fire recovery real estate options",
+        "intent": "informational",
+        "priority": "high",
+        "cluster_id": "fire-recovery-altadena"
+      },
+      {
+        "query": "VA loan home purchase California",
+        "intent": "commercial_investigation",
+        "priority": "medium",
+        "cluster_id": "va-loans"
+      },
+      {
+        "query": "real estate agent Pasadena CA",
+        "intent": "commercial_investigation",
+        "priority": "high",
+        "cluster_id": null
+      }
+    ]
+  },
+
+  "schema_base": {
+    "organization": {
+      "@type": "RealEstateAgent",
+      "@id": "https://www.lametrohomefinder.com/#organization",
+      "name": "The Borges Real Estate Team",
+      "alternateName": "The Borges Real Estate Team at eXp Realty",
+      "url": "https://www.lametrohomefinder.com",
+      "telephone": "+16262401750",
+      "email": "justin@lametrohomefinder.com",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "680 E Colorado Blvd Suite 180",
+        "addressLocality": "Pasadena",
+        "addressRegion": "CA",
+        "postalCode": "91101",
+        "addressCountry": "US"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 34.1478,
+        "longitude": -118.1445
+      },
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": 5.0,
+        "reviewCount": 79,
+        "bestRating": 5,
+        "worstRating": 1
+      }
+    },
+    "person": {
+      "@type": "Person",
+      "@id": "https://www.lametrohomefinder.com/#person",
+      "name": "Justin Borges",
+      "jobTitle": "Team Leader, The Borges Real Estate Team at eXp Realty",
+      "telephone": "+16262401750",
+      "email": "justin@lametrohomefinder.com",
+      "url": "https://www.lametrohomefinder.com",
+      "worksFor": { "@id": "https://www.lametrohomefinder.com/#organization" },
+      "hasCredential": [
+        {
+          "@type": "EducationalOccupationalCredential",
+          "credentialCategory": "Professional License",
+          "name": "California DRE License #01940318"
+        }
+      ]
+    }
+  },
+
+  "brand": {
+    "colors": {
+      "navy": "#04253A",
+      "linen": "#e0debf"
+    },
+    "font": "Montserrat",
+    "logo_url": "REQUIRED",
+    "brand_voice_notes": "Expert and direct — the agent who knows the cases most agents avoid. Specific over generic. Pasadena-rooted. Speaks to sellers in stressful situations (probate, inherited property, rent control, fire recovery) with clarity and confidence. No jargon. No filler phrases."
+  },
+
+  "competitive_advantages": [
+    "VA loan: CA VA Amendatory Clause protects veterans even when appraisal contingency is waived — cannot be waived. Most agents don't know this.",
+    "15-day VA loan close via lending partners",
+    "Probate: works directly with estate attorneys, knows the court confirmation process",
+    "Prop 19: understands the exclusion limits, filing deadlines, and reassessment triggers that trip up other agents",
+    "Rent control: RSO, JCO, Ellis Act — knows what triggers tenant protections and what does not",
+    "106% average list-to-sale ratio — homes sell above asking price"
+  ],
+
+  "engagement": {
+    "package": "internal",
+    "start_date": "2012",
+    "mrr": 0,
+    "total_contract": 0,
+    "stripe_customer_id": null,
+    "primary_contact_name": "Justin Borges",
+    "primary_contact_email": "justin@lametrohomefinder.com",
+    "primary_contact_phone": "(626) 240-1750"
+  }
+}

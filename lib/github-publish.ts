@@ -170,6 +170,26 @@ export async function getFileContent(filePath: string): Promise<string> {
  * Get file content from GitHub, returning null if file doesn't exist (404).
  * Used for state files that may not exist on first run.
  */
+/**
+ * List files in a GitHub directory.
+ * Returns an array of filenames (not full paths).
+ * Returns empty array if directory doesn't exist.
+ */
+export async function listDirectoryFiles(dirPath: string): Promise<string[]> {
+  const token = process.env.GITHUB_TOKEN;
+  if (!token) return [];
+
+  const res = await githubFetch(
+    `/repos/${REPO_OWNER}/${REPO_NAME}/contents/${dirPath}?ref=${BRANCH}`,
+  );
+  if (!res.ok) return [];
+  const data = await res.json();
+  if (!Array.isArray(data)) return [];
+  return data
+    .filter((item: { type: string }) => item.type === 'file')
+    .map((item: { name: string }) => item.name);
+}
+
 export async function getFileContentSafe(filePath: string): Promise<string | null> {
   const token = process.env.GITHUB_TOKEN;
   if (!token) return null;

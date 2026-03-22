@@ -1,0 +1,440 @@
+{
+  "_meta": {
+    "schema_version": "1.0",
+    "created": "2026-03-06",
+    "updated": "2026-03-06",
+    "client_slug": "rpm-southland",
+    "answer_engine_package": "answer-authority-foundation",
+    "account_status": "active",
+    "assigned_va": "TBD",
+    "notes": "WordPress site. Miles Williams is broker/owner and primary author voice. Franchise business — content must position the LOCAL Miles Williams expertise, not the national RPM brand. DRE#: 01968830. Brokerage DRE: 01969679."
+  },
+
+  "business": {
+    "legal_name": "Real Property Management Southland",
+    "dba": "RPM Southland",
+    "business_type": "LocalBusiness",
+    "industry": "residential property management",
+    "founded_year": "2014",
+    "employee_count": 8,
+    "price_range": "$$"
+  },
+
+  "contact": {
+    "website_url": "https://www.rpmsouthland.com",
+    "gbp_url": "https://g.co/kgs/rpmsouthland",
+    "phone": "+1-562-270-1777",
+    "phone_display": "(562) 270-1777",
+    "email": "support@rpmsouthland.com",
+    "address": {
+      "street": "3450 E Spring Street Suite 209",
+      "city": "Long Beach",
+      "state": "CA",
+      "zip": "90806",
+      "country": "US"
+    },
+    "geo": {
+      "latitude": 33.8108,
+      "longitude": -118.1553
+    }
+  },
+
+  "author": {
+    "full_name": "Miles Williams",
+    "first_name": "Miles",
+    "job_title": "Broker/Owner",
+    "bio_short": "Miles Williams is the Broker/Owner of Real Property Management Southland, serving Long Beach and surrounding areas since 2014. He holds California DRE license #01968830 and specializes in residential property management for single-family and multi-family rental properties.",
+    "bio_long": "Miles Williams founded Real Property Management Southland in 2014 while completing a Master's program at Cal State Long Beach — a testament to the drive that still defines how he runs the business today. Originally from the Bay Area, Miles built RPM Southland from the ground up and expanded the franchise territory in 2018, growing it into one of the most-reviewed property management companies in Long Beach. With over 11 years of local property management experience backed by the nationwide RPM franchise network, Miles and his team specialize in full-service residential management for single-family and multi-family properties throughout Long Beach, Downey, Lakewood, Torrance, and surrounding communities. His philosophy: consistency and the willingness to have tough conversations when they matter most. California Real Estate Broker, DRE #01968830.",
+    "headshot_url": "https://www.rpmsouthland.com/images/miles-williams-headshot.jpg",
+    "author_page_url": "https://www.rpmsouthland.com/about-us",
+    "credentials": [
+      {
+        "type": "License",
+        "name": "California Real Estate Broker",
+        "number": "01968830",
+        "issuing_body": "California Department of Real Estate",
+        "year": "2014"
+      },
+      {
+        "type": "License",
+        "name": "Real Estate Brokerage License",
+        "number": "01969679",
+        "issuing_body": "California Department of Real Estate",
+        "year": "2014"
+      }
+    ],
+    "years_experience": 11,
+    "knows_about": [
+      "Residential Property Management",
+      "Single-Family Home Management",
+      "Multi-Family Property Management",
+      "Tenant Screening",
+      "Lease Agreements",
+      "Eviction Process California",
+      "Rent Collection",
+      "Property Maintenance Coordination",
+      "Investment Property Management Long Beach",
+      "California Landlord-Tenant Law"
+    ],
+    "social": {
+      "linkedin": "https://www.linkedin.com/in/mileswilliams4/",
+      "facebook": "https://www.facebook.com/rpmlongbeach/",
+      "instagram": "",
+      "twitter": "",
+      "youtube": ""
+    }
+  },
+
+  "reviews": {
+    "google": {
+      "rating": 4.8,
+      "count": 880,
+      "url": "https://g.co/kgs/rpmsouthland"
+    },
+    "yelp": {
+      "rating": 4.5,
+      "count": 120,
+      "url": "https://www.yelp.com/biz/real-property-management-southland-long-beach"
+    },
+    "other": [
+      {
+        "platform": "Facebook",
+        "rating": 5.0,
+        "count": 22,
+        "url": "https://www.facebook.com/rpmlongbeach/"
+      }
+    ]
+  },
+
+  "service_area": {
+    "primary_city": "Long Beach",
+    "primary_state": "CA",
+    "cities": [
+      "Long Beach",
+      "Downey",
+      "Lakewood",
+      "Cerritos",
+      "Torrance",
+      "San Pedro",
+      "Bell",
+      "Bell Gardens",
+      "Bellflower",
+      "Lynwood",
+      "Maywood",
+      "Montebello",
+      "Norwalk",
+      "Paramount",
+      "Pico Rivera",
+      "Santa Fe Springs",
+      "South Gate",
+      "Whittier"
+    ],
+    "counties": [
+      "Los Angeles County"
+    ],
+    "radius_miles": 25,
+    "service_area_description": "Greater Long Beach metro and Southeast Los Angeles County"
+  },
+
+  "services": [
+    {
+      "name": "Residential Property Management",
+      "description": "Full-service management for single-family and multi-family residential rental properties including tenant screening, leasing, maintenance, rent collection, and accounting.",
+      "url": "https://www.rpmsouthland.com/property-management-services",
+      "is_primary": true
+    },
+    {
+      "name": "Tenant Screening",
+      "description": "Credit check, background check, and rental history verification to place qualified tenants quickly.",
+      "url": "https://www.rpmsouthland.com/property-management-services",
+      "is_primary": false
+    },
+    {
+      "name": "Leasing Services",
+      "description": "Vacancy advertising across high-traffic rental sites, showings, lease execution, and move-in coordination.",
+      "url": "https://www.rpmsouthland.com/property-management-services",
+      "is_primary": false
+    },
+    {
+      "name": "Maintenance Coordination",
+      "description": "24/7 maintenance request handling with vetted vendor network and owner portal transparency.",
+      "url": "https://www.rpmsouthland.com/property-management-services",
+      "is_primary": false
+    },
+    {
+      "name": "Eviction Services",
+      "description": "End-to-end eviction management including notices, court filings, and coordination with legal counsel.",
+      "url": "https://www.rpmsouthland.com/property-management-services",
+      "is_primary": false
+    },
+    {
+      "name": "Property Accounting",
+      "description": "Monthly financial reports, owner disbursements, and year-end accounting through secure online owner portal.",
+      "url": "https://www.rpmsouthland.com/property-management-services",
+      "is_primary": false
+    }
+  ],
+
+  "cms": {
+    "platform": "WordPress",
+    "website_url": "https://www.rpmsouthland.com",
+    "blog_base_url": "https://www.rpmsouthland.com/blog",
+    "schema_injection_method": "yoast",
+    "va_access_notes": "WordPress backend. Yoast SEO active for meta fields. Use WPBakery for page layout if needed. Schema goes in Yoast schema tab or custom HTML block. Confirm login credentials with Miles before first publish."
+  },
+
+  "gsc": {
+    "property_url": "https://www.rpmsouthland.com",
+    "property_type": "url-prefix",
+    "access_level": "full-user",
+    "sitemap_url": "https://www.rpmsouthland.com/sitemap_index.xml"
+  },
+
+  "hub_and_spoke": {
+    "clusters": [
+      {
+        "cluster_id": "property-management-long-beach",
+        "hub_topic": "Complete Guide to Property Management in Long Beach",
+        "hub_url": "",
+        "hub_status": "planned",
+        "hub_aero7_score": 0,
+        "spokes": [
+          {
+            "spoke_id": "property-management-costs-long-beach",
+            "title": "How Much Does Property Management Cost in Long Beach?",
+            "target_query": "how much does property management cost in Long Beach",
+            "url": "https://www.rpmsouthland.com/blog/property-management-costs-long-beach",
+            "status": "published",
+            "aero7_score": 0,
+            "word_count": 1450,
+            "published_date": "2025-10-01",
+            "last_updated": "2025-10-01"
+          },
+          {
+            "spoke_id": "diy-vs-professional-property-management",
+            "title": "DIY vs. Professional Property Management in Long Beach",
+            "target_query": "should I hire a property manager or self-manage Long Beach",
+            "url": "https://www.rpmsouthland.com/blog/diy-vs-professional-property-management",
+            "status": "published",
+            "aero7_score": 0,
+            "word_count": 1600,
+            "published_date": "2025-10-15",
+            "last_updated": "2025-10-15"
+          },
+          {
+            "spoke_id": "adu-property-management-long-beach",
+            "title": "ADU Property Management in Long Beach: What Owners Need to Know",
+            "target_query": "ADU property management Long Beach",
+            "url": "https://www.rpmsouthland.com/blog/adu-property-management-long-beach",
+            "status": "published",
+            "aero7_score": 0,
+            "word_count": 1500,
+            "published_date": "2025-11-01",
+            "last_updated": "2025-11-01"
+          },
+          {
+            "spoke_id": "when-to-hire-property-manager",
+            "title": "5 Signs It's Time to Hire a Property Manager in Long Beach",
+            "target_query": "when should I hire a property manager Long Beach",
+            "url": "https://www.rpmsouthland.com/blog/when-to-hire-property-manager-long-beach",
+            "status": "published",
+            "aero7_score": 0,
+            "word_count": 1350,
+            "published_date": "2025-11-15",
+            "last_updated": "2025-11-15"
+          }
+        ]
+      }
+    ]
+  },
+
+  "citation_monitoring": {
+    "target_queries": [
+      {
+        "query": "best property management company Long Beach CA",
+        "intent": "commercial",
+        "priority": "high",
+        "cluster_id": "property-management-long-beach"
+      },
+      {
+        "query": "how much does property management cost in Long Beach",
+        "intent": "informational",
+        "priority": "high",
+        "cluster_id": "property-management-long-beach"
+      },
+      {
+        "query": "property manager Long Beach California",
+        "intent": "commercial",
+        "priority": "high",
+        "cluster_id": "property-management-long-beach"
+      },
+      {
+        "query": "should I hire a property manager in Long Beach",
+        "intent": "informational",
+        "priority": "medium",
+        "cluster_id": "property-management-long-beach"
+      },
+      {
+        "query": "ADU property management Long Beach",
+        "intent": "informational",
+        "priority": "medium",
+        "cluster_id": "property-management-long-beach"
+      },
+      {
+        "query": "residential property management Downey CA",
+        "intent": "commercial",
+        "priority": "medium",
+        "cluster_id": "property-management-long-beach"
+      },
+      {
+        "query": "eviction process landlord Long Beach California",
+        "intent": "informational",
+        "priority": "medium",
+        "cluster_id": "property-management-long-beach"
+      }
+    ],
+    "citation_log_path": "clients/rpm-southland/citation_log.json",
+    "monitoring_frequency": "weekly",
+    "last_checked": "2026-03-06"
+  },
+
+  "schema_base": {
+    "organization": {
+      "@type": "Organization",
+      "@id": "https://www.rpmsouthland.com/#organization",
+      "name": "Real Property Management Southland",
+      "url": "https://www.rpmsouthland.com",
+      "logo": "https://www.rpmsouthland.com/images/rpm-southland-logo.png",
+      "sameAs": [
+        "https://www.facebook.com/rpmlongbeach/",
+        "https://www.linkedin.com/company/real-property-management-southland-long-beach",
+        "https://www.yelp.com/biz/real-property-management-southland-long-beach"
+      ]
+    },
+    "local_business": {
+      "@type": "LocalBusiness",
+      "@id": "https://www.rpmsouthland.com/#business",
+      "name": "Real Property Management Southland",
+      "description": "Full-service residential property management in Long Beach, Downey, Lakewood, and Southeast LA County. Specializing in single-family and multi-family rentals with over 11 years of local experience.",
+      "url": "https://www.rpmsouthland.com",
+      "telephone": "+1-562-270-1777",
+      "email": "support@rpmsouthland.com",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "3450 E Spring Street Suite 209",
+        "addressLocality": "Long Beach",
+        "addressRegion": "CA",
+        "postalCode": "90806",
+        "addressCountry": "US"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 33.8108,
+        "longitude": -118.1553
+      },
+      "openingHoursSpecification": [
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday"],
+          "opens": "09:00",
+          "closes": "17:00"
+        }
+      ],
+      "priceRange": "$$",
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.8",
+        "reviewCount": "880",
+        "bestRating": "5",
+        "worstRating": "1"
+      },
+      "hasMap": "https://g.co/kgs/rpmsouthland",
+      "sameAs": [
+        "https://www.facebook.com/rpmlongbeach/",
+        "https://www.yelp.com/biz/real-property-management-southland-long-beach"
+      ]
+    },
+    "person": {
+      "@type": "Person",
+      "@id": "https://www.rpmsouthland.com/about-us#miles-williams",
+      "name": "Miles Williams",
+      "givenName": "Miles",
+      "jobTitle": "Broker/Owner",
+      "description": "Miles Williams founded Real Property Management Southland in 2014 while completing a Master's program at Cal State Long Beach. With over 11 years of local property management experience, Miles and his team serve Long Beach, Downey, Lakewood, and surrounding Southeast LA County communities. California Real Estate Broker DRE #01968830.",
+      "url": "https://www.rpmsouthland.com/about-us",
+      "image": "https://www.rpmsouthland.com/images/miles-williams-headshot.jpg",
+      "email": "support@rpmsouthland.com",
+      "telephone": "+1-562-270-1777",
+      "worksFor": {
+        "@type": "Organization",
+        "@id": "https://www.rpmsouthland.com/#organization"
+      },
+      "knowsAbout": [
+        "Residential Property Management",
+        "Tenant Screening",
+        "California Landlord-Tenant Law",
+        "Eviction Process",
+        "ADU Management",
+        "Investment Property Long Beach"
+      ],
+      "hasCredential": [
+        {
+          "@type": "EducationalOccupationalCredential",
+          "credentialCategory": "License",
+          "name": "California Real Estate Broker License",
+          "issuedBy": {
+            "@type": "Organization",
+            "name": "California Department of Real Estate"
+          }
+        }
+      ],
+      "sameAs": [
+        "https://www.linkedin.com/in/mileswilliams4/",
+        "https://www.facebook.com/rpmlongbeach/"
+      ]
+    }
+  },
+
+  "brand": {
+    "primary_color": "#0057A8",
+    "secondary_color": "#FFFFFF",
+    "font": "Open Sans",
+    "logo_url": "https://www.rpmsouthland.com/images/rpm-southland-logo.png",
+    "logo_white_url": "https://www.rpmsouthland.com/images/rpm-southland-logo-white.png",
+    "brand_voice_notes": "Miles speaks directly and practically — no fluff. He uses phrases like 'the tough conversation' and 'consistency.' Tone is professional but conversational, approachable for landlords who are stressed. Avoid corporate property management speak. Avoid 'leverage' and 'synergy.' His perspective is always from a local Long Beach operator, not a national franchise. References specific neighborhoods and local market conditions when possible."
+  },
+
+  "competitors": [
+    {
+      "name": "Beach Front Property Management",
+      "website": "https://www.beachfrontpm.com",
+      "aero7_score": 0,
+      "notes": "Long Beach based, strong local presence"
+    },
+    {
+      "name": "Shorewood Real Estate",
+      "website": "https://www.shorewood.com",
+      "aero7_score": 0,
+      "notes": "Hybrid real estate and property management"
+    },
+    {
+      "name": "HomeVault Property Management",
+      "website": "https://www.homevaultpm.com",
+      "aero7_score": 0,
+      "notes": "Long Beach focused competitor"
+    }
+  ],
+
+  "engagement": {
+    "package": "answer-authority-foundation",
+    "start_date": "2025-09-01",
+    "renewal_date": "2026-09-01",
+    "mrr": 0,
+    "stripe_customer_id": "VERIFY WITH MILES",
+    "contact_name": "Miles Williams",
+    "contact_email": "support@rpmsouthland.com",
+    "contact_phone": "+1-562-270-1777",
+    "preferred_contact": "email",
+    "approval_turnaround_days": 3
+  }
+}

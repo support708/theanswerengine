@@ -1,0 +1,379 @@
+{
+  "_meta": {
+    "schema_version": "1.0",
+    "client_slug": "davis-agency",
+    "package": "answer_authority_foundation",
+    "account_status": "active",
+    "assigned_va": "TBD",
+    "created": "2026-03",
+    "notes": "Luxury Presence website. Austin TX market. TREC licensed. 78704 cluster in production."
+  },
+
+  "business": {
+    "legal_name": "The Davis Agency",
+    "dba": "The Davis Agency",
+    "business_type": "real_estate_brokerage",
+    "industry": "Real Estate",
+    "founded_year": "REQUIRED",
+    "employee_count": "1-5",
+    "price_range": "$$$",
+    "license_type": "TREC",
+    "license_number": "558841",
+    "license_state": "TX"
+  },
+
+  "contact": {
+    "website_url": "https://www.davisagencytx.com",
+    "gbp_url": "REQUIRED",
+    "phone_display": "(512) 608-8811",
+    "phone_e164": "+15126088811",
+    "email": "REQUIRED",
+    "address": {
+      "street": "REQUIRED",
+      "city": "Austin",
+      "state": "TX",
+      "zip": "REQUIRED",
+      "country": "US"
+    },
+    "geo": {
+      "lat": 30.2672,
+      "lng": -97.7431
+    }
+  },
+
+  "author": {
+    "full_name": "Derrik Davis",
+    "job_title": "Realtor / Owner",
+    "bio_short": "Derrik Davis is a CLHMS-certified luxury real estate specialist in Austin, TX with deep expertise in the 78704 zip code and surrounding neighborhoods including Zilker, Bouldin Creek, Travis Heights, and Barton Hills.",
+    "bio_long": "REQUIRED — conduct voice capture interview to develop long-form bio",
+    "headshot_url": "REQUIRED",
+    "credentials": [
+      {
+        "name": "CLHMS",
+        "full_name": "Certified Luxury Home Marketing Specialist",
+        "issuing_body": "The Institute for Luxury Home Marketing",
+        "number": null
+      },
+      {
+        "name": "TREC License",
+        "full_name": "Texas Real Estate Commission License",
+        "issuing_body": "TREC",
+        "number": "558841"
+      }
+    ],
+    "years_experience": "REQUIRED",
+    "knows_about": [
+      "Austin luxury real estate",
+      "78704 zip code market",
+      "Zilker neighborhood",
+      "Bouldin Creek real estate",
+      "Travis Heights homes",
+      "Barton Hills properties",
+      "Austin off-market land",
+      "New construction builders Austin",
+      "Luxury home sales Austin",
+      "Austin market trends"
+    ],
+    "social": {
+      "linkedin": "REQUIRED",
+      "instagram": "REQUIRED",
+      "facebook": "REQUIRED"
+    }
+  },
+
+  "reviews": {
+    "google": {
+      "rating": "REQUIRED",
+      "count": "REQUIRED",
+      "url": "REQUIRED"
+    },
+    "zillow": {
+      "rating": "REQUIRED",
+      "count": "REQUIRED",
+      "url": "REQUIRED"
+    },
+    "realtor_com": {
+      "rating": "REQUIRED",
+      "count": "REQUIRED",
+      "url": "REQUIRED"
+    }
+  },
+
+  "service_area": {
+    "primary_city": "Austin",
+    "primary_zip": "78704",
+    "cities": [
+      "Austin",
+      "Bee Cave",
+      "West Lake Hills",
+      "Rollingwood",
+      "Sunset Valley"
+    ],
+    "neighborhoods": [
+      "Zilker",
+      "Bouldin Creek",
+      "Travis Heights",
+      "Barton Hills",
+      "South Congress",
+      "SoCo",
+      "78704"
+    ],
+    "counties": ["Travis County", "Hays County"],
+    "radius_miles": 30,
+    "service_area_description": "Austin, TX and surrounding communities including Zilker, Bouldin Creek, Travis Heights, and Barton Hills — specializing in the 78704 zip code"
+  },
+
+  "services": [
+    {
+      "name": "Luxury Home Sales",
+      "description": "Specializing in luxury residential real estate sales in Austin's most desirable neighborhoods",
+      "url": "https://www.davisagencytx.com/",
+      "is_primary": true
+    },
+    {
+      "name": "Buyer Representation",
+      "description": "Helping buyers find and purchase homes in Austin's competitive market, especially 78704",
+      "url": "https://www.davisagencytx.com/",
+      "is_primary": true
+    },
+    {
+      "name": "Seller Representation",
+      "description": "Strategic listing and marketing for sellers in Austin's luxury neighborhoods",
+      "url": "https://www.davisagencytx.com/home-valuation",
+      "is_primary": true
+    },
+    {
+      "name": "Off-Market Land Acquisition",
+      "description": "Connecting buyers with off-market land opportunities in Austin before they hit the public market",
+      "url": "https://www.davisagencytx.com/",
+      "is_primary": false
+    },
+    {
+      "name": "New Construction Consultation",
+      "description": "Advising buyers on builder selection, contracts, and upgrades for new construction in Austin",
+      "url": "https://www.davisagencytx.com/",
+      "is_primary": false
+    }
+  ],
+
+  "cms": {
+    "platform": "luxury_presence",
+    "blog_base_url": "https://www.davisagencytx.com/blog",
+    "schema_injection_method": "page_header_code_injection",
+    "va_access_notes": "REQUIRED — confirm CMS access level with Derrik",
+    "home_valuation_tool_url": "https://www.davisagencytx.com/home-valuation"
+  },
+
+  "gsc": {
+    "property_url": "https://www.davisagencytx.com",
+    "property_type": "url_prefix",
+    "access_level": "REQUIRED",
+    "sitemap_url": "https://www.davisagencytx.com/sitemap.xml"
+  },
+
+  "hub_and_spoke": {
+    "clusters": [
+      {
+        "cluster_id": "78704-real-estate",
+        "hub_topic": "Complete Guide to Buying a Home in 78704",
+        "hub_url": "PENDING",
+        "hub_status": "pending",
+        "hub_aero7_score": null,
+        "spokes": [
+          {
+            "spoke_id": "78704-new-construction-builders",
+            "title": "New Construction Builders in 78704: What Buyers Need to Know",
+            "target_query": "new construction builders 78704 Austin",
+            "url": "PENDING",
+            "status": "draft",
+            "aero7_score": null,
+            "published_date": null,
+            "last_updated": null,
+            "notes": "Spoke 1 — completed and publication-ready"
+          },
+          {
+            "spoke_id": "78704-off-market-land",
+            "title": "How to Find Off-Market Land in 78704 Before It Lists",
+            "target_query": "off-market land 78704 Austin",
+            "url": "PENDING",
+            "status": "draft",
+            "aero7_score": null,
+            "published_date": null,
+            "last_updated": null,
+            "notes": "Spoke 2 — completed and publication-ready"
+          },
+          {
+            "spoke_id": "zilker-neighborhood-guide",
+            "title": "Living in Zilker: Austin's Most Sought-After Neighborhood",
+            "target_query": "Zilker neighborhood Austin real estate",
+            "url": "PENDING",
+            "status": "planned",
+            "aero7_score": null,
+            "published_date": null,
+            "last_updated": null,
+            "notes": "Buyer hub spoke — needs Derrik interview for insider perspective"
+          },
+          {
+            "spoke_id": "bouldin-creek-neighborhood-guide",
+            "title": "Bouldin Creek Austin: Everything You Need to Know Before Buying",
+            "target_query": "Bouldin Creek Austin homes for sale",
+            "url": "PENDING",
+            "status": "planned",
+            "aero7_score": null,
+            "published_date": null,
+            "last_updated": null,
+            "notes": "Buyer hub spoke"
+          },
+          {
+            "spoke_id": "travis-heights-neighborhood-guide",
+            "title": "Travis Heights Austin Real Estate: Neighborhood Guide for Buyers",
+            "target_query": "Travis Heights Austin real estate",
+            "url": "PENDING",
+            "status": "planned",
+            "aero7_score": null,
+            "published_date": null,
+            "last_updated": null,
+            "notes": "Buyer hub spoke"
+          },
+          {
+            "spoke_id": "barton-hills-neighborhood-guide",
+            "title": "Barton Hills Austin: What to Know Before You Buy",
+            "target_query": "Barton Hills Austin homes",
+            "url": "PENDING",
+            "status": "planned",
+            "aero7_score": null,
+            "published_date": null,
+            "last_updated": null,
+            "notes": "Buyer hub spoke"
+          }
+        ]
+      },
+      {
+        "cluster_id": "austin-home-seller",
+        "hub_topic": "Complete Guide to Selling Your Home in Austin",
+        "hub_url": "PENDING",
+        "hub_status": "planned",
+        "hub_aero7_score": null,
+        "spokes": [
+          {
+            "spoke_id": "austin-home-valuation",
+            "title": "How Much Is My Austin Home Worth?",
+            "target_query": "how much is my Austin home worth",
+            "url": "https://www.davisagencytx.com/home-valuation",
+            "status": "planned",
+            "aero7_score": null,
+            "published_date": null,
+            "last_updated": null,
+            "notes": "Links to home valuation tool — seller cluster anchor spoke"
+          }
+        ]
+      }
+    ]
+  },
+
+  "citation_monitoring": {
+    "last_checked": null,
+    "target_queries": [
+      {
+        "query": "new construction builders 78704 Austin",
+        "intent": "commercial_investigation",
+        "priority": "high",
+        "cluster_id": "78704-real-estate"
+      },
+      {
+        "query": "off-market land 78704 Austin",
+        "intent": "commercial_investigation",
+        "priority": "high",
+        "cluster_id": "78704-real-estate"
+      },
+      {
+        "query": "real estate agent 78704 Austin",
+        "intent": "commercial_investigation",
+        "priority": "high",
+        "cluster_id": "78704-real-estate"
+      },
+      {
+        "query": "Zilker neighborhood Austin real estate",
+        "intent": "informational",
+        "priority": "medium",
+        "cluster_id": "78704-real-estate"
+      },
+      {
+        "query": "best realtor Austin 78704",
+        "intent": "commercial_investigation",
+        "priority": "high",
+        "cluster_id": "78704-real-estate"
+      }
+    ]
+  },
+
+  "schema_base": {
+    "organization": {
+      "@type": "RealEstateAgent",
+      "@id": "https://www.davisagencytx.com/#organization",
+      "name": "The Davis Agency",
+      "url": "https://www.davisagencytx.com",
+      "telephone": "+15126088811",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Austin",
+        "addressRegion": "TX",
+        "addressCountry": "US"
+      },
+      "areaServed": ["Austin", "78704", "Zilker", "Bouldin Creek", "Travis Heights", "Barton Hills"]
+    },
+    "person": {
+      "@type": "Person",
+      "@id": "https://www.davisagencytx.com/#person",
+      "name": "Derrik Davis",
+      "jobTitle": "Realtor / Owner",
+      "telephone": "+15126088811",
+      "url": "https://www.davisagencytx.com",
+      "worksFor": { "@id": "https://www.davisagencytx.com/#organization" },
+      "hasCredential": [
+        {
+          "@type": "EducationalOccupationalCredential",
+          "credentialCategory": "Professional License",
+          "name": "CLHMS — Certified Luxury Home Marketing Specialist"
+        },
+        {
+          "@type": "EducationalOccupationalCredential",
+          "credentialCategory": "Professional License",
+          "name": "TREC License #558841"
+        }
+      ]
+    }
+  },
+
+  "brand": {
+    "colors": {
+      "primary": "REQUIRED",
+      "secondary": "REQUIRED"
+    },
+    "font": "REQUIRED",
+    "logo_url": "REQUIRED",
+    "brand_voice_notes": "Luxury market expert with deep neighborhood knowledge. Professional but approachable. Austin insider. Specific over generic — name streets, reference actual properties and market conditions."
+  },
+
+  "competitors": [
+    {
+      "name": "REQUIRED — identify top 78704 competitors",
+      "website": "REQUIRED",
+      "aero7_score": null,
+      "notes": "Run aero7_quick.js audit before first content session"
+    }
+  ],
+
+  "engagement": {
+    "package": "answer_authority_foundation",
+    "sets": 1,
+    "start_date": "REQUIRED",
+    "mrr": 0,
+    "total_contract": 2997,
+    "stripe_customer_id": "REQUIRED",
+    "primary_contact_name": "Derrik Davis",
+    "primary_contact_email": "REQUIRED",
+    "primary_contact_phone": "(512) 608-8811",
+    "next_action": "Publish Spoke 1 and Spoke 2. Schedule supplemental interview for neighborhood insider content before building Zilker/Bouldin/Travis Heights/Barton Hills spokes."
+  }
+}
