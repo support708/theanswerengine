@@ -1,0 +1,11 @@
+{
+  "seenPostIds": {},
+  "lastPollBySubreddit": {},
+  "lastDigestByClient": {},
+  "monthlyStats": {
+    "month": "2026-03",
+    "totalScanned": 0,
+    "totalQualified": 0,
+    "byClient": {}
+  }
+}
