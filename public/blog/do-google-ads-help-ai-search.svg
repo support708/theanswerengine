@@ -1,0 +1,110 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="bgDGAA" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1a1b4e;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#0F1117;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#2e0d1a;stop-opacity:1" />
+    </linearGradient>
+    <filter id="glowDGAA"><feGaussianBlur stdDeviation="6" result="blurDGAA"/><feMerge><feMergeNode in="blurDGAA"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <linearGradient id="rowDGAA" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:rgba(255,106,0,0.06);stop-opacity:1" />
+      <stop offset="100%" style="stop-color:rgba(255,106,0,0);stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bgDGAA)"/>
+  <!-- Grid lines -->
+  <line x1="0" y1="90" x2="1200" y2="90" stroke="rgba(255,106,0,0.05)" stroke-width="0.5"/>
+  <line x1="0" y1="180" x2="1200" y2="180" stroke="rgba(255,106,0,0.05)" stroke-width="0.5"/>
+  <line x1="0" y1="315" x2="1200" y2="315" stroke="rgba(255,106,0,0.05)" stroke-width="0.5"/>
+  <line x1="0" y1="450" x2="1200" y2="450" stroke="rgba(255,106,0,0.05)" stroke-width="0.5"/>
+  <line x1="0" y1="540" x2="1200" y2="540" stroke="rgba(255,106,0,0.05)" stroke-width="0.5"/>
+  <line x1="300" y1="0" x2="300" y2="630" stroke="rgba(255,106,0,0.05)" stroke-width="0.5"/>
+  <line x1="600" y1="0" x2="600" y2="630" stroke="rgba(255,106,0,0.05)" stroke-width="0.5"/>
+  <!-- Decorative circle -->
+  <circle cx="120" cy="150" r="70" stroke="rgba(255,106,0,0.04)" stroke-width="0.5" fill="none"/>
+  <circle cx="500" cy="500" r="40" stroke="rgba(255,106,0,0.03)" stroke-width="0.5" fill="none"/>
+  <!-- Category pill -->
+  <rect x="40" y="40" width="150" height="32" rx="16" fill="rgba(255,106,0,0.15)" stroke="rgba(255,106,0,0.3)" stroke-width="1"/>
+  <text x="115" y="62" font-family="system-ui, -apple-system, sans-serif" font-size="13" font-weight="600" fill="#FF6A00" text-anchor="middle">MYTH BUSTERS</text>
+  <!-- Title - 3 lines -->
+  <text x="50" y="220" font-family="system-ui, -apple-system, sans-serif" font-size="44" font-weight="700" fill="white">Does Paying for</text>
+  <text x="50" y="275" font-family="system-ui, -apple-system, sans-serif" font-size="44" font-weight="700" fill="white">Google Ads Help</text>
+  <text x="50" y="330" font-family="system-ui, -apple-system, sans-serif" font-size="44" font-weight="700" fill="#FF6A00" filter="url(#glowDGAA)">AI Find You?</text>
+  <!-- Subtitle -->
+  <text x="50" y="380" font-family="system-ui, -apple-system, sans-serif" font-size="18" font-weight="400" fill="rgba(255,255,255,0.45)">The $0 Connection Between Ads and AI Citations</text>
+  <!-- Right panel: Comparison table -->
+  <g transform="translate(660, 45)">
+    <rect x="0" y="0" width="470" height="470" rx="12" fill="rgba(255,255,255,0.05)" stroke="rgba(255,255,255,0.1)" stroke-width="1"/>
+    <text x="235" y="30" font-family="system-ui, sans-serif" font-size="11" fill="rgba(255,255,255,0.5)" text-anchor="middle" font-weight="600" letter-spacing="2">GOOGLE ADS vs AI OPTIMIZATION</text>
+    <line x1="20" y1="42" x2="450" y2="42" stroke="rgba(255,255,255,0.08)" stroke-width="0.5"/>
+    <!-- Column headers -->
+    <text x="30" y="68" font-family="system-ui, sans-serif" font-size="10" fill="rgba(255,255,255,0.4)" font-weight="600">METRIC</text>
+    <text x="210" y="68" font-family="system-ui, sans-serif" font-size="10" fill="rgba(255,80,80,0.8)" font-weight="600">GOOGLE ADS</text>
+    <text x="360" y="68" font-family="system-ui, sans-serif" font-size="10" fill="#FF6A00" font-weight="600">AI OPTIMIZATION</text>
+    <line x1="20" y1="78" x2="450" y2="78" stroke="rgba(255,255,255,0.06)" stroke-width="0.5"/>
+    <!-- Row 1: Visibility -->
+    <rect x="10" y="84" width="450" height="42" rx="4" fill="rgba(255,255,255,0.02)"/>
+    <text x="30" y="110" font-family="system-ui, sans-serif" font-size="11" fill="rgba(255,255,255,0.7)" font-weight="500">Visibility</text>
+    <text x="210" y="103" font-family="system-ui, sans-serif" font-size="9" fill="rgba(255,80,80,0.7)">Rented placement</text>
+    <text x="210" y="117" font-family="system-ui, sans-serif" font-size="9" fill="rgba(255,80,80,0.7)">Disappears when off</text>
+    <text x="360" y="103" font-family="system-ui, sans-serif" font-size="9" fill="rgba(100,220,100,0.85)">Earned citation</text>
+    <text x="360" y="117" font-family="system-ui, sans-serif" font-size="9" fill="rgba(100,220,100,0.85)">Compounds over time</text>
+    <!-- X and Check marks -->
+    <text x="185" y="110" font-family="system-ui, sans-serif" font-size="14" fill="rgba(255,80,80,0.8)">&#x2717;</text>
+    <text x="340" y="110" font-family="system-ui, sans-serif" font-size="14" fill="rgba(100,220,100,0.9)">&#x2713;</text>
+    <!-- Row 2: Cost -->
+    <text x="30" y="148" font-family="system-ui, sans-serif" font-size="11" fill="rgba(255,255,255,0.7)" font-weight="500">Cost</text>
+    <text x="210" y="141" font-family="system-ui, sans-serif" font-size="9" fill="rgba(255,80,80,0.7)">$5.26 per click avg</text>
+    <text x="210" y="155" font-family="system-ui, sans-serif" font-size="9" fill="rgba(255,80,80,0.7)">$70+ per lead</text>
+    <text x="360" y="141" font-family="system-ui, sans-serif" font-size="9" fill="rgba(100,220,100,0.85)">Content investment</text>
+    <text x="360" y="155" font-family="system-ui, sans-serif" font-size="9" fill="rgba(100,220,100,0.85)">Decreasing cost/lead</text>
+    <text x="185" y="148" font-family="system-ui, sans-serif" font-size="14" fill="rgba(255,80,80,0.8)">&#x2717;</text>
+    <text x="340" y="148" font-family="system-ui, sans-serif" font-size="14" fill="rgba(100,220,100,0.9)">&#x2713;</text>
+    <line x1="20" y1="166" x2="450" y2="166" stroke="rgba(255,255,255,0.04)" stroke-width="0.5"/>
+    <!-- Row 3: Trust -->
+    <rect x="10" y="172" width="450" height="42" rx="4" fill="rgba(255,255,255,0.02)"/>
+    <text x="30" y="198" font-family="system-ui, sans-serif" font-size="11" fill="rgba(255,255,255,0.7)" font-weight="500">Trust</text>
+    <text x="210" y="191" font-family="system-ui, sans-serif" font-size="9" fill="rgba(255,80,80,0.7)">Users skip 70-80%</text>
+    <text x="210" y="205" font-family="system-ui, sans-serif" font-size="9" fill="rgba(255,80,80,0.7)">Labeled as sponsored</text>
+    <text x="360" y="191" font-family="system-ui, sans-serif" font-size="9" fill="rgba(100,220,100,0.85)">Implicit endorsement</text>
+    <text x="360" y="205" font-family="system-ui, sans-serif" font-size="9" fill="rgba(100,220,100,0.85)">High trust signal</text>
+    <text x="185" y="198" font-family="system-ui, sans-serif" font-size="14" fill="rgba(255,80,80,0.8)">&#x2717;</text>
+    <text x="340" y="198" font-family="system-ui, sans-serif" font-size="14" fill="rgba(100,220,100,0.9)">&#x2713;</text>
+    <!-- Row 4: Duration -->
+    <text x="30" y="238" font-family="system-ui, sans-serif" font-size="11" fill="rgba(255,255,255,0.7)" font-weight="500">Duration</text>
+    <text x="210" y="231" font-family="system-ui, sans-serif" font-size="9" fill="rgba(255,80,80,0.7)">Stops when budget</text>
+    <text x="210" y="245" font-family="system-ui, sans-serif" font-size="9" fill="rgba(255,80,80,0.7)">runs out</text>
+    <text x="360" y="231" font-family="system-ui, sans-serif" font-size="9" fill="rgba(100,220,100,0.85)">Builds permanently</text>
+    <text x="360" y="245" font-family="system-ui, sans-serif" font-size="9" fill="rgba(100,220,100,0.85)">Authority grows</text>
+    <text x="185" y="238" font-family="system-ui, sans-serif" font-size="14" fill="rgba(255,80,80,0.8)">&#x2717;</text>
+    <text x="340" y="238" font-family="system-ui, sans-serif" font-size="14" fill="rgba(100,220,100,0.9)">&#x2713;</text>
+    <line x1="20" y1="256" x2="450" y2="256" stroke="rgba(255,255,255,0.04)" stroke-width="0.5"/>
+    <!-- Row 5: ROI -->
+    <rect x="10" y="262" width="450" height="42" rx="4" fill="rgba(255,255,255,0.02)"/>
+    <text x="30" y="288" font-family="system-ui, sans-serif" font-size="11" fill="rgba(255,255,255,0.7)" font-weight="500">ROI</text>
+    <text x="210" y="281" font-family="system-ui, sans-serif" font-size="9" fill="rgba(255,80,80,0.7)">Linear returns</text>
+    <text x="210" y="295" font-family="system-ui, sans-serif" font-size="9" fill="rgba(255,80,80,0.7)">Diminishing over time</text>
+    <text x="360" y="281" font-family="system-ui, sans-serif" font-size="9" fill="rgba(100,220,100,0.85)">Compounding returns</text>
+    <text x="360" y="295" font-family="system-ui, sans-serif" font-size="9" fill="rgba(100,220,100,0.85)">Growing over time</text>
+    <text x="185" y="288" font-family="system-ui, sans-serif" font-size="14" fill="rgba(255,80,80,0.8)">&#x2717;</text>
+    <text x="340" y="288" font-family="system-ui, sans-serif" font-size="14" fill="rgba(100,220,100,0.9)">&#x2713;</text>
+    <!-- Separator before verdict -->
+    <line x1="20" y1="320" x2="450" y2="320" stroke="rgba(255,255,255,0.08)" stroke-width="0.5"/>
+    <!-- AI Impact row -->
+    <text x="30" y="350" font-family="system-ui, sans-serif" font-size="10" fill="rgba(255,255,255,0.5)" font-weight="600">AI CITATION IMPACT</text>
+    <rect x="180" y="335" width="100" height="24" rx="4" fill="rgba(255,80,80,0.12)" stroke="rgba(255,80,80,0.3)" stroke-width="1"/>
+    <text x="230" y="351" font-family="system-ui, sans-serif" font-size="11" fill="rgba(255,80,80,0.9)" text-anchor="middle" font-weight="700">ZERO</text>
+    <rect x="330" y="335" width="120" height="24" rx="4" fill="rgba(255,106,0,0.12)" stroke="#FF6A00" stroke-width="1" stroke-opacity="0.5"/>
+    <text x="390" y="351" font-family="system-ui, sans-serif" font-size="11" fill="#FF6A00" text-anchor="middle" font-weight="700">DIRECT</text>
+    <!-- Verdict box -->
+    <rect x="20" y="375" width="430" height="80" rx="10" fill="rgba(255,106,0,0.08)" stroke="#FF6A00" stroke-width="1.5" stroke-opacity="0.4" filter="url(#glowDGAA)"/>
+    <text x="235" y="400" font-family="system-ui, sans-serif" font-size="10" fill="rgba(255,255,255,0.5)" text-anchor="middle" font-weight="600" letter-spacing="2">VERDICT</text>
+    <text x="235" y="422" font-family="system-ui, sans-serif" font-size="13" fill="white" text-anchor="middle" font-weight="700">Google Ads = $0 AI Influence</text>
+    <text x="235" y="442" font-family="system-ui, sans-serif" font-size="11" fill="#FF6A00" text-anchor="middle" font-weight="600">AI Optimization = Compounding Authority</text>
+  </g>
+  <!-- Footer text -->
+  <text x="600" y="580" font-family="system-ui, -apple-system, sans-serif" font-size="16" font-weight="500" fill="rgba(255,255,255,0.5)" text-anchor="middle" letter-spacing="4">THE ANSWER ENGINE</text>
+  <!-- AE circle -->
+  <circle cx="1120" cy="590" r="30" fill="rgba(255,255,255,0.1)"/>
+  <text x="1120" y="598" font-family="system-ui, -apple-system, sans-serif" font-size="20" font-weight="700" fill="rgba(255,255,255,0.3)" text-anchor="middle">AE</text>
+</svg>

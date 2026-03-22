@@ -1196,5 +1196,111 @@
       "YouTube",
       "AI Visibility"
     ]
+  },
+  {
+    "id": 58,
+    "title": "Does Paying for Google Ads Help AI Find You?",
+    "slug": "do-google-ads-help-ai-search",
+    "excerpt": "Google Ads have zero influence on AI search citations. ChatGPT, Perplexity, and Google AI Overviews use entirely different signals. Learn what actually drives AI visibility.",
+    "category": "Myth Busters",
+    "author": "The Answer Engine Team",
+    "readTime": "10 min",
+    "image": "/blog/do-google-ads-help-ai-search.svg",
+    "publishDate": "2026-03-22",
+    "lastModified": "2026-03-22",
+    "featured": true,
+    "tags": [
+      "Google Ads",
+      "AI Search",
+      "Myth Busters",
+      "PPC",
+      "AI Visibility",
+      "AEO"
+    ]
+  },
+  {
+    "id": 59,
+    "title": "How Lawyers Can Get Found on AI Search",
+    "slug": "how-lawyers-get-found-ai-search",
+    "excerpt": "AI platforms hold legal content to the highest YMYL standards. Learn why most law firms are invisible to ChatGPT, Perplexity, and Google AI, and what signals matter most.",
+    "category": "Industry Guides",
+    "author": "The Answer Engine Team",
+    "readTime": "11 min",
+    "image": "/blog/how-lawyers-get-found-ai-search.svg",
+    "publishDate": "2026-03-22",
+    "lastModified": "2026-03-22",
+    "featured": true,
+    "tags": [
+      "Lawyers",
+      "Legal Marketing",
+      "AI Search",
+      "YMYL",
+      "E-E-A-T",
+      "Industry Guide",
+      "AEO"
+    ]
+  },
+  {
+    "id": 60,
+    "title": "ChatGPT vs Perplexity vs Google AI for Local",
+    "slug": "chatgpt-vs-perplexity-vs-google-ai-local",
+    "excerpt": "ChatGPT has 800M users, Perplexity grew 800% YoY, and Google AI Overviews reach 2B. Compare how each platform finds and recommends local businesses differently.",
+    "category": "Comparisons",
+    "author": "The Answer Engine Team",
+    "readTime": "11 min",
+    "image": "/blog/chatgpt-vs-perplexity-vs-google-ai-local.svg",
+    "publishDate": "2026-03-22",
+    "lastModified": "2026-03-22",
+    "featured": true,
+    "tags": [
+      "ChatGPT",
+      "Perplexity",
+      "Google AI",
+      "Platform Comparison",
+      "Local Business",
+      "AEO"
+    ]
+  },
+  {
+    "id": 61,
+    "title": "Why AI Says Wrong Things About Your Business",
+    "slug": "why-ai-says-wrong-things-about-business",
+    "excerpt": "36% of AI-generated business phone numbers are wrong. Learn why ChatGPT, Perplexity, and Google AI hallucinate about your business and what causes the misinformation.",
+    "category": "Business Pain Points",
+    "author": "The Answer Engine Team",
+    "readTime": "10 min",
+    "image": "/blog/why-ai-says-wrong-things-about-business.svg",
+    "publishDate": "2026-03-22",
+    "lastModified": "2026-03-22",
+    "featured": true,
+    "tags": [
+      "AI Hallucinations",
+      "Business Pain Points",
+      "AI Misinformation",
+      "NAP Consistency",
+      "AI Search",
+      "AEO"
+    ]
+  },
+  {
+    "id": 62,
+    "title": "How to Make Your Site the One AI Trusts Most",
+    "slug": "make-your-site-the-one-ai-trusts",
+    "excerpt": "AI platforms evaluate trust signals before citing any source. Learn which signals matter most and why most business websites fail the AI trust test.",
+    "category": "How-To Guides",
+    "author": "The Answer Engine Team",
+    "readTime": "10 min",
+    "image": "/blog/make-your-site-the-one-ai-trusts.svg",
+    "publishDate": "2026-03-22",
+    "lastModified": "2026-03-22",
+    "featured": true,
+    "tags": [
+      "AI Trust",
+      "Website Optimization",
+      "E-E-A-T",
+      "AI Citations",
+      "How-To Guide",
+      "AEO"
+    ]
   }
 ]
