@@ -128,7 +128,12 @@ export interface ClientProfile {
   };
   author: {
     full_name: string;
+    job_title: string;
     knows_about: string[];
+    credentials: Array<{ name: string; number?: string }>;
+  };
+  brand?: {
+    brand_voice_notes: string;
   };
   services: Array<{
     name: string;

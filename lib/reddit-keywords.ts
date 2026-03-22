@@ -273,7 +273,7 @@ export function deriveClientRedditConfig(profile: ClientProfile): ClientRedditCo
     authorName: profile.author?.full_name || '',
     authorTitle: profile.author?.job_title || '',
     authorCredentials: credentials,
-    brandVoice: (profile as Record<string, unknown> & { brand?: { brand_voice_notes?: string } }).brand?.brand_voice_notes || '',
+    brandVoice: profile.brand?.brand_voice_notes || '',
     reviewCount: profile.reviews?.google?.count || 0,
   };
 }
