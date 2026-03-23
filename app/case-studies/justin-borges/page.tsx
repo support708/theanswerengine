@@ -131,8 +131,11 @@ export default function JustinBorgesCaseStudy() {
           "addressCountry": "US"
         },
         "sameAs": [
-          "https://www.linkedin.com/company/the-answer-engine"
+          "https://www.linkedin.com/company/the-answer-engine",
+          "https://lametrohomefinder.com",
+          "https://theborgesrealestateteam.com"
         ],
+        "knowsAbout": ["Answer Engine Optimization", "AEO", "AI Search Optimization"],
         "aggregateRating": {
           "@type": "AggregateRating",
           "ratingValue": "5.0",
@@ -177,7 +180,9 @@ export default function JustinBorgesCaseStudy() {
           "jobTitle": "Founder & Lead Listing Strategist",
           "worksFor": {
             "@type": "RealEstateAgent",
-            "name": "The Borges Real Estate Team"
+            "name": "The Borges Real Estate Team",
+            "url": "https://theborgesrealestateteam.com",
+            "sameAs": "https://lametrohomefinder.com"
           }
         },
         "itemReviewed": {
@@ -259,7 +264,7 @@ export default function JustinBorgesCaseStudy() {
                 <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={2}>
                   <path strokeLinecap="round" strokeLinejoin="round" d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4" />
                 </svg>
-                <span>The Borges Real Estate Team</span>
+                <a href="https://theborgesrealestateteam.com" target="_blank" rel="noopener noreferrer" className="hover:text-white/60 transition-colors">The Borges Real Estate Team</a>
               </div>
               <div className="flex items-center gap-2">
                 <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={2}>
@@ -374,7 +379,7 @@ export default function JustinBorgesCaseStudy() {
               </p>
 
               <p>
-                Justin Borges had 13+ years of experience, $200M+ in career sales, and genuine expertise in complex transactions most agents avoid. But online? Invisible.
+                <a href="https://lametrohomefinder.com" target="_blank" rel="noopener noreferrer" className="text-white hover:underline">Justin Borges</a> and <a href="https://theborgesrealestateteam.com" target="_blank" rel="noopener noreferrer" className="text-white hover:underline">The Borges Real Estate Team</a> had 13+ years of experience, $200M+ in career sales, and genuine expertise in complex transactions most agents avoid. But online? Invisible.
               </p>
 
               <p>
@@ -531,7 +536,7 @@ export default function JustinBorgesCaseStudy() {
                 <div>
                   <div className="font-semibold text-white mb-2">What These Numbers Mean</div>
                   <p className="text-gray-300 text-sm leading-relaxed">
-                    Justin isn&apos;t competing for generic searches against Zillow&apos;s $2B marketing budget. He owns specific expertise areas where he has genuine authority—exactly where AI platforms look for sources to cite. And the traffic is still growing month over month.
+                    Justin isn&apos;t competing for generic searches against Zillow&apos;s $2B marketing budget. He owns specific expertise areas where he has genuine authority—exactly where AI platforms look for sources to cite. See the live results at <a href="https://lametrohomefinder.com" target="_blank" rel="noopener noreferrer" className="text-white hover:underline">lametrohomefinder.com</a>.
                   </p>
                 </div>
               </div>
