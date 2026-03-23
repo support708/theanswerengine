@@ -25,6 +25,49 @@ import type { RedditOpportunity, ClientProfile, DigestCronResult } from './reddi
 
 const MIN_OPPORTUNITIES_FOR_BATCH = 3;
 const MAX_DAYS_BETWEEN_DIGESTS = 7;
+const HIGH_IMPACT_THRESHOLD = 7; // Score >= 7 = instant send
+
+/**
+ * Send a single high-impact opportunity immediately to the client.
+ * Called from the main reddit cron route when a high scorer is found.
+ */
+export async function sendInstantHighImpactEmail(
+  opp: RedditOpportunity,
+  profile: ClientProfile,
+): Promise<boolean> {
+  const email = profile.engagement?.contact_email
+    || (profile.engagement as Record<string, unknown>)?.primary_contact_email as string
+    || '';
+  if (!email || email === 'REQUIRED' || email === 'VERIFY') return false;
+
+  const sendStatus = await canSendToday();
+  if (!sendStatus.allowed) return false;
+
+  const businessName = profile.business.dba || profile.business.legal_name;
+  const subject = `High-Impact Reddit Opportunity - ${businessName}`;
+
+  const htmlBody = buildSingleOpportunityEmail(opp, profile);
+  const body = `High-Impact Reddit Opportunity for ${businessName}\n\n` +
+    `Score: ${opp.score.composite}/10\n` +
+    `r/${opp.subreddit}: ${opp.title}\n` +
+    `Why: ${opp.score.impactReasoning}\n` +
+    `Link: ${opp.postUrl}\n\n` +
+    `Draft Response:\n${opp.score.draftResponse || opp.score.suggestedAngle}`;
+
+  const result = await sendGmailMessage({ to: email, subject, body, htmlBody });
+  if (!result) return false;
+
+  try {
+    await sendMessage(
+      `<b>Instant Email Sent</b>\n` +
+      `Client: ${businessName}\n` +
+      `Score: ${opp.score.composite}/10\n` +
+      `To: ${email}`,
+    );
+  } catch { /* non-blocking */ }
+
+  return true;
+}
 
 /**
  * Check all clients for pending opportunities and send digests where triggered.
@@ -240,7 +283,12 @@ function buildHtmlDigest(
       <p style="color: #333; font-size: 14px; margin: 0 0 12px 0;">
         <strong>Suggested response:</strong> ${escapeHtml(opp.score.suggestedAngle)}
       </p>
-      <a href="${opp.postUrl}" style="display: inline-block; padding: 8px 16px; background: ${impactColor}; color: #ffffff; text-decoration: none; border-radius: 4px; font-size: 13px; font-weight: bold;">View on Reddit</a>
+      ${opp.score.draftResponse ? `
+      <div style="background:#f8f8f8;border:1px solid #e0e0e0;border-radius:6px;padding:12px;margin:0 0 12px 0;">
+        <p style="margin:0 0 4px 0;font-size:12px;color:#888;font-weight:bold;">DRAFT RESPONSE (copy/paste):</p>
+        <p style="margin:0;font-size:13px;color:#333;line-height:1.6;white-space:pre-wrap;">${escapeHtml(opp.score.draftResponse)}</p>
+      </div>` : ''}
+      <a href="${opp.postUrl}" style="display: inline-block; padding: 8px 16px; background: ${impactColor}; color: #ffffff; text-decoration: none; border-radius: 4px; font-size: 13px; font-weight: bold;">Post Response on Reddit</a>
     </div>`;
   }).join('');
 
@@ -295,6 +343,80 @@ function buildHtmlDigest(
     </div>
 
   </div>
+</body>
+</html>`;
+}
+
+/**
+ * Build an instant email for a single high-impact opportunity.
+ */
+function buildSingleOpportunityEmail(opp: RedditOpportunity, profile: ClientProfile): string {
+  const businessName = profile.business.dba || profile.business.legal_name;
+  const city = profile.service_area?.primary_city || '';
+  const impactColor = '#FF6A00';
+  const draftResponse = opp.score.draftResponse || '';
+
+  return `<!DOCTYPE html>
+<html>
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"></head>
+<body style="margin:0;padding:0;background:#f4f4f4;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;">
+<div style="max-width:600px;margin:0 auto;background:#ffffff;">
+
+<div style="background:#FF6A00;padding:24px;text-align:center;">
+  <h1 style="color:#ffffff;margin:0 0 4px 0;font-size:22px;">High-Impact Reddit Opportunity</h1>
+  <p style="color:rgba(255,255,255,0.9);margin:0;font-size:14px;">Someone needs your expertise right now</p>
+</div>
+
+<div style="padding:20px 24px;background:#fff8f0;border-bottom:2px solid #FF6A00;">
+  <div style="display:flex;justify-content:space-between;margin-bottom:8px;">
+    <span style="font-weight:bold;color:#FF6A00;font-size:13px;text-transform:uppercase;">HIGH IMPACT</span>
+    <span style="color:#666;font-size:13px;">Score: ${opp.score.composite}/10</span>
+  </div>
+  <h2 style="margin:4px 0 8px 0;font-size:18px;line-height:1.4;">
+    <a href="${opp.postUrl}" style="color:#1a1a1a;text-decoration:none;">${escapeHtml(opp.title)}</a>
+  </h2>
+  <p style="color:#888;font-size:13px;margin:0 0 12px 0;">
+    r/${escapeHtml(opp.subreddit)} &bull; ${opp.score.buyingIntent >= 7 ? 'Active buyer' : 'Exploring options'}
+  </p>
+  <p style="color:#333;font-size:14px;margin:0 0 8px 0;">
+    <strong>Why this matters:</strong> ${escapeHtml(opp.score.impactReasoning)}
+  </p>
+  <p style="color:#333;font-size:14px;margin:0;">
+    <strong>Why we recommend responding:</strong> This post has strong buying intent and directly relates to your services in ${escapeHtml(city)}. A thoughtful response here builds your authority with both the poster AND AI search engines that crawl Reddit for expert voices.
+  </p>
+</div>
+
+${draftResponse ? `
+<div style="padding:20px 24px;border-bottom:1px solid #eee;">
+  <h3 style="margin:0 0 4px 0;font-size:16px;color:#333;">Ready-to-Post Response</h3>
+  <p style="margin:0 0 12px 0;font-size:12px;color:#888;">Written in your voice. Copy, paste, and post. Or use as a starting point.</p>
+  <div style="background:#f8f8f8;border:1px solid #e0e0e0;border-radius:8px;padding:16px;font-size:14px;color:#333;line-height:1.7;white-space:pre-wrap;">${escapeHtml(draftResponse)}</div>
+  <a href="${opp.postUrl}" style="display:inline-block;margin-top:12px;padding:10px 20px;background:#FF6A00;color:#ffffff;text-decoration:none;border-radius:4px;font-size:14px;font-weight:bold;">Post Response on Reddit</a>
+</div>
+` : ''}
+
+<div style="padding:20px 24px;background:#f0f7ff;border-bottom:1px solid #d0e3f7;">
+  <h3 style="margin:0 0 10px 0;font-size:15px;color:#1a5276;">If You Write Your Own Response</h3>
+  <p style="margin:0 0 8px 0;font-size:13px;color:#555;">Your authentic voice is always the best option. To maximize AEO impact, include these elements:</p>
+  <ul style="margin:0;padding-left:20px;color:#555;font-size:13px;line-height:1.8;">
+    <li><strong>Mention ${escapeHtml(city)} naturally</strong> (e.g., "Here in ${escapeHtml(city)}, we typically see...")</li>
+    <li><strong>Reference your business name once</strong> in a natural way</li>
+    <li><strong>Include a credential or experience marker</strong> (years in business, license number, review count)</li>
+    <li><strong>Answer the question first</strong> with genuine, specific expertise</li>
+    <li><strong>Keep it 150-300 words</strong> for optimal Reddit engagement</li>
+    <li><strong>No links or direct pitches</strong>. Let your expertise speak for itself</li>
+  </ul>
+  <p style="margin:12px 0 0 0;font-size:12px;color:#888;"><em>Why this matters: Every response that connects your name + ${escapeHtml(city)} + your industry builds the authority signal that AI search engines use to decide who to recommend.</em></p>
+</div>
+
+<div style="padding:20px 24px;text-align:center;border-top:1px solid #eee;">
+  <p style="margin:0 0 4px 0;color:#999;font-size:12px;">
+    Curated by <a href="https://theanswerengine.ai" style="color:#FF6A00;text-decoration:none;">The Answer Engine</a>
+  </p>
+  <p style="margin:0;color:#bbb;font-size:11px;">Building your AI search authority, one conversation at a time.</p>
+</div>
+
+</div>
 </body>
 </html>`;
 }

@@ -27,7 +27,8 @@ import {
   pruneOldOpportunities,
 } from '@/lib/reddit-state';
 import { sendMessage } from '@/lib/telegram';
-import { buildMonthlySummary } from '@/lib/reddit-digest';
+import { buildMonthlySummary, sendInstantHighImpactEmail } from '@/lib/reddit-digest';
+import { loadClientProfile } from '@/lib/reddit-keywords';
 import type { RedditPost, RedditOpportunity, ClientRedditConfig, RedditCronResult } from '@/lib/reddit-types';
 
 export const maxDuration = 300; // 5 minutes
@@ -186,6 +187,22 @@ export async function GET(request: NextRequest) {
             opportunity.telegramSentAt = new Date().toISOString();
           } catch {
             // Non-blocking
+          }
+
+          // High impact (score >= 7): send instant email to client
+          if (score.composite >= 7 && process.env.REDDIT_DIGEST_ENABLED === 'true') {
+            try {
+              const clientProfile = await loadClientProfile(config.clientSlug);
+              if (clientProfile) {
+                const sent = await sendInstantHighImpactEmail(opportunity, clientProfile);
+                if (sent) {
+                  opportunity.digestSentAt = new Date().toISOString();
+                  opportunity.status = 'digest_sent';
+                }
+              }
+            } catch {
+              // Non-blocking -- will be caught by digest cron later
+            }
           }
         }
       }
