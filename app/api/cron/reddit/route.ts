@@ -219,8 +219,8 @@ export async function GET(request: NextRequest) {
       }
     }
 
-    // Atomic flush
-    await flushRedditData(state, store);
+    // Atomic flush (skip commit if no new opportunities to avoid empty-commit deploy loops)
+    await flushRedditData(state, store, result.qualified > 0);
 
     result.durationMs = Date.now() - startTime;
 

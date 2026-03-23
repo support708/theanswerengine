@@ -158,10 +158,12 @@ export async function writeOpportunities(store: RedditOpportunitiesStore): Promi
 /**
  * Atomic flush: write both state and opportunities in a single GitHub commit.
  * Avoids double-commits on Vercel. Uses write lock to prevent concurrent writes.
+ * Only commits if there were actual changes (new opportunities or state updates).
  */
 export async function flushRedditData(
   state: RedditState,
   store: RedditOpportunitiesStore,
+  hasChanges: boolean = true,
 ): Promise<void> {
   const locked = await acquireWriteLock();
   if (!locked) {
@@ -171,6 +173,12 @@ export async function flushRedditData(
 
   try {
     if (IS_VERCEL) {
+      // Skip commit if no meaningful changes (avoids empty-commit deploy loops)
+      if (!hasChanges) {
+        console.log('No changes to commit, skipping GitHub publish');
+        return;
+      }
+
       await publishToGitHub(
         [
           { path: GH_STATE_PATH, content: JSON.stringify(state, null, 2) },
