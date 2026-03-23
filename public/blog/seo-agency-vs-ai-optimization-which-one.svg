@@ -1,0 +1,105 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="bgSVAI" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1a1b4e;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#0F1117;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1a1b4e;stop-opacity:0.4" />
+    </linearGradient>
+    <filter id="glowSVAI"><feGaussianBlur stdDeviation="6" result="blurSVAI"/><feMerge><feMergeNode in="blurSVAI"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <linearGradient id="barSVAI" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#FF6A00;stop-opacity:0.8" />
+      <stop offset="100%" style="stop-color:#FF6A00;stop-opacity:0.4" />
+    </linearGradient>
+    <linearGradient id="barBlueSVAI" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#6488ff;stop-opacity:0.7" />
+      <stop offset="100%" style="stop-color:#6488ff;stop-opacity:0.3" />
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bgSVAI)"/>
+  <!-- Grid lines -->
+  <line x1="0" y1="90" x2="1200" y2="90" stroke="rgba(255,106,0,0.05)" stroke-width="0.5"/>
+  <line x1="0" y1="180" x2="1200" y2="180" stroke="rgba(255,106,0,0.05)" stroke-width="0.5"/>
+  <line x1="0" y1="315" x2="1200" y2="315" stroke="rgba(255,106,0,0.05)" stroke-width="0.5"/>
+  <line x1="0" y1="450" x2="1200" y2="450" stroke="rgba(255,106,0,0.05)" stroke-width="0.5"/>
+  <line x1="0" y1="540" x2="1200" y2="540" stroke="rgba(255,106,0,0.05)" stroke-width="0.5"/>
+  <line x1="300" y1="0" x2="300" y2="630" stroke="rgba(255,106,0,0.05)" stroke-width="0.5"/>
+  <line x1="650" y1="0" x2="650" y2="630" stroke="rgba(255,106,0,0.05)" stroke-width="0.5"/>
+  <!-- Decorative circles -->
+  <circle cx="120" cy="140" r="70" stroke="rgba(255,106,0,0.06)" stroke-width="0.5" fill="none"/>
+  <circle cx="120" cy="140" r="40" stroke="rgba(255,106,0,0.04)" stroke-width="0.5" fill="none"/>
+  <!-- Category pill -->
+  <rect x="40" y="40" width="150" height="32" rx="16" fill="rgba(255,106,0,0.15)" stroke="rgba(255,106,0,0.3)" stroke-width="1"/>
+  <text x="115" y="62" font-family="system-ui, -apple-system, sans-serif" font-size="14" font-weight="500" fill="#FF6A00" text-anchor="middle">COMPARISONS</text>
+  <!-- Title lines -->
+  <text x="80" y="170" font-family="system-ui, -apple-system, sans-serif" font-size="44" font-weight="700" fill="white">SEO Agency vs</text>
+  <text x="80" y="230" font-family="system-ui, -apple-system, sans-serif" font-size="44" font-weight="700" fill="white">AI Optimization:</text>
+  <text x="80" y="290" font-family="system-ui, -apple-system, sans-serif" font-size="44" font-weight="700" fill="#FF6A00" filter="url(#glowSVAI)">Which One?</text>
+  <!-- Subtitle -->
+  <text x="80" y="340" font-family="system-ui, -apple-system, sans-serif" font-size="18" font-weight="400" fill="rgba(255,255,255,0.45)">Rankings vs Citations: A 2026 Comparison</text>
+  <!-- Right panel: Comparison Table -->
+  <g transform="translate(660, 45)">
+    <rect x="0" y="0" width="470" height="470" rx="12" fill="rgba(255,255,255,0.06)" stroke="rgba(255,255,255,0.12)" stroke-width="1"/>
+    <text x="235" y="28" font-family="system-ui, sans-serif" font-size="12" fill="rgba(255,255,255,0.5)" text-anchor="middle" font-weight="600">SEO vs AI OPTIMIZATION</text>
+    <!-- Column headers -->
+    <rect x="20" y="42" width="135" height="30" rx="6" fill="rgba(255,255,255,0.04)"/>
+    <text x="87" y="62" font-family="system-ui, sans-serif" font-size="9" fill="rgba(255,255,255,0.5)" text-anchor="middle" font-weight="600">FACTOR</text>
+    <rect x="163" y="42" width="135" height="30" rx="6" fill="rgba(100,150,255,0.08)" stroke="rgba(100,150,255,0.4)" stroke-width="1"/>
+    <text x="230" y="62" font-family="system-ui, sans-serif" font-size="9" fill="rgba(100,150,255,0.9)" text-anchor="middle" font-weight="600">SEO</text>
+    <rect x="306" y="42" width="144" height="30" rx="6" fill="rgba(255,106,0,0.08)" stroke="#FF6A00" stroke-width="1.5" stroke-opacity="0.6"/>
+    <text x="378" y="62" font-family="system-ui, sans-serif" font-size="9" fill="#FF6A00" text-anchor="middle" font-weight="700">AI OPT</text>
+    <!-- Row 1: Primary Goal -->
+    <text x="87" y="95" font-family="system-ui, sans-serif" font-size="8" fill="rgba(255,255,255,0.6)" text-anchor="middle">Primary Goal</text>
+    <text x="230" y="95" font-family="system-ui, sans-serif" font-size="8" fill="rgba(100,150,255,0.8)" text-anchor="middle">Rank Links</text>
+    <text x="378" y="95" font-family="system-ui, sans-serif" font-size="8" fill="#FF6A00" text-anchor="middle" font-weight="600">Get Cited</text>
+    <line x1="20" y1="105" x2="450" y2="105" stroke="rgba(255,255,255,0.06)" stroke-width="0.5"/>
+    <!-- Row 2: Zero-Click -->
+    <text x="87" y="125" font-family="system-ui, sans-serif" font-size="8" fill="rgba(255,255,255,0.6)" text-anchor="middle">Zero-Click Queries</text>
+    <text x="230" y="125" font-family="system-ui, sans-serif" font-size="9" fill="rgba(255,80,80,0.85)" text-anchor="middle" font-weight="600">&#x2717; Loses 65%</text>
+    <text x="378" y="125" font-family="system-ui, sans-serif" font-size="9" fill="rgba(100,220,100,0.9)" text-anchor="middle" font-weight="600">&#x2713; Designed For</text>
+    <line x1="20" y1="135" x2="450" y2="135" stroke="rgba(255,255,255,0.06)" stroke-width="0.5"/>
+    <!-- Row 3: Entity Authority -->
+    <text x="87" y="155" font-family="system-ui, sans-serif" font-size="8" fill="rgba(255,255,255,0.6)" text-anchor="middle">Entity Authority</text>
+    <text x="230" y="155" font-family="system-ui, sans-serif" font-size="9" fill="rgba(255,200,50,0.9)" text-anchor="middle" font-weight="600">~ Indirect</text>
+    <text x="378" y="155" font-family="system-ui, sans-serif" font-size="9" fill="rgba(100,220,100,0.9)" text-anchor="middle" font-weight="600">&#x2713; Core Focus</text>
+    <line x1="20" y1="165" x2="450" y2="165" stroke="rgba(255,255,255,0.06)" stroke-width="0.5"/>
+    <!-- Row 4: Content Strategy -->
+    <text x="87" y="185" font-family="system-ui, sans-serif" font-size="8" fill="rgba(255,255,255,0.6)" text-anchor="middle">Content Strategy</text>
+    <text x="230" y="185" font-family="system-ui, sans-serif" font-size="8" fill="rgba(100,150,255,0.8)" text-anchor="middle">Keyword Volume</text>
+    <text x="378" y="185" font-family="system-ui, sans-serif" font-size="8" fill="#FF6A00" text-anchor="middle" font-weight="600">Expertise Depth</text>
+    <line x1="20" y1="195" x2="450" y2="195" stroke="rgba(255,255,255,0.06)" stroke-width="0.5"/>
+    <!-- Row 5: Automation -->
+    <text x="87" y="215" font-family="system-ui, sans-serif" font-size="8" fill="rgba(255,255,255,0.6)" text-anchor="middle">Automation</text>
+    <text x="230" y="215" font-family="system-ui, sans-serif" font-size="9" fill="rgba(255,200,50,0.9)" text-anchor="middle" font-weight="600">~ Limited</text>
+    <text x="378" y="215" font-family="system-ui, sans-serif" font-size="9" fill="rgba(100,220,100,0.9)" text-anchor="middle" font-weight="600">&#x2713; 200+/wk</text>
+    <line x1="20" y1="225" x2="450" y2="225" stroke="rgba(255,255,255,0.06)" stroke-width="0.5"/>
+    <!-- Row 6: Time to Results -->
+    <text x="87" y="245" font-family="system-ui, sans-serif" font-size="8" fill="rgba(255,255,255,0.6)" text-anchor="middle">Time to Results</text>
+    <text x="230" y="245" font-family="system-ui, sans-serif" font-size="8" fill="rgba(100,150,255,0.8)" text-anchor="middle">3-6 months</text>
+    <text x="378" y="245" font-family="system-ui, sans-serif" font-size="8" fill="#FF6A00" text-anchor="middle" font-weight="600">4-8 weeks</text>
+    <!-- Conversion comparison -->
+    <line x1="20" y1="265" x2="450" y2="265" stroke="rgba(255,255,255,0.08)" stroke-width="0.5"/>
+    <text x="20" y="290" font-family="system-ui, sans-serif" font-size="10" fill="rgba(255,255,255,0.5)" font-weight="600">CONVERSION RATE COMPARISON</text>
+    <text x="20" y="318" font-family="system-ui, sans-serif" font-size="9" fill="rgba(255,255,255,0.5)">SEO Organic</text>
+    <rect x="130" y="307" width="300" height="16" rx="3" fill="rgba(255,255,255,0.06)"/>
+    <rect x="130" y="307" width="150" height="16" rx="3" fill="url(#barBlueSVAI)"/>
+    <text x="290" y="319" font-family="system-ui, sans-serif" font-size="9" fill="rgba(100,150,255,0.9)" font-weight="700">5%</text>
+    <text x="20" y="348" font-family="system-ui, sans-serif" font-size="9" fill="rgba(255,255,255,0.5)">AI Search</text>
+    <rect x="130" y="337" width="300" height="16" rx="3" fill="rgba(255,255,255,0.06)"/>
+    <rect x="130" y="337" width="210" height="16" rx="3" fill="url(#barSVAI)"/>
+    <text x="350" y="349" font-family="system-ui, sans-serif" font-size="9" fill="#FF6A00" font-weight="700">7%</text>
+    <!-- Zero-click bar -->
+    <text x="20" y="378" font-family="system-ui, sans-serif" font-size="9" fill="rgba(255,255,255,0.5)">Zero-Click Rate</text>
+    <rect x="130" y="367" width="300" height="16" rx="3" fill="rgba(255,255,255,0.06)"/>
+    <rect x="130" y="367" width="195" height="16" rx="3" fill="rgba(255,80,80,0.4)"/>
+    <text x="335" y="379" font-family="system-ui, sans-serif" font-size="9" fill="rgba(255,80,80,0.85)" font-weight="700">65%</text>
+    <!-- Verdict -->
+    <rect x="20" y="400" width="430" height="50" rx="6" fill="rgba(255,106,0,0.08)" stroke="#FF6A00" stroke-width="1.5" stroke-opacity="0.5"/>
+    <text x="235" y="420" font-family="system-ui, sans-serif" font-size="9" fill="rgba(255,255,255,0.6)" text-anchor="middle">VERDICT</text>
+    <text x="235" y="440" font-family="system-ui, sans-serif" font-size="10" fill="#FF6A00" text-anchor="middle" font-weight="600">Best results come from combining both approaches</text>
+  </g>
+  <!-- Footer -->
+  <text x="600" y="580" font-family="system-ui, -apple-system, sans-serif" font-size="16" font-weight="500" fill="rgba(255,255,255,0.5)" text-anchor="middle" letter-spacing="4">THE ANSWER ENGINE</text>
+  <!-- AE circle -->
+  <circle cx="1120" cy="590" r="30" fill="rgba(255,255,255,0.1)"/>
+  <text x="1120" y="598" font-family="system-ui, -apple-system, sans-serif" font-size="20" font-weight="700" fill="rgba(255,255,255,0.3)" text-anchor="middle">AE</text>
+</svg>

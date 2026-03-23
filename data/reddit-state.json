@@ -1,11 +1,52 @@
 {
-  "seenPostIds": {},
+  "seenPostIds": {
+    "1s12n5i": 1774241829588,
+    "1s102rr": 1774241837195,
+    "1s0q768": 1774241846622,
+    "1s16ihf": 1774241872744,
+    "1s0tc2d": 1774241882471,
+    "1s0ysbp": 1774241907359,
+    "1s0w6au": 1774241914593,
+    "1s0rori": 1774241921933,
+    "1s0pfxi": 1774241929192,
+    "1s0dbyn": 1774241935310,
+    "1s0vjxy": 1774241941451,
+    "1s18tyy": 1774246548758,
+    "1s198sp": 1774247882386,
+    "1s1i6hl": 1774281083399,
+    "1s1g23s": 1774281106928,
+    "1s1fc15": 1774281110654,
+    "1s1hy3c": 1774281134746,
+    "1s1cc2p": 1774281140507,
+    "1s1b07u": 1774281146985,
+    "1s1ayzx": 1774281154573,
+    "1s1gyji": 1774281164089,
+    "1s1lu1w": 1774284319964,
+    "1s1lvu0": 1774284346609,
+    "1s1egy4": 1774284374329,
+    "1s0z7go": 1774285249857
+  },
   "lastPollBySubreddit": {},
   "lastDigestByClient": {},
   "monthlyStats": {
     "month": "2026-03",
-    "totalScanned": 0,
-    "totalQualified": 0,
-    "byClient": {}
+    "totalScanned": 220,
+    "totalQualified": 3,
+    "byClient": {
+      "davis-agency": {
+        "opportunities": 1,
+        "digestsSent": 0,
+        "highImpact": 1,
+        "mediumImpact": 0,
+        "lowImpact": 0
+      },
+      "lovery-re": {
+        "opportunities": 2,
+        "digestsSent": 0,
+        "highImpact": 2,
+        "mediumImpact": 0,
+        "lowImpact": 0
+      }
+    }
   }
 }

@@ -1,3 +1,85 @@
 {
-  "opportunities": []
+  "opportunities": [
+    {
+      "id": "reddit_1774241844270_vedg1t",
+      "postId": "1s102rr",
+      "clientSlug": "davis-agency",
+      "businessName": "The Davis Agency",
+      "subreddit": "RealEstate",
+      "title": "Home sale contingency",
+      "selftext": "I’m currently in the process of selling my current house and looking for the next house with my fiancé. Due to our financial situation and the HCOL area we are in, we need the equity from our home sale to use towards the down payment for our next home. I understand the downsides of the contingent sale, especially from the perspective a seller that we’d be buying from.\n\nI think we found a buyer who likes our house and neighborhood enough to go under contract and wait, with the stipulation that we",
+      "author": "emilyginger",
+      "postUrl": "https://reddit.com/r/RealEstate/comments/1s102rr/home_sale_contingency/",
+      "postCreatedUtc": 1774220306,
+      "score": {
+        "buyingIntent": 7,
+        "relevance": 8,
+        "recency": 8,
+        "responseOpportunity": 9,
+        "composite": 7.9,
+        "businessImpact": "high",
+        "impactReasoning": "Poster is actively in transaction, needs buyer representation strategy, seeking to understand seller psychology in contingent offers. Demonstrates financial readiness (has equity, under contract) but needs guidance on negotiating from weaker position. High intent, immediate timeline, Austin-relevant market dynamics.",
+        "suggestedAngle": "Acknowledge their smart setup, explain residual seller concerns even with inspections done, position having strong buyer representation as key differentiator, subtle mention of local market knowledge.",
+        "draftResponse": "You're thinking about this the right way, which already puts you ahead. Having inspections done, being under contract on your sale, and giving the seller a clear timeline definitely reduces their risk significantly. But here's the reality: even with all that, most sellers in a competitive market will still view a sale contingency as a step down from a clean offer.\n\nThe reason isn't rational, it's psychological. Sellers want certainty. Even if your house is solid and under contract, they're thinking: What if your buyer backs out? What if appraisal issues hit? What if inspection reveals something? Suddenly their backup plan kicks in and they're back on the market.\n\nThat said, your offer isn't weak if you handle it right. A few things that help in markets like Austin (or wherever your HCOL area is): Be specific about your timeline. If you know you need 45 days to find your next home, say 45 days, not 90. Sellers respect concrete deadlines. Second, make the contingency one-way if possible, meaning YOU can walk, but they can't. Third, get your buyer rep involved early with the seller's agent. Personal relationships matter here. When they know you're serious and represented well, it softens the contingency sting.\n\nThe inspections being done in the background is smart leverage. Lead with that in your offer narrative. It shows you're not just hoping, you're moving.\n\nYour position isn't weak if you present it as calculated and controlled."
+      },
+      "discoveredAt": "2026-03-23T04:57:24.270Z",
+      "digestSentAt": null,
+      "telegramSentAt": "2026-03-23T04:57:25.106Z",
+      "status": "pending"
+    },
+    {
+      "id": "reddit_1774241880208_6muqin",
+      "postId": "1s16ihf",
+      "clientSlug": "lovery-re",
+      "businessName": "Lovery Real Estate",
+      "subreddit": "FirstTimeHomeBuyer",
+      "title": "How do realtors verify if the home really belongs to someone?",
+      "selftext": "Just read a post about FSBO. But when it comes to a real estate transaction how do you know you are dealing with a legitimate owner and not a scammer? I've never had anyone ask me for an ID during a RE transaction",
+      "author": "Round_Earth8912",
+      "postUrl": "https://reddit.com/r/FirstTimeHomeBuyer/comments/1s16ihf/how_do_realtors_verify_if_the_home_really_belongs/",
+      "postCreatedUtc": 1774237863,
+      "score": {
+        "buyingIntent": 8,
+        "relevance": 9,
+        "recency": 8,
+        "responseOpportunity": 9,
+        "composite": 8.6,
+        "businessImpact": "high",
+        "impactReasoning": "First-time home buyer asking about verification and legitimacy in real estate transactions. Located in r/FirstTimeHomeBuyer. Direct match for Lovery Real Estate's core service. Buyer is actively educating themselves before making a major purchase decision. High intent signal. Ryan can provide authoritative guidance while establishing trust and expertise.",
+        "suggestedAngle": "Educate on the title company/escrow verification process, earnest money protections, and why working with licensed agents protects buyers. Position Lovery Real Estate as the local expert who guides clients through these protections.",
+        "draftResponse": "Great question, and smart thinking. Here's how it actually works:\n\nThe title company and escrow officer do the heavy lifting. When you open escrow, the title company runs a full search on the property history and ownership chain. They verify the seller's authority to sell through public records, prior deeds, and the current deed of trust. This isn't something you or your agent just take on faith.\n\nAs for ID verification, you're right that it's not always visible to buyers, but it absolutely happens. When you sign documents in escrow, everyone's signing in front of a notary who checks ID. Same for the seller. The title company also confirms the person signing matches the owner of record.\n\nFSBO situations add risk because there's no licensed agent to vet the process. Scammers love FSBO listings because they can control the narrative. With a licensed agent, you have someone accountable under California law. We verify listing authority upfront, review the title report with clients, and ensure everything's documented.\n\nHere in San Diego, where we see a lot of out-of-state investors and cash offers, this verification layer is huge. Earnest money also protects you since it goes into a trust account, not to the seller.\n\nBottom line: You're protected by systems, not just people. But having a real estate agent in the mix gives you an extra set of eyes and accountability that matters."
+      },
+      "discoveredAt": "2026-03-23T04:58:00.208Z",
+      "digestSentAt": null,
+      "telegramSentAt": "2026-03-23T04:58:00.965Z",
+      "status": "pending"
+    },
+    {
+      "id": "reddit_1774284352698_7k1faw",
+      "postId": "1s1lvu0",
+      "clientSlug": "lovery-re",
+      "businessName": "Lovery Real Estate",
+      "subreddit": "FirstTimeHomeBuyer",
+      "title": "Buying out a family members share on real estate",
+      "selftext": "Hi,\n\nBrought a house with a family.   Now they want to move out.   We have already agreed on price and I have the cash to buy them out.   The amount will be over 100k.  What is best way to move the cash to my family member?  Does taxes pay a part?   TIA.",
+      "author": "theducks123",
+      "postUrl": "https://reddit.com/r/FirstTimeHomeBuyer/comments/1s1lvu0/buying_out_a_family_members_share_on_real_estate/",
+      "postCreatedUtc": 1774283727,
+      "score": {
+        "buyingIntent": 7,
+        "relevance": 9,
+        "recency": 8,
+        "responseOpportunity": 8,
+        "composite": 8.1,
+        "businessImpact": "high",
+        "impactReasoning": "First-time home buyer context + active real estate transaction + San Diego area buyer likely + property ownership questions are core to real estate agent expertise. High buying intent signals someone in active deal phase who may need agent guidance for refinance/buyout logistics.",
+        "suggestedAngle": "Provide clarity on the buyout process, tax implications, and title transfer mechanics. Position as someone who's guided clients through this exact scenario. Mention San Diego market familiarity naturally.",
+        "draftResponse": "Great question, and honestly this is something I see pop up pretty regularly with co-owned properties. Here's the straightforward version:\n\nThe cash transfer itself isn't taxable as income to your family member—it's just a buyout of their ownership stake. However, there are a few things to nail down:\n\n1. Title Work: You'll need to refinance or get a new loan to cash them out, OR pay from your own funds and update the deed to remove their name. This requires title company involvement and a quit claim or warranty deed.\n\n2. Capital Gains: If the property has appreciated since you bought it, your family member might owe capital gains tax on their share of the profit. They'd need to report this to the IRS, not you.\n\n3. Loan Considerations: If you're refinancing to buy them out, lenders will want clear documentation of the buyout agreement. Keep everything in writing.\n\nI'd honestly recommend having a real estate attorney draw up a simple buyout agreement—it protects both of you and clarifies who owes what at closing. In San Diego especially, I've seen this prevent a lot of headaches down the road.\n\nThe title company handling your buyout will also flag any liens or issues, which is huge when there's family money involved.\n\nDo you know if there's an existing loan on the property? That changes the mechanics a bit."
+      },
+      "discoveredAt": "2026-03-23T16:45:52.698Z",
+      "digestSentAt": null,
+      "telegramSentAt": "2026-03-23T16:45:53.332Z",
+      "status": "pending"
+    }
+  ]
 }

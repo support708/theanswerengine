@@ -1,0 +1,159 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="HSDBbg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1a0d3b;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#0F1117;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#0F1117;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="HSDBaccent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#FF6A00;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#FF8C33;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="HSDBpurple" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#7B61FF;stop-opacity:0.8" />
+      <stop offset="100%" style="stop-color:#9B7FFF;stop-opacity:0.6" />
+    </linearGradient>
+    <linearGradient id="HSDBflow" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#FF6A00;stop-opacity:0.3" />
+      <stop offset="100%" style="stop-color:#7B61FF;stop-opacity:0.1" />
+    </linearGradient>
+    <filter id="HSDBglow"><feGaussianBlur stdDeviation="8" result="HSDBblur"/><feMerge><feMergeNode in="HSDBblur"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <filter id="HSDBglowSm"><feGaussianBlur stdDeviation="4" result="HSDBblurSm"/><feMerge><feMergeNode in="HSDBblurSm"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <filter id="HSDBshadow"><feDropShadow dx="0" dy="2" stdDeviation="3" flood-color="#000" flood-opacity="0.3"/></filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="630" fill="url(#HSDBbg)"/>
+
+  <!-- Grid lines (7) -->
+  <line x1="0" y1="90" x2="1200" y2="90" stroke="rgba(255,106,0,0.05)" stroke-width="0.5"/>
+  <line x1="0" y1="180" x2="1200" y2="180" stroke="rgba(255,106,0,0.05)" stroke-width="0.5"/>
+  <line x1="0" y1="315" x2="1200" y2="315" stroke="rgba(255,106,0,0.05)" stroke-width="0.5"/>
+  <line x1="0" y1="450" x2="1200" y2="450" stroke="rgba(255,106,0,0.05)" stroke-width="0.5"/>
+  <line x1="0" y1="540" x2="1200" y2="540" stroke="rgba(255,106,0,0.05)" stroke-width="0.5"/>
+  <line x1="400" y1="0" x2="400" y2="630" stroke="rgba(255,106,0,0.05)" stroke-width="0.5"/>
+  <line x1="800" y1="0" x2="800" y2="630" stroke="rgba(255,106,0,0.05)" stroke-width="0.5"/>
+
+  <!-- Left side content -->
+  <!-- Category pill -->
+  <rect x="60" y="120" width="195" height="30" rx="15" fill="rgba(255,106,0,0.15)" stroke="rgba(255,106,0,0.4)" stroke-width="1"/>
+  <text x="157" y="140" font-family="system-ui, sans-serif" font-size="11" fill="#FF6A00" text-anchor="middle" font-weight="700" letter-spacing="1.5">PLATFORM DEEP DIVES</text>
+
+  <!-- Title (3 lines, last in orange with glow) -->
+  <text x="60" y="200" font-family="system-ui, sans-serif" font-size="36" fill="white" font-weight="800">How Siri Decides</text>
+  <text x="60" y="245" font-family="system-ui, sans-serif" font-size="36" fill="white" font-weight="800">Which Businesses</text>
+  <text x="60" y="290" font-family="system-ui, sans-serif" font-size="36" fill="#FF6A00" font-weight="800" filter="url(#HSDBglowSm)">to Suggest</text>
+
+  <!-- Subtitle -->
+  <text x="60" y="330" font-family="system-ui, sans-serif" font-size="14" fill="rgba(255,255,255,0.5)">Apple Intelligence is turning Siri into an</text>
+  <text x="60" y="350" font-family="system-ui, sans-serif" font-size="14" fill="rgba(255,255,255,0.5)">answer engine for 2.2B devices worldwide.</text>
+  <text x="60" y="370" font-family="system-ui, sans-serif" font-size="14" fill="rgba(255,255,255,0.5)">Here is what your business needs to know.</text>
+
+  <!-- Stats row -->
+  <rect x="60" y="400" width="120" height="55" rx="8" fill="rgba(255,255,255,0.04)" stroke="rgba(255,255,255,0.08)" stroke-width="1"/>
+  <text x="120" y="425" font-family="system-ui, sans-serif" font-size="20" fill="#FF6A00" text-anchor="middle" font-weight="800">2.2B</text>
+  <text x="120" y="445" font-family="system-ui, sans-serif" font-size="9" fill="rgba(255,255,255,0.4)" text-anchor="middle">Apple Devices</text>
+
+  <rect x="190" y="400" width="120" height="55" rx="8" fill="rgba(255,255,255,0.04)" stroke="rgba(255,255,255,0.08)" stroke-width="1"/>
+  <text x="250" y="425" font-family="system-ui, sans-serif" font-size="20" fill="#FF6A00" text-anchor="middle" font-weight="800">46%</text>
+  <text x="250" y="445" font-family="system-ui, sans-serif" font-size="9" fill="rgba(255,255,255,0.4)" text-anchor="middle">Voice Searches</text>
+
+  <rect x="320" y="400" width="120" height="55" rx="8" fill="rgba(255,255,255,0.04)" stroke="rgba(255,255,255,0.08)" stroke-width="1"/>
+  <text x="380" y="425" font-family="system-ui, sans-serif" font-size="20" fill="#FF6A00" text-anchor="middle" font-weight="800">76%</text>
+  <text x="380" y="445" font-family="system-ui, sans-serif" font-size="9" fill="rgba(255,255,255,0.4)" text-anchor="middle">Same-Day Visits</text>
+
+  <!-- Right panel: Data Pipeline -->
+  <g transform="translate(660, 45)">
+    <rect x="0" y="0" width="470" height="470" rx="12" fill="rgba(255,255,255,0.04)" stroke="rgba(255,255,255,0.1)" stroke-width="1"/>
+    <text x="235" y="28" font-family="system-ui, sans-serif" font-size="11" fill="rgba(255,255,255,0.5)" text-anchor="middle" font-weight="700" letter-spacing="2">SIRI AI ENGINE</text>
+
+    <!-- Data source nodes -->
+    <!-- Apple Maps node -->
+    <rect x="20" y="48" width="130" height="50" rx="8" fill="rgba(100,150,255,0.08)" stroke="rgba(100,150,255,0.4)" stroke-width="1"/>
+    <circle cx="40" cy="65" r="8" fill="rgba(100,150,255,0.3)"/>
+    <text x="40" y="69" font-family="system-ui, sans-serif" font-size="10" fill="rgba(100,150,255,0.9)" text-anchor="middle" font-weight="700">M</text>
+    <text x="85" y="68" font-family="system-ui, sans-serif" font-size="10" fill="rgba(255,255,255,0.8)" text-anchor="middle" font-weight="600">Apple Maps</text>
+    <text x="85" y="85" font-family="system-ui, sans-serif" font-size="7" fill="rgba(255,255,255,0.35)" text-anchor="middle">Listings + Location</text>
+
+    <!-- Reviews node -->
+    <rect x="170" y="48" width="130" height="50" rx="8" fill="rgba(255,200,50,0.08)" stroke="rgba(255,200,50,0.4)" stroke-width="1"/>
+    <circle cx="190" cy="65" r="8" fill="rgba(255,200,50,0.3)"/>
+    <text x="190" y="69" font-family="system-ui, sans-serif" font-size="10" fill="rgba(255,200,50,0.9)" text-anchor="middle" font-weight="700">R</text>
+    <text x="240" y="68" font-family="system-ui, sans-serif" font-size="10" fill="rgba(255,255,255,0.8)" text-anchor="middle" font-weight="600">Reviews</text>
+    <text x="240" y="85" font-family="system-ui, sans-serif" font-size="7" fill="rgba(255,255,255,0.35)" text-anchor="middle">Ratings + Sentiment</text>
+
+    <!-- Web Data node -->
+    <rect x="320" y="48" width="130" height="50" rx="8" fill="rgba(100,220,100,0.08)" stroke="rgba(100,220,100,0.4)" stroke-width="1"/>
+    <circle cx="340" cy="65" r="8" fill="rgba(100,220,100,0.3)"/>
+    <text x="340" y="69" font-family="system-ui, sans-serif" font-size="10" fill="rgba(100,220,100,0.9)" text-anchor="middle" font-weight="700">W</text>
+    <text x="390" y="68" font-family="system-ui, sans-serif" font-size="10" fill="rgba(255,255,255,0.8)" text-anchor="middle" font-weight="600">Web Data</text>
+    <text x="390" y="85" font-family="system-ui, sans-serif" font-size="7" fill="rgba(255,255,255,0.35)" text-anchor="middle">Schema + Content</text>
+
+    <!-- Connection lines from sources to AI Summary -->
+    <line x1="85" y1="98" x2="235" y2="130" stroke="rgba(100,150,255,0.3)" stroke-width="1.5" stroke-dasharray="4,3"/>
+    <line x1="235" y1="98" x2="235" y2="130" stroke="rgba(255,200,50,0.3)" stroke-width="1.5" stroke-dasharray="4,3"/>
+    <line x1="385" y1="98" x2="235" y2="130" stroke="rgba(100,220,100,0.3)" stroke-width="1.5" stroke-dasharray="4,3"/>
+
+    <!-- AI Summary central node -->
+    <rect x="120" y="130" width="230" height="55" rx="10" fill="url(#HSDBflow)" stroke="rgba(255,106,0,0.5)" stroke-width="1.5"/>
+    <text x="235" y="153" font-family="system-ui, sans-serif" font-size="12" fill="#FF6A00" text-anchor="middle" font-weight="700">AI SUMMARY ENGINE</text>
+    <text x="235" y="172" font-family="system-ui, sans-serif" font-size="8" fill="rgba(255,255,255,0.5)" text-anchor="middle">Synthesize + Rank + Recommend</text>
+
+    <!-- Arrow down to Recommendation -->
+    <line x1="235" y1="185" x2="235" y2="205" stroke="rgba(255,106,0,0.5)" stroke-width="2"/>
+    <polygon points="229,200 235,212 241,200" fill="rgba(255,106,0,0.6)"/>
+
+    <!-- Recommendation output -->
+    <rect x="50" y="215" width="370" height="70" rx="8" fill="rgba(0,0,0,0.4)" stroke="rgba(255,106,0,0.3)" stroke-width="1.5"/>
+    <circle cx="72" cy="235" r="8" fill="rgba(255,106,0,0.3)"/>
+    <text x="72" y="239" font-family="system-ui, sans-serif" font-size="10" fill="#FF6A00" text-anchor="middle" font-weight="700">S</text>
+    <text x="88" y="235" font-family="system-ui, sans-serif" font-size="10" fill="rgba(255,255,255,0.7)" font-weight="600">iri says:</text>
+    <text x="65" y="255" font-family="system-ui, sans-serif" font-size="8" fill="rgba(255,255,255,0.5)">"Based on ratings and proximity, ABC Plumbing</text>
+    <text x="65" y="268" font-family="system-ui, sans-serif" font-size="8" fill="rgba(255,255,255,0.5)">is highly rated near you with same-day service..."</text>
+
+    <!-- Priority ranking bars -->
+    <text x="20" y="310" font-family="system-ui, sans-serif" font-size="10" fill="rgba(255,255,255,0.5)" font-weight="700">DATA SOURCE PRIORITY</text>
+
+    <!-- Bar 1: Apple Maps -->
+    <text x="20" y="335" font-family="system-ui, sans-serif" font-size="8" fill="rgba(255,255,255,0.5)">Apple Maps Listing</text>
+    <rect x="150" y="325" width="260" height="14" rx="7" fill="rgba(255,255,255,0.06)"/>
+    <rect x="150" y="325" width="250" height="14" rx="7" fill="rgba(255,106,0,0.4)" stroke="rgba(255,106,0,0.6)" stroke-width="0.5"/>
+    <text x="420" y="336" font-family="system-ui, sans-serif" font-size="9" fill="#FF6A00" font-weight="700">95%</text>
+
+    <!-- Bar 2: Reviews -->
+    <text x="20" y="360" font-family="system-ui, sans-serif" font-size="8" fill="rgba(255,255,255,0.5)">Reviews + Ratings</text>
+    <rect x="150" y="350" width="260" height="14" rx="7" fill="rgba(255,255,255,0.06)"/>
+    <rect x="150" y="350" width="220" height="14" rx="7" fill="rgba(255,200,50,0.35)" stroke="rgba(255,200,50,0.5)" stroke-width="0.5"/>
+    <text x="420" y="361" font-family="system-ui, sans-serif" font-size="9" fill="rgba(255,200,50,0.9)" font-weight="700">85%</text>
+
+    <!-- Bar 3: Web Content -->
+    <text x="20" y="385" font-family="system-ui, sans-serif" font-size="8" fill="rgba(255,255,255,0.5)">Web Content + Schema</text>
+    <rect x="150" y="375" width="260" height="14" rx="7" fill="rgba(255,255,255,0.06)"/>
+    <rect x="150" y="375" width="195" height="14" rx="7" fill="rgba(100,220,100,0.3)" stroke="rgba(100,220,100,0.5)" stroke-width="0.5"/>
+    <text x="420" y="386" font-family="system-ui, sans-serif" font-size="9" fill="rgba(100,220,100,0.9)" font-weight="700">75%</text>
+
+    <!-- Bar 4: NAP Consistency -->
+    <text x="20" y="410" font-family="system-ui, sans-serif" font-size="8" fill="rgba(255,255,255,0.5)">NAP Consistency</text>
+    <rect x="150" y="400" width="260" height="14" rx="7" fill="rgba(255,255,255,0.06)"/>
+    <rect x="150" y="400" width="182" height="14" rx="7" fill="rgba(100,150,255,0.3)" stroke="rgba(100,150,255,0.5)" stroke-width="0.5"/>
+    <text x="420" y="411" font-family="system-ui, sans-serif" font-size="9" fill="rgba(100,150,255,0.9)" font-weight="700">70%</text>
+
+    <!-- Bar 5: Proximity -->
+    <text x="20" y="435" font-family="system-ui, sans-serif" font-size="8" fill="rgba(255,255,255,0.5)">User Proximity</text>
+    <rect x="150" y="425" width="260" height="14" rx="7" fill="rgba(255,255,255,0.06)"/>
+    <rect x="150" y="425" width="156" height="14" rx="7" fill="rgba(160,120,255,0.3)" stroke="rgba(160,120,255,0.5)" stroke-width="0.5"/>
+    <text x="420" y="436" font-family="system-ui, sans-serif" font-size="9" fill="rgba(160,120,255,0.9)" font-weight="700">60%</text>
+
+    <!-- Apple Intelligence badge -->
+    <rect x="145" y="450" width="180" height="22" rx="11" fill="rgba(123,97,255,0.2)" stroke="rgba(123,97,255,0.5)" stroke-width="1"/>
+    <circle cx="163" cy="461" r="5" fill="rgba(123,97,255,0.6)"/>
+    <text x="245" y="465" font-family="system-ui, sans-serif" font-size="9" fill="rgba(160,140,255,0.9)" text-anchor="middle" font-weight="700">Apple Intelligence Powered</text>
+  </g>
+
+  <!-- Footer: THE ANSWER ENGINE centered -->
+  <text x="600" y="575" font-family="system-ui, sans-serif" font-size="13" fill="rgba(255,255,255,0.25)" text-anchor="middle" font-weight="600" letter-spacing="4">THE ANSWER ENGINE</text>
+
+  <!-- AE circle bottom-right -->
+  <circle cx="1140" cy="575" r="22" fill="rgba(255,106,0,0.15)" stroke="rgba(255,106,0,0.4)" stroke-width="1.5"/>
+  <text x="1140" y="581" font-family="system-ui, sans-serif" font-size="14" fill="#FF6A00" text-anchor="middle" font-weight="800">AE</text>
+</svg>

@@ -1302,5 +1302,107 @@
       "How-To Guide",
       "AEO"
     ]
+  },
+  {
+    "id": 63,
+    "title": "How Dentists Can Show Up on AI Search",
+    "slug": "how-dentists-show-up-ai-search",
+    "excerpt": "Learn why patients now ask ChatGPT and Perplexity for dentist recommendations, and how dental practices can become visible to AI platforms that influence 2B people monthly.",
+    "category": "Industry Guides",
+    "author": "The Answer Engine Team",
+    "readTime": "11 min",
+    "image": "/blog/how-dentists-show-up-ai-search.svg",
+    "publishDate": "2026-03-23",
+    "lastModified": "2026-03-23",
+    "featured": true,
+    "tags": [
+      "Dentistry",
+      "AI Visibility",
+      "Industry Guide",
+      "Local Business",
+      "AEO",
+      "Healthcare"
+    ]
+  },
+  {
+    "id": 64,
+    "title": "SEO Agency vs AI Optimization: Which One?",
+    "slug": "seo-agency-vs-ai-optimization-which-one",
+    "excerpt": "Traditional SEO agencies focus on rankings, but AI platforms use different ranking signals. Discover which strategy actually generates leads in 2026 and when you need both.",
+    "category": "Comparisons",
+    "author": "The Answer Engine Team",
+    "readTime": "10 min",
+    "image": "/blog/seo-agency-vs-ai-optimization-which-one.svg",
+    "publishDate": "2026-03-23",
+    "lastModified": "2026-03-23",
+    "featured": true,
+    "tags": [
+      "SEO",
+      "AEO",
+      "Strategy Comparison",
+      "Lead Generation",
+      "Marketing"
+    ]
+  },
+  {
+    "id": 65,
+    "title": "Why Your New Website Is Invisible to AI",
+    "slug": "why-new-website-invisible-to-ai",
+    "excerpt": "A new website won't get discovered by AI just because it's live. Learn the 7 critical signals AI crawlers evaluate before your site becomes visible to ChatGPT, Perplexity, and Google AI.",
+    "category": "Business Pain Points",
+    "author": "The Answer Engine Team",
+    "readTime": "11 min",
+    "image": "/blog/why-new-website-invisible-to-ai.svg",
+    "publishDate": "2026-03-23",
+    "lastModified": "2026-03-23",
+    "featured": true,
+    "tags": [
+      "Website Visibility",
+      "AI Crawling",
+      "New Websites",
+      "Business Pain Points",
+      "AEO"
+    ]
+  },
+  {
+    "id": 66,
+    "title": "How Siri Decides Which Businesses to Suggest",
+    "slug": "how-siri-decides-which-businesses-to-suggest",
+    "excerpt": "Siri reaches 2B Apple users monthly but most businesses don't appear in suggestions. Learn the signal hierarchy Siri uses to recommend which business to show users.",
+    "category": "Platform Deep Dives",
+    "author": "The Answer Engine Team",
+    "readTime": "12 min",
+    "image": "/blog/how-siri-decides-which-businesses-to-suggest.svg",
+    "publishDate": "2026-03-23",
+    "lastModified": "2026-03-23",
+    "featured": true,
+    "tags": [
+      "Siri",
+      "Apple",
+      "AI Recommendations",
+      "Platform Deep Dive",
+      "Local Business",
+      "AEO"
+    ]
+  },
+  {
+    "id": 67,
+    "title": "Does Social Media Help AI Recommend You?",
+    "slug": "does-social-media-help-ai-recommend-you",
+    "excerpt": "Your social media following doesn't directly influence ChatGPT, Perplexity, or Google AI recommendations. Learn which signals actually matter and why social presence is overrated.",
+    "category": "Myth Busters",
+    "author": "The Answer Engine Team",
+    "readTime": "9 min",
+    "image": "/blog/does-social-media-help-ai-recommend-you.svg",
+    "publishDate": "2026-03-23",
+    "lastModified": "2026-03-23",
+    "featured": true,
+    "tags": [
+      "Social Media",
+      "Myth Busting",
+      "AI Visibility",
+      "Marketing Myths",
+      "AEO"
+    ]
   }
 ]

@@ -1,0 +1,111 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="bgDSMH" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0F1117;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#0F1117;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#3b1a0d;stop-opacity:1" />
+    </linearGradient>
+    <filter id="glowDSMH"><feGaussianBlur stdDeviation="6" result="blurDSMH"/><feMerge><feMergeNode in="blurDSMH"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <linearGradient id="barGreenDSMH" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#22c55e;stop-opacity:0.9" />
+      <stop offset="100%" style="stop-color:#22c55e;stop-opacity:0.4" />
+    </linearGradient>
+    <linearGradient id="barYellowDSMH" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#eab308;stop-opacity:0.9" />
+      <stop offset="100%" style="stop-color:#eab308;stop-opacity:0.4" />
+    </linearGradient>
+    <linearGradient id="barRedDSMH" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#ef4444;stop-opacity:0.9" />
+      <stop offset="100%" style="stop-color:#ef4444;stop-opacity:0.4" />
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bgDSMH)"/>
+  <!-- Grid lines -->
+  <line x1="0" y1="90" x2="1200" y2="90" stroke="rgba(255,106,0,0.05)" stroke-width="0.5"/>
+  <line x1="0" y1="180" x2="1200" y2="180" stroke="rgba(255,106,0,0.05)" stroke-width="0.5"/>
+  <line x1="0" y1="315" x2="1200" y2="315" stroke="rgba(255,106,0,0.05)" stroke-width="0.5"/>
+  <line x1="0" y1="450" x2="1200" y2="450" stroke="rgba(255,106,0,0.05)" stroke-width="0.5"/>
+  <line x1="0" y1="540" x2="1200" y2="540" stroke="rgba(255,106,0,0.05)" stroke-width="0.5"/>
+  <line x1="300" y1="0" x2="300" y2="630" stroke="rgba(255,106,0,0.05)" stroke-width="0.5"/>
+  <line x1="600" y1="0" x2="600" y2="630" stroke="rgba(255,106,0,0.05)" stroke-width="0.5"/>
+  <!-- Decorative circles -->
+  <circle cx="130" cy="480" r="60" stroke="rgba(255,106,0,0.04)" stroke-width="0.5" fill="none"/>
+  <circle cx="500" cy="150" r="35" stroke="rgba(255,106,0,0.03)" stroke-width="0.5" fill="none"/>
+  <!-- Category pill -->
+  <rect x="40" y="40" width="150" height="32" rx="16" fill="rgba(255,106,0,0.15)" stroke="rgba(255,106,0,0.3)" stroke-width="1"/>
+  <text x="115" y="62" font-family="system-ui, -apple-system, sans-serif" font-size="13" font-weight="600" fill="#FF6A00" text-anchor="middle">MYTH BUSTERS</text>
+  <!-- Title - 3 lines -->
+  <text x="50" y="200" font-family="system-ui, -apple-system, sans-serif" font-size="42" font-weight="700" fill="white">Does Social Media</text>
+  <text x="50" y="255" font-family="system-ui, -apple-system, sans-serif" font-size="42" font-weight="700" fill="white">Help AI</text>
+  <text x="50" y="310" font-family="system-ui, -apple-system, sans-serif" font-size="42" font-weight="700" fill="#FF6A00" filter="url(#glowDSMH)">Recommend You?</text>
+  <!-- Subtitle -->
+  <text x="50" y="365" font-family="system-ui, -apple-system, sans-serif" font-size="17" font-weight="400" fill="rgba(255,255,255,0.45)">Which Social Signals AI Reads vs. Ignores</text>
+  <!-- Right panel: Social Signal Impact -->
+  <g transform="translate(660, 45)">
+    <rect x="0" y="0" width="470" height="470" rx="12" fill="rgba(255,255,255,0.05)" stroke="rgba(255,255,255,0.1)" stroke-width="1"/>
+    <text x="235" y="32" font-family="system-ui, sans-serif" font-size="11" fill="rgba(255,255,255,0.5)" text-anchor="middle" font-weight="600" letter-spacing="2">SOCIAL SIGNAL IMPACT</text>
+    <line x1="20" y1="44" x2="450" y2="44" stroke="rgba(255,255,255,0.08)" stroke-width="0.5"/>
+    <!-- Column headers -->
+    <text x="30" y="70" font-family="system-ui, sans-serif" font-size="10" fill="rgba(255,255,255,0.4)" font-weight="600">PLATFORM</text>
+    <text x="170" y="70" font-family="system-ui, sans-serif" font-size="10" fill="rgba(255,255,255,0.4)" font-weight="600">AI IMPACT</text>
+    <text x="340" y="70" font-family="system-ui, sans-serif" font-size="10" fill="rgba(255,255,255,0.4)" font-weight="600">LEVEL</text>
+    <line x1="20" y1="80" x2="450" y2="80" stroke="rgba(255,255,255,0.06)" stroke-width="0.5"/>
+    <!-- Row 1: LinkedIn - HIGH -->
+    <rect x="10" y="88" width="450" height="48" rx="4" fill="rgba(255,255,255,0.02)"/>
+    <circle cx="30" cy="112" r="8" fill="rgba(34,197,94,0.15)" stroke="rgba(34,197,94,0.4)" stroke-width="0.5"/>
+    <text x="30" y="116" font-family="system-ui, sans-serif" font-size="8" fill="rgba(34,197,94,0.9)" text-anchor="middle" font-weight="700">in</text>
+    <text x="50" y="116" font-family="system-ui, sans-serif" font-size="13" fill="rgba(255,255,255,0.85)" font-weight="600">LinkedIn</text>
+    <rect x="170" y="104" width="150" height="14" rx="3" fill="rgba(255,255,255,0.06)"/>
+    <rect x="170" y="104" width="150" height="14" rx="3" fill="url(#barGreenDSMH)"/>
+    <text x="340" y="116" font-family="system-ui, sans-serif" font-size="11" fill="rgba(34,197,94,0.9)" font-weight="700">HIGH</text>
+    <!-- Row 2: Reddit - HIGH -->
+    <text x="50" y="162" font-family="system-ui, sans-serif" font-size="13" fill="rgba(255,255,255,0.85)" font-weight="600">Reddit</text>
+    <circle cx="30" cy="158" r="8" fill="rgba(255,106,0,0.15)" stroke="rgba(255,106,0,0.4)" stroke-width="0.5"/>
+    <text x="30" y="162" font-family="system-ui, sans-serif" font-size="9" fill="#FF6A00" text-anchor="middle" font-weight="700">r/</text>
+    <rect x="170" y="150" width="150" height="14" rx="3" fill="rgba(255,255,255,0.06)"/>
+    <rect x="170" y="150" width="140" height="14" rx="3" fill="url(#barGreenDSMH)"/>
+    <text x="340" y="162" font-family="system-ui, sans-serif" font-size="11" fill="rgba(34,197,94,0.9)" font-weight="700">HIGH</text>
+    <line x1="20" y1="178" x2="450" y2="178" stroke="rgba(255,255,255,0.04)" stroke-width="0.5"/>
+    <!-- Row 3: YouTube - MEDIUM -->
+    <rect x="10" y="184" width="450" height="48" rx="4" fill="rgba(255,255,255,0.02)"/>
+    <circle cx="30" cy="208" r="8" fill="rgba(234,179,8,0.15)" stroke="rgba(234,179,8,0.4)" stroke-width="0.5"/>
+    <text x="30" y="211" font-family="system-ui, sans-serif" font-size="8" fill="rgba(234,179,8,0.9)" text-anchor="middle" font-weight="700">YT</text>
+    <text x="50" y="212" font-family="system-ui, sans-serif" font-size="13" fill="rgba(255,255,255,0.85)" font-weight="600">YouTube</text>
+    <rect x="170" y="200" width="150" height="14" rx="3" fill="rgba(255,255,255,0.06)"/>
+    <rect x="170" y="200" width="90" height="14" rx="3" fill="url(#barYellowDSMH)"/>
+    <text x="340" y="212" font-family="system-ui, sans-serif" font-size="11" fill="rgba(234,179,8,0.9)" font-weight="700">MEDIUM</text>
+    <!-- Row 4: Facebook - LOW -->
+    <text x="50" y="258" font-family="system-ui, sans-serif" font-size="13" fill="rgba(255,255,255,0.85)" font-weight="600">Facebook</text>
+    <circle cx="30" cy="254" r="8" fill="rgba(239,68,68,0.15)" stroke="rgba(239,68,68,0.4)" stroke-width="0.5"/>
+    <text x="30" y="258" font-family="system-ui, sans-serif" font-size="8" fill="rgba(239,68,68,0.9)" text-anchor="middle" font-weight="700">f</text>
+    <rect x="170" y="246" width="150" height="14" rx="3" fill="rgba(255,255,255,0.06)"/>
+    <rect x="170" y="246" width="30" height="14" rx="3" fill="url(#barRedDSMH)"/>
+    <text x="340" y="258" font-family="system-ui, sans-serif" font-size="11" fill="rgba(239,68,68,0.9)" font-weight="700">LOW</text>
+    <line x1="20" y1="274" x2="450" y2="274" stroke="rgba(255,255,255,0.04)" stroke-width="0.5"/>
+    <!-- Row 5: Instagram - NONE -->
+    <rect x="10" y="280" width="450" height="48" rx="4" fill="rgba(255,255,255,0.02)"/>
+    <circle cx="30" cy="304" r="8" fill="rgba(239,68,68,0.15)" stroke="rgba(239,68,68,0.4)" stroke-width="0.5"/>
+    <text x="30" y="308" font-family="system-ui, sans-serif" font-size="8" fill="rgba(239,68,68,0.9)" text-anchor="middle" font-weight="700">IG</text>
+    <text x="50" y="308" font-family="system-ui, sans-serif" font-size="13" fill="rgba(255,255,255,0.85)" font-weight="600">Instagram</text>
+    <rect x="170" y="296" width="150" height="14" rx="3" fill="rgba(255,255,255,0.06)"/>
+    <text x="190" y="308" font-family="system-ui, sans-serif" font-size="14" fill="rgba(239,68,68,0.9)">&#x2717;</text>
+    <text x="340" y="308" font-family="system-ui, sans-serif" font-size="11" fill="rgba(239,68,68,0.9)" font-weight="700">NONE</text>
+    <!-- Row 6: TikTok - LOW -->
+    <text x="50" y="354" font-family="system-ui, sans-serif" font-size="13" fill="rgba(255,255,255,0.85)" font-weight="600">TikTok</text>
+    <circle cx="30" cy="350" r="8" fill="rgba(239,68,68,0.15)" stroke="rgba(239,68,68,0.4)" stroke-width="0.5"/>
+    <text x="30" y="354" font-family="system-ui, sans-serif" font-size="8" fill="rgba(239,68,68,0.9)" text-anchor="middle" font-weight="700">TT</text>
+    <rect x="170" y="342" width="150" height="14" rx="3" fill="rgba(255,255,255,0.06)"/>
+    <rect x="170" y="342" width="15" height="14" rx="3" fill="url(#barRedDSMH)"/>
+    <text x="340" y="354" font-family="system-ui, sans-serif" font-size="11" fill="rgba(239,68,68,0.9)" font-weight="700">LOW</text>
+    <line x1="20" y1="374" x2="450" y2="374" stroke="rgba(255,255,255,0.06)" stroke-width="0.5"/>
+    <!-- Insight box -->
+    <rect x="20" y="390" width="430" height="55" rx="8" fill="rgba(255,106,0,0.08)" stroke="rgba(255,106,0,0.2)" stroke-width="0.5"/>
+    <text x="235" y="415" font-family="system-ui, sans-serif" font-size="12" fill="#FF6A00" text-anchor="middle" font-weight="600">AI reads text content,</text>
+    <text x="235" y="434" font-family="system-ui, sans-serif" font-size="12" fill="#FF6A00" text-anchor="middle" font-weight="600">not engagement metrics</text>
+  </g>
+  <!-- Footer -->
+  <text x="600" y="590" font-family="system-ui, -apple-system, sans-serif" font-size="12" font-weight="600" fill="rgba(255,255,255,0.25)" text-anchor="middle" letter-spacing="3">THE ANSWER ENGINE</text>
+  <!-- AE circle bottom-right -->
+  <circle cx="1150" cy="585" r="18" fill="rgba(255,106,0,0.15)" stroke="rgba(255,106,0,0.3)" stroke-width="1"/>
+  <text x="1150" y="591" font-family="system-ui, sans-serif" font-size="13" font-weight="700" fill="#FF6A00" text-anchor="middle">AE</text>
+</svg>
