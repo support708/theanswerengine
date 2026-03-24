@@ -1,0 +1,116 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="bgWBVS" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#3b0d0d;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#0F1117;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1a0d2e;stop-opacity:1" />
+    </linearGradient>
+    <filter id="glowWBVS"><feGaussianBlur stdDeviation="6" result="blurWBVS"/><feMerge><feMergeNode in="blurWBVS"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <linearGradient id="declineWBVS" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#FF6A00;stop-opacity:0.3" />
+      <stop offset="100%" style="stop-color:#FF6A00;stop-opacity:0.02" />
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bgWBVS)"/>
+  <!-- Grid lines -->
+  <line x1="0" y1="126" x2="1200" y2="126" stroke="rgba(255,106,0,0.05)" stroke-width="0.5"/>
+  <line x1="0" y1="252" x2="1200" y2="252" stroke="rgba(255,106,0,0.05)" stroke-width="0.5"/>
+  <line x1="0" y1="378" x2="1200" y2="378" stroke="rgba(255,106,0,0.05)" stroke-width="0.5"/>
+  <line x1="0" y1="504" x2="1200" y2="504" stroke="rgba(255,106,0,0.05)" stroke-width="0.5"/>
+  <line x1="300" y1="0" x2="300" y2="630" stroke="rgba(255,106,0,0.05)" stroke-width="0.5"/>
+  <line x1="600" y1="0" x2="600" y2="630" stroke="rgba(255,106,0,0.05)" stroke-width="0.5"/>
+  <line x1="900" y1="0" x2="900" y2="630" stroke="rgba(255,106,0,0.05)" stroke-width="0.5"/>
+
+  <!-- Right panel dashboard -->
+  <g transform="translate(660, 45)">
+    <rect x="0" y="0" width="470" height="470" rx="12" fill="rgba(255,255,255,0.06)" stroke="rgba(255,255,255,0.12)" stroke-width="1"/>
+    <text x="235" y="28" font-family="system-ui, sans-serif" font-size="12" fill="rgba(255,255,255,0.5)" text-anchor="middle" font-weight="600">TRAFFIC DECLINE &amp; RECOVERY ANALYSIS</text>
+
+    <!-- Metric Card 1: Without SEO -->
+    <rect x="20" y="42" width="210" height="105" rx="8" fill="rgba(255,80,80,0.06)" stroke="rgba(255,80,80,0.4)" stroke-width="1.5"/>
+    <text x="125" y="62" font-family="system-ui, sans-serif" font-size="10" fill="rgba(255,80,80,0.9)" text-anchor="middle" font-weight="600">SEO STOPPED (6 MO)</text>
+    <text x="125" y="95" font-family="system-ui, sans-serif" font-size="24" fill="white" text-anchor="middle" font-weight="700">-34%</text>
+    <text x="125" y="115" font-family="system-ui, sans-serif" font-size="9" fill="rgba(255,80,80,0.85)" text-anchor="middle">&#x2193; Avg organic traffic loss</text>
+    <text x="125" y="138" font-family="system-ui, sans-serif" font-size="9" fill="rgba(255,255,255,0.4)" text-anchor="middle">73% of B2B sites affected</text>
+
+    <!-- Metric Card 2: With AEO -->
+    <rect x="240" y="42" width="210" height="105" rx="8" fill="rgba(255,106,0,0.08)" stroke="#FF6A00" stroke-width="1.5" filter="url(#glowWBVS)" stroke-opacity="0.7"/>
+    <text x="345" y="62" font-family="system-ui, sans-serif" font-size="10" fill="#FF6A00" text-anchor="middle" font-weight="600">SEO + AEO (6 MO)</text>
+    <text x="345" y="95" font-family="system-ui, sans-serif" font-size="24" fill="#FF6A00" text-anchor="middle" font-weight="700" filter="url(#glowWBVS)">+26%</text>
+    <text x="345" y="115" font-family="system-ui, sans-serif" font-size="9" fill="rgba(100,220,100,0.85)" text-anchor="middle">&#x2191; Total search visibility</text>
+    <text x="345" y="138" font-family="system-ui, sans-serif" font-size="9" fill="rgba(255,255,255,0.4)" text-anchor="middle">Dual-channel coverage</text>
+
+    <!-- Traffic Decline Chart -->
+    <text x="20" y="180" font-family="system-ui, sans-serif" font-size="10" fill="rgba(255,255,255,0.5)" font-weight="600">ORGANIC TRAFFIC AFTER STOPPING SEO</text>
+
+    <!-- Y-axis labels -->
+    <text x="18" y="205" font-family="system-ui, sans-serif" font-size="8" fill="rgba(255,255,255,0.3)" text-anchor="end">100%</text>
+    <text x="18" y="240" font-family="system-ui, sans-serif" font-size="8" fill="rgba(255,255,255,0.3)" text-anchor="end">75%</text>
+    <text x="18" y="275" font-family="system-ui, sans-serif" font-size="8" fill="rgba(255,255,255,0.3)" text-anchor="end">50%</text>
+    <text x="18" y="310" font-family="system-ui, sans-serif" font-size="8" fill="rgba(255,255,255,0.3)" text-anchor="end">25%</text>
+
+    <!-- Chart grid -->
+    <line x1="25" y1="200" x2="450" y2="200" stroke="rgba(255,255,255,0.06)" stroke-width="0.5"/>
+    <line x1="25" y1="235" x2="450" y2="235" stroke="rgba(255,255,255,0.06)" stroke-width="0.5"/>
+    <line x1="25" y1="270" x2="450" y2="270" stroke="rgba(255,255,255,0.06)" stroke-width="0.5"/>
+    <line x1="25" y1="305" x2="450" y2="305" stroke="rgba(255,255,255,0.06)" stroke-width="0.5"/>
+
+    <!-- Decline line (SEO-only, stops doing SEO) -->
+    <polyline points="25,200 95,203 165,212 235,240 305,275 375,298 450,310" fill="none" stroke="rgba(255,80,80,0.7)" stroke-width="2" stroke-linecap="round"/>
+    <!-- Area fill under decline -->
+    <polygon points="25,200 95,203 165,212 235,240 305,275 375,298 450,310 450,320 25,320" fill="rgba(255,80,80,0.08)"/>
+
+    <!-- Growth line (SEO + AEO) -->
+    <polyline points="25,200 95,198 165,192 235,185 305,178 375,172 450,165" fill="none" stroke="#FF6A00" stroke-width="2" stroke-linecap="round"/>
+    <!-- Area fill under growth -->
+    <polygon points="25,200 95,198 165,192 235,185 305,178 375,172 450,165 450,320 25,320" fill="url(#declineWBVS)"/>
+
+    <!-- X-axis labels -->
+    <text x="25" y="335" font-family="system-ui, sans-serif" font-size="8" fill="rgba(255,255,255,0.3)">Mo 0</text>
+    <text x="95" y="335" font-family="system-ui, sans-serif" font-size="8" fill="rgba(255,255,255,0.3)">Mo 2</text>
+    <text x="165" y="335" font-family="system-ui, sans-serif" font-size="8" fill="rgba(255,255,255,0.3)">Mo 4</text>
+    <text x="235" y="335" font-family="system-ui, sans-serif" font-size="8" fill="rgba(255,255,255,0.3)">Mo 6</text>
+    <text x="305" y="335" font-family="system-ui, sans-serif" font-size="8" fill="rgba(255,255,255,0.3)">Mo 8</text>
+    <text x="375" y="335" font-family="system-ui, sans-serif" font-size="8" fill="rgba(255,255,255,0.3)">Mo 10</text>
+    <text x="435" y="335" font-family="system-ui, sans-serif" font-size="8" fill="rgba(255,255,255,0.3)">Mo 12</text>
+
+    <!-- Legend -->
+    <line x1="30" y1="350" x2="55" y2="350" stroke="rgba(255,80,80,0.7)" stroke-width="2"/>
+    <text x="60" y="354" font-family="system-ui, sans-serif" font-size="9" fill="rgba(255,255,255,0.5)">SEO Stopped</text>
+    <line x1="160" y1="350" x2="185" y2="350" stroke="#FF6A00" stroke-width="2"/>
+    <text x="190" y="354" font-family="system-ui, sans-serif" font-size="9" fill="rgba(255,255,255,0.5)">SEO + AEO Active</text>
+
+    <!-- Key stats bar -->
+    <line x1="20" y1="370" x2="450" y2="370" stroke="rgba(255,255,255,0.08)" stroke-width="0.5"/>
+    <text x="20" y="390" font-family="system-ui, sans-serif" font-size="10" fill="rgba(255,255,255,0.5)" font-weight="600">KEY METRICS</text>
+
+    <text x="30" y="412" font-family="system-ui, sans-serif" font-size="9" fill="rgba(255,80,80,0.85)">&#x2717; 60% of searches end without a click</text>
+    <text x="30" y="430" font-family="system-ui, sans-serif" font-size="9" fill="rgba(255,80,80,0.85)">&#x2717; AI Overviews cut #1 CTR by 58%</text>
+    <text x="30" y="448" font-family="system-ui, sans-serif" font-size="9" fill="rgba(100,220,100,0.85)">&#x2713; SEO + AEO covers both search channels</text>
+
+    <!-- Bottom CTA -->
+    <rect x="20" y="460" width="430" height="0" rx="0" fill="none"/>
+  </g>
+
+  <!-- Decorative circle -->
+  <circle cx="100" cy="130" r="60" stroke="rgba(255,106,0,0.06)" stroke-width="0.5" fill="none"/>
+
+  <!-- Category pill -->
+  <rect x="40" y="40" width="180" height="32" rx="16" fill="rgba(255,106,0,0.15)" stroke="rgba(255,106,0,0.3)" stroke-width="1"/>
+  <text x="130" y="62" font-family="system-ui, -apple-system, sans-serif" font-size="14" font-weight="500" fill="#FF6A00" text-anchor="middle">Business Pain Points</text>
+
+  <!-- Title lines -->
+  <text x="80" y="260" font-family="system-ui, -apple-system, sans-serif" font-size="44" font-weight="700" fill="white">Will My Business</text>
+  <text x="80" y="320" font-family="system-ui, -apple-system, sans-serif" font-size="44" font-weight="700" fill="white">Vanish If I</text>
+  <text x="80" y="380" font-family="system-ui, -apple-system, sans-serif" font-size="44" font-weight="700" fill="#FF6A00" filter="url(#glowWBVS)">Stop Doing SEO?</text>
+
+  <!-- Subtitle -->
+  <text x="80" y="430" font-family="system-ui, -apple-system, sans-serif" font-size="18" font-weight="400" fill="rgba(255,255,255,0.45)">The Data Behind the Fear</text>
+
+  <!-- Footer -->
+  <text x="600" y="580" font-family="system-ui, -apple-system, sans-serif" font-size="16" font-weight="500" fill="rgba(255,255,255,0.5)" text-anchor="middle" letter-spacing="4">THE ANSWER ENGINE</text>
+
+  <!-- AE circle -->
+  <circle cx="1120" cy="590" r="30" fill="rgba(255,255,255,0.1)"/>
+  <text x="1120" y="598" font-family="system-ui, -apple-system, sans-serif" font-size="20" font-weight="700" fill="rgba(255,255,255,0.3)" text-anchor="middle">AE</text>
+</svg>

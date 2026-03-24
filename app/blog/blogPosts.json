@@ -1404,5 +1404,110 @@
       "Marketing Myths",
       "AEO"
     ]
+  },
+  {
+    "id": 68,
+    "title": "How Real Estate Agents Get Found on AI Search",
+    "slug": "how-real-estate-agents-get-found-ai-search",
+    "excerpt": "82% of homebuyers now use AI for housing research. Learn why AI platforms recommend certain agents and how to become one of them.",
+    "category": "Industry Guides",
+    "author": "The Answer Engine Team",
+    "readTime": "11 min",
+    "image": "/blog/how-real-estate-agents-get-found-ai-search.svg",
+    "publishDate": "2026-03-24",
+    "lastModified": "2026-03-24",
+    "featured": true,
+    "tags": [
+      "Real Estate",
+      "AI Search",
+      "Industry Guide",
+      "AI Visibility",
+      "ChatGPT",
+      "AEO"
+    ]
+  },
+  {
+    "id": 69,
+    "title": "Will My Business Vanish If I Stop Doing SEO?",
+    "slug": "will-business-vanish-stop-doing-seo",
+    "excerpt": "73% of B2B websites lost organic traffic in 2025. Learn what actually happens when you stop SEO, why the SEO vs AEO debate misses the point, and how to future-proof your visibility.",
+    "category": "Business Pain Points",
+    "author": "The Answer Engine Team",
+    "readTime": "13 min",
+    "image": "/blog/will-business-vanish-stop-doing-seo.svg",
+    "publishDate": "2026-03-24",
+    "lastModified": "2026-03-24",
+    "featured": true,
+    "tags": [
+      "SEO",
+      "AEO",
+      "Organic Traffic",
+      "Business Pain Points",
+      "AI Search",
+      "Search Strategy"
+    ]
+  },
+  {
+    "id": 70,
+    "title": "How AI Picks Between Two Similar Businesses",
+    "slug": "how-ai-picks-between-two-similar-businesses",
+    "excerpt": "Learn what makes AI recommend one business over an identical competitor. The signals, data points, and trust factors that tip the scale.",
+    "category": "AEO Education",
+    "author": "The Answer Engine Team",
+    "readTime": "11 min",
+    "image": "/blog/how-ai-picks-between-two-similar-businesses.svg",
+    "publishDate": "2026-03-24",
+    "lastModified": "2026-03-24",
+    "featured": true,
+    "tags": [
+      "AI Search",
+      "Business Comparison",
+      "AI Rankings",
+      "AEO Education",
+      "ChatGPT",
+      "AEO"
+    ]
+  },
+  {
+    "id": 71,
+    "title": "What to Ask Before Hiring an AI Marketing Agency",
+    "slug": "what-to-ask-before-hiring-ai-marketing-agency",
+    "excerpt": "Seven critical questions to vet any AI marketing agency. Spot red flags, avoid scams, and find a partner who delivers real AI search visibility.",
+    "category": "Comparisons",
+    "author": "The Answer Engine Team",
+    "readTime": "10 min",
+    "image": "/blog/what-to-ask-before-hiring-ai-marketing-agency.svg",
+    "publishDate": "2026-03-24",
+    "lastModified": "2026-03-24",
+    "featured": true,
+    "tags": [
+      "AI Marketing Agency",
+      "Hiring Guide",
+      "AEO Agency",
+      "Red Flags",
+      "Comparisons",
+      "AEO"
+    ]
+  },
+  {
+    "id": 72,
+    "title": "Why Your Blog Isn't Getting AI Citations",
+    "slug": "why-your-blog-not-getting-ai-citations",
+    "excerpt": "95% of AI citations come from sources you don't control. Discover the 7 reasons AI platforms skip your blog and what cited sources do differently.",
+    "category": "Content Strategy",
+    "author": "The Answer Engine Team",
+    "readTime": "14 min",
+    "image": "/blog/why-your-blog-not-getting-ai-citations.svg",
+    "publishDate": "2026-03-24",
+    "lastModified": "2026-03-24",
+    "featured": true,
+    "tags": [
+      "Content Strategy",
+      "AI Citations",
+      "Blog Optimization",
+      "AEO",
+      "ChatGPT",
+      "Perplexity"
+    ]
   }
 ]

@@ -1,0 +1,202 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" fill="none">
+  <defs>
+    <linearGradient id="bgHAPB" x1="0" y1="0" x2="1200" y2="630" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#0F1117"/>
+      <stop offset="50%" stop-color="#0F1117"/>
+      <stop offset="100%" stop-color="#1a1b4e"/>
+    </linearGradient>
+    <filter id="glowHAPB" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="8" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <filter id="glowSmHAPB" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <linearGradient id="barGreenHAPB" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#22c55e"/>
+      <stop offset="100%" stop-color="#16a34a"/>
+    </linearGradient>
+    <linearGradient id="barRedHAPB" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#ef4444"/>
+      <stop offset="100%" stop-color="#dc2626"/>
+    </linearGradient>
+    <linearGradient id="accentGradHAPB" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#FF6A00"/>
+      <stop offset="100%" stop-color="#FF8C33"/>
+    </linearGradient>
+    <clipPath id="panelClipHAPB">
+      <rect x="660" y="45" width="470" height="470" rx="16"/>
+    </clipPath>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="630" fill="url(#bgHAPB)"/>
+
+  <!-- Grid Lines -->
+  <g opacity="0.05" stroke="#ffffff" stroke-width="1">
+    <line x1="0" y1="100" x2="1200" y2="100"/>
+    <line x1="0" y1="200" x2="1200" y2="200"/>
+    <line x1="0" y1="300" x2="1200" y2="300"/>
+    <line x1="0" y1="400" x2="1200" y2="400"/>
+    <line x1="0" y1="500" x2="1200" y2="500"/>
+    <line x1="200" y1="0" x2="200" y2="630"/>
+    <line x1="400" y1="0" x2="400" y2="630"/>
+    <line x1="600" y1="0" x2="600" y2="630"/>
+    <line x1="800" y1="0" x2="800" y2="630"/>
+    <line x1="1000" y1="0" x2="1000" y2="630"/>
+  </g>
+
+  <!-- Left Side Content -->
+  <!-- Category Pill -->
+  <rect x="60" y="120" width="140" height="32" rx="16" fill="#FF6A00" opacity="0.15"/>
+  <text x="130" y="141" font-family="system-ui, sans-serif" font-size="12" font-weight="600" fill="#FF6A00" text-anchor="middle" letter-spacing="1.5">AEO EDUCATION</text>
+
+  <!-- Title Lines -->
+  <text x="60" y="210" font-family="system-ui, sans-serif" font-size="38" font-weight="700" fill="#ffffff">How AI Picks</text>
+  <text x="60" y="258" font-family="system-ui, sans-serif" font-size="38" font-weight="700" fill="#ffffff">Between Two</text>
+  <text x="60" y="306" font-family="system-ui, sans-serif" font-size="38" font-weight="700" fill="#FF6A00" filter="url(#glowHAPB)">Similar Businesses</text>
+
+  <!-- Subtitle -->
+  <text x="60" y="355" font-family="system-ui, sans-serif" font-size="15" fill="#94a3b8" opacity="0.8">The tiebreaker signals that determine which</text>
+  <text x="60" y="377" font-family="system-ui, sans-serif" font-size="15" fill="#94a3b8" opacity="0.8">business earns the AI recommendation.</text>
+
+  <!-- Stats Row -->
+  <text x="60" y="440" font-family="system-ui, sans-serif" font-size="24" font-weight="700" fill="#FF6A00" filter="url(#glowSmHAPB)">86%</text>
+  <text x="60" y="460" font-family="system-ui, sans-serif" font-size="10" fill="#94a3b8">Citations from</text>
+  <text x="60" y="473" font-family="system-ui, sans-serif" font-size="10" fill="#94a3b8">brand sources</text>
+
+  <text x="200" y="440" font-family="system-ui, sans-serif" font-size="24" font-weight="700" fill="#FF6A00" filter="url(#glowSmHAPB)">6</text>
+  <text x="200" y="460" font-family="system-ui, sans-serif" font-size="10" fill="#94a3b8">Key signal</text>
+  <text x="200" y="473" font-family="system-ui, sans-serif" font-size="10" fill="#94a3b8">categories</text>
+
+  <text x="310" y="440" font-family="system-ui, sans-serif" font-size="24" font-weight="700" fill="#FF6A00" filter="url(#glowSmHAPB)">4.2x</text>
+  <text x="310" y="460" font-family="system-ui, sans-serif" font-size="10" fill="#94a3b8">Higher citation</text>
+  <text x="310" y="473" font-family="system-ui, sans-serif" font-size="10" fill="#94a3b8">with depth</text>
+
+  <!-- Right Panel -->
+  <rect x="660" y="45" width="470" height="470" rx="16" fill="#161822" stroke="#ffffff" stroke-opacity="0.08"/>
+
+  <!-- Panel Header -->
+  <text x="685" y="80" font-family="system-ui, sans-serif" font-size="13" font-weight="600" fill="#ffffff" opacity="0.9">AI TRUST COMPARISON</text>
+  <rect x="685" y="90" width="420" height="1" fill="#ffffff" opacity="0.06"/>
+
+  <!-- Column Headers -->
+  <rect x="840" y="104" width="110" height="24" rx="6" fill="#22c55e" opacity="0.12"/>
+  <text x="895" y="120" font-family="system-ui, sans-serif" font-size="10" font-weight="600" fill="#22c55e" text-anchor="middle">BUSINESS A</text>
+
+  <rect x="968" y="104" width="110" height="24" rx="6" fill="#ef4444" opacity="0.12"/>
+  <text x="1023" y="120" font-family="system-ui, sans-serif" font-size="10" font-weight="600" fill="#ef4444" text-anchor="middle">BUSINESS B</text>
+
+  <!-- Row 1: Entity Clarity -->
+  <text x="700" y="160" font-family="system-ui, sans-serif" font-size="10" fill="#94a3b8">Entity Clarity</text>
+  <!-- Check -->
+  <circle cx="895" cy="156" r="8" fill="#22c55e" opacity="0.15"/>
+  <path d="M890 156 L893 159 L900 152" stroke="#22c55e" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+  <!-- X -->
+  <circle cx="1023" cy="156" r="8" fill="#ef4444" opacity="0.15"/>
+  <path d="M1019 152 L1027 160 M1027 152 L1019 160" stroke="#ef4444" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+  <!-- Score bars -->
+  <rect x="840" y="168" width="110" height="5" rx="2.5" fill="#1e293b"/>
+  <rect x="840" y="168" width="99" height="5" rx="2.5" fill="url(#barGreenHAPB)"/>
+  <text x="952" y="173" font-family="system-ui, sans-serif" font-size="8" fill="#22c55e" opacity="0.8">90</text>
+
+  <rect x="968" y="168" width="110" height="5" rx="2.5" fill="#1e293b"/>
+  <rect x="968" y="168" width="38" height="5" rx="2.5" fill="url(#barRedHAPB)"/>
+  <text x="1010" y="173" font-family="system-ui, sans-serif" font-size="8" fill="#ef4444" opacity="0.8">35</text>
+
+  <!-- Row 2: Schema Depth -->
+  <text x="700" y="205" font-family="system-ui, sans-serif" font-size="10" fill="#94a3b8">Schema Depth</text>
+  <circle cx="895" cy="201" r="8" fill="#22c55e" opacity="0.15"/>
+  <path d="M890 201 L893 204 L900 197" stroke="#22c55e" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+  <circle cx="1023" cy="201" r="8" fill="#ef4444" opacity="0.15"/>
+  <path d="M1019 197 L1027 205 M1027 197 L1019 205" stroke="#ef4444" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+  <rect x="840" y="213" width="110" height="5" rx="2.5" fill="#1e293b"/>
+  <rect x="840" y="213" width="93" height="5" rx="2.5" fill="url(#barGreenHAPB)"/>
+  <text x="937" y="218" font-family="system-ui, sans-serif" font-size="8" fill="#22c55e" opacity="0.8">85</text>
+  <rect x="968" y="213" width="110" height="5" rx="2.5" fill="#1e293b"/>
+  <rect x="968" y="213" width="22" height="5" rx="2.5" fill="url(#barRedHAPB)"/>
+  <text x="994" y="218" font-family="system-ui, sans-serif" font-size="8" fill="#ef4444" opacity="0.8">20</text>
+
+  <!-- Row 3: Directory NAP -->
+  <text x="700" y="250" font-family="system-ui, sans-serif" font-size="10" fill="#94a3b8">Directory NAP</text>
+  <circle cx="895" cy="246" r="8" fill="#22c55e" opacity="0.15"/>
+  <path d="M890 246 L893 249 L900 242" stroke="#22c55e" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+  <circle cx="1023" cy="246" r="8" fill="#ef4444" opacity="0.15"/>
+  <path d="M1019 242 L1027 250 M1027 242 L1019 250" stroke="#ef4444" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+  <rect x="840" y="258" width="110" height="5" rx="2.5" fill="#1e293b"/>
+  <rect x="840" y="258" width="104" height="5" rx="2.5" fill="url(#barGreenHAPB)"/>
+  <text x="948" y="263" font-family="system-ui, sans-serif" font-size="8" fill="#22c55e" opacity="0.8">95</text>
+  <rect x="968" y="258" width="110" height="5" rx="2.5" fill="#1e293b"/>
+  <rect x="968" y="258" width="49" height="5" rx="2.5" fill="url(#barRedHAPB)"/>
+  <text x="1021" y="263" font-family="system-ui, sans-serif" font-size="8" fill="#ef4444" opacity="0.8">45</text>
+
+  <!-- Row 4: Review Signals -->
+  <text x="700" y="295" font-family="system-ui, sans-serif" font-size="10" fill="#94a3b8">Review Signals</text>
+  <circle cx="895" cy="291" r="8" fill="#22c55e" opacity="0.15"/>
+  <path d="M890 291 L893 294 L900 287" stroke="#22c55e" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+  <circle cx="1023" cy="291" r="8" fill="#ef4444" opacity="0.15"/>
+  <path d="M1019 287 L1027 295 M1027 287 L1019 295" stroke="#ef4444" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+  <rect x="840" y="303" width="110" height="5" rx="2.5" fill="#1e293b"/>
+  <rect x="840" y="303" width="88" height="5" rx="2.5" fill="url(#barGreenHAPB)"/>
+  <text x="932" y="308" font-family="system-ui, sans-serif" font-size="8" fill="#22c55e" opacity="0.8">80</text>
+  <rect x="968" y="303" width="110" height="5" rx="2.5" fill="#1e293b"/>
+  <rect x="968" y="303" width="55" height="5" rx="2.5" fill="url(#barRedHAPB)"/>
+  <text x="1027" y="308" font-family="system-ui, sans-serif" font-size="8" fill="#ef4444" opacity="0.8">50</text>
+
+  <!-- Row 5: 3rd Party -->
+  <text x="700" y="340" font-family="system-ui, sans-serif" font-size="10" fill="#94a3b8">3rd Party Validation</text>
+  <circle cx="895" cy="336" r="8" fill="#22c55e" opacity="0.15"/>
+  <path d="M890 336 L893 339 L900 332" stroke="#22c55e" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+  <circle cx="1023" cy="336" r="8" fill="#ef4444" opacity="0.15"/>
+  <path d="M1019 332 L1027 340 M1027 332 L1019 340" stroke="#ef4444" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+  <rect x="840" y="348" width="110" height="5" rx="2.5" fill="#1e293b"/>
+  <rect x="840" y="348" width="77" height="5" rx="2.5" fill="url(#barGreenHAPB)"/>
+  <text x="921" y="353" font-family="system-ui, sans-serif" font-size="8" fill="#22c55e" opacity="0.8">70</text>
+  <rect x="968" y="348" width="110" height="5" rx="2.5" fill="#1e293b"/>
+  <rect x="968" y="348" width="16" height="5" rx="2.5" fill="url(#barRedHAPB)"/>
+  <text x="988" y="353" font-family="system-ui, sans-serif" font-size="8" fill="#ef4444" opacity="0.8">15</text>
+
+  <!-- Row 6: Content Depth -->
+  <text x="700" y="385" font-family="system-ui, sans-serif" font-size="10" fill="#94a3b8">Content Depth</text>
+  <circle cx="895" cy="381" r="8" fill="#22c55e" opacity="0.15"/>
+  <path d="M890 381 L893 384 L900 377" stroke="#22c55e" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+  <circle cx="1023" cy="381" r="8" fill="#ef4444" opacity="0.15"/>
+  <path d="M1019 377 L1027 385 M1027 377 L1019 385" stroke="#ef4444" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+  <rect x="840" y="393" width="110" height="5" rx="2.5" fill="#1e293b"/>
+  <rect x="840" y="393" width="82" height="5" rx="2.5" fill="url(#barGreenHAPB)"/>
+  <text x="926" y="398" font-family="system-ui, sans-serif" font-size="8" fill="#22c55e" opacity="0.8">75</text>
+  <rect x="968" y="393" width="110" height="5" rx="2.5" fill="#1e293b"/>
+  <rect x="968" y="393" width="33" height="5" rx="2.5" fill="url(#barRedHAPB)"/>
+  <text x="1005" y="398" font-family="system-ui, sans-serif" font-size="8" fill="#ef4444" opacity="0.8">30</text>
+
+  <!-- Divider -->
+  <rect x="685" y="415" width="420" height="1" fill="#ffffff" opacity="0.06"/>
+
+  <!-- Total Score -->
+  <text x="700" y="445" font-family="system-ui, sans-serif" font-size="11" font-weight="600" fill="#ffffff">TRUST SCORE</text>
+  <rect x="840" y="432" width="110" height="22" rx="6" fill="#22c55e" opacity="0.1"/>
+  <text x="895" y="448" font-family="system-ui, sans-serif" font-size="14" font-weight="700" fill="#22c55e" text-anchor="middle">82.5 / 100</text>
+  <rect x="968" y="432" width="110" height="22" rx="6" fill="#ef4444" opacity="0.1"/>
+  <text x="1023" y="448" font-family="system-ui, sans-serif" font-size="14" font-weight="700" fill="#ef4444" text-anchor="middle">32.5 / 100</text>
+
+  <!-- Result label -->
+  <rect x="840" y="462" width="110" height="18" rx="4" fill="#22c55e" opacity="0.08"/>
+  <text x="895" y="475" font-family="system-ui, sans-serif" font-size="9" font-weight="600" fill="#22c55e" text-anchor="middle">CITED BY AI</text>
+  <rect x="968" y="462" width="110" height="18" rx="4" fill="#ef4444" opacity="0.08"/>
+  <text x="1023" y="475" font-family="system-ui, sans-serif" font-size="9" font-weight="600" fill="#ef4444" text-anchor="middle">NOT CITED</text>
+
+  <!-- Footer -->
+  <rect x="0" y="560" width="1200" height="70" fill="#0F1117" opacity="0.8"/>
+  <text x="600" y="600" font-family="system-ui, sans-serif" font-size="13" font-weight="600" fill="#ffffff" text-anchor="middle" letter-spacing="4" opacity="0.5">THE ANSWER ENGINE</text>
+
+  <!-- AE Circle -->
+  <circle cx="1140" cy="590" r="20" fill="#FF6A00" opacity="0.15"/>
+  <text x="1140" y="596" font-family="system-ui, sans-serif" font-size="14" font-weight="700" fill="#FF6A00" text-anchor="middle">AE</text>
+</svg>
