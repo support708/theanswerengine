@@ -1509,5 +1509,110 @@
       "ChatGPT",
       "Perplexity"
     ]
+  },
+  {
+    "id": 73,
+    "title": "How to Fix Wrong AI Answers About Your Business",
+    "slug": "how-to-fix-wrong-ai-answers-about-your-business",
+    "excerpt": "AI platforms are spreading incorrect information about your business right now. Learn what types of errors occur, why they happen, and the framework to reclaim accurate AI representation.",
+    "category": "How-To Guides",
+    "author": "The Answer Engine Team",
+    "readTime": "12 min",
+    "image": "/blog/how-to-fix-wrong-ai-answers-about-your-business.webp",
+    "publishDate": "2026-03-25",
+    "lastModified": "2026-03-25",
+    "featured": true,
+    "tags": [
+      "AI Accuracy",
+      "Business Reputation",
+      "AI Hallucinations",
+      "ChatGPT",
+      "How-To Guide",
+      "AEO"
+    ]
+  },
+  {
+    "id": 74,
+    "title": "How Google AI Mode Changes Local Business Discovery",
+    "slug": "how-google-ai-mode-changes-local-business-discovery",
+    "excerpt": "Google AI Mode launched to 180+ countries and fundamentally changed how local businesses get discovered. See what's different, who wins, and what visibility you need in 2026.",
+    "category": "Platform Deep Dives",
+    "author": "The Answer Engine Team",
+    "readTime": "13 min",
+    "image": "/blog/how-google-ai-mode-changes-local-business-discovery.webp",
+    "publishDate": "2026-03-25",
+    "lastModified": "2026-03-25",
+    "featured": true,
+    "tags": [
+      "Google AI",
+      "Local Business",
+      "AI Citations",
+      "Search Visibility",
+      "Platform Analysis",
+      "AEO"
+    ]
+  },
+  {
+    "id": 75,
+    "title": "My Business Disappeared from AI Search Results Overnight",
+    "slug": "my-business-disappeared-from-ai-search-results-overnight",
+    "excerpt": "Your business was cited by AI yesterday and gone today. Learn why AI visibility vanishes, what the 5-stage disappearance sequence looks like, and how to recover.",
+    "category": "Business Pain Points",
+    "author": "The Answer Engine Team",
+    "readTime": "11 min",
+    "image": "/blog/my-business-disappeared-from-ai-search-results-overnight.webp",
+    "publishDate": "2026-03-25",
+    "lastModified": "2026-03-25",
+    "featured": true,
+    "tags": [
+      "AI Visibility",
+      "Business Disappearance",
+      "Search Volatility",
+      "AI Citations",
+      "Business Crisis",
+      "Recovery Guide"
+    ]
+  },
+  {
+    "id": 76,
+    "title": "Does Having a Blog Actually Help AI Recommend Your Business",
+    "slug": "does-having-a-blog-actually-help-ai-recommend-your-business",
+    "excerpt": "67% of AI systems now weight fresh, regularly updated content. Discover the real ROI of blogging in the AI era and why consistency beats volume.",
+    "category": "Myth Busters",
+    "author": "The Answer Engine Team",
+    "readTime": "10 min",
+    "image": "/blog/does-having-a-blog-actually-help-ai-recommend-your-business.webp",
+    "publishDate": "2026-03-25",
+    "lastModified": "2026-03-25",
+    "featured": true,
+    "tags": [
+      "Blogging",
+      "Content Strategy",
+      "AI Recommendations",
+      "Myth Busting",
+      "Content Freshness",
+      "AEO"
+    ]
+  },
+  {
+    "id": 77,
+    "title": "AI Search vs Google Maps: Which One Sends More Customers",
+    "slug": "ai-search-vs-google-maps-which-one-sends-more-customers",
+    "excerpt": "Google Maps still dominates with 8.5B monthly searches, but AI Search has a 11.2% conversion rate. Which channel should you invest in for your business?",
+    "category": "Competitive Intelligence",
+    "author": "The Answer Engine Team",
+    "readTime": "12 min",
+    "image": "/blog/ai-search-vs-google-maps-which-one-sends-more-customers.webp",
+    "publishDate": "2026-03-25",
+    "lastModified": "2026-03-25",
+    "featured": true,
+    "tags": [
+      "AI Search",
+      "Google Maps",
+      "Channel Strategy",
+      "Customer Acquisition",
+      "Local Business",
+      "Competitive Analysis"
+    ]
   }
 ]
