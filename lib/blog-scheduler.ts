@@ -3,7 +3,7 @@
  * Picks topic -> runs 3-call pipeline -> writes files -> updates metadata -> notifies.
  */
 
-import { runPipeline, generateBlogSvg } from './blog-bot';
+import { runPipeline, generateBlogSvg, generateBlogHeroImage } from './blog-bot';
 import {
   readBlogState,
   getNextTopic,
@@ -142,13 +142,14 @@ export async function runBlogSession(trigger: 'cron' | 'manual'): Promise<BlogSe
     // Audit passed - publish!
     const today = new Date().toISOString().split('T')[0];
 
-    // Generate SVG hero image
-    const heroSvg = generateBlogSvg(
+    // Generate hero image (Gemini WebP with SVG fallback)
+    const heroResult = await generateBlogHeroImage(
       result.research.refinedTitle,
       result.research.category || topic.category,
       finalSlug,
     );
-    const imagePath = `/blog/${finalSlug}.svg`;
+    const heroSvg = heroResult.svgFallback;
+    const imagePath = heroResult.webpPath || `/blog/${finalSlug}.svg`;
 
     if (IS_VERCEL && process.env.GITHUB_TOKEN) {
       // PRODUCTION: Stage article for end-of-day batch publish

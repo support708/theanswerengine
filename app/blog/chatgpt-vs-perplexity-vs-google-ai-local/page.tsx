@@ -33,7 +33,7 @@ export const metadata: Metadata = {
     authors: ['The Answer Engine Team'],
     images: [
       {
-        url: 'https://theanswerengine.ai/blog/chatgpt-vs-perplexity-vs-google-ai-local.svg',
+        url: 'https://theanswerengine.ai/blog/chatgpt-vs-perplexity-vs-google-ai-local.webp',
         width: 1200,
         height: 630,
         alt: 'ChatGPT vs Perplexity vs Google AI for Local Business comparison',
@@ -73,7 +73,7 @@ const jsonLd = {
         name: 'The Answer Engine',
         url: 'https://theanswerengine.ai',
       },
-      image: 'https://theanswerengine.ai/blog/chatgpt-vs-perplexity-vs-google-ai-local.svg',
+      image: 'https://theanswerengine.ai/blog/chatgpt-vs-perplexity-vs-google-ai-local.webp',
       keywords:
         'ChatGPT vs Perplexity, Google AI Mode, AI search comparison, local business AI, ChatGPT local search, Perplexity local business, Google AI Overviews, AI search visibility',
     },

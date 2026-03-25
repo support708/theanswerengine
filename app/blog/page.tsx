@@ -312,6 +312,14 @@ export default function Blog() {
                               alt={post.title}
                               className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
                             />
+                          ) : post.image.endsWith('.webp') ? (
+                            <Image
+                              src={post.image}
+                              alt={post.title}
+                              width={1200}
+                              height={630}
+                              className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                            />
                           ) : (
                             <Image
                               src={post.image}
@@ -321,7 +329,7 @@ export default function Blog() {
                               className="w-full h-full object-cover opacity-70 group-hover:scale-105 transition-transform duration-500 grayscale brightness-75"
                             />
                           )}
-                          {!post.image.endsWith('.svg') && (
+                          {!post.image.endsWith('.svg') && !post.image.endsWith('.webp') && (
                             <BlogCardPattern index={i} className="absolute inset-0 w-full h-full pointer-events-none z-[1]" />
                           )}
                           <div className="absolute inset-0 bg-gradient-to-t from-[#0F1117] via-transparent to-[#0F1117]/40 pointer-events-none z-[2]" />
@@ -423,6 +431,14 @@ export default function Blog() {
                           alt={post.title}
                           className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
                         />
+                      ) : post.image.endsWith('.webp') ? (
+                        <Image
+                          src={post.image}
+                          alt={post.title}
+                          width={1200}
+                          height={630}
+                          className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                        />
                       ) : (
                         <Image
                           src={post.image}
@@ -432,7 +448,7 @@ export default function Blog() {
                           className="w-full h-full object-cover opacity-70 group-hover:scale-105 transition-transform duration-500 grayscale brightness-75"
                         />
                       )}
-                      {!post.image.endsWith('.svg') && (
+                      {!post.image.endsWith('.svg') && !post.image.endsWith('.webp') && (
                         <BlogCardPattern index={i + 10} className="absolute inset-0 w-full h-full pointer-events-none z-[1]" />
                       )}
                       <div className="absolute inset-0 bg-gradient-to-t from-[#0F1117] via-transparent to-[#0F1117]/40 pointer-events-none z-[2]" />

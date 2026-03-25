@@ -10,7 +10,7 @@ export default function BlogPost() {
         "description": "Nearly 60% of searches now end without a click because AI answers directly. Learn why your SEO rankings look good but leads are down, and what actually generates leads now.",
         "image": {
           "@type": "ImageObject",
-          "url": "https://theanswerengine.ai/blog/seo-not-generating-leads.svg",
+          "url": "https://theanswerengine.ai/blog/seo-not-generating-leads.webp",
           "width": 1200,
           "height": 630
         },

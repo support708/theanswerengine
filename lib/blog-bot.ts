@@ -331,6 +331,29 @@ function escapeXml(str: string): string {
   return str.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
 }
 
+/**
+ * Generate a hero image for a blog post using Gemini, with SVG fallback.
+ */
+export async function generateBlogHeroImage(
+  title: string,
+  category: string,
+  slug: string,
+): Promise<{ webpPath: string; svgFallback: string; webpBase64?: string }> {
+  const svgFallback = generateBlogSvg(title, category, slug);
+
+  try {
+    // Dynamic import to avoid breaking builds when @google/genai isn't available
+    const { generateHeroImage, saveHeroWebp } = await import('./gemini-image');
+    const rawBuffer = await generateHeroImage(title, category, slug);
+    const webpPath = await saveHeroWebp(rawBuffer, slug);
+    const webpBase64 = rawBuffer.toString('base64');
+    return { webpPath, svgFallback, webpBase64 };
+  } catch (err) {
+    console.warn(`[Hero] Gemini failed, using SVG fallback for "${slug}":`, err);
+    return { webpPath: '', svgFallback };
+  }
+}
+
 export async function runPipeline(topic: BlogTopic, existingTitles: string[] = [], existingSlugs: string[] = []): Promise<{
   research: ResearchOutput;
   code: string;

@@ -14,7 +14,7 @@ export const metadata: Metadata = {
     description: "82% of homebuyers now use AI for housing research. Learn why AI platforms recommend certain agents and how to become one of them.",
     type: 'article',
     url: 'https://theanswerengine.ai/blog/how-real-estate-agents-get-found-ai-search',
-    images: [{ url: 'https://theanswerengine.ai/blog/how-real-estate-agents-get-found-ai-search.svg', width: 1200, height: 630 }],
+    images: [{ url: 'https://theanswerengine.ai/blog/how-real-estate-agents-get-found-ai-search.webp', width: 1200, height: 630 }],
   },
   twitter: {
     card: 'summary_large_image',
@@ -34,7 +34,7 @@ const jsonLd = {
       "@id": "https://theanswerengine.ai/blog/how-real-estate-agents-get-found-ai-search#article",
       "headline": "How Real Estate Agents Get Found on AI Search",
       "description": "82% of homebuyers now use AI for housing research. Learn why AI platforms recommend certain agents and how to become one of them.",
-      "image": "https://theanswerengine.ai/blog/how-real-estate-agents-get-found-ai-search.svg",
+      "image": "https://theanswerengine.ai/blog/how-real-estate-agents-get-found-ai-search.webp",
       "datePublished": "2026-03-24",
       "dateModified": "2026-03-24",
       "author": {

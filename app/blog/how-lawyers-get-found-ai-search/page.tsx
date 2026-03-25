@@ -14,7 +14,7 @@ export const metadata: Metadata = {
     description: "Why 78% of legal queries trigger AI Overviews and what your firm can do about it. Real data, real strategies for law firm AI visibility.",
     type: 'article',
     url: 'https://theanswerengine.ai/blog/how-lawyers-get-found-ai-search',
-    images: [{ url: 'https://theanswerengine.ai/blog/how-lawyers-get-found-ai-search.svg', width: 1200, height: 630 }],
+    images: [{ url: 'https://theanswerengine.ai/blog/how-lawyers-get-found-ai-search.webp', width: 1200, height: 630 }],
   },
   twitter: {
     card: 'summary_large_image',
@@ -34,7 +34,7 @@ const jsonLd = {
       "@id": "https://theanswerengine.ai/blog/how-lawyers-get-found-ai-search#article",
       "headline": "How Lawyers Can Get Found on AI Search",
       "description": "Learn why 78% of legal queries trigger AI Overviews and what law firms must do to get cited by ChatGPT, Gemini, and Perplexity.",
-      "image": "https://theanswerengine.ai/blog/how-lawyers-get-found-ai-search.svg",
+      "image": "https://theanswerengine.ai/blog/how-lawyers-get-found-ai-search.webp",
       "datePublished": "2026-03-22",
       "dateModified": "2026-03-22",
       "author": {

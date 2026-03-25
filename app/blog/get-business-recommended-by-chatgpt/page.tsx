@@ -10,7 +10,7 @@ export default function BlogPost() {
         "description": "The exact strategy that got a local business recommended by ChatGPT and AI platforms — producing 89% click growth, 2.9 million impressions, and 5 closed deals in 4 months.",
         "image": {
           "@type": "ImageObject",
-          "url": "https://theanswerengine.ai/blog/get-business-recommended-by-chatgpt.svg",
+          "url": "https://theanswerengine.ai/blog/get-business-recommended-by-chatgpt.webp",
           "width": 1024,
           "height": 1024
         },

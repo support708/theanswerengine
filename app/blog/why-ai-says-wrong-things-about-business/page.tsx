@@ -14,7 +14,7 @@ export const metadata: Metadata = {
     description: "AI models give incorrect phone numbers 36% of the time. Learn why AI platforms get your business wrong and what drives these costly errors.",
     type: 'article',
     url: 'https://www.theanswerengine.ai/blog/why-ai-says-wrong-things-about-business',
-    images: [{ url: 'https://theanswerengine.ai/blog/why-ai-says-wrong-things-about-business.svg', width: 1200, height: 630 }],
+    images: [{ url: 'https://theanswerengine.ai/blog/why-ai-says-wrong-things-about-business.webp', width: 1200, height: 630 }],
   },
   twitter: {
     card: 'summary_large_image',
@@ -34,7 +34,7 @@ const jsonLd = {
       "@id": "https://www.theanswerengine.ai/blog/why-ai-says-wrong-things-about-business#article",
       "headline": "Why AI Says Wrong Things About Your Business",
       "description": "AI models give incorrect phone numbers 36% of the time. Learn why AI platforms get your business information wrong and what drives these costly hallucinations.",
-      "image": "https://theanswerengine.ai/blog/why-ai-says-wrong-things-about-business.svg",
+      "image": "https://theanswerengine.ai/blog/why-ai-says-wrong-things-about-business.webp",
       "datePublished": "2026-03-22",
       "dateModified": "2026-03-22",
       "author": {
@@ -158,7 +158,7 @@ export default function WhyAISaysWrongThingsAboutBusiness() {
             {/* Hero Image */}
             <div className="rounded-xl overflow-hidden mb-8 border border-white/[0.06]">
               <img
-                src="/blog/why-ai-says-wrong-things-about-business.svg"
+                src="/blog/why-ai-says-wrong-things-about-business.webp"
                 alt="AI chat interface showing incorrect business information with warning indicators"
                 width={1200}
                 height={630}

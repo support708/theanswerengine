@@ -21,7 +21,7 @@ export const metadata: Metadata = {
     url: 'https://theanswerengine.ai/blog/how-ai-picks-between-two-similar-businesses',
     images: [
       {
-        url: 'https://theanswerengine.ai/images/how-ai-picks-between-two-similar-businesses.svg',
+        url: 'https://theanswerengine.ai/blog/how-ai-picks-between-two-similar-businesses.webp',
         width: 1200,
         height: 630,
         alt: 'How AI Picks Between Two Similar Businesses',
@@ -34,7 +34,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'How AI Picks Between Two Similar Businesses',
     description: 'The tiebreaker signals AI uses when two businesses look identical on paper.',
-    images: ['https://theanswerengine.ai/images/how-ai-picks-between-two-similar-businesses.svg'],
+    images: ['https://theanswerengine.ai/blog/how-ai-picks-between-two-similar-businesses.webp'],
     creator: '@theanswerengine',
   },
 
@@ -66,7 +66,7 @@ function ComprehensiveSchema() {
         "description": "Learn what makes AI recommend one business over an identical competitor. The signals, data points, and trust factors that tip the scale.",
         "image": {
           "@type": "ImageObject",
-          "url": "https://theanswerengine.ai/images/how-ai-picks-between-two-similar-businesses.svg",
+          "url": "https://theanswerengine.ai/blog/how-ai-picks-between-two-similar-businesses.webp",
           "width": 1200,
           "height": 630
         },
@@ -236,7 +236,7 @@ export default function HowAIPicksBetweenTwoSimilarBusinesses() {
             {/* Featured Image */}
             <div className="mb-8 rounded-xl overflow-hidden border border-white/[0.05]">
               <img
-                src="/images/how-ai-picks-between-two-similar-businesses.svg"
+                src="/blog/how-ai-picks-between-two-similar-businesses.webp"
                 alt="Comparison dashboard showing how AI evaluates two similar businesses with trust scores and signal breakdowns"
                 className="w-full"
               />

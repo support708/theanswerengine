@@ -102,16 +102,16 @@ export const metadata: Metadata = {
     publishedTime: publishDate,
     authors: ['The Answer Engine Team'],
     url: `https://theanswerengine.ai/blog/${slug}`,
-    images: [{ url: `https://theanswerengine.ai/blog/${slug}.svg`, width: 1200, height: 630, alt: title }],
+    images: [{ url: `https://theanswerengine.ai/blog/${slug}.webp`, width: 1200, height: 630, alt: title }],
   },
-  twitter: { card: 'summary_large_image', title, description, images: [`https://theanswerengine.ai/blog/${slug}.svg`] },
+  twitter: { card: 'summary_large_image', title, description, images: [`https://theanswerengine.ai/blog/${slug}.webp`] },
   alternates: { canonical: `https://theanswerengine.ai/blog/${slug}` },
 }
 
 const jsonLd = {
   '@context': 'https://schema.org',
   '@graph': [
-    { '@type': 'Article', headline: title, description, image: `...svg`, datePublished, dateModified, author: { '@type': 'Organization', name: 'The Answer Engine', url: 'https://theanswerengine.ai' }, publisher: { '@type': 'Organization', ... }, mainEntityOfPage: { '@type': 'WebPage', '@id': `...` } },
+    { '@type': 'Article', headline: title, description, image: { '@type': 'ImageObject', url: `https://theanswerengine.ai/blog/${slug}.webp`, width: 1200, height: 630 }, datePublished, dateModified, author: { '@type': 'Organization', name: 'The Answer Engine', url: 'https://theanswerengine.ai' }, publisher: { '@type': 'Organization', ... }, mainEntityOfPage: { '@type': 'WebPage', '@id': `...` } },
     { '@type': 'FAQPage', mainEntity: [...faqItems] },
     { '@type': 'BreadcrumbList', itemListElement: [...] },
   ],
@@ -213,55 +213,20 @@ Use these CSS classes directly in JSX. All classes are prefixed with `ae-` to av
 - **PROTECT THE SAUCE**: Teach the "what" and "why", never the exact "how". No step-by-step implementation guides, no framework blueprints, no code examples. Hint at the solution, create demand for our services.
 - **Internal linking**: Each article should link to 2-3 related existing articles from blogPosts.json where relevant in the body text. Use `<Link href="/blog/{slug}">` for these.
 
-### Step 4: Generate Premium SVG Hero Image
+### Step 4: Generate Hero Image (Gemini + SVG Fallback)
 
-Create a **premium dashboard-style** 1200x630 SVG. NOT a basic text-on-gradient. Every SVG has a **right-panel data visualization** that tells a visual story specific to the article.
+**Primary: Generate a photorealistic hero image via Gemini AI.**
 
-Save to: `public/blog/{slug}.svg`
+Run this command to generate the hero image:
+```bash
+NANOBANANA_API_KEY=AIzaSyCT65tO_hZXjEn6L7I4yIFHN90upqh_v68 npx tsx scripts/generate-single-image.ts "{title}" "{category}" "{slug}"
+```
 
-**Read `public/blog/how-to-track-ai-search-visibility.svg` as the gold-standard reference before generating.** Match its quality, contrast, and density.
+This creates `public/blog/{slug}.webp` (1200x630, ~50-100KB).
 
-#### Layout (fixed for every SVG)
+**If Gemini fails:** Generate a fallback SVG using the `generateBlogSvg()` function from `lib/blog-bot.ts` and save to `public/blog/{slug}.svg`. Update the image field to use `.svg` instead.
 
-- **Left side** (x=40-600): Category pill, 3-line title (last line `#FF6A00` with glow filter), subtitle
-- **Right panel** (translate 660,45): 470x470 rounded rect with dashboard content inside
-- **Footer**: "THE ANSWER ENGINE" centered, "AE" circle bottom-right
-- **Background**: Dark gradient through `#0F1117` midpoint + 7 subtle grid lines at 0.05 opacity
-
-#### Right Panel Content (pick best match for article topic)
-
-| Type | Use for | Elements |
-|------|---------|----------|
-| Metric Cards + Chart | Results, growth, ROI | 3 cards (font-size 24 numbers), line/bar chart, insight box |
-| Comparison Table | "vs" articles | Column headers, 4-6 rows with check/X, bar comparison, verdict |
-| Step Checklist | How-to guides | 4-5 numbered cards with colored borders, CRITICAL badge, stats |
-| Scoring Dashboard | Platform deep dives | Central score (font-size 28), 5 signal bars, checklist |
-| Browser Mockup | Website/crawl topics | Chrome dots, URL bar, content sections with read/skip indicators |
-| Data Pipeline | Technical AI topics | Connected nodes, source-to-output flow, priority ranking |
-
-#### Contrast Rules (CRITICAL for thumbnail readability at 370px)
-
-| Element | Value |
-|---------|-------|
-| Hero numbers | `fill="#FF6A00"` + `filter="url(#glow{ID})"`, font-size 24 |
-| Secondary numbers | `fill="white"`, font-size 24 |
-| Card labels | font-size 9, color at 0.9 opacity |
-| Chart bars | 0.5 opacity (green=`100,220,100`, red=`255,80,80`, orange=`255,106,0`) |
-| Positive text | `rgba(100,220,100,0.9)` |
-| Negative text | `rgba(255,80,80,0.85)` |
-| Card backgrounds | `rgba(color, 0.06-0.08)` |
-| Card strokes | stroke-width 1.5, color at 0.4-0.5 |
-| Primary card | `stroke="#FF6A00"` + glow filter + `stroke-opacity="0.6"` |
-| Panel fill/stroke | `rgba(255,255,255, 0.06)` / `rgba(255,255,255, 0.12)` |
-| Body text | `rgba(255,255,255, 0.8)` |
-| Labels | `rgba(255,255,255, 0.5)` |
-| Insight box | `rgba(255,106,0,0.08)` fill + `stroke="#FF6A00"` at 0.5 opacity |
-
-#### Color palette: `#FF6A00` (brand), `rgba(100,220,100)` (success), `rgba(255,80,80)` (error), `rgba(100,150,255)` (info), `rgba(255,200,50)` (warning), `rgba(200,150,255)` (accent)
-
-#### Gradient variation: Vary corner tints per article (`#0d2e3b`, `#1a1b4e`, `#0d3b1a`, `#3b0d0d`, `#3b1a0d`, `#1a0d3b`, `#2e0d1a`). Always `#0F1117` at 50% stop.
-
-#### Unique IDs: All gradient/filter IDs must be unique per SVG (use 3-4 letter slug abbreviation, e.g. `bgHTAI`, `glowHTAI`). Prevents conflicts on blog listing page.
+**Image prompt style:** Dark moody tech aesthetic (#0F1117 bg), orange accent lighting (#FF6A00), cinematic depth of field, no text/faces/logos. Category-specific themes are built into the generate script.
 
 Use `next/link` `Link` component for all internal links (`/blog`, `/blindspot`, `/`). Use `<a href>` only for external URLs.
 
@@ -301,7 +266,7 @@ Add entry for each article:
   "category": "...",
   "author": "The Answer Engine Team",
   "readTime": "X min",
-  "image": "/blog/{slug}.svg",
+  "image": "/blog/{slug}.webp",
   "publishDate": "YYYY-MM-DD",
   "lastModified": "YYYY-MM-DD",
   "featured": true,
