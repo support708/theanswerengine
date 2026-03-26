@@ -1,5 +1,6 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
+import QuickAssessmentForm from './QuickAssessmentForm'
 
 export const revalidate = 86400
 export const dynamic = 'force-static'
@@ -378,7 +379,7 @@ export default function Page() {
           {/* ── CTA 2 ── */}
           <div className="ae-cta-inline not-prose">
             <p>Your website traffic may be masking a deeper problem: AI is routing customers past you entirely. Let&apos;s run the numbers.</p>
-            <a href="tel:+1-555-555-0100">Call Us to Discuss Your Visibility Gap</a>
+            <a href="tel:+15555550100">Call Us to Discuss Your Visibility Gap</a>
           </div>
 
           {/* ── SECTION 3 ── */}
@@ -488,6 +489,10 @@ export default function Page() {
             </div>
           </div>
 
+          <div className="ae-takeaway not-prose">
+            <strong>Key Takeaway:</strong> The businesses winning in Google AI Mode are those treating it as a different channel, not a replacement for Maps or organic SEO. Proximity alone no longer wins. Authority, reputation, and AI-readable content are the new competitive differentiators.
+          </div>
+
           {/* ── CTA 3 ── */}
           <div className="ae-cta-inline not-prose">
             <p>Would your business survive an AI comparison call right now? Our team audits exactly how AI Mode evaluates and presents local businesses.</p>
@@ -589,7 +594,7 @@ export default function Page() {
           </p>
 
           <p>
-            For a deeper look at how this connects to your overall sales funnel, see our analysis of <Link href="/blog/how-ai-search-changes-sales-funnel">how AI search is reshaping the entire customer journey</Link>.
+            For a deeper look at how this connects to your overall sales funnel, see our analysis of <Link href="/blog/how-ai-search-changes-sales-funnel">how AI search is reshaping the entire customer journey</Link>. You can also learn more about <Link href="/blog/do-google-reviews-affect-ai-recommendations">how Google reviews specifically impact AI recommendations</Link> in our detailed breakdown.
           </p>
 
           {/* ── CTA 5 ── */}
@@ -609,6 +614,11 @@ export default function Page() {
           <p>
             The businesses gaining ground in AI Mode local discovery share a set of common characteristics. They have not necessarily outspent competitors on advertising. They have built what could be called an <strong>AI-readable authority profile</strong>: a consistent, specific, well-distributed body of evidence that tells any AI system reading about them exactly what they do, who they serve, what makes them different, and what their customers think.
           </p>
+
+          <div className="ae-callout ae-callout-info not-prose">
+            <div className="ae-callout-title">Pro Tip: Start Your AI Mode Readiness Audit Now</div>
+            <p>Before you optimize anything, audit how Google AI Mode currently evaluates your business. Many businesses discover they are being skipped entirely due to incomplete GBP data or outdated service descriptions—not missing content or reviews. Start by filling every field in your Google Business Profile and ensuring your website has dedicated service pages with schema markup.</p>
+          </div>
 
           <div className="ae-cheat-sheet not-prose">
             <div className="ae-cheat-sheet-title">AI Mode Readiness: Key Pillars</div>
@@ -657,7 +667,7 @@ export default function Page() {
           </p>
 
           <p>
-            You can see a related breakdown of how this plays out across different AI platforms in our guide to <Link href="/blog/zero-click-search-killing-website-traffic">zero-click search and what it means for your website traffic</Link>.
+            You can see a related breakdown of how this plays out across different AI platforms in our guide to <Link href="/blog/zero-click-search-killing-website-traffic">zero-click search and what it means for your website traffic</Link>. If you're getting skipped by AI despite strong visibility elsewhere, check out <Link href="/blog/how-to-fix-wrong-ai-answers-about-your-business">how to fix wrong AI answers about your business</Link> for recovery strategies.
           </p>
 
           <div className="ae-quote not-prose">
@@ -680,6 +690,15 @@ export default function Page() {
                 <a href="mailto:hello@theanswerengine.ai">hello@theanswerengine.ai</a>
               </div>
             </div>
+          </div>
+
+          {/* ── QUICK EVALUATION FORM ── */}
+          <div className="ae-form-inline not-prose">
+            <div className="ae-form-header">
+              <h3 className="font-plus-jakarta">Quick AI Readiness Check</h3>
+              <p>Enter your business details for a fast assessment of your AI Mode visibility gaps.</p>
+            </div>
+            <QuickAssessmentForm />
           </div>
 
           {/* ── 3-TIER CTA BLOCK ── */}
