@@ -45,6 +45,9 @@ export const metadata: Metadata = {
     title: 'Is Paying for SEO a Waste of Money Now?',
     description:
       'SEO ROI is declining as AI answers 60% of searches. Learn where SEO still works, where it fails, and how to reallocate your budget for AI visibility.',
+    images: [
+      'https://theanswerengine.ai/blog/is-paying-for-seo-a-waste-of-money-in-the-ai-era.webp',
+    ],
     site: '@theanswerengine',
   },
   alternates: {
@@ -57,6 +60,7 @@ const jsonLd = {
   '@graph': [
     {
       '@type': 'Article',
+      '@id': 'https://theanswerengine.ai/blog/is-paying-for-seo-a-waste-of-money-in-the-ai-era#article',
       headline: 'Is Paying for SEO a Waste of Money Now?',
       description:
         'SEO ROI is declining as AI answers 60% of searches. Learn where SEO still works, where it fails, and how to reallocate your budget for AI visibility.',
@@ -93,6 +97,7 @@ const jsonLd = {
     },
     {
       '@type': 'FAQPage',
+      '@id': 'https://theanswerengine.ai/blog/is-paying-for-seo-a-waste-of-money-in-the-ai-era#faq',
       mainEntity: [
         {
           '@type': 'Question',
@@ -154,6 +159,7 @@ const jsonLd = {
     },
     {
       '@type': 'BreadcrumbList',
+      '@id': 'https://theanswerengine.ai/blog/is-paying-for-seo-a-waste-of-money-in-the-ai-era#breadcrumb',
       itemListElement: [
         {
           '@type': 'ListItem',

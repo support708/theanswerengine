@@ -48,6 +48,11 @@ const INDUSTRY_SUBREDDITS: Record<string, string[]> = {
   'roofing': [
     'Roofing', 'HomeImprovement', 'homeowners',
   ],
+  'answer engine optimization': [
+    'SEO', 'digital_marketing', 'smallbusiness', 'marketing',
+    'entrepreneur', 'Entrepreneur', 'bigseo', 'ArtificialIntelligence',
+    'ChatGPT', 'LocalSEO',
+  ],
 };
 
 // ===== City -> Subreddits Map (single source of truth, also used by reddit-scorer.ts) =====

@@ -8,7 +8,7 @@ export const dynamicParams = true
 const title = 'Why AI Gives Outdated Info About My Business'
 const slug = 'why-ai-gives-outdated-information-about-my-business'
 const description = 'AI platforms are confidently sharing outdated information about your business. Learn why training data goes stale, how knowledge cutoffs work, and what you can do.'
-const url = `https://www.theanswerengine.ai/blog/${slug}`
+const url = `https://theanswerengine.ai/blog/${slug}`
 const image = `https://theanswerengine.ai/blog/${slug}.webp`
 
 export const metadata: Metadata = {
@@ -137,13 +137,13 @@ const jsonLd = {
           '@type': 'ListItem',
           position: 1,
           name: 'Home',
-          item: 'https://www.theanswerengine.ai',
+          item: 'https://theanswerengine.ai',
         },
         {
           '@type': 'ListItem',
           position: 2,
           name: 'Blog',
-          item: 'https://www.theanswerengine.ai/blog',
+          item: 'https://theanswerengine.ai/blog',
         },
         {
           '@type': 'ListItem',

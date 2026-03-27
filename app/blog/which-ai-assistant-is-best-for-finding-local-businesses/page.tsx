@@ -6,7 +6,7 @@ export const dynamic = 'force-static'
 export const dynamicParams = true
 
 export const metadata: Metadata = {
-  title: 'Which AI Assistant Finds Local Businesses Best? | The Answer Engine',
+  title: 'Best AI Assistant for Local Businesses | The Answer Engine',
   description:
     'Compare ChatGPT, Perplexity, Google AI, Siri, and Alexa for local business search. See which AI assistant sends the most customers your way.',
   keywords: [
@@ -23,28 +23,30 @@ export const metadata: Metadata = {
   ],
   authors: [{ name: 'The Answer Engine Team' }],
   openGraph: {
-    title: 'Which AI Assistant Finds Local Businesses Best?',
+    title: 'Best AI Assistant for Local Businesses | The Answer Engine',
     description:
       'Compare ChatGPT, Perplexity, Google AI, Siri, and Alexa for local business search. See which AI assistant sends the most customers your way.',
     url: 'https://theanswerengine.ai/blog/which-ai-assistant-is-best-for-finding-local-businesses',
     siteName: 'The Answer Engine',
     type: 'article',
     publishedTime: '2026-03-27T00:00:00Z',
-    authors: ['The Answer Engine Team'],
     images: [
       {
         url: 'https://theanswerengine.ai/blog/which-ai-assistant-is-best-for-finding-local-businesses.webp',
         width: 1200,
         height: 630,
-        alt: 'Which AI Assistant Finds Local Businesses Best comparison chart',
+        alt: 'Best AI Assistant for Local Businesses comparison chart',
       },
     ],
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Which AI Assistant Finds Local Businesses Best?',
+    title: 'Best AI Assistant for Local Businesses | The Answer Engine',
     description:
       'Compare ChatGPT, Perplexity, Google AI, Siri, and Alexa for local business search. See which AI assistant sends the most customers your way.',
+    images: [
+      'https://theanswerengine.ai/blog/which-ai-assistant-is-best-for-finding-local-businesses.webp',
+    ],
     site: '@theanswerengine',
   },
   alternates: {
@@ -57,6 +59,7 @@ const jsonLd = {
   '@graph': [
     {
       '@type': 'Article',
+      '@id': 'https://theanswerengine.ai/blog/which-ai-assistant-is-best-for-finding-local-businesses#article',
       headline: 'Which AI Assistant Finds Local Businesses Best?',
       description:
         'Compare ChatGPT, Perplexity, Google AI, Siri, and Alexa for local business search. See which AI assistant sends the most customers your way.',
@@ -79,6 +82,7 @@ const jsonLd = {
     },
     {
       '@type': 'FAQPage',
+      '@id': 'https://theanswerengine.ai/blog/which-ai-assistant-is-best-for-finding-local-businesses#faq',
       mainEntity: [
         {
           '@type': 'Question',
@@ -140,6 +144,7 @@ const jsonLd = {
     },
     {
       '@type': 'BreadcrumbList',
+      '@id': 'https://theanswerengine.ai/blog/which-ai-assistant-is-best-for-finding-local-businesses#breadcrumb',
       itemListElement: [
         {
           '@type': 'ListItem',
@@ -190,13 +195,13 @@ function Breadcrumb() {
 
 export default function WhichAIAssistantFindsLocalBusinessesBest() {
   return (
-    <div style={{ backgroundColor: '#0F1117', minHeight: '100vh' }}>
+    <>
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
       />
 
-      <main className="max-w-4xl mx-auto px-6 py-20">
+      <main className="max-w-4xl mx-auto px-6 py-20" style={{ backgroundColor: '#0F1117', minHeight: '100vh' }}>
         <Breadcrumb />
 
         {/* Hero Section */}
@@ -1042,6 +1047,6 @@ export default function WhichAIAssistantFindsLocalBusinessesBest() {
 
         </article>
       </main>
-    </div>
+    </>
   )
 }

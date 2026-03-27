@@ -351,6 +351,8 @@ export default function Page() {
 
             <p>For a deeper look at how these signals interact, see our piece on <Link href="/blog/why-ai-says-wrong-things-about-business">why AI says wrong things about your business</Link> and how those errors compound over time.</p>
 
+            <p>The key insight is understanding how Google AI Mode intersects with these visibility triggers. Learn more in <Link href="/blog/how-google-ai-mode-changes-local-business-discovery">how Google AI Mode changes local business discovery</Link> and why your traditional competitive advantages may no longer apply.</p>
+
             {/* CTA 2 */}
             <div className="ae-cta-inline not-prose">
               <p>We audit all six trigger categories for your business. Know exactly what broke before you try to fix it.</p>
@@ -403,7 +405,7 @@ export default function Page() {
 
             <div className="ae-takeaway not-prose">
               <div className="ae-takeaway-title">Key Takeaway</div>
-              <p>The businesses that recover fastest are the ones that act within the first 30 days of discovering the problem. Businesses that wait three to six months to respond typically find themselves facing a much deeper competitive gap, not just a visibility problem.</p>
+              <p>The businesses that recover fastest are the ones that act within the first 30 days of discovering the problem. Businesses that wait three to six months to respond typically find themselves facing a much deeper competitive gap, not just a visibility problem. <Link href="/blindspot">Get your blind spot audit started today</Link> to identify where you stand in AI search right now.</p>
             </div>
 
             {/* Section 5: Stakes */}
@@ -515,9 +517,14 @@ export default function Page() {
 
             <p>The recovery process follows a specific sequence: audit, repair, rebuild, monitor. The audit phase is the most critical because it identifies which of the six trigger categories caused your disappearance. Every trigger has a different fix. Treating a structured data problem with a content strategy does not work. Treating a competitor authority gap with directory cleanup does not work either.</p>
 
+            <div className="ae-callout ae-callout-info not-prose">
+              <div className="ae-callout-title">Recovery Begins with Clarity</div>
+              <p>The fastest path to AI visibility recovery is understanding exactly which signals are broken. Businesses with a clear diagnosis cut recovery time in half compared to those that guess. A proper audit identifies not just what is wrong, but which fixes will have the highest impact on your specific situation.</p>
+            </div>
+
             <div className="ae-callout ae-callout-warning not-prose">
               <div className="ae-callout-title">Do Not Skip the Diagnosis</div>
-              <p>The most expensive mistake businesses make is acting before they understand the root cause. Six weeks of content creation will not recover visibility caused by broken schema. Fixing directories will not recover visibility lost because a competitor outbuilt your authority content. Diagnose first.</p>
+              <p>The most expensive mistake businesses make is acting before they understand the root cause. Six weeks of content creation will not recover visibility caused by broken schema. Fixing directories will not recover visibility lost because a competitor outbuilt your authority content. Diagnose first. Call <a href="tel:+18004470003">1-800-447-0003</a> to start your diagnosis today.</p>
             </div>
 
             <p>What the recovery process involves at a high level:</p>
@@ -573,6 +580,12 @@ export default function Page() {
             <div className="ae-cta-inline not-prose">
               <p>Ready to stop guessing and get a real diagnosis of why AI stopped recommending you?</p>
               <a href="sms:+12134442229">Text (213) 444-2229 to Start Your Recovery Audit &rarr;</a>
+            </div>
+
+            {/* CTA 5 - SMS Link */}
+            <div className="ae-cta-inline not-prose mt-8">
+              <p>Ready to understand your recovery roadmap? We can assess your situation and outline the exact steps needed in under 30 minutes.</p>
+              <a href="sms:+18004470003">Text us to schedule your free assessment &rarr;</a>
             </div>
 
           </article>
@@ -656,6 +669,7 @@ export default function Page() {
             >
               Frequently Asked Questions
             </h2>
+            <p className="text-gray-300 mb-8 text-sm">Still have questions about your AI visibility? <a href="sms:+18004470003" className="text-orange-400 font-medium hover:underline">Text us</a> and we will answer them directly.</p>
             <div className="space-y-6">
 
               <div

@@ -781,7 +781,7 @@ export default function Page() {
             </p>
             <div className="flex flex-wrap gap-3">
               <Link
-                href="/get-started"
+                href="/blindspot"
                 className="inline-block font-bold text-sm px-5 py-2.5 rounded-lg"
                 style={{ background: '#FF6A00', color: '#fff' }}
               >

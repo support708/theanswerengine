@@ -6,7 +6,7 @@ export const dynamic = 'force-static'
 export const dynamicParams = true
 
 export const metadata: Metadata = {
-  title: 'How Apple Intelligence Recommends Local Businesses | The Answer Engine',
+  title: 'Apple Intelligence Local Business Guide | The Answer Engine',
   description:
     'Learn how Apple Intelligence, Siri, and Apple Maps decide which local businesses to recommend. Covers data sources, ranking signals, and optimization.',
   keywords: [
@@ -23,34 +23,25 @@ export const metadata: Metadata = {
   ],
   authors: [{ name: 'The Answer Engine Team' }],
   openGraph: {
-    title: 'How Apple Intelligence Recommends Local Businesses',
+    title: 'Apple Intelligence Local Business Guide | The Answer Engine',
     description:
       'Learn how Apple Intelligence, Siri, and Apple Maps decide which local businesses to recommend. Covers data sources, ranking signals, and optimization.',
     url: 'https://theanswerengine.ai/blog/how-apple-intelligence-finds-and-recommends-local-businesses',
     siteName: 'The Answer Engine',
     type: 'article',
     publishedTime: '2026-03-27T00:00:00Z',
-    authors: ['The Answer Engine Team'],
     images: [
       {
         url: 'https://theanswerengine.ai/blog/how-apple-intelligence-finds-and-recommends-local-businesses.webp',
         width: 1200,
         height: 630,
-        alt: 'How Apple Intelligence Finds and Recommends Local Businesses',
+        alt: 'Apple Intelligence Local Business Guide',
       },
-    ],
-    tags: [
-      'Apple Intelligence',
-      'Siri',
-      'Apple Maps',
-      'Local Business',
-      'AEO',
-      'AI Search',
     ],
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'How Apple Intelligence Recommends Local Businesses',
+    title: 'Apple Intelligence Local Business Guide | The Answer Engine',
     description:
       'Learn how Apple Intelligence, Siri, and Apple Maps decide which local businesses to recommend. Covers data sources, ranking signals, and optimization.',
     images: [
@@ -185,7 +176,7 @@ const jsonLd = {
 
 export default function Page() {
   return (
-    <>
+    <main>
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
@@ -1003,6 +994,6 @@ export default function Page() {
           </div>
         </section>
       </article>
-    </>
+    </main>
   )
 }

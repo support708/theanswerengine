@@ -508,7 +508,7 @@ export default function HowToFixWrongAIAnswersPage() {
             </div>
 
             <p>
-              The correction framework works in layers, each one building on the previous. Most businesses that attempt this on their own stall at layer two because the directory correction process is manual and time-consuming. The ones who see results are the ones who systematically work through all four layers.
+              The correction framework works in layers, each one building on the previous. Most businesses that attempt this on their own stall at layer two because the directory correction process is manual and time-consuming. The ones who see results are the ones who systematically work through all four layers. Need help? Get a <Link href="/blindspot" className="text-orange-500 hover:underline">blind spot audit</Link> to understand where you stand.
             </p>
 
             <p>
@@ -598,7 +598,7 @@ export default function HowToFixWrongAIAnswersPage() {
             </p>
 
             <p>
-              What you can control is the quality, consistency, and authority of every signal in your correction ecosystem. The goal is to make the correct information so dominant, so consistent, and so well-structured that AI systems have no credible alternative when generating answers about your business. You are not directly editing the AI. You are engineering the environment the AI learns from.
+              What you can control is the quality, consistency, and authority of every signal in your correction ecosystem. The goal is to make the correct information so dominant, so consistent, and so well-structured that AI systems have no credible alternative when generating answers about your business. You are not directly editing the AI. You are engineering the environment the AI learns from. Get a <Link href="/blindspot" className="text-orange-500 hover:underline">blind spot audit</Link> to see exactly what needs fixing in your correction ecosystem.
             </p>
 
             {/* Takeaway */}
@@ -612,6 +612,7 @@ export default function HowToFixWrongAIAnswersPage() {
             {/* Cheat Sheet */}
             <div className="ae-cheat-sheet not-prose my-12 p-6 rounded-xl border border-gray-700 bg-gray-900/80">
               <h3 className="font-plus-jakarta text-xl font-bold text-[#FF6A00] mb-5">Quick Reference: AI Error Fix Checklist</h3>
+              <p className="text-gray-400 text-sm mb-4">Going through all 12 steps yourself? <a href="sms:+18004470003" className="text-orange-500 hover:underline">Text us</a> if you get stuck. We help businesses complete this audit all the time.</p>
               <div className="grid md:grid-cols-2 gap-x-8 gap-y-2">
                 {[
                   'Query ChatGPT, Perplexity, Google AI Overviews, Claude, and Bing Copilot',
@@ -657,12 +658,17 @@ export default function HowToFixWrongAIAnswersPage() {
             <div className="w-14 h-14 rounded-full bg-[#FF6A00]/20 border border-[#FF6A00]/40 flex items-center justify-center text-2xl shrink-0">
               &#128204;
             </div>
-            <div>
+            <div className="flex-1">
               <p className="font-plus-jakarta font-bold text-white">The Answer Engine Team</p>
               <p className="text-[#FF6A00] text-sm mb-2">AI Visibility Specialists</p>
-              <p className="text-gray-400 text-sm leading-relaxed">
+              <p className="text-gray-400 text-sm leading-relaxed mb-3">
                 We specialize in diagnosing and correcting how AI platforms represent local and regional businesses. Our Blind Spot Reports have uncovered AI errors for businesses in over 40 industries across the US.
               </p>
+              <div className="flex flex-wrap gap-3 text-sm">
+                <a href="tel:+18004470003" className="text-orange-500 hover:underline">Call 1-800-447-0003</a>
+                <span className="text-gray-700">•</span>
+                <a href="sms:+18004470003" className="text-orange-500 hover:underline">Text us</a>
+              </div>
             </div>
           </div>
 
@@ -690,6 +696,7 @@ export default function HowToFixWrongAIAnswersPage() {
           <section id="faq" className="my-16">
             <div className="ae-section-label text-xs font-bold uppercase tracking-widest text-[#FF6A00] mb-2">Common Questions</div>
             <h2 className="font-plus-jakarta text-3xl font-bold text-white mb-8">Frequently Asked Questions</h2>
+            <p className="text-gray-400 mb-8">Have questions about fixing your AI footprint? We have answers. Or <a href="tel:+18004470003" className="text-orange-500 hover:underline">call us at 1-800-447-0003</a> to discuss your specific situation.</p>
             <div className="space-y-6">
               {[
                 {

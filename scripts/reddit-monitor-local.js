@@ -65,13 +65,14 @@ const INDUSTRY_SUBS = {
   'real estate': ['realestate', 'RealEstate', 'FirstTimeHomeBuyer', 'realestateinvesting', 'homebuyers', 'RealEstateAdvice'],
   'property management': ['propertymanagement', 'landlords', 'Landlord', 'realestateinvesting', 'RealEstate', 'renters'],
   'luxury real estate': ['realestate', 'RealEstate', 'realestateinvesting', 'homebuyers', 'RealEstateAdvice'],
+  'answer engine optimization': ['SEO', 'digital_marketing', 'smallbusiness', 'marketing', 'entrepreneur', 'Entrepreneur', 'bigseo', 'ArtificialIntelligence', 'ChatGPT', 'LocalSEO'],
 };
 
 const CITY_SUBS = {
-  'pasadena': ['pasadena', 'LosAngeles', 'SanGabrielValley'],
+  'pasadena': ['pasadena', 'LosAngeles', 'SanGabrielValley', 'AskLosAngeles'],
   'long beach': ['longbeach', 'LosAngeles'],
   'austin': ['Austin'],
-  'los angeles': ['LosAngeles', 'AskLosAngeles'],
+  'los angeles': ['LosAngeles', 'AskLosAngeles', 'SanGabrielValley', 'SouthBayLA', 'InlandEmpire'],
   'san diego': ['sandiego', 'SanDiegan'],
   'chula vista': ['sandiego', 'chulavista'],
 };

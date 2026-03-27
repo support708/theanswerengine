@@ -3,7 +3,6 @@ import Link from 'next/link'
 
 export const revalidate = 86400
 export const dynamic = 'force-static'
-export const dynamicParams = true
 
 const title = 'Does Having a Blog Actually Help AI Recommend Your Business?'
 const description = 'Blogging alone does not get you cited by ChatGPT. The myth-busting truth: what type of blog content AI reads, what it ignores, and why most business blogs are invisible to AI despite being perfectly readable by humans.'
@@ -367,10 +366,15 @@ export default function BlogPost() {
             The blogs that get cited consistently are built around a premise: <strong>every post should answer a specific question better than any other source on the internet.</strong> That sounds ambitious. It is. But that is the standard AI citation systems are effectively applying when they choose which sources to reference.
           </p>
 
+          <div className="ae-callout ae-callout-success not-prose">
+            <div className="ae-callout-title">Blog as Authority Signal</div>
+            <p>A consistently updated blog with high-quality, authoritative answers builds trust with AI platforms over time. Each well-structured post signals expertise, domain authority, and commitment to answering customer questions. AI systems recognize this pattern and reward it with higher citation rates. This is why the most cited businesses in AI search results almost always have active blogs—not because blogging is magic, but because blogs are a visible, structural proof of authority that AI systems evaluate and trust.</p>
+          </div>
+
           {/* CTA 4 */}
           <div className="ae-cta-inline not-prose">
             <p>Is your blog in column one or column two? One call identifies which, and what to do about it.</p>
-            <Link href="tel:+18005551234">Call Us for a Blog Audit &rarr;</Link>
+            <Link href="tel:+18004470003">Call Us for a Blog Audit &rarr;</Link>
           </div>
 
           {/* SECTION: CONTENT TYPES */}
@@ -646,12 +650,12 @@ export default function BlogPost() {
               <div className="ae-cta-tier">
                 <div className="ae-cta-tier-title">Full AEO Program</div>
                 <div className="ae-cta-tier-desc">We rebuild your content strategy from the ground up for maximum AI citation performance.</div>
-                <Link href="tel:+18005551234" className="ae-cta-tier-btn ae-cta-tier-btn-secondary">Call to Discuss &rarr;</Link>
+                <Link href="tel:+18004470003" className="ae-cta-tier-btn ae-cta-tier-btn-secondary">Call to Discuss &rarr;</Link>
               </div>
             </div>
             <div className="ae-cta-contact-row">
-              <a href="tel:+18005551234" className="ae-cta-contact-item">Call: (800) 555-1234</a>
-              <a href="sms:+18005551234" className="ae-cta-contact-item">Text Us</a>
+              <a href="tel:+18004470003" className="ae-cta-contact-item">Call: +1 (800) 447-0003</a>
+              <a href="sms:+18004470003" className="ae-cta-contact-item">Text Us</a>
               <a href="mailto:hello@theanswerengine.ai" className="ae-cta-contact-item">hello@theanswerengine.ai</a>
             </div>
           </div>
@@ -706,8 +710,8 @@ export default function BlogPost() {
               <Link href="/contact" className="ae-btn-secondary">Talk to an AEO Specialist</Link>
             </div>
             <div className="ae-final-cta-contact">
-              <span>Call: <a href="tel:+18005551234">(800) 555-1234</a></span>
-              <span>Text: <a href="sms:+18005551234">(800) 555-1234</a></span>
+              <span>Call: <a href="tel:+18004470003">+1 (800) 447-0003</a></span>
+              <span>Text: <a href="sms:+18004470003">+1 (800) 447-0003</a></span>
               <span>Email: <a href="mailto:hello@theanswerengine.ai">hello@theanswerengine.ai</a></span>
             </div>
           </div>

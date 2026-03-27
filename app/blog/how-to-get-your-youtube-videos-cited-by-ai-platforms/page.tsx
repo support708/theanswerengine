@@ -1,5 +1,6 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
+import Image from 'next/image'
 
 export const revalidate = 86400
 export const dynamic = 'force-static'
@@ -28,7 +29,7 @@ export const metadata: Metadata = {
     'YouTube transcript AI',
   ],
   openGraph: {
-    title,
+    title: titleWithSuffix,
     description,
     type: 'article',
     publishedTime: publishDate,
@@ -45,9 +46,10 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title,
+    title: titleWithSuffix,
     description,
     images: [`https://theanswerengine.ai/blog/${slug}.webp`],
+    site: '@theanswerengine',
   },
   alternates: {
     canonical: `https://theanswerengine.ai/blog/${slug}`,
@@ -174,6 +176,7 @@ const jsonLd = {
           '@type': 'ListItem',
           position: 3,
           name: title,
+          item: `https://theanswerengine.ai/blog/${slug}`,
         },
       ],
     },
@@ -182,7 +185,7 @@ const jsonLd = {
 
 export default function Page() {
   return (
-    <>
+    <main>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
 
       {/* Breadcrumb */}
@@ -222,9 +225,12 @@ export default function Page() {
 
           {/* Featured Image */}
           <div className="mt-8 rounded-xl overflow-hidden border border-white/[0.05]">
-            <img
+            <Image
               src={`/blog/${slug}.webp`}
               alt="Dashboard visualization showing YouTube video citation rates across AI search platforms"
+              width={1200}
+              height={630}
+              priority
               className="w-full"
             />
           </div>
@@ -745,6 +751,6 @@ export default function Page() {
         </div>
 
       </article>
-    </>
+    </main>
   )
 }
