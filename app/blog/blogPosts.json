@@ -1614,5 +1614,110 @@
       "Local Business",
       "Competitive Analysis"
     ]
+  },
+  {
+    "id": 78,
+    "title": "Why AI Gives Outdated Information About My Business",
+    "slug": "why-ai-gives-outdated-information-about-my-business",
+    "excerpt": "35% of AI responses contain stale data. Learn why AI systems lag behind current information, how recency affects recommendations, and strategies to keep your business current.",
+    "category": "Business Pain Points",
+    "author": "The Answer Engine Team",
+    "readTime": "13 min",
+    "image": "/blog/why-ai-gives-outdated-information-about-my-business.webp",
+    "publishDate": "2026-03-27",
+    "lastModified": "2026-03-27",
+    "featured": true,
+    "tags": [
+      "Data Freshness",
+      "AI Accuracy",
+      "Business Information",
+      "Citation Quality",
+      "Content Updates",
+      "AEO"
+    ]
+  },
+  {
+    "id": 79,
+    "title": "How Apple Intelligence Finds and Recommends Local Businesses",
+    "slug": "how-apple-intelligence-finds-and-recommends-local-businesses",
+    "excerpt": "Apple Intelligence powers Siri and Maps with 2.2B devices. Discover how the ecosystem finds local businesses, the hidden ranking signals, and why 31% of recommendations favor nearby Apple users.",
+    "category": "Platform Deep Dives",
+    "author": "The Answer Engine Team",
+    "readTime": "13 min",
+    "image": "/blog/how-apple-intelligence-finds-and-recommends-local-businesses.webp",
+    "publishDate": "2026-03-27",
+    "lastModified": "2026-03-27",
+    "featured": true,
+    "tags": [
+      "Apple Intelligence",
+      "Siri",
+      "Maps",
+      "Ecosystem Strategy",
+      "Local Search",
+      "Device Bias"
+    ]
+  },
+  {
+    "id": 80,
+    "title": "Is Paying for SEO a Waste of Money in the AI Era",
+    "slug": "is-paying-for-seo-a-waste-of-money-in-the-ai-era",
+    "excerpt": "83% of AI Overviews now trigger zero-click searches. But SEO ROI has not vanished, it has transformed. Learn when SEO spend still drives 23x conversion upside and when it is a budget leak.",
+    "category": "Myth Busters",
+    "author": "The Answer Engine Team",
+    "readTime": "14 min",
+    "image": "/blog/is-paying-for-seo-a-waste-of-money-in-the-ai-era.webp",
+    "publishDate": "2026-03-27",
+    "lastModified": "2026-03-27",
+    "featured": true,
+    "tags": [
+      "SEO",
+      "AI Search",
+      "Budget Allocation",
+      "ROI Analysis",
+      "Zero-Click",
+      "Cost Effectiveness"
+    ]
+  },
+  {
+    "id": 81,
+    "title": "Which AI Assistant Is Best for Finding Local Businesses",
+    "slug": "which-ai-assistant-is-best-for-finding-local-businesses",
+    "excerpt": "ChatGPT leads with 900M users and 15.9% conversion rate. But Siri, Alexa, and Claude each dominate different search contexts. Find out which assistant drives customers to your business.",
+    "category": "Competitive Intelligence",
+    "author": "The Answer Engine Team",
+    "readTime": "13 min",
+    "image": "/blog/which-ai-assistant-is-best-for-finding-local-businesses.webp",
+    "publishDate": "2026-03-27",
+    "lastModified": "2026-03-27",
+    "featured": true,
+    "tags": [
+      "AI Assistants",
+      "ChatGPT",
+      "Local Search",
+      "Market Share",
+      "Conversion Rates",
+      "Multi-Platform Strategy"
+    ]
+  },
+  {
+    "id": 82,
+    "title": "How to Get Your YouTube Videos Cited by AI Platforms",
+    "slug": "how-to-get-your-youtube-videos-cited-by-ai-platforms",
+    "excerpt": "YouTube citations grew 200x in 2025. Learn the 6 structural elements AI looks for, why transcripts matter more than titles, and how to optimize video content for AI citations.",
+    "category": "How-To Guides",
+    "author": "The Answer Engine Team",
+    "readTime": "13 min",
+    "image": "/blog/how-to-get-your-youtube-videos-cited-by-ai-platforms.webp",
+    "publishDate": "2026-03-27",
+    "lastModified": "2026-03-27",
+    "featured": true,
+    "tags": [
+      "YouTube",
+      "Video Content",
+      "AI Citations",
+      "Transcripts",
+      "Video SEO",
+      "Content Optimization"
+    ]
   }
 ]
