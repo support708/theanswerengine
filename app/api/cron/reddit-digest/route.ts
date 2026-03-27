@@ -6,7 +6,7 @@
  * when triggered (3+ unsent opportunities OR 7+ days since last digest).
  *
  * Schedule: hourly at :07 (configured in vercel.json)
- * Kill switch: REDDIT_ENABLED env var
+ * Safety gate: Gmail API credentials (returns null gracefully if not configured)
  */
 
 import { NextRequest, NextResponse } from 'next/server';
@@ -29,11 +29,7 @@ export async function GET(request: NextRequest) {
     return NextResponse.json({ error: 'Unauthorized' }, { status: 401 });
   }
 
-  // Kill switch — digest sending disabled until explicitly enabled
-  if (process.env.REDDIT_DIGEST_ENABLED !== 'true') {
-    return NextResponse.json({ status: 'disabled', hint: 'Set REDDIT_DIGEST_ENABLED=true to send client email digests' });
-  }
-
+  // Gmail API is the real gate — if creds aren't configured, sends return null gracefully
   try {
     const result: DigestCronResult = await checkAndSendDigests();
 

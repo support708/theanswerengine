@@ -190,7 +190,7 @@ export async function GET(request: NextRequest) {
           }
 
           // High impact (score >= 7): send instant email to client
-          if (score.composite >= 7 && process.env.REDDIT_DIGEST_ENABLED === 'true') {
+          if (score.composite >= 7) {
             try {
               const clientProfile = await loadClientProfile(config.clientSlug);
               if (clientProfile) {
