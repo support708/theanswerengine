@@ -1719,5 +1719,26 @@
       "Video SEO",
       "Content Optimization"
     ]
+  },
+  {
+    "id": 83,
+    "title": "Does Your Business Need a Website for AI Search in 2026?",
+    "slug": "does-your-business-need-a-website-for-ai-search",
+    "excerpt": "27% of small businesses have no website. With 45% of consumers using AI to find local services, here is what AI search actually requires to recommend you.",
+    "category": "AI Search Strategy",
+    "author": "The Answer Engine Team",
+    "readTime": "9 min",
+    "image": "/blog/does-your-business-need-a-website-for-ai-search.svg",
+    "publishDate": "2026-03-28",
+    "lastModified": "2026-03-28",
+    "featured": true,
+    "tags": [
+      "AI Search",
+      "Website Requirements",
+      "Structured Data",
+      "Schema Markup",
+      "Local Business",
+      "Small Business"
+    ]
   }
 ]
