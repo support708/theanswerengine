@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#101825"/>
+      <stop offset="50%" style="stop-color:#1b2942"/>
+      <stop offset="100%" style="stop-color:#0d1c33"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+
+  <!-- Funnel visualization -->
+  <polygon points="100,70 300,70 250,170 150,170" stroke="#FF6A00" stroke-width="1" fill="none" opacity="0.12"/>
+  <polygon points="150,175 250,175 230,240 170,240" stroke="#FF6A00" stroke-width="1.2" fill="none" opacity="0.15"/>
+  <polygon points="170,245 230,245 220,290 180,290" stroke="#FF6A00" stroke-width="1.5" fill="#FF6A00" opacity="0.06"/>
+
+  <!-- Quality indicator dots -->
+  <circle cx="200" cy="100" r="3" fill="#FF6A00" opacity="0.08"/>
+  <circle cx="220" cy="110" r="3" fill="#FF6A00" opacity="0.08"/>
+  <circle cx="180" cy="120" r="3" fill="#FF6A00" opacity="0.08"/>
+  <circle cx="240" cy="95" r="3" fill="#FF6A00" opacity="0.08"/>
+  <circle cx="160" cy="105" r="3" fill="#FF6A00" opacity="0.08"/>
+  <!-- High quality leads at bottom -->
+  <circle cx="195" cy="260" r="4" fill="#FF6A00" opacity="0.2"/>
+  <circle cx="210" cy="270" r="4" fill="#FF6A00" opacity="0.2"/>
+
+  <!-- Conversion arrow -->
+  <path d="M200 300 L200 330" stroke="#FF6A00" stroke-width="1.5" opacity="0.15"/>
+  <polygon points="193,330 200,345 207,330" fill="#FF6A00" opacity="0.15"/>
+
+  <!-- Dollar/value indicator -->
+  <circle cx="200" cy="370" r="18" stroke="#FF6A00" stroke-width="1.2" fill="none" opacity="0.12"/>
+  <text x="200" y="377" text-anchor="middle" font-family="system-ui, sans-serif" font-size="18" fill="#FF6A00" opacity="0.12" font-weight="bold">$</text>
+
+  <!-- Bar chart comparison (right side) -->
+  <text x="920" y="85" font-family="system-ui, sans-serif" font-size="10" fill="#FF6A00" opacity="0.1">Volume</text>
+  <rect x="900" y="90" width="80" height="120" rx="4" fill="#FF6A00" opacity="0.05"/>
+  <text x="940" y="220" text-anchor="middle" font-family="system-ui, sans-serif" font-size="9" fill="#FF6A00" opacity="0.08">SEO</text>
+
+  <text x="1040" y="135" font-family="system-ui, sans-serif" font-size="10" fill="#FF6A00" opacity="0.1">Quality</text>
+  <rect x="1020" y="140" width="80" height="70" rx="4" fill="#FF6A00" opacity="0.1"/>
+  <text x="1060" y="220" text-anchor="middle" font-family="system-ui, sans-serif" font-size="9" fill="#FF6A00" opacity="0.08">AI</text>
+
+  <!-- Sparkle/star indicators -->
+  <polygon points="800,500 803,510 813,510 805,516 808,526 800,520 792,526 795,516 787,510 797,510" fill="#FF6A00" opacity="0.06"/>
+  <polygon points="860,480 862,487 869,487 863,491 866,498 860,494 854,498 857,491 851,487 858,487" fill="#FF6A00" opacity="0.05"/>
+
+  <!-- Category pill -->
+  <rect x="80" y="320" width="170" height="32" rx="16" fill="#FF6A00" opacity="0.15"/>
+  <text x="165" y="342" text-anchor="middle" font-family="system-ui, sans-serif" font-size="14" fill="#FF6A00" font-weight="600">Business Growth</text>
+
+  <!-- Title -->
+  <text x="80" y="400" font-family="system-ui, sans-serif" font-size="40" fill="white" font-weight="bold">How AI Search Is Changing</text>
+  <text x="80" y="450" font-family="system-ui, sans-serif" font-size="40" fill="white" font-weight="bold">Lead Quality for</text>
+  <text x="80" y="500" font-family="system-ui, sans-serif" font-size="40" fill="#FF6A00" font-weight="bold">Local Businesses</text>
+
+  <!-- Watermark -->
+  <text x="600" y="600" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13" fill="white" opacity="0.3" letter-spacing="4">THE ANSWER ENGINE</text>
+
+  <!-- AE circle -->
+  <circle cx="1130" cy="560" r="30" fill="none" stroke="#FF6A00" stroke-width="1.5" opacity="0.3"/>
+  <text x="1130" y="568" text-anchor="middle" font-family="system-ui, sans-serif" font-size="20" fill="#FF6A00" opacity="0.4" font-weight="bold">AE</text>
+</svg>

@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0f1520"/>
+      <stop offset="50%" style="stop-color:#192440"/>
+      <stop offset="100%" style="stop-color:#0d1e35"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+
+  <!-- Location pin transforming -->
+  <path d="M150 80 C150 50 190 50 190 80 C190 120 170 150 170 150 C170 150 150 120 150 80" stroke="#FF6A00" stroke-width="1.5" fill="none" opacity="0.2"/>
+  <circle cx="170" cy="85" r="10" stroke="#FF6A00" stroke-width="1" fill="none" opacity="0.15"/>
+
+  <!-- Arrow showing change -->
+  <path d="M210 100 L260 100" stroke="#FF6A00" stroke-width="1.2" opacity="0.15" marker-end="url(#arrowhead)"/>
+  <defs>
+    <marker id="arrowhead" markerWidth="8" markerHeight="6" refX="8" refY="3" orient="auto">
+      <polygon points="0 0, 8 3, 0 6" fill="#FF6A00" opacity="0.15"/>
+    </marker>
+  </defs>
+
+  <!-- New location pin (shifted) -->
+  <path d="M280 70 C280 40 320 40 320 70 C320 110 300 140 300 140 C300 140 280 110 280 70" stroke="#FF6A00" stroke-width="1.5" fill="none" opacity="0.2" stroke-dasharray="4 3"/>
+  <circle cx="300" cy="75" r="10" stroke="#FF6A00" stroke-width="1" fill="none" opacity="0.12" stroke-dasharray="3 2"/>
+
+  <!-- Broken connection lines -->
+  <line x1="900" y1="100" x2="980" y2="100" stroke="#FF6A00" stroke-width="1" opacity="0.1"/>
+  <line x1="1000" y1="100" x2="1080" y2="100" stroke="#FF6A00" stroke-width="1" opacity="0.1"/>
+  <text x="990" y="105" font-family="system-ui, sans-serif" font-size="16" fill="#FF6A00" opacity="0.12">?</text>
+
+  <!-- Data consistency blocks -->
+  <rect x="880" y="140" width="80" height="50" rx="4" stroke="#FF6A00" stroke-width="0.8" fill="none" opacity="0.1"/>
+  <rect x="980" y="140" width="80" height="50" rx="4" stroke="#FF6A00" stroke-width="0.8" fill="none" opacity="0.1"/>
+  <rect x="1080" y="140" width="80" height="50" rx="4" stroke="#FF6A00" stroke-width="0.8" fill="none" opacity="0.1"/>
+  <line x1="920" y1="155" x2="940" y2="155" stroke="#FF6A00" stroke-width="0.5" opacity="0.08"/>
+  <line x1="920" y1="165" x2="950" y2="165" stroke="#FF6A00" stroke-width="0.5" opacity="0.08"/>
+  <line x1="920" y1="175" x2="935" y2="175" stroke="#FF6A00" stroke-width="0.5" opacity="0.08"/>
+
+  <!-- Warning triangle -->
+  <polygon points="550,60 570,95 530,95" stroke="#FF6A00" stroke-width="1" fill="none" opacity="0.08"/>
+  <text x="550" y="88" text-anchor="middle" font-family="system-ui, sans-serif" font-size="14" fill="#FF6A00" opacity="0.08">!</text>
+
+  <!-- Category pill -->
+  <rect x="80" y="320" width="170" height="32" rx="16" fill="#FF6A00" opacity="0.15"/>
+  <text x="165" y="342" text-anchor="middle" font-family="system-ui, sans-serif" font-size="14" fill="#FF6A00" font-weight="600">AI Search Strategy</text>
+
+  <!-- Title -->
+  <text x="80" y="400" font-family="system-ui, sans-serif" font-size="36" fill="white" font-weight="bold">What Happens to Your AI Visibility</text>
+  <text x="80" y="450" font-family="system-ui, sans-serif" font-size="36" fill="white" font-weight="bold">When You Change Your Business</text>
+  <text x="80" y="500" font-family="system-ui, sans-serif" font-size="36" fill="#FF6A00" font-weight="bold">Name or Address</text>
+
+  <!-- Watermark -->
+  <text x="600" y="600" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13" fill="white" opacity="0.3" letter-spacing="4">THE ANSWER ENGINE</text>
+
+  <!-- AE circle -->
+  <circle cx="1130" cy="560" r="30" fill="none" stroke="#FF6A00" stroke-width="1.5" opacity="0.3"/>
+  <text x="1130" y="568" text-anchor="middle" font-family="system-ui, sans-serif" font-size="20" fill="#FF6A00" opacity="0.4" font-weight="bold">AE</text>
+</svg>

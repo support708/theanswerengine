@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#111827"/>
+      <stop offset="50%" style="stop-color:#1e2a4a"/>
+      <stop offset="100%" style="stop-color:#0c1a30"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+
+  <!-- Franchise grid pattern (left) -->
+  <rect x="60" y="80" width="90" height="70" rx="6" stroke="#FF6A00" stroke-width="1.2" fill="none" opacity="0.15"/>
+  <rect x="170" y="80" width="90" height="70" rx="6" stroke="#FF6A00" stroke-width="1.2" fill="none" opacity="0.15"/>
+  <rect x="60" y="170" width="90" height="70" rx="6" stroke="#FF6A00" stroke-width="1.2" fill="none" opacity="0.15"/>
+  <rect x="170" y="170" width="90" height="70" rx="6" stroke="#FF6A00" stroke-width="1.2" fill="none" opacity="0.15"/>
+  <!-- Connecting lines between franchise boxes -->
+  <line x1="150" y1="115" x2="170" y2="115" stroke="#FF6A00" stroke-width="0.8" opacity="0.1"/>
+  <line x1="105" y1="150" x2="105" y2="170" stroke="#FF6A00" stroke-width="0.8" opacity="0.1"/>
+  <line x1="215" y1="150" x2="215" y2="170" stroke="#FF6A00" stroke-width="0.8" opacity="0.1"/>
+
+  <!-- Independent business (right) - single unique shape -->
+  <path d="M950 100 L1000 70 L1050 100 L1050 180 L950 180 Z" stroke="#FF6A00" stroke-width="1.5" fill="none" opacity="0.2"/>
+  <circle cx="1000" cy="140" r="20" stroke="#FF6A00" stroke-width="1" fill="none" opacity="0.12"/>
+  <rect x="980" y="155" width="40" height="25" stroke="#FF6A00" stroke-width="0.8" fill="none" opacity="0.1"/>
+
+  <!-- VS divider -->
+  <line x1="600" y1="60" x2="600" y2="260" stroke="#FF6A00" stroke-width="0.5" opacity="0.08" stroke-dasharray="6 4"/>
+  <text x="600" y="160" text-anchor="middle" font-family="system-ui, sans-serif" font-size="20" fill="#FF6A00" opacity="0.1" font-weight="bold">VS</text>
+
+  <!-- AI network nodes -->
+  <circle cx="450" cy="520" r="6" fill="#FF6A00" opacity="0.1"/>
+  <circle cx="550" cy="490" r="4" fill="#FF6A00" opacity="0.08"/>
+  <circle cx="650" cy="530" r="5" fill="#FF6A00" opacity="0.09"/>
+  <circle cx="750" cy="500" r="4" fill="#FF6A00" opacity="0.07"/>
+  <line x1="450" y1="520" x2="550" y2="490" stroke="#FF6A00" stroke-width="0.6" opacity="0.06"/>
+  <line x1="550" y1="490" x2="650" y2="530" stroke="#FF6A00" stroke-width="0.6" opacity="0.06"/>
+  <line x1="650" y1="530" x2="750" y2="500" stroke="#FF6A00" stroke-width="0.6" opacity="0.06"/>
+
+  <!-- Category pill -->
+  <rect x="80" y="320" width="170" height="32" rx="16" fill="#FF6A00" opacity="0.15"/>
+  <text x="165" y="342" text-anchor="middle" font-family="system-ui, sans-serif" font-size="14" fill="#FF6A00" font-weight="600">AI Search Strategy</text>
+
+  <!-- Title -->
+  <text x="80" y="400" font-family="system-ui, sans-serif" font-size="38" fill="white" font-weight="bold">How AI Search Treats Franchise</text>
+  <text x="80" y="450" font-family="system-ui, sans-serif" font-size="38" fill="white" font-weight="bold">Businesses vs Independent</text>
+  <text x="80" y="500" font-family="system-ui, sans-serif" font-size="38" fill="#FF6A00" font-weight="bold">Local Businesses</text>
+
+  <!-- Watermark -->
+  <text x="600" y="600" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13" fill="white" opacity="0.3" letter-spacing="4">THE ANSWER ENGINE</text>
+
+  <!-- AE circle -->
+  <circle cx="1130" cy="560" r="30" fill="none" stroke="#FF6A00" stroke-width="1.5" opacity="0.3"/>
+  <text x="1130" y="568" text-anchor="middle" font-family="system-ui, sans-serif" font-size="20" fill="#FF6A00" opacity="0.4" font-weight="bold">AE</text>
+</svg>

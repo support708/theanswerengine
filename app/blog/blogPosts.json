@@ -1740,5 +1740,85 @@
       "Local Business",
       "Small Business"
     ]
+  },
+  {
+    "id": 84,
+    "title": "How AI Search Treats Franchise Businesses vs Independent Local Businesses",
+    "slug": "how-ai-search-treats-franchise-vs-independent-businesses",
+    "excerpt": "60% of AI citations go to third-party publishers. Learn how AI evaluates franchise locations individually and why independents have a natural advantage.",
+    "category": "AI Search Strategy",
+    "author": "The Answer Engine Team",
+    "readTime": "8 min",
+    "image": "/blog/how-ai-search-treats-franchise-vs-independent-businesses.svg",
+    "publishDate": "2026-03-28",
+    "lastModified": "2026-03-28",
+    "featured": true,
+    "tags": [
+      "AI Search",
+      "Franchise",
+      "Independent Business",
+      "Local SEO",
+      "Citations"
+    ]
+  },
+  {
+    "id": 85,
+    "title": "What Happens to Your AI Visibility When You Change Your Business Name or Address",
+    "slug": "what-happens-to-ai-visibility-when-you-change-business-name-or-address",
+    "excerpt": "62% of consumers avoid businesses with incorrect info online. Learn how NAP changes break AI confidence and the exact recovery playbook.",
+    "category": "AI Search Strategy",
+    "author": "The Answer Engine Team",
+    "readTime": "8 min",
+    "image": "/blog/what-happens-to-ai-visibility-when-you-change-business-name-or-address.svg",
+    "publishDate": "2026-03-28",
+    "lastModified": "2026-03-28",
+    "featured": true,
+    "tags": [
+      "NAP Consistency",
+      "Business Name Change",
+      "AI Visibility",
+      "Local Business",
+      "Data Accuracy"
+    ]
+  },
+  {
+    "id": 86,
+    "title": "The First 90 Days of AI Search Optimization: What to Actually Expect",
+    "slug": "first-90-days-of-ai-search-optimization-what-to-expect",
+    "excerpt": "AI optimization is not instant like ads or slow like SEO. Here is the realistic 3-phase, 90-day timeline with week-by-week milestones.",
+    "category": "Getting Started",
+    "author": "The Answer Engine Team",
+    "readTime": "10 min",
+    "image": "/blog/first-90-days-of-ai-search-optimization-what-to-expect.svg",
+    "publishDate": "2026-03-28",
+    "lastModified": "2026-03-28",
+    "featured": true,
+    "tags": [
+      "Getting Started",
+      "Timeline",
+      "AI Optimization",
+      "Local Business",
+      "ROI"
+    ]
+  },
+  {
+    "id": 87,
+    "title": "How AI Search Is Changing Lead Quality for Local Businesses",
+    "slug": "how-ai-search-is-changing-lead-quality-for-local-businesses",
+    "excerpt": "AI search sends fewer clicks but higher-intent leads who arrive ready to book. Learn why lead quality matters more than traffic volume in 2026.",
+    "category": "Business Growth",
+    "author": "The Answer Engine Team",
+    "readTime": "8 min",
+    "image": "/blog/how-ai-search-is-changing-lead-quality-for-local-businesses.svg",
+    "publishDate": "2026-03-28",
+    "lastModified": "2026-03-28",
+    "featured": true,
+    "tags": [
+      "Lead Quality",
+      "AI Search",
+      "Business Growth",
+      "Conversion",
+      "Local Business"
+    ]
   }
 ]
