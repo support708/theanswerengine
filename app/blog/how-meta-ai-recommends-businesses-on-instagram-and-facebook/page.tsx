@@ -205,7 +205,7 @@ export default function BlogPost() {
           <span className="ae-section-label" id="how-recommendations-work">How It Works</span>
           <h2>How Meta AI Recommendations Actually Work</h2>
 
-          <p>Meta&apos;s recommendation system operates in layers, each powered by different AI models working together to evaluate content and match it to users. Understanding these layers reveals why certain businesses get recommended while others stay buried.</p>
+          <p>Meta&apos;s recommendation engine operates in layers, each powered by different AI models working together to evaluate content and match it to users. Understanding these layers reveals why certain businesses get recommended while others stay buried.</p>
 
           <div className="ae-timeline not-prose">
             <div className="ae-timeline-item">

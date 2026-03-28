@@ -253,7 +253,7 @@ export default function BlogPost() {
             </div>
           </div>
 
-          <p>Every time Google closed a loophole, the gaming industry adapted and found new ones. This cat-and-mouse game defined SEO for two decades. So it is natural to wonder: can the same game be played with AI search?</p>
+          <p>Every time Google closed a loophole, the gaming industry adapted and found new ones. This cat-and-mouse game defined SEO for two decades. So it is natural to wonder: can you play the same game with AI search?</p>
 
           {/* CTA 1 */}
           <div className="ae-cta-inline not-prose">

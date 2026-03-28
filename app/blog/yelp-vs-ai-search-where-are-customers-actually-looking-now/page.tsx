@@ -85,7 +85,7 @@ const jsonLd = {
           name: 'Is Yelp still relevant for local businesses in 2026?',
           acceptedAnswer: {
             '@type': 'Answer',
-            text: 'Yelp still has value, but its influence is shrinking. Mobile monthly active users have declined roughly 70% since 2018, paying advertiser locations dropped 5% in Q4 2025, and ad clicks fell 7% year over year. Meanwhile, AI search has grown from 6% to 45% consumer adoption in just twelve months. Yelp is not dead, but businesses relying solely on Yelp for customer discovery are missing the platforms where growth is actually happening.',
+            text: 'Yelp still has value, but its influence is shrinking. Mobile monthly active users have declined roughly 70% since 2018, paying advertiser locations dropped 5% in Q4 2025 (per Yelp Q4 2025 earnings, announced January 2026), and ad clicks fell 7% year over year. Meanwhile, AI search has grown from 6% to 45% consumer adoption in just twelve months. Yelp is not dead, but businesses relying solely on Yelp for customer discovery are missing the platforms where growth is actually happening.',
           },
         },
         {
@@ -117,7 +117,7 @@ const jsonLd = {
           name: 'How fast is AI search growing compared to Yelp?',
           acceptedAnswer: {
             '@type': 'Answer',
-            text: 'The contrast is stark. AI search consumer adoption grew from 6% to 45% in twelve months. ChatGPT grew 126% year over year. Perplexity grew 800% year over year. Meanwhile, Yelp paying advertiser locations shrank 3% for the year, ad clicks fell 7%, and the company projects flat revenue for 2026. AI search is accelerating while Yelp is plateauing.',
+            text: 'The contrast is stark. AI search consumer adoption grew from 6% to 45% in twelve months. ChatGPT grew 126% year over year. Perplexity grew 800% year over year. Meanwhile, Yelp paying advertiser locations shrank 3% for the year, ad clicks fell 7%, and the company projects flat revenue for 2026 (per Yelp Q4 2025 earnings, announced January 2026). AI search is accelerating while Yelp is plateauing.',
           },
         },
         {
