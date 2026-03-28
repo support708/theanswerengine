@@ -252,21 +252,25 @@ export default function YelpVsAISearchWhereCustomersLookNow() {
               <span className="ae-stat-emoji">&#x1F4C9;</span>
               <span className="ae-stat-value ae-accent">70%</span>
               <span className="ae-stat-label">drop in Yelp mobile MAUs since 2018</span>
+              <span style={{ fontSize: '0.65rem', color: '#6B7280', marginTop: '0.25rem', display: 'block' }}>Source: Yelp earnings reports</span>
             </div>
             <div className="ae-stat-card">
               <span className="ae-stat-emoji">&#x1F4C8;</span>
               <span className="ae-stat-value ae-accent">45%</span>
               <span className="ae-stat-label">of consumers now use AI search for local services</span>
+              <span style={{ fontSize: '0.65rem', color: '#6B7280', marginTop: '0.25rem', display: 'block' }}>Source: BrightLocal Consumer Survey 2026</span>
             </div>
             <div className="ae-stat-card">
               <span className="ae-stat-emoji">&#x26A1;</span>
               <span className="ae-stat-value ae-accent">6% to 45%</span>
               <span className="ae-stat-label">AI search adoption in just 12 months</span>
+              <span style={{ fontSize: '0.65rem', color: '#6B7280', marginTop: '0.25rem', display: 'block' }}>Source: BrightLocal Consumer Survey 2026</span>
             </div>
             <div className="ae-stat-card">
               <span className="ae-stat-emoji">&#x1F3AF;</span>
               <span className="ae-stat-value ae-accent">3x</span>
               <span className="ae-stat-label">higher AI citation rate for businesses with review profiles</span>
+              <span style={{ fontSize: '0.65rem', color: '#6B7280', marginTop: '0.25rem', display: 'block' }}>Source: Semrush AI visibility research</span>
             </div>
           </div>
         </div>
@@ -373,7 +377,7 @@ export default function YelpVsAISearchWhereCustomersLookNow() {
           </div>
 
           <p>
-            The numbers tell a consistent story. Mobile monthly active users have dropped roughly 70% since their peak in 2018. Ad clicks fell 7% in 2025 even as cost per click rose 10%, meaning Yelp is charging more for less engagement. Total paying advertising locations shrank to 496,000, a 3% annual decline and 5% drop in Q4 alone. Yelp projects flat revenue for 2026 and a 13% decline in adjusted EBITDA, to $310 to $330 million.
+            The numbers tell a consistent story. Mobile monthly active users have dropped roughly 70% since their peak in 2018. Ad clicks fell 7% in 2025 even as cost per click rose 10%, meaning Yelp is charging more for less engagement. Total paying advertising locations shrank to 496,000, a 3% annual decline and a 5% drop in Q4 2025 alone (per Yelp&apos;s Q4 2025 earnings, announced January 2026). Yelp projects flat revenue for 2026 and a 13% decline in adjusted EBITDA, to $310 to $330 million.
           </p>
           <p>
             These are not catastrophic numbers. Yelp is still a profitable company with a massive review database. But the trajectory is clear: fewer users, fewer advertiser dollars, and a leadership team scrambling to reinvent the platform around AI before the market moves past them entirely.
@@ -466,6 +470,9 @@ export default function YelpVsAISearchWhereCustomersLookNow() {
             <div className="ae-section-label">Head-to-Head</div>
           </div>
           <h2 id="head-to-head">Yelp vs AI Search: The Complete Comparison</h2>
+          <p>
+            Those growth numbers raise an obvious question for any local business owner: which platform actually wins on the factors that determine whether customers find and choose you? The answer depends on what you measure.
+          </p>
           <p>
             Here is how Yelp stacks up against AI search platforms across the factors that matter most for local business visibility and customer acquisition.
           </p>
@@ -955,7 +962,7 @@ export default function YelpVsAISearchWhereCustomersLookNow() {
                   Is Yelp still relevant for local businesses in 2026?
                 </h3>
                 <p className="text-gray-300 text-sm leading-relaxed">
-                  Yelp still has value, but its influence is shrinking. Mobile monthly active users have declined roughly 70% since 2018, paying advertiser locations dropped 5% in Q4 2025, and ad clicks fell 7% year over year. Meanwhile, AI search has grown from 6% to 45% consumer adoption in just twelve months. Yelp is not dead, but businesses relying solely on Yelp for customer discovery are missing the platforms where growth is actually happening.
+                  Yelp still has value, but its influence is shrinking. Mobile monthly active users have declined roughly 70% since 2018, paying advertiser locations dropped 5% in Q4 2025 (per Yelp&apos;s Q4 2025 earnings report, announced January 2026), and ad clicks fell 7% year over year. Meanwhile, AI search has grown from 6% to 45% consumer adoption in just twelve months (BrightLocal Consumer Survey 2026). Yelp is not dead, but businesses relying solely on Yelp for customer discovery are missing the platforms where growth is actually happening.
                 </p>
               </div>
 
@@ -982,7 +989,7 @@ export default function YelpVsAISearchWhereCustomersLookNow() {
                   Do Yelp reviews still matter for AI search visibility?
                 </h3>
                 <p className="text-gray-300 text-sm leading-relaxed">
-                  Yes. Yelp reviews still influence AI search visibility because AI platforms pull from multiple data sources. Businesses with profiles on platforms like Yelp have 3x higher chances of being cited by ChatGPT compared to businesses without such presence. The reviews themselves provide the structured sentiment data that AI models use when making recommendations. So even as fewer customers visit Yelp directly, your Yelp profile feeds the AI systems that customers are using instead.
+                  Yes. Yelp reviews still influence AI search visibility because AI platforms pull from multiple data sources. Businesses with profiles on platforms like Yelp have 3x higher chances of being cited by ChatGPT compared to businesses without such presence (Semrush AI visibility research). The reviews themselves provide the structured sentiment data that AI models use when making recommendations. So even as fewer customers visit Yelp directly, your Yelp profile feeds the AI systems that customers are using instead.
                 </p>
               </div>
 
@@ -991,7 +998,7 @@ export default function YelpVsAISearchWhereCustomersLookNow() {
                   How fast is AI search growing compared to Yelp?
                 </h3>
                 <p className="text-gray-300 text-sm leading-relaxed">
-                  The contrast is stark. AI search consumer adoption grew from 6% to 45% in twelve months. ChatGPT grew 126% year over year. Perplexity grew 800% year over year. Meanwhile, Yelp paying advertiser locations shrank 3% for the year, ad clicks fell 7%, and the company projects flat revenue for 2026. AI search is accelerating while Yelp is plateauing.
+                  The contrast is stark. AI search consumer adoption grew from 6% to 45% in twelve months (BrightLocal Consumer Survey 2026). ChatGPT grew 126% year over year. Perplexity grew 800% year over year. Meanwhile, Yelp paying advertiser locations shrank 3% for the year, ad clicks fell 7%, and the company projects flat revenue for 2026 (per Yelp Q4 2025 earnings, announced January 2026). AI search is accelerating while Yelp is plateauing.
                 </p>
               </div>
 
