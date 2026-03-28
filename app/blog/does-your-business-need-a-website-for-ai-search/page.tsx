@@ -36,7 +36,7 @@ export const metadata: Metadata = {
     url: `https://theanswerengine.ai/blog/${slug}`,
     images: [
       {
-        url: `https://theanswerengine.ai/blog/${slug}.svg`,
+        url: `https://theanswerengine.ai/blog/${slug}.webp`,
         width: 1200,
         height: 630,
         alt: title,
@@ -47,7 +47,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: titleWithSuffix,
     description,
-    images: [`https://theanswerengine.ai/blog/${slug}.svg`],
+    images: [`https://theanswerengine.ai/blog/${slug}.webp`],
     site: '@theanswerengine',
   },
   alternates: {
@@ -62,7 +62,7 @@ const jsonLd = {
       '@type': 'Article',
       headline: title,
       description,
-      image: `https://theanswerengine.ai/blog/${slug}.svg`,
+      image: `https://theanswerengine.ai/blog/${slug}.webp`,
       datePublished: publishDate,
       dateModified: publishDate,
       author: {
