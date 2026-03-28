@@ -36,7 +36,7 @@ export const metadata: Metadata = {
     authors: ['The Answer Engine Team'],
     images: [
       {
-        url: `https://theanswerengine.ai/blog/${slug}.svg`,
+        url: `https://theanswerengine.ai/blog/${slug}.webp`,
         width: 1200,
         height: 630,
         alt: title,
@@ -55,7 +55,7 @@ export const metadata: Metadata = {
     title,
     description,
     site: '@theanswerengine',
-    images: [`https://theanswerengine.ai/blog/${slug}.svg`],
+    images: [`https://theanswerengine.ai/blog/${slug}.webp`],
   },
   alternates: {
     canonical: `https://theanswerengine.ai/blog/${slug}`,
@@ -86,7 +86,7 @@ const jsonLd = {
         '@type': 'WebPage',
         '@id': `https://theanswerengine.ai/blog/${slug}`,
       },
-      image: `https://theanswerengine.ai/blog/${slug}.svg`,
+      image: `https://theanswerengine.ai/blog/${slug}.webp`,
       keywords:
         'AI search lead quality, local business AI leads, AI search conversions, high-intent leads, ChatGPT local business, AI Overviews, answer engine optimization',
     },
