@@ -115,7 +115,10 @@
     "1s5szk5": 1774680348765
   },
   "lastPollBySubreddit": {},
-  "lastDigestByClient": {},
+  "lastDigestByClient": {
+    "lovery-re": "2026-03-28T08:07:29.908Z",
+    "rpm-southland": "2026-03-28T08:07:30.854Z"
+  },
   "monthlyStats": {
     "month": "2026-03",
     "totalScanned": 3567,
@@ -130,7 +133,7 @@
       },
       "lovery-re": {
         "opportunities": 8,
-        "digestsSent": 0,
+        "digestsSent": 1,
         "highImpact": 7,
         "mediumImpact": 1,
         "lowImpact": 0
@@ -144,7 +147,7 @@
       },
       "rpm-southland": {
         "opportunities": 6,
-        "digestsSent": 0,
+        "digestsSent": 1,
         "highImpact": 4,
         "mediumImpact": 2,
         "lowImpact": 0
