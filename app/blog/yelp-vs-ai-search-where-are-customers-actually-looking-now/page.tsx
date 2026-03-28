@@ -453,7 +453,7 @@ export default function YelpVsAISearchWhereCustomersLookNow() {
           <div className="not-prose">
             <div className="ae-callout ae-callout-success">
               <p className="ae-callout-title">The Conversion Advantage</p>
-              <p>AI search referral traffic converts at 5x to 9x the rate of traditional Google organic search. ChatGPT referrals convert at 15.9%, Perplexity at 10.5%, compared to just 1.8% for standard Google organic. Fewer visitors, but far more buyers.</p>
+              <p>AI search referral traffic converts at 5x to 9x the rate of traditional Google organic search. ChatGPT referrals convert at 15.9%, Perplexity at 10.5%, compared to just 1.8% for standard Google organic (Semrush e-commerce conversion data, 2025). Fewer visitors, but far more buyers.</p>
             </div>
           </div>
 
@@ -654,7 +654,7 @@ export default function YelpVsAISearchWhereCustomersLookNow() {
           </div>
 
           <p>
-            The most important thing Yelp does for your business in 2026 may not be driving direct customers. It may be feeding the AI platforms that do. That relationship between your Yelp reviews and AI visibility is worth understanding deeply.
+            The most important thing Yelp does for your business in 2026 may not be driving direct customers. It may be feeding the AI platforms that do. That relationship between your Yelp reviews and AI visibility is worth understanding deeply, which is why understanding AI search&apos;s structural advantages helps clarify where your investment should go.
           </p>
 
           {/* CTA 6 */}
