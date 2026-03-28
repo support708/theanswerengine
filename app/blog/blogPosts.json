@@ -1820,5 +1820,110 @@
       "Conversion",
       "Local Business"
     ]
+  },
+  {
+    "id": 88,
+    "title": "How Meta AI Recommends Businesses on Instagram and Facebook",
+    "slug": "how-meta-ai-recommends-businesses-on-instagram-and-facebook",
+    "excerpt": "Meta AI reaches 3.3B users across Instagram, Facebook, and WhatsApp. Learn how the recommendation system decides which businesses to surface and why most are invisible.",
+    "category": "Platform Deep Dives",
+    "author": "The Answer Engine Team",
+    "readTime": "12 min",
+    "image": "/blog/how-meta-ai-recommends-businesses-on-instagram-and-facebook.webp",
+    "publishDate": "2026-03-28",
+    "lastModified": "2026-03-28",
+    "featured": true,
+    "tags": [
+      "Meta AI",
+      "Instagram",
+      "Facebook",
+      "AI Recommendations",
+      "Platform Deep Dive",
+      "Social Media"
+    ]
+  },
+  {
+    "id": 89,
+    "title": "Can You Game AI Search Like People Used to Game Google",
+    "slug": "can-you-game-ai-search-like-people-used-to-game-google",
+    "excerpt": "Black hat SEO tricks worked on Google for years. Can the same tactics game AI search? Learn why AI platforms are fundamentally different and what actually works.",
+    "category": "Myth Busters",
+    "author": "The Answer Engine Team",
+    "readTime": "11 min",
+    "image": "/blog/can-you-game-ai-search-like-people-used-to-game-google.webp",
+    "publishDate": "2026-03-28",
+    "lastModified": "2026-03-28",
+    "featured": true,
+    "tags": [
+      "Myth Busters",
+      "AI Search",
+      "Black Hat SEO",
+      "AI Gaming",
+      "Search Manipulation",
+      "AEO"
+    ]
+  },
+  {
+    "id": 90,
+    "title": "Why My 5-Star Google Reviews Dont Show Up in AI Answers",
+    "slug": "why-my-5star-google-reviews-dont-show-up-in-ai-answers",
+    "excerpt": "You have hundreds of 5-star Google reviews but AI platforms cannot see them. Learn why Google reviews are invisible to ChatGPT and Perplexity, and where reviews actually matter.",
+    "category": "Business Pain Points",
+    "author": "The Answer Engine Team",
+    "readTime": "11 min",
+    "image": "/blog/why-my-5star-google-reviews-dont-show-up-in-ai-answers.webp",
+    "publishDate": "2026-03-28",
+    "lastModified": "2026-03-28",
+    "featured": true,
+    "tags": [
+      "Google Reviews",
+      "AI Answers",
+      "Business Pain Points",
+      "Review Visibility",
+      "ChatGPT",
+      "AEO"
+    ]
+  },
+  {
+    "id": 91,
+    "title": "How to Get Your Restaurant Found on AI Search",
+    "slug": "how-to-get-your-restaurant-found-on-ai-search",
+    "excerpt": "Restaurants are the most-searched local business category on AI platforms. Learn why AI recommends some restaurants over others and what signals matter most.",
+    "category": "Industry Guides",
+    "author": "The Answer Engine Team",
+    "readTime": "12 min",
+    "image": "/blog/how-to-get-your-restaurant-found-on-ai-search.webp",
+    "publishDate": "2026-03-28",
+    "lastModified": "2026-03-28",
+    "featured": true,
+    "tags": [
+      "Restaurants",
+      "AI Search",
+      "Industry Guide",
+      "Local Business",
+      "Food Service",
+      "AEO"
+    ]
+  },
+  {
+    "id": 92,
+    "title": "Yelp vs AI Search: Where Are Customers Actually Looking Now",
+    "slug": "yelp-vs-ai-search-where-are-customers-actually-looking-now",
+    "excerpt": "Yelp mobile users declined 70% since 2018 while 45% of consumers now use AI to find local services. Compare where customers actually discover businesses in 2026.",
+    "category": "Competitive Intelligence",
+    "author": "The Answer Engine Team",
+    "readTime": "12 min",
+    "image": "/blog/yelp-vs-ai-search-where-are-customers-actually-looking-now.webp",
+    "publishDate": "2026-03-28",
+    "lastModified": "2026-03-28",
+    "featured": true,
+    "tags": [
+      "Yelp",
+      "AI Search",
+      "Competitive Intelligence",
+      "Customer Behavior",
+      "Local Business",
+      "Platform Comparison"
+    ]
   }
 ]
