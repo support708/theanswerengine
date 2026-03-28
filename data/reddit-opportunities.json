@@ -455,9 +455,9 @@
         "draftResponse": "You're asking the right questions, and honestly your instinct to get clarity is solid. Here's the real talk: the verification requirement you found is key. Most lenders need to see those funds seasoned and verified within a specific window before closing, but wiring them 20+ days early can sometimes create unnecessary back-and-forth if your lender's documentation team needs to re-verify everything.\n\nThat said, it's not a hard no. The safest play is to confirm the exact timeline with your loan officer in writing. Ask specifically: \"Based on my loan conditions, what's the earliest I should wire my gift funds to hit escrow without requiring re-verification?\" This usually lands you in that 5-7 day window before closing, not 20+ days out.\n\nOne thing I've seen trip up first-time buyers here in San Diego is that gift funds sometimes need a gift letter from the donor confirming it's not a loan, and that doc needs to align with when the funds arrive. Make sure your lender has that locked in.\n\nYour real estate agent and loan officer should be coordinating on this, but if there's any daylight between what they're saying, that's worth flagging. You want everyone on the same page about the closing timeline. The escrow company's job is to hold funds safely, but they're not going to push the timeline either way. This one's on your lender's conditions.\n\nDon't rush it just to be done, but do get the exact deadline in writing. Then you can move forward clear and confident."
       },
       "discoveredAt": "2026-03-27T18:29:14.319Z",
-      "digestSentAt": null,
+      "digestSentAt": "2026-03-28T08:07:29.908Z",
       "telegramSentAt": "2026-03-27T18:29:15.000Z",
-      "status": "pending"
+      "status": "digest_sent"
     },
     {
       "id": "reddit_1774636188582_0v706d",
@@ -482,9 +482,9 @@
         "draftResponse": "I'm gonna be straight with you: the spreadsheet-to-PDF pipeline kills your month. At RPM Southland, we ditched that years ago and honestly it changed everything.\n\nHere's what works: property management software (we use Buildium, but others like Appfolio work too). Real talk though—the software isn't magic. You still need clean data going in. Where people struggle is they buy the tool, don't set up the architecture, and end up just automating a bad process faster.\n\nWhat actually moved the needle for us:\n\n1. Automate rent receipt tracking on day 1 of lease. Don't wait until month-end cleanup.\n2. Categorize expenses AS they happen, not in a retrospective audit. Takes 30 seconds per transaction.\n3. Use the software's built-in reporting templates. Don't customize them to death.\n4. Send reports on a fixed date (like the 5th of the month). Owners expect consistency.\n\nTime investment: With 4-5 properties and tight data habits, we're talking 45 minutes to an hour total. That includes proofing.\n\nIf you're still on spreadsheets with a handful of properties, you're probably spending 3-4 hours. The jump to software plus process discipline cuts that by 70%.\n\nThe real question isn't which tool—it's whether you're willing to discipline the data entry side. Software amplifies whatever system you already have. Start there before you buy anything."
       },
       "discoveredAt": "2026-03-27T18:29:48.582Z",
-      "digestSentAt": null,
+      "digestSentAt": "2026-03-28T08:07:30.854Z",
       "telegramSentAt": "2026-03-27T18:29:49.207Z",
-      "status": "pending"
+      "status": "digest_sent"
     },
     {
       "id": "reddit_1774649653269_yboc7i",
@@ -509,9 +509,9 @@
         "draftResponse": "I'll bite. I manage properties in Long Beach and have seen plenty of situations where owners got the short end of the stick from their manager. Usually it comes down to three things: lack of communication, hidden fees, or flat-out negligence on maintenance response.\n\nBefore I give you real feedback, I need to know a few things. What specifically makes you feel scammed? Was it about:\n\n- Money disappearing (rent collection, expense reporting)?\n- Properties not being maintained or repairs delayed?\n- Zero communication on what's happening at your property?\n- Fees that weren't explained upfront?\n\nThe reason I ask is because some situations are legitimately sketchy manager behavior. Others are just misaligned expectations about what property management actually involves. Both hurt, but they're different problems.\n\nHere's what separates a legit operation from a mess: You should know exactly where every dollar goes. You should get consistent reports without having to chase your manager. And repairs should be handled in days, not weeks, unless there's a valid reason.\n\nPost the specifics if you want. I'll give you straight feedback on whether you got taken or if there's a communication breakdown that can be fixed. No gatekeeping here."
       },
       "discoveredAt": "2026-03-27T22:14:13.269Z",
-      "digestSentAt": null,
+      "digestSentAt": "2026-03-28T08:07:30.854Z",
       "telegramSentAt": "2026-03-27T22:14:13.951Z",
-      "status": "pending"
+      "status": "digest_sent"
     },
     {
       "id": "reddit_1774673013302_mkh7r5",
@@ -536,9 +536,9 @@
         "draftResponse": "You're in solid legal territory with those cameras in common areas. I've dealt with situations like this in Long Beach and the documentation from doorbell and exterior cameras becomes critical during eviction, especially when police and drug activity are involved. Your lawyer's right.\n\nHere's what I'd focus on: that tape over the camera is actually evidence of tenant interference and obstruction. Document the tape (date, time, photos), and include it in your eviction file. It shows consciousness of guilt and attempts to obstruct. Law enforcement and judges see this pattern all the time.\n\nThe tougher issue is what you're already doing right: consistency. You've issued the notice to cure, police are involved, you have documentation. That's the foundation. The camera tampering doesn't slow the process down if your notice was issued correctly and you followed local notice requirements.\n\nOne thing to lock down now: what's your timeline? Oregon has specific notice periods depending on the violation type. If this is a non-compliance issue versus a lease violation, the math changes. Make sure your lawyer confirmed the notice period matches your local statute.\n\nThe homeless person on the porch, the brother hiding from police in the garage, the drug dealing, other occupants beyond the lease—that's an eviction that most judges will move on. Don't let the camera tape distract from the core violations.\n\nStay consistent. Document everything. Your lawyer is steering you right."
       },
       "discoveredAt": "2026-03-28T04:43:33.302Z",
-      "digestSentAt": null,
+      "digestSentAt": "2026-03-28T08:07:30.854Z",
       "telegramSentAt": "2026-03-28T04:43:34.250Z",
-      "status": "pending"
+      "status": "digest_sent"
     }
   ]
 }
