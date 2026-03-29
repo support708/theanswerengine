@@ -149,8 +149,9 @@
     "category": "How-To Guides",
     "pillar": "How-To",
     "priority": 2,
-    "status": "queued",
-    "createdAt": "2026-03-25T07:37:16.722Z"
+    "status": "published",
+    "createdAt": "2026-03-25T07:37:16.722Z",
+    "publishedAt": "2026-03-29T12:00:00.000Z"
   },
   {
     "id": "q2-6",
@@ -230,8 +231,9 @@
     "category": "Platform Deep Dives",
     "pillar": "Platform Deep Dives",
     "priority": 2,
-    "status": "queued",
-    "createdAt": "2026-03-25T07:37:16.722Z"
+    "status": "published",
+    "createdAt": "2026-03-25T07:37:16.722Z",
+    "publishedAt": "2026-03-29T12:00:00.000Z"
   },
   {
     "id": "q2-13",
@@ -264,8 +266,9 @@
     "category": "Myth Busters",
     "pillar": "Myth Busters",
     "priority": 3,
-    "status": "queued",
-    "createdAt": "2026-03-25T07:37:16.722Z"
+    "status": "published",
+    "createdAt": "2026-03-25T07:37:16.722Z",
+    "publishedAt": "2026-03-29T12:00:00.000Z"
   },
   {
     "id": "q2-16",
@@ -335,8 +338,9 @@
     "category": "Business Pain Points",
     "pillar": "Business Pain Points",
     "priority": 1,
-    "status": "queued",
-    "createdAt": "2026-03-25T07:37:16.722Z"
+    "status": "published",
+    "createdAt": "2026-03-25T07:37:16.722Z",
+    "publishedAt": "2026-03-29T12:00:00.000Z"
   },
   {
     "id": "q2-22",
@@ -370,8 +374,9 @@
     "category": "Competitive Intelligence",
     "pillar": "Competitive Intelligence",
     "priority": 2,
-    "status": "queued",
-    "createdAt": "2026-03-25T07:37:16.722Z"
+    "status": "published",
+    "createdAt": "2026-03-25T07:37:16.722Z",
+    "publishedAt": "2026-03-29T12:00:00.000Z"
   },
   {
     "id": "q2-25",

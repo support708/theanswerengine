@@ -1925,5 +1925,105 @@
       "Local Business",
       "Platform Comparison"
     ]
+  },
+  {
+    "id": 93,
+    "title": "How Microsoft Copilot Decides Which Businesses to Recommend",
+    "slug": "how-microsoft-copilot-decides-which-businesses-to-recommend",
+    "excerpt": "330 million Copilot users generate business citations daily. Discover the exact signals Microsoft uses to decide which businesses to recommend—and why 52% of referred visitors convert.",
+    "category": "Platform Deep Dives",
+    "author": "The Answer Engine Team",
+    "readTime": "34 min",
+    "image": "/blog/how-microsoft-copilot-decides-which-businesses-to-recommend.webp",
+    "publishDate": "2026-03-29",
+    "lastModified": "2026-03-29",
+    "featured": true,
+    "tags": [
+      "Microsoft Copilot",
+      "AI Citations",
+      "Platform Deep Dive",
+      "Business Recommendations",
+      "AEO"
+    ]
+  },
+  {
+    "id": 94,
+    "title": "Does Domain Age Matter for AI Search Visibility",
+    "slug": "does-domain-age-matter-for-ai-search-visibility",
+    "excerpt": "The domain age myth debunked: ChatGPT cites 12% from sub-5-year domains, while Bing Copilot pulls from 19%. Learn what AI platforms actually care about instead.",
+    "category": "Myth Busters",
+    "author": "The Answer Engine Team",
+    "readTime": "18 min",
+    "image": "/blog/does-domain-age-matter-for-ai-search-visibility.webp",
+    "publishDate": "2026-03-29",
+    "lastModified": "2026-03-29",
+    "featured": true,
+    "tags": [
+      "Domain Age",
+      "AI Search",
+      "Myth Busting",
+      "Citation Signals",
+      "AEO"
+    ]
+  },
+  {
+    "id": 95,
+    "title": "I Spent Thousands on SEO and AI Still Cant Find Me",
+    "slug": "i-spent-thousands-on-seo-and-ai-still-cant-find-me",
+    "excerpt": "71% of businesses are invisible to AI despite ranking well on Google. SEO and AI optimization are completely different games. Here's why your $2,500/month SEO spend isn't moving the needle.",
+    "category": "Business Pain Points",
+    "author": "The Answer Engine Team",
+    "readTime": "24 min",
+    "image": "/blog/i-spent-thousands-on-seo-and-ai-still-cant-find-me.webp",
+    "publishDate": "2026-03-29",
+    "lastModified": "2026-03-29",
+    "featured": true,
+    "tags": [
+      "SEO Spending",
+      "AI Visibility",
+      "Pain Points",
+      "Business Growth",
+      "AEO"
+    ]
+  },
+  {
+    "id": 96,
+    "title": "How to Measure If AI Is Sending You Customers",
+    "slug": "how-to-measure-if-ai-is-sending-you-customers",
+    "excerpt": "70.6% of AI traffic hides in Direct traffic with no referrer. Learn how to identify AI-referred visitors who convert 4-5x higher than organic, and set up tracking today.",
+    "category": "How-To Guides",
+    "author": "The Answer Engine Team",
+    "readTime": "16 min",
+    "image": "/blog/how-to-measure-if-ai-is-sending-you-customers.webp",
+    "publishDate": "2026-03-29",
+    "lastModified": "2026-03-29",
+    "featured": true,
+    "tags": [
+      "Analytics",
+      "AI Traffic",
+      "Measurement",
+      "Customer Attribution",
+      "How-To"
+    ]
+  },
+  {
+    "id": 97,
+    "title": "Traditional Marketing vs AI Visibility What Actually Works in 2026",
+    "slug": "traditional-marketing-vs-ai-visibility-what-actually-works-in-2026",
+    "excerpt": "37% of consumers now start searches with AI. TV ad spend is declining 11% while AI-referred visitors convert 4.4x higher. Is traditional marketing dead, or is there still a place?",
+    "category": "Competitive Intelligence",
+    "author": "The Answer Engine Team",
+    "readTime": "21 min",
+    "image": "/blog/traditional-marketing-vs-ai-visibility-what-actually-works-in-2026.webp",
+    "publishDate": "2026-03-29",
+    "lastModified": "2026-03-29",
+    "featured": true,
+    "tags": [
+      "Traditional Marketing",
+      "AI Visibility",
+      "Competitive Intelligence",
+      "Marketing Strategy",
+      "AEO"
+    ]
   }
 ]
