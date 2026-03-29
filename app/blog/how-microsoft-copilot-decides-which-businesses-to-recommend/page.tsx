@@ -1061,14 +1061,14 @@ export default function Page() {
               </div>
 
               <div className="flex flex-wrap items-center justify-center gap-4">
-                <a
-                  href="https://theanswerengine.ai/blind-spot"
+                <Link
+                  href="/blindspot"
                   className="inline-flex items-center gap-2 px-8 py-4 rounded-xl font-bold text-white text-base transition-all hover:opacity-90"
                   style={{ backgroundColor: '#FF6A00' }}
                 >
-                  Find My Copilot Blind Spot
+                  Get Your Free Blind Spot Report
                   <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" /></svg>
-                </a>
+                </Link>
                 <a
                   href="tel:+12134442229"
                   className="inline-flex items-center gap-2 px-8 py-4 rounded-xl font-bold text-base transition-all hover:opacity-90"
@@ -1215,17 +1215,17 @@ export default function Page() {
               </p>
 
               <div className="flex flex-wrap items-center justify-center gap-4 mb-6">
-                <a
-                  href="https://theanswerengine.ai/blind-spot"
+                <Link
+                  href="/blindspot"
                   className="inline-flex items-center gap-3 px-8 py-4 rounded-xl font-bold text-white text-lg transition-all hover:opacity-90"
                   style={{
                     backgroundColor: '#FF6A00',
                     boxShadow: '0 0 20px rgba(255,106,0,0.4)',
                   }}
                 >
-                  Find My AI Blind Spot
+                  Get Your Free Blind Spot Report
                   <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" /></svg>
-                </a>
+                </Link>
                 <a
                   href="tel:+12134442229"
                   className="inline-flex items-center gap-3 px-8 py-4 rounded-xl font-bold text-base transition-all hover:opacity-80"

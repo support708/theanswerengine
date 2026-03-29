@@ -5,7 +5,7 @@ export const revalidate = 86400
 export const dynamic = 'force-static'
 export const dynamicParams = true
 
-const title = 'Does Domain Age Matter for AI Search Visibility | The Answer Engine'
+const title = 'Does Domain Age Matter for AI Search Visibility'
 const description =
   'Domain age is not the gatekeeper it was for Google SEO. Discover what AI search platforms actually evaluate and how newer sites can still win citations.'
 const slug = 'does-domain-age-matter-for-ai-search-visibility'
@@ -635,8 +635,8 @@ export default function Page() {
                 <div className="text-3xl mb-3">&#128269;</div>
                 <h3 className="text-white font-bold mb-2 font-plus-jakarta">Find Your Blind Spots</h3>
                 <p className="text-gray-400 text-sm mb-4">Discover which AI visibility signals your domain is missing right now.</p>
-                <Link href="/contact" className="block w-full py-3 rounded-lg font-semibold text-sm transition-all hover:scale-105" style={{ background: '#FF6A00', color: '#fff' }}>
-                  Get Blind Spot Report
+                <Link href="/blindspot" className="block w-full py-3 rounded-lg font-semibold text-sm transition-all hover:scale-105" style={{ background: '#FF6A00', color: '#fff' }}>
+                  Get Your Free Blind Spot Report
                 </Link>
               </div>
               {/* Tier 2 */}

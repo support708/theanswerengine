@@ -5,7 +5,7 @@ export const revalidate = 86400
 export const dynamic = 'force-static'
 export const dynamicParams = true
 
-const title = 'Traditional Marketing vs AI Visibility: What Actually Works in 2026 | The Answer Engine'
+const title = 'Traditional Marketing vs AI Visibility in 2026'
 const description =
   'Linear TV is down 11%, print is fading, and 37% of consumers now start searches with AI. Learn what actually drives customers in 2026.'
 const slug = 'traditional-marketing-vs-ai-visibility-what-actually-works-in-2026'
@@ -599,7 +599,7 @@ export default function Page() {
                 </p>
               </div>
               <a
-                href="/#contact"
+                href="/blindspot"
                 style={{
                   backgroundColor: '#FF6A00',
                   color: '#FFFFFF',
@@ -1050,7 +1050,7 @@ export default function Page() {
                 </p>
               </div>
               <a
-                href="/#contact"
+                href="/blindspot"
                 style={{
                   backgroundColor: '#FF6A00',
                   color: '#FFFFFF',
@@ -1444,7 +1444,7 @@ export default function Page() {
                 </p>
               </div>
               <a
-                href="/#contact"
+                href="/blindspot"
                 style={{
                   backgroundColor: '#FF6A00',
                   color: '#FFFFFF',
@@ -1695,7 +1695,7 @@ export default function Page() {
                 </p>
                 <div className="flex flex-wrap gap-3">
                   <a
-                    href="/#contact"
+                    href="/blindspot"
                     style={{
                       backgroundColor: '#FF6A00',
                       color: '#FFFFFF',
@@ -1750,7 +1750,7 @@ export default function Page() {
               {/* Tier 1: Primary CTA button */}
               <div className="mb-6">
                 <a
-                  href="/#contact"
+                  href="/blindspot"
                   style={{
                     background: 'linear-gradient(90deg, #FF6A00, #FF8C00)',
                     color: '#FFFFFF',
@@ -1974,7 +1974,7 @@ export default function Page() {
 
               <div className="flex flex-col sm:flex-row gap-4 justify-center mb-6">
                 <a
-                  href="/#contact"
+                  href="/blindspot"
                   style={{
                     background: 'linear-gradient(90deg, #FF6A00, #FF8C00)',
                     color: '#FFFFFF',

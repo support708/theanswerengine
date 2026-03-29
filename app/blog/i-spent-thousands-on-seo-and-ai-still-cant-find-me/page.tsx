@@ -271,14 +271,14 @@ export default function ISpentThousandsOnSEOPage() {
 
             {/* Hero CTA */}
             <div className="mt-8">
-              <a
-                href="https://theanswerengine.ai/#audit"
+              <Link
+                href="/blindspot"
                 className="ae-cta-inline inline-flex items-center gap-2 font-semibold px-6 py-3 rounded-lg transition-all"
                 style={{ backgroundColor: '#FF6A00', color: '#FFFFFF' }}
               >
-                Find Your AI Blind Spots Free
+                Get Your Free Blind Spot Report
                 <span aria-hidden="true">&#8594;</span>
-              </a>
+              </Link>
             </div>
           </div>
         </section>
@@ -431,7 +431,7 @@ export default function ISpentThousandsOnSEOPage() {
                 Most business owners have never checked. A quick audit reveals exactly where you stand across ChatGPT, Perplexity, and Google AI Overviews.
               </p>
               <a
-                href="https://theanswerengine.ai/#audit"
+                href="/blindspot"
                 className="ae-cta-inline inline-flex items-center gap-2 text-sm font-semibold px-5 py-2.5 rounded-lg transition-all"
                 style={{ backgroundColor: '#FF6A00', color: '#FFFFFF' }}
               >
@@ -569,7 +569,7 @@ export default function ISpentThousandsOnSEOPage() {
             <p className="mb-2 leading-relaxed" style={{ color: '#D1D5DB' }}>
               The good news is that this is a solvable problem. The bad news is that your current SEO agency almost certainly isn&apos;t solving it.{' '}
               <a
-                href="https://theanswerengine.ai/#audit"
+                href="/blindspot"
                 className="ae-cta-inline font-semibold underline"
                 style={{ color: '#FF6A00' }}
               >
@@ -1136,7 +1136,7 @@ export default function ISpentThousandsOnSEOPage() {
                 </p>
                 <div className="flex flex-wrap gap-3">
                   <a
-                    href="https://theanswerengine.ai/#audit"
+                    href="/blindspot"
                     className="ae-cta-inline inline-flex items-center gap-2 text-sm font-semibold px-5 py-2.5 rounded-lg"
                     style={{ backgroundColor: '#FF6A00', color: '#FFFFFF' }}
                   >
@@ -1180,7 +1180,7 @@ export default function ISpentThousandsOnSEOPage() {
 
               <div className="flex flex-col md:flex-row items-center justify-center gap-4 flex-wrap">
                 <a
-                  href="https://theanswerengine.ai/#audit"
+                  href="/blindspot"
                   className="ae-cta-inline inline-flex items-center gap-2 font-bold px-7 py-4 rounded-xl text-base transition-all"
                   style={{ backgroundColor: '#FF6A00', color: '#FFFFFF' }}
                 >
@@ -1384,7 +1384,7 @@ export default function ISpentThousandsOnSEOPage() {
 
               <div className="flex flex-col md:flex-row items-center justify-center gap-4 flex-wrap mb-6">
                 <a
-                  href="https://theanswerengine.ai/#audit"
+                  href="/blindspot"
                   className="ae-cta-inline inline-flex items-center gap-2 font-extrabold text-lg px-8 py-4 rounded-xl transition-all"
                   style={{
                     backgroundColor: '#FF6A00',
