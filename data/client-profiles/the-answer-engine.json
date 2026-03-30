@@ -1,0 +1,123 @@
+{
+  "_meta": {
+    "schema_version": "1.0",
+    "client_slug": "the-answer-engine",
+    "package": "internal",
+    "account_status": "active",
+    "notes": "Internal — The Answer Engine LLC. AEO/digital marketing company. Monitor for businesses asking about AI search visibility, ChatGPT recommendations, answer engine optimization."
+  },
+
+  "business": {
+    "legal_name": "The Answer Engine LLC",
+    "dba": "The Answer Engine",
+    "business_type": "digital_marketing_agency",
+    "industry": "answer engine optimization",
+    "founded_year": "2025"
+  },
+
+  "contact": {
+    "website_url": "https://theanswerengine.ai",
+    "email": "support@theanswerengine.ai",
+    "address": {
+      "city": "Los Angeles",
+      "state": "CA",
+      "country": "US"
+    }
+  },
+
+  "author": {
+    "full_name": "Justin Borges",
+    "job_title": "Founder, The Answer Engine",
+    "bio_short": "Justin Borges is the founder of The Answer Engine, a company that helps local businesses get recommended by AI search platforms like ChatGPT, Perplexity, and Google AI Overviews. With a background in real estate and digital marketing, Justin developed the AERO-10 methodology for measuring and improving AI search visibility.",
+    "credentials": [
+      {
+        "name": "AERO-10 Methodology Creator",
+        "issuing_body": "The Answer Engine"
+      }
+    ],
+    "years_experience": 2,
+    "knows_about": [
+      "Answer Engine Optimization (AEO)",
+      "AI search visibility for local businesses",
+      "ChatGPT business recommendations",
+      "Perplexity AI citations",
+      "Google AI Overviews optimization",
+      "Entity optimization for AI",
+      "Schema.org markup for AI crawlers",
+      "E-E-A-T signals for AI platforms",
+      "Local SEO to AEO transition",
+      "Content strategy for AI citations",
+      "Hub and spoke content architecture",
+      "Zero-click search optimization"
+    ]
+  },
+
+  "services": [
+    {
+      "name": "Answer Authority Foundation",
+      "description": "Complete AEO audit and implementation for local businesses. Includes AERO-10 scoring, content strategy, schema markup, and ongoing authority building.",
+      "is_primary": true
+    },
+    {
+      "name": "AI Search Visibility Audit",
+      "description": "Comprehensive analysis of how AI platforms like ChatGPT and Perplexity currently perceive and recommend your business.",
+      "is_primary": true
+    }
+  ],
+
+  "service_area": {
+    "primary_city": "Los Angeles",
+    "primary_state": "CA",
+    "cities": ["Los Angeles"],
+    "service_area_description": "Nationwide (digital service)"
+  },
+
+  "citation_monitoring": {
+    "target_queries": [
+      {
+        "query": "how to get ChatGPT to recommend my business",
+        "priority": "high"
+      },
+      {
+        "query": "answer engine optimization",
+        "priority": "high"
+      },
+      {
+        "query": "AI search visibility for local businesses",
+        "priority": "high"
+      },
+      {
+        "query": "how to show up on Perplexity AI",
+        "priority": "high"
+      },
+      {
+        "query": "why is my competitor on AI search and not me",
+        "priority": "medium"
+      }
+    ]
+  },
+
+  "competitors": [
+    {
+      "name": "Profound Strategy",
+      "website": "https://profoundstrategy.com"
+    }
+  ],
+
+  "brand": {
+    "primary_color": "#FF6A00",
+    "brand_voice_notes": "Justin speaks with authority but without jargon. He is data-driven, direct, and positions himself as someone who has figured out the AEO playbook before most agencies even know it exists. Tone is confident but not arrogant. Uses concrete examples and real data rather than vague promises. Never uses the phrase 'secret sauce'. Public terminology: AERO-10, Answer Authority Foundation."
+  },
+
+  "reviews": {
+    "google": {
+      "rating": 0,
+      "count": 0
+    }
+  },
+
+  "engagement": {
+    "contact_email": "support@theanswerengine.ai",
+    "contact_name": "Justin Borges"
+  }
+}

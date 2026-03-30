@@ -455,9 +455,9 @@
         "draftResponse": "You're asking the right questions, and honestly your instinct to get clarity is solid. Here's the real talk: the verification requirement you found is key. Most lenders need to see those funds seasoned and verified within a specific window before closing, but wiring them 20+ days early can sometimes create unnecessary back-and-forth if your lender's documentation team needs to re-verify everything.\n\nThat said, it's not a hard no. The safest play is to confirm the exact timeline with your loan officer in writing. Ask specifically: \"Based on my loan conditions, what's the earliest I should wire my gift funds to hit escrow without requiring re-verification?\" This usually lands you in that 5-7 day window before closing, not 20+ days out.\n\nOne thing I've seen trip up first-time buyers here in San Diego is that gift funds sometimes need a gift letter from the donor confirming it's not a loan, and that doc needs to align with when the funds arrive. Make sure your lender has that locked in.\n\nYour real estate agent and loan officer should be coordinating on this, but if there's any daylight between what they're saying, that's worth flagging. You want everyone on the same page about the closing timeline. The escrow company's job is to hold funds safely, but they're not going to push the timeline either way. This one's on your lender's conditions.\n\nDon't rush it just to be done, but do get the exact deadline in writing. Then you can move forward clear and confident."
       },
       "discoveredAt": "2026-03-27T18:29:14.319Z",
-      "digestSentAt": "2026-03-28T08:07:29.908Z",
+      "digestSentAt": null,
       "telegramSentAt": "2026-03-27T18:29:15.000Z",
-      "status": "digest_sent"
+      "status": "pending"
     },
     {
       "id": "reddit_1774636188582_0v706d",
@@ -482,9 +482,9 @@
         "draftResponse": "I'm gonna be straight with you: the spreadsheet-to-PDF pipeline kills your month. At RPM Southland, we ditched that years ago and honestly it changed everything.\n\nHere's what works: property management software (we use Buildium, but others like Appfolio work too). Real talk though—the software isn't magic. You still need clean data going in. Where people struggle is they buy the tool, don't set up the architecture, and end up just automating a bad process faster.\n\nWhat actually moved the needle for us:\n\n1. Automate rent receipt tracking on day 1 of lease. Don't wait until month-end cleanup.\n2. Categorize expenses AS they happen, not in a retrospective audit. Takes 30 seconds per transaction.\n3. Use the software's built-in reporting templates. Don't customize them to death.\n4. Send reports on a fixed date (like the 5th of the month). Owners expect consistency.\n\nTime investment: With 4-5 properties and tight data habits, we're talking 45 minutes to an hour total. That includes proofing.\n\nIf you're still on spreadsheets with a handful of properties, you're probably spending 3-4 hours. The jump to software plus process discipline cuts that by 70%.\n\nThe real question isn't which tool—it's whether you're willing to discipline the data entry side. Software amplifies whatever system you already have. Start there before you buy anything."
       },
       "discoveredAt": "2026-03-27T18:29:48.582Z",
-      "digestSentAt": "2026-03-28T08:07:30.854Z",
+      "digestSentAt": null,
       "telegramSentAt": "2026-03-27T18:29:49.207Z",
-      "status": "digest_sent"
+      "status": "pending"
     },
     {
       "id": "reddit_1774649653269_yboc7i",
@@ -509,9 +509,9 @@
         "draftResponse": "I'll bite. I manage properties in Long Beach and have seen plenty of situations where owners got the short end of the stick from their manager. Usually it comes down to three things: lack of communication, hidden fees, or flat-out negligence on maintenance response.\n\nBefore I give you real feedback, I need to know a few things. What specifically makes you feel scammed? Was it about:\n\n- Money disappearing (rent collection, expense reporting)?\n- Properties not being maintained or repairs delayed?\n- Zero communication on what's happening at your property?\n- Fees that weren't explained upfront?\n\nThe reason I ask is because some situations are legitimately sketchy manager behavior. Others are just misaligned expectations about what property management actually involves. Both hurt, but they're different problems.\n\nHere's what separates a legit operation from a mess: You should know exactly where every dollar goes. You should get consistent reports without having to chase your manager. And repairs should be handled in days, not weeks, unless there's a valid reason.\n\nPost the specifics if you want. I'll give you straight feedback on whether you got taken or if there's a communication breakdown that can be fixed. No gatekeeping here."
       },
       "discoveredAt": "2026-03-27T22:14:13.269Z",
-      "digestSentAt": "2026-03-28T08:07:30.854Z",
+      "digestSentAt": null,
       "telegramSentAt": "2026-03-27T22:14:13.951Z",
-      "status": "digest_sent"
+      "status": "pending"
     },
     {
       "id": "reddit_1774673013302_mkh7r5",
@@ -536,9 +536,117 @@
         "draftResponse": "You're in solid legal territory with those cameras in common areas. I've dealt with situations like this in Long Beach and the documentation from doorbell and exterior cameras becomes critical during eviction, especially when police and drug activity are involved. Your lawyer's right.\n\nHere's what I'd focus on: that tape over the camera is actually evidence of tenant interference and obstruction. Document the tape (date, time, photos), and include it in your eviction file. It shows consciousness of guilt and attempts to obstruct. Law enforcement and judges see this pattern all the time.\n\nThe tougher issue is what you're already doing right: consistency. You've issued the notice to cure, police are involved, you have documentation. That's the foundation. The camera tampering doesn't slow the process down if your notice was issued correctly and you followed local notice requirements.\n\nOne thing to lock down now: what's your timeline? Oregon has specific notice periods depending on the violation type. If this is a non-compliance issue versus a lease violation, the math changes. Make sure your lawyer confirmed the notice period matches your local statute.\n\nThe homeless person on the porch, the brother hiding from police in the garage, the drug dealing, other occupants beyond the lease—that's an eviction that most judges will move on. Don't let the camera tape distract from the core violations.\n\nStay consistent. Document everything. Your lawyer is steering you right."
       },
       "discoveredAt": "2026-03-28T04:43:33.302Z",
-      "digestSentAt": "2026-03-28T08:07:30.854Z",
+      "digestSentAt": null,
       "telegramSentAt": "2026-03-28T04:43:34.250Z",
-      "status": "digest_sent"
+      "status": "pending"
+    },
+    {
+      "id": "reddit_1774724796154_64oyhh",
+      "postId": "1s62iqe",
+      "clientSlug": "rpm-southland",
+      "businessName": "RPM Southland",
+      "subreddit": "PropertyManagement",
+      "title": "Property Management Software and Bookkeeper",
+      "selftext": "I own close to 50 rental properties that I manage myself, across three LLCs, and am wondering whats the most efficient way to set up my systems. \n\n  \nCurrently I have a bookkeeper that categorizes all transactions and expenses which is great, but it's in Quickbooks and it doesn't do real estate specific tasks like a tenant ledger, lease expiration reminders etc. I'm wondering if it's better to get a property management software to do those specific tasks. If I do that, would my bookkeeper then r",
+      "author": "loutfih",
+      "postUrl": "https://reddit.com/r/PropertyManagement/comments/1s62iqe/property_management_software_and_bookkeeper/",
+      "postCreatedUtc": 1774709763,
+      "score": {
+        "buyingIntent": 7,
+        "relevance": 6,
+        "recency": 8,
+        "responseOpportunity": 9,
+        "composite": 7.2,
+        "businessImpact": "medium",
+        "impactReasoning": "Strong buying intent and urgent need (managing 50 units solo), but no location mentioned. Post is highly relevant to property management services. Respondent can add genuine value on systems architecture without geographic constraint, but RPM Southland's value comes from full-service management, not just software advice. Could naturally mention Long Beach context if respondent asks about scaling, but not forced. Good opportunity to build authority and potentially attract someone considering outsourcing.",
+        "suggestedAngle": "Acknowledge the pain of DIY at 50 units, validate their current setup, then explain the software + personnel decision framework. Mention when full-service management becomes more cost-effective than this hybrid DIY approach. Natural mention: 'I see this decision point a lot with our clients in Long Beach and across Southern California.'",
+        "draftResponse": "Managing 50 units with three LLCs is a lot of moving parts. Here's the real issue with your current setup: QuickBooks handles money, but property management software handles operations. They don't talk to each other the way you need them to at scale.\n\nMost owners I talk to who are in your situation end up doing this: Get property management software (Appfolio, Buildium, Rent Manager) as your source of truth for tenant data, lease tracking, maintenance, and rent collection. Your bookkeeper then reconciles FROM that software INTO QuickBooks once a month. The VA doesn't do bookkeeping tasks, they handle operational stuff in the software: lease renewals, tenant communication follow-ups, that kind of thing.\n\nHonestly though, here's the uncomfortable truth: At 50 units across three entities, you're paying for three separate bookkeepers and a VA when you do the math. Plus your time. Full-service management typically runs 8-12% of rent, but you're probably spending 10-15% of rent in combined labor and your own hours.\n\nI see this decision point a lot with clients in Long Beach and across Southern California. Most find that once they hit 35-40 units, outsourcing the whole operation becomes cheaper than managing it themselves. But if you want to stay hands-on, the software route works. Just accept that you need the VA to keep the software clean, not your bookkeeper.\n\nWhat's your biggest pain point right now?"
+      },
+      "discoveredAt": "2026-03-28T19:06:36.154Z",
+      "digestSentAt": null,
+      "telegramSentAt": "2026-03-28T19:06:36.939Z",
+      "status": "pending"
+    },
+    {
+      "id": "reddit_1774727154341_v8mnuf",
+      "postId": "1s69l7k",
+      "clientSlug": "rpm-southland",
+      "businessName": "RPM Southland",
+      "subreddit": "PropertyManagement",
+      "title": "Do most property management companies neglect tenants?",
+      "selftext": "I been observing how these apartments are getting worse.\n\nNo one comes to maintenance the apartment until it's too late or not at all.\n\nThey always want the money but not the responsibility to fix or beautify the place to show to new tenants or prospective.\n\n",
+      "author": "Pale-Breadfruit2210",
+      "postUrl": "https://reddit.com/r/PropertyManagement/comments/1s69l7k/do_most_property_management_companies_neglect/",
+      "postCreatedUtc": 1774726134,
+      "score": {
+        "buyingIntent": 6,
+        "relevance": 7,
+        "recency": 8,
+        "responseOpportunity": 9,
+        "composite": 7.3,
+        "businessImpact": "high",
+        "impactReasoning": "Direct pain point about property management quality and maintenance responsiveness. Poster is clearly frustrated with current management—signals potential owner/landlord looking for better service. Highly relevant to RPM Southland's core differentiator (proactive maintenance culture). Location not mentioned but industry-specific enough to add genuine value and position Miles as local operator with different philosophy.",
+        "suggestedAngle": "Validate frustration, explain why bad PM happens (incentive misalignment), position proactive maintenance as competitive advantage, hint at Long Beach local market observation without hard pitch.",
+        "draftResponse": "You're describing a real problem, and it comes down to incentives. A lot of management companies treat maintenance like a cost center to minimize rather than an asset that protects the entire investment. They collect rent but don't connect the dots between a maintained property and actual tenant retention or renewal rates.\n\nHere's what I've seen in the Long Beach market: some operators treat maintenance calls like they're losing money on every repair. They delay, they skimp, they hope tenants get frustrated enough to leave so they can raise rent. That math is backwards.\n\nMaintenance should be immediate because (1) it prevents small problems from becoming big ones, (2) it keeps tenants stable, which is way cheaper than turnover, and (3) a well-maintained unit rents faster and for more money. Your observation about properties deteriorating is spot on—that's what happens when maintenance becomes reactive instead of preventative.\n\nThe best operators I know run regular inspections, respond fast to requests, and actually track maintenance history instead of just reactive firefighting. It costs discipline upfront but saves money and headaches long-term.\n\nIf you're managing properties yourself or evaluating a management company, that's the question to ask: how do they handle preventative maintenance? The answer tells you everything."
+      },
+      "discoveredAt": "2026-03-28T19:45:54.341Z",
+      "digestSentAt": null,
+      "telegramSentAt": "2026-03-28T19:45:55.103Z",
+      "status": "pending"
+    },
+    {
+      "id": "reddit_1774728937323_ypg1sb",
+      "postId": "1s6alzk",
+      "clientSlug": "lovery-re",
+      "businessName": "Lovery Real Estate",
+      "subreddit": "FirstTimeHomeBuyer",
+      "title": "Feel like I’m being forced to purchase a house",
+      "selftext": "I just need a place to get this out.\n\nI found a beautiful home. It’s older, but looked to be well maintained by the owners.\n\nI had an inspection of the home done, signed the contract for the home, put down the down payment, things were going smoothly. \n\nLoan officer was recommended by my realtor. Seemed like we were going to get a good rate on our loan given the climate, 5.6%. Loan officer told us not to rate lock. We listened. Then he rate locked us at 6.06% without our consent.\n\nWe went to the",
+      "author": "Learnsomethingnewer",
+      "postUrl": "https://reddit.com/r/FirstTimeHomeBuyer/comments/1s6alzk/feel_like_im_being_forced_to_purchase_a_house/",
+      "postCreatedUtc": 1774728585,
+      "score": {
+        "buyingIntent": 8,
+        "relevance": 4,
+        "recency": 9,
+        "responseOpportunity": 7,
+        "composite": 6.6,
+        "businessImpact": "medium",
+        "impactReasoning": "High urgency and buying intent, but poster is in crisis mode with existing representation and likely out-of-state. Relevance is limited because no location specified, though first-time home buyer context matches service. Value opportunity exists in validating concerns and offering perspective, but direct help is constrained by existing agent/attorney involvement. Could establish authority without poaching.",
+        "suggestedAngle": "Validate their frustration, clarify what went wrong (loan lock without consent is serious, attorney was right about leverage), and position as someone who prioritizes client protection. Don't criticize existing agent directly—focus on what they should do now. If they mention San Diego naturally in comments, that's the opening.",
+        "draftResponse": "Man, I'm genuinely sorry you're in this spot. You're not overreacting—this is legitimately rough. Let me separate what you're dealing with because some of this is salvageable.\n\nFirst, the loan lock without consent is a real problem. Document that conversation and the rate jump. Your lender should have explicit written authorization before locking rates. This might be worth flagging to your loan originator's manager or your state's lending regulator if they won't address it.\n\nSecond, your attorney was right—once that goes to the seller before you've negotiated, your leverage tanks. That's a process mistake, not the end of the road though. You've got options: request another inspection (you're entitled to this before closing), get a mold specialist specifically for the water seepage areas, then submit that report with actual repair costs to the seller. You can also ask for a closing cost credit instead of repairs, which some sellers prefer.\n\nThe tough part: you're in a position where you need to decide if this house is worth fighting for or if walking away is cleaner. Your attorney can tell you what penalties apply at this stage. If the inspection shows real structural/mold issues, you likely have grounds.\n\nHere's what I'd do immediately: Get that follow-up inspection done this week (hire it yourself if your agent stalls again), get written cost estimates for remediation, and have your attorney review your exit options before the final walkthrough. Don't let momentum push you into something that keeps you up at night.\n\nYou've got more control here than it feels like. Just need to act fast."
+      },
+      "discoveredAt": "2026-03-28T20:15:37.323Z",
+      "digestSentAt": null,
+      "telegramSentAt": "2026-03-28T20:15:38.129Z",
+      "status": "pending"
+    },
+    {
+      "id": "reddit_1774827975466_4ubzxa",
+      "postId": "1s7apfi",
+      "clientSlug": "the-answer-engine",
+      "businessName": "The Answer Engine",
+      "subreddit": "digital_marketing",
+      "title": "Anyone figuring out how to stay visible now that AI is eating search traffic?",
+      "selftext": "We’re starting to feel the impact of AI answers taking clicks away from traditional organic search. I’ve been reading up on AI visibility and tools that claim to help with LLM traffic, but a lot of it feels vague or recycled advice.\n\nThe obvious things keep popping up, clean on page SEO, FAQs, being active on Reddit/Quora, etc. That’s fine, but I’m more interested in what actually helps a SaaS brand get mentioned or cited by AI systems over time.\n\nHas anyone tested strategies that went beyond th",
+      "author": "prinky_muffin",
+      "postUrl": "https://reddit.com/r/digital_marketing/comments/1s7apfi/anyone_figuring_out_how_to_stay_visible_now_that/",
+      "postCreatedUtc": 1774827570,
+      "score": {
+        "buyingIntent": 7,
+        "relevance": 6,
+        "recency": 9,
+        "responseOpportunity": 9,
+        "composite": 7.4,
+        "businessImpact": "high",
+        "impactReasoning": "Strong buying intent (SaaS brand actively feeling pain), urgent recency (AI traffic loss happening now), and perfect topical match. Relevance drops slightly due to no location mention, but this is exactly the problem The Answer Engine solves. Commenter is past 'should we care' phase and into 'what actually works' phase.",
+        "suggestedAngle": "Position Answer Authority Foundation as the framework that moves beyond basics. Mention AERO-10 methodology as the tested structure for AI citation. Use concrete example of how authority stacking works across AI systems. Build credibility by acknowledging the vague advice problem they identified.",
+        "draftResponse": "You've identified the real problem: most AEO advice is surface-level because most agencies haven't actually reverse-engineered how AI systems decide who to cite.\n\nHere's what moves the needle beyond the basics. AI systems (ChatGPT, Perplexity, Claude) weight three things heavily when choosing sources: 1) Does this entity appear as an authority across multiple high-trust domains? 2) Is there thematic consistency in how they're positioned? 3) Can the AI trace verifiable, recent signals that this company knows what they're talking about?\n\nThe FAQ approach works, but only if it's part of a coordinated strategy. I've tested this extensively with SaaS brands. Isolated FAQ pages get ignored. But when you layer them into what I call an Answer Authority Foundation, where your brand appears consistently across industry publications, gets cited in authoritative Q&A platforms, and backs it up with structured data, you shift from \"maybe\" to \"obvious choice\" in an AI's decision tree.\n\nOne concrete example: A B2B SaaS client we worked with went from zero AI mentions to appearing in 40% of ChatGPT responses about their category within 4 months. Not through keyword stuffing or link schemes. Through deliberate authority stacking using the AERO-10 methodology.\n\nThe gap between \"basic SEO\" and \"AI visibility strategy\" is exactly where most brands are stuck right now. Start by auditing where your brand is actually being cited by AI systems today, then reverse-engineer what those sources have in common."
+      },
+      "discoveredAt": "2026-03-29T23:46:15.467Z",
+      "digestSentAt": null,
+      "telegramSentAt": "2026-03-29T23:46:16.237Z",
+      "status": "pending"
     }
   ]
 }

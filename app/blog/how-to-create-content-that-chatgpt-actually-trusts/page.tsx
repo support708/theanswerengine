@@ -382,6 +382,16 @@ export default function Page() {
                 <div className="ae-decision-arrow">&rarr;</div>
                 <div className="ae-decision-then">AI sees no unique value and cites the original source instead</div>
               </div>
+              <div className="ae-decision-row">
+                <div className="ae-decision-if">Your content cites statistics or data that are more than 2 years old</div>
+                <div className="ae-decision-arrow">&rarr;</div>
+                <div className="ae-decision-then">AI flags data recency as a trust issue and prefers more current sources</div>
+              </div>
+              <div className="ae-decision-row">
+                <div className="ae-decision-if">Your business name, location, or category differs across your website, Google, and directories</div>
+                <div className="ae-decision-arrow">&rarr;</div>
+                <div className="ae-decision-then">AI cannot disambiguate your entity and reduces confidence in all citations</div>
+              </div>
             </div>
 
             <div className="ae-takeaway not-prose">

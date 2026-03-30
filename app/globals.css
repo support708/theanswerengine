@@ -477,8 +477,8 @@ button:focus-visible, a:focus-visible {
 }
 .ae-callout-danger .ae-callout-title { color: rgba(255,80,80,0.9); }
 .ae-callout-orange {
-  background: rgba(255,106,0,0.06);
-  border-color: rgba(255,106,0,0.4);
+  background: rgba(255,106,0,0.12);
+  border-color: rgba(255,106,0,0.6);
 }
 .ae-callout-orange .ae-callout-title { color: #FF6A00; }
 
