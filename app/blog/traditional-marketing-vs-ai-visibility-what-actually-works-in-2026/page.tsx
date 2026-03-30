@@ -1508,7 +1508,7 @@ export default function Page() {
                   {
                     step: '3',
                     label: 'AI Query',
-                    action: 'Customer says "Hey, who's the best AC repair near me?" to their AI assistant.',
+                    action: `Customer says "Hey, who's the best AC repair near me?" to their AI assistant.`,
                     channel: 'AI Search',
                   },
                   {
