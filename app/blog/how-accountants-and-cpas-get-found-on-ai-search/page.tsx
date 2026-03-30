@@ -48,7 +48,7 @@ const jsonLd = {
       "author": {
         "@type": "Organization",
         "name": "The Answer Engine Team",
-        "url": "https://theanswerengine.ai/about"
+        "url": "https://theanswerengine.ai"
       },
       "publisher": {
         "@type": "Organization",
@@ -123,10 +123,11 @@ const jsonLd = {
     },
     {
       "@type": "BreadcrumbList",
+      "@id": `https://theanswerengine.ai/blog/${slug}#breadcrumb`,
       "itemListElement": [
         { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://theanswerengine.ai/" },
         { "@type": "ListItem", "position": 2, "name": "Blog", "item": "https://theanswerengine.ai/blog" },
-        { "@type": "ListItem", "position": 3, "name": title }
+        { "@type": "ListItem", "position": 3, "name": title, "item": `https://theanswerengine.ai/blog/${slug}` }
       ]
     }
   ]
@@ -259,7 +260,7 @@ export default function HowAccountantsAndCPAsGetFoundOnAISearch() {
 
             <p>When a business owner asks ChatGPT &quot;Who is the best CPA for small business taxes near me?&quot; or Google AI generates an overview for &quot;What should I look for in an accountant?&quot;, certain firms keep appearing. They are not paying for those placements. They are not running ads inside AI platforms. They have built the kind of online presence that AI trusts enough to recommend.</p>
 
-            <p>The speed of this shift is staggering. AI adoption in accounting rose from just 9% in 2024 to 41% in 2025. That is a 355% increase in a single year. Accountants are adopting AI internally faster than almost any other profession. But here is the part most firms have not considered: the same AI tools transforming how you work are also transforming how clients find you.</p>
+            <p>The speed of this shift is staggering. According to a 2025 survey by Sage and the AICPA, AI adoption in accounting rose from just 9% in 2024 to 41% in 2025. That is a 355% increase in a single year. Accountants are adopting AI internally faster than almost any other profession. But here is the part most firms have not considered: the same AI tools transforming how you work are also transforming how clients find you.</p>
 
             <div className="ae-quote not-prose">
               <p>The accounting profession is undergoing the most significant technology shift since the spreadsheet replaced the ledger. Firms that recognize this as a visibility opportunity, not just an efficiency tool, are the ones capturing new clients from AI search.</p>
@@ -268,6 +269,8 @@ export default function HowAccountantsAndCPAsGetFoundOnAISearch() {
             <p>AI-driven search is rewriting the discovery process for professional services. A potential client used to type &quot;CPA near me&quot; into Google and scroll through a list of ten blue links. Now they ask an AI assistant a natural language question and get a curated answer with specific firm recommendations. The firms in that answer win the client. Everyone else is invisible.</p>
 
             <p>That shift in client behavior is accelerating, and most accounting firms have not even noticed.</p>
+
+            <p>The traditional CPA growth strategy — referrals from existing clients and directory listings on Yelp or Google Business Profile — no longer works the way it once did. Referrals still happen, but the first thing a referred prospect does is ask an AI assistant to validate the recommendation. Directory listings still exist, but AI systems do not pull from them the same way traditional search does. Copilot, ChatGPT, and Claude are now the gatekeepers between your firm and your next client. If these platforms do not recognize your firm as a trusted, credible source, you are invisible to a growing portion of the market — regardless of how many referrals or five-star reviews you have accumulated.</p>
 
             {/* CTA 1 */}
             <div className="ae-cta-inline not-prose">
@@ -305,6 +308,8 @@ export default function HowAccountantsAndCPAsGetFoundOnAISearch() {
             <h2>The Trust Signals AI Platforms Demand from CPAs</h2>
 
             <p>AI platforms evaluate accounting firms through the lens of E-E-A-T: Experience, Expertise, Authoritativeness, and Trustworthiness. For a regulated profession like accounting, each of these carries specific weight that determines whether your firm gets cited or ignored.</p>
+
+            <p>It is important to understand that AI platforms do not treat CPAs and Accountants as interchangeable. CPAs are licensed professionals regulated by state boards, with a primary focus on compliance, taxation, and audit services. Accountants without CPA licensure typically focus on bookkeeping, financial reporting, and day-to-day accounting operations. When AI systems evaluate a firm for a tax or compliance query, they apply stricter credential verification standards — looking for state board license data and CPA designation explicitly. For bookkeeping and general accounting queries, AI platforms broaden their evaluation criteria and weigh operational experience signals more heavily. Knowing which designation best applies to your firm helps you structure content and credentials in a way that aligns with how AI evaluates each category separately.</p>
 
             <h3>Experience: Evidence of Real Client Work</h3>
 
@@ -559,6 +564,47 @@ export default function HowAccountantsAndCPAsGetFoundOnAISearch() {
             <div className="ae-cta-inline not-prose">
               <p>Making any of these mistakes? Our free report identifies every AI visibility gap in your firm&apos;s presence.</p>
               <Link href="/blindspot">Get Your Free Blind Spot Report &rarr;</Link>
+            </div>
+
+            {/* 4-TIER AI READINESS MATRIX */}
+            <div className="ae-decision-matrix not-prose">
+              <h3>AI Readiness Assessment: Where Does Your Firm Stand?</h3>
+              <table>
+                <thead>
+                  <tr>
+                    <th>Tier</th>
+                    <th>What It Looks Like</th>
+                    <th>AI Visibility Outcome</th>
+                    <th>Next Step</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><strong>Foundation</strong></td>
+                    <td>Basic website, no schema, no bylines, generic content. Credentials buried in footer or missing. No CPA directory presence beyond Google.</td>
+                    <td>Invisible to AI. Filtered out by YMYL quality checks on every query.</td>
+                    <td>Add CPA bylines, implement ProfessionalService schema, claim AI-crawlable directory listings.</td>
+                  </tr>
+                  <tr>
+                    <td><strong>Building</strong></td>
+                    <td>Some service pages exist, credentials mentioned on About page, partial schema. Some directory presence but inconsistent NAP data.</td>
+                    <td>Occasional AI mentions. Inconsistent — appears for some queries, invisible for others.</td>
+                    <td>Expand to dedicated per-service pages, standardize NAP across all platforms, add FAQPage schema.</td>
+                  </tr>
+                  <tr>
+                    <td><strong>Advanced</strong></td>
+                    <td>Dedicated service pages with CPA bylines, full schema implementation, complete directory profiles, regular content updates for current tax year.</td>
+                    <td>Consistent AI citations for primary service and location queries. Showing up in Copilot, ChatGPT, and Google AI.</td>
+                    <td>Add seasonal content strategy, build state CPA society and professional journal presence, pursue external authority signals.</td>
+                  </tr>
+                  <tr>
+                    <td><strong>Expert</strong></td>
+                    <td>Full schema suite, multi-platform authority signals, seasonal content calendar, LinkedIn optimized for Copilot, client testimonials as plain HTML, IRS and GAAP citations on every financial content page.</td>
+                    <td>Dominant AI visibility across multiple platforms and query types. Cited ahead of larger competitors with weaker AI presence.</td>
+                    <td>Maintain freshness, monitor AI citation frequency, expand to agentic AI channels as they emerge.</td>
+                  </tr>
+                </tbody>
+              </table>
             </div>
 
             {/* COMPARISON TABLE 2 */}

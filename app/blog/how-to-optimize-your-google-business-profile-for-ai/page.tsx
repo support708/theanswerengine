@@ -11,7 +11,7 @@ const slug = 'how-to-optimize-your-google-business-profile-for-ai'
 const publishDate = '2026-03-30'
 
 export const metadata: Metadata = {
-  title: `${title} | AEO`,
+  title: `${title} | The Answer Engine`,
   description,
 
   openGraph: {
@@ -112,7 +112,7 @@ function ComprehensiveSchema() {
           },
           {
             "@type": "Question",
-            "name": "How do Google Reviews affect AI recommendations?",
+            "name": "How do I add verified reviews that signal trust to AI?",
             "acceptedAnswer": {
               "@type": "Answer",
               "text": "Google Reviews directly influence AI citation probability across multiple dimensions: total review count, recency of reviews, owner response rate, average star rating, and the actual content of the reviews. AI platforms use all of these signals to assess business credibility and relevance."
@@ -499,8 +499,8 @@ export default function HowToOptimizeGoogleBusinessProfileForAI() {
             <p>Keyword-stuffing your business description? AI does not care about keyword density. It cares about entity clarity. Adding dozens of irrelevant categories? That confuses entity classification rather than expanding it. Buying fake reviews? AI platforms are getting better at detecting inauthentic review patterns, and the penalty is not a lower ranking. It is complete exclusion from recommendations.</p>
 
             <div className="ae-callout ae-callout-orange not-prose">
-              <div className="ae-callout-title">The Real Problem</div>
-              <p>Most business owners cannot see their GBP the way AI sees it. The profile looks complete and professional to human eyes. But AI is reading it differently, comparing it against dozens of other data sources, and calculating a confidence score that determines whether you get recommended or ignored.</p>
+              <div className="ae-callout-title">Why Entity Verification Decides If AI Recommends You</div>
+              <p>AI platforms do not trust your GBP in isolation — they run a confidence calculation against every directory, social profile, and web mention that references your business. When those sources conflict, your confidence score drops and you get skipped. Entity verification is not a nice-to-have. It is the gatekeeper for every other AI signal you build.</p>
             </div>
 
             {/* ── DECISION MATRIX ── */}
@@ -676,7 +676,7 @@ export default function HowToOptimizeGoogleBusinessProfileForAI() {
               </div>
 
               <div className="border border-white/10 rounded-xl p-6">
-                <h3 className="text-white font-semibold text-lg mb-3">How do Google Reviews affect AI recommendations?</h3>
+                <h3 className="text-white font-semibold text-lg mb-3">How do I add verified reviews that signal trust to AI?</h3>
                 <p className="text-gray-300">Google Reviews directly influence AI citation probability across multiple dimensions: total review count, recency of reviews, owner response rate, average star rating, and the actual content of the reviews. AI platforms use all of these signals to assess business credibility and relevance.</p>
               </div>
 

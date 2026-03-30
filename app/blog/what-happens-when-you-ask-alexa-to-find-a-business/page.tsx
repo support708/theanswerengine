@@ -38,7 +38,7 @@ export const metadata: Metadata = {
     url: `https://theanswerengine.ai/blog/${slug}`,
     images: [
       {
-        url: `https://theanswerengine.ai/blog/${slug}.svg`,
+        url: `https://theanswerengine.ai/blog/${slug}.webp`,
         width: 1200,
         height: 630,
         alt: title,
@@ -49,7 +49,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: `${title} | The Answer Engine`,
     description,
-    images: [`https://theanswerengine.ai/blog/${slug}.svg`],
+    images: [`https://theanswerengine.ai/blog/${slug}.webp`],
   },
   alternates: {
     canonical: `https://theanswerengine.ai/blog/${slug}`,
@@ -497,6 +497,18 @@ export default function Page() {
                 <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" /></svg>
               </Link>
             </div>
+
+            <p className="text-gray-300 leading-relaxed mb-5">
+              To understand why data consistency matters so much, it helps to think about how Alexa&apos;s knowledge layer is actually structured. At the outermost layer sits the real-time query interpreter — this is where your spoken request gets parsed into a business category, intent, and location. That parsed intent then passes to the local resolution layer, which matches the query against its cached business index. The businesses in that index were not placed there by their owners. They were promoted into it by the aggregated weight of signals Alexa collected from its data sources over weeks and months. Getting into that index requires sustained, consistent signal pressure from multiple trusted sources simultaneously.
+            </p>
+
+            <p className="text-gray-300 leading-relaxed mb-5">
+              Beneath the local resolution layer sits what Amazon internally refers to as the entity confidence model. This is the scoring system that decides how certain Alexa is that a business record is accurate, active, and trustworthy. Each time a directory source confirms your business name, address, phone number, and category, that confirmation raises your entity confidence score. Each time a source contradicts another — a different phone number on Yelp versus a data aggregator, for example — that contradiction lowers the score. Alexa will not surface a business with a low entity confidence score in a spoken recommendation, even if that business has strong ratings on Yelp. Confidence in the data comes before confidence in the quality of the business.
+            </p>
+
+            <p className="text-gray-300 leading-relaxed mb-5">
+              The deepest layer is the recency and activity signal. Alexa&apos;s index is not static. It continuously re-evaluates business records as new data flows in from its source network. A business that was well-represented six months ago but has gone quiet — no new reviews, no updated hours, no activity on the directories that feed Alexa&apos;s pipeline — will gradually lose priority to competitors who are maintaining active data signals. This is why one-time optimization rarely holds. The businesses that remain visible in Alexa recommendations are the ones treating their data presence as an ongoing infrastructure problem, not a one-time setup task.
+            </p>
           </section>
 
           {/* Section 3: Trust Signals */}
@@ -894,7 +906,7 @@ export default function Page() {
               style={{ backgroundColor: '#1a1f2e', border: '1px solid rgba(255,106,0,0.15)' }}
             >
               <h3 className="font-plus-jakarta font-bold text-white mb-4">Related Reading: Voice and AI Platform Deep Dives</h3>
-              <div className="grid md:grid-cols-3 gap-4">
+              <div className="grid md:grid-cols-4 gap-4">
                 <Link
                   href="/blog/how-siri-decides-which-businesses-to-suggest"
                   className="block p-4 rounded-lg transition-all hover:border-orange-500"
@@ -918,6 +930,14 @@ export default function Page() {
                 >
                   <p className="text-xs uppercase tracking-wide mb-1" style={{ color: '#FF6A00' }}>Voice Search Guide</p>
                   <p className="text-sm font-semibold text-white leading-snug">How Do I Get My Business Found in Voice Search and AI?</p>
+                </Link>
+                <Link
+                  href="/blog/how-ai-platforms-choose-businesses-to-cite"
+                  className="block p-4 rounded-lg transition-all hover:border-orange-500"
+                  style={{ backgroundColor: 'rgba(255,106,0,0.05)', border: '1px solid rgba(255,106,0,0.1)' }}
+                >
+                  <p className="text-xs uppercase tracking-wide mb-1" style={{ color: '#FF6A00' }}>AI Platform Signals</p>
+                  <p className="text-sm font-semibold text-white leading-snug">How AI Platforms Choose Which Businesses to Cite</p>
                 </Link>
               </div>
             </div>

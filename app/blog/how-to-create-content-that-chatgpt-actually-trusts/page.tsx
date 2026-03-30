@@ -176,7 +176,7 @@ export default function Page() {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
       />
-      <main className="min-h-screen" style={{ background: '#0F1117' }}>
+      <main className="min-h-screen bg-[#0F1117]">
 
         {/* ══════════════ HERO SECTION ══════════════ */}
         <div className="relative overflow-hidden rounded-2xl mb-12" style={{ background: 'linear-gradient(135deg, #0d0600 0%, #1a1a2e 55%, #0F1117 100%)' }}>
@@ -298,7 +298,7 @@ export default function Page() {
             <p>The evaluation happens in layers. First, semantic relevance: does your content actually answer the question being asked? Second, entity authority: is the source a known, trusted entity? Third, validation: do other credible sources confirm your authority? Fourth, freshness: is this information current? Each layer filters out more sources until only the most trusted remain.</p>
 
             {/* ── COMPARISON TABLE ── */}
-            <div className="ae-comparison-table not-prose">
+            <div className="ae-comparison-table not-prose overflow-x-auto">
               <table>
                 <thead>
                   <tr>
@@ -361,7 +361,7 @@ export default function Page() {
             <p>Think about how ChatGPT generates responses. It needs to pull a confident, self-contained answer from your page. If your answer is buried in the fourth paragraph behind an anecdote and two subheadings, the AI moves on to a source that leads with the answer. <strong>Pages that lead with answer capsules are dramatically more likely to be cited.</strong></p>
 
             {/* ── DECISION MATRIX ── */}
-            <div className="ae-decision-matrix not-prose">
+            <div className="ae-decision-matrix not-prose overflow-x-auto">
               <div className="ae-decision-row">
                 <div className="ae-decision-if">Your page buries the answer after 300+ words of introduction</div>
                 <div className="ae-decision-arrow">&rarr;</div>
@@ -524,7 +524,7 @@ export default function Page() {
             <p>Some content practices actively harm your chances of being cited by AI. These are not minor optimization misses. They are fundamental trust violations that can remove your content from consideration entirely.</p>
 
             {/* ── DECISION MATRIX: TRUST KILLERS ── */}
-            <div className="ae-decision-matrix not-prose">
+            <div className="ae-decision-matrix not-prose overflow-x-auto">
               <table>
                 <thead>
                   <tr>

@@ -38,7 +38,7 @@ export const metadata: Metadata = {
     url: `https://theanswerengine.ai/blog/${slug}`,
     images: [
       {
-        url: `https://theanswerengine.ai/blog/${slug}.svg`,
+        url: `https://theanswerengine.ai/blog/${slug}.webp`,
         width: 1200,
         height: 630,
         alt: title,
@@ -49,7 +49,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: `${title} | The Answer Engine`,
     description,
-    images: [`https://theanswerengine.ai/blog/${slug}.svg`],
+    images: [`https://theanswerengine.ai/blog/${slug}.webp`],
   },
   alternates: {
     canonical: `https://theanswerengine.ai/blog/${slug}`,
@@ -514,6 +514,10 @@ export default function Page() {
               This is not speculation. It is visible in the data. When 67% of citations in a category are controlled by 30 domains, the remaining hundreds or thousands of businesses are fighting over roughly one-third of all recommendation opportunities. And each cycle, that one-third shrinks further as the top players consolidate.
             </p>
 
+            <p className="text-gray-300 leading-relaxed mb-5">
+              Consider what this looks like in practice. Starbucks has tens of thousands of Wikipedia mentions, a dedicated Wikipedia entry, hundreds of thousands of Yelp reviews, thousands of Reddit threads, regional news coverage in every city, and directory listings across every major platform. A new local cafe — even one that makes objectively better coffee — might have a Google Business Profile, 40 Google reviews, and a website. When an AI model is asked &ldquo;where should I get coffee near me?&rdquo; it is not comparing the quality of the espresso. It is comparing the weight of evidence across its trusted sources. The citation gap between Starbucks and a new local cafe is not just large — it is structurally insurmountable without a deliberate, multi-platform strategy to build the signals AI actually measures.
+            </p>
+
             {/* CTA Inline */}
             <div className="ae-cta-inline my-8 p-5 rounded-xl" style={{ backgroundColor: 'rgba(255,106,0,0.06)', border: '1px solid rgba(255,106,0,0.2)' }}>
               <p className="text-sm text-gray-300 mb-3">Every day your competitors are building AI authority while you are invisible. The compounding gap is real.</p>
@@ -661,6 +665,7 @@ export default function Page() {
                     'Your website answers common questions in your category clearly',
                     'You have recent, consistent reviews across more than one platform',
                     'Your brand name appears in local news or publications',
+                    'You have structured data markup that clearly identifies your business entity to AI crawlers',
                   ].map((item) => (
                     <li key={item} className="flex items-start gap-2 text-sm text-gray-300">
                       <svg className="w-4 h-4 mt-0.5 flex-shrink-0" style={{ color: '#22C55E' }} fill="currentColor" viewBox="0 0 20 20"><path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" /></svg>
@@ -1002,8 +1007,8 @@ export default function Page() {
                   a: 'No. Each AI platform has different citation preferences and source biases. ChatGPT leans heavily on Wikipedia and established web authority. Perplexity draws disproportionately from Reddit and mid-tier directories. Google AI takes a more distributed approach. A business that dominates one platform may be completely absent from another.',
                 },
                 {
-                  q: 'Is it possible to break into AI recommendations if competitors are already established?',
-                  a: 'Yes, but it requires a deliberate, platform-specific strategy. The concentration effect means early movers have a compounding advantage, but the window is not closed. Businesses that build presence across the specific sources each AI platform favors can displace incumbents. Understanding which platforms matter for your industry is the critical first step.',
+                  q: 'What specific signals do I need to out-rank an entrenched business in AI search?',
+                  a: 'You need to close the citation volume gap on the sources each platform weighs most heavily. For ChatGPT, that means Wikipedia presence and mentions in high-authority publications. For Perplexity, it means active Reddit threads and mid-tier directory coverage. Across all platforms, you need entity consistency (identical name, address, services everywhere AI looks), reviews on 4 or more platforms, and content that directly answers the category questions AI gets asked most. The entrenched competitor likely has all of these — your job is to match or exceed them on the specific signals that matter for your target platform.',
                 },
                 {
                   q: 'How often does ChatGPT change its business recommendations?',
