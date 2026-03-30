@@ -148,7 +148,11 @@
     "1s7apfi": 1774827967892
   },
   "lastPollBySubreddit": {},
-  "lastDigestByClient": {},
+  "lastDigestByClient": {
+    "the-answer-engine": "2026-03-30T19:07:13.644Z",
+    "lovery-re": "2026-03-30T19:07:14.666Z",
+    "rpm-southland": "2026-03-30T19:07:15.927Z"
+  },
   "monthlyStats": {
     "month": "2026-03",
     "totalScanned": 4755,
@@ -163,21 +167,21 @@
       },
       "lovery-re": {
         "opportunities": 9,
-        "digestsSent": 0,
+        "digestsSent": 1,
         "highImpact": 7,
         "mediumImpact": 2,
         "lowImpact": 0
       },
       "the-answer-engine": {
         "opportunities": 5,
-        "digestsSent": 0,
+        "digestsSent": 1,
         "highImpact": 4,
         "mediumImpact": 1,
         "lowImpact": 0
       },
       "rpm-southland": {
         "opportunities": 8,
-        "digestsSent": 0,
+        "digestsSent": 1,
         "highImpact": 5,
         "mediumImpact": 3,
         "lowImpact": 0
