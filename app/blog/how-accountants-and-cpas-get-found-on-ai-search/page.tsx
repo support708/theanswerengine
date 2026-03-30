@@ -45,7 +45,7 @@ const jsonLd = {
       "@id": `https://theanswerengine.ai/blog/${slug}#article`,
       "headline": title,
       "description": description,
-      "image": `https://theanswerengine.ai/blog/${slug}.webp`,
+      "image": { "@type": "ImageObject", "url": `https://theanswerengine.ai/blog/${slug}.webp`, "width": 1200, "height": 630 },
       "datePublished": publishDate,
       "dateModified": publishDate,
       "author": {
@@ -580,6 +580,7 @@ export default function HowAccountantsAndCPAsGetFoundOnAISearch() {
             <div className="ae-decision-matrix not-prose">
               <h3>AI Readiness Assessment: Where Does Your Firm Stand?</h3>
               <table>
+                <caption className="sr-only">Table: AI readiness assessment</caption>
                 <thead>
                   <tr>
                     <th>Tier</th>
@@ -620,6 +621,7 @@ export default function HowAccountantsAndCPAsGetFoundOnAISearch() {
             {/* COMPARISON TABLE 2 */}
             <div className="overflow-x-auto">
             <table className="ae-comparison-table not-prose">
+              <caption className="sr-only">Table: accounting vs. law firm AI visibility comparison</caption>
               <thead>
                 <tr>
                   <th>Factor</th>

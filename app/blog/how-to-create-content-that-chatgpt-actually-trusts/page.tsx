@@ -31,8 +31,8 @@ export const metadata: Metadata = {
     title: `${title} | The Answer Engine`,
     description,
     type: 'article',
-    publishedTime: publishDate,
-    modifiedTime: publishDate,
+    publishedTime: '2026-03-30T09:00:00-07:00',
+    modifiedTime: '2026-03-30T09:00:00-07:00',
     authors: ['The Answer Engine Team'],
     url: `https://theanswerengine.ai/blog/${slug}`,
     images: [
@@ -65,9 +65,9 @@ const jsonLd = {
       '@id': `https://theanswerengine.ai/blog/${slug}#article`,
       headline: title,
       description,
-      image: `https://theanswerengine.ai/blog/${slug}.webp`,
-      datePublished: publishDate,
-      dateModified: publishDate,
+      image: { "@type": "ImageObject", "url": "https://theanswerengine.ai/blog/how-to-create-content-that-chatgpt-actually-trusts.webp", "width": 1200, "height": 630 },
+      datePublished: '2026-03-30T09:00:00-07:00',
+      dateModified: '2026-03-30T09:00:00-07:00',
       author: {
         '@type': 'Organization',
         '@id': 'https://theanswerengine.ai/#organization',

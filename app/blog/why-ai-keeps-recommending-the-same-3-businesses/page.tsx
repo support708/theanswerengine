@@ -30,7 +30,7 @@ export const metadata: Metadata = {
   ],
   authors: [{ name: 'The Answer Engine Team' }],
   openGraph: {
-    title: `${title}`,
+    title: `${title} | The Answer Engine`,
     description,
     type: 'article',
     publishedTime: publishDate,
@@ -49,7 +49,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: `${title}`,
+    title: `${title} | The Answer Engine`,
     description,
     images: [`https://theanswerengine.ai/blog/${slug}.webp`],
     creator: '@theanswerengine',
@@ -69,12 +69,12 @@ const jsonLd = {
       description,
       image: {
         '@type': 'ImageObject',
-        url: `https://theanswerengine.com/blog/${slug}.webp`,
+        url: `https://theanswerengine.ai/blog/${slug}.webp`,
         width: 1200,
         height: 630,
       },
-      datePublished: publishDate + 'T00:00:00Z',
-      dateModified: publishDate + 'T00:00:00Z',
+      datePublished: '2026-03-30T09:00:00-07:00',
+      dateModified: '2026-03-30T09:00:00-07:00',
       author: {
         '@type': 'Organization',
         name: 'The Answer Engine',
@@ -569,6 +569,7 @@ export default function Page() {
             {/* Comparison Table */}
             <div className="ae-comparison-table overflow-x-auto mb-10 rounded-xl" style={{ border: '1px solid rgba(255,106,0,0.2)' }}>
               <table className="w-full text-sm">
+                <caption className="sr-only">Table: AI platform citation source comparison</caption>
                 <thead>
                   <tr style={{ backgroundColor: 'rgba(255,106,0,0.12)' }}>
                     <th className="text-left p-4 font-plus-jakarta font-semibold text-white">Signal / Source</th>
@@ -766,6 +767,7 @@ export default function Page() {
 
             <div className="ae-decision-matrix overflow-x-auto rounded-xl" style={{ border: '1px solid rgba(255,106,0,0.2)' }}>
               <table className="w-full text-sm">
+                <caption className="sr-only">Table: AI recommendation readiness evaluation</caption>
                 <thead>
                   <tr style={{ backgroundColor: 'rgba(255,106,0,0.12)' }}>
                     <th className="text-left p-4 font-plus-jakarta font-semibold text-white">Signal Area</th>

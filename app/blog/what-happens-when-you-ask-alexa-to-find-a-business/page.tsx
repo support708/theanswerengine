@@ -30,7 +30,7 @@ export const metadata: Metadata = {
   ],
   authors: [{ name: 'The Answer Engine Team' }],
   openGraph: {
-    title: `${title}`,
+    title: `${title} | The Answer Engine`,
     description,
     type: 'article',
     publishedTime: publishDate,
@@ -49,7 +49,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: `${title}`,
+    title: `${title} | The Answer Engine`,
     description,
     images: [`https://theanswerengine.ai/blog/${slug}.webp`],
     creator: '@theanswerengine',
@@ -73,8 +73,8 @@ const jsonLd = {
         width: 1200,
         height: 630,
       },
-      datePublished: publishDate + 'T00:00:00Z',
-      dateModified: publishDate + 'T00:00:00Z',
+      datePublished: '2026-03-30T09:00:00-07:00',
+      dateModified: '2026-03-30T09:00:00-07:00',
       author: {
         '@type': 'Organization',
         '@id': 'https://theanswerengine.ai/#organization',
