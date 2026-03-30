@@ -30,7 +30,7 @@ export const metadata: Metadata = {
   ],
   authors: [{ name: 'The Answer Engine Team' }],
   openGraph: {
-    title: `${title} | The Answer Engine`,
+    title,
     description,
     type: 'article',
     publishedTime: publishDate,
@@ -47,7 +47,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: `${title} | The Answer Engine`,
+    title,
     description,
     images: [`https://theanswerengine.ai/blog/${slug}.webp`],
   },
@@ -166,6 +166,14 @@ const jsonLd = {
           item: `https://theanswerengine.ai/blog/${slug}`,
         },
       ],
+    },
+    {
+      '@type': 'Organization',
+      '@id': 'https://theanswerengine.ai/#organization',
+      name: 'The Answer Engine',
+      url: 'https://theanswerengine.ai',
+      logo: 'https://theanswerengine.ai/TheAnswerEngine_Color.png',
+      description: 'Answer Engine Optimization agency helping businesses get cited by AI platforms.',
     },
   ],
 }

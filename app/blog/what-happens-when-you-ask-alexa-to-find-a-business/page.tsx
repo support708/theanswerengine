@@ -30,7 +30,7 @@ export const metadata: Metadata = {
   ],
   authors: [{ name: 'The Answer Engine Team' }],
   openGraph: {
-    title: `${title} | The Answer Engine`,
+    title,
     description,
     type: 'article',
     publishedTime: publishDate,
@@ -44,10 +44,11 @@ export const metadata: Metadata = {
         alt: title,
       },
     ],
+    siteName: 'The Answer Engine',
   },
   twitter: {
     card: 'summary_large_image',
-    title: `${title} | The Answer Engine`,
+    title,
     description,
     images: [`https://theanswerengine.ai/blog/${slug}.webp`],
   },
@@ -64,17 +65,21 @@ const jsonLd = {
       '@id': `https://theanswerengine.ai/blog/${slug}#article`,
       headline: title,
       description,
+      image: {
+        '@type': 'ImageObject',
+        url: `https://theanswerengine.ai/blog/${slug}.webp`,
+        width: 1200,
+        height: 630,
+      },
       datePublished: publishDate + 'T00:00:00Z',
       dateModified: publishDate + 'T00:00:00Z',
       author: {
         '@type': 'Organization',
-        name: 'The Answer Engine',
-        url: 'https://theanswerengine.ai',
+        '@id': 'https://theanswerengine.ai/#organization',
       },
       publisher: {
         '@type': 'Organization',
-        name: 'The Answer Engine',
-        url: 'https://theanswerengine.ai',
+        '@id': 'https://theanswerengine.ai/#organization',
       },
       mainEntityOfPage: {
         '@type': 'WebPage',
@@ -166,6 +171,14 @@ const jsonLd = {
           item: `https://theanswerengine.ai/blog/${slug}`,
         },
       ],
+    },
+    {
+      '@type': 'Organization',
+      '@id': 'https://theanswerengine.ai/#organization',
+      name: 'The Answer Engine',
+      url: 'https://theanswerengine.ai',
+      logo: 'https://theanswerengine.ai/TheAnswerEngine_Color.png',
+      description: 'Answer Engine Optimization agency helping businesses get cited by AI platforms.',
     },
   ],
 }

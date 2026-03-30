@@ -15,7 +15,7 @@ export const metadata: Metadata = {
   description,
   keywords: ["accountant AI search", "CPA AI visibility", "accounting firm AI optimization", "AI search CPAs", "answer engine optimization accountants", "YMYL accounting", "ChatGPT CPA recommendations", "AI marketing accounting firms"],
   openGraph: {
-    title,
+    title: `${title} | The Answer Engine`,
     description: 'AI adoption in accounting surged to 41%. Discover why AI search is reshaping how clients find CPAs and accounting firms.',
     type: 'article',
     publishedTime: publishDate,
@@ -26,8 +26,10 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title,
+    title: `${title} | The Answer Engine`,
     description: 'AI adoption in accounting surged to 41%. Here is how AI search is reshaping how clients find CPAs.',
+    images: [`https://theanswerengine.ai/blog/${slug}.webp`],
+    creator: '@theanswerengine',
   },
   alternates: {
     canonical: `https://theanswerengine.ai/blog/${slug}`,
