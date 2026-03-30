@@ -13,6 +13,7 @@ const publishDate = '2026-03-30';
 export const metadata: Metadata = {
   title: `${title} | The Answer Engine`,
   description,
+  authors: [{ name: 'The Answer Engine Team' }],
   keywords: ["accountant AI search", "CPA AI visibility", "accounting firm AI optimization", "AI search CPAs", "answer engine optimization accountants", "YMYL accounting", "ChatGPT CPA recommendations", "AI marketing accounting firms"],
   openGraph: {
     title: `${title} | The Answer Engine`,
@@ -120,7 +121,12 @@ const jsonLd = {
       "@id": "https://theanswerengine.ai/#organization",
       "name": "The Answer Engine",
       "url": "https://theanswerengine.ai",
-      "logo": "https://theanswerengine.ai/TheAnswerEngine_Color.png",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://theanswerengine.ai/TheAnswerEngine_white.png",
+        "width": 600,
+        "height": 60
+      },
       "description": "Answer Engine Optimization agency helping businesses get cited by AI platforms."
     },
     {
@@ -142,7 +148,7 @@ function Breadcrumb() {
       <span className="mx-2">&rsaquo;</span>
       <Link href="/blog" className="hover:text-white transition-colors">Blog</Link>
       <span className="mx-2">&rsaquo;</span>
-      <span className="text-gray-400">Accountants &amp; AI Search</span>
+      <span className="text-gray-400">{title}</span>
     </nav>
   );
 }
@@ -344,6 +350,7 @@ export default function HowAccountantsAndCPAsGetFoundOnAISearch() {
             {/* COMPARISON TABLE */}
             <div className="overflow-x-auto">
             <table className="ae-comparison-table not-prose">
+              <caption className="sr-only">Table: AI trust signal comparison</caption>
               <thead>
                 <tr>
                   <th>Trust Signal</th>
@@ -405,6 +412,7 @@ export default function HowAccountantsAndCPAsGetFoundOnAISearch() {
             <div className="ae-decision-matrix not-prose">
               <h3>AI Platform Relevance for Accounting Firms</h3>
               <table>
+                <caption className="sr-only">Table: AI platform relevance evaluation</caption>
                 <thead>
                   <tr>
                     <th>Platform</th>

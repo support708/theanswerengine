@@ -30,10 +30,11 @@ export const metadata: Metadata = {
   ],
   authors: [{ name: 'The Answer Engine Team' }],
   openGraph: {
-    title,
+    title: `${title}`,
     description,
     type: 'article',
     publishedTime: publishDate,
+    modifiedTime: publishDate,
     authors: ['The Answer Engine Team'],
     url: `https://theanswerengine.ai/blog/${slug}`,
     images: [
@@ -44,12 +45,14 @@ export const metadata: Metadata = {
         alt: title,
       },
     ],
+    siteName: 'The Answer Engine',
   },
   twitter: {
     card: 'summary_large_image',
-    title,
+    title: `${title}`,
     description,
     images: [`https://theanswerengine.ai/blog/${slug}.webp`],
+    creator: '@theanswerengine',
   },
   alternates: {
     canonical: `https://theanswerengine.ai/blog/${slug}`,
@@ -64,6 +67,12 @@ const jsonLd = {
       '@id': `https://theanswerengine.ai/blog/${slug}#article`,
       headline: title,
       description,
+      image: {
+        '@type': 'ImageObject',
+        url: `https://theanswerengine.com/blog/${slug}.webp`,
+        width: 1200,
+        height: 630,
+      },
       datePublished: publishDate + 'T00:00:00Z',
       dateModified: publishDate + 'T00:00:00Z',
       author: {
@@ -172,7 +181,12 @@ const jsonLd = {
       '@id': 'https://theanswerengine.ai/#organization',
       name: 'The Answer Engine',
       url: 'https://theanswerengine.ai',
-      logo: 'https://theanswerengine.ai/TheAnswerEngine_Color.png',
+      logo: {
+        '@type': 'ImageObject',
+        url: 'https://theanswerengine.ai/TheAnswerEngine_white.png',
+        width: 600,
+        height: 60,
+      },
       description: 'Answer Engine Optimization agency helping businesses get cited by AI platforms.',
     },
   ],
@@ -194,7 +208,7 @@ function Breadcrumb() {
           </Link>
         </li>
         <li className="text-gray-600">/</li>
-        <li className="text-gray-300 truncate max-w-xs">AI Recommends the Same 3 Businesses</li>
+        <li className="text-gray-300 truncate max-w-xs">{title}</li>
       </ol>
     </nav>
   )

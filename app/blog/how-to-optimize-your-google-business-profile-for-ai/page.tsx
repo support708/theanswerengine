@@ -13,9 +13,10 @@ const publishDate = '2026-03-30'
 export const metadata: Metadata = {
   title: `${title} | The Answer Engine`,
   description,
+  authors: [{ name: 'The Answer Engine Team' }],
 
   openGraph: {
-    title,
+    title: `${title} | The Answer Engine`,
     description,
     type: 'article',
     publishedTime: publishDate,
@@ -35,7 +36,7 @@ export const metadata: Metadata = {
 
   twitter: {
     card: 'summary_large_image',
-    title,
+    title: `${title} | The Answer Engine`,
     description: 'Your GBP is talking to AI platforms right now. Is it saying the right things?',
     images: [`https://theanswerengine.ai/blog/${slug}.webp`],
     creator: '@theanswerengine',
@@ -163,7 +164,8 @@ function ComprehensiveSchema() {
           {
             "@type": "ListItem",
             "position": 3,
-            "name": title
+            "name": title,
+            "item": `https://theanswerengine.ai/blog/${slug}`
           }
         ]
       },
@@ -403,6 +405,7 @@ export default function HowToOptimizeGoogleBusinessProfileForAI() {
 
             <div className="ae-comparison-table not-prose">
               <table>
+                <caption className="sr-only">Table: strong vs. weak review profiles</caption>
                 <thead>
                   <tr>
                     <th>Review Signal</th>

@@ -14,6 +14,7 @@ const publishDate = '2026-03-30'
 export const metadata: Metadata = {
   title: `${title} | The Answer Engine`,
   description,
+  authors: [{ name: 'The Answer Engine Team' }],
   keywords: [
     'content ChatGPT trusts',
     'AI trusted content',
@@ -27,7 +28,7 @@ export const metadata: Metadata = {
     'schema markup AI citations',
   ],
   openGraph: {
-    title,
+    title: `${title} | The Answer Engine`,
     description,
     type: 'article',
     publishedTime: publishDate,
@@ -46,9 +47,10 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title,
+    title: `${title} | The Answer Engine`,
     description,
     images: [`https://theanswerengine.ai/blog/${slug}.webp`],
+    creator: '@theanswerengine',
   },
   alternates: {
     canonical: `https://theanswerengine.ai/blog/${slug}`,
@@ -68,17 +70,11 @@ const jsonLd = {
       dateModified: publishDate,
       author: {
         '@type': 'Organization',
-        name: 'The Answer Engine',
-        url: 'https://theanswerengine.ai',
+        '@id': 'https://theanswerengine.ai/#organization',
       },
       publisher: {
         '@type': 'Organization',
-        name: 'The Answer Engine',
-        url: 'https://theanswerengine.ai',
-        logo: {
-          '@type': 'ImageObject',
-          url: 'https://theanswerengine.ai/logo.png',
-        },
+        '@id': 'https://theanswerengine.ai/#organization',
       },
       mainEntityOfPage: {
         '@type': 'WebPage',
@@ -165,6 +161,34 @@ const jsonLd = {
           item: `https://theanswerengine.ai/blog/${slug}`,
         },
       ],
+    },
+    {
+      '@type': 'Organization',
+      '@id': 'https://theanswerengine.ai/#organization',
+      name: 'The Answer Engine',
+      url: 'https://theanswerengine.ai',
+      logo: {
+        '@type': 'ImageObject',
+        url: 'https://theanswerengine.ai/TheAnswerEngine_white.png',
+        width: 600,
+        height: 60,
+      },
+      description: 'We specialize in Answer Engine Optimization (AEO) for local service businesses, positioning companies to be cited by Google AI Overviews, ChatGPT, Claude, and Perplexity.',
+    },
+    {
+      '@type': 'WebPage',
+      '@id': `https://theanswerengine.ai/blog/${slug}`,
+      url: `https://theanswerengine.ai/blog/${slug}`,
+      name: title,
+      isPartOf: {
+        '@type': 'WebSite',
+        '@id': 'https://theanswerengine.ai/#website',
+        url: 'https://theanswerengine.ai',
+        name: 'The Answer Engine',
+      },
+      breadcrumb: {
+        '@id': `https://theanswerengine.ai/blog/${slug}#breadcrumb`,
+      },
     },
   ],
 }
@@ -300,6 +324,7 @@ export default function Page() {
             {/* ── COMPARISON TABLE ── */}
             <div className="ae-comparison-table not-prose overflow-x-auto">
               <table>
+                <caption className="sr-only">Table: ChatGPT content trust factor comparison</caption>
                 <thead>
                   <tr>
                     <th>Trust Factor</th>
@@ -343,6 +368,12 @@ export default function Page() {
             </div>
 
             <p>The businesses that get cited consistently are not the ones with the most content. They are the ones that score well across all of these layers simultaneously. Learn more about how this applies to your site in our guide on <Link href="/blog/make-your-site-the-one-ai-trusts">making your site the one AI trusts</Link>.</p>
+
+            {/* ── CTA 2b (Comparison Table — inline) ── */}
+            <div className="ae-cta-inline not-prose">
+              <p>See exactly how your site scores against these six trust factors — free in under 60 seconds.</p>
+              <Link href="/blindspot">Get Your Free AI Trust Score &rarr;</Link>
+            </div>
 
             {/* ── CTA 3 (tel) ── */}
             <div className="ae-cta-inline not-prose">
@@ -526,6 +557,7 @@ export default function Page() {
             {/* ── DECISION MATRIX: TRUST KILLERS ── */}
             <div className="ae-decision-matrix not-prose overflow-x-auto">
               <table>
+                <caption className="sr-only">Table: trust killer evaluation</caption>
                 <thead>
                   <tr>
                     <th>Trust Killer</th>
@@ -591,6 +623,12 @@ export default function Page() {
                 <li><strong>Community sentiment:</strong> Build genuine positive presence on review sites, forums, and social platforms</li>
                 <li><strong>Heading hierarchy:</strong> Use clear H1/H2/H3 structure so AI can parse your content reliably</li>
               </ul>
+            </div>
+
+            {/* ── CTA 8b (Cheat Sheet — inline) ── */}
+            <div className="ae-cta-inline not-prose">
+              <p>Ready to implement this checklist on your site? Our team can do it for you.</p>
+              <a href="tel:+12134442229">Call (213) 444-2229 for a Free Checklist Review &rarr;</a>
             </div>
 
             {/* ── CTA 9 (mailto) ── */}
