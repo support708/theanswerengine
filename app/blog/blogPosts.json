@@ -2025,5 +2025,105 @@
       "Marketing Strategy",
       "AEO"
     ]
+  },
+  {
+    "id": 98,
+    "title": "How to Optimize Your Google Business Profile for AI",
+    "slug": "how-to-optimize-your-google-business-profile-for-ai",
+    "excerpt": "70% of AI search systems now access Google Business Profile data for local entity verification. Discover the 5 hidden signals Google Posts send to AI and how review optimization shapes AI rankings.",
+    "category": "How-To Guides",
+    "author": "The Answer Engine Team",
+    "readTime": "18 min",
+    "image": "/blog/how-to-optimize-your-google-business-profile-for-ai.webp",
+    "publishDate": "2026-03-30",
+    "lastModified": "2026-03-30",
+    "featured": true,
+    "tags": [
+      "Google Business Profile",
+      "Local SEO",
+      "Entity Verification",
+      "AI Search",
+      "How-To"
+    ]
+  },
+  {
+    "id": 99,
+    "title": "How to Create Content That ChatGPT Actually Trusts",
+    "slug": "how-to-create-content-that-chatgpt-actually-trusts",
+    "excerpt": "Wikipedia commands 12.1% of ChatGPT citations despite being only 0.001% of the web. Schema markup gets cited 2.8x more often. Learn the trust signals that turn your content into an answer capsule.",
+    "category": "How-To Guides",
+    "author": "The Answer Engine Team",
+    "readTime": "19 min",
+    "image": "/blog/how-to-create-content-that-chatgpt-actually-trusts.webp",
+    "publishDate": "2026-03-30",
+    "lastModified": "2026-03-30",
+    "featured": true,
+    "tags": [
+      "Content Strategy",
+      "Trust Signals",
+      "Schema Markup",
+      "ChatGPT",
+      "How-To"
+    ]
+  },
+  {
+    "id": 100,
+    "title": "What Happens When You Ask Alexa to Find a Business",
+    "slug": "what-happens-when-you-ask-alexa-to-find-a-business",
+    "excerpt": "63% of Alexa users search for businesses through voice. 52% listen to AI-generated snippets instead of clicking links. Optimize for voice, or lose to competitors who do.",
+    "category": "Platform Deep Dives",
+    "author": "The Answer Engine Team",
+    "readTime": "17 min",
+    "image": "/blog/what-happens-when-you-ask-alexa-to-find-a-business.webp",
+    "publishDate": "2026-03-30",
+    "lastModified": "2026-03-30",
+    "featured": true,
+    "tags": [
+      "Voice Search",
+      "Alexa",
+      "AI Assistants",
+      "Voice Optimization",
+      "Platform Deep Dives"
+    ]
+  },
+  {
+    "id": 101,
+    "title": "How Accountants and CPAs Get Found on AI Search",
+    "slug": "how-accountants-and-cpas-get-found-on-ai-search",
+    "excerpt": "47% of AI search queries are intent-driven service searches. Accountants with optimized reviews get cited 3.2x more often than those relying on traditional ads. AI search is reshaping professional services.",
+    "category": "Industry Guides",
+    "author": "The Answer Engine Team",
+    "readTime": "16 min",
+    "image": "/blog/how-accountants-and-cpas-get-found-on-ai-search.webp",
+    "publishDate": "2026-03-30",
+    "lastModified": "2026-03-30",
+    "featured": true,
+    "tags": [
+      "Professional Services",
+      "Accounting",
+      "AI Search",
+      "Local Reviews",
+      "Industry Guides"
+    ]
+  },
+  {
+    "id": 102,
+    "title": "Why AI Keeps Recommending the Same 3 Businesses",
+    "slug": "why-ai-keeps-recommending-the-same-3-businesses",
+    "excerpt": "75% of top-3 AI recommendations are repeat offenders. Citation density governs 68% of ranking strength. New businesses are locked out unless they break the citation clustering pattern.",
+    "category": "Business Pain Points",
+    "author": "The Answer Engine Team",
+    "readTime": "20 min",
+    "image": "/blog/why-ai-keeps-recommending-the-same-3-businesses.webp",
+    "publishDate": "2026-03-30",
+    "lastModified": "2026-03-30",
+    "featured": true,
+    "tags": [
+      "AI Rankings",
+      "Competition",
+      "Citation Clustering",
+      "Competitive Intelligence",
+      "Business Pain Points"
+    ]
   }
 ]

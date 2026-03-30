@@ -138,8 +138,9 @@
     "category": "How-To Guides",
     "pillar": "How-To",
     "priority": 1,
-    "status": "queued",
-    "createdAt": "2026-03-25T07:37:16.722Z"
+    "status": "published",
+    "createdAt": "2026-03-25T07:37:16.722Z",
+    "publishedAt": "2026-03-30T12:00:00.000Z"
   },
   {
     "id": "q2-5",
@@ -184,8 +185,9 @@
     "category": "How-To Guides",
     "pillar": "How-To",
     "priority": 2,
-    "status": "queued",
-    "createdAt": "2026-03-25T07:37:16.722Z"
+    "status": "published",
+    "createdAt": "2026-03-25T07:37:16.722Z",
+    "publishedAt": "2026-03-30T12:00:00.000Z"
   },
   {
     "id": "q2-9",
@@ -238,13 +240,14 @@
   {
     "id": "q2-13",
     "title": "What Happens When Someone Asks Alexa to Find a Local Business",
-    "slug": "what-happens-when-someone-asks-alexa-to-find-a-local-business",
+    "slug": "what-happens-when-you-ask-alexa-to-find-a-business",
     "targetKeyword": "Alexa find local business",
     "category": "Platform Deep Dives",
     "pillar": "Platform Deep Dives",
     "priority": 3,
-    "status": "queued",
-    "createdAt": "2026-03-25T07:37:16.722Z"
+    "status": "published",
+    "createdAt": "2026-03-25T07:37:16.722Z",
+    "publishedAt": "2026-03-30T12:00:00.000Z"
   },
   {
     "id": "q2-14",
