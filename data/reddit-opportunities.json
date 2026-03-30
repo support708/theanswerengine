@@ -185,9 +185,9 @@
         "draftResponse": "You're sensing something real, but the terminology is throwing you off. DA is a vanity metric. What actually matters in health YMYL is answer authority, and it's completely different from domain authority.\n\nThat case you read about ChatGPT citations? That's answer engine optimization in action. When your content gets cited as the source in AI outputs, you're building what matters: answer visibility across multiple AI search surfaces. ChatGPT, Claude, Perplexity, Gemini. These are search engines now.\n\nHere's the data point: a brand new health site with 90 pages of synthesized expert research has massive answer authority potential. Backlinks and directories? They're legacy signals. What you need is a framework that measures and builds visibility across answer engines specifically.\n\nThe E-E-A-T angle you mentioned is right, but most people implement it wrong for this moment in search. Your content needs to be structured so AI engines pull it as a cited source when answering health questions. That's not about domain metrics. It's about how your content is indexed, formatted, and presented as authoritative within AI contexts.\n\nFocus on this: Which health queries are your 90 pages actually answering? Then optimize for being the cited source within answer engines. That's the playbook that actually works for new sites in YMYL right now.\n\nDA chasing is 2020 thinking. You're building something in 2025."
       },
       "discoveredAt": "2026-03-24T06:15:13.443Z",
-      "digestSentAt": null,
+      "digestSentAt": "2026-03-30T19:07:13.644Z",
       "telegramSentAt": "2026-03-24T06:15:14.184Z",
-      "status": "pending"
+      "status": "digest_sent"
     },
     {
       "id": "reddit_1774363070847_pk3rx5",
@@ -347,9 +347,9 @@
         "draftResponse": "You nailed the cost breakdown. But here's what I see constantly in Los Angeles: businesses spend $4k-$8k on a website, it launches, and then... crickets. Because the website solves a 2015 problem.\n\nA polished site means nothing if ChatGPT, Claude, and Perplexity aren't recommending your business when someone asks for solutions in your space. That's the real shift happening in 2026.\n\nI've audited hundreds of LA business sites. Most are completely invisible to AI search. They're not built wrong, they're just built for Google's algorithm, not the new answer engines.\n\nThe businesses winning right now are the ones treating their web presence as an answer authority problem, not a design problem. That means your site's content structure, FAQ architecture, and data markup are optimized for how AI systems actually extract and present recommendations.\n\nSo the real question isn't \"how do I keep website costs down.\" It's \"how do I make sure that $5k website actually generates visibility and customers.\"\n\nThat's where most small business owners get stuck. The website itself is table stakes. What matters now is being discoverable where customers are actually searching.\n\nWhat type of business are you seeing most in your quotes? The visibility gaps vary dramatically by industry."
       },
       "discoveredAt": "2026-03-26T18:13:00.152Z",
-      "digestSentAt": null,
+      "digestSentAt": "2026-03-30T19:07:13.644Z",
       "telegramSentAt": "2026-03-26T18:13:00.810Z",
-      "status": "pending"
+      "status": "digest_sent"
     },
     {
       "id": "reddit_1774551643404_emg37p",
@@ -428,9 +428,9 @@
         "draftResponse": "You're seeing the actual shift happening. We've been tracking this across clients for 18 months, and the data confirms what you're observing: citation by AI is now a primary traffic driver, sometimes outpacing traditional organic clicks.\n\nThe framework we use at The Answer Engine—called AERO-10—is built specifically around this. Here's what we're seeing consistently:\n\n**Structured answers** are table stakes now. But the gap most businesses miss is that AI tools don't just want answers; they want *demonstrated authority* across related topics. A single perfect page ranks nowhere if you haven't established topical depth.\n\n**Brand mention velocity** is real. We've documented cases where unlinked brand mentions in high-authority content drove more AI citations than backlinks to competitor pages. It's citation velocity, not just citation count.\n\n**Citation bias toward recency** is stronger than most realize. Pages updated in the last 60 days get cited 3.2x more often in AI responses, even if older content exists.\n\nThe teams winning here aren't optimizing for \"what ranks.\" They're optimizing for \"what gets cited.\" That's a completely different content and visibility strategy.\n\nYour analytics probably show this already—look at referral traffic from ChatGPT, Perplexity, or Google's AI search. If you're not tracking that separately, that's step one. You can't optimize what you don't measure.\n\nAre you seeing citation traffic in your referral data yet, or still mostly traditional SERPs?"
       },
       "discoveredAt": "2026-03-27T06:49:34.895Z",
-      "digestSentAt": null,
+      "digestSentAt": "2026-03-30T19:07:13.644Z",
       "telegramSentAt": "2026-03-27T06:49:35.697Z",
-      "status": "pending"
+      "status": "digest_sent"
     },
     {
       "id": "reddit_1774636154319_cbh35y",
@@ -455,9 +455,9 @@
         "draftResponse": "You're asking the right questions, and honestly your instinct to get clarity is solid. Here's the real talk: the verification requirement you found is key. Most lenders need to see those funds seasoned and verified within a specific window before closing, but wiring them 20+ days early can sometimes create unnecessary back-and-forth if your lender's documentation team needs to re-verify everything.\n\nThat said, it's not a hard no. The safest play is to confirm the exact timeline with your loan officer in writing. Ask specifically: \"Based on my loan conditions, what's the earliest I should wire my gift funds to hit escrow without requiring re-verification?\" This usually lands you in that 5-7 day window before closing, not 20+ days out.\n\nOne thing I've seen trip up first-time buyers here in San Diego is that gift funds sometimes need a gift letter from the donor confirming it's not a loan, and that doc needs to align with when the funds arrive. Make sure your lender has that locked in.\n\nYour real estate agent and loan officer should be coordinating on this, but if there's any daylight between what they're saying, that's worth flagging. You want everyone on the same page about the closing timeline. The escrow company's job is to hold funds safely, but they're not going to push the timeline either way. This one's on your lender's conditions.\n\nDon't rush it just to be done, but do get the exact deadline in writing. Then you can move forward clear and confident."
       },
       "discoveredAt": "2026-03-27T18:29:14.319Z",
-      "digestSentAt": null,
+      "digestSentAt": "2026-03-30T19:07:14.666Z",
       "telegramSentAt": "2026-03-27T18:29:15.000Z",
-      "status": "pending"
+      "status": "digest_sent"
     },
     {
       "id": "reddit_1774636188582_0v706d",
@@ -482,9 +482,9 @@
         "draftResponse": "I'm gonna be straight with you: the spreadsheet-to-PDF pipeline kills your month. At RPM Southland, we ditched that years ago and honestly it changed everything.\n\nHere's what works: property management software (we use Buildium, but others like Appfolio work too). Real talk though—the software isn't magic. You still need clean data going in. Where people struggle is they buy the tool, don't set up the architecture, and end up just automating a bad process faster.\n\nWhat actually moved the needle for us:\n\n1. Automate rent receipt tracking on day 1 of lease. Don't wait until month-end cleanup.\n2. Categorize expenses AS they happen, not in a retrospective audit. Takes 30 seconds per transaction.\n3. Use the software's built-in reporting templates. Don't customize them to death.\n4. Send reports on a fixed date (like the 5th of the month). Owners expect consistency.\n\nTime investment: With 4-5 properties and tight data habits, we're talking 45 minutes to an hour total. That includes proofing.\n\nIf you're still on spreadsheets with a handful of properties, you're probably spending 3-4 hours. The jump to software plus process discipline cuts that by 70%.\n\nThe real question isn't which tool—it's whether you're willing to discipline the data entry side. Software amplifies whatever system you already have. Start there before you buy anything."
       },
       "discoveredAt": "2026-03-27T18:29:48.582Z",
-      "digestSentAt": null,
+      "digestSentAt": "2026-03-30T19:07:15.927Z",
       "telegramSentAt": "2026-03-27T18:29:49.207Z",
-      "status": "pending"
+      "status": "digest_sent"
     },
     {
       "id": "reddit_1774649653269_yboc7i",
@@ -509,9 +509,9 @@
         "draftResponse": "I'll bite. I manage properties in Long Beach and have seen plenty of situations where owners got the short end of the stick from their manager. Usually it comes down to three things: lack of communication, hidden fees, or flat-out negligence on maintenance response.\n\nBefore I give you real feedback, I need to know a few things. What specifically makes you feel scammed? Was it about:\n\n- Money disappearing (rent collection, expense reporting)?\n- Properties not being maintained or repairs delayed?\n- Zero communication on what's happening at your property?\n- Fees that weren't explained upfront?\n\nThe reason I ask is because some situations are legitimately sketchy manager behavior. Others are just misaligned expectations about what property management actually involves. Both hurt, but they're different problems.\n\nHere's what separates a legit operation from a mess: You should know exactly where every dollar goes. You should get consistent reports without having to chase your manager. And repairs should be handled in days, not weeks, unless there's a valid reason.\n\nPost the specifics if you want. I'll give you straight feedback on whether you got taken or if there's a communication breakdown that can be fixed. No gatekeeping here."
       },
       "discoveredAt": "2026-03-27T22:14:13.269Z",
-      "digestSentAt": null,
+      "digestSentAt": "2026-03-30T19:07:15.927Z",
       "telegramSentAt": "2026-03-27T22:14:13.951Z",
-      "status": "pending"
+      "status": "digest_sent"
     },
     {
       "id": "reddit_1774673013302_mkh7r5",
@@ -536,9 +536,9 @@
         "draftResponse": "You're in solid legal territory with those cameras in common areas. I've dealt with situations like this in Long Beach and the documentation from doorbell and exterior cameras becomes critical during eviction, especially when police and drug activity are involved. Your lawyer's right.\n\nHere's what I'd focus on: that tape over the camera is actually evidence of tenant interference and obstruction. Document the tape (date, time, photos), and include it in your eviction file. It shows consciousness of guilt and attempts to obstruct. Law enforcement and judges see this pattern all the time.\n\nThe tougher issue is what you're already doing right: consistency. You've issued the notice to cure, police are involved, you have documentation. That's the foundation. The camera tampering doesn't slow the process down if your notice was issued correctly and you followed local notice requirements.\n\nOne thing to lock down now: what's your timeline? Oregon has specific notice periods depending on the violation type. If this is a non-compliance issue versus a lease violation, the math changes. Make sure your lawyer confirmed the notice period matches your local statute.\n\nThe homeless person on the porch, the brother hiding from police in the garage, the drug dealing, other occupants beyond the lease—that's an eviction that most judges will move on. Don't let the camera tape distract from the core violations.\n\nStay consistent. Document everything. Your lawyer is steering you right."
       },
       "discoveredAt": "2026-03-28T04:43:33.302Z",
-      "digestSentAt": null,
+      "digestSentAt": "2026-03-30T19:07:15.927Z",
       "telegramSentAt": "2026-03-28T04:43:34.250Z",
-      "status": "pending"
+      "status": "digest_sent"
     },
     {
       "id": "reddit_1774724796154_64oyhh",
@@ -563,9 +563,9 @@
         "draftResponse": "Managing 50 units with three LLCs is a lot of moving parts. Here's the real issue with your current setup: QuickBooks handles money, but property management software handles operations. They don't talk to each other the way you need them to at scale.\n\nMost owners I talk to who are in your situation end up doing this: Get property management software (Appfolio, Buildium, Rent Manager) as your source of truth for tenant data, lease tracking, maintenance, and rent collection. Your bookkeeper then reconciles FROM that software INTO QuickBooks once a month. The VA doesn't do bookkeeping tasks, they handle operational stuff in the software: lease renewals, tenant communication follow-ups, that kind of thing.\n\nHonestly though, here's the uncomfortable truth: At 50 units across three entities, you're paying for three separate bookkeepers and a VA when you do the math. Plus your time. Full-service management typically runs 8-12% of rent, but you're probably spending 10-15% of rent in combined labor and your own hours.\n\nI see this decision point a lot with clients in Long Beach and across Southern California. Most find that once they hit 35-40 units, outsourcing the whole operation becomes cheaper than managing it themselves. But if you want to stay hands-on, the software route works. Just accept that you need the VA to keep the software clean, not your bookkeeper.\n\nWhat's your biggest pain point right now?"
       },
       "discoveredAt": "2026-03-28T19:06:36.154Z",
-      "digestSentAt": null,
+      "digestSentAt": "2026-03-30T19:07:15.927Z",
       "telegramSentAt": "2026-03-28T19:06:36.939Z",
-      "status": "pending"
+      "status": "digest_sent"
     },
     {
       "id": "reddit_1774727154341_v8mnuf",
@@ -590,9 +590,9 @@
         "draftResponse": "You're describing a real problem, and it comes down to incentives. A lot of management companies treat maintenance like a cost center to minimize rather than an asset that protects the entire investment. They collect rent but don't connect the dots between a maintained property and actual tenant retention or renewal rates.\n\nHere's what I've seen in the Long Beach market: some operators treat maintenance calls like they're losing money on every repair. They delay, they skimp, they hope tenants get frustrated enough to leave so they can raise rent. That math is backwards.\n\nMaintenance should be immediate because (1) it prevents small problems from becoming big ones, (2) it keeps tenants stable, which is way cheaper than turnover, and (3) a well-maintained unit rents faster and for more money. Your observation about properties deteriorating is spot on—that's what happens when maintenance becomes reactive instead of preventative.\n\nThe best operators I know run regular inspections, respond fast to requests, and actually track maintenance history instead of just reactive firefighting. It costs discipline upfront but saves money and headaches long-term.\n\nIf you're managing properties yourself or evaluating a management company, that's the question to ask: how do they handle preventative maintenance? The answer tells you everything."
       },
       "discoveredAt": "2026-03-28T19:45:54.341Z",
-      "digestSentAt": null,
+      "digestSentAt": "2026-03-30T19:07:15.927Z",
       "telegramSentAt": "2026-03-28T19:45:55.103Z",
-      "status": "pending"
+      "status": "digest_sent"
     },
     {
       "id": "reddit_1774728937323_ypg1sb",
@@ -617,9 +617,9 @@
         "draftResponse": "Man, I'm genuinely sorry you're in this spot. You're not overreacting—this is legitimately rough. Let me separate what you're dealing with because some of this is salvageable.\n\nFirst, the loan lock without consent is a real problem. Document that conversation and the rate jump. Your lender should have explicit written authorization before locking rates. This might be worth flagging to your loan originator's manager or your state's lending regulator if they won't address it.\n\nSecond, your attorney was right—once that goes to the seller before you've negotiated, your leverage tanks. That's a process mistake, not the end of the road though. You've got options: request another inspection (you're entitled to this before closing), get a mold specialist specifically for the water seepage areas, then submit that report with actual repair costs to the seller. You can also ask for a closing cost credit instead of repairs, which some sellers prefer.\n\nThe tough part: you're in a position where you need to decide if this house is worth fighting for or if walking away is cleaner. Your attorney can tell you what penalties apply at this stage. If the inspection shows real structural/mold issues, you likely have grounds.\n\nHere's what I'd do immediately: Get that follow-up inspection done this week (hire it yourself if your agent stalls again), get written cost estimates for remediation, and have your attorney review your exit options before the final walkthrough. Don't let momentum push you into something that keeps you up at night.\n\nYou've got more control here than it feels like. Just need to act fast."
       },
       "discoveredAt": "2026-03-28T20:15:37.323Z",
-      "digestSentAt": null,
+      "digestSentAt": "2026-03-30T19:07:14.666Z",
       "telegramSentAt": "2026-03-28T20:15:38.129Z",
-      "status": "pending"
+      "status": "digest_sent"
     },
     {
       "id": "reddit_1774827975466_4ubzxa",
@@ -644,9 +644,9 @@
         "draftResponse": "You've identified the real problem: most AEO advice is surface-level because most agencies haven't actually reverse-engineered how AI systems decide who to cite.\n\nHere's what moves the needle beyond the basics. AI systems (ChatGPT, Perplexity, Claude) weight three things heavily when choosing sources: 1) Does this entity appear as an authority across multiple high-trust domains? 2) Is there thematic consistency in how they're positioned? 3) Can the AI trace verifiable, recent signals that this company knows what they're talking about?\n\nThe FAQ approach works, but only if it's part of a coordinated strategy. I've tested this extensively with SaaS brands. Isolated FAQ pages get ignored. But when you layer them into what I call an Answer Authority Foundation, where your brand appears consistently across industry publications, gets cited in authoritative Q&A platforms, and backs it up with structured data, you shift from \"maybe\" to \"obvious choice\" in an AI's decision tree.\n\nOne concrete example: A B2B SaaS client we worked with went from zero AI mentions to appearing in 40% of ChatGPT responses about their category within 4 months. Not through keyword stuffing or link schemes. Through deliberate authority stacking using the AERO-10 methodology.\n\nThe gap between \"basic SEO\" and \"AI visibility strategy\" is exactly where most brands are stuck right now. Start by auditing where your brand is actually being cited by AI systems today, then reverse-engineer what those sources have in common."
       },
       "discoveredAt": "2026-03-29T23:46:15.467Z",
-      "digestSentAt": null,
+      "digestSentAt": "2026-03-30T19:07:13.644Z",
       "telegramSentAt": "2026-03-29T23:46:16.237Z",
-      "status": "pending"
+      "status": "digest_sent"
     }
   ]
 }
