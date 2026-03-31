@@ -2125,5 +2125,105 @@
       "Competitive Intelligence",
       "Business Pain Points"
     ]
+  },
+  {
+    "id": 103,
+    "title": "How Medical Practices Get Found on AI Search",
+    "slug": "how-medical-practices-get-found-on-ai-search",
+    "excerpt": "81% of doctors use AI but most practices are invisible to patients searching with ChatGPT and Perplexity. The signals that drive medical AI visibility are not what most practices expect.",
+    "category": "Industry Guides",
+    "author": "The Answer Engine Team",
+    "readTime": "14 min",
+    "image": "/blog/how-medical-practices-get-found-on-ai-search.webp",
+    "publishDate": "2026-03-31",
+    "lastModified": "2026-03-31",
+    "featured": true,
+    "tags": [
+      "Medical Practices",
+      "Healthcare",
+      "AI Visibility",
+      "Industry Guide",
+      "Local Business"
+    ]
+  },
+  {
+    "id": 104,
+    "title": "Why AI Recommends Businesses in Other Cities",
+    "slug": "why-ai-recommends-businesses-in-other-cities",
+    "excerpt": "AI search often recommends businesses hundreds of miles away instead of local options. Location bias in AI platforms is a real problem with specific causes and patterns.",
+    "category": "Business Pain Points",
+    "author": "The Answer Engine Team",
+    "readTime": "12 min",
+    "image": "/blog/why-ai-recommends-businesses-in-other-cities.webp",
+    "publishDate": "2026-03-31",
+    "lastModified": "2026-03-31",
+    "featured": true,
+    "tags": [
+      "Location Bias",
+      "AI Search",
+      "Local Business",
+      "Business Pain Points",
+      "Geo-Drift"
+    ]
+  },
+  {
+    "id": 105,
+    "title": "Does Posting Every Day Help AI Find Your Business",
+    "slug": "does-posting-every-day-help-ai-find-your-business",
+    "excerpt": "Business owners think daily posting boosts AI visibility. The data tells a different story about what AI platforms actually reward when it comes to content frequency.",
+    "category": "Myth Busters",
+    "author": "The Answer Engine Team",
+    "readTime": "11 min",
+    "image": "/blog/does-posting-every-day-help-ai-find-your-business.webp",
+    "publishDate": "2026-03-31",
+    "lastModified": "2026-03-31",
+    "featured": true,
+    "tags": [
+      "Content Strategy",
+      "Posting Frequency",
+      "AI Visibility",
+      "Myth Busters",
+      "Content Quality"
+    ]
+  },
+  {
+    "id": 106,
+    "title": "How to Get Your Podcast Cited by AI Platforms",
+    "slug": "how-to-get-your-podcast-cited-by-ai-platforms",
+    "excerpt": "AI platforms cannot listen to your podcast. But they can read transcripts. The gap between audio content and AI visibility is wider than most podcasters realize.",
+    "category": "How-To Guides",
+    "author": "The Answer Engine Team",
+    "readTime": "13 min",
+    "image": "/blog/how-to-get-your-podcast-cited-by-ai-platforms.webp",
+    "publishDate": "2026-03-31",
+    "lastModified": "2026-03-31",
+    "featured": true,
+    "tags": [
+      "Podcasts",
+      "AI Citations",
+      "Content Strategy",
+      "How-To Guides",
+      "Transcripts"
+    ]
+  },
+  {
+    "id": 107,
+    "title": "DIY AI Optimization vs Hiring an Expert",
+    "slug": "diy-ai-optimization-vs-hiring-an-expert",
+    "excerpt": "Should you optimize for AI search yourself or hire a professional? A real cost and outcome comparison for local business owners navigating the AI search landscape.",
+    "category": "Comparisons",
+    "author": "The Answer Engine Team",
+    "readTime": "15 min",
+    "image": "/blog/diy-ai-optimization-vs-hiring-an-expert.webp",
+    "publishDate": "2026-03-31",
+    "lastModified": "2026-03-31",
+    "featured": true,
+    "tags": [
+      "DIY vs Expert",
+      "Cost Comparison",
+      "AI Optimization",
+      "Comparisons",
+      "ROI"
+    ]
   }
 ]
