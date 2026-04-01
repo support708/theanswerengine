@@ -119,6 +119,14 @@ const jsonLd = {
             "@type": "Answer",
             "text": "Yes. AI platforms like Perplexity and Google AI Overviews increasingly reference community forum discussions, especially Reddit, when generating recommendations. Genuine mentions of your business in relevant subreddits or community discussions serve as earned media signals that AI weighs heavily. Unlike directory listings you control, community mentions represent third-party validation that AI treats as especially trustworthy."
           }
+        },
+        {
+          "@type": "Question",
+          "name": "How should small businesses prioritize between website improvements and directory listings?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Website-first, directory-second. Your website is the foundation—without it, you lose 58% of potential AI visibility. If you have limited resources, spend 80% on website optimization (proper structure, service pages, schema markup, fresh content) and 20% on maintaining accurate directory listings. Once your website is solid, then expand directory coverage to complete the multi-platform picture that AI values."
+          }
         }
       ]
     },
@@ -702,6 +710,11 @@ export default function YourWebsiteVsDirectoriesWhatAITrusts() {
               <div className="ae-faq-item">
                 <h3>Does Reddit or community forum presence affect AI recommendations?</h3>
                 <p>Yes. AI platforms like Perplexity and Google AI Overviews increasingly reference community forum discussions, especially Reddit, when generating recommendations. Genuine mentions of your business in relevant subreddits or community discussions serve as earned media signals that AI weighs heavily. Unlike directory listings you control, community mentions represent third-party validation that AI treats as especially trustworthy.</p>
+              </div>
+
+              <div className="ae-faq-item">
+                <h3>How should small businesses prioritize between website improvements and directory listings?</h3>
+                <p>Website-first, directory-second. Your website is the foundation—without it, you lose 58% of potential AI visibility. If you have limited resources, spend 80% on website optimization (proper structure, service pages, schema markup, fresh content) and 20% on maintaining accurate directory listings. Once your website is solid, then expand directory coverage to complete the multi-platform picture that AI values.</p>
               </div>
             </div>
 

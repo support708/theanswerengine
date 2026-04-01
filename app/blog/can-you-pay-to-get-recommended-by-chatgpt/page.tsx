@@ -143,8 +143,9 @@ export default function BlogPost() {
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
 
-      {/* HERO */}
-      <section
+      <main className="min-h-screen bg-[#0F1117]">
+        {/* HERO */}
+        <section
         className="relative overflow-hidden"
         style={{ background: 'linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%)' }}
       >
@@ -725,6 +726,7 @@ export default function BlogPost() {
 
         </div>
       </article>
+      </main>
     </>
   )
 }
