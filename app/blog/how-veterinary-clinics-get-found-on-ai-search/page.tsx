@@ -115,6 +115,14 @@ const jsonLd = {
             "@type": "Answer",
             "text": "The biggest mistake is having a website that AI crawlers cannot read. Many veterinary websites use JavaScript-heavy builders that produce visually appealing sites for human visitors but render as blank pages to AI crawlers. If your services, credentials, and testimonials are locked behind JavaScript, AI platforms will never see the information they need to recommend your clinic."
           }
+        },
+        {
+          "@type": "Question",
+          "name": "How often should veterinary clinics audit their AI visibility?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Veterinary clinics should audit their AI visibility quarterly. AI recommendations shift based on content freshness, review velocity, competitor activity, and algorithm updates. A clinic that ranks well in January may slip by April if competitors publish newer content or if your site has stale information. Quarterly audits (using our free Blind Spot Report) help you stay ahead of these shifts and identify emerging opportunities."
+          }
         }
       ]
     },
@@ -310,7 +318,7 @@ export default function HowVeterinaryClinicsGetFoundOnAISearch() {
 
             <p>A page titled &quot;Dental Care&quot; with two paragraphs about pet dental health gives AI nothing to cite. A dedicated page covering what pet dental cleanings involve, how often they should happen, warning signs owners should watch for, what anesthesia protocols the clinic uses, and post-procedure care expectations gives AI everything it needs. The difference between being cited and being invisible often comes down to content depth on individual service pages.</p>
 
-            <p>For guidance on building these pages effectively, read our guide on <Link href="/blog/write-service-pages-ai-platforms-recommend">writing service pages that AI platforms recommend</Link>.</p>
+            <p>For guidance on building these pages effectively, read our guide on <Link href="/blog/how-to-write-a-service-page-that-ai-platforms-actually-cite">writing service pages that AI platforms recommend</Link>.</p>
 
             <div className="ae-callout ae-callout-warning not-prose">
               <p><strong>Critical for veterinary clinics:</strong> Content published without a named veterinarian and verifiable DVM credentials is treated by AI as unverified health information. Every service page on your veterinary website should be attributed to a credentialed veterinarian with their degree, school, license state, and areas of specialization clearly listed.</p>
@@ -604,6 +612,19 @@ export default function HowVeterinaryClinicsGetFoundOnAISearch() {
             </div>
           </div>
 
+          {/* AUTHOR CARD */}
+          <div className="ae-author-card not-prose">
+            <div className="w-12 h-12 rounded-full bg-[#FF6A00] flex items-center justify-center text-white font-bold text-lg shrink-0">
+              AE
+            </div>
+            <div>
+              <p className="text-white font-semibold">The Answer Engine Team</p>
+              <p className="text-sm text-gray-400">
+                We help healthcare and service businesses get found, cited, and recommended by AI platforms. Our team tracks AI search trends daily so you do not have to.
+              </p>
+            </div>
+          </div>
+
           {/* FAQ SECTION */}
           <div className="prose prose-invert prose-lg max-w-none prose-headings:font-plus-jakarta prose-headings:text-white prose-p:text-gray-300 prose-a:text-[#FF6A00] prose-a:no-underline hover:prose-a:underline prose-strong:text-white">
             <span className="ae-section-label" id="faq">FAQ</span>
@@ -629,6 +650,9 @@ export default function HowVeterinaryClinicsGetFoundOnAISearch() {
 
             <h3>What is the biggest mistake vet clinics make with AI search?</h3>
             <p>The biggest mistake is having a website that AI crawlers cannot read. Many veterinary websites use JavaScript-heavy builders that produce visually appealing sites for human visitors but render as blank pages to AI crawlers. If your services, credentials, and testimonials are locked behind JavaScript, AI platforms will never see the information they need to recommend your clinic.</p>
+
+            <h3>How often should veterinary clinics audit their AI visibility?</h3>
+            <p>Veterinary clinics should audit their AI visibility quarterly. AI recommendations shift based on content freshness, review velocity, competitor activity, and algorithm updates. A clinic that ranks well in January may slip by April if competitors publish newer content or if your site has stale information. Quarterly audits (using our free Blind Spot Report) help you stay ahead of these shifts and identify emerging opportunities.</p>
 
             {/* CTA 13 */}
             <div className="ae-cta-inline not-prose">
@@ -665,19 +689,6 @@ export default function HowVeterinaryClinicsGetFoundOnAISearch() {
               </a>
             </div>
             <p className="text-sm text-gray-500 mt-4">No pitch, just the data. See what AI sees.</p>
-          </div>
-
-          {/* AUTHOR CARD */}
-          <div className="ae-author-card not-prose">
-            <div className="w-12 h-12 rounded-full bg-[#FF6A00] flex items-center justify-center text-white font-bold text-lg shrink-0">
-              AE
-            </div>
-            <div>
-              <p className="text-white font-semibold">The Answer Engine Team</p>
-              <p className="text-sm text-gray-400">
-                We help healthcare and service businesses get found, cited, and recommended by AI platforms. Our team tracks AI search trends daily so you do not have to.
-              </p>
-            </div>
           </div>
 
         </article>

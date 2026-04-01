@@ -1019,6 +1019,33 @@ export default function Page() {
             </div>
           </section>
 
+          {/* Author Card */}
+          <div
+            className="ae-author-card rounded-xl p-6 mb-14"
+            style={{ backgroundColor: '#1a1f2e', border: '1px solid rgba(255,106,0,0.15)' }}
+          >
+            <div className="flex items-start gap-4">
+              <div
+                className="w-14 h-14 rounded-full flex items-center justify-center flex-shrink-0 font-plus-jakarta font-extrabold text-xl"
+                style={{ backgroundColor: 'rgba(255,106,0,0.2)', color: '#FF6A00' }}
+              >
+                AE
+              </div>
+              <div>
+                <p className="font-plus-jakarta font-bold text-white mb-1">The Answer Engine Team</p>
+                <p className="text-xs text-gray-500 mb-2">Published April 1, 2026 · Platform Deep Dives</p>
+                <p className="text-sm text-gray-400 leading-relaxed">
+                  The Answer Engine is a Los Angeles-based AEO and AI visibility agency. We help local businesses get recommended by Grok, ChatGPT, Perplexity, Microsoft Copilot, Google AI Overviews, and every other major AI recommendation engine. Our team has audited hundreds of businesses across all AI platforms and built the playbook for winning in the AI-first era of local search.
+                </p>
+                <div className="flex flex-wrap gap-4 mt-3">
+                  <a href="https://theanswerengine.ai" className="text-xs transition-colors hover:opacity-80" style={{ color: '#FF6A00' }}>theanswerengine.ai</a>
+                  <a href="tel:+12134442229" className="text-xs transition-colors hover:opacity-80" style={{ color: '#FF6A00' }}>(213) 444-2229</a>
+                  <a href="mailto:support@theanswerengine.ai" className="text-xs transition-colors hover:opacity-80" style={{ color: '#FF6A00' }}>support@theanswerengine.ai</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
           {/* FAQ Section */}
           <section id="faq" className="mb-14">
             <h2 className="font-plus-jakarta text-3xl font-bold mb-8" style={{ color: '#FFFFFF' }}>
@@ -1092,33 +1119,6 @@ export default function Page() {
               </div>
             </div>
           </section>
-
-          {/* Author Card */}
-          <div
-            className="ae-author-card rounded-xl p-6 mb-14"
-            style={{ backgroundColor: '#1a1f2e', border: '1px solid rgba(255,106,0,0.15)' }}
-          >
-            <div className="flex items-start gap-4">
-              <div
-                className="w-14 h-14 rounded-full flex items-center justify-center flex-shrink-0 font-plus-jakarta font-extrabold text-xl"
-                style={{ backgroundColor: 'rgba(255,106,0,0.2)', color: '#FF6A00' }}
-              >
-                AE
-              </div>
-              <div>
-                <p className="font-plus-jakarta font-bold text-white mb-1">The Answer Engine Team</p>
-                <p className="text-xs text-gray-500 mb-2">Published April 1, 2026 · Platform Deep Dives</p>
-                <p className="text-sm text-gray-400 leading-relaxed">
-                  The Answer Engine is a Los Angeles-based AEO and AI visibility agency. We help local businesses get recommended by Grok, ChatGPT, Perplexity, Microsoft Copilot, Google AI Overviews, and every other major AI recommendation engine. Our team has audited hundreds of businesses across all AI platforms and built the playbook for winning in the AI-first era of local search.
-                </p>
-                <div className="flex flex-wrap gap-4 mt-3">
-                  <a href="https://theanswerengine.ai" className="text-xs transition-colors hover:opacity-80" style={{ color: '#FF6A00' }}>theanswerengine.ai</a>
-                  <a href="tel:+12134442229" className="text-xs transition-colors hover:opacity-80" style={{ color: '#FF6A00' }}>(213) 444-2229</a>
-                  <a href="mailto:support@theanswerengine.ai" className="text-xs transition-colors hover:opacity-80" style={{ color: '#FF6A00' }}>support@theanswerengine.ai</a>
-                </div>
-              </div>
-            </div>
-          </div>
 
           {/* Final CTA */}
           <div
