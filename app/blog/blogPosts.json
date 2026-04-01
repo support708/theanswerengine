@@ -2225,5 +2225,65 @@
       "Comparisons",
       "ROI"
     ]
+  },
+  {
+    "id": 108,
+    "title": "How to Write a Service Page That AI Platforms Actually Cite",
+    "slug": "how-to-write-a-service-page-that-ai-platforms-actually-cite",
+    "excerpt": "Most service pages are invisible to AI search. Learn what signals AI platforms look for when deciding which service pages to cite and recommend.",
+    "category": "How-To Guides",
+    "author": "The Answer Engine Team",
+    "readTime": "14 min",
+    "image": "/blog/how-to-write-a-service-page-that-ai-platforms-actually-cite.webp",
+    "publishDate": "2026-03-31",
+    "lastModified": "2026-03-31",
+    "featured": true,
+    "tags": [
+      "Service Pages",
+      "AI Citations",
+      "Content Strategy",
+      "How-To Guides",
+      "AI Visibility"
+    ]
+  },
+  {
+    "id": 109,
+    "title": "How Contractors and Home Service Companies Win AI Search",
+    "slug": "how-contractors-and-home-service-companies-win-ai-search",
+    "excerpt": "Plumbers, electricians, and HVAC companies are losing leads to AI search. Discover what makes home service businesses visible to ChatGPT, Perplexity, and Google AI.",
+    "category": "How-To Guides",
+    "author": "The Answer Engine Team",
+    "readTime": "13 min",
+    "image": "/blog/how-contractors-and-home-service-companies-win-ai-search.webp",
+    "publishDate": "2026-03-31",
+    "lastModified": "2026-03-31",
+    "featured": true,
+    "tags": [
+      "Home Services",
+      "Contractors",
+      "Local Business",
+      "AI Search",
+      "Lead Generation"
+    ]
+  },
+  {
+    "id": 110,
+    "title": "How Financial Advisors Get Found on AI Search",
+    "slug": "how-financial-advisors-get-found-on-ai-search",
+    "excerpt": "Financial advisors face unique AI visibility challenges. Learn why credentials, trust signals, and educational content determine which advisors AI platforms recommend.",
+    "category": "Industry Guides",
+    "author": "The Answer Engine Team",
+    "readTime": "14 min",
+    "image": "/blog/how-financial-advisors-get-found-on-ai-search.webp",
+    "publishDate": "2026-03-31",
+    "lastModified": "2026-03-31",
+    "featured": true,
+    "tags": [
+      "Financial Advisors",
+      "Industry Guide",
+      "YMYL",
+      "Trust Signals",
+      "AI Visibility"
+    ]
   }
 ]
