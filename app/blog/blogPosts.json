@@ -2385,5 +2385,63 @@
       "AI Trust Signals",
       "Local Business"
     ]
+  },
+  {
+    "id": 116,
+    "title": "How Law Firms Get Found on AI Search",
+    "slug": "how-law-firms-get-found-on-ai-search",
+    "excerpt": "Law firms face unique AI visibility challenges. Learn what YMYL standards, E-E-A-T signals, and practice area authority mean for getting recommended by AI.",
+    "category": "Industry Guides",
+    "author": "The Answer Engine Team",
+    "readTime": "14 min",
+    "image": "/blog/how-law-firms-get-found-on-ai-search.webp",
+    "publishDate": "2026-04-01",
+    "lastModified": "2026-04-01",
+    "featured": true,
+    "tags": [
+      "Law Firms",
+      "YMYL",
+      "E-E-A-T",
+      "Industry Guide",
+      "AI Visibility"
+    ]
+  },
+  {
+    "id": 117,
+    "title": "What Happens When a Competitor Shows Up in AI Before You",
+    "slug": "what-happens-when-competitor-shows-up-in-ai-before-you",
+    "excerpt": "AI search has a first-mover advantage. Learn what happens to your leads when a competitor gets cited first and why the gap compounds over time.",
+    "category": "Competitive Intelligence",
+    "author": "The Answer Engine Team",
+    "readTime": "13 min",
+    "image": "/blog/what-happens-when-competitor-shows-up-in-ai-before-you.webp",
+    "publishDate": "2026-04-01",
+    "lastModified": "2026-04-01",
+    "featured": true,
+    "tags": [
+      "Competitive Intelligence",
+      "First Mover",
+      "AI Citations",
+      "Lead Generation"
+    ]
+  },
+  {
+    "id": 118,
+    "title": "How AI Search Decides Between Two Similar Businesses",
+    "slug": "how-ai-search-decides-between-two-similar-businesses",
+    "excerpt": "When two businesses offer the same service, what makes AI pick one? The tiebreaker signals that determine which business gets the recommendation.",
+    "category": "Platform Deep Dives",
+    "author": "The Answer Engine Team",
+    "readTime": "14 min",
+    "image": "/blog/how-ai-search-decides-between-two-similar-businesses.webp",
+    "publishDate": "2026-04-01",
+    "lastModified": "2026-04-01",
+    "featured": true,
+    "tags": [
+      "Platform Deep Dives",
+      "AI Tiebreakers",
+      "Citation Momentum",
+      "Business Authority"
+    ]
   }
 ]

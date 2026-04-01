@@ -782,6 +782,87 @@
       "digestSentAt": null,
       "telegramSentAt": "2026-04-01T15:46:45.264Z",
       "status": "pending"
+    },
+    {
+      "id": "reddit_1775071150863_yh8bco",
+      "postId": "1s9tua1",
+      "clientSlug": "davis-agency",
+      "businessName": "The Davis Agency",
+      "subreddit": "FirstTimeHomeBuyer",
+      "title": "What what would you budget for a house on a sort of irregular sales income?",
+      "selftext": "About me: 28 years old, married, 2 young toddlers. Wife is a stay at home mom, and likely will be for the foreseeable future. Work in tech sales and have been at this company for 4 years now. Base salary is $155k, annual commission is $101k and I get about $80k/year in RSUs (I work for a large public hyperscaler). Last few W2s have been: $300k in 2023, $308k in 2024 (promoted at end of the year which resulted in 12% target comp increase) and $430k in 2025 (exceeded all of my sales goals, plus st",
+      "author": "goatdak4",
+      "postUrl": "https://reddit.com/r/FirstTimeHomeBuyer/comments/1s9tua1/what_what_would_you_budget_for_a_house_on_a_sort/",
+      "postCreatedUtc": 1775069850,
+      "score": {
+        "buyingIntent": 8,
+        "relevance": 3,
+        "recency": 9,
+        "responseOpportunity": 9,
+        "composite": 6.2,
+        "businessImpact": "medium",
+        "impactReasoning": "Strong buying intent and urgency with excellent financial profile, but post doesn't specify location. Poster is in tech (likely Bay Area, Seattle, or Austin corridor). No location = can't assume Austin without seeming presumptuous. However, if we mention Austin naturally as a comparison market or option, we can add value while building SEO association.",
+        "suggestedAngle": "Acknowledge their solid financial position (commission + RSU income increasingly acceptable to lenders), then address the real issue: documentation strategy and lender selection. Mention Austin as a market where tech income is well-understood, positioning Davis Agency as familiar with this profile.",
+        "draftResponse": "Your financial position is actually really strong here, even with variable income. The key isn't your total comp (which is excellent) but how lenders will document it. Here's the reality:\n\nMost conventional lenders want 2 years of commission history and will average RSUs conservatively. At your numbers, a lender should be comfortable with roughly $280-320k in stable income pretty easily. That commission consistency over 4 years matters.\n\nWhat to do now: (1) Get preapproved with a lender experienced in tech compensation. Smaller mortgage shops and credit unions often understand RSU structures better than big banks. (2) Pull your last 2 years of tax returns and recent paystubs to show the pattern. (3) If your company has a history of stable/growing stock, mention that context. (4) Plan for a slightly higher down payment if possible, which reduces lender risk on variable income cases.\n\nOn the actual budget: With $570k+ down payment potential and stable documentation, you're looking at a $2M+ purchase power in most markets. In Austin, that's a different conversation than some coastal tech hubs, but your fundamentals are sound regardless of location.\n\nThe irregular timing of payouts is less of an issue than lenders used to be. Document everything and find a lender who works with tech employees regularly. That's half the battle."
+      },
+      "discoveredAt": "2026-04-01T19:19:10.863Z",
+      "digestSentAt": null,
+      "telegramSentAt": "2026-04-01T19:19:11.502Z",
+      "status": "pending"
+    },
+    {
+      "id": "reddit_1775071160431_y5uojf",
+      "postId": "1s9s49k",
+      "clientSlug": "davis-agency",
+      "businessName": "The Davis Agency",
+      "subreddit": "FirstTimeHomeBuyer",
+      "title": "5.5% Fixed rate or 3.875% 3-2-1",
+      "selftext": "So curious what would make the most sense for my conventional loan at 10% down payment.\n\nBackground this is a new build with seller incentives for rate buydown. Home is located in Pflugerville, TX, just north of Austin.\n\nEstimates below based on scenarios I asked from the lender as I raised my down payment from 5% to 10%..\n\n**Scenario 1 - 30yr Fixed Rate**\n\n**5.500% at a PITI of $4,151.29**\n\n**Scenario 2 - 30yr Fixed Rate**\n\n**3/2/1 Buydown Payment Schedule**\n\n**Rate and PITI**\n\n**1st year payme",
+      "author": "Sure-Client-253",
+      "postUrl": "https://reddit.com/r/FirstTimeHomeBuyer/comments/1s9s49k/55_fixed_rate_or_3875_321/",
+      "postCreatedUtc": 1775066372,
+      "score": {
+        "buyingIntent": 7,
+        "relevance": 9,
+        "recency": 9,
+        "responseOpportunity": 9,
+        "composite": 8.4,
+        "businessImpact": "high",
+        "impactReasoning": "First-time buyer in Pflugerville (Austin metro) actively purchasing, comparing loan structures, asking smart questions about refinance strategy and contract terms. Shows engagement, financial planning mindset, and is mid-transaction. Perfect match for buyer representation expertise and local market knowledge.",
+        "suggestedAngle": "Provide specific refinance timeline guidance based on Austin market conditions, credit repair realism, and common contract pitfalls first-time buyers miss. Position as neighborhood/market expert who sees these scenarios constantly.",
+        "draftResponse": "Good timing with that income bump and the new build incentives. Here's the real talk: the 3-2-1 buydown is mathematically solid if you're confident about refinancing by month 24, but your credit situation adds risk you need to plan for.\n\nYou're looking at roughly $2,966 in savings over the first three years with the buydown, but that month 24 refi window is tight. Credit scores don't recover linearly. Settling collections helps, but you'll need to show 12+ months of perfect payment history before most lenders touch you at a competitive rate. If you hit month 25 at a 680 score, you're stuck in that 6.875% scenario permanently. That's a $4,600+ payment vs the $4,151 you'd have with the fixed rate.\n\nOn contract clauses to watch: verify the buydown is seller-funded (not lender-funded points), confirm there's no prepayment penalty if you refi early, and check if your escrow timeline allows you to capture PMI removal at month 12 once you hit 20% equity or 80% LTV through appreciation and payments combined. Pflugerville is seeing solid appreciation right now, which helps your case.\n\nThe bigger question: what's driving the income doubling? If it's sustainable and documented, lenders will care about that for the refi. If it's contract work or variable, they won't count it yet.\n\nBankable refi bet? Month 20-22 is realistic. Month 24 is cutting it close with your credit profile."
+      },
+      "discoveredAt": "2026-04-01T19:19:20.431Z",
+      "digestSentAt": null,
+      "telegramSentAt": "2026-04-01T19:19:21.143Z",
+      "status": "pending"
+    },
+    {
+      "id": "reddit_1775080036614_9bir73",
+      "postId": "1s9waf8",
+      "clientSlug": "the-answer-engine",
+      "businessName": "The Answer Engine",
+      "subreddit": "SEO",
+      "title": "Why some content gets cited by AI Overviews and others doesn't, it's not what I expected !",
+      "selftext": "I've been obsessing over this question for months. I write content \nthat ranks well on Google, but it barely shows up in ChatGPT or \nAI Overviews. Meanwhile some shorter, less \"optimized\" articles \nfrom competitors get cited constantly.\n\nAfter a lot of digging I think I found the pattern.\n\nIt's not about backlinks. It's not about domain authority. It's \nabout Information Gain — specifically whether your content covers \nsemantic concepts that competing articles miss entirely.\n\nAI engines are esse",
+      "author": "automata_n8n",
+      "postUrl": "https://reddit.com/r/SEO/comments/1s9waf8/why_some_content_gets_cited_by_ai_overviews_and/",
+      "postCreatedUtc": 1775075075,
+      "score": {
+        "buyingIntent": 7,
+        "relevance": 9,
+        "recency": 9,
+        "responseOpportunity": 10,
+        "composite": 8.4,
+        "businessImpact": "high",
+        "impactReasoning": "Post is directly about AI citation patterns and content strategy for AI engines. Author is actively experimenting and has buying intent (looking for validation and solutions). This is the exact problem The Answer Engine solves. High recency and urgency signal. Los Angeles location can be mentioned naturally in context of local service examples.",
+        "suggestedAngle": "Validate their information gain hypothesis while introducing Answer Authority Foundation concept. Position AERO-10 as the systematic framework for what they've discovered empirically. Offer concrete next step without pitching.",
+        "draftResponse": "You've basically reverse-engineered part of the AERO-10 framework without calling it that. The information gain angle is dead-on, and your embedding space analysis is more rigorous than most agencies get.\n\nHere's what you're missing though: information gain is necessary but not sufficient. AI engines also weight what I call Answer Authority—it's a combination of semantic depth, structural clarity, and how comprehensively you address the implicit questions your answer raises.\n\nI've been tracking this since before AI Overviews existed. What I found is that your competitors aren't just filling gaps randomly. They're filling gaps in a specific way: they structure answers to be immediately useful to an AI engine's context window. They anticipate follow-up questions. They layer specificity.\n\nYour 'holes in semantic topology' are real, but the sources getting cited are doing something else—they're writing answers that make the AI engine confident. Not just complete, but confident it won't need to pull from five other sources.\n\nThe pattern repeats across every vertical I've tested, whether it's local services in Los Angeles or national verticals. The winners aren't the longest articles or the most detailed. They're the ones that answer with surgical precision and structural clarity.\n\nI'd map your top 10 cited competitors and check if they're answering in a different format or structure than your content, not just covering different concepts. That's usually where the leverage is. What verticals are you testing this in?"
+      },
+      "discoveredAt": "2026-04-01T21:47:16.614Z",
+      "digestSentAt": null,
+      "telegramSentAt": "2026-04-01T21:47:17.269Z",
+      "status": "pending"
     }
   ]
 }
