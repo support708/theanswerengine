@@ -689,19 +689,9 @@ export default function Page() {
             </div>
 
             {/* Callout: Success */}
-            <div
-              className="ae-callout-success rounded-xl p-6 my-8"
-              style={{ backgroundColor: 'rgba(34,197,94,0.08)', border: '1px solid rgba(34,197,94,0.25)' }}
-            >
-              <div className="flex items-start gap-3">
-                <svg className="w-5 h-5 mt-0.5 flex-shrink-0" style={{ color: '#22C55E' }} fill="currentColor" viewBox="0 0 20 20"><path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" /></svg>
-                <div>
-                  <p className="font-semibold mb-1" style={{ color: '#86EFAC' }}>The Speed Advantage Is Real</p>
-                  <p className="text-sm text-gray-300 leading-relaxed">
-                    Because Grok processes X data in near real-time, businesses that actively engage on X can see results faster than on any other AI platform. A consistent two-week push of quality X content and customer engagement can begin shifting Grok&apos;s recommendation patterns within days. No other AI platform offers this kind of responsiveness.
-                  </p>
-                </div>
-              </div>
+            <div className="ae-callout ae-callout-success not-prose">
+              <div className="ae-callout-title">The Speed Advantage Is Real</div>
+              <p>Because Grok processes X data in near real-time, businesses that actively engage on X can see results faster than on any other AI platform. A consistent two-week push of quality X content and customer engagement can begin shifting Grok&apos;s recommendation patterns within days. No other AI platform offers this kind of responsiveness.</p>
             </div>
 
             <div className="ae-cta-inline my-8 p-5 rounded-xl" style={{ backgroundColor: 'rgba(255,106,0,0.06)', border: '1px solid rgba(255,106,0,0.2)' }}>
