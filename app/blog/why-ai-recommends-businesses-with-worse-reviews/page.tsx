@@ -608,17 +608,17 @@ export default function Page() {
             <div className="not-prose ae-decision-matrix">
               <div className="ae-decision-row">
                 <div className="ae-decision-if">If user asks ChatGPT</div>
-                <div className="ae-decision-arrow" />
+                <div className="ae-decision-arrow">&rarr;</div>
                 <div className="ae-decision-then">Company B wins. ChatGPT pulls from Bing Places (Yelp/Facebook data) and crawlable websites. Company A is nearly invisible.</div>
               </div>
               <div className="ae-decision-row">
                 <div className="ae-decision-if">If user asks Perplexity</div>
-                <div className="ae-decision-arrow" />
+                <div className="ae-decision-arrow">&rarr;</div>
                 <div className="ae-decision-then">Company B wins. Perplexity crawls Yelp and web content. Company B&apos;s website case studies provide rich citation material.</div>
               </div>
               <div className="ae-decision-row">
                 <div className="ae-decision-if">If user asks Google AI Mode</div>
-                <div className="ae-decision-arrow" />
+                <div className="ae-decision-arrow">&rarr;</div>
                 <div className="ae-decision-then">Closer contest. Google can access its own reviews. But Company B&apos;s multi-platform signals and website content still provide stronger overall authority.</div>
               </div>
               <div className="ae-decision-row">

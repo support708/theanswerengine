@@ -19,7 +19,7 @@ export const metadata: Metadata = {
     description: 'Vet clinic ChatGPT referrals grew 1,278% in one year. Learn why most veterinary practices are invisible to AI and what signals pet owners trust.',
     type: 'article',
     url: `https://theanswerengine.ai/blog/${slug}`,
-    images: [{ url: `https://theanswerengine.ai/blog/${slug}.svg`, width: 1200, height: 630 }],
+    images: [{ url: `https://theanswerengine.ai/blog/${slug}.webp`, width: 1200, height: 630 }],
   },
   twitter: {
     card: 'summary_large_image',
@@ -39,7 +39,7 @@ const jsonLd = {
       "@id": `https://theanswerengine.ai/blog/${slug}#article`,
       "headline": title,
       "description": description,
-      "image": `https://theanswerengine.ai/blog/${slug}.svg`,
+      "image": `https://theanswerengine.ai/blog/${slug}.webp`,
       "datePublished": publishDate,
       "dateModified": publishDate,
       "author": {
@@ -558,7 +558,7 @@ export default function HowVeterinaryClinicsGetFoundOnAISearch() {
 
             <p>Today, a pet owner might ask AI for a general recommendation. Within the next year, pet owners will ask AI to compare specific clinics, check service availability, and pre-screen based on their pet&apos;s specific condition. The clinics with deep, structured, credentialed content will be the ones AI trusts enough to surface in those increasingly specific queries.</p>
 
-            <p>The same patterns playing out in veterinary are happening across healthcare. For a parallel look at how this works in another health vertical, see our guide on <Link href="/blog/how-medical-practices-get-found-on-ai-search">how medical practices get found on AI search</Link>.</p>
+            <p>The same patterns playing out in veterinary are happening across healthcare. For a parallel look at how this works in another service vertical, see our guide on <Link href="/blog/how-contractors-and-home-service-companies-win-ai-search">how home service companies win AI search</Link>.</p>
 
             <div className="ae-callout ae-callout-orange not-prose">
               <p><strong>The window is open now.</strong> Most veterinary clinics have not optimized for AI search, which means early movers face less competition. The clinics taking action in 2026 will be the ones AI platforms have learned to trust by 2027. Waiting means competing against an entrenched advantage.</p>

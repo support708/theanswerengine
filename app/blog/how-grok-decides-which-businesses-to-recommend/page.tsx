@@ -393,19 +393,9 @@ export default function Page() {
             </p>
 
             {/* Callout: Info */}
-            <div
-              className="ae-callout-info rounded-xl p-6 my-8"
-              style={{ backgroundColor: 'rgba(59,130,246,0.08)', border: '1px solid rgba(59,130,246,0.25)' }}
-            >
-              <div className="flex items-start gap-3">
-                <svg className="w-5 h-5 mt-0.5 flex-shrink-0" style={{ color: '#3B82F6' }} fill="currentColor" viewBox="0 0 20 20"><path fillRule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-7-4a1 1 0 11-2 0 1 1 0 012 0zM9 9a1 1 0 000 2v3a1 1 0 001 1h1a1 1 0 100-2v-3a1 1 0 00-1-1H9z" clipRule="evenodd" /></svg>
-                <div>
-                  <p className="font-semibold mb-1" style={{ color: '#93C5FD' }}>Grok Is Not Just Another Chatbot</p>
-                  <p className="text-sm text-gray-300 leading-relaxed">
-                    Grok processes events as they unfold, making it ideal for monitoring news, market trends, and public sentiment. For business recommendations, this means Grok can factor in information that is hours old, not weeks or months old. A viral customer experience post on X this morning can influence Grok&apos;s answer this afternoon.
-                  </p>
-                </div>
-              </div>
+            <div className="ae-callout ae-callout-info not-prose">
+              <div className="ae-callout-title">Grok Is Not Just Another Chatbot</div>
+              <p>Grok processes events as they unfold, making it ideal for monitoring news, market trends, and public sentiment. For business recommendations, this means Grok can factor in information that is hours old, not weeks or months old. A viral customer experience post on X this morning can influence Grok&apos;s answer this afternoon.</p>
             </div>
 
             <p className="text-gray-300 leading-relaxed mb-5">
@@ -469,19 +459,9 @@ export default function Page() {
             </p>
 
             {/* Callout: Warning */}
-            <div
-              className="ae-callout-warning rounded-xl p-6 my-8"
-              style={{ backgroundColor: 'rgba(234,179,8,0.08)', border: '1px solid rgba(234,179,8,0.25)' }}
-            >
-              <div className="flex items-start gap-3">
-                <svg className="w-5 h-5 mt-0.5 flex-shrink-0" style={{ color: '#EAB308' }} fill="currentColor" viewBox="0 0 20 20"><path fillRule="evenodd" d="M8.257 3.099c.765-1.36 2.722-1.36 3.486 0l5.58 9.92c.75 1.334-.213 2.98-1.742 2.98H4.42c-1.53 0-2.493-1.646-1.743-2.98l5.58-9.92zM11 13a1 1 0 11-2 0 1 1 0 012 0zm-1-8a1 1 0 00-1 1v3a1 1 0 002 0V6a1 1 0 00-1-1z" clipRule="evenodd" /></svg>
-                <div>
-                  <p className="font-semibold mb-1" style={{ color: '#FDE047' }}>The X Silence Problem</p>
-                  <p className="text-sm text-gray-300 leading-relaxed">
-                    If your business has no X presence and nobody is talking about you on X, Grok has a massive blind spot. It cannot validate your authority through its strongest data channel. This is not a minor disadvantage. It is the equivalent of having no Google Business Profile in 2018: technically your business exists, but the primary discovery engine cannot find you.
-                  </p>
-                </div>
-              </div>
+            <div className="ae-callout ae-callout-warning not-prose">
+              <div className="ae-callout-title">The X Silence Problem</div>
+              <p>If your business has no X presence and nobody is talking about you on X, Grok has a massive blind spot. It cannot validate your authority through its strongest data channel. This is not a minor disadvantage. It is the equivalent of having no Google Business Profile in 2018: technically your business exists, but the primary discovery engine cannot find you.</p>
             </div>
 
             <div className="ae-cta-inline my-8 p-5 rounded-xl" style={{ backgroundColor: 'rgba(255,106,0,0.06)', border: '1px solid rgba(255,106,0,0.2)' }}>
@@ -623,19 +603,9 @@ export default function Page() {
             </p>
 
             {/* Callout: Orange */}
-            <div
-              className="ae-callout-orange rounded-xl p-6 my-8"
-              style={{ backgroundColor: 'rgba(255,106,0,0.08)', border: '1px solid rgba(255,106,0,0.3)' }}
-            >
-              <div className="flex items-start gap-3">
-                <svg className="w-5 h-5 mt-0.5 flex-shrink-0" style={{ color: '#FF6A00' }} fill="currentColor" viewBox="0 0 20 20"><path fillRule="evenodd" d="M12.395 2.553a1 1 0 00-1.45-.385c-.345.23-.614.558-.822.88-.214.33-.403.713-.57 1.116-.334.804-.614 1.768-.84 2.734a31.365 31.365 0 00-.613 3.58 2.64 2.64 0 01-.945-1.067c-.328-.68-.398-1.534-.398-2.654A1 1 0 005.05 6.05 6.981 6.981 0 003 11a7 7 0 1011.95-4.95c-.592-.591-.98-.985-1.348-1.467-.363-.476-.724-1.063-1.207-2.03zM12.12 15.12A3 3 0 017 13s.879.5 2.5.5c0-1 .5-4 1.25-4.5.5 1 .786 1.293 1.371 1.879A2.99 2.99 0 0113 13a2.99 2.99 0 01-.879 2.121z" clipRule="evenodd" /></svg>
-                <div>
-                  <p className="font-semibold mb-1" style={{ color: '#FF6A00' }}>The Multi-Platform Imperative</p>
-                  <p className="text-sm text-gray-300 leading-relaxed">
-                    Optimizing for one AI assistant and ignoring the rest is the 2026 equivalent of optimizing only for Google and ignoring Bing in 2015. Each platform has distinct data sources and ranking signals. Grok&apos;s X-first architecture means your AI visibility strategy must include social engagement, not just web optimization. The businesses winning across all AI platforms are the ones investing in cross-platform authority.
-                  </p>
-                </div>
-              </div>
+            <div className="ae-callout ae-callout-orange not-prose">
+              <div className="ae-callout-title">The Multi-Platform Imperative</div>
+              <p>Optimizing for one AI assistant and ignoring the rest is the 2026 equivalent of optimizing only for Google and ignoring Bing in 2015. Each platform has distinct data sources and ranking signals. Grok&apos;s X-first architecture means your AI visibility strategy must include social engagement, not just web optimization. The businesses winning across all AI platforms are the ones investing in cross-platform authority.</p>
             </div>
 
             <div className="ae-cta-inline my-8 p-5 rounded-xl" style={{ backgroundColor: 'rgba(255,106,0,0.06)', border: '1px solid rgba(255,106,0,0.2)' }}>

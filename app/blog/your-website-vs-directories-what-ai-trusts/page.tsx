@@ -20,7 +20,7 @@ export const metadata: Metadata = {
     description: 'Business websites drive 58% of ChatGPT recommendations while directories drive 15%. Learn what AI platforms actually trust for local business info.',
     type: 'article',
     url: `https://theanswerengine.ai/blog/${slug}`,
-    images: [{ url: `https://theanswerengine.ai/blog/${slug}.svg`, width: 1200, height: 630 }],
+    images: [{ url: `https://theanswerengine.ai/blog/${slug}.webp`, width: 1200, height: 630 }],
   },
   twitter: {
     card: 'summary_large_image',
@@ -40,7 +40,7 @@ const jsonLd = {
       "@id": `https://theanswerengine.ai/blog/${slug}#article`,
       "headline": title,
       "description": description,
-      "image": `https://theanswerengine.ai/blog/${slug}.svg`,
+      "image": `https://theanswerengine.ai/blog/${slug}.webp`,
       "datePublished": publishDate,
       "dateModified": publishDate,
       "author": {

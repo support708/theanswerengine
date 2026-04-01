@@ -145,7 +145,47 @@
     "1s76z03": 1774818890847,
     "1s79lr0": 1774825210498,
     "1s7a36o": 1774826110744,
-    "1s7apfi": 1774827967892
+    "1s7apfi": 1774827967892,
+    "1s7w2ge": 1774898542854,
+    "1s7kswi": 1774898548105,
+    "1s7sia3": 1774898592166,
+    "1s7o4pt": 1774898592166,
+    "1s7uuug": 1774898620507,
+    "1s844la": 1774909749040,
+    "1s83j83": 1774909787860,
+    "1s84qhm": 1774909817131,
+    "1s82j3v": 1774909824832,
+    "1s86y57": 1774913448444,
+    "1s7zp82": 1774917048580,
+    "1s88hin": 1774917948467,
+    "1s894ib": 1774919729210,
+    "1s8939c": 1774919754566,
+    "1s89pbi": 1774921548415,
+    "1s89qga": 1774921572665,
+    "1s8atbi": 1774924253555,
+    "1s8mr2g": 1774971103220,
+    "1s8nrvw": 1774971148535,
+    "1s8ftma": 1774971152771,
+    "1s8hc0v": 1774971174388,
+    "1s8u35h": 1774979418895,
+    "1s8rtys": 1774979442747,
+    "1s8wdu0": 1774983630093,
+    "1s8wdvw": 1774983649344,
+    "1s8zv8s": 1774990953771,
+    "1s8yeia": 1774990960506,
+    "1s8x7r2": 1774990967805,
+    "1s8wpqb": 1774990973184,
+    "1s97d92": 1775017203876,
+    "1s92pyd": 1775017251093,
+    "1s9an77": 1775018729432,
+    "1s9mxve": 1775058329303,
+    "1s9m8w6": 1775058338509,
+    "1s9o75z": 1775058366800,
+    "1s9o0b2": 1775058366800,
+    "1s99ngb": 1775058374274,
+    "1s9o41c": 1775058397474,
+    "1s9pfr9": 1775061033474,
+    "1s9pngw": 1775061948512
   },
   "lastPollBySubreddit": {},
   "lastDigestByClient": {
@@ -154,9 +194,38 @@
     "rpm-southland": "2026-03-30T19:07:15.927Z"
   },
   "monthlyStats": {
-    "month": "2026-04",
-    "totalScanned": 0,
-    "totalQualified": 0,
-    "byClient": {}
+    "month": "2026-03",
+    "totalScanned": 5569,
+    "totalQualified": 29,
+    "byClient": {
+      "davis-agency": {
+        "opportunities": 2,
+        "digestsSent": 0,
+        "highImpact": 1,
+        "mediumImpact": 1,
+        "lowImpact": 0
+      },
+      "lovery-re": {
+        "opportunities": 13,
+        "digestsSent": 1,
+        "highImpact": 10,
+        "mediumImpact": 3,
+        "lowImpact": 0
+      },
+      "the-answer-engine": {
+        "opportunities": 6,
+        "digestsSent": 1,
+        "highImpact": 5,
+        "mediumImpact": 1,
+        "lowImpact": 0
+      },
+      "rpm-southland": {
+        "opportunities": 8,
+        "digestsSent": 1,
+        "highImpact": 5,
+        "mediumImpact": 3,
+        "lowImpact": 0
+      }
+    }
   }
 }
