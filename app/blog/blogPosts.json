@@ -2285,5 +2285,105 @@
       "Trust Signals",
       "AI Visibility"
     ]
+  },
+  {
+    "id": 111,
+    "title": "Why AI Recommends Businesses With Worse Reviews",
+    "slug": "why-ai-recommends-businesses-with-worse-reviews",
+    "excerpt": "Your business has 500 five-star reviews but AI recommends a competitor with 200. Learn why review count alone does not determine AI recommendations.",
+    "category": "Business Pain Points",
+    "author": "The Answer Engine Team",
+    "readTime": "14 min",
+    "image": "/blog/why-ai-recommends-businesses-with-worse-reviews.webp",
+    "publishDate": "2026-04-01",
+    "lastModified": "2026-04-01",
+    "featured": true,
+    "tags": [
+      "AI Recommendations",
+      "Reviews",
+      "Review Quality",
+      "AI Visibility",
+      "Business Strategy"
+    ]
+  },
+  {
+    "id": 112,
+    "title": "How Grok Decides Which Businesses to Recommend",
+    "slug": "how-grok-decides-which-businesses-to-recommend",
+    "excerpt": "Grok uses real-time X data and web crawling to recommend local businesses. Learn what signals xAI evaluates and why most companies are invisible.",
+    "category": "Platform Deep Dives",
+    "author": "The Answer Engine Team",
+    "readTime": "14 min",
+    "image": "/blog/how-grok-decides-which-businesses-to-recommend.webp",
+    "publishDate": "2026-04-01",
+    "lastModified": "2026-04-01",
+    "featured": true,
+    "tags": [
+      "Grok",
+      "xAI",
+      "X Data",
+      "AI Platform",
+      "Business Recommendations"
+    ]
+  },
+  {
+    "id": 113,
+    "title": "Can You Pay to Get Recommended by ChatGPT",
+    "slug": "can-you-pay-to-get-recommended-by-chatgpt",
+    "excerpt": "ChatGPT now shows ads but you cannot pay to influence its actual recommendations. Learn the difference between ads and organic AI citations.",
+    "category": "Myth Busters",
+    "author": "The Answer Engine Team",
+    "readTime": "14 min",
+    "image": "/blog/can-you-pay-to-get-recommended-by-chatgpt.webp",
+    "publishDate": "2026-04-01",
+    "lastModified": "2026-04-01",
+    "featured": true,
+    "tags": [
+      "ChatGPT",
+      "Advertising",
+      "AI Recommendations",
+      "Myth Busting",
+      "Paid vs Organic"
+    ]
+  },
+  {
+    "id": 114,
+    "title": "How Veterinary Clinics Get Found on AI Search",
+    "slug": "how-veterinary-clinics-get-found-on-ai-search",
+    "excerpt": "Vet clinic ChatGPT referrals grew 1,278% in one year. Learn why most veterinary practices are invisible to AI and what signals pet owners trust.",
+    "category": "How-To Guides",
+    "author": "The Answer Engine Team",
+    "readTime": "14 min",
+    "image": "/blog/how-veterinary-clinics-get-found-on-ai-search.webp",
+    "publishDate": "2026-04-01",
+    "lastModified": "2026-04-01",
+    "featured": true,
+    "tags": [
+      "Veterinary",
+      "AI Search",
+      "Pet Services",
+      "Local Business",
+      "ChatGPT"
+    ]
+  },
+  {
+    "id": 115,
+    "title": "Your Website vs Directories: What AI Trusts",
+    "slug": "your-website-vs-directories-what-ai-trusts",
+    "excerpt": "Business websites drive 58% of ChatGPT recommendations while directories drive 15%. Learn what AI platforms actually trust for local business info.",
+    "category": "Comparisons",
+    "author": "The Answer Engine Team",
+    "readTime": "14 min",
+    "image": "/blog/your-website-vs-directories-what-ai-trusts.webp",
+    "publishDate": "2026-04-01",
+    "lastModified": "2026-04-01",
+    "featured": true,
+    "tags": [
+      "Website",
+      "Directories",
+      "Citations",
+      "AI Trust Signals",
+      "Local Business"
+    ]
   }
 ]

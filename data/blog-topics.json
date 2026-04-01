@@ -115,8 +115,9 @@
     "category": "How-To Guides",
     "pillar": "How-To",
     "priority": 1,
-    "status": "queued",
-    "createdAt": "2026-03-25T07:37:16.722Z"
+    "status": "published",
+    "createdAt": "2026-03-25T07:37:16.722Z",
+    "publishedAt": "2026-04-01T06:34:34.032Z"
   },
   {
     "id": "q2-3",
@@ -174,8 +175,9 @@
     "category": "How-To Guides",
     "pillar": "How-To",
     "priority": 1,
-    "status": "queued",
-    "createdAt": "2026-03-25T07:37:16.722Z"
+    "status": "published",
+    "createdAt": "2026-03-25T07:37:16.722Z",
+    "publishedAt": "2026-04-01T06:34:34.032Z"
   },
   {
     "id": "q2-8",
@@ -392,5 +394,65 @@
     "status": "published",
     "createdAt": "2026-03-25T07:37:16.722Z",
     "publishedAt": "2026-03-28T12:00:00.000Z"
+  },
+  {
+    "id": "q2-26",
+    "title": "Why AI Recommends Businesses With Worse Reviews",
+    "slug": "why-ai-recommends-businesses-with-worse-reviews",
+    "targetKeyword": "why AI recommends businesses worse reviews",
+    "category": "Business Pain Points",
+    "pillar": "Business Pain Points",
+    "priority": 2,
+    "status": "published",
+    "createdAt": "2026-04-01T00:00:00.000Z",
+    "publishedAt": "2026-04-01T00:00:00.000Z"
+  },
+  {
+    "id": "q2-27",
+    "title": "How Grok Decides Which Businesses to Recommend",
+    "slug": "how-grok-decides-which-businesses-to-recommend",
+    "targetKeyword": "Grok business recommendations xAI",
+    "category": "Platform Deep Dives",
+    "pillar": "Platform Deep Dives",
+    "priority": 3,
+    "status": "published",
+    "createdAt": "2026-04-01T00:00:00.000Z",
+    "publishedAt": "2026-04-01T00:00:00.000Z"
+  },
+  {
+    "id": "q2-28",
+    "title": "Can You Pay to Get Recommended by ChatGPT",
+    "slug": "can-you-pay-to-get-recommended-by-chatgpt",
+    "targetKeyword": "pay for ChatGPT recommendations",
+    "category": "Myth Busters",
+    "pillar": "Myth Busters",
+    "priority": 2,
+    "status": "published",
+    "createdAt": "2026-04-01T00:00:00.000Z",
+    "publishedAt": "2026-04-01T00:00:00.000Z"
+  },
+  {
+    "id": "q2-29",
+    "title": "How Veterinary Clinics Get Found on AI Search",
+    "slug": "how-veterinary-clinics-get-found-on-ai-search",
+    "targetKeyword": "veterinary clinics AI search ChatGPT",
+    "category": "How-To Guides",
+    "pillar": "How-To",
+    "priority": 2,
+    "status": "published",
+    "createdAt": "2026-04-01T00:00:00.000Z",
+    "publishedAt": "2026-04-01T00:00:00.000Z"
+  },
+  {
+    "id": "q2-30",
+    "title": "Your Website vs Directories: What AI Trusts",
+    "slug": "your-website-vs-directories-what-ai-trusts",
+    "targetKeyword": "website vs directories AI trust",
+    "category": "Comparisons",
+    "pillar": "Comparisons",
+    "priority": 2,
+    "status": "published",
+    "createdAt": "2026-04-01T00:00:00.000Z",
+    "publishedAt": "2026-04-01T00:00:00.000Z"
   }
 ]
