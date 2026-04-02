@@ -2443,5 +2443,100 @@
       "Citation Momentum",
       "Business Authority"
     ]
+  },
+  {
+    "id": 119,
+    "title": "How Gyms and Fitness Studios Get Found on AI",
+    "slug": "how-gyms-and-fitness-studios-get-found-on-ai",
+    "excerpt": "AI is changing how people find their next gym. The fitness businesses that understand what AI evaluates are capturing members their competitors never see.",
+    "category": "Industry Guides",
+    "author": "The Answer Engine Team",
+    "readTime": "16 min",
+    "image": "/blog/how-gyms-and-fitness-studios-get-found-on-ai.webp",
+    "publishDate": "2026-04-02",
+    "lastModified": "2026-04-02",
+    "featured": true,
+    "tags": [
+      "Industry Guides",
+      "Fitness Marketing",
+      "Gym AI Search",
+      "Local Business AI"
+    ]
+  },
+  {
+    "id": 120,
+    "title": "Why AI Never Mentions Your Business by Name",
+    "slug": "why-ai-never-mentions-your-business-by-name",
+    "excerpt": "92% of brands are invisible to ChatGPT. If AI gives generic answers instead of naming your business, specific signals are missing from your digital presence.",
+    "category": "Business Pain Points",
+    "author": "The Answer Engine Team",
+    "readTime": "15 min",
+    "image": "/blog/why-ai-never-mentions-your-business-by-name.webp",
+    "publishDate": "2026-04-02",
+    "lastModified": "2026-04-02",
+    "featured": true,
+    "tags": [
+      "Business Pain Points",
+      "AI Visibility",
+      "Brand Mentions",
+      "ChatGPT Citations"
+    ]
+  },
+  {
+    "id": 121,
+    "title": "Does Buying Backlinks Help AI Find You",
+    "slug": "does-buying-backlinks-help-ai-find-you",
+    "excerpt": "Backlinks dominated SEO for decades. But AI platforms evaluate trust differently. The old link-buying playbook may actually hurt your AI visibility.",
+    "category": "Myth Busters",
+    "author": "The Answer Engine Team",
+    "readTime": "15 min",
+    "image": "/blog/does-buying-backlinks-help-ai-find-you.webp",
+    "publishDate": "2026-04-02",
+    "lastModified": "2026-04-02",
+    "featured": true,
+    "tags": [
+      "Myth Busters",
+      "Backlinks",
+      "AI Trust Signals",
+      "Link Building"
+    ]
+  },
+  {
+    "id": 122,
+    "title": "Content Marketing vs AI Optimization",
+    "slug": "content-marketing-vs-ai-optimization",
+    "excerpt": "Content marketing returns $7.65 per dollar spent. AI-referred visitors convert 23x higher. Should you choose one, or do you need both?",
+    "category": "Comparisons",
+    "author": "The Answer Engine Team",
+    "readTime": "18 min",
+    "image": "/blog/content-marketing-vs-ai-optimization.webp",
+    "publishDate": "2026-04-02",
+    "lastModified": "2026-04-02",
+    "featured": true,
+    "tags": [
+      "Comparisons",
+      "Content Marketing",
+      "AI Optimization",
+      "Marketing Strategy"
+    ]
+  },
+  {
+    "id": 123,
+    "title": "What Your Website Looks Like to an AI Crawler",
+    "slug": "what-your-website-looks-like-to-an-ai-crawler",
+    "excerpt": "Your website looks great to humans. But AI crawlers see something completely different. The gap between those two views is costing you citations.",
+    "category": "AEO Education",
+    "author": "The Answer Engine Team",
+    "readTime": "16 min",
+    "image": "/blog/what-your-website-looks-like-to-an-ai-crawler.webp",
+    "publishDate": "2026-04-02",
+    "lastModified": "2026-04-02",
+    "featured": true,
+    "tags": [
+      "AEO Education",
+      "AI Crawlers",
+      "Technical SEO",
+      "Website Optimization"
+    ]
   }
 ]
