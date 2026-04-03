@@ -454,5 +454,65 @@
     "status": "published",
     "createdAt": "2026-04-01T00:00:00.000Z",
     "publishedAt": "2026-04-01T00:00:00.000Z"
+  },
+  {
+    "id": "q2-31",
+    "title": "How Gyms and Fitness Studios Get Found on AI",
+    "slug": "how-gyms-and-fitness-studios-get-found-on-ai",
+    "targetKeyword": "gym fitness studio AI search",
+    "category": "Industry Guides",
+    "pillar": "Industry Guides",
+    "priority": 2,
+    "status": "published",
+    "createdAt": "2026-04-02T17:12:56.113Z",
+    "publishedAt": "2026-04-02T17:12:56.114Z"
+  },
+  {
+    "id": "q2-32",
+    "title": "Why AI Never Mentions Your Business by Name",
+    "slug": "why-ai-never-mentions-your-business-by-name",
+    "targetKeyword": "AI never mentions my business",
+    "category": "Business Pain Points",
+    "pillar": "Business Pain Points",
+    "priority": 1,
+    "status": "published",
+    "createdAt": "2026-04-02T17:12:56.114Z",
+    "publishedAt": "2026-04-02T17:12:56.114Z"
+  },
+  {
+    "id": "q2-33",
+    "title": "Does Buying Backlinks Help AI Find You",
+    "slug": "does-buying-backlinks-help-ai-find-you",
+    "targetKeyword": "buying backlinks AI search",
+    "category": "Myth Busters",
+    "pillar": "Myth Busters",
+    "priority": 2,
+    "status": "published",
+    "createdAt": "2026-04-02T17:12:56.114Z",
+    "publishedAt": "2026-04-02T17:12:56.114Z"
+  },
+  {
+    "id": "q2-34",
+    "title": "Content Marketing vs AI Optimization",
+    "slug": "content-marketing-vs-ai-optimization",
+    "targetKeyword": "content marketing vs AI optimization",
+    "category": "Comparisons",
+    "pillar": "Comparisons",
+    "priority": 2,
+    "status": "published",
+    "createdAt": "2026-04-02T17:12:56.114Z",
+    "publishedAt": "2026-04-02T17:12:56.114Z"
+  },
+  {
+    "id": "q2-35",
+    "title": "What Your Website Looks Like to an AI Crawler",
+    "slug": "what-your-website-looks-like-to-an-ai-crawler",
+    "targetKeyword": "what AI crawler sees website",
+    "category": "AEO Education",
+    "pillar": "AEO Education",
+    "priority": 1,
+    "status": "published",
+    "createdAt": "2026-04-02T17:12:56.114Z",
+    "publishedAt": "2026-04-02T17:12:56.114Z"
   }
 ]

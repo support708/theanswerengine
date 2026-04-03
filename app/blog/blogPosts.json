@@ -2538,5 +2538,101 @@
       "Technical SEO",
       "Website Optimization"
     ]
+  },
+  {
+    "id": 124,
+    "title": "How Salons and Spas Get Found on AI Search",
+    "slug": "how-salons-and-spas-get-found-on-ai-search",
+    "excerpt": "AI platforms now drive salon and spa discovery. The beauty businesses showing up in AI recommendations share specific signals that most salons completely miss.",
+    "category": "Industry Guides",
+    "author": "The Answer Engine Team",
+    "readTime": "14 min",
+    "image": "/blog/how-salons-and-spas-get-found-on-ai-search.webp",
+    "publishDate": "2026-04-03",
+    "lastModified": "2026-04-03",
+    "featured": true,
+    "tags": [
+      "Industry Guides",
+      "Salons",
+      "Spas",
+      "Beauty Industry",
+      "AI Search"
+    ]
+  },
+  {
+    "id": 125,
+    "title": "Why AI Gives Different Answers Every Time",
+    "slug": "why-ai-gives-different-answers-every-time",
+    "excerpt": "Ask ChatGPT the same question twice and you might get two different answers. This inconsistency has real consequences for your business visibility.",
+    "category": "AEO Education",
+    "author": "The Answer Engine Team",
+    "readTime": "12 min",
+    "image": "/blog/why-ai-gives-different-answers-every-time.webp",
+    "publishDate": "2026-04-03",
+    "lastModified": "2026-04-03",
+    "featured": true,
+    "tags": [
+      "AEO Education",
+      "AI Consistency",
+      "ChatGPT",
+      "AI Search"
+    ]
+  },
+  {
+    "id": 126,
+    "title": "Why AI Recommends Chains Over Local Businesses",
+    "slug": "why-ai-recommends-chains-over-local-businesses",
+    "excerpt": "AI search often surfaces national chains instead of local businesses. The reason is not brand bias: it is a visibility gap that local businesses can close.",
+    "category": "Business Pain Points",
+    "author": "The Answer Engine Team",
+    "readTime": "13 min",
+    "image": "/blog/why-ai-recommends-chains-over-local-businesses.webp",
+    "publishDate": "2026-04-03",
+    "lastModified": "2026-04-03",
+    "featured": true,
+    "tags": [
+      "Business Pain Points",
+      "Local Business",
+      "AI Visibility",
+      "Chains vs Local"
+    ]
+  },
+  {
+    "id": 127,
+    "title": "How Press Mentions Help AI Recommend You",
+    "slug": "how-press-mentions-help-ai-recommend-you",
+    "excerpt": "Earned media drives up to 95% of links cited in AI-generated answers. Press coverage is the strongest authority signal AI platforms evaluate.",
+    "category": "How-To Guides",
+    "author": "The Answer Engine Team",
+    "readTime": "12 min",
+    "image": "/blog/how-press-mentions-help-ai-recommend-you.webp",
+    "publishDate": "2026-04-03",
+    "lastModified": "2026-04-03",
+    "featured": true,
+    "tags": [
+      "How-To Guides",
+      "Press Coverage",
+      "Earned Media",
+      "AI Authority"
+    ]
+  },
+  {
+    "id": 128,
+    "title": "Is Your Website Too Complicated for AI",
+    "slug": "is-your-website-too-complicated-for-ai",
+    "excerpt": "Most websites are invisible to AI crawlers. JavaScript frameworks, accordions, and dynamic content hide your business from ChatGPT and Perplexity.",
+    "category": "Myth Busters",
+    "author": "The Answer Engine Team",
+    "readTime": "13 min",
+    "image": "/blog/is-your-website-too-complicated-for-ai.webp",
+    "publishDate": "2026-04-03",
+    "lastModified": "2026-04-03",
+    "featured": true,
+    "tags": [
+      "Myth Busters",
+      "Website Optimization",
+      "AI Crawlers",
+      "Technical"
+    ]
   }
 ]

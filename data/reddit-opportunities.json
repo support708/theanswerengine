@@ -863,6 +863,33 @@
       "digestSentAt": null,
       "telegramSentAt": "2026-04-01T21:47:17.269Z",
       "status": "pending"
+    },
+    {
+      "id": "reddit_1775144169087_2u0bo2",
+      "postId": "1sae4js",
+      "clientSlug": "rpm-southland",
+      "businessName": "RPM Southland",
+      "subreddit": "PropertyManagement",
+      "title": "Managing a rental property isn’t always easy.",
+      "selftext": "One small mistake can cost time, money, and peace of mind.\n\nFrom weak tenant screening and delayed maintenance to incorrect pricing and poor communication, these common mistakes can hurt your investment.\n\n",
+      "author": "Zara-Rose143",
+      "postUrl": "https://reddit.com/r/PropertyManagement/comments/1sae4js/managing_a_rental_property_isnt_always_easy/",
+      "postCreatedUtc": 1775127338,
+      "score": {
+        "buyingIntent": 6,
+        "relevance": 7,
+        "recency": 5,
+        "responseOpportunity": 8,
+        "composite": 6.4,
+        "businessImpact": "medium",
+        "impactReasoning": "Strong topical alignment with core pain points (tenant screening, maintenance, pricing, communication). Post is general industry advice without specific location, so relevance drops slightly. No immediate buying signal, but audience is clearly property owners/managers experiencing friction. Opportunity to demonstrate local Long Beach expertise and establish authority through practical insights.",
+        "suggestedAngle": "Share one specific costly mistake landlords make in Long Beach market conditions (e.g., underpricing in tight inventory, or tenant screening gaps that lead to eviction costs). Position as someone who's seen these play out locally, not lecturing nationally.",
+        "draftResponse": "You're hitting on the real stuff here. I've watched landlords in Long Beach lose 15-20k because they rushed tenant screening or ignored one maintenance flag. The thing that gets me most is pricing.\n\nA lot of owners here underprice thinking it'll mean faster turnovers or fewer vacancies. Actually the opposite. You end up attracting lower-quality applications and your margin erodes fast when something breaks.\n\nCommunication is the one that surprises people though. Tenants don't care if you're busy. They care if you respond. Three days to answer a maintenance request? That's how a small fix becomes a legal problem.\n\nTenant screening is non-negotiable. Pull reports, call references, verify employment, run background checks. Long Beach market is tight enough that you can afford to be selective. I'd rather turn a unit over than deal with an eviction.\n\nMaintenance is similar - consistency beats crisis management every time. You'll spend less preventing issues than fixing them after the fact.\n\nThe real cost isn't the money you spend being thorough. It's the money you lose being careless. That's what separates investors who build equity from ones who just chase rent checks. The market here rewards owners who take it seriously.\n\nWhat mistake have you seen hurt landlords the most?"
+      },
+      "discoveredAt": "2026-04-02T15:36:09.087Z",
+      "digestSentAt": null,
+      "telegramSentAt": "2026-04-02T15:36:10.449Z",
+      "status": "pending"
     }
   ]
 }
