@@ -11,7 +11,7 @@ const description = 'Local SEO drives Map Pack rankings and Google Business Prof
 const publishDate = '2026-04-04'
 
 export const metadata: Metadata = {
-  title: 'Local SEO vs AI Search: Which Matters More? | The Answer Engine',
+  title: 'Local SEO vs AI Search: Which Matters More?',
   description,
   openGraph: {
     title,
@@ -721,7 +721,7 @@ export default function LocalSEOvsAISearch() {
 
               <div style={{ padding: '20px', border: '1px solid rgba(255,255,255,0.1)', borderRadius: '12px', background: 'rgba(255,106,0,0.05)' }}>
                 <h4 style={{ color: 'white', marginBottom: '8px' }}>
-                  <Link href="/blog/google-rankings-dont-matter-anymore" style={{ color: '#FF6A00', textDecoration: 'none' }}>Why Google Rankings Do Not Matter Anymore</Link>
+                  <Link href="/blog/google-rankings-dont-matter" style={{ color: '#FF6A00', textDecoration: 'none' }}>Why Google Rankings Do Not Matter Anymore</Link>
                 </h4>
                 <p style={{ color: 'rgba(255,255,255,0.6)', fontSize: '0.9rem' }}>The data shows why ranking position one is no longer the goal. Read why.</p>
               </div>
