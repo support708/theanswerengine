@@ -2634,5 +2634,61 @@
       "AI Crawlers",
       "Technical"
     ]
+  },
+  {
+    "id": 129,
+    "title": "Does Social Media Help AI Find Your Business?",
+    "slug": "does-social-media-help-ai-find-business",
+    "excerpt": "Instagram, Facebook, and TikTok posts are invisible to ChatGPT, Claude, and Google AI. Here is what AI actually reads when deciding which businesses to recommend.",
+    "category": "Myth Busters",
+    "author": "The Answer Engine Team",
+    "readTime": "14 min",
+    "image": "/blog/does-social-media-help-ai-find-business.svg",
+    "publishDate": "2026-04-04",
+    "lastModified": "2026-04-04",
+    "featured": true,
+    "tags": ["Social Media", "AI Search", "Myth Busters", "Instagram", "Facebook", "TikTok"]
+  },
+  {
+    "id": 130,
+    "title": "How Apple Intelligence Picks Local Businesses",
+    "slug": "how-apple-intelligence-picks-local-businesses",
+    "excerpt": "Apple Intelligence on 2.5B devices uses Apple Maps, Yelp, and Apple Business Connect to recommend businesses. Most companies only optimize for Google.",
+    "category": "Platform Deep Dives",
+    "author": "The Answer Engine Team",
+    "readTime": "13 min",
+    "image": "/blog/how-apple-intelligence-picks-local-businesses.svg",
+    "publishDate": "2026-04-04",
+    "lastModified": "2026-04-04",
+    "featured": true,
+    "tags": ["Apple Intelligence", "Siri", "Apple Maps", "Platform Deep Dives", "Yelp"]
+  },
+  {
+    "id": 131,
+    "title": "Why AI Gives Different Answers Every Time You Ask",
+    "slug": "why-ai-gives-different-answers-every-time",
+    "excerpt": "AI platforms give different business recommendations each time because of 6 technical factors. Strong authority signals produce consistent citations regardless.",
+    "category": "Business Pain Points",
+    "author": "The Answer Engine Team",
+    "readTime": "12 min",
+    "image": "/blog/why-ai-gives-different-answers-every-time.svg",
+    "publishDate": "2026-04-04",
+    "lastModified": "2026-04-04",
+    "featured": true,
+    "tags": ["AI Variability", "ChatGPT", "Business Pain Points", "Authority Signals"]
+  },
+  {
+    "id": 132,
+    "title": "Local SEO vs AI Search: Which Matters More?",
+    "slug": "local-seo-vs-ai-search-which-matters-more",
+    "excerpt": "Local SEO gets you on the map. AI search gets you cited as the expert. Compare conversion rates, costs, and ROI for both channels in 2026.",
+    "category": "Comparisons",
+    "author": "The Answer Engine Team",
+    "readTime": "14 min",
+    "image": "/blog/local-seo-vs-ai-search-which-matters-more.svg",
+    "publishDate": "2026-04-04",
+    "lastModified": "2026-04-04",
+    "featured": true,
+    "tags": ["Local SEO", "AI Search", "Comparison", "ROI", "Business Strategy"]
   }
 ]

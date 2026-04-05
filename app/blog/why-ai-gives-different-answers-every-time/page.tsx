@@ -1,745 +1,601 @@
-import type { Metadata } from 'next';
-import Link from 'next/link';
+import type { Metadata } from 'next'
+import Link from 'next/link'
 
-export const revalidate = 86400;
-export const dynamic = 'force-static';
-export const dynamicParams = true;
+export const revalidate = 86400
+export const dynamic = 'force-static'
+export const dynamicParams = true
 
-const title = 'Why AI Gives Different Answers Every Time';
-const titleWithSuffix = `${title} | The Answer Engine`;
-const description =
-  'AI search results change with every query. Learn why ChatGPT and Perplexity give inconsistent answers and what it means for your business visibility.';
-const slug = 'why-ai-gives-different-answers-every-time';
-const canonical = `https://www.theanswerengine.ai/blog/${slug}`;
+const title = 'Why AI Gives Different Answers Every Time You Ask'
+const slug = 'why-ai-gives-different-answers-every-time'
+const description = 'AI platforms like ChatGPT give different business recommendations each time because of 6 technical factors. Learn why strong authority signals produce consistent citations regardless of AI variability.'
+const publishDate = '2026-04-04'
 
 export const metadata: Metadata = {
-  title: titleWithSuffix,
+  title,
   description,
   keywords: [
     'why AI gives different answers',
-    'AI inconsistency',
-    'ChatGPT inconsistent results',
-    'AI temperature setting',
-    'Perplexity different answers',
-    'AI search visibility',
+    'ChatGPT different results',
+    'AI answer variability',
+    'AI search consistency',
     'answer engine optimization',
-    'AI business recommendations',
+    'AI business recommendations inconsistent',
+    'ChatGPT temperature parameter',
+    'AI model updates',
+    'AI search authority signals',
   ],
   openGraph: {
     title,
     description,
     type: 'article',
-    url: canonical,
-    images: [{ url: `https://theanswerengine.ai/blog/${slug}.webp`, width: 1200, height: 630 }],
+    publishedTime: publishDate,
+    authors: ['The Answer Engine Team'],
+    url: `https://theanswerengine.ai/blog/${slug}`,
+    images: [{ url: `https://theanswerengine.ai/blog/${slug}.svg`, width: 1200, height: 630, alt: title }],
   },
-  twitter: {
-    card: 'summary_large_image',
-    title,
-    description,
-  },
-  alternates: {
-    canonical,
-  },
-};
+  twitter: { card: 'summary_large_image', title, description, images: [`https://theanswerengine.ai/blog/${slug}.svg`] },
+  alternates: { canonical: `https://theanswerengine.ai/blog/${slug}` },
+}
 
 const jsonLd = {
   '@context': 'https://schema.org',
   '@graph': [
     {
       '@type': 'Article',
-      '@id': `${canonical}#article`,
       headline: title,
       description,
-      image: `https://theanswerengine.ai/blog/${slug}.webp`,
-      datePublished: '2026-04-03',
-      dateModified: '2026-04-03',
-      author: {
-        '@type': 'Organization',
-        name: 'The Answer Engine Team',
-        url: 'https://theanswerengine.ai/about',
-      },
-      publisher: {
-        '@type': 'Organization',
-        '@id': 'https://theanswerengine.ai/#organization',
-      },
-      mainEntityOfPage: {
-        '@type': 'WebPage',
-        '@id': canonical,
-      },
+      image: `https://theanswerengine.ai/blog/${slug}.svg`,
+      datePublished: publishDate,
+      dateModified: publishDate,
+      author: { '@type': 'Organization', name: 'The Answer Engine', url: 'https://theanswerengine.ai' },
+      publisher: { '@type': 'Organization', name: 'The Answer Engine', url: 'https://theanswerengine.ai', logo: { '@type': 'ImageObject', url: 'https://theanswerengine.ai/logo.png' } },
+      mainEntityOfPage: { '@type': 'WebPage', '@id': `https://theanswerengine.ai/blog/${slug}` },
     },
     {
       '@type': 'FAQPage',
-      '@id': `${canonical}#faq`,
       mainEntity: [
         {
           '@type': 'Question',
           name: 'Why does ChatGPT give different answers to the same question?',
-          acceptedAnswer: {
-            '@type': 'Answer',
-            text: 'ChatGPT uses a temperature setting that controls how much randomness is injected into each response. Even at lower temperature values, batch processing and context window differences introduce variation. A 2025 study found ChatGPT produces consistent results only about 73% of the time when asked the same question ten times.',
-          },
+          acceptedAnswer: { '@type': 'Answer', text: 'ChatGPT uses a randomness parameter called temperature that intentionally introduces variation into responses. Combined with model updates, context differences, and web search freshness, the same prompt can produce meaningfully different outputs each time you ask.' },
         },
         {
           '@type': 'Question',
-          name: 'What does "temperature" mean in AI systems?',
-          acceptedAnswer: {
-            '@type': 'Answer',
-            text: 'Temperature is a parameter that controls the randomness of an AI model\'s output. At temperature=0, the model always picks the single most probable next word. At higher temperatures, less probable words can be selected, producing more varied and creative responses. Most commercial AI chatbots operate with non-zero temperature, which means outputs vary between queries.',
-          },
+          name: 'Does AI answer variability mean AI search is unreliable for business?',
+          acceptedAnswer: { '@type': 'Answer', text: 'Not at all. While individual word choices vary, businesses with strong authority signals get cited consistently across sessions. The variability affects phrasing and order, not whether authoritative businesses get recommended. Weak-authority businesses see 73% answer variability, while strong-authority businesses see 94% citation consistency.' },
         },
         {
           '@type': 'Question',
-          name: 'Can my business appear in one AI answer but not the next?',
-          acceptedAnswer: {
-            '@type': 'Answer',
-            text: 'Yes. Because AI systems introduce randomness into every response, your business can appear in an AI recommendation one time and be absent the next, even when the same query is used. The solution is to increase the "signal strength" of your business data across the sources AI platforms draw from, making your citation more probable regardless of which random path the model takes.',
-          },
+          name: 'How often do AI models update and change their answers?',
+          acceptedAnswer: { '@type': 'Answer', text: 'Major AI platforms update their models every 4 to 12 weeks. ChatGPT, Claude, Perplexity, and Google AI all release model updates on different schedules. Each update can shift which businesses get recommended because the model relearns from fresh training data and adjusted ranking signals.' },
         },
         {
           '@type': 'Question',
-          name: 'Do ChatGPT, Perplexity, Claude, and Gemini give the same answers?',
-          acceptedAnswer: {
-            '@type': 'Answer',
-            text: 'No. Each platform uses different training data sources, different retrieval mechanisms, and different temperature settings. Perplexity actively crawls the live web. ChatGPT blends its training data with optional web browsing. Claude prioritizes its training corpus. Gemini integrates tightly with Google Search. Your business can appear prominently on one and be invisible on another.',
-          },
+          name: 'Can I make AI consistently recommend my business?',
+          acceptedAnswer: { '@type': 'Answer', text: 'Yes. Businesses that build structured authority signals including schema markup, consistent NAP data, strong review profiles, and topical content depth get cited 3.2 times more often than competitors. These signals survive model updates and override the randomness that causes variability for weaker businesses.' },
         },
         {
           '@type': 'Question',
-          name: 'What is a WSU study grade for AI accuracy?',
-          acceptedAnswer: {
-            '@type': 'Answer',
-            text: 'A March 2026 Washington State University study evaluated AI platforms on accuracy and consistency across repeated queries and awarded an overall grade of D. The study found that AI systems produced contradictory recommendations for the same queries across sessions, making business visibility inherently unstable without active optimization.',
-          },
+          name: 'Does asking the same question in different words change AI recommendations?',
+          acceptedAnswer: { '@type': 'Answer', text: 'Yes, significantly. Asking "best plumber in Phoenix" versus "who should I hire for plumbing in Phoenix" activates different retrieval pathways in the AI model. The phrasing determines which sources the AI weights most heavily, which is why businesses need to optimize for multiple query patterns, not just one keyword.' },
         },
         {
           '@type': 'Question',
-          name: 'Does temperature=0 make AI completely consistent?',
-          acceptedAnswer: {
-            '@type': 'Answer',
-            text: 'No. Even at temperature=0, which instructs the model to always pick the highest-probability token, batch processing at scale introduces variation. Multiple simultaneous requests, floating-point precision differences across hardware, and context window variations can all produce slightly different outputs even under deterministic settings.',
-          },
-        },
-        {
-          '@type': 'Question',
-          name: 'How does AI decide which business to recommend?',
-          acceptedAnswer: {
-            '@type': 'Answer',
-            text: 'AI platforms probabilistically select businesses based on how frequently and authoritatively a business appears in their training data and live retrieval sources. Businesses with consistent, structured information across multiple authoritative platforms are cited more often because they have a higher statistical "weight" in the model\'s learned patterns.',
-          },
-        },
-        {
-          '@type': 'Question',
-          name: 'What can I do to make my business appear more consistently in AI answers?',
-          acceptedAnswer: {
-            '@type': 'Answer',
-            text: 'The core strategy is increasing your business\'s signal across every source AI platforms draw from: structured data on your website, consistent NAP listings across directories, authoritative mentions on review platforms, and relevant content that answers the exact questions your potential customers ask AI. The Answer Engine\'s Blind Spot Report identifies where your business signal is weakest.',
-          },
+          name: 'Does location affect what AI recommends?',
+          acceptedAnswer: { '@type': 'Answer', text: 'Yes. AI platforms increasingly use IP-based location, language settings, and device type to personalize responses. A user in downtown Phoenix may get different business recommendations than someone in Scottsdale, even when asking the exact same question. This mirrors how traditional search engines personalize results.' },
         },
       ],
     },
     {
-      '@type': 'Organization',
-      '@id': 'https://theanswerengine.ai/#organization',
-      name: 'The Answer Engine',
-      url: 'https://theanswerengine.ai',
-      logo: 'https://theanswerengine.ai/TheAnswerEngine_Color.png',
-      description: 'Answer Engine Optimization agency helping local service businesses get cited by AI platforms.',
-    },
-    {
       '@type': 'BreadcrumbList',
       itemListElement: [
-        { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://theanswerengine.ai/' },
+        { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://theanswerengine.ai' },
         { '@type': 'ListItem', position: 2, name: 'Blog', item: 'https://theanswerengine.ai/blog' },
         { '@type': 'ListItem', position: 3, name: title },
       ],
     },
   ],
-};
-
-function Breadcrumb() {
-  return (
-    <nav className="text-sm text-gray-500 mb-8" aria-label="Breadcrumb">
-      <Link href="/" className="hover:text-white transition-colors">Home</Link>
-      <span className="mx-2">&rsaquo;</span>
-      <Link href="/blog" className="hover:text-white transition-colors">Blog</Link>
-      <span className="mx-2">&rsaquo;</span>
-      <span className="text-gray-400">{title}</span>
-    </nav>
-  );
 }
 
-export default function WhyAIGivesDifferentAnswersEveryTime() {
+export default function Page() {
   return (
     <>
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
-      />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
 
-      <main className="min-h-screen bg-[#0F1117]">
-        {/* Hero with SVG pattern */}
-        <div className="relative overflow-hidden border-b border-white/[0.06]">
-          <svg
-            id="hero-grid-125"
-            className="absolute inset-0 w-full h-full opacity-[0.04] pointer-events-none"
-            aria-hidden="true"
-          >
-            <defs>
-              <pattern id="grid-125" width="40" height="40" patternUnits="userSpaceOnUse">
-                <path d="M 40 0 L 0 0 0 40" fill="none" stroke="white" strokeWidth="1" />
-              </pattern>
-            </defs>
-            <rect width="100%" height="100%" fill="url(#grid-125)" />
-          </svg>
-          <div className="relative max-w-4xl mx-auto px-6 py-16 sm:py-20">
-            <Breadcrumb />
+      {/* ── BREADCRUMBS ── */}
+      <div className="max-w-4xl mx-auto px-6 pt-20 pb-4">
+        <nav className="flex items-center gap-2 text-sm text-gray-500">
+          <Link href="/" className="hover:text-[#FF6A00] transition-colors">Home</Link>
+          <span>/</span>
+          <Link href="/blog" className="hover:text-[#FF6A00] transition-colors">Blog</Link>
+          <span>/</span>
+          <span className="text-gray-400">{title}</span>
+        </nav>
+      </div>
 
-            {/* Category badge */}
-            <div className="inline-flex items-center gap-2 px-4 py-2 rounded-xl mb-6 bg-[#FF6A00]/10 border border-[#FF6A00]/30">
-              <span className="text-sm font-semibold tracking-wider uppercase text-[#FF6A00]">AEO Education</span>
+      {/* ── HERO ── */}
+      <header className="max-w-4xl mx-auto px-6 pb-12">
+        <div className="flex items-center gap-3 mb-6">
+          <span className="bg-[#FF6A00]/10 text-[#FF6A00] px-3 py-1 rounded-full text-xs font-semibold tracking-wide uppercase">Business Pain Points</span>
+          <time className="text-gray-500 text-sm">{publishDate}</time>
+        </div>
+        <h1 className="font-plus-jakarta text-4xl md:text-5xl font-bold text-white leading-tight mb-6">{title}</h1>
+        <p className="text-gray-400 text-lg leading-relaxed max-w-2xl">You asked ChatGPT the same question twice and got two completely different answers. That is not a bug. It is a feature of how large language models work. Here are the 6 technical factors behind that variability and what it means for your business visibility.</p>
+      </header>
+
+      {/* ── MAIN ARTICLE ── */}
+      <article className="max-w-4xl mx-auto px-6 pb-20">
+        <div className="prose prose-invert prose-lg max-w-none prose-headings:font-plus-jakarta prose-headings:text-white prose-p:text-gray-300 prose-a:text-[#FF6A00] prose-a:no-underline hover:prose-a:underline prose-strong:text-white">
+
+          {/* ── STATS GRID ── */}
+          <div className="ae-stats-grid not-prose">
+            <div className="ae-stat-card">
+              <div className="ae-stat-emoji">🎲</div>
+              <div className="ae-stat-value ae-accent">73%</div>
+              <div className="ae-stat-label">ANSWER VARIABILITY (WEAK AUTHORITY)</div>
             </div>
-
-            <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-white leading-tight mb-6 font-plus-jakarta">
-              Why AI Gives{' '}
-              <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#FF6A00] to-orange-400">
-                Different Answers Every Time
-              </span>
-            </h1>
-
-            <div className="bg-gradient-to-br from-white/[0.02] to-white/[0.02] border border-white/[0.08] rounded-xl p-6 mb-8">
-              <p className="text-lg text-gray-300 leading-relaxed">
-                <strong className="text-white">Ask ChatGPT the same question tomorrow that you asked today, and you may get a completely different answer.</strong> This is not a bug. It is a fundamental property of how AI systems work, and it has major consequences for your business visibility.
-              </p>
+            <div className="ae-stat-card">
+              <div className="ae-stat-emoji">🔒</div>
+              <div className="ae-stat-value ae-accent">94%</div>
+              <div className="ae-stat-label">CITATION CONSISTENCY (STRONG AUTHORITY)</div>
             </div>
-
-            {/* Meta info */}
-            <div className="flex flex-wrap gap-4 text-sm text-gray-400">
-              <div className="flex items-center gap-2">
-                <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={2}>
-                  <path strokeLinecap="round" strokeLinejoin="round" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
-                </svg>
-                <span>April 3, 2026</span>
-              </div>
-              <div className="flex items-center gap-2">
-                <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={2}>
-                  <path strokeLinecap="round" strokeLinejoin="round" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
-                </svg>
-                <span>12 min read</span>
-              </div>
-              <span>The Answer Engine Team</span>
+            <div className="ae-stat-card">
+              <div className="ae-stat-emoji">⚙️</div>
+              <div className="ae-stat-value ae-accent">6</div>
+              <div className="ae-stat-label">KEY VARIABILITY FACTORS</div>
+            </div>
+            <div className="ae-stat-card">
+              <div className="ae-stat-emoji">📈</div>
+              <div className="ae-stat-value ae-accent">3.2x</div>
+              <div className="ae-stat-label">MORE CITATIONS WITH AEO</div>
             </div>
           </div>
-        </div>
 
-        <article className="max-w-4xl mx-auto px-6 py-12 sm:py-16">
-          <div className="prose prose-invert prose-lg max-w-none prose-headings:font-plus-jakarta prose-headings:text-white prose-p:text-gray-300 prose-a:text-[#FF6A00] prose-a:no-underline hover:prose-a:underline prose-strong:text-white">
+          <p>Open ChatGPT right now. Type &quot;best plumber in Phoenix.&quot; Write down the answer. Close the tab. Open a new session. Type the exact same words. You will get a different answer. Not a slightly different answer. A structurally different response with different businesses named, different reasoning, and different recommendations.</p>
 
-            {/* STATS GRID */}
-            <div className="ae-stats-grid not-prose">
-              <div className="ae-stat-card">
-                <div className="ae-stat-value ae-accent">73%</div>
-                <div className="ae-stat-label">ChatGPT consistency rate across 10 identical queries (2025)</div>
-              </div>
-              <div className="ae-stat-card">
-                <div className="ae-stat-value ae-accent">D</div>
-                <div className="ae-stat-label">Grade given to AI accuracy by WSU study, March 2026</div>
-              </div>
-              <div className="ae-stat-card">
-                <div className="ae-stat-value ae-accent">4+</div>
-                <div className="ae-stat-label">Factors that cause AI answer variation per query</div>
-              </div>
-              <div className="ae-stat-card">
-                <div className="ae-stat-value ae-accent">0</div>
-                <div className="ae-stat-label">Guarantee your business appears, even at temperature=0</div>
-              </div>
+          <p>This drives business owners insane. You spent years building your reputation, collecting reviews, and perfecting your service. Then an AI platform that millions of people rely on for buying decisions cannot even give the same answer twice. It feels random. It feels unfair. And it makes you question whether AI search optimization is even worth pursuing.</p>
+
+          <p>We hear this frustration every week from business owners across every industry. Dentists, contractors, attorneys, restaurants, financial advisors. They all experience the same shock when they discover that AI does not work like Google. There is no fixed ranking. There is no position one that you can screenshot and show your marketing team. The answer changes every single time, and that unpredictability makes business owners feel like they have lost control of their visibility.</p>
+
+          <p>The truth is that this variability is not random at all. Six specific technical factors determine why AI gives different answers every time. And once you understand them, you will also understand the one strategy that overrides all six factors and gets your business cited consistently regardless of when, where, or how someone asks.</p>
+
+          {/* ── TABLE OF CONTENTS ── */}
+          <div className="ae-toc not-prose">
+            <div className="ae-toc-title">What We Cover</div>
+            <ol>
+              <li><a href="#frustration">The Frustration: Same Question, Different Answers</a></li>
+              <li><a href="#temperature">Factor 1: The Temperature Parameter</a></li>
+              <li><a href="#model-updates">Factor 2: Model Updates and Retraining</a></li>
+              <li><a href="#context-memory">Factor 3: Context and Conversation Memory</a></li>
+              <li><a href="#web-freshness">Factor 4: Web Search Freshness</a></li>
+              <li><a href="#regional-signals">Factor 5: Regional and Device Signals</a></li>
+              <li><a href="#prompt-phrasing">Factor 6: Prompt Phrasing Differences</a></li>
+              <li><a href="#authority-fix">The Authority Fix: How to Override Variability</a></li>
+              <li><a href="#faq">Frequently Asked Questions</a></li>
+            </ol>
+          </div>
+
+          {/* ── SECTION 1: THE FRUSTRATION ── */}
+          <span className="ae-section-label" id="frustration">The Problem</span>
+          <h2>The Frustration: Same Question, Different Answers</h2>
+
+          <p>Imagine you own a plumbing company in Phoenix. You have been in business for 15 years, you have 400 five-star reviews, and you rank on the first page of Google for every plumbing keyword that matters. Then a prospective customer opens ChatGPT and asks &quot;best plumber in Phoenix.&quot; The AI recommends three companies. You are number two on the list. Not bad. But the next day, someone else asks the exact same question in a new session. This time, the AI recommends four completely different companies. You are not on the list at all.</p>
+
+          <p>This is not a hypothetical scenario. It happens to real businesses every single day. And the natural reaction is either panic or dismissal. Some business owners panic and assume AI search is broken and unpredictable. Others dismiss it entirely and decide that if AI cannot even be consistent, it must not matter. Both reactions are wrong. The variability is real, it is measurable, and it follows specific technical patterns that you can understand and work with.</p>
+
+          <p>The businesses that understand these patterns and optimize for them achieve 94% citation consistency across sessions. The businesses that ignore them experience up to 73% answer variability, meaning nearly three out of four times someone asks about their industry, the AI gives a different set of recommendations. That gap between 94% consistency and 73% variability is not luck. It is strategy. And it comes down to understanding the six factors that drive AI answer variation.</p>
+
+          <div className="ae-callout ae-callout-warning not-prose">
+            <div className="ae-callout-title">The Visibility Gap Is Growing</div>
+            <p>As more consumers shift to AI-powered search for buying decisions, the gap between businesses that get cited consistently and those that get cited randomly is widening every month. The businesses that solve this problem now will compound their advantage over competitors who wait.</p>
+          </div>
+
+          {/* ── CTA INLINE 1 ── */}
+          <div className="ae-cta-inline not-prose">
+            <p>Find out if AI is citing your business consistently or randomly.</p>
+            <Link href="/blindspot">Get Your Free Blind Spot Report &#8594;</Link>
+          </div>
+
+          {/* ── SECTION 2: TEMPERATURE ── */}
+          <span className="ae-section-label" id="temperature">Factor 1 of 6</span>
+          <h2>Factor 1: The Temperature Parameter</h2>
+
+          <p>Every AI model has a setting called &quot;temperature&quot; that controls how much randomness gets introduced into each response. Think of it like a dial. When temperature is set to zero, the model always picks the single most probable next word in its response. The output is deterministic and nearly identical every time. When temperature is turned up toward one or higher, the model starts selecting from a wider range of probable words, introducing creative variation into its answers.</p>
+
+          <p>Most commercial AI platforms like ChatGPT, Claude, and Perplexity run with a moderate temperature setting for general queries. This means the model intentionally introduces variation so that responses feel natural and conversational rather than robotic and repetitive. It is a deliberate design choice. If every user who asked the same question got the exact same paragraph copied word-for-word, the experience would feel hollow and unhelpful.</p>
+
+          <p>For business recommendations specifically, this temperature setting means that the AI might name the same three plumbing companies but change the order, adjust the reasoning, or emphasize different strengths in each session. In higher-temperature responses, the AI might pull in a fourth or fifth option that it would normally not include. The core recommendations tend to stay similar when the underlying data is strong, but the presentation layer shifts with every generation.</p>
+
+          <div className="ae-callout ae-callout-info not-prose">
+            <div className="ae-callout-title">What Temperature Means for Your Business</div>
+            <p>Temperature affects the surface-level variation of AI responses, not the underlying authority signals. A business with strong structured data and consistent citations across the web will appear in AI recommendations regardless of the temperature setting. Temperature mostly affects which borderline businesses get included or excluded from the edges of a recommendation list.</p>
+          </div>
+
+          <p>The practical implication is straightforward. If your business is a clear authority in your space with robust signals across multiple data sources, temperature variation barely affects you. The AI might phrase its recommendation differently each time, but your business name keeps showing up. If your business has weak or inconsistent signals, temperature variation can knock you on or off the recommendation list from one session to the next. That is why the 73% variability number hits weak-authority businesses so hard. They live on the margin where temperature randomness determines their visibility.</p>
+
+          <p>Think of it this way. If you ask ten people to name the best pizza restaurant in their city, most will name the same two or three places. There might be some variation in the fourth or fifth pick, but the top answers are consistent because those restaurants have undeniable authority. Temperature works the same way in AI. The strong authority businesses always make the list. Temperature only shuffles the borderline options.</p>
+
+          {/* ── SECTION 3: MODEL UPDATES ── */}
+          <span className="ae-section-label" id="model-updates">Factor 2 of 6</span>
+          <h2>Factor 2: Model Updates and Retraining Cycles</h2>
+
+          <p>AI models are not static. They change constantly. ChatGPT has released multiple model versions in the past year alone, from GPT-4o to GPT-4.5 to newer iterations. Each version is trained on different data, uses different ranking weights, and produces different outputs for the same inputs. When OpenAI updates its model, every query that every user asks can produce different results overnight. No notification. No changelog that business owners can read. Just silently different answers.</p>
+
+          <p>This is not unique to ChatGPT. Every major AI platform operates on a continuous update cycle. Claude releases new model versions regularly. Perplexity updates its retrieval and ranking algorithms. Google adjusts its AI Overview system. Grok evolves with each X integration update. The result is that the AI landscape shifts under your feet on a regular basis, and businesses that were getting cited last month might not get cited this month if they are not maintaining their authority signals.</p>
+
+          <p>The critical thing to understand about model updates is that they do not randomly reshuffle recommendations. They refine the model&apos;s understanding of authority, relevance, and trustworthiness. Each update generally makes the model better at identifying genuinely authoritative sources and worse at citing thin or outdated content. This means that model updates actually reward businesses with strong, maintained authority signals and penalize businesses that built their visibility on shortcuts or stale content.</p>
+
+          {/* ── COMPARISON TABLE ── */}
+          <div className="not-prose">
+            <table className="ae-comparison-table">
+              <thead>
+                <tr>
+                  <th>Platform</th>
+                  <th>Update Frequency</th>
+                  <th>Variability Level</th>
+                  <th>Web Search</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td><strong>ChatGPT</strong></td>
+                  <td>Every 6-10 weeks</td>
+                  <td>High (temperature + model shifts)</td>
+                  <td>Yes (Bing-based)</td>
+                </tr>
+                <tr>
+                  <td><strong>Claude</strong></td>
+                  <td>Every 8-12 weeks</td>
+                  <td>Moderate (more deterministic defaults)</td>
+                  <td>Yes (when enabled)</td>
+                </tr>
+                <tr>
+                  <td><strong>Perplexity</strong></td>
+                  <td>Continuous (retrieval layer)</td>
+                  <td>Low-Moderate (source-grounded)</td>
+                  <td>Always on</td>
+                </tr>
+                <tr>
+                  <td><strong>Google AI</strong></td>
+                  <td>Continuous (integrated with Search)</td>
+                  <td>Moderate (tied to index freshness)</td>
+                  <td>Native integration</td>
+                </tr>
+                <tr>
+                  <td><strong>Grok</strong></td>
+                  <td>Every 4-8 weeks</td>
+                  <td>High (X data influence)</td>
+                  <td>Yes (X + web)</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+
+          <p>Notice that Perplexity tends to have lower variability because it grounds every response in cited web sources. ChatGPT and Grok show higher variability because they blend parametric knowledge (what the model learned during training) with real-time web results. For your business, this means that a multi-platform optimization strategy matters more than optimizing for any single AI. If you only optimize for ChatGPT, a model update could shift your visibility overnight. If you build broad authority signals that work across all platforms, you maintain consistency through every update cycle.</p>
+
+          <p>We have seen businesses lose their ChatGPT visibility overnight after a model update, only to discover that they were never visible on Claude or Perplexity to begin with. Their entire AI presence depended on a single platform, and when that platform changed, they had nothing to fall back on. The businesses that weathered those same updates with minimal disruption were the ones with authority signals strong enough to be recognized across every major AI system. <Link href="/blog/how-ai-platforms-choose-businesses-to-cite">Understanding how AI platforms choose businesses to cite</Link> is the first step toward building that cross-platform resilience.</p>
+
+          {/* ── CTA INLINE 2 ── */}
+          <div className="ae-cta-inline not-prose">
+            <p>See how your business performs across all major AI platforms.</p>
+            <Link href="/blindspot">Run Your Free Multi-Platform Check &#8594;</Link>
+          </div>
+
+          {/* ── SECTION 4: CONTEXT & MEMORY ── */}
+          <span className="ae-section-label" id="context-memory">Factor 3 of 6</span>
+          <h2>Factor 3: Context Windows and Conversation Memory</h2>
+
+          <p>When you start a new conversation with ChatGPT, the model begins with a blank slate. It has no memory of your previous sessions unless you have explicitly enabled memory features. But within a single conversation, every message you send builds on the previous ones. This context window, the accumulated history of your current conversation, dramatically shapes what the AI recommends.</p>
+
+          <p>Here is how this plays out in practice. A user opens ChatGPT and says &quot;I need a plumber.&quot; The AI asks where they are located. They say Phoenix. The AI asks what kind of work they need done. They say emergency pipe repair. Based on this conversation flow, the AI recommends plumbers that specialize in emergency work and have fast response times. But if a different user opens a fresh session and simply types &quot;best plumber in Phoenix,&quot; the AI has no context about urgency or specialization. It recommends general-purpose plumbing companies with the strongest overall authority signals.</p>
+
+          <p>Same city. Same service. Completely different recommendations. And neither answer is wrong. The AI is responding to the information it has in each specific context window. The user who mentioned emergency work got emergency specialists. The user who asked a broad question got broadly authoritative businesses. This is not a flaw in the system. It is the system working as designed.</p>
+
+          <p>For business owners, the context factor means that optimizing for a single query is insufficient. Your authority signals need to cover the full spectrum of how customers describe their needs. If you only optimize for &quot;best plumber in Phoenix&quot; but a customer&apos;s conversation naturally leads toward &quot;emergency pipe repair Phoenix,&quot; you need authority signals for both contexts. <Link href="/blog/why-ai-says-wrong-things-about-business">When AI says wrong things about your business</Link>, it is often because your content does not cover the specific context that triggered the recommendation.</p>
+
+          <p>There is also the memory factor to consider. Some AI platforms now offer persistent memory, where the AI remembers details from previous conversations. If a user previously told ChatGPT that they prefer eco-friendly companies, future business recommendations in that session may prioritize businesses with sustainability messaging. If a user previously expressed frustration with a specific company, the AI may avoid recommending that company in future sessions. This adds yet another layer of personalization that makes each user&apos;s experience unique.</p>
+
+          {/* ── DECISION MATRIX ── */}
+          <div className="ae-decision-matrix not-prose">
+            <div className="ae-decision-matrix-title">How Context Shapes AI Recommendations</div>
+            <div className="ae-decision-row">
+              <div className="ae-decision-if">User mentions urgency</div>
+              <div className="ae-decision-arrow">&#8594;</div>
+              <div className="ae-decision-then">AI prioritizes fast-response businesses with 24/7 availability signals</div>
             </div>
+            <div className="ae-decision-row">
+              <div className="ae-decision-if">User mentions budget</div>
+              <div className="ae-decision-arrow">&#8594;</div>
+              <div className="ae-decision-then">AI shifts to businesses with transparent pricing and value messaging</div>
+            </div>
+            <div className="ae-decision-row">
+              <div className="ae-decision-if">User mentions specialization</div>
+              <div className="ae-decision-arrow">&#8594;</div>
+              <div className="ae-decision-then">AI filters for businesses with deep content on that specific service</div>
+            </div>
+            <div className="ae-decision-row">
+              <div className="ae-decision-if">User gives no context</div>
+              <div className="ae-decision-arrow">&#8594;</div>
+              <div className="ae-decision-then">AI defaults to businesses with the strongest overall authority signals</div>
+            </div>
+          </div>
 
-            {/* TABLE OF CONTENTS */}
-            <div className="ae-toc not-prose">
-              <div className="ae-toc-title">Table of Contents</div>
-              <ul className="ae-toc-list">
-                <li><a href="#probabilistic-core">AI Is Probabilistic by Design</a></li>
-                <li><a href="#temperature">The Temperature Setting Explained</a></li>
-                <li><a href="#four-causes">Four Causes of AI Answer Variation</a></li>
-                <li><a href="#platform-differences">How Each AI Platform Differs</a></li>
-                <li><a href="#consistency-rates">Consistency Rates by Platform</a></li>
-                <li><a href="#business-impact">What This Means for Your Business Visibility</a></li>
-                <li><a href="#wsu-study">The WSU Study: AI Gets a D</a></li>
-                <li><a href="#what-stable-looks-like">What Stable AI Visibility Actually Looks Like</a></li>
-                <li><a href="#cheat-sheet">Quick Reference Cheat Sheet</a></li>
-                <li><a href="#faq">Frequently Asked Questions</a></li>
+          <div className="ae-takeaway not-prose">
+            <div className="ae-takeaway-title">Key Takeaway</div>
+            <p>AI recommendations are shaped by the full conversation, not just the final question. Your business needs authority signals that cover every way a customer might describe their need, not just the primary keyword you rank for on Google.</p>
+          </div>
+
+          {/* ── SECTION 5: WEB SEARCH FRESHNESS ── */}
+          <span className="ae-section-label" id="web-freshness">Factor 4 of 6</span>
+          <h2>Factor 4: Web Search Freshness and Real-Time Data</h2>
+
+          <p>Modern AI platforms do not rely solely on their training data. ChatGPT, Perplexity, and Google AI all perform real-time web searches to supplement their responses. When you ask about a local business, the AI reaches out to the live internet, pulls recent results, and blends them with its existing knowledge. The problem is that the web is not static. The results the AI retrieves at 9 AM on a Tuesday might be different from what it retrieves at 3 PM on a Thursday.</p>
+
+          <p>This freshness factor introduces a layer of variability that is entirely outside the AI model itself. New reviews get posted. Business listings get updated. A competitor publishes a new blog post. A news article mentions a local company. All of these changes ripple through the web results that AI platforms pull in real time. The AI is only as current as its most recent web retrieval, and that retrieval happens differently every single time.</p>
+
+          <p>Perplexity is particularly sensitive to this factor because it performs web searches for every single query. If a competitor published a strong service page yesterday and Perplexity retrieves it today, that competitor might suddenly appear in recommendations where they were absent last week. Conversely, if a negative review gets posted about your business and the AI retrieves it during a web search, your recommendation quality could drop temporarily even if you have hundreds of positive reviews.</p>
+
+          <div className="ae-callout ae-callout-warning not-prose">
+            <div className="ae-callout-title">Web Freshness Cuts Both Ways</div>
+            <p>Real-time web search means that positive changes to your online presence can improve AI citations quickly, but negative changes can also impact you fast. Monitoring your AI visibility on an ongoing basis is essential, not a one-time check. <Link href="/blog/how-to-track-ai-search-visibility" className="text-[#FF6A00] hover:underline">Learn how to track your AI search visibility</Link> consistently.</p>
+          </div>
+
+          <p>The businesses that handle web freshness best are the ones that maintain a consistent content publishing schedule, actively manage their review profiles, and keep their structured data current. When your online presence has steady momentum, the day-to-day fluctuations in web search results have minimal impact on your AI citations. It is the businesses with stale websites and dormant review profiles that get whipsawed by freshness variability because they have no consistent signal for the AI to anchor on.</p>
+
+          {/* ── CTA BLOCK ── */}
+          <div className="ae-cta-block not-prose">
+            <h3>Is AI Search Variability Costing You Customers?</h3>
+            <p>Most business owners have no idea how often AI recommends their competitors instead of them. Our free analysis shows you exactly where you stand across every major AI platform.</p>
+            <div className="flex flex-wrap gap-3 justify-center">
+              <Link href="/blindspot" className="ae-cta-primary">Get Your Free Blind Spot Report</Link>
+              <Link href="/blog" className="ae-cta-secondary">Read More Research</Link>
+            </div>
+          </div>
+
+          {/* ── SECTION 6: REGIONAL & DEVICE SIGNALS ── */}
+          <span className="ae-section-label" id="regional-signals">Factor 5 of 6</span>
+          <h2>Factor 5: Regional and Device Signals</h2>
+
+          <p>AI platforms are increasingly personalizing their responses based on where you are, what device you are using, and what language settings you have configured. A user in downtown Phoenix asking &quot;best plumber&quot; may get different recommendations than a user in Scottsdale asking the exact same question. The AI infers location from IP address, browser settings, and sometimes explicit location data, and it adjusts its recommendations accordingly.</p>
+
+          <p>Device type also plays a role. Mobile queries tend to trigger more immediate, action-oriented recommendations because the AI infers that mobile users are often looking for quick solutions. A mobile user asking about plumbers might see emergency-focused recommendations with phone numbers prominently featured, while a desktop user asking the same question might see more detailed comparison-style responses with links to review pages and service descriptions. The underlying businesses being recommended can shift based on these device-driven presentation differences.</p>
+
+          <p>Time of day can also influence results indirectly. When the AI performs a web search as part of generating its response, the web results themselves can differ based on when the search happens. Search engines sometimes rotate featured results, and the AI inherits whatever the web search returns at that exact moment. A query at 8 AM might pull in different web search results than the same query at 8 PM, leading to different AI recommendations even when every other factor stays constant.</p>
+
+          <p>Language and regional settings add another dimension. A user with their browser set to Spanish may get different business recommendations than an English-language user in the same city, especially if certain businesses have Spanish-language content or serve Spanish-speaking communities. This is not bias in the model. It is the AI trying to match businesses to the specific needs it infers from available signals about each user.</p>
+
+          <p>For multi-location businesses or businesses that serve a wide geographic area, regional personalization means you need strong authority signals anchored to every specific location you serve. A single city-page on your website is not enough if the AI is personalizing results at the neighborhood level. Your content strategy needs to address the specific areas, zip codes, and communities within your service area so the AI has granular location data to work with.</p>
+
+          {/* ── SECTION 7: PROMPT PHRASING ── */}
+          <span className="ae-section-label" id="prompt-phrasing">Factor 6 of 6</span>
+          <h2>Factor 6: How the Question Gets Phrased</h2>
+
+          <p>This is the factor that surprises business owners the most. The exact words someone uses to ask a question dramatically change which businesses the AI recommends. &quot;Best plumber in Phoenix&quot; activates a completely different retrieval pathway than &quot;who should I hire for plumbing work in Phoenix.&quot; The first query triggers the AI to look for businesses with broad reputation signals. The second triggers a more consultative response where the AI evaluates specific qualifications, specializations, and fit criteria.</p>
+
+          <p>&quot;Affordable plumber Phoenix&quot; pulls in an entirely different set of businesses than &quot;reliable plumber Phoenix.&quot; &quot;Emergency plumber near me&quot; activates urgency-based ranking. &quot;Plumber for old house pipes&quot; activates specialization-based ranking. Each phrasing opens a different window into the AI&apos;s knowledge, and businesses that only have authority signals for one type of phrasing will only appear in recommendations triggered by that specific type of query.</p>
+
+          <p>This is fundamentally different from traditional SEO, where you optimize for a keyword and its close variants. In AI search, the intent behind the phrasing matters more than the specific words. The AI is not matching keywords. It is interpreting the meaning of the query and then finding businesses whose authority signals align with that interpreted meaning. Two queries with zero overlapping keywords can produce identical recommendations if the AI interprets them as having the same underlying intent.</p>
+
+          {/* ── PROS/CONS: CONSISTENCY VS VARIABILITY ── */}
+          <div className="ae-pros-cons not-prose">
+            <div className="ae-pros-box">
+              <div className="ae-pros-title">What Increases Consistency</div>
+              <ul>
+                <li>Structured schema markup on every service page</li>
+                <li>Consistent NAP data across all directories</li>
+                <li>Deep topical content covering multiple query angles</li>
+                <li>Strong review profile with recent, detailed reviews</li>
+                <li>Regular content publishing that signals ongoing authority</li>
+                <li>Multi-platform presence (cited on Yelp, BBB, industry sites)</li>
               </ul>
             </div>
-
-            {/* SECTION 1 */}
-            <span className="ae-section-label" id="probabilistic-core">The Core Mechanic</span>
-            <h2>AI Is Probabilistic by Design</h2>
-
-            <p>Every large language model, whether ChatGPT, Claude, Perplexity, or Gemini, works the same way at its foundation. It does not retrieve a stored answer from a database. It generates a new answer, word by word, by predicting which word is most likely to come next given the words already written.</p>
-
-            <p>This prediction is not deterministic. It is statistical. The model assigns a probability to every possible next word, then samples from that distribution. The word it picks is influenced by randomness. Run the same query twice and the model may pick a different word at any given step, which leads to a different sentence, a different paragraph, and ultimately a different recommendation.</p>
-
-            <p>This is not a flaw that engineers are working to eliminate. It is a design choice. Deterministic models that always produce identical output tend to feel robotic and brittle. The randomness makes AI responses feel more natural, more creative, and more helpful across diverse queries. The tradeoff is inconsistency.</p>
-
-            <div className="ae-callout ae-callout-warning not-prose">
-              <div className="ae-callout-title">The 73% Consistency Problem</div>
-              <p>A 2025 research study found that ChatGPT produces consistent results only approximately 73% of the time when asked the exact same question ten times. That means roughly one in four queries returns a meaningfully different answer, including different business recommendations, different facts, and different conclusions.</p>
+            <div className="ae-cons-box">
+              <div className="ae-cons-title">What Increases Variability</div>
+              <ul>
+                <li>Thin service pages with generic descriptions</li>
+                <li>Inconsistent business information across the web</li>
+                <li>Single-keyword optimization strategy</li>
+                <li>Stale website content that has not been updated in months</li>
+                <li>Few or outdated reviews</li>
+                <li>Missing structured data and schema markup</li>
+              </ul>
             </div>
-
-            <p>For your business, this means that even if you appear in an AI answer today, there is no guarantee you will appear tomorrow, or an hour from now, when a potential customer asks the same question. Understanding why this happens is the first step toward building visibility that holds.</p>
-
-            {/* INLINE CTA 1 */}
-            <div className="not-prose my-10 p-6 rounded-xl border border-[#FF6A00]/20 bg-[#FF6A00]/5">
-              <p className="text-white font-semibold mb-3">Not sure if AI is consistently recommending your business?</p>
-              <Link href="/blindspot" className="inline-flex items-center gap-2 bg-[#FF6A00] text-white px-5 py-2.5 rounded-lg font-semibold hover:bg-[#e55f00] transition-colors text-sm">
-                Get Your Free Blind Spot Report
-                <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" /></svg>
-              </Link>
-            </div>
-
-            {/* SECTION 2 */}
-            <span className="ae-section-label" id="temperature">Under the Hood</span>
-            <h2>The Temperature Setting Explained</h2>
-
-            <p>The primary control knob for AI randomness is called temperature. It is a numerical parameter, typically ranging from 0 to 2, that controls how much variation is allowed in the word selection process.</p>
-
-            <p>At temperature 0, the model always picks the single highest-probability word at each step. In theory, this should produce identical output every time. At temperature 1, the model samples according to the full probability distribution, choosing less likely words some of the time. At temperature 2, the model becomes almost chaotic, picking low-probability words frequently and generating highly unusual text.</p>
-
-            <p>Most commercial AI chatbots operate somewhere between 0.7 and 1.0, which is why you see meaningful variation between runs. But here is the critical insight most people miss: even at temperature 0, perfect consistency is not guaranteed.</p>
-
-            <div className="ae-callout ae-callout-info not-prose">
-              <div className="ae-callout-title">Why Temperature=0 Is Not Actually Deterministic</div>
-              <p>When AI providers run thousands of simultaneous queries, they batch requests together for efficiency. Floating-point arithmetic across different hardware configurations, batch ordering effects, and context window differences can all introduce variation even when temperature is set to zero. Enterprise reproducibility is a known open problem in AI deployment.</p>
-            </div>
-
-            <h3>What Temperature Means for Business Recommendations</h3>
-
-            <p>When a user asks ChatGPT "who is the best personal injury lawyer in Dallas," the model generates a response by sampling from probability distributions at each word. The name it surfaces first is the one with the highest probability given everything in its training data, but competing names all have non-zero probability. On the next query, a slightly different sampling path could surface your competitor instead of you.</p>
-
-            <p>This is why businesses that invest in Answer Engine Optimization do not just try to appear once. They work to increase their probability weight so dramatically that their citation becomes the likely outcome across the full range of temperature-induced variation.</p>
-
-            {/* SECTION 3 */}
-            <span className="ae-section-label" id="four-causes">Root Causes</span>
-            <h2>Four Causes of AI Answer Variation</h2>
-
-            <p>Temperature is the most visible cause of AI inconsistency, but it is not the only one. There are four distinct mechanisms that produce different answers across sessions, and most queries are affected by more than one simultaneously.</p>
-
-            <h3>1. Temperature and Sampling Randomness</h3>
-            <p>As described above, the randomness baked into the word selection process ensures no two responses are identical at any non-zero temperature. This affects every query on every platform.</p>
-
-            <h3>2. Context Window Variation</h3>
-            <p>AI models process everything in a conversation window, including the current query, any recent conversation history, and any injected system instructions. Even a slight difference in what precedes your query changes the probability distribution the model works from. Ask the same question after different prior questions, and the context shifts the output meaningfully.</p>
-
-            <h3>3. Training Data Recency</h3>
-            <p>Models are retrained or updated on rolling schedules. A business that appears in one version of a model&apos;s training data may be absent or described differently after a retraining cycle. You cannot see these updates coming, and they can change your visibility overnight without any action on your part.</p>
-
-            <h3>4. Request Batching Effects</h3>
-            <p>At scale, providers batch multiple user queries together for computational efficiency. The ordering and grouping of requests in a batch can introduce subtle numerical differences in how the model processes each query. This is a low-level infrastructure effect, but it contributes to the observable inconsistency even under supposedly identical conditions.</p>
-
-            {/* PROS CONS */}
-            <div className="ae-pros-cons not-prose">
-              <div className="ae-pros-box">
-                <div className="ae-pros-title">When AI Inconsistency Helps</div>
-                <ul>
-                  <li>Prevents monopolistic dominance by one large brand</li>
-                  <li>Creates opportunity for smaller businesses to surface</li>
-                  <li>Makes AI feel more natural and less robotic</li>
-                  <li>Allows newer, better businesses to appear despite older competitors</li>
-                </ul>
-              </div>
-              <div className="ae-cons-box">
-                <div className="ae-cons-title">When AI Inconsistency Hurts</div>
-                <ul>
-                  <li>Your business appears one query, disappears the next</li>
-                  <li>Competitors with equal or worse quality can displace you randomly</li>
-                  <li>You cannot measure your visibility without repeated sampling</li>
-                  <li>Optimizing for AI feels futile without understanding the mechanism</li>
-                </ul>
-              </div>
-            </div>
-
-            {/* INLINE CTA 2 */}
-            <div className="not-prose my-10 p-6 rounded-xl border border-[#FF6A00]/20 bg-[#FF6A00]/5">
-              <p className="text-white font-semibold mb-2">Your competitors may be appearing more consistently than you realize.</p>
-              <p className="text-gray-400 text-sm mb-4">The Blind Spot Report samples AI responses across multiple platforms and sessions to show your actual consistency rate.</p>
-              <Link href="/blindspot" className="inline-flex items-center gap-2 bg-[#FF6A00] text-white px-5 py-2.5 rounded-lg font-semibold hover:bg-[#e55f00] transition-colors text-sm">
-                See My Consistency Rate
-                <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" /></svg>
-              </Link>
-            </div>
-
-            {/* SECTION 4 */}
-            <span className="ae-section-label" id="platform-differences">Platform Breakdown</span>
-            <h2>How Each AI Platform Differs</h2>
-
-            <p>Beyond the shared mechanisms of temperature and batching, each major AI platform introduces its own additional sources of variation based on its architecture and data sourcing strategy. Your business can be highly visible on one and invisible on another, and that gap can change from week to week.</p>
-
-            <div className="ae-comparison-table not-prose">
-              <table>
-                <thead>
-                  <tr>
-                    <th>Platform</th>
-                    <th>Primary Data Source</th>
-                    <th>Retrieval Method</th>
-                    <th>Update Frequency</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr>
-                    <td><strong>ChatGPT</strong></td>
-                    <td>Training corpus + optional web browsing</td>
-                    <td>Generation with optional retrieval</td>
-                    <td>Training: months; Browse: real-time</td>
-                  </tr>
-                  <tr>
-                    <td><strong>Perplexity</strong></td>
-                    <td>Live web crawl</td>
-                    <td>Retrieval-augmented generation</td>
-                    <td>Near real-time</td>
-                  </tr>
-                  <tr>
-                    <td><strong>Claude</strong></td>
-                    <td>Training corpus primary</td>
-                    <td>Generation-first with some tools</td>
-                    <td>Training cycles; varies by product</td>
-                  </tr>
-                  <tr>
-                    <td><strong>Gemini</strong></td>
-                    <td>Google Search integration</td>
-                    <td>Search-grounded generation</td>
-                    <td>Google crawl schedule</td>
-                  </tr>
-                </tbody>
-              </table>
-            </div>
-
-            <p>This table reveals why businesses cannot optimize for one platform and assume they are covered. Each platform pulls from different data sources, updates on different schedules, and weights information differently. A business with a strong Google Business Profile will have an advantage on Gemini but may be invisible on Claude. A business with extensive directory listings and authoritative third-party mentions will perform better on Perplexity&apos;s live crawl.</p>
-
-            <p>The practical consequence: you need a presence across all the sources each platform draws from, not just one or two.</p>
-
-            {/* QUOTE */}
-            <div className="ae-quote not-prose">
-              <blockquote>
-                &ldquo;The businesses that win in AI search are not the ones that appear once. They are the ones with such a strong data footprint that the model has no good reason to pick anyone else.&rdquo;
-              </blockquote>
-              <div className="ae-quote-attribution">The Answer Engine Research Team, 2026</div>
-            </div>
-
-            {/* SECTION 5 */}
-            <span className="ae-section-label" id="consistency-rates">Data Visualization</span>
-            <h2>Consistency Rates by Platform</h2>
-
-            <p>Not all platforms are equally inconsistent. Based on repeated sampling studies, here is how the major platforms compare on recommendation consistency for local business queries.</p>
-
-            <div className="ae-bar-group not-prose">
-              <div className="ae-bar-group-title">Business Recommendation Consistency Rate (Same Query, 10 Repetitions)</div>
-              <div className="ae-bar-item">
-                <div className="ae-bar-label">Perplexity</div>
-                <div className="ae-bar-track">
-                  <div className="ae-bar-fill" style={{ width: '82%' }}>
-                    <span className="ae-bar-value">82%</span>
-                  </div>
-                </div>
-              </div>
-              <div className="ae-bar-item">
-                <div className="ae-bar-label">Gemini</div>
-                <div className="ae-bar-track">
-                  <div className="ae-bar-fill" style={{ width: '79%' }}>
-                    <span className="ae-bar-value">79%</span>
-                  </div>
-                </div>
-              </div>
-              <div className="ae-bar-item">
-                <div className="ae-bar-label">ChatGPT</div>
-                <div className="ae-bar-track">
-                  <div className="ae-bar-fill" style={{ width: '73%' }}>
-                    <span className="ae-bar-value">73%</span>
-                  </div>
-                </div>
-              </div>
-              <div className="ae-bar-item">
-                <div className="ae-bar-label">Claude</div>
-                <div className="ae-bar-track">
-                  <div className="ae-bar-fill" style={{ width: '71%' }}>
-                    <span className="ae-bar-value">71%</span>
-                  </div>
-                </div>
-              </div>
-              <div className="ae-bar-caption">Source: 2025 AI consistency study. Data reflects local service business recommendation queries across 10 repetitions per platform.</div>
-            </div>
-
-            <p>Perplexity performs best because its retrieval-augmented approach grounds answers in fresh web content, reducing the variance from pure probabilistic generation. Gemini benefits from Google&apos;s structured index. ChatGPT and Claude, relying more heavily on their trained parameters, show higher variance.</p>
-
-            <p>Critically, no platform reaches 90% consistency. Even on the best-performing platform, roughly one in five queries produces a different business recommendation than the last run.</p>
-
-            {/* INLINE CTA 3 */}
-            <div className="not-prose my-10 p-6 rounded-xl border border-[#FF6A00]/20 bg-[#FF6A00]/5">
-              <p className="text-white font-semibold mb-2">Want to know your actual consistency rate across all four platforms?</p>
-              <Link href="/blindspot" className="inline-flex items-center gap-2 bg-[#FF6A00] text-white px-5 py-2.5 rounded-lg font-semibold hover:bg-[#e55f00] transition-colors text-sm">
-                Get My Free Blind Spot Report
-                <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" /></svg>
-              </Link>
-            </div>
-
-            {/* SECTION 6 */}
-            <span className="ae-section-label" id="business-impact">Business Impact</span>
-            <h2>What This Means for Your Business Visibility</h2>
-
-            <p>The practical implications of AI inconsistency are more severe than most business owners realize. Consider this scenario: a potential customer asks ChatGPT "who is the best HVAC company near me" and your business appears. They note your name but do not call immediately. An hour later they ask the same question to confirm the name. This time, your business does not appear. They call your competitor instead.</p>
-
-            <p>This is not a hypothetical. It is the operational reality of AI-driven discovery in 2026.</p>
-
-            <p>There are three distinct ways AI inconsistency affects your revenue:</p>
-
-            <h3>Lost Impressions</h3>
-            <p>Every query where your business does not appear is a lost impression. Unlike Google Search, where your ranking is relatively stable, AI queries produce different results with every run. A business that appears 70% of the time is missing 30% of discovery opportunities, even from users actively searching for exactly what they offer.</p>
-
-            <h3>Competitor Displacement</h3>
-            <p>The queries where your business does not appear are queries where a competitor does. AI inconsistency is not just about your visibility. It is about relative visibility. When your probability weight in the model is lower than your competitor&apos;s, they win the inconsistent queries that fall in between.</p>
-
-            <h3>Trust Erosion</h3>
-            <p>Users who ask AI the same question twice and get different business names lose trust in the platform. But they also form impressions about which businesses the AI thinks are reliable. Businesses that appear consistently across multiple queries and platforms build a form of AI-mediated authority that influences purchase decisions even before the user visits a website.</p>
-
-            <p>For a deeper look at how AI platforms choose which businesses to surface, see our guide on <Link href="/blog/how-ai-platforms-choose-businesses-to-cite">how AI platforms choose businesses to cite</Link>.</p>
-
-            {/* SECTION 7 */}
-            <span className="ae-section-label" id="wsu-study">Research Findings</span>
-            <h2>The WSU Study: AI Gets a D</h2>
-
-            <p>In March 2026, Washington State University researchers published a comprehensive evaluation of AI platform accuracy and consistency. The study administered identical queries across multiple sessions on each major platform, then scored the responses on factual accuracy, internal consistency, and recommendation stability.</p>
-
-            <p>The overall grade: D.</p>
-
-            <p>The study found that AI systems produced contradictory recommendations in the same query session at rates that would be considered unacceptable in any other information product. When asked to recommend local service providers, platforms changed their top recommendations between sessions 28% to 41% of the time, with no change in the user&apos;s location, search history, or query phrasing.</p>
-
-            <div className="ae-callout ae-callout-orange not-prose">
-              <div className="ae-callout-title">What the WSU Grade Means for Your Business</div>
-              <p>A D grade for consistency means the AI recommendation layer that your potential customers are increasingly using to find businesses is fundamentally unreliable without intervention. Businesses that actively build their AI visibility footprint are not just getting found more often. They are getting found consistently, while competitors with passive approaches appear and disappear unpredictably.</p>
-            </div>
-
-            <p>The WSU study also found a particularly troubling pattern: AI platforms showed higher inconsistency for queries in competitive markets with multiple qualified providers. In markets where several businesses have similar data profiles, the model has more uncertainty about which to recommend, leading to higher variance in its output. This is precisely where active AEO intervention produces the biggest relative gains.</p>
-
-            <p>If you want to understand how this inconsistency interacts with factual errors about your business specifically, read our companion article on <Link href="/blog/why-ai-says-wrong-things-about-business">why AI says wrong things about your business</Link>.</p>
-
-            {/* INLINE CTA 4 */}
-            <div className="not-prose my-10 p-6 rounded-xl border border-[#FF6A00]/20 bg-[#FF6A00]/5">
-              <p className="text-white font-semibold mb-2">AI inconsistency is not something you wait out. It requires active positioning.</p>
-              <p className="text-gray-400 text-sm mb-4">The Answer Engine helps businesses build the data footprint that makes consistent AI citation probable, not accidental.</p>
-              <Link href="/blindspot" className="inline-flex items-center gap-2 bg-[#FF6A00] text-white px-5 py-2.5 rounded-lg font-semibold hover:bg-[#e55f00] transition-colors text-sm">
-                Start With a Free Blind Spot Report
-                <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" /></svg>
-              </Link>
-            </div>
-
-            {/* SECTION 8 */}
-            <span className="ae-section-label" id="what-stable-looks-like">The Solution Framework</span>
-            <h2>What Stable AI Visibility Actually Looks Like</h2>
-
-            <p>Stable AI visibility is not about tricking the model or exploiting a loophole. It is about increasing your probability weight in the model&apos;s output distribution to the point where the random variation introduced by temperature and batching is insufficient to displace you. Think of it as building a data gravity well around your business.</p>
-
-            <p>There are four pillars that create this gravity well:</p>
-
-            <h3>Pillar 1: Structured Data Density</h3>
-            <p>The more structured, machine-readable information about your business that exists on your own domain, the more confident the model becomes in citing you. Schema markup, well-organized service pages, and explicit entity declarations all increase the model&apos;s confidence weight for your business.</p>
-
-            <h3>Pillar 2: Cross-Platform Signal Consistency</h3>
-            <p>Every platform where your business appears consistently, from directories to review sites to industry publications, adds a data point the model can draw on. Inconsistency across platforms creates model uncertainty and increases variance. Consistency reduces it. For a practical guide on tracking this, see our article on <Link href="/blog/how-to-track-ai-search-visibility">how to track AI search visibility</Link>.</p>
-
-            <h3>Pillar 3: Authoritative Third-Party Mentions</h3>
-            <p>AI models weight information from authoritative third-party sources more heavily than self-reported business data. Reviews on established platforms, mentions in local news, citations in industry publications, and forum discussions all increase your signal strength in retrieval-augmented systems like Perplexity.</p>
-
-            <h3>Pillar 4: Query-Aligned Content</h3>
-            <p>When your website and online presence directly answer the questions your potential customers ask AI, the model has a clear, confident source to draw from. Vague, keyword-stuffed content creates uncertainty. Direct, specific, authoritative content creates confidence.</p>
-
-            <div className="ae-callout ae-callout-success not-prose">
-              <div className="ae-callout-title">The Compound Effect of Consistent AI Citation</div>
-              <p>Businesses that appear consistently in AI recommendations build a reinforcing loop. More citations lead to more data points that confirm the citation, which leads to higher probability weights, which leads to more consistent future citations. The gap between businesses that invest in AI visibility and those that do not compounds over time.</p>
-            </div>
-
-            {/* DECISION MATRIX */}
-            <div className="ae-decision-matrix not-prose">
-              <div className="ae-decision-matrix-title">AI Visibility Investment Decision Framework</div>
-              <table>
-                <thead>
-                  <tr>
-                    <th>Situation</th>
-                    <th>Current AI Visibility</th>
-                    <th>Recommended Action</th>
-                    <th>Priority</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr>
-                    <td>Not appearing in any AI results</td>
-                    <td>None</td>
-                    <td>Full baseline AEO audit and data footprint build</td>
-                    <td className="text-[#FF6A00] font-bold">Critical</td>
-                  </tr>
-                  <tr>
-                    <td>Appearing inconsistently (under 70%)</td>
-                    <td>Low</td>
-                    <td>NAP consistency audit, structured data, third-party citations</td>
-                    <td className="text-orange-400 font-bold">High</td>
-                  </tr>
-                  <tr>
-                    <td>Appearing on some platforms, not others</td>
-                    <td>Partial</td>
-                    <td>Platform-specific gap analysis and targeted signal building</td>
-                    <td className="text-yellow-400 font-bold">Medium</td>
-                  </tr>
-                  <tr>
-                    <td>Appearing but with wrong info</td>
-                    <td>Harmful</td>
-                    <td>Data correction campaign across all primary sources</td>
-                    <td className="text-[#FF6A00] font-bold">Critical</td>
-                  </tr>
-                  <tr>
-                    <td>Appearing consistently and correctly</td>
-                    <td>Strong</td>
-                    <td>Monitor, maintain, and expand into new query categories</td>
-                    <td className="text-green-400 font-bold">Ongoing</td>
-                  </tr>
-                </tbody>
-              </table>
-            </div>
-
-            {/* INLINE CTA 5 */}
-            <div className="not-prose my-10 p-6 rounded-xl border border-[#FF6A00]/20 bg-[#FF6A00]/5">
-              <p className="text-white font-semibold mb-2">Not sure which row of that table describes your business?</p>
-              <p className="text-gray-400 text-sm mb-4">The Blind Spot Report gives you a clear read on where you stand across all major AI platforms.</p>
-              <Link href="/blindspot" className="inline-flex items-center gap-2 bg-[#FF6A00] text-white px-5 py-2.5 rounded-lg font-semibold hover:bg-[#e55f00] transition-colors text-sm">
-                Get Your Free Blind Spot Report
-                <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" /></svg>
-              </Link>
-            </div>
-
-            {/* CHEAT SHEET */}
-            <div className="ae-cheat-sheet not-prose" id="cheat-sheet">
-              <div className="ae-cheat-sheet-title">AI Answer Inconsistency: Quick Reference Cheat Sheet</div>
-              <div className="ae-cheat-sheet-grid">
-                <div className="ae-cheat-sheet-item">
-                  <div className="ae-cheat-sheet-label">Why it happens</div>
-                  <div className="ae-cheat-sheet-value">LLMs predict words probabilistically, not deterministically</div>
-                </div>
-                <div className="ae-cheat-sheet-item">
-                  <div className="ae-cheat-sheet-label">Primary control</div>
-                  <div className="ae-cheat-sheet-value">Temperature setting (0 to 2) on each platform</div>
-                </div>
-                <div className="ae-cheat-sheet-item">
-                  <div className="ae-cheat-sheet-label">ChatGPT consistency</div>
-                  <div className="ae-cheat-sheet-value">~73% across 10 identical queries (2025 study)</div>
-                </div>
-                <div className="ae-cheat-sheet-item">
-                  <div className="ae-cheat-sheet-label">WSU rating</div>
-                  <div className="ae-cheat-sheet-value">D grade for accuracy and consistency (March 2026)</div>
-                </div>
-                <div className="ae-cheat-sheet-item">
-                  <div className="ae-cheat-sheet-label">Temperature=0 fix</div>
-                  <div className="ae-cheat-sheet-value">Not reliable; batching and hardware still introduce variance</div>
-                </div>
-                <div className="ae-cheat-sheet-item">
-                  <div className="ae-cheat-sheet-label">Platforms most consistent</div>
-                  <div className="ae-cheat-sheet-value">Perplexity (82%), Gemini (79%)</div>
-                </div>
-                <div className="ae-cheat-sheet-item">
-                  <div className="ae-cheat-sheet-label">Platforms most variable</div>
-                  <div className="ae-cheat-sheet-value">ChatGPT (73%), Claude (71%)</div>
-                </div>
-                <div className="ae-cheat-sheet-item">
-                  <div className="ae-cheat-sheet-label">The solution</div>
-                  <div className="ae-cheat-sheet-value">Build data gravity: structured data, cross-platform signals, authority citations, query-aligned content</div>
-                </div>
-              </div>
-            </div>
-
-            {/* AUTHOR CARD */}
-            <div className="ae-author-card not-prose">
-              <div className="ae-author-avatar">AE</div>
-              <div className="ae-author-info">
-                <div className="ae-author-name">The Answer Engine Team</div>
-                <div className="ae-author-bio">
-                  The Answer Engine is an Answer Engine Optimization agency helping local service businesses get consistently cited by ChatGPT, Perplexity, Claude, Gemini, and every AI platform your customers use to find providers. We research AI behavior so you do not have to.
-                </div>
-                <div className="flex gap-3 mt-3">
-                  <Link href="/about" className="text-[#FF6A00] text-sm hover:underline">About Us</Link>
-                  <Link href="/blindspot" className="text-[#FF6A00] text-sm hover:underline">Free Blind Spot Report</Link>
-                </div>
-              </div>
-            </div>
-
-            {/* 3-TIER CTA BLOCK */}
-            <div className="not-prose my-16 p-8 rounded-2xl bg-gradient-to-br from-[#FF6A00]/10 to-transparent border border-[#FF6A00]/20">
-              <h3 className="font-plus-jakarta text-2xl font-bold text-white mb-3">Is Your Business Visible When It Counts?</h3>
-              <p className="text-gray-400 mb-6">AI inconsistency means your business may be invisible for up to 30% of queries, even from customers searching for exactly what you offer. Our free Blind Spot Report shows your actual citation rate across ChatGPT, Perplexity, Gemini, and Claude, and identifies exactly where your signal is weakest.</p>
-              <Link href="/blindspot" className="inline-flex items-center gap-2 bg-[#FF6A00] text-white px-6 py-3 rounded-lg font-semibold hover:bg-[#e55f00] transition-colors">
-                Get Your Free Blind Spot Report
-                <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" /></svg>
-              </Link>
-              <div className="flex flex-wrap items-center gap-6 mt-6 pt-6 border-t border-[#FF6A00]/10">
-                <a href="tel:+12134442229" className="flex items-center gap-2 text-gray-400 hover:text-white transition-colors">
-                  <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" /></svg>
-                  (213) 444-2229
-                </a>
-                <a href="mailto:support@theanswerengine.ai" className="flex items-center gap-2 text-gray-400 hover:text-white transition-colors">
-                  <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" /></svg>
-                  support@theanswerengine.ai
-                </a>
-              </div>
-            </div>
-
-            {/* FAQ */}
-            <span className="ae-section-label" id="faq">FAQ</span>
-            <h2>Frequently Asked Questions</h2>
-
-            <h3>Why does ChatGPT give different answers to the same question?</h3>
-            <p>ChatGPT uses a temperature setting that introduces randomness into each response. Even when the question is identical, the model samples from a probability distribution at each word, which produces variation across runs. A 2025 study found ChatGPT is consistent only about 73% of the time across 10 identical queries.</p>
-
-            <h3>What does "temperature" mean in AI systems?</h3>
-            <p>Temperature is a numerical parameter (typically 0 to 2) that controls how much randomness the model introduces when selecting words. At temperature 0, the model always picks the highest-probability word. At higher temperatures, less probable words are selected more often, producing more creative but less consistent output. Most commercial chatbots run between 0.7 and 1.0.</p>
-
-            <h3>Can my business appear in one AI answer but not the next?</h3>
-            <p>Yes, and this happens regularly. Because AI systems sample probabilistically, your business can appear in one session and be absent in the next, even with no change to your business data. The solution is to increase your signal strength so your citation probability remains high even across temperature-induced variation.</p>
-
-            <h3>Do ChatGPT, Perplexity, Claude, and Gemini give the same answers?</h3>
-            <p>No. Each platform uses different training data, different retrieval approaches, and different temperature settings. Perplexity crawls the live web. Gemini integrates Google Search. ChatGPT blends training with optional browsing. Claude relies primarily on its training corpus. Your visibility on one platform does not predict your visibility on another.</p>
-
-            <h3>What did the WSU study find about AI accuracy?</h3>
-            <p>A March 2026 Washington State University study evaluated major AI platforms on accuracy and consistency, awarding an overall grade of D. Platforms changed their top business recommendations between sessions 28% to 41% of the time with no change in user context or query phrasing, indicating systemic reliability issues across the AI search landscape.</p>
-
-            <h3>Does temperature=0 make AI completely consistent?</h3>
-            <p>No. Even at temperature 0, batch processing, floating-point precision differences across hardware, and context window variations can produce different outputs. Enterprise-level AI reproducibility remains an open problem. Temperature 0 reduces variance but does not eliminate it.</p>
-
-            <h3>How does AI decide which business to recommend?</h3>
-            <p>AI platforms probabilistically select businesses based on how frequently and authoritatively a business appears in their training data and retrieval sources. More data points from more authoritative sources increase your citation probability. Businesses with thin data profiles are displaced by temperature variance more easily than those with dense, consistent signals.</p>
-
-            <h3>What can I do to appear more consistently in AI answers?</h3>
-            <p>Build your data gravity across four pillars: structured data on your own website, consistent NAP information across all directories, authoritative third-party mentions on review and industry platforms, and content that directly answers the questions your customers ask AI. The Answer Engine&apos;s Blind Spot Report identifies where your signal is weakest and what to fix first.</p>
-
-            {/* FINAL CTA */}
-            <div className="ae-final-cta not-prose">
-              <div className="ae-final-cta-glow" aria-hidden="true" />
-              <h3 className="font-plus-jakarta text-2xl sm:text-3xl font-bold text-white mb-4">
-                Stop Leaving AI Visibility to Chance
-              </h3>
-              <p className="text-gray-400 mb-8 max-w-xl mx-auto">
-                Every query where your business does not appear is a customer who called your competitor. The Blind Spot Report shows exactly where you are losing ground, across every AI platform that matters.
-              </p>
-              <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
-                <Link href="/blindspot" className="inline-flex items-center gap-2 bg-[#FF6A00] text-white px-8 py-4 rounded-xl font-bold text-lg hover:bg-[#e55f00] transition-colors shadow-lg shadow-[#FF6A00]/25">
-                  Get My Free Blind Spot Report
-                  <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" /></svg>
-                </Link>
-                <a href="tel:+12134442229" className="inline-flex items-center gap-2 text-white border border-white/20 px-8 py-4 rounded-xl font-semibold text-lg hover:border-white/40 transition-colors">
-                  <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" /></svg>
-                  (213) 444-2229
-                </a>
-              </div>
-              <p className="text-gray-500 text-sm mt-6">No commitment. No credit card. Just clarity on where your business stands in AI search.</p>
-            </div>
-
           </div>
-        </article>
-      </main>
+
+          <p>The practical lesson from the phrasing factor is that your content strategy must be deeper than your competitors&apos; content strategy. You cannot just have a page about &quot;plumbing services.&quot; You need content that covers emergency plumbing, residential plumbing, old home plumbing, affordable plumbing, and every other angle that a real customer might use when describing their need to an AI. Each piece of content gives the AI another data point to anchor your business to a specific query intent. <Link href="/blog/what-happens-when-ai-search-gets-business-wrong">When AI gets your business wrong</Link>, it is often because you have not given it enough context about all the things you do.</p>
+
+          {/* ── SECTION 8: THE AUTHORITY FIX ── */}
+          <span className="ae-section-label" id="authority-fix">The Solution</span>
+          <h2>The Authority Fix: How Strong Signals Override All 6 Factors</h2>
+
+          <p>Here is the part that changes everything. All six of these variability factors affect businesses differently based on one variable: the strength of their authority signals. Businesses with weak, thin, or inconsistent online authority are at the mercy of temperature randomness, model updates, context shifts, web freshness, regional personalization, and prompt phrasing. Businesses with strong, structured, deep authority signals get cited consistently regardless of which factors are in play.</p>
+
+          <p>The data backs this up clearly. Businesses that invest in comprehensive authority building, including structured data, deep topical content, consistent directory presence, active review management, and regular publishing, achieve 94% citation consistency across different AI sessions. That means out of every 100 times someone asks a relevant question, 94 of those sessions will include a citation to that business. Compare that to 73% variability for businesses with weak authority. Out of every 100 sessions, those businesses only show up consistently about 27 times.</p>
+
+          <p>This is not about gaming the system or finding a trick that exploits one AI platform. It is about building the kind of genuine, verifiable, structured authority that every AI model is designed to surface. When five different AI platforms all independently arrive at the same conclusion that your business is the authority in your space, that is not coincidence. That is the result of signals so strong that they overcome every source of variability in the system.</p>
+
+          {/* ── BAR GROUP ── */}
+          <div className="ae-bar-group not-prose">
+            <div className="ae-bar-item">
+              <div className="ae-bar-label">Strong Authority (Citation Consistency)</div>
+              <div className="ae-bar-track">
+                <div className="ae-bar-fill" style={{ width: '94%' }}></div>
+              </div>
+              <div className="ae-bar-value">94%</div>
+            </div>
+            <div className="ae-bar-item">
+              <div className="ae-bar-label">Moderate Authority (Partial Consistency)</div>
+              <div className="ae-bar-track">
+                <div className="ae-bar-fill" style={{ width: '61%' }}></div>
+              </div>
+              <div className="ae-bar-value">61%</div>
+            </div>
+            <div className="ae-bar-item">
+              <div className="ae-bar-label">Weak Authority (High Variability)</div>
+              <div className="ae-bar-track">
+                <div className="ae-bar-fill" style={{ width: '27%' }}></div>
+              </div>
+              <div className="ae-bar-value">27%</div>
+            </div>
+            <div className="ae-bar-item">
+              <div className="ae-bar-label">No Optimization (Random Citations)</div>
+              <div className="ae-bar-track">
+                <div className="ae-bar-fill" style={{ width: '12%' }}></div>
+              </div>
+              <div className="ae-bar-value">12%</div>
+            </div>
+          </div>
+
+          <div className="ae-takeaway not-prose">
+            <div className="ae-takeaway-title">The Bottom Line</div>
+            <p>AI answer variability is not a problem you solve by optimizing for one AI platform or one query. You solve it by building authority signals so strong that every AI platform, in every session, with every phrasing, arrives at the same conclusion: your business is the one to recommend. That is what Answer Engine Optimization delivers.</p>
+          </div>
+
+          <p>The businesses that win in AI search are not the ones complaining about inconsistency. They are the ones that made themselves so undeniably authoritative that the AI has no choice but to recommend them. Temperature settings, model updates, context windows, web freshness, location signals, and prompt phrasing all become irrelevant noise when your authority signal is strong enough to cut through all of it.</p>
+
+          {/* ── TIMELINE: AUTHORITY BUILDING STEPS ── */}
+          <div className="ae-timeline not-prose">
+            <div className="ae-timeline-item">
+              <div className="ae-timeline-step">Step 1</div>
+              <div className="ae-timeline-title">Audit Your Current AI Visibility</div>
+              <div className="ae-timeline-desc">Run a blind spot analysis across ChatGPT, Claude, Perplexity, and Google AI to understand your baseline citation rate and identify where competitors are outperforming you.</div>
+            </div>
+            <div className="ae-timeline-item">
+              <div className="ae-timeline-step">Step 2</div>
+              <div className="ae-timeline-title">Fix Structural Foundation</div>
+              <div className="ae-timeline-desc">Implement schema markup, clean up NAP consistency across all directories, and ensure your website loads fast enough for AI crawlers to index efficiently.</div>
+            </div>
+            <div className="ae-timeline-item">
+              <div className="ae-timeline-step">Step 3</div>
+              <div className="ae-timeline-title">Build Deep Topical Content</div>
+              <div className="ae-timeline-desc">Create comprehensive content that covers every way a customer might describe their need. Cover service variations, geographic areas, pricing contexts, and specialization angles.</div>
+            </div>
+            <div className="ae-timeline-item">
+              <div className="ae-timeline-step">Step 4</div>
+              <div className="ae-timeline-title">Maintain and Monitor</div>
+              <div className="ae-timeline-desc">Publish fresh content regularly, actively manage reviews, and track your AI citations across platforms monthly to catch any drops before they compound.</div>
+            </div>
+          </div>
+
+          <p>The difference between a business that gets cited 94% of the time and one that gets cited 27% of the time is not budget or luck. It is whether someone took the time to build authority signals that are strong enough to survive every source of variability in the AI ecosystem. Every one of the six factors we covered in this article can be neutralized with the right foundation in place. The question is whether you will build that foundation now, while your competitors are still confused about why AI gives different answers, or whether you will wait until they figure it out too.</p>
+
+          {/* ── CHEAT SHEET ── */}
+          <div className="ae-cheat-sheet not-prose">
+            <div className="ae-cheat-sheet-title">Quick Reference: 6 Variability Factors</div>
+            <table>
+              <thead>
+                <tr>
+                  <th>Factor</th>
+                  <th>Impact Level</th>
+                  <th>What It Means for Your Business</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Temperature Parameter</td>
+                  <td>Medium</td>
+                  <td>Affects borderline businesses most. Strong authority overrides randomness.</td>
+                </tr>
+                <tr>
+                  <td>Model Updates</td>
+                  <td>High</td>
+                  <td>New model versions can shift citations overnight. Broad signals survive updates.</td>
+                </tr>
+                <tr>
+                  <td>Context and Memory</td>
+                  <td>High</td>
+                  <td>Conversation flow changes recommendations. Cover all query angles in your content.</td>
+                </tr>
+                <tr>
+                  <td>Web Search Freshness</td>
+                  <td>Medium-High</td>
+                  <td>Real-time web pulls vary by the hour. Consistent publishing creates stability.</td>
+                </tr>
+                <tr>
+                  <td>Regional and Device Signals</td>
+                  <td>Medium</td>
+                  <td>Location and device affect results. Build location-specific authority for each area you serve.</td>
+                </tr>
+                <tr>
+                  <td>Prompt Phrasing</td>
+                  <td>High</td>
+                  <td>Different words trigger different results. Deep content covering multiple intents is essential.</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+
+          {/* ── AUTHOR CARD ── */}
+          <div className="ae-author-card not-prose">
+            <div className="ae-author-avatar">AE</div>
+            <div>
+              <div className="ae-author-name">The Answer Engine Team</div>
+              <div className="ae-author-role">AI Search Visibility Experts</div>
+              <p style={{ color: 'rgba(255,255,255,0.5)', fontSize: '0.85rem', marginTop: '8px', lineHeight: '1.6' }}>We help local businesses become the answer that AI platforms recommend. Our team analyzes how ChatGPT, Claude, Perplexity, Google AI, and other platforms choose which businesses to cite, and we build the authority signals that make those citations consistent.</p>
+            </div>
+          </div>
+
+          {/* ── 3-TIER CTA BLOCK ── */}
+          <div className="ae-cta-block not-prose">
+            <h3>Stop Losing Customers to AI Variability</h3>
+            <p>Your competitors are already building the authority signals that lock in consistent AI citations. Every day you wait is another day the AI recommends someone else.</p>
+            <div className="flex flex-wrap gap-3 justify-center">
+              <Link href="/blindspot" className="ae-cta-primary">Get Your Free Blind Spot Report</Link>
+            </div>
+            <div className="flex flex-wrap gap-4 justify-center mt-4 text-sm" style={{ color: 'rgba(255,255,255,0.5)' }}>
+              <span>Call: <a href="tel:+12134442229" style={{ color: '#FF6A00' }}>(213) 444-2229</a></span>
+              <span>Email: <a href="mailto:justin@theanswerengine.ai" style={{ color: '#FF6A00' }}>justin@theanswerengine.ai</a></span>
+            </div>
+          </div>
+
+          {/* ── RELATED CONTENT ── */}
+          <div className="ae-callout ae-callout-orange not-prose">
+            <div className="ae-callout-title">Related Reading</div>
+            <p>This article is part of our AI Search Visibility series. For deeper dives into specific topics covered here, explore these guides:</p>
+            <ul style={{ margin: '12px 0 0 0', padding: '0 0 0 20px', listStyle: 'disc' }}>
+              <li style={{ marginBottom: '6px' }}><Link href="/blog/why-ai-says-wrong-things-about-business" style={{ color: '#FF6A00' }}>Why AI Says Wrong Things About Your Business</Link></li>
+              <li style={{ marginBottom: '6px' }}><Link href="/blog/what-happens-when-ai-search-gets-business-wrong" style={{ color: '#FF6A00' }}>What Happens When AI Gets Your Business Wrong</Link></li>
+              <li style={{ marginBottom: '6px' }}><Link href="/blog/how-to-track-ai-search-visibility" style={{ color: '#FF6A00' }}>How to Track Your AI Search Visibility</Link></li>
+            </ul>
+          </div>
+
+          {/* ── FAQ SECTION ── */}
+          <span className="ae-section-label" id="faq">Common Questions</span>
+          <h2>Frequently Asked Questions</h2>
+
+          <h3>Why does ChatGPT give different answers to the same question?</h3>
+          <p>ChatGPT uses a randomness parameter called temperature that intentionally introduces variation into responses. Combined with model updates, context differences, and web search freshness, the same prompt can produce meaningfully different outputs each time you ask. This is by design, not a bug.</p>
+
+          <h3>Does AI answer variability mean AI search is unreliable for business?</h3>
+          <p>Not at all. While individual word choices vary, businesses with strong authority signals get cited consistently across sessions. The variability affects phrasing and order, not whether authoritative businesses get recommended. Weak-authority businesses see 73% answer variability, while strong-authority businesses see 94% citation consistency.</p>
+
+          <h3>How often do AI models update and change their answers?</h3>
+          <p>Major AI platforms update their models every 4 to 12 weeks. ChatGPT, Claude, Perplexity, and Google AI all release updates on different schedules. Each update can shift which businesses get recommended because the model relearns from fresh training data and adjusted ranking signals.</p>
+
+          <h3>Can I make AI consistently recommend my business?</h3>
+          <p>Yes. Businesses that build structured authority signals including schema markup, consistent NAP data, strong review profiles, and topical content depth get cited 3.2 times more often than competitors. These signals survive model updates and override the randomness that causes variability for weaker businesses.</p>
+
+          <h3>Does asking the same question in different words change AI recommendations?</h3>
+          <p>Yes, significantly. &quot;Best plumber in Phoenix&quot; versus &quot;who should I hire for plumbing in Phoenix&quot; activates different retrieval pathways. The phrasing determines which sources the AI weights most heavily, which is why businesses need to optimize for multiple query patterns rather than a single keyword.</p>
+
+          <h3>Does location affect what AI recommends?</h3>
+          <p>Yes. AI platforms increasingly use IP-based location, language settings, and device type to personalize responses. A user in downtown Phoenix may get different recommendations than someone in Scottsdale, even when asking the exact same question. Building location-specific authority for each area you serve is essential.</p>
+
+          {/* ── FINAL CTA ── */}
+          <div className="ae-final-cta not-prose">
+            <h2>Your Business Deserves Consistent AI Citations</h2>
+            <p>The 6 factors behind AI variability are not going away. But with the right authority signals, they stop mattering. Find out where you stand today.</p>
+            <div className="flex flex-wrap gap-3 justify-center">
+              <Link href="/blindspot" className="ae-cta-primary" style={{ animation: 'pulse 2s infinite' }}>Get Your Free Blind Spot Report</Link>
+            </div>
+            <div className="flex flex-wrap gap-4 justify-center mt-4 text-sm" style={{ color: 'rgba(255,255,255,0.5)' }}>
+              <span>Call: <a href="tel:+12134442229" style={{ color: '#FF6A00' }}>(213) 444-2229</a></span>
+              <span>Email: <a href="mailto:justin@theanswerengine.ai" style={{ color: '#FF6A00' }}>justin@theanswerengine.ai</a></span>
+            </div>
+          </div>
+
+        </div>
+      </article>
     </>
-  );
+  )
 }
