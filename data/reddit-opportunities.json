@@ -779,9 +779,9 @@
         "draftResponse": "Architecture is one of the few service categories where Google Ads can actually drain your budget without converting. Here's why: people researching architects don't typically start with ads. They start by asking questions.\n\nThey search \"what's the difference between a residential architect and a designer,\" \"how much does it cost to hire an architect for a home renovation,\" or \"what questions should I ask before hiring an architect.\" These are answer-driven queries, not \"click here to buy\" moments.\n\nGoogle Ads and Instagram work, but they're playing defense. You're interrupting people who aren't actively looking yet. For an architecture business in Los Angeles especially, your actual opportunity is being found when people are actively searching for the expertise you provide.\n\nThis is where most architects get it backward. They spend on ads, get moderate results, then blame marketing. What they're actually missing is that the client journey starts with questions, not ads.\n\nI'd recommend this sequence: First, identify the 10-15 questions your ideal clients are actually searching for (renovation scope, budget, timeline, licensing questions, etc.). Get your expertise positioned as the answer to those queries across Google Search. Then layer in paid channels once your organic authority is established. You'll spend less and attract better-qualified leads.\n\nThe money you allocate to building answer authority first will outpace any Instagram spend you do in month one. LA has tons of architecture firms—the ones winning right now are the ones being found during the research phase, not the awareness phase."
       },
       "discoveredAt": "2026-04-01T15:46:44.621Z",
-      "digestSentAt": null,
+      "digestSentAt": "2026-04-06T18:07:10.759Z",
       "telegramSentAt": "2026-04-01T15:46:45.264Z",
-      "status": "pending"
+      "status": "digest_sent"
     },
     {
       "id": "reddit_1775071150863_yh8bco",
@@ -806,9 +806,9 @@
         "draftResponse": "Your financial position is actually really strong here, even with variable income. The key isn't your total comp (which is excellent) but how lenders will document it. Here's the reality:\n\nMost conventional lenders want 2 years of commission history and will average RSUs conservatively. At your numbers, a lender should be comfortable with roughly $280-320k in stable income pretty easily. That commission consistency over 4 years matters.\n\nWhat to do now: (1) Get preapproved with a lender experienced in tech compensation. Smaller mortgage shops and credit unions often understand RSU structures better than big banks. (2) Pull your last 2 years of tax returns and recent paystubs to show the pattern. (3) If your company has a history of stable/growing stock, mention that context. (4) Plan for a slightly higher down payment if possible, which reduces lender risk on variable income cases.\n\nOn the actual budget: With $570k+ down payment potential and stable documentation, you're looking at a $2M+ purchase power in most markets. In Austin, that's a different conversation than some coastal tech hubs, but your fundamentals are sound regardless of location.\n\nThe irregular timing of payouts is less of an issue than lenders used to be. Document everything and find a lender who works with tech employees regularly. That's half the battle."
       },
       "discoveredAt": "2026-04-01T19:19:10.863Z",
-      "digestSentAt": null,
+      "digestSentAt": "2026-04-06T18:07:11.830Z",
       "telegramSentAt": "2026-04-01T19:19:11.502Z",
-      "status": "pending"
+      "status": "digest_sent"
     },
     {
       "id": "reddit_1775071160431_y5uojf",
@@ -833,9 +833,9 @@
         "draftResponse": "Good timing with that income bump and the new build incentives. Here's the real talk: the 3-2-1 buydown is mathematically solid if you're confident about refinancing by month 24, but your credit situation adds risk you need to plan for.\n\nYou're looking at roughly $2,966 in savings over the first three years with the buydown, but that month 24 refi window is tight. Credit scores don't recover linearly. Settling collections helps, but you'll need to show 12+ months of perfect payment history before most lenders touch you at a competitive rate. If you hit month 25 at a 680 score, you're stuck in that 6.875% scenario permanently. That's a $4,600+ payment vs the $4,151 you'd have with the fixed rate.\n\nOn contract clauses to watch: verify the buydown is seller-funded (not lender-funded points), confirm there's no prepayment penalty if you refi early, and check if your escrow timeline allows you to capture PMI removal at month 12 once you hit 20% equity or 80% LTV through appreciation and payments combined. Pflugerville is seeing solid appreciation right now, which helps your case.\n\nThe bigger question: what's driving the income doubling? If it's sustainable and documented, lenders will care about that for the refi. If it's contract work or variable, they won't count it yet.\n\nBankable refi bet? Month 20-22 is realistic. Month 24 is cutting it close with your credit profile."
       },
       "discoveredAt": "2026-04-01T19:19:20.431Z",
-      "digestSentAt": null,
+      "digestSentAt": "2026-04-06T18:07:11.830Z",
       "telegramSentAt": "2026-04-01T19:19:21.143Z",
-      "status": "pending"
+      "status": "digest_sent"
     },
     {
       "id": "reddit_1775080036614_9bir73",
@@ -860,9 +860,9 @@
         "draftResponse": "You've basically reverse-engineered part of the AERO-10 framework without calling it that. The information gain angle is dead-on, and your embedding space analysis is more rigorous than most agencies get.\n\nHere's what you're missing though: information gain is necessary but not sufficient. AI engines also weight what I call Answer Authority—it's a combination of semantic depth, structural clarity, and how comprehensively you address the implicit questions your answer raises.\n\nI've been tracking this since before AI Overviews existed. What I found is that your competitors aren't just filling gaps randomly. They're filling gaps in a specific way: they structure answers to be immediately useful to an AI engine's context window. They anticipate follow-up questions. They layer specificity.\n\nYour 'holes in semantic topology' are real, but the sources getting cited are doing something else—they're writing answers that make the AI engine confident. Not just complete, but confident it won't need to pull from five other sources.\n\nThe pattern repeats across every vertical I've tested, whether it's local services in Los Angeles or national verticals. The winners aren't the longest articles or the most detailed. They're the ones that answer with surgical precision and structural clarity.\n\nI'd map your top 10 cited competitors and check if they're answering in a different format or structure than your content, not just covering different concepts. That's usually where the leverage is. What verticals are you testing this in?"
       },
       "discoveredAt": "2026-04-01T21:47:16.614Z",
-      "digestSentAt": null,
+      "digestSentAt": "2026-04-06T18:07:10.759Z",
       "telegramSentAt": "2026-04-01T21:47:17.269Z",
-      "status": "pending"
+      "status": "digest_sent"
     },
     {
       "id": "reddit_1775144169087_2u0bo2",
@@ -914,9 +914,9 @@
         "draftResponse": "You're looking at this through a traditional SEO lens, which is exactly why it's confusing. That #1 result likely isn't winning because of DA or heading structure anymore. What you're probably seeing is answer authority positioning.\n\nHere's what's happening: Google's AI systems (and increasingly ChatGPT, Gemini, Perplexity) are rewarding sites that answer specific questions comprehensively, regardless of copy volume or technical SEO perfectionism. That generic heading? Irrelevant to an answer engine. The map? Strong signal, but not the primary one.\n\nWhat actually matters now:\n\n1. Can the page answer \"where do I get billboards in Los Angeles\" in a way an AI engine trusts it?\n2. Does it have unique data points (pricing, availability, process) that can't be found elsewhere?\n3. Is the business actually authoritative in that specific location/service combo?\n\nTheir weak heading structure and duplicate images would sink them in 2019. In 2024, if they're answering the core question better than competitors, they rank.\n\nI've seen this pattern across dozens of local service verticals. The sites winning aren't necessarily the ones with best SEO anymore. They're the ones with the clearest answer authority for their specific service and location.\n\nStart by auditing what questions your competitors are actually answering. Then ask yourself: are you answering them better, or just optimizing the same weak answers?"
       },
       "discoveredAt": "2026-04-03T05:06:42.620Z",
-      "digestSentAt": null,
+      "digestSentAt": "2026-04-06T18:07:10.759Z",
       "telegramSentAt": "2026-04-03T05:06:43.365Z",
-      "status": "pending"
+      "status": "digest_sent"
     },
     {
       "id": "reddit_1775326261532_q2i2sa",
@@ -941,9 +941,9 @@
         "draftResponse": "You're spotting a real inefficiency, but here's what I see in the Austin market: those $200K deltas aren't random. They reflect commute reality.\n\nThat 20-25 mile distance sounds manageable until you're doing it daily in Texas heat on I-35 or MoPac. We're talking 45-90 minutes each way depending on your job location. Over 5 years, that's brutal on quality of life, vehicle wear, and actual time cost. Buyers pricing in that friction.\n\nSecond, resale velocity matters more than you'd think. The cheaper home sits 90+ days. The pricier one moves in 14-21 days. When you eventually sell, those faster-moving closer-in homes appreciate more predictably because more buyers compete for them. Outer areas can get stranded in downturns.\n\nThird, the school comment is interesting but verify it directly. Some outer suburbs are still building out infrastructure. Newer doesn't always mean better long-term.\n\nThat said, if both spouses work remotely or you've genuinely got a short commute, that math flips completely. Some families I've represented at The Davis Agency find they're perfectly happy 20 miles out and pocket that $200K difference.\n\nThe real question: where do your actual daily anchors sit? Job, kids' activities, social circle? That geography drives everything. The homes that seem like steals often just don't fit the actual life people are living."
       },
       "discoveredAt": "2026-04-04T18:11:01.532Z",
-      "digestSentAt": null,
+      "digestSentAt": "2026-04-06T18:07:11.830Z",
       "telegramSentAt": "2026-04-04T18:11:02.466Z",
-      "status": "pending"
+      "status": "digest_sent"
     },
     {
       "id": "reddit_1775364538130_w0n2i8",
