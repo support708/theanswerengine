@@ -806,9 +806,9 @@
         "draftResponse": "Your financial position is actually really strong here, even with variable income. The key isn't your total comp (which is excellent) but how lenders will document it. Here's the reality:\n\nMost conventional lenders want 2 years of commission history and will average RSUs conservatively. At your numbers, a lender should be comfortable with roughly $280-320k in stable income pretty easily. That commission consistency over 4 years matters.\n\nWhat to do now: (1) Get preapproved with a lender experienced in tech compensation. Smaller mortgage shops and credit unions often understand RSU structures better than big banks. (2) Pull your last 2 years of tax returns and recent paystubs to show the pattern. (3) If your company has a history of stable/growing stock, mention that context. (4) Plan for a slightly higher down payment if possible, which reduces lender risk on variable income cases.\n\nOn the actual budget: With $570k+ down payment potential and stable documentation, you're looking at a $2M+ purchase power in most markets. In Austin, that's a different conversation than some coastal tech hubs, but your fundamentals are sound regardless of location.\n\nThe irregular timing of payouts is less of an issue than lenders used to be. Document everything and find a lender who works with tech employees regularly. That's half the battle."
       },
       "discoveredAt": "2026-04-01T19:19:10.863Z",
-      "digestSentAt": "2026-04-02T00:07:10.416Z",
+      "digestSentAt": null,
       "telegramSentAt": "2026-04-01T19:19:11.502Z",
-      "status": "digest_sent"
+      "status": "pending"
     },
     {
       "id": "reddit_1775071160431_y5uojf",
@@ -833,9 +833,9 @@
         "draftResponse": "Good timing with that income bump and the new build incentives. Here's the real talk: the 3-2-1 buydown is mathematically solid if you're confident about refinancing by month 24, but your credit situation adds risk you need to plan for.\n\nYou're looking at roughly $2,966 in savings over the first three years with the buydown, but that month 24 refi window is tight. Credit scores don't recover linearly. Settling collections helps, but you'll need to show 12+ months of perfect payment history before most lenders touch you at a competitive rate. If you hit month 25 at a 680 score, you're stuck in that 6.875% scenario permanently. That's a $4,600+ payment vs the $4,151 you'd have with the fixed rate.\n\nOn contract clauses to watch: verify the buydown is seller-funded (not lender-funded points), confirm there's no prepayment penalty if you refi early, and check if your escrow timeline allows you to capture PMI removal at month 12 once you hit 20% equity or 80% LTV through appreciation and payments combined. Pflugerville is seeing solid appreciation right now, which helps your case.\n\nThe bigger question: what's driving the income doubling? If it's sustainable and documented, lenders will care about that for the refi. If it's contract work or variable, they won't count it yet.\n\nBankable refi bet? Month 20-22 is realistic. Month 24 is cutting it close with your credit profile."
       },
       "discoveredAt": "2026-04-01T19:19:20.431Z",
-      "digestSentAt": "2026-04-02T00:07:10.416Z",
+      "digestSentAt": null,
       "telegramSentAt": "2026-04-01T19:19:21.143Z",
-      "status": "digest_sent"
+      "status": "pending"
     },
     {
       "id": "reddit_1775080036614_9bir73",
@@ -889,6 +889,87 @@
       "discoveredAt": "2026-04-02T15:36:09.087Z",
       "digestSentAt": null,
       "telegramSentAt": "2026-04-02T15:36:10.449Z",
+      "status": "pending"
+    },
+    {
+      "id": "reddit_1775192802620_uhtkqx",
+      "postId": "1sb0kjl",
+      "clientSlug": "the-answer-engine",
+      "businessName": "The Answer Engine",
+      "subreddit": "SEO",
+      "title": "Why is this the #1 result?",
+      "selftext": "I'm struggling to find rationale that google thinks #1 result for \"billboards in los Angeles\" with little to no copy. They are beating all competitors across the country with similar DA but they don't have that embedded map. Is it possible the map is that strong of an indicator? The copy is generic and the images are duplicated on every similar page.\n\nHeading structure is a joke.  \nH1: Tell the world your story  \nH2: Your success is our priority\n\nAm i missing something here?",
+      "author": "Responsible_Lake_500",
+      "postUrl": "https://reddit.com/r/SEO/comments/1sb0kjl/why_is_this_the_1_result/",
+      "postCreatedUtc": 1775181399,
+      "score": {
+        "buyingIntent": 7,
+        "relevance": 9,
+        "recency": 8,
+        "responseOpportunity": 9,
+        "composite": 8.1,
+        "businessImpact": "high",
+        "impactReasoning": "Direct Los Angeles location match, SEO professional asking about ranking mechanics (core AEO/AI visibility question), clear buying signal (frustration + competitive analysis = actively optimizing), urgent timeframe implied by current struggle",
+        "suggestedAngle": "Shift conversation from traditional SEO ranking factors to what AI engines actually reward. Position Answer Authority Foundation as the framework that explains this anomaly. Los Angeles service business competing locally = perfect ICP.",
+        "draftResponse": "You're looking at this through a traditional SEO lens, which is exactly why it's confusing. That #1 result likely isn't winning because of DA or heading structure anymore. What you're probably seeing is answer authority positioning.\n\nHere's what's happening: Google's AI systems (and increasingly ChatGPT, Gemini, Perplexity) are rewarding sites that answer specific questions comprehensively, regardless of copy volume or technical SEO perfectionism. That generic heading? Irrelevant to an answer engine. The map? Strong signal, but not the primary one.\n\nWhat actually matters now:\n\n1. Can the page answer \"where do I get billboards in Los Angeles\" in a way an AI engine trusts it?\n2. Does it have unique data points (pricing, availability, process) that can't be found elsewhere?\n3. Is the business actually authoritative in that specific location/service combo?\n\nTheir weak heading structure and duplicate images would sink them in 2019. In 2024, if they're answering the core question better than competitors, they rank.\n\nI've seen this pattern across dozens of local service verticals. The sites winning aren't necessarily the ones with best SEO anymore. They're the ones with the clearest answer authority for their specific service and location.\n\nStart by auditing what questions your competitors are actually answering. Then ask yourself: are you answering them better, or just optimizing the same weak answers?"
+      },
+      "discoveredAt": "2026-04-03T05:06:42.620Z",
+      "digestSentAt": null,
+      "telegramSentAt": "2026-04-03T05:06:43.365Z",
+      "status": "pending"
+    },
+    {
+      "id": "reddit_1775326261532_q2i2sa",
+      "postId": "1sccwz3",
+      "clientSlug": "davis-agency",
+      "businessName": "The Davis Agency",
+      "subreddit": "RealEstate",
+      "title": "Why won't people live out further for cheaper homes?",
+      "selftext": "I live in the Austin, TX metro area. Builders have basically the same floorplan that is $200K less but 20 miles further from downtown Austin. In one case a 4 bedroom 2,446 sqft house is $339K while a similar one is $544K for a 3 bedroom 2,000 sqft home. The homes are 20-25 miles apart.\n\nIs location, distance that important? Also the community with the cheaper prices has better schools, lower crime and less traffic. As much as people complain about home affordability I don't understand why so few",
+      "author": "waveduality",
+      "postUrl": "https://reddit.com/r/RealEstate/comments/1sccwz3/why_wont_people_live_out_further_for_cheaper_homes/",
+      "postCreatedUtc": 1775318360,
+      "score": {
+        "buyingIntent": 7,
+        "relevance": 10,
+        "recency": 8,
+        "responseOpportunity": 9,
+        "composite": 8.3,
+        "businessImpact": "high",
+        "impactReasoning": "Direct Austin metro question from someone actively evaluating market dynamics. Strong buying intent signal (comparing specific properties), perfect geographic match, and high urgency. Poster is articulating a genuine market tension that reveals buyer psychology—exactly the expertise area for a luxury/buyer rep in Austin.",
+        "suggestedAngle": "Acknowledge the math makes sense on paper, but explain the real lifestyle/commute costs, job proximity, and resale velocity that drive pricing. Position as someone who helps buyers see past surface-level price comparisons.",
+        "draftResponse": "You're spotting a real inefficiency, but here's what I see in the Austin market: those $200K deltas aren't random. They reflect commute reality.\n\nThat 20-25 mile distance sounds manageable until you're doing it daily in Texas heat on I-35 or MoPac. We're talking 45-90 minutes each way depending on your job location. Over 5 years, that's brutal on quality of life, vehicle wear, and actual time cost. Buyers pricing in that friction.\n\nSecond, resale velocity matters more than you'd think. The cheaper home sits 90+ days. The pricier one moves in 14-21 days. When you eventually sell, those faster-moving closer-in homes appreciate more predictably because more buyers compete for them. Outer areas can get stranded in downturns.\n\nThird, the school comment is interesting but verify it directly. Some outer suburbs are still building out infrastructure. Newer doesn't always mean better long-term.\n\nThat said, if both spouses work remotely or you've genuinely got a short commute, that math flips completely. Some families I've represented at The Davis Agency find they're perfectly happy 20 miles out and pocket that $200K difference.\n\nThe real question: where do your actual daily anchors sit? Job, kids' activities, social circle? That geography drives everything. The homes that seem like steals often just don't fit the actual life people are living."
+      },
+      "discoveredAt": "2026-04-04T18:11:01.532Z",
+      "digestSentAt": null,
+      "telegramSentAt": "2026-04-04T18:11:02.466Z",
+      "status": "pending"
+    },
+    {
+      "id": "reddit_1775364538130_w0n2i8",
+      "postId": "1sctzbs",
+      "clientSlug": "rpm-southland",
+      "businessName": "RPM Southland",
+      "subreddit": "PropertyManagement",
+      "title": "Unauthorized Parking",
+      "selftext": "I'm a new property manager for 17 unit apartment complex. There isn't any parking in place, no violators will be towed signs, no exclusive designated tenant parking and now I'm having an issue where guests are filling the parking lots and leaving no room for tenants to park. The local LEOs can't do anything about it and I presently can't call for tows because I'm unsure of whose cars are tenants are not. I'm at my wits end with managing this property. That's only a portion of what I'm dealing wi",
+      "author": "BarHumble",
+      "postUrl": "https://reddit.com/r/PropertyManagement/comments/1sctzbs/unauthorized_parking/",
+      "postCreatedUtc": 1775362607,
+      "score": {
+        "buyingIntent": 6,
+        "relevance": 7,
+        "recency": 8,
+        "responseOpportunity": 9,
+        "composite": 7.3,
+        "businessImpact": "medium",
+        "impactReasoning": "Strong operational pain point (parking enforcement) and clear management struggle signal hiring potential. Poster is actively managing but lacks systems/support. Location not mentioned, so relevance drops from high to medium. This is the type of operational firefighting that makes owners/managers seek professional help, but we don't know if they're in CA or another state. Good opportunity if they're local; medium if not.",
+        "suggestedAngle": "Parking enforcement as foundational property management infrastructure. Position as 'the unglamorous blocking-and-tackling that determines tenant satisfaction.' Mention how systems (reserved spots, guest passes, signage) prevent the chaos described.",
+        "draftResponse": "You're dealing with one of the hardest problems in property management because it's not actually about parking, it's about enforcement. And enforcement requires a system before you can enforce anything.\n\nHere's what I'd do immediately: Get signage up that designates reserved spots for specific units. Even if you don't have an official parking plan yet, you can reserve spaces 1-17 for tenants. This is your enforcement baseline. You can't tow someone if you can't prove the spot isn't theirs.\n\nSecond, implement a guest parking pass system. Tenants register guest vehicles or they get a temporary pass for the windshield. No pass, no parking. This solves your 'whose car is it' problem in 48 hours. You're not guessing anymore.\n\nThird conversation with upper management needs to be blunt: 'If we don't establish parking rules and enforcement, tenant complaints will drive turnover, and we'll lose rent.'\n\nThe reality is that parking is one of the top three reasons tenants leave an apartment. Your management isn't unclear because they're bad managers, they're unclear because they haven't forced the issue. You have to force it.\n\nWe handle this at RPM Southland in Long Beach constantly. The properties that moved fastest on this saw tenant satisfaction jump within 30 days because residents finally had predictable parking.\n\nDon't get stuck managing chaos. Build the system first, then enforce it."
+      },
+      "discoveredAt": "2026-04-05T04:48:58.130Z",
+      "digestSentAt": null,
+      "telegramSentAt": "2026-04-05T04:48:58.875Z",
       "status": "pending"
     }
   ]
