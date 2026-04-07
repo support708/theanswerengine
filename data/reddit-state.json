@@ -245,39 +245,62 @@
     "1sdwdm6": 1775493342259,
     "1sdx5y5": 1775493383519,
     "1sdx4dp": 1775493411006,
-    "1se48e7": 1775494791253
+    "1se48e7": 1775494791253,
+    "1se5od9": 1775498468320,
+    "1sejfgp": 1775535751181,
+    "1sedfra": 1775535797409,
+    "1sedetx": 1775535804083,
+    "1se872l": 1775535810916,
+    "1se83eb": 1775535818222,
+    "1sed2ef": 1775535843748,
+    "1sen2yd": 1775540749785,
+    "1sequ8t": 1775553330238,
+    "1sexv31": 1775578268532,
+    "1sev14n": 1775578273464,
+    "1sev2jm": 1775578490765,
+    "1serdhb": 1775578517403,
+    "1sf6qb2": 1775600101998,
+    "1sf4fdh": 1775600144827,
+    "1sf751z": 1775600168062,
+    "1sf9ni5": 1775600173736
   },
   "lastPollBySubreddit": {},
   "lastDigestByClient": {
-    "the-answer-engine": "2026-04-06T18:07:10.759Z",
+    "the-answer-engine": "2026-03-30T19:07:13.644Z",
     "lovery-re": "2026-03-30T19:07:14.666Z",
-    "rpm-southland": "2026-04-06T20:07:10.619Z",
-    "davis-agency": "2026-04-06T18:07:11.830Z"
+    "rpm-southland": "2026-03-30T19:07:15.927Z"
   },
   "monthlyStats": {
-    "month": "2026-04",
-    "totalScanned": 0,
-    "totalQualified": 0,
+    "month": "2026-03",
+    "totalScanned": 7131,
+    "totalQualified": 36,
     "byClient": {
-      "the-answer-engine": {
-        "opportunities": 0,
-        "digestsSent": 1,
-        "highImpact": 0,
-        "mediumImpact": 0,
+      "davis-agency": {
+        "opportunities": 5,
+        "digestsSent": 0,
+        "highImpact": 3,
+        "mediumImpact": 2,
         "lowImpact": 0
       },
-      "davis-agency": {
-        "opportunities": 0,
+      "lovery-re": {
+        "opportunities": 13,
         "digestsSent": 1,
-        "highImpact": 0,
-        "mediumImpact": 0,
+        "highImpact": 10,
+        "mediumImpact": 3,
+        "lowImpact": 0
+      },
+      "the-answer-engine": {
+        "opportunities": 8,
+        "digestsSent": 1,
+        "highImpact": 7,
+        "mediumImpact": 1,
         "lowImpact": 0
       },
       "rpm-southland": {
-        "opportunities": 0,
+        "opportunities": 10,
         "digestsSent": 1,
-        "highImpact": 0,
-        "mediumImpact": 0,
+        "highImpact": 5,
+        "mediumImpact": 5,
         "lowImpact": 0
       }
     }

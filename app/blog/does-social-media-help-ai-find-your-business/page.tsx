@@ -637,7 +637,7 @@ export default function SocialMediaAIBusiness() {
 
           <div style={{
             backgroundColor: '#f5f3ff',
-            border: '2px solid '#8b5cf6',
+            border: '2px solid #8b5cf6',
             borderRadius: '8px',
             padding: '15px'
           }}>
@@ -681,7 +681,7 @@ export default function SocialMediaAIBusiness() {
 
           <div style={{
             backgroundColor: '#faf5ff',
-            border: '2px solid '#d946ef',
+            border: '2px solid #d946ef',
             borderRadius: '8px',
             padding: '15px'
           }}>
@@ -703,7 +703,7 @@ export default function SocialMediaAIBusiness() {
 
           <div style={{
             backgroundColor: '#e0e7ff',
-            border: '2px solid '#6366f1',
+            border: '2px solid #6366f1',
             borderRadius: '8px',
             padding: '15px'
           }}>

@@ -314,7 +314,7 @@ export default function LocalSEOvsAI() {
             </a>
           </div>
 
-          <div style={{ backgroundColor: '#f0fdf4', border: '2px solid '#10b981', borderRadius: '8px', padding: '15px', textAlign: 'center' }}>
+          <div style={{ backgroundColor: '#f0fdf4', border: '2px solid #10b981', borderRadius: '8px', padding: '15px', textAlign: 'center' }}>
             <h4 style={{ marginTop: '0' }}>Get Strategy Plan</h4>
             <a href="https://theanswerengine.ai/contact" style={{
               display: 'inline-block',
