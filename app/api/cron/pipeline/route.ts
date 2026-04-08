@@ -119,9 +119,10 @@ async function handleRequest(req: NextRequest) {
       await flushLeadsWithFiles(leads, [], 'pipeline: auto-failed leads with invalid emails');
     }
 
-    // Pick up to 2 leads per run — full pipeline (research+report+email) takes ~120-180s each
-    // maxDuration is 300s, so 2 leads fits within budget. Includes email_drafted and report_ready retries.
-    const toPick = leads.filter(l => pickable.includes(l.status) && l.contactEmail && l.contactEmail.includes('@')).slice(0, 2);
+    // Pick 1 lead per run — full pipeline (research+report+email) takes ~120-180s.
+    // maxDuration is 300s, so 1 full pipeline fits safely. Cron runs every 30 min = 48 leads/day capacity.
+    // Includes email_drafted (Gmail retry) and report_ready (deploy retry).
+    const toPick = leads.filter(l => pickable.includes(l.status) && l.contactEmail && l.contactEmail.includes('@')).slice(0, 1);
 
     if (toPick.length === 0) {
       return NextResponse.json({ success: true, message: 'No leads to process' });

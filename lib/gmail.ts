@@ -115,7 +115,7 @@ export function buildEmailBody(lead: Lead): string {
     : 'other businesses do.';
 
   const reviewLine = lead.research?.reviewCount
-    ? `This is happening despite your ${lead.research.reviewCount} five-star reviews.`
+    ? `This is happening despite your ${lead.research.reviewCount} reviews.`
     : 'This is happening despite your strong reputation.';
 
   return `${lead.contactFirstName},
@@ -158,7 +158,7 @@ export function buildHtmlEmailBody(lead: Lead): string {
     ? `${lead.competitorName} does.`
     : 'other businesses do.';
   const reviewLine = lead.research?.reviewCount
-    ? `This is happening despite your ${lead.research.reviewCount} five-star reviews.`
+    ? `This is happening despite your ${lead.research.reviewCount} reviews.`
     : 'This is happening despite your strong reputation.';
 
   return `<!DOCTYPE html>

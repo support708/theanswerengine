@@ -116,9 +116,25 @@ export async function getSentToday(): Promise<number> {
   return log.entries.filter(e => e.sentAt.startsWith(todayStr)).length;
 }
 
-/** Check if we can send more emails today */
+/** Check if we can send more emails today (single read, no duplicate API calls) */
 export async function canSendToday(): Promise<{ allowed: boolean; sent: number; limit: number }> {
-  const [sent, limit] = await Promise.all([getSentToday(), getDailyLimit()]);
+  const log = await readSendLog();
+
+  // Calculate limit from log
+  const start = new Date(log.startDate);
+  const daysSinceStart = Math.floor((Date.now() - start.getTime()) / (1000 * 60 * 60 * 24));
+  const weeksSinceStart = Math.floor(daysSinceStart / 7);
+  let limit: number;
+  if (weeksSinceStart < 2) limit = 5;
+  else if (weeksSinceStart < 4) limit = 10;
+  else if (weeksSinceStart < 6) limit = 20;
+  else if (weeksSinceStart < 8) limit = 30;
+  else limit = 50;
+
+  // Count today's sends from log
+  const todayStr = new Date().toISOString().split('T')[0];
+  const sent = log.entries.filter(e => e.sentAt.startsWith(todayStr)).length;
+
   return { allowed: sent < limit, sent, limit };
 }
 
