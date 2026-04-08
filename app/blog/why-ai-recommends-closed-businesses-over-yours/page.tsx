@@ -12,7 +12,7 @@ const description =
 const url = `https://theanswerengine.ai/blog/${slug}`
 const image = `https://theanswerengine.ai/blog/${slug}.webp`
 
-const shortDesc = 'AI recommends closed businesses over yours because stale data outranks fresh data. Learn why this happens and how to fix your AI visibility before customers go elsewhere.'
+const shortDesc = 'Stale data outranks fresh data in AI search. Learn why AI recommends closed businesses over yours and how to fix your visibility before customers go elsewhere.'
 
 export const metadata: Metadata = {
   title,

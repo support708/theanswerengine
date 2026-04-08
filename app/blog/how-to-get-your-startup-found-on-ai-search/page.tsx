@@ -7,7 +7,7 @@ export const dynamicParams = true;
 
 export const metadata: Metadata = {
   title: "How to Get Your Startup Found on AI Search",
-  description: "New startups are structurally invisible to AI by default. Learn why AI platforms trust established signals over new ones, and what your startup must do to get discovered in 2026.",
+  description: "New startups are invisible to AI by default. Learn why AI trusts established signals over new ones and what your startup must do to get discovered in 2026.",
   keywords: ["startup AI search", "startup AI visibility", "new business AI search", "startup ChatGPT visibility", "answer engine optimization startup", "AI search new brand", "startup found on ChatGPT"],
   openGraph: {
     title: "How to Get Your Startup Found on AI Search",
