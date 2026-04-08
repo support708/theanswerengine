@@ -262,7 +262,13 @@
     "1sf6qb2": 1775600101998,
     "1sf4fdh": 1775600144827,
     "1sf751z": 1775600168062,
-    "1sf9ni5": 1775600173736
+    "1sf9ni5": 1775600173736,
+    "1sfhfp8": 1775619413295,
+    "1sfdmc4": 1775619424107,
+    "1sfd4to": 1775619452814,
+    "1sfmje4": 1775636148132,
+    "1sfns7r": 1775640669540,
+    "1sfd8ph": 1775655054715
   },
   "lastPollBySubreddit": {},
   "lastDigestByClient": {
@@ -272,8 +278,8 @@
   },
   "monthlyStats": {
     "month": "2026-03",
-    "totalScanned": 7131,
-    "totalQualified": 36,
+    "totalScanned": 7624,
+    "totalQualified": 39,
     "byClient": {
       "davis-agency": {
         "opportunities": 5,
@@ -283,17 +289,17 @@
         "lowImpact": 0
       },
       "lovery-re": {
-        "opportunities": 13,
+        "opportunities": 15,
         "digestsSent": 1,
-        "highImpact": 10,
-        "mediumImpact": 3,
+        "highImpact": 11,
+        "mediumImpact": 4,
         "lowImpact": 0
       },
       "the-answer-engine": {
-        "opportunities": 8,
+        "opportunities": 9,
         "digestsSent": 1,
         "highImpact": 7,
-        "mediumImpact": 1,
+        "mediumImpact": 2,
         "lowImpact": 0
       },
       "rpm-southland": {

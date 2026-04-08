@@ -971,6 +971,87 @@
       "digestSentAt": "2026-04-06T20:07:10.619Z",
       "telegramSentAt": "2026-04-05T04:48:58.875Z",
       "status": "digest_sent"
+    },
+    {
+      "id": "reddit_1775619421847_olkixe",
+      "postId": "1sfhfp8",
+      "clientSlug": "lovery-re",
+      "businessName": "Lovery Real Estate",
+      "subreddit": "RealEstate",
+      "title": "Me and my wife decided to buy our first home.",
+      "selftext": "We’re making 125k a year combined with credit scores of 744 and 680 (I have credit history she only has student loans). The area we’re in is around 275kish for a decent first house and are awaiting pre approval for 350k. We’re 25 and 24 and have had an awful experience finding a rental property so we’re head first into buying. Is there any advice we could use to look for what’s best in a real estate agent or what to avoid. ",
+      "author": "camgar9",
+      "postUrl": "https://reddit.com/r/RealEstate/comments/1sfhfp8/me_and_my_wife_decided_to_buy_our_first_home/",
+      "postCreatedUtc": 1775618243,
+      "score": {
+        "buyingIntent": 7,
+        "relevance": 4,
+        "recency": 8,
+        "responseOpportunity": 9,
+        "composite": 6.5,
+        "businessImpact": "medium",
+        "impactReasoning": "Strong buying intent and urgency, excellent response opportunity to provide genuine first-time buyer guidance. However, relevance is limited because post doesn't specify location - appears to be asking general advice rather than San Diego-specific help. Can naturally mention San Diego market context without forcing it, but this feels like a general r/RealEstate question not a San Diego-targeted one. Medium impact because we can add real value and build authority, but geographical match is unclear.",
+        "suggestedAngle": "Position as first-time buyer expert. Share what makes a great agent from a buyer's perspective. Mention San Diego as an example of competitive market where agent quality matters. Focus on their situation (young couple, solid finances, credit spread, limited rental luck) to build credibility.",
+        "draftResponse": "Congrats on making this move, and honestly, your financial position is solid for first-time buyers at 25 and 24. Here's what I'd look for in an agent, especially coming off a rough rental experience.\n\nFind someone who listens first and talks second. A good agent will spend time understanding your priorities, not just showing you homes in your price range. Ask potential agents: How do you help first-time buyers navigate inspection findings? What's your process when an offer gets rejected? Their answers matter more than their marketing.\n\nSpecific things to avoid: agents who pressure you toward the highest pre-approval amount (yours is realistic for your income), anyone who won't explain closing costs clearly, and agents who treat this like a sprint rather than finding the right fit.\n\nYour credit score spread is worth addressing before you get too deep. That 680 will affect your rate, so talk to a lender about strategies there. In competitive markets like San Diego, we see buyers weakened by financing questions that could've been solved upfront.\n\nOne more thing: that awful rental experience doesn't mean you'll have the same with buying. The dynamic is completely different when you're the owner and there's a clear transaction structure. An agent worth their salt will make the buying process feel way more transparent than renting ever did.\n\nLook for someone local to your area who knows the neighborhoods, not just the market. They should be able to explain why a home is priced the way it is and what comparable sales actually tell you. That knowledge is what protects you."
+      },
+      "discoveredAt": "2026-04-08T03:37:01.847Z",
+      "digestSentAt": null,
+      "telegramSentAt": "2026-04-08T03:37:02.599Z",
+      "status": "pending"
+    },
+    {
+      "id": "reddit_1775619431074_2ly4i3",
+      "postId": "1sfdmc4",
+      "clientSlug": "lovery-re",
+      "businessName": "Lovery Real Estate",
+      "subreddit": "FirstTimeHomeBuyer",
+      "title": "PMI is going to be $126/month?? On a $145k home with $900/mo mortgage payments??",
+      "selftext": "WTAF? We're getting fleeced. Our credit scores were above 700, I think mine was almost 730? I shouldn't have signed the disclosure thing without reading ALL of it I feel SO STUPID but I was at work and just rushing to get it done and move on to the next step because our awful loan guy takes forever to do anything and requests the same pdf from us 3 times a week. Don't be like me READ YOUR SHIT ALL YOUR SHIT  \n\nlmao downvotes really? Sorry for being poor and trying to learn. go back to r/RealEsta",
+      "author": "st_psilocybin",
+      "postUrl": "https://reddit.com/r/FirstTimeHomeBuyer/comments/1sfdmc4/pmi_is_going_to_be_126month_on_a_145k_home_with/",
+      "postCreatedUtc": 1775607877,
+      "score": {
+        "buyingIntent": 7,
+        "relevance": 9,
+        "recency": 9,
+        "responseOpportunity": 9,
+        "composite": 8.3,
+        "businessImpact": "high",
+        "impactReasoning": "First-time home buyer actively in transaction, experiencing buyer's remorse and frustration with their loan officer. Clear pain point around PMI and lack of guidance through closing process. Poster is emotional but engaged and seeking education. Located likely in US (mention of credit scores, PMI). San Diego first-time buyer audience is core service line. High opportunity to provide reassurance, education, and position Lovery Real Estate as the kind of responsive, transparent agent who protects clients in this exact scenario.",
+        "suggestedAngle": "Validate their frustration, demystify PMI math, emphasize the importance of agent advocacy during loan process, position transparent communication as differentiator without criticizing their lender directly.",
+        "draftResponse": "Hey, don't feel stupid at all. You caught something real, and the fact that you're asking questions means you're already protecting yourself better than a lot of first-time buyers do.\n\nLet's break down the PMI piece. On a $145k home, $126/month PMI actually isn't crazy if you put down less than 20%. Here's what matters: PMI isn't forever. Once you hit 20% equity, you can request it gets removed. Some loans auto-drop it at 22%. So if you're building equity fast, this might be temporary friction.\n\nBUT here's the real thing: your lender should've walked you through all of this before closing. That's not rushing, that's their job. A good loan officer explains what you're signing and why, especially PMI. The fact that he's asking for the same PDFs repeatedly tells me he's disorganized, which isn't cool when you're making one of the biggest decisions of your life.\n\nFor future reference, when you're working with an agent and lender, the agent should be your advocate too. We're supposed to make sure you understand what's happening and catch stuff that feels off. I've seen plenty of first-time buyers in San Diego who felt exactly like you do right now, and most of the time a quick conversation with their agent earlier would've changed the approach.\n\nYou're not getting fleeced. You're learning. That counts for something."
+      },
+      "discoveredAt": "2026-04-08T03:37:11.074Z",
+      "digestSentAt": null,
+      "telegramSentAt": "2026-04-08T03:37:11.778Z",
+      "status": "pending"
+    },
+    {
+      "id": "reddit_1775640676426_lsup2p",
+      "postId": "1sfns7r",
+      "clientSlug": "the-answer-engine",
+      "businessName": "The Answer Engine",
+      "subreddit": "digital_marketing",
+      "title": "most agencies that promise \"leads\" are selling you a vanity metric",
+      "selftext": "see this all the time. agency promises \"50 leads a month\" and delivers a spreadsheet of names and email addresses that they scraped from a database. technically leads. practically useless\n\nthe word \"lead\" has become so watered down in this industry that it basically means nothing anymore. someone who filled out a form? lead. someone whose email you found on Apollo? lead. someone who clicked an ad and bounced in 3 seconds? lead\n\na real lead is someone who has the problem you solve, has expressed ",
+      "author": "Admirable-Station223",
+      "postUrl": "https://reddit.com/r/digital_marketing/comments/1sfns7r/most_agencies_that_promise_leads_are_selling_you/",
+      "postCreatedUtc": 1775639931,
+      "score": {
+        "buyingIntent": 7,
+        "relevance": 3,
+        "recency": 8,
+        "responseOpportunity": 9,
+        "composite": 6.1,
+        "businessImpact": "medium",
+        "impactReasoning": "High response opportunity and buying intent from someone frustrated with lead quality metrics. However, relevance is limited because post doesn't mention location and AEO/answer engine optimization isn't directly about lead generation. The frustration signals someone who could benefit from visibility in AI search results (where 'leads' are qualified intent-based queries), but requires angle shift to feel natural.",
+        "suggestedAngle": "Position AEO as the inverse of vanity metrics - visibility to people actively searching for solutions via AI engines represents pre-qualified intent, not scraped contacts. Reframe the conversation from 'lead volume' to 'answer authority' and intent signals.",
+        "draftResponse": "You're describing the exact problem we see with most lead generation: volume without context. But here's what gets overlooked in this conversation.\n\nThe platforms that actually move revenue aren't the ones generating lists. They're the ones where your ideal customer is actively searching for the solution you provide. When someone types a problem into ChatGPT or Claude and your business gets recommended, that's not a lead in the traditional sense. That's someone who's already decided they have a problem and is looking for an answer.\n\nThat's the shift happening right now. Businesses that show up in AI search results get visibility to people at the intent stage, not the contact stage. No scraping required. No form fills. Just relevance.\n\nThe agencies still selling spreadsheets of contacts are playing a 2010 game. They're competing on volume because they don't know how to compete on intent. Real qualification happens upstream now. Answer authority in AI search spaces automatically filters for people who are searching for what you solve.\n\nThis is why the frustration is so common. Business owners are buying leads when they should be buying visibility to people who are already looking. Two different games entirely. The metrics look completely different too—you're not measuring contacts generated, you're measuring qualified visibility.\n\nLots of business owners in LA and everywhere else are figuring this out the hard way right now."
+      },
+      "discoveredAt": "2026-04-08T09:31:16.427Z",
+      "digestSentAt": null,
+      "telegramSentAt": "2026-04-08T09:31:17.157Z",
+      "status": "pending"
     }
   ]
 }
