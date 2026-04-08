@@ -90,7 +90,7 @@ I built a free AI visibility report for ${lead.businessName} showing exactly wha
 
 ${reportUrl}
 
-We recently helped a business go from zero AI visibility to 8,400+ monthly clicks using this same analysis as a starting point. Happy to walk you through your report on a quick call.
+We helped an LA real estate team go from zero AI visibility to 8,400+ monthly clicks using this same type of analysis as a starting point. Happy to walk you through your report on a quick call.
 
 ${CALENDLY_URL}
 
@@ -111,7 +111,7 @@ export function buildHtmlEmailBody(lead: Lead): string {
 
 ${reportImageBlock(reportUrl, previewUrl, lead.businessName)}
 
-<p>We recently helped a business go from zero AI visibility to 8,400+ monthly clicks using this same analysis as a starting point. Happy to walk you through your report on a quick call.</p>
+<p>We helped an LA real estate team go from zero AI visibility to 8,400+ monthly clicks using this same type of analysis as a starting point. Happy to walk you through your report on a quick call.</p>
 
 <p><a href="${CALENDLY_URL}" target="_blank" style="color:#FF6A00;font-weight:bold;">Book a 30-min call</a></p>`);
 }
@@ -251,7 +251,7 @@ ${reportImageBlock(reportUrl, previewUrl, lead.businessName)}
 
 export function buildFollowUp1Subject(lead: Lead): string {
   const competitor = lead.competitorName || 'your top competitor';
-  return `${competitor} is still the AI recommendation in ${lead.city}`;
+  return `${competitor} is the AI recommendation in ${lead.city}, not ${lead.businessName}`;
 }
 
 export function buildFollowUp1Body(lead: Lead): string {
@@ -260,9 +260,9 @@ export function buildFollowUp1Body(lead: Lead): string {
 
   return `${lead.contactFirstName},
 
-Quick update on the AI visibility report I sent for ${lead.businessName}.
+Quick follow-up on the AI visibility report I sent for ${lead.businessName}.
 
-I checked again today. ${competitor} is still the top recommendation when AI platforms are asked about ${lead.serviceNiche.toLowerCase()} in ${lead.city}. ${lead.businessName} still does not appear.
+Based on the research, ${competitor} is the one AI platforms recommend when asked about ${lead.serviceNiche.toLowerCase()} in ${lead.city}. That is unlikely to change on its own.
 
 The report breaks down exactly why and what to fix:
 
@@ -292,7 +292,7 @@ export function buildFollowUp1Html(lead: Lead): string {
 // ============================================================
 
 export function buildFollowUp2Subject(lead: Lead): string {
-  return `How a business went from invisible to 8,400+ monthly clicks`;
+  return `How an LA real estate team went from invisible to 8,400+ monthly clicks`;
 }
 
 export function buildFollowUp2Body(lead: Lead): string {
@@ -302,7 +302,7 @@ export function buildFollowUp2Body(lead: Lead): string {
 
 I wanted to share something relevant to what I found in ${lead.businessName}'s AI visibility report.
 
-One of our clients had the same problem. Zero AI visibility in a market with 70,000+ competitors. Within 7 months they went from page 2 invisibility to 8,400+ monthly clicks and 100% AI citation rates. All verified through Google Search Console.
+One of our clients, an LA real estate team, faced a similar challenge. Zero AI visibility in a market with 70,000+ competing agents. Within 7 months they went from page 2 invisibility to 8,400+ monthly clicks and 100% AI citation rates for their expertise queries. All verified through Google Search Console.
 
 The starting point was the same analysis I built for you:
 
