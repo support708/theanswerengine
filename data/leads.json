@@ -1280,8 +1280,78 @@
     "reviewCount": 3911,
     "rating": 4.9,
     "notes": "Auto-discovered by Lead Hunter. AI citation: not cited on 1/1 platforms. Competitors cited: The Electric Connection, Powell Electric, Prime Electric. Outreach-ready: YES (citation data + contact + differentiator verified). Differentiator: Operating since 1982 (44 years), 3,911 reviews on Birdeye, 24/7 emergency service, 60-90 minute response guarantee, largest review count",
-    "status": "queued",
-    "research": null,
+    "status": "report_ready",
+    "research": {
+      "reviewCount": 3911,
+      "rating": 4.9,
+      "yearsInBusiness": 44,
+      "credentials": [
+        "California State Licensed Electrician (License #1108382)",
+        "Background-checked technicians",
+        "Drug-tested technicians",
+        "State-certified electricians",
+        "BBB Accredited (A+ Rating) since 5/24/2016",
+        "Google Guarantee partner",
+        "Lifetime warranty on work"
+      ],
+      "awards": [
+        "3,911 reviews on Birdeye (4.9 star rating)",
+        "Listed on ThreeBestRated.com top 3 electricians (Powell Electric, Express Electrical Services, The Electric Connection)"
+      ],
+      "communityInvolvement": [
+        "Nextdoor community presence with local homeowner recommendations",
+        "Instagram presence (1,417 followers)",
+        "Multi-platform review presence (Google, Yelp, Birdeye, Angi, HomeAdvisor)"
+      ],
+      "hiddenDifferentiators": [
+        "Largest review count on Birdeye (3,911 reviews) vs competitors (The Electric Connection: 406 Yelp reviews; Powell Electric: 737 Yelp reviews)",
+        "Operating since 1982 (44 years in business, established longer than most competitors)",
+        "60-90 minute response guarantee with family-owned operation",
+        "Over 40% repeat customer rate",
+        "Multiple office locations (Los Angeles, Riverside, Santa Ana) for faster dispatch",
+        "Full truck stocking policy enabling first-visit resolution",
+        "Lifetime workmanship guarantee",
+        "Transparent upfront pricing with no hidden fees",
+        "CEO Mario personally recognizes quality work",
+        "Named office manager (Rene) and CEO in reviews showing organizational depth"
+      ],
+      "topCompetitors": [
+        {
+          "name": "The Electric Connection",
+          "reason": "40+ years in business, 406 Yelp reviews, owned by Kim Hopkins with similar transparency-focused positioning, emphasis on 'Quality Work at Honest Price'"
+        },
+        {
+          "name": "Powell Electric",
+          "reason": "40+ years in business (established 1971), 737 Yelp reviews, family-owned, same-day service, strong reputation but fewer reviews than Express"
+        },
+        {
+          "name": "Prime Electric",
+          "reason": "40+ years in business (established 1985), 400+ five-star reviews, serves LA/Ventura, family-owned, A+ BBB rating, lifetime warranty"
+        }
+      ],
+      "faqContentPresent": false,
+      "blogPresent": true,
+      "gmbPresent": true,
+      "schemaDetected": true,
+      "recentContent": true,
+      "uniqueStory": "Founded in 1982, Express Electrical Services has grown from a local operation into a regional leader with 3,911 customer reviews (largest review count for LA electricians on Birdeye). The company differentiates through guaranteed 60-90 minute response times, over 40% repeat customer rate, fully stocked trucks enabling same-visit repairs, and a family-owned culture where CEO Mario is personally recognized in customer reviews. Operating three office locations (LA, Riverside, Santa Ana) positions them for competitive dispatch advantage over single-location competitors.",
+      "aiCited": false,
+      "aero7": {
+        "answerQuality": 8,
+        "entityOptimization": 6,
+        "relevanceFreshness": 8,
+        "optimizationStructure": 7,
+        "voiceAuthenticity": 8,
+        "authoritySignals": 9,
+        "authorityDistribution": 8,
+        "consensusCoCitation": 7,
+        "platformReadiness": 6,
+        "technicalAccessibility": 5,
+        "total": 72
+      },
+      "rawNotes": "STRENGTHS: (1) Massive review advantage - 3,911 Birdeye reviews significantly outpace competitors (The Electric Connection: 406 Yelp, Powell Electric: 737 Yelp). (2) Longest operating history - 44 years (1982) vs competitors' 40 years. (3) Strong authority signals - BBB A+ accreditation, Google Guarantee partnership, lifetime warranty, CEO mentioned by name in reviews, office manager cited for discretionary discounts. (4) Multiple platforms: Birdeye, Yelp, Google, Angi, HomeAdvisor, YellowPages, Instagram (1,417 followers), Nextdoor presence. (5) Authentic voice: Reviews mention specific technicians (Jay, Wallace, Franco, Alex, Raul) with detailed service narratives. (6) Recent content: Blog active (March 2024 to current) with tactical articles (circuit breaker troubleshooting, GFCI outlets, dimmer switch issues). (7) Website structure: Well-organized with service pages, about page, licensing transparency (License #1108382 displayed), clear CTAs. WEAKNESSES: (1) No dedicated FAQ page found (faqContentPresent: false). (2) Schema markup depth unclear - detected but extent unknown; competitors may have more robust implementation. (3) Limited high-authority backlinks or earned media mentions (no third-party magazine features, news citations). (4) Not cited on AI platforms for 'best electrician Los Angeles' queries (search results show general listings, not Express featuring prominently in AI-generated top 3). (5) Robots.txt status unknown - cannot verify GPTBot/ClaudeBot/PerplexityBot access; likely default WordPress allowing. (6) NAP consistency: Address listed as 1011 Goodrich Blvd, Los Angeles, CA 90022 on Birdeye but also appears as Commerce, CA on some Yelp pages (90022 is Commerce postal code, confusion possible). (7) Platform segmentation: Multiple Express Electrical Services URLs detected (expresselectricalservices.com, expresselectricalservices4.com, expresselectricservice.com) suggesting fragmented authority. (8) Limited LinkedIn/professional network visibility. (9) No specific awards/recognition (ThreeBestRated top 3 listing is not an 'award' per se, just aggregator ranking). OPPORTUNITY FOR IMPROVEMENT: (1) Create dedicated FAQ page targeting high-intent queries ('Do you offer financing?', 'What's your warranty?'). (2) Consolidate multiple website versions to single authoritative domain. (3) Pursue earned media (local news electrical safety, energy efficiency articles). (4) Expand schema markup (LocalBusiness, AggregateRating, Review schema detection possible). (5) Optimize for AI platforms by creating comparison content ('Express vs. competitors') or industry thought leadership. (6) Verify robots.txt allows GPTBot/ClaudeBot/PerplexityBot for AI visibility. (7) Resolve NAP inconsistencies across all platforms. AERO-10 RATIONALE: P1 (Answer Quality: 8) - Website content directly addresses common electrical issues with clear explanations (breaker resets, outlet problems, service process). Snippet-ready content present but no dedicated FAQ diminishes top marks. P2 (Entity Optimization: 6) - Schema markup detected (via Google Business signals) but depth unclear. Multiple domain versions and address inconsistencies reduce score. P3 (Relevance & Freshness: 8) - Blog updated recently, content aligns with service offerings, 2026 site metadata shows active maintenance. Website content fully relevant to electrician service queries. P4 (Optimization Structure: 7) - H-tag hierarchy visible, serviceable paragraph lengths, mobile responsiveness evident. Some pages feel content-dense but not unmanageable. P5 (Voice & Authenticity: 8) - Consistent brand voice across pages, specific technician names in reviews, CEO mentioned personally, family-owned narrative coherent. Zero fabrication detected; all claims verifiable. P6 (Authority Signals: 9) - Strong credentials (license, BBB A+, Google Guarantee, lifetime warranty), 3,911 verified reviews, CEO/office manager names mentioned, 44-year history, background/drug-tested staff policy. Highest authority pillar. P7 (Authority Distribution: 8) - Multi-platform presence (7+ platforms: Birdeye, Yelp, Google, Angi, HomeAdvisor, YellowPages, Instagram, Nextdoor). Earned media limited. No major news mentions but strong review distribution. P8 (Consensus & Co-Citation: 7) - Mentioned with Powell Electric and The Electric Connection on ThreeBestRated (cross-platform co-mention). Semantic co-mention with 'family-owned electrician Los Angeles' achievable. Citation consistency moderate (44 vs 35+ years mentioned in different places). P9 (Platform Readiness: 6) - ChatGPT/Gemini: Likely indexed via Google Business but not prominently featured in AI-generated 'best electrician' lists. Perplexity/Reddit: No Reddit presence detected; Nextdoor mentions but limited. Claude/Google AIO: Accessible but not optimized for AI Overview snippets (FAQ missing, structured data possibly incomplete). P10 (Technical AI Accessibility: 5) - Robots.txt status unknown (assumed WordPress default allowing bots). NAP consistency issues (address variants). GBP signals present but fresh signals unclear (GMB not directly verified in search results, only inferred from Birdeye/Yelp presence). Estimated rating reflects uncertainty in technical details.",
+      "researchedAt": "2026-04-08T22:30:59.910Z"
+    },
     "reportSlug": "express-electrical-services-g2tq",
     "emailDraftId": null,
     "fabricationFlags": [],
@@ -1290,10 +1360,38 @@
       {
         "action": "Queued by Lead Hunter (P1, score: 37.5, outreach-ready: true)",
         "timestamp": "2026-03-09T02:13:45.366Z"
+      },
+      {
+        "action": "Research started (auto-pipeline)",
+        "timestamp": "2026-04-08T22:30:22.388Z"
+      },
+      {
+        "action": "Research completed (AERO-10: 72/100)",
+        "timestamp": "2026-04-08T22:30:59.910Z"
+      },
+      {
+        "action": "Report generation started",
+        "timestamp": "2026-04-08T22:30:59.910Z"
+      },
+      {
+        "action": "Report generated",
+        "timestamp": "2026-04-08T22:32:41.119Z"
+      },
+      {
+        "action": "Fabrication scan: CLEAN",
+        "timestamp": "2026-04-08T22:32:41.119Z"
+      },
+      {
+        "action": "Em-dash scan: 7 found, auto-stripped",
+        "timestamp": "2026-04-08T22:32:41.119Z"
+      },
+      {
+        "action": "Report + OG metadata deployed to production",
+        "timestamp": "2026-04-08T22:32:41.325Z"
       }
     ],
     "createdAt": "2026-03-09T02:13:45.366Z",
-    "updatedAt": "2026-03-09T02:13:45.366Z",
+    "updatedAt": "2026-04-08T22:32:41.119Z",
     "huntSource": "hunt_1773022316078_kn4h",
     "huntScore": 37.5,
     "huntPriority": "P1",
