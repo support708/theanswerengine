@@ -29,7 +29,7 @@ const GH_SEND_LOG = 'data/send-log.json';
 export interface SendLogEntry {
   leadId: string;
   email: string;
-  type: 'initial' | 'follow_up_1' | 'follow_up_2' | 'follow_up_3';
+  type: 'initial' | 'follow_up_1' | 'follow_up_2' | 'follow_up_3' | 'follow_up_4';
   sentAt: string;
 }
 
@@ -147,9 +147,10 @@ export async function remainingSendsToday(): Promise<number> {
 // --- Follow-up scheduling ---
 
 const FOLLOW_UP_DELAYS = {
-  follow_up_1: 3,  // days after sent
-  follow_up_2: 7,  // days after sent
-  follow_up_3: 14, // days after sent
+  follow_up_1: 3,   // days after sent — competitor update
+  follow_up_2: 8,   // days after sent — social proof / case study
+  follow_up_3: 16,  // days after sent — cost of inaction
+  follow_up_4: 25,  // days after sent — breakup / close the file
 };
 
 /** Get the date a lead was marked as 'sent' from its action log */
@@ -161,7 +162,7 @@ function getSentDate(lead: Lead): Date | null {
   if (sentEntry) return new Date(sentEntry.timestamp);
 
   // Fallback: use updatedAt if status is sent or later
-  if (['sent', 'follow_up_1', 'follow_up_2', 'follow_up_3'].includes(lead.status)) {
+  if (['sent', 'follow_up_1', 'follow_up_2', 'follow_up_3', 'follow_up_4'].includes(lead.status)) {
     return new Date(lead.updatedAt);
   }
 
@@ -169,9 +170,9 @@ function getSentDate(lead: Lead): Date | null {
 }
 
 /** Find leads that are due for follow-up emails */
-export function getLeadsDueForFollowUp(leads: Lead[]): { lead: Lead; followUpType: 'follow_up_1' | 'follow_up_2' | 'follow_up_3' }[] {
+export function getLeadsDueForFollowUp(leads: Lead[]): { lead: Lead; followUpType: 'follow_up_1' | 'follow_up_2' | 'follow_up_3' | 'follow_up_4' }[] {
   const now = new Date();
-  const due: { lead: Lead; followUpType: 'follow_up_1' | 'follow_up_2' | 'follow_up_3' }[] = [];
+  const due: { lead: Lead; followUpType: 'follow_up_1' | 'follow_up_2' | 'follow_up_3' | 'follow_up_4' }[] = [];
 
   for (const lead of leads) {
     const sentDate = getSentDate(lead);
@@ -186,6 +187,8 @@ export function getLeadsDueForFollowUp(leads: Lead[]): { lead: Lead; followUpTyp
       due.push({ lead, followUpType: 'follow_up_2' });
     } else if (lead.status === 'follow_up_2' && daysSinceSent >= FOLLOW_UP_DELAYS.follow_up_3) {
       due.push({ lead, followUpType: 'follow_up_3' });
+    } else if (lead.status === 'follow_up_3' && daysSinceSent >= FOLLOW_UP_DELAYS.follow_up_4) {
+      due.push({ lead, followUpType: 'follow_up_4' });
     }
   }
 

@@ -222,14 +222,14 @@ function calculateMetroMetrics(sentLeads: Lead[]): MetroMetric[] {
 interface SendLogEntry {
   leadId: string;
   email: string;
-  type: 'initial' | 'follow_up_1' | 'follow_up_2' | 'follow_up_3';
+  type: 'initial' | 'follow_up_1' | 'follow_up_2' | 'follow_up_3' | 'follow_up_4';
   sentAt: string;
 }
 
 function calculateFollowUpMetrics(leads: Lead[], entries: SendLogEntry[]): FollowUpMetrics {
-  const stages = ['initial', 'follow_up_1', 'follow_up_2', 'follow_up_3'] as const;
+  const stages = ['initial', 'follow_up_1', 'follow_up_2', 'follow_up_3', 'follow_up_4'] as const;
 
-  const totalByType: Record<string, number> = { initial: 0, follow_up_1: 0, follow_up_2: 0, follow_up_3: 0 };
+  const totalByType: Record<string, number> = { initial: 0, follow_up_1: 0, follow_up_2: 0, follow_up_3: 0, follow_up_4: 0 };
   for (const entry of entries) {
     if (entry.type in totalByType) totalByType[entry.type]++;
   }

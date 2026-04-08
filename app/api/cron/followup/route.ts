@@ -122,9 +122,9 @@ async function handleRequest(req: NextRequest) {
       });
     }
 
-    // Auto-close leads past follow_up_3 with no response
+    // Auto-close leads past follow_up_4 with no response
     const staleLeads = leads.filter(l => {
-      if (l.status !== 'follow_up_3') return false;
+      if (l.status !== 'follow_up_4') return false;
       const lastAction = l.actionLog[l.actionLog.length - 1];
       if (!lastAction) return false;
       const daysSince = Math.floor((Date.now() - new Date(lastAction.timestamp).getTime()) / (1000 * 60 * 60 * 24));
@@ -136,7 +136,7 @@ async function handleRequest(req: NextRequest) {
         status: 'no_response',
         actionLog: [
           ...lead.actionLog,
-          { action: 'Auto-closed: no response after 3 follow-ups', timestamp: new Date().toISOString() },
+          { action: 'Auto-closed: no response after 4 follow-ups', timestamp: new Date().toISOString() },
         ],
       });
       results.push({

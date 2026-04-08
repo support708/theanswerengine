@@ -13,6 +13,7 @@ const STATUS_CONFIG: Record<LeadStatus, { label: string; color: string; bg: stri
   follow_up_1: { label: 'Follow-up 1', color: 'text-amber-300', bg: 'bg-amber-900/30' },
   follow_up_2: { label: 'Follow-up 2', color: 'text-amber-400', bg: 'bg-amber-900/40' },
   follow_up_3: { label: 'Follow-up 3', color: 'text-amber-500', bg: 'bg-amber-900/50' },
+  follow_up_4: { label: 'Follow-up 4', color: 'text-amber-600', bg: 'bg-amber-900/60' },
   closed_won: { label: 'Won', color: 'text-green-400', bg: 'bg-green-800/40' },
   closed_lost: { label: 'Lost', color: 'text-red-400', bg: 'bg-red-900/30' },
   no_response: { label: 'No Response', color: 'text-yellow-300', bg: 'bg-yellow-900/30' },

@@ -11,6 +11,7 @@ export type LeadStatus =
   | 'follow_up_1'
   | 'follow_up_2'
   | 'follow_up_3'
+  | 'follow_up_4'
   | 'closed_won'
   | 'closed_lost'
   | 'no_response'
