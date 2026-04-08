@@ -1140,7 +1140,7 @@
     "reviewCount": 88,
     "rating": 5,
     "notes": "Auto-discovered by Lead Hunter. AI citation: not cited on 1/1 platforms. Competitors cited: The Electric Connection, Powell Electric, Prime Electric. Outreach-ready: YES (citation data + contact + differentiator verified). Differentiator: Family-owned since 1985 (40 years), BuildZoom score of 122 (top 1%), 1,462 building permits, 100% satisfaction ratings",
-    "status": "report_ready",
+    "status": "sent",
     "research": {
       "reviewCount": 88,
       "rating": 5,
@@ -1240,10 +1240,14 @@
       {
         "action": "Report + OG metadata deployed to production",
         "timestamp": "2026-04-08T21:32:21.231Z"
+      },
+      {
+        "action": "Initial email auto-sent via Gmail (19d6f1c64add9466)",
+        "timestamp": "2026-04-08T22:00:25.392Z"
       }
     ],
     "createdAt": "2026-03-09T02:13:45.366Z",
-    "updatedAt": "2026-04-08T21:32:21.075Z",
+    "updatedAt": "2026-04-08T22:00:25.392Z",
     "huntSource": "hunt_1773022316078_kn4h",
     "huntScore": 35.5,
     "huntPriority": "P1",
