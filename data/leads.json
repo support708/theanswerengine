@@ -1140,8 +1140,70 @@
     "reviewCount": 88,
     "rating": 5,
     "notes": "Auto-discovered by Lead Hunter. AI citation: not cited on 1/1 platforms. Competitors cited: The Electric Connection, Powell Electric, Prime Electric. Outreach-ready: YES (citation data + contact + differentiator verified). Differentiator: Family-owned since 1985 (40 years), BuildZoom score of 122 (top 1%), 1,462 building permits, 100% satisfaction ratings",
-    "status": "queued",
-    "research": null,
+    "status": "report_ready",
+    "research": {
+      "reviewCount": 88,
+      "rating": 5,
+      "yearsInBusiness": 40,
+      "credentials": [
+        "C-10 Licensed Electrical Contractor (License #484143)",
+        "General Building License (414367)",
+        "Fully Licensed and Insured",
+        "DWP, Edison, and Department of Building and Safety approved"
+      ],
+      "awards": [
+        "BuildZoom Score of 122 (top 1% of 336,931 California contractors)",
+        "1,462 building permits verified"
+      ],
+      "communityInvolvement": [
+        "Preferred vendor for Tuesday Morning retail chain (3+ years)",
+        "Relationships with LADWP and LADBS for EV charger installations",
+        "Local Nextdoor presence with customer recommendations"
+      ],
+      "hiddenDifferentiators": [
+        "40 years family-owned operation (since 1985)",
+        "100% satisfaction rating (5.0 on Yelp, 5.0 on Angi)",
+        "EV charger installation expertise with LADWP/LADBS relationships",
+        "Specialized knowledge for multi-unit and condo buildings",
+        "Tuesday Morning corporate client relationship demonstrates enterprise service capability"
+      ],
+      "topCompetitors": [
+        {
+          "name": "The Electric Connection",
+          "reason": "40+ years in business, 406 Yelp reviews, larger team (20-30 electricians), strong brand presence, active blog content, owner Kim Hopkins named in marketing"
+        },
+        {
+          "name": "Powell Electric",
+          "reason": "Mentioned as competitor in context"
+        },
+        {
+          "name": "Prime Electric",
+          "reason": "Mentioned as competitor in context"
+        }
+      ],
+      "faqContentPresent": false,
+      "blogPresent": true,
+      "gmbPresent": true,
+      "schemaDetected": false,
+      "recentContent": true,
+      "uniqueStory": "Family-owned since 1985, Branover Contractors leverages 40 years of expertise to serve the Los Angeles area with specialized EV charger installations and relationships with LADWP/LADBS. BuildZoom score of 122 places them in top 1% of California contractors. Strong corporate client relationships (Tuesday Morning) demonstrate enterprise-grade reliability. 100% customer satisfaction across platforms (5.0 rating on Yelp with 88 reviews, 5.0 on Angi).",
+      "aiCited": false,
+      "aero7": {
+        "answerQuality": 6,
+        "entityOptimization": 4,
+        "relevanceFreshness": 7,
+        "optimizationStructure": 5,
+        "voiceAuthenticity": 7,
+        "authoritySignals": 8,
+        "authorityDistribution": 6,
+        "consensusCoCitation": 3,
+        "platformReadiness": 2,
+        "technicalAccessibility": 5,
+        "total": 53
+      },
+      "rawNotes": "STRENGTHS: Verified 40-year family ownership. Exceptional BuildZoom score (122, top 1%) demonstrates legitimacy. 88 Yelp reviews with 5.0 rating. 1,462 building permits confirm substantial work history. Present on Yelp, Angi, LinkedIn, Facebook, Nextdoor. Blog with 10+ electrical education articles. Strong customer testimonials including corporate client (Tuesday Morning). EV charger expertise differentiator. WEAKNESSES: Not appearing in AI-powered searches (ChatGPT, Gemini, Perplexity do not mention Branover when queried for 'best electrician Los Angeles'). AI instead recommends Angi, HomeAdvisor, Thumbtack lead generation platforms. No FAQ page despite being common for home services. Website lacks robust schema markup (no LocalBusiness, Organization, or service schema detected). Limited content distribution beyond owned channels. BBB profile opened only 12/10/2025 (very recent), not accredited. Missing verified Google Business Profile prominence markers. No news coverage or PR. NAP consistency: Address/phone consistent across Yelp (2661 Bronholly Dr, (323) 467-6661), Angi, website, LinkedIn, Facebook - GOOD. robots.txt: Cannot directly verify AI bot access rules without accessing site directly, but site does not block search/indexing based on crawlability shown in search results. No evidence of intentional blocking. PLATFORM VISIBILITY GAP: The Electric Connection appears with 406 Yelp reviews vs Branover's 88, likely algorithmic advantage on Yelp. Electric Connection has extensive blog content (10+ service pages) with strong SEO structure. Neither firm mentioned in direct AI recommendations for 'best electrician Los Angeles' - both are subordinate to aggregator platforms like Angi. SCHEMA/TECHNICAL READINESS: Website loads and is accessible. Title tags and meta descriptions present but basic. No structured data detected for reviews, ratings, services. Mobile responsive. Recent blog updates (Dec 2024) show content freshness. MISSING AI VISIBILITY ELEMENTS: No FAQ pages targeting 'how to' queries that feed AI training data. Blog exists but articles primarily educational about electrical concepts, not 'why hire Branover' or case studies. Limited semantic clustering around brand/service authority. No third-party citations beyond review sites. CONCLUSION: Branover has exceptional operational credentials (BuildZoom top 1%, 40 years, 100% reviews) but minimal AI search visibility and authority distribution. They are discovery-dependent on Yelp/Angi rather than appearing natively in ChatGPT, Gemini, Perplexity responses. The Electric Connection dominates through higher review volume + better SEO structure (blog), not necessarily superior service.",
+      "researchedAt": "2026-04-08T21:30:40.130Z"
+    },
     "reportSlug": "branover-contractors-s8h5",
     "emailDraftId": null,
     "fabricationFlags": [],
@@ -1150,10 +1212,38 @@
       {
         "action": "Queued by Lead Hunter (P1, score: 35.5, outreach-ready: true)",
         "timestamp": "2026-03-09T02:13:45.366Z"
+      },
+      {
+        "action": "Research started (auto-pipeline)",
+        "timestamp": "2026-04-08T21:30:14.350Z"
+      },
+      {
+        "action": "Research completed (AERO-10: 53/100)",
+        "timestamp": "2026-04-08T21:30:40.130Z"
+      },
+      {
+        "action": "Report generation started",
+        "timestamp": "2026-04-08T21:30:40.130Z"
+      },
+      {
+        "action": "Report generated",
+        "timestamp": "2026-04-08T21:32:21.075Z"
+      },
+      {
+        "action": "Fabrication scan: CLEAN",
+        "timestamp": "2026-04-08T21:32:21.075Z"
+      },
+      {
+        "action": "Em-dash scan: 6 found, auto-stripped",
+        "timestamp": "2026-04-08T21:32:21.075Z"
+      },
+      {
+        "action": "Report + OG metadata deployed to production",
+        "timestamp": "2026-04-08T21:32:21.231Z"
       }
     ],
     "createdAt": "2026-03-09T02:13:45.366Z",
-    "updatedAt": "2026-03-09T02:13:45.366Z",
+    "updatedAt": "2026-04-08T21:32:21.075Z",
     "huntSource": "hunt_1773022316078_kn4h",
     "huntScore": 35.5,
     "huntPriority": "P1",
