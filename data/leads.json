@@ -1812,5 +1812,32 @@
     ],
     "huntDifferentiator": "Revolutionary multidisciplinary clinic with MDs, chiropractors, acupuncture, massage, founded 2001, integrated wellness approach",
     "huntOutreachReady": true
+  },
+  {
+    "id": "lead_1775669481214_073jaw",
+    "businessName": "Lucero Homes",
+    "contactFirstName": "Lucero",
+    "contactEmail": "lucerohomes.ca@gmail.com",
+    "websiteUrl": "",
+    "city": "Palmdale, CA",
+    "serviceNiche": "real-estate",
+    "competitorName": "",
+    "reviewCount": null,
+    "rating": null,
+    "notes": "Inbound form submission 2026-04-08. No website found. Likely solo/new agent in Palmdale/Antelope Valley.",
+    "status": "queued",
+    "research": null,
+    "reportSlug": "lucero-homes",
+    "emailDraftId": null,
+    "fabricationFlags": [],
+    "emDashClean": false,
+    "actionLog": [
+      {
+        "action": "Lead created (inbound form submission)",
+        "timestamp": "2026-04-08T17:31:21.214Z"
+      }
+    ],
+    "createdAt": "2026-04-08T17:31:21.215Z",
+    "updatedAt": "2026-04-08T17:31:21.215Z"
   }
 ]
