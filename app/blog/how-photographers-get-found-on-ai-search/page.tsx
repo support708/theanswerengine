@@ -6,9 +6,9 @@ export const dynamic = 'force-static';
 export const dynamicParams = true;
 
 export const metadata: Metadata = {
-  title: 'How Photographers Get Found on AI Search | The Answer Engine',
+  title: 'How Photographers Get Found on AI Search',
   description:
-    'AI platforms like ChatGPT and Perplexity are now the first place couples and clients search for photographers. Learn why certain photographers keep getting recommended and how to become one of them.',
+    'AI platforms are now the first place clients search for photographers. Learn why certain photographers keep getting recommended and how to become one of them.',
   keywords: [
     'photographer AI search',
     'AI visibility photography business',

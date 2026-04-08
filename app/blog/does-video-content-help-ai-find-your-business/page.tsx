@@ -7,7 +7,7 @@ export const dynamic = 'force-static'
 export const dynamicParams = true
 
 const title = 'Does Video Content Help AI Find Your Business'
-const titleWithSuffix = `${title} | The Answer Engine`
+const titleWithSuffix = title
 const description =
   'Video content can help AI platforms find your business, but the relationship is more nuanced than most marketers realize. Here is what the data actually says.'
 const slug = 'does-video-content-help-ai-find-your-business'

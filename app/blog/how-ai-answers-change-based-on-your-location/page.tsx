@@ -7,7 +7,7 @@ export const dynamicParams = true
 
 const title = 'How AI Answers Change Based on Your Location'
 const description =
-  'AI platforms give different answers depending on where the user is located. Learn how ChatGPT, Perplexity, and Google AI use location signals to shape local business recommendations, and what it means for your visibility.'
+  'AI platforms give different answers based on the user\'s location. Learn how ChatGPT and Perplexity use location signals for local business recommendations and what it means for your visibility.'
 const slug = 'how-ai-answers-change-based-on-your-location'
 const publishDate = '2026-04-08'
 
