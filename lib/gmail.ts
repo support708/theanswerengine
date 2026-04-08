@@ -1,6 +1,7 @@
 /**
  * Gmail email templates.
- * Initial outreach + 3 follow-up sequences.
+ * Inbound (form submission) + outbound (prospecting) initial emails.
+ * 3 follow-up sequences shared across both.
  *
  * Follow-up schedule:
  *   Follow-up 1: 3 days after sent (value reminder)
@@ -10,8 +11,101 @@
 
 import type { Lead } from './types';
 
+// --- Outbound (prospecting) templates ---
+
 export function buildEmailSubject(lead: Lead): string {
   return `What AI says when people ask about ${lead.serviceNiche.toLowerCase()} in ${lead.city}`;
+}
+
+// --- Inbound (form submission) templates ---
+
+export function buildInboundEmailSubject(lead: Lead): string {
+  return `Your AI Visibility Report for ${lead.businessName}`;
+}
+
+export function buildInboundEmailBody(lead: Lead): string {
+  const reportUrl = `https://theanswerengine.ai/blindspot/${lead.reportSlug}`;
+  const competitorLine = lead.competitorName
+    ? `Instead, AI platforms are recommending ${lead.competitorName}.`
+    : 'Instead, AI platforms are pointing people toward your competitors.';
+
+  return `${lead.contactFirstName},
+
+Thanks for reaching out through our site. I ran a full AI visibility audit on ${lead.businessName} in ${lead.city}, and I wanted to get the results to you right away.
+
+Here is the short version: when someone asks ChatGPT, Claude, or Google AI for a ${lead.serviceNiche.toLowerCase()} recommendation in ${lead.city}, ${lead.businessName} is not showing up. ${competitorLine}
+
+I put together a detailed visual breakdown of exactly what AI platforms see (and miss) when they evaluate your online presence:
+
+${reportUrl}
+
+The report is yours to keep, no strings attached.
+
+If you want, I can walk you through the findings on a 30-minute Zoom. No pitch, just the data and what it means for your market.
+
+Book a 30-min call: https://calendly.com/theanswerengine-support/30min
+
+-- JB
+The Answer Engine
+(213) 444-2229
+support@theanswerengine.ai`;
+}
+
+export function buildInboundHtmlEmailBody(lead: Lead): string {
+  const reportUrl = `https://theanswerengine.ai/blindspot/${lead.reportSlug}`;
+  const previewUrl = `https://theanswerengine.ai/api/og/${lead.reportSlug}`;
+  const calendlyUrl = 'https://calendly.com/theanswerengine-support/30min';
+  const competitorLine = lead.competitorName
+    ? `Instead, AI platforms are recommending <strong>${lead.competitorName}</strong>.`
+    : 'Instead, AI platforms are pointing people toward your competitors.';
+
+  return `<!DOCTYPE html>
+<html>
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"></head>
+<body style="margin:0;padding:0;font-family:Georgia,serif;font-size:15px;line-height:1.6;color:#1a1a1a;background:#ffffff;">
+<div style="max-width:600px;margin:0 auto;padding:32px 20px;">
+
+<p>${lead.contactFirstName},</p>
+
+<p>Thanks for reaching out through our site. I ran a full AI visibility audit on ${lead.businessName} in ${lead.city}, and I wanted to get the results to you right away.</p>
+
+<p>Here is the short version: when someone asks ChatGPT, Claude, or Google AI for a ${lead.serviceNiche.toLowerCase()} recommendation in ${lead.city}, <strong>${lead.businessName} is not showing up.</strong> ${competitorLine}</p>
+
+<p>I put together a detailed visual breakdown of exactly what AI platforms see (and miss) when they evaluate your online presence:</p>
+
+<!--[if mso]>
+<v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" href="${reportUrl}" style="width:600px;" arcsize="0%" strokecolor="transparent" fillcolor="transparent">
+<v:fill type="frame" src="${previewUrl}" />
+<w:anchorlock/>
+<center style="font-size:0;line-height:0;">&#160;</center>
+</v:roundrect>
+<![endif]-->
+<!--[if !mso]><!-->
+<a href="${reportUrl}" target="_blank" style="display:block;text-decoration:none;margin:24px 0;">
+<img src="${previewUrl}" alt="AI Visibility Report for ${lead.businessName}" width="600" style="width:100%;max-width:600px;height:auto;border-radius:8px;border:1px solid #e0e0e0;display:block;" />
+</a>
+<!--<![endif]-->
+
+<div style="text-align:center;margin:0 0 24px 0;">
+<a href="${reportUrl}" target="_blank" style="display:inline-block;background:#FF6A00;color:#ffffff;font-family:Arial,sans-serif;font-size:16px;font-weight:bold;padding:14px 32px;border-radius:6px;text-decoration:none;letter-spacing:0.5px;">View Your Full Report</a>
+</div>
+
+<p>The report is yours to keep, no strings attached.</p>
+
+<p>If you want, I can walk you through the findings on a 30-minute Zoom. No pitch, just the data and what it means for your market.</p>
+
+<p><a href="${calendlyUrl}" target="_blank" style="color:#FF6A00;font-weight:bold;">Book a 30-min call</a></p>
+
+<p style="margin-top:32px;padding-top:16px;border-top:1px solid #e0e0e0;color:#666;font-size:13px;">
+-- JB<br/>
+The Answer Engine<br/>
+(213) 444-2229<br/>
+support@theanswerengine.ai
+</p>
+
+</div>
+</body>
+</html>`;
 }
 
 export function buildEmailBody(lead: Lead): string {

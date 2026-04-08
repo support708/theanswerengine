@@ -1,22 +1,9 @@
 {
-  "hunters-roofing": {
-    "businessName": "Hunters Roofing",
-    "serviceNiche": "Roofing Contractor",
-    "reviewCount": 89,
-    "score": 32,
-    "topCompetitor": "Roof Repair Specialist",
-    "brandColors": {
-      "primary": "#2EA3F2",
-      "secondary": "#FF7700",
-      "text": "#333333",
-      "background": "#FFFFFF"
-    }
-  },
-  "the-electric-connection-l5nt": {
-    "businessName": "The Electric Connection",
-    "serviceNiche": "Electrician",
-    "reviewCount": 392,
-    "score": 64,
-    "topCompetitor": "Powell Electric"
+  "lucero-homes": {
+    "businessName": "Lucero Homes",
+    "serviceNiche": "real-estate",
+    "reviewCount": 0,
+    "score": 4,
+    "topCompetitor": "Thomas Paulauskas, Keller Williams Realty"
   }
 }

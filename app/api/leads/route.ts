@@ -81,6 +81,7 @@ export async function POST(req: NextRequest) {
     rating,
     notes,
     status: 'queued',
+    source: 'inbound',
     research: null,
     reportSlug: generateSlug(businessName),
     emailDraftId: null,

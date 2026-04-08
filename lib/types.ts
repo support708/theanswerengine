@@ -75,6 +75,8 @@ export interface Lead {
   actionLog: { action: string; timestamp: string }[];
   createdAt: string;
   updatedAt: string;
+  // Lead source tracking
+  source?: 'inbound' | 'outbound';
   // Lead Hunter Bot fields
   huntSource?: string;
   huntScore?: number;

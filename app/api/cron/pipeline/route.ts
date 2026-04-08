@@ -16,7 +16,7 @@ import { callClaudeWithWebSearch, callClaude, extractText, checkRateLimit } from
 import { parseAERO7FromResearch } from '@/lib/aero7-scorer';
 import { getIndustryColors, CALENDLY_URL, REPORT_FOOTER } from '@/lib/report-template';
 import { runFabricationScan, runEmDashScan, stripEmDashes } from '@/lib/fabrication-scan';
-import { buildEmailSubject, buildEmailBody, buildHtmlEmailBody } from '@/lib/gmail';
+import { buildEmailSubject, buildEmailBody, buildHtmlEmailBody, buildInboundEmailSubject, buildInboundEmailBody, buildInboundHtmlEmailBody } from '@/lib/gmail';
 import { sendGmailMessage, isGmailConfigured } from '@/lib/gmail-api';
 import { canSendToday, prepareSendLogFile } from '@/lib/email-scheduler';
 import { notifyPipelineFailure, sendMessage } from '@/lib/telegram';
@@ -584,9 +584,10 @@ Generate the complete HTML now.`;
         if (!reportLive) {
           result.email = 'skipped (report not live yet, will retry next cron)';
         } else {
-          const subject = buildEmailSubject(lead);
-          const body = buildEmailBody(lead);
-          const htmlBody = buildHtmlEmailBody(lead);
+          const isInbound = lead.source === 'inbound';
+          const subject = isInbound ? buildInboundEmailSubject(lead) : buildEmailSubject(lead);
+          const body = isInbound ? buildInboundEmailBody(lead) : buildEmailBody(lead);
+          const htmlBody = isInbound ? buildInboundHtmlEmailBody(lead) : buildHtmlEmailBody(lead);
 
           // Prepare send log entry for batching (no separate commit)
           const sendLogFile = await prepareSendLogFile(lead.id, lead.contactEmail, 'initial');

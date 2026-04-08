@@ -129,6 +129,7 @@ export async function POST(req: NextRequest) {
     rating,
     notes,
     status: 'sent', // Hunter bot leads are already emailed — enter pipeline at 'sent'
+    source: 'outbound',
     research: null,
     reportSlug: body.reportSlug || generateSlug(businessName),
     emailDraftId: null,
