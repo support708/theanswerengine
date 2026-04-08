@@ -303,7 +303,7 @@ Include ALL businesses from the list. Omit any field you cannot verify rather th
         .map(p => ({
           businessName: p.businessName || '',
           contactName: p.contactName,
-          contactEmail: p.contactEmail,
+          contactEmail: sanitizeEmail(p.contactEmail),
           website: p.website,
           phone: p.phone,
           city,
@@ -471,9 +471,9 @@ Include every field you can find. Omit only if truly unfindable after searching.
             prospect.contactName = enrichment.contactName;
           }
           if (enrichment.contactEmail && !prospect.contactEmail) {
-            // Basic email validation
-            if (enrichment.contactEmail.includes('@') && enrichment.contactEmail.includes('.')) {
-              prospect.contactEmail = enrichment.contactEmail;
+            const cleanEmail = sanitizeEmail(enrichment.contactEmail);
+            if (cleanEmail) {
+              prospect.contactEmail = cleanEmail;
             }
           }
           if (enrichment.differentiator && !prospect.differentiator) {
@@ -506,7 +506,7 @@ export function checkOutreachReadiness(prospect: RawProspect): boolean {
     prospect.citationResults.some(r => r.competitorsCited.length > 0);
 
   // Gate 2: Contact enrichment — name + at least one contact method
-  const hasContact = !!prospect.contactName && (!!prospect.contactEmail || !!prospect.phone);
+  const hasContact = !!prospect.contactName && (!!sanitizeEmail(prospect.contactEmail) || !!prospect.phone);
 
   // Gate 3: Template-fillable data — city, niche, and at least one differentiator or pain signal
   const hasTemplateData = !!prospect.city && !!prospect.serviceNiche &&

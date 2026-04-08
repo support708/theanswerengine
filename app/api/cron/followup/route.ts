@@ -9,7 +9,7 @@
 import { NextRequest, NextResponse } from 'next/server';
 import { readLeads, updateLead, getLeadById } from '@/lib/leads';
 import { getFollowUpTemplates } from '@/lib/gmail';
-import { sendGmailMessage, isGmailConfigured } from '@/lib/gmail-api';
+import { sendGmailMessageWithRetry, isGmailConfigured } from '@/lib/gmail-api';
 import { getLeadsDueForFollowUp, canSendToday, logSend } from '@/lib/email-scheduler';
 import { notifyFollowUpFailure } from '@/lib/telegram';
 
@@ -60,12 +60,11 @@ async function handleRequest(req: NextRequest) {
       let messageId = '';
       let threadId = '';
 
-      // Log send BEFORE sending to prevent double-send on crash
-      if (isGmailConfigured() && lead.contactEmail) {
-        await logSend(lead.id, lead.contactEmail, followUpType);
+      let sendError = '';
 
+      if (isGmailConfigured() && lead.contactEmail) {
         try {
-          const result = await sendGmailMessage({
+          const result = await sendGmailMessageWithRetry({
             to: lead.contactEmail,
             subject: templates.subject,
             body: templates.body,
@@ -77,8 +76,16 @@ async function handleRequest(req: NextRequest) {
             threadId = result.threadId;
           }
         } catch (error) {
+          sendError = error instanceof Error ? error.message : String(error);
           console.error(`Follow-up send failed for ${lead.businessName} (${followUpType}):`, error);
         }
+      } else {
+        sendError = !isGmailConfigured() ? 'Gmail not configured' : 'No contact email';
+      }
+
+      // Only log to send-log on confirmed success (don't burn daily slots on failures)
+      if (sent) {
+        await logSend(lead.id, lead.contactEmail, followUpType);
       }
 
       // Update lead status
@@ -91,15 +98,19 @@ async function handleRequest(req: NextRequest) {
             {
               action: sent
                 ? `${followUpType} auto-sent via Gmail (${messageId})`
-                : `${followUpType} send failed, no Gmail configured`,
+                : `${followUpType} send failed: ${sendError || 'Gmail returned null'}`,
               timestamp: new Date().toISOString(),
             },
           ],
         });
 
-        // Only notify on failure
+        // Telegram alert on failure with real error
         if (!sent) {
-          await notifyFollowUpFailure(lead.businessName, followUpType, 'Gmail send failed or not configured');
+          try {
+            await notifyFollowUpFailure(lead.businessName, followUpType, sendError || 'Unknown error');
+          } catch {
+            // Silent — notification failure must not break followup
+          }
         }
       }
 

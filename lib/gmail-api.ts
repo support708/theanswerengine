@@ -167,6 +167,39 @@ export async function sendGmailDraft(draftId: string): Promise<{ messageId: stri
 }
 
 /**
+ * Send an email with automatic retry for transient errors.
+ * Retries up to 3 times on 429/5xx. Throws immediately on 4xx (except 429).
+ */
+const TRANSIENT_CODES = new Set([429, 500, 502, 503, 504]);
+const MAX_GMAIL_RETRIES = 3;
+
+export async function sendGmailMessageWithRetry(
+  options: Parameters<typeof sendGmailMessage>[0],
+): Promise<{ messageId: string; threadId: string } | null> {
+  let lastError: unknown;
+
+  for (let attempt = 1; attempt <= MAX_GMAIL_RETRIES; attempt++) {
+    try {
+      return await sendGmailMessage(options);
+    } catch (err) {
+      lastError = err;
+      const status = (err as { status?: number })?.status;
+      const isTransient = !status || TRANSIENT_CODES.has(status);
+
+      if (!isTransient) throw err; // 400, 401, 403 — don't retry
+
+      if (attempt < MAX_GMAIL_RETRIES) {
+        const waitMs = attempt * 2000;
+        console.warn(`Gmail send attempt ${attempt}/${MAX_GMAIL_RETRIES} failed (${status || 'unknown'}), retrying in ${waitMs}ms`);
+        await new Promise(r => setTimeout(r, waitMs));
+      }
+    }
+  }
+
+  throw lastError;
+}
+
+/**
  * Check if Gmail API credentials are configured.
  */
 export function isGmailConfigured(): boolean {

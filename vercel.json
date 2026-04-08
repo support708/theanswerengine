@@ -24,6 +24,18 @@
     {
       "path": "/api/indexnow",
       "schedule": "17 6 * * *"
+    },
+    {
+      "path": "/api/cron/pipeline",
+      "schedule": "*/30 * * * *"
+    },
+    {
+      "path": "/api/cron/hunt",
+      "schedule": "0 14 * * 1-5"
+    },
+    {
+      "path": "/api/cron/followup",
+      "schedule": "0 15 * * 1-5"
     }
   ]
 }
