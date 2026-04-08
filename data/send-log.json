@@ -36,6 +36,12 @@
       "email": "service@electricconnection.com",
       "type": "initial",
       "sentAt": "2026-04-08T19:20:37.117Z"
+    },
+    {
+      "leadId": "lead_1773022425366_898tpo",
+      "email": "office@goprimeelectric.com",
+      "type": "initial",
+      "sentAt": "2026-04-08T21:00:17.138Z"
     }
   ]
 }
