@@ -943,20 +943,118 @@
     "reviewCount": 400,
     "rating": 4.9,
     "notes": "Auto-discovered by Lead Hunter. AI citation: not cited on 0/1 platforms. Competitors cited: The Electric Connection, Powell Electric, East West Electric. Outreach-ready: YES (citation data + contact + differentiator verified). Differentiator: Operating since 1985 (40+ years), A+ BBB rating, family-owned, 400+ five-star reviews, BuildZoom score of 117 (top 1%)",
-    "status": "queued",
-    "research": null,
+    "status": "report_ready",
+    "research": {
+      "reviewCount": 400,
+      "rating": 4.9,
+      "yearsInBusiness": 40,
+      "credentials": [
+        "California Contractors State License #484543",
+        "Licensed, Insured, Bonded",
+        "$2,000,000 Liability Insurance Policy",
+        "A+ Better Business Bureau Rating",
+        "BBB Accredited Since 2020"
+      ],
+      "awards": [
+        "A+ BBB Rating",
+        "BuildZoom Score 92 (top 32% of contractors)",
+        "400+ Five-Star Reviews across platforms"
+      ],
+      "communityInvolvement": [
+        "Nextdoor featured business with 8 favorites in Reseda community",
+        "Active on Nextdoor with community recommendations",
+        "Family-owned operating since 1985",
+        "Mentioned in local community discussions as 'hidden gem'"
+      ],
+      "hiddenDifferentiators": [
+        "Operating since 1985 (40+ years of experience)",
+        "Family-owned and operated with no sub-contractors",
+        "In-house certified electricians only",
+        "Limited lifetime warranty on all work",
+        "Never had insurance claim or customer complaint since 1985",
+        "Free over-the-phone estimates",
+        "95%+ conversion rate on evaluation visits",
+        "Owner Ben Borenstein personally manages operations"
+      ],
+      "topCompetitors": [
+        {
+          "name": "The Electric Connection",
+          "reason": "40+ years in business, 406 Yelp reviews, A+ BBB, primary mention in AI search recommendations"
+        },
+        {
+          "name": "Powell Electric",
+          "reason": "40+ years in business, 737 Yelp reviews, established 1971, frequently cited in searches"
+        },
+        {
+          "name": "East West Electric",
+          "reason": "Mentioned as competitor in Los Angeles market"
+        }
+      ],
+      "faqContentPresent": true,
+      "blogPresent": false,
+      "gmbPresent": true,
+      "schemaDetected": true,
+      "recentContent": true,
+      "uniqueStory": "Founded in 1985 by Ben Borenstein, Prime Electric is a family-owned Los Angeles electrician with 40 years of continuous operation and zero insurance claims or customer complaints. They differentiate through exclusive use of in-house certified electricians (no sub-contractors), lifetime limited warranty guarantees, and a reported 95% conversion rate on evaluation visits. The business emphasizes honest pricing and personal attention from the owner.",
+      "aiCited": false,
+      "aero7": {
+        "answerQuality": 8,
+        "entityOptimization": 6,
+        "relevanceFreshness": 8,
+        "optimizationStructure": 6,
+        "voiceAuthenticity": 8,
+        "authoritySignals": 9,
+        "authorityDistribution": 7,
+        "consensusCoCitation": 5,
+        "platformReadiness": 4,
+        "technicalAccessibility": 5,
+        "total": 66
+      },
+      "rawNotes": "Prime Electric scores well on Authority Signals (9/10) due to verified BBB A+ rating, 40 years operation, $2M liability, contractor license 484543, and claim-free history. Authenticity strong (8/10) with verifiable owner name (Ben Borenstein), specific differentiators, and family-owned narrative supported across multiple platforms. Answer Quality solid (8/10) with direct, snippet-ready content on service pages. Relevance/Freshness high (8/10) with recent site updates (Jan 2026). However, weak points include: Platform Readiness low (4/10) - NOT cited on ChatGPT, Gemini, Perplexity or other AI platforms based on search for 'best electrician Los Angeles'; Technical Accessibility low (5/10) - robots.txt access unverified, NAP has address variations (6924 Canby Ave #106 Reseda CA 91335 vs 4470 W Sunset Blvd Los Angeles vs 908 E 52nd St); Entity Optimization moderate (6/10) with some schema present but not fully audited for depth; Optimization Structure moderate (6/10) with good page hierarchy but repetitive content across service pages; Consensus weak (5/10) - 0 AI platform citations despite strong local presence. Competitors (The Electric Connection, Powell Electric) appear MORE prominently in AI search results and have higher review counts (406-737 vs 400), suggesting Prime Electric underperforms on AI discoverability despite superior operational credentials and founder story. No blog detected. FAQ content exists on service pages. GMB presence confirmed. Site content 2-4 weeks old indicating regular updates.",
+      "researchedAt": "2026-04-08T19:21:07.102Z"
+    },
     "reportSlug": "prime-electric-d12h",
     "emailDraftId": null,
-    "fabricationFlags": [],
+    "fabricationFlags": [
+      "Unverified claim: \"100%\" (not found in research data)"
+    ],
     "emDashClean": false,
     "actionLog": [
       {
         "action": "Queued by Lead Hunter (P2, score: 33.5, outreach-ready: true)",
         "timestamp": "2026-03-09T02:13:45.366Z"
+      },
+      {
+        "action": "Research started (auto-pipeline)",
+        "timestamp": "2026-04-08T19:20:44.938Z"
+      },
+      {
+        "action": "Research completed (AERO-10: 66/100)",
+        "timestamp": "2026-04-08T19:21:07.102Z"
+      },
+      {
+        "action": "Report generation started",
+        "timestamp": "2026-04-08T19:21:07.102Z"
+      },
+      {
+        "action": "Report generated",
+        "timestamp": "2026-04-08T19:22:37.776Z"
+      },
+      {
+        "action": "Fabrication scan: 1 flags",
+        "timestamp": "2026-04-08T19:22:37.776Z"
+      },
+      {
+        "action": "Em-dash scan: 16 found, auto-stripped",
+        "timestamp": "2026-04-08T19:22:37.776Z"
+      },
+      {
+        "action": "Report + OG metadata deployed to production",
+        "timestamp": "2026-04-08T19:22:37.924Z"
       }
     ],
     "createdAt": "2026-03-09T02:13:45.366Z",
-    "updatedAt": "2026-03-09T02:13:45.366Z",
+    "updatedAt": "2026-04-08T19:22:37.776Z",
     "huntSource": "hunt_1773022316078_kn4h",
     "huntScore": 33.5,
     "huntPriority": "P2",

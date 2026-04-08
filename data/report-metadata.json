@@ -25,5 +25,12 @@
     "reviewCount": 0,
     "score": 4,
     "topCompetitor": "Thomas Paulauskas, Paulauskas Realty at Keller Williams Antelope Valley"
+  },
+  "prime-electric-d12h": {
+    "businessName": "Prime Electric",
+    "serviceNiche": "Electrician",
+    "reviewCount": 400,
+    "score": 66,
+    "topCompetitor": "The Electric Connection"
   }
 }
