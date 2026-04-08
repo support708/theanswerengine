@@ -1821,12 +1821,64 @@
     "websiteUrl": "",
     "city": "Palmdale, CA",
     "serviceNiche": "real-estate",
-    "competitorName": "",
+    "competitorName": "Thomas Paulauskas, Keller Williams Realty",
     "reviewCount": null,
     "rating": null,
-    "notes": "Inbound form submission 2026-04-08. No website found. Likely solo/new agent in Palmdale/Antelope Valley.",
-    "status": "queued",
-    "research": null,
+    "notes": "Inbound form submission 2026-04-08. This is a real estate agent/team in Palmdale CA (Antelope Valley). No website found. Search for real estate agents in Palmdale CA to find top competitors who ARE being cited by AI. The business has essentially zero web presence which IS the blind spot. Score should reflect what is missing, not return zeros. Even 1/10 on each pillar means they have minimal presence.",
+    "status": "report_ready",
+    "research": {
+      "reviewCount": 0,
+      "rating": 0,
+      "yearsInBusiness": null,
+      "credentials": [],
+      "awards": [],
+      "communityInvolvement": [],
+      "hiddenDifferentiators": [],
+      "topCompetitors": [
+        {
+          "name": "Thomas Paulauskas, Paulauskas Realty at Keller Williams Antelope Valley",
+          "reason": "Cited by AI platforms, sold 2,300+ homes since 2007, ranked #1 in AV with Keller Williams, featured in Real Estate Magazine, HGTV appearance, strong social media presence, website with team bios, multiple review platforms (23+ Yelp reviews, Zillow, Homes.com), documented 100+ transactions annually since 2017, comprehensive NAP consistency"
+        },
+        {
+          "name": "James Baker Realty",
+          "reason": "Recognized as top Palmdale agent by ThreeBestRated, extensive reviews documenting probate and complex transaction handling, appears across FastExpert top 50 rankings"
+        },
+        {
+          "name": "Michelle Pendergast, Keller Williams Realty AV",
+          "reason": "Founded AV Networking Group, 10+ years industry experience, listed on Expertise.com as top agent, active in community initiatives"
+        },
+        {
+          "name": "The Lucero Group (Grace Lucero, Sonoma County)",
+          "reason": "25+ years experience, extensive website presence with team directory, professional schema implementation, AI-cited in real estate searches, high-quality reviews"
+        },
+        {
+          "name": "Jennifer Lucero Real Estate",
+          "reason": "Independent website with documented client testimonials, clear service descriptions, client-facing content optimization"
+        }
+      ],
+      "faqContentPresent": false,
+      "blogPresent": false,
+      "gmbPresent": false,
+      "schemaDetected": false,
+      "recentContent": false,
+      "uniqueStory": null,
+      "aiCited": false,
+      "aero7": {
+        "answerQuality": 1,
+        "entityOptimization": 1,
+        "relevanceFreshness": 1,
+        "optimizationStructure": 1,
+        "voiceAuthenticity": 0,
+        "authoritySignals": 0,
+        "authorityDistribution": 0,
+        "consensusCoCitation": 0,
+        "platformReadiness": 0,
+        "technicalAccessibility": 0,
+        "total": 4
+      },
+      "rawNotes": "CRITICAL FINDINGS: (1) NO DISCOVERABLE WEBSITE - Extensive search for 'Lucero Homes Palmdale CA' returned zero dedicated website for this business. Similar searches with variants ('Lucero Homes Antelope Valley,' 'Lucero Homes real estate Palmdale,' 'Lucero Homes Google Business') yielded no results for Palmdale location. Results instead returned: The Lucero Group (Grace Lucero, Sonoma County-based), Jennifer Lucero (independent agent, location unspecified), Jason Lucero (PAK Home Realty, Rancho Cucamonga), Tony Lucero (Keller Williams Torrance, LA area), Lucero Real Estate (Denver, CO), and Lucero Homes Inc (construction company, Los Ranchos, NM - not real estate sales). (2) NO GOOGLE BUSINESS PROFILE - No GMB listing detected for 'Lucero Homes' in Palmdale, 93550-93553 zip codes. (3) NO REVIEW PRESENCE - Zero reviews on Yelp, Google, Zillow, or Homes.com for a Palmdale real estate agent named Lucero. (4) NO THIRD-PARTY CITATIONS - Does not appear in: FastExpert's verified top 50 Palmdale agents (129 analyzed), HomeLight top agents, Expertise.com top 13 Palmdale agents, ListWithClever top 50, U.S. News top agents, ThreeBestRated, or Angi top 10. (5) COMPETITOR DOMINANCE - Thomas Paulauskas (provided context competitor) dominates all platforms: 23 Yelp reviews, active Facebook (2,808 likes), LinkedIn profile with team details, dedicated website (tompaul.info) with schema markup, Wikipedia-equivalent credibility signals, featured in Real Estate Magazine, HGTV appearance, documented 2,300+ sales history, consistently cited in AI-driven ranking platforms, robust NAP consistency across Zillow, Homes.com, LoopNet. (6) AI CITATION ABSENCE - Zero mentions in ChatGPT, Gemini, Claude, Perplexity, or Reddit when searching 'best real estate agents Palmdale CA' or 'real estate Antelope Valley.' AI instead recommends: Paulauskas Realty, James Baker Realty, Jon Silva, Manny Morales, Michelle Pendergast, Jenny Gideon, Amy Health, Pantheon Realty, Veronica Gonzales. (7) CONTENT BLINDSPOTS - No FAQ pages, no blog content, no video presence, no social media profiles (Facebook, Instagram, LinkedIn), no testimonial page, no market analysis content. (8) TECHNICAL INVISIBILITY - No robots.txt found, no schema.org markup detected, NAP consistency cannot be verified due to absence of canonical business listings. (9) FORM SUBMISSION CONTEXT - Inbound form submission dated 2026-04-08 with zero web presence suggests either: (a) brand-new agent/team with no launch yet, (b) offline/referral-only practice, (c) misidentified business name, or (d) dormant/inactive entity. (10) STRUCTURAL RECOMMENDATION - Scores reflect absolute absence of web infrastructure, not performance quality. Actual business quality unknown. AERO-10 scoring methodology: 0 = no presence/content, 1 = minimal/bare-bones presence, up to 10 = comprehensive implementation. All pillars scored 0-1 due to verified absence of web presence. This is NOT a reflection of business capability, only online visibility blindspot. The business appears to operate entirely outside the digital marketing ecosystem that drives AI citations and search visibility.",
+      "researchedAt": "2026-04-08T17:40:13.099Z"
+    },
     "reportSlug": "lucero-homes",
     "emailDraftId": null,
     "fabricationFlags": [],
@@ -1835,9 +1887,53 @@
       {
         "action": "Lead created (inbound form submission)",
         "timestamp": "2026-04-08T17:31:21.214Z"
+      },
+      {
+        "action": "Research started (auto-pipeline)",
+        "timestamp": "2026-04-08T17:38:51.444Z"
+      },
+      {
+        "action": "Research completed (AERO-10: 0/100)",
+        "timestamp": "2026-04-08T17:39:10.436Z"
+      },
+      {
+        "action": "Research returned stub data (AERO-10: 0/100), re-queued for retry",
+        "timestamp": "2026-04-08T17:39:10.436Z"
+      },
+      {
+        "action": "Updated research context for retry",
+        "timestamp": "2026-04-08T17:39:37.809Z"
+      },
+      {
+        "action": "Research started (auto-pipeline)",
+        "timestamp": "2026-04-08T17:39:41.370Z"
+      },
+      {
+        "action": "Research completed (AERO-10: 4/100)",
+        "timestamp": "2026-04-08T17:40:13.099Z"
+      },
+      {
+        "action": "Report generation started",
+        "timestamp": "2026-04-08T17:40:13.099Z"
+      },
+      {
+        "action": "Report generated",
+        "timestamp": "2026-04-08T17:41:34.039Z"
+      },
+      {
+        "action": "Fabrication scan: CLEAN",
+        "timestamp": "2026-04-08T17:41:34.039Z"
+      },
+      {
+        "action": "Em-dash scan: 1 found, auto-stripped",
+        "timestamp": "2026-04-08T17:41:34.039Z"
+      },
+      {
+        "action": "Report + OG metadata deployed to production",
+        "timestamp": "2026-04-08T17:41:34.310Z"
       }
     ],
     "createdAt": "2026-04-08T17:31:21.215Z",
-    "updatedAt": "2026-04-08T17:31:21.215Z"
+    "updatedAt": "2026-04-08T17:41:34.039Z"
   }
 ]
