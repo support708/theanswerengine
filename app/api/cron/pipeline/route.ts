@@ -16,7 +16,7 @@ import { callClaudeWithWebSearch, callClaude, extractText, checkRateLimit } from
 import { parseAERO7FromResearch } from '@/lib/aero7-scorer';
 import { getIndustryColors, CALENDLY_URL, REPORT_FOOTER } from '@/lib/report-template';
 import { runFabricationScan, runEmDashScan, stripEmDashes } from '@/lib/fabrication-scan';
-import { buildEmailSubject, buildEmailBody, buildHtmlEmailBody, buildInboundEmailSubject, buildInboundEmailBody, buildInboundHtmlEmailBody } from '@/lib/gmail';
+import { buildEmailSubject, buildEmailBody, buildHtmlEmailBody, buildInboundEmailSubject, buildInboundEmailBody, buildInboundHtmlEmailBody, buildRealEstateEmailSubject, buildRealEstateEmailBody, buildRealEstateHtmlEmailBody } from '@/lib/gmail';
 import { sendGmailMessageWithRetry, isGmailConfigured } from '@/lib/gmail-api';
 import { canSendToday, prepareSendLogFile } from '@/lib/email-scheduler';
 import { notifyPipelineFailure, sendMessage } from '@/lib/telegram';
@@ -586,9 +586,22 @@ Generate the complete HTML now.`;
           result.email = 'skipped (report not live yet, will retry next cron)';
         } else {
           const isInbound = lead.source === 'inbound';
-          const subject = isInbound ? buildInboundEmailSubject(lead) : buildEmailSubject(lead);
-          const body = isInbound ? buildInboundEmailBody(lead) : buildEmailBody(lead);
-          const htmlBody = isInbound ? buildInboundHtmlEmailBody(lead) : buildHtmlEmailBody(lead);
+          const isRealEstate = lead.serviceNiche.toLowerCase().includes('real estate') || lead.serviceNiche.toLowerCase().includes('real-estate');
+
+          let subject: string, body: string, htmlBody: string;
+          if (isInbound) {
+            subject = buildInboundEmailSubject(lead);
+            body = buildInboundEmailBody(lead);
+            htmlBody = buildInboundHtmlEmailBody(lead);
+          } else if (isRealEstate) {
+            subject = buildRealEstateEmailSubject(lead);
+            body = buildRealEstateEmailBody(lead);
+            htmlBody = buildRealEstateHtmlEmailBody(lead);
+          } else {
+            subject = buildEmailSubject(lead);
+            body = buildEmailBody(lead);
+            htmlBody = buildHtmlEmailBody(lead);
+          }
 
           let sent = false;
           let messageId = '';

@@ -108,6 +108,124 @@ support@theanswerengine.ai
 </html>`;
 }
 
+// --- Real Estate vertical templates (references Justin Borges case study) ---
+
+export function buildRealEstateEmailSubject(lead: Lead): string {
+  return `${lead.contactFirstName}, AI is sending your leads to other agents`;
+}
+
+export function buildRealEstateEmailBody(lead: Lead): string {
+  const reportUrl = `https://theanswerengine.ai/blindspot/${lead.reportSlug}`;
+  const caseStudyUrl = 'https://theanswerengine.ai/case-studies/justin-borges';
+  const competitorLine = lead.competitorName
+    ? `When I ran the audit, ${lead.competitorName} came up instead.`
+    : 'When I ran the audit, other agents in your market came up instead.';
+
+  return `${lead.contactFirstName},
+
+I was looking into which real estate agents AI platforms recommend in ${lead.city}, and ${lead.businessName} is not showing up.
+
+${competitorLine}
+
+This matters because more buyers and sellers are starting their search by asking ChatGPT, Claude, or Google AI for agent recommendations. If you are not the answer, someone else is getting that lead.
+
+I actually solved this exact problem for an LA real estate team. They went from zero AI visibility to 8,400+ monthly clicks, 1.1M+ impressions, and 100% AI citation rates for their expertise queries. The full case study with verified Google Search Console data is here:
+
+${caseStudyUrl}
+
+I also put together a free visibility report specifically for ${lead.businessName}, showing exactly what AI sees (and misses) about your online presence:
+
+${reportUrl}
+
+Happy to walk you through both on a quick 30-minute call. No pitch, just the data.
+
+Book a call: https://calendly.com/theanswerengine-support/30min
+
+-- JB
+The Answer Engine
+(213) 444-2229
+support@theanswerengine.ai`;
+}
+
+export function buildRealEstateHtmlEmailBody(lead: Lead): string {
+  const reportUrl = `https://theanswerengine.ai/blindspot/${lead.reportSlug}`;
+  const previewUrl = `https://theanswerengine.ai/api/og/${lead.reportSlug}`;
+  const caseStudyUrl = 'https://theanswerengine.ai/case-studies/justin-borges';
+  const calendlyUrl = 'https://calendly.com/theanswerengine-support/30min';
+  const competitorLine = lead.competitorName
+    ? `When I ran the audit, <strong>${lead.competitorName}</strong> came up instead.`
+    : 'When I ran the audit, other agents in your market came up instead.';
+
+  return `<!DOCTYPE html>
+<html>
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"></head>
+<body style="margin:0;padding:0;font-family:Georgia,serif;font-size:15px;line-height:1.6;color:#1a1a1a;background:#ffffff;">
+<div style="max-width:600px;margin:0 auto;padding:32px 20px;">
+
+<p>${lead.contactFirstName},</p>
+
+<p>I was looking into which real estate agents AI platforms recommend in ${lead.city}, and <strong>${lead.businessName} is not showing up.</strong></p>
+
+<p>${competitorLine}</p>
+
+<p>This matters because more buyers and sellers are starting their search by asking ChatGPT, Claude, or Google AI for agent recommendations. If you are not the answer, someone else is getting that lead.</p>
+
+<p>I actually solved this exact problem for an LA real estate team. They went from zero AI visibility to:</p>
+
+<table style="width:100%;border-collapse:collapse;margin:16px 0;">
+<tr>
+<td style="text-align:center;padding:12px;background:#f8f8f8;border-radius:6px 0 0 6px;">
+<div style="font-size:24px;font-weight:bold;color:#FF6A00;">8,400+</div>
+<div style="font-size:12px;color:#666;">Monthly Clicks</div>
+</td>
+<td style="text-align:center;padding:12px;background:#f8f8f8;">
+<div style="font-size:24px;font-weight:bold;color:#FF6A00;">1.1M+</div>
+<div style="font-size:12px;color:#666;">Impressions</div>
+</td>
+<td style="text-align:center;padding:12px;background:#f8f8f8;border-radius:0 6px 6px 0;">
+<div style="font-size:24px;font-weight:bold;color:#FF6A00;">100%</div>
+<div style="font-size:12px;color:#666;">AI Citation Rate</div>
+</td>
+</tr>
+</table>
+
+<p><a href="${caseStudyUrl}" target="_blank" style="color:#FF6A00;font-weight:bold;">See the full case study (verified GSC data)</a></p>
+
+<p>I also put together a free visibility report specifically for ${lead.businessName}:</p>
+
+<!--[if mso]>
+<v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" href="${reportUrl}" style="width:600px;" arcsize="0%" strokecolor="transparent" fillcolor="transparent">
+<v:fill type="frame" src="${previewUrl}" />
+<w:anchorlock/>
+<center style="font-size:0;line-height:0;">&#160;</center>
+</v:roundrect>
+<![endif]-->
+<!--[if !mso]><!-->
+<a href="${reportUrl}" target="_blank" style="display:block;text-decoration:none;margin:24px 0;">
+<img src="${previewUrl}" alt="AI Visibility Report for ${lead.businessName}" width="600" style="width:100%;max-width:600px;height:auto;border-radius:8px;border:1px solid #e0e0e0;display:block;" />
+</a>
+<!--<![endif]-->
+
+<div style="text-align:center;margin:0 0 24px 0;">
+<a href="${reportUrl}" target="_blank" style="display:inline-block;background:#FF6A00;color:#ffffff;font-family:Arial,sans-serif;font-size:16px;font-weight:bold;padding:14px 32px;border-radius:6px;text-decoration:none;letter-spacing:0.5px;">View Your Full Report</a>
+</div>
+
+<p>Happy to walk you through the findings on a 30-minute call. No pitch, just the data.</p>
+
+<p><a href="${calendlyUrl}" target="_blank" style="color:#FF6A00;font-weight:bold;">Book a 30-min call</a></p>
+
+<p style="margin-top:32px;padding-top:16px;border-top:1px solid #e0e0e0;color:#666;font-size:13px;">
+-- JB<br/>
+The Answer Engine<br/>
+(213) 444-2229<br/>
+support@theanswerengine.ai
+</p>
+
+</div>
+</body>
+</html>`;
+}
+
 export function buildEmailBody(lead: Lead): string {
   const reportUrl = `https://theanswerengine.ai/blindspot/${lead.reportSlug}`;
   const competitorLine = lead.competitorName
