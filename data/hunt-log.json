@@ -104,5 +104,20 @@
     "outreachReadyCount": 5,
     "errors": [],
     "completedAt": "2026-03-09T13:01:29.519Z"
+  },
+  {
+    "id": "hunt_1775681881534_kh3q",
+    "startedAt": "2026-04-08T20:58:01.534Z",
+    "trigger": "manual",
+    "vertical": "Med Spa",
+    "metro": "Los Angeles, CA",
+    "prospectsFound": 10,
+    "p1Queued": 5,
+    "p2Queued": 0,
+    "p3Backlogged": 5,
+    "duplicatesSkipped": 0,
+    "outreachReadyCount": 5,
+    "errors": [],
+    "completedAt": "2026-04-08T20:59:03.860Z"
   }
 ]

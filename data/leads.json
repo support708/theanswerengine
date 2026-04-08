@@ -2042,5 +2042,233 @@
     ],
     "createdAt": "2026-04-08T17:31:21.215Z",
     "updatedAt": "2026-04-08T17:46:35.126Z"
+  },
+  {
+    "id": "lead_1775681943860_l6kcrj",
+    "businessName": "milk + honey spa",
+    "contactFirstName": "Alissa",
+    "contactEmail": "reservations@milkandhoney.com",
+    "websiteUrl": "https://milkandhoneyspa.com",
+    "city": "Los Angeles",
+    "serviceNiche": "Med Spa",
+    "competitorName": "NassifMD Medical Spa",
+    "reviewCount": 174,
+    "rating": 4.8,
+    "notes": "Auto-discovered by Lead Hunter. AI citation: not cited on 1/1 platforms. Competitors cited: NassifMD Medical Spa, Cienega Med Spa, Marina Medspa. Outreach-ready: YES (citation data + contact + differentiator verified). Differentiator: Award-winning spa chain established in 2006 by Alissa Bayer; operates 2 LA locations (Brentwood & Culver City) with full med spa integration including Botox, BBL, Moxi laser treatments",
+    "status": "queued",
+    "research": null,
+    "reportSlug": "milk-honey-spa-69nz",
+    "emailDraftId": null,
+    "fabricationFlags": [],
+    "emDashClean": false,
+    "actionLog": [
+      {
+        "action": "Queued by Lead Hunter (P1, score: 40, outreach-ready: true)",
+        "timestamp": "2026-04-08T20:59:03.859Z"
+      }
+    ],
+    "createdAt": "2026-04-08T20:59:03.859Z",
+    "updatedAt": "2026-04-08T20:59:03.859Z",
+    "huntSource": "hunt_1775681881534_kh3q",
+    "huntScore": 40,
+    "huntPriority": "P1",
+    "huntCitationResults": [
+      {
+        "platform": "chatgpt",
+        "query": "best Med Spa in Los Angeles",
+        "cited": false,
+        "competitorsCited": [
+          "NassifMD Medical Spa",
+          "Cienega Med Spa",
+          "Marina Medspa",
+          "Los Feliz Med Spa",
+          "LA Beauty Skin Center"
+        ]
+      }
+    ],
+    "huntDifferentiator": "Award-winning spa chain established in 2006 by Alissa Bayer; operates 2 LA locations (Brentwood & Culver City) with full med spa integration including Botox, BBL, Moxi laser treatments",
+    "huntOutreachReady": true
+  },
+  {
+    "id": "lead_1775681943860_5y6hdw",
+    "businessName": "NassifMD Medical Spa",
+    "contactFirstName": "Dr.",
+    "contactEmail": "concierge@drpaulnassif.com",
+    "websiteUrl": "https://www.nassifmdmedspa.com",
+    "city": "Los Angeles",
+    "serviceNiche": "Med Spa",
+    "competitorName": "Cienega Med Spa",
+    "reviewCount": 182,
+    "rating": 4.8,
+    "notes": "Auto-discovered by Lead Hunter. AI citation: not cited on 0/1 platforms. Competitors cited: Cienega Med Spa, Marina Medspa, Los Feliz Med Spa. Outreach-ready: YES (citation data + contact + differentiator verified). Differentiator: Founded by world-renowned facial plastic surgeon Dr. Paul Nassif; personal selection of all treatments; featured in Entertainment Tonight, Good Morning America, People Magazine; established 2004",
+    "status": "queued",
+    "research": null,
+    "reportSlug": "nassifmd-medical-spa-2zul",
+    "emailDraftId": null,
+    "fabricationFlags": [],
+    "emDashClean": false,
+    "actionLog": [
+      {
+        "action": "Queued by Lead Hunter (P1, score: 36, outreach-ready: true)",
+        "timestamp": "2026-04-08T20:59:03.860Z"
+      }
+    ],
+    "createdAt": "2026-04-08T20:59:03.860Z",
+    "updatedAt": "2026-04-08T20:59:03.860Z",
+    "huntSource": "hunt_1775681881534_kh3q",
+    "huntScore": 36,
+    "huntPriority": "P1",
+    "huntCitationResults": [
+      {
+        "platform": "chatgpt",
+        "query": "best Med Spa in Los Angeles",
+        "cited": true,
+        "competitorsCited": [
+          "Cienega Med Spa",
+          "Marina Medspa",
+          "Los Feliz Med Spa",
+          "LA Beauty Skin Center"
+        ]
+      }
+    ],
+    "huntDifferentiator": "Founded by world-renowned facial plastic surgeon Dr. Paul Nassif; personal selection of all treatments; featured in Entertainment Tonight, Good Morning America, People Magazine; established 2004",
+    "huntOutreachReady": true
+  },
+  {
+    "id": "lead_1775681943860_bxyck6",
+    "businessName": "Beverly Hills Med Spa",
+    "contactFirstName": "Dr.",
+    "contactEmail": "beverlyhillsmedspa@gmail.com",
+    "websiteUrl": "https://www.beverlyhillsmedspa.com",
+    "city": "Los Angeles",
+    "serviceNiche": "Med Spa",
+    "competitorName": "NassifMD Medical Spa",
+    "reviewCount": 23,
+    "rating": 4.7,
+    "notes": "Auto-discovered by Lead Hunter. AI citation: not cited on 1/1 platforms. Competitors cited: NassifMD Medical Spa, Cienega Med Spa, Marina Medspa. Outreach-ready: YES (citation data + contact + differentiator verified). Differentiator: Established 2017; led by Aesthetic Award-winning surgeon Dr. John Kahen; leading CoolSculpting LA center; patent-pending SmartPRP technology",
+    "status": "queued",
+    "research": null,
+    "reportSlug": "beverly-hills-med-spa-uj6p",
+    "emailDraftId": null,
+    "fabricationFlags": [],
+    "emDashClean": false,
+    "actionLog": [
+      {
+        "action": "Queued by Lead Hunter (P1, score: 36.5, outreach-ready: true)",
+        "timestamp": "2026-04-08T20:59:03.860Z"
+      }
+    ],
+    "createdAt": "2026-04-08T20:59:03.860Z",
+    "updatedAt": "2026-04-08T20:59:03.860Z",
+    "huntSource": "hunt_1775681881534_kh3q",
+    "huntScore": 36.5,
+    "huntPriority": "P1",
+    "huntCitationResults": [
+      {
+        "platform": "chatgpt",
+        "query": "best Med Spa in Los Angeles",
+        "cited": false,
+        "competitorsCited": [
+          "NassifMD Medical Spa",
+          "Cienega Med Spa",
+          "Marina Medspa",
+          "Los Feliz Med Spa",
+          "LA Beauty Skin Center"
+        ]
+      }
+    ],
+    "huntDifferentiator": "Established 2017; led by Aesthetic Award-winning surgeon Dr. John Kahen; leading CoolSculpting LA center; patent-pending SmartPRP technology",
+    "huntOutreachReady": true
+  },
+  {
+    "id": "lead_1775681943860_hgd93b",
+    "businessName": "Los Feliz Med Spa",
+    "contactFirstName": "Dr.",
+    "contactEmail": "reception@losfelizmedspa.com",
+    "websiteUrl": "https://losfelizmedspa.com",
+    "city": "Los Angeles",
+    "serviceNiche": "Med Spa",
+    "competitorName": "NassifMD Medical Spa",
+    "reviewCount": 131,
+    "rating": 4.7,
+    "notes": "Auto-discovered by Lead Hunter. AI citation: not cited on 0/1 platforms. Competitors cited: NassifMD Medical Spa, Cienega Med Spa, Marina Medspa. Outreach-ready: YES (citation data + contact + differentiator verified). Differentiator: Established 2006; Dr. Michele Ware pioneered natural aesthetic approach for 15+ years; highly praised for natural-looking results without overdone appearance; board-certified physicians",
+    "status": "queued",
+    "research": null,
+    "reportSlug": "los-feliz-med-spa-rzjn",
+    "emailDraftId": null,
+    "fabricationFlags": [],
+    "emDashClean": false,
+    "actionLog": [
+      {
+        "action": "Queued by Lead Hunter (P1, score: 36, outreach-ready: true)",
+        "timestamp": "2026-04-08T20:59:03.860Z"
+      }
+    ],
+    "createdAt": "2026-04-08T20:59:03.860Z",
+    "updatedAt": "2026-04-08T20:59:03.860Z",
+    "huntSource": "hunt_1775681881534_kh3q",
+    "huntScore": 36,
+    "huntPriority": "P1",
+    "huntCitationResults": [
+      {
+        "platform": "chatgpt",
+        "query": "best Med Spa in Los Angeles",
+        "cited": true,
+        "competitorsCited": [
+          "NassifMD Medical Spa",
+          "Cienega Med Spa",
+          "Marina Medspa",
+          "LA Beauty Skin Center"
+        ]
+      }
+    ],
+    "huntDifferentiator": "Established 2006; Dr. Michele Ware pioneered natural aesthetic approach for 15+ years; highly praised for natural-looking results without overdone appearance; board-certified physicians",
+    "huntOutreachReady": true
+  },
+  {
+    "id": "lead_1775681943860_dd6x5f",
+    "businessName": "Le Jolie Med Spa",
+    "contactFirstName": "Dr.",
+    "contactEmail": "weho@lejoliespa.com",
+    "websiteUrl": "https://lejoliespa.com",
+    "city": "Los Angeles",
+    "serviceNiche": "Med Spa",
+    "competitorName": "NassifMD Medical Spa",
+    "reviewCount": 274,
+    "rating": 4.8,
+    "notes": "Auto-discovered by Lead Hunter. AI citation: not cited on 1/1 platforms. Competitors cited: NassifMD Medical Spa, Cienega Med Spa, Marina Medspa. Outreach-ready: YES (citation data + contact + differentiator verified). Differentiator: Multiple LA locations (West Hollywood, Studio City); founded by Dr. Rafaeloff and esthetician Sharona Rafaeloff; extensive treatment menu; known for personalized approach and Vanessa's expert care",
+    "status": "queued",
+    "research": null,
+    "reportSlug": "le-jolie-med-spa-14az",
+    "emailDraftId": null,
+    "fabricationFlags": [],
+    "emDashClean": false,
+    "actionLog": [
+      {
+        "action": "Queued by Lead Hunter (P1, score: 40, outreach-ready: true)",
+        "timestamp": "2026-04-08T20:59:03.860Z"
+      }
+    ],
+    "createdAt": "2026-04-08T20:59:03.860Z",
+    "updatedAt": "2026-04-08T20:59:03.860Z",
+    "huntSource": "hunt_1775681881534_kh3q",
+    "huntScore": 40,
+    "huntPriority": "P1",
+    "huntCitationResults": [
+      {
+        "platform": "chatgpt",
+        "query": "best Med Spa in Los Angeles",
+        "cited": false,
+        "competitorsCited": [
+          "NassifMD Medical Spa",
+          "Cienega Med Spa",
+          "Marina Medspa",
+          "Los Feliz Med Spa",
+          "LA Beauty Skin Center"
+        ]
+      }
+    ],
+    "huntDifferentiator": "Multiple LA locations (West Hollywood, Studio City); founded by Dr. Rafaeloff and esthetician Sharona Rafaeloff; extensive treatment menu; known for personalized approach and Vanessa's expert care",
+    "huntOutreachReady": true
   }
 ]
