@@ -995,9 +995,9 @@
         "draftResponse": "Congrats on making this move, and honestly, your financial position is solid for first-time buyers at 25 and 24. Here's what I'd look for in an agent, especially coming off a rough rental experience.\n\nFind someone who listens first and talks second. A good agent will spend time understanding your priorities, not just showing you homes in your price range. Ask potential agents: How do you help first-time buyers navigate inspection findings? What's your process when an offer gets rejected? Their answers matter more than their marketing.\n\nSpecific things to avoid: agents who pressure you toward the highest pre-approval amount (yours is realistic for your income), anyone who won't explain closing costs clearly, and agents who treat this like a sprint rather than finding the right fit.\n\nYour credit score spread is worth addressing before you get too deep. That 680 will affect your rate, so talk to a lender about strategies there. In competitive markets like San Diego, we see buyers weakened by financing questions that could've been solved upfront.\n\nOne more thing: that awful rental experience doesn't mean you'll have the same with buying. The dynamic is completely different when you're the owner and there's a clear transaction structure. An agent worth their salt will make the buying process feel way more transparent than renting ever did.\n\nLook for someone local to your area who knows the neighborhoods, not just the market. They should be able to explain why a home is priced the way it is and what comparable sales actually tell you. That knowledge is what protects you."
       },
       "discoveredAt": "2026-04-08T03:37:01.847Z",
-      "digestSentAt": null,
+      "digestSentAt": "2026-04-08T22:07:28.439Z",
       "telegramSentAt": "2026-04-08T03:37:02.599Z",
-      "status": "pending"
+      "status": "digest_sent"
     },
     {
       "id": "reddit_1775619431074_2ly4i3",
@@ -1022,9 +1022,9 @@
         "draftResponse": "Hey, don't feel stupid at all. You caught something real, and the fact that you're asking questions means you're already protecting yourself better than a lot of first-time buyers do.\n\nLet's break down the PMI piece. On a $145k home, $126/month PMI actually isn't crazy if you put down less than 20%. Here's what matters: PMI isn't forever. Once you hit 20% equity, you can request it gets removed. Some loans auto-drop it at 22%. So if you're building equity fast, this might be temporary friction.\n\nBUT here's the real thing: your lender should've walked you through all of this before closing. That's not rushing, that's their job. A good loan officer explains what you're signing and why, especially PMI. The fact that he's asking for the same PDFs repeatedly tells me he's disorganized, which isn't cool when you're making one of the biggest decisions of your life.\n\nFor future reference, when you're working with an agent and lender, the agent should be your advocate too. We're supposed to make sure you understand what's happening and catch stuff that feels off. I've seen plenty of first-time buyers in San Diego who felt exactly like you do right now, and most of the time a quick conversation with their agent earlier would've changed the approach.\n\nYou're not getting fleeced. You're learning. That counts for something."
       },
       "discoveredAt": "2026-04-08T03:37:11.074Z",
-      "digestSentAt": null,
+      "digestSentAt": "2026-04-08T22:07:28.439Z",
       "telegramSentAt": "2026-04-08T03:37:11.778Z",
-      "status": "pending"
+      "status": "digest_sent"
     },
     {
       "id": "reddit_1775640676426_lsup2p",
@@ -1049,9 +1049,9 @@
         "draftResponse": "You're describing the exact problem we see with most lead generation: volume without context. But here's what gets overlooked in this conversation.\n\nThe platforms that actually move revenue aren't the ones generating lists. They're the ones where your ideal customer is actively searching for the solution you provide. When someone types a problem into ChatGPT or Claude and your business gets recommended, that's not a lead in the traditional sense. That's someone who's already decided they have a problem and is looking for an answer.\n\nThat's the shift happening right now. Businesses that show up in AI search results get visibility to people at the intent stage, not the contact stage. No scraping required. No form fills. Just relevance.\n\nThe agencies still selling spreadsheets of contacts are playing a 2010 game. They're competing on volume because they don't know how to compete on intent. Real qualification happens upstream now. Answer authority in AI search spaces automatically filters for people who are searching for what you solve.\n\nThis is why the frustration is so common. Business owners are buying leads when they should be buying visibility to people who are already looking. Two different games entirely. The metrics look completely different too—you're not measuring contacts generated, you're measuring qualified visibility.\n\nLots of business owners in LA and everywhere else are figuring this out the hard way right now."
       },
       "discoveredAt": "2026-04-08T09:31:16.427Z",
-      "digestSentAt": null,
+      "digestSentAt": "2026-04-08T22:07:29.460Z",
       "telegramSentAt": "2026-04-08T09:31:17.157Z",
-      "status": "pending"
+      "status": "digest_sent"
     },
     {
       "id": "reddit_1775681155728_rsq7f7",
@@ -1076,9 +1076,9 @@
         "draftResponse": "This is the real deal. I manage properties here in Long Beach and maintenance request chaos is one of the biggest operational killers I see. When you've got tenants reaching out across five different channels, your team gets burned out fast, and that admin person you mentioned? They become the bottleneck for everything.\n\nThe mental health piece is huge and often gets overlooked. A frustrated team member makes bad decisions, misses follow-ups, and tenants lose trust. Then you're dealing with complaints and retention issues.\n\nQuick question on your implementation: how does the AI agent handle requests that don't fit neatly into 'plumber' or 'electrician' buckets? Things like tenant complaints about noise, parking issues, or vague 'something's not working' requests? Those tend to be the ones that jam up the system because they need initial triage before routing.\n\nAlso curious how this handles urgent vs. routine priorities. A burst pipe hits different than a slow leak, but they both say 'plumbing issue.' Does your system flag severity automatically or does that still require human judgment on the front end?\n\nThe dashboard consolidation piece sounds solid regardless. One source of truth beats email+SMS+voicemail every single time."
       },
       "discoveredAt": "2026-04-08T20:45:55.728Z",
-      "digestSentAt": null,
+      "digestSentAt": "2026-04-08T22:07:30.314Z",
       "telegramSentAt": "2026-04-08T20:45:56.355Z",
-      "status": "pending"
+      "status": "digest_sent"
     }
   ]
 }
