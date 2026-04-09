@@ -72,6 +72,12 @@
       "email": "roofinfo@biltwell.com",
       "type": "follow_up_1",
       "sentAt": "2026-04-09T16:00:41.344Z"
+    },
+    {
+      "leadId": "lead_1773023912047_h4wfp1",
+      "email": "office@smilela.com",
+      "type": "initial",
+      "sentAt": "2026-04-09T17:30:42.592Z"
     }
   ]
 }

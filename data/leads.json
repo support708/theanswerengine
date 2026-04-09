@@ -1440,7 +1440,7 @@
     "reviewCount": 536,
     "rating": 4.9,
     "notes": "Auto-discovered by Lead Hunter. AI citation: not cited on 0/1 platforms. Competitors cited: Downtown Dental, Larchmont Dental Associates, Westside Dental Associates. Outreach-ready: YES (citation data + contact + differentiator verified). Differentiator: Practicing advanced clinical dentistry since 1997, 4.9-star Google rating, Best of BusinessRate 2025 award recipient, multiple locations, specializes in cosmetic dentistry and AI-powered decay detection",
-    "status": "report_ready",
+    "status": "sent",
     "research": {
       "reviewCount": 536,
       "rating": 4.9,
@@ -1543,10 +1543,14 @@
       {
         "action": "Report + OG metadata deployed to production",
         "timestamp": "2026-04-09T09:02:29.330Z"
+      },
+      {
+        "action": "Initial email auto-sent via Gmail (19d734bd2976b634)",
+        "timestamp": "2026-04-09T17:30:42.592Z"
       }
     ],
     "createdAt": "2026-03-09T02:38:32.047Z",
-    "updatedAt": "2026-04-09T09:02:29.161Z",
+    "updatedAt": "2026-04-09T17:30:42.592Z",
     "huntSource": "hunt_1773023618468_oxni",
     "huntScore": 36,
     "huntPriority": "P1",
