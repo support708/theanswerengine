@@ -46,46 +46,46 @@ const SCAN_STEPS = [
 
 const PREVIEW_RESULTS = [
   {
-    platform: 'PLATFORM: CHATGPT_v4',
+    platform: 'ChatGPT',
     icon: '◎',
     query: 'Query: "Best consulting firms in the area..."',
     response: (
       <>
         Response: Based on current data,{' '}
         <span className="text-[#FF6A00] font-bold underline">
-          STRATOS_CORE_INC
+          Competitor A
         </span>{' '}
         is the most cited authority for...
       </>
     ),
-    status: 'STATUS: CITED_BY_AI',
-    ref: 'SEC_01 // DATA_FIX',
+    status: 'Cited by AI',
+    ref: 'Result',
     variant: 'normal' as const,
   },
   {
-    platform: 'PLATFORM: PERPLEXITY',
+    platform: 'Perplexity',
     icon: '◈',
     query: 'Query: "Top rated services for..."',
     response: (
       <>
         Citations point primarily to{' '}
         <span className="text-[#FF6A00] font-bold underline">
-          OMEGA_DYNAMIC_SYSTEMS
+          Competitor B
         </span>{' '}
         as the market leader...
       </>
     ),
-    status: 'STATUS: CITED_BY_AI',
-    ref: 'SEC_04 // DATA_FIX',
+    status: 'Cited by AI',
+    ref: 'Result',
     variant: 'normal' as const,
   },
   {
-    platform: 'PLATFORM: GOOGLE_AI',
+    platform: 'Google AI Overviews',
     icon: '⚠',
     query: 'Query: "Reliable vendors for..."',
     response: null,
-    status: 'STATUS: VOID_DETECTED',
-    ref: 'SEC_99 // DATA_NULL',
+    status: 'Not Found',
+    ref: 'Not Found',
     variant: 'error' as const,
   },
 ];
@@ -118,7 +118,7 @@ export default function BlindSpotCheckerPage() {
             <div className="lg:col-span-8">
               {/* Tag */}
               <div className="inline-block px-3 py-1 bg-[#353534] text-[#FF6A00] font-mono text-[10px] tracking-widest mb-6 uppercase">
-                THREAT_DETECTION // SCANNING_ENABLED
+                AI Blind Spot Checker // Free Tool
               </div>
 
               <h1 className="font-headline font-black text-5xl md:text-7xl uppercase tracking-tighter leading-[0.9] mb-8">
@@ -154,7 +154,7 @@ export default function BlindSpotCheckerPage() {
                   </span>
                 </div>
                 <div className="absolute bottom-4 right-4 font-mono text-[10px] text-[#FF6A00] tracking-tighter uppercase">
-                  LIVE_INTEL_FEED // 404.99
+                  Live AI Data // Updated Daily
                 </div>
               </div>
             </div>
@@ -170,7 +170,7 @@ export default function BlindSpotCheckerPage() {
             >
               <div className="flex justify-between items-center mb-8 border-b border-white/10 pb-4">
                 <h2 className="font-headline font-bold text-xl uppercase tracking-widest">
-                  INITIATE_SCAN // INPUT_REQUIRED
+                  Check Your Blind Spots
                 </h2>
                 <span className="text-[#FF6A00] font-mono text-sm">[SCAN]</span>
               </div>
@@ -188,7 +188,7 @@ export default function BlindSpotCheckerPage() {
                       id="business-name"
                       name="business"
                       type="text"
-                      placeholder="ENTER_ENTITY_ID"
+                      placeholder="Your business name"
                       className="w-full bg-[#0e0e0e] border border-white/10 focus:border-[#FF6A00] focus:outline-none text-white font-mono py-3 px-4 text-sm placeholder:text-white/20 transition-colors"
                     />
                   </div>
@@ -223,7 +223,7 @@ export default function BlindSpotCheckerPage() {
                       id="city-zip"
                       name="location"
                       type="text"
-                      placeholder="COORDINATES"
+                      placeholder="City, State or ZIP"
                       className="w-full bg-[#0e0e0e] border border-white/10 focus:border-[#FF6A00] focus:outline-none text-white font-mono py-3 px-4 text-sm placeholder:text-white/20 transition-colors"
                     />
                   </div>
@@ -238,7 +238,7 @@ export default function BlindSpotCheckerPage() {
                       id="website-url"
                       name="website"
                       type="url"
-                      placeholder="HTTPS://DATA_SOURCE"
+                      placeholder="https://yourbusiness.com"
                       className="w-full bg-[#0e0e0e] border border-white/10 focus:border-[#FF6A00] focus:outline-none text-white font-mono py-3 px-4 text-sm placeholder:text-white/20 transition-colors"
                     />
                   </div>
@@ -249,7 +249,7 @@ export default function BlindSpotCheckerPage() {
                   className="w-full bg-[#FF6A00] text-black font-headline font-black py-4 px-8 uppercase tracking-widest flex items-center justify-center gap-3 hover:bg-white transition-colors text-lg"
                   style={{ boxShadow: '4px 4px 0px 0px #000000' }}
                 >
-                  EXECUTE SCAN
+                  Run My Free Scan
                   <span aria-hidden="true">&#9655;</span>
                 </button>
               </form>
@@ -276,7 +276,7 @@ export default function BlindSpotCheckerPage() {
         <section className="mb-32">
           <div className="mb-12">
             <h2 className="font-headline font-black text-3xl uppercase tracking-tighter mb-2">
-              SCAN_RESULTS // PREVIEW
+              Sample Results
             </h2>
             <div className="h-1 w-24 bg-[#FF6A00]" />
           </div>
@@ -301,12 +301,11 @@ export default function BlindSpotCheckerPage() {
                     <span className="text-white/40">{card.query}</span>
                     <br />
                     <span className="text-[#ffb4ab] font-bold tracking-widest">
-                      YOUR BUSINESS: NOT_FOUND
+                      Your Business: Not Found
                     </span>
                     <br />
                     <span className="text-white/40 italic">
-                      No specific entity matches your profile in the current
-                      vector space.
+                      AI platforms don&apos;t recognize your business as an authority in your market yet.
                     </span>
                   </div>
                   <div className="flex justify-between items-center font-mono text-[10px]">
@@ -351,7 +350,7 @@ export default function BlindSpotCheckerPage() {
             <span className="text-[#FF6A00]">YOU ARE NOT.</span>
           </div>
           <div className="bg-[#0e0e0e] px-6 py-4 font-mono text-sm border border-white/10 shrink-0">
-            <span className="text-white/40">BUSINESSES_SCANNED_TODAY:</span>
+            <span className="text-white/40">Businesses scanned today:</span>
             <span className="text-[#FF6A00] font-bold ml-2">147</span>
           </div>
         </section>
@@ -366,7 +365,7 @@ export default function BlindSpotCheckerPage() {
             className="absolute top-0 right-0 p-4 font-mono text-black/20 text-8xl font-black select-none pointer-events-none"
             aria-hidden="true"
           >
-            PROTOCOL_X
+            THE ANSWER ENGINE
           </div>
 
           <div className="relative z-10 text-black max-w-4xl">
@@ -374,15 +373,14 @@ export default function BlindSpotCheckerPage() {
               GET YOUR FULL COMPETITIVE AUDIT
             </h2>
             <p className="text-black/80 text-lg md:text-xl font-medium mb-12 max-w-2xl">
-              Stop the bleed. Secure your position in the LLM ecosystem before
-              your territory is permanently annexed by competitors.
+              Don&apos;t let competitors take your AI citations. Claim your territory before competitors lock you out of AI recommendations permanently.
             </p>
             <Link
               href="/contact"
               className="bg-black text-white font-headline font-black py-5 px-12 uppercase tracking-widest text-lg inline-flex items-center gap-4 hover:bg-[#1c1b1b] transition-all"
               style={{ boxShadow: '4px 4px 0px 0px #FF6A00' }}
             >
-              SCHEDULE BRIEFING
+              Book a Free Strategy Call
               <span aria-hidden="true">&#9654;</span>
             </Link>
           </div>

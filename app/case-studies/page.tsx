@@ -14,66 +14,66 @@ export const metadata: Metadata = {
 };
 
 const KPI_STATS = [
-  { val: '34+', label: 'AI_CITATIONS_GENERATED' },
-  { val: '6', label: 'ACTIVE_TERRITORIES' },
-  { val: '67', label: 'AVG_DAYS_TO_FIRST_CITATION' },
-  { val: '4.2x', label: 'AVG_TRAFFIC_MULTIPLIER' },
+  { val: '34+', label: 'AI Citations Generated' },
+  { val: '6', label: 'Active Territories' },
+  { val: '67', label: 'Avg. Days to First Citation' },
+  { val: '4.2x', label: 'Avg. Traffic Multiplier' },
 ];
 
 const CASE_STUDIES = [
   {
-    sector: 'SERVICES_PLUMBING',
-    location: 'SEC_01 // PHOENIX',
+    sector: 'Plumbing',
+    location: 'Phoenix, AZ',
     headline: 'PLUMBER: 0 TO 4 AI CITATIONS IN 67 DAYS',
     citationsPre: '0',
     citationsPost: '4',
-    timeframe: '67_D',
+    timeframe: '67 days',
     detail: 'A residential plumbing company with no online presence. Zero citations at start. AERO-10 entity mapping + answer-layer content pushed them to the top of ChatGPT and Google AI Overviews for emergency plumbing queries in Phoenix.',
   },
   {
-    sector: 'CLIMATE_CONTROL',
-    location: 'SEC_02 // AUSTIN',
+    sector: 'HVAC',
+    location: 'Austin, TX',
     headline: 'HVAC: 120% INCREASE IN SEARCH VISIBILITY',
     citationsPre: '1',
     citationsPost: '7',
-    timeframe: '90_D',
-    detail: 'A mid-size HVAC company already ranking on Google but invisible to AI platforms. Structural authority overhaul and distribution matrix deployment pushed citation count from 1 to 7 across 4 major AI engines.',
+    timeframe: '90 days',
+    detail: 'A mid-size HVAC company already ranking on Google but invisible to AI platforms. A full authority overhaul and content distribution strategy pushed their citation count from 1 to 7 across 4 major AI engines.',
   },
   {
-    sector: 'REAL_ESTATE',
-    location: 'SEC_03 // DENVER',
+    sector: 'Real Estate',
+    location: 'Denver, CO',
     headline: 'AGENCY: DOMINATING LUXURY CONDO QUERIES',
     citationsPre: '0',
     citationsPost: '3',
-    timeframe: '45_D',
+    timeframe: '45 days',
     detail: 'Boutique luxury real estate firm in Denver. Fastest citation capture in the portfolio — 45 days from onboarding to first Perplexity and Claude citations for high-intent buyer queries in the LoDo and Cherry Creek corridors.',
   },
   {
-    sector: 'MEDICAL_DENTAL',
-    location: 'SEC_04 // MIAMI',
+    sector: 'Dental',
+    location: 'Miami, FL',
     headline: 'DENTIST: 5X ROI VIA PERPLEXITY CITATIONS',
     citationsPre: '2',
     citationsPost: '9',
-    timeframe: '120_D',
-    detail: 'Established dental practice with strong local SEO but no AI presence. Voice calibration and platform alignment protocols turned existing authority into 9 AI citations — generating a documented 5x ROI in new patient revenue.',
+    timeframe: '120 days',
+    detail: 'Established dental practice with strong local SEO but no AI presence. Content optimization and platform alignment turned existing authority into 9 AI citations — generating a documented 5x ROI in new patient revenue.',
   },
   {
-    sector: 'LEGAL_INJURY',
-    location: 'SEC_05 // LOS_ANGELES',
-    headline: 'PI_LAW: CAPTURING HIGH-VALUE INTENT DATA',
+    sector: 'Personal Injury Law',
+    location: 'Los Angeles, CA',
+    headline: 'PI LAW: CAPTURING HIGH-VALUE INTENT QUERIES',
     citationsPre: '0',
     citationsPost: '5',
-    timeframe: '80_D',
+    timeframe: '80 days',
     detail: 'Personal injury law firm in Los Angeles. High-value intent queries ($15K–$80K case value). Cluster architecture built around accident types and injury categories. ChatGPT now recommends this firm for 5 distinct high-intent query categories.',
   },
   {
-    sector: 'HOME_SERVICES',
-    location: 'SEC_06 // DALLAS',
+    sector: 'Home Services',
+    location: 'Dallas, TX',
     headline: 'ROOFING: OVERTAKING NATIONAL COMPETITION',
     citationsPre: '1',
     citationsPost: '6',
-    timeframe: '55_D',
-    detail: 'Local roofing contractor competing against Home Depot and national franchise networks for AI citations. Relevance depth and structural authority protocol neutralized the national budget advantage. Local operator now cited above national brands.',
+    timeframe: '55 days',
+    detail: 'Local roofing contractor competing against Home Depot and national franchise networks for AI citations. Deep relevance building and structural authority work neutralized the national budget advantage. This local contractor is now cited above national brands.',
   },
 ];
 
@@ -141,7 +141,7 @@ export default function CaseStudiesPage() {
               <svg className="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={2}>
                 <path strokeLinecap="round" strokeLinejoin="round" d="M10.5 19.5L3 12m0 0l7.5-7.5M3 12h18" />
               </svg>
-              BACK_TO_HOME
+              Back to Home
             </Link>
           </div>
 
@@ -149,7 +149,7 @@ export default function CaseStudiesPage() {
           <div className="flex items-center gap-3 mb-6">
             <span className="w-3 h-3 bg-[#FF6A00]" />
             <span className="font-mono text-[10px] tracking-widest uppercase text-white/40">
-              MISSION_LOGS // DECLASSIFIED
+              Case Studies // Proven Results
             </span>
           </div>
 
@@ -169,13 +169,13 @@ export default function CaseStudiesPage() {
             <p className="text-white/60 text-sm leading-relaxed max-w-xl">
               Measurable results. Real businesses.{' '}
               <span className="text-white border-b border-[#FF6A00]">Zero theory.</span> Every
-              case study below was executed with the same AERO-10 framework — deployed against
+              case study below was executed with the same AERO-10 framework — tested against
               real competition in real markets.
             </p>
             <div className="flex flex-col gap-2 font-mono text-[10px] tracking-widest text-white/40 md:text-right">
               <p>RECORDS: VERIFIED</p>
-              <p>ENCRYPTION: NONE</p>
-              <p>TERMINAL_ACCESS: PUBLIC_READ</p>
+              <p>Access: Public</p>
+              <p>Status: Verified</p>
             </div>
           </div>
         </div>
@@ -204,10 +204,10 @@ export default function CaseStudiesPage() {
         <div className="max-w-7xl mx-auto">
           <div className="flex items-center justify-between mb-16">
             <h2 className="font-headline font-black text-3xl uppercase tracking-tighter">
-              MISSION_ARCHIVE
+              All Case Studies
             </h2>
             <span className="font-mono text-[10px] tracking-widest uppercase text-white/40">
-              FILTER: [ALL_RECORDS]
+              Filter: All
             </span>
           </div>
 
@@ -246,13 +246,13 @@ export default function CaseStudiesPage() {
                 <div className="grid grid-cols-3 gap-4 border-y border-white/5 py-6">
                   <div>
                     <p className="font-mono text-[10px] tracking-widest uppercase text-white/40 mb-2">
-                      CITATIONS_PRE
+                      Citations Before
                     </p>
                     <p className="font-headline font-black text-xl">{cs.citationsPre}</p>
                   </div>
                   <div>
                     <p className="font-mono text-[10px] tracking-widest uppercase text-white/40 mb-2">
-                      CITATIONS_POST
+                      Citations After
                     </p>
                     <p className="font-headline font-black text-xl text-[#FF6A00]">
                       {cs.citationsPost}
@@ -269,7 +269,7 @@ export default function CaseStudiesPage() {
                 {/* Status */}
                 <div className="mt-6">
                   <span className="font-mono text-[10px] tracking-widest uppercase text-[#FF6A00]">
-                    MISSION_STATUS: COMPLETE
+                    Status: Complete
                   </span>
                 </div>
               </div>
@@ -283,11 +283,11 @@ export default function CaseStudiesPage() {
         <div className="max-w-7xl mx-auto">
           <div className="mb-12">
             <span className="font-mono text-[10px] tracking-widest uppercase text-white/40">
-              DEEP_DIVE // FEATURED_INTEL
+              Deep Dive // Featured
             </span>
             <h2 className="font-headline font-black text-4xl uppercase tracking-tighter mt-4">
-              TERMINAL ANALYSIS:{' '}
-              <span className="text-[#FF6A00]">BORGES_REAL_ESTATE</span>
+              Case Study: Borges Real Estate{' '}
+              <span className="text-[#FF6A00]">Team</span>
             </h2>
           </div>
 
@@ -303,7 +303,7 @@ export default function CaseStudiesPage() {
                 {
                   phase: 'PHASE_02: IMPLEMENTATION',
                   active: false,
-                  body: 'AERO-10 content architecture deployed. Schema injection, knowledge graph seeding, and distribution matrix activation across all major AI training pipelines.',
+                  body: 'AERO-10 content architecture implemented. Schema markup, knowledge graph seeding, and content distribution across all major AI platforms.',
                 },
                 {
                   phase: 'PHASE_03: RESULTS',
@@ -329,7 +329,7 @@ export default function CaseStudiesPage() {
             <div className="lg:col-span-8 bg-black p-8 border border-white/5">
               <div className="flex justify-between items-center mb-12">
                 <span className="font-mono text-[10px] tracking-widest uppercase text-white/40">
-                  VISUAL_FEED: DATA_EXTRACTION
+                  Results Chart
                 </span>
                 <div className="flex gap-2">
                   <div className="w-2 h-2 bg-red-500/50" />
@@ -341,7 +341,7 @@ export default function CaseStudiesPage() {
               <div className="grid grid-cols-2 gap-8 mb-8">
                 <div>
                   <p className="font-mono text-[10px] tracking-widest uppercase text-white/40 mb-4">
-                    PRE_INJECTION_AUTHORITY
+                    Before AEO
                   </p>
                   <div className="h-40 flex items-end gap-1">
                     {[10, 15, 12, 8, 18].map((h, i) => (
@@ -355,7 +355,7 @@ export default function CaseStudiesPage() {
                 </div>
                 <div>
                   <p className="font-mono text-[10px] tracking-widest uppercase text-[#FF6A00] mb-4">
-                    POST_TERMINAL_DOMINANCE
+                    After AEO
                   </p>
                   <div className="h-40 flex items-end gap-1">
                     {[40, 65, 85, 95, 100].map((h, i) => (
@@ -371,10 +371,10 @@ export default function CaseStudiesPage() {
 
               <div className="pt-8 border-t border-white/5 flex flex-wrap gap-12">
                 {[
-                  { label: 'MONTHLY_CLICKS', val: '8,400+', orange: true },
-                  { label: 'AI_PLATFORMS_CITING', val: '4', orange: false },
-                  { label: 'AD_SPEND', val: '$0', orange: false },
-                  { label: 'IMPRESSION_VOLUME', val: '1.1M+', orange: false },
+                  { label: 'Monthly Clicks', val: '8,400+', orange: true },
+                  { label: 'AI Platforms Citing', val: '4', orange: false },
+                  { label: 'Ad Spend', val: '$0', orange: false },
+                  { label: 'Impressions', val: '1.1M+', orange: false },
                 ].map((stat) => (
                   <div key={stat.label}>
                     <span className="block font-mono text-[10px] tracking-widest uppercase text-white/40 mb-1">
@@ -405,7 +405,7 @@ export default function CaseStudiesPage() {
             href="/#territory-check"
             className="bg-black text-[#FF6A00] px-12 py-5 font-headline font-black uppercase tracking-tighter text-lg hover:bg-[#131313] transition-colors inline-flex items-center gap-3 whitespace-nowrap"
           >
-            INITIATE AUDIT
+            Get Your Free Audit
             <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={2.5}>
               <path strokeLinecap="round" strokeLinejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3" />
             </svg>

@@ -2,11 +2,11 @@ import type { Metadata } from 'next';
 import Link from 'next/link';
 
 export const metadata: Metadata = {
-  title: 'Contact The Answer Engine — Establish Direct Comms',
+  title: 'Contact The Answer Engine — Get in Touch',
   description: 'Get in touch with The Answer Engine for Answer Engine Optimization services. Schedule your free 30-minute AEO strategy call to dominate AI citations.',
   openGraph: {
-    title: 'Contact The Answer Engine — Establish Direct Comms',
-    description: 'Direct uplink to operational command. Schedule your free 30-minute AEO strategy briefing.',
+    title: 'Contact The Answer Engine — Get in Touch',
+    description: 'Schedule your free 30-minute AEO strategy call. We help local businesses get cited by AI platforms like ChatGPT, Claude, and Google AI Overviews.',
     type: 'website',
     url: 'https://theanswerengine.ai/contact',
     siteName: 'The Answer Engine',
@@ -14,7 +14,7 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary_large_image',
     title: 'Contact The Answer Engine',
-    description: 'Direct uplink to operational command. Schedule your free 30-minute AEO strategy briefing.',
+    description: 'Schedule your free 30-minute AEO strategy call. We help local businesses get cited by AI platforms.',
     creator: '@theanswerengine',
   },
   alternates: {
@@ -108,7 +108,7 @@ export default function ContactPage() {
             <div className="flex items-center gap-2 mb-4">
               <span className="h-px w-8 bg-[#FF6A00]" />
               <p className="font-mono text-xs text-[#FF6A00] tracking-[0.3em] uppercase">
-                COMMS_CHANNEL // SECURE_LINE
+                Get in Touch // Let's Talk
               </p>
             </div>
 
@@ -118,7 +118,7 @@ export default function ContactPage() {
             </h1>
 
             <p className="max-w-2xl text-white/50 text-lg border-l-2 border-white/10 pl-6">
-              Direct uplink to operational command. Ready to dominate AI search? Let&apos;s map your
+              Reach out to our team directly. Ready to dominate AI search? Let&apos;s map your
               90-day plan to get cited by ChatGPT, Claude, Google AI, and Perplexity.
             </p>
           </section>
@@ -132,10 +132,10 @@ export default function ContactPage() {
               {/* Phone Card */}
               <div className="bg-[#2a2a2a] border-l-4 border-[#FF6A00] p-6 relative overflow-hidden">
                 <div className="absolute top-0 right-0 p-2 font-mono text-[8px] text-white/10">
-                  SEC_01 // VOICE_LINK
+                  Phone
                 </div>
                 <p className="font-mono text-[10px] text-[#FF6A00] tracking-widest mb-1 uppercase">
-                  DIRECT_LINE
+                  Call Us
                 </p>
                 <a
                   href="tel:+12134442229"
@@ -149,10 +149,10 @@ export default function ContactPage() {
               {/* Email Card */}
               <div className="bg-[#2a2a2a] border-l-4 border-[#FF6A00] p-6 relative overflow-hidden">
                 <div className="absolute top-0 right-0 p-2 font-mono text-[8px] text-white/10">
-                  SEC_02 // DATA_PACKET
+                  Email
                 </div>
                 <p className="font-mono text-[10px] text-[#FF6A00] tracking-widest mb-1 uppercase">
-                  ENCRYPTED_CHANNEL
+                  Email Us
                 </p>
                 <a
                   href="mailto:support@theanswerengine.ai"
@@ -166,23 +166,23 @@ export default function ContactPage() {
               {/* Hours Card */}
               <div className="bg-[#2a2a2a] border-l-4 border-[#FF6A00] p-6 relative overflow-hidden">
                 <div className="absolute top-0 right-0 p-2 font-mono text-[8px] text-white/10">
-                  SEC_03 // OP_WINDOW
+                  Hours
                 </div>
                 <p className="font-mono text-[10px] text-[#FF6A00] tracking-widest mb-1 uppercase">
-                  OPERATIONAL_WINDOW
+                  Business Hours
                 </p>
                 <p className="text-2xl font-bold font-['Space_Grotesk'] uppercase text-white">
                   MON&ndash;FRI, 9 AM&ndash;6 PM PT
                 </p>
-                <p className="text-sm text-white/40 mt-2">Active across all nodes during standard cycles</p>
+                <p className="text-sm text-white/40 mt-2">Monday – Friday, 9 AM – 6 PM PT</p>
               </div>
 
               {/* System Status */}
               <div className="bg-[#1c1b1b] p-4 flex items-center justify-between border border-white/10">
-                <span className="text-xs font-mono uppercase text-white/30">SYSTEM_STATUS</span>
+                <span className="text-xs font-mono uppercase text-white/30">Status</span>
                 <span className="text-xs font-mono text-green-400 flex items-center gap-2">
                   <span className="w-2 h-2 bg-green-400 animate-pulse inline-block" />
-                  NOMINAL
+                  Online
                 </span>
               </div>
             </div>
@@ -192,7 +192,7 @@ export default function ContactPage() {
               <div className="bg-[#2a2a2a] border-t-4 border-[#FF6A00] p-8 h-full">
                 <div className="mb-8">
                   <p className="font-mono text-[10px] text-[#FF6A00] tracking-widest uppercase mb-3">
-                    FREE_BRIEFING // 30_MIN
+                    Free Strategy Call // 30 Minutes
                   </p>
                   <h2 className="text-3xl font-black font-['Space_Grotesk'] uppercase tracking-tighter leading-tight mb-2">
                     FREE 30-MINUTE{' '}
@@ -242,9 +242,9 @@ export default function ContactPage() {
           {/* Trust Signals */}
           <section className="grid grid-cols-1 md:grid-cols-3 gap-px bg-white/10 border border-white/10 mb-16">
             {[
-              { label: '90-DAY GUARANTEE', sub: 'STATUS: REINFORCED' },
-              { label: 'TERRITORY EXCLUSIVITY', sub: 'STATUS: SECURED' },
-              { label: '24HR RESPONSE', sub: 'STATUS: ACTIVE' },
+              { label: '90-DAY GUARANTEE', sub: '90-Day Guarantee' },
+              { label: 'TERRITORY EXCLUSIVITY', sub: 'Exclusive Territory' },
+              { label: '24HR RESPONSE', sub: 'Results Guaranteed' },
             ].map((item) => (
               <div
                 key={item.label}
@@ -263,7 +263,7 @@ export default function ContactPage() {
             <div className="flex items-center gap-2 mb-8">
               <div className="w-1 h-4 bg-[#FF6A00]" />
               <h3 className="text-xs font-['Space_Grotesk'] font-black tracking-widest uppercase text-white">
-                COMMON_QUERIES
+                Common Questions
               </h3>
             </div>
             <div className="flex flex-col gap-px bg-white/10 border border-white/10">
@@ -307,7 +307,7 @@ export default function ContactPage() {
               >
                 <path strokeLinecap="round" strokeLinejoin="round" d="M10.5 19.5L3 12m0 0l7.5-7.5M3 12h18" />
               </svg>
-              RETURN_TO_BASE
+              Back to Home
             </Link>
           </div>
 

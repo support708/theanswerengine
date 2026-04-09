@@ -126,35 +126,35 @@ export default function RootLayout({
         <section id="contact" className="bg-[#1c1b1b] py-32 px-6 lg:px-24 border-t border-white/10">
           <div className="max-w-7xl mx-auto">
             <div className="mb-16">
-              <span className="font-mono text-[10px] text-[#FF6A00] tracking-widest uppercase block mb-4">COMMS_CHANNEL // SECURE_LINE</span>
+              <span className="font-mono text-[10px] text-[#FF6A00] tracking-widest uppercase block mb-4">Get in Touch // Let&apos;s Talk</span>
               <h2 className="font-headline font-black text-4xl sm:text-5xl lg:text-6xl tracking-tighter uppercase text-[#e5e2e1]">
-                ESTABLISH <span className="text-[#FF6A00]">CONTACT</span>
+                GET IN <span className="text-[#FF6A00]">TOUCH</span>
               </h2>
             </div>
 
             <div className="grid md:grid-cols-3 gap-0 border border-white/10 mb-16">
               <div className="p-8 border-b md:border-b-0 md:border-r border-white/10 bg-[#2a2a2a] border-l-4 border-l-[#FF6A00]">
-                <span className="font-mono text-[10px] text-white/40 tracking-widest uppercase block mb-3">DIRECT_LINE</span>
+                <span className="font-mono text-[10px] text-white/40 tracking-widest uppercase block mb-3">CALL US</span>
                 <a href="tel:+12134442229" className="text-2xl font-headline font-bold text-[#e5e2e1] hover:text-[#FF6A00] transition-colors">
                   (213) 444-2229
                 </a>
               </div>
               <div className="p-8 border-b md:border-b-0 md:border-r border-white/10 bg-[#2a2a2a]">
-                <span className="font-mono text-[10px] text-white/40 tracking-widest uppercase block mb-3">ENCRYPTED_CHANNEL</span>
+                <span className="font-mono text-[10px] text-white/40 tracking-widest uppercase block mb-3">EMAIL</span>
                 <a href="mailto:support@theanswerengine.ai" className="text-lg font-headline font-bold text-[#e5e2e1] hover:text-[#FF6A00] transition-colors break-all">
                   support@theanswerengine.ai
                 </a>
               </div>
               <div className="p-8 bg-[#2a2a2a]">
-                <span className="font-mono text-[10px] text-white/40 tracking-widest uppercase block mb-3">OPERATIONAL_HOURS</span>
+                <span className="font-mono text-[10px] text-white/40 tracking-widest uppercase block mb-3">BUSINESS HOURS</span>
                 <span className="text-lg font-headline font-bold text-[#e5e2e1]">MON-FRI 0900-1800 PT</span>
-                <span className="font-mono text-[10px] text-[#FF6A00] tracking-widest uppercase block mt-2">AVG_RESPONSE: 2.4HRS</span>
+                <span className="font-mono text-[10px] text-[#FF6A00] tracking-widest uppercase block mt-2">AVG RESPONSE: 2.4 HOURS</span>
               </div>
             </div>
 
             <div className="bg-[#131313] border border-white/10 border-l-4 border-l-[#FF6A00] p-12 sm:p-16">
               <h3 className="font-headline font-black text-2xl sm:text-3xl tracking-tighter uppercase text-[#e5e2e1] mb-6">
-                FREE 30-MINUTE STRATEGY BRIEFING
+                FREE 30-MINUTE STRATEGY CALL
               </h3>
               <div className="space-y-4 mb-10 max-w-lg">
                 {[
@@ -173,16 +173,16 @@ export default function RootLayout({
                   href="tel:+12134442229"
                   className="inline-flex items-center justify-center bg-[#FF6A00] text-black font-black px-10 py-4 tracking-tighter hover:translate-y-[2px] transition-transform font-headline uppercase"
                 >
-                  SCHEDULE BRIEFING
+                  SCHEDULE A CALL
                 </a>
                 <a
                   href="mailto:support@theanswerengine.ai"
                   className="inline-flex items-center justify-center border-2 border-white/20 text-white/60 font-bold px-10 py-4 tracking-tighter hover:bg-white/5 transition-all font-headline uppercase"
                 >
-                  REQUEST INTEL
+                  EMAIL US
                 </a>
               </div>
-              <span className="font-mono text-[10px] text-white/20 tracking-widest uppercase block mt-6">STATUS: ACCEPTING_NEW_OPERATORS</span>
+              <span className="font-mono text-[10px] text-white/20 tracking-widest uppercase block mt-6">NOW ACCEPTING NEW CLIENTS</span>
             </div>
           </div>
         </section>
@@ -190,13 +190,13 @@ export default function RootLayout({
         <footer className="w-full border-t border-white/5 bg-[#131313] relative overflow-hidden">
           <div className="grid grid-cols-1 md:flex md:justify-between items-center px-8 py-4 w-full">
             <div className="font-mono text-[10px] uppercase tracking-widest text-white/40">
-              &copy;{new Date().getFullYear()} SYSTEM_AEO // OPERATIONAL
+              &copy;{new Date().getFullYear()} THE ANSWER ENGINE // AEO
             </div>
             <div className="flex gap-6 mt-2 md:mt-0">
-              <a className="font-mono text-[10px] uppercase tracking-widest text-white/40 hover:text-[#FF6A00] transition-colors" href="/privacy">PROTOCOL</a>
-              <a className="font-mono text-[10px] uppercase tracking-widest text-white/40 hover:text-[#FF6A00] transition-colors" href="/terms">LEGAL</a>
-              <a className="font-mono text-[10px] uppercase tracking-widest text-white/40 hover:text-[#FF6A00] transition-colors" href="/about">CORE</a>
-              <a className="font-mono text-[10px] uppercase tracking-widest text-white/40 hover:text-[#FF6A00] transition-colors" href="/blog">ASSETS</a>
+              <a className="font-mono text-[10px] uppercase tracking-widest text-white/40 hover:text-[#FF6A00] transition-colors" href="/privacy">PRIVACY</a>
+              <a className="font-mono text-[10px] uppercase tracking-widest text-white/40 hover:text-[#FF6A00] transition-colors" href="/terms">TERMS</a>
+              <a className="font-mono text-[10px] uppercase tracking-widest text-white/40 hover:text-[#FF6A00] transition-colors" href="/about">ABOUT</a>
+              <a className="font-mono text-[10px] uppercase tracking-widest text-white/40 hover:text-[#FF6A00] transition-colors" href="/blog">BLOG</a>
             </div>
           </div>
           <div className="absolute bottom-0 right-0 h-1 w-32 bg-[#FF6A00]" />

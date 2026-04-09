@@ -23,43 +23,43 @@ const AERO_10_PILLARS = [
   { num: '07', label: 'Distribution Matrix', score: '76%' },
   { num: '08', label: 'Platform Alignment', score: '92%' },
   { num: '09', label: 'Cluster Architecture', score: '85%' },
-  { num: '10', label: 'Conversion Protocol', score: '99%' },
+  { num: '10', label: 'Conversion Optimization', score: '99%' },
 ];
 
 const TIMELINE = [
   {
-    code: '2012_INITIAL_ENTRY',
-    headline: 'FIELD_OPERATOR',
+    code: '2012 — The Beginning',
+    headline: 'Real Estate Expert',
     body: 'Entered real estate in Los Angeles — the most competitive market in America with 70,000+ active agents. 13+ years and $200M+ in closed transactions followed.',
   },
   {
-    code: '2023_SYSTEM_BUILD',
-    headline: 'PROTOCOL_FORGE',
+    code: '2023 — Building the System',
+    headline: 'AEO Framework Built',
     body: 'Built the AEO system for his own real estate site. Tested every tactic in real market conditions — no simulations, no case studies from other industries.',
   },
   {
-    code: '2024_DOMINANCE_CONFIRMED',
-    headline: 'CITATION_ACHIEVED',
+    code: '2024 — First AI Citations',
+    headline: 'AI Citations Proven',
     body: 'Site ranked as the #1 AI recommendation across ChatGPT, Claude, Perplexity, and Google AI Overviews for high-intent real estate queries in LA County.',
   },
   {
-    code: '2025_FULL_DEPLOY',
-    headline: 'THE_ANSWER_ENGINE',
-    body: 'Founded The Answer Engine to deploy the AERO-10 framework for local service businesses. First clients onboarded. Territory locks activated.',
+    code: '2025 — The Answer Engine Launches',
+    headline: 'The Answer Engine',
+    body: 'Founded The Answer Engine to bring the AERO-10 framework to local service businesses nationwide. First clients onboarded. Territory locks activated.',
   },
 ];
 
 const DIFFERENTIATORS = [
   {
-    tag: 'FIELD_TESTED',
-    body: 'Every protocol in the AERO-10 framework was built on a live business in the most competitive local market in the country. No whiteboard theories. No borrowed case studies. Real money was on the line.',
+    tag: 'Battle-Tested Results',
+    body: 'Every element of the AERO-10 framework was built on a live business in the most competitive local market in the country. No whiteboard theories. No borrowed case studies. Real money was on the line.',
   },
   {
-    tag: 'TERRITORY_LOCK',
+    tag: 'Exclusive Territories',
     body: 'We work with one business per category, per city. Once you claim your territory, it is locked. Competitors cannot buy into the same market. Your advantage compounds permanently.',
   },
   {
-    tag: 'GUARANTEE_PROTOCOL',
+    tag: '90-Day Guarantee',
     body: 'Get cited by at least 2 AI platforms within 90 days or we work for free until you do. You can also take a full refund. The guarantee is hard-coded into every engagement.',
   },
 ];
@@ -119,7 +119,7 @@ export default function AboutPage() {
               <svg className="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={2}>
                 <path strokeLinecap="round" strokeLinejoin="round" d="M10.5 19.5L3 12m0 0l7.5-7.5M3 12h18" />
               </svg>
-              BACK_TO_HOME
+              Back to Home
             </Link>
           </div>
 
@@ -127,7 +127,7 @@ export default function AboutPage() {
           <div className="inline-flex items-center gap-3 mb-8">
             <span className="w-2 h-2 bg-[#FF6A00]" />
             <span className="font-mono text-[10px] tracking-widest uppercase text-[#FF6A00]">
-              OPERATOR_PROFILE // CLEARANCE_LEVEL_MAX
+              About Us // The Answer Engine
             </span>
           </div>
 
@@ -152,9 +152,9 @@ export default function AboutPage() {
               live before calling it a product.
             </p>
             <div className="flex flex-col gap-2 font-mono text-[10px] tracking-widest text-white/40 md:text-right">
-              <p>STATUS: FIELD_TESTED // COMBAT_READY</p>
+              <p>Status: Proven // Results-Driven</p>
               <p>FRAMEWORK: AERO-10 // ACTIVE</p>
-              <p>TERRITORY_LOCKS: AVAILABLE</p>
+              <p>TERRITORIES: AVAILABLE</p>
             </div>
           </div>
         </div>
@@ -164,8 +164,8 @@ export default function AboutPage() {
       <section className="py-32 px-6 lg:px-24 bg-[#131313]">
         <div className="max-w-7xl mx-auto">
           <h2 className="font-headline font-black text-4xl uppercase tracking-tighter mb-16">
-            OPERATOR{' '}
-            <span className="text-[#FF6A00]">TIMELINE</span>
+            Our{' '}
+            <span className="text-[#FF6A00]">Story</span>
           </h2>
 
           {/* Horizontal rule behind cards */}
@@ -269,7 +269,7 @@ export default function AboutPage() {
           <div className="grid md:grid-cols-2 gap-16 items-center">
             <div>
               <span className="font-mono text-[10px] tracking-widest uppercase text-[#FF6A00] mb-4 block">
-                FOUNDER // CLEARANCE_LEVEL_MAX
+                Founder // Justin Borges
               </span>
               <h2 className="font-headline font-black text-5xl uppercase tracking-tighter mb-6 leading-none">
                 JUSTIN<br />BORGES
@@ -282,9 +282,9 @@ export default function AboutPage() {
               </p>
               <div className="grid grid-cols-3 gap-4">
                 {[
-                  { val: '13+', label: 'YEARS_IN_FIELD' },
+                  { val: '13+', label: 'Years in Real Estate' },
                   { val: '$200M+', label: 'TRANSACTIONS' },
-                  { val: '100%', label: 'AI_CITATION_RATE' },
+                  { val: '100%', label: 'AI Citation Rate' },
                 ].map((stat) => (
                   <div key={stat.label} className="border border-white/10 p-4 bg-[#2a2a2a]">
                     <div className="font-headline font-black text-2xl text-white mb-1">
@@ -299,7 +299,7 @@ export default function AboutPage() {
             </div>
             <div className="border border-white/10 bg-[#2a2a2a] p-10 border-l-4 border-l-[#FF6A00]">
               <span className="font-mono text-[10px] tracking-widest uppercase text-white/40 mb-6 block">
-                FIELD_LOG // DIRECT_QUOTE
+                In His Own Words
               </span>
               <blockquote className="text-white/80 text-base leading-relaxed mb-6 italic">
                 &ldquo;I didn&apos;t build this for clients first. I built it for myself because
@@ -320,7 +320,7 @@ export default function AboutPage() {
         <div className="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center gap-12">
           <div>
             <span className="font-mono text-[10px] tracking-widest uppercase text-black/60 mb-4 block">
-              NEXT_STEP // TERRITORY_CHECK
+              Next Step // Check Your Territory
             </span>
             <h2 className="font-headline font-black text-4xl md:text-5xl uppercase tracking-tighter text-black leading-none">
               READY TO BECOME<br />THE ANSWER?

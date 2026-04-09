@@ -66,7 +66,7 @@ const faqs = [
   },
   {
     q: 'What if my competitor already signed up?',
-    a: 'We only work with one business per category per geographic area. One operator per territory. If your territory is claimed, we\'ll tell you upfront — no pitch, no pressure. Check your territory now before a competitor does.'
+    a: 'We only work with one business per category per geographic area. One client per territory. If your territory is claimed, we\'ll tell you upfront — no pitch, no pressure. Check your territory now before a competitor does.'
   },
   {
     q: "What's the investment?",
@@ -189,9 +189,9 @@ export default function Home() {
         "description": "The Answer Engine's 3-step process to make AI platforms trust and cite your business as the authoritative answer.",
         "totalTime": "P90D",
         "step": [
-          { "@type": "HowToStep", "position": 1, "name": "Neural Audit", "text": "Deep-layer analysis of semantic relevance. We test 50+ queries across ChatGPT, Google AI, Claude & Perplexity to map exactly where you're losing.", "url": "https://theanswerengine.ai/#how-it-works" },
-          { "@type": "HowToStep", "position": 2, "name": "Velocity Build", "text": "6 research-backed articles in your voice, structured specifically for AI citation with proper schema markup.", "url": "https://theanswerengine.ai/#how-it-works" },
-          { "@type": "HowToStep", "position": 3, "name": "Kinetic Monitor", "text": "Real-time citation tracking. Watch AI engines start recommending you to prospects asking buying questions.", "url": "https://theanswerengine.ai/#how-it-works" },
+          { "@type": "HowToStep", "position": 1, "name": "AI Visibility Audit", "text": "Deep-layer analysis of semantic relevance. We test 50+ queries across ChatGPT, Google AI, Claude & Perplexity to map exactly where you're losing.", "url": "https://theanswerengine.ai/#how-it-works" },
+          { "@type": "HowToStep", "position": 2, "name": "Authority Content Build", "text": "6 research-backed articles in your voice, structured specifically for AI citation with proper schema markup.", "url": "https://theanswerengine.ai/#how-it-works" },
+          { "@type": "HowToStep", "position": 3, "name": "Citation Monitoring", "text": "Real-time citation tracking. Watch AI engines start recommending you to prospects asking buying questions.", "url": "https://theanswerengine.ai/#how-it-works" },
         ],
       })}} />
 
@@ -228,7 +228,7 @@ export default function Home() {
           {/* Left column — headline + CTAs */}
           <div className="lg:col-span-8">
             <div className="inline-block bg-[#FF6A00] text-black px-3 py-1 font-mono text-[10px] mb-6 tracking-widest uppercase font-bold">
-              PROTOCOL_INITIATED // SYSTEM_READY
+              Answer Engine Optimization // AI Citations
             </div>
 
             <h1 className="font-headline font-black text-6xl md:text-8xl lg:text-9xl leading-[0.85] tracking-tighter uppercase mb-6 text-[#e5e2e1]">
@@ -246,7 +246,7 @@ export default function Home() {
                 href="#territory-check"
                 className="bg-[#FF6A00] text-black font-black px-10 py-5 text-xl tracking-tighter hover:translate-y-[2px] transition-transform font-headline uppercase inline-flex items-center gap-3"
               >
-                DEPLOY PROTOCOL
+                GET STARTED
                 <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={2.5} aria-hidden="true">
                   <path strokeLinecap="round" strokeLinejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3" />
                 </svg>
@@ -255,7 +255,7 @@ export default function Home() {
                 href="#citations"
                 className="border-2 border-white/20 text-[#e5e2e1] font-bold px-10 py-5 text-xl tracking-tighter hover:bg-white/5 hover:border-white/30 transition-all font-headline uppercase"
               >
-                VIEW METRICS
+                SEE RESULTS
               </a>
             </div>
 
@@ -285,7 +285,7 @@ export default function Home() {
               onMouseMove={handleCardMouseMove}
               onMouseLeave={handleCardMouseLeave}
             >
-              <div className="absolute top-4 right-4 font-mono text-[10px] text-white/20 tracking-widest">SEC_01 // LIVE_STREAM</div>
+              <div className="absolute top-4 right-4 font-mono text-[10px] text-white/20 tracking-widest">LIVE // AI Citations</div>
               <h3 className="font-mono text-[10px] text-white/40 tracking-widest uppercase mb-4">Authority Velocity</h3>
               <div className="flex items-baseline gap-2 mb-6">
                 <span className="text-7xl font-headline font-black text-[#FF6A00] leading-none">98%</span>
@@ -296,7 +296,7 @@ export default function Home() {
               </div>
               <div className="grid grid-cols-2 gap-4 border-t border-white/10 pt-6">
                 <div>
-                  <div className="font-mono text-[10px] text-white/40 uppercase tracking-widest mb-1">Index_rate</div>
+                  <div className="font-mono text-[10px] text-white/40 uppercase tracking-widest mb-1">Index Rate</div>
                   <div className="text-xl font-headline font-bold text-[#e5e2e1]">+244%</div>
                 </div>
                 <div>
@@ -342,9 +342,9 @@ export default function Home() {
                     <path strokeLinecap="round" strokeLinejoin="round" d="M9.75 3.104v5.714a2.25 2.25 0 01-.659 1.591L5 14.5M9.75 3.104c-.251.023-.501.05-.75.082m.75-.082a24.301 24.301 0 014.5 0m0 0v5.714c0 .597.237 1.170.659 1.591L19.8 15m-6.75-11.896c.251.023.501.05.75.082M19.8 15l-1.57.393A9.065 9.065 0 0112 15a9.065 9.065 0 00-6.23-.607L5 14.5m14.8.5-2.46 2.46A8.25 8.25 0 0112 19.5a8.25 8.25 0 01-5.84-2.54L5 14.5" />
                   </svg>
                 ),
-                title: 'Neural Audit',
-                desc: 'Deep-layer analysis of semantic relevance across global intelligence clusters. We test 50+ queries to map exactly where you\'re losing to competitors.',
-                status: 'Status: analyzing_data_nodes',
+                title: 'AI Visibility Audit',
+                desc: 'We audit how AI platforms see your business — where you\'re cited, where you\'re missing, and where competitors dominate.',
+                status: 'Status: Auditing your visibility',
                 delay: 0,
               },
               {
@@ -354,9 +354,9 @@ export default function Home() {
                     <path strokeLinecap="round" strokeLinejoin="round" d="M3.75 13.5l10.5-11.25L12 10.5h8.25L9.75 21.75 12 13.5H3.75z" />
                   </svg>
                 ),
-                title: 'Velocity Build',
-                desc: 'Massive-scale injection of high-authority knowledge nodes. 6 research-backed articles structured for AI citation with proper schema markup.',
-                status: 'Status: protocol_deployed',
+                title: 'Authority Content Build',
+                desc: 'We create and optimize authoritative content that AI platforms trust enough to cite as the answer.',
+                status: 'Status: Content deployed',
                 delay: 150,
               },
               {
@@ -366,9 +366,9 @@ export default function Home() {
                     <path strokeLinecap="round" strokeLinejoin="round" d="M3 13.125C3 12.504 3.504 12 4.125 12h2.25c.621 0 1.125.504 1.125 1.125v6.75C7.5 20.496 6.996 21 6.375 21h-2.25A1.125 1.125 0 013 19.875v-6.75zM9.75 8.625c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125v11.25c0 .621-.504 1.125-1.125 1.125h-2.25a1.125 1.125 0 01-1.125-1.125V8.625zM16.5 4.125c0-.621.504-1.125 1.125-1.125h2.25C20.496 3 21 3.504 21 4.125v15.75c0 .621-.504 1.125-1.125 1.125h-2.25a1.125 1.125 0 01-1.125-1.125V4.125z" />
                   </svg>
                 ),
-                title: 'Kinetic Monitor',
-                desc: 'Real-time defensive positioning and adaptive scaling. Track your citation rate. Watch AI start recommending you to prospects with buying intent.',
-                status: 'Status: active_surveillance',
+                title: 'Citation Monitoring',
+                desc: 'We track your citations across ChatGPT, Perplexity, Claude, and Google AI Overviews in real time.',
+                status: 'Status: Monitoring citations',
                 delay: 300,
               },
             ].map((step, i) => (
@@ -409,9 +409,9 @@ export default function Home() {
         <div className="relative z-10 text-center px-6">
           <div className="font-headline font-black text-5xl md:text-8xl lg:text-9xl tracking-[0.15em] uppercase leading-none">
             <div className="flex flex-col md:flex-row gap-4 md:gap-16 items-center justify-center">
-              <span className="text-[#e5e2e1]">PRECISION.</span>
-              <span className="text-[#FF6A00]">POWER.</span>
-              <span className="text-[#e5e2e1]">PROTOCOL.</span>
+              <span className="text-[#e5e2e1]">AUDIT.</span>
+              <span className="text-[#FF6A00]">OPTIMIZE.</span>
+              <span className="text-[#e5e2e1]">DOMINATE.</span>
             </div>
           </div>
           <div className="mt-10 flex justify-center gap-2">
@@ -433,7 +433,7 @@ export default function Home() {
           }`}
         >
           <div className="mb-16">
-            <span className="font-mono text-[10px] text-[#FF6A00] tracking-widest uppercase block mb-4">FIELD_INTEL // VERIFIED_RESULTS</span>
+            <span className="font-mono text-[10px] text-[#FF6A00] tracking-widest uppercase block mb-4">Proven Results // Client Citations</span>
             <h2 className="font-headline font-black text-5xl md:text-6xl tracking-tighter uppercase leading-none text-[#e5e2e1]">
               70,000 AGENTS COMPETING.<br />
               <span className="text-[#FF6A00]">ONE GETS CITED.</span>
@@ -446,9 +446,9 @@ export default function Home() {
           {/* Stat strip */}
           <div className="grid grid-cols-3 gap-0 border border-white/10 mb-16">
             {[
-              { value: '1,000+', label: 'Queries Ranked', status: 'target_acquired' },
-              { value: '70,000+', label: 'Competing Agents', status: 'all_monitored' },
-              { value: '#1', label: 'AI Citation Position', status: 'dominance_achieved' },
+              { value: '1,000+', label: 'Queries Ranked', status: 'verified' },
+              { value: '70,000+', label: 'Competing Agents', status: 'tracked' },
+              { value: '#1', label: 'AI Citation Position', status: 'confirmed' },
             ].map((stat, i) => (
               <div
                 key={i}
@@ -520,7 +520,7 @@ export default function Home() {
 
           {/* Interactive CitationProof demo */}
           <div className="border border-white/10 bg-[#131313] p-8">
-            <div className="font-mono text-[10px] text-[#FF6A00] uppercase tracking-widest mb-6">INTERACTIVE_DEMO // LIVE_SIMULATION</div>
+            <div className="font-mono text-[10px] text-[#FF6A00] uppercase tracking-widest mb-6">Live Demo // See It In Action</div>
             <CitationProof isVisible={citationsAnim.isVisible} />
           </div>
 
@@ -551,12 +551,12 @@ export default function Home() {
           }`}
         >
           <div className="mb-16">
-            <span className="font-mono text-[10px] text-[#FF6A00] tracking-widest uppercase block mb-4">TERRITORY_STATUS // LIVE_MAP</span>
+            <span className="font-mono text-[10px] text-[#FF6A00] tracking-widest uppercase block mb-4">Territory Map // Live Availability</span>
             <h2 className="font-headline font-black text-5xl md:text-6xl tracking-tighter uppercase leading-none text-[#e5e2e1]">
               EXCLUSIVE <span className="text-[#FF6A00]">TERRITORY</span> GRID
             </h2>
             <p className="text-white/50 text-sm leading-relaxed mt-4 max-w-xl">
-              One operator per category, per city. Once claimed, no competitor gets access. Check your territory before they do.
+              One client per category, per city. Once claimed, no competitor gets access. Check your territory before they do.
             </p>
           </div>
 
@@ -592,7 +592,7 @@ export default function Home() {
                   </div>
                   <div className={`h-px w-full ${isClaimed ? 'bg-white/10' : 'bg-[#FF6A00]/40'}`} />
                   <div className={`font-mono text-[10px] tracking-widest uppercase mt-4 ${isClaimed ? 'text-white/30' : 'text-[#FF6A00]'}`}>
-                    {isClaimed ? 'operator_assigned' : 'territory_available'}
+                    {isClaimed ? 'Claimed' : 'Available'}
                   </div>
                 </div>
               );
@@ -633,7 +633,7 @@ export default function Home() {
             <div className="absolute top-0 right-0 w-64 h-64 bg-[radial-gradient(ellipse_at_top_right,rgba(255,106,0,0.08),transparent_70%)] pointer-events-none" aria-hidden="true" />
 
             <div className="relative z-10">
-              <span className="font-mono text-[10px] text-[#FF6A00] tracking-widest uppercase block mb-6">GUARANTEE_PROTOCOL // ZERO_RISK</span>
+              <span className="font-mono text-[10px] text-[#FF6A00] tracking-widest uppercase block mb-6">Our Guarantee // Zero Risk</span>
 
               <h2 className="font-headline font-black text-5xl md:text-7xl tracking-tighter uppercase leading-none text-[#e5e2e1] mb-8">
                 90-DAY CITATION<br />
@@ -665,7 +665,7 @@ export default function Home() {
               </div>
 
               <div className="font-mono text-[10px] text-white/20 tracking-widest uppercase">
-                RISK_LEVEL: ZERO // OPERATOR_PROTECTION: MAXIMUM
+                Risk: Zero // Your investment is protected
               </div>
             </div>
           </div>
@@ -683,9 +683,9 @@ export default function Home() {
           }`}
         >
           <div className="mb-16">
-            <span className="font-mono text-[10px] text-[#FF6A00] tracking-widest uppercase block mb-4">INTEL_BRIEF // CLASSIFIED_FAQ</span>
+            <span className="font-mono text-[10px] text-[#FF6A00] tracking-widest uppercase block mb-4">Common Questions // FAQ</span>
             <h2 className="font-headline font-black text-5xl md:text-6xl tracking-tighter uppercase leading-none text-[#e5e2e1]">
-              COMMON <span className="text-[#FF6A00]">QUERIES</span>
+              FREQUENTLY ASKED <span className="text-[#FF6A00]">QUESTIONS</span>
             </h2>
           </div>
 
@@ -737,7 +737,7 @@ export default function Home() {
       <section className="bg-[#FF6A00] py-24 px-6 lg:px-24">
         <div className="max-w-7xl mx-auto flex flex-col items-center text-center">
           <div className="font-mono text-[10px] uppercase tracking-[0.3em] font-black mb-6 text-black/60">
-            Terminal_Acknowledge_Required
+            Ready to Get Started?
           </div>
           <h2 className="font-headline font-black text-5xl md:text-7xl lg:text-8xl tracking-tighter uppercase mb-12 max-w-4xl leading-none text-black">
             READY TO OVERTAKE THE ALGORITHM?
@@ -746,19 +746,13 @@ export default function Home() {
             href="#territory-check"
             className="bg-black text-[#FF6A00] font-black px-16 py-6 text-2xl tracking-tighter hover:translate-y-[2px] transition-transform font-headline inline-flex items-center gap-4"
           >
-            COMMENCE OPERATIONS
+            Book Your Free Strategy Call
             <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={2.5} aria-hidden="true">
               <path strokeLinecap="round" strokeLinejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" />
             </svg>
           </a>
           <div className="mt-12 font-mono text-xs font-bold tracking-widest flex flex-wrap justify-center items-center gap-6 text-black/50">
-            <span>IP: 192.168.1.101</span>
-            <span className="opacity-40">|</span>
-            <span>LATENCY: 24MS</span>
-            <span className="opacity-40">|</span>
-            <span>ENCRYPTION: AES-256</span>
-            <span className="opacity-40">|</span>
-            <span>PHONE: (213) 444-2229</span>
+            <span>Call us: (213) 444-2229</span>
           </div>
         </div>
       </section>
@@ -769,7 +763,7 @@ export default function Home() {
       <section id="territory-check" className="py-32 px-6 lg:px-24 bg-[#1c1b1b]">
         <div className="max-w-3xl mx-auto">
           <div className="mb-12">
-            <span className="font-mono text-[10px] text-[#FF6A00] tracking-widest uppercase block mb-4">ACCESS_REQUEST // TERRITORY_SCAN</span>
+            <span className="font-mono text-[10px] text-[#FF6A00] tracking-widest uppercase block mb-4">Check Your Territory // Free Scan</span>
             <h2 className="font-headline font-black text-5xl md:text-6xl tracking-tighter uppercase leading-none text-[#e5e2e1]">
               CHECK YOUR <span className="text-[#FF6A00]">TERRITORY</span>
             </h2>
@@ -786,9 +780,9 @@ export default function Home() {
                     <path strokeLinecap="round" strokeLinejoin="round" d="M5 13l4 4L19 7" />
                   </svg>
                 </div>
-                <div className="font-mono text-[10px] text-[#FF6A00] tracking-widest uppercase mb-4">REQUEST_RECEIVED // PROCESSING</div>
+                <div className="font-mono text-[10px] text-[#FF6A00] tracking-widest uppercase mb-4">Request received — we'll be in touch</div>
                 <h3 className="font-headline font-black text-3xl uppercase tracking-tighter text-[#e5e2e1] mb-3">
-                  Territory Scan Initiated
+                  Territory Check Started
                 </h3>
                 <p className="text-white/50 text-sm mb-8">
                   We&apos;ll check your territory and respond within 24 hours.
@@ -864,7 +858,7 @@ export default function Home() {
 
                 {formStatus === 'error' && (
                   <div className="p-4 border border-white/20 bg-white/5 font-mono text-[10px] text-white/50 uppercase tracking-widest text-center">
-                    TRANSMISSION_FAILED // Try again or email support@theanswerengine.ai
+                    Something went wrong. Try again or email support@theanswerengine.ai
                   </div>
                 )}
 
@@ -879,7 +873,7 @@ export default function Home() {
                         <circle className="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="4" />
                         <path className="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z" />
                       </svg>
-                      SCANNING...
+                      Checking...
                     </>
                   ) : (
                     'CHECK AVAILABILITY'
@@ -887,7 +881,7 @@ export default function Home() {
                 </button>
 
                 <p className="font-mono text-[10px] text-white/30 uppercase tracking-widest text-center">
-                  RESPONSE_TIME: 24HRS // NO_SPAM_PROTOCOL: ACTIVE
+                  Response time: 24 hours // No spam, ever
                 </p>
               </form>
             )}

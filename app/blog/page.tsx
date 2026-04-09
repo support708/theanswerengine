@@ -222,9 +222,9 @@ export default function Blog() {
         {/* Hero */}
         <section className="py-32 px-6 lg:px-24 grid-bg">
           <div className="max-w-7xl mx-auto">
-            <span className="font-mono text-[10px] text-[#FF6A00] tracking-widest uppercase block mb-4">INTELLIGENCE_ARCHIVE // OPEN_ACCESS</span>
+            <span className="font-mono text-[10px] text-[#FF6A00] tracking-widest uppercase block mb-4">AEO Blog // Free Resources</span>
             <h1 className="font-headline font-black text-5xl md:text-6xl lg:text-7xl tracking-tighter uppercase text-[#e5e2e1] mb-6">
-              AEO <span className="text-[#FF6A00]">INTELLIGENCE</span> BRIEFINGS
+              AEO <span className="text-[#FF6A00]">Insights & Guides</span>
             </h1>
             <p className="text-white/60 text-lg max-w-2xl leading-relaxed">
               {sortedPosts.length}+ field-tested strategies for dominating AI search results.
@@ -244,7 +244,7 @@ export default function Blog() {
                 }`}
               >
                 <div className="mb-10">
-                  <span className="font-mono text-[10px] text-[#FF6A00] tracking-widest uppercase block mb-3">PRIORITY_INTEL // FEATURED</span>
+                  <span className="font-mono text-[10px] text-[#FF6A00] tracking-widest uppercase block mb-3">Featured Articles</span>
                   <h2 className="font-headline font-black text-3xl tracking-tighter uppercase text-[#e5e2e1]">
                     ESSENTIAL READING
                   </h2>
@@ -340,9 +340,9 @@ export default function Blog() {
             }`}
           >
             <div className="mb-10">
-              <span className="font-mono text-[10px] text-[#FF6A00] tracking-widest uppercase block mb-3">FULL_ARCHIVE // {filteredPosts.length} RECORDS</span>
+              <span className="font-mono text-[10px] text-[#FF6A00] tracking-widest uppercase block mb-3">All Articles // {filteredPosts.length} articles</span>
               <h2 className="font-headline font-black text-3xl tracking-tighter uppercase text-[#e5e2e1] mb-6">
-                ALL BRIEFINGS
+                ALL ARTICLES
               </h2>
 
               {/* Category Filter Tabs */}
@@ -445,7 +445,7 @@ export default function Blog() {
 
           {/* CTA Section */}
           <div className="border border-white/10 border-l-4 border-l-[#FF6A00] p-8 sm:p-12 lg:p-16">
-            <span className="font-mono text-[10px] text-[#FF6A00] tracking-widest uppercase block mb-4">ACTION_REQUIRED</span>
+            <span className="font-mono text-[10px] text-[#FF6A00] tracking-widest uppercase block mb-4">Start Your AEO Journey</span>
             <h2 className="font-headline font-black text-3xl sm:text-4xl tracking-tighter uppercase text-[#e5e2e1] mb-4">
               READY TO GET CITED BY AI?
             </h2>

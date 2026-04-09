@@ -23,14 +23,14 @@ interface Territory {
 }
 
 const TERRITORIES: Territory[] = [
-  { id: 'SEC_01', city: 'AUSTIN, TX', category: 'SOLAR ENERGY', status: 'secured' },
-  { id: 'SEC_02', city: 'PHOENIX, AZ', category: 'LUXURY REAL ESTATE', status: 'available' },
-  { id: 'SEC_03', city: 'DENVER, CO', category: 'PERSONAL INJURY', status: 'secured' },
-  { id: 'SEC_04', city: 'MIAMI, FL', category: 'DENTAL SERVICES', status: 'available' },
-  { id: 'SEC_05', city: 'LOS ANGELES, CA', category: 'ROOFING', status: 'secured' },
-  { id: 'SEC_06', city: 'DALLAS, TX', category: 'HVAC SYSTEMS', status: 'available' },
-  { id: 'SEC_07', city: 'CHICAGO, IL', category: 'PLUMBING', status: 'secured' },
-  { id: 'SEC_08', city: 'SEATTLE, WA', category: 'REAL ESTATE', status: 'available' },
+  { id: '01', city: 'AUSTIN, TX', category: 'SOLAR ENERGY', status: 'secured' },
+  { id: '02', city: 'PHOENIX, AZ', category: 'LUXURY REAL ESTATE', status: 'available' },
+  { id: '03', city: 'DENVER, CO', category: 'PERSONAL INJURY', status: 'secured' },
+  { id: '04', city: 'MIAMI, FL', category: 'DENTAL SERVICES', status: 'available' },
+  { id: '05', city: 'LOS ANGELES, CA', category: 'ROOFING', status: 'secured' },
+  { id: '06', city: 'DALLAS, TX', category: 'HVAC SYSTEMS', status: 'available' },
+  { id: '07', city: 'CHICAGO, IL', category: 'PLUMBING', status: 'secured' },
+  { id: '08', city: 'SEATTLE, WA', category: 'REAL ESTATE', status: 'available' },
 ];
 
 const INDUSTRIES = [
@@ -84,7 +84,7 @@ export default function TerritoryCheckPage() {
             {/* Tag */}
             <div className="inline-block border border-[#FF6A00]/30 px-3 py-1 mb-8">
               <span className="font-mono text-[10px] font-bold tracking-[0.2em] text-[#FF6A00] uppercase">
-                TERRITORY_DEFENSE // PERIMETER_CHECK
+                Territory Check // Is Your Market Available?
               </span>
             </div>
 
@@ -104,7 +104,7 @@ export default function TerritoryCheckPage() {
             <div className="max-w-2xl mx-auto bg-[#2a2a2a] border-t-4 border-[#FF6A00] p-8 shadow-2xl">
               <div className="flex items-center gap-2 mb-6 opacity-60">
                 <span className="font-mono text-[10px] uppercase tracking-widest">
-                  PERIMETER_QUERY // INPUT_COORDINATES
+                  Check Availability
                 </span>
               </div>
 
@@ -116,7 +116,7 @@ export default function TerritoryCheckPage() {
                       htmlFor="industry"
                       className="block font-mono text-[10px] text-white/40 mb-2 uppercase tracking-widest"
                     >
-                      Industry_Type
+                      Your Industry
                     </label>
                     <select
                       id="industry"
@@ -133,7 +133,7 @@ export default function TerritoryCheckPage() {
                       htmlFor="city"
                       className="block font-mono text-[10px] text-white/40 mb-2 uppercase tracking-widest"
                     >
-                      Target_City
+                      Your City
                     </label>
                     <input
                       id="city"
@@ -183,7 +183,7 @@ export default function TerritoryCheckPage() {
                 </span>
                 <span className="flex items-center gap-2">
                   <span className="w-2 h-2 bg-white/20" />
-                  SECURED
+                  Claimed
                 </span>
               </div>
             </div>
@@ -200,7 +200,7 @@ export default function TerritoryCheckPage() {
                         {t.id}
                       </span>
                       <span className="text-white/40 text-sm font-mono">
-                        [LOCK]
+                        Claimed
                       </span>
                     </div>
                     <h3 className="font-headline font-black text-xl mb-1 uppercase tracking-tighter">
@@ -210,7 +210,7 @@ export default function TerritoryCheckPage() {
                       {t.category}
                     </p>
                     <div className="bg-white/10 text-[10px] py-1 text-center font-mono font-bold tracking-widest text-white/40 uppercase">
-                      SECURED
+                      Claimed
                     </div>
                   </div>
                 ) : (
@@ -227,7 +227,7 @@ export default function TerritoryCheckPage() {
                         {t.id}
                       </span>
                       <span className="text-[#FF6A00] text-sm font-mono">
-                        [RADAR]
+                        Available
                       </span>
                     </div>
                     <h3 className="font-headline font-black text-xl mb-1 uppercase tracking-tighter relative z-10">
@@ -260,7 +260,7 @@ export default function TerritoryCheckPage() {
                 aria-hidden="true"
               />
               <span className="font-headline font-black text-2xl text-[#FF6A00] tracking-widest">
-                TERRITORIES_CLAIMED_THIS_MONTH: 23
+                Territories claimed this month: 23
               </span>
             </div>
           </div>
@@ -276,7 +276,7 @@ export default function TerritoryCheckPage() {
               href="/contact"
               className="bg-black text-[#FF6A00] font-headline font-black px-12 py-6 text-xl uppercase tracking-widest hover:bg-[#1c1b1b] transition-all inline-block"
             >
-              SECURE POSITION
+              Claim My Territory
             </Link>
           </div>
         </section>

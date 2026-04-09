@@ -14,10 +14,10 @@ export default function Nav() {
   );
 
   const navLinks = [
-    { label: 'INTEL', paths: ['/', '/tools'], active: isActive(['/', '/tools', '/territory-check']) },
-    { label: 'CORE', paths: ['/about', '/services'], active: isActive(['/about', '/services']) },
-    { label: 'ASSETS', paths: ['/blog', '/case-studies'], active: isActive(['/blog', '/case-studies']) },
-    { label: 'NETWORK', paths: ['/contact'], active: isActive(['/contact']) },
+    { label: 'HOME', paths: ['/', '/tools'], active: isActive(['/', '/tools', '/territory-check']) },
+    { label: 'ABOUT', paths: ['/about', '/services'], active: isActive(['/about', '/services']) },
+    { label: 'BLOG', paths: ['/blog', '/case-studies'], active: isActive(['/blog', '/case-studies']) },
+    { label: 'CONTACT', paths: ['/contact'], active: isActive(['/contact']) },
   ];
 
   return (
@@ -60,7 +60,7 @@ export default function Nav() {
             href="#contact"
             className="hidden md:block bg-[#FF6A00] text-black font-black px-6 py-2 tracking-tighter hover:translate-y-[2px] transition-transform font-headline"
           >
-            IGNITE
+            GET STARTED
           </a>
 
           {/* Mobile hamburger */}
@@ -107,7 +107,7 @@ export default function Nav() {
                 onClick={() => setMobileMenuOpen(false)}
                 className="block bg-[#FF6A00] text-black font-black px-6 py-3 tracking-tighter text-center font-headline"
               >
-                IGNITE
+                GET STARTED
               </a>
             </div>
           </div>

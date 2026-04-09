@@ -4,11 +4,11 @@ import Link from 'next/link';
 export const metadata: Metadata = {
   title: 'Services — Answer Authority Foundation | The Answer Engine',
   description:
-    'Complete AEO deployment protocol designed for total ecosystem dominance. Competitive Audit, AI-Optimized Articles, Schema Implementation, Citation Monitoring, Monthly Reporting, and Territory Protection.',
+    'Complete AEO system for local business dominance. Competitive Audit, AI-Optimized Articles, Schema Implementation, Citation Monitoring, Monthly Reporting, and Territory Protection.',
   openGraph: {
     title: 'AEO Services — Answer Authority Foundation',
     description:
-      'One package. Total territory dominance. The Answer Authority Foundation deploys full AEO infrastructure so AI recommends you — not your competitors.',
+      'One package. Total territory dominance. The Answer Authority Foundation builds full AEO infrastructure so AI recommends you — not your competitors.',
     url: 'https://theanswerengine.ai/services',
   },
 };
@@ -22,7 +22,7 @@ const PACKAGE_ITEMS = [
   {
     icon: '✓',
     title: 'AI-Optimized Articles',
-    desc: 'High-authority content deployment targeting neural-network relevance.',
+    desc: 'Research-backed articles structured for AI citation with proper schema markup.',
   },
   {
     icon: '✓',
@@ -42,7 +42,7 @@ const PACKAGE_ITEMS = [
   {
     icon: '✓',
     title: 'Territory Protection',
-    desc: 'Exclusive category and city lockout protocol for your industry.',
+    desc: 'Exclusive category and city lockout for your industry.',
   },
 ];
 
@@ -50,7 +50,7 @@ const COMPARISON_ROWS = [
   {
     param: 'TARGET ENGINE',
     seo: 'Google/Bing Indices',
-    aeo: 'LLMs / Neural Grids',
+    aeo: 'AI Platforms (ChatGPT, Claude, Perplexity)',
   },
   {
     param: 'CONTENT GOAL',
@@ -65,29 +65,29 @@ const COMPARISON_ROWS = [
   {
     param: 'LATENCY',
     seo: 'Months to Rank',
-    aeo: 'Real-time Injection',
+    aeo: 'Strategic Content Publishing',
   },
   {
     param: 'LONGEVITY',
     seo: 'Algorithm Sensitive',
-    aeo: 'Protocol Immune',
+    aeo: 'Algorithm-Resistant',
   },
 ];
 
 const FAQS = [
   {
     q: 'How does the pricing model work?',
-    a: 'We operate on a deployment-fee basis combined with a monthly maintenance protocol. Our pricing is reflective of the intensive data layering required to achieve Answer Authority within a competitive landscape. Contact our team for a custom quote based on your industry volume.',
+    a: 'We operate on a setup fee combined with a monthly maintenance plan. Our pricing is reflective of the intensive data layering required to achieve Answer Authority within a competitive landscape. Contact our team for a custom quote based on your industry volume.',
     open: true,
   },
   {
     q: 'What industries do you serve?',
-    a: 'We serve high-competition local service industries: real estate, legal, medical, HVAC, plumbing, roofing, solar, dental, and more. If AI models are being asked about your category in your city, we can deploy.',
+    a: 'We serve high-competition local service industries: real estate, legal, medical, HVAC, plumbing, roofing, solar, dental, and more. If AI models are being asked about your category in your city, we can help.',
     open: false,
   },
   {
     q: 'How does territory protection work?',
-    a: 'We accept one client per industry per city. Once you claim a territory, no competitor in your category can become a client in that market. This exclusivity is the core of the AEO_SYSTEM value proposition.',
+    a: 'We accept one client per industry per city. Once you claim a territory, no competitor in your category can become a client in that market. This exclusivity is the core of the AEO value proposition.',
     open: false,
   },
   {
@@ -97,7 +97,7 @@ const FAQS = [
   },
   {
     q: 'What happens post-90 days?',
-    a: 'After the initial 90-day deployment, most clients continue on a monthly maintenance protocol to preserve and expand their entity authority as AI models update. We will review your citation footprint and recommend next-phase strategy.',
+    a: 'After the initial 90-day engagement, most clients continue on a monthly maintenance plan to preserve and expand their entity authority as AI models update. We will review your citation footprint and recommend next-phase strategy.',
     open: false,
   },
 ];
@@ -130,7 +130,7 @@ export default function ServicesPage() {
             {/* Tag */}
             <div className="mb-6 flex items-center gap-4">
               <span className="bg-[#FF6A00]/10 text-[#FF6A00] font-mono text-[10px] px-2 py-1 border border-[#FF6A00]/20 tracking-widest uppercase">
-                SERVICE_MANIFEST // CLASSIFIED
+                Our Services // AEO Packages
               </span>
               <div className="h-[1px] flex-grow bg-white/10" />
             </div>
@@ -141,8 +141,8 @@ export default function ServicesPage() {
             </h1>
 
             <p className="max-w-2xl text-xl md:text-2xl text-white/60 font-light tracking-tight border-l-2 border-[#FF6A00] pl-6">
-              The Answer Authority Foundation — a complete AEO deployment protocol
-              designed for total ecosystem dominance.
+              The Answer Authority Foundation — a complete AEO system
+              designed for total market dominance.
             </p>
           </div>
 
@@ -163,10 +163,10 @@ export default function ServicesPage() {
             <div className="bg-[#2a2a2a] border-l-4 border-t-4 border-[#FF6A00] p-8 md:p-12">
               <div className="flex flex-col md:flex-row justify-between items-start md:items-center mb-12 gap-4">
                 <div className="font-mono text-xl tracking-widest text-[#FF6A00]">
-                  PACKAGE: ANSWER_AUTHORITY_FOUNDATION
+                  Answer Authority Foundation
                 </div>
                 <div className="font-mono text-[10px] text-white/40 uppercase tracking-widest">
-                  ID: 44-01-AEO // SYSTEM_READY
+                  Our Core Package
                 </div>
               </div>
 
@@ -192,7 +192,7 @@ export default function ServicesPage() {
               {/* Package footer */}
               <div className="flex flex-col md:flex-row justify-between items-center pt-8 border-t border-white/10 gap-4">
                 <div className="font-mono text-[10px] tracking-widest text-white/40 uppercase">
-                  DEPLOYMENT_TIMELINE: 90_DAYS // GUARANTEE: ACTIVE
+                  Timeline: 90 Days // Guarantee: Active
                 </div>
                 <div className="flex gap-2">
                   <div className="w-3 h-3 bg-[#FF6A00] animate-pulse" />
@@ -208,7 +208,7 @@ export default function ServicesPage() {
         <section className="py-24 px-6 bg-[#131313]">
           <div className="max-w-5xl mx-auto">
             <h2 className="font-headline font-black text-4xl uppercase mb-12 tracking-tighter border-b border-[#FF6A00]/30 pb-4 inline-block">
-              PROTOCOL COMPARISON
+              AEO VS TRADITIONAL SEO
             </h2>
 
             <div className="overflow-x-auto border border-white/10">
@@ -222,7 +222,7 @@ export default function ServicesPage() {
                       TRADITIONAL SEO
                     </th>
                     <th className="p-4 text-sm tracking-tighter">
-                      AEO_SYSTEM
+                      AEO
                     </th>
                   </tr>
                 </thead>
@@ -297,7 +297,7 @@ export default function ServicesPage() {
                 href="/territory-check"
                 className="bg-black text-white px-12 py-5 font-headline font-black text-xl uppercase tracking-widest hover:translate-x-2 hover:-translate-y-2 transition-transform inline-block"
               >
-                DEPLOY NOW
+                Get Started
               </Link>
             </div>
 
@@ -307,7 +307,7 @@ export default function ServicesPage() {
               aria-hidden="true"
             >
               <div className="whitespace-nowrap font-mono text-[10rem] font-bold text-black transform rotate-12">
-                SECURE_ACCESS SECURE_ACCESS SECURE_ACCESS SECURE_ACCESS
+                THE ANSWER ENGINE THE ANSWER ENGINE THE ANSWER ENGINE THE ANSWER ENGINE
               </div>
             </div>
           </div>
