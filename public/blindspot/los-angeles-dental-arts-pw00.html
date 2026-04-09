@@ -1,0 +1,787 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Blind Spot Report | Los Angeles Dental Arts</title>
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    background: #f8f8f6;
+    color: #1a1a1a;
+    line-height: 1.6;
+  }
+
+  /* HERO */
+  .hero {
+    background: linear-gradient(135deg, #0a0a0a 0%, #1a1a2e 100%);
+    color: #fff;
+    padding: 80px 20px 70px;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .hero::before {
+    content: "";
+    position: absolute;
+    top: -60px; left: -60px;
+    width: 300px; height: 300px;
+    background: radial-gradient(circle, rgba(255,106,0,0.15) 0%, transparent 70%);
+    pointer-events: none;
+  }
+
+  .hero::after {
+    content: "";
+    position: absolute;
+    bottom: -80px; right: -40px;
+    width: 400px; height: 400px;
+    background: radial-gradient(circle, rgba(255,106,0,0.08) 0%, transparent 70%);
+    pointer-events: none;
+  }
+
+  .badge {
+    display: inline-block;
+    background: rgba(255,106,0,0.18);
+    border: 1px solid rgba(255,106,0,0.45);
+    color: #FF6A00;
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    padding: 6px 16px;
+    border-radius: 40px;
+    margin-bottom: 28px;
+  }
+
+  .hero h1 {
+    font-size: clamp(28px, 5vw, 52px);
+    font-weight: 800;
+    line-height: 1.15;
+    max-width: 780px;
+    margin: 0 auto 20px;
+    letter-spacing: -0.5px;
+  }
+
+  .hero h1 span { color: #FF6A00; }
+
+  .hero p {
+    font-size: clamp(15px, 2.5vw, 19px);
+    color: rgba(255,255,255,0.72);
+    max-width: 600px;
+    margin: 0 auto 36px;
+  }
+
+  .hero-meta {
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+    flex-wrap: wrap;
+    font-size: 13px;
+    color: rgba(255,255,255,0.5);
+  }
+
+  .hero-meta span { display: flex; align-items: center; gap: 5px; }
+
+  /* SECTION SHELL */
+  .section { padding: 72px 20px; }
+  .section-inner { max-width: 960px; margin: 0 auto; }
+
+  .section-label {
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 2.5px;
+    text-transform: uppercase;
+    color: #FF6A00;
+    margin-bottom: 10px;
+  }
+
+  .section-title {
+    font-size: clamp(22px, 4vw, 36px);
+    font-weight: 800;
+    line-height: 1.2;
+    margin-bottom: 14px;
+    letter-spacing: -0.3px;
+  }
+
+  .section-sub {
+    font-size: 16px;
+    color: #555;
+    max-width: 620px;
+    margin-bottom: 48px;
+  }
+
+  /* GAP SECTION */
+  .gap-section { background: #fff; }
+
+  .stats-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(190px, 1fr));
+    gap: 24px;
+    margin-bottom: 40px;
+  }
+
+  .stat-card {
+    background: #f8f8f6;
+    border-radius: 16px;
+    padding: 32px 24px;
+    text-align: center;
+    border: 1px solid #ebebeb;
+    transition: transform 0.2s;
+  }
+
+  .stat-card:hover { transform: translateY(-3px); }
+
+  .stat-card .stat-val {
+    font-size: 42px;
+    font-weight: 900;
+    color: #1a1a1a;
+    line-height: 1;
+    margin-bottom: 6px;
+  }
+
+  .stat-card .stat-val span { color: #FF6A00; }
+
+  .stat-card .stat-label {
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    color: #888;
+  }
+
+  .aero-card {
+    background: linear-gradient(135deg, #0a0a0a 0%, #1a1a2e 100%);
+    border-radius: 20px;
+    padding: 40px 36px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    flex-wrap: wrap;
+  }
+
+  .aero-left { flex: 1; min-width: 200px; }
+
+  .aero-left h3 {
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #FF6A00;
+    margin-bottom: 10px;
+  }
+
+  .aero-left p {
+    font-size: 15px;
+    color: rgba(255,255,255,0.65);
+    line-height: 1.7;
+  }
+
+  .aero-score-wrap { text-align: center; flex-shrink: 0; }
+
+  .aero-score-circle {
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    background: conic-gradient(#FF6A00 0deg, #FF6A00 244.8deg, rgba(255,255,255,0.1) 244.8deg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    margin: 0 auto 12px;
+  }
+
+  .aero-score-inner {
+    width: 98px;
+    height: 98px;
+    border-radius: 50%;
+    background: #1a1a2e;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .aero-score-num {
+    font-size: 30px;
+    font-weight: 900;
+    color: #fff;
+    line-height: 1;
+  }
+
+  .aero-score-denom {
+    font-size: 12px;
+    color: rgba(255,255,255,0.5);
+    font-weight: 600;
+  }
+
+  .aero-score-label {
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    color: rgba(255,255,255,0.5);
+  }
+
+  .aero-status {
+    display: inline-block;
+    background: rgba(255,106,0,0.2);
+    border: 1px solid rgba(255,106,0,0.4);
+    color: #FF6A00;
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    padding: 4px 12px;
+    border-radius: 20px;
+    margin-top: 8px;
+  }
+
+  /* AI SEES SECTION */
+  .ai-section { background: #f8f8f6; }
+
+  .terminal {
+    background: #0d0d0d;
+    border-radius: 16px;
+    overflow: hidden;
+    box-shadow: 0 24px 60px rgba(0,0,0,0.18);
+    max-width: 780px;
+    margin: 0 auto;
+  }
+
+  .terminal-bar {
+    background: #1e1e1e;
+    padding: 12px 18px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+
+  .terminal-dot {
+    width: 12px; height: 12px;
+    border-radius: 50%;
+  }
+
+  .dot-red { background: #ff5f57; }
+  .dot-yellow { background: #febc2e; }
+  .dot-green { background: #28c840; }
+
+  .terminal-title {
+    font-size: 12px;
+    color: rgba(255,255,255,0.4);
+    margin-left: 8px;
+    letter-spacing: 1px;
+  }
+
+  .terminal-body { padding: 28px 28px 32px; }
+
+  .chat-row { margin-bottom: 22px; }
+
+  .chat-label {
+    font-size: 10px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-bottom: 8px;
+  }
+
+  .chat-label.user { color: rgba(255,255,255,0.4); }
+  .chat-label.ai { color: #FF6A00; }
+
+  .chat-bubble {
+    display: inline-block;
+    padding: 14px 18px;
+    border-radius: 12px;
+    font-size: 14px;
+    line-height: 1.65;
+    max-width: 100%;
+  }
+
+  .bubble-user {
+    background: #1e1e1e;
+    color: rgba(255,255,255,0.85);
+  }
+
+  .bubble-ai {
+    background: #16162a;
+    color: rgba(255,255,255,0.8);
+    border-left: 3px solid #FF6A00;
+  }
+
+  .bubble-ai .cited {
+    color: #FF6A00;
+    font-weight: 700;
+  }
+
+  .bubble-ai .missing {
+    color: rgba(255,255,255,0.35);
+    font-style: italic;
+  }
+
+  .terminal-warning {
+    background: rgba(255,106,0,0.1);
+    border: 1px solid rgba(255,106,0,0.3);
+    border-radius: 10px;
+    padding: 14px 18px;
+    margin-top: 8px;
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+  }
+
+  .warn-icon { font-size: 16px; flex-shrink: 0; margin-top: 1px; }
+
+  .warn-text { font-size: 13px; color: rgba(255,106,0,0.9); line-height: 1.6; }
+
+  /* DIFFERENTIATORS */
+  .diff-section { background: #fff; }
+
+  .diff-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 24px;
+  }
+
+  .diff-card {
+    background: #f8f8f6;
+    border-radius: 16px;
+    padding: 32px 28px;
+    border: 1px solid #ebebeb;
+    position: relative;
+    transition: box-shadow 0.2s, transform 0.2s;
+  }
+
+  .diff-card:hover {
+    box-shadow: 0 12px 36px rgba(0,0,0,0.09);
+    transform: translateY(-3px);
+  }
+
+  .diff-icon {
+    width: 48px; height: 48px;
+    border-radius: 12px;
+    background: rgba(255,106,0,0.1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 22px;
+    margin-bottom: 18px;
+  }
+
+  .diff-card h3 {
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    color: #1a1a1a;
+  }
+
+  .diff-card p {
+    font-size: 14px;
+    color: #666;
+    line-height: 1.7;
+  }
+
+  .diff-tag {
+    display: inline-block;
+    background: rgba(255,106,0,0.12);
+    color: #FF6A00;
+    font-size: 10px;
+    font-weight: 700;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    padding: 3px 10px;
+    border-radius: 20px;
+    margin-top: 14px;
+  }
+
+  /* THE FIX */
+  .fix-section { background: #0a0a0a; }
+  .fix-section .section-title { color: #fff; }
+  .fix-section .section-sub { color: rgba(255,255,255,0.55); }
+  .fix-section .section-label { color: #FF6A00; }
+
+  .fix-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+  }
+
+  .fix-card {
+    background: rgba(255,255,255,0.04);
+    border: 1px solid rgba(255,255,255,0.08);
+    border-radius: 16px;
+    padding: 30px 24px;
+    transition: background 0.2s, border-color 0.2s;
+  }
+
+  .fix-card:hover {
+    background: rgba(255,106,0,0.07);
+    border-color: rgba(255,106,0,0.3);
+  }
+
+  .fix-step {
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #FF6A00;
+    margin-bottom: 14px;
+  }
+
+  .fix-card h3 {
+    font-size: 17px;
+    font-weight: 800;
+    color: #fff;
+    margin-bottom: 10px;
+    line-height: 1.3;
+  }
+
+  .fix-card p {
+    font-size: 13px;
+    color: rgba(255,255,255,0.5);
+    line-height: 1.7;
+  }
+
+  .fix-card .fix-icon {
+    font-size: 26px;
+    margin-bottom: 16px;
+  }
+
+  /* CTA */
+  .cta-section {
+    background: linear-gradient(135deg, #0a0a0a 0%, #1a1a2e 100%);
+    padding: 90px 20px;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .cta-section::before {
+    content: "";
+    position: absolute;
+    top: 50%; left: 50%;
+    transform: translate(-50%, -50%);
+    width: 600px; height: 600px;
+    background: radial-gradient(circle, rgba(255,106,0,0.1) 0%, transparent 65%);
+    pointer-events: none;
+  }
+
+  .cta-section h2 {
+    font-size: clamp(26px, 4.5vw, 46px);
+    font-weight: 900;
+    color: #fff;
+    max-width: 700px;
+    margin: 0 auto 18px;
+    line-height: 1.15;
+    letter-spacing: -0.5px;
+  }
+
+  .cta-section h2 span { color: #FF6A00; }
+
+  .cta-section p {
+    font-size: 16px;
+    color: rgba(255,255,255,0.6);
+    max-width: 500px;
+    margin: 0 auto 40px;
+  }
+
+  .cta-btn {
+    display: inline-block;
+    background: #FF6A00;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 800;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 18px 44px;
+    border-radius: 50px;
+    transition: background 0.2s, transform 0.2s, box-shadow 0.2s;
+    box-shadow: 0 8px 32px rgba(255,106,0,0.35);
+  }
+
+  .cta-btn:hover {
+    background: #e05e00;
+    transform: translateY(-2px);
+    box-shadow: 0 14px 40px rgba(255,106,0,0.45);
+  }
+
+  .cta-points {
+    display: flex;
+    justify-content: center;
+    gap: 28px;
+    flex-wrap: wrap;
+    margin-top: 34px;
+  }
+
+  .cta-point {
+    display: flex;
+    align-items: center;
+    gap: 7px;
+    font-size: 13px;
+    color: rgba(255,255,255,0.5);
+  }
+
+  .cta-point::before {
+    content: "✓";
+    color: #FF6A00;
+    font-weight: 700;
+  }
+
+  /* FOOTER */
+  footer {
+    background: #0a0a0a;
+    border-top: 1px solid rgba(255,255,255,0.06);
+    padding: 28px 20px;
+    text-align: center;
+  }
+
+  footer p {
+    font-size: 12px;
+    color: rgba(255,255,255,0.3);
+    line-height: 1.7;
+  }
+
+  footer a {
+    color: rgba(255,106,0,0.7);
+    text-decoration: none;
+  }
+
+  footer a:hover { color: #FF6A00; }
+
+  /* RESPONSIVE */
+  @media (max-width: 600px) {
+    .hero { padding: 60px 20px 50px; }
+    .section { padding: 52px 16px; }
+    .aero-card { flex-direction: column; align-items: flex-start; gap: 28px; }
+    .aero-score-wrap { width: 100%; }
+    .terminal-body { padding: 20px 16px 24px; }
+    .fix-grid { grid-template-columns: 1fr 1fr; }
+    .cta-section { padding: 64px 20px; }
+  }
+
+  @media (max-width: 420px) {
+    .fix-grid { grid-template-columns: 1fr; }
+  }
+</style>
+</head>
+<body>
+
+<!-- ===================== SECTION 1: HERO ===================== -->
+<section class="hero">
+  <div class="badge">Blind Spot Report</div>
+  <h1>Dr., You Have a<br><span>Visibility Problem</span></h1>
+  <p>Los Angeles Dental Arts has 32 years of expertise, a 4.9-star reputation, and a nationally recognized clinical leader. AI search engines have never heard of you.</p>
+  <div class="hero-meta">
+    <span>&#128205; Los Angeles, CA</span>
+    <span>&#183;</span>
+    <span>&#127981; Los Angeles Dental Arts</span>
+    <span>&#183;</span>
+    <span>&#128203; AERO-10 Score: 68/100</span>
+  </div>
+</section>
+
+<!-- ===================== SECTION 2: THE GAP ===================== -->
+<section class="section gap-section">
+  <div class="section-inner">
+    <div class="section-label">The Gap</div>
+    <h2 class="section-title">Your Credentials Are Exceptional.<br>Your AI Presence Is Not.</h2>
+    <p class="section-sub">Here is what your practice actually represents, and why the gap between your real-world authority and your AI search visibility is costing you new patients every day.</p>
+
+    <div class="stats-grid">
+      <div class="stat-card">
+        <div class="stat-val"><span>388</span></div>
+        <div class="stat-label">Google Reviews</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-val"><span>4.9</span>&#9733;</div>
+        <div class="stat-label">Star Rating</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-val"><span>32</span></div>
+        <div class="stat-label">Years in Practice</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-val" style="font-size:28px; padding-top:4px;"><span>DDS</span></div>
+        <div class="stat-label">Georgetown University</div>
+      </div>
+    </div>
+
+    <div class="aero-card">
+      <div class="aero-left">
+        <h3>AERO-10 Score Explained</h3>
+        <p>The AERO-10 measures how well your practice is structured for AI-powered answer engines like ChatGPT, Perplexity, Google Gemini, and Bing Copilot. A score of 68 means AI tools can find fragments of your story, but they cannot confidently cite you, quote you, or recommend you when a patient asks who is the best dentist in Los Angeles.</p>
+      </div>
+      <div class="aero-score-wrap">
+        <div class="aero-score-circle">
+          <div class="aero-score-inner">
+            <div class="aero-score-num">68</div>
+            <div class="aero-score-denom">/100</div>
+          </div>
+        </div>
+        <div class="aero-score-label">AERO-10 Score</div>
+        <div class="aero-status">Needs Optimization</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== SECTION 3: WHAT AI SEES ===================== -->
+<section class="section ai-section">
+  <div class="section-inner">
+    <div class="section-label">What AI Sees</div>
+    <h2 class="section-title">When Patients Ask AI, a Competitor Gets the Credit</h2>
+    <p class="section-sub">This is a simulation of what happens when a prospective patient asks an AI assistant for a dentist recommendation in Los Angeles today.</p>
+
+    <div class="terminal">
+      <div class="terminal-bar">
+        <div class="terminal-dot dot-red"></div>
+        <div class="terminal-dot dot-yellow"></div>
+        <div class="terminal-dot dot-green"></div>
+        <div class="terminal-title">AI Answer Engine Query</div>
+      </div>
+      <div class="terminal-body">
+        <div class="chat-row">
+          <div class="chat-label user">Patient Query</div>
+          <div class="chat-bubble bubble-user">
+            "Who is the best dentist in Los Angeles for high-quality, tooth-preserving dental care?"
+          </div>
+        </div>
+        <div class="chat-row">
+          <div class="chat-label ai">AI Response</div>
+          <div class="chat-bubble bubble-ai">
+            Based on available structured data and online authority signals, <span class="cited">Smile LA Downtown Modern Dentistry</span> is frequently cited for quality dental care in the Los Angeles area, with strong schema markup and consistent digital presence across authoritative platforms.<br><br>
+            <span class="missing">Los Angeles Dental Arts does not appear in this result, despite 32 years of practice, a 4.9-star rating across 388 reviews, and a Director-level position at USC School of Dentistry. AI cannot cite what it cannot confirm.</span>
+          </div>
+        </div>
+        <div class="terminal-warning">
+          <div class="warn-icon">&#9888;</div>
+          <div class="warn-text">Los Angeles Dental Arts is NOT being cited by AI answer engines. Your competitor is capturing these patients while your credentials, history, and unique story remain invisible to AI systems.</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== SECTION 4: HIDDEN DIFFERENTIATORS ===================== -->
+<section class="section diff-section">
+  <div class="section-inner">
+    <div class="section-label">Hidden Differentiators</div>
+    <h2 class="section-title">What Makes You Irreplaceable<br>That AI Cannot Find</h2>
+    <p class="section-sub">These are the unique, verifiable strengths that separate Los Angeles Dental Arts from every other dental practice in the city. They are just not structured in a way that AI can surface.</p>
+
+    <div class="diff-grid">
+
+      <div class="diff-card">
+        <div class="diff-icon">&#127979;</div>
+        <h3>Only African American Director at USC Dentistry</h3>
+        <p>Dr. Theodore Burnett holds the distinction of being the only African American dentist to serve as Director and Clinical Instructor at USC School of Dentistry. This is a historically significant, verifiable credential that no competitor in Los Angeles can claim.</p>
+        <span class="diff-tag">Historic First</span>
+      </div>
+
+      <div class="diff-card">
+        <div class="diff-icon">&#129458;</div>
+        <h3>Biomimetic Dentistry Pioneer</h3>
+        <p>With 32 years of practice in biomimetic dentistry, the practice follows a tooth-preservation philosophy that fundamentally avoids the unnecessary tooth destruction common in traditional aggressive dental approaches. This is a meaningful clinical differentiator few practices can legitimately claim.</p>
+        <span class="diff-tag">Clinical Differentiator</span>
+      </div>
+
+      <div class="diff-card">
+        <div class="diff-icon">&#9889;</div>
+        <h3>CEREC Same-Day Crown Technology</h3>
+        <p>Los Angeles Dental Arts uses CEREC same-day crown and restoration technology alongside 3D imaging and an in-office lab. Patients can receive restorations in a single appointment, eliminating the need for temporary crowns and multiple visits.</p>
+        <span class="diff-tag">Same-Day Technology</span>
+      </div>
+
+      <div class="diff-card">
+        <div class="diff-icon">&#127775;</div>
+        <h3>4.9 Stars Across 388 Reviews</h3>
+        <p>A 4.9-star rating maintained consistently across 388 Google reviews, multiple platforms, and Nextdoor recognition as providing "world class dentistry" signals exceptional patient experience. Patient testimonials describe 20-plus-year relationships and family-like care.</p>
+        <span class="diff-tag">Trust Signal</span>
+      </div>
+
+      <div class="diff-card">
+        <div class="diff-icon">&#128250;</div>
+        <h3>ABC7 News Healthcare Equity Feature</h3>
+        <p>Featured in ABC7 News "Our America Living While Black" segment, recognizing Dr. Burnett's contributions to healthcare equity. This earned media placement on a major broadcast network is an authority signal that most dental practices will never achieve.</p>
+        <span class="diff-tag">Earned Media</span>
+      </div>
+
+      <div class="diff-card">
+        <div class="diff-icon">&#127968;</div>
+        <h3>32 Years Rooted in Westchester</h3>
+        <p>As President of the West Los Angeles Dental Society and a 32-year fixture in the Westchester community, Dr. Burnett has community trust and local authority signals that newer practices cannot replicate. Nextdoor references him as a top choice for community members seeking an African American dentist.</p>
+        <span class="diff-tag">Community Authority</span>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ===================== SECTION 5: THE FIX ===================== -->
+<section class="section fix-section">
+  <div class="section-inner">
+    <div class="section-label">The Fix</div>
+    <h2 class="section-title" style="color:#fff;">Four Moves That Put You<br>Back in the AI Answer</h2>
+    <p class="section-sub">Answer Engine Optimization is not about tricks. It is about restructuring what already exists so AI systems can find, confirm, and cite you with confidence.</p>
+
+    <div class="fix-grid">
+      <div class="fix-card">
+        <div class="fix-icon">&#128172;</div>
+        <div class="fix-step">Step 01</div>
+        <h3>Answer-First Content</h3>
+        <p>Rewrite your web pages and blog content so they directly answer the questions patients type into AI. Structured Q and A formats, clear topic clusters around biomimetic dentistry and same-day crowns, and precise language AI systems can extract and cite.</p>
+      </div>
+
+      <div class="fix-card">
+        <div class="fix-icon">&#128196;</div>
+        <div class="fix-step">Step 02</div>
+        <h3>Schema Markup</h3>
+        <p>Deploy dental-specific structured data including DentistSchema, MedicalOrganization markup, service schema, and credential schema so AI crawlers can instantly confirm your 32 years of experience, your USC affiliation, and your technology offerings.</p>
+      </div>
+
+      <div class="fix-card">
+        <div class="fix-icon">&#127758;</div>
+        <div class="fix-step">Step 03</div>
+        <h3>Entity Authority</h3>
+        <p>Build a verified, consistent entity profile for Dr. Theodore Burnett and Los Angeles Dental Arts across Wikipedia-adjacent sources, Google Knowledge Graph, and third-party directories so AI recognizes your practice as a confirmed, citable entity in Los Angeles dentistry.</p>
+      </div>
+
+      <div class="fix-card">
+        <div class="fix-icon">&#128279;</div>
+        <div class="fix-step">Step 04</div>
+        <h3>Authority Amplification</h3>
+        <p>Activate the earned authority you already have. The ABC7 feature, your USC Director title, your 388 reviews, and your West LA Dental Society Presidency need to be translated into AI-readable signals that make you the obvious recommendation when patients ask who to trust.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== SECTION 6: CTA ===================== -->
+<section class="cta-section">
+  <div style="position:relative; z-index:1;">
+    <div class="badge">Limited Availability</div>
+    <h2>Your 32-Year Legacy Deserves to Be<br><span>the Answer AI Gives</span></h2>
+    <p>In 30 minutes, we will show you exactly what AI systems see when patients search for dentists in Los Angeles, and what it takes to become the cited choice.</p>
+    <a href="https://calendly.com/theanswerengine-support/30min" class="cta-btn" target="_blank" rel="noopener">Book a 30-Min Call</a>
+    <div class="cta-points">
+      <span class="cta-point">No obligation</span>
+      <span class="cta-point">Specific to your practice</span>
+      <span class="cta-point">Actionable in 30 days</span>
+      <span class="cta-point">Free analysis included</span>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== FOOTER ===================== -->
+<footer>
+  <p>This analysis uses publicly available information about Los Angeles Dental Arts and the competitive landscape in Los Angeles, CA.<br>
+  Questions? <a href="mailto:support@theanswerengine.ai">support@theanswerengine.ai</a><br>
+  <span style="color:rgba(255,255,255,0.18); font-size:11px;">&#169; 2025 The Answer Engine. All rights reserved.</span>
+  </p>
+</footer>
+
+</body>
+</html>

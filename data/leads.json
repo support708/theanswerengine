@@ -1582,20 +1582,116 @@
     "reviewCount": 388,
     "rating": 4.9,
     "notes": "Auto-discovered by Lead Hunter. AI citation: not cited on 1/1 platforms. Competitors cited: Smile LA Downtown Modern Dentistry, Downtown Dental, Larchmont Dental Associates. Outreach-ready: YES (citation data + contact + differentiator verified). Differentiator: 32 years of experience in biomimetic dentistry, 4.9-star Google rating, only African American dentist to hold title of Director at USC School of Dentistry, specializes in tooth preservation",
-    "status": "queued",
-    "research": null,
+    "status": "report_ready",
+    "research": {
+      "reviewCount": 388,
+      "rating": 4.9,
+      "yearsInBusiness": 32,
+      "credentials": [
+        "DDS from Georgetown University School of Dentistry (1988)",
+        "Director and Clinical Instructor at USC School of Dentistry",
+        "American Dental Association member",
+        "California Dental Association member",
+        "President of West Los Angeles Dental Society",
+        "Only African American dentist to hold Director title at USC School of Dentistry"
+      ],
+      "awards": [
+        "Featured in ABC7 News 'Our America Living While Black' video",
+        "4.9-star Google rating (consistent across multiple platforms)",
+        "Listed on TopRatedDentist.com for Los Angeles",
+        "Recognized on Nextdoor as providing 'world class dentistry'"
+      ],
+      "communityInvolvement": [
+        "President of West Los Angeles Dental Society",
+        "Clinical Instructor at USC School of Dentistry",
+        "Referenced on Nextdoor as community-focused choice for African American dentist seekers",
+        "Serves local Westchester community for 32 years"
+      ],
+      "hiddenDifferentiators": [
+        "32 years of experience in biomimetic dentistry (tooth preservation approach)",
+        "Only African American dentist to hold Director position at USC School of Dentistry",
+        "CEREC same-day crown and restoration technology",
+        "3D imaging and in-office lab for same-day procedures",
+        "Biomimetic approach avoids unnecessary tooth destruction",
+        "Patient testimonial consistency emphasizing family-like care across 20+ year relationships"
+      ],
+      "topCompetitors": [
+        {
+          "name": "Smile LA Downtown Modern Dentistry",
+          "reason": "4.9-star rating, downtown location, established 1997, comprehensive services, strong online presence with 452+ Yelp reviews"
+        },
+        {
+          "name": "Downtown Dental",
+          "reason": "Competing in LA market with general and cosmetic dentistry services"
+        },
+        {
+          "name": "Larchmont Dental Associates",
+          "reason": "5-star Google rating, top-rated in Los Angeles dental market"
+        }
+      ],
+      "faqContentPresent": false,
+      "blogPresent": false,
+      "gmbPresent": true,
+      "schemaDetected": true,
+      "recentContent": true,
+      "uniqueStory": "Dr. Theodore Burnett is the only African American dentist to hold the title of Director and Clinical Instructor at USC School of Dentistry, bringing 32 years of specialized experience in biomimetic dentistry, a tooth-preservation approach that differs fundamentally from traditional aggressive dental practices. His practice has maintained consistent 4.9-star ratings across platforms while serving the Westchester community with state-of-the-art same-day dentistry technology (CEREC, 3D imaging). Featured on ABC7 News for his contributions to healthcare equity.",
+      "aiCited": false,
+      "aero7": {
+        "answerQuality": 7,
+        "entityOptimization": 6,
+        "relevanceFreshness": 7,
+        "optimizationStructure": 6,
+        "voiceAuthenticity": 8,
+        "authoritySignals": 9,
+        "authorityDistribution": 6,
+        "consensusCoCitation": 7,
+        "platformReadiness": 6,
+        "technicalAccessibility": 6,
+        "total": 68
+      },
+      "rawNotes": "Website is well-structured with clear service pages and about section. Has patient testimonial video embeds. NAP consistent across web, Yelp, Google. Not currently appearing in AI tool search results (context states not cited on 1/1 platforms). Competitor Smile LA Downtown Modern Dentistry appears in multiple AI recommendations due to larger review volume (452+ reviews vs 388) and downtown location advantage. No dedicated blog or FAQ section detected. Strong Nextdoor presence with high community engagement. LinkedIn profile exists. Limited social media visibility compared to competitors. Website has basic schema markup but not comprehensive. Contact information prominently displayed. Strong patient authenticity signals from multi-year testimonials (20+ years customers mentioned). ABC7 news feature adds third-party credibility. Main opportunity: expanded content marketing (blog/FAQ), more social media presence, and broader AI platform optimization would improve discoverability vs. competitors.",
+      "researchedAt": "2026-04-09T18:01:01.746Z"
+    },
     "reportSlug": "los-angeles-dental-arts-pw00",
     "emailDraftId": null,
     "fabricationFlags": [],
-    "emDashClean": false,
+    "emDashClean": true,
     "actionLog": [
       {
         "action": "Queued by Lead Hunter (P1, score: 40, outreach-ready: true)",
         "timestamp": "2026-03-09T02:38:32.048Z"
+      },
+      {
+        "action": "Research started (auto-pipeline)",
+        "timestamp": "2026-04-09T18:00:41.314Z"
+      },
+      {
+        "action": "Research completed (AERO-10: 68/100)",
+        "timestamp": "2026-04-09T18:01:01.746Z"
+      },
+      {
+        "action": "Report generation started",
+        "timestamp": "2026-04-09T18:01:01.746Z"
+      },
+      {
+        "action": "Report generated",
+        "timestamp": "2026-04-09T18:02:47.710Z"
+      },
+      {
+        "action": "Fabrication scan: CLEAN",
+        "timestamp": "2026-04-09T18:02:47.710Z"
+      },
+      {
+        "action": "Em-dash scan: CLEAN",
+        "timestamp": "2026-04-09T18:02:47.710Z"
+      },
+      {
+        "action": "Report + OG metadata deployed to production",
+        "timestamp": "2026-04-09T18:02:47.846Z"
       }
     ],
     "createdAt": "2026-03-09T02:38:32.048Z",
-    "updatedAt": "2026-03-09T02:38:32.048Z",
+    "updatedAt": "2026-04-09T18:02:47.710Z",
     "huntSource": "hunt_1773023618468_oxni",
     "huntScore": 40,
     "huntPriority": "P1",
