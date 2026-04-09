@@ -23,14 +23,14 @@ interface Territory {
 }
 
 const TERRITORIES: Territory[] = [
-  { id: '01', city: 'AUSTIN, TX', category: 'SOLAR ENERGY', status: 'secured' },
-  { id: '02', city: 'PHOENIX, AZ', category: 'LUXURY REAL ESTATE', status: 'available' },
-  { id: '03', city: 'DENVER, CO', category: 'PERSONAL INJURY', status: 'secured' },
-  { id: '04', city: 'MIAMI, FL', category: 'DENTAL SERVICES', status: 'available' },
-  { id: '05', city: 'LOS ANGELES, CA', category: 'ROOFING', status: 'secured' },
-  { id: '06', city: 'DALLAS, TX', category: 'HVAC SYSTEMS', status: 'available' },
-  { id: '07', city: 'CHICAGO, IL', category: 'PLUMBING', status: 'secured' },
-  { id: '08', city: 'SEATTLE, WA', category: 'REAL ESTATE', status: 'available' },
+  { id: '01', city: 'LOS ANGELES, CA', category: 'REAL ESTATE', status: 'secured' },
+  { id: '02', city: 'AUSTIN, TX', category: 'REAL ESTATE', status: 'secured' },
+  { id: '03', city: 'LONG BEACH, CA', category: 'PROPERTY MANAGEMENT', status: 'secured' },
+  { id: '04', city: 'SAN DIEGO, CA', category: 'REAL ESTATE', status: 'secured' },
+  { id: '05', city: 'PHOENIX, AZ', category: 'HVAC', status: 'available' },
+  { id: '06', city: 'DENVER, CO', category: 'PLUMBING', status: 'available' },
+  { id: '07', city: 'MIAMI, FL', category: 'DENTAL SERVICES', status: 'available' },
+  { id: '08', city: 'DALLAS, TX', category: 'HVAC SYSTEMS', status: 'available' },
 ];
 
 const INDUSTRIES = [

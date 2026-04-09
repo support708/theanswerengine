@@ -40,11 +40,11 @@ const useScrollAnimation = (): { ref: RefObject<HTMLDivElement | null>; isVisibl
 // ─── Territory data ──────────────────────────────────────────────────────────
 const territories = [
   { city: 'Los Angeles, CA', category: 'Real Estate', status: 'claimed' as const },
-  { city: 'Phoenix, AZ', category: 'HVAC', status: 'claimed' as const },
+  { city: 'Austin, TX', category: 'Real Estate', status: 'claimed' as const },
+  { city: 'Long Beach, CA', category: 'Property Management', status: 'claimed' as const },
+  { city: 'San Diego, CA', category: 'Real Estate', status: 'claimed' as const },
+  { city: 'Phoenix, AZ', category: 'HVAC', status: 'available' as const },
   { city: 'Denver, CO', category: 'Plumbing', status: 'available' as const },
-  { city: 'Austin, TX', category: 'Real Estate', status: 'available' as const },
-  { city: 'San Diego, CA', category: 'Attorney', status: 'available' as const },
-  { city: 'Seattle, WA', category: 'Dentist', status: 'claimed' as const },
   { city: 'Nashville, TN', category: 'Electrical', status: 'available' as const },
   { city: 'Miami, FL', category: 'Real Estate', status: 'available' as const },
   { city: 'Portland, OR', category: 'HVAC', status: 'available' as const },
@@ -397,7 +397,7 @@ export default function Home() {
       ════════════════════════════════════════════════════════ */}
       <section
         ref={interstitialAnim.ref}
-        className={`relative h-[480px] flex items-center justify-center overflow-hidden transition-all duration-700 ease-out ${
+        className={`relative py-12 md:py-16 flex items-center justify-center overflow-hidden transition-all duration-700 ease-out ${
           interstitialAnim.isVisible ? 'opacity-100' : 'opacity-0'
         }`}
         aria-hidden="true"
@@ -407,17 +407,17 @@ export default function Home() {
         <div className="absolute inset-0 bg-gradient-to-br from-black/60 via-transparent to-black/60" />
 
         <div className="relative z-10 text-center px-6">
-          <div className="font-headline font-black text-5xl md:text-8xl lg:text-9xl tracking-[0.15em] uppercase leading-none">
-            <div className="flex flex-col md:flex-row gap-4 md:gap-16 items-center justify-center">
+          <div className="font-headline font-black text-3xl md:text-5xl lg:text-6xl tracking-[0.15em] uppercase leading-none">
+            <div className="flex flex-col md:flex-row gap-3 md:gap-10 items-center justify-center">
               <span className="text-[#e5e2e1]">AUDIT.</span>
               <span className="text-[#FF6A00]">OPTIMIZE.</span>
               <span className="text-[#e5e2e1]">DOMINATE.</span>
             </div>
           </div>
-          <div className="mt-10 flex justify-center gap-2">
-            <div className="w-2 h-2 bg-[#FF6A00]" />
-            <div className="w-2 h-2 bg-[#FF6A00]/40" />
-            <div className="w-2 h-2 bg-[#FF6A00]/20" />
+          <div className="mt-6 flex justify-center gap-2">
+            <div className="w-1.5 h-1.5 bg-[#FF6A00]" />
+            <div className="w-1.5 h-1.5 bg-[#FF6A00]/40" />
+            <div className="w-1.5 h-1.5 bg-[#FF6A00]/20" />
           </div>
         </div>
       </section>
