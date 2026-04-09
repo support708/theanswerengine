@@ -498,19 +498,31 @@ export default function Home() {
                   className="w-full cursor-zoom-in"
                   aria-label={`Enlarge screenshot: ${citation.alt}`}
                 >
-                  <div className="relative overflow-hidden">
-                    <Image
-                      src={citation.image}
-                      alt={citation.alt}
-                      width={600}
-                      height={400}
-                      className="w-full h-auto object-cover aspect-[3/2] group-hover:scale-[1.02] transition-transform duration-500"
-                      loading="lazy"
-                    />
-                    <div className="absolute inset-x-0 bottom-0 h-24 bg-gradient-to-t from-[#131313] to-transparent" />
+                  <div className="relative overflow-hidden p-4 pb-0">
+                    {/* Terminal-style header bar */}
+                    <div className="flex items-center gap-2 mb-2 px-1">
+                      <div className="flex gap-1.5">
+                        <div className="w-2 h-2 rounded-full bg-white/10" />
+                        <div className="w-2 h-2 rounded-full bg-white/10" />
+                        <div className="w-2 h-2 rounded-full bg-[#FF6A00]/40" />
+                      </div>
+                      <span className="font-mono text-[9px] text-white/20 uppercase tracking-widest ml-2">{citation.platform}</span>
+                    </div>
+                    {/* Image with uniform frame */}
+                    <div className="relative rounded-sm overflow-hidden border border-white/[0.06]">
+                      <Image
+                        src={citation.image}
+                        alt={citation.alt}
+                        width={600}
+                        height={400}
+                        className="w-full h-auto object-cover object-top aspect-[3/2] group-hover:scale-[1.02] transition-transform duration-500 brightness-90 group-hover:brightness-100"
+                        loading="lazy"
+                      />
+                      <div className="absolute inset-0 bg-gradient-to-t from-[#131313]/60 via-transparent to-transparent" />
+                    </div>
                   </div>
                 </button>
-                <div className="p-5 border-t border-white/10">
+                <div className="p-5 pt-3">
                   <div className="font-mono text-[10px] text-[#FF6A00] uppercase tracking-widest mb-1">{citation.platform}</div>
                   <p className="text-white/40 text-sm italic">&ldquo;{citation.query}&rdquo;</p>
                 </div>
