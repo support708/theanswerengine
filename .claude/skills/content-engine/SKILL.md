@@ -230,27 +230,110 @@ This creates `public/blog/{slug}.webp` (1200x630, ~50-100KB).
 
 Use `next/link` `Link` component for all internal links (`/blog`, `/blindspot`, `/`). Use `<a href>` only for external URLs.
 
-### Step 5: Quality Audit
+### Step 5: Ultimate Audit Process (NON-NEGOTIABLE)
 
-Run these checks on EVERY article (fail = fix and re-check):
+**CORE RULE: No blog article in this ecosystem EVER ships without completing the full Ultimate Audit Process. No exceptions. No shortcuts. This is a guarantee.**
 
+This is the full QA Protocol. Every article must pass ALL phases before it touches production.
+
+#### Phase A: Review Loop (minimum 2 cycles)
+
+**Cycle 1 — Review Agent (Opus):**
+Spawn a SEPARATE review agent (`model: "opus"`) to evaluate the article. The review agent has ONE job: find every flaw.
+
+**Review Agent Checklist (score each 0-10, fail if any < 7):**
+
+| Category | Checks |
+|----------|--------|
+| **Technical** | Zero em-dashes, zero event handlers, zero 'use client', title < 60 chars, slug unique, ISR exports present, schema @graph complete (Article + FAQPage + BreadcrumbList), HTML valid |
+| **Championship Format** | 15+ CTAs, 30+ visual components, stats grid (4 metrics), TOC, 2+ callouts, 1+ comparison table, 1+ pros/cons, cheat sheet, author card, final CTA with pulse, 3-tier CTA block |
+| **Content Quality** | 2000-3000 words of real content (not skeleton/placeholder), sauce protected (what/why not how), no generic filler, every stat verifiable |
+| **AEO Optimization** | FAQ schema (5+ real Q&As), internal links (2-3 existing articles), /blindspot CTA, meta description < 160 chars |
+| **Brand** | #0F1117 bg, #FF6A00 accent, font-plus-jakarta headings, max-w-4xl layout, phone (213) 444-2229, email support@theanswerengine.ai |
+
+Review agent returns: score, EVERY issue found, severity (critical/major/minor).
+
+**Fix all critical and major issues.**
+
+**Cycle 2 — Cross-Model Review:**
+Run a second review using a fundamentally different perspective:
+1. Gemini CLI (if available): `gemini "Review this article for quality, AEO optimization, and sauce protection"`
+2. OR a separate Claude agent with adversarial prompt: "You are a ruthless editor. Find every weakness."
+3. OR checklist-based mechanical review focusing ONLY on what Cycle 1 missed
+
+Feed ALL issues back. Fix everything. **Continue cycling until ZERO major issues.**
+
+#### Phase B: 4x Audit Cycles (target 90+ each)
+
+**Audit 1 (Critical Compliance):**
 | Check | Rule | Auto-fail? |
 |-------|------|-----------|
 | Em-dashes | Zero `\u2014` or `--` anywhere | YES |
-| Event handlers | Zero `onClick`, `onMouseOver`, `onChange`, etc. | YES |
+| Event handlers | Zero onClick, onMouseOver, onChange | YES |
+| 'use client' | Zero instances (Server Component only) | YES |
 | Title length | Under 60 chars | YES |
-| Title uniqueness | Not in existing blogPosts.json | YES |
-| Slug uniqueness | Not in existing blogPosts.json | YES |
-| Schema present | `@graph` with Article + FAQPage + BreadcrumbList | YES |
-| FAQ count | At least 5 Q&As | YES |
-| CTA present | Link to `/blindspot` | YES |
-| ISR config | `revalidate = 86400` + `dynamic = 'force-static'` + `dynamicParams = true` | YES |
-| No 'use client' | Server Component only | YES |
-| Sauce protected | No step-by-step implementation guides or blueprints | YES |
-| Meta description | Under 160 chars | WARN |
-| Word count | 1500-2500 words | WARN |
+| Title/slug unique | Not in blogPosts.json | YES |
+| Schema | @graph with Article + FAQPage + BreadcrumbList | YES |
+| FAQ count | At least 5 Q&As with REAL answers | YES |
+| CTA to /blindspot | Present | YES |
+| ISR config | revalidate + dynamic + dynamicParams all set | YES |
+| Sauce protection | No step-by-step implementation guides | YES |
+| File length | 600+ lines (NOT a skeleton/placeholder) | YES |
+Fix all failures. Re-run until clean.
 
-If any auto-fail check fails, fix the article and re-audit before proceeding.
+**Audit 2 (Strategic Depth):**
+- 15+ CTA touchpoints distributed throughout
+- 30+ visual components (ae- CSS classes)
+- Stats grid with 4 real metrics
+- 3-tier CTA block with phone + email + blindspot
+- Internal links verified (slugs exist in blogPosts.json)
+- Category variety maintained across batch
+Score: ___/100. Fix if < 90.
+
+**Audit 3 (Voice and Polish):**
+- Reads as authoritative AEO expert content
+- No generic filler paragraphs
+- Every stat is real (not fabricated)
+- Sauce protected throughout (teaches what/why, never implementation playbook)
+- No awkward transitions or robotic phrasing
+- CTA placement feels natural, not forced
+Score: ___/100. Fix if < 90.
+
+**Audit 4 (Pre-Publication):**
+- metadata object complete and valid
+- jsonLd @graph renders correctly
+- All component className references use ae- prefix
+- publishDate is today
+- SVG hero image has unique IDs (no cross-article conflicts)
+- blogPosts.json entry matches article exactly
+Score: ___/100. Fix if < 90.
+
+**ALL 4 audits must score 90+.** If any scores below 90 after fixes, loop back to Phase A.
+
+#### Phase C: Dry Run
+Verify the file compiles in the Next.js project. No TypeScript errors. No build warnings.
+
+#### Phase D: Production Surface Test (NON-SKIPPABLE)
+After deploying:
+1. Fetch live URL — must return 200
+2. Verify article content renders (not blank/error page)
+3. Verify new URL appears in sitemap
+4. Spot-check schema markup on live page
+5. Verify phone/email in CTAs are correct on live page
+
+If ANY production test fails, fix before marking shipped.
+
+#### Phase E: 2x Final Stability Audits
+1. Re-run Audit 1 against LIVE page. No drift from source.
+2. Spot-check 3 random existing articles for 200 status. Confirm total article count.
+
+#### Audit Mindset
+"Would a principal engineer at a top-5 tech company ship this?" If no, it does not ship.
+
+**AUTO-LESSON:** Every issue caught during audit is logged to `~/.claude/tasks/lessons.md`:
+```
+- [DATE] REVIEW-CATCH: [article title] > [what was wrong] > [root cause]
+```
 
 ### Step 6: Update blogPosts.json
 
