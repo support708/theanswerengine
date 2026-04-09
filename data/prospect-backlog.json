@@ -502,5 +502,81 @@
       "total": 38
     },
     "priority": "P1"
+  },
+  {
+    "businessName": "J and J Roofing",
+    "contactName": "Matt Glass / Mike Glass",
+    "website": "https://jandjroofing.com/",
+    "phone": null,
+    "city": "Los Angeles",
+    "state": "",
+    "serviceNiche": "Roofing Contractor",
+    "reviewCount": 307,
+    "painSignals": [
+      "J and J Roofing appears in AI recommendations but may have optimization gaps"
+    ],
+    "citationResults": [
+      {
+        "platform": "chatgpt",
+        "query": "best Roofing Contractor in Los Angeles",
+        "cited": true,
+        "competitorsCited": [
+          "Bilt-well Roofing",
+          "Smart Roofing",
+          "Final Touch Roofing",
+          "SLR Roofing"
+        ]
+      }
+    ],
+    "differentiator": "25+ years in business since 1994, family-owned, highest-rated in Southern California, 300+ years combined crew experience",
+    "outreachReady": false,
+    "scoreBreakdown": {
+      "aiBlindSpot": 5,
+      "reputationStrength": 6,
+      "contentGap": 6,
+      "revenuePotential": 6,
+      "contactQuality": 2.5,
+      "total": 25.5
+    },
+    "priority": "P2"
+  },
+  {
+    "businessName": "Crown Cap Roofing",
+    "contactName": "Vincent Vazquez",
+    "website": "https://crowncaproofing.net/",
+    "phone": "(424) 248-0778",
+    "city": "Los Angeles",
+    "state": "",
+    "serviceNiche": "Roofing Contractor",
+    "reviewCount": 16,
+    "rating": 5,
+    "painSignals": [
+      "Crown Cap Roofing has 16 Google reviews but is not recommended by AI assistants for \"Roofing Contractor in Los Angeles\""
+    ],
+    "citationResults": [
+      {
+        "platform": "chatgpt",
+        "query": "best Roofing Contractor in Los Angeles",
+        "cited": false,
+        "competitorsCited": [
+          "Bilt-well Roofing",
+          "J and J Roofing",
+          "Smart Roofing",
+          "Final Touch Roofing",
+          "SLR Roofing"
+        ]
+      }
+    ],
+    "differentiator": "Family-owned, 20+ years experience, specializes in insurance claim assistance, competitive pricing",
+    "outreachReady": true,
+    "scoreBreakdown": {
+      "aiBlindSpot": 9,
+      "reputationStrength": 7.5,
+      "contentGap": 6,
+      "revenuePotential": 6,
+      "contactQuality": 3,
+      "total": 31.5
+    },
+    "priority": "P2"
   }
 ]

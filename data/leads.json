@@ -2563,5 +2563,324 @@
     ],
     "huntDifferentiator": "Multiple LA locations (West Hollywood, Studio City); founded by Dr. Rafaeloff and esthetician Sharona Rafaeloff; extensive treatment menu; known for personalized approach and Vanessa's expert care",
     "huntOutreachReady": true
+  },
+  {
+    "id": "lead_1775743257391_lsfg3r",
+    "businessName": "Roof Repair Specialist",
+    "contactFirstName": "Andre",
+    "contactEmail": "scheduling@roofrepairspecialist.com",
+    "websiteUrl": "https://www.roofrepairspecialist.com/",
+    "city": "Los Angeles",
+    "serviceNiche": "Roofing Contractor",
+    "competitorName": "Bilt-well Roofing",
+    "reviewCount": null,
+    "rating": null,
+    "notes": "Auto-discovered by Lead Hunter. AI citation: not cited on 1/1 platforms. Competitors cited: Bilt-well Roofing, J and J Roofing, Smart Roofing. Outreach-ready: YES (citation data + contact + differentiator verified). Differentiator: Family-owned, over 10 years in business, specializes in leak repairs and free estimates",
+    "status": "queued",
+    "research": null,
+    "reportSlug": "roof-repair-specialist-x8rm",
+    "emailDraftId": null,
+    "fabricationFlags": [],
+    "emDashClean": false,
+    "actionLog": [
+      {
+        "action": "Queued by Lead Hunter (P2, score: 26, outreach-ready: true)",
+        "timestamp": "2026-04-09T14:00:57.391Z"
+      }
+    ],
+    "createdAt": "2026-04-09T14:00:57.391Z",
+    "updatedAt": "2026-04-09T14:00:57.391Z",
+    "huntSource": "hunt_1775743210629_lqp4",
+    "huntScore": 26,
+    "huntPriority": "P2",
+    "huntCitationResults": [
+      {
+        "platform": "chatgpt",
+        "query": "best Roofing Contractor in Los Angeles",
+        "cited": false,
+        "competitorsCited": [
+          "Bilt-well Roofing",
+          "J and J Roofing",
+          "Smart Roofing",
+          "Final Touch Roofing",
+          "SLR Roofing"
+        ]
+      }
+    ],
+    "huntDifferentiator": "Family-owned, over 10 years in business, specializes in leak repairs and free estimates",
+    "huntOutreachReady": true
+  },
+  {
+    "id": "lead_1775743257391_704qei",
+    "businessName": "AJ Reyes Roofing",
+    "contactFirstName": "Antonio",
+    "contactEmail": "ajreyesroofing@gmail.com",
+    "websiteUrl": "https://ajreyesroofing.com/",
+    "city": "Los Angeles",
+    "serviceNiche": "Roofing Contractor",
+    "competitorName": "Bilt-well Roofing",
+    "reviewCount": null,
+    "rating": null,
+    "notes": "Auto-discovered by Lead Hunter. AI citation: not cited on 1/1 platforms. Competitors cited: Bilt-well Roofing, J and J Roofing, Smart Roofing. Outreach-ready: YES (citation data + contact + differentiator verified). Differentiator: Father and son-owned, 25+ years in business since 1995, specializes in Spanish tile roofs, San Fernando Valley based",
+    "status": "queued",
+    "research": null,
+    "reportSlug": "aj-reyes-roofing-ck90",
+    "emailDraftId": null,
+    "fabricationFlags": [],
+    "emDashClean": false,
+    "actionLog": [
+      {
+        "action": "Queued by Lead Hunter (P2, score: 25.5, outreach-ready: true)",
+        "timestamp": "2026-04-09T14:00:57.391Z"
+      }
+    ],
+    "createdAt": "2026-04-09T14:00:57.391Z",
+    "updatedAt": "2026-04-09T14:00:57.391Z",
+    "huntSource": "hunt_1775743210629_lqp4",
+    "huntScore": 25.5,
+    "huntPriority": "P2",
+    "huntCitationResults": [
+      {
+        "platform": "chatgpt",
+        "query": "best Roofing Contractor in Los Angeles",
+        "cited": false,
+        "competitorsCited": [
+          "Bilt-well Roofing",
+          "J and J Roofing",
+          "Smart Roofing",
+          "Final Touch Roofing",
+          "SLR Roofing"
+        ]
+      }
+    ],
+    "huntDifferentiator": "Father and son-owned, 25+ years in business since 1995, specializes in Spanish tile roofs, San Fernando Valley based",
+    "huntOutreachReady": true
+  },
+  {
+    "id": "lead_1775743257391_ivaapu",
+    "businessName": "Bumble Roofing",
+    "contactFirstName": "David",
+    "contactEmail": "info@bumbleroofing.com",
+    "websiteUrl": "https://bumbleroofing.com/los-angeles/",
+    "city": "Los Angeles",
+    "serviceNiche": "Roofing Contractor",
+    "competitorName": "Bilt-well Roofing",
+    "reviewCount": 209,
+    "rating": null,
+    "notes": "Auto-discovered by Lead Hunter. AI citation: not cited on 1/1 platforms. Competitors cited: Bilt-well Roofing, J and J Roofing, Smart Roofing. Outreach-ready: YES (citation data + contact + differentiator verified). Differentiator: Modern tech-forward approach, satellite imagery technology for quotes, transparent pricing, 'Roofing The Easy Way' philosophy",
+    "status": "queued",
+    "research": null,
+    "reportSlug": "bumble-roofing-7e7f",
+    "emailDraftId": null,
+    "fabricationFlags": [],
+    "emDashClean": false,
+    "actionLog": [
+      {
+        "action": "Queued by Lead Hunter (P2, score: 32, outreach-ready: true)",
+        "timestamp": "2026-04-09T14:00:57.391Z"
+      }
+    ],
+    "createdAt": "2026-04-09T14:00:57.391Z",
+    "updatedAt": "2026-04-09T14:00:57.391Z",
+    "huntSource": "hunt_1775743210629_lqp4",
+    "huntScore": 32,
+    "huntPriority": "P2",
+    "huntCitationResults": [
+      {
+        "platform": "chatgpt",
+        "query": "best Roofing Contractor in Los Angeles",
+        "cited": false,
+        "competitorsCited": [
+          "Bilt-well Roofing",
+          "J and J Roofing",
+          "Smart Roofing",
+          "Final Touch Roofing",
+          "SLR Roofing"
+        ]
+      }
+    ],
+    "huntDifferentiator": "Modern tech-forward approach, satellite imagery technology for quotes, transparent pricing, 'Roofing The Easy Way' philosophy",
+    "huntOutreachReady": true
+  },
+  {
+    "id": "lead_1775743257391_4yxq9r",
+    "businessName": "ANR Roofing",
+    "contactFirstName": "Andres",
+    "contactEmail": "info@anrroofing.net",
+    "websiteUrl": "https://www.anrroofing.net/",
+    "city": "Los Angeles",
+    "serviceNiche": "Roofing Contractor",
+    "competitorName": "Bilt-well Roofing",
+    "reviewCount": 188,
+    "rating": null,
+    "notes": "Auto-discovered by Lead Hunter. AI citation: not cited on 1/1 platforms. Competitors cited: Bilt-well Roofing, J and J Roofing, Smart Roofing. Outreach-ready: YES (citation data + contact + differentiator verified). Differentiator: 30+ years in business, family-owned 3rd generation, Eagle Rock based, Neighborhood Favorite 2021-2023",
+    "status": "queued",
+    "research": null,
+    "reportSlug": "anr-roofing-v7j6",
+    "emailDraftId": null,
+    "fabricationFlags": [],
+    "emDashClean": false,
+    "actionLog": [
+      {
+        "action": "Queued by Lead Hunter (P2, score: 32, outreach-ready: true)",
+        "timestamp": "2026-04-09T14:00:57.391Z"
+      }
+    ],
+    "createdAt": "2026-04-09T14:00:57.391Z",
+    "updatedAt": "2026-04-09T14:00:57.391Z",
+    "huntSource": "hunt_1775743210629_lqp4",
+    "huntScore": 32,
+    "huntPriority": "P2",
+    "huntCitationResults": [
+      {
+        "platform": "chatgpt",
+        "query": "best Roofing Contractor in Los Angeles",
+        "cited": false,
+        "competitorsCited": [
+          "Bilt-well Roofing",
+          "J and J Roofing",
+          "Smart Roofing",
+          "Final Touch Roofing",
+          "SLR Roofing"
+        ]
+      }
+    ],
+    "huntDifferentiator": "30+ years in business, family-owned 3rd generation, Eagle Rock based, Neighborhood Favorite 2021-2023",
+    "huntOutreachReady": true
+  },
+  {
+    "id": "lead_1775743257391_w736aj",
+    "businessName": "Final Touch Roofing",
+    "contactFirstName": "Ovi",
+    "contactEmail": "ovi@gotfinaltouch.com",
+    "websiteUrl": "https://www.roofneeds.com/",
+    "city": "Los Angeles",
+    "serviceNiche": "Roofing Contractor",
+    "competitorName": "Bilt-well Roofing",
+    "reviewCount": 230,
+    "rating": null,
+    "notes": "Auto-discovered by Lead Hunter. AI citation: not cited on 0/1 platforms. Competitors cited: Bilt-well Roofing, J and J Roofing, Smart Roofing. Outreach-ready: YES (citation data + contact + differentiator verified). Differentiator: Family-owned, 60 years combined experience, BuildZoom top 1% score of 121, 747 building permits, exceptional customer service ratings",
+    "status": "queued",
+    "research": null,
+    "reportSlug": "final-touch-roofing-4brm",
+    "emailDraftId": null,
+    "fabricationFlags": [],
+    "emDashClean": false,
+    "actionLog": [
+      {
+        "action": "Queued by Lead Hunter (P2, score: 28, outreach-ready: true)",
+        "timestamp": "2026-04-09T14:00:57.391Z"
+      }
+    ],
+    "createdAt": "2026-04-09T14:00:57.391Z",
+    "updatedAt": "2026-04-09T14:00:57.391Z",
+    "huntSource": "hunt_1775743210629_lqp4",
+    "huntScore": 28,
+    "huntPriority": "P2",
+    "huntCitationResults": [
+      {
+        "platform": "chatgpt",
+        "query": "best Roofing Contractor in Los Angeles",
+        "cited": true,
+        "competitorsCited": [
+          "Bilt-well Roofing",
+          "J and J Roofing",
+          "Smart Roofing",
+          "SLR Roofing"
+        ]
+      }
+    ],
+    "huntDifferentiator": "Family-owned, 60 years combined experience, BuildZoom top 1% score of 121, 747 building permits, exceptional customer service ratings",
+    "huntOutreachReady": true
+  },
+  {
+    "id": "lead_1775743257391_s370qn",
+    "businessName": "Smart Roofing",
+    "contactFirstName": "Omri",
+    "contactEmail": "lasmartroofing@gmail.com",
+    "websiteUrl": "https://lasmartroofing.com/",
+    "city": "Los Angeles",
+    "serviceNiche": "Roofing Contractor",
+    "competitorName": "Bilt-well Roofing",
+    "reviewCount": 182,
+    "rating": null,
+    "notes": "Auto-discovered by Lead Hunter. AI citation: not cited on 0/1 platforms. Competitors cited: Bilt-well Roofing, J and J Roofing, Final Touch Roofing. Outreach-ready: YES (citation data + contact + differentiator verified). Differentiator: Owens Corning Platinum Preferred Contractor, BuildZoom top 4% score of 110, 471 projects in 3 years, known for transparent quotes",
+    "status": "queued",
+    "research": null,
+    "reportSlug": "smart-roofing-ie2l",
+    "emailDraftId": null,
+    "fabricationFlags": [],
+    "emDashClean": false,
+    "actionLog": [
+      {
+        "action": "Queued by Lead Hunter (P2, score: 28, outreach-ready: true)",
+        "timestamp": "2026-04-09T14:00:57.391Z"
+      }
+    ],
+    "createdAt": "2026-04-09T14:00:57.391Z",
+    "updatedAt": "2026-04-09T14:00:57.391Z",
+    "huntSource": "hunt_1775743210629_lqp4",
+    "huntScore": 28,
+    "huntPriority": "P2",
+    "huntCitationResults": [
+      {
+        "platform": "chatgpt",
+        "query": "best Roofing Contractor in Los Angeles",
+        "cited": true,
+        "competitorsCited": [
+          "Bilt-well Roofing",
+          "J and J Roofing",
+          "Final Touch Roofing",
+          "SLR Roofing"
+        ]
+      }
+    ],
+    "huntDifferentiator": "Owens Corning Platinum Preferred Contractor, BuildZoom top 4% score of 110, 471 projects in 3 years, known for transparent quotes",
+    "huntOutreachReady": true
+  },
+  {
+    "id": "lead_1775743257391_fm1az6",
+    "businessName": "SLR Roofing",
+    "contactFirstName": "Not",
+    "contactEmail": "slrroofing6@gmail.com",
+    "websiteUrl": "https://slrroofing.com/",
+    "city": "Los Angeles",
+    "serviceNiche": "Roofing Contractor",
+    "competitorName": "Bilt-well Roofing",
+    "reviewCount": 264,
+    "rating": null,
+    "notes": "Auto-discovered by Lead Hunter. AI citation: not cited on 0/1 platforms. Competitors cited: Bilt-well Roofing, J and J Roofing, Smart Roofing. Outreach-ready: YES (citation data + contact + differentiator verified). Differentiator: 20+ years experience since 1998, C-39 licensed, Owens Corning Preferred Contractor, Neighborhood Favorite 2021-2023, Title 24 Cool Roof specialization",
+    "status": "queued",
+    "research": null,
+    "reportSlug": "slr-roofing-7ykh",
+    "emailDraftId": null,
+    "fabricationFlags": [],
+    "emDashClean": false,
+    "actionLog": [
+      {
+        "action": "Queued by Lead Hunter (P2, score: 28, outreach-ready: true)",
+        "timestamp": "2026-04-09T14:00:57.391Z"
+      }
+    ],
+    "createdAt": "2026-04-09T14:00:57.391Z",
+    "updatedAt": "2026-04-09T14:00:57.391Z",
+    "huntSource": "hunt_1775743210629_lqp4",
+    "huntScore": 28,
+    "huntPriority": "P2",
+    "huntCitationResults": [
+      {
+        "platform": "chatgpt",
+        "query": "best Roofing Contractor in Los Angeles",
+        "cited": true,
+        "competitorsCited": [
+          "Bilt-well Roofing",
+          "J and J Roofing",
+          "Smart Roofing",
+          "Final Touch Roofing"
+        ]
+      }
+    ],
+    "huntDifferentiator": "20+ years experience since 1998, C-39 licensed, Owens Corning Preferred Contractor, Neighborhood Favorite 2021-2023, Title 24 Cool Roof specialization",
+    "huntOutreachReady": true
   }
 ]
