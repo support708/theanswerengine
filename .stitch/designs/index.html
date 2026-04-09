@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AEO Redesign - All 10 Screens</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            background-color: #0a0a0a;
+            color: #e5e2e1;
+            font-family: 'Inter', sans-serif;
+            padding: 20px;
+        }
+        .header {
+            display: flex;
+            gap: 12px;
+            margin-bottom: 20px;
+            border-bottom: 1px solid #353534;
+            padding-bottom: 20px;
+            overflow-x: auto;
+            flex-wrap: wrap;
+        }
+        .tab-btn {
+            padding: 10px 16px;
+            background: #1d1d1d;
+            border: 1px solid #353534;
+            color: #e5e2e1;
+            cursor: pointer;
+            font-size: 14px;
+            white-space: nowrap;
+            transition: all 0.2s;
+        }
+        .tab-btn:hover {
+            background: #2a2a2a;
+            border-color: #5a4136;
+        }
+        .tab-btn.active {
+            background: #353534;
+            border-color: #5a4136;
+            font-weight: 600;
+        }
+        .container {
+            display: none;
+            width: 100%;
+            height: 100vh;
+            border: 1px solid #353534;
+            background: #0a0a0a;
+        }
+        .container.active {
+            display: block;
+        }
+        iframe {
+            width: 100%;
+            height: 100%;
+            border: none;
+            background: #131313;
+        }
+        .footer {
+            position: fixed;
+            bottom: 10px;
+            right: 20px;
+            font-size: 12px;
+            color: #5a4136;
+            background: rgba(19, 19, 19, 0.9);
+            padding: 8px 12px;
+            border: 1px solid #353534;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <button class="tab-btn active" onclick="showScreen(0)">1. Homepage</button>
+        <button class="tab-btn" onclick="showScreen(1)">2. About</button>
+        <button class="tab-btn" onclick="showScreen(2)">3. Case Studies</button>
+        <button class="tab-btn" onclick="showScreen(3)">4. Blog Index</button>
+        <button class="tab-btn" onclick="showScreen(4)">5. Blog Post</button>
+        <button class="tab-btn" onclick="showScreen(5)">6. Blind Spot</button>
+        <button class="tab-btn" onclick="showScreen(6)">7. Contact</button>
+        <button class="tab-btn" onclick="showScreen(7)">8. Services</button>
+        <button class="tab-btn" onclick="showScreen(8)">9. Territory</button>
+        <button class="tab-btn" onclick="showScreen(9)">10. Admin</button>
+    </div>
+
+    <div id="screen0" class="container active">
+        <iframe src="screen1-homepage.html"></iframe>
+    </div>
+    <div id="screen1" class="container">
+        <iframe src="screen2-about.html"></iframe>
+    </div>
+    <div id="screen2" class="container">
+        <iframe src="screen3-casestudies.html"></iframe>
+    </div>
+    <div id="screen3" class="container">
+        <iframe src="screen4-blogindex.html"></iframe>
+    </div>
+    <div id="screen4" class="container">
+        <iframe src="screen5-blogpost.html"></iframe>
+    </div>
+    <div id="screen5" class="container">
+        <iframe src="screen6-blindspot.html"></iframe>
+    </div>
+    <div id="screen6" class="container">
+        <iframe src="screen7-contact.html"></iframe>
+    </div>
+    <div id="screen7" class="container">
+        <iframe src="screen8-services.html"></iframe>
+    </div>
+    <div id="screen8" class="container">
+        <iframe src="screen9-territory.html"></iframe>
+    </div>
+    <div id="screen9" class="container">
+        <iframe src="screen10-admin.html"></iframe>
+    </div>
+
+    <div class="footer">All 10 Screens • AEO Terminal Redesign</div>
+
+    <script>
+        function showScreen(n) {
+            const containers = document.querySelectorAll('.container');
+            const buttons = document.querySelectorAll('.tab-btn');
+            containers.forEach(c => c.classList.remove('active'));
+            buttons.forEach(b => b.classList.remove('active'));
+            document.getElementById('screen' + n).classList.add('active');
+            buttons[n].classList.add('active');
+        }
+    </script>
+</body>
+</html>

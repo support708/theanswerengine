@@ -1,0 +1,1 @@
+{"nodes": [{"id": "citationproof", "label": "CitationProof.tsx", "file_type": "code", "source_file": "app\\components\\CitationProof.tsx", "source_location": "L1"}], "edges": [{"source": "citationproof", "target": "react", "relation": "imports_from", "confidence": "EXTRACTED", "source_file": "app\\components\\CitationProof.tsx", "source_location": "L3", "weight": 1.0}]}

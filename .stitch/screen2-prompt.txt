@@ -1,0 +1,25 @@
+Dark brutalist "About" page for AEO_TERMINAL — an Answer Engine Optimization agency. Terminal/command-center aesthetic. This MUST match the existing homepage exactly in style: Space Grotesk font-black uppercase headlines, #131313 background, #FF6A00 burnt orange accent, sharp edges (NO rounded corners on cards/buttons), scanline overlay, monospace status indicators, grid dot background on hero.
+
+DESIGN SYSTEM (REQUIRED):
+- Platform: Web, Desktop-first responsive
+- Theme: Dark brutalist terminal/military-tech — NOT clean SaaS
+- Background: #131313 primary canvas, #1c1b1b alternate sections, #2a2a2a card surfaces
+- Text: #e5e2e1 headings, white/60 body, white/40 labels, white/20 metadata
+- Accent: #FF6A00 burnt orange for CTAs, highlights, data, active states
+- Typography Headings: Space Grotesk 800-900 (font-black), tracking-tighter, UPPERCASE ALWAYS
+- Typography Body: Inter 400, text-sm, leading-relaxed, white/60
+- Typography Labels: Space Grotesk text-xs tracking-widest uppercase white/40
+- Typography Mono: font-mono text-[10px] tracking-widest uppercase — for status indicators
+- Buttons: Sharp edges (NO border-radius), bg-[#FF6A00] text-black font-black primary, border-2 secondary
+- Cards: Sharp edges, border border-white/10, border-l-4 border-[#FF6A00] for accent
+- Nav: Fixed, "AEO_TERMINAL" logo in orange, links: INTEL, CORE (active with orange underline), ASSETS, NETWORK, IGNITE button
+- Footer: Mono text, "©2026 SYSTEM_AEO // OPERATIONAL", PROTOCOL/ENCRYPTION/LEGAL links
+
+PAGE STRUCTURE:
+1. **Nav:** Same as homepage but CORE link is active (orange underline instead of INTEL).
+2. **Hero Section:** Grid dot background. Orange mono tag "OPERATOR_PROFILE // CLEARANCE_LEVEL_MAX". Large headline "BUILT BY A PRACTITIONER, NOT A THEORIST" in Space Grotesk font-black text-7xl uppercase tracking-tighter. Accent on "PRACTITIONER" in orange. Subtext white/60: "Justin Borges didn't study AEO in a textbook. He built it on his own business, proved it worked, then weaponized it for others." Below: mono status line "STATUS: FIELD_TESTED // COMBAT_READY"
+3. **Timeline Section:** Section header "OPERATOR TIMELINE" with orange accent word. Vertical timeline with orange line on left. Milestones as cards with sharp edges, border-l-4 orange accent: "2012 // INIT" — 13+ years real estate, $200M+ in transactions. "2023 // DISCOVERY" — Built AEO system for own site, tested on real business. "2024 // VALIDATION" — Site begins appearing as #1 AI recommendation. "2025 // DEPLOYMENT" — Founded The Answer Engine, first clients onboarded. Each card has mono timestamp and status indicator.
+4. **AERO-10 Framework:** Section header "THE AERO-10 SCORING PROTOCOL" with orange accent. Grid of 10 metric cards in 2x5 or similar layout. Each card: sharp edges, border white/10, large number (01-10) in white/10, pillar name in Space Grotesk bold uppercase, brief description in white/60, and an orange progress bar showing relative weight. Pillars: Answer Quality, Entity Optimization, Relevance Depth, Structural Authority, Voice Calibration, Authority Signals, Distribution Matrix, Platform Alignment, Cluster Architecture, Conversion Protocol.
+5. **Differentiators:** Section header "WHY WE DOMINATE" with orange accent. 3 cards in a row with gap-0 and border dividers (same style as homepage 3-step cards). Card 1: "FIELD_TESTED" — Built for ourselves first, not a theory. Card 2: "TERRITORY_LOCK" — Exclusive one-per-category-per-city. Card 3: "GUARANTEE_PROTOCOL" — 90-day citation or we work free. Each with icon, mono status line.
+6. **Scanline overlay** on entire page at opacity-[0.03].
+7. **Footer:** Same as homepage.

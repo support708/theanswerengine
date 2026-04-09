@@ -1,0 +1,23 @@
+Dark brutalist "Contact" page for AEO_TERMINAL. Conversion-focused. Terminal/command-center aesthetic. Space Grotesk font-black uppercase headlines, #131313 background, #FF6A00 accent, sharp edges, scanline overlay, mono indicators.
+
+DESIGN SYSTEM (REQUIRED):
+- Background: #131313 primary, #1c1b1b alternate, #2a2a2a cards
+- Accent: #FF6A00 burnt orange
+- Typography: Space Grotesk 800-900 font-black uppercase headings, Inter body
+- Cards/Inputs: Sharp edges, border white/10, NO rounded corners
+- Nav: "AEO_TERMINAL" orange logo, NETWORK active (orange underline)
+- Footer: Mono "©2026 SYSTEM_AEO // OPERATIONAL"
+
+PAGE STRUCTURE:
+1. **Nav:** Same, NETWORK active.
+2. **Hero:** Grid dot bg. Mono tag "COMMS_CHANNEL // SECURE_LINE". Headline "ESTABLISH CONTACT" in Space Grotesk font-black text-7xl uppercase. "CONTACT" in orange. Subtext: "Direct line to The Answer Engine command center."
+3. **Split Layout:** Two columns.
+   Left column: Contact info cards stacked vertically, sharp edges.
+   - Phone card: border-l-4 orange, bg-surface-container-high. Icon + "DIRECT_LINE" mono label + "(213) 444-2229" in Space Grotesk font-bold text-2xl.
+   - Email card: same style. "ENCRYPTED_CHANNEL" mono label + "support@theanswerengine.ai" in Space Grotesk font-bold text-xl.
+   - Hours card: same style. "OPERATIONAL_HOURS" mono label + "MON-FRI 0900-1800 PT" in Space Grotesk.
+   - Response time: mono text "AVG_RESPONSE: 2.4HRS"
+   Right column: Form card, sharp edges, border-t-4 orange, bg-surface-container-high. Mono header "TRANSMISSION_FORM". Fields: Name, Email, Phone, Business Type (dropdown), Message (textarea), "How did you find us?" (dropdown). All inputs sharp edges, bg-surface, border white/10. Submit button: full-width bg-[#FF6A00] text-black font-black "TRANSMIT".
+4. **Strategy Call Card:** Full-width below, sharp edges, bg-surface-container, border-l-4 orange. "FREE 30-MINUTE STRATEGY BRIEFING" headline. Three bullet points with orange checkmarks: "Identify which competitor owns your AI territory", "Map your citation blind spots across all platforms", "Receive a 90-day dominance roadmap". Dual CTAs: orange "SCHEDULE BRIEFING" + outline "REQUEST INTEL PACKET".
+5. **Trust Signals:** 3 cards in a row, gap-0, border dividers. "90-DAY GUARANTEE" with shield icon, "TERRITORY EXCLUSIVITY" with lock icon, "24HR RESPONSE" with clock icon. Each mono status line below.
+6. **Footer:** Same.

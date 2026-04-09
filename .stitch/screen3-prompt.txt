@@ -1,0 +1,25 @@
+Dark brutalist "Case Studies" page for AEO_TERMINAL — an Answer Engine Optimization agency. Terminal/command-center aesthetic. MUST match the existing homepage and about page: Space Grotesk font-black uppercase headlines, #131313 background, #FF6A00 burnt orange accent, sharp edges (NO rounded corners), scanline overlay, monospace status indicators, grid dot backgrounds.
+
+DESIGN SYSTEM (REQUIRED):
+- Platform: Web, Desktop-first responsive
+- Theme: Dark brutalist terminal/military-tech — NOT clean SaaS
+- Background: #131313 primary, #1c1b1b alternate sections, #2a2a2a card surfaces
+- Text: #e5e2e1 headings, white/60 body, white/40 labels, white/20 metadata
+- Accent: #FF6A00 burnt orange for CTAs, highlights, data, active states
+- Typography Headings: Space Grotesk 800-900 (font-black), tracking-tighter, UPPERCASE ALWAYS
+- Typography Body: Inter 400, text-sm, leading-relaxed, white/60
+- Typography Mono: font-mono text-[10px] tracking-widest uppercase — status indicators
+- Buttons: Sharp edges (NO border-radius), bg-[#FF6A00] text-black font-black
+- Cards: Sharp edges, border border-white/10, border-l-4 border-[#FF6A00] for accent
+- Nav: Fixed, "AEO_TERMINAL" logo orange, links: INTEL, CORE, ASSETS (active orange underline), NETWORK, IGNITE button
+- Footer: Mono text, SYSTEM_AEO, PROTOCOL/ENCRYPTION/LEGAL links
+
+PAGE STRUCTURE:
+1. **Nav:** Same as homepage but ASSETS is active link.
+2. **Hero Section:** Grid dot background. Mono tag "MISSION_LOGS // DECLASSIFIED". Large headline "PROOF OF DOMINANCE" in Space Grotesk font-black text-7xl uppercase. "DOMINANCE" in orange. Subtext white/60: "Measurable results. Real businesses. Zero theory." Mono status: "RECORDS: VERIFIED // ENCRYPTION: NONE"
+3. **Aggregate Stats Bar:** Full-width dark bar with 4 large KPI metrics in a row. "47" total citations generated (large orange number), "12" active territories, "67" avg days to first citation, "4.2x" avg traffic multiplier. Each with mono label above and Space Grotesk font-black number.
+4. **Case Study Grid:** 2-column grid of mission cards. Each card: sharp edges, border white/10, bg-surface hover:bg-surface-container-high. Top of card: industry icon (material symbol) + industry label in mono text. Large result headline in Space Grotesk bold: "PLUMBER: 0 TO 4 AI CITATIONS IN 67 DAYS". Metrics row below with orange numbers: Citations Before (0), After (4), Platforms (3), Days (67). Bottom: mono status "MISSION_STATUS: COMPLETE". Show 6 cards: Plumber (Phoenix), HVAC (Austin), Real Estate (Denver), Dental (Miami), Personal Injury Law (LA), Roofing (Dallas). Each with realistic metrics.
+5. **Expanded Case Study Preview:** One featured case study expanded below the grid. Left side: timeline with orange dots and sharp-edge milestone cards showing Strategy, Implementation, Results phases. Right side: before/after metrics dashboard with large numbers and orange progress bars. Make it look like a data terminal readout.
+6. **CTA Section:** Full-width orange bg section. "READY TO SEE YOUR NAME IN AI RESULTS?" headline in black font-black. Black button "INITIATE AUDIT" with orange text.
+7. **Scanline overlay** across entire page.
+8. **Footer:** Same as homepage.

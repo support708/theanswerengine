@@ -1,0 +1,18 @@
+Dark brutalist "Territory Check" mini landing page for AEO_TERMINAL. Creates urgency around territory exclusivity. Terminal/command-center aesthetic. Space Grotesk font-black uppercase headlines, #131313 background, #FF6A00 accent, sharp edges, scanline overlay, mono indicators.
+
+DESIGN SYSTEM (REQUIRED):
+- Background: #131313 primary, #1c1b1b alternate, #2a2a2a cards
+- Accent: #FF6A00 burnt orange
+- Typography: Space Grotesk 800-900 font-black uppercase headings, Inter body
+- Cards/Inputs: Sharp edges, border white/10, NO rounded corners
+- Nav: "AEO_TERMINAL" orange logo, INTEL active (orange underline)
+- Footer: Mono "©2026 SYSTEM_AEO // OPERATIONAL"
+
+PAGE STRUCTURE:
+1. **Nav:** Same, INTEL active.
+2. **Hero:** Grid dot bg. Mono tag "TERRITORY_DEFENSE // PERIMETER_CHECK". Headline "CHECK IF YOUR TERRITORY IS STILL AVAILABLE" in Space Grotesk font-black text-6xl uppercase. "TERRITORY" in orange. Subtext: "One business per category. Per city. Once claimed, your competitors are permanently locked out."
+3. **Form:** Centered card, sharp edges, border-t-4 orange, bg-surface-container-high. Mono header "PERIMETER_QUERY // INPUT_COORDINATES". Two fields side by side: Industry (dropdown) + City/State (text input). Both sharp edges. Full-width orange submit button "CHECK AVAILABILITY".
+4. **Territory Grid:** Section header "ACTIVE TERRITORY MAP". Large grid visualization showing territories. 4-column grid of territory cards. Each card: sharp edges, shows City name in mono white/40 at top, Category in Space Grotesk bold, and status badge. Claimed territories: green "SECURED" badge, dimmed appearance, border white/5. Available territories: orange glow border, bright "AVAILABLE" badge pulsing, border-[#FF6A00]. Show mix: Austin TX - Solar (claimed), Phoenix AZ - Luxury Real Estate (available with orange glow), Denver CO - Personal Injury (claimed), Miami FL - Dental (available), LA - Roofing (claimed), Dallas TX - HVAC (available), Chicago IL - Plumbing (claimed), Seattle WA - Real Estate (available). Create visual urgency with more claimed than available.
+5. **Urgency Section:** Dark bg, large text. "ONLY ONE BUSINESS PER CATEGORY PER AREA. ONCE CLAIMED, YOUR COMPETITORS ARE LOCKED OUT." Space Grotesk font-bold text-3xl. Below: animated-style counter "TERRITORIES_CLAIMED_THIS_MONTH: 23" in mono orange.
+6. **CTA:** Orange bg section. "LOCK IN YOUR TERRITORY BEFORE IT'S GONE" headline. Black button "SECURE POSITION".
+7. **Footer:** Same.

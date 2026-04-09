@@ -1,0 +1,25 @@
+Dark brutalist "Services" page for AEO_TERMINAL. Package/offering breakdown. Terminal/command-center aesthetic. Space Grotesk font-black uppercase headlines, #131313 background, #FF6A00 accent, sharp edges, scanline overlay, mono indicators.
+
+DESIGN SYSTEM (REQUIRED):
+- Background: #131313 primary, #1c1b1b alternate, #2a2a2a cards
+- Accent: #FF6A00 burnt orange
+- Typography: Space Grotesk 800-900 font-black uppercase headings, Inter body
+- Cards: Sharp edges, border white/10, NO rounded corners
+- Nav: "AEO_TERMINAL" orange logo, CORE active (orange underline)
+- Footer: Mono "©2026 SYSTEM_AEO // OPERATIONAL"
+
+PAGE STRUCTURE:
+1. **Nav:** Same, CORE active.
+2. **Hero:** Grid dot bg. Mono tag "SERVICE_MANIFEST // CLASSIFIED". Headline "WHAT YOU GET" in Space Grotesk font-black text-7xl uppercase. "GET" in orange. Subtext: "The Answer Authority Foundation — a complete AEO deployment protocol."
+3. **Package Card:** Large featured card, sharp edges, bg-surface-container-high, border-l-4 orange, border-t-4 orange (L-shaped accent). Mono header "PACKAGE: ANSWER_AUTHORITY_FOUNDATION". Inside: 2x3 grid of included items, each with orange checkmark icon and item name in Space Grotesk bold + description in white/60:
+   - Competitive Audit: Full AI citation landscape analysis
+   - AI-Optimized Articles/Month: High-authority content deployment
+   - Schema Implementation: Structured data for AI comprehension
+   - Citation Monitoring: Real-time tracking across all platforms
+   - Monthly Reporting: Performance metrics and optimization data
+   - Territory Protection: Exclusive category + city lockout
+   Below grid: mono status "DEPLOYMENT_TIMELINE: 90_DAYS // GUARANTEE: ACTIVE"
+4. **AEO vs SEO Comparison:** Section header "PROTOCOL COMPARISON" with orange accent. Sharp-edge table. Header row: bg-[#FF6A00] text-black font-black. Columns: PARAMETER, TRADITIONAL SEO, ANSWER ENGINE OPTIMIZATION. Rows comparing: Objective (rank links vs get cited by AI), Content Strategy (keyword stuffing vs semantic authority), Results Timeline (6-12 months vs 60-90 days), Measurement (page rank vs citation frequency), Exclusivity (none vs territory protection). AEO column values in orange text.
+5. **Service FAQ:** Section header "FREQUENTLY ASKED". 5 accordion items with sharp edges. Active item has border-l-4 orange and expanded answer. Questions: pricing model, what industries you serve, how territory protection works, minimum commitment, what happens after 90 days.
+6. **CTA:** Orange bg section. "CLAIM YOUR TERRITORY" headline. Black button "DEPLOY NOW".
+7. **Footer:** Same.

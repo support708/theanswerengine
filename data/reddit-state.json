@@ -276,38 +276,59 @@
     "1sg17zj": 1775675565816,
     "1sg3uw5": 1775678776254,
     "1sg4ra2": 1775681148239,
-    "1sg4qfj": 1775681157870
+    "1sg4qfj": 1775681157870,
+    "1sg87sr": 1775689252734,
+    "1sgcjsi": 1775709282952,
+    "1sgd4bk": 1775709290581,
+    "1sgf69h": 1775709334485,
+    "1sgco6n": 1775709343938,
+    "1sgav8g": 1775709352785,
+    "1sgdljl": 1775709381512,
+    "1sgee0w": 1775709407002,
+    "1sgg48d": 1775710868907,
+    "1sgi5xh": 1775723434415,
+    "1sgnwy5": 1775736969683,
+    "1sgry09": 1775749850383,
+    "1sgsu4j": 1775749859996,
+    "1sgt2ve": 1775749889507
   },
   "lastPollBySubreddit": {},
   "lastDigestByClient": {
-    "the-answer-engine": "2026-04-08T22:07:29.460Z",
-    "lovery-re": "2026-04-08T22:07:28.439Z",
-    "rpm-southland": "2026-04-08T22:07:30.314Z"
+    "the-answer-engine": "2026-03-30T19:07:13.644Z",
+    "lovery-re": "2026-03-30T19:07:14.666Z",
+    "rpm-southland": "2026-03-30T19:07:15.927Z"
   },
   "monthlyStats": {
-    "month": "2026-04",
-    "totalScanned": 0,
-    "totalQualified": 0,
+    "month": "2026-03",
+    "totalScanned": 8641,
+    "totalQualified": 48,
     "byClient": {
-      "lovery-re": {
-        "opportunities": 0,
-        "digestsSent": 1,
-        "highImpact": 0,
-        "mediumImpact": 0,
+      "davis-agency": {
+        "opportunities": 5,
+        "digestsSent": 0,
+        "highImpact": 3,
+        "mediumImpact": 2,
         "lowImpact": 0
       },
-      "the-answer-engine": {
-        "opportunities": 0,
+      "lovery-re": {
+        "opportunities": 21,
         "digestsSent": 1,
-        "highImpact": 0,
-        "mediumImpact": 0,
+        "highImpact": 15,
+        "mediumImpact": 5,
+        "lowImpact": 1
+      },
+      "the-answer-engine": {
+        "opportunities": 11,
+        "digestsSent": 1,
+        "highImpact": 8,
+        "mediumImpact": 3,
         "lowImpact": 0
       },
       "rpm-southland": {
-        "opportunities": 0,
+        "opportunities": 11,
         "digestsSent": 1,
-        "highImpact": 0,
-        "mediumImpact": 0,
+        "highImpact": 5,
+        "mediumImpact": 6,
         "lowImpact": 0
       }
     }

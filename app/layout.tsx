@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono, Plus_Jakarta_Sans, Inter } from "next/font/google";
+import { Space_Grotesk, Inter } from "next/font/google";
 import Image from 'next/image';
 import { Analytics } from '@vercel/analytics/react';
 import { SpeedInsights } from '@vercel/speed-insights/next';
@@ -22,20 +22,10 @@ export const metadata: Metadata = {
   }
 };
 
-const geistSans = Geist({
-  variable: "--font-geist-sans",
+const spaceGrotesk = Space_Grotesk({
+  variable: "--font-headline",
   subsets: ["latin"],
-});
-
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
-  subsets: ["latin"],
-});
-
-const plusJakarta = Plus_Jakarta_Sans({
-  variable: "--font-heading",
-  subsets: ["latin"],
-  weight: ["500", "600", "700"],
+  weight: ["400", "500", "600", "700"],
 });
 
 const inter = Inter({
@@ -58,7 +48,7 @@ export default function RootLayout({
         <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
         <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
         <link rel="manifest" href="/site.webmanifest" />
-        <meta name="theme-color" content="#0F1117" />
+        <meta name="theme-color" content="#131313" />
         
         <script
           type="application/ld+json"
@@ -117,7 +107,7 @@ export default function RootLayout({
         />
       </head>
       <body
-        className={`${geistSans.variable} ${geistMono.variable} ${plusJakarta.variable} ${inter.variable} antialiased bg-[#0F1117]`}
+        className={`${spaceGrotesk.variable} ${inter.variable} antialiased bg-[#131313]`}
       >
         {/* Skip to main content link for accessibility */}
         <a
@@ -133,145 +123,83 @@ export default function RootLayout({
           {children}
         </main>
 
-        <section id="contact" className="bg-[#0F1117] py-20 sm:py-32 relative">
-          
-          <div className="max-w-4xl mx-auto px-6 relative">
-            <header className="text-center mb-20">
-              <p className="text-sm text-white/30 uppercase tracking-widest mb-6">Contact</p>
-              <h2 className="text-3xl sm:text-4xl lg:text-5xl font-semibold mb-6 leading-tight tracking-tight text-white font-heading">
-                Get started
+        <section id="contact" className="bg-[#1c1b1b] py-32 px-6 lg:px-24 border-t border-white/10">
+          <div className="max-w-7xl mx-auto">
+            <div className="mb-16">
+              <span className="font-mono text-[10px] text-[#FF6A00] tracking-widest uppercase block mb-4">COMMS_CHANNEL // SECURE_LINE</span>
+              <h2 className="font-headline font-black text-4xl sm:text-5xl lg:text-6xl tracking-tighter uppercase text-[#e5e2e1]">
+                ESTABLISH <span className="text-[#FF6A00]">CONTACT</span>
               </h2>
-              <p className="text-lg text-white/40 max-w-lg mx-auto leading-relaxed">
-                Let&apos;s discuss how to get your business cited by AI platforms.
-              </p>
-            </header>
+            </div>
 
-            <div className="grid sm:grid-cols-2 gap-6 mb-20">
-              <div className="border border-white/[0.06] rounded-2xl p-10 hover:border-white/[0.10] transition-all">
-                <div className="text-center">
-                  <h3 className="text-lg font-medium mb-2 text-white font-heading">Call</h3>
-                  <p className="text-white/30 text-sm mb-6">Speak with an AEO specialist</p>
-                  <a
-                    href="tel:+12134442229"
-                    className="inline-block text-2xl font-medium text-white hover:text-white/80 transition-colors"
-                  >
-                    (213) 444-2229
-                  </a>
-                </div>
+            <div className="grid md:grid-cols-3 gap-0 border border-white/10 mb-16">
+              <div className="p-8 border-b md:border-b-0 md:border-r border-white/10 bg-[#2a2a2a] border-l-4 border-l-[#FF6A00]">
+                <span className="font-mono text-[10px] text-white/40 tracking-widest uppercase block mb-3">DIRECT_LINE</span>
+                <a href="tel:+12134442229" className="text-2xl font-headline font-bold text-[#e5e2e1] hover:text-[#FF6A00] transition-colors">
+                  (213) 444-2229
+                </a>
               </div>
-
-              <div className="border border-white/[0.06] rounded-2xl p-10 hover:border-white/[0.10] transition-all">
-                <div className="text-center">
-                  <h3 className="text-lg font-medium mb-2 text-white font-heading">Email</h3>
-                  <p className="text-white/30 text-sm mb-6">Response within 24 hours</p>
-                  <a
-                    href="mailto:support@theanswerengine.ai"
-                    className="inline-block text-lg font-medium text-white/60 hover:text-white transition-colors break-all"
-                  >
-                    support@theanswerengine.ai
-                  </a>
-                </div>
+              <div className="p-8 border-b md:border-b-0 md:border-r border-white/10 bg-[#2a2a2a]">
+                <span className="font-mono text-[10px] text-white/40 tracking-widest uppercase block mb-3">ENCRYPTED_CHANNEL</span>
+                <a href="mailto:support@theanswerengine.ai" className="text-lg font-headline font-bold text-[#e5e2e1] hover:text-[#FF6A00] transition-colors break-all">
+                  support@theanswerengine.ai
+                </a>
+              </div>
+              <div className="p-8 bg-[#2a2a2a]">
+                <span className="font-mono text-[10px] text-white/40 tracking-widest uppercase block mb-3">OPERATIONAL_HOURS</span>
+                <span className="text-lg font-headline font-bold text-[#e5e2e1]">MON-FRI 0900-1800 PT</span>
+                <span className="font-mono text-[10px] text-[#FF6A00] tracking-widest uppercase block mt-2">AVG_RESPONSE: 2.4HRS</span>
               </div>
             </div>
 
-            <div className="border border-white/[0.06] rounded-2xl p-12 sm:p-16">
-              <div className="text-center mb-10">
-                <h3 className="text-2xl sm:text-3xl font-semibold mb-4 text-white font-heading tracking-tight">
-                  Free 30-minute strategy call
-                </h3>
-                <p className="text-white/40 max-w-lg mx-auto leading-relaxed">
-                  We&apos;ll map where you&apos;re losing to competitors in AI citations and build your 90-day plan.
-                </p>
-              </div>
-
-              <div className="space-y-3 mb-10 max-w-md mx-auto">
+            <div className="bg-[#131313] border border-white/10 border-l-4 border-l-[#FF6A00] p-12 sm:p-16">
+              <h3 className="font-headline font-black text-2xl sm:text-3xl tracking-tighter uppercase text-[#e5e2e1] mb-6">
+                FREE 30-MINUTE STRATEGY BRIEFING
+              </h3>
+              <div className="space-y-4 mb-10 max-w-lg">
                 {[
-                  "See where competitors outrank you in AI citations",
-                  "Identify your highest-value opportunities",
-                  "Get a concrete 90-day implementation plan"
+                  "Identify which competitor owns your AI territory",
+                  "Map your citation blind spots across all platforms",
+                  "Receive a 90-day dominance roadmap"
                 ].map((text, i) => (
-                  <div key={i} className="flex items-start gap-3">
-                    <div className="w-1 h-1 rounded-full bg-white/30 mt-2.5 flex-shrink-0" />
-                    <span className="text-white/50 text-[15px]">{text}</span>
+                  <div key={i} className="flex items-center gap-3">
+                    <span className="text-[#FF6A00] text-sm">&#10003;</span>
+                    <span className="text-white/60 text-sm">{text}</span>
                   </div>
                 ))}
               </div>
-
-              <div className="flex flex-col sm:flex-row gap-4 justify-center">
+              <div className="flex flex-col sm:flex-row gap-4">
                 <a
                   href="tel:+12134442229"
-                  className="inline-flex items-center justify-center gap-2 px-7 py-3.5 rounded-xl text-[15px] font-semibold bg-white text-[#0F1117] hover:bg-white/90 transition-all"
+                  className="inline-flex items-center justify-center bg-[#FF6A00] text-black font-black px-10 py-4 tracking-tighter hover:translate-y-[2px] transition-transform font-headline uppercase"
                 >
-                  Call: (213) 444-2229
+                  SCHEDULE BRIEFING
                 </a>
                 <a
                   href="mailto:support@theanswerengine.ai"
-                  className="inline-flex items-center justify-center gap-2 px-7 py-3.5 rounded-xl text-[15px] font-medium text-white/60 hover:text-white border border-white/[0.08] hover:border-white/[0.15] transition-all"
+                  className="inline-flex items-center justify-center border-2 border-white/20 text-white/60 font-bold px-10 py-4 tracking-tighter hover:bg-white/5 transition-all font-headline uppercase"
                 >
-                  Email Us
+                  REQUEST INTEL
                 </a>
               </div>
-            </div>
-
-            <div className="mt-12 text-center">
-              <p className="text-sm text-white/20">
-                Mon-Fri, 9 AM - 6 PM PT. Response within 24 hours.
-              </p>
+              <span className="font-mono text-[10px] text-white/20 tracking-widest uppercase block mt-6">STATUS: ACCEPTING_NEW_OPERATORS</span>
             </div>
           </div>
         </section>
 
-        <footer className="border-t border-white/[0.06] text-white py-16">
-          <div className="max-w-6xl mx-auto px-6">
-            <div className="flex flex-col md:flex-row justify-between items-start gap-12 mb-12">
-              <div className="max-w-sm">
-                <Image
-                  src="/TheAnswerEngine_white logo only.png"
-                  alt="The Answer Engine"
-                  width={120}
-                  height={40}
-                  className="h-8 w-auto mb-4 opacity-60"
-                />
-                <p className="text-white/30 text-sm">
-                  Answer Engine Optimization for local service businesses.
-                </p>
-              </div>
-
-              <div className="grid grid-cols-2 sm:grid-cols-3 gap-12">
-                <div>
-                  <h3 className="text-sm font-medium text-white/50 mb-4">Company</h3>
-                  <ul className="space-y-3">
-                    <li><a href="/about" className="text-sm text-white/30 hover:text-white/60 transition-colors">About</a></li>
-                    <li><a href="/case-studies" className="text-sm text-white/30 hover:text-white/60 transition-colors">Case Studies</a></li>
-                    <li><a href="/blog" className="text-sm text-white/30 hover:text-white/60 transition-colors">Blog</a></li>
-                  </ul>
-                </div>
-                <div>
-                  <h3 className="text-sm font-medium text-white/50 mb-4">Services</h3>
-                  <ul className="space-y-3">
-                    <li><a href="#territory-check" className="text-sm text-white/30 hover:text-white/60 transition-colors">Territory Check</a></li>
-                    <li><a href="/contact" className="text-sm text-white/30 hover:text-white/60 transition-colors">Contact</a></li>
-                  </ul>
-                </div>
-                <div>
-                  <h3 className="text-sm font-medium text-white/50 mb-4">Connect</h3>
-                  <ul className="space-y-3">
-                    <li><a href="https://www.linkedin.com/company/theanswerengine" target="_blank" rel="noopener noreferrer" className="text-sm text-white/30 hover:text-white/60 transition-colors">LinkedIn</a></li>
-                    <li><a href="https://instagram.com/theanswerengine" target="_blank" rel="noopener noreferrer" className="text-sm text-white/30 hover:text-white/60 transition-colors">Instagram</a></li>
-                  </ul>
-                </div>
-              </div>
+        <footer className="w-full border-t border-white/5 bg-[#131313] relative overflow-hidden">
+          <div className="grid grid-cols-1 md:flex md:justify-between items-center px-8 py-4 w-full">
+            <div className="font-mono text-[10px] uppercase tracking-widest text-white/40">
+              &copy;{new Date().getFullYear()} SYSTEM_AEO // OPERATIONAL
             </div>
-
-            <div className="h-px bg-white/[0.04] mb-8" />
-            <div className="flex flex-col sm:flex-row justify-between items-center gap-4">
-              <p className="text-sm text-white/20">&copy; {new Date().getFullYear()} The Answer Engine</p>
-              <div className="flex items-center gap-6">
-                <a href="/privacy" className="text-sm text-white/20 hover:text-white/40 transition-colors">Privacy</a>
-                <a href="/terms" className="text-sm text-white/20 hover:text-white/40 transition-colors">Terms</a>
-              </div>
+            <div className="flex gap-6 mt-2 md:mt-0">
+              <a className="font-mono text-[10px] uppercase tracking-widest text-white/40 hover:text-[#FF6A00] transition-colors" href="/privacy">PROTOCOL</a>
+              <a className="font-mono text-[10px] uppercase tracking-widest text-white/40 hover:text-[#FF6A00] transition-colors" href="/terms">LEGAL</a>
+              <a className="font-mono text-[10px] uppercase tracking-widest text-white/40 hover:text-[#FF6A00] transition-colors" href="/about">CORE</a>
+              <a className="font-mono text-[10px] uppercase tracking-widest text-white/40 hover:text-[#FF6A00] transition-colors" href="/blog">ASSETS</a>
             </div>
           </div>
+          <div className="absolute bottom-0 right-0 h-1 w-32 bg-[#FF6A00]" />
         </footer>
         
         <Analytics />

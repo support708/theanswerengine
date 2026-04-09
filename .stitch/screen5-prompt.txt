@@ -1,0 +1,26 @@
+Dark brutalist "Single Blog Post" page for AEO_TERMINAL. This is the article reading template that must support Championship Format blog components. Terminal/command-center aesthetic. Space Grotesk font-black uppercase headlines, #131313 background, #FF6A00 accent, sharp edges, scanline overlay, mono indicators.
+
+DESIGN SYSTEM (REQUIRED):
+- Background: #131313 primary, #1c1b1b alternate, #2a2a2a cards
+- Accent: #FF6A00 burnt orange
+- Typography: Space Grotesk 800-900 font-black uppercase for headings, Inter for body content
+- Cards: Sharp edges, border white/10
+- Nav: "AEO_TERMINAL" orange logo, ASSETS active
+- Footer: Mono "©2026 SYSTEM_AEO // OPERATIONAL"
+
+PAGE STRUCTURE:
+1. **Reading Progress Bar:** Fixed at very top of viewport, 3px height, bg-[#FF6A00], width grows as user scrolls. Above the nav.
+2. **Nav:** Same, ASSETS active.
+3. **Article Hero:** Full-width section, grid-bg dots. Mono tag "INTELLIGENCE_BRIEF // AEO_EDUCATION". H1 title "What Is Answer Engine Optimization? The Complete 2026 Guide" in Space Grotesk font-black text-5xl uppercase tracking-tighter. Below title: author row — small square avatar placeholder, "JUSTIN BORGES" in Space Grotesk bold, "PUBLISHED: 2026.03.15" and "READ_TIME: 12MIN" in mono text-[10px] white/20. Share buttons row: square sharp-edge icon buttons for Twitter, LinkedIn, Copy Link.
+4. **Content Body with Sidebar:** Two-column layout. Left (8 cols): article content area, max-width 65ch. Show realistic article content with these Championship Format components:
+   - Opening paragraphs in Inter text-base white/80 leading-relaxed
+   - H2 subheadings in Space Grotesk font-bold text-2xl uppercase
+   - A stat grid: 4 cards in a row with sharp edges, border white/10, large orange number, label below in mono
+   - A callout box: border-l-4 border-[#FF6A00], bg-surface-container-high, sharp edges, icon + text
+   - A comparison table: sharp edges, border white/10, orange header row bg-[#FF6A00] text-black, alternating row bg
+   - A pros/cons section: two columns, green checkmarks vs red X marks
+   - A blockquote: border-l-4 border-[#FF6A00], italic text, attribution in mono
+   Right sidebar (4 cols): sticky. Table of contents with numbered items, orange active indicator. Below: "RELATED INTEL" section with 3 compact article cards.
+5. **CTA Block:** Full-width card below article, border-l-4 orange, bg-surface-container-high. "GET YOUR FREE COMPETITIVE AUDIT" headline in Space Grotesk bold. Orange CTA button "INITIATE AUDIT". Mono status line.
+6. **Author Card:** Bottom card with sharp edges. Avatar placeholder left, "JUSTIN BORGES" name, "Founder, The Answer Engine. 13+ years in real estate. Built AEO on his own business before offering it to clients." Bio text. Mono: "CLEARANCE: MAXIMUM"
+7. **Footer:** Same.

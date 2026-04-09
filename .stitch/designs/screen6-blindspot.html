@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+
+<html class="dark" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>AEO_TERMINAL // BLIND_SPOT_CHECKER</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;700;900&amp;family=Inter:wght@400;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<style>
+        body {
+            background-color: #131313;
+            background-image: radial-gradient(#2a2a2a 1px, transparent 1px);
+            background-size: 24px 24px;
+        }
+        .scanline-overlay {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(to bottom, transparent 50%, rgba(0, 0, 0, 0.1) 50%);
+            background-size: 100% 4px;
+            pointer-events: none;
+            z-index: 100;
+        }
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+        .hard-offset-orange {
+            box-shadow: 4px 4px 0px 0px #ff6a00;
+        }
+        .hard-offset-black {
+            box-shadow: 4px 4px 0px 0px #000000;
+        }
+    </style>
+<script id="tailwind-config">
+        tailwind.config = {
+          darkMode: "class",
+          theme: {
+            extend: {
+              "colors": {
+                      "surface-dim": "#131313",
+                      "on-primary-container": "#571f00",
+                      "primary-fixed-dim": "#ffb694",
+                      "secondary-fixed": "#d5e3fc",
+                      "on-secondary-fixed-variant": "#3a485b",
+                      "tertiary-fixed": "#d0e4ff",
+                      "surface-tint": "#ffb694",
+                      "surface-bright": "#3a3939",
+                      "on-primary-fixed-variant": "#7b2f00",
+                      "on-primary": "#571f00",
+                      "outline-variant": "#5a4136",
+                      "on-tertiary": "#003256",
+                      "tertiary": "#9ccaff",
+                      "surface-container-high": "#2a2a2a",
+                      "on-error": "#690005",
+                      "surface-container-low": "#1c1b1b",
+                      "surface-container-highest": "#353534",
+                      "secondary-container": "#3c4a5e",
+                      "surface-container-lowest": "#0e0e0e",
+                      "inverse-on-surface": "#313030",
+                      "tertiary-container": "#009eff",
+                      "on-secondary": "#233144",
+                      "on-secondary-container": "#abb9d1",
+                      "surface-container": "#201f1f",
+                      "secondary-fixed-dim": "#b9c7df",
+                      "primary-container": "#ff6a00",
+                      "inverse-surface": "#e5e2e1",
+                      "primary-fixed": "#ffdbcc",
+                      "on-secondary-fixed": "#0d1c2e",
+                      "error": "#ffb4ab",
+                      "primary": "#ffb694",
+                      "on-surface-variant": "#e2bfb0",
+                      "on-surface": "#e5e2e1",
+                      "background": "#131313",
+                      "inverse-primary": "#a14000",
+                      "tertiary-fixed-dim": "#9ccaff",
+                      "on-tertiary-fixed": "#001d35",
+                      "on-background": "#e5e2e1",
+                      "surface-variant": "#353534",
+                      "on-primary-fixed": "#351000",
+                      "on-error-container": "#ffdad6",
+                      "surface": "#131313",
+                      "error-container": "#93000a",
+                      "on-tertiary-fixed-variant": "#00497a",
+                      "secondary": "#b9c7df",
+                      "outline": "#a98a7d",
+                      "on-tertiary-container": "#003357"
+              },
+              "borderRadius": {
+                      "DEFAULT": "0px",
+                      "lg": "0px",
+                      "xl": "0px",
+                      "full": "0px"
+              },
+              "fontFamily": {
+                      "headline": ["Space Grotesk"],
+                      "body": ["Inter"],
+                      "label": ["Space Grotesk"]
+              }
+            },
+          },
+        }
+    </script>
+</head>
+<body class="font-body text-on-background selection:bg-primary-container selection:text-white overflow-x-hidden">
+<div class="scanline-overlay"></div>
+<!-- Top Navigation -->
+<nav class="fixed top-0 w-full z-50 bg-zinc-950 border-b border-orange-600/20 flex justify-between items-center px-6 h-16 w-full">
+<div class="text-2xl font-black text-orange-600 tracking-widest font-['Space_Grotesk'] uppercase">
+            AEO_TERMINAL
+        </div>
+<div class="hidden md:flex gap-8 items-center h-full">
+<a class="font-['Space_Grotesk'] uppercase tracking-tighter font-bold text-orange-600 border-b-2 border-orange-600 pb-1 hover:text-orange-400 transition-colors" href="#">INTEL</a>
+<a class="font-['Space_Grotesk'] uppercase tracking-tighter font-bold text-zinc-500 hover:text-orange-400 transition-colors" href="#">COMMAND</a>
+<a class="font-['Space_Grotesk'] uppercase tracking-tighter font-bold text-zinc-500 hover:text-orange-400 transition-colors" href="#">NETWORK</a>
+<a class="font-['Space_Grotesk'] uppercase tracking-tighter font-bold text-zinc-500 hover:text-orange-400 transition-colors" href="#">LOGS</a>
+</div>
+<div class="flex items-center gap-4">
+<span class="material-symbols-outlined text-zinc-500 hover:text-orange-400 cursor-pointer">terminal</span>
+<span class="material-symbols-outlined text-zinc-500 hover:text-orange-400 cursor-pointer">settings</span>
+</div>
+</nav>
+<main class="pt-32 pb-24 px-6 max-w-7xl mx-auto">
+<!-- Hero Section -->
+<section class="mb-20">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-start">
+<div class="lg:col-span-8">
+<div class="inline-block px-3 py-1 bg-surface-container-highest text-orange-600 font-label text-xs tracking-widest mb-6">
+                        PRIORITY_PROTOCOL // 04-A
+                    </div>
+<h1 class="text-5xl md:text-7xl font-headline font-black uppercase tracking-tighter leading-[0.9] text-on-surface mb-8">
+                        IS AI RECOMMENDING YOUR <span class="text-primary-container">COMPETITORS</span> INSTEAD OF YOU?
+                    </h1>
+<p class="text-xl md:text-2xl text-on-surface-variant max-w-2xl font-light leading-relaxed">
+                        Run a free scan to see which businesses AI platforms are citing in your territory.
+                    </p>
+</div>
+<div class="lg:col-span-4 flex justify-end">
+<div class="w-full aspect-square bg-surface-container-low border border-zinc-800 p-4 relative overflow-hidden hidden lg:block">
+<div class="absolute inset-0 opacity-20 bg-[radial-gradient(#ff6a00_1px,transparent_1px)] [background-size:16px_16px]"></div>
+<img alt="Hardware Intelligence" class="w-full h-full object-cover grayscale brightness-50 contrast-125" data-alt="abstract close-up of computer circuit board with orange glowing lights and technical components in high-tech aesthetic" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAuSTe7TDMT19RAvLagA0wA7zWmFezZRd-SznLUeEMk7jKfg2IsFUZ51uKAAp1mrbjLa_LS5VclwQ3U7tXFd8Et3kcr06J2cvpKEQ3jhYeiCs0rhLyDWHOXx_tmVwYgU8ob27le_IfxDd572aneSI1EejLmt8JkpGhwl1wgxXewsWhxoB782zsl2tM-9ye70ByYZ3Rt2tU_ZkkI2jvQm_YwqTXdF5R0yB3HRG6lRmltf48zrk_ncyvKNwa_qQO4dDAFpAkUJoxTpZNn"/>
+<div class="absolute bottom-4 right-4 text-[10px] font-mono text-orange-600 tracking-tighter uppercase">
+                            LIVE_INTEL_FEED // 404.99
+                        </div>
+</div>
+</div>
+</div>
+</section>
+<!-- Form Section -->
+<section class="grid grid-cols-1 lg:grid-cols-2 gap-12 mb-32 items-center">
+<div class="order-2 lg:order-1">
+<div class="bg-surface-container border-t-4 border-primary-container p-8 lg:p-12 hard-offset-black">
+<div class="flex justify-between items-center mb-8 border-b border-zinc-800 pb-4">
+<h2 class="font-headline font-bold text-xl uppercase tracking-widest text-on-surface">
+                            INITIATE_SCAN // INPUT_REQUIRED
+                        </h2>
+<span class="material-symbols-outlined text-primary-container">sensors</span>
+</div>
+<form class="space-y-6">
+<div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+<div class="space-y-2">
+<label class="block font-mono text-[10px] uppercase text-on-surface/40 tracking-widest">Business Name</label>
+<input class="w-full bg-surface-container-lowest border-zinc-800 focus:border-primary-container focus:ring-0 text-on-surface font-mono py-3 px-4" placeholder="ENTER_ENTITY_ID" type="text"/>
+</div>
+<div class="space-y-2">
+<label class="block font-mono text-[10px] uppercase text-on-surface/40 tracking-widest">Industry</label>
+<input class="w-full bg-surface-container-lowest border-zinc-800 focus:border-primary-container focus:ring-0 text-on-surface font-mono py-3 px-4" placeholder="SECTOR_DESIGNATION" type="text"/>
+</div>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+<div class="space-y-2">
+<label class="block font-mono text-[10px] uppercase text-on-surface/40 tracking-widest">City / Zip</label>
+<input class="w-full bg-surface-container-lowest border-zinc-800 focus:border-primary-container focus:ring-0 text-on-surface font-mono py-3 px-4" placeholder="COORDINATES" type="text"/>
+</div>
+<div class="space-y-2">
+<label class="block font-mono text-[10px] uppercase text-on-surface/40 tracking-widest">Website URL</label>
+<input class="w-full bg-surface-container-lowest border-zinc-800 focus:border-primary-container focus:ring-0 text-on-surface font-mono py-3 px-4" placeholder="HTTPS://DATA_SOURCE" type="url"/>
+</div>
+</div>
+<button class="w-full bg-primary-container text-zinc-950 font-headline font-black py-4 px-8 uppercase tracking-widest flex items-center justify-center gap-3 hover:bg-orange-500 transition-colors hard-offset-black" type="submit">
+                            EXECUTE SCAN 
+                            <span class="material-symbols-outlined">radar</span>
+</button>
+</form>
+</div>
+</div>
+<div class="order-1 lg:order-2 space-y-6">
+<div class="flex items-start gap-4">
+<span class="text-primary-container font-mono text-2xl">01</span>
+<p class="text-on-surface-variant font-light"><span class="text-on-surface font-bold">CROSS-PLATFORM ANALYSIS:</span> We scan ChatGPT, Perplexity, and Google Search Generative Experience simultaneously.</p>
+</div>
+<div class="flex items-start gap-4">
+<span class="text-primary-container font-mono text-2xl">02</span>
+<p class="text-on-surface-variant font-light"><span class="text-on-surface font-bold">BLIND SPOT MAPPING:</span> Identify exactly where your brand vanishes from the conversational AI journey.</p>
+</div>
+<div class="flex items-start gap-4">
+<span class="text-primary-container font-mono text-2xl">03</span>
+<p class="text-on-surface-variant font-light"><span class="text-on-surface font-bold">THREAT DETECTION:</span> Discover which competitors are being favored by current LLM recommendation engines.</p>
+</div>
+</div>
+</section>
+<!-- Preview Results Section -->
+<section class="mb-32">
+<div class="mb-12">
+<h2 class="font-headline font-black text-3xl uppercase tracking-tighter mb-2">SCAN_RESULTS // PREVIEW</h2>
+<div class="h-1 w-24 bg-primary-container"></div>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-1">
+<!-- Card 1 -->
+<div class="bg-surface-container p-6 border border-zinc-800 relative group overflow-hidden">
+<div class="flex justify-between items-start mb-6">
+<div class="font-mono text-[10px] text-zinc-500 uppercase tracking-widest">PLATFORM: CHATGPT_v4</div>
+<span class="material-symbols-outlined text-zinc-600">psychology</span>
+</div>
+<div class="font-mono text-sm leading-relaxed mb-8 h-24 overflow-hidden">
+<span class="text-zinc-500">Query: "Best consulting firms in the area..."</span><br/>
+<span class="text-on-surface">Response: Based on current data, <span class="text-primary-container font-bold underline">STRATOS_CORE_INC</span> is the most cited authority for...</span>
+</div>
+<div class="flex justify-between items-center text-[10px] font-mono">
+<span class="text-zinc-600">STATUS: CITED_BY_AI</span>
+<span class="text-zinc-400">SEC_01 // DATA_FIX</span>
+</div>
+</div>
+<!-- Card 2 -->
+<div class="bg-surface-container p-6 border border-zinc-800 relative group overflow-hidden">
+<div class="flex justify-between items-start mb-6">
+<div class="font-mono text-[10px] text-zinc-500 uppercase tracking-widest">PLATFORM: PERPLEXITY</div>
+<span class="material-symbols-outlined text-zinc-600">travel_explore</span>
+</div>
+<div class="font-mono text-sm leading-relaxed mb-8 h-24 overflow-hidden">
+<span class="text-zinc-500">Query: "Top rated services for..."</span><br/>
+<span class="text-on-surface">Citations point primarily to <span class="text-primary-container font-bold underline">OMEGA_DYNAMIC_SYSTEMS</span> as the market leader...</span>
+</div>
+<div class="flex justify-between items-center text-[10px] font-mono">
+<span class="text-zinc-600">STATUS: CITED_BY_AI</span>
+<span class="text-zinc-400">SEC_04 // DATA_FIX</span>
+</div>
+</div>
+<!-- Card 3 -->
+<div class="bg-surface-container p-6 border border-zinc-800 relative group overflow-hidden border-r-4 border-error">
+<div class="flex justify-between items-start mb-6">
+<div class="font-mono text-[10px] text-zinc-500 uppercase tracking-widest">PLATFORM: GOOGLE_AI</div>
+<span class="material-symbols-outlined text-error">warning</span>
+</div>
+<div class="font-mono text-sm leading-relaxed mb-8 h-24 overflow-hidden">
+<span class="text-zinc-500">Query: "Reliable vendors for..."</span><br/>
+<span class="text-error font-bold tracking-widest">YOUR BUSINESS: NOT_FOUND</span><br/>
+<span class="text-zinc-500 italic">No specific entity matches your profile in the current vector space.</span>
+</div>
+<div class="flex justify-between items-center text-[10px] font-mono">
+<span class="text-error font-bold">STATUS: VOID_DETECTED</span>
+<span class="text-zinc-400">SEC_99 // DATA_NULL</span>
+</div>
+</div>
+</div>
+</section>
+<!-- Urgency Bar -->
+<section class="bg-surface-container-high border-l-8 border-primary-container p-8 mb-32 flex flex-col md:flex-row justify-between items-center gap-6">
+<div class="font-headline text-xl md:text-2xl font-black uppercase tracking-tight text-on-surface max-w-2xl">
+                YOUR COMPETITORS ARE BEING CITED RIGHT NOW. <span class="text-primary-container">YOU ARE NOT.</span>
+</div>
+<div class="bg-zinc-950 px-6 py-4 font-mono text-sm border border-zinc-800">
+<span class="text-zinc-500">BUSINESSES_SCANNED_TODAY:</span>
+<span class="text-primary-container font-bold ml-2">147</span>
+</div>
+</section>
+<!-- Final CTA -->
+<section class="relative bg-primary-container p-12 lg:p-20 overflow-hidden hard-offset-black">
+<div class="absolute top-0 right-0 p-4 font-mono text-zinc-950/20 text-8xl font-black select-none pointer-events-none">
+                PROTOCOL_X
+            </div>
+<div class="relative z-10 text-zinc-950 max-w-4xl">
+<h2 class="font-headline font-black text-4xl md:text-6xl uppercase tracking-tighter mb-8 leading-none">
+                    GET YOUR FULL COMPETITIVE AUDIT
+                </h2>
+<p class="text-zinc-900 text-lg md:text-xl font-medium mb-12 max-w-2xl">
+                    Stop the bleed. Secure your position in the LLM ecosystem before your territory is permanently annexed by competitors.
+                </p>
+<button class="bg-zinc-950 text-white font-headline font-black py-5 px-12 uppercase tracking-widest text-lg flex items-center gap-4 hover:bg-zinc-900 transition-all hard-offset-orange">
+                    SCHEDULE BRIEFING
+                    <span class="material-symbols-outlined">event_note</span>
+</button>
+</div>
+</section>
+</main>
+<!-- Footer -->
+<footer class="w-full border-t border-zinc-800 bg-zinc-950 flex flex-col md:flex-row justify-between items-center px-8 py-8 w-full">
+<div class="font-mono text-[10px] tracking-widest uppercase text-orange-600 mb-4 md:mb-0">
+            ©2026 SYSTEM_AEO // OPERATIONAL
+        </div>
+<div class="flex flex-wrap justify-center gap-8 font-mono text-[10px] tracking-widest uppercase text-zinc-600">
+<span class="flex items-center gap-2"><div class="w-1.5 h-1.5 bg-green-500 rounded-full"></div> SYS_STATUS: NOMINAL</span>
+<span>LATENCY: 12ms</span>
+<span class="flex items-center gap-2"><span class="material-symbols-outlined text-[12px]">lock</span> ENCRYPTION: AES-256</span>
+</div>
+</footer>
+</body></html>

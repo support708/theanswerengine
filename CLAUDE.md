@@ -29,3 +29,12 @@
 - .env.local required (not in git) — copy from .env.example
 - CRON_SECRET needed for /api/cron/* routes
 - ANTHROPIC_API_KEY for Claude API calls
+
+
+## Graphify Knowledge Graph
+- A knowledge graph exists at `graphify-out/graph.json` with an interactive view at `graphify-out/graph.html`
+- **Before answering codebase questions**, check `graphify-out/GRAPH_REPORT.md` for architecture overview, god nodes, and community structure
+- **Before modifying code**, query the graph to understand blast radius: which nodes connect to what you are changing
+- **After code changes**, run `/graphify --update` to keep the graph current
+- The graph is also part of the unified cross-project graph at `~/.claude/graphify-out/graph.json`
+

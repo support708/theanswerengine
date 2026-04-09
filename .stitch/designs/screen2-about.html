@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+
+<html class="dark" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&amp;family=Space+Grotesk:wght@300;400;500;700;900&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    "colors": {
+                        "on-primary-container": "#571f00",
+                        "secondary-container": "#3c4a5e",
+                        "surface-container-lowest": "#0e0e0e",
+                        "on-tertiary-fixed": "#001d35",
+                        "on-surface-variant": "#e2bfb0",
+                        "tertiary-container": "#009eff",
+                        "on-primary": "#571f00",
+                        "inverse-on-surface": "#313030",
+                        "surface-container": "#201f1f",
+                        "inverse-surface": "#e5e2e1",
+                        "surface-tint": "#ffb694",
+                        "surface-container-low": "#1c1b1b",
+                        "on-primary-fixed": "#351000",
+                        "outline": "#a98a7d",
+                        "surface-bright": "#3a3939",
+                        "primary-fixed": "#ffdbcc",
+                        "surface-variant": "#353534",
+                        "secondary-fixed-dim": "#b9c7df",
+                        "on-secondary-container": "#abb9d1",
+                        "surface-dim": "#131313",
+                        "on-surface": "#e5e2e1",
+                        "on-secondary-fixed": "#0d1c2e",
+                        "on-primary-fixed-variant": "#7b2f00",
+                        "secondary": "#b9c7df",
+                        "tertiary-fixed-dim": "#9ccaff",
+                        "primary-fixed-dim": "#ffb694",
+                        "on-tertiary": "#003256",
+                        "on-error-container": "#ffdad6",
+                        "secondary-fixed": "#d5e3fc",
+                        "on-tertiary-fixed-variant": "#00497a",
+                        "on-background": "#e5e2e1",
+                        "surface": "#131313",
+                        "error-container": "#93000a",
+                        "error": "#ffb4ab",
+                        "background": "#131313",
+                        "tertiary": "#9ccaff",
+                        "outline-variant": "#5a4136",
+                        "on-secondary-fixed-variant": "#3a485b",
+                        "on-error": "#690005",
+                        "surface-container-highest": "#353534",
+                        "surface-container-high": "#2a2a2a",
+                        "inverse-primary": "#a14000",
+                        "tertiary-fixed": "#d0e4ff",
+                        "on-tertiary-container": "#003357",
+                        "primary-container": "#ff6a00",
+                        "primary": "#ffb694",
+                        "on-secondary": "#233144"
+                    },
+                    "borderRadius": {
+                        "DEFAULT": "0px",
+                        "lg": "0px",
+                        "xl": "0px",
+                        "full": "9999px"
+                    },
+                    "fontFamily": {
+                        "headline": ["Space Grotesk"],
+                        "body": ["Inter"],
+                        "label": ["Space Grotesk"]
+                    }
+                },
+            },
+        }
+    </script>
+<style>
+        .scanline-overlay {
+            background: linear-gradient(rgba(18, 16, 16, 0) 50%, rgba(0, 0, 0, 0.2) 50%), linear-gradient(90deg, rgba(255, 0, 0, 0.02), rgba(0, 255, 0, 0.01), rgba(0, 0, 255, 0.02));
+            background-size: 100% 2px, 3px 100%;
+            pointer-events: none;
+        }
+        .dot-grid {
+            background-image: radial-gradient(#ffffff0a 1px, transparent 1px);
+            background-size: 24px 24px;
+        }
+        .terminal-text-shadow {
+            text-shadow: 0 0 10px rgba(255, 106, 0, 0.3);
+        }
+    </style>
+</head>
+<body class="bg-background text-on-surface font-body overflow-x-hidden selection:bg-primary-container selection:text-white">
+<!-- Scanline Overlay -->
+<div class="fixed inset-0 z-50 opacity-[0.03] scanline-overlay pointer-events-none"></div>
+<!-- TopNavBar -->
+<nav class="bg-[#131313] text-[#FF6A00] font-['Space_Grotesk'] uppercase tracking-tighter font-bold text-sm rounded-none border-b border-white/5 flex justify-between items-center w-full px-6 py-4 max-w-full sticky top-0 z-40">
+<div class="text-2xl font-black italic tracking-tighter text-[#FF6A00]">AEO_TERMINAL</div>
+<div class="hidden md:flex gap-8 items-center">
+<a class="text-white/60 hover:bg-[#FF6A00] hover:text-black transition-none px-2 py-1" href="#">INTEL</a>
+<a class="text-[#FF6A00] border-b-2 border-[#FF6A00] pb-1 hover:bg-[#FF6A00] hover:text-black transition-none" href="#">CORE</a>
+<a class="text-white/60 hover:bg-[#FF6A00] hover:text-black transition-none px-2 py-1" href="#">ASSETS</a>
+<a class="text-white/60 hover:bg-[#FF6A00] hover:text-black transition-none px-2 py-1" href="#">NETWORK</a>
+</div>
+<button class="bg-primary-container text-black px-6 py-2 font-black tracking-widest scale-100 active:bg-[#FF6A00]/80">IGNITE</button>
+</nav>
+<!-- Hero Section -->
+<section class="relative min-h-[819px] flex flex-col justify-center px-6 md:px-12 py-20 dot-grid border-b border-white/5">
+<div class="max-w-6xl mx-auto w-full">
+<div class="inline-block bg-primary-container/10 border border-primary-container text-primary-container font-mono text-xs px-3 py-1 mb-8 tracking-[0.2em]">
+                OPERATOR_PROFILE // CLEARANCE_LEVEL_MAX
+            </div>
+<h1 class="font-headline font-black text-5xl md:text-8xl leading-none uppercase tracking-tighter max-w-4xl mb-8">
+                BUILT BY A <span class="text-primary-container terminal-text-shadow">PRACTITIONER</span>, NOT A THEORIST
+            </h1>
+<div class="grid md:grid-cols-2 gap-12 items-end">
+<div>
+<p class="text-on-surface/60 text-lg md:text-xl leading-relaxed font-light mb-8 max-w-xl">
+                        Justin Borges founded AEO_TERMINAL on the principle of empirical dominance. While others philosophize about growth, we engineer it using battle-hardened protocols forged in the high-stakes environments of global asset management.
+                    </p>
+<div class="flex items-center gap-4 text-xs font-mono text-primary-container">
+<span class="flex items-center gap-2">
+<span class="w-2 h-2 bg-primary-container animate-pulse"></span>
+                            STATUS: FIELD_TESTED // COMBAT_READY
+                        </span>
+</div>
+</div>
+<div class="hidden md:block">
+<img class="w-full h-64 object-cover border border-white/10 grayscale contrast-125 opacity-40" data-alt="High-tech glowing computer hardware component with orange light illumination in a dark industrial server room setting" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDT6vGzqQIuSKmSjn2rpRo2sePxR5O_0QUkTLnPCri_NHjYD7XFVBgM_mWwQ0n4zStZT0EYzbUyq1qm_fXHNsFYTDyPUiY-W26pUuAIGqnKtHidYxwLLkelSo-uLK5KrfyZBWxgFsGg09SnhYyxkIp4H30EiXWu7a3VCL8MEye3wsgYs_tCN8Rw0tiJsB3S6fNg1KBXW6M-Z7HtVm00PpemkD5gUVnkwlwBjthRw-L0ojYX06cAlyODpsCXVNPqbUF2K8I_orZXnOoj"/>
+</div>
+</div>
+</div>
+</section>
+<!-- Timeline Section -->
+<section class="py-24 px-6 md:px-12 bg-surface">
+<div class="max-w-6xl mx-auto">
+<h2 class="font-headline font-black text-4xl mb-16 uppercase tracking-tighter">OPERATOR <span class="text-primary-container">TIMELINE</span></h2>
+<div class="relative grid md:grid-cols-4 gap-4">
+<!-- Vertical Line (hidden on mobile, pseudo-effect on desktop) -->
+<div class="hidden md:block absolute top-1/2 left-0 w-full h-px bg-white/10 -translate-y-1/2 z-0"></div>
+<!-- 2012 -->
+<div class="relative z-10 bg-surface-container-high border-l-4 border-primary-container p-6 flex flex-col gap-4">
+<span class="font-mono text-primary-container text-sm">2012_INITIAL_ENTRY</span>
+<h3 class="font-headline font-bold text-2xl">PROTOCOL_V1</h3>
+<p class="text-on-surface/40 text-sm">First generation deployment in high-frequency trading environments.</p>
+</div>
+<!-- 2023 -->
+<div class="relative z-10 bg-surface-container-high border-l-4 border-primary-container p-6 flex flex-col gap-4 md:mt-12">
+<span class="font-mono text-primary-container text-sm">2023_SCALING_OPS</span>
+<h3 class="font-headline font-bold text-2xl">NETWORK_EXPANSION</h3>
+<p class="text-on-surface/40 text-sm">Transition from individual execution to infrastructure framework design.</p>
+</div>
+<!-- 2024 -->
+<div class="relative z-10 bg-surface-container-high border-l-4 border-primary-container p-6 flex flex-col gap-4">
+<span class="font-mono text-primary-container text-sm">2024_AERO_FORGE</span>
+<h3 class="font-headline font-bold text-2xl">TERMINAL_BETA</h3>
+<p class="text-on-surface/40 text-sm">Codification of the AERO-10 framework for enterprise-grade dominance.</p>
+</div>
+<!-- 2025 -->
+<div class="relative z-10 bg-surface-container-high border-l-4 border-primary-container p-6 flex flex-col gap-4 md:mt-12">
+<span class="font-mono text-primary-container text-sm">2025_FULL_DEPLOY</span>
+<h3 class="font-headline font-bold text-2xl">GLOBAL_SATELLITE</h3>
+<p class="text-on-surface/40 text-sm">Autonomous terminal operations active across 4 primary sectors.</p>
+</div>
+</div>
+</div>
+</section>
+<!-- AERO-10 Framework -->
+<section class="py-24 px-6 md:px-12 bg-surface-container-low border-y border-white/5">
+<div class="max-w-6xl mx-auto">
+<h2 class="font-headline font-black text-4xl mb-16 uppercase tracking-tighter">THE AERO-10 SCORING <span class="text-primary-container">PROTOCOL</span></h2>
+<div class="grid grid-cols-2 md:grid-cols-5 gap-0 border border-white/10">
+<!-- Card 01 -->
+<div class="relative p-6 border border-white/5 bg-surface aspect-square flex flex-col justify-between overflow-hidden group">
+<span class="absolute -right-4 -top-8 text-8xl font-black text-white/[0.03] select-none">01</span>
+<h4 class="font-headline font-bold text-lg leading-tight uppercase relative z-10">Structural Integrity</h4>
+<div class="w-full h-1 bg-white/5 relative mt-4">
+<div class="absolute inset-0 bg-primary-container w-[92%]"></div>
+</div>
+</div>
+<!-- Card 02 -->
+<div class="relative p-6 border border-white/5 bg-surface aspect-square flex flex-col justify-between overflow-hidden group">
+<span class="absolute -right-4 -top-8 text-8xl font-black text-white/[0.03] select-none">02</span>
+<h4 class="font-headline font-bold text-lg leading-tight uppercase relative z-10">Velocity Capture</h4>
+<div class="w-full h-1 bg-white/5 relative mt-4">
+<div class="absolute inset-0 bg-primary-container w-[78%]"></div>
+</div>
+</div>
+<!-- Card 03 -->
+<div class="relative p-6 border border-white/5 bg-surface aspect-square flex flex-col justify-between overflow-hidden group">
+<span class="absolute -right-4 -top-8 text-8xl font-black text-white/[0.03] select-none">03</span>
+<h4 class="font-headline font-bold text-lg leading-tight uppercase relative z-10">Risk Mitigation</h4>
+<div class="w-full h-1 bg-white/5 relative mt-4">
+<div class="absolute inset-0 bg-primary-container w-[85%]"></div>
+</div>
+</div>
+<!-- Card 04 -->
+<div class="relative p-6 border border-white/5 bg-surface aspect-square flex flex-col justify-between overflow-hidden group">
+<span class="absolute -right-4 -top-8 text-8xl font-black text-white/[0.03] select-none">04</span>
+<h4 class="font-headline font-bold text-lg leading-tight uppercase relative z-10">Asset Liquidity</h4>
+<div class="w-full h-1 bg-white/5 relative mt-4">
+<div class="absolute inset-0 bg-primary-container w-[64%]"></div>
+</div>
+</div>
+<!-- Card 05 -->
+<div class="relative p-6 border border-white/5 bg-surface aspect-square flex flex-col justify-between overflow-hidden group">
+<span class="absolute -right-4 -top-8 text-8xl font-black text-white/[0.03] select-none">05</span>
+<h4 class="font-headline font-bold text-lg leading-tight uppercase relative z-10">Core Stability</h4>
+<div class="w-full h-1 bg-white/5 relative mt-4">
+<div class="absolute inset-0 bg-primary-container w-[97%]"></div>
+</div>
+</div>
+<!-- Card 06 -->
+<div class="relative p-6 border border-white/5 bg-surface aspect-square flex flex-col justify-between overflow-hidden group">
+<span class="absolute -right-4 -top-8 text-8xl font-black text-white/[0.03] select-none">06</span>
+<h4 class="font-headline font-bold text-lg leading-tight uppercase relative z-10">Output Efficiency</h4>
+<div class="w-full h-1 bg-white/5 relative mt-4">
+<div class="absolute inset-0 bg-primary-container w-[71%]"></div>
+</div>
+</div>
+<!-- Card 07 -->
+<div class="relative p-6 border border-white/5 bg-surface aspect-square flex flex-col justify-between overflow-hidden group">
+<span class="absolute -right-4 -top-8 text-8xl font-black text-white/[0.03] select-none">07</span>
+<h4 class="font-headline font-bold text-lg leading-tight uppercase relative z-10">Threat Analysis</h4>
+<div class="w-full h-1 bg-white/5 relative mt-4">
+<div class="absolute inset-0 bg-primary-container w-[88%]"></div>
+</div>
+</div>
+<!-- Card 08 -->
+<div class="relative p-6 border border-white/5 bg-surface aspect-square flex flex-col justify-between overflow-hidden group">
+<span class="absolute -right-4 -top-8 text-8xl font-black text-white/[0.03] select-none">08</span>
+<h4 class="font-headline font-bold text-lg leading-tight uppercase relative z-10">Neural Latency</h4>
+<div class="w-full h-1 bg-white/5 relative mt-4">
+<div class="absolute inset-0 bg-primary-container w-[45%]"></div>
+</div>
+</div>
+<!-- Card 09 -->
+<div class="relative p-6 border border-white/5 bg-surface aspect-square flex flex-col justify-between overflow-hidden group">
+<span class="absolute -right-4 -top-8 text-8xl font-black text-white/[0.03] select-none">09</span>
+<h4 class="font-headline font-bold text-lg leading-tight uppercase relative z-10">Scalability Factor</h4>
+<div class="w-full h-1 bg-white/5 relative mt-4">
+<div class="absolute inset-0 bg-primary-container w-[82%]"></div>
+</div>
+</div>
+<!-- Card 10 -->
+<div class="relative p-6 border border-white/5 bg-surface aspect-square flex flex-col justify-between overflow-hidden group">
+<span class="absolute -right-4 -top-8 text-8xl font-black text-white/[0.03] select-none">10</span>
+<h4 class="font-headline font-bold text-lg leading-tight uppercase relative z-10">Final Impact</h4>
+<div class="w-full h-1 bg-white/5 relative mt-4">
+<div class="absolute inset-0 bg-primary-container w-[99%]"></div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Differentiators -->
+<section class="py-24 px-6 md:px-12 bg-surface">
+<div class="max-w-6xl mx-auto">
+<h2 class="font-headline font-black text-4xl mb-16 uppercase tracking-tighter">WHY WE <span class="text-primary-container">DOMINATE</span></h2>
+<div class="grid md:grid-cols-3 gap-0 border border-white/10">
+<!-- FIELD_TESTED -->
+<div class="p-12 border-r border-white/10 flex flex-col gap-6 group hover:bg-primary-container/5 transition-colors">
+<span class="material-symbols-outlined text-primary-container text-4xl" style="font-variation-settings: 'FILL' 1;">precision_manufacturing</span>
+<h3 class="font-headline font-black text-2xl tracking-tighter uppercase">FIELD_TESTED</h3>
+<p class="text-on-surface/60 leading-relaxed">We don't use simulations. Every protocol in our stack has been refined through years of direct exposure to market volatility and technical warfare.</p>
+</div>
+<!-- TERRITORY_LOCK -->
+<div class="p-12 border-r border-white/10 flex flex-col gap-6 group hover:bg-primary-container/5 transition-colors">
+<span class="material-symbols-outlined text-primary-container text-4xl" style="font-variation-settings: 'FILL' 1;">security</span>
+<h3 class="font-headline font-black text-2xl tracking-tighter uppercase">TERRITORY_LOCK</h3>
+<p class="text-on-surface/60 leading-relaxed">Exclusivity isn't a perk; it's a strategic requirement. We secure specific sectors for single operators, ensuring no internal competition within the network.</p>
+</div>
+<!-- GUARANTEE_PROTOCOL -->
+<div class="p-12 flex flex-col gap-6 group hover:bg-primary-container/5 transition-colors">
+<span class="material-symbols-outlined text-primary-container text-4xl" style="font-variation-settings: 'FILL' 1;">verified</span>
+<h3 class="font-headline font-black text-2xl tracking-tighter uppercase">GUARANTEE_PROTOCOL</h3>
+<p class="text-on-surface/60 leading-relaxed">Our performance metrics are hard-coded. Failure to meet baseline dominance levels triggers a full resource redistribution protocol.</p>
+</div>
+</div>
+</div>
+</section>
+<!-- Footer -->
+<footer class="bg-[#131313] text-[#FF6A00] font-mono text-[10px] uppercase tracking-widest rounded-none border-t border-white/5 w-full px-6 py-8 flex flex-col md:flex-row justify-between items-center gap-4">
+<div class="flex items-center gap-4">
+<span class="text-[#FF6A00] font-bold">AEO_TERMINAL</span>
+<span class="text-white/20 hidden md:inline">//</span>
+<span class="text-white/40">SYSTEM_STATUS: OPTIMAL // SEC_04 // DATA_FIX</span>
+</div>
+<div class="flex gap-6">
+<a class="text-white/40 hover:text-[#FF6A00] transition-colors" href="#">ENCRYPTION_PROTOCOL</a>
+<a class="text-white/40 hover:text-[#FF6A00] transition-colors" href="#">TERMINAL_LOGS</a>
+<a class="text-white/40 hover:text-[#FF6A00] transition-colors" href="#">SATELLITE_FEED</a>
+</div>
+<div class="text-white/40">
+            ©2026 SYSTEM_AEO // OPERATIONAL
+        </div>
+</footer>
+</body></html>

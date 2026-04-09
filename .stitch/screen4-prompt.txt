@@ -1,0 +1,18 @@
+Dark brutalist "Blog Index" page for AEO_TERMINAL. Terminal/command-center aesthetic matching existing screens. Space Grotesk font-black uppercase headlines, #131313 background, #FF6A00 burnt orange accent, sharp edges (NO rounded corners), scanline overlay, monospace status indicators.
+
+DESIGN SYSTEM (REQUIRED):
+- Background: #131313 primary, #1c1b1b alternate, #2a2a2a cards
+- Accent: #FF6A00 burnt orange
+- Typography: Space Grotesk 800-900 font-black uppercase for headings, Inter for body
+- Cards: Sharp edges, border white/10
+- Nav: "AEO_TERMINAL" orange logo, ASSETS link active (orange underline)
+- Footer: Mono "©2026 SYSTEM_AEO // OPERATIONAL"
+
+PAGE STRUCTURE:
+1. **Nav:** Same as other pages, ASSETS active.
+2. **Hero:** Mono tag "INTELLIGENCE_ARCHIVE // OPEN_ACCESS". Headline "AEO INTELLIGENCE BRIEFINGS" — "INTELLIGENCE" in orange. Subtext: "200+ field-tested strategies for dominating AI search results."
+3. **Search + Filters:** Full-width search bar with sharp edges, bg-surface-container-high, border white/10, placeholder "Search intelligence archive...". Below: category filter buttons in a row — ALL (active, orange bg), AEO EDUCATION, HOW-TO GUIDES, COMPETITIVE INTEL, CLIENT RESULTS, IMPLEMENTATION. Active: bg-[#FF6A00] text-black. Inactive: border white/10 text-white/60.
+4. **Featured Article:** Full-width card, sharp edges, border-l-4 orange. Left side: category tag "AEO EDUCATION" in mono orange, large title "What Is Answer Engine Optimization? The Complete 2026 Guide" in Space Grotesk bold, excerpt in white/60, read time "12 MIN READ" and date "MAR 2026" in mono white/20. Right side: abstract geometric placeholder (dark with orange accent lines, not a photo).
+5. **Article Grid:** 3-column grid, gap-0 with border dividers (matching the 3-step card pattern from homepage). Each card: category tag in mono orange at top, title in Space Grotesk font-bold text-xl uppercase, 2-line excerpt in white/60 text-sm, bottom row with "READ_TIME: 8MIN" and "PUBLISHED: 2026.03.15" in mono text-[10px] white/20. Hover: bg-surface-container-high. Show 9 articles with realistic AEO titles.
+6. **Pagination:** Sharp-edge page number buttons. Active page: bg-[#FF6A00] text-black. Others: border white/10 text-white/60. Show pages 1-5 plus next arrow.
+7. **Footer:** Same.

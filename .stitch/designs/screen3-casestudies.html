@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+
+<html class="dark" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>AEO_TERMINAL // CASE_STUDIES</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700;800;900&amp;family=Inter:wght@300;400;500;600;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<style>
+        .scanline {
+            width: 100%;
+            height: 100px;
+            z-index: 10;
+            background: linear-gradient(0deg, rgba(0, 0, 0, 0) 0%, rgba(255, 106, 0, 0.05) 50%, rgba(0, 0, 0, 0) 100%);
+            opacity: 0.1;
+            position: fixed;
+            pointer-events: none;
+            animation: scan 6s linear infinite;
+        }
+        @keyframes scan {
+            0% { top: -100px; }
+            100% { top: 100%; }
+        }
+        .dot-grid {
+            background-image: radial-gradient(#FF6A00 0.5px, transparent 0.5px);
+            background-size: 24px 24px;
+            opacity: 0.1;
+        }
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+    </style>
+<script id="tailwind-config">
+        tailwind.config = {
+          darkMode: "class",
+          theme: {
+            extend: {
+              "colors": {
+                      "surface-container-high": "#2a2a2a",
+                      "on-secondary-fixed": "#0d1c2e",
+                      "on-tertiary-fixed-variant": "#00497a",
+                      "tertiary-container": "#009eff",
+                      "on-primary-fixed-variant": "#7b2f00",
+                      "tertiary-fixed": "#d0e4ff",
+                      "primary": "#ffb694",
+                      "on-primary": "#571f00",
+                      "primary-fixed": "#ffdbcc",
+                      "primary-container": "#ff6a00",
+                      "inverse-on-surface": "#313030",
+                      "secondary-fixed-dim": "#b9c7df",
+                      "surface-variant": "#353534",
+                      "surface-container-lowest": "#0e0e0e",
+                      "secondary-fixed": "#d5e3fc",
+                      "on-tertiary-fixed": "#001d35",
+                      "on-error": "#690005",
+                      "error-container": "#93000a",
+                      "surface-bright": "#3a3939",
+                      "on-primary-fixed": "#351000",
+                      "on-secondary-container": "#abb9d1",
+                      "tertiary": "#9ccaff",
+                      "secondary": "#b9c7df",
+                      "on-secondary-fixed-variant": "#3a485b",
+                      "on-error-container": "#ffdad6",
+                      "on-tertiary": "#003256",
+                      "surface-container-low": "#1c1b1b",
+                      "on-secondary": "#233144",
+                      "on-primary-container": "#571f00",
+                      "tertiary-fixed-dim": "#9ccaff",
+                      "surface": "#131313",
+                      "on-surface-variant": "#e2bfb0",
+                      "primary-fixed-dim": "#ffb694",
+                      "surface-dim": "#131313",
+                      "on-surface": "#e5e2e1",
+                      "outline-variant": "#5a4136",
+                      "on-background": "#e5e2e1",
+                      "background": "#131313",
+                      "inverse-surface": "#e5e2e1",
+                      "on-tertiary-container": "#003357",
+                      "surface-container": "#201f1f",
+                      "secondary-container": "#3c4a5e",
+                      "surface-container-highest": "#353534",
+                      "error": "#ffb4ab",
+                      "inverse-primary": "#a14000",
+                      "surface-tint": "#ffb694",
+                      "outline": "#a98a7d"
+              },
+              "borderRadius": {
+                      "DEFAULT": "0rem",
+                      "lg": "0rem",
+                      "xl": "0rem",
+                      "full": "9999px"
+              },
+              "fontFamily": {
+                      "headline": ["Space Grotesk"],
+                      "body": ["Inter"],
+                      "label": ["Space Grotesk"]
+              }
+            },
+          }
+        }
+      </script>
+</head>
+<body class="bg-[#131313] text-[#e5e2e1] font-body selection:bg-[#FF6A00] selection:text-black">
+<div class="scanline"></div>
+<!-- Navigation -->
+<nav class="fixed top-0 left-0 w-full z-50 h-16 bg-[#131313] border-b border-[#FF6A00]/20 flex justify-between items-center px-6 max-w-full mx-auto">
+<div class="text-2xl font-black text-[#FF6A00] tracking-widest font-['Space_Grotesk']">
+            AEO_TERMINAL
+        </div>
+<div class="hidden md:flex items-center space-x-8 font-['Space_Grotesk'] uppercase tracking-tighter font-black text-sm">
+<a class="text-gray-500 hover:text-white transition-colors" href="#">INTEL</a>
+<a class="text-gray-500 hover:text-white transition-colors" href="#">CORE</a>
+<a class="text-[#FF6A00] font-bold border-b-2 border-[#FF6A00] pb-1" href="#">ASSETS</a>
+<a class="text-gray-500 hover:text-white transition-colors" href="#">NETWORK</a>
+</div>
+<button class="bg-[#FF6A00] text-black px-6 py-2 font-black uppercase tracking-tighter text-sm hover:bg-[#FF6A00]/80 transition-all active:scale-95 duration-100">
+            IGNITE
+        </button>
+</nav>
+<!-- Hero Section -->
+<header class="relative pt-32 pb-24 overflow-hidden border-b border-[#FF6A00]/10">
+<div class="absolute inset-0 dot-grid -z-10"></div>
+<div class="container mx-auto px-6">
+<div class="flex items-center gap-3 mb-6">
+<span class="w-3 h-3 bg-[#FF6A00]"></span>
+<span class="font-label text-xs tracking-[0.3em] font-bold text-gray-500">MISSION_LOGS // DECLASSIFIED</span>
+</div>
+<h1 class="font-headline font-black text-6xl md:text-8xl lg:text-9xl uppercase tracking-tighter leading-[0.85] mb-8">
+                PROOF OF <br/>
+<span class="text-[#FF6A00]">DOMINANCE</span>
+</h1>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-end">
+<p class="text-xl md:text-2xl text-gray-400 font-light max-w-xl">
+                    Measurable results. Real businesses. <span class="text-white border-b border-[#FF6A00]">Zero theory.</span>
+</p>
+<div class="flex flex-col gap-2 font-label text-[10px] tracking-widest text-gray-600 md:text-right">
+<p>RECORDS: VERIFIED</p>
+<p>ENCRYPTION: NONE</p>
+<p>TERMINAL_ACCESS: PUBLIC_READ</p>
+</div>
+</div>
+</div>
+</header>
+<!-- KPI Bar -->
+<section class="bg-surface-container-low border-b border-[#FF6A00]/10 py-12">
+<div class="container mx-auto px-6">
+<div class="grid grid-cols-2 lg:grid-cols-4 gap-8">
+<div class="flex flex-col">
+<span class="text-5xl md:text-6xl font-headline font-black text-[#FF6A00]">47</span>
+<span class="font-label text-xs tracking-widest uppercase text-gray-500 mt-2">Citations Generated</span>
+</div>
+<div class="flex flex-col">
+<span class="text-5xl md:text-6xl font-headline font-black text-[#FF6A00]">12</span>
+<span class="font-label text-xs tracking-widest uppercase text-gray-500 mt-2">Active Territories</span>
+</div>
+<div class="flex flex-col">
+<span class="text-5xl md:text-6xl font-headline font-black text-[#FF6A00]">67</span>
+<span class="font-label text-xs tracking-widest uppercase text-gray-500 mt-2">Avg Days to First Citation</span>
+</div>
+<div class="flex flex-col">
+<span class="text-5xl md:text-6xl font-headline font-black text-[#FF6A00]">4.2x</span>
+<span class="font-label text-xs tracking-widest uppercase text-gray-500 mt-2">Avg Traffic Multiplier</span>
+</div>
+</div>
+</div>
+</section>
+<!-- Mission Cards Grid -->
+<main class="py-24 bg-[#131313]">
+<div class="container mx-auto px-6">
+<div class="flex items-center justify-between mb-16">
+<h2 class="font-headline text-3xl font-bold uppercase tracking-tighter">MISSION_ARCHIVE</h2>
+<span class="text-xs font-label text-gray-600">FILTER: [ALL_RECORDS]</span>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-px bg-[#FF6A00]/10">
+<!-- Card 1: Plumber -->
+<div class="bg-[#131313] p-10 hover:bg-surface-container-low transition-all border border-[#FF6A00]/5 group">
+<div class="flex justify-between items-start mb-8">
+<span class="material-symbols-outlined text-[#FF6A00] scale-150">plumbing</span>
+<span class="font-label text-[10px] text-gray-600 tracking-widest uppercase">SEC_01 // PHOENIX</span>
+</div>
+<div class="mb-4">
+<span class="font-label text-xs text-[#FF6A00] tracking-widest uppercase">SERVICES_PLUMBING</span>
+<h3 class="font-headline text-3xl font-black uppercase tracking-tighter mt-2 group-hover:text-[#FF6A00] transition-colors">PLUMBER: 0 TO 4 AI CITATIONS IN 67 DAYS</h3>
+</div>
+<div class="grid grid-cols-3 gap-4 border-y border-white/5 py-6 my-8">
+<div>
+<p class="text-[10px] text-gray-500 font-label uppercase">Citations Pre</p>
+<p class="text-xl font-headline font-bold">0</p>
+</div>
+<div>
+<p class="text-[10px] text-gray-500 font-label uppercase">Citations Post</p>
+<p class="text-xl font-headline font-bold text-[#FF6A00]">4</p>
+</div>
+<div>
+<p class="text-[10px] text-gray-500 font-label uppercase">Timeframe</p>
+<p class="text-xl font-headline font-bold">67_D</p>
+</div>
+</div>
+<p class="font-label text-[10px] tracking-widest text-[#FF6A00]">MISSION_STATUS: COMPLETE</p>
+</div>
+<!-- Card 2: HVAC -->
+<div class="bg-[#131313] p-10 hover:bg-surface-container-low transition-all border border-[#FF6A00]/5 group">
+<div class="flex justify-between items-start mb-8">
+<span class="material-symbols-outlined text-[#FF6A00] scale-150">hvac</span>
+<span class="font-label text-[10px] text-gray-600 tracking-widest uppercase">SEC_02 // AUSTIN</span>
+</div>
+<div class="mb-4">
+<span class="font-label text-xs text-[#FF6A00] tracking-widest uppercase">CLIMATE_CONTROL</span>
+<h3 class="font-headline text-3xl font-black uppercase tracking-tighter mt-2 group-hover:text-[#FF6A00] transition-colors">HVAC: 120% INCREASE IN SEARCH VISIBILITY</h3>
+</div>
+<div class="grid grid-cols-3 gap-4 border-y border-white/5 py-6 my-8">
+<div>
+<p class="text-[10px] text-gray-500 font-label uppercase">Citations Pre</p>
+<p class="text-xl font-headline font-bold">1</p>
+</div>
+<div>
+<p class="text-[10px] text-gray-500 font-label uppercase">Citations Post</p>
+<p class="text-xl font-headline font-bold text-[#FF6A00]">7</p>
+</div>
+<div>
+<p class="text-[10px] text-gray-500 font-label uppercase">Timeframe</p>
+<p class="text-xl font-headline font-bold">90_D</p>
+</div>
+</div>
+<p class="font-label text-[10px] tracking-widest text-[#FF6A00]">MISSION_STATUS: COMPLETE</p>
+</div>
+<!-- Card 3: Real Estate -->
+<div class="bg-[#131313] p-10 hover:bg-surface-container-low transition-all border border-[#FF6A00]/5 group">
+<div class="flex justify-between items-start mb-8">
+<span class="material-symbols-outlined text-[#FF6A00] scale-150">apartment</span>
+<span class="font-label text-[10px] text-gray-600 tracking-widest uppercase">SEC_03 // DENVER</span>
+</div>
+<div class="mb-4">
+<span class="font-label text-xs text-[#FF6A00] tracking-widest uppercase">REAL_ESTATE</span>
+<h3 class="font-headline text-3xl font-black uppercase tracking-tighter mt-2 group-hover:text-[#FF6A00] transition-colors">AGENCY: DOMINATING LUXURY CONDO QUERIES</h3>
+</div>
+<div class="grid grid-cols-3 gap-4 border-y border-white/5 py-6 my-8">
+<div>
+<p class="text-[10px] text-gray-500 font-label uppercase">Citations Pre</p>
+<p class="text-xl font-headline font-bold">0</p>
+</div>
+<div>
+<p class="text-[10px] text-gray-500 font-label uppercase">Citations Post</p>
+<p class="text-xl font-headline font-bold text-[#FF6A00]">3</p>
+</div>
+<div>
+<p class="text-[10px] text-gray-500 font-label uppercase">Timeframe</p>
+<p class="text-xl font-headline font-bold">45_D</p>
+</div>
+</div>
+<p class="font-label text-[10px] tracking-widest text-[#FF6A00]">MISSION_STATUS: COMPLETE</p>
+</div>
+<!-- Card 4: Dental -->
+<div class="bg-[#131313] p-10 hover:bg-surface-container-low transition-all border border-[#FF6A00]/5 group">
+<div class="flex justify-between items-start mb-8">
+<span class="material-symbols-outlined text-[#FF6A00] scale-150">dentistry</span>
+<span class="font-label text-[10px] text-gray-600 tracking-widest uppercase">SEC_04 // MIAMI</span>
+</div>
+<div class="mb-4">
+<span class="font-label text-xs text-[#FF6A00] tracking-widest uppercase">MEDICAL_DENTAL</span>
+<h3 class="font-headline text-3xl font-black uppercase tracking-tighter mt-2 group-hover:text-[#FF6A00] transition-colors">DENTIST: 5X ROI VIA PERPLEXITY CITATIONS</h3>
+</div>
+<div class="grid grid-cols-3 gap-4 border-y border-white/5 py-6 my-8">
+<div>
+<p class="text-[10px] text-gray-500 font-label uppercase">Citations Pre</p>
+<p class="text-xl font-headline font-bold">2</p>
+</div>
+<div>
+<p class="text-[10px] text-gray-500 font-label uppercase">Citations Post</p>
+<p class="text-xl font-headline font-bold text-[#FF6A00]">9</p>
+</div>
+<div>
+<p class="text-[10px] text-gray-500 font-label uppercase">Timeframe</p>
+<p class="text-xl font-headline font-bold">120_D</p>
+</div>
+</div>
+<p class="font-label text-[10px] tracking-widest text-[#FF6A00]">MISSION_STATUS: COMPLETE</p>
+</div>
+<!-- Card 5: Law -->
+<div class="bg-[#131313] p-10 hover:bg-surface-container-low transition-all border border-[#FF6A00]/5 group">
+<div class="flex justify-between items-start mb-8">
+<span class="material-symbols-outlined text-[#FF6A00] scale-150">balance</span>
+<span class="font-label text-[10px] text-gray-600 tracking-widest uppercase">SEC_05 // LOS_ANGELES</span>
+</div>
+<div class="mb-4">
+<span class="font-label text-xs text-[#FF6A00] tracking-widest uppercase">LEGAL_INJURY</span>
+<h3 class="font-headline text-3xl font-black uppercase tracking-tighter mt-2 group-hover:text-[#FF6A00] transition-colors">PI_LAW: CAPTURING HIGH-VALUE INTENT DATA</h3>
+</div>
+<div class="grid grid-cols-3 gap-4 border-y border-white/5 py-6 my-8">
+<div>
+<p class="text-[10px] text-gray-500 font-label uppercase">Citations Pre</p>
+<p class="text-xl font-headline font-bold">0</p>
+</div>
+<div>
+<p class="text-[10px] text-gray-500 font-label uppercase">Citations Post</p>
+<p class="text-xl font-headline font-bold text-[#FF6A00]">5</p>
+</div>
+<div>
+<p class="text-[10px] text-gray-500 font-label uppercase">Timeframe</p>
+<p class="text-xl font-headline font-bold">80_D</p>
+</div>
+</div>
+<p class="font-label text-[10px] tracking-widest text-[#FF6A00]">MISSION_STATUS: COMPLETE</p>
+</div>
+<!-- Card 6: Roofing -->
+<div class="bg-[#131313] p-10 hover:bg-surface-container-low transition-all border border-[#FF6A00]/5 group">
+<div class="flex justify-between items-start mb-8">
+<span class="material-symbols-outlined text-[#FF6A00] scale-150">foundation</span>
+<span class="font-label text-[10px] text-gray-600 tracking-widest uppercase">SEC_06 // DALLAS</span>
+</div>
+<div class="mb-4">
+<span class="font-label text-xs text-[#FF6A00] tracking-widest uppercase">HOME_SERVICES</span>
+<h3 class="font-headline text-3xl font-black uppercase tracking-tighter mt-2 group-hover:text-[#FF6A00] transition-colors">ROOFING: OVERTAKING NATIONAL COMPETITION</h3>
+</div>
+<div class="grid grid-cols-3 gap-4 border-y border-white/5 py-6 my-8">
+<div>
+<p class="text-[10px] text-gray-500 font-label uppercase">Citations Pre</p>
+<p class="text-xl font-headline font-bold">1</p>
+</div>
+<div>
+<p class="text-[10px] text-gray-500 font-label uppercase">Citations Post</p>
+<p class="text-xl font-headline font-bold text-[#FF6A00]">6</p>
+</div>
+<div>
+<p class="text-[10px] text-gray-500 font-label uppercase">Timeframe</p>
+<p class="text-xl font-headline font-bold">55_D</p>
+</div>
+</div>
+<p class="font-label text-[10px] tracking-widest text-[#FF6A00]">MISSION_STATUS: COMPLETE</p>
+</div>
+</div>
+</div>
+</main>
+<!-- Featured Expanded Readout -->
+<section class="py-24 bg-surface-container-low border-y border-[#FF6A00]/10 overflow-hidden">
+<div class="container mx-auto px-6">
+<div class="mb-12">
+<span class="font-label text-xs text-gray-500 uppercase tracking-widest">DEEP_DIVE // FEATURED_INTEL</span>
+<h2 class="font-headline text-5xl font-black uppercase tracking-tighter mt-4">TERMINAL ANALYSIS: <span class="text-[#FF6A00]">SOLAR_TECH</span></h2>
+</div>
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-12">
+<!-- Vertical Timeline -->
+<div class="lg:col-span-4 border-l border-[#FF6A00]/20 pl-8 space-y-16 py-4">
+<div class="relative">
+<div class="absolute -left-[37px] top-0 w-4 h-4 bg-[#FF6A00]"></div>
+<h4 class="font-headline text-xl font-bold uppercase tracking-tight mb-2">PHASE_01: STRATEGY</h4>
+<p class="text-sm text-gray-400">Semantic mapping of local intent for 'Off-grid solar installation' and entity alignment for proprietary tech keywords.</p>
+</div>
+<div class="relative">
+<div class="absolute -left-[37px] top-0 w-4 h-4 bg-gray-600"></div>
+<h4 class="font-headline text-xl font-bold uppercase tracking-tight mb-2">PHASE_02: IMPLEMENTATION</h4>
+<p class="text-sm text-gray-400">Schema injection and knowledge graph seeding across distributed datasets to establish authority.</p>
+</div>
+<div class="relative">
+<div class="absolute -left-[37px] top-0 w-4 h-4 bg-gray-600"></div>
+<h4 class="font-headline text-xl font-bold uppercase tracking-tight mb-2">PHASE_03: RESULTS</h4>
+<p class="text-sm text-gray-400">SearchGPT and Claude direct-source citations achieved within 22 days of system live state.</p>
+</div>
+</div>
+<!-- Data Visualization Terminal -->
+<div class="lg:col-span-8 bg-black p-8 border border-white/5 relative">
+<div class="flex justify-between items-center mb-12">
+<span class="text-xs font-label text-gray-500 uppercase">VISUAL_FEED: DATA_EXTRACTION</span>
+<div class="flex gap-2">
+<div class="w-2 h-2 rounded-full bg-red-500/50"></div>
+<div class="w-2 h-2 rounded-full bg-yellow-500/50"></div>
+<div class="w-2 h-2 rounded-full bg-green-500/50"></div>
+</div>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+<div>
+<p class="text-[10px] font-label text-gray-500 uppercase mb-4">PRE_INJECTION_AUTHORITY</p>
+<div class="h-40 flex items-end gap-1">
+<div class="w-full bg-gray-800" style="height: 10%;"></div>
+<div class="w-full bg-gray-800" style="height: 15%;"></div>
+<div class="w-full bg-gray-800" style="height: 12%;"></div>
+<div class="w-full bg-gray-800" style="height: 8%;"></div>
+<div class="w-full bg-gray-800" style="height: 18%;"></div>
+</div>
+</div>
+<div>
+<p class="text-[10px] font-label text-[#FF6A00] uppercase mb-4">POST_TERMINAL_DOMINANCE</p>
+<div class="h-40 flex items-end gap-1">
+<div class="w-full bg-[#FF6A00]/40" style="height: 40%;"></div>
+<div class="w-full bg-[#FF6A00]/60" style="height: 65%;"></div>
+<div class="w-full bg-[#FF6A00]/80" style="height: 85%;"></div>
+<div class="w-full bg-[#FF6A00]" style="height: 95%;"></div>
+<div class="w-full bg-[#FF6A00]" style="height: 100%;"></div>
+</div>
+</div>
+</div>
+<div class="mt-8 pt-8 border-t border-white/5 flex flex-wrap gap-12">
+<div>
+<span class="block text-xs font-label text-gray-500 uppercase">Total_Citations</span>
+<span class="text-3xl font-headline font-black text-[#FF6A00]">14</span>
+</div>
+<div>
+<span class="block text-xs font-label text-gray-500 uppercase">Latency_Reduction</span>
+<span class="text-3xl font-headline font-black text-white">-44%</span>
+</div>
+<div>
+<span class="block text-xs font-label text-gray-500 uppercase">Trust_Score</span>
+<span class="text-3xl font-headline font-black text-white">0.98</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Call to Action -->
+<section class="bg-[#FF6A00] py-20">
+<div class="container mx-auto px-6 flex flex-col md:flex-row justify-between items-center gap-12">
+<h2 class="font-headline text-4xl md:text-5xl font-black text-black uppercase tracking-tighter text-center md:text-left leading-none">
+                READY TO SEE YOUR NAME <br/> IN AI RESULTS?
+            </h2>
+<button class="bg-black text-[#FF6A00] px-12 py-5 font-black uppercase tracking-tighter text-xl hover:bg-[#131313] transition-all transform hover:scale-105 active:scale-95 shadow-[8px_8px_0px_0px_rgba(0,0,0,0.3)]">
+                INITIATE AUDIT
+            </button>
+</div>
+</section>
+<!-- Footer -->
+<footer class="bg-[#131313] w-full border-t border-[#FF6A00]/10 mt-auto py-8">
+<div class="flex flex-col md:flex-row justify-between items-center px-10 w-full gap-4">
+<div class="font-['Space_Grotesk'] text-xs tracking-widest uppercase text-gray-400">
+                © 2024 AEO_TERMINAL // ALL_RIGHTS_RESERVED
+            </div>
+<div class="flex flex-wrap justify-center gap-6 font-['Space_Grotesk'] text-xs tracking-widest uppercase">
+<a class="text-[#FF6A00] hover:text-white underline transition-all" href="#">SYSTEM_STATUS: OK</a>
+<a class="text-gray-600 hover:text-white underline transition-all" href="#">LEGAL_PROTOCOL</a>
+<a class="text-gray-600 hover:text-white underline transition-all" href="#">TERMINAL_LOGS</a>
+<a class="text-gray-600 hover:text-white underline transition-all" href="#">ENCRYPTION_v2.0</a>
+</div>
+</div>
+</footer>
+</body></html>

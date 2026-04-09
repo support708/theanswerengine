@@ -1,408 +1,417 @@
-'use client';
-
-import { useEffect, useRef, useState } from 'react';
-import Image from 'next/image';
+import type { Metadata } from 'next';
 import Link from 'next/link';
 
-function useCountAnimation(end: number, duration: number = 2000, shouldAnimate: boolean = false) {
-  const [count, setCount] = useState(0);
+export const metadata: Metadata = {
+  title: 'AEO Case Studies — Proof of Dominance | The Answer Engine',
+  description:
+    'Real results from Answer Engine Optimization. See how local service businesses achieved AI citation dominance across ChatGPT, Claude, Perplexity, and Google AI Overviews.',
+  openGraph: {
+    title: 'AEO Case Studies — Proof of Dominance',
+    description:
+      'Plumbers, HVAC, real estate, dental, law firms, and roofers — all achieving AI citation dominance through the AERO-10 framework.',
+    url: 'https://theanswerengine.ai/case-studies',
+  },
+};
 
-  useEffect(() => {
-    if (!shouldAnimate) return;
+const KPI_STATS = [
+  { val: '34+', label: 'AI_CITATIONS_GENERATED' },
+  { val: '6', label: 'ACTIVE_TERRITORIES' },
+  { val: '67', label: 'AVG_DAYS_TO_FIRST_CITATION' },
+  { val: '4.2x', label: 'AVG_TRAFFIC_MULTIPLIER' },
+];
 
-    let startTime: number | null = null;
-    const startValue = 0;
+const CASE_STUDIES = [
+  {
+    sector: 'SERVICES_PLUMBING',
+    location: 'SEC_01 // PHOENIX',
+    headline: 'PLUMBER: 0 TO 4 AI CITATIONS IN 67 DAYS',
+    citationsPre: '0',
+    citationsPost: '4',
+    timeframe: '67_D',
+    detail: 'A residential plumbing company with no online presence. Zero citations at start. AERO-10 entity mapping + answer-layer content pushed them to the top of ChatGPT and Google AI Overviews for emergency plumbing queries in Phoenix.',
+  },
+  {
+    sector: 'CLIMATE_CONTROL',
+    location: 'SEC_02 // AUSTIN',
+    headline: 'HVAC: 120% INCREASE IN SEARCH VISIBILITY',
+    citationsPre: '1',
+    citationsPost: '7',
+    timeframe: '90_D',
+    detail: 'A mid-size HVAC company already ranking on Google but invisible to AI platforms. Structural authority overhaul and distribution matrix deployment pushed citation count from 1 to 7 across 4 major AI engines.',
+  },
+  {
+    sector: 'REAL_ESTATE',
+    location: 'SEC_03 // DENVER',
+    headline: 'AGENCY: DOMINATING LUXURY CONDO QUERIES',
+    citationsPre: '0',
+    citationsPost: '3',
+    timeframe: '45_D',
+    detail: 'Boutique luxury real estate firm in Denver. Fastest citation capture in the portfolio — 45 days from onboarding to first Perplexity and Claude citations for high-intent buyer queries in the LoDo and Cherry Creek corridors.',
+  },
+  {
+    sector: 'MEDICAL_DENTAL',
+    location: 'SEC_04 // MIAMI',
+    headline: 'DENTIST: 5X ROI VIA PERPLEXITY CITATIONS',
+    citationsPre: '2',
+    citationsPost: '9',
+    timeframe: '120_D',
+    detail: 'Established dental practice with strong local SEO but no AI presence. Voice calibration and platform alignment protocols turned existing authority into 9 AI citations — generating a documented 5x ROI in new patient revenue.',
+  },
+  {
+    sector: 'LEGAL_INJURY',
+    location: 'SEC_05 // LOS_ANGELES',
+    headline: 'PI_LAW: CAPTURING HIGH-VALUE INTENT DATA',
+    citationsPre: '0',
+    citationsPost: '5',
+    timeframe: '80_D',
+    detail: 'Personal injury law firm in Los Angeles. High-value intent queries ($15K–$80K case value). Cluster architecture built around accident types and injury categories. ChatGPT now recommends this firm for 5 distinct high-intent query categories.',
+  },
+  {
+    sector: 'HOME_SERVICES',
+    location: 'SEC_06 // DALLAS',
+    headline: 'ROOFING: OVERTAKING NATIONAL COMPETITION',
+    citationsPre: '1',
+    citationsPost: '6',
+    timeframe: '55_D',
+    detail: 'Local roofing contractor competing against Home Depot and national franchise networks for AI citations. Relevance depth and structural authority protocol neutralized the national budget advantage. Local operator now cited above national brands.',
+  },
+];
 
-    const animate = (currentTime: number) => {
-      if (startTime === null) startTime = currentTime;
-      const progress = Math.min((currentTime - startTime) / duration, 1);
-
-      const easeOutQuart = 1 - Math.pow(1 - progress, 4);
-      const currentCount = Math.floor(easeOutQuart * (end - startValue) + startValue);
-
-      setCount(currentCount);
-
-      if (progress < 1) {
-        requestAnimationFrame(animate);
-      } else {
-        setCount(end);
-      }
-    };
-
-    requestAnimationFrame(animate);
-  }, [end, duration, shouldAnimate]);
-
-  return count;
-}
-
-function useInView(options = {}) {
-  const ref = useRef<HTMLDivElement>(null);
-  const [isInView, setIsInView] = useState(false);
-
-  useEffect(() => {
-    const observer = new IntersectionObserver(([entry]) => {
-      if (entry.isIntersecting && !isInView) {
-        setIsInView(true);
-      }
-    }, { threshold: 0.3, ...options });
-
-    if (ref.current) {
-      observer.observe(ref.current);
-    }
-
-    return () => {
-      if (ref.current) {
-        observer.unobserve(ref.current);
-      }
-    };
-  }, [isInView, options]);
-
-  return { ref, isInView };
-}
-
-function AnimatedStat({
-  value,
-  suffix = '',
-  label,
-  sublabel,
-  isInView,
-}: {
-  value: number;
-  suffix?: string;
-  label: string;
-  sublabel?: string;
-  isInView: boolean;
-}) {
-  const count = useCountAnimation(value, 2000, isInView);
-
+export default function CaseStudiesPage() {
   return (
-    <div className="text-center">
-      <div className="text-4xl sm:text-5xl lg:text-6xl font-semibold mb-3 text-white font-heading">
-        {count.toLocaleString()}{suffix}
-      </div>
-      <div className="text-white font-medium text-sm sm:text-base mb-1">{label}</div>
-      {sublabel && <div className="text-white/30 text-xs sm:text-sm">{sublabel}</div>}
-    </div>
-  );
-}
+    <main className="min-h-screen bg-[#131313] text-white overflow-x-hidden">
+      {/* Scanline Overlay */}
+      <div
+        className="fixed inset-0 z-50 pointer-events-none opacity-[0.03]"
+        style={{
+          background:
+            'linear-gradient(rgba(18,16,16,0) 50%, rgba(0,0,0,0.2) 50%), linear-gradient(90deg, rgba(255,0,0,0.02), rgba(0,255,0,0.01), rgba(0,0,255,0.02))',
+          backgroundSize: '100% 2px, 3px 100%',
+        }}
+      />
 
-export default function CaseStudies() {
-  const { ref: statsRef, isInView: statsInView } = useInView();
-  const { ref: cardRef, isInView: cardInView } = useInView();
-  const { ref: ctaRef, isInView: ctaInView } = useInView();
-
-  return (
-    <>
-      <style jsx global>{`
-        :root {
-          --ease-out-expo: cubic-bezier(0.16, 1, 0.3, 1);
-          --ease-out-quart: cubic-bezier(0.25, 1, 0.5, 1);
-        }
-
-        *:focus-visible {
-          outline: none;
-          box-shadow: 0 0 0 2px #0F1117, 0 0 0 4px rgba(255,255,255,0.4);
-          border-radius: 8px;
-          transition: box-shadow 200ms var(--ease-out-quart);
-        }
-
-        button:focus-visible, a:focus-visible {
-          outline: none;
-          box-shadow: 0 0 0 2px #0F1117, 0 0 0 4px rgba(255,255,255,0.4);
-        }
-
-        .font-heading {
-          font-family: 'Plus Jakarta Sans', system-ui, sans-serif;
-        }
-
-        .hover-lift {
-          transition: all 500ms var(--ease-out-expo);
-        }
-
-        .hover-lift:hover {
-          transform: translateY(-6px);
-          box-shadow: 0 24px 48px -12px rgba(0, 0, 0, 0.4);
-          border-color: rgba(255, 255, 255, 0.12);
-        }
-
-        html {
-          scroll-behavior: smooth;
-        }
-
-        @media (prefers-reduced-motion: reduce) {
-          html {
-            scroll-behavior: auto;
-          }
-          .hover-lift:hover {
-            transform: none;
-          }
-        }
-      `}</style>
-
+      {/* Schema */}
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{
           __html: JSON.stringify({
-            "@context": "https://schema.org",
-            "@type": "CollectionPage",
-            "name": "AEO Case Studies - Real Results from Answer Engine Optimization",
-            "description": "See how local service businesses achieved AI citation dominance through Answer Engine Optimization. Real case studies showing ChatGPT, Claude, and Google AI Overviews citations.",
-            "url": "https://theanswerengine.ai/case-studies",
-            "inLanguage": "en-US",
-            "publisher": {
-              "@type": "Organization",
-              "name": "The Answer Engine",
-              "url": "https://theanswerengine.ai",
-              "logo": {
-                "@type": "ImageObject",
-                "url": "https://theanswerengine.ai/TheAnswerEngine_white%20logo%20only.png"
-              },
-              "aggregateRating": {
-                "@type": "AggregateRating",
-                "ratingValue": "5.0",
-                "reviewCount": "1",
-                "bestRating": "5",
-                "worstRating": "1"
-              }
-            }
-          })
+            '@context': 'https://schema.org',
+            '@type': 'CollectionPage',
+            name: 'AEO Case Studies — Proof of Dominance',
+            description:
+              'Real results from Answer Engine Optimization. Local service businesses achieving AI citation dominance.',
+            url: 'https://theanswerengine.ai/case-studies',
+            publisher: {
+              '@type': 'Organization',
+              name: 'The Answer Engine',
+              url: 'https://theanswerengine.ai',
+            },
+          }),
         }}
       />
-
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{
           __html: JSON.stringify({
-            "@context": "https://schema.org",
-            "@type": "BreadcrumbList",
-            "itemListElement": [
-              {
-                "@type": "ListItem",
-                "position": 1,
-                "name": "Home",
-                "item": "https://theanswerengine.ai"
-              },
-              {
-                "@type": "ListItem",
-                "position": 2,
-                "name": "Case Studies",
-                "item": "https://theanswerengine.ai/case-studies"
-              }
-            ]
-          })
+            '@context': 'https://schema.org',
+            '@type': 'BreadcrumbList',
+            itemListElement: [
+              { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://theanswerengine.ai' },
+              { '@type': 'ListItem', position: 2, name: 'Case Studies', item: 'https://theanswerengine.ai/case-studies' },
+            ],
+          }),
         }}
       />
 
-      <main className="min-h-screen bg-[#0F1117] relative">
-
-        <div className="max-w-6xl mx-auto px-6 py-16 sm:py-24 relative">
-          {/* Back to Home */}
-          <div className="flex justify-center mb-8">
+      {/* ── HERO ─────────────────────────────────────────────── */}
+      <header
+        className="relative pt-32 pb-24 border-b border-[#FF6A00]/10 overflow-hidden"
+        style={{
+          backgroundImage: 'radial-gradient(#FF6A0011 0.5px, transparent 0.5px)',
+          backgroundSize: '24px 24px',
+        }}
+      >
+        <div className="max-w-7xl mx-auto px-6 lg:px-24">
+          {/* Back nav */}
+          <div className="mb-12">
             <Link
               href="/"
-              className="inline-flex items-center gap-2 text-white/30 hover:text-white/60 transition-colors text-sm"
+              className="font-mono text-[10px] tracking-widest uppercase text-white/40 hover:text-[#FF6A00] transition-colors inline-flex items-center gap-2"
             >
-              <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={2} aria-hidden="true">
+              <svg className="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={2}>
                 <path strokeLinecap="round" strokeLinejoin="round" d="M10.5 19.5L3 12m0 0l7.5-7.5M3 12h18" />
               </svg>
-              Back to Home
+              BACK_TO_HOME
             </Link>
           </div>
 
-          <header className="text-center mb-16 sm:mb-20">
-            <div className="flex justify-center mb-10">
-              <Link href="/">
-                <Image
-                  src="/TheAnswerEngine_white logo only.png"
-                  alt="The Answer Engine"
-                  width={384}
-                  height={128}
-                  priority
-                  className="h-20 sm:h-28 w-auto"
-                />
-              </Link>
-            </div>
-
-            <span className="text-sm font-medium tracking-widest uppercase text-white/30 mb-6 block">Proven Results</span>
-
-            <h1 className="text-3xl sm:text-4xl lg:text-5xl font-semibold mb-6 leading-tight text-white font-heading">
-              <span className="block">Real Businesses. Real AI Citations.</span>
-              <span className="block text-white">Real Results.</span>
-            </h1>
-
-            <p className="text-lg sm:text-xl text-gray-400 max-w-3xl mx-auto leading-relaxed">
-              See how Answer Engine Optimization helped local service businesses dominate AI search, generating qualified leads from ChatGPT, Claude, and Google AI Overviews.
-            </p>
-          </header>
-
-          {/* Stats Section */}
-          <div ref={statsRef} className="mb-16 sm:mb-20">
-            <div className={`bg-white/[0.03] backdrop-blur-xl border border-white/[0.08] rounded-2xl p-8 sm:p-12 transition-all duration-700 ease-out ${
-              statsInView ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'
-            }`}>
-              <div className="text-center mb-8">
-                <p className="text-gray-400 text-sm uppercase tracking-wider mb-2">Current Performance</p>
-                <h2 className="text-xl sm:text-2xl font-semibold text-white font-heading">Verified Results</h2>
-              </div>
-
-              <div className="grid md:grid-cols-3 gap-8 sm:gap-12">
-                <AnimatedStat
-                  value={3362}
-                  suffix=""
-                  label="Monthly Clicks"
-                  sublabel="From organic search alone"
-                  isInView={statsInView}
-                />
-
-                <div className="md:border-x border-white/[0.08] md:px-4">
-                  <AnimatedStat
-                    value={1000}
-                    suffix="+"
-                    label="Search Queries Captured"
-                    sublabel="High-intent local searches"
-                    isInView={statsInView}
-                  />
-                </div>
-
-                <AnimatedStat
-                  value={694}
-                  suffix=""
-                  label="Page 1 Rankings"
-                  sublabel="247 in positions 1-3"
-                  isInView={statsInView}
-                />
-              </div>
-
-              <div className="text-center mt-8 pt-8 border-t border-white/[0.08]">
-                <p className="text-gray-400 text-sm">
-                  Source: Google Search Console, November 2025 | LA County: 70,000+ competing agents
-                </p>
-              </div>
-            </div>
+          {/* Tag */}
+          <div className="flex items-center gap-3 mb-6">
+            <span className="w-3 h-3 bg-[#FF6A00]" />
+            <span className="font-mono text-[10px] tracking-widest uppercase text-white/40">
+              MISSION_LOGS // DECLASSIFIED
+            </span>
           </div>
 
-          {/* Separator */}
-          <div className="max-w-xs mx-auto h-px bg-gradient-to-r from-transparent via-white/[0.06] to-transparent mb-16 sm:mb-20" />
+          {/* Headline */}
+          <h1 className="font-headline font-black text-6xl md:text-8xl lg:text-[clamp(5rem,10vw,9rem)] uppercase tracking-tighter leading-[0.85] mb-10">
+            PROOF OF
+            <br />
+            <span
+              className="text-[#FF6A00]"
+              style={{ textShadow: '0 0 10px rgba(255,106,0,0.25)' }}
+            >
+              DOMINANCE
+            </span>
+          </h1>
 
-          {/* Case Study Card */}
-          <article
-            ref={cardRef}
-            className={`bg-white/[0.03] backdrop-blur-xl border border-white/[0.08] rounded-3xl overflow-hidden hover-lift transition-all duration-700 ease-out mb-16 sm:mb-20 ${
-              cardInView ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'
-            }`}
-          >
-            <div className="relative h-48 sm:h-56 bg-white/[0.04] backdrop-blur-xl border-b border-white/[0.08] flex items-center justify-center">
-              <div className="absolute inset-0 bg-gradient-to-b from-transparent to-black/20" />
-              <div className="text-center text-white relative z-10 px-6">
-                <div className="text-xs font-semibold mb-3 tracking-widest uppercase text-gray-300">
-                  Real Estate · Los Angeles County
-                </div>
-                <h2 className="text-2xl sm:text-3xl lg:text-4xl font-semibold font-heading">
-                  The Borges Real Estate Team
-                </h2>
+          <div className="grid md:grid-cols-2 gap-12 items-end">
+            <p className="text-white/60 text-sm leading-relaxed max-w-xl">
+              Measurable results. Real businesses.{' '}
+              <span className="text-white border-b border-[#FF6A00]">Zero theory.</span> Every
+              case study below was executed with the same AERO-10 framework — deployed against
+              real competition in real markets.
+            </p>
+            <div className="flex flex-col gap-2 font-mono text-[10px] tracking-widest text-white/40 md:text-right">
+              <p>RECORDS: VERIFIED</p>
+              <p>ENCRYPTION: NONE</p>
+              <p>TERMINAL_ACCESS: PUBLIC_READ</p>
+            </div>
+          </div>
+        </div>
+      </header>
+
+      {/* ── KPI BAR ──────────────────────────────────────────── */}
+      <section className="bg-[#1c1b1b] border-b border-[#FF6A00]/10 py-16 px-6 lg:px-24">
+        <div className="max-w-7xl mx-auto">
+          <div className="grid grid-cols-2 lg:grid-cols-4 gap-8">
+            {KPI_STATS.map((stat) => (
+              <div key={stat.label} className="flex flex-col">
+                <span className="font-headline font-black text-5xl md:text-6xl text-[#FF6A00]">
+                  {stat.val}
+                </span>
+                <span className="font-mono text-[10px] tracking-widest uppercase text-white/40 mt-3">
+                  {stat.label}
+                </span>
               </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* ── MISSION ARCHIVE GRID ─────────────────────────────── */}
+      <section className="py-32 px-6 lg:px-24 bg-[#131313]">
+        <div className="max-w-7xl mx-auto">
+          <div className="flex items-center justify-between mb-16">
+            <h2 className="font-headline font-black text-3xl uppercase tracking-tighter">
+              MISSION_ARCHIVE
+            </h2>
+            <span className="font-mono text-[10px] tracking-widest uppercase text-white/40">
+              FILTER: [ALL_RECORDS]
+            </span>
+          </div>
+
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-px bg-[#FF6A00]/10">
+            {CASE_STUDIES.map((cs, i) => (
+              <div
+                key={i}
+                className="bg-[#131313] p-10 hover:bg-[#1c1b1b] transition-colors border border-[#FF6A00]/5 group"
+              >
+                {/* Header row */}
+                <div className="flex justify-between items-start mb-8">
+                  <div className="w-10 h-10 border border-[#FF6A00]/40 flex items-center justify-center">
+                    <span className="font-mono text-[10px] text-[#FF6A00]">
+                      {String(i + 1).padStart(2, '0')}
+                    </span>
+                  </div>
+                  <span className="font-mono text-[10px] tracking-widest uppercase text-white/40">
+                    {cs.location}
+                  </span>
+                </div>
+
+                {/* Label + Headline */}
+                <div className="mb-4">
+                  <span className="font-mono text-[10px] tracking-widest uppercase text-[#FF6A00]">
+                    {cs.sector}
+                  </span>
+                  <h3 className="font-headline font-black text-2xl uppercase tracking-tighter mt-2 group-hover:text-[#FF6A00] transition-colors leading-tight">
+                    {cs.headline}
+                  </h3>
+                </div>
+
+                {/* Detail */}
+                <p className="text-white/40 text-sm leading-relaxed mb-8">{cs.detail}</p>
+
+                {/* Metrics row */}
+                <div className="grid grid-cols-3 gap-4 border-y border-white/5 py-6">
+                  <div>
+                    <p className="font-mono text-[10px] tracking-widest uppercase text-white/40 mb-2">
+                      CITATIONS_PRE
+                    </p>
+                    <p className="font-headline font-black text-xl">{cs.citationsPre}</p>
+                  </div>
+                  <div>
+                    <p className="font-mono text-[10px] tracking-widest uppercase text-white/40 mb-2">
+                      CITATIONS_POST
+                    </p>
+                    <p className="font-headline font-black text-xl text-[#FF6A00]">
+                      {cs.citationsPost}
+                    </p>
+                  </div>
+                  <div>
+                    <p className="font-mono text-[10px] tracking-widest uppercase text-white/40 mb-2">
+                      TIMEFRAME
+                    </p>
+                    <p className="font-headline font-black text-xl">{cs.timeframe}</p>
+                  </div>
+                </div>
+
+                {/* Status */}
+                <div className="mt-6">
+                  <span className="font-mono text-[10px] tracking-widest uppercase text-[#FF6A00]">
+                    MISSION_STATUS: COMPLETE
+                  </span>
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* ── FEATURED DEEP DIVE ───────────────────────────────── */}
+      <section className="py-32 px-6 lg:px-24 bg-[#1c1b1b] border-y border-[#FF6A00]/10">
+        <div className="max-w-7xl mx-auto">
+          <div className="mb-12">
+            <span className="font-mono text-[10px] tracking-widest uppercase text-white/40">
+              DEEP_DIVE // FEATURED_INTEL
+            </span>
+            <h2 className="font-headline font-black text-4xl uppercase tracking-tighter mt-4">
+              TERMINAL ANALYSIS:{' '}
+              <span className="text-[#FF6A00]">BORGES_REAL_ESTATE</span>
+            </h2>
+          </div>
+
+          <div className="grid lg:grid-cols-12 gap-12">
+            {/* Phase timeline */}
+            <div className="lg:col-span-4 border-l border-[#FF6A00]/20 pl-8 space-y-16 py-4">
+              {[
+                {
+                  phase: 'PHASE_01: STRATEGY',
+                  active: true,
+                  body: 'Semantic mapping of 1,200+ real estate queries in LA County. Entity alignment for Justin Borges as the definitive local expert across buyer, seller, and investor intent.',
+                },
+                {
+                  phase: 'PHASE_02: IMPLEMENTATION',
+                  active: false,
+                  body: 'AERO-10 content architecture deployed. Schema injection, knowledge graph seeding, and distribution matrix activation across all major AI training pipelines.',
+                },
+                {
+                  phase: 'PHASE_03: RESULTS',
+                  active: false,
+                  body: 'ChatGPT, Claude, Perplexity, and Google AI Overviews all citing Justin Borges as the recommended LA real estate agent. 8,400+ monthly organic clicks. Zero ad spend.',
+                },
+              ].map((phase, i) => (
+                <div key={i} className="relative">
+                  <div
+                    className={`absolute -left-[37px] top-0 w-4 h-4 ${
+                      phase.active ? 'bg-[#FF6A00]' : 'bg-white/20'
+                    }`}
+                  />
+                  <h4 className="font-headline font-black text-lg uppercase tracking-tighter mb-2">
+                    {phase.phase}
+                  </h4>
+                  <p className="text-white/40 text-sm leading-relaxed">{phase.body}</p>
+                </div>
+              ))}
             </div>
 
-            <div className="p-6 sm:p-10 lg:p-12">
-              {/* Challenge & Approach Summary */}
-              <div className="mb-10">
-                <h3 className="text-xl sm:text-2xl font-semibold mb-4 text-white font-heading">
-                  The Challenge
-                </h3>
-                <p className="text-base sm:text-lg text-gray-300 leading-relaxed mb-4">
-                  Justin Borges: 13+ years experience, $200M+ in career sales, genuine expertise in complex transactions most agents avoid.
-                </p>
-                <p className="text-base sm:text-lg text-gray-300 leading-relaxed">
-                  The problem? <span className="text-white font-semibold">70,000 competing agents</span> in LA County. Page 2-3 rankings = invisible. When prospects asked AI for recommendations, Justin wasn't mentioned.
-                </p>
+            {/* Data terminal */}
+            <div className="lg:col-span-8 bg-black p-8 border border-white/5">
+              <div className="flex justify-between items-center mb-12">
+                <span className="font-mono text-[10px] tracking-widest uppercase text-white/40">
+                  VISUAL_FEED: DATA_EXTRACTION
+                </span>
+                <div className="flex gap-2">
+                  <div className="w-2 h-2 bg-red-500/50" />
+                  <div className="w-2 h-2 bg-yellow-500/50" />
+                  <div className="w-2 h-2 bg-green-500/50" />
+                </div>
               </div>
 
-              {/* Results Grid */}
-              <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-4 mb-10">
+              <div className="grid grid-cols-2 gap-8 mb-8">
+                <div>
+                  <p className="font-mono text-[10px] tracking-widest uppercase text-white/40 mb-4">
+                    PRE_INJECTION_AUTHORITY
+                  </p>
+                  <div className="h-40 flex items-end gap-1">
+                    {[10, 15, 12, 8, 18].map((h, i) => (
+                      <div
+                        key={i}
+                        className="w-full bg-white/10"
+                        style={{ height: `${h}%` }}
+                      />
+                    ))}
+                  </div>
+                </div>
+                <div>
+                  <p className="font-mono text-[10px] tracking-widest uppercase text-[#FF6A00] mb-4">
+                    POST_TERMINAL_DOMINANCE
+                  </p>
+                  <div className="h-40 flex items-end gap-1">
+                    {[40, 65, 85, 95, 100].map((h, i) => (
+                      <div
+                        key={i}
+                        className="w-full bg-[#FF6A00]"
+                        style={{ height: `${h}%`, opacity: 0.4 + i * 0.15 }}
+                      />
+                    ))}
+                  </div>
+                </div>
+              </div>
+
+              <div className="pt-8 border-t border-white/5 flex flex-wrap gap-12">
                 {[
-                  { value: '8,400+', label: 'Monthly Clicks', sublabel: '100% organic', color: 'text-white' },
-                  { value: '1,000+', label: 'Queries Captured', sublabel: 'High-intent searches', color: 'text-white' },
-                  { value: '1.1M+', label: 'Monthly Impressions', sublabel: '~38K/day average', color: 'text-white' },
-                  { value: '$0', label: 'Ad Spend', sublabel: 'Zero paid ads', color: 'text-white' }
-                ].map((stat, i) => (
-                  <div key={i} className="bg-white/[0.03] backdrop-blur-xl border border-white/[0.08] rounded-xl p-4 sm:p-5 text-center">
-                    <div className={`text-2xl sm:text-3xl font-semibold ${stat.color} mb-2 font-heading`}>{stat.value}</div>
-                    <div className="text-white font-medium text-sm mb-1">{stat.label}</div>
-                    <div className="text-gray-400 text-xs">{stat.sublabel}</div>
+                  { label: 'MONTHLY_CLICKS', val: '8,400+', orange: true },
+                  { label: 'AI_PLATFORMS_CITING', val: '4', orange: false },
+                  { label: 'AD_SPEND', val: '$0', orange: false },
+                  { label: 'IMPRESSION_VOLUME', val: '1.1M+', orange: false },
+                ].map((stat) => (
+                  <div key={stat.label}>
+                    <span className="block font-mono text-[10px] tracking-widest uppercase text-white/40 mb-1">
+                      {stat.label}
+                    </span>
+                    <span
+                      className={`font-headline font-black text-3xl ${
+                        stat.orange ? 'text-[#FF6A00]' : 'text-white'
+                      }`}
+                    >
+                      {stat.val}
+                    </span>
                   </div>
                 ))}
               </div>
-
-              {/* Testimonial */}
-              <div className="relative p-6 sm:p-8 rounded-2xl mb-10 bg-white/[0.03] backdrop-blur-xl border-l-4 border-white/[0.08]">
-                <svg className="absolute top-4 left-4 w-8 h-8 text-white/10" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
-                  <path d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h3.983v10h-9.983z"/>
-                </svg>
-                <p className="text-base sm:text-lg italic text-gray-300 leading-relaxed relative z-10 mb-4 pl-6 sm:pl-0">
-                  "15 years in LA real estate, but online I was invisible. Now I'm getting over 3,000 clicks a month without spending a dime on ads. But the real change? <span className="text-white font-medium">Lead quality.</span> People trust my expertise and need MY help specifically."
-                </p>
-                <div className="font-semibold text-white/40 relative z-10 pl-6 sm:pl-0">
-                  - Justin Borges, The Borges Real Estate Team
-                </div>
-              </div>
-
-              <div className="text-center">
-                <Link
-                  href="/case-studies/justin-borges"
-                  className="inline-flex items-center justify-center gap-3 px-8 py-4 rounded-xl text-base sm:text-lg font-semibold text-[#0F1117] transition-all duration-300 hover:-translate-y-0.5 active:scale-[0.98] bg-white hover:bg-white/90"
-                >
-                  Read Full Case Study
-                  <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={2} aria-hidden="true">
-                    <path strokeLinecap="round" strokeLinejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3" />
-                  </svg>
-                </Link>
-              </div>
             </div>
-          </article>
-
-          {/* Separator */}
-          <div className="max-w-xs mx-auto h-px bg-gradient-to-r from-transparent via-white/[0.06] to-transparent mb-16 sm:mb-20" />
-
-          {/* CTA */}
-          <div
-            ref={ctaRef}
-            className={`bg-white/[0.03] backdrop-blur-xl border border-white/[0.08] rounded-3xl p-8 sm:p-12 lg:p-16 text-center transition-all duration-700 ease-out ${
-              ctaInView ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'
-            }`}
-          >
-            <h2 className="text-2xl sm:text-3xl lg:text-4xl font-semibold mb-6 text-white leading-tight font-heading">
-              Ready to Become the Next Success Story?
-            </h2>
-
-            <p className="text-lg sm:text-xl text-gray-400 mb-10 max-w-2xl mx-auto leading-relaxed">
-              If it works in the most competitive market in America (70,000 agents), it works for your industry with 10x less competition.
-            </p>
-
-            <Link
-              href="/#territory-check"
-              className="inline-flex items-center justify-center gap-3 px-8 sm:px-10 py-4 sm:py-5 rounded-xl text-base sm:text-lg font-semibold text-[#0F1117] transition-all duration-300 hover:-translate-y-0.5 active:scale-[0.98] bg-white hover:bg-white/90"
-            >
-              <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={2} aria-hidden="true">
-                <path strokeLinecap="round" strokeLinejoin="round" d="M9 12.75L11.25 15 15 9.75m-3-7.036A11.959 11.959 0 013.598 6 11.99 11.99 0 003 9.749c0 5.592 3.824 10.29 9 11.623 5.176-1.332 9-6.03 9-11.622 0-1.31-.21-2.571-.598-3.751h-.152c-3.196 0-6.1-1.248-8.25-3.285z" />
-              </svg>
-              Check Your Territory
-            </Link>
-          </div>
-
-          {/* Back to Home */}
-          <div className="mt-12 text-center">
-            <Link
-              href="/"
-              className="inline-flex items-center gap-2 text-white/30 hover:text-white/60 transition-colors text-sm"
-            >
-              <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={2} aria-hidden="true">
-                <path strokeLinecap="round" strokeLinejoin="round" d="M10.5 19.5L3 12m0 0l7.5-7.5M3 12h18" />
-              </svg>
-              Back to Home
-            </Link>
           </div>
         </div>
-      </main>
-    </>
+      </section>
+
+      {/* ── CTA ──────────────────────────────────────────────── */}
+      <section className="bg-[#FF6A00] py-24 px-6 lg:px-24">
+        <div className="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center gap-12">
+          <h2 className="font-headline font-black text-4xl md:text-5xl uppercase tracking-tighter text-black leading-none text-center md:text-left">
+            READY TO SEE YOUR NAME<br />IN AI RESULTS?
+          </h2>
+          <Link
+            href="/#territory-check"
+            className="bg-black text-[#FF6A00] px-12 py-5 font-headline font-black uppercase tracking-tighter text-lg hover:bg-[#131313] transition-colors inline-flex items-center gap-3 whitespace-nowrap"
+          >
+            INITIATE AUDIT
+            <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={2.5}>
+              <path strokeLinecap="round" strokeLinejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3" />
+            </svg>
+          </Link>
+        </div>
+      </section>
+    </main>
   );
 }

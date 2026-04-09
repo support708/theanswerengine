@@ -1,7 +1,7 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
+  --background: #131313;
   --foreground: #171717;
 
   /* Modern easing curves for 2025-2026 */
@@ -19,7 +19,7 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #0a0a0a;
+    --background: #131313;
     --foreground: #ededed;
   }
 }
@@ -30,10 +30,12 @@ body {
   font-family: var(--font-body), 'Inter', Arial, Helvetica, sans-serif;
 }
 
-/* Heading font class - standardized to semibold for sleek premium feel */
+/* Heading font class - Space Grotesk, black weight, brutalist uppercase */
 .font-heading {
-  font-family: var(--font-heading), 'Plus Jakarta Sans', system-ui, sans-serif;
-  font-weight: 600;
+  font-family: var(--font-headline), 'Space Grotesk', system-ui, sans-serif;
+  font-weight: 900;
+  text-transform: uppercase;
+  letter-spacing: -0.03em;
 }
 
 /* Fluid typography scale */
@@ -64,18 +66,18 @@ body {
 
 /* Heading weight variations */
 .font-heading-hero {
-  font-family: var(--font-heading), 'Plus Jakarta Sans', system-ui, sans-serif;
-  font-weight: 700;
+  font-family: var(--font-headline), 'Space Grotesk', system-ui, sans-serif;
+  font-weight: 900;
 }
 
 .font-heading-section {
-  font-family: var(--font-heading), 'Plus Jakarta Sans', system-ui, sans-serif;
-  font-weight: 600;
+  font-family: var(--font-headline), 'Space Grotesk', system-ui, sans-serif;
+  font-weight: 800;
 }
 
 .font-heading-card {
-  font-family: var(--font-heading), 'Plus Jakarta Sans', system-ui, sans-serif;
-  font-weight: 500;
+  font-family: var(--font-headline), 'Space Grotesk', system-ui, sans-serif;
+  font-weight: 800;
 }
 
 /* Gradient border animation for featured cards */
@@ -146,6 +148,30 @@ html {
   background: rgba(255, 255, 255, 0.2);
 }
 
+/* Scanline overlay effect for terminal aesthetic */
+.scanline-overlay {
+  background: linear-gradient(rgba(18, 16, 16, 0) 50%, rgba(0, 0, 0, 0.25) 50%),
+    linear-gradient(90deg, rgba(255, 0, 0, 0.06), rgba(0, 255, 0, 0.02), rgba(0, 0, 255, 0.06));
+  background-size: 100% 2px, 3px 100%;
+  pointer-events: none;
+}
+
+/* Dot-grid background for hero section */
+.grid-bg {
+  background-image: radial-gradient(circle, #353534 1px, transparent 1px);
+  background-size: 32px 32px;
+}
+
+/* Territory card orange glow pulse */
+@keyframes orange-pulse {
+  0%, 100% { box-shadow: 0 0 0 0 rgba(255, 106, 0, 0); }
+  50% { box-shadow: 0 0 20px 4px rgba(255, 106, 0, 0.15); }
+}
+
+.animate-orange-pulse {
+  animation: orange-pulse 3s ease-in-out infinite;
+}
+
 /* Protected territory pulse animation */
 @keyframes pulse-subtle {
   0%, 100% {
@@ -166,8 +192,7 @@ html {
 }
 
 .hover-lift:hover {
-  transform: translateY(-4px);
-  box-shadow: 0 20px 40px -12px rgba(0, 0, 0, 0.4), 0 0 0 1px rgba(255, 255, 255, 0.08);
+  transform: translateY(2px);
   border-color: rgba(255, 255, 255, 0.15);
 }
 
@@ -389,6 +414,29 @@ button:focus-visible, a:focus-visible {
   }
 }
 
+/* AEO Terminal Utilities */
+.scanline-overlay {
+  background: linear-gradient(rgba(18, 16, 16, 0) 50%, rgba(0, 0, 0, 0.25) 50%), linear-gradient(90deg, rgba(255, 0, 0, 0.06), rgba(0, 255, 0, 0.02), rgba(0, 0, 255, 0.06));
+  background-size: 100% 2px, 3px 100%;
+  pointer-events: none;
+}
+
+.grid-bg {
+  background-image: radial-gradient(circle, #353534 1px, transparent 1px);
+  background-size: 32px 32px;
+}
+
+.tonal-shift {
+  background-color: #1d1d1d;
+}
+
+.font-mono-status {
+  font-family: ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace;
+  font-size: 10px;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+
 /* ═══════════════════════════════════════════════════════════════
    CHAMPIONSHIP FORMAT — Dark Theme (#0F1117 bg, #FF6A00 accent)
    ═══════════════════════════════════════════════════════════════ */
@@ -404,9 +452,9 @@ button:focus-visible, a:focus-visible {
   .ae-stats-grid { grid-template-columns: repeat(4, 1fr); }
 }
 .ae-stat-card {
-  background: rgba(255,255,255,0.04);
-  border: 1px solid rgba(255,255,255,0.08);
-  border-radius: 12px;
+  background: rgba(42, 42, 42, 0.8);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 0;
   padding: 20px;
   text-align: center;
   transition: all 0.3s cubic-bezier(0.4,0,0.2,1);
@@ -443,7 +491,7 @@ button:focus-visible, a:focus-visible {
 
 /* ===== CALLOUT BOXES ===== */
 .ae-callout {
-  border-radius: 12px;
+  border-radius: 0;
   padding: 20px 24px;
   margin: 28px 0;
   border-left: 4px solid;
@@ -487,7 +535,7 @@ button:focus-visible, a:focus-visible {
   width: 100%;
   border-collapse: collapse;
   margin: 28px 0;
-  border-radius: 12px;
+  border-radius: 0;
   overflow: hidden;
 }
 .ae-comparison-table thead th {
@@ -517,7 +565,7 @@ button:focus-visible, a:focus-visible {
   margin: 28px 0;
   background: rgba(255,255,255,0.03);
   border: 1px solid rgba(255,255,255,0.08);
-  border-radius: 12px;
+  border-radius: 0;
   overflow: hidden;
 }
 .ae-decision-matrix-title {
@@ -565,7 +613,7 @@ button:focus-visible, a:focus-visible {
   .ae-pros-cons { grid-template-columns: 1fr; }
 }
 .ae-pros-box, .ae-cons-box {
-  border-radius: 12px;
+  border-radius: 0;
   padding: 20px;
 }
 .ae-pros-box {
@@ -599,7 +647,7 @@ button:focus-visible, a:focus-visible {
   margin: 28px 0;
   background: rgba(255,106,0,0.04);
   border: 1px solid rgba(255,106,0,0.15);
-  border-radius: 12px;
+  border-radius: 0;
   overflow: hidden;
 }
 .ae-cheat-sheet-title {
@@ -641,7 +689,7 @@ button:focus-visible, a:focus-visible {
 .ae-dollar-item {
   background: rgba(255,255,255,0.03);
   border: 1px solid rgba(255,255,255,0.08);
-  border-radius: 12px;
+  border-radius: 0;
   padding: 20px;
   text-align: center;
 }
@@ -717,7 +765,7 @@ button:focus-visible, a:focus-visible {
 .ae-cta-block {
   margin: 32px 0;
   padding: 28px;
-  border-radius: 16px;
+  border-radius: 0;
   background: linear-gradient(135deg, rgba(255,106,0,0.1), transparent);
   border: 1px solid rgba(255,106,0,0.2);
 }
@@ -731,7 +779,7 @@ button:focus-visible, a:focus-visible {
   color: white;
   font-weight: 600;
   padding: 12px 24px;
-  border-radius: 8px;
+  border-radius: 0;
   text-decoration: none;
   transition: background 0.2s;
 }
@@ -744,7 +792,7 @@ button:focus-visible, a:focus-visible {
   color: white;
   font-weight: 600;
   padding: 12px 24px;
-  border-radius: 8px;
+  border-radius: 0;
   text-decoration: none;
   border: 1px solid rgba(255,255,255,0.12);
   transition: all 0.2s;
@@ -757,7 +805,7 @@ button:focus-visible, a:focus-visible {
   padding: 16px 20px;
   background: rgba(255,106,0,0.04);
   border: 1px solid rgba(255,106,0,0.12);
-  border-radius: 10px;
+  border-radius: 0;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -778,7 +826,7 @@ button:focus-visible, a:focus-visible {
 .ae-final-cta {
   margin: 48px 0 32px;
   padding: 40px 32px;
-  border-radius: 20px;
+  border-radius: 0;
   background: linear-gradient(135deg, rgba(255,106,0,0.12), rgba(255,106,0,0.04));
   border: 2px solid rgba(255,106,0,0.25);
   text-align: center;
@@ -789,7 +837,7 @@ button:focus-visible, a:focus-visible {
   content: '';
   position: absolute;
   inset: -2px;
-  border-radius: 22px;
+  border-radius: 0;
   border: 2px solid transparent;
   background: linear-gradient(135deg, #FF6A00, transparent, #FF6A00) border-box;
   mask: linear-gradient(#fff 0 0) padding-box, linear-gradient(#fff 0 0);
@@ -809,7 +857,7 @@ button:focus-visible, a:focus-visible {
   padding: 24px;
   background: rgba(255,255,255,0.03);
   border: 1px solid rgba(255,255,255,0.08);
-  border-radius: 16px;
+  border-radius: 0;
   display: flex;
   gap: 20px;
   align-items: center;
@@ -837,7 +885,7 @@ button:focus-visible, a:focus-visible {
 .ae-toc {
   background: rgba(255,255,255,0.03);
   border: 1px solid rgba(255,255,255,0.08);
-  border-radius: 12px;
+  border-radius: 0;
   padding: 24px 28px;
   margin: 28px 0;
 }
@@ -922,7 +970,7 @@ button:focus-visible, a:focus-visible {
   padding: 20px 24px;
   border-left: 4px solid #FF6A00;
   background: rgba(255,106,0,0.04);
-  border-radius: 0 12px 12px 0;
+  border-radius: 0;
 }
 .ae-quote p {
   color: rgba(255,255,255,0.85);
@@ -945,7 +993,7 @@ button:focus-visible, a:focus-visible {
   padding: 20px 24px;
   background: rgba(255,106,0,0.06);
   border: 1px solid rgba(255,106,0,0.15);
-  border-radius: 12px;
+  border-radius: 0;
 }
 .ae-takeaway-title {
   font-size: 0.78rem;

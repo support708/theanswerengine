@@ -1,0 +1,37 @@
+Dark, ultra-premium SaaS homepage for an AEO (Answer Engine Optimization) agency. Ultra-clean, confident, data-driven aesthetic. Near-black background (#0F1117). This is a high-end B2B service page — think Linear, Vercel, or Stripe-level design polish.
+
+DESIGN SYSTEM (REQUIRED):
+- Platform: Web, Desktop-first responsive
+- Theme: Dark, ultra-premium SaaS — clean, confident, data-driven
+- Background Primary: Near Black (#0F1117) — the canvas
+- Background Secondary: Slightly lighter (#14151f) for card surfaces
+- Text Primary: White (#ffffff) at 90-95% opacity for headings
+- Text Secondary: White at 40-50% opacity for body copy
+- Text Tertiary: White at 20-30% opacity for metadata/labels
+- Accent Primary: Burnt Orange (#FF6A00) — CTAs, highlights, data points, hover states
+- Accent Hover: Darker orange (#e55f00)
+- Success: Soft green (rgba(100,220,100,0.9)) for positive metrics
+- Borders: White at 6-8% opacity. Hover: white at 10-15%
+- Typography Headings: Plus Jakarta Sans 600-700, tracking-tight, fluid sizing
+- Typography Body: Inter 400, 16px, line-height 1.7, max-width 65ch
+- Typography Labels: 11-12px, uppercase, tracking-widest, white/30
+- Buttons Primary: White bg / #0F1117 text, rounded-xl (12px), px-7 py-3.5, font-semibold
+- Buttons Secondary: White/8 border, white/60 text, rounded-xl
+- Buttons Orange: #FF6A00 bg, white text, rounded-lg (8px), font-semibold
+- Cards: rounded-2xl (16px), border white/6, hover border white/10, bg white/[0.03]
+- Section Spacing: py-20 sm:py-32 consistently
+- Section Headers: label (uppercase tracking-widest white/30 text-sm mb-6) + headline (Plus Jakarta 600-700 text-3xl sm:text-4xl lg:text-5xl tracking-tight mb-6) + subtext (text-lg white/40 max-w-lg mx-auto)
+- Max Width: max-w-6xl mx-auto px-6
+- Dividers: h-px bg-white/[0.04] between sections
+
+PAGE STRUCTURE:
+1. **Nav:** Sticky navigation bar, bg #0F1117 at 80% opacity with backdrop-blur-xl, border-bottom white at 8% opacity. Logo text "The Answer Engine" on left in Plus Jakarta Sans 700. Navigation links right: Home, About, Blog, Case Studies, Contact. White filled "Get Started" CTA button on far right.
+2. **Hero Section:** Subtle dot grid pattern on background. Section label "ANSWER ENGINE OPTIMIZATION" in white at 30% opacity, uppercase, wide letter-spacing. Large headline "Get Your Business Cited by AI" in Plus Jakarta Sans 700, white at 95%, text-5xl. Subtext below in white at 40%: "When customers ask ChatGPT, Google AI, or Perplexity for recommendations, we make sure they hear your name." Two CTA buttons side by side: "Check Your Territory" (white bg, dark text, rounded-xl) and "See How It Works" (outline style, white/8 border). Below CTAs: animated mockup area showing AI chat interfaces citing a local business.
+3. **Social Proof Strip:** Horizontal bar with text "Trusted by local businesses across the US" with subtle industry icons (plumbing, real estate, HVAC, dental, legal).
+4. **Problem Section:** Headline "Your Competitors Are Already Being Recommended by AI". Before/after comparison showing AI chat responses. Left card shows competitor getting cited, right card shows "Your business: Not mentioned". Chat-style mockup boxes with rounded corners, dark card surfaces.
+5. **How It Works:** 3 cards in a row with orange number badges (1, 2, 3). Step 1: "Competitive Audit" — We scan every AI platform. Step 2: "Content + Schema" — We build your authority signals. Step 3: "Monitor + Optimize" — We track and improve citations. Each card: rounded-2xl, border white/6, bg white at 3%.
+6. **Territory Protection:** Headline "One Business Per Category. Per City. Period." Grid visualization showing claimed territories with green badges and available ones with orange glow. Creates exclusivity and urgency.
+7. **Guarantee:** "90-Day Citation Guarantee" large card with subtle orange gradient glow on the border. Terms listed below in small text.
+8. **FAQ:** 5-question accordion. Active question has orange accent line on left. Questions about AEO, pricing, timeline, results, territory.
+9. **Contact:** Two cards side by side — phone card and email card. Below: larger "Free 30-minute strategy call" card with bullet points (competitor audit, opportunity analysis, 90-day plan) and dual CTAs.
+10. **Footer:** Logo "The Answer Engine" left. Three columns: Company (About, Blog, Case Studies), Services (AEO Audit, Content, Monitoring), Connect (Phone, Email, Schedule Call). Bottom row: privacy policy, terms of service, copyright 2026.

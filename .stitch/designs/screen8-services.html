@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+
+<html class="dark" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>AEO_TERMINAL // SERVICES</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700;800;900&amp;family=Inter:wght@300;400;500;600;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            "colors": {
+                    "on-surface-variant": "#e2bfb0",
+                    "on-primary-fixed": "#351000",
+                    "surface": "#131313",
+                    "outline-variant": "#5a4136",
+                    "on-secondary-fixed-variant": "#3a485b",
+                    "inverse-primary": "#a14000",
+                    "on-tertiary-fixed-variant": "#00497a",
+                    "on-surface": "#e5e2e1",
+                    "tertiary-container": "#009eff",
+                    "primary-container": "#ff6a00",
+                    "error-container": "#93000a",
+                    "surface-bright": "#3a3939",
+                    "primary": "#ffb694",
+                    "surface-container-highest": "#353534",
+                    "on-error-container": "#ffdad6",
+                    "surface-tint": "#ffb694",
+                    "secondary-fixed-dim": "#b9c7df",
+                    "outline": "#a98a7d",
+                    "error": "#ffb4ab",
+                    "surface-container-high": "#2a2a2a",
+                    "primary-fixed": "#ffdbcc",
+                    "surface-variant": "#353534",
+                    "on-secondary": "#233144",
+                    "on-primary-container": "#571f00",
+                    "tertiary-fixed": "#d0e4ff",
+                    "on-secondary-container": "#abb9d1",
+                    "on-primary-fixed-variant": "#7b2f00",
+                    "secondary-container": "#3c4a5e",
+                    "secondary-fixed": "#d5e3fc",
+                    "on-error": "#690005",
+                    "surface-container-lowest": "#0e0e0e",
+                    "on-background": "#e5e2e1",
+                    "primary-fixed-dim": "#ffb694",
+                    "tertiary-fixed-dim": "#9ccaff",
+                    "on-tertiary-fixed": "#001d35",
+                    "on-secondary-fixed": "#0d1c2e",
+                    "background": "#131313",
+                    "inverse-surface": "#e5e2e1",
+                    "surface-container-low": "#1c1b1b",
+                    "surface-container": "#201f1f",
+                    "on-primary": "#571f00",
+                    "inverse-on-surface": "#313030",
+                    "surface-dim": "#131313",
+                    "on-tertiary-container": "#003357",
+                    "on-tertiary": "#003256",
+                    "tertiary": "#9ccaff",
+                    "secondary": "#b9c7df"
+            },
+            "borderRadius": {
+                    "DEFAULT": "0px",
+                    "lg": "0px",
+                    "xl": "0px",
+                    "full": "9999px"
+            },
+            "fontFamily": {
+                    "headline": ["Space Grotesk"],
+                    "body": ["Inter"],
+                    "label": ["Space Grotesk"]
+            }
+          },
+        },
+      }
+    </script>
+<style>
+        .scanline {
+            width: 100%;
+            height: 100%;
+            z-index: 10;
+            background: linear-gradient(0deg, rgba(255, 255, 255, 0) 50%, rgba(255, 255, 255, 0.02) 50%);
+            background-size: 100% 4px;
+            pointer-events: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+        }
+        .dot-grid {
+            background-image: radial-gradient(rgba(255, 106, 0, 0.15) 1px, transparent 0);
+            background-size: 32px 32px;
+        }
+    </style>
+</head>
+<body class="bg-surface text-on-surface font-body selection:bg-primary-container selection:text-black">
+<div class="scanline"></div>
+<!-- TopAppBar -->
+<header class="bg-[#131313] dark:bg-[#131313] fixed top-0 w-full z-50">
+<div class="flex justify-between items-center w-full px-6 py-4 max-w-full">
+<div class="text-2xl font-black tracking-tighter text-[#FF6A00] uppercase font-['Space_Grotesk']">
+                AEO_TERMINAL
+            </div>
+<nav class="hidden md:flex gap-8 font-['Space_Grotesk'] uppercase tracking-tighter font-black">
+<a class="text-zinc-500 hover:text-zinc-200 transition-colors duration-150" href="#">INTEL</a>
+<a class="text-[#FF6A00] border-b-2 border-[#FF6A00] pb-1" href="#">CORE</a>
+<a class="text-zinc-500 hover:text-zinc-200 transition-colors duration-150" href="#">ASSETS</a>
+<a class="text-zinc-500 hover:text-zinc-200 transition-colors duration-150" href="#">NETWORK</a>
+</nav>
+<div class="flex items-center gap-4">
+<span class="material-symbols-outlined text-zinc-500 hover:bg-zinc-800/50 p-2 cursor-pointer transition-colors duration-150">settings</span>
+<span class="material-symbols-outlined text-[#FF6A00] hover:bg-zinc-800/50 p-2 cursor-pointer transition-colors duration-150">terminal</span>
+</div>
+</div>
+<div class="bg-[#222222] h-[1px] w-full block"></div>
+</header>
+<main class="pt-20">
+<!-- Section 1: Hero -->
+<section class="relative py-24 md:py-32 px-6 overflow-hidden dot-grid">
+<div class="max-w-7xl mx-auto relative z-20">
+<div class="mb-6 flex items-center gap-4">
+<span class="bg-primary-container/10 text-primary-container font-mono text-xs px-2 py-1 border border-primary-container/20">
+                        SERVICE_MANIFEST // CLASSIFIED
+                    </span>
+<div class="h-[1px] flex-grow bg-outline-variant/30"></div>
+</div>
+<h1 class="font-headline font-black text-6xl md:text-8xl uppercase tracking-tighter leading-[0.9] mb-8">
+                    WHAT YOU <span class="text-primary-container">GET</span>
+</h1>
+<p class="max-w-2xl text-xl md:text-2xl text-on-surface-variant font-light tracking-tight border-l-2 border-primary-container pl-6">
+                    The Answer Authority Foundation — a complete AEO deployment protocol designed for total ecosystem dominance.
+                </p>
+</div>
+<!-- Decorative Accent -->
+<div class="absolute top-0 right-0 p-8 opacity-20 pointer-events-none">
+<span class="text-[12rem] font-black font-headline leading-none select-none">AEO_</span>
+</div>
+</section>
+<!-- Section 2: Package Card -->
+<section class="py-20 px-6 bg-surface-container-low">
+<div class="max-w-7xl mx-auto">
+<div class="bg-[#2a2a2a] border-l-4 border-t-4 border-primary-container p-8 md:p-12">
+<div class="flex flex-col md:flex-row justify-between items-start md:items-center mb-12 gap-4">
+<div class="font-mono text-xl tracking-widest text-primary-container">
+                            PACKAGE: ANSWER_AUTHORITY_FOUNDATION
+                        </div>
+<div class="text-xs font-mono text-outline-variant uppercase">
+                            ID: 44-01-AEO // SYSTEM_READY
+                        </div>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-16">
+<!-- Item 1 -->
+<div class="group p-6 bg-surface-container-lowest border border-white/5 hover:border-primary-container/50 transition-all">
+<span class="material-symbols-outlined text-primary-container text-4xl mb-4" style="font-variation-settings: 'FILL' 1;">check_circle</span>
+<h3 class="font-headline font-bold text-xl uppercase mb-2">Competitive Audit</h3>
+<p class="text-on-surface-variant text-sm font-body leading-relaxed">Full AI citation landscape analysis across LLMs and search engines.</p>
+</div>
+<!-- Item 2 -->
+<div class="group p-6 bg-surface-container-lowest border border-white/5 hover:border-primary-container/50 transition-all">
+<span class="material-symbols-outlined text-primary-container text-4xl mb-4" style="font-variation-settings: 'FILL' 1;">article</span>
+<h3 class="font-headline font-bold text-xl uppercase mb-2">AI-Optimized Articles/Month</h3>
+<p class="text-on-surface-variant text-sm font-body leading-relaxed">High-authority content deployment targeting neural-network relevance.</p>
+</div>
+<!-- Item 3 -->
+<div class="group p-6 bg-surface-container-lowest border border-white/5 hover:border-primary-container/50 transition-all">
+<span class="material-symbols-outlined text-primary-container text-4xl mb-4" style="font-variation-settings: 'FILL' 1;">schema</span>
+<h3 class="font-headline font-bold text-xl uppercase mb-2">Schema Implementation</h3>
+<p class="text-on-surface-variant text-sm font-body leading-relaxed">Advanced structured data layering for native AI comprehension.</p>
+</div>
+<!-- Item 4 -->
+<div class="group p-6 bg-surface-container-lowest border border-white/5 hover:border-primary-container/50 transition-all">
+<span class="material-symbols-outlined text-primary-container text-4xl mb-4" style="font-variation-settings: 'FILL' 1;">radar</span>
+<h3 class="font-headline font-bold text-xl uppercase mb-2">Citation Monitoring</h3>
+<p class="text-on-surface-variant text-sm font-body leading-relaxed">Real-time tracking of brand mentions and entity connections.</p>
+</div>
+<!-- Item 5 -->
+<div class="group p-6 bg-surface-container-lowest border border-white/5 hover:border-primary-container/50 transition-all">
+<span class="material-symbols-outlined text-primary-container text-4xl mb-4" style="font-variation-settings: 'FILL' 1;">analytics</span>
+<h3 class="font-headline font-bold text-xl uppercase mb-2">Monthly Reporting</h3>
+<p class="text-on-surface-variant text-sm font-body leading-relaxed">Technical performance metrics and iterative optimization data.</p>
+</div>
+<!-- Item 6 -->
+<div class="group p-6 bg-surface-container-lowest border border-white/5 hover:border-primary-container/50 transition-all">
+<span class="material-symbols-outlined text-primary-container text-4xl mb-4" style="font-variation-settings: 'FILL' 1;">security</span>
+<h3 class="font-headline font-bold text-xl uppercase mb-2">Territory Protection</h3>
+<p class="text-on-surface-variant text-sm font-body leading-relaxed">Exclusive category and city lockout protocol for your industry.</p>
+</div>
+</div>
+<div class="flex flex-col md:flex-row justify-between items-center pt-8 border-t border-white/10 gap-4">
+<div class="font-mono text-xs tracking-widest text-on-surface-variant">
+                            DEPLOYMENT_TIMELINE: 90_DAYS // GUARANTEE: ACTIVE
+                        </div>
+<div class="flex gap-2">
+<div class="w-3 h-3 bg-primary-container animate-pulse"></div>
+<div class="w-3 h-3 bg-primary-container/40"></div>
+<div class="w-3 h-3 bg-primary-container/20"></div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Section 3: AEO vs SEO Comparison -->
+<section class="py-24 px-6 bg-surface">
+<div class="max-w-5xl mx-auto">
+<h2 class="font-headline font-black text-4xl uppercase mb-12 tracking-tighter border-b border-primary-container/30 pb-4 inline-block">
+                    PROTOCOL COMPARISON
+                </h2>
+<div class="overflow-x-auto border border-white/10">
+<table class="w-full text-left border-collapse">
+<thead>
+<tr class="bg-primary-container text-black font-black uppercase font-headline">
+<th class="p-4 border-r border-black/10">PARAMETER</th>
+<th class="p-4 border-r border-black/10">TRADITIONAL SEO</th>
+<th class="p-4">AEO_SYSTEM</th>
+</tr>
+</thead>
+<tbody class="font-mono text-sm">
+<tr class="border-b border-white/5 bg-surface-container-low">
+<td class="p-4 border-r border-white/5 font-bold">TARGET ENGINE</td>
+<td class="p-4 border-r border-white/5 text-on-surface-variant">Google/Bing Indices</td>
+<td class="p-4 text-primary-container">LLMs / Neural Grids</td>
+</tr>
+<tr class="border-b border-white/5">
+<td class="p-4 border-r border-white/5 font-bold">CONTENT GOAL</td>
+<td class="p-4 border-r border-white/5 text-on-surface-variant">Keywords &amp; Links</td>
+<td class="p-4 text-primary-container">Entity Authority</td>
+</tr>
+<tr class="border-b border-white/5 bg-surface-container-low">
+<td class="p-4 border-r border-white/5 font-bold">VISIBILITY</td>
+<td class="p-4 border-r border-white/5 text-on-surface-variant">Blue Link Clicks</td>
+<td class="p-4 text-primary-container">Direct Answer Synthesis</td>
+</tr>
+<tr class="border-b border-white/5">
+<td class="p-4 border-r border-white/5 font-bold">LATENCY</td>
+<td class="p-4 border-r border-white/5 text-on-surface-variant">Months to Rank</td>
+<td class="p-4 text-primary-container">Real-time Injection</td>
+</tr>
+<tr class="bg-surface-container-low">
+<td class="p-4 border-r border-white/5 font-bold">LONGEVITY</td>
+<td class="p-4 border-r border-white/5 text-on-surface-variant">Algorithm Sensitive</td>
+<td class="p-4 text-primary-container">Protocol Immune</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</section>
+<!-- Section 4: FAQ -->
+<section class="py-24 px-6 bg-surface-container-low">
+<div class="max-w-4xl mx-auto">
+<div class="flex items-end gap-6 mb-16">
+<h2 class="font-headline font-black text-5xl uppercase tracking-tighter leading-none">
+                        FREQUENTLY<br/>ASKED
+                    </h2>
+<div class="h-2 w-2 bg-primary-container mb-1"></div>
+<div class="h-[1px] flex-grow bg-white/10 mb-2"></div>
+</div>
+<div class="space-y-4">
+<!-- FAQ 1 (Active) -->
+<div class="bg-surface border border-white/5 border-l-4 border-l-primary-container p-6">
+<div class="flex justify-between items-center cursor-pointer mb-4">
+<h4 class="font-headline font-bold text-lg uppercase text-primary-container">How does the pricing model work?</h4>
+<span class="material-symbols-outlined">remove</span>
+</div>
+<div class="text-on-surface-variant font-body text-sm leading-relaxed max-w-2xl">
+                            We operate on a deployment-fee basis combined with a monthly maintenance protocol. Our pricing is reflective of the intensive data layering required to achieve Answer Authority within a competitive landscape. Contact our team for a custom quote based on your industry volume.
+                        </div>
+</div>
+<!-- FAQ 2 -->
+<div class="bg-surface border border-white/5 p-6 hover:bg-surface-container-high transition-colors cursor-pointer">
+<div class="flex justify-between items-center">
+<h4 class="font-headline font-bold text-lg uppercase">What industries do you serve?</h4>
+<span class="material-symbols-outlined">add</span>
+</div>
+</div>
+<!-- FAQ 3 -->
+<div class="bg-surface border border-white/5 p-6 hover:bg-surface-container-high transition-colors cursor-pointer">
+<div class="flex justify-between items-center">
+<h4 class="font-headline font-bold text-lg uppercase">How does territory protection work?</h4>
+<span class="material-symbols-outlined">add</span>
+</div>
+</div>
+<!-- FAQ 4 -->
+<div class="bg-surface border border-white/5 p-6 hover:bg-surface-container-high transition-colors cursor-pointer">
+<div class="flex justify-between items-center">
+<h4 class="font-headline font-bold text-lg uppercase">What is the required commitment?</h4>
+<span class="material-symbols-outlined">add</span>
+</div>
+</div>
+<!-- FAQ 5 -->
+<div class="bg-surface border border-white/5 p-6 hover:bg-surface-container-high transition-colors cursor-pointer">
+<div class="flex justify-between items-center">
+<h4 class="font-headline font-bold text-lg uppercase">What happens post-90 days?</h4>
+<span class="material-symbols-outlined">add</span>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Section 5: CTA -->
+<section class="py-24 px-6">
+<div class="max-w-7xl mx-auto bg-primary-container p-12 md:p-20 relative overflow-hidden group">
+<div class="relative z-20 flex flex-col items-center text-center">
+<h2 class="font-headline font-black text-6xl md:text-8xl uppercase tracking-tighter text-black mb-8">
+                        CLAIM YOUR TERRITORY
+                    </h2>
+<button class="bg-black text-white px-12 py-5 font-headline font-black text-xl uppercase tracking-widest hover:translate-x-2 hover:-translate-y-2 transition-transform shadow-[0px_0px_0px_0px_rgba(0,0,0,1)] hover:shadow-[8px_8px_0px_0px_rgba(0,0,0,0.5)]">
+                        DEPLOY NOW
+                    </button>
+</div>
+<!-- Technical Background Decor -->
+<div class="absolute inset-0 opacity-10 pointer-events-none select-none overflow-hidden">
+<div class="whitespace-nowrap font-mono text-[10rem] font-bold text-black transform rotate-12">
+                        SECURE_ACCESS SECURE_ACCESS SECURE_ACCESS SECURE_ACCESS
+                    </div>
+</div>
+</div>
+</section>
+</main>
+<!-- Footer -->
+<footer class="bg-[#131313] dark:bg-[#131313] border-t border-zinc-800">
+<div class="flex flex-col md:flex-row justify-between items-center w-full px-8 py-6">
+<div class="font-mono text-xs tracking-widest uppercase text-zinc-500 mb-4 md:mb-0">
+                ©2026 SYSTEM_AEO // OPERATIONAL
+            </div>
+<div class="flex gap-8 font-mono text-xs tracking-widest uppercase">
+<a class="text-zinc-600 hover:text-[#FF6A00] transition-opacity" href="#">SYSTEM_STATUS</a>
+<a class="text-zinc-600 hover:text-[#FF6A00] transition-opacity" href="#">ENCRYPTION_PROTOCOL</a>
+<a class="text-zinc-600 hover:text-[#FF6A00] transition-opacity" href="#">DECRYPT_LOGS</a>
+</div>
+</div>
+</footer>
+<!-- Hard Shadows and Spacing Implementation -->
+<style>
+        .group:hover .shadow-offset {
+            transform: translate(4px, 4px);
+        }
+    </style>
+</body></html>

@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+
+<html class="dark" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>AEO_TERMINAL // ADMIN_DASHBOARD</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700;900&amp;family=Inter:wght@400;500;600;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    "colors": {
+                        "outline-variant": "#5a4136",
+                        "secondary-fixed-dim": "#b9c7df",
+                        "on-primary-fixed-variant": "#7b2f00",
+                        "surface-bright": "#3a3939",
+                        "error": "#ffb4ab",
+                        "surface-container": "#201f1f",
+                        "on-primary-fixed": "#351000",
+                        "surface-container-lowest": "#0e0e0e",
+                        "on-tertiary-fixed": "#001d35",
+                        "on-secondary-fixed": "#0d1c2e",
+                        "outline": "#a98a7d",
+                        "on-error-container": "#ffdad6",
+                        "on-error": "#690005",
+                        "error-container": "#93000a",
+                        "secondary": "#b9c7df",
+                        "tertiary-fixed-dim": "#9ccaff",
+                        "on-tertiary": "#003256",
+                        "primary-container": "#ff6a00",
+                        "on-surface-variant": "#e2bfb0",
+                        "primary-fixed-dim": "#ffb694",
+                        "on-tertiary-container": "#003357",
+                        "on-surface": "#e5e2e1",
+                        "surface-tint": "#ffb694",
+                        "surface-dim": "#131313",
+                        "on-background": "#e5e2e1",
+                        "primary-fixed": "#ffdbcc",
+                        "secondary-fixed": "#d5e3fc",
+                        "on-secondary-container": "#abb9d1",
+                        "on-primary": "#571f00",
+                        "surface-container-high": "#2a2a2a",
+                        "on-primary-container": "#571f00",
+                        "surface-container-highest": "#353534",
+                        "tertiary": "#9ccaff",
+                        "primary": "#ffb694",
+                        "surface-variant": "#353534",
+                        "tertiary-fixed": "#d0e4ff",
+                        "on-tertiary-fixed-variant": "#00497a",
+                        "inverse-surface": "#e5e2e1",
+                        "inverse-primary": "#a14000",
+                        "background": "#131313",
+                        "surface-container-low": "#1c1b1b",
+                        "surface": "#131313",
+                        "inverse-on-surface": "#313030",
+                        "tertiary-container": "#009eff",
+                        "on-secondary-fixed-variant": "#3a485b",
+                        "secondary-container": "#3c4a5e",
+                        "on-secondary": "#233144"
+                    },
+                    "borderRadius": {
+                        "DEFAULT": "0px",
+                        "lg": "0px",
+                        "xl": "0px",
+                        "full": "9999px"
+                    },
+                    "fontFamily": {
+                        "headline": ["Space Grotesk"],
+                        "body": ["Inter"],
+                        "label": ["Space Grotesk"]
+                    }
+                }
+            }
+        }
+    </script>
+<style>
+        .scanlines {
+            position: fixed;
+            top: 0; left: 0; width: 100%; height: 100%;
+            background: linear-gradient(rgba(18, 16, 16, 0) 50%, rgba(0, 0, 0, 0.1) 50%), linear-gradient(90deg, rgba(255, 0, 0, 0.03), rgba(0, 255, 0, 0.01), rgba(0, 0, 255, 0.03));
+            background-size: 100% 2px, 3px 100%;
+            pointer-events: none;
+            z-index: 100;
+            opacity: 0.3;
+        }
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+    </style>
+</head>
+<body class="bg-background text-on-background font-body selection:bg-primary-container selection:text-on-primary-container">
+<div class="scanlines"></div>
+<!-- TopAppBar -->
+<nav class="bg-[#131313] dark:bg-[#131313] flex justify-between items-center w-full px-6 py-4 h-16 sticky top-0 z-[60] bg-[#1c1c1c]">
+<div class="flex items-center gap-4">
+<span class="text-[#FF6A00] font-black text-2xl tracking-tighter">AEO_TERMINAL</span>
+<div class="h-4 w-px bg-white/10 hidden md:block"></div>
+<span class="font-['Space_Grotesk'] uppercase tracking-widest text-sm text-white/60 hidden md:block">SECURE_PANEL // AUTHENTICATED</span>
+</div>
+<div class="flex items-center gap-6">
+<div class="text-right hidden sm:block">
+<p class="font-['Space_Grotesk'] uppercase tracking-widest text-[10px] text-white/40 leading-none">SYSTEM_OPERATOR</p>
+<p class="font-['Space_Grotesk'] uppercase tracking-widest text-sm text-white font-bold">OPERATOR: J.BORGES</p>
+</div>
+<button class="font-['Space_Grotesk'] uppercase tracking-widest text-sm text-[#FF6A00] hover:bg-[#FF6A00] hover:text-black transition-colors duration-100 px-3 py-1 border border-[#FF6A00]/30 active:translate-y-0.5 active:scale-[0.99]">
+                LOGOUT
+            </button>
+</div>
+</nav>
+<main class="p-6 md:p-8 space-y-8 max-w-[1600px] mx-auto pb-16">
+<!-- Stats Row -->
+<section class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
+<!-- KPI 1 -->
+<div class="bg-surface-container border border-white/10 p-5 relative overflow-hidden group">
+<div class="absolute top-0 right-0 p-2 opacity-10 group-hover:opacity-20 transition-opacity">
+<span class="material-symbols-outlined text-4xl">analytics</span>
+</div>
+<p class="font-label text-xs tracking-widest text-white/40 uppercase mb-2">Total Leads</p>
+<div class="flex items-end justify-between">
+<h3 class="font-headline text-4xl font-black text-primary-container">147</h3>
+<div class="flex items-center text-emerald-500 font-label text-xs pb-1">
+<span class="material-symbols-outlined text-sm mr-1">trending_up</span>
+                        +12%
+                    </div>
+</div>
+<div class="mt-4 h-1 bg-white/5 w-full">
+<div class="h-full bg-primary-container w-[70%]"></div>
+</div>
+</div>
+<!-- KPI 2 -->
+<div class="bg-surface-container border border-white/10 p-5 relative overflow-hidden group">
+<div class="absolute top-0 right-0 p-2 opacity-10 group-hover:opacity-20 transition-opacity">
+<span class="material-symbols-outlined text-4xl">percent</span>
+</div>
+<p class="font-label text-xs tracking-widest text-white/40 uppercase mb-2">Conversion</p>
+<div class="flex items-end justify-between">
+<h3 class="font-headline text-4xl font-black text-primary-container">23.4%</h3>
+<div class="flex items-center text-emerald-500 font-label text-xs pb-1">
+<span class="material-symbols-outlined text-sm mr-1">trending_up</span>
+                        +3.2%
+                    </div>
+</div>
+<div class="mt-4 h-1 bg-white/5 w-full">
+<div class="h-full bg-primary-container w-[45%]"></div>
+</div>
+</div>
+<!-- KPI 3 -->
+<div class="bg-surface-container border border-white/10 p-5 relative overflow-hidden group">
+<div class="absolute top-0 right-0 p-2 opacity-10 group-hover:opacity-20 transition-opacity">
+<span class="material-symbols-outlined text-4xl">payments</span>
+</div>
+<p class="font-label text-xs tracking-widest text-white/40 uppercase mb-2">Revenue</p>
+<div class="flex items-end justify-between">
+<h3 class="font-headline text-4xl font-black text-primary-container">$284K</h3>
+<div class="flex items-center text-emerald-500 font-label text-xs pb-1">
+<span class="material-symbols-outlined text-sm mr-1">trending_up</span>
+                        +18%
+                    </div>
+</div>
+<div class="mt-4 h-1 bg-white/5 w-full">
+<div class="h-full bg-primary-container w-[82%]"></div>
+</div>
+</div>
+<!-- KPI 4 -->
+<div class="bg-surface-container border border-white/10 p-5 relative overflow-hidden group">
+<div class="absolute top-0 right-0 p-2 opacity-10 group-hover:opacity-20 transition-opacity">
+<span class="material-symbols-outlined text-4xl">public</span>
+</div>
+<p class="font-label text-xs tracking-widest text-white/40 uppercase mb-2">Active Territories</p>
+<div class="flex items-end justify-between">
+<h3 class="font-headline text-4xl font-black text-primary-container">12</h3>
+<div class="flex items-center text-emerald-500 font-label text-xs pb-1">
+<span class="material-symbols-outlined text-sm mr-1">add_circle</span>
+                        +3
+                    </div>
+</div>
+<div class="mt-4 h-1 bg-white/5 w-full">
+<div class="h-full bg-primary-container w-[60%]"></div>
+</div>
+</div>
+</section>
+<!-- Main Dashboard Grid -->
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-8">
+<!-- Lead Pipeline Kanban -->
+<div class="lg:col-span-9 space-y-4">
+<div class="flex items-center justify-between border-b border-white/10 pb-2">
+<h2 class="font-headline font-black text-xl tracking-tighter text-on-background">LEAD_PIPELINE // LIVE_FEED</h2>
+<span class="font-label text-[10px] text-primary-container bg-primary-container/10 px-2 py-0.5">AUTO_REFRESH: ENABLED</span>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-5 gap-3 h-full overflow-x-auto pb-4 custom-scrollbar">
+<!-- Column NEW -->
+<div class="flex flex-col gap-3 min-w-[200px]">
+<div class="bg-surface-container-high p-2 flex justify-between items-center border-l-2 border-primary-container">
+<span class="font-label text-[10px] uppercase font-bold text-white">NEW</span>
+<span class="bg-white/10 text-white px-2 py-0.5 text-[10px] font-bold">12</span>
+</div>
+<!-- Card 1 -->
+<div class="bg-surface-container p-4 border border-white/5 space-y-3 cursor-grab active:cursor-grabbing hover:border-primary-container/30 transition-all">
+<div class="flex justify-between items-start">
+<h4 class="font-bold text-sm leading-tight">NEXUS DYNAMICS</h4>
+<span class="material-symbols-outlined text-xs text-white/20">drag_indicator</span>
+</div>
+<div class="space-y-1">
+<p class="font-label text-[10px] text-primary-container uppercase">CYBER_SECURITY</p>
+<p class="text-[10px] text-white/40 uppercase">AUSTIN, TX</p>
+</div>
+<div class="flex justify-between items-center pt-2 border-t border-white/5">
+<span class="text-[10px] text-white/40 font-label tracking-tighter">DAYS: 2</span>
+<span class="text-[10px] text-white/20 font-label uppercase">LAST: 4H AGO</span>
+</div>
+</div>
+<!-- Card 2 -->
+<div class="bg-surface-container p-4 border border-white/5 space-y-3 cursor-grab">
+<h4 class="font-bold text-sm leading-tight">QUANTUM_SYS</h4>
+<div class="space-y-1">
+<p class="font-label text-[10px] text-primary-container uppercase">HARDWARE</p>
+<p class="text-[10px] text-white/40 uppercase">DENVER, CO</p>
+</div>
+<div class="flex justify-between items-center pt-2 border-t border-white/5">
+<span class="text-[10px] text-white/40 font-label">DAYS: 1</span>
+<span class="text-[10px] text-white/20 font-label uppercase">LAST: 12M AGO</span>
+</div>
+</div>
+</div>
+<!-- Column CONTACTED -->
+<div class="flex flex-col gap-3 min-w-[200px]">
+<div class="bg-surface-container-high p-2 flex justify-between items-center border-l-2 border-white/20">
+<span class="font-label text-[10px] uppercase font-bold text-white/60">CONTACTED</span>
+<span class="bg-white/10 text-white/60 px-2 py-0.5 text-[10px] font-bold">8</span>
+</div>
+<div class="bg-surface-container p-4 border border-white/5 space-y-3">
+<h4 class="font-bold text-sm leading-tight">ORBITAL_VOX</h4>
+<div class="space-y-1">
+<p class="font-label text-[10px] text-primary-container uppercase">LOGISTICS</p>
+<p class="text-[10px] text-white/40 uppercase">MIAMI, FL</p>
+</div>
+<div class="flex justify-between items-center pt-2 border-t border-white/5">
+<span class="text-[10px] text-white/40 font-label">DAYS: 5</span>
+<span class="text-[10px] text-white/20 font-label uppercase">LAST: 1D AGO</span>
+</div>
+</div>
+</div>
+<!-- Column QUALIFIED -->
+<div class="flex flex-col gap-3 min-w-[200px]">
+<div class="bg-surface-container-high p-2 flex justify-between items-center border-l-2 border-white/20">
+<span class="font-label text-[10px] uppercase font-bold text-white/60">QUALIFIED</span>
+<span class="bg-white/10 text-white/60 px-2 py-0.5 text-[10px] font-bold">14</span>
+</div>
+<div class="bg-surface-container p-4 border border-white/5 space-y-3 border-r-2 border-r-primary-container/20">
+<h4 class="font-bold text-sm leading-tight">SYNAPSE_AI</h4>
+<div class="space-y-1">
+<p class="font-label text-[10px] text-primary-container uppercase">MACHINE_LEARNING</p>
+<p class="text-[10px] text-white/40 uppercase">PALO ALTO, CA</p>
+</div>
+<div class="flex justify-between items-center pt-2 border-t border-white/5">
+<span class="text-[10px] text-white/40 font-label">DAYS: 14</span>
+<span class="text-[10px] text-white/20 font-label uppercase">LAST: 2H AGO</span>
+</div>
+</div>
+</div>
+<!-- Column PROPOSAL -->
+<div class="flex flex-col gap-3 min-w-[200px]">
+<div class="bg-surface-container-high p-2 flex justify-between items-center border-l-2 border-white/20">
+<span class="font-label text-[10px] uppercase font-bold text-white/60">PROPOSAL</span>
+<span class="bg-white/10 text-white/60 px-2 py-0.5 text-[10px] font-bold">5</span>
+</div>
+<div class="bg-surface-container p-4 border border-white/5 space-y-3">
+<h4 class="font-bold text-sm leading-tight">BLACK_TIDE</h4>
+<div class="space-y-1">
+<p class="font-label text-[10px] text-primary-container uppercase">DEFENSE</p>
+<p class="text-[10px] text-white/40 uppercase">WASHINGTON, DC</p>
+</div>
+<div class="flex justify-between items-center pt-2 border-t border-white/5">
+<span class="text-[10px] text-white/40 font-label">DAYS: 21</span>
+<span class="text-[10px] text-white/20 font-label uppercase">LAST: 6H AGO</span>
+</div>
+</div>
+</div>
+<!-- Column CLOSED -->
+<div class="flex flex-col gap-3 min-w-[200px]">
+<div class="bg-surface-container-high p-2 flex justify-between items-center border-l-2 border-emerald-500">
+<span class="font-label text-[10px] uppercase font-bold text-emerald-500">CLOSED</span>
+<span class="bg-emerald-500/20 text-emerald-500 px-2 py-0.5 text-[10px] font-bold">42</span>
+</div>
+<div class="bg-surface-container p-4 border border-white/5 space-y-3 opacity-60 hover:opacity-100 transition-opacity">
+<h4 class="font-bold text-sm leading-tight">TITAN_INFRA</h4>
+<div class="space-y-1">
+<p class="font-label text-[10px] text-primary-container uppercase">CONSTRUCTION</p>
+<p class="text-[10px] text-white/40 uppercase">CHICAGO, IL</p>
+</div>
+<div class="flex justify-between items-center pt-2 border-t border-white/5">
+<span class="text-emerald-500 text-[10px] font-label font-bold">WIN: $45K</span>
+<span class="text-[10px] text-white/20 font-label uppercase">CLOSED: YEST</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!-- Right Sidebar: Quick Actions & Activity Feed -->
+<div class="lg:col-span-3 space-y-8">
+<!-- Command Center -->
+<div class="space-y-4">
+<h2 class="font-headline font-black text-xl tracking-tighter text-on-background">QUICK_ACTIONS</h2>
+<div class="grid grid-cols-1 gap-2">
+<button class="bg-primary-container text-black font-headline font-bold py-3 px-4 text-left flex justify-between items-center hover:bg-primary-fixed-dim transition-colors group">
+                            SEND FOLLOW-UP
+                            <span class="material-symbols-outlined transform group-hover:translate-x-1 transition-transform">send</span>
+</button>
+<button class="border border-white/20 text-white font-headline font-bold py-3 px-4 text-left flex justify-between items-center hover:bg-white/5 transition-colors">
+                            SCHEDULE CALL
+                            <span class="material-symbols-outlined">calendar_today</span>
+</button>
+<button class="border border-white/20 text-white font-headline font-bold py-3 px-4 text-left flex justify-between items-center hover:bg-white/5 transition-colors">
+                            UPDATE STATUS
+                            <span class="material-symbols-outlined">update</span>
+</button>
+<button class="border border-white/20 text-white font-headline font-bold py-3 px-4 text-left flex justify-between items-center hover:bg-white/5 transition-colors">
+                            ADD NOTE
+                            <span class="material-symbols-outlined">note_add</span>
+</button>
+</div>
+</div>
+<!-- Recent Activity Feed -->
+<div class="space-y-4">
+<div class="flex items-center justify-between border-b border-white/10 pb-2">
+<h2 class="font-headline font-black text-xl tracking-tighter text-on-background">ACTIVITY_LOG</h2>
+</div>
+<div class="space-y-4 relative before:absolute before:left-[7px] before:top-2 before:bottom-2 before:w-[1px] before:bg-white/10">
+<div class="relative pl-6">
+<div class="absolute left-0 top-[6px] w-[14px] h-[14px] bg-primary-container"></div>
+<span class="font-label text-[9px] text-white/30 uppercase block mb-1">14:23:45 // TUESDAY</span>
+<p class="text-xs text-white/80 leading-relaxed">NEW_LEAD REGISTERED: <span class="text-primary-container font-bold">NEXUS DYNAMICS</span> VIA INBOUND_API</p>
+</div>
+<div class="relative pl-6">
+<div class="absolute left-0 top-[6px] w-[14px] h-[14px] bg-white/10"></div>
+<span class="font-label text-[9px] text-white/30 uppercase block mb-1">11:05:12 // TUESDAY</span>
+<p class="text-xs text-white/80 leading-relaxed">STATUS_CHANGE: <span class="text-white font-bold">ORBITAL_VOX</span> MOVED TO <span class="bg-white/10 px-1">CONTACTED</span></p>
+</div>
+<div class="relative pl-6">
+<div class="absolute left-0 top-[6px] w-[14px] h-[14px] bg-emerald-500"></div>
+<span class="font-label text-[9px] text-white/30 uppercase block mb-1">09:12:00 // TUESDAY</span>
+<p class="text-xs text-white/80 leading-relaxed">CONVERSION_WIN: <span class="text-emerald-500 font-bold">TITAN_INFRA</span> DEAL CLOSED BY J.BORGES</p>
+</div>
+<div class="relative pl-6">
+<div class="absolute left-0 top-[6px] w-[14px] h-[14px] bg-white/10"></div>
+<span class="font-label text-[9px] text-white/30 uppercase block mb-1">22:45:10 // MONDAY</span>
+<p class="text-xs text-white/80 leading-relaxed">SYSTEM_ALERT: LATENCY SPIKE DETECTED IN NODE_04 (PARIS)</p>
+</div>
+</div>
+<button class="w-full py-2 font-label text-[10px] text-white/40 hover:text-white transition-colors border-t border-white/5 text-center tracking-widest">VIEW_FULL_ARCHIVE</button>
+</div>
+</div>
+</div>
+</main>
+<!-- BottomNavBar -->
+<footer class="bg-[#0a0a0a] dark:bg-[#0a0a0a] fixed bottom-0 left-0 w-full z-50 flex justify-between items-center px-8 h-8 border-t border-[#FF6A00]/10">
+<div class="flex items-center gap-6">
+<div class="flex items-center gap-2 text-[#FF6A00] font-mono text-[10px] uppercase tracking-tighter">
+<span class="material-symbols-outlined text-[12px]" style="font-variation-settings: 'FILL' 1;">terminal</span>
+                SYSTEM_STATUS: <span class="font-bold">OPERATIONAL</span>
+</div>
+<div class="flex items-center gap-2 text-[#FF6A00]/70 font-mono text-[10px] uppercase tracking-tighter">
+<span class="material-symbols-outlined text-[12px]">sensors</span>
+                LATENCY: <span class="font-bold">12MS</span>
+</div>
+</div>
+<div class="text-[#FF6A00]/40 font-mono text-[10px] tracking-widest hidden md:block">
+            TERMINAL_ID: 8849-00-XK // ENCRYPTION: AES-256
+        </div>
+</footer>
+</body></html>

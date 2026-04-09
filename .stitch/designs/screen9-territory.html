@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+
+<html class="dark" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>AEO_TERMINAL // TERRITORY_CHECK</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;700;900&amp;family=Inter:wght@400;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            "colors": {
+                    "surface-variant": "#353534",
+                    "tertiary-fixed": "#d0e4ff",
+                    "on-tertiary-fixed-variant": "#00497a",
+                    "secondary-fixed": "#d5e3fc",
+                    "on-secondary-container": "#abb9d1",
+                    "on-primary": "#571f00",
+                    "surface-container-high": "#2a2a2a",
+                    "on-primary-container": "#571f00",
+                    "surface-container-highest": "#353534",
+                    "tertiary": "#9ccaff",
+                    "primary": "#ffb694",
+                    "inverse-on-surface": "#313030",
+                    "tertiary-container": "#009eff",
+                    "on-secondary-fixed-variant": "#3a485b",
+                    "secondary-container": "#3c4a5e",
+                    "on-secondary": "#233144",
+                    "inverse-surface": "#e5e2e1",
+                    "inverse-primary": "#a14000",
+                    "background": "#131313",
+                    "surface-container-low": "#1c1b1b",
+                    "surface": "#131313",
+                    "surface-container-lowest": "#0e0e0e",
+                    "on-tertiary-fixed": "#001d35",
+                    "on-secondary-fixed": "#0d1c2e",
+                    "outline": "#a98a7d",
+                    "on-error-container": "#ffdad6",
+                    "on-error": "#690005",
+                    "error-container": "#93000a",
+                    "secondary": "#b9c7df",
+                    "tertiary-fixed-dim": "#9ccaff",
+                    "outline-variant": "#5a4136",
+                    "secondary-fixed-dim": "#b9c7df",
+                    "on-primary-fixed-variant": "#7b2f00",
+                    "surface-bright": "#3a3939",
+                    "error": "#ffb4ab",
+                    "surface-container": "#201f1f",
+                    "on-primary-fixed": "#351000",
+                    "primary-fixed-dim": "#ffb694",
+                    "on-tertiary-container": "#003357",
+                    "on-surface": "#e5e2e1",
+                    "surface-tint": "#ffb694",
+                    "surface-dim": "#131313",
+                    "on-background": "#e5e2e1",
+                    "primary-fixed": "#ffdbcc",
+                    "on-tertiary": "#003256",
+                    "primary-container": "#ff6a00",
+                    "on-surface-variant": "#e2bfb0"
+            },
+            "borderRadius": {
+                    "DEFAULT": "0px",
+                    "lg": "0px",
+                    "xl": "0px",
+                    "full": "9999px"
+            },
+            "fontFamily": {
+                    "headline": ["Space Grotesk"],
+                    "body": ["Inter"],
+                    "label": ["Space Grotesk"]
+            }
+          },
+        }
+      }
+    </script>
+<style>
+        .scanline {
+            background: linear-gradient(to bottom, transparent 50%, rgba(0, 0, 0, 0.1) 51%);
+            background-size: 100% 4px;
+            pointer-events: none;
+        }
+        .dot-grid {
+            background-image: radial-gradient(rgba(255, 106, 0, 0.1) 1px, transparent 1px);
+            background-size: 24px 24px;
+        }
+    </style>
+</head>
+<body class="bg-background text-on-background font-body selection:bg-primary-container selection:text-black">
+<!-- Top Navigation -->
+<header class="fixed top-0 w-full z-50 bg-[#131313] border-b border-[#FF6A00]/20 flex justify-between items-center px-6 h-16 w-full">
+<div class="text-2xl font-black text-[#FF6A00] tracking-widest font-headline uppercase">AEO_TERMINAL</div>
+<nav class="hidden md:flex gap-8 items-center">
+<a class="font-headline uppercase tracking-tighter font-bold text-zinc-500 hover:text-zinc-200 transition-colors duration-150" href="#">INTEL</a>
+<a class="font-headline uppercase tracking-tighter font-bold text-[#FF6A00] border-b-2 border-[#FF6A00] pb-1" href="#">OPERATIONS</a>
+<a class="font-headline uppercase tracking-tighter font-bold text-zinc-500 hover:text-zinc-200 transition-colors duration-150" href="#">NETWORK</a>
+<a class="font-headline uppercase tracking-tighter font-bold text-zinc-500 hover:text-zinc-200 transition-colors duration-150" href="#">ENCRYPTION</a>
+<button class="bg-primary-container text-black px-6 py-1 font-headline font-bold uppercase hover:bg-white transition-all active:scale-95">DEPLOY</button>
+</nav>
+<div class="md:hidden">
+<span class="material-symbols-outlined text-[#FF6A00]">menu</span>
+</div>
+</header>
+<main class="pt-16">
+<!-- Hero Section -->
+<section class="relative min-h-[819px] flex flex-col items-center justify-center px-6 overflow-hidden dot-grid">
+<div class="scanline absolute inset-0 opacity-20"></div>
+<div class="max-w-6xl w-full text-center relative z-10">
+<div class="inline-block border border-[#FF6A00]/30 px-3 py-1 mb-8">
+<span class="font-headline text-xs font-bold tracking-[0.2em] text-[#FF6A00]">TERRITORY_DEFENSE // PERIMETER_CHECK</span>
+</div>
+<h1 class="font-headline font-black text-4xl md:text-7xl leading-none tracking-tighter mb-8 uppercase">
+                    CHECK IF YOUR <span class="text-[#FF6A00]">TERRITORY</span> IS STILL AVAILABLE
+                </h1>
+<p class="text-lg md:text-xl text-zinc-400 max-w-3xl mx-auto mb-12">
+                    One business per category. Per city. Once claimed, your competitors are <span class="text-white font-bold">permanently locked out.</span>
+</p>
+<!-- Query Form Card -->
+<div class="max-w-2xl mx-auto bg-surface-container-high border-t-4 border-[#FF6A00] p-8 shadow-2xl">
+<div class="flex items-center gap-2 mb-6 opacity-60">
+<span class="material-symbols-outlined text-sm">terminal</span>
+<span class="font-headline text-xs font-bold tracking-widest uppercase">PERIMETER_QUERY // INPUT_COORDINATES</span>
+</div>
+<form class="space-y-6">
+<div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+<div class="text-left">
+<label class="block font-headline text-[10px] text-zinc-500 mb-2 uppercase tracking-widest">Industry_Type</label>
+<select class="w-full bg-surface-container-lowest border-none text-zinc-200 p-4 focus:ring-1 focus:ring-[#FF6A00] transition-all cursor-pointer">
+<option>Select Industry</option>
+<option>Solar Energy</option>
+<option>Real Estate</option>
+<option>Legal Services</option>
+<option>HVAC / Plumbing</option>
+</select>
+</div>
+<div class="text-left">
+<label class="block font-headline text-[10px] text-zinc-500 mb-2 uppercase tracking-widest">Target_City</label>
+<input class="w-full bg-surface-container-lowest border-none text-zinc-200 p-4 focus:ring-1 focus:ring-[#FF6A00] transition-all" placeholder="e.g. Austin, TX" type="text"/>
+</div>
+</div>
+<button class="w-full bg-primary-container text-black font-headline font-black py-5 text-lg uppercase tracking-widest hover:bg-white hover:translate-y-[-2px] transition-all active:translate-y-0">
+                            CHECK AVAILABILITY
+                        </button>
+</form>
+</div>
+</div>
+<div class="absolute bottom-10 left-10 hidden lg:block opacity-20">
+<pre class="font-mono text-[8px] leading-tight text-[#FF6A00]">01011001 01001111 01010101 01010010 
+01010100 01000101 01010010 01010010 
+01001001 01010100 01001111 01010010 
+01011001 01001100 01001111 01000011 
+01001011 01000101 01000100
+                </pre>
+</div>
+</section>
+<!-- Territory Grid Section -->
+<section class="bg-surface-container-low py-24 px-6 border-y border-zinc-800">
+<div class="max-w-7xl mx-auto">
+<div class="flex items-center justify-between mb-12">
+<h2 class="font-headline font-black text-3xl uppercase tracking-tighter">ACTIVE TERRITORY MAP</h2>
+<div class="flex gap-6 font-headline text-[10px] tracking-widest text-zinc-500">
+<span class="flex items-center gap-2"><span class="w-2 h-2 bg-[#FF6A00] shadow-[0_0_8px_#FF6A00]"></span> AVAILABLE</span>
+<span class="flex items-center gap-2"><span class="w-2 h-2 bg-zinc-700"></span> SECURED</span>
+</div>
+</div>
+<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-[1px] bg-zinc-800 border border-zinc-800">
+<!-- Austin TX -->
+<div class="bg-surface-container-highest p-6 opacity-40 grayscale">
+<div class="flex justify-between items-start mb-4">
+<span class="font-headline text-xs font-bold text-zinc-500">SEC_01</span>
+<span class="material-symbols-outlined text-sm text-zinc-500">lock</span>
+</div>
+<h3 class="font-headline font-black text-xl mb-1">AUSTIN, TX</h3>
+<p class="text-xs text-zinc-500 mb-6 uppercase tracking-wider">SOLAR ENERGY</p>
+<div class="bg-zinc-800 text-[10px] py-1 text-center font-bold tracking-widest">SECURED</div>
+</div>
+<!-- Phoenix AZ -->
+<div class="bg-surface-container-highest p-6 border-2 border-[#FF6A00] relative">
+<div class="absolute inset-0 bg-[#FF6A00]/5 animate-pulse"></div>
+<div class="flex justify-between items-start mb-4 relative z-10">
+<span class="font-headline text-xs font-bold text-[#FF6A00]">SEC_02</span>
+<span class="material-symbols-outlined text-sm text-[#FF6A00]">radar</span>
+</div>
+<h3 class="font-headline font-black text-xl mb-1 relative z-10">PHOENIX, AZ</h3>
+<p class="text-xs text-zinc-300 mb-6 uppercase tracking-wider relative z-10">LUXURY REAL ESTATE</p>
+<div class="bg-primary-container text-black text-[10px] py-1 text-center font-bold tracking-widest relative z-10">AVAILABLE</div>
+</div>
+<!-- Denver CO -->
+<div class="bg-surface-container-highest p-6 opacity-40 grayscale">
+<div class="flex justify-between items-start mb-4">
+<span class="font-headline text-xs font-bold text-zinc-500">SEC_03</span>
+<span class="material-symbols-outlined text-sm text-zinc-500">lock</span>
+</div>
+<h3 class="font-headline font-black text-xl mb-1">DENVER, CO</h3>
+<p class="text-xs text-zinc-500 mb-6 uppercase tracking-wider">PERSONAL INJURY</p>
+<div class="bg-zinc-800 text-[10px] py-1 text-center font-bold tracking-widest">SECURED</div>
+</div>
+<!-- Miami FL -->
+<div class="bg-surface-container-highest p-6 border-b-2 border-[#FF6A00]">
+<div class="flex justify-between items-start mb-4">
+<span class="font-headline text-xs font-bold text-[#FF6A00]">SEC_04</span>
+<span class="material-symbols-outlined text-sm text-[#FF6A00]">radar</span>
+</div>
+<h3 class="font-headline font-black text-xl mb-1">MIAMI, FL</h3>
+<p class="text-xs text-zinc-300 mb-6 uppercase tracking-wider">DENTAL SERVICES</p>
+<div class="bg-[#FF6A00]/20 text-[#FF6A00] text-[10px] py-1 text-center font-bold tracking-widest border border-[#FF6A00]/40">AVAILABLE</div>
+</div>
+<!-- LA -->
+<div class="bg-surface-container-highest p-6 opacity-40 grayscale">
+<div class="flex justify-between items-start mb-4">
+<span class="font-headline text-xs font-bold text-zinc-500">SEC_05</span>
+<span class="material-symbols-outlined text-sm text-zinc-500">lock</span>
+</div>
+<h3 class="font-headline font-black text-xl mb-1">LOS ANGELES, CA</h3>
+<p class="text-xs text-zinc-500 mb-6 uppercase tracking-wider">ROOFING</p>
+<div class="bg-zinc-800 text-[10px] py-1 text-center font-bold tracking-widest">SECURED</div>
+</div>
+<!-- Dallas TX -->
+<div class="bg-surface-container-highest p-6 border-b-2 border-[#FF6A00]">
+<div class="flex justify-between items-start mb-4">
+<span class="font-headline text-xs font-bold text-[#FF6A00]">SEC_06</span>
+<span class="material-symbols-outlined text-sm text-[#FF6A00]">radar</span>
+</div>
+<h3 class="font-headline font-black text-xl mb-1">DALLAS, TX</h3>
+<p class="text-xs text-zinc-300 mb-6 uppercase tracking-wider">HVAC SYSTEMS</p>
+<div class="bg-[#FF6A00]/20 text-[#FF6A00] text-[10px] py-1 text-center font-bold tracking-widest border border-[#FF6A00]/40">AVAILABLE</div>
+</div>
+<!-- Chicago IL -->
+<div class="bg-surface-container-highest p-6 opacity-40 grayscale">
+<div class="flex justify-between items-start mb-4">
+<span class="font-headline text-xs font-bold text-zinc-500">SEC_07</span>
+<span class="material-symbols-outlined text-sm text-zinc-500">lock</span>
+</div>
+<h3 class="font-headline font-black text-xl mb-1">CHICAGO, IL</h3>
+<p class="text-xs text-zinc-500 mb-6 uppercase tracking-wider">PLUMBING</p>
+<div class="bg-zinc-800 text-[10px] py-1 text-center font-bold tracking-widest">SECURED</div>
+</div>
+<!-- Seattle WA -->
+<div class="bg-surface-container-highest p-6 border-b-2 border-[#FF6A00]">
+<div class="flex justify-between items-start mb-4">
+<span class="font-headline text-xs font-bold text-[#FF6A00]">SEC_08</span>
+<span class="material-symbols-outlined text-sm text-[#FF6A00]">radar</span>
+</div>
+<h3 class="font-headline font-black text-xl mb-1">SEATTLE, WA</h3>
+<p class="text-xs text-zinc-300 mb-6 uppercase tracking-wider">REAL ESTATE</p>
+<div class="bg-[#FF6A00]/20 text-[#FF6A00] text-[10px] py-1 text-center font-bold tracking-widest border border-[#FF6A00]/40">AVAILABLE</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Urgency Section -->
+<section class="py-24 px-6 bg-surface-container-lowest">
+<div class="max-w-4xl mx-auto text-center">
+<h2 class="font-headline font-bold text-3xl md:text-4xl text-zinc-200 mb-12 uppercase leading-tight tracking-tight">
+                    ONLY ONE BUSINESS PER CATEGORY PER AREA. ONCE CLAIMED, YOUR COMPETITORS ARE <span class="text-[#FF6A00]">LOCKED OUT.</span>
+</h2>
+<div class="inline-flex items-center gap-4 bg-zinc-900 border border-[#FF6A00]/30 px-8 py-6">
+<span class="material-symbols-outlined text-[#FF6A00] animate-pulse">monitoring</span>
+<span class="font-headline font-black text-2xl text-[#FF6A00] tracking-widest">TERRITORIES_CLAIMED_THIS_MONTH: 23</span>
+</div>
+</div>
+</section>
+<!-- Final CTA Section -->
+<section class="bg-primary-container py-20 px-6">
+<div class="max-w-5xl mx-auto flex flex-col md:flex-row items-center justify-between gap-8">
+<h2 class="font-headline font-black text-4xl md:text-5xl text-black uppercase leading-none tracking-tighter max-w-xl">
+                    LOCK IN YOUR TERRITORY BEFORE IT'S GONE
+                </h2>
+<button class="bg-black text-primary-container font-headline font-black px-12 py-6 text-xl uppercase tracking-widest hover:bg-zinc-900 hover:scale-105 transition-all shadow-2xl active:scale-95">
+                    SECURE POSITION
+                </button>
+</div>
+</section>
+</main>
+<!-- Footer -->
+<footer class="w-full border-t border-zinc-800 py-8 bg-[#131313]">
+<div class="flex flex-col md:flex-row justify-between items-center px-8 w-full gap-6">
+<div class="text-[#FF6A00] font-bold font-headline tracking-widest">AEO_TERMINAL</div>
+<div class="flex gap-8">
+<a class="font-headline text-[10px] tracking-widest uppercase text-zinc-500 hover:text-[#FF6A00] transition-colors" href="#">ENCRYPTION_DOCS</a>
+<a class="font-headline text-[10px] tracking-widest uppercase text-zinc-500 hover:text-[#FF6A00] transition-colors" href="#">SYSTEM_LOGS</a>
+<a class="font-headline text-[10px] tracking-widest uppercase text-zinc-500 hover:text-[#FF6A00] transition-colors" href="#">LEGAL_CLEARANCE</a>
+</div>
+<div class="font-headline text-[10px] tracking-widest uppercase text-zinc-600">
+                © 2024 AEO_INTEL_SYSTEMS // PROTOCOL_V9
+            </div>
+</div>
+</footer>
+<!-- Side Decoration Links (Terminal Labels) -->
+<div class="fixed left-4 top-1/2 -rotate-90 origin-left hidden lg:block">
+<span class="font-headline text-[10px] font-bold text-zinc-700 tracking-[0.5em] uppercase">SYSTEM_STATE: STABLE // SCAN_IN_PROGRESS</span>
+</div>
+<div class="fixed right-4 top-1/2 rotate-90 origin-right hidden lg:block">
+<span class="font-headline text-[10px] font-bold text-zinc-700 tracking-[0.5em] uppercase">GRID_LOC: 40.7128_N_74.0060_W</span>
+</div>
+</body></html>

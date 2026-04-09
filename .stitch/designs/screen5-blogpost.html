@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+
+<html class="dark" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700;900&amp;family=Inter:wght@300;400;500;600;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    "colors": {
+                        "surface-bright": "#3a3939",
+                        "inverse-on-surface": "#313030",
+                        "on-secondary-fixed-variant": "#3a485b",
+                        "on-primary": "#571f00",
+                        "surface-container": "#201f1f",
+                        "background": "#131313",
+                        "on-surface": "#e5e2e1",
+                        "inverse-primary": "#a14000",
+                        "secondary": "#b9c7df",
+                        "on-tertiary-fixed-variant": "#00497a",
+                        "surface-container-low": "#1c1b1b",
+                        "surface-variant": "#353534",
+                        "surface-dim": "#131313",
+                        "outline": "#a98a7d",
+                        "on-primary-container": "#571f00",
+                        "surface-tint": "#ffb694",
+                        "on-error-container": "#ffdad6",
+                        "on-background": "#e5e2e1",
+                        "secondary-fixed": "#d5e3fc",
+                        "surface": "#131313",
+                        "on-tertiary-container": "#003357",
+                        "on-tertiary": "#003256",
+                        "secondary-fixed-dim": "#b9c7df",
+                        "on-secondary": "#233144",
+                        "tertiary-fixed-dim": "#9ccaff",
+                        "on-secondary-fixed": "#0d1c2e",
+                        "inverse-surface": "#e5e2e1",
+                        "tertiary-fixed": "#d0e4ff",
+                        "secondary-container": "#3c4a5e",
+                        "on-error": "#690005",
+                        "tertiary-container": "#009eff",
+                        "on-tertiary-fixed": "#001d35",
+                        "on-surface-variant": "#e2bfb0",
+                        "primary-container": "#ff6a00",
+                        "primary-fixed-dim": "#ffb694",
+                        "tertiary": "#9ccaff",
+                        "outline-variant": "#5a4136",
+                        "surface-container-high": "#2a2a2a",
+                        "primary": "#ffb694",
+                        "error": "#ffb4ab",
+                        "surface-container-lowest": "#0e0e0e",
+                        "surface-container-highest": "#353534",
+                        "on-secondary-container": "#abb9d1",
+                        "on-primary-fixed": "#351000",
+                        "on-primary-fixed-variant": "#7b2f00",
+                        "primary-fixed": "#ffdbcc",
+                        "error-container": "#93000a"
+                    },
+                    "borderRadius": {
+                        "DEFAULT": "0rem",
+                        "lg": "0rem",
+                        "xl": "0rem",
+                        "full": "9999px"
+                    },
+                    "fontFamily": {
+                        "headline": ["Space Grotesk"],
+                        "body": ["Inter"],
+                        "label": ["Space Grotesk"]
+                    }
+                },
+            },
+        }
+    </script>
+<style>
+        .scanline {
+            width: 100%;
+            height: 100%;
+            z-index: 9999;
+            background: linear-gradient(rgba(18, 16, 16, 0) 50%, rgba(0, 0, 0, 0.2) 50%), linear-gradient(90deg, rgba(255, 0, 0, 0.03), rgba(0, 255, 0, 0.01), rgba(0, 0, 255, 0.03));
+            background-size: 100% 4px, 3px 100%;
+            pointer-events: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+        }
+        .dot-grid {
+            background-image: radial-gradient(rgba(255, 106, 0, 0.15) 1px, transparent 0);
+            background-size: 24px 24px;
+        }
+        .reading-progress {
+            width: 65%;
+            transition: width 0.1s ease;
+        }
+    </style>
+</head>
+<body class="bg-background text-on-background font-body selection:bg-primary-container selection:text-on-primary-container">
+<div class="scanline"></div>
+<!-- Reading Progress Bar -->
+<div class="fixed top-0 left-0 w-full h-[3px] z-[60] bg-surface-container-lowest">
+<div class="reading-progress h-full bg-primary-container"></div>
+</div>
+<!-- TopNavBar -->
+<header class="fixed top-0 w-full z-50 bg-[#131313] border-b border-[#FF6A00]/20 flex justify-between items-center px-6 py-4 max-w-full">
+<div class="text-2xl font-black tracking-tighter text-[#FF6A00] font-['Space_Grotesk'] uppercase">AEO_TERMINAL</div>
+<nav class="hidden md:flex items-center gap-8 font-['Space_Grotesk'] font-bold uppercase tracking-tighter">
+<a class="text-white/60 hover:text-white pb-1 transition-colors" href="#">INTEL</a>
+<a class="text-[#FF6A00] border-b-2 border-[#FF6A00] pb-1" href="#">ASSETS</a>
+<a class="text-white/60 hover:text-white pb-1 transition-colors" href="#">PROTOCOLS</a>
+<a class="text-white/60 hover:text-white pb-1 transition-colors" href="#">LOGS</a>
+</nav>
+<div class="flex items-center gap-4 text-[#FF6A00]">
+<button class="p-2 hover:bg-[#FF6A00]/10 transition-colors">
+<span class="material-symbols-outlined">rss_feed</span>
+</button>
+<button class="p-2 hover:bg-[#FF6A00]/10 transition-colors">
+<span class="material-symbols-outlined">settings</span>
+</button>
+</div>
+</header>
+<main class="pt-[72px]">
+<!-- Hero Section -->
+<section class="relative w-full py-20 lg:py-32 border-b border-outline-variant/20 dot-grid overflow-hidden">
+<div class="max-w-7xl mx-auto px-6 relative z-10">
+<div class="flex flex-col gap-8">
+<div class="flex items-center gap-4 text-primary-container">
+<span class="text-xs font-label tracking-[0.2em] font-bold uppercase border border-primary-container px-2 py-1">SEC_01 // INTEL_CORE</span>
+<div class="h-px w-24 bg-primary-container/30"></div>
+</div>
+<h1 class="text-5xl md:text-7xl lg:text-8xl font-black font-headline tracking-tighter text-white leading-[0.9] max-w-5xl uppercase">
+                        WHAT IS ANSWER ENGINE OPTIMIZATION? THE COMPLETE 2026 GUIDE
+                    </h1>
+<div class="flex flex-wrap items-center gap-8 pt-8 border-t border-outline-variant/30">
+<div class="flex items-center gap-4">
+<img alt="Author Justin Borges" class="w-12 h-12 grayscale border border-primary-container" data-alt="Professional portrait of a serious man in technical gear against a dark industrial background with dramatic lighting" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCKy1vL1k9i3xGTMNW3QUpZoZiGYSCEAAsj4kW2CXbp8IIe6JYmPNDB6Vd1egcadM03pf0d6Dc1ucjslbimGg_EnF-921XaEit_7XH-VfDDn2EZdDONwN9UUx694deuyaAy9AJyDz4Qu7XnVqgdSZq4Z9sirCAQ15vMAFmzar9TI_hxnw5mcrAZBxdMWYX5VMTIDHze6NCrL2uxPe46t4V8GX1lvQ5icLMF93RiAAD590kVIjwmieQIIL4KqHVCyw1-GWQmgmGmUgRA"/>
+<div>
+<p class="text-[10px] text-primary-container font-label tracking-widest font-bold uppercase">AUTHOR_NODE</p>
+<p class="text-lg font-headline font-bold text-white uppercase tracking-tighter">JUSTIN BORGES</p>
+</div>
+</div>
+<div class="flex flex-col gap-1">
+<p class="text-[10px] text-on-surface-variant font-label tracking-widest uppercase">TIMESTAMP</p>
+<p class="font-mono text-sm text-white">2026.03.15 // 09:00_UTC</p>
+</div>
+<div class="flex flex-col gap-1">
+<p class="text-[10px] text-on-surface-variant font-label tracking-widest uppercase">READ_LATENCY</p>
+<p class="font-mono text-sm text-white">12MIN_DURATION</p>
+</div>
+<div class="flex gap-2 ml-auto">
+<button class="w-10 h-10 border border-outline-variant flex items-center justify-center hover:bg-primary-container hover:text-on-primary transition-all">
+<span class="material-symbols-outlined text-sm">share</span>
+</button>
+<button class="w-10 h-10 border border-outline-variant flex items-center justify-center hover:bg-primary-container hover:text-on-primary transition-all">
+<span class="material-symbols-outlined text-sm">bookmark</span>
+</button>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Content & Sidebar Layout -->
+<section class="max-w-7xl mx-auto px-6 py-16 lg:py-24 grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-20">
+<!-- Article Body (8 cols) -->
+<article class="lg:col-span-8 flex flex-col gap-12">
+<div class="prose prose-invert max-w-none prose-p:text-on-surface/80 prose-p:text-lg prose-p:leading-relaxed prose-headings:font-headline prose-headings:uppercase prose-headings:tracking-tighter prose-headings:text-white prose-strong:text-primary-container">
+<p class="text-xl leading-relaxed first-letter:text-5xl first-letter:font-bold first-letter:text-primary-container first-letter:mr-3 first-letter:float-left">
+                        As we enter the mid-2020s, the digital landscape has shifted from discovery to delivery. Users no longer want a list of links; they want direct, verified intelligence. This is the era of Answer Engine Optimization (AEO).
+                    </p>
+<h2 class="text-3xl font-black mt-12 mb-6">THE SHIFT FROM SERPS TO AGENTS</h2>
+<p>
+                        Search engines have evolved into "Answer Engines." Whether it's Perplexity, Gemini, or ChatGPT, the objective is to synthesize vast datasets into a single, cohesive response. Traditional SEO metrics like keywords and backlinks are being augmented by <strong>Authority, Trust, and Synthesis-Readiness.</strong>
+</p>
+</div>
+<!-- 4-Card Stat Grid -->
+<div class="grid grid-cols-2 md:grid-cols-4 gap-px bg-outline-variant/20 border border-outline-variant/20">
+<div class="bg-surface-container-low p-6">
+<p class="text-4xl font-black text-primary-container font-headline">82%</p>
+<p class="text-[10px] text-on-surface-variant font-label tracking-widest mt-2 uppercase">QUERY_SYNTHESIS_RATE</p>
+</div>
+<div class="bg-surface-container-low p-6">
+<p class="text-4xl font-black text-primary-container font-headline">4.2S</p>
+<p class="text-[10px] text-on-surface-variant font-label tracking-widest mt-2 uppercase">AVG_RESPONSE_LATENCY</p>
+</div>
+<div class="bg-surface-container-low p-6">
+<p class="text-4xl font-black text-primary-container font-headline">0.02</p>
+<p class="text-[10px] text-on-surface-variant font-label tracking-widest mt-2 uppercase">ERR_DEVIATION_INDEX</p>
+</div>
+<div class="bg-surface-container-low p-6">
+<p class="text-4xl font-black text-primary-container font-headline">14X</p>
+<p class="text-[10px] text-on-surface-variant font-label tracking-widest mt-2 uppercase">ROI_MULTIPLIER_2026</p>
+</div>
+</div>
+<div class="prose prose-invert max-w-none prose-p:text-on-surface/80 prose-p:text-lg">
+<h2 class="text-3xl font-black mt-12 mb-6">TECHNICAL COMPARISON: SEO VS AEO</h2>
+<p>Understanding the divergence is critical for terminal operators. While SEO focuses on visibility, AEO focuses on extraction and utility.</p>
+</div>
+<!-- Technical Comparison Table -->
+<div class="w-full overflow-x-auto border border-outline-variant/20">
+<table class="w-full text-left border-collapse">
+<thead>
+<tr class="bg-primary-container text-on-primary">
+<th class="p-4 font-headline uppercase tracking-widest text-xs font-black">METRIC_PARAMETER</th>
+<th class="p-4 font-headline uppercase tracking-widest text-xs font-black">TRADITIONAL_SEO</th>
+<th class="p-4 font-headline uppercase tracking-widest text-xs font-black">AEO_PROTOCOL</th>
+</tr>
+</thead>
+<tbody class="text-sm font-mono divide-y divide-outline-variant/10">
+<tr class="bg-surface-container-low/50">
+<td class="p-4 text-primary-container">CORE_OBJECTIVE</td>
+<td class="p-4">MAXIMIZE_CLICKS</td>
+<td class="p-4">MAXIMIZE_VERACITY</td>
+</tr>
+<tr class="bg-surface-container-lowest">
+<td class="p-4 text-primary-container">PRIMARY_UNIT</td>
+<td class="p-4">WEB_PAGE</td>
+<td class="p-4">KNOWLEDGE_NODE</td>
+</tr>
+<tr class="bg-surface-container-low/50">
+<td class="p-4 text-primary-container">FEEDBACK_LOOP</td>
+<td class="p-4">BOUNCE_RATE</td>
+<td class="p-4">SYNTHESIS_ACCURACY</td>
+</tr>
+</tbody>
+</table>
+</div>
+<!-- Callout Box -->
+<div class="border-l-4 border-primary-container bg-surface-container p-8 relative overflow-hidden">
+<div class="absolute top-0 right-0 p-4 opacity-10">
+<span class="material-symbols-outlined text-6xl">priority_high</span>
+</div>
+<h4 class="text-primary-container font-headline font-bold uppercase tracking-widest text-sm mb-4">CRITICAL_ADVISORY // PROTOCOL_UPDATE</h4>
+<p class="text-on-surface/90 text-lg leading-relaxed font-medium italic">
+                        "Failure to optimize for LLM synthesis by Q4 2026 will result in a 60% loss in visibility for top-of-funnel queries. The terminal does not forgive ignorance."
+                    </p>
+</div>
+<div class="prose prose-invert max-w-none">
+<h2 class="text-3xl font-black mt-12 mb-6">PROS &amp; CONS OF AUTONOMOUS OPTIMIZATION</h2>
+</div>
+<!-- Pros & Cons Section -->
+<div class="grid md:grid-cols-2 gap-8">
+<div class="bg-surface-container-low border border-outline-variant/10 p-6">
+<div class="flex items-center gap-2 mb-6">
+<span class="material-symbols-outlined text-green-500">check_circle</span>
+<h3 class="font-headline font-bold uppercase tracking-tight text-white">ADVANTAGES</h3>
+</div>
+<ul class="space-y-4 text-on-surface/70 text-sm font-mono">
+<li class="flex gap-3"><span class="text-green-500">[+]</span> HIGH_INTENT_LEAD_GEN</li>
+<li class="flex gap-3"><span class="text-green-500">[+]</span> ZERO_CLICK_AUTHORITY</li>
+<li class="flex gap-3"><span class="text-green-500">[+]</span> FUTURE_PROOF_INFRA</li>
+</ul>
+</div>
+<div class="bg-surface-container-low border border-outline-variant/10 p-6">
+<div class="flex items-center gap-2 mb-6">
+<span class="material-symbols-outlined text-red-500">cancel</span>
+<h3 class="font-headline font-bold uppercase tracking-tight text-white">LIABILITIES</h3>
+</div>
+<ul class="space-y-4 text-on-surface/70 text-sm font-mono">
+<li class="flex gap-3"><span class="text-red-500">[-]</span> REDUCED_DIRECT_TRAFFIC</li>
+<li class="flex gap-3"><span class="text-red-500">[-]</span> ATTRIBUTION_COMPLEXITY</li>
+<li class="flex gap-3"><span class="text-red-500">[-]</span> HIGH_VERACITY_COST</li>
+</ul>
+</div>
+</div>
+<!-- Brutalist Blockquote -->
+<blockquote class="my-12 p-12 bg-white text-black font-black text-4xl lg:text-5xl font-headline tracking-tighter uppercase relative leading-[0.85]">
+<span class="absolute top-4 left-4 text-primary-container text-xl material-symbols-outlined">format_quote</span>
+                    THE ALGORITHM IS NO LONGER SEARCHING FOR CONTENT. IT IS SEARCHING FOR ANSWERS. BE THE ANSWER, OR BE OBSOLETE.
+                </blockquote>
+<!-- Author Bottom Card -->
+<div class="mt-12 bg-surface-container-high p-8 flex flex-col md:flex-row gap-8 border border-outline-variant/20">
+<img alt="Justin Borges Profile" class="w-32 h-32 md:w-40 md:h-40 grayscale border-2 border-primary-container" data-alt="Close up portrait of a man with intense eyes, dark background, sharp high-contrast lighting, industrial aesthetic" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCMil8RggbVXQkXTDOyqq5QnDhrx9oQBPzUojIesl1NuwK1NgUXTGYTslqP5zI0sIgdb9bwwN5oYxJAo3Bb6EdXGfRY-91OR1ugfheGzlHU9vKt2oi77zftybBLqAqhuEnqbb5R7DsismGVQiCFWHr0bxZ00V5chSi6P0FsToiNKqL99F3edr4S9E-fb8juG5c75ciSyNCBxS1kN12fadXvd0zNWG0LsCksQhE-WAaNaTgfbJ5K8zmPxSTIZWOv0ovoTZEhYiwvi3b2"/>
+<div class="flex-1 flex flex-col">
+<div class="flex justify-between items-start">
+<h3 class="text-3xl font-black font-headline tracking-tighter uppercase text-white">JUSTIN BORGES</h3>
+<span class="font-mono text-[10px] text-primary-container border border-primary-container px-2 py-1">CLEARANCE: MAXIMUM</span>
+</div>
+<p class="text-sm font-label tracking-widest text-primary-container mb-4 mt-1 uppercase">PRINCIPAL_INTELLIGENCE_OFFICER</p>
+<p class="text-on-surface/70 leading-relaxed mb-6">
+                            Architect of the AEO_TERMINAL framework. Specializing in high-stakes information retrieval and LLM behavioral analysis. 15 years in digital warfare and data synthesis.
+                        </p>
+<div class="flex gap-4 mt-auto">
+<a class="text-xs font-mono text-white/50 hover:text-primary-container transition-colors underline uppercase" href="#">PGP_KEY</a>
+<a class="text-xs font-mono text-white/50 hover:text-primary-container transition-colors underline uppercase" href="#">INTEL_LOGS</a>
+<a class="text-xs font-mono text-white/50 hover:text-primary-container transition-colors underline uppercase" href="#">SECURE_COMM</a>
+</div>
+</div>
+</div>
+</article>
+<!-- Sidebar (4 cols) -->
+<aside class="lg:col-span-4 flex flex-col gap-12">
+<!-- Sticky ToC -->
+<div class="sticky top-28 flex flex-col gap-8">
+<div class="flex flex-col gap-4">
+<div class="flex items-center gap-2">
+<div class="w-1 h-4 bg-primary-container"></div>
+<h4 class="text-xs font-label tracking-widest font-black uppercase text-white">MISSION_LOGS</h4>
+</div>
+<nav class="flex flex-col font-mono text-xs gap-3">
+<a class="text-primary-container border-l-2 border-primary-container pl-4 py-1" href="#">01. THE_SHIFT_OVERVIEW</a>
+<a class="text-white/40 hover:text-white pl-4 py-1 border-l-2 border-transparent transition-all" href="#">02. SEO_VS_AEO_MATRIX</a>
+<a class="text-white/40 hover:text-white pl-4 py-1 border-l-2 border-transparent transition-all" href="#">03. PROTOCOL_EXECUTION</a>
+<a class="text-white/40 hover:text-white pl-4 py-1 border-l-2 border-transparent transition-all" href="#">04. LIABILITY_ASSESSMENT</a>
+<a class="text-white/40 hover:text-white pl-4 py-1 border-l-2 border-transparent transition-all" href="#">05. TERMINAL_SUMMARY</a>
+</nav>
+</div>
+<!-- RELATED INTEL Cards -->
+<div class="flex flex-col gap-6">
+<div class="flex items-center gap-2">
+<div class="w-1 h-4 bg-primary-container"></div>
+<h4 class="text-xs font-label tracking-widest font-black uppercase text-white">RELATED_INTEL</h4>
+</div>
+<a class="group block bg-surface-container-low border border-outline-variant/10 p-4 hover:border-primary-container/50 transition-all" href="#">
+<p class="text-[10px] text-primary-container font-mono mb-2">FILE_ID: 8824</p>
+<h5 class="font-headline font-bold text-white uppercase group-hover:text-primary-container transition-colors leading-tight">DECODING_LLM_RANKING_FACTORS</h5>
+<div class="flex justify-between items-center mt-4">
+<span class="text-[10px] text-white/40 font-mono">08_MIN_READ</span>
+<span class="material-symbols-outlined text-sm group-hover:translate-x-1 transition-transform">arrow_forward</span>
+</div>
+</a>
+<a class="group block bg-surface-container-low border border-outline-variant/10 p-4 hover:border-primary-container/50 transition-all" href="#">
+<p class="text-[10px] text-primary-container font-mono mb-2">FILE_ID: 9912</p>
+<h5 class="font-headline font-bold text-white uppercase group-hover:text-primary-container transition-colors leading-tight">THE_FUTURE_OF_ZERO_CLICK</h5>
+<div class="flex justify-between items-center mt-4">
+<span class="text-[10px] text-white/40 font-mono">15_MIN_READ</span>
+<span class="material-symbols-outlined text-sm group-hover:translate-x-1 transition-transform">arrow_forward</span>
+</div>
+</a>
+</div>
+</div>
+</aside>
+</section>
+<!-- CTA Section -->
+<section class="max-w-7xl mx-auto px-6 py-20">
+<div class="bg-surface-container-high border-l-8 border-primary-container p-8 md:p-16 flex flex-col md:flex-row justify-between items-center gap-12 relative overflow-hidden">
+<div class="absolute inset-0 dot-grid opacity-20 pointer-events-none"></div>
+<div class="relative z-10 flex flex-col gap-4 max-w-2xl">
+<h2 class="text-4xl md:text-6xl font-black font-headline tracking-tighter text-white uppercase leading-[0.9]">
+                        GET YOUR FREE COMPETITIVE AUDIT
+                    </h2>
+<p class="text-on-surface/70 text-lg uppercase font-label tracking-widest">MAP YOUR POSITION IN THE NEW ANSWER ECONOMY.</p>
+</div>
+<div class="relative z-10 w-full md:w-auto">
+<button class="w-full md:w-auto px-12 py-6 bg-primary-container text-black font-black font-headline text-xl tracking-tighter uppercase hover:bg-white hover:text-black active:opacity-80 duration-100 transition-all">
+                        INITIATE AUDIT
+                    </button>
+</div>
+</div>
+</section>
+</main>
+<!-- Footer -->
+<footer class="w-full bg-[#131313] border-t border-[#FF6A00]/10 mt-20 flex flex-col md:flex-row justify-between items-center px-8 py-12 max-w-full font-['Space_Grotesk'] text-[10px] uppercase tracking-widest">
+<div class="text-[#FF6A00] font-bold text-sm tracking-tighter mb-8 md:mb-0">AEO_TERMINAL</div>
+<div class="flex flex-wrap justify-center gap-8 text-white/40">
+<a class="hover:text-[#FF6A00] transition-all" href="#">TERMINAL_STATUS</a>
+<a class="hover:text-[#FF6A00] transition-all" href="#">ENCRYPTION_KEY</a>
+<a class="hover:text-[#FF6A00] transition-all" href="#">SYSTEM_MAP</a>
+</div>
+<div class="mt-8 md:mt-0 text-white/20">
+            ©2026 SYSTEM_AEO // OPERATIONAL
+        </div>
+</footer>
+</body></html>
