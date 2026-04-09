@@ -54,6 +54,12 @@
       "email": "mario@expresselectricalservices.com",
       "type": "initial",
       "sentAt": "2026-04-09T08:30:14.712Z"
+    },
+    {
+      "leadId": "lead_1772944082786_8zis4x",
+      "email": "hunterdoug@earthlink.net",
+      "type": "follow_up_1",
+      "sentAt": "2026-04-09T16:00:33.785Z"
     }
   ]
 }
