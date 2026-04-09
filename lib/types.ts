@@ -11,6 +11,7 @@ export type LeadStatus =
   | 'follow_up_1'
   | 'follow_up_2'
   | 'follow_up_3'
+  | 'follow_up_4'
   | 'closed_won'
   | 'closed_lost'
   | 'no_response'
@@ -75,6 +76,8 @@ export interface Lead {
   actionLog: { action: string; timestamp: string }[];
   createdAt: string;
   updatedAt: string;
+  // Lead source tracking
+  source?: 'inbound' | 'outbound';
   // Lead Hunter Bot fields
   huntSource?: string;
   huntScore?: number;

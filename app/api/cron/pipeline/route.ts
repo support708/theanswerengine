@@ -16,8 +16,8 @@ import { callClaudeWithWebSearch, callClaude, extractText, checkRateLimit } from
 import { parseAERO7FromResearch } from '@/lib/aero7-scorer';
 import { getIndustryColors, CALENDLY_URL, REPORT_FOOTER } from '@/lib/report-template';
 import { runFabricationScan, runEmDashScan, stripEmDashes } from '@/lib/fabrication-scan';
-import { buildEmailSubject, buildEmailBody, buildHtmlEmailBody } from '@/lib/gmail';
-import { sendGmailMessage, isGmailConfigured } from '@/lib/gmail-api';
+import { buildEmailSubject, buildEmailBody, buildHtmlEmailBody, buildInboundEmailSubject, buildInboundEmailBody, buildInboundHtmlEmailBody, buildRealEstateEmailSubject, buildRealEstateEmailBody, buildRealEstateHtmlEmailBody } from '@/lib/gmail';
+import { sendGmailMessageWithRetry, isGmailConfigured } from '@/lib/gmail-api';
 import { canSendToday, prepareSendLogFile } from '@/lib/email-scheduler';
 import { notifyPipelineFailure, sendMessage } from '@/lib/telegram';
 import { isDeployConfigured } from '@/lib/deploy';
@@ -119,8 +119,9 @@ async function handleRequest(req: NextRequest) {
       await flushLeadsWithFiles(leads, [], 'pipeline: auto-failed leads with invalid emails');
     }
 
-    // Pick 1 lead per run — full pipeline (research+report+email) takes ~120-180s
-    // Includes email_drafted (Gmail retry) and report_ready (deploy retry)
+    // Pick 1 lead per run — full pipeline (research+report+email) takes ~120-180s.
+    // maxDuration is 300s, so 1 full pipeline fits safely. Cron runs every 30 min = 48 leads/day capacity.
+    // Includes email_drafted (Gmail retry) and report_ready (deploy retry).
     const toPick = leads.filter(l => pickable.includes(l.status) && l.contactEmail && l.contactEmail.includes('@')).slice(0, 1);
 
     if (toPick.length === 0) {
@@ -584,19 +585,31 @@ Generate the complete HTML now.`;
         if (!reportLive) {
           result.email = 'skipped (report not live yet, will retry next cron)';
         } else {
-          const subject = buildEmailSubject(lead);
-          const body = buildEmailBody(lead);
-          const htmlBody = buildHtmlEmailBody(lead);
+          const isInbound = lead.source === 'inbound';
+          const isRealEstate = lead.serviceNiche.toLowerCase().includes('real estate') || lead.serviceNiche.toLowerCase().includes('real-estate');
 
-          // Prepare send log entry for batching (no separate commit)
-          const sendLogFile = await prepareSendLogFile(lead.id, lead.contactEmail, 'initial');
+          let subject: string, body: string, htmlBody: string;
+          if (isInbound) {
+            subject = buildInboundEmailSubject(lead);
+            body = buildInboundEmailBody(lead);
+            htmlBody = buildInboundHtmlEmailBody(lead);
+          } else if (isRealEstate) {
+            subject = buildRealEstateEmailSubject(lead);
+            body = buildRealEstateEmailBody(lead);
+            htmlBody = buildRealEstateHtmlEmailBody(lead);
+          } else {
+            subject = buildEmailSubject(lead);
+            body = buildEmailBody(lead);
+            htmlBody = buildHtmlEmailBody(lead);
+          }
 
           let sent = false;
           let messageId = '';
+          let sendError = '';
 
           if (isGmailConfigured()) {
             try {
-              const gmailResult = await sendGmailMessage({
+              const gmailResult = await sendGmailMessageWithRetry({
                 to: lead.contactEmail,
                 subject,
                 body,
@@ -607,24 +620,32 @@ Generate the complete HTML now.`;
                 messageId = gmailResult.messageId;
               }
             } catch (error) {
+              sendError = error instanceof Error ? error.message : String(error);
               console.error('Gmail send failed:', error);
             }
+          } else {
+            sendError = 'Gmail not configured';
           }
+
+          // Only log to send-log on confirmed success (don't burn daily slots on failures)
+          const sendLogFile = sent
+            ? await prepareSendLogFile(lead.id, lead.contactEmail, 'initial')
+            : null;
 
           // Update lead in memory
           lead.status = sent ? 'sent' : 'email_drafted';
           lead.actionLog.push({
             action: sent
               ? `Initial email auto-sent via Gmail (${messageId})`
-              : 'Email send failed, saved as draft',
+              : `Email send failed: ${sendError || 'Gmail returned null'}`,
             timestamp: new Date().toISOString(),
           });
           lead.updatedAt = new Date().toISOString();
 
-          // === FLUSH 2: Atomic commit — leads.json + send-log.json ===
+          // === FLUSH 2: Atomic commit — leads.json + send-log (only if sent) ===
           await flushLeadsWithFiles(
             leads,
-            [sendLogFile],
+            sendLogFile ? [sendLogFile] : [],
             `pipeline: ${lead.businessName} — ${sent ? 'email sent' : 'email draft'}`,
           );
 
@@ -638,6 +659,13 @@ Generate the complete HTML now.`;
               );
             } catch {
               // Silent — email was sent, notification is secondary
+            }
+          } else {
+            // Telegram alert on email failure
+            try {
+              await notifyPipelineFailure(lead.id, lead.businessName, 'email', sendError, 1);
+            } catch {
+              // Silent — notification failure must not break pipeline
             }
           }
 

@@ -83,7 +83,16 @@ export const VERTICALS = [
   'Dentist',
   'Chiropractor',
   'Med Spa',
+  'Real Estate Agent',
 ] as const;
+
+/**
+ * Vertical-specific metro exclusions.
+ * Real Estate: exclude all California metros (Justin + Ryan's markets).
+ */
+export const VERTICAL_METRO_EXCLUSIONS: Record<string, string[]> = {
+  'Real Estate Agent': ['Los Angeles, CA', 'San Diego, CA'],
+};
 
 export const METROS = [
   'Los Angeles, CA',

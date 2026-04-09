@@ -20,16 +20,34 @@
       "sentAt": "2026-03-09T05:22:12.313Z"
     },
     {
-      "leadId": "lead_1773022425365_nxikgu",
-      "email": "Not found",
+      "leadId": "lead_1775669481214_073jaw",
+      "email": "lucerohomes.ca@gmail.com",
       "type": "initial",
-      "sentAt": "2026-03-09T05:28:53.214Z"
+      "sentAt": "2026-04-08T17:46:34.319Z"
     },
     {
-      "leadId": "lead_1773022425365_nxikgu",
-      "email": "Not found",
+      "leadId": "lead_1773022425366_w6qto8",
+      "email": "service@electricconnection.com",
       "type": "initial",
-      "sentAt": "2026-03-09T05:29:02.325Z"
+      "sentAt": "2026-04-08T18:18:18.974Z"
+    },
+    {
+      "leadId": "lead_1773022425366_w6qto8",
+      "email": "service@electricconnection.com",
+      "type": "initial",
+      "sentAt": "2026-04-08T19:20:37.117Z"
+    },
+    {
+      "leadId": "lead_1773022425366_898tpo",
+      "email": "office@goprimeelectric.com",
+      "type": "initial",
+      "sentAt": "2026-04-08T21:00:17.138Z"
+    },
+    {
+      "leadId": "lead_1773022425366_ugneij",
+      "email": "info@branovercontractors.com",
+      "type": "initial",
+      "sentAt": "2026-04-08T22:00:25.392Z"
     }
   ]
 }

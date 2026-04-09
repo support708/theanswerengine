@@ -779,9 +779,9 @@
         "draftResponse": "Architecture is one of the few service categories where Google Ads can actually drain your budget without converting. Here's why: people researching architects don't typically start with ads. They start by asking questions.\n\nThey search \"what's the difference between a residential architect and a designer,\" \"how much does it cost to hire an architect for a home renovation,\" or \"what questions should I ask before hiring an architect.\" These are answer-driven queries, not \"click here to buy\" moments.\n\nGoogle Ads and Instagram work, but they're playing defense. You're interrupting people who aren't actively looking yet. For an architecture business in Los Angeles especially, your actual opportunity is being found when people are actively searching for the expertise you provide.\n\nThis is where most architects get it backward. They spend on ads, get moderate results, then blame marketing. What they're actually missing is that the client journey starts with questions, not ads.\n\nI'd recommend this sequence: First, identify the 10-15 questions your ideal clients are actually searching for (renovation scope, budget, timeline, licensing questions, etc.). Get your expertise positioned as the answer to those queries across Google Search. Then layer in paid channels once your organic authority is established. You'll spend less and attract better-qualified leads.\n\nThe money you allocate to building answer authority first will outpace any Instagram spend you do in month one. LA has tons of architecture firms—the ones winning right now are the ones being found during the research phase, not the awareness phase."
       },
       "discoveredAt": "2026-04-01T15:46:44.621Z",
-      "digestSentAt": null,
+      "digestSentAt": "2026-04-06T18:07:10.759Z",
       "telegramSentAt": "2026-04-01T15:46:45.264Z",
-      "status": "pending"
+      "status": "digest_sent"
     },
     {
       "id": "reddit_1775071150863_yh8bco",
@@ -806,7 +806,7 @@
         "draftResponse": "Your financial position is actually really strong here, even with variable income. The key isn't your total comp (which is excellent) but how lenders will document it. Here's the reality:\n\nMost conventional lenders want 2 years of commission history and will average RSUs conservatively. At your numbers, a lender should be comfortable with roughly $280-320k in stable income pretty easily. That commission consistency over 4 years matters.\n\nWhat to do now: (1) Get preapproved with a lender experienced in tech compensation. Smaller mortgage shops and credit unions often understand RSU structures better than big banks. (2) Pull your last 2 years of tax returns and recent paystubs to show the pattern. (3) If your company has a history of stable/growing stock, mention that context. (4) Plan for a slightly higher down payment if possible, which reduces lender risk on variable income cases.\n\nOn the actual budget: With $570k+ down payment potential and stable documentation, you're looking at a $2M+ purchase power in most markets. In Austin, that's a different conversation than some coastal tech hubs, but your fundamentals are sound regardless of location.\n\nThe irregular timing of payouts is less of an issue than lenders used to be. Document everything and find a lender who works with tech employees regularly. That's half the battle."
       },
       "discoveredAt": "2026-04-01T19:19:10.863Z",
-      "digestSentAt": "2026-04-02T00:07:10.416Z",
+      "digestSentAt": "2026-04-06T18:07:11.830Z",
       "telegramSentAt": "2026-04-01T19:19:11.502Z",
       "status": "digest_sent"
     },
@@ -833,7 +833,7 @@
         "draftResponse": "Good timing with that income bump and the new build incentives. Here's the real talk: the 3-2-1 buydown is mathematically solid if you're confident about refinancing by month 24, but your credit situation adds risk you need to plan for.\n\nYou're looking at roughly $2,966 in savings over the first three years with the buydown, but that month 24 refi window is tight. Credit scores don't recover linearly. Settling collections helps, but you'll need to show 12+ months of perfect payment history before most lenders touch you at a competitive rate. If you hit month 25 at a 680 score, you're stuck in that 6.875% scenario permanently. That's a $4,600+ payment vs the $4,151 you'd have with the fixed rate.\n\nOn contract clauses to watch: verify the buydown is seller-funded (not lender-funded points), confirm there's no prepayment penalty if you refi early, and check if your escrow timeline allows you to capture PMI removal at month 12 once you hit 20% equity or 80% LTV through appreciation and payments combined. Pflugerville is seeing solid appreciation right now, which helps your case.\n\nThe bigger question: what's driving the income doubling? If it's sustainable and documented, lenders will care about that for the refi. If it's contract work or variable, they won't count it yet.\n\nBankable refi bet? Month 20-22 is realistic. Month 24 is cutting it close with your credit profile."
       },
       "discoveredAt": "2026-04-01T19:19:20.431Z",
-      "digestSentAt": "2026-04-02T00:07:10.416Z",
+      "digestSentAt": "2026-04-06T18:07:11.830Z",
       "telegramSentAt": "2026-04-01T19:19:21.143Z",
       "status": "digest_sent"
     },
@@ -860,9 +860,9 @@
         "draftResponse": "You've basically reverse-engineered part of the AERO-10 framework without calling it that. The information gain angle is dead-on, and your embedding space analysis is more rigorous than most agencies get.\n\nHere's what you're missing though: information gain is necessary but not sufficient. AI engines also weight what I call Answer Authority—it's a combination of semantic depth, structural clarity, and how comprehensively you address the implicit questions your answer raises.\n\nI've been tracking this since before AI Overviews existed. What I found is that your competitors aren't just filling gaps randomly. They're filling gaps in a specific way: they structure answers to be immediately useful to an AI engine's context window. They anticipate follow-up questions. They layer specificity.\n\nYour 'holes in semantic topology' are real, but the sources getting cited are doing something else—they're writing answers that make the AI engine confident. Not just complete, but confident it won't need to pull from five other sources.\n\nThe pattern repeats across every vertical I've tested, whether it's local services in Los Angeles or national verticals. The winners aren't the longest articles or the most detailed. They're the ones that answer with surgical precision and structural clarity.\n\nI'd map your top 10 cited competitors and check if they're answering in a different format or structure than your content, not just covering different concepts. That's usually where the leverage is. What verticals are you testing this in?"
       },
       "discoveredAt": "2026-04-01T21:47:16.614Z",
-      "digestSentAt": null,
+      "digestSentAt": "2026-04-06T18:07:10.759Z",
       "telegramSentAt": "2026-04-01T21:47:17.269Z",
-      "status": "pending"
+      "status": "digest_sent"
     },
     {
       "id": "reddit_1775144169087_2u0bo2",
@@ -887,9 +887,198 @@
         "draftResponse": "You're hitting on the real stuff here. I've watched landlords in Long Beach lose 15-20k because they rushed tenant screening or ignored one maintenance flag. The thing that gets me most is pricing.\n\nA lot of owners here underprice thinking it'll mean faster turnovers or fewer vacancies. Actually the opposite. You end up attracting lower-quality applications and your margin erodes fast when something breaks.\n\nCommunication is the one that surprises people though. Tenants don't care if you're busy. They care if you respond. Three days to answer a maintenance request? That's how a small fix becomes a legal problem.\n\nTenant screening is non-negotiable. Pull reports, call references, verify employment, run background checks. Long Beach market is tight enough that you can afford to be selective. I'd rather turn a unit over than deal with an eviction.\n\nMaintenance is similar - consistency beats crisis management every time. You'll spend less preventing issues than fixing them after the fact.\n\nThe real cost isn't the money you spend being thorough. It's the money you lose being careless. That's what separates investors who build equity from ones who just chase rent checks. The market here rewards owners who take it seriously.\n\nWhat mistake have you seen hurt landlords the most?"
       },
       "discoveredAt": "2026-04-02T15:36:09.087Z",
-      "digestSentAt": null,
+      "digestSentAt": "2026-04-06T20:07:10.619Z",
       "telegramSentAt": "2026-04-02T15:36:10.449Z",
-      "status": "pending"
+      "status": "digest_sent"
+    },
+    {
+      "id": "reddit_1775192802620_uhtkqx",
+      "postId": "1sb0kjl",
+      "clientSlug": "the-answer-engine",
+      "businessName": "The Answer Engine",
+      "subreddit": "SEO",
+      "title": "Why is this the #1 result?",
+      "selftext": "I'm struggling to find rationale that google thinks #1 result for \"billboards in los Angeles\" with little to no copy. They are beating all competitors across the country with similar DA but they don't have that embedded map. Is it possible the map is that strong of an indicator? The copy is generic and the images are duplicated on every similar page.\n\nHeading structure is a joke.  \nH1: Tell the world your story  \nH2: Your success is our priority\n\nAm i missing something here?",
+      "author": "Responsible_Lake_500",
+      "postUrl": "https://reddit.com/r/SEO/comments/1sb0kjl/why_is_this_the_1_result/",
+      "postCreatedUtc": 1775181399,
+      "score": {
+        "buyingIntent": 7,
+        "relevance": 9,
+        "recency": 8,
+        "responseOpportunity": 9,
+        "composite": 8.1,
+        "businessImpact": "high",
+        "impactReasoning": "Direct Los Angeles location match, SEO professional asking about ranking mechanics (core AEO/AI visibility question), clear buying signal (frustration + competitive analysis = actively optimizing), urgent timeframe implied by current struggle",
+        "suggestedAngle": "Shift conversation from traditional SEO ranking factors to what AI engines actually reward. Position Answer Authority Foundation as the framework that explains this anomaly. Los Angeles service business competing locally = perfect ICP.",
+        "draftResponse": "You're looking at this through a traditional SEO lens, which is exactly why it's confusing. That #1 result likely isn't winning because of DA or heading structure anymore. What you're probably seeing is answer authority positioning.\n\nHere's what's happening: Google's AI systems (and increasingly ChatGPT, Gemini, Perplexity) are rewarding sites that answer specific questions comprehensively, regardless of copy volume or technical SEO perfectionism. That generic heading? Irrelevant to an answer engine. The map? Strong signal, but not the primary one.\n\nWhat actually matters now:\n\n1. Can the page answer \"where do I get billboards in Los Angeles\" in a way an AI engine trusts it?\n2. Does it have unique data points (pricing, availability, process) that can't be found elsewhere?\n3. Is the business actually authoritative in that specific location/service combo?\n\nTheir weak heading structure and duplicate images would sink them in 2019. In 2024, if they're answering the core question better than competitors, they rank.\n\nI've seen this pattern across dozens of local service verticals. The sites winning aren't necessarily the ones with best SEO anymore. They're the ones with the clearest answer authority for their specific service and location.\n\nStart by auditing what questions your competitors are actually answering. Then ask yourself: are you answering them better, or just optimizing the same weak answers?"
+      },
+      "discoveredAt": "2026-04-03T05:06:42.620Z",
+      "digestSentAt": "2026-04-06T18:07:10.759Z",
+      "telegramSentAt": "2026-04-03T05:06:43.365Z",
+      "status": "digest_sent"
+    },
+    {
+      "id": "reddit_1775326261532_q2i2sa",
+      "postId": "1sccwz3",
+      "clientSlug": "davis-agency",
+      "businessName": "The Davis Agency",
+      "subreddit": "RealEstate",
+      "title": "Why won't people live out further for cheaper homes?",
+      "selftext": "I live in the Austin, TX metro area. Builders have basically the same floorplan that is $200K less but 20 miles further from downtown Austin. In one case a 4 bedroom 2,446 sqft house is $339K while a similar one is $544K for a 3 bedroom 2,000 sqft home. The homes are 20-25 miles apart.\n\nIs location, distance that important? Also the community with the cheaper prices has better schools, lower crime and less traffic. As much as people complain about home affordability I don't understand why so few",
+      "author": "waveduality",
+      "postUrl": "https://reddit.com/r/RealEstate/comments/1sccwz3/why_wont_people_live_out_further_for_cheaper_homes/",
+      "postCreatedUtc": 1775318360,
+      "score": {
+        "buyingIntent": 7,
+        "relevance": 10,
+        "recency": 8,
+        "responseOpportunity": 9,
+        "composite": 8.3,
+        "businessImpact": "high",
+        "impactReasoning": "Direct Austin metro question from someone actively evaluating market dynamics. Strong buying intent signal (comparing specific properties), perfect geographic match, and high urgency. Poster is articulating a genuine market tension that reveals buyer psychology—exactly the expertise area for a luxury/buyer rep in Austin.",
+        "suggestedAngle": "Acknowledge the math makes sense on paper, but explain the real lifestyle/commute costs, job proximity, and resale velocity that drive pricing. Position as someone who helps buyers see past surface-level price comparisons.",
+        "draftResponse": "You're spotting a real inefficiency, but here's what I see in the Austin market: those $200K deltas aren't random. They reflect commute reality.\n\nThat 20-25 mile distance sounds manageable until you're doing it daily in Texas heat on I-35 or MoPac. We're talking 45-90 minutes each way depending on your job location. Over 5 years, that's brutal on quality of life, vehicle wear, and actual time cost. Buyers pricing in that friction.\n\nSecond, resale velocity matters more than you'd think. The cheaper home sits 90+ days. The pricier one moves in 14-21 days. When you eventually sell, those faster-moving closer-in homes appreciate more predictably because more buyers compete for them. Outer areas can get stranded in downturns.\n\nThird, the school comment is interesting but verify it directly. Some outer suburbs are still building out infrastructure. Newer doesn't always mean better long-term.\n\nThat said, if both spouses work remotely or you've genuinely got a short commute, that math flips completely. Some families I've represented at The Davis Agency find they're perfectly happy 20 miles out and pocket that $200K difference.\n\nThe real question: where do your actual daily anchors sit? Job, kids' activities, social circle? That geography drives everything. The homes that seem like steals often just don't fit the actual life people are living."
+      },
+      "discoveredAt": "2026-04-04T18:11:01.532Z",
+      "digestSentAt": "2026-04-06T18:07:11.830Z",
+      "telegramSentAt": "2026-04-04T18:11:02.466Z",
+      "status": "digest_sent"
+    },
+    {
+      "id": "reddit_1775364538130_w0n2i8",
+      "postId": "1sctzbs",
+      "clientSlug": "rpm-southland",
+      "businessName": "RPM Southland",
+      "subreddit": "PropertyManagement",
+      "title": "Unauthorized Parking",
+      "selftext": "I'm a new property manager for 17 unit apartment complex. There isn't any parking in place, no violators will be towed signs, no exclusive designated tenant parking and now I'm having an issue where guests are filling the parking lots and leaving no room for tenants to park. The local LEOs can't do anything about it and I presently can't call for tows because I'm unsure of whose cars are tenants are not. I'm at my wits end with managing this property. That's only a portion of what I'm dealing wi",
+      "author": "BarHumble",
+      "postUrl": "https://reddit.com/r/PropertyManagement/comments/1sctzbs/unauthorized_parking/",
+      "postCreatedUtc": 1775362607,
+      "score": {
+        "buyingIntent": 6,
+        "relevance": 7,
+        "recency": 8,
+        "responseOpportunity": 9,
+        "composite": 7.3,
+        "businessImpact": "medium",
+        "impactReasoning": "Strong operational pain point (parking enforcement) and clear management struggle signal hiring potential. Poster is actively managing but lacks systems/support. Location not mentioned, so relevance drops from high to medium. This is the type of operational firefighting that makes owners/managers seek professional help, but we don't know if they're in CA or another state. Good opportunity if they're local; medium if not.",
+        "suggestedAngle": "Parking enforcement as foundational property management infrastructure. Position as 'the unglamorous blocking-and-tackling that determines tenant satisfaction.' Mention how systems (reserved spots, guest passes, signage) prevent the chaos described.",
+        "draftResponse": "You're dealing with one of the hardest problems in property management because it's not actually about parking, it's about enforcement. And enforcement requires a system before you can enforce anything.\n\nHere's what I'd do immediately: Get signage up that designates reserved spots for specific units. Even if you don't have an official parking plan yet, you can reserve spaces 1-17 for tenants. This is your enforcement baseline. You can't tow someone if you can't prove the spot isn't theirs.\n\nSecond, implement a guest parking pass system. Tenants register guest vehicles or they get a temporary pass for the windshield. No pass, no parking. This solves your 'whose car is it' problem in 48 hours. You're not guessing anymore.\n\nThird conversation with upper management needs to be blunt: 'If we don't establish parking rules and enforcement, tenant complaints will drive turnover, and we'll lose rent.'\n\nThe reality is that parking is one of the top three reasons tenants leave an apartment. Your management isn't unclear because they're bad managers, they're unclear because they haven't forced the issue. You have to force it.\n\nWe handle this at RPM Southland in Long Beach constantly. The properties that moved fastest on this saw tenant satisfaction jump within 30 days because residents finally had predictable parking.\n\nDon't get stuck managing chaos. Build the system first, then enforce it."
+      },
+      "discoveredAt": "2026-04-05T04:48:58.130Z",
+      "digestSentAt": "2026-04-06T20:07:10.619Z",
+      "telegramSentAt": "2026-04-05T04:48:58.875Z",
+      "status": "digest_sent"
+    },
+    {
+      "id": "reddit_1775619421847_olkixe",
+      "postId": "1sfhfp8",
+      "clientSlug": "lovery-re",
+      "businessName": "Lovery Real Estate",
+      "subreddit": "RealEstate",
+      "title": "Me and my wife decided to buy our first home.",
+      "selftext": "We’re making 125k a year combined with credit scores of 744 and 680 (I have credit history she only has student loans). The area we’re in is around 275kish for a decent first house and are awaiting pre approval for 350k. We’re 25 and 24 and have had an awful experience finding a rental property so we’re head first into buying. Is there any advice we could use to look for what’s best in a real estate agent or what to avoid. ",
+      "author": "camgar9",
+      "postUrl": "https://reddit.com/r/RealEstate/comments/1sfhfp8/me_and_my_wife_decided_to_buy_our_first_home/",
+      "postCreatedUtc": 1775618243,
+      "score": {
+        "buyingIntent": 7,
+        "relevance": 4,
+        "recency": 8,
+        "responseOpportunity": 9,
+        "composite": 6.5,
+        "businessImpact": "medium",
+        "impactReasoning": "Strong buying intent and urgency, excellent response opportunity to provide genuine first-time buyer guidance. However, relevance is limited because post doesn't specify location - appears to be asking general advice rather than San Diego-specific help. Can naturally mention San Diego market context without forcing it, but this feels like a general r/RealEstate question not a San Diego-targeted one. Medium impact because we can add real value and build authority, but geographical match is unclear.",
+        "suggestedAngle": "Position as first-time buyer expert. Share what makes a great agent from a buyer's perspective. Mention San Diego as an example of competitive market where agent quality matters. Focus on their situation (young couple, solid finances, credit spread, limited rental luck) to build credibility.",
+        "draftResponse": "Congrats on making this move, and honestly, your financial position is solid for first-time buyers at 25 and 24. Here's what I'd look for in an agent, especially coming off a rough rental experience.\n\nFind someone who listens first and talks second. A good agent will spend time understanding your priorities, not just showing you homes in your price range. Ask potential agents: How do you help first-time buyers navigate inspection findings? What's your process when an offer gets rejected? Their answers matter more than their marketing.\n\nSpecific things to avoid: agents who pressure you toward the highest pre-approval amount (yours is realistic for your income), anyone who won't explain closing costs clearly, and agents who treat this like a sprint rather than finding the right fit.\n\nYour credit score spread is worth addressing before you get too deep. That 680 will affect your rate, so talk to a lender about strategies there. In competitive markets like San Diego, we see buyers weakened by financing questions that could've been solved upfront.\n\nOne more thing: that awful rental experience doesn't mean you'll have the same with buying. The dynamic is completely different when you're the owner and there's a clear transaction structure. An agent worth their salt will make the buying process feel way more transparent than renting ever did.\n\nLook for someone local to your area who knows the neighborhoods, not just the market. They should be able to explain why a home is priced the way it is and what comparable sales actually tell you. That knowledge is what protects you."
+      },
+      "discoveredAt": "2026-04-08T03:37:01.847Z",
+      "digestSentAt": "2026-04-08T22:07:28.439Z",
+      "telegramSentAt": "2026-04-08T03:37:02.599Z",
+      "status": "digest_sent"
+    },
+    {
+      "id": "reddit_1775619431074_2ly4i3",
+      "postId": "1sfdmc4",
+      "clientSlug": "lovery-re",
+      "businessName": "Lovery Real Estate",
+      "subreddit": "FirstTimeHomeBuyer",
+      "title": "PMI is going to be $126/month?? On a $145k home with $900/mo mortgage payments??",
+      "selftext": "WTAF? We're getting fleeced. Our credit scores were above 700, I think mine was almost 730? I shouldn't have signed the disclosure thing without reading ALL of it I feel SO STUPID but I was at work and just rushing to get it done and move on to the next step because our awful loan guy takes forever to do anything and requests the same pdf from us 3 times a week. Don't be like me READ YOUR SHIT ALL YOUR SHIT  \n\nlmao downvotes really? Sorry for being poor and trying to learn. go back to r/RealEsta",
+      "author": "st_psilocybin",
+      "postUrl": "https://reddit.com/r/FirstTimeHomeBuyer/comments/1sfdmc4/pmi_is_going_to_be_126month_on_a_145k_home_with/",
+      "postCreatedUtc": 1775607877,
+      "score": {
+        "buyingIntent": 7,
+        "relevance": 9,
+        "recency": 9,
+        "responseOpportunity": 9,
+        "composite": 8.3,
+        "businessImpact": "high",
+        "impactReasoning": "First-time home buyer actively in transaction, experiencing buyer's remorse and frustration with their loan officer. Clear pain point around PMI and lack of guidance through closing process. Poster is emotional but engaged and seeking education. Located likely in US (mention of credit scores, PMI). San Diego first-time buyer audience is core service line. High opportunity to provide reassurance, education, and position Lovery Real Estate as the kind of responsive, transparent agent who protects clients in this exact scenario.",
+        "suggestedAngle": "Validate their frustration, demystify PMI math, emphasize the importance of agent advocacy during loan process, position transparent communication as differentiator without criticizing their lender directly.",
+        "draftResponse": "Hey, don't feel stupid at all. You caught something real, and the fact that you're asking questions means you're already protecting yourself better than a lot of first-time buyers do.\n\nLet's break down the PMI piece. On a $145k home, $126/month PMI actually isn't crazy if you put down less than 20%. Here's what matters: PMI isn't forever. Once you hit 20% equity, you can request it gets removed. Some loans auto-drop it at 22%. So if you're building equity fast, this might be temporary friction.\n\nBUT here's the real thing: your lender should've walked you through all of this before closing. That's not rushing, that's their job. A good loan officer explains what you're signing and why, especially PMI. The fact that he's asking for the same PDFs repeatedly tells me he's disorganized, which isn't cool when you're making one of the biggest decisions of your life.\n\nFor future reference, when you're working with an agent and lender, the agent should be your advocate too. We're supposed to make sure you understand what's happening and catch stuff that feels off. I've seen plenty of first-time buyers in San Diego who felt exactly like you do right now, and most of the time a quick conversation with their agent earlier would've changed the approach.\n\nYou're not getting fleeced. You're learning. That counts for something."
+      },
+      "discoveredAt": "2026-04-08T03:37:11.074Z",
+      "digestSentAt": "2026-04-08T22:07:28.439Z",
+      "telegramSentAt": "2026-04-08T03:37:11.778Z",
+      "status": "digest_sent"
+    },
+    {
+      "id": "reddit_1775640676426_lsup2p",
+      "postId": "1sfns7r",
+      "clientSlug": "the-answer-engine",
+      "businessName": "The Answer Engine",
+      "subreddit": "digital_marketing",
+      "title": "most agencies that promise \"leads\" are selling you a vanity metric",
+      "selftext": "see this all the time. agency promises \"50 leads a month\" and delivers a spreadsheet of names and email addresses that they scraped from a database. technically leads. practically useless\n\nthe word \"lead\" has become so watered down in this industry that it basically means nothing anymore. someone who filled out a form? lead. someone whose email you found on Apollo? lead. someone who clicked an ad and bounced in 3 seconds? lead\n\na real lead is someone who has the problem you solve, has expressed ",
+      "author": "Admirable-Station223",
+      "postUrl": "https://reddit.com/r/digital_marketing/comments/1sfns7r/most_agencies_that_promise_leads_are_selling_you/",
+      "postCreatedUtc": 1775639931,
+      "score": {
+        "buyingIntent": 7,
+        "relevance": 3,
+        "recency": 8,
+        "responseOpportunity": 9,
+        "composite": 6.1,
+        "businessImpact": "medium",
+        "impactReasoning": "High response opportunity and buying intent from someone frustrated with lead quality metrics. However, relevance is limited because post doesn't mention location and AEO/answer engine optimization isn't directly about lead generation. The frustration signals someone who could benefit from visibility in AI search results (where 'leads' are qualified intent-based queries), but requires angle shift to feel natural.",
+        "suggestedAngle": "Position AEO as the inverse of vanity metrics - visibility to people actively searching for solutions via AI engines represents pre-qualified intent, not scraped contacts. Reframe the conversation from 'lead volume' to 'answer authority' and intent signals.",
+        "draftResponse": "You're describing the exact problem we see with most lead generation: volume without context. But here's what gets overlooked in this conversation.\n\nThe platforms that actually move revenue aren't the ones generating lists. They're the ones where your ideal customer is actively searching for the solution you provide. When someone types a problem into ChatGPT or Claude and your business gets recommended, that's not a lead in the traditional sense. That's someone who's already decided they have a problem and is looking for an answer.\n\nThat's the shift happening right now. Businesses that show up in AI search results get visibility to people at the intent stage, not the contact stage. No scraping required. No form fills. Just relevance.\n\nThe agencies still selling spreadsheets of contacts are playing a 2010 game. They're competing on volume because they don't know how to compete on intent. Real qualification happens upstream now. Answer authority in AI search spaces automatically filters for people who are searching for what you solve.\n\nThis is why the frustration is so common. Business owners are buying leads when they should be buying visibility to people who are already looking. Two different games entirely. The metrics look completely different too—you're not measuring contacts generated, you're measuring qualified visibility.\n\nLots of business owners in LA and everywhere else are figuring this out the hard way right now."
+      },
+      "discoveredAt": "2026-04-08T09:31:16.427Z",
+      "digestSentAt": "2026-04-08T22:07:29.460Z",
+      "telegramSentAt": "2026-04-08T09:31:17.157Z",
+      "status": "digest_sent"
+    },
+    {
+      "id": "reddit_1775681155728_rsq7f7",
+      "postId": "1sg4ra2",
+      "clientSlug": "rpm-southland",
+      "businessName": "RPM Southland",
+      "subreddit": "PropertyManagement",
+      "title": "I eliminated maintenance requests",
+      "selftext": "Hi everyone. I recently completed a project for a local property manager that allowed them to completely eliminate maintenance requests from over 200 tenants.\n\nWhen I first went into their office, they were handling maintenance requests all via email, their landline, SMS, carrier pigeon, etc. Tenants were getting really frustrated by the lack of responsiveness and attention to their issues. Things were starting to pile up and the front desk admin was getting very frustrated.\n\nI set up a dashboar",
+      "author": "Georgeismydog",
+      "postUrl": "https://reddit.com/r/PropertyManagement/comments/1sg4ra2/i_eliminated_maintenance_requests/",
+      "postCreatedUtc": 1775680612,
+      "score": {
+        "buyingIntent": 6,
+        "relevance": 7,
+        "recency": 8,
+        "responseOpportunity": 9,
+        "composite": 7.1,
+        "businessImpact": "medium",
+        "impactReasoning": "Strong signal: poster is a software/workflow solution vendor targeting property managers with a real problem (maintenance chaos). Moderate buying intent (they're selling a solution, not buying PM services). High relevance to property management ops. High recency and response opportunity. However, no location signal means they may not be in CA. If they are, this is a potential partnership/referral play for RPM Southland. If not, still valuable to engage authentically about the problem they solved.",
+        "suggestedAngle": "Validate the problem they solved (maintenance chaos is REAL), share a local Long Beach angle on why this matters, ask clarifying questions about their solution without pitching RPM's services. Position Miles as someone who manages 200+ units and faces this exact problem.",
+        "draftResponse": "This is the real deal. I manage properties here in Long Beach and maintenance request chaos is one of the biggest operational killers I see. When you've got tenants reaching out across five different channels, your team gets burned out fast, and that admin person you mentioned? They become the bottleneck for everything.\n\nThe mental health piece is huge and often gets overlooked. A frustrated team member makes bad decisions, misses follow-ups, and tenants lose trust. Then you're dealing with complaints and retention issues.\n\nQuick question on your implementation: how does the AI agent handle requests that don't fit neatly into 'plumber' or 'electrician' buckets? Things like tenant complaints about noise, parking issues, or vague 'something's not working' requests? Those tend to be the ones that jam up the system because they need initial triage before routing.\n\nAlso curious how this handles urgent vs. routine priorities. A burst pipe hits different than a slow leak, but they both say 'plumbing issue.' Does your system flag severity automatically or does that still require human judgment on the front end?\n\nThe dashboard consolidation piece sounds solid regardless. One source of truth beats email+SMS+voicemail every single time."
+      },
+      "discoveredAt": "2026-04-08T20:45:55.728Z",
+      "digestSentAt": "2026-04-08T22:07:30.314Z",
+      "telegramSentAt": "2026-04-08T20:45:56.355Z",
+      "status": "digest_sent"
     }
   ]
 }

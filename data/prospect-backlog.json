@@ -312,5 +312,195 @@
       "total": 34.5
     },
     "priority": "P2"
+  },
+  {
+    "businessName": "Cienega Med Spa",
+    "contactName": "Rose Nadalie Werz",
+    "website": "https://cienegaspa.com",
+    "phone": "(323) 992-0635",
+    "city": "Los Angeles",
+    "state": "CA",
+    "serviceNiche": "Med Spa",
+    "reviewCount": 3250,
+    "rating": 4.7,
+    "painSignals": [
+      "Cienega Med Spa appears in AI recommendations but may have optimization gaps"
+    ],
+    "citationResults": [
+      {
+        "platform": "chatgpt",
+        "query": "best Med Spa in Los Angeles",
+        "cited": true,
+        "competitorsCited": [
+          "NassifMD Medical Spa",
+          "Marina Medspa",
+          "Los Feliz Med Spa",
+          "LA Beauty Skin Center"
+        ]
+      }
+    ],
+    "differentiator": "Top 3 CoolSculpting provider worldwide; over 3,250 5-star reviews; 3 locations (West Hollywood, Santa Monica, Calabasas); established 2010; board-certified dermatologist oversight",
+    "outreachReady": true,
+    "scoreBreakdown": {
+      "aiBlindSpot": 5,
+      "reputationStrength": 12.5,
+      "contentGap": 6,
+      "revenuePotential": 7.5,
+      "contactQuality": 3,
+      "total": 34
+    },
+    "priority": "P2"
+  },
+  {
+    "businessName": "Marina Medspa",
+    "contactName": "Dr. Grant Stevens",
+    "website": "https://www.marinamedspa.com",
+    "phone": "(310) 818-7104",
+    "city": "Los Angeles",
+    "state": "CA",
+    "serviceNiche": "Med Spa",
+    "painSignals": [
+      "Marina Medspa appears in AI recommendations but may have optimization gaps"
+    ],
+    "citationResults": [
+      {
+        "platform": "chatgpt",
+        "query": "best Med Spa in Los Angeles",
+        "cited": true,
+        "competitorsCited": [
+          "NassifMD Medical Spa",
+          "Cienega Med Spa",
+          "Los Feliz Med Spa",
+          "LA Beauty Skin Center"
+        ]
+      }
+    ],
+    "differentiator": "Founded by Dr. Grant Stevens; world's #1 CoolSculpting provider; 2 LA locations (Marina Del Rey, Brentwood); recognized #1 Coolsculpting practice in world; Best Medspa and Best Facial on Westside 6 years running",
+    "outreachReady": true,
+    "scoreBreakdown": {
+      "aiBlindSpot": 5,
+      "reputationStrength": 0,
+      "contentGap": 6,
+      "revenuePotential": 7.5,
+      "contactQuality": 3,
+      "total": 21.5
+    },
+    "priority": "P3"
+  },
+  {
+    "businessName": "LA Beauty Skin Center",
+    "contactName": "Dr. Arman F. Karapetyan",
+    "website": "https://labeautyskincenter.com",
+    "phone": "(818) 888-0001",
+    "city": "Los Angeles",
+    "state": "CA",
+    "serviceNiche": "Med Spa",
+    "reviewCount": 2380,
+    "rating": 4.8,
+    "painSignals": [
+      "LA Beauty Skin Center appears in AI recommendations but may have optimization gaps"
+    ],
+    "citationResults": [
+      {
+        "platform": "chatgpt",
+        "query": "best Med Spa in Los Angeles",
+        "cited": true,
+        "competitorsCited": [
+          "NassifMD Medical Spa",
+          "Cienega Med Spa",
+          "Marina Medspa",
+          "Los Feliz Med Spa"
+        ]
+      }
+    ],
+    "differentiator": "Established 2012; performs 100,000+ laser hair removal treatments annually; 3 locations (Glendale, North Hollywood, Pasadena); 120 trained professionals; ranked top 1% in US for cosmetic dermal injectables",
+    "outreachReady": true,
+    "scoreBreakdown": {
+      "aiBlindSpot": 5,
+      "reputationStrength": 12.5,
+      "contentGap": 6,
+      "revenuePotential": 7.5,
+      "contactQuality": 3,
+      "total": 34
+    },
+    "priority": "P2"
+  },
+  {
+    "businessName": "Hush LA Medspa",
+    "contactName": "Elena (injector/provider)",
+    "website": "https://www.hushla.net",
+    "phone": "(323) 486-7339",
+    "city": "Los Angeles",
+    "state": "CA",
+    "serviceNiche": "Med Spa",
+    "reviewCount": 112,
+    "rating": 4.8,
+    "painSignals": [
+      "Hush LA Medspa has 112 Google reviews but is not recommended by AI assistants for \"Med Spa in Los Angeles\""
+    ],
+    "citationResults": [
+      {
+        "platform": "chatgpt",
+        "query": "best Med Spa in Los Angeles",
+        "cited": false,
+        "competitorsCited": [
+          "NassifMD Medical Spa",
+          "Cienega Med Spa",
+          "Marina Medspa",
+          "Los Feliz Med Spa",
+          "LA Beauty Skin Center"
+        ]
+      }
+    ],
+    "differentiator": "Located in heart of Hollywood; known for Elena's honest, non-upselling approach; specializes in PDO thread lifts; competitive pricing; emphasis on natural, personalized results",
+    "outreachReady": true,
+    "scoreBreakdown": {
+      "aiBlindSpot": 9,
+      "reputationStrength": 12.5,
+      "contentGap": 6,
+      "revenuePotential": 7.5,
+      "contactQuality": 3,
+      "total": 38
+    },
+    "priority": "P1"
+  },
+  {
+    "businessName": "South Coast Med Spa",
+    "contactName": "Not publicly identified",
+    "website": "https://www.southcoastmedspa.com",
+    "phone": "(310) 268-7979",
+    "city": "Los Angeles",
+    "state": "CA",
+    "serviceNiche": "Med Spa",
+    "reviewCount": 261,
+    "rating": 4.7,
+    "painSignals": [
+      "South Coast Med Spa has 261 Google reviews but is not recommended by AI assistants for \"Med Spa in Los Angeles\""
+    ],
+    "citationResults": [
+      {
+        "platform": "chatgpt",
+        "query": "best Med Spa in Los Angeles",
+        "cited": false,
+        "competitorsCited": [
+          "NassifMD Medical Spa",
+          "Cienega Med Spa",
+          "Marina Medspa",
+          "Los Feliz Med Spa",
+          "LA Beauty Skin Center"
+        ]
+      }
+    ],
+    "differentiator": "Established 2005; physician-owned; 1 million+ successful laser treatments; LA location in Brentwood; specialty in acne scar removal using Sciton JOULE platform; 4 total locations",
+    "outreachReady": true,
+    "scoreBreakdown": {
+      "aiBlindSpot": 9,
+      "reputationStrength": 12.5,
+      "contentGap": 6,
+      "revenuePotential": 7.5,
+      "contactQuality": 3,
+      "total": 38
+    },
+    "priority": "P1"
   }
 ]

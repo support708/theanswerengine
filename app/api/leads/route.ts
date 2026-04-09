@@ -31,10 +31,6 @@ export async function POST(req: NextRequest) {
     );
   }
 
-  if (!contactEmail) {
-    return NextResponse.json({ error: 'Invalid email address' }, { status: 400 });
-  }
-
   const reviewCount = body.reviewCount ? parseInt(body.reviewCount, 10) || null : null;
   const rating = body.rating ? parseFloat(body.rating) || null : null;
 
@@ -81,6 +77,7 @@ export async function POST(req: NextRequest) {
     rating,
     notes,
     status: 'queued',
+    source: 'inbound',
     research: null,
     reportSlug: generateSlug(businessName),
     emailDraftId: null,

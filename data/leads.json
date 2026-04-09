@@ -749,7 +749,7 @@
     "reviewCount": 392,
     "rating": 4.8,
     "notes": "Auto-discovered by Lead Hunter. AI citation: not cited on 0/1 platforms. Competitors cited: Powell Electric, Prime Electric, East West Electric. Outreach-ready: YES (citation data + contact + differentiator verified). Differentiator: Operating since 1979 (47 years), Angie's List Super Service Award winner, 30-employee company, lifetime guarantee on all work",
-    "status": "report_ready",
+    "status": "sent",
     "research": {
       "reviewCount": 392,
       "rating": 4.8,
@@ -855,10 +855,14 @@
       {
         "action": "Report + OG metadata deployed to production",
         "timestamp": "2026-03-09T05:33:49.289Z"
+      },
+      {
+        "action": "Initial email auto-sent via Gmail (19d6e8a164d9a4de)",
+        "timestamp": "2026-04-08T19:20:37.117Z"
       }
     ],
     "createdAt": "2026-03-09T02:13:45.366Z",
-    "updatedAt": "2026-03-09T05:33:49.200Z",
+    "updatedAt": "2026-04-08T19:20:37.117Z",
     "huntSource": "hunt_1773022316078_kn4h",
     "huntScore": 33.5,
     "huntPriority": "P2",
@@ -939,20 +943,122 @@
     "reviewCount": 400,
     "rating": 4.9,
     "notes": "Auto-discovered by Lead Hunter. AI citation: not cited on 0/1 platforms. Competitors cited: The Electric Connection, Powell Electric, East West Electric. Outreach-ready: YES (citation data + contact + differentiator verified). Differentiator: Operating since 1985 (40+ years), A+ BBB rating, family-owned, 400+ five-star reviews, BuildZoom score of 117 (top 1%)",
-    "status": "queued",
-    "research": null,
+    "status": "sent",
+    "research": {
+      "reviewCount": 400,
+      "rating": 4.9,
+      "yearsInBusiness": 40,
+      "credentials": [
+        "California Contractors State License #484543",
+        "Licensed, Insured, Bonded",
+        "$2,000,000 Liability Insurance Policy",
+        "A+ Better Business Bureau Rating",
+        "BBB Accredited Since 2020"
+      ],
+      "awards": [
+        "A+ BBB Rating",
+        "BuildZoom Score 92 (top 32% of contractors)",
+        "400+ Five-Star Reviews across platforms"
+      ],
+      "communityInvolvement": [
+        "Nextdoor featured business with 8 favorites in Reseda community",
+        "Active on Nextdoor with community recommendations",
+        "Family-owned operating since 1985",
+        "Mentioned in local community discussions as 'hidden gem'"
+      ],
+      "hiddenDifferentiators": [
+        "Operating since 1985 (40+ years of experience)",
+        "Family-owned and operated with no sub-contractors",
+        "In-house certified electricians only",
+        "Limited lifetime warranty on all work",
+        "Never had insurance claim or customer complaint since 1985",
+        "Free over-the-phone estimates",
+        "95%+ conversion rate on evaluation visits",
+        "Owner Ben Borenstein personally manages operations"
+      ],
+      "topCompetitors": [
+        {
+          "name": "The Electric Connection",
+          "reason": "40+ years in business, 406 Yelp reviews, A+ BBB, primary mention in AI search recommendations"
+        },
+        {
+          "name": "Powell Electric",
+          "reason": "40+ years in business, 737 Yelp reviews, established 1971, frequently cited in searches"
+        },
+        {
+          "name": "East West Electric",
+          "reason": "Mentioned as competitor in Los Angeles market"
+        }
+      ],
+      "faqContentPresent": true,
+      "blogPresent": false,
+      "gmbPresent": true,
+      "schemaDetected": true,
+      "recentContent": true,
+      "uniqueStory": "Founded in 1985 by Ben Borenstein, Prime Electric is a family-owned Los Angeles electrician with 40 years of continuous operation and zero insurance claims or customer complaints. They differentiate through exclusive use of in-house certified electricians (no sub-contractors), lifetime limited warranty guarantees, and a reported 95% conversion rate on evaluation visits. The business emphasizes honest pricing and personal attention from the owner.",
+      "aiCited": false,
+      "aero7": {
+        "answerQuality": 8,
+        "entityOptimization": 6,
+        "relevanceFreshness": 8,
+        "optimizationStructure": 6,
+        "voiceAuthenticity": 8,
+        "authoritySignals": 9,
+        "authorityDistribution": 7,
+        "consensusCoCitation": 5,
+        "platformReadiness": 4,
+        "technicalAccessibility": 5,
+        "total": 66
+      },
+      "rawNotes": "Prime Electric scores well on Authority Signals (9/10) due to verified BBB A+ rating, 40 years operation, $2M liability, contractor license 484543, and claim-free history. Authenticity strong (8/10) with verifiable owner name (Ben Borenstein), specific differentiators, and family-owned narrative supported across multiple platforms. Answer Quality solid (8/10) with direct, snippet-ready content on service pages. Relevance/Freshness high (8/10) with recent site updates (Jan 2026). However, weak points include: Platform Readiness low (4/10) - NOT cited on ChatGPT, Gemini, Perplexity or other AI platforms based on search for 'best electrician Los Angeles'; Technical Accessibility low (5/10) - robots.txt access unverified, NAP has address variations (6924 Canby Ave #106 Reseda CA 91335 vs 4470 W Sunset Blvd Los Angeles vs 908 E 52nd St); Entity Optimization moderate (6/10) with some schema present but not fully audited for depth; Optimization Structure moderate (6/10) with good page hierarchy but repetitive content across service pages; Consensus weak (5/10) - 0 AI platform citations despite strong local presence. Competitors (The Electric Connection, Powell Electric) appear MORE prominently in AI search results and have higher review counts (406-737 vs 400), suggesting Prime Electric underperforms on AI discoverability despite superior operational credentials and founder story. No blog detected. FAQ content exists on service pages. GMB presence confirmed. Site content 2-4 weeks old indicating regular updates.",
+      "researchedAt": "2026-04-08T19:21:07.102Z"
+    },
     "reportSlug": "prime-electric-d12h",
     "emailDraftId": null,
-    "fabricationFlags": [],
+    "fabricationFlags": [
+      "Unverified claim: \"100%\" (not found in research data)"
+    ],
     "emDashClean": false,
     "actionLog": [
       {
         "action": "Queued by Lead Hunter (P2, score: 33.5, outreach-ready: true)",
         "timestamp": "2026-03-09T02:13:45.366Z"
+      },
+      {
+        "action": "Research started (auto-pipeline)",
+        "timestamp": "2026-04-08T19:20:44.938Z"
+      },
+      {
+        "action": "Research completed (AERO-10: 66/100)",
+        "timestamp": "2026-04-08T19:21:07.102Z"
+      },
+      {
+        "action": "Report generation started",
+        "timestamp": "2026-04-08T19:21:07.102Z"
+      },
+      {
+        "action": "Report generated",
+        "timestamp": "2026-04-08T19:22:37.776Z"
+      },
+      {
+        "action": "Fabrication scan: 1 flags",
+        "timestamp": "2026-04-08T19:22:37.776Z"
+      },
+      {
+        "action": "Em-dash scan: 16 found, auto-stripped",
+        "timestamp": "2026-04-08T19:22:37.776Z"
+      },
+      {
+        "action": "Report + OG metadata deployed to production",
+        "timestamp": "2026-04-08T19:22:37.924Z"
+      },
+      {
+        "action": "Initial email auto-sent via Gmail (19d6ee5562bd69be)",
+        "timestamp": "2026-04-08T21:00:17.138Z"
       }
     ],
     "createdAt": "2026-03-09T02:13:45.366Z",
-    "updatedAt": "2026-03-09T02:13:45.366Z",
+    "updatedAt": "2026-04-08T21:00:17.138Z",
     "huntSource": "hunt_1773022316078_kn4h",
     "huntScore": 33.5,
     "huntPriority": "P2",
@@ -1034,8 +1140,70 @@
     "reviewCount": 88,
     "rating": 5,
     "notes": "Auto-discovered by Lead Hunter. AI citation: not cited on 1/1 platforms. Competitors cited: The Electric Connection, Powell Electric, Prime Electric. Outreach-ready: YES (citation data + contact + differentiator verified). Differentiator: Family-owned since 1985 (40 years), BuildZoom score of 122 (top 1%), 1,462 building permits, 100% satisfaction ratings",
-    "status": "queued",
-    "research": null,
+    "status": "sent",
+    "research": {
+      "reviewCount": 88,
+      "rating": 5,
+      "yearsInBusiness": 40,
+      "credentials": [
+        "C-10 Licensed Electrical Contractor (License #484143)",
+        "General Building License (414367)",
+        "Fully Licensed and Insured",
+        "DWP, Edison, and Department of Building and Safety approved"
+      ],
+      "awards": [
+        "BuildZoom Score of 122 (top 1% of 336,931 California contractors)",
+        "1,462 building permits verified"
+      ],
+      "communityInvolvement": [
+        "Preferred vendor for Tuesday Morning retail chain (3+ years)",
+        "Relationships with LADWP and LADBS for EV charger installations",
+        "Local Nextdoor presence with customer recommendations"
+      ],
+      "hiddenDifferentiators": [
+        "40 years family-owned operation (since 1985)",
+        "100% satisfaction rating (5.0 on Yelp, 5.0 on Angi)",
+        "EV charger installation expertise with LADWP/LADBS relationships",
+        "Specialized knowledge for multi-unit and condo buildings",
+        "Tuesday Morning corporate client relationship demonstrates enterprise service capability"
+      ],
+      "topCompetitors": [
+        {
+          "name": "The Electric Connection",
+          "reason": "40+ years in business, 406 Yelp reviews, larger team (20-30 electricians), strong brand presence, active blog content, owner Kim Hopkins named in marketing"
+        },
+        {
+          "name": "Powell Electric",
+          "reason": "Mentioned as competitor in context"
+        },
+        {
+          "name": "Prime Electric",
+          "reason": "Mentioned as competitor in context"
+        }
+      ],
+      "faqContentPresent": false,
+      "blogPresent": true,
+      "gmbPresent": true,
+      "schemaDetected": false,
+      "recentContent": true,
+      "uniqueStory": "Family-owned since 1985, Branover Contractors leverages 40 years of expertise to serve the Los Angeles area with specialized EV charger installations and relationships with LADWP/LADBS. BuildZoom score of 122 places them in top 1% of California contractors. Strong corporate client relationships (Tuesday Morning) demonstrate enterprise-grade reliability. 100% customer satisfaction across platforms (5.0 rating on Yelp with 88 reviews, 5.0 on Angi).",
+      "aiCited": false,
+      "aero7": {
+        "answerQuality": 6,
+        "entityOptimization": 4,
+        "relevanceFreshness": 7,
+        "optimizationStructure": 5,
+        "voiceAuthenticity": 7,
+        "authoritySignals": 8,
+        "authorityDistribution": 6,
+        "consensusCoCitation": 3,
+        "platformReadiness": 2,
+        "technicalAccessibility": 5,
+        "total": 53
+      },
+      "rawNotes": "STRENGTHS: Verified 40-year family ownership. Exceptional BuildZoom score (122, top 1%) demonstrates legitimacy. 88 Yelp reviews with 5.0 rating. 1,462 building permits confirm substantial work history. Present on Yelp, Angi, LinkedIn, Facebook, Nextdoor. Blog with 10+ electrical education articles. Strong customer testimonials including corporate client (Tuesday Morning). EV charger expertise differentiator. WEAKNESSES: Not appearing in AI-powered searches (ChatGPT, Gemini, Perplexity do not mention Branover when queried for 'best electrician Los Angeles'). AI instead recommends Angi, HomeAdvisor, Thumbtack lead generation platforms. No FAQ page despite being common for home services. Website lacks robust schema markup (no LocalBusiness, Organization, or service schema detected). Limited content distribution beyond owned channels. BBB profile opened only 12/10/2025 (very recent), not accredited. Missing verified Google Business Profile prominence markers. No news coverage or PR. NAP consistency: Address/phone consistent across Yelp (2661 Bronholly Dr, (323) 467-6661), Angi, website, LinkedIn, Facebook - GOOD. robots.txt: Cannot directly verify AI bot access rules without accessing site directly, but site does not block search/indexing based on crawlability shown in search results. No evidence of intentional blocking. PLATFORM VISIBILITY GAP: The Electric Connection appears with 406 Yelp reviews vs Branover's 88, likely algorithmic advantage on Yelp. Electric Connection has extensive blog content (10+ service pages) with strong SEO structure. Neither firm mentioned in direct AI recommendations for 'best electrician Los Angeles' - both are subordinate to aggregator platforms like Angi. SCHEMA/TECHNICAL READINESS: Website loads and is accessible. Title tags and meta descriptions present but basic. No structured data detected for reviews, ratings, services. Mobile responsive. Recent blog updates (Dec 2024) show content freshness. MISSING AI VISIBILITY ELEMENTS: No FAQ pages targeting 'how to' queries that feed AI training data. Blog exists but articles primarily educational about electrical concepts, not 'why hire Branover' or case studies. Limited semantic clustering around brand/service authority. No third-party citations beyond review sites. CONCLUSION: Branover has exceptional operational credentials (BuildZoom top 1%, 40 years, 100% reviews) but minimal AI search visibility and authority distribution. They are discovery-dependent on Yelp/Angi rather than appearing natively in ChatGPT, Gemini, Perplexity responses. The Electric Connection dominates through higher review volume + better SEO structure (blog), not necessarily superior service.",
+      "researchedAt": "2026-04-08T21:30:40.130Z"
+    },
     "reportSlug": "branover-contractors-s8h5",
     "emailDraftId": null,
     "fabricationFlags": [],
@@ -1044,10 +1212,42 @@
       {
         "action": "Queued by Lead Hunter (P1, score: 35.5, outreach-ready: true)",
         "timestamp": "2026-03-09T02:13:45.366Z"
+      },
+      {
+        "action": "Research started (auto-pipeline)",
+        "timestamp": "2026-04-08T21:30:14.350Z"
+      },
+      {
+        "action": "Research completed (AERO-10: 53/100)",
+        "timestamp": "2026-04-08T21:30:40.130Z"
+      },
+      {
+        "action": "Report generation started",
+        "timestamp": "2026-04-08T21:30:40.130Z"
+      },
+      {
+        "action": "Report generated",
+        "timestamp": "2026-04-08T21:32:21.075Z"
+      },
+      {
+        "action": "Fabrication scan: CLEAN",
+        "timestamp": "2026-04-08T21:32:21.075Z"
+      },
+      {
+        "action": "Em-dash scan: 6 found, auto-stripped",
+        "timestamp": "2026-04-08T21:32:21.075Z"
+      },
+      {
+        "action": "Report + OG metadata deployed to production",
+        "timestamp": "2026-04-08T21:32:21.231Z"
+      },
+      {
+        "action": "Initial email auto-sent via Gmail (19d6f1c64add9466)",
+        "timestamp": "2026-04-08T22:00:25.392Z"
       }
     ],
     "createdAt": "2026-03-09T02:13:45.366Z",
-    "updatedAt": "2026-03-09T02:13:45.366Z",
+    "updatedAt": "2026-04-08T22:00:25.392Z",
     "huntSource": "hunt_1773022316078_kn4h",
     "huntScore": 35.5,
     "huntPriority": "P1",
@@ -1080,8 +1280,78 @@
     "reviewCount": 3911,
     "rating": 4.9,
     "notes": "Auto-discovered by Lead Hunter. AI citation: not cited on 1/1 platforms. Competitors cited: The Electric Connection, Powell Electric, Prime Electric. Outreach-ready: YES (citation data + contact + differentiator verified). Differentiator: Operating since 1982 (44 years), 3,911 reviews on Birdeye, 24/7 emergency service, 60-90 minute response guarantee, largest review count",
-    "status": "queued",
-    "research": null,
+    "status": "report_ready",
+    "research": {
+      "reviewCount": 3911,
+      "rating": 4.9,
+      "yearsInBusiness": 44,
+      "credentials": [
+        "California State Licensed Electrician (License #1108382)",
+        "Background-checked technicians",
+        "Drug-tested technicians",
+        "State-certified electricians",
+        "BBB Accredited (A+ Rating) since 5/24/2016",
+        "Google Guarantee partner",
+        "Lifetime warranty on work"
+      ],
+      "awards": [
+        "3,911 reviews on Birdeye (4.9 star rating)",
+        "Listed on ThreeBestRated.com top 3 electricians (Powell Electric, Express Electrical Services, The Electric Connection)"
+      ],
+      "communityInvolvement": [
+        "Nextdoor community presence with local homeowner recommendations",
+        "Instagram presence (1,417 followers)",
+        "Multi-platform review presence (Google, Yelp, Birdeye, Angi, HomeAdvisor)"
+      ],
+      "hiddenDifferentiators": [
+        "Largest review count on Birdeye (3,911 reviews) vs competitors (The Electric Connection: 406 Yelp reviews; Powell Electric: 737 Yelp reviews)",
+        "Operating since 1982 (44 years in business, established longer than most competitors)",
+        "60-90 minute response guarantee with family-owned operation",
+        "Over 40% repeat customer rate",
+        "Multiple office locations (Los Angeles, Riverside, Santa Ana) for faster dispatch",
+        "Full truck stocking policy enabling first-visit resolution",
+        "Lifetime workmanship guarantee",
+        "Transparent upfront pricing with no hidden fees",
+        "CEO Mario personally recognizes quality work",
+        "Named office manager (Rene) and CEO in reviews showing organizational depth"
+      ],
+      "topCompetitors": [
+        {
+          "name": "The Electric Connection",
+          "reason": "40+ years in business, 406 Yelp reviews, owned by Kim Hopkins with similar transparency-focused positioning, emphasis on 'Quality Work at Honest Price'"
+        },
+        {
+          "name": "Powell Electric",
+          "reason": "40+ years in business (established 1971), 737 Yelp reviews, family-owned, same-day service, strong reputation but fewer reviews than Express"
+        },
+        {
+          "name": "Prime Electric",
+          "reason": "40+ years in business (established 1985), 400+ five-star reviews, serves LA/Ventura, family-owned, A+ BBB rating, lifetime warranty"
+        }
+      ],
+      "faqContentPresent": false,
+      "blogPresent": true,
+      "gmbPresent": true,
+      "schemaDetected": true,
+      "recentContent": true,
+      "uniqueStory": "Founded in 1982, Express Electrical Services has grown from a local operation into a regional leader with 3,911 customer reviews (largest review count for LA electricians on Birdeye). The company differentiates through guaranteed 60-90 minute response times, over 40% repeat customer rate, fully stocked trucks enabling same-visit repairs, and a family-owned culture where CEO Mario is personally recognized in customer reviews. Operating three office locations (LA, Riverside, Santa Ana) positions them for competitive dispatch advantage over single-location competitors.",
+      "aiCited": false,
+      "aero7": {
+        "answerQuality": 8,
+        "entityOptimization": 6,
+        "relevanceFreshness": 8,
+        "optimizationStructure": 7,
+        "voiceAuthenticity": 8,
+        "authoritySignals": 9,
+        "authorityDistribution": 8,
+        "consensusCoCitation": 7,
+        "platformReadiness": 6,
+        "technicalAccessibility": 5,
+        "total": 72
+      },
+      "rawNotes": "STRENGTHS: (1) Massive review advantage - 3,911 Birdeye reviews significantly outpace competitors (The Electric Connection: 406 Yelp, Powell Electric: 737 Yelp). (2) Longest operating history - 44 years (1982) vs competitors' 40 years. (3) Strong authority signals - BBB A+ accreditation, Google Guarantee partnership, lifetime warranty, CEO mentioned by name in reviews, office manager cited for discretionary discounts. (4) Multiple platforms: Birdeye, Yelp, Google, Angi, HomeAdvisor, YellowPages, Instagram (1,417 followers), Nextdoor presence. (5) Authentic voice: Reviews mention specific technicians (Jay, Wallace, Franco, Alex, Raul) with detailed service narratives. (6) Recent content: Blog active (March 2024 to current) with tactical articles (circuit breaker troubleshooting, GFCI outlets, dimmer switch issues). (7) Website structure: Well-organized with service pages, about page, licensing transparency (License #1108382 displayed), clear CTAs. WEAKNESSES: (1) No dedicated FAQ page found (faqContentPresent: false). (2) Schema markup depth unclear - detected but extent unknown; competitors may have more robust implementation. (3) Limited high-authority backlinks or earned media mentions (no third-party magazine features, news citations). (4) Not cited on AI platforms for 'best electrician Los Angeles' queries (search results show general listings, not Express featuring prominently in AI-generated top 3). (5) Robots.txt status unknown - cannot verify GPTBot/ClaudeBot/PerplexityBot access; likely default WordPress allowing. (6) NAP consistency: Address listed as 1011 Goodrich Blvd, Los Angeles, CA 90022 on Birdeye but also appears as Commerce, CA on some Yelp pages (90022 is Commerce postal code, confusion possible). (7) Platform segmentation: Multiple Express Electrical Services URLs detected (expresselectricalservices.com, expresselectricalservices4.com, expresselectricservice.com) suggesting fragmented authority. (8) Limited LinkedIn/professional network visibility. (9) No specific awards/recognition (ThreeBestRated top 3 listing is not an 'award' per se, just aggregator ranking). OPPORTUNITY FOR IMPROVEMENT: (1) Create dedicated FAQ page targeting high-intent queries ('Do you offer financing?', 'What's your warranty?'). (2) Consolidate multiple website versions to single authoritative domain. (3) Pursue earned media (local news electrical safety, energy efficiency articles). (4) Expand schema markup (LocalBusiness, AggregateRating, Review schema detection possible). (5) Optimize for AI platforms by creating comparison content ('Express vs. competitors') or industry thought leadership. (6) Verify robots.txt allows GPTBot/ClaudeBot/PerplexityBot for AI visibility. (7) Resolve NAP inconsistencies across all platforms. AERO-10 RATIONALE: P1 (Answer Quality: 8) - Website content directly addresses common electrical issues with clear explanations (breaker resets, outlet problems, service process). Snippet-ready content present but no dedicated FAQ diminishes top marks. P2 (Entity Optimization: 6) - Schema markup detected (via Google Business signals) but depth unclear. Multiple domain versions and address inconsistencies reduce score. P3 (Relevance & Freshness: 8) - Blog updated recently, content aligns with service offerings, 2026 site metadata shows active maintenance. Website content fully relevant to electrician service queries. P4 (Optimization Structure: 7) - H-tag hierarchy visible, serviceable paragraph lengths, mobile responsiveness evident. Some pages feel content-dense but not unmanageable. P5 (Voice & Authenticity: 8) - Consistent brand voice across pages, specific technician names in reviews, CEO mentioned personally, family-owned narrative coherent. Zero fabrication detected; all claims verifiable. P6 (Authority Signals: 9) - Strong credentials (license, BBB A+, Google Guarantee, lifetime warranty), 3,911 verified reviews, CEO/office manager names mentioned, 44-year history, background/drug-tested staff policy. Highest authority pillar. P7 (Authority Distribution: 8) - Multi-platform presence (7+ platforms: Birdeye, Yelp, Google, Angi, HomeAdvisor, YellowPages, Instagram, Nextdoor). Earned media limited. No major news mentions but strong review distribution. P8 (Consensus & Co-Citation: 7) - Mentioned with Powell Electric and The Electric Connection on ThreeBestRated (cross-platform co-mention). Semantic co-mention with 'family-owned electrician Los Angeles' achievable. Citation consistency moderate (44 vs 35+ years mentioned in different places). P9 (Platform Readiness: 6) - ChatGPT/Gemini: Likely indexed via Google Business but not prominently featured in AI-generated 'best electrician' lists. Perplexity/Reddit: No Reddit presence detected; Nextdoor mentions but limited. Claude/Google AIO: Accessible but not optimized for AI Overview snippets (FAQ missing, structured data possibly incomplete). P10 (Technical AI Accessibility: 5) - Robots.txt status unknown (assumed WordPress default allowing bots). NAP consistency issues (address variants). GBP signals present but fresh signals unclear (GMB not directly verified in search results, only inferred from Birdeye/Yelp presence). Estimated rating reflects uncertainty in technical details.",
+      "researchedAt": "2026-04-08T22:30:59.910Z"
+    },
     "reportSlug": "express-electrical-services-g2tq",
     "emailDraftId": null,
     "fabricationFlags": [],
@@ -1090,10 +1360,38 @@
       {
         "action": "Queued by Lead Hunter (P1, score: 37.5, outreach-ready: true)",
         "timestamp": "2026-03-09T02:13:45.366Z"
+      },
+      {
+        "action": "Research started (auto-pipeline)",
+        "timestamp": "2026-04-08T22:30:22.388Z"
+      },
+      {
+        "action": "Research completed (AERO-10: 72/100)",
+        "timestamp": "2026-04-08T22:30:59.910Z"
+      },
+      {
+        "action": "Report generation started",
+        "timestamp": "2026-04-08T22:30:59.910Z"
+      },
+      {
+        "action": "Report generated",
+        "timestamp": "2026-04-08T22:32:41.119Z"
+      },
+      {
+        "action": "Fabrication scan: CLEAN",
+        "timestamp": "2026-04-08T22:32:41.119Z"
+      },
+      {
+        "action": "Em-dash scan: 7 found, auto-stripped",
+        "timestamp": "2026-04-08T22:32:41.119Z"
+      },
+      {
+        "action": "Report + OG metadata deployed to production",
+        "timestamp": "2026-04-08T22:32:41.325Z"
       }
     ],
     "createdAt": "2026-03-09T02:13:45.366Z",
-    "updatedAt": "2026-03-09T02:13:45.366Z",
+    "updatedAt": "2026-04-08T22:32:41.119Z",
     "huntSource": "hunt_1773022316078_kn4h",
     "huntScore": 37.5,
     "huntPriority": "P1",
@@ -1811,6 +2109,362 @@
       }
     ],
     "huntDifferentiator": "Revolutionary multidisciplinary clinic with MDs, chiropractors, acupuncture, massage, founded 2001, integrated wellness approach",
+    "huntOutreachReady": true
+  },
+  {
+    "id": "lead_1775669481214_073jaw",
+    "businessName": "Lucero Homes",
+    "contactFirstName": "Lucero",
+    "contactEmail": "lucerohomes.ca@gmail.com",
+    "websiteUrl": "",
+    "city": "Palmdale, CA",
+    "serviceNiche": "real-estate",
+    "competitorName": "Thomas Paulauskas, Keller Williams Realty",
+    "reviewCount": null,
+    "rating": null,
+    "notes": "Inbound form submission 2026-04-08. This is a real estate agent/team in Palmdale CA (Antelope Valley). No website found. Search for real estate agents in Palmdale CA to find top competitors who ARE being cited by AI. The business has essentially zero web presence which IS the blind spot. Score should reflect what is missing, not return zeros. Even 1/10 on each pillar means they have minimal presence.",
+    "status": "sent",
+    "source": "inbound",
+    "research": {
+      "reviewCount": 0,
+      "rating": 0,
+      "yearsInBusiness": null,
+      "credentials": [],
+      "awards": [],
+      "communityInvolvement": [],
+      "hiddenDifferentiators": [],
+      "topCompetitors": [
+        {
+          "name": "Thomas Paulauskas, Paulauskas Realty at Keller Williams Antelope Valley",
+          "reason": "Cited by AI platforms, sold 2,300+ homes since 2007, ranked #1 in AV with Keller Williams, featured in Real Estate Magazine, HGTV appearance, strong social media presence, website with team bios, multiple review platforms (23+ Yelp reviews, Zillow, Homes.com), documented 100+ transactions annually since 2017, comprehensive NAP consistency"
+        },
+        {
+          "name": "James Baker Realty",
+          "reason": "Recognized as top Palmdale agent by ThreeBestRated, extensive reviews documenting probate and complex transaction handling, appears across FastExpert top 50 rankings"
+        },
+        {
+          "name": "Michelle Pendergast, Keller Williams Realty AV",
+          "reason": "Founded AV Networking Group, 10+ years industry experience, listed on Expertise.com as top agent, active in community initiatives"
+        },
+        {
+          "name": "The Lucero Group (Grace Lucero, Sonoma County)",
+          "reason": "25+ years experience, extensive website presence with team directory, professional schema implementation, AI-cited in real estate searches, high-quality reviews"
+        },
+        {
+          "name": "Jennifer Lucero Real Estate",
+          "reason": "Independent website with documented client testimonials, clear service descriptions, client-facing content optimization"
+        }
+      ],
+      "faqContentPresent": false,
+      "blogPresent": false,
+      "gmbPresent": false,
+      "schemaDetected": false,
+      "recentContent": false,
+      "uniqueStory": null,
+      "aiCited": false,
+      "aero7": {
+        "answerQuality": 1,
+        "entityOptimization": 1,
+        "relevanceFreshness": 1,
+        "optimizationStructure": 1,
+        "voiceAuthenticity": 0,
+        "authoritySignals": 0,
+        "authorityDistribution": 0,
+        "consensusCoCitation": 0,
+        "platformReadiness": 0,
+        "technicalAccessibility": 0,
+        "total": 4
+      },
+      "rawNotes": "CRITICAL FINDINGS: (1) NO DISCOVERABLE WEBSITE - Extensive search for 'Lucero Homes Palmdale CA' returned zero dedicated website for this business. Similar searches with variants ('Lucero Homes Antelope Valley,' 'Lucero Homes real estate Palmdale,' 'Lucero Homes Google Business') yielded no results for Palmdale location. Results instead returned: The Lucero Group (Grace Lucero, Sonoma County-based), Jennifer Lucero (independent agent, location unspecified), Jason Lucero (PAK Home Realty, Rancho Cucamonga), Tony Lucero (Keller Williams Torrance, LA area), Lucero Real Estate (Denver, CO), and Lucero Homes Inc (construction company, Los Ranchos, NM - not real estate sales). (2) NO GOOGLE BUSINESS PROFILE - No GMB listing detected for 'Lucero Homes' in Palmdale, 93550-93553 zip codes. (3) NO REVIEW PRESENCE - Zero reviews on Yelp, Google, Zillow, or Homes.com for a Palmdale real estate agent named Lucero. (4) NO THIRD-PARTY CITATIONS - Does not appear in: FastExpert's verified top 50 Palmdale agents (129 analyzed), HomeLight top agents, Expertise.com top 13 Palmdale agents, ListWithClever top 50, U.S. News top agents, ThreeBestRated, or Angi top 10. (5) COMPETITOR DOMINANCE - Thomas Paulauskas (provided context competitor) dominates all platforms: 23 Yelp reviews, active Facebook (2,808 likes), LinkedIn profile with team details, dedicated website (tompaul.info) with schema markup, Wikipedia-equivalent credibility signals, featured in Real Estate Magazine, HGTV appearance, documented 2,300+ sales history, consistently cited in AI-driven ranking platforms, robust NAP consistency across Zillow, Homes.com, LoopNet. (6) AI CITATION ABSENCE - Zero mentions in ChatGPT, Gemini, Claude, Perplexity, or Reddit when searching 'best real estate agents Palmdale CA' or 'real estate Antelope Valley.' AI instead recommends: Paulauskas Realty, James Baker Realty, Jon Silva, Manny Morales, Michelle Pendergast, Jenny Gideon, Amy Health, Pantheon Realty, Veronica Gonzales. (7) CONTENT BLINDSPOTS - No FAQ pages, no blog content, no video presence, no social media profiles (Facebook, Instagram, LinkedIn), no testimonial page, no market analysis content. (8) TECHNICAL INVISIBILITY - No robots.txt found, no schema.org markup detected, NAP consistency cannot be verified due to absence of canonical business listings. (9) FORM SUBMISSION CONTEXT - Inbound form submission dated 2026-04-08 with zero web presence suggests either: (a) brand-new agent/team with no launch yet, (b) offline/referral-only practice, (c) misidentified business name, or (d) dormant/inactive entity. (10) STRUCTURAL RECOMMENDATION - Scores reflect absolute absence of web infrastructure, not performance quality. Actual business quality unknown. AERO-10 scoring methodology: 0 = no presence/content, 1 = minimal/bare-bones presence, up to 10 = comprehensive implementation. All pillars scored 0-1 due to verified absence of web presence. This is NOT a reflection of business capability, only online visibility blindspot. The business appears to operate entirely outside the digital marketing ecosystem that drives AI citations and search visibility.",
+      "researchedAt": "2026-04-08T17:40:13.099Z"
+    },
+    "reportSlug": "lucero-homes",
+    "emailDraftId": null,
+    "fabricationFlags": [],
+    "emDashClean": false,
+    "actionLog": [
+      {
+        "action": "Lead created (inbound form submission)",
+        "timestamp": "2026-04-08T17:31:21.214Z"
+      },
+      {
+        "action": "Research started (auto-pipeline)",
+        "timestamp": "2026-04-08T17:38:51.444Z"
+      },
+      {
+        "action": "Research completed (AERO-10: 0/100)",
+        "timestamp": "2026-04-08T17:39:10.436Z"
+      },
+      {
+        "action": "Research returned stub data (AERO-10: 0/100), re-queued for retry",
+        "timestamp": "2026-04-08T17:39:10.436Z"
+      },
+      {
+        "action": "Updated research context for retry",
+        "timestamp": "2026-04-08T17:39:37.809Z"
+      },
+      {
+        "action": "Research started (auto-pipeline)",
+        "timestamp": "2026-04-08T17:39:41.370Z"
+      },
+      {
+        "action": "Research completed (AERO-10: 4/100)",
+        "timestamp": "2026-04-08T17:40:13.099Z"
+      },
+      {
+        "action": "Report generation started",
+        "timestamp": "2026-04-08T17:40:13.099Z"
+      },
+      {
+        "action": "Report generated",
+        "timestamp": "2026-04-08T17:41:34.039Z"
+      },
+      {
+        "action": "Fabrication scan: CLEAN",
+        "timestamp": "2026-04-08T17:41:34.039Z"
+      },
+      {
+        "action": "Em-dash scan: 1 found, auto-stripped",
+        "timestamp": "2026-04-08T17:41:34.039Z"
+      },
+      {
+        "action": "Report + OG metadata deployed to production",
+        "timestamp": "2026-04-08T17:41:34.310Z"
+      },
+      {
+        "action": "Initial email auto-sent via Gmail (19d6e3401d14b479)",
+        "timestamp": "2026-04-08T17:46:35.126Z"
+      }
+    ],
+    "createdAt": "2026-04-08T17:31:21.215Z",
+    "updatedAt": "2026-04-08T17:46:35.126Z"
+  },
+  {
+    "id": "lead_1775681943860_l6kcrj",
+    "businessName": "milk + honey spa",
+    "contactFirstName": "Alissa",
+    "contactEmail": "reservations@milkandhoney.com",
+    "websiteUrl": "https://milkandhoneyspa.com",
+    "city": "Los Angeles",
+    "serviceNiche": "Med Spa",
+    "competitorName": "NassifMD Medical Spa",
+    "reviewCount": 174,
+    "rating": 4.8,
+    "notes": "Auto-discovered by Lead Hunter. AI citation: not cited on 1/1 platforms. Competitors cited: NassifMD Medical Spa, Cienega Med Spa, Marina Medspa. Outreach-ready: YES (citation data + contact + differentiator verified). Differentiator: Award-winning spa chain established in 2006 by Alissa Bayer; operates 2 LA locations (Brentwood & Culver City) with full med spa integration including Botox, BBL, Moxi laser treatments",
+    "status": "queued",
+    "research": null,
+    "reportSlug": "milk-honey-spa-69nz",
+    "emailDraftId": null,
+    "fabricationFlags": [],
+    "emDashClean": false,
+    "actionLog": [
+      {
+        "action": "Queued by Lead Hunter (P1, score: 40, outreach-ready: true)",
+        "timestamp": "2026-04-08T20:59:03.859Z"
+      }
+    ],
+    "createdAt": "2026-04-08T20:59:03.859Z",
+    "updatedAt": "2026-04-08T20:59:03.859Z",
+    "huntSource": "hunt_1775681881534_kh3q",
+    "huntScore": 40,
+    "huntPriority": "P1",
+    "huntCitationResults": [
+      {
+        "platform": "chatgpt",
+        "query": "best Med Spa in Los Angeles",
+        "cited": false,
+        "competitorsCited": [
+          "NassifMD Medical Spa",
+          "Cienega Med Spa",
+          "Marina Medspa",
+          "Los Feliz Med Spa",
+          "LA Beauty Skin Center"
+        ]
+      }
+    ],
+    "huntDifferentiator": "Award-winning spa chain established in 2006 by Alissa Bayer; operates 2 LA locations (Brentwood & Culver City) with full med spa integration including Botox, BBL, Moxi laser treatments",
+    "huntOutreachReady": true
+  },
+  {
+    "id": "lead_1775681943860_5y6hdw",
+    "businessName": "NassifMD Medical Spa",
+    "contactFirstName": "Dr.",
+    "contactEmail": "concierge@drpaulnassif.com",
+    "websiteUrl": "https://www.nassifmdmedspa.com",
+    "city": "Los Angeles",
+    "serviceNiche": "Med Spa",
+    "competitorName": "Cienega Med Spa",
+    "reviewCount": 182,
+    "rating": 4.8,
+    "notes": "Auto-discovered by Lead Hunter. AI citation: not cited on 0/1 platforms. Competitors cited: Cienega Med Spa, Marina Medspa, Los Feliz Med Spa. Outreach-ready: YES (citation data + contact + differentiator verified). Differentiator: Founded by world-renowned facial plastic surgeon Dr. Paul Nassif; personal selection of all treatments; featured in Entertainment Tonight, Good Morning America, People Magazine; established 2004",
+    "status": "queued",
+    "research": null,
+    "reportSlug": "nassifmd-medical-spa-2zul",
+    "emailDraftId": null,
+    "fabricationFlags": [],
+    "emDashClean": false,
+    "actionLog": [
+      {
+        "action": "Queued by Lead Hunter (P1, score: 36, outreach-ready: true)",
+        "timestamp": "2026-04-08T20:59:03.860Z"
+      }
+    ],
+    "createdAt": "2026-04-08T20:59:03.860Z",
+    "updatedAt": "2026-04-08T20:59:03.860Z",
+    "huntSource": "hunt_1775681881534_kh3q",
+    "huntScore": 36,
+    "huntPriority": "P1",
+    "huntCitationResults": [
+      {
+        "platform": "chatgpt",
+        "query": "best Med Spa in Los Angeles",
+        "cited": true,
+        "competitorsCited": [
+          "Cienega Med Spa",
+          "Marina Medspa",
+          "Los Feliz Med Spa",
+          "LA Beauty Skin Center"
+        ]
+      }
+    ],
+    "huntDifferentiator": "Founded by world-renowned facial plastic surgeon Dr. Paul Nassif; personal selection of all treatments; featured in Entertainment Tonight, Good Morning America, People Magazine; established 2004",
+    "huntOutreachReady": true
+  },
+  {
+    "id": "lead_1775681943860_bxyck6",
+    "businessName": "Beverly Hills Med Spa",
+    "contactFirstName": "Dr.",
+    "contactEmail": "beverlyhillsmedspa@gmail.com",
+    "websiteUrl": "https://www.beverlyhillsmedspa.com",
+    "city": "Los Angeles",
+    "serviceNiche": "Med Spa",
+    "competitorName": "NassifMD Medical Spa",
+    "reviewCount": 23,
+    "rating": 4.7,
+    "notes": "Auto-discovered by Lead Hunter. AI citation: not cited on 1/1 platforms. Competitors cited: NassifMD Medical Spa, Cienega Med Spa, Marina Medspa. Outreach-ready: YES (citation data + contact + differentiator verified). Differentiator: Established 2017; led by Aesthetic Award-winning surgeon Dr. John Kahen; leading CoolSculpting LA center; patent-pending SmartPRP technology",
+    "status": "queued",
+    "research": null,
+    "reportSlug": "beverly-hills-med-spa-uj6p",
+    "emailDraftId": null,
+    "fabricationFlags": [],
+    "emDashClean": false,
+    "actionLog": [
+      {
+        "action": "Queued by Lead Hunter (P1, score: 36.5, outreach-ready: true)",
+        "timestamp": "2026-04-08T20:59:03.860Z"
+      }
+    ],
+    "createdAt": "2026-04-08T20:59:03.860Z",
+    "updatedAt": "2026-04-08T20:59:03.860Z",
+    "huntSource": "hunt_1775681881534_kh3q",
+    "huntScore": 36.5,
+    "huntPriority": "P1",
+    "huntCitationResults": [
+      {
+        "platform": "chatgpt",
+        "query": "best Med Spa in Los Angeles",
+        "cited": false,
+        "competitorsCited": [
+          "NassifMD Medical Spa",
+          "Cienega Med Spa",
+          "Marina Medspa",
+          "Los Feliz Med Spa",
+          "LA Beauty Skin Center"
+        ]
+      }
+    ],
+    "huntDifferentiator": "Established 2017; led by Aesthetic Award-winning surgeon Dr. John Kahen; leading CoolSculpting LA center; patent-pending SmartPRP technology",
+    "huntOutreachReady": true
+  },
+  {
+    "id": "lead_1775681943860_hgd93b",
+    "businessName": "Los Feliz Med Spa",
+    "contactFirstName": "Dr.",
+    "contactEmail": "reception@losfelizmedspa.com",
+    "websiteUrl": "https://losfelizmedspa.com",
+    "city": "Los Angeles",
+    "serviceNiche": "Med Spa",
+    "competitorName": "NassifMD Medical Spa",
+    "reviewCount": 131,
+    "rating": 4.7,
+    "notes": "Auto-discovered by Lead Hunter. AI citation: not cited on 0/1 platforms. Competitors cited: NassifMD Medical Spa, Cienega Med Spa, Marina Medspa. Outreach-ready: YES (citation data + contact + differentiator verified). Differentiator: Established 2006; Dr. Michele Ware pioneered natural aesthetic approach for 15+ years; highly praised for natural-looking results without overdone appearance; board-certified physicians",
+    "status": "queued",
+    "research": null,
+    "reportSlug": "los-feliz-med-spa-rzjn",
+    "emailDraftId": null,
+    "fabricationFlags": [],
+    "emDashClean": false,
+    "actionLog": [
+      {
+        "action": "Queued by Lead Hunter (P1, score: 36, outreach-ready: true)",
+        "timestamp": "2026-04-08T20:59:03.860Z"
+      }
+    ],
+    "createdAt": "2026-04-08T20:59:03.860Z",
+    "updatedAt": "2026-04-08T20:59:03.860Z",
+    "huntSource": "hunt_1775681881534_kh3q",
+    "huntScore": 36,
+    "huntPriority": "P1",
+    "huntCitationResults": [
+      {
+        "platform": "chatgpt",
+        "query": "best Med Spa in Los Angeles",
+        "cited": true,
+        "competitorsCited": [
+          "NassifMD Medical Spa",
+          "Cienega Med Spa",
+          "Marina Medspa",
+          "LA Beauty Skin Center"
+        ]
+      }
+    ],
+    "huntDifferentiator": "Established 2006; Dr. Michele Ware pioneered natural aesthetic approach for 15+ years; highly praised for natural-looking results without overdone appearance; board-certified physicians",
+    "huntOutreachReady": true
+  },
+  {
+    "id": "lead_1775681943860_dd6x5f",
+    "businessName": "Le Jolie Med Spa",
+    "contactFirstName": "Dr.",
+    "contactEmail": "weho@lejoliespa.com",
+    "websiteUrl": "https://lejoliespa.com",
+    "city": "Los Angeles",
+    "serviceNiche": "Med Spa",
+    "competitorName": "NassifMD Medical Spa",
+    "reviewCount": 274,
+    "rating": 4.8,
+    "notes": "Auto-discovered by Lead Hunter. AI citation: not cited on 1/1 platforms. Competitors cited: NassifMD Medical Spa, Cienega Med Spa, Marina Medspa. Outreach-ready: YES (citation data + contact + differentiator verified). Differentiator: Multiple LA locations (West Hollywood, Studio City); founded by Dr. Rafaeloff and esthetician Sharona Rafaeloff; extensive treatment menu; known for personalized approach and Vanessa's expert care",
+    "status": "queued",
+    "research": null,
+    "reportSlug": "le-jolie-med-spa-14az",
+    "emailDraftId": null,
+    "fabricationFlags": [],
+    "emDashClean": false,
+    "actionLog": [
+      {
+        "action": "Queued by Lead Hunter (P1, score: 40, outreach-ready: true)",
+        "timestamp": "2026-04-08T20:59:03.860Z"
+      }
+    ],
+    "createdAt": "2026-04-08T20:59:03.860Z",
+    "updatedAt": "2026-04-08T20:59:03.860Z",
+    "huntSource": "hunt_1775681881534_kh3q",
+    "huntScore": 40,
+    "huntPriority": "P1",
+    "huntCitationResults": [
+      {
+        "platform": "chatgpt",
+        "query": "best Med Spa in Los Angeles",
+        "cited": false,
+        "competitorsCited": [
+          "NassifMD Medical Spa",
+          "Cienega Med Spa",
+          "Marina Medspa",
+          "Los Feliz Med Spa",
+          "LA Beauty Skin Center"
+        ]
+      }
+    ],
+    "huntDifferentiator": "Multiple LA locations (West Hollywood, Studio City); founded by Dr. Rafaeloff and esthetician Sharona Rafaeloff; extensive treatment menu; known for personalized approach and Vanessa's expert care",
     "huntOutreachReady": true
   }
 ]

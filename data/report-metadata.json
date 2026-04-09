@@ -18,5 +18,33 @@
     "reviewCount": 392,
     "score": 64,
     "topCompetitor": "Powell Electric"
+  },
+  "lucero-homes": {
+    "businessName": "Lucero Homes",
+    "serviceNiche": "real-estate",
+    "reviewCount": 0,
+    "score": 4,
+    "topCompetitor": "Thomas Paulauskas, Paulauskas Realty at Keller Williams Antelope Valley"
+  },
+  "prime-electric-d12h": {
+    "businessName": "Prime Electric",
+    "serviceNiche": "Electrician",
+    "reviewCount": 400,
+    "score": 66,
+    "topCompetitor": "The Electric Connection"
+  },
+  "branover-contractors-s8h5": {
+    "businessName": "Branover Contractors",
+    "serviceNiche": "Electrician",
+    "reviewCount": 88,
+    "score": 53,
+    "topCompetitor": "The Electric Connection"
+  },
+  "express-electrical-services-g2tq": {
+    "businessName": "Express Electrical Services",
+    "serviceNiche": "Electrician",
+    "reviewCount": 3911,
+    "score": 72,
+    "topCompetitor": "The Electric Connection"
   }
 }

@@ -13,7 +13,7 @@
 
 import { callClaudeWithWebSearch, extractText } from './anthropic';
 import type { RawProspect, LeadScoreBreakdown, HuntPriority, HuntState, CitationResult } from './hunter-types';
-import { VERTICALS, METROS } from './hunter-types';
+import { VERTICALS, METROS, VERTICAL_METRO_EXCLUSIONS } from './hunter-types';
 import { getCurrentHuntPriorities } from './learning-data';
 import { readHuntLog } from './hunter-data';
 
@@ -47,13 +47,29 @@ export function sanitizeEmail(raw: string | undefined | null): string | undefine
 
 // --- Rotation ---
 
+/** Check if a vertical+metro combo is excluded (e.g. Real Estate in LA/SD) */
+function isExcluded(vertical: string, metro: string): boolean {
+  const excluded = VERTICAL_METRO_EXCLUSIONS[vertical];
+  return excluded ? excluded.includes(metro) : false;
+}
+
 export function getRotationTarget(state: HuntState): { vertical: string; metro: string } {
-  const vi = state.currentVerticalIndex % VERTICALS.length;
-  const mi = state.currentMetroIndex % METROS.length;
-  return {
-    vertical: VERTICALS[vi],
-    metro: METROS[mi],
-  };
+  const totalCombos = VERTICALS.length * METROS.length;
+  let vi = state.currentVerticalIndex % VERTICALS.length;
+  let mi = state.currentMetroIndex % METROS.length;
+
+  // Skip excluded vertical+metro combos (bounded by total combos to prevent infinite loop)
+  for (let i = 0; i < totalCombos; i++) {
+    if (!isExcluded(VERTICALS[vi], METROS[mi])) {
+      return { vertical: VERTICALS[vi], metro: METROS[mi] };
+    }
+    // Advance to next combo
+    vi = (vi + 1) % VERTICALS.length;
+    if (vi === 0) mi = (mi + 1) % METROS.length;
+  }
+
+  // All combos excluded (shouldn't happen) — return first combo
+  return { vertical: VERTICALS[0], metro: METROS[0] };
 }
 
 export function advanceRotation(state: HuntState): HuntState {
@@ -117,6 +133,7 @@ export async function getRotationTargetWithLearning(
 
   const bestPriority = priorities.find(
     p => !recentPairs.has(`${p.vertical}|${p.metro}`) && p.sampleSize >= 2
+      && !isExcluded(p.vertical, p.metro)
   );
 
   if (bestPriority) {
@@ -303,7 +320,7 @@ Include ALL businesses from the list. Omit any field you cannot verify rather th
         .map(p => ({
           businessName: p.businessName || '',
           contactName: p.contactName,
-          contactEmail: p.contactEmail,
+          contactEmail: sanitizeEmail(p.contactEmail),
           website: p.website,
           phone: p.phone,
           city,
@@ -471,9 +488,9 @@ Include every field you can find. Omit only if truly unfindable after searching.
             prospect.contactName = enrichment.contactName;
           }
           if (enrichment.contactEmail && !prospect.contactEmail) {
-            // Basic email validation
-            if (enrichment.contactEmail.includes('@') && enrichment.contactEmail.includes('.')) {
-              prospect.contactEmail = enrichment.contactEmail;
+            const cleanEmail = sanitizeEmail(enrichment.contactEmail);
+            if (cleanEmail) {
+              prospect.contactEmail = cleanEmail;
             }
           }
           if (enrichment.differentiator && !prospect.differentiator) {
@@ -506,7 +523,7 @@ export function checkOutreachReadiness(prospect: RawProspect): boolean {
     prospect.citationResults.some(r => r.competitorsCited.length > 0);
 
   // Gate 2: Contact enrichment — name + at least one contact method
-  const hasContact = !!prospect.contactName && (!!prospect.contactEmail || !!prospect.phone);
+  const hasContact = !!prospect.contactName && (!!sanitizeEmail(prospect.contactEmail) || !!prospect.phone);
 
   // Gate 3: Template-fillable data — city, niche, and at least one differentiator or pain signal
   const hasTemplateData = !!prospect.city && !!prospect.serviceNiche &&
