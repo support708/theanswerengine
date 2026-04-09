@@ -1428,8 +1428,73 @@
     "reviewCount": 536,
     "rating": 4.9,
     "notes": "Auto-discovered by Lead Hunter. AI citation: not cited on 0/1 platforms. Competitors cited: Downtown Dental, Larchmont Dental Associates, Westside Dental Associates. Outreach-ready: YES (citation data + contact + differentiator verified). Differentiator: Practicing advanced clinical dentistry since 1997, 4.9-star Google rating, Best of BusinessRate 2025 award recipient, multiple locations, specializes in cosmetic dentistry and AI-powered decay detection",
-    "status": "queued",
-    "research": null,
+    "status": "report_ready",
+    "research": {
+      "reviewCount": 536,
+      "rating": 4.9,
+      "yearsInBusiness": 26,
+      "credentials": [
+        "D.D.S. with honors from University of Southern California",
+        "Advanced dental implant restorations certification",
+        "Cosmetic dentistry certification",
+        "Oral surgery certification",
+        "Invisalign orthodontic treatment certification",
+        "Root canal therapy certification"
+      ],
+      "awards": [
+        "Best of BusinessRate 2025 award recipient for Financial District of Los Angeles"
+      ],
+      "communityInvolvement": [
+        "Serves Financial District and greater Los Angeles community",
+        "Active on social media platforms",
+        "Employee engagement with practice culture described as family-oriented"
+      ],
+      "hiddenDifferentiators": [
+        "AI-powered decay detection technology highlighted in patient reviews",
+        "Led by Dr. Kourosh Yousefzadeh with 29 years of clinical experience since 1997",
+        "Comprehensive in-house specialists for complex procedures",
+        "Multiple service offerings under one roof from preventive to cosmetic to emergency care",
+        "Sedation options available for anxious patients",
+        "0% financing options for treatment plans",
+        "Accepts all PPO dental insurance plans"
+      ],
+      "topCompetitors": [
+        {
+          "name": "Downtown Dental",
+          "reason": "Direct competitor in DTLA with established presence, multiple success stories, Dr. Don Mungcal recognized as Best Dentist in Downtown, 30+ years of experience"
+        },
+        {
+          "name": "Larchmont Dental Associates",
+          "reason": "5-star Google rating, specialized cosmetic and emergency services, 40+ years of combined expertise across multiple doctors"
+        },
+        {
+          "name": "Westside Dental Associates",
+          "reason": "Cosmetic dentistry focus with strong local reputation in greater LA area"
+        }
+      ],
+      "faqContentPresent": true,
+      "blogPresent": false,
+      "gmbPresent": true,
+      "schemaDetected": true,
+      "recentContent": true,
+      "uniqueStory": "Dr. Kourosh Yousefzadeh has been practicing advanced clinical dentistry since 1997 before establishing Smile LA in Downtown Los Angeles. The practice combines decades of clinical experience with modern AI-powered diagnostic technology, specifically highlighting AI detection of decay before it occurs. The practice was recognized as Best of BusinessRate 2025 award recipient based on Google reviews from July 2025, reflecting commitment to patient-centered care in a premium downtown location.",
+      "aiCited": false,
+      "aero7": {
+        "answerQuality": 8,
+        "entityOptimization": 7,
+        "relevanceFreshness": 8,
+        "optimizationStructure": 7,
+        "voiceAuthenticity": 8,
+        "authoritySignals": 8,
+        "authorityDistribution": 7,
+        "consensusCoCitation": 7,
+        "platformReadiness": 6,
+        "technicalAccessibility": 6,
+        "total": 72
+      },
+      "rawNotes": "Smile LA demonstrates strong review presence (536 reviews, 4.9 rating) across multiple platforms (Google, Yelp, ZocDoc, OpenCare, Birdeye). Website is current as of December 2025. FAQ page is comprehensive and well-structured covering cosmetic procedures, preventive care, and general dentistry. No dedicated blog found but social media presence is active (LinkedIn, Facebook, Instagram with 16K followers). Dr. Kourosh has 29 years of clinical experience and legitimate D.D.S. credentials from USC. AI technology claim is supported by patient reviews mentioning decay detection technology. Best of BusinessRate 2025 award is verifiable on homepage. Schema markup appears present based on structured business data available on multiple directories. NAP consistency verified: 523 W 6th St, Suite 202, Los Angeles, CA 90014 across platforms. Robots.txt and detailed schema markup depth not directly verified via search but business appears properly indexed. Not cited on ChatGPT/major AI platforms per lead hunter data (0/1 platforms). LinkedIn active but not extensive community media presence. No Reddit mentions found. Competitive positioning vs Downtown Dental is challenged by their longer DTLA history and media recognition, but Smile LA differentiates through modern AI technology and 4.9 rating vs comparable competitors. Founded 1999 (26 years in business). Minor discrepancies in phone numbers across platforms (213-528-3323 vs 213-570-8775 vs 213-286-0020) suggest possible multiple locations or outdated listings.",
+      "researchedAt": "2026-04-09T09:00:37.372Z"
+    },
     "reportSlug": "smile-la-downtown-modern-dentistry-dydv",
     "emailDraftId": null,
     "fabricationFlags": [],
@@ -1438,10 +1503,38 @@
       {
         "action": "Queued by Lead Hunter (P1, score: 36, outreach-ready: true)",
         "timestamp": "2026-03-09T02:38:32.047Z"
+      },
+      {
+        "action": "Research started (auto-pipeline)",
+        "timestamp": "2026-04-09T09:00:12.427Z"
+      },
+      {
+        "action": "Research completed (AERO-10: 72/100)",
+        "timestamp": "2026-04-09T09:00:37.372Z"
+      },
+      {
+        "action": "Report generation started",
+        "timestamp": "2026-04-09T09:00:37.372Z"
+      },
+      {
+        "action": "Report generated",
+        "timestamp": "2026-04-09T09:02:29.161Z"
+      },
+      {
+        "action": "Fabrication scan: CLEAN",
+        "timestamp": "2026-04-09T09:02:29.161Z"
+      },
+      {
+        "action": "Em-dash scan: 8 found, auto-stripped",
+        "timestamp": "2026-04-09T09:02:29.161Z"
+      },
+      {
+        "action": "Report + OG metadata deployed to production",
+        "timestamp": "2026-04-09T09:02:29.330Z"
       }
     ],
     "createdAt": "2026-03-09T02:38:32.047Z",
-    "updatedAt": "2026-03-09T02:38:32.047Z",
+    "updatedAt": "2026-04-09T09:02:29.161Z",
     "huntSource": "hunt_1773023618468_oxni",
     "huntScore": 36,
     "huntPriority": "P1",
