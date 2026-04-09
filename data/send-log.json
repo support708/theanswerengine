@@ -60,6 +60,12 @@
       "email": "hunterdoug@earthlink.net",
       "type": "follow_up_1",
       "sentAt": "2026-04-09T16:00:33.785Z"
+    },
+    {
+      "leadId": "lead_1772944082786_35h3pu",
+      "email": "info@power-roofing.com",
+      "type": "follow_up_1",
+      "sentAt": "2026-04-09T16:00:37.661Z"
     }
   ]
 }
