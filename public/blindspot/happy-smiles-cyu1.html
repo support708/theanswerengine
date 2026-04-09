@@ -1,0 +1,817 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Blind Spot Report | Happy Smiles | The Answer Engine</title>
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    background: #f8f8f6;
+    color: #1a1a1a;
+    line-height: 1.6;
+  }
+
+  a { color: inherit; text-decoration: none; }
+
+  /* HERO */
+  .hero {
+    background: linear-gradient(135deg, #0a0a0a 0%, #1a1a2e 100%);
+    color: #fff;
+    padding: 80px 24px 64px;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .hero::before {
+    content: '';
+    position: absolute;
+    top: -60px; right: -60px;
+    width: 300px; height: 300px;
+    background: radial-gradient(circle, rgba(255,106,0,0.15) 0%, transparent 70%);
+    border-radius: 50%;
+  }
+
+  .hero::after {
+    content: '';
+    position: absolute;
+    bottom: -80px; left: -40px;
+    width: 250px; height: 250px;
+    background: radial-gradient(circle, rgba(255,106,0,0.10) 0%, transparent 70%);
+    border-radius: 50%;
+  }
+
+  .agency-badge {
+    display: inline-block;
+    background: rgba(255,106,0,0.15);
+    border: 1px solid rgba(255,106,0,0.4);
+    color: #FF6A00;
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    padding: 6px 16px;
+    border-radius: 20px;
+    margin-bottom: 32px;
+  }
+
+  .hero h1 {
+    font-size: clamp(28px, 5vw, 52px);
+    font-weight: 800;
+    line-height: 1.1;
+    letter-spacing: -1px;
+    max-width: 800px;
+    margin: 0 auto 20px;
+  }
+
+  .hero h1 span { color: #FF6A00; }
+
+  .hero-sub {
+    font-size: clamp(15px, 2.5vw, 18px);
+    color: rgba(255,255,255,0.65);
+    max-width: 560px;
+    margin: 0 auto 40px;
+  }
+
+  .hero-meta {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 24px;
+    font-size: 13px;
+    color: rgba(255,255,255,0.45);
+  }
+
+  .hero-meta span::before {
+    content: '•';
+    color: #FF6A00;
+    margin-right: 8px;
+  }
+
+  /* SECTION WRAPPER */
+  .section {
+    padding: 72px 24px;
+  }
+
+  .section-inner {
+    max-width: 960px;
+    margin: 0 auto;
+  }
+
+  .section-label {
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: #FF6A00;
+    margin-bottom: 12px;
+  }
+
+  .section-title {
+    font-size: clamp(24px, 4vw, 38px);
+    font-weight: 800;
+    letter-spacing: -0.5px;
+    line-height: 1.15;
+    margin-bottom: 16px;
+  }
+
+  .section-desc {
+    font-size: 16px;
+    color: #555;
+    max-width: 620px;
+    margin-bottom: 48px;
+  }
+
+  /* STATS PANEL */
+  .stats-panel {
+    background: #ffffff;
+    border-radius: 20px;
+    box-shadow: 0 4px 40px rgba(0,0,0,0.08);
+    padding: 48px 40px;
+    margin-bottom: 32px;
+  }
+
+  .stats-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+    gap: 32px;
+    margin-bottom: 40px;
+  }
+
+  .stat-item {
+    text-align: center;
+  }
+
+  .stat-number {
+    font-size: clamp(36px, 5vw, 52px);
+    font-weight: 800;
+    color: #1a1a1a;
+    line-height: 1;
+    margin-bottom: 6px;
+  }
+
+  .stat-number.accent { color: #FF6A00; }
+
+  .stat-label {
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    color: #888;
+  }
+
+  .aero-bar-wrap {
+    background: #f8f8f6;
+    border-radius: 12px;
+    padding: 24px 28px;
+    border: 1px solid #eee;
+  }
+
+  .aero-bar-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 14px;
+  }
+
+  .aero-bar-label {
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #444;
+  }
+
+  .aero-score-badge {
+    background: #FF6A00;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 800;
+    padding: 4px 14px;
+    border-radius: 20px;
+  }
+
+  .aero-bar-track {
+    background: #e0e0e0;
+    border-radius: 8px;
+    height: 12px;
+    overflow: hidden;
+  }
+
+  .aero-bar-fill {
+    background: linear-gradient(90deg, #FF6A00, #ff9240);
+    height: 100%;
+    border-radius: 8px;
+    width: 41%;
+    transition: width 1s ease;
+  }
+
+  .aero-bar-context {
+    margin-top: 10px;
+    font-size: 12px;
+    color: #888;
+  }
+
+  .aero-bar-context strong { color: #FF6A00; }
+
+  /* WHAT AI SEES */
+  .dark-section {
+    background: #0a0a0a;
+    color: #fff;
+    padding: 72px 24px;
+  }
+
+  .terminal {
+    background: #111;
+    border-radius: 16px;
+    overflow: hidden;
+    box-shadow: 0 8px 60px rgba(0,0,0,0.5);
+    max-width: 720px;
+    margin: 0 auto;
+    border: 1px solid #222;
+  }
+
+  .terminal-bar {
+    background: #1e1e1e;
+    padding: 14px 18px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    border-bottom: 1px solid #2a2a2a;
+  }
+
+  .dot {
+    width: 12px; height: 12px;
+    border-radius: 50%;
+  }
+
+  .dot-red { background: #ff5f56; }
+  .dot-yellow { background: #ffbd2e; }
+  .dot-green { background: #27c93f; }
+
+  .terminal-title {
+    font-size: 12px;
+    color: #666;
+    margin-left: 8px;
+    font-family: "SF Mono", "Courier New", monospace;
+  }
+
+  .terminal-body {
+    padding: 28px;
+    font-family: "SF Mono", "Courier New", monospace;
+    font-size: 13px;
+    line-height: 1.8;
+  }
+
+  .t-prompt { color: #FF6A00; margin-bottom: 16px; }
+  .t-prompt span { color: #fff; }
+
+  .t-response { color: #aaa; margin-bottom: 8px; }
+  .t-highlight { color: #4ade80; }
+  .t-miss { color: #f87171; }
+  .t-competitor { color: #60a5fa; font-weight: 600; }
+  .t-cursor {
+    display: inline-block;
+    width: 8px; height: 14px;
+    background: #FF6A00;
+    margin-left: 2px;
+    animation: blink 1s infinite;
+    vertical-align: middle;
+  }
+
+  @keyframes blink { 0%,100%{opacity:1} 50%{opacity:0} }
+
+  .ai-verdict {
+    max-width: 720px;
+    margin: 32px auto 0;
+    background: rgba(255,106,0,0.08);
+    border: 1px solid rgba(255,106,0,0.25);
+    border-radius: 12px;
+    padding: 20px 24px;
+    font-size: 14px;
+    color: rgba(255,255,255,0.75);
+  }
+
+  .ai-verdict strong { color: #FF6A00; }
+
+  /* DIFFERENTIATORS */
+  .diff-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 24px;
+  }
+
+  .diff-card {
+    background: #fff;
+    border-radius: 16px;
+    padding: 32px 28px;
+    box-shadow: 0 2px 20px rgba(0,0,0,0.06);
+    border: 1px solid #f0f0f0;
+    transition: transform 0.2s, box-shadow 0.2s;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .diff-card::before {
+    content: '';
+    position: absolute;
+    top: 0; left: 0; right: 0;
+    height: 3px;
+    background: linear-gradient(90deg, #FF6A00, #ff9240);
+  }
+
+  .diff-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 32px rgba(0,0,0,0.10);
+  }
+
+  .diff-icon {
+    width: 48px; height: 48px;
+    background: rgba(255,106,0,0.10);
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 22px;
+    margin-bottom: 18px;
+  }
+
+  .diff-card h3 {
+    font-size: 17px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    color: #1a1a1a;
+  }
+
+  .diff-card p {
+    font-size: 14px;
+    color: #666;
+    line-height: 1.65;
+  }
+
+  .diff-tag {
+    display: inline-block;
+    background: rgba(255,106,0,0.10);
+    color: #FF6A00;
+    font-size: 10px;
+    font-weight: 700;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    padding: 3px 10px;
+    border-radius: 20px;
+    margin-top: 14px;
+  }
+
+  /* THE FIX */
+  .fix-section {
+    background: linear-gradient(135deg, #0a0a0a 0%, #1a1a2e 100%);
+    color: #fff;
+    padding: 72px 24px;
+  }
+
+  .fix-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    max-width: 960px;
+    margin: 0 auto;
+  }
+
+  .fix-card {
+    background: rgba(255,255,255,0.05);
+    border: 1px solid rgba(255,255,255,0.10);
+    border-radius: 16px;
+    padding: 28px 24px;
+    position: relative;
+    overflow: hidden;
+    transition: background 0.2s;
+  }
+
+  .fix-card:hover {
+    background: rgba(255,106,0,0.08);
+    border-color: rgba(255,106,0,0.3);
+  }
+
+  .fix-number {
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    color: #FF6A00;
+    margin-bottom: 14px;
+    text-transform: uppercase;
+  }
+
+  .fix-card h3 {
+    font-size: 18px;
+    font-weight: 800;
+    margin-bottom: 12px;
+    letter-spacing: -0.3px;
+  }
+
+  .fix-card p {
+    font-size: 13px;
+    color: rgba(255,255,255,0.60);
+    line-height: 1.65;
+  }
+
+  .fix-card .fix-accent {
+    display: block;
+    width: 32px;
+    height: 3px;
+    background: #FF6A00;
+    border-radius: 2px;
+    margin-bottom: 16px;
+  }
+
+  /* CTA */
+  .cta-section {
+    background: #fff;
+    padding: 80px 24px;
+    text-align: center;
+  }
+
+  .cta-inner {
+    max-width: 640px;
+    margin: 0 auto;
+  }
+
+  .cta-section .section-title {
+    margin-bottom: 16px;
+  }
+
+  .cta-desc {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 40px;
+    line-height: 1.7;
+  }
+
+  .cta-btn {
+    display: inline-block;
+    background: linear-gradient(135deg, #FF6A00, #ff8c00);
+    color: #fff;
+    font-size: 16px;
+    font-weight: 800;
+    letter-spacing: 0.5px;
+    padding: 18px 44px;
+    border-radius: 50px;
+    box-shadow: 0 8px 32px rgba(255,106,0,0.35);
+    transition: transform 0.2s, box-shadow 0.2s;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+  }
+
+  .cta-btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 12px 40px rgba(255,106,0,0.45);
+  }
+
+  .cta-note {
+    margin-top: 20px;
+    font-size: 13px;
+    color: #aaa;
+  }
+
+  .trust-row {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 32px;
+    margin-top: 48px;
+    padding-top: 40px;
+    border-top: 1px solid #f0f0f0;
+  }
+
+  .trust-item {
+    text-align: center;
+  }
+
+  .trust-item .t-num {
+    font-size: 26px;
+    font-weight: 800;
+    color: #1a1a1a;
+  }
+
+  .trust-item .t-lbl {
+    font-size: 12px;
+    color: #888;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+  }
+
+  /* FOOTER */
+  footer {
+    background: #0a0a0a;
+    color: rgba(255,255,255,0.40);
+    text-align: center;
+    padding: 32px 24px;
+    font-size: 12px;
+    line-height: 1.8;
+  }
+
+  footer a {
+    color: rgba(255,255,255,0.55);
+    text-decoration: underline;
+  }
+
+  /* DIVIDER */
+  .divider {
+    width: 48px;
+    height: 4px;
+    background: #FF6A00;
+    border-radius: 2px;
+    margin-bottom: 24px;
+  }
+
+  /* ALERT BOX */
+  .alert-box {
+    display: flex;
+    align-items: flex-start;
+    gap: 16px;
+    background: rgba(255,106,0,0.07);
+    border: 1px solid rgba(255,106,0,0.20);
+    border-radius: 12px;
+    padding: 20px 24px;
+    margin-top: 32px;
+  }
+
+  .alert-icon {
+    font-size: 22px;
+    flex-shrink: 0;
+    margin-top: 2px;
+  }
+
+  .alert-text {
+    font-size: 14px;
+    color: #444;
+    line-height: 1.65;
+  }
+
+  .alert-text strong { color: #FF6A00; }
+
+  @media (max-width: 600px) {
+    .stats-panel { padding: 32px 20px; }
+    .aero-bar-wrap { padding: 20px 16px; }
+    .terminal-body { padding: 20px 16px; font-size: 12px; }
+    .hero { padding: 60px 20px 48px; }
+    .fix-grid { gap: 14px; }
+  }
+</style>
+</head>
+<body>
+
+<!-- ============================================================ -->
+<!-- SECTION 1: THE HOOK -->
+<!-- ============================================================ -->
+<section class="hero">
+  <div class="agency-badge">The Answer Engine | Blind Spot Report</div>
+  <h1>Dr., You Have a<br><span>Visibility Problem</span></h1>
+  <p class="hero-sub">Happy Smiles is trusted by hundreds of Los Angeles families. But when AI answers the question "best dentist near me," your practice is invisible.</p>
+  <div class="hero-meta">
+    <span>Happy Smiles</span>
+    <span>Los Angeles, CA</span>
+    <span>General &amp; Pediatric Dentistry</span>
+    <span>happysmilesla.com</span>
+  </div>
+</section>
+
+<!-- ============================================================ -->
+<!-- SECTION 2: THE GAP -->
+<!-- ============================================================ -->
+<section class="section">
+  <div class="section-inner">
+    <p class="section-label">Section 02 | The Gap</p>
+    <h2 class="section-title">Your Real-World Strength Versus<br>Your AI Footprint</h2>
+    <p class="section-desc">Happy Smiles has the ratings, the experience, and the loyal patient base. The gap is in how AI engines perceive and cite your practice.</p>
+
+    <div class="stats-panel">
+      <div class="stats-grid">
+        <div class="stat-item">
+          <div class="stat-number">4.9</div>
+          <div class="stat-label">Star Rating</div>
+        </div>
+        <div class="stat-item">
+          <div class="stat-number">36</div>
+          <div class="stat-label">Google Reviews</div>
+        </div>
+        <div class="stat-item">
+          <div class="stat-number">10+</div>
+          <div class="stat-label">Years in Business</div>
+        </div>
+        <div class="stat-item">
+          <div class="stat-number accent">9+</div>
+          <div class="stat-label">DDS Practitioners</div>
+        </div>
+      </div>
+
+      <div class="aero-bar-wrap">
+        <div class="aero-bar-header">
+          <span class="aero-bar-label">AERO-10 AI Visibility Score</span>
+          <span class="aero-score-badge">41 / 100</span>
+        </div>
+        <div class="aero-bar-track">
+          <div class="aero-bar-fill"></div>
+        </div>
+        <p class="aero-bar-context">Your practice scores <strong>41 out of 100</strong> on the Answer Engine Readiness Optimization framework. This means AI tools are largely unable to surface, cite, or recommend Happy Smiles when patients ask dental questions online.</p>
+      </div>
+    </div>
+
+    <div class="alert-box">
+      <span class="alert-icon">&#9888;&#65039;</span>
+      <p class="alert-text"><strong>The core problem:</strong> You have a 4.9-star rating and nearly two decades of combined clinical experience on staff, but AI language models have almost no structured data to draw from when recommending a dentist in Los Angeles. Your competitor is filling that gap instead.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================ -->
+<!-- SECTION 3: WHAT AI SEES -->
+<!-- ============================================================ -->
+<section class="dark-section">
+  <div class="section-inner" style="max-width:960px;margin:0 auto;">
+    <p class="section-label" style="color:#FF6A00;">Section 03 | What AI Sees</p>
+    <h2 class="section-title" style="color:#fff;margin-bottom:12px;">When a Patient Asks an AI About<br>Dentists in Los Angeles...</h2>
+    <p class="section-desc" style="color:rgba(255,255,255,0.55);margin-bottom:36px;">This is a representative simulation of how AI engines currently respond to common dental queries in your market.</p>
+
+    <div class="terminal">
+      <div class="terminal-bar">
+        <span class="dot dot-red"></span>
+        <span class="dot dot-yellow"></span>
+        <span class="dot dot-green"></span>
+        <span class="terminal-title">AI Assistant, Patient Query Simulation</span>
+      </div>
+      <div class="terminal-body">
+        <div class="t-prompt">&#8594; User: <span>"What's the best family dentist in Los Angeles with pediatric experience?"</span></div>
+        <div class="t-response">AI: Based on available information, here are some well-documented options in Los Angeles...</div>
+        <div class="t-response" style="margin-top:10px;">
+          <span class="t-highlight">&#10003;</span> <span class="t-competitor">Smile LA Downtown Modern Dentistry</span>, frequently cited for comprehensive family care, strong online authority, and structured practice data.
+        </div>
+        <div class="t-response" style="margin-top:6px;">
+          <span class="t-highlight">&#10003;</span> Several other practices with established digital entity profiles...
+        </div>
+        <div class="t-response" style="margin-top:12px; padding: 12px 14px; background: rgba(248,113,113,0.08); border-radius: 8px; border-left: 3px solid #f87171;">
+          <span class="t-miss">&#10007;</span> <strong style="color:#f87171;">Happy Smiles (happysmilesla.com)</strong>, not surfaced. Insufficient structured data, schema markup, and authoritative citations for AI to confidently recommend.
+        </div>
+        <div style="margin-top: 16px; color: rgba(255,255,255,0.3); font-size: 12px;">
+          generating response... <span class="t-cursor"></span>
+        </div>
+      </div>
+    </div>
+
+    <div class="ai-verdict">
+      <strong>Why this happens:</strong> AI engines do not search the web in real time for every query. They rely on structured data, schema markup, authoritative citations, and entity recognition built up over time. Right now, Smile LA Downtown Modern Dentistry has a stronger AI entity footprint than Happy Smiles, despite your superior rating and deeper clinical team.
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================ -->
+<!-- SECTION 4: HIDDEN DIFFERENTIATORS -->
+<!-- ============================================================ -->
+<section class="section" style="background:#f8f8f6;">
+  <div class="section-inner">
+    <p class="section-label">Section 04 | Hidden Differentiators</p>
+    <h2 class="section-title">What AI Should Be Saying<br>About Happy Smiles</h2>
+    <p class="section-desc">These genuine strengths exist in your practice today. They are simply not structured in a way that AI engines can find, parse, and repeat.</p>
+
+    <div class="diff-grid">
+
+      <div class="diff-card">
+        <div class="diff-icon">&#128100;</div>
+        <h3>Pediatric Depth &amp; Family Loyalty</h3>
+        <p>Dr. Dalia Nosrati has built a 10-plus-year specialization in pediatric dentistry. Families drive 45 or more minutes from San Gabriel Valley specifically for her care. That level of patient loyalty is exceptional and completely invisible to AI.</p>
+        <span class="diff-tag">Undiscovered by AI</span>
+      </div>
+
+      <div class="diff-card">
+        <div class="diff-icon">&#128205;</div>
+        <h3>Multi-Location LA County Coverage</h3>
+        <p>Happy Smiles operates across multiple Los Angeles County locations including Whittier, Lynwood, and the main LA office. Multi-location practices rank significantly higher in AI recommendations when entities are properly structured.</p>
+        <span class="diff-tag">Not Structured</span>
+      </div>
+
+      <div class="diff-card">
+        <div class="diff-icon">&#127760;</div>
+        <h3>Bilingual Spanish and English Care</h3>
+        <p>Serving Los Angeles means serving a multilingual community. Happy Smiles provides bilingual dental care in Spanish and English, a critical differentiator in LA County that AI engines never surface for this practice.</p>
+        <span class="diff-tag">Missing from AI</span>
+      </div>
+
+      <div class="diff-card">
+        <div class="diff-icon">&#128138;</div>
+        <h3>True Emergency Availability</h3>
+        <p>Dr. Nosrati came into the office on a Sunday and on Labor Day to handle dental emergencies, including coordinating an oral surgeon for a child's dental trauma. This level of genuine after-hours commitment is a powerful trust signal that AI never sees.</p>
+        <span class="diff-tag">Zero AI Citations</span>
+      </div>
+
+      <div class="diff-card">
+        <div class="diff-icon">&#128104;&#8205;&#9877;&#65039;</div>
+        <h3>Nine-Plus DDS Practitioners on Staff</h3>
+        <p>Happy Smiles employs a deep clinical team including Dr. Nosrati, Dr. Ali Riazi, Dr. Victoria Chiu, Dr. Dalia Solano, Dr. Rody Paz, Dr. Keane Young, Dr. Craig Nakamatsu, Dr. Hoyong Choi, and Dr. Marjan Arman. This team depth is a major credibility signal that is currently unstructured for AI discovery.</p>
+        <span class="diff-tag">Uncredited</span>
+      </div>
+
+      <div class="diff-card">
+        <div class="diff-icon">&#128176;</div>
+        <h3>Affordable Financing Options</h3>
+        <p>Happy Smiles leads with an accessible pricing strategy and financing options, making quality dental care reachable for LA families. This differentiator speaks directly to high-intent patient queries about cost, yet it does not appear in any AI-generated recommendation.</p>
+        <span class="diff-tag">Not Surfaced</span>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================ -->
+<!-- SECTION 5: THE FIX -->
+<!-- ============================================================ -->
+<section class="fix-section">
+  <div style="max-width:960px;margin:0 auto;">
+    <p class="section-label" style="color:#FF6A00;">Section 05 | The Fix</p>
+    <h2 class="section-title" style="color:#fff;margin-bottom:12px;">Four Moves That Put Happy Smiles<br>on AI's Radar</h2>
+    <p class="section-desc" style="color:rgba(255,255,255,0.55);margin-bottom:40px;">These are the four pillars of Answer Engine Optimization. Each one directly addresses a gap in your current AERO-10 score.</p>
+
+    <div class="fix-grid">
+
+      <div class="fix-card">
+        <div class="fix-number">01</div>
+        <span class="fix-accent"></span>
+        <h3>Answer-First Content</h3>
+        <p>Restructure your website content to directly answer the specific questions patients type into AI tools. "Best pediatric dentist in LA," "emergency dentist open Sunday," "bilingual dentist Los Angeles" and similar queries need dedicated, structured answers on your site.</p>
+      </div>
+
+      <div class="fix-card">
+        <div class="fix-number">02</div>
+        <span class="fix-accent"></span>
+        <h3>Schema Markup</h3>
+        <p>Deploy Dentist, MedicalOrganization, and LocalBusiness schema across every page and location. Include each DDS practitioner's credentials, specializations, and languages spoken. This is the structured data AI engines rely on to build entity profiles.</p>
+      </div>
+
+      <div class="fix-card">
+        <div class="fix-number">03</div>
+        <span class="fix-accent"></span>
+        <h3>Entity Authority</h3>
+        <p>Establish Happy Smiles as a recognized entity across authoritative sources, including dental directories, health platforms, local news, and community publications. Each citation trains AI to recognize and surface your practice name with confidence.</p>
+      </div>
+
+      <div class="fix-card">
+        <div class="fix-number">04</div>
+        <span class="fix-accent"></span>
+        <h3>Authority Signals</h3>
+        <p>Convert your patient stories into structured social proof. Dr. Nosrati's Labor Day emergency response, the families driving 45-plus minutes for care, and 10-plus years of pediatric relationships are powerful authority signals when formatted for AI consumption.</p>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================ -->
+<!-- SECTION 6: CTA -->
+<!-- ============================================================ -->
+<section class="cta-section">
+  <div class="cta-inner">
+    <p class="section-label" style="text-align:center;">Section 06 | Next Step</p>
+    <div class="divider" style="margin:0 auto 24px;"></div>
+    <h2 class="section-title">Ready to Become the Dentist<br>AI Recommends in Los Angeles?</h2>
+    <p class="cta-desc">Your AERO-10 score is 41 out of 100. In a 30-minute call, we will walk through exactly which gaps to close first, what a realistic improvement timeline looks like, and what it takes to appear when a patient asks an AI for the best family dentist in Los Angeles.</p>
+
+    <a href="https://calendly.com/theanswerengine-support/30min" target="_blank" rel="noopener" class="cta-btn">
+      Book Your Free 30-Min Call
+    </a>
+
+    <p class="cta-note">No obligation. No hard sell. Just a clear picture of your AI visibility gap and how to close it.</p>
+
+    <div class="trust-row">
+      <div class="trust-item">
+        <div class="t-num">4.9&#9733;</div>
+        <div class="t-lbl">Patient Rating</div>
+      </div>
+      <div class="trust-item">
+        <div class="t-num">10+</div>
+        <div class="t-lbl">Years Established</div>
+      </div>
+      <div class="trust-item">
+        <div class="t-num">9+</div>
+        <div class="t-lbl">DDS Practitioners</div>
+      </div>
+      <div class="trust-item">
+        <div class="t-num">3</div>
+        <div class="t-lbl">LA County Locations</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================ -->
+<!-- FOOTER -->
+<!-- ============================================================ -->
+<footer>
+  <p>This analysis uses publicly available information about Happy Smiles and general AI visibility benchmarks.</p>
+  <p style="margin-top:6px;">Results shown are representative simulations based on current AI engine behavior and AERO-10 scoring methodology.</p>
+  <p style="margin-top:10px;">Questions? <a href="mailto:support@theanswerengine.ai">support@theanswerengine.ai</a></p>
+  <p style="margin-top:6px; color: rgba(255,255,255,0.25);">&copy; 2025 The Answer Engine. All rights reserved.</p>
+</footer>
+
+</body>
+</html>

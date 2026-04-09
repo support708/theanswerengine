@@ -1726,10 +1726,70 @@
     "serviceNiche": "Dentist",
     "competitorName": "Smile LA Downtown Modern Dentistry",
     "reviewCount": 36,
-    "rating": null,
+    "rating": 4.9,
     "notes": "Auto-discovered by Lead Hunter. AI citation: not cited on 1/1 platforms. Competitors cited: Smile LA Downtown Modern Dentistry, Downtown Dental, Larchmont Dental Associates. Outreach-ready: YES (citation data + contact + differentiator verified). Differentiator: Pediatric dentistry specialist, 10+ years treating children, affordable pricing, multiple locations, accepts financing options",
-    "status": "queued",
-    "research": null,
+    "status": "report_ready",
+    "research": {
+      "reviewCount": 36,
+      "rating": 4.9,
+      "yearsInBusiness": 10,
+      "credentials": [
+        "Dr. Dalia Nosrati, DDS - 19 years general practice dentistry experience",
+        "Multiple licensed dentists on staff including Dr. Ali Riazi, Dr. Victoria Chiu, Dr. Dalia Solano, Dr. Rody Paz, Dr. Keane Young, Dr. Craig Nakamatsu, Dr. Hoyong Choi, Dr. Marjan Arman",
+        "DDS (Doctor of Dental Surgery) licensed practitioners",
+        "Pediatric dentistry specialization"
+      ],
+      "awards": [],
+      "communityInvolvement": [
+        "Community support and referrals mentioned on website",
+        "Emergency dental care provision (example: Dr. Nosrati came to office on Sunday for emergency root canal)"
+      ],
+      "hiddenDifferentiators": [
+        "10+ years treating children with focus on pediatric dentistry",
+        "Affordable pricing strategy with financing options available",
+        "Multiple LA County locations (Whittier, Lynwood, LA main office)",
+        "Bilingual services in Spanish and English",
+        "Family-centered care with patients driving 45+ minutes for Dr. Dalia's services",
+        "Weekend emergency availability (Dr. Nosrati came in on Sunday/Labor Day)",
+        "Holistic dental care approach"
+      ],
+      "topCompetitors": [
+        {
+          "name": "Smile LA Downtown Modern Dentistry",
+          "reason": "4.9 star Google rating, 452+ Yelp reviews, established 1997 (26 years), Downtown LA location, comprehensive cosmetic and restorative services, AI integration, advanced technology, modern facility with strong patient loyalty"
+        },
+        {
+          "name": "Smiles Pediatric Dentistry & Orthodontics (West LA)",
+          "reason": "Specialized pediatric and orthodontic practice, board-certified pediatric dentists, CAD/CAM 3D printing technology, Solea laser, strong digital presence, published research, international recognition"
+        },
+        {
+          "name": "Downtown Dental",
+          "reason": "Mentioned as competitor in context information"
+        }
+      ],
+      "faqContentPresent": false,
+      "blogPresent": false,
+      "gmbPresent": true,
+      "schemaDetected": false,
+      "recentContent": false,
+      "uniqueStory": "Dr. Dalia Nosrati founded Happy Smiles with a focus on pediatric dentistry specialization. Multiple patient testimonials cite 10+ years of care, with families driving 45+ minutes from San Gabriel Valley for her services. Emergency availability demonstrated (coming to office on Labor Day weekend to handle child's dental trauma with oral surgeon).",
+      "aiCited": false,
+      "aero7": {
+        "answerQuality": 5,
+        "entityOptimization": 3,
+        "relevanceFreshness": 4,
+        "optimizationStructure": 3,
+        "voiceAuthenticity": 6,
+        "authoritySignals": 5,
+        "authorityDistribution": 4,
+        "consensusCoCitation": 5,
+        "platformReadiness": 3,
+        "technicalAccessibility": 3,
+        "total": 41
+      },
+      "rawNotes": "Happy Smiles has multiple web presences with some confusion about brand identity: (1) happysmilesdental.biz with Dr. Dalia focus, (2) happysmilesla.com with broader full-service positioning, (3) Multiple Yelp listings for different locations/configurations. Google rating 4.9 is consistent. Primary differentiator is Dr. Dalia's 10+ year pediatric specialty but messaging is inconsistent across properties. No dedicated blog or FAQ content found. No schema markup detected. Website content appears dated (some references to older reviews from 2015). Not cited on major AI platforms in initial 'best dentist' searches - competitor Smile LA appears more prominently in AI recommendations. BBB file opened 11/14/2025 (recent), not accredited. GBP exists but unclaimed on Yelp (shows 'Unclaimed' status). Strong local review presence (Yelp, RankMyDentist, TopRatedDentist) with genuine patient testimonials emphasizing pediatric care quality. Insurance acceptance varies by review (some mention non-acceptance issues). Financing options promoted but not clearly detailed on main site. Multiple locations suggest scaling but brand fragmentation across domains. Dr. Dalia LinkedIn shows founder/president status of Nosrati Dental Corporation. Patient testimonial evidence of 10+ years practice is strong but credentials page lacks formal DDS verification links. Instagram presence shows some engagement (250 followers, 24 posts) but limited content strategy.",
+      "researchedAt": "2026-04-09T21:01:03.525Z"
+    },
     "reportSlug": "happy-smiles-cyu1",
     "emailDraftId": null,
     "fabricationFlags": [],
@@ -1738,10 +1798,38 @@
       {
         "action": "Queued by Lead Hunter (P2, score: 30, outreach-ready: true)",
         "timestamp": "2026-03-09T02:38:32.048Z"
+      },
+      {
+        "action": "Research started (auto-pipeline)",
+        "timestamp": "2026-04-09T21:00:40.431Z"
+      },
+      {
+        "action": "Research completed (AERO-10: 41/100)",
+        "timestamp": "2026-04-09T21:01:03.525Z"
+      },
+      {
+        "action": "Report generation started",
+        "timestamp": "2026-04-09T21:01:03.525Z"
+      },
+      {
+        "action": "Report generated",
+        "timestamp": "2026-04-09T21:02:55.975Z"
+      },
+      {
+        "action": "Fabrication scan: CLEAN",
+        "timestamp": "2026-04-09T21:02:55.975Z"
+      },
+      {
+        "action": "Em-dash scan: 3 found, auto-stripped",
+        "timestamp": "2026-04-09T21:02:55.975Z"
+      },
+      {
+        "action": "Report + OG metadata deployed to production",
+        "timestamp": "2026-04-09T21:02:56.128Z"
       }
     ],
     "createdAt": "2026-03-09T02:38:32.048Z",
-    "updatedAt": "2026-03-09T02:38:32.048Z",
+    "updatedAt": "2026-04-09T21:02:55.975Z",
     "huntSource": "hunt_1773023618468_oxni",
     "huntScore": 30,
     "huntPriority": "P2",
