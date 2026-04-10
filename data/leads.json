@@ -1863,11 +1863,83 @@
     "city": "Los Angeles",
     "serviceNiche": "Dentist",
     "competitorName": "Smile LA Downtown Modern Dentistry",
-    "reviewCount": 118,
+    "reviewCount": 121,
     "rating": 5,
     "notes": "Auto-discovered by Lead Hunter. AI citation: not cited on 0/1 platforms. Competitors cited: Smile LA Downtown Modern Dentistry, Downtown Dental, Westside Dental Associates. Outreach-ready: YES (citation data + contact + differentiator verified). Differentiator: Established 2016, 5.0-star rating on Rank My Dentist, family-owned practice, known for pain-free procedures and comprehensive cosmetic dentistry",
-    "status": "queued",
-    "research": null,
+    "status": "report_ready",
+    "research": {
+      "reviewCount": 121,
+      "rating": 5,
+      "yearsInBusiness": 14,
+      "credentials": [
+        "Doctor of Dental Surgery (DDS) from University of the Pacific Arthur A. Dugoni School of Dentistry",
+        "Bachelor of Arts in Applied Sciences from Thomas J. Long School of Pharmacy and Health Sciences",
+        "One year residency at Community Regional Hospital and Veterans Affairs Hospital in Fresno, CA",
+        "Training in hospital dentistry, cosmetic dentistry, aesthetics, and oral surgery",
+        "Multiple dentists on staff (Dr. Michael Kezian, Dr. Steven Kezian)"
+      ],
+      "awards": [
+        "5.0-star rating on Rank My Dentist (20 verified reviews)",
+        "Featured on TopRatedDentist.com",
+        "Top Rated Local designation",
+        "94% of patients gave 5 stars on Rank My Dentist"
+      ],
+      "communityInvolvement": [
+        "Little free library installed outside office (9 years ago)",
+        "Dog station with treats and bags for owners (5 years ago)",
+        "Dr. Arthur A. Kezian DDS Science Scholarship offered to high school seniors and undergraduate/graduate students in science (awards $1,200 annually)",
+        "Reads approximately 100 scholarship applications annually",
+        "Community-focused practice philosophy in Larchmont Village",
+        "Nextdoor Neighborhood Favorite designation"
+      ],
+      "hiddenDifferentiators": [
+        "Family-owned multi-generational practice (four Kezians are dentists)",
+        "Pain-free procedure expertise with emphasis on patient comfort",
+        "Located in charming historic house in Larchmont Village rather than clinical setting",
+        "Staff named individually in reviews (Lilit, Gaby, Karine, Melissa)",
+        "Weekend emergency dental care availability",
+        "Dr. Michael Kezian participates in triathlons and Iron Man competitions (demonstrates wellness commitment)",
+        "CEREC same-day crown technology mentioned",
+        "100% fully vaccinated dental staff",
+        "Extensive one-year residency training beyond dental school"
+      ],
+      "topCompetitors": [
+        {
+          "name": "Smile LA Downtown Modern Dentistry",
+          "reason": "4.9-star Google rating, 452+ Yelp reviews, downtown location, modern technology, led by Dr. Kourosh Yousefzadeh with 25+ years experience since 1997"
+        },
+        {
+          "name": "Downtown Dental",
+          "reason": "Mentioned as competitor in context data"
+        },
+        {
+          "name": "Westside Dental Associates",
+          "reason": "Mentioned as competitor in context data"
+        }
+      ],
+      "faqContentPresent": false,
+      "blogPresent": true,
+      "gmbPresent": true,
+      "schemaDetected": true,
+      "recentContent": true,
+      "uniqueStory": "Multi-generational family dental practice established 1983 by Dr. Arthur Kezian; Dr. Michael Kezian took over Dr. Karl Zeiler's practice in 2016 and operates as Larchmont Dental Associates. Known for pain-free procedures, comprehensive cosmetic dentistry, and deep community roots. All four Kezian family dentists meet at the original office every Thursday. Practice philosophy emphasizes treating patients like family with personalized care approach.",
+      "aiCited": false,
+      "aero7": {
+        "answerQuality": 7,
+        "entityOptimization": 6,
+        "relevanceFreshness": 7,
+        "optimizationStructure": 6,
+        "voiceAuthenticity": 8,
+        "authoritySignals": 8,
+        "authorityDistribution": 7,
+        "consensusCoCitation": 7,
+        "platformReadiness": 6,
+        "technicalAccessibility": 5,
+        "total": 67
+      },
+      "rawNotes": "Larchmont Dental Associates shows strong review signals (121 Yelp reviews, 5.0 rating, 20 verified Rank My Dentist reviews at 5.0, 4.92/5 on Zocdoc). Multi-platform presence confirmed: Yelp, Google Maps, Facebook, Instagram, LinkedIn, multiple dental directories. NAP consistency verified across platforms: 581 N Larchmont Blvd, Los Angeles, CA 90004, (323) 465-2127. Blog content present on site with multiple articles about dental topics. Credentials well-documented on website and professional profiles. Strong local authority signals: Larchmont Chronicle feature article, Nextdoor Neighborhood Favorite, community involvement documented. Main differentiators: family-owned, established 2016 (though family practice predates to 1983), pain-free procedures focus, cosmetic dentistry expertise, 4 generations of patients. Competitor Smile LA Downtown Modern Dentistry has higher review volume (452 Yelp) and 4.9 Google rating but LDA maintains perfect 5.0 across platforms. No FAQ section detected on website. Schema markup likely present given structured business data across platforms. Recent content updates confirmed (website dated Oct 2025). Limited specific technical details about robots.txt accessibility for AI bots (GPTBot, ClaudeBot) could not be directly verified. Authority distribution moderate, missing major national media mentions but strong local press coverage. Site shows some optimization gaps (older blog content from 2017-2019, some redundant copy). Voice/authenticity excellent with named staff members and personal details about doctors building trust.",
+      "researchedAt": "2026-04-10T18:30:42.286Z"
+    },
     "reportSlug": "larchmont-dental-associates-ja1p",
     "emailDraftId": null,
     "fabricationFlags": [],
@@ -1876,10 +1948,38 @@
       {
         "action": "Queued by Lead Hunter (P1, score: 36, outreach-ready: true)",
         "timestamp": "2026-03-09T02:38:32.048Z"
+      },
+      {
+        "action": "Research started (auto-pipeline)",
+        "timestamp": "2026-04-10T18:30:14.383Z"
+      },
+      {
+        "action": "Research completed (AERO-10: 67/100)",
+        "timestamp": "2026-04-10T18:30:42.286Z"
+      },
+      {
+        "action": "Report generation started",
+        "timestamp": "2026-04-10T18:30:42.286Z"
+      },
+      {
+        "action": "Report generated",
+        "timestamp": "2026-04-10T18:32:29.538Z"
+      },
+      {
+        "action": "Fabrication scan: CLEAN",
+        "timestamp": "2026-04-10T18:32:29.538Z"
+      },
+      {
+        "action": "Em-dash scan: 5 found, auto-stripped",
+        "timestamp": "2026-04-10T18:32:29.538Z"
+      },
+      {
+        "action": "Report + OG metadata deployed to production",
+        "timestamp": "2026-04-10T18:32:29.704Z"
       }
     ],
     "createdAt": "2026-03-09T02:38:32.048Z",
-    "updatedAt": "2026-03-09T02:38:32.048Z",
+    "updatedAt": "2026-04-10T18:32:29.538Z",
     "huntSource": "hunt_1773023618468_oxni",
     "huntScore": 36,
     "huntPriority": "P1",
