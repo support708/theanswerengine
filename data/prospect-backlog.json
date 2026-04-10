@@ -578,5 +578,262 @@
       "total": 31.5
     },
     "priority": "P2"
+  },
+  {
+    "businessName": "Parker & Sons",
+    "contactName": "Not found",
+    "website": "https://www.parkerandsons.com/",
+    "phone": "(602) 833-2550",
+    "city": "Phoenix",
+    "state": "AZ",
+    "serviceNiche": "HVAC Contractor",
+    "reviewCount": 15000,
+    "rating": 4.7,
+    "painSignals": [
+      "Parker & Sons appears in AI recommendations but may have optimization gaps"
+    ],
+    "citationResults": [
+      {
+        "platform": "chatgpt",
+        "query": "best HVAC Contractor in Phoenix",
+        "cited": true,
+        "competitorsCited": [
+          "Howard Air & Plumbing",
+          "Chas Roberts"
+        ]
+      }
+    ],
+    "differentiator": "In business since 1974, Voted #1 by Consumers 14 years in a row, A+ BBB rating, BBB Torch Award for Business Ethics (2x), 50+ years combined installation experience",
+    "outreachReady": true,
+    "scoreBreakdown": {
+      "aiBlindSpot": 3,
+      "reputationStrength": 12.5,
+      "contentGap": 6,
+      "revenuePotential": 6,
+      "contactQuality": 3,
+      "total": 30.5
+    },
+    "priority": "P2"
+  },
+  {
+    "businessName": "Chas Roberts",
+    "contactName": "Sissie Roberts Shank (President/CEO)",
+    "website": "https://www.chasroberts.com/",
+    "phone": "(602) 328-5000",
+    "city": "Phoenix",
+    "state": "AZ",
+    "serviceNiche": "HVAC Contractor",
+    "reviewCount": 492,
+    "rating": 4.6,
+    "painSignals": [
+      "Chas Roberts appears in AI recommendations but may have optimization gaps"
+    ],
+    "citationResults": [
+      {
+        "platform": "chatgpt",
+        "query": "best HVAC Contractor in Phoenix",
+        "cited": true,
+        "competitorsCited": [
+          "Howard Air & Plumbing",
+          "Parker & Sons"
+        ]
+      }
+    ],
+    "differentiator": "Largest HVAC provider in Arizona, family-owned 80+ years, in business since 1942, installed 1,000,000+ units in Arizona, Lennox Premier Dealer",
+    "outreachReady": true,
+    "scoreBreakdown": {
+      "aiBlindSpot": 3,
+      "reputationStrength": 12.5,
+      "contentGap": 6,
+      "revenuePotential": 6,
+      "contactQuality": 3,
+      "total": 30.5
+    },
+    "priority": "P2"
+  },
+  {
+    "businessName": "Larson Air Conditioning",
+    "contactName": "Jared and Jamie Larson (Owners)",
+    "website": "https://larsonairaz.com/",
+    "phone": "(480) 428-0600",
+    "city": "Phoenix",
+    "state": "AZ",
+    "serviceNiche": "HVAC Contractor",
+    "reviewCount": 800,
+    "rating": 4.9,
+    "painSignals": [
+      "Larson Air Conditioning has 800 Google reviews but is not recommended by AI assistants for \"HVAC Contractor in Phoenix\""
+    ],
+    "citationResults": [
+      {
+        "platform": "chatgpt",
+        "query": "best HVAC Contractor in Phoenix",
+        "cited": false,
+        "competitorsCited": [
+          "Howard Air & Plumbing",
+          "Parker & Sons",
+          "Chas Roberts"
+        ]
+      }
+    ],
+    "differentiator": "Family-owned since 2012, NATE-certified technicians, BBB Torch Award for Ethics (2019 winner, 2017-2018 finalist), APS 2024 Top 5 Contractor Award, 5-star Yelp rating",
+    "outreachReady": true,
+    "scoreBreakdown": {
+      "aiBlindSpot": 8.5,
+      "reputationStrength": 12.5,
+      "contentGap": 6,
+      "revenuePotential": 6,
+      "contactQuality": 3,
+      "total": 36
+    },
+    "priority": "P1"
+  },
+  {
+    "businessName": "Ideal Air Conditioning and Insulation",
+    "contactName": "Elena Chrimat",
+    "website": "https://idealairaz.com/",
+    "phone": "(480) 660-9820",
+    "city": "Phoenix",
+    "state": "AZ",
+    "serviceNiche": "HVAC Contractor",
+    "reviewCount": 400,
+    "rating": 4.7,
+    "painSignals": [
+      "Ideal Air Conditioning and Insulation has 400 Google reviews but is not recommended by AI assistants for \"HVAC Contractor in Phoenix\""
+    ],
+    "citationResults": [
+      {
+        "platform": "chatgpt",
+        "query": "best HVAC Contractor in Phoenix",
+        "cited": false,
+        "competitorsCited": [
+          "Howard Air & Plumbing",
+          "Parker & Sons",
+          "Chas Roberts"
+        ]
+      }
+    ],
+    "differentiator": "Established 2009, Mitsubishi Diamond Elite dealer, Home Performance with ENERGY STAR certified, holistic energy efficiency solutions, in-house services for HVAC and insulation",
+    "outreachReady": true,
+    "scoreBreakdown": {
+      "aiBlindSpot": 8.5,
+      "reputationStrength": 12.5,
+      "contentGap": 6,
+      "revenuePotential": 6,
+      "contactQuality": 3,
+      "total": 36
+    },
+    "priority": "P1"
+  },
+  {
+    "businessName": "AZ Perfect Comfort Heating & Cooling",
+    "contactName": "John and Robin McCombs (Founders)",
+    "website": "https://www.azperfectcomfort.com",
+    "phone": "(602) 698-0856",
+    "city": "Phoenix",
+    "state": "AZ",
+    "serviceNiche": "HVAC Contractor",
+    "reviewCount": 25,
+    "rating": 4.8,
+    "painSignals": [
+      "AZ Perfect Comfort Heating & Cooling has 25 Google reviews but is not recommended by AI assistants for \"HVAC Contractor in Phoenix\""
+    ],
+    "citationResults": [
+      {
+        "platform": "chatgpt",
+        "query": "best HVAC Contractor in Phoenix",
+        "cited": false,
+        "competitorsCited": [
+          "Howard Air & Plumbing",
+          "Parker & Sons",
+          "Chas Roberts"
+        ]
+      }
+    ],
+    "differentiator": "Veteran and family-owned founded 2015, ACCA and NATE-certified technicians, American Standard and Bosch specialist, Deal of the Decade program with 10-year warranties",
+    "outreachReady": true,
+    "scoreBreakdown": {
+      "aiBlindSpot": 8.5,
+      "reputationStrength": 9,
+      "contentGap": 6,
+      "revenuePotential": 6,
+      "contactQuality": 3,
+      "total": 32.5
+    },
+    "priority": "P2"
+  },
+  {
+    "businessName": "Cool Zone Air Conditioning and Heating",
+    "contactName": "Not found",
+    "website": "https://www.coolzoneair.com/",
+    "phone": "(623) 322-0933",
+    "city": "Phoenix",
+    "state": "AZ",
+    "serviceNiche": "HVAC Contractor",
+    "reviewCount": 200,
+    "rating": 4.8,
+    "painSignals": [
+      "Cool Zone Air Conditioning and Heating has 200 Google reviews but is not recommended by AI assistants for \"HVAC Contractor in Phoenix\""
+    ],
+    "citationResults": [
+      {
+        "platform": "chatgpt",
+        "query": "best HVAC Contractor in Phoenix",
+        "cited": false,
+        "competitorsCited": [
+          "Howard Air & Plumbing",
+          "Parker & Sons",
+          "Chas Roberts"
+        ]
+      }
+    ],
+    "differentiator": "Family-owned since 2006, Carrier Factory Authorized Dealer, Carrier President's Award recipient, 100% satisfaction guarantee, BBB accredited since 2006",
+    "outreachReady": true,
+    "scoreBreakdown": {
+      "aiBlindSpot": 8.5,
+      "reputationStrength": 12.5,
+      "contentGap": 6,
+      "revenuePotential": 6,
+      "contactQuality": 3,
+      "total": 36
+    },
+    "priority": "P1"
+  },
+  {
+    "businessName": "AirTime Cooling and Heating",
+    "contactName": "Ashton Richardson (General Manager)",
+    "website": "https://airtimeaz.com/",
+    "phone": "Not found",
+    "city": "Phoenix",
+    "state": "AZ",
+    "serviceNiche": "HVAC Contractor",
+    "reviewCount": 350,
+    "rating": 4.8,
+    "painSignals": [
+      "AirTime Cooling and Heating has 350 Google reviews but is not recommended by AI assistants for \"HVAC Contractor in Phoenix\""
+    ],
+    "citationResults": [
+      {
+        "platform": "chatgpt",
+        "query": "best HVAC Contractor in Phoenix",
+        "cited": false,
+        "competitorsCited": [
+          "Howard Air & Plumbing",
+          "Parker & Sons",
+          "Chas Roberts"
+        ]
+      }
+    ],
+    "differentiator": "Founded 1999, 20+ years experience, 5-star Google and Yelp ratings, A+ BBB rating, 24/7 availability, no-cost/no-obligation quotes, locally owned and managed",
+    "outreachReady": true,
+    "scoreBreakdown": {
+      "aiBlindSpot": 8.5,
+      "reputationStrength": 12.5,
+      "contentGap": 6,
+      "revenuePotential": 6,
+      "contactQuality": 3,
+      "total": 36
+    },
+    "priority": "P1"
   }
 ]

@@ -3086,5 +3086,136 @@
     ],
     "huntDifferentiator": "20+ years experience since 1998, C-39 licensed, Owens Corning Preferred Contractor, Neighborhood Favorite 2021-2023, Title 24 Cool Roof specialization",
     "huntOutreachReady": true
+  },
+  {
+    "id": "lead_1775829658883_s488kx",
+    "businessName": "Howard Air & Plumbing",
+    "contactFirstName": "Owner:",
+    "contactEmail": "serviceteam@howardair.com",
+    "websiteUrl": "https://howardair.com/",
+    "city": "Phoenix",
+    "serviceNiche": "HVAC Contractor",
+    "competitorName": "Parker & Sons",
+    "reviewCount": 500,
+    "rating": 4.8,
+    "notes": "Auto-discovered by Lead Hunter. AI citation: not cited on 0/1 platforms. Competitors cited: Parker & Sons, Chas Roberts. Outreach-ready: YES (citation data + contact + differentiator verified). Differentiator: Arizona's #1 HVAC Company on Angie's List, APS Top 10 Contractor, A+ BBB rating, BBB Torch Award winner for Ethics, in business since 1977, 20,000 sq ft showroom",
+    "status": "queued",
+    "research": null,
+    "reportSlug": "howard-air-plumbing-fp6t",
+    "emailDraftId": null,
+    "fabricationFlags": [],
+    "emDashClean": false,
+    "actionLog": [
+      {
+        "action": "Queued by Lead Hunter (P2, score: 32.5, outreach-ready: true)",
+        "timestamp": "2026-04-10T14:00:58.883Z"
+      }
+    ],
+    "createdAt": "2026-04-10T14:00:58.883Z",
+    "updatedAt": "2026-04-10T14:00:58.883Z",
+    "huntSource": "hunt_1775829603167_smp7",
+    "huntScore": 32.5,
+    "huntPriority": "P2",
+    "huntCitationResults": [
+      {
+        "platform": "chatgpt",
+        "query": "best HVAC Contractor in Phoenix",
+        "cited": true,
+        "competitorsCited": [
+          "Parker & Sons",
+          "Chas Roberts"
+        ]
+      }
+    ],
+    "huntDifferentiator": "Arizona's #1 HVAC Company on Angie's List, APS Top 10 Contractor, A+ BBB rating, BBB Torch Award winner for Ethics, in business since 1977, 20,000 sq ft showroom",
+    "huntOutreachReady": true
+  },
+  {
+    "id": "lead_1775829658884_b10wx8",
+    "businessName": "Goettl",
+    "contactFirstName": "Not",
+    "contactEmail": "service@goettl.com",
+    "websiteUrl": "https://www.goettl.com/location/phoenix-arizona/",
+    "city": "Phoenix",
+    "serviceNiche": "HVAC Contractor",
+    "competitorName": "Howard Air & Plumbing",
+    "reviewCount": 600,
+    "rating": 4.8,
+    "notes": "Auto-discovered by Lead Hunter. AI citation: not cited on 1/1 platforms. Competitors cited: Howard Air & Plumbing, Parker & Sons, Chas Roberts. Outreach-ready: YES (citation data + contact + differentiator verified). Differentiator: In business since 1939 (85+ years), family-founded, 100% satisfaction guarantee, AC Rejuuuvination maintenance service, 89 fully stocked trucks in Phoenix area",
+    "status": "queued",
+    "research": null,
+    "reportSlug": "goettl-4kkg",
+    "emailDraftId": null,
+    "fabricationFlags": [],
+    "emDashClean": false,
+    "actionLog": [
+      {
+        "action": "Queued by Lead Hunter (P1, score: 38, outreach-ready: true)",
+        "timestamp": "2026-04-10T14:00:58.884Z"
+      }
+    ],
+    "createdAt": "2026-04-10T14:00:58.884Z",
+    "updatedAt": "2026-04-10T14:00:58.884Z",
+    "huntSource": "hunt_1775829603167_smp7",
+    "huntScore": 38,
+    "huntPriority": "P1",
+    "huntCitationResults": [
+      {
+        "platform": "chatgpt",
+        "query": "best HVAC Contractor in Phoenix",
+        "cited": false,
+        "competitorsCited": [
+          "Howard Air & Plumbing",
+          "Parker & Sons",
+          "Chas Roberts"
+        ]
+      }
+    ],
+    "huntDifferentiator": "In business since 1939 (85+ years), family-founded, 100% satisfaction guarantee, AC Rejuuuvination maintenance service, 89 fully stocked trucks in Phoenix area",
+    "huntOutreachReady": true
+  },
+  {
+    "id": "lead_1775829658884_cnthiw",
+    "businessName": "Hometown HVAC",
+    "contactFirstName": "Shelby",
+    "contactEmail": "srodabaugh@hometown-ac.com",
+    "websiteUrl": "https://www.hometown-ac.com/",
+    "city": "Phoenix",
+    "serviceNiche": "HVAC Contractor",
+    "competitorName": "Howard Air & Plumbing",
+    "reviewCount": 300,
+    "rating": 4.7,
+    "notes": "Auto-discovered by Lead Hunter. AI citation: not cited on 1/1 platforms. Competitors cited: Howard Air & Plumbing, Parker & Sons, Chas Roberts. Outreach-ready: YES (citation data + contact + differentiator verified). Differentiator: Veteran-owned, 30+ years experience, Armstrong and LG dealer, custom home specialist, no breakdown guarantee on maintenance plans, Gold/Platinum/Diamond membership tiers",
+    "status": "queued",
+    "research": null,
+    "reportSlug": "hometown-hvac-am5t",
+    "emailDraftId": null,
+    "fabricationFlags": [],
+    "emDashClean": false,
+    "actionLog": [
+      {
+        "action": "Queued by Lead Hunter (P1, score: 38, outreach-ready: true)",
+        "timestamp": "2026-04-10T14:00:58.884Z"
+      }
+    ],
+    "createdAt": "2026-04-10T14:00:58.884Z",
+    "updatedAt": "2026-04-10T14:00:58.884Z",
+    "huntSource": "hunt_1775829603167_smp7",
+    "huntScore": 38,
+    "huntPriority": "P1",
+    "huntCitationResults": [
+      {
+        "platform": "chatgpt",
+        "query": "best HVAC Contractor in Phoenix",
+        "cited": false,
+        "competitorsCited": [
+          "Howard Air & Plumbing",
+          "Parker & Sons",
+          "Chas Roberts"
+        ]
+      }
+    ],
+    "huntDifferentiator": "Veteran-owned, 30+ years experience, Armstrong and LG dealer, custom home specialist, no breakdown guarantee on maintenance plans, Gold/Platinum/Diamond membership tiers",
+    "huntOutreachReady": true
   }
 ]

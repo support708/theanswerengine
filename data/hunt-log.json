@@ -134,5 +134,20 @@
     "outreachReadyCount": 7,
     "errors": [],
     "completedAt": "2026-04-09T14:00:57.391Z"
+  },
+  {
+    "id": "hunt_1775829603167_smp7",
+    "startedAt": "2026-04-10T14:00:03.168Z",
+    "trigger": "cron_daily",
+    "vertical": "HVAC Contractor",
+    "metro": "Phoenix, AZ",
+    "prospectsFound": 10,
+    "p1Queued": 2,
+    "p2Queued": 1,
+    "p3Backlogged": 7,
+    "duplicatesSkipped": 0,
+    "outreachReadyCount": 3,
+    "errors": [],
+    "completedAt": "2026-04-10T14:00:58.884Z"
   }
 ]
