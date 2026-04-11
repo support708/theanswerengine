@@ -11,7 +11,7 @@ import { readLeads, updateLead, getLeadById } from '@/lib/leads';
 import { getFollowUpTemplates } from '@/lib/gmail';
 import { sendGmailMessageWithRetry, isGmailConfigured } from '@/lib/gmail-api';
 import { getLeadsDueForFollowUp, canSendToday, logSend } from '@/lib/email-scheduler';
-import { notifyFollowUpFailure } from '@/lib/telegram';
+import { notifyFollowUpFailure, notifyPipelineSuccess } from '@/lib/telegram';
 
 export const maxDuration = 60;
 
@@ -145,6 +145,26 @@ async function handleRequest(req: NextRequest) {
         type: 'no_response',
         status: 'auto_closed',
       });
+    }
+
+    // Success notification with counts (gated by ENABLE_SUCCESS_NOTIFS)
+    const sent = results.filter(r => r.status === 'auto_sent').length;
+    const failed = results.filter(r => r.status === 'send_failed').length;
+    const autoClosed = results.filter(r => r.status === 'auto_closed').length;
+    const rateLimited = results.filter(r => r.status.startsWith('rate_limited')).length;
+    try {
+      await notifyPipelineSuccess(
+        'Follow-up',
+        {
+          'Emails sent': sent,
+          'Failed': failed,
+          'Auto-closed (no response)': autoClosed,
+          ...(rateLimited > 0 ? { 'Rate-limited': rateLimited } : {}),
+        },
+        results.filter(r => r.status === 'auto_sent').map(r => r.business).slice(0, 3),
+      );
+    } catch {
+      // Silent — notification failure must not break follow-up
     }
 
     return NextResponse.json({

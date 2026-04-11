@@ -250,3 +250,41 @@ export async function notifyBlogBatchPublished(count: number, _commitSha: string
     `${count} new article${count > 1 ? 's' : ''} live on theanswerengine.ai/blog`
   );
 }
+
+/**
+ * Generic pipeline success notification with counts.
+ * Gated by ENABLE_SUCCESS_NOTIFS=true — off by default so Justin flips it when ready.
+ *
+ * @param pipeline  Display name of the pipeline (e.g. "Lead Hunter", "Pipeline", "Follow-up")
+ * @param counts    Key/value pairs of metric name → count (e.g. { "Prospects found": 4, "Qualified": 2 })
+ * @param samples   Optional array of sample names/titles to show in a "Newest:" footer line
+ */
+export async function notifyPipelineSuccess(
+  pipeline: string,
+  counts: Record<string, number>,
+  samples?: string[],
+): Promise<void> {
+  if (process.env.ENABLE_SUCCESS_NOTIFS !== 'true') return;
+
+  const emoji: Record<string, string> = {
+    'Lead Hunter': '🎯',
+    'Pipeline': '⚙️',
+    'Follow-up': '📬',
+    'Blog Engine': '📝',
+  };
+  const icon = emoji[pipeline] ?? '✅';
+
+  const bulletLines = Object.entries(counts)
+    .map(([label, n]) => `  • ${label}: <b>${n}</b>`)
+    .join('\n');
+
+  const samplesLine = samples && samples.length > 0
+    ? `\nNewest: ${samples.slice(0, 3).join(', ')}`
+    : '';
+
+  await sendMessage(
+    `${icon} <b>${pipeline}</b> — run complete\n\n` +
+    bulletLines +
+    samplesLine
+  );
+}

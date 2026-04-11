@@ -19,7 +19,7 @@ import { runFabricationScan, runEmDashScan, stripEmDashes } from '@/lib/fabricat
 import { buildEmailSubject, buildEmailBody, buildHtmlEmailBody, buildInboundEmailSubject, buildInboundEmailBody, buildInboundHtmlEmailBody, buildRealEstateEmailSubject, buildRealEstateEmailBody, buildRealEstateHtmlEmailBody } from '@/lib/gmail';
 import { sendGmailMessageWithRetry, isGmailConfigured } from '@/lib/gmail-api';
 import { canSendToday, prepareSendLogFile } from '@/lib/email-scheduler';
-import { notifyPipelineFailure, sendMessage } from '@/lib/telegram';
+import { notifyPipelineFailure, sendMessage, notifyPipelineSuccess } from '@/lib/telegram';
 import { isDeployConfigured } from '@/lib/deploy';
 import type { Lead, ResearchResults } from '@/lib/types';
 import { promises as fs } from 'fs';
@@ -134,6 +134,28 @@ async function handleRequest(req: NextRequest) {
       const pickStep = (lead.status === 'report_ready' || lead.status === 'email_drafted') ? 'email' : step;
       const result = await processLeadWithRetry(lead.id, pickStep, leads);
       results.push(result);
+    }
+
+    // Success notification with per-run counts (gated by ENABLE_SUCCESS_NOTIFS)
+    const successResults = results.filter(r => !('error' in r));
+    const failedResults = results.filter(r => 'error' in r);
+    if (successResults.length > 0) {
+      try {
+        const sampleNames = successResults
+          .map(r => (r as Record<string, unknown>).businessName as string)
+          .filter(Boolean);
+        await notifyPipelineSuccess(
+          'Pipeline',
+          {
+            'Leads processed': results.length,
+            'Succeeded': successResults.length,
+            'Failed': failedResults.length,
+          },
+          sampleNames,
+        );
+      } catch {
+        // Silent — notification failure must not break pipeline
+      }
     }
 
     return NextResponse.json({ success: true, processed: results.length, results });

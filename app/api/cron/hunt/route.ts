@@ -7,7 +7,7 @@
 import { NextRequest, NextResponse } from 'next/server';
 import { runHuntSession, getTodayQueuedCount } from '@/lib/scheduler';
 import { getHuntStatus } from '@/lib/scheduler';
-import { sendMessage, notifyHuntComplete, notifyHuntDailySummary } from '@/lib/telegram';
+import { sendMessage, notifyHuntComplete, notifyHuntDailySummary, notifyPipelineSuccess } from '@/lib/telegram';
 import { readHuntLog } from '@/lib/hunter-data';
 import type { HuntTrigger } from '@/lib/hunter-types';
 
@@ -69,6 +69,21 @@ export async function GET(request: NextRequest) {
         totalToday,
         chainDepth,
       });
+    } catch {
+      // Silent — don't fail the hunt for notification issues
+    }
+
+    // Success notification with counts (gated by ENABLE_SUCCESS_NOTIFS)
+    try {
+      await notifyPipelineSuccess(
+        'Lead Hunter',
+        {
+          'Prospects found': session.prospectsFound,
+          'P1 queued': session.p1Queued,
+          'P2 queued': session.p2Queued,
+          'Dupes skipped': session.duplicatesSkipped,
+        },
+      );
     } catch {
       // Silent — don't fail the hunt for notification issues
     }

@@ -9,6 +9,7 @@
 
 import { NextRequest, NextResponse } from 'next/server';
 import { runBlogSession, publishStagedArticles } from '@/lib/blog-scheduler';
+import { notifyPipelineSuccess } from '@/lib/telegram';
 
 export const maxDuration = 120;
 
@@ -52,6 +53,17 @@ export async function GET(request: NextRequest) {
       if (result.count === 0) {
         return NextResponse.json({ success: true, message: 'No staged articles to publish' });
       }
+
+      // Success notification with counts (gated by ENABLE_SUCCESS_NOTIFS)
+      try {
+        await notifyPipelineSuccess(
+          'Blog Engine',
+          { 'Articles published': result.count },
+        );
+      } catch {
+        // Silent — notification failure must not break publish
+      }
+
       return NextResponse.json({
         success: true,
         published: result.count,
@@ -75,6 +87,21 @@ export async function GET(request: NextRequest) {
     const duration = session.completedAt
       ? `${((new Date(session.completedAt).getTime() - new Date(session.startedAt).getTime()) / 1000).toFixed(1)}s`
       : 'unknown';
+
+    // Success notification with counts (gated by ENABLE_SUCCESS_NOTIFS)
+    try {
+      await notifyPipelineSuccess(
+        'Blog Engine',
+        {
+          'Staged': session.published ? 1 : 0,
+          'Audit score': session.auditScore ?? 0,
+          'Audit passed': session.auditPassed ? 1 : 0,
+        },
+        session.topicTitle ? [session.topicTitle] : undefined,
+      );
+    } catch {
+      // Silent — notification failure must not break blog generation
+    }
 
     return NextResponse.json({
       success: true,
