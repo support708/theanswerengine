@@ -4,6 +4,7 @@ import Link from 'next/link';
 
 export const revalidate = 86400;
 export const dynamic = 'force-static';
+export const dynamicParams = true;
 
 export async function generateMetadata(): Promise<Metadata> {
   const title = "Why AI Keeps Getting My Business Phone Number Wrong (And How to Fix It)";
@@ -17,7 +18,7 @@ export async function generateMetadata(): Promise<Metadata> {
       description,
       type: 'article',
       url: 'https://theanswerengine.ai/blog/why-ai-keeps-getting-my-business-phone-number-wrong',
-      images: [{ url: '/images/ai-phone-number-wrong-2026.webp', width: 1200, height: 630 }],
+      images: [{ url: '/blog/why-ai-keeps-getting-my-business-phone-number-wrong.webp', width: 1200, height: 630 }],
     },
     twitter: {
       card: 'summary_large_image',
@@ -49,7 +50,7 @@ export default function WhyAIGetsPhoneNumberWrong() {
         "@id": "https://theanswerengine.ai/blog/why-ai-keeps-getting-my-business-phone-number-wrong#article",
         "headline": "Why AI Keeps Getting My Business Phone Number Wrong (And How to Fix It)",
         "description": "AI platforms hallucinate outdated phone numbers and contact info. Learn why this happens, the data sources AI uses, and the signals that keep your business contact information fresh and accurate.",
-        "image": "https://theanswerengine.ai/images/ai-phone-number-wrong-2026.webp",
+        "image": "https://theanswerengine.ai/blog/why-ai-keeps-getting-my-business-phone-number-wrong.webp",
         "datePublished": "2026-04-12",
         "dateModified": "2026-04-12",
         "author": {
@@ -206,7 +207,7 @@ export default function WhyAIGetsPhoneNumberWrong() {
             {/* Featured Image */}
             <div className="mb-8 rounded-xl overflow-hidden border border-white/[0.05]">
               <img
-                src="/images/ai-phone-number-wrong-2026.webp"
+                src="/blog/why-ai-keeps-getting-my-business-phone-number-wrong.webp"
                 alt="Why AI gives wrong business phone numbers and contact information - data accuracy guide for local businesses"
                 className="w-full grayscale brightness-75"
               />
