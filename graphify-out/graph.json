@@ -17,7 +17,7 @@
       "source_file": "middleware.ts",
       "source_location": "L1",
       "id": "middleware",
-      "community": 40
+      "community": 42
     },
     {
       "label": "next-env.d.ts",
@@ -25,7 +25,7 @@
       "source_file": "next-env.d.ts",
       "source_location": "L1",
       "id": "next_env_d",
-      "community": 41
+      "community": 43
     },
     {
       "label": "next.config.ts",
@@ -33,15 +33,15 @@
       "source_file": "next.config.ts",
       "source_location": "L1",
       "id": "next_config",
-      "community": 42
+      "community": 44
     },
     {
-      "label": "layout.tsx",
+      "label": "layout.ts",
       "file_type": "code",
-      "source_file": "app\\contact\\layout.tsx",
+      "source_file": "src\\lib\\marketing\\layout.ts",
       "source_location": "L1",
       "id": "layout",
-      "community": 12
+      "community": 10
     },
     {
       "label": "not-found.tsx",
@@ -49,7 +49,7 @@
       "source_file": "app\\not-found.tsx",
       "source_location": "L1",
       "id": "not_found",
-      "community": 43
+      "community": 45
     },
     {
       "label": "page.tsx",
@@ -121,7 +121,7 @@
       "source_file": "app\\sitemap.ts",
       "source_location": "L1",
       "id": "sitemap",
-      "community": 27
+      "community": 29
     },
     {
       "label": "sitemap()",
@@ -129,7 +129,7 @@
       "source_file": "app\\sitemap.ts",
       "source_location": "L6",
       "id": "sitemap_sitemap",
-      "community": 27
+      "community": 29
     },
     {
       "label": "BorgesRootLayout()",
@@ -137,7 +137,7 @@
       "source_file": "app\\(borges)\\layout.tsx",
       "source_location": "L16",
       "id": "layout_borgesrootlayout",
-      "community": 12
+      "community": 10
     },
     {
       "label": "BorgesOSLayout()",
@@ -145,7 +145,7 @@
       "source_file": "app\\(borges)\\borges-os\\layout.tsx",
       "source_location": "L16",
       "id": "layout_borgesoslayout",
-      "community": 12
+      "community": 10
     },
     {
       "label": "fetchStripe()",
@@ -169,7 +169,7 @@
       "source_file": "app\\about\\layout.tsx",
       "source_location": "L16",
       "id": "layout_aboutlayout",
-      "community": 12
+      "community": 10
     },
     {
       "label": "AdminLayout()",
@@ -177,7 +177,7 @@
       "source_file": "app\\admin\\layout.tsx",
       "source_location": "L9",
       "id": "layout_adminlayout",
-      "community": 12
+      "community": 10
     },
     {
       "label": "providers.tsx",
@@ -185,7 +185,7 @@
       "source_file": "app\\admin\\providers.tsx",
       "source_location": "L1",
       "id": "providers",
-      "community": 12
+      "community": 10
     },
     {
       "label": "AdminSessionProvider()",
@@ -193,7 +193,7 @@
       "source_file": "app\\admin\\providers.tsx",
       "source_location": "L5",
       "id": "providers_adminsessionprovider",
-      "community": 12
+      "community": 10
     },
     {
       "label": "handleSubmit()",
@@ -335,7 +335,7 @@
       "label": "processLeadWithRetry()",
       "file_type": "code",
       "source_file": "app\\api\\cron\\pipeline\\route.ts",
-      "source_location": "L152",
+      "source_location": "L174",
       "id": "route_processleadwithretry",
       "community": 1
     },
@@ -343,7 +343,7 @@
       "label": "processLead()",
       "file_type": "code",
       "source_file": "app\\api\\cron\\pipeline\\route.ts",
-      "source_location": "L208",
+      "source_location": "L230",
       "id": "route_processlead",
       "community": 1
     },
@@ -351,7 +351,7 @@
       "label": "waitForReportLive()",
       "file_type": "code",
       "source_file": "app\\api\\cron\\pipeline\\route.ts",
-      "source_location": "L686",
+      "source_location": "L708",
       "id": "route_waitforreportlive",
       "community": 1
     },
@@ -513,7 +513,7 @@
       "source_file": "app\\blog\\layout.tsx",
       "source_location": "L46",
       "id": "layout_bloglayout",
-      "community": 12
+      "community": 10
     },
     {
       "label": "Breadcrumb()",
@@ -601,7 +601,7 @@
       "source_file": "app\\case-studies\\layout.tsx",
       "source_location": "L16",
       "id": "layout_casestudieslayout",
-      "community": 12
+      "community": 10
     },
     {
       "label": "BlogCardPattern.tsx",
@@ -633,7 +633,7 @@
       "source_file": "app\\components\\HeroDotGrid.tsx",
       "source_location": "L1",
       "id": "herodotgrid",
-      "community": 44
+      "community": 46
     },
     {
       "label": "Nav.tsx",
@@ -641,7 +641,7 @@
       "source_file": "app\\components\\Nav.tsx",
       "source_location": "L1",
       "id": "nav",
-      "community": 12
+      "community": 10
     },
     {
       "label": "isActive()",
@@ -649,7 +649,7 @@
       "source_file": "app\\components\\Nav.tsx",
       "source_location": "L12",
       "id": "nav_isactive",
-      "community": 12
+      "community": 10
     },
     {
       "label": "ReadingProgress.tsx",
@@ -657,7 +657,7 @@
       "source_file": "app\\components\\ReadingProgress.tsx",
       "source_location": "L1",
       "id": "readingprogress",
-      "community": 12
+      "community": 10
     },
     {
       "label": "ReadingProgress()",
@@ -665,7 +665,7 @@
       "source_file": "app\\components\\ReadingProgress.tsx",
       "source_location": "L5",
       "id": "readingprogress_readingprogress",
-      "community": 12
+      "community": 10
     },
     {
       "label": "LeadForm.tsx",
@@ -689,7 +689,7 @@
       "source_file": "app\\components\\admin\\LeadTable.tsx",
       "source_location": "L1",
       "id": "leadtable",
-      "community": 0
+      "community": 3
     },
     {
       "label": "StatusBadge.tsx",
@@ -697,7 +697,7 @@
       "source_file": "app\\components\\admin\\StatusBadge.tsx",
       "source_location": "L1",
       "id": "statusbadge",
-      "community": 0
+      "community": 3
     },
     {
       "label": "StatusBadge()",
@@ -705,7 +705,7 @@
       "source_file": "app\\components\\admin\\StatusBadge.tsx",
       "source_location": "L23",
       "id": "statusbadge_statusbadge",
-      "community": 0
+      "community": 3
     },
     {
       "label": "ArticleSchema.tsx",
@@ -713,7 +713,7 @@
       "source_file": "app\\components\\schema\\ArticleSchema.tsx",
       "source_location": "L1",
       "id": "articleschema",
-      "community": 28
+      "community": 30
     },
     {
       "label": "ArticleSchema()",
@@ -721,7 +721,7 @@
       "source_file": "app\\components\\schema\\ArticleSchema.tsx",
       "source_location": "L15",
       "id": "articleschema_articleschema",
-      "community": 28
+      "community": 30
     },
     {
       "label": "BreadcrumbSchema.tsx",
@@ -729,7 +729,7 @@
       "source_file": "app\\components\\schema\\BreadcrumbSchema.tsx",
       "source_location": "L1",
       "id": "breadcrumbschema",
-      "community": 29
+      "community": 31
     },
     {
       "label": "BreadcrumbSchema()",
@@ -737,7 +737,7 @@
       "source_file": "app\\components\\schema\\BreadcrumbSchema.tsx",
       "source_location": "L13",
       "id": "breadcrumbschema_breadcrumbschema",
-      "community": 29
+      "community": 31
     },
     {
       "label": "FAQSchema.tsx",
@@ -745,7 +745,7 @@
       "source_file": "app\\components\\schema\\FAQSchema.tsx",
       "source_location": "L1",
       "id": "faqschema",
-      "community": 30
+      "community": 32
     },
     {
       "label": "FAQSchema()",
@@ -753,7 +753,7 @@
       "source_file": "app\\components\\schema\\FAQSchema.tsx",
       "source_location": "L13",
       "id": "faqschema_faqschema",
-      "community": 30
+      "community": 32
     },
     {
       "label": "HowToSchema.tsx",
@@ -761,7 +761,7 @@
       "source_file": "app\\components\\schema\\HowToSchema.tsx",
       "source_location": "L1",
       "id": "howtoschema",
-      "community": 31
+      "community": 33
     },
     {
       "label": "HowToSchema()",
@@ -769,7 +769,7 @@
       "source_file": "app\\components\\schema\\HowToSchema.tsx",
       "source_location": "L17",
       "id": "howtoschema_howtoschema",
-      "community": 31
+      "community": 33
     },
     {
       "label": "index.ts",
@@ -777,7 +777,7 @@
       "source_file": "src\\mastra\\tools\\index.ts",
       "source_location": "L1",
       "id": "index",
-      "community": 19
+      "community": 20
     },
     {
       "label": "PersonSchema.tsx",
@@ -785,7 +785,7 @@
       "source_file": "app\\components\\schema\\PersonSchema.tsx",
       "source_location": "L1",
       "id": "personschema",
-      "community": 32
+      "community": 34
     },
     {
       "label": "PersonSchema()",
@@ -793,7 +793,7 @@
       "source_file": "app\\components\\schema\\PersonSchema.tsx",
       "source_location": "L13",
       "id": "personschema_personschema",
-      "community": 32
+      "community": 34
     },
     {
       "label": "Badge.tsx",
@@ -801,7 +801,7 @@
       "source_file": "app\\components\\ui\\Badge.tsx",
       "source_location": "L1",
       "id": "badge",
-      "community": 33
+      "community": 35
     },
     {
       "label": "Badge()",
@@ -809,7 +809,7 @@
       "source_file": "app\\components\\ui\\Badge.tsx",
       "source_location": "L22",
       "id": "badge_badge",
-      "community": 33
+      "community": 35
     },
     {
       "label": "Button.tsx",
@@ -817,7 +817,7 @@
       "source_file": "app\\components\\ui\\Button.tsx",
       "source_location": "L1",
       "id": "button",
-      "community": 45
+      "community": 47
     },
     {
       "label": "Card.tsx",
@@ -825,7 +825,7 @@
       "source_file": "app\\components\\ui\\Card.tsx",
       "source_location": "L1",
       "id": "card",
-      "community": 34
+      "community": 36
     },
     {
       "label": "Card()",
@@ -833,7 +833,7 @@
       "source_file": "app\\components\\ui\\Card.tsx",
       "source_location": "L25",
       "id": "card_card",
-      "community": 34
+      "community": 36
     },
     {
       "label": "Divider.tsx",
@@ -841,7 +841,7 @@
       "source_file": "app\\components\\ui\\Divider.tsx",
       "source_location": "L1",
       "id": "divider",
-      "community": 35
+      "community": 37
     },
     {
       "label": "Divider()",
@@ -849,7 +849,7 @@
       "source_file": "app\\components\\ui\\Divider.tsx",
       "source_location": "L7",
       "id": "divider_divider",
-      "community": 35
+      "community": 37
     },
     {
       "label": "GlowContainer.tsx",
@@ -857,7 +857,7 @@
       "source_file": "app\\components\\ui\\GlowContainer.tsx",
       "source_location": "L1",
       "id": "glowcontainer",
-      "community": 46
+      "community": 48
     },
     {
       "label": "SectionHeader.tsx",
@@ -865,7 +865,7 @@
       "source_file": "app\\components\\ui\\SectionHeader.tsx",
       "source_location": "L1",
       "id": "sectionheader",
-      "community": 47
+      "community": 49
     },
     {
       "label": "a-command-center.tsx",
@@ -929,7 +929,7 @@
       "source_file": "app\\contact\\layout.tsx",
       "source_location": "L16",
       "id": "layout_contactlayout",
-      "community": 12
+      "community": 10
     },
     {
       "label": "useMouseGlow.ts",
@@ -937,7 +937,7 @@
       "source_file": "app\\hooks\\useMouseGlow.ts",
       "source_location": "L1",
       "id": "usemouseglow",
-      "community": 36
+      "community": 38
     },
     {
       "label": "useMouseGlow()",
@@ -945,7 +945,7 @@
       "source_file": "app\\hooks\\useMouseGlow.ts",
       "source_location": "L5",
       "id": "usemouseglow_usemouseglow",
-      "community": 36
+      "community": 38
     },
     {
       "label": "ServicesPage()",
@@ -969,7 +969,7 @@
       "source_file": "lib\\aero7-scorer.ts",
       "source_location": "L1",
       "id": "aero7_scorer",
-      "community": 7
+      "community": 6
     },
     {
       "label": "parseAERO7FromResearch()",
@@ -977,7 +977,7 @@
       "source_file": "lib\\aero7-scorer.ts",
       "source_location": "L8",
       "id": "aero7_scorer_parseaero7fromresearch",
-      "community": 7
+      "community": 6
     },
     {
       "label": "getAERO7Grade()",
@@ -985,7 +985,7 @@
       "source_file": "lib\\aero7-scorer.ts",
       "source_location": "L54",
       "id": "aero7_scorer_getaero7grade",
-      "community": 7
+      "community": 6
     },
     {
       "label": "anthropic.ts",
@@ -993,7 +993,7 @@
       "source_file": "lib\\anthropic.ts",
       "source_location": "L1",
       "id": "anthropic",
-      "community": 11
+      "community": 7
     },
     {
       "label": "getApiKey()",
@@ -1001,7 +1001,7 @@
       "source_file": "lib\\anthropic.ts",
       "source_location": "L10",
       "id": "anthropic_getapikey",
-      "community": 11
+      "community": 7
     },
     {
       "label": "callClaude()",
@@ -1009,7 +1009,7 @@
       "source_file": "lib\\anthropic.ts",
       "source_location": "L61",
       "id": "anthropic_callclaude",
-      "community": 11
+      "community": 7
     },
     {
       "label": "callClaudeWithWebSearch()",
@@ -1017,7 +1017,7 @@
       "source_file": "lib\\anthropic.ts",
       "source_location": "L116",
       "id": "anthropic_callclaudewithwebsearch",
-      "community": 11
+      "community": 7
     },
     {
       "label": "extractText()",
@@ -1025,7 +1025,7 @@
       "source_file": "lib\\anthropic.ts",
       "source_location": "L129",
       "id": "anthropic_extracttext",
-      "community": 11
+      "community": 7
     },
     {
       "label": "checkRateLimit()",
@@ -1033,7 +1033,7 @@
       "source_file": "lib\\anthropic.ts",
       "source_location": "L136",
       "id": "anthropic_checkratelimit",
-      "community": 11
+      "community": 7
     },
     {
       "label": "blog-bot.ts",
@@ -1041,7 +1041,7 @@
       "source_file": "lib\\blog-bot.ts",
       "source_location": "L1",
       "id": "blog_bot",
-      "community": 11
+      "community": 2
     },
     {
       "label": "delay()",
@@ -1049,7 +1049,7 @@
       "source_file": "lib\\blog-bot.ts",
       "source_location": "L14",
       "id": "blog_bot_delay",
-      "community": 11
+      "community": 2
     },
     {
       "label": "researchTopic()",
@@ -1057,7 +1057,7 @@
       "source_file": "lib\\blog-bot.ts",
       "source_location": "L161",
       "id": "blog_bot_researchtopic",
-      "community": 11
+      "community": 2
     },
     {
       "label": "generateArticle()",
@@ -1065,7 +1065,7 @@
       "source_file": "lib\\blog-bot.ts",
       "source_location": "L196",
       "id": "blog_bot_generatearticle",
-      "community": 11
+      "community": 2
     },
     {
       "label": "auditArticle()",
@@ -1073,7 +1073,7 @@
       "source_file": "lib\\blog-bot.ts",
       "source_location": "L232",
       "id": "blog_bot_auditarticle",
-      "community": 11
+      "community": 2
     },
     {
       "label": "generateBlogSvg()",
@@ -1081,7 +1081,7 @@
       "source_file": "lib\\blog-bot.ts",
       "source_location": "L261",
       "id": "blog_bot_generateblogsvg",
-      "community": 11
+      "community": 2
     },
     {
       "label": "escapeXml()",
@@ -1089,7 +1089,7 @@
       "source_file": "lib\\blog-bot.ts",
       "source_location": "L330",
       "id": "blog_bot_escapexml",
-      "community": 11
+      "community": 2
     },
     {
       "label": "generateBlogHeroImage()",
@@ -1097,7 +1097,7 @@
       "source_file": "lib\\blog-bot.ts",
       "source_location": "L337",
       "id": "blog_bot_generateblogheroimage",
-      "community": 11
+      "community": 2
     },
     {
       "label": "runPipeline()",
@@ -1105,7 +1105,7 @@
       "source_file": "lib\\blog-bot.ts",
       "source_location": "L357",
       "id": "blog_bot_runpipeline",
-      "community": 11
+      "community": 2
     },
     {
       "label": "blog-data.ts",
@@ -1113,7 +1113,7 @@
       "source_file": "lib\\blog-data.ts",
       "source_location": "L1",
       "id": "blog_data",
-      "community": 4
+      "community": 2
     },
     {
       "label": "ensureDir()",
@@ -1121,7 +1121,7 @@
       "source_file": "lib\\blog-data.ts",
       "source_location": "L116",
       "id": "blog_data_ensuredir",
-      "community": 4
+      "community": 2
     },
     {
       "label": "readBlogState()",
@@ -1129,7 +1129,7 @@
       "source_file": "lib\\blog-data.ts",
       "source_location": "L122",
       "id": "blog_data_readblogstate",
-      "community": 4
+      "community": 2
     },
     {
       "label": "writeBlogState()",
@@ -1137,7 +1137,7 @@
       "source_file": "lib\\blog-data.ts",
       "source_location": "L138",
       "id": "blog_data_writeblogstate",
-      "community": 4
+      "community": 2
     },
     {
       "label": "appendBlogSession()",
@@ -1145,7 +1145,7 @@
       "source_file": "lib\\blog-data.ts",
       "source_location": "L145",
       "id": "blog_data_appendblogsession",
-      "community": 4
+      "community": 2
     },
     {
       "label": "readTopicQueue()",
@@ -1153,7 +1153,7 @@
       "source_file": "lib\\blog-data.ts",
       "source_location": "L160",
       "id": "blog_data_readtopicqueue",
-      "community": 4
+      "community": 2
     },
     {
       "label": "writeTopicQueue()",
@@ -1161,7 +1161,7 @@
       "source_file": "lib\\blog-data.ts",
       "source_location": "L171",
       "id": "blog_data_writetopicqueue",
-      "community": 4
+      "community": 2
     },
     {
       "label": "getNextTopic()",
@@ -1169,7 +1169,7 @@
       "source_file": "lib\\blog-data.ts",
       "source_location": "L176",
       "id": "blog_data_getnexttopic",
-      "community": 4
+      "community": 2
     },
     {
       "label": "markTopicInProgress()",
@@ -1177,7 +1177,7 @@
       "source_file": "lib\\blog-data.ts",
       "source_location": "L185",
       "id": "blog_data_marktopicinprogress",
-      "community": 4
+      "community": 2
     },
     {
       "label": "markTopicPublished()",
@@ -1185,7 +1185,7 @@
       "source_file": "lib\\blog-data.ts",
       "source_location": "L194",
       "id": "blog_data_marktopicpublished",
-      "community": 4
+      "community": 2
     },
     {
       "label": "markTopicFailed()",
@@ -1193,7 +1193,7 @@
       "source_file": "lib\\blog-data.ts",
       "source_location": "L204",
       "id": "blog_data_marktopicfailed",
-      "community": 4
+      "community": 2
     },
     {
       "label": "readBlogPosts()",
@@ -1201,7 +1201,7 @@
       "source_file": "lib\\blog-data.ts",
       "source_location": "L216",
       "id": "blog_data_readblogposts",
-      "community": 4
+      "community": 2
     },
     {
       "label": "appendBlogPost()",
@@ -1209,7 +1209,7 @@
       "source_file": "lib\\blog-data.ts",
       "source_location": "L221",
       "id": "blog_data_appendblogpost",
-      "community": 4
+      "community": 2
     },
     {
       "label": "getNextBlogPostId()",
@@ -1217,7 +1217,7 @@
       "source_file": "lib\\blog-data.ts",
       "source_location": "L227",
       "id": "blog_data_getnextblogpostid",
-      "community": 4
+      "community": 2
     },
     {
       "label": "writeBlogPostPage()",
@@ -1225,7 +1225,7 @@
       "source_file": "lib\\blog-data.ts",
       "source_location": "L235",
       "id": "blog_data_writeblogpostpage",
-      "community": 4
+      "community": 2
     },
     {
       "label": "readStagedArticles()",
@@ -1233,7 +1233,7 @@
       "source_file": "lib\\blog-data.ts",
       "source_location": "L243",
       "id": "blog_data_readstagedarticles",
-      "community": 4
+      "community": 2
     },
     {
       "label": "stageBlogArticle()",
@@ -1241,7 +1241,7 @@
       "source_file": "lib\\blog-data.ts",
       "source_location": "L252",
       "id": "blog_data_stageblogarticle",
-      "community": 4
+      "community": 2
     },
     {
       "label": "clearStagedArticles()",
@@ -1249,7 +1249,7 @@
       "source_file": "lib\\blog-data.ts",
       "source_location": "L259",
       "id": "blog_data_clearstagedarticles",
-      "community": 4
+      "community": 2
     },
     {
       "label": "blog-scheduler.ts",
@@ -1257,7 +1257,7 @@
       "source_file": "lib\\blog-scheduler.ts",
       "source_location": "L1",
       "id": "blog_scheduler",
-      "community": 4
+      "community": 2
     },
     {
       "label": "runBlogSession()",
@@ -1265,7 +1265,7 @@
       "source_file": "lib\\blog-scheduler.ts",
       "source_location": "L30",
       "id": "blog_scheduler_runblogsession",
-      "community": 4
+      "community": 2
     },
     {
       "label": "publishStagedArticles()",
@@ -1273,7 +1273,7 @@
       "source_file": "lib\\blog-scheduler.ts",
       "source_location": "L243",
       "id": "blog_scheduler_publishstagedarticles",
-      "community": 4
+      "community": 2
     },
     {
       "label": "getBlogStatus()",
@@ -1281,7 +1281,7 @@
       "source_file": "lib\\blog-scheduler.ts",
       "source_location": "L292",
       "id": "blog_scheduler_getblogstatus",
-      "community": 4
+      "community": 2
     },
     {
       "label": "blog-types.ts",
@@ -1289,7 +1289,7 @@
       "source_file": "lib\\blog-types.ts",
       "source_location": "L1",
       "id": "blog_types",
-      "community": 4
+      "community": 2
     },
     {
       "label": "command-center.ts",
@@ -1329,7 +1329,7 @@
       "source_file": "lib\\constants.ts",
       "source_location": "L1",
       "id": "constants",
-      "community": 48
+      "community": 50
     },
     {
       "label": "deduplicator.ts",
@@ -1337,7 +1337,7 @@
       "source_file": "lib\\deduplicator.ts",
       "source_location": "L1",
       "id": "deduplicator",
-      "community": 2
+      "community": 3
     },
     {
       "label": "normalizeBusinessName()",
@@ -1345,7 +1345,7 @@
       "source_file": "lib\\deduplicator.ts",
       "source_location": "L10",
       "id": "deduplicator_normalizebusinessname",
-      "community": 2
+      "community": 3
     },
     {
       "label": "extractDomain()",
@@ -1353,7 +1353,7 @@
       "source_file": "lib\\deduplicator.ts",
       "source_location": "L20",
       "id": "deduplicator_extractdomain",
-      "community": 2
+      "community": 3
     },
     {
       "label": "isDuplicate()",
@@ -1361,7 +1361,7 @@
       "source_file": "lib\\deduplicator.ts",
       "source_location": "L30",
       "id": "deduplicator_isduplicate",
-      "community": 2
+      "community": 3
     },
     {
       "label": "deploy.ts",
@@ -1393,7 +1393,7 @@
       "source_file": "lib\\email-scheduler.ts",
       "source_location": "L1",
       "id": "email_scheduler",
-      "community": 13
+      "community": 12
     },
     {
       "label": "readSendLog()",
@@ -1401,7 +1401,7 @@
       "source_file": "lib\\email-scheduler.ts",
       "source_location": "L41",
       "id": "email_scheduler_readsendlog",
-      "community": 13
+      "community": 12
     },
     {
       "label": "writeSendLog()",
@@ -1409,7 +1409,7 @@
       "source_file": "lib\\email-scheduler.ts",
       "source_location": "L55",
       "id": "email_scheduler_writesendlog",
-      "community": 13
+      "community": 12
     },
     {
       "label": "logSend()",
@@ -1417,7 +1417,7 @@
       "source_file": "lib\\email-scheduler.ts",
       "source_location": "L67",
       "id": "email_scheduler_logsend",
-      "community": 13
+      "community": 12
     },
     {
       "label": "prepareSendLogFile()",
@@ -1425,7 +1425,7 @@
       "source_file": "lib\\email-scheduler.ts",
       "source_location": "L82",
       "id": "email_scheduler_preparesendlogfile",
-      "community": 13
+      "community": 12
     },
     {
       "label": "getDailyLimit()",
@@ -1433,7 +1433,7 @@
       "source_file": "lib\\email-scheduler.ts",
       "source_location": "L98",
       "id": "email_scheduler_getdailylimit",
-      "community": 13
+      "community": 12
     },
     {
       "label": "getSentToday()",
@@ -1441,7 +1441,7 @@
       "source_file": "lib\\email-scheduler.ts",
       "source_location": "L113",
       "id": "email_scheduler_getsenttoday",
-      "community": 13
+      "community": 12
     },
     {
       "label": "canSendToday()",
@@ -1449,7 +1449,7 @@
       "source_file": "lib\\email-scheduler.ts",
       "source_location": "L120",
       "id": "email_scheduler_cansendtoday",
-      "community": 13
+      "community": 12
     },
     {
       "label": "remainingSendsToday()",
@@ -1457,7 +1457,7 @@
       "source_file": "lib\\email-scheduler.ts",
       "source_location": "L142",
       "id": "email_scheduler_remainingsendstoday",
-      "community": 13
+      "community": 12
     },
     {
       "label": "getSentDate()",
@@ -1465,7 +1465,7 @@
       "source_file": "lib\\email-scheduler.ts",
       "source_location": "L157",
       "id": "email_scheduler_getsentdate",
-      "community": 13
+      "community": 12
     },
     {
       "label": "getLeadsDueForFollowUp()",
@@ -1473,7 +1473,7 @@
       "source_file": "lib\\email-scheduler.ts",
       "source_location": "L173",
       "id": "email_scheduler_getleadsdueforfollowup",
-      "community": 13
+      "community": 12
     },
     {
       "label": "getWarmupStatus()",
@@ -1481,7 +1481,7 @@
       "source_file": "lib\\email-scheduler.ts",
       "source_location": "L199",
       "id": "email_scheduler_getwarmupstatus",
-      "community": 13
+      "community": 12
     },
     {
       "label": "fabrication-scan.ts",
@@ -1521,7 +1521,7 @@
       "source_file": "lib\\followup-templates.ts",
       "source_location": "L1",
       "id": "followup_templates",
-      "community": 18
+      "community": 3
     },
     {
       "label": "buildFollowUp1()",
@@ -1529,7 +1529,7 @@
       "source_file": "lib\\followup-templates.ts",
       "source_location": "L18",
       "id": "followup_templates_buildfollowup1",
-      "community": 18
+      "community": 3
     },
     {
       "label": "buildFollowUp2()",
@@ -1537,7 +1537,7 @@
       "source_file": "lib\\followup-templates.ts",
       "source_location": "L46",
       "id": "followup_templates_buildfollowup2",
-      "community": 18
+      "community": 3
     },
     {
       "label": "buildFollowUp3()",
@@ -1545,7 +1545,7 @@
       "source_file": "lib\\followup-templates.ts",
       "source_location": "L80",
       "id": "followup_templates_buildfollowup3",
-      "community": 18
+      "community": 3
     },
     {
       "label": "getFollowUpDue()",
@@ -1553,7 +1553,7 @@
       "source_file": "lib\\followup-templates.ts",
       "source_location": "L101",
       "id": "followup_templates_getfollowupdue",
-      "community": 18
+      "community": 3
     },
     {
       "label": "buildFollowUpEmail()",
@@ -1561,7 +1561,7 @@
       "source_file": "lib\\followup-templates.ts",
       "source_location": "L126",
       "id": "followup_templates_buildfollowupemail",
-      "community": 18
+      "community": 3
     },
     {
       "label": "gemini-image.ts",
@@ -1609,7 +1609,7 @@
       "source_file": "lib\\github-publish.ts",
       "source_location": "L1",
       "id": "github_publish",
-      "community": 10
+      "community": 13
     },
     {
       "label": "githubFetch()",
@@ -1617,7 +1617,7 @@
       "source_file": "lib\\github-publish.ts",
       "source_location": "L17",
       "id": "github_publish_githubfetch",
-      "community": 10
+      "community": 13
     },
     {
       "label": "getHeadSha()",
@@ -1625,7 +1625,7 @@
       "source_file": "lib\\github-publish.ts",
       "source_location": "L35",
       "id": "github_publish_getheadsha",
-      "community": 10
+      "community": 13
     },
     {
       "label": "getTreeSha()",
@@ -1633,7 +1633,7 @@
       "source_file": "lib\\github-publish.ts",
       "source_location": "L45",
       "id": "github_publish_gettreesha",
-      "community": 10
+      "community": 13
     },
     {
       "label": "createBlob()",
@@ -1641,7 +1641,7 @@
       "source_file": "lib\\github-publish.ts",
       "source_location": "L55",
       "id": "github_publish_createblob",
-      "community": 10
+      "community": 13
     },
     {
       "label": "createTree()",
@@ -1649,7 +1649,7 @@
       "source_file": "lib\\github-publish.ts",
       "source_location": "L71",
       "id": "github_publish_createtree",
-      "community": 10
+      "community": 13
     },
     {
       "label": "createCommit()",
@@ -1657,7 +1657,7 @@
       "source_file": "lib\\github-publish.ts",
       "source_location": "L91",
       "id": "github_publish_createcommit",
-      "community": 10
+      "community": 13
     },
     {
       "label": "updateRef()",
@@ -1665,7 +1665,7 @@
       "source_file": "lib\\github-publish.ts",
       "source_location": "L113",
       "id": "github_publish_updateref",
-      "community": 10
+      "community": 13
     },
     {
       "label": "publishToGitHub()",
@@ -1673,7 +1673,7 @@
       "source_file": "lib\\github-publish.ts",
       "source_location": "L125",
       "id": "github_publish_publishtogithub",
-      "community": 10
+      "community": 13
     },
     {
       "label": "getFileContent()",
@@ -1681,7 +1681,7 @@
       "source_file": "lib\\github-publish.ts",
       "source_location": "L160",
       "id": "github_publish_getfilecontent",
-      "community": 10
+      "community": 13
     },
     {
       "label": "listDirectoryFiles()",
@@ -1689,7 +1689,7 @@
       "source_file": "lib\\github-publish.ts",
       "source_location": "L178",
       "id": "github_publish_listdirectoryfiles",
-      "community": 10
+      "community": 13
     },
     {
       "label": "getFileContentSafe()",
@@ -1697,7 +1697,7 @@
       "source_file": "lib\\github-publish.ts",
       "source_location": "L193",
       "id": "github_publish_getfilecontentsafe",
-      "community": 10
+      "community": 13
     },
     {
       "label": "gmail-api.ts",
@@ -1769,7 +1769,7 @@
       "source_file": "lib\\gmail.ts",
       "source_location": "L1",
       "id": "gmail",
-      "community": 3
+      "community": 4
     },
     {
       "label": "htmlWrap()",
@@ -1777,7 +1777,7 @@
       "source_file": "lib\\gmail.ts",
       "source_location": "L38",
       "id": "gmail_htmlwrap",
-      "community": 3
+      "community": 4
     },
     {
       "label": "reportImageBlock()",
@@ -1785,7 +1785,7 @@
       "source_file": "lib\\gmail.ts",
       "source_location": "L51",
       "id": "gmail_reportimageblock",
-      "community": 3
+      "community": 4
     },
     {
       "label": "buildEmailSubject()",
@@ -1793,7 +1793,7 @@
       "source_file": "lib\\gmail.ts",
       "source_location": "L77",
       "id": "gmail_buildemailsubject",
-      "community": 3
+      "community": 4
     },
     {
       "label": "buildEmailBody()",
@@ -1801,7 +1801,7 @@
       "source_file": "lib\\gmail.ts",
       "source_location": "L81",
       "id": "gmail_buildemailbody",
-      "community": 3
+      "community": 4
     },
     {
       "label": "buildHtmlEmailBody()",
@@ -1809,7 +1809,7 @@
       "source_file": "lib\\gmail.ts",
       "source_location": "L100",
       "id": "gmail_buildhtmlemailbody",
-      "community": 3
+      "community": 4
     },
     {
       "label": "buildInboundEmailSubject()",
@@ -1817,7 +1817,7 @@
       "source_file": "lib\\gmail.ts",
       "source_location": "L123",
       "id": "gmail_buildinboundemailsubject",
-      "community": 3
+      "community": 4
     },
     {
       "label": "buildInboundEmailBody()",
@@ -1825,7 +1825,7 @@
       "source_file": "lib\\gmail.ts",
       "source_location": "L127",
       "id": "gmail_buildinboundemailbody",
-      "community": 3
+      "community": 4
     },
     {
       "label": "buildInboundHtmlEmailBody()",
@@ -1833,7 +1833,7 @@
       "source_file": "lib\\gmail.ts",
       "source_location": "L150",
       "id": "gmail_buildinboundhtmlemailbody",
-      "community": 3
+      "community": 4
     },
     {
       "label": "buildRealEstateEmailSubject()",
@@ -1841,7 +1841,7 @@
       "source_file": "lib\\gmail.ts",
       "source_location": "L177",
       "id": "gmail_buildrealestateemailsubject",
-      "community": 3
+      "community": 4
     },
     {
       "label": "buildRealEstateEmailBody()",
@@ -1849,7 +1849,7 @@
       "source_file": "lib\\gmail.ts",
       "source_location": "L181",
       "id": "gmail_buildrealestateemailbody",
-      "community": 3
+      "community": 4
     },
     {
       "label": "buildRealEstateHtmlEmailBody()",
@@ -1857,7 +1857,7 @@
       "source_file": "lib\\gmail.ts",
       "source_location": "L206",
       "id": "gmail_buildrealestatehtmlemailbody",
-      "community": 3
+      "community": 4
     },
     {
       "label": "buildFollowUp1Subject()",
@@ -1865,7 +1865,7 @@
       "source_file": "lib\\gmail.ts",
       "source_location": "L252",
       "id": "gmail_buildfollowup1subject",
-      "community": 3
+      "community": 4
     },
     {
       "label": "buildFollowUp1Body()",
@@ -1873,7 +1873,7 @@
       "source_file": "lib\\gmail.ts",
       "source_location": "L257",
       "id": "gmail_buildfollowup1body",
-      "community": 3
+      "community": 4
     },
     {
       "label": "buildFollowUp1Html()",
@@ -1881,7 +1881,7 @@
       "source_file": "lib\\gmail.ts",
       "source_location": "L274",
       "id": "gmail_buildfollowup1html",
-      "community": 3
+      "community": 4
     },
     {
       "label": "buildFollowUp2Subject()",
@@ -1889,7 +1889,7 @@
       "source_file": "lib\\gmail.ts",
       "source_location": "L294",
       "id": "gmail_buildfollowup2subject",
-      "community": 3
+      "community": 4
     },
     {
       "label": "buildFollowUp2Body()",
@@ -1897,7 +1897,7 @@
       "source_file": "lib\\gmail.ts",
       "source_location": "L298",
       "id": "gmail_buildfollowup2body",
-      "community": 3
+      "community": 4
     },
     {
       "label": "buildFollowUp2Html()",
@@ -1905,7 +1905,7 @@
       "source_file": "lib\\gmail.ts",
       "source_location": "L318",
       "id": "gmail_buildfollowup2html",
-      "community": 3
+      "community": 4
     },
     {
       "label": "buildFollowUp3Subject()",
@@ -1913,7 +1913,7 @@
       "source_file": "lib\\gmail.ts",
       "source_location": "L341",
       "id": "gmail_buildfollowup3subject",
-      "community": 3
+      "community": 4
     },
     {
       "label": "buildFollowUp3Body()",
@@ -1921,7 +1921,7 @@
       "source_file": "lib\\gmail.ts",
       "source_location": "L345",
       "id": "gmail_buildfollowup3body",
-      "community": 3
+      "community": 4
     },
     {
       "label": "buildFollowUp3Html()",
@@ -1929,7 +1929,7 @@
       "source_file": "lib\\gmail.ts",
       "source_location": "L361",
       "id": "gmail_buildfollowup3html",
-      "community": 3
+      "community": 4
     },
     {
       "label": "buildFollowUp4Subject()",
@@ -1937,7 +1937,7 @@
       "source_file": "lib\\gmail.ts",
       "source_location": "L380",
       "id": "gmail_buildfollowup4subject",
-      "community": 3
+      "community": 4
     },
     {
       "label": "buildFollowUp4Body()",
@@ -1945,7 +1945,7 @@
       "source_file": "lib\\gmail.ts",
       "source_location": "L384",
       "id": "gmail_buildfollowup4body",
-      "community": 3
+      "community": 4
     },
     {
       "label": "buildFollowUp4Html()",
@@ -1953,7 +1953,7 @@
       "source_file": "lib\\gmail.ts",
       "source_location": "L400",
       "id": "gmail_buildfollowup4html",
-      "community": 3
+      "community": 4
     },
     {
       "label": "getFollowUpTemplates()",
@@ -1961,7 +1961,7 @@
       "source_file": "lib\\gmail.ts",
       "source_location": "L421",
       "id": "gmail_getfollowuptemplates",
-      "community": 3
+      "community": 4
     },
     {
       "label": "gsap.ts",
@@ -1969,7 +1969,7 @@
       "source_file": "src\\lib\\gsap.ts",
       "source_location": "L1",
       "id": "gsap",
-      "community": 17
+      "community": 18
     },
     {
       "label": "hunter-data.ts",
@@ -1977,7 +1977,7 @@
       "source_file": "lib\\hunter-data.ts",
       "source_location": "L1",
       "id": "hunter_data",
-      "community": 2
+      "community": 17
     },
     {
       "label": "ensureDir()",
@@ -1985,7 +1985,7 @@
       "source_file": "lib\\hunter-data.ts",
       "source_location": "L28",
       "id": "hunter_data_ensuredir",
-      "community": 2
+      "community": 17
     },
     {
       "label": "readHuntState()",
@@ -1993,7 +1993,7 @@
       "source_file": "lib\\hunter-data.ts",
       "source_location": "L34",
       "id": "hunter_data_readhuntstate",
-      "community": 2
+      "community": 17
     },
     {
       "label": "writeHuntState()",
@@ -2001,7 +2001,7 @@
       "source_file": "lib\\hunter-data.ts",
       "source_location": "L48",
       "id": "hunter_data_writehuntstate",
-      "community": 2
+      "community": 17
     },
     {
       "label": "readHuntLog()",
@@ -2009,7 +2009,7 @@
       "source_file": "lib\\hunter-data.ts",
       "source_location": "L56",
       "id": "hunter_data_readhuntlog",
-      "community": 2
+      "community": 17
     },
     {
       "label": "appendHuntLog()",
@@ -2017,7 +2017,7 @@
       "source_file": "lib\\hunter-data.ts",
       "source_location": "L70",
       "id": "hunter_data_appendhuntlog",
-      "community": 2
+      "community": 17
     },
     {
       "label": "readBacklog()",
@@ -2025,7 +2025,7 @@
       "source_file": "lib\\hunter-data.ts",
       "source_location": "L81",
       "id": "hunter_data_readbacklog",
-      "community": 2
+      "community": 17
     },
     {
       "label": "writeBacklog()",
@@ -2033,7 +2033,7 @@
       "source_file": "lib\\hunter-data.ts",
       "source_location": "L95",
       "id": "hunter_data_writebacklog",
-      "community": 2
+      "community": 17
     },
     {
       "label": "flushHuntDataToGitHub()",
@@ -2041,7 +2041,7 @@
       "source_file": "lib\\hunter-data.ts",
       "source_location": "L109",
       "id": "hunter_data_flushhuntdatatogithub",
-      "community": 2
+      "community": 17
     },
     {
       "label": "hunter-types.ts",
@@ -2049,7 +2049,7 @@
       "source_file": "lib\\hunter-types.ts",
       "source_location": "L1",
       "id": "hunter_types",
-      "community": 2
+      "community": 3
     },
     {
       "label": "hunter.ts",
@@ -2057,7 +2057,7 @@
       "source_file": "lib\\hunter.ts",
       "source_location": "L1",
       "id": "hunter",
-      "community": 2
+      "community": 7
     },
     {
       "label": "sanitizeEmail()",
@@ -2065,7 +2065,7 @@
       "source_file": "lib\\hunter.ts",
       "source_location": "L27",
       "id": "hunter_sanitizeemail",
-      "community": 2
+      "community": 7
     },
     {
       "label": "isExcluded()",
@@ -2073,7 +2073,7 @@
       "source_file": "lib\\hunter.ts",
       "source_location": "L51",
       "id": "hunter_isexcluded",
-      "community": 2
+      "community": 7
     },
     {
       "label": "getRotationTarget()",
@@ -2081,7 +2081,7 @@
       "source_file": "lib\\hunter.ts",
       "source_location": "L56",
       "id": "hunter_getrotationtarget",
-      "community": 2
+      "community": 7
     },
     {
       "label": "advanceRotation()",
@@ -2089,7 +2089,7 @@
       "source_file": "lib\\hunter.ts",
       "source_location": "L75",
       "id": "hunter_advancerotation",
-      "community": 2
+      "community": 7
     },
     {
       "label": "getRotationTargetWithLearning()",
@@ -2097,7 +2097,7 @@
       "source_file": "lib\\hunter.ts",
       "source_location": "L103",
       "id": "hunter_getrotationtargetwithlearning",
-      "community": 2
+      "community": 7
     },
     {
       "label": "runSearchPass1()",
@@ -2105,7 +2105,7 @@
       "source_file": "lib\\hunter.ts",
       "source_location": "L149",
       "id": "hunter_runsearchpass1",
-      "community": 2
+      "community": 7
     },
     {
       "label": "runSearchPass2()",
@@ -2113,7 +2113,7 @@
       "source_file": "lib\\hunter.ts",
       "source_location": "L199",
       "id": "hunter_runsearchpass2",
-      "community": 2
+      "community": 7
     },
     {
       "label": "parseCitationResults()",
@@ -2121,7 +2121,7 @@
       "source_file": "lib\\hunter.ts",
       "source_location": "L347",
       "id": "hunter_parsecitationresults",
-      "community": 2
+      "community": 7
     },
     {
       "label": "buildFallbackCitation()",
@@ -2129,7 +2129,7 @@
       "source_file": "lib\\hunter.ts",
       "source_location": "L371",
       "id": "hunter_buildfallbackcitation",
-      "community": 2
+      "community": 7
     },
     {
       "label": "runSearchPass3()",
@@ -2137,7 +2137,7 @@
       "source_file": "lib\\hunter.ts",
       "source_location": "L418",
       "id": "hunter_runsearchpass3",
-      "community": 2
+      "community": 7
     },
     {
       "label": "checkOutreachReadiness()",
@@ -2145,7 +2145,7 @@
       "source_file": "lib\\hunter.ts",
       "source_location": "L520",
       "id": "hunter_checkoutreachreadiness",
-      "community": 2
+      "community": 7
     },
     {
       "label": "scoreProspect()",
@@ -2153,7 +2153,7 @@
       "source_file": "lib\\hunter.ts",
       "source_location": "L537",
       "id": "hunter_scoreprospect",
-      "community": 2
+      "community": 7
     },
     {
       "label": "classifyPriority()",
@@ -2161,7 +2161,7 @@
       "source_file": "lib\\hunter.ts",
       "source_location": "L607",
       "id": "hunter_classifypriority",
-      "community": 2
+      "community": 7
     },
     {
       "label": "leads.ts",
@@ -2169,7 +2169,7 @@
       "source_file": "lib\\leads.ts",
       "source_location": "L1",
       "id": "leads",
-      "community": 6
+      "community": 3
     },
     {
       "label": "readLeads()",
@@ -2177,7 +2177,7 @@
       "source_file": "lib\\leads.ts",
       "source_location": "L16",
       "id": "leads_readleads",
-      "community": 6
+      "community": 3
     },
     {
       "label": "writeLeads()",
@@ -2185,7 +2185,7 @@
       "source_file": "lib\\leads.ts",
       "source_location": "L30",
       "id": "leads_writeleads",
-      "community": 6
+      "community": 3
     },
     {
       "label": "getLeadById()",
@@ -2193,7 +2193,7 @@
       "source_file": "lib\\leads.ts",
       "source_location": "L43",
       "id": "leads_getleadbyid",
-      "community": 6
+      "community": 3
     },
     {
       "label": "updateLead()",
@@ -2201,7 +2201,7 @@
       "source_file": "lib\\leads.ts",
       "source_location": "L48",
       "id": "leads_updatelead",
-      "community": 6
+      "community": 3
     },
     {
       "label": "flushLeadsWithFiles()",
@@ -2209,7 +2209,7 @@
       "source_file": "lib\\leads.ts",
       "source_location": "L68",
       "id": "leads_flushleadswithfiles",
-      "community": 6
+      "community": 3
     },
     {
       "label": "generateSlug()",
@@ -2217,7 +2217,7 @@
       "source_file": "lib\\leads.ts",
       "source_location": "L91",
       "id": "leads_generateslug",
-      "community": 6
+      "community": 3
     },
     {
       "label": "generateId()",
@@ -2225,7 +2225,7 @@
       "source_file": "lib\\leads.ts",
       "source_location": "L101",
       "id": "leads_generateid",
-      "community": 6
+      "community": 3
     },
     {
       "label": "learning-data.ts",
@@ -2233,7 +2233,7 @@
       "source_file": "lib\\learning-data.ts",
       "source_location": "L1",
       "id": "learning_data",
-      "community": 10
+      "community": 11
     },
     {
       "label": "readLearningLog()",
@@ -2241,7 +2241,7 @@
       "source_file": "lib\\learning-data.ts",
       "source_location": "L31",
       "id": "learning_data_readlearninglog",
-      "community": 10
+      "community": 11
     },
     {
       "label": "writeLearningLog()",
@@ -2249,7 +2249,7 @@
       "source_file": "lib\\learning-data.ts",
       "source_location": "L45",
       "id": "learning_data_writelearninglog",
-      "community": 10
+      "community": 11
     },
     {
       "label": "getCurrentHuntPriorities()",
@@ -2257,7 +2257,7 @@
       "source_file": "lib\\learning-data.ts",
       "source_location": "L64",
       "id": "learning_data_getcurrenthuntpriorities",
-      "community": 10
+      "community": 11
     },
     {
       "label": "learning.ts",
@@ -2265,7 +2265,7 @@
       "source_file": "lib\\learning.ts",
       "source_location": "L1",
       "id": "learning",
-      "community": 6
+      "community": 11
     },
     {
       "label": "generateWeeklyRetrospective()",
@@ -2273,7 +2273,7 @@
       "source_file": "lib\\learning.ts",
       "source_location": "L95",
       "id": "learning_generateweeklyretrospective",
-      "community": 6
+      "community": 11
     },
     {
       "label": "calculateNicheMetrics()",
@@ -2281,7 +2281,7 @@
       "source_file": "lib\\learning.ts",
       "source_location": "L148",
       "id": "learning_calculatenichemetrics",
-      "community": 6
+      "community": 11
     },
     {
       "label": "calculateMetroMetrics()",
@@ -2289,7 +2289,7 @@
       "source_file": "lib\\learning.ts",
       "source_location": "L193",
       "id": "learning_calculatemetrometrics",
-      "community": 6
+      "community": 11
     },
     {
       "label": "calculateFollowUpMetrics()",
@@ -2297,7 +2297,7 @@
       "source_file": "lib\\learning.ts",
       "source_location": "L229",
       "id": "learning_calculatefollowupmetrics",
-      "community": 6
+      "community": 11
     },
     {
       "label": "getReplyStage()",
@@ -2305,7 +2305,7 @@
       "source_file": "lib\\learning.ts",
       "source_location": "L259",
       "id": "learning_getreplystage",
-      "community": 6
+      "community": 11
     },
     {
       "label": "calculateVelocityMetrics()",
@@ -2313,7 +2313,7 @@
       "source_file": "lib\\learning.ts",
       "source_location": "L293",
       "id": "learning_calculatevelocitymetrics",
-      "community": 6
+      "community": 11
     },
     {
       "label": "calculateAEROCorrelation()",
@@ -2321,7 +2321,7 @@
       "source_file": "lib\\learning.ts",
       "source_location": "L354",
       "id": "learning_calculateaerocorrelation",
-      "community": 6
+      "community": 11
     },
     {
       "label": "wilsonScore()",
@@ -2329,7 +2329,7 @@
       "source_file": "lib\\learning.ts",
       "source_location": "L378",
       "id": "learning_wilsonscore",
-      "community": 6
+      "community": 11
     },
     {
       "label": "calculateHuntPriorities()",
@@ -2337,7 +2337,7 @@
       "source_file": "lib\\learning.ts",
       "source_location": "L387",
       "id": "learning_calculatehuntpriorities",
-      "community": 6
+      "community": 11
     },
     {
       "label": "calculateTrends()",
@@ -2345,7 +2345,7 @@
       "source_file": "lib\\learning.ts",
       "source_location": "L421",
       "id": "learning_calculatetrends",
-      "community": 6
+      "community": 11
     },
     {
       "label": "reddit-api.ts",
@@ -2881,7 +2881,7 @@
       "source_file": "lib\\sanitize.ts",
       "source_location": "L1",
       "id": "sanitize",
-      "community": 20
+      "community": 21
     },
     {
       "label": "stripHtml()",
@@ -2889,7 +2889,7 @@
       "source_file": "lib\\sanitize.ts",
       "source_location": "L17",
       "id": "sanitize_striphtml",
-      "community": 20
+      "community": 21
     },
     {
       "label": "sanitizeField()",
@@ -2897,7 +2897,7 @@
       "source_file": "lib\\sanitize.ts",
       "source_location": "L21",
       "id": "sanitize_sanitizefield",
-      "community": 20
+      "community": 21
     },
     {
       "label": "sanitizeEmail()",
@@ -2905,7 +2905,7 @@
       "source_file": "lib\\sanitize.ts",
       "source_location": "L27",
       "id": "sanitize_sanitizeemail",
-      "community": 20
+      "community": 21
     },
     {
       "label": "sanitizeUrl()",
@@ -2913,7 +2913,7 @@
       "source_file": "lib\\sanitize.ts",
       "source_location": "L34",
       "id": "sanitize_sanitizeurl",
-      "community": 20
+      "community": 21
     },
     {
       "label": "scheduler.ts",
@@ -2921,7 +2921,7 @@
       "source_file": "lib\\scheduler.ts",
       "source_location": "L1",
       "id": "scheduler",
-      "community": 2
+      "community": 3
     },
     {
       "label": "runHuntSession()",
@@ -2929,7 +2929,7 @@
       "source_file": "lib\\scheduler.ts",
       "source_location": "L19",
       "id": "scheduler_runhuntsession",
-      "community": 2
+      "community": 3
     },
     {
       "label": "prospectToLead()",
@@ -2937,7 +2937,7 @@
       "source_file": "lib\\scheduler.ts",
       "source_location": "L183",
       "id": "scheduler_prospecttolead",
-      "community": 2
+      "community": 3
     },
     {
       "label": "getTodayQueuedCount()",
@@ -2945,7 +2945,7 @@
       "source_file": "lib\\scheduler.ts",
       "source_location": "L233",
       "id": "scheduler_gettodayqueuedcount",
-      "community": 2
+      "community": 3
     },
     {
       "label": "getHuntStatus()",
@@ -2953,7 +2953,7 @@
       "source_file": "lib\\scheduler.ts",
       "source_location": "L241",
       "id": "scheduler_gethuntstatus",
-      "community": 2
+      "community": 3
     },
     {
       "label": "telegram.ts",
@@ -2961,7 +2961,7 @@
       "source_file": "lib\\telegram.ts",
       "source_location": "L1",
       "id": "telegram",
-      "community": 7
+      "community": 6
     },
     {
       "label": "sendMessage()",
@@ -2969,7 +2969,7 @@
       "source_file": "lib\\telegram.ts",
       "source_location": "L15",
       "id": "telegram_sendmessage",
-      "community": 7
+      "community": 6
     },
     {
       "label": "notifyLeadCreated()",
@@ -2977,7 +2977,7 @@
       "source_file": "lib\\telegram.ts",
       "source_location": "L50",
       "id": "telegram_notifyleadcreated",
-      "community": 7
+      "community": 6
     },
     {
       "label": "notifyResearchComplete()",
@@ -2985,7 +2985,7 @@
       "source_file": "lib\\telegram.ts",
       "source_location": "L60",
       "id": "telegram_notifyresearchcomplete",
-      "community": 7
+      "community": 6
     },
     {
       "label": "notifyReportReady()",
@@ -2993,7 +2993,7 @@
       "source_file": "lib\\telegram.ts",
       "source_location": "L86",
       "id": "telegram_notifyreportready",
-      "community": 7
+      "community": 6
     },
     {
       "label": "notifyEmailDrafted()",
@@ -3001,7 +3001,7 @@
       "source_file": "lib\\telegram.ts",
       "source_location": "L99",
       "id": "telegram_notifyemaildrafted",
-      "community": 7
+      "community": 6
     },
     {
       "label": "notifyStatusChange()",
@@ -3009,7 +3009,7 @@
       "source_file": "lib\\telegram.ts",
       "source_location": "L108",
       "id": "telegram_notifystatuschange",
-      "community": 7
+      "community": 6
     },
     {
       "label": "notifyFollowUpDrafted()",
@@ -3017,7 +3017,7 @@
       "source_file": "lib\\telegram.ts",
       "source_location": "L115",
       "id": "telegram_notifyfollowupdrafted",
-      "community": 7
+      "community": 6
     },
     {
       "label": "notifyAutoClosedNoResponse()",
@@ -3025,7 +3025,7 @@
       "source_file": "lib\\telegram.ts",
       "source_location": "L128",
       "id": "telegram_notifyautoclosednoresponse",
-      "community": 7
+      "community": 6
     },
     {
       "label": "notifyHuntComplete()",
@@ -3033,7 +3033,7 @@
       "source_file": "lib\\telegram.ts",
       "source_location": "L137",
       "id": "telegram_notifyhuntcomplete",
-      "community": 7
+      "community": 6
     },
     {
       "label": "notifyPipelineFailure()",
@@ -3041,7 +3041,7 @@
       "source_file": "lib\\telegram.ts",
       "source_location": "L178",
       "id": "telegram_notifypipelinefailure",
-      "community": 7
+      "community": 6
     },
     {
       "label": "notifyHuntDailySummary()",
@@ -3049,7 +3049,7 @@
       "source_file": "lib\\telegram.ts",
       "source_location": "L193",
       "id": "telegram_notifyhuntdailysummary",
-      "community": 7
+      "community": 6
     },
     {
       "label": "notifyHuntFailure()",
@@ -3057,7 +3057,7 @@
       "source_file": "lib\\telegram.ts",
       "source_location": "L219",
       "id": "telegram_notifyhuntfailure",
-      "community": 7
+      "community": 6
     },
     {
       "label": "notifyFollowUpFailure()",
@@ -3065,7 +3065,7 @@
       "source_file": "lib\\telegram.ts",
       "source_location": "L226",
       "id": "telegram_notifyfollowupfailure",
-      "community": 7
+      "community": 6
     },
     {
       "label": "notifyBlogPublished()",
@@ -3073,7 +3073,7 @@
       "source_file": "lib\\telegram.ts",
       "source_location": "L235",
       "id": "telegram_notifyblogpublished",
-      "community": 7
+      "community": 6
     },
     {
       "label": "notifyBlogBatchPublished()",
@@ -3081,7 +3081,15 @@
       "source_file": "lib\\telegram.ts",
       "source_location": "L247",
       "id": "telegram_notifyblogbatchpublished",
-      "community": 7
+      "community": 6
+    },
+    {
+      "label": "notifyPipelineSuccess()",
+      "file_type": "code",
+      "source_file": "lib\\telegram.ts",
+      "source_location": "L262",
+      "id": "telegram_notifypipelinesuccess",
+      "community": 6
     },
     {
       "label": "types.ts",
@@ -3089,7 +3097,7 @@
       "source_file": "lib\\types.ts",
       "source_location": "L1",
       "id": "types",
-      "community": 0
+      "community": 3
     },
     {
       "label": "useScrollAnimation.ts",
@@ -3097,7 +3105,7 @@
       "source_file": "lib\\hooks\\useScrollAnimation.ts",
       "source_location": "L1",
       "id": "usescrollanimation",
-      "community": 21
+      "community": 22
     },
     {
       "label": "usePrefersReducedMotion()",
@@ -3105,7 +3113,7 @@
       "source_file": "lib\\hooks\\useScrollAnimation.ts",
       "source_location": "L9",
       "id": "usescrollanimation_useprefersreducedmotion",
-      "community": 21
+      "community": 22
     },
     {
       "label": "useScrollAnimation()",
@@ -3113,7 +3121,7 @@
       "source_file": "lib\\hooks\\useScrollAnimation.ts",
       "source_location": "L28",
       "id": "usescrollanimation_usescrollanimation",
-      "community": 21
+      "community": 22
     },
     {
       "label": "useInView()",
@@ -3121,7 +3129,7 @@
       "source_file": "lib\\hooks\\useScrollAnimation.ts",
       "source_location": "L59",
       "id": "usescrollanimation_useinview",
-      "community": 21
+      "community": 22
     },
     {
       "label": "useCountAnimation()",
@@ -3129,7 +3137,7 @@
       "source_file": "lib\\hooks\\useScrollAnimation.ts",
       "source_location": "L87",
       "id": "usescrollanimation_usecountanimation",
-      "community": 21
+      "community": 22
     },
     {
       "label": "backfill-hero-images.ts",
@@ -3161,7 +3169,7 @@
       "source_file": "scripts\\create-html-draft.js",
       "source_location": "L1",
       "id": "create_html_draft",
-      "community": 26
+      "community": 27
     },
     {
       "label": "getAccessToken()",
@@ -3169,7 +3177,7 @@
       "source_file": "scripts\\create-html-draft.js",
       "source_location": "L25",
       "id": "create_html_draft_getaccesstoken",
-      "community": 26
+      "community": 27
     },
     {
       "label": "main()",
@@ -3177,7 +3185,7 @@
       "source_file": "scripts\\create-html-draft.js",
       "source_location": "L41",
       "id": "create_html_draft_main",
-      "community": 26
+      "community": 27
     },
     {
       "label": "daily-content-engine.ps1",
@@ -3185,7 +3193,7 @@
       "source_file": "scripts\\daily-content-engine.ps1",
       "source_location": "L1",
       "id": "daily_content_engine",
-      "community": 37
+      "community": 39
     },
     {
       "label": "Log()",
@@ -3193,7 +3201,7 @@
       "source_file": "scripts\\daily-content-engine.ps1",
       "source_location": "L21",
       "id": "daily_content_engine_log",
-      "community": 37
+      "community": 39
     },
     {
       "label": "deploy-and-draft.js",
@@ -3201,7 +3209,7 @@
       "source_file": "scripts\\deploy-and-draft.js",
       "source_location": "L1",
       "id": "deploy_and_draft",
-      "community": 22
+      "community": 23
     },
     {
       "label": "deployReport()",
@@ -3209,7 +3217,7 @@
       "source_file": "scripts\\deploy-and-draft.js",
       "source_location": "L28",
       "id": "deploy_and_draft_deployreport",
-      "community": 22
+      "community": 23
     },
     {
       "label": "getAccessToken()",
@@ -3217,7 +3225,7 @@
       "source_file": "scripts\\deploy-and-draft.js",
       "source_location": "L91",
       "id": "deploy_and_draft_getaccesstoken",
-      "community": 22
+      "community": 23
     },
     {
       "label": "createDraft()",
@@ -3225,7 +3233,7 @@
       "source_file": "scripts\\deploy-and-draft.js",
       "source_location": "L109",
       "id": "deploy_and_draft_createdraft",
-      "community": 22
+      "community": 23
     },
     {
       "label": "main()",
@@ -3233,7 +3241,7 @@
       "source_file": "scripts\\deploy-and-draft.js",
       "source_location": "L184",
       "id": "deploy_and_draft_main",
-      "community": 22
+      "community": 23
     },
     {
       "label": "generate-blog.ts",
@@ -3241,7 +3249,7 @@
       "source_file": "scripts\\generate-blog.ts",
       "source_location": "L1",
       "id": "generate_blog",
-      "community": 4
+      "community": 2
     },
     {
       "label": "main()",
@@ -3249,7 +3257,7 @@
       "source_file": "scripts\\generate-blog.ts",
       "source_location": "L27",
       "id": "generate_blog_main",
-      "community": 4
+      "community": 2
     },
     {
       "label": "generate-single-image.ts",
@@ -3369,7 +3377,7 @@
       "source_file": "scripts\\send-client-digests-now.js",
       "source_location": "L1",
       "id": "send_client_digests_now",
-      "community": 23
+      "community": 24
     },
     {
       "label": "get()",
@@ -3377,7 +3385,7 @@
       "source_file": "scripts\\send-client-digests-now.js",
       "source_location": "L9",
       "id": "send_client_digests_now_get",
-      "community": 23
+      "community": 24
     },
     {
       "label": "escapeHtml()",
@@ -3385,7 +3393,7 @@
       "source_file": "scripts\\send-client-digests-now.js",
       "source_location": "L25",
       "id": "send_client_digests_now_escapehtml",
-      "community": 23
+      "community": 24
     },
     {
       "label": "buildEmail()",
@@ -3393,7 +3401,7 @@
       "source_file": "scripts\\send-client-digests-now.js",
       "source_location": "L29",
       "id": "send_client_digests_now_buildemail",
-      "community": 23
+      "community": 24
     },
     {
       "label": "sendAll()",
@@ -3401,7 +3409,7 @@
       "source_file": "scripts\\send-client-digests-now.js",
       "source_location": "L93",
       "id": "send_client_digests_now_sendall",
-      "community": 23
+      "community": 24
     },
     {
       "label": "send-onboarding-all.js",
@@ -3409,7 +3417,7 @@
       "source_file": "scripts\\send-onboarding-all.js",
       "source_location": "L1",
       "id": "send_onboarding_all",
-      "community": 24
+      "community": 25
     },
     {
       "label": "get()",
@@ -3417,7 +3425,7 @@
       "source_file": "scripts\\send-onboarding-all.js",
       "source_location": "L8",
       "id": "send_onboarding_all_get",
-      "community": 24
+      "community": 25
     },
     {
       "label": "buildEmail()",
@@ -3425,7 +3433,7 @@
       "source_file": "scripts\\send-onboarding-all.js",
       "source_location": "L58",
       "id": "send_onboarding_all_buildemail",
-      "community": 24
+      "community": 25
     },
     {
       "label": "sendAll()",
@@ -3433,7 +3441,7 @@
       "source_file": "scripts\\send-onboarding-all.js",
       "source_location": "L171",
       "id": "send_onboarding_all_sendall",
-      "community": 24
+      "community": 25
     },
     {
       "label": "test-gmail.js",
@@ -3441,7 +3449,7 @@
       "source_file": "scripts\\test-gmail.js",
       "source_location": "L1",
       "id": "test_gmail",
-      "community": 49
+      "community": 51
     },
     {
       "label": "test-onboarding-email.js",
@@ -3449,7 +3457,7 @@
       "source_file": "scripts\\test-onboarding-email.js",
       "source_location": "L1",
       "id": "test_onboarding_email",
-      "community": 38
+      "community": 40
     },
     {
       "label": "get()",
@@ -3457,7 +3465,7 @@
       "source_file": "scripts\\test-onboarding-email.js",
       "source_location": "L9",
       "id": "test_onboarding_email_get",
-      "community": 38
+      "community": 40
     },
     {
       "label": "test-reddit-email.js",
@@ -3465,7 +3473,7 @@
       "source_file": "scripts\\test-reddit-email.js",
       "source_location": "L1",
       "id": "test_reddit_email",
-      "community": 25
+      "community": 26
     },
     {
       "label": "get()",
@@ -3473,7 +3481,7 @@
       "source_file": "scripts\\test-reddit-email.js",
       "source_location": "L11",
       "id": "test_reddit_email_get",
-      "community": 25
+      "community": 26
     },
     {
       "label": "callHaiku()",
@@ -3481,7 +3489,7 @@
       "source_file": "scripts\\test-reddit-email.js",
       "source_location": "L15",
       "id": "test_reddit_email_callhaiku",
-      "community": 25
+      "community": 26
     },
     {
       "label": "main()",
@@ -3489,7 +3497,7 @@
       "source_file": "scripts\\test-reddit-email.js",
       "source_location": "L42",
       "id": "test_reddit_email_main",
-      "community": 25
+      "community": 26
     },
     {
       "label": "update-article-images.ts",
@@ -3497,7 +3505,7 @@
       "source_file": "scripts\\update-article-images.ts",
       "source_location": "L1",
       "id": "update_article_images",
-      "community": 39
+      "community": 41
     },
     {
       "label": "main()",
@@ -3505,7 +3513,7 @@
       "source_file": "scripts\\update-article-images.ts",
       "source_location": "L20",
       "id": "update_article_images_main",
-      "community": 39
+      "community": 41
     },
     {
       "label": "AnimatedSection.tsx",
@@ -3513,7 +3521,7 @@
       "source_file": "src\\components\\ui\\AnimatedSection.tsx",
       "source_location": "L1",
       "id": "animatedsection",
-      "community": 17
+      "community": 18
     },
     {
       "label": "SplitTextReveal.tsx",
@@ -3521,7 +3529,7 @@
       "source_file": "src\\components\\ui\\SplitTextReveal.tsx",
       "source_location": "L1",
       "id": "splittextreveal",
-      "community": 17
+      "community": 18
     },
     {
       "label": "SplitTextReveal()",
@@ -3529,7 +3537,7 @@
       "source_file": "src\\components\\ui\\SplitTextReveal.tsx",
       "source_location": "L14",
       "id": "splittextreveal_splittextreveal",
-      "community": 17
+      "community": 18
     },
     {
       "label": "useGSAP.ts",
@@ -3537,7 +3545,7 @@
       "source_file": "src\\hooks\\useGSAP.ts",
       "source_location": "L1",
       "id": "usegsap",
-      "community": 17
+      "community": 18
     },
     {
       "label": "useFadeInUp()",
@@ -3545,7 +3553,7 @@
       "source_file": "src\\hooks\\useGSAP.ts",
       "source_location": "L5",
       "id": "usegsap_usefadeinup",
-      "community": 17
+      "community": 18
     },
     {
       "label": "useStaggerIn()",
@@ -3553,7 +3561,7 @@
       "source_file": "src\\hooks\\useGSAP.ts",
       "source_location": "L35",
       "id": "usegsap_usestaggerin",
-      "community": 17
+      "community": 18
     },
     {
       "label": "useParallax()",
@@ -3561,7 +3569,111 @@
       "source_file": "src\\hooks\\useGSAP.ts",
       "source_location": "L67",
       "id": "usegsap_useparallax",
-      "community": 17
+      "community": 18
+    },
+    {
+      "label": "copy.ts",
+      "file_type": "code",
+      "source_file": "src\\lib\\marketing\\copy.ts",
+      "source_location": "L1",
+      "id": "copy",
+      "community": 28
+    },
+    {
+      "label": "getVoiceSystemPrompt()",
+      "file_type": "code",
+      "source_file": "src\\lib\\marketing\\copy.ts",
+      "source_location": "L86",
+      "id": "copy_getvoicesystemprompt",
+      "community": 28
+    },
+    {
+      "label": "validateCopy()",
+      "file_type": "code",
+      "source_file": "src\\lib\\marketing\\copy.ts",
+      "source_location": "L105",
+      "id": "copy_validatecopy",
+      "community": 28
+    },
+    {
+      "label": "fallback-copy.ts",
+      "file_type": "code",
+      "source_file": "src\\lib\\marketing\\fallback-copy.ts",
+      "source_location": "L1",
+      "id": "fallback_copy",
+      "community": 19
+    },
+    {
+      "label": "fallbackHeadline()",
+      "file_type": "code",
+      "source_file": "src\\lib\\marketing\\fallback-copy.ts",
+      "source_location": "L5",
+      "id": "fallback_copy_fallbackheadline",
+      "community": 19
+    },
+    {
+      "label": "fallbackNarrative()",
+      "file_type": "code",
+      "source_file": "src\\lib\\marketing\\fallback-copy.ts",
+      "source_location": "L12",
+      "id": "fallback_copy_fallbacknarrative",
+      "community": 19
+    },
+    {
+      "label": "fallbackPullquote()",
+      "file_type": "code",
+      "source_file": "src\\lib\\marketing\\fallback-copy.ts",
+      "source_location": "L20",
+      "id": "fallback_copy_fallbackpullquote",
+      "community": 19
+    },
+    {
+      "label": "getRandomFallbackPullquote()",
+      "file_type": "code",
+      "source_file": "src\\lib\\marketing\\fallback-copy.ts",
+      "source_location": "L46",
+      "id": "fallback_copy_getrandomfallbackpullquote",
+      "community": 19
+    },
+    {
+      "label": "getNeighborhoodFallback()",
+      "file_type": "code",
+      "source_file": "src\\lib\\marketing\\fallback-copy.ts",
+      "source_location": "L56",
+      "id": "fallback_copy_getneighborhoodfallback",
+      "community": 19
+    },
+    {
+      "label": "getCompleteFallbackEditorial()",
+      "file_type": "code",
+      "source_file": "src\\lib\\marketing\\fallback-copy.ts",
+      "source_location": "L61",
+      "id": "fallback_copy_getcompletefallbackeditorial",
+      "community": 19
+    },
+    {
+      "label": "calculateLayoutRatios()",
+      "file_type": "code",
+      "source_file": "src\\lib\\marketing\\layout.ts",
+      "source_location": "L14",
+      "id": "layout_calculatelayoutratios",
+      "community": 10
+    },
+    {
+      "label": "createEditorialStructure()",
+      "file_type": "code",
+      "source_file": "src\\lib\\marketing\\layout.ts",
+      "source_location": "L92",
+      "id": "layout_createeditorialstructure",
+      "community": 10
+    },
+    {
+      "label": "getResponsiveLayout()",
+      "file_type": "code",
+      "source_file": "src\\lib\\marketing\\layout.ts",
+      "source_location": "L138",
+      "id": "layout_getresponsivelayout",
+      "community": 10
     },
     {
       "label": "auditor.ts",
@@ -3569,7 +3681,7 @@
       "source_file": "src\\mastra\\agents\\auditor.ts",
       "source_location": "L1",
       "id": "auditor",
-      "community": 19
+      "community": 20
     },
     {
       "label": "researcher.ts",
@@ -3577,7 +3689,7 @@
       "source_file": "src\\mastra\\agents\\researcher.ts",
       "source_location": "L1",
       "id": "researcher",
-      "community": 19
+      "community": 20
     },
     {
       "label": "schema-generator.ts",
@@ -3585,7 +3697,7 @@
       "source_file": "src\\mastra\\agents\\schema-generator.ts",
       "source_location": "L1",
       "id": "schema_generator",
-      "community": 19
+      "community": 20
     },
     {
       "label": "writer.ts",
@@ -3593,7 +3705,7 @@
       "source_file": "src\\mastra\\agents\\writer.ts",
       "source_location": "L1",
       "id": "writer",
-      "community": 19
+      "community": 20
     },
     {
       "label": "content-pipeline.ts",
@@ -3601,7 +3713,7 @@
       "source_file": "src\\mastra\\workflows\\content-pipeline.ts",
       "source_location": "L1",
       "id": "content_pipeline",
-      "community": 19
+      "community": 20
     }
   ],
   "links": [
@@ -3735,6 +3847,42 @@
       "_tgt": "layout_contactlayout",
       "source": "layout",
       "target": "layout_contactlayout",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\lib\\marketing\\layout.ts",
+      "source_location": "L14",
+      "weight": 1.0,
+      "_src": "layout",
+      "_tgt": "layout_calculatelayoutratios",
+      "source": "layout",
+      "target": "layout_calculatelayoutratios",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\lib\\marketing\\layout.ts",
+      "source_location": "L92",
+      "weight": 1.0,
+      "_src": "layout",
+      "_tgt": "layout_createeditorialstructure",
+      "source": "layout",
+      "target": "layout_createeditorialstructure",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\lib\\marketing\\layout.ts",
+      "source_location": "L138",
+      "weight": 1.0,
+      "_src": "layout",
+      "_tgt": "layout_getresponsivelayout",
+      "source": "layout",
+      "target": "layout_getresponsivelayout",
       "confidence_score": 1.0
     },
     {
@@ -4569,7 +4717,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "app\\api\\cron\\pipeline\\route.ts",
-      "source_location": "L152",
+      "source_location": "L174",
       "weight": 1.0,
       "_src": "route",
       "_tgt": "route_processleadwithretry",
@@ -4581,7 +4729,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "app\\api\\cron\\pipeline\\route.ts",
-      "source_location": "L208",
+      "source_location": "L230",
       "weight": 1.0,
       "_src": "route",
       "_tgt": "route_processlead",
@@ -4593,7 +4741,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "app\\api\\cron\\pipeline\\route.ts",
-      "source_location": "L686",
+      "source_location": "L708",
       "weight": 1.0,
       "_src": "route",
       "_tgt": "route_waitforreportlive",
@@ -5205,7 +5353,7 @@
       "relation": "calls",
       "confidence": "INFERRED",
       "source_file": "app\\api\\cron\\pipeline\\route.ts",
-      "source_location": "L157",
+      "source_location": "L179",
       "weight": 0.8,
       "_src": "route_processleadwithretry",
       "_tgt": "route_processlead",
@@ -5217,7 +5365,7 @@
       "relation": "calls",
       "confidence": "INFERRED",
       "source_file": "app\\api\\cron\\pipeline\\route.ts",
-      "source_location": "L584",
+      "source_location": "L606",
       "weight": 0.8,
       "_src": "route_processlead",
       "_tgt": "route_waitforreportlive",
@@ -10878,6 +11026,18 @@
       "confidence_score": 1.0
     },
     {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "lib\\telegram.ts",
+      "source_location": "L262",
+      "weight": 1.0,
+      "_src": "telegram",
+      "_tgt": "telegram_notifypipelinesuccess",
+      "source": "telegram",
+      "target": "telegram_notifypipelinesuccess",
+      "confidence_score": 1.0
+    },
+    {
       "relation": "calls",
       "confidence": "INFERRED",
       "source_file": "lib\\telegram.ts",
@@ -11043,6 +11203,18 @@
       "_tgt": "telegram_sendmessage",
       "source": "telegram_sendmessage",
       "target": "telegram_notifyblogbatchpublished",
+      "confidence_score": 0.5
+    },
+    {
+      "relation": "calls",
+      "confidence": "INFERRED",
+      "source_file": "lib\\telegram.ts",
+      "source_location": "L285",
+      "weight": 0.8,
+      "_src": "telegram_notifypipelinesuccess",
+      "_tgt": "telegram_sendmessage",
+      "source": "telegram_sendmessage",
+      "target": "telegram_notifypipelinesuccess",
       "confidence_score": 0.5
     },
     {
@@ -11788,6 +11960,150 @@
       "source": "usegsap",
       "target": "usegsap_useparallax",
       "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\lib\\marketing\\copy.ts",
+      "source_location": "L86",
+      "weight": 1.0,
+      "_src": "copy",
+      "_tgt": "copy_getvoicesystemprompt",
+      "source": "copy",
+      "target": "copy_getvoicesystemprompt",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\lib\\marketing\\copy.ts",
+      "source_location": "L105",
+      "weight": 1.0,
+      "_src": "copy",
+      "_tgt": "copy_validatecopy",
+      "source": "copy",
+      "target": "copy_validatecopy",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\lib\\marketing\\fallback-copy.ts",
+      "source_location": "L5",
+      "weight": 1.0,
+      "_src": "fallback_copy",
+      "_tgt": "fallback_copy_fallbackheadline",
+      "source": "fallback_copy",
+      "target": "fallback_copy_fallbackheadline",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\lib\\marketing\\fallback-copy.ts",
+      "source_location": "L12",
+      "weight": 1.0,
+      "_src": "fallback_copy",
+      "_tgt": "fallback_copy_fallbacknarrative",
+      "source": "fallback_copy",
+      "target": "fallback_copy_fallbacknarrative",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\lib\\marketing\\fallback-copy.ts",
+      "source_location": "L20",
+      "weight": 1.0,
+      "_src": "fallback_copy",
+      "_tgt": "fallback_copy_fallbackpullquote",
+      "source": "fallback_copy",
+      "target": "fallback_copy_fallbackpullquote",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\lib\\marketing\\fallback-copy.ts",
+      "source_location": "L46",
+      "weight": 1.0,
+      "_src": "fallback_copy",
+      "_tgt": "fallback_copy_getrandomfallbackpullquote",
+      "source": "fallback_copy",
+      "target": "fallback_copy_getrandomfallbackpullquote",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\lib\\marketing\\fallback-copy.ts",
+      "source_location": "L56",
+      "weight": 1.0,
+      "_src": "fallback_copy",
+      "_tgt": "fallback_copy_getneighborhoodfallback",
+      "source": "fallback_copy",
+      "target": "fallback_copy_getneighborhoodfallback",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\lib\\marketing\\fallback-copy.ts",
+      "source_location": "L61",
+      "weight": 1.0,
+      "_src": "fallback_copy",
+      "_tgt": "fallback_copy_getcompletefallbackeditorial",
+      "source": "fallback_copy",
+      "target": "fallback_copy_getcompletefallbackeditorial",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "confidence": "INFERRED",
+      "source_file": "src\\lib\\marketing\\fallback-copy.ts",
+      "source_location": "L63",
+      "weight": 0.8,
+      "_src": "fallback_copy_getcompletefallbackeditorial",
+      "_tgt": "fallback_copy_fallbackheadline",
+      "source": "fallback_copy_fallbackheadline",
+      "target": "fallback_copy_getcompletefallbackeditorial",
+      "confidence_score": 0.5
+    },
+    {
+      "relation": "calls",
+      "confidence": "INFERRED",
+      "source_file": "src\\lib\\marketing\\fallback-copy.ts",
+      "source_location": "L64",
+      "weight": 0.8,
+      "_src": "fallback_copy_getcompletefallbackeditorial",
+      "_tgt": "fallback_copy_fallbacknarrative",
+      "source": "fallback_copy_fallbacknarrative",
+      "target": "fallback_copy_getcompletefallbackeditorial",
+      "confidence_score": 0.5
+    },
+    {
+      "relation": "calls",
+      "confidence": "INFERRED",
+      "source_file": "src\\lib\\marketing\\fallback-copy.ts",
+      "source_location": "L65",
+      "weight": 0.8,
+      "_src": "fallback_copy_getcompletefallbackeditorial",
+      "_tgt": "fallback_copy_fallbackpullquote",
+      "source": "fallback_copy_fallbackpullquote",
+      "target": "fallback_copy_getcompletefallbackeditorial",
+      "confidence_score": 0.5
+    },
+    {
+      "relation": "calls",
+      "confidence": "INFERRED",
+      "source_file": "src\\lib\\marketing\\layout.ts",
+      "source_location": "L144",
+      "weight": 0.8,
+      "_src": "layout_getresponsivelayout",
+      "_tgt": "layout_calculatelayoutratios",
+      "source": "layout_calculatelayoutratios",
+      "target": "layout_getresponsivelayout",
+      "confidence_score": 0.5
     },
     {
       "relation": "imports_from",
