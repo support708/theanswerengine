@@ -3205,28 +3205,7 @@
       "Emergency Plumbing"
     ]
   },
-  {
     "id": 158,
-    "title": "Why AI Keeps Getting My Business Phone Number Wrong",
-    "slug": "why-ai-keeps-getting-my-business-phone-number-wrong",
-    "excerpt": "Customers can't reach your business because AI is recommending an outdated phone number. Here's why this happens and the exact fix.",
-    "category": "Business Pain Points",
-    "author": "The Answer Engine Team",
-    "readTime": "7 min",
-    "image": "/blog/why-ai-keeps-getting-my-business-phone-number-wrong.webp",
-    "publishDate": "2026-04-12",
-    "lastModified": "2026-04-12",
-    "featured": true,
-    "tags": [
-      "Business Pain Points",
-      "Phone Numbers",
-      "Contact Information",
-      "AI Accuracy",
-      "NAP Data"
-    ]
-  },
-  {
-    "id": 159,
     "title": "How TikTok Search Finds and Recommends Local Businesses",
     "slug": "how-tiktok-search-finds-local-businesses",
     "excerpt": "TikTok's AI search now recommends local businesses to 150M+ monthly users. Most service providers are completely invisible. Here's why.",
@@ -3246,7 +3225,7 @@
     ]
   },
   {
-    "id": 160,
+    "id": 159,
     "title": "How Therapists Get Found on AI Search",
     "slug": "how-therapists-get-found-on-ai-search",
     "excerpt": "Mental health seekers are asking ChatGPT and Gemini to recommend therapists. Most therapy practices haven't optimized for this high-intent traffic.",
@@ -3266,7 +3245,7 @@
     ]
   },
   {
-    "id": 161,
+    "id": 160,
     "title": "Does Responding to Reviews Help AI Recommend You",
     "slug": "does-responding-to-reviews-help-ai-recommend-you",
     "excerpt": "You've heard that responding to reviews helps SEO. But does it actually help AI recommend your business? Here's what the data shows.",
@@ -3286,7 +3265,7 @@
     ]
   },
   {
-    "id": 162,
+    "id": 161,
     "title": "How Small Town Businesses Get Found on AI Search",
     "slug": "how-small-town-businesses-get-found-on-ai-search",
     "excerpt": "Small towns face unique challenges in AI search. Limited reviews, sparse data, and local search complexity. Here's the strategy that works.",
