@@ -3205,6 +3205,7 @@
       "Emergency Plumbing"
     ]
   },
+  {
     "id": 158,
     "title": "How TikTok Search Finds and Recommends Local Businesses",
     "slug": "how-tiktok-search-finds-local-businesses",
@@ -3282,6 +3283,26 @@
       "Rural Areas",
       "Local Search",
       "AI Discovery"
+    ]
+  },
+  {
+    "id": 162,
+    "title": "Why AI Keeps Getting My Business Phone Number Wrong",
+    "slug": "why-ai-keeps-getting-my-business-phone-number-wrong",
+    "excerpt": "AI systems hallucinate or provide outdated business contact info. Here's why it happens and what signals AI systems actually trust.",
+    "category": "Business Pain Points",
+    "author": "The Answer Engine Team",
+    "readTime": "15 min",
+    "image": "/blog/why-ai-keeps-getting-my-business-phone-number-wrong.webp",
+    "publishDate": "2026-04-12",
+    "lastModified": "2026-04-12",
+    "featured": false,
+    "tags": [
+      "Contact Info",
+      "Business Phone Number",
+      "AI Data Quality",
+      "Business Visibility",
+      "Local Search"
     ]
   }
 ]
