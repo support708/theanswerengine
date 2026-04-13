@@ -835,5 +835,158 @@
       "total": 36
     },
     "priority": "P1"
+  },
+  {
+    "businessName": "Positive Electricians",
+    "contactName": "John (owner reference in reviews)",
+    "website": "https://positivelectricians.com/",
+    "phone": "844-411-0240",
+    "city": "Los Angeles",
+    "state": "",
+    "serviceNiche": "Electrician",
+    "reviewCount": 66,
+    "rating": 4.9,
+    "painSignals": [
+      "Positive Electricians has 66 Google reviews but is not recommended by AI assistants for \"Electrician in Los Angeles\""
+    ],
+    "citationResults": [
+      {
+        "platform": "chatgpt",
+        "query": "best Electrician in Los Angeles",
+        "cited": false,
+        "competitorsCited": [
+          "Express Electrical Services",
+          "Alex & Alex Electrical Services",
+          "The Electric Connection",
+          "Prime Electric",
+          "Powell Electric"
+        ]
+      }
+    ],
+    "differentiator": "Specializes in ADU electrical services and EV charger installations, Tesla and ChargePoint certified, top 1% BuildZoom score (123)",
+    "outreachReady": true,
+    "scoreBreakdown": {
+      "aiBlindSpot": 9,
+      "reputationStrength": 10.5,
+      "contentGap": 6,
+      "revenuePotential": 5,
+      "contactQuality": 3,
+      "total": 33.5
+    },
+    "priority": "P2"
+  },
+  {
+    "businessName": "Southwest Industrial Electric",
+    "contactName": "Not found",
+    "website": "https://www.southwestelectric.com/",
+    "phone": "(323) 215-1273",
+    "city": "Los Angeles",
+    "state": "",
+    "serviceNiche": "Electrician",
+    "painSignals": [
+      "Southwest Industrial Electric has Not found Google reviews but is not recommended by AI assistants for \"Electrician in Los Angeles\""
+    ],
+    "citationResults": [
+      {
+        "platform": "chatgpt",
+        "query": "best Electrician in Los Angeles",
+        "cited": false,
+        "competitorsCited": [
+          "Express Electrical Services",
+          "Alex & Alex Electrical Services",
+          "The Electric Connection",
+          "Prime Electric",
+          "Powell Electric"
+        ]
+      }
+    ],
+    "differentiator": "40+ years in business since 1988, focuses on commercial/industrial projects, 1,200+ projects annually, serves aerospace and media industries",
+    "outreachReady": true,
+    "scoreBreakdown": {
+      "aiBlindSpot": 9,
+      "reputationStrength": 0,
+      "contentGap": 6,
+      "revenuePotential": 5,
+      "contactQuality": 3,
+      "total": 23
+    },
+    "priority": "P3"
+  },
+  {
+    "businessName": "Conejo Heating, Air, Plumbing & Electrical",
+    "contactName": "Branden Dickey",
+    "website": "https://www.conejoservices.com/",
+    "phone": "(833) 539-8099",
+    "city": "Los Angeles",
+    "state": "",
+    "serviceNiche": "Electrician",
+    "reviewCount": 893,
+    "rating": 4.9,
+    "painSignals": [
+      "Conejo Heating, Air, Plumbing & Electrical has 893 Google reviews but is not recommended by AI assistants for \"Electrician in Los Angeles\""
+    ],
+    "citationResults": [
+      {
+        "platform": "chatgpt",
+        "query": "best Electrician in Los Angeles",
+        "cited": false,
+        "competitorsCited": [
+          "Express Electrical Services",
+          "Alex & Alex Electrical Services",
+          "The Electric Connection",
+          "Prime Electric",
+          "Powell Electric"
+        ]
+      }
+    ],
+    "differentiator": "Multi-service company since 1979 (45+ years), 100+ vehicle fleet, integrated HVAC/plumbing/electrical services, family-owned",
+    "outreachReady": true,
+    "scoreBreakdown": {
+      "aiBlindSpot": 9,
+      "reputationStrength": 12.5,
+      "contentGap": 6,
+      "revenuePotential": 5,
+      "contactQuality": 3,
+      "total": 35.5
+    },
+    "priority": "P1"
+  },
+  {
+    "businessName": "Instinct Electric",
+    "contactName": "Alonzo (owner reference in reviews)",
+    "website": "https://instinctelectric.com/",
+    "phone": "Not found",
+    "city": "Los Angeles",
+    "state": "",
+    "serviceNiche": "Electrician",
+    "rating": 5,
+    "painSignals": [
+      "Instinct Electric has Multiple platforms Google reviews but is not recommended by AI assistants for \"Electrician in Los Angeles\""
+    ],
+    "citationResults": [
+      {
+        "platform": "chatgpt",
+        "query": "best Electrician in Los Angeles",
+        "cited": false,
+        "competitorsCited": [
+          "Express Electrical Services",
+          "Alex & Alex Electrical Services",
+          "The Electric Connection",
+          "Prime Electric",
+          "Powell Electric"
+        ]
+      }
+    ],
+    "differentiator": "Perfect 5.0 rating on HomeAdvisor, specialized expertise, professional and trustworthy reputation, referenced in Angi top electricians",
+    "outreachReady": true,
+    "scoreBreakdown": {
+      "aiBlindSpot": 9,
+      "reputationStrength": 6.5,
+      "contentGap": 6,
+      "revenuePotential": 5,
+      "contactQuality": 3,
+      "total": 29.5
+    },
+    "priority": "P2"
   }
 ]

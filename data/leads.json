@@ -3321,5 +3321,51 @@
     ],
     "huntDifferentiator": "Veteran-owned, 30+ years experience, Armstrong and LG dealer, custom home specialist, no breakdown guarantee on maintenance plans, Gold/Platinum/Diamond membership tiers",
     "huntOutreachReady": true
+  },
+  {
+    "id": "lead_1776088872414_m7xnia",
+    "businessName": "Go Pro Electric Inc",
+    "contactFirstName": "Omer",
+    "contactEmail": "info@gopro-electric.com",
+    "websiteUrl": "https://gopro-electric.com/",
+    "city": "Los Angeles",
+    "serviceNiche": "Electrician",
+    "competitorName": "Express Electrical Services",
+    "reviewCount": 118,
+    "rating": 4.8,
+    "notes": "Auto-discovered by Lead Hunter. AI citation: not cited on 1/1 platforms. Competitors cited: Express Electrical Services, Alex & Alex Electrical Services, The Electric Connection. Outreach-ready: YES (citation data + contact + differentiator verified). Differentiator: 10+ years experience, specializes in panel upgrades and rewiring, responsive customer service, reasonable pricing",
+    "status": "queued",
+    "research": null,
+    "reportSlug": "go-pro-electric-inc-z0s9",
+    "emailDraftId": null,
+    "fabricationFlags": [],
+    "emDashClean": false,
+    "actionLog": [
+      {
+        "action": "Queued by Lead Hunter (P1, score: 37.5, outreach-ready: true)",
+        "timestamp": "2026-04-13T14:01:12.414Z"
+      }
+    ],
+    "createdAt": "2026-04-13T14:01:12.414Z",
+    "updatedAt": "2026-04-13T14:01:12.414Z",
+    "huntSource": "hunt_1776088811318_1mql",
+    "huntScore": 37.5,
+    "huntPriority": "P1",
+    "huntCitationResults": [
+      {
+        "platform": "chatgpt",
+        "query": "best Electrician in Los Angeles",
+        "cited": false,
+        "competitorsCited": [
+          "Express Electrical Services",
+          "Alex & Alex Electrical Services",
+          "The Electric Connection",
+          "Prime Electric",
+          "Powell Electric"
+        ]
+      }
+    ],
+    "huntDifferentiator": "10+ years experience, specializes in panel upgrades and rewiring, responsive customer service, reasonable pricing",
+    "huntOutreachReady": true
   }
 ]
