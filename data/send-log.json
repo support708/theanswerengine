@@ -90,6 +90,12 @@
       "email": "dalia@doctor.com",
       "type": "initial",
       "sentAt": "2026-04-10T18:00:17.881Z"
+    },
+    {
+      "leadId": "lead_1773022425366_w6qto8",
+      "email": "service@electricconnection.com",
+      "type": "follow_up_1",
+      "sentAt": "2026-04-13T16:00:43.833Z"
     }
   ]
 }
