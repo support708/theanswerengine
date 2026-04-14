@@ -3395,5 +3395,224 @@
     ],
     "huntDifferentiator": "10+ years experience, specializes in panel upgrades and rewiring, responsive customer service, reasonable pricing",
     "huntOutreachReady": true
+  },
+  {
+    "id": "lead_1776175265109_hf4ig3",
+    "businessName": "Robins Plumbing",
+    "contactFirstName": "Stephanie",
+    "contactEmail": "info@robinsplumbing.com",
+    "websiteUrl": "https://www.robinsplumbing.com/",
+    "city": "Phoenix",
+    "serviceNiche": "Plumber",
+    "competitorName": "Parker & Sons",
+    "reviewCount": 341,
+    "rating": 4.8,
+    "notes": "Auto-discovered by Lead Hunter. AI citation: not cited on 0/1 platforms. Competitors cited: Parker & Sons, Benjamin Franklin Plumbing. Outreach-ready: YES (citation data + contact + differentiator verified). Differentiator: Founded 2004 by Stephanie & Brian, 341+ reviews, mission focused on honesty and integrity, 24/7 emergency service",
+    "status": "queued",
+    "research": null,
+    "reportSlug": "robins-plumbing-7dnm",
+    "emailDraftId": null,
+    "fabricationFlags": [],
+    "emDashClean": false,
+    "actionLog": [
+      {
+        "action": "Queued by Lead Hunter (P2, score: 31.5, outreach-ready: true)",
+        "timestamp": "2026-04-14T14:01:05.109Z"
+      }
+    ],
+    "createdAt": "2026-04-14T14:01:05.109Z",
+    "updatedAt": "2026-04-14T14:01:05.109Z",
+    "huntSource": "hunt_1776175211411_1f1j",
+    "huntScore": 31.5,
+    "huntPriority": "P2",
+    "huntCitationResults": [
+      {
+        "platform": "chatgpt",
+        "query": "best Plumber in Phoenix",
+        "cited": true,
+        "competitorsCited": [
+          "Parker & Sons",
+          "Benjamin Franklin Plumbing"
+        ]
+      }
+    ],
+    "huntDifferentiator": "Founded 2004 by Stephanie & Brian, 341+ reviews, mission focused on honesty and integrity, 24/7 emergency service",
+    "huntOutreachReady": true
+  },
+  {
+    "id": "lead_1776175265110_w9xorm",
+    "businessName": "Phoenix Plumbing & Drain Service",
+    "contactFirstName": "Joe",
+    "contactEmail": "support@phoenixplumbanddrain.com",
+    "websiteUrl": "https://phoenixplumbanddrain.com/",
+    "city": "Phoenix",
+    "serviceNiche": "Plumber",
+    "competitorName": "Parker & Sons",
+    "reviewCount": 37,
+    "rating": 4.5,
+    "notes": "Auto-discovered by Lead Hunter. AI citation: not cited on 1/1 platforms. Competitors cited: Parker & Sons, Benjamin Franklin Plumbing, Robins Plumbing. Outreach-ready: YES (citation data + contact + differentiator verified). Differentiator: Established 1999, family-operated, 20+ years serving greater Phoenix, honest plumbing practices emphasis",
+    "status": "queued",
+    "research": null,
+    "reportSlug": "phoenix-plumbing-drain-service-pkyv",
+    "emailDraftId": null,
+    "fabricationFlags": [],
+    "emDashClean": false,
+    "actionLog": [
+      {
+        "action": "Queued by Lead Hunter (P2, score: 33, outreach-ready: true)",
+        "timestamp": "2026-04-14T14:01:05.110Z"
+      }
+    ],
+    "createdAt": "2026-04-14T14:01:05.110Z",
+    "updatedAt": "2026-04-14T14:01:05.110Z",
+    "huntSource": "hunt_1776175211411_1f1j",
+    "huntScore": 33,
+    "huntPriority": "P2",
+    "huntCitationResults": [
+      {
+        "platform": "chatgpt",
+        "query": "best Plumber in Phoenix",
+        "cited": false,
+        "competitorsCited": [
+          "Parker & Sons",
+          "Benjamin Franklin Plumbing",
+          "Robins Plumbing"
+        ]
+      }
+    ],
+    "huntDifferentiator": "Established 1999, family-operated, 20+ years serving greater Phoenix, honest plumbing practices emphasis",
+    "huntOutreachReady": true
+  },
+  {
+    "id": "lead_1776175265110_147915",
+    "businessName": "Apache Plumbing Services",
+    "contactFirstName": "Frank",
+    "contactEmail": "apacheplumbing@cox.net",
+    "websiteUrl": "https://www.apacheplumbingservices.com/",
+    "city": "Phoenix",
+    "serviceNiche": "Plumber",
+    "competitorName": "Parker & Sons",
+    "reviewCount": 102,
+    "rating": 4.7,
+    "notes": "Auto-discovered by Lead Hunter. AI citation: not cited on 1/1 platforms. Competitors cited: Parker & Sons, Benjamin Franklin Plumbing, Robins Plumbing. Outreach-ready: YES (citation data + contact + differentiator verified). Differentiator: Family-owned since 1999, 25+ years experience, BBB A+ rated, free estimates, emphasis on honesty and fair pricing",
+    "status": "queued",
+    "research": null,
+    "reportSlug": "apache-plumbing-services-fto0",
+    "emailDraftId": null,
+    "fabricationFlags": [],
+    "emDashClean": false,
+    "actionLog": [
+      {
+        "action": "Queued by Lead Hunter (P1, score: 37, outreach-ready: true)",
+        "timestamp": "2026-04-14T14:01:05.110Z"
+      }
+    ],
+    "createdAt": "2026-04-14T14:01:05.110Z",
+    "updatedAt": "2026-04-14T14:01:05.110Z",
+    "huntSource": "hunt_1776175211411_1f1j",
+    "huntScore": 37,
+    "huntPriority": "P1",
+    "huntCitationResults": [
+      {
+        "platform": "chatgpt",
+        "query": "best Plumber in Phoenix",
+        "cited": false,
+        "competitorsCited": [
+          "Parker & Sons",
+          "Benjamin Franklin Plumbing",
+          "Robins Plumbing"
+        ]
+      }
+    ],
+    "huntDifferentiator": "Family-owned since 1999, 25+ years experience, BBB A+ rated, free estimates, emphasis on honesty and fair pricing",
+    "huntOutreachReady": true
+  },
+  {
+    "id": "lead_1776175265110_xjhyyf",
+    "businessName": "Somers Plumbers",
+    "contactFirstName": "Dave",
+    "contactEmail": "somersplumbers@gmail.com",
+    "websiteUrl": "https://www.somersplumbers.net/",
+    "city": "Phoenix",
+    "serviceNiche": "Plumber",
+    "competitorName": "Parker & Sons",
+    "reviewCount": 71,
+    "rating": 4.5,
+    "notes": "Auto-discovered by Lead Hunter. AI citation: not cited on 1/1 platforms. Competitors cited: Parker & Sons, Benjamin Franklin Plumbing, Robins Plumbing. Outreach-ready: YES (citation data + contact + differentiator verified). Differentiator: Small company emphasizing quality at reasonable prices, lifetime workmanship guarantee, eco-friendly training program award",
+    "status": "queued",
+    "research": null,
+    "reportSlug": "somers-plumbers-b3gg",
+    "emailDraftId": null,
+    "fabricationFlags": [],
+    "emDashClean": false,
+    "actionLog": [
+      {
+        "action": "Queued by Lead Hunter (P1, score: 35, outreach-ready: true)",
+        "timestamp": "2026-04-14T14:01:05.110Z"
+      }
+    ],
+    "createdAt": "2026-04-14T14:01:05.110Z",
+    "updatedAt": "2026-04-14T14:01:05.110Z",
+    "huntSource": "hunt_1776175211411_1f1j",
+    "huntScore": 35,
+    "huntPriority": "P1",
+    "huntCitationResults": [
+      {
+        "platform": "chatgpt",
+        "query": "best Plumber in Phoenix",
+        "cited": false,
+        "competitorsCited": [
+          "Parker & Sons",
+          "Benjamin Franklin Plumbing",
+          "Robins Plumbing"
+        ]
+      }
+    ],
+    "huntDifferentiator": "Small company emphasizing quality at reasonable prices, lifetime workmanship guarantee, eco-friendly training program award",
+    "huntOutreachReady": true
+  },
+  {
+    "id": "lead_1776175265110_aqw6pv",
+    "businessName": "Pink Plumbing & Sewer",
+    "contactFirstName": "Lou",
+    "contactEmail": "pinkplumbingandsewer@gmail.com",
+    "websiteUrl": "https://pinkplumbingandsewer.com/",
+    "city": "Phoenix",
+    "serviceNiche": "Plumber",
+    "competitorName": "Parker & Sons",
+    "reviewCount": 871,
+    "rating": 4.9,
+    "notes": "Auto-discovered by Lead Hunter. AI citation: not cited on 1/1 platforms. Competitors cited: Parker & Sons, Benjamin Franklin Plumbing, Robins Plumbing. Outreach-ready: YES (citation data + contact + differentiator verified). Differentiator: Family-owned 60+ years, 871 Yelp reviews with 4.9 rating, 24/7 emergency service, upfront flat-rate pricing, donates profits to cancer victims",
+    "status": "queued",
+    "research": null,
+    "reportSlug": "pink-plumbing-sewer-fi6z",
+    "emailDraftId": null,
+    "fabricationFlags": [],
+    "emDashClean": false,
+    "actionLog": [
+      {
+        "action": "Queued by Lead Hunter (P1, score: 37, outreach-ready: true)",
+        "timestamp": "2026-04-14T14:01:05.110Z"
+      }
+    ],
+    "createdAt": "2026-04-14T14:01:05.110Z",
+    "updatedAt": "2026-04-14T14:01:05.110Z",
+    "huntSource": "hunt_1776175211411_1f1j",
+    "huntScore": 37,
+    "huntPriority": "P1",
+    "huntCitationResults": [
+      {
+        "platform": "chatgpt",
+        "query": "best Plumber in Phoenix",
+        "cited": false,
+        "competitorsCited": [
+          "Parker & Sons",
+          "Benjamin Franklin Plumbing",
+          "Robins Plumbing"
+        ]
+      }
+    ],
+    "huntDifferentiator": "Family-owned 60+ years, 871 Yelp reviews with 4.9 rating, 24/7 emergency service, upfront flat-rate pricing, donates profits to cancer victims",
+    "huntOutreachReady": true
   }
 ]

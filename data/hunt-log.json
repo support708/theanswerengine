@@ -164,5 +164,20 @@
     "outreachReadyCount": 1,
     "errors": [],
     "completedAt": "2026-04-13T14:01:12.414Z"
+  },
+  {
+    "id": "hunt_1776175211411_1f1j",
+    "startedAt": "2026-04-14T14:00:11.412Z",
+    "trigger": "cron_daily",
+    "vertical": "Plumber",
+    "metro": "Phoenix, AZ",
+    "prospectsFound": 10,
+    "p1Queued": 3,
+    "p2Queued": 2,
+    "p3Backlogged": 4,
+    "duplicatesSkipped": 1,
+    "outreachReadyCount": 5,
+    "errors": [],
+    "completedAt": "2026-04-14T14:01:05.110Z"
   }
 ]

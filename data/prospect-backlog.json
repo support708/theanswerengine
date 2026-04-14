@@ -988,5 +988,152 @@
       "total": 29.5
     },
     "priority": "P2"
+  },
+  {
+    "businessName": "Deer Valley Plumbing & Air Conditioning",
+    "contactName": "Aubrey Dell",
+    "website": "https://www.deervalleyplumbing.com/",
+    "phone": "(623) 227-4322",
+    "city": "Phoenix",
+    "state": "AZ",
+    "serviceNiche": "Plumber",
+    "reviewCount": 59,
+    "rating": 4.7,
+    "painSignals": [
+      "Deer Valley Plumbing & Air Conditioning has 59 Google reviews but is not recommended by AI assistants for \"Plumber in Phoenix\""
+    ],
+    "citationResults": [
+      {
+        "platform": "chatgpt",
+        "query": "best Plumber in Phoenix",
+        "cited": false,
+        "competitorsCited": [
+          "Parker & Sons",
+          "Benjamin Franklin Plumbing",
+          "Robins Plumbing"
+        ]
+      }
+    ],
+    "differentiator": "Family-owned since 1989, 50,000+ happy customers, 100% satisfaction guarantee, same-day service available",
+    "outreachReady": true,
+    "scoreBreakdown": {
+      "aiBlindSpot": 8.5,
+      "reputationStrength": 10.5,
+      "contentGap": 6,
+      "revenuePotential": 5,
+      "contactQuality": 3,
+      "total": 33
+    },
+    "priority": "P2"
+  },
+  {
+    "businessName": "Custom Plumbing of Arizona",
+    "contactName": "Family-owned business",
+    "website": "https://customplumbingaz.com/",
+    "phone": "(602) 866-2665",
+    "city": "Phoenix",
+    "state": "AZ",
+    "serviceNiche": "Plumber",
+    "reviewCount": 160,
+    "rating": 4.5,
+    "painSignals": [
+      "Custom Plumbing of Arizona has 160 Google reviews but is not recommended by AI assistants for \"Plumber in Phoenix\""
+    ],
+    "citationResults": [
+      {
+        "platform": "chatgpt",
+        "query": "best Plumber in Phoenix",
+        "cited": false,
+        "competitorsCited": [
+          "Parker & Sons",
+          "Benjamin Franklin Plumbing",
+          "Robins Plumbing"
+        ]
+      }
+    ],
+    "differentiator": "Known as 'The Drain Whisperers', $69 drain special, serving since 2001, BBB A+ rated, price match guarantee",
+    "outreachReady": true,
+    "scoreBreakdown": {
+      "aiBlindSpot": 8.5,
+      "reputationStrength": 12.5,
+      "contentGap": 6,
+      "revenuePotential": 5,
+      "contactQuality": 3,
+      "total": 35
+    },
+    "priority": "P1"
+  },
+  {
+    "businessName": "ASAP Plumbing",
+    "contactName": "Rob Martinez (General Manager)",
+    "website": "https://asapplumbingaz.com/",
+    "phone": "(480) 447-7911",
+    "city": "Phoenix",
+    "state": "AZ",
+    "serviceNiche": "Plumber",
+    "reviewCount": 347,
+    "rating": 4.8,
+    "painSignals": [
+      "ASAP Plumbing has 347 Google reviews but is not recommended by AI assistants for \"Plumber in Phoenix\""
+    ],
+    "citationResults": [
+      {
+        "platform": "chatgpt",
+        "query": "best Plumber in Phoenix",
+        "cited": false,
+        "competitorsCited": [
+          "Parker & Sons",
+          "Benjamin Franklin Plumbing",
+          "Robins Plumbing"
+        ]
+      }
+    ],
+    "differentiator": "Established 2014, 60-minute emergency response, 1278+ reviews, 100% satisfaction guarantee, upfront pricing, BBB accredited",
+    "outreachReady": true,
+    "scoreBreakdown": {
+      "aiBlindSpot": 8.5,
+      "reputationStrength": 12.5,
+      "contentGap": 6,
+      "revenuePotential": 5,
+      "contactQuality": 3,
+      "total": 35
+    },
+    "priority": "P1"
+  },
+  {
+    "businessName": "Benjamin Franklin Plumbing",
+    "contactName": "Mike Brewer (CEO/Owner)",
+    "website": "https://www.benfranklinplumbingaz.com/",
+    "phone": "(602) 461-8364",
+    "city": "Phoenix",
+    "state": "AZ",
+    "serviceNiche": "Plumber",
+    "reviewCount": 83,
+    "rating": 4.6,
+    "painSignals": [
+      "Benjamin Franklin Plumbing appears in AI recommendations but may have optimization gaps"
+    ],
+    "citationResults": [
+      {
+        "platform": "chatgpt",
+        "query": "best Plumber in Phoenix",
+        "cited": true,
+        "competitorsCited": [
+          "Parker & Sons",
+          "Robins Plumbing"
+        ]
+      }
+    ],
+    "differentiator": "Operating since 1981, taken BF name in 2003, $5 per minute late guarantee, 1,700+ five-star reviews, Forbes Top Ranked 2024",
+    "outreachReady": true,
+    "scoreBreakdown": {
+      "aiBlindSpot": 3,
+      "reputationStrength": 10.5,
+      "contentGap": 6,
+      "revenuePotential": 5,
+      "contactQuality": 3,
+      "total": 27.5
+    },
+    "priority": "P2"
   }
 ]
