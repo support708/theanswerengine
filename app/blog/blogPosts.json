@@ -3304,5 +3304,105 @@
       "Business Visibility",
       "Local Search"
     ]
+  },
+  {
+    "id": 163,
+    "title": "How Dentists Get Found on AI Search",
+    "slug": "how-dentists-get-found-on-ai-search",
+    "excerpt": "AI Overviews appear on 75% of dental queries and 47% of patients under 40 use AI to find providers. Here is how dental practices get recommended.",
+    "category": "Industry Guides",
+    "author": "The Answer Engine Team",
+    "readTime": "15 min",
+    "image": "/blog/how-dentists-get-found-on-ai-search.webp",
+    "publishDate": "2026-04-14",
+    "lastModified": "2026-04-14",
+    "featured": true,
+    "tags": [
+      "Industry Guides",
+      "Dentists",
+      "AI Search",
+      "Dental AEO",
+      "Patient Discovery"
+    ]
+  },
+  {
+    "id": 164,
+    "title": "Why AI Recommends My Competitor Over Me",
+    "slug": "why-ai-recommends-my-competitor-over-me",
+    "excerpt": "AI recommends competitors not because they are better, but because they are better understood. Learn exactly what signals give your competitor the AI visibility edge.",
+    "category": "Business Pain Points",
+    "author": "The Answer Engine Team",
+    "readTime": "14 min",
+    "image": "/blog/why-ai-recommends-my-competitor-over-me.webp",
+    "publishDate": "2026-04-14",
+    "lastModified": "2026-04-14",
+    "featured": true,
+    "tags": [
+      "Business Pain Points",
+      "Competitor Analysis",
+      "AI Authority",
+      "Visibility Gap",
+      "AI Citations"
+    ]
+  },
+  {
+    "id": 165,
+    "title": "Does Social Media Help AI Recommend Your Business",
+    "slug": "does-social-media-help-ai-recommend-your-business",
+    "excerpt": "Follower counts don't move ChatGPT. Learn which social media signals actually influence AI recommendations and which ones waste your time entirely.",
+    "category": "Myth Busters",
+    "author": "The Answer Engine Team",
+    "readTime": "9 min",
+    "image": "/blog/does-social-media-help-ai-recommend-your-business.webp",
+    "publishDate": "2026-04-14",
+    "lastModified": "2026-04-14",
+    "featured": true,
+    "tags": [
+      "Myth Busters",
+      "Social Media",
+      "AI Algorithm",
+      "Business Growth",
+      "Content Strategy"
+    ]
+  },
+  {
+    "id": 166,
+    "title": "How AI Decides What Questions to Answer About Your Business",
+    "slug": "how-ai-decides-what-questions-to-answer-about-your-business",
+    "excerpt": "AI uses entity recognition and knowledge graph data to decide which businesses it answers questions about. Learn the signals that determine visibility.",
+    "category": "AEO Education",
+    "author": "The Answer Engine Team",
+    "readTime": "13 min",
+    "image": "/blog/how-ai-decides-what-questions-to-answer-about-your-business.webp",
+    "publishDate": "2026-04-14",
+    "lastModified": "2026-04-14",
+    "featured": true,
+    "tags": [
+      "AEO Education",
+      "AI Decision-Making",
+      "Knowledge Graphs",
+      "Entity Recognition",
+      "Visibility Threshold"
+    ]
+  },
+  {
+    "id": 167,
+    "title": "How to Get Your Law Firm Found on AI Search",
+    "slug": "how-to-get-your-law-firm-found-on-ai-search",
+    "excerpt": "The 4 R's framework law firms need to show up in ChatGPT, Gemini, and Perplexity. Real data on why legal directories dominate AI training data.",
+    "category": "How-To Guides",
+    "author": "The Answer Engine Team",
+    "readTime": "14 min",
+    "image": "/blog/how-to-get-your-law-firm-found-on-ai-search.webp",
+    "publishDate": "2026-04-14",
+    "lastModified": "2026-04-14",
+    "featured": true,
+    "tags": [
+      "How-To Guides",
+      "Law Firms",
+      "Legal AEO",
+      "AI Directories",
+      "Legal Marketing"
+    ]
   }
 ]
