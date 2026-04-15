@@ -3404,5 +3404,105 @@
       "AI Directories",
       "Legal Marketing"
     ]
+  },
+  {
+    "id": 168,
+    "title": "Does Getting More Reviews Help AI Find You?",
+    "slug": "does-more-reviews-help-ai-find-you",
+    "excerpt": "More reviews feel like progress, but AI does not work like Yelp. Discover what review signals actually move the needle for AI search recommendations.",
+    "category": "Myth Busters",
+    "author": "The Answer Engine Team",
+    "readTime": "7 min",
+    "image": "/blog/does-more-reviews-help-ai-find-you.webp",
+    "publishDate": "2026-04-15",
+    "lastModified": "2026-04-15",
+    "featured": true,
+    "tags": [
+      "reviews",
+      "AI recommendations",
+      "myth busters",
+      "local business",
+      "AI search"
+    ]
+  },
+  {
+    "id": 169,
+    "title": "Why AI Knows Your Competitor Better Than It Knows You",
+    "slug": "why-ai-knows-your-competitor-better-than-you",
+    "excerpt": "Your competitor shows up in AI recommendations and you do not. The gap is not about luck. It is about information depth, and it is fixable.",
+    "category": "Business Pain Points",
+    "author": "The Answer Engine Team",
+    "readTime": "8 min",
+    "image": "/blog/why-ai-knows-your-competitor-better-than-you.webp",
+    "publishDate": "2026-04-15",
+    "lastModified": "2026-04-15",
+    "featured": true,
+    "tags": [
+      "competitor advantage",
+      "AI recommendations",
+      "business pain points",
+      "AI visibility",
+      "information gap"
+    ]
+  },
+  {
+    "id": 170,
+    "title": "How Personal Trainers Get Found on AI Search",
+    "slug": "how-personal-trainers-get-found-on-ai-search",
+    "excerpt": "Potential clients are asking ChatGPT and Google AI to find personal trainers near them. Here is what determines whether AI recommends you or someone else.",
+    "category": "Industry Guides",
+    "author": "The Answer Engine Team",
+    "readTime": "8 min",
+    "image": "/blog/how-personal-trainers-get-found-on-ai-search.webp",
+    "publishDate": "2026-04-15",
+    "lastModified": "2026-04-15",
+    "featured": true,
+    "tags": [
+      "personal trainers",
+      "fitness",
+      "AI search",
+      "industry guide",
+      "local search"
+    ]
+  },
+  {
+    "id": 171,
+    "title": "Free Business Listings vs Paid Ads for AI Visibility",
+    "slug": "free-listings-vs-paid-ads-for-ai-visibility",
+    "excerpt": "Spending money on Google Ads while ignoring free directory listings? That strategy may be backwards for AI search. Here is what actually drives AI citations.",
+    "category": "Comparisons",
+    "author": "The Answer Engine Team",
+    "readTime": "7 min",
+    "image": "/blog/free-listings-vs-paid-ads-for-ai-visibility.webp",
+    "publishDate": "2026-04-15",
+    "lastModified": "2026-04-15",
+    "featured": true,
+    "tags": [
+      "paid ads",
+      "free listings",
+      "AI visibility",
+      "Google Ads",
+      "directories"
+    ]
+  },
+  {
+    "id": 172,
+    "title": "What AI Does With Your Business Before Answering",
+    "slug": "what-ai-does-with-your-business-before-answering",
+    "excerpt": "Before ChatGPT or Perplexity recommends a business, it runs through an invisible evaluation process. Here is what that pipeline looks like for your business.",
+    "category": "AEO Education",
+    "author": "The Answer Engine Team",
+    "readTime": "9 min",
+    "image": "/blog/what-ai-does-with-your-business-before-answering.webp",
+    "publishDate": "2026-04-15",
+    "lastModified": "2026-04-15",
+    "featured": true,
+    "tags": [
+      "AEO education",
+      "AI pipeline",
+      "confidence scoring",
+      "entity recognition",
+      "AI recommendations"
+    ]
   }
 ]
