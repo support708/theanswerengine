@@ -1135,5 +1135,81 @@
       "total": 27.5
     },
     "priority": "P2"
+  },
+  {
+    "businessName": "Clear View Roofing and Construction",
+    "contactName": "Vahram Hakobyan",
+    "website": "https://clearviewroofers.com/",
+    "phone": "(866) 253-2789",
+    "city": "Los Angeles",
+    "state": "",
+    "serviceNiche": "Roofing Contractor",
+    "reviewCount": 79,
+    "rating": 4.8,
+    "painSignals": [
+      "Clear View Roofing and Construction appears in AI recommendations but may have optimization gaps"
+    ],
+    "citationResults": [
+      {
+        "platform": "chatgpt",
+        "query": "best Roofing Contractor in Los Angeles",
+        "cited": true,
+        "competitorsCited": [
+          "Top Roofing Inc",
+          "Hunters Roofing",
+          "EBA Roofing",
+          "Express Roofing"
+        ]
+      }
+    ],
+    "differentiator": "Family-owned, Owens Corning Preferred Contractor with 50-year warranty options, 340+ projects in 3 years, BuildZoom score 115",
+    "outreachReady": true,
+    "scoreBreakdown": {
+      "aiBlindSpot": 5,
+      "reputationStrength": 10.5,
+      "contentGap": 6,
+      "revenuePotential": 6,
+      "contactQuality": 3,
+      "total": 30.5
+    },
+    "priority": "P2"
+  },
+  {
+    "businessName": "Top Roofing Inc",
+    "contactName": "Marc Ravid",
+    "website": "https://latoproofing.com/",
+    "phone": "(818) 588-4066",
+    "city": "Los Angeles",
+    "state": "",
+    "serviceNiche": "Roofing Contractor",
+    "reviewCount": 500,
+    "rating": 4.8,
+    "painSignals": [
+      "Top Roofing Inc appears in AI recommendations but may have optimization gaps"
+    ],
+    "citationResults": [
+      {
+        "platform": "chatgpt",
+        "query": "best Roofing Contractor in Los Angeles",
+        "cited": true,
+        "competitorsCited": [
+          "Clear View Roofing and Construction",
+          "Hunters Roofing",
+          "EBA Roofing",
+          "Express Roofing"
+        ]
+      }
+    ],
+    "differentiator": "25+ years experience, 500+ Yelp reviews, family-owned, completes most replacements in 2-3 days, Owens Corning Preferred Contractor",
+    "outreachReady": true,
+    "scoreBreakdown": {
+      "aiBlindSpot": 5,
+      "reputationStrength": 12.5,
+      "contentGap": 6,
+      "revenuePotential": 6,
+      "contactQuality": 3,
+      "total": 32.5
+    },
+    "priority": "P2"
   }
 ]

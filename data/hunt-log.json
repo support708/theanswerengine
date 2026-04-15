@@ -179,5 +179,20 @@
     "outreachReadyCount": 5,
     "errors": [],
     "completedAt": "2026-04-14T14:01:05.110Z"
+  },
+  {
+    "id": "hunt_1776261611977_ic53",
+    "startedAt": "2026-04-15T14:00:11.977Z",
+    "trigger": "cron_daily",
+    "vertical": "Roofing Contractor",
+    "metro": "Los Angeles",
+    "prospectsFound": 10,
+    "p1Queued": 1,
+    "p2Queued": 3,
+    "p3Backlogged": 2,
+    "duplicatesSkipped": 4,
+    "outreachReadyCount": 4,
+    "errors": [],
+    "completedAt": "2026-04-15T14:01:14.433Z"
   }
 ]

@@ -3618,5 +3618,187 @@
     ],
     "huntDifferentiator": "Family-owned 60+ years, 871 Yelp reviews with 4.9 rating, 24/7 emergency service, upfront flat-rate pricing, donates profits to cancer victims",
     "huntOutreachReady": true
+  },
+  {
+    "id": "lead_1776261674432_pqwjkz",
+    "businessName": "EBA Roofing",
+    "contactFirstName": "Ben",
+    "contactEmail": "info@ebaroofing.com",
+    "websiteUrl": "https://ebaroofing.com/",
+    "city": "Los Angeles",
+    "serviceNiche": "Roofing Contractor",
+    "competitorName": "Clear View Roofing and Construction",
+    "reviewCount": 31,
+    "rating": 4.9,
+    "notes": "Auto-discovered by Lead Hunter. AI citation: not cited on 0/1 platforms. Competitors cited: Clear View Roofing and Construction, Top Roofing Inc, Hunters Roofing. Outreach-ready: YES (citation data + contact + differentiator verified). Differentiator: 20+ years experience, Houzz rated 4.9/5, founded 2018 but owner has 20 years roofing background, GAF and Owens Corning certified",
+    "status": "queued",
+    "research": null,
+    "reportSlug": "eba-roofing-pmk1",
+    "emailDraftId": null,
+    "fabricationFlags": [],
+    "emDashClean": false,
+    "actionLog": [
+      {
+        "action": "Queued by Lead Hunter (P2, score: 31, outreach-ready: true)",
+        "timestamp": "2026-04-15T14:01:14.432Z"
+      }
+    ],
+    "createdAt": "2026-04-15T14:01:14.432Z",
+    "updatedAt": "2026-04-15T14:01:14.432Z",
+    "huntSource": "hunt_1776261611977_ic53",
+    "huntScore": 31,
+    "huntPriority": "P2",
+    "huntCitationResults": [
+      {
+        "platform": "chatgpt",
+        "query": "best Roofing Contractor in Los Angeles",
+        "cited": true,
+        "competitorsCited": [
+          "Clear View Roofing and Construction",
+          "Top Roofing Inc",
+          "Hunters Roofing",
+          "Express Roofing"
+        ]
+      }
+    ],
+    "huntDifferentiator": "20+ years experience, Houzz rated 4.9/5, founded 2018 but owner has 20 years roofing background, GAF and Owens Corning certified",
+    "huntOutreachReady": true
+  },
+  {
+    "id": "lead_1776261674432_kwu25n",
+    "businessName": "Roof Replacement Inc",
+    "contactFirstName": "Adolfo",
+    "contactEmail": "contact@roofreplacementinc.com",
+    "websiteUrl": "https://www.roofreplacementca.com/",
+    "city": "Los Angeles",
+    "serviceNiche": "Roofing Contractor",
+    "competitorName": "Clear View Roofing and Construction",
+    "reviewCount": null,
+    "rating": null,
+    "notes": "Auto-discovered by Lead Hunter. AI citation: not cited on 1/1 platforms. Competitors cited: Clear View Roofing and Construction, Top Roofing Inc, Hunters Roofing. Outreach-ready: YES (citation data + contact + differentiator verified). Differentiator: In business since 1985, 30-year durability guarantee, covers Lancaster to Long Beach area, specialized in deck waterproofing",
+    "status": "queued",
+    "research": null,
+    "reportSlug": "roof-replacement-inc-zneh",
+    "emailDraftId": null,
+    "fabricationFlags": [],
+    "emDashClean": false,
+    "actionLog": [
+      {
+        "action": "Queued by Lead Hunter (P2, score: 26, outreach-ready: true)",
+        "timestamp": "2026-04-15T14:01:14.432Z"
+      }
+    ],
+    "createdAt": "2026-04-15T14:01:14.432Z",
+    "updatedAt": "2026-04-15T14:01:14.432Z",
+    "huntSource": "hunt_1776261611977_ic53",
+    "huntScore": 26,
+    "huntPriority": "P2",
+    "huntCitationResults": [
+      {
+        "platform": "chatgpt",
+        "query": "best Roofing Contractor in Los Angeles",
+        "cited": false,
+        "competitorsCited": [
+          "Clear View Roofing and Construction",
+          "Top Roofing Inc",
+          "Hunters Roofing",
+          "EBA Roofing",
+          "Express Roofing"
+        ]
+      }
+    ],
+    "huntDifferentiator": "In business since 1985, 30-year durability guarantee, covers Lancaster to Long Beach area, specialized in deck waterproofing",
+    "huntOutreachReady": true
+  },
+  {
+    "id": "lead_1776261674433_nub55z",
+    "businessName": "Modern Roofing Inc",
+    "contactFirstName": "Mario",
+    "contactEmail": "info@modernroofingsystems.com",
+    "websiteUrl": "https://modernroofing.net/",
+    "city": "Los Angeles",
+    "serviceNiche": "Roofing Contractor",
+    "competitorName": "Clear View Roofing and Construction",
+    "reviewCount": 300,
+    "rating": 4.6,
+    "notes": "Auto-discovered by Lead Hunter. AI citation: not cited on 1/1 platforms. Competitors cited: Clear View Roofing and Construction, Top Roofing Inc, Hunters Roofing. Outreach-ready: YES (citation data + contact + differentiator verified). Differentiator: Founded 2000, awarded Best Roofing Company in Los Angeles, 20 years experience, GAF Certified Weather Stopper, in-house crews only",
+    "status": "queued",
+    "research": null,
+    "reportSlug": "modern-roofing-inc-a1o9",
+    "emailDraftId": null,
+    "fabricationFlags": [],
+    "emDashClean": false,
+    "actionLog": [
+      {
+        "action": "Queued by Lead Hunter (P1, score: 38.5, outreach-ready: true)",
+        "timestamp": "2026-04-15T14:01:14.432Z"
+      }
+    ],
+    "createdAt": "2026-04-15T14:01:14.432Z",
+    "updatedAt": "2026-04-15T14:01:14.432Z",
+    "huntSource": "hunt_1776261611977_ic53",
+    "huntScore": 38.5,
+    "huntPriority": "P1",
+    "huntCitationResults": [
+      {
+        "platform": "chatgpt",
+        "query": "best Roofing Contractor in Los Angeles",
+        "cited": false,
+        "competitorsCited": [
+          "Clear View Roofing and Construction",
+          "Top Roofing Inc",
+          "Hunters Roofing",
+          "EBA Roofing",
+          "Express Roofing"
+        ]
+      }
+    ],
+    "huntDifferentiator": "Founded 2000, awarded Best Roofing Company in Los Angeles, 20 years experience, GAF Certified Weather Stopper, in-house crews only",
+    "huntOutreachReady": true
+  },
+  {
+    "id": "lead_1776261674433_yxiokh",
+    "businessName": "Express Roofing",
+    "contactFirstName": "Amit",
+    "contactEmail": "expressroofers@gmail.com",
+    "websiteUrl": "https://expressroofinginc.com/",
+    "city": "Los Angeles",
+    "serviceNiche": "Roofing Contractor",
+    "competitorName": "Clear View Roofing and Construction",
+    "reviewCount": 44,
+    "rating": 4.9,
+    "notes": "Auto-discovered by Lead Hunter. AI citation: not cited on 0/1 platforms. Competitors cited: Clear View Roofing and Construction, Top Roofing Inc, Hunters Roofing. Outreach-ready: YES (citation data + contact + differentiator verified). Differentiator: Family-owned since 1984, completes roofs in 3 days, 50-year labor warranty, Owens Corning and GAF certified, extensive positive reviews",
+    "status": "queued",
+    "research": null,
+    "reportSlug": "express-roofing-9ucg",
+    "emailDraftId": null,
+    "fabricationFlags": [],
+    "emDashClean": false,
+    "actionLog": [
+      {
+        "action": "Queued by Lead Hunter (P2, score: 31, outreach-ready: true)",
+        "timestamp": "2026-04-15T14:01:14.433Z"
+      }
+    ],
+    "createdAt": "2026-04-15T14:01:14.433Z",
+    "updatedAt": "2026-04-15T14:01:14.433Z",
+    "huntSource": "hunt_1776261611977_ic53",
+    "huntScore": 31,
+    "huntPriority": "P2",
+    "huntCitationResults": [
+      {
+        "platform": "chatgpt",
+        "query": "best Roofing Contractor in Los Angeles",
+        "cited": true,
+        "competitorsCited": [
+          "Clear View Roofing and Construction",
+          "Top Roofing Inc",
+          "Hunters Roofing",
+          "EBA Roofing"
+        ]
+      }
+    ],
+    "huntDifferentiator": "Family-owned since 1984, completes roofs in 3 days, 50-year labor warranty, Owens Corning and GAF certified, extensive positive reviews",
+    "huntOutreachReady": true
   }
 ]
