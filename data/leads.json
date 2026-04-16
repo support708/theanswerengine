@@ -3800,5 +3800,460 @@
     ],
     "huntDifferentiator": "Family-owned since 1984, completes roofs in 3 days, 50-year labor warranty, Owens Corning and GAF certified, extensive positive reviews",
     "huntOutreachReady": true
+  },
+  {
+    "id": "lead_1776348067192_8dhgv1",
+    "businessName": "AZ Family Dental",
+    "contactFirstName": "Dr.",
+    "contactEmail": "tbird@azfd.com",
+    "websiteUrl": "",
+    "city": "Phoenix",
+    "serviceNiche": "Dentist",
+    "competitorName": "Central Valley Dentistry",
+    "reviewCount": null,
+    "rating": null,
+    "notes": "Auto-discovered by Lead Hunter. AI citation: not cited on 1/1 platforms. Competitors cited: Central Valley Dentistry, Phoenix Valley Dental, Downtown Phoenix Dental. Outreach-ready: YES (citation data + contact + differentiator verified). Differentiator: Multiple Phoenix locations offering emergency dental care and same-day dentistry",
+    "status": "queued",
+    "research": null,
+    "reportSlug": "az-family-dental-zk63",
+    "emailDraftId": null,
+    "fabricationFlags": [],
+    "emDashClean": false,
+    "actionLog": [
+      {
+        "action": "Queued by Lead Hunter (P2, score: 31.5, outreach-ready: true)",
+        "timestamp": "2026-04-16T14:01:07.192Z"
+      }
+    ],
+    "createdAt": "2026-04-16T14:01:07.192Z",
+    "updatedAt": "2026-04-16T14:01:07.192Z",
+    "huntSource": "hunt_1776348011240_tep0",
+    "huntScore": 31.5,
+    "huntPriority": "P2",
+    "huntCitationResults": [
+      {
+        "platform": "chatgpt",
+        "query": "best Dentist in Phoenix",
+        "cited": false,
+        "competitorsCited": [
+          "Central Valley Dentistry",
+          "Phoenix Valley Dental",
+          "Downtown Phoenix Dental",
+          "Studio B Smiles",
+          "Arizona Biltmore Dentistry"
+        ]
+      }
+    ],
+    "huntDifferentiator": "Multiple Phoenix locations offering emergency dental care and same-day dentistry",
+    "huntOutreachReady": true
+  },
+  {
+    "id": "lead_1776348067193_kfnjld",
+    "businessName": "Arizona Dental",
+    "contactFirstName": "Dr.",
+    "contactEmail": "info@arizonadental.com",
+    "websiteUrl": "https://arizonadental.com/",
+    "city": "Phoenix",
+    "serviceNiche": "Dentist",
+    "competitorName": "Central Valley Dentistry",
+    "reviewCount": null,
+    "rating": null,
+    "notes": "Auto-discovered by Lead Hunter. AI citation: not cited on 1/1 platforms. Competitors cited: Central Valley Dentistry, Phoenix Valley Dental, Downtown Phoenix Dental. Outreach-ready: YES (citation data + contact + differentiator verified). Differentiator: On-site dental lab enabling same-day restorations, specializes in cosmetic dentistry and emergency work",
+    "status": "queued",
+    "research": null,
+    "reportSlug": "arizona-dental-knt1",
+    "emailDraftId": null,
+    "fabricationFlags": [],
+    "emDashClean": false,
+    "actionLog": [
+      {
+        "action": "Queued by Lead Hunter (P2, score: 27.5, outreach-ready: true)",
+        "timestamp": "2026-04-16T14:01:07.193Z"
+      }
+    ],
+    "createdAt": "2026-04-16T14:01:07.193Z",
+    "updatedAt": "2026-04-16T14:01:07.193Z",
+    "huntSource": "hunt_1776348011240_tep0",
+    "huntScore": 27.5,
+    "huntPriority": "P2",
+    "huntCitationResults": [
+      {
+        "platform": "chatgpt",
+        "query": "best Dentist in Phoenix",
+        "cited": false,
+        "competitorsCited": [
+          "Central Valley Dentistry",
+          "Phoenix Valley Dental",
+          "Downtown Phoenix Dental",
+          "Studio B Smiles",
+          "Arizona Biltmore Dentistry"
+        ]
+      }
+    ],
+    "huntDifferentiator": "On-site dental lab enabling same-day restorations, specializes in cosmetic dentistry and emergency work",
+    "huntOutreachReady": true
+  },
+  {
+    "id": "lead_1776348067193_bk1d74",
+    "businessName": "Phoenix Valley Dental",
+    "contactFirstName": "Dr.",
+    "contactEmail": "frontoffice@phoenixvalleydental.com",
+    "websiteUrl": "https://phoenixvalleydental.com/",
+    "city": "Phoenix",
+    "serviceNiche": "Dentist",
+    "competitorName": "Central Valley Dentistry",
+    "reviewCount": 164,
+    "rating": 5,
+    "notes": "Auto-discovered by Lead Hunter. AI citation: not cited on 0/1 platforms. Competitors cited: Central Valley Dentistry, Downtown Phoenix Dental, Studio B Smiles. Outreach-ready: YES (citation data + contact + differentiator verified). Differentiator: Perfect 5-star rating from 164 verified reviews, same-day emergency appointments, comprehensive services including Invisalign",
+    "status": "queued",
+    "research": null,
+    "reportSlug": "phoenix-valley-dental-7u23",
+    "emailDraftId": null,
+    "fabricationFlags": [],
+    "emDashClean": false,
+    "actionLog": [
+      {
+        "action": "Queued by Lead Hunter (P1, score: 36, outreach-ready: true)",
+        "timestamp": "2026-04-16T14:01:07.193Z"
+      }
+    ],
+    "createdAt": "2026-04-16T14:01:07.193Z",
+    "updatedAt": "2026-04-16T14:01:07.193Z",
+    "huntSource": "hunt_1776348011240_tep0",
+    "huntScore": 36,
+    "huntPriority": "P1",
+    "huntCitationResults": [
+      {
+        "platform": "chatgpt",
+        "query": "best Dentist in Phoenix",
+        "cited": true,
+        "competitorsCited": [
+          "Central Valley Dentistry",
+          "Downtown Phoenix Dental",
+          "Studio B Smiles",
+          "Arizona Biltmore Dentistry"
+        ]
+      }
+    ],
+    "huntDifferentiator": "Perfect 5-star rating from 164 verified reviews, same-day emergency appointments, comprehensive services including Invisalign",
+    "huntOutreachReady": true
+  },
+  {
+    "id": "lead_1776348067193_6navni",
+    "businessName": "Studio B Smiles",
+    "contactFirstName": "Dr.",
+    "contactEmail": "info@studiobsmiles.com",
+    "websiteUrl": "https://studiobsmiles.com/",
+    "city": "Phoenix",
+    "serviceNiche": "Dentist",
+    "competitorName": "Central Valley Dentistry",
+    "reviewCount": null,
+    "rating": 5,
+    "notes": "Auto-discovered by Lead Hunter. AI citation: not cited on 0/1 platforms. Competitors cited: Central Valley Dentistry, Phoenix Valley Dental, Downtown Phoenix Dental. Outreach-ready: YES (citation data + contact + differentiator verified). Differentiator: Official Team Dentist for Phoenix Suns, Phoenix Mercury, Arizona Diamondbacks; Official Cosmetic Dentist for ABC's Extreme Makeover",
+    "status": "queued",
+    "research": null,
+    "reportSlug": "studio-b-smiles-f3ky",
+    "emailDraftId": null,
+    "fabricationFlags": [],
+    "emDashClean": false,
+    "actionLog": [
+      {
+        "action": "Queued by Lead Hunter (P2, score: 30, outreach-ready: true)",
+        "timestamp": "2026-04-16T14:01:07.193Z"
+      }
+    ],
+    "createdAt": "2026-04-16T14:01:07.193Z",
+    "updatedAt": "2026-04-16T14:01:07.193Z",
+    "huntSource": "hunt_1776348011240_tep0",
+    "huntScore": 30,
+    "huntPriority": "P2",
+    "huntCitationResults": [
+      {
+        "platform": "chatgpt",
+        "query": "best Dentist in Phoenix",
+        "cited": true,
+        "competitorsCited": [
+          "Central Valley Dentistry",
+          "Phoenix Valley Dental",
+          "Downtown Phoenix Dental",
+          "Arizona Biltmore Dentistry"
+        ]
+      }
+    ],
+    "huntDifferentiator": "Official Team Dentist for Phoenix Suns, Phoenix Mercury, Arizona Diamondbacks; Official Cosmetic Dentist for ABC's Extreme Makeover",
+    "huntOutreachReady": true
+  },
+  {
+    "id": "lead_1776348067193_jh8psb",
+    "businessName": "Downtown Phoenix Dental",
+    "contactFirstName": "Dr.",
+    "contactEmail": "info@dtphxdental.com",
+    "websiteUrl": "https://www.downtownphoenixdental.com/",
+    "city": "Phoenix",
+    "serviceNiche": "Dentist",
+    "competitorName": "Central Valley Dentistry",
+    "reviewCount": 143,
+    "rating": 4.7,
+    "notes": "Auto-discovered by Lead Hunter. AI citation: not cited on 0/1 platforms. Competitors cited: Central Valley Dentistry, Phoenix Valley Dental, Studio B Smiles. Outreach-ready: YES (citation data + contact + differentiator verified). Differentiator: Creator of HALO veneers (non-invasive veneer system), downtown location with free valet parking, established 2010",
+    "status": "queued",
+    "research": null,
+    "reportSlug": "downtown-phoenix-dental-xiwa",
+    "emailDraftId": null,
+    "fabricationFlags": [],
+    "emDashClean": false,
+    "actionLog": [
+      {
+        "action": "Queued by Lead Hunter (P1, score: 36, outreach-ready: true)",
+        "timestamp": "2026-04-16T14:01:07.193Z"
+      }
+    ],
+    "createdAt": "2026-04-16T14:01:07.193Z",
+    "updatedAt": "2026-04-16T14:01:07.193Z",
+    "huntSource": "hunt_1776348011240_tep0",
+    "huntScore": 36,
+    "huntPriority": "P1",
+    "huntCitationResults": [
+      {
+        "platform": "chatgpt",
+        "query": "best Dentist in Phoenix",
+        "cited": true,
+        "competitorsCited": [
+          "Central Valley Dentistry",
+          "Phoenix Valley Dental",
+          "Studio B Smiles",
+          "Arizona Biltmore Dentistry"
+        ]
+      }
+    ],
+    "huntDifferentiator": "Creator of HALO veneers (non-invasive veneer system), downtown location with free valet parking, established 2010",
+    "huntOutreachReady": true
+  },
+  {
+    "id": "lead_1776348067193_gle7n6",
+    "businessName": "North Central Family Dentistry",
+    "contactFirstName": "Matthew",
+    "contactEmail": "matt@ncfdentistry.com",
+    "websiteUrl": "https://www.ncfdentistry.com/",
+    "city": "Phoenix",
+    "serviceNiche": "Dentist",
+    "competitorName": "Central Valley Dentistry",
+    "reviewCount": 648,
+    "rating": 4.9,
+    "notes": "Auto-discovered by Lead Hunter. AI citation: not cited on 1/1 platforms. Competitors cited: Central Valley Dentistry, Phoenix Valley Dental, Downtown Phoenix Dental. Outreach-ready: YES (citation data + contact + differentiator verified). Differentiator: Voted top dental office in Uptown Phoenix, CEREC same-day crowns, established strong patient loyalty",
+    "status": "queued",
+    "research": null,
+    "reportSlug": "north-central-family-dentistry-4zcd",
+    "emailDraftId": null,
+    "fabricationFlags": [],
+    "emDashClean": false,
+    "actionLog": [
+      {
+        "action": "Queued by Lead Hunter (P1, score: 40, outreach-ready: true)",
+        "timestamp": "2026-04-16T14:01:07.193Z"
+      }
+    ],
+    "createdAt": "2026-04-16T14:01:07.193Z",
+    "updatedAt": "2026-04-16T14:01:07.193Z",
+    "huntSource": "hunt_1776348011240_tep0",
+    "huntScore": 40,
+    "huntPriority": "P1",
+    "huntCitationResults": [
+      {
+        "platform": "chatgpt",
+        "query": "best Dentist in Phoenix",
+        "cited": false,
+        "competitorsCited": [
+          "Central Valley Dentistry",
+          "Phoenix Valley Dental",
+          "Downtown Phoenix Dental",
+          "Studio B Smiles",
+          "Arizona Biltmore Dentistry"
+        ]
+      }
+    ],
+    "huntDifferentiator": "Voted top dental office in Uptown Phoenix, CEREC same-day crowns, established strong patient loyalty",
+    "huntOutreachReady": true
+  },
+  {
+    "id": "lead_1776348067193_2bssy4",
+    "businessName": "Arizona Biltmore Dentistry",
+    "contactFirstName": "Dr.",
+    "contactEmail": "info@arizonabiltmoredentistry.com",
+    "websiteUrl": "https://www.arizonabiltmoredentistry.com/",
+    "city": "Phoenix",
+    "serviceNiche": "Dentist",
+    "competitorName": "Central Valley Dentistry",
+    "reviewCount": 100,
+    "rating": 4.8,
+    "notes": "Auto-discovered by Lead Hunter. AI citation: not cited on 0/1 platforms. Competitors cited: Central Valley Dentistry, Phoenix Valley Dental, Downtown Phoenix Dental. Outreach-ready: YES (citation data + contact + differentiator verified). Differentiator: Dr. Jeziorski gives personal cell phone number to patients for accessibility, established 2013, Saturday hours available",
+    "status": "queued",
+    "research": null,
+    "reportSlug": "arizona-biltmore-dentistry-jm5w",
+    "emailDraftId": null,
+    "fabricationFlags": [],
+    "emDashClean": false,
+    "actionLog": [
+      {
+        "action": "Queued by Lead Hunter (P1, score: 36, outreach-ready: true)",
+        "timestamp": "2026-04-16T14:01:07.193Z"
+      }
+    ],
+    "createdAt": "2026-04-16T14:01:07.193Z",
+    "updatedAt": "2026-04-16T14:01:07.193Z",
+    "huntSource": "hunt_1776348011240_tep0",
+    "huntScore": 36,
+    "huntPriority": "P1",
+    "huntCitationResults": [
+      {
+        "platform": "chatgpt",
+        "query": "best Dentist in Phoenix",
+        "cited": true,
+        "competitorsCited": [
+          "Central Valley Dentistry",
+          "Phoenix Valley Dental",
+          "Downtown Phoenix Dental",
+          "Studio B Smiles"
+        ]
+      }
+    ],
+    "huntDifferentiator": "Dr. Jeziorski gives personal cell phone number to patients for accessibility, established 2013, Saturday hours available",
+    "huntOutreachReady": true
+  },
+  {
+    "id": "lead_1776348067193_z1epii",
+    "businessName": "Central Valley Dentistry",
+    "contactFirstName": "Dr.",
+    "contactEmail": "centralvalleydentistry@gmail.com",
+    "websiteUrl": "https://www.centralvalleydentistry.com/",
+    "city": "Phoenix",
+    "serviceNiche": "Dentist",
+    "competitorName": "Phoenix Valley Dental",
+    "reviewCount": 900,
+    "rating": 4.9,
+    "notes": "Auto-discovered by Lead Hunter. AI citation: not cited on 0/1 platforms. Competitors cited: Phoenix Valley Dental, Downtown Phoenix Dental, Studio B Smiles. Outreach-ready: YES (citation data + contact + differentiator verified). Differentiator: Over 900 five-star reviews, established 2004, same-day crowns in under 2 hours, extended evening hours",
+    "status": "queued",
+    "research": null,
+    "reportSlug": "central-valley-dentistry-9p1e",
+    "emailDraftId": null,
+    "fabricationFlags": [],
+    "emDashClean": false,
+    "actionLog": [
+      {
+        "action": "Queued by Lead Hunter (P1, score: 36, outreach-ready: true)",
+        "timestamp": "2026-04-16T14:01:07.193Z"
+      }
+    ],
+    "createdAt": "2026-04-16T14:01:07.193Z",
+    "updatedAt": "2026-04-16T14:01:07.193Z",
+    "huntSource": "hunt_1776348011240_tep0",
+    "huntScore": 36,
+    "huntPriority": "P1",
+    "huntCitationResults": [
+      {
+        "platform": "chatgpt",
+        "query": "best Dentist in Phoenix",
+        "cited": true,
+        "competitorsCited": [
+          "Phoenix Valley Dental",
+          "Downtown Phoenix Dental",
+          "Studio B Smiles",
+          "Arizona Biltmore Dentistry"
+        ]
+      }
+    ],
+    "huntDifferentiator": "Over 900 five-star reviews, established 2004, same-day crowns in under 2 hours, extended evening hours",
+    "huntOutreachReady": true
+  },
+  {
+    "id": "lead_1776348067193_u7tfz7",
+    "businessName": "Paradise Ridge Family Dentistry",
+    "contactFirstName": "Victoria",
+    "contactEmail": "info@phoenixarizonadentistry.com",
+    "websiteUrl": "https://phoenixarizonadentistry.com/",
+    "city": "Phoenix",
+    "serviceNiche": "Dentist",
+    "competitorName": "Central Valley Dentistry",
+    "reviewCount": 894,
+    "rating": 4.6,
+    "notes": "Auto-discovered by Lead Hunter. AI citation: not cited on 1/1 platforms. Competitors cited: Central Valley Dentistry, Phoenix Valley Dental, Downtown Phoenix Dental. Outreach-ready: YES (citation data + contact + differentiator verified). Differentiator: Voted Best Dentist 11 times by AZ Foothills Magazine, 7-day-a-week operation, same-day crowns with CEREC technology",
+    "status": "queued",
+    "research": null,
+    "reportSlug": "paradise-ridge-family-dentistry-5lzb",
+    "emailDraftId": null,
+    "fabricationFlags": [],
+    "emDashClean": false,
+    "actionLog": [
+      {
+        "action": "Queued by Lead Hunter (P1, score: 40, outreach-ready: true)",
+        "timestamp": "2026-04-16T14:01:07.193Z"
+      }
+    ],
+    "createdAt": "2026-04-16T14:01:07.193Z",
+    "updatedAt": "2026-04-16T14:01:07.193Z",
+    "huntSource": "hunt_1776348011240_tep0",
+    "huntScore": 40,
+    "huntPriority": "P1",
+    "huntCitationResults": [
+      {
+        "platform": "chatgpt",
+        "query": "best Dentist in Phoenix",
+        "cited": false,
+        "competitorsCited": [
+          "Central Valley Dentistry",
+          "Phoenix Valley Dental",
+          "Downtown Phoenix Dental",
+          "Studio B Smiles",
+          "Arizona Biltmore Dentistry"
+        ]
+      }
+    ],
+    "huntDifferentiator": "Voted Best Dentist 11 times by AZ Foothills Magazine, 7-day-a-week operation, same-day crowns with CEREC technology",
+    "huntOutreachReady": true
+  },
+  {
+    "id": "lead_1776348067193_pp9dc2",
+    "businessName": "Brookstone Dental Care",
+    "contactFirstName": "Dr.",
+    "contactEmail": "responses@brookstoneaz.com",
+    "websiteUrl": "https://brookstoneaz.com/",
+    "city": "Phoenix",
+    "serviceNiche": "Dentist",
+    "competitorName": "Central Valley Dentistry",
+    "reviewCount": 589,
+    "rating": 4.9,
+    "notes": "Auto-discovered by Lead Hunter. AI citation: not cited on 1/1 platforms. Competitors cited: Central Valley Dentistry, Phoenix Valley Dental, Downtown Phoenix Dental. Outreach-ready: YES (citation data + contact + differentiator verified). Differentiator: Official dentist for Arizona Coyotes, 24+ years experience, established 1998, specializes in full mouth rehabilitation",
+    "status": "queued",
+    "research": null,
+    "reportSlug": "brookstone-dental-care-8d1o",
+    "emailDraftId": null,
+    "fabricationFlags": [],
+    "emDashClean": false,
+    "actionLog": [
+      {
+        "action": "Queued by Lead Hunter (P1, score: 40, outreach-ready: true)",
+        "timestamp": "2026-04-16T14:01:07.193Z"
+      }
+    ],
+    "createdAt": "2026-04-16T14:01:07.193Z",
+    "updatedAt": "2026-04-16T14:01:07.193Z",
+    "huntSource": "hunt_1776348011240_tep0",
+    "huntScore": 40,
+    "huntPriority": "P1",
+    "huntCitationResults": [
+      {
+        "platform": "chatgpt",
+        "query": "best Dentist in Phoenix",
+        "cited": false,
+        "competitorsCited": [
+          "Central Valley Dentistry",
+          "Phoenix Valley Dental",
+          "Downtown Phoenix Dental",
+          "Studio B Smiles",
+          "Arizona Biltmore Dentistry"
+        ]
+      }
+    ],
+    "huntDifferentiator": "Official dentist for Arizona Coyotes, 24+ years experience, established 1998, specializes in full mouth rehabilitation",
+    "huntOutreachReady": true
   }
 ]

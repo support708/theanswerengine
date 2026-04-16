@@ -194,5 +194,20 @@
     "outreachReadyCount": 4,
     "errors": [],
     "completedAt": "2026-04-15T14:01:14.433Z"
+  },
+  {
+    "id": "hunt_1776348011240_tep0",
+    "startedAt": "2026-04-16T14:00:11.240Z",
+    "trigger": "cron_daily",
+    "vertical": "Dentist",
+    "metro": "Phoenix, AZ",
+    "prospectsFound": 10,
+    "p1Queued": 7,
+    "p2Queued": 3,
+    "p3Backlogged": 0,
+    "duplicatesSkipped": 0,
+    "outreachReadyCount": 10,
+    "errors": [],
+    "completedAt": "2026-04-16T14:01:07.193Z"
   }
 ]
