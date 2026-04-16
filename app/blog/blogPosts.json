@@ -3504,5 +3504,105 @@
       "entity recognition",
       "AI recommendations"
     ]
+  },
+  {
+    "id": 173,
+    "title": "How Accountants Get Found on AI Search",
+    "slug": "how-accountants-get-found-on-ai-search",
+    "excerpt": "Potential clients are asking ChatGPT and Google AI to find accountants and CPAs near them. Here is what determines whether AI recommends you or a competitor.",
+    "category": "Industry Guides",
+    "author": "The Answer Engine Team",
+    "readTime": "9 min",
+    "image": "/blog/how-accountants-get-found-on-ai-search.webp",
+    "publishDate": "2026-04-16",
+    "lastModified": "2026-04-16",
+    "featured": true,
+    "tags": [
+      "accountants",
+      "CPAs",
+      "AI search",
+      "industry guide",
+      "local search"
+    ]
+  },
+  {
+    "id": 174,
+    "title": "How ChatGPT Search Picks Local Business Results",
+    "slug": "how-chatgpt-search-picks-local-business-results",
+    "excerpt": "ChatGPT serves 2 billion daily queries and local business recommendations are among the fastest-growing categories. Here is exactly how it decides who to recommend.",
+    "category": "Platform Deep Dives",
+    "author": "The Answer Engine Team",
+    "readTime": "9 min",
+    "image": "/blog/how-chatgpt-search-picks-local-business-results.webp",
+    "publishDate": "2026-04-16",
+    "lastModified": "2026-04-16",
+    "featured": true,
+    "tags": [
+      "ChatGPT",
+      "local business",
+      "platform deep dive",
+      "AI search",
+      "ranking signals"
+    ]
+  },
+  {
+    "id": 175,
+    "title": "Does Website Speed Help You Show Up on AI Search?",
+    "slug": "does-website-speed-help-you-show-up-on-ai",
+    "excerpt": "A 107,000-page study shows website speed has almost zero correlation with AI search visibility. Here is what actually makes AI recommend your business.",
+    "category": "Myth Busters",
+    "author": "The Answer Engine Team",
+    "readTime": "8 min",
+    "image": "/blog/does-website-speed-help-you-show-up-on-ai.webp",
+    "publishDate": "2026-04-16",
+    "lastModified": "2026-04-16",
+    "featured": true,
+    "tags": [
+      "website speed",
+      "Core Web Vitals",
+      "myth busters",
+      "AI search",
+      "page speed"
+    ]
+  },
+  {
+    "id": 176,
+    "title": "My Competitor Just Opened and AI Already Recommends Them",
+    "slug": "my-competitor-just-opened-ai-already-recommends-them",
+    "excerpt": "New businesses can appear in AI recommendations in 2-4 weeks. Here is why your newer competitor is beating you on ChatGPT and how to close the gap fast.",
+    "category": "Business Pain Points",
+    "author": "The Answer Engine Team",
+    "readTime": "9 min",
+    "image": "/blog/my-competitor-just-opened-ai-already-recommends-them.webp",
+    "publishDate": "2026-04-16",
+    "lastModified": "2026-04-16",
+    "featured": true,
+    "tags": [
+      "competitor",
+      "new business",
+      "AI recommendations",
+      "entity authority",
+      "business pain points"
+    ]
+  },
+  {
+    "id": 177,
+    "title": "Email Newsletter vs Blog: Which Does AI Trust More?",
+    "slug": "email-newsletter-vs-blog-which-ai-trusts-more",
+    "excerpt": "Email newsletters are invisible to AI search. Blogs get crawled and cited. Here is how the two compare for AI visibility and where to focus your content energy.",
+    "category": "Comparisons",
+    "author": "The Answer Engine Team",
+    "readTime": "8 min",
+    "image": "/blog/email-newsletter-vs-blog-which-ai-trusts-more.webp",
+    "publishDate": "2026-04-16",
+    "lastModified": "2026-04-16",
+    "featured": true,
+    "tags": [
+      "email newsletter",
+      "blog",
+      "content strategy",
+      "AI citations",
+      "comparisons"
+    ]
   }
 ]
