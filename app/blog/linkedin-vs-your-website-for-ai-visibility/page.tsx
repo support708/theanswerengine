@@ -85,7 +85,7 @@ const jsonLd = {
           name: 'Does LinkedIn help AI recommend my business?',
           acceptedAnswer: {
             '@type': 'Answer',
-            text: 'Yes, significantly for professional service queries. Between December 2025 and February 2026, LinkedIn more than doubled its domain rank on ChatGPT, becoming the fifth-most-cited source overall and the most-cited domain specifically for professional queries. Articles and posts on LinkedIn that answer questions professionals search for are getting cited in AI responses at a substantial rate.',
+            text: 'Yes, significantly for professional service queries. Between December 2025 and February 2026, LinkedIn more than doubled its domain rank on ChatGPT, becoming the second-most-cited domain across AI platforms overall, appearing in 14.3% of ChatGPT Search responses and ranking as the most-cited domain specifically for professional queries. Articles and posts on LinkedIn that answer questions professionals search for are getting cited in AI responses at a substantial rate.',
           },
         },
         {
@@ -184,7 +184,7 @@ export default function Page() {
               LinkedIn vs Your Website for AI Visibility
             </h1>
             <p className="text-gray-300 text-lg md:text-xl max-w-2xl leading-relaxed">
-              LinkedIn jumped to the fifth-most-cited domain on ChatGPT in just three months. For professional services, it is now the top AI source. But your website still does things LinkedIn cannot. Here is how to use both.
+              LinkedIn is now the second-most-cited domain across AI platforms, appearing in 14.3% of ChatGPT Search responses. For professional services, it is now the top AI source. But your website still does things LinkedIn cannot. Here is how to use both.
             </p>
             <p className="text-gray-500 text-sm mt-6">
               Published {publishDate} by The Answer Engine Team
@@ -199,8 +199,8 @@ export default function Page() {
         <div className="ae-stats-grid mb-12">
           <div className="ae-stat-card">
             <span className="ae-stat-emoji">📊</span>
-            <span className="ae-stat-value">#5</span>
-            <span className="ae-stat-label">LinkedIn is ChatGPT's 5th most-cited domain as of Feb 2026</span>
+            <span className="ae-stat-value">#2</span>
+            <span className="ae-stat-label">LinkedIn is the 2nd most-cited domain across AI platforms in 2026</span>
           </div>
           <div className="ae-stat-card">
             <span className="ae-stat-emoji">📈</span>
@@ -238,7 +238,7 @@ export default function Page() {
             LinkedIn's Unexpected Rise as an AI Citation Source
           </h2>
           <p className="text-gray-300 leading-relaxed mb-4">
-            Between December 2025 and mid-February 2026, LinkedIn more than doubled its domain rank on ChatGPT. It went from an occasional source to the fifth-most-cited domain on ChatGPT overall, and the single most-cited domain for professional queries across all major AI platforms including ChatGPT, Google AI, and Perplexity.
+            Between December 2025 and mid-February 2026, LinkedIn more than doubled its domain rank on ChatGPT. It went from an occasional source to the second-most-cited domain across AI platforms overall, and the single most-cited domain for professional queries across all major AI platforms including ChatGPT, Google AI, and Perplexity.
           </p>
           <p className="text-gray-300 leading-relaxed mb-4">
             This was not an accident or a policy change. It happened because LinkedIn generates enormous volumes of publicly accessible, professionally-written content on topics that AI users frequently ask about: career advice, industry analysis, professional comparisons, how-to content for business decisions. That content is well-structured, high-quality, and directly answers the kind of questions AI systems are designed to respond to.
@@ -371,7 +371,7 @@ export default function Page() {
             <tbody>
               <tr>
                 <td className="font-semibold text-white">ChatGPT</td>
-                <td>5th most-cited domain overall; favors individual creator content (59%)</td>
+                <td>2nd most-cited domain overall (14.3% of responses); favors individual creator content (59%)</td>
                 <td>Primary source for local and service queries via GPTBot crawl</td>
               </tr>
               <tr>
@@ -615,7 +615,7 @@ export default function Page() {
             {[
               {
                 q: 'Does LinkedIn help AI recommend my business?',
-                a: "Yes, significantly for professional service queries. Between December 2025 and February 2026, LinkedIn more than doubled its domain rank on ChatGPT, becoming the fifth-most-cited source overall and the most-cited domain specifically for professional queries. Articles and posts on LinkedIn that answer questions professionals search for are getting cited in AI responses at a substantial rate.",
+                a: "Yes, significantly for professional service queries. Between December 2025 and February 2026, LinkedIn more than doubled its domain rank on ChatGPT, becoming the second-most-cited domain across AI platforms overall, appearing in 14.3% of ChatGPT Search responses and ranking as the most-cited domain specifically for professional queries. Articles and posts on LinkedIn that answer questions professionals search for are getting cited in AI responses at a substantial rate.",
               },
               {
                 q: 'Is LinkedIn better than my website for AI visibility?',
