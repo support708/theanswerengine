@@ -138,6 +138,12 @@
       "email": "dalia@doctor.com",
       "type": "follow_up_1",
       "sentAt": "2026-04-14T16:00:43.364Z"
+    },
+    {
+      "leadId": "lead_1772944082786_8zis4x",
+      "email": "hunterdoug@earthlink.net",
+      "type": "follow_up_2",
+      "sentAt": "2026-04-17T16:00:44.450Z"
     }
   ]
 }
