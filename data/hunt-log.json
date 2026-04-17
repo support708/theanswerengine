@@ -209,5 +209,20 @@
     "outreachReadyCount": 10,
     "errors": [],
     "completedAt": "2026-04-16T14:01:07.193Z"
+  },
+  {
+    "id": "hunt_1776434411819_f498",
+    "startedAt": "2026-04-17T14:00:11.820Z",
+    "trigger": "cron_daily",
+    "vertical": "Electrician",
+    "metro": "Los Angeles",
+    "prospectsFound": 10,
+    "p1Queued": 0,
+    "p2Queued": 1,
+    "p3Backlogged": 0,
+    "duplicatesSkipped": 9,
+    "outreachReadyCount": 1,
+    "errors": [],
+    "completedAt": "2026-04-17T14:01:06.238Z"
   }
 ]

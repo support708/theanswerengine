@@ -4255,5 +4255,51 @@
     ],
     "huntDifferentiator": "Official dentist for Arizona Coyotes, 24+ years experience, established 1998, specializes in full mouth rehabilitation",
     "huntOutreachReady": true
+  },
+  {
+    "id": "lead_1776434466238_jbcq63",
+    "businessName": "Bright City Electrical",
+    "contactFirstName": "Nadav",
+    "contactEmail": "contact@brightcityelectrical.com",
+    "websiteUrl": "https://www.brightcityelectrical.com",
+    "city": "Los Angeles",
+    "serviceNiche": "Electrician",
+    "competitorName": "Express Electrical Services",
+    "reviewCount": 25,
+    "rating": 4.9,
+    "notes": "Auto-discovered by Lead Hunter. AI citation: not cited on 1/1 platforms. Competitors cited: Express Electrical Services, The Electric Connection, Alex & Alex Electrical Services. Outreach-ready: YES (citation data + contact + differentiator verified). Differentiator: Established 2010, 15+ years in business, Tesla-referred electrician, specializes in EV charger installation, expanding to San Diego",
+    "status": "queued",
+    "research": null,
+    "reportSlug": "bright-city-electrical-jj9o",
+    "emailDraftId": null,
+    "fabricationFlags": [],
+    "emDashClean": false,
+    "actionLog": [
+      {
+        "action": "Queued by Lead Hunter (P2, score: 34, outreach-ready: true)",
+        "timestamp": "2026-04-17T14:01:06.237Z"
+      }
+    ],
+    "createdAt": "2026-04-17T14:01:06.237Z",
+    "updatedAt": "2026-04-17T14:01:06.237Z",
+    "huntSource": "hunt_1776434411819_f498",
+    "huntScore": 34,
+    "huntPriority": "P2",
+    "huntCitationResults": [
+      {
+        "platform": "chatgpt",
+        "query": "best Electrician in Los Angeles",
+        "cited": false,
+        "competitorsCited": [
+          "Express Electrical Services",
+          "The Electric Connection",
+          "Alex & Alex Electrical Services",
+          "BK Electric Services",
+          "Powell Electric"
+        ]
+      }
+    ],
+    "huntDifferentiator": "Established 2010, 15+ years in business, Tesla-referred electrician, specializes in EV charger installation, expanding to San Diego",
+    "huntOutreachReady": true
   }
 ]
