@@ -11,7 +11,7 @@
     "reviewCount": 188,
     "rating": 4.8,
     "notes": "Auto-discovered by Lead Hunter. Pain signals: 5-star reviews but lacks AI visibility in recommendation searches; City inspector referrals indicate quality but minimal online content marketing",
-    "status": "follow_up_1",
+    "status": "follow_up_2",
     "research": {
       "reviewCount": 188,
       "rating": 4.8,
@@ -124,10 +124,14 @@
       {
         "action": "follow_up_1 auto-sent via Gmail (19d72f94ab3edef2)",
         "timestamp": "2026-04-09T16:00:35.529Z"
+      },
+      {
+        "action": "follow_up_2 auto-sent via Gmail (19d9c2c55a10db83)",
+        "timestamp": "2026-04-17T16:00:46.213Z"
       }
     ],
     "createdAt": "2026-03-08T04:28:02.786Z",
-    "updatedAt": "2026-04-09T16:00:35.655Z",
+    "updatedAt": "2026-04-17T16:00:46.358Z",
     "huntSource": "hunt_1772943739618_2vrc",
     "huntScore": 29.5,
     "huntPriority": "P2"
