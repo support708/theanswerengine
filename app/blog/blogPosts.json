@@ -3604,5 +3604,109 @@
       "AI citations",
       "comparisons"
     ]
+  },
+  {
+    "id": 178,
+    "title": "How Landscapers Get Found on AI Search",
+    "slug": "how-landscapers-get-found-on-ai-search",
+    "excerpt": "45% of consumers now use AI to find local home services. Only 17% of landscapers have tried AI optimization. Here is what ChatGPT, Perplexity, and Alexa+ look for before recommending a landscaping business.",
+    "category": "Industry Guides",
+    "author": "The Answer Engine Team",
+    "readTime": "10 min",
+    "image": "/blog/how-landscapers-get-found-on-ai-search.webp",
+    "publishDate": "2026-04-17",
+    "lastModified": "2026-04-17",
+    "featured": true,
+    "tags": [
+      "Landscaping",
+      "Lawn Care",
+      "AI Search",
+      "Industry Guides",
+      "Home Services",
+      "Local Business"
+    ]
+  },
+  {
+    "id": 179,
+    "title": "How Amazon Alexa+ Recommends Local Businesses",
+    "slug": "how-amazon-alexa-plus-recommends-local-businesses",
+    "excerpt": "Alexa+ runs on Claude AI and integrates Angi, Yelp, and Square to book local services by voice. Here is how the recommendation system works and how to get your business into it.",
+    "category": "Platform Deep Dives",
+    "author": "The Answer Engine Team",
+    "readTime": "9 min",
+    "image": "/blog/how-amazon-alexa-plus-recommends-local-businesses.webp",
+    "publishDate": "2026-04-17",
+    "lastModified": "2026-04-17",
+    "featured": true,
+    "tags": [
+      "Amazon Alexa",
+      "Alexa Plus",
+      "Voice AI",
+      "Platform Deep Dives",
+      "Local Business",
+      "Claude AI"
+    ]
+  },
+  {
+    "id": 180,
+    "title": "Does Being on Angi or Thumbtack Help AI Find You",
+    "slug": "does-being-on-angi-or-thumbtack-help-ai-find-you",
+    "excerpt": "Thumbtack is embedded inside ChatGPT. Angi launched a ChatGPT app in 2026 and feeds Amazon Alexa+. Your directory profile is now an AI recommendation feed. Here is what that actually means.",
+    "category": "Myth Busters",
+    "author": "The Answer Engine Team",
+    "readTime": "9 min",
+    "image": "/blog/does-being-on-angi-or-thumbtack-help-ai-find-you.webp",
+    "publishDate": "2026-04-17",
+    "lastModified": "2026-04-17",
+    "featured": true,
+    "tags": [
+      "Angi",
+      "Thumbtack",
+      "ChatGPT Integration",
+      "Myth Busters",
+      "Home Services",
+      "AI Directories"
+    ]
+  },
+  {
+    "id": 181,
+    "title": "Why AI Only Recommends My Business for Some Services",
+    "slug": "why-ai-only-recommends-my-business-for-some-services",
+    "excerpt": "You offer six services. AI cites you for one. This is how service-level AI recommendation logic works and what changes it.",
+    "category": "Business Pain Points",
+    "author": "The Answer Engine Team",
+    "readTime": "9 min",
+    "image": "/blog/why-ai-only-recommends-my-business-for-some-services.webp",
+    "publishDate": "2026-04-17",
+    "lastModified": "2026-04-17",
+    "featured": true,
+    "tags": [
+      "Service Visibility",
+      "AI Citations",
+      "Business Pain Points",
+      "Content Depth",
+      "Local Business"
+    ]
+  },
+  {
+    "id": 182,
+    "title": "LinkedIn vs Your Website for AI Visibility",
+    "slug": "linkedin-vs-your-website-for-ai-visibility",
+    "excerpt": "LinkedIn doubled its ChatGPT rank in 3 months and is now the top AI source for professional queries. But your website does what LinkedIn cannot. Here is how to use both.",
+    "category": "Comparisons",
+    "author": "The Answer Engine Team",
+    "readTime": "10 min",
+    "image": "/blog/linkedin-vs-your-website-for-ai-visibility.webp",
+    "publishDate": "2026-04-17",
+    "lastModified": "2026-04-17",
+    "featured": true,
+    "tags": [
+      "LinkedIn",
+      "AI Search",
+      "Comparisons",
+      "Professional Services",
+      "Content Strategy",
+      "Citations"
+    ]
   }
 ]
