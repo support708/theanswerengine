@@ -413,9 +413,10 @@
   },
   "lastPollBySubreddit": {},
   "lastDigestByClient": {
-    "the-answer-engine": "2026-04-09T21:07:45.601Z",
-    "lovery-re": "2026-04-09T21:07:44.622Z",
-    "rpm-southland": "2026-04-09T21:07:46.417Z"
+    "the-answer-engine": "2026-04-18T23:07:18.348Z",
+    "lovery-re": "2026-04-18T23:07:17.434Z",
+    "rpm-southland": "2026-04-18T23:07:16.616Z",
+    "davis-agency": "2026-04-18T23:07:15.627Z"
   },
   "monthlyStats": {
     "month": "2026-04",
@@ -424,28 +425,28 @@
     "byClient": {
       "lovery-re": {
         "opportunities": 2,
-        "digestsSent": 1,
+        "digestsSent": 2,
         "highImpact": 1,
         "mediumImpact": 1,
         "lowImpact": 0
       },
       "the-answer-engine": {
         "opportunities": 1,
-        "digestsSent": 1,
+        "digestsSent": 2,
         "highImpact": 0,
         "mediumImpact": 1,
         "lowImpact": 0
       },
       "rpm-southland": {
         "opportunities": 6,
-        "digestsSent": 1,
+        "digestsSent": 2,
         "highImpact": 4,
         "mediumImpact": 2,
         "lowImpact": 0
       },
       "davis-agency": {
         "opportunities": 2,
-        "digestsSent": 0,
+        "digestsSent": 1,
         "highImpact": 2,
         "mediumImpact": 0,
         "lowImpact": 0
