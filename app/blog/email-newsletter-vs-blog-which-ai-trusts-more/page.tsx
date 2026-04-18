@@ -664,7 +664,7 @@ export default function Page() {
                 </tr>
                 <tr>
                   <td>Best repurpose strategy?</td>
-                  <td colspan={2} className="text-center">Publish newsletter as blog post first, then email link to subscribers</td>
+                  <td colSpan={2} className="text-center">Publish newsletter as blog post first, then email link to subscribers</td>
                 </tr>
               </tbody>
             </table>
