@@ -2051,20 +2051,115 @@
     "reviewCount": 76,
     "rating": 5,
     "notes": "Auto-discovered by Lead Hunter. AI citation: not cited on 1/1 platforms. Competitors cited: Smile LA Downtown Modern Dentistry, Downtown Dental, Larchmont Dental Associates. Outreach-ready: YES (citation data + contact + differentiator verified). Differentiator: Over 20 years experience, 5.0-star rating, specializes in cosmetic and restorative dentistry, known for patient comfort and educational approach",
-    "status": "queued",
-    "research": null,
+    "status": "report_ready",
+    "research": {
+      "reviewCount": 76,
+      "rating": 5,
+      "yearsInBusiness": 9,
+      "credentials": [
+        "Over 20 years of clinical experience (Dr. Consuela Zau)",
+        "General Dentistry",
+        "Cosmetic Dentistry",
+        "Restorative Dentistry",
+        "Orthodontic Services",
+        "Emergency Dental Services"
+      ],
+      "awards": [],
+      "communityInvolvement": [
+        "Nextdoor community presence with local recommendations",
+        "Active educational approach to patient treatment plans",
+        "Spanish language services available"
+      ],
+      "hiddenDifferentiators": [
+        "Educational dental approach emphasizing patient comfort",
+        "Comprehensive services (general, cosmetic, restorative, orthodontic, emergency)",
+        "Dr. Zau's 20+ years experience in dentistry",
+        "Transparent insurance and cost communication",
+        "Pain-free technique and gentle approach highly praised",
+        "Staff continuity (named staff members in reviews: Carmen, George, Lorena)"
+      ],
+      "topCompetitors": [
+        {
+          "name": "Smile LA Downtown Modern Dentistry",
+          "reason": "4.9-star Google rating, advanced technology, in-house specialists, comprehensive services, downtown location appeal to urban professionals"
+        },
+        {
+          "name": "Larchmont Dental Associates",
+          "reason": "Established cosmetic dentist practice with multiple dentists (Dr. Mike Kezian, Dr. Steve Kezian), 121 Yelp reviews, located in affluent Larchmont Village area"
+        },
+        {
+          "name": "Arthur A. Kezian DDS Practice",
+          "reason": "Over 40 years experience, 5-star Google rating from 900+ patients, family-owned, premium cosmetic focus, CEREC crowns and advanced technology"
+        }
+      ],
+      "faqContentPresent": false,
+      "blogPresent": false,
+      "gmbPresent": true,
+      "schemaDetected": false,
+      "recentContent": true,
+      "uniqueStory": "Dr. Consuela Zau established Smileywood Dental Office in 2017 (officially established date varies between 2017 and 2019 in sources) with a mission to provide compassionate, educational dentistry emphasizing patient comfort. The practice specializes in both general and cosmetic dentistry with Dr. Zau's 20+ years of clinical experience. The unique differentiator is their educational approach, transparent communication about insurance and costs, and focus on pain-free procedures. Notable for winning over anxious patients with gentle techniques.",
+      "aiCited": false,
+      "aero7": {
+        "answerQuality": 6,
+        "entityOptimization": 4,
+        "relevanceFreshness": 7,
+        "optimizationStructure": 5,
+        "voiceAuthenticity": 7,
+        "authoritySignals": 6,
+        "authorityDistribution": 5,
+        "consensusCoCitation": 4,
+        "platformReadiness": 5,
+        "technicalAccessibility": 5,
+        "total": 54
+      },
+      "rawNotes": "STRENGTHS: (1) Exceptional 5.0 review rating with 76 verified reviews across multiple platforms (Smileywood website, Yelp 24 reviews, Chamber of Commerce 50 reviews, Opencare). (2) Strong authentic voice in reviews with consistent themes: patient comfort, gentle approach, educational communication, staff friendliness (staff names mentioned in reviews: Carmen, George/George, Lorena). (3) NAP consistency verified across Yelp, website, Google, Chamber of Commerce, BBB, Opencare, and Facebook: 4354 Fountain Ave, Los Angeles, CA 90029, (323) 741-0556. (4) Recent content: website reviews and ratings updated May 2025, Yelp updated Nov 2025. (5) Multi-platform presence: Instagram (106 followers, 96 posts), Facebook, Google Business Profile implied, Yelp, Opencare, BBB, Chamber of Commerce, Nextdoor. (6) Community mentions on Nextdoor from 2022-2023 with positive peer recommendations. WEAKNESSES: (1) No schema markup detected on website (major AI-readiness gap). (2) No FAQ page or blog present on website (huge missed opportunity for SEO/AI visibility). (3) Limited third-party citations compared to competitors - not listed on major dental directories like ZocDoc, WebMD Care, TopRatedDentist (found on Beaming Health, Therapy Solutions for Kids, PatientConnect365, but these are minor). (4) Not appearing in AI-generated 'best dentist' recommendations at scale. (5) Inconsistency in founding date (2017 on Yelp vs. 2019 in customer review mentioning 'just opened'). (6) Instagram minimal engagement (106 followers suggests limited social media growth strategy). (7) No detected professional credentials verification against California Dental Board (Dr. Zau's license not independently verified in search results). (8) Educational approach mentioned but not formalized in content (no patient education blog/videos). (9) Limited awards or third-party recognition (BBB newly listed 10/17/2025, not yet rated due to 6-month threshold). (10) No LinkedIn presence detected. COMPETITIVE POSITIONING: Smile LA Downtown Modern Dentistry dominates with 4.9 rating, 452+ Yelp reviews, premium positioning, and advanced tech messaging. Larchmont Dental Associates has longevity (established well before Smileywood) and multiple practitioners. Smileywood's 5.0 rating is perfect but review count (76) is significantly lower than competitors (200+ reviews). AERO-10 ANALYSIS: P1 (Answer Quality 6/10): Website provides service descriptions and reviews but lacks FAQ format that AI systems prefer. Pages describe services but not in snippet-optimized Q&A format. P2 (Entity Optimization 4/10): No schema markup detected. Website has standard HTML structure but missing LocalBusiness, Dentist, Review, AggregateRating, FAQ schema. Should have 5-7 schema types; currently has 0. P3 (Relevance & Freshness 7/10): Content is recent (reviews May 2025, website maintained). Service pages relevant to search intent. Content alignment with 'compassionate educational dentistry' is strong but needs more depth. P4 (Optimization Structure 5/10): Website has decent page hierarchy (home, about/meet-doctor, services, reviews, contact) but pages have moderate paragraph length, no H-tag optimization visible, mobile responsiveness not evaluated in search results. Specialty pages present but could be more granular. P5 (Voice & Authenticity 7/10): Very strong authentic voice in reviews. Staff names present in reviews. Real patient stories about anxiety, pain concerns. Educational approach mentioned. Dr. Zau's teaching/communication style comes through. Minimal risk of fabrication feel. P6 (Authority Signals 6/10): 20+ years experience stated. No third-party credentials verification found. 5.0 rating is strong signal. Multiple platform presence. Missing: dental board verification, professional memberships, awards, published credentials, author bios on website. P7 (Authority Distribution 5/10): Present on ~10-12 platforms (website, Yelp, Google, Instagram, Facebook, Opencare, Chamber of Commerce, BBB, Nextdoor, PatientConnect365, Beaming Health, Therapy Solutions for Kids). Missing: ZocDoc, WebMD, major dental directories, LinkedIn, press mentions, local news coverage. Third-party earned media: none detected. P8 (Consensus & Co-Citation 4/10): Limited cross-platform mentions. Smile LA DT mentioned in competitor research but no reverse citations found. Semantic mentions minimal. Google/Yelp consistency good (same business name, address, phone). Citation consistency 2/3 (NAP consistent but founding date discrepancy). Co-citation with Smile LA DT appears in 'best dentists' but Smileywood not mentioned. P9 (Platform-Specific Readiness 5/10): ChatGPT+Gemini readiness: likely low due to no schema/FAQ. Website content would be crawled but not featured. Perplexity/Reddit: minimal presence (not found in Reddit searches). Claude+Google AIO: depends on schema implementation. Estimated score reflects lack of AI-optimized content structure. P10 (Technical AI Accessibility 5/10): robots.txt access not evaluated in searches (standard access assumed 2/4). NAP consistency strong: 4354 Fountain Ave appears identical across platforms (3/3). GBP signals: recent reviews (May 2025), active presence, but BBB just added (new listing 10/17/2025, not yet rated due to time threshold) (2/3). CRITICAL GAPS FOR AI VISIBILITY: (1) Schema markup is the #1 missing element - implementing LocalBusiness, Dentist, Review, AggregateRating, and FAQ schema would immediately improve visibility. (2) No FAQ page means zero featured snippet opportunities. (3) Blog absent limits topical authority. (4) No education-focused content despite 'educational approach' being key differentiator. (5) Professional credentials not public-facing on website. RECOMMENDATIONS: Implement comprehensive schema markup, create FAQ page targeting common patient questions, add blog with patient education articles (whitening aftercare, implant recovery, anxiety management, etc.), verify and display Dr. Zau's credentials prominently, expand LinkedIn and professional directory presence, pursue local media coverage or dental association mentions, create Google Business Profile content strategy (posts, Q&A), implement client education videos on YouTube.",
+      "researchedAt": "2026-04-18T21:31:13.207Z"
+    },
     "reportSlug": "smileywood-dental-office-i9jv",
     "emailDraftId": null,
-    "fabricationFlags": [],
+    "fabricationFlags": [
+      "Unverified claim: \"40%\" (not found in research data)",
+      "Unverified claim: \"30%\" (not found in research data)",
+      "Unverified claim: \"45%\" (not found in research data)",
+      "Unverified claim: \"20%\" (not found in research data)"
+    ],
     "emDashClean": false,
     "actionLog": [
       {
         "action": "Queued by Lead Hunter (P1, score: 38, outreach-ready: true)",
         "timestamp": "2026-03-09T02:38:32.048Z"
+      },
+      {
+        "action": "Research started (auto-pipeline)",
+        "timestamp": "2026-04-18T21:30:32.360Z"
+      },
+      {
+        "action": "Research completed (AERO-10: 54/100)",
+        "timestamp": "2026-04-18T21:31:13.207Z"
+      },
+      {
+        "action": "Report generation started",
+        "timestamp": "2026-04-18T21:31:13.207Z"
+      },
+      {
+        "action": "Report generated",
+        "timestamp": "2026-04-18T21:32:49.104Z"
+      },
+      {
+        "action": "Fabrication scan: 4 flags",
+        "timestamp": "2026-04-18T21:32:49.104Z"
+      },
+      {
+        "action": "Em-dash scan: 7 found, auto-stripped",
+        "timestamp": "2026-04-18T21:32:49.104Z"
+      },
+      {
+        "action": "Report + OG metadata deployed to production",
+        "timestamp": "2026-04-18T21:32:49.245Z"
       }
     ],
     "createdAt": "2026-03-09T02:38:32.048Z",
-    "updatedAt": "2026-03-09T02:38:32.048Z",
+    "updatedAt": "2026-04-18T21:32:49.104Z",
     "huntSource": "hunt_1773023618468_oxni",
     "huntScore": 38,
     "huntPriority": "P1",
