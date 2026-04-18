@@ -409,10 +409,7 @@
     "1soqa36": 1776495682682,
     "1sp14s3": 1776528071175,
     "1sp6t0f": 1776540648803,
-    "1sp72yu": 1776541548606,
-    "1sp87q9": 1776544268285,
-    "1sp97jn": 1776545991050,
-    "1sp96tx": 1776546088321
+    "1sp72yu": 1776541548606
   },
   "lastPollBySubreddit": {},
   "lastDigestByClient": {
@@ -422,7 +419,7 @@
   },
   "monthlyStats": {
     "month": "2026-04",
-    "totalScanned": 5539,
+    "totalScanned": 5435,
     "totalQualified": 11,
     "byClient": {
       "lovery-re": {
