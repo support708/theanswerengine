@@ -209,6 +209,62 @@ export interface ClientVsCohort {
   }>;
 }
 
+/**
+ * Render the "You vs. Industry" section as inline HTML. Returns empty
+ * string when input is null (cohort suppressed or client unmapped) — safe
+ * to inject unconditionally into the Monthly Report layout.
+ */
+export function renderCohortSectionHtml(vs: ClientVsCohort | null): string {
+  if (!vs || vs.comparisons.length === 0) return '';
+
+  const DISPLAY = `'Space Grotesk','Inter','Helvetica Neue',Arial,sans-serif`;
+  const MONO = `'JetBrains Mono',Consolas,Menlo,'Courier New',monospace`;
+  const BRAND = '#FF6A00';
+
+  const rows = vs.comparisons.map(c => {
+    const isAbove = c.directionGood === 'up' ? c.client > c.cohortMedian : c.client < c.cohortMedian;
+    const color = isAbove ? '#0d8a3e' : '#888';
+    const formatValue = (n: number) => {
+      if (c.signal === 'Avg Position') return n.toFixed(1);
+      return n >= 1000 ? n.toLocaleString() : String(n);
+    };
+    return `
+    <tr>
+      <td style="padding:10px 6px;border-bottom:1px solid #f0f0f0;font-size:13px;color:#1a1a1a;">${escapeHtmlLocal(c.signal)}</td>
+      <td style="padding:10px 6px;border-bottom:1px solid #f0f0f0;font-size:13px;color:${color};font-weight:700;text-align:right;">${formatValue(c.client)}</td>
+      <td style="padding:10px 6px;border-bottom:1px solid #f0f0f0;font-size:13px;color:#777;text-align:right;">${formatValue(c.cohortMedian)}</td>
+    </tr>`;
+  }).join('');
+
+  return `
+<h3 style="margin:0 0 6px 0;font-size:15px;color:#1a1a1a;font-family:${DISPLAY};font-weight:800;text-transform:uppercase;letter-spacing:0.02em;">You vs. Industry</h3>
+<p style="margin:0 0 12px 0;font-size:12px;color:#777;">Median across ${vs.cohortSize} ${escapeHtmlLocal(vs.cohortDisplayName.toLowerCase())} clients in our portfolio.</p>
+<table role="presentation" cellpadding="0" cellspacing="0" border="0" width="100%" style="border-collapse:collapse;margin:0 0 28px 0;">
+  <thead>
+    <tr>
+      <th style="padding:8px 6px;border-bottom:2px solid #e5e7eb;text-align:left;font-family:${MONO};font-size:10px;letter-spacing:0.12em;color:#888;text-transform:uppercase;">Signal</th>
+      <th style="padding:8px 6px;border-bottom:2px solid #e5e7eb;text-align:right;font-family:${MONO};font-size:10px;letter-spacing:0.12em;color:${BRAND};text-transform:uppercase;">You</th>
+      <th style="padding:8px 6px;border-bottom:2px solid #e5e7eb;text-align:right;font-family:${MONO};font-size:10px;letter-spacing:0.12em;color:#888;text-transform:uppercase;">Cohort Median</th>
+    </tr>
+  </thead>
+  <tbody>${rows}</tbody>
+</table>`;
+}
+
+export function renderCohortSectionPlain(vs: ClientVsCohort | null): string {
+  if (!vs || vs.comparisons.length === 0) return '';
+  const lines: string[] = [`YOU VS. INDUSTRY (median of ${vs.cohortSize} ${vs.cohortDisplayName.toLowerCase()} clients):`];
+  for (const c of vs.comparisons) {
+    const fmt = (n: number) => c.signal === 'Avg Position' ? n.toFixed(1) : String(n);
+    lines.push(`  ${c.signal}: you ${fmt(c.client)} vs cohort ${fmt(c.cohortMedian)}`);
+  }
+  return lines.join('\n') + '\n';
+}
+
+function escapeHtmlLocal(s: string): string {
+  return String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
+}
+
 export async function buildClientVsCohort(clientSlug: string): Promise<ClientVsCohort | null> {
   const benchmark = getBenchmarkForClient(clientSlug);
   if (!benchmark) return null;

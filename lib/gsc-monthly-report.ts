@@ -13,6 +13,11 @@ import {
   renderActivitySectionPlain,
   type ActivityItem,
 } from './agency-activity';
+import {
+  renderCohortSectionHtml,
+  renderCohortSectionPlain,
+  type ClientVsCohort,
+} from './cohort-aggregator';
 
 export interface MonthlyReportData {
   siteUrl: string;
@@ -150,7 +155,7 @@ function formatPos(p: number): string {
   return p.toFixed(1);
 }
 
-export function renderMonthlyReportHtml(r: MonthlyReportData, firstName: string, activity: ActivityItem[] = []): string {
+export function renderMonthlyReportHtml(r: MonthlyReportData, firstName: string, activity: ActivityItem[] = [], cohort: ClientVsCohort | null = null): string {
   const queryRows = r.topQueries.map((q, i) => `
     <tr>
       <td style="padding:8px 6px;border-bottom:1px solid #f0f0f0;font-family:${MONO};font-size:12px;color:#999;width:26px;">${(i + 1).toString().padStart(2, '0')}</td>
@@ -233,6 +238,8 @@ export function renderMonthlyReportHtml(r: MonthlyReportData, firstName: string,
 
 ${renderActivitySectionHtml(activity)}
 
+${renderCohortSectionHtml(cohort)}
+
 <!-- OPPORTUNITY QUEUE -->
 <h3 style="margin:0 0 4px 0;font-size:15px;color:#1a1a1a;font-family:${DISPLAY};font-weight:800;text-transform:uppercase;letter-spacing:0.02em;">Page-2 Opportunities</h3>
 <p style="margin:0 0 10px 0;font-size:12px;color:#777;">Queries ranked 11-20. One well-written article could push these to page 1.</p>
@@ -274,7 +281,7 @@ Report period: ${escapeHtml(r.periodStart)} to ${escapeHtml(r.periodEnd)}. Data 
 </p>`;
 }
 
-export function renderMonthlyReportPlain(r: MonthlyReportData, firstName: string, activity: ActivityItem[] = []): string {
+export function renderMonthlyReportPlain(r: MonthlyReportData, firstName: string, activity: ActivityItem[] = [], cohort: ClientVsCohort | null = null): string {
   return `Monthly AEO Report
 ${r.displayName} — ${r.monthLabel}
 
@@ -284,6 +291,7 @@ AVG CTR: ${formatCtr(r.avgCtr)}
 AVG POSITION: ${formatPos(r.avgPosition)}
 
 ${renderActivitySectionPlain(activity)}
+${renderCohortSectionPlain(cohort)}
 TOP 10 QUERIES:
 ${r.topQueries.map((q, i) => `${(i + 1).toString().padStart(2, '0')}. ${q.query} — ${formatInt(q.impressions)} impr, ${formatInt(q.clicks)} clicks, pos ${formatPos(q.position)}`).join('\n')}
 

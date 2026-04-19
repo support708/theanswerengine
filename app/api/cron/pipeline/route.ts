@@ -16,6 +16,7 @@ import { callClaudeWithWebSearch, callClaude, extractText, checkRateLimit } from
 import { parseAERO7FromResearch } from '@/lib/aero7-scorer';
 import { getIndustryColors, CALENDLY_URL, REPORT_FOOTER } from '@/lib/report-template';
 import { runFabricationScan, runEmDashScan, stripEmDashes } from '@/lib/fabrication-scan';
+import { buildBattlecard, renderBattlecardHtml } from '@/lib/battlecard';
 import { buildEmailSubject, buildEmailBody, buildHtmlEmailBody, buildInboundEmailSubject, buildInboundEmailBody, buildInboundHtmlEmailBody, buildRealEstateEmailSubject, buildRealEstateEmailBody, buildRealEstateHtmlEmailBody } from '@/lib/gmail';
 import { sendGmailMessageWithRetry, isGmailConfigured } from '@/lib/gmail-api';
 import { canSendToday, prepareSendLogFile } from '@/lib/email-scheduler';
@@ -519,6 +520,37 @@ Generate the complete HTML now.`;
       const fabricationResult = runFabricationScan(reportHtml, verifiedData);
       const emDashResult = runEmDashScan(reportHtml);
       if (!emDashResult.clean) reportHtml = stripEmDashes(reportHtml);
+
+      // Competitor Battlecard (#12) — injects a head-to-head section into the
+      // Blind Spot report when the prospect named a specific competitor. Fails
+      // open: any error skips the battlecard rather than breaking the report.
+      const hasNamedCompetitor =
+        !!lead.competitorName &&
+        lead.competitorName.trim().length > 0 &&
+        !/^(unknown|none|n\/a)$/i.test(lead.competitorName.trim());
+      if (hasNamedCompetitor) {
+        try {
+          const battlecard = await buildBattlecard({
+            prospectName: lead.businessName,
+            prospectCity: lead.city,
+            industry: lead.serviceNiche,
+            competitorName: lead.competitorName!.trim(),
+            prospectAiCitations: research.aiCited ? 1 : 0,
+            prospectReviewCount: research.reviewCount ?? undefined,
+            prospectReviewRating: research.rating ?? undefined,
+            prospectWebsite: lead.websiteUrl,
+            prospectResearchNotes: (research.rawNotes || '').slice(0, 1200),
+          });
+          const battlecardHtml = renderBattlecardHtml(battlecard);
+          reportHtml = reportHtml.includes('</body>')
+            ? reportHtml.replace('</body>', `${battlecardHtml}\n</body>`)
+            : reportHtml + '\n' + battlecardHtml;
+          lead.actionLog.push({ action: 'Competitor battlecard attached', timestamp: new Date().toISOString() });
+        } catch (err) {
+          console.warn('Battlecard generation failed:', err);
+          lead.actionLog.push({ action: `Battlecard skipped: ${(err as Error).message?.slice(0, 120)}`, timestamp: new Date().toISOString() });
+        }
+      }
 
       // Save report locally (dev only)
       if (!process.env.VERCEL) {
