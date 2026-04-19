@@ -1,0 +1,657 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Blind Spot Report | Spine Solution Chiropractic | The Answer Engine</title>
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    background: #f8f8f6;
+    color: #1a1a2e;
+    line-height: 1.6;
+  }
+
+  a { color: inherit; text-decoration: none; }
+
+  /* ── HERO ── */
+  .hero {
+    background: linear-gradient(135deg, #0a0a1a 0%, #1e2d3d 100%);
+    color: #fff;
+    padding: 70px 24px 60px;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .hero::before {
+    content: "";
+    position: absolute;
+    top: -80px; left: 50%;
+    transform: translateX(-50%);
+    width: 600px; height: 600px;
+    background: radial-gradient(circle, rgba(45,106,106,0.25) 0%, transparent 70%);
+    pointer-events: none;
+  }
+
+  .hero-badge {
+    display: inline-block;
+    background: rgba(45,106,106,0.35);
+    border: 1px solid rgba(45,106,106,0.7);
+    color: #7ecece;
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 2.5px;
+    text-transform: uppercase;
+    padding: 6px 18px;
+    border-radius: 20px;
+    margin-bottom: 28px;
+  }
+
+  .hero h1 {
+    font-size: clamp(28px, 5vw, 52px);
+    font-weight: 800;
+    line-height: 1.15;
+    letter-spacing: -0.5px;
+    margin-bottom: 20px;
+  }
+
+  .hero h1 span { color: #7ecece; }
+
+  .hero-sub {
+    font-size: clamp(15px, 2.5vw, 19px);
+    color: rgba(255,255,255,0.72);
+    max-width: 600px;
+    margin: 0 auto 36px;
+  }
+
+  .hero-meta {
+    display: inline-flex;
+    gap: 24px;
+    flex-wrap: wrap;
+    justify-content: center;
+    background: rgba(255,255,255,0.06);
+    border: 1px solid rgba(255,255,255,0.1);
+    border-radius: 12px;
+    padding: 14px 28px;
+    font-size: 13px;
+    color: rgba(255,255,255,0.6);
+  }
+
+  .hero-meta span strong { color: #fff; }
+
+  /* ── SECTIONS ── */
+  .section { padding: 64px 24px; }
+  .section-inner { max-width: 960px; margin: 0 auto; }
+
+  .section-label {
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 2.5px;
+    text-transform: uppercase;
+    color: #2d6a6a;
+    margin-bottom: 10px;
+  }
+
+  .section-title {
+    font-size: clamp(22px, 4vw, 36px);
+    font-weight: 800;
+    line-height: 1.2;
+    margin-bottom: 16px;
+    color: #0a0a1a;
+  }
+
+  .section-intro {
+    font-size: 16px;
+    color: #4a5568;
+    max-width: 680px;
+    margin-bottom: 40px;
+  }
+
+  /* ── GAP STATS ── */
+  .gap-bg { background: #fff; }
+
+  .stats-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(190px, 1fr));
+    gap: 20px;
+    margin-bottom: 40px;
+  }
+
+  .stat-card {
+    background: #f8f8f6;
+    border: 1px solid #e8e8e4;
+    border-radius: 14px;
+    padding: 28px 22px;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .stat-card::after {
+    content: "";
+    position: absolute;
+    bottom: 0; left: 0; right: 0;
+    height: 3px;
+    background: linear-gradient(90deg, #2d6a6a, #7ecece);
+  }
+
+  .stat-number {
+    font-size: 42px;
+    font-weight: 800;
+    color: #0a0a1a;
+    line-height: 1;
+    margin-bottom: 6px;
+  }
+
+  .stat-number.warn { color: #c0392b; }
+
+  .stat-label {
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #718096;
+  }
+
+  .aero-card {
+    background: linear-gradient(135deg, #0a0a1a, #1e2d3d);
+    border-radius: 16px;
+    padding: 36px 32px;
+    color: #fff;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 30px;
+    justify-content: space-between;
+  }
+
+  .aero-left h3 { font-size: 22px; font-weight: 800; margin-bottom: 8px; }
+  .aero-left p { color: rgba(255,255,255,0.65); font-size: 15px; max-width: 440px; }
+
+  .aero-score-wrap { text-align: center; flex-shrink: 0; }
+
+  .aero-score-circle {
+    width: 110px; height: 110px;
+    border-radius: 50%;
+    background: conic-gradient(#c0392b calc(41 * 3.6deg), rgba(255,255,255,0.1) 0deg);
+    display: flex; align-items: center; justify-content: center;
+    margin: 0 auto 12px;
+    position: relative;
+  }
+
+  .aero-score-inner {
+    width: 82px; height: 82px;
+    border-radius: 50%;
+    background: #1e2d3d;
+    display: flex; align-items: center; justify-content: center;
+    flex-direction: column;
+  }
+
+  .aero-score-num { font-size: 28px; font-weight: 800; color: #fff; line-height: 1; }
+  .aero-score-denom { font-size: 12px; color: rgba(255,255,255,0.5); }
+  .aero-score-label { font-size: 12px; color: rgba(255,255,255,0.6); letter-spacing: 1px; text-transform: uppercase; }
+
+  .aero-pills {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 20px;
+  }
+
+  .aero-pill {
+    padding: 5px 14px;
+    border-radius: 20px;
+    font-size: 12px;
+    font-weight: 600;
+  }
+
+  .pill-red { background: rgba(192,57,43,0.18); color: #e74c3c; border: 1px solid rgba(192,57,43,0.3); }
+  .pill-yellow { background: rgba(241,196,15,0.15); color: #f39c12; border: 1px solid rgba(241,196,15,0.3); }
+  .pill-green { background: rgba(45,106,106,0.18); color: #7ecece; border: 1px solid rgba(45,106,106,0.4); }
+
+  /* ── TERMINAL ── */
+  .terminal-bg { background: #f0f4f4; }
+
+  .terminal {
+    background: #0d1117;
+    border-radius: 14px;
+    overflow: hidden;
+    box-shadow: 0 24px 60px rgba(0,0,0,0.25);
+    max-width: 760px;
+    margin: 0 auto;
+  }
+
+  .terminal-bar {
+    background: #1c2128;
+    padding: 12px 18px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+
+  .t-dot { width: 12px; height: 12px; border-radius: 50%; }
+  .t-dot.r { background: #ff5f56; }
+  .t-dot.y { background: #ffbd2e; }
+  .t-dot.g { background: #27c93f; }
+
+  .t-title {
+    margin-left: 10px;
+    font-size: 12px;
+    color: rgba(255,255,255,0.4);
+    font-family: "Courier New", monospace;
+  }
+
+  .terminal-body { padding: 28px 24px; font-family: "Courier New", monospace; font-size: 14px; line-height: 1.7; }
+
+  .t-prompt { color: #7ecece; }
+  .t-query { color: #fff; }
+  .t-response { color: rgba(255,255,255,0.75); margin: 16px 0 8px; }
+  .t-competitor { color: #f39c12; font-weight: bold; }
+  .t-missing { color: #e74c3c; }
+  .t-cursor { display: inline-block; width: 9px; height: 16px; background: #7ecece; vertical-align: middle; animation: blink 1s step-end infinite; }
+
+  @keyframes blink { 0%,100%{opacity:1;} 50%{opacity:0;} }
+
+  .terminal-note {
+    margin-top: 24px;
+    padding: 16px 20px;
+    background: rgba(192,57,43,0.12);
+    border-left: 3px solid #e74c3c;
+    border-radius: 0 8px 8px 0;
+    color: rgba(255,255,255,0.8);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    font-size: 14px;
+  }
+
+  /* ── DIFFERENTIATORS ── */
+  .diff-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 22px;
+  }
+
+  .diff-card {
+    background: #fff;
+    border: 1px solid #e8e8e4;
+    border-radius: 16px;
+    padding: 30px 26px;
+    position: relative;
+    overflow: hidden;
+    transition: transform 0.2s, box-shadow 0.2s;
+  }
+
+  .diff-card:hover { transform: translateY(-3px); box-shadow: 0 12px 32px rgba(0,0,0,0.08); }
+
+  .diff-icon {
+    width: 48px; height: 48px;
+    border-radius: 12px;
+    background: linear-gradient(135deg, #2d6a6a, #3d8a8a);
+    display: flex; align-items: center; justify-content: center;
+    font-size: 22px;
+    margin-bottom: 18px;
+  }
+
+  .diff-card h3 { font-size: 17px; font-weight: 700; margin-bottom: 10px; color: #0a0a1a; }
+  .diff-card p { font-size: 14px; color: #5a6a7a; line-height: 1.6; }
+
+  .diff-tag {
+    display: inline-block;
+    margin-top: 14px;
+    padding: 3px 12px;
+    background: rgba(45,106,106,0.1);
+    color: #2d6a6a;
+    border-radius: 20px;
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+  }
+
+  /* ── FIX GRID ── */
+  .fix-bg { background: #1e2d3d; }
+  .fix-bg .section-label { color: #7ecece; }
+  .fix-bg .section-title { color: #fff; }
+  .fix-bg .section-intro { color: rgba(255,255,255,0.65); }
+
+  .fix-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
+    gap: 20px;
+  }
+
+  .fix-card {
+    background: rgba(255,255,255,0.06);
+    border: 1px solid rgba(255,255,255,0.1);
+    border-radius: 16px;
+    padding: 28px 22px;
+  }
+
+  .fix-num {
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    color: #7ecece;
+    margin-bottom: 14px;
+    text-transform: uppercase;
+  }
+
+  .fix-card h3 { font-size: 17px; font-weight: 700; color: #fff; margin-bottom: 10px; }
+  .fix-card p { font-size: 13px; color: rgba(255,255,255,0.6); line-height: 1.6; }
+
+  .fix-bar {
+    margin-top: 18px;
+    height: 3px;
+    border-radius: 2px;
+    background: linear-gradient(90deg, #2d6a6a, #7ecece);
+  }
+
+  /* ── CTA ── */
+  .cta-bg { background: linear-gradient(135deg, #0a0a1a 0%, #1e2d3d 100%); }
+
+  .cta-box {
+    max-width: 680px;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .cta-box h2 {
+    font-size: clamp(26px, 4.5vw, 42px);
+    font-weight: 800;
+    color: #fff;
+    margin-bottom: 18px;
+    line-height: 1.2;
+  }
+
+  .cta-box p { font-size: 16px; color: rgba(255,255,255,0.65); margin-bottom: 36px; }
+
+  .cta-btn {
+    display: inline-block;
+    background: linear-gradient(135deg, #2d6a6a, #3d8a8a);
+    color: #fff;
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    padding: 18px 48px;
+    border-radius: 50px;
+    text-decoration: none;
+    transition: opacity 0.2s, transform 0.2s;
+    box-shadow: 0 8px 28px rgba(45,106,106,0.45);
+  }
+
+  .cta-btn:hover { opacity: 0.9; transform: translateY(-2px); }
+
+  .cta-note {
+    margin-top: 20px;
+    font-size: 13px;
+    color: rgba(255,255,255,0.4);
+  }
+
+  /* ── FOOTER ── */
+  footer {
+    background: #0a0a1a;
+    text-align: center;
+    padding: 28px 24px;
+    font-size: 12px;
+    color: rgba(255,255,255,0.3);
+  }
+
+  footer a { color: rgba(255,255,255,0.5); text-decoration: underline; }
+
+  /* ── RESPONSIVE TWEAKS ── */
+  @media (max-width: 600px) {
+    .aero-card { flex-direction: column; text-align: center; }
+    .aero-left p { margin: 0 auto; }
+    .hero-meta { flex-direction: column; gap: 10px; }
+  }
+</style>
+</head>
+<body>
+
+<!-- ═══════════════════════════════════════════
+     SECTION 1, THE HOOK
+═══════════════════════════════════════════ -->
+<section class="hero">
+  <div class="hero-badge">AI Visibility Blind Spot Report</div>
+  <h1>Yong, You Have a<br><span>Visibility Problem.</span></h1>
+  <p class="hero-sub">
+    Spine Solution Chiropractic has 17 years of expertise, specialized certifications, and a 4.5-star reputation in Los Angeles. But when patients ask AI where to go, your practice is nowhere to be found.
+  </p>
+  <div class="hero-meta">
+    <span><strong>Business:</strong> Spine Solution Chiropractic</span>
+    <span><strong>Market:</strong> Los Angeles, CA</span>
+    <span><strong>Report Type:</strong> AERO-10 Analysis</span>
+  </div>
+</section>
+
+
+<!-- ═══════════════════════════════════════════
+     SECTION 2, THE GAP
+═══════════════════════════════════════════ -->
+<section class="section gap-bg">
+  <div class="section-inner">
+    <p class="section-label">Section 02, The Gap</p>
+    <h2 class="section-title">Your Credibility Is Real.<br>Your AI Presence Is Not.</h2>
+    <p class="section-intro">
+      You have built something genuinely impressive over 17 years in Los Angeles. The numbers below confirm that. The problem is that AI systems like ChatGPT, Google AI Overviews, and Perplexity cannot see any of it.
+    </p>
+
+    <div class="stats-grid">
+      <div class="stat-card">
+        <div class="stat-number">174</div>
+        <div class="stat-label">Google Reviews</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-number">4.5<span style="font-size:24px;">★</span></div>
+        <div class="stat-label">Average Rating</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-number">17</div>
+        <div class="stat-label">Years in Practice</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-number warn">41</div>
+        <div class="stat-label">AERO-10 Score / 100</div>
+      </div>
+    </div>
+
+    <div class="aero-card">
+      <div class="aero-left">
+        <h3>Your AERO-10 Score: 41 / 100</h3>
+        <p>
+          The AERO-10 framework measures the 10 factors AI systems use to decide which businesses to cite. A score of 41 means your practice is missing the structured signals that AI engines rely on, regardless of how strong your real-world reputation is.
+        </p>
+        <div class="aero-pills">
+          <span class="aero-pill pill-red">Not AI-Cited</span>
+          <span class="aero-pill pill-red">Low Schema Coverage</span>
+          <span class="aero-pill pill-yellow">Partial Entity Presence</span>
+          <span class="aero-pill pill-yellow">Credentials Unstructured</span>
+          <span class="aero-pill pill-green">Strong Review Volume</span>
+        </div>
+      </div>
+      <div class="aero-score-wrap">
+        <div class="aero-score-circle">
+          <div class="aero-score-inner">
+            <span class="aero-score-num">41</span>
+            <span class="aero-score-denom">/100</span>
+          </div>
+        </div>
+        <div class="aero-score-label">AERO-10 Score</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- ═══════════════════════════════════════════
+     SECTION 3, WHAT AI SEES
+═══════════════════════════════════════════ -->
+<section class="section terminal-bg">
+  <div class="section-inner">
+    <p class="section-label">Section 03, What AI Sees</p>
+    <h2 class="section-title">When a Patient Asks AI for the Best Chiropractor in LA...</h2>
+    <p class="section-intro">
+      This is what happens right now. Your competitor gets the recommendation. You are invisible.
+    </p>
+
+    <div class="terminal">
+      <div class="terminal-bar">
+        <div class="t-dot r"></div>
+        <div class="t-dot y"></div>
+        <div class="t-dot g"></div>
+        <span class="t-title">AI Assistant, Live Query Simulation</span>
+      </div>
+      <div class="terminal-body">
+        <div>
+          <span class="t-prompt">User &gt; </span>
+          <span class="t-query">"Who is the best chiropractor for disc herniation in Los Angeles?"</span>
+        </div>
+        <div class="t-response">
+          Based on available structured data and authoritative citations, a highly recommended option in Los Angeles is <span class="t-competitor">Wilshire Center Chiropractic</span>, which appears prominently across healthcare directories and features clearly structured service and credential information...
+        </div>
+        <div style="margin-top:12px; color: rgba(255,255,255,0.4); font-size:13px;">
+          [ Spine Solution Chiropractic: <span class="t-missing">No structured entity data found. Not cited.</span> ] <span class="t-cursor"></span>
+        </div>
+        <div class="terminal-note">
+          <strong style="color:#e74c3c;">Why this happens:</strong> AI engines pull from structured schema markup, authoritative directory listings, and entity-recognized content. Without these signals, even a 17-year practice with 174 reviews remains invisible to the algorithm.
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- ═══════════════════════════════════════════
+     SECTION 4, HIDDEN DIFFERENTIATORS
+═══════════════════════════════════════════ -->
+<section class="section" style="background:#f8f8f6;">
+  <div class="section-inner">
+    <p class="section-label">Section 04, Hidden Differentiators</p>
+    <h2 class="section-title">What Makes Spine Solution Unique<br>(That AI Cannot Currently Find)</h2>
+    <p class="section-intro">
+      These are real, verifiable advantages your practice holds. They simply have not been translated into the structured, AI-readable signals that would get you cited.
+    </p>
+
+    <div class="diff-grid">
+
+      <div class="diff-card">
+        <div class="diff-icon">🦴</div>
+        <h3>Cox Disc Decompression Specialist</h3>
+        <p>Dr. Yong Jae Chung holds a formal certification in Cox Disc Treatment, a specialized decompression technique for herniated disc conditions. This is a rare, credentialed specialization in Los Angeles that AI systems are not surfacing on your behalf.</p>
+        <span class="diff-tag">Certified Specialization</span>
+      </div>
+
+      <div class="diff-card">
+        <div class="diff-icon">📋</div>
+        <h3>Multi-Board Credentialed Doctors</h3>
+        <p>The practice holds California, New York, and New Jersey State Board Diplomates alongside a National Board of Chiropractic Examiners Diplomate. This multi-state credentialing signals exceptional rigor but is invisible to AI without structured markup.</p>
+        <span class="diff-tag">Multi-State Credentials</span>
+      </div>
+
+      <div class="diff-card">
+        <div class="diff-icon">🏢</div>
+        <h3>Multi-Location Presence Since 2009</h3>
+        <p>Spine Solution expanded to serve Los Angeles, Fullerton, and formerly La Canada Flintridge, demonstrating 17 years of sustained growth in a competitive market. Multi-location practices carry strong authority signals that remain unclaimed in AI indexes.</p>
+        <span class="diff-tag">Established 2009</span>
+      </div>
+
+      <div class="diff-card">
+        <div class="diff-icon">🧠</div>
+        <h3>Whiplash and Brain Injury Traumatology</h3>
+        <p>Dr. Chung holds a formal certification in Whiplash and Brain Injury Traumatology, a clinically significant credential that distinguishes the practice from general chiropractors. This is the exact type of specific expertise AI models look for when answering injury-related queries.</p>
+        <span class="diff-tag">Trauma Certification</span>
+      </div>
+
+      <div class="diff-card">
+        <div class="diff-icon">💬</div>
+        <h3>Holistic, Drug-Free Patient Care</h3>
+        <p>Reviews consistently praise the friendly staff, clinical skills, and personalized approach. The practice combines chiropractic care with massage therapy, rehabilitative exercises, and preventive care, offering a comprehensive model that resonates with patients seeking non-pharmaceutical solutions.</p>
+        <span class="diff-tag">Patient-Centered Approach</span>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+<!-- ═══════════════════════════════════════════
+     SECTION 5, THE FIX
+═══════════════════════════════════════════ -->
+<section class="section fix-bg">
+  <div class="section-inner">
+    <p class="section-label">Section 05, The Fix</p>
+    <h2 class="section-title" style="color:#fff;">Four Moves That Put<br>Spine Solution on the AI Map</h2>
+    <p class="section-intro">
+      Each of these directly addresses a gap in your current AERO-10 score. Together, they transform your practice from invisible to consistently cited.
+    </p>
+
+    <div class="fix-grid">
+
+      <div class="fix-card">
+        <div class="fix-num">01, Answer-First Content</div>
+        <h3>Become the Answer</h3>
+        <p>AI models cite sources that directly answer specific patient questions. Creating structured, concise content around queries like "best chiropractor for disc herniation Los Angeles" positions Spine Solution as the authoritative response rather than a directory listing.</p>
+        <div class="fix-bar"></div>
+      </div>
+
+      <div class="fix-card">
+        <div class="fix-num">02, Schema Markup</div>
+        <h3>Speak the AI Language</h3>
+        <p>Adding MedicalBusiness, Physician, and Service schema to your website tells AI systems exactly what you do, who your doctors are, and what conditions you treat. Without it, your site content remains unstructured and uncitable.</p>
+        <div class="fix-bar"></div>
+      </div>
+
+      <div class="fix-card">
+        <div class="fix-num">03, Entity Authority</div>
+        <h3>Build Your Digital Identity</h3>
+        <p>AI engines maintain knowledge graphs of recognized entities. Claiming and enriching your presence across authoritative directories, ensuring name, address, and phone consistency, and linking credentials formally creates an entity profile AI systems can reference with confidence.</p>
+        <div class="fix-bar"></div>
+      </div>
+
+      <div class="fix-card">
+        <div class="fix-num">04, Authority Signals</div>
+        <h3>Publish What You Know</h3>
+        <p>Dr. Chung's certifications in Cox Disc Treatment and Whiplash Traumatology represent genuine clinical authority. Publishing this expertise in structured, crawlable formats, including FAQs, condition guides, and credential pages, converts real knowledge into AI-readable authority.</p>
+        <div class="fix-bar"></div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+<!-- ═══════════════════════════════════════════
+     SECTION 6, CTA
+═══════════════════════════════════════════ -->
+<section class="section cta-bg">
+  <div class="cta-box">
+    <p class="section-label" style="color:#7ecece; text-align:center; margin-bottom:16px;">Section 06, Next Step</p>
+    <h2>Ready to Be the Chiropractor<br>AI Recommends in Los Angeles?</h2>
+    <p>
+      In 30 minutes, we will walk through exactly which AERO-10 gaps are costing Spine Solution Chiropractic the most citations, and show you a prioritized roadmap to fix them. No jargon, no pressure.
+    </p>
+    <a href="https://calendly.com/theanswerengine-support/30min" target="_blank" rel="noopener" class="cta-btn">
+      BOOK YOUR FREE 30-MIN CALL
+    </a>
+    <p class="cta-note">Free strategy call. No commitment required.</p>
+  </div>
+</section>
+
+
+<!-- ═══════════════════════════════════════════
+     FOOTER
+═══════════════════════════════════════════ -->
+<footer>
+  <p>
+    This analysis uses publicly available information about Spine Solution Chiropractic and the Los Angeles chiropractic market.<br>
+    Questions? <a href="mailto:support@theanswerengine.ai">support@theanswerengine.ai</a>
+  </p>
+  <p style="margin-top:10px;">
+    &copy; 2025 The Answer Engine. All rights reserved.
+  </p>
+</footer>
+
+</body>
+</html>

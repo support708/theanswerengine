@@ -2835,8 +2835,73 @@
     "reviewCount": 174,
     "rating": 4.5,
     "notes": "Auto-discovered by Lead Hunter. AI citation: not cited on 1/1 platforms. Competitors cited: Wilshire Center Chiropractic, Yonsei Chiropractic Clinic, The Joint Chiropractic. Outreach-ready: YES (citation data + contact + differentiator verified). Differentiator: Established 2009, specializes in disc decompression therapy, multiple locations, praised for friendly staff and clinical skills",
-    "status": "queued",
-    "research": null,
+    "status": "report_ready",
+    "research": {
+      "reviewCount": 174,
+      "rating": 4.5,
+      "yearsInBusiness": 17,
+      "credentials": [
+        "Dr. Yong Jae Chung, D.C. - Cleveland Chiropractic College (2009), Certified Cox Disc Treatment Specialist, Certified in Whiplash and Brain Injury Traumatology",
+        "Dr. Kim - Texas Chiropractic College (2010)",
+        "California State License DC-31391 (Chiropractic)",
+        "National Board of Chiropractic Examiners Diplomate",
+        "California Board of Chiropractic Examiners Diplomate",
+        "New York State Board of Chiropractic Examiners Diplomate",
+        "New Jersey State Board of Chiropractic Examiners Diplomate"
+      ],
+      "awards": [],
+      "communityInvolvement": [],
+      "hiddenDifferentiators": [
+        "Established 2009, 17 years in practice",
+        "Cox Disc Decompression Therapy specialization",
+        "Multiple locations (Los Angeles, Fullerton, formerly La Canada Flintridge)",
+        "Dr. Chung has 15+ years of chiropractic experience",
+        "Praised for friendly staff and clinical skills in reviews",
+        "Provides preventive care, massage therapy, and rehab exercises",
+        "Holistic, drug-free approach",
+        "Responsive business on review platforms"
+      ],
+      "topCompetitors": [
+        {
+          "name": "Wilshire Center Chiropractic",
+          "reason": "Also in Koreatown, established 2008, specializes in spinal decompression, has blog content and strong online presence with detailed service pages, better website optimization"
+        },
+        {
+          "name": "Yonsei Chiropractic Clinic",
+          "reason": "Listed in top Los Angeles chiropractors, visible in AI recommendations"
+        },
+        {
+          "name": "The Joint Chiropractic",
+          "reason": "Chain chiropractor with higher visibility in LA recommendations"
+        },
+        {
+          "name": "Unlimited Chiropractic Los Angeles (Dr. Woo S. Kim)",
+          "reason": "Featured as LA's #1 Principled Chiropractor, strong brand recognition, affordable pricing strategy ($49 first visit)"
+        }
+      ],
+      "faqContentPresent": false,
+      "blogPresent": false,
+      "gmbPresent": true,
+      "schemaDetected": false,
+      "recentContent": false,
+      "uniqueStory": "Spine Solution Chiropractic was established in 2009 by Dr. Yong Jae Chung, a Cleveland Chiropractic College graduate with specialized certification in Cox Disc Treatment. The practice specializes exclusively in disc decompression therapy for herniated discs and spine-related conditions, using a holistic, drug-free approach. The business expanded to multiple locations (Los Angeles, Fullerton, formerly La Canada Flintridge) and emphasizes patient-centered care with friendly staff, personalized treatment plans, and long-term health outcomes rather than quick fixes.",
+      "aiCited": false,
+      "aero7": {
+        "answerQuality": 4,
+        "entityOptimization": 3,
+        "relevanceFreshness": 4,
+        "optimizationStructure": 3,
+        "voiceAuthenticity": 5,
+        "authoritySignals": 6,
+        "authorityDistribution": 4,
+        "consensusCoCitation": 5,
+        "platformReadiness": 3,
+        "technicalAccessibility": 4,
+        "total": 41
+      },
+      "rawNotes": "REVIEW PRESENCE: Verified on Yelp (174 reviews, 4.5 stars for LA location), Birdeye (36 reviews, 4.3 stars), TrustAnalytica (4.2 stars). GMB appears present but status cannot be fully confirmed as verified. CREDENTIALS: Strong - Dr. Chung has multiple state board diplomates (CA, NY, NJ, NBCE). Licensed as DC-31391. Dr. Kim graduated from Texas Chiropractic College 2010, joined 2020. AWARDS: None found in search results. COMMUNITY INVOLVEMENT: No evidence found. WEBSITE STRUCTURE: Homepage present at spinesolutionchiro.com with basic navigation. Pages found: 'what-to-expect', 'about-us/chiropractors', 'contact-us'. NO FAQ or blog identified via site search. Site structure appears minimal with limited content depth. SCHEMA MARKUP: No structured data markup detected. No LocalBusiness schema, FAQ schema, or rich snippets identified. CONTENT FRESHNESS: Yelp/Birdeye data updated April 2026. Website appears unchanged for extended period. No blog posts, articles, or regular updates. STORY/DIFFERENTIATION: Clear narrative around disc decompression specialization and Dr. Chung's certification, but limited to review platforms and basic site descriptions. NAP CONSISTENCY: ISSUES IDENTIFIED - Address discrepancies: Yelp shows 2716 W Olympic Blvd Ste 207, but other sources show 2970 W Olympic Blvd #303. Phone: (213) 388-4030 consistent. Website contact page shows 'Southeast corner of Olympic Blvd and Normandie Ave' but doesn't specify suite/building number. This NAP inconsistency negatively impacts local SEO. COMPETITORS: Wilshire Center Chiropractic (39 Yelp reviews, established 2008, has dedicated website with blog) appears to have better online presence. Yonsei Chiropractic Clinic and The Joint Chiropractic mentioned in AI search results. Unlimited Chiropractic Los Angeles (Dr. Woo S. Kim) heavily featured in recommendation sites. AI CITATION: Not appearing in major AI platform recommendations (ChatGPT, Perplexity, Google AI Overview). Competitors like Unlimited Chiropractic and Wilshire Center more visible. THIRD-PARTY PRESENCE: Facebook page (478 likes), Instagram account exists but inactive. LinkedIn company page minimal (3 followers). Review aggregator presence (Yelp, Birdeye, Healthgrades, BestProsInTown, TrustAnalytica). No earned media, press releases, or news mentions found. PLATFORM READINESS: Website lacks full optimization for AI platforms. No FAQ schema would hurt Perplexity/Claude readiness. Review response activity minimal. No clear About Us narrative expansion for AI crawlers. ROBOTS.TXT/BOT ACCESS: Not tested but website appears basic, likely open to bot access. However, thin content and lack of schema limit AI platform visibility. VOICE & AUTHENTICITY: Strong authentic voice in reviews mentioning specific doctors and treatment details. Real patient testimonials with specific clinical outcomes (L4-S1 disc herniation, pain relief). Business responds to review questions about Dr. Chung's availability, showing engagement. However, website voice is generic healthcare boilerplate with limited personality. CONSENSUS: Mentioned consistently across 4 major review platforms with similar service descriptions. Co-citation with competitors Yonsei, The Joint, and Wilshire Center in best-of lists. Consensus topic: disc decompression therapy specialization, friendly staff, clinical expertise.",
+      "researchedAt": "2026-04-19T07:30:43.903Z"
+    },
     "reportSlug": "spine-solution-chiropractic-7c7p",
     "emailDraftId": null,
     "fabricationFlags": [],
@@ -2845,10 +2910,38 @@
       {
         "action": "Queued by Lead Hunter (P1, score: 38.5, outreach-ready: true)",
         "timestamp": "2026-03-09T13:01:29.518Z"
+      },
+      {
+        "action": "Research started (auto-pipeline)",
+        "timestamp": "2026-04-19T07:30:12.576Z"
+      },
+      {
+        "action": "Research completed (AERO-10: 41/100)",
+        "timestamp": "2026-04-19T07:30:43.903Z"
+      },
+      {
+        "action": "Report generation started",
+        "timestamp": "2026-04-19T07:30:43.903Z"
+      },
+      {
+        "action": "Report generated",
+        "timestamp": "2026-04-19T07:32:26.839Z"
+      },
+      {
+        "action": "Fabrication scan: CLEAN",
+        "timestamp": "2026-04-19T07:32:26.839Z"
+      },
+      {
+        "action": "Em-dash scan: 16 found, auto-stripped",
+        "timestamp": "2026-04-19T07:32:26.839Z"
+      },
+      {
+        "action": "Report + OG metadata deployed to production",
+        "timestamp": "2026-04-19T07:32:26.966Z"
       }
     ],
     "createdAt": "2026-03-09T13:01:29.518Z",
-    "updatedAt": "2026-03-09T13:01:29.518Z",
+    "updatedAt": "2026-04-19T07:32:26.839Z",
     "huntSource": "hunt_1773061221808_5npi",
     "huntScore": 38.5,
     "huntPriority": "P1",
