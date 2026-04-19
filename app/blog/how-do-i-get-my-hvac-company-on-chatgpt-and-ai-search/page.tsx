@@ -28,7 +28,7 @@ export const metadata: Metadata = {
     description: 'Most HVAC companies are invisible to ChatGPT and Perplexity. Here is exactly what to fix to start showing up in AI-generated recommendations.',
     type: 'article',
     url: `https://theanswerengine.ai/blog/${slug}`,
-    images: [{ url: `https://theanswerengine.ai/blog/${slug}.svg`, width: 1200, height: 630 }],
+    images: [{ url: `https://theanswerengine.ai/blog/${slug}.webp`, width: 1200, height: 630 }],
   },
   twitter: {
     card: 'summary_large_image',
@@ -48,7 +48,7 @@ const jsonLd = {
       "@id": `https://theanswerengine.ai/blog/${slug}#article`,
       "headline": title,
       "description": description,
-      "image": `https://theanswerengine.ai/blog/${slug}.svg`,
+      "image": `https://theanswerengine.ai/blog/${slug}.webp`,
       "datePublished": publishDate,
       "dateModified": publishDate,
       "author": {

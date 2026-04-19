@@ -34,14 +34,14 @@ export const metadata: Metadata = {
     modifiedTime: publishDate,
     authors: ['The Answer Engine Team'],
     url: `https://theanswerengine.ai/blog/${slug}`,
-    images: [{ url: `https://theanswerengine.ai/blog/${slug}.svg`, width: 1200, height: 630, alt: title }],
+    images: [{ url: `https://theanswerengine.ai/blog/${slug}.webp`, width: 1200, height: 630, alt: title }],
     siteName: 'The Answer Engine',
   },
   twitter: {
     card: 'summary_large_image',
     title: `${title} | The Answer Engine`,
     description: 'Most mortgage brokers are invisible on ChatGPT. Learn what AI checks before recommending a broker, and how to close the gap.',
-    images: [`https://theanswerengine.ai/blog/${slug}.svg`],
+    images: [`https://theanswerengine.ai/blog/${slug}.webp`],
     creator: '@theanswerengine',
   },
   alternates: {
@@ -57,7 +57,7 @@ const jsonLd = {
       "@id": `https://theanswerengine.ai/blog/${slug}#article`,
       "headline": title,
       "description": description,
-      "image": `https://theanswerengine.ai/blog/${slug}.svg`,
+      "image": `https://theanswerengine.ai/blog/${slug}.webp`,
       "datePublished": publishDate,
       "dateModified": publishDate,
       "author": {

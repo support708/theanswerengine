@@ -25,7 +25,7 @@ export const metadata: Metadata = {
     description: 'Roofing companies get skipped by AI for specific, fixable reasons. Here is the citation gap analysis and the 4 moves that change the outcome.',
     type: 'article',
     url: 'https://theanswerengine.ai/blog/why-does-ai-recommend-other-roofers-but-not-me',
-    images: [{ url: 'https://theanswerengine.ai/blog/why-does-ai-recommend-other-roofers-but-not-me.svg', width: 1200, height: 630 }],
+    images: [{ url: 'https://theanswerengine.ai/blog/why-does-ai-recommend-other-roofers-but-not-me.webp', width: 1200, height: 630 }],
   },
   twitter: {
     card: 'summary_large_image',

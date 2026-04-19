@@ -14,7 +14,7 @@ export const metadata: Metadata = {
     description: "Discover why your electrical business is invisible to AI search and the 4 tactics electricians use to get found on ChatGPT, Google AI, and Perplexity.",
     type: 'article',
     url: 'https://theanswerengine.ai/blog/why-isnt-my-electrical-business-showing-up-on-chatgpt',
-    images: [{ url: 'https://theanswerengine.ai/blog/why-isnt-my-electrical-business-showing-up-on-chatgpt.svg', width: 1200, height: 630 }],
+    images: [{ url: 'https://theanswerengine.ai/blog/why-isnt-my-electrical-business-showing-up-on-chatgpt.webp', width: 1200, height: 630 }],
   },
   twitter: {
     card: 'summary_large_image',
