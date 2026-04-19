@@ -124,6 +124,8 @@ function stripHtml(html: string): string {
     .replace(/&#39;/gi, "'")
     .replace(/&[a-z]+;/gi, ' ')
     .replace(/\s+/g, ' ')
+    // Normalize "X /Y" → "X/Y" (HTML tag strip often leaves a space before /100)
+    .replace(/(\d)\s+\/\s*(\d)/g, '$1/$2')
     .trim();
 }
 
