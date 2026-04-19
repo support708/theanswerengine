@@ -1,0 +1,233 @@
+/**
+ * Cohort Benchmark Aggregator — TAE's proprietary "You vs. Industry" data.
+ *
+ * For each vertical cohort (real estate, property management, etc.), compute
+ * aggregate statistics across all clients in that cohort: median Authority
+ * Index, median GSC impressions/clicks, median content velocity, median
+ * review signal. Used in Monthly Reports and the Dashboard as "Your score
+ * vs. the cohort median" framing.
+ *
+ * With N=1 in some cohorts today, "median" is just that client's own number
+ * — so the aggregator exposes cohort_size so downstream consumers can
+ * suppress the benchmark when N < 3.
+ *
+ * Snapshots are monthly (keyed YYYY-MM) in data/cohort-benchmarks.json.
+ * Each run appends — historical snapshots power trend-of-cohort lines in
+ * future QBR decks.
+ */
+
+import * as fs from 'fs';
+import * as path from 'path';
+import { computeAuthorityIndex, type AuthorityIndexEntry } from './aeo-authority-index';
+
+export interface CohortBenchmark {
+  cohort: string;                  // "real-estate" | "property-management" | ...
+  cohortDisplayName: string;       // "Real Estate" | ...
+  cohortSize: number;              // number of clients
+  median: {
+    authority_index: number;
+    impressions_28d: number;
+    clicks_28d: number;
+    avg_position: number;
+    avg_ctr: number;
+    unique_queries: number;
+    new_ranking_pages_28d: number;
+    review_count: number;
+    review_rating: number;
+  };
+  sampleSlugs: string[];           // which clients contributed (anonymized publicly, exposed internally)
+  computedAt: string;              // ISO
+}
+
+export interface CohortSnapshotFile {
+  [yyyyMm: string]: CohortBenchmark[];
+}
+
+const SNAPSHOT_PATH = path.join(process.cwd(), 'data', 'cohort-benchmarks.json');
+const MAX_MONTHS_RETAINED = 24;
+
+/**
+ * Client slug → cohort label. Edit this when new clients onboard. If a
+ * client isn't listed here, they're excluded from benchmarking (prevents
+ * an unmapped client from polluting the cohort median).
+ */
+const COHORT_ASSIGNMENT: Record<string, { cohort: string; display: string }> = {
+  'borges-team':        { cohort: 'real-estate',            display: 'Real Estate' },
+  'lovery-re':          { cohort: 'real-estate',            display: 'Real Estate' },
+  'davis-agency':       { cohort: 'real-estate',            display: 'Real Estate' },
+  'lamh':               { cohort: 'real-estate',            display: 'Real Estate' },
+  'rpm-southland':      { cohort: 'property-management',    display: 'Property Management' },
+  'clearclose':         { cohort: 'builder-services',       display: 'Builder Services' },
+  'the-answer-engine':  { cohort: 'aeo-agency',             display: 'AEO Agency' },
+};
+
+function median(values: number[]): number {
+  if (values.length === 0) return 0;
+  const sorted = [...values].sort((a, b) => a - b);
+  const mid = Math.floor(sorted.length / 2);
+  return sorted.length % 2 === 0
+    ? (sorted[mid - 1] + sorted[mid]) / 2
+    : sorted[mid];
+}
+
+function loadSnapshotFile(): CohortSnapshotFile {
+  if (!fs.existsSync(SNAPSHOT_PATH)) return {};
+  try {
+    return JSON.parse(fs.readFileSync(SNAPSHOT_PATH, 'utf-8'));
+  } catch {
+    return {};
+  }
+}
+
+function saveSnapshotFile(data: CohortSnapshotFile): void {
+  const keys = Object.keys(data).sort();
+  const trimmed: CohortSnapshotFile = {};
+  for (const k of keys.slice(-MAX_MONTHS_RETAINED)) {
+    trimmed[k] = data[k];
+  }
+  fs.writeFileSync(SNAPSHOT_PATH, JSON.stringify(trimmed, null, 2));
+}
+
+function currentYyyyMm(): string {
+  const d = new Date();
+  return `${d.getUTCFullYear()}-${String(d.getUTCMonth() + 1).padStart(2, '0')}`;
+}
+
+interface ClientData {
+  slug: string;
+  cohort: string;
+  display: string;
+  entry: AuthorityIndexEntry;
+}
+
+/**
+ * Run aggregation across all cohorts. Each client's current Authority Index
+ * + GSC signals are pulled fresh; persist=false on the compute call so the
+ * per-client history isn't duplicated by the nightly aggregator.
+ */
+export async function aggregateCohorts(opts: {
+  slugs?: string[];              // if supplied, limit to these clients
+  persist?: boolean;             // write to data/cohort-benchmarks.json
+  yyyyMm?: string;               // month key for snapshot
+} = {}): Promise<CohortBenchmark[]> {
+  const yyyyMm = opts.yyyyMm || currentYyyyMm();
+  const slugs = opts.slugs || Object.keys(COHORT_ASSIGNMENT);
+
+  const clientData: ClientData[] = [];
+  for (const slug of slugs) {
+    const assignment = COHORT_ASSIGNMENT[slug];
+    if (!assignment) continue;
+    try {
+      const result = await computeAuthorityIndex(slug, { persist: false });
+      clientData.push({
+        slug,
+        cohort: assignment.cohort,
+        display: assignment.display,
+        entry: {
+          timestamp: result.timestamp,
+          score: result.score,
+          breakdown: result.breakdown,
+          signals: result.signals,
+        },
+      });
+    } catch {
+      // Client failed to compute — skip (don't kill the aggregator).
+    }
+  }
+
+  const byCohort = new Map<string, ClientData[]>();
+  for (const c of clientData) {
+    const list = byCohort.get(c.cohort) || [];
+    list.push(c);
+    byCohort.set(c.cohort, list);
+  }
+
+  const benchmarks: CohortBenchmark[] = [];
+  for (const [cohort, members] of byCohort) {
+    benchmarks.push({
+      cohort,
+      cohortDisplayName: members[0].display,
+      cohortSize: members.length,
+      median: {
+        authority_index: Math.round(median(members.map(m => m.entry.score))),
+        impressions_28d: Math.round(median(members.map(m => m.entry.signals.impressions_28d))),
+        clicks_28d: Math.round(median(members.map(m => m.entry.signals.clicks_28d))),
+        avg_position: Math.round(median(members.map(m => m.entry.signals.avg_position)) * 10) / 10,
+        avg_ctr: Math.round(median(members.map(m => m.entry.signals.avg_ctr)) * 10000) / 10000,
+        unique_queries: Math.round(median(members.map(m => m.entry.signals.unique_queries))),
+        new_ranking_pages_28d: Math.round(median(members.map(m => m.entry.signals.new_ranking_pages))),
+        review_count: Math.round(median(members.map(m => m.entry.signals.review_count))),
+        review_rating: Math.round(median(members.map(m => m.entry.signals.review_rating)) * 10) / 10,
+      },
+      sampleSlugs: members.map(m => m.slug).sort(),
+      computedAt: new Date().toISOString(),
+    });
+  }
+
+  if (opts.persist) {
+    const file = loadSnapshotFile();
+    file[yyyyMm] = benchmarks;
+    saveSnapshotFile(file);
+  }
+
+  return benchmarks;
+}
+
+/**
+ * Look up the most recent benchmark for one client's cohort. Returns null
+ * when cohort_size < 3 (benchmark suppressed to avoid leaking a single
+ * competitor's metrics).
+ */
+export function getBenchmarkForClient(clientSlug: string): CohortBenchmark | null {
+  const assignment = COHORT_ASSIGNMENT[clientSlug];
+  if (!assignment) return null;
+
+  const file = loadSnapshotFile();
+  const keys = Object.keys(file).sort().reverse();
+  for (const k of keys) {
+    const b = file[k].find(b => b.cohort === assignment.cohort);
+    if (b && b.cohortSize >= 3) return b;
+  }
+  return null;
+}
+
+/**
+ * For a client, compute their value vs. cohort median for each signal.
+ * Returns null when cohort data is suppressed.
+ */
+export interface ClientVsCohort {
+  clientSlug: string;
+  cohort: string;
+  cohortDisplayName: string;
+  cohortSize: number;
+  comparisons: Array<{
+    signal: string;
+    client: number;
+    cohortMedian: number;
+    pctVsMedian: number;     // (client - median) / median * 100
+    directionGood: 'up' | 'down';  // which direction is favorable
+  }>;
+}
+
+export async function buildClientVsCohort(clientSlug: string): Promise<ClientVsCohort | null> {
+  const benchmark = getBenchmarkForClient(clientSlug);
+  if (!benchmark) return null;
+
+  const client = await computeAuthorityIndex(clientSlug, { persist: false });
+  const pct = (client: number, cohort: number) =>
+    cohort === 0 ? (client > 0 ? 100 : 0) : Math.round(((client - cohort) / cohort) * 100);
+
+  return {
+    clientSlug,
+    cohort: benchmark.cohort,
+    cohortDisplayName: benchmark.cohortDisplayName,
+    cohortSize: benchmark.cohortSize,
+    comparisons: [
+      { signal: 'AEO Authority Index', client: client.score, cohortMedian: benchmark.median.authority_index, pctVsMedian: pct(client.score, benchmark.median.authority_index), directionGood: 'up' },
+      { signal: 'Impressions (28d)', client: client.signals.impressions_28d, cohortMedian: benchmark.median.impressions_28d, pctVsMedian: pct(client.signals.impressions_28d, benchmark.median.impressions_28d), directionGood: 'up' },
+      { signal: 'Clicks (28d)', client: client.signals.clicks_28d, cohortMedian: benchmark.median.clicks_28d, pctVsMedian: pct(client.signals.clicks_28d, benchmark.median.clicks_28d), directionGood: 'up' },
+      { signal: 'Avg Position', client: client.signals.avg_position, cohortMedian: benchmark.median.avg_position, pctVsMedian: pct(client.signals.avg_position, benchmark.median.avg_position), directionGood: 'down' },
+      { signal: 'New Ranking Pages', client: client.signals.new_ranking_pages, cohortMedian: benchmark.median.new_ranking_pages_28d, pctVsMedian: pct(client.signals.new_ranking_pages, benchmark.median.new_ranking_pages_28d), directionGood: 'up' },
+    ],
+  };
+}

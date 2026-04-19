@@ -52,6 +52,14 @@
     {
       "path": "/api/cron/branded-search",
       "schedule": "0 19 * * 1"
+    },
+    {
+      "path": "/api/cron/monday-brief",
+      "schedule": "0 15 * * 1"
+    },
+    {
+      "path": "/api/cron/cohort-aggregate",
+      "schedule": "0 8 * * *"
     }
   ]
 }
