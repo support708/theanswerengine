@@ -196,6 +196,20 @@ return shouldSend ? sendGmailMessage(...) : createGmailDraft(...);
 - ae-ops agent definition — rollout skill + new heartbeat format
 - analyst agent — 3 new crons added (rollout audit, LAMH outbound, cost review)
 
+**Fleet optimization deliverables (parallel track, dispatched via `spawn-worker`):**
+
+*Goal: reach ≤3 Claude calls/day on idle days before Phase 1 starts — see §11 for posture.*
+
+- Disable 4h heartbeat cron in `config.json` for ae-ops, analyst, evening-review (3 files)
+- Remove boot-time session-start Haiku calls from each affected agent's onboarding skill
+- Rename `~/.claude/hooks/cortextos-fleet-state.js` → `.js.disabled` (reversible)
+- Gate `check-inbox` Claude summary behind `inboxCount > 0` in the comms skill
+- Convert 11 scheduled tasks to pure-Node scripts (listed in §11.2), register as OS-level cron or Vercel cron — no agent-side Claude involvement
+- Wire `nightly-intelligence` orchestrator to read all JSON outputs from pure-Node tasks + write `~/.cortextos/nightly-report.json`
+- Rebuild Morning Brief (5:15am PT) to read `nightly-report.json` → 1 Haiku call → email to Justin
+- Add Telegram tripwire DM templates (hq) that format from JSON state, no Claude required
+- Verify: 24h observation window shows ≤3 Claude calls on a non-Monday / non-1st day
+
 **Verification gates (must pass to advance to Phase 1):**
 - `npx tsc --noEmit` clean
 - `npx tsx scripts/test-monday-brief-all.ts` exits zero with zero scan flags (12s Haiku spacing)
@@ -203,6 +217,7 @@ return shouldSend ? sendGmailMessage(...) : createGmailDraft(...);
 - 7 Monday Briefs render as drafts in justin@theborgesrealestateteam.com inbox
 - Justin eyeballs ≥2 drafts → "I'd send this"
 - `scripts/check-phase-gate.ts` prints all ✓ for Phase 0 → Phase 1 readiness
+- **Fleet burn gate: 24h idle-day observation ≤3 Claude calls** (proves §11 posture)
 
 ---
 
@@ -274,4 +289,85 @@ Runs *alongside* the email-automation rollout, not inside it. Owned by **builder
 
 ---
 
-*Handoff ready: ae-ops owns Phase 0 execution of email automation; builder owns parallel backlinking campaign. Implementation plan next via `writing-plans` skill.*
+## Section 11 — Fleet posture (lean, no idle burn)
+
+**Rule:** every Claude API call must either (a) move the rollout forward, (b) ship client-facing product (Monday Brief / Monthly Report), or (c) be the 1 daily morning brief to Justin. Heartbeats, boot telegrams, and empty-inbox summaries are zero-value burn — turned off.
+
+**Target:** ≤3 Claude calls on idle days, ~97% reduction from baseline (~120/day → ~1-3/day).
+
+### 11.1 What turns OFF
+
+| Source | Why | Execution |
+|---|---|---|
+| 4h heartbeat Claude summary on ae-ops, analyst, evening-review | Dashboard reads JSON state; heartbeat text via Claude ≈ 24 calls/day for zero signal | Disable heartbeat cron in each agent's `config.json` |
+| "Booting up…" boot telegrams | Cosmetic, no operational value | Remove from agent onboarding skills |
+| `~/.claude/hooks/cortextos-fleet-state.js` hook | Injects 5KB stale Telegram history every prompt | Rename to `.disabled` (keep file) |
+| Empty-inbox Claude "check-inbox" summaries | Pure Node check-inbox returns 0 → no Claude call needed | Gate summary behind `inboxCount > 0` in skill |
+| Agent boot-time session-start Haiku summary | Logged to event stream; dashboard reads log | Remove from onboarding skill |
+
+### 11.2 What becomes PURE NODE (scheduled, zero Claude)
+
+All deterministic data collection — reads files + GSC API + bus state, writes JSON. No LLM required.
+
+| Task | Schedule | Output |
+|---|---|---|
+| `data/` snapshot | Daily 03:00 UTC | Timestamped backup |
+| GSC freshness check | Daily 03:00 UTC | `data/gsc-freshness.json` |
+| Anthropic + Gmail token health | Daily 02:00 UTC | `data/token-health.json` — alerts on expiry window |
+| Brand-safety rolling 14d tally | Daily 04:00 UTC | `data/brand-safety-tally.json` |
+| Rollout audit | Tue 14:00 UTC | `data/rollout-audit-{date}.md` |
+| Send-verification spot check | Tue 15:00 UTC | `data/send-verify-{date}.json` |
+| LAMH outbound-link audit | Wed 12:00 UTC | `data/lamh-outbound-audit.json` |
+| Top-performer rotation check | Thu 12:00 UTC | `data/top-performer-rotation.json` |
+| Client sitemap refresh | Sun 06:00 UTC | `data/sitemap-log.json` |
+| Cohort benchmark aggregator | 1st 18:00 UTC | `data/cohort-benchmarks.json` |
+| Authority Index history rollup | 15th | Rewrites `data/authority-index-history.json` |
+| Fleet cost review | 28th | `data/cost-review.json` |
+
+### 11.3 What stays Claude (consolidated, scheduled, cheap)
+
+| Task | Model | Frequency | Justification |
+|---|---|---|---|
+| **Morning Brief** (5:15am PT → Justin) | Haiku 4.5 | 1/day | Reads all JSONs from §11.2 + nightly-report.json, formats to readable email. Only LLM need = prose polish. |
+| Monday Brief generation (7 clients) | Haiku 4.5 batch | 7/wk | The product |
+| Monthly Report generation (7 clients) | Haiku 4.5 | 7/mo | The product |
+| Goal-aware recommender (prompt-cached) | Haiku 4.5 | Per Brief/Report | Already optimized |
+
+### 11.4 On-demand only (spawn-worker)
+
+| Trigger | What spawns |
+|---|---|
+| `/build <task>` via Telegram PA | Full Claude Code session |
+| Justin runs `cortextos spawn-worker` from terminal | Same, manual |
+| Phase 0-5 implementation tasks | Parallel workers per §6 |
+| Rollout tripwire → needs code change | Worker with revert/fix prompt |
+
+### 11.5 Accountability fabric — mechanism swap (not structural change)
+
+Everything in §2 still owned by the same agent. The *implementation* swaps from Claude calls to Node scripts + 1 consolidated morning brief:
+
+| Before | After |
+|---|---|
+| analyst runs Tue audit via Claude cron | Tue cron is pure Node; writes `rollout-audit-{date}.md` |
+| evening-review adds rollout status via Haiku | Morning brief summarizes everything once at 5:15am |
+| hq composes tripwire escalation via Claude | Tripwire fires → Node writes Telegram DM template → no Claude |
+| ae-ops heartbeats "ROLLOUT-P{N}" text | Same info in `rollout-state.json` → Node script |
+
+### 11.6 Estimated daily burn delta
+
+| | Before | After |
+|---|---|---|
+| Heartbeats (6 agents × 6/day) | ~36 calls | 0 |
+| Boot / session-start chatter | ~20 calls | 0 |
+| Empty inbox checks | ~48 calls | 0 |
+| Scheduled data collection | ~15 calls | 0 |
+| Morning brief | 1 call | 1 call |
+| Monday Brief (Mon only) | 0 on idle days | 0 on idle days |
+| Monthly Report (1st only) | 0 on idle days | 0 on idle days |
+| **Daily baseline (idle day)** | **~120 calls** | **≤3 calls** |
+
+Active days (Monday, 1st, QBR) stay identical — product calls are unavoidable and already optimal (Haiku + prompt cache).
+
+---
+
+*Handoff ready: ae-ops owns Phase 0 execution of email automation + fleet optimization; builder owns parallel backlinking campaign. Implementation plan next via `writing-plans` skill.*
