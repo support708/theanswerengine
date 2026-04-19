@@ -3831,5 +3831,105 @@
       "Local Business",
       "ChatGPT"
     ]
+  },
+  {
+    "id": 189,
+    "title": "How Event Planners Get Found on AI Search",
+    "slug": "how-event-planners-get-found-on-ai-search",
+    "excerpt": "AI platforms now drive event planner discovery. Learn which signals ChatGPT, Perplexity, and Google AI use before recommending event planning businesses.",
+    "category": "Industry Guides",
+    "author": "The Answer Engine Team",
+    "readTime": "10 min",
+    "image": "/blog/how-event-planners-get-found-on-ai-search.webp",
+    "publishDate": "2026-04-19",
+    "lastModified": "2026-04-19",
+    "featured": true,
+    "tags": [
+      "Event Planners",
+      "AI Search",
+      "Industry Guides",
+      "Local Business",
+      "ChatGPT"
+    ]
+  },
+  {
+    "id": 190,
+    "title": "Why AI Recommends Competitors When You Search Your Name",
+    "slug": "why-ai-recommends-competitors-when-you-search-your-name",
+    "excerpt": "When customers search your business name on ChatGPT, they often see competitors. Here's why it happens and what the pattern means for your revenue.",
+    "category": "Business Pain Points",
+    "author": "The Answer Engine Team",
+    "readTime": "11 min",
+    "image": "/blog/why-ai-recommends-competitors-when-you-search-your-name.webp",
+    "publishDate": "2026-04-19",
+    "lastModified": "2026-04-19",
+    "featured": true,
+    "tags": [
+      "AI Brand Confusion",
+      "Business Pain Points",
+      "ChatGPT",
+      "Perplexity",
+      "Competitor Visibility"
+    ]
+  },
+  {
+    "id": 191,
+    "title": "Does Having a Physical Address Help AI Recommend You",
+    "slug": "does-physical-address-help-ai-recommend-you",
+    "excerpt": "Think you need a physical storefront to get recommended by ChatGPT or Google AI? The data says otherwise. Here's what actually drives AI recommendations.",
+    "category": "Myth Busters",
+    "author": "The Answer Engine Team",
+    "readTime": "9 min",
+    "image": "/blog/does-physical-address-help-ai-recommend-you.webp",
+    "publishDate": "2026-04-19",
+    "lastModified": "2026-04-19",
+    "featured": true,
+    "tags": [
+      "Physical Address",
+      "Myth Busters",
+      "Local Business",
+      "AI Search",
+      "Service Area Business"
+    ]
+  },
+  {
+    "id": 192,
+    "title": "How YouTube AI Features Decide Which Businesses to Show",
+    "slug": "how-youtube-ai-features-decide-which-businesses-to-show",
+    "excerpt": "YouTube AI features cite businesses 200x more than other video platforms. Here's how the algorithm works and why most businesses miss this discovery channel.",
+    "category": "Platform Deep Dives",
+    "author": "The Answer Engine Team",
+    "readTime": "10 min",
+    "image": "/blog/how-youtube-ai-features-decide-which-businesses-to-show.webp",
+    "publishDate": "2026-04-19",
+    "lastModified": "2026-04-19",
+    "featured": true,
+    "tags": [
+      "YouTube AI",
+      "Platform Deep Dives",
+      "Video SEO",
+      "AI Search",
+      "Business Visibility"
+    ]
+  },
+  {
+    "id": 193,
+    "title": "How to Get Your Tutoring Business Found on AI Search",
+    "slug": "how-to-get-tutoring-business-found-on-ai-search",
+    "excerpt": "Parents and students now ask AI for tutor recommendations. Here's why most tutoring businesses are invisible to ChatGPT and what signals actually drive discovery.",
+    "category": "How-To Guides",
+    "author": "The Answer Engine Team",
+    "readTime": "10 min",
+    "image": "/blog/how-to-get-tutoring-business-found-on-ai-search.webp",
+    "publishDate": "2026-04-19",
+    "lastModified": "2026-04-19",
+    "featured": true,
+    "tags": [
+      "Tutoring",
+      "How-To Guides",
+      "AI Search",
+      "Education",
+      "ChatGPT"
+    ]
   }
 ]
