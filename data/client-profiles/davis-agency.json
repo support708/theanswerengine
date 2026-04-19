@@ -8,7 +8,6 @@
     "created": "2026-03",
     "notes": "Luxury Presence website. Austin TX market. TREC licensed. 78704 cluster in production."
   },
-
   "business": {
     "legal_name": "The Davis Agency",
     "dba": "The Davis Agency",
@@ -21,7 +20,6 @@
     "license_number": "558841",
     "license_state": "TX"
   },
-
   "contact": {
     "website_url": "https://www.davisagencytx.com",
     "gbp_url": "REQUIRED",
@@ -40,7 +38,6 @@
       "lng": -97.7431
     }
   },
-
   "author": {
     "full_name": "Derrik Davis",
     "job_title": "Realtor / Owner",
@@ -80,7 +77,6 @@
       "facebook": "REQUIRED"
     }
   },
-
   "reviews": {
     "google": {
       "rating": "REQUIRED",
@@ -98,7 +94,6 @@
       "url": "REQUIRED"
     }
   },
-
   "service_area": {
     "primary_city": "Austin",
     "primary_zip": "78704",
@@ -118,11 +113,13 @@
       "SoCo",
       "78704"
     ],
-    "counties": ["Travis County", "Hays County"],
+    "counties": [
+      "Travis County",
+      "Hays County"
+    ],
     "radius_miles": 30,
     "service_area_description": "Austin, TX and surrounding communities including Zilker, Bouldin Creek, Travis Heights, and Barton Hills — specializing in the 78704 zip code"
   },
-
   "services": [
     {
       "name": "Luxury Home Sales",
@@ -155,7 +152,6 @@
       "is_primary": false
     }
   ],
-
   "cms": {
     "platform": "luxury_presence",
     "blog_base_url": "https://www.davisagencytx.com/blog",
@@ -163,14 +159,12 @@
     "va_access_notes": "REQUIRED — confirm CMS access level with Derrik",
     "home_valuation_tool_url": "https://www.davisagencytx.com/home-valuation"
   },
-
   "gsc": {
     "property_url": "https://www.davisagencytx.com",
     "property_type": "url_prefix",
     "access_level": "REQUIRED",
     "sitemap_url": "https://www.davisagencytx.com/sitemap.xml"
   },
-
   "hub_and_spoke": {
     "clusters": [
       {
@@ -270,7 +264,6 @@
       }
     ]
   },
-
   "citation_monitoring": {
     "last_checked": null,
     "target_queries": [
@@ -306,7 +299,6 @@
       }
     ]
   },
-
   "schema_base": {
     "organization": {
       "@type": "RealEstateAgent",
@@ -320,7 +312,14 @@
         "addressRegion": "TX",
         "addressCountry": "US"
       },
-      "areaServed": ["Austin", "78704", "Zilker", "Bouldin Creek", "Travis Heights", "Barton Hills"]
+      "areaServed": [
+        "Austin",
+        "78704",
+        "Zilker",
+        "Bouldin Creek",
+        "Travis Heights",
+        "Barton Hills"
+      ]
     },
     "person": {
       "@type": "Person",
@@ -329,7 +328,9 @@
       "jobTitle": "Realtor / Owner",
       "telephone": "+15126088811",
       "url": "https://www.davisagencytx.com",
-      "worksFor": { "@id": "https://www.davisagencytx.com/#organization" },
+      "worksFor": {
+        "@id": "https://www.davisagencytx.com/#organization"
+      },
       "hasCredential": [
         {
           "@type": "EducationalOccupationalCredential",
@@ -344,7 +345,6 @@
       ]
     }
   },
-
   "brand": {
     "colors": {
       "primary": "REQUIRED",
@@ -354,7 +354,6 @@
     "logo_url": "REQUIRED",
     "brand_voice_notes": "Luxury market expert with deep neighborhood knowledge. Professional but approachable. Austin insider. Specific over generic — name streets, reference actual properties and market conditions."
   },
-
   "competitors": [
     {
       "name": "REQUIRED — identify top 78704 competitors",
@@ -363,7 +362,6 @@
       "notes": "Run aero7_quick.js audit before first content session"
     }
   ],
-
   "engagement": {
     "package": "answer_authority_foundation",
     "sets": 1,
@@ -376,5 +374,17 @@
     "primary_contact_email": "dd@davisagencytx.com",
     "primary_contact_phone": "(512) 608-8811",
     "next_action": "Publish Spoke 1 and Spoke 2. Schedule supplemental interview for neighborhood insider content before building Zilker/Bouldin/Travis Heights/Barton Hills spokes."
+  },
+  "goals": {
+    "primary_outcome": "luxury buyer leads (new construction + development)",
+    "secondary_outcomes": [
+      "development advisory relationships (helping buyers through the build/develop process)",
+      "developer clients looking for a realtor who understands the new-build landscape"
+    ],
+    "target_audience": "Austin-area luxury buyers + land developers",
+    "conversion_definition": "qualified luxury buyer or developer relationship inquiry",
+    "notes": "Austin TX real estate focused on high-end new construction and development. Niche specialist positioning.",
+    "captured_at": "2026-04-18",
+    "captured_from": "Justin verbal 2026-04-18"
   }
 }

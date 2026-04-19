@@ -1,0 +1,10 @@
+{
+  "_comment": "Maps GSC site URLs to client-profile slugs in data/client-profiles/. Slug 'CONFIGURE_ME' means no profile exists yet — add one or skip that site.",
+  "sc-domain:theborgesrealestateteam.com": "borges-team",
+  "https://loveryrealestate.com/": "lovery-re",
+  "https://www.rpmsouthland.com/": "rpm-southland",
+  "https://davisagencytx.com/": "davis-agency",
+  "sc-domain:theanswerengine.ai": "the-answer-engine",
+  "sc-domain:lametrohomefinder.com": "lamh",
+  "sc-domain:clearclosebuilderservices.com": "clearclose"
+}

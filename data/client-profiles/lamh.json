@@ -1,0 +1,50 @@
+{
+  "_meta": {
+    "schema_version": "1.0",
+    "client_slug": "lamh",
+    "package": "CROWN_JEWEL",
+    "account_status": "active",
+    "created": "2026-04-18",
+    "notes": "Justin-owned. LAMH Safety Protocol applies. 1.14M+ GSC impressions — protect at all costs."
+  },
+  "business": {
+    "legal_name": "LA Metro Home Finder",
+    "dba": "LA Metro Home Finder",
+    "website": "https://lametrohomefinder.com",
+    "industry": "Real Estate",
+    "business_type": "Real Estate Services"
+  },
+  "contact": {
+    "primary_contact_email": "justin@lametrohomefinder.com"
+  },
+  "service_area": {
+    "primary_city": "Los Angeles",
+    "states_served": [
+      "CA"
+    ]
+  },
+  "services": [
+    "LA MLS listings search",
+    "buyer representation",
+    "IDX-driven buyer matchmaking"
+  ],
+  "brand": {
+    "positioning": "Justin Borges owned — LA-metro generalist home-finder brand",
+    "protect_level": "CROWN_JEWEL"
+  },
+  "engagement": {
+    "contact_email": "justin@lametrohomefinder.com"
+  },
+  "goals": {
+    "primary_outcome": "IDX-driven buyer pipeline",
+    "secondary_outcomes": [
+      "saved-search signups",
+      "buyer inquiries from neighborhood content"
+    ],
+    "target_audience": "LA-metro homebuyers actively searching MLS",
+    "conversion_definition": "buyer inquiry or saved-search account creation",
+    "notes": "CROWN JEWEL asset. 1.14M+ GSC impressions/month. Protect authority above all else. Content monetization is IDX, not blog lead-gen.",
+    "captured_at": "2026-04-18",
+    "captured_from": "Justin inferred 2026-04-18 (self-owned brand)"
+  }
+}

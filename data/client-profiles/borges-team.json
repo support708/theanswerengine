@@ -8,7 +8,6 @@
     "created": "2026-03",
     "notes": "Internal client — The Borges Real Estate Team at eXp Realty. lametrohomefinder.com on Squarespace + Ylopo IDX. 13+ years, $200M+ career sales."
   },
-
   "business": {
     "legal_name": "The Borges Real Estate Team",
     "dba": "The Borges Real Estate Team at eXp Realty",
@@ -24,7 +23,6 @@
     "career_sales_volume": "$200M+",
     "list_to_sale_ratio": "106%"
   },
-
   "contact": {
     "website_url": "https://www.lametrohomefinder.com",
     "idx_search_url": "https://search.lametrohomefinder.com/search?s[orderBy]=sourceCreationDate%2Cdesc&s[page]=1&s[locations][0][city]={CITY}&s[locations][0][state]=CA&s[limit]=18&ip=t",
@@ -44,7 +42,6 @@
       "lng": -118.1445
     }
   },
-
   "author": {
     "full_name": "Justin Borges",
     "job_title": "Team Leader, The Borges Real Estate Team at eXp Realty",
@@ -84,7 +81,6 @@
       "youtube": "REQUIRED"
     }
   },
-
   "team_members": [
     {
       "name": "Jason Patrick Hamilton",
@@ -110,16 +106,14 @@
       "note": "Content for Nick kept separate from Borges Team branding (gridlainvestorclub.com)"
     }
   ],
-
   "reviews": {
     "google": {
-      "rating": 5.0,
+      "rating": 5,
       "count": 79,
       "url": "REQUIRED",
       "verified": true
     }
   },
-
   "service_area": {
     "primary_city": "Pasadena",
     "cities": [
@@ -145,11 +139,13 @@
       "Glendora",
       "Los Angeles"
     ],
-    "counties": ["Los Angeles County", "San Bernardino County"],
+    "counties": [
+      "Los Angeles County",
+      "San Bernardino County"
+    ],
     "radius_miles": 40,
     "service_area_description": "Pasadena, Altadena, Greater Los Angeles, and the San Gabriel Valley — with Inland Empire coverage via Brandon Thompson"
   },
-
   "services": [
     {
       "name": "Probate and Inherited Property Sales",
@@ -200,7 +196,6 @@
       "is_primary": false
     }
   ],
-
   "cms": {
     "platform": "squarespace",
     "blog_base_url": "https://www.lametrohomefinder.com/blog",
@@ -208,14 +203,12 @@
     "idx_platform": "ylopo",
     "va_access_notes": "Squarespace admin access. Schema goes in Advanced → Page Header Code Injection per post. Cannot inject schema site-wide in blog post body blocks."
   },
-
   "gsc": {
     "property_url": "https://www.lametrohomefinder.com",
     "property_type": "url_prefix",
     "access_level": "owner",
     "sitemap_url": "https://www.lametrohomefinder.com/sitemap.xml"
   },
-
   "hub_and_spoke": {
     "clusters": [
       {
@@ -285,7 +278,6 @@
       }
     ]
   },
-
   "citation_monitoring": {
     "last_checked": null,
     "target_queries": [
@@ -333,7 +325,6 @@
       }
     ]
   },
-
   "schema_base": {
     "organization": {
       "@type": "RealEstateAgent",
@@ -358,7 +349,7 @@
       },
       "aggregateRating": {
         "@type": "AggregateRating",
-        "ratingValue": 5.0,
+        "ratingValue": 5,
         "reviewCount": 79,
         "bestRating": 5,
         "worstRating": 1
@@ -372,7 +363,9 @@
       "telephone": "+16262401750",
       "email": "justin@lametrohomefinder.com",
       "url": "https://www.lametrohomefinder.com",
-      "worksFor": { "@id": "https://www.lametrohomefinder.com/#organization" },
+      "worksFor": {
+        "@id": "https://www.lametrohomefinder.com/#organization"
+      },
       "hasCredential": [
         {
           "@type": "EducationalOccupationalCredential",
@@ -382,7 +375,6 @@
       ]
     }
   },
-
   "brand": {
     "colors": {
       "navy": "#04253A",
@@ -392,7 +384,6 @@
     "logo_url": "REQUIRED",
     "brand_voice_notes": "Expert and direct — the agent who knows the cases most agents avoid. Specific over generic. Pasadena-rooted. Speaks to sellers in stressful situations (probate, inherited property, rent control, fire recovery) with clarity and confidence. No jargon. No filler phrases."
   },
-
   "competitive_advantages": [
     "VA loan: CA VA Amendatory Clause protects veterans even when appraisal contingency is waived — cannot be waived. Most agents don't know this.",
     "15-day VA loan close via lending partners",
@@ -401,7 +392,6 @@
     "Rent control: RSO, JCO, Ellis Act — knows what triggers tenant protections and what does not",
     "106% average list-to-sale ratio — homes sell above asking price"
   ],
-
   "engagement": {
     "package": "internal",
     "start_date": "2012",
@@ -412,5 +402,17 @@
     "contact_email": "justin@theborgesrealestateteam.com",
     "primary_contact_email": "justin@theborgesrealestateteam.com",
     "primary_contact_phone": "(626) 240-1750"
+  },
+  "goals": {
+    "primary_outcome": "buyer and seller leads in LA / Pasadena real estate",
+    "secondary_outcomes": [
+      "listing appointments",
+      "referral pipeline from content authority"
+    ],
+    "target_audience": "LA/Pasadena homeowners and buyers",
+    "conversion_definition": "buyer or seller consultation booked",
+    "notes": "Justin owned. Local-specialist positioning via neighborhood guides and market content.",
+    "captured_at": "2026-04-18",
+    "captured_from": "Justin inferred 2026-04-18 (self-owned brand)"
   }
 }

@@ -6,7 +6,6 @@
     "account_status": "active",
     "notes": "Internal — The Answer Engine LLC. AEO/digital marketing company. Monitor for businesses asking about AI search visibility, ChatGPT recommendations, answer engine optimization."
   },
-
   "business": {
     "legal_name": "The Answer Engine LLC",
     "dba": "The Answer Engine",
@@ -14,7 +13,6 @@
     "industry": "answer engine optimization",
     "founded_year": "2025"
   },
-
   "contact": {
     "website_url": "https://theanswerengine.ai",
     "email": "support@theanswerengine.ai",
@@ -24,7 +22,6 @@
       "country": "US"
     }
   },
-
   "author": {
     "full_name": "Justin Borges",
     "job_title": "Founder, The Answer Engine",
@@ -51,7 +48,6 @@
       "Zero-click search optimization"
     ]
   },
-
   "services": [
     {
       "name": "Answer Authority Foundation",
@@ -64,14 +60,14 @@
       "is_primary": true
     }
   ],
-
   "service_area": {
     "primary_city": "Los Angeles",
     "primary_state": "CA",
-    "cities": ["Los Angeles"],
+    "cities": [
+      "Los Angeles"
+    ],
     "service_area_description": "Nationwide (digital service)"
   },
-
   "citation_monitoring": {
     "target_queries": [
       {
@@ -96,28 +92,36 @@
       }
     ]
   },
-
   "competitors": [
     {
       "name": "Profound Strategy",
       "website": "https://profoundstrategy.com"
     }
   ],
-
   "brand": {
     "primary_color": "#FF6A00",
     "brand_voice_notes": "Justin speaks with authority but without jargon. He is data-driven, direct, and positions himself as someone who has figured out the AEO playbook before most agencies even know it exists. Tone is confident but not arrogant. Uses concrete examples and real data rather than vague promises. Never uses the phrase 'secret sauce'. Public terminology: AERO-10, Answer Authority Foundation."
   },
-
   "reviews": {
     "google": {
       "rating": 0,
       "count": 0
     }
   },
-
   "engagement": {
     "contact_email": "support@theanswerengine.ai",
     "contact_name": "Justin Borges"
+  },
+  "goals": {
+    "primary_outcome": "new TAE agency client acquisition",
+    "secondary_outcomes": [
+      "territory-check form fills",
+      "blind-spot report requests"
+    ],
+    "target_audience": "local service businesses (real estate, home services, professional services) seeking AEO",
+    "conversion_definition": "signed client contract; secondary: qualified strategy call booked",
+    "notes": "Self. Drives the blind-spot report funnel + Calendly pipeline.",
+    "captured_at": "2026-04-18",
+    "captured_from": "Justin verbal 2026-04-18"
   }
 }

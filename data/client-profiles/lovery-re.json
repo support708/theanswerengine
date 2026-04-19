@@ -8,7 +8,6 @@
     "created": "2026-03",
     "notes": "San Diego agent. DRE #02110091. Top 10% San Diego County 2022-2023. Relationship-first approach. Strong social media presence (TikTok). Chula Vista based."
   },
-
   "business": {
     "legal_name": "Lovery Real Estate",
     "dba": "Lovery Real Estate",
@@ -18,7 +17,6 @@
     "employee_count": 1,
     "price_range": "$$$"
   },
-
   "contact": {
     "website_url": "https://loveryrealestate.com",
     "phone": "+1-619-651-9869",
@@ -32,7 +30,6 @@
       "country": "US"
     }
   },
-
   "author": {
     "full_name": "Ryan Fisher",
     "first_name": "Ryan",
@@ -65,18 +62,16 @@
       "tiktok": ""
     }
   },
-
   "reviews": {
     "google": {
-      "rating": 5.0,
+      "rating": 5,
       "count": 18
     },
     "yelp": {
-      "rating": 5.0,
+      "rating": 5,
       "count": 18
     }
   },
-
   "service_area": {
     "primary_city": "San Diego",
     "primary_state": "CA",
@@ -95,7 +90,6 @@
     "radius_miles": 30,
     "service_area_description": "San Diego County including Chula Vista, North Park, University Heights, La Jolla, and Bonita"
   },
-
   "services": [
     {
       "name": "Residential Real Estate Sales",
@@ -113,9 +107,7 @@
       "is_primary": false
     }
   ],
-
   "competitors": [],
-
   "citation_monitoring": {
     "target_queries": [
       {
@@ -145,11 +137,9 @@
       }
     ]
   },
-
   "brand": {
     "brand_voice_notes": "Ryan is approachable, genuine, and optimistic. He speaks like a trusted friend who happens to be a real estate expert. Casual but professional. Uses phrases like 'move forward' and 'clear and confident.' Avoids corporate jargon. His perspective is always from someone who genuinely cares about his clients' experience, not just the transaction. References specific San Diego neighborhoods and local market knowledge."
   },
-
   "engagement": {
     "package": "answer-authority-foundation",
     "contact_name": "Ryan Fisher",
@@ -157,5 +147,17 @@
     "primary_contact_email": "ryan@loveryrealestate.com",
     "contact_phone": "+1-619-651-9869",
     "preferred_contact": "email"
+  },
+  "goals": {
+    "primary_outcome": "seller lead generation (sellers are the current priority)",
+    "secondary_outcomes": [
+      "buyer lead generation",
+      "IDX search traffic / saved searches"
+    ],
+    "target_audience": "San Diego homeowners considering a sale, plus buyers browsing IDX",
+    "conversion_definition": "listing appointment booked; secondary: buyer inquiry",
+    "notes": "Has IDX integration on site. Prioritizing sellers now; buyers are secondary.",
+    "captured_at": "2026-04-18",
+    "captured_from": "Justin verbal 2026-04-18"
   }
 }

@@ -1,0 +1,49 @@
+{
+  "_meta": {
+    "schema_version": "1.0",
+    "client_slug": "clearclose",
+    "package": "TAE_ONGOING",
+    "account_status": "active",
+    "created": "2026-04-18",
+    "notes": "Justin-owned via Borges Real Estate entity. Builder-focused contingency elimination services."
+  },
+  "business": {
+    "legal_name": "ClearClose Builder Services",
+    "dba": "ClearClose Builder Services",
+    "website": "https://clearclosebuilderservices.com",
+    "industry": "Builder Financial Services",
+    "business_type": "Financial Services / Real Estate Adjacent"
+  },
+  "contact": {
+    "primary_contact_email": "support@theanswerengine.ai"
+  },
+  "service_area": {
+    "primary_city": "Los Angeles",
+    "states_served": [
+      "CA"
+    ]
+  },
+  "services": [
+    "contingent buyer conversion",
+    "buy-before-you-sell for builders",
+    "bridge capital services"
+  ],
+  "brand": {
+    "positioning": "We don't manage contingencies. We eliminate them."
+  },
+  "engagement": {
+    "contact_email": "support@theanswerengine.ai"
+  },
+  "goals": {
+    "primary_outcome": "home builders signing up for the free partnership",
+    "secondary_outcomes": [
+      "builder demo calls",
+      "content engagement from builder audience"
+    ],
+    "target_audience": "home builders (production and custom) with contingency-heavy buyer pipelines",
+    "conversion_definition": "builder signs up for free partnership",
+    "notes": "Free partnership = low-friction conversion. Focus on builder education + proof content.",
+    "captured_at": "2026-04-18",
+    "captured_from": "Justin verbal 2026-04-18"
+  }
+}

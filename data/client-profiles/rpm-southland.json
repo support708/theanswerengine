@@ -9,7 +9,6 @@
     "assigned_va": "TBD",
     "notes": "WordPress site. Miles Williams is broker/owner and primary author voice. Franchise business — content must position the LOCAL Miles Williams expertise, not the national RPM brand. DRE#: 01968830. Brokerage DRE: 01969679."
   },
-
   "business": {
     "legal_name": "Real Property Management Southland",
     "dba": "RPM Southland",
@@ -19,7 +18,6 @@
     "employee_count": 8,
     "price_range": "$$"
   },
-
   "contact": {
     "website_url": "https://www.rpmsouthland.com",
     "gbp_url": "https://g.co/kgs/rpmsouthland",
@@ -38,7 +36,6 @@
       "longitude": -118.1553
     }
   },
-
   "author": {
     "full_name": "Miles Williams",
     "first_name": "Miles",
@@ -84,7 +81,6 @@
       "youtube": ""
     }
   },
-
   "reviews": {
     "google": {
       "rating": 4.8,
@@ -99,13 +95,12 @@
     "other": [
       {
         "platform": "Facebook",
-        "rating": 5.0,
+        "rating": 5,
         "count": 22,
         "url": "https://www.facebook.com/rpmlongbeach/"
       }
     ]
   },
-
   "service_area": {
     "primary_city": "Long Beach",
     "primary_state": "CA",
@@ -135,7 +130,6 @@
     "radius_miles": 25,
     "service_area_description": "Greater Long Beach metro and Southeast Los Angeles County"
   },
-
   "services": [
     {
       "name": "Residential Property Management",
@@ -174,7 +168,6 @@
       "is_primary": false
     }
   ],
-
   "cms": {
     "platform": "WordPress",
     "website_url": "https://www.rpmsouthland.com",
@@ -182,14 +175,12 @@
     "schema_injection_method": "yoast",
     "va_access_notes": "WordPress backend. Yoast SEO active for meta fields. Use WPBakery for page layout if needed. Schema goes in Yoast schema tab or custom HTML block. Confirm login credentials with Miles before first publish."
   },
-
   "gsc": {
     "property_url": "https://www.rpmsouthland.com",
     "property_type": "url-prefix",
     "access_level": "full-user",
     "sitemap_url": "https://www.rpmsouthland.com/sitemap_index.xml"
   },
-
   "hub_and_spoke": {
     "clusters": [
       {
@@ -247,7 +238,6 @@
       }
     ]
   },
-
   "citation_monitoring": {
     "target_queries": [
       {
@@ -297,7 +287,6 @@
     "monitoring_frequency": "weekly",
     "last_checked": "2026-03-06"
   },
-
   "schema_base": {
     "organization": {
       "@type": "Organization",
@@ -335,7 +324,13 @@
       "openingHoursSpecification": [
         {
           "@type": "OpeningHoursSpecification",
-          "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday"],
+          "dayOfWeek": [
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday"
+          ],
           "opens": "09:00",
           "closes": "17:00"
         }
@@ -394,7 +389,6 @@
       ]
     }
   },
-
   "brand": {
     "primary_color": "#0057A8",
     "secondary_color": "#FFFFFF",
@@ -403,7 +397,6 @@
     "logo_white_url": "https://www.rpmsouthland.com/images/rpm-southland-logo-white.png",
     "brand_voice_notes": "Miles speaks directly and practically — no fluff. He uses phrases like 'the tough conversation' and 'consistency.' Tone is professional but conversational, approachable for landlords who are stressed. Avoid corporate property management speak. Avoid 'leverage' and 'synergy.' His perspective is always from a local Long Beach operator, not a national franchise. References specific neighborhoods and local market conditions when possible."
   },
-
   "competitors": [
     {
       "name": "Beach Front Property Management",
@@ -424,7 +417,6 @@
       "notes": "Long Beach focused competitor"
     }
   ],
-
   "engagement": {
     "package": "answer-authority-foundation",
     "start_date": "2025-09-01",
@@ -436,5 +428,14 @@
     "contact_phone": "+1-562-270-1777",
     "preferred_contact": "email",
     "approval_turnaround_days": 3
+  },
+  "goals": {
+    "primary_outcome": "incoming leads from property owners needing management services",
+    "secondary_outcomes": [],
+    "target_audience": "Southern CA property owners (multi-family landlords, accidental landlords, investor-owners)",
+    "conversion_definition": "new owner-inquiry submitted",
+    "notes": "Lead-gen site for PM services. Not focused on tenant acquisition.",
+    "captured_at": "2026-04-18",
+    "captured_from": "Justin verbal 2026-04-18"
   }
 }
