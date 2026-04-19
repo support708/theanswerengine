@@ -2,13 +2,13 @@ import type { Metadata } from 'next';
 import Link from 'next/link';
 
 export const metadata: Metadata = {
-  title: 'About The Answer Engine — Built By A Practitioner, Not A Theorist',
+  title: 'About The Answer Engine | Built By a Practitioner, Not a Theorist',
   description:
-    'Justin Borges founded The Answer Engine after 13+ years in real estate and $200M+ in transactions. The AERO-10 framework was forged in the real world — not a lab.',
+    'Justin Borges built the AERO-10 framework on his own real estate site first — 1.14M+ monthly impressions, 4 AI platforms citing. 13+ years in LA real estate. $200M+ closed. Now the system is yours.',
   openGraph: {
-    title: 'About The Answer Engine',
+    title: 'About The Answer Engine | Built By a Practitioner, Not a Theorist',
     description:
-      'AEO built by a practitioner. 13+ years in the field. Tested in the most competitive market in America.',
+      'AEO built by a practitioner. Tested on our own site first — 1.14M+ monthly impressions and AI citations across 4 platforms.',
     url: 'https://theanswerengine.ai/about',
   },
 };

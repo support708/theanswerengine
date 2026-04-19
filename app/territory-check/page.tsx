@@ -2,13 +2,13 @@ import type { Metadata } from 'next';
 import Link from 'next/link';
 
 export const metadata: Metadata = {
-  title: 'Territory Check — Is Your Market Still Available? | The Answer Engine',
+  title: 'Territory Check | One AEO Client per Market',
   description:
-    'One business per category. Per city. Check if your industry territory is still open. Once claimed, your competitors are permanently locked out of AI recommendations.',
+    'One business per category per city. Check if your market is still open before a competitor claims it. 24-hour response. 90-day citation guarantee.',
   openGraph: {
-    title: 'Territory Check — Claim Your AEO Territory',
+    title: 'Territory Check | One AEO Client per Market',
     description:
-      'Is your city still available? The Answer Engine locks one business per category per market. Check availability before a competitor does.',
+      'One business per category per city. Check if your market is still open before a competitor claims it. 24-hour response.',
     url: 'https://theanswerengine.ai/territory-check',
   },
 };

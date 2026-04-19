@@ -2,11 +2,11 @@ import type { Metadata } from 'next';
 import Link from 'next/link';
 
 export const metadata: Metadata = {
-  title: 'Contact The Answer Engine — Get in Touch',
-  description: 'Get in touch with The Answer Engine for Answer Engine Optimization services. Schedule your free 30-minute AEO strategy call to dominate AI citations.',
+  title: 'Contact The Answer Engine | Book a Free AEO Strategy Call',
+  description: 'Free 30-minute strategy call. We scan your AI visibility live across ChatGPT, Claude, Perplexity, and Google AI and map the 90-day plan. (213) 444-2229 or book Calendly.',
   openGraph: {
-    title: 'Contact The Answer Engine — Get in Touch',
-    description: 'Schedule your free 30-minute AEO strategy call. We help local businesses get cited by AI platforms like ChatGPT, Claude, and Google AI Overviews.',
+    title: 'Contact The Answer Engine | Book a Free AEO Strategy Call',
+    description: 'Free 30-minute strategy call. We scan your AI visibility live across 4 AI platforms and map the 90-day plan.',
     type: 'website',
     url: 'https://theanswerengine.ai/contact',
     siteName: 'The Answer Engine',

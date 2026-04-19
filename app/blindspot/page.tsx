@@ -37,6 +37,26 @@ const faqs = [
     answer:
       'Any business that depends on being found by customers online. Service-based businesses, local companies, SaaS products, professional services, and e-commerce brands all benefit. If your customers are searching for solutions you offer, AI platforms are already shaping whether they find you or a competitor.',
   },
+  {
+    question: 'What if AI is giving wrong information about my business?',
+    answer:
+      'We flag that in the report. The scan will show you exactly what ChatGPT, Claude, Perplexity, and Google AI say about you today, including misattributed sources feeding bad data into AI training. Fixing AI misinformation is part of what the full 90-day foundation handles.',
+  },
+  {
+    question: 'How long until I see results if we work together?',
+    answer:
+      'Foundation builds over 90 days. Most clients see their first AI citations between weeks 6 and 10. The full citation pattern — where AI consistently recommends you for your category — typically stabilizes in months 3 to 6. The 90-day citation guarantee backs this timeline.',
+  },
+  {
+    question: 'Do you have proof this actually works?',
+    answer:
+      'Yes. Our own real estate site (lametrohomefinder.com) reached 1.14M+ monthly impressions with citations across ChatGPT, Claude, Perplexity, and Google AI — 4 of 4 major AI platforms. We built and tested the AERO-10 framework there first before selling it to clients.',
+  },
+  {
+    question: 'How is this different from a regular SEO audit?',
+    answer:
+      'Traditional SEO audits grade you on Google rankings. This grades you on how AI platforms answer buying questions about your category. Different target, different signals, different fixes. The overlap is maybe 20%.',
+  },
 ]
 
 const jsonLd = {
@@ -201,26 +221,26 @@ export default function BlindSpotPage() {
           <div className="grid gap-10 text-center sm:grid-cols-3">
             <div>
               <p className="text-3xl font-bold text-[#FF6A00] sm:text-4xl">
-                8,400+
+                1.14M+
               </p>
               <p className="mt-2 text-gray-400">
-                Monthly clicks generated for clients
+                Monthly impressions on our own site
               </p>
             </div>
             <div>
               <p className="text-3xl font-bold text-[#FF6A00] sm:text-4xl">
-                1.1M+
+                4 / 4
               </p>
               <p className="mt-2 text-gray-400">
-                Impressions across AI platforms
+                Major AI platforms citing us
               </p>
             </div>
             <div>
               <p className="text-3xl font-bold text-[#FF6A00] sm:text-4xl">
-                90-day
+                90-Day
               </p>
               <p className="mt-2 text-gray-400">
-                Implementation timeline
+                Citation guarantee
               </p>
             </div>
           </div>
