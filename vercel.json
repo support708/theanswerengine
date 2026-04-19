@@ -48,6 +48,10 @@
     {
       "path": "/api/cron/wins-misses",
       "schedule": "0 18 * * 1"
+    },
+    {
+      "path": "/api/cron/branded-search",
+      "schedule": "0 19 * * 1"
     }
   ]
 }
