@@ -1,0 +1,184 @@
+{
+  "borges-team": [
+    {
+      "timestamp": "2026-04-19T06:53:29.616Z",
+      "score": 46,
+      "breakdown": {
+        "gsc": 39,
+        "reddit": 0,
+        "content_velocity": 100,
+        "reviews": 57,
+        "ai_citations": 50,
+        "backlink_proxy": 40
+      },
+      "signals": {
+        "impressions_28d": 1335,
+        "impressions_prev_28d": 0,
+        "clicks_28d": 11,
+        "avg_position": 39.8,
+        "avg_ctr": 0.0082,
+        "unique_queries": 24,
+        "new_ranking_pages": 36,
+        "reddit_high_impact_30d": 0,
+        "review_count": 79,
+        "review_rating": 5
+      }
+    }
+  ],
+  "lovery-re": [
+    {
+      "timestamp": "2026-04-19T06:53:30.041Z",
+      "score": 56,
+      "breakdown": {
+        "gsc": 35,
+        "reddit": 100,
+        "content_velocity": 100,
+        "reviews": 38,
+        "ai_citations": 50,
+        "backlink_proxy": 20
+      },
+      "signals": {
+        "impressions_28d": 190,
+        "impressions_prev_28d": 0,
+        "clicks_28d": 0,
+        "avg_position": 19.6,
+        "avg_ctr": 0,
+        "unique_queries": 3,
+        "new_ranking_pages": 22,
+        "reddit_high_impact_30d": 17,
+        "review_count": 18,
+        "review_rating": 5
+      }
+    }
+  ],
+  "rpm-southland": [
+    {
+      "timestamp": "2026-04-19T06:53:30.483Z",
+      "score": 80,
+      "breakdown": {
+        "gsc": 72,
+        "reddit": 100,
+        "content_velocity": 100,
+        "reviews": 85,
+        "ai_citations": 50,
+        "backlink_proxy": 60
+      },
+      "signals": {
+        "impressions_28d": 11217,
+        "impressions_prev_28d": 11820,
+        "clicks_28d": 762,
+        "avg_position": 5.6,
+        "avg_ctr": 0.0679,
+        "unique_queries": 104,
+        "new_ranking_pages": 17,
+        "reddit_high_impact_30d": 13,
+        "review_count": 880,
+        "review_rating": 4.8
+      }
+    }
+  ],
+  "davis-agency": [
+    {
+      "timestamp": "2026-04-19T06:53:30.860Z",
+      "score": 67,
+      "breakdown": {
+        "gsc": 55,
+        "reddit": 100,
+        "content_velocity": 100,
+        "reviews": 50,
+        "ai_citations": 50,
+        "backlink_proxy": 40
+      },
+      "signals": {
+        "impressions_28d": 1765,
+        "impressions_prev_28d": 824,
+        "clicks_28d": 15,
+        "avg_position": 18.1,
+        "avg_ctr": 0.0085,
+        "unique_queries": 36,
+        "new_ranking_pages": 174,
+        "reddit_high_impact_30d": 5,
+        "review_count": 0,
+        "review_rating": 0
+      }
+    }
+  ],
+  "the-answer-engine": [
+    {
+      "timestamp": "2026-04-19T06:53:31.243Z",
+      "score": 67,
+      "breakdown": {
+        "gsc": 55,
+        "reddit": 100,
+        "content_velocity": 100,
+        "reviews": 50,
+        "ai_citations": 50,
+        "backlink_proxy": 40
+      },
+      "signals": {
+        "impressions_28d": 4738,
+        "impressions_prev_28d": 593,
+        "clicks_28d": 91,
+        "avg_position": 41.7,
+        "avg_ctr": 0.0192,
+        "unique_queries": 77,
+        "new_ranking_pages": 72,
+        "reddit_high_impact_30d": 8,
+        "review_count": 0,
+        "review_rating": 0
+      }
+    }
+  ],
+  "lamh": [
+    {
+      "timestamp": "2026-04-19T06:53:31.958Z",
+      "score": 55,
+      "breakdown": {
+        "gsc": 61,
+        "reddit": 0,
+        "content_velocity": 100,
+        "reviews": 50,
+        "ai_citations": 50,
+        "backlink_proxy": 60
+      },
+      "signals": {
+        "impressions_28d": 28787,
+        "impressions_prev_28d": 32447,
+        "clicks_28d": 729,
+        "avg_position": 6,
+        "avg_ctr": 0.0253,
+        "unique_queries": 310,
+        "new_ranking_pages": 38,
+        "reddit_high_impact_30d": 0,
+        "review_count": 0,
+        "review_rating": 0
+      }
+    }
+  ],
+  "clearclose": [
+    {
+      "timestamp": "2026-04-19T06:53:33.393Z",
+      "score": 31,
+      "breakdown": {
+        "gsc": 25,
+        "reddit": 0,
+        "content_velocity": 50,
+        "reviews": 50,
+        "ai_citations": 50,
+        "backlink_proxy": 10
+      },
+      "signals": {
+        "impressions_28d": 2,
+        "impressions_prev_28d": 1,
+        "clicks_28d": 0,
+        "avg_position": 46,
+        "avg_ctr": 0,
+        "unique_queries": 0,
+        "new_ranking_pages": 1,
+        "reddit_high_impact_30d": 0,
+        "review_count": 0,
+        "review_rating": 0
+      }
+    }
+  ]
+}
