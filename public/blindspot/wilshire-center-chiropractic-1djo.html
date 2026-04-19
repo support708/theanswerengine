@@ -1,0 +1,739 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Blind Spot Report | Wilshire Center Chiropractic</title>
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    background: #f8f8f6;
+    color: #1a1a2e;
+    line-height: 1.6;
+  }
+
+  /* HERO */
+  .hero {
+    background: linear-gradient(135deg, #0a0a1a 0%, #1e2d3d 100%);
+    color: #ffffff;
+    padding: 80px 20px 60px;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+  }
+  .hero::before {
+    content: '';
+    position: absolute;
+    top: -50%;
+    left: -50%;
+    width: 200%;
+    height: 200%;
+    background: radial-gradient(ellipse at center, rgba(45,106,106,0.15) 0%, transparent 60%);
+    pointer-events: none;
+  }
+  .hero-badge {
+    display: inline-block;
+    background: rgba(45,106,106,0.3);
+    border: 1px solid rgba(45,106,106,0.6);
+    color: #7ecece;
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    padding: 6px 16px;
+    border-radius: 20px;
+    margin-bottom: 28px;
+  }
+  .hero h1 {
+    font-size: clamp(28px, 5vw, 52px);
+    font-weight: 800;
+    line-height: 1.15;
+    margin-bottom: 20px;
+    letter-spacing: -0.5px;
+  }
+  .hero h1 span {
+    color: #7ecece;
+  }
+  .hero-sub {
+    font-size: clamp(15px, 2.5vw, 18px);
+    color: rgba(255,255,255,0.7);
+    max-width: 580px;
+    margin: 0 auto 36px;
+  }
+  .hero-business {
+    display: inline-block;
+    background: rgba(255,255,255,0.06);
+    border: 1px solid rgba(255,255,255,0.12);
+    border-radius: 10px;
+    padding: 14px 28px;
+    font-size: 14px;
+    color: rgba(255,255,255,0.85);
+    letter-spacing: 0.5px;
+  }
+  .hero-business strong {
+    color: #ffffff;
+    font-size: 16px;
+  }
+
+  /* SECTION WRAPPER */
+  .section {
+    padding: 64px 20px;
+  }
+  .section-inner {
+    max-width: 900px;
+    margin: 0 auto;
+  }
+  .section-label {
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 2.5px;
+    text-transform: uppercase;
+    color: #2d6a6a;
+    margin-bottom: 10px;
+  }
+  .section-title {
+    font-size: clamp(22px, 4vw, 36px);
+    font-weight: 800;
+    color: #0a0a1a;
+    margin-bottom: 14px;
+    line-height: 1.2;
+  }
+  .section-desc {
+    font-size: 16px;
+    color: #555;
+    max-width: 620px;
+    margin-bottom: 40px;
+  }
+
+  /* STATS PANEL */
+  .stats-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 20px;
+    margin-bottom: 32px;
+  }
+  .stat-card {
+    background: #ffffff;
+    border-radius: 14px;
+    padding: 28px 20px;
+    text-align: center;
+    box-shadow: 0 2px 16px rgba(0,0,0,0.07);
+    border-top: 4px solid #2d6a6a;
+    position: relative;
+    overflow: hidden;
+  }
+  .stat-card::after {
+    content: '';
+    position: absolute;
+    bottom: 0; right: 0;
+    width: 60px; height: 60px;
+    background: radial-gradient(circle, rgba(45,106,106,0.08) 0%, transparent 70%);
+    border-radius: 50%;
+  }
+  .stat-value {
+    font-size: clamp(32px, 5vw, 48px);
+    font-weight: 900;
+    color: #2d6a6a;
+    line-height: 1;
+    margin-bottom: 8px;
+  }
+  .stat-label {
+    font-size: 12px;
+    font-weight: 600;
+    color: #888;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+  }
+  .stat-note {
+    font-size: 11px;
+    color: #aaa;
+    margin-top: 4px;
+  }
+
+  /* AERO SCORE */
+  .aero-panel {
+    background: #1e2d3d;
+    border-radius: 16px;
+    padding: 32px;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    gap: 32px;
+    flex-wrap: wrap;
+  }
+  .aero-score-ring {
+    flex-shrink: 0;
+    width: 110px;
+    height: 110px;
+    border-radius: 50%;
+    background: conic-gradient(#e05555 0% 56%, rgba(255,255,255,0.1) 56% 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+  }
+  .aero-score-inner {
+    width: 82px;
+    height: 82px;
+    border-radius: 50%;
+    background: #1e2d3d;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .aero-number {
+    font-size: 26px;
+    font-weight: 900;
+    color: #e05555;
+    line-height: 1;
+  }
+  .aero-denom {
+    font-size: 11px;
+    color: rgba(255,255,255,0.5);
+  }
+  .aero-text h3 {
+    font-size: 20px;
+    font-weight: 800;
+    margin-bottom: 8px;
+    color: #fff;
+  }
+  .aero-text p {
+    font-size: 14px;
+    color: rgba(255,255,255,0.7);
+    max-width: 480px;
+  }
+  .aero-text .aero-verdict {
+    display: inline-block;
+    background: rgba(224,85,85,0.2);
+    border: 1px solid rgba(224,85,85,0.4);
+    color: #f08080;
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    padding: 4px 12px;
+    border-radius: 20px;
+    margin-bottom: 10px;
+  }
+
+  /* TERMINAL */
+  .terminal {
+    background: #0d1117;
+    border-radius: 14px;
+    overflow: hidden;
+    box-shadow: 0 8px 40px rgba(0,0,0,0.25);
+    margin-bottom: 28px;
+  }
+  .terminal-bar {
+    background: #1c2333;
+    padding: 12px 18px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  .term-dot {
+    width: 12px; height: 12px;
+    border-radius: 50%;
+  }
+  .term-dot.red { background: #ff5f57; }
+  .term-dot.yellow { background: #febc2e; }
+  .term-dot.green { background: #28c840; }
+  .terminal-label {
+    margin-left: 10px;
+    font-size: 12px;
+    color: rgba(255,255,255,0.4);
+    font-family: "Courier New", monospace;
+  }
+  .terminal-body {
+    padding: 28px;
+    font-family: "Courier New", monospace;
+    font-size: 13px;
+    line-height: 1.8;
+  }
+  .t-prompt {
+    color: #7ecece;
+  }
+  .t-query {
+    color: #ffffff;
+  }
+  .t-response {
+    color: rgba(255,255,255,0.75);
+    margin-top: 12px;
+    padding-top: 12px;
+    border-top: 1px solid rgba(255,255,255,0.06);
+  }
+  .t-response .t-highlight {
+    color: #febc2e;
+    font-weight: bold;
+  }
+  .t-response .t-missing {
+    color: #ff6b6b;
+    font-weight: bold;
+  }
+  .t-cursor {
+    display: inline-block;
+    width: 8px;
+    height: 14px;
+    background: #7ecece;
+    animation: blink 1s step-end infinite;
+    vertical-align: middle;
+    margin-left: 2px;
+  }
+  @keyframes blink { 50% { opacity: 0; } }
+
+  .ai-note {
+    background: rgba(224,85,85,0.08);
+    border: 1px solid rgba(224,85,85,0.2);
+    border-left: 4px solid #e05555;
+    border-radius: 8px;
+    padding: 18px 20px;
+    font-size: 14px;
+    color: #555;
+  }
+  .ai-note strong {
+    color: #c0392b;
+  }
+
+  /* DIFFERENTIATOR CARDS */
+  .diff-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 20px;
+  }
+  .diff-card {
+    background: #ffffff;
+    border-radius: 14px;
+    padding: 28px 24px;
+    box-shadow: 0 2px 16px rgba(0,0,0,0.07);
+    border-left: 4px solid #2d6a6a;
+    transition: transform 0.2s, box-shadow 0.2s;
+  }
+  .diff-card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 28px rgba(0,0,0,0.11);
+  }
+  .diff-icon {
+    font-size: 28px;
+    margin-bottom: 14px;
+    display: block;
+  }
+  .diff-card h4 {
+    font-size: 15px;
+    font-weight: 800;
+    color: #0a0a1a;
+    margin-bottom: 8px;
+  }
+  .diff-card p {
+    font-size: 13px;
+    color: #666;
+    line-height: 1.65;
+  }
+  .diff-badge {
+    display: inline-block;
+    background: rgba(45,106,106,0.1);
+    color: #2d6a6a;
+    font-size: 10px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    padding: 3px 10px;
+    border-radius: 20px;
+    margin-bottom: 10px;
+  }
+
+  /* THE FIX */
+  .fix-section {
+    background: #1e2d3d;
+    padding: 64px 20px;
+  }
+  .fix-section .section-label { color: #7ecece; }
+  .fix-section .section-title { color: #ffffff; }
+  .fix-section .section-desc { color: rgba(255,255,255,0.65); }
+  .fix-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+  }
+  .fix-card {
+    background: rgba(255,255,255,0.05);
+    border: 1px solid rgba(255,255,255,0.1);
+    border-radius: 14px;
+    padding: 28px 22px;
+    text-align: center;
+    transition: background 0.2s;
+  }
+  .fix-card:hover {
+    background: rgba(255,255,255,0.09);
+  }
+  .fix-num {
+    width: 44px; height: 44px;
+    border-radius: 50%;
+    background: #2d6a6a;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 900;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 16px;
+  }
+  .fix-card h4 {
+    font-size: 14px;
+    font-weight: 800;
+    color: #ffffff;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+  }
+  .fix-card p {
+    font-size: 13px;
+    color: rgba(255,255,255,0.6);
+    line-height: 1.6;
+  }
+  .fix-tag {
+    display: inline-block;
+    background: rgba(45,106,106,0.3);
+    color: #7ecece;
+    font-size: 10px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    padding: 3px 10px;
+    border-radius: 20px;
+    margin-bottom: 12px;
+  }
+
+  /* CTA */
+  .cta-section {
+    padding: 80px 20px;
+    background: linear-gradient(135deg, #0a0a1a 0%, #1e2d3d 100%);
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+  }
+  .cta-section::before {
+    content: '';
+    position: absolute;
+    top: 50%; left: 50%;
+    transform: translate(-50%, -50%);
+    width: 600px; height: 600px;
+    background: radial-gradient(circle, rgba(45,106,106,0.12) 0%, transparent 70%);
+    pointer-events: none;
+  }
+  .cta-section h2 {
+    font-size: clamp(26px, 4vw, 42px);
+    font-weight: 900;
+    color: #ffffff;
+    margin-bottom: 18px;
+    line-height: 1.2;
+    position: relative;
+  }
+  .cta-section h2 span { color: #7ecece; }
+  .cta-section p {
+    font-size: 16px;
+    color: rgba(255,255,255,0.65);
+    max-width: 520px;
+    margin: 0 auto 38px;
+    position: relative;
+  }
+  .cta-btn {
+    display: inline-block;
+    background: #2d6a6a;
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: 800;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 18px 44px;
+    border-radius: 50px;
+    transition: background 0.2s, transform 0.2s, box-shadow 0.2s;
+    box-shadow: 0 4px 24px rgba(45,106,106,0.4);
+    position: relative;
+  }
+  .cta-btn:hover {
+    background: #3a8a8a;
+    transform: translateY(-2px);
+    box-shadow: 0 8px 32px rgba(45,106,106,0.55);
+  }
+  .cta-sub {
+    font-size: 12px;
+    color: rgba(255,255,255,0.4);
+    margin-top: 18px;
+    position: relative;
+  }
+
+  /* FOOTER */
+  footer {
+    background: #0a0a1a;
+    padding: 28px 20px;
+    text-align: center;
+    font-size: 12px;
+    color: rgba(255,255,255,0.35);
+  }
+  footer a {
+    color: rgba(255,255,255,0.5);
+    text-decoration: none;
+  }
+  footer a:hover { color: #7ecece; }
+
+  /* DIVIDER */
+  .section-divider {
+    width: 48px;
+    height: 4px;
+    background: #2d6a6a;
+    border-radius: 2px;
+    margin-bottom: 20px;
+  }
+
+  /* VISIBILITY METER */
+  .visibility-bar-wrap {
+    background: rgba(255,255,255,0.08);
+    border-radius: 8px;
+    height: 10px;
+    width: 100%;
+    max-width: 320px;
+    overflow: hidden;
+    margin-top: 14px;
+  }
+  .visibility-bar-fill {
+    height: 100%;
+    width: 56%;
+    background: linear-gradient(90deg, #e05555, #febc2e);
+    border-radius: 8px;
+  }
+
+  @media (max-width: 600px) {
+    .aero-panel { flex-direction: column; gap: 20px; }
+    .stats-grid { grid-template-columns: repeat(2, 1fr); }
+    .hero { padding: 60px 16px 48px; }
+    .section { padding: 48px 16px; }
+  }
+</style>
+</head>
+<body>
+
+<!-- SECTION 1: HERO / THE HOOK -->
+<section class="hero">
+  <div class="hero-badge">Confidential Blind Spot Report</div>
+  <h1>Dr., You Have a<br><span>Visibility Problem.</span></h1>
+  <p class="hero-sub">
+    Patients in Los Angeles are asking AI where to find a chiropractor right now.
+    Wilshire Center Chiropractic is not part of that conversation.
+  </p>
+  <div class="hero-business">
+    <div style="font-size:11px;color:rgba(255,255,255,0.5);letter-spacing:1.5px;text-transform:uppercase;margin-bottom:4px;">Report Generated For</div>
+    <strong>Wilshire Center Chiropractic</strong>
+    <div style="font-size:12px;color:rgba(255,255,255,0.5);margin-top:2px;">Koreatown, Los Angeles, CA</div>
+  </div>
+</section>
+
+
+<!-- SECTION 2: THE GAP -->
+<section class="section">
+  <div class="section-inner">
+    <div class="section-label">Section 02 / The Gap</div>
+    <div class="section-divider"></div>
+    <h2 class="section-title">Your Credentials Are Strong.<br>Your AI Footprint Is Not.</h2>
+    <p class="section-desc">
+      Eighteen years of practice, a 5-star rating, and a fully integrated care team. Yet when AI systems compile answers for prospective patients, this practice does not appear. Here is what the data shows.
+    </p>
+
+    <div class="stats-grid">
+      <div class="stat-card">
+        <div class="stat-value">39</div>
+        <div class="stat-label">Google Reviews</div>
+        <div class="stat-note">Strong satisfaction signal</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-value">5.0</div>
+        <div class="stat-label">Star Rating</div>
+        <div class="stat-note">Perfect average score</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-value">18+</div>
+        <div class="stat-label">Years in Practice</div>
+        <div class="stat-note">Founded 2008, Koreatown</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-value">2</div>
+        <div class="stat-label">Licensed Doctors of Chiropractic</div>
+        <div class="stat-note">Dr. Sim and Dr. Ji on staff</div>
+      </div>
+    </div>
+
+    <div class="aero-panel">
+      <div class="aero-score-ring">
+        <div class="aero-score-inner">
+          <div class="aero-number">56</div>
+          <div class="aero-denom">/100</div>
+        </div>
+      </div>
+      <div class="aero-text">
+        <div class="aero-verdict">At Risk</div>
+        <h3>AERO-10 Score: 56 out of 100</h3>
+        <p>
+          The AERO-10 framework measures how well a business is structured for Answer Engine Optimization. A score of 56 means AI platforms are consistently overlooking Wilshire Center Chiropractic when generating responses about chiropractors in Los Angeles, even though the practice has the credentials and experience to rank.
+        </p>
+        <div class="visibility-bar-wrap">
+          <div class="visibility-bar-fill"></div>
+        </div>
+        <div style="font-size:11px;color:rgba(255,255,255,0.4);margin-top:6px;">AI Visibility: 56% of potential reach captured</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- SECTION 3: WHAT AI SEES -->
+<section class="section" style="background:#f0f2f5;padding-top:0;">
+  <div class="section-inner">
+    <div class="section-label">Section 03 / What AI Sees</div>
+    <div class="section-divider"></div>
+    <h2 class="section-title">When a Patient Asks AI for a Chiropractor<br>in Koreatown, This Is What Happens.</h2>
+    <p class="section-desc">
+      AI assistants like ChatGPT, Gemini, and Perplexity are now the first stop for many healthcare searches. Right now, the conversation looks like this.
+    </p>
+
+    <div class="terminal">
+      <div class="terminal-bar">
+        <div class="term-dot red"></div>
+        <div class="term-dot yellow"></div>
+        <div class="term-dot green"></div>
+        <div class="terminal-label">AI Assistant Search Simulation</div>
+      </div>
+      <div class="terminal-body">
+        <div class="t-prompt">User &gt; <span class="t-query">"Who is the best chiropractor near Koreatown Los Angeles for auto accident recovery and spinal decompression?"</span></div>
+        <div class="t-response">
+          AI &gt; Based on available information, a commonly cited option in the Koreatown area is <span class="t-highlight">Yonsei Chiropractic Clinic</span>, which appears across multiple structured data sources and has strong entity recognition in health directories...<br><br>
+          <span style="color:rgba(255,255,255,0.4);font-size:12px;">[Wilshire Center Chiropractic: <span class="t-missing">NOT CITED</span>. Insufficient structured entity data for AI recommendation.]</span>
+          <span class="t-cursor"></span>
+        </div>
+      </div>
+    </div>
+
+    <div class="ai-note">
+      <strong>Why this matters:</strong> Wilshire Center Chiropractic has been serving Koreatown since 2008, offers spinal decompression, same-day appointments, and lien-based auto accident care. Yet because the practice lacks sufficient structured entity signals, AI systems default to competitors. Every unanswered AI query is a patient who never calls.
+    </div>
+  </div>
+</section>
+
+
+<!-- SECTION 4: HIDDEN DIFFERENTIATORS -->
+<section class="section">
+  <div class="section-inner">
+    <div class="section-label">Section 04 / Hidden Differentiators</div>
+    <div class="section-divider"></div>
+    <h2 class="section-title">What Makes This Practice Exceptional.<br>What AI Cannot See Yet.</h2>
+    <p class="section-desc">
+      Wilshire Center Chiropractic has genuine competitive advantages that are simply not structured in a way that AI engines can parse, cite, and recommend.
+    </p>
+
+    <div class="diff-grid">
+      <div class="diff-card">
+        <span class="diff-badge">Technology</span>
+        <span class="diff-icon">🔬</span>
+        <h4>Spinal Decompression Technology</h4>
+        <p>Non-surgical spinal decompression using advanced traction systems targets disc herniation and chronic back pain at the source, a specialized offering not available at every chiropractic clinic.</p>
+      </div>
+
+      <div class="diff-card">
+        <span class="diff-badge">Accident Care</span>
+        <span class="diff-icon">🚗</span>
+        <h4>Zero Upfront Cost Auto Accident Care</h4>
+        <p>Lien-based billing allows patients injured in auto accidents to receive full treatment immediately with no out-of-pocket costs while their case is settled, removing the single biggest barrier to care.</p>
+      </div>
+
+      <div class="diff-card">
+        <span class="diff-badge">Integrated Team</span>
+        <span class="diff-icon">🤝</span>
+        <h4>On-Site Acupuncture and Massage Therapy</h4>
+        <p>A fully integrated care team including licensed acupuncturists and massage therapists operates under one roof, enabling coordinated treatment plans without referrals to outside providers.</p>
+      </div>
+
+      <div class="diff-card">
+        <span class="diff-badge">Diagnostics</span>
+        <span class="diff-icon">🩻</span>
+        <h4>On-Site Digital X-Ray and Shockwave Therapy</h4>
+        <p>Immediate on-site digital X-rays allow same-visit diagnosis, while Extracorporeal Shockwave Therapy (ESWT) addresses chronic soft tissue injuries that resist conventional chiropractic care.</p>
+      </div>
+
+      <div class="diff-card">
+        <span class="diff-badge">Community</span>
+        <span class="diff-icon">🌏</span>
+        <h4>Bilingual Korean-English Practice, 18-Year Legacy</h4>
+        <p>Founded in 2008 by Dr. Bo-Kyoung Sim and Dr. Joonghwa Ji, the practice has served Koreatown's Korean-American community for nearly two decades with bilingual staff, offering culturally fluent care at scale.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- SECTION 5: THE FIX -->
+<section class="fix-section">
+  <div class="section-inner">
+    <div class="section-label">Section 05 / The Fix</div>
+    <div class="section-divider" style="background:#7ecece;"></div>
+    <h2 class="section-title" style="color:#fff;">Four Moves That Put Wilshire Center Chiropractic<br>on Every AI's Radar.</h2>
+    <p class="section-desc">
+      Answer Engine Optimization is not about gaming algorithms. It is about structuring the truth of what this practice does so that AI systems can read, trust, and cite it.
+    </p>
+
+    <div class="fix-grid">
+      <div class="fix-card">
+        <div class="fix-num">1</div>
+        <div class="fix-tag">Answer-First Content</div>
+        <h4>Answer-First Content</h4>
+        <p>Rebuild key website pages so they open with direct, citable answers to the exact questions patients ask AI, covering spinal decompression, auto accident lien care, and bilingual services.</p>
+      </div>
+
+      <div class="fix-card">
+        <div class="fix-num">2</div>
+        <div class="fix-tag">Structured Schema</div>
+        <h4>Schema Markup</h4>
+        <p>Deploy MedicalBusiness, Physician, Service, and FAQPage schema so that AI crawlers can extract and verify structured facts about the practice, its doctors, and its specific treatment offerings.</p>
+      </div>
+
+      <div class="fix-card">
+        <div class="fix-num">3</div>
+        <div class="fix-tag">Entity Building</div>
+        <h4>Entity Authority</h4>
+        <p>Establish consistent, structured profiles for Dr. Sim and Dr. Ji across medical directories, Healthgrades, and knowledge graph sources so AI systems recognize them as verified entities in chiropractic care.</p>
+      </div>
+
+      <div class="fix-card">
+        <div class="fix-num">4</div>
+        <div class="fix-tag">Authority Signals</div>
+        <h4>Citation Amplification</h4>
+        <p>Grow the review base beyond 39 reviews, earn inbound citations from Korean-American community publications and local health resources, and amplify the 18-year market presence through structured content.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- SECTION 6: CTA -->
+<section class="cta-section">
+  <h2>Ready to Become the Chiropractor<br><span>AI Recommends in Los Angeles?</span></h2>
+  <p>
+    In 30 minutes, we will walk through exactly what needs to change, which AI platforms are closest to citing you, and what a full optimization roadmap looks like for Wilshire Center Chiropractic.
+  </p>
+  <a class="cta-btn" href="https://calendly.com/theanswerengine-support/30min" target="_blank" rel="noopener">
+    Book Your Free 30-Min Call
+  </a>
+  <div class="cta-sub">No pressure. No obligation. Just a clear picture of your AI visibility gap and how to close it.</div>
+</section>
+
+
+<!-- FOOTER -->
+<footer>
+  <p>This analysis uses publicly available information about Wilshire Center Chiropractic and its online presence.</p>
+  <p style="margin-top:8px;">Questions? <a href="mailto:support@theanswerengine.ai">support@theanswerengine.ai</a></p>
+  <p style="margin-top:8px;">Prepared by <a href="https://theanswerengine.ai" target="_blank" rel="noopener">The Answer Engine</a>, Answer Engine Optimization Agency</p>
+</footer>
+
+</body>
+</html>
