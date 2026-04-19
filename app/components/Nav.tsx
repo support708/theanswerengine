@@ -14,9 +14,12 @@ export default function Nav() {
   );
 
   const navLinks = [
-    { label: 'HOME', paths: ['/', '/tools'], active: isActive(['/', '/tools', '/territory-check']) },
-    { label: 'ABOUT', paths: ['/about', '/services'], active: isActive(['/about', '/services']) },
-    { label: 'BLOG', paths: ['/blog', '/case-studies'], active: isActive(['/blog', '/case-studies']) },
+    { label: 'HOME', paths: ['/'], active: pathname === '/' },
+    { label: 'ABOUT', paths: ['/about'], active: isActive(['/about']) },
+    { label: 'SERVICES', paths: ['/services'], active: isActive(['/services']) },
+    { label: 'INDUSTRIES', paths: ['/industries/real-estate'], active: isActive(['/industries']) },
+    { label: 'CASE STUDY', paths: ['/case-studies'], active: isActive(['/case-studies']) },
+    { label: 'BLOG', paths: ['/blog'], active: isActive(['/blog']) },
     { label: 'CONTACT', paths: ['/contact'], active: isActive(['/contact']) },
   ];
 
@@ -38,7 +41,7 @@ export default function Nav() {
         </a>
 
         {/* Desktop Links */}
-        <div className="hidden md:flex items-center gap-8 font-headline uppercase tracking-tighter font-bold">
+        <div className="hidden lg:flex items-center gap-6 font-headline uppercase tracking-tighter font-bold text-sm">
           {navLinks.map(link => (
             <a
               key={link.label}
@@ -55,18 +58,18 @@ export default function Nav() {
         </div>
 
         {/* Right side */}
-        <div className="flex items-center gap-4">
+        <div className="flex items-center gap-3">
           <a
-            href="#contact"
-            className="hidden md:block bg-[#FF6A00] text-black font-black px-6 py-2 tracking-tighter hover:translate-y-[2px] transition-transform font-headline"
+            href="/#territory-check"
+            className="hidden lg:block bg-[#FF6A00] text-black font-black px-5 py-2 tracking-tighter hover:translate-y-[2px] transition-transform font-headline text-sm"
           >
-            GET STARTED
+            CHECK TERRITORY
           </a>
 
-          {/* Mobile hamburger */}
+          {/* Mobile/tablet hamburger */}
           <button
             onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
-            className="md:hidden text-white/60 hover:text-white transition-colors"
+            className="lg:hidden text-white/60 hover:text-white transition-colors"
             aria-label="Toggle mobile menu"
             aria-expanded={mobileMenuOpen}
           >
@@ -85,7 +88,7 @@ export default function Nav() {
 
       {/* Mobile Menu */}
       {mobileMenuOpen && (
-        <div className="md:hidden border-t border-white/10 bg-[#131313]">
+        <div className="lg:hidden border-t border-white/10 bg-[#131313]">
           <div className="flex flex-col py-4">
             {navLinks.map(link => (
               <a
@@ -103,11 +106,11 @@ export default function Nav() {
             ))}
             <div className="px-6 pt-4">
               <a
-                href="#contact"
+                href="/#territory-check"
                 onClick={() => setMobileMenuOpen(false)}
                 className="block bg-[#FF6A00] text-black font-black px-6 py-3 tracking-tighter text-center font-headline"
               >
-                GET STARTED
+                CHECK TERRITORY
               </a>
             </div>
           </div>

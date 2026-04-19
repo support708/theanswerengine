@@ -80,235 +80,204 @@ export default function BlindSpotPage() {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
       />
 
-      {/* Hero Section */}
-      <section className="relative overflow-hidden py-20 sm:py-28 lg:py-36">
-        {/* Background gradient */}
-        <div
-          className="pointer-events-none absolute inset-0"
+      <main className="min-h-screen bg-[#131313] text-white overflow-x-hidden pt-16">
+        {/* HERO */}
+        <section
+          className="relative py-24 md:py-32 px-6 lg:px-24 border-b border-white/5"
           style={{
-            background:
-              'radial-gradient(ellipse 80% 60% at 50% 0%, rgba(255,106,0,0.12) 0%, transparent 70%)',
+            backgroundImage: 'radial-gradient(#FF6A0011 0.5px, transparent 0.5px)',
+            backgroundSize: '24px 24px',
           }}
-        />
+        >
+          <div
+            className="pointer-events-none absolute inset-0"
+            style={{
+              background: 'radial-gradient(ellipse 80% 60% at 50% 0%, rgba(255,106,0,0.10) 0%, transparent 70%)',
+            }}
+            aria-hidden="true"
+          />
+          <div className="relative max-w-7xl mx-auto">
+            <div className="mb-8">
+              <Link href="/" className="font-mono text-[10px] tracking-widest uppercase text-white/40 hover:text-[#FF6A00] transition-colors inline-flex items-center gap-2">
+                <svg className="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={2}>
+                  <path strokeLinecap="round" strokeLinejoin="round" d="M10.5 19.5L3 12m0 0l7.5-7.5M3 12h18" />
+                </svg>
+                Back to Home
+              </Link>
+            </div>
 
-        <div className="relative mx-auto max-w-4xl px-6 text-center">
-          <p className="mb-4 text-sm font-semibold uppercase tracking-widest text-[#FF6A00]">
-            Free AI Visibility Analysis
-          </p>
-          <h1 className="text-4xl font-bold leading-tight tracking-tight text-white sm:text-5xl lg:text-6xl">
-            Where Is Your Business{' '}
-            <span className="text-[#FF6A00]">Invisible</span> to AI?
-          </h1>
-          <p className="mx-auto mt-6 max-w-2xl text-lg leading-relaxed text-gray-400 sm:text-xl">
-            Get a free Blind Spot Report showing exactly how ChatGPT, Claude,
-            Perplexity, and Google AI see your business right now.
-          </p>
-          <div className="mt-10">
-            <Link
-              href="https://calendly.com/theanswerengine-support/30min"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="inline-block rounded-lg bg-[#FF6A00] px-8 py-4 text-lg font-semibold text-white shadow-lg shadow-[#FF6A00]/20 transition-all duration-200 hover:bg-[#e65e00] hover:shadow-xl hover:shadow-[#FF6A00]/30 focus:outline-none focus:ring-2 focus:ring-[#FF6A00] focus:ring-offset-2 focus:ring-offset-[#0F1117]"
-            >
-              Book Your Free Strategy Call
-            </Link>
-            <p className="mt-3 text-sm text-gray-500">
-              No pitch, just the data. 30 minutes.
+            <div className="inline-block border border-[#FF6A00]/30 px-3 py-1 mb-8">
+              <span className="font-mono text-[10px] font-bold tracking-[0.2em] text-[#FF6A00] uppercase">
+                Free // AI Visibility Analysis
+              </span>
+            </div>
+
+            <h1 className="font-headline font-black text-5xl md:text-7xl lg:text-8xl uppercase tracking-tighter leading-none mb-8 max-w-5xl">
+              WHERE IS YOUR BUSINESS{' '}
+              <span className="text-[#FF6A00]">INVISIBLE</span> TO AI?
+            </h1>
+
+            <p className="text-white/60 text-lg md:text-xl leading-relaxed max-w-2xl mb-10 border-l-2 border-[#FF6A00] pl-6">
+              A free Blind Spot Report showing exactly how ChatGPT, Claude, Perplexity, and Google AI see your business right now — with the top 3 fixes that move the needle first.
             </p>
-          </div>
-        </div>
-      </section>
 
-      {/* What You'll Discover */}
-      <section className="py-20 sm:py-24">
-        <div className="mx-auto max-w-6xl px-6">
-          <h2 className="mb-4 text-center text-3xl font-bold text-white sm:text-4xl">
-            What You Will Discover
-          </h2>
-          <p className="mx-auto mb-14 max-w-2xl text-center text-gray-400">
-            Your report breaks down three critical dimensions of AI search
-            visibility.
-          </p>
-
-          <div className="grid gap-8 md:grid-cols-3">
-            {/* Card 1 */}
-            <div className="group rounded-xl border border-white/10 bg-white/[0.03] p-8 transition-colors duration-200 hover:border-[#FF6A00]/30 hover:bg-white/[0.05]">
-              <div className="mb-5 flex h-12 w-12 items-center justify-center rounded-lg bg-[#FF6A00]/10">
-                <svg
-                  className="h-6 w-6 text-[#FF6A00]"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  strokeWidth={1.5}
-                  stroke="currentColor"
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    d="M3 13.125C3 12.504 3.504 12 4.125 12h2.25c.621 0 1.125.504 1.125 1.125v6.75C7.5 20.496 6.996 21 6.375 21h-2.25A1.125 1.125 0 013 19.875v-6.75zM9.75 8.625c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125v11.25c0 .621-.504 1.125-1.125 1.125h-2.25a1.125 1.125 0 01-1.125-1.125V8.625zM16.5 4.125c0-.621.504-1.125 1.125-1.125h2.25C20.496 3 21 3.504 21 4.125v15.75c0 .621-.504 1.125-1.125 1.125h-2.25a1.125 1.125 0 01-1.125-1.125V4.125z"
-                  />
-                </svg>
-              </div>
-              <h3 className="mb-3 text-xl font-semibold text-white">
-                AI Visibility Score
-              </h3>
-              <p className="leading-relaxed text-gray-400">
-                How often AI platforms recommend you vs your competitors. See
-                exactly where you rank across ChatGPT, Claude, Perplexity, and
-                Google AI Overviews.
-              </p>
-            </div>
-
-            {/* Card 2 */}
-            <div className="group rounded-xl border border-white/10 bg-white/[0.03] p-8 transition-colors duration-200 hover:border-[#FF6A00]/30 hover:bg-white/[0.05]">
-              <div className="mb-5 flex h-12 w-12 items-center justify-center rounded-lg bg-[#FF6A00]/10">
-                <svg
-                  className="h-6 w-6 text-[#FF6A00]"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  strokeWidth={1.5}
-                  stroke="currentColor"
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z"
-                  />
-                </svg>
-              </div>
-              <h3 className="mb-3 text-xl font-semibold text-white">
-                Citation Gap Analysis
-              </h3>
-              <p className="leading-relaxed text-gray-400">
-                Where competitors are getting cited and you are not. We identify
-                the specific queries, topics, and content gaps that keep you out
-                of AI responses.
-              </p>
-            </div>
-
-            {/* Card 3 */}
-            <div className="group rounded-xl border border-white/10 bg-white/[0.03] p-8 transition-colors duration-200 hover:border-[#FF6A00]/30 hover:bg-white/[0.05]">
-              <div className="mb-5 flex h-12 w-12 items-center justify-center rounded-lg bg-[#FF6A00]/10">
-                <svg
-                  className="h-6 w-6 text-[#FF6A00]"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  strokeWidth={1.5}
-                  stroke="currentColor"
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    d="M3.75 12h16.5m-16.5 3.75h16.5M3.75 19.5h16.5M5.625 4.5h12.75a1.875 1.875 0 010 3.75H5.625a1.875 1.875 0 010-3.75z"
-                  />
-                </svg>
-              </div>
-              <h3 className="mb-3 text-xl font-semibold text-white">
-                Fix Priority List
-              </h3>
-              <p className="leading-relaxed text-gray-400">
-                The 3 highest-impact changes to make first. No guesswork. Each
-                recommendation is ranked by effort required and expected lift in
-                AI visibility.
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* Trust Signals */}
-      <section className="border-y border-white/10 py-16">
-        <div className="mx-auto max-w-5xl px-6">
-          <div className="grid gap-10 text-center sm:grid-cols-3">
-            <div>
-              <p className="text-3xl font-bold text-[#FF6A00] sm:text-4xl">
-                1.14M+
-              </p>
-              <p className="mt-2 text-gray-400">
-                Monthly impressions on our own site
-              </p>
-            </div>
-            <div>
-              <p className="text-3xl font-bold text-[#FF6A00] sm:text-4xl">
-                4 / 4
-              </p>
-              <p className="mt-2 text-gray-400">
-                Major AI platforms citing us
-              </p>
-            </div>
-            <div>
-              <p className="text-3xl font-bold text-[#FF6A00] sm:text-4xl">
-                90-Day
-              </p>
-              <p className="mt-2 text-gray-400">
-                Citation guarantee
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* CTA Section */}
-      <section className="py-20 sm:py-24">
-        <div className="mx-auto max-w-3xl px-6 text-center">
-          <h2 className="text-3xl font-bold text-white sm:text-4xl">
-            Ready to See What AI Search Thinks of Your Business?
-          </h2>
-          <p className="mx-auto mt-5 max-w-xl text-lg text-gray-400">
-            Book a free 30-minute strategy call. We will walk you through your
-            AI visibility data and show you exactly where the gaps are.
-          </p>
-          <div className="mt-10">
-            <Link
-              href="https://calendly.com/theanswerengine-support/30min"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="inline-block rounded-lg bg-[#FF6A00] px-8 py-4 text-lg font-semibold text-white shadow-lg shadow-[#FF6A00]/20 transition-all duration-200 hover:bg-[#e65e00] hover:shadow-xl hover:shadow-[#FF6A00]/30 focus:outline-none focus:ring-2 focus:ring-[#FF6A00] focus:ring-offset-2 focus:ring-offset-[#0F1117]"
-            >
-              Book Your Free Strategy Call
-            </Link>
-            <p className="mt-3 text-sm text-gray-500">
-              No pitch, just the data. 30 minutes.
-            </p>
-          </div>
-        </div>
-      </section>
-
-      {/* FAQ Section */}
-      <section className="border-t border-white/10 py-20 sm:py-24">
-        <div className="mx-auto max-w-3xl px-6">
-          <h2 className="mb-12 text-center text-3xl font-bold text-white sm:text-4xl">
-            Frequently Asked Questions
-          </h2>
-          <div className="space-y-6">
-            {faqs.map((faq, index) => (
-              <details
-                key={index}
-                className="group rounded-xl border border-white/10 bg-white/[0.03] transition-colors duration-200 open:border-[#FF6A00]/20"
+            <div className="flex flex-col sm:flex-row gap-4">
+              <Link
+                href="https://calendly.com/theanswerengine-support/30min"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="bg-[#FF6A00] text-black font-black px-10 py-5 text-xl tracking-tighter hover:translate-y-[2px] transition-transform font-headline uppercase inline-flex items-center gap-3"
               >
-                <summary className="flex cursor-pointer items-center justify-between px-6 py-5 text-lg font-medium text-white [&::-webkit-details-marker]:hidden">
-                  {faq.question}
-                  <svg
-                    className="h-5 w-5 flex-shrink-0 text-gray-500 transition-transform duration-200 group-open:rotate-180"
-                    fill="none"
-                    viewBox="0 0 24 24"
-                    strokeWidth={2}
-                    stroke="currentColor"
-                  >
-                    <path
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      d="M19.5 8.25l-7.5 7.5-7.5-7.5"
-                    />
-                  </svg>
-                </summary>
-                <div className="px-6 pb-5">
-                  <p className="leading-relaxed text-gray-400">{faq.answer}</p>
-                </div>
-              </details>
-            ))}
+                Book 30-Min Call
+                <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={2.5}>
+                  <path strokeLinecap="round" strokeLinejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3" />
+                </svg>
+              </Link>
+              <Link
+                href="/#territory-check"
+                className="border-2 border-white/20 text-[#e5e2e1] font-bold px-10 py-5 text-xl tracking-tighter hover:bg-white/5 hover:border-white/30 transition-all font-headline uppercase"
+              >
+                Check Territory
+              </Link>
+            </div>
+            <p className="mt-6 font-mono text-xs text-white/40 tracking-widest uppercase">
+              No pitch, just the data // 30 minutes
+            </p>
           </div>
-        </div>
-      </section>
+        </section>
+
+        {/* WHAT YOU'LL DISCOVER */}
+        <section className="py-24 md:py-32 px-6 lg:px-24 bg-[#1c1b1b]">
+          <div className="max-w-7xl mx-auto">
+            <span className="font-mono text-[10px] tracking-widest uppercase text-[#FF6A00] block mb-3">
+              What&apos;s Included // Three Deliverables
+            </span>
+            <h2 className="font-headline font-black text-4xl md:text-5xl uppercase tracking-tighter mb-16">
+              WHAT YOU WILL{' '}
+              <span className="text-[#FF6A00]">DISCOVER</span>
+            </h2>
+
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-0 border border-white/10">
+              {[
+                {
+                  num: '01',
+                  title: 'AI Visibility Score',
+                  body: 'How often AI platforms recommend you vs. your competitors. See exactly where you rank across ChatGPT, Claude, Perplexity, and Google AI Overviews.',
+                },
+                {
+                  num: '02',
+                  title: 'Citation Gap Analysis',
+                  body: 'Where competitors are getting cited and you are not. We identify the specific queries, topics, and content gaps that keep you out of AI responses.',
+                },
+                {
+                  num: '03',
+                  title: 'Fix Priority List',
+                  body: 'The three highest-impact changes to make first. No guesswork. Each recommendation is ranked by effort required and expected lift in AI visibility.',
+                },
+              ].map((c, i, arr) => (
+                <div
+                  key={c.num}
+                  className={`p-10 bg-[#131313] border-l-4 border-l-[#FF6A00] ${i < arr.length - 1 ? 'border-b md:border-b-0 md:border-r' : ''} border-white/10 hover:bg-[#2a2a2a] transition-colors`}
+                >
+                  <div className="w-10 h-10 border border-[#FF6A00]/40 flex items-center justify-center mb-6">
+                    <span className="font-mono text-[10px] text-[#FF6A00]">{c.num}</span>
+                  </div>
+                  <h3 className="font-headline font-black text-2xl uppercase tracking-tighter mb-4 text-[#e5e2e1]">{c.title}</h3>
+                  <p className="text-white/60 text-sm leading-relaxed">{c.body}</p>
+                </div>
+              ))}
+            </div>
+          </div>
+        </section>
+
+        {/* TRUST SIGNALS */}
+        <section className="py-16 px-6 lg:px-24 bg-[#131313] border-y border-white/5">
+          <div className="max-w-7xl mx-auto">
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-0 border border-white/10">
+              {[
+                { val: '1.14M+', label: 'Monthly Impressions (Our Site)' },
+                { val: '4 / 4', label: 'Major AI Platforms Citing Us' },
+                { val: '90-Day', label: 'Citation Guarantee' },
+              ].map((stat, i, arr) => (
+                <div
+                  key={stat.label}
+                  className={`p-8 bg-[#1c1b1b] ${i < arr.length - 1 ? 'border-b md:border-b-0 md:border-r' : ''} border-white/10`}
+                >
+                  <div className="font-headline font-black text-4xl md:text-5xl text-[#FF6A00] mb-2">{stat.val}</div>
+                  <div className="font-mono text-[10px] text-white/40 uppercase tracking-widest">{stat.label}</div>
+                </div>
+              ))}
+            </div>
+          </div>
+        </section>
+
+        {/* CTA */}
+        <section className="py-24 md:py-32 px-6 lg:px-24 bg-[#FF6A00]">
+          <div className="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center gap-12">
+            <div>
+              <span className="font-mono text-[10px] tracking-widest uppercase text-black/60 mb-4 block">
+                Ready // Book Your Free Report
+              </span>
+              <h2 className="font-headline font-black text-4xl md:text-5xl uppercase tracking-tighter text-black leading-none">
+                SEE WHAT AI THINKS<br />OF YOUR BUSINESS.
+              </h2>
+            </div>
+            <div className="flex flex-col sm:flex-row gap-4">
+              <Link
+                href="https://calendly.com/theanswerengine-support/30min"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="bg-black text-[#FF6A00] px-10 py-4 font-headline font-black uppercase tracking-tighter text-sm hover:bg-[#131313] transition-colors inline-flex items-center gap-3 whitespace-nowrap"
+              >
+                BOOK 30-MIN CALL
+                <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={2.5}>
+                  <path strokeLinecap="round" strokeLinejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3" />
+                </svg>
+              </Link>
+              <Link
+                href="/#territory-check"
+                className="border-2 border-black text-black px-10 py-4 font-headline font-black uppercase tracking-tighter text-sm hover:bg-black hover:text-[#FF6A00] transition-colors"
+              >
+                CHECK TERRITORY
+              </Link>
+            </div>
+          </div>
+        </section>
+
+        {/* FAQ */}
+        <section className="py-24 md:py-32 px-6 lg:px-24 bg-[#131313]">
+          <div className="max-w-4xl mx-auto">
+            <span className="font-mono text-[10px] tracking-widest uppercase text-[#FF6A00] block mb-3">
+              Common Questions // FAQ
+            </span>
+            <h2 className="font-headline font-black text-4xl md:text-5xl uppercase tracking-tighter mb-12">
+              FREQUENTLY ASKED{' '}
+              <span className="text-[#FF6A00]">QUESTIONS</span>
+            </h2>
+
+            <div className="space-y-3">
+              {faqs.map((faq, index) => (
+                <details
+                  key={index}
+                  className="group bg-[#1c1b1b] border border-white/10 border-l-4 border-l-transparent open:border-l-[#FF6A00] transition-colors"
+                >
+                  <summary className="px-6 py-5 flex justify-between items-center cursor-pointer list-none [&::-webkit-details-marker]:hidden">
+                    <h4 className="font-headline font-bold text-base md:text-lg uppercase tracking-tighter text-white group-open:text-[#FF6A00] transition-colors">
+                      {faq.question}
+                    </h4>
+                    <span className="font-mono text-white/40 text-xl select-none ml-4 group-open:rotate-45 transition-transform">
+                      +
+                    </span>
+                  </summary>
+                  <div className="px-6 pb-6 text-white/60 text-sm leading-relaxed">
+                    {faq.answer}
+                  </div>
+                </details>
+              ))}
+            </div>
+          </div>
+        </section>
+      </main>
     </>
   )
 }

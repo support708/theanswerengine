@@ -187,18 +187,71 @@ export default function RootLayout({
           </div>
         </section>
 
-        <footer className="w-full border-t border-white/5 bg-[#131313] relative overflow-hidden">
-          <div className="grid grid-cols-1 md:flex md:justify-between items-center px-8 py-4 w-full">
+        <footer className="w-full border-t border-white/10 bg-[#131313] relative overflow-hidden">
+          {/* Top section — nav columns + brand */}
+          <div className="max-w-7xl mx-auto px-6 lg:px-8 py-16 grid grid-cols-1 md:grid-cols-4 gap-10">
+            {/* Brand column */}
+            <div className="md:col-span-1">
+              <div className="font-headline font-black text-3xl tracking-tighter uppercase leading-none text-[#e5e2e1] mb-4">
+                THE<br />ANSWER<br /><span className="text-[#FF6A00]">ENGINE.</span>
+              </div>
+              <div className="font-mono text-[10px] tracking-widest uppercase text-white/40 leading-relaxed space-y-1">
+                <div>Los Angeles, CA</div>
+                <div>(213) 444-2229</div>
+                <div className="break-all">support@theanswerengine.ai</div>
+              </div>
+              <div className="mt-6 inline-flex items-center gap-2 font-mono text-[10px] tracking-widest uppercase text-[#FF6A00]">
+                <span className="w-1.5 h-1.5 bg-[#FF6A00] animate-pulse" />
+                Accepting new operators
+              </div>
+            </div>
+
+            {/* The System */}
+            <div>
+              <h4 className="font-headline font-black text-xs tracking-widest uppercase text-[#e5e2e1] mb-5">The System</h4>
+              <ul className="space-y-3">
+                <li><a href="/services" className="font-mono text-[11px] tracking-widest uppercase text-white/50 hover:text-[#FF6A00] transition-colors">Services</a></li>
+                <li><a href="/services/answer-engine-audit" className="font-mono text-[11px] tracking-widest uppercase text-white/50 hover:text-[#FF6A00] transition-colors">Free Audit</a></li>
+                <li><a href="/case-studies" className="font-mono text-[11px] tracking-widest uppercase text-white/50 hover:text-[#FF6A00] transition-colors">Case Studies</a></li>
+                <li><a href="/territory-check" className="font-mono text-[11px] tracking-widest uppercase text-white/50 hover:text-[#FF6A00] transition-colors">Territory Check</a></li>
+              </ul>
+            </div>
+
+            {/* Industries */}
+            <div>
+              <h4 className="font-headline font-black text-xs tracking-widest uppercase text-[#e5e2e1] mb-5">Industries</h4>
+              <ul className="space-y-3">
+                <li><a href="/industries/real-estate" className="font-mono text-[11px] tracking-widest uppercase text-white/50 hover:text-[#FF6A00] transition-colors">Real Estate</a></li>
+                <li><span className="font-mono text-[11px] tracking-widest uppercase text-white/30">Property Mgmt</span></li>
+                <li><span className="font-mono text-[11px] tracking-widest uppercase text-white/30">Builder Financial</span></li>
+                <li><a href="/territory-check" className="font-mono text-[11px] tracking-widest uppercase text-white/50 hover:text-[#FF6A00] transition-colors">Other · by Territory</a></li>
+              </ul>
+            </div>
+
+            {/* Intel */}
+            <div>
+              <h4 className="font-headline font-black text-xs tracking-widest uppercase text-[#e5e2e1] mb-5">Intel</h4>
+              <ul className="space-y-3">
+                <li><a href="/blog" className="font-mono text-[11px] tracking-widest uppercase text-white/50 hover:text-[#FF6A00] transition-colors">Blog</a></li>
+                <li><a href="/blindspot" className="font-mono text-[11px] tracking-widest uppercase text-white/50 hover:text-[#FF6A00] transition-colors">Blind Spot Report</a></li>
+                <li><a href="/about" className="font-mono text-[11px] tracking-widest uppercase text-white/50 hover:text-[#FF6A00] transition-colors">About</a></li>
+                <li><a href="/contact" className="font-mono text-[11px] tracking-widest uppercase text-white/50 hover:text-[#FF6A00] transition-colors">Contact</a></li>
+              </ul>
+            </div>
+          </div>
+
+          {/* Bottom bar */}
+          <div className="border-t border-white/5 px-6 lg:px-8 py-4 flex flex-col sm:flex-row justify-between items-center gap-3">
             <div className="font-mono text-[10px] uppercase tracking-widest text-white/40">
               &copy;{new Date().getFullYear()} THE ANSWER ENGINE // AEO
             </div>
-            <div className="flex gap-6 mt-2 md:mt-0">
-              <a className="font-mono text-[10px] uppercase tracking-widest text-white/40 hover:text-[#FF6A00] transition-colors" href="/privacy">PRIVACY</a>
-              <a className="font-mono text-[10px] uppercase tracking-widest text-white/40 hover:text-[#FF6A00] transition-colors" href="/terms">TERMS</a>
-              <a className="font-mono text-[10px] uppercase tracking-widest text-white/40 hover:text-[#FF6A00] transition-colors" href="/about">ABOUT</a>
-              <a className="font-mono text-[10px] uppercase tracking-widest text-white/40 hover:text-[#FF6A00] transition-colors" href="/blog">BLOG</a>
+            <div className="flex gap-6">
+              <a className="font-mono text-[10px] uppercase tracking-widest text-white/40 hover:text-[#FF6A00] transition-colors" href="/privacy">Privacy</a>
+              <a className="font-mono text-[10px] uppercase tracking-widest text-white/40 hover:text-[#FF6A00] transition-colors" href="/terms">Terms</a>
+              <a className="font-mono text-[10px] uppercase tracking-widest text-white/40 hover:text-[#FF6A00] transition-colors" href="/llms.txt">llms.txt</a>
             </div>
           </div>
+
           <div className="absolute bottom-0 right-0 h-1 w-32 bg-[#FF6A00]" />
         </footer>
         

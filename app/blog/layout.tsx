@@ -52,6 +52,48 @@ export default function BlogLayout({
     <>
       <ReadingProgress />
       {children}
+
+      {/* Universal blog footer CTA — every article gets this */}
+      <section className="bg-[#131313] border-t border-white/10 py-20 px-6 lg:px-24">
+        <div className="max-w-5xl mx-auto">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-0 border border-white/10">
+            <a
+              href="/industries/real-estate"
+              className="block p-10 bg-[#1c1b1b] hover:bg-[#2a2a2a] transition-colors border-l-4 border-l-[#FF6A00] border-b md:border-b-0 md:border-r border-white/10 group"
+            >
+              <span className="font-mono text-[10px] tracking-widest uppercase text-[#FF6A00] block mb-3">
+                Who We Serve // Real Estate Lead
+              </span>
+              <h3 className="font-headline font-black text-2xl uppercase tracking-tighter text-[#e5e2e1] mb-4">
+                AEO for Real Estate Agents
+              </h3>
+              <p className="text-white/60 text-sm leading-relaxed mb-5">
+                The playbook we built on our own real estate site — 1.14M+ monthly impressions, cited by 4 of 4 AI platforms. Now available to one agent per market.
+              </p>
+              <span className="font-mono text-[10px] tracking-widest uppercase text-[#FF6A00] group-hover:text-white transition-colors inline-flex items-center gap-2">
+                See the real estate playbook →
+              </span>
+            </a>
+            <a
+              href="/services/answer-engine-audit"
+              className="block p-10 bg-[#1c1b1b] hover:bg-[#2a2a2a] transition-colors border-l-4 border-l-[#FF6A00] group"
+            >
+              <span className="font-mono text-[10px] tracking-widest uppercase text-[#FF6A00] block mb-3">
+                Free // 30-Minute Audit
+              </span>
+              <h3 className="font-headline font-black text-2xl uppercase tracking-tighter text-[#e5e2e1] mb-4">
+                Run a Free Answer Engine Audit
+              </h3>
+              <p className="text-white/60 text-sm leading-relaxed mb-5">
+                See how ChatGPT, Claude, Perplexity, and Google AI answer questions about your category today — and where your name should be.
+              </p>
+              <span className="font-mono text-[10px] tracking-widest uppercase text-[#FF6A00] group-hover:text-white transition-colors inline-flex items-center gap-2">
+                Book the audit →
+              </span>
+            </a>
+          </div>
+        </div>
+      </section>
     </>
   );
 }

@@ -1,39 +1,48 @@
 # The Answer Engine
 
-> Answer Engine Optimization (AEO) for Local Service Businesses
+> Answer Engine Optimization (AEO) agency for local service businesses. We help one business per category, per city get cited as the recommended answer by ChatGPT, Claude, Perplexity, and Google AI Overviews. 90-day citation guarantee.
+
+The Answer Engine was founded by Justin Borges. The AERO-10 framework was built and tested on his own real estate site (LA Metro Home Finder) before being offered to clients. That site reached 1.14M+ monthly impressions and is cited across all four major AI platforms for rent control, probate, and ADU questions in Los Angeles County.
+
+Primary vertical: real estate (solo agents, teams, brokerages). Adjacent: property management, builder financial services, and select local-service categories by territory (legal, dental, HVAC, roofing).
 
 ## About
 
-The Answer Engine helps local service businesses get cited by ChatGPT, Perplexity, Google AI Overviews, and other AI platforms. Founded 2025. Based in Los Angeles, CA.
+- [About The Answer Engine](https://www.theanswerengine.ai/about): Founder story, AERO-10 framework overview, differentiators (battle-tested, exclusive territories, 90-day guarantee).
+- [Services — 90-Day Foundation + Monthly Program](https://www.theanswerengine.ai/services): The two-part offering — one-time 90-day foundation with citation guarantee, then ongoing monthly program (Authority Index, Monday Brief, Monthly Report, Dashboard, Reddit monitoring, Top-Performer Audit).
+- [Free Answer Engine Audit](https://www.theanswerengine.ai/services/answer-engine-audit): Free 30-minute scan across ChatGPT, Claude, Perplexity, and Google AI Overviews with citation gap analysis and prioritized fixes.
 
-We specialize in making local businesses discoverable and recommendable by AI search engines through a data-first methodology called AEO (Answer Engine Optimization).
+## Industries
 
-## Services
+- [AEO for Real Estate Agents](https://www.theanswerengine.ai/industries/real-estate): Dedicated landing page for real estate professionals — query clusters we target (buyer, seller, investor, specialty), who it's for (solo / team / brokerage), proof via the LAMH case.
 
-- Answer Authority Foundation (6-spoke content cluster + hub architecture)
-- AI Citation Monitoring (monthly tracking across ChatGPT, Perplexity, Google AI Overviews)
-- YouTube Optimization for AI Citations
-- Consensus Signal Building (multi-node citation network)
-- Authority Retainer Services
+## Proof
+
+- [Case Study — LA Metro Home Finder vs. 70,000 Agents](https://www.theanswerengine.ai/case-studies): The flagship verified case. 1.14M+ monthly impressions, 4 of 4 AI platforms citing, $0 ad spend. Five-stage "How Results Build" framework. Six additional client references (Borges Real Estate Team, Lovery Real Estate, Brandon Thompson, Davis Agency, RPM Southland, ClearClose Builder Services).
+
+## Territory
+
+- [Territory Check](https://www.theanswerengine.ai/territory-check): Live availability map. One business per category per city. Once claimed, competitors are locked out of that market.
+- [Blind Spot Report](https://www.theanswerengine.ai/blindspot): Free visibility diagnostic across all four AI platforms with a 3-step fix list.
+
+## Blog
+
+- [The Answer Engine Blog](https://www.theanswerengine.ai/blog): 150+ in-depth articles on Answer Engine Optimization, AI platform behavior (ChatGPT, Claude, Perplexity, Google AI Overviews, Grok, Gemini), schema markup, citation tracking, and vertical-specific AEO strategy.
 
 ## Contact
 
-- Phone: (213) 444-2229
 - Email: support@theanswerengine.ai
-- Website: https://theanswerengine.ai
-- Service Area: United States
+- Phone: (213) 444-2229
+- Strategy call: https://calendly.com/theanswerengine-support/30min
+- Hours: Monday–Friday, 9 AM – 6 PM PT
+- HQ: Los Angeles, CA
 
-## Key Resources
+## Key Facts
 
-- [How AEO Works](https://theanswerengine.ai/blog/what-is-answer-engine-optimization)
-- [Citation Strategy Guide](https://theanswerengine.ai/blog/get-cited-chatgpt-local-business-guide)
-- [Case Studies](https://theanswerengine.ai/case-studies)
-- [Free AI Visibility Audit](https://theanswerengine.ai/blindspot)
-- [Blog & Research](https://theanswerengine.ai/blog)
-
-## Credentials & Authority
-
-- Proprietary AERO-10 scoring methodology
-- Transparent citation data from Profound, Semrush, Ahrefs
-- Focus on zero-fabrication, verifiable claims
-- Local service business specialization
+- Founded: 2025
+- Founder: Justin Borges (13+ years in LA real estate, $200M+ in closed transactions)
+- Framework: AERO-10 — ten-pillar scoring protocol for AI citation authority
+- Delivery model: One-time foundation fee + monthly program fee (quoted per market)
+- Guarantee: 90-day citation guarantee (get cited by 2+ AI platforms within 90 days or we keep working at no charge, or refund)
+- Territory exclusivity: one business per category per city — permanent lockout once claimed
+- Cardinal email rule: ≤1.5 emails per week per client (Monday Brief + Monthly Report + rare instant alerts)
