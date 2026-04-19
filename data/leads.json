@@ -2987,72 +2987,74 @@
         "DC (Doctor of Chiropractic)",
         "CCSP (Certified Chiropractic Sports Physician)",
         "CSCS (Certified Strength and Conditioning Specialist)",
-        "EMT-R (Emergency Medical Technician, Registered)",
-        "Member, National Board of Chiropractic Examiners",
-        "Member, California Chiropractic Association",
-        "Member, American Chiropractic Association",
-        "Member, American Chiropractic Association Sports Council",
-        "LinkedIn profile with 500+ connections"
+        "EMT-R (Emergency Medical Technician)",
+        "Member of National Board of Chiropractic Examiners",
+        "Member of California Chiropractic Association",
+        "Member of American Chiropractic Association",
+        "Member of American Chiropractic Association Sports Council",
+        "Graduated from Cleveland Chiropractic College of Los Angeles",
+        "UCLA EMT License from School of Prehospital Care"
       ],
       "awards": [],
       "communityInvolvement": [
-        "Medical staff at high school football games",
-        "Medical coverage for wrestling matches",
-        "Marathon medical staff",
-        "2022 USA Outdoor Track and Field Championships coverage, Eugene, Oregon",
-        "Prefontaine Classic Diamond League 2021-2022 Hayward Field, Oregon",
-        "Coverage for Southern California auto and motorcycle racetracks"
+        "Provides medical coverage for racecar track days at Southern California auto and motorcycle racetracks",
+        "Medical staff at high school football games and wrestling matches",
+        "Medical staff at marathons",
+        "Medical coverage for 2022 USA Outdoor Track and Field Championships in Eugene, Oregon",
+        "Medical coverage for Prefontaine Classic Diamond League 2021-2022 at Hayward Field, Oregon"
       ],
       "hiddenDifferentiators": [
-        "First office in USA to have Tecar (WinTecar) therapy",
-        "One of the first Southern California facilities with piezowave/shockwave therapy",
-        "Treats professional athletes and Olympic athletes",
-        "Specializes in sports medicine with research-based approach",
-        "Staff includes EMT and Certified Strength Coach",
-        "Dr. Noor is one of few CCSP credentialed in the world",
-        "Custom treatment plans for every patient",
-        "Multi-disciplinary approach: chiropractors, physical therapists, muscle therapists, strength coaches"
+        "First office in USA to have Tecar (WinterCar) therapy",
+        "One of the first offices with piezowave/shockwave therapy",
+        "Treats professional and Olympic athletes",
+        "Seven years of specialized sports medicine focus in Los Angeles",
+        "Multidisciplinary team approach with physical therapists, muscle therapists, and strength coaches",
+        "Dr. Noor's personal experience with chiropractic recovery from auto racing injury drives patient-centered approach"
       ],
       "topCompetitors": [
         {
           "name": "Wilshire Center Chiropractic",
-          "reason": "Main competitor per brief, mentioned in top Yelp rankings for LA chiropractors"
-        },
-        {
-          "name": "The Joint Chiropractic",
-          "reason": "Mentioned in AI recommendations for LA chiropractors, national chain"
+          "reason": "Established 2008, focuses on auto accident recovery and spinal rehabilitation, 18+ years combined experience, bilingual services, strong Koreatown presence"
         },
         {
           "name": "Yonsei Chiropractic Clinic",
-          "reason": "Mentioned in AI recommendations for LA chiropractors"
+          "reason": "Listed as competitor in provided context, appears frequently in LA chiropractor searches"
         },
         {
-          "name": "Dr. Steven Becker Chiropractors",
-          "reason": "32+ years experience, recognized in LA Magazine and Expertise, top LA rankings"
+          "name": "The Joint Chiropractic",
+          "reason": "Listed as competitor in provided context, franchise model with multiple LA locations, affordable walk-in model"
+        },
+        {
+          "name": "Dr. Steven Becker",
+          "reason": "32+ years experience, featured in major publications like Los Angeles Magazine, Healthgrades, and Expertise"
+        },
+        {
+          "name": "The Chiro Guy (Dr. Ash Khodabakhsh)",
+          "reason": "11 consecutive years as top-rated chiropractor in Beverly Hills and Los Angeles, featured in VoyageLA"
         }
       ],
       "faqContentPresent": true,
       "blogPresent": true,
       "gmbPresent": true,
-      "schemaDetected": true,
+      "schemaDetected": false,
       "recentContent": true,
-      "uniqueStory": "Founded 2013, Dr. Arash Noor was inspired to become a chiropractor after injuring his lower back in professional auto racing. Traditional medicine failed, but chiropractic care and his mentor Dr. Glenn Lowenberg provided full recovery. This personal experience drives his evidence-based, research-focused approach treating everyone from Little League athletes to Olympians. First US office with Tecar therapy technology. 7 years serving LA with specialization in professional and Olympic athlete care.",
+      "uniqueStory": "Dr. Arash Noor founded BodyPro after his own transformative experience with chiropractic care. As a young adult, he suffered a lower back injury during a professional auto racing tournament. Traditional medical treatments failed to provide relief. He was referred to Dr. Glenn Lowenberg, a sports chiropractor and EMT, who provided conservative care and physical therapy that led to his full recovery and inspired him to pursue chiropractic medicine. This personal experience drives his patient-first philosophy and his specialization in treating athletes from Little League to Olympic levels.",
       "aiCited": false,
       "aero7": {
         "answerQuality": 7,
-        "entityOptimization": 6,
-        "relevanceFreshness": 7,
+        "entityOptimization": 5,
+        "relevanceFreshness": 8,
         "optimizationStructure": 6,
         "voiceAuthenticity": 8,
         "authoritySignals": 8,
         "authorityDistribution": 6,
-        "consensusCoCitation": 5,
+        "consensusCoCitation": 7,
         "platformReadiness": 5,
-        "technicalAccessibility": 6,
-        "total": 64
+        "technicalAccessibility": 5,
+        "total": 65
       },
-      "rawNotes": "FINDINGS: Website has comprehensive content (services, FAQ, blog articles, about, team pages, contact). Strong embedded reviews across multiple pages. Multiple location pages create geographic SEO footprint. Real origin story embedded in Yelp and own site (auto racing injury origin). Credentials clearly displayed (DC, CCSP, CSCS, EMT-R). Community involvement through track events, marathons, high school sports. Limited blog discovery but FAQ page present. Schema markup appears on main site. NAP consistent across Google, Yelp, Facebook, website (12304 Santa Monica Blvd, Suite 322, Los Angeles, CA 90025, 310-207-2020). Google Business Profile present with 5.0 stars and 150+ reviews claimed on site. Instagram strong (16K followers, 470 posts). LinkedIn profile active with thought leadership posts about chiropractic research. No Reddit mentions found. Not appearing in ChatGPT, Gemini, or Perplexity search results for 'best chiropractor Los Angeles' - competitors like Dr. Becker, The Joint, Wilshire Center appear instead. No evidence of robots.txt optimization for AI crawlers. Voice authentic with patient testimonials, specific credentials, personal origin story, and research-focused messaging throughout. Authority signals strong through credentials, community involvement, professional media coverage. Authority distribution moderate via Instagram, Facebook, LinkedIn, but not appearing in major AI recommendations. Consensus weak - appears in industry directories but not co-cited heavily with major LA chiro players. Limited platform-specific optimization for ChatGPT-style discovery. Site structure good but could improve H-tag hierarchy and content length for AI snippet readiness. Differentiator (Tecar therapy, Olympic athlete treatment) not surfaced in AI results - opportunity for external citation building.",
-      "researchedAt": "2026-04-19T09:00:30.940Z"
+      "rawNotes": "BodyPro Chiropractic demonstrates strong local authority with consistent 5.0 ratings across Google and Yelp (67 Yelp reviews noted as of January 2026), combined 150+ reviews, and verified presence on multiple directories (Birdeye, Chamber of Commerce showing 4.9 rating from 123 reviewers, Wheree, ClassPass, LinkedIn). Dr. Arash Noor's credentials are comprehensive and well-documented across multiple platforms. Website has FAQ section and educational content about chiropractic treatments, injury prevention, sports medicine. Multiple location pages created for surrounding areas (West LA, Westwood, Mar Vista, Beverly Hills, etc.) showing strong SEO optimization for geo-targeted keywords. However, no evidence of schema markup detected (LocalBusiness, OrganizationSchema, etc.). Website lacks recent blog content (articles found are from Gonstead wellness content on different BodyPro domain). Limited presence in AI citation networks per provided context. Strong embedded reviews and testimonials on website. Competitor Wilshire Center Chiropractic appears better optimized for auto accident recovery niche and has bilingual services. No Reddit mentions found. Strong Instagram presence (16K followers) and active social media. LinkedIn presence shows Dr. Noor engaging with chiropractic research and industry publications. NAP consistency verified across Google, Yelp, and website (12304 Santa Monica Blvd, Suite 322, Los Angeles, CA 90025, 310-207-2020). Not cited on major AI platforms per provided context. Platform readiness lower due to lack of structured data markup and limited earning potential for featured snippets on key terms. Voice is authentic with real patient testimonials and personal founder story. Authority signals strong through professional memberships and event coverage. Differentiator of first US office with Tecar therapy is unique and verifiable competitive advantage.",
+      "researchedAt": "2026-04-19T09:01:03.379Z"
     },
     "reportSlug": "bodypro-chiropractic-sports-medicine-yqfw",
     "emailDraftId": null,
@@ -3065,39 +3067,39 @@
       },
       {
         "action": "Research started (auto-pipeline)",
-        "timestamp": "2026-04-19T09:00:04.653Z"
+        "timestamp": "2026-04-19T09:00:34.959Z"
       },
       {
-        "action": "Research completed (AERO-10: 64/100)",
-        "timestamp": "2026-04-19T09:00:30.940Z"
+        "action": "Research completed (AERO-10: 65/100)",
+        "timestamp": "2026-04-19T09:01:03.379Z"
       },
       {
         "action": "Report generation started",
-        "timestamp": "2026-04-19T09:00:30.940Z"
+        "timestamp": "2026-04-19T09:01:03.379Z"
       },
       {
         "action": "Competitor battlecard attached",
-        "timestamp": "2026-04-19T09:02:10.873Z"
+        "timestamp": "2026-04-19T09:03:10.354Z"
       },
       {
         "action": "Report generated",
-        "timestamp": "2026-04-19T09:02:10.873Z"
+        "timestamp": "2026-04-19T09:03:10.354Z"
       },
       {
         "action": "Fabrication scan: CLEAN",
-        "timestamp": "2026-04-19T09:02:10.873Z"
+        "timestamp": "2026-04-19T09:03:10.354Z"
       },
       {
         "action": "Em-dash scan: CLEAN",
-        "timestamp": "2026-04-19T09:02:10.873Z"
+        "timestamp": "2026-04-19T09:03:10.354Z"
       },
       {
         "action": "Report + OG metadata deployed to production",
-        "timestamp": "2026-04-19T09:02:11.004Z"
+        "timestamp": "2026-04-19T09:03:10.479Z"
       }
     ],
     "createdAt": "2026-03-09T13:01:29.518Z",
-    "updatedAt": "2026-04-19T09:02:10.873Z",
+    "updatedAt": "2026-04-19T09:03:10.354Z",
     "huntSource": "hunt_1773061221808_5npi",
     "huntScore": 34.5,
     "huntPriority": "P2",
