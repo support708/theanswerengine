@@ -2051,7 +2051,7 @@
     "reviewCount": 76,
     "rating": 5,
     "notes": "Auto-discovered by Lead Hunter. AI citation: not cited on 1/1 platforms. Competitors cited: Smile LA Downtown Modern Dentistry, Downtown Dental, Larchmont Dental Associates. Outreach-ready: YES (citation data + contact + differentiator verified). Differentiator: Over 20 years experience, 5.0-star rating, specializes in cosmetic and restorative dentistry, known for patient comfort and educational approach",
-    "status": "report_ready",
+    "status": "sent",
     "research": {
       "reviewCount": 76,
       "rating": 5,
@@ -2156,10 +2156,14 @@
       {
         "action": "Report + OG metadata deployed to production",
         "timestamp": "2026-04-18T21:32:49.245Z"
+      },
+      {
+        "action": "Initial email auto-sent via Gmail (19da2b74e750cc63)",
+        "timestamp": "2026-04-18T22:30:15.573Z"
       }
     ],
     "createdAt": "2026-03-09T02:38:32.048Z",
-    "updatedAt": "2026-04-18T21:32:49.104Z",
+    "updatedAt": "2026-04-18T22:30:15.573Z",
     "huntSource": "hunt_1773023618468_oxni",
     "huntScore": 38,
     "huntPriority": "P1",
@@ -2341,8 +2345,85 @@
     "reviewCount": 279,
     "rating": 4.7,
     "notes": "Auto-discovered by Lead Hunter. AI citation: not cited on 0/1 platforms. Competitors cited: Smile LA Downtown Modern Dentistry, Downtown Dental, Larchmont Dental Associates. Outreach-ready: YES (citation data + contact + differentiator verified). Differentiator: Multi-specialty practice with 15+ dental professionals, decades of experience, comprehensive services from general to oral surgery under one roof, patient education focus",
-    "status": "queued",
-    "research": null,
+    "status": "report_ready",
+    "research": {
+      "reviewCount": 279,
+      "rating": 4.7,
+      "yearsInBusiness": 46,
+      "credentials": [
+        "Dr. Dean Salo, DDS, University of Pacific Arthur A. Dugoni School of Dentistry",
+        "Dr. Mark Nelson, DDS, USC School of Dentistry (1982)",
+        "Dr. Samantha Besser, DMD, Tufts University School of Dental Medicine, U.S. Air Force Dental Officer",
+        "Dr. Oscar Alonzo, Oral and Maxillofacial Surgeon, Medical school training UCLA/Charles R. Drew, General Anesthesia Evaluator for State of California",
+        "Dr. Eric Wu, DDS",
+        "Dr. Afshin Salamati, DDS, MS",
+        "David Stephens, DDS",
+        "Alex J. Brandon, DDS",
+        "Andrew H. Chen, DDS, FADSA",
+        "Dr. Niharika Desai, DDS"
+      ],
+      "awards": [
+        "AAA rating from Business Consumer Alliance (2019)",
+        "4.7-star rating across multiple platforms"
+      ],
+      "communityInvolvement": [
+        "Concern Foundation (cancer research worldwide)",
+        "National MS Society",
+        "Our House",
+        "Art of the Brain",
+        "Spirituality For Kids",
+        "Jewish Home for The Aging",
+        "Avon Cancer Walk"
+      ],
+      "hiddenDifferentiators": [
+        "Multi-specialty practice with 15+ dental professionals under one roof",
+        "Decades of experience (established 1980, 46 years in business)",
+        "Comprehensive services from general to oral surgery",
+        "Patient education focus with dedicated patient education software",
+        "Anxiety management: oral sedation, IV-sedation, anesthesia services, video goggles, comfort amenities",
+        "Dr. Salo trained dentists domestically and internationally in advanced techniques",
+        "Dr. Besser military service and trauma experience",
+        "Dr. Alonzo 25+ years oral surgery experience, State of California anesthesia evaluator",
+        "100% Dentistry philosophy emphasizing full mouth rehabilitation",
+        "Evidence-based care and advanced technology integration"
+      ],
+      "topCompetitors": [
+        {
+          "name": "Smile LA Downtown Modern Dentistry",
+          "reason": "4.9-star Google rating, 536 reviews, downtown location, modern technology emphasis, established 1997, led by Dr. Kourosh Yousefzadeh with extensive experience"
+        },
+        {
+          "name": "Downtown Dental",
+          "reason": "Competitor mentioned in context research, serves downtown LA market"
+        },
+        {
+          "name": "Larchmont Dental Associates",
+          "reason": "Competitor mentioned in context research, praised for comprehensive care and team approach"
+        }
+      ],
+      "faqContentPresent": false,
+      "blogPresent": true,
+      "gmbPresent": true,
+      "schemaDetected": false,
+      "recentContent": true,
+      "uniqueStory": "Dr. Dean Salo founded his first practice in Beverly Hills in 1992 at age 24 after graduating from University of Pacific Dugoni School, becoming one of the youngest in his class. He operates under '100% Dentistry' philosophy focusing on patient education, full mouth rehabilitation, and aesthetic dental health. The current Miracle Mile location serves as a comprehensive multi-specialty practice with 15+ specialists offering services from preventive to oral surgery under one roof.",
+      "aiCited": false,
+      "aero7": {
+        "answerQuality": 6,
+        "entityOptimization": 4,
+        "relevanceFreshness": 7,
+        "optimizationStructure": 5,
+        "voiceAuthenticity": 7,
+        "authoritySignals": 8,
+        "authorityDistribution": 6,
+        "consensusCoCitation": 5,
+        "platformReadiness": 4,
+        "technicalAccessibility": 5,
+        "total": 57
+      },
+      "rawNotes": "Personal Dental Office has strong foundational authority signals (46 years in business, 10+ credentialed dentists, 4.7-star rating across 279+ reviews on multiple platforms). Website features doctor bios with credentials, personal stories (Dr. Salo trained internationally, Dr. Besser military service), and comprehensive service descriptions. Blog present but sparse. GMB profile verified and active. Not detected on major AI platforms (ChatGPT, Gemini, Perplexity). Key weakness: No visible schema markup implementation limiting AI visibility. Competitor Smile LA Downtown Modern Dentistry rates higher (4.9 stars) with more aggressive tech/AI narrative. Community involvement extensive across cancer research, senior care, youth education. LinkedIn presence confirmed (62 followers). NAP consistency verified across Yelp, BBB, website, and multiple directories. Mobile-friendly website with recent updates (March 2026). Missing elements: FAQ pages, structured FAQ schema, blog consistency, active AI citations, Robots.txt optimization for AI bots. Opportunity: Implement schema markup (LocalBusiness, Dentist, Service, FAQ types) and create AI-optimized FAQ content to improve visibility in ChatGPT, Gemini, and Perplexity results. Consider more active LinkedIn engagement and content freshness strategy.",
+      "researchedAt": "2026-04-18T23:00:58.434Z"
+    },
     "reportSlug": "personal-dental-office-00fd",
     "emailDraftId": null,
     "fabricationFlags": [],
@@ -2351,10 +2432,38 @@
       {
         "action": "Queued by Lead Hunter (P1, score: 36, outreach-ready: true)",
         "timestamp": "2026-03-09T02:38:32.048Z"
+      },
+      {
+        "action": "Research started (auto-pipeline)",
+        "timestamp": "2026-04-18T23:00:31.370Z"
+      },
+      {
+        "action": "Research completed (AERO-10: 57/100)",
+        "timestamp": "2026-04-18T23:00:58.434Z"
+      },
+      {
+        "action": "Report generation started",
+        "timestamp": "2026-04-18T23:00:58.434Z"
+      },
+      {
+        "action": "Report generated",
+        "timestamp": "2026-04-18T23:02:35.260Z"
+      },
+      {
+        "action": "Fabrication scan: CLEAN",
+        "timestamp": "2026-04-18T23:02:35.260Z"
+      },
+      {
+        "action": "Em-dash scan: 7 found, auto-stripped",
+        "timestamp": "2026-04-18T23:02:35.260Z"
+      },
+      {
+        "action": "Report + OG metadata deployed to production",
+        "timestamp": "2026-04-18T23:02:35.381Z"
       }
     ],
     "createdAt": "2026-03-09T02:38:32.048Z",
-    "updatedAt": "2026-03-09T02:38:32.048Z",
+    "updatedAt": "2026-04-18T23:02:35.260Z",
     "huntSource": "hunt_1773023618468_oxni",
     "huntScore": 36,
     "huntPriority": "P1",
