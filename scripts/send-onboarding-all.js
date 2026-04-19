@@ -60,27 +60,16 @@ function buildEmail(client) {
     `<li><a href="${s.url}" style="color:#FF6A00;">${s.name}</a>${s.desc ? ' (' + s.desc + ')' : ''}</li>`
   ).join('\n      ');
 
-  return `<!DOCTYPE html>
-<html>
-<head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"></head>
-<body style="margin:0;padding:0;background:#f4f4f4;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;">
-<div style="max-width:600px;margin:0 auto;background:#ffffff;">
-
-<div style="background:#FF6A00;padding:28px 24px 24px 24px;text-align:center;">
-  <h1 style="color:#ffffff;margin:0 0 6px 0;font-size:24px;font-weight:700;">Reddit Authority Monitoring</h1>
-  <p style="color:rgba(255,255,255,0.9);margin:0;font-size:15px;">Now active as part of your Answer Authority subscription</p>
-</div>
-
-<div style="padding:24px 24px 20px 24px;">
-  <p style="margin:0 0 16px 0;font-size:15px;color:#333;line-height:1.6;">Hi ${client.name},</p>
+  const inner = `<div style="padding:24px 24px 20px 24px;">
+  <p style="margin:0 0 16px 0;font-size:15px;color:#1a1a1a;line-height:1.6;">Hi ${client.name},</p>
 
   <p style="margin:0 0 16px 0;font-size:14px;color:#555;line-height:1.7;">We just activated a new feature for your account: <strong>Reddit Authority Monitoring</strong>. Starting today, our system continuously scans Reddit for conversations where someone is looking for exactly what you offer in ${client.market}.</p>
 
   <p style="margin:0 0 16px 0;font-size:14px;color:#555;line-height:1.7;">When we find an opportunity, we send you an email digest with the Reddit link, an explanation of why it matters, and a <strong>ready-to-post response written in your voice</strong> that you can copy, paste, and publish in under 60 seconds.</p>
 </div>
 
-<div style="padding:20px 24px;background:#fff8f0;border-top:2px solid #FF6A00;border-bottom:2px solid #FF6A00;">
-  <h2 style="margin:0 0 12px 0;font-size:18px;color:#333;">Why This Matters for ${client.business}</h2>
+<div style="padding:20px 24px;background:#f8f8f8;border-top:1px solid #eee;border-bottom:1px solid #eee;">
+  <h2 style="margin:0 0 12px 0;font-size:18px;color:#1a1a1a;">Why This Matters for ${client.business}</h2>
 
   <p style="margin:0 0 12px 0;font-size:14px;color:#555;line-height:1.7;">AI search engines like ChatGPT, Perplexity, and Google AI decide which businesses to recommend based on <strong>authority signals</strong> they find across the internet. Reddit is one of the top sources these AI platforms crawl.</p>
 
@@ -90,25 +79,25 @@ function buildEmail(client) {
 </div>
 
 <div style="padding:24px 24px 20px 24px;">
-  <h2 style="margin:0 0 12px 0;font-size:18px;color:#333;">What You Will Receive</h2>
+  <h2 style="margin:0 0 12px 0;font-size:18px;color:#1a1a1a;">What You Will Receive</h2>
 
   <div style="margin-bottom:16px;">
-    <p style="margin:0 0 4px 0;font-size:14px;color:#333;font-weight:bold;">1. Opportunity Alerts</p>
+    <p style="margin:0 0 4px 0;font-size:14px;color:#1a1a1a;font-weight:bold;">1. Opportunity Alerts</p>
     <p style="margin:0;font-size:13px;color:#666;line-height:1.5;">When someone on Reddit asks a question related to your services in ${client.market}, we flag it with a relevance score and business impact rating.</p>
   </div>
 
   <div style="margin-bottom:16px;">
-    <p style="margin:0 0 4px 0;font-size:14px;color:#333;font-weight:bold;">2. Draft Responses in Your Voice</p>
+    <p style="margin:0 0 4px 0;font-size:14px;color:#1a1a1a;font-weight:bold;">2. Draft Responses in Your Voice</p>
     <p style="margin:0;font-size:13px;color:#666;line-height:1.5;">Each opportunity comes with a suggested response written to sound like you. Copy, paste, and post. Or use it as a starting point and add your own perspective. Your authentic voice is always the best option.</p>
   </div>
 
   <div style="margin-bottom:16px;">
-    <p style="margin:0 0 4px 0;font-size:14px;color:#333;font-weight:bold;">3. AEO Optimization Built In</p>
+    <p style="margin:0 0 4px 0;font-size:14px;color:#1a1a1a;font-weight:bold;">3. AEO Optimization Built In</p>
     <p style="margin:0;font-size:13px;color:#666;line-height:1.5;">Every response is structured to maximize your visibility in AI search results. We handle the optimization so you can focus on sharing your expertise.</p>
   </div>
 </div>
 
-<div style="padding:24px;background:#f0f7ff;border-top:2px solid #2196F3;">
+<div style="padding:24px;background:#f0f7ff;border-top:1px solid #d0e3f7;">
   <h2 style="margin:0 0 16px 0;font-size:18px;color:#1a5276;">Set Up Your Reddit Account (5 Minutes)</h2>
 
   <p style="margin:0 0 16px 0;font-size:14px;color:#555;line-height:1.6;">To post responses, you need a Reddit account. Here is exactly how to set it up for maximum impact:</p>
@@ -143,7 +132,7 @@ function buildEmail(client) {
 </div>
 
 <div style="padding:20px 24px;background:#f8f8f8;border-top:1px solid #eee;">
-  <h3 style="margin:0 0 10px 0;font-size:14px;color:#333;">The Golden Rules</h3>
+  <h3 style="margin:0 0 10px 0;font-size:14px;color:#1a1a1a;">The Golden Rules</h3>
   <ul style="margin:0;padding-left:20px;color:#555;font-size:13px;line-height:1.8;">
     <li><strong>Be genuinely helpful.</strong> Answer the question first, establish authority second.</li>
     <li><strong>Never directly sell.</strong> No "call us" or "visit our website." Your expertise sells itself.</li>
@@ -151,11 +140,33 @@ function buildEmail(client) {
     <li><strong>Consistency wins.</strong> One response per week is better than ten in one day.</li>
     <li><strong>Your voice is best.</strong> Our drafts are a starting point. Your authentic perspective always outperforms.</li>
   </ul>
+</div>`;
+
+  return `<!DOCTYPE html>
+<html>
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"></head>
+<body style="margin:0;padding:0;background:#ffffff;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;">
+<div style="max-width:600px;margin:0 auto;background:#ffffff;">
+
+<!-- Header -->
+<div style="background:#131313;padding:24px;border-bottom:1px solid #e5e7eb;">
+  <table role="presentation" cellpadding="0" cellspacing="0" border="0" width="100%" style="border-collapse:collapse;">
+    <tr>
+      <td style="padding:0;">
+        <img src="https://www.theanswerengine.ai/The_Answer_Engine_Solo_Logo_Transparent.png" alt="The Answer Engine" style="height:32px;width:auto;display:block;border:0;">
+      </td>
+      <td style="text-align:right;padding:0 0 0 12px;">
+        <span style="font-family:'Space Grotesk','Inter','Helvetica Neue',Arial,sans-serif;font-size:16px;font-weight:900;color:#FF6A00;letter-spacing:-0.01em;text-transform:uppercase;">The Answer Engine</span>
+      </td>
+    </tr>
+  </table>
 </div>
 
-<div style="padding:20px 24px;text-align:center;border-top:1px solid #eee;">
-  <p style="margin:0 0 8px 0;font-size:14px;color:#333;">Questions? Reply to this email or reach out anytime.</p>
-  <p style="margin:0 0 4px 0;color:#999;font-size:12px;">
+${inner}
+
+<!-- Footer -->
+<div style="padding:20px 24px;text-align:center;background:#ffffff;border-top:1px solid #e5e7eb;">
+  <p style="margin:0 0 4px 0;color:#888;font-size:12px;">
     <a href="https://theanswerengine.ai" style="color:#FF6A00;text-decoration:none;">The Answer Engine</a>
   </p>
   <p style="margin:0;color:#bbb;font-size:11px;">
