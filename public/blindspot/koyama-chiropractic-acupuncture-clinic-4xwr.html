@@ -1,0 +1,735 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Blind Spot Report | Koyama Chiropractic & Acupuncture Clinic</title>
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    background: #f8f8f6;
+    color: #1a1a2e;
+    line-height: 1.6;
+  }
+
+  /* HERO */
+  .hero {
+    background: linear-gradient(135deg, #0a0a1a 0%, #1e2d3d 100%);
+    padding: 60px 20px 80px;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+  }
+  .hero::before {
+    content: '';
+    position: absolute;
+    top: -50%;
+    left: -50%;
+    width: 200%;
+    height: 200%;
+    background: radial-gradient(ellipse at center, rgba(45,106,106,0.15) 0%, transparent 60%);
+    pointer-events: none;
+  }
+  .hero-badge {
+    display: inline-block;
+    background: rgba(45,106,106,0.3);
+    border: 1px solid rgba(45,106,106,0.6);
+    color: #7ecece;
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    padding: 6px 16px;
+    border-radius: 20px;
+    margin-bottom: 28px;
+  }
+  .hero h1 {
+    font-size: clamp(28px, 5vw, 52px);
+    font-weight: 800;
+    color: #ffffff;
+    line-height: 1.15;
+    margin-bottom: 16px;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .hero h1 span {
+    color: #7ecece;
+  }
+  .hero-sub {
+    font-size: clamp(15px, 2.5vw, 19px);
+    color: rgba(255,255,255,0.65);
+    max-width: 580px;
+    margin: 0 auto 36px;
+  }
+  .hero-meta {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    flex-wrap: wrap;
+  }
+  .hero-meta-item {
+    color: rgba(255,255,255,0.5);
+    font-size: 13px;
+  }
+  .hero-meta-item strong {
+    color: rgba(255,255,255,0.85);
+  }
+
+  /* SECTION WRAPPER */
+  .section {
+    padding: 60px 20px;
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+  .section-label {
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 2.5px;
+    text-transform: uppercase;
+    color: #2d6a6a;
+    margin-bottom: 10px;
+  }
+  .section-title {
+    font-size: clamp(22px, 4vw, 36px);
+    font-weight: 800;
+    color: #0a0a1a;
+    margin-bottom: 12px;
+    line-height: 1.2;
+  }
+  .section-intro {
+    font-size: 16px;
+    color: #555;
+    max-width: 640px;
+    margin-bottom: 36px;
+  }
+
+  /* STATS PANEL */
+  .stats-panel {
+    background: linear-gradient(135deg, #0a0a1a 0%, #1e2d3d 100%);
+    border-radius: 16px;
+    padding: 40px 32px;
+    margin-top: 8px;
+  }
+  .stats-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+    gap: 28px;
+    margin-bottom: 36px;
+  }
+  .stat-item {
+    text-align: center;
+  }
+  .stat-value {
+    font-size: clamp(32px, 5vw, 48px);
+    font-weight: 800;
+    color: #7ecece;
+    line-height: 1;
+    margin-bottom: 6px;
+  }
+  .stat-label {
+    font-size: 12px;
+    color: rgba(255,255,255,0.5);
+    letter-spacing: 1px;
+    text-transform: uppercase;
+  }
+  .aero-bar-wrapper {
+    border-top: 1px solid rgba(255,255,255,0.1);
+    padding-top: 28px;
+  }
+  .aero-bar-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  .aero-bar-title {
+    font-size: 13px;
+    font-weight: 700;
+    color: rgba(255,255,255,0.8);
+    letter-spacing: 1px;
+    text-transform: uppercase;
+  }
+  .aero-score {
+    font-size: 22px;
+    font-weight: 800;
+    color: #f0a500;
+  }
+  .aero-track {
+    background: rgba(255,255,255,0.1);
+    border-radius: 100px;
+    height: 10px;
+    overflow: hidden;
+    margin-bottom: 10px;
+  }
+  .aero-fill {
+    height: 100%;
+    width: 38%;
+    background: linear-gradient(90deg, #f0a500, #e05c00);
+    border-radius: 100px;
+    position: relative;
+  }
+  .aero-note {
+    font-size: 12px;
+    color: rgba(255,255,255,0.4);
+  }
+
+  /* TERMINAL */
+  .terminal-outer {
+    background: #0d1117;
+    border-radius: 14px;
+    overflow: hidden;
+    box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+  }
+  .terminal-bar {
+    background: #1c2128;
+    padding: 12px 16px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  .t-dot {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+  }
+  .t-dot.red { background: #ff5f57; }
+  .t-dot.yellow { background: #febc2e; }
+  .t-dot.green { background: #28c840; }
+  .terminal-label {
+    margin-left: 10px;
+    font-size: 12px;
+    color: rgba(255,255,255,0.35);
+    font-family: "Courier New", monospace;
+  }
+  .terminal-body {
+    padding: 28px 24px;
+    font-family: "Courier New", monospace;
+    font-size: 14px;
+    line-height: 1.8;
+  }
+  .t-user {
+    color: #7ecece;
+    margin-bottom: 14px;
+  }
+  .t-prompt {
+    color: rgba(255,255,255,0.4);
+    font-size: 12px;
+    margin-bottom: 4px;
+  }
+  .t-query {
+    color: #e8e8e8;
+    background: rgba(255,255,255,0.05);
+    border-left: 3px solid #7ecece;
+    padding: 10px 14px;
+    border-radius: 0 6px 6px 0;
+    margin-bottom: 20px;
+  }
+  .t-ai-label {
+    color: #f0a500;
+    font-size: 12px;
+    margin-bottom: 6px;
+  }
+  .t-response {
+    color: rgba(255,255,255,0.75);
+    background: rgba(255,255,255,0.03);
+    border: 1px solid rgba(255,255,255,0.07);
+    border-radius: 8px;
+    padding: 16px;
+    margin-bottom: 16px;
+    font-size: 13px;
+    line-height: 1.9;
+  }
+  .t-highlight {
+    color: #ff6b6b;
+    font-weight: 700;
+  }
+  .t-missing {
+    color: rgba(255,255,255,0.3);
+    font-style: italic;
+  }
+  .t-cursor {
+    display: inline-block;
+    width: 8px;
+    height: 14px;
+    background: #7ecece;
+    animation: blink 1s step-end infinite;
+    vertical-align: middle;
+    margin-left: 4px;
+  }
+  @keyframes blink { 0%,100%{opacity:1} 50%{opacity:0} }
+
+  /* DIFFERENTIATOR CARDS */
+  .cards-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 20px;
+  }
+  .diff-card {
+    background: #ffffff;
+    border-radius: 14px;
+    padding: 28px 24px;
+    border: 1px solid rgba(0,0,0,0.07);
+    box-shadow: 0 4px 20px rgba(0,0,0,0.05);
+    transition: transform 0.2s, box-shadow 0.2s;
+    position: relative;
+    overflow: hidden;
+  }
+  .diff-card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 3px;
+    background: linear-gradient(90deg, #2d6a6a, #7ecece);
+  }
+  .diff-card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 10px 32px rgba(0,0,0,0.1);
+  }
+  .diff-icon {
+    font-size: 28px;
+    margin-bottom: 14px;
+    display: block;
+  }
+  .diff-title {
+    font-size: 15px;
+    font-weight: 700;
+    color: #0a0a1a;
+    margin-bottom: 8px;
+  }
+  .diff-desc {
+    font-size: 13.5px;
+    color: #666;
+    line-height: 1.65;
+  }
+  .diff-tag {
+    display: inline-block;
+    background: rgba(45,106,106,0.1);
+    color: #2d6a6a;
+    font-size: 10px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    padding: 3px 9px;
+    border-radius: 10px;
+    margin-top: 12px;
+  }
+
+  /* DARK SECTION */
+  .dark-section {
+    background: #1e2d3d;
+    padding: 60px 20px;
+  }
+  .dark-section .section {
+    padding: 0;
+  }
+  .dark-section .section-label {
+    color: #7ecece;
+  }
+  .dark-section .section-title {
+    color: #ffffff;
+  }
+  .dark-section .section-intro {
+    color: rgba(255,255,255,0.6);
+  }
+
+  /* FIX GRID */
+  .fix-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 18px;
+    margin-top: 36px;
+  }
+  .fix-card {
+    background: rgba(255,255,255,0.05);
+    border: 1px solid rgba(255,255,255,0.1);
+    border-radius: 14px;
+    padding: 28px 22px;
+    text-align: center;
+    position: relative;
+  }
+  .fix-number {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 36px;
+    height: 36px;
+    background: rgba(45,106,106,0.3);
+    border: 1px solid #2d6a6a;
+    border-radius: 50%;
+    font-size: 15px;
+    font-weight: 800;
+    color: #7ecece;
+    margin: 0 auto 16px;
+  }
+  .fix-icon {
+    font-size: 26px;
+    margin-bottom: 12px;
+    display: block;
+  }
+  .fix-title {
+    font-size: 14px;
+    font-weight: 700;
+    color: #ffffff;
+    margin-bottom: 8px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+  }
+  .fix-desc {
+    font-size: 13px;
+    color: rgba(255,255,255,0.55);
+    line-height: 1.6;
+  }
+
+  /* CTA SECTION */
+  .cta-section {
+    background: linear-gradient(135deg, #0a0a1a 0%, #1e2d3d 100%);
+    padding: 80px 20px;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+  }
+  .cta-section::before {
+    content: '';
+    position: absolute;
+    bottom: -30%;
+    right: -20%;
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    background: radial-gradient(circle, rgba(45,106,106,0.12) 0%, transparent 70%);
+    pointer-events: none;
+  }
+  .cta-inner {
+    position: relative;
+    z-index: 1;
+    max-width: 620px;
+    margin: 0 auto;
+  }
+  .cta-badge {
+    display: inline-block;
+    background: rgba(240,165,0,0.2);
+    border: 1px solid rgba(240,165,0,0.4);
+    color: #f0c040;
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    padding: 6px 16px;
+    border-radius: 20px;
+    margin-bottom: 24px;
+  }
+  .cta-title {
+    font-size: clamp(26px, 5vw, 44px);
+    font-weight: 800;
+    color: #ffffff;
+    line-height: 1.15;
+    margin-bottom: 16px;
+  }
+  .cta-sub {
+    font-size: 16px;
+    color: rgba(255,255,255,0.6);
+    margin-bottom: 36px;
+    line-height: 1.7;
+  }
+  .cta-btn {
+    display: inline-block;
+    background: linear-gradient(135deg, #2d6a6a, #3d8a8a);
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 800;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 18px 44px;
+    border-radius: 100px;
+    box-shadow: 0 8px 32px rgba(45,106,106,0.4);
+    transition: transform 0.2s, box-shadow 0.2s;
+  }
+  .cta-btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 14px 40px rgba(45,106,106,0.55);
+  }
+  .cta-note {
+    margin-top: 18px;
+    font-size: 13px;
+    color: rgba(255,255,255,0.35);
+  }
+
+  /* FOOTER */
+  .footer {
+    background: #0a0a1a;
+    padding: 24px 20px;
+    text-align: center;
+  }
+  .footer p {
+    font-size: 12px;
+    color: rgba(255,255,255,0.3);
+    max-width: 600px;
+    margin: 0 auto;
+    line-height: 1.7;
+  }
+  .footer a {
+    color: rgba(126,206,206,0.6);
+    text-decoration: none;
+  }
+
+  /* DIVIDER */
+  .divider {
+    height: 1px;
+    background: linear-gradient(90deg, transparent, rgba(45,106,106,0.3), transparent);
+    max-width: 400px;
+    margin: 0 auto;
+  }
+
+  /* ALERT BOX */
+  .alert-box {
+    background: rgba(240,165,0,0.08);
+    border: 1px solid rgba(240,165,0,0.3);
+    border-radius: 10px;
+    padding: 16px 20px;
+    margin-bottom: 28px;
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
+  }
+  .alert-icon {
+    font-size: 20px;
+    flex-shrink: 0;
+    margin-top: 1px;
+  }
+  .alert-text {
+    font-size: 14px;
+    color: rgba(255,255,255,0.7);
+    line-height: 1.6;
+  }
+  .alert-text strong {
+    color: #f0c040;
+  }
+
+  @media (max-width: 600px) {
+    .stats-grid { grid-template-columns: repeat(2, 1fr); }
+    .terminal-body { padding: 20px 16px; font-size: 12px; }
+    .fix-grid { grid-template-columns: 1fr 1fr; }
+    .stats-panel { padding: 28px 20px; }
+  }
+  @media (max-width: 400px) {
+    .fix-grid { grid-template-columns: 1fr; }
+  }
+</style>
+</head>
+<body>
+
+<!-- SECTION 1: HERO / THE HOOK -->
+<section class="hero">
+  <div class="hero-badge">Blind Spot Report</div>
+  <h1>Dr., You Have a <span>Visibility Problem</span></h1>
+  <p class="hero-sub">Koyama Chiropractic &amp; Acupuncture Clinic has rare, authentic expertise. But AI answer engines have never heard of you. That is costing you patients.</p>
+  <div class="hero-meta">
+    <span class="hero-meta-item"><strong>Business:</strong> Koyama Chiropractic &amp; Acupuncture Clinic</span>
+    <span class="hero-meta-item"><strong>Market:</strong> Los Angeles, CA</span>
+    <span class="hero-meta-item"><strong>Report Date:</strong> 2025</span>
+  </div>
+</section>
+
+<!-- SECTION 2: THE GAP -->
+<div style="background:#f8f8f6; padding: 60px 20px;">
+<div style="max-width:1000px; margin:0 auto;">
+
+  <p class="section-label">Section 02 / The Gap</p>
+  <h2 class="section-title">Your Credentials Are Real. Your AI Presence Is Not.</h2>
+  <p class="section-intro">You have built a legitimate, differentiated practice over more than a decade. Here is what the data actually shows, and where the gap lives.</p>
+
+  <div class="stats-panel">
+    <div class="stats-grid">
+      <div class="stat-item">
+        <div class="stat-value">157</div>
+        <div class="stat-label">Google Reviews</div>
+      </div>
+      <div class="stat-item">
+        <div class="stat-value">4.5★</div>
+        <div class="stat-label">Average Rating</div>
+      </div>
+      <div class="stat-item">
+        <div class="stat-value">14+</div>
+        <div class="stat-label">Years Operating</div>
+      </div>
+      <div class="stat-item">
+        <div class="stat-value">4</div>
+        <div class="stat-label">Active Licenses</div>
+      </div>
+    </div>
+
+    <div class="aero-bar-wrapper">
+      <div class="aero-bar-header">
+        <span class="aero-bar-title">AERO-10 AI Visibility Score</span>
+        <span class="aero-score">38 / 100</span>
+      </div>
+      <div class="aero-track">
+        <div class="aero-fill"></div>
+      </div>
+      <p class="aero-note">A score below 50 means AI platforms are actively recommending competitors when patients search for services you offer. Your clinic is effectively invisible to AI-driven referrals.</p>
+    </div>
+  </div>
+
+</div>
+</div>
+
+<!-- SECTION 3: WHAT AI SEES -->
+<div style="background:#f0f0ee; padding: 60px 20px;">
+<div style="max-width:1000px; margin:0 auto;">
+
+  <p class="section-label">Section 03 / What AI Sees</p>
+  <h2 class="section-title">When Patients Ask AI, Here Is What Happens</h2>
+  <p class="section-intro" style="margin-bottom:28px;">AI assistants like ChatGPT, Perplexity, and Google AI Overviews respond to natural-language health queries every day. Right now, your clinic is not part of their answer.</p>
+
+  <div class="terminal-outer">
+    <div class="terminal-bar">
+      <div class="t-dot red"></div>
+      <div class="t-dot yellow"></div>
+      <div class="t-dot green"></div>
+      <span class="terminal-label">AI Answer Engine Simulation</span>
+    </div>
+    <div class="terminal-body">
+
+      <div class="t-prompt">// User query submitted to AI assistant</div>
+      <div class="t-query">"Who is the best chiropractor in Los Angeles that uses holistic and traditional Japanese techniques?"</div>
+
+      <div class="t-ai-label">// AI Response Generated</div>
+      <div class="t-response">
+        For holistic chiropractic care in Los Angeles, many patients recommend <span class="t-highlight">Wilshire Center Chiropractic</span>, which has a strong online presence and is frequently cited across health directories. For traditional approaches, several clinics in the greater LA area are well-documented on authoritative platforms.<br><br>
+        <span class="t-missing">[ Koyama Chiropractic &amp; Acupuncture Clinic not returned. Japanese Color Therapy, Applied Kinesiology, and Japanese Bone Setter credentials not found in AI training sources. ]</span>
+        <span class="t-cursor"></span>
+      </div>
+
+      <div class="t-prompt">// Why this happens</div>
+      <div class="t-response" style="border-color:rgba(240,165,0,0.2);">
+        AI systems cite businesses whose expertise is <strong style="color:#f0c040;">structured, published, and cross-referenced</strong> across authoritative sources. Koyama Clinic's unique credentials, including Japanese Color Therapy and Bone Setter lineage, are not formatted for AI consumption. The clinic exists online, but not in a language AI can retrieve and trust.
+      </div>
+
+    </div>
+  </div>
+
+</div>
+</div>
+
+<!-- SECTION 4: HIDDEN DIFFERENTIATORS -->
+<div style="background:#f8f8f6; padding: 60px 20px;">
+<div style="max-width:1000px; margin:0 auto;">
+
+  <p class="section-label">Section 04 / Hidden Differentiators</p>
+  <h2 class="section-title">What Makes You Genuinely Different</h2>
+  <p class="section-intro">These are the real, documented strengths of Koyama Chiropractic that AI systems are currently failing to surface to prospective patients.</p>
+
+  <div class="cards-grid">
+
+    <div class="diff-card">
+      <span class="diff-icon">🎨</span>
+      <div class="diff-title">Japanese Color Therapy Specialization</div>
+      <div class="diff-desc">Advanced color acupuncture, a rare modality in the United States. The clinic serves as a workshop host for the US branch, representing a unique position in the Los Angeles market that no general chiropractor can claim.</div>
+      <span class="diff-tag">Unique in LA Market</span>
+    </div>
+
+    <div class="diff-card">
+      <span class="diff-icon">🏯</span>
+      <div class="diff-title">Japanese Bone Setter Heritage</div>
+      <div class="diff-desc">Dr. Koyama integrates traditional Japanese Seikotsu (bone setting) techniques alongside his Doctor of Chiropractic credentials, offering gentle, non-cracking adjustment approaches rooted in centuries of practice.</div>
+      <span class="diff-tag">Rare Dual Expertise</span>
+    </div>
+
+    <div class="diff-card">
+      <span class="diff-icon">🧠</span>
+      <div class="diff-title">Applied Kinesiology Diagnostics</div>
+      <div class="diff-desc">Muscle testing and applied kinesiology are used to identify root cause imbalances before treatment begins, creating tailor-made protocols rather than generic adjustment plans. Fewer than a quarter of California chiropractors hold this specialty.</div>
+      <span class="diff-tag">Root Cause Focus</span>
+    </div>
+
+    <div class="diff-card">
+      <span class="diff-icon">📍</span>
+      <div class="diff-title">46-Year Location Legacy</div>
+      <div class="diff-desc">The West Los Angeles location has served the community as a chiropractic and holistic health practice for over 46 years combined, with Koyama Clinic continuing a 32-year operational history at the same site since 2012.</div>
+      <span class="diff-tag">Community Anchor</span>
+    </div>
+
+    <div class="diff-card">
+      <span class="diff-icon">✨</span>
+      <div class="diff-title">Cranial Therapy and Facial Acupuncture</div>
+      <div class="diff-desc">Specialized services including cranial therapy and facial acupuncture extend the clinic's reach into cosmetic wellness and neurological support, areas that attract a distinct and underserved patient segment in Los Angeles.</div>
+      <span class="diff-tag">Expanded Service Range</span>
+    </div>
+
+  </div>
+
+</div>
+</div>
+
+<!-- SECTION 5: THE FIX -->
+<div class="dark-section">
+<div class="section" style="max-width:1000px; margin:0 auto; padding: 0 20px;">
+
+  <p class="section-label">Section 05 / The Fix</p>
+  <h2 class="section-title" style="color:#fff;">Four Levers That Change What AI Says About You</h2>
+  <p class="section-intro">Raising your AERO-10 score from 38 to above 70 requires a structured approach. These are the four foundational pillars of Answer Engine Optimization.</p>
+
+  <div class="alert-box">
+    <span class="alert-icon">⚡</span>
+    <p class="alert-text"><strong>Current Status:</strong> Koyama Chiropractic is not being cited by AI systems for queries it should dominate, including searches for Japanese chiropractic methods, color acupuncture Los Angeles, and holistic root-cause chiropractors in West LA. Every day this remains unfixed is patient referrals going elsewhere.</p>
+  </div>
+
+  <div class="fix-grid">
+
+    <div class="fix-card">
+      <span class="fix-icon">💬</span>
+      <div class="fix-number">01</div>
+      <div class="fix-title">Answer-First Content</div>
+      <div class="fix-desc">Structure website and blog content to directly answer the exact questions patients ask AI, with clear, citable paragraphs about Japanese Color Therapy, Bone Setting, and Applied Kinesiology.</div>
+    </div>
+
+    <div class="fix-card">
+      <span class="fix-icon">🏗️</span>
+      <div class="fix-number">02</div>
+      <div class="fix-title">Schema Markup</div>
+      <div class="fix-desc">Implement structured data (MedicalBusiness, Physician, Service schema) across the website so AI crawlers can precisely identify credentials, specializations, and service areas without ambiguity.</div>
+    </div>
+
+    <div class="fix-card">
+      <span class="fix-icon">🔗</span>
+      <div class="fix-number">03</div>
+      <div class="fix-title">Entity Authority</div>
+      <div class="fix-desc">Build consistent entity records across health directories, Wikipedia-adjacent sources, and citation networks so AI models recognize Koyama Clinic as a trustworthy, real-world entity in the Los Angeles chiropractic space.</div>
+    </div>
+
+    <div class="fix-card">
+      <span class="fix-icon">📰</span>
+      <div class="fix-number">04</div>
+      <div class="fix-title">Authority Signals</div>
+      <div class="fix-desc">Develop externally published content, practitioner profiles, and expert commentary on Japanese healing arts that create the cross-referencing pattern AI systems require before citing a practice as authoritative.</div>
+    </div>
+
+  </div>
+
+</div>
+</div>
+
+<!-- SECTION 6: CTA -->
+<section class="cta-section">
+  <div class="cta-inner">
+    <div class="cta-badge">Free Strategy Call</div>
+    <h2 class="cta-title">Let's Get Koyama Clinic Into Every AI Answer</h2>
+    <p class="cta-sub">Your expertise in Japanese Color Therapy, Applied Kinesiology, and traditional Bone Setting is genuinely rare. It deserves to be found. Book a free 30-minute call and we will show you exactly how to move your AERO-10 score and start appearing where your future patients are already searching.</p>
+    <a href="https://calendly.com/theanswerengine-support/30min" target="_blank" rel="noopener" class="cta-btn">Book Your Free 30-Min Call</a>
+    <p class="cta-note">No commitment. No sales pressure. Just a clear plan for your specific situation.</p>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="footer">
+  <p>This analysis uses publicly available information about Koyama Chiropractic &amp; Acupuncture Clinic and the Los Angeles chiropractic market. AERO-10 scores reflect AI visibility benchmarks at the time of report generation. Results will vary based on competitive landscape and implementation. Questions? <a href="mailto:support@theanswerengine.ai">support@theanswerengine.ai</a></p>
+</footer>
+
+</body>
+</html>

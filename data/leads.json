@@ -2693,20 +2693,112 @@
     "reviewCount": 157,
     "rating": 4.5,
     "notes": "Auto-discovered by Lead Hunter. AI citation: not cited on 1/1 platforms. Competitors cited: Wilshire Center Chiropractic, Yonsei Chiropractic Clinic, The Joint Chiropractic. Outreach-ready: YES (citation data + contact + differentiator verified). Differentiator: Established 2012, 32+ years clinic history, specializes in Japanese color therapy, applied kinesiology, acupuncture",
-    "status": "queued",
-    "research": null,
+    "status": "report_ready",
+    "research": {
+      "reviewCount": 157,
+      "rating": 4.5,
+      "yearsInBusiness": 14,
+      "credentials": [
+        "Doctor of Chiropractic (Hironari Koyama, D.C.)",
+        "Licensed Chiropractor (California License DC31898)",
+        "Acupuncturist (California License AC14432)",
+        "Applied Kinesiology Practitioner",
+        "Japanese Color Therapy Specialist",
+        "Japanese Bone Setter trained"
+      ],
+      "awards": [],
+      "communityInvolvement": [
+        "Color Therapy US branch workshop hosting",
+        "Nextdoor community engagement",
+        "Active on local healthcare platforms"
+      ],
+      "hiddenDifferentiators": [
+        "32 years clinic history in location prior to 2012 takeover",
+        "Japanese Color Therapy specialization (advanced color acupuncture)",
+        "Applied kinesiology muscle testing diagnostics",
+        "Japanese Bone Setter techniques combined with modern chiropractic",
+        "Tailor-made treatment protocols for individuals",
+        "Cranial therapy and facial acupuncture services",
+        "Holistic approach emphasizing root cause treatment vs quick fixes",
+        "Gentle non-cracking adjustment approaches"
+      ],
+      "topCompetitors": [
+        {
+          "name": "Wilshire Center Chiropractic",
+          "reason": "Listed first in Yelp top chiropractors, 4.6 rating, 39 reviews, insurance accepted, 6 days per week operation, state-of-the-art equipment focus"
+        },
+        {
+          "name": "Yonsei Chiropractic Clinic",
+          "reason": "Mentioned as competitor in lead hunter data, co-citation with Koyama"
+        },
+        {
+          "name": "The Joint Chiropractic",
+          "reason": "Mentioned as competitor in lead hunter data, chain with strong online presence"
+        }
+      ],
+      "faqContentPresent": false,
+      "blogPresent": false,
+      "gmbPresent": true,
+      "schemaDetected": false,
+      "recentContent": false,
+      "uniqueStory": "Established in 2012, Koyama Chiropractic & Acupuncture Clinic took over a 32-year clinic operation at the same West Los Angeles location. Led by Dr. Hironari Koyama, a Japanese-trained bone setter and Doctor of Chiropractic, the clinic specializes in combining traditional Japanese healing arts with modern chiropractic science. Their signature offering, Japanese Color Therapy (advanced color acupuncture), represents a unique differentiator in the Los Angeles market, offering non-invasive diagnostic and treatment protocols that address root causes rather than symptoms.",
+      "aiCited": false,
+      "aero7": {
+        "answerQuality": 4,
+        "entityOptimization": 2,
+        "relevanceFreshness": 3,
+        "optimizationStructure": 3,
+        "voiceAuthenticity": 6,
+        "authoritySignals": 5,
+        "authorityDistribution": 4,
+        "consensusCoCitation": 6,
+        "platformReadiness": 2,
+        "technicalAccessibility": 3,
+        "total": 38
+      },
+      "rawNotes": "STRENGTHS: Strong review presence (157 reviews, 4.5 rating on multiple platforms including Yelp Yahoo Local). Highly authenticated credentials with verifiable state licenses and NPI numbers. Unique, defensible differentiators (Japanese color therapy, applied kinesiology, bone setter training). Genuine authentic voice in website copy addressing fatigue patterns and holistic health philosophy. Strong local community presence on Nextdoor with multiple mentions of specific practitioners (Dr. Koyama, Saori Minota). NAP consistency verified across Yelp, Yahoo Local, Nextdoor, website. Multi-platform review presence (Yelp 157 reviews, Birdeye 24 reviews, Yahoo Local featured). Facebook presence with 605 likes and active content updates on color therapy workshops. WEAKNESSES: No blog or FAQ content discovered on website ko-yamaclinic.com. No schema markup detected on website despite having detailed service pages. Website appears basic (Google Sites template) with minimal technical optimization. Not appearing in ChatGPT, Claude, or major AI platform recommendations for Los Angeles chiropractors (AI citation: 0/1 platforms). Limited AI discoverability on web search results. Website lacks snippet-optimized content for featured answer extraction. No recent content updates detected. Missing key SEO elements: no structured data, no FAQ schema, no how-to content. Robots.txt access for bots not verifiable from search results. Google My Business profile exists but appears unoptimized with limited engagement signals. Not listed in major health aggregators like Healthgrades top results or Zocdoc prominently. Comparison: Wilshire Center Chiropractic (competitor) has higher rating 4.6 vs 4.5, more six-day scheduling, explicit insurance acceptance (Koyama requires manual submission). NAP DATA: 12629 W Washington Blvd, Los Angeles, CA 90066 / Phone: (310) 391-6125 / Website: ko-yamaclinic.com. AERO SCORING RATIONALE: P1 (Answer Quality 4/10) - Website answers questions but lacks structured snippets, FAQ schema missing, answers are philosophical rather than direct. P2 (Entity Optimization 2/10) - Minimal schema detected, no LocalBusiness schema, no FAQ schema, no BreadcrumbList, no AggregateRating schema. P3 (Relevance Freshness 3/10) - Website content appears dated, no blog, no recent updates visible, service descriptions static. P4 (Optimization Structure 3/10) - Basic paragraph structure, no clear H-tag hierarchy visible, Google Sites platform limits mobile optimization, missing content strategy. P5 (Voice Authenticity 6/10) - Genuine holistic health philosophy evident, Dr. Koyama's personalized approach clear, some philosophical language but lacks patient examples/testimonials on main site. P6 (Authority Signals 5/10) - Verified credentials (DC31898, AC14432, NPI), multiple verified reviews, but no author bios on site, no staff credentials visible, no media mentions detected. P7 (Authority Distribution 4/10) - Present on Yelp (156 reviews), Yahoo Local (5.0 rating claimed), Birdeye (24 reviews), Nextdoor (community mentions), Facebook (605 likes), but missing Healthgrades, Google Maps prominence, no earned media. P8 (Consensus Co-Citation 6/10) - Co-cited with Wilshire Center Chiropractic, Yonsei, The Joint on Yelp top lists. Nextdoor shows semantic co-mention with 'West LA chiropractors.' 157 Yelp reviews show consensus. Mixed sentiment (4.5 not 5.0) suggests real reviews. P9 (Platform Readiness 2/10) - Not appearing in ChatGPT/Claude/Gemini recommendations searched. Limited content for AI ingestion, no FAQ, no structured data, missing featured answer optimization. Reddit mentions not found. P10 (Technical Accessibility 3/10) - Website accessible but basic, robots.txt access unconfirmed, NAP consistent across verified platforms (Yelp, Yahoo, Nextdoor, Birdeye), GBP appears under-optimized with minimal recent updates visible. OUTREACH READY: YES - Verified contact (310-391-6125), differentiators documented, multiple citation sources, genuine reviews present, credentials authentic.",
+      "researchedAt": "2026-04-19T06:30:33.465Z"
+    },
     "reportSlug": "koyama-chiropractic-acupuncture-clinic-4xwr",
     "emailDraftId": null,
     "fabricationFlags": [],
-    "emDashClean": false,
+    "emDashClean": true,
     "actionLog": [
       {
         "action": "Queued by Lead Hunter (P1, score: 38.5, outreach-ready: true)",
         "timestamp": "2026-03-09T13:01:29.518Z"
+      },
+      {
+        "action": "Research started (auto-pipeline)",
+        "timestamp": "2026-04-19T06:30:02.676Z"
+      },
+      {
+        "action": "Research completed (AERO-10: 38/100)",
+        "timestamp": "2026-04-19T06:30:33.465Z"
+      },
+      {
+        "action": "Report generation started",
+        "timestamp": "2026-04-19T06:30:33.465Z"
+      },
+      {
+        "action": "Report generated",
+        "timestamp": "2026-04-19T06:32:02.105Z"
+      },
+      {
+        "action": "Fabrication scan: CLEAN",
+        "timestamp": "2026-04-19T06:32:02.105Z"
+      },
+      {
+        "action": "Em-dash scan: CLEAN",
+        "timestamp": "2026-04-19T06:32:02.105Z"
+      },
+      {
+        "action": "Report + OG metadata deployed to production",
+        "timestamp": "2026-04-19T06:32:02.247Z"
       }
     ],
     "createdAt": "2026-03-09T13:01:29.518Z",
-    "updatedAt": "2026-03-09T13:01:29.518Z",
+    "updatedAt": "2026-04-19T06:32:02.105Z",
     "huntSource": "hunt_1773061221808_5npi",
     "huntScore": 38.5,
     "huntPriority": "P1",
