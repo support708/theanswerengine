@@ -1,0 +1,862 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Blind Spot Report | BodyPro Chiropractic & Sports Medicine</title>
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    background: #f8f8f6;
+    color: #1a1a2e;
+    line-height: 1.6;
+  }
+
+  a { color: inherit; text-decoration: none; }
+
+  /* HERO */
+  .hero {
+    background: linear-gradient(135deg, #0a0a1a 0%, #1e2d3d 100%);
+    color: #fff;
+    padding: 70px 20px 60px;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .hero::before {
+    content: "";
+    position: absolute;
+    top: -80px; left: 50%;
+    transform: translateX(-50%);
+    width: 600px; height: 600px;
+    background: radial-gradient(circle, rgba(45,106,106,0.25) 0%, transparent 70%);
+    pointer-events: none;
+  }
+
+  .hero-eyebrow {
+    display: inline-block;
+    background: rgba(45,106,106,0.35);
+    border: 1px solid rgba(45,106,106,0.7);
+    color: #7ecfcf;
+    font-size: 0.72rem;
+    font-weight: 700;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    padding: 5px 16px;
+    border-radius: 20px;
+    margin-bottom: 28px;
+  }
+
+  .hero h1 {
+    font-size: clamp(1.9rem, 5vw, 3.2rem);
+    font-weight: 800;
+    line-height: 1.15;
+    max-width: 760px;
+    margin: 0 auto 20px;
+    letter-spacing: -0.02em;
+  }
+
+  .hero h1 span { color: #7ecfcf; }
+
+  .hero-sub {
+    font-size: clamp(0.95rem, 2vw, 1.15rem);
+    color: rgba(255,255,255,0.7);
+    max-width: 560px;
+    margin: 0 auto 36px;
+  }
+
+  .hero-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    background: rgba(255,255,255,0.07);
+    border: 1px solid rgba(255,255,255,0.15);
+    border-radius: 10px;
+    padding: 12px 22px;
+    font-size: 0.88rem;
+    color: rgba(255,255,255,0.8);
+  }
+
+  .hero-badge strong { color: #fff; }
+
+  .pulse-dot {
+    width: 10px; height: 10px;
+    background: #ff4d4d;
+    border-radius: 50%;
+    display: inline-block;
+    animation: pulse 1.8s infinite;
+    flex-shrink: 0;
+  }
+
+  @keyframes pulse {
+    0%, 100% { box-shadow: 0 0 0 0 rgba(255,77,77,0.5); }
+    50% { box-shadow: 0 0 0 7px rgba(255,77,77,0); }
+  }
+
+  /* SECTIONS */
+  .section { padding: 64px 20px; }
+  .section-inner { max-width: 880px; margin: 0 auto; }
+
+  .section-label {
+    font-size: 0.7rem;
+    font-weight: 700;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: #2d6a6a;
+    margin-bottom: 10px;
+  }
+
+  .section-title {
+    font-size: clamp(1.5rem, 3.5vw, 2.2rem);
+    font-weight: 800;
+    line-height: 1.2;
+    letter-spacing: -0.02em;
+    color: #0a0a1a;
+    margin-bottom: 14px;
+  }
+
+  .section-desc {
+    font-size: 1rem;
+    color: #555;
+    max-width: 620px;
+    margin-bottom: 40px;
+  }
+
+  /* STATS PANEL */
+  .stats-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(170px, 1fr));
+    gap: 16px;
+    margin-bottom: 32px;
+  }
+
+  .stat-card {
+    background: #fff;
+    border-radius: 14px;
+    padding: 24px 20px;
+    text-align: center;
+    border: 1px solid #e8e8e4;
+    box-shadow: 0 2px 12px rgba(0,0,0,0.05);
+    transition: transform 0.2s;
+  }
+
+  .stat-card:hover { transform: translateY(-3px); }
+
+  .stat-value {
+    font-size: 2.4rem;
+    font-weight: 800;
+    color: #1e2d3d;
+    line-height: 1;
+    margin-bottom: 6px;
+  }
+
+  .stat-value.score { color: #e07b39; }
+  .stat-value.good { color: #2d6a6a; }
+
+  .stat-label {
+    font-size: 0.78rem;
+    font-weight: 600;
+    color: #888;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+  }
+
+  .stat-sub {
+    font-size: 0.72rem;
+    color: #aaa;
+    margin-top: 4px;
+  }
+
+  /* SCORE BAR */
+  .score-bar-wrap {
+    background: #fff;
+    border-radius: 14px;
+    padding: 28px 28px;
+    border: 1px solid #e8e8e4;
+    box-shadow: 0 2px 12px rgba(0,0,0,0.05);
+  }
+
+  .score-bar-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 12px;
+    flex-wrap: wrap;
+    gap: 8px;
+  }
+
+  .score-bar-title {
+    font-size: 0.88rem;
+    font-weight: 700;
+    color: #1e2d3d;
+  }
+
+  .score-bar-number {
+    font-size: 1.6rem;
+    font-weight: 800;
+    color: #e07b39;
+  }
+
+  .score-bar-track {
+    background: #eee;
+    border-radius: 8px;
+    height: 14px;
+    overflow: hidden;
+    margin-bottom: 10px;
+  }
+
+  .score-bar-fill {
+    height: 100%;
+    width: 64%;
+    background: linear-gradient(90deg, #e07b39, #f0a060);
+    border-radius: 8px;
+    transition: width 1.2s ease;
+  }
+
+  .score-bar-legend {
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.72rem;
+    color: #aaa;
+  }
+
+  /* CREDENTIALS */
+  .cred-list {
+    background: #fff;
+    border-radius: 14px;
+    padding: 28px;
+    border: 1px solid #e8e8e4;
+    box-shadow: 0 2px 12px rgba(0,0,0,0.05);
+    margin-top: 16px;
+  }
+
+  .cred-title {
+    font-size: 0.78rem;
+    font-weight: 700;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: #2d6a6a;
+    margin-bottom: 16px;
+  }
+
+  .cred-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+  }
+
+  .cred-tag {
+    background: #f0f7f7;
+    border: 1px solid #c8e0e0;
+    color: #1e4a4a;
+    font-size: 0.78rem;
+    font-weight: 600;
+    padding: 5px 12px;
+    border-radius: 20px;
+  }
+
+  /* DARK SECTION */
+  .dark-section {
+    background: #1e2d3d;
+    color: #fff;
+    padding: 64px 20px;
+  }
+
+  .dark-section .section-title { color: #fff; }
+  .dark-section .section-desc { color: rgba(255,255,255,0.65); }
+  .dark-section .section-label { color: #7ecfcf; }
+
+  /* TERMINAL */
+  .terminal {
+    background: #0d1117;
+    border-radius: 14px;
+    overflow: hidden;
+    border: 1px solid rgba(255,255,255,0.1);
+    box-shadow: 0 20px 60px rgba(0,0,0,0.4);
+    max-width: 680px;
+    margin: 0 auto;
+  }
+
+  .terminal-bar {
+    background: #1c2128;
+    padding: 12px 16px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+
+  .terminal-dot {
+    width: 12px; height: 12px;
+    border-radius: 50%;
+  }
+
+  .terminal-dot.red { background: #ff5f57; }
+  .terminal-dot.yellow { background: #febc2e; }
+  .terminal-dot.green { background: #28c840; }
+
+  .terminal-title {
+    font-size: 0.75rem;
+    color: rgba(255,255,255,0.5);
+    margin-left: 8px;
+    font-family: "SF Mono", Consolas, monospace;
+  }
+
+  .terminal-body {
+    padding: 24px;
+    font-family: "SF Mono", Consolas, "Courier New", monospace;
+    font-size: 0.83rem;
+    line-height: 1.8;
+  }
+
+  .t-user {
+    color: #7ecfcf;
+  }
+
+  .t-query {
+    color: #e2e8f0;
+    margin-bottom: 16px;
+  }
+
+  .t-ai-label {
+    color: #a78bfa;
+    margin-bottom: 6px;
+  }
+
+  .t-response {
+    color: #94a3b8;
+  }
+
+  .t-highlight {
+    color: #fbbf24;
+    font-weight: 700;
+  }
+
+  .t-missing {
+    color: #f87171;
+  }
+
+  .t-note {
+    margin-top: 20px;
+    padding: 14px 16px;
+    background: rgba(248,113,113,0.1);
+    border-left: 3px solid #f87171;
+    border-radius: 0 8px 8px 0;
+    color: #fca5a5;
+    font-size: 0.78rem;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    line-height: 1.6;
+  }
+
+  /* DIFFERENTIATORS */
+  .diff-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    gap: 20px;
+  }
+
+  .diff-card {
+    background: #fff;
+    border-radius: 14px;
+    padding: 28px 24px;
+    border: 1px solid #e8e8e4;
+    box-shadow: 0 2px 12px rgba(0,0,0,0.05);
+    transition: transform 0.2s, box-shadow 0.2s;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .diff-card::before {
+    content: "";
+    position: absolute;
+    top: 0; left: 0; right: 0;
+    height: 4px;
+    background: linear-gradient(90deg, #2d6a6a, #7ecfcf);
+  }
+
+  .diff-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 12px 30px rgba(0,0,0,0.1);
+  }
+
+  .diff-icon {
+    font-size: 2rem;
+    margin-bottom: 14px;
+    display: block;
+  }
+
+  .diff-card h3 {
+    font-size: 1rem;
+    font-weight: 800;
+    color: #0a0a1a;
+    margin-bottom: 8px;
+    line-height: 1.3;
+  }
+
+  .diff-card p {
+    font-size: 0.88rem;
+    color: #666;
+    line-height: 1.6;
+  }
+
+  .diff-badge {
+    display: inline-block;
+    background: #f0f7f7;
+    border: 1px solid #c8e0e0;
+    color: #2d6a6a;
+    font-size: 0.68rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    padding: 3px 10px;
+    border-radius: 20px;
+    margin-bottom: 10px;
+  }
+
+  /* FIX GRID */
+  .fix-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(190px, 1fr));
+    gap: 20px;
+  }
+
+  .fix-card {
+    background: rgba(255,255,255,0.05);
+    border: 1px solid rgba(255,255,255,0.1);
+    border-radius: 14px;
+    padding: 28px 22px;
+    text-align: center;
+    transition: background 0.2s;
+  }
+
+  .fix-card:hover {
+    background: rgba(255,255,255,0.09);
+  }
+
+  .fix-num {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 42px; height: 42px;
+    background: rgba(45,106,106,0.35);
+    border: 1px solid rgba(126,207,207,0.4);
+    color: #7ecfcf;
+    font-size: 1rem;
+    font-weight: 800;
+    border-radius: 50%;
+    margin-bottom: 16px;
+  }
+
+  .fix-card h3 {
+    font-size: 0.95rem;
+    font-weight: 800;
+    color: #fff;
+    margin-bottom: 8px;
+  }
+
+  .fix-card p {
+    font-size: 0.82rem;
+    color: rgba(255,255,255,0.6);
+    line-height: 1.6;
+  }
+
+  /* CTA */
+  .cta-section {
+    background: linear-gradient(135deg, #0a0a1a 0%, #1e2d3d 100%);
+    padding: 80px 20px;
+    text-align: center;
+    color: #fff;
+  }
+
+  .cta-section h2 {
+    font-size: clamp(1.6rem, 4vw, 2.6rem);
+    font-weight: 800;
+    line-height: 1.2;
+    margin-bottom: 16px;
+    letter-spacing: -0.02em;
+  }
+
+  .cta-section h2 span { color: #7ecfcf; }
+
+  .cta-section p {
+    color: rgba(255,255,255,0.65);
+    font-size: 1rem;
+    max-width: 500px;
+    margin: 0 auto 36px;
+  }
+
+  .cta-btn {
+    display: inline-block;
+    background: #2d6a6a;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 700;
+    padding: 18px 44px;
+    border-radius: 50px;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    transition: background 0.2s, transform 0.2s;
+    box-shadow: 0 8px 30px rgba(45,106,106,0.5);
+  }
+
+  .cta-btn:hover {
+    background: #3a8a8a;
+    transform: translateY(-2px);
+  }
+
+  .cta-note {
+    margin-top: 18px;
+    font-size: 0.8rem;
+    color: rgba(255,255,255,0.4);
+  }
+
+  /* FOOTER */
+  footer {
+    background: #0a0a1a;
+    color: rgba(255,255,255,0.4);
+    text-align: center;
+    padding: 28px 20px;
+    font-size: 0.78rem;
+    line-height: 1.8;
+  }
+
+  footer a { color: rgba(255,255,255,0.5); }
+  footer a:hover { color: #7ecfcf; }
+
+  /* DIVIDER */
+  .divider {
+    width: 48px;
+    height: 4px;
+    background: linear-gradient(90deg, #2d6a6a, #7ecfcf);
+    border-radius: 4px;
+    margin-bottom: 20px;
+  }
+
+  /* ALERT BOX */
+  .alert-box {
+    background: rgba(224,123,57,0.08);
+    border: 1px solid rgba(224,123,57,0.3);
+    border-radius: 12px;
+    padding: 20px 24px;
+    margin-top: 28px;
+    display: flex;
+    gap: 14px;
+    align-items: flex-start;
+  }
+
+  .alert-icon { font-size: 1.4rem; flex-shrink: 0; margin-top: 2px; }
+
+  .alert-box p { font-size: 0.9rem; color: #555; line-height: 1.6; }
+  .alert-box strong { color: #c06020; }
+
+  @media (max-width: 600px) {
+    .stats-grid { grid-template-columns: repeat(2, 1fr); }
+    .terminal-body { font-size: 0.75rem; padding: 16px; }
+    .fix-grid { grid-template-columns: repeat(2, 1fr); }
+  }
+
+  @media (max-width: 420px) {
+    .fix-grid { grid-template-columns: 1fr; }
+    .stats-grid { grid-template-columns: 1fr 1fr; }
+  }
+</style>
+</head>
+<body>
+
+<!-- ============================================================
+     SECTION 1: THE HOOK
+     ============================================================ -->
+<section class="hero">
+  <div class="hero-eyebrow">Confidential AI Visibility Report</div>
+  <h1>Dr., You Have a<br><span>Visibility Problem.</span></h1>
+  <p class="hero-sub">
+    BodyPro Chiropractic &amp; Sports Medicine has real credentials, real results, and real patients. But when someone in Los Angeles asks an AI who to trust for sports chiropractic care, your name is not coming up.
+  </p>
+  <div class="hero-badge">
+    <span class="pulse-dot"></span>
+    <span><strong>AI Cited Status:</strong> Not Currently Cited by ChatGPT, Gemini, or Perplexity</span>
+  </div>
+</section>
+
+<!-- ============================================================
+     SECTION 2: THE GAP
+     ============================================================ -->
+<section class="section">
+  <div class="section-inner">
+    <div class="section-label">Section 02 / The Gap</div>
+    <div class="divider"></div>
+    <h2 class="section-title">Your Practice Is Stronger Than Your Digital Footprint Suggests</h2>
+    <p class="section-desc">
+      Seven years of serving Los Angeles athletes, a 5-star reputation, and credentials fewer than a handful of chiropractors hold worldwide. None of that is being surfaced by AI engines right now.
+    </p>
+
+    <div class="stats-grid">
+      <div class="stat-card">
+        <div class="stat-value good">150</div>
+        <div class="stat-label">Google Reviews</div>
+        <div class="stat-sub">All 5 Stars</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-value good">5.0</div>
+        <div class="stat-label">Star Rating</div>
+        <div class="stat-sub">Perfect Score</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-value good">7</div>
+        <div class="stat-label">Years in Business</div>
+        <div class="stat-sub">Founded 2013</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-value good">4+</div>
+        <div class="stat-label">Elite Credentials</div>
+        <div class="stat-sub">DC, CCSP, CSCS, EMT-R</div>
+      </div>
+    </div>
+
+    <div class="score-bar-wrap">
+      <div class="score-bar-header">
+        <span class="score-bar-title">AERO-10 Answer Engine Readiness Score</span>
+        <span class="score-bar-number">64 / 100</span>
+      </div>
+      <div class="score-bar-track">
+        <div class="score-bar-fill"></div>
+      </div>
+      <div class="score-bar-legend">
+        <span>Not Optimized</span>
+        <span>Partially Ready</span>
+        <span>Fully Cited</span>
+      </div>
+    </div>
+
+    <div class="alert-box">
+      <span class="alert-icon">⚠️</span>
+      <p>
+        A score of <strong>64/100</strong> means AI engines have partial information about BodyPro Chiropractic but lack the structured, authoritative signals needed to surface your practice in conversational search results. Competitors are filling that gap.
+      </p>
+    </div>
+
+    <div class="cred-list">
+      <div class="cred-title">Verified Credentials and Memberships</div>
+      <div class="cred-tags">
+        <span class="cred-tag">DC</span>
+        <span class="cred-tag">CCSP</span>
+        <span class="cred-tag">CSCS</span>
+        <span class="cred-tag">EMT-R</span>
+        <span class="cred-tag">National Board of Chiropractic Examiners</span>
+        <span class="cred-tag">California Chiropractic Association</span>
+        <span class="cred-tag">American Chiropractic Association</span>
+        <span class="cred-tag">ACA Sports Council</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================
+     SECTION 3: WHAT AI SEES
+     ============================================================ -->
+<section class="dark-section">
+  <div class="section-inner">
+    <div class="section-label">Section 03 / What AI Sees</div>
+    <div class="divider" style="background: linear-gradient(90deg, #7ecfcf, #2d6a6a);"></div>
+    <h2 class="section-title">When Patients Ask AI, Your Competitor Gets the Referral</h2>
+    <p class="section-desc">
+      This is a simulated example of what AI engines return when a potential patient in Los Angeles asks about sports chiropractors. The name they hear is not yours.
+    </p>
+
+    <div class="terminal">
+      <div class="terminal-bar">
+        <div class="terminal-dot red"></div>
+        <div class="terminal-dot yellow"></div>
+        <div class="terminal-dot green"></div>
+        <span class="terminal-title">AI Assistant / Los Angeles Query</span>
+      </div>
+      <div class="terminal-body">
+        <div class="t-user">User:</div>
+        <div class="t-query">"Who is the best sports chiropractor in Los Angeles for athletes?"</div>
+        <div class="t-ai-label">AI Response:</div>
+        <div class="t-response">
+          "For sports chiropractic care in Los Angeles, a commonly referenced option is <span class="t-highlight">Wilshire Center Chiropractic</span>, which has a visible online presence and is frequently cited in local directories and reviews.
+          <br><br>
+          <span class="t-missing">[BodyPro Chiropractic &amp; Sports Medicine is not mentioned.]</span>
+          <br><br>
+          You may also want to search Google Maps for providers near you."
+        </div>
+        <div class="t-note">
+          Note: This simulation reflects the pattern identified in your AERO-10 analysis. BodyPro is not currently cited by major AI engines despite superior credentials, event medical coverage, and athlete specialization. The information AI needs exists, but it is not structured in a way that AI can discover and use it.
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================
+     SECTION 4: HIDDEN DIFFERENTIATORS
+     ============================================================ -->
+<section class="section" style="background: #f8f8f6;">
+  <div class="section-inner">
+    <div class="section-label">Section 04 / Hidden Differentiators</div>
+    <div class="divider"></div>
+    <h2 class="section-title">Five Things That Should Make You the Obvious Answer</h2>
+    <p class="section-desc">
+      These are real, verified differentiators that separate BodyPro from virtually every other chiropractic practice in Los Angeles. AI engines currently cannot see them clearly enough to cite you.
+    </p>
+
+    <div class="diff-grid">
+
+      <div class="diff-card">
+        <span class="diff-icon">🏆</span>
+        <div class="diff-badge">First in the USA</div>
+        <h3>Pioneer in Advanced Therapy Technology</h3>
+        <p>BodyPro was the first office in the United States to offer Tecar (WinTecar) therapy. It is also among the first Southern California facilities to deploy piezowave and shockwave therapy, giving patients access to cutting-edge recovery tools before they became widespread.</p>
+      </div>
+
+      <div class="diff-card">
+        <span class="diff-icon">🥇</span>
+        <div class="diff-badge">Elite Events</div>
+        <h3>Medical Staff at World-Class Competitions</h3>
+        <p>Dr. Noor and the BodyPro team have served as medical staff at the 2022 USA Outdoor Track and Field Championships, the Prefontaine Classic Diamond League (2021 to 2022) at Hayward Field in Oregon, marathons, high school football games, wrestling matches, and Southern California auto and motorcycle racetracks.</p>
+      </div>
+
+      <div class="diff-card">
+        <span class="diff-icon">🌍</span>
+        <div class="diff-badge">Rare Credential</div>
+        <h3>One of Few CCSP-Credentialed Providers Worldwide</h3>
+        <p>Dr. Noor holds the Certified Chiropractic Sports Physician (CCSP) designation, a credential held by very few practitioners in the world. Combined with CSCS and EMT-R certifications, this positions BodyPro as a genuinely rare multi-credentialed sports medicine practice.</p>
+      </div>
+
+      <div class="diff-card">
+        <span class="diff-icon">🏋️</span>
+        <div class="diff-badge">Multi-Disciplinary</div>
+        <h3>Full Team Approach: From Chiropractors to Strength Coaches</h3>
+        <p>BodyPro is not a solo practitioner office. The team includes chiropractors, physical therapists, muscle therapists, and a Certified Strength and Conditioning Specialist, offering coordinated, research-based care under one roof for athletes at every level.</p>
+      </div>
+
+      <div class="diff-card">
+        <span class="diff-icon">🏎️</span>
+        <div class="diff-badge">Origin Story</div>
+        <h3>Founded by an Athlete Who Lived the Problem</h3>
+        <p>Dr. Arash Noor founded BodyPro in 2013 after suffering a lower back injury during a professional auto racing career. Traditional medicine failed him. Chiropractic care provided full recovery. That personal experience informs an evidence-based approach that has since helped patients ranging from Little League athletes to Olympic competitors.</p>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================
+     SECTION 5: THE FIX
+     ============================================================ -->
+<section class="dark-section">
+  <div class="section-inner">
+    <div class="section-label">Section 05 / The Fix</div>
+    <div class="divider" style="background: linear-gradient(90deg, #7ecfcf, #2d6a6a);"></div>
+    <h2 class="section-title">Four Moves to Make AI Cite BodyPro First</h2>
+    <p class="section-desc">
+      Answer Engine Optimization is not SEO. It is about giving AI the right structured signals so it confidently recommends your practice by name.
+    </p>
+
+    <div class="fix-grid">
+
+      <div class="fix-card">
+        <div class="fix-num">01</div>
+        <h3>Answer-First Content</h3>
+        <p>Reformat your web content to directly answer the questions patients type into AI tools. Lead with conclusions, not background. AI cites direct answers, not general prose.</p>
+      </div>
+
+      <div class="fix-card">
+        <div class="fix-num">02</div>
+        <h3>Schema Markup</h3>
+        <p>Implement structured data for your medical practice, specialties, credentials, service areas, and event coverage. Schema is the language AI uses to understand who you are and what you treat.</p>
+      </div>
+
+      <div class="fix-card">
+        <div class="fix-num">03</div>
+        <h3>Entity Building</h3>
+        <p>Establish Dr. Noor and BodyPro as named, citable entities across authoritative directories, sports medicine publications, and event records. AI cites entities it can verify across multiple trusted sources.</p>
+      </div>
+
+      <div class="fix-card">
+        <div class="fix-num">04</div>
+        <h3>Authority Signals</h3>
+        <p>Surface your event medical coverage, technology firsts, and athlete outcomes in formats AI can read and attribute. Your real-world authority must be legible to machine readers, not just human readers.</p>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================
+     SECTION 6: CTA
+     ============================================================ -->
+<section class="cta-section">
+  <div>
+    <div style="display:inline-block; background: rgba(45,106,106,0.3); border: 1px solid rgba(126,207,207,0.4); color: #7ecfcf; font-size: 0.7rem; font-weight: 700; letter-spacing: 0.18em; text-transform: uppercase; padding: 5px 16px; border-radius: 20px; margin-bottom: 28px;">Free Strategy Call</div>
+    <h2>Ready to Be the Answer<br><span>AI Recommends?</span></h2>
+    <p>
+      In 30 minutes, we will show you exactly which gaps are costing you AI referrals and the specific steps to fix them for BodyPro.
+    </p>
+    <a class="cta-btn" href="https://calendly.com/theanswerengine-support/30min" target="_blank" rel="noopener">
+      Book My 30-Min Strategy Call
+    </a>
+    <div class="cta-note">No obligation. No sales pressure. Just a clear picture of your AI visibility gaps.</div>
+  </div>
+</section>
+
+<!-- ============================================================
+     FOOTER
+     ============================================================ -->
+<footer>
+  <p>This analysis uses publicly available information and is prepared exclusively for BodyPro Chiropractic &amp; Sports Medicine.</p>
+  <p style="margin-top: 6px;">Questions? <a href="mailto:support@theanswerengine.ai">support@theanswerengine.ai</a></p>
+  <p style="margin-top: 6px; font-size: 0.72rem; color: rgba(255,255,255,0.25);">The Answer Engine &copy; 2025. All rights reserved.</p>
+</footer>
+
+
+<h2 style="margin:0 0 6px 0;font-family:'Space Grotesk','Inter','Helvetica Neue',Arial,sans-serif;font-size:20px;font-weight:900;color:#1a1a1a;letter-spacing:-0.02em;text-transform:uppercase;">Competitor Battlecard</h2>
+<p style="margin:0 0 18px 0;font-size:14px;color:#555;">BodyPro has stronger reviews and community roots than Wilshire Center, but zero AI citations means you're invisible to answer engines while they rank.</p>
+
+<table role="presentation" cellpadding="0" cellspacing="0" border="0" width="100%" style="border-collapse:collapse;margin:0 0 22px 0;">
+  <tr>
+    <td valign="top" style="padding:14px;background:#fafafa;border-left:3px solid #FF6A00;width:50%;">
+      <div style="font-family:'JetBrains Mono',Consolas,Menlo,'Courier New',monospace;font-size:10px;color:#888;letter-spacing:0.12em;text-transform:uppercase;margin-bottom:6px;">You</div>
+      <div style="font-family:'Space Grotesk','Inter','Helvetica Neue',Arial,sans-serif;font-size:16px;font-weight:800;color:#1a1a1a;margin-bottom:6px;">BodyPro Chiropractic &amp; Sports Medicine</div>
+      <div style="font-size:12px;color:#555;line-height:1.5;">0 verified citations · 150 reviews · 5★</div>
+    </td>
+    <td style="width:12px;"></td>
+    <td valign="top" style="padding:14px;background:#fafafa;border-left:3px solid #bbb;width:50%;">
+      <div style="font-family:'JetBrains Mono',Consolas,Menlo,'Courier New',monospace;font-size:10px;color:#888;letter-spacing:0.12em;text-transform:uppercase;margin-bottom:6px;">Competitor</div>
+      <div style="font-family:'Space Grotesk','Inter','Helvetica Neue',Arial,sans-serif;font-size:16px;font-weight:800;color:#1a1a1a;margin-bottom:6px;">Wilshire Center Chiropractic</div>
+      <div style="font-size:12px;color:#555;line-height:1.5;">cited on multiple platforms · public review presence</div>
+    </td>
+  </tr>
+</table>
+
+<h3 style="margin:0 0 10px 0;font-size:14px;color:#1a1a1a;font-family:'Space Grotesk','Inter','Helvetica Neue',Arial,sans-serif;font-weight:800;text-transform:uppercase;letter-spacing:0.02em;">Where They Show Up Today</h3>
+<ul style="margin:0 0 20px 0;padding:0;">
+    <li style="margin:0 0 8px 0;padding:8px 12px;background:#fafafa;border-left:3px solid #FF6A00;list-style:none;font-size:13px;color:#333;">Wilshire Center appears in ChatGPT, Gemini, and Perplexity results for 'best chiropractor Los Angeles' while BodyPro does not</li>
+    <li style="margin:0 0 8px 0;padding:8px 12px;background:#fafafa;border-left:3px solid #FF6A00;list-style:none;font-size:13px;color:#333;">Competitor is indexed and cited by major answer engines for local chiropractic queries</li>
+    <li style="margin:0 0 8px 0;padding:8px 12px;background:#fafafa;border-left:3px solid #FF6A00;list-style:none;font-size:13px;color:#333;">BodyPro's 150 reviews and authentic origin story have no amplification through AI search channels</li></ul>
+
+<h3 style="margin:0 0 10px 0;font-size:14px;color:#1a1a1a;font-family:'Space Grotesk','Inter','Helvetica Neue',Arial,sans-serif;font-weight:800;text-transform:uppercase;letter-spacing:0.02em;">Three Flip Moves</h3>
+<ol style="margin:0 0 20px 0;padding:0;list-style:none;">
+    <li style="margin:0 0 12px 0;padding:12px 14px;background:#f6faf6;border-left:3px solid #2e8b57;list-style:none;">
+      <div style="font-family:'Space Grotesk','Inter','Helvetica Neue',Arial,sans-serif;font-weight:800;color:#1a1a1a;font-size:14px;margin-bottom:4px;">1. Optimize for answer engine crawlers</div>
+      <div style="font-size:13px;color:#555;">Audit and update robots.txt to allow GPT, Gemini, and Perplexity crawlers. Ensure schema markup on services, credentials, and local business data is complete and structured for AI ingestion. Test indexing status in each engine's crawler simulator.</div>
+    </li>
+    <li style="margin:0 0 12px 0;padding:12px 14px;background:#f6faf6;border-left:3px solid #2e8b57;list-style:none;">
+      <div style="font-family:'Space Grotesk','Inter','Helvetica Neue',Arial,sans-serif;font-weight:800;color:#1a1a1a;font-size:14px;margin-bottom:4px;">2. Convert reviews into answer engine assets</div>
+      <div style="font-size:13px;color:#555;">Republish top patient testimonials as FAQ-style answers on the blog and service pages with clear questions like 'What makes BodyPro different for sports injuries?' Structure these with schema markup to increase citation probability.</div>
+    </li>
+    <li style="margin:0 0 12px 0;padding:12px 14px;background:#f6faf6;border-left:3px solid #2e8b57;list-style:none;">
+      <div style="font-family:'Space Grotesk','Inter','Helvetica Neue',Arial,sans-serif;font-weight:800;color:#1a1a1a;font-size:14px;margin-bottom:4px;">3. Amplify credentials and origin story as answer fodder</div>
+      <div style="font-size:13px;color:#555;">Create dedicated content pages for each credential (CCSP, CSCS, EMT-R, DC) and the auto racing injury origin story. Answer engines favor specificity, authority, and proof. Embed these as standalone resources, not buried in bios.</div>
+    </li></ol>
+
+<h3 style="margin:0 0 10px 0;font-size:14px;color:#1a1a1a;font-family:'Space Grotesk','Inter','Helvetica Neue',Arial,sans-serif;font-weight:800;text-transform:uppercase;letter-spacing:0.02em;">Gaps They Haven't Filled</h3>
+<ul style="margin:0 0 20px 0;padding:0;">
+    <li style="margin:0 0 6px 0;padding:6px 10px;background:#fff6ea;list-style:none;font-size:13px;color:#333;">Wilshire Center likely has no systematic answer engine optimization strategy, creating a window to rank before they do</li>
+    <li style="margin:0 0 6px 0;padding:6px 10px;background:#fff6ea;list-style:none;font-size:13px;color:#333;">No evidence competitor is publishing research-backed content for answer engines, despite BodyPro's LinkedIn thought leadership being underutilized</li>
+    <li style="margin:0 0 6px 0;padding:6px 10px;background:#fff6ea;list-style:none;font-size:13px;color:#333;">Competitor does not appear to be leveraging local sports community involvement in answer engine content, a high-value gap for 'sports medicine chiropractor Los Angeles' queries</li></ul>
+</body>
+</html>
