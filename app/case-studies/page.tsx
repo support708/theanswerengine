@@ -2,78 +2,49 @@ import type { Metadata } from 'next';
 import Link from 'next/link';
 
 export const metadata: Metadata = {
-  title: 'AEO Case Studies — Proof of Dominance | The Answer Engine',
+  title: 'AEO Case Study — LA Metro Home Finder vs. 70,000 Agents | The Answer Engine',
   description:
-    'Real results from Answer Engine Optimization. See how local service businesses achieved AI citation dominance across ChatGPT, Claude, Perplexity, and Google AI Overviews.',
+    'How the AERO-10 framework took our own real estate site from invisible to 1.14M+ monthly impressions with citations across ChatGPT, Claude, Perplexity, and Google AI. The verified case.',
   openGraph: {
-    title: 'AEO Case Studies — Proof of Dominance',
+    title: 'AEO Case Study — LA Metro Home Finder',
     description:
-      'Plumbers, HVAC, real estate, dental, law firms, and roofers — all achieving AI citation dominance through the AERO-10 framework.',
+      'The verified AEO case: 1.14M+ monthly impressions, citations across 4 AI platforms, $0 ad spend. Built on our own site before selling it to clients.',
     url: 'https://theanswerengine.ai/case-studies',
   },
 };
 
 const KPI_STATS = [
-  { val: '34+', label: 'AI Citations Generated' },
-  { val: '6', label: 'Active Territories' },
-  { val: '67', label: 'Avg. Days to First Citation' },
-  { val: '4.2x', label: 'Avg. Traffic Multiplier' },
+  { val: '1.14M+', label: 'Monthly Impressions' },
+  { val: '4 / 4', label: 'AI Platforms Citing' },
+  { val: '$0', label: 'Ad Spend' },
+  { val: '90-Day', label: 'Citation Guarantee' },
 ];
 
-const CASE_STUDIES = [
+const RESULT_STAGES = [
   {
-    sector: 'Plumbing',
-    location: 'Phoenix, AZ',
-    headline: 'PLUMBER: 0 TO 4 AI CITATIONS IN 67 DAYS',
-    citationsPre: '0',
-    citationsPost: '4',
-    timeframe: '67 days',
-    detail: 'A residential plumbing company with no online presence. Zero citations at start. AERO-10 entity mapping + answer-layer content pushed them to the top of ChatGPT and Google AI Overviews for emergency plumbing queries in Phoenix.',
+    stage: 'STAGE 01: BASELINE',
+    window: 'Weeks 1–2',
+    body: 'Baseline scan across ChatGPT, Claude, Perplexity, and Google AI. Every market starts invisible. We captured the zero-state so we could measure movement.',
   },
   {
-    sector: 'HVAC',
-    location: 'Austin, TX',
-    headline: 'HVAC: 120% INCREASE IN SEARCH VISIBILITY',
-    citationsPre: '1',
-    citationsPost: '7',
-    timeframe: '90 days',
-    detail: 'A mid-size HVAC company already ranking on Google but invisible to AI platforms. A full authority overhaul and content distribution strategy pushed their citation count from 1 to 7 across 4 major AI engines.',
+    stage: 'STAGE 02: BUILD',
+    window: 'Weeks 3–8',
+    body: 'AEO content and schema ship. Hub-and-spoke architecture covering rent control, probate, ADU, and seller-intent clusters. Indexing window opens. Pages appear in AI training cycles.',
   },
   {
-    sector: 'Real Estate',
-    location: 'Denver, CO',
-    headline: 'AGENCY: DOMINATING LUXURY CONDO QUERIES',
-    citationsPre: '0',
-    citationsPost: '3',
-    timeframe: '45 days',
-    detail: 'Boutique luxury real estate firm in Denver. Fastest citation capture in the portfolio — 45 days from onboarding to first Perplexity and Claude citations for high-intent buyer queries in the LoDo and Cherry Creek corridors.',
+    stage: 'STAGE 03: FIRST CITATIONS',
+    window: 'Weeks 9–12',
+    body: 'First citations land — measured against the 90-day guarantee. Full AEO Authority Index snapshot delivered. This is where most providers stop. We don\'t.',
   },
   {
-    sector: 'Dental',
-    location: 'Miami, FL',
-    headline: 'DENTIST: 5X ROI VIA PERPLEXITY CITATIONS',
-    citationsPre: '2',
-    citationsPost: '9',
-    timeframe: '120 days',
-    detail: 'Established dental practice with strong local SEO but no AI presence. Content optimization and platform alignment turned existing authority into 9 AI citations — generating a documented 5x ROI in new patient revenue.',
+    stage: 'STAGE 04: MONTHLY PROGRAM',
+    window: 'Month 4+',
+    body: 'Authority Index compounds. The Monday Brief captures rank deltas and Reddit citation opportunities. The Monthly Intelligence Report books the numbers. Dashboard shows live 4-platform tracking.',
   },
   {
-    sector: 'Personal Injury Law',
-    location: 'Los Angeles, CA',
-    headline: 'PI LAW: CAPTURING HIGH-VALUE INTENT QUERIES',
-    citationsPre: '0',
-    citationsPost: '5',
-    timeframe: '80 days',
-    detail: 'Personal injury law firm in Los Angeles. High-value intent queries ($15K–$80K case value). Cluster architecture built around accident types and injury categories. ChatGPT now recommends this firm for 5 distinct high-intent query categories.',
-  },
-  {
-    sector: 'Home Services',
-    location: 'Dallas, TX',
-    headline: 'ROOFING: OVERTAKING NATIONAL COMPETITION',
-    citationsPre: '1',
-    citationsPost: '6',
-    timeframe: '55 days',
-    detail: 'Local roofing contractor competing against Home Depot and national franchise networks for AI citations. Deep relevance building and structural authority work neutralized the national budget advantage. This local contractor is now cited above national brands.',
+    stage: 'STAGE 05: COMPOUND',
+    window: 'Month 6+',
+    body: 'Queries you never wrote content for start citing you. AI engines triangulate across your hub and surface your name for adjacent questions. The dashboard becomes a retention anchor, not a check-in.',
   },
 ];
 
@@ -149,33 +120,31 @@ export default function CaseStudiesPage() {
           <div className="flex items-center gap-3 mb-6">
             <span className="w-3 h-3 bg-[#FF6A00]" />
             <span className="font-mono text-[10px] tracking-widest uppercase text-white/40">
-              Case Studies // Proven Results
+              Case Study // Our Own Site First
             </span>
           </div>
 
           {/* Headline */}
           <h1 className="font-headline font-black text-6xl md:text-8xl lg:text-[clamp(5rem,10vw,9rem)] uppercase tracking-tighter leading-[0.85] mb-10">
-            PROOF OF
+            WE DIDN&apos;T SELL IT
             <br />
             <span
               className="text-[#FF6A00]"
               style={{ textShadow: '0 0 10px rgba(255,106,0,0.25)' }}
             >
-              DOMINANCE
+              UNTIL WE PROVED IT.
             </span>
           </h1>
 
           <div className="grid md:grid-cols-2 gap-12 items-end">
             <p className="text-white/60 text-sm leading-relaxed max-w-xl">
-              Measurable results. Real businesses.{' '}
-              <span className="text-white border-b border-[#FF6A00]">Zero theory.</span> Every
-              case study below was executed with the same AERO-10 framework — tested against
-              real competition in real markets.
+              The AERO-10 framework was built and tested on our own real estate site in the most
+              competitive local market in America. <span className="text-white border-b border-[#FF6A00]">1.14M+ monthly impressions.</span> Four of four major AI platforms citing the same agent. Zero ad spend. Then we packaged it for local service businesses outside real estate.
             </p>
             <div className="flex flex-col gap-2 font-mono text-[10px] tracking-widest text-white/40 md:text-right">
-              <p>RECORDS: VERIFIED</p>
-              <p>Access: Public</p>
-              <p>Status: Verified</p>
+              <p>Market: Los Angeles, CA</p>
+              <p>Competitors: 70,000+ agents</p>
+              <p>Status: Live &amp; compounding</p>
             </div>
           </div>
         </div>
@@ -199,79 +168,42 @@ export default function CaseStudiesPage() {
         </div>
       </section>
 
-      {/* ── MISSION ARCHIVE GRID ─────────────────────────────── */}
+      {/* ── HOW RESULTS BUILD ─────────────────────────────── */}
       <section className="py-32 px-6 lg:px-24 bg-[#131313]">
         <div className="max-w-7xl mx-auto">
-          <div className="flex items-center justify-between mb-16">
-            <h2 className="font-headline font-black text-3xl uppercase tracking-tighter">
-              All Case Studies
-            </h2>
-            <span className="font-mono text-[10px] tracking-widest uppercase text-white/40">
-              Filter: All
+          <div className="mb-16">
+            <span className="font-mono text-[10px] tracking-widest uppercase text-[#FF6A00] block mb-3">
+              What To Expect // Stage By Stage
             </span>
+            <h2 className="font-headline font-black text-4xl md:text-5xl uppercase tracking-tighter">
+              HOW RESULTS{' '}
+              <span className="text-[#FF6A00]">BUILD</span>
+            </h2>
+            <p className="text-white/50 text-sm leading-relaxed mt-4 max-w-2xl">
+              Same framework, applied to your market. The five stages we walk every client through — from zero baseline to compounding authority.
+            </p>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-px bg-[#FF6A00]/10">
-            {CASE_STUDIES.map((cs, i) => (
+          <div className="grid md:grid-cols-5 gap-0 border border-white/10">
+            {RESULT_STAGES.map((stage, i) => (
               <div
                 key={i}
-                className="bg-[#131313] p-10 hover:bg-[#1c1b1b] transition-colors border border-[#FF6A00]/5 group"
+                className={`p-6 bg-[#131313] hover:bg-[#1c1b1b] transition-colors border-l-4 border-l-[#FF6A00] ${
+                  i < RESULT_STAGES.length - 1 ? 'border-b md:border-b-0 md:border-r border-white/10' : ''
+                }`}
               >
-                {/* Header row */}
-                <div className="flex justify-between items-start mb-8">
-                  <div className="w-10 h-10 border border-[#FF6A00]/40 flex items-center justify-center">
-                    <span className="font-mono text-[10px] text-[#FF6A00]">
-                      {String(i + 1).padStart(2, '0')}
-                    </span>
-                  </div>
-                  <span className="font-mono text-[10px] tracking-widest uppercase text-white/40">
-                    {cs.location}
+                <div className="w-10 h-10 border border-[#FF6A00]/40 flex items-center justify-center mb-6">
+                  <span className="font-mono text-[10px] text-[#FF6A00]">
+                    {String(i + 1).padStart(2, '0')}
                   </span>
                 </div>
-
-                {/* Label + Headline */}
-                <div className="mb-4">
-                  <span className="font-mono text-[10px] tracking-widest uppercase text-[#FF6A00]">
-                    {cs.sector}
-                  </span>
-                  <h3 className="font-headline font-black text-2xl uppercase tracking-tighter mt-2 group-hover:text-[#FF6A00] transition-colors leading-tight">
-                    {cs.headline}
-                  </h3>
-                </div>
-
-                {/* Detail */}
-                <p className="text-white/40 text-sm leading-relaxed mb-8">{cs.detail}</p>
-
-                {/* Metrics row */}
-                <div className="grid grid-cols-3 gap-4 border-y border-white/5 py-6">
-                  <div>
-                    <p className="font-mono text-[10px] tracking-widest uppercase text-white/40 mb-2">
-                      Citations Before
-                    </p>
-                    <p className="font-headline font-black text-xl">{cs.citationsPre}</p>
-                  </div>
-                  <div>
-                    <p className="font-mono text-[10px] tracking-widest uppercase text-white/40 mb-2">
-                      Citations After
-                    </p>
-                    <p className="font-headline font-black text-xl text-[#FF6A00]">
-                      {cs.citationsPost}
-                    </p>
-                  </div>
-                  <div>
-                    <p className="font-mono text-[10px] tracking-widest uppercase text-white/40 mb-2">
-                      TIMEFRAME
-                    </p>
-                    <p className="font-headline font-black text-xl">{cs.timeframe}</p>
-                  </div>
-                </div>
-
-                {/* Status */}
-                <div className="mt-6">
-                  <span className="font-mono text-[10px] tracking-widest uppercase text-[#FF6A00]">
-                    Status: Complete
-                  </span>
-                </div>
+                <span className="font-mono text-[10px] tracking-widest uppercase text-[#FF6A00] block mb-2">
+                  {stage.stage}
+                </span>
+                <p className="font-mono text-[10px] tracking-widest uppercase text-white/40 mb-4">
+                  {stage.window}
+                </p>
+                <p className="text-white/50 text-sm leading-relaxed">{stage.body}</p>
               </div>
             ))}
           </div>
@@ -283,12 +215,15 @@ export default function CaseStudiesPage() {
         <div className="max-w-7xl mx-auto">
           <div className="mb-12">
             <span className="font-mono text-[10px] tracking-widest uppercase text-white/40">
-              Deep Dive // Featured
+              Deep Dive // The Verified Case
             </span>
             <h2 className="font-headline font-black text-4xl uppercase tracking-tighter mt-4">
-              Case Study: Borges Real Estate{' '}
-              <span className="text-[#FF6A00]">Team</span>
+              LA Metro Home Finder vs.{' '}
+              <span className="text-[#FF6A00]">70,000 Agents</span>
             </h2>
+            <p className="text-white/50 text-sm leading-relaxed mt-4 max-w-2xl">
+              Our own real estate property. The first place the AERO-10 framework ran live. Today it carries the heaviest AI-citation load of any site in the portfolio.
+            </p>
           </div>
 
           <div className="grid lg:grid-cols-12 gap-12">
@@ -298,17 +233,17 @@ export default function CaseStudiesPage() {
                 {
                   phase: 'PHASE_01: STRATEGY',
                   active: true,
-                  body: 'Semantic mapping of 1,200+ real estate queries in LA County. Entity alignment for Justin Borges as the definitive local expert across buyer, seller, and investor intent.',
+                  body: 'Semantic mapping of 1,200+ real estate queries across LA County. Hub-and-spoke architecture built around buyer, seller, and investor intent — with entity alignment for the site as the definitive local expert.',
                 },
                 {
                   phase: 'PHASE_02: IMPLEMENTATION',
                   active: false,
-                  body: 'AERO-10 content architecture implemented. Schema markup, knowledge graph seeding, and content distribution across all major AI platforms.',
+                  body: 'AERO-10 content architecture shipped. Schema markup, knowledge graph seeding, citation tracking across ChatGPT, Claude, Perplexity, and Google AI Overviews.',
                 },
                 {
                   phase: 'PHASE_03: RESULTS',
                   active: false,
-                  body: 'ChatGPT, Claude, Perplexity, and Google AI Overviews all citing Justin Borges as the recommended LA real estate agent. 8,400+ monthly organic clicks. Zero ad spend.',
+                  body: 'All four major AI platforms now cite the site for rent control, probate, and ADU questions. 1.14M+ monthly impressions. $0 ad spend. And the authority keeps compounding.',
                 },
               ].map((phase, i) => (
                 <div key={i} className="relative">
@@ -371,10 +306,10 @@ export default function CaseStudiesPage() {
 
               <div className="pt-8 border-t border-white/5 flex flex-wrap gap-12">
                 {[
-                  { label: 'Monthly Clicks', val: '8,400+', orange: true },
-                  { label: 'AI Platforms Citing', val: '4', orange: false },
+                  { label: 'Monthly Impressions', val: '1.14M+', orange: true },
+                  { label: 'AI Platforms Citing', val: '4 / 4', orange: false },
                   { label: 'Ad Spend', val: '$0', orange: false },
-                  { label: 'Impressions', val: '1.1M+', orange: false },
+                  { label: 'Query Clusters Won', val: '3+', orange: false },
                 ].map((stat) => (
                   <div key={stat.label}>
                     <span className="block font-mono text-[10px] tracking-widest uppercase text-white/40 mb-1">
@@ -401,15 +336,25 @@ export default function CaseStudiesPage() {
           <h2 className="font-headline font-black text-4xl md:text-5xl uppercase tracking-tighter text-black leading-none text-center md:text-left">
             READY TO SEE YOUR NAME<br />IN AI RESULTS?
           </h2>
-          <Link
-            href="/#territory-check"
-            className="bg-black text-[#FF6A00] px-12 py-5 font-headline font-black uppercase tracking-tighter text-lg hover:bg-[#131313] transition-colors inline-flex items-center gap-3 whitespace-nowrap"
-          >
-            Get Your Free Audit
-            <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={2.5}>
-              <path strokeLinecap="round" strokeLinejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3" />
-            </svg>
-          </Link>
+          <div className="flex flex-col sm:flex-row gap-4">
+            <Link
+              href="/#territory-check"
+              className="bg-black text-[#FF6A00] px-12 py-5 font-headline font-black uppercase tracking-tighter text-lg hover:bg-[#131313] transition-colors inline-flex items-center gap-3 whitespace-nowrap"
+            >
+              Check Territory
+              <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={2.5}>
+                <path strokeLinecap="round" strokeLinejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3" />
+              </svg>
+            </Link>
+            <a
+              href="https://calendly.com/theanswerengine-support/30min"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="border-2 border-black text-black px-12 py-5 font-headline font-black uppercase tracking-tighter text-lg hover:bg-black hover:text-[#FF6A00] transition-colors inline-flex items-center justify-center whitespace-nowrap"
+            >
+              Book 30-Min Call
+            </a>
+          </div>
         </div>
       </section>
     </main>
