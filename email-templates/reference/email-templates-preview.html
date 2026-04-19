@@ -1,0 +1,1909 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>The Answer Engine — Email Templates</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700&family=Inter:wght@400;500;600;700;800;900&family=Space+Grotesk:wght@400;500;600;700&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet">
+
+<style>
+  :root {
+    --bg-app: #131313;
+    --bg-app-2: #1c1b1b;
+    --bg-card: #2a2a2a;
+    --line: rgba(255,255,255,0.10);
+    --line-2: rgba(255,255,255,0.18);
+    --fg: #e5e2e1;
+    --fg-dim: rgba(229,226,225,0.60);
+    --fg-faint: rgba(229,226,225,0.40);
+    --signal: #F27D24;           /* brand orange */
+    --amber: #F27D24;            /* alias */
+    --purple: #362478;           /* brand purple */
+    --red: #BF172E;              /* brand red */
+    --brand-black: #000000;
+    --font-mono: 'JetBrains Mono', ui-monospace, Menlo, monospace;
+    --font-sans: 'Inter', system-ui, sans-serif;
+    --font-display: 'Space Grotesk', 'Inter', sans-serif;
+    --font-serif: 'Instrument Serif', Georgia, serif;
+  }
+  * { box-sizing: border-box; }
+  html,body { height:100%; }
+  body {
+    margin:0;
+    background: var(--bg-app);
+    color: var(--fg);
+    font-family: var(--font-sans);
+    font-size: 14px;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    overflow: hidden;
+  }
+  button { font: inherit; color: inherit; background: none; border: 0; cursor: pointer; padding: 0; }
+
+  /* ================ APP SHELL ================ */
+  .app {
+    display: grid;
+    grid-template-columns: 280px 360px 1fr;
+    grid-template-rows: 48px 1fr;
+    height: 100vh;
+    width: 100vw;
+  }
+  .topbar {
+    grid-column: 1 / -1;
+    border-bottom: 1px solid var(--line);
+    display: flex; align-items: center;
+    padding: 0 18px;
+    background: var(--bg-app);
+    gap: 18px;
+    font-family: var(--font-mono);
+    font-size: 11px;
+    letter-spacing: 0.08em;
+  }
+  .brand {
+    display:flex; align-items:center; gap:10px;
+    font-weight: 600;
+    letter-spacing: 0.12em;
+  }
+  .brand-mark {
+    width: 26px; height: 26px;
+    background: url('assets/logo-mark.png') center/contain no-repeat;
+    display: block;
+  }
+  .brand-mark::before { content: none; }
+  .topbar-crumbs { color: var(--fg-faint); display:flex; gap: 10px; }
+  .topbar-crumbs b { color: var(--fg); font-weight: 500; }
+  .topbar-right {
+    margin-left: auto;
+    display:flex; gap: 14px; align-items: center;
+    color: var(--fg-dim);
+  }
+  .live-dot {
+    width: 6px; height: 6px; border-radius: 50%;
+    background: var(--signal);
+    box-shadow: 0 0 8px var(--signal);
+    animation: pulse 1.6s ease-in-out infinite;
+  }
+  @keyframes pulse {
+    0%,100% { opacity: 1; }
+    50% { opacity: .35; }
+  }
+
+  /* ================ FOLDER RAIL ================ */
+  .rail {
+    border-right: 1px solid var(--line);
+    padding: 18px 0;
+    display:flex; flex-direction: column; gap: 2px;
+    overflow-y: auto;
+    background: var(--bg-app);
+  }
+  .rail h4 {
+    margin: 18px 18px 6px;
+    font: 500 10px/1 var(--font-mono);
+    letter-spacing: 0.12em;
+    color: var(--fg-faint);
+    text-transform: uppercase;
+  }
+  .rail h4:first-child { margin-top: 0; }
+  .rail-item {
+    display: grid;
+    grid-template-columns: 18px 1fr auto;
+    align-items: center;
+    gap: 10px;
+    padding: 8px 18px;
+    font-size: 13px;
+    color: var(--fg-dim);
+    position: relative;
+  }
+  .rail-item .dot {
+    width: 6px; height: 6px; border-radius: 50%;
+    background: var(--fg-faint);
+    margin: 0 auto;
+  }
+  .rail-item .count {
+    font: 500 10px/1 var(--font-mono);
+    color: var(--fg-faint);
+    letter-spacing: 0.08em;
+  }
+  .rail-item.active {
+    background: rgba(255,255,255,0.04);
+    color: var(--fg);
+  }
+  .rail-item.active::before {
+    content:''; position:absolute; left:0; top: 6px; bottom: 6px; width: 2px;
+    background: var(--signal);
+  }
+  .rail-item.active .dot { background: var(--signal); box-shadow: 0 0 6px var(--signal); }
+  .rail-compose {
+    margin: 14px 18px 6px;
+    padding: 10px 12px;
+    border: 1px solid var(--line-2);
+    text-transform: uppercase;
+    font: 600 11px/1 var(--font-mono);
+    letter-spacing: 0.12em;
+    display:flex; align-items:center; justify-content: space-between;
+    color: var(--fg);
+  }
+  .rail-compose:hover { background: rgba(255,255,255,0.03); }
+  .rail-meta {
+    margin: 22px 18px 0;
+    padding-top: 14px;
+    border-top: 1px dashed var(--line);
+    font: 500 10px/1.6 var(--font-mono);
+    letter-spacing: 0.06em;
+    color: var(--fg-faint);
+  }
+  .rail-meta b { color: var(--fg-dim); font-weight: 500; }
+
+  /* ================ LIST PANE ================ */
+  .list {
+    border-right: 1px solid var(--line);
+    overflow-y: auto;
+    background: var(--bg-app);
+  }
+  .list-head {
+    position: sticky; top: 0;
+    background: var(--bg-app);
+    padding: 14px 18px 10px;
+    border-bottom: 1px solid var(--line);
+    z-index: 2;
+  }
+  .list-title {
+    font: 700 18px/1.1 var(--font-display);
+    letter-spacing: -0.01em;
+    display:flex; align-items:center; gap:10px;
+  }
+  .list-title small {
+    font: 500 10px/1 var(--font-mono);
+    letter-spacing: 0.12em;
+    color: var(--fg-faint);
+    border: 1px solid var(--line-2);
+    padding: 3px 6px;
+  }
+  .list-sub {
+    margin-top: 4px;
+    font: 500 10px/1 var(--font-mono);
+    letter-spacing: 0.08em;
+    color: var(--fg-faint);
+    text-transform: uppercase;
+    display:flex; gap: 12px;
+  }
+  .list-filters {
+    display:flex; gap: 6px;
+    margin-top: 12px;
+    font-family: var(--font-mono);
+    font-size: 10px;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+  }
+  .list-filters button {
+    padding: 5px 8px;
+    border: 1px solid var(--line);
+    color: var(--fg-dim);
+  }
+  .list-filters button.on {
+    background: var(--fg);
+    color: #0b0b0c;
+    border-color: var(--fg);
+  }
+  .mail-row {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    padding: 14px 18px;
+    border-bottom: 1px solid var(--line);
+    cursor: pointer;
+    gap: 4px;
+    position: relative;
+  }
+  .mail-row:hover { background: rgba(255,255,255,0.025); }
+  .mail-row.active {
+    background: rgba(255,255,255,0.04);
+  }
+  .mail-row.active::before {
+    content:''; position:absolute; left:0; top:0; bottom:0; width: 2px;
+    background: var(--signal);
+  }
+  .mail-row .from {
+    font: 600 12px/1.2 var(--font-sans);
+    display:flex; align-items:center; gap: 8px;
+  }
+  .mail-row .from .tag {
+    font: 500 9px/1 var(--font-mono);
+    letter-spacing: 0.1em;
+    color: var(--fg-faint);
+    text-transform: uppercase;
+    border: 1px solid var(--line-2);
+    padding: 2px 5px;
+  }
+  .mail-row .from .tag.sig { color: var(--signal); border-color: rgba(158,240,107,0.4); }
+  .mail-row .from .tag.amb { color: var(--amber); border-color: rgba(245,181,68,0.4); }
+  .mail-row .from .tag.red { color: var(--red); border-color: rgba(255,106,88,0.4); }
+  .mail-row .time {
+    font: 500 10px/1 var(--font-mono);
+    color: var(--fg-faint);
+    letter-spacing: 0.05em;
+  }
+  .mail-row .subj {
+    font: 500 13px/1.3 var(--font-sans);
+    color: var(--fg);
+    grid-column: 1 / -1;
+    text-wrap: balance;
+  }
+  .mail-row .prev {
+    font-size: 12px;
+    color: var(--fg-dim);
+    grid-column: 1 / -1;
+    line-height: 1.4;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+
+  /* ================ VIEW PANE ================ */
+  .view {
+    overflow: hidden;
+    display: grid;
+    grid-template-rows: auto 1fr;
+    background: radial-gradient(circle at 50% 0%, #161618, var(--bg-app) 60%);
+  }
+  .view-head {
+    border-bottom: 1px solid var(--line);
+    padding: 14px 22px;
+    display: grid;
+    grid-template-columns: 1fr auto;
+    align-items: center;
+    gap: 16px;
+  }
+  .view-head .subject {
+    font: 700 16px/1.2 var(--font-display);
+    letter-spacing: -0.01em;
+  }
+  .view-head .meta {
+    font: 500 10px/1 var(--font-mono);
+    letter-spacing: 0.08em;
+    color: var(--fg-faint);
+    text-transform: uppercase;
+    margin-top: 4px;
+    display:flex; gap: 12px;
+  }
+  .view-head .actions {
+    display:flex; gap: 6px;
+    font-family: var(--font-mono);
+    font-size: 10px;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+  }
+  .view-head .actions button {
+    padding: 6px 10px;
+    border: 1px solid var(--line);
+    color: var(--fg-dim);
+  }
+  .view-head .actions button:hover { color: var(--fg); border-color: var(--line-2); }
+  .view-head .actions .primary {
+    background: var(--fg); color: #0b0b0c; border-color: var(--fg); font-weight: 600;
+  }
+
+  .viewport {
+    overflow-y: auto;
+    padding: 28px;
+    position: relative;
+  }
+  .device-toggle {
+    position: absolute; top: 14px; right: 22px;
+    display:flex; gap: 2px;
+    font-family: var(--font-mono);
+    font-size: 10px;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    z-index: 4;
+  }
+  .device-toggle button {
+    padding: 5px 9px;
+    border: 1px solid var(--line);
+    background: var(--bg-app);
+    color: var(--fg-dim);
+  }
+  .device-toggle button.on { background: var(--fg); color: #0b0b0c; border-color: var(--fg); }
+
+  .device {
+    margin: 0 auto;
+    transition: max-width .35s cubic-bezier(.4,0,.2,1);
+  }
+  .device.desktop { max-width: 680px; }
+  .device.mobile  { max-width: 380px; }
+
+  .email-frame {
+    background: #000;
+    border: 1px solid var(--line);
+    overflow: hidden;
+  }
+
+  /* ================ TWEAKS PANEL ================ */
+  .tweaks {
+    position: fixed; right: 20px; bottom: 20px;
+    width: 280px;
+    background: var(--bg-app-2);
+    border: 1px solid var(--line-2);
+    box-shadow: 0 20px 60px rgba(0,0,0,0.6);
+    z-index: 50;
+    display: none;
+    font-family: var(--font-mono);
+  }
+  .tweaks.on { display: block; }
+  .tweaks-head {
+    padding: 10px 14px;
+    border-bottom: 1px solid var(--line);
+    display:flex; justify-content: space-between; align-items: center;
+    font-size: 10px; letter-spacing: 0.14em; text-transform: uppercase;
+  }
+  .tweaks-head::before {
+    content:''; width: 6px; height: 6px; border-radius: 50%;
+    background: var(--signal); box-shadow: 0 0 6px var(--signal);
+    display: inline-block; margin-right: 8px; vertical-align: middle;
+  }
+  .tweak { padding: 12px 14px; border-bottom: 1px solid var(--line); }
+  .tweak:last-child { border-bottom: 0; }
+  .tweak label { font-size: 10px; letter-spacing: 0.1em; text-transform: uppercase; color: var(--fg-faint); display:block; margin-bottom: 8px; }
+  .seg {
+    display: grid; grid-auto-flow: column; grid-auto-columns: 1fr;
+    gap: 2px;
+    border: 1px solid var(--line);
+  }
+  .seg button {
+    padding: 7px 4px;
+    font: 500 10px/1 var(--font-mono);
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--fg-dim);
+    border-right: 1px solid var(--line);
+  }
+  .seg button:last-child { border-right: 0; }
+  .seg button.on { background: var(--fg); color: #0b0b0c; }
+
+  /* ================ EMAIL STYLES: BASE ================ */
+  .em {
+    font-family: var(--font-sans);
+    color: #e9e9e8;
+    background: #0c0c0d;
+  }
+  .em p { margin: 0 0 14px; line-height: 1.55; font-size: 15px; color: #d5d5d2; }
+  .em p.lede { font-size: 17px; color: #efefee; }
+  .em strong { color: #fff; font-weight: 600; }
+  .em a { color: inherit; }
+
+  /* =========== TERMINAL (orange primary, purple accent, red alerts) =========== */
+  .em.terminal { background: #0f0f10; color: #d8d5d3; }
+  .em.terminal .t-head {
+    padding: 0;
+    background: #0f0f10;
+    position: relative;
+    color: rgba(229,226,225,0.55);
+  }
+  .em.terminal .t-head::before {
+    content:''; position: absolute; inset: 0 0 auto 0; height: 3px;
+    background: linear-gradient(90deg, var(--signal) 0 42%, var(--purple) 42% 78%, var(--red) 78% 100%);
+  }
+  .em.terminal .t-head-row {
+    padding: 16px 24px 14px;
+    display:flex; align-items:center; justify-content: space-between;
+    font: 500 10px/1 var(--font-mono);
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    border-bottom: 1px solid rgba(255,255,255,0.08);
+  }
+  .em.terminal .t-brand { display:flex; align-items:center; gap: 12px; color: var(--fg); font-weight: 800; letter-spacing: 0.14em; font-family: var(--font-display); text-transform: uppercase; font-size: 11px; }
+  .em.terminal .t-brand .m {
+    width: 26px; height: 26px; display: block;
+    background: url('assets/logo-mark.png') center/contain no-repeat;
+  }
+  .em.terminal .t-brand .m::before {
+    content: none;
+  }
+  .em.terminal .t-live {
+    display:flex; gap:8px; align-items:center;
+  }
+  .em.terminal .t-live .dot {
+    width: 6px; height: 6px; border-radius:50%; background: var(--red);
+    box-shadow: 0 0 8px var(--red);
+    animation: pulse 1.4s ease-in-out infinite;
+  }
+  @keyframes pulse { 50% { opacity: 0.35; } }
+  .em.terminal .t-body { padding: 36px 28px 40px; }
+  .em.terminal .t-label {
+    font: 700 11px/1 var(--font-mono);
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: var(--signal);
+    display:flex; align-items:center; gap: 10px;
+  }
+  .em.terminal .t-label::before, .em.terminal .t-label::after {
+    content:''; height: 1px; flex: 1; max-width: 32px;
+    background: rgba(242,125,36,0.5);
+  }
+  .em.terminal .t-label::after { display: none; }
+  .em.terminal .t-h {
+    font-family: var(--font-display);
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 0.92;
+    letter-spacing: -0.035em;
+    text-transform: uppercase;
+    margin: 12px 0 20px;
+    color: var(--fg);
+    text-wrap: balance;
+  }
+  .em.terminal .t-h .sig { color: var(--signal); }
+  .em.terminal .t-rule {
+    height: 1px; background: rgba(255,255,255,0.10);
+    margin: 24px 0;
+  }
+  .em.terminal .t-stats {
+    display: grid; grid-template-columns: 1fr 1fr 1fr;
+    border: 1px solid rgba(255,255,255,0.10);
+    background: linear-gradient(180deg, #25214a 0%, #1a1830 100%);
+    margin: 22px 0;
+    position: relative;
+  }
+  .em.terminal .t-stats::before {
+    content:''; position:absolute; inset: 0 0 auto 0; height: 2px;
+    background: linear-gradient(90deg, var(--signal), var(--purple), var(--red));
+  }
+  .em.terminal .t-stat { padding: 20px 18px; border-right: 1px solid rgba(255,255,255,0.10); }
+  .em.terminal .t-stat:last-child { border-right: 0; }
+  .em.terminal .t-stat .num {
+    font: 900 32px/1 var(--font-display);
+    color: var(--fg);
+    letter-spacing: -0.04em;
+  }
+  .em.terminal .t-stat:nth-child(1) .num { color: var(--signal); }
+  .em.terminal .t-stat:nth-child(2) .num { color: #9289e3; }
+  .em.terminal .t-stat:nth-child(3) .num { color: var(--red); }
+  .em.terminal .t-stat .num.orange { color: var(--signal); }
+  .em.terminal .t-stat .lbl {
+    font: 500 10px/1.3 var(--font-mono);
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: rgba(229,226,225,0.45);
+    margin-top: 6px;
+  }
+  .em.terminal .t-cta {
+    display:inline-flex; align-items:center; gap: 10px;
+    padding: 16px 22px;
+    background: var(--signal);
+    color: #000;
+    font: 900 13px/1 var(--font-display);
+    letter-spacing: -0.01em;
+    text-transform: uppercase;
+    margin: 10px 0 8px;
+  }
+  .em.terminal .t-cta-sub {
+    font: 500 10px/1 var(--font-mono);
+    color: rgba(229,226,225,0.42);
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    margin-top: 12px;
+  }
+  .em.terminal .t-card {
+    background: linear-gradient(90deg, rgba(54,36,120,0.35), rgba(54,36,120,0.08));
+    border-left: 4px solid var(--purple);
+    padding: 18px 20px;
+    margin: 18px 0;
+  }
+  .em.terminal .t-card.alert {
+    background: linear-gradient(90deg, rgba(191,23,46,0.28), rgba(191,23,46,0.06));
+    border-left-color: var(--red);
+  }
+  .em.terminal .t-card .ct-label {
+    font: 700 10px/1 var(--font-mono);
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
+    color: #b9b0f0;
+    margin-bottom: 8px;
+  }
+  .em.terminal .t-card.alert .ct-label { color: #ff8a96; }
+  .em.terminal .t-footer {
+    padding: 22px 28px 24px;
+    border-top: 1px solid rgba(255,255,255,0.10);
+    display:grid; gap:10px;
+    font: 500 10px/1.6 var(--font-mono);
+    letter-spacing: 0.12em;
+    color: rgba(229,226,225,0.42);
+    text-transform: uppercase;
+    position: relative;
+  }
+  .em.terminal .t-footer::after {
+    content:''; position: absolute; right: 0; bottom: 0; height: 4px; width: 120px;
+    background: var(--signal);
+  }
+  .em.terminal .kv { display:grid; grid-template-columns: 110px 1fr; gap: 10px; font: 500 11px/1.6 var(--font-mono); letter-spacing: 0.08em; text-transform: uppercase; }
+  .em.terminal .kv dt { color: rgba(229,226,225,0.4); }
+  .em.terminal .kv dd { margin: 0; color: #e5e2e1; }
+  .em.terminal .bars { display:grid; gap: 10px; margin: 14px 0; }
+  .em.terminal .bar { display:grid; grid-template-columns: 140px 1fr 48px; gap: 12px; align-items:center; font: 700 10px/1 var(--font-mono); letter-spacing:0.12em; text-transform: uppercase; color: rgba(229,226,225,0.75); }
+  .em.terminal .bar .track { height: 6px; background: rgba(255,255,255,0.06); position: relative; }
+  .em.terminal .bar .fill { position: absolute; inset: 0 auto 0 0; background: linear-gradient(90deg, var(--purple), var(--signal)); }
+  .em.terminal .bar b { color: var(--signal); font-weight: 700; }
+  .em.terminal .t-chip { display:inline-flex; align-items:center; gap: 6px; padding: 4px 10px; font: 700 9px/1 var(--font-mono); letter-spacing: 0.16em; text-transform: uppercase; background: var(--red); color: #fff; margin-right: 8px; }
+  .em.terminal .t-chip.warn { background: var(--signal); color: #000; }
+  .em.terminal .t-chip.info { background: var(--purple); color: #fff; }
+
+  /* =========== DOSSIER (purple hero, orange callouts, red stamp) =========== */
+  .em.dossier { background: #0f0f10; color: #e5e2e1; font-family: var(--font-sans); }
+  .em.dossier .d-head {
+    padding: 14px 24px;
+    background: var(--purple);
+    color: #fff;
+    display:flex; align-items:center; justify-content: space-between;
+    font: 500 10px/1 var(--font-mono);
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+  }
+  .em.dossier .d-brand { display:flex; align-items:center; gap: 12px; color: #fff; font-weight: 900; letter-spacing: 0.16em; font-family: var(--font-display); text-transform: uppercase; font-size: 11px; }
+  .em.dossier .d-brand .m { width: 32px; height: 32px; background: url('assets/logo-mark.png') center/contain no-repeat; filter: brightness(1.1); }
+  .em.dossier .d-stamp { background: var(--red); color: #fff; padding: 5px 10px; letter-spacing: 0.2em; font-weight: 900; }
+  .em.dossier .d-hero {
+    background: var(--purple);
+    color: #fff;
+    padding: 44px 32px 48px;
+    position: relative;
+    border-bottom: 3px solid var(--signal);
+  }
+  .em.dossier .d-hero::after {
+    content:''; position: absolute; right: 28px; top: 28px;
+    width: 56px; height: 56px;
+    background: url('assets/logo-mark.png') center/contain no-repeat;
+    opacity: 0.14;
+  }
+  .em.dossier .d-body { padding: 40px 32px 36px; background: #1c1b1b; }
+  .em.dossier .d-preheader {
+    font: 700 10px/1 var(--font-mono);
+    letter-spacing: 0.24em;
+    text-transform: uppercase;
+    color: var(--signal);
+    margin-bottom: 20px;
+    display:inline-flex; align-items:center; gap: 10px;
+  }
+  .em.dossier .d-preheader::before {
+    content:''; width: 20px; height: 2px; background: var(--signal);
+  }
+  .em.dossier .d-h {
+    font-family: var(--font-display);
+    font-weight: 900;
+    font-size: 62px;
+    line-height: 0.86;
+    letter-spacing: -0.045em;
+    margin: 0 0 18px;
+    color: #fff;
+    text-wrap: balance;
+    text-transform: uppercase;
+  }
+  .em.dossier .d-h em { font-style: normal; color: var(--signal); }
+  .em.dossier .d-h .pu { font-style: normal; color: #fff; background: var(--red); padding: 0 10px; }
+  .em.dossier .d-sub {
+    font: 500 11px/1.4 var(--font-mono);
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: rgba(255,255,255,0.7);
+    margin: 0;
+    padding-top: 10px;
+    border-top: 1px solid rgba(255,255,255,0.18);
+    display:flex; gap: 24px; flex-wrap: wrap;
+  }
+  .em.dossier .d-sub span b { color: #fff; font-weight: 800; margin-right: 6px; }
+  .em.dossier p { color: rgba(229,226,225,0.70); font-size: 15px; }
+  .em.dossier .d-numstep {
+    display:grid; grid-template-columns: 58px 1fr; gap: 16px;
+    padding: 20px 0;
+    border-top: 1px solid rgba(255,255,255,0.10);
+  }
+  .em.dossier .d-numstep:last-child { border-bottom: 1px solid rgba(255,255,255,0.10); }
+  .em.dossier .d-numstep .n {
+    font: 900 22px/1 var(--font-display);
+    color: var(--signal);
+    letter-spacing: -0.02em;
+  }
+  .em.dossier .d-numstep h5 {
+    margin: 0 0 6px;
+    font: 900 16px/1.2 var(--font-display);
+    letter-spacing: -0.01em;
+    text-transform: uppercase;
+    color: var(--fg);
+  }
+  .em.dossier .d-numstep p { font-size: 14px; color: rgba(229,226,225,0.60); margin: 0; line-height: 1.5; }
+
+  .em.dossier .d-cta {
+    display:inline-flex; align-items: center; gap: 14px;
+    padding: 18px 28px;
+    background: var(--signal);
+    color: #000;
+    font: 900 13px/1 var(--font-display);
+    letter-spacing: -0.01em;
+    text-transform: uppercase;
+    margin-top: 26px;
+    box-shadow: 6px 6px 0 var(--purple);
+    transition: transform .15s ease, box-shadow .15s ease;
+  }
+  .em.dossier .d-cta:hover { transform: translate(2px,2px); box-shadow: 4px 4px 0 var(--purple); }
+  .em.dossier .d-cta::after {
+    content:'→'; font: 700 14px/1 var(--font-display); letter-spacing: 0;
+  }
+  .em.dossier .d-quote {
+    background: var(--purple);
+    color: #fff;
+    padding: 26px 28px;
+    margin: 26px 0;
+    font-family: var(--font-display);
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 1.3;
+    letter-spacing: -0.015em;
+    position: relative;
+  }
+  .em.dossier .d-quote::before {
+    content: '“'; position: absolute; top: -4px; left: 14px; font: 900 56px/1 var(--font-display); color: var(--signal);
+  }
+  .em.dossier .d-quote cite {
+    display:block;
+    font: 700 10px/1 var(--font-mono);
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
+    font-style: normal;
+    color: rgba(229,226,225,0.40);
+    margin-top: 16px;
+  }
+  .em.dossier .d-footer {
+    padding: 24px 32px;
+    background: #0f0f10;
+    font: 500 10px/1.7 var(--font-mono);
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: rgba(229,226,225,0.45);
+    display:flex; justify-content: space-between; flex-wrap: wrap; gap: 14px;
+    position: relative;
+    border-top: 1px solid rgba(255,255,255,0.08);
+  }
+  .em.dossier .d-footer::after {
+    content:''; position:absolute; right:0; bottom:0; height:4px; width: 100%;
+    background: linear-gradient(90deg, var(--purple) 0 50%, var(--signal) 50% 80%, var(--red) 80%);
+  }
+  .em.dossier .d-kv { display:grid; grid-template-columns: 130px 1fr; gap: 10px 14px; font: 500 11px/1.6 var(--font-mono); letter-spacing: 0.10em; text-transform: uppercase; margin: 16px 0 22px; padding: 16px 0; border-top: 1px solid rgba(255,255,255,0.10); border-bottom: 1px solid rgba(255,255,255,0.10); }
+  .em.dossier .d-kv dt { color: rgba(229,226,225,0.45); }
+  .em.dossier .d-kv dd { margin: 0; color: var(--fg); }
+  .em.dossier .d-hr { height: 1px; background: rgba(255,255,255,0.10); margin: 22px 0; }
+
+  /* =========== BROADCAST (tricolor stripe, orange hero, purple body) =========== */
+  .em.broadcast { background: #131313; color: #e5e2e1; font-family: var(--font-sans); }
+  .em.broadcast .b-stripe { display: grid; grid-template-columns: 3fr 2fr 1fr; height: 8px; }
+  .em.broadcast .b-stripe span:nth-child(1) { background: var(--signal); }
+  .em.broadcast .b-stripe span:nth-child(2) { background: var(--purple); }
+  .em.broadcast .b-stripe span:nth-child(3) { background: var(--red); }
+  .em.broadcast .b-head {
+    padding: 16px 24px;
+    background: #000;
+    color: #fff;
+    display:flex; align-items:center; justify-content: space-between;
+    font: 500 10px/1 var(--font-mono);
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+  }
+  .em.broadcast .b-brand { display:flex; align-items:center; gap: 12px; font-family: var(--font-display); font-weight: 900; letter-spacing: 0.14em; text-transform: uppercase; font-size: 11px; }
+  .em.broadcast .b-brand .m { width: 26px; height: 26px; background: url('assets/logo-mark.png') center/contain no-repeat; }
+  .em.broadcast .b-head .meta { color: rgba(229,226,225,0.40); }
+  .em.broadcast .b-hero {
+    background: var(--signal);
+    color: #000;
+    padding: 56px 28px 48px;
+    position: relative;
+    overflow: hidden;
+  }
+  .em.broadcast .b-hero::after {
+    content:''; position: absolute; right: -30px; top: -30px;
+    width: 180px; height: 180px;
+    background: url('assets/logo-mark.png') center/contain no-repeat;
+    opacity: 0.12;
+    transform: rotate(12deg);
+  }
+  .em.broadcast .b-kicker {
+    font: 700 10px/1 var(--font-mono);
+    letter-spacing: 0.24em;
+    text-transform: uppercase;
+    color: rgba(0,0,0,0.7);
+    margin-bottom: 16px;
+    display:flex; gap: 10px; align-items:center;
+  }
+  .em.broadcast .b-kicker::before {
+    content:''; width: 24px; height: 2px; background: #000;
+  }
+  .em.broadcast .b-h {
+    font-family: var(--font-display);
+    font-size: 64px;
+    line-height: 0.86;
+    letter-spacing: -0.045em;
+    margin: 0;
+    font-weight: 900;
+    text-transform: uppercase;
+    text-wrap: balance;
+    color: #000;
+  }
+  .em.broadcast .b-h .mark {
+    background: var(--purple); color: #fff; padding: 0 10px;
+  }
+  .em.broadcast .b-h .mark-r {
+    background: var(--red); color: #fff; padding: 0 10px;
+  }
+  .em.broadcast .b-sub {
+    margin-top: 20px;
+    font: 600 12px/1.5 var(--font-mono);
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: rgba(0,0,0,0.75);
+    max-width: 440px;
+  }
+  .em.broadcast .b-body { padding: 40px 28px; background: #1c1b1b; position: relative; }
+  .em.broadcast .b-body p { color: rgba(229,226,225,0.65); font-size: 15px; }
+  .em.broadcast .b-body p.lede { font-size: 19px; line-height: 1.35; color: var(--fg); font-weight: 400; text-wrap: pretty; }
+  .em.broadcast .b-body p strong { color: var(--fg); font-weight: 700; }
+  .em.broadcast .b-bignum {
+    display:grid; grid-template-columns: auto 1fr; gap: 26px; align-items: end;
+    padding: 26px 0; border-top: 1px solid rgba(255,255,255,0.10); border-bottom: 1px solid rgba(255,255,255,0.10);
+    margin: 28px 0;
+  }
+  .em.broadcast .b-bignum .big {
+    font: 900 88px/0.82 var(--font-display);
+    letter-spacing: -0.055em;
+    color: var(--signal);
+  }
+  .em.broadcast .b-bignum.purple .big { color: #9289e3; }
+  .em.broadcast .b-bignum.red .big { color: var(--red); }
+  .em.broadcast .b-bignum .label {
+    font: 700 11px/1.4 var(--font-mono);
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
+    color: rgba(229,226,225,0.55);
+    padding-bottom: 10px;
+  }
+  .em.broadcast .b-cta {
+    display:inline-flex; align-items:center; gap: 14px;
+    padding: 20px 32px;
+    background: var(--signal); color: #000;
+    font: 900 13px/1 var(--font-display);
+    letter-spacing: -0.01em;
+    text-transform: uppercase;
+    margin: 12px 0 4px;
+    box-shadow: -8px 8px 0 var(--purple);
+    transition: transform .15s ease, box-shadow .15s ease;
+  }
+  .em.broadcast .b-cta:hover { transform: translate(-2px, 2px); box-shadow: -6px 6px 0 var(--purple); }
+  .em.broadcast .b-cta::after { content:'→'; font: 900 16px/1 var(--font-display); }
+  .em.broadcast .b-grid {
+    display:grid; grid-template-columns: 1fr 1fr; gap: 0;
+    border: 1px solid rgba(255,255,255,0.10);
+    margin: 28px 0;
+  }
+  .em.broadcast .b-tile {
+    background: #2a2a2a;
+    padding: 20px;
+    border-right: 1px solid rgba(255,255,255,0.10);
+    border-bottom: 1px solid rgba(255,255,255,0.10);
+  }
+  .em.broadcast .b-tile:nth-child(2n) { border-right: 0; }
+  .em.broadcast .b-tile:nth-last-child(-n+2) { border-bottom: 0; }
+  .em.broadcast .b-tile .k {
+    font: 700 10px/1 var(--font-mono);
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
+    color: rgba(229,226,225,0.40);
+    margin-bottom: 10px;
+  }
+  .em.broadcast .b-tile .v {
+    font: 900 32px/1 var(--font-display);
+    letter-spacing: -0.04em;
+    color: var(--signal);
+  }
+  .em.broadcast .b-tile:nth-child(2) .v { color: #9289e3; }
+  .em.broadcast .b-tile:nth-child(3) .v { color: var(--red); }
+  .em.broadcast .b-footer {
+    padding: 22px 28px;
+    background: #131313;
+    color: rgba(229,226,225,0.40);
+    font: 500 10px/1.7 var(--font-mono);
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    display:flex; justify-content: space-between; flex-wrap: wrap; gap: 14px;
+    border-top: 1px solid rgba(255,255,255,0.10);
+    position: relative;
+  }
+  .em.broadcast .b-footer::after {
+    content:''; position:absolute; left:0; right:0; bottom:0; height: 4px;
+    background: linear-gradient(90deg, var(--signal) 0 55%, var(--purple) 55% 85%, var(--red) 85% 100%);
+  }
+
+  /* Mobile variant tweaks */
+  .device.mobile .em .t-h, .device.mobile .em .d-h, .device.mobile .em .b-h {
+    font-size: 34px;
+  }
+  .device.mobile .em.broadcast .b-h { font-size: 36px; }
+  .device.mobile .em .t-body, .device.mobile .em .d-body, .device.mobile .em .b-body, .device.mobile .em .b-hero {
+    padding-left: 20px; padding-right: 20px;
+  }
+  .device.mobile .em .t-stats { grid-template-columns: 1fr; }
+  .device.mobile .em .t-stats .t-stat { border-right: 0; border-bottom: 1px solid rgba(158,240,107,0.22); }
+  .device.mobile .em .t-stats .t-stat:last-child { border-bottom: 0; }
+  .device.mobile .em .b-grid { grid-template-columns: 1fr; }
+  .device.mobile .em.broadcast .b-bignum { grid-template-columns: 1fr; gap: 8px; }
+  .device.mobile .em.broadcast .b-bignum .big { font-size: 58px; }
+
+  /* Airy/Tight density */
+  .density-tight .em .t-body, .density-tight .em .d-body, .density-tight .em .b-body { padding-top: 24px; padding-bottom: 24px; }
+  .density-tight .em p { margin-bottom: 10px; font-size: 14px; }
+  .density-airy .em .t-body, .density-airy .em .d-body, .density-airy .em .b-body { padding-top: 48px; padding-bottom: 48px; }
+  .density-airy .em p { margin-bottom: 18px; }
+
+  /* Scrollbars */
+  .rail::-webkit-scrollbar, .list::-webkit-scrollbar, .viewport::-webkit-scrollbar {
+    width: 10px; height: 10px;
+  }
+  .rail::-webkit-scrollbar-thumb, .list::-webkit-scrollbar-thumb, .viewport::-webkit-scrollbar-thumb {
+    background: rgba(255,255,255,0.08);
+  }
+  .rail::-webkit-scrollbar-thumb:hover, .list::-webkit-scrollbar-thumb:hover, .viewport::-webkit-scrollbar-thumb:hover {
+    background: rgba(255,255,255,0.18);
+  }
+
+  /* Tiny util */
+  .hr-dot { height:1px; background: repeating-linear-gradient(90deg, currentColor 0 3px, transparent 3px 7px); opacity: 0.3; margin: 12px 0; }
+</style>
+</head>
+
+<body>
+
+<div class="app">
+  <!-- ===== TOP BAR ===== -->
+  <header class="topbar">
+    <div class="brand"><span class="brand-mark"></span> THE ANSWER ENGINE / MAILROOM</div>
+    <div class="topbar-crumbs">
+      <span>CAMPAIGN</span><span>/</span><b id="current-dir-crumb">TERMINAL</b><span>/</span><b id="current-mail-crumb">TERRITORY ALERT</b>
+    </div>
+    <div class="topbar-right">
+      <span class="live-dot"></span>
+      <span>SYNC // 14ms</span>
+      <span>BUILD v3.2</span>
+      <span>support@theanswerengine.ai</span>
+    </div>
+  </header>
+
+  <!-- ===== FOLDER RAIL ===== -->
+  <aside class="rail">
+    <button class="rail-compose">NEW CAMPAIGN <span>+</span></button>
+
+    <h4>Direction</h4>
+    <div class="rail-item active" data-dir-select="terminal"><span class="dot"></span><span>Terminal</span><span class="count">01</span></div>
+    <div class="rail-item" data-dir-select="dossier"><span class="dot"></span><span>Dossier</span><span class="count">02</span></div>
+    <div class="rail-item" data-dir-select="broadcast"><span class="dot"></span><span>Broadcast</span><span class="count">03</span></div>
+
+    <h4>Templates</h4>
+    <div class="rail-item active"><span class="dot"></span><span>All Templates</span><span class="count">05</span></div>
+    <div class="rail-item"><span class="dot"></span><span>Outreach</span><span class="count">01</span></div>
+    <div class="rail-item"><span class="dot"></span><span>Onboarding</span><span class="count">01</span></div>
+    <div class="rail-item"><span class="dot"></span><span>Reporting</span><span class="count">01</span></div>
+    <div class="rail-item"><span class="dot"></span><span>Case Study</span><span class="count">01</span></div>
+    <div class="rail-item"><span class="dot"></span><span>Re-engage</span><span class="count">01</span></div>
+
+    <div class="rail-meta">
+      <div><b>ACCT //</b> THE ANSWER ENGINE</div>
+      <div><b>ENV //</b> PRODUCTION</div>
+      <div><b>DELIVERABILITY //</b> 99.1%</div>
+      <div><b>CTR (30D) //</b> 14.7%</div>
+    </div>
+  </aside>
+
+  <!-- ===== LIST PANE ===== -->
+  <section class="list">
+    <div class="list-head">
+      <div class="list-title">Templates <small>05</small></div>
+      <div class="list-sub">
+        <span>SORT: RECENT</span>
+        <span>//</span>
+        <span id="list-direction-label">TERMINAL / v3.2</span>
+      </div>
+      <div class="list-filters">
+        <button class="on" data-filter="all">All</button>
+        <button data-filter="outreach">Outreach</button>
+        <button data-filter="lifecycle">Lifecycle</button>
+        <button data-filter="report">Report</button>
+      </div>
+    </div>
+    <div id="mail-list"></div>
+  </section>
+
+  <!-- ===== VIEW PANE ===== -->
+  <section class="view">
+    <div class="view-head">
+      <div>
+        <div class="subject" id="view-subject">Your territory just went live</div>
+        <div class="meta">
+          <span id="view-from">FROM // THE ANSWER ENGINE</span>
+          <span id="view-to">TO // {{firstName}}@{{company}}</span>
+          <span id="view-date">APR 18, 2026 // 09:14 PT</span>
+        </div>
+      </div>
+      <div class="actions">
+        <button>Duplicate</button>
+        <button>Test send</button>
+        <button class="primary">Deploy →</button>
+      </div>
+    </div>
+    <div class="viewport">
+      <div class="device-toggle" id="device-toggle">
+        <button class="on" data-device="desktop">Desktop</button>
+        <button data-device="mobile">Mobile</button>
+      </div>
+      <div class="device desktop" id="device">
+        <div class="email-frame" id="email-frame"></div>
+      </div>
+    </div>
+  </section>
+</div>
+
+<!-- ===== TWEAKS PANEL ===== -->
+<div class="tweaks" id="tweaks">
+  <div class="tweaks-head">
+    <span>TWEAKS</span>
+    <span style="color: var(--fg-faint);">v3.2</span>
+  </div>
+  <div class="tweak">
+    <label>Direction</label>
+    <div class="seg" data-group="direction">
+      <button data-val="terminal" class="on">Terminal</button>
+      <button data-val="dossier">Dossier</button>
+      <button data-val="broadcast">Broadcast</button>
+    </div>
+  </div>
+  <div class="tweak">
+    <label>Density</label>
+    <div class="seg" data-group="density">
+      <button data-val="tight">Tight</button>
+      <button data-val="default" class="on">Default</button>
+      <button data-val="airy">Airy</button>
+    </div>
+  </div>
+  <div class="tweak">
+    <label>Preview</label>
+    <div class="seg" data-group="device">
+      <button data-val="desktop" class="on">Desktop</button>
+      <button data-val="mobile">Mobile</button>
+    </div>
+  </div>
+  <div class="tweak">
+    <label>Accent (Terminal)</label>
+    <div class="seg" data-group="accent">
+      <button data-val="signal" class="on">Orange</button>
+      <button data-val="purple">Purple</button>
+      <button data-val="red">Red</button>
+    </div>
+  </div>
+</div>
+
+<!-- ===== DATA + LOGIC ===== -->
+<script>
+/*EDITMODE-BEGIN*/ const DEFAULTS = {
+  "direction": "terminal",
+  "density": "default",
+  "device": "desktop",
+  "accent": "signal",
+  "activeMail": "territory"
+} /*EDITMODE-END*/;
+
+const state = { ...DEFAULTS };
+
+// ---------- MAIL DATA ----------
+const mails = [
+  {
+    id: 'territory',
+    category: 'outreach',
+    from: 'THE ANSWER ENGINE',
+    to: '{{firstName}}@{{company}}',
+    date: 'APR 18, 2026 // 09:14 PT',
+    preheader: 'Territory Alert',
+    subject: 'Your territory just went live — Phoenix / HVAC',
+    preview: 'One business per category, per city. Phoenix/HVAC is open for exactly one operator. Your competitor has not been contacted.',
+    tag: { sig:'OUTREACH', amb:'OUTREACH', red:'OUTREACH' }
+  },
+  {
+    id: 'welcome',
+    category: 'lifecycle',
+    from: 'CONTROL // THE ANSWER ENGINE',
+    to: '{{firstName}}@{{company}}',
+    date: 'APR 17, 2026 // 18:02 PT',
+    preheader: 'Welcome // Day 00',
+    subject: 'You just claimed Denver / Plumbing — here\'s what happens next',
+    preview: 'Welcome aboard. Over the next 90 days we\'ll audit, deploy authority content, and monitor citations across ChatGPT, Claude, Perplexity, and Google AI.',
+    tag: null
+  },
+  {
+    id: 'report',
+    category: 'report',
+    from: 'ENGINE // MONITORING',
+    to: '{{firstName}}@{{company}}',
+    date: 'APR 01, 2026 // 06:00 PT',
+    preheader: 'Monthly Citation Report',
+    subject: 'March Citation Report — 37 new citations, +244% authority',
+    preview: 'This month your domain surfaced in 37 new AI answers. ChatGPT: 18. Google AI Overviews: 11. Perplexity: 6. Claude: 2. Full breakdown inside.',
+    tag: null
+  },
+  {
+    id: 'casestudy',
+    category: 'lifecycle',
+    from: 'FIELD // THE ANSWER ENGINE',
+    to: '{{firstName}}@{{company}}',
+    date: 'MAR 28, 2026 // 11:40 PT',
+    preheader: 'Result in the Field',
+    subject: '70,000 agents competing. One got cited. Here\'s how.',
+    preview: 'Justin Borges went from invisible to the only agent AI cites for rent-control, probate, and ADU questions across LA County. Inside: the exact protocol.',
+    tag: null
+  },
+  {
+    id: 'reengage',
+    category: 'outreach',
+    from: 'DISPATCH // THE ANSWER ENGINE',
+    to: '{{firstName}}@{{company}}',
+    date: 'MAR 22, 2026 // 15:30 PT',
+    preheader: 'Territory Notice',
+    subject: 'A competitor just inquired about your territory',
+    preview: 'We received an inbound inquiry for Nashville / Electrical — the territory you scanned on Feb 12. One business per category, per city. We\'re giving you first right.',
+    tag: null
+  }
+];
+
+// ---------- EMAIL CONTENT (direction-agnostic) ----------
+// Each template renders itself given a `direction`. We inline the HTML via template literals.
+
+function renderEmail(direction, id) {
+  const T = templates[id];
+  if (!T) return '';
+  return T[direction]();
+}
+
+const templates = {
+  territory: {
+    terminal: () => `
+      <div class="em terminal">
+        <div class="t-head">
+          <div class="t-head-row">
+            <div class="t-brand"><span class="m"></span> THE ANSWER ENGINE</div>
+            <div class="t-live"><span class="dot"></span><span>TERRITORY // LIVE</span></div>
+          </div>
+        </div>
+        <div class="t-body">
+          <div class="t-label">TERRITORY ALERT // 04.18.26</div>
+          <h1 class="t-h">Phoenix / HVAC is <span class="sig">OPEN</span>. One operator gets it.</h1>
+          <p class="lede">We scanned your market. Phoenix is one of seven metros where no HVAC business currently owns the AI citation layer — which means when someone asks ChatGPT, Claude, or Google AI "best HVAC in Phoenix," <strong>nobody is being recommended by name</strong>.</p>
+          <p>That window stays open for one business, exactly. When a competitor signs for Phoenix / HVAC, the territory locks. No exceptions, no second seats. We're giving you the first look because you scanned on Feb 12.</p>
+
+          <div class="t-stats">
+            <div class="t-stat"><div class="num">7,400</div><div class="lbl">Monthly AI Queries<br>Phoenix Market</div></div>
+            <div class="t-stat"><div class="num">0</div><div class="lbl">HVAC Operators<br>Currently Cited</div></div>
+            <div class="t-stat"><div class="num">90d</div><div class="lbl">Citation<br>Guarantee</div></div>
+          </div>
+
+          <p>If you move now, we start the audit this week and deploy authority content inside 14 days. If you don't, we'll extend the offer to the next operator on the list by end of week.</p>
+
+          <a class="t-cta" href="#">CLAIM PHOENIX // HVAC →</a>
+          <div class="t-cta-sub">Response time 24h // No pitch, no pressure // Zero refunds to date</div>
+
+          <div class="t-rule"></div>
+
+          <dl class="kv">
+            <dt>Territory</dt><dd>Phoenix, AZ // HVAC</dd>
+            <dt>Status</dt><dd style="color: var(--signal)">OPEN — 1 seat remaining</dd>
+            <dt>Competitors cited</dt><dd>0 of 412 tracked</dd>
+            <dt>Guarantee</dt><dd>90-day citation or continued work free</dd>
+          </dl>
+        </div>
+        <div class="t-footer">
+          <div>THE ANSWER ENGINE // AEO // EST 2024</div>
+          <div>(213) 444-2229 // SUPPORT@THEANSWERENGINE.AI</div>
+          <div>UNSUBSCRIBE // PREFERENCES // VIEW IN BROWSER</div>
+        </div>
+      </div>
+    `,
+    dossier: () => `
+      <div class="em dossier">
+        <div class="d-head">
+          <div class="d-brand"><span class="m"></span> THE ANSWER ENGINE</div>
+          <div class="d-stamp">DOSSIER // 04.18</div>
+        </div>
+        <div class="d-hero">
+          <div class="d-preheader">File 007 — Territory Review / Phoenix AZ</div>
+          <h1 class="d-h">Phoenix is <em>unclaimed</em>.<br>We think that changes this month.</h1>
+          <p class="d-sub">Dispatched from the Answer Engine desk — one read, then decide.</p>
+        </div>
+        <div class="d-body">
+
+          <p class="lede">We ran the audit you requested. Across ChatGPT, Claude, Perplexity, and Google AI Overviews, no HVAC business in the Phoenix metro is being cited by name — not one of the 412 operators we tracked. That's the rarest kind of silence: the kind that precedes a single loud answer.</p>
+
+          <dl class="d-kv">
+            <dt>Category</dt><dd>HVAC — Residential &amp; light commercial</dd>
+            <dt>Metro</dt><dd>Phoenix, AZ — 7,400 monthly AI queries</dd>
+            <dt>Operators cited</dt><dd>Zero</dd>
+            <dt>Available seats</dt><dd>One</dd>
+          </dl>
+
+          <p>Our offer is exclusive, bounded, and time-sensitive. One business per category per city. Once signed, the territory is locked — not throttled, not rotated, locked — and no competing operator can access our protocol in Phoenix / HVAC again.</p>
+
+          <div class="d-quote">
+            He understands how AI actually decides who to recommend. That's a completely different skill set, and it's working.
+            <cite>— Justin Borges // Borges Real Estate Team // Pasadena, CA</cite>
+          </div>
+
+          <p>We'd like to open the Phoenix file in your name. If you'd rather pass, a short reply will do — we'll close the folder and move to the next operator on the list.</p>
+
+          <a class="d-cta" href="#">Open the Phoenix file</a>
+        </div>
+        <div class="d-footer">
+          <span>THE ANSWER ENGINE // AEO</span>
+          <span>(213) 444-2229</span>
+          <span>UNSUBSCRIBE</span>
+        </div>
+      </div>
+    `,
+    broadcast: () => `
+      <div class="em broadcast">
+        <div class="b-stripe"><span></span><span></span><span></span></div>
+        <div class="b-head">
+          <div class="b-brand"><span class="m"></span> THE ANSWER ENGINE</div>
+          <span>TERRITORY BRIEF // 04.18.26</span>
+        </div>
+        <div class="b-hero">
+          <div class="b-kicker">One seat left</div>
+          <h1 class="b-h">Phoenix<br>HVAC is <span class="mark">OPEN.</span></h1>
+          <div class="b-sub">No HVAC operator in Phoenix is currently being cited by AI. The next one to sign becomes the answer. Then it closes.</div>
+        </div>
+        <div class="b-body">
+          <p class="lede">When someone asks ChatGPT, Claude, or Google AI Overviews "who's the best HVAC in Phoenix," the machine pauses. It lists generic directories. It doesn't say a name. That's the window. One business walks through it per city.</p>
+
+          <div class="b-bignum">
+            <div class="big">7,400</div>
+            <div class="label">Monthly AI queries for Phoenix / HVAC.<br>Zero operators currently cited.</div>
+          </div>
+
+          <p>We offer exclusive territory — one category, one city, one operator. 90-day citation guarantee. If the machine isn't quoting you by day 90, we keep working free until it does.</p>
+
+          <a class="b-cta" href="#">Claim Phoenix →</a>
+
+          <div class="b-grid">
+            <div class="b-tile"><div class="k">Category</div><div class="v">HVAC</div></div>
+            <div class="b-tile"><div class="k">Metro</div><div class="v">Phoenix</div></div>
+            <div class="b-tile"><div class="k">Seats</div><div class="v">1 left</div></div>
+            <div class="b-tile"><div class="k">Guarantee</div><div class="v">90 days</div></div>
+          </div>
+
+          <p style="font-size: 13px; color: #555;">Scanned Feb 12. First right of refusal honored until Friday. Reply 'pass' to release the territory to the next operator on list.</p>
+        </div>
+        <div class="b-footer">
+          <span>THE ANSWER ENGINE // AEO</span>
+          <span>(213) 444-2229 // SUPPORT@THEANSWERENGINE.AI</span>
+          <span>UNSUBSCRIBE</span>
+        </div>
+      </div>
+    `
+  },
+
+  welcome: {
+    terminal: () => `
+      <div class="em terminal">
+        <div class="t-head">
+          <div class="t-head-row">
+            <div class="t-brand"><span class="m"></span> THE ANSWER ENGINE</div>
+            <div class="t-live"><span class="dot"></span><span>DAY 00 // ACTIVATED</span></div>
+          </div>
+        </div>
+        <div class="t-body">
+          <div class="t-label">ONBOARDING // DENVER / PLUMBING</div>
+          <h1 class="t-h">Welcome to the <span class="sig">protocol</span>.</h1>
+          <p class="lede">Denver / Plumbing is now locked to your operation. No competitor gets access to our implementation in this category within this metro for the life of the contract. That's the deal. Here's how the next 90 days unfold.</p>
+
+          <div class="t-rule"></div>
+
+          <div class="bars">
+            <div class="bar"><span>01 // AUDIT</span><span class="track"><span class="fill" style="width:100%"></span></span><b>DONE</b></div>
+            <div class="bar"><span>02 // CONTENT</span><span class="track"><span class="fill" style="width:28%"></span></span><b>D+7</b></div>
+            <div class="bar"><span>03 // SCHEMA</span><span class="track"><span class="fill" style="width:0%"></span></span><b>D+21</b></div>
+            <div class="bar"><span>04 // DEPLOY</span><span class="track"><span class="fill" style="width:0%"></span></span><b>D+35</b></div>
+            <div class="bar"><span>05 // MONITOR</span><span class="track"><span class="fill" style="width:0%"></span></span><b>D+60</b></div>
+            <div class="bar"><span>06 // DOMINATE</span><span class="track"><span class="fill" style="width:0%"></span></span><b>D+90</b></div>
+          </div>
+
+          <div class="t-card">
+            <div class="ct-label">FIRST ACTION // OWED BY YOU</div>
+            <p style="margin: 0;">We need 30 minutes. Onboarding call is pre-scheduled for Monday 10:00 PT on your calendar. Bring: your top 5 competitors, your 10 most profitable service types, and any existing review corpus.</p>
+          </div>
+
+          <a class="t-cta" href="#">CONFIRM ONBOARDING CALL →</a>
+          <div class="t-cta-sub">Reschedule // Reassign // Cancel — reply to this mail</div>
+
+          <div class="t-rule"></div>
+
+          <dl class="kv">
+            <dt>Account Lead</dt><dd>MARCUS FIELD — marcus@theanswerengine.ai</dd>
+            <dt>Monitoring</dt><dd>ChatGPT, Claude, Perplexity, Google AI</dd>
+            <dt>Reporting</dt><dd>1st of each month // 06:00 PT</dd>
+            <dt>Guarantee</dt><dd>Cited by 2 engines in 90d or work continues free</dd>
+          </dl>
+        </div>
+        <div class="t-footer">
+          <div>THE ANSWER ENGINE // AEO // OPERATION: DENVER.PLUMBING.001</div>
+          <div>(213) 444-2229 // SUPPORT@THEANSWERENGINE.AI</div>
+          <div>UNSUBSCRIBE // ACCOUNT PREFS</div>
+        </div>
+      </div>
+    `,
+    dossier: () => `
+      <div class="em dossier">
+        <div class="d-head">
+          <div class="d-brand"><span class="m"></span> THE ANSWER ENGINE</div>
+          <div class="d-stamp">DAY 00 // 04.17</div>
+        </div>
+        <div class="d-hero">
+          <div class="d-preheader">File opened — Denver / Plumbing</div>
+          <h1 class="d-h">The file is <em>open</em>.<br>The work begins Monday.</h1>
+          <p class="d-sub">A short letter, because the first week matters more than the rest.</p>
+        </div>
+        <div class="d-body">
+
+          <p class="lede">You've done the hard part. Denver / Plumbing is now yours — one seat, one category, one metro, for as long as you want it. What follows is not a marketing campaign. It's a surgical operation on how AI engines decide who to recommend, and the only thing we need from you in the first week is honesty about the business we're about to represent.</p>
+
+          <div class="d-numstep">
+            <span class="n">01 //</span>
+            <div>
+              <h5>Monday 10:00 PT — 30-minute intake</h5>
+              <p>We'll ask about your five sharpest competitors, your most profitable service types, and your review corpus. No decks, just conversation. Your account lead Marcus Field runs it.</p>
+            </div>
+          </div>
+          <div class="d-numstep">
+            <span class="n">02 //</span>
+            <div>
+              <h5>Week Two — Audit delivered</h5>
+              <p>You'll receive a 14-page document mapping where AI already sees you, where the silences are, and where your competitors leak authority. Read it once. Then forget it — we act on it.</p>
+            </div>
+          </div>
+          <div class="d-numstep">
+            <span class="n">03 //</span>
+            <div>
+              <h5>Day 35 — Authority content deployed</h5>
+              <p>Content written to be cited — not to rank. Schema implemented. Corpus published. The engines begin ingesting the signal.</p>
+            </div>
+          </div>
+          <div class="d-numstep">
+            <span class="n">04 //</span>
+            <div>
+              <h5>Day 60-90 — Citations begin to surface</h5>
+              <p>First names start appearing in AI answers. Usually ChatGPT first, Perplexity close behind. By Day 90, if two engines aren't quoting you, our meter stops and we keep working for nothing.</p>
+            </div>
+          </div>
+
+          <p>That's the whole of it. We'll write again next week with the audit attached. In the meantime — welcome.</p>
+
+          <a class="d-cta" href="#">Confirm Monday 10:00 PT</a>
+        </div>
+        <div class="d-footer">
+          <span>MARCUS FIELD — ACCOUNT LEAD</span>
+          <span>(213) 444-2229</span>
+          <span>UNSUBSCRIBE</span>
+        </div>
+      </div>
+    `,
+    broadcast: () => `
+      <div class="em broadcast">
+        <div class="b-stripe"><span></span><span></span><span></span></div>
+        <div class="b-head">
+          <div class="b-brand"><span class="m"></span> THE ANSWER ENGINE</div>
+          <span>DAY 00 // DENVER.PLUMBING</span>
+        </div>
+        <div class="b-hero">
+          <div class="b-kicker">Welcome</div>
+          <h1 class="b-h">The <span class="mark">territory</span><br>is yours.</h1>
+          <div class="b-sub">Denver / Plumbing is locked. One operator, one metro, one category. We start Monday.</div>
+        </div>
+        <div class="b-body">
+          <p class="lede">Over the next 90 days, AI engines stop guessing and start naming. Here's the schedule — short version. Full playbook arrives with the audit next week.</p>
+
+          <div class="b-grid">
+            <div class="b-tile"><div class="k">Day 01-07</div><div class="v">Audit</div></div>
+            <div class="b-tile"><div class="k">Day 08-21</div><div class="v">Content</div></div>
+            <div class="b-tile"><div class="k">Day 22-35</div><div class="v">Deploy</div></div>
+            <div class="b-tile"><div class="k">Day 36-90</div><div class="v">Monitor</div></div>
+          </div>
+
+          <p><strong>First thing we need:</strong> 30 minutes on Monday 10:00 PT. Already on your calendar. Bring your top 5 competitors and your most profitable service types.</p>
+
+          <a class="b-cta" href="#">Confirm Monday call →</a>
+
+          <p style="margin-top: 24px; font-size: 13px; color: #555;">Your account lead is Marcus Field (marcus@theanswerengine.ai). Monthly citation reports arrive the 1st of each month at 06:00 PT. If two AI engines aren't quoting you by Day 90, we keep working free until they do.</p>
+        </div>
+        <div class="b-footer">
+          <span>THE ANSWER ENGINE // AEO</span>
+          <span>MARCUS FIELD // ACCOUNT LEAD</span>
+          <span>UNSUBSCRIBE</span>
+        </div>
+      </div>
+    `
+  },
+
+  report: {
+    terminal: () => `
+      <div class="em terminal">
+        <div class="t-head">
+          <div class="t-head-row">
+            <div class="t-brand"><span class="m"></span> CITATION REPORT // MARCH 2026</div>
+            <div class="t-live"><span class="dot"></span><span>AUTO-DELIVERED 06:00 PT</span></div>
+          </div>
+        </div>
+        <div class="t-body">
+          <div class="t-label">MONTHLY REPORT // DENVER.PLUMBING</div>
+          <h1 class="t-h">+37 new citations.<br><span class="sig">Authority +244%.</span></h1>
+
+          <div class="t-stats">
+            <div class="t-stat"><div class="num">37</div><div class="lbl">New AI Citations<br>This Month</div></div>
+            <div class="t-stat"><div class="num">98%</div><div class="lbl">Authority<br>Index Rate</div></div>
+            <div class="t-stat"><div class="num">+244%</div><div class="lbl">Month-over-Month<br>Velocity</div></div>
+          </div>
+
+          <div class="t-rule"></div>
+
+          <p>March was the month your domain crossed threshold on three of four monitored engines. Below: engine-by-engine breakdown, the queries that now return your name, and the three queries where a competitor still holds the answer.</p>
+
+          <div class="bars">
+            <div class="bar"><span>CHATGPT</span><span class="track"><span class="fill" style="width:78%"></span></span><b>18</b></div>
+            <div class="bar"><span>GOOGLE AI</span><span class="track"><span class="fill" style="width:55%"></span></span><b>11</b></div>
+            <div class="bar"><span>PERPLEXITY</span><span class="track"><span class="fill" style="width:34%"></span></span><b>06</b></div>
+            <div class="bar"><span>CLAUDE</span><span class="track"><span class="fill" style="width:12%"></span></span><b>02</b></div>
+          </div>
+
+          <div class="t-card">
+            <div class="ct-label">BEST CITATION THIS MONTH</div>
+            <p style="margin: 0 0 6px;"><strong>"Who's the best plumber for old Denver bungalows?"</strong></p>
+            <p style="margin: 0; color: rgba(221,225,221,0.62); font-size: 13px;">ChatGPT-4o returns your business by name, citing your "cast iron replacement" page as the source. Position: solo mention. Query volume: ~310/mo.</p>
+          </div>
+
+          <div class="t-card">
+            <div class="ct-label">STILL CONTESTED // 3 QUERIES</div>
+            <p style="margin: 0; color: rgba(221,225,221,0.62); font-size: 13px;">— "24hr emergency plumber Denver" (competitor: Ace Rooter)<br>— "tankless water heater install Denver" (competitor: Vertex Home)<br>— "commercial plumbing contractor Denver" (no one cited — easy win)</p>
+          </div>
+
+          <a class="t-cta" href="#">OPEN FULL REPORT →</a>
+          <div class="t-cta-sub">14 pages // Interactive dashboard // Export PDF</div>
+
+          <div class="t-rule"></div>
+
+          <dl class="kv">
+            <dt>Period</dt><dd>March 1 – March 31, 2026</dd>
+            <dt>Next report</dt><dd>May 1, 2026 — 06:00 PT</dd>
+            <dt>Program day</dt><dd>Day 67 of 90</dd>
+          </dl>
+        </div>
+        <div class="t-footer">
+          <div>THE ANSWER ENGINE // MONITORING // AUTO-DISPATCH</div>
+          <div>OPERATION: DENVER.PLUMBING.001</div>
+          <div>UNSUBSCRIBE FROM REPORTS // VIEW IN BROWSER</div>
+        </div>
+      </div>
+    `,
+    dossier: () => `
+      <div class="em dossier">
+        <div class="d-head">
+          <div class="d-brand"><span class="m"></span> FIELD REPORT</div>
+          <div class="d-stamp">MARCH / 2026</div>
+        </div>
+        <div class="d-hero">
+          <div class="d-preheader">Denver / Plumbing — Monthly Intelligence</div>
+          <h1 class="d-h">A <em>quiet month</em>, in the best possible way.</h1>
+          <p class="d-sub">March 01–31, 2026 — Program Day 37 to 67 of 90.</p>
+        </div>
+        <div class="d-body">
+
+          <p class="lede">In thirty-one days, your business surfaced as the named answer in <strong>thirty-seven new AI responses</strong> across four engines. That's not an anomaly — that's the hinge. Month one gave you presence. Month two gave you momentum. Month three, we start watching competitors drop off the list.</p>
+
+          <dl class="d-kv">
+            <dt>ChatGPT</dt><dd>18 new citations — now cited by default for 6 queries</dd>
+            <dt>Google AI Overviews</dt><dd>11 new citations — top of list on "old Denver bungalow" queries</dd>
+            <dt>Perplexity</dt><dd>6 new citations — gaining velocity</dd>
+            <dt>Claude</dt><dd>2 new citations — first signal of crossover</dd>
+          </dl>
+
+          <div class="d-quote">
+            The single most-quoted page this month was your "cast iron replacement in pre-1950 homes" article. It now shows up in five different ChatGPT answers and drives roughly 310 monthly queries through the citation funnel.
+          </div>
+
+          <p><strong>Three fronts remain contested.</strong> "24hr emergency plumber Denver" still goes to Ace Rooter. "Tankless water heater install" still goes to Vertex Home. And "commercial plumbing contractor Denver" — nobody owns it yet. We're putting the next content sprint on the third one first.</p>
+
+          <a class="d-cta" href="#">Read the 14-page report</a>
+
+          <div class="d-hr"></div>
+          <p style="font-size: 13px; color: rgba(232,227,215,0.55);">Next report: May 1, 2026, 06:00 PT. Questions answered in-thread at any time — Marcus replies within 2.4 hours on average.</p>
+        </div>
+        <div class="d-footer">
+          <span>FIELD REPORT — MONTHLY</span>
+          <span>MARCUS FIELD</span>
+          <span>UNSUBSCRIBE FROM REPORTS</span>
+        </div>
+      </div>
+    `,
+    broadcast: () => `
+      <div class="em broadcast">
+        <div class="b-stripe"><span></span><span></span><span></span></div>
+        <div class="b-head">
+          <div class="b-brand"><span class="m"></span> CITATION REPORT</div>
+          <span>MARCH 2026 // DENVER.PLUMBING</span>
+        </div>
+        <div class="b-hero">
+          <div class="b-kicker">March 2026</div>
+          <h1 class="b-h">+37<br><span class="mark">CITATIONS.</span></h1>
+          <div class="b-sub">Your name surfaced in 37 new AI answers this month. Authority +244% month-over-month. Here's the breakdown.</div>
+        </div>
+        <div class="b-body">
+          <div class="b-grid">
+            <div class="b-tile"><div class="k">ChatGPT</div><div class="v">18</div></div>
+            <div class="b-tile"><div class="k">Google AI</div><div class="v">11</div></div>
+            <div class="b-tile"><div class="k">Perplexity</div><div class="v">6</div></div>
+            <div class="b-tile"><div class="k">Claude</div><div class="v">2</div></div>
+          </div>
+
+          <div class="b-bignum">
+            <div class="big">+244<span style="font-size: 40px;">%</span></div>
+            <div class="label">Month-over-month<br>authority velocity</div>
+          </div>
+
+          <p class="lede">The single biggest driver this month was your "cast iron replacement in pre-1950 homes" page, which ChatGPT now cites as the primary source for at least five distinct Denver-specific queries.</p>
+
+          <p><strong>Still contested:</strong> "24hr emergency plumber Denver" (Ace Rooter), "tankless install" (Vertex Home), and "commercial plumbing contractor Denver" — the last one has no cited incumbent. We're hitting it first in the April sprint.</p>
+
+          <a class="b-cta" href="#">Open full report →</a>
+        </div>
+        <div class="b-footer">
+          <span>MONITORING // AUTO-DISPATCH 06:00 PT</span>
+          <span>NEXT: MAY 01, 2026</span>
+          <span>UNSUBSCRIBE</span>
+        </div>
+      </div>
+    `
+  },
+
+  casestudy: {
+    terminal: () => `
+      <div class="em terminal">
+        <div class="t-head">
+          <div class="t-head-row">
+            <div class="t-brand"><span class="m"></span> FIELD REPORT // CASE</div>
+            <div class="t-live"><span class="dot"></span><span>VERIFIED WIN</span></div>
+          </div>
+        </div>
+        <div class="t-body">
+          <div class="t-label">LA COUNTY // REAL ESTATE</div>
+          <h1 class="t-h">70,000 agents.<br>One <span class="sig">gets cited</span>.</h1>
+          <p class="lede">Justin Borges runs a boutique real estate team in Pasadena. A year ago, his business was invisible to AI engines. Today, when anyone in LA County asks ChatGPT about rent-controlled properties, probate sales, or ADU regulations — the machine returns his name, unprompted, as the answer.</p>
+
+          <div class="t-stats">
+            <div class="t-stat"><div class="num">70,000+</div><div class="lbl">Competing Agents<br>In LA County</div></div>
+            <div class="t-stat"><div class="num">1,000+</div><div class="lbl">Queries Where<br>He's Now Cited</div></div>
+            <div class="t-stat"><div class="num">#1</div><div class="lbl">AI Citation<br>Position — All Four</div></div>
+          </div>
+
+          <div class="t-rule"></div>
+
+          <div class="t-card">
+            <div class="ct-label">QUERY // "WHICH REALTOR CAN HELP WITH MY RENT CONTROLLED PROPERTY?"</div>
+            <p style="margin: 0; color: rgba(221,225,221,0.72); font-size: 13.5px; line-height: 1.55;">ChatGPT's response leads with Justin Borges by name, citing his published guide to RSO compliance as the primary source. Solo mention. No competitor listed above or below.</p>
+          </div>
+
+          <div class="t-card">
+            <div class="ct-label">QUERY // "WHO IS THE BEST AGENT FOR PROBATE SALES IN LA?"</div>
+            <p style="margin: 0; color: rgba(221,225,221,0.72); font-size: 13.5px; line-height: 1.55;">Google AI Overviews returns Justin's probate page as the featured source, with direct quote pulled from his process documentation.</p>
+          </div>
+
+          <p>What changed? Not his business, not his marketing budget, not his brokerage. The 90-day Answer Engine protocol: audit, authority content, schema, citation monitoring. Three months of precise work on exactly the right pages.</p>
+
+          <a class="t-cta" href="#">READ THE FULL CASE →</a>
+          <div class="t-cta-sub">14-page breakdown // Exact protocol // Reproducible</div>
+
+          <div class="t-rule"></div>
+
+          <p style="font-style: italic; color: rgba(221,225,221,0.7); font-size: 14px; margin: 0;">"He understands how AI actually decides who to recommend. That's a completely different skill set, and it's working."</p>
+          <p style="margin-top: 10px; font: 500 10px/1 var(--font-mono); letter-spacing: 0.14em; color: rgba(221,225,221,0.5); text-transform: uppercase;">— Justin Borges // Borges Real Estate Team</p>
+        </div>
+        <div class="t-footer">
+          <div>THE ANSWER ENGINE // FIELD REPORT // CASE 001</div>
+          <div>(213) 444-2229 // SUPPORT@THEANSWERENGINE.AI</div>
+          <div>UNSUBSCRIBE // VIEW IN BROWSER</div>
+        </div>
+      </div>
+    `,
+    dossier: () => `
+      <div class="em dossier">
+        <div class="d-head">
+          <div class="d-brand"><span class="m"></span> CASE FILE</div>
+          <div class="d-stamp">CASE 001 // LA</div>
+        </div>
+        <div class="d-hero">
+          <div class="d-preheader">Field Note — Borges / Real Estate / LA County</div>
+          <h1 class="d-h">Seventy thousand agents.<br>The machine <em>picks one.</em></h1>
+          <p class="d-sub">A short story about a specific kind of silence, and how one Pasadena realtor broke it.</p>
+        </div>
+        <div class="d-body">
+
+          <p class="lede">Justin Borges is not the largest real estate operator in LA County. He is not the loudest. He does not outspend the luxury teams on billboards or the discount teams on Facebook. He does something quieter, and the quietness is exactly the point.</p>
+
+          <p>Ask ChatGPT, today, "who is the best agent for probate sales in Los Angeles." The model doesn't hedge, doesn't list ten names. It says Justin Borges, and it cites his probate process page as the reason. Ask the same question of Google AI Overviews. Same answer. Ask Claude about rent-controlled properties. Same answer. Four engines, consistent recommendation, zero paid placement.</p>
+
+          <div class="d-quote">
+            He understands how AI actually decides who to recommend. That's a completely different skill set, and it's working.
+            <cite>— Justin Borges // Borges Real Estate Team // Pasadena, CA</cite>
+          </div>
+
+          <dl class="d-kv">
+            <dt>Competing agents</dt><dd>~70,000 in LA County</dd>
+            <dt>Queries now won</dt><dd>1,000+ tracked</dd>
+            <dt>AI citation position</dt><dd>#1 across all four engines</dd>
+            <dt>Program length</dt><dd>90 days to first citation; 9 months to dominance</dd>
+          </dl>
+
+          <p>The how is not a secret: audit, authority content, schema, monitoring. The why-it-works is the interesting part, and we've written it down. Fourteen pages, no filler. If you're considering AEO, read the case before you read the pitch.</p>
+
+          <a class="d-cta" href="#">Read Case File 001</a>
+        </div>
+        <div class="d-footer">
+          <span>CASE FILE // 001</span>
+          <span>BORGES / LA / REAL ESTATE</span>
+          <span>UNSUBSCRIBE</span>
+        </div>
+      </div>
+    `,
+    broadcast: () => `
+      <div class="em broadcast">
+        <div class="b-stripe"><span></span><span></span><span></span></div>
+        <div class="b-head">
+          <div class="b-brand"><span class="m"></span> CASE FILE 001</div>
+          <span>LA COUNTY // REAL ESTATE</span>
+        </div>
+        <div class="b-hero">
+          <div class="b-kicker">How one agent won the machine</div>
+          <h1 class="b-h">70,000<br>AGENTS.<br><span class="mark">ONE</span> CITED.</h1>
+          <div class="b-sub">Ask ChatGPT about rent control, probate, or ADUs in LA. It says Justin Borges. Here's how that happened.</div>
+        </div>
+        <div class="b-body">
+          <p class="lede">Justin Borges runs a boutique real estate team in Pasadena. He didn't outspend the luxury brokerages. He didn't buy more ads. He did ninety days of precise work on exactly the right pages — and now the four major AI engines answer in one voice.</p>
+
+          <div class="b-bignum">
+            <div class="big">1,000+</div>
+            <div class="label">Queries where AI now<br>returns his name first</div>
+          </div>
+
+          <div class="b-grid">
+            <div class="b-tile"><div class="k">ChatGPT</div><div class="v">#1</div></div>
+            <div class="b-tile"><div class="k">Google AI</div><div class="v">#1</div></div>
+            <div class="b-tile"><div class="k">Perplexity</div><div class="v">#1</div></div>
+            <div class="b-tile"><div class="k">Claude</div><div class="v">#1</div></div>
+          </div>
+
+          <p><strong>The protocol was the same 90-day protocol we run for every territory.</strong> Audit. Authority content. Schema. Monitoring. The difference is that LA / real estate was open when he signed, and he used the window before anyone else did.</p>
+
+          <a class="b-cta" href="#">Read the full case →</a>
+
+          <p style="margin-top: 24px; font-size: 13px; color: #555; font-style: italic;">"He understands how AI actually decides who to recommend. That's a completely different skill set, and it's working." — Justin Borges</p>
+        </div>
+        <div class="b-footer">
+          <span>CASE FILE 001 // PUBLISHED 04.2026</span>
+          <span>(213) 444-2229</span>
+          <span>UNSUBSCRIBE</span>
+        </div>
+      </div>
+    `
+  },
+
+  reengage: {
+    terminal: () => `
+      <div class="em terminal">
+        <div class="t-head">
+          <div class="t-head-row">
+            <div class="t-brand"><span class="m"></span> DISPATCH // TERRITORY</div>
+            <div class="t-live"><span class="dot"></span><span>INBOUND DETECTED</span></div>
+          </div>
+        </div>
+        <div class="t-body">
+          <div class="t-label">PRIORITY // NASHVILLE / ELECTRICAL</div>
+          <h1 class="t-h">A competitor just asked about <span class="sig">your territory</span>.</h1>
+          <p class="lede">You scanned Nashville / Electrical on February 12. We held it for you. This morning, another operator in the same metro submitted a territory check for the same category. Our policy is first-right-of-refusal. You have until Friday 17:00 PT to confirm or release.</p>
+
+          <div class="t-card">
+            <div class="ct-label">EVENT LOG</div>
+            <p style="margin: 0; font: 500 11px/1.8 var(--font-mono); letter-spacing: 0.05em; color: rgba(221,225,221,0.72); text-transform: uppercase;">
+              02.12.26 14:02 — YOU SCANNED TERRITORY<br>
+              02.13.26 09:44 — STRATEGY CALL SCHEDULED<br>
+              02.13.26 14:30 — STRATEGY CALL COMPLETED<br>
+              03.22.26 11:18 — COMPETITOR SUBMITTED SCAN<br>
+              03.22.26 15:30 — FIRST RIGHT NOTICE DISPATCHED
+            </p>
+          </div>
+
+          <div class="t-stats">
+            <div class="t-stat"><div class="num">4,800</div><div class="lbl">Monthly AI Queries<br>Nashville Market</div></div>
+            <div class="t-stat"><div class="num">0</div><div class="lbl">Electricians<br>Currently Cited</div></div>
+            <div class="t-stat"><div class="num">72h</div><div class="lbl">Decision<br>Window</div></div>
+          </div>
+
+          <p>We don't chase. We don't pitch. We've kept the seat warm because you asked good questions on the strategy call, and we'd rather work with the operator who already understands the offer. If Nashville / Electrical isn't right for you now, reply 'release' and we'll extend to the next scanner.</p>
+
+          <a class="t-cta" href="#">CONFIRM // CLAIM NASHVILLE →</a>
+          <div class="t-cta-sub">OR reply 'release' // OR reply 'call me' — Marcus answers in 2.4h avg</div>
+        </div>
+        <div class="t-footer">
+          <div>THE ANSWER ENGINE // DISPATCH // AUTO-PRIORITY</div>
+          <div>(213) 444-2229 // SUPPORT@THEANSWERENGINE.AI</div>
+          <div>UNSUBSCRIBE // PREFERENCES</div>
+        </div>
+      </div>
+    `,
+    dossier: () => `
+      <div class="em dossier">
+        <div class="d-head">
+          <div class="d-brand"><span class="m"></span> TERRITORY NOTICE</div>
+          <div class="d-stamp">FIRST RIGHT // 72H</div>
+        </div>
+        <div class="d-hero">
+          <div class="d-preheader">Nashville / Electrical — Activity on File</div>
+          <h1 class="d-h">Someone else <em>asked</em> about<br>the territory you scanned.</h1>
+          <p class="d-sub">Policy bound, short window, honest heads-up.</p>
+        </div>
+        <div class="d-body">
+
+          <p class="lede">On February 12 you scanned Nashville / Electrical. We ran the audit, you took the strategy call, and then — as happens — other things moved up the priority list. That's fine. We held the seat. This morning, a different operator in the same metro submitted a scan for the same category, and policy requires us to tell you before we respond to them.</p>
+
+          <dl class="d-kv">
+            <dt>Territory</dt><dd>Nashville, TN // Electrical</dd>
+            <dt>Your scan date</dt><dd>February 12, 2026</dd>
+            <dt>Competing scan</dt><dd>March 22, 2026 (pending)</dd>
+            <dt>Your window</dt><dd>Until Friday 17:00 PT</dd>
+            <dt>Status</dt><dd>First right of refusal — held for you</dd>
+          </dl>
+
+          <p>Three replies, any one of them is fine:</p>
+
+          <div class="d-numstep">
+            <span class="n">01 //</span>
+            <div>
+              <h5>"I'm in." — We open the file this week.</h5>
+              <p>Implementation begins Monday. The other operator gets a different pitch for a different territory.</p>
+            </div>
+          </div>
+          <div class="d-numstep">
+            <span class="n">02 //</span>
+            <div>
+              <h5>"Release it." — The seat moves on.</h5>
+              <p>We extend to the next scanner. No guilt, no follow-up. Nashville closes to you for this category.</p>
+            </div>
+          </div>
+          <div class="d-numstep">
+            <span class="n">03 //</span>
+            <div>
+              <h5>"Call me." — One more conversation.</h5>
+              <p>Marcus has time Thursday between 10:00 and 15:00 PT. Fifteen minutes, last question answered, then you decide.</p>
+            </div>
+          </div>
+
+          <a class="d-cta" href="#">Pick one → reply</a>
+        </div>
+        <div class="d-footer">
+          <span>MARCUS FIELD // ACCOUNT LEAD</span>
+          <span>AVG RESPONSE 2.4H</span>
+          <span>UNSUBSCRIBE</span>
+        </div>
+      </div>
+    `,
+    broadcast: () => `
+      <div class="em broadcast">
+        <div class="b-stripe"><span></span><span></span><span></span></div>
+        <div class="b-head">
+          <div class="b-brand"><span class="m"></span> DISPATCH</div>
+          <span>NASHVILLE // ELECTRICAL</span>
+        </div>
+        <div class="b-hero">
+          <div class="b-kicker">First right of refusal</div>
+          <h1 class="b-h">SOMEONE<br>ELSE <span class="mark">ASKED.</span></h1>
+          <div class="b-sub">You scanned Nashville / Electrical on Feb 12. Another operator just submitted a scan. You have 72 hours.</div>
+        </div>
+        <div class="b-body">
+          <p class="lede">Our policy is one seat per category per metro — and first come, first right. That means before we talk to the other operator, we talk to you. If Nashville is still on the table, this week is the week. If not, a one-word reply releases it.</p>
+
+          <div class="b-grid">
+            <div class="b-tile"><div class="k">Your scan</div><div class="v">Feb 12</div></div>
+            <div class="b-tile"><div class="k">Competing scan</div><div class="v">Mar 22</div></div>
+            <div class="b-tile"><div class="k">Deadline</div><div class="v">Fri 17:00</div></div>
+            <div class="b-tile"><div class="k">Decision</div><div class="v">Yours</div></div>
+          </div>
+
+          <p><strong>Three replies work:</strong> "I'm in" — "Release it" — or "Call me."</p>
+
+          <a class="b-cta" href="#">Reply now →</a>
+
+          <p style="margin-top: 24px; font-size: 13px; color: #555;">If we don't hear from you by Friday 17:00 PT, we extend the offer to the next operator and close the Nashville file under your account.</p>
+        </div>
+        <div class="b-footer">
+          <span>DISPATCH // AUTO-PRIORITY</span>
+          <span>MARCUS FIELD — ACCOUNT LEAD</span>
+          <span>UNSUBSCRIBE</span>
+        </div>
+      </div>
+    `
+  }
+};
+
+// ---------- RENDERING ----------
+function renderList() {
+  const list = document.getElementById('mail-list');
+  list.innerHTML = mails.map(m => {
+    const tagClass = state.direction === 'terminal' ? 'sig' : state.direction === 'dossier' ? 'amb' : '';
+    const tag = state.direction === 'terminal' ? '● LIVE' : state.direction === 'dossier' ? '◆ FILE' : '◼ DRAFT';
+    return `
+      <div class="mail-row ${m.id === state.activeMail ? 'active' : ''}" data-id="${m.id}">
+        <div class="from">
+          <span>${m.from}</span>
+          <span class="tag ${tagClass}">${tag}</span>
+        </div>
+        <div class="time">${m.date.split('//')[0].trim()}</div>
+        <div class="subj">${m.subject}</div>
+        <div class="prev">${m.preview}</div>
+      </div>
+    `;
+  }).join('');
+  list.querySelectorAll('.mail-row').forEach(r => {
+    r.addEventListener('click', () => {
+      state.activeMail = r.dataset.id;
+      persist();
+      renderAll();
+    });
+  });
+}
+
+function renderViewer() {
+  const mail = mails.find(m => m.id === state.activeMail) || mails[0];
+  document.getElementById('view-subject').textContent = mail.subject;
+  document.getElementById('view-from').textContent = 'FROM // ' + mail.from;
+  document.getElementById('view-to').textContent = 'TO // ' + mail.to;
+  document.getElementById('view-date').textContent = mail.date;
+  document.getElementById('email-frame').innerHTML = renderEmail(state.direction, mail.id);
+
+  document.getElementById('current-dir-crumb').textContent = state.direction.toUpperCase();
+  document.getElementById('current-mail-crumb').textContent = mail.preheader.toUpperCase();
+  document.getElementById('list-direction-label').textContent = state.direction.toUpperCase() + ' / v3.2';
+}
+
+function applyDevice() {
+  const dev = document.getElementById('device');
+  dev.classList.toggle('desktop', state.device === 'desktop');
+  dev.classList.toggle('mobile', state.device === 'mobile');
+  document.querySelectorAll('#device-toggle button').forEach(b => {
+    b.classList.toggle('on', b.dataset.device === state.device);
+  });
+}
+
+function applyDensity() {
+  document.body.classList.remove('density-tight','density-default','density-airy');
+  document.body.classList.add('density-' + state.density);
+}
+
+function applyAccent() {
+  const accents = { signal: '#F27D24', purple: '#362478', red: '#BF172E' };
+  document.documentElement.style.setProperty('--signal', accents[state.accent] || '#F27D24');
+}
+
+function applySidebarSelection() {
+  document.querySelectorAll('[data-dir-select]').forEach(el => {
+    el.classList.toggle('active', el.dataset.dirSelect === state.direction);
+  });
+}
+
+function renderAll() {
+  renderList();
+  renderViewer();
+  applyDevice();
+  applyDensity();
+  applyAccent();
+  applySidebarSelection();
+  syncTweaksUI();
+}
+
+// ---------- DEVICE TOGGLE ----------
+document.getElementById('device-toggle').addEventListener('click', e => {
+  const b = e.target.closest('button'); if (!b) return;
+  state.device = b.dataset.device;
+  persist();
+  applyDevice();
+  syncTweaksUI();
+});
+
+// ---------- SIDEBAR DIRECTION CLICK ----------
+document.querySelectorAll('[data-dir-select]').forEach(el => {
+  el.addEventListener('click', () => {
+    state.direction = el.dataset.dirSelect;
+    persist();
+    renderAll();
+  });
+});
+
+// ---------- TWEAKS PANEL ----------
+function syncTweaksUI() {
+  document.querySelectorAll('.seg').forEach(seg => {
+    const group = seg.dataset.group;
+    seg.querySelectorAll('button').forEach(b => {
+      b.classList.toggle('on', b.dataset.val === state[group]);
+    });
+  });
+}
+
+document.querySelectorAll('.seg').forEach(seg => {
+  seg.addEventListener('click', e => {
+    const b = e.target.closest('button'); if (!b) return;
+    const g = seg.dataset.group;
+    state[g] = b.dataset.val;
+    persist();
+    if (g === 'direction') renderAll();
+    else if (g === 'density') applyDensity();
+    else if (g === 'device') applyDevice();
+    else if (g === 'accent') applyAccent();
+    syncTweaksUI();
+  });
+});
+
+// ---------- PERSISTENCE ----------
+function persist() {
+  try { localStorage.setItem('tae-email-state-v2', JSON.stringify(state)); } catch(e){}
+}
+function restore() {
+  try {
+    localStorage.removeItem('tae-email-state');
+    const s = JSON.parse(localStorage.getItem('tae-email-state-v2') || 'null');
+    if (s) {
+      // Guard: only allow known accent values post-rebrand
+      if (!['signal','purple','red'].includes(s.accent)) s.accent = 'signal';
+      Object.assign(state, s);
+    }
+  } catch(e){}
+}
+
+// ---------- EDIT MODE (Tweaks toggle) ----------
+window.addEventListener('message', e => {
+  const d = e.data || {};
+  if (d.type === '__activate_edit_mode') document.getElementById('tweaks').classList.add('on');
+  else if (d.type === '__deactivate_edit_mode') document.getElementById('tweaks').classList.remove('on');
+});
+window.parent.postMessage({ type: '__edit_mode_available' }, '*');
+
+// ---------- INIT ----------
+restore();
+renderAll();
+</script>
+
+</body>
+</html>

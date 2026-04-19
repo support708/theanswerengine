@@ -28,22 +28,131 @@ The Answer Engine
 (213) 444-2229
 support@theanswerengine.ai`;
 
-const HTML_SIG = `<p style="margin-top:32px;padding-top:16px;border-top:1px solid #e0e0e0;color:#666;font-size:13px;">
--- JB<br/>
-The Answer Engine<br/>
-(213) 444-2229<br/>
-support@theanswerengine.ai
-</p>`;
+// ============================================================
+// Email shell — dossier design system
+// Purple header → orange accent stripe → dark body card →
+// tricolor footer stripe. Email-safe: table layout, inline
+// styles, system-font stack (Inter/Space Grotesk fall back to
+// Helvetica/Arial), VML fallbacks for Outlook.
+// ============================================================
+
+const DISPLAY_STACK = `'Space Grotesk','Inter','Helvetica Neue',Arial,sans-serif`;
+const SANS_STACK = `'Inter','Helvetica Neue',Arial,sans-serif`;
+const MONO_STACK = `'JetBrains Mono',Consolas,Menlo,'Courier New',monospace`;
+
+const LOGO_URL = 'https://theanswerengine.ai/email-assets/logo-mark.png';
+
+const HTML_SIG = `
+<table role="presentation" cellpadding="0" cellspacing="0" border="0" width="100%" style="border-collapse:collapse;margin-top:32px;">
+  <tr><td style="border-top:1px solid rgba(255,255,255,0.12);padding-top:18px;font-family:${SANS_STACK};font-size:13px;line-height:1.6;color:rgba(229,226,225,0.72);">
+    <span style="display:inline-block;font-family:${MONO_STACK};font-size:10px;letter-spacing:0.18em;text-transform:uppercase;color:#F27D24;margin-bottom:8px;">// Signed</span><br/>
+    <strong style="color:#ffffff;font-weight:800;">JB</strong><br/>
+    The Answer Engine<br/>
+    <a href="tel:+12134442229" style="color:rgba(229,226,225,0.72);text-decoration:none;">(213) 444-2229</a><br/>
+    <a href="mailto:support@theanswerengine.ai" style="color:#F27D24;text-decoration:none;">support@theanswerengine.ai</a>
+  </td></tr>
+</table>`;
 
 function htmlWrap(inner: string): string {
-  return `<!DOCTYPE html>
-<html>
-<head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"></head>
-<body style="margin:0;padding:0;font-family:Georgia,serif;font-size:15px;line-height:1.6;color:#1a1a1a;background:#ffffff;">
-<div style="max-width:600px;margin:0 auto;padding:32px 20px;">
+  return `<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+  <meta name="x-apple-disable-message-reformatting" />
+  <meta name="color-scheme" content="dark light" />
+  <meta name="supported-color-schemes" content="dark light" />
+  <title>The Answer Engine</title>
+  <!--[if mso]>
+  <style type="text/css">
+    body, table, td, a { font-family: Arial, Helvetica, sans-serif !important; }
+  </style>
+  <![endif]-->
+  <style type="text/css">
+    body { margin:0 !important; padding:0 !important; width:100% !important; }
+    a { color: #F27D24; }
+    a:hover { color: #ffffff; }
+    .ae-body p { margin: 0 0 14px 0; color: rgba(229,226,225,0.82); font-size: 15px; line-height: 1.62; }
+    .ae-body strong { color: #ffffff; font-weight: 700; }
+    .ae-body a { color: #F27D24; font-weight: 600; }
+    .ae-body h1, .ae-body h2, .ae-body h3 { color: #ffffff; font-family: ${DISPLAY_STACK}; font-weight: 800; letter-spacing: -0.01em; }
+    @media screen and (max-width: 620px) {
+      .ae-shell { width: 100% !important; }
+      .ae-pad { padding-left: 22px !important; padding-right: 22px !important; }
+      .ae-hero-pad { padding: 28px 22px 30px 22px !important; }
+    }
+  </style>
+</head>
+<body style="margin:0;padding:0;background:#0f0f10;font-family:${SANS_STACK};-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;">
+  <!-- preheader (hidden) -->
+  <div style="display:none;max-height:0;overflow:hidden;mso-hide:all;font-size:1px;line-height:1px;color:#0f0f10;">The Answer Engine // AI Visibility Intelligence</div>
+
+  <table role="presentation" cellpadding="0" cellspacing="0" border="0" width="100%" style="background:#0f0f10;border-collapse:collapse;">
+    <tr><td align="center" style="padding:24px 12px;">
+
+      <table role="presentation" cellpadding="0" cellspacing="0" border="0" width="600" class="ae-shell" style="width:600px;max-width:600px;border-collapse:collapse;background:#1c1b1b;">
+
+        <!-- PURPLE HEADER BAR -->
+        <tr><td style="background:#362478;padding:14px 24px;" bgcolor="#362478">
+          <table role="presentation" cellpadding="0" cellspacing="0" border="0" width="100%" style="border-collapse:collapse;">
+            <tr>
+              <td align="left" style="font-family:${DISPLAY_STACK};font-weight:900;font-size:11px;letter-spacing:0.16em;color:#ffffff;text-transform:uppercase;" valign="middle">
+                <img src="${LOGO_URL}" alt="" width="28" height="28" style="vertical-align:middle;margin-right:10px;border:0;display:inline-block;" />
+                <span style="vertical-align:middle;">The Answer Engine</span>
+              </td>
+              <td align="right" style="font-family:${MONO_STACK};font-size:10px;letter-spacing:0.2em;color:#ffffff;text-transform:uppercase;font-weight:700;" valign="middle">
+                <span style="background:#BF172E;color:#ffffff;padding:5px 10px;display:inline-block;">Dossier</span>
+              </td>
+            </tr>
+          </table>
+        </td></tr>
+
+        <!-- ORANGE ACCENT STRIPE -->
+        <tr><td style="height:3px;background:#F27D24;line-height:3px;font-size:0;" bgcolor="#F27D24">&nbsp;</td></tr>
+
+        <!-- BODY CARD -->
+        <tr><td class="ae-body ae-pad" style="background:#1c1b1b;padding:34px 32px 30px 32px;font-family:${SANS_STACK};font-size:15px;line-height:1.62;color:rgba(229,226,225,0.82);" bgcolor="#1c1b1b">
+
+          <!-- preheader tag -->
+          <div style="font-family:${MONO_STACK};font-weight:700;font-size:10px;letter-spacing:0.24em;text-transform:uppercase;color:#F27D24;margin-bottom:18px;">
+            <span style="display:inline-block;width:18px;height:2px;background:#F27D24;vertical-align:middle;margin-right:10px;"></span>Intelligence Brief
+          </div>
+
 ${inner}
+
 ${HTML_SIG}
-</div>
+
+        </td></tr>
+
+        <!-- TRICOLOR FOOTER STRIPE -->
+        <tr><td style="padding:0;font-size:0;line-height:0;" bgcolor="#0f0f10">
+          <table role="presentation" cellpadding="0" cellspacing="0" border="0" width="100%" style="border-collapse:collapse;">
+            <tr>
+              <td width="50%" height="4" style="background:#362478;font-size:0;line-height:0;" bgcolor="#362478">&nbsp;</td>
+              <td width="30%" height="4" style="background:#F27D24;font-size:0;line-height:0;" bgcolor="#F27D24">&nbsp;</td>
+              <td width="20%" height="4" style="background:#BF172E;font-size:0;line-height:0;" bgcolor="#BF172E">&nbsp;</td>
+            </tr>
+          </table>
+        </td></tr>
+
+        <!-- FOOTER META -->
+        <tr><td style="background:#0f0f10;padding:20px 32px 22px 32px;border-top:1px solid rgba(255,255,255,0.06);font-family:${MONO_STACK};font-size:10px;letter-spacing:0.14em;text-transform:uppercase;color:rgba(229,226,225,0.45);" bgcolor="#0f0f10">
+          <table role="presentation" cellpadding="0" cellspacing="0" border="0" width="100%" style="border-collapse:collapse;">
+            <tr>
+              <td align="left" style="font-family:${MONO_STACK};font-size:10px;letter-spacing:0.14em;color:rgba(229,226,225,0.45);text-transform:uppercase;">
+                The Answer Engine&nbsp;&nbsp;//&nbsp;&nbsp;<a href="https://theanswerengine.ai" style="color:rgba(229,226,225,0.65);text-decoration:none;">theanswerengine.ai</a>
+              </td>
+              <td align="right" style="font-family:${MONO_STACK};font-size:10px;letter-spacing:0.14em;color:rgba(229,226,225,0.45);text-transform:uppercase;">
+                Los Angeles, CA
+              </td>
+            </tr>
+          </table>
+        </td></tr>
+
+      </table>
+
+    </td></tr>
+  </table>
 </body>
 </html>`;
 }
