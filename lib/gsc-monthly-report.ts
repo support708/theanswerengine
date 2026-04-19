@@ -7,6 +7,12 @@
  */
 
 import { getTopQueries, getTopPages, type GscQueryRow, type GscPageRow } from './gsc-api';
+import {
+  readActivityForMonth,
+  renderActivitySectionHtml,
+  renderActivitySectionPlain,
+  type ActivityItem,
+} from './agency-activity';
 
 export interface MonthlyReportData {
   siteUrl: string;
@@ -144,7 +150,7 @@ function formatPos(p: number): string {
   return p.toFixed(1);
 }
 
-export function renderMonthlyReportHtml(r: MonthlyReportData, firstName: string): string {
+export function renderMonthlyReportHtml(r: MonthlyReportData, firstName: string, activity: ActivityItem[] = []): string {
   const queryRows = r.topQueries.map((q, i) => `
     <tr>
       <td style="padding:8px 6px;border-bottom:1px solid #f0f0f0;font-family:${MONO};font-size:12px;color:#999;width:26px;">${(i + 1).toString().padStart(2, '0')}</td>
@@ -225,6 +231,8 @@ export function renderMonthlyReportHtml(r: MonthlyReportData, firstName: string)
   <tbody>${queryRows || '<tr><td colspan="5" style="padding:12px;color:#888;font-size:13px;font-style:italic;">No query data this month.</td></tr>'}</tbody>
 </table>
 
+${renderActivitySectionHtml(activity)}
+
 <!-- OPPORTUNITY QUEUE -->
 <h3 style="margin:0 0 4px 0;font-size:15px;color:#1a1a1a;font-family:${DISPLAY};font-weight:800;text-transform:uppercase;letter-spacing:0.02em;">Page-2 Opportunities</h3>
 <p style="margin:0 0 10px 0;font-size:12px;color:#777;">Queries ranked 11-20. One well-written article could push these to page 1.</p>
@@ -266,7 +274,7 @@ Report period: ${escapeHtml(r.periodStart)} to ${escapeHtml(r.periodEnd)}. Data 
 </p>`;
 }
 
-export function renderMonthlyReportPlain(r: MonthlyReportData, firstName: string): string {
+export function renderMonthlyReportPlain(r: MonthlyReportData, firstName: string, activity: ActivityItem[] = []): string {
   return `Monthly AEO Report
 ${r.displayName} — ${r.monthLabel}
 
@@ -275,6 +283,7 @@ CLICKS: ${formatInt(r.totalClicks)} (${r.deltaClicks > 0 ? '+' : ''}${r.deltaCli
 AVG CTR: ${formatCtr(r.avgCtr)}
 AVG POSITION: ${formatPos(r.avgPosition)}
 
+${renderActivitySectionPlain(activity)}
 TOP 10 QUERIES:
 ${r.topQueries.map((q, i) => `${(i + 1).toString().padStart(2, '0')}. ${q.query} — ${formatInt(q.impressions)} impr, ${formatInt(q.clicks)} clicks, pos ${formatPos(q.position)}`).join('\n')}
 

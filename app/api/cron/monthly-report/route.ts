@@ -25,6 +25,7 @@ import {
   renderMonthlyReportPlain,
   buildMonthlyReportSubject,
 } from '@/lib/gsc-monthly-report';
+import { readActivityForMonth } from '@/lib/agency-activity';
 import { htmlWrap } from '@/lib/gmail';
 import { createGmailDraft, isGmailConfigured } from '@/lib/gmail-api';
 import { isGscConfigured } from '@/lib/gsc-api';
@@ -140,10 +141,13 @@ async function handle(req: NextRequest) {
     const fname = firstName(profile);
 
     try {
-      const report = await buildMonthlyReport(siteUrl, name, yyyyMm);
-      const inner = renderMonthlyReportHtml(report, fname);
+      const [report, activity] = await Promise.all([
+        buildMonthlyReport(siteUrl, name, yyyyMm),
+        readActivityForMonth(slug, yyyyMm),
+      ]);
+      const inner = renderMonthlyReportHtml(report, fname, activity);
       const html = htmlWrap(inner, 'light');
-      const plain = renderMonthlyReportPlain(report, fname);
+      const plain = renderMonthlyReportPlain(report, fname, activity);
       const subject = `[Preview] ${buildMonthlyReportSubject(name, report.monthLabel)}`;
 
       const draft = await createGmailDraft({
