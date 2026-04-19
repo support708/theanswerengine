@@ -3135,7 +3135,7 @@
     "reviewCount": 102,
     "rating": 4.8,
     "notes": "Auto-discovered by Lead Hunter. AI citation: not cited on 1/1 platforms. Competitors cited: Wilshire Center Chiropractic, Yonsei Chiropractic Clinic, The Joint Chiropractic. Outreach-ready: YES (citation data + contact + differentiator verified). Differentiator: Revolutionary multidisciplinary clinic with MDs, chiropractors, acupuncture, massage, founded 2001, integrated wellness approach",
-    "status": "report_ready",
+    "status": "sent",
     "research": {
       "reviewCount": 102,
       "rating": 4.8,
@@ -3247,10 +3247,14 @@
       {
         "action": "Report + OG metadata deployed to production",
         "timestamp": "2026-04-19T10:02:49.457Z"
+      },
+      {
+        "action": "Initial email auto-sent via Gmail (19da6cb913ada314)",
+        "timestamp": "2026-04-19T17:30:52.690Z"
       }
     ],
     "createdAt": "2026-03-09T13:01:29.518Z",
-    "updatedAt": "2026-04-19T10:02:49.333Z",
+    "updatedAt": "2026-04-19T17:30:52.690Z",
     "huntSource": "hunt_1773061221808_5npi",
     "huntScore": 38.5,
     "huntPriority": "P1",
