@@ -234,4 +234,44 @@ Decide before the phase that needs them:
 
 ---
 
-*Handoff ready: ae-ops owns Phase 0 execution. Implementation plan next via `writing-plans` skill.*
+## Section 9 — Parallel workstream: Portfolio backlinking
+
+Runs *alongside* the email-automation rollout, not inside it. Owned by **builder** (execution) with **ae-ops** (safety audit) and **analyst** (lift measurement) as fleet counterparts.
+
+**Source of truth:** [`docs/backlinking-strategy.md`](../../backlinking-strategy.md) — 10 placements, 12-week production calendar, LAMH Safety Protocol, success metrics.
+
+**Fleet ownership:**
+
+| Agent | Responsibility |
+|---|---|
+| **builder** | Writes the 10 editorial placements per the 12-week calendar. 1–2 placements/week, never batched. Varies anchor text per the protocol. |
+| **ae-ops** | Weekly sanity check that no placement violates LAMH Safety Protocol before it ships (max 1 outbound per new LAMH post, no existing-post edits, no sidebar/footer links). Blocks deploy if placement violates. |
+| **analyst** | Wed 12:00 UTC LAMH outbound-link audit (already in §5 cadence). Also measures receiver-site impression lift at weeks 4, 8, 12 per the success metrics (ClearClose 13 → 500+, Lovery 884 → 2,500). |
+
+**Fleet tripwires (extend §3):**
+
+| Tripwire | Action |
+|---|---|
+| Any placement adds an outbound link to an *existing* LAMH post | Hard block at PR level; urgent hq DM (Penguin risk) |
+| LAMH outbound-link ratio >5% of total outbounds | Freeze all new placements, hq DM, require Justin manual unblock |
+| >2 LAMH → portfolio placements in any rolling 90d window | Hard block the 3rd |
+| Exact-match anchor text reuse across placements | Warn builder, require anchor variation before ship |
+
+**Calendar alignment with rollout:**
+
+| Rollout phase | Backlinking week | Notes |
+|---|---|---|
+| Phase 0 (Apr 19–25) | Week 1 | TAE case-study hub: start #4, #5, #6 |
+| Phase 1 (Apr 26–May 9) | Weeks 2–3 | Finish case studies, start Borges content (#7, #10) |
+| Phase 2 (May 10–23) | Weeks 4–5 | RPM Southland content (#8, #9) |
+| Phase 3 (May 24–31) | Week 6 | LAMH post #2 ONLY (Borges referral — careful anchor) |
+| Phase 4 (Jun 1–7) | Weeks 7–8 | Davis Agency integration (case study) |
+| Phase 5 (Jun 8+) | Weeks 9–12 | Backfill on Borges/RPM/ClearClose; Day-90 re-analysis run |
+
+**Day 90 re-run (Jul 18):** analyst re-pulls 28-day GSC impressions for all 7 properties, re-ranks authority, surfaces new topical bridges, updates placement calendar. Uses the prompt at bottom of `backlinking-strategy.md`.
+
+**What this buys the rollout:** every cross-portfolio link is now owned, audited, and measured. ClearClose's 13 impressions → 500+ lift happens on the same timeline as Monday Brief automation — two independent wins in one 90-day window.
+
+---
+
+*Handoff ready: ae-ops owns Phase 0 execution of email automation; builder owns parallel backlinking campaign. Implementation plan next via `writing-plans` skill.*
