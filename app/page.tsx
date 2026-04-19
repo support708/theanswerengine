@@ -37,17 +37,25 @@ const useScrollAnimation = (): { ref: RefObject<HTMLDivElement | null>; isVisibl
   return { ref, isVisible };
 };
 
-// ─── Territory data ──────────────────────────────────────────────────────────
+// ─── Territory data — real client roster + real RE markets ──────────────────
 const territories = [
+  // LOCKED — signed clients
   { city: 'Los Angeles, CA', category: 'Real Estate', status: 'claimed' as const },
+  { city: 'Pasadena, CA', category: 'Real Estate', status: 'claimed' as const },
+  { city: 'San Diego, CA', category: 'Real Estate', status: 'claimed' as const },
+  { city: 'Inland Empire, CA', category: 'Real Estate', status: 'claimed' as const },
   { city: 'Austin, TX', category: 'Real Estate', status: 'claimed' as const },
   { city: 'Long Beach, CA', category: 'Property Management', status: 'claimed' as const },
-  { city: 'San Diego, CA', category: 'Real Estate', status: 'claimed' as const },
-  { city: 'Phoenix, AZ', category: 'HVAC', status: 'available' as const },
-  { city: 'Denver, CO', category: 'Plumbing', status: 'available' as const },
-  { city: 'Nashville, TN', category: 'Electrical', status: 'available' as const },
+  // OPEN — real-estate-first expansion markets
+  { city: 'Chicago, IL', category: 'Real Estate', status: 'available' as const },
   { city: 'Miami, FL', category: 'Real Estate', status: 'available' as const },
-  { city: 'Portland, OR', category: 'HVAC', status: 'available' as const },
+  { city: 'Seattle, WA', category: 'Real Estate', status: 'available' as const },
+  { city: 'Atlanta, GA', category: 'Real Estate', status: 'available' as const },
+  { city: 'Nashville, TN', category: 'Real Estate', status: 'available' as const },
+  { city: 'Denver, CO', category: 'Real Estate', status: 'available' as const },
+  { city: 'Portland, OR', category: 'Real Estate', status: 'available' as const },
+  { city: 'Phoenix, AZ', category: 'Real Estate', status: 'available' as const },
+  { city: 'Dallas, TX', category: 'Real Estate', status: 'available' as const },
 ];
 
 // ─── FAQ data ────────────────────────────────────────────────────────────────
@@ -809,6 +817,79 @@ export default function Home() {
       </section>
 
       {/* ════════════════════════════════════════════════════════
+          WHO WE SERVE — real-estate-forward positioning
+      ════════════════════════════════════════════════════════ */}
+      <section className="py-32 px-6 lg:px-24 bg-[#131313]">
+        <div className="max-w-7xl mx-auto">
+          <div className="mb-16">
+            <span className="font-mono text-[10px] text-[#FF6A00] tracking-widest uppercase block mb-4">Who We Serve // Primary Verticals</span>
+            <h2 className="font-headline font-black text-5xl md:text-6xl tracking-tighter uppercase leading-none text-[#e5e2e1]">
+              BUILT ON{' '}
+              <span className="text-[#FF6A00]">REAL ESTATE.</span><br />
+              READY FOR THE REST.
+            </h2>
+            <p className="text-white/50 text-sm leading-relaxed mt-6 max-w-2xl">
+              We built the AEO playbook on real estate because that&apos;s where AI-driven buying decisions moved first. Today our client roster is real estate and real-estate-adjacent. Adjacent local service is open by territory.
+            </p>
+          </div>
+
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-0 border border-white/10">
+            {[
+              {
+                num: '01',
+                tag: 'PRIMARY',
+                title: 'Real Estate Agents & Teams',
+                body: 'Solo agents, teams, and brokerages ranking for high-intent buyer, seller, and investor queries. The AERO-10 framework was built here.',
+                clients: 'LAMH · Borges · Lovery · Brandon Thompson · Davis Agency',
+              },
+              {
+                num: '02',
+                tag: 'PRIMARY',
+                title: 'Property Management',
+                body: 'SFR and multi-family operators with owner-acquisition and tenant-placement funnels. Same framework, different query set.',
+                clients: 'RPM Southland',
+              },
+              {
+                num: '03',
+                tag: 'PRIMARY',
+                title: 'Builder Financial Services',
+                body: 'Contingent-offer conversion, builder financing, and ancillary real-estate services. Positioned alongside agents in AI responses.',
+                clients: 'ClearClose Builder Services',
+              },
+              {
+                num: '04',
+                tag: 'BY TERRITORY',
+                title: 'Adjacent Local Service',
+                body: 'Legal, dental, HVAC, roofing, and other high-intent local-service categories. Taken selectively when territory is open and the category rewards AEO.',
+                clients: 'Select verticals',
+              },
+            ].map((v, i, arr) => (
+              <div
+                key={v.num}
+                className={`p-8 bg-[#1c1b1b] hover:bg-[#2a2a2a] transition-colors ${i < arr.length - 1 ? 'border-b lg:border-b-0 lg:border-r' : ''} ${i === 1 ? 'md:border-r' : ''} ${i < 2 ? 'md:border-b lg:border-b-0' : ''} border-white/10`}
+              >
+                <div className="flex items-start justify-between mb-6">
+                  <span className="text-5xl font-headline font-black text-white/10">{v.num}</span>
+                  <span className={`font-mono text-[10px] tracking-widest uppercase ${v.tag === 'PRIMARY' ? 'text-[#FF6A00]' : 'text-white/40'}`}>
+                    {v.tag}
+                  </span>
+                </div>
+                <h4 className="font-headline font-bold text-xl uppercase mb-4 text-[#e5e2e1] leading-tight">{v.title}</h4>
+                <p className="text-white/60 text-sm leading-relaxed mb-6">{v.body}</p>
+                <div className="font-mono text-[10px] text-white/40 tracking-widest uppercase pt-4 border-t border-white/10">
+                  {v.clients}
+                </div>
+              </div>
+            ))}
+          </div>
+
+          <p className="text-white/40 text-xs mt-6 font-mono tracking-widest uppercase">
+            Real estate is where we have the deepest playbook. Other verticals are taken one territory at a time.
+          </p>
+        </div>
+      </section>
+
+      {/* ════════════════════════════════════════════════════════
           90-DAY GUARANTEE
       ════════════════════════════════════════════════════════ */}
       <section className="py-32 px-6 lg:px-24 bg-[#1c1b1b]">
@@ -1019,13 +1100,14 @@ export default function Home() {
                     }}
                   >
                     <option value="">Select your industry</option>
-                    <option value="plumbing">Plumbing</option>
-                    <option value="hvac">HVAC</option>
-                    <option value="electrical">Electrical</option>
                     <option value="real-estate">Real Estate</option>
-                    <option value="attorney">Attorney</option>
-                    <option value="dentist">Dentist</option>
-                    <option value="other">Other</option>
+                    <option value="property-management">Property Management</option>
+                    <option value="builder-financial">Builder / Financial Services</option>
+                    <option value="attorney">Legal Services</option>
+                    <option value="dentist">Dental / Medical</option>
+                    <option value="hvac">HVAC / Plumbing</option>
+                    <option value="roofing">Roofing</option>
+                    <option value="other">Other Local Service</option>
                   </select>
                 </div>
 

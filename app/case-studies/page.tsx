@@ -330,6 +330,42 @@ export default function CaseStudiesPage() {
         </div>
       </section>
 
+      {/* ── ALSO WORKING WITH — portfolio adjacency ────────── */}
+      <section className="py-24 px-6 lg:px-24 bg-[#131313] border-t border-white/5">
+        <div className="max-w-7xl mx-auto">
+          <span className="font-mono text-[10px] tracking-widest uppercase text-[#FF6A00] block mb-3">
+            Portfolio // Also On The Framework
+          </span>
+          <h2 className="font-headline font-black text-3xl md:text-4xl uppercase tracking-tighter mb-4">
+            ALSO WORKING{' '}
+            <span className="text-[#FF6A00]">WITH</span>
+          </h2>
+          <p className="text-white/50 text-sm leading-relaxed mb-12 max-w-2xl">
+            The LAMH case is the flagship. These are the other businesses running on the AERO-10 framework right now.
+          </p>
+
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-0 border border-white/10">
+            {[
+              { name: 'Borges Real Estate Team', city: 'Pasadena, CA', cat: 'Residential real estate' },
+              { name: 'Lovery Real Estate', city: 'San Diego, CA', cat: 'Real estate · seller focus' },
+              { name: 'Brandon Thompson', city: 'Inland Empire, CA', cat: 'Real estate · IE markets' },
+              { name: 'Davis Agency', city: 'Austin, TX', cat: 'Real estate' },
+              { name: 'RPM Southland', city: 'Long Beach, CA', cat: 'Property management' },
+              { name: 'ClearClose Builder Services', city: 'Nationwide', cat: 'Builder financial services' },
+            ].map((c, i, arr) => (
+              <div
+                key={c.name}
+                className={`p-8 bg-[#1c1b1b] hover:bg-[#2a2a2a] transition-colors border-l-4 border-l-[#FF6A00] ${i < arr.length - 1 ? 'border-b lg:border-b-0' : ''} ${(i + 1) % 3 !== 0 ? 'lg:border-r' : ''} ${(i % 2 === 0) ? 'md:border-r lg:border-r' : ''} border-white/10`}
+              >
+                <div className="font-mono text-[10px] tracking-widest text-white/40 uppercase mb-3">{c.city}</div>
+                <h3 className="font-headline font-bold text-lg uppercase tracking-tighter text-[#e5e2e1] mb-2">{c.name}</h3>
+                <p className="text-white/50 text-sm">{c.cat}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
       {/* ── CTA ──────────────────────────────────────────────── */}
       <section className="bg-[#FF6A00] py-24 px-6 lg:px-24">
         <div className="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center gap-12">

@@ -23,26 +23,32 @@ interface Territory {
 }
 
 const TERRITORIES: Territory[] = [
+  // LOCKED — signed clients
   { id: '01', city: 'LOS ANGELES, CA', category: 'REAL ESTATE', status: 'secured' },
-  { id: '02', city: 'AUSTIN, TX', category: 'REAL ESTATE', status: 'secured' },
-  { id: '03', city: 'LONG BEACH, CA', category: 'PROPERTY MANAGEMENT', status: 'secured' },
-  { id: '04', city: 'SAN DIEGO, CA', category: 'REAL ESTATE', status: 'secured' },
-  { id: '05', city: 'PHOENIX, AZ', category: 'HVAC', status: 'available' },
-  { id: '06', city: 'DENVER, CO', category: 'PLUMBING', status: 'available' },
-  { id: '07', city: 'MIAMI, FL', category: 'DENTAL SERVICES', status: 'available' },
-  { id: '08', city: 'DALLAS, TX', category: 'HVAC SYSTEMS', status: 'available' },
+  { id: '02', city: 'PASADENA, CA', category: 'REAL ESTATE', status: 'secured' },
+  { id: '03', city: 'SAN DIEGO, CA', category: 'REAL ESTATE', status: 'secured' },
+  { id: '04', city: 'INLAND EMPIRE, CA', category: 'REAL ESTATE', status: 'secured' },
+  { id: '05', city: 'AUSTIN, TX', category: 'REAL ESTATE', status: 'secured' },
+  { id: '06', city: 'LONG BEACH, CA', category: 'PROPERTY MANAGEMENT', status: 'secured' },
+  // OPEN — real-estate-first expansion
+  { id: '07', city: 'CHICAGO, IL', category: 'REAL ESTATE', status: 'available' },
+  { id: '08', city: 'MIAMI, FL', category: 'REAL ESTATE', status: 'available' },
+  { id: '09', city: 'SEATTLE, WA', category: 'REAL ESTATE', status: 'available' },
+  { id: '10', city: 'ATLANTA, GA', category: 'REAL ESTATE', status: 'available' },
+  { id: '11', city: 'DENVER, CO', category: 'REAL ESTATE', status: 'available' },
+  { id: '12', city: 'PHOENIX, AZ', category: 'REAL ESTATE', status: 'available' },
 ];
 
 const INDUSTRIES = [
   'Select Industry',
-  'Solar Energy',
   'Real Estate',
+  'Property Management',
+  'Builder / Financial Services',
   'Legal Services',
-  'HVAC / Plumbing',
   'Dental / Medical',
+  'HVAC / Plumbing',
   'Roofing',
-  'Financial Services',
-  'Insurance',
+  'Other Local Service',
 ];
 
 export default function TerritoryCheckPage() {

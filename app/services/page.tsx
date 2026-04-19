@@ -115,7 +115,7 @@ const FAQS = [
   },
   {
     q: 'What industries do you serve?',
-    a: 'High-competition local service industries: real estate, legal, medical, HVAC, plumbing, roofing, solar, dental, accounting, and more. If AI platforms are being asked about your category in your city, we can help.',
+    a: 'Real estate is our primary vertical — the AERO-10 framework was built there first and our signed client roster is real estate and real-estate-adjacent (property management, builder financial services). We also take select adjacent local-service engagements — legal, dental, HVAC, roofing — when a territory is open and the category rewards AEO. If AI platforms are being asked about your category in your city, we can help.',
     open: false,
   },
   {
