@@ -3419,20 +3419,136 @@
     "reviewCount": 174,
     "rating": 4.8,
     "notes": "Auto-discovered by Lead Hunter. AI citation: not cited on 1/1 platforms. Competitors cited: NassifMD Medical Spa, Cienega Med Spa, Marina Medspa. Outreach-ready: YES (citation data + contact + differentiator verified). Differentiator: Award-winning spa chain established in 2006 by Alissa Bayer; operates 2 LA locations (Brentwood & Culver City) with full med spa integration including Botox, BBL, Moxi laser treatments",
-    "status": "queued",
-    "research": null,
+    "status": "report_ready",
+    "research": {
+      "reviewCount": 174,
+      "rating": 4.8,
+      "yearsInBusiness": 20,
+      "credentials": [
+        "MBA from University of Texas at Austin (Founder Alissa Bayer)",
+        "Licensed massage therapists on staff",
+        "Licensed estheticians on staff",
+        "Licensed nail therapists on staff",
+        "EY Entrepreneurial Winning Women 2015 class (Founder)"
+      ],
+      "awards": [
+        "Inc. 5000 list (7 years)",
+        "100+ awards and accolades",
+        "Best Spa Austin Chronicle (multiple years)",
+        "Best Spas in Austin Thrillist 2023",
+        "Best Massage Houston Chronicle",
+        "Best Facial Houston Chronicle",
+        "Best of Fort Worth 2022",
+        "Best Day Spa Fort Worth Magazine 2020",
+        "Best Place to Work Austin Business Journal (multiple years)",
+        "Les Nouvelles Esthétiques Top Day Spa in Texas 2011"
+      ],
+      "communityInvolvement": [
+        "Donates gift certificates to community organizations",
+        "Supports local causes and charitable initiatives",
+        "Donated services and products to LA wildfire first responders 2026",
+        "Founder features in entrepreneurship speaking engagements",
+        "Palisociety hotel partnerships for spa access"
+      ],
+      "hiddenDifferentiators": [
+        "Founder bootstrapped company from $400k personal investment",
+        "Hyperclean ingredient focus in products and services",
+        "VOC-free construction materials in all spas",
+        "Full med spa integration with luxury spa experience",
+        "Licensed medical professionals for injectable treatments",
+        "Proprietary Spa Partisan loyalty program",
+        "Gratitude-embedded spa design philosophy",
+        "Employee-first culture with benefits starting at 24 hours/week",
+        "Products available at premium retail (Neiman Marcus, Erewhon)",
+        "Two LA locations in affluent neighborhoods (Brentwood, Culver City)"
+      ],
+      "topCompetitors": [
+        {
+          "name": "NassifMD Medical Spa",
+          "reason": "Beverly Hills location, Dr. Nassif celebrity status, advanced injectables focus, strong media presence"
+        },
+        {
+          "name": "Cienega Med Spa",
+          "reason": "Greater LA presence, free consultations, aggressive pricing strategy, CoolSculpting services"
+        },
+        {
+          "name": "Marina Medspa",
+          "reason": "30+ years experience, 30,000+ patients treated, established medical director Dr. Grant Stevens, body contouring specialist"
+        },
+        {
+          "name": "Sculpt DTLA",
+          "reason": "Downtown LA recognition 2025, advanced technology focus, competitive pricing, younger demographic appeal"
+        }
+      ],
+      "faqContentPresent": true,
+      "blogPresent": true,
+      "gmbPresent": true,
+      "schemaDetected": true,
+      "recentContent": true,
+      "uniqueStory": "Alissa Bayer founded milk + honey in 2006 after earning MBA from UT-Austin, bootstrapping from $400k to build an award-winning chain focused on hyperclean ingredients and employee wellness. Now operates 7 locations across Texas, California, and Chicago with proprietary med spa integration and hyperclean product line available at luxury retailers. Part of 2015 EY Entrepreneurial Winning Women class. Expanded to Los Angeles as first out-of-state market with Brentwood and Culver City locations offering full med spa services alongside luxury day spa experiences.",
+      "aiCited": false,
+      "aero7": {
+        "answerQuality": 7,
+        "entityOptimization": 6,
+        "relevanceFreshness": 7,
+        "optimizationStructure": 6,
+        "voiceAuthenticity": 8,
+        "authoritySignals": 8,
+        "authorityDistribution": 6,
+        "consensusCoCitation": 5,
+        "platformReadiness": 6,
+        "technicalAccessibility": 6,
+        "total": 65
+      },
+      "rawNotes": "STRENGTH: Exceptional brand positioning with authentic founder story, 20 years in business, strong review metrics (4.8 stars, 174 reviews on Yelp Brentwood), 100+ awards, featured in industry publications (Spa and Beauty Today, Insiders Guide to Spas). Comprehensive web presence with active blog (The Partisan), FAQ pages, LinkedIn profile (9k+ followers), Instagram (53k followers), robust local citations (Google, Yelp, TripAdvisor). Clear med spa integration with BBL, Moxi, Botox, fillers, microneedling services. Community involvement documented (fire relief donation Jan 2026). WEAKNESS: Not appearing in AI recommendations for 'best med spa LA' searches - competitors like NassifMD, Sculpt DTLA, Cienega dominate AI suggestions. Limited third-party coverage of LA locations specifically - most press about Texas operations. No evidence of schema markup beyond basic LocalBusiness. Employee satisfaction issues evident on Glassdoor (2.8/5 rating) and Indeed with complaints about toxic management culture and high turnover, potentially impacting search visibility if reviewed by authorities. Blog content is 6+ months old (latest Jan 2026). NAP consistency verified across Yelp/Google for both LA locations. GBP profiles appear verified for Brentwood and Culver City locations. OPPORTUNITY: Strengthen AI citation through partnerships with beauty/wellness publications, optimize for 'med spa near me' voice queries, increase recent content in blog focused on LA market, address Glassdoor rating to improve E-E-A-T signals. CONCERN: Knowledge gap between customer satisfaction (4.8 stars) and employee satisfaction (2.8 stars on Glassdoor) creates credibility risk if amplified by AI systems checking employee reviews. Not being recommended by ChatGPT/Gemini/Perplexity for local med spa searches suggests schema or content optimization gaps versus competitors.",
+      "researchedAt": "2026-04-19T18:01:21.421Z"
+    },
     "reportSlug": "milk-honey-spa-69nz",
     "emailDraftId": null,
-    "fabricationFlags": [],
+    "fabricationFlags": [
+      "Unverified claim: \"$400,000\" (not found in research data)"
+    ],
     "emDashClean": false,
     "actionLog": [
       {
         "action": "Queued by Lead Hunter (P1, score: 40, outreach-ready: true)",
         "timestamp": "2026-04-08T20:59:03.859Z"
+      },
+      {
+        "action": "Research started (auto-pipeline)",
+        "timestamp": "2026-04-19T18:00:49.324Z"
+      },
+      {
+        "action": "Research completed (AERO-10: 65/100)",
+        "timestamp": "2026-04-19T18:01:21.421Z"
+      },
+      {
+        "action": "Report generation started",
+        "timestamp": "2026-04-19T18:01:21.421Z"
+      },
+      {
+        "action": "Competitor battlecard attached",
+        "timestamp": "2026-04-19T18:03:06.841Z"
+      },
+      {
+        "action": "Report generated",
+        "timestamp": "2026-04-19T18:03:06.841Z"
+      },
+      {
+        "action": "Fabrication scan: 1 flags",
+        "timestamp": "2026-04-19T18:03:06.841Z"
+      },
+      {
+        "action": "Em-dash scan: 4 found, auto-stripped",
+        "timestamp": "2026-04-19T18:03:06.841Z"
+      },
+      {
+        "action": "Report + OG metadata deployed to production",
+        "timestamp": "2026-04-19T18:03:06.979Z"
       }
     ],
     "createdAt": "2026-04-08T20:59:03.859Z",
-    "updatedAt": "2026-04-08T20:59:03.859Z",
+    "updatedAt": "2026-04-19T18:03:06.841Z",
     "huntSource": "hunt_1775681881534_kh3q",
     "huntScore": 40,
     "huntPriority": "P1",
