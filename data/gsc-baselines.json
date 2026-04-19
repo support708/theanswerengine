@@ -1,0 +1,1441 @@
+{
+  "version": 1,
+  "updatedAt": "2026-04-19T06:53:18.387Z",
+  "byClient": {
+    "borges-team": {
+      "baseline": {
+        "slug": "borges-team",
+        "displayName": "The Borges Real Estate Team at eXp Realty",
+        "siteUrl": "sc-domain:theborgesrealestateteam.com",
+        "capturedAt": "2026-04-19T06:53:16.052Z",
+        "windowStart": "2026-03-20",
+        "windowEnd": "2026-04-16",
+        "totalImpressions": 223,
+        "totalClicks": 11,
+        "avgCtr": 0.04932735426008968,
+        "avgPosition": 20.116591928251122,
+        "topQueries": [
+          {
+            "query": "the borges real estate team",
+            "clicks": 7,
+            "impressions": 41,
+            "ctr": 0.17073170731707318,
+            "position": 4.634146341463415
+          },
+          {
+            "query": "borges real estate team",
+            "clicks": 1,
+            "impressions": 13,
+            "ctr": 0.07692307692307693,
+            "position": 4.3076923076923075
+          },
+          {
+            "query": "borges team",
+            "clicks": 1,
+            "impressions": 5,
+            "ctr": 0.2,
+            "position": 3
+          },
+          {
+            "query": "glendale vs pasadena",
+            "clicks": 1,
+            "impressions": 18,
+            "ctr": 0.05555555555555555,
+            "position": 9.777777777777779
+          },
+          {
+            "query": "rose bowl flea market parking",
+            "clicks": 1,
+            "impressions": 2,
+            "ctr": 0.5,
+            "position": 25
+          },
+          {
+            "query": "\"626 night market\" \"are animals allowed\"",
+            "clicks": 0,
+            "impressions": 9,
+            "ctr": 0,
+            "position": 2
+          },
+          {
+            "query": "\"626 night market\" dogs allowed",
+            "clicks": 0,
+            "impressions": 3,
+            "ctr": 0,
+            "position": 2
+          },
+          {
+            "query": "\"are animals allowed\" \"626 night market\"",
+            "clicks": 0,
+            "impressions": 3,
+            "ctr": 0,
+            "position": 2
+          },
+          {
+            "query": "\"earnest money\" \"los angeles\" or la \"1%\" or \"2%\" or \"3%\" 2026",
+            "clicks": 0,
+            "impressions": 19,
+            "ctr": 0,
+            "position": 6.631578947368421
+          },
+          {
+            "query": "\"night market bites\" subscription ads",
+            "clicks": 0,
+            "impressions": 1,
+            "ctr": 0,
+            "position": 2
+          },
+          {
+            "query": "626 night market",
+            "clicks": 0,
+            "impressions": 5,
+            "ctr": 0,
+            "position": 3.2
+          },
+          {
+            "query": "626 night market 2026 schedule",
+            "clicks": 0,
+            "impressions": 1,
+            "ctr": 0,
+            "position": 9
+          },
+          {
+            "query": "626 night market bay area",
+            "clicks": 0,
+            "impressions": 1,
+            "ctr": 0,
+            "position": 51
+          },
+          {
+            "query": "626 night market costa mesa",
+            "clicks": 0,
+            "impressions": 2,
+            "ctr": 0,
+            "position": 78.5
+          },
+          {
+            "query": "626 night market dogs allowed",
+            "clicks": 0,
+            "impressions": 2,
+            "ctr": 0,
+            "position": 12
+          },
+          {
+            "query": "626 night market hours",
+            "clicks": 0,
+            "impressions": 3,
+            "ctr": 0,
+            "position": 13
+          },
+          {
+            "query": "626 night market los angeles",
+            "clicks": 0,
+            "impressions": 1,
+            "ctr": 0,
+            "position": 37
+          },
+          {
+            "query": "626 night market oc fair",
+            "clicks": 0,
+            "impressions": 1,
+            "ctr": 0,
+            "position": 83
+          },
+          {
+            "query": "626 night market orange county",
+            "clicks": 0,
+            "impressions": 1,
+            "ctr": 0,
+            "position": 31
+          },
+          {
+            "query": "626 night market parking",
+            "clicks": 0,
+            "impressions": 5,
+            "ctr": 0,
+            "position": 12.2
+          }
+        ],
+        "topPages": [
+          {
+            "page": "https://www.theborgesrealestateteam.com/",
+            "clicks": 10,
+            "impressions": 213,
+            "ctr": 0.046948356807511735,
+            "position": 5.300469483568075
+          },
+          {
+            "page": "https://www.theborgesrealestateteam.com/blog/la-housing-market-spring-2026",
+            "clicks": 4,
+            "impressions": 4445,
+            "ctr": 0.0008998875140607424,
+            "position": 6.1790776152980875
+          },
+          {
+            "page": "https://www.theborgesrealestateteam.com/blog/living-in-south-pasadena-guide",
+            "clicks": 4,
+            "impressions": 213,
+            "ctr": 0.018779342723004695,
+            "position": 13.535211267605634
+          },
+          {
+            "page": "https://www.theborgesrealestateteam.com/blog/626-night-market-guide",
+            "clicks": 3,
+            "impressions": 636,
+            "ctr": 0.0047169811320754715,
+            "position": 8.147798742138365
+          },
+          {
+            "page": "https://www.theborgesrealestateteam.com/blog/glendale-vs-pasadena-vs-burbank",
+            "clicks": 2,
+            "impressions": 509,
+            "ctr": 0.003929273084479371,
+            "position": 7.465618860510806
+          },
+          {
+            "page": "https://www.theborgesrealestateteam.com/blog/san-marino-schools-guide",
+            "clicks": 2,
+            "impressions": 363,
+            "ctr": 0.005509641873278237,
+            "position": 9.245179063360881
+          },
+          {
+            "page": "https://www.theborgesrealestateteam.com/blog/15448-stare-st-mission-hills-ca-91345",
+            "clicks": 1,
+            "impressions": 1,
+            "ctr": 1,
+            "position": 8
+          },
+          {
+            "page": "https://www.theborgesrealestateteam.com/blog/highland-park-real-estate-2026",
+            "clicks": 1,
+            "impressions": 234,
+            "ctr": 0.004273504273504274,
+            "position": 4.632478632478632
+          },
+          {
+            "page": "https://www.theborgesrealestateteam.com/blog/old-town-pasadena-guide",
+            "clicks": 1,
+            "impressions": 167,
+            "ctr": 0.005988023952095809,
+            "position": 11.449101796407186
+          },
+          {
+            "page": "https://www.theborgesrealestateteam.com/blog/rose-bowl-flea-market-guide",
+            "clicks": 1,
+            "impressions": 594,
+            "ctr": 0.0016835016835016834,
+            "position": 8.947811447811448
+          }
+        ],
+        "capturedBy": "cli",
+        "note": "day-0-baseline"
+      },
+      "additional_snapshots": []
+    },
+    "lovery-re": {
+      "baseline": {
+        "slug": "lovery-re",
+        "displayName": "Lovery Real Estate",
+        "siteUrl": "https://loveryrealestate.com/",
+        "capturedAt": "2026-04-19T06:53:16.403Z",
+        "windowStart": "2026-03-20",
+        "windowEnd": "2026-04-16",
+        "totalImpressions": 146,
+        "totalClicks": 0,
+        "avgCtr": 0,
+        "avgPosition": 16.116438356164384,
+        "topQueries": [
+          {
+            "query": "average home price la jolla california 2026",
+            "clicks": 0,
+            "impressions": 4,
+            "ctr": 0,
+            "position": 4
+          },
+          {
+            "query": "best rated realtors near me",
+            "clicks": 0,
+            "impressions": 1,
+            "ctr": 0,
+            "position": 9
+          },
+          {
+            "query": "buyer’s agent",
+            "clicks": 0,
+            "impressions": 1,
+            "ctr": 0,
+            "position": 1
+          },
+          {
+            "query": "can i still sell my house in foreclosure",
+            "clicks": 0,
+            "impressions": 1,
+            "ctr": 0,
+            "position": 75
+          },
+          {
+            "query": "chula vista ca median home price 2026",
+            "clicks": 0,
+            "impressions": 9,
+            "ctr": 0,
+            "position": 7
+          },
+          {
+            "query": "chula vista home values",
+            "clicks": 0,
+            "impressions": 1,
+            "ctr": 0,
+            "position": 11
+          },
+          {
+            "query": "chula vista real estate",
+            "clicks": 0,
+            "impressions": 1,
+            "ctr": 0,
+            "position": 1
+          },
+          {
+            "query": "chula vista realtor",
+            "clicks": 0,
+            "impressions": 2,
+            "ctr": 0,
+            "position": 1
+          },
+          {
+            "query": "chula vista realty",
+            "clicks": 0,
+            "impressions": 1,
+            "ctr": 0,
+            "position": 8
+          },
+          {
+            "query": "condo for sale near me",
+            "clicks": 0,
+            "impressions": 1,
+            "ctr": 0,
+            "position": 2
+          },
+          {
+            "query": "find a realtor to buy a house",
+            "clicks": 0,
+            "impressions": 1,
+            "ctr": 0,
+            "position": 13
+          },
+          {
+            "query": "first time home buyer realtor near me",
+            "clicks": 0,
+            "impressions": 1,
+            "ctr": 0,
+            "position": 6
+          },
+          {
+            "query": "fisher",
+            "clicks": 0,
+            "impressions": 3,
+            "ctr": 0,
+            "position": 9.333333333333334
+          },
+          {
+            "query": "fisher group",
+            "clicks": 0,
+            "impressions": 1,
+            "ctr": 0,
+            "position": 2
+          },
+          {
+            "query": "fishers",
+            "clicks": 0,
+            "impressions": 1,
+            "ctr": 0,
+            "position": 6
+          },
+          {
+            "query": "for sale homes near me",
+            "clicks": 0,
+            "impressions": 2,
+            "ctr": 0,
+            "position": 11
+          },
+          {
+            "query": "gardenvistaabode ezra fisher",
+            "clicks": 0,
+            "impressions": 1,
+            "ctr": 0,
+            "position": 7
+          },
+          {
+            "query": "home listings",
+            "clicks": 0,
+            "impressions": 1,
+            "ctr": 0,
+            "position": 1
+          },
+          {
+            "query": "home on sale near me",
+            "clicks": 0,
+            "impressions": 1,
+            "ctr": 0,
+            "position": 11
+          },
+          {
+            "query": "homes for sale in chula vista california",
+            "clicks": 0,
+            "impressions": 1,
+            "ctr": 0,
+            "position": 39
+          }
+        ],
+        "topPages": [
+          {
+            "page": "https://loveryrealestate.com/",
+            "clicks": 3,
+            "impressions": 195,
+            "ctr": 0.015384615384615385,
+            "position": 7.876923076923077
+          },
+          {
+            "page": "https://loveryrealestate.com/2026/04/04/should-i-sell-my-house-in-chula-vista-2026/",
+            "clicks": 1,
+            "impressions": 247,
+            "ctr": 0.004048582995951417,
+            "position": 6.2631578947368425
+          },
+          {
+            "page": "https://loveryrealestate.com/2026/04/15/can-i-sell-my-house-in-pre-foreclosure-in-san-diego/",
+            "clicks": 1,
+            "impressions": 24,
+            "ctr": 0.041666666666666664,
+            "position": 13.583333333333334
+          },
+          {
+            "page": "https://loveryrealestate.com/2025/11/18/10-common-mistakes-buyers-should-avoid/",
+            "clicks": 0,
+            "impressions": 3,
+            "ctr": 0,
+            "position": 4
+          },
+          {
+            "page": "https://loveryrealestate.com/2026/04/05/how-much-can-i-sell-my-north-park-home-for-2026/",
+            "clicks": 0,
+            "impressions": 89,
+            "ctr": 0,
+            "position": 8.022471910112358
+          },
+          {
+            "page": "https://loveryrealestate.com/2026/04/06/is-it-a-good-time-to-sell-in-university-heights-san-diego/",
+            "clicks": 0,
+            "impressions": 17,
+            "ctr": 0,
+            "position": 8.882352941176471
+          },
+          {
+            "page": "https://loveryrealestate.com/2026/04/07/how-do-i-get-the-most-money-selling-my-normal-heights-home/",
+            "clicks": 0,
+            "impressions": 18,
+            "ctr": 0,
+            "position": 7.777777777777778
+          },
+          {
+            "page": "https://loveryrealestate.com/2026/04/08/whats-my-la-jolla-mesa-home-worth-2026/",
+            "clicks": 0,
+            "impressions": 214,
+            "ctr": 0,
+            "position": 6.392523364485982
+          },
+          {
+            "page": "https://loveryrealestate.com/2026/04/09/what-to-know-before-selling-home-in-bonita-ca/",
+            "clicks": 0,
+            "impressions": 15,
+            "ctr": 0,
+            "position": 6.8
+          },
+          {
+            "page": "https://loveryrealestate.com/2026/04/15/how-to-sell-an-inherited-house-in-san-diego-probate-estate-guide/",
+            "clicks": 0,
+            "impressions": 20,
+            "ctr": 0,
+            "position": 5.9
+          }
+        ],
+        "capturedBy": "cli",
+        "note": "day-0-baseline"
+      },
+      "additional_snapshots": []
+    },
+    "rpm-southland": {
+      "baseline": {
+        "slug": "rpm-southland",
+        "displayName": "RPM Southland",
+        "siteUrl": "https://www.rpmsouthland.com/",
+        "capturedAt": "2026-04-19T06:53:16.795Z",
+        "windowStart": "2026-03-20",
+        "windowEnd": "2026-04-16",
+        "totalImpressions": 8004,
+        "totalClicks": 676,
+        "avgCtr": 0.08445777111444278,
+        "avgPosition": 3.6071964017991003,
+        "topQueries": [
+          {
+            "query": "real property management southland",
+            "clicks": 185,
+            "impressions": 312,
+            "ctr": 0.592948717948718,
+            "position": 1.0865384615384615
+          },
+          {
+            "query": "real property management",
+            "clicks": 77,
+            "impressions": 622,
+            "ctr": 0.12379421221864952,
+            "position": 4.567524115755627
+          },
+          {
+            "query": "rpm southland",
+            "clicks": 75,
+            "impressions": 132,
+            "ctr": 0.5681818181818182,
+            "position": 1.0075757575757576
+          },
+          {
+            "query": "rpm long beach",
+            "clicks": 61,
+            "impressions": 107,
+            "ctr": 0.5700934579439252,
+            "position": 1
+          },
+          {
+            "query": "real property management long beach",
+            "clicks": 59,
+            "impressions": 86,
+            "ctr": 0.686046511627907,
+            "position": 1
+          },
+          {
+            "query": "property management long beach",
+            "clicks": 25,
+            "impressions": 1070,
+            "ctr": 0.02336448598130841,
+            "position": 2.87196261682243
+          },
+          {
+            "query": "long beach property management",
+            "clicks": 24,
+            "impressions": 1433,
+            "ctr": 0.01674808094905792,
+            "position": 4.617585484996511
+          },
+          {
+            "query": "rpm property management",
+            "clicks": 19,
+            "impressions": 109,
+            "ctr": 0.1743119266055046,
+            "position": 3.522935779816514
+          },
+          {
+            "query": "rpm management",
+            "clicks": 13,
+            "impressions": 261,
+            "ctr": 0.04980842911877394,
+            "position": 5.344827586206897
+          },
+          {
+            "query": "real property management southland - long beach",
+            "clicks": 12,
+            "impressions": 22,
+            "ctr": 0.5454545454545454,
+            "position": 1.0454545454545454
+          },
+          {
+            "query": "long beach property management companies",
+            "clicks": 10,
+            "impressions": 196,
+            "ctr": 0.05102040816326531,
+            "position": 5.23469387755102
+          },
+          {
+            "query": "property management",
+            "clicks": 10,
+            "impressions": 1226,
+            "ctr": 0.008156606851549755,
+            "position": 1.6174551386623164
+          },
+          {
+            "query": "rpmsouthland",
+            "clicks": 7,
+            "impressions": 8,
+            "ctr": 0.875,
+            "position": 1
+          },
+          {
+            "query": "property management companies long beach",
+            "clicks": 5,
+            "impressions": 509,
+            "ctr": 0.009823182711198428,
+            "position": 2.8330058939096268
+          },
+          {
+            "query": "rental properties long beach",
+            "clicks": 5,
+            "impressions": 25,
+            "ctr": 0.2,
+            "position": 2.6
+          },
+          {
+            "query": "southland property management",
+            "clicks": 5,
+            "impressions": 72,
+            "ctr": 0.06944444444444445,
+            "position": 6.444444444444445
+          },
+          {
+            "query": "the real property management",
+            "clicks": 5,
+            "impressions": 23,
+            "ctr": 0.21739130434782608,
+            "position": 11.608695652173912
+          },
+          {
+            "query": "long beach rental properties",
+            "clicks": 4,
+            "impressions": 34,
+            "ctr": 0.11764705882352941,
+            "position": 3.1176470588235294
+          },
+          {
+            "query": "rpm",
+            "clicks": 4,
+            "impressions": 224,
+            "ctr": 0.017857142857142856,
+            "position": 2.4419642857142856
+          },
+          {
+            "query": "long beach ca property management companies",
+            "clicks": 3,
+            "impressions": 47,
+            "ctr": 0.06382978723404255,
+            "position": 3.893617021276596
+          }
+        ],
+        "topPages": [
+          {
+            "page": "https://www.rpmsouthland.com/",
+            "clicks": 928,
+            "impressions": 21502,
+            "ctr": 0.04315877592782067,
+            "position": 5.972886243140173
+          },
+          {
+            "page": "https://www.rpmsouthland.com/houses-rent",
+            "clicks": 40,
+            "impressions": 1088,
+            "ctr": 0.03676470588235294,
+            "position": 3.286764705882353
+          },
+          {
+            "page": "https://www.rpmsouthland.com/contact-us",
+            "clicks": 22,
+            "impressions": 1258,
+            "ctr": 0.017488076311605722,
+            "position": 9.1637519872814
+          },
+          {
+            "page": "https://www.rpmsouthland.com/areas-we-serve/long-beach-office/long-beach",
+            "clicks": 20,
+            "impressions": 1310,
+            "ctr": 0.015267175572519083,
+            "position": 10.368702290076335
+          },
+          {
+            "page": "https://www.rpmsouthland.com/?cid=LSTL_RPM000203&utm_source=gmb&utm_campaign=local&utm_medium=organic",
+            "clicks": 14,
+            "impressions": 410,
+            "ctr": 0.03414634146341464,
+            "position": 4.690243902439025
+          },
+          {
+            "page": "https://www.rpmsouthland.com/about-us",
+            "clicks": 14,
+            "impressions": 1100,
+            "ctr": 0.012727272727272728,
+            "position": 4.698181818181818
+          },
+          {
+            "page": "https://www.rpmsouthland.com/areas-we-serve/downey-office/norwalk",
+            "clicks": 6,
+            "impressions": 247,
+            "ctr": 0.024291497975708502,
+            "position": 10.805668016194332
+          },
+          {
+            "page": "https://www.rpmsouthland.com/tenants",
+            "clicks": 6,
+            "impressions": 1181,
+            "ctr": 0.005080440304826418,
+            "position": 2.939034716342083
+          },
+          {
+            "page": "https://www.rpmsouthland.com/spot-fake-documents-rental-applications-661",
+            "clicks": 5,
+            "impressions": 3245,
+            "ctr": 0.0015408320493066256,
+            "position": 6.307550077041602
+          },
+          {
+            "page": "https://www.rpmsouthland.com/areas-we-serve/long-beach-office",
+            "clicks": 4,
+            "impressions": 716,
+            "ctr": 0.00558659217877095,
+            "position": 2.8184357541899443
+          }
+        ],
+        "capturedBy": "cli",
+        "note": "day-0-baseline"
+      },
+      "additional_snapshots": []
+    },
+    "davis-agency": {
+      "baseline": {
+        "slug": "davis-agency",
+        "displayName": "The Davis Agency",
+        "siteUrl": "https://davisagencytx.com/",
+        "capturedAt": "2026-04-19T06:53:17.129Z",
+        "windowStart": "2026-03-20",
+        "windowEnd": "2026-04-16",
+        "totalImpressions": 260,
+        "totalClicks": 14,
+        "avgCtr": 0.05384615384615385,
+        "avgPosition": 16.373076923076923,
+        "topQueries": [
+          {
+            "query": "derrik davis",
+            "clicks": 4,
+            "impressions": 19,
+            "ctr": 0.21052631578947367,
+            "position": 4.421052631578947
+          },
+          {
+            "query": "davis agency",
+            "clicks": 3,
+            "impressions": 17,
+            "ctr": 0.17647058823529413,
+            "position": 6.352941176470588
+          },
+          {
+            "query": "1165 county road 238, georgetown, tx 78633",
+            "clicks": 1,
+            "impressions": 7,
+            "ctr": 0.14285714285714285,
+            "position": 8.285714285714285
+          },
+          {
+            "query": "3107 speedway austin tx 78705",
+            "clicks": 1,
+            "impressions": 1,
+            "ctr": 1,
+            "position": 5
+          },
+          {
+            "query": "appaloosa run",
+            "clicks": 1,
+            "impressions": 2,
+            "ctr": 0.5,
+            "position": 9.5
+          },
+          {
+            "query": "comburg castle",
+            "clicks": 1,
+            "impressions": 3,
+            "ctr": 0.3333333333333333,
+            "position": 14.666666666666666
+          },
+          {
+            "query": "condos for sale kyle tx",
+            "clicks": 1,
+            "impressions": 7,
+            "ctr": 0.14285714285714285,
+            "position": 8.714285714285715
+          },
+          {
+            "query": "living in zilker austin",
+            "clicks": 1,
+            "impressions": 11,
+            "ctr": 0.09090909090909091,
+            "position": 9.909090909090908
+          },
+          {
+            "query": "the davis agency",
+            "clicks": 1,
+            "impressions": 11,
+            "ctr": 0.09090909090909091,
+            "position": 3.5454545454545454
+          },
+          {
+            "query": "\"12113\" \"financial\"",
+            "clicks": 0,
+            "impressions": 4,
+            "ctr": 0,
+            "position": 78.25
+          },
+          {
+            "query": "\"12113\" finance or financial or stock or investment",
+            "clicks": 0,
+            "impressions": 1,
+            "ctr": 0,
+            "position": 61
+          },
+          {
+            "query": "\"12113\" finance or stock or financial",
+            "clicks": 0,
+            "impressions": 2,
+            "ctr": 0,
+            "position": 37.5
+          },
+          {
+            "query": "\"12113\" financial",
+            "clicks": 0,
+            "impressions": 5,
+            "ctr": 0,
+            "position": 77.8
+          },
+          {
+            "query": "\"12113\" financial or finance or stock or investment",
+            "clicks": 0,
+            "impressions": 1,
+            "ctr": 0,
+            "position": 56
+          },
+          {
+            "query": "\"18317\" \"pflugerville tx\"",
+            "clicks": 0,
+            "impressions": 1,
+            "ctr": 0,
+            "position": 79
+          },
+          {
+            "query": "\"agency premier\"",
+            "clicks": 0,
+            "impressions": 3,
+            "ctr": 0,
+            "position": 61.333333333333336
+          },
+          {
+            "query": "1010 w 23rd st",
+            "clicks": 0,
+            "impressions": 1,
+            "ctr": 0,
+            "position": 5
+          },
+          {
+            "query": "10206 gail rd",
+            "clicks": 0,
+            "impressions": 1,
+            "ctr": 0,
+            "position": 11
+          },
+          {
+            "query": "104 creekwood trail",
+            "clicks": 0,
+            "impressions": 2,
+            "ctr": 0,
+            "position": 10.5
+          },
+          {
+            "query": "105 booted eagle claw cv cedar creek tx 78612",
+            "clicks": 0,
+            "impressions": 2,
+            "ctr": 0,
+            "position": 15.5
+          }
+        ],
+        "topPages": [
+          {
+            "page": "https://davisagencytx.com/agent/derrik-davis",
+            "clicks": 13,
+            "impressions": 150,
+            "ctr": 0.08666666666666667,
+            "position": 6.073333333333333
+          },
+          {
+            "page": "https://davisagencytx.com/",
+            "clicks": 11,
+            "impressions": 350,
+            "ctr": 0.03142857142857143,
+            "position": 13.691428571428572
+          },
+          {
+            "page": "https://davisagencytx.com/?utm_source=gbp&utm_medium=organic",
+            "clicks": 9,
+            "impressions": 379,
+            "ctr": 0.023746701846965697,
+            "position": 5.836411609498681
+          },
+          {
+            "page": "https://davisagencytx.com/agent/anthony-goss",
+            "clicks": 2,
+            "impressions": 29,
+            "ctr": 0.06896551724137931,
+            "position": 3.6206896551724137
+          },
+          {
+            "page": "https://davisagencytx.com/blog/best-new-construction-realtor-in-austin-tx",
+            "clicks": 2,
+            "impressions": 23,
+            "ctr": 0.08695652173913043,
+            "position": 6.565217391304348
+          },
+          {
+            "page": "https://davisagencytx.com/blog/how-do-you-protest-property-taxes-on-a-dollar2-million-home-in-austin",
+            "clicks": 2,
+            "impressions": 1036,
+            "ctr": 0.0019305019305019305,
+            "position": 9.183397683397683
+          },
+          {
+            "page": "https://davisagencytx.com/home-search/listings/3081211309094814242-5000-Coffee-Cup-CV",
+            "clicks": 2,
+            "impressions": 16,
+            "ctr": 0.125,
+            "position": 8.5625
+          },
+          {
+            "page": "https://davisagencytx.com/home-search/listings/3081266251964715472-15500-W-St-Hwy-29-A-Unit-202-A",
+            "clicks": 2,
+            "impressions": 6,
+            "ctr": 0.3333333333333333,
+            "position": 4.166666666666666
+          },
+          {
+            "page": "https://davisagencytx.com/home-search/listings/3081444187010015712-100-Dario-DR",
+            "clicks": 2,
+            "impressions": 6,
+            "ctr": 0.3333333333333333,
+            "position": 5.666666666666667
+          },
+          {
+            "page": "https://davisagencytx.com/home-search/listings/3081672955661868408-3206-Thousand-Oaks-DR",
+            "clicks": 2,
+            "impressions": 15,
+            "ctr": 0.13333333333333333,
+            "position": 5.666666666666667
+          }
+        ],
+        "capturedBy": "cli",
+        "note": "day-0-baseline"
+      },
+      "additional_snapshots": []
+    },
+    "the-answer-engine": {
+      "baseline": {
+        "slug": "the-answer-engine",
+        "displayName": "The Answer Engine",
+        "siteUrl": "sc-domain:theanswerengine.ai",
+        "capturedAt": "2026-04-19T06:53:17.504Z",
+        "windowStart": "2026-03-20",
+        "windowEnd": "2026-04-16",
+        "totalImpressions": 2099,
+        "totalClicks": 91,
+        "avgCtr": 0.043353978084802285,
+        "avgPosition": 48.42734635540734,
+        "topQueries": [
+          {
+            "query": "answerprime",
+            "clicks": 90,
+            "impressions": 1722,
+            "ctr": 0.05226480836236934,
+            "position": 50.51219512195122
+          },
+          {
+            "query": "how long to set up ai search optimization platforms",
+            "clicks": 1,
+            "impressions": 25,
+            "ctr": 0.04,
+            "position": 3.96
+          },
+          {
+            "query": "\"advanced web ranking\"",
+            "clicks": 0,
+            "impressions": 1,
+            "ctr": 0,
+            "position": 6
+          },
+          {
+            "query": "\"agency ai tools\"",
+            "clicks": 0,
+            "impressions": 1,
+            "ctr": 0,
+            "position": 80
+          },
+          {
+            "query": "\"ai answer engines ai user agents\" -site:reddit.com -site:twitter.com -site:x.com -site:wykop.pl -site:tripadvisor.com -site:youtube.com -site:yelp.com -site:booking.com -site:facebook.com -site:instagram.com -site:tiktok.com",
+            "clicks": 0,
+            "impressions": 8,
+            "ctr": 0,
+            "position": 2.5
+          },
+          {
+            "query": "\"ai crawling\" -site:reddit.com -site:twitter.com -site:x.com -site:wykop.pl -site:tripadvisor.com -site:youtube.com -site:yelp.com -site:booking.com -site:facebook.com -site:instagram.com -site:tiktok.com",
+            "clicks": 0,
+            "impressions": 8,
+            "ctr": 0,
+            "position": 1.25
+          },
+          {
+            "query": "\"ai optimization\"",
+            "clicks": 0,
+            "impressions": 2,
+            "ctr": 0,
+            "position": 7
+          },
+          {
+            "query": "\"ai search tools\" -site:reddit.com -site:twitter.com -site:x.com -site:wykop.pl -site:tripadvisor.com -site:youtube.com -site:yelp.com -site:booking.com -site:facebook.com -site:instagram.com -site:tiktok.com",
+            "clicks": 0,
+            "impressions": 6,
+            "ctr": 0,
+            "position": 4.166666666666666
+          },
+          {
+            "query": "\"ai search\" aeo or geo",
+            "clicks": 0,
+            "impressions": 1,
+            "ctr": 0,
+            "position": 56
+          },
+          {
+            "query": "\"ai visibility optimization\" -site:reddit.com -site:twitter.com -site:x.com -site:wykop.pl -site:tripadvisor.com -site:youtube.com -site:yelp.com -site:booking.com -site:facebook.com -site:instagram.com -site:tiktok.com",
+            "clicks": 0,
+            "impressions": 5,
+            "ctr": 0,
+            "position": 5.4
+          },
+          {
+            "query": "\"ai\" \"quora\" -site:reddit.com -site:twitter.com -site:x.com -site:wykop.pl -site:tripadvisor.com -site:youtube.com -site:yelp.com -site:booking.com -site:facebook.com -site:instagram.com -site:tiktok.com",
+            "clicks": 0,
+            "impressions": 1,
+            "ctr": 0,
+            "position": 8
+          },
+          {
+            "query": "\"answer engine optimization\"",
+            "clicks": 0,
+            "impressions": 1,
+            "ctr": 0,
+            "position": 79
+          },
+          {
+            "query": "\"answer engine optimization\" -site:reddit.com -site:twitter.com -site:x.com -site:wykop.pl -site:tripadvisor.com -site:youtube.com -site:yelp.com -site:booking.com -site:facebook.com -site:instagram.com -site:tiktok.com",
+            "clicks": 0,
+            "impressions": 2,
+            "ctr": 0,
+            "position": 9
+          },
+          {
+            "query": "\"answer engine optimizatrion\" -site:reddit.com -site:twitter.com -site:x.com -site:wykop.pl -site:tripadvisor.com -site:youtube.com -site:yelp.com -site:booking.com -site:facebook.com -site:instagram.com -site:tiktok.com",
+            "clicks": 0,
+            "impressions": 4,
+            "ctr": 0,
+            "position": 4.75
+          },
+          {
+            "query": "\"brightlocal\"",
+            "clicks": 0,
+            "impressions": 2,
+            "ctr": 0,
+            "position": 62.5
+          },
+          {
+            "query": "\"chatgpt ads\" -site:reddit.com -site:twitter.com -site:x.com -site:wykop.pl -site:tripadvisor.com -site:youtube.com -site:yelp.com -site:booking.com -site:facebook.com -site:instagram.com -site:tiktok.com",
+            "clicks": 0,
+            "impressions": 2,
+            "ctr": 0,
+            "position": 8.5
+          },
+          {
+            "query": "\"grok\" \"most real-time search capabilities\"",
+            "clicks": 0,
+            "impressions": 2,
+            "ctr": 0,
+            "position": 9
+          },
+          {
+            "query": "\"history app\" -site:reddit.com -site:twitter.com -site:x.com -site:wykop.pl -site:tripadvisor.com -site:youtube.com -site:yelp.com -site:booking.com -site:facebook.com -site:instagram.com -site:tiktok.com",
+            "clicks": 0,
+            "impressions": 2,
+            "ctr": 0,
+            "position": 9.5
+          },
+          {
+            "query": "\"in chatgpt\" \"ads\" -site:reddit.com -site:twitter.com -site:x.com -site:wykop.pl -site:tripadvisor.com -site:youtube.com -site:yelp.com -site:booking.com -site:facebook.com -site:instagram.com -site:tiktok.com",
+            "clicks": 0,
+            "impressions": 5,
+            "ctr": 0,
+            "position": 8.6
+          },
+          {
+            "query": "\"ip address geolocation\" -site:reddit.com -site:twitter.com -site:x.com -site:wykop.pl -site:tripadvisor.com -site:youtube.com -site:yelp.com -site:booking.com -site:facebook.com -site:instagram.com -site:tiktok.com",
+            "clicks": 0,
+            "impressions": 8,
+            "ctr": 0,
+            "position": 8
+          }
+        ],
+        "topPages": [
+          {
+            "page": "https://www.theanswerengine.ai/",
+            "clicks": 91,
+            "impressions": 2054,
+            "ctr": 0.04430379746835443,
+            "position": 49.21762414800389
+          },
+          {
+            "page": "https://www.theanswerengine.ai/blog/first-90-days-of-ai-search-optimization-what-to-expect",
+            "clicks": 3,
+            "impressions": 504,
+            "ctr": 0.005952380952380952,
+            "position": 8.033730158730158
+          },
+          {
+            "page": "https://www.theanswerengine.ai/blog/how-grok-decides-which-businesses-to-recommend",
+            "clicks": 2,
+            "impressions": 1183,
+            "ctr": 0.0016906170752324597,
+            "position": 6.548605240912933
+          },
+          {
+            "page": "https://www.theanswerengine.ai/blog/how-real-estate-agents-get-found-ai-search",
+            "clicks": 2,
+            "impressions": 279,
+            "ctr": 0.007168458781362007,
+            "position": 6.637992831541219
+          },
+          {
+            "page": "https://theanswerengine.ai/",
+            "clicks": 1,
+            "impressions": 126,
+            "ctr": 0.007936507936507936,
+            "position": 35.19047619047619
+          },
+          {
+            "page": "https://www.theanswerengine.ai/blog/ai-search-replacing-map-pack",
+            "clicks": 1,
+            "impressions": 177,
+            "ctr": 0.005649717514124294,
+            "position": 7.220338983050848
+          },
+          {
+            "page": "https://www.theanswerengine.ai/blog/does-having-a-blog-actually-help-ai-recommend-your-business",
+            "clicks": 1,
+            "impressions": 20,
+            "ctr": 0.05,
+            "position": 7.9
+          },
+          {
+            "page": "https://www.theanswerengine.ai/blog/how-auto-repair-shops-get-found-on-ai-search",
+            "clicks": 1,
+            "impressions": 43,
+            "ctr": 0.023255813953488372,
+            "position": 18.41860465116279
+          },
+          {
+            "page": "https://www.theanswerengine.ai/blog/how-dentists-show-up-ai-search",
+            "clicks": 1,
+            "impressions": 174,
+            "ctr": 0.005747126436781609,
+            "position": 31.155172413793103
+          },
+          {
+            "page": "https://www.theanswerengine.ai/blog/how-siri-decides-which-businesses-to-suggest",
+            "clicks": 1,
+            "impressions": 135,
+            "ctr": 0.007407407407407408,
+            "position": 11.577777777777778
+          }
+        ],
+        "capturedBy": "cli",
+        "note": "day-0-baseline"
+      },
+      "additional_snapshots": []
+    },
+    "lamh": {
+      "baseline": {
+        "slug": "lamh",
+        "displayName": "LA Metro Home Finder",
+        "siteUrl": "sc-domain:lametrohomefinder.com",
+        "capturedAt": "2026-04-19T06:53:18.113Z",
+        "windowStart": "2026-03-20",
+        "windowEnd": "2026-04-16",
+        "totalImpressions": 9869,
+        "totalClicks": 225,
+        "avgCtr": 0.02279866247846793,
+        "avgPosition": 5.150065862802715,
+        "topQueries": [
+          {
+            "query": "justin borges",
+            "clicks": 22,
+            "impressions": 92,
+            "ctr": 0.2391304347826087,
+            "position": 1.3695652173913042
+          },
+          {
+            "query": "the borges real estate team",
+            "clicks": 16,
+            "impressions": 44,
+            "ctr": 0.36363636363636365,
+            "position": 1.2272727272727273
+          },
+          {
+            "query": "brunch pasadena",
+            "clicks": 9,
+            "impressions": 257,
+            "ctr": 0.03501945525291829,
+            "position": 8.194552529182879
+          },
+          {
+            "query": "yes",
+            "clicks": 9,
+            "impressions": 505,
+            "ctr": 0.01782178217821782,
+            "position": 4.415841584158416
+          },
+          {
+            "query": "borges real estate team",
+            "clicks": 8,
+            "impressions": 17,
+            "ctr": 0.47058823529411764,
+            "position": 1.1176470588235294
+          },
+          {
+            "query": "how much does a landlord have to pay for relocation in california",
+            "clicks": 7,
+            "impressions": 98,
+            "ctr": 0.07142857142857142,
+            "position": 1.9387755102040818
+          },
+          {
+            "query": "los angeles county rent increase 2026",
+            "clicks": 7,
+            "impressions": 134,
+            "ctr": 0.05223880597014925,
+            "position": 3.58955223880597
+          },
+          {
+            "query": "are single family homes exempt from ab 1482",
+            "clicks": 6,
+            "impressions": 35,
+            "ctr": 0.17142857142857143,
+            "position": 3.6285714285714286
+          },
+          {
+            "query": "just cause ordinance los angeles",
+            "clicks": 6,
+            "impressions": 223,
+            "ctr": 0.026905829596412557,
+            "position": 3.820627802690583
+          },
+          {
+            "query": "ontario ranch",
+            "clicks": 6,
+            "impressions": 32,
+            "ctr": 0.1875,
+            "position": 4.21875
+          },
+          {
+            "query": "adu for rent",
+            "clicks": 5,
+            "impressions": 1618,
+            "ctr": 0.0030902348578491965,
+            "position": 7.329419035846724
+          },
+          {
+            "query": "adu for rent los angeles",
+            "clicks": 5,
+            "impressions": 701,
+            "ctr": 0.007132667617689016,
+            "position": 7.319543509272468
+          },
+          {
+            "query": "is it a good time to buy a house in california",
+            "clicks": 5,
+            "impressions": 185,
+            "ctr": 0.02702702702702703,
+            "position": 2.5135135135135136
+          },
+          {
+            "query": "no-fault eviction california relocation fee",
+            "clicks": 5,
+            "impressions": 184,
+            "ctr": 0.02717391304347826,
+            "position": 3.7880434782608696
+          },
+          {
+            "query": "owner move in eviction los angeles",
+            "clicks": 5,
+            "impressions": 73,
+            "ctr": 0.0684931506849315,
+            "position": 4.219178082191781
+          },
+          {
+            "query": "relocation assistance los angeles",
+            "clicks": 5,
+            "impressions": 89,
+            "ctr": 0.056179775280898875,
+            "position": 2.8764044943820224
+          },
+          {
+            "query": "ab2424",
+            "clicks": 4,
+            "impressions": 171,
+            "ctr": 0.023391812865497075,
+            "position": 6.105263157894737
+          },
+          {
+            "query": "california foreclosure process timeline",
+            "clicks": 4,
+            "impressions": 132,
+            "ctr": 0.030303030303030304,
+            "position": 2.9393939393939394
+          },
+          {
+            "query": "family trust auction meaning",
+            "clicks": 4,
+            "impressions": 52,
+            "ctr": 0.07692307692307693,
+            "position": 1.3269230769230769
+          },
+          {
+            "query": "how long do you have to sell a house with a reverse mortgage after death",
+            "clicks": 4,
+            "impressions": 240,
+            "ctr": 0.016666666666666666,
+            "position": 4.541666666666666
+          }
+        ],
+        "topPages": [
+          {
+            "page": "https://www.lametrohomefinder.com/blog/la-rent-control-relocation-fees",
+            "clicks": 353,
+            "impressions": 20773,
+            "ctr": 0.01699321234294517,
+            "position": 5.287681124536658
+          },
+          {
+            "page": "https://www.lametrohomefinder.com/blog/capital-gains-tax-inherited-property-california-2025",
+            "clicks": 301,
+            "impressions": 32005,
+            "ctr": 0.0094047805030464,
+            "position": 4.2049054835182
+          },
+          {
+            "page": "https://www.lametrohomefinder.com/blog/los-angeles-neighborhoods-budget-lifestyle",
+            "clicks": 185,
+            "impressions": 42992,
+            "ctr": 0.004303126163007071,
+            "position": 4.670217714923707
+          },
+          {
+            "page": "https://www.lametrohomefinder.com/blog/2026/2/5/how-much-can-i-raise-rent-in-la-county-2026",
+            "clicks": 182,
+            "impressions": 12359,
+            "ctr": 0.014726110526741646,
+            "position": 4.7973946112145
+          },
+          {
+            "page": "https://www.lametrohomefinder.com/blog/transfer-title-from-trust-california",
+            "clicks": 134,
+            "impressions": 8989,
+            "ctr": 0.01490710868839693,
+            "position": 5.929803092668817
+          },
+          {
+            "page": "https://www.lametrohomefinder.com/blog/how-much-should-cash-buyer-pay-house",
+            "clicks": 126,
+            "impressions": 14394,
+            "ctr": 0.008753647353063776,
+            "position": 4.16270668334028
+          },
+          {
+            "page": "https://www.lametrohomefinder.com/blog//transfer-home-from-trust-after-death-california",
+            "clicks": 124,
+            "impressions": 6438,
+            "ctr": 0.019260639950295123,
+            "position": 3.9827586206896552
+          },
+          {
+            "page": "https://www.lametrohomefinder.com/blog/selling-house-after-spouse-dies-california",
+            "clicks": 121,
+            "impressions": 7066,
+            "ctr": 0.017124257005377865,
+            "position": 3.8439003679592414
+          },
+          {
+            "page": "https://www.lametrohomefinder.com/blog/is-buying-a-home-tax-deductible-in-california",
+            "clicks": 113,
+            "impressions": 37157,
+            "ctr": 0.0030411497160696506,
+            "position": 5.450359286271766
+          },
+          {
+            "page": "https://www.lametrohomefinder.com/blog/divorce-buyout-property-tax-capital-gains-california",
+            "clicks": 111,
+            "impressions": 8711,
+            "ctr": 0.012742509470784065,
+            "position": 3.67718976007347
+          }
+        ],
+        "capturedBy": "cli",
+        "note": "day-0-baseline"
+      },
+      "additional_snapshots": []
+    },
+    "clearclose": {
+      "baseline": {
+        "slug": "clearclose",
+        "displayName": "ClearClose Builder Services",
+        "siteUrl": "sc-domain:clearclosebuilderservices.com",
+        "capturedAt": "2026-04-19T06:53:18.387Z",
+        "windowStart": "2026-03-20",
+        "windowEnd": "2026-04-16",
+        "totalImpressions": 2,
+        "totalClicks": 0,
+        "avgCtr": 0,
+        "avgPosition": 46,
+        "topQueries": [
+          {
+            "query": "clear close",
+            "clicks": 0,
+            "impressions": 1,
+            "ctr": 0,
+            "position": 87
+          },
+          {
+            "query": "clearclose",
+            "clicks": 0,
+            "impressions": 1,
+            "ctr": 0,
+            "position": 5
+          }
+        ],
+        "topPages": [
+          {
+            "page": "https://www.clearclosebuilderservices.com/",
+            "clicks": 3,
+            "impressions": 13,
+            "ctr": 0.23076923076923078,
+            "position": 9.692307692307692
+          },
+          {
+            "page": "https://www.clearclosebuilderservices.com/about",
+            "clicks": 0,
+            "impressions": 3,
+            "ctr": 0,
+            "position": 2
+          }
+        ],
+        "capturedBy": "cli",
+        "note": "day-0-baseline"
+      },
+      "additional_snapshots": []
+    }
+  }
+}
