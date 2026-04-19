@@ -4,9 +4,9 @@ import Link from 'next/link'
 export const revalidate = 86400
 export const dynamic = 'force-static'
 
-const title = 'What Content Does ChatGPT Read on Your Site?'
+const title = 'What Content Does ChatGPT Actually Read on Your Website?'
 const description =
-  'ChatGPT strips your site down to plain text and reads it in chunks. Learn what it actually sees, what it ignores, and why 35% of top websites are blocking its crawler entirely.'
+  'ChatGPT doesn\'t crawl every page. It reads 7 specific elements to decide whether to cite you. Here\'s the checklist — and what gets ignored.'
 const slug = 'what-content-does-chatgpt-read-on-my-website'
 const publishDate = '2026-03-14'
 

@@ -5,8 +5,8 @@ export const revalidate = 86400
 export const dynamic = 'force-static'
 export const dynamicParams = true
 
-const title = 'The First 90 Days of AI Search Optimization: What to Actually Expect'
-const description = 'A realistic, phase-by-phase breakdown of what happens during your first 90 days of AI search optimization. No hype, no empty promises. Just the actual timeline, milestones, and results local business owners should plan for.'
+const title = 'What to Expect in Your First 90 Days of AEO'
+const description = 'Week-by-week what AEO looks like in practice — baseline scan, content build, first citations, and the Authority Index milestone. Backed by a 90-day guarantee.'
 const slug = 'first-90-days-of-ai-search-optimization-what-to-expect'
 const publishDate = '2026-03-28'
 

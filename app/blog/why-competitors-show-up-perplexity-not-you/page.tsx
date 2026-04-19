@@ -7,7 +7,7 @@ export const dynamicParams = true
 
 const title = 'Why Your Competitors Show Up on Perplexity and You Don\'t'
 const description =
-  'Perplexity AI cites your competitors because they publish citable content, structured data, and fresh updates. Learn the 5 reasons you are invisible and how to fix it.'
+  'Perplexity weights freshness, schema, and specific citation patterns your competitors have and you probably don\'t. The 5 gaps — and how to close each one.'
 const slug = 'why-competitors-show-up-perplexity-not-you'
 const publishDate = '2026-03-18'
 

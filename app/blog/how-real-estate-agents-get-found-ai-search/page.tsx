@@ -6,12 +6,12 @@ export const dynamic = 'force-static';
 export const dynamicParams = true;
 
 export const metadata: Metadata = {
-  title: "How Real Estate Agents Get Found on AI Search",
-  description: "82% of homebuyers now use AI for housing research. Learn why AI platforms recommend certain agents and how to become one of them.",
+  title: "How Real Estate Agents Get Found on ChatGPT & AI Search",
+  description: "Six AEO plays that put real estate agents in ChatGPT, Claude, Perplexity, and Google AI responses — with real examples from a top-producing LA agent.",
   keywords: ["real estate AI search", "real estate agent AI visibility", "realtor AI optimization", "ChatGPT real estate", "AI homebuyer search", "answer engine optimization real estate", "Perplexity real estate agents"],
   openGraph: {
-    title: "How Real Estate Agents Get Found on AI Search",
-    description: "82% of homebuyers now use AI for housing research. Learn why AI platforms recommend certain agents and how to become one of them.",
+    title: "How Real Estate Agents Get Found on ChatGPT & AI Search",
+    description: "Six AEO plays that put real estate agents in ChatGPT, Claude, Perplexity, and Google AI responses — with real examples from a top-producing LA agent.",
     type: 'article',
     url: 'https://theanswerengine.ai/blog/how-real-estate-agents-get-found-ai-search',
     images: [{ url: 'https://theanswerengine.ai/blog/how-real-estate-agents-get-found-ai-search.webp', width: 1200, height: 630 }],

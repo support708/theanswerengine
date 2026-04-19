@@ -5,9 +5,9 @@ export const revalidate = 86400
 export const dynamic = 'force-static'
 export const dynamicParams = true
 
-const title = 'How Grok Decides Which Businesses to Recommend'
+const title = 'How Grok Decides Which Businesses to Recommend (2026)'
 const description =
-  'Grok uses real-time X data and web crawling to recommend local businesses. Learn what signals xAI evaluates and why most companies are invisible.'
+  'Grok pulls from Twitter/X data plus real-time web signals. Here\'s exactly how it picks which local businesses to surface — and how to become one of them.'
 const slug = 'how-grok-decides-which-businesses-to-recommend'
 const publishDate = '2026-04-01'
 

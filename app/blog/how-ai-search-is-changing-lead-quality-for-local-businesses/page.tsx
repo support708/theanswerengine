@@ -8,7 +8,7 @@ export const dynamicParams = true
 const slug = 'how-ai-search-is-changing-lead-quality-for-local-businesses'
 const title = 'How AI Search Is Changing Lead Quality for Local Businesses'
 const description =
-  'AI search sends fewer clicks but dramatically better leads. 45% of consumers now use AI tools to find local services. Learn why conversion quality matters more than traffic volume in 2026.'
+  'AI-sourced leads convert 2–4x higher than traditional search because AI pre-qualifies intent. What this means for your cost-per-lead and sales cycle.'
 
 export const metadata: Metadata = {
   title: `${title} | The Answer Engine`,

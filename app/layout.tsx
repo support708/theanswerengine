@@ -8,10 +8,10 @@ import "./globals.css";
 
 export const metadata: Metadata = {
   title: {
-    default: 'The Answer Engine | Answer Engine Optimization (AEO)',
+    default: 'The Answer Engine | AEO for Local Businesses — ChatGPT, Claude, Google AI, Perplexity',
     template: '%s | The Answer Engine'
   },
-  description: 'Get your business cited by AI platforms like ChatGPT, Claude, Google AI Overviews, and Perplexity. Answer Engine Optimization for local service businesses.',
+  description: 'Answer Engine Optimization for local service businesses. We built the playbook on our own site — 1.14M+ monthly impressions with citations across 4 AI platforms. One client per market, 90-day guarantee.',
   alternates: {
     canonical: 'https://www.theanswerengine.ai'
   },

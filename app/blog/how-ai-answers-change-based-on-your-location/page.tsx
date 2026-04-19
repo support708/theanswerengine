@@ -5,9 +5,9 @@ export const revalidate = 86400
 export const dynamic = 'force-static'
 export const dynamicParams = true
 
-const title = 'How AI Answers Change Based on Your Location'
+const title = 'How AI Search Changes Its Answers Based on Your Location'
 const description =
-  'AI answers vary by location. Learn how ChatGPT and Perplexity use location signals for local recommendations and what it means for your business visibility.'
+  'ChatGPT, Google AI, and Perplexity adjust local business recommendations by IP, query phrasing, and location keywords. Here\'s the geo logic behind each platform.'
 const slug = 'how-ai-answers-change-based-on-your-location'
 const publishDate = '2026-04-08'
 

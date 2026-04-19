@@ -5,8 +5,8 @@ export const revalidate = 86400
 export const dynamic = 'force-static'
 export const dynamicParams = true
 
-const title = 'Can You Pay to Get Recommended by ChatGPT?'
-const description = 'ChatGPT now shows ads but you cannot pay to influence its actual recommendations. Learn the difference between ads and organic AI citations.'
+const title = 'Can You Pay to Get Recommended by ChatGPT? (The Honest Answer)'
+const description = 'No — ChatGPT doesn\'t sell recommendations. But the businesses it cites share 6 specific signals. Here\'s the list, and how to earn each one.'
 const slug = 'can-you-pay-to-get-recommended-by-chatgpt'
 const publishDate = '2026-04-01'
 

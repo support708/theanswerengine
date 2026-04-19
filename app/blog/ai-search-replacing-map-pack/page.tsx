@@ -6,8 +6,8 @@ export const dynamic = 'force-static'
 export const dynamicParams = true
 
 export const metadata: Metadata = {
-  title: 'AI Search Is Replacing the Map Pack: What Local Businesses Must Know | The Answer Engine',
-  description: 'AI local packs show 68% fewer businesses than the traditional Map Pack. Learn how AI search is reshaping local discovery and what your business must do to stay visible.',
+  title: 'Is AI Search Replacing Google\'s Map Pack? (2026 Data) | The Answer Engine',
+  description: 'Local pack click-through is down. AI Overview citations are up. What the shift means for local service businesses and how to be cited, not just ranked.',
   keywords: [
     'AI search local businesses',
     'Google Map Pack',

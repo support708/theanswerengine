@@ -5,9 +5,9 @@ export const revalidate = 86400
 export const dynamic = 'force-static'
 export const dynamicParams = true
 
-const title = 'How to Build a FAQ Page That AI Actually Cites'
+const title = 'How to Build an FAQ Page That AI Platforms Actually Cite'
 const description =
-  'Pages with FAQPage schema are 3.2x more likely to appear in AI answers. Learn how to structure your FAQ page so ChatGPT, Perplexity, and Google AI Overviews cite your business.'
+  'A step-by-step structure for FAQ pages that ChatGPT, Claude, and Google AI treat as answer sources — including the schema pattern they look for.'
 const slug = 'how-to-build-faq-page-ai-cites'
 const publishDate = '2026-03-18'
 

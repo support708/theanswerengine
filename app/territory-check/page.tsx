@@ -259,8 +259,8 @@ export default function TerritoryCheckPage() {
                 className="w-3 h-3 bg-[#FF6A00] animate-pulse"
                 aria-hidden="true"
               />
-              <span className="font-headline font-black text-2xl text-[#FF6A00] tracking-widest">
-                Territories claimed this month: 23
+              <span className="font-headline font-black text-lg md:text-2xl text-[#FF6A00] tracking-widest">
+                90-day citation guarantee. One client per market.
               </span>
             </div>
           </div>

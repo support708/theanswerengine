@@ -14,16 +14,16 @@ export const metadata: Metadata = {
 };
 
 const AERO_10_PILLARS = [
-  { num: '01', label: 'Answer Quality', score: '94%' },
-  { num: '02', label: 'Entity Optimization', score: '88%' },
-  { num: '03', label: 'Relevance Depth', score: '91%' },
-  { num: '04', label: 'Structural Authority', score: '97%' },
-  { num: '05', label: 'Voice Calibration', score: '83%' },
-  { num: '06', label: 'Authority Signals', score: '89%' },
-  { num: '07', label: 'Distribution Matrix', score: '76%' },
-  { num: '08', label: 'Platform Alignment', score: '92%' },
-  { num: '09', label: 'Cluster Architecture', score: '85%' },
-  { num: '10', label: 'Conversion Optimization', score: '99%' },
+  { num: '01', label: 'Answer Quality' },
+  { num: '02', label: 'Entity Optimization' },
+  { num: '03', label: 'Relevance Depth' },
+  { num: '04', label: 'Structural Authority' },
+  { num: '05', label: 'Voice Calibration' },
+  { num: '06', label: 'Authority Signals' },
+  { num: '07', label: 'Distribution Matrix' },
+  { num: '08', label: 'Platform Alignment' },
+  { num: '09', label: 'Cluster Architecture' },
+  { num: '10', label: 'Conversion Optimization' },
 ];
 
 const TIMELINE = [
@@ -218,18 +218,38 @@ export default function AboutPage() {
                   {pillar.label}
                 </h4>
                 <div className="relative z-10">
-                  <span className="font-mono text-[10px] tracking-widest uppercase text-[#FF6A00] mb-2 block">
-                    {pillar.score}
+                  <span className="font-mono text-[10px] tracking-widest uppercase text-[#FF6A00] block">
+                    Pillar {pillar.num}
                   </span>
-                  <div className="w-full h-1 bg-white/5">
-                    <div
-                      className="h-full bg-[#FF6A00]"
-                      style={{ width: pillar.score }}
-                    />
-                  </div>
                 </div>
               </div>
             ))}
+          </div>
+
+          {/* AERO-10 scorecard CTA */}
+          <div className="mt-12 border border-[#FF6A00]/30 border-l-4 border-l-[#FF6A00] bg-[#131313] p-8 md:p-10 flex flex-col md:flex-row items-start md:items-center justify-between gap-6">
+            <div>
+              <span className="font-mono text-[10px] tracking-widest uppercase text-[#FF6A00] block mb-2">
+                Free // Your AERO-10 Scorecard
+              </span>
+              <h3 className="font-headline font-black text-2xl md:text-3xl uppercase tracking-tighter text-[#e5e2e1] mb-2">
+                See where your business scores on all ten pillars.
+              </h3>
+              <p className="text-white/50 text-sm leading-relaxed max-w-lg">
+                Your scorecard ships with the free Blind Spot Report. No pitch — just the data.
+              </p>
+            </div>
+            <a
+              href="https://calendly.com/theanswerengine-support/30min"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex-shrink-0 bg-[#FF6A00] text-black font-black px-8 py-4 font-headline uppercase tracking-tighter text-sm hover:translate-y-[2px] transition-transform inline-flex items-center gap-3 whitespace-nowrap"
+            >
+              BOOK 30-MIN CALL
+              <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={2.5}>
+                <path strokeLinecap="round" strokeLinejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3" />
+              </svg>
+            </a>
           </div>
         </div>
       </section>

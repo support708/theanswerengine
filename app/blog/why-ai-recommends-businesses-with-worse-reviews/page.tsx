@@ -6,7 +6,7 @@ export const dynamic = 'force-static'
 export const dynamicParams = true
 
 const title = 'Why AI Recommends Businesses With Worse Reviews'
-const description = 'Your business has 500 five-star reviews but AI recommends a competitor with 200. Learn why review count alone does not determine AI recommendations.'
+const description = 'Star ratings aren\'t the tiebreaker. AI platforms weight review velocity, response patterns, and review-source authority. The signals that actually matter.'
 const slug = 'why-ai-recommends-businesses-with-worse-reviews'
 const publishDate = '2026-04-01'
 

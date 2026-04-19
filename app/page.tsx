@@ -54,15 +54,15 @@ const territories = [
 const faqs = [
   {
     q: 'What exactly is Answer Engine Optimization?',
-    a: 'AEO is the practice of structuring your content so AI platforms like ChatGPT, Claude, Perplexity, and Google AI Overviews cite your business as the trusted answer. It\'s not about ranking on Google anymore. It\'s about being the business AI recommends when someone asks a buying question.'
+    a: 'AEO is the practice of structuring your business information so AI platforms like ChatGPT, Claude, Perplexity, and Google AI Overviews cite you as the trusted answer. It\'s not about ranking on Google anymore. It\'s about being the business AI recommends when someone asks a buying question.'
   },
   {
     q: 'How is this different from regular SEO?',
     a: 'Traditional SEO gets you on page 1. AEO gets you cited as THE answer. When someone asks AI "who\'s the best plumber in Phoenix," we make sure AI says your name — not a list of 10 competitors. The search paradigm has shifted. We operate at the new frontier.'
   },
   {
-    q: 'How long until I see results?',
-    a: 'Most clients see their first AI citations within 60-90 days. That\'s why we offer a 90-day guarantee. If you\'re not getting cited, we keep working for free until you are. Zero refunds issued to date — when you follow the protocol, AI cites you.'
+    q: 'How long does Answer Engine Optimization take to work?',
+    a: 'Foundation builds over 90 days. Most clients see their first AI citations between weeks 6 and 10. The full citation pattern — where AI consistently recommends you for your category — typically stabilizes in months 3–6. That\'s why we back foundation with a 90-day citation guarantee and keep working beyond that via the Monthly Program.'
   },
   {
     q: 'What if my competitor already signed up?',
@@ -70,7 +70,27 @@ const faqs = [
   },
   {
     q: "What's the investment?",
-    a: 'Our AEO implementation is delivered over 6 weeks and includes your competitive audit, AI-optimized content, schema implementation, and citation monitoring. Book a strategy call at (213) 444-2229 to discuss pricing for your market and category.'
+    a: 'Two parts: a one-time foundation fee (scoped to your industry and market size) and a monthly program fee that covers the Monday Brief, Monthly Report, Dashboard, and ongoing citation work. We quote live on the strategy call — no surprise pricing. Book a call at (213) 444-2229.'
+  },
+  {
+    q: 'What if AI is giving wrong information about my business?',
+    a: 'We scan what ChatGPT, Claude, Perplexity, and Google AI are saying about you today, identify the misattributed sources feeding bad data into AI training, and publish authoritative corrections across the surfaces AI actually reads. This is part of the foundation and stays on as an ongoing watch in the Monthly Program.'
+  },
+  {
+    q: 'How do I get my business recommended on Google Gemini or AI Mode?',
+    a: 'Google AI pulls from a mix of Knowledge Graph data, schema-marked content, and authoritative third-party mentions. Our foundation covers all three: structured data on every page of your site, an authority-content hub that Google\'s crawlers treat as canonical, and a distribution layer that seeds references AI engines cross-check.'
+  },
+  {
+    q: 'Do daily automated blog posts help with AI visibility?',
+    a: 'Frequency alone doesn\'t. AI platforms weight depth, structure, and source trust more than velocity. A small cluster of deeply researched, schema-rich pages outperforms a large volume of thin content. We publish at the cadence your category rewards — never mass-produced.'
+  },
+  {
+    q: 'Can I just buy a one-time Answer Engine audit?',
+    a: 'Yes — the Blind Spot Report is a free version of the same scan we run before onboarding. You get your current visibility across ChatGPT, Claude, Perplexity, and Google AI, a citation gap list, and the three highest-impact fixes. Most buyers use it to decide whether the full foundation makes sense.'
+  },
+  {
+    q: 'Do you have proof this actually works?',
+    a: 'Our own real estate site (lametrohomefinder.com) reached 1.14M+ monthly impressions with AI citations across ChatGPT, Claude, Perplexity, and Google AI — 4 out of 4 major platforms. Justin built the AERO-10 framework there first, tested every tactic against live market conditions in LA, then packaged it for clients.'
   },
 ];
 
@@ -186,12 +206,12 @@ export default function Home() {
         "@context": "https://schema.org",
         "@type": "HowTo",
         "name": "How to Get Cited by AI Platforms Like ChatGPT and Google AI",
-        "description": "The Answer Engine's 3-step process to make AI platforms trust and cite your business as the authoritative answer.",
+        "description": "The Answer Engine's 3-step process to get your local business cited as the authoritative answer across ChatGPT, Claude, Perplexity, and Google AI Overviews.",
         "totalTime": "P90D",
         "step": [
-          { "@type": "HowToStep", "position": 1, "name": "AI Visibility Audit", "text": "Deep-layer analysis of semantic relevance. We test 50+ queries across ChatGPT, Google AI, Claude & Perplexity to map exactly where you're losing.", "url": "https://theanswerengine.ai/#how-it-works" },
-          { "@type": "HowToStep", "position": 2, "name": "Authority Content Build", "text": "6 research-backed articles in your voice, structured specifically for AI citation with proper schema markup.", "url": "https://theanswerengine.ai/#how-it-works" },
-          { "@type": "HowToStep", "position": 3, "name": "Citation Monitoring", "text": "Real-time citation tracking. Watch AI engines start recommending you to prospects asking buying questions.", "url": "https://theanswerengine.ai/#how-it-works" },
+          { "@type": "HowToStep", "position": 1, "name": "AI Visibility Audit", "text": "We test 50+ queries across ChatGPT, Google AI, Claude and Perplexity to map exactly where your category prospects are being sent today — and where you're missing.", "url": "https://theanswerengine.ai/#how-it-works" },
+          { "@type": "HowToStep", "position": 2, "name": "Authority Content Build", "text": "We build a hub of research-backed, schema-rich pages structured specifically for AI citation — the same pattern we used on our own real estate site to reach 1.14M+ monthly impressions.", "url": "https://theanswerengine.ai/#how-it-works" },
+          { "@type": "HowToStep", "position": 3, "name": "Citation Monitoring", "text": "Live tracking across ChatGPT, Perplexity, Claude, and Google AI Overviews. Weekly Monday Brief, monthly AEO Intelligence Report, and a client dashboard so you can see it compounding.", "url": "https://theanswerengine.ai/#how-it-works" },
         ],
       })}} />
 
@@ -232,13 +252,12 @@ export default function Home() {
             </div>
 
             <h1 className="font-headline font-black text-6xl md:text-8xl lg:text-9xl leading-[0.85] tracking-tighter uppercase mb-6 text-[#e5e2e1]">
-              THE END OF{' '}
-              <span className="text-[#FF6A00]">TRADITIONAL</span> SEO
+              ANSWER ENGINE{' '}
+              <span className="text-[#FF6A00]">OPTIMIZATION</span> FOR LOCAL BUSINESSES
             </h1>
 
             <p className="hero-description text-white/50 text-lg leading-relaxed mb-10 max-w-xl">
-              We optimize local businesses to be cited by ChatGPT, Google AI, Claude, and Perplexity.
-              One business per category, per city. 90-day citation guarantee.
+              We built the AEO playbook on our own real estate site — from invisible to 1.14M+ monthly impressions with citations on ChatGPT, Claude, Perplexity, and Google AI Overviews. Now one business per category, per city gets the same system. 90-day citation guarantee.
             </p>
 
             <div className="flex flex-wrap gap-4">
@@ -246,62 +265,69 @@ export default function Home() {
                 href="#territory-check"
                 className="bg-[#FF6A00] text-black font-black px-10 py-5 text-xl tracking-tighter hover:translate-y-[2px] transition-transform font-headline uppercase inline-flex items-center gap-3"
               >
-                GET STARTED
+                CHECK TERRITORY
                 <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={2.5} aria-hidden="true">
                   <path strokeLinecap="round" strokeLinejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3" />
                 </svg>
               </a>
               <a
-                href="#citations"
-                className="border-2 border-white/20 text-[#e5e2e1] font-bold px-10 py-5 text-xl tracking-tighter hover:bg-white/5 hover:border-white/30 transition-all font-headline uppercase"
+                href="https://calendly.com/theanswerengine-support/30min"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="border-2 border-[#FF6A00] text-[#FF6A00] font-black px-10 py-5 text-xl tracking-tighter hover:bg-[#FF6A00] hover:text-black transition-all font-headline uppercase"
               >
-                SEE RESULTS
+                BOOK 30-MIN CALL
               </a>
             </div>
 
             {/* Inline metrics strip */}
             <div className="flex items-center gap-8 mt-10 border-t border-white/10 pt-8">
               <div>
-                <div className="font-headline font-black text-2xl text-[#e5e2e1]">8,400+</div>
-                <div className="font-mono text-[10px] text-white/40 tracking-widest uppercase mt-1">Monthly Clicks</div>
+                <div className="font-headline font-black text-2xl text-[#e5e2e1]">1.14M+</div>
+                <div className="font-mono text-[10px] text-white/40 tracking-widest uppercase mt-1">Monthly Impressions (Our Site)</div>
               </div>
               <div className="w-px h-10 bg-white/10" />
               <div>
-                <div className="font-headline font-black text-2xl text-[#e5e2e1]">100%</div>
-                <div className="font-mono text-[10px] text-white/40 tracking-widest uppercase mt-1">AI Citation Rate</div>
+                <div className="font-headline font-black text-2xl text-[#e5e2e1]">4 / 4</div>
+                <div className="font-mono text-[10px] text-white/40 tracking-widest uppercase mt-1">Platforms Citing Us</div>
               </div>
               <div className="w-px h-10 bg-white/10" />
               <div>
                 <div className="font-headline font-black text-2xl text-[#FF6A00]">90-Day</div>
-                <div className="font-mono text-[10px] text-white/40 tracking-widest uppercase mt-1">Guarantee</div>
+                <div className="font-mono text-[10px] text-white/40 tracking-widest uppercase mt-1">Citation Guarantee</div>
               </div>
             </div>
           </div>
 
-          {/* Right column — Authority Velocity card */}
+          {/* Right column — Monday Brief preview card */}
           <div className="lg:col-span-4">
             <div
               className="bg-[#2a2a2a] p-8 border-l-4 border-[#FF6A00] relative hover-lift"
               onMouseMove={handleCardMouseMove}
               onMouseLeave={handleCardMouseLeave}
             >
-              <div className="absolute top-4 right-4 font-mono text-[10px] text-white/20 tracking-widest">LIVE // AI Citations</div>
-              <h3 className="font-mono text-[10px] text-white/40 tracking-widest uppercase mb-4">Authority Velocity</h3>
-              <div className="flex items-baseline gap-2 mb-6">
-                <span className="text-7xl font-headline font-black text-[#FF6A00] leading-none">98%</span>
-                <span className="text-white/60 font-headline font-bold uppercase text-sm">Authority</span>
-              </div>
-              <div className="h-1.5 bg-[#0e0e0e] w-full mb-8 overflow-hidden">
-                <div className="h-full bg-gradient-to-r from-[#FF6A00] to-[#ffb694] w-[98%]" />
+              <div className="absolute top-4 right-4 font-mono text-[10px] text-white/20 tracking-widest">SAMPLE // Monday Brief</div>
+              <h3 className="font-mono text-[10px] text-[#FF6A00] tracking-widest uppercase mb-4">The Monday Brief</h3>
+              <p className="text-white/60 text-xs leading-relaxed mb-6">
+                One email every Monday. Your AEO Authority Index, rank deltas that matter, Reddit opportunities, and what we&apos;re doing next.
+              </p>
+              <div className="bg-[#0e0e0e] p-4 mb-6 font-mono text-[11px] border border-white/5">
+                <div className="text-white/40 mb-2">GOOD MORNING, {'{CLIENT}'}.</div>
+                <div className="text-[#e5e2e1] mb-3">AEO Authority Index: <span className="text-[#FF6A00] font-bold">47/100</span> <span className="text-green-400">↑ 3</span></div>
+                <div className="text-white/50 text-[10px] leading-relaxed">
+                  New query ranking: &ldquo;sell my house fast&rdquo;<br />
+                  Rank up: position 14 → 8<br />
+                  2 Reddit threads with draft responses ready
+                </div>
               </div>
               <div className="grid grid-cols-2 gap-4 border-t border-white/10 pt-6">
                 <div>
-                  <div className="font-mono text-[10px] text-white/40 uppercase tracking-widest mb-1">Index Rate</div>
-                  <div className="text-xl font-headline font-bold text-[#e5e2e1]">+244%</div>
+                  <div className="font-mono text-[10px] text-white/40 uppercase tracking-widest mb-1">Cadence</div>
+                  <div className="text-sm font-headline font-bold text-[#e5e2e1]">1×/week</div>
                 </div>
                 <div>
-                  <div className="font-mono text-[10px] text-white/40 uppercase tracking-widest mb-1">Latency</div>
-                  <div className="text-xl font-headline font-bold text-[#e5e2e1]">14ms</div>
+                  <div className="font-mono text-[10px] text-white/40 uppercase tracking-widest mb-1">Plus</div>
+                  <div className="text-sm font-headline font-bold text-[#e5e2e1]">Dashboard 24/7</div>
                 </div>
               </div>
             </div>
@@ -322,8 +348,8 @@ export default function Home() {
         <div className="max-w-7xl mx-auto">
           <div className="flex items-end justify-between mb-24 gap-8">
             <h2 className="font-headline font-black text-5xl md:text-6xl tracking-tighter uppercase leading-none max-w-xl text-[#e5e2e1]">
-              THE THREE STEPS TO{' '}
-              <span className="text-[#FF6A00]">DOMINANCE</span>
+              HOW WE GET YOU CITED{' '}
+              <span className="text-[#FF6A00]">BY AI</span>
             </h2>
             <div className="hidden md:block w-48 h-px bg-white/10 mb-4" aria-hidden="true" />
           </div>
@@ -433,22 +459,22 @@ export default function Home() {
           }`}
         >
           <div className="mb-16">
-            <span className="font-mono text-[10px] text-[#FF6A00] tracking-widest uppercase block mb-4">Proven Results // Client Citations</span>
+            <span className="font-mono text-[10px] text-[#FF6A00] tracking-widest uppercase block mb-4">Proof // We Eat Our Own Dog Food</span>
             <h2 className="font-headline font-black text-5xl md:text-6xl tracking-tighter uppercase leading-none text-[#e5e2e1]">
-              70,000 AGENTS COMPETING.<br />
-              <span className="text-[#FF6A00]">ONE GETS CITED.</span>
+              WE PROVED IT ON OUR{' '}
+              <span className="text-[#FF6A00]">OWN SITE FIRST.</span>
             </h2>
             <p className="text-white/50 text-sm leading-relaxed mt-6 max-w-xl">
-              Justin Borges went from invisible to being the only agent AI platforms cite for rent control, probate, and ADU questions across LA County.
+              The AERO-10 framework was built and tested on our own real estate site in LA before a single client paid for it. Today it reaches 1.14M+ monthly impressions and sits as the recommended agent across all four major AI platforms for rent control, probate, and ADU questions.
             </p>
           </div>
 
           {/* Stat strip */}
           <div className="grid grid-cols-3 gap-0 border border-white/10 mb-16">
             {[
-              { value: '1,000+', label: 'Queries Ranked', status: 'verified' },
-              { value: '70,000+', label: 'Competing Agents', status: 'tracked' },
-              { value: '#1', label: 'AI Citation Position', status: 'confirmed' },
+              { value: '1.14M+', label: 'Monthly Impressions', status: 'verified — last 28d' },
+              { value: '4 / 4', label: 'AI Platforms Citing Us', status: 'tracked live' },
+              { value: '$0', label: 'Ad Spend', status: 'organic only' },
             ].map((stat, i) => (
               <div
                 key={i}
@@ -752,17 +778,27 @@ export default function Home() {
             Ready to Get Started?
           </div>
           <h2 className="font-headline font-black text-5xl md:text-7xl lg:text-8xl tracking-tighter uppercase mb-12 max-w-4xl leading-none text-black">
-            READY TO OVERTAKE THE ALGORITHM?
+            SEE IF YOUR TERRITORY IS OPEN
           </h2>
-          <a
-            href="#territory-check"
-            className="bg-black text-[#FF6A00] font-black px-16 py-6 text-2xl tracking-tighter hover:translate-y-[2px] transition-transform font-headline inline-flex items-center gap-4"
-          >
-            Book Your Free Strategy Call
-            <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={2.5} aria-hidden="true">
-              <path strokeLinecap="round" strokeLinejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" />
-            </svg>
-          </a>
+          <div className="flex flex-wrap gap-4 justify-center">
+            <a
+              href="#territory-check"
+              className="bg-black text-[#FF6A00] font-black px-16 py-6 text-2xl tracking-tighter hover:translate-y-[2px] transition-transform font-headline inline-flex items-center gap-4"
+            >
+              CHECK TERRITORY
+              <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={2.5} aria-hidden="true">
+                <path strokeLinecap="round" strokeLinejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" />
+              </svg>
+            </a>
+            <a
+              href="https://calendly.com/theanswerengine-support/30min"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="border-2 border-black text-black font-black px-16 py-6 text-2xl tracking-tighter hover:bg-black hover:text-[#FF6A00] transition-all font-headline"
+            >
+              BOOK 30-MIN CALL
+            </a>
+          </div>
           <div className="mt-12 font-mono text-xs font-bold tracking-widest flex flex-wrap justify-center items-center gap-6 text-black/50">
             <span>Call us: (213) 444-2229</span>
           </div>

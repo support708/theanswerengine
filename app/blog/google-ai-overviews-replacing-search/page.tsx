@@ -6,8 +6,8 @@ export const dynamic = 'force-static'
 export const dynamicParams = true
 
 export const metadata: Metadata = {
-  title: 'Google AI Overviews Replacing Search: What You Need to Know | The Answer Engine',
-  description: 'Google AI Overviews now appear in 60% of searches, fundamentally changing how users discover information. Learn why they\'re replacing traditional results and how to adapt.',
+  title: 'Google AI Overviews Are Replacing Traditional Search (What to Do) | The Answer Engine',
+  description: 'AI Overviews now appear on ~30% of queries and rising. The 4 content changes that put you inside the Overview instead of below it.',
   keywords: [
     'AEO',
     'AI Overviews',
