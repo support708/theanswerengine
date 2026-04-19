@@ -94,12 +94,23 @@ const faqs = [
   },
 ];
 
+// ─── Live Demo scan lines ────────────────────────────────────────────────────
+const SCAN_LINES: { t: string; d: number }[] = [
+  { t: 'Scanning ChatGPT · your category / your city', d: 900 },
+  { t: 'Scanning Claude · your category / your city', d: 700 },
+  { t: 'Scanning Perplexity · your category / your city', d: 700 },
+  { t: 'Scanning Google AI Overview · your category / your city', d: 900 },
+  { t: 'Building citation graph...', d: 1100 },
+  { t: 'Complete.', d: 1000 },
+];
+
 export default function Home() {
   const heroRef = useRef<HTMLElement>(null);
   const [showMobileCta, setShowMobileCta] = useState(false);
   const [expandedFaq, setExpandedFaq] = useState<number | null>(null);
   const [activeImage, setActiveImage] = useState<string | null>(null);
   const [formStatus, setFormStatus] = useState<'idle' | 'submitting' | 'success' | 'error'>('idle');
+  const [scanStep, setScanStep] = useState(0);
 
   // Mouse glow handlers for hover-lift cards
   const handleCardMouseMove = (e: React.MouseEvent<HTMLElement>) => {
@@ -121,6 +132,15 @@ export default function Home() {
   const guaranteeAnim = useScrollAnimation();
   const faqAnim = useScrollAnimation();
   const citationsAnim = useScrollAnimation();
+  const liveDemoAnim = useScrollAnimation();
+
+  // Live demo scan animation — progresses through SCAN_LINES when section enters viewport
+  useEffect(() => {
+    if (!liveDemoAnim.isVisible) return;
+    if (scanStep >= SCAN_LINES.length) return;
+    const t = setTimeout(() => setScanStep((s) => s + 1), SCAN_LINES[scanStep].d);
+    return () => clearTimeout(t);
+  }, [scanStep, liveDemoAnim.isVisible]);
 
   // Mobile CTA scroll tracking
   useEffect(() => {
@@ -342,7 +362,43 @@ export default function Home() {
       </section>
 
       {/* ════════════════════════════════════════════════════════
-          THREE STEPS
+          TICKER BAR
+      ════════════════════════════════════════════════════════ */}
+      <div
+        className="bg-black overflow-hidden py-4 border-t border-b border-[#FF6A00]"
+        aria-hidden="true"
+      >
+        <style>{`@keyframes tae-tick { from { transform: translateX(0); } to { transform: translateX(-50%); } }`}</style>
+        <div
+          className="inline-flex whitespace-nowrap"
+          style={{ animation: 'tae-tick 42s linear infinite', gap: 48 }}
+        >
+          {Array.from({ length: 6 }).map((_, loop) => (
+            <span key={loop} className="inline-flex items-center gap-12">
+              {[
+                'CITED · CHATGPT',
+                'CITED · CLAUDE',
+                'CITED · PERPLEXITY',
+                'CITED · GOOGLE AI OVERVIEW',
+                'ONE OPERATOR PER CITY',
+                '90-DAY CITATION GUARANTEE',
+                'AUDIT · OPTIMIZE · DOMINATE',
+              ].map((t, j) => (
+                <span
+                  key={j}
+                  className="inline-flex items-center gap-3 font-mono text-[11px] tracking-[0.2em] uppercase text-white"
+                >
+                  <span className="text-[#FF6A00]">◉</span>
+                  {t}
+                </span>
+              ))}
+            </span>
+          ))}
+        </div>
+      </div>
+
+      {/* ════════════════════════════════════════════════════════
+          FOUR-PHASE METHOD
       ════════════════════════════════════════════════════════ */}
       <section id="how-it-works" className="py-32 px-6 lg:px-24 bg-[#1c1b1b] relative">
         <div className="max-w-7xl mx-auto">
@@ -356,58 +412,56 @@ export default function Home() {
 
           <div
             ref={stepsAnim.ref}
-            className={`grid grid-cols-1 md:grid-cols-3 gap-0 border border-white/10 transition-all duration-700 ease-out ${
+            className={`grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-0 border border-white/10 transition-all duration-700 ease-out ${
               stepsAnim.isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'
             }`}
           >
             {[
               {
                 num: '01',
-                icon: (
-                  <svg className="w-8 h-8 text-[#FF6A00]" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={1.5} aria-hidden="true">
-                    <path strokeLinecap="round" strokeLinejoin="round" d="M9.75 3.104v5.714a2.25 2.25 0 01-.659 1.591L5 14.5M9.75 3.104c-.251.023-.501.05-.75.082m.75-.082a24.301 24.301 0 014.5 0m0 0v5.714c0 .597.237 1.170.659 1.591L19.8 15m-6.75-11.896c.251.023.501.05.75.082M19.8 15l-1.57.393A9.065 9.065 0 0112 15a9.065 9.065 0 00-6.23-.607L5 14.5m14.8.5-2.46 2.46A8.25 8.25 0 0112 19.5a8.25 8.25 0 01-5.84-2.54L5 14.5" />
-                  </svg>
-                ),
-                title: 'AI Visibility Audit',
-                desc: 'We audit how AI platforms see your business — where you\'re cited, where you\'re missing, and where competitors dominate.',
-                status: 'Status: Auditing your visibility',
+                kicker: 'WEEK 1',
+                title: 'Audit',
+                desc: 'We scan ChatGPT, Claude, Perplexity, and Google AI Overviews for every query that matters to your category. Citations, misattribution, competitor footprint.',
+                status: 'Delivered · Day 7',
                 delay: 0,
               },
               {
                 num: '02',
-                icon: (
-                  <svg className="w-8 h-8 text-[#FF6A00]" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={1.5} aria-hidden="true">
-                    <path strokeLinecap="round" strokeLinejoin="round" d="M3.75 13.5l10.5-11.25L12 10.5h8.25L9.75 21.75 12 13.5H3.75z" />
-                  </svg>
-                ),
-                title: 'Authority Content Build',
-                desc: 'We create and optimize authoritative content that AI platforms trust enough to cite as the answer.',
-                status: 'Status: Content deployed',
+                kicker: 'WEEK 2–6',
+                title: 'Foundation',
+                desc: 'We rebuild your authority surface. Schema on every page, an authority content cluster AI engines read as canonical, entity consolidation across 50+ citations.',
+                status: 'Delivered · Day 8–45',
                 delay: 150,
               },
               {
                 num: '03',
-                icon: (
-                  <svg className="w-8 h-8 text-[#FF6A00]" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={1.5} aria-hidden="true">
-                    <path strokeLinecap="round" strokeLinejoin="round" d="M3 13.125C3 12.504 3.504 12 4.125 12h2.25c.621 0 1.125.504 1.125 1.125v6.75C7.5 20.496 6.996 21 6.375 21h-2.25A1.125 1.125 0 013 19.875v-6.75zM9.75 8.625c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125v11.25c0 .621-.504 1.125-1.125 1.125h-2.25a1.125 1.125 0 01-1.125-1.125V8.625zM16.5 4.125c0-.621.504-1.125 1.125-1.125h2.25C20.496 3 21 3.504 21 4.125v15.75c0 .621-.504 1.125-1.125 1.125h-2.25a1.125 1.125 0 01-1.125-1.125V4.125z" />
-                  </svg>
-                ),
-                title: 'Citation Monitoring',
-                desc: 'We track your citations across ChatGPT, Perplexity, Claude, and Google AI Overviews in real time.',
-                status: 'Status: Monitoring citations',
+                kicker: 'WEEK 4+',
+                title: 'Signal',
+                desc: 'We seed the sources AI engines actually read — Reddit threads, industry press, trusted directories. Your name, in the places that train the answer.',
+                status: 'Ongoing',
                 delay: 300,
               },
-            ].map((step, i) => (
+              {
+                num: '04',
+                kicker: 'DAY 1 → FOREVER',
+                title: 'Monitor',
+                desc: 'Real-time citation tracking across all 4 platforms. Monday Brief. Monthly Intelligence Report. Live dashboard. Quarterly strategy call.',
+                status: 'Live 24/7',
+                delay: 450,
+              },
+            ].map((step, i, arr) => (
               <div
                 key={step.num}
-                className={`p-10 ${i < 2 ? 'border-b md:border-b-0 md:border-r' : ''} border-white/10 bg-[#131313] hover:bg-[#2a2a2a] transition-colors group`}
+                className={`p-10 ${i < arr.length - 1 ? 'border-b lg:border-b-0 lg:border-r' : ''} ${i === 1 ? 'md:border-r lg:border-r' : ''} border-white/10 bg-[#131313] hover:bg-[#2a2a2a] transition-colors group`}
                 style={{ transitionDelay: stepsAnim.isVisible ? `${step.delay}ms` : '0ms' }}
               >
-                <div className="flex justify-between items-start mb-12">
+                <div className="flex justify-between items-start mb-10">
                   <span className="text-5xl font-headline font-black text-white/10 group-hover:text-[#FF6A00] transition-colors">
                     {step.num}
                   </span>
-                  {step.icon}
+                  <span className="font-mono text-[10px] text-[#FF6A00] tracking-widest uppercase mt-3">
+                    {step.kicker}
+                  </span>
                 </div>
                 <h4 className="font-headline font-bold text-2xl uppercase mb-4 text-[#e5e2e1]">{step.title}</h4>
                 <p className="text-white/60 text-sm leading-relaxed mb-8">{step.desc}</p>
@@ -579,6 +633,99 @@ export default function Home() {
       </section>
 
       {/* ════════════════════════════════════════════════════════
+          LIVE DEMO — FIELD SCAN TERMINAL
+      ════════════════════════════════════════════════════════ */}
+      <section className="py-32 px-6 lg:px-24 bg-[#131313]">
+        <div
+          ref={liveDemoAnim.ref}
+          className={`max-w-7xl mx-auto transition-all duration-700 ease-out ${
+            liveDemoAnim.isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'
+          }`}
+        >
+          <div className="mb-16">
+            <span className="font-mono text-[10px] text-[#FF6A00] tracking-widest uppercase block mb-4">Live Demo // See It In Action</span>
+            <h2 className="font-headline font-black text-5xl md:text-6xl tracking-tighter uppercase leading-none text-[#e5e2e1]">
+              ASK AN AI.<br />
+              WATCH THE SYSTEM <span className="text-[#FF6A00]">MOVE.</span>
+            </h2>
+            <p className="text-white/50 text-sm leading-relaxed mt-6 max-w-xl">
+              This is the field scan we run on every new client before day one. Four platforms, live, in order.
+            </p>
+          </div>
+
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-0 border border-white/10">
+            {/* Left — terminal */}
+            <div className="bg-black text-white/90 border-b md:border-b-0 md:border-r border-white/10 min-h-[480px] flex flex-col">
+              <div className="px-6 py-4 border-b border-white/10 flex justify-between items-center">
+                <span className="font-mono text-[10px] tracking-widest text-[#FF6A00] uppercase">◉ Field Scan · Live</span>
+                <span className="font-mono text-[10px] tracking-widest text-white/40 uppercase">Your City / Your Category</span>
+              </div>
+              <div className="p-6 flex-1 font-mono text-[12px] leading-[1.9]">
+                <div className="text-white/70">&gt; initiate scan --territory=&quot;your-city&quot; --category=&quot;your-category&quot;</div>
+                <div className="text-[#FF6A00] mt-1">SCAN 001 OPEN</div>
+                <div className="mt-4">
+                  {SCAN_LINES.slice(0, scanStep).map((l, i) => (
+                    <div key={i} className="mb-1">
+                      <span className="text-[#FF6A00]">[{String(i + 1).padStart(2, '0')}]</span>{' '}
+                      <span className={i === scanStep - 1 ? 'text-[#FF6A00]' : 'text-white/80'}>{l.t}</span>
+                      {i < scanStep - 1 && <span className="text-white/40 ml-2">· ok</span>}
+                    </div>
+                  ))}
+                  {scanStep < SCAN_LINES.length && (
+                    <span className="text-[#FF6A00] animate-pulse">█</span>
+                  )}
+                </div>
+                {scanStep >= SCAN_LINES.length && (
+                  <button
+                    onClick={() => setScanStep(0)}
+                    className="mt-6 bg-[#FF6A00] text-black font-headline font-black px-4 py-2 text-[11px] tracking-widest uppercase hover:translate-y-[1px] transition-transform"
+                  >
+                    Replay scan →
+                  </button>
+                )}
+              </div>
+            </div>
+
+            {/* Right — citation map */}
+            <div className="bg-[#131313] flex flex-col">
+              <div className="px-6 py-4 border-b border-white/10 flex justify-between items-center">
+                <span className="font-mono text-[10px] tracking-widest text-white/40 uppercase">Current Citation Map</span>
+                <span className="font-mono text-[10px] tracking-widest text-white/40 uppercase">Before Us</span>
+              </div>
+              <div className="p-6 flex-1">
+                {[
+                  ['ChatGPT', 'Competitor · generic recommendation'],
+                  ['Claude', 'No clear recommendation'],
+                  ['Perplexity', 'Generic list · 8+ results'],
+                  ['Google AI', 'Directory listing · no name'],
+                ].map((row, i) => (
+                  <div
+                    key={i}
+                    className={`py-4 flex justify-between items-center ${i < 3 ? 'border-b border-white/5' : ''}`}
+                  >
+                    <div>
+                      <div className="font-mono text-[10px] tracking-widest text-white/40 uppercase mb-1">{row[0]}</div>
+                      <div className="text-[#e5e2e1] text-[15px] font-semibold">{row[1]}</div>
+                    </div>
+                    <div className="w-7 h-7 rounded-full border border-white/30 flex items-center justify-center text-white/50 text-sm">
+                      ✗
+                    </div>
+                  </div>
+                ))}
+
+                <div className="mt-6 p-5 bg-black border-l-4 border-[#FF6A00]">
+                  <div className="font-mono text-[10px] tracking-widest text-[#FF6A00] uppercase mb-1">— Projected · Day 90</div>
+                  <div className="text-[#e5e2e1] text-base font-bold">
+                    4 / 4 platforms citing <span className="text-[#FF6A00]">you</span>.
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* ════════════════════════════════════════════════════════
           TERRITORY MAP
       ════════════════════════════════════════════════════════ */}
       <section id="territory-map" className="py-32 px-6 lg:px-24 bg-[#131313]">
@@ -598,46 +745,56 @@ export default function Home() {
             </p>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-0 border border-white/10">
+          <div className="border border-white/10">
+            {/* Table header — hidden on mobile (card view takes over) */}
+            <div className="hidden sm:grid grid-cols-[2fr_1.3fr_1fr_120px] bg-black text-white px-6 py-4 border-b border-white/10">
+              <div className="font-mono text-[10px] tracking-widest uppercase text-white/60">Territory</div>
+              <div className="font-mono text-[10px] tracking-widest uppercase text-white/60">Category</div>
+              <div className="font-mono text-[10px] tracking-widest uppercase text-white/60">Status</div>
+              <div className="font-mono text-[10px] tracking-widest uppercase text-white/60 text-right">Action</div>
+            </div>
+            {/* Rows — table on desktop, card on mobile */}
             {territories.map((t, i) => {
               const isClaimed = t.status === 'claimed';
-              const isLast = i === territories.length - 1;
-              const isLastRow3 = i >= territories.length - (territories.length % 3 || 3);
-              const isRightEdge = (i + 1) % 3 === 0;
               return (
                 <div
                   key={i}
-                  className={`p-8 bg-[#131313] hover:bg-[#1c1b1b] transition-colors relative group
-                    ${!isRightEdge ? 'border-r border-white/10' : ''}
-                    ${!isLastRow3 ? 'border-b border-white/10' : ''}
-                    ${!isClaimed ? 'animate-orange-pulse' : ''}
-                  `}
+                  className={`flex flex-col gap-3 sm:grid sm:grid-cols-[2fr_1.3fr_1fr_120px] sm:items-center px-5 sm:px-6 py-4 sm:py-5 ${i < territories.length - 1 ? 'border-b border-white/5' : ''} ${i % 2 === 0 ? 'bg-[#131313]' : 'bg-[#1c1b1b]'} hover:bg-[#2a2a2a] transition-colors`}
                 >
-                  <div className="flex items-start justify-between mb-4">
-                    <div>
-                      <div className="font-headline font-bold text-lg uppercase text-[#e5e2e1] mb-1">{t.city}</div>
-                      <div className="font-mono text-[10px] text-white/40 uppercase tracking-widest">{t.category}</div>
-                    </div>
+                  <div className="font-headline font-bold text-base md:text-lg uppercase text-[#e5e2e1]">{t.city}</div>
+                  <div className="font-mono text-[11px] tracking-widest uppercase text-white/50">{t.category}</div>
+                  <div>
                     {isClaimed ? (
-                      <span className="font-mono text-[10px] bg-white/10 text-white/50 px-2 py-1 uppercase tracking-widest flex-shrink-0">
-                        LOCKED
+                      <span className="font-mono text-[10px] tracking-widest uppercase bg-white/10 text-white/60 px-2.5 py-1 inline-flex items-center gap-1.5">
+                        <span className="w-1.5 h-1.5 bg-white/40" />
+                        LOCKED · CLAIMED
                       </span>
                     ) : (
-                      <span className="font-mono text-[10px] bg-[#FF6A00] text-black font-bold px-2 py-1 uppercase tracking-widest flex-shrink-0">
+                      <span className="font-mono text-[10px] tracking-widest uppercase bg-[#FF6A00] text-black font-bold px-2.5 py-1 inline-flex items-center gap-1.5">
+                        <span>◉</span>
                         OPEN
                       </span>
                     )}
                   </div>
-                  <div className={`h-px w-full ${isClaimed ? 'bg-white/10' : 'bg-[#FF6A00]/40'}`} />
-                  <div className={`font-mono text-[10px] tracking-widest uppercase mt-4 ${isClaimed ? 'text-white/30' : 'text-[#FF6A00]'}`}>
-                    {isClaimed ? 'Claimed' : 'Available'}
+                  <div className="sm:text-right">
+                    {!isClaimed && (
+                      <a
+                        href="#territory-check"
+                        className="font-headline font-black text-[11px] tracking-widest uppercase underline underline-offset-4 text-[#FF6A00] hover:text-white transition-colors"
+                      >
+                        CLAIM →
+                      </a>
+                    )}
                   </div>
                 </div>
               );
             })}
           </div>
 
-          <div className="mt-8 text-center">
+          <div className="mt-8 flex flex-col sm:flex-row justify-between items-center gap-4">
+            <div className="font-mono text-[10px] text-white/40 tracking-widest uppercase">
+              {territories.filter((t) => t.status === 'claimed').length} LOCKED · {territories.filter((t) => t.status === 'available').length} OPEN · UPDATED LIVE
+            </div>
             <a
               href="#territory-check"
               className="inline-flex items-center gap-3 bg-[#FF6A00] text-black font-black px-10 py-4 tracking-tighter hover:translate-y-[2px] transition-transform font-headline uppercase"
