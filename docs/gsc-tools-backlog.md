@@ -57,70 +57,65 @@ Prioritized build list for turning Google Search Console data into $1k/mo-worthy
   - Draft-only: creates Gmail draft per client addressed to Justin; no auto-send
   - Telegram summary per run. Query overrides: `?month=YYYY-MM`, `?slug=<slug>`
 
-- ✅ **Auto-submit sitemaps** (`scripts/submit-sitemaps.js` + `lib/gsc-api.ts::submitSitemap`)
+- ✅ **Auto-submit sitemaps** (`scripts/submit-sitemaps.js` + `lib/gsc-api.ts::submitSitemap` + `lib/sitemap-auto-submit.ts`) — shipped 2026-04-19
   - All 7 client sitemaps submitted to GSC 2026-04-18
   - ClearClose `app/sitemap.ts` added to fill missing sitemap
-  - TODO: wire into blog-publish flow so each new post triggers a submit
+  - `autoSubmitTae()` hook wired into `publishStagedArticles()` — every TAE blog batch publish triggers a sitemap submit
+  - Manual Content Engine path: `node scripts/submit-sitemaps.js sc-domain:theanswerengine.ai` after push
 
 - ✅ **Top-Performer Conversion Audit** (`lib/gsc-top-performer-audit.ts` + `scripts/audit-top-performers.ts`) — shipped 2026-04-19
   - Pulls top 10 pages by clicks (last 28d) per client, fetches each page, parses H1/meta/primary CTA
   - Claude Haiku 4.5 scores alignment vs client's stated goal + produces rewrite brief (new H1, new CTA, supporting element)
   - Two drafts per client: Justin-facing (raw truth) + client-facing curated preview gated by `checkBrandSafety()`
   - LAMH Safety Protocol: surface-only, no LLM briefs, never client-facing
-  - Verified live on Lovery (2 weak / 7 partial / 1 404) — consistent finding: Subscribe overrides Valuation CTA site-wide
-  - Usage: `npx tsx scripts/audit-top-performers.ts [slug|all]`
+  - Verified live on Lovery — consistent finding: Subscribe overrides Valuation CTA site-wide
 
-## Planned (priority order)
+- ✅ **Page-2 Opportunity Queue** (`lib/gsc-page2-opportunities.ts` + `app/api/cron/page2-opportunities/route.ts` + `scripts/test-page2-opportunities.ts`) — shipped 2026-04-19
+  - Weekly cron Monday 9am PT (17:00 UTC `0 17 * * 1`)
+  - For every client, filters queries at position 11-20 with ≥10 impressions, dedupes against prior store entries (tracks timesSeen), persists to `data/gsc-page2-opportunities.json` via GitHub REST
+  - Telegram digest with top 10 new opportunities. Live verification: 14 opportunities across 4 clients
 
-### Tier 1 — Compounds immediately
+- ✅ **Weekly Wins & Misses digest** (`lib/gsc-wins-misses.ts` + `app/api/cron/wins-misses/route.ts`) — shipped 2026-04-19
+  - Weekly cron Monday 10am PT (18:00 UTC `0 18 * * 1`)
+  - Two-track: Telegram raw for Justin, Gmail DRAFT wins-forward for clients (Brand Safety gated; blocks all-negative weeks, banned phrases, LAMH)
+  - Rank thresholds: >3 position change = win/miss
 
-- 📋 **Page-2 Opportunity Queue → Content Engine** (~4h)
-  - Weekly cron finds queries at position 11-20 with ≥10 impressions
-  - Routes them into the blog topic queue as content briefs
-  - Closes the GSC-data ↔ content-bot loop
+- ✅ **Branded search tracker** (`lib/gsc-branded-search.ts` + `app/api/cron/branded-search/route.ts` + `scripts/test-branded-search.ts`) — shipped 2026-04-19
+  - Weekly cron Monday 11am PT (19:00 UTC `0 19 * * 1`) — INTERNAL-ONLY by default
+  - 4-week trend per client with BRAND_TOKENS dictionary; verdict = rising / stable / falling / no-data
+  - Gut-check 2026-04-19: only Davis Agency passed client-facing gate — kept internal-only until data matures + email outreach audit
+  - Override `?mode=with-drafts` when ready
 
-- 📋 **Weekly "Wins & Misses" digest** (~3h)
-  - Internal Telegram version: full picture (wins + losses + diagnosis) to Justin
-  - Client-facing email: wins only + proactive "we spotted an opening" on losses
-  - Rank gain/loss >3 positions = trigger
+- ✅ **Onboarding baseline snapshot** (`lib/gsc-onboarding-baseline.ts` + `scripts/capture-baseline.ts` + `data/gsc-baselines.json`) — shipped 2026-04-19
+  - Day-0 snapshots captured for all 7 clients
+  - `captureSnapshot` / `mergeSnapshot` / `deltaVsBaseline` — additional_snapshots append for trend lines
+  - Before/after ammo for every future case study + QBR
 
-### Tier 2 — Proof/retention drivers
+- ✅ **CTR outlier detector + Keyword cannibalization** (`lib/gsc-ctr-outliers.ts` + `lib/gsc-cannibalization.ts` + `scripts/audit-surgical.ts`) — shipped 2026-04-19
+  - Combined CLI creates one Gmail draft to Justin per client with both findings
+  - CTR: flags top-10 pages/queries with CTR <60% of expected; sorts by missed-clicks estimate
+  - Cannibalization: query+page dimension, high/medium/low severity
+  - Live verification (RPM): 12 page outliers + 19 query outliers + 17 cannibalization cases (7 high severity)
 
-- 📋 **Branded search tracker** (~2h)
-  - Weekly delta of `"{ClientName}"` searches
-  - The metric that proves AEO authority work is translating to search demand
-  - Gut-check first: run live check on existing clients before shipping client-facing
+- ✅ **Geographic expansion alert** (`lib/gsc-geographic-expansion.ts` + `scripts/audit-geo-expansion.ts`) — shipped 2026-04-19
+  - Detects queries mentioning cities NOT in `profile.service_area.cities`
+  - KNOWN_CITIES dictionary (CA + TX focus); empty servedCities returns empty (prevents false positives on LAMH)
+  - Live verification: Davis Agency Georgetown TX = strongest signal (115 impr, 6 queries)
 
-- 📋 **Onboarding baseline snapshot** (~1h)
-  - Day-0 GSC state frozen for every new client
-  - Before/after ammo for sales deck and QBRs
+- ✅ **Query-to-pillar clustering** (`lib/gsc-pillar-clustering.ts` + `scripts/audit-pillars.ts`) — shipped 2026-04-19
+  - Lightweight shared-token connected-components clustering (no embeddings)
+  - Claude Haiku 4.5 names each cluster + proposes 5-8 H2 pillar outline
+  - Live verification (RPM): 3 clusters, top one = 125 queries / 9,624 impressions
 
-### Tier 3 — Surgical optimizations
-
-- 📋 **CTR outlier detector** (~3h, pair with pillar clustering)
-  - Pages in top-10 with below-expected CTR → queue title/meta rewrite tickets
-  - Evolve into "Content Health Score" combining CTR × Position × Impressions momentum
-
-- 📋 **Keyword cannibalization detector** (~3h)
-  - Cross-reference query→page dimension over 28-day window
-  - Flag 2+ pages competing for same query → merge/301 or differentiate
-
-- 📋 **Query-to-pillar clustering** (~5h)
-  - Group semantically-related queries into topic pillars
-  - Auto-generate outlines for pillar content that ranks for dozens of queries
-
-### Tier 4 — Revenue levers
-
-- 📋 **Geographic expansion alert** (~2h)
-  - Detect queries from cities the client doesn't serve
-  - Triggers upsell opportunity (territory expansion = revenue, not just traffic)
-
-- 📋 **Quarterly Business Review auto-deck** (~6h)
-  - PDF with wins/misses/strategy/QoQ trend for each client
-  - Retention glue — makes clients FEEL the $1k/mo
+- ✅ **Quarterly Business Review auto-deck** (`lib/gsc-qbr.ts` + `scripts/generate-qbr.ts`) — shipped 2026-04-19
+  - Uses day-0 baseline vs current snapshot to compute QoQ deltas
+  - Standalone HTML saved to `data/qbr/{slug}-{date}.html` (browser / print-to-PDF)
+  - Gmail DRAFT variant for client-facing review (Brand Safety gated)
+  - Top 3 pillar opportunities + 3 forward-looking next-quarter actions tied to client goal
 
 ## Open Questions
 
-- Vercel env — need `GSC_REFRESH_TOKEN` pushed once monthly cron goes live
+- Vercel env — need `GSC_REFRESH_TOKEN` pushed once cron routes go live on production
 - Telegram channel for internal wins/misses alerts — new bot or existing?
 - QBR cadence — 90-day auto or aligned to contract anniversary?
+- Full email outreach audit (pending Justin) before flipping client-facing sends on any cron
