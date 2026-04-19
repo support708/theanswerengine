@@ -335,6 +335,55 @@ export default function AboutPage() {
         </div>
       </section>
 
+      {/* ── THE MONTHLY PROGRAM ──────────────────────────────── */}
+      <section className="py-32 px-6 lg:px-24 bg-[#131313]">
+        <div className="max-w-7xl mx-auto">
+          <span className="font-mono text-[10px] tracking-widest uppercase text-[#FF6A00] block mb-3">
+            After The Foundation // Ongoing
+          </span>
+          <h2 className="font-headline font-black text-4xl uppercase tracking-tighter mb-4">
+            THE MONTHLY{' '}
+            <span className="text-[#FF6A00]">PROGRAM</span>
+          </h2>
+          <p className="text-white/50 text-sm leading-relaxed mb-16 max-w-2xl">
+            What you receive after the 90-day foundation ships. One email per week. One report per month. Dashboard 24/7.
+          </p>
+
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-0 border border-white/10">
+            {[
+              {
+                title: 'THE MONDAY BRIEF',
+                body: 'One email every Monday. Your AEO Authority Index, the rank movements that matter this week, Reddit citation opportunities, and what we\'re doing next — tied to your goal.',
+              },
+              {
+                title: 'MONTHLY AEO REPORT',
+                body: 'First of every month. Impressions, clicks, CTR, rank deltas, top pages, page-2 queue, competitor movements, and the next three actions we\'ll take.',
+              },
+              {
+                title: 'CLIENT DASHBOARD',
+                body: 'Live visibility across ChatGPT, Claude, Perplexity, and Google AI — on your schedule, not ours. Pull-based, 24/7.',
+              },
+            ].map((item, i) => (
+              <div
+                key={i}
+                className={`p-10 bg-[#1c1b1b] border-l-4 border-l-[#FF6A00] hover:bg-[#2a2a2a] transition-colors ${
+                  i < 2 ? 'border-b md:border-b-0 md:border-r border-white/10' : ''
+                }`}
+              >
+                <h3 className="font-headline font-black text-lg uppercase tracking-tighter mb-4">
+                  {item.title}
+                </h3>
+                <p className="text-white/60 text-sm leading-relaxed">{item.body}</p>
+              </div>
+            ))}
+          </div>
+
+          <p className="text-white/40 text-xs mt-6 font-mono tracking-widest uppercase">
+            Cardinal rule: ≤ 1.5 emails/week. Everything else lives in your dashboard.
+          </p>
+        </div>
+      </section>
+
       {/* ── CTA ──────────────────────────────────────────────── */}
       <section className="py-32 px-6 lg:px-24 bg-[#FF6A00]">
         <div className="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center gap-12">
@@ -356,12 +405,14 @@ export default function AboutPage() {
                 <path strokeLinecap="round" strokeLinejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3" />
               </svg>
             </Link>
-            <Link
-              href="/case-studies"
+            <a
+              href="https://calendly.com/theanswerengine-support/30min"
+              target="_blank"
+              rel="noopener noreferrer"
               className="border-2 border-black text-black px-10 py-4 font-headline font-black uppercase tracking-tighter text-sm hover:bg-black hover:text-[#FF6A00] transition-colors"
             >
-              VIEW CASE STUDIES
-            </Link>
+              BOOK 30-MIN CALL
+            </a>
           </div>
         </div>
       </section>
