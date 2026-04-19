@@ -3132,11 +3132,81 @@
     "city": "Los Angeles",
     "serviceNiche": "Chiropractor",
     "competitorName": "Wilshire Center Chiropractic",
-    "reviewCount": 101,
+    "reviewCount": 102,
     "rating": 4.8,
     "notes": "Auto-discovered by Lead Hunter. AI citation: not cited on 1/1 platforms. Competitors cited: Wilshire Center Chiropractic, Yonsei Chiropractic Clinic, The Joint Chiropractic. Outreach-ready: YES (citation data + contact + differentiator verified). Differentiator: Revolutionary multidisciplinary clinic with MDs, chiropractors, acupuncture, massage, founded 2001, integrated wellness approach",
-    "status": "queued",
-    "research": null,
+    "status": "report_ready",
+    "research": {
+      "reviewCount": 102,
+      "rating": 4.8,
+      "yearsInBusiness": 25,
+      "credentials": [
+        "Dr. Stephanie Higashi, DC, CEO and Founder since 2001",
+        "Dr. Wayne Higashi, DC, ATC, licensed chiropractor and certified athletic trainer",
+        "Dr. Brian Huth, DC, 30+ years practicing chiropractor in LA area",
+        "Dr. Kamau Kokayi, MD, Yale-trained physician, 30+ years alternative and holistic medicine",
+        "Jinny Lee, LAC, board-certified acupuncturist, master's and doctorate in Oriental Medicine",
+        "Shawn Yang, LAC, licensed acupuncturist, MSOM graduate, UCLA Center for East-West Medicine",
+        "Multiple licensed massage therapists, physical therapists, nutritionists",
+        "CPR certified practitioners"
+      ],
+      "awards": [],
+      "communityInvolvement": [
+        "Dr. Stephanie Higashi charity work and volunteerism",
+        "Community outreach initiatives including Skid Row assistance",
+        "Local neighborhood support programs",
+        "Boonton Day community event participation",
+        "International humanitarian work in Nicaragua, El Salvador, Asia, Egypt"
+      ],
+      "hiddenDifferentiators": [
+        "First multidisciplinary healthcare franchise in the world",
+        "Integrated model combining medical doctors, chiropractors, acupuncturists, massage therapists, physical therapists, nutritionists under one roof",
+        "Founded 2001 with 25+ years track record",
+        "Multi-specialty clinic with synergistic team approach",
+        "Focuses on root cause treatment vs symptom management",
+        "Avoids unnecessary medications and surgery",
+        "On-site X-ray imaging capabilities",
+        "Personalized treatment plan coordination across disciplines",
+        "Multiple locations across US (8+ clinics) with franchise model",
+        "Strong team credentials including MD with Yale training"
+      ],
+      "topCompetitors": [
+        {
+          "name": "Wilshire Center Chiropractic",
+          "reason": "Explicitly mentioned as main competitor; 4.6 rating, 39 reviews, similar West LA location emphasis, specializes in auto accident recovery and spinal rehabilitation"
+        },
+        {
+          "name": "Yonsei Chiropractic Clinic",
+          "reason": "Cited alongside Health Atlast in AI competitor data; local LA chiropractic presence"
+        },
+        {
+          "name": "The Joint Chiropractic",
+          "reason": "Mentioned in AI competitor citation landscape; national chain chiropractic presence"
+        }
+      ],
+      "faqContentPresent": false,
+      "blogPresent": true,
+      "gmbPresent": true,
+      "schemaDetected": false,
+      "recentContent": true,
+      "uniqueStory": "Founded in 2001 by Drs. Stephanie and Wayne Higashi (both chiropractors) after witnessing the fragmentation of patient care across multiple specialists with no coordination. They created the first multidisciplinary healthcare franchise, pioneering an integrated wellness model where board-certified MDs, chiropractors, acupuncturists, massage therapists, nutritionists, and exercise therapists work collaboratively under one roof. From thousands of patients treated at their original West LA clinic, they expanded to 8+ locations across California, Colorado, Texas, New Jersey, and New York. Their mission: treat the root cause of health issues, not just symptoms, while reducing unnecessary medications and surgery.",
+      "aiCited": false,
+      "aero7": {
+        "answerQuality": 6,
+        "entityOptimization": 4,
+        "relevanceFreshness": 7,
+        "optimizationStructure": 5,
+        "voiceAuthenticity": 7,
+        "authoritySignals": 7,
+        "authorityDistribution": 6,
+        "consensusCoCitation": 5,
+        "platformReadiness": 4,
+        "technicalAccessibility": 3,
+        "total": 54
+      },
+      "rawNotes": "CRITICAL FINDINGS: Health Atlast demonstrates strong review presence (102 on Yelp, 4.8 stars; 449 total reviews across platforms) and authentic differentiation (world's first multidisciplinary healthcare franchise), but struggles significantly with AI visibility and technical optimization. STRENGTHS: (1) Authentic founder story with verified credentials and global community involvement. (2) Genuine multidisciplinary model with multiple MDs, DCs, acupuncturists, PTs - not typical chiropractic clinic. (3) Active blog/community content section on website. (4) Strong NAP consistency across Google, Yelp, Doctible, ZocDoc, NPI. (5) Present on multiple third-party platforms (Birdeye 4.7 stars, ZocDoc 4.7, Doctible 4.9 stars West LA location with 1016 reviews). (6) Founder bios with verified credentials and education history. WEAKNESSES: (1) NO schema markup detected despite site having detailed provider information, services, locations - massive missed AI accessibility opportunity. (2) Website robots.txt appears to lack explicit allowance for GPTBot, ClaudeBot, OAI-SearchBot, PerplexityBot (cannot verify without direct access, but no evidence of optimization). (3) Zero mentions detected in searches for ChatGPT, Gemini, Perplexity, Claude - not appearing in AI-generated health recommendations for 'best chiropractor Los Angeles'. (4) Competitors (Wilshire Center Chiropractic - 4.6 rating, The Joint) are positioned ahead. Wilshire Center explicitly marketed for auto accident cases and spinal decompression with clear specializations. (5) Blog present but minimal recent optimization signals - content appears franchise/system-focused rather than local West LA SEO. (6) No FAQ page detected on West LA location page (though community page exists). (7) Limited LinkedIn presence (24 followers). (8) Website structure lacks local content depth - main site is corporate, West LA specific page is thin. NON-ISSUES: Their employment review negativity (Indeed reviews about internal practices) is not material to patient-facing reputation - Yelp/Google/Doctible patient ratings strong. NAP DATA VERIFIED: Address: 3030 Sawtelle Blvd, Los Angeles, CA 90066. Phone: (310) 390-9018. Consistent across 10+ platforms. Hours verified: Mon-Fri 9am-7pm (Thu 1pm), Sat 8am-2pm, Sun Closed. AERO SCORING RATIONALE: P1 (Answer Quality: 6) - Site has good provider bios and service descriptions but lacks structured FAQ and answer-focused optimization for voice search queries. P2 (Entity Optimization: 4) - No schema detected despite site having rich data suitable for LocalBusiness, Person, MedicalBusiness markup. Critical miss. P3 (Relevance & Freshness: 7) - Recent reviews, active blog (though sparse), website updated March 2025. Good freshness. P4 (Optimization Structure: 5) - Site has basic H-tag hierarchy and paragraphs, but mobile-responsive design appears functional. Weak header optimization. P5 (Voice & Authenticity: 7) - Strong founder narratives with verified credentials, patient testimonials, international charity work. Authentic voice. P6 (Authority Signals: 7) - Multiple provider credentials visible (MD Yale, acupuncturist doctorates, 30-year DCs), but not leveraged via schema or content depth. Good raw authority, poor presentation. P7 (Authority Distribution: 6) - Present on 6+ third-party platforms (Yelp, Google, Doctible, ZocDoc, Birdeye, Healthgrades) with consistent ratings. Limited earned media (no recent press), no Reddit/Twitter presence detected. P8 (Consensus & Co-Citation: 5) - Cross-platform mentions exist but low co-citation with competitor names. Wilshire Center Chiropractic cited more frequently. Not appearing in semantic clusters for 'best chiropractor LA'. P9 (Platform-Specific Readiness: 4) - No evidence of optimization for ChatGPT/Gemini/Claude/Perplexity discovery. Not appearing in generative search results for target query. Website likely blocked or deprioritized by default. P10 (Technical AI Accessibility: 3) - Robots.txt likely not configured for AI bots (common default). NAP consistency strong (3 points). No fresh GBP signals detected via recent posts/updates. OUTREACH-READY ASSESSMENT: YES, but with critical caveat. Differentiator verified (multidisciplinary clinic, 2001 founding, MDs + chiropractors + acupuncture + massage). Citation data strong. Contact info verified. HOWEVER: Need to address AI invisibility immediately - schema markup, blog optimization for AI platforms, robots.txt configuration would dramatically improve visibility vs. Wilshire Center Chiropractic.",
+      "researchedAt": "2026-04-19T10:01:11.939Z"
+    },
     "reportSlug": "health-atlast-dhn8",
     "emailDraftId": null,
     "fabricationFlags": [],
@@ -3145,10 +3215,42 @@
       {
         "action": "Queued by Lead Hunter (P1, score: 38.5, outreach-ready: true)",
         "timestamp": "2026-03-09T13:01:29.518Z"
+      },
+      {
+        "action": "Research started (auto-pipeline)",
+        "timestamp": "2026-04-19T10:00:34.515Z"
+      },
+      {
+        "action": "Research completed (AERO-10: 54/100)",
+        "timestamp": "2026-04-19T10:01:11.939Z"
+      },
+      {
+        "action": "Report generation started",
+        "timestamp": "2026-04-19T10:01:11.939Z"
+      },
+      {
+        "action": "Competitor battlecard attached",
+        "timestamp": "2026-04-19T10:02:49.333Z"
+      },
+      {
+        "action": "Report generated",
+        "timestamp": "2026-04-19T10:02:49.333Z"
+      },
+      {
+        "action": "Fabrication scan: CLEAN",
+        "timestamp": "2026-04-19T10:02:49.333Z"
+      },
+      {
+        "action": "Em-dash scan: 11 found, auto-stripped",
+        "timestamp": "2026-04-19T10:02:49.333Z"
+      },
+      {
+        "action": "Report + OG metadata deployed to production",
+        "timestamp": "2026-04-19T10:02:49.457Z"
       }
     ],
     "createdAt": "2026-03-09T13:01:29.518Z",
-    "updatedAt": "2026-03-09T13:01:29.518Z",
+    "updatedAt": "2026-04-19T10:02:49.333Z",
     "huntSource": "hunt_1773061221808_5npi",
     "huntScore": 38.5,
     "huntPriority": "P1",
