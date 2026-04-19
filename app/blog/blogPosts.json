@@ -991,23 +991,23 @@
     ]
   },
   {
-    "id": 53,
-    "title": "What Happens to Your Business When AI Search Gets It Wrong",
-    "slug": "what-happens-when-ai-search-gets-business-wrong",
-    "excerpt": "AI search hallucinations cost businesses $67.4 billion globally. Wrong phone numbers, fabricated reviews, and incorrect hours are damaging real companies. Learn what is at stake and how to protect your business.",
-    "category": "AI Visibility",
+    "id": 48,
+    "title": "How to Get Your Business Cited in Google Gemini",
+    "slug": "how-to-get-cited-google-gemini",
+    "excerpt": "Google Gemini now holds 18% of the AI chatbot market with 750 million monthly users. Learn exactly how Gemini decides which businesses to cite and how to earn those citations.",
+    "category": "AEO Education",
     "author": "The Answer Engine Team",
-    "readTime": "12 min",
-    "image": "/blog/what-happens-when-ai-search-gets-business-wrong.webp",
+    "readTime": "11 min",
+    "image": "/blog/how-to-get-cited-google-gemini.webp",
     "publishDate": "2026-03-19",
     "lastModified": "2026-03-19",
     "featured": true,
     "tags": [
+      "Google Gemini",
+      "AI Citations",
       "AI Visibility",
-      "AI Hallucinations",
-      "AI Search Errors",
-      "Business Reputation",
-      "Answer Engine Optimization",
+      "Google AI Overviews",
+      "Structured Data",
       "AEO"
     ]
   },
@@ -1029,48 +1029,6 @@
       "Core Web Vitals",
       "AI Visibility",
       "Crawl Budget",
-      "AEO"
-    ]
-  },
-  {
-    "id": 52,
-    "title": "How to Write Service Pages That AI Platforms Recommend",
-    "slug": "write-service-pages-ai-platforms-recommend",
-    "excerpt": "Learn how to structure service pages so ChatGPT, Perplexity, and Google AI Overviews cite and recommend your business. Covers schema markup, content structure, and real optimization strategies.",
-    "category": "AEO Education",
-    "author": "The Answer Engine Team",
-    "readTime": "12 min",
-    "image": "/blog/write-service-pages-ai-platforms-recommend.webp",
-    "publishDate": "2026-03-19",
-    "lastModified": "2026-03-19",
-    "featured": true,
-    "tags": [
-      "Service Pages",
-      "AI Recommendations",
-      "Schema Markup",
-      "AI Search",
-      "Content Structure",
-      "AEO"
-    ]
-  },
-  {
-    "id": 48,
-    "title": "How to Get Your Business Cited in Google Gemini",
-    "slug": "how-to-get-cited-google-gemini",
-    "excerpt": "Google Gemini now holds 18% of the AI chatbot market with 750 million monthly users. Learn exactly how Gemini decides which businesses to cite and how to earn those citations.",
-    "category": "AEO Education",
-    "author": "The Answer Engine Team",
-    "readTime": "11 min",
-    "image": "/blog/how-to-get-cited-google-gemini.webp",
-    "publishDate": "2026-03-19",
-    "lastModified": "2026-03-19",
-    "featured": true,
-    "tags": [
-      "Google Gemini",
-      "AI Citations",
-      "AI Visibility",
-      "Google AI Overviews",
-      "Structured Data",
       "AEO"
     ]
   },
@@ -1114,6 +1072,48 @@
       "NAP Consistency",
       "Local SEO",
       "AI Visibility",
+      "AEO"
+    ]
+  },
+  {
+    "id": 52,
+    "title": "How to Write Service Pages That AI Platforms Recommend",
+    "slug": "write-service-pages-ai-platforms-recommend",
+    "excerpt": "Learn how to structure service pages so ChatGPT, Perplexity, and Google AI Overviews cite and recommend your business. Covers schema markup, content structure, and real optimization strategies.",
+    "category": "AEO Education",
+    "author": "The Answer Engine Team",
+    "readTime": "12 min",
+    "image": "/blog/write-service-pages-ai-platforms-recommend.webp",
+    "publishDate": "2026-03-19",
+    "lastModified": "2026-03-19",
+    "featured": true,
+    "tags": [
+      "Service Pages",
+      "AI Recommendations",
+      "Schema Markup",
+      "AI Search",
+      "Content Structure",
+      "AEO"
+    ]
+  },
+  {
+    "id": 53,
+    "title": "What Happens to Your Business When AI Search Gets It Wrong",
+    "slug": "what-happens-when-ai-search-gets-business-wrong",
+    "excerpt": "AI search hallucinations cost businesses $67.4 billion globally. Wrong phone numbers, fabricated reviews, and incorrect hours are damaging real companies. Learn what is at stake and how to protect your business.",
+    "category": "AI Visibility",
+    "author": "The Answer Engine Team",
+    "readTime": "12 min",
+    "image": "/blog/what-happens-when-ai-search-gets-business-wrong.webp",
+    "publishDate": "2026-03-19",
+    "lastModified": "2026-03-19",
+    "featured": true,
+    "tags": [
+      "AI Visibility",
+      "AI Hallucinations",
+      "AI Search Errors",
+      "Business Reputation",
+      "Answer Engine Optimization",
       "AEO"
     ]
   },
@@ -3689,27 +3689,6 @@
     ]
   },
   {
-    "id": 183,
-    "title": "Do Insurance Agents Show Up on ChatGPT? How to Get Recommended",
-    "slug": "do-insurance-agents-show-up-on-chatgpt",
-    "excerpt": "Most insurance agents are invisible to ChatGPT, Perplexity, and Google AI. Learn exactly how AI sources insurance recommendations and what to do about it.",
-    "category": "Industry Guides",
-    "author": "The Answer Engine Team",
-    "readTime": "9 min",
-    "image": "/blog/do-insurance-agents-show-up-on-chatgpt.svg",
-    "publishDate": "2026-04-18",
-    "lastModified": "2026-04-18",
-    "featured": true,
-    "tags": [
-      "Insurance",
-      "AI Search",
-      "Industry Guides",
-      "ChatGPT",
-      "Local Business",
-      "AI Visibility"
-    ]
-  },
-  {
     "id": 182,
     "title": "LinkedIn vs Your Website for AI Visibility",
     "slug": "linkedin-vs-your-website-for-ai-visibility",
@@ -3732,6 +3711,27 @@
   },
   {
     "id": 183,
+    "title": "Why Isn't My Electrical Business Showing Up on ChatGPT",
+    "slug": "why-isnt-my-electrical-business-showing-up-on-chatgpt",
+    "excerpt": "Learn why electricians are invisible in AI search results and the 4 proven tactics to improve visibility on ChatGPT, Google AI Overviews, and Perplexity.",
+    "category": "Industry Guides",
+    "author": "The Answer Engine Team",
+    "readTime": "10 min",
+    "image": "/blog/why-isnt-my-electrical-business-showing-up-on-chatgpt.svg",
+    "publishDate": "2026-04-18",
+    "lastModified": "2026-04-18",
+    "featured": true,
+    "tags": [
+      "Electricians",
+      "AI Search",
+      "Industry Guides",
+      "Home Services",
+      "ChatGPT",
+      "Local Business"
+    ]
+  },
+  {
+    "id": 184,
     "title": "How Do I Get My HVAC Company on ChatGPT and AI Search",
     "slug": "how-do-i-get-my-hvac-company-on-chatgpt-and-ai-search",
     "excerpt": "HVAC companies get skipped by AI search every day. Here are 4 concrete tactics to get your heating and cooling business cited by ChatGPT, Perplexity, and Google AI.",
@@ -3745,301 +3745,91 @@
     "tags": [
       "HVAC",
       "AI Search",
+      "Industry Guides",
+      "Home Services",
       "ChatGPT",
-      "Industry Guides",
-      "Local Business",
-      "Schema Markup"
-    ]
-  },
-  {
-    "id": 184,
-    "title": "How Pest Control Companies Get Found on AI Search",
-    "slug": "how-pest-control-companies-get-found-on-ai-search",
-    "excerpt": "Pest control customers ask AI to identify pests before they ask for companies. Here's how to get found when homeowners search for termite treatment, bed bug removal, or rodent control on ChatGPT.",
-    "category": "Industry Guides",
-    "author": "The Answer Engine Team",
-    "readTime": "12 min",
-    "image": "/blog/how-pest-control-companies-get-found-on-ai-search.webp",
-    "publishDate": "2026-04-18",
-    "lastModified": "2026-04-18",
-    "featured": false,
-    "tags": [
-      "Pest Control",
-      "AI Search",
-      "Industry Guides",
-      "Schema Markup",
-      "Local Business",
-      "ChatGPT"
-    ]
-  },
-  {
-    "id": 185,
-    "title": "Why AI Describes Your Business Wrong (And How to Fix It)",
-    "slug": "why-ai-describes-your-business-wrong",
-    "excerpt": "ChatGPT confidently tells customers you specialize in things you don't do. Perplexity pulls from outdated directories. Here's why AI mischaracterizes your business and what upstream signals actually matter.",
-    "category": "Business Pain Points",
-    "author": "The Answer Engine Team",
-    "readTime": "11 min",
-    "image": "/blog/why-ai-describes-your-business-wrong.webp",
-    "publishDate": "2026-04-18",
-    "lastModified": "2026-04-18",
-    "featured": false,
-    "tags": [
-      "Business Description",
-      "AI Search",
-      "Business Pain Points",
-      "Accuracy",
-      "Perplexity",
-      "ChatGPT"
-    ]
-  },
-  {
-    "id": 186,
-    "title": "How Mortgage Brokers Get Found on AI Search",
-    "slug": "how-mortgage-brokers-get-found-on-ai-search",
-    "excerpt": "Mortgage brokers are invisible on ChatGPT while national lenders dominate. YMYL gatekeeping makes broker AI visibility different. Here's how to build the financial authority signals AI trusts.",
-    "category": "Industry Guides",
-    "author": "The Answer Engine Team",
-    "readTime": "13 min",
-    "image": "/blog/how-mortgage-brokers-get-found-on-ai-search.webp",
-    "publishDate": "2026-04-18",
-    "lastModified": "2026-04-18",
-    "featured": false,
-    "tags": [
-      "Mortgage Broker",
-      "AI Search",
-      "YMYL",
-      "Financial Services",
-      "Niche Authority",
-      "Schema Markup"
-    ]
-  },
-  {
-    "id": 187,
-    "title": "Does Having a Google Business Profile Help AI Recommend You?",
-    "slug": "does-google-business-profile-help-ai-recommend-you",
-    "excerpt": "GBP helps on Gemini but barely on ChatGPT or Perplexity. Here's the platform-by-platform breakdown and what actually drives cross-platform AI visibility beyond Google.",
-    "category": "Myth Busters",
-    "author": "The Answer Engine Team",
-    "readTime": "10 min",
-    "image": "/blog/does-google-business-profile-help-ai-recommend-you.webp",
-    "publishDate": "2026-04-18",
-    "lastModified": "2026-04-18",
-    "featured": false,
-    "tags": [
-      "Google Business Profile",
-      "AI Search",
-      "Myth Busters",
-      "ChatGPT",
-      "Perplexity",
-      "Gemini"
-    ]
-  },
-  {
-    "id": 188,
-    "title": "What Is Entity Authority and Why It Controls Your AI Visibility",
-    "slug": "what-is-entity-authority-ai-visibility",
-    "excerpt": "Domain authority doesn't matter to AI. Entity authority does. Here's how AI recognizes your business as a real, established entity—and why new businesses struggle for years on ChatGPT.",
-    "category": "AEO Education",
-    "author": "The Answer Engine Team",
-    "readTime": "14 min",
-    "image": "/blog/what-is-entity-authority-ai-visibility.webp",
-    "publishDate": "2026-04-18",
-    "lastModified": "2026-04-18",
-    "featured": false,
-    "tags": [
-      "Entity Authority",
-      "AI Search",
-      "AEO Education",
-      "Domain Authority",
-      "Knowledge Graph",
-      "Schema Markup"
-    ]
-  },
-  {
-    "id": 184,
-    "title": "Why AI Still Shows My Old Business Information",
-    "slug": "why-ai-still-shows-my-old-business-information",
-    "excerpt": "AI platforms can show outdated business details for months or years after you update them. Here's why training data lags, how much it costs businesses, and what actually drives AI to show current information.",
-    "category": "Business Pain Points",
-    "author": "The Answer Engine Team",
-    "readTime": "9 min",
-    "image": "/blog/why-ai-still-shows-my-old-business-information.webp",
-    "publishDate": "2026-04-18",
-    "lastModified": "2026-04-18",
-    "featured": true,
-    "tags": [
-      "AI Business Information",
-      "Outdated AI Data",
-      "AI Training Lag",
-      "Business Pain Points",
-      "AI Search",
-      "Entity Data"
-    ]
-  },
-  {
-    "id": 185,
-    "title": "How Plumbers Get Found on AI Search",
-    "slug": "how-plumbers-get-found-on-ai-search",
-    "excerpt": "78% of homeowners use AI before calling a plumber. Here's what signals ChatGPT and Perplexity use to recommend plumbing businesses—and why most plumbers are invisible to AI despite great Google rankings.",
-    "category": "Industry Guides",
-    "author": "The Answer Engine Team",
-    "readTime": "9 min",
-    "image": "/blog/how-plumbers-get-found-on-ai-search.webp",
-    "publishDate": "2026-04-18",
-    "lastModified": "2026-04-18",
-    "featured": true,
-    "tags": [
-      "Plumbers",
-      "AI Search",
-      "Local Business",
-      "Industry Guides",
-      "ChatGPT Visibility",
-      "Home Services"
-    ]
-  },
-  {
-    "id": 186,
-    "title": "Does Website Traffic Affect AI Search Rankings?",
-    "slug": "does-website-traffic-affect-ai-search",
-    "excerpt": "AI gives zero weight to website traffic when deciding which businesses to recommend. Here's what actually drives AI citations—and why businesses with great Google rankings often remain invisible to AI.",
-    "category": "Myth Busters",
-    "author": "The Answer Engine Team",
-    "readTime": "9 min",
-    "image": "/blog/does-website-traffic-affect-ai-search.webp",
-    "publishDate": "2026-04-18",
-    "lastModified": "2026-04-18",
-    "featured": true,
-    "tags": [
-      "Website Traffic",
-      "AI Search Rankings",
-      "Myth Busters",
-      "AEO",
-      "SEO vs AI",
-      "Schema Markup"
-    ]
-  },
-  {
-    "id": 187,
-    "title": "What Is Entity Authority and Why AI Cares About It",
-    "slug": "what-is-entity-authority-and-why-ai-cares",
-    "excerpt": "Entity authority is the single biggest factor in AI recommendation rates—but 92% of businesses don't have it. Learn what it is, how AI measures it, and why it determines whether you get recommended or ignored.",
-    "category": "AEO Education",
-    "author": "The Answer Engine Team",
-    "readTime": "10 min",
-    "image": "/blog/what-is-entity-authority-and-why-ai-cares.webp",
-    "publishDate": "2026-04-18",
-    "lastModified": "2026-04-18",
-    "featured": true,
-    "tags": [
-      "Entity Authority",
-      "AI Search",
-      "AEO Education",
-      "Knowledge Graph",
-      "Schema Markup",
       "Local Business"
     ]
   },
   {
+    "id": 185,
+    "title": "Why Does AI Recommend Other Roofers But Not Me",
+    "slug": "why-does-ai-recommend-other-roofers-but-not-me",
+    "excerpt": "Roofing companies are invisible to ChatGPT and Google AI for specific, fixable reasons. Learn the citation gap analysis and 4 tactics to get AI recommending your roofing business.",
+    "category": "Industry Guides",
+    "author": "The Answer Engine Team",
+    "readTime": "10 min",
+    "image": "/blog/why-does-ai-recommend-other-roofers-but-not-me.svg",
+    "publishDate": "2026-04-18",
+    "lastModified": "2026-04-18",
+    "featured": true,
+    "tags": [
+      "Roofers",
+      "AI Search",
+      "Industry Guides",
+      "Home Services",
+      "ChatGPT",
+      "Storm Damage"
+    ]
+  },
+  {
+    "id": 186,
+    "title": "Do Insurance Agents Show Up on ChatGPT",
+    "slug": "do-insurance-agents-show-up-on-chatgpt",
+    "excerpt": "Most insurance agents are invisible to ChatGPT, Perplexity, and Google AI. Learn exactly how AI sources insurance recommendations and what to do about it.",
+    "category": "Industry Guides",
+    "author": "The Answer Engine Team",
+    "readTime": "10 min",
+    "image": "/blog/do-insurance-agents-show-up-on-chatgpt.svg",
+    "publishDate": "2026-04-18",
+    "lastModified": "2026-04-18",
+    "featured": true,
+    "tags": [
+      "Insurance Agents",
+      "AI Search",
+      "Industry Guides",
+      "Financial Services",
+      "ChatGPT"
+    ]
+  },
+  {
+    "id": 187,
+    "title": "Do Mortgage Brokers Show Up on ChatGPT",
+    "slug": "do-mortgage-brokers-show-up-on-chatgpt",
+    "excerpt": "Most mortgage brokers are invisible on ChatGPT and Perplexity. Learn why AI skips brokers in favor of banks, and 4 tactical moves to change that.",
+    "category": "Industry Guides",
+    "author": "The Answer Engine Team",
+    "readTime": "10 min",
+    "image": "/blog/do-mortgage-brokers-show-up-on-chatgpt.svg",
+    "publishDate": "2026-04-18",
+    "lastModified": "2026-04-18",
+    "featured": true,
+    "tags": [
+      "Mortgage Brokers",
+      "AI Search",
+      "Industry Guides",
+      "Financial Services",
+      "ChatGPT"
+    ]
+  },
+  {
     "id": 188,
-    "title": "How ChatGPT Web Search Changes Business Recommendations",
-    "slug": "how-chatgpt-web-search-changes-business-recommendations",
-    "excerpt": "ChatGPT web search mode reads your live website before recommending businesses. Most local businesses remain invisible despite good Google rankings. Here's what ChatGPT actually checks—and how to show up.",
-    "category": "Platform Deep Dives",
-    "author": "The Answer Engine Team",
-    "readTime": "9 min",
-    "image": "/blog/how-chatgpt-web-search-changes-business-recommendations.webp",
-    "publishDate": "2026-04-18",
-    "lastModified": "2026-04-18",
-    "featured": true,
-    "tags": [
-      "ChatGPT Web Search",
-      "Platform Deep Dives",
-      "AI Search",
-      "Bing",
-      "Business Recommendations",
-      "Local Business Visibility"
-    ]
-  },
-  {
-    "id": 189,
-    "title": "How Property Managers Get Found on AI Search",
-    "slug": "how-property-managers-get-found-on-ai-search",
-    "excerpt": "Property management is a high-intent category on AI platforms, but most property managers are invisible to ChatGPT, Perplexity, and Google AI. Here is exactly what these platforms look for when recommending a property manager.",
+    "title": "How Do I Get My Moving Company Found on AI Search",
+    "slug": "how-do-i-get-my-moving-company-found-on-ai-search",
+    "excerpt": "Moving companies are nearly invisible on AI search. Learn the exact signals ChatGPT and Perplexity use to recommend movers and how to show up.",
     "category": "Industry Guides",
     "author": "The Answer Engine Team",
-    "readTime": "9 min",
-    "image": "/blog/how-property-managers-get-found-on-ai-search.webp",
-    "publishDate": "2026-04-18",
-    "lastModified": "2026-04-18",
-    "featured": true,
-    "tags": [
-      "Property Management",
-      "Industry Guides",
-      "AI Search",
-      "ChatGPT",
-      "Local Business Visibility"
-    ]
-  },
-  {
-    "id": 190,
-    "title": "How Interior Designers Get Found on AI Search",
-    "slug": "how-interior-designers-get-found-on-ai-search",
-    "excerpt": "Interior design is a relationship-driven, high-consideration service, and AI platforms are becoming the starting point for finding designers. Here is what ChatGPT, Perplexity, and Google AI look for when recommending an interior designer.",
-    "category": "Industry Guides",
-    "author": "The Answer Engine Team",
-    "readTime": "9 min",
-    "image": "/blog/how-interior-designers-get-found-on-ai-search.webp",
-    "publishDate": "2026-04-18",
-    "lastModified": "2026-04-18",
-    "featured": true,
-    "tags": [
-      "Interior Design",
-      "Industry Guides",
-      "AI Search",
-      "ChatGPT",
-      "Local Business Visibility"
-    ]
-  },
-  {
-    "id": 191,
-    "title": "How Long Does AEO Take to Work? A Realistic Timeline",
-    "slug": "how-long-does-aeo-take-to-work",
-    "excerpt": "Answer Engine Optimization is not an overnight fix. Here is an honest breakdown of what to expect in weeks 1 through 16, what drives faster results, and when most businesses see their first AI citation.",
-    "category": "AEO Education",
-    "author": "The Answer Engine Team",
     "readTime": "10 min",
-    "image": "/blog/how-long-does-aeo-take-to-work.webp",
+    "image": "/blog/how-do-i-get-my-moving-company-found-on-ai-search.svg",
     "publishDate": "2026-04-18",
     "lastModified": "2026-04-18",
     "featured": true,
     "tags": [
-      "AEO Timeline",
-      "AEO Education",
+      "Moving Companies",
       "AI Search",
-      "Answer Engine Optimization",
-      "Results"
-    ]
-  },
-  {
-    "id": 192,
-    "title": "How B2B Companies Get Found on AI Search",
-    "slug": "how-b2b-companies-get-found-on-ai-search",
-    "excerpt": "B2B buyers are now using ChatGPT and Perplexity to research vendors before ever visiting a website. Here is how B2B companies build AI visibility that turns into pipeline.",
-    "category": "Business Types",
-    "author": "The Answer Engine Team",
-    "readTime": "10 min",
-    "image": "/blog/how-b2b-companies-get-found-on-ai-search.webp",
-    "publishDate": "2026-04-18",
-    "lastModified": "2026-04-18",
-    "featured": true,
-    "tags": [
-      "B2B",
-      "Business Types",
-      "AI Search",
-      "ChatGPT",
-      "Perplexity",
-      "Pipeline"
+      "Industry Guides",
+      "Local Business",
+      "ChatGPT"
     ]
   }
 ]
