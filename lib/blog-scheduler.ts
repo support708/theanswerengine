@@ -21,6 +21,7 @@ import {
 } from './blog-data';
 import { publishToGitHub, getFileContent } from './github-publish';
 import { notifyBlogPublished } from './telegram';
+import { autoSubmitTae } from './sitemap-auto-submit';
 import type { BlogSession, BlogPostMeta, StagedArticle } from './blog-types';
 
 const IS_VERCEL = !!process.env.VERCEL;
@@ -285,6 +286,19 @@ export async function publishStagedArticles(): Promise<{ count: number; commitSh
     const { notifyBlogBatchPublished } = await import('./telegram');
     await notifyBlogBatchPublished(staged.length, commitSha);
   } catch { /* non-critical */ }
+
+  // Auto-submit TAE sitemap to GSC so Google re-crawls the new articles.
+  // Fire-and-forget: never blocks/fails the publish path.
+  try {
+    const result = await autoSubmitTae();
+    if (result.submitted) {
+      console.log(`Sitemap auto-submitted: ${result.feedpath}`);
+    } else {
+      console.log(`Sitemap auto-submit skipped: ${result.reason}`);
+    }
+  } catch (err) {
+    console.log(`Sitemap auto-submit error (non-blocking): ${(err as Error).message}`);
+  }
 
   return { count: staged.length, commitSha };
 }
