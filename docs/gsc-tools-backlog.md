@@ -51,12 +51,24 @@ Prioritized build list for turning Google Search Console data into $1k/mo-worthy
 - ✅ **Monthly AEO Intelligence Report** (`lib/gsc-monthly-report.ts` + `scripts/test-monthly-report.js`)
   - Impressions/clicks/CTR/position with MoM deltas, top 10 queries, top 5 pages, page-2 opportunity queue
   - Preview draft tested for all 7 clients 2026-04-18
-  - TODO: wire cron at `/api/cron/monthly-report` for 1st-of-month sends
+
+- ✅ **Monthly AEO Report cron** (`app/api/cron/monthly-report/route.ts`) — shipped 2026-04-19
+  - Fires 1st of month at 7am PT (15:00 UTC `0 15 1 * *`), builds reports for prior completed month
+  - Draft-only: creates Gmail draft per client addressed to Justin; no auto-send
+  - Telegram summary per run. Query overrides: `?month=YYYY-MM`, `?slug=<slug>`
 
 - ✅ **Auto-submit sitemaps** (`scripts/submit-sitemaps.js` + `lib/gsc-api.ts::submitSitemap`)
   - All 7 client sitemaps submitted to GSC 2026-04-18
   - ClearClose `app/sitemap.ts` added to fill missing sitemap
   - TODO: wire into blog-publish flow so each new post triggers a submit
+
+- ✅ **Top-Performer Conversion Audit** (`lib/gsc-top-performer-audit.ts` + `scripts/audit-top-performers.ts`) — shipped 2026-04-19
+  - Pulls top 10 pages by clicks (last 28d) per client, fetches each page, parses H1/meta/primary CTA
+  - Claude Haiku 4.5 scores alignment vs client's stated goal + produces rewrite brief (new H1, new CTA, supporting element)
+  - Two drafts per client: Justin-facing (raw truth) + client-facing curated preview gated by `checkBrandSafety()`
+  - LAMH Safety Protocol: surface-only, no LLM briefs, never client-facing
+  - Verified live on Lovery (2 weak / 7 partial / 1 404) — consistent finding: Subscribe overrides Valuation CTA site-wide
+  - Usage: `npx tsx scripts/audit-top-performers.ts [slug|all]`
 
 ## Planned (priority order)
 
