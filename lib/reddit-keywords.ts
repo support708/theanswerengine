@@ -221,7 +221,7 @@ function deriveSubreddits(profile: ClientProfile): string[] {
   // City subreddits (primary + top 2 service cities)
   const cities = [
     profile.service_area.primary_city,
-    ...profile.service_area.cities.slice(0, 2),
+    ...(profile.service_area.cities || []).slice(0, 2),
   ];
 
   for (const city of cities) {
@@ -243,11 +243,17 @@ function deriveSubreddits(profile: ClientProfile): string[] {
  * Check if a profile has enough data for Reddit monitoring.
  */
 function isProfileComplete(profile: ClientProfile): boolean {
+  const hasServiceObjects =
+    Array.isArray(profile.services) &&
+    profile.services.length > 0 &&
+    typeof profile.services[0] === 'object' &&
+    profile.services[0] !== null;
+
   return !!(
     profile._meta?.client_slug &&
     profile.business?.industry &&
     profile.service_area?.primary_city &&
-    Array.isArray(profile.services) && profile.services.length > 0
+    hasServiceObjects
   );
 }
 
@@ -289,6 +295,13 @@ export function deriveClientRedditConfig(profile: ClientProfile): ClientRedditCo
 export async function getAllClientConfigs(): Promise<ClientRedditConfig[]> {
   const profiles = await loadAllClientProfiles();
   return profiles
-    .map(deriveClientRedditConfig)
+    .map(profile => {
+      try {
+        return deriveClientRedditConfig(profile);
+      } catch (error) {
+        console.error(`Failed to derive Reddit config for ${profile._meta?.client_slug || 'unknown'}:`, error);
+        return null;
+      }
+    })
     .filter((config): config is ClientRedditConfig => config !== null);
 }

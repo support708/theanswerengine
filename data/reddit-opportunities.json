@@ -1592,6 +1592,60 @@
       "digestSentAt": "2026-04-18T23:07:16.616Z",
       "telegramSentAt": "2026-04-17T03:50:46.806Z",
       "status": "digest_sent"
+    },
+    {
+      "id": "reddit_1776626243941_zynos2",
+      "postId": "1spvb7j",
+      "clientSlug": "lovery-re",
+      "businessName": "Lovery Real Estate",
+      "subreddit": "RealEstate",
+      "title": "Broker's Compensation",
+      "selftext": "I am going to sell my house and the real estate agent I was planning on using sent over her contract today. The broker's compensation is listed at 6% of the sales price and the authority to cooperate and compensate other brokers 2.5% of the sales price. Does this mean I'm paying 8.5% in commission to both agents? Or does it mean I'm paying 3.5% to the selling agent and 2.5% to the buyers agent? What is the standard? Should I not be offering any payment to the buying agent and let them negotiate ",
+      "author": "makeamericask8again",
+      "postUrl": "https://reddit.com/r/RealEstate/comments/1spvb7j/brokers_compensation/",
+      "postCreatedUtc": 1776610847,
+      "score": {
+        "buyingIntent": 8,
+        "relevance": 7,
+        "recency": 10,
+        "responseOpportunity": 9,
+        "composite": 8.2,
+        "businessImpact": "high",
+        "impactReasoning": "First-time seller actively preparing for agent conversation TODAY. High intent signal (speaking with agent later). Core question about commission structure directly relates to listing services. Poster is educating themselves before negotiating, which is ideal for building trust with helpful, transparent guidance. Location not specified but question is universally relevant to real estate.",
+        "suggestedAngle": "Demystify commission math in friendly terms, validate their preparation instinct, normalize the 6% total split, position transparency as non-negotiable standard for good agents.",
+        "draftResponse": "Good instinct prepping for that conversation. Let me clear this up because it's confusing at first.\n\nThat 6% total is split between the two brokers. So it's typically 3% to your agent's broker and 3% to the buyer's agent's broker. The 2.5% line is what she's offering to cooperate with buyer's agents, which is actually below standard in most markets. Standard is usually 2.5-3% going to the buyer's side.\n\nSo you're not paying 8.5%. You're committing to around 6% total, divided between both brokers. Your listing agent's split with their broker is negotiable (might be 50/50, might be different), but that's between them and their brokerage.\n\nHere's the real talk: in competitive markets like San Diego, 6% total is pretty standard, but the buyer's agent compensation is where you have some leverage. 2.5% is on the lower end. Going to 2.75% or 3% can make your listing more attractive to buyer's agents, which means more showings and potentially faster sales.\n\nQuestions to ask her today:\n1. Is that 6% negotiable?\n2. Why 2.5% to buyers' agents specifically?\n3. What's she doing to market the property to justify the listing side?\n\nA good agent should be transparent about this and willing to discuss. If she gets defensive about commission structure, that's a yellow flag. You want someone who sees their value in service, not just percentage points.\n\nGood luck with the call."
+      },
+      "discoveredAt": "2026-04-19T19:17:23.941Z",
+      "digestSentAt": null,
+      "telegramSentAt": "2026-04-19T19:17:24.761Z",
+      "status": "pending"
+    },
+    {
+      "id": "reddit_1776684874679_blusgu",
+      "postId": "1sqjtjm",
+      "clientSlug": "rpm-southland",
+      "businessName": "RPM Southland",
+      "subreddit": "PropertyManagement",
+      "title": "How do property managers handle tenant calls after hours?",
+      "selftext": "I'm managing a portfolio and the phone situation is unsustainable. Calls come to my personal cell, maintenance emergencies, noise complaints, lease questions, everything, at all hours. I want to be reachable for genuine emergencies but I also want a weekend occasionally. The ideal would be something where non-urgent calls get handled or routed to an after hours message and only actual emergencies get through. But I can't figure out how to make that distinction automatically without either missin",
+      "author": "ForsakenEarth241",
+      "postUrl": "https://reddit.com/r/PropertyManagement/comments/1sqjtjm/how_do_property_managers_handle_tenant_calls/",
+      "postCreatedUtc": 1776675463,
+      "score": {
+        "buyingIntent": 6,
+        "relevance": 5,
+        "recency": 8,
+        "responseOpportunity": 9,
+        "composite": 6.3,
+        "businessImpact": "medium",
+        "impactReasoning": "Post shows operational pain point (after-hours call management) that property managers face. Author is already managing portfolio, so they're either solo or small team. High response opportunity to demonstrate expertise, but relevance is moderate because post doesn't specify location and commenter won't naturally lead to Long Beach mention without forcing it. Recency is high (immediate operational problem). Buying intent is moderate—they're looking for a system/solution, not necessarily outsourcing yet, but burnout signals could escalate to delegation.",
+        "suggestedAngle": "Acknowledge the exact problem, share the framework successful managers use (intake categorization + tiered response), mention how this scales, let them realize outsourcing becomes obvious when system gets complex.",
+        "draftResponse": "You've hit the wall that makes property managers want to pull their hair out. The honest answer: you can't automate the distinction perfectly because it depends on context only a person knows. A noise complaint might be genuinely urgent (ongoing property damage) or genuinely not (neighbor being petty at 11 PM).\n\nHere's what works: Set up a phone tree. Main line goes to a service or to your team member on-call. The greeting gives tenants two paths: press 1 for maintenance emergency (burst pipe, no heat, fire risk), press 2 for everything else. Emergencies ring through. Non-emergencies go to voicemail with a callback promise within 24 hours. Tenants self-select mostly correctly when you're specific about what qualifies as emergency.\n\nSecond layer: A maintenance vendor with their own on-call rotation for true emergencies. You still get the call, but they're already mobilizing.\n\nThe real issue most managers face is that this system only works if you actually follow it and don't second-guess yourself at midnight. You have to trust the system or tenants learn they can bypass it by calling back.\n\nWhen your portfolio hits a certain size, most guys in Long Beach realize this is the moment to either hire an operations person or hand the whole thing off. The burnout cost is real. But if you're just starting to systematize, that phone tree framework cuts your nights from eight calls to maybe one actual emergency."
+      },
+      "discoveredAt": "2026-04-20T11:34:34.679Z",
+      "digestSentAt": null,
+      "telegramSentAt": "2026-04-20T11:34:35.470Z",
+      "status": "pending"
     }
   ]
 }

@@ -19,6 +19,16 @@
   },
   "service_area": {
     "primary_city": "Los Angeles",
+    "cities": [
+      "Los Angeles",
+      "Orange County",
+      "San Diego",
+      "Riverside County",
+      "San Bernardino County",
+      "Ventura County",
+      "Santa Clarita",
+      "Long Beach"
+    ],
     "states_served": [
       "CA"
     ]

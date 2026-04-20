@@ -19,6 +19,17 @@
   },
   "service_area": {
     "primary_city": "Los Angeles",
+    "cities": [
+      "Los Angeles",
+      "Pasadena",
+      "Altadena",
+      "Glendale",
+      "Burbank",
+      "Santa Monica",
+      "West Hollywood",
+      "Beverly Hills",
+      "Culver City"
+    ],
     "states_served": [
       "CA"
     ]
