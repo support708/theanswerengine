@@ -210,6 +210,12 @@
       "email": "roofinfo@biltwell.com",
       "type": "follow_up_2",
       "sentAt": "2026-04-20T16:00:28.256Z"
+    },
+    {
+      "leadId": "lead_1775681943860_l6kcrj",
+      "email": "reservations@milkandhoney.com",
+      "type": "initial",
+      "sentAt": "2026-04-20T18:00:17.723Z"
     }
   ]
 }
