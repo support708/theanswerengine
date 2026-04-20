@@ -1,0 +1,804 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Blind Spot Report | Beverly Hills Med Spa</title>
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    background: #f8f8f6;
+    color: #1a1a1a;
+    line-height: 1.6;
+    overflow-x: hidden;
+  }
+
+  /* ── HERO ── */
+  .hero {
+    background: linear-gradient(135deg, #0a0a0a 0%, #1a1a2e 100%);
+    color: #fff;
+    padding: 80px 24px 70px;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .hero::before {
+    content: '';
+    position: absolute;
+    top: -40%;
+    left: -20%;
+    width: 140%;
+    height: 180%;
+    background: radial-gradient(ellipse at center, rgba(255,106,0,0.12) 0%, transparent 65%);
+    pointer-events: none;
+  }
+
+  .hero-badge {
+    display: inline-block;
+    background: rgba(255,106,0,0.18);
+    border: 1px solid rgba(255,106,0,0.45);
+    color: #FF6A00;
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 2.5px;
+    text-transform: uppercase;
+    padding: 6px 18px;
+    border-radius: 100px;
+    margin-bottom: 28px;
+  }
+
+  .hero h1 {
+    font-size: clamp(28px, 5vw, 52px);
+    font-weight: 800;
+    line-height: 1.15;
+    letter-spacing: -0.5px;
+    max-width: 780px;
+    margin: 0 auto 20px;
+  }
+
+  .hero h1 span {
+    color: #FF6A00;
+  }
+
+  .hero-sub {
+    font-size: clamp(15px, 2.2vw, 18px);
+    color: rgba(255,255,255,0.65);
+    max-width: 580px;
+    margin: 0 auto 38px;
+  }
+
+  .hero-meta {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    background: rgba(255,255,255,0.06);
+    border: 1px solid rgba(255,255,255,0.12);
+    border-radius: 100px;
+    padding: 8px 20px;
+    font-size: 13px;
+    color: rgba(255,255,255,0.55);
+  }
+
+  .hero-meta strong { color: #fff; }
+
+  /* ── SECTIONS ── */
+  .section {
+    padding: 72px 24px;
+  }
+
+  .section-inner {
+    max-width: 1060px;
+    margin: 0 auto;
+  }
+
+  .section-label {
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 2.8px;
+    text-transform: uppercase;
+    color: #FF6A00;
+    margin-bottom: 12px;
+  }
+
+  .section-title {
+    font-size: clamp(22px, 3.5vw, 36px);
+    font-weight: 800;
+    line-height: 1.2;
+    color: #0a0a0a;
+    margin-bottom: 14px;
+  }
+
+  .section-desc {
+    font-size: 16px;
+    color: #555;
+    max-width: 640px;
+    margin-bottom: 48px;
+  }
+
+  /* ── GAP STATS ── */
+  .gap-section {
+    background: #fff;
+    border-top: 4px solid #FF6A00;
+  }
+
+  .stats-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 2px;
+    background: #e8e8e4;
+    border-radius: 16px;
+    overflow: hidden;
+    margin-bottom: 36px;
+  }
+
+  .stat-card {
+    background: #fff;
+    padding: 36px 28px;
+    text-align: center;
+  }
+
+  .stat-number {
+    font-size: clamp(36px, 5vw, 52px);
+    font-weight: 900;
+    color: #0a0a0a;
+    line-height: 1;
+    margin-bottom: 6px;
+  }
+
+  .stat-number.orange { color: #FF6A00; }
+
+  .stat-label {
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 1.8px;
+    text-transform: uppercase;
+    color: #888;
+  }
+
+  .stat-sublabel {
+    font-size: 13px;
+    color: #aaa;
+    margin-top: 4px;
+  }
+
+  .aero-bar-wrap {
+    background: #f8f8f6;
+    border-radius: 16px;
+    padding: 32px 36px;
+    border: 1px solid #e8e8e4;
+  }
+
+  .aero-bar-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 14px;
+    flex-wrap: wrap;
+    gap: 8px;
+  }
+
+  .aero-bar-title {
+    font-size: 14px;
+    font-weight: 700;
+    color: #0a0a0a;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+  }
+
+  .aero-score-label {
+    font-size: 24px;
+    font-weight: 900;
+    color: #FF6A00;
+  }
+
+  .aero-score-label span {
+    font-size: 15px;
+    color: #aaa;
+    font-weight: 500;
+  }
+
+  .aero-bar-bg {
+    background: #e8e8e4;
+    border-radius: 100px;
+    height: 14px;
+    overflow: hidden;
+    margin-bottom: 10px;
+  }
+
+  .aero-bar-fill {
+    height: 100%;
+    width: 55%;
+    background: linear-gradient(90deg, #FF6A00, #ff9a4d);
+    border-radius: 100px;
+    transition: width 1s ease;
+  }
+
+  .aero-bar-note {
+    font-size: 13px;
+    color: #888;
+  }
+
+  .aero-bar-note strong { color: #FF6A00; }
+
+  /* ── TERMINAL ── */
+  .terminal-section {
+    background: #0a0a0a;
+    color: #fff;
+  }
+
+  .terminal-section .section-title { color: #fff; }
+  .terminal-section .section-desc { color: rgba(255,255,255,0.5); }
+
+  .terminal-window {
+    background: #111;
+    border: 1px solid #2a2a2a;
+    border-radius: 14px;
+    overflow: hidden;
+    max-width: 780px;
+    box-shadow: 0 32px 80px rgba(0,0,0,0.6);
+  }
+
+  .terminal-bar {
+    background: #1e1e1e;
+    padding: 14px 20px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    border-bottom: 1px solid #2a2a2a;
+  }
+
+  .t-dot {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+  }
+
+  .t-dot.red { background: #ff5f57; }
+  .t-dot.yellow { background: #febc2e; }
+  .t-dot.green { background: #28c840; }
+
+  .terminal-label {
+    margin-left: 8px;
+    font-size: 12px;
+    color: #555;
+    letter-spacing: 1px;
+  }
+
+  .terminal-body {
+    padding: 28px 28px 32px;
+    font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, monospace;
+    font-size: 13.5px;
+    line-height: 1.8;
+  }
+
+  .t-prompt {
+    color: #FF6A00;
+    margin-bottom: 16px;
+  }
+
+  .t-prompt span { color: rgba(255,255,255,0.9); }
+
+  .t-response {
+    color: rgba(255,255,255,0.7);
+    margin-bottom: 12px;
+  }
+
+  .t-highlight {
+    background: rgba(255,106,0,0.15);
+    border-left: 3px solid #FF6A00;
+    padding: 12px 16px;
+    border-radius: 0 8px 8px 0;
+    color: rgba(255,255,255,0.85);
+    margin: 16px 0;
+  }
+
+  .t-highlight .t-brand {
+    color: #FF6A00;
+    font-weight: 700;
+  }
+
+  .t-missing {
+    background: rgba(255,59,48,0.1);
+    border-left: 3px solid #ff3b30;
+    padding: 12px 16px;
+    border-radius: 0 8px 8px 0;
+    color: rgba(255,255,255,0.65);
+    margin: 16px 0;
+    font-size: 13px;
+  }
+
+  .t-cursor {
+    display: inline-block;
+    width: 8px;
+    height: 14px;
+    background: #FF6A00;
+    border-radius: 1px;
+    animation: blink 1.1s step-end infinite;
+    vertical-align: middle;
+    margin-left: 2px;
+  }
+
+  @keyframes blink { 0%, 100% { opacity: 1; } 50% { opacity: 0; } }
+
+  /* ── DIFFERENTIATORS ── */
+  .diff-section { background: #f8f8f6; }
+
+  .diff-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 20px;
+  }
+
+  .diff-card {
+    background: #fff;
+    border-radius: 16px;
+    padding: 32px 28px;
+    border: 1px solid #e8e8e4;
+    position: relative;
+    overflow: hidden;
+    transition: box-shadow 0.25s ease, transform 0.25s ease;
+  }
+
+  .diff-card:hover {
+    box-shadow: 0 12px 40px rgba(0,0,0,0.1);
+    transform: translateY(-3px);
+  }
+
+  .diff-card::before {
+    content: '';
+    position: absolute;
+    top: 0; left: 0; right: 0;
+    height: 3px;
+    background: linear-gradient(90deg, #FF6A00, #ff9a4d);
+  }
+
+  .diff-icon {
+    width: 48px;
+    height: 48px;
+    background: rgba(255,106,0,0.1);
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 22px;
+    margin-bottom: 20px;
+  }
+
+  .diff-card h3 {
+    font-size: 17px;
+    font-weight: 700;
+    color: #0a0a0a;
+    margin-bottom: 10px;
+    line-height: 1.3;
+  }
+
+  .diff-card p {
+    font-size: 14px;
+    color: #666;
+    line-height: 1.65;
+  }
+
+  .diff-tag {
+    display: inline-block;
+    margin-top: 14px;
+    background: rgba(255,106,0,0.1);
+    color: #FF6A00;
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    padding: 4px 12px;
+    border-radius: 100px;
+  }
+
+  /* ── THE FIX ── */
+  .fix-section { background: #fff; }
+
+  .fix-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 20px;
+  }
+
+  .fix-card {
+    background: #f8f8f6;
+    border-radius: 16px;
+    padding: 30px 24px;
+    border: 1px solid #e8e8e4;
+    text-align: center;
+  }
+
+  .fix-number {
+    width: 44px;
+    height: 44px;
+    background: #0a0a0a;
+    color: #FF6A00;
+    font-size: 20px;
+    font-weight: 900;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 18px;
+  }
+
+  .fix-card h3 {
+    font-size: 15px;
+    font-weight: 800;
+    color: #0a0a0a;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+  }
+
+  .fix-card p {
+    font-size: 13.5px;
+    color: #666;
+    line-height: 1.6;
+  }
+
+  /* ── CTA ── */
+  .cta-section {
+    background: linear-gradient(135deg, #0a0a0a 0%, #1a1a2e 100%);
+    color: #fff;
+    text-align: center;
+    padding: 90px 24px;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .cta-section::before {
+    content: '';
+    position: absolute;
+    top: -50%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 700px;
+    height: 700px;
+    background: radial-gradient(circle, rgba(255,106,0,0.14) 0%, transparent 65%);
+    pointer-events: none;
+  }
+
+  .cta-section .section-label { text-align: center; }
+
+  .cta-title {
+    font-size: clamp(26px, 4.5vw, 46px);
+    font-weight: 800;
+    line-height: 1.18;
+    max-width: 680px;
+    margin: 0 auto 20px;
+  }
+
+  .cta-title span { color: #FF6A00; }
+
+  .cta-desc {
+    font-size: 16px;
+    color: rgba(255,255,255,0.55);
+    max-width: 500px;
+    margin: 0 auto 40px;
+  }
+
+  .cta-btn {
+    display: inline-block;
+    background: #FF6A00;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 18px 44px;
+    border-radius: 100px;
+    box-shadow: 0 8px 32px rgba(255,106,0,0.4);
+    transition: transform 0.2s ease, box-shadow 0.2s ease, background 0.2s ease;
+  }
+
+  .cta-btn:hover {
+    background: #e85f00;
+    transform: translateY(-2px);
+    box-shadow: 0 14px 40px rgba(255,106,0,0.5);
+  }
+
+  .cta-micro {
+    margin-top: 22px;
+    font-size: 13px;
+    color: rgba(255,255,255,0.3);
+  }
+
+  /* ── FOOTER ── */
+  footer {
+    background: #0a0a0a;
+    border-top: 1px solid #1e1e1e;
+    padding: 28px 24px;
+    text-align: center;
+  }
+
+  footer p {
+    font-size: 12.5px;
+    color: rgba(255,255,255,0.3);
+    max-width: 600px;
+    margin: 0 auto;
+    line-height: 1.7;
+  }
+
+  footer a {
+    color: rgba(255,255,255,0.45);
+    text-decoration: none;
+  }
+
+  footer a:hover { color: #FF6A00; }
+
+  /* ── RESPONSIVE ── */
+  @media (max-width: 600px) {
+    .hero { padding: 60px 20px 56px; }
+    .section { padding: 56px 20px; }
+    .stats-grid { grid-template-columns: 1fr 1fr; }
+    .terminal-body { padding: 20px 18px 24px; font-size: 12px; }
+    .aero-bar-wrap { padding: 24px 22px; }
+    .diff-grid, .fix-grid { grid-template-columns: 1fr; }
+    .cta-section { padding: 70px 20px; }
+  }
+
+  @media (max-width: 400px) {
+    .stats-grid { grid-template-columns: 1fr; }
+  }
+</style>
+</head>
+<body>
+
+<!-- ═══════════════════════════════════════
+     SECTION 1, THE HOOK
+═══════════════════════════════════════ -->
+<section class="hero">
+  <div class="hero-badge">Blind Spot Report</div>
+  <h1>Dr., You Have a<br><span>Visibility Problem</span></h1>
+  <p class="hero-sub">Beverly Hills Med Spa has real credentials, real results, and a genuinely unique story. But when patients ask AI where to go in Los Angeles, your practice is invisible.</p>
+  <div class="hero-meta">
+    <strong>Beverly Hills Med Spa</strong> &nbsp;|&nbsp; Los Angeles, CA &nbsp;|&nbsp; <strong style="color:#FF6A00;">AERO-10: 55/100</strong>
+  </div>
+</section>
+
+
+<!-- ═══════════════════════════════════════
+     SECTION 2, THE GAP
+═══════════════════════════════════════ -->
+<section class="section gap-section">
+  <div class="section-inner">
+    <div class="section-label">The Gap</div>
+    <h2 class="section-title">Your Credentials Are Stronger Than Your Discoverability</h2>
+    <p class="section-desc">Here is what the data shows: Beverly Hills Med Spa is a decorated, experienced practice. But your online authority footprint is not matching your clinical reputation, and AI engines are noticing the gap.</p>
+
+    <div class="stats-grid">
+      <div class="stat-card">
+        <div class="stat-number">23</div>
+        <div class="stat-label">Google Reviews</div>
+        <div class="stat-sublabel">Well below category leaders</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-number">4.7</div>
+        <div class="stat-label">Star Rating</div>
+        <div class="stat-sublabel">Strong quality signal</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-number">9</div>
+        <div class="stat-label">Years in Business</div>
+        <div class="stat-sublabel">Est. 2017 in Beverly Hills</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-number orange">55</div>
+        <div class="stat-label">AERO-10 Score</div>
+        <div class="stat-sublabel">Out of 100 possible</div>
+      </div>
+    </div>
+
+    <div class="aero-bar-wrap">
+      <div class="aero-bar-header">
+        <div class="aero-bar-title">AERO-10 Answer Engine Readiness</div>
+        <div class="aero-score-label">55 <span>/ 100</span></div>
+      </div>
+      <div class="aero-bar-bg">
+        <div class="aero-bar-fill"></div>
+      </div>
+      <p class="aero-bar-note">Your score means AI tools like ChatGPT, Perplexity, and Google AI Overviews are <strong>unlikely to cite you</strong> when prospective patients search for med spa services in Los Angeles. Competitors with lower clinical pedigree but stronger structured authority are winning those recommendations.</p>
+    </div>
+  </div>
+</section>
+
+
+<!-- ═══════════════════════════════════════
+     SECTION 3, WHAT AI SEES
+═══════════════════════════════════════ -->
+<section class="section terminal-section">
+  <div class="section-inner">
+    <div class="section-label">What AI Sees</div>
+    <h2 class="section-title" style="color:#fff;">When Patients Ask, AI Points Elsewhere</h2>
+    <p class="section-desc">This is what happens right now when someone in Los Angeles asks an AI assistant to recommend a med spa.</p>
+
+    <div class="terminal-window">
+      <div class="terminal-bar">
+        <div class="t-dot red"></div>
+        <div class="t-dot yellow"></div>
+        <div class="t-dot green"></div>
+        <span class="terminal-label">AI QUERY SIMULATION</span>
+      </div>
+      <div class="terminal-body">
+        <div class="t-prompt">&gt; User: <span>"What is the best medical spa in Los Angeles or Beverly Hills for body contouring and skin rejuvenation?"</span></div>
+
+        <div class="t-response">AI is generating a response...</div>
+
+        <div class="t-highlight">
+          <span class="t-brand">AI Recommends:</span> "For body contouring and premium aesthetics in the Beverly Hills and Los Angeles area, a top-cited option is <span class="t-brand">NassifMD Medical Spa</span>, associated with Dr. Paul Nassif of the television series 'Botched.' The practice maintains robust online authority, structured citations across health directories, and strong AI-indexed entity signals..."
+        </div>
+
+        <div class="t-missing">
+          &#x26A0; Beverly Hills Med Spa: <strong style="color:#ff6b6b;">Not cited in AI response.</strong> Despite Dr. Kahen's award-winning credentials, patent-pending SmartPRP® technology, and a spa director with direct 'Botched' experience, the practice does not appear in AI-generated recommendations for this query. Insufficient structured entity data and limited authority citations prevent AI indexing.
+        </div>
+
+        <div class="t-response" style="color:rgba(255,255,255,0.4);">Session complete. <span class="t-cursor"></span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- ═══════════════════════════════════════
+     SECTION 4, HIDDEN DIFFERENTIATORS
+═══════════════════════════════════════ -->
+<section class="section diff-section">
+  <div class="section-inner">
+    <div class="section-label">Hidden Differentiators</div>
+    <h2 class="section-title">What Makes Beverly Hills Med Spa Genuinely Unique</h2>
+    <p class="section-desc">These are the real competitive advantages AI cannot see yet because they are not properly structured and distributed across the web.</p>
+
+    <div class="diff-grid">
+
+      <div class="diff-card">
+        <div class="diff-icon">&#x1F9EC;</div>
+        <h3>Patent-Pending SmartPRP® Technology</h3>
+        <p>Beverly Hills Med Spa is one of the only practices offering SmartPRP®, a proprietary patent-pending protocol for hair restoration and skin rejuvenation. This is a clinical differentiator that no competitor can replicate by name.</p>
+        <span class="diff-tag">Proprietary Tech</span>
+      </div>
+
+      <div class="diff-card">
+        <div class="diff-icon">&#x1F3C6;</div>
+        <h3>Aesthetic Award-Winning Surgeon at the Helm</h3>
+        <p>Founder Dr. John Kahen, MD, holds an Aesthetic Award-winning designation and is internationally recognized as a hair restoration pioneer with 357K Instagram followers. His credentialed expertise anchors the clinical authority of the practice.</p>
+        <span class="diff-tag">Founder Credibility</span>
+      </div>
+
+      <div class="diff-card">
+        <div class="diff-icon">&#x1F4FA;</div>
+        <h3>Direct "Botched" Connection on Staff</h3>
+        <p>Spa director Janet Seelig brings 20-plus years of med spa experience and previously assisted on the reality TV series "Botched" alongside Dr. Terry Dubrow and Dr. Paul Nassif, exactly the same surgeons associated with the top AI-cited competitor.</p>
+        <span class="diff-tag">Celebrity Credibility</span>
+      </div>
+
+      <div class="diff-card">
+        <div class="diff-icon">&#x2744;&#xFE0F;</div>
+        <h3>Recognized Leading CoolSculpting LA Center</h3>
+        <p>Beverly Hills Med Spa carries a formal designation as a leading CoolSculpting center in Los Angeles, signaling validated expertise in one of the most searched non-surgical body contouring treatments in the market.</p>
+        <span class="diff-tag">Official Designation</span>
+      </div>
+
+      <div class="diff-card">
+        <div class="diff-icon">&#x1FA79;</div>
+        <h3>Hybrid Practice: Hair Restoration Meets Med Spa</h3>
+        <p>The practice uniquely blends surgical-grade hair restoration (including Smart FUE with follicle vitality enhancement) with full-spectrum med spa aesthetics, offering a comprehensive treatment ecosystem rarely found under one roof in Los Angeles.</p>
+        <span class="diff-tag">Unique Positioning</span>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+<!-- ═══════════════════════════════════════
+     SECTION 5, THE FIX
+═══════════════════════════════════════ -->
+<section class="section fix-section">
+  <div class="section-inner">
+    <div class="section-label">The Fix</div>
+    <h2 class="section-title">Four Things That Move the Needle on AI Visibility</h2>
+    <p class="section-desc">Answer Engine Optimization is a systematic process. These four pillars, applied to Beverly Hills Med Spa, close the gap between your real-world reputation and your AI-world presence.</p>
+
+    <div class="fix-grid">
+
+      <div class="fix-card">
+        <div class="fix-number">1</div>
+        <h3>Answer-First Content</h3>
+        <p>Restructure your website content to directly answer the specific questions patients type into AI assistants, such as "best CoolSculpting in LA" or "SmartPRP for hair loss Beverly Hills." AI rewards concise, authoritative answers above all else.</p>
+      </div>
+
+      <div class="fix-card">
+        <div class="fix-number">2</div>
+        <h3>Schema Markup</h3>
+        <p>Deploy structured data markup across your site so AI crawlers can correctly identify Beverly Hills Med Spa as a named medical entity with defined services, credentials, awards, and geographic relevance to Los Angeles.</p>
+      </div>
+
+      <div class="fix-card">
+        <div class="fix-number">3</div>
+        <h3>Entity Authority</h3>
+        <p>Build a consistent, distributed entity profile for Beverly Hills Med Spa and Dr. John Kahen across health directories, citation sources, press mentions, and third-party platforms so AI systems recognize you as an established, trustworthy provider.</p>
+      </div>
+
+      <div class="fix-card">
+        <div class="fix-number">4</div>
+        <h3>Authority Signals</h3>
+        <p>Leverage Dr. Kahen's existing Instagram reach, the SmartPRP® patent application, published articles, and the "Botched" connection to generate structured backlinks and E-E-A-T signals that AI engines use to decide who to cite.</p>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+<!-- ═══════════════════════════════════════
+     SECTION 6, CTA
+═══════════════════════════════════════ -->
+<section class="cta-section">
+  <div class="section-label">Ready to Fix It?</div>
+  <h2 class="cta-title">Let Us Make Beverly Hills Med Spa<br><span>the Answer AI Recommends</span></h2>
+  <p class="cta-desc">In 30 minutes we will show you exactly which AI queries you should be winning, and the specific steps to get there based on your existing credentials.</p>
+  <a href="https://calendly.com/theanswerengine-support/30min" target="_blank" rel="noopener noreferrer" class="cta-btn">Book Your 30-Min Call</a>
+  <p class="cta-micro">No commitment required. Just a clear picture of what is possible.</p>
+</section>
+
+
+<!-- ═══════════════════════════════════════
+     FOOTER
+═══════════════════════════════════════ -->
+<footer>
+  <p>This analysis uses publicly available information about Beverly Hills Med Spa and the Los Angeles med spa market. It does not constitute a guarantee of specific outcomes. Questions? <a href="mailto:support@theanswerengine.ai">support@theanswerengine.ai</a></p>
+</footer>
+
+
+<h2 style="margin:0 0 6px 0;font-family:'Space Grotesk','Inter','Helvetica Neue',Arial,sans-serif;font-size:20px;font-weight:900;color:#1a1a1a;letter-spacing:-0.02em;text-transform:uppercase;">Competitor Battlecard</h2>
+<p style="margin:0 0 18px 0;font-size:14px;color:#555;">NassifMD dominates AI-powered search results for med spa queries while Beverly Hills Med Spa remains invisible to answer engines despite strong reviews and content.</p>
+
+<table role="presentation" cellpadding="0" cellspacing="0" border="0" width="100%" style="border-collapse:collapse;margin:0 0 22px 0;">
+  <tr>
+    <td valign="top" style="padding:14px;background:#fafafa;border-left:3px solid #FF6A00;width:50%;">
+      <div style="font-family:'JetBrains Mono',Consolas,Menlo,'Courier New',monospace;font-size:10px;color:#888;letter-spacing:0.12em;text-transform:uppercase;margin-bottom:6px;">You</div>
+      <div style="font-family:'Space Grotesk','Inter','Helvetica Neue',Arial,sans-serif;font-size:16px;font-weight:800;color:#1a1a1a;margin-bottom:6px;">Beverly Hills Med Spa</div>
+      <div style="font-size:12px;color:#555;line-height:1.5;">0 verified citations · 23 reviews · 4.7★</div>
+    </td>
+    <td style="width:12px;"></td>
+    <td valign="top" style="padding:14px;background:#fafafa;border-left:3px solid #bbb;width:50%;">
+      <div style="font-family:'JetBrains Mono',Consolas,Menlo,'Courier New',monospace;font-size:10px;color:#888;letter-spacing:0.12em;text-transform:uppercase;margin-bottom:6px;">Competitor</div>
+      <div style="font-family:'Space Grotesk','Inter','Helvetica Neue',Arial,sans-serif;font-size:16px;font-weight:800;color:#1a1a1a;margin-bottom:6px;">NassifMD Medical Spa</div>
+      <div style="font-size:12px;color:#555;line-height:1.5;">cited on multiple platforms · public review presence</div>
+    </td>
+  </tr>
+</table>
+
+<h3 style="margin:0 0 10px 0;font-size:14px;color:#1a1a1a;font-family:'Space Grotesk','Inter','Helvetica Neue',Arial,sans-serif;font-weight:800;text-transform:uppercase;letter-spacing:0.02em;">Where They Show Up Today</h3>
+<ul style="margin:0 0 20px 0;padding:0;">
+    <li style="margin:0 0 8px 0;padding:8px 12px;background:#fafafa;border-left:3px solid #FF6A00;list-style:none;font-size:13px;color:#333;">Cited in ChatGPT, Gemini, and Perplexity for 'best med spa Los Angeles' searches while Beverly Hills Med Spa does not appear</li>
+    <li style="margin:0 0 8px 0;padding:8px 12px;background:#fafafa;border-left:3px solid #FF6A00;list-style:none;font-size:13px;color:#333;">Likely optimized for answer engine indexing and ranking, capturing high-intent prospects asking questions rather than doing brand searches</li>
+    <li style="margin:0 0 8px 0;padding:8px 12px;background:#fafafa;border-left:3px solid #FF6A00;list-style:none;font-size:13px;color:#333;">Established authority signal that drives referral traffic from conversational AI tools</li></ul>
+
+<h3 style="margin:0 0 10px 0;font-size:14px;color:#1a1a1a;font-family:'Space Grotesk','Inter','Helvetica Neue',Arial,sans-serif;font-weight:800;text-transform:uppercase;letter-spacing:0.02em;">Three Flip Moves</h3>
+<ol style="margin:0 0 20px 0;padding:0;list-style:none;">
+    <li style="margin:0 0 12px 0;padding:12px 14px;background:#f6faf6;border-left:3px solid #2e8b57;list-style:none;">
+      <div style="font-family:'Space Grotesk','Inter','Helvetica Neue',Arial,sans-serif;font-weight:800;color:#1a1a1a;font-size:14px;margin-bottom:4px;">1. Implement answer engine schema markup</div>
+      <div style="font-size:13px;color:#555;">Add FAQ schema, ReviewSchema, and LocalBusinessSchema to homepage and treatment pages to make Beverly Hills Med Spa's strong 4.7-star reviews and 23 verified testimonials machine-readable for ChatGPT, Gemini, and Perplexity crawlers</div>
+    </li>
+    <li style="margin:0 0 12px 0;padding:12px 14px;background:#f6faf6;border-left:3px solid #2e8b57;list-style:none;">
+      <div style="font-family:'Space Grotesk','Inter','Helvetica Neue',Arial,sans-serif;font-weight:800;color:#1a1a1a;font-size:14px;margin-bottom:4px;">2. Create question-led content clusters</div>
+      <div style="font-size:13px;color:#555;">Expand blog strategy to target conversational queries ('What is SmartPRP?', 'How much does a med spa treatment cost in Beverly Hills?', 'Is PRP safe for sensitive skin?') that answer engines pull into citations</div>
+    </li>
+    <li style="margin:0 0 12px 0;padding:12px 14px;background:#f6faf6;border-left:3px solid #2e8b57;list-style:none;">
+      <div style="font-family:'Space Grotesk','Inter','Helvetica Neue',Arial,sans-serif;font-weight:800;color:#1a1a1a;font-size:14px;margin-bottom:4px;">3. Secure third-party press and industry mentions</div>
+      <div style="font-size:13px;color:#555;">Pitch Dr. Kahen's expertise and patent-pending SmartPRP technology to med spa and beauty publications, dermatology journals, and wellness media to build external authority signals answer engines use for ranking</div>
+    </li></ol>
+
+<h3 style="margin:0 0 10px 0;font-size:14px;color:#1a1a1a;font-family:'Space Grotesk','Inter','Helvetica Neue',Arial,sans-serif;font-weight:800;text-transform:uppercase;letter-spacing:0.02em;">Gaps They Haven't Filled</h3>
+<ul style="margin:0 0 20px 0;padding:0;">
+    <li style="margin:0 0 6px 0;padding:6px 10px;background:#fff6ea;list-style:none;font-size:13px;color:#333;">No detectable answer engine citations despite robust content and credentials, meaning prospects asking 'where should I get med spa treatment near me?' never see Beverly Hills Med Spa</li>
+    <li style="margin:0 0 6px 0;padding:6px 10px;background:#fff6ea;list-style:none;font-size:13px;color:#333;">Limited third-party media mentions beyond one feature, reducing external authority signals that answer engines use to validate recommendations</li>
+    <li style="margin:0 0 6px 0;padding:6px 10px;background:#fff6ea;list-style:none;font-size:13px;color:#333;">No Reddit or community platform presence where answer engines increasingly source social proof and peer recommendations for local service queries</li></ul>
+</body>
+</html>
