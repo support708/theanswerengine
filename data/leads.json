@@ -3589,8 +3589,91 @@
     "reviewCount": 182,
     "rating": 4.8,
     "notes": "Auto-discovered by Lead Hunter. AI citation: not cited on 0/1 platforms. Competitors cited: Cienega Med Spa, Marina Medspa, Los Feliz Med Spa. Outreach-ready: YES (citation data + contact + differentiator verified). Differentiator: Founded by world-renowned facial plastic surgeon Dr. Paul Nassif; personal selection of all treatments; featured in Entertainment Tonight, Good Morning America, People Magazine; established 2004",
-    "status": "queued",
-    "research": null,
+    "status": "report_ready",
+    "research": {
+      "reviewCount": 182,
+      "rating": 4.8,
+      "yearsInBusiness": 20,
+      "credentials": [
+        "Board-certified Facial Plastic and Reconstructive Surgeon (Dr. Paul Nassif)",
+        "American Board of Facial Plastic and Reconstructive Surgery",
+        "American Board of Otolaryngology",
+        "Fellow of the American College of Surgeons (FACS)",
+        "Fellow of the American Academy of Facial Plastic and Reconstructive Surgery",
+        "Board-certified Physician Associate (Shannon, aesthetic injector)",
+        "Certified Medical Assistant (Kaitlyn)",
+        "Master of Physician Assistant Studies from Western University of Health Sciences (2022)"
+      ],
+      "awards": [
+        "Newsweek America's Best Plastic Surgeons 2024 (three consecutive years)",
+        "Castle Connolly Top Doctors 2025",
+        "New Beauty Magazine Top Doctor 2025",
+        "RealSelf 100 Award for patient education",
+        "Los Angeles Magazine Best of Beauty Award 2024",
+        "Readers Choice Awards - essentials for healthy radiant skin",
+        "Leaping Bunny Certified for NassifMD Skincare"
+      ],
+      "communityInvolvement": [
+        "Face to Face (Anti-Domestic Violence organization)",
+        "The Race to Erase MS",
+        "Lymphoma Research Foundation of America",
+        "Portraits of Hope",
+        "Coach for Kids",
+        "Arthritis Foundation",
+        "Director of Fellowship Training Program accredited by American Academy of Facial Plastic and Reconstructive Surgery",
+        "Instructor at USC Keck School of Medicine",
+        "Instructor at UCLA School of Medicine"
+      ],
+      "hiddenDifferentiators": [
+        "Founded by world-renowned facial plastic surgeon Dr. Paul Nassif",
+        "All treatments personally selected by Dr. Nassif",
+        "Star of E! reality show Botched aired in 166 countries",
+        "Created Anti-Gravity Facelift surgical technique",
+        "Proprietary NassifMD Skincare line with over 2 million Detox Facial Pads sold worldwide",
+        "Established 2004 with 20+ years of practice history",
+        "Multiple media appearances (Entertainment Tonight, Good Morning America, People Magazine, USA Today, Wall Street Journal)",
+        "Author of 100+ peer-reviewed articles on cosmetic surgery",
+        "500+ lectures on latest surgical techniques worldwide",
+        "Affiliated with USC Medical Center and Cedars-Sinai Medical Center",
+        "UK medical spa location in Manchester"
+      ],
+      "topCompetitors": [
+        {
+          "name": "Cienega Med Spa",
+          "reason": "Multi-location presence (West Hollywood, Santa Monica, Calabasas), #1 rated on Yelp/Google for LA med spas, Top 3 worldwide for CoolSculpting, 1209 reviews on Yelp, strong patient testimonials"
+        },
+        {
+          "name": "Marina Medspa",
+          "reason": "30+ years in medical aesthetic industry, treated 30,000+ patients, medical director Dr. Grant Stevens featured in Elle/Esquire/Time"
+        },
+        {
+          "name": "Los Feliz Med Spa",
+          "reason": "Top-rated med spa with natural-looking results, experienced medical team, personalized consultations, featured in industry publications"
+        }
+      ],
+      "faqContentPresent": false,
+      "blogPresent": true,
+      "gmbPresent": true,
+      "schemaDetected": false,
+      "recentContent": true,
+      "uniqueStory": "Founded by world-renowned facial plastic surgeon Dr. Paul Nassif who is known as Trusted with Faces Worldwide. Dr. Nassif personally selects every treatment offered and is the star of E!'s Botched, a reality show aired in 166 countries highlighting his expertise in correcting complex plastic surgery cases. The med spa was established in 2004 as a non-surgical complement to his surgical practice, allowing patients to maintain results and achieve cosmetic goals without invasive procedures.",
+      "aiCited": false,
+      "aero7": {
+        "answerQuality": 8,
+        "entityOptimization": 5,
+        "relevanceFreshness": 8,
+        "optimizationStructure": 7,
+        "voiceAuthenticity": 9,
+        "authoritySignals": 9,
+        "authorityDistribution": 8,
+        "consensusCoCitation": 6,
+        "platformReadiness": 4,
+        "technicalAccessibility": 6,
+        "total": 70
+      },
+      "rawNotes": "FINDINGS SUMMARY: NassifMD Medical Spa demonstrates strong authority through founder Dr. Paul Nassif's credentials and media presence. DISCREPANCIES FOUND: (1) Establishment date inconsistency: LinkedIn shows 'Founded 2004' while Yelp lists 'Established in 2017' for the med spa specifically (likely med spa opened 2017, practice founded 2004). Years calculated as 20 based on 2004 founding. (2) Location partially inconsistent: Primary address 120 S Spalding Dr Ste 301 verified across multiple sources (website, Yelp, LinkedIn). One citation shows Ste 302 which is minor variance. STRONG POINTS: (1) Exceptional review presence: 182 reviews at 4.8 rating on Birdeye, 68 reviews on Yelp. (2) Rich media coverage with documented appearances in ET, GMA, People Magazine. (3) Team credential depth: Board-certified PA, CMA, multiple staff bios with qualifications. (4) Blog present but appears modest content updates. (5) Skincare line extends brand authority (2M+ Detox Pads sold). (6) LinkedIn active and detailed. WEAK POINTS: (1) No FAQ page detected on medical spa site. (2) Schema markup not detected; should implement LocalBusiness, MedicalBusiness, Physician, Service schema. (3) Not cited on AI platforms per context (0/1 platforms). Likely not appearing in ChatGPT, Gemini, Perplexity, Claude summaries for med spa queries. (4) Limited platform readiness: No verified strong Reddit/Discord presence detected, no direct ChatGPT integration signals. (5) NAP consistency: Address verified but no verification of phone/email consistency across all directories. (6) Robots.txt access for bots not verified. COMPETITIVE CONTEXT: Cienega Med Spa ranks #1 on Yelp/Google with 1209 Yelp reviews and explicitly claims multi-location advantage plus CoolSculpting specialization. NassifMD's founder celebrity factor (Botched) is unique differentiator but not translating to broader AI platform visibility. MEDIA FOOTPRINT: Strong traditional media (Entertainment Tonight, Good Morning America, People) mentioned on site but content recency unclear. COMMUNITY: Documented charitable involvement (Face to Face, MS Foundation, etc.). TECHNICAL: No visible schema markup, likely missing opportunities for rich snippets and AI citations. GBP appears verified but not optimized for AI search. RECOMMENDATION FOR OUTREACH: Position differentiation as 'Botched star founder with 20+ year track record and proprietary surgical knowledge' angle for AI platforms. Current authority signals strong but not translated to conversational AI recommendations.",
+      "researchedAt": "2026-04-20T18:30:47.204Z"
+    },
     "reportSlug": "nassifmd-medical-spa-2zul",
     "emailDraftId": null,
     "fabricationFlags": [],
@@ -3599,10 +3682,42 @@
       {
         "action": "Queued by Lead Hunter (P1, score: 36, outreach-ready: true)",
         "timestamp": "2026-04-08T20:59:03.860Z"
+      },
+      {
+        "action": "Research started (auto-pipeline)",
+        "timestamp": "2026-04-20T18:30:16.450Z"
+      },
+      {
+        "action": "Research completed (AERO-10: 70/100)",
+        "timestamp": "2026-04-20T18:30:47.204Z"
+      },
+      {
+        "action": "Report generation started",
+        "timestamp": "2026-04-20T18:30:47.204Z"
+      },
+      {
+        "action": "Competitor battlecard attached",
+        "timestamp": "2026-04-20T18:32:28.660Z"
+      },
+      {
+        "action": "Report generated",
+        "timestamp": "2026-04-20T18:32:28.660Z"
+      },
+      {
+        "action": "Fabrication scan: CLEAN",
+        "timestamp": "2026-04-20T18:32:28.660Z"
+      },
+      {
+        "action": "Em-dash scan: 14 found, auto-stripped",
+        "timestamp": "2026-04-20T18:32:28.660Z"
+      },
+      {
+        "action": "Report + OG metadata deployed to production",
+        "timestamp": "2026-04-20T18:32:28.850Z"
       }
     ],
     "createdAt": "2026-04-08T20:59:03.860Z",
-    "updatedAt": "2026-04-08T20:59:03.860Z",
+    "updatedAt": "2026-04-20T18:32:28.660Z",
     "huntSource": "hunt_1775681881534_kh3q",
     "huntScore": 36,
     "huntPriority": "P1",
