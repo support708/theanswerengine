@@ -3423,7 +3423,7 @@
     "reviewCount": 174,
     "rating": 4.8,
     "notes": "Auto-discovered by Lead Hunter. AI citation: not cited on 1/1 platforms. Competitors cited: NassifMD Medical Spa, Cienega Med Spa, Marina Medspa. Outreach-ready: YES (citation data + contact + differentiator verified). Differentiator: Award-winning spa chain established in 2006 by Alissa Bayer; operates 2 LA locations (Brentwood & Culver City) with full med spa integration including Botox, BBL, Moxi laser treatments",
-    "status": "report_ready",
+    "status": "sent",
     "research": {
       "reviewCount": 174,
       "rating": 4.8,
@@ -3549,10 +3549,14 @@
       {
         "action": "Report + OG metadata deployed to production",
         "timestamp": "2026-04-19T18:03:06.979Z"
+      },
+      {
+        "action": "Initial email auto-sent via Gmail (19dac0cdda671bb9)",
+        "timestamp": "2026-04-20T18:00:17.723Z"
       }
     ],
     "createdAt": "2026-04-08T20:59:03.859Z",
-    "updatedAt": "2026-04-19T18:03:06.841Z",
+    "updatedAt": "2026-04-20T18:00:17.723Z",
     "huntSource": "hunt_1775681881534_kh3q",
     "huntScore": 40,
     "huntPriority": "P1",
