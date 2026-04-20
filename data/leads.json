@@ -5148,5 +5148,399 @@
     ],
     "huntDifferentiator": "Established 2010, 15+ years in business, Tesla-referred electrician, specializes in EV charger installation, expanding to San Diego",
     "huntOutreachReady": true
+  },
+  {
+    "id": "lead_1776693667284_uph3qm",
+    "businessName": "Phoenix Medspa",
+    "contactFirstName": "Dr.",
+    "contactEmail": "phxmedspa@gmail.com",
+    "websiteUrl": "https://PhxMedSpa.com",
+    "city": "Phoenix",
+    "serviceNiche": "Med Spa",
+    "competitorName": "Suddenly Slimmer Med Spa",
+    "reviewCount": null,
+    "rating": null,
+    "notes": "Auto-discovered by Lead Hunter. AI citation: not cited on 1/1 platforms. Competitors cited: Suddenly Slimmer Med Spa, Med 44 Arcadia, Vibrant Skin Bar. Outreach-ready: YES (citation data + contact + differentiator verified). Differentiator: Board-certified physicians with National Laser Institute credentials; specializes in Botox, Dysport, fillers, and PRP therapies",
+    "status": "queued",
+    "research": null,
+    "reportSlug": "phoenix-medspa-4za2",
+    "emailDraftId": null,
+    "fabricationFlags": [],
+    "emDashClean": false,
+    "actionLog": [
+      {
+        "action": "Queued by Lead Hunter (P2, score: 27, outreach-ready: true)",
+        "timestamp": "2026-04-20T14:01:07.284Z"
+      }
+    ],
+    "createdAt": "2026-04-20T14:01:07.284Z",
+    "updatedAt": "2026-04-20T14:01:07.284Z",
+    "huntSource": "hunt_1776693616291_d93z",
+    "huntScore": 27,
+    "huntPriority": "P2",
+    "huntCitationResults": [
+      {
+        "platform": "chatgpt",
+        "query": "best Med Spa in Phoenix",
+        "cited": false,
+        "competitorsCited": [
+          "Suddenly Slimmer Med Spa",
+          "Med 44 Arcadia",
+          "Vibrant Skin Bar"
+        ]
+      }
+    ],
+    "huntDifferentiator": "Board-certified physicians with National Laser Institute credentials; specializes in Botox, Dysport, fillers, and PRP therapies",
+    "huntOutreachReady": true
+  },
+  {
+    "id": "lead_1776693667285_i5i5xu",
+    "businessName": "Med 44 Arcadia",
+    "contactFirstName": "Holly",
+    "contactEmail": "h***@med44arcadia.com",
+    "websiteUrl": "https://www.med44arcadia.com",
+    "city": "Phoenix",
+    "serviceNiche": "Med Spa",
+    "competitorName": "Suddenly Slimmer Med Spa",
+    "reviewCount": 200,
+    "rating": 5,
+    "notes": "Auto-discovered by Lead Hunter. AI citation: not cited on 0/1 platforms. Competitors cited: Suddenly Slimmer Med Spa, Vibrant Skin Bar. Outreach-ready: YES (citation data + contact + differentiator verified). Differentiator: Established 2019; voted Best Med Spa in Arizona and Phoenix; specializes in Botox, lasers, and natural-looking aesthetic results",
+    "status": "queued",
+    "research": null,
+    "reportSlug": "med-44-arcadia-le5v",
+    "emailDraftId": null,
+    "fabricationFlags": [],
+    "emDashClean": false,
+    "actionLog": [
+      {
+        "action": "Queued by Lead Hunter (P2, score: 34, outreach-ready: true)",
+        "timestamp": "2026-04-20T14:01:07.285Z"
+      }
+    ],
+    "createdAt": "2026-04-20T14:01:07.285Z",
+    "updatedAt": "2026-04-20T14:01:07.285Z",
+    "huntSource": "hunt_1776693616291_d93z",
+    "huntScore": 34,
+    "huntPriority": "P2",
+    "huntCitationResults": [
+      {
+        "platform": "chatgpt",
+        "query": "best Med Spa in Phoenix",
+        "cited": true,
+        "competitorsCited": [
+          "Suddenly Slimmer Med Spa",
+          "Vibrant Skin Bar"
+        ]
+      }
+    ],
+    "huntDifferentiator": "Established 2019; voted Best Med Spa in Arizona and Phoenix; specializes in Botox, lasers, and natural-looking aesthetic results",
+    "huntOutreachReady": true
+  },
+  {
+    "id": "lead_1776693667285_k9fc4o",
+    "businessName": "Sculpt AZ Med Spa",
+    "contactFirstName": "",
+    "contactEmail": "frontdesk@sculptazmedspa.com",
+    "websiteUrl": "https://www.sculptazmedspa.com",
+    "city": "Phoenix",
+    "serviceNiche": "Med Spa",
+    "competitorName": "Suddenly Slimmer Med Spa",
+    "reviewCount": null,
+    "rating": null,
+    "notes": "Auto-discovered by Lead Hunter. AI citation: not cited on 1/1 platforms. Competitors cited: Suddenly Slimmer Med Spa, Med 44 Arcadia, Vibrant Skin Bar. Outreach-ready: NO (missing data for SOP templates, needs manual enrichment). Differentiator: Experiential aesthetics approach; features luxury amenities including champagne service and VIP spa party areas",
+    "status": "queued",
+    "research": null,
+    "reportSlug": "sculpt-az-med-spa-yi21",
+    "emailDraftId": null,
+    "fabricationFlags": [],
+    "emDashClean": false,
+    "actionLog": [
+      {
+        "action": "Queued by Lead Hunter (P2, score: 26, outreach-ready: false)",
+        "timestamp": "2026-04-20T14:01:07.285Z"
+      }
+    ],
+    "createdAt": "2026-04-20T14:01:07.285Z",
+    "updatedAt": "2026-04-20T14:01:07.285Z",
+    "huntSource": "hunt_1776693616291_d93z",
+    "huntScore": 26,
+    "huntPriority": "P2",
+    "huntCitationResults": [
+      {
+        "platform": "chatgpt",
+        "query": "best Med Spa in Phoenix",
+        "cited": false,
+        "competitorsCited": [
+          "Suddenly Slimmer Med Spa",
+          "Med 44 Arcadia",
+          "Vibrant Skin Bar"
+        ]
+      }
+    ],
+    "huntDifferentiator": "Experiential aesthetics approach; features luxury amenities including champagne service and VIP spa party areas",
+    "huntOutreachReady": false
+  },
+  {
+    "id": "lead_1776693667285_rv5r9w",
+    "businessName": "Body Beautiful Spa",
+    "contactFirstName": "Marlena",
+    "contactEmail": "customercare@bodybeautifulspa.net",
+    "websiteUrl": "https://bodybeautifulspa.net",
+    "city": "Phoenix",
+    "serviceNiche": "Med Spa",
+    "competitorName": "Suddenly Slimmer Med Spa",
+    "reviewCount": 125,
+    "rating": 4.7,
+    "notes": "Auto-discovered by Lead Hunter. AI citation: not cited on 1/1 platforms. Competitors cited: Suddenly Slimmer Med Spa, Med 44 Arcadia, Vibrant Skin Bar. Outreach-ready: YES (citation data + contact + differentiator verified). Differentiator: Operating since 2007; 18-year BBU member; Ranking Arizona Best MedSpa for last 12 years; combines day spa and med spa services",
+    "status": "queued",
+    "research": null,
+    "reportSlug": "body-beautiful-spa-8jnc",
+    "emailDraftId": null,
+    "fabricationFlags": [],
+    "emDashClean": false,
+    "actionLog": [
+      {
+        "action": "Queued by Lead Hunter (P1, score: 39.5, outreach-ready: true)",
+        "timestamp": "2026-04-20T14:01:07.285Z"
+      }
+    ],
+    "createdAt": "2026-04-20T14:01:07.285Z",
+    "updatedAt": "2026-04-20T14:01:07.285Z",
+    "huntSource": "hunt_1776693616291_d93z",
+    "huntScore": 39.5,
+    "huntPriority": "P1",
+    "huntCitationResults": [
+      {
+        "platform": "chatgpt",
+        "query": "best Med Spa in Phoenix",
+        "cited": false,
+        "competitorsCited": [
+          "Suddenly Slimmer Med Spa",
+          "Med 44 Arcadia",
+          "Vibrant Skin Bar"
+        ]
+      }
+    ],
+    "huntDifferentiator": "Operating since 2007; 18-year BBU member; Ranking Arizona Best MedSpa for last 12 years; combines day spa and med spa services",
+    "huntOutreachReady": true
+  },
+  {
+    "id": "lead_1776693667285_3fda3x",
+    "businessName": "Rouge & Wright Med Spa",
+    "contactFirstName": "Merrill",
+    "contactEmail": "rougeandwright@gmail.com",
+    "websiteUrl": "https://rougeandwright.com",
+    "city": "Phoenix",
+    "serviceNiche": "Med Spa",
+    "competitorName": "Suddenly Slimmer Med Spa",
+    "reviewCount": 47,
+    "rating": 5,
+    "notes": "Auto-discovered by Lead Hunter. AI citation: not cited on 1/1 platforms. Competitors cited: Suddenly Slimmer Med Spa, Med 44 Arcadia, Vibrant Skin Bar. Outreach-ready: YES (citation data + contact + differentiator verified). Differentiator: Women-owned business; features makeup artistry, IV therapy, and personalized injectables approach; founded 2021",
+    "status": "queued",
+    "research": null,
+    "reportSlug": "rouge-wright-med-spa-ook4",
+    "emailDraftId": null,
+    "fabricationFlags": [],
+    "emDashClean": false,
+    "actionLog": [
+      {
+        "action": "Queued by Lead Hunter (P1, score: 36, outreach-ready: true)",
+        "timestamp": "2026-04-20T14:01:07.285Z"
+      }
+    ],
+    "createdAt": "2026-04-20T14:01:07.285Z",
+    "updatedAt": "2026-04-20T14:01:07.285Z",
+    "huntSource": "hunt_1776693616291_d93z",
+    "huntScore": 36,
+    "huntPriority": "P1",
+    "huntCitationResults": [
+      {
+        "platform": "chatgpt",
+        "query": "best Med Spa in Phoenix",
+        "cited": false,
+        "competitorsCited": [
+          "Suddenly Slimmer Med Spa",
+          "Med 44 Arcadia",
+          "Vibrant Skin Bar"
+        ]
+      }
+    ],
+    "huntDifferentiator": "Women-owned business; features makeup artistry, IV therapy, and personalized injectables approach; founded 2021",
+    "huntOutreachReady": true
+  },
+  {
+    "id": "lead_1776693667285_6jpcus",
+    "businessName": "Paradise Medspa",
+    "contactFirstName": "Dr.",
+    "contactEmail": "feelpretty@paradisemedspa.com",
+    "websiteUrl": "https://paradisemedspa.com",
+    "city": "Phoenix",
+    "serviceNiche": "Med Spa",
+    "competitorName": "Suddenly Slimmer Med Spa",
+    "reviewCount": 78,
+    "rating": 4.8,
+    "notes": "Auto-discovered by Lead Hunter. AI citation: not cited on 1/1 platforms. Competitors cited: Suddenly Slimmer Med Spa, Med 44 Arcadia, Vibrant Skin Bar. Outreach-ready: YES (citation data + contact + differentiator verified). Differentiator: Established 2008; over 20 years combined experience; Dr. Weiss is Chair of Arizona Chapter of American Med Spa Association; specializes in holistic wellness and bio-identical hormone therapy",
+    "status": "queued",
+    "research": null,
+    "reportSlug": "paradise-medspa-xghk",
+    "emailDraftId": null,
+    "fabricationFlags": [],
+    "emDashClean": false,
+    "actionLog": [
+      {
+        "action": "Queued by Lead Hunter (P1, score: 37.5, outreach-ready: true)",
+        "timestamp": "2026-04-20T14:01:07.285Z"
+      }
+    ],
+    "createdAt": "2026-04-20T14:01:07.285Z",
+    "updatedAt": "2026-04-20T14:01:07.285Z",
+    "huntSource": "hunt_1776693616291_d93z",
+    "huntScore": 37.5,
+    "huntPriority": "P1",
+    "huntCitationResults": [
+      {
+        "platform": "chatgpt",
+        "query": "best Med Spa in Phoenix",
+        "cited": false,
+        "competitorsCited": [
+          "Suddenly Slimmer Med Spa",
+          "Med 44 Arcadia",
+          "Vibrant Skin Bar"
+        ]
+      }
+    ],
+    "huntDifferentiator": "Established 2008; over 20 years combined experience; Dr. Weiss is Chair of Arizona Chapter of American Med Spa Association; specializes in holistic wellness and bio-identical hormone therapy",
+    "huntOutreachReady": true
+  },
+  {
+    "id": "lead_1776693667285_wlpio7",
+    "businessName": "Suddenly Slimmer Med Spa",
+    "contactFirstName": "Dr.",
+    "contactEmail": "info@suddenlyslimmer.com",
+    "websiteUrl": "https://www.suddenlyslimmer.com",
+    "city": "Phoenix",
+    "serviceNiche": "Med Spa",
+    "competitorName": "Med 44 Arcadia",
+    "reviewCount": 730,
+    "rating": 4.9,
+    "notes": "Auto-discovered by Lead Hunter. AI citation: not cited on 0/1 platforms. Competitors cited: Med 44 Arcadia, Vibrant Skin Bar. Outreach-ready: YES (citation data + contact + differentiator verified). Differentiator: Operating since 1988 with 35+ years experience; 12,000 sq ft facility; Phoenix Magazine award winner; featured on Phoenix FOX 10, MTV, Ellen DeGeneres",
+    "status": "queued",
+    "research": null,
+    "reportSlug": "suddenly-slimmer-med-spa-jnmb",
+    "emailDraftId": null,
+    "fabricationFlags": [],
+    "emDashClean": false,
+    "actionLog": [
+      {
+        "action": "Queued by Lead Hunter (P2, score: 34, outreach-ready: true)",
+        "timestamp": "2026-04-20T14:01:07.285Z"
+      }
+    ],
+    "createdAt": "2026-04-20T14:01:07.285Z",
+    "updatedAt": "2026-04-20T14:01:07.285Z",
+    "huntSource": "hunt_1776693616291_d93z",
+    "huntScore": 34,
+    "huntPriority": "P2",
+    "huntCitationResults": [
+      {
+        "platform": "chatgpt",
+        "query": "best Med Spa in Phoenix",
+        "cited": true,
+        "competitorsCited": [
+          "Med 44 Arcadia",
+          "Vibrant Skin Bar"
+        ]
+      }
+    ],
+    "huntDifferentiator": "Operating since 1988 with 35+ years experience; 12,000 sq ft facility; Phoenix Magazine award winner; featured on Phoenix FOX 10, MTV, Ellen DeGeneres",
+    "huntOutreachReady": true
+  },
+  {
+    "id": "lead_1776693667285_zr3gar",
+    "businessName": "Willo MediSpa",
+    "contactFirstName": "Dr.",
+    "contactEmail": "customerservice@willomedispa.com",
+    "websiteUrl": "https://willomedispa.com",
+    "city": "Phoenix",
+    "serviceNiche": "Med Spa",
+    "competitorName": "Suddenly Slimmer Med Spa",
+    "reviewCount": null,
+    "rating": null,
+    "notes": "Auto-discovered by Lead Hunter. AI citation: not cited on 1/1 platforms. Competitors cited: Suddenly Slimmer Med Spa, Med 44 Arcadia, Vibrant Skin Bar. Outreach-ready: YES (citation data + contact + differentiator verified). Differentiator: Single-doctor boutique practice; personalized aesthetic approach; specializes in natural results with minimal downtime; uses only FDA-approved manufacturers",
+    "status": "queued",
+    "research": null,
+    "reportSlug": "willo-medispa-3xzz",
+    "emailDraftId": null,
+    "fabricationFlags": [],
+    "emDashClean": false,
+    "actionLog": [
+      {
+        "action": "Queued by Lead Hunter (P2, score: 27, outreach-ready: true)",
+        "timestamp": "2026-04-20T14:01:07.285Z"
+      }
+    ],
+    "createdAt": "2026-04-20T14:01:07.285Z",
+    "updatedAt": "2026-04-20T14:01:07.285Z",
+    "huntSource": "hunt_1776693616291_d93z",
+    "huntScore": 27,
+    "huntPriority": "P2",
+    "huntCitationResults": [
+      {
+        "platform": "chatgpt",
+        "query": "best Med Spa in Phoenix",
+        "cited": false,
+        "competitorsCited": [
+          "Suddenly Slimmer Med Spa",
+          "Med 44 Arcadia",
+          "Vibrant Skin Bar"
+        ]
+      }
+    ],
+    "huntDifferentiator": "Single-doctor boutique practice; personalized aesthetic approach; specializes in natural results with minimal downtime; uses only FDA-approved manufacturers",
+    "huntOutreachReady": true
+  },
+  {
+    "id": "lead_1776693667285_msqfqo",
+    "businessName": "BeautyBorn MedSpa",
+    "contactFirstName": "Tedi",
+    "contactEmail": "info@beautybornmedspa.com",
+    "websiteUrl": "https://beautybornmedspa.com",
+    "city": "Phoenix",
+    "serviceNiche": "Med Spa",
+    "competitorName": "Suddenly Slimmer Med Spa",
+    "reviewCount": null,
+    "rating": null,
+    "notes": "Auto-discovered by Lead Hunter. AI citation: not cited on 1/1 platforms. Competitors cited: Suddenly Slimmer Med Spa, Med 44 Arcadia, Vibrant Skin Bar. Outreach-ready: YES (citation data + contact + differentiator verified). Differentiator: Located in Biltmore Area; features highly-skilled team of resident doctors, estheticians, and laser techs; offers membership program with priority booking and exclusive discounts",
+    "status": "queued",
+    "research": null,
+    "reportSlug": "beautyborn-medspa-e2jl",
+    "emailDraftId": null,
+    "fabricationFlags": [],
+    "emDashClean": false,
+    "actionLog": [
+      {
+        "action": "Queued by Lead Hunter (P2, score: 27, outreach-ready: true)",
+        "timestamp": "2026-04-20T14:01:07.285Z"
+      }
+    ],
+    "createdAt": "2026-04-20T14:01:07.285Z",
+    "updatedAt": "2026-04-20T14:01:07.285Z",
+    "huntSource": "hunt_1776693616291_d93z",
+    "huntScore": 27,
+    "huntPriority": "P2",
+    "huntCitationResults": [
+      {
+        "platform": "chatgpt",
+        "query": "best Med Spa in Phoenix",
+        "cited": false,
+        "competitorsCited": [
+          "Suddenly Slimmer Med Spa",
+          "Med 44 Arcadia",
+          "Vibrant Skin Bar"
+        ]
+      }
+    ],
+    "huntDifferentiator": "Located in Biltmore Area; features highly-skilled team of resident doctors, estheticians, and laser techs; offers membership program with priority booking and exclusive discounts",
+    "huntOutreachReady": true
   }
 ]

@@ -224,5 +224,20 @@
     "outreachReadyCount": 1,
     "errors": [],
     "completedAt": "2026-04-17T14:01:06.238Z"
+  },
+  {
+    "id": "hunt_1776693616291_d93z",
+    "startedAt": "2026-04-20T14:00:16.291Z",
+    "trigger": "cron_daily",
+    "vertical": "Med Spa",
+    "metro": "Phoenix, AZ",
+    "prospectsFound": 10,
+    "p1Queued": 3,
+    "p2Queued": 6,
+    "p3Backlogged": 1,
+    "duplicatesSkipped": 0,
+    "outreachReadyCount": 8,
+    "errors": [],
+    "completedAt": "2026-04-20T14:01:07.285Z"
   }
 ]

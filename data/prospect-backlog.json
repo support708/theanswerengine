@@ -1211,5 +1211,40 @@
       "total": 32.5
     },
     "priority": "P2"
+  },
+  {
+    "businessName": "Vibrant Skin Bar",
+    "contactName": "Dr. Fiel, PA Kristina Cadwell",
+    "contactEmail": "info@vibrantskin.com",
+    "website": "https://vibrantskinbar.com",
+    "phone": "(480) 691-3900",
+    "city": "Phoenix",
+    "state": "AZ",
+    "serviceNiche": "Med Spa",
+    "painSignals": [
+      "Vibrant Skin Bar appears in AI recommendations but may have optimization gaps"
+    ],
+    "citationResults": [
+      {
+        "platform": "chatgpt",
+        "query": "best Med Spa in Phoenix",
+        "cited": true,
+        "competitorsCited": [
+          "Suddenly Slimmer Med Spa",
+          "Med 44 Arcadia"
+        ]
+      }
+    ],
+    "differentiator": "Full-service medical spa with wellness focus; includes advanced equipment like Sofwave, Jet Plasma, and offers cancer screening services",
+    "outreachReady": true,
+    "scoreBreakdown": {
+      "aiBlindSpot": 3,
+      "reputationStrength": 0,
+      "contentGap": 6,
+      "revenuePotential": 7.5,
+      "contactQuality": 5,
+      "total": 21.5
+    },
+    "priority": "P3"
   }
 ]
