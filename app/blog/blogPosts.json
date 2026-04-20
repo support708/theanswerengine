@@ -3931,5 +3931,105 @@
       "Education",
       "ChatGPT"
     ]
+  },
+  {
+    "id": 194,
+    "title": "How Chiropractors Get Found on AI Search",
+    "slug": "how-chiropractors-get-found-on-ai-search",
+    "excerpt": "Patients now ask ChatGPT and Perplexity to recommend chiropractors. Learn which signals AI platforms use to recommend chiropractic practices over competitors.",
+    "category": "Industry Guides",
+    "author": "The Answer Engine Team",
+    "readTime": "12 min",
+    "image": "/blog/how-chiropractors-get-found-on-ai-search.webp",
+    "publishDate": "2026-04-20",
+    "lastModified": "2026-04-20",
+    "featured": true,
+    "tags": [
+      "Chiropractors",
+      "Industry Guides",
+      "AI Search",
+      "Local Business",
+      "ChatGPT"
+    ]
+  },
+  {
+    "id": 195,
+    "title": "Why AI Shows Wrong Prices for Your Business",
+    "slug": "why-ai-shows-wrong-prices-for-your-business",
+    "excerpt": "AI platforms quote wrong prices to customers every day. Understand why price errors happen across ChatGPT and Perplexity and what signals AI platforms actually trust for pricing.",
+    "category": "Business Pain Points",
+    "author": "The Answer Engine Team",
+    "readTime": "10 min",
+    "image": "/blog/why-ai-shows-wrong-prices-for-your-business.webp",
+    "publishDate": "2026-04-20",
+    "lastModified": "2026-04-20",
+    "featured": true,
+    "tags": [
+      "Pricing",
+      "Business Pain Points",
+      "AI Accuracy",
+      "ChatGPT",
+      "Perplexity"
+    ]
+  },
+  {
+    "id": 196,
+    "title": "Google AI Overview vs ChatGPT: Which Sends More Customers",
+    "slug": "google-ai-overview-vs-chatgpt-which-sends-more-customers",
+    "excerpt": "Google AI Overview and ChatGPT both recommend local businesses but send completely different types of traffic. Here is what the data shows and which one actually matters for your revenue.",
+    "category": "Comparisons",
+    "author": "The Answer Engine Team",
+    "readTime": "11 min",
+    "image": "/blog/google-ai-overview-vs-chatgpt-which-sends-more-customers.webp",
+    "publishDate": "2026-04-20",
+    "lastModified": "2026-04-20",
+    "featured": true,
+    "tags": [
+      "Google AI Overview",
+      "ChatGPT",
+      "Comparisons",
+      "AI Traffic",
+      "Conversion Rate"
+    ]
+  },
+  {
+    "id": 197,
+    "title": "What Is an AI Entity Score and Why It Controls Your Visibility",
+    "slug": "what-is-an-ai-entity-score-and-why-it-controls-your-visibility",
+    "excerpt": "AI platforms build a hidden confidence score for every business before deciding whether to recommend it. Here is what an entity score actually is and why it determines your AI visibility.",
+    "category": "AEO Education",
+    "author": "The Answer Engine Team",
+    "readTime": "13 min",
+    "image": "/blog/what-is-an-ai-entity-score-and-why-it-controls-your-visibility.webp",
+    "publishDate": "2026-04-20",
+    "lastModified": "2026-04-20",
+    "featured": true,
+    "tags": [
+      "Entity Score",
+      "AEO Education",
+      "AI Visibility",
+      "Knowledge Graph",
+      "Entity Authority"
+    ]
+  },
+  {
+    "id": 198,
+    "title": "How Real Estate Agents Get Found on AI Search",
+    "slug": "how-real-estate-agents-get-found-ai-search",
+    "excerpt": "91% of real estate agents are invisible to AI. Learn why certain agents keep getting recommended by ChatGPT and Perplexity and what separates them from the competition.",
+    "category": "Industry Guides",
+    "author": "The Answer Engine Team",
+    "readTime": "18 min",
+    "image": "/blog/how-real-estate-agents-get-found-ai-search.webp",
+    "publishDate": "2026-04-20",
+    "lastModified": "2026-04-20",
+    "featured": true,
+    "tags": [
+      "Real Estate",
+      "Industry Guides",
+      "AI Search",
+      "ChatGPT",
+      "Realtor Visibility"
+    ]
   }
 ]

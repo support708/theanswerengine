@@ -6,31 +6,24 @@ export const dynamic = 'force-static'
 export const dynamicParams = true
 
 const title = 'How Chiropractors Get Found on AI Search'
-const description =
-  'Patients are asking ChatGPT and Perplexity to recommend chiropractors near them. Here is what AI looks for and why most chiropractic practices are invisible to this growing channel.'
+const description = 'Patients now ask ChatGPT and Perplexity to recommend chiropractors. Learn which signals AI platforms use to recommend chiropractic practices over competitors.'
 const slug = 'how-chiropractors-get-found-on-ai-search'
-const publishDate = '2026-04-09'
+const publishDate = '2026-04-20'
 
 export const metadata: Metadata = {
-  title: `${title} | The Answer Engine`,
+  title,
   description,
   keywords: [
-    'chiropractor AI search',
-    'how chiropractors get found ChatGPT',
-    'chiropractic practice AI visibility',
-    'Perplexity chiropractor recommendation',
-    'ChatGPT chiropractor near me',
-    'chiropractic marketing AI',
-    'answer engine optimization healthcare',
-    'local chiropractor AI search',
-    'chiropractic SEO 2026',
-    'AI recommendations healthcare',
-    'chiropractor online visibility',
-    'how to get patients from AI search',
+    'chiropractors AI search',
+    'ChatGPT chiropractor recommendations',
+    'how chiropractors get found online',
+    'AI search chiropractic',
+    'Perplexity chiropractor',
+    'chiropractic AI visibility',
+    'local chiropractor search 2026',
   ],
-  authors: [{ name: 'The Answer Engine Team' }],
   openGraph: {
-    title: `${title} | The Answer Engine`,
+    title,
     description,
     type: 'article',
     publishedTime: publishDate,
@@ -47,7 +40,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: `${title} | The Answer Engine`,
+    title,
     description,
     images: [`https://theanswerengine.ai/blog/${slug}.webp`],
   },
@@ -61,11 +54,16 @@ const jsonLd = {
   '@graph': [
     {
       '@type': 'Article',
-      '@id': `https://theanswerengine.ai/blog/${slug}#article`,
       headline: title,
       description,
-      datePublished: publishDate + 'T00:00:00Z',
-      dateModified: publishDate + 'T00:00:00Z',
+      image: {
+        '@type': 'ImageObject',
+        url: `https://theanswerengine.ai/blog/${slug}.webp`,
+        width: 1200,
+        height: 630,
+      },
+      datePublished: publishDate,
+      dateModified: publishDate,
       author: {
         '@type': 'Organization',
         name: 'The Answer Engine',
@@ -75,6 +73,10 @@ const jsonLd = {
         '@type': 'Organization',
         name: 'The Answer Engine',
         url: 'https://theanswerengine.ai',
+        logo: {
+          '@type': 'ImageObject',
+          url: 'https://theanswerengine.ai/logo.png',
+        },
       },
       mainEntityOfPage: {
         '@type': 'WebPage',
@@ -83,53 +85,59 @@ const jsonLd = {
     },
     {
       '@type': 'FAQPage',
-      '@id': `https://theanswerengine.ai/blog/${slug}#faq`,
       mainEntity: [
         {
           '@type': 'Question',
-          name: 'Does ChatGPT recommend chiropractors for local searches?',
+          name: 'How does ChatGPT decide which chiropractors to recommend?',
           acceptedAnswer: {
             '@type': 'Answer',
-            text: 'Yes. When patients ask ChatGPT Search or Perplexity for chiropractor recommendations, these platforms retrieve real-time web information including directory listings, Google Business Profile data, reviews, and website content. Chiropractors with strong, consistent signals across these sources appear in AI recommendations. Those without them are invisible, regardless of how long they have been in practice.',
+            text: 'ChatGPT evaluates entity authority signals including consistent business information across directories, depth of condition-specific content on your website, review volume and recency, third-party mentions from health publications, and structured schema markup. Practices with strong entity profiles across multiple platforms are far more likely to appear in recommendations.',
           },
         },
         {
           '@type': 'Question',
-          name: 'What directories should chiropractors list on for AI visibility?',
+          name: 'Why does AI recommend chiropractors I have never heard of?',
           acceptedAnswer: {
             '@type': 'Answer',
-            text: 'The highest-priority directories for chiropractic AI visibility are: Google Business Profile, Yelp, Healthgrades, Zocdoc (if you accept online bookings), WebMD Provider Directory, US News Health, and your state chiropractic board directory. The American Chiropractic Association provider directory also carries meaningful weight. The goal is consistent, accurate listings across sources that AI platforms trust as authoritative.',
+            text: 'AI platforms do not rank based on popularity or years in business. They rank based on information depth and trustworthiness. A newer practice with thorough condition pages, consistent citations, and structured data can outrank an established practice that has not optimized its digital presence for AI systems.',
           },
         },
         {
           '@type': 'Question',
-          name: 'How do patient reviews affect whether AI recommends my chiropractic practice?',
+          name: 'Does Google Business Profile help chiropractors get recommended by AI?',
           acceptedAnswer: {
             '@type': 'Answer',
-            text: 'Reviews are one of the most powerful signals for healthcare AI recommendations. AI platforms evaluate review volume, recency, average rating, and content quality. For chiropractic specifically, reviews that mention the conditions treated (back pain, sciatica, sports injuries, pregnancy care) are particularly valuable because they help AI match your practice to relevant patient queries. Google and Healthgrades reviews carry the most weight for chiropractic visibility.',
+            text: 'Yes, significantly. 70% of AI search systems access Google Business Profile data for local entity verification. Chiropractors with complete, regularly updated GBP profiles including services, hours, photos, and recent reviews are substantially more likely to appear in AI recommendations for local queries.',
           },
         },
         {
           '@type': 'Question',
-          name: 'Does having specializations like sports chiropractic or pediatric care help AI visibility?',
+          name: 'What content does AI look for on a chiropractic website?',
           acceptedAnswer: {
             '@type': 'Answer',
-            text: 'Yes, specializations are a significant advantage for AI recommendations. When a patient asks "chiropractor for sports injuries near me" or "chiropractor for pregnancy," AI platforms look for practices where that specialization is clearly documented across website content, schema markup, and reviews. Generalist chiropractors appear for broad queries but often miss the higher-value specialized searches. Documenting your specific techniques and patient populations in clear, crawlable content builds this specialization signal.',
+            text: 'AI platforms look for condition-specific pages covering back pain, neck pain, sciatica, sports injuries, and other common complaints. Generic homepage copy does not build AI authority. Each condition or service should have dedicated content that answers the questions patients are asking AI systems directly.',
           },
         },
         {
           '@type': 'Question',
-          name: 'How is getting found on AI search different from traditional SEO for chiropractors?',
+          name: 'How long does it take for a chiropractor to appear in AI search results?',
           acceptedAnswer: {
             '@type': 'Answer',
-            text: 'Traditional SEO for chiropractors focuses on ranking in Google for terms like "chiropractor near me" in the blue link results. AI search optimization means building the kind of documented, authoritative, consistent web presence that AI platforms use to name specific practices in their recommendations. The core signals overlap, but AI search weights structured data, review content quality, and cross-platform consistency more heavily than keyword density. A practice that does well in traditional SEO but lacks structured data and diverse review presence often underperforms in AI recommendations.',
+            text: 'Most chiropractic practices see initial AI citation improvements within 6 to 12 weeks of implementing structured optimization. Full entity establishment, where your practice is consistently recommended across multiple AI platforms, typically takes 3 to 6 months depending on the competitiveness of your local market.',
+          },
+        },
+        {
+          '@type': 'Question',
+          name: 'Do patient reviews help chiropractic AI search visibility?',
+          acceptedAnswer: {
+            '@type': 'Answer',
+            text: 'Reviews are one of the strongest trust signals AI platforms evaluate for healthcare providers. Reviews that mention specific conditions treated, techniques used, and outcomes achieved are especially valuable because they help AI systems understand your practice scope and build entity authority.',
           },
         },
       ],
     },
     {
       '@type': 'BreadcrumbList',
-      '@id': `https://theanswerengine.ai/blog/${slug}#breadcrumb`,
       itemListElement: [
         {
           '@type': 'ListItem',
@@ -163,488 +171,471 @@ export default function Page() {
       />
 
       {/* Breadcrumb */}
-      <nav className="max-w-4xl mx-auto px-6 pt-8 pb-2" aria-label="Breadcrumb">
+      <nav className="max-w-4xl mx-auto px-6 pt-8 pb-0">
         <ol className="flex items-center gap-2 text-sm text-gray-500">
-          <li>
-            <Link href="/" className="hover:text-[#FF6A00] transition-colors">Home</Link>
-          </li>
-          <li>/</li>
-          <li>
-            <Link href="/blog" className="hover:text-[#FF6A00] transition-colors">Blog</Link>
-          </li>
-          <li>/</li>
-          <li className="text-gray-300 truncate max-w-[200px]">{title}</li>
+          <li><Link href="/" className="hover:text-white transition-colors">Home</Link></li>
+          <li className="text-gray-600">/</li>
+          <li><Link href="/blog" className="hover:text-white transition-colors">Blog</Link></li>
+          <li className="text-gray-600">/</li>
+          <li className="text-gray-400 truncate">How Chiropractors Get Found on AI Search</li>
         </ol>
       </nav>
 
       {/* Hero */}
-      <header className="relative max-w-4xl mx-auto px-6 py-16 overflow-hidden">
-        <div className="absolute inset-0 opacity-5 pointer-events-none">
-          <svg width="100%" height="100%" xmlns="http://www.w3.org/2000/svg">
-            <defs>
-              <pattern id="gridchiro" width="40" height="40" patternUnits="userSpaceOnUse">
-                <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#FF6A00" strokeWidth="0.5" />
-              </pattern>
-            </defs>
-            <rect width="100%" height="100%" fill="url(#gridchiro)" />
-          </svg>
-        </div>
-        <div className="relative">
-          <div className="flex items-center gap-3 mb-6">
-            <span className="ae-section-label">Industry Guides</span>
-            <span className="text-gray-500 text-sm">April 9, 2026</span>
-            <span className="text-gray-500 text-sm">9 min read</span>
+      <section className="max-w-4xl mx-auto px-6 py-12">
+        <div className="relative rounded-2xl overflow-hidden bg-gradient-to-br from-[#1a1f2e] to-[#0F1117] border border-white/5 p-10">
+          <div className="absolute inset-0 opacity-10">
+            <svg width="100%" height="100%" xmlns="http://www.w3.org/2000/svg">
+              <defs>
+                <pattern id="chiro-grid-a194" x="0" y="0" width="40" height="40" patternUnits="userSpaceOnUse">
+                  <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#FF6A00" strokeWidth="0.5" />
+                </pattern>
+              </defs>
+              <rect width="100%" height="100%" fill="url(#chiro-grid-a194)" />
+            </svg>
           </div>
-          <h1 className="font-plus-jakarta text-4xl md:text-5xl font-bold text-white leading-tight mb-6">
-            How Chiropractors Get Found{' '}
-            <span className="text-[#FF6A00]">on AI Search</span>
-          </h1>
-          <p className="text-xl text-gray-300 leading-relaxed max-w-3xl">
-            Patients dealing with back pain, sciatica, or sports injuries are increasingly
-            asking ChatGPT and Perplexity to recommend a chiropractor instead of opening
-            Google. Most chiropractic practices are not showing up in those answers. Here
-            is what separates the ones that do.
-          </p>
+          <div className="relative z-10">
+            <div className="flex items-center gap-3 mb-6">
+              <span className="ae-section-label">Industry Guide</span>
+              <span className="ae-section-label" style={{ background: 'rgba(34,197,94,0.1)', color: '#22c55e', borderColor: 'rgba(34,197,94,0.2)' }}>Healthcare</span>
+            </div>
+            <h1 className="font-plus-jakarta text-4xl md:text-5xl font-bold text-white mb-6 leading-tight">
+              How Chiropractors Get Found on AI Search
+            </h1>
+            <p className="text-xl text-gray-300 mb-8 leading-relaxed">
+              When someone types "best chiropractor for lower back pain near me" into ChatGPT, the AI does not browse Yelp. It evaluates entity authority. Most chiropractic practices are completely invisible to this process.
+            </p>
+            <div className="flex items-center gap-6 text-sm text-gray-500">
+              <span>By The Answer Engine Team</span>
+              <span>10 min read</span>
+              <span>April 20, 2026</span>
+            </div>
+          </div>
         </div>
-      </header>
+      </section>
 
       {/* Stats Grid */}
-      <div className="max-w-4xl mx-auto px-6 mb-12">
+      <section className="max-w-4xl mx-auto px-6 mb-12">
         <div className="ae-stats-grid">
           <div className="ae-stat-card">
-            <div className="ae-stat-emoji">🔍</div>
-            <div className="ae-stat-value">165x</div>
-            <div className="ae-stat-label">Faster growth rate of AI search vs traditional search</div>
+            <div className="ae-stat-emoji">45%</div>
+            <div className="ae-stat-value">of Consumers</div>
+            <div className="ae-stat-label">now use AI to find local services, up from 6% one year ago</div>
           </div>
           <div className="ae-stat-card">
-            <div className="ae-stat-emoji">⭐</div>
-            <div className="ae-stat-value">92%</div>
-            <div className="ae-stat-label">Of patients require minimum 4-star rating before booking</div>
+            <div className="ae-stat-emoji">75%</div>
+            <div className="ae-stat-value">Health Queries</div>
+            <div className="ae-stat-label">on Google now trigger an AI Overview before any organic results</div>
           </div>
           <div className="ae-stat-card">
-            <div className="ae-stat-emoji">📍</div>
-            <div className="ae-stat-value">3-4</div>
-            <div className="ae-stat-label">Practices named per AI local recommendation response</div>
+            <div className="ae-stat-emoji">86%</div>
+            <div className="ae-stat-value">of AI Citations</div>
+            <div className="ae-stat-label">come from brand-managed sources like your own website and GBP</div>
           </div>
           <div className="ae-stat-card">
-            <div className="ae-stat-emoji">📱</div>
-            <div className="ae-stat-value">40%</div>
-            <div className="ae-stat-label">Of users under 35 now start local searches with AI</div>
+            <div className="ae-stat-emoji">3x</div>
+            <div className="ae-stat-value">Citation Rate</div>
+            <div className="ae-stat-label">for pages with proper schema markup vs pages without it</div>
           </div>
         </div>
-      </div>
+      </section>
 
-      {/* Article Body */}
-      <article className="max-w-4xl mx-auto px-6 pb-20">
-
-        {/* TOC */}
-        <div className="ae-toc mb-12">
-          <div className="ae-toc-title">In This Article</div>
+      {/* TOC */}
+      <section className="max-w-4xl mx-auto px-6 mb-12">
+        <div className="ae-toc">
+          <div className="ae-toc-title">What You Will Learn</div>
           <ol>
-            <li><a href="#how-patients-find-chiros">How Patients Are Finding Chiropractors Now</a></li>
-            <li><a href="#what-ai-reads">What AI Evaluates for Chiropractic Recommendations</a></li>
-            <li><a href="#reviews-for-chiro">Reviews: The Healthcare AI Signal</a></li>
-            <li><a href="#specialization-advantage">The Specialization Advantage</a></li>
-            <li><a href="#key-directories">Essential Directories for Chiropractic AI Visibility</a></li>
-            <li><a href="#website-signals">Website Signals That Matter</a></li>
-            <li><a href="#faq">Frequently Asked Questions</a></li>
+            <li><a href="#patient-discovery">How patients now discover chiropractors</a></li>
+            <li><a href="#ai-evaluation">What AI actually evaluates in a chiropractic practice</a></li>
+            <li><a href="#invisible-signals">The signals making most practices invisible</a></li>
+            <li><a href="#content-depth">Why condition-specific content is non-negotiable</a></li>
+            <li><a href="#platforms">Which AI platforms matter most for chiropractors</a></li>
+            <li><a href="#comparison">How strong vs weak practices compare on AI</a></li>
+            <li><a href="#faq">Frequently asked questions</a></li>
           </ol>
         </div>
+      </section>
 
-        {/* Section 1 */}
-        <section id="how-patients-find-chiros" className="mb-12">
-          <h2 className="font-plus-jakarta text-3xl font-bold text-white mb-4">
-            How Patients Are Finding Chiropractors Now
+      {/* Article Body */}
+      <article className="max-w-4xl mx-auto px-6">
+
+        <section id="patient-discovery">
+          <h2 className="font-plus-jakarta text-3xl font-bold text-white mt-12 mb-6">
+            The New Patient Discovery Reality
           </h2>
-          <p className="text-gray-300 leading-relaxed mb-4">
-            The patient acquisition funnel for chiropractic has shifted significantly in the
-            last two years. Word of mouth still matters. But the fastest-growing discovery
-            channel is AI assistants. A patient wakes up with acute lower back pain, reaches
-            for their phone, and types "chiropractor for lower back pain near me" into ChatGPT
-            or Perplexity instead of Google.
+          <p className="text-gray-300 leading-relaxed mb-6">
+            A patient wakes up with a pinched nerve. Their first instinct used to be Googling "chiropractor near me" and clicking through map results. That behavior is shifting fast. In 2026, a growing segment of patients opens ChatGPT, Perplexity, or Google AI and asks a conversational question: "Who is the best chiropractor for neck pain in [city]?"
           </p>
-          <p className="text-gray-300 leading-relaxed mb-4">
-            That patient receives a response naming two or three specific practices. They
-            read a brief description of each and contact one of them. The entire discovery
-            process happened without a single Google search result click. Practices not named
-            in that AI response did not exist for that patient in that moment.
+          <p className="text-gray-300 leading-relaxed mb-6">
+            The AI does not pull up a list of Yelp reviews. It does not scan Google Maps ratings the way a person would. It evaluates what it knows about each practice based on structured data, content depth, citation patterns, and entity consistency. Practices that have built strong entity authority get recommended. Practices that have not are invisible, no matter how many years they have been in business or how many happy patients they have treated.
           </p>
-          <p className="text-gray-300 leading-relaxed mb-4">
-            This is not a hypothetical future state. It is happening now, and the rate is
-            accelerating. Forty percent of users under thirty-five start local service
-            searches with AI rather than traditional search engines. That percentage grows
-            every month. For chiropractic practices that serve younger patients, sports
-            injuries, or pregnancy care, this demographic shift is especially significant.
+          <p className="text-gray-300 leading-relaxed mb-6">
+            This shift is happening faster in healthcare than in almost any other local service category. Healthcare queries consistently produce AI Overviews and direct recommendations from AI assistants. The Whitespark 2026 local search ranking factors report shows AI visibility depends most on on-page content at 24%, reviews at 16%, and directory listing accuracy at 13%. Chiropractic practices that do not optimize for these signals are handing patients to competitors who do.
           </p>
 
-          <div className="ae-callout ae-callout-info mb-6">
-            <div className="ae-callout-title">The Healthcare AI Trust Premium</div>
-            <p>
-              AI platforms apply extra scrutiny to healthcare recommendations. When someone
-              asks for a chiropractor, the platform is not just looking for a business that
-              seems popular. It is looking for a licensed, credentialed professional with
-              documented positive patient outcomes. This scrutiny benefits practices that
-              have built authoritative, verified web presences, and filters out practices
-              that have thin online documentation.
-            </p>
-          </div>
-
-          <div className="ae-cta-inline mb-6">
-            <p>
-              Want to know if ChatGPT is recommending your practice right now?{' '}
-              <Link href="/blindspot">
-                Get your free AI Blind Spot Report in minutes.
-              </Link>
-            </p>
+          <div className="ae-cta-inline">
+            <p>Not sure how AI sees your chiropractic practice right now? <Link href="/blindspot">Get your free Blind Spot Report</Link> and find out exactly where the gaps are.</p>
           </div>
         </section>
 
-        {/* Section 2 */}
-        <section id="what-ai-reads" className="mb-12">
-          <h2 className="font-plus-jakarta text-3xl font-bold text-white mb-4">
-            What AI Evaluates for Chiropractic Recommendations
+        <section id="ai-evaluation">
+          <h2 className="font-plus-jakarta text-3xl font-bold text-white mt-12 mb-6">
+            What AI Actually Evaluates in a Chiropractic Practice
           </h2>
-          <p className="text-gray-300 leading-relaxed mb-4">
-            AI platforms evaluating a chiropractic practice look for convergent evidence
-            from multiple independent sources. The more sources agree on who you are, what
-            you do, where you are located, and that patients have positive experiences, the
-            more confidently AI will recommend you.
+          <p className="text-gray-300 leading-relaxed mb-6">
+            AI platforms are not reading your website the way a person does. They are building a structured understanding of your business entity, asking implicit questions: Does this practice exist consistently across multiple sources? What conditions does it treat? Is it trusted by authoritative health platforms? What do patients say about specific outcomes?
           </p>
-          <p className="text-gray-300 leading-relaxed mb-4">
-            For healthcare practices specifically, licensure verification matters. If your
-            state chiropractic board maintains a public directory of licensed practitioners
-            and you appear there with consistent information, that is a strong independent
-            trust signal. AI platforms that evaluate healthcare providers give significant
-            weight to regulatory and professional body verification.
-          </p>
-          <p className="text-gray-300 leading-relaxed mb-4">
-            Beyond licensure, AI looks at your review profile across healthcare-specific
-            platforms like Healthgrades and Zocdoc alongside general platforms like Google
-            and Yelp. It reads your website to understand what conditions you treat, what
-            techniques you use, and who your ideal patients are. And it checks whether your
-            name, address, and phone are consistent everywhere you appear online.
+          <p className="text-gray-300 leading-relaxed mb-6">
+            The signals AI uses to evaluate a chiropractic practice fall into four categories. Understanding these categories is the foundation for knowing why some practices get recommended and others do not. <Link href="/blog/what-your-website-looks-like-to-an-ai-crawler" className="text-[#FF6A00] hover:text-orange-400 transition-colors">What AI crawlers see when they visit your website</Link> is fundamentally different from what a human visitor sees.
           </p>
 
-          <div className="ae-bar-group mb-8">
-            <div className="ae-bar-item">
-              <div className="ae-bar-label">Google Business Profile (reviews + info)</div>
-              <div className="ae-bar-track">
-                <div className="ae-bar-fill" style={{ width: '95%' }}></div>
+          <div className="ae-callout ae-callout-info">
+            <div className="ae-callout-title">Entity Authority vs SEO Rankings</div>
+            <p>Traditional SEO ranks pages. AI search ranks entities. Your chiropractic practice is an entity. The question is whether AI platforms have enough structured, consistent information about that entity to confidently recommend it to a patient in pain.</p>
+          </div>
+
+          <h3 className="font-plus-jakarta text-2xl font-bold text-white mt-10 mb-4">
+            The Four Pillars of Chiropractic AI Visibility
+          </h3>
+
+          <div className="ae-timeline">
+            <div className="ae-timeline-item">
+              <div className="ae-timeline-step">1</div>
+              <div>
+                <div className="ae-timeline-title">Entity Consistency</div>
+                <div className="ae-timeline-desc">Your practice name, address, and phone number must match exactly across your website, Google Business Profile, Yelp, Healthgrades, Zocdoc, and every other directory where you appear. Any contradiction creates what is called entity drift, which lowers AI confidence scores significantly.</div>
               </div>
-              <div className="ae-bar-value">Highest</div>
             </div>
-            <div className="ae-bar-item">
-              <div className="ae-bar-label">Healthgrades profile + reviews</div>
-              <div className="ae-bar-track">
-                <div className="ae-bar-fill" style={{ width: '85%' }}></div>
+            <div className="ae-timeline-item">
+              <div className="ae-timeline-step">2</div>
+              <div>
+                <div className="ae-timeline-title">Condition Content Depth</div>
+                <div className="ae-timeline-desc">AI systems need to understand what your practice actually treats. A generic homepage that says "we treat all conditions" is invisible. Separate pages for back pain, neck pain, sciatica, sports injuries, and other conditions signal expertise to AI systems that are trying to match a patient query to a specific practice.</div>
               </div>
-              <div className="ae-bar-value">Very High</div>
             </div>
-            <div className="ae-bar-item">
-              <div className="ae-bar-label">State chiropractic board directory</div>
-              <div className="ae-bar-track">
-                <div className="ae-bar-fill" style={{ width: '80%' }}></div>
+            <div className="ae-timeline-item">
+              <div className="ae-timeline-step">3</div>
+              <div>
+                <div className="ae-timeline-title">Review Quality and Specificity</div>
+                <div className="ae-timeline-desc">Volume matters, but specificity matters more for AI systems. Reviews that mention specific conditions, techniques, and outcomes give AI platforms richer data about what your practice actually does. "Great chiropractor" tells AI very little. "Resolved my herniated disc after two months of care" tells AI exactly what it needs to know.</div>
               </div>
-              <div className="ae-bar-value">High (licensure trust)</div>
             </div>
-            <div className="ae-bar-item">
-              <div className="ae-bar-label">Yelp reviews</div>
-              <div className="ae-bar-track">
-                <div className="ae-bar-fill" style={{ width: '70%' }}></div>
+            <div className="ae-timeline-item">
+              <div className="ae-timeline-step">4</div>
+              <div>
+                <div className="ae-timeline-title">Third-Party Validation</div>
+                <div className="ae-timeline-desc">AI platforms weight mentions from authoritative health sources heavily. Being listed in Healthgrades, included in a local health publication, or featured in a condition-specific directory creates the external validation AI looks for when deciding whether to recommend a practice.</div>
               </div>
-              <div className="ae-bar-value">High</div>
-            </div>
-            <div className="ae-bar-item">
-              <div className="ae-bar-label">Website content (conditions + techniques)</div>
-              <div className="ae-bar-track">
-                <div className="ae-bar-fill" style={{ width: '65%' }}></div>
-              </div>
-              <div className="ae-bar-value">Medium-High</div>
-            </div>
-            <div className="ae-bar-item">
-              <div className="ae-bar-label">American Chiropractic Association directory</div>
-              <div className="ae-bar-track">
-                <div className="ae-bar-fill" style={{ width: '55%' }}></div>
-              </div>
-              <div className="ae-bar-value">Medium</div>
             </div>
           </div>
         </section>
 
-        {/* Section 3 */}
-        <section id="reviews-for-chiro" className="mb-12">
-          <h2 className="font-plus-jakarta text-3xl font-bold text-white mb-4">
-            Reviews: The Healthcare AI Signal
+        <section id="invisible-signals">
+          <h2 className="font-plus-jakarta text-3xl font-bold text-white mt-12 mb-6">
+            The Signals Making Most Practices Invisible
           </h2>
-          <p className="text-gray-300 leading-relaxed mb-4">
-            For chiropractic practices, reviews function differently than for a restaurant
-            or a home service company. Patients choosing a chiropractor are making a
-            health decision. AI platforms weight healthcare reviews accordingly, looking
-            for evidence that a practice delivers real clinical results for real patients.
-          </p>
-          <p className="text-gray-300 leading-relaxed mb-4">
-            The most valuable reviews for chiropractic AI visibility are the ones that
-            mention specific conditions: "My sciatica went from debilitating to manageable
-            after four sessions," or "Dr. Smith is the only chiropractor who has ever helped
-            my chronic neck pain." These reviews tell AI two things: the practice treats
-            specific conditions, and they produce specific outcomes. Both are data points AI
-            uses to match practices to patient queries.
+          <p className="text-gray-300 leading-relaxed mb-6">
+            Most chiropractic practices were built for a world where patients called after seeing a sign or got a referral from a friend. The digital presence was secondary. Now that AI is the first stop for many patients in pain, the gaps in that digital presence are costing practices real appointment volume every single week.
           </p>
 
-          <div className="ae-callout ae-callout-success mb-6">
-            <div className="ae-callout-title">The Condition-Specific Review Strategy</div>
-            <p>
-              After each successful treatment, ask patients to leave a review and gently
-              suggest they mention what brought them in and how they feel now. You are not
-              scripting reviews. You are helping patients write accurate accounts of their
-              experience. The result is a review corpus that tells AI exactly what conditions
-              your practice excels at treating, which dramatically improves your match
-              probability for condition-specific queries.
-            </p>
-          </div>
-
-          <p className="text-gray-300 leading-relaxed mb-4">
-            Recency also matters. A practice with 80 reviews from 2022 and none from the
-            last six months sends a signal that the practice may have changed. AI platforms
-            weight recent reviews more heavily because they reflect current quality. Building
-            review collection into your standard post-visit workflow is the best way to
-            maintain a fresh, relevant review profile.
-          </p>
-
-          <div className="ae-cta-inline mb-6">
-            <p>
-              Want to see what your current review signals look like to AI platforms?{' '}
-              <Link href="/blindspot">
-                Your free Blind Spot Report includes a full review analysis.
-              </Link>
-            </p>
-          </div>
-        </section>
-
-        {/* Section 4 */}
-        <section id="specialization-advantage" className="mb-12">
-          <h2 className="font-plus-jakarta text-3xl font-bold text-white mb-4">
-            The Specialization Advantage
-          </h2>
-          <p className="text-gray-300 leading-relaxed mb-4">
-            Generalist chiropractic practices face the most competitive AI landscape. Every
-            "chiropractor near me" query puts them in direct competition with every other
-            practice in the area. Specialized practices have a significant structural advantage:
-            they appear for both general queries and specialized ones.
-          </p>
-          <p className="text-gray-300 leading-relaxed mb-4">
-            A practice that documents its expertise in sports chiropractic, pregnancy care,
-            pediatric chiropractic, or specific techniques like Active Release Technique or
-            Graston will appear in those specific patient queries where generalist practices
-            do not. "Chiropractor for marathon runners near me" or "pediatric chiropractor
-            for colic" are searches where specialization is not just helpful, it is necessary.
-          </p>
-
-          <div className="ae-pros-cons mb-8">
+          <div className="ae-pros-cons">
             <div className="ae-pros-box">
-              <h3>High-Value Specialization Queries</h3>
+              <h4>What AI-Visible Practices Do</h4>
               <ul>
-                <li>Sports chiropractic and athletic injury</li>
-                <li>Pregnancy and prenatal care (Webster Technique)</li>
-                <li>Pediatric chiropractic</li>
-                <li>Auto accident and whiplash injury</li>
-                <li>Sciatica and disc herniation</li>
-                <li>Headache and migraine management</li>
+                <li>Maintain consistent NAP data across 15 or more directories</li>
+                <li>Have dedicated pages for each major condition treated</li>
+                <li>Regularly update Google Business Profile with posts and photos</li>
+                <li>Accumulate reviews that mention specific conditions and outcomes</li>
+                <li>Use structured LocalBusiness and MedicalBusiness schema markup</li>
+                <li>Are listed and complete on Healthgrades and specialty health directories</li>
+                <li>Publish educational content about conditions they treat regularly</li>
               </ul>
             </div>
             <div className="ae-cons-box">
-              <h3>What Blocks AI from Seeing Your Specializations</h3>
+              <h4>What Invisible Practices Have in Common</h4>
               <ul>
-                <li>Generic "we treat all conditions" homepage copy</li>
-                <li>No dedicated pages for specific conditions or techniques</li>
-                <li>Missing schema markup for MedicalSpecialty</li>
-                <li>Reviews that do not mention specific conditions</li>
-                <li>No mention of certifications or advanced techniques</li>
-                <li>Conditions list buried or in PDFs AI cannot parse</li>
+                <li>Inconsistent name or address across different platforms</li>
+                <li>Generic homepage with no condition-specific pages</li>
+                <li>Outdated or incomplete Google Business Profile</li>
+                <li>Reviews that are sparse or purely generic</li>
+                <li>No schema markup on website pages</li>
+                <li>Absent from specialty health directories</li>
+                <li>No content that addresses patient questions directly</li>
               </ul>
             </div>
           </div>
 
-          <p className="text-gray-300 leading-relaxed mb-4">
-            The practical solution is to create dedicated content for each specialization
-            or condition type your practice treats. These do not need to be long pages.
-            They need to be clear and specific: what you treat, how you treat it, what
-            outcomes patients typically experience, and who is a good candidate. AI can
-            extract that information and use it to match your practice to relevant queries.
-          </p>
-        </section>
-
-        {/* Section 5 */}
-        <section id="key-directories" className="mb-12">
-          <h2 className="font-plus-jakarta text-3xl font-bold text-white mb-4">
-            Essential Directories for Chiropractic AI Visibility
-          </h2>
-          <p className="text-gray-300 leading-relaxed mb-6">
-            AI platforms cross-reference multiple directories to build a composite picture
-            of your practice. These are the directories that carry the most weight for
-            chiropractic AI recommendations:
-          </p>
-
-          <div className="overflow-x-auto mb-8">
-            <table className="ae-comparison-table">
-              <thead>
-                <tr>
-                  <th>Directory</th>
-                  <th>Why It Matters</th>
-                  <th>Priority</th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr>
-                  <td>Google Business Profile</td>
-                  <td>Foundation for all AI local recommendations</td>
-                  <td><span className="ae-tier-badge ae-tier-premium">Critical</span></td>
-                </tr>
-                <tr>
-                  <td>Healthgrades</td>
-                  <td>Primary healthcare review platform, heavily AI-indexed</td>
-                  <td><span className="ae-tier-badge ae-tier-premium">Critical</span></td>
-                </tr>
-                <tr>
-                  <td>State Chiropractic Board</td>
-                  <td>Licensure verification, high AI trust signal</td>
-                  <td><span className="ae-tier-badge ae-tier-premium">Critical</span></td>
-                </tr>
-                <tr>
-                  <td>Yelp</td>
-                  <td>Second highest review platform for local AI recommendations</td>
-                  <td><span className="ae-tier-badge" style={{backgroundColor:'#2563eb'}}>High</span></td>
-                </tr>
-                <tr>
-                  <td>WebMD Provider Directory</td>
-                  <td>Authoritative health platform, strong AI credibility</td>
-                  <td><span className="ae-tier-badge" style={{backgroundColor:'#2563eb'}}>High</span></td>
-                </tr>
-                <tr>
-                  <td>American Chiropractic Association</td>
-                  <td>Professional body verification signal</td>
-                  <td><span className="ae-tier-badge" style={{backgroundColor:'#6b7280'}}>Medium</span></td>
-                </tr>
-                <tr>
-                  <td>Zocdoc</td>
-                  <td>Patient booking platform, indexed by AI for local healthcare</td>
-                  <td><span className="ae-tier-badge" style={{backgroundColor:'#6b7280'}}>Medium</span></td>
-                </tr>
-              </tbody>
-            </table>
+          <div className="ae-callout ae-callout-warning">
+            <div className="ae-callout-title">The NAP Mismatch Problem</div>
+            <p>If your practice moved and updated your website but not your Yelp listing, Healthgrades profile, or older directory entries, AI systems see a contradiction. That contradiction registers as low entity confidence, not a fixable data error. The AI simply trusts you less and routes patients to competitors whose information is consistent.</p>
           </div>
 
-          <p className="text-gray-300 leading-relaxed mb-4">
-            NAP consistency across all of these directories is non-negotiable. If your
-            practice name appears slightly differently across listings, your city or zip
-            differs, or your phone number is outdated on any platform, AI reduces confidence
-            in your listing. Auditing and correcting these inconsistencies is foundational
-            work before any other optimization.
-          </p>
+          <div className="ae-cta-inline">
+            <p>Wondering which directories are hurting your entity score? <Link href="/blindspot">Your free Blind Spot Report</Link> shows every inconsistency AI platforms are finding across your digital presence.</p>
+          </div>
         </section>
 
-        {/* Section 6 */}
-        <section id="website-signals" className="mb-12">
-          <h2 className="font-plus-jakarta text-3xl font-bold text-white mb-4">
-            Website Signals That Matter for Chiropractic AI
+        <section id="content-depth">
+          <h2 className="font-plus-jakarta text-3xl font-bold text-white mt-12 mb-6">
+            Why Condition-Specific Content Is Non-Negotiable
           </h2>
-          <p className="text-gray-300 leading-relaxed mb-4">
-            Your website is where AI learns the most detailed information about your practice.
-            Directories tell AI you exist and where you are. Your website tells AI what you
-            do, who you serve, and why you are qualified. For that information to register,
-            it needs to be in clear, crawlable HTML, not PDFs, images, or JavaScript widgets.
+          <p className="text-gray-300 leading-relaxed mb-6">
+            The single biggest differentiator between chiropractic practices that get recommended by AI and those that do not is content depth. Specifically, condition-specific content that demonstrates genuine expertise in treating what patients are actually searching for.
           </p>
-          <p className="text-gray-300 leading-relaxed mb-4">
-            The most impactful website changes for chiropractic AI visibility are schema
-            markup additions. Adding MedicalBusiness or Physician schema with your
-            specializations, license number, and accepted conditions tells AI platforms
-            your key facts in structured, machine-readable format. Adding MedicalSpecialty
-            properties lets AI match your practice to specific condition queries.
+          <p className="text-gray-300 leading-relaxed mb-6">
+            When a patient asks ChatGPT "who treats sciatica near me," the AI is matching that query to practices it understands as sciatica treatment providers. If your website has no page, section, or explicit content about sciatica, AI cannot confidently include you in that recommendation, even if you treat it every single day.
+          </p>
+          <p className="text-gray-300 leading-relaxed mb-6">
+            This is not about keyword stuffing old-school SEO content. AI systems evaluate whether your content genuinely demonstrates expertise in treating the condition. The implicit question being answered is: does this practice understand this patient's problem well enough to be worth recommending?
           </p>
 
-          <div className="ae-cheat-sheet mb-8">
-            <div className="ae-cheat-sheet-title">Chiropractic AI Visibility Checklist</div>
+          <div className="ae-callout ae-callout-orange">
+            <div className="ae-callout-title">What We Tell You vs What We Do For You</div>
+            <p>We can tell you that condition-specific content depth matters more than almost any other single factor for chiropractic AI visibility. What we do not publish is the exact architecture, internal linking structure, or content framework we use to build it for clients. That is the service. Think of it like a chiropractor explaining that posture and spinal alignment matter without teaching you to adjust vertebrae on yourself.</p>
+          </div>
+
+          <h3 className="font-plus-jakarta text-2xl font-bold text-white mt-10 mb-4">
+            The Content Signals AI Platforms Evaluate
+          </h3>
+
+          <div className="ae-decision-matrix">
+            <div className="ae-decision-row">
+              <div className="ae-decision-if">Patient asks about back pain treatment</div>
+              <div className="ae-decision-arrow">AI checks</div>
+              <div className="ae-decision-then">Does this practice have dedicated back pain content? Is it detailed and authoritative, or generic?</div>
+            </div>
+            <div className="ae-decision-row">
+              <div className="ae-decision-if">Patient asks "chiropractor near [neighborhood]"</div>
+              <div className="ae-decision-arrow">AI checks</div>
+              <div className="ae-decision-then">Does this practice list consistent location data across multiple sources? Is it listed for that specific city or area?</div>
+            </div>
+            <div className="ae-decision-row">
+              <div className="ae-decision-if">Patient asks about sports injury treatment</div>
+              <div className="ae-decision-arrow">AI checks</div>
+              <div className="ae-decision-then">Does this practice explicitly treat athletes? Are there reviews mentioning sports injuries? Is it listed in sports health contexts?</div>
+            </div>
+            <div className="ae-decision-row">
+              <div className="ae-decision-if">Patient searches by technique name</div>
+              <div className="ae-decision-arrow">AI checks</div>
+              <div className="ae-decision-then">Does this practice explicitly describe using this technique? Is it mentioned in reviews or third-party sources as a provider of it?</div>
+            </div>
+          </div>
+        </section>
+
+        <section id="platforms">
+          <h2 className="font-plus-jakarta text-3xl font-bold text-white mt-12 mb-6">
+            Which AI Platforms Matter Most for Chiropractors
+          </h2>
+          <p className="text-gray-300 leading-relaxed mb-6">
+            Not all AI platforms behave the same way for healthcare recommendations. Understanding how each platform sources its data helps you prioritize where to invest your optimization effort first.
+          </p>
+
+          <table className="ae-comparison-table">
+            <thead>
+              <tr>
+                <th>AI Platform</th>
+                <th>Primary Source</th>
+                <th>What Matters Most</th>
+                <th>Patient Intent Level</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><strong>Google AI Overview</strong></td>
+                <td>Google index and GBP data</td>
+                <td>GBP completeness, reviews, schema markup</td>
+                <td>Highest: captures "near me" intent directly</td>
+              </tr>
+              <tr>
+                <td><strong>ChatGPT</strong></td>
+                <td>Training data and web browse</td>
+                <td>Website content depth, third-party mentions, structured data</td>
+                <td>High: often treatment-specific queries</td>
+              </tr>
+              <tr>
+                <td><strong>Perplexity</strong></td>
+                <td>Real-time web search</td>
+                <td>Freshness of web content, directory accuracy, health site mentions</td>
+                <td>Research-mode: comparing options before deciding</td>
+              </tr>
+              <tr>
+                <td><strong>Claude</strong></td>
+                <td>Training data primarily</td>
+                <td>Authoritative health content, clear entity signals across web</td>
+                <td>Information-seeking before scheduling</td>
+              </tr>
+              <tr>
+                <td><strong>Alexa+</strong></td>
+                <td>Yelp and Angi integrations</td>
+                <td>Yelp profile completeness, category accuracy, review recency</td>
+                <td>Voice-first: immediate appointment intent</td>
+              </tr>
+            </tbody>
+          </table>
+
+          <p className="text-gray-300 leading-relaxed mt-6 mb-6">
+            Google AI Overview matters most for immediate local discovery because it appears before any organic results. But ChatGPT matters for the growing segment of patients who bypass Google entirely and start their search in an AI assistant. <Link href="/blog/how-google-ai-mode-changes-local-business-discovery" className="text-[#FF6A00] hover:text-orange-400 transition-colors">Google AI Mode is reshaping local healthcare discovery</Link> faster than most providers realize.
+          </p>
+
+          <div className="ae-callout ae-callout-success">
+            <div className="ae-callout-title">The Platform Multiplier Effect</div>
+            <p>When you build a strong entity foundation, it tends to improve visibility across all AI platforms simultaneously. The signals that help Google AI Overview also help Perplexity and ChatGPT because they all look for the same fundamental entity consistency and content authority. You are not optimizing for individual platforms. You are building entity credibility that all platforms recognize.</p>
+          </div>
+        </section>
+
+        <section id="comparison">
+          <h2 className="font-plus-jakarta text-3xl font-bold text-white mt-12 mb-6">
+            How Strong vs Weak Chiropractic Practices Compare on AI
+          </h2>
+          <p className="text-gray-300 leading-relaxed mb-6">
+            To make this concrete, here is what the AI visibility gap actually looks like between a chiropractic practice that has built entity authority and one that has not. These are the patterns we see consistently across the local healthcare market.
+          </p>
+
+          <div className="ae-bar-group">
+            <div className="ae-bar-item">
+              <span className="ae-bar-label">Entity Consistency Score (Optimized)</span>
+              <div className="ae-bar-track">
+                <div className="ae-bar-fill" style={{ width: '88%', background: '#22c55e' }}></div>
+              </div>
+              <span className="ae-bar-value" style={{ color: '#22c55e' }}>88%</span>
+            </div>
+            <div className="ae-bar-item">
+              <span className="ae-bar-label">Entity Consistency Score (Typical)</span>
+              <div className="ae-bar-track">
+                <div className="ae-bar-fill" style={{ width: '31%', background: '#ef4444' }}></div>
+              </div>
+              <span className="ae-bar-value" style={{ color: '#ef4444' }}>31%</span>
+            </div>
+            <div className="ae-bar-item">
+              <span className="ae-bar-label">Condition Pages Indexed (Optimized)</span>
+              <div className="ae-bar-track">
+                <div className="ae-bar-fill" style={{ width: '90%', background: '#22c55e' }}></div>
+              </div>
+              <span className="ae-bar-value" style={{ color: '#22c55e' }}>12 or more</span>
+            </div>
+            <div className="ae-bar-item">
+              <span className="ae-bar-label">Condition Pages Indexed (Typical)</span>
+              <div className="ae-bar-track">
+                <div className="ae-bar-fill" style={{ width: '12%', background: '#ef4444' }}></div>
+              </div>
+              <span className="ae-bar-value" style={{ color: '#ef4444' }}>1 to 2</span>
+            </div>
+            <div className="ae-bar-item">
+              <span className="ae-bar-label">AI Platforms Visible On (Optimized)</span>
+              <div className="ae-bar-track">
+                <div className="ae-bar-fill" style={{ width: '80%', background: '#22c55e' }}></div>
+              </div>
+              <span className="ae-bar-value" style={{ color: '#22c55e' }}>4 to 5</span>
+            </div>
+            <div className="ae-bar-item">
+              <span className="ae-bar-label">AI Platforms Visible On (Typical)</span>
+              <div className="ae-bar-track">
+                <div className="ae-bar-fill" style={{ width: '8%', background: '#ef4444' }}></div>
+              </div>
+              <span className="ae-bar-value" style={{ color: '#ef4444' }}>0 to 1</span>
+            </div>
+          </div>
+
+          <div className="ae-cta-inline mt-8">
+            <p>Ready to understand where your chiropractic practice stands on AI right now? <Link href="/blindspot">Get your Blind Spot Report</Link> and see exactly what AI platforms see when a patient searches for what you treat.</p>
+          </div>
+        </section>
+
+        <section>
+          <h2 className="font-plus-jakarta text-3xl font-bold text-white mt-12 mb-6">
+            The Gap Between Knowing and Actually Getting Recommended
+          </h2>
+          <p className="text-gray-300 leading-relaxed mb-6">
+            Most chiropractors reading this already understand that AI search matters. The harder question is execution. Building entity authority requires coordinating your website content, your directory presence, your review strategy, and your schema implementation in a way that sends consistent signals to AI platforms simultaneously.
+          </p>
+          <p className="text-gray-300 leading-relaxed mb-6">
+            Doing one piece well and neglecting the others does not work. AI platforms evaluate the totality of your entity signal, not individual components in isolation. A beautiful website with inconsistent directory data still scores poorly. A fully optimized Google Business Profile with a thin, generic website still scores poorly. Everything needs to point in the same direction at the same time.
+          </p>
+          <p className="text-gray-300 leading-relaxed mb-6">
+            The framework for doing this correctly is what we build for clients. The principles in this article are the what and why. The exact architecture, sequencing, and coordinated implementation is what The Answer Engine delivers through our optimization process. <Link href="/blog/how-ai-decides-what-questions-to-answer-about-your-business" className="text-[#FF6A00] hover:text-orange-400 transition-colors">Understanding how AI decides which businesses to answer questions about</Link> is the foundation of that work.
+          </p>
+
+          <div className="ae-takeaway">
+            <div className="ae-takeaway-title">Key Takeaways</div>
+            <p>AI search for chiropractors evaluates entity authority, not keyword density. Practices getting recommended have consistent entity signals, condition-specific content, structured data, and strong health directory presence. Those gaps are fixable, but they require a coordinated approach, not a single tactic applied in isolation.</p>
+          </div>
+        </section>
+
+        {/* Cheat Sheet */}
+        <section>
+          <h2 className="font-plus-jakarta text-3xl font-bold text-white mt-12 mb-6">
+            Chiropractic AI Visibility Quick Audit
+          </h2>
+          <div className="ae-cheat-sheet">
+            <div className="ae-cheat-sheet-title">Where Does Your Practice Stand on These Signals?</div>
             <table>
               <thead>
                 <tr>
-                  <th>Category</th>
-                  <th>Action Item</th>
-                  <th>Priority</th>
+                  <th>Signal</th>
+                  <th>What to Check</th>
+                  <th>AI Impact Level</th>
                 </tr>
               </thead>
               <tbody>
                 <tr>
-                  <td>Directories</td>
-                  <td>Claim and complete Google Business Profile</td>
-                  <td><span className="ae-tier-badge ae-tier-premium">Critical</span></td>
+                  <td>NAP Consistency</td>
+                  <td>Name, address, phone identical across 10 or more directories</td>
+                  <td>Critical</td>
                 </tr>
                 <tr>
-                  <td>Directories</td>
-                  <td>Claim and complete Healthgrades profile</td>
-                  <td><span className="ae-tier-badge ae-tier-premium">Critical</span></td>
+                  <td>Google Business Profile</td>
+                  <td>Complete profile, recent posts, all services listed accurately</td>
+                  <td>Critical</td>
                 </tr>
                 <tr>
-                  <td>Reviews</td>
-                  <td>Build post-visit Google review request workflow</td>
-                  <td><span className="ae-tier-badge ae-tier-premium">Critical</span></td>
+                  <td>Condition Pages</td>
+                  <td>Dedicated pages for top 5 to 8 conditions you treat</td>
+                  <td>High</td>
                 </tr>
                 <tr>
-                  <td>Schema</td>
-                  <td>Add MedicalBusiness schema with specialties and license</td>
-                  <td><span className="ae-tier-badge" style={{backgroundColor:'#2563eb'}}>High</span></td>
+                  <td>Schema Markup</td>
+                  <td>LocalBusiness and MedicalBusiness schema present on key pages</td>
+                  <td>High</td>
                 </tr>
                 <tr>
-                  <td>Content</td>
-                  <td>Create dedicated pages for each condition you treat</td>
-                  <td><span className="ae-tier-badge" style={{backgroundColor:'#2563eb'}}>High</span></td>
+                  <td>Healthgrades Listing</td>
+                  <td>Complete profile with specialties and conditions listed</td>
+                  <td>Medium-High</td>
                 </tr>
                 <tr>
-                  <td>Content</td>
-                  <td>Add technique pages (Active Release, Graston, etc.)</td>
-                  <td><span className="ae-tier-badge" style={{backgroundColor:'#6b7280'}}>Medium</span></td>
+                  <td>Review Specificity</td>
+                  <td>Reviews mention specific conditions and outcomes, not just "great"</td>
+                  <td>Medium-High</td>
                 </tr>
                 <tr>
-                  <td>NAP</td>
-                  <td>Audit and fix inconsistencies across all directory listings</td>
-                  <td><span className="ae-tier-badge ae-tier-premium">Critical</span></td>
+                  <td>Technique Pages</td>
+                  <td>Pages describing specific techniques offered by your practice</td>
+                  <td>Medium</td>
+                </tr>
+                <tr>
+                  <td>Content Freshness</td>
+                  <td>Published or updated content within the last 60 days</td>
+                  <td>Medium</td>
                 </tr>
               </tbody>
             </table>
           </div>
+        </section>
 
-          <p className="text-gray-300 leading-relaxed mb-4">
-            For a broader understanding of how healthcare practices build AI authority, our
-            guide on{' '}
-            <Link href="/blog/how-dentists-show-up-ai-search" className="text-[#FF6A00] hover:underline">
-              how dentists get found on AI search
-            </Link>{' '}
-            covers many parallel signals that apply across all healthcare specialties.
-          </p>
-
-          <div className="ae-takeaway mb-8">
-            <div className="ae-takeaway-title">The Bottom Line</div>
-            <p>
-              Chiropractic practices that appear in AI recommendations have not gotten there
-              through luck or longevity. They have built the kind of documented, consistent,
-              credentialed web presence that AI platforms trust for healthcare recommendations.
-              That means verified directory listings, condition-specific review content,
-              structured data that communicates your specializations, and NAP consistency
-              across every platform where your practice appears. The practices building these
-              signals now will have a durable competitive advantage as AI continues to take
-              market share from traditional search.
-            </p>
+        <section className="my-12">
+          <div className="ae-quote">
+            <p>"A chiropractic practice open for 20 years with 500 reviews can be completely invisible to AI if its entity signals are inconsistent. A practice open for 18 months with the right optimization can be recommended daily. Entity authority is not about longevity. It is about clarity."</p>
+            <cite>The Answer Engine Team</cite>
           </div>
         </section>
 
-        {/* 3-tier CTA Block */}
+        {/* 3-Tier CTA Block */}
         <div className="not-prose my-16 p-8 rounded-2xl bg-gradient-to-br from-[#FF6A00]/10 to-transparent border border-[#FF6A00]/20">
           <h3 className="font-plus-jakarta text-2xl font-bold text-white mb-3">
             Find Out If AI Is Sending Patients to Your Competitors
           </h3>
           <p className="text-gray-400 mb-6">
-            Our free Blind Spot Report analyzes what ChatGPT, Perplexity, and Google AI
-            Overviews currently say when someone searches for a chiropractor in your area.
-            Find out where you stand before a competitor locks up the top recommendations.
+            Our Blind Spot Report shows exactly how ChatGPT, Perplexity, and Google AI currently see your chiropractic practice. You will see every entity gap, every missing signal, and exactly what needs to change. Most practices discover 6 to 10 fixable issues in the first audit.
           </p>
           <Link
             href="/blindspot"
@@ -656,19 +647,13 @@ export default function Page() {
             </svg>
           </Link>
           <div className="flex flex-wrap items-center gap-6 mt-6 pt-6 border-t border-[#FF6A00]/10">
-            <a
-              href="tel:+12134442229"
-              className="flex items-center gap-2 text-gray-400 hover:text-white transition-colors"
-            >
+            <a href="tel:+12134442229" className="flex items-center gap-2 text-gray-400 hover:text-white transition-colors">
               <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
               </svg>
               (213) 444-2229
             </a>
-            <a
-              href="mailto:support@theanswerengine.ai"
-              className="flex items-center gap-2 text-gray-400 hover:text-white transition-colors"
-            >
+            <a href="mailto:support@theanswerengine.ai" className="flex items-center gap-2 text-gray-400 hover:text-white transition-colors">
               <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
               </svg>
@@ -678,47 +663,49 @@ export default function Page() {
         </div>
 
         {/* Author Card */}
-        <div className="ae-author-card mb-12">
+        <div className="ae-author-card not-prose">
           <div className="ae-author-avatar">AE</div>
           <div>
-            <div className="font-semibold text-white">The Answer Engine Team</div>
-            <div className="text-gray-400 text-sm">
-              AI search optimization specialists helping local businesses get found by ChatGPT,
-              Perplexity, and Google AI. Based in Los Angeles.
-            </div>
+            <div className="font-plus-jakarta font-bold text-white">The Answer Engine Team</div>
+            <div className="text-gray-400 text-sm">AI Search Visibility Specialists</div>
+            <div className="text-gray-500 text-sm mt-1">We help local businesses get found by ChatGPT, Perplexity, Google AI, and every AI platform patients use to find services near them.</div>
           </div>
         </div>
 
-        {/* FAQ */}
-        <section id="faq" className="mb-12">
+        {/* FAQ Section */}
+        <section id="faq" className="not-prose mt-16">
           <h2 className="font-plus-jakarta text-3xl font-bold text-white mb-8">
             Frequently Asked Questions
           </h2>
           <div className="space-y-6">
             {[
               {
-                q: 'Does ChatGPT recommend chiropractors for local searches?',
-                a: 'Yes. When patients ask ChatGPT Search or Perplexity for chiropractor recommendations, these platforms retrieve real-time web information including directory listings, Google Business Profile data, reviews, and website content. Chiropractors with strong, consistent signals across these sources appear in AI recommendations. Those without them are invisible, regardless of how long they have been in practice.',
+                q: 'How does ChatGPT decide which chiropractors to recommend?',
+                a: 'ChatGPT evaluates entity authority signals including consistent business information across directories, depth of condition-specific content on your website, review volume and recency, third-party mentions from health publications, and structured schema markup. Practices with strong entity profiles across multiple platforms are far more likely to appear in recommendations.',
               },
               {
-                q: 'What directories should chiropractors list on for AI visibility?',
-                a: 'The highest-priority directories for chiropractic AI visibility are: Google Business Profile, Yelp, Healthgrades, Zocdoc (if you accept online bookings), WebMD Provider Directory, and your state chiropractic board directory. The American Chiropractic Association provider directory also carries meaningful weight. The goal is consistent, accurate listings across sources that AI platforms treat as authoritative.',
+                q: 'Why does AI recommend chiropractors I have never heard of?',
+                a: 'AI platforms do not rank based on popularity or years in business. They rank based on information depth and trustworthiness. A newer practice with thorough condition pages, consistent citations, and structured data can outrank an established practice that has not optimized its digital presence for AI systems.',
               },
               {
-                q: 'How do patient reviews affect whether AI recommends my chiropractic practice?',
-                a: 'Reviews are one of the most powerful signals for healthcare AI recommendations. AI platforms evaluate review volume, recency, average rating, and content quality. For chiropractic specifically, reviews that mention the conditions treated (back pain, sciatica, sports injuries, pregnancy care) are particularly valuable because they help AI match your practice to relevant patient queries. Google and Healthgrades reviews carry the most weight.',
+                q: 'Does Google Business Profile help chiropractors get recommended by AI?',
+                a: '70% of AI search systems access Google Business Profile data for local entity verification. Chiropractors with complete, regularly updated GBP profiles including services, hours, photos, and recent reviews are substantially more likely to appear in AI recommendations for local queries.',
               },
               {
-                q: 'Does having specializations like sports chiropractic or pediatric care help AI visibility?',
-                a: 'Yes, specializations are a significant advantage for AI recommendations. When a patient asks "chiropractor for sports injuries near me," AI platforms look for practices where that specialization is clearly documented across website content, schema markup, and reviews. Generalist chiropractors appear for broad queries but often miss the higher-value specialized searches.',
+                q: 'What content does AI look for on a chiropractic website?',
+                a: 'AI platforms look for condition-specific pages covering back pain, neck pain, sciatica, sports injuries, and other common complaints. Generic homepage copy does not build AI authority. Each condition or service should have dedicated content that answers the questions patients are asking AI systems directly.',
               },
               {
-                q: 'How is getting found on AI search different from traditional SEO for chiropractors?',
-                a: 'Traditional SEO focuses on ranking in Google for terms like "chiropractor near me" in the blue link results. AI search optimization means building the kind of documented, authoritative, consistent web presence that AI platforms use to name specific practices in their recommendations. AI search weights structured data, review content quality, and cross-platform consistency more heavily than keyword density.',
+                q: 'How long does it take for a chiropractor to appear in AI search results?',
+                a: 'Most chiropractic practices see initial AI citation improvements within 6 to 12 weeks of implementing structured optimization. Full entity establishment typically takes 3 to 6 months depending on the competitiveness of your local market.',
+              },
+              {
+                q: 'Do patient reviews help chiropractic AI search visibility?',
+                a: 'Reviews are one of the strongest trust signals AI platforms evaluate for healthcare providers. Reviews that mention specific conditions treated, techniques used, and outcomes achieved are especially valuable because they help AI systems build a detailed understanding of your practice scope.',
               },
             ].map(({ q, a }) => (
               <div key={q} className="border border-white/10 rounded-xl p-6">
-                <h3 className="font-plus-jakarta font-semibold text-white mb-3">{q}</h3>
+                <h3 className="font-plus-jakarta font-bold text-white mb-3">{q}</h3>
                 <p className="text-gray-400 leading-relaxed">{a}</p>
               </div>
             ))}
@@ -726,25 +713,27 @@ export default function Page() {
         </section>
 
         {/* Final CTA */}
-        <div className="ae-final-cta">
+        <div className="ae-final-cta not-prose mt-16">
           <h2 className="font-plus-jakarta text-3xl font-bold text-white mb-4">
-            Your Next Patient Is Asking an AI Right Now
+            Stop Sending Patients to Your Competitors
           </h2>
-          <p className="text-gray-400 mb-8">
-            Every day that passes without AI visibility is a day your competitors get those
-            recommendations instead. Find out exactly where you stand with a free Blind
-            Spot Report.
+          <p className="text-gray-300 mb-8 text-lg">
+            Every day your chiropractic practice is invisible to AI search, patients in pain are being directed somewhere else. Get your Blind Spot Report and find out exactly what AI sees when they search for what you treat.
           </p>
           <Link
             href="/blindspot"
-            className="ae-cta-primary inline-flex items-center gap-2"
+            className="inline-flex items-center gap-2 bg-[#FF6A00] text-white px-8 py-4 rounded-xl font-semibold text-lg hover:bg-[#e55f00] transition-colors ae-pulse-glow"
           >
-            Get My Free Blind Spot Report
+            Get Your Free Blind Spot Report
             <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
             </svg>
           </Link>
+          <p className="text-gray-500 text-sm mt-4">
+            Free. No credit card. Results in 24 hours. <a href="tel:+12134442229" className="text-[#FF6A00] hover:text-orange-400 transition-colors">(213) 444-2229</a>
+          </p>
         </div>
+
       </article>
     </>
   )

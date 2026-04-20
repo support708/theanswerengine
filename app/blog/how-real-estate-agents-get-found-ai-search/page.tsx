@@ -14,6 +14,8 @@ export const metadata: Metadata = {
     description: "Six AEO plays that put real estate agents in ChatGPT, Claude, Perplexity, and Google AI responses — with real examples from a top-producing LA agent.",
     type: 'article',
     url: 'https://theanswerengine.ai/blog/how-real-estate-agents-get-found-ai-search',
+    publishedTime: '2026-04-20',
+    authors: ['The Answer Engine Team'],
     images: [{ url: 'https://theanswerengine.ai/blog/how-real-estate-agents-get-found-ai-search.webp', width: 1200, height: 630 }],
   },
   twitter: {
@@ -35,8 +37,8 @@ const jsonLd = {
       "headline": "How Real Estate Agents Get Found on AI Search",
       "description": "82% of homebuyers now use AI for housing research. Learn why AI platforms recommend certain agents and how to become one of them.",
       "image": "https://theanswerengine.ai/blog/how-real-estate-agents-get-found-ai-search.webp",
-      "datePublished": "2026-03-24",
-      "dateModified": "2026-03-24",
+      "datePublished": "2026-04-20",
+      "dateModified": "2026-04-20",
       "author": {
         "@type": "Organization",
         "name": "The Answer Engine Team",
@@ -118,7 +120,7 @@ const jsonLd = {
       "itemListElement": [
         { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://theanswerengine.ai/" },
         { "@type": "ListItem", "position": 2, "name": "Blog", "item": "https://theanswerengine.ai/blog" },
-        { "@type": "ListItem", "position": 3, "name": "How Real Estate Agents Get Found on AI Search" }
+        { "@type": "ListItem", "position": 3, "name": "How Real Estate Agents Get Found on AI Search", "item": "https://theanswerengine.ai/blog/how-real-estate-agents-get-found-ai-search" }
       ]
     }
   ]
@@ -173,7 +175,7 @@ export default function HowRealEstateAgentsGetFoundAISearch() {
                 <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={2}>
                   <path strokeLinecap="round" strokeLinejoin="round" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
                 </svg>
-                <span>March 24, 2026</span>
+                <span>April 20, 2026</span>
               </div>
               <div className="flex items-center gap-2">
                 <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={2}>
@@ -354,29 +356,35 @@ export default function HowRealEstateAgentsGetFoundAISearch() {
             {/* BAR CHART */}
             <div className="ae-bar-group not-prose">
               <h3>AI Trust Signal Strength for Real Estate Agents</h3>
-              <div className="ae-bar-item" style={{ width: '92%' }}>
-                <span>Neighborhood-specific content with data</span>
-                <strong>92%</strong>
+              <div className="ae-bar-item">
+                <span className="ae-bar-label">Neighborhood-specific content with data</span>
+                <div className="ae-bar-track"><div className="ae-bar-fill" style={{ width: '92%' }} /></div>
+                <span className="ae-bar-value">92%</span>
               </div>
-              <div className="ae-bar-item" style={{ width: '85%' }}>
-                <span>Client testimonials on own website (HTML)</span>
-                <strong>85%</strong>
+              <div className="ae-bar-item">
+                <span className="ae-bar-label">Client testimonials on own website (HTML)</span>
+                <div className="ae-bar-track"><div className="ae-bar-fill" style={{ width: '85%' }} /></div>
+                <span className="ae-bar-value">85%</span>
               </div>
-              <div className="ae-bar-item" style={{ width: '80%' }}>
-                <span>Verified designations (CRS, ABR, etc.)</span>
-                <strong>80%</strong>
+              <div className="ae-bar-item">
+                <span className="ae-bar-label">Verified designations (CRS, ABR, etc.)</span>
+                <div className="ae-bar-track"><div className="ae-bar-fill" style={{ width: '80%' }} /></div>
+                <span className="ae-bar-value">80%</span>
               </div>
-              <div className="ae-bar-item" style={{ width: '75%' }}>
-                <span>Structured schema markup (RealEstateAgent)</span>
-                <strong>75%</strong>
+              <div className="ae-bar-item">
+                <span className="ae-bar-label">Structured schema markup (RealEstateAgent)</span>
+                <div className="ae-bar-track"><div className="ae-bar-fill" style={{ width: '75%' }} /></div>
+                <span className="ae-bar-value">75%</span>
               </div>
-              <div className="ae-bar-item" style={{ width: '40%' }}>
-                <span>Generic &quot;About Me&quot; page without specifics</span>
-                <strong>40%</strong>
+              <div className="ae-bar-item">
+                <span className="ae-bar-label">Generic About Me page without specifics</span>
+                <div className="ae-bar-track"><div className="ae-bar-fill" style={{ width: '40%' }} /></div>
+                <span className="ae-bar-value">40%</span>
               </div>
-              <div className="ae-bar-item" style={{ width: '15%', minWidth: '180px' }}>
-                <span>Zillow/Realtor.com profile only (no own site)</span>
-                <strong>15%</strong>
+              <div className="ae-bar-item">
+                <span className="ae-bar-label">Portal profile only, no personal website</span>
+                <div className="ae-bar-track"><div className="ae-bar-fill" style={{ width: '15%' }} /></div>
+                <span className="ae-bar-value">15%</span>
               </div>
             </div>
 
@@ -743,6 +751,19 @@ export default function HowRealEstateAgentsGetFoundAISearch() {
             </div>
           </div>
 
+          {/* AUTHOR CARD */}
+          <div className="ae-author-card not-prose">
+            <div className="w-12 h-12 rounded-full bg-[#FF6A00] flex items-center justify-center text-white font-bold text-lg shrink-0">
+              AE
+            </div>
+            <div>
+              <p className="text-white font-semibold">The Answer Engine Team</p>
+              <p className="text-sm text-gray-400">
+                We help real estate professionals and local service businesses get found, cited, and recommended by AI platforms. Our team tracks AI search trends daily so you do not have to.
+              </p>
+            </div>
+          </div>
+
           {/* FAQ SECTION */}
           <div className="prose prose-invert prose-lg max-w-none prose-headings:font-plus-jakarta prose-headings:text-white prose-p:text-gray-300 prose-a:text-[#FF6A00] prose-a:no-underline hover:prose-a:underline prose-strong:text-white">
             <span className="ae-section-label" id="faq">FAQ</span>
@@ -795,19 +816,6 @@ export default function HowRealEstateAgentsGetFoundAISearch() {
               </a>
             </div>
             <p className="text-sm text-gray-500 mt-4">No pitch, just the data. See what AI sees.</p>
-          </div>
-
-          {/* AUTHOR CARD */}
-          <div className="ae-author-card not-prose">
-            <div className="w-12 h-12 rounded-full bg-[#FF6A00] flex items-center justify-center text-white font-bold text-lg shrink-0">
-              AE
-            </div>
-            <div>
-              <p className="text-white font-semibold">The Answer Engine Team</p>
-              <p className="text-sm text-gray-400">
-                We help real estate professionals and local service businesses get found, cited, and recommended by AI platforms. Our team tracks AI search trends daily so you do not have to.
-              </p>
-            </div>
           </div>
 
         </article>
