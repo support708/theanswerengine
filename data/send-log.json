@@ -204,6 +204,12 @@
       "email": "Drhigashi@gmail.com",
       "type": "initial",
       "sentAt": "2026-04-19T17:30:52.690Z"
+    },
+    {
+      "leadId": "lead_1772944082786_iocujl",
+      "email": "roofinfo@biltwell.com",
+      "type": "follow_up_2",
+      "sentAt": "2026-04-20T16:00:28.256Z"
     }
   ]
 }
