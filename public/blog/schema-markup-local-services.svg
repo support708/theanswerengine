@@ -1,0 +1,89 @@
+<svg viewBox="0 0 1200 630" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background gradient -->
+  <defs>
+    <linearGradient id="bg-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0F1117;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#1a1a2e;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#0F1117;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="accent-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#FF6A00;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#E55A00;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="630" fill="url(#bg-gradient)"/>
+
+  <!-- Subtle grid pattern background -->
+  <g stroke="#FF6A00" stroke-width="0.5" opacity="0.08">
+    <line x1="0" y1="0" x2="1200" y2="630" />
+    <line x1="1200" y1="0" x2="0" y2="630" />
+    <line x1="0" y1="315" x2="1200" y2="315" />
+    <line x1="600" y1="0" x2="600" y2="630" />
+  </g>
+
+  <!-- Left side: Code snippet visual -->
+  <g>
+    <!-- Code bracket visual -->
+    <text x="80" y="120" font-family="'Monaco', 'Courier New', monospace" font-size="48" fill="#FF6A00" font-weight="bold">&lt;</text>
+    <rect x="70" y="160" width="120" height="280" fill="none" stroke="#FF6A00" stroke-width="2" rx="8" opacity="0.5"/>
+    <text x="90" y="210" font-family="'Monaco', 'Courier New', monospace" font-size="14" fill="#FF6A00" opacity="0.7">@type</text>
+    <text x="90" y="240" font-family="'Monaco', 'Courier New', monospace" font-size="14" fill="#FF6A00" opacity="0.6">name</text>
+    <text x="90" y="270" font-family="'Monaco', 'Courier New', monospace" font-size="14" fill="#FF6A00" opacity="0.5">address</text>
+    <text x="90" y="300" font-family="'Monaco', 'Courier New', monospace" font-size="14" fill="#FF6A00" opacity="0.4">geo</text>
+    <text x="90" y="330" font-family="'Monaco', 'Courier New', monospace" font-size="14" fill="#FF6A00" opacity="0.3">reviews</text>
+    <text x="80" y="440" font-family="'Monaco', 'Courier New', monospace" font-size="48" fill="#FF6A00" font-weight="bold">/&gt;</text>
+  </g>
+
+  <!-- Center: Data flow visualization -->
+  <g>
+    <!-- Three circles representing platforms -->
+    <circle cx="450" cy="150" r="45" fill="none" stroke="#FF6A00" stroke-width="2" opacity="0.8"/>
+    <text x="420" y="160" font-family="Arial, sans-serif" font-size="13" fill="#FF6A00" font-weight="bold">ChatGPT</text>
+
+    <circle cx="600" cy="300" r="45" fill="none" stroke="#FF6A00" stroke-width="2" opacity="0.8"/>
+    <text x="560" y="310" font-family="Arial, sans-serif" font-size="13" fill="#FF6A00" font-weight="bold">Google AI</text>
+
+    <circle cx="450" cy="450" r="45" fill="none" stroke="#FF6A00" stroke-width="2" opacity="0.8"/>
+    <text x="410" y="460" font-family="Arial, sans-serif" font-size="13" fill="#FF6A00" font-weight="bold">Perplexity</text>
+
+    <!-- Center point -->
+    <circle cx="600" cy="300" r="20" fill="#FF6A00" opacity="0.3"/>
+    <circle cx="600" cy="300" r="12" fill="none" stroke="#FF6A00" stroke-width="2"/>
+
+    <!-- Connecting lines -->
+    <line x1="485" y1="170" x2="570" y2="280" stroke="#FF6A00" stroke-width="1.5" opacity="0.4" stroke-dasharray="5,5"/>
+    <line x1="485" y1="430" x2="570" y2="320" stroke="#FF6A00" stroke-width="1.5" opacity="0.4" stroke-dasharray="5,5"/>
+    <line x1="450" y1="195" x2="450" y2="405" stroke="#FF6A00" stroke-width="1.5" opacity="0.4" stroke-dasharray="5,5"/>
+  </g>
+
+  <!-- Right side: Trust signals -->
+  <g>
+    <!-- LocalBusiness box -->
+    <rect x="850" y="80" width="280" height="140" fill="none" stroke="#FF6A00" stroke-width="2" rx="8" opacity="0.6"/>
+    <text x="870" y="110" font-family="'Segoe UI', sans-serif" font-size="16" font-weight="bold" fill="white">LocalBusiness</text>
+    <text x="870" y="135" font-family="'Segoe UI', sans-serif" font-size="12" fill="#aaa">✓ Name &amp; Address</text>
+    <text x="870" y="160" font-family="'Segoe UI', sans-serif" font-size="12" fill="#aaa">✓ Geo Coordinates</text>
+    <text x="870" y="185" font-family="'Segoe UI', sans-serif" font-size="12" fill="#aaa">✓ Service Areas</text>
+    <text x="870" y="210" font-family="'Segoe UI', sans-serif" font-size="12" fill="#aaa">✓ Hours &amp; Reviews</text>
+
+    <!-- Service box -->
+    <rect x="850" y="250" width="280" height="140" fill="none" stroke="#FF6A00" stroke-width="2" rx="8" opacity="0.6"/>
+    <text x="870" y="280" font-family="'Segoe UI', sans-serif" font-size="16" font-weight="bold" fill="white">Service Schema</text>
+    <text x="870" y="305" font-family="'Segoe UI', sans-serif" font-size="12" fill="#aaa">✓ Service Type</text>
+    <text x="870" y="330" font-family="'Segoe UI', sans-serif" font-size="12" fill="#aaa">✓ Pricing &amp; Area</text>
+    <text x="870" y="355" font-family="'Segoe UI', sans-serif" font-size="12" fill="#aaa">✓ Availability</text>
+    <text x="870" y="380" font-family="'Segoe UI', sans-serif" font-size="12" fill="#aaa">✓ Ratings</text>
+  </g>
+
+  <!-- Top accent bar -->
+  <rect x="0" y="0" width="1200" height="6" fill="url(#accent-gradient)"/>
+
+  <!-- Title overlay (bottom right) -->
+  <text x="600" y="570" font-family="'Segoe UI', 'Poppins', sans-serif" font-size="28" font-weight="bold" fill="white" text-anchor="middle">Schema.org Markup for Local Services</text>
+  <text x="600" y="600" font-family="'Segoe UI', 'DM Sans', sans-serif" font-size="16" fill="#aaa" text-anchor="middle">Master JSON-LD Implementation • AI Visibility Guide</text>
+
+  <!-- Watermark -->
+  <text x="20" y="610" font-family="'Segoe UI', sans-serif" font-size="12" fill="#666" opacity="0.5">theanswerengine.ai</text>
+</svg>

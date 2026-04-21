@@ -1,0 +1,101 @@
+<svg viewBox="0 0 1200 630" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <defs>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0a0a0a;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1a1a1a;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="accentGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#ff6a00;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#ff8533;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="630" fill="url(#bgGradient)"/>
+
+  <!-- Decorative circles -->
+  <circle cx="1100" cy="80" r="120" fill="rgba(255, 106, 0, 0.08)"/>
+  <circle cx="100" cy="550" r="100" fill="rgba(255, 106, 0, 0.06)"/>
+
+  <!-- Main content -->
+  <g>
+    <!-- ChatGPT icon representation -->
+    <circle cx="900" cy="150" r="45" fill="rgba(255, 106, 0, 0.15)" stroke="rgba(255, 106, 0, 0.3)" stroke-width="2"/>
+    <text x="900" y="165" font-size="48" font-weight="bold" fill="#ff6a00" text-anchor="middle" font-family="Arial, sans-serif">💬</text>
+
+    <!-- Checkmark icon -->
+    <circle cx="900" cy="350" r="45" fill="rgba(255, 106, 0, 0.15)" stroke="rgba(255, 106, 0, 0.3)" stroke-width="2"/>
+    <text x="900" y="365" font-size="48" font-weight="bold" fill="#ff6a00" text-anchor="middle" font-family="Arial, sans-serif">✓</text>
+
+    <!-- Business icon -->
+    <circle cx="900" cy="550" r="45" fill="rgba(255, 106, 0, 0.15)" stroke="rgba(255, 106, 0, 0.3)" stroke-width="2"/>
+    <text x="900" y="565" font-size="48" font-weight="bold" fill="#ff6a00" text-anchor="middle" font-family="Arial, sans-serif">🏢</text>
+  </g>
+
+  <!-- Main headline -->
+  <text x="80" y="100" font-size="56" font-weight="800" fill="white" font-family="Arial, sans-serif" letter-spacing="-1">
+    Get Cited in
+  </text>
+  <text x="80" y="170" font-size="56" font-weight="800" fill="white" font-family="Arial, sans-serif" letter-spacing="-1">
+    ChatGPT
+  </text>
+
+  <!-- Accent line -->
+  <line x1="80" y1="195" x2="280" y2="195" stroke="url(#accentGradient)" stroke-width="4" stroke-linecap="round"/>
+
+  <!-- Subheading -->
+  <text x="80" y="250" font-size="22" fill="#ccc" font-family="Arial, sans-serif" font-weight="400">
+    The Complete Guide for Local Service Businesses
+  </text>
+
+  <!-- Key points -->
+  <text x="80" y="320" font-size="18" fill="#999" font-family="Arial, sans-serif">
+    • NAP Consistency & Schema Markup
+  </text>
+  <text x="80" y="360" font-size="18" fill="#999" font-family="Arial, sans-serif">
+    • E-E-A-T Signals &amp; Review Strategy
+  </text>
+  <text x="80" y="400" font-size="18" fill="#999" font-family="Arial, sans-serif">
+    • Content Optimization for AI Extraction
+  </text>
+
+  <!-- Stat boxes -->
+  <g>
+    <!-- Box 1 -->
+    <rect x="80" y="450" width="150" height="130" fill="rgba(255, 106, 0, 0.08)" stroke="rgba(255, 106, 0, 0.2)" stroke-width="1" rx="8"/>
+    <text x="155" y="485" font-size="32" font-weight="800" fill="#ff6a00" text-anchor="middle" font-family="Arial, sans-serif">4.4x</text>
+    <text x="155" y="510" font-size="13" fill="#999" text-anchor="middle" font-family="Arial, sans-serif">Higher conversion</text>
+    <text x="155" y="527" font-size="13" fill="#999" text-anchor="middle" font-family="Arial, sans-serif">from AI citations</text>
+    <text x="155" y="545" font-size="13" fill="#999" text-anchor="middle" font-family="Arial, sans-serif">vs organic search</text>
+  </g>
+
+  <g>
+    <!-- Box 2 -->
+    <rect x="260" y="450" width="150" height="130" fill="rgba(255, 106, 0, 0.08)" stroke="rgba(255, 106, 0, 0.2)" stroke-width="1" rx="8"/>
+    <text x="335" y="485" font-size="32" font-weight="800" fill="#ff6a00" text-anchor="middle" font-family="Arial, sans-serif">1.2%</text>
+    <text x="335" y="510" font-size="13" fill="#999" text-anchor="middle" font-family="Arial, sans-serif">of local businesses</text>
+    <text x="335" y="527" font-size="13" fill="#999" text-anchor="middle" font-family="Arial, sans-serif">currently cited in</text>
+    <text x="335" y="545" font-size="13" fill="#999" text-anchor="middle" font-family="Arial, sans-serif">ChatGPT responses</text>
+  </g>
+
+  <g>
+    <!-- Box 3 -->
+    <rect x="440" y="450" width="150" height="130" fill="rgba(255, 106, 0, 0.08)" stroke="rgba(255, 106, 0, 0.2)" stroke-width="1" rx="8"/>
+    <text x="515" y="485" font-size="32" font-weight="800" fill="#ff6a00" text-anchor="middle" font-family="Arial, sans-serif">8 wks</text>
+    <text x="515" y="510" font-size="13" fill="#999" text-anchor="middle" font-family="Arial, sans-serif">Time to consistent</text>
+    <text x="515" y="527" font-size="13" fill="#999" text-anchor="middle" font-family="Arial, sans-serif">ChatGPT citations</text>
+    <text x="515" y="545" font-size="13" fill="#999" text-anchor="middle" font-family="Arial, sans-serif">when optimized</text>
+  </g>
+
+  <!-- Corner accent -->
+  <rect x="620" y="450" width="200" height="130" fill="rgba(255, 106, 0, 0.02)" stroke="url(#accentGradient)" stroke-width="2" rx="8"/>
+  <text x="720" y="515" font-size="16" fill="#ff6a00" text-anchor="middle" font-family="Arial, sans-serif" font-weight="600">
+    Real Case Study
+  </text>
+  <text x="720" y="540" font-size="14" fill="#999" text-anchor="middle" font-family="Arial, sans-serif">
+    Property manager: 12
+  </text>
+  <text x="720" y="560" font-size="14" fill="#999" text-anchor="middle" font-family="Arial, sans-serif">
+    citations in 8 weeks
+  </text>
+</svg>

@@ -1,0 +1,87 @@
+<svg viewBox="0 0 1200 630" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <defs>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0A0A0F;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1a1a25;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="accentGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#FF6A00;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#FF8533;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+
+  <!-- Base background -->
+  <rect width="1200" height="630" fill="url(#bgGradient)"/>
+
+  <!-- Subtle grid pattern -->
+  <defs>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="rgba(255,255,255,0.03)" stroke-width="0.5"/>
+    </pattern>
+  </defs>
+  <rect width="1200" height="630" fill="url(#grid)" />
+
+  <!-- Authority pyramid illustration -->
+  <g transform="translate(150, 80)">
+    <!-- Top tier (Government/Licensing) -->
+    <rect x="100" y="0" width="200" height="50" fill="url(#accentGradient)" rx="4" opacity="0.9"/>
+    <text x="200" y="32" font-family="Plus Jakarta Sans, sans-serif" font-size="16" font-weight="700" fill="white" text-anchor="middle">Government/Licensing</text>
+
+    <!-- Second tier (Professional Associations) -->
+    <rect x="50" y="65" width="300" height="50" fill="url(#accentGradient)" rx="4" opacity="0.75"/>
+    <text x="200" y="97" font-family="Plus Jakarta Sans, sans-serif" font-size="16" font-weight="700" fill="white" text-anchor="middle">Professional Associations</text>
+
+    <!-- Third tier (Verified Directories) -->
+    <rect x="0" y="130" width="400" height="50" fill="url(#accentGradient)" rx="4" opacity="0.6"/>
+    <text x="200" y="162" font-family="Plus Jakarta Sans, sans-serif" font-size="16" font-weight="700" fill="white" text-anchor="middle">Verified Directories & Review Platforms</text>
+
+    <!-- Bottom tier (Generic Directories) -->
+    <rect x="-50" y="195" width="500" height="50" fill="url(#accentGradient)" rx="4" opacity="0.4"/>
+    <text x="200" y="227" font-family="Plus Jakarta Sans, sans-serif" font-size="16" font-weight="700" fill="white" text-anchor="middle">Generic Directories (Low Authority)</text>
+
+    <!-- Authority label on left -->
+    <text x="-40" y="115" font-family="Plus Jakarta Sans, sans-serif" font-size="14" fill="#FF6A00" font-weight="600" text-anchor="end">HIGH</text>
+    <text x="-40" y="220" font-family="Plus Jakarta Sans, sans-serif" font-size="14" fill="#666" font-weight="600" text-anchor="end">LOW</text>
+
+    <!-- Arrows showing impact -->
+    <g stroke="#FF6A00" stroke-width="2" fill="none" stroke-linecap="round">
+      <line x1="450" y1="25" x2="550" y2="25" opacity="0.6"/>
+      <line x1="550" y1="25" x2="540" y2="20" opacity="0.6"/>
+      <line x1="550" y1="25" x2="540" y2="30" opacity="0.6"/>
+    </g>
+  </g>
+
+  <!-- Right side: Key metrics -->
+  <g transform="translate(700, 100)">
+    <!-- Metric 1: 20-30 citations -->
+    <circle cx="30" cy="30" r="20" fill="#FF6A00" opacity="0.2" stroke="#FF6A00" stroke-width="2"/>
+    <text x="30" y="35" font-family="Plus Jakarta Sans, sans-serif" font-size="16" font-weight="700" fill="#FF6A00" text-anchor="middle">20</text>
+    <text x="70" y="25" font-family="Plus Jakarta Sans, sans-serif" font-size="14" fill="white" font-weight="600">High-Impact</text>
+    <text x="70" y="42" font-family="Plus Jakarta Sans, sans-serif" font-size="14" fill="white" font-weight="600">Citations Needed</text>
+
+    <!-- Metric 2: 90 days timeline -->
+    <circle cx="30" cy="110" r="20" fill="#FF6A00" opacity="0.2" stroke="#FF6A00" stroke-width="2"/>
+    <text x="30" y="115" font-family="Plus Jakarta Sans, sans-serif" font-size="16" font-weight="700" fill="#FF6A00" text-anchor="middle">90</text>
+    <text x="70" y="105" font-family="Plus Jakarta Sans, sans-serif" font-size="14" fill="white" font-weight="600">Day Timeline</text>
+    <text x="70" y="122" font-family="Plus Jakarta Sans, sans-serif" font-size="14" fill="white" font-weight="600">for AI Lift</text>
+
+    <!-- Metric 3: 10x authority -->
+    <circle cx="30" cy="190" r="20" fill="#FF6A00" opacity="0.2" stroke="#FF6A00" stroke-width="2"/>
+    <text x="30" y="192" font-family="Plus Jakarta Sans, sans-serif" font-size="14" font-weight="700" fill="#FF6A00" text-anchor="middle">10x</text>
+    <text x="70" y="180" font-family="Plus Jakarta Sans, sans-serif" font-size="14" fill="white" font-weight="600">Authority Weight</text>
+    <text x="70" y="197" font-family="Plus Jakarta Sans, sans-serif" font-size="14" fill="white" font-weight="600">Premium vs Generic</text>
+
+    <!-- Metric 4: NAP consistency -->
+    <circle cx="30" cy="270" r="20" fill="#FF6A00" opacity="0.2" stroke="#FF6A00" stroke-width="2"/>
+    <text x="30" y="278" font-family="Plus Jakarta Sans, sans-serif" font-size="14" font-weight="700" fill="#FF6A00" text-anchor="middle">73%</text>
+    <text x="70" y="263" font-family="Plus Jakarta Sans, sans-serif" font-size="14" fill="white" font-weight="600">Have NAP Issues</text>
+    <text x="70" y="280" font-family="Plus Jakarta Sans, sans-serif" font-size="14" fill="white" font-weight="600">That Hurt Authority</text>
+  </g>
+
+  <!-- Bottom banner: The insight -->
+  <rect x="0" y="520" width="1200" height="110" fill="rgba(255, 106, 0, 0.08)" stroke="rgba(255, 106, 0, 0.3)" stroke-width="2"/>
+  <text x="600" y="555" font-family="Plus Jakarta Sans, sans-serif" font-size="18" fill="#FF6A00" text-anchor="middle" font-weight="700">CITATIONS ARE THE NEW AUTHORITY SIGNAL</text>
+  <text x="600" y="590" font-family="Plus Jakarta Sans, sans-serif" font-size="16" fill="white" text-anchor="middle" font-weight="500">One licensing board citation outweighs 100 generic directory listings.</text>
+  <text x="600" y="612" font-family="Plus Jakarta Sans, sans-serif" font-size="16" fill="white" text-anchor="middle" font-weight="500">Third-party verification is what AI uses to decide who to recommend.</text>
+</svg>
