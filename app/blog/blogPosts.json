@@ -1,5 +1,96 @@
 [
   {
+    "id": 207,
+    "title": "How to Get Your Business Cited in ChatGPT (And Why It Matters for Local Services)",
+    "slug": "how-to-get-cited-in-chatgpt",
+    "excerpt": "Step-by-step guide to getting your local business cited in ChatGPT. Learn NAP consistency, schema markup, E-E-A-T signals, and the exact tactics that make ChatGPT recommend you instead of competitors. Real case study included.",
+    "category": "ChatGPT Optimization",
+    "author": "The Answer Engine Team",
+    "readTime": "12 min",
+    "image": "/blog/how-to-get-cited-in-chatgpt.svg",
+    "publishDate": "2026-04-21",
+    "lastModified": "2026-04-21",
+    "featured": true,
+    "tags": [
+      "ChatGPT Citations",
+      "Get Cited ChatGPT",
+      "Local Business",
+      "AEO",
+      "NAP Consistency",
+      "Schema Markup",
+      "E-E-A-T Signals",
+      "AI Visibility"
+    ]
+  },
+  {
+    "id": 206,
+    "title": "Citation Strategy: How Local Businesses Build Authority for AI Search",
+    "slug": "citation-strategy-how-local-businesses-build-authority-for-ai-search",
+    "excerpt": "Master citation strategy for AI platforms. Learn which citations matter most, how to prioritize sources, timeline expectations, and proven tactics to dominate AI search in your market.",
+    "category": "Authority Building",
+    "author": "The Answer Engine Team",
+    "readTime": "14 min",
+    "image": "/blog/citation-strategy-how-local-businesses-build-authority-for-ai-search.svg",
+    "publishDate": "2026-04-21",
+    "lastModified": "2026-04-21",
+    "featured": true,
+    "tags": [
+      "Citation Strategy",
+      "Authority Building",
+      "AI Search",
+      "Local Business",
+      "Directory Citations",
+      "NAP Data",
+      "Business Visibility",
+      "Answer Engine Optimization"
+    ]
+  },
+  {
+    "id": 205,
+    "title": "Schema.org Markup for Local Services: The Complete Implementation Guide",
+    "slug": "schema-markup-local-services",
+    "excerpt": "Master JSON-LD schema markup for local service businesses. Step-by-step guide with code examples, best practices, validation tools, and real case studies. Get your business visible to AI search engines in 2026.",
+    "category": "Technical SEO",
+    "author": "The Answer Engine Team",
+    "readTime": "12 min",
+    "image": "/blog/schema-markup-local-services.svg",
+    "publishDate": "2026-04-21",
+    "lastModified": "2026-04-21",
+    "featured": true,
+    "tags": [
+      "Schema Markup",
+      "JSON-LD",
+      "LocalBusiness",
+      "Structured Data",
+      "AEO",
+      "AI Visibility",
+      "Local SEO"
+    ]
+  },
+  {
+    "id": 0,
+    "title": "AEO Fundamentals: What Every Local Service Business Needs to Know About AI Search",
+    "slug": "aeo-fundamentals",
+    "excerpt": "Master Answer Engine Optimization in 2026. Learn how ChatGPT, Claude, and Perplexity rank local businesses, and the 5 core signals that drive AI visibility.",
+    "category": "Education",
+    "author": "The Answer Engine Team",
+    "readTime": "18 min",
+    "image": "/blog/aeo-fundamentals.svg",
+    "publishDate": "2026-04-21",
+    "lastModified": "2026-04-21",
+    "featured": true,
+    "tags": [
+      "AEO",
+      "Education",
+      "AI Search",
+      "Local Business",
+      "Answer Engine Optimization",
+      "ChatGPT",
+      "Schema Markup",
+      "E-E-A-T"
+    ]
+  },
+  {
     "id": 1,
     "title": "How Much Does ChatGPT Optimization Cost? (Real Pricing for Local Businesses in 2025)",
     "slug": "chatgpt-optimization-cost",
@@ -4157,6 +4248,52 @@
       "AI Citations",
       "AEO",
       "Content Types"
+    ]
+  },
+  {
+    "id": 202,
+    "title": "How Pest Control Companies Get Found on AI Search (ChatGPT, Gemini, Claude)",
+    "slug": "how-pest-control-companies-get-found-on-ai-search",
+    "excerpt": "Most pest control companies are invisible on ChatGPT, Gemini, and Claude. Here is exactly how local pest control companies get cited in AI search results, which schema patterns work, and how to win location-based queries.",
+    "category": "Industry Guides",
+    "author": "The Answer Engine Team",
+    "readTime": "14 min",
+    "image": "/blog/how-pest-control-companies-get-found-on-ai-search.svg",
+    "publishDate": "2026-04-21",
+    "lastModified": "2026-04-21",
+    "featured": true,
+    "tags": [
+      "Pest Control",
+      "AI Search",
+      "ChatGPT",
+      "Gemini",
+      "Local SEO",
+      "Schema Markup",
+      "AEO",
+      "Home Services"
+    ]
+  },
+  {
+    "id": 203,
+    "title": "How Roofing Companies Get Found on AI Search (ChatGPT, Gemini, Claude)",
+    "slug": "how-roofing-companies-get-found-on-ai-search",
+    "excerpt": "Roofing companies miss out on AI citations because their content doesn't match the patterns ChatGPT, Gemini, and Claude actually pull from. Here's exactly how to get cited in AI search results.",
+    "category": "Industry Guides",
+    "author": "The Answer Engine Team",
+    "readTime": "12 min",
+    "image": "/blog/how-roofing-companies-get-found-on-ai-search.svg",
+    "publishDate": "2026-04-21",
+    "lastModified": "2026-04-21",
+    "featured": true,
+    "tags": [
+      "Roofing",
+      "AI Search",
+      "ChatGPT",
+      "Gemini",
+      "Local SEO",
+      "Schema Markup",
+      "AEO",
+      "Home Services"
     ]
   }
 ]

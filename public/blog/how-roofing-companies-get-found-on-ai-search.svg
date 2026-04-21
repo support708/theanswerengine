@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" width="1600" height="900">
+  <defs>
+    <linearGradient id="gradRoof" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1e2235;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#2a2637;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <rect width="1600" height="900" fill="url(#gradRoof)"/>
+  <text x="800" y="450" font-size="72" font-family="DM Sans, sans-serif" fill="#FF6A00" text-anchor="middle" font-weight="bold">Roofing Company AI Search</text>
+  <text x="800" y="550" font-size="36" font-family="DM Sans, sans-serif" fill="#ffffff" text-anchor="middle" opacity="0.7">Getting Found on ChatGPT, Gemini & Claude</text>
+</svg>
