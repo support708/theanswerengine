@@ -1,5 +1,99 @@
 [
   {
+    "id": 212,
+    "title": "Does Having a Wikipedia Page Help AI Find Your Business?",
+    "slug": "does-having-a-wikipedia-page-help-ai-find-you",
+    "excerpt": "Should small businesses focus on getting Wikipedia articles? Learn the truth about Wikipedia and AI search visibility for local services.",
+    "category": "Myth Busters",
+    "author": "The Answer Engine Team",
+    "readTime": "7 min",
+    "image": "/blog/does-having-a-wikipedia-page-help-ai-find-you.svg",
+    "publishDate": "2026-04-21",
+    "lastModified": "2026-04-21",
+    "featured": true,
+    "tags": [
+      "Wikipedia",
+      "AI Search",
+      "Local Business",
+      "Myth Buster"
+    ]
+  },
+  {
+    "id": 211,
+    "title": "How Dog Groomers and Pet Services Win AI Citations",
+    "slug": "how-dog-groomers-and-pet-services-win-ai-citations",
+    "excerpt": "Learn how dog groomers and pet grooming salons get discovered on ChatGPT, Perplexity, and Google AI. Master the signals that help pet services get found by customers.",
+    "category": "Industry Guides",
+    "author": "The Answer Engine Team",
+    "readTime": "9 min",
+    "image": "/blog/how-dog-groomers-and-pet-services-win-ai-citations.svg",
+    "publishDate": "2026-04-21",
+    "lastModified": "2026-04-21",
+    "featured": true,
+    "tags": [
+      "Pet Services",
+      "Dog Grooming",
+      "AI Search",
+      "Local Business"
+    ]
+  },
+  {
+    "id": 210,
+    "title": "How Barbershops Get Found on AI Search",
+    "slug": "how-barbershops-get-found-on-ai-search",
+    "excerpt": "Learn how barbershops and barber shops appear on ChatGPT, Perplexity, and Google AI. Master the signals AI platforms use to recommend local barbershops and get discovered by customers searching for haircuts, fades, and barber services.",
+    "category": "Industry Guides",
+    "author": "The Answer Engine Team",
+    "readTime": "10 min",
+    "image": "/blog/how-barbershops-get-found-on-ai-search.svg",
+    "publishDate": "2026-04-21",
+    "lastModified": "2026-04-21",
+    "featured": true,
+    "tags": [
+      "Barbershop",
+      "AI Search",
+      "Haircut",
+      "Local Business"
+    ]
+  },
+  {
+    "id": 209,
+    "title": "Does Keyword Stuffing Help AI Find Your Business?",
+    "slug": "does-keyword-stuffing-help-ai-find-you",
+    "excerpt": "Does keyword stuffing work for AI search? Explore the myths and facts about AI optimization for ChatGPT and Perplexity. Learn what actually signals business quality to AI platforms.",
+    "category": "Myth Busters",
+    "author": "The Answer Engine Team",
+    "readTime": "7 min",
+    "image": "/blog/does-keyword-stuffing-help-ai-find-you.svg",
+    "publishDate": "2026-04-21",
+    "lastModified": "2026-04-21",
+    "featured": true,
+    "tags": [
+      "Keyword Stuffing",
+      "AI Search",
+      "SEO Myths"
+    ]
+  },
+  {
+    "id": 208,
+    "title": "How Florists and Flower Shops Win AI Search",
+    "slug": "how-florists-and-flower-shops-win-ai-search",
+    "excerpt": "Local flower shops are invisible to AI while FTD and Teleflora dominate every recommendation. Learn why AI overlooks independent florists and which signals actually change that.",
+    "category": "Industry Guides",
+    "author": "The Answer Engine Team",
+    "readTime": "14 min",
+    "image": "/blog/how-florists-and-flower-shops-win-ai-search.webp",
+    "publishDate": "2026-04-21",
+    "lastModified": "2026-04-21",
+    "featured": true,
+    "tags": [
+      "Florist",
+      "Flower Shop",
+      "AI Search",
+      "Local Business"
+    ]
+  },
+  {
     "id": 207,
     "title": "How to Get Your Business Cited in ChatGPT (And Why It Matters for Local Services)",
     "slug": "how-to-get-cited-in-chatgpt",
