@@ -305,16 +305,9 @@ export default function Page() {
             </p>
 
             {/* Callout Warning */}
-            <div className="ae-callout-warning rounded-xl p-6 mb-8" style={{ background: 'rgba(239,68,68,0.08)', border: '1px solid rgba(239,68,68,0.25)' }}>
-              <div className="flex items-start gap-3">
-                <span className="text-xl mt-0.5">&#9888;</span>
-                <div>
-                  <p className="font-bold text-red-400 mb-2">The Wikipedia Distraction</p>
-                  <p className="text-gray-300 text-sm leading-relaxed">
-                    Business owners who chase Wikipedia visibility are solving the wrong problem. The time, money, and political capital required to get and maintain a Wikipedia article — assuming you even qualify — would generate far more AI visibility if redirected toward structured data, authoritative directories, and local press coverage. Wikipedia is not your lever. Stop treating it like it is.
-                  </p>
-                </div>
-              </div>
+            <div className="ae-callout ae-callout-warning">
+              <div className="ae-callout-title">The Wikipedia Distraction</div>
+              <p>Business owners who chase Wikipedia visibility are solving the wrong problem. The time, money, and political capital required to get and maintain a Wikipedia article — assuming you even qualify — would generate far more AI visibility if redirected toward structured data, authoritative directories, and local press coverage. Wikipedia is not your lever. Stop treating it like it is.</p>
             </div>
 
             <p className="text-gray-300 mb-5 leading-relaxed">
@@ -372,16 +365,9 @@ export default function Page() {
             </p>
 
             {/* Callout Info */}
-            <div className="ae-callout-info rounded-xl p-6 mb-6" style={{ background: 'rgba(59,130,246,0.08)', border: '1px solid rgba(59,130,246,0.25)' }}>
-              <div className="flex items-start gap-3">
-                <span className="text-xl mt-0.5">&#9432;</span>
-                <div>
-                  <p className="font-bold text-blue-400 mb-2">The Deletion Rate Reality</p>
-                  <p className="text-gray-300 text-sm leading-relaxed">
-                    Approximately 75% of new Wikipedia articles created about businesses are nominated for deletion within 30 days. For local businesses, the rate is effectively 100%. Wikipedia's editors are experienced at identifying promotional page creation and act quickly. The effort required to create and defend a Wikipedia page almost always exceeds any benefit gained.
-                  </p>
-                </div>
-              </div>
+            <div className="ae-callout ae-callout-info">
+              <div className="ae-callout-title">The Deletion Rate Reality</div>
+              <p>Approximately 75% of new Wikipedia articles created about businesses are nominated for deletion within 30 days. For local businesses, the rate is effectively 100%. Wikipedia&apos;s editors are experienced at identifying promotional page creation and act quickly. The effort required to create and defend a Wikipedia page almost always exceeds any benefit gained.</p>
             </div>
           </section>
 
@@ -547,16 +533,9 @@ export default function Page() {
             </p>
 
             {/* Callout Orange */}
-            <div className="ae-callout-orange rounded-xl p-6 mb-4" style={{ background: 'rgba(255,106,0,0.08)', border: '1px solid rgba(255,106,0,0.3)' }}>
-              <div className="flex items-start gap-3">
-                <span className="text-xl mt-0.5" style={{ color: '#FF6A00' }}>&#9650;</span>
-                <div>
-                  <p className="font-bold mb-2" style={{ color: '#FF6A00' }}>The Real Competitive Insight</p>
-                  <p className="text-gray-300 text-sm leading-relaxed">
-                    Your competitors chasing Wikipedia are wasting time on a path that leads nowhere for local businesses. Every week they spend on that distraction is a week you could be building the entity signals that AI platforms actually use. The playing field is tilted toward businesses that understand where to play.
-                  </p>
-                </div>
-              </div>
+            <div className="ae-callout ae-callout-orange">
+              <div className="ae-callout-title">The Real Competitive Insight</div>
+              <p>Your competitors chasing Wikipedia are wasting time on a path that leads nowhere for local businesses. Every week they spend on that distraction is a week you could be building the entity signals that AI platforms actually use. The playing field is tilted toward businesses that understand where to play.</p>
             </div>
           </section>
 
@@ -880,31 +859,27 @@ export default function Page() {
           {/* Pros/Cons: Wikipedia Pursuit vs Entity Building */}
           <section className="mb-14">
             <h2 className="text-2xl sm:text-3xl font-bold text-white mb-6 font-plus-jakarta">Wikipedia Pursuit vs. Entity Signal Building: An Honest Comparison</h2>
-            <div className="ae-pros-cons grid sm:grid-cols-2 gap-5 mb-6">
-              <div className="rounded-xl p-5" style={{ background: 'rgba(239,68,68,0.06)', border: '1px solid rgba(239,68,68,0.2)' }}>
-                <h3 className="text-red-400 font-bold mb-4 font-plus-jakarta flex items-center gap-2">
-                  <span>&#215;</span> Chasing Wikipedia
-                </h3>
-                <ul className="space-y-2 text-sm text-gray-300">
-                  <li className="flex items-start gap-2"><span className="text-red-400 mt-0.5">&#8226;</span> Will almost certainly be deleted for local businesses</li>
-                  <li className="flex items-start gap-2"><span className="text-red-400 mt-0.5">&#8226;</span> Requires notability standards most businesses cannot meet</li>
-                  <li className="flex items-start gap-2"><span className="text-red-400 mt-0.5">&#8226;</span> Cannot contain marketing language or CTAs</li>
-                  <li className="flex items-start gap-2"><span className="text-red-400 mt-0.5">&#8226;</span> Consumes significant time with near-zero return</li>
-                  <li className="flex items-start gap-2"><span className="text-red-400 mt-0.5">&#8226;</span> Gives competitors time advantage on the signals that actually work</li>
-                  <li className="flex items-start gap-2"><span className="text-red-400 mt-0.5">&#8226;</span> May violate Wikipedia's conflict-of-interest policies</li>
+            <div className="ae-pros-cons">
+              <div className="ae-cons-box">
+                <h4>Chasing Wikipedia</h4>
+                <ul>
+                  <li>Will almost certainly be deleted for local businesses</li>
+                  <li>Requires notability standards most businesses cannot meet</li>
+                  <li>Cannot contain marketing language or CTAs</li>
+                  <li>Consumes significant time with near-zero return</li>
+                  <li>Gives competitors time advantage on the signals that actually work</li>
+                  <li>May violate Wikipedia&apos;s conflict-of-interest policies</li>
                 </ul>
               </div>
-              <div className="rounded-xl p-5" style={{ background: 'rgba(74,222,128,0.06)', border: '1px solid rgba(74,222,128,0.2)' }}>
-                <h3 className="text-green-400 font-bold mb-4 font-plus-jakarta flex items-center gap-2">
-                  <span>&#10003;</span> Building Entity Signals
-                </h3>
-                <ul className="space-y-2 text-sm text-gray-300">
-                  <li className="flex items-start gap-2"><span className="text-green-400 mt-0.5">&#8226;</span> Fully accessible to every local business regardless of size</li>
-                  <li className="flex items-start gap-2"><span className="text-green-400 mt-0.5">&#8226;</span> Directly influences the AI platforms customers actually use</li>
-                  <li className="flex items-start gap-2"><span className="text-green-400 mt-0.5">&#8226;</span> Builds compounding authority over time</li>
-                  <li className="flex items-start gap-2"><span className="text-green-400 mt-0.5">&#8226;</span> Returns visible results within 60-90 days for most businesses</li>
-                  <li className="flex items-start gap-2"><span className="text-green-400 mt-0.5">&#8226;</span> Supports both AI visibility and traditional local SEO</li>
-                  <li className="flex items-start gap-2"><span className="text-green-400 mt-0.5">&#8226;</span> Defensible competitive moat that is hard to replicate quickly</li>
+              <div className="ae-pros-box">
+                <h4>Building Entity Signals</h4>
+                <ul>
+                  <li>Fully accessible to every local business regardless of size</li>
+                  <li>Directly influences the AI platforms customers actually use</li>
+                  <li>Builds compounding authority over time</li>
+                  <li>Returns visible results within 60-90 days for most businesses</li>
+                  <li>Supports both AI visibility and traditional local SEO</li>
+                  <li>Defensible competitive moat that is hard to replicate quickly</li>
                 </ul>
               </div>
             </div>
@@ -1072,45 +1047,24 @@ export default function Page() {
           </section>
 
           {/* Author Card */}
-          <div className="ae-author-card rounded-xl p-6 mb-14" style={{ background: 'rgba(255,255,255,0.03)', border: '1px solid rgba(255,255,255,0.08)' }}>
-            <div className="flex items-start gap-4">
-              <div className="w-14 h-14 rounded-full flex items-center justify-center text-xl shrink-0" style={{ background: 'rgba(255,106,0,0.15)', border: '2px solid rgba(255,106,0,0.3)' }}>
-                &#128161;
-              </div>
-              <div>
-                <p className="text-white font-bold font-plus-jakarta mb-1">The Answer Engine Team</p>
-                <p className="text-xs mb-3" style={{ color: '#FF6A00' }}>AI Search Optimization Specialists</p>
-                <p className="text-gray-400 text-sm leading-relaxed">
-                  The Answer Engine is a Los Angeles-based AEO agency helping businesses of all sizes achieve consistent visibility across ChatGPT, Perplexity, Google AI Mode, and every other AI search platform shaping how customers find services today.
-                </p>
-              </div>
+          <div className="ae-author-card">
+            <div className="ae-author-avatar">AE</div>
+            <div>
+              <div className="font-semibold text-white">The Answer Engine Team</div>
+              <div className="text-sm text-gray-400">AEO Specialists</div>
             </div>
           </div>
 
           {/* Final CTA */}
-          <section className="ae-final-cta rounded-2xl p-10 text-center mb-8" style={{ background: 'linear-gradient(135deg, rgba(255,106,0,0.15) 0%, rgba(255,106,0,0.05) 100%)', border: '2px solid rgba(255,106,0,0.4)', boxShadow: '0 0 40px rgba(255,106,0,0.15), 0 0 80px rgba(255,106,0,0.05)' }}>
-            <div className="ae-final-cta-pulse text-4xl mb-4">&#128269;</div>
-            <h2 className="text-2xl sm:text-3xl font-bold text-white mb-4 font-plus-jakarta">
-              Stop Chasing Wikipedia. Start Building What AI Actually Looks For.
-            </h2>
-            <p className="text-gray-300 mb-8 max-w-2xl mx-auto leading-relaxed">
-              The businesses that win in AI search are not the ones who got lucky with a Wikipedia page. They are the ones who built a dense, consistent, multi-platform entity footprint — and your Blind Spot Report shows exactly what yours is missing right now.
-            </p>
-            <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
-              <Link href="/blindspot" className="px-8 py-4 rounded-xl font-bold text-base transition-all hover:scale-105" style={{ background: '#FF6A00', color: '#fff', boxShadow: '0 0 20px rgba(255,106,0,0.4)' }}>
-                Get My Free Blind Spot Report
-              </Link>
-              <a href="tel:+12134442229" className="px-8 py-4 rounded-xl font-bold text-base transition-all hover:scale-105" style={{ background: 'rgba(255,255,255,0.06)', color: '#fff', border: '1px solid rgba(255,255,255,0.15)' }}>
-                Call (213) 444-2229
-              </a>
-            </div>
-            <p className="text-gray-600 text-sm mt-6">
-              Free assessment. No commitment. Just answers.{' '}
-              <a href="mailto:support@theanswerengine.ai" className="hover:text-gray-400 transition-colors" style={{ color: '#FF6A00' }}>
-                support@theanswerengine.ai
-              </a>
-            </p>
-          </section>
+          <div className="ae-final-cta">
+            <div className="ae-final-cta-pulse" />
+            <h2 className="font-plus-jakarta text-3xl font-bold text-white mb-4 relative">Stop Chasing Wikipedia. Start Building What AI Actually Looks For.</h2>
+            <p className="text-gray-400 mb-8 relative">The businesses that win in AI search are not the ones who got lucky with a Wikipedia page. They are the ones who built a dense, consistent, multi-platform entity footprint — and your Blind Spot Report shows exactly what yours is missing right now.</p>
+            <Link href="/blindspot" className="ae-cta-primary relative">
+              Get Your Free Blind Spot Report
+              <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" /></svg>
+            </Link>
+          </div>
 
         </article>
       </main>
