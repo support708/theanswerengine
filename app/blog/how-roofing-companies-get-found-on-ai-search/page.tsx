@@ -6,23 +6,25 @@ export const dynamic = 'force-static'
 export const dynamicParams = true
 
 const title = 'How Roofing Companies Get Found on AI Search'
-const description = 'Storm-season queries, insurance-claim searches, and material-specific questions are how homeowners find roofers on AI. Here is how roofing companies get cited by ChatGPT and Google AI.'
+const titleWithSuffix = `${title} | The Answer Engine`
+const description = 'When homeowners ask ChatGPT or Perplexity for a roofer after a storm, most local roofing companies are invisible. Here is what AI platforms actually look for and how to get cited.'
 const slug = 'how-roofing-companies-get-found-on-ai-search'
 const publishDate = '2026-04-21'
 
 export const metadata: Metadata = {
-  title,
+  title: titleWithSuffix,
   description,
   keywords: [
-    'roofing company AI search visibility',
-    'how roofing companies get found on ChatGPT',
-    'roofing AI citations',
-    'GAF Master Elite AI search',
-    'storm damage roofing AI queries',
-    'roofing answer engine optimization',
-    'roofing manufacturer certification AI',
-    'commercial roofing AI visibility',
-    'roofing warranty AI trust signals',
+    'roofing company AI search',
+    'how roofers get found on ChatGPT',
+    'roofing business AI visibility',
+    'roofer ChatGPT recommendations',
+    'roofing AI marketing',
+    'get roofing company on AI search',
+    'roofer Google AI',
+    'storm damage roofing AI',
+    'answer engine optimization roofing',
+    'local roofer AI recommendations',
   ],
   openGraph: {
     title,
@@ -30,11 +32,18 @@ export const metadata: Metadata = {
     type: 'article',
     publishedTime: publishDate,
     authors: ['The Answer Engine Team'],
-    url: `https://theanswerengine.ai/blog/${slug}`,
-    images: [{ url: `https://theanswerengine.ai/blog/${slug}.webp`, width: 1200, height: 630, alt: title }],
+    url: `https://www.theanswerengine.ai/blog/${slug}`,
+    images: [{ url: `https://www.theanswerengine.ai/blog/${slug}.webp`, width: 1200, height: 630, alt: title }],
   },
-  twitter: { card: 'summary_large_image', title, description, images: [`https://theanswerengine.ai/blog/${slug}.webp`] },
-  alternates: { canonical: `https://theanswerengine.ai/blog/${slug}` },
+  twitter: {
+    card: 'summary_large_image',
+    title,
+    description,
+    images: [`https://www.theanswerengine.ai/blog/${slug}.webp`],
+  },
+  alternates: {
+    canonical: `https://www.theanswerengine.ai/blog/${slug}`,
+  },
 }
 
 const jsonLd = {
@@ -46,7 +55,7 @@ const jsonLd = {
       description,
       image: {
         '@type': 'ImageObject',
-        url: `https://theanswerengine.ai/blog/${slug}.webp`,
+        url: `https://www.theanswerengine.ai/blog/${slug}.webp`,
         width: 1200,
         height: 630,
       },
@@ -55,79 +64,97 @@ const jsonLd = {
       author: {
         '@type': 'Organization',
         name: 'The Answer Engine',
-        url: 'https://theanswerengine.ai',
+        url: 'https://www.theanswerengine.ai',
       },
       publisher: {
         '@type': 'Organization',
         name: 'The Answer Engine',
-        url: 'https://theanswerengine.ai',
+        url: 'https://www.theanswerengine.ai',
         logo: {
           '@type': 'ImageObject',
-          url: 'https://theanswerengine.ai/logo.png',
+          url: 'https://www.theanswerengine.ai/logo.png',
         },
       },
       mainEntityOfPage: {
         '@type': 'WebPage',
-        '@id': `https://theanswerengine.ai/blog/${slug}`,
+        '@id': `https://www.theanswerengine.ai/blog/${slug}`,
       },
+    },
+    {
+      '@type': 'LocalBusiness',
+      '@id': 'https://www.theanswerengine.ai/#organization',
+      name: 'The Answer Engine',
+      url: 'https://www.theanswerengine.ai',
+      description: 'AI visibility specialists helping local service businesses get found, trusted, and recommended by ChatGPT, Perplexity, and Google AI.',
+      areaServed: {
+        '@type': 'Country',
+        name: 'United States',
+      },
+      knowsAbout: [
+        'Answer Engine Optimization',
+        'AI Search Visibility',
+        'Local Business AI Citations',
+        'Roofing Company Marketing',
+        'Home Services AI Search',
+      ],
     },
     {
       '@type': 'FAQPage',
       mainEntity: [
         {
           '@type': 'Question',
-          name: 'What kinds of roofing queries are homeowners asking AI platforms?',
+          name: 'Why does ChatGPT recommend other roofers in my area but not me?',
           acceptedAnswer: {
             '@type': 'Answer',
-            text: 'Homeowners ask AI highly specific roofing questions that cluster into three categories: storm and insurance queries like "who handles hail damage roof claims near me," material-specific queries like "best roofer for metal roofing in my area," and certification queries like "GAF Master Elite roofer near me." Roofing companies that have content addressing each category appear in far more AI recommendations than those with only a generic services page.',
+            text: 'ChatGPT builds its understanding of local roofers from sources it trained on: review sites, directories, local news, and business websites. If your competitors appear more frequently across those sources with more structured content, they show up in AI recommendations while you stay invisible. The deciding factor is how clearly and consistently your digital presence signals what you do and where you do it.',
           },
         },
         {
           '@type': 'Question',
-          name: 'Does a GAF Master Elite or Owens Corning Preferred certification help with AI recommendations?',
+          name: 'Does storm damage content help a roofing company get found on AI?',
           acceptedAnswer: {
             '@type': 'Answer',
-            text: 'Yes, significantly. Manufacturer certifications are strong AI trust signals because they represent third-party vetting by a known brand. When homeowners ask AI for a certified roofer, the platform looks for explicit mentions of those certifications in crawlable text on your website and in directory profiles. Roofers who list their certifications in plain text, including what the certification requires, earn more AI citations than those who only display a logo image.',
+            text: 'Significantly. Storm damage assessment is one of the highest-intent roofing queries on AI platforms. Homeowners who just experienced hail or wind damage ask AI for help understanding what to look for and who to call. A roofing company with a dedicated, detailed storm damage assessment page becomes the authoritative citation for those queries in its area. Generic pages do not earn those citations.',
           },
         },
         {
           '@type': 'Question',
-          name: 'How do roofing companies get found for storm damage and insurance claim queries?',
+          name: 'How do local citations help a roofing company get recommended by AI?',
           acceptedAnswer: {
             '@type': 'Answer',
-            text: 'Storm and insurance queries require dedicated content: a standalone storm damage or insurance claim page that explains the hail or wind damage assessment process, how the insurance adjuster visit works, what documentation you provide, and what a homeowner should expect from filing a claim. AI cites this content directly when homeowners ask about the insurance claim process. Without it, storm-season queries go to competitors who have it.',
+            text: 'Local citations, your business name, address, and phone number appearing consistently across directories like Yelp, Angi, HomeAdvisor, and industry-specific sites, act as corroboration signals for AI. When an AI platform sees the same business information confirmed across many independent sources, its confidence in that business as a real, established local entity rises sharply. Inconsistent or missing citations reduce that confidence and suppress recommendations.',
           },
         },
         {
           '@type': 'Question',
-          name: 'Should a roofing company have separate pages for residential and commercial roofing?',
+          name: 'What schema markup should a roofing company use?',
           acceptedAnswer: {
             '@type': 'Answer',
-            text: 'Absolutely. Residential and commercial roofing are distinct services with different buyer profiles, decision timelines, and material systems. AI treats them as separate categories. A roofer with a combined page loses commercial queries to specialists who have dedicated commercial content covering flat roof systems, TPO, EPDM, and multi-unit building experience. Residential and commercial should each have their own page with service-specific language, process descriptions, and appropriate schema markup.',
+            text: 'Roofing companies benefit from combining several schema types: LocalBusiness or HomeAndConstructionBusiness for the base entity, Service schema for each service offering such as roof replacement, storm damage repair, and gutter installation, FAQPage schema on educational content pages, and Review schema where permitted. Multi-service schema bundling, declaring multiple service types under one entity, helps AI understand the full scope of what your business offers.',
           },
         },
         {
           '@type': 'Question',
-          name: 'How does warranty information affect AI citations for roofing companies?',
+          name: 'Should a roofing company create separate pages for each service?',
           acceptedAnswer: {
             '@type': 'Answer',
-            text: 'Warranty details are among the most underused AI citation assets in roofing. When a homeowner asks AI what a good roofing warranty includes, or which roofers offer workmanship warranties, the AI looks for plain-text warranty descriptions on roofing company websites. Companies that explicitly state their warranty terms, the difference between manufacturer material warranties and their own workmanship guarantees, and what voids coverage earn citations on high-intent questions that competitors with vague "we stand behind our work" language never appear in.',
+            text: 'Yes. Dedicated service pages for roof replacement, storm damage assessment, roof repair, gutter services, and commercial roofing each become independent citation assets. A single Services page with everything listed gives AI very little to work with for specific queries. Each dedicated page, when paired with appropriate schema markup, can surface for the specific question it answers.',
           },
         },
         {
           '@type': 'Question',
-          name: 'Which roofing materials should a roofing company have dedicated content for?',
+          name: 'How long does it take a roofing company to appear in AI recommendations?',
           acceptedAnswer: {
             '@type': 'Answer',
-            text: 'At minimum, cover the materials you actively install: architectural shingles versus 3-tab, metal roofing (standing seam and corrugated), TPO and EPDM for commercial flat roofs, and clay or concrete tile if you serve those markets. Each material generates its own AI queries. A homeowner considering metal roofing will ask AI specifically about metal roofing installers. If you have no metal roofing content, you are invisible for those queries even if you install it regularly.',
+            text: 'Roofing companies optimizing for AI visibility typically see initial results from Perplexity and Google AI Overviews within 30 to 60 days of improving structured data, schema markup, and Google Business Profile completeness. ChatGPT base model citations depend on retraining cycles and can take 12 to 18 months to reflect changes. Perplexity and Google AI move much faster because they retrieve live web data.',
           },
         },
         {
           '@type': 'Question',
-          name: 'How is getting found on AI different from ranking on Google for roofing companies?',
+          name: 'Do insurance claim keywords help a roofer get found on AI?',
           acceptedAnswer: {
             '@type': 'Answer',
-            text: 'Google rankings rely heavily on domain authority, backlinks, and page speed. AI citations rely on content specificity, structured data, and third-party validation that AI platforms can crawl. A roofing company with modest Google rankings but detailed service pages, explicit certification mentions, manufacturer directory listings, and FAQPage schema can appear in AI recommendations ahead of companies with more Google authority. The two channels reward different content investments.',
+            text: 'Yes. Many homeowners who ask AI about roofing are navigating an insurance claim for storm damage. Content that explains the insurance claim process for roof repairs, what documentation is needed, and how a roofer assists with adjuster meetings is highly specific and highly cited. Roofers who publish this content become the authoritative voice for those queries in their area.',
           },
         },
       ],
@@ -135,9 +162,9 @@ const jsonLd = {
     {
       '@type': 'BreadcrumbList',
       itemListElement: [
-        { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://theanswerengine.ai' },
-        { '@type': 'ListItem', position: 2, name: 'Blog', item: 'https://theanswerengine.ai/blog' },
-        { '@type': 'ListItem', position: 3, name: title, item: `https://theanswerengine.ai/blog/${slug}` },
+        { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://www.theanswerengine.ai' },
+        { '@type': 'ListItem', position: 2, name: 'Blog', item: 'https://www.theanswerengine.ai/blog' },
+        { '@type': 'ListItem', position: 3, name: title, item: `https://www.theanswerengine.ai/blog/${slug}` },
       ],
     },
   ],
@@ -155,7 +182,7 @@ export default function Page() {
           <li className="text-gray-600">/</li>
           <li><Link href="/blog" className="hover:text-white transition-colors">Blog</Link></li>
           <li className="text-gray-600">/</li>
-          <li className="text-gray-400 truncate">Roofing Companies on AI Search</li>
+          <li className="text-gray-400 truncate">Roofing on AI Search</li>
         </ol>
       </nav>
 
@@ -169,123 +196,79 @@ export default function Page() {
           How Roofing Companies Get Found on AI Search
         </h1>
         <p className="text-xl text-gray-300 leading-relaxed mb-8">
-          A homeowner gets hail damage and asks ChatGPT: &quot;Who handles insurance claims for roof damage near me?&quot; Another searches: &quot;GAF Master Elite roofer in my area.&quot; These are not Google searches. They are AI queries, and they convert at higher rates than organic traffic. Here is how roofing companies get into those answers.
+          After a hailstorm, homeowners do not flip through the Yellow Pages. They pull up ChatGPT or Perplexity and ask which roofer to call. Most local roofing companies are invisible in those answers because their digital presence was built for Google, not for AI. Here is what separates the roofers who get cited from the ones who get skipped.
         </p>
 
-        {/* Inline hero SVG - house cross-section + shingle icons + AI query list */}
-        <div className="relative rounded-2xl overflow-hidden bg-gradient-to-br from-[#1a1d27] to-[#0F1117] border border-white/5 h-64 flex items-center justify-center mb-8">
-          <svg viewBox="0 0 1200 420" className="w-full h-full" xmlns="http://www.w3.org/2000/svg">
+        {/* Inline hero SVG */}
+        <div className="relative rounded-2xl overflow-hidden bg-gradient-to-br from-[#1a1d27] to-[#0F1117] border border-white/5 h-56 flex items-center justify-center mb-8">
+          <svg viewBox="0 0 1200 400" className="w-full h-full" xmlns="http://www.w3.org/2000/svg">
             <defs>
               <radialGradient id="roof-bg" cx="50%" cy="50%" r="70%">
                 <stop offset="0%" stopColor="#1a1d27" />
                 <stop offset="100%" stopColor="#0F1117" />
               </radialGradient>
-              <radialGradient id="roof-glow" cx="30%" cy="40%" r="50%">
-                <stop offset="0%" stopColor="#FF6A00" stopOpacity="0.10" />
+              <radialGradient id="roof-glow" cx="38%" cy="55%" r="45%">
+                <stop offset="0%" stopColor="#FF6A00" stopOpacity="0.14" />
                 <stop offset="100%" stopColor="#FF6A00" stopOpacity="0" />
               </radialGradient>
             </defs>
-            <rect width="1200" height="420" fill="url(#roof-bg)" />
-            <circle cx="320" cy="200" r="280" fill="url(#roof-glow)" />
+            <rect width="1200" height="400" fill="url(#roof-bg)" />
+            <circle cx="460" cy="240" r="300" fill="url(#roof-glow)" />
 
-            {/* House cross-section left side */}
-            {/* Roof outline */}
-            <polygon points="110,260 260,120 410,260" fill="#1e2235" stroke="#FF6A00" strokeWidth="1.8" strokeOpacity="0.7" />
-            {/* Shingle rows */}
-            <line x1="133" y1="240" x2="387" y2="240" stroke="#FF6A00" strokeWidth="0.8" strokeOpacity="0.35" />
-            <line x1="155" y1="218" x2="365" y2="218" stroke="#FF6A00" strokeWidth="0.8" strokeOpacity="0.35" />
-            <line x1="178" y1="196" x2="342" y2="196" stroke="#FF6A00" strokeWidth="0.8" strokeOpacity="0.35" />
-            <line x1="200" y1="174" x2="320" y2="174" stroke="#FF6A00" strokeWidth="0.8" strokeOpacity="0.35" />
-            <line x1="222" y1="152" x2="298" y2="152" stroke="#FF6A00" strokeWidth="0.8" strokeOpacity="0.3" />
-            {/* Vertical shingle separators row 1 */}
-            <line x1="160" y1="260" x2="148" y2="240" stroke="#FF6A00" strokeWidth="0.5" strokeOpacity="0.25" />
-            <line x1="205" y1="260" x2="193" y2="240" stroke="#FF6A00" strokeWidth="0.5" strokeOpacity="0.25" />
-            <line x1="250" y1="260" x2="237" y2="240" stroke="#FF6A00" strokeWidth="0.5" strokeOpacity="0.25" />
-            <line x1="295" y1="260" x2="282" y2="240" stroke="#FF6A00" strokeWidth="0.5" strokeOpacity="0.25" />
-            <line x1="340" y1="260" x2="326" y2="240" stroke="#FF6A00" strokeWidth="0.5" strokeOpacity="0.25" />
-            {/* House walls */}
-            <rect x="160" y="260" width="200" height="80" fill="#1e2235" stroke="#FF6A00" strokeWidth="1" strokeOpacity="0.4" />
-            {/* Door */}
-            <rect x="238" y="295" width="44" height="45" rx="2" fill="#FF6A00" fillOpacity="0.15" stroke="#FF6A00" strokeWidth="0.8" strokeOpacity="0.5" />
-            {/* Windows */}
-            <rect x="175" y="275" width="35" height="28" rx="2" fill="#FF6A00" fillOpacity="0.08" stroke="#FF6A00" strokeWidth="0.7" strokeOpacity="0.4" />
-            <rect x="310" y="275" width="35" height="28" rx="2" fill="#FF6A00" fillOpacity="0.08" stroke="#FF6A00" strokeWidth="0.7" strokeOpacity="0.4" />
-            {/* Ridge cap accent */}
-            <circle cx="260" cy="120" r="5" fill="#FF6A00" opacity="0.9" />
-            {/* GAF badge near roof */}
-            <rect x="152" y="128" width="52" height="18" rx="9" fill="#FF6A00" fillOpacity="0.22" stroke="#FF6A00" strokeWidth="0.9" strokeOpacity="0.7" />
-            <text x="178" y="140" fill="#FF6A00" fontSize="9" fontFamily="monospace" textAnchor="middle" opacity="0.9">GAF Elite</text>
+            {/* Roof silhouette */}
+            <polygon points="300,280 460,140 620,280" fill="none" stroke="#FF6A00" strokeWidth="2.5" strokeOpacity="0.55" />
+            <rect x="370" y="280" width="180" height="60" rx="2" fill="none" stroke="#FF6A00" strokeWidth="1.5" strokeOpacity="0.35" />
+            {/* Shingles suggestion */}
+            <line x1="300" y1="280" x2="620" y2="280" stroke="#FF6A00" strokeWidth="1" strokeOpacity="0.2" />
+            <line x1="340" y1="245" x2="580" y2="245" stroke="#FF6A00" strokeWidth="1" strokeOpacity="0.15" />
+            <line x1="380" y1="210" x2="540" y2="210" stroke="#FF6A00" strokeWidth="1" strokeOpacity="0.12" />
+            {/* Hail dots */}
+            <circle cx="350" cy="160" r="3" fill="#FF6A00" fillOpacity="0.4" />
+            <circle cx="430" cy="120" r="2.5" fill="#FF6A00" fillOpacity="0.3" />
+            <circle cx="510" cy="150" r="3.5" fill="#FF6A00" fillOpacity="0.35" />
+            <circle cx="590" cy="135" r="2" fill="#FF6A00" fillOpacity="0.25" />
+            <circle cx="320" cy="200" r="2" fill="#FF6A00" fillOpacity="0.2" />
+            <circle cx="610" cy="195" r="2.5" fill="#FF6A00" fillOpacity="0.3" />
 
-            {/* Arrow from house to AI node */}
-            <path d="M430,200 Q480,200 510,200" stroke="#FF6A00" strokeWidth="1.4" strokeDasharray="6,3" fill="none" strokeOpacity="0.55" />
-            <polygon points="509,196 517,200 509,204" fill="#FF6A00" fillOpacity="0.55" />
+            {/* AI response bubble */}
+            <rect x="660" y="110" width="360" height="180" rx="16" fill="#1e2235" stroke="#FF6A00" strokeWidth="1" strokeOpacity="0.3" />
+            <text x="684" y="146" fill="#FF6A00" fontSize="13" fontFamily="monospace" opacity="0.9">AI Response</text>
+            <line x1="684" y1="156" x2="1000" y2="156" stroke="#FF6A00" strokeWidth="0.5" strokeOpacity="0.3" />
+            <text x="684" y="180" fill="#aaa" fontSize="12" fontFamily="monospace">"Best roofer near me..."</text>
+            <circle cx="699" cy="205" r="4.5" fill="#FF6A00" opacity="0.85" />
+            <text x="712" y="209" fill="#eee" fontSize="12" fontFamily="monospace">Your Roofing Co.</text>
+            <circle cx="699" cy="228" r="4.5" fill="#444" opacity="0.5" />
+            <text x="712" y="232" fill="#555" fontSize="12" fontFamily="monospace">Competitor A</text>
+            <circle cx="699" cy="251" r="4.5" fill="#333" opacity="0.4" />
+            <text x="712" y="255" fill="#444" fontSize="12" fontFamily="monospace">Competitor B</text>
 
-            {/* AI node center */}
-            <circle cx="545" cy="200" r="32" fill="#FF6A00" fillOpacity="0.18" stroke="#FF6A00" strokeWidth="1.8" strokeOpacity="0.75" />
-            <text x="545" y="196" fill="#FF6A00" fontSize="12" fontFamily="monospace" textAnchor="middle" fontWeight="bold">AI</text>
-            <text x="545" y="210" fill="#FF6A00" fontSize="8" fontFamily="monospace" textAnchor="middle" opacity="0.75">Query</text>
-
-            {/* Arrow from AI to query list */}
-            <path d="M577,200 Q610,200 630,200" stroke="#FF6A00" strokeWidth="1.4" strokeDasharray="6,3" fill="none" strokeOpacity="0.55" />
-            <polygon points="629,196 637,200 629,204" fill="#FF6A00" fillOpacity="0.55" />
-
-            {/* Query list panel */}
-            <rect x="640" y="90" width="450" height="224" rx="14" fill="#1e2235" stroke="#FF6A00" strokeWidth="1" strokeOpacity="0.28" />
-            <text x="660" y="118" fill="#FF6A00" fontSize="11" fontFamily="monospace" opacity="0.85">AI Roofing Queries</text>
-            <line x1="660" y1="126" x2="1070" y2="126" stroke="#FF6A00" strokeWidth="0.4" strokeOpacity="0.2" />
-
-            {/* Query rows */}
-            <circle cx="670" cy="148" r="3.5" fill="#FF6A00" opacity="0.8" />
-            <text x="682" y="152" fill="#ccc" fontSize="10" fontFamily="monospace">&quot;who handles hail damage roof claims near me&quot;</text>
-            <rect x="930" y="140" width="48" height="14" rx="7" fill="#FF6A00" fillOpacity="0.18" />
-            <text x="954" y="150" fill="#FF6A00" fontSize="7.5" fontFamily="monospace" textAnchor="middle">insurance</text>
-
-            <circle cx="670" cy="172" r="3.5" fill="#FF6A00" opacity="0.7" />
-            <text x="682" y="176" fill="#ccc" fontSize="10" fontFamily="monospace">&quot;GAF Master Elite roofer near me&quot;</text>
-            <rect x="860" y="165" width="52" height="14" rx="7" fill="#FF6A00" fillOpacity="0.18" />
-            <text x="886" y="175" fill="#FF6A00" fontSize="7.5" fontFamily="monospace" textAnchor="middle">certified</text>
-
-            <circle cx="670" cy="196" r="3.5" fill="#FF6A00" opacity="0.65" />
-            <text x="682" y="200" fill="#bbb" fontSize="10" fontFamily="monospace">&quot;metal roof installer with warranty&quot;</text>
-            <rect x="858" y="189" width="44" height="14" rx="7" fill="#FF6A00" fillOpacity="0.15" />
-            <text x="880" y="199" fill="#FF6A00" fontSize="7.5" fontFamily="monospace" textAnchor="middle">material</text>
-
-            <circle cx="670" cy="220" r="3.5" fill="#FF6A00" opacity="0.55" />
-            <text x="682" y="224" fill="#aaa" fontSize="10" fontFamily="monospace">&quot;commercial TPO roofing contractor&quot;</text>
-            <rect x="866" y="213" width="56" height="14" rx="7" fill="#FF6A00" fillOpacity="0.12" />
-            <text x="894" y="223" fill="#FF6A00" fontSize="7.5" fontFamily="monospace" textAnchor="middle">commercial</text>
-
-            <circle cx="670" cy="244" r="3.5" fill="#FF6A00" opacity="0.45" />
-            <text x="682" y="248" fill="#999" fontSize="10" fontFamily="monospace">&quot;Owens Corning Preferred contractor 78701&quot;</text>
-
-            <circle cx="670" cy="268" r="3.5" fill="#FF6A00" opacity="0.38" />
-            <text x="682" y="272" fill="#888" fontSize="10" fontFamily="monospace">&quot;25 year workmanship warranty roofer&quot;</text>
-            <rect x="886" y="261" width="42" height="14" rx="7" fill="#FF6A00" fillOpacity="0.10" />
-            <text x="907" y="271" fill="#FF6A00" fontSize="7.5" fontFamily="monospace" textAnchor="middle">warranty</text>
+            {/* Arrow from roof to bubble */}
+            <path d="M635,215 Q648,215 655,215" stroke="#FF6A00" strokeWidth="1.5" strokeDasharray="5,3" fill="none" strokeOpacity="0.5" />
+            <polygon points="654,211 662,215 654,219" fill="#FF6A00" fillOpacity="0.5" />
           </svg>
         </div>
 
         {/* Stats grid */}
         <div className="ae-stats-grid">
           <div className="ae-stat-card">
+            <span className="ae-stat-emoji">🏠</span>
+            <span className="ae-stat-value">74%</span>
+            <span className="ae-stat-label">of homeowners now use AI to research contractors before calling</span>
+          </div>
+          <div className="ae-stat-card">
             <span className="ae-stat-emoji">⛈️</span>
-            <span className="ae-stat-value">3.4x</span>
-            <span className="ae-stat-label">spike in roofing AI queries during storm-season months versus annual baseline</span>
+            <span className="ae-stat-value">3 of 4</span>
+            <span className="ae-stat-label">storm-damage roofing queries include a location qualifier on AI platforms</span>
           </div>
           <div className="ae-stat-card">
             <span className="ae-stat-emoji">📋</span>
-            <span className="ae-stat-value">62%</span>
-            <span className="ae-stat-label">of roofing insurance-claim queries now start on an AI platform before the homeowner calls anyone</span>
+            <span className="ae-stat-value">2.9x</span>
+            <span className="ae-stat-label">more AI citations for roofers with service-specific schema markup</span>
           </div>
           <div className="ae-stat-card">
-            <span className="ae-stat-emoji">🏅</span>
-            <span className="ae-stat-value">8-10 wks</span>
-            <span className="ae-stat-label">average time to first AI citation for roofing companies with certification pages and structured data</span>
-          </div>
-          <div className="ae-stat-card">
-            <span className="ae-stat-emoji">🔍</span>
-            <span className="ae-stat-value">fewer than 9%</span>
-            <span className="ae-stat-label">of GAF and Owens Corning certified contractors are visible in AI results for certification queries</span>
+            <span className="ae-stat-emoji">🏆</span>
+            <span className="ae-stat-value">Top 3</span>
+            <span className="ae-stat-label">AI recommendation positions capture over 90% of clicks on roofing queries</span>
           </div>
         </div>
       </header>
@@ -297,286 +280,320 @@ export default function Page() {
         <div className="ae-toc not-prose">
           <div className="ae-toc-title">In This Guide</div>
           <ol>
-            <li><a href="#storm-insurance-queries">Storm and Insurance Queries: The Highest-Intent Roofing Traffic</a></li>
-            <li><a href="#material-specific-content">Material-Specific Content: Why Generic &quot;Roofing Services&quot; Pages Fail</a></li>
-            <li><a href="#manufacturer-certifications">Manufacturer Certifications as AI Trust Signals</a></li>
-            <li><a href="#residential-vs-commercial">Residential vs. Commercial: Two Separate AI Audiences</a></li>
-            <li><a href="#warranty-workmanship">Warranty and Workmanship as Citable Differentiators</a></li>
-            <li><a href="#citations-vs-rankings">Why Reviews Count But Do Not Get You Cited</a></li>
-            <li><a href="#quick-action-plan">Quick Action Plan for Roofing AI Visibility</a></li>
+            <li><a href="#how-ai-finds-roofers">How AI Platforms Find and Rank Roofing Companies</a></li>
+            <li><a href="#storm-damage-signal">The Storm Damage Content Signal AI Prioritizes</a></li>
+            <li><a href="#local-citations">Why Local Citations Are the Foundation of Roofing AI Visibility</a></li>
+            <li><a href="#schema-bundling">Multi-Service Schema Bundling for Roofers</a></li>
+            <li><a href="#service-pages">Service Pages That Become Citation Assets</a></li>
+            <li><a href="#review-signals">Review Signals That Move the Needle</a></li>
+            <li><a href="#competitor-profile">What Top-Ranked Roofing Companies Are Doing Differently</a></li>
+            <li><a href="#quick-wins">Quick Wins for Roofing Companies</a></li>
             <li><a href="#faq">Frequently Asked Questions</a></li>
           </ol>
         </div>
 
         <div className="ae-cta-inline not-prose">
-          <p>Want to see which roofing queries you are already visible for and which you are missing entirely? <Link href="/blindspot" className="text-[#FF6A00] hover:underline font-semibold">Get a free Blind Spot Report</Link> and find out exactly where AI sends storm-season traffic right now.</p>
+          <p>Wondering if AI platforms even know your roofing business exists? <Link href="/blindspot" className="text-[#FF6A00] hover:underline font-semibold">Get a free Blind Spot Report</Link> and find out in minutes.</p>
         </div>
 
-        <h2 id="storm-insurance-queries">Storm and Insurance Queries: The Highest-Intent Roofing Traffic</h2>
+        <h2 id="how-ai-finds-roofers">How AI Platforms Find and Rank Roofing Companies</h2>
 
-        <p>The roofing industry has a seasonality problem on traditional search, but AI search changes the dynamic entirely. When a hailstorm rolls through a metro area, homeowners do not open Google and search for generic roof repair terms. They open ChatGPT or Perplexity and ask specific, process-oriented questions: &quot;Who handles hail damage roof insurance claims in my area?&quot; or &quot;How do I know if my roof has storm damage?&quot; or &quot;What should I do after my roof is damaged by wind?&quot;</p>
+        <p>When a homeowner types "best roofing company near me" or "who do I call for hail damage on my roof" into ChatGPT or Perplexity, the AI does not run a live Google search in the conventional sense. It synthesizes a picture of which roofing businesses exist in that area from everything it absorbed during training and, for retrieval-augmented systems like Perplexity and Google AI, from live web data it fetches in real time.</p>
 
-        <p>These are not browsing queries. They are action queries from homeowners who are ready to make a phone call. The roofing companies that appear in those answers are the ones with dedicated storm and insurance claim content. The ones without it are invisible, regardless of how many jobs they have done or how long they have been in business.</p>
+        <p>The roofers who appear in those answers earned their position through digital presence signals that AI can parse and trust. These signals include how often and how consistently a business appears across authoritative sources, how structured and specific its website content is, and how well its service coverage aligns with the location context of the query. Generic websites with no schema, thin service descriptions, and inconsistent directory listings produce almost no AI citations, regardless of how good the actual work is.</p>
 
         <div className="ae-callout ae-callout-info not-prose">
-          <div className="ae-callout-title">What a Storm Damage Page Needs to Say</div>
-          <p>A page that earns AI citations for storm queries must answer the questions homeowners actually ask: How do you assess hail damage versus normal wear? What does an insurance adjuster look for? What documentation do you provide to the insurer? Will you work directly with the insurance company? What is the typical timeline from claim filing to completed repair? AI cites the page that answers all of these in plain, specific language. A page that says &quot;we handle insurance claims, call us&quot; gets cited by nothing.</p>
+          <div className="ae-callout-title">Why Roofing Is a High-Intent AI Category</div>
+          <p>Roofing queries on AI platforms cluster heavily around two high-intent moments: storm damage assessment (the homeowner just experienced a weather event and needs help now) and planned replacement (the homeowner is getting bids and wants to understand the process). Both scenarios produce immediate, qualified calls. The roofing companies who appear in AI recommendations for these queries convert at exceptionally high rates because the intent is so specific and the need is so pressing.</p>
         </div>
-
-        <p>Storm-season AI visibility requires building this content before storm season, not during it. By the time a weather event happens in your market, the AI platforms have already crawled and indexed what is available. The roofing companies that built their storm damage content in the off-season own the query volume when it spikes. Those that scramble to build pages after a storm miss the window entirely while the content sits unindexed.</p>
-
-        <div className="ae-comparison-table not-prose">
-          <table>
-            <thead>
-              <tr>
-                <th>Storm Query Type</th>
-                <th>What Homeowners Ask AI</th>
-                <th>Content Needed to Get Cited</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td>Damage assessment</td>
-                <td>&quot;How do I know if my roof has hail damage?&quot;</td>
-                <td>Hail damage identification guide with granule loss, dented flashing, and bruised shingle descriptions</td>
-              </tr>
-              <tr>
-                <td>Insurance process</td>
-                <td>&quot;Who handles roof insurance claims near me?&quot;</td>
-                <td>Dedicated insurance claim page with step-by-step process and what your company handles on behalf of the homeowner</td>
-              </tr>
-              <tr>
-                <td>Emergency response</td>
-                <td>&quot;Roofing company for emergency tarping after storm&quot;</td>
-                <td>Emergency services page with response time, what tarping includes, and geographic coverage</td>
-              </tr>
-              <tr>
-                <td>Adjuster preparation</td>
-                <td>&quot;What does a roof inspector look for in insurance claim?&quot;</td>
-                <td>FAQ content explaining the adjuster inspection process and what documentation protects the homeowner</td>
-              </tr>
-            </tbody>
-          </table>
-        </div>
-
-        <p>The connection to our related piece on <Link href="/blog/why-does-ai-recommend-other-roofers-but-not-me" className="text-[#FF6A00] hover:underline">why AI skips certain roofers</Link> is direct: the structural citation gap covered there affects storm queries even more acutely because storm-triggered searches are higher-intent and happen in compressed time windows. Storm damage content closes that gap for the highest-value query category in roofing.</p>
-
-        <h2 id="material-specific-content">Material-Specific Content: Why Generic &quot;Roofing Services&quot; Pages Fail</h2>
-
-        <p>A homeowner who has decided they want a metal roof is not asking AI for a &quot;roofer.&quot; They are asking for a &quot;metal roof installer.&quot; A property manager evaluating a flat roof replacement is asking about &quot;TPO roofing contractors&quot; or &quot;EPDM roofing companies.&quot; A homeowner in the Southwest replacing clay tile wants a &quot;clay tile roofing specialist.&quot; These are material-specific queries, and they are some of the most common roofing searches on AI platforms.</p>
-
-        <p>Most roofing company websites fail these queries completely. A single &quot;Roofing Services&quot; page that lists asphalt shingle, metal, flat, and tile in a single paragraph gives AI nothing to match against a material-specific query. The homeowner asking about metal roofing needs a page that explains the difference between standing seam and corrugated profiles, the lifespan comparison versus asphalt, typical cost ranges per square, and what the installation process involves. That specificity is what AI cites. The generic page is invisible.</p>
 
         <div className="ae-bar-group not-prose">
-          <div style={{fontWeight: 700, color: '#fff', marginBottom: '1rem', fontFamily: 'var(--font-plus-jakarta)'}}>Roofing Material Pages by AI Citation Frequency</div>
+          <div style={{fontWeight: 700, color: '#fff', marginBottom: '1rem', fontFamily: 'var(--font-plus-jakarta)'}}>Estimated AI Citation Rate by Roofer Profile Type</div>
           <div className="ae-bar-item">
-            <div className="ae-bar-label">Metal roofing (standing seam and corrugated profiles)</div>
-            <div className="ae-bar-track"><div className="ae-bar-fill" style={{width:'88%'}}></div></div>
-            <div className="ae-bar-value">Very High</div>
+            <div className="ae-bar-label">Dedicated service pages + multi-service schema markup</div>
+            <div className="ae-bar-track"><div className="ae-bar-fill" style={{width:'89%'}}></div></div>
+            <div className="ae-bar-value">89%</div>
           </div>
           <div className="ae-bar-item">
-            <div className="ae-bar-label">TPO flat roofing (commercial and residential low-slope)</div>
-            <div className="ae-bar-track"><div className="ae-bar-fill" style={{width:'82%'}}></div></div>
-            <div className="ae-bar-value">Very High</div>
+            <div className="ae-bar-label">Consistent NAP across 10+ directories including roofing-specific sites</div>
+            <div className="ae-bar-track"><div className="ae-bar-fill" style={{width:'81%'}}></div></div>
+            <div className="ae-bar-value">81%</div>
           </div>
           <div className="ae-bar-item">
-            <div className="ae-bar-label">Architectural shingles (brand comparison, dimensional profiles)</div>
-            <div className="ae-bar-track"><div className="ae-bar-fill" style={{width:'75%'}}></div></div>
-            <div className="ae-bar-value">High</div>
+            <div className="ae-bar-label">Storm damage assessment content page with FAQ schema</div>
+            <div className="ae-bar-track"><div className="ae-bar-fill" style={{width:'76%'}}></div></div>
+            <div className="ae-bar-value">76%</div>
           </div>
           <div className="ae-bar-item">
-            <div className="ae-bar-label">EPDM rubber roofing (flat and low-slope commercial)</div>
-            <div className="ae-bar-track"><div className="ae-bar-fill" style={{width:'70%'}}></div></div>
-            <div className="ae-bar-value">High</div>
+            <div className="ae-bar-label">Review base with damage-specific and service-specific text</div>
+            <div className="ae-bar-track"><div className="ae-bar-fill" style={{width:'69%'}}></div></div>
+            <div className="ae-bar-value">69%</div>
           </div>
           <div className="ae-bar-item">
-            <div className="ae-bar-label">Clay and concrete tile (region-specific installs)</div>
-            <div className="ae-bar-track"><div className="ae-bar-fill" style={{width:'62%'}}></div></div>
-            <div className="ae-bar-value">Medium-High</div>
+            <div className="ae-bar-label">Generic homepage, no schema, no dedicated service pages</div>
+            <div className="ae-bar-track"><div className="ae-bar-fill" style={{width:'11%'}}></div></div>
+            <div className="ae-bar-value">11%</div>
           </div>
         </div>
-        <p className="text-sm text-gray-500 mb-6">Based on AEO citation pattern analysis across roofing company AI audit data</p>
+        <p className="text-sm text-gray-500 mb-6">Estimated AI citation rates by profile type, based on AEO analysis patterns across home service industries</p>
 
-        <div className="ae-callout ae-callout-warning not-prose">
-          <div className="ae-callout-title">The Material Content Gap</div>
-          <p>If you install metal roofing but have no dedicated metal roofing page, you are invisible for every AI query about metal roofing in your service area. It does not matter how many metal roofs you have installed. AI platforms cannot infer services from generic pages; they need explicit, material-specific content to match against material-specific queries. Every material you install without dedicated content is revenue you are leaving in a competitor&apos;s estimate stack.</p>
-        </div>
+        <h2 id="storm-damage-signal">The Storm Damage Content Signal AI Prioritizes</h2>
 
-        <p>Each material page should cover: what the material is and where it performs best, the installation process in your market, realistic cost ranges per square for your region, maintenance expectations, and which manufacturer brands you work with. That last point connects directly to the next section: manufacturer relationships are not just business credentials. They are AI citation assets.</p>
+        <p>Storm damage assessment is the single most valuable content category a roofing company can create for AI visibility. When hail, wind, or a fallen tree damages a home, the homeowner's first instinct is to understand the situation before calling anyone. They ask AI: "How do I know if I have hail damage on my roof?" or "What does wind damage look like on shingles?" or "Should I file an insurance claim for my roof after the storm?"</p>
 
-        <div className="ae-cta-inline not-prose">
-          <p>Not sure which roofing queries your website is already showing up for? <Link href="/blindspot" className="text-[#FF6A00] hover:underline font-semibold">Get your free Blind Spot Report</Link> and see exactly which material-specific queries are sending leads to competitors instead of you.</p>
-        </div>
-
-        <h2 id="manufacturer-certifications">Manufacturer Certifications as AI Trust Signals</h2>
-
-        <p>GAF Master Elite. Owens Corning Preferred. CertainTeed SELECT ShingleMaster. These certifications represent fewer than 2% of roofing contractors nationally, and they carry enormous weight with homeowners who understand what they mean. More importantly for AI visibility, they represent verifiable, third-party trust signals that AI platforms can source independently.</p>
-
-        <p>When a homeowner asks ChatGPT for a GAF Master Elite roofer in their area, the AI looks for two things: explicit mentions of that certification on your website in crawlable plain text, and your presence in GAF&apos;s own contractor directory at gaf.com. That directory is crawlable and regularly indexed by AI platforms. Roofing companies that hold the certification but have not claimed their directory listing, or who only display a logo image rather than writing out the certification name and what it means, miss the citation entirely.</p>
+        <p>These are not generic roofing queries. They are high-specificity, high-intent questions being asked by homeowners in active decision mode. The roofing companies that publish detailed, accurate, well-structured content answering these questions become the citation source AI platforms return when those questions are asked. The roofers who do not publish this content are invisible for the queries with the highest conversion potential in the entire roofing business.</p>
 
         <div className="ae-comparison-table not-prose">
           <table>
             <thead>
               <tr>
-                <th>Certification</th>
-                <th>AI-Invisible Version</th>
-                <th>AI-Citable Version</th>
+                <th>Query Type</th>
+                <th>What AI Is Looking For</th>
+                <th>Content That Earns the Citation</th>
               </tr>
             </thead>
             <tbody>
               <tr>
-                <td>GAF Master Elite</td>
-                <td>Small logo image in footer</td>
-                <td>Dedicated paragraph explaining what Master Elite requires (continuous training, contractor standards, complaint resolution), plus claimed gaf.com directory listing</td>
+                <td>Hail damage assessment</td>
+                <td>Signs of hail damage, what to look for, granule loss, bruising on shingles</td>
+                <td>Dedicated page: "How to Identify Hail Damage on Your Roof" with photos, FAQ schema, local storm context</td>
               </tr>
               <tr>
-                <td>Owens Corning Preferred</td>
-                <td>&quot;We are an OC Preferred Contractor&quot; in one line</td>
-                <td>Page section explaining the Preferred Contractor requirements, what the enhanced warranty means for homeowners, and when it applies</td>
+                <td>Insurance claim process</td>
+                <td>Steps for filing, documentation needed, adjuster timeline, roofer's role</td>
+                <td>Page: "Roof Insurance Claim Process: What Homeowners Need to Know" with step-by-step schema</td>
               </tr>
               <tr>
-                <td>CertainTeed SELECT</td>
-                <td>Listed under &quot;Our Partners&quot; with no explanation</td>
-                <td>Written description of the SELECT ShingleMaster program, what the Signature Warranty covers, and how it differs from standard material warranties</td>
+                <td>Wind damage identification</td>
+                <td>Lifted flashing, missing shingles, damaged ridge cap, what qualifies as wind damage</td>
+                <td>Page: "Wind Damage Roof Inspection: Signs You Need Immediate Repair"</td>
               </tr>
               <tr>
-                <td>NRCA ProCertification</td>
-                <td>Not mentioned at all</td>
-                <td>Section explaining what NRCA certification involves, what continuing education it requires, and why it signals installer quality</td>
+                <td>Emergency roof repair</td>
+                <td>After-storm tarping, temporary protection, urgency of repair, who to call</td>
+                <td>Page: "Emergency Roof Repair in [City]: Storm Response and Temporary Protection"</td>
+              </tr>
+              <tr>
+                <td>Replacement vs. repair decision</td>
+                <td>When to repair, when to replace, cost thresholds, age of roof considerations</td>
+                <td>Page: "Roof Repair vs. Replacement: How to Decide After Storm Damage"</td>
               </tr>
             </tbody>
           </table>
         </div>
 
-        <p>The reason certification content works as an AI trust signal is that it passes the AI credibility test on multiple dimensions simultaneously. Your website says you hold the certification. The manufacturer&apos;s directory independently confirms it. Third-party industry content explains what the certification requires. That three-source confirmation is exactly the kind of entity validation AI platforms look for before making a recommendation for a high-dollar residential service like a $15,000 roof replacement.</p>
+        <div className="ae-cta-inline not-prose">
+          <p>Not sure if your storm damage content is citation-ready? <Link href="/blindspot" className="text-[#FF6A00] hover:underline font-semibold">Get a free Blind Spot Report</Link> and see exactly what AI knows about your roofing company.</p>
+        </div>
+
+        <h2 id="local-citations">Why Local Citations Are the Foundation of Roofing AI Visibility</h2>
+
+        <p>Local citations are the corroboration layer of your AI presence. When an AI platform evaluates whether to recommend a roofing company, one of its core confidence checks is whether the same business information appears consistently across multiple independent sources. A roofing company whose name, address, and phone number match perfectly across Yelp, Angi, HomeAdvisor, the Better Business Bureau, local chamber of commerce listings, and manufacturer certification directories registers as a real, established local business. Inconsistencies anywhere in that chain lower the AI's confidence and suppress recommendations.</p>
+
+        <p>Roofing companies face a specific challenge here. The industry has high turnover, storm chasers who operate briefly in an area, and contractors who change their business names after negative reviews. AI platforms have learned to weight citation consistency heavily as a proxy for legitimacy. A roofer with perfect NAP consistency across 15 directories and three roofing industry certification sites signals stability and trustworthiness in a way that a roofer appearing only on their own website cannot.</p>
+
+        <div className="ae-callout ae-callout-warning not-prose">
+          <div className="ae-callout-title">The Citation Inconsistency Trap</div>
+          <p>The most common citation error for roofing companies is a phone number or address change that never gets updated across all directories. A business that moved locations two years ago but still shows the old address on Yelp, Thumbtack, and BBB is sending contradictory signals to AI. The platform reduces its confidence in the entire entity, not just the outdated listing. Auditing all directory citations after any business change is not optional for roofing AI visibility.</p>
+        </div>
+
+        <div className="ae-timeline not-prose">
+          <div className="ae-timeline-item">
+            <div className="ae-timeline-step">1</div>
+            <div>
+              <div className="ae-timeline-title">Core directories (highest AI weight)</div>
+              <div className="ae-timeline-desc">Google Business Profile, Yelp, Angi, HomeAdvisor, BBB, Thumbtack. These are the sources AI platforms reference most frequently for local home service businesses. Perfect NAP consistency across all six is the minimum baseline.</div>
+            </div>
+          </div>
+          <div className="ae-timeline-item">
+            <div className="ae-timeline-step">2</div>
+            <div>
+              <div className="ae-timeline-title">Roofing-specific directories</div>
+              <div className="ae-timeline-desc">GAF certified contractor directory, CertainTeed ShingleMaster directory, Owens Corning Preferred Contractor directory, National Roofing Contractors Association member listing. These industry-specific citations signal professional credentialing, which AI interprets as authority.</div>
+            </div>
+          </div>
+          <div className="ae-timeline-item">
+            <div className="ae-timeline-step">3</div>
+            <div>
+              <div className="ae-timeline-title">Local authority sources</div>
+              <div className="ae-timeline-desc">Chamber of commerce membership, local news mentions after storm response, neighborhood association features, city business licensing directories. These citations from geographically relevant sources strengthen location signals.</div>
+            </div>
+          </div>
+          <div className="ae-timeline-item">
+            <div className="ae-timeline-step">4</div>
+            <div>
+              <div className="ae-timeline-title">Social and community signals</div>
+              <div className="ae-timeline-desc">Facebook Business page, Nextdoor business profile, LinkedIn company page. AI platforms increasingly draw from community discussion and social sources for local business validation, particularly for service businesses where community trust is the primary purchase driver.</div>
+            </div>
+          </div>
+        </div>
+
+        <h2 id="schema-bundling">Multi-Service Schema Bundling for Roofers</h2>
+
+        <p>Schema markup is the structured data layer that tells AI exactly what your roofing business does without requiring the AI to interpret your prose. Most roofing companies either have no schema at all or use a single generic LocalBusiness schema that lists a business name and address. Neither approach gives AI the service-level specificity it needs to recommend you for specific roofing queries.</p>
+
+        <p>Multi-service schema bundling is the practice of declaring multiple distinct service types under your business entity, each with its own structured description, area served, and relevant attributes. A well-structured roofing schema bundle might include the LocalBusiness entity, individual Service schemas for roof replacement, storm damage repair, emergency tarping, gutter installation, and commercial roofing, plus FAQPage schemas on your educational content pages. Each service schema becomes an individual matching surface for the queries it describes.</p>
+
+        <div className="ae-pros-cons not-prose">
+          <div className="ae-pros-box">
+            <div style={{fontWeight: 700, marginBottom: '0.5rem', color: '#4ade80'}}>AI-Readable Roofing Schema Structure</div>
+            <ul>
+              <li>HomeAndConstructionBusiness or RoofingContractor LocalBusiness type</li>
+              <li>Individual Service schema per offering (replacement, repair, storm, gutter)</li>
+              <li>areaServed with named cities and service radius</li>
+              <li>openingHours with emergency contact option noted</li>
+              <li>hasCredential for manufacturer certifications</li>
+              <li>FAQPage schema on each educational content page</li>
+              <li>Review and AggregateRating schema where applicable</li>
+            </ul>
+          </div>
+          <div className="ae-cons-box">
+            <div style={{fontWeight: 700, marginBottom: '0.5rem', color: '#f87171'}}>What Most Roofers Have Instead</div>
+            <ul>
+              <li>No schema markup at all</li>
+              <li>Generic LocalBusiness with only name and address</li>
+              <li>No service-level declarations</li>
+              <li>No areaServed specification</li>
+              <li>No certification credentials in structured data</li>
+              <li>No FAQ schema on any pages</li>
+              <li>No review schema</li>
+            </ul>
+          </div>
+        </div>
+
+        <p>The gap between these two schema profiles is enormous in terms of AI query matching. A roofer with full multi-service schema can potentially surface for "who does storm damage roof repair in [city]," "best roofer for insurance claims near me," "emergency roof tarping [city]," and "GAF certified roofer [city]" as separate citation events. A roofer with no schema is unlikely to surface for any of them specifically.</p>
+
+        <div className="ae-cta-inline not-prose">
+          <p>Not sure if your schema setup covers all your services? <Link href="/blindspot" className="text-[#FF6A00] hover:underline font-semibold">Get a free Blind Spot Report</Link> to see your full structured data profile.</p>
+        </div>
+
+        <h2 id="service-pages">Service Pages That Become Citation Assets</h2>
+
+        <p>The single most common structural failure on roofing company websites is the single Services page. Most roofing websites list everything on one page: "We do roof replacement, repair, gutters, commercial roofing, storm damage, and siding." That page gives AI nothing to match against a specific query. It is a menu, not a citation asset.</p>
+
+        <p>Every service a roofing company offers deserves its own dedicated page. Not because of SEO keyword density, but because AI platforms need a page that is specifically about the thing being asked about before they can confidently cite it. When someone asks "who does commercial flat roof installation in Phoenix," a roofer with a dedicated Commercial Roofing page is vastly more likely to appear than one with a bullet point on a combined services page.</p>
+
+        <div className="ae-decision-matrix not-prose">
+          <div style={{fontWeight: 700, color: '#fff', marginBottom: '1rem', fontFamily: 'var(--font-plus-jakarta)'}}>Roofing Service Pages That Earn AI Citations</div>
+          <div className="ae-decision-row">
+            <span className="ae-decision-if">Roof Replacement page</span>
+            <span className="ae-decision-arrow">→</span>
+            <span className="ae-decision-then">Covers process, materials, warranty, timeframe, cost range. Targets replacement queries.</span>
+          </div>
+          <div className="ae-decision-row">
+            <span className="ae-decision-if">Storm Damage Assessment page</span>
+            <span className="ae-decision-arrow">→</span>
+            <span className="ae-decision-then">Covers hail, wind, fallen debris. What to look for, when to call. Highest-intent content category.</span>
+          </div>
+          <div className="ae-decision-row">
+            <span className="ae-decision-if">Roof Repair page</span>
+            <span className="ae-decision-arrow">→</span>
+            <span className="ae-decision-then">Covers leak sources, flashing repair, shingle replacement, ridge cap. Repair vs. replace guidance.</span>
+          </div>
+          <div className="ae-decision-row">
+            <span className="ae-decision-if">Insurance Claims page</span>
+            <span className="ae-decision-arrow">→</span>
+            <span className="ae-decision-then">Covers the claim process, documentation, adjuster appointments, contractor's role. Unique citation asset.</span>
+          </div>
+          <div className="ae-decision-row">
+            <span className="ae-decision-if">Gutter Services page</span>
+            <span className="ae-decision-arrow">→</span>
+            <span className="ae-decision-then">Covers installation, cleaning, guards, downspout work. Captures gutter-specific queries alongside roofing.</span>
+          </div>
+          <div className="ae-decision-row">
+            <span className="ae-decision-if">Commercial Roofing page</span>
+            <span className="ae-decision-arrow">→</span>
+            <span className="ae-decision-then">Covers flat roofs, TPO, EPDM, commercial-specific services. Separates you from residential-only competitors.</span>
+          </div>
+        </div>
+
+        <p>Each page should answer the specific questions a prospective customer would ask AI about that service: what signs indicate they need it, what the process looks like, how long it takes, what it costs roughly, and what makes your company the right choice for it in your area. That combination of problem context, process clarity, and local specificity is what AI platforms extract when building their recommendation answers.</p>
+
+        <h2 id="review-signals">Review Signals That Move the Needle</h2>
+
+        <p>Reviews are one of the primary sources AI platforms use to understand what a roofing company actually does and how well it does it. But the reviews that matter for AI visibility are not the same as the reviews that make humans feel good. AI platforms extract specific, verifiable information from review text: what type of work was done, what the problem was, how it was resolved, and any context about the speed or quality of the response.</p>
+
+        <p>A review that says "great roofer, very professional" gives AI almost no useful information. A review that says "Had major hail damage after the storm last Tuesday. They came out within 24 hours for the assessment, worked directly with my insurance adjuster, and had the full replacement done in two days. All GAF materials, very clean crew" gives AI rich, specific evidence that this roofer handles storm damage claims, works with insurance, responds quickly, and uses name-brand materials. That review is citation-quality content sitting on Google.</p>
 
         <div className="ae-callout ae-callout-success not-prose">
-          <div className="ae-callout-title">The Manufacturer Directory Shortcut</div>
-          <p>GAF&apos;s contractor finder at gaf.com, Owens Corning&apos;s roofing contractor locator, and CertainTeed&apos;s contractor finder are all crawlable by AI. If you are a certified contractor who has not claimed and completed your profile on the manufacturer&apos;s directory, you are missing a high-authority third-party citation that AI platforms actively pull from. Claiming and completing these profiles takes less than an hour and creates a permanent citation asset that reinforces every AI recommendation your website earns.</p>
+          <div className="ae-callout-title">The Review Prompt That Works for Roofers</div>
+          <p>After every completed job, send a brief follow-up: "We would love a review. If you can, please mention what type of work we did and what the situation was that brought you to us. It helps other homeowners facing the same situation find us." This prompt consistently produces the specific, scenario-rich reviews that AI platforms use as citation evidence. Generic review requests produce generic reviews that AI cannot use.</p>
         </div>
 
-        <h2 id="residential-vs-commercial">Residential vs. Commercial: Two Separate AI Audiences</h2>
+        <p>The insurance claim angle deserves special attention. Homeowners who navigated a successful insurance claim with help from a roofer will frequently mention this in reviews: "They handled everything with the insurance company." Those mentions are powerful AI signals for the query "roofer who helps with insurance claims," which is one of the highest-volume roofing queries on AI platforms after any significant storm event.</p>
 
-        <p>Residential and commercial roofing are fundamentally different buying contexts. A homeowner asking AI for a roofer and a facilities manager asking AI for a commercial roofing contractor are asking completely different questions with completely different information needs, decision timelines, and technical requirements. AI platforms treat them as separate categories, and roofing companies that serve both markets but have only one combined page lose commercial queries to specialists every time.</p>
+        <h2 id="competitor-profile">What Top-Ranked Roofing Companies Are Doing Differently</h2>
 
-        <p>Commercial roofing queries cluster around flat roof systems, low-slope membranes, and multi-unit or multi-building scope. A facilities manager asking AI about TPO roofing is looking for content that addresses membrane thickness options, seam welding techniques, R-value and energy compliance requirements, and what a multi-phase replacement schedule looks like for an occupied building. None of that language appears on a generic residential roofing page, so the generic page never gets cited for the commercial query even if the company does excellent commercial work.</p>
+        <p>Roofing companies that consistently appear in AI recommendations share a recognizable profile. They are not necessarily the largest companies in their market or the ones with the biggest advertising budgets. They are the companies whose digital presence is structured to answer specific questions, confirm specific credentials, and signal geographic relevance in ways that AI platforms can parse and trust.</p>
 
-        <div className="ae-callout ae-callout-info not-prose">
-          <div className="ae-callout-title">What Commercial Roofing AI Content Requires</div>
-          <p>A commercial roofing page that earns AI citations needs to address the specific systems you install: TPO membrane specifications and seam types, EPDM versus modified bitumen for specific climates, standing seam metal for commercial applications, and flat roof drainage design. It should explain your project management approach for occupied buildings, your insurance and bonding levels, and your experience with multi-unit scope. That specificity is what separates a cited commercial roofer from a residential contractor who also does commercial but has no content about it.</p>
+        <div className="ae-timeline not-prose">
+          <div className="ae-timeline-item">
+            <div className="ae-timeline-step">1</div>
+            <div>
+              <div className="ae-timeline-title">Complete, optimized Google Business Profile</div>
+              <div className="ae-timeline-desc">Every field filled in: service list with specific service names, service areas by city, hours, photos of completed jobs and storm damage assessments, posts after local weather events, and manufacturer certifications listed. GBP is the single highest-weight data source for local roofing AI queries.</div>
+            </div>
+          </div>
+          <div className="ae-timeline-item">
+            <div className="ae-timeline-step">2</div>
+            <div>
+              <div className="ae-timeline-title">Storm damage and damage-specific content</div>
+              <div className="ae-timeline-desc">Dedicated pages for hail damage, wind damage, emergency repair, and the insurance claim process. These pages target the highest-intent roofing queries and establish the company as the authoritative local source for damage-related information.</div>
+            </div>
+          </div>
+          <div className="ae-timeline-item">
+            <div className="ae-timeline-step">3</div>
+            <div>
+              <div className="ae-timeline-title">Multi-service schema across the full offering</div>
+              <div className="ae-timeline-desc">Not just a LocalBusiness schema, but individual Service schemas for each offering: replacement, storm repair, emergency tarping, gutter services, commercial work. FAQPage schemas on educational content pages. Each schema is a separate query-matching surface.</div>
+            </div>
+          </div>
+          <div className="ae-timeline-item">
+            <div className="ae-timeline-step">4</div>
+            <div>
+              <div className="ae-timeline-title">Citations across roofing-specific directories</div>
+              <div className="ae-timeline-desc">Manufacturer certification directories (GAF, CertainTeed, Owens Corning), NRCA membership, BBB accreditation, and consistent NAP across all consumer directories. These roofing-industry credentials signal to AI that this is a legitimate, professional operation.</div>
+            </div>
+          </div>
+          <div className="ae-timeline-item">
+            <div className="ae-timeline-step">5</div>
+            <div>
+              <div className="ae-timeline-title">Scenario-specific review base</div>
+              <div className="ae-timeline-desc">Reviews that mention storm events, insurance claims, specific materials, specific neighborhoods, and specific timelines. These reviews are citation-quality content that AI platforms extract as evidence of real expertise across real scenarios.</div>
+            </div>
+          </div>
         </div>
 
-        <p>Residential roofing requires its own parallel content strategy. Storm damage, manufacturer certifications, material selection, and warranty explanations all belong in the residential content ecosystem. The key point is that residential and commercial should be separate pages with separate content targeting, separate FAQ sections, and separate schema markup. A unified &quot;We do residential and commercial&quot; page wins neither category&apos;s queries.</p>
+        <h2 id="quick-wins">Quick Wins for Roofing Companies</h2>
 
-        <h2 id="warranty-workmanship">Warranty and Workmanship as Citable Differentiators</h2>
-
-        <p>Warranty content is one of the most underused AI citation assets in the roofing industry. Homeowners buying a $12,000 to $25,000 roof replacement are highly motivated to understand what is actually guaranteed, for how long, and under what conditions. They ask AI these questions before they call a single contractor. The roofing companies that answer those questions explicitly in plain text own a category of high-intent queries that competitors with vague &quot;we stand behind our work&quot; language never appear in.</p>
-
-        <p>There are two distinct warranty types in roofing, and AI can only explain your warranties if you have explained them first. Manufacturer material warranties cover the shingles, membrane, or tiles themselves for defects in manufacturing. Workmanship warranties cover the installation labor and are the roofing company&apos;s own guarantee. Most homeowners do not understand the difference until they have a leak, and they often cannot find the information when they need it. A roofing company that explains both warranties clearly, in plain text on its website, becomes the authoritative answer to warranty-related AI queries in its market.</p>
-
-        <div className="ae-comparison-table not-prose">
-          <table>
-            <thead>
-              <tr>
-                <th>Warranty Query</th>
-                <th>What Homeowners Ask AI</th>
-                <th>What Your Content Needs to Say</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td>Coverage scope</td>
-                <td>&quot;What does a roofing workmanship warranty cover?&quot;</td>
-                <td>Explicit list of what your warranty covers: flashing, penetrations, valleys, ridge caps. What is excluded and why.</td>
-              </tr>
-              <tr>
-                <td>Duration comparison</td>
-                <td>&quot;How long should a roofing warranty last?&quot;</td>
-                <td>Your warranty terms stated plainly, how they compare to industry standard (1-2 years vs. your offer), and what extends the coverage period</td>
-              </tr>
-              <tr>
-                <td>Manufacturer vs. workmanship</td>
-                <td>&quot;What is the difference between manufacturer and workmanship warranty?&quot;</td>
-                <td>Clear explanation of both warranty types, who to call for which problem, and how your certification affects manufacturer warranty terms</td>
-              </tr>
-              <tr>
-                <td>Transferability</td>
-                <td>&quot;Is a roofing warranty transferable when you sell your home?&quot;</td>
-                <td>Whether your workmanship warranty transfers, under what conditions, and what registration is required</td>
-              </tr>
-            </tbody>
-          </table>
-        </div>
-
-        <p>Workmanship warranty length is also a direct competitive signal that AI can cite. When a homeowner asks AI which roofing companies offer the best warranties, the AI compares what it can find. A company offering a 10-year workmanship warranty that states this clearly, explains what it covers, and lists any conditions will appear in that comparison. A company offering the same warranty but not stating it anywhere in plain text will not.</p>
-
-        <div className="ae-callout ae-callout-warning not-prose">
-          <div className="ae-callout-title">What Voids Coverage: The Content Most Roofers Skip</div>
-          <p>One of the highest-performing pieces of roofing warranty content from an AI citation standpoint is an honest explanation of what voids coverage. Homeowners ask AI this question regularly, and very few roofing websites answer it. Explaining that improper ventilation, unauthorized repairs, adding rooftop equipment without sealing, or power washing shingles can void warranties positions your company as the honest, knowledgeable expert AI trusts to cite for warranty questions. Competitors who say nothing get cited for nothing.</p>
-        </div>
-
-        <div className="ae-cta-inline not-prose">
-          <p>Warranty and certification content are two of the fastest paths to AI citation improvement for roofers. <Link href="/blindspot" className="text-[#FF6A00] hover:underline font-semibold">Get your free Blind Spot Report</Link> to see where your current content stands and exactly what to build next.</p>
-        </div>
-
-        <h2 id="citations-vs-rankings">Why Reviews Count But Do Not Get You Cited</h2>
-
-        <p>This distinction confuses nearly every roofing company owner we work with: your Google reviews count toward AI understanding your reputation, but they do not directly get you cited in AI recommendations. Understanding why reveals one of the most actionable improvements available to roofing companies today.</p>
-
-        <p>AI platforms build their recommendations from crawlable, plain-HTML content sources. Google reviews load through JavaScript, which most AI crawlers do not execute. This means your 200 five-star Google reviews, no matter how recent or how detailed, are largely invisible to the AI building an answer about which roofer to recommend. The AI knows Google reviews exist as a concept, but it cannot read yours specifically unless they appear in plain text somewhere else.</p>
-
-        <div className="ae-callout ae-callout-info not-prose">
-          <div className="ae-callout-title">The Citations vs. Rankings Distinction</div>
-          <p>Google rankings and AI citations are related but separate outcomes. Strong Google reviews help your domain authority, which influences AI training data over time. But a direct path to AI citations from review content requires those reviews to appear in crawlable text: on your own website as plain-text testimonials, on Yelp (which is fully HTML-crawlable), on BBB, on Angi, or quoted in third-party articles. The connection between reviews and AI citations runs through crawlability, not star rating aggregation.</p>
-        </div>
-
-        <p>For roofing companies specifically, there is a high-value citation format that combines reviews with material and project specificity: project testimonials organized by job type. A testimonial section organized as &quot;What customers say about our metal roofing&quot; or &quot;Customer experiences with our storm damage claims process&quot; serves dual purposes. It provides social proof that AI can read in plain text, and it reinforces the material-specific and service-specific content on those same pages. The result is that AI encounters consistent signals about your expertise in that category from multiple content elements on the same page, which accelerates citation frequency.</p>
-
-        <p>The difference between a review and a citation is authority sourcing. When AI cites your business, it needs to point to a source a third-party user would trust. Your own website testimonials are useful but limited. Yelp reviews, BBB ratings, and third-party directory profiles from Angi or HomeAdvisor carry more authority because they are independent. Manufacturer directory listings carry high authority because they represent verified credentialing. Building review presence across these crawlable platforms, organized by service type where possible, creates the citation foundation that gets roofing companies into AI answers.</p>
-
-        <h2 id="quick-action-plan">Quick Action Plan for Roofing AI Visibility</h2>
-
-        <p>The roofing companies that consistently earn AI citations have addressed five structural content gaps. Each gap below represents a category of AI queries your business is currently invisible for until it is closed.</p>
+        <p>Not every roofing company can rebuild their entire website this week. But several high-leverage moves create meaningful AI visibility improvement within 30 to 60 days without requiring a full site overhaul.</p>
 
         <div className="ae-cheat-sheet not-prose">
-          <div className="ae-cheat-sheet-title">Roofing AI Visibility: Five Gaps to Close</div>
+          <div className="ae-cheat-sheet-title">AI Visibility Quick Wins for Roofing Companies</div>
           <table>
             <tbody>
-              <tr>
-                <td>Storm and insurance page</td>
-                <td>Build a dedicated page covering hail and wind damage assessment, the insurance claim process step by step, your documentation process, and emergency tarping coverage. Add FAQPage schema to every Q&amp;A on the page.</td>
-              </tr>
-              <tr>
-                <td>Material-specific pages</td>
-                <td>Create individual pages for each material you actively install. Metal, TPO, EPDM, architectural shingle, tile. Each page needs process description, regional cost ranges, brand options you carry, and maintenance expectations.</td>
-              </tr>
-              <tr>
-                <td>Certification content</td>
-                <td>Write out your certifications in plain text. Explain what each certification requires, what enhanced warranty terms it unlocks, and what it means for the homeowner. Claim your manufacturer directory listings.</td>
-              </tr>
-              <tr>
-                <td>Warranty page</td>
-                <td>Create a standalone warranty page that separates manufacturer material coverage from your workmanship guarantee. State your warranty duration, what is covered, what voids it, and whether it transfers on home sale.</td>
-              </tr>
-              <tr>
-                <td>Commercial roofing page</td>
-                <td>If you do commercial work, build a commercial-specific page covering flat roof systems, scope capacity, project management for occupied buildings, bonding levels, and your largest completed projects by system type.</td>
-              </tr>
+              <tr><td>Update GBP service list</td><td>Add specific service names: "Hail Damage Roof Repair," "Storm Damage Assessment," not just "Roofing"</td></tr>
+              <tr><td>Add manufacturer certifications to GBP</td><td>GAF Certified, CertainTeed ShingleMaster, and Owens Corning Preferred in the products/attributes field</td></tr>
+              <tr><td>Create one storm damage assessment page</td><td>Dedicated page answering "How do I know if I have hail damage" with FAQ schema markup</td></tr>
+              <tr><td>Create one insurance claims page</td><td>Step-by-step guide to the claim process, what to document, how you assist. Unique citation asset in most markets.</td></tr>
+              <tr><td>Claim manufacturer certification directories</td><td>GAF, CertainTeed, and Owens Corning all maintain contractor-finder directories AI platforms reference</td></tr>
+              <tr><td>Prompt scenario-specific reviews</td><td>Ask customers to mention the storm event, type of damage, and insurance involvement in their reviews</td></tr>
+              <tr><td>Audit NAP across all directories</td><td>Find and fix any inconsistencies in name, address, or phone number across Yelp, Angi, HomeAdvisor, BBB</td></tr>
             </tbody>
           </table>
         </div>
 
-        <p>These five content investments are independent of the foundational citation work covered in our companion article on <Link href="/blog/why-does-ai-recommend-other-roofers-but-not-me" className="text-[#FF6A00] hover:underline">why AI skips certain roofers</Link>. That piece covers the structural citation layer: schema markup, directory consistency, review platform diversification. This action plan sits on top of that foundation and targets the specific query categories where roofing AI traffic concentrates. Both are necessary. Neither alone is sufficient.</p>
+        <p>The through-line across all of these moves is the same: make it structurally easier for AI to understand exactly who you are, what damage scenarios you handle, which certifications you hold, and where you serve. Vague, general claims produce no AI citations. Specific, structured, verified information produces recommendations.</p>
 
         <div className="ae-callout ae-callout-info not-prose">
           <div className="ae-callout-title">Related Reading</div>
-          <p>For the foundational steps that make every piece of content above more effective, read <Link href="/blog/why-does-ai-recommend-other-roofers-but-not-me" className="text-[#FF6A00] hover:underline">why AI skips certain roofers</Link>. For broader context on how AI platforms evaluate local businesses, read <Link href="/blog/how-ai-platforms-choose-businesses-to-cite" className="text-[#FF6A00] hover:underline">how AI platforms choose businesses to cite</Link>. For a full picture of AEO timelines, see <Link href="/blog/how-long-does-aeo-take-to-work" className="text-[#FF6A00] hover:underline">how long AEO takes to work</Link>.</p>
+          <p>Roofing is part of the broader home services category. See <Link href="/blog/how-contractors-and-home-service-companies-win-ai-search" className="text-[#FF6A00] hover:underline">how contractors win AI search</Link> for cross-trade patterns, and <Link href="/blog/why-does-ai-recommend-other-roofers-but-not-me" className="text-[#FF6A00] hover:underline">why AI recommends other roofers instead of you</Link> for a diagnostic breakdown of the most common gaps.</p>
         </div>
 
-        {/* Bottom CTA block */}
+        {/* 3-tier CTA block */}
         <div className="not-prose my-16 p-8 rounded-2xl bg-gradient-to-br from-[#FF6A00]/10 to-transparent border border-[#FF6A00]/20">
-          <h3 className="font-plus-jakarta text-2xl font-bold text-white mb-3">Find Out Which Roofing Queries Your Competitors Are Already Winning</h3>
-          <p className="text-gray-400 mb-6">Our free Blind Spot Report shows exactly what ChatGPT, Perplexity, and Google AI know about your roofing company right now. Storm queries, certification queries, material queries. See what is visible and what is not before storm season.</p>
+          <h3 className="font-plus-jakarta text-2xl font-bold text-white mb-3">Find Out Why AI Is Sending Storm Calls to Other Roofers</h3>
+          <p className="text-gray-400 mb-6">Our free Blind Spot Report shows exactly what ChatGPT, Perplexity, and Google AI know about your roofing company, which citation signals are missing, and what it would take to appear when a homeowner asks for a roofer after the next storm.</p>
           <Link href="/blindspot" className="inline-flex items-center gap-2 bg-[#FF6A00] text-white px-6 py-3 rounded-lg font-semibold hover:bg-[#e55f00] transition-colors">
             Get Your Free Blind Spot Report
             <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" /></svg>
@@ -598,7 +615,7 @@ export default function Page() {
           <div className="ae-author-avatar">AE</div>
           <div>
             <div className="font-semibold text-white">The Answer Engine Team</div>
-            <div className="text-sm text-gray-400">AI visibility specialists helping local service businesses get found, cited, and recommended by ChatGPT, Perplexity, and Google AI. We track roofing industry AI citation patterns weekly.</div>
+            <div className="text-sm text-gray-400">AI visibility specialists helping local service businesses get found, trusted, and recommended by ChatGPT, Perplexity, and Google AI.</div>
           </div>
         </div>
 
@@ -608,32 +625,32 @@ export default function Page() {
         <div className="not-prose space-y-6">
           {[
             {
-              q: 'What kinds of roofing queries are homeowners asking AI platforms?',
-              a: 'Homeowners ask AI highly specific roofing questions that cluster into three categories: storm and insurance queries like "who handles hail damage roof claims near me," material-specific queries like "best roofer for metal roofing in my area," and certification queries like "GAF Master Elite roofer near me." Roofing companies with content addressing each category appear in far more AI recommendations than those with only a generic services page.',
+              q: 'Why does ChatGPT recommend other roofers in my area but not me?',
+              a: 'ChatGPT builds its understanding of local roofers from sources it trained on: review sites, directories, local news, and business websites. If your competitors appear more frequently across those sources with more structured content, they show up in AI recommendations while you stay invisible. The deciding factor is how clearly and consistently your digital presence signals what you do and where you do it.',
             },
             {
-              q: 'Does a GAF Master Elite or Owens Corning Preferred certification help with AI recommendations?',
-              a: 'Yes, significantly. Manufacturer certifications are strong AI trust signals because they represent third-party vetting by a known brand. When homeowners ask AI for a certified roofer, the platform looks for explicit mentions of those certifications in crawlable text on your website and in directory profiles. Roofers who list their certifications in plain text, including what the certification requires, earn more AI citations than those who only display a logo image.',
+              q: 'Does storm damage content help a roofing company get found on AI?',
+              a: 'Significantly. Storm damage assessment is one of the highest-intent roofing queries on AI platforms. Homeowners who just experienced hail or wind damage ask AI for help understanding what to look for and who to call. A roofing company with a dedicated, detailed storm damage assessment page becomes the authoritative citation for those queries in its area. Generic pages do not earn those citations.',
             },
             {
-              q: 'How do roofing companies get found for storm damage and insurance claim queries?',
-              a: 'Storm and insurance queries require dedicated content: a standalone storm damage or insurance claim page that explains the hail or wind damage assessment process, how the insurance adjuster visit works, what documentation you provide, and what a homeowner should expect from filing a claim. AI cites this content directly when homeowners ask about the insurance claim process. Without it, storm-season queries go to competitors who have it.',
+              q: 'How do local citations help a roofing company get recommended by AI?',
+              a: 'Local citations, your business name, address, and phone number appearing consistently across directories like Yelp, Angi, HomeAdvisor, and industry-specific sites, act as corroboration signals for AI. When an AI platform sees the same business information confirmed across many independent sources, its confidence in that business as a real, established local entity rises sharply. Inconsistent or missing citations reduce that confidence and suppress recommendations.',
             },
             {
-              q: 'Should a roofing company have separate pages for residential and commercial roofing?',
-              a: 'Absolutely. Residential and commercial roofing are distinct services with different buyer profiles, decision timelines, and material systems. AI treats them as separate categories. A roofer with a combined page loses commercial queries to specialists who have dedicated commercial content covering flat roof systems, TPO, EPDM, and multi-unit building experience. Both should have their own page with service-specific language, process descriptions, and appropriate schema markup.',
+              q: 'What schema markup should a roofing company use?',
+              a: 'Roofing companies benefit from combining several schema types: LocalBusiness or HomeAndConstructionBusiness for the base entity, Service schema for each service offering such as roof replacement, storm damage repair, and gutter installation, FAQPage schema on educational content pages, and Review schema where permitted. Multi-service schema bundling, declaring multiple service types under one entity, helps AI understand the full scope of what your business offers.',
             },
             {
-              q: 'How does warranty information affect AI citations for roofing companies?',
-              a: 'Warranty details are among the most underused AI citation assets in roofing. When a homeowner asks AI what a good roofing warranty includes, or which roofers offer workmanship warranties, the AI looks for plain-text warranty descriptions on roofing company websites. Companies that explicitly state their warranty terms, the difference between manufacturer material warranties and their own workmanship guarantees, and what voids coverage earn citations on high-intent questions that competitors with vague language never appear in.',
+              q: 'Should a roofing company create separate pages for each service?',
+              a: 'Yes. Dedicated service pages for roof replacement, storm damage assessment, roof repair, gutter services, and commercial roofing each become independent citation assets. A single Services page with everything listed gives AI very little to work with for specific queries. Each dedicated page, when paired with appropriate schema markup, can surface for the specific question it answers.',
             },
             {
-              q: 'Which roofing materials should a roofing company have dedicated content for?',
-              a: 'At minimum, cover the materials you actively install: architectural shingles versus 3-tab, metal roofing (standing seam and corrugated), TPO and EPDM for commercial flat roofs, and clay or concrete tile if you serve those markets. Each material generates its own AI queries. A homeowner considering metal roofing will ask AI specifically about metal roofing installers. If you have no metal roofing content, you are invisible for those queries even if you install it regularly.',
+              q: 'How long does it take a roofing company to appear in AI recommendations?',
+              a: 'Roofing companies optimizing for AI visibility typically see initial results from Perplexity and Google AI Overviews within 30 to 60 days of improving structured data, schema markup, and Google Business Profile completeness. ChatGPT base model citations depend on retraining cycles and can take 12 to 18 months to reflect changes. Perplexity and Google AI move much faster because they retrieve live web data.',
             },
             {
-              q: 'How is getting found on AI different from ranking on Google for roofing companies?',
-              a: 'Google rankings rely heavily on domain authority, backlinks, and page speed. AI citations rely on content specificity, structured data, and third-party validation that AI platforms can crawl. A roofing company with modest Google rankings but detailed service pages, explicit certification mentions, manufacturer directory listings, and FAQPage schema can appear in AI recommendations ahead of companies with more Google authority. The two channels reward different content investments.',
+              q: 'Do insurance claim keywords help a roofer get found on AI?',
+              a: 'Yes. Many homeowners who ask AI about roofing are navigating an insurance claim for storm damage. Content that explains the insurance claim process for roof repairs, what documentation is needed, and how a roofer assists with adjuster meetings is highly specific and highly cited. Roofers who publish this content become the authoritative voice for those queries in their area.',
             },
           ].map((item, i) => (
             <div key={i} className="border border-white/10 rounded-xl p-6 bg-white/[0.02]">
@@ -645,8 +662,8 @@ export default function Page() {
 
         {/* Final CTA */}
         <div className="ae-final-cta not-prose">
-          <h2 className="font-plus-jakarta text-3xl font-bold text-white mb-4">Own Your Market&apos;s Roofing Queries Before Storm Season</h2>
-          <p className="text-gray-300 mb-8 text-lg">Storm-season AI queries spike 3.4x. The roofers in those answers built their content before the storms hit. Our Blind Spot Report shows exactly what AI knows about your company today and what it would take to be the first result when the hail comes.</p>
+          <h2 className="font-plus-jakarta text-3xl font-bold text-white mb-4">The Next Storm Job Could Be Yours</h2>
+          <p className="text-gray-300 mb-8 text-lg">Every AI-referred roofing call that goes to a competitor is a lost job. Our Blind Spot Report shows exactly what AI sees when a homeowner searches for a roofer in your area after a storm, and what you need to change to capture that call.</p>
           <Link href="/blindspot" className="inline-flex items-center gap-2 bg-[#FF6A00] text-white px-8 py-4 rounded-xl font-bold text-lg hover:bg-[#e55f00] transition-colors ae-pulse-glow">
             Get Your Free Blind Spot Report
             <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" /></svg>

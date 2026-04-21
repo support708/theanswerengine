@@ -1,0 +1,155 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0F1117;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1a1d27;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="accentGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#FF6A00;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#FF8C42;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="cardGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#ffffff;stop-opacity:0.05" />
+      <stop offset="100%" style="stop-color:#ffffff;stop-opacity:0.02" />
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="3" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="630" fill="url(#bgGrad)" />
+
+  <!-- Subtle grid lines -->
+  <g opacity="0.04" stroke="#ffffff" stroke-width="1">
+    <line x1="0" y1="105" x2="1200" y2="105"/>
+    <line x1="0" y1="210" x2="1200" y2="210"/>
+    <line x1="0" y1="315" x2="1200" y2="315"/>
+    <line x1="0" y1="420" x2="1200" y2="420"/>
+    <line x1="0" y1="525" x2="1200" y2="525"/>
+    <line x1="200" y1="0" x2="200" y2="630"/>
+    <line x1="400" y1="0" x2="400" y2="630"/>
+    <line x1="600" y1="0" x2="600" y2="630"/>
+    <line x1="800" y1="0" x2="800" y2="630"/>
+    <line x1="1000" y1="0" x2="1000" y2="630"/>
+  </g>
+
+  <!-- Orange accent bar top -->
+  <rect x="60" y="60" width="80" height="4" rx="2" fill="url(#accentGrad)" />
+
+  <!-- Category badge -->
+  <rect x="60" y="80" width="180" height="30" rx="15" fill="#ffffff" fill-opacity="0.07" stroke="#ffffff" stroke-opacity="0.12" stroke-width="1"/>
+  <text x="150" y="100" font-family="system-ui, -apple-system, sans-serif" font-size="11" font-weight="700" fill="#FF6A00" text-anchor="middle" letter-spacing="2">CONTENT STRATEGY</text>
+
+  <!-- Main headline -->
+  <text x="60" y="175" font-family="system-ui, -apple-system, sans-serif" font-size="48" font-weight="800" fill="#ffffff" letter-spacing="-1">The 7 Content Types</text>
+  <text x="60" y="235" font-family="system-ui, -apple-system, sans-serif" font-size="48" font-weight="800" fill="#ffffff" letter-spacing="-1">ChatGPT Actually Cites</text>
+  <text x="60" y="285" font-family="system-ui, -apple-system, sans-serif" font-size="28" font-weight="400" fill="#FF6A00">And How to Rank for Each</text>
+
+  <!-- Subtext -->
+  <text x="60" y="335" font-family="system-ui, -apple-system, sans-serif" font-size="16" fill="#9ca3af" letter-spacing="0.3">Guides &bull; FAQs &bull; Reviews &bull; How-Tos &bull; Case Studies &bull; Local Lists &bull; News</text>
+
+  <!-- 7 content type pill badges -->
+  <!-- Guides -->
+  <rect x="60" y="370" width="100" height="32" rx="16" fill="#FF6A00" fill-opacity="0.15" stroke="#FF6A00" stroke-opacity="0.4" stroke-width="1"/>
+  <text x="110" y="390" font-family="system-ui, -apple-system, sans-serif" font-size="12" font-weight="600" fill="#FF6A00" text-anchor="middle">Guides</text>
+
+  <!-- FAQs -->
+  <rect x="172" y="370" width="80" height="32" rx="16" fill="#FF6A00" fill-opacity="0.12" stroke="#FF6A00" stroke-opacity="0.3" stroke-width="1"/>
+  <text x="212" y="390" font-family="system-ui, -apple-system, sans-serif" font-size="12" font-weight="600" fill="#FF6A00" text-anchor="middle">FAQs</text>
+
+  <!-- Reviews -->
+  <rect x="264" y="370" width="96" height="32" rx="16" fill="#FF6A00" fill-opacity="0.1" stroke="#FF6A00" stroke-opacity="0.25" stroke-width="1"/>
+  <text x="312" y="390" font-family="system-ui, -apple-system, sans-serif" font-size="12" font-weight="600" fill="#FF6A00" text-anchor="middle">Reviews</text>
+
+  <!-- How-Tos -->
+  <rect x="372" y="370" width="100" height="32" rx="16" fill="#FF6A00" fill-opacity="0.1" stroke="#FF6A00" stroke-opacity="0.25" stroke-width="1"/>
+  <text x="422" y="390" font-family="system-ui, -apple-system, sans-serif" font-size="12" font-weight="600" fill="#FF6A00" text-anchor="middle">How-Tos</text>
+
+  <!-- Case Studies -->
+  <rect x="484" y="370" width="128" height="32" rx="16" fill="#FF6A00" fill-opacity="0.08" stroke="#FF6A00" stroke-opacity="0.2" stroke-width="1"/>
+  <text x="548" y="390" font-family="system-ui, -apple-system, sans-serif" font-size="12" font-weight="600" fill="#FF6A00" text-anchor="middle">Case Studies</text>
+
+  <!-- Local Lists -->
+  <rect x="624" y="370" width="116" height="32" rx="16" fill="#FF6A00" fill-opacity="0.08" stroke="#FF6A00" stroke-opacity="0.2" stroke-width="1"/>
+  <text x="682" y="390" font-family="system-ui, -apple-system, sans-serif" font-size="12" font-weight="600" fill="#FF6A00" text-anchor="middle">Local Lists</text>
+
+  <!-- News -->
+  <rect x="752" y="370" width="80" height="32" rx="16" fill="#FF6A00" fill-opacity="0.08" stroke="#FF6A00" stroke-opacity="0.2" stroke-width="1"/>
+  <text x="792" y="390" font-family="system-ui, -apple-system, sans-serif" font-size="12" font-weight="600" fill="#FF6A00" text-anchor="middle">News</text>
+
+  <!-- Divider -->
+  <line x1="60" y1="430" x2="840" y2="430" stroke="#ffffff" stroke-opacity="0.08" stroke-width="1"/>
+
+  <!-- Meta info row -->
+  <text x="60" y="458" font-family="system-ui, -apple-system, sans-serif" font-size="13" fill="#6b7280">18 min read</text>
+  <text x="175" y="458" font-family="system-ui, -apple-system, sans-serif" font-size="13" fill="#6b7280">April 21, 2026</text>
+  <text x="305" y="458" font-family="system-ui, -apple-system, sans-serif" font-size="13" fill="#6b7280">The Answer Engine Team</text>
+
+  <!-- Right side: Visual element - stylized citation flow diagram -->
+  <!-- Card background -->
+  <rect x="900" y="60" width="240" height="510" rx="16" fill="url(#cardGrad)" stroke="#ffffff" stroke-opacity="0.08" stroke-width="1"/>
+
+  <!-- Card header -->
+  <text x="1020" y="100" font-family="system-ui, -apple-system, sans-serif" font-size="11" font-weight="700" fill="#6b7280" text-anchor="middle" letter-spacing="2">CITATION FLOW</text>
+
+  <!-- AI query box -->
+  <rect x="920" y="115" width="200" height="38" rx="8" fill="#FF6A00" fill-opacity="0.15" stroke="#FF6A00" stroke-opacity="0.4" stroke-width="1"/>
+  <text x="1020" y="137" font-family="system-ui, -apple-system, sans-serif" font-size="11" font-weight="600" fill="#FF6A00" text-anchor="middle">User Query</text>
+
+  <!-- Arrow down -->
+  <line x1="1020" y1="153" x2="1020" y2="173" stroke="#FF6A00" stroke-opacity="0.5" stroke-width="2"/>
+  <polygon points="1015,170 1025,170 1020,178" fill="#FF6A00" fill-opacity="0.5"/>
+
+  <!-- Content types stacked -->
+  <!-- Guide -->
+  <rect x="920" y="180" width="200" height="30" rx="6" fill="#ffffff" fill-opacity="0.05" stroke="#ffffff" stroke-opacity="0.1" stroke-width="1"/>
+  <text x="940" y="199" font-family="system-ui, -apple-system, sans-serif" font-size="11" fill="#e5e7eb">01 Comprehensive Guides</text>
+  <circle cx="908" cy="195" r="3" fill="#FF6A00" fill-opacity="0.8"/>
+
+  <!-- FAQ -->
+  <rect x="920" y="216" width="200" height="30" rx="6" fill="#ffffff" fill-opacity="0.05" stroke="#ffffff" stroke-opacity="0.1" stroke-width="1"/>
+  <text x="940" y="235" font-family="system-ui, -apple-system, sans-serif" font-size="11" fill="#e5e7eb">02 FAQ Pages</text>
+  <circle cx="908" cy="231" r="3" fill="#FF6A00" fill-opacity="0.7"/>
+
+  <!-- Review -->
+  <rect x="920" y="252" width="200" height="30" rx="6" fill="#ffffff" fill-opacity="0.05" stroke="#ffffff" stroke-opacity="0.1" stroke-width="1"/>
+  <text x="940" y="271" font-family="system-ui, -apple-system, sans-serif" font-size="11" fill="#e5e7eb">03 Reviews &amp; Comparisons</text>
+  <circle cx="908" cy="267" r="3" fill="#FF6A00" fill-opacity="0.6"/>
+
+  <!-- How-to -->
+  <rect x="920" y="288" width="200" height="30" rx="6" fill="#ffffff" fill-opacity="0.05" stroke="#ffffff" stroke-opacity="0.1" stroke-width="1"/>
+  <text x="940" y="307" font-family="system-ui, -apple-system, sans-serif" font-size="11" fill="#e5e7eb">04 How-To Articles</text>
+  <circle cx="908" cy="303" r="3" fill="#FF6A00" fill-opacity="0.55"/>
+
+  <!-- Case Studies -->
+  <rect x="920" y="324" width="200" height="30" rx="6" fill="#ffffff" fill-opacity="0.05" stroke="#ffffff" stroke-opacity="0.1" stroke-width="1"/>
+  <text x="940" y="343" font-family="system-ui, -apple-system, sans-serif" font-size="11" fill="#e5e7eb">05 Case Studies</text>
+  <circle cx="908" cy="339" r="3" fill="#FF6A00" fill-opacity="0.5"/>
+
+  <!-- Local Lists -->
+  <rect x="920" y="360" width="200" height="30" rx="6" fill="#ffffff" fill-opacity="0.05" stroke="#ffffff" stroke-opacity="0.1" stroke-width="1"/>
+  <text x="940" y="379" font-family="system-ui, -apple-system, sans-serif" font-size="11" fill="#e5e7eb">06 Local Lists</text>
+  <circle cx="908" cy="375" r="3" fill="#FF6A00" fill-opacity="0.45"/>
+
+  <!-- News -->
+  <rect x="920" y="396" width="200" height="30" rx="6" fill="#ffffff" fill-opacity="0.05" stroke="#ffffff" stroke-opacity="0.1" stroke-width="1"/>
+  <text x="940" y="415" font-family="system-ui, -apple-system, sans-serif" font-size="11" fill="#e5e7eb">07 News &amp; Trends</text>
+  <circle cx="908" cy="411" r="3" fill="#FF6A00" fill-opacity="0.4"/>
+
+  <!-- Arrow down to cited -->
+  <line x1="1020" y1="430" x2="1020" y2="450" stroke="#FF6A00" stroke-opacity="0.5" stroke-width="2"/>
+  <polygon points="1015,447 1025,447 1020,455" fill="#FF6A00" fill-opacity="0.5"/>
+
+  <!-- Cited box -->
+  <rect x="920" y="455" width="200" height="38" rx="8" fill="#FF6A00" fill-opacity="0.2" stroke="#FF6A00" stroke-opacity="0.6" stroke-width="1.5"/>
+  <text x="1020" y="477" font-family="system-ui, -apple-system, sans-serif" font-size="12" font-weight="700" fill="#FF6A00" text-anchor="middle">AI Citation Earned</text>
+
+  <!-- Brand footer -->
+  <text x="60" y="590" font-family="system-ui, -apple-system, sans-serif" font-size="14" font-weight="700" fill="#FF6A00">theanswerengine.ai</text>
+  <text x="60" y="610" font-family="system-ui, -apple-system, sans-serif" font-size="12" fill="#4b5563">Answer Engine Optimization for service businesses</text>
+</svg>
