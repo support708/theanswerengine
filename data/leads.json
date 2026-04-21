@@ -4058,8 +4058,86 @@
     "reviewCount": 274,
     "rating": 4.8,
     "notes": "Auto-discovered by Lead Hunter. AI citation: not cited on 1/1 platforms. Competitors cited: NassifMD Medical Spa, Cienega Med Spa, Marina Medspa. Outreach-ready: YES (citation data + contact + differentiator verified). Differentiator: Multiple LA locations (West Hollywood, Studio City); founded by Dr. Rafaeloff and esthetician Sharona Rafaeloff; extensive treatment menu; known for personalized approach and Vanessa's expert care",
-    "status": "queued",
-    "research": null,
+    "status": "report_ready",
+    "research": {
+      "reviewCount": 274,
+      "rating": 4.8,
+      "yearsInBusiness": 13,
+      "credentials": [
+        "Dr. Parvaneh Rafaeloff, M.D., cosmetic surgeon",
+        "Clinical research experience at Cedars-Sinai Medical Center",
+        "Private practice since 1996",
+        "Sharona Rafaeloff, esthetician with 15+ years experience",
+        "FIDM (Fashion Institute of Design and Merchandising) graduate",
+        "Post-graduate study under Israel's top chemists and skincare technicians"
+      ],
+      "awards": [
+        "Featured on Splash Magazines LA",
+        "Celebrity endorsements (Emma Roberts, Noah Cyrus, Lisa Rinna, Iggy Azalea, Yolanda Hadid, Kardashians, Jordyn Woods)"
+      ],
+      "communityInvolvement": [
+        "Television and film industry clientele",
+        "Featured in Yahoo! Lifestyle",
+        "Spa and Beauty Today publication coverage",
+        "Seriously Fab retailer spotlight",
+        "HV Mag feature (April 2024)"
+      ],
+      "hiddenDifferentiators": [
+        "Multiple LA locations (West Hollywood, Studio City) with plans for Beverly Hills expansion",
+        "Founded by physician-esthetician team (Dr. Rafaeloff and Sharona Rafaeloff)",
+        "Celebrity clientele with high-profile TV/film connections",
+        "Personalized approach highlighted by Vanessa's expert care and Sharona's artistry",
+        "Extensive treatment menu including rare modalities (Vacuodermie, Morpheus8, Emsculpt Neo, Aquagold, Exion Clear RF)",
+        "9 treatment rooms plus sauna and steam room at Studio City location",
+        "Complimentary valet parking",
+        "Instagram-worthy decor and luxury ambiance",
+        "Co-founder Brian Nourian adds expertise in operations"
+      ],
+      "topCompetitors": [
+        {
+          "name": "NassifMD Medical Spa",
+          "reason": "Led by world-renowned facial plastic surgeon Dr. Paul Nassif with extensive media presence, Beverly Hills location, and major brand partnerships (Allergan Black Diamond provider)"
+        },
+        {
+          "name": "Smooth Skin Lounge",
+          "reason": "Recognized as #1 med spa in Beverly Hills with 100,000+ procedures completed, numerous industry awards, Allergan Black Diamond status, and CoolSculpting certification"
+        },
+        {
+          "name": "Cienega Med Spa",
+          "reason": "Top-rated competitor with strong online presence and professional reputation in Los Angeles med spa market"
+        },
+        {
+          "name": "Rejuvify MedSpa",
+          "reason": "Beverly Hills luxury med spa with boutique setting, memberships, and advanced aesthetic treatments"
+        },
+        {
+          "name": "Vermont Med Spa",
+          "reason": "Founded by board-certified dermatologist Dr. Imad El Asmar, Top 10 LA med spa with personalized care model"
+        }
+      ],
+      "faqContentPresent": true,
+      "blogPresent": true,
+      "gmbPresent": true,
+      "schemaDetected": false,
+      "recentContent": true,
+      "uniqueStory": "Le Jolie Medi Spa was founded in June 2013 by Dr. Parvaneh Rafaeloff (M.D., cosmetic surgeon and clinical researcher at Cedars-Sinai) and her daughter Sharona Rafaeloff (esthetician, FIDM graduate, with international training under Israel's top skincare chemists). The spa represents a rare physician-esthetician partnership combining medical expertise with artistic design sensibility. Sharona previously founded Exclusive in Beverly Hills, which attracted celebrity clientele. Le Jolie hand-customized by the founders into a luxury, 3,000 sq ft space with 9 treatment rooms, sauna, and steam room. The spa is known for serving high-profile TV/film industry clients and emphasizing personalized, customized approaches. Co-founder Brian Nourian brought additional operational expertise. Multiple locations (West Hollywood, Studio City) and planned Beverly Hills expansion indicate growth trajectory.",
+      "aiCited": false,
+      "aero7": {
+        "answerQuality": 7,
+        "entityOptimization": 4,
+        "relevanceFreshness": 7,
+        "optimizationStructure": 6,
+        "voiceAuthenticity": 7,
+        "authoritySignals": 8,
+        "authorityDistribution": 7,
+        "consensusCoCitation": 6,
+        "platformReadiness": 5,
+        "technicalAccessibility": 5,
+        "total": 62
+      },
+      "rawNotes": "FINDINGS: Le Jolie Med Spa is a well-established, luxury med spa with 13 years in business, 4.8-star rating, and 274 reviews. Strengths: (1) Strong founder credentials with physician-esthetician team; (2) Extensive earned media including celebrity clients (Emma Roberts, Noah Cyrus, Kardashians, Yolanda Hadid); (3) Blog present with detailed treatment content (Exion Clear RF blog dated July 2025); (4) Multiple high-quality reviews across Yelp, Birdeye (4.6 stars/34 reviews), Groupon (4.7 stars/111 reviews); (5) Large Instagram following (62K followers, 560 posts); (6) Press/media page with documented celebrity mentions; (7) Two established locations with expansion plans. WEAKNESSES: (1) NO detectable schema markup on website (critical gap for AI visibility); (2) Not cited on major AI platforms (ChatGPT, Perplexity, Claude, Gemini) based on searches for 'best med spa Los Angeles'; (3) Limited FAQ page implementation despite blog presence; (4) Inconsistent NAP data across platforms (phone number variations: 424-355-0070 vs 818-501-1114 vs 818-918-2428); (5) Studio City Yelp listing shows unusual hours (12:00 am-12:15 am, mostly closed) suggesting outdated information; (6) Minimal third-party platform presence beyond Yelp, Groupon, Instagram; (7) No visible LinkedIn presence; (8) No Reddit mentions found. AI VISIBILITY: Search for 'best med spa Los Angeles' returns: NassifMD, Smooth Skin Lounge, Cienega, Rejuvify, Vermont Med Spa, Milk + Honey, and others—but NOT Le Jolie despite strong credentials. This indicates AI systems are not discovering or prioritizing Le Jolie. RECOMMENDATIONS: (1) Implement comprehensive schema markup (LocalBusiness, MedicalBusiness, FAQPage); (2) Create dedicated FAQ pages for top services with structured data; (3) Consolidate and verify NAP consistency across all platforms; (4) Update Google Business Profile and Yelp listings with current hours and information; (5) Build structured content on treatment pages with provider credentials; (6) Expand media relations and earned coverage; (7) Optimize for AI search through citation-building on high-authority directories.",
+      "researchedAt": "2026-04-21T18:01:11.013Z"
+    },
     "reportSlug": "le-jolie-med-spa-14az",
     "emailDraftId": null,
     "fabricationFlags": [],
@@ -4068,10 +4146,42 @@
       {
         "action": "Queued by Lead Hunter (P1, score: 40, outreach-ready: true)",
         "timestamp": "2026-04-08T20:59:03.860Z"
+      },
+      {
+        "action": "Research started (auto-pipeline)",
+        "timestamp": "2026-04-21T18:00:42.267Z"
+      },
+      {
+        "action": "Research completed (AERO-10: 62/100)",
+        "timestamp": "2026-04-21T18:01:11.013Z"
+      },
+      {
+        "action": "Report generation started",
+        "timestamp": "2026-04-21T18:01:11.013Z"
+      },
+      {
+        "action": "Competitor battlecard attached",
+        "timestamp": "2026-04-21T18:03:05.431Z"
+      },
+      {
+        "action": "Report generated",
+        "timestamp": "2026-04-21T18:03:05.431Z"
+      },
+      {
+        "action": "Fabrication scan: CLEAN",
+        "timestamp": "2026-04-21T18:03:05.431Z"
+      },
+      {
+        "action": "Em-dash scan: 11 found, auto-stripped",
+        "timestamp": "2026-04-21T18:03:05.431Z"
+      },
+      {
+        "action": "Report + OG metadata deployed to production",
+        "timestamp": "2026-04-21T18:03:05.603Z"
       }
     ],
     "createdAt": "2026-04-08T20:59:03.860Z",
-    "updatedAt": "2026-04-08T20:59:03.860Z",
+    "updatedAt": "2026-04-21T18:03:05.431Z",
     "huntSource": "hunt_1775681881534_kh3q",
     "huntScore": 40,
     "huntPriority": "P1",
