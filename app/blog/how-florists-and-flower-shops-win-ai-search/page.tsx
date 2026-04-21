@@ -5,7 +5,7 @@ export const revalidate = 86400
 export const dynamic = 'force-static'
 export const dynamicParams = true
 
-const title = 'How Florists and Flower Shops Win AI Search'
+const title = 'Florists: Win AI Search Rankings'
 const titleWithSuffix = `${title} | The Answer Engine`
 const description =
   'Local flower shops are invisible to AI while FTD and Teleflora dominate every recommendation. Learn why AI overlooks independent florists and which signals actually change that.'

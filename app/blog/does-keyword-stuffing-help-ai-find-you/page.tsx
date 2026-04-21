@@ -4,7 +4,7 @@ import Link from 'next/link'
 export const revalidate = 86400
 export const dynamic = 'force-static'
 
-const title = 'Does Keyword Stuffing Help AI Find Your Business?'
+const title = 'Keyword Stuffing: Does It Help AI Find You?'
 const description = 'No. Learn why keyword stuffing fails on AI platforms like ChatGPT and Perplexity. Discover what actually signals quality to AI systems.'
 const slug = 'does-keyword-stuffing-help-ai-find-you'
 const publishDate = '2026-04-21'

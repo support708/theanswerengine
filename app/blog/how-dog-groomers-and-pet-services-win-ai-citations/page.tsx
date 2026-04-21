@@ -5,7 +5,7 @@ export const revalidate = 86400
 export const dynamic = 'force-static'
 export const dynamicParams = true
 
-const title = 'How Dog Groomers and Pet Services Win AI Citations'
+const title = 'Dog Groomers: Win AI Citations'
 const description = 'Pet owners increasingly ask AI to find groomers. Learn which signals ChatGPT, Google AI, and Perplexity evaluate before recommending a pet grooming business in your area.'
 const slug = 'how-dog-groomers-and-pet-services-win-ai-citations'
 const publishDate = '2026-04-21'

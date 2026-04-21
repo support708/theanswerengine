@@ -5,7 +5,7 @@ export const revalidate = 86400
 export const dynamic = 'force-static'
 export const dynamicParams = true
 
-const title = 'Does Having a Wikipedia Page Help AI Find Your Business'
+const title = 'Wikipedia & AI: Can It Help You?'
 const description =
   'Wikipedia is a major AI training source — but 99.9% of local businesses will never qualify for a page. Discover what actually signals authority to AI and what local businesses should chase instead.'
 const slug = 'does-having-a-wikipedia-page-help-ai-find-you'
