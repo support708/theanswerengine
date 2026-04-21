@@ -5771,5 +5771,49 @@
     ],
     "huntDifferentiator": "Located in Biltmore Area; features highly-skilled team of resident doctors, estheticians, and laser techs; offers membership program with priority booking and exclusive discounts",
     "huntOutreachReady": true
+  },
+  {
+    "id": "lead_1776780083379_5kap1f",
+    "businessName": "Rafael & Iris Roofing",
+    "contactFirstName": "Rafael,",
+    "contactEmail": "info@rafaelandirisroofing.com",
+    "websiteUrl": "https://www.rafaelandirisroofing.com/",
+    "city": "Los Angeles",
+    "serviceNiche": "Roofing Contractor",
+    "competitorName": "Final Touch Roofing",
+    "reviewCount": 155,
+    "rating": 4.9,
+    "notes": "Auto-discovered by Lead Hunter. AI citation: not cited on 1/1 platforms. Competitors cited: Final Touch Roofing, Smart Roofing, SLR Roofing. Outreach-ready: YES (citation data + contact + differentiator verified). Differentiator: Established 2009, 20+ years combined experience, family-owned, BuildZoom top 1% score, motto 'Family First Integrity Follows', excellent communication reviews, solar installation services",
+    "status": "queued",
+    "research": null,
+    "reportSlug": "rafael-iris-roofing-1azc",
+    "emailDraftId": null,
+    "fabricationFlags": [],
+    "emDashClean": false,
+    "actionLog": [
+      {
+        "action": "Queued by Lead Hunter (P1, score: 38, outreach-ready: true)",
+        "timestamp": "2026-04-21T14:01:23.379Z"
+      }
+    ],
+    "createdAt": "2026-04-21T14:01:23.379Z",
+    "updatedAt": "2026-04-21T14:01:23.379Z",
+    "huntSource": "hunt_1776780020327_ntqn",
+    "huntScore": 38,
+    "huntPriority": "P1",
+    "huntCitationResults": [
+      {
+        "platform": "chatgpt",
+        "query": "best Roofing Contractor in Los Angeles",
+        "cited": false,
+        "competitorsCited": [
+          "Final Touch Roofing",
+          "Smart Roofing",
+          "SLR Roofing"
+        ]
+      }
+    ],
+    "huntDifferentiator": "Established 2009, 20+ years combined experience, family-owned, BuildZoom top 1% score, motto 'Family First Integrity Follows', excellent communication reviews, solar installation services",
+    "huntOutreachReady": true
   }
 ]
