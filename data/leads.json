@@ -3905,8 +3905,80 @@
     "reviewCount": 131,
     "rating": 4.7,
     "notes": "Auto-discovered by Lead Hunter. AI citation: not cited on 0/1 platforms. Competitors cited: NassifMD Medical Spa, Cienega Med Spa, Marina Medspa. Outreach-ready: YES (citation data + contact + differentiator verified). Differentiator: Established 2006; Dr. Michele Ware pioneered natural aesthetic approach for 15+ years; highly praised for natural-looking results without overdone appearance; board-certified physicians",
-    "status": "queued",
-    "research": null,
+    "status": "report_ready",
+    "research": {
+      "reviewCount": 131,
+      "rating": 4.7,
+      "yearsInBusiness": 20,
+      "credentials": [
+        "Board-certified Family Medicine physicians",
+        "Dr. Michele Ware: Board Certified since 2001",
+        "Dr. Michele Ware: Top 7% of injectors in the nation (Allergan selected)",
+        "Dr. Michele Ware: Michigan State University College of Osteopathic Medicine",
+        "Dr. Jawahar Sundaram: Board-certified Family Medicine",
+        "Members of American Academy of Aesthetic Medicine",
+        "Diplomats of American Academy of Family Medicine",
+        "19+ years practicing aesthetic medicine"
+      ],
+      "awards": [],
+      "communityInvolvement": [
+        "Female Founders entrepreneurial dinner (Facebook partnered with Civic Dinners, March 2020)",
+        "LA Clippers community partnership/group event",
+        "Eco-friendly operations mentioned in business description"
+      ],
+      "hiddenDifferentiators": [
+        "Natural-looking aesthetic approach - patients consistently praise 'not overdone' results",
+        "Patient-centric ethics: tells patients when they don't need procedures",
+        "No quantity-over-quality mantra; avoids pressure sales",
+        "Custom approach: Dr. Ware researches new scientifically-based treatments continuously",
+        "Evidence-based product integration only",
+        "20 years in business (established 2006)",
+        "Two board-certified physicians as owners (not absentee franchise)",
+        "Highly trained medical and nursing staff with ongoing advanced training",
+        "Positional advantage: Eastside Los Feliz location vs Beverly Hills premium pricing",
+        "Long-term patient loyalty (many patients 6-7+ years)"
+      ],
+      "topCompetitors": [
+        {
+          "name": "NassifMD Medical Spa",
+          "reason": "Beverly Hills flagship med spa led by celebrity plastic surgeon Dr. Paul Nassif; strong media presence and proprietary skincare line; featured prominently in AI recommendations for 'best med spa Los Angeles'"
+        },
+        {
+          "name": "Cienega Med Spa West Hollywood",
+          "reason": "Top 10 med spa with premium service; consistently mentioned in aggregate lists; strong customer service reputation"
+        },
+        {
+          "name": "Smooth Skin Lounge Beverly Hills",
+          "reason": "#1 medical spa in Beverly Hills per their site; Black Diamond Allergan provider (top 1%); 100,000+ procedures in 10 years"
+        },
+        {
+          "name": "BeyondSkin Med Spa",
+          "reason": "Ranked first on Yelp local searches; features prominent Dr. Caldera; strong influencer following"
+        }
+      ],
+      "faqContentPresent": true,
+      "blogPresent": true,
+      "gmbPresent": false,
+      "schemaDetected": false,
+      "recentContent": true,
+      "uniqueStory": "Founded 2006 by Dr. Michele Ware (board-certified, top 7% injector nationally) and Dr. Jawahar Sundaram. Pioneer in natural aesthetic approach for 15+ years. Core differentiator: tells patients when they don't need procedures (patient-first ethics over revenue). Consistently praised for natural, non-overdone results. Located on Eastside Los Feliz vs expensive Beverly Hills; same expertise at better value. Eco-friendly spa environment. Strong patient retention with 6-7+ year client relationships. Evidence-based treatment approach; only integrates new products with scientific validation.",
+      "aiCited": false,
+      "aero7": {
+        "answerQuality": 6,
+        "entityOptimization": 4,
+        "relevanceFreshness": 7,
+        "optimizationStructure": 5,
+        "voiceAuthenticity": 8,
+        "authoritySignals": 8,
+        "authorityDistribution": 5,
+        "consensusCoCitation": 5,
+        "platformReadiness": 3,
+        "technicalAccessibility": 3,
+        "total": 54
+      },
+      "rawNotes": "STRENGTHS: Excellent on-site review embedding (Yelp 131 reviews, 4.7 rating). Strong patient testimonials with quoted reviews on website. Authentic voice throughout - emphasizes ethics, naturalness, patient education. Board-certified physicians with credentials embedded in about page and staff page. Blog present with 55 entries (mostly promotional/seasonal specials, recent through Dec 2025). FAQ page present. Multi-platform presence: Facebook (1,018 likes), Instagram (4,971 followers, 108 posts), LinkedIn company page (70 followers), Twitter/X account active since 2009. Mentioned on TrustAnalytica top 10 list. Featured in Dr. Refresh Med Spa article as 'runner-up' top 5. Mentioned in earnest media (PRWeb EMSCULPT bus tour 2020). WEAKNESSES: No GMB (Google My Business) profile detected - critical gap for local SEO. No detectable schema markup (expected Organization, LocalBusiness, MedicalClinic, Physician schema missing). Not cited on major AI platforms (searched 'best med spa Los Angeles' and found NassifMD, Smooth Skin Lounge, BeyondSkin, Cienega, milk+honey, Rejuvify featured instead). Zero Reddit mentions found. Weak earned media (only PRWeb mention from 2020). Limited external link authority - no major healthcare publications, no news features. Blog content is purely promotional (specials/treatment announcements), not informational/educational long-form. No author bios on blog posts (violates E-E-A-T). Limited platform-specific optimization for voice search/AI (no FAQ schema, no Speakable markup). No visible certifications/awards listed. NAP consistency not verified across Google, Yelp, website but address and phone consistent where present (2107 Hillhurst Ave, 323-664-0186). PLATFORM ANALYSIS: ChatGPT/Gemini: Not detected in top results for 'best med spa LA'. Perplexity/Reddit: No Reddit presence detected. Claude/Google AIO: Limited visibility. TECHNICAL GAPS: No robots.txt verified for bot access. No breadcrumb schema. No local schema with service areas. No health/medical procedure schema despite having extensive treatment menus. Website uses WordPress with Demandforce integration - standard but not cutting-edge. Mobile responsiveness appears adequate but not tested deeply. PAGE STRUCTURE: H-tag hierarchy appears reasonable on main pages. Homepage has embedded testimonials. Services pages have detailed descriptions. Procedure pages are text-heavy (good for long-form). NAP CONSISTENCY: Website lists 2107 Hillhurst Ave, Los Angeles, CA 90027; phone 323-664-0186. Yelp matches these. Address and phone appear consistent but GMB missing means no Google verification. CONSENSUS/CO-CITATION: Appears in TrustAnalytica top 10 alongside Cienega, Volure, MedBeautyLA, BeyondSkin. Appears on Yelp local ranking. Mentioned in Dr. Refresh article. Not co-cited with NassifMD (competitor) or industry leaders in major publications. UNIQUE ANGLES: Strong patient testimonial library (26+ detailed reviews on website). Female founder (Dr. Michele Ware) - underutilized messaging. 20-year track record. Allergan selection for training. Top 7% injector designation. OPPORTUNITY GAPS: Need schema markup (especially Organization, LocalBusiness, MedicalClinic, Physician, and Service). Need GMB optimization. Need earned media strategy (pitch local LA lifestyle/beauty media). Need content marketing (educational blog posts targeting 'how to', 'what is', 'why choose' queries). Need voice search optimization (FAQ schema + Speakable markup). Need author bios for E-E-A-T. Need to pursue AI citations (Reddit, local publications, beauty influencer mentions). Need email domain author mentions on blog. REFERENTIAL INTEGRITY: All facts cited match web search results. No fabrication. Conservative scores reflect real gaps vs strong fundamentals.",
+      "researchedAt": "2026-04-21T16:30:53.415Z"
+    },
     "reportSlug": "los-feliz-med-spa-rzjn",
     "emailDraftId": null,
     "fabricationFlags": [],
@@ -3915,10 +3987,42 @@
       {
         "action": "Queued by Lead Hunter (P1, score: 36, outreach-ready: true)",
         "timestamp": "2026-04-08T20:59:03.860Z"
+      },
+      {
+        "action": "Research started (auto-pipeline)",
+        "timestamp": "2026-04-21T16:30:16.465Z"
+      },
+      {
+        "action": "Research completed (AERO-10: 54/100)",
+        "timestamp": "2026-04-21T16:30:53.415Z"
+      },
+      {
+        "action": "Report generation started",
+        "timestamp": "2026-04-21T16:30:53.415Z"
+      },
+      {
+        "action": "Competitor battlecard attached",
+        "timestamp": "2026-04-21T16:32:39.866Z"
+      },
+      {
+        "action": "Report generated",
+        "timestamp": "2026-04-21T16:32:39.866Z"
+      },
+      {
+        "action": "Fabrication scan: CLEAN",
+        "timestamp": "2026-04-21T16:32:39.866Z"
+      },
+      {
+        "action": "Em-dash scan: 2 found, auto-stripped",
+        "timestamp": "2026-04-21T16:32:39.866Z"
+      },
+      {
+        "action": "Report + OG metadata deployed to production",
+        "timestamp": "2026-04-21T16:32:40.021Z"
       }
     ],
     "createdAt": "2026-04-08T20:59:03.860Z",
-    "updatedAt": "2026-04-08T20:59:03.860Z",
+    "updatedAt": "2026-04-21T16:32:39.866Z",
     "huntSource": "hunt_1775681881534_kh3q",
     "huntScore": 36,
     "huntPriority": "P1",

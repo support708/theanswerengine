@@ -1,0 +1,748 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Blind Spot Report | Los Feliz Med Spa</title>
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    background: #f8f8f6;
+    color: #1a1a1a;
+    line-height: 1.6;
+    overflow-x: hidden;
+  }
+
+  /* HERO */
+  .hero {
+    background: linear-gradient(135deg, #0a0a0a 0%, #1a1a2e 100%);
+    color: #ffffff;
+    padding: 80px 20px 70px;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+  }
+  .hero::before {
+    content: '';
+    position: absolute;
+    top: -50%;
+    left: -50%;
+    width: 200%;
+    height: 200%;
+    background: radial-gradient(ellipse at center, rgba(255,106,0,0.08) 0%, transparent 60%);
+    pointer-events: none;
+  }
+  .hero-badge {
+    display: inline-block;
+    background: rgba(255,106,0,0.15);
+    border: 1px solid rgba(255,106,0,0.4);
+    color: #FF6A00;
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 2.5px;
+    text-transform: uppercase;
+    padding: 6px 18px;
+    border-radius: 50px;
+    margin-bottom: 28px;
+  }
+  .hero h1 {
+    font-size: clamp(28px, 5vw, 52px);
+    font-weight: 800;
+    letter-spacing: -1px;
+    line-height: 1.15;
+    margin-bottom: 20px;
+  }
+  .hero h1 span { color: #FF6A00; }
+  .hero-sub {
+    font-size: clamp(15px, 2.5vw, 18px);
+    color: rgba(255,255,255,0.65);
+    max-width: 580px;
+    margin: 0 auto 36px;
+  }
+  .hero-meta {
+    display: flex;
+    justify-content: center;
+    gap: 28px;
+    flex-wrap: wrap;
+    font-size: 13px;
+    color: rgba(255,255,255,0.45);
+    letter-spacing: 0.5px;
+  }
+  .hero-meta span::before {
+    content: '■ ';
+    color: #FF6A00;
+    font-size: 8px;
+    vertical-align: middle;
+  }
+
+  /* SECTION WRAPPER */
+  .section {
+    padding: 70px 20px;
+    max-width: 960px;
+    margin: 0 auto;
+  }
+  .section-label {
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: #FF6A00;
+    margin-bottom: 10px;
+  }
+  .section-title {
+    font-size: clamp(22px, 4vw, 36px);
+    font-weight: 800;
+    color: #0a0a0a;
+    line-height: 1.2;
+    margin-bottom: 14px;
+    letter-spacing: -0.5px;
+  }
+  .section-intro {
+    font-size: 16px;
+    color: #555;
+    max-width: 640px;
+    margin-bottom: 48px;
+  }
+
+  /* STATS PANEL */
+  .stats-bg {
+    background: linear-gradient(135deg, #0a0a0a 0%, #1a1a2e 100%);
+    padding: 70px 20px;
+  }
+  .stats-inner {
+    max-width: 960px;
+    margin: 0 auto;
+  }
+  .stats-label {
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: #FF6A00;
+    margin-bottom: 10px;
+  }
+  .stats-title {
+    font-size: clamp(22px, 4vw, 36px);
+    font-weight: 800;
+    color: #ffffff;
+    margin-bottom: 14px;
+    letter-spacing: -0.5px;
+  }
+  .stats-intro {
+    font-size: 16px;
+    color: rgba(255,255,255,0.55);
+    max-width: 580px;
+    margin-bottom: 48px;
+  }
+  .stats-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 20px;
+    margin-bottom: 40px;
+  }
+  .stat-card {
+    background: rgba(255,255,255,0.05);
+    border: 1px solid rgba(255,255,255,0.1);
+    border-radius: 14px;
+    padding: 28px 20px;
+    text-align: center;
+    transition: border-color 0.2s;
+  }
+  .stat-card:hover { border-color: rgba(255,106,0,0.4); }
+  .stat-number {
+    font-size: clamp(32px, 5vw, 48px);
+    font-weight: 800;
+    color: #FF6A00;
+    line-height: 1;
+    margin-bottom: 8px;
+  }
+  .stat-label {
+    font-size: 12px;
+    font-weight: 600;
+    color: rgba(255,255,255,0.55);
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+  }
+  .aero-card {
+    background: rgba(255,106,0,0.08);
+    border: 2px solid rgba(255,106,0,0.35);
+    border-radius: 14px;
+    padding: 32px 28px;
+    display: flex;
+    align-items: center;
+    gap: 28px;
+    flex-wrap: wrap;
+  }
+  .aero-score-ring {
+    flex-shrink: 0;
+    width: 110px;
+    height: 110px;
+    border-radius: 50%;
+    background: conic-gradient(#FF6A00 0deg, #FF6A00 194deg, rgba(255,255,255,0.1) 194deg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+  }
+  .aero-score-ring::after {
+    content: '';
+    position: absolute;
+    width: 82px;
+    height: 82px;
+    border-radius: 50%;
+    background: #0a0a0a;
+  }
+  .aero-score-text {
+    position: relative;
+    z-index: 2;
+    text-align: center;
+  }
+  .aero-score-text .num {
+    display: block;
+    font-size: 26px;
+    font-weight: 800;
+    color: #FF6A00;
+    line-height: 1;
+  }
+  .aero-score-text .denom {
+    font-size: 11px;
+    color: rgba(255,255,255,0.4);
+  }
+  .aero-info h3 {
+    font-size: 18px;
+    font-weight: 700;
+    color: #ffffff;
+    margin-bottom: 6px;
+  }
+  .aero-info p {
+    font-size: 14px;
+    color: rgba(255,255,255,0.55);
+    max-width: 480px;
+  }
+  .aero-info strong { color: #FF6A00; }
+
+  /* TERMINAL */
+  .terminal-wrap {
+    background: #0d1117;
+    border-radius: 16px;
+    overflow: hidden;
+    box-shadow: 0 24px 64px rgba(0,0,0,0.25);
+    margin-bottom: 32px;
+  }
+  .terminal-bar {
+    background: #1c1c1e;
+    padding: 14px 18px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  .dot { width: 12px; height: 12px; border-radius: 50%; }
+  .dot-r { background: #ff5f57; }
+  .dot-y { background: #ffbd2e; }
+  .dot-g { background: #28ca41; }
+  .terminal-title { margin-left: 10px; font-size: 12px; color: rgba(255,255,255,0.35); }
+  .terminal-body { padding: 28px 24px; font-family: "Courier New", Courier, monospace; font-size: 14px; line-height: 1.8; }
+  .t-prompt { color: #00d4aa; }
+  .t-query { color: #ffffff; }
+  .t-response { color: rgba(255,255,255,0.7); margin: 14px 0 0 0; }
+  .t-competitor { color: #FF6A00; font-weight: 700; }
+  .t-cursor {
+    display: inline-block;
+    width: 8px;
+    height: 14px;
+    background: #FF6A00;
+    animation: blink 1s step-end infinite;
+    vertical-align: text-bottom;
+    margin-left: 2px;
+  }
+  @keyframes blink { 0%,100%{opacity:1} 50%{opacity:0} }
+  .ai-note {
+    background: rgba(255,106,0,0.08);
+    border-left: 4px solid #FF6A00;
+    border-radius: 0 10px 10px 0;
+    padding: 18px 22px;
+    font-size: 14px;
+    color: #555;
+  }
+  .ai-note strong { color: #0a0a0a; }
+
+  /* DIFFERENTIATORS */
+  .diff-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 22px;
+  }
+  .diff-card {
+    background: #ffffff;
+    border: 1px solid #eee;
+    border-radius: 16px;
+    padding: 30px 26px;
+    transition: box-shadow 0.2s, transform 0.2s;
+    position: relative;
+    overflow: hidden;
+  }
+  .diff-card::before {
+    content: '';
+    position: absolute;
+    top: 0; left: 0; right: 0;
+    height: 3px;
+    background: linear-gradient(90deg, #FF6A00, #ff9a4d);
+  }
+  .diff-card:hover {
+    box-shadow: 0 12px 40px rgba(0,0,0,0.1);
+    transform: translateY(-3px);
+  }
+  .diff-icon {
+    width: 44px;
+    height: 44px;
+    background: rgba(255,106,0,0.1);
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    margin-bottom: 18px;
+  }
+  .diff-card h3 {
+    font-size: 16px;
+    font-weight: 700;
+    color: #0a0a0a;
+    margin-bottom: 10px;
+  }
+  .diff-card p {
+    font-size: 14px;
+    color: #666;
+    line-height: 1.65;
+  }
+  .diff-invisible {
+    display: inline-block;
+    margin-top: 12px;
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    color: #FF6A00;
+    background: rgba(255,106,0,0.08);
+    padding: 4px 10px;
+    border-radius: 20px;
+  }
+
+  /* THE FIX */
+  .fix-bg {
+    background: #0a0a0a;
+    padding: 70px 20px;
+  }
+  .fix-inner { max-width: 960px; margin: 0 auto; }
+  .fix-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    margin-top: 48px;
+  }
+  .fix-card {
+    background: rgba(255,255,255,0.04);
+    border: 1px solid rgba(255,255,255,0.08);
+    border-radius: 14px;
+    padding: 30px 22px;
+    transition: border-color 0.2s;
+  }
+  .fix-card:hover { border-color: rgba(255,106,0,0.4); }
+  .fix-num {
+    font-size: 36px;
+    font-weight: 900;
+    color: rgba(255,106,0,0.2);
+    line-height: 1;
+    margin-bottom: 14px;
+  }
+  .fix-card h3 {
+    font-size: 15px;
+    font-weight: 700;
+    color: #ffffff;
+    margin-bottom: 10px;
+  }
+  .fix-card p {
+    font-size: 13px;
+    color: rgba(255,255,255,0.5);
+    line-height: 1.65;
+  }
+
+  /* CTA */
+  .cta-bg {
+    background: linear-gradient(135deg, #FF6A00 0%, #ff8c38 100%);
+    padding: 80px 20px;
+    text-align: center;
+  }
+  .cta-inner { max-width: 640px; margin: 0 auto; }
+  .cta-eyebrow {
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: rgba(255,255,255,0.7);
+    margin-bottom: 16px;
+  }
+  .cta-title {
+    font-size: clamp(26px, 4.5vw, 44px);
+    font-weight: 800;
+    color: #ffffff;
+    line-height: 1.15;
+    margin-bottom: 18px;
+    letter-spacing: -0.5px;
+  }
+  .cta-body {
+    font-size: 16px;
+    color: rgba(255,255,255,0.8);
+    margin-bottom: 38px;
+    line-height: 1.65;
+  }
+  .cta-btn {
+    display: inline-block;
+    background: #ffffff;
+    color: #FF6A00;
+    font-size: 15px;
+    font-weight: 800;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 18px 44px;
+    border-radius: 50px;
+    box-shadow: 0 8px 30px rgba(0,0,0,0.2);
+    transition: transform 0.2s, box-shadow 0.2s;
+  }
+  .cta-btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 14px 40px rgba(0,0,0,0.25);
+  }
+  .cta-fine {
+    margin-top: 20px;
+    font-size: 13px;
+    color: rgba(255,255,255,0.6);
+  }
+
+  /* FOOTER */
+  footer {
+    background: #0a0a0a;
+    text-align: center;
+    padding: 28px 20px;
+    font-size: 12px;
+    color: rgba(255,255,255,0.3);
+    line-height: 1.8;
+  }
+  footer a { color: rgba(255,106,0,0.7); text-decoration: none; }
+  footer a:hover { color: #FF6A00; }
+
+  /* DIVIDER */
+  .divider {
+    width: 48px;
+    height: 3px;
+    background: #FF6A00;
+    border-radius: 2px;
+    margin-bottom: 20px;
+  }
+
+  @media (max-width: 600px) {
+    .aero-card { flex-direction: column; gap: 20px; }
+    .terminal-body { font-size: 12px; padding: 20px 16px; }
+  }
+</style>
+</head>
+<body>
+
+<!-- ============================================================ -->
+<!-- SECTION 1: THE HOOK -->
+<!-- ============================================================ -->
+<div class="hero">
+  <div class="hero-badge">Blind Spot Report</div>
+  <h1>Dr., You Have a<br><span>Visibility Problem</span></h1>
+  <p class="hero-sub">
+    Los Feliz Med Spa has 20 years of expertise, two board-certified physician founders, and a top-7% national injector on staff. Yet when patients in Los Angeles ask AI where to go for med spa services, your name is not the answer they receive.
+  </p>
+  <div class="hero-meta">
+    <span>Los Feliz Med Spa</span>
+    <span>Los Angeles, CA</span>
+    <span>Med Spa</span>
+    <span>AERO-10 Score: 54/100</span>
+  </div>
+</div>
+
+
+<!-- ============================================================ -->
+<!-- SECTION 2: THE GAP -->
+<!-- ============================================================ -->
+<div class="stats-bg">
+  <div class="stats-inner">
+    <div class="stats-label">Section 02 / The Gap</div>
+    <h2 class="stats-title">Your Credentials Are Real.<br>Your AI Presence Is Not.</h2>
+    <p class="stats-intro">
+      The numbers below represent genuine authority built over two decades. The problem is that AI systems cannot see most of it.
+    </p>
+
+    <div class="stats-grid">
+      <div class="stat-card">
+        <div class="stat-number">131</div>
+        <div class="stat-label">Google Reviews</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-number">4.7</div>
+        <div class="stat-label">Star Rating</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-number">20</div>
+        <div class="stat-label">Years in Business</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-number">Top 7%</div>
+        <div class="stat-label">National Injector Rank</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-number">2</div>
+        <div class="stat-label">Board-Certified MDs</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-number">6-7+</div>
+        <div class="stat-label">Avg. Patient Loyalty (yrs)</div>
+      </div>
+    </div>
+
+    <div class="aero-card">
+      <div class="aero-score-ring">
+        <div class="aero-score-text">
+          <span class="num">54</span>
+          <span class="denom">/100</span>
+        </div>
+      </div>
+      <div class="aero-info">
+        <h3>AERO-10 Visibility Score</h3>
+        <p>
+          Your current score of <strong>54/100</strong> means AI engines like ChatGPT, Perplexity, and Google's AI Overviews are overlooking your practice when recommending med spas in Los Angeles. Nearly half of your optimization potential is untapped, and competitors are filling that gap every day.
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<!-- ============================================================ -->
+<!-- SECTION 3: WHAT AI SEES -->
+<!-- ============================================================ -->
+<div style="background: #f8f8f6; padding: 70px 20px;">
+  <div style="max-width: 960px; margin: 0 auto;">
+    <div class="section-label">Section 03 / What AI Sees</div>
+    <h2 class="section-title">When Patients Ask, AI Points<br>Elsewhere</h2>
+    <p class="section-intro">
+      Here is a simulation of what happens when a prospective patient in Los Angeles turns to an AI engine for a med spa recommendation.
+    </p>
+
+    <div class="terminal-wrap">
+      <div class="terminal-bar">
+        <div class="dot dot-r"></div>
+        <div class="dot dot-y"></div>
+        <div class="dot dot-g"></div>
+        <span class="terminal-title">AI Answer Engine, Live Query Simulation</span>
+      </div>
+      <div class="terminal-body">
+        <p>
+          <span class="t-prompt">User &gt; </span>
+          <span class="t-query">"What is the best med spa in Los Angeles for natural-looking results?"</span>
+        </p>
+        <p class="t-response">
+          Based on reputation, physician credentials, and online presence, a top option in Los Angeles is <span class="t-competitor">NassifMD Medical Spa</span>. Led by board-certified plastic surgeon Dr. Paul Nassif, the practice is known for advanced treatments and a strong digital authority signal across multiple platforms. Other frequently cited options include Epione Beverly Hills and Beverly Hills Rejuvenation Center.<span class="t-cursor"></span>
+        </p>
+      </div>
+    </div>
+
+    <div class="ai-note">
+      <strong>What just happened:</strong> Los Feliz Med Spa, founded in 2006 by a top-7% national injector with 20 years of evidence-based aesthetic medicine, was not cited at all. The AI defaulted to competitors with stronger structured data and authority signals, not necessarily better outcomes for patients. This is the visibility gap, and it is fixable.
+    </div>
+  </div>
+</div>
+
+
+<!-- ============================================================ -->
+<!-- SECTION 4: HIDDEN DIFFERENTIATORS -->
+<!-- ============================================================ -->
+<div style="background: #fff; padding: 70px 20px;">
+  <div style="max-width: 960px; margin: 0 auto;">
+    <div class="section-label">Section 04 / Hidden Differentiators</div>
+    <h2 class="section-title">What Makes You Different<br>Is Invisible to AI</h2>
+    <p class="section-intro">
+      Your practice has genuine, patient-validated differentiators that are simply not structured in a way AI systems can read and cite. Here is what they are.
+    </p>
+
+    <div class="diff-grid">
+
+      <div class="diff-card">
+        <div class="diff-icon">🎯</div>
+        <h3>Patient-First Ethics Over Revenue</h3>
+        <p>
+          Dr. Ware and Dr. Sundaram actively tell patients when they do not need a procedure. This is a rare, documented practice philosophy that drives extraordinary long-term loyalty, with many patients staying 6 to 7 or more years. AI cannot recommend what it cannot read.
+        </p>
+        <span class="diff-invisible">Not indexed by AI</span>
+      </div>
+
+      <div class="diff-card">
+        <div class="diff-icon">✨</div>
+        <h3>Nationally Recognized Natural Results</h3>
+        <p>
+          Patients consistently describe outcomes as "not overdone." Dr. Ware is ranked in the top 7% of injectors nationally by Allergan, reflecting precision and restraint. This consistent patient praise represents a clear competitive signal that is missing from your AI footprint.
+        </p>
+        <span class="diff-invisible">Not indexed by AI</span>
+      </div>
+
+      <div class="diff-card">
+        <div class="diff-icon">🏛️</div>
+        <h3>Two Physician Owners, On-Site</h3>
+        <p>
+          Unlike franchise med spas or absentee-ownership models, Los Feliz Med Spa is owned and operated by two board-certified physicians. Dr. Ware has been board-certified since 2001. This owner-operated medical leadership is a critical trust signal AI overlooks.
+        </p>
+        <span class="diff-invisible">Not indexed by AI</span>
+      </div>
+
+      <div class="diff-card">
+        <div class="diff-icon">🔬</div>
+        <h3>Evidence-Based Treatment Integration</h3>
+        <p>
+          New treatments and products are only adopted after scientific validation. Dr. Ware continuously researches emerging aesthetic medicine. This evidence-first discipline separates the practice from trend-chasing competitors, but it is not being surfaced in AI responses.
+        </p>
+        <span class="diff-invisible">Not indexed by AI</span>
+      </div>
+
+      <div class="diff-card">
+        <div class="diff-icon">📍</div>
+        <h3>Eastside Value Without Eastside Compromise</h3>
+        <p>
+          Located in Los Feliz rather than Beverly Hills, the practice offers the same level of physician expertise at more accessible pricing. This geographic and value positioning is a meaningful differentiator for Los Angeles patients, yet AI engines do not surface it.
+        </p>
+        <span class="diff-invisible">Not indexed by AI</span>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+
+<!-- ============================================================ -->
+<!-- SECTION 5: THE FIX -->
+<!-- ============================================================ -->
+<div class="fix-bg">
+  <div class="fix-inner">
+    <div class="stats-label">Section 05 / The Fix</div>
+    <h2 class="stats-title">Four Pillars to Make AI<br>Cite You Instead</h2>
+    <p class="stats-intro">
+      Answer Engine Optimization is not SEO. It is a structured methodology that teaches AI systems to understand, trust, and cite your practice by name.
+    </p>
+
+    <div class="fix-grid">
+      <div class="fix-card">
+        <div class="fix-num">01</div>
+        <h3>Answer-First Content</h3>
+        <p>
+          Restructure your web content so it directly answers the questions patients ask AI engines. Every page becomes a citable answer. Your natural-results philosophy, physician ownership, and evidence-based approach get translated into language AI can extract and repeat.
+        </p>
+      </div>
+
+      <div class="fix-card">
+        <div class="fix-num">02</div>
+        <h3>Schema Markup</h3>
+        <p>
+          Implement structured data that explicitly tells AI systems who you are: your credentials, physician bios, services, location, and ratings. Structured schema transforms your invisible expertise into machine-readable authority signals.
+        </p>
+      </div>
+
+      <div class="fix-card">
+        <div class="fix-num">03</div>
+        <h3>Entity Authority</h3>
+        <p>
+          Build a consistent, cross-platform entity for Los Feliz Med Spa across directories, citations, and authoritative third-party sources. When AI systems see the same facts confirmed from multiple sources, they treat your practice as a credible entity worth citing.
+        </p>
+      </div>
+
+      <div class="fix-card">
+        <div class="fix-num">04</div>
+        <h3>Authority Signals</h3>
+        <p>
+          Surface your Allergan top-7% recognition, board certifications, AAAM membership, and 20-year founding story in formats AI systems can process. Your credentials already exist. They simply need to be formatted as signals AI can trust and repeat.
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<!-- ============================================================ -->
+<!-- SECTION 6: CTA -->
+<!-- ============================================================ -->
+<div class="cta-bg">
+  <div class="cta-inner">
+    <div class="cta-eyebrow">Ready to Be Found</div>
+    <h2 class="cta-title">Let's Get Los Feliz Med Spa Into the Answer</h2>
+    <p class="cta-body">
+      In 30 minutes, we will walk through exactly which AI engines are citing your competitors, which of your differentiators are easiest to surface first, and what a realistic roadmap looks like for your practice. No pressure. No pitch deck. Just clarity.
+    </p>
+    <a href="https://calendly.com/theanswerengine-support/30min" class="cta-btn" target="_blank" rel="noopener">
+      Book My 30-Minute Call
+    </a>
+    <p class="cta-fine">Complimentary strategy session. No commitment required.</p>
+  </div>
+</div>
+
+
+<!-- ============================================================ -->
+<!-- FOOTER -->
+<!-- ============================================================ -->
+<footer>
+  <p>This analysis uses publicly available information about Los Feliz Med Spa and the competitive landscape in Los Angeles.</p>
+  <p style="margin-top:6px;">Questions? <a href="mailto:support@theanswerengine.ai">support@theanswerengine.ai</a></p>
+  <p style="margin-top:6px; color: rgba(255,255,255,0.18);">Prepared by The Answer Engine, Answer Engine Optimization Agency</p>
+</footer>
+
+
+<h2 style="margin:0 0 6px 0;font-family:'Space Grotesk','Inter','Helvetica Neue',Arial,sans-serif;font-size:20px;font-weight:900;color:#1a1a1a;letter-spacing:-0.02em;text-transform:uppercase;">Competitor Battlecard</h2>
+<p style="margin:0 0 18px 0;font-size:14px;color:#555;">Los Feliz Med Spa has strong reviews and patient voice but zero AI citations and no Google Business Profile, leaving them invisible in AI-powered search results where competitors rank.</p>
+
+<table role="presentation" cellpadding="0" cellspacing="0" border="0" width="100%" style="border-collapse:collapse;margin:0 0 22px 0;">
+  <tr>
+    <td valign="top" style="padding:14px;background:#fafafa;border-left:3px solid #FF6A00;width:50%;">
+      <div style="font-family:'JetBrains Mono',Consolas,Menlo,'Courier New',monospace;font-size:10px;color:#888;letter-spacing:0.12em;text-transform:uppercase;margin-bottom:6px;">You</div>
+      <div style="font-family:'Space Grotesk','Inter','Helvetica Neue',Arial,sans-serif;font-size:16px;font-weight:800;color:#1a1a1a;margin-bottom:6px;">Los Feliz Med Spa</div>
+      <div style="font-size:12px;color:#555;line-height:1.5;">0 verified citations · 131 reviews · 4.7★</div>
+    </td>
+    <td style="width:12px;"></td>
+    <td valign="top" style="padding:14px;background:#fafafa;border-left:3px solid #bbb;width:50%;">
+      <div style="font-family:'JetBrains Mono',Consolas,Menlo,'Courier New',monospace;font-size:10px;color:#888;letter-spacing:0.12em;text-transform:uppercase;margin-bottom:6px;">Competitor</div>
+      <div style="font-family:'Space Grotesk','Inter','Helvetica Neue',Arial,sans-serif;font-size:16px;font-weight:800;color:#1a1a1a;margin-bottom:6px;">NassifMD Medical Spa</div>
+      <div style="font-size:12px;color:#555;line-height:1.5;">cited on multiple platforms · public review presence</div>
+    </td>
+  </tr>
+</table>
+
+<h3 style="margin:0 0 10px 0;font-size:14px;color:#1a1a1a;font-family:'Space Grotesk','Inter','Helvetica Neue',Arial,sans-serif;font-weight:800;text-transform:uppercase;letter-spacing:0.02em;">Where They Show Up Today</h3>
+<ul style="margin:0 0 20px 0;padding:0;">
+    <li style="margin:0 0 8px 0;padding:8px 12px;background:#fafafa;border-left:3px solid #FF6A00;list-style:none;font-size:13px;color:#333;">131 Yelp reviews at 4.7 rating embedded on website, creating trust signals for human visitors</li>
+    <li style="margin:0 0 8px 0;padding:8px 12px;background:#fafafa;border-left:3px solid #FF6A00;list-style:none;font-size:13px;color:#333;">Authentic, patient-focused messaging across site and social (4,971 Instagram followers, 1,018 Facebook likes)</li>
+    <li style="margin:0 0 8px 0;padding:8px 12px;background:#fafafa;border-left:3px solid #FF6A00;list-style:none;font-size:13px;color:#333;">Board-certified physician credentials prominently displayed on about and staff pages</li></ul>
+
+<h3 style="margin:0 0 10px 0;font-size:14px;color:#1a1a1a;font-family:'Space Grotesk','Inter','Helvetica Neue',Arial,sans-serif;font-weight:800;text-transform:uppercase;letter-spacing:0.02em;">Three Flip Moves</h3>
+<ol style="margin:0 0 20px 0;padding:0;list-style:none;">
+    <li style="margin:0 0 12px 0;padding:12px 14px;background:#f6faf6;border-left:3px solid #2e8b57;list-style:none;">
+      <div style="font-family:'Space Grotesk','Inter','Helvetica Neue',Arial,sans-serif;font-weight:800;color:#1a1a1a;font-size:14px;margin-bottom:4px;">1. Launch Google My Business profile immediately</div>
+      <div style="font-size:13px;color:#555;">Claim and optimize GMB listing with complete business info, photos, physician names, and service categories. This unblocks local pack visibility and AI knowledge panels that currently show competitors instead of Los Feliz.</div>
+    </li>
+    <li style="margin:0 0 12px 0;padding:12px 14px;background:#f6faf6;border-left:3px solid #2e8b57;list-style:none;">
+      <div style="font-family:'Space Grotesk','Inter','Helvetica Neue',Arial,sans-serif;font-weight:800;color:#1a1a1a;font-size:14px;margin-bottom:4px;">2. Add schema markup to website</div>
+      <div style="font-size:13px;color:#555;">Implement Organization, LocalBusiness, MedicalClinic, and Physician schema tags sitewide. This signals to AI engines that Los Feliz is a credible med spa with licensed doctors, increasing odds of AI citations in 'best med spa Los Angeles' queries.</div>
+    </li>
+    <li style="margin:0 0 12px 0;padding:12px 14px;background:#f6faf6;border-left:3px solid #2e8b57;list-style:none;">
+      <div style="font-family:'Space Grotesk','Inter','Helvetica Neue',Arial,sans-serif;font-weight:800;color:#1a1a1a;font-size:14px;margin-bottom:4px;">3. Target Reddit and review aggregators</div>
+      <div style="font-size:13px;color:#555;">Seed authentic patient stories on relevant Reddit communities (r/losangeles, r/skincare, r/medspa). Pitch 'best med spa' listicles to health blogs and beauty publications to earn backlinks and AI citations that currently flow to NassifMD and Smooth Skin Lounge.</div>
+    </li></ol>
+
+<h3 style="margin:0 0 10px 0;font-size:14px;color:#1a1a1a;font-family:'Space Grotesk','Inter','Helvetica Neue',Arial,sans-serif;font-weight:800;text-transform:uppercase;letter-spacing:0.02em;">Gaps They Haven't Filled</h3>
+<ul style="margin:0 0 20px 0;padding:0;">
+    <li style="margin:0 0 6px 0;padding:6px 10px;background:#fff6ea;list-style:none;font-size:13px;color:#333;">Zero presence on AI answer platforms despite 4.7 rating and strong patient testimonials, while NassifMD, Smooth Skin Lounge, and BeyondSkin capture AI citations</li>
+    <li style="margin:0 0 6px 0;padding:6px 10px;background:#fff6ea;list-style:none;font-size:13px;color:#333;">No Google My Business profile blocks local search visibility and knowledge panel placement for location-based AI queries</li>
+    <li style="margin:0 0 6px 0;padding:6px 10px;background:#fff6ea;list-style:none;font-size:13px;color:#333;">Missing schema markup prevents search engines and AI systems from indexing physician credentials, services, and business legitimacy</li></ul>
+</body>
+</html>
