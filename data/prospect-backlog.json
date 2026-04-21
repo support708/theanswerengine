@@ -1246,5 +1246,41 @@
       "total": 21.5
     },
     "priority": "P3"
+  },
+  {
+    "businessName": "Central Roofing",
+    "contactName": "Not publicly available",
+    "website": "https://centralroof.com/",
+    "phone": "(310) 527-6770",
+    "city": "Los Angeles",
+    "state": "",
+    "serviceNiche": "Roofing Contractor",
+    "reviewCount": 33,
+    "painSignals": [
+      "Central Roofing has 33 Google reviews but is not recommended by AI assistants for \"Roofing Contractor in Los Angeles\""
+    ],
+    "citationResults": [
+      {
+        "platform": "chatgpt",
+        "query": "best Roofing Contractor in Los Angeles",
+        "cited": false,
+        "competitorsCited": [
+          "Final Touch Roofing",
+          "Smart Roofing",
+          "SLR Roofing"
+        ]
+      }
+    ],
+    "differentiator": "Family-owned since 1992, 30+ years commercial roofing experience, specializes exclusively in commercial roofing, serves LA and Orange County",
+    "outreachReady": true,
+    "scoreBreakdown": {
+      "aiBlindSpot": 8.5,
+      "reputationStrength": 2.5,
+      "contentGap": 6,
+      "revenuePotential": 6,
+      "contactQuality": 3,
+      "total": 26
+    },
+    "priority": "P2"
   }
 ]

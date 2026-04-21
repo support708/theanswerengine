@@ -239,5 +239,20 @@
     "outreachReadyCount": 8,
     "errors": [],
     "completedAt": "2026-04-20T14:01:07.285Z"
+  },
+  {
+    "id": "hunt_1776780020327_ntqn",
+    "startedAt": "2026-04-21T14:00:20.327Z",
+    "trigger": "cron_daily",
+    "vertical": "Roofing Contractor",
+    "metro": "Los Angeles",
+    "prospectsFound": 10,
+    "p1Queued": 1,
+    "p2Queued": 0,
+    "p3Backlogged": 1,
+    "duplicatesSkipped": 8,
+    "outreachReadyCount": 1,
+    "errors": [],
+    "completedAt": "2026-04-21T14:01:23.379Z"
   }
 ]

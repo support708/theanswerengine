@@ -3589,7 +3589,7 @@
     "reviewCount": 182,
     "rating": 4.8,
     "notes": "Auto-discovered by Lead Hunter. AI citation: not cited on 0/1 platforms. Competitors cited: Cienega Med Spa, Marina Medspa, Los Feliz Med Spa. Outreach-ready: YES (citation data + contact + differentiator verified). Differentiator: Founded by world-renowned facial plastic surgeon Dr. Paul Nassif; personal selection of all treatments; featured in Entertainment Tonight, Good Morning America, People Magazine; established 2004",
-    "status": "report_ready",
+    "status": "sent",
     "research": {
       "reviewCount": 182,
       "rating": 4.8,
@@ -3714,10 +3714,14 @@
       {
         "action": "Report + OG metadata deployed to production",
         "timestamp": "2026-04-20T18:32:28.850Z"
+      },
+      {
+        "action": "Initial email auto-sent via Gmail (19dad1fc163b87a0)",
+        "timestamp": "2026-04-20T23:00:32.791Z"
       }
     ],
     "createdAt": "2026-04-08T20:59:03.860Z",
-    "updatedAt": "2026-04-20T18:32:28.660Z",
+    "updatedAt": "2026-04-20T23:00:32.791Z",
     "huntSource": "hunt_1775681881534_kh3q",
     "huntScore": 36,
     "huntPriority": "P1",
@@ -3749,8 +3753,78 @@
     "reviewCount": 23,
     "rating": 4.7,
     "notes": "Auto-discovered by Lead Hunter. AI citation: not cited on 1/1 platforms. Competitors cited: NassifMD Medical Spa, Cienega Med Spa, Marina Medspa. Outreach-ready: YES (citation data + contact + differentiator verified). Differentiator: Established 2017; led by Aesthetic Award-winning surgeon Dr. John Kahen; leading CoolSculpting LA center; patent-pending SmartPRP technology",
-    "status": "queued",
-    "research": null,
+    "status": "report_ready",
+    "research": {
+      "reviewCount": 23,
+      "rating": 4.7,
+      "yearsInBusiness": 9,
+      "credentials": [
+        "Aesthetic Award-winning Surgeon, Dr. John Kahen, MD",
+        "Founder of Beverly Hills Hair Restoration",
+        "World-renowned hair restoration specialist",
+        "Instagram verified (357K followers as @johnkahenmd)"
+      ],
+      "awards": [
+        "Aesthetic Award-winning designation",
+        "Patent-pending SmartPRP® technology recognition",
+        "Recognized as leading CoolSculpting LA center"
+      ],
+      "communityInvolvement": [
+        "Strong social media presence (Dr. Kahen: 357K Instagram followers)",
+        "Staff experience: Janet Seelig (spa director) previously assisted on reality TV show 'Botched' with Dr. Terry Dubrow and Dr. Paul Nassif",
+        "Published articles on med spa treatments and aesthetic procedures"
+      ],
+      "hiddenDifferentiators": [
+        "Established 2017, nearly 9 years in business",
+        "Patent-pending SmartPRP® technology for hair restoration and skin rejuvenation",
+        "Leading CoolSculpting LA center designation",
+        "Founder Dr. John Kahen's recognized expertise in hair restoration surgery",
+        "Smart FUE hair transplant with specialized follicle vitality enhancement",
+        "Spa director Janet Seelig's 20+ years of med spa experience and reality TV background",
+        "Comprehensive treatment menu blending non-surgical aesthetics with hair restoration",
+        "Natural-looking results philosophy: 'No one should compliment you on your results'"
+      ],
+      "topCompetitors": [
+        {
+          "name": "NassifMD Medical Spa",
+          "reason": "Led by Dr. Paul Nassif, world-renowned facial plastic surgeon; extensive media presence; established skincare line; NeoGraft hair restoration"
+        },
+        {
+          "name": "Motykie Med Spa",
+          "reason": "Dr. Gary Motykie's nationally recognized aesthetic practice; strong patient testimonials; established reputation in Beverly Hills/LA market"
+        },
+        {
+          "name": "Beverly Wilshire Aesthetics",
+          "reason": "Named best medical spa in Beverly Hills three times in 2025; dual board-certified MD supervision; premium positioning"
+        },
+        {
+          "name": "Smooth Skin Lounge",
+          "reason": "100,000+ procedures over 10 years; Black Diamond provider designation; recognized as #1 med spa in Beverly Hills"
+        }
+      ],
+      "faqContentPresent": true,
+      "blogPresent": true,
+      "gmbPresent": true,
+      "schemaDetected": false,
+      "recentContent": true,
+      "uniqueStory": "Beverly Hills Med Spa, founded in 2017 by Aesthetic Award-winning Surgeon Dr. John Kahen, combines cutting-edge hair restoration expertise with comprehensive med spa aesthetics. Led by spa director Janet Seelig (who previously assisted on 'Botched' with renowned surgeons), the practice emphasizes natural results through its proprietary SmartPRP® patent-pending technology. Dr. Kahen's international recognition as a hair restoration pioneer and the clinic's dual focus on hair transplants and body contouring treatments distinguish it as a specialized hybrid practice rather than traditional med spa.",
+      "aiCited": false,
+      "aero7": {
+        "answerQuality": 6,
+        "entityOptimization": 4,
+        "relevanceFreshness": 7,
+        "optimizationStructure": 6,
+        "voiceAuthenticity": 7,
+        "authoritySignals": 7,
+        "authorityDistribution": 5,
+        "consensusCoCitation": 4,
+        "platformReadiness": 5,
+        "technicalAccessibility": 4,
+        "total": 55
+      },
+      "rawNotes": "FINDINGS: Website has substantial content including blog articles (multiple recent posts dated 2025-2026), FAQ sections on treatment pages, and robust About/credentials pages. Dr. Kahen's background verified across LinkedIn (12K+ followers), Instagram (357K followers), and multiple third-party mentions. Patent-pending SmartPRP technology mentioned consistently across owned properties. Site is mobile-responsive with clear H-tag hierarchy. LinkedIn presence active and updated. Facebook page with 100% positive sentiment reviews (20 verified). Yelp presence with 23 reviews at 4.7 rating, established in 2017. Location verified: 50 N La Cienega Blvd, Ste 200, Beverly Hills, CA 90211. Phone: (310) 359-8832. IDENTIFIED GAPS: No robots.txt AI bot directives detected or disclosed (unable to verify). Limited third-party media mentions (not found in press releases or industry publications beyond Asiam Luxe feature from June 2024). No Reddit presence detected. Not cited on ChatGPT/Gemini/Perplexity for 'best med spa Los Angeles' queries (NassifMD, Motykie, Beverly Wilshire Aesthetics, Smooth Skin Lounge appear instead). Schema markup not detected on homepage (technical SEO gap). NAP consistency confirmed on Yelp vs. website. No dedicated local news coverage identified. Missing from AI mentions entirely despite established reputation and credentials. Janet Seelig's Botched background (2020 transition to Beverly Hills Med Spa director) is strong differentiator underutilized in marketing.",
+      "researchedAt": "2026-04-20T23:30:59.111Z"
+    },
     "reportSlug": "beverly-hills-med-spa-uj6p",
     "emailDraftId": null,
     "fabricationFlags": [],
@@ -3759,10 +3833,42 @@
       {
         "action": "Queued by Lead Hunter (P1, score: 36.5, outreach-ready: true)",
         "timestamp": "2026-04-08T20:59:03.860Z"
+      },
+      {
+        "action": "Research started (auto-pipeline)",
+        "timestamp": "2026-04-20T23:30:31.317Z"
+      },
+      {
+        "action": "Research completed (AERO-10: 55/100)",
+        "timestamp": "2026-04-20T23:30:59.111Z"
+      },
+      {
+        "action": "Report generation started",
+        "timestamp": "2026-04-20T23:30:59.111Z"
+      },
+      {
+        "action": "Competitor battlecard attached",
+        "timestamp": "2026-04-20T23:32:46.693Z"
+      },
+      {
+        "action": "Report generated",
+        "timestamp": "2026-04-20T23:32:46.693Z"
+      },
+      {
+        "action": "Fabrication scan: CLEAN",
+        "timestamp": "2026-04-20T23:32:46.693Z"
+      },
+      {
+        "action": "Em-dash scan: 6 found, auto-stripped",
+        "timestamp": "2026-04-20T23:32:46.693Z"
+      },
+      {
+        "action": "Report + OG metadata deployed to production",
+        "timestamp": "2026-04-20T23:32:46.833Z"
       }
     ],
     "createdAt": "2026-04-08T20:59:03.860Z",
-    "updatedAt": "2026-04-08T20:59:03.860Z",
+    "updatedAt": "2026-04-20T23:32:46.693Z",
     "huntSource": "hunt_1775681881534_kh3q",
     "huntScore": 36.5,
     "huntPriority": "P1",
@@ -5664,6 +5770,50 @@
       }
     ],
     "huntDifferentiator": "Located in Biltmore Area; features highly-skilled team of resident doctors, estheticians, and laser techs; offers membership program with priority booking and exclusive discounts",
+    "huntOutreachReady": true
+  },
+  {
+    "id": "lead_1776780083379_5kap1f",
+    "businessName": "Rafael & Iris Roofing",
+    "contactFirstName": "Rafael,",
+    "contactEmail": "info@rafaelandirisroofing.com",
+    "websiteUrl": "https://www.rafaelandirisroofing.com/",
+    "city": "Los Angeles",
+    "serviceNiche": "Roofing Contractor",
+    "competitorName": "Final Touch Roofing",
+    "reviewCount": 155,
+    "rating": 4.9,
+    "notes": "Auto-discovered by Lead Hunter. AI citation: not cited on 1/1 platforms. Competitors cited: Final Touch Roofing, Smart Roofing, SLR Roofing. Outreach-ready: YES (citation data + contact + differentiator verified). Differentiator: Established 2009, 20+ years combined experience, family-owned, BuildZoom top 1% score, motto 'Family First Integrity Follows', excellent communication reviews, solar installation services",
+    "status": "queued",
+    "research": null,
+    "reportSlug": "rafael-iris-roofing-1azc",
+    "emailDraftId": null,
+    "fabricationFlags": [],
+    "emDashClean": false,
+    "actionLog": [
+      {
+        "action": "Queued by Lead Hunter (P1, score: 38, outreach-ready: true)",
+        "timestamp": "2026-04-21T14:01:23.379Z"
+      }
+    ],
+    "createdAt": "2026-04-21T14:01:23.379Z",
+    "updatedAt": "2026-04-21T14:01:23.379Z",
+    "huntSource": "hunt_1776780020327_ntqn",
+    "huntScore": 38,
+    "huntPriority": "P1",
+    "huntCitationResults": [
+      {
+        "platform": "chatgpt",
+        "query": "best Roofing Contractor in Los Angeles",
+        "cited": false,
+        "competitorsCited": [
+          "Final Touch Roofing",
+          "Smart Roofing",
+          "SLR Roofing"
+        ]
+      }
+    ],
+    "huntDifferentiator": "Established 2009, 20+ years combined experience, family-owned, BuildZoom top 1% score, motto 'Family First Integrity Follows', excellent communication reviews, solar installation services",
     "huntOutreachReady": true
   }
 ]
