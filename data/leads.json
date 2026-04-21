@@ -3753,7 +3753,7 @@
     "reviewCount": 23,
     "rating": 4.7,
     "notes": "Auto-discovered by Lead Hunter. AI citation: not cited on 1/1 platforms. Competitors cited: NassifMD Medical Spa, Cienega Med Spa, Marina Medspa. Outreach-ready: YES (citation data + contact + differentiator verified). Differentiator: Established 2017; led by Aesthetic Award-winning surgeon Dr. John Kahen; leading CoolSculpting LA center; patent-pending SmartPRP technology",
-    "status": "report_ready",
+    "status": "sent",
     "research": {
       "reviewCount": 23,
       "rating": 4.7,
@@ -3865,10 +3865,14 @@
       {
         "action": "Report + OG metadata deployed to production",
         "timestamp": "2026-04-20T23:32:46.833Z"
+      },
+      {
+        "action": "Initial email auto-sent via Gmail (19db0c52e5855cea)",
+        "timestamp": "2026-04-21T16:00:06.140Z"
       }
     ],
     "createdAt": "2026-04-08T20:59:03.860Z",
-    "updatedAt": "2026-04-20T23:32:46.693Z",
+    "updatedAt": "2026-04-21T16:00:06.140Z",
     "huntSource": "hunt_1775681881534_kh3q",
     "huntScore": 36.5,
     "huntPriority": "P1",
