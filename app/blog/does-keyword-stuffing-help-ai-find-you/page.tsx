@@ -5,7 +5,7 @@ export const revalidate = 86400
 export const dynamic = 'force-static'
 export const dynamicParams = true
 
-const title = 'Does Keyword Stuffing Help AI Find Your Business?'
+const title = 'Does Keyword Stuffing Help AI?'
 const description = 'Keyword stuffing does not help AI search. Learn why AI platforms like ChatGPT and Perplexity ignore keyword density and what signals actually drive AI citations.'
 const slug = 'does-keyword-stuffing-help-ai-find-you'
 const publishDate = '2026-04-21'
