@@ -33,9 +33,9 @@ export const metadata: Metadata = {
     publishedTime: publishDate,
     authors: ['The Answer Engine Team'],
     url: `https://theanswerengine.ai/blog/${slug}`,
-    images: [{ url: `https://theanswerengine.ai/blog/${slug}.webp`, width: 1200, height: 630, alt: title }],
+    images: [{ url: `https://theanswerengine.ai/blog/${slug}.svg`, width: 1200, height: 630, alt: title }],
   },
-  twitter: { card: 'summary_large_image', title, description, images: [`https://theanswerengine.ai/blog/${slug}.webp`] },
+  twitter: { card: 'summary_large_image', title, description, images: [`https://theanswerengine.ai/blog/${slug}.svg`] },
   alternates: { canonical: `https://theanswerengine.ai/blog/${slug}` },
 }
 
@@ -48,7 +48,7 @@ const jsonLd = {
       description,
       image: {
         '@type': 'ImageObject',
-        url: `https://theanswerengine.ai/blog/${slug}.webp`,
+        url: `https://theanswerengine.ai/blog/${slug}.svg`,
         width: 1200,
         height: 630,
       },
