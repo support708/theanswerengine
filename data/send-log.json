@@ -276,6 +276,12 @@
       "email": "info@branovercontractors.com",
       "type": "follow_up_2",
       "sentAt": "2026-04-22T16:00:14.383Z"
+    },
+    {
+      "leadId": "lead_1773022425366_gbu4c3",
+      "email": "mario@expresselectricalservices.com",
+      "type": "follow_up_2",
+      "sentAt": "2026-04-22T16:00:18.556Z"
     }
   ]
 }
