@@ -1,4 +1,17 @@
 {
+  "truedoor-property-management-td92": {
+    "businessName": "TrueDoor Property Management",
+    "serviceNiche": "Property Management",
+    "reviewCount": 163,
+    "score": 53,
+    "topCompetitor": "HCM Property Management",
+    "brandColors": {
+      "primary": "#FF6A00",
+      "secondary": "#131313",
+      "text": "#e5e2e1",
+      "background": "#131313"
+    }
+  },
   "hunters-roofing": {
     "businessName": "Hunters Roofing",
     "serviceNiche": "Roofing Contractor",

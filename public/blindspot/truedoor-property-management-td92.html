@@ -1,0 +1,1310 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AERO-10 Intelligence Brief | TrueDoor Property Management</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@700;900&family=DM+Mono:wght@400;500&family=DM+Sans:wght@300;400;500;700&display=swap');
+
+  :root {
+    --orange:  #FF6A00;
+    --orange-dim: rgba(255,106,0,0.12);
+    --orange-glow: rgba(255,106,0,0.07);
+    --red:    #e53e3e;
+    --green:  #4ade80;
+    --bg:     #131313;
+    --bg-alt: #1c1b1b;
+    --surf:   #2a2a2a;
+    --text:   #e5e2e1;
+    --muted:  rgba(229,226,225,0.4);
+    --border: rgba(255,255,255,0.08);
+    --border-strong: rgba(255,255,255,0.14);
+  }
+
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  html { scroll-behavior: smooth; }
+
+  body {
+    background: var(--bg);
+    color: var(--text);
+    font-family: 'DM Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    overflow-x: hidden;
+  }
+
+  /* ---- GRID DOT PATTERN ---- */
+  .grid-bg::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background-image:
+      radial-gradient(circle, rgba(255,106,0,0.08) 1px, transparent 1px);
+    background-size: 32px 32px;
+    z-index: 0;
+  }
+
+  /* ---- ORANGE GLOW ---- */
+  .glow-orange {
+    position: absolute;
+    width: 700px; height: 700px;
+    border-radius: 50%;
+    background: radial-gradient(circle, rgba(255,106,0,0.10) 0%, transparent 65%);
+    z-index: 0;
+    pointer-events: none;
+  }
+
+  /* ---- NAV DOTS ---- */
+  .nav-dots {
+    position: fixed;
+    right: 24px;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 100;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .nav-dot {
+    width: 7px; height: 7px;
+    background: rgba(255,255,255,0.18);
+    cursor: pointer;
+    border: none;
+    transition: all 0.3s ease;
+  }
+  .nav-dot.active, .nav-dot:hover {
+    background: var(--orange);
+    transform: scale(1.5);
+  }
+
+  /* ---- SLIDE BASE ---- */
+  .slide {
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 80px 48px 100px;
+    position: relative;
+    overflow: hidden;
+  }
+  .slide-inner {
+    width: 100%;
+    max-width: 900px;
+    position: relative;
+    z-index: 2;
+  }
+
+  /* ---- FOOTER ---- */
+  .slide-footer {
+    position: absolute;
+    bottom: 0; left: 0; right: 0;
+    padding: 16px 48px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid var(--border);
+    font-size: 10px;
+    color: var(--muted);
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    z-index: 10;
+  }
+  .footer-logo {
+    font-family: 'Space Grotesk', sans-serif;
+    font-weight: 900;
+    font-size: 13px;
+    letter-spacing: 0.1em;
+    color: var(--orange);
+    text-transform: uppercase;
+  }
+
+  /* ---- SLIDE NUMBER ---- */
+  .slide-num {
+    position: absolute;
+    top: 28px; right: 48px;
+    font-family: 'DM Mono', monospace;
+    font-size: 11px;
+    letter-spacing: 0.2em;
+    color: var(--muted);
+    z-index: 10;
+  }
+
+  /* ---- MONO EYEBROW ---- */
+  .eyebrow {
+    font-family: 'DM Mono', monospace;
+    font-size: 10px;
+    font-weight: 500;
+    letter-spacing: 0.22em;
+    text-transform: uppercase;
+    color: var(--orange);
+    margin-bottom: 20px;
+    display: block;
+  }
+
+  /* ---- CHAMPIONSHIP HEADLINE ---- */
+  .champ-headline {
+    font-family: 'Space Grotesk', sans-serif;
+    font-weight: 900;
+    line-height: 0.93;
+    letter-spacing: -0.03em;
+    text-transform: uppercase;
+    margin-bottom: 28px;
+  }
+  .champ-headline .line-white { color: var(--text); display: block; }
+  .champ-headline .line-orange { color: var(--orange); display: block; }
+  .champ-headline .line-dim { color: rgba(229,226,225,0.18); display: block; }
+
+  /* ---- STAT BAR ---- */
+  .stat-bar {
+    display: flex;
+    gap: 0;
+    border: 1px solid var(--border-strong);
+    max-width: 660px;
+    margin-top: 40px;
+  }
+  .stat-cell {
+    flex: 1;
+    padding: 22px 24px;
+    border-right: 1px solid var(--border);
+  }
+  .stat-cell:last-child { border-right: none; }
+  .stat-val {
+    font-family: 'Space Grotesk', sans-serif;
+    font-weight: 900;
+    font-size: 38px;
+    line-height: 1;
+    margin-bottom: 6px;
+    letter-spacing: -0.02em;
+  }
+  .stat-label {
+    font-family: 'DM Mono', monospace;
+    font-size: 10px;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: var(--muted);
+  }
+  .v-orange { color: var(--orange); }
+  .v-red    { color: var(--red); }
+  .v-white  { color: var(--text); }
+
+  /* ================================
+     SLIDE 1 — HOOK
+  ================================ */
+  #slide1 { background: var(--bg); }
+
+  .s1-sub {
+    font-size: 17px;
+    font-weight: 300;
+    color: var(--muted);
+    max-width: 560px;
+    line-height: 1.65;
+  }
+  .s1-sub strong { color: var(--text); font-weight: 500; }
+
+  /* ================================
+     SLIDE 2 — PROOF
+  ================================ */
+  #slide2 { background: var(--bg-alt); }
+
+  .slide-headline {
+    font-family: 'Space Grotesk', sans-serif;
+    font-weight: 900;
+    font-size: clamp(30px, 4vw, 46px);
+    letter-spacing: -0.03em;
+    text-transform: uppercase;
+    line-height: 1;
+    margin-bottom: 8px;
+  }
+  .slide-sub {
+    font-size: 14px;
+    color: var(--muted);
+    margin-bottom: 36px;
+    font-weight: 300;
+  }
+
+  .ai-window {
+    background: #0e0e0e;
+    border: 1px solid var(--border-strong);
+    max-width: 720px;
+  }
+  .ai-window-header {
+    background: #161616;
+    padding: 13px 18px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    border-bottom: 1px solid var(--border);
+  }
+  .ai-dot { width: 9px; height: 9px; border-radius: 50%; }
+  .ai-logo {
+    margin-left: auto;
+    font-family: 'DM Mono', monospace;
+    font-size: 10px;
+    letter-spacing: 0.14em;
+    color: rgba(255,255,255,0.25);
+    text-transform: uppercase;
+  }
+  .ai-query {
+    padding: 16px 20px;
+    background: rgba(255,255,255,0.025);
+    font-size: 13px;
+    color: rgba(255,255,255,0.6);
+    border-bottom: 1px solid var(--border);
+    font-style: italic;
+  }
+  .ai-response { padding: 20px 20px 24px; }
+  .ai-response p {
+    font-size: 13px;
+    line-height: 1.75;
+    color: rgba(255,255,255,0.7);
+    margin-bottom: 14px;
+  }
+
+  .ai-chip {
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+    background: rgba(255,255,255,0.05);
+    padding: 2px 9px;
+    font-size: 12px;
+    color: var(--text);
+    margin: 2px;
+    border: 1px solid transparent;
+  }
+  .ai-chip.competitor { color: var(--green); border-color: rgba(74,222,128,0.2); background: rgba(74,222,128,0.06); }
+  .ai-chip.missing {
+    color: var(--red);
+    background: rgba(229,62,62,0.1);
+    border: 1px solid rgba(229,62,62,0.3);
+    text-decoration: line-through;
+    text-decoration-color: var(--red);
+  }
+  .missing-badge {
+    display: inline-block;
+    background: var(--red);
+    color: white;
+    font-family: 'DM Mono', monospace;
+    font-size: 9px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    padding: 2px 7px;
+    margin-left: 8px;
+    text-decoration: none;
+  }
+
+  .vs-row {
+    display: flex;
+    gap: 14px;
+    margin-top: 28px;
+    max-width: 720px;
+  }
+  .vs-card {
+    flex: 1;
+    padding: 18px 20px;
+    border: 1px solid var(--border);
+  }
+  .vs-card.them { border-color: rgba(74,222,128,0.25); background: rgba(74,222,128,0.04); }
+  .vs-card.you  { border-color: rgba(229,62,62,0.3);  background: rgba(229,62,62,0.05); }
+  .vs-label {
+    font-family: 'DM Mono', monospace;
+    font-size: 9px;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+  }
+  .vs-card.them .vs-label { color: var(--green); }
+  .vs-card.you  .vs-label { color: var(--red); }
+  .vs-name {
+    font-family: 'Space Grotesk', sans-serif;
+    font-weight: 900;
+    font-size: 20px;
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+    margin-bottom: 7px;
+  }
+  .vs-card.them .vs-name { color: var(--green); }
+  .vs-card.you  .vs-name { color: var(--red); }
+  .vs-detail { font-size: 13px; color: var(--muted); line-height: 1.55; }
+
+  /* ================================
+     SLIDE 3 — MONEY MATH
+  ================================ */
+  #slide3 { background: var(--bg); }
+
+  .math-table {
+    width: 100%;
+    max-width: 800px;
+    border-collapse: collapse;
+  }
+  .math-table th {
+    padding: 12px 18px;
+    font-family: 'DM Mono', monospace;
+    font-size: 9px;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: var(--muted);
+    text-align: left;
+    border-bottom: 1px solid var(--border);
+  }
+  .math-table th:last-child { text-align: right; }
+  .math-table td {
+    padding: 16px 18px;
+    font-size: 14px;
+    border-bottom: 1px solid var(--border);
+    vertical-align: top;
+    line-height: 1.45;
+  }
+  .math-table td:last-child { text-align: right; font-weight: 600; }
+  .math-table tr.row-bad  td { background: rgba(229,62,62,0.04); }
+  .math-table tr.row-bad  td:last-child { color: var(--red); }
+  .math-table tr.row-good td { background: rgba(74,222,128,0.03); }
+  .math-table tr.row-good td:last-child { color: var(--green); }
+  .math-table tr.row-total td {
+    font-family: 'Space Grotesk', sans-serif;
+    font-weight: 900;
+    font-size: 20px;
+    letter-spacing: -0.02em;
+    border-bottom: none;
+    padding-top: 22px;
+  }
+  .math-sub {
+    font-size: 11px;
+    color: var(--muted);
+    margin-top: 3px;
+    font-weight: 300;
+    font-family: 'DM Sans', sans-serif;
+  }
+
+  .verdict-box {
+    margin-top: 28px;
+    max-width: 800px;
+    padding: 22px 26px;
+    border-left: 3px solid var(--orange);
+    background: var(--orange-dim);
+  }
+  .verdict-box p {
+    font-size: 15px;
+    line-height: 1.65;
+    color: rgba(229,226,225,0.85);
+  }
+  .verdict-box strong { color: var(--orange); }
+
+  /* ================================
+     SLIDE 4 — GAP ANALYSIS
+  ================================ */
+  #slide4 { background: var(--bg-alt); }
+
+  .gap-grid {
+    display: grid;
+    grid-template-columns: 1fr 54px 1fr;
+    gap: 0;
+    max-width: 840px;
+  }
+  .gap-col-label {
+    font-family: 'DM Mono', monospace;
+    font-size: 10px;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    padding-bottom: 16px;
+    border-bottom: 1px solid var(--border);
+    margin-bottom: 0;
+  }
+  .gap-col-label.you  { color: var(--red); }
+  .gap-col-label.them { color: var(--green); }
+  .gap-divider { display: flex; align-items: flex-start; justify-content: center; padding-top: 14px; }
+  .gap-vs {
+    font-family: 'Space Grotesk', sans-serif;
+    font-weight: 900;
+    font-size: 20px;
+    letter-spacing: -0.02em;
+    color: var(--muted);
+  }
+
+  .gap-item {
+    display: flex;
+    align-items: flex-start;
+    gap: 11px;
+    padding: 13px 0;
+    border-bottom: 1px solid var(--border);
+  }
+  .gap-item:last-child { border-bottom: none; }
+  .gap-icon {
+    width: 20px; height: 20px;
+    display: flex; align-items: center; justify-content: center;
+    font-size: 11px;
+    flex-shrink: 0;
+    margin-top: 1px;
+  }
+  .gap-icon.bad  { background: rgba(229,62,62,0.15);  color: var(--red); }
+  .gap-icon.good { background: rgba(74,222,128,0.12); color: var(--green); }
+  .gap-text { font-size: 13px; line-height: 1.5; }
+  .gap-text strong { display: block; font-weight: 600; font-size: 13px; margin-bottom: 1px; }
+  .gap-text span { font-size: 11px; color: var(--muted); font-weight: 300; }
+
+  /* ================================
+     SLIDE 5 — AERO-10 SCORECARD
+  ================================ */
+  #slide5 { background: var(--bg); }
+
+  .score-header {
+    display: flex;
+    align-items: flex-end;
+    gap: 28px;
+    margin-bottom: 36px;
+    flex-wrap: wrap;
+  }
+  .score-big {
+    font-family: 'Space Grotesk', sans-serif;
+    font-weight: 900;
+    font-size: 88px;
+    line-height: 0.9;
+    letter-spacing: -0.04em;
+    color: var(--orange);
+  }
+  .score-denom {
+    font-family: 'Space Grotesk', sans-serif;
+    font-weight: 900;
+    font-size: 36px;
+    line-height: 1;
+    letter-spacing: -0.02em;
+    color: var(--muted);
+    margin-bottom: 8px;
+  }
+  .score-grade {
+    font-family: 'DM Mono', monospace;
+    font-size: 11px;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: var(--muted);
+    margin-bottom: 4px;
+  }
+  .score-context {
+    font-size: 14px;
+    font-weight: 300;
+    color: var(--muted);
+    max-width: 360px;
+    line-height: 1.55;
+  }
+
+  .pillar-list {
+    max-width: 840px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .pillar-row {
+    display: grid;
+    grid-template-columns: 220px 1fr 42px;
+    gap: 14px;
+    align-items: center;
+  }
+  .pillar-label {
+    font-family: 'DM Mono', monospace;
+    font-size: 10px;
+    letter-spacing: 0.1em;
+    color: var(--muted);
+    text-transform: uppercase;
+    white-space: nowrap;
+  }
+  .pillar-track {
+    background: rgba(255,255,255,0.04);
+    border: 1px solid var(--border);
+    height: 8px;
+    position: relative;
+  }
+  .pillar-fill {
+    position: absolute;
+    left: 0; top: 0; bottom: 0;
+    background: var(--orange);
+    transition: width 0.4s ease;
+  }
+  .pillar-fill.low  { background: var(--red); }
+  .pillar-fill.mid  { background: var(--orange); }
+  .pillar-fill.high { background: #4ade80; }
+  .pillar-score {
+    font-family: 'Space Grotesk', sans-serif;
+    font-weight: 900;
+    font-size: 15px;
+    letter-spacing: -0.02em;
+    text-align: right;
+  }
+  .pillar-score.low  { color: var(--red); }
+  .pillar-score.mid  { color: var(--orange); }
+  .pillar-score.high { color: #4ade80; }
+
+  /* ================================
+     SLIDE 6 — THE FIX
+  ================================ */
+  #slide6 { background: var(--bg-alt); }
+
+  .fix-cols {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 16px;
+    max-width: 840px;
+  }
+  .fix-col-head {
+    font-family: 'DM Mono', monospace;
+    font-size: 9px;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    padding: 10px 0;
+    border-bottom: 1px solid var(--border);
+    margin-bottom: 14px;
+  }
+  .fix-col-head.q1 { color: var(--orange); }
+  .fix-col-head.q2 { color: #60a5fa; }
+  .fix-col-head.q3 { color: var(--green); }
+
+  .fix-item {
+    display: flex;
+    gap: 10px;
+    align-items: flex-start;
+    margin-bottom: 14px;
+  }
+  .fix-num {
+    font-family: 'Space Grotesk', sans-serif;
+    font-weight: 900;
+    font-size: 13px;
+    color: var(--orange);
+    flex-shrink: 0;
+    margin-top: 1px;
+    width: 18px;
+  }
+  .fix-num.blue  { color: #60a5fa; }
+  .fix-num.green { color: var(--green); }
+  .fix-text { font-size: 13px; line-height: 1.5; }
+  .fix-text strong { display: block; font-weight: 600; margin-bottom: 2px; color: var(--text); }
+  .fix-text span { font-size: 11px; color: var(--muted); font-weight: 300; }
+
+  .fix-result {
+    margin-top: 28px;
+    max-width: 840px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 12px;
+  }
+  .fix-result-card {
+    padding: 16px 18px;
+    border: 1px solid var(--border-strong);
+    background: var(--surf);
+  }
+  .fix-result-val {
+    font-family: 'Space Grotesk', sans-serif;
+    font-weight: 900;
+    font-size: 26px;
+    letter-spacing: -0.03em;
+    color: var(--orange);
+    margin-bottom: 4px;
+  }
+  .fix-result-label {
+    font-family: 'DM Mono', monospace;
+    font-size: 9px;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: var(--muted);
+  }
+
+  /* ================================
+     SLIDE 7 — CTA
+  ================================ */
+  #slide7 { background: var(--bg); text-align: center; }
+
+  .cta-headline {
+    font-family: 'Space Grotesk', sans-serif;
+    font-weight: 900;
+    font-size: clamp(48px, 9vw, 100px);
+    line-height: 0.9;
+    letter-spacing: -0.04em;
+    text-transform: uppercase;
+    margin-bottom: 24px;
+  }
+  .cta-headline .line1 { color: var(--text); display: block; }
+  .cta-headline .line2 { color: var(--orange); display: block; }
+  .cta-headline .line3 { color: rgba(229,226,225,0.15); display: block; }
+
+  .cta-sub {
+    font-size: 16px;
+    font-weight: 300;
+    color: var(--muted);
+    max-width: 480px;
+    margin: 0 auto 44px;
+    line-height: 1.65;
+  }
+
+  .cta-buttons {
+    display: flex;
+    gap: 14px;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .btn-primary {
+    display: inline-block;
+    background: var(--orange);
+    color: #000;
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    padding: 16px 34px;
+    text-decoration: none;
+    transition: opacity 0.2s ease;
+  }
+  .btn-primary:hover { opacity: 0.9; }
+
+  .btn-secondary {
+    display: inline-block;
+    background: transparent;
+    color: var(--text);
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    padding: 16px 34px;
+    text-decoration: none;
+    border: 1px solid var(--border-strong);
+    transition: border-color 0.2s ease;
+  }
+  .btn-secondary:hover { border-color: var(--orange); color: var(--orange); }
+
+  .cta-detail {
+    margin-top: 36px;
+    font-family: 'DM Mono', monospace;
+    font-size: 10px;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    color: var(--muted);
+  }
+
+  /* ---- UTILITY ---- */
+  .accent { color: var(--orange); }
+  .tag {
+    display: inline-block;
+    font-family: 'DM Mono', monospace;
+    font-size: 9px;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    padding: 4px 10px;
+    border: 1px solid var(--orange-dim);
+    color: var(--orange);
+    background: var(--orange-dim);
+    margin-bottom: 22px;
+  }
+
+</style>
+</head>
+<body>
+
+<!-- NAV DOTS -->
+<nav class="nav-dots" aria-label="Section navigation">
+  <button class="nav-dot active" onclick="goTo(0)" title="Hook"></button>
+  <button class="nav-dot" onclick="goTo(1)" title="Proof"></button>
+  <button class="nav-dot" onclick="goTo(2)" title="Money"></button>
+  <button class="nav-dot" onclick="goTo(3)" title="Gap"></button>
+  <button class="nav-dot" onclick="goTo(4)" title="Score"></button>
+  <button class="nav-dot" onclick="goTo(5)" title="Fix"></button>
+  <button class="nav-dot" onclick="goTo(6)" title="CTA"></button>
+</nav>
+
+<!-- ================================================
+     SLIDE 1 — THE HOOK
+================================================ -->
+<section class="slide grid-bg" id="slide1">
+  <div class="glow-orange" style="top:-200px; right:-200px;"></div>
+  <div class="slide-num">01 / 07</div>
+  <div class="slide-inner">
+    <span class="eyebrow">◉ AERO-10 Intelligence Brief // TrueDoor Property Management</span>
+    <h1 class="champ-headline" style="font-size: clamp(48px, 8vw, 88px);">
+      <span class="line-white">Irvine's Most Experienced</span>
+      <span class="line-orange">Property Manager</span>
+      <span class="line-dim">Invisible to AI Search</span>
+    </h1>
+    <p class="s1-sub">
+      You've managed <strong>1,200+ units</strong> across Orange County for <strong>18 years</strong>.
+      Your Yelp score beats most competitors. But when a landlord types
+      "property management Irvine" into ChatGPT, Google AI, or Perplexity&mdash;
+      your name doesn't appear. Not once.
+    </p>
+    <div class="stat-bar">
+      <div class="stat-cell">
+        <div class="stat-val v-orange">53<span style="font-size:22px;opacity:0.5">/100</span></div>
+        <div class="stat-label">AERO-10 Score</div>
+      </div>
+      <div class="stat-cell">
+        <div class="stat-val v-red">0<span style="font-size:22px;opacity:0.5">/10</span></div>
+        <div class="stat-label">AI Answer Mentions</div>
+      </div>
+      <div class="stat-cell">
+        <div class="stat-val v-white">$140K</div>
+        <div class="stat-label">Est. Annual Revenue at Risk</div>
+      </div>
+    </div>
+  </div>
+  <div class="slide-footer">
+    <span class="footer-logo">The Answer Engine</span>
+    <span>Prepared for Kyle Thompson · TrueDoor PM · April 2026</span>
+    <span>Confidential</span>
+  </div>
+</section>
+
+<!-- ================================================
+     SLIDE 2 — THE PROOF
+================================================ -->
+<section class="slide" id="slide2">
+  <div class="glow-orange" style="bottom:-300px; left:-200px;"></div>
+  <div class="slide-num">02 / 07</div>
+  <div class="slide-inner">
+    <span class="eyebrow">◉ AI Visibility Test // What Landlords Actually See</span>
+    <h2 class="slide-headline">
+      They Search. <span class="accent">You're Missing.</span>
+    </h2>
+    <p class="slide-sub">Simulated AI response for "property management company Irvine CA" &mdash; run April 2026</p>
+
+    <div class="ai-window">
+      <div class="ai-window-header">
+        <div class="ai-dot" style="background:#ff5f56;"></div>
+        <div class="ai-dot" style="background:#ffbd2e;"></div>
+        <div class="ai-dot" style="background:#27c93f;"></div>
+        <span class="ai-logo">ChatGPT / Perplexity AI</span>
+      </div>
+      <div class="ai-query">"What are the best property management companies in Irvine, CA?"</div>
+      <div class="ai-response">
+        <p>Here are the top-rated property management companies serving Irvine and Orange County:</p>
+        <p>
+          <span class="ai-chip competitor">&#10003; HCM Property Management</span>
+          <span class="ai-chip competitor">&#10003; Utopia Management</span>
+          <span class="ai-chip competitor">&#10003; Beach Front PM</span>
+        </p>
+        <p>
+          <span class="ai-chip competitor">&#10003; West Point PM</span>
+          <span class="ai-chip competitor">&#10003; Ziprent</span>
+          <span class="ai-chip missing">TrueDoor Property Management</span>
+          <span class="missing-badge">Not Found</span>
+        </p>
+        <p style="font-size:12px; color:rgba(229,226,225,0.35); margin-top:8px;">
+          AI systems surface companies with FAQ schema, co-citation signals, and authority-verified content.
+          TrueDoor's digital footprint does not yet meet this threshold.
+        </p>
+      </div>
+    </div>
+
+    <div class="vs-row">
+      <div class="vs-card them">
+        <div class="vs-label">Top Competitor</div>
+        <div class="vs-name">HCM Property Mgmt</div>
+        <div class="vs-detail">
+          4.7&#9733; / 466 reviews &middot; A+ BBB<br>
+          AI mentions: 7 of 10 searches<br>
+          FAQ schema: Implemented<br>
+          AERO-10 score: 79/100
+        </div>
+      </div>
+      <div class="vs-card you">
+        <div class="vs-label">TrueDoor PM</div>
+        <div class="vs-name">Not in AI Answers</div>
+        <div class="vs-detail">
+          4.6&#9733; / 163 reviews &middot; Not BBB Accredited<br>
+          AI mentions: 0 of 10 searches<br>
+          FAQ schema: Missing<br>
+          AERO-10 score: 53/100
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="slide-footer">
+    <span class="footer-logo">The Answer Engine</span>
+    <span>AERO-10 Intelligence Brief &middot; TrueDoor Property Management</span>
+    <span>theanswerengine.ai</span>
+  </div>
+</section>
+
+<!-- ================================================
+     SLIDE 3 — MONEY MATH
+================================================ -->
+<section class="slide" id="slide3">
+  <div class="slide-num">03 / 07</div>
+  <div class="slide-inner">
+    <span class="eyebrow">◉ Revenue Impact // What the Invisibility Gap Costs</span>
+    <h2 class="slide-headline">The <span class="accent">$140K</span> Gap</h2>
+    <p class="slide-sub">Based on Irvine rental market data (2026) and Orange County PM industry benchmarks</p>
+
+    <table class="math-table">
+      <thead>
+        <tr>
+          <th>Factor</th>
+          <th>Current Reality</th>
+          <th>If Optimized</th>
+          <th>Difference</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr class="row-bad">
+          <td>
+            <strong>AI Search Presence</strong>
+            <div class="math-sub">Mentions in ChatGPT, Perplexity, AI Overviews</div>
+          </td>
+          <td>0 of 10 searches</td>
+          <td>6-8 of 10</td>
+          <td style="color: var(--red);">0%</td>
+        </tr>
+        <tr class="row-bad">
+          <td>
+            <strong>High-Intent Queries Captured</strong>
+            <div class="math-sub">"PM fees OC," "tenant screening CA," "eviction costs"</div>
+          </td>
+          <td>~2 of 17 target queries</td>
+          <td>12+ of 17</td>
+          <td style="color: var(--red);">-88%</td>
+        </tr>
+        <tr>
+          <td>
+            <strong>Estimated Monthly AI Leads</strong>
+            <div class="math-sub">Qualified landlords from AI-referred traffic</div>
+          </td>
+          <td>~3&ndash;5 leads/mo</td>
+          <td>20&ndash;30 leads/mo</td>
+          <td>+500%</td>
+        </tr>
+        <tr>
+          <td>
+            <strong>Close Rate (PM Industry Avg)</strong>
+            <div class="math-sub">Qualified landlord to signed management agreement</div>
+          </td>
+          <td colspan="2">15% (industry standard)</td>
+          <td>&mdash;</td>
+        </tr>
+        <tr>
+          <td>
+            <strong>Avg Management Fee</strong>
+            <div class="math-sub">10% of $3,700/mo avg Irvine rent</div>
+          </td>
+          <td colspan="2">$370/month per unit</td>
+          <td>&mdash;</td>
+        </tr>
+        <tr class="row-good">
+          <td>
+            <strong>New Annual Revenue Potential</strong>
+            <div class="math-sub">20 leads/mo &times; 15% close &times; $370/mo &times; 12 mo</div>
+          </td>
+          <td>$0 captured</td>
+          <td>$159,840/year</td>
+          <td>+$159,840</td>
+        </tr>
+        <tr class="row-total">
+          <td>Conservative Estimate</td>
+          <td colspan="2">&mdash;</td>
+          <td style="color: var(--orange);">$86K&ndash;$140K/yr</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <div class="verdict-box">
+      <p>
+        TrueDoor has the experience, the units, and the reputation to dominate AI search.
+        The gap is not operational&mdash;it's structural. <strong>Three technical fixes</strong>
+        (FAQ schema, co-citation content, authority credentialing) account for 70% of the AERO-10 gap
+        and are addressable in under 90 days.
+      </p>
+    </div>
+  </div>
+  <div class="slide-footer">
+    <span class="footer-logo">The Answer Engine</span>
+    <span>AERO-10 Intelligence Brief &middot; TrueDoor Property Management</span>
+    <span>theanswerengine.ai</span>
+  </div>
+</section>
+
+<!-- ================================================
+     SLIDE 4 — GAP ANALYSIS
+================================================ -->
+<section class="slide" id="slide4">
+  <div class="glow-orange" style="top:-100px; right:-300px;"></div>
+  <div class="slide-num">04 / 07</div>
+  <div class="slide-inner">
+    <span class="eyebrow">◉ Competitive Gap // TrueDoor vs. HCM Property Management</span>
+    <h2 class="slide-headline">Where the <span class="accent">AI Gap</span> Lives</h2>
+    <p class="slide-sub">HCM has 12 years to your 18&mdash;yet they're dominating AI results. Here's why.</p>
+
+    <div class="gap-grid">
+      <!-- Headers -->
+      <div class="gap-col-label you">TrueDoor PM</div>
+      <div></div>
+      <div class="gap-col-label them">HCM Property Mgmt</div>
+
+      <!-- Row: AI Mentions -->
+      <div class="gap-item">
+        <div class="gap-icon bad">&#10005;</div>
+        <div class="gap-text">
+          <strong>0 / 10 AI Answers</strong>
+          <span>Not cited in any tested AI response</span>
+        </div>
+      </div>
+      <div class="gap-divider"><span class="gap-vs">VS</span></div>
+      <div class="gap-item">
+        <div class="gap-icon good">&#10003;</div>
+        <div class="gap-text">
+          <strong>7 / 10 AI Answers</strong>
+          <span>Cited in majority of tested AI responses</span>
+        </div>
+      </div>
+
+      <!-- Row: FAQ Schema -->
+      <div class="gap-item">
+        <div class="gap-icon bad">&#10005;</div>
+        <div class="gap-text">
+          <strong>No FAQ Schema</strong>
+          <span>Missing FAQPage markup on site</span>
+        </div>
+      </div>
+      <div class="gap-divider"></div>
+      <div class="gap-item">
+        <div class="gap-icon good">&#10003;</div>
+        <div class="gap-text">
+          <strong>FAQ Schema Implemented</strong>
+          <span>Rich snippets appearing for fee queries</span>
+        </div>
+      </div>
+
+      <!-- Row: Authority Credentials -->
+      <div class="gap-item">
+        <div class="gap-icon bad">&#10005;</div>
+        <div class="gap-text">
+          <strong>No NARPM Membership</strong>
+          <span>Not listed in industry directory</span>
+        </div>
+      </div>
+      <div class="gap-divider"></div>
+      <div class="gap-item">
+        <div class="gap-icon good">&#10003;</div>
+        <div class="gap-text">
+          <strong>BBB A+ Accredited</strong>
+          <span>Accreditation boosts authority signals</span>
+        </div>
+      </div>
+
+      <!-- Row: Reviews -->
+      <div class="gap-item">
+        <div class="gap-icon bad">&#10005;</div>
+        <div class="gap-text">
+          <strong>163 Yelp Reviews</strong>
+          <span>4.6&#9733; &mdash; strong quality, lower volume</span>
+        </div>
+      </div>
+      <div class="gap-divider"></div>
+      <div class="gap-item">
+        <div class="gap-icon good">&#10003;</div>
+        <div class="gap-text">
+          <strong>466 Yelp Reviews</strong>
+          <span>4.7&#9733; &mdash; volume drives AI co-citation weight</span>
+        </div>
+      </div>
+
+      <!-- Row: Co-Citation -->
+      <div class="gap-item">
+        <div class="gap-icon bad">&#10005;</div>
+        <div class="gap-text">
+          <strong>Not in OC Roundup Articles</strong>
+          <span>Missing from "Best PM in Irvine" lists</span>
+        </div>
+      </div>
+      <div class="gap-divider"></div>
+      <div class="gap-item">
+        <div class="gap-icon good">&#10003;</div>
+        <div class="gap-text">
+          <strong>Featured in OC Roundups</strong>
+          <span>Cited alongside Utopia, BFPM in guides</span>
+        </div>
+      </div>
+
+      <!-- Row: Platform Presence -->
+      <div class="gap-item">
+        <div class="gap-icon bad">&#10005;</div>
+        <div class="gap-text">
+          <strong>Missing Zillow / Apartments.com</strong>
+          <span>Not verified in PM directory listings</span>
+        </div>
+      </div>
+      <div class="gap-divider"></div>
+      <div class="gap-item">
+        <div class="gap-icon good">&#10003;</div>
+        <div class="gap-text">
+          <strong>Multi-Platform Verified</strong>
+          <span>Present across all major PM directories</span>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="slide-footer">
+    <span class="footer-logo">The Answer Engine</span>
+    <span>AERO-10 Intelligence Brief &middot; TrueDoor Property Management</span>
+    <span>theanswerengine.ai</span>
+  </div>
+</section>
+
+<!-- ================================================
+     SLIDE 5 — AERO-10 SCORECARD
+================================================ -->
+<section class="slide" id="slide5">
+  <div class="slide-num">05 / 07</div>
+  <div class="slide-inner">
+    <span class="eyebrow">◉ AERO-10 Framework // 10-Pillar AI Visibility Score</span>
+
+    <div class="score-header">
+      <div>
+        <div class="score-big">53</div>
+      </div>
+      <div>
+        <div class="score-denom">/100</div>
+        <div class="score-grade">Grade: C &mdash; Below Market Average</div>
+        <div class="score-context">
+          The Orange County PM market average is ~65/100.
+          Top performer (HCM) scores 79/100.
+          TrueDoor has a 26-point gap&mdash;all recoverable.
+        </div>
+      </div>
+    </div>
+
+    <div class="pillar-list">
+      <!-- P1 -->
+      <div class="pillar-row">
+        <div class="pillar-label">P1 · Answer Quality</div>
+        <div class="pillar-track"><div class="pillar-fill mid" style="width:60%;"></div></div>
+        <div class="pillar-score mid">6/10</div>
+      </div>
+      <!-- P2 -->
+      <div class="pillar-row">
+        <div class="pillar-label">P2 · Entity Optimization</div>
+        <div class="pillar-track"><div class="pillar-fill low" style="width:50%;"></div></div>
+        <div class="pillar-score low">5/10</div>
+      </div>
+      <!-- P3 -->
+      <div class="pillar-row">
+        <div class="pillar-label">P3 · Relevance &amp; Freshness</div>
+        <div class="pillar-track"><div class="pillar-fill mid" style="width:60%;"></div></div>
+        <div class="pillar-score mid">6/10</div>
+      </div>
+      <!-- P4 -->
+      <div class="pillar-row">
+        <div class="pillar-label">P4 · Optimization Structure</div>
+        <div class="pillar-track"><div class="pillar-fill low" style="width:40%;"></div></div>
+        <div class="pillar-score low">4/10</div>
+      </div>
+      <!-- P5 -->
+      <div class="pillar-row">
+        <div class="pillar-label">P5 · Voice &amp; Authenticity</div>
+        <div class="pillar-track"><div class="pillar-fill mid" style="width:70%;"></div></div>
+        <div class="pillar-score mid">7/10</div>
+      </div>
+      <!-- P6 -->
+      <div class="pillar-row">
+        <div class="pillar-label">P6 · Authority Signals</div>
+        <div class="pillar-track"><div class="pillar-fill low" style="width:40%;"></div></div>
+        <div class="pillar-score low">4/10</div>
+      </div>
+      <!-- P7 -->
+      <div class="pillar-row">
+        <div class="pillar-label">P7 · Authority Distribution</div>
+        <div class="pillar-track"><div class="pillar-fill low" style="width:50%;"></div></div>
+        <div class="pillar-score low">5/10</div>
+      </div>
+      <!-- P8 -->
+      <div class="pillar-row">
+        <div class="pillar-label">P8 · Consensus &amp; Co-Citation</div>
+        <div class="pillar-track"><div class="pillar-fill low" style="width:30%;"></div></div>
+        <div class="pillar-score low">3/10</div>
+      </div>
+      <!-- P9 -->
+      <div class="pillar-row">
+        <div class="pillar-label">P9 · Platform Readiness</div>
+        <div class="pillar-track"><div class="pillar-fill mid" style="width:60%;"></div></div>
+        <div class="pillar-score mid">6/10</div>
+      </div>
+      <!-- P10 -->
+      <div class="pillar-row">
+        <div class="pillar-label">P10 · Technical AI Accessibility</div>
+        <div class="pillar-track"><div class="pillar-fill mid" style="width:70%;"></div></div>
+        <div class="pillar-score mid">7/10</div>
+      </div>
+    </div>
+  </div>
+  <div class="slide-footer">
+    <span class="footer-logo">The Answer Engine</span>
+    <span>AERO-10 Intelligence Brief &middot; TrueDoor Property Management</span>
+    <span>theanswerengine.ai</span>
+  </div>
+</section>
+
+<!-- ================================================
+     SLIDE 6 — THE FIX
+================================================ -->
+<section class="slide" id="slide6">
+  <div class="glow-orange" style="bottom:-200px; right:-200px;"></div>
+  <div class="slide-num">06 / 07</div>
+  <div class="slide-inner">
+    <span class="eyebrow">◉ 90-Day Roadmap // From Invisible to Indispensable</span>
+    <h2 class="slide-headline">The Fix Is <span class="accent">Already Mapped</span></h2>
+    <p class="slide-sub">Three phases. Zero guesswork. Projected 26-point AERO-10 gain in 90 days.</p>
+
+    <div class="fix-cols">
+      <!-- Month 1 -->
+      <div>
+        <div class="fix-col-head q1">&#9632; Month 1 — Structure</div>
+        <div class="fix-item">
+          <span class="fix-num">01</span>
+          <div class="fix-text">
+            <strong>FAQPage Schema</strong>
+            <span>Implement on /faq page targeting "PM fees OC," "tenant screening," "eviction costs CA"</span>
+          </div>
+        </div>
+        <div class="fix-item">
+          <span class="fix-num">02</span>
+          <div class="fix-text">
+            <strong>Blog Schema Markup</strong>
+            <span>Add BlogPosting + FAQPage schema to all existing blog posts</span>
+          </div>
+        </div>
+        <div class="fix-item">
+          <span class="fix-num">03</span>
+          <div class="fix-text">
+            <strong>Fees Comparison Post</strong>
+            <span>"Property Management Fees Orange County 2026" — targets top blind-spot query</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Month 2 -->
+      <div>
+        <div class="fix-col-head q2">&#9632; Month 2 — Authority</div>
+        <div class="fix-item">
+          <span class="fix-num blue">04</span>
+          <div class="fix-text">
+            <strong>NARPM Membership</strong>
+            <span>Join NARPM + pursue RMP certification. ~$500/yr. Adds P6 credentialing signal.</span>
+          </div>
+        </div>
+        <div class="fix-item">
+          <span class="fix-num blue">05</span>
+          <div class="fix-text">
+            <strong>BBB Accreditation</strong>
+            <span>Apply for A+ accreditation. Matches HCM's primary trust signal.</span>
+          </div>
+        </div>
+        <div class="fix-item">
+          <span class="fix-num blue">06</span>
+          <div class="fix-text">
+            <strong>Zillow + Apartments.com</strong>
+            <span>Claim PM directory profiles on both platforms. Closes P7 platform gap.</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Month 3 -->
+      <div>
+        <div class="fix-col-head q3">&#9632; Month 3 — Consensus</div>
+        <div class="fix-item">
+          <span class="fix-num green">07</span>
+          <div class="fix-text">
+            <strong>OC Roundup Submissions</strong>
+            <span>Submit to Expertise.com, HomeGuide, iPropertyManagement "Best of OC" lists</span>
+          </div>
+        </div>
+        <div class="fix-item">
+          <span class="fix-num green">08</span>
+          <div class="fix-text">
+            <strong>LinkedIn Thought Leadership</strong>
+            <span>Weekly landlord tips from Kyle. Builds brand search volume + P5 voice signals.</span>
+          </div>
+        </div>
+        <div class="fix-item">
+          <span class="fix-num green">09</span>
+          <div class="fix-text">
+            <strong>OC Rental Market Report</strong>
+            <span>Annual proprietary data report — drives backlinks + co-citation anchors</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="fix-result">
+      <div class="fix-result-card">
+        <div class="fix-result-val">+26 pts</div>
+        <div class="fix-result-label">Projected AERO-10 Gain</div>
+      </div>
+      <div class="fix-result-card">
+        <div class="fix-result-val">90 days</div>
+        <div class="fix-result-label">Time to Measurable AI Presence</div>
+      </div>
+      <div class="fix-result-card">
+        <div class="fix-result-val">$140K+</div>
+        <div class="fix-result-label">Annual Revenue Unlocked</div>
+      </div>
+    </div>
+  </div>
+  <div class="slide-footer">
+    <span class="footer-logo">The Answer Engine</span>
+    <span>AERO-10 Intelligence Brief &middot; TrueDoor Property Management</span>
+    <span>theanswerengine.ai</span>
+  </div>
+</section>
+
+<!-- ================================================
+     SLIDE 7 — CTA
+================================================ -->
+<section class="slide grid-bg" id="slide7">
+  <div class="glow-orange" style="top:50%; left:50%; transform:translate(-50%,-50%); width:900px; height:900px;"></div>
+  <div class="slide-num">07 / 07</div>
+  <div class="slide-inner" style="text-align:center;">
+    <span class="eyebrow" style="justify-content:center; display:flex;">◉ Next Step // Schedule Your Strategy Session</span>
+    <h2 class="cta-headline">
+      <span class="line1">Own Irvine's</span>
+      <span class="line2">AI Results</span>
+      <span class="line3">Now</span>
+    </h2>
+    <p class="cta-sub">
+      TrueDoor has every structural advantage to dominate Orange County's AI search results.
+      The 26-point gap closes in 90 days. Let's map the exact plan for your portfolio.
+    </p>
+    <div class="cta-buttons">
+      <a href="https://theanswerengine.ai/blindspot" class="btn-primary">
+        Get Your Full Strategy &rarr;
+      </a>
+      <a href="tel:+12134442229" class="btn-secondary">
+        (213) 444-2229
+      </a>
+    </div>
+    <div class="cta-detail">
+      theanswerengine.ai &nbsp;&middot;&nbsp; Answer Engine Optimization &nbsp;&middot;&nbsp; Irvine, Orange County &amp; Beyond
+    </div>
+  </div>
+  <div class="slide-footer">
+    <span class="footer-logo">The Answer Engine</span>
+    <span>AERO-10 Intelligence Brief &middot; TrueDoor Property Management &middot; April 2026</span>
+    <span>Confidential</span>
+  </div>
+</section>
+
+<script>
+  const slides = document.querySelectorAll('.slide');
+  const dots = document.querySelectorAll('.nav-dot');
+
+  function goTo(index) {
+    slides[index].scrollIntoView({ behavior: 'smooth' });
+  }
+
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        const index = Array.from(slides).indexOf(entry.target);
+        dots.forEach((d, i) => d.classList.toggle('active', i === index));
+      }
+    });
+  }, { threshold: 0.5 });
+
+  slides.forEach(s => observer.observe(s));
+</script>
+
+</body>
+</html>
