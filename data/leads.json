@@ -2083,7 +2083,7 @@
     "reviewCount": 76,
     "rating": 5,
     "notes": "Auto-discovered by Lead Hunter. AI citation: not cited on 1/1 platforms. Competitors cited: Smile LA Downtown Modern Dentistry, Downtown Dental, Larchmont Dental Associates. Outreach-ready: YES (citation data + contact + differentiator verified). Differentiator: Over 20 years experience, 5.0-star rating, specializes in cosmetic and restorative dentistry, known for patient comfort and educational approach",
-    "status": "sent",
+    "status": "follow_up_1",
     "research": {
       "reviewCount": 76,
       "rating": 5,
@@ -2192,10 +2192,14 @@
       {
         "action": "Initial email auto-sent via Gmail (19da2b74e750cc63)",
         "timestamp": "2026-04-18T22:30:15.573Z"
+      },
+      {
+        "action": "follow_up_1 auto-sent via Gmail (19db5ebfeee95f56)",
+        "timestamp": "2026-04-22T16:00:37.118Z"
       }
     ],
     "createdAt": "2026-03-09T02:38:32.048Z",
-    "updatedAt": "2026-04-18T22:30:15.573Z",
+    "updatedAt": "2026-04-22T16:00:37.259Z",
     "huntSource": "hunt_1773023618468_oxni",
     "huntScore": 38,
     "huntPriority": "P1",
