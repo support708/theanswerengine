@@ -158,5 +158,12 @@
     "reviewCount": 274,
     "score": 62,
     "topCompetitor": "NassifMD Medical Spa"
+  },
+  "roof-repair-specialist-x8rm": {
+    "businessName": "Roof Repair Specialist",
+    "serviceNiche": "Roofing Contractor",
+    "reviewCount": 705,
+    "score": 66,
+    "topCompetitor": "Bilt-well Roofing"
   }
 }

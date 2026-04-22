@@ -4215,23 +4215,130 @@
     "city": "Los Angeles",
     "serviceNiche": "Roofing Contractor",
     "competitorName": "Bilt-well Roofing",
-    "reviewCount": null,
-    "rating": null,
+    "reviewCount": 705,
+    "rating": 4.8,
     "notes": "Auto-discovered by Lead Hunter. AI citation: not cited on 1/1 platforms. Competitors cited: Bilt-well Roofing, J and J Roofing, Smart Roofing. Outreach-ready: YES (citation data + contact + differentiator verified). Differentiator: Family-owned, over 10 years in business, specializes in leak repairs and free estimates",
-    "status": "queued",
-    "research": null,
+    "status": "report_ready",
+    "research": {
+      "reviewCount": 705,
+      "rating": 4.8,
+      "yearsInBusiness": 15,
+      "credentials": [
+        "C-39 Roofing License",
+        "Workers Compensation Insurance (1 Million)",
+        "General Liability Insurance (2 Million Aggregate)",
+        "Commercial Auto Insurance (500k)",
+        "License Bond",
+        "BBB Accredited A+ Rating"
+      ],
+      "awards": [
+        "BBB A+ Accredited Business",
+        "4.9-star Google Rating (157 reviews)",
+        "4.8-star Yelp Rating (705 reviews)",
+        "Featured in Yahoo Local Top Roofers",
+        "Featured in HomeGuide Best Roofers"
+      ],
+      "communityInvolvement": [
+        "Serves residential, commercial, and HOA properties",
+        "Projects ranging from small garage leaks to 200-unit HOA complexes"
+      ],
+      "hiddenDifferentiators": [
+        "Founded by brothers Andre and Chris Afsharian (family-founded 2011)",
+        "20-year workmanship warranty on asphalt shingle installations",
+        "No deposit required for jobs under 30,000",
+        "Ongoing monthly training sessions for roofers on best practices",
+        "In-house trained and experienced installers",
+        "Free estimates with in-person inspection approach"
+      ],
+      "topCompetitors": [
+        {
+          "name": "Bilt-Well Roofing",
+          "reason": "90+ years in business, family-owned, 130,600+ roofs completed, extensive service area"
+        },
+        {
+          "name": "J and J Roofing",
+          "reason": "25+ years in business, 300+ years combined experience, 5-star rated, large service area"
+        },
+        {
+          "name": "Smart Roofing",
+          "reason": "CA license 1067452, experienced team, residential and commercial services, strong Yelp presence"
+        }
+      ],
+      "faqContentPresent": false,
+      "blogPresent": true,
+      "gmbPresent": true,
+      "schemaDetected": true,
+      "recentContent": true,
+      "uniqueStory": "Founded in 2011 by brothers Andre and Chris Afsharian, Roof Repair Specialist built their business on customer service priority. Starting with roof repairs, they expanded to replacements, maintenance, and Roof Maxx. Their family-owned approach emphasizes honesty, transparency, and quality workmanship with continuous training for roofers.",
+      "aiCited": false,
+      "aero7": {
+        "answerQuality": 7,
+        "entityOptimization": 6,
+        "relevanceFreshness": 8,
+        "optimizationStructure": 7,
+        "voiceAuthenticity": 8,
+        "authoritySignals": 8,
+        "authorityDistribution": 7,
+        "consensusCoCitation": 6,
+        "platformReadiness": 5,
+        "technicalAccessibility": 4,
+        "total": 66
+      },
+      "rawNotes": "Roof Repair Specialist operates as a local Los Angeles roofing contractor with strong foundational presence. Site content is recent (August 2024 updates), includes a blog with roofing tips, and features multiple customer testimonials embedded throughout. Website structure is solid with service pages, about page, contact page, and blog. BBB accreditation and 4.8/4.9 star ratings across Yelp and Google demonstrate strong authority. However, no dedicated FAQ page detected, limiting direct answer snippet optimization for AI. Family-owned differentiator is clearly positioned. Blog exists but appears moderately developed. Schema markup detected on site (local business, service pages). Not appearing in top AI search results (Perplexity, ChatGPT) for 'best roofing contractor Los Angeles' queries; Bilt-Well Roofing, J and J Roofing, and other competitors with longer track records dominate. Cannot verify robots.txt bot access without direct technical access. NAP consistency verified across Yelp (811 Wilshire Blvd, Fl 17, Los Angeles, CA 90017, (323) 615-3011) vs website (same address). Multi-platform presence includes Yelp, BBB, Google Business (multiple locations: Burbank and Los Angeles), ProjectMapIt, Angi, HomeGuide citations. Lacks significant Reddit or LinkedIn presence. Content is authentic with named team members (Scott, Samuel, Jorge, Noah, Chris, Chris Afsharian). Site quality is professional with good photography and customer stories. Over 10 years in business claim verified (founded 2011). Free estimates and leak repair specialization confirmed. Weakness: Limited AI platform visibility despite strong local authority and credentials. Platform-readiness appears moderate due to lack of FAQ optimization and limited explicit third-party AI platform citations.",
+      "researchedAt": "2026-04-22T05:00:53.602Z"
+    },
     "reportSlug": "roof-repair-specialist-x8rm",
     "emailDraftId": null,
-    "fabricationFlags": [],
-    "emDashClean": false,
+    "fabricationFlags": [
+      "Unverified claim: \"$2\" (not found in research data)",
+      "Unverified claim: \"$30,000\" (not found in research data)",
+      "Unverified claim: \"$30,000\" (not found in research data)",
+      "Unverified claim: \"$2\" (not found in research data)",
+      "Unverified claim: \"$2\" (not found in research data)",
+      "Unverified claim: \"$1\" (not found in research data)",
+      "Unverified claim: \"$500\" (not found in research data)"
+    ],
+    "emDashClean": true,
     "actionLog": [
       {
         "action": "Queued by Lead Hunter (P2, score: 26, outreach-ready: true)",
         "timestamp": "2026-04-09T14:00:57.391Z"
+      },
+      {
+        "action": "Research started (auto-pipeline)",
+        "timestamp": "2026-04-22T05:00:25.074Z"
+      },
+      {
+        "action": "Research completed (AERO-10: 66/100)",
+        "timestamp": "2026-04-22T05:00:53.602Z"
+      },
+      {
+        "action": "Report generation started",
+        "timestamp": "2026-04-22T05:00:53.602Z"
+      },
+      {
+        "action": "Competitor battlecard attached",
+        "timestamp": "2026-04-22T05:02:40.542Z"
+      },
+      {
+        "action": "Report generated",
+        "timestamp": "2026-04-22T05:02:40.542Z"
+      },
+      {
+        "action": "Fabrication scan: 7 flags",
+        "timestamp": "2026-04-22T05:02:40.542Z"
+      },
+      {
+        "action": "Em-dash scan: CLEAN",
+        "timestamp": "2026-04-22T05:02:40.542Z"
+      },
+      {
+        "action": "Report + OG metadata deployed to production",
+        "timestamp": "2026-04-22T05:02:40.665Z"
       }
     ],
     "createdAt": "2026-04-09T14:00:57.391Z",
-    "updatedAt": "2026-04-09T14:00:57.391Z",
+    "updatedAt": "2026-04-22T05:02:40.542Z",
     "huntSource": "hunt_1775743210629_lqp4",
     "huntScore": 26,
     "huntPriority": "P2",
