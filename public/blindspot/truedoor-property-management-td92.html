@@ -744,9 +744,244 @@
   }
 
   /* ================================
-     SLIDE 8 — CTA + NEXT STEPS
+     SLIDE 8 — HOW IT COMPOUNDS
   ================================ */
-  #slide8 { background: var(--bg-alt); text-align: center; }
+  #slide8 { background: var(--bg-alt); }
+
+  .growth-chart {
+    max-width: 840px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 28px;
+    margin-bottom: 18px;
+  }
+  .growth-bars {
+    display: flex;
+    flex-direction: column;
+    gap: 9px;
+  }
+  .growth-row {
+    display: grid;
+    grid-template-columns: 68px 1fr 90px;
+    gap: 10px;
+    align-items: center;
+  }
+  .growth-month-label {
+    font-family: 'DM Mono', monospace;
+    font-size: 9px;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: var(--muted);
+  }
+  .growth-row.inflect .growth-month-label { color: var(--orange); }
+  .growth-track {
+    background: rgba(255,255,255,0.04);
+    border: 1px solid var(--border);
+    height: 10px;
+    position: relative;
+  }
+  .growth-row.inflect .growth-track { border-color: rgba(255,106,0,0.4); }
+  .growth-fill {
+    position: absolute;
+    left: 0; top: 0; bottom: 0;
+    background: linear-gradient(90deg, var(--orange) 0%, rgba(255,106,0,0.55) 100%);
+  }
+  .growth-stat {
+    font-family: 'DM Mono', monospace;
+    font-size: 9px;
+    letter-spacing: 0.1em;
+    color: var(--muted);
+    text-align: right;
+    white-space: nowrap;
+  }
+  .growth-row.inflect .growth-stat { color: var(--orange); }
+  .inflect-badge {
+    display: inline-block;
+    background: var(--orange);
+    color: #000;
+    font-family: 'DM Mono', monospace;
+    font-size: 7px;
+    font-weight: 700;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    padding: 1px 5px;
+    margin-right: 4px;
+    vertical-align: middle;
+  }
+
+  .phase-right {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .phase-block {
+    padding: 13px 15px;
+    border: 1px solid var(--border);
+    background: rgba(255,255,255,0.02);
+  }
+  .phase-block.active {
+    border-color: rgba(255,106,0,0.5);
+    background: var(--orange-dim);
+  }
+  .phase-block-label {
+    font-family: 'DM Mono', monospace;
+    font-size: 8px;
+    letter-spacing: 0.22em;
+    text-transform: uppercase;
+    color: var(--muted);
+    margin-bottom: 5px;
+  }
+  .phase-block.active .phase-block-label { color: var(--orange); }
+  .phase-block-title {
+    font-family: 'Space Grotesk', sans-serif;
+    font-weight: 700;
+    font-size: 13px;
+    letter-spacing: -0.01em;
+    color: var(--text);
+    margin-bottom: 4px;
+  }
+  .phase-block-body {
+    font-size: 11px;
+    color: var(--muted);
+    line-height: 1.5;
+    font-weight: 300;
+  }
+
+  .workflow-strip {
+    max-width: 840px;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 0;
+  }
+  .workflow-step {
+    padding: 11px 13px;
+    border: 1px solid var(--border);
+    border-right: none;
+    background: rgba(255,255,255,0.015);
+    text-align: center;
+  }
+  .workflow-step:last-child {
+    border-right: 1px solid rgba(255,106,0,0.3);
+    border-color: rgba(255,106,0,0.3);
+    background: var(--orange-dim);
+  }
+  .workflow-step-icon {
+    font-family: 'Space Grotesk', sans-serif;
+    font-weight: 900;
+    font-size: 14px;
+    letter-spacing: -0.02em;
+    color: var(--orange);
+    line-height: 1;
+    margin-bottom: 5px;
+  }
+  .workflow-step-body {
+    font-size: 10px;
+    color: var(--muted);
+    line-height: 1.45;
+    font-weight: 300;
+  }
+  .workflow-step:last-child .workflow-step-body { color: rgba(229,226,225,0.7); }
+
+  .article-split {
+    max-width: 840px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 8px;
+    margin-top: 14px;
+  }
+  .article-type {
+    padding: 10px 12px;
+    border: 1px solid var(--border);
+    background: rgba(255,255,255,0.02);
+  }
+  .article-type-count {
+    font-family: 'Space Grotesk', sans-serif;
+    font-weight: 900;
+    font-size: 22px;
+    letter-spacing: -0.03em;
+    color: var(--orange);
+    line-height: 1;
+    margin-bottom: 3px;
+  }
+  .article-type-label {
+    font-family: 'DM Mono', monospace;
+    font-size: 9px;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: var(--muted);
+    margin-bottom: 4px;
+  }
+  .article-type-example {
+    font-size: 10px;
+    color: rgba(229,226,225,0.35);
+    font-style: italic;
+    line-height: 1.4;
+  }
+
+  /* ================================
+     SLIDE 9 — CTA + NEXT STEPS
+  ================================ */
+  #slide9 { background: var(--bg); text-align: center; }
+
+  /* ================================
+     EDUCATION SLIDE EXTRAS
+  ================================ */
+  .ai-quote {
+    background: var(--orange-dim);
+    border-left: 3px solid var(--orange);
+    padding: 14px 18px;
+    margin: 12px 0 16px;
+    max-width: 840px;
+    font-size: 14px;
+    line-height: 1.6;
+    color: rgba(229,226,225,0.88);
+    font-weight: 300;
+    font-style: normal;
+  }
+  .ai-quote strong { color: var(--orange); font-weight: 700; }
+
+  .commit-strip {
+    max-width: 840px;
+    display: grid;
+    grid-template-columns: 1fr 1.4fr 1fr;
+    gap: 0;
+    margin-top: 14px;
+  }
+  .commit-block {
+    padding: 14px 16px;
+    border: 1px solid var(--border);
+    border-right: none;
+    background: rgba(255,255,255,0.015);
+  }
+  .commit-block:last-child { border-right: 1px solid var(--border); }
+  .commit-block.commit-highlight {
+    border: 1px solid rgba(255,106,0,0.5);
+    background: var(--orange-dim);
+  }
+  .commit-label {
+    font-family: 'DM Mono', monospace;
+    font-size: 8px;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: var(--muted);
+    margin-bottom: 5px;
+  }
+  .commit-highlight .commit-label { color: var(--orange); }
+  .commit-title {
+    font-family: 'Space Grotesk', sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    letter-spacing: -0.01em;
+    color: var(--text);
+    margin-bottom: 5px;
+  }
+  .commit-highlight .commit-title { color: var(--orange); }
+  .commit-body {
+    font-size: 10px;
+    color: var(--muted);
+    line-height: 1.5;
+    font-weight: 300;
+  }
 
   .cta-headline {
     font-family: 'Space Grotesk', sans-serif;
@@ -876,10 +1111,11 @@
   <button class="nav-dot" onclick="goTo(1)" title="Proof"></button>
   <button class="nav-dot" onclick="goTo(2)" title="Queries"></button>
   <button class="nav-dot" onclick="goTo(3)" title="Gap"></button>
-  <button class="nav-dot" onclick="goTo(4)" title="Money"></button>
-  <button class="nav-dot" onclick="goTo(5)" title="Score"></button>
+  <button class="nav-dot" onclick="goTo(4)" title="Score"></button>
+  <button class="nav-dot" onclick="goTo(5)" title="Money"></button>
   <button class="nav-dot" onclick="goTo(6)" title="Fix"></button>
-  <button class="nav-dot" onclick="goTo(7)" title="CTA"></button>
+  <button class="nav-dot" onclick="goTo(7)" title="Growth"></button>
+  <button class="nav-dot" onclick="goTo(8)" title="CTA"></button>
 </nav>
 
 <!-- ================================================
@@ -887,7 +1123,7 @@
 ================================================ -->
 <section class="slide grid-bg" id="slide1">
   <div class="glow-orange" style="top:-200px; right:-200px;"></div>
-  <div class="slide-num">01 / 08</div>
+  <div class="slide-num">01 / 09</div>
   <div class="slide-inner">
     <span class="eyebrow">&#9711; AERO-10 Intelligence Brief // TrueDoor Property Management</span>
     <h1 class="champ-headline" style="font-size: clamp(48px, 8vw, 88px);">
@@ -930,7 +1166,7 @@
 ================================================ -->
 <section class="slide" id="slide2">
   <div class="glow-orange" style="bottom:-300px; left:-200px;"></div>
-  <div class="slide-num">02 / 08</div>
+  <div class="slide-num">02 / 09</div>
   <div class="slide-inner">
     <span class="eyebrow">&#9711; AI Visibility Test // What Landlords Actually See</span>
     <h2 class="slide-headline">
@@ -1001,7 +1237,7 @@
 ================================================ -->
 <section class="slide" id="slide3">
   <div class="glow-orange" style="top:-100px; left:-200px;"></div>
-  <div class="slide-num">03 / 08</div>
+  <div class="slide-num">03 / 09</div>
   <div class="slide-inner">
     <span class="eyebrow">&#9711; Query Intelligence // 10 Searches TrueDoor Must Own</span>
     <h2 class="slide-headline">
@@ -1132,7 +1368,7 @@
 ================================================ -->
 <section class="slide" id="slide4">
   <div class="glow-orange" style="top:-100px; right:-300px;"></div>
-  <div class="slide-num">04 / 08</div>
+  <div class="slide-num">04 / 09</div>
   <div class="slide-inner">
     <span class="eyebrow">&#9711; Competitive Gap // TrueDoor vs. HCM Property Management</span>
     <h2 class="slide-headline">Where the <span class="accent">AI Gap</span> Lives</h2>
@@ -1272,10 +1508,94 @@
 </section>
 
 <!-- ================================================
-     SLIDE 5 — MONEY MATH
+     SLIDE 5 — AERO-10 SCORECARD
 ================================================ -->
 <section class="slide" id="slide5">
-  <div class="slide-num">05 / 08</div>
+  <div class="slide-num">05 / 09</div>
+  <div class="slide-inner">
+    <span class="eyebrow">&#9711; AERO-10 Framework // 10-Pillar AI Visibility Score</span>
+
+    <div class="score-header">
+      <div>
+        <div class="score-big">53</div>
+      </div>
+      <div>
+        <div class="score-denom">/100</div>
+        <div class="score-grade">Grade: C &mdash; Below Market Average</div>
+        <div class="score-context">
+          OC PM market average: ~65/100. HCM: 79/100.
+          P6 downgraded: BBB C+ confirmed from live search.
+          P8 upgraded: TrueDoor does appear in Yelp, Expertise, HomeGuide roundups.
+          26-point gap &mdash; all recoverable. No OC PM company has AI Overview dominance yet.
+        </div>
+      </div>
+    </div>
+
+    <div class="pillar-list">
+      <div class="pillar-row">
+        <div class="pillar-label">P1 &middot; Answer Quality</div>
+        <div class="pillar-track"><div class="pillar-fill mid" style="width:60%;"></div></div>
+        <div class="pillar-score mid">6/10</div>
+      </div>
+      <div class="pillar-row">
+        <div class="pillar-label">P2 &middot; Entity Optimization</div>
+        <div class="pillar-track"><div class="pillar-fill low" style="width:50%;"></div></div>
+        <div class="pillar-score low">5/10</div>
+      </div>
+      <div class="pillar-row">
+        <div class="pillar-label">P3 &middot; Relevance &amp; Freshness</div>
+        <div class="pillar-track"><div class="pillar-fill mid" style="width:60%;"></div></div>
+        <div class="pillar-score mid">6/10</div>
+      </div>
+      <div class="pillar-row">
+        <div class="pillar-label">P4 &middot; Optimization Structure</div>
+        <div class="pillar-track"><div class="pillar-fill low" style="width:40%;"></div></div>
+        <div class="pillar-score low">4/10</div>
+      </div>
+      <div class="pillar-row">
+        <div class="pillar-label">P5 &middot; Voice &amp; Authenticity</div>
+        <div class="pillar-track"><div class="pillar-fill mid" style="width:70%;"></div></div>
+        <div class="pillar-score mid">7/10</div>
+      </div>
+      <div class="pillar-row">
+        <div class="pillar-label">P6 &middot; Authority Signals</div>
+        <div class="pillar-track"><div class="pillar-fill low" style="width:30%;"></div></div>
+        <div class="pillar-score low">3/10</div>
+      </div>
+      <div class="pillar-row">
+        <div class="pillar-label">P7 &middot; Authority Distribution</div>
+        <div class="pillar-track"><div class="pillar-fill low" style="width:50%;"></div></div>
+        <div class="pillar-score low">5/10</div>
+      </div>
+      <div class="pillar-row">
+        <div class="pillar-label">P8 &middot; Consensus &amp; Co-Citation</div>
+        <div class="pillar-track"><div class="pillar-fill low" style="width:40%;"></div></div>
+        <div class="pillar-score low">4/10</div>
+      </div>
+      <div class="pillar-row">
+        <div class="pillar-label">P9 &middot; Platform Readiness</div>
+        <div class="pillar-track"><div class="pillar-fill mid" style="width:60%;"></div></div>
+        <div class="pillar-score mid">6/10</div>
+      </div>
+      <div class="pillar-row">
+        <div class="pillar-label">P10 &middot; Technical AI Accessibility</div>
+        <div class="pillar-track"><div class="pillar-fill mid" style="width:70%;"></div></div>
+        <div class="pillar-score mid">7/10</div>
+      </div>
+    </div>
+  </div>
+  <div class="slide-footer">
+    <span class="footer-logo">The Answer Engine</span>
+    <span>AERO-10 Intelligence Brief &middot; TrueDoor Property Management</span>
+    <span>theanswerengine.ai</span>
+  </div>
+</section>
+
+<!-- ================================================
+     SLIDE 6 — REVENUE MATH
+================================================ -->
+<section class="slide" id="slide6">
+  <div class="slide-num">06 / 09</div>
   <div class="slide-inner">
     <span class="eyebrow">&#9711; Revenue Impact // What the Invisibility Gap Costs</span>
     <h2 class="slide-headline">The <span class="accent">$140K</span> Gap</h2>
@@ -1367,95 +1687,11 @@
 </section>
 
 <!-- ================================================
-     SLIDE 6 — AERO-10 SCORECARD
-================================================ -->
-<section class="slide" id="slide6">
-  <div class="slide-num">06 / 08</div>
-  <div class="slide-inner">
-    <span class="eyebrow">&#9711; AERO-10 Framework // 10-Pillar AI Visibility Score</span>
-
-    <div class="score-header">
-      <div>
-        <div class="score-big">53</div>
-      </div>
-      <div>
-        <div class="score-denom">/100</div>
-        <div class="score-grade">Grade: C &mdash; Below Market Average</div>
-        <div class="score-context">
-          OC PM market average: ~65/100. HCM: 79/100.
-          P6 downgraded: BBB C+ confirmed from live search.
-          P8 upgraded: TrueDoor does appear in Yelp, Expertise, HomeGuide roundups.
-          26-point gap &mdash; all recoverable. No OC PM company has AI Overview dominance yet.
-        </div>
-      </div>
-    </div>
-
-    <div class="pillar-list">
-      <div class="pillar-row">
-        <div class="pillar-label">P1 &middot; Answer Quality</div>
-        <div class="pillar-track"><div class="pillar-fill mid" style="width:60%;"></div></div>
-        <div class="pillar-score mid">6/10</div>
-      </div>
-      <div class="pillar-row">
-        <div class="pillar-label">P2 &middot; Entity Optimization</div>
-        <div class="pillar-track"><div class="pillar-fill low" style="width:50%;"></div></div>
-        <div class="pillar-score low">5/10</div>
-      </div>
-      <div class="pillar-row">
-        <div class="pillar-label">P3 &middot; Relevance &amp; Freshness</div>
-        <div class="pillar-track"><div class="pillar-fill mid" style="width:60%;"></div></div>
-        <div class="pillar-score mid">6/10</div>
-      </div>
-      <div class="pillar-row">
-        <div class="pillar-label">P4 &middot; Optimization Structure</div>
-        <div class="pillar-track"><div class="pillar-fill low" style="width:40%;"></div></div>
-        <div class="pillar-score low">4/10</div>
-      </div>
-      <div class="pillar-row">
-        <div class="pillar-label">P5 &middot; Voice &amp; Authenticity</div>
-        <div class="pillar-track"><div class="pillar-fill mid" style="width:70%;"></div></div>
-        <div class="pillar-score mid">7/10</div>
-      </div>
-      <div class="pillar-row">
-        <div class="pillar-label">P6 &middot; Authority Signals</div>
-        <div class="pillar-track"><div class="pillar-fill low" style="width:30%;"></div></div>
-        <div class="pillar-score low">3/10</div>
-      </div>
-      <div class="pillar-row">
-        <div class="pillar-label">P7 &middot; Authority Distribution</div>
-        <div class="pillar-track"><div class="pillar-fill low" style="width:50%;"></div></div>
-        <div class="pillar-score low">5/10</div>
-      </div>
-      <div class="pillar-row">
-        <div class="pillar-label">P8 &middot; Consensus &amp; Co-Citation</div>
-        <div class="pillar-track"><div class="pillar-fill low" style="width:40%;"></div></div>
-        <div class="pillar-score low">4/10</div>
-      </div>
-      <div class="pillar-row">
-        <div class="pillar-label">P9 &middot; Platform Readiness</div>
-        <div class="pillar-track"><div class="pillar-fill mid" style="width:60%;"></div></div>
-        <div class="pillar-score mid">6/10</div>
-      </div>
-      <div class="pillar-row">
-        <div class="pillar-label">P10 &middot; Technical AI Accessibility</div>
-        <div class="pillar-track"><div class="pillar-fill mid" style="width:70%;"></div></div>
-        <div class="pillar-score mid">7/10</div>
-      </div>
-    </div>
-  </div>
-  <div class="slide-footer">
-    <span class="footer-logo">The Answer Engine</span>
-    <span>AERO-10 Intelligence Brief &middot; TrueDoor Property Management</span>
-    <span>theanswerengine.ai</span>
-  </div>
-</section>
-
-<!-- ================================================
      SLIDE 7 — THE FIX (AE SERVICE)
 ================================================ -->
 <section class="slide" id="slide7">
   <div class="glow-orange" style="bottom:-200px; right:-200px;"></div>
-  <div class="slide-num">07 / 08</div>
+  <div class="slide-num">07 / 09</div>
   <div class="slide-inner">
     <span class="eyebrow">&#9711; AE Engagement // Content That Gets Views and Calls</span>
     <h2 class="slide-headline">We Build It. <span class="accent">AI Sends the Calls.</span></h2>
@@ -1572,11 +1808,153 @@
 </section>
 
 <!-- ================================================
-     SLIDE 8 — CTA + WHAT HAPPENS NEXT
+     SLIDE 8 — HOW IT WORKS / COMPOUND EFFECT
 ================================================ -->
-<section class="slide grid-bg" id="slide8">
+<section class="slide" id="slide8">
+  <div class="glow-orange" style="top:-150px; left:-150px; width:500px; height:500px; opacity:0.35;"></div>
+  <div class="slide-num">08 / 09</div>
+  <div class="slide-inner">
+    <span class="eyebrow">&#9711; HOW IT WORKS // The Compound Content Effect</span>
+    <h2 class="slide-headline">16 Articles a Month. <span class="accent">Permanent AI Presence.</span></h2>
+
+    <blockquote class="ai-quote">
+      Every ad you run disappears the second you stop paying. Every article we publish lives permanently in AI&rsquo;s memory &mdash; cited, referenced, and driving calls around the clock. <strong>This isn&rsquo;t ad spend. It&rsquo;s AI infrastructure that compounds forever.</strong>
+    </blockquote>
+
+    <div class="growth-chart">
+      <div class="growth-bars">
+        <div class="growth-row">
+          <div class="growth-month-label">Month 1</div>
+          <div class="growth-track"><div class="growth-fill" style="width:5%"></div></div>
+          <div class="growth-stat">Foundation</div>
+        </div>
+        <div class="growth-row">
+          <div class="growth-month-label">Month 2</div>
+          <div class="growth-track"><div class="growth-fill" style="width:12%"></div></div>
+          <div class="growth-stat">Schema Live</div>
+        </div>
+        <div class="growth-row">
+          <div class="growth-month-label">Month 3</div>
+          <div class="growth-track"><div class="growth-fill" style="width:22%"></div></div>
+          <div class="growth-stat">First Citations</div>
+        </div>
+        <div class="growth-row inflect">
+          <div class="growth-month-label"><span class="inflect-badge">Inflect</span>Mo 4</div>
+          <div class="growth-track"><div class="growth-fill" style="width:45%"></div></div>
+          <div class="growth-stat">+180% Impressions</div>
+        </div>
+        <div class="growth-row">
+          <div class="growth-month-label">Month 5</div>
+          <div class="growth-track"><div class="growth-fill" style="width:58%"></div></div>
+          <div class="growth-stat">5+ Queries Owned</div>
+        </div>
+        <div class="growth-row">
+          <div class="growth-month-label">Month 6</div>
+          <div class="growth-track"><div class="growth-fill" style="width:70%"></div></div>
+          <div class="growth-stat">GSC Skyrockets</div>
+        </div>
+        <div class="growth-row">
+          <div class="growth-month-label">Month 12</div>
+          <div class="growth-track"><div class="growth-fill" style="width:94%"></div></div>
+          <div class="growth-stat">Market Leader</div>
+        </div>
+      </div>
+      <div class="phase-right">
+        <div class="phase-block">
+          <div class="phase-block-label">Phase 1 &middot; M1&ndash;3</div>
+          <div class="phase-block-title">Foundation</div>
+          <div class="phase-block-body">Schema deploy, entity graph, pillar articles. AI systems begin indexing TrueDoor as an authoritative OC PM source.</div>
+        </div>
+        <div class="phase-block active">
+          <div class="phase-block-label">Phase 2 &middot; Month 4 &mdash; Inflection</div>
+          <div class="phase-block-title">Results Roll In</div>
+          <div class="phase-block-body">GSC impressions jump. First AI citations appear. Branded + geo queries start showing TrueDoor in AI Overviews.</div>
+        </div>
+        <div class="phase-block">
+          <div class="phase-block-label">Phase 3 &middot; M6&ndash;12</div>
+          <div class="phase-block-title">Compound Effect</div>
+          <div class="phase-block-body">80+ published assets. Each article boosts every other. Competitors scramble. Kyle gets monthly reports showing the takeover.</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="article-split">
+      <div class="article-type">
+        <div class="article-type-count">4</div>
+        <div class="article-type-label">Commercial</div>
+        <div class="article-type-example">"PM fees OC 2026" &middot; "best PM Irvine" &middot; conversion queries</div>
+      </div>
+      <div class="article-type">
+        <div class="article-type-count">4</div>
+        <div class="article-type-label">Educational</div>
+        <div class="article-type-example">tenant screening &middot; evictions &middot; first-time landlord guides</div>
+      </div>
+      <div class="article-type">
+        <div class="article-type-count">4</div>
+        <div class="article-type-label">Geographic</div>
+        <div class="article-type-example">Irvine &middot; Anaheim &middot; Tustin &middot; Newport Beach geo pages</div>
+      </div>
+      <div class="article-type">
+        <div class="article-type-count">4</div>
+        <div class="article-type-label">Authority</div>
+        <div class="article-type-example">OC Market Reports &middot; industry data &middot; roundup-bait content</div>
+      </div>
+    </div>
+
+    <div class="workflow-strip">
+      <div class="workflow-step">
+        <div class="workflow-step-icon">01</div>
+        <div class="workflow-step-body">AE researches &amp; writes all 16 articles</div>
+      </div>
+      <div class="workflow-step">
+        <div class="workflow-step-icon">02</div>
+        <div class="workflow-step-body">Kyle reviews &amp; approves (30 min/mo)</div>
+      </div>
+      <div class="workflow-step">
+        <div class="workflow-step-icon">03</div>
+        <div class="workflow-step-body">Published to WordPress &plus; schema deployed</div>
+      </div>
+      <div class="workflow-step">
+        <div class="workflow-step-icon">04</div>
+        <div class="workflow-step-body">AE tracks GSC &amp; AI citation growth</div>
+      </div>
+      <div class="workflow-step">
+        <div class="workflow-step-icon">05</div>
+        <div class="workflow-step-body">Monthly report: queries owned, calls attributed</div>
+      </div>
+    </div>
+
+    <div class="commit-strip">
+      <div class="commit-block">
+        <div class="commit-label">One-Time</div>
+        <div class="commit-title">Onboarding Fee</div>
+        <div class="commit-body">Platform setup &middot; entity graph &middot; schema deploy &middot; technical audit &middot; query map finalization</div>
+      </div>
+      <div class="commit-block commit-highlight">
+        <div class="commit-label">&#11088; 6-Month Program &mdash; Best Value</div>
+        <div class="commit-title">Pay 6 &rarr; Get Month 7 Free</div>
+        <div class="commit-body">16 articles/month &middot; GSC reporting &middot; query tracking &middot; Month 7 included at zero cost when paid upfront</div>
+      </div>
+      <div class="commit-block">
+        <div class="commit-label">Ongoing</div>
+        <div class="commit-title">Month-to-Month</div>
+        <div class="commit-body">After Month 7 &mdash; cancel anytime or keep compounding. Most clients never stop once the calls start rolling in.</div>
+      </div>
+    </div>
+  </div>
+  <div class="slide-footer">
+    <span class="footer-logo">The Answer Engine</span>
+    <span>AERO-10 Intelligence Brief &middot; TrueDoor Property Management</span>
+    <span>theanswerengine.ai</span>
+  </div>
+</section>
+
+<!-- ================================================
+     SLIDE 9 — CTA + WHAT HAPPENS NEXT
+================================================ -->
+<section class="slide grid-bg" id="slide9">
   <div class="glow-orange" style="top:50%; left:50%; transform:translate(-50%,-50%); width:900px; height:900px;"></div>
-  <div class="slide-num">08 / 08</div>
+  <div class="slide-num">09 / 09</div>
   <div class="slide-inner" style="text-align:center;">
     <span class="eyebrow" style="justify-content:center; display:flex;">&#9711; Next Step // Schedule Your Strategy Session</span>
     <h2 class="cta-headline">
