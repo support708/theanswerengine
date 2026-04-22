@@ -254,5 +254,20 @@
     "outreachReadyCount": 1,
     "errors": [],
     "completedAt": "2026-04-21T14:01:23.379Z"
+  },
+  {
+    "id": "hunt_1776866416164_5ely",
+    "startedAt": "2026-04-22T14:00:16.164Z",
+    "trigger": "cron_daily",
+    "vertical": "Personal Injury Attorney",
+    "metro": "Dallas, TX",
+    "prospectsFound": 10,
+    "p1Queued": 4,
+    "p2Queued": 3,
+    "p3Backlogged": 3,
+    "duplicatesSkipped": 0,
+    "outreachReadyCount": 7,
+    "errors": [],
+    "completedAt": "2026-04-22T14:01:12.351Z"
   }
 ]

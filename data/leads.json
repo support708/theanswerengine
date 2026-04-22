@@ -6453,5 +6453,323 @@
     ],
     "huntDifferentiator": "Established 2009, 20+ years combined experience, family-owned, BuildZoom top 1% score, motto 'Family First Integrity Follows', excellent communication reviews, solar installation services",
     "huntOutreachReady": true
+  },
+  {
+    "id": "lead_1776866472351_sydbl0",
+    "businessName": "Mullen & Mullen Law Firm",
+    "contactFirstName": "Regis",
+    "contactEmail": "info@mullenandmullen.com",
+    "websiteUrl": "https://www.mullenandmullen.com/",
+    "city": "Dallas",
+    "serviceNiche": "Personal Injury Attorney",
+    "competitorName": "Thompson Law",
+    "reviewCount": 560,
+    "rating": 4.9,
+    "notes": "Auto-discovered by Lead Hunter. AI citation: not cited on 0/1 platforms. Competitors cited: Thompson Law, Arnold & Itkin, Hamilton Wingo. Outreach-ready: YES (citation data + contact + differentiator verified). Differentiator: 40+ years in business, 104 years combined attorney experience, $800M+ in settlements, recognized by TopVerdict 44 times in Top 50 list, 29% contingency fee",
+    "status": "queued",
+    "research": null,
+    "reportSlug": "mullen-mullen-law-firm-0r3q",
+    "emailDraftId": null,
+    "fabricationFlags": [],
+    "emDashClean": false,
+    "actionLog": [
+      {
+        "action": "Queued by Lead Hunter (P1, score: 36, outreach-ready: true)",
+        "timestamp": "2026-04-22T14:01:12.351Z"
+      }
+    ],
+    "createdAt": "2026-04-22T14:01:12.351Z",
+    "updatedAt": "2026-04-22T14:01:12.351Z",
+    "huntSource": "hunt_1776866416164_5ely",
+    "huntScore": 36,
+    "huntPriority": "P1",
+    "huntCitationResults": [
+      {
+        "platform": "chatgpt",
+        "query": "best Personal Injury Attorney in Dallas",
+        "cited": true,
+        "competitorsCited": [
+          "Thompson Law",
+          "Arnold & Itkin",
+          "Hamilton Wingo",
+          "Witherite Law Group"
+        ]
+      }
+    ],
+    "huntDifferentiator": "40+ years in business, 104 years combined attorney experience, $800M+ in settlements, recognized by TopVerdict 44 times in Top 50 list, 29% contingency fee",
+    "huntOutreachReady": true
+  },
+  {
+    "id": "lead_1776866472351_53uc42",
+    "businessName": "Thompson Law",
+    "contactFirstName": "Ryan",
+    "contactEmail": "allintake@triallawyers.com",
+    "websiteUrl": "https://1800lionlaw.com/",
+    "city": "Dallas",
+    "serviceNiche": "Personal Injury Attorney",
+    "competitorName": "Mullen & Mullen Law Firm",
+    "reviewCount": 41,
+    "rating": 5,
+    "notes": "Auto-discovered by Lead Hunter. AI citation: not cited on 0/1 platforms. Competitors cited: Mullen & Mullen Law Firm, Arnold & Itkin, Hamilton Wingo. Outreach-ready: YES (citation data + contact + differentiator verified). Differentiator: $1.9 billion recovered, 350+ years combined experience, 24/7 availability, multi-state presence, national recognition",
+    "status": "queued",
+    "research": null,
+    "reportSlug": "thompson-law-q61y",
+    "emailDraftId": null,
+    "fabricationFlags": [],
+    "emDashClean": false,
+    "actionLog": [
+      {
+        "action": "Queued by Lead Hunter (P2, score: 32.5, outreach-ready: true)",
+        "timestamp": "2026-04-22T14:01:12.351Z"
+      }
+    ],
+    "createdAt": "2026-04-22T14:01:12.351Z",
+    "updatedAt": "2026-04-22T14:01:12.351Z",
+    "huntSource": "hunt_1776866416164_5ely",
+    "huntScore": 32.5,
+    "huntPriority": "P2",
+    "huntCitationResults": [
+      {
+        "platform": "chatgpt",
+        "query": "best Personal Injury Attorney in Dallas",
+        "cited": true,
+        "competitorsCited": [
+          "Mullen & Mullen Law Firm",
+          "Arnold & Itkin",
+          "Hamilton Wingo",
+          "Witherite Law Group"
+        ]
+      }
+    ],
+    "huntDifferentiator": "$1.9 billion recovered, 350+ years combined experience, 24/7 availability, multi-state presence, national recognition",
+    "huntOutreachReady": true
+  },
+  {
+    "id": "lead_1776866472351_6l85hy",
+    "businessName": "Montgomery Law",
+    "contactFirstName": "Sadat",
+    "contactEmail": "office@montgomeryfirm.com",
+    "websiteUrl": "https://www.montgomeryfirm.com/",
+    "city": "Dallas",
+    "serviceNiche": "Personal Injury Attorney",
+    "competitorName": "Mullen & Mullen Law Firm",
+    "reviewCount": 20,
+    "rating": 4.5,
+    "notes": "Auto-discovered by Lead Hunter. AI citation: not cited on 1/1 platforms. Competitors cited: Mullen & Mullen Law Firm, Thompson Law, Arnold & Itkin. Outreach-ready: YES (citation data + contact + differentiator verified). Differentiator: Rising Star Super Lawyers recognition, Dallas Best Car Accident Lawyer by Expertise, founder is SMU Law graduate",
+    "status": "queued",
+    "research": null,
+    "reportSlug": "montgomery-law-npvg",
+    "emailDraftId": null,
+    "fabricationFlags": [],
+    "emDashClean": false,
+    "actionLog": [
+      {
+        "action": "Queued by Lead Hunter (P1, score: 36.5, outreach-ready: true)",
+        "timestamp": "2026-04-22T14:01:12.351Z"
+      }
+    ],
+    "createdAt": "2026-04-22T14:01:12.351Z",
+    "updatedAt": "2026-04-22T14:01:12.351Z",
+    "huntSource": "hunt_1776866416164_5ely",
+    "huntScore": 36.5,
+    "huntPriority": "P1",
+    "huntCitationResults": [
+      {
+        "platform": "chatgpt",
+        "query": "best Personal Injury Attorney in Dallas",
+        "cited": false,
+        "competitorsCited": [
+          "Mullen & Mullen Law Firm",
+          "Thompson Law",
+          "Arnold & Itkin",
+          "Hamilton Wingo",
+          "Witherite Law Group"
+        ]
+      }
+    ],
+    "huntDifferentiator": "Rising Star Super Lawyers recognition, Dallas Best Car Accident Lawyer by Expertise, founder is SMU Law graduate",
+    "huntOutreachReady": true
+  },
+  {
+    "id": "lead_1776866472351_xzzsn2",
+    "businessName": "Witherite Law Group",
+    "contactFirstName": "Amy",
+    "contactEmail": "dl_marketing@witheritelaw.com",
+    "websiteUrl": "https://www.witheritelaw.com/",
+    "city": "Dallas",
+    "serviceNiche": "Personal Injury Attorney",
+    "competitorName": "Mullen & Mullen Law Firm",
+    "reviewCount": 1993,
+    "rating": 4.5,
+    "notes": "Auto-discovered by Lead Hunter. AI citation: not cited on 0/1 platforms. Competitors cited: Mullen & Mullen Law Firm, Thompson Law, Arnold & Itkin. Outreach-ready: YES (citation data + contact + differentiator verified). Differentiator: 1,993 reviews, 19 attorneys on Super Lawyers/Rising Stars lists, national presence in 4 states, $2M+ settlements demonstrated",
+    "status": "queued",
+    "research": null,
+    "reportSlug": "witherite-law-group-l2d5",
+    "emailDraftId": null,
+    "fabricationFlags": [],
+    "emDashClean": false,
+    "actionLog": [
+      {
+        "action": "Queued by Lead Hunter (P1, score: 36, outreach-ready: true)",
+        "timestamp": "2026-04-22T14:01:12.351Z"
+      }
+    ],
+    "createdAt": "2026-04-22T14:01:12.351Z",
+    "updatedAt": "2026-04-22T14:01:12.351Z",
+    "huntSource": "hunt_1776866416164_5ely",
+    "huntScore": 36,
+    "huntPriority": "P1",
+    "huntCitationResults": [
+      {
+        "platform": "chatgpt",
+        "query": "best Personal Injury Attorney in Dallas",
+        "cited": true,
+        "competitorsCited": [
+          "Mullen & Mullen Law Firm",
+          "Thompson Law",
+          "Arnold & Itkin",
+          "Hamilton Wingo"
+        ]
+      }
+    ],
+    "huntDifferentiator": "1,993 reviews, 19 attorneys on Super Lawyers/Rising Stars lists, national presence in 4 states, $2M+ settlements demonstrated",
+    "huntOutreachReady": true
+  },
+  {
+    "id": "lead_1776866472351_fexl62",
+    "businessName": "Franklin Law Firm",
+    "contactFirstName": "Jason",
+    "contactEmail": "jason.franklin@franklin-lawfirm.com",
+    "websiteUrl": "https://franklin-lawfirm.com/",
+    "city": "Dallas",
+    "serviceNiche": "Personal Injury Attorney",
+    "competitorName": "Mullen & Mullen Law Firm",
+    "reviewCount": null,
+    "rating": null,
+    "notes": "Auto-discovered by Lead Hunter. AI citation: not cited on 1/1 platforms. Competitors cited: Mullen & Mullen Law Firm, Thompson Law, Arnold & Itkin. Outreach-ready: YES (citation data + contact + differentiator verified). Differentiator: Established 2000, Jason Franklin is board certified in Personal Injury Trial Law, Super Lawyers recognition, President-Elect Dallas Trial Lawyers Association",
+    "status": "queued",
+    "research": null,
+    "reportSlug": "franklin-law-firm-ozpk",
+    "emailDraftId": null,
+    "fabricationFlags": [],
+    "emDashClean": false,
+    "actionLog": [
+      {
+        "action": "Queued by Lead Hunter (P2, score: 27.5, outreach-ready: true)",
+        "timestamp": "2026-04-22T14:01:12.351Z"
+      }
+    ],
+    "createdAt": "2026-04-22T14:01:12.351Z",
+    "updatedAt": "2026-04-22T14:01:12.351Z",
+    "huntSource": "hunt_1776866416164_5ely",
+    "huntScore": 27.5,
+    "huntPriority": "P2",
+    "huntCitationResults": [
+      {
+        "platform": "chatgpt",
+        "query": "best Personal Injury Attorney in Dallas",
+        "cited": false,
+        "competitorsCited": [
+          "Mullen & Mullen Law Firm",
+          "Thompson Law",
+          "Arnold & Itkin",
+          "Hamilton Wingo",
+          "Witherite Law Group"
+        ]
+      }
+    ],
+    "huntDifferentiator": "Established 2000, Jason Franklin is board certified in Personal Injury Trial Law, Super Lawyers recognition, President-Elect Dallas Trial Lawyers Association",
+    "huntOutreachReady": true
+  },
+  {
+    "id": "lead_1776866472351_y3ddx4",
+    "businessName": "Hamilton Wingo",
+    "contactFirstName": "Chris",
+    "contactEmail": "info@hamiltonwingo.com",
+    "websiteUrl": "https://www.hamiltonwingo.com/",
+    "city": "Dallas",
+    "serviceNiche": "Personal Injury Attorney",
+    "competitorName": "Mullen & Mullen Law Firm",
+    "reviewCount": 119,
+    "rating": 5,
+    "notes": "Auto-discovered by Lead Hunter. AI citation: not cited on 0/1 platforms. Competitors cited: Mullen & Mullen Law Firm, Thompson Law, Arnold & Itkin. Outreach-ready: YES (citation data + contact + differentiator verified). Differentiator: $10+ billion recovered, $7.37 billion verdict in 2022 (largest of year), named Best Personal Injury Law Firm Dallas 2 consecutive years",
+    "status": "queued",
+    "research": null,
+    "reportSlug": "hamilton-wingo-5tvy",
+    "emailDraftId": null,
+    "fabricationFlags": [],
+    "emDashClean": false,
+    "actionLog": [
+      {
+        "action": "Queued by Lead Hunter (P1, score: 36, outreach-ready: true)",
+        "timestamp": "2026-04-22T14:01:12.351Z"
+      }
+    ],
+    "createdAt": "2026-04-22T14:01:12.351Z",
+    "updatedAt": "2026-04-22T14:01:12.351Z",
+    "huntSource": "hunt_1776866416164_5ely",
+    "huntScore": 36,
+    "huntPriority": "P1",
+    "huntCitationResults": [
+      {
+        "platform": "chatgpt",
+        "query": "best Personal Injury Attorney in Dallas",
+        "cited": true,
+        "competitorsCited": [
+          "Mullen & Mullen Law Firm",
+          "Thompson Law",
+          "Arnold & Itkin",
+          "Witherite Law Group"
+        ]
+      }
+    ],
+    "huntDifferentiator": "$10+ billion recovered, $7.37 billion verdict in 2022 (largest of year), named Best Personal Injury Law Firm Dallas 2 consecutive years",
+    "huntOutreachReady": true
+  },
+  {
+    "id": "lead_1776866472351_xxbthe",
+    "businessName": "Trujillo Gonzalez",
+    "contactFirstName": "James",
+    "contactEmail": "service@tgtriallaw.com",
+    "websiteUrl": "https://tgtriallaw.com/",
+    "city": "Dallas",
+    "serviceNiche": "Personal Injury Attorney",
+    "competitorName": "Mullen & Mullen Law Firm",
+    "reviewCount": null,
+    "rating": null,
+    "notes": "Auto-discovered by Lead Hunter. AI citation: not cited on 1/1 platforms. Competitors cited: Mullen & Mullen Law Firm, Thompson Law, Arnold & Itkin. Outreach-ready: YES (citation data + contact + differentiator verified). Differentiator: Trial-tested strategies, hundreds of jury trial cases, thousands of successful settlements, Super Lawyers Rising Star recognition",
+    "status": "queued",
+    "research": null,
+    "reportSlug": "trujillo-gonzalez-21rc",
+    "emailDraftId": null,
+    "fabricationFlags": [],
+    "emDashClean": false,
+    "actionLog": [
+      {
+        "action": "Queued by Lead Hunter (P2, score: 27.5, outreach-ready: true)",
+        "timestamp": "2026-04-22T14:01:12.351Z"
+      }
+    ],
+    "createdAt": "2026-04-22T14:01:12.351Z",
+    "updatedAt": "2026-04-22T14:01:12.351Z",
+    "huntSource": "hunt_1776866416164_5ely",
+    "huntScore": 27.5,
+    "huntPriority": "P2",
+    "huntCitationResults": [
+      {
+        "platform": "chatgpt",
+        "query": "best Personal Injury Attorney in Dallas",
+        "cited": false,
+        "competitorsCited": [
+          "Mullen & Mullen Law Firm",
+          "Thompson Law",
+          "Arnold & Itkin",
+          "Hamilton Wingo",
+          "Witherite Law Group"
+        ]
+      }
+    ],
+    "huntDifferentiator": "Trial-tested strategies, hundreds of jury trial cases, thousands of successful settlements, Super Lawyers Rising Star recognition",
+    "huntOutreachReady": true
   }
 ]

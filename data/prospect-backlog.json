@@ -1282,5 +1282,115 @@
       "total": 26
     },
     "priority": "P2"
+  },
+  {
+    "businessName": "Arnold & Itkin",
+    "contactName": "Kurt Arnold",
+    "website": "https://www.arnolditkin.com/",
+    "phone": "(469) 208-5535",
+    "city": "Dallas",
+    "state": "TX",
+    "serviceNiche": "Personal Injury Attorney",
+    "painSignals": [
+      "Arnold & Itkin appears in AI recommendations but may have optimization gaps"
+    ],
+    "citationResults": [
+      {
+        "platform": "chatgpt",
+        "query": "best Personal Injury Attorney in Dallas",
+        "cited": true,
+        "competitorsCited": [
+          "Mullen & Mullen Law Firm",
+          "Thompson Law",
+          "Hamilton Wingo",
+          "Witherite Law Group"
+        ]
+      }
+    ],
+    "differentiator": "$25 billion won, record-setting $860M verdict in Dallas crane collapse, Texas Super Lawyer at age 34, operates in 50 states",
+    "outreachReady": true,
+    "scoreBreakdown": {
+      "aiBlindSpot": 5,
+      "reputationStrength": 0,
+      "contentGap": 6,
+      "revenuePotential": 7.5,
+      "contactQuality": 3,
+      "total": 21.5
+    },
+    "priority": "P3"
+  },
+  {
+    "businessName": "DFW Injury Lawyers",
+    "contactName": "Kevin Edwards",
+    "website": "https://www.dfwinjurylawyers.com/",
+    "phone": "(214) 296-9602",
+    "city": "Dallas",
+    "state": "TX",
+    "serviceNiche": "Personal Injury Attorney",
+    "painSignals": [
+      "DFW Injury Lawyers has multiple Google reviews but is not recommended by AI assistants for \"Personal Injury Attorney in Dallas\""
+    ],
+    "citationResults": [
+      {
+        "platform": "chatgpt",
+        "query": "best Personal Injury Attorney in Dallas",
+        "cited": false,
+        "competitorsCited": [
+          "Mullen & Mullen Law Firm",
+          "Thompson Law",
+          "Arnold & Itkin",
+          "Hamilton Wingo",
+          "Witherite Law Group"
+        ]
+      }
+    ],
+    "differentiator": "Trial-ready approach, rebranded from Edwards & de la Cerda, strong client testimonials, 24/7 availability",
+    "outreachReady": true,
+    "scoreBreakdown": {
+      "aiBlindSpot": 9,
+      "reputationStrength": 0,
+      "contentGap": 6,
+      "revenuePotential": 7.5,
+      "contactQuality": 3,
+      "total": 25.5
+    },
+    "priority": "P2"
+  },
+  {
+    "businessName": "The Wilhite Law Firm",
+    "contactName": "Robert (Rob) Wilhite",
+    "website": "https://www.wilhitelawfirm.com/",
+    "phone": "(214) 888-8080",
+    "city": "Dallas",
+    "state": "TX",
+    "serviceNiche": "Personal Injury Attorney",
+    "painSignals": [
+      "The Wilhite Law Firm has multiple Google reviews but is not recommended by AI assistants for \"Personal Injury Attorney in Dallas\""
+    ],
+    "citationResults": [
+      {
+        "platform": "chatgpt",
+        "query": "best Personal Injury Attorney in Dallas",
+        "cited": false,
+        "competitorsCited": [
+          "Mullen & Mullen Law Firm",
+          "Thompson Law",
+          "Arnold & Itkin",
+          "Hamilton Wingo",
+          "Witherite Law Group"
+        ]
+      }
+    ],
+    "differentiator": "Nearly 50 years in business (founded 1977), operates in Colorado and Texas, AV Preeminent rating 2025, Client Champion Gold badge",
+    "outreachReady": true,
+    "scoreBreakdown": {
+      "aiBlindSpot": 9,
+      "reputationStrength": 0,
+      "contentGap": 6,
+      "revenuePotential": 7.5,
+      "contactQuality": 3,
+      "total": 25.5
+    },
+    "priority": "P2"
   }
 ]
