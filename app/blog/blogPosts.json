@@ -1,5 +1,86 @@
 [
   {
+    "id": 216,
+    "title": "How B2B Companies Get Found on AI Search",
+    "slug": "how-b2b-companies-get-found-on-ai-search",
+    "excerpt": "B2B buyers are now using ChatGPT and Perplexity to research vendors before ever visiting a website. Here is how B2B companies build AI visibility that turns into pipeline.",
+    "category": "Industry Guides",
+    "author": "The Answer Engine Team",
+    "readTime": "12 min",
+    "image": "/blog/how-b2b-companies-get-found-on-ai-search.svg",
+    "publishDate": "2026-04-18",
+    "lastModified": "2026-04-18",
+    "featured": true,
+    "tags": [
+      "B2B",
+      "AI Search",
+      "ChatGPT",
+      "Perplexity",
+      "AEO",
+      "Demand Generation"
+    ]
+  },
+  {
+    "id": 215,
+    "title": "How Long Does AEO Take to Work? A Realistic Timeline",
+    "slug": "how-long-does-aeo-take-to-work",
+    "excerpt": "Answer Engine Optimization is not an overnight fix. Here is an honest breakdown of what to expect in weeks 1 through 16, what drives faster results, and when most businesses see their first AI citation.",
+    "category": "AEO Fundamentals",
+    "author": "The Answer Engine Team",
+    "readTime": "11 min",
+    "image": "/blog/how-long-does-aeo-take-to-work.svg",
+    "publishDate": "2026-04-18",
+    "lastModified": "2026-04-18",
+    "featured": true,
+    "tags": [
+      "AEO",
+      "Timeline",
+      "AI Citations",
+      "Strategy",
+      "Expectations"
+    ]
+  },
+  {
+    "id": 214,
+    "title": "How Interior Designers Get Found on AI Search",
+    "slug": "how-interior-designers-get-found-on-ai-search",
+    "excerpt": "Interior design is a relationship-driven, high-consideration service, and AI platforms are becoming the starting point for finding designers. Here is what ChatGPT, Perplexity, and Google AI look for when recommending an interior designer.",
+    "category": "Industry Guides",
+    "author": "The Answer Engine Team",
+    "readTime": "13 min",
+    "image": "/blog/how-interior-designers-get-found-on-ai-search.svg",
+    "publishDate": "2026-04-18",
+    "lastModified": "2026-04-18",
+    "featured": true,
+    "tags": [
+      "Interior Design",
+      "AI Search",
+      "ChatGPT",
+      "Local Business",
+      "AEO"
+    ]
+  },
+  {
+    "id": 213,
+    "title": "How Property Managers Get Found on AI Search",
+    "slug": "how-property-managers-get-found-on-ai-search",
+    "excerpt": "Property management is a high-intent category on AI platforms, but most property managers are invisible to ChatGPT, Perplexity, and Google AI. Here is exactly what these platforms look for when recommending a property manager.",
+    "category": "Industry Guides",
+    "author": "The Answer Engine Team",
+    "readTime": "13 min",
+    "image": "/blog/how-property-managers-get-found-on-ai-search.svg",
+    "publishDate": "2026-04-18",
+    "lastModified": "2026-04-18",
+    "featured": true,
+    "tags": [
+      "Property Management",
+      "AI Search",
+      "ChatGPT",
+      "Local Business",
+      "AEO"
+    ]
+  },
+  {
     "id": 212,
     "title": "Does Having a Wikipedia Page Help AI Find Your Business?",
     "slug": "does-having-a-wikipedia-page-help-ai-find-you",
