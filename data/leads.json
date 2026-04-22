@@ -2883,7 +2883,7 @@
     "reviewCount": 174,
     "rating": 4.5,
     "notes": "Auto-discovered by Lead Hunter. AI citation: not cited on 1/1 platforms. Competitors cited: Wilshire Center Chiropractic, Yonsei Chiropractic Clinic, The Joint Chiropractic. Outreach-ready: YES (citation data + contact + differentiator verified). Differentiator: Established 2009, specializes in disc decompression therapy, multiple locations, praised for friendly staff and clinical skills",
-    "status": "sent",
+    "status": "follow_up_1",
     "research": {
       "reviewCount": 174,
       "rating": 4.5,
@@ -2990,10 +2990,14 @@
       {
         "action": "Initial email auto-sent via Gmail (19da4dc9ef257a8c)",
         "timestamp": "2026-04-19T08:30:15.724Z"
+      },
+      {
+        "action": "follow_up_1 auto-sent via Gmail (19db5ec3dac15320)",
+        "timestamp": "2026-04-22T16:00:53.359Z"
       }
     ],
     "createdAt": "2026-03-09T13:01:29.518Z",
-    "updatedAt": "2026-04-19T08:30:15.724Z",
+    "updatedAt": "2026-04-22T16:00:53.477Z",
     "huntSource": "hunt_1773061221808_5npi",
     "huntScore": 38.5,
     "huntPriority": "P1",
