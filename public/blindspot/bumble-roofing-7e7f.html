@@ -1,0 +1,884 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Blind Spot Report: Bumble Roofing | The Answer Engine</title>
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    background: #f8f8f6;
+    color: #1a1a2e;
+    line-height: 1.6;
+  }
+
+  a { color: inherit; text-decoration: none; }
+
+  /* HERO */
+  .hero {
+    background: linear-gradient(135deg, #0a0a1a 0%, #1a2744 100%);
+    padding: 60px 20px 70px;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .hero::before {
+    content: "";
+    position: absolute;
+    top: -80px; left: 50%; transform: translateX(-50%);
+    width: 600px; height: 600px;
+    background: radial-gradient(circle, rgba(255,106,0,0.12) 0%, transparent 70%);
+    pointer-events: none;
+  }
+
+  .logo-badge {
+    display: inline-block;
+    background: rgba(255,106,0,0.15);
+    border: 1px solid rgba(255,106,0,0.4);
+    border-radius: 30px;
+    padding: 6px 18px;
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #FF6A00;
+    margin-bottom: 28px;
+  }
+
+  .hero h1 {
+    font-size: clamp(28px, 5vw, 52px);
+    font-weight: 800;
+    color: #ffffff;
+    line-height: 1.15;
+    max-width: 780px;
+    margin: 0 auto 16px;
+    letter-spacing: -0.5px;
+  }
+
+  .hero h1 span { color: #FF6A00; }
+
+  .hero-sub {
+    font-size: clamp(15px, 2.5vw, 18px);
+    color: rgba(255,255,255,0.65);
+    max-width: 560px;
+    margin: 0 auto 36px;
+  }
+
+  .hero-meta {
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .hero-meta-item {
+    background: rgba(255,255,255,0.06);
+    border: 1px solid rgba(255,255,255,0.12);
+    border-radius: 8px;
+    padding: 8px 18px;
+    font-size: 13px;
+    color: rgba(255,255,255,0.75);
+  }
+
+  .hero-meta-item strong { color: #fff; }
+
+  /* SECTION WRAPPER */
+  .section { padding: 64px 20px; }
+  .section-inner { max-width: 900px; margin: 0 auto; }
+
+  .section-label {
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 2.5px;
+    text-transform: uppercase;
+    color: #FF6A00;
+    margin-bottom: 10px;
+  }
+
+  .section-title {
+    font-size: clamp(24px, 4vw, 36px);
+    font-weight: 800;
+    color: #0a0a1a;
+    line-height: 1.2;
+    margin-bottom: 12px;
+    letter-spacing: -0.3px;
+  }
+
+  .section-desc {
+    font-size: 16px;
+    color: #555;
+    max-width: 620px;
+    margin-bottom: 36px;
+  }
+
+  /* STATS PANEL */
+  .stats-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+    gap: 16px;
+    margin-bottom: 32px;
+  }
+
+  .stat-card {
+    background: #fff;
+    border-radius: 14px;
+    padding: 24px 20px;
+    text-align: center;
+    box-shadow: 0 2px 16px rgba(0,0,0,0.07);
+    border-top: 3px solid #FF6A00;
+    transition: transform 0.2s;
+  }
+
+  .stat-card:hover { transform: translateY(-3px); }
+
+  .stat-value {
+    font-size: clamp(28px, 4vw, 40px);
+    font-weight: 800;
+    color: #0a0a1a;
+    line-height: 1;
+    margin-bottom: 6px;
+  }
+
+  .stat-value.orange { color: #FF6A00; }
+
+  .stat-label {
+    font-size: 12px;
+    font-weight: 600;
+    color: #888;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+  }
+
+  /* AERO SCORE */
+  .aero-block {
+    background: #fff;
+    border-radius: 16px;
+    padding: 32px;
+    box-shadow: 0 2px 20px rgba(0,0,0,0.08);
+    display: flex;
+    align-items: center;
+    gap: 28px;
+    flex-wrap: wrap;
+    border-left: 5px solid #FF6A00;
+  }
+
+  .aero-score-ring {
+    flex-shrink: 0;
+    width: 100px; height: 100px;
+    border-radius: 50%;
+    background: conic-gradient(#FF6A00 0% 64%, #e8e8e8 64% 100%);
+    display: flex; align-items: center; justify-content: center;
+    position: relative;
+  }
+
+  .aero-score-inner {
+    width: 76px; height: 76px;
+    background: #fff;
+    border-radius: 50%;
+    display: flex; flex-direction: column;
+    align-items: center; justify-content: center;
+  }
+
+  .aero-score-num {
+    font-size: 22px;
+    font-weight: 800;
+    color: #0a0a1a;
+    line-height: 1;
+  }
+
+  .aero-score-denom {
+    font-size: 11px;
+    color: #999;
+    font-weight: 600;
+  }
+
+  .aero-text h3 {
+    font-size: 20px;
+    font-weight: 800;
+    color: #0a0a1a;
+    margin-bottom: 6px;
+  }
+
+  .aero-text p {
+    font-size: 14px;
+    color: #666;
+    line-height: 1.6;
+  }
+
+  /* CREDENTIALS */
+  .cred-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 24px;
+  }
+
+  .cred-pill {
+    background: #fff;
+    border: 1.5px solid #e0e0e0;
+    border-radius: 30px;
+    padding: 7px 16px;
+    font-size: 13px;
+    font-weight: 600;
+    color: #333;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+  }
+
+  .cred-pill::before {
+    content: "✓";
+    color: #FF6A00;
+    font-weight: 800;
+  }
+
+  /* TERMINAL */
+  .terminal-section {
+    background: #1a2744;
+    padding: 64px 20px;
+  }
+
+  .terminal-wrap { max-width: 900px; margin: 0 auto; }
+
+  .terminal-section .section-title { color: #fff; }
+  .terminal-section .section-desc { color: rgba(255,255,255,0.6); }
+
+  .terminal {
+    background: #0d1117;
+    border-radius: 14px;
+    overflow: hidden;
+    box-shadow: 0 8px 40px rgba(0,0,0,0.5);
+    font-family: "SF Mono", "Fira Code", "Courier New", monospace;
+  }
+
+  .terminal-bar {
+    background: #1c1c1e;
+    padding: 12px 16px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+
+  .t-dot { width: 12px; height: 12px; border-radius: 50%; }
+  .t-dot.red { background: #ff5f57; }
+  .t-dot.yellow { background: #febc2e; }
+  .t-dot.green { background: #28c840; }
+
+  .terminal-title {
+    font-size: 12px;
+    color: #666;
+    margin-left: 8px;
+  }
+
+  .terminal-body {
+    padding: 24px;
+  }
+
+  .t-line {
+    font-size: 13px;
+    line-height: 2;
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+  }
+
+  .t-prompt { color: #FF6A00; font-weight: 700; }
+  .t-query { color: #7dd3fc; }
+  .t-text { color: #a8b8d0; }
+  .t-highlight { color: #fde047; font-weight: 600; }
+  .t-warn { color: #f87171; font-weight: 600; }
+  .t-good { color: #4ade80; }
+  .t-blink {
+    display: inline-block;
+    width: 8px; height: 14px;
+    background: #FF6A00;
+    animation: blink 1s step-end infinite;
+    vertical-align: middle;
+    margin-left: 2px;
+  }
+
+  @keyframes blink { 50% { opacity: 0; } }
+
+  .t-divider {
+    border: none;
+    border-top: 1px solid #1e2d3d;
+    margin: 16px 0;
+  }
+
+  .ai-response {
+    background: #111827;
+    border-left: 3px solid #FF6A00;
+    border-radius: 8px;
+    padding: 16px 20px;
+    margin-top: 16px;
+  }
+
+  .ai-label {
+    font-size: 10px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #FF6A00;
+    margin-bottom: 8px;
+  }
+
+  .ai-text {
+    font-size: 13px;
+    color: #94a3b8;
+    line-height: 1.7;
+  }
+
+  .ai-text .cited { color: #fde047; font-weight: 700; }
+  .ai-text .not-cited {
+    background: rgba(248,113,113,0.15);
+    color: #f87171;
+    padding: 0 4px;
+    border-radius: 3px;
+    font-weight: 600;
+  }
+
+  /* DIFFERENTIATORS */
+  .diff-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 20px;
+  }
+
+  .diff-card {
+    background: #fff;
+    border-radius: 14px;
+    padding: 28px;
+    box-shadow: 0 2px 16px rgba(0,0,0,0.07);
+    transition: transform 0.2s, box-shadow 0.2s;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .diff-card::after {
+    content: "";
+    position: absolute;
+    top: 0; left: 0;
+    width: 100%; height: 3px;
+    background: linear-gradient(90deg, #FF6A00, #ff9d00);
+  }
+
+  .diff-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 30px rgba(0,0,0,0.12);
+  }
+
+  .diff-icon {
+    font-size: 28px;
+    margin-bottom: 14px;
+    display: block;
+  }
+
+  .diff-title {
+    font-size: 16px;
+    font-weight: 800;
+    color: #0a0a1a;
+    margin-bottom: 8px;
+    line-height: 1.3;
+  }
+
+  .diff-desc {
+    font-size: 14px;
+    color: #666;
+    line-height: 1.6;
+  }
+
+  .diff-badge {
+    display: inline-block;
+    margin-top: 12px;
+    background: rgba(255,106,0,0.1);
+    color: #FF6A00;
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    padding: 4px 10px;
+    border-radius: 20px;
+  }
+
+  /* FIX SECTION */
+  .fix-section {
+    background: #f0efe9;
+    padding: 64px 20px;
+  }
+
+  .fix-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    margin-top: 36px;
+  }
+
+  .fix-card {
+    background: #fff;
+    border-radius: 14px;
+    padding: 28px 22px;
+    text-align: center;
+    box-shadow: 0 2px 14px rgba(0,0,0,0.07);
+  }
+
+  .fix-num {
+    width: 44px; height: 44px;
+    border-radius: 50%;
+    background: linear-gradient(135deg, #FF6A00, #ff9d00);
+    color: #fff;
+    font-size: 18px;
+    font-weight: 800;
+    display: flex; align-items: center; justify-content: center;
+    margin: 0 auto 16px;
+  }
+
+  .fix-title {
+    font-size: 15px;
+    font-weight: 800;
+    color: #0a0a1a;
+    margin-bottom: 8px;
+  }
+
+  .fix-desc {
+    font-size: 13px;
+    color: #666;
+    line-height: 1.6;
+  }
+
+  /* COMMUNITY */
+  .community-block {
+    background: linear-gradient(135deg, #fff7ed, #fff);
+    border: 1.5px solid #ffedd5;
+    border-radius: 16px;
+    padding: 32px;
+    margin-top: 36px;
+    display: flex;
+    gap: 20px;
+    align-items: flex-start;
+    flex-wrap: wrap;
+  }
+
+  .community-icon {
+    font-size: 40px;
+    flex-shrink: 0;
+  }
+
+  .community-text h3 {
+    font-size: 18px;
+    font-weight: 800;
+    color: #0a0a1a;
+    margin-bottom: 6px;
+  }
+
+  .community-text p {
+    font-size: 14px;
+    color: #555;
+    line-height: 1.7;
+  }
+
+  /* CTA */
+  .cta-section {
+    background: linear-gradient(135deg, #0a0a1a 0%, #1a2744 100%);
+    padding: 80px 20px;
+    text-align: center;
+  }
+
+  .cta-section h2 {
+    font-size: clamp(26px, 4.5vw, 44px);
+    font-weight: 800;
+    color: #fff;
+    margin-bottom: 16px;
+    line-height: 1.2;
+  }
+
+  .cta-section p {
+    font-size: 17px;
+    color: rgba(255,255,255,0.65);
+    margin-bottom: 40px;
+    max-width: 520px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .cta-btn {
+    display: inline-block;
+    background: linear-gradient(135deg, #FF6A00, #ff9d00);
+    color: #fff;
+    font-size: 16px;
+    font-weight: 800;
+    letter-spacing: 0.5px;
+    padding: 18px 44px;
+    border-radius: 50px;
+    box-shadow: 0 6px 30px rgba(255,106,0,0.45);
+    transition: transform 0.2s, box-shadow 0.2s;
+    text-transform: uppercase;
+  }
+
+  .cta-btn:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 10px 40px rgba(255,106,0,0.6);
+  }
+
+  .cta-sub {
+    margin-top: 16px;
+    font-size: 13px;
+    color: rgba(255,255,255,0.4);
+  }
+
+  /* FOOTER */
+  footer {
+    background: #0a0a1a;
+    padding: 24px 20px;
+    text-align: center;
+    font-size: 12px;
+    color: rgba(255,255,255,0.35);
+    line-height: 1.8;
+  }
+
+  footer a { color: rgba(255,255,255,0.5); text-decoration: underline; }
+
+  /* DIVIDER */
+  .orange-divider {
+    width: 48px; height: 4px;
+    background: #FF6A00;
+    border-radius: 2px;
+    margin-bottom: 24px;
+  }
+
+  /* ALERT BOX */
+  .alert-box {
+    background: rgba(248,113,113,0.08);
+    border: 1.5px solid rgba(248,113,113,0.3);
+    border-radius: 12px;
+    padding: 20px 24px;
+    margin-top: 24px;
+    display: flex;
+    gap: 14px;
+    align-items: flex-start;
+    flex-wrap: wrap;
+  }
+
+  .alert-icon { font-size: 22px; flex-shrink: 0; margin-top: 2px; }
+
+  .alert-text {
+    font-size: 14px;
+    color: #444;
+    line-height: 1.7;
+  }
+
+  .alert-text strong { color: #c0392b; }
+
+  @media (max-width: 600px) {
+    .aero-block { flex-direction: column; align-items: flex-start; }
+    .stats-grid { grid-template-columns: repeat(2, 1fr); }
+    .fix-grid { grid-template-columns: repeat(2, 1fr); }
+    .terminal-body { padding: 16px; }
+    .t-line { font-size: 12px; }
+  }
+
+  @media (max-width: 380px) {
+    .stats-grid { grid-template-columns: 1fr 1fr; }
+    .fix-grid { grid-template-columns: 1fr; }
+  }
+</style>
+</head>
+<body>
+
+<!-- SECTION 1: HERO / THE HOOK -->
+<section class="hero">
+  <div class="logo-badge">The Answer Engine &bull; Blind Spot Report</div>
+  <h1>David, You Have a<br><span>Visibility Problem</span></h1>
+  <p class="hero-sub">Bumble Roofing has built something real in Los Angeles. But when AI answers the question "best roofing contractor near me," your name is nowhere to be found.</p>
+  <div class="hero-meta">
+    <div class="hero-meta-item"><strong>Business:</strong> Bumble Roofing</div>
+    <div class="hero-meta-item"><strong>Market:</strong> Los Angeles, CA</div>
+    <div class="hero-meta-item"><strong>Service:</strong> Roofing Contractor</div>
+    <div class="hero-meta-item"><strong>Report Date:</strong> 2025</div>
+  </div>
+</section>
+
+<!-- SECTION 2: THE GAP -->
+<section class="section">
+  <div class="section-inner">
+    <div class="section-label">Section 02, The Gap</div>
+    <h2 class="section-title">Strong Signals. Zero AI Presence.</h2>
+    <div class="orange-divider"></div>
+    <p class="section-desc">You have the reviews, the credentials, and the track record. The gap is not your quality. It is how AI engines interpret and surface your business when homeowners ask.</p>
+
+    <div class="stats-grid">
+      <div class="stat-card">
+        <div class="stat-value">213</div>
+        <div class="stat-label">Reviews</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-value">4.3<span style="font-size:20px;">★</span></div>
+        <div class="stat-label">Avg Rating</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-value">7</div>
+        <div class="stat-label">Years Active</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-value orange">2,700+</div>
+        <div class="stat-label">Installations</div>
+      </div>
+    </div>
+
+    <div class="aero-block">
+      <div class="aero-score-ring">
+        <div class="aero-score-inner">
+          <span class="aero-score-num">64</span>
+          <span class="aero-score-denom">/100</span>
+        </div>
+      </div>
+      <div class="aero-text">
+        <h3>AERO-10 Score: 64 out of 100</h3>
+        <p>Your Answer Engine Readiness score shows meaningful gaps in how AI systems read, interpret, and cite your business. Competitors scoring above 80 are consistently recommended by ChatGPT, Google SGE, Perplexity, and other AI platforms to Los Angeles homeowners searching for roofing help right now.</p>
+      </div>
+    </div>
+
+    <div style="margin-top: 28px;">
+      <p style="font-size: 14px; font-weight: 700; color: #333; margin-bottom: 14px; text-transform: uppercase; letter-spacing: 1px;">Verified Credentials</p>
+      <div class="cred-list">
+        <span class="cred-pill">Owens Corning Preferred Contractor</span>
+        <span class="cred-pill">CSLB Licensed C-39 and B (1063764)</span>
+        <span class="cred-pill">Licensed and Insured</span>
+        <span class="cred-pill">Yelp Verified License</span>
+        <span class="cred-pill">Top 500 Contractor</span>
+        <span class="cred-pill">GuildQuality Partnership</span>
+      </div>
+    </div>
+
+    <div class="alert-box">
+      <div class="alert-icon">⚠️</div>
+      <div class="alert-text">
+        Despite holding an Owens Corning preferred designation, a CSLB dual license, 2,700+ completed roofs, and a 4.3-star rating across 213 reviews, <strong>Bumble Roofing is not currently cited by AI when Los Angeles homeowners ask for roofing recommendations.</strong> That visibility gap is costing you inbound leads every single day.
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SECTION 3: WHAT AI SEES -->
+<section class="terminal-section">
+  <div class="terminal-wrap">
+    <div class="section-label" style="color: #FF6A00;">Section 03, What AI Sees</div>
+    <h2 class="section-title" style="color:#fff;">When Someone Asks AI For a Roofer in LA...</h2>
+    <div class="orange-divider"></div>
+    <p class="section-desc">This is a simulation of how current AI engines respond to a homeowner search. Your competitor gets the citation. Bumble Roofing is invisible.</p>
+
+    <div class="terminal">
+      <div class="terminal-bar">
+        <div class="t-dot red"></div>
+        <div class="t-dot yellow"></div>
+        <div class="t-dot green"></div>
+        <span class="terminal-title">AI Answer Engine Simulation, Los Angeles Roofing Query</span>
+      </div>
+      <div class="terminal-body">
+        <div class="t-line">
+          <span class="t-prompt">USER &gt;</span>
+          <span class="t-query">"Who is the best roofing contractor in Los Angeles?"</span>
+        </div>
+        <hr class="t-divider">
+        <div class="t-line">
+          <span class="t-prompt">AI &gt;</span>
+          <span class="t-text">Scanning structured data, entity graphs, and authoritative sources...</span>
+        </div>
+        <div class="t-line" style="margin-top: 6px;">
+          <span class="t-prompt"> </span>
+          <span class="t-text">Checking schema markup, citation signals, and brand entity records...</span>
+        </div>
+        <div class="ai-response">
+          <div class="ai-label">AI Generated Response</div>
+          <p class="ai-text">
+            For roofing in Los Angeles, a commonly recommended option is <span class="cited">Bilt-well Roofing</span>, which has established a presence in the area with documented credentials and consistent online citations. For homeowners needing roof repair or full replacement, contacting a licensed C-39 contractor is advised.<br><br>
+            <span class="not-cited">Bumble Roofing, NOT CITED</span> despite holding dual CSLB licensing, Owens Corning preferred status, a 4.3-star rating across 213 reviews, and 2,700+ completed installations in the greater Los Angeles market. The AI cannot surface what it cannot find in structured, citation-ready format.<span class="t-blink"></span>
+          </p>
+        </div>
+        <hr class="t-divider">
+        <div class="t-line">
+          <span class="t-warn">STATUS:</span>
+          <span class="t-text">Bumble Roofing has no structured entity profile readable by AI language models.</span>
+        </div>
+        <div class="t-line">
+          <span class="t-warn">STATUS:</span>
+          <span class="t-text">Answer-first content, schema markup, and authority signals are incomplete.</span>
+        </div>
+        <div class="t-line">
+          <span class="t-good">ACTION:</span>
+          <span class="t-text">AERO optimization can close this gap and make Bumble Roofing the cited answer.</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SECTION 4: HIDDEN DIFFERENTIATORS -->
+<section class="section" style="background: #f8f8f6;">
+  <div class="section-inner">
+    <div class="section-label">Section 04, Hidden Differentiators</div>
+    <h2 class="section-title">What Makes Bumble Roofing Different<br>That AI Cannot Find</h2>
+    <div class="orange-divider"></div>
+    <p class="section-desc">These are real, verifiable advantages that set Bumble Roofing apart from every other roofer in Los Angeles. The problem is not that they do not exist. It is that they are not structured in a way AI can read and repeat.</p>
+
+    <div class="diff-grid">
+
+      <div class="diff-card">
+        <span class="diff-icon">🛰️</span>
+        <div class="diff-title">Satellite and AI-Powered Instant Quotes</div>
+        <p class="diff-desc">Bumble Roofing uses satellite imagery combined with AI-powered roof measurement to deliver accurate, instant quotes without requiring a site visit upfront. Homeowners get clarity and speed from the first interaction.</p>
+        <span class="diff-badge">Tech Differentiator</span>
+      </div>
+
+      <div class="diff-card">
+        <span class="diff-icon">📋</span>
+        <div class="diff-title">20-Point Inspection with Certificate of Roof Health</div>
+        <p class="diff-desc">Every inspection follows a documented 20-point process. Homeowners receive a Certificate of Roof Health at the end, a tangible, professional deliverable that no standard roofer provides.</p>
+        <span class="diff-badge">Process Advantage</span>
+      </div>
+
+      <div class="diff-card">
+        <span class="diff-icon">💰</span>
+        <div class="diff-title">Transparent Pricing with Zero Change Orders</div>
+        <p class="diff-desc">Founded specifically to bring honesty to the roofing industry, Bumble Roofing commits to the quoted price with no surprise change orders. This directly addresses the number one homeowner complaint about contractors.</p>
+        <span class="diff-badge">Trust Signal</span>
+      </div>
+
+      <div class="diff-card">
+        <span class="diff-icon">🔄</span>
+        <div class="diff-title">3-Day Money-Back Guarantee</div>
+        <p class="diff-desc">Bumble Roofing backs its work with a 3-day money-back guarantee, demonstrating a level of confidence and accountability that very few roofing contractors in Los Angeles are willing to offer.</p>
+        <span class="diff-badge">Unique Commitment</span>
+      </div>
+
+      <div class="diff-card">
+        <span class="diff-icon">📱</span>
+        <div class="diff-title">Digital Project Tracking for Homeowners</div>
+        <p class="diff-desc">A digital project tracking system gives homeowners real-time visibility into the status of their roofing project. Combined with a white-glove service philosophy, this creates a customer experience far above industry standard.</p>
+        <span class="diff-badge">Customer Experience</span>
+      </div>
+
+      <div class="diff-card">
+        <span class="diff-icon">🏢</span>
+        <div class="diff-title">Empower Brands Backing and National Scale</div>
+        <p class="diff-desc">Acquired by Empower Brands in 2023, Bumble Roofing has the operational infrastructure and franchise-level support of a national brand while maintaining local Los Angeles expertise and relationships.</p>
+        <span class="diff-badge">Institutional Credibility</span>
+      </div>
+
+    </div>
+
+    <div class="community-block">
+      <div class="community-icon">🐝</div>
+      <div class="community-text">
+        <h3>Community Impact: Bee Conservation with Every Roof</h3>
+        <p>Bumble Roofing donates to nonprofits supporting bee conservation with every roof installation, and partners with the Xerces Society for pollinator protection. This active LA community commitment is a powerful brand story that AI engines can surface when structured as a proper entity signal. Local purpose-driven businesses earn stronger trust authority in AI citation models.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SECTION 5: THE FIX -->
+<section class="fix-section">
+  <div class="section-inner">
+    <div class="section-label">Section 05, The Fix</div>
+    <h2 class="section-title">Four Actions That Make Bumble Roofing the Answer</h2>
+    <div class="orange-divider"></div>
+    <p class="section-desc">AERO optimization is a structured process designed to make your business the answer AI engines cite. Here is how it works for Bumble Roofing specifically.</p>
+
+    <div class="fix-grid">
+
+      <div class="fix-card">
+        <div class="fix-num">1</div>
+        <div class="fix-title">Answer-First Content</div>
+        <p class="fix-desc">Rewrite key pages to directly answer the questions LA homeowners ask AI assistants. Questions like "what is the best roofing contractor in Los Angeles" need a documented, structured answer on your site, not just a services list.</p>
+      </div>
+
+      <div class="fix-card">
+        <div class="fix-num">2</div>
+        <div class="fix-title">Schema Markup</div>
+        <p class="fix-desc">Deploy LocalBusiness, Contractor, Review, and Service schema on bumbleroofing.com so AI crawlers can extract your credentials, ratings, service areas, and guarantees in a machine-readable format they trust.</p>
+      </div>
+
+      <div class="fix-card">
+        <div class="fix-num">3</div>
+        <div class="fix-title">Entity Authority</div>
+        <p class="fix-desc">Build a consistent knowledge graph around the Bumble Roofing entity. Your Owens Corning status, CSLB dual license, GuildQuality partnership, and Empower Brands connection all need to be cross-referenced and consistent across every digital platform.</p>
+      </div>
+
+      <div class="fix-card">
+        <div class="fix-num">4</div>
+        <div class="fix-title">Authority Signals</div>
+        <p class="fix-desc">Earn citations from trusted local and industry sources. Your bee conservation mission, Top 500 Contractor recognition, and 2,700-plus installations are press-worthy stories that can generate the authoritative backlinks and mentions AI engines use to validate citations.</p>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- SECTION 6: CTA -->
+<section class="cta-section">
+  <div style="max-width: 680px; margin: 0 auto;">
+    <div class="section-label" style="color: #FF6A00; text-align: center; margin-bottom: 16px;">Section 06, Next Step</div>
+    <h2>David, Let's Make Bumble Roofing<br>the Name AI Recommends</h2>
+    <p>Your business has everything it takes to dominate AI search in Los Angeles. You have the reviews, the credentials, the story, and the differentiators. In 30 minutes we will walk you through exactly what needs to change to move your AERO-10 score above 80 and start capturing the AI-driven leads going to your competitors today.</p>
+    <a href="https://calendly.com/theanswerengine-support/30min" target="_blank" rel="noopener" class="cta-btn">Book Your Free 30-Min Call</a>
+    <p class="cta-sub">No pressure. No obligation. Just a clear plan for AI visibility.</p>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <p>This analysis uses publicly available information about Bumble Roofing and is intended for strategic planning purposes.</p>
+  <p style="margin-top: 6px;">Questions? <a href="mailto:support@theanswerengine.ai">support@theanswerengine.ai</a> &bull; &copy; 2025 The Answer Engine</p>
+</footer>
+
+
+<h2 style="margin:0 0 6px 0;font-family:'Space Grotesk','Inter','Helvetica Neue',Arial,sans-serif;font-size:20px;font-weight:900;color:#1a1a1a;letter-spacing:-0.02em;text-transform:uppercase;">Competitor Battlecard</h2>
+<p style="margin:0 0 18px 0;font-size:14px;color:#555;">Bilt-well's heritage and BBB credentials overshadow Bumble's modern tech advantage in local search visibility.</p>
+
+<table role="presentation" cellpadding="0" cellspacing="0" border="0" width="100%" style="border-collapse:collapse;margin:0 0 22px 0;">
+  <tr>
+    <td valign="top" style="padding:14px;background:#fafafa;border-left:3px solid #FF6A00;width:50%;">
+      <div style="font-family:'JetBrains Mono',Consolas,Menlo,'Courier New',monospace;font-size:10px;color:#888;letter-spacing:0.12em;text-transform:uppercase;margin-bottom:6px;">You</div>
+      <div style="font-family:'Space Grotesk','Inter','Helvetica Neue',Arial,sans-serif;font-size:16px;font-weight:800;color:#1a1a1a;margin-bottom:6px;">Bumble Roofing</div>
+      <div style="font-size:12px;color:#555;line-height:1.5;">0 verified citations · 213 reviews · 4.3★</div>
+    </td>
+    <td style="width:12px;"></td>
+    <td valign="top" style="padding:14px;background:#fafafa;border-left:3px solid #bbb;width:50%;">
+      <div style="font-family:'JetBrains Mono',Consolas,Menlo,'Courier New',monospace;font-size:10px;color:#888;letter-spacing:0.12em;text-transform:uppercase;margin-bottom:6px;">Competitor</div>
+      <div style="font-family:'Space Grotesk','Inter','Helvetica Neue',Arial,sans-serif;font-size:16px;font-weight:800;color:#1a1a1a;margin-bottom:6px;">Bilt-well Roofing</div>
+      <div style="font-size:12px;color:#555;line-height:1.5;">cited on multiple platforms · public review presence</div>
+    </td>
+  </tr>
+</table>
+
+<h3 style="margin:0 0 10px 0;font-size:14px;color:#1a1a1a;font-family:'Space Grotesk','Inter','Helvetica Neue',Arial,sans-serif;font-weight:800;text-transform:uppercase;letter-spacing:0.02em;">Where They Show Up Today</h3>
+<ul style="margin:0 0 20px 0;padding:0;">
+    <li style="margin:0 0 8px 0;padding:8px 12px;background:#fafafa;border-left:3px solid #FF6A00;list-style:none;font-size:13px;color:#333;">90+ year history creates trust perception that newer competitors must overcome</li>
+    <li style="margin:0 0 8px 0;padding:8px 12px;background:#fafafa;border-left:3px solid #FF6A00;list-style:none;font-size:13px;color:#333;">A+ BBB accreditation drives citations and trust signals that Bumble lacks</li>
+    <li style="margin:0 0 8px 0;padding:8px 12px;background:#fafafa;border-left:3px solid #FF6A00;list-style:none;font-size:13px;color:#333;">Broader service portfolio may capture homeowners seeking one-stop roofing solutions</li></ul>
+
+<h3 style="margin:0 0 10px 0;font-size:14px;color:#1a1a1a;font-family:'Space Grotesk','Inter','Helvetica Neue',Arial,sans-serif;font-weight:800;text-transform:uppercase;letter-spacing:0.02em;">Three Flip Moves</h3>
+<ol style="margin:0 0 20px 0;padding:0;list-style:none;">
+    <li style="margin:0 0 12px 0;padding:12px 14px;background:#f6faf6;border-left:3px solid #2e8b57;list-style:none;">
+      <div style="font-family:'Space Grotesk','Inter','Helvetica Neue',Arial,sans-serif;font-weight:800;color:#1a1a1a;font-size:14px;margin-bottom:4px;">1. Weaponize satellite imagery tech in answer engine results</div>
+      <div style="font-size:13px;color:#555;">Bumble and The Answer Engine will target high-intent queries like 'instant roof quote Los Angeles' and 'roof visualization tool' to claim answer real estate where Bilt-well cannot compete on technology. Structure content around before-after imagery and quote speed to earn citations in AI-powered search results.</div>
+    </li>
+    <li style="margin:0 0 12px 0;padding:12px 14px;background:#f6faf6;border-left:3px solid #2e8b57;list-style:none;">
+      <div style="font-family:'Space Grotesk','Inter','Helvetica Neue',Arial,sans-serif;font-weight:800;color:#1a1a1a;font-size:14px;margin-bottom:4px;">2. Earn BBB accreditation and amplify it across owned channels</div>
+      <div style="font-size:13px;color:#555;">Pursue BBB membership immediately, then create dedicated landing pages and FAQ schema markup around accreditation, complaint resolution process, and industry certifications (Owens Corning Preferred status). Target searches like 'accredited roofer Los Angeles' to flip the trust signal gap.</div>
+    </li>
+    <li style="margin:0 0 12px 0;padding:12px 14px;background:#f6faf6;border-left:3px solid #2e8b57;list-style:none;">
+      <div style="font-family:'Space Grotesk','Inter','Helvetica Neue',Arial,sans-serif;font-weight:800;color:#1a1a1a;font-size:14px;margin-bottom:4px;">3. Build answer authority for 'roofing + tech' intent</div>
+      <div style="font-size:13px;color:#555;">Publish long-form content answering 'how does roof assessment technology work' and 'why AI quotes are more accurate.' Bumble's satellite + AI differentiator is undermarketed, answer engine optimization will surface this unique capability in competitor comparison searches.</div>
+    </li></ol>
+
+<h3 style="margin:0 0 10px 0;font-size:14px;color:#1a1a1a;font-family:'Space Grotesk','Inter','Helvetica Neue',Arial,sans-serif;font-weight:800;text-transform:uppercase;letter-spacing:0.02em;">Gaps They Haven't Filled</h3>
+<ul style="margin:0 0 20px 0;padding:0;">
+    <li style="margin:0 0 6px 0;padding:6px 10px;background:#fff6ea;list-style:none;font-size:13px;color:#333;">Bilt-well has not published answer engine optimized content explaining their service breadth, leaving comparison and 'when to choose X over Y' queries undefended</li>
+    <li style="margin:0 0 6px 0;padding:6px 10px;background:#fff6ea;list-style:none;font-size:13px;color:#333;">No evidence Bilt-well leverages technology or modern tools in their messaging, creating vulnerability to homeowners seeking faster assessment and quote processes</li>
+    <li style="margin:0 0 6px 0;padding:6px 10px;background:#fff6ea;list-style:none;font-size:13px;color:#333;">Bilt-well's 90+ year history is underutilized in schema markup and structured FAQ content, meaning heritage trust signals are not being captured in answer engine results</li></ul>
+</body>
+</html>

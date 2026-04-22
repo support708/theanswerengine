@@ -4516,11 +4516,76 @@
     "city": "Los Angeles",
     "serviceNiche": "Roofing Contractor",
     "competitorName": "Bilt-well Roofing",
-    "reviewCount": 209,
-    "rating": null,
+    "reviewCount": 213,
+    "rating": 4.3,
     "notes": "Auto-discovered by Lead Hunter. AI citation: not cited on 1/1 platforms. Competitors cited: Bilt-well Roofing, J and J Roofing, Smart Roofing. Outreach-ready: YES (citation data + contact + differentiator verified). Differentiator: Modern tech-forward approach, satellite imagery technology for quotes, transparent pricing, 'Roofing The Easy Way' philosophy",
-    "status": "queued",
-    "research": null,
+    "status": "report_ready",
+    "research": {
+      "reviewCount": 213,
+      "rating": 4.3,
+      "yearsInBusiness": 7,
+      "credentials": [
+        "Owens Corning Preferred Contractor",
+        "CSLB Licensed (C-39 & B License 1063764)",
+        "Licensed and Insured",
+        "Yelp Verified License"
+      ],
+      "awards": [
+        "Top 500 Contractor",
+        "GuildQuality Partnership"
+      ],
+      "communityInvolvement": [
+        "Donations to nonprofits for bee conservation with every roof installation",
+        "Partnership with Xerces Society for pollinator protection",
+        "Active in local LA community engagement"
+      ],
+      "hiddenDifferentiators": [
+        "Satellite imagery technology with AI-powered roof measurement for instant quotes",
+        "20-point roof inspection process",
+        "Certificate of Roof Health after inspections",
+        "Transparent pricing with no change orders",
+        "3-day money-back guarantee",
+        "Empower Brands backing and scaling support",
+        "White-glove customer service philosophy",
+        "Digital project tracking system for homeowner visibility"
+      ],
+      "topCompetitors": [
+        {
+          "name": "Bilt-well Roofing",
+          "reason": "90+ years in business, BBB A+ rating, family-owned, strong reputation, broader service offerings (solar, decking, carpentry)"
+        },
+        {
+          "name": "J and J Roofing",
+          "reason": "25+ years in business, 300+ years combined experience, strong online presence, high review counts"
+        },
+        {
+          "name": "Top Roofing Inc.",
+          "reason": "25+ years experience, strong Expertise.com ranking, established brand presence"
+        }
+      ],
+      "faqContentPresent": false,
+      "blogPresent": true,
+      "gmbPresent": true,
+      "schemaDetected": true,
+      "recentContent": true,
+      "uniqueStory": "Founded in 2019 by David Bitan with mission to bring honesty and transparency to roofing industry. Over 60 years combined founder experience, 2700+ successful installations. Acquired by Empower Brands in 2023 to scale franchise nationally. Tech-forward approach using satellite imagery and AI for instant quotes. Commitment to bee conservation through nonprofit donations.",
+      "aiCited": false,
+      "aero7": {
+        "answerQuality": 7,
+        "entityOptimization": 6,
+        "relevanceFreshness": 8,
+        "optimizationStructure": 6,
+        "voiceAuthenticity": 8,
+        "authoritySignals": 7,
+        "authorityDistribution": 6,
+        "consensusCoCitation": 5,
+        "platformReadiness": 5,
+        "technicalAccessibility": 6,
+        "total": 64
+      },
+      "rawNotes": "Bumble Roofing Los Angeles demonstrates strong online presence with positive reviews across Yelp (213 reviews, 4.3 rating), Angi/HomeAdvisor (4.3 rating), NiceJob (5-star), and GuildQuality partnerships. Founded 2019 by David Bitan, part of Empower Brands since 2023. Strong differentiator is satellite imagery tech + AI for instant quotes and visualization. Owens Corning Preferred Contractor status indicates quality credentials. Blog present with recent content (2025). NAP consistency verified across platforms. Not BBB accredited but Yelp license confirmed. Competitor Bilt-Well Roofing has 90+ year heritage, A+ BBB rating, and broader service suite which may give it perception advantage despite Bumble's modern tech. AI platform visibility appears low (not cited on major platforms per context). Website has blog/FAQ elements but schema markup depth unknown. Recent press coverage via PR Newswire (Empower Brands expansion). Social media active on Instagram (1.5K followers) and LinkedIn. GuildQuality satisfaction surveying suggests strong quality orientation. Website content fresh (multiple 2025 dates). Community involvement through bee conservation messaging aligns with brand identity but limited traditional awards. Transparency pricing philosophy well-articulated across multiple sources. No evidence of Reddit mentions or traditional media coverage. Franchise expansion (70+ territories by late 2025) indicates strong growth trajectory but original LA location maintains strong local focus.",
+      "researchedAt": "2026-04-22T07:01:00.219Z"
+    },
     "reportSlug": "bumble-roofing-7e7f",
     "emailDraftId": null,
     "fabricationFlags": [],
@@ -4529,10 +4594,42 @@
       {
         "action": "Queued by Lead Hunter (P2, score: 32, outreach-ready: true)",
         "timestamp": "2026-04-09T14:00:57.391Z"
+      },
+      {
+        "action": "Research started (auto-pipeline)",
+        "timestamp": "2026-04-22T07:00:36.454Z"
+      },
+      {
+        "action": "Research completed (AERO-10: 64/100)",
+        "timestamp": "2026-04-22T07:01:00.219Z"
+      },
+      {
+        "action": "Report generation started",
+        "timestamp": "2026-04-22T07:01:00.219Z"
+      },
+      {
+        "action": "Competitor battlecard attached",
+        "timestamp": "2026-04-22T07:02:49.451Z"
+      },
+      {
+        "action": "Report generated",
+        "timestamp": "2026-04-22T07:02:49.451Z"
+      },
+      {
+        "action": "Fabrication scan: CLEAN",
+        "timestamp": "2026-04-22T07:02:49.451Z"
+      },
+      {
+        "action": "Em-dash scan: 7 found, auto-stripped",
+        "timestamp": "2026-04-22T07:02:49.451Z"
+      },
+      {
+        "action": "Report + OG metadata deployed to production",
+        "timestamp": "2026-04-22T07:02:49.622Z"
       }
     ],
     "createdAt": "2026-04-09T14:00:57.391Z",
-    "updatedAt": "2026-04-09T14:00:57.391Z",
+    "updatedAt": "2026-04-22T07:02:49.451Z",
     "huntSource": "hunt_1775743210629_lqp4",
     "huntScore": 32,
     "huntPriority": "P2",
