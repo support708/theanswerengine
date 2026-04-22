@@ -921,7 +921,73 @@
   /* ================================
      SLIDE 9 — CTA + NEXT STEPS
   ================================ */
-  #slide9 { background: var(--bg); text-align: center; }
+  #slide9 { background: var(--bg-alt); }
+  #slide10 { background: var(--bg); text-align: center; }
+
+  /* ================================
+     PRICING SLIDE
+  ================================ */
+  .price-grid {
+    max-width: 840px;
+    display: grid;
+    grid-template-columns: 1fr 1.6fr 1fr;
+    gap: 0;
+    margin-top: 22px;
+  }
+  .price-block {
+    padding: 22px 24px;
+    border: 1px solid var(--border);
+    border-right: none;
+    background: rgba(255,255,255,0.015);
+  }
+  .price-block:last-child { border-right: 1px solid var(--border); }
+  .price-block.price-featured {
+    border: 1px solid rgba(255,106,0,0.5);
+    background: var(--orange-dim);
+  }
+  .price-badge {
+    font-family: 'DM Mono', monospace;
+    font-size: 8px;
+    letter-spacing: 0.22em;
+    text-transform: uppercase;
+    color: var(--muted);
+    margin-bottom: 10px;
+  }
+  .price-featured .price-badge { color: var(--orange); }
+  .price-title {
+    font-family: 'Space Grotesk', sans-serif;
+    font-weight: 900;
+    font-size: 22px;
+    letter-spacing: -0.02em;
+    color: var(--text);
+    margin-bottom: 14px;
+    line-height: 1.1;
+  }
+  .price-featured .price-title { color: var(--orange); }
+  .price-includes {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  .price-includes li {
+    font-size: 11px;
+    color: var(--muted);
+    line-height: 1.6;
+    padding: 4px 0;
+    border-top: 1px solid var(--border);
+    font-weight: 300;
+    padding-left: 12px;
+    position: relative;
+  }
+  .price-includes li::before {
+    content: '→';
+    position: absolute;
+    left: 0;
+    color: var(--orange);
+    font-family: 'DM Mono', monospace;
+    font-size: 9px;
+  }
+  .price-featured .price-includes li { border-color: rgba(255,106,0,0.12); }
 
   /* ================================
      EDUCATION SLIDE EXTRAS
@@ -1115,7 +1181,8 @@
   <button class="nav-dot" onclick="goTo(5)" title="Money"></button>
   <button class="nav-dot" onclick="goTo(6)" title="Fix"></button>
   <button class="nav-dot" onclick="goTo(7)" title="Growth"></button>
-  <button class="nav-dot" onclick="goTo(8)" title="CTA"></button>
+  <button class="nav-dot" onclick="goTo(8)" title="Pricing"></button>
+  <button class="nav-dot" onclick="goTo(9)" title="Close"></button>
 </nav>
 
 <!-- ================================================
@@ -1123,7 +1190,7 @@
 ================================================ -->
 <section class="slide grid-bg" id="slide1">
   <div class="glow-orange" style="top:-200px; right:-200px;"></div>
-  <div class="slide-num">01 / 09</div>
+  <div class="slide-num">01 / 10</div>
   <div class="slide-inner">
     <span class="eyebrow">&#9711; AERO-10 Intelligence Brief // TrueDoor Property Management</span>
     <h1 class="champ-headline" style="font-size: clamp(48px, 8vw, 88px);">
@@ -1166,7 +1233,7 @@
 ================================================ -->
 <section class="slide" id="slide2">
   <div class="glow-orange" style="bottom:-300px; left:-200px;"></div>
-  <div class="slide-num">02 / 09</div>
+  <div class="slide-num">02 / 10</div>
   <div class="slide-inner">
     <span class="eyebrow">&#9711; AI Visibility Test // What Landlords Actually See</span>
     <h2 class="slide-headline">
@@ -1237,7 +1304,7 @@
 ================================================ -->
 <section class="slide" id="slide3">
   <div class="glow-orange" style="top:-100px; left:-200px;"></div>
-  <div class="slide-num">03 / 09</div>
+  <div class="slide-num">03 / 10</div>
   <div class="slide-inner">
     <span class="eyebrow">&#9711; Query Intelligence // 10 Searches TrueDoor Must Own</span>
     <h2 class="slide-headline">
@@ -1368,7 +1435,7 @@
 ================================================ -->
 <section class="slide" id="slide4">
   <div class="glow-orange" style="top:-100px; right:-300px;"></div>
-  <div class="slide-num">04 / 09</div>
+  <div class="slide-num">04 / 10</div>
   <div class="slide-inner">
     <span class="eyebrow">&#9711; Competitive Gap // TrueDoor vs. HCM Property Management</span>
     <h2 class="slide-headline">Where the <span class="accent">AI Gap</span> Lives</h2>
@@ -1511,7 +1578,7 @@
      SLIDE 5 — AERO-10 SCORECARD
 ================================================ -->
 <section class="slide" id="slide5">
-  <div class="slide-num">05 / 09</div>
+  <div class="slide-num">05 / 10</div>
   <div class="slide-inner">
     <span class="eyebrow">&#9711; AERO-10 Framework // 10-Pillar AI Visibility Score</span>
 
@@ -1595,7 +1662,7 @@
      SLIDE 6 — REVENUE MATH
 ================================================ -->
 <section class="slide" id="slide6">
-  <div class="slide-num">06 / 09</div>
+  <div class="slide-num">06 / 10</div>
   <div class="slide-inner">
     <span class="eyebrow">&#9711; Revenue Impact // What the Invisibility Gap Costs</span>
     <h2 class="slide-headline">The <span class="accent">$140K</span> Gap</h2>
@@ -1691,7 +1758,7 @@
 ================================================ -->
 <section class="slide" id="slide7">
   <div class="glow-orange" style="bottom:-200px; right:-200px;"></div>
-  <div class="slide-num">07 / 09</div>
+  <div class="slide-num">07 / 10</div>
   <div class="slide-inner">
     <span class="eyebrow">&#9711; AE Engagement // Content That Gets Views and Calls</span>
     <h2 class="slide-headline">We Build It. <span class="accent">AI Sends the Calls.</span></h2>
@@ -1812,7 +1879,7 @@
 ================================================ -->
 <section class="slide" id="slide8">
   <div class="glow-orange" style="top:-150px; left:-150px; width:500px; height:500px; opacity:0.35;"></div>
-  <div class="slide-num">08 / 09</div>
+  <div class="slide-num">08 / 10</div>
   <div class="slide-inner">
     <span class="eyebrow">&#9711; HOW IT WORKS // The Compound Content Effect</span>
     <h2 class="slide-headline">16 Articles a Month. <span class="accent">Permanent AI Presence.</span></h2>
@@ -1924,21 +1991,63 @@
       </div>
     </div>
 
-    <div class="commit-strip">
-      <div class="commit-block">
-        <div class="commit-label">One-Time</div>
-        <div class="commit-title">Onboarding Fee</div>
-        <div class="commit-body">Platform setup &middot; entity graph &middot; schema deploy &middot; technical audit &middot; query map finalization</div>
+  </div>
+  <div class="slide-footer">
+    <span class="footer-logo">The Answer Engine</span>
+    <span>AERO-10 Intelligence Brief &middot; TrueDoor Property Management</span>
+    <span>theanswerengine.ai</span>
+  </div>
+</section>
+
+<!-- ================================================
+     SLIDE 9 — PRICING / INVESTMENT
+================================================ -->
+<section class="slide" id="slide9">
+  <div class="glow-orange" style="bottom:-200px; right:-200px; width:600px; height:600px; opacity:0.3;"></div>
+  <div class="slide-num">09 / 10</div>
+  <div class="slide-inner">
+    <span class="eyebrow">&#9711; INVESTMENT // 6-Month AI Authority Program</span>
+    <h2 class="slide-headline">One Investment. <span class="accent">Permanent Results.</span></h2>
+    <p class="slide-sub">Every article AE publishes is a permanent AI-indexed asset. You stop running ads the day you sign — and you never look back.</p>
+
+    <div class="price-grid">
+      <div class="price-block">
+        <div class="price-badge">One-Time &middot; Required</div>
+        <div class="price-title">Onboarding</div>
+        <ul class="price-includes">
+          <li>Full technical audit &amp; WordPress integration</li>
+          <li>Entity graph build (Google Knowledge Panel)</li>
+          <li>FAQ schema deployed on fees + services pages</li>
+          <li>Author attribution setup (Yoast SEO)</li>
+          <li>10-query map finalized &amp; locked</li>
+          <li>2-week turnaround before Month 1 begins</li>
+        </ul>
       </div>
-      <div class="commit-block commit-highlight">
-        <div class="commit-label">&#11088; 6-Month Program &mdash; Best Value</div>
-        <div class="commit-title">Pay 6 &rarr; Get Month 7 Free</div>
-        <div class="commit-body">16 articles/month &middot; GSC reporting &middot; query tracking &middot; Month 7 included at zero cost when paid upfront</div>
+
+      <div class="price-block price-featured">
+        <div class="price-badge">&#11088; 6-Month Program &mdash; Best Value</div>
+        <div class="price-title">Pay 6 &rarr; Get Month 7 Free</div>
+        <ul class="price-includes">
+          <li>16 AI-optimized articles per month</li>
+          <li>4 commercial + 4 educational + 4 geo + 4 authority</li>
+          <li>All content reviewed &amp; approved by Kyle (30 min/mo)</li>
+          <li>Monthly GSC impression report + query tracking</li>
+          <li>AI citation monitoring across all 10 target queries</li>
+          <li>Month 7 included at zero cost &mdash; paid upfront</li>
+        </ul>
       </div>
-      <div class="commit-block">
-        <div class="commit-label">Ongoing</div>
-        <div class="commit-title">Month-to-Month</div>
-        <div class="commit-body">After Month 7 &mdash; cancel anytime or keep compounding. Most clients never stop once the calls start rolling in.</div>
+
+      <div class="price-block">
+        <div class="price-badge">Ongoing &middot; After Month 7</div>
+        <div class="price-title">Month-to-Month</div>
+        <ul class="price-includes">
+          <li>Same 16 articles/month</li>
+          <li>Same GSC + query reporting</li>
+          <li>Cancel anytime &mdash; no lock-in</li>
+          <li>All published assets remain yours forever</li>
+          <li>Compound effect continues whether or not AE is active</li>
+          <li>Most clients never stop once the calls start</li>
+        </ul>
       </div>
     </div>
   </div>
@@ -1950,44 +2059,43 @@
 </section>
 
 <!-- ================================================
-     SLIDE 9 — CTA + WHAT HAPPENS NEXT
+     SLIDE 10 — CLOSE / WE START MONDAY
 ================================================ -->
-<section class="slide grid-bg" id="slide9">
+<section class="slide grid-bg" id="slide10">
   <div class="glow-orange" style="top:50%; left:50%; transform:translate(-50%,-50%); width:900px; height:900px;"></div>
-  <div class="slide-num">09 / 09</div>
+  <div class="slide-num">10 / 10</div>
   <div class="slide-inner" style="text-align:center;">
-    <span class="eyebrow" style="justify-content:center; display:flex;">&#9711; Next Step // Schedule Your Strategy Session</span>
+    <span class="eyebrow" style="justify-content:center; display:flex;">&#9711; THE DECISION // Your AI Presence Starts This Week</span>
     <h2 class="cta-headline">
-      <span class="line1">Own Irvine's</span>
-      <span class="line2">AI Results</span>
-      <span class="line3">Now</span>
+      <span class="line1">We Start</span>
+      <span class="line2">Monday.</span>
+      <span class="line3">Let&rsquo;s Go.</span>
     </h2>
     <p class="cta-sub">
-      TrueDoor has every structural advantage to dominate Orange County's AI search results.
-      Here's exactly what happens when we engage.
+      TrueDoor has every structural advantage to own Orange County&rsquo;s AI results. The only question is whether we start this week or let HCM take the field while you wait.
     </p>
 
     <div class="next-steps">
       <div class="next-step-card">
-        <div class="next-step-num">01</div>
-        <div class="next-step-title">Strategy Call (30 min)</div>
-        <div class="next-step-body">Walk through your full AERO-10 findings. Confirm the 10 target queries. Align on franchise considerations and content plan.</div>
+        <div class="next-step-num">Day 1</div>
+        <div class="next-step-title">Onboarding Call &mdash; 30 Min</div>
+        <div class="next-step-body">We finalize the 10-query content plan, confirm WordPress access, and review any franchise content considerations. You do nothing after this call.</div>
       </div>
       <div class="next-step-card">
-        <div class="next-step-num">02</div>
-        <div class="next-step-title">Month 1 Deployment</div>
-        <div class="next-step-body">AE builds FAQ schema, fixes author attribution, and completes entity graph. All done inside your existing WordPress + Yoast setup. No developer needed.</div>
+        <div class="next-step-num">Week 1</div>
+        <div class="next-step-title">Foundation Live</div>
+        <div class="next-step-body">FAQ schema, entity graph, and author attribution deployed inside your existing WordPress + Yoast setup. No developer. No downtime. AI systems start indexing TrueDoor immediately.</div>
       </div>
       <div class="next-step-card">
-        <div class="next-step-num">03</div>
-        <div class="next-step-title">Monthly Query Reports</div>
-        <div class="next-step-body">Each month: which of the 10 queries TrueDoor now appears in, what AI systems are saying, and what to target next. Transparent progress, query by query.</div>
+        <div class="next-step-num">Month 4</div>
+        <div class="next-step-title">The Curve Begins</div>
+        <div class="next-step-body">GSC impressions jump. First AI citations appear across your target queries. HCM starts losing ground it can&rsquo;t get back. Kyle gets the report showing exactly which queries TrueDoor now owns.</div>
       </div>
     </div>
 
     <div class="cta-buttons">
-      <a href="https://theanswerengine.ai/blindspot" class="btn-primary">
-        Book Your Strategy Call &rarr;
+      <a href="mailto:justin@theanswerengine.ai?subject=TrueDoor%20%E2%80%94%20Ready%20to%20Start" class="btn-primary">
+        I&rsquo;m In &mdash; Let&rsquo;s Start &rarr;
       </a>
       <a href="tel:+12134442229" class="btn-secondary">
         (213) 444-2229
