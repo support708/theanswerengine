@@ -600,77 +600,121 @@
   .pillar-score.high { color: #4ade80; }
 
   /* ================================
-     SLIDE 7 — THE FIX
+     SLIDE 7 — THE FIX (AE SERVICE)
   ================================ */
   #slide7 { background: var(--bg); }
 
-  .fix-cols {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    gap: 16px;
+  /* Content delivery table */
+  .content-table {
+    width: 100%;
     max-width: 840px;
+    border-collapse: collapse;
+    margin-bottom: 20px;
   }
-  .fix-col-head {
+  .content-table th {
+    padding: 10px 14px;
     font-family: 'DM Mono', monospace;
     font-size: 9px;
     letter-spacing: 0.2em;
     text-transform: uppercase;
-    padding: 10px 0;
+    color: var(--muted);
+    text-align: left;
+    border-bottom: 1px solid var(--border-strong);
+  }
+  .content-table td {
+    padding: 13px 14px;
+    font-size: 13px;
     border-bottom: 1px solid var(--border);
-    margin-bottom: 14px;
+    vertical-align: top;
+    line-height: 1.45;
   }
-  .fix-col-head.q1 { color: var(--orange); }
-  .fix-col-head.q2 { color: #60a5fa; }
-  .fix-col-head.q3 { color: var(--green); }
+  .content-table tr.mo-head td {
+    background: rgba(255,255,255,0.025);
+    font-family: 'DM Mono', monospace;
+    font-size: 9px;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    padding: 8px 14px;
+    border-bottom: none;
+  }
+  .content-table tr.mo-head.m1 td { color: var(--orange); }
+  .content-table tr.mo-head.m2 td { color: #60a5fa; }
+  .content-table tr.mo-head.m3 td { color: var(--green); }
+  .content-table td.article-title { font-weight: 600; color: var(--text); }
+  .content-table td.query-target  { font-size: 11px; color: var(--muted); font-style: italic; }
+  .content-table td.output-tag {
+    font-family: 'DM Mono', monospace;
+    font-size: 10px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--orange);
+  }
 
-  .fix-item {
+  /* Funnel strip */
+  .funnel-strip {
+    max-width: 840px;
     display: flex;
-    gap: 10px;
-    align-items: flex-start;
-    margin-bottom: 14px;
+    align-items: center;
+    gap: 0;
+    margin-bottom: 16px;
   }
-  .fix-num {
+  .funnel-step {
+    flex: 1;
+    padding: 14px 16px;
+    border: 1px solid var(--border);
+    background: rgba(255,255,255,0.02);
+    text-align: center;
+  }
+  .funnel-step-label {
+    font-family: 'DM Mono', monospace;
+    font-size: 9px;
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
+    color: var(--muted);
+    margin-bottom: 5px;
+  }
+  .funnel-step-val {
     font-family: 'Space Grotesk', sans-serif;
     font-weight: 900;
     font-size: 13px;
-    color: var(--orange);
-    flex-shrink: 0;
-    margin-top: 1px;
-    width: 18px;
+    letter-spacing: -0.01em;
+    color: var(--text);
+    line-height: 1.3;
   }
-  .fix-num.blue  { color: #60a5fa; }
-  .fix-num.green { color: var(--green); }
-  .fix-text { font-size: 13px; line-height: 1.5; }
-  .fix-text strong { display: block; font-weight: 600; margin-bottom: 2px; color: var(--text); }
-  .fix-text span { font-size: 11px; color: var(--muted); font-weight: 300; }
+  .funnel-arrow {
+    font-size: 18px;
+    color: var(--orange);
+    padding: 0 4px;
+    flex-shrink: 0;
+  }
 
-  .franchise-note {
-    margin-top: 18px;
+  .parallel-note {
     max-width: 840px;
     padding: 12px 16px;
-    border: 1px solid rgba(255,255,255,0.08);
-    background: rgba(255,255,255,0.02);
+    border: 1px solid rgba(255,255,255,0.06);
+    background: rgba(255,255,255,0.015);
     display: flex;
     gap: 10px;
     align-items: flex-start;
   }
-  .franchise-note-label {
+  .parallel-note-label {
     font-family: 'DM Mono', monospace;
     font-size: 9px;
     letter-spacing: 0.18em;
     text-transform: uppercase;
-    color: var(--orange);
+    color: var(--muted);
     white-space: nowrap;
     margin-top: 1px;
+    flex-shrink: 0;
   }
-  .franchise-note p {
+  .parallel-note p {
     font-size: 12px;
     color: var(--muted);
     line-height: 1.55;
   }
 
   .fix-result {
-    margin-top: 20px;
+    margin-top: 16px;
     max-width: 840px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -1379,111 +1423,112 @@
 </section>
 
 <!-- ================================================
-     SLIDE 7 — THE FIX
+     SLIDE 7 — THE FIX (AE SERVICE)
 ================================================ -->
 <section class="slide" id="slide7">
   <div class="glow-orange" style="bottom:-200px; right:-200px;"></div>
   <div class="slide-num">07 / 08</div>
   <div class="slide-inner">
-    <span class="eyebrow">&#9711; 90-Day Roadmap // From Invisible to Indispensable</span>
-    <h2 class="slide-headline">The Fix Is <span class="accent">Already Mapped</span></h2>
-    <p class="slide-sub">Three phases targeting all 10 identified queries. Projected 26-point AERO-10 gain in 90 days.</p>
+    <span class="eyebrow">&#9711; AE Engagement // Content That Gets Views and Calls</span>
+    <h2 class="slide-headline">We Build It. <span class="accent">AI Sends the Calls.</span></h2>
+    <p class="slide-sub">AE writes and deploys 9 content assets over 90 days &mdash; each targeting one query from your map, each structured so AI systems cite TrueDoor when landlords search.</p>
 
-    <div class="fix-cols">
-      <!-- Month 1: Quick Wins + Structure -->
-      <div>
-        <div class="fix-col-head q1">&#9632; Month 1 — Quick Wins</div>
-        <div class="fix-item">
-          <span class="fix-num">01</span>
-          <div class="fix-text">
-            <strong>FAQPage Schema (Week 1)</strong>
-            <span>Add Yoast FAQ blocks to fees page + /faq page. No developer needed &mdash; 10 minutes in WordPress.</span>
-          </div>
-        </div>
-        <div class="fix-item">
-          <span class="fix-num">02</span>
-          <div class="fix-text">
-            <strong>Fix Author Attribution</strong>
-            <span>Change blog post author from "Up Keep Media" to Kyle Thompson or Bryant Hull in WP user settings. Instant E-E-A-T signal.</span>
-          </div>
-        </div>
-        <div class="fix-item">
-          <span class="fix-num">03</span>
-          <div class="fix-text">
-            <strong>Complete Entity Graph</strong>
-            <span>Add LinkedIn + Instagram to Yoast sameAs fields. Closes confirmed P7 gap from page source analysis.</span>
-          </div>
-        </div>
+    <!-- How the funnel works -->
+    <div class="funnel-strip">
+      <div class="funnel-step">
+        <div class="funnel-step-label">Landlord searches</div>
+        <div class="funnel-step-val">"PM fees OC 2026"</div>
       </div>
-
-      <!-- Month 2: Content -->
-      <div>
-        <div class="fix-col-head q2">&#9632; Month 2 — Content</div>
-        <div class="fix-item">
-          <span class="fix-num blue">04</span>
-          <div class="fix-text">
-            <strong>Fees Comparison Post</strong>
-            <span>"Property Management Fees Orange County 2026" &mdash; targets the single highest-intent query in our map.</span>
-          </div>
-        </div>
-        <div class="fix-item">
-          <span class="fix-num blue">05</span>
-          <div class="fix-text">
-            <strong>Tenant Screening Guide</strong>
-            <span>"How Tenant Screening Works in California" &mdash; Q&amp;A format AI systems cite directly.</span>
-          </div>
-        </div>
-        <div class="fix-item">
-          <span class="fix-num blue">06</span>
-          <div class="fix-text">
-            <strong>Out-of-State Landlord Guide</strong>
-            <span>"Managing Irvine Property from Out of State" &mdash; underserved niche, no competitor fully owns it.</span>
-          </div>
-        </div>
+      <div class="funnel-arrow">&#8594;</div>
+      <div class="funnel-step">
+        <div class="funnel-step-label">AI cites</div>
+        <div class="funnel-step-val">TrueDoor article</div>
       </div>
-
-      <!-- Month 3: Authority -->
-      <div>
-        <div class="fix-col-head q3">&#9632; Month 3 — Authority</div>
-        <div class="fix-item">
-          <span class="fix-num green">07</span>
-          <div class="fix-text">
-            <strong>NARPM Membership</strong>
-            <span>Join + pursue RMP certification. ~$500/yr. Adds credentialing signal to P6.</span>
-          </div>
-        </div>
-        <div class="fix-item">
-          <span class="fix-num green">08</span>
-          <div class="fix-text">
-            <strong>OC Roundup Submissions</strong>
-            <span>Submit to Expertise.com, HomeGuide, iPropertyManagement "Best of OC" editorial lists.</span>
-          </div>
-        </div>
-        <div class="fix-item">
-          <span class="fix-num green">09</span>
-          <div class="fix-text">
-            <strong>OC Rental Market Report</strong>
-            <span>Annual proprietary data report. Drives backlinks + co-citation anchors across PM directories.</span>
-          </div>
-        </div>
+      <div class="funnel-arrow">&#8594;</div>
+      <div class="funnel-step">
+        <div class="funnel-step-label">Landlord clicks</div>
+        <div class="funnel-step-val">TrueDoor website</div>
+      </div>
+      <div class="funnel-arrow">&#8594;</div>
+      <div class="funnel-step" style="border-color: rgba(255,106,0,0.4); background: var(--orange-dim);">
+        <div class="funnel-step-label">Call or form submit</div>
+        <div class="funnel-step-val" style="color: var(--orange);">Kyle gets the lead</div>
       </div>
     </div>
 
-    <div class="franchise-note">
-      <div class="franchise-note-label">&#9711; Note</div>
+    <!-- Content delivery table -->
+    <table class="content-table">
+      <thead>
+        <tr>
+          <th style="width:38%">Article AE Writes &amp; Deploys</th>
+          <th style="width:38%">Query It Targets</th>
+          <th>Output</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr class="mo-head m1"><td colspan="3">&#9632; Month 1 &mdash; Schema Foundation + First Article</td></tr>
+        <tr>
+          <td class="article-title">FAQ schema on fees + services pages</td>
+          <td class="query-target">"property management fees Orange County" / process queries</td>
+          <td class="output-tag">AI-Readable</td>
+        </tr>
+        <tr>
+          <td class="article-title">"Property Management Fees OC 2026: What Landlords Pay"</td>
+          <td class="query-target">"how much does property management cost in Irvine CA"</td>
+          <td class="output-tag">Views + Calls</td>
+        </tr>
+
+        <tr class="mo-head m2"><td colspan="3">&#9632; Month 2 &mdash; Process &amp; Pain-Point Queries</td></tr>
+        <tr>
+          <td class="article-title">"Tenant Screening in California: What Every Landlord Must Know"</td>
+          <td class="query-target">"tenant screening process California property manager"</td>
+          <td class="output-tag">Views + Calls</td>
+        </tr>
+        <tr>
+          <td class="article-title">"Eviction Costs in Orange County: A Landlord's Real Guide"</td>
+          <td class="query-target">"eviction costs and process Orange County California"</td>
+          <td class="output-tag">Views + Calls</td>
+        </tr>
+        <tr>
+          <td class="article-title">"Managing Irvine Property from Out of State"</td>
+          <td class="query-target">"property management for out-of-state landlord Irvine"</td>
+          <td class="output-tag">Views + Calls</td>
+        </tr>
+
+        <tr class="mo-head m3"><td colspan="3">&#9632; Month 3 &mdash; Authority &amp; Discovery</td></tr>
+        <tr>
+          <td class="article-title">"First-Time Landlord Guide: Irvine, CA 2026"</td>
+          <td class="query-target">"best property manager single family home Orange County"</td>
+          <td class="output-tag">Views + Calls</td>
+        </tr>
+        <tr>
+          <td class="article-title">"Best Property Management Companies in Irvine &mdash; and How to Choose"</td>
+          <td class="query-target">"best property management companies in Irvine CA"</td>
+          <td class="output-tag">Views + Calls</td>
+        </tr>
+        <tr>
+          <td class="article-title">OC Rental Market Report 2026 (TrueDoor proprietary data)</td>
+          <td class="query-target">Branded + backlink authority across all 10 queries</td>
+          <td class="output-tag">Authority</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <div class="parallel-note">
+      <div class="parallel-note-label">Parallel</div>
       <p>
-        All content strategy is designed to be clean of any prior franchise obligations. If TrueDoor has existing restrictions from a previous brand relationship, AE reviews all recommendations against those terms before publishing. No legacy naming, client references, or restricted claims will appear in any deliverable.
+        NARPM membership, BBB accreditation, and Zillow/Apartments.com profiles amplify everything AE builds &mdash; but these are one-time moves Kyle completes independently. They are not AE deliverables. All AE content is reviewed against any prior franchise obligations before publishing.
       </p>
     </div>
 
     <div class="fix-result">
       <div class="fix-result-card">
-        <div class="fix-result-val">+26 pts</div>
-        <div class="fix-result-label">Projected AERO-10 Gain</div>
+        <div class="fix-result-val">8</div>
+        <div class="fix-result-label">Articles AE Writes in 90 Days</div>
       </div>
       <div class="fix-result-card">
-        <div class="fix-result-val">90 days</div>
-        <div class="fix-result-label">To Measurable AI Presence</div>
+        <div class="fix-result-val">10</div>
+        <div class="fix-result-label">Target Queries Addressed</div>
       </div>
       <div class="fix-result-card">
         <div class="fix-result-val">$140K+</div>
