@@ -1930,7 +1930,7 @@
     "reviewCount": 121,
     "rating": 5,
     "notes": "Auto-discovered by Lead Hunter. AI citation: not cited on 0/1 platforms. Competitors cited: Smile LA Downtown Modern Dentistry, Downtown Dental, Westside Dental Associates. Outreach-ready: YES (citation data + contact + differentiator verified). Differentiator: Established 2016, 5.0-star rating on Rank My Dentist, family-owned practice, known for pain-free procedures and comprehensive cosmetic dentistry",
-    "status": "sent",
+    "status": "follow_up_1",
     "research": {
       "reviewCount": 121,
       "rating": 5,
@@ -2044,10 +2044,14 @@
       {
         "action": "Initial email auto-sent via Gmail (19da2652efe81256)",
         "timestamp": "2026-04-18T21:00:33.448Z"
+      },
+      {
+        "action": "follow_up_1 auto-sent via Gmail (19db5ebef658dc19)",
+        "timestamp": "2026-04-22T16:00:33.132Z"
       }
     ],
     "createdAt": "2026-03-09T02:38:32.048Z",
-    "updatedAt": "2026-04-18T21:00:33.448Z",
+    "updatedAt": "2026-04-22T16:00:33.273Z",
     "huntSource": "hunt_1773023618468_oxni",
     "huntScore": 36,
     "huntPriority": "P1",
