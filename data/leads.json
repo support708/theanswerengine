@@ -4664,22 +4664,124 @@
     "serviceNiche": "Roofing Contractor",
     "competitorName": "Bilt-well Roofing",
     "reviewCount": 188,
-    "rating": null,
+    "rating": 4.8,
     "notes": "Auto-discovered by Lead Hunter. AI citation: not cited on 1/1 platforms. Competitors cited: Bilt-well Roofing, J and J Roofing, Smart Roofing. Outreach-ready: YES (citation data + contact + differentiator verified). Differentiator: 30+ years in business, family-owned 3rd generation, Eagle Rock based, Neighborhood Favorite 2021-2023",
-    "status": "queued",
-    "research": null,
+    "status": "report_ready",
+    "research": {
+      "reviewCount": 188,
+      "rating": 4.8,
+      "yearsInBusiness": 30,
+      "credentials": [
+        "CA Contractors State License #874964",
+        "CA Contractors State License #849115",
+        "CA Contractors State License #853427",
+        "CA Contractors State License #892081",
+        "General B License for remodeling/construction",
+        "Owens Corning Preferred Roofing Contractor"
+      ],
+      "awards": [
+        "Nextdoor Neighborhood Favorite 2021",
+        "Nextdoor Neighborhood Favorite 2022",
+        "Nextdoor Neighborhood Favorite 2023"
+      ],
+      "communityInvolvement": [
+        "Family owned 3rd generation business",
+        "Eagle Rock based, deeply embedded in local community",
+        "Hired to work on local institutions including radio stations",
+        "Community service oriented messaging on Nextdoor and social media",
+        "Active on Instagram and social platforms with regular community project showcases"
+      ],
+      "hiddenDifferentiators": [
+        "3rd generation family ownership (Andy Chavez actively managing)",
+        "Eagle Rock headquarters signals hyper-local commitment",
+        "Owens Corning Preferred Contractor status",
+        "Drone inspection capabilities for wind damage assessment",
+        "Financing options available to customers",
+        "Bonded warranty backed service model",
+        "Satellite imagery and virtual estimate capabilities",
+        "Responsive to emergency situations with quick turnaround"
+      ],
+      "topCompetitors": [
+        {
+          "name": "Bilt-Well Roofing",
+          "reason": "90+ years in business, family-owned 3 generations, 163 Yelp reviews, strong institutional presence with BBB accreditation since 1958, extensive service areas across Southern California"
+        },
+        {
+          "name": "Smart Roofing",
+          "reason": "Listed on Yelp top 10, CA license #1067452, handles residential and commercial, serves multiple LA areas"
+        },
+        {
+          "name": "J and J Roofing",
+          "reason": "Pasadena-based, 20+ years in business, 30+ roofing professionals, co-cited with ANR as competitor"
+        }
+      ],
+      "faqContentPresent": false,
+      "blogPresent": false,
+      "gmbPresent": true,
+      "schemaDetected": true,
+      "recentContent": true,
+      "uniqueStory": "Family-owned 3rd generation roofing contractor led by Andy Chavez (owner mentioned in customer reviews and company responses). 30+ years in business operating from Eagle Rock, a neighborhood in northeast Los Angeles. Strong community ties with Neighborhood Favorite designations 2021-2023. Known for responsive customer service, fair pricing, honest assessments (refusing unnecessary roof replacements), and going above and beyond including LADWP rebate assistance. Multi-generation succession planning evident with son interested in joining firm.",
+      "aiCited": false,
+      "aero7": {
+        "answerQuality": 6,
+        "entityOptimization": 4,
+        "relevanceFreshness": 7,
+        "optimizationStructure": 5,
+        "voiceAuthenticity": 7,
+        "authoritySignals": 7,
+        "authorityDistribution": 6,
+        "consensusCoCitation": 5,
+        "platformReadiness": 4,
+        "technicalAccessibility": 5,
+        "total": 56
+      },
+      "rawNotes": "ANR Roofing demonstrates strong offline authority (188 Yelp reviews, 4.8 rating on Angi, Neighborhood Favorite awards) but weak AI visibility. Website has testimonials page with verified customer stories featuring owner name (Andy Chavez) and crew member names (Ricardo, Ezra Chavez, Manuel), demonstrating authenticity. Site mentions 30+ years, Eagle Rock location, family-owned, but lacks blog/FAQ pages. FAQ would capture long-tail search intent (\"Is roof repairable?\", \"What's a bonded warranty?\"). Schema presence confirmed (WordPress.org, PHP tech stack) but depth unknown. No detected blog content despite many roofing companies ranking on educational content. Nextdoor presence strong (Neighborhood Favorite 2021-2023, detailed testimonials embedded) but limited LinkedIn, Reddit, or news mentions. Address consistency verified: 4743 Eagle Rock Blvd (Yelp/BuildZoom) vs 1551 Colorado Blvd Suite 205 (website contact page) - slight variation noted. Google Business Profile present on Yelp/maps platforms. Owens Corning Preferred status documented but not mentioned on homepage, missed opportunity. Instagram active (anrroofinginc) with recent posts (December 2025) showing work quality and community projects. Responsive messaging from owner Andy Chavez in reviews shows engagement but some negative reviews cite slow email response during high-demand periods. Established 2004 per Yelp. BuildZoom score 89 (above 30% but not top tier). Financing capability recent addition (post-COVID messaging). Drone inspection offering differentiates from smaller competitors. AI systems unlikely to cite ANR because: (1) no blog/educational content, (2) limited schema depth unverified, (3) most authority concentrated on Nextdoor (not crawled by AI engines like ChatGPT), (4) lacks structured FAQ data, (5) no visible credentials markup. Competitor Bilt-Well (90+ years) likely appears more in AI results due to longer history and stronger brand recognition despite same/lower review count. Smart Roofing and J&J Roofing also appear in AI recommendations but ANR does not. Opportunity: Publish 5-10 blog posts (roof maintenance, material guide, financing explainer), add FAQ schema, ensure Owens Corning status visible, improve response SLAs on emails, add local news mentions through community press releases.",
+      "researchedAt": "2026-04-22T10:00:30.765Z"
+    },
     "reportSlug": "anr-roofing-v7j6",
     "emailDraftId": null,
     "fabricationFlags": [],
-    "emDashClean": false,
+    "emDashClean": true,
     "actionLog": [
       {
         "action": "Queued by Lead Hunter (P2, score: 32, outreach-ready: true)",
         "timestamp": "2026-04-09T14:00:57.391Z"
+      },
+      {
+        "action": "Research started (auto-pipeline)",
+        "timestamp": "2026-04-22T10:00:02.053Z"
+      },
+      {
+        "action": "Research completed (AERO-10: 56/100)",
+        "timestamp": "2026-04-22T10:00:30.765Z"
+      },
+      {
+        "action": "Report generation started",
+        "timestamp": "2026-04-22T10:00:30.765Z"
+      },
+      {
+        "action": "Competitor battlecard attached",
+        "timestamp": "2026-04-22T10:02:30.463Z"
+      },
+      {
+        "action": "Report generated",
+        "timestamp": "2026-04-22T10:02:30.463Z"
+      },
+      {
+        "action": "Fabrication scan: CLEAN",
+        "timestamp": "2026-04-22T10:02:30.463Z"
+      },
+      {
+        "action": "Em-dash scan: CLEAN",
+        "timestamp": "2026-04-22T10:02:30.463Z"
+      },
+      {
+        "action": "Report + OG metadata deployed to production",
+        "timestamp": "2026-04-22T10:02:30.613Z"
       }
     ],
     "createdAt": "2026-04-09T14:00:57.391Z",
-    "updatedAt": "2026-04-09T14:00:57.391Z",
+    "updatedAt": "2026-04-22T10:02:30.463Z",
     "huntSource": "hunt_1775743210629_lqp4",
     "huntScore": 32,
     "huntPriority": "P2",
