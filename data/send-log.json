@@ -288,6 +288,12 @@
       "email": "office@smilela.com",
       "type": "follow_up_2",
       "sentAt": "2026-04-22T16:00:22.933Z"
+    },
+    {
+      "leadId": "lead_1773023912048_txdo74",
+      "email": "drburnett@losangelesdentalarts.com",
+      "type": "follow_up_2",
+      "sentAt": "2026-04-22T16:00:27.484Z"
     }
   ]
 }
