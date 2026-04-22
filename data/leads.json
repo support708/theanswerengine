@@ -4519,7 +4519,7 @@
     "reviewCount": 213,
     "rating": 4.3,
     "notes": "Auto-discovered by Lead Hunter. AI citation: not cited on 1/1 platforms. Competitors cited: Bilt-well Roofing, J and J Roofing, Smart Roofing. Outreach-ready: YES (citation data + contact + differentiator verified). Differentiator: Modern tech-forward approach, satellite imagery technology for quotes, transparent pricing, 'Roofing The Easy Way' philosophy",
-    "status": "report_ready",
+    "status": "sent",
     "research": {
       "reviewCount": 213,
       "rating": 4.3,
@@ -4626,10 +4626,14 @@
       {
         "action": "Report + OG metadata deployed to production",
         "timestamp": "2026-04-22T07:02:49.622Z"
+      },
+      {
+        "action": "Initial email auto-sent via Gmail (19db486ae9459a0b)",
+        "timestamp": "2026-04-22T09:30:18.950Z"
       }
     ],
     "createdAt": "2026-04-09T14:00:57.391Z",
-    "updatedAt": "2026-04-22T07:02:49.451Z",
+    "updatedAt": "2026-04-22T09:30:18.950Z",
     "huntSource": "hunt_1775743210629_lqp4",
     "huntScore": 32,
     "huntPriority": "P2",
