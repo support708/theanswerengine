@@ -4218,7 +4218,7 @@
     "reviewCount": 705,
     "rating": 4.8,
     "notes": "Auto-discovered by Lead Hunter. AI citation: not cited on 1/1 platforms. Competitors cited: Bilt-well Roofing, J and J Roofing, Smart Roofing. Outreach-ready: YES (citation data + contact + differentiator verified). Differentiator: Family-owned, over 10 years in business, specializes in leak repairs and free estimates",
-    "status": "report_ready",
+    "status": "sent",
     "research": {
       "reviewCount": 705,
       "rating": 4.8,
@@ -4335,10 +4335,14 @@
       {
         "action": "Report + OG metadata deployed to production",
         "timestamp": "2026-04-22T05:02:40.665Z"
+      },
+      {
+        "action": "Initial email auto-sent via Gmail (19db3ab3fc64f45f)",
+        "timestamp": "2026-04-22T05:30:38.022Z"
       }
     ],
     "createdAt": "2026-04-09T14:00:57.391Z",
-    "updatedAt": "2026-04-22T05:02:40.542Z",
+    "updatedAt": "2026-04-22T05:30:38.022Z",
     "huntSource": "hunt_1775743210629_lqp4",
     "huntScore": 26,
     "huntPriority": "P2",

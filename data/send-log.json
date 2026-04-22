@@ -240,6 +240,12 @@
       "email": "weho@lejoliespa.com",
       "type": "initial",
       "sentAt": "2026-04-22T04:30:05.878Z"
+    },
+    {
+      "leadId": "lead_1775743257391_lsfg3r",
+      "email": "scheduling@roofrepairspecialist.com",
+      "type": "initial",
+      "sentAt": "2026-04-22T05:30:38.022Z"
     }
   ]
 }
