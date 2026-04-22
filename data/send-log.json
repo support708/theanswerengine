@@ -258,6 +258,12 @@
       "email": "info@bumbleroofing.com",
       "type": "initial",
       "sentAt": "2026-04-22T09:30:18.950Z"
+    },
+    {
+      "leadId": "lead_1773022425366_w6qto8",
+      "email": "service@electricconnection.com",
+      "type": "follow_up_2",
+      "sentAt": "2026-04-22T16:00:05.363Z"
     }
   ]
 }
