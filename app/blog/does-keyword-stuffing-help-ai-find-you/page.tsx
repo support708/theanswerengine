@@ -172,7 +172,7 @@ export default function BlogPost() {
             <span className="text-white/30">Keyword Stuffing Myth</span>
           </nav>
 
-          <span className="font-mono text-[10px] text-[#FF6A00] tracking-widest uppercase block mb-4">◉ MYTH BUSTERS // The Answer Engine Intel</span>
+          <span className="font-mono text-[10px] text-[#FF6A00] tracking-widest uppercase block mb-4">&#9679; MYTH BUSTERS // The Answer Engine Intel</span>
 
           <h1 className="font-headline font-black text-4xl md:text-6xl tracking-tighter uppercase text-[#e5e2e1] mb-6">
             {title}
@@ -190,10 +190,29 @@ export default function BlogPost() {
         </div>
       </section>
 
-      <article className="max-w-4xl mx-auto px-6 pb-20 pt-12">
-        <div className="prose prose-invert prose-lg max-w-none prose-headings:font-headline prose-headings:text-white prose-p:text-gray-300 prose-a:text-[#FF6A00] prose-a:no-underline hover:prose-a:underline prose-strong:text-white">
+      <article className="max-w-4xl mx-auto px-6 pb-20 overflow-x-hidden">
 
-          {/* TABLE OF CONTENTS */}
+        {/* INTRO BLOCK: stats + TOC */}
+        <div className="pt-12 pb-8">
+          <div className="ae-stats-grid not-prose mb-8">
+            <div className="ae-stat-card">
+              <div className="ae-stat-value ae-accent">63%</div>
+              <div className="ae-stat-label">of businesses using traditional SEO tactics see no improvement in AI citations</div>
+            </div>
+            <div className="ae-stat-card">
+              <div className="ae-stat-value ae-accent">1.2%</div>
+              <div className="ae-stat-label">of local businesses are currently cited by ChatGPT in any consistent way</div>
+            </div>
+            <div className="ae-stat-card">
+              <div className="ae-stat-value ae-accent">4.4x</div>
+              <div className="ae-stat-label">higher conversion rate from AI-referred traffic vs. traditional search</div>
+            </div>
+            <div className="ae-stat-card">
+              <div className="ae-stat-value ae-accent">45%</div>
+              <div className="ae-stat-label">of consumers now use AI to find local services and businesses</div>
+            </div>
+          </div>
+
           <div className="ae-toc not-prose">
             <div className="ae-toc-title">Table of Contents</div>
             <ul>
@@ -208,90 +227,80 @@ export default function BlogPost() {
               <li><a href="#faq">Frequently Asked Questions</a></li>
             </ul>
           </div>
+        </div>
 
-          {/* STATS GRID */}
-          <div className="ae-stats-grid not-prose">
-            <div className="ae-stat-card">
-<div className="ae-stat-value ae-accent">63%</div>
-              <div className="ae-stat-label">of businesses using traditional SEO tactics see no improvement in AI citations</div>
-            </div>
-            <div className="ae-stat-card">
-<div className="ae-stat-value ae-accent">1.2%</div>
-              <div className="ae-stat-label">of local businesses are currently cited by ChatGPT in any consistent way</div>
-            </div>
-            <div className="ae-stat-card">
-<div className="ae-stat-value ae-accent">4.4x</div>
-              <div className="ae-stat-label">higher conversion rate from AI-referred traffic vs. traditional search</div>
-            </div>
-            <div className="ae-stat-card">
-<div className="ae-stat-value ae-accent">45%</div>
-              <div className="ae-stat-label">of consumers now use AI to find local services and businesses</div>
-            </div>
+        {/* SECTION 1: THE MYTH */}
+        <section id="the-myth" className="-mx-6 px-6 py-12 bg-[#131313] border-t border-white/10">
+          <span className="font-mono text-[10px] text-[#FF6A00] tracking-widest uppercase block mb-3">
+            &#9679; MYTH BUSTERS // The Answer Engine Intel
+          </span>
+          <h2 className="font-headline font-black text-2xl md:text-3xl tracking-tighter uppercase text-[#e5e2e1] mb-6">
+            THE KEYWORD STUFFING <span className="text-[#FF6A00]">MYTH</span>
+          </h2>
+          <div className="prose prose-invert prose-lg max-w-none prose-p:text-gray-300 prose-a:text-[#FF6A00] prose-a:no-underline hover:prose-a:underline prose-strong:text-white">
+            <p>For most of the internet era, keyword density was treated like a volume knob. More keywords meant higher relevance scores. Marketers stuffed keywords into titles, headings, body copy, alt text, meta descriptions, and even hidden white-on-white text that users could not see but crawlers could read. And for a window of time, it worked.</p>
+            <p>That window closed for traditional search years ago when Google introduced semantic search capabilities. For AI platforms, that window never opened. ChatGPT, Perplexity, Claude, and Google AI Overviews were built on large language models that understand context and meaning from the first line of their architecture. There is no keyword count to exploit.</p>
           </div>
-
-          {/* SECTION 1: THE MYTH */}
-          <span className="ae-section-label" id="the-myth">Myth Busted</span>
-          <h2>The Keyword Stuffing Myth</h2>
-
-          <p>For most of the internet era, keyword density was treated like a volume knob. More keywords meant higher relevance scores. Marketers stuffed keywords into titles, headings, body copy, alt text, meta descriptions, and even hidden white-on-white text that users could not see but crawlers could read. And for a window of time, it worked.</p>
-
-          <p>That window closed for traditional search years ago when Google introduced semantic search capabilities. For AI platforms, that window never opened. ChatGPT, Perplexity, Claude, and Google AI Overviews were built on large language models that understand context and meaning from the first line of their architecture. There is no keyword count to exploit.</p>
-
-          <div className="ae-callout ae-callout-warning not-prose">
+          <div className="ae-callout ae-callout-warning mt-6">
             <div className="ae-callout-title">The Core Misunderstanding</div>
             <p>Most businesses approaching AI search assume it works like Google did in 2008. It does not. AI platforms do not rank pages by keywords. They synthesize answers from trusted sources. The question is not &ldquo;did you mention your target phrase enough times?&rdquo; It is &ldquo;does AI trust your business enough to cite it?&rdquo; Those are entirely different questions with entirely different answers.</p>
           </div>
-
-          <p>The keyword stuffing myth persists because the underlying intuition feels reasonable. If AI is searching for information about plumbers in Los Angeles, then a page mentioning &ldquo;plumber Los Angeles&rdquo; fifty times should be highly relevant, right? Wrong. The AI is not scanning for phrase matches. It is evaluating whether your business represents genuine, verifiable expertise in your field and location.</p>
-
-          <p>Understanding why requires a clear picture of how AI platforms actually process content.</p>
-
-          {/* CTA 1 */}
-          <div className="ae-cta-inline not-prose">
+          <div className="prose prose-invert prose-lg max-w-none prose-p:text-gray-300 prose-a:text-[#FF6A00] prose-a:no-underline hover:prose-a:underline prose-strong:text-white mt-6">
+            <p>The keyword stuffing myth persists because the underlying intuition feels reasonable. If AI is searching for information about plumbers in Los Angeles, then a page mentioning &ldquo;plumber Los Angeles&rdquo; fifty times should be highly relevant, right? Wrong. The AI is not scanning for phrase matches. It is evaluating whether your business represents genuine, verifiable expertise in your field and location.</p>
+            <p>Understanding why requires a clear picture of how AI platforms actually process content.</p>
+          </div>
+          <div className="ae-cta-inline not-prose mt-6">
             <p>Wondering if your current content strategy is helping or hurting your AI visibility?</p>
             <Link href="/blindspot">Get Your Free Blind Spot Report &rarr;</Link>
           </div>
+        </section>
 
-          {/* SECTION 2: HOW AI READS */}
-          <span className="ae-section-label" id="how-ai-reads">Under the Hood</span>
-          <h2>How AI Platforms Actually Read Your Content</h2>
-
-          <p>When an AI platform like ChatGPT encounters your website, it is not performing a keyword match. It is performing semantic analysis across multiple dimensions simultaneously. The model evaluates what your content means, not just what words appear in it.</p>
-
-          <p>This distinction matters enormously. Two pages can discuss the exact same topic with the exact same keywords and receive completely different AI treatment, because the model understands which one demonstrates genuine expertise and which one merely repeats terminology.</p>
-
-          <div className="ae-callout ae-callout-info not-prose">
+        {/* SECTION 2: HOW AI READS */}
+        <section id="how-ai-reads" className="-mx-6 px-6 py-12 bg-[#1c1b1b] border-t border-white/10">
+          <span className="font-mono text-[10px] text-[#FF6A00] tracking-widest uppercase block mb-3">
+            &#9679; HOW IT WORKS // The Answer Engine Intel
+          </span>
+          <h2 className="font-headline font-black text-2xl md:text-3xl tracking-tighter uppercase text-[#e5e2e1] mb-6">
+            HOW AI ACTUALLY <span className="text-[#FF6A00]">READS</span> YOUR CONTENT
+          </h2>
+          <div className="prose prose-invert prose-lg max-w-none prose-p:text-gray-300 prose-a:text-[#FF6A00] prose-a:no-underline hover:prose-a:underline prose-strong:text-white">
+            <p>When an AI platform like ChatGPT encounters your website, it is not performing a keyword match. It is performing semantic analysis across multiple dimensions simultaneously. The model evaluates what your content means, not just what words appear in it.</p>
+            <p>This distinction matters enormously. Two pages can discuss the exact same topic with the exact same keywords and receive completely different AI treatment, because the model understands which one demonstrates genuine expertise and which one merely repeats terminology.</p>
+          </div>
+          <div className="ae-callout ae-callout-info mt-6">
             <div className="ae-callout-title">What &ldquo;Semantic Understanding&rdquo; Actually Means</div>
             <p>Large language models are trained to understand relationships between concepts, not just word co-occurrence. When evaluating a plumbing company, the AI understands that licensed, insured, emergency service, pipe repair, drain cleaning, and water heater installation are semantically related concepts in the plumbing domain. A page that demonstrates deep, interconnected knowledge of these concepts reads as authoritative. A page that simply repeats &ldquo;best plumber Los Angeles&rdquo; reads as shallow and keyword-stuffed.</p>
           </div>
-
-          <p>Beyond semantic analysis, AI platforms use retrieval layers that cross-reference your content against external signals. This means the AI is not just reading your page in isolation. It is comparing what your page says against what directories, review platforms, licensing databases, and other authoritative sources say about your business.</p>
-
-          <p>To understand exactly what AI sees when it visits your site, our guide on <Link href="/blog/what-your-website-looks-like-to-an-ai-crawler">what your website looks like to an AI crawler</Link> breaks down the specific elements that matter and how they get interpreted.</p>
-
-          {/* CTA 2 */}
-          <div className="ae-cta-inline not-prose">
+          <div className="prose prose-invert prose-lg max-w-none prose-p:text-gray-300 prose-a:text-[#FF6A00] prose-a:no-underline hover:prose-a:underline prose-strong:text-white mt-6">
+            <p>Beyond semantic analysis, AI platforms use retrieval layers that cross-reference your content against external signals. This means the AI is not just reading your page in isolation. It is comparing what your page says against what directories, review platforms, licensing databases, and other authoritative sources say about your business.</p>
+            <p>To understand exactly what AI sees when it visits your site, our guide on <Link href="/blog/what-your-website-looks-like-to-an-ai-crawler">what your website looks like to an AI crawler</Link> breaks down the specific elements that matter and how they get interpreted.</p>
+          </div>
+          <div className="ae-cta-inline not-prose mt-6">
             <p>Find out exactly what AI platforms currently see when they crawl your site.</p>
             <a href="tel:+12134442229">Call (213) 444-2229 for a Free Strategy Session &rarr;</a>
           </div>
+        </section>
 
-          {/* SECTION 3: WHY IT BACKFIRES */}
-          <span className="ae-section-label" id="why-it-backfires">The Backfire Effect</span>
-          <h2>Why Keyword Stuffing Actively Backfires on AI</h2>
-
-          <p>Keyword stuffing is not just ineffective on AI platforms. It is actively harmful. The same language model capabilities that allow AI to understand genuine expertise also allow it to identify content that has been artificially manipulated for extraction. Stuffed content reads differently from naturally written content, and AI detects this immediately.</p>
-
-          <p>Think of it from the model&apos;s perspective. The AI has been trained on billions of pages written by genuine experts: medical journals, legal briefs, technical manuals, investigative journalism. High-quality content has specific patterns: varied sentence structure, conceptual depth, logical progression of ideas, and specific details that only someone with real experience would include. Keyword-stuffed content lacks all of these qualities. It has unnatural repetition, thin substance, and the hallmarks of optimization-first writing.</p>
-
-          <div className="ae-callout ae-callout-orange not-prose">
+        {/* SECTION 3: WHY IT BACKFIRES */}
+        <section id="why-it-backfires" className="-mx-6 px-6 py-12 bg-[#131313] border-t border-white/10">
+          <span className="font-mono text-[10px] text-[#FF6A00] tracking-widest uppercase block mb-3">
+            &#9679; THE BACKFIRE EFFECT // The Answer Engine Intel
+          </span>
+          <h2 className="font-headline font-black text-2xl md:text-3xl tracking-tighter uppercase text-[#e5e2e1] mb-6">
+            WHY KEYWORD STUFFING <span className="text-[#FF6A00]">BACKFIRES</span>
+          </h2>
+          <div className="prose prose-invert prose-lg max-w-none prose-p:text-gray-300 prose-a:text-[#FF6A00] prose-a:no-underline hover:prose-a:underline prose-strong:text-white">
+            <p>Keyword stuffing is not just ineffective on AI platforms. It is actively harmful. The same language model capabilities that allow AI to understand genuine expertise also allow it to identify content that has been artificially manipulated for extraction. Stuffed content reads differently from naturally written content, and AI detects this immediately.</p>
+            <p>Think of it from the model&apos;s perspective. The AI has been trained on billions of pages written by genuine experts: medical journals, legal briefs, technical manuals, investigative journalism. High-quality content has specific patterns: varied sentence structure, conceptual depth, logical progression of ideas, and specific details that only someone with real experience would include. Keyword-stuffed content lacks all of these qualities. It has unnatural repetition, thin substance, and the hallmarks of optimization-first writing.</p>
+          </div>
+          <div className="ae-callout ae-callout-orange mt-6">
             <div className="ae-callout-title">What AI Actually Flags as Low Quality</div>
             <p>AI citation systems specifically deprioritize content that repeats target phrases unnaturally, lacks depth on the claimed topic, provides no specific or verifiable details, reads as machine-generated or template-based, and fails to demonstrate first-hand experience with the subject. Keyword stuffing triggers multiple of these flags simultaneously. The result is not just a missed citation opportunity. It is active exclusion from the citation pool for that topic.</p>
           </div>
-
-          <p>The 63% of businesses seeing no AI citation improvement despite applying traditional SEO tactics are largely in this situation. They are optimizing for a signal (keyword density) that AI platforms do not use, while neglecting the signals (entity authority, structured data, content depth) that AI platforms do use. They are not just running in place. They are running in the wrong direction.</p>
-
-          {/* BAR GROUP */}
-          <div className="ae-bar-group not-prose">
+          <div className="prose prose-invert prose-lg max-w-none prose-p:text-gray-300 prose-a:text-[#FF6A00] prose-a:no-underline hover:prose-a:underline prose-strong:text-white mt-6">
+            <p>The 63% of businesses seeing no AI citation improvement despite applying traditional SEO tactics are largely in this situation. They are optimizing for a signal (keyword density) that AI platforms do not use, while neglecting the signals (entity authority, structured data, content depth) that AI platforms do use. They are not just running in place. They are running in the wrong direction.</p>
+          </div>
+          <div className="ae-bar-group not-prose mt-6">
             <div className="ae-bar-item">
               <div className="ae-bar-label">Entity Authority and Verification</div>
               <div className="ae-bar-track"><div className="ae-bar-fill" style={{width:'92%'}}></div></div>
@@ -323,22 +332,27 @@ export default function BlogPost() {
               <div className="ae-bar-value">4%</div>
             </div>
           </div>
-
-          <p>The chart above illustrates relative impact on AI citation probability based on signal type. Keyword density sits at the bottom because AI platforms do not use it as a meaningful ranking factor. Every percentage point of effort spent on keyword stuffing is a percentage point not spent on the signals that actually move the needle.</p>
-
-          {/* CTA 3 */}
-          <div className="ae-cta-inline not-prose">
+          <div className="prose prose-invert prose-lg max-w-none prose-p:text-gray-300 prose-a:text-[#FF6A00] prose-a:no-underline hover:prose-a:underline prose-strong:text-white mt-6">
+            <p>The chart above illustrates relative impact on AI citation probability based on signal type. Keyword density sits at the bottom because AI platforms do not use it as a meaningful ranking factor. Every percentage point of effort spent on keyword stuffing is a percentage point not spent on the signals that actually move the needle.</p>
+          </div>
+          <div className="ae-cta-inline not-prose mt-6">
             <p>See which signals your site is currently missing. No obligation, no pitch.</p>
             <Link href="/blindspot">Request Your Free AI Visibility Audit &rarr;</Link>
           </div>
+        </section>
 
-          {/* SECTION 4: SEO VS AI */}
-          <span className="ae-section-label" id="seo-vs-ai">Side by Side</span>
-          <h2>SEO Keywords vs. AI Signals: A Direct Comparison</h2>
-
-          <p>To make this concrete, here is a direct comparison of how traditional keyword SEO thinking maps against what AI platforms actually evaluate. These are not subtle differences. They represent fundamentally different approaches to information retrieval.</p>
-
-          <table className="ae-comparison-table not-prose">
+        {/* SECTION 4: SEO VS AI */}
+        <section id="seo-vs-ai" className="-mx-6 px-6 py-12 bg-[#1c1b1b] border-t border-white/10">
+          <span className="font-mono text-[10px] text-[#FF6A00] tracking-widest uppercase block mb-3">
+            &#9679; SIDE BY SIDE // The Answer Engine Intel
+          </span>
+          <h2 className="font-headline font-black text-2xl md:text-3xl tracking-tighter uppercase text-[#e5e2e1] mb-6">
+            SEO KEYWORDS VS. <span className="text-[#FF6A00]">AI SIGNALS</span>
+          </h2>
+          <div className="prose prose-invert prose-lg max-w-none prose-p:text-gray-300 prose-a:text-[#FF6A00] prose-a:no-underline hover:prose-a:underline prose-strong:text-white">
+            <p>To make this concrete, here is a direct comparison of how traditional keyword SEO thinking maps against what AI platforms actually evaluate. These are not subtle differences. They represent fundamentally different approaches to information retrieval.</p>
+          </div>
+          <table className="ae-comparison-table not-prose mt-6">
             <thead>
               <tr>
                 <th>Factor</th>
@@ -389,24 +403,28 @@ export default function BlogPost() {
               </tr>
             </tbody>
           </table>
-
-          <p>The most important row in that table is the last one about penalties. Traditional SEO over-optimization could drop you from position three to position eight. AI search over-optimization through keyword stuffing can remove you from the citation pool entirely. That is not a ranking drop. That is invisibility.</p>
-
-          <p>For a deeper look at how the two systems interact in practice, our analysis of <Link href="/blog/does-having-more-web-pages-help-ai-find-you">whether having more web pages helps AI find you</Link> explores the volume-vs-depth question that many businesses get wrong.</p>
-
-          {/* CTA 4 */}
-          <div className="ae-cta-inline not-prose">
+          <div className="prose prose-invert prose-lg max-w-none prose-p:text-gray-300 prose-a:text-[#FF6A00] prose-a:no-underline hover:prose-a:underline prose-strong:text-white mt-6">
+            <p>The most important row in that table is the last one about penalties. Traditional SEO over-optimization could drop you from position three to position eight. AI search over-optimization through keyword stuffing can remove you from the citation pool entirely. That is not a ranking drop. That is invisibility.</p>
+            <p>For a deeper look at how the two systems interact in practice, our analysis of <Link href="/blog/does-having-more-web-pages-help-ai-find-you">whether having more web pages helps AI find you</Link> explores the volume-vs-depth question that many businesses get wrong.</p>
+          </div>
+          <div className="ae-cta-inline not-prose mt-6">
             <p>Not sure which approach your current strategy follows? We audit free of charge.</p>
             <Link href="/blindspot">Get Your Free Blind Spot Report &rarr;</Link>
           </div>
+        </section>
 
-          {/* SECTION 5: WHAT AI WANTS */}
-          <span className="ae-section-label" id="what-ai-wants">The Real Signals</span>
-          <h2>What AI Platforms Actually Want to See</h2>
-
-          <p>If keywords are not the answer, what is? The signals that drive AI citation decisions break down into four primary categories: entity authority, structured data, content quality, and cross-platform verification. Each one requires genuine investment in your business&apos;s digital presence rather than manipulation tactics.</p>
-
-          <div className="ae-cheat-sheet not-prose">
+        {/* SECTION 5: WHAT AI WANTS */}
+        <section id="what-ai-wants" className="-mx-6 px-6 py-12 bg-[#131313] border-t border-white/10">
+          <span className="font-mono text-[10px] text-[#FF6A00] tracking-widest uppercase block mb-3">
+            &#9679; THE REAL SIGNALS // The Answer Engine Intel
+          </span>
+          <h2 className="font-headline font-black text-2xl md:text-3xl tracking-tighter uppercase text-[#e5e2e1] mb-6">
+            WHAT AI ACTUALLY <span className="text-[#FF6A00]">WANTS</span>
+          </h2>
+          <div className="prose prose-invert prose-lg max-w-none prose-p:text-gray-300 prose-a:text-[#FF6A00] prose-a:no-underline hover:prose-a:underline prose-strong:text-white">
+            <p>If keywords are not the answer, what is? The signals that drive AI citation decisions break down into four primary categories: entity authority, structured data, content quality, and cross-platform verification. Each one requires genuine investment in your business&apos;s digital presence rather than manipulation tactics.</p>
+          </div>
+          <div className="ae-cheat-sheet not-prose mt-6">
             <div className="ae-cheat-sheet-title">The Four Signal Categories AI Uses Instead of Keywords</div>
             <ul>
               <li><strong>Entity authority:</strong> Is your business a recognized, verifiable entity? This includes your NAP (name, address, phone) data being consistent across platforms, your business being listed in authoritative directories, your credentials and licenses being verifiable, and your longevity and track record being documentable. AI platforms treat entities with established, cross-verified identities as more trustworthy sources.</li>
@@ -415,29 +433,32 @@ export default function BlogPost() {
               <li><strong>Cross-platform citation consistency:</strong> Do your business name, address, phone number, service descriptions, and service areas match across Google Business Profile, Yelp, Bing Places, and industry directories? Inconsistencies create doubt in AI verification systems and reduce citation probability significantly.</li>
             </ul>
           </div>
-
-          <p>Notice that none of these signals can be gamed with text manipulation. Entity authority requires a real, established business. Structured data requires accurate information to structure. Content quality requires genuine expertise. Cross-platform consistency requires consistent real-world business operations. The AI visibility game rewards businesses that are genuinely good and well-documented, not businesses that are clever with their copy.</p>
-
-          <div className="ae-callout ae-callout-success not-prose">
+          <div className="prose prose-invert prose-lg max-w-none prose-p:text-gray-300 prose-a:text-[#FF6A00] prose-a:no-underline hover:prose-a:underline prose-strong:text-white mt-6">
+            <p>Notice that none of these signals can be gamed with text manipulation. Entity authority requires a real, established business. Structured data requires accurate information to structure. Content quality requires genuine expertise. Cross-platform consistency requires consistent real-world business operations. The AI visibility game rewards businesses that are genuinely good and well-documented, not businesses that are clever with their copy.</p>
+          </div>
+          <div className="ae-callout ae-callout-success mt-6">
             <div className="ae-callout-title">The Good News for Legitimate Businesses</div>
             <p>If your business is genuinely excellent at what it does, you have a structural advantage in AI search that no amount of keyword stuffing by a competitor can neutralize. The signals AI platforms evaluate favor real expertise and verified presence. The keyword-stuffing playbook that let low-quality competitors outrank good businesses in old-school SEO simply does not work in the AI era. Quality wins.</p>
           </div>
-
-          {/* CTA 5 */}
-          <div className="ae-cta-inline not-prose">
+          <div className="ae-cta-inline not-prose mt-6">
             <p>Find out if your genuine expertise is being recognized by AI platforms.</p>
             <a href="tel:+12134442229">Call (213) 444-2229 for a Direct Consultation &rarr;</a>
           </div>
+        </section>
 
-          {/* SECTION 6: ENTITY SIGNALS */}
-          <span className="ae-section-label" id="entity-signals">Entity Over Keywords</span>
-          <h2>Entity Signals and Why They Replace Keywords</h2>
-
-          <p>The concept of &ldquo;entity&rdquo; is central to understanding why AI search works so differently from keyword search. In AI terms, an entity is a distinct, identifiable thing: a person, a business, a place, a product, a concept. AI platforms build knowledge graphs that map relationships between entities rather than indexing pages by keyword.</p>
-
-          <p>Your business is an entity. So is your service area. So are the services you provide. The strength of your entity in AI knowledge graphs is determined by how much verifiable, consistent, cross-referenced data exists about you, not by how many times your entity name appears on your website.</p>
-
-          <div className="ae-pros-cons not-prose">
+        {/* SECTION 6: ENTITY SIGNALS */}
+        <section id="entity-signals" className="-mx-6 px-6 py-12 bg-[#1c1b1b] border-t border-white/10">
+          <span className="font-mono text-[10px] text-[#FF6A00] tracking-widest uppercase block mb-3">
+            &#9679; ENTITY AUTHORITY // The Answer Engine Intel
+          </span>
+          <h2 className="font-headline font-black text-2xl md:text-3xl tracking-tighter uppercase text-[#e5e2e1] mb-6">
+            ENTITY SIGNALS REPLACE <span className="text-[#FF6A00]">KEYWORDS</span>
+          </h2>
+          <div className="prose prose-invert prose-lg max-w-none prose-p:text-gray-300 prose-a:text-[#FF6A00] prose-a:no-underline hover:prose-a:underline prose-strong:text-white">
+            <p>The concept of &ldquo;entity&rdquo; is central to understanding why AI search works so differently from keyword search. In AI terms, an entity is a distinct, identifiable thing: a person, a business, a place, a product, a concept. AI platforms build knowledge graphs that map relationships between entities rather than indexing pages by keyword.</p>
+            <p>Your business is an entity. So is your service area. So are the services you provide. The strength of your entity in AI knowledge graphs is determined by how much verifiable, consistent, cross-referenced data exists about you, not by how many times your entity name appears on your website.</p>
+          </div>
+          <div className="ae-pros-cons not-prose mt-6">
             <div className="ae-pros-box">
               <div className="ae-pros-title">Strong Entity Signals</div>
               <ul>
@@ -463,52 +484,58 @@ export default function BlogPost() {
               </ul>
             </div>
           </div>
-
-          <p>A business with strong entity signals and zero keyword optimization will consistently outperform a business with heavy keyword optimization and weak entity signals in AI search. This is the core reality that most traditional SEO approaches have not yet absorbed.</p>
-
-          <p>Building an FAQ page that AI can cite is one of the most effective structural moves for establishing topical entity authority. Our guide on <Link href="/blog/how-to-build-faq-page-ai-cites">how to build an FAQ page that AI cites</Link> covers exactly what that requires.</p>
-
-          {/* CTA 6 */}
-          <div className="ae-cta-inline not-prose">
+          <div className="prose prose-invert prose-lg max-w-none prose-p:text-gray-300 prose-a:text-[#FF6A00] prose-a:no-underline hover:prose-a:underline prose-strong:text-white mt-6">
+            <p>A business with strong entity signals and zero keyword optimization will consistently outperform a business with heavy keyword optimization and weak entity signals in AI search. This is the core reality that most traditional SEO approaches have not yet absorbed.</p>
+            <p>Building an FAQ page that AI can cite is one of the most effective structural moves for establishing topical entity authority. Our guide on <Link href="/blog/how-to-build-faq-page-ai-cites">how to build an FAQ page that AI cites</Link> covers exactly what that requires.</p>
+          </div>
+          <div className="ae-cta-inline not-prose mt-6">
             <p>Want to know how strong your entity signals currently are? We measure it free.</p>
             <a href="mailto:support@theanswerengine.ai">Email support@theanswerengine.ai for an Entity Audit &rarr;</a>
           </div>
+        </section>
 
-          {/* SECTION 7: CONTENT FOR AI */}
-          <span className="ae-section-label" id="content-for-ai">Writing Right</span>
-          <h2>Writing Content AI Platforms Trust</h2>
-
-          <p>Knowing that keyword stuffing fails is the first step. Understanding what good AI-optimized content looks like is the second. The principles are not complicated, but they do require a genuine shift in how most businesses approach content creation.</p>
-
-          <p>The core principle: write for the question, not the keyword. When someone asks ChatGPT to recommend a roofing contractor in Phoenix, the AI is not looking for the page that says &ldquo;roofing contractor Phoenix&rdquo; the most. It is looking for the source that best answers the implicit questions: Who can be trusted? What do they specialize in? What is their service area? What have other customers experienced? How can I verify their credentials?</p>
-
-          <div className="ae-callout ae-callout-info not-prose">
+        {/* SECTION 7: WRITING CONTENT FOR AI */}
+        <section id="content-for-ai" className="-mx-6 px-6 py-12 bg-[#131313] border-t border-white/10">
+          <span className="font-mono text-[10px] text-[#FF6A00] tracking-widest uppercase block mb-3">
+            &#9679; CONTENT STRATEGY // The Answer Engine Intel
+          </span>
+          <h2 className="font-headline font-black text-2xl md:text-3xl tracking-tighter uppercase text-[#e5e2e1] mb-6">
+            WRITING CONTENT <span className="text-[#FF6A00]">AI TRUSTS</span>
+          </h2>
+          <div className="prose prose-invert prose-lg max-w-none prose-p:text-gray-300 prose-a:text-[#FF6A00] prose-a:no-underline hover:prose-a:underline prose-strong:text-white">
+            <p>Knowing that keyword stuffing fails is the first step. Understanding what good AI-optimized content looks like is the second. The principles are not complicated, but they do require a genuine shift in how most businesses approach content creation.</p>
+            <p>The core principle: write for the question, not the keyword. When someone asks ChatGPT to recommend a roofing contractor in Phoenix, the AI is not looking for the page that says &ldquo;roofing contractor Phoenix&rdquo; the most. It is looking for the source that best answers the implicit questions: Who can be trusted? What do they specialize in? What is their service area? What have other customers experienced? How can I verify their credentials?</p>
+          </div>
+          <div className="ae-callout ae-callout-info mt-6">
             <div className="ae-callout-title">The Question-First Approach to Content</div>
             <p>Before writing any page, ask: what questions would a prospective customer have before hiring a business like mine? Then answer those questions with specificity. How long have you been in business? What specific neighborhoods do you serve? What certifications do you hold and what license numbers verify them? What does your typical project look like? What should customers expect from the process? AI platforms cite sources that answer real questions with specific detail. Not sources that repeat a keyword phrase throughout a page.</p>
           </div>
-
-          <p>Structure matters enormously for AI parsing. Content organized with clear headings, logical information hierarchy, and question-answer formatting is significantly easier for AI to extract and cite accurately. This is why FAQ schema is so valuable: it explicitly signals to AI that your content answers specific questions, in a format the model can parse and reproduce.</p>
-
-          <p>Specificity is the single biggest differentiator between content that gets cited and content that gets ignored. Generic statements like &ldquo;we provide excellent service&rdquo; carry no weight. Specific claims like &ldquo;we have completed 847 roof replacements across Mesa, Scottsdale, and Tempe since 2009, with a 4.8 star average across 312 verified reviews&rdquo; are the kind of verifiable, specific claims that AI citation systems value.</p>
-
-          <div className="ae-callout ae-callout-warning not-prose">
+          <div className="prose prose-invert prose-lg max-w-none prose-p:text-gray-300 prose-a:text-[#FF6A00] prose-a:no-underline hover:prose-a:underline prose-strong:text-white mt-6">
+            <p>Structure matters enormously for AI parsing. Content organized with clear headings, logical information hierarchy, and question-answer formatting is significantly easier for AI to extract and cite accurately. This is why FAQ schema is so valuable: it explicitly signals to AI that your content answers specific questions, in a format the model can parse and reproduce.</p>
+            <p>Specificity is the single biggest differentiator between content that gets cited and content that gets ignored. Generic statements like &ldquo;we provide excellent service&rdquo; carry no weight. Specific claims like &ldquo;we have completed 847 roof replacements across Mesa, Scottsdale, and Tempe since 2009, with a 4.8 star average across 312 verified reviews&rdquo; are the kind of verifiable, specific claims that AI citation systems value.</p>
+          </div>
+          <div className="ae-callout ae-callout-warning mt-6">
             <div className="ae-callout-title">The Content Trap to Avoid</div>
             <p>The second-most damaging content mistake after keyword stuffing is thin content. Pages that repeat your keyword phrase at the right density but fail to deliver substantive information are caught in a middle ground: optimized enough to look like SEO content, but shallow enough to be dismissed by AI quality filters. Depth beats density every time. One genuinely comprehensive service page outperforms twenty keyword-optimized thin pages for AI citation purposes.</p>
           </div>
-
-          {/* CTA 7 */}
-          <div className="ae-cta-inline not-prose">
+          <div className="ae-cta-inline not-prose mt-6">
             <p>Ready to see what AI-optimized content looks like for your specific industry?</p>
             <Link href="/blindspot">Get Your Free Blind Spot Report &rarr;</Link>
           </div>
+        </section>
 
-          {/* SECTION 8: DECISION MATRIX */}
-          <span className="ae-section-label" id="decision-matrix">Your Next Move</span>
-          <h2>Should You Rethink Your Approach?</h2>
-
-          <p>Whether you need to completely overhaul your content strategy depends on where you currently stand. Use this decision matrix to assess your situation.</p>
-
-          <div className="ae-decision-matrix not-prose">
+        {/* SECTION 8: DECISION MATRIX */}
+        <section id="decision-matrix" className="-mx-6 px-6 py-12 bg-[#1c1b1b] border-t border-white/10">
+          <span className="font-mono text-[10px] text-[#FF6A00] tracking-widest uppercase block mb-3">
+            &#9679; YOUR NEXT MOVE // The Answer Engine Intel
+          </span>
+          <h2 className="font-headline font-black text-2xl md:text-3xl tracking-tighter uppercase text-[#e5e2e1] mb-6">
+            SHOULD YOU <span className="text-[#FF6A00]">RETHINK</span>?
+          </h2>
+          <div className="prose prose-invert prose-lg max-w-none prose-p:text-gray-300 prose-a:text-[#FF6A00] prose-a:no-underline hover:prose-a:underline prose-strong:text-white">
+            <p>Whether you need to completely overhaul your content strategy depends on where you currently stand. Use this decision matrix to assess your situation.</p>
+          </div>
+          <div className="ae-decision-matrix not-prose mt-6">
             <div className="ae-decision-row">
               <div className="ae-decision-if">Your site has keyword-heavy pages but thin content</div>
               <div className="ae-decision-arrow">&#8594;</div>
@@ -540,27 +567,24 @@ export default function BlogPost() {
               <div className="ae-decision-then">Build entity signals first. Get listed, verified, and consistent across platforms before investing in content volume. The entity foundation has to be solid for content to have any AI citation value.</div>
             </div>
           </div>
-
-          <p>Regardless of your current situation, the universal first step is understanding exactly where you stand. The 1.2% of local businesses currently being cited by ChatGPT did not get there by accident. They have specific signals in place that the other 98.8% do not. The gap is measurable and closeable, but only once you know precisely where it exists.</p>
-
-          {/* CTA 8 */}
-          <div className="ae-cta-inline not-prose">
+          <div className="prose prose-invert prose-lg max-w-none prose-p:text-gray-300 prose-a:text-[#FF6A00] prose-a:no-underline hover:prose-a:underline prose-strong:text-white mt-6">
+            <p>Regardless of your current situation, the universal first step is understanding exactly where you stand. The 1.2% of local businesses currently being cited by ChatGPT did not get there by accident. They have specific signals in place that the other 98.8% do not. The gap is measurable and closeable, but only once you know precisely where it exists.</p>
+          </div>
+          <div className="ae-cta-inline not-prose mt-6">
             <p>Find out exactly which signals are keeping you out of AI recommendations.</p>
             <Link href="/blindspot">Get Your Free Blind Spot Report &rarr;</Link>
           </div>
-
-          <p>The conversion math makes the urgency clear. AI-referred traffic converts at 4.4x the rate of traditional search traffic. That is not a marginal improvement. That is a fundamentally different quality of visitor: someone who has already received an AI recommendation to contact your business specifically. Every month without AI visibility is a month of 4.4x conversion traffic going to whoever AI does recommend.</p>
-
-          {/* CTA 9 */}
-          <div className="ae-cta-inline not-prose">
+          <div className="prose prose-invert prose-lg max-w-none prose-p:text-gray-300 prose-a:text-[#FF6A00] prose-a:no-underline hover:prose-a:underline prose-strong:text-white mt-6">
+            <p>The conversion math makes the urgency clear. AI-referred traffic converts at 4.4x the rate of traditional search traffic. That is not a marginal improvement. That is a fundamentally different quality of visitor: someone who has already received an AI recommendation to contact your business specifically. Every month without AI visibility is a month of 4.4x conversion traffic going to whoever AI does recommend.</p>
+          </div>
+          <div className="ae-cta-inline not-prose mt-6">
             <p>45% of consumers now use AI to find local services. Are any of them finding you?</p>
             <a href="tel:+12134442229">Call (213) 444-2229 to Find Out &rarr;</a>
           </div>
+        </section>
 
-          {/* DIVIDER */}
-          <hr />
-
-          {/* 3-TIER CTA BLOCK (MANDATORY) */}
+        {/* FINAL CTA SECTION */}
+        <section className="-mx-6 px-6 py-12 bg-[#131313] border-t border-white/10">
           <div className="ae-final-cta not-prose">
             <h2>Know Exactly Where AI Can&apos;t Find You</h2>
             <p>Our Blind Spot Report reveals which AI platforms are ignoring your business and why. No keyword tricks required.</p>
@@ -572,8 +596,10 @@ export default function BlogPost() {
               <a href="tel:+12134442229" className="ae-cta-secondary">(213) 444-2229</a>
             </div>
           </div>
+        </section>
 
-          {/* AUTHOR CARD */}
+        {/* AUTHOR CARD */}
+        <div className="-mx-6 px-6 py-8 bg-[#1c1b1b] border-t border-white/10">
           <div className="ae-author-card not-prose">
             <div>
               <p className="text-white font-semibold text-lg font-headline mb-1">The Answer Engine Team</p>
@@ -586,12 +612,17 @@ export default function BlogPost() {
               </div>
             </div>
           </div>
+        </div>
 
-          {/* FAQ SECTION */}
-          <span className="ae-section-label" id="faq">FAQ</span>
-          <h2>Frequently Asked Questions</h2>
-
-          <div className="space-y-6 not-prose">
+        {/* FAQ SECTION */}
+        <section id="faq" className="-mx-6 px-6 py-12 bg-[#131313] border-t border-white/10">
+          <span className="font-mono text-[10px] text-[#FF6A00] tracking-widest uppercase block mb-3">
+            &#9679; FAQ // The Answer Engine Intel
+          </span>
+          <h2 className="font-headline font-black text-2xl md:text-3xl tracking-tighter uppercase text-[#e5e2e1] mb-6">
+            FREQUENTLY ASKED <span className="text-[#FF6A00]">QUESTIONS</span>
+          </h2>
+          <div className="space-y-4 not-prose">
             {[
               {
                 q: "Does keyword stuffing help you rank on ChatGPT?",
@@ -636,45 +667,23 @@ export default function BlogPost() {
               </div>
             ))}
           </div>
-
-          {/* CTA 10 */}
-          <div className="ae-cta-inline not-prose">
+          <div className="ae-cta-inline not-prose mt-6">
             <p>Have a question not covered here? We answer every inquiry personally.</p>
             <a href="mailto:support@theanswerengine.ai">Email support@theanswerengine.ai &rarr;</a>
           </div>
+        </section>
 
-          {/* CTA 11 */}
-          <div className="ae-cta-inline not-prose">
+        {/* CTA BLOCK + FINAL CTA */}
+        <section className="-mx-6 px-6 py-12 bg-[#1c1b1b] border-t border-white/10">
+          <div className="ae-cta-inline not-prose mb-6">
             <p>Ready to see exactly how AI platforms currently evaluate your business?</p>
             <Link href="/blindspot">Get Your Free Blind Spot Report &rarr;</Link>
           </div>
-
-          {/* CTA BLOCK */}
-          <div className="ae-cta-block not-prose">
+          <div className="ae-cta-block not-prose mb-6">
             <h3>Keywords Never Built AI Authority. Signals Do.</h3>
             <p>The 1.2% of local businesses being cited by ChatGPT did not get there by stuffing keywords. They built verifiable entity authority, implemented structured data correctly, and created content that AI platforms trust. Your Blind Spot Report shows exactly which signals you are missing and how to close the gap.</p>
             <Link href="/blindspot">Get Your Free Blind Spot Report &rarr;</Link>
           </div>
-
-          {/* CTA 12 */}
-          <div className="ae-cta-inline not-prose">
-            <p>Prefer to talk through your strategy with someone who has done this before?</p>
-            <a href="tel:+12134442229">Call (213) 444-2229 &rarr;</a>
-          </div>
-
-          {/* CTA 13 */}
-          <div className="ae-cta-inline not-prose">
-            <p>Want a strategic review of your content before your next publish cycle?</p>
-            <a href="mailto:support@theanswerengine.ai">Email support@theanswerengine.ai &rarr;</a>
-          </div>
-
-          {/* CTA 14 */}
-          <div className="ae-cta-inline not-prose">
-            <p>See how we build the entity signals that make AI recommend you by name.</p>
-            <Link href="/blindspot">Explore Our Process &rarr;</Link>
-          </div>
-
-          {/* FINAL CTA */}
           <div className="ae-final-cta not-prose">
             <h3>The Keyword Era Is Over. The Entity Era Has Arrived.</h3>
             <p>Businesses still optimizing for keyword density are playing a game that ended years ago for traditional search and was never valid for AI search. The 45% of consumers now using AI to find local services are being directed to businesses with strong entity signals, structured data, and verified authority. Your free Blind Spot Report shows you exactly what is standing between your business and those recommendations.</p>
@@ -690,17 +699,32 @@ export default function BlogPost() {
               </a>
             </div>
           </div>
-
-          {/* CTA 15 */}
-          <div className="ae-cta-inline not-prose">
+          <div className="ae-cta-inline not-prose mt-6">
+            <p>Prefer to talk through your strategy with someone who has done this before?</p>
+            <a href="tel:+12134442229">Call (213) 444-2229 &rarr;</a>
+          </div>
+          <div className="ae-cta-inline not-prose mt-4">
+            <p>Want a strategic review of your content before your next publish cycle?</p>
+            <a href="mailto:support@theanswerengine.ai">Email support@theanswerengine.ai &rarr;</a>
+          </div>
+          <div className="ae-cta-inline not-prose mt-4">
+            <p>See how we build the entity signals that make AI recommend you by name.</p>
+            <Link href="/blindspot">Explore Our Process &rarr;</Link>
+          </div>
+          <div className="ae-cta-inline not-prose mt-4">
             <p>Still on the fence? Ask us anything about your specific situation. No pitch, just data.</p>
             <a href="mailto:support@theanswerengine.ai">Email Your Questions to support@theanswerengine.ai &rarr;</a>
           </div>
+        </section>
 
-          {/* RELATED ARTICLES */}
-          <span className="ae-section-label">Keep Reading</span>
-          <h2>Related Articles</h2>
-
+        {/* RELATED ARTICLES */}
+        <section id="related" className="-mx-6 px-6 py-12 bg-[#131313] border-t border-white/10">
+          <span className="font-mono text-[10px] text-[#FF6A00] tracking-widest uppercase block mb-3">
+            &#9679; KEEP READING // The Answer Engine Intel
+          </span>
+          <h2 className="font-headline font-black text-2xl md:text-3xl tracking-tighter uppercase text-[#e5e2e1] mb-6">
+            RELATED <span className="text-[#FF6A00]">ARTICLES</span>
+          </h2>
           <div className="space-y-4 not-prose">
             <div className="bg-white/[0.03] border border-white/[0.08] p-6 hover:border-white/[0.12] transition-colors">
               <Link href="/blog/what-your-website-looks-like-to-an-ai-crawler" className="group">
@@ -733,8 +757,8 @@ export default function BlogPost() {
               </Link>
             </div>
           </div>
+        </section>
 
-        </div>
       </article>
     </>
   )

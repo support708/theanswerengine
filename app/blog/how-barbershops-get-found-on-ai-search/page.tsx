@@ -249,11 +249,11 @@ export default function HowBarbershopsGetFoundOnAISearch() {
         </section>
 
         {/* Article Body */}
-        <article className="max-w-4xl mx-auto px-6 py-12 sm:py-16">
-          <div className="prose prose-invert prose-lg max-w-none prose-headings:font-headline prose-headings:text-white prose-p:text-gray-300 prose-a:text-[#FF6A00] prose-a:no-underline hover:prose-a:underline prose-strong:text-white">
+        <article className="max-w-4xl mx-auto px-6 pb-20 overflow-x-hidden">
 
-            {/* STATS GRID */}
-            <div className="ae-stats-grid not-prose">
+          {/* Intro: Stats + TOC */}
+          <div className="pt-12 pb-8">
+            <div className="ae-stats-grid not-prose mb-8">
               <div className="ae-stat-card">
                 <div className="ae-stat-value ae-accent">80,000+</div>
                 <div className="ae-stat-label">barbershops operating in the US (IBISWorld)</div>
@@ -272,7 +272,6 @@ export default function HowBarbershopsGetFoundOnAISearch() {
               </div>
             </div>
 
-            {/* TABLE OF CONTENTS */}
             <div className="ae-toc not-prose">
               <div className="ae-toc-title">Table of Contents</div>
               <ol>
@@ -316,87 +315,90 @@ export default function HowBarbershopsGetFoundOnAISearch() {
                 </li>
               </ol>
             </div>
+          </div>
 
-            {/* SECTION 1 */}
-            <span className="ae-section-label" id="ai-disruption">
-              The Shift
+          {/* SECTION 1 */}
+          <section id="ai-disruption" className="-mx-6 px-6 py-12 bg-[#131313] border-t border-white/10">
+            <span className="font-mono text-[10px] text-[#FF6A00] tracking-widest uppercase block mb-3">
+              ◉ THE SHIFT // The Answer Engine Intel
             </span>
-            <h2>Why AI Is Disrupting the Walk-In and Referral Model</h2>
-
-            <p>
-              For most of barbershop history, customer acquisition worked through two channels:
-              walk-in foot traffic and word-of-mouth referrals. A new resident asks a neighbor for a
-              barber recommendation. Someone drives past a shop, likes the vibe, walks in. A friend
-              texts the name of the guy who gave him a perfect fade. The whole model was local,
-              personal, and invisible to the internet.
-            </p>
-
-            <p>
-              That model still exists. But a third channel has opened alongside it, and it is growing
-              faster than either of the first two. Customers are now asking AI. Not just younger
-              customers. Not just tech-savvy customers. Everyday people who want a haircut pull out
-              their phone, open ChatGPT or Google AI, and type something like: &quot;Who is the best
-              barber for skin fades near me?&quot; or &quot;Which barbershop near downtown does beard
-              trims and kids cuts?&quot;
-            </p>
-
-            <div className="ae-quote not-prose">
+            <h2 className="font-headline font-black text-2xl md:text-3xl tracking-tighter uppercase text-[#e5e2e1] mb-6">
+              WHY AI IS <span className="text-[#FF6A00]">DISRUPTING</span> WALK-IN TRAFFIC
+            </h2>
+            <div className="prose prose-invert prose-lg max-w-none prose-p:text-gray-300 prose-a:text-[#FF6A00] prose-a:no-underline hover:prose-a:underline prose-strong:text-white">
+              <p>
+                For most of barbershop history, customer acquisition worked through two channels:
+                walk-in foot traffic and word-of-mouth referrals. A new resident asks a neighbor for a
+                barber recommendation. Someone drives past a shop, likes the vibe, walks in. A friend
+                texts the name of the guy who gave him a perfect fade. The whole model was local,
+                personal, and invisible to the internet.
+              </p>
+              <p>
+                That model still exists. But a third channel has opened alongside it, and it is growing
+                faster than either of the first two. Customers are now asking AI. Not just younger
+                customers. Not just tech-savvy customers. Everyday people who want a haircut pull out
+                their phone, open ChatGPT or Google AI, and type something like: &quot;Who is the best
+                barber for skin fades near me?&quot; or &quot;Which barbershop near downtown does beard
+                trims and kids cuts?&quot;
+              </p>
+            </div>
+            <div className="ae-quote not-prose mt-6">
               <p>
                 The share of consumers using AI to find local services jumped from 6% to 45% in
                 under two years. That is not a trend. That is a channel shift. And 80,000 barbershops
                 are largely unprepared for it.
               </p>
             </div>
-
-            <p>
-              The disruption is not that walk-ins and referrals have stopped working. It is that a
-              growing slice of the customer pool is now making decisions before they ever walk past
-              your window. They ask AI, get a recommendation, and go directly to that shop. If your
-              shop is not in the AI answer, you never even enter the consideration set.
-            </p>
-
-            <p>
-              The walk-in model assumes you are visible to people passing by. The AI model requires
-              you to be visible to a system that has never walked past your shop and relies entirely
-              on your digital presence to form an opinion about you. That is a fundamentally different
-              game, and most barbershops are playing it without knowing the rules.
-            </p>
-
-            {/* CTA 1 */}
-            <div className="ae-cta-inline not-prose">
+            <div className="prose prose-invert prose-lg max-w-none prose-p:text-gray-300 prose-a:text-[#FF6A00] prose-a:no-underline hover:prose-a:underline prose-strong:text-white mt-6">
+              <p>
+                The disruption is not that walk-ins and referrals have stopped working. It is that a
+                growing slice of the customer pool is now making decisions before they ever walk past
+                your window. They ask AI, get a recommendation, and go directly to that shop. If your
+                shop is not in the AI answer, you never even enter the consideration set.
+              </p>
+              <p>
+                The walk-in model assumes you are visible to people passing by. The AI model requires
+                you to be visible to a system that has never walked past your shop and relies entirely
+                on your digital presence to form an opinion about you. That is a fundamentally different
+                game, and most barbershops are playing it without knowing the rules.
+              </p>
+            </div>
+            <div className="ae-cta-inline not-prose mt-6">
               <p>Find out if AI is recommending your competitors instead of your barbershop.</p>
               <Link href="/blindspot">Get Your Free Blind Spot Report &rarr;</Link>
             </div>
+          </section>
 
-            {/* SECTION 2 */}
-            <span className="ae-section-label" id="barber-near-me">
-              The Query Shift
+          {/* SECTION 2 */}
+          <section id="barber-near-me" className="-mx-6 px-6 py-12 bg-[#1c1b1b] border-t border-white/10">
+            <span className="font-mono text-[10px] text-[#FF6A00] tracking-widest uppercase block mb-3">
+              ◉ QUERY SHIFT // The Answer Engine Intel
             </span>
-            <h2>Why &quot;Barber Near Me&quot; Now Goes Through AI</h2>
-
-            <p>
-              Until recently, &quot;barber near me&quot; was a Google Maps query. The customer got a
-              map with pins, star ratings, and review snippets. They picked the closest shop with
-              decent reviews. It was a proximity-first, star-rating-second decision.
-            </p>
-
-            <p>
-              AI changes this in two important ways. First, AI answers are not proximity-first. They
-              are trust-first. AI surfaces the shops it can verify and contextualize, regardless of
-              whether they are the closest option. A barbershop three miles away with rich service
-              descriptions, specific reviews, and consistent directory data will outrank a shop around
-              the corner that only exists on Google Maps.
-            </p>
-
-            <p>
-              Second, AI answers are increasingly specific. A customer does not just ask for
-              &quot;a barber near me&quot; anymore. They ask for &quot;a barber who does good skin
-              fades and also does kids cuts&quot; or &quot;a barbershop with late hours that does hot
-              towel shaves.&quot; These nuanced queries require AI to match service-specific
-              information against what it knows about local businesses.
-            </p>
-
-            <div className="ae-callout ae-callout-info not-prose">
+            <h2 className="font-headline font-black text-2xl md:text-3xl tracking-tighter uppercase text-[#e5e2e1] mb-6">
+              WHY BARBER NEAR ME <span className="text-[#FF6A00]">GOES THROUGH AI</span>
+            </h2>
+            <div className="prose prose-invert prose-lg max-w-none prose-p:text-gray-300 prose-a:text-[#FF6A00] prose-a:no-underline hover:prose-a:underline prose-strong:text-white">
+              <p>
+                Until recently, &quot;barber near me&quot; was a Google Maps query. The customer got a
+                map with pins, star ratings, and review snippets. They picked the closest shop with
+                decent reviews. It was a proximity-first, star-rating-second decision.
+              </p>
+              <p>
+                AI changes this in two important ways. First, AI answers are not proximity-first. They
+                are trust-first. AI surfaces the shops it can verify and contextualize, regardless of
+                whether they are the closest option. A barbershop three miles away with rich service
+                descriptions, specific reviews, and consistent directory data will outrank a shop around
+                the corner that only exists on Google Maps.
+              </p>
+              <p>
+                Second, AI answers are increasingly specific. A customer does not just ask for
+                &quot;a barber near me&quot; anymore. They ask for &quot;a barber who does good skin
+                fades and also does kids cuts&quot; or &quot;a barbershop with late hours that does hot
+                towel shaves.&quot; These nuanced queries require AI to match service-specific
+                information against what it knows about local businesses.
+              </p>
+            </div>
+            <div className="ae-callout ae-callout-info not-prose mt-6">
               <p>
                 <strong>What this means for barbershops:</strong> Your shop needs to be findable not
                 just as a &quot;barbershop near me&quot; result but as a specific answer to specific
@@ -405,71 +407,68 @@ export default function HowBarbershopsGetFoundOnAISearch() {
                 you for those queries, even if you are the best barber on the block.
               </p>
             </div>
-
-            <p>
-              The shift is also platform-level. Customers asking Google are still somewhat likely to
-              land on a map result. Customers asking ChatGPT, Perplexity, or Claude get a direct
-              narrative recommendation with no map. They are told which shop to go to and why. That
-              recommendation carries far more weight than a star rating, and it is entirely determined
-              by what AI knows about your business.
-            </p>
-
-            <p>
-              For a deeper look at how AI and Google Maps now compete for local discovery traffic, see
-              our analysis of{' '}
-              <Link href="/blog/why-ai-recommends-chains-over-local-businesses">
-                why AI recommends chains over local businesses
-              </Link>
-              .
-            </p>
-
-            {/* CTA 2 */}
-            <div className="ae-cta-inline not-prose">
+            <div className="prose prose-invert prose-lg max-w-none prose-p:text-gray-300 prose-a:text-[#FF6A00] prose-a:no-underline hover:prose-a:underline prose-strong:text-white mt-6">
+              <p>
+                The shift is also platform-level. Customers asking Google are still somewhat likely to
+                land on a map result. Customers asking ChatGPT, Perplexity, or Claude get a direct
+                narrative recommendation with no map. They are told which shop to go to and why. That
+                recommendation carries far more weight than a star rating, and it is entirely determined
+                by what AI knows about your business.
+              </p>
+              <p>
+                For a deeper look at how AI and Google Maps now compete for local discovery traffic, see
+                our analysis of{' '}
+                <Link href="/blog/why-ai-recommends-chains-over-local-businesses">
+                  why AI recommends chains over local businesses
+                </Link>
+                .
+              </p>
+            </div>
+            <div className="ae-cta-inline not-prose mt-6">
               <p>Want to know exactly what AI says when someone asks for a barber near you?</p>
               <a href="tel:+12134442229">Call (213) 444-2229 for a Free AI Visibility Check &rarr;</a>
             </div>
+          </section>
 
-            {/* SECTION 3 */}
-            <span className="ae-section-label" id="trust-signals">
-              Trust Signals
+          {/* SECTION 3 */}
+          <section id="trust-signals" className="-mx-6 px-6 py-12 bg-[#131313] border-t border-white/10">
+            <span className="font-mono text-[10px] text-[#FF6A00] tracking-widest uppercase block mb-3">
+              ◉ TRUST SIGNALS // The Answer Engine Intel
             </span>
-            <h2>The Trust Signals AI Evaluates for Barbershops</h2>
-
-            <p>
-              AI platforms do not guess which barbershop to recommend. They cross-reference your
-              business information across multiple sources, evaluate the depth and specificity of what
-              they find, and then decide whether they have enough confidence to surface your shop in a
-              recommendation. Understanding what they look for is the first step toward being found.
-            </p>
-
-            <h3>Barber Specialties and Specific Techniques</h3>
-
-            <p>
-              The most underutilized trust signal for barbershops is service specificity. AI platforms
-              look for explicit descriptions of what your barbers do. Not just &quot;haircuts and
-              fades&quot; but the specific techniques, cuts, and services your shop is known for: high
-              skin fades, low tapers, Edgar cuts, bald fades, line-ups, beard sculpting, hot towel
-              shaves, kids cuts for toddlers, texture cuts for natural hair.
-            </p>
-
-            <p>
-              When a customer asks AI for &quot;a barber who does good tapers near downtown,&quot; AI
-              needs to find a barbershop where the word &quot;taper&quot; appears in a meaningful,
-              structured context. Not just in a photo caption on Instagram that AI cannot read, but in
-              crawlable web content that describes your expertise.
-            </p>
-
-            <h3>Barber Experience and Credentials</h3>
-
-            <p>
-              Years of experience, licensing, and specialization all factor into AI&apos;s confidence
-              in recommending a barbershop. A shop whose website mentions that the head barber has 12
-              years of experience specializing in fades, and that all barbers hold state barber
-              licenses, is giving AI verifiable signals of expertise. Most barbershop websites mention
-              neither.
-            </p>
-
-            <div className="ae-callout ae-callout-warning not-prose">
+            <h2 className="font-headline font-black text-2xl md:text-3xl tracking-tighter uppercase text-[#e5e2e1] mb-6">
+              TRUST SIGNALS <span className="text-[#FF6A00]">AI EVALUATES</span>
+            </h2>
+            <div className="prose prose-invert prose-lg max-w-none prose-p:text-gray-300 prose-a:text-[#FF6A00] prose-a:no-underline hover:prose-a:underline prose-strong:text-white">
+              <p>
+                AI platforms do not guess which barbershop to recommend. They cross-reference your
+                business information across multiple sources, evaluate the depth and specificity of what
+                they find, and then decide whether they have enough confidence to surface your shop in a
+                recommendation. Understanding what they look for is the first step toward being found.
+              </p>
+              <h3>Barber Specialties and Specific Techniques</h3>
+              <p>
+                The most underutilized trust signal for barbershops is service specificity. AI platforms
+                look for explicit descriptions of what your barbers do. Not just &quot;haircuts and
+                fades&quot; but the specific techniques, cuts, and services your shop is known for: high
+                skin fades, low tapers, Edgar cuts, bald fades, line-ups, beard sculpting, hot towel
+                shaves, kids cuts for toddlers, texture cuts for natural hair.
+              </p>
+              <p>
+                When a customer asks AI for &quot;a barber who does good tapers near downtown,&quot; AI
+                needs to find a barbershop where the word &quot;taper&quot; appears in a meaningful,
+                structured context. Not just in a photo caption on Instagram that AI cannot read, but in
+                crawlable web content that describes your expertise.
+              </p>
+              <h3>Barber Experience and Credentials</h3>
+              <p>
+                Years of experience, licensing, and specialization all factor into AI&apos;s confidence
+                in recommending a barbershop. A shop whose website mentions that the head barber has 12
+                years of experience specializing in fades, and that all barbers hold state barber
+                licenses, is giving AI verifiable signals of expertise. Most barbershop websites mention
+                neither.
+              </p>
+            </div>
+            <div className="ae-callout ae-callout-warning not-prose mt-6">
               <p>
                 <strong>What most barbershops get wrong:</strong> Posting amazing work on Instagram is
                 not a trust signal for AI. Instagram is a walled garden. AI cannot access your posts,
@@ -477,44 +476,45 @@ export default function HowBarbershopsGetFoundOnAISearch() {
                 media is invisible to the systems increasingly making barbershop recommendations.
               </p>
             </div>
-
-            <h3>Consistency Across the Web</h3>
-
-            <p>
-              AI cross-checks your business name, address, phone number, and hours across multiple
-              directories. When the information matches everywhere, AI has more confidence in your
-              business. When it does not match, which happens constantly for barbershops that have
-              moved, changed hours, or rebranded, AI reduces its confidence in recommending you.
-            </p>
-
-            {/* CTA 3 */}
-            <div className="ae-cta-inline not-prose">
+            <div className="prose prose-invert prose-lg max-w-none prose-p:text-gray-300 prose-a:text-[#FF6A00] prose-a:no-underline hover:prose-a:underline prose-strong:text-white mt-6">
+              <h3>Consistency Across the Web</h3>
+              <p>
+                AI cross-checks your business name, address, phone number, and hours across multiple
+                directories. When the information matches everywhere, AI has more confidence in your
+                business. When it does not match, which happens constantly for barbershops that have
+                moved, changed hours, or rebranded, AI reduces its confidence in recommending you.
+              </p>
+            </div>
+            <div className="ae-cta-inline not-prose mt-6">
               <p>See how your shop scores on AI trust signals compared to others in your area.</p>
               <Link href="/blindspot">Run Your Free AI Visibility Scan &rarr;</Link>
             </div>
+          </section>
 
-            {/* SECTION 4 */}
-            <span className="ae-section-label" id="reviews-matter">
-              Review Quality
+          {/* SECTION 4 */}
+          <section id="reviews-matter" className="-mx-6 px-6 py-12 bg-[#1c1b1b] border-t border-white/10">
+            <span className="font-mono text-[10px] text-[#FF6A00] tracking-widest uppercase block mb-3">
+              ◉ REVIEW QUALITY // The Answer Engine Intel
             </span>
-            <h2>Why Specific Reviews Beat Generic 5-Star Ratings</h2>
-
-            <p>
-              Reviews are one of the strongest signals in AI&apos;s evaluation of a barbershop. But
-              there is a critical distinction that most shop owners completely miss: AI cares about
-              the content of reviews, not just the count or star rating. And it can only read reviews
-              on platforms that present them in crawlable HTML, not JavaScript-rendered widgets.
-            </p>
-
-            <p>
-              A review that says &quot;Great barber, loved my haircut&quot; tells AI almost nothing
-              specific. A review that says &quot;Mike gave me the cleanest skin fade I&apos;ve had in
-              years, got my son a kids cut too and he loved it, took maybe 20 minutes&quot; tells AI
-              that this shop does skin fades, serves kids, and is efficient. That is the kind of
-              review signal that moves the needle in AI recommendations.
-            </p>
-
-            <div className="ae-callout ae-callout-info not-prose">
+            <h2 className="font-headline font-black text-2xl md:text-3xl tracking-tighter uppercase text-[#e5e2e1] mb-6">
+              WHY SPECIFIC REVIEWS <span className="text-[#FF6A00]">BEAT</span> GENERIC RATINGS
+            </h2>
+            <div className="prose prose-invert prose-lg max-w-none prose-p:text-gray-300 prose-a:text-[#FF6A00] prose-a:no-underline hover:prose-a:underline prose-strong:text-white">
+              <p>
+                Reviews are one of the strongest signals in AI&apos;s evaluation of a barbershop. But
+                there is a critical distinction that most shop owners completely miss: AI cares about
+                the content of reviews, not just the count or star rating. And it can only read reviews
+                on platforms that present them in crawlable HTML, not JavaScript-rendered widgets.
+              </p>
+              <p>
+                A review that says &quot;Great barber, loved my haircut&quot; tells AI almost nothing
+                specific. A review that says &quot;Mike gave me the cleanest skin fade I&apos;ve had in
+                years, got my son a kids cut too and he loved it, took maybe 20 minutes&quot; tells AI
+                that this shop does skin fades, serves kids, and is efficient. That is the kind of
+                review signal that moves the needle in AI recommendations.
+              </p>
+            </div>
+            <div className="ae-callout ae-callout-info not-prose mt-6">
               <p>
                 <strong>The reviews AI can actually read:</strong> Yelp reviews are among the most
                 crawlable by non-Google AI platforms. Testimonials published directly on your website
@@ -523,79 +523,75 @@ export default function HowBarbershopsGetFoundOnAISearch() {
                 and Claude. Facebook reviews are partially crawlable. Instagram comments are invisible.
               </p>
             </div>
-
-            <p>
-              The service-specific review is especially powerful for barbershops. When multiple
-              customers mention the same service, whether that is hot towel shaves, beard trims, or
-              kids cuts, AI begins to associate your shop with that specialty. That association is
-              what drives you into results when someone asks specifically for that service.
-            </p>
-
-            <p>
-              The pattern works in reverse too. A barbershop with no mentions of kids cuts in any
-              reviews or service descriptions will not appear when someone asks AI for a
-              &quot;barbershop that does kids haircuts near me,&quot; even if the shop cuts
-              kids&apos; hair every day. AI can only recommend based on what it can read and verify.
-            </p>
-
-            <p>
-              For a comprehensive look at how review content shapes what AI recommends, read our
-              guide on{' '}
-              <Link href="/blog/how-online-reviews-shape-ai-recommendations">
-                how online reviews shape AI recommendations
-              </Link>
-              .
-            </p>
-
-            {/* CTA 4 */}
-            <div className="ae-cta-inline not-prose">
+            <div className="prose prose-invert prose-lg max-w-none prose-p:text-gray-300 prose-a:text-[#FF6A00] prose-a:no-underline hover:prose-a:underline prose-strong:text-white mt-6">
+              <p>
+                The service-specific review is especially powerful for barbershops. When multiple
+                customers mention the same service, whether that is hot towel shaves, beard trims, or
+                kids cuts, AI begins to associate your shop with that specialty. That association is
+                what drives you into results when someone asks specifically for that service.
+              </p>
+              <p>
+                The pattern works in reverse too. A barbershop with no mentions of kids cuts in any
+                reviews or service descriptions will not appear when someone asks AI for a
+                &quot;barbershop that does kids haircuts near me,&quot; even if the shop cuts
+                kids&apos; hair every day. AI can only recommend based on what it can read and verify.
+              </p>
+              <p>
+                For a comprehensive look at how review content shapes what AI recommends, read our
+                guide on{' '}
+                <Link href="/blog/how-online-reviews-shape-ai-recommendations">
+                  how online reviews shape AI recommendations
+                </Link>
+                .
+              </p>
+            </div>
+            <div className="ae-cta-inline not-prose mt-6">
               <p>
                 Not sure if AI can read your reviews? Our free report tells you which platforms AI
                 can and cannot access.
               </p>
               <Link href="/blindspot">Get Your Free Blind Spot Report &rarr;</Link>
             </div>
+          </section>
 
-            {/* SECTION 5 */}
-            <span className="ae-section-label" id="website-problem">
-              The Visibility Gap
+          {/* SECTION 5 */}
+          <section id="website-problem" className="-mx-6 px-6 py-12 bg-[#131313] border-t border-white/10">
+            <span className="font-mono text-[10px] text-[#FF6A00] tracking-widest uppercase block mb-3">
+              ◉ VISIBILITY GAP // The Answer Engine Intel
             </span>
-            <h2>Why Most Barbershop Websites Make Shops Invisible to AI</h2>
-
-            <p>
-              Many independent barbershops have one of two website situations: either they have no
-              website at all and rely entirely on Google Business Profile and Instagram, or they have
-              a basic site built on a template platform that is technically present but largely
-              unreadable by AI crawlers.
-            </p>
-
-            <p>
-              Both situations produce the same result: the shop is invisible to AI platforms that do
-              not have access to Google Business Profile data and cannot read Instagram or
-              JavaScript-rendered content.
-            </p>
-
-            <h3>No Website at All</h3>
-
-            <p>
-              A barbershop with no website is asking AI to make a recommendation based on whatever it
-              can piece together from third-party directories. AI might find a Yelp listing, a
-              Facebook page, and a Google Business Profile with some reviews. But without a website,
-              there is no authoritative source of information about what the shop does, who the
-              barbers are, what they specialize in, or why a customer should choose this shop. AI is
-              unlikely to recommend a business it cannot learn anything about from a primary source.
-            </p>
-
-            <h3>Template Websites With No Crawlable Content</h3>
-
-            <p>
-              Many barbershop websites are built on drag-and-drop platforms that render content via
-              JavaScript. A human visitor sees a beautiful site with a services section, a gallery,
-              and a booking button. An AI crawler sees a mostly blank page because the content is
-              loaded dynamically and the crawler cannot execute JavaScript.
-            </p>
-
-            <div className="ae-callout ae-callout-orange not-prose">
+            <h2 className="font-headline font-black text-2xl md:text-3xl tracking-tighter uppercase text-[#e5e2e1] mb-6">
+              WHY MOST WEBSITES ARE <span className="text-[#FF6A00]">INVISIBLE TO AI</span>
+            </h2>
+            <div className="prose prose-invert prose-lg max-w-none prose-p:text-gray-300 prose-a:text-[#FF6A00] prose-a:no-underline hover:prose-a:underline prose-strong:text-white">
+              <p>
+                Many independent barbershops have one of two website situations: either they have no
+                website at all and rely entirely on Google Business Profile and Instagram, or they have
+                a basic site built on a template platform that is technically present but largely
+                unreadable by AI crawlers.
+              </p>
+              <p>
+                Both situations produce the same result: the shop is invisible to AI platforms that do
+                not have access to Google Business Profile data and cannot read Instagram or
+                JavaScript-rendered content.
+              </p>
+              <h3>No Website at All</h3>
+              <p>
+                A barbershop with no website is asking AI to make a recommendation based on whatever it
+                can piece together from third-party directories. AI might find a Yelp listing, a
+                Facebook page, and a Google Business Profile with some reviews. But without a website,
+                there is no authoritative source of information about what the shop does, who the
+                barbers are, what they specialize in, or why a customer should choose this shop. AI is
+                unlikely to recommend a business it cannot learn anything about from a primary source.
+              </p>
+              <h3>Template Websites With No Crawlable Content</h3>
+              <p>
+                Many barbershop websites are built on drag-and-drop platforms that render content via
+                JavaScript. A human visitor sees a beautiful site with a services section, a gallery,
+                and a booking button. An AI crawler sees a mostly blank page because the content is
+                loaded dynamically and the crawler cannot execute JavaScript.
+              </p>
+            </div>
+            <div className="ae-callout ae-callout-orange not-prose mt-6">
               <p>
                 <strong>The JavaScript problem in plain terms:</strong> If you right-click your
                 website and select &quot;View Page Source&quot; and see mostly empty HTML with script
@@ -604,16 +600,15 @@ export default function HowBarbershopsGetFoundOnAISearch() {
                 browser renders the JavaScript. AI crawlers do not have a browser.
               </p>
             </div>
-
-            <p>
-              Beyond rendering, barbershop websites almost universally lack the structured service
-              content that would help AI contextualize the business. A gallery of haircut photos tells
-              a human what the barber can do. It tells AI nothing. AI needs text, descriptions, and
-              content that says specifically what services are available and who performs them.
-            </p>
-
-            {/* COMPARISON TABLE */}
-            <table className="ae-comparison-table not-prose">
+            <div className="prose prose-invert prose-lg max-w-none prose-p:text-gray-300 prose-a:text-[#FF6A00] prose-a:no-underline hover:prose-a:underline prose-strong:text-white mt-6">
+              <p>
+                Beyond rendering, barbershop websites almost universally lack the structured service
+                content that would help AI contextualize the business. A gallery of haircut photos tells
+                a human what the barber can do. It tells AI nothing. AI needs text, descriptions, and
+                content that says specifically what services are available and who performs them.
+              </p>
+            </div>
+            <table className="ae-comparison-table not-prose mt-6">
               <thead>
                 <tr>
                   <th>Website Factor</th>
@@ -654,40 +649,40 @@ export default function HowBarbershopsGetFoundOnAISearch() {
                 </tr>
               </tbody>
             </table>
-
-            {/* CTA 5 */}
-            <div className="ae-cta-inline not-prose">
+            <div className="ae-cta-inline not-prose mt-6">
               <p>
                 Find out whether AI crawlers can actually read your barbershop&apos;s website right
                 now.
               </p>
               <Link href="/blindspot">Check Your AI Visibility &rarr;</Link>
             </div>
+          </section>
 
-            {/* SECTION 6 */}
-            <span className="ae-section-label" id="chains-vs-independents">
-              The Chain Advantage
+          {/* SECTION 6 */}
+          <section id="chains-vs-independents" className="-mx-6 px-6 py-12 bg-[#1c1b1b] border-t border-white/10">
+            <span className="font-mono text-[10px] text-[#FF6A00] tracking-widest uppercase block mb-3">
+              ◉ CHAIN ADVANTAGE // The Answer Engine Intel
             </span>
-            <h2>How Chains Dominate AI Search and the Path for Independents</h2>
-
-            <p>
-              Ask ChatGPT for a barbershop recommendation in almost any city and you are likely to
-              see Great Clips or Sport Clips in the answer. This is not because they cut better hair.
-              It is because they have built, deliberately or accidentally, exactly the kind of digital
-              infrastructure that AI rewards.
-            </p>
-
-            <p>
-              Chain barbershops have consistent NAP data across thousands of directory listings
-              because they have marketing departments managing that data. They have structured
-              websites with service descriptions because they have web teams. They have high review
-              volumes because they have operational systems that prompt customers to leave reviews.
-              And their review content is naturally specific because customers describe the
-              chain&apos;s standardized services.
-            </p>
-
-            {/* PROS/CONS */}
-            <div className="ae-pros-cons not-prose">
+            <h2 className="font-headline font-black text-2xl md:text-3xl tracking-tighter uppercase text-[#e5e2e1] mb-6">
+              HOW CHAINS <span className="text-[#FF6A00]">DOMINATE</span> AI SEARCH
+            </h2>
+            <div className="prose prose-invert prose-lg max-w-none prose-p:text-gray-300 prose-a:text-[#FF6A00] prose-a:no-underline hover:prose-a:underline prose-strong:text-white">
+              <p>
+                Ask ChatGPT for a barbershop recommendation in almost any city and you are likely to
+                see Great Clips or Sport Clips in the answer. This is not because they cut better hair.
+                It is because they have built, deliberately or accidentally, exactly the kind of digital
+                infrastructure that AI rewards.
+              </p>
+              <p>
+                Chain barbershops have consistent NAP data across thousands of directory listings
+                because they have marketing departments managing that data. They have structured
+                websites with service descriptions because they have web teams. They have high review
+                volumes because they have operational systems that prompt customers to leave reviews.
+                And their review content is naturally specific because customers describe the
+                chain&apos;s standardized services.
+              </p>
+            </div>
+            <div className="ae-pros-cons not-prose mt-6">
               <div className="ae-pros-box">
                 <h4>Why Chains Win AI Recommendations</h4>
                 <ul>
@@ -711,74 +706,72 @@ export default function HowBarbershopsGetFoundOnAISearch() {
                 </ul>
               </div>
             </div>
-
-            <p>
-              The gap is not as wide as it looks. Independent barbershops have one advantage chains
-              can never fully replicate: specificity and personality. An independent shop can describe
-              a barber&apos;s specific technique in a way no corporate template allows. A solo barber
-              with 15 years of specialization in high skin fades for textured hair has a depth of
-              expertise story that Great Clips cannot tell.
-            </p>
-
-            <p>
-              What independents lack is not the expertise. It is the digital structure that makes
-              that expertise visible to AI. Barbershops that close this gap, by building crawlable
-              service content, generating multi-platform reviews, and maintaining consistent directory
-              data, can absolutely appear alongside or ahead of chain results for specific service
-              queries.
-            </p>
-
-            <p>
-              For more context on why this gap exists and how it can be closed, see our analysis of{' '}
-              <Link href="/blog/why-ai-recommends-chains-over-local-businesses">
-                why AI recommends chains over local businesses
-              </Link>
-              .
-            </p>
-
-            {/* CTA 6 */}
-            <div className="ae-cta-inline not-prose">
+            <div className="prose prose-invert prose-lg max-w-none prose-p:text-gray-300 prose-a:text-[#FF6A00] prose-a:no-underline hover:prose-a:underline prose-strong:text-white mt-6">
+              <p>
+                The gap is not as wide as it looks. Independent barbershops have one advantage chains
+                can never fully replicate: specificity and personality. An independent shop can describe
+                a barber&apos;s specific technique in a way no corporate template allows. A solo barber
+                with 15 years of specialization in high skin fades for textured hair has a depth of
+                expertise story that Great Clips cannot tell.
+              </p>
+              <p>
+                What independents lack is not the expertise. It is the digital structure that makes
+                that expertise visible to AI. Barbershops that close this gap, by building crawlable
+                service content, generating multi-platform reviews, and maintaining consistent directory
+                data, can absolutely appear alongside or ahead of chain results for specific service
+                queries.
+              </p>
+              <p>
+                For more context on why this gap exists and how it can be closed, see our analysis of{' '}
+                <Link href="/blog/why-ai-recommends-chains-over-local-businesses">
+                  why AI recommends chains over local businesses
+                </Link>
+                .
+              </p>
+            </div>
+            <div className="ae-cta-inline not-prose mt-6">
               <p>
                 Ready to compete with the chains on AI search? We help independent shops build the
                 signals that matter.
               </p>
               <a href="tel:+12134442229">Call (213) 444-2229 &rarr;</a>
             </div>
+          </section>
 
-            {/* SECTION 7 */}
-            <span className="ae-section-label" id="specialization">
-              Niche Authority
+          {/* SECTION 7 */}
+          <section id="specialization" className="-mx-6 px-6 py-12 bg-[#131313] border-t border-white/10">
+            <span className="font-mono text-[10px] text-[#FF6A00] tracking-widest uppercase block mb-3">
+              ◉ NICHE AUTHORITY // The Answer Engine Intel
             </span>
-            <h2>The Role of Barber Specialization in AI Visibility</h2>
-
-            <p>
-              One of the most underappreciated dynamics in AI search is how it rewards niche
-              expertise. AI platforms are not just looking for the nearest business that performs a
-              category of service. They are looking for the business that best matches the specific
-              need expressed in the query. Specialization is the clearest signal that a business is
-              the right match for a specific need.
-            </p>
-
-            <p>
-              A barbershop that positions itself as specializing in fades and tapers for men of color,
-              or as a go-to shop for kids cuts in a family neighborhood, or as the only shop in the
-              area offering traditional straight razor hot towel shaves is giving AI a clear, specific,
-              and differentiating story. When a customer asks AI for any of those specific services,
-              AI has a much easier path to recommending that shop than a shop that describes itself
-              generically as offering &quot;all types of haircuts.&quot;
-            </p>
-
-            <h3>Specialization Signals That AI Reads</h3>
-
-            <p>
-              Specialization only helps AI visibility if it is expressed in AI-readable content. A
-              barber who is known in the neighborhood for doing the best fades in town but has no
-              website text, no review mentions of fades, and no directory descriptions that reference
-              the specialty is invisible for fade-specific queries. The reputation exists in the real
-              world but not in the data layer that AI reads.
-            </p>
-
-            <div className="ae-callout ae-callout-info not-prose">
+            <h2 className="font-headline font-black text-2xl md:text-3xl tracking-tighter uppercase text-[#e5e2e1] mb-6">
+              SPECIALIZATION DRIVES <span className="text-[#FF6A00]">AI VISIBILITY</span>
+            </h2>
+            <div className="prose prose-invert prose-lg max-w-none prose-p:text-gray-300 prose-a:text-[#FF6A00] prose-a:no-underline hover:prose-a:underline prose-strong:text-white">
+              <p>
+                One of the most underappreciated dynamics in AI search is how it rewards niche
+                expertise. AI platforms are not just looking for the nearest business that performs a
+                category of service. They are looking for the business that best matches the specific
+                need expressed in the query. Specialization is the clearest signal that a business is
+                the right match for a specific need.
+              </p>
+              <p>
+                A barbershop that positions itself as specializing in fades and tapers for men of color,
+                or as a go-to shop for kids cuts in a family neighborhood, or as the only shop in the
+                area offering traditional straight razor hot towel shaves is giving AI a clear, specific,
+                and differentiating story. When a customer asks AI for any of those specific services,
+                AI has a much easier path to recommending that shop than a shop that describes itself
+                generically as offering &quot;all types of haircuts.&quot;
+              </p>
+              <h3>Specialization Signals That AI Reads</h3>
+              <p>
+                Specialization only helps AI visibility if it is expressed in AI-readable content. A
+                barber who is known in the neighborhood for doing the best fades in town but has no
+                website text, no review mentions of fades, and no directory descriptions that reference
+                the specialty is invisible for fade-specific queries. The reputation exists in the real
+                world but not in the data layer that AI reads.
+              </p>
+            </div>
+            <div className="ae-callout ae-callout-info not-prose mt-6">
               <p>
                 <strong>Specialization expressed in content outperforms general claims every time.</strong>{' '}
                 A barbershop whose service page describes high skin fades, bald fades, and skin taper
@@ -786,9 +779,7 @@ export default function HowBarbershopsGetFoundOnAISearch() {
                 whose homepage says &quot;We do all types of cuts&quot; will not.
               </p>
             </div>
-
-            {/* DECISION MATRIX */}
-            <table className="ae-comparison-table not-prose">
+            <table className="ae-comparison-table not-prose mt-6">
               <thead>
                 <tr>
                   <th>Specialization Signal</th>
@@ -829,51 +820,50 @@ export default function HowBarbershopsGetFoundOnAISearch() {
                 </tr>
               </tbody>
             </table>
-
-            {/* CTA 7 */}
-            <div className="ae-cta-inline not-prose">
+            <div className="ae-cta-inline not-prose mt-6">
               <p>
                 Is your shop&apos;s specialization visible to AI? Our free report checks every signal
                 that matters.
               </p>
               <Link href="/blindspot">Get Your Free Blind Spot Report &rarr;</Link>
             </div>
+          </section>
 
-            {/* SECTION 8 */}
-            <span className="ae-section-label" id="booking-signals">
-              Booking and Trust
+          {/* SECTION 8 */}
+          <section id="booking-signals" className="-mx-6 px-6 py-12 bg-[#1c1b1b] border-t border-white/10">
+            <span className="font-mono text-[10px] text-[#FF6A00] tracking-widest uppercase block mb-3">
+              ◉ BOOKING + TRUST // The Answer Engine Intel
             </span>
-            <h2>Why Appointment Booking Affects AI Trust Signals</h2>
-
-            <p>
-              Booking systems do more than let customers schedule appointments. When implemented
-              correctly, they generate a layer of operational signal that AI platforms interpret as
-              legitimacy. A barbershop that offers online booking is signaling, in a form AI can often
-              read, that it is an active business with a structured operation, not a shop that may or
-              may not still be open.
-            </p>
-
-            <p>
-              But there is a critical distinction here. Booking widgets embedded via JavaScript
-              contribute nothing to AI visibility if the surrounding page has no crawlable service
-              content. An AI crawler visiting a barbershop website with only a Booksy or Square
-              Appointments widget and no text will see almost nothing useful. The booking system needs
-              to exist within a context of service descriptions and business information that AI can
-              read.
-            </p>
-
-            <h3>What AI Actually Reads Around Your Booking System</h3>
-
-            <p>
-              The most valuable booking-adjacent content for AI visibility is the service menu. When
-              a booking system displays service names, prices, and durations as plain HTML text rather
-              than as a JavaScript-rendered widget, AI can read that content as a structured
-              description of what the shop offers. A service menu that lists &quot;Skin Fade - 45 min
-              - $35,&quot; &quot;Kids Cut (under 12) - 30 min - $25,&quot; and &quot;Hot Towel Shave
-              - 30 min - $40&quot; is a goldmine of AI-readable specialization data.
-            </p>
-
-            <div className="ae-callout ae-callout-warning not-prose">
+            <h2 className="font-headline font-black text-2xl md:text-3xl tracking-tighter uppercase text-[#e5e2e1] mb-6">
+              BOOKING AND <span className="text-[#FF6A00]">AI TRUST SIGNALS</span>
+            </h2>
+            <div className="prose prose-invert prose-lg max-w-none prose-p:text-gray-300 prose-a:text-[#FF6A00] prose-a:no-underline hover:prose-a:underline prose-strong:text-white">
+              <p>
+                Booking systems do more than let customers schedule appointments. When implemented
+                correctly, they generate a layer of operational signal that AI platforms interpret as
+                legitimacy. A barbershop that offers online booking is signaling, in a form AI can often
+                read, that it is an active business with a structured operation, not a shop that may or
+                may not still be open.
+              </p>
+              <p>
+                But there is a critical distinction here. Booking widgets embedded via JavaScript
+                contribute nothing to AI visibility if the surrounding page has no crawlable service
+                content. An AI crawler visiting a barbershop website with only a Booksy or Square
+                Appointments widget and no text will see almost nothing useful. The booking system needs
+                to exist within a context of service descriptions and business information that AI can
+                read.
+              </p>
+              <h3>What AI Actually Reads Around Your Booking System</h3>
+              <p>
+                The most valuable booking-adjacent content for AI visibility is the service menu. When
+                a booking system displays service names, prices, and durations as plain HTML text rather
+                than as a JavaScript-rendered widget, AI can read that content as a structured
+                description of what the shop offers. A service menu that lists &quot;Skin Fade - 45 min
+                - $35,&quot; &quot;Kids Cut (under 12) - 30 min - $25,&quot; and &quot;Hot Towel Shave
+                - 30 min - $40&quot; is a goldmine of AI-readable specialization data.
+              </p>
+            </div>
+            <div className="ae-callout ae-callout-warning not-prose mt-6">
               <p>
                 <strong>The booking platform trap:</strong> Many barbershops send customers to a
                 Booksy or Vagaro page for booking, which means all of that rich service data lives on
@@ -883,73 +873,78 @@ export default function HowBarbershopsGetFoundOnAISearch() {
                 yourself.
               </p>
             </div>
-
-            <p>
-              Booking data also feeds indirectly into review patterns. Barbershops with active booking
-              systems tend to have more consistent, frequent customer interactions, which produces more
-              frequent reviews. And review volume and specificity are strong AI trust signals,
-              particularly when those reviews mention the specific services available on your menu.
-            </p>
-
-            <p>
-              For a broader look at how review volume and quality interact with AI recommendations,
-              read our guide on{' '}
-              <Link href="/blog/does-more-reviews-help-ai-find-you">
-                whether more reviews help AI find you
-              </Link>
-              .
-            </p>
-
-            {/* CTA 8 */}
-            <div className="ae-cta-inline not-prose">
+            <div className="prose prose-invert prose-lg max-w-none prose-p:text-gray-300 prose-a:text-[#FF6A00] prose-a:no-underline hover:prose-a:underline prose-strong:text-white mt-6">
+              <p>
+                Booking data also feeds indirectly into review patterns. Barbershops with active booking
+                systems tend to have more consistent, frequent customer interactions, which produces more
+                frequent reviews. And review volume and specificity are strong AI trust signals,
+                particularly when those reviews mention the specific services available on your menu.
+              </p>
+              <p>
+                For a broader look at how review volume and quality interact with AI recommendations,
+                read our guide on{' '}
+                <Link href="/blog/does-more-reviews-help-ai-find-you">
+                  whether more reviews help AI find you
+                </Link>
+                .
+              </p>
+            </div>
+            <div className="ae-cta-inline not-prose mt-6">
               <p>
                 Want to know if your booking setup is helping or hurting your AI visibility? We can
                 tell you in 48 hours.
               </p>
               <a href="mailto:support@theanswerengine.ai">Email support@theanswerengine.ai &rarr;</a>
             </div>
-
-            {/* BAR GROUP */}
-            <div className="ae-bar-group not-prose">
+            <div className="ae-bar-group not-prose mt-6">
               <h3>Consumer AI Usage for Local Service Discovery</h3>
-              <div className="ae-bar-item" style={{ width: '6%', minWidth: '120px' }}>
-                <span>2022 baseline</span>
-                <strong>6%</strong>
+              <div className="ae-bar-item">
+                <div className="ae-bar-label">2022 Baseline</div>
+                <div className="ae-bar-track"><div className="ae-bar-fill" style={{width:'6%'}}></div></div>
+                <div className="ae-bar-value">6%</div>
               </div>
-              <div className="ae-bar-item" style={{ width: '18%' }}>
-                <span>End of 2023</span>
-                <strong>18%</strong>
+              <div className="ae-bar-item">
+                <div className="ae-bar-label">End of 2023</div>
+                <div className="ae-bar-track"><div className="ae-bar-fill" style={{width:'18%'}}></div></div>
+                <div className="ae-bar-value">18%</div>
               </div>
-              <div className="ae-bar-item" style={{ width: '31%' }}>
-                <span>End of 2024</span>
-                <strong>31%</strong>
+              <div className="ae-bar-item">
+                <div className="ae-bar-label">End of 2024</div>
+                <div className="ae-bar-track"><div className="ae-bar-fill" style={{width:'31%'}}></div></div>
+                <div className="ae-bar-value">31%</div>
               </div>
-              <div className="ae-bar-item" style={{ width: '45%' }}>
-                <span>Current (2026)</span>
-                <strong>45%</strong>
+              <div className="ae-bar-item">
+                <div className="ae-bar-label">Current (2026)</div>
+                <div className="ae-bar-track"><div className="ae-bar-fill" style={{width:'45%'}}></div></div>
+                <div className="ae-bar-value">45%</div>
               </div>
             </div>
+          </section>
 
-            {/* LOOKING AHEAD */}
-            <span className="ae-section-label">Looking Ahead</span>
-            <h2>What Happens When AI Becomes the Walk-In Replacement</h2>
-
-            <p>
-              Walk-in traffic is not disappearing. But the share of customers who decide on a
-              barbershop before leaving the house is growing. When that decision is made through AI,
-              it is made based on data. Whichever shop has the best data, the clearest service
-              descriptions, the most specific reviews, the most consistent directory presence, wins.
-            </p>
-
-            <p>
-              The window right now is unusually open for independent barbershops. Only 1.2% of local
-              businesses are currently cited by ChatGPT. In the barbershop category specifically, the
-              vast majority of independent shops have no meaningful AI visibility. The first shops in
-              any given neighborhood to build that visibility will capture a disproportionate share of
-              AI-driven customers and hold it as competitors eventually catch on.
-            </p>
-
-            <div className="ae-callout ae-callout-orange not-prose">
+          {/* LOOKING AHEAD */}
+          <section className="-mx-6 px-6 py-12 bg-[#131313] border-t border-white/10">
+            <span className="font-mono text-[10px] text-[#FF6A00] tracking-widest uppercase block mb-3">
+              ◉ LOOKING AHEAD // The Answer Engine Intel
+            </span>
+            <h2 className="font-headline font-black text-2xl md:text-3xl tracking-tighter uppercase text-[#e5e2e1] mb-6">
+              WHEN AI BECOMES THE <span className="text-[#FF6A00]">WALK-IN REPLACEMENT</span>
+            </h2>
+            <div className="prose prose-invert prose-lg max-w-none prose-p:text-gray-300 prose-a:text-[#FF6A00] prose-a:no-underline hover:prose-a:underline prose-strong:text-white">
+              <p>
+                Walk-in traffic is not disappearing. But the share of customers who decide on a
+                barbershop before leaving the house is growing. When that decision is made through AI,
+                it is made based on data. Whichever shop has the best data, the clearest service
+                descriptions, the most specific reviews, the most consistent directory presence, wins.
+              </p>
+              <p>
+                The window right now is unusually open for independent barbershops. Only 1.2% of local
+                businesses are currently cited by ChatGPT. In the barbershop category specifically, the
+                vast majority of independent shops have no meaningful AI visibility. The first shops in
+                any given neighborhood to build that visibility will capture a disproportionate share of
+                AI-driven customers and hold it as competitors eventually catch on.
+              </p>
+            </div>
+            <div className="ae-callout ae-callout-orange not-prose mt-6">
               <p>
                 <strong>The early mover advantage is real.</strong> AI platforms develop familiarity
                 and confidence in sources they have cited repeatedly. A barbershop that establishes
@@ -957,41 +952,52 @@ export default function HowBarbershopsGetFoundOnAISearch() {
                 that starts the same process in 2027. The gap compounds over time.
               </p>
             </div>
-
-            <p>
-              This is not about chasing an algorithm or gaming a system. It is about making sure that
-              the expertise your barbers have, the services your shop delivers, and the reputation you
-              have built with customers all exist in a form that AI platforms can read, verify, and
-              confidently recommend. Right now, for most barbershops, none of that is true. That is
-              both the problem and the opportunity.
-            </p>
-
-            {/* CTA 9 */}
-            <div className="ae-cta-inline not-prose">
+            <div className="prose prose-invert prose-lg max-w-none prose-p:text-gray-300 prose-a:text-[#FF6A00] prose-a:no-underline hover:prose-a:underline prose-strong:text-white mt-6">
+              <p>
+                This is not about chasing an algorithm or gaming a system. It is about making sure that
+                the expertise your barbers have, the services your shop delivers, and the reputation you
+                have built with customers all exist in a form that AI platforms can read, verify, and
+                confidently recommend. Right now, for most barbershops, none of that is true. That is
+                both the problem and the opportunity.
+              </p>
+            </div>
+            <div className="ae-cta-inline not-prose mt-6">
               <p>
                 The shops acting now will own their neighborhood in AI search. The ones waiting will
                 be playing catch-up.
               </p>
               <Link href="/blindspot">See Where Your Shop Stands &rarr;</Link>
             </div>
-
-            {/* CTA 10 */}
-            <div className="ae-cta-block not-prose">
+            <div className="ae-cta-block not-prose mt-6">
               <p>
                 Prefer email? Send us your questions and we will get back to you within 24 hours.
               </p>
               <a href="mailto:support@theanswerengine.ai">Email support@theanswerengine.ai &rarr;</a>
             </div>
-
-            {/* CTA 11 */}
-            <div className="ae-cta-inline not-prose">
+            <div className="ae-cta-inline not-prose mt-6">
               <p>Or call us directly. We specialize in AI visibility for local service businesses.</p>
               <a href="tel:+12134442229">Call (213) 444-2229 &rarr;</a>
             </div>
+          </section>
 
-            {/* CHEAT SHEET */}
-            <div className="ae-cheat-sheet not-prose" id="cheat-sheet">
-              <h3>AI Visibility Cheat Sheet for Barbershops</h3>
+          {/* 3-TIER CTA BLOCK */}
+          <div className="ae-final-cta not-prose">
+            <h2>Is Your Barbershop Invisible When Customers Ask AI?</h2>
+            <p>Most barbershops have no idea what AI says about them. Find out what&apos;s keeping you out of AI recommendations with a free Blind Spot Report.</p>
+            <div className="flex flex-wrap gap-4 justify-center">
+              <Link href="/blindspot" className="ae-cta-primary">
+                Get Your Free Blind Spot Report
+                <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" /></svg>
+              </Link>
+              <a href="tel:+12134442229" className="ae-cta-secondary">(213) 444-2229</a>
+            </div>
+          </div>
+
+          {/* CHEAT SHEET SECTION */}
+          <section id="cheat-sheet" className="-mx-6 px-6 py-12 bg-[#131313] border-t border-white/10">
+            <span className="font-mono text-[10px] text-[#FF6A00] tracking-widest uppercase block mb-3">◉ CHEAT SHEET // The Answer Engine Intel</span>
+            <h2 className="font-headline font-black text-2xl md:text-3xl tracking-tighter uppercase text-[#e5e2e1] mb-6">AI VISIBILITY <span className="text-[#FF6A00]">CHEAT SHEET</span></h2>
+            <div className="ae-cheat-sheet not-prose">
               <ul>
                 <li>
                   <strong>Build a real website with server-rendered HTML</strong> that AI crawlers
@@ -1035,143 +1041,121 @@ export default function HowBarbershopsGetFoundOnAISearch() {
                 </li>
               </ul>
             </div>
-
-            {/* CTA 12 */}
-            <div className="ae-cta-inline not-prose">
+            <div className="ae-cta-inline not-prose mt-6">
               <p>
                 Want this cheat sheet turned into an action plan specific to your shop? We do that.
               </p>
               <a href="mailto:support@theanswerengine.ai">Email support@theanswerengine.ai &rarr;</a>
             </div>
-
-          </div>
-
-          {/* 3-TIER CTA BLOCK */}
-          <div className="ae-final-cta not-prose">
-            <h2>Is Your Barbershop Invisible When Customers Ask AI?</h2>
-            <p>Most barbershops have no idea what AI says about them. Find out what&apos;s keeping you out of AI recommendations with a free Blind Spot Report.</p>
-            <div className="flex flex-wrap gap-4 justify-center">
-              <Link href="/blindspot" className="ae-cta-primary">
-                Get Your Free Blind Spot Report
-                <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" /></svg>
-              </Link>
-              <a href="tel:+12134442229" className="ae-cta-secondary">(213) 444-2229</a>
-            </div>
-          </div>
+          </section>
 
           {/* FAQ SECTION */}
-          <div className="prose prose-invert prose-lg max-w-none prose-headings:font-headline prose-headings:text-white prose-p:text-gray-300 prose-a:text-[#FF6A00] prose-a:no-underline hover:prose-a:underline prose-strong:text-white">
-            <span className="ae-section-label" id="faq">
-              FAQ
-            </span>
-            <h2>Frequently Asked Questions</h2>
+          <section id="faq" className="-mx-6 px-6 py-12 bg-[#1c1b1b] border-t border-white/10">
+            <span className="font-mono text-[10px] text-[#FF6A00] tracking-widest uppercase block mb-3">◉ FAQ // The Answer Engine Intel</span>
+            <h2 className="font-headline font-black text-2xl md:text-3xl tracking-tighter uppercase text-[#e5e2e1] mb-8">FREQUENTLY ASKED <span className="text-[#FF6A00]">QUESTIONS</span></h2>
+            <div className="prose prose-invert prose-lg max-w-none prose-headings:font-headline prose-p:text-gray-300 prose-a:text-[#FF6A00] prose-a:no-underline hover:prose-a:underline prose-strong:text-white">
+              <h3>Why does ChatGPT recommend Great Clips instead of my barbershop?</h3>
+              <p>
+                Great Clips has structured websites with consistent service descriptions, uniform NAP
+                data managed across thousands of directory listings, and high volumes of crawlable
+                reviews. When ChatGPT cannot find consistent, verifiable information about your shop, it
+                defaults to businesses it can verify. Independent barbershops that build the same digital
+                signals can compete for those recommendations. The gap is structural, not permanent.
+              </p>
 
-            <h3>Why does ChatGPT recommend Great Clips instead of my barbershop?</h3>
-            <p>
-              Great Clips has structured websites with consistent service descriptions, uniform NAP
-              data managed across thousands of directory listings, and high volumes of crawlable
-              reviews. When ChatGPT cannot find consistent, verifiable information about your shop, it
-              defaults to businesses it can verify. Independent barbershops that build the same digital
-              signals can compete for those recommendations. The gap is structural, not permanent.
-            </p>
+              <h3>Does having a booking system help AI find my barbershop?</h3>
+              <p>
+                Yes, but with an important caveat. A booking system that generates crawlable, structured
+                content about your services signals operational legitimacy to AI. However, booking
+                widgets that load via JavaScript are invisible to most AI crawlers. What matters is
+                whether your service information exists as readable HTML on your own website, not just
+                inside the booking platform. Mirroring your service menu as plain text on your site
+                captures that AI value.
+              </p>
 
-            <h3>Does having a booking system help AI find my barbershop?</h3>
-            <p>
-              Yes, but with an important caveat. A booking system that generates crawlable, structured
-              content about your services signals operational legitimacy to AI. However, booking
-              widgets that load via JavaScript are invisible to most AI crawlers. What matters is
-              whether your service information exists as readable HTML on your own website, not just
-              inside the booking platform. Mirroring your service menu as plain text on your site
-              captures that AI value.
-            </p>
+              <h3>Should a barbershop be on Yelp to show up on AI search?</h3>
+              <p>
+                Yelp is one of the more AI-readable review platforms because it presents structured
+                business information and reviews in crawlable format. Having an active, complete Yelp
+                profile with reviews that mention specific services, fades, tapers, beard trims, and
+                kids cuts, does contribute to AI visibility. It should be part of a broader directory
+                presence that includes Google Business Profile, Facebook, and barber-specific
+                directories.
+              </p>
 
-            <h3>Should a barbershop be on Yelp to show up on AI search?</h3>
-            <p>
-              Yelp is one of the more AI-readable review platforms because it presents structured
-              business information and reviews in crawlable format. Having an active, complete Yelp
-              profile with reviews that mention specific services, fades, tapers, beard trims, and
-              kids cuts, does contribute to AI visibility. It should be part of a broader directory
-              presence that includes Google Business Profile, Facebook, and barber-specific
-              directories.
-            </p>
+              <h3>
+                How do I get my barbershop to show up when someone asks AI for a &quot;fade near
+                me&quot;?
+              </h3>
+              <p>
+                AI surfaces barbershops for specific service queries when it can verify the shop
+                performs that service and is good at it. Your shop needs explicit service descriptions
+                that name the fade types you offer, plus reviews and testimonials that mention those
+                specific services. A barbershop whose online presence never explicitly mentions fades
+                will not appear in fade-specific AI queries, regardless of how skilled the barbers are.
+                The expertise has to be documented in AI-readable content to matter.
+              </p>
 
-            <h3>
-              How do I get my barbershop to show up when someone asks AI for a &quot;fade near
-              me&quot;?
-            </h3>
-            <p>
-              AI surfaces barbershops for specific service queries when it can verify the shop
-              performs that service and is good at it. Your shop needs explicit service descriptions
-              that name the fade types you offer, plus reviews and testimonials that mention those
-              specific services. A barbershop whose online presence never explicitly mentions fades
-              will not appear in fade-specific AI queries, regardless of how skilled the barbers are.
-              The expertise has to be documented in AI-readable content to matter.
-            </p>
+              <h3>Does Instagram help barbershops get found on AI search?</h3>
+              <p>
+                Instagram is a walled garden that most AI crawlers cannot access. While a strong
+                Instagram presence builds brand awareness and may drive some direct discovery, it does
+                not meaningfully contribute to AI search visibility. AI platforms cannot read Instagram
+                posts, captions, or reviews. The channels that matter for AI are your website, Yelp,
+                Google Business Profile, Facebook, and crawlable directories where your business
+                information appears as plain HTML.
+              </p>
 
-            <h3>Does Instagram help barbershops get found on AI search?</h3>
-            <p>
-              Instagram is a walled garden that most AI crawlers cannot access. While a strong
-              Instagram presence builds brand awareness and may drive some direct discovery, it does
-              not meaningfully contribute to AI search visibility. AI platforms cannot read Instagram
-              posts, captions, or reviews. The channels that matter for AI are your website, Yelp,
-              Google Business Profile, Facebook, and crawlable directories where your business
-              information appears as plain HTML.
-            </p>
+              <h3>Why does AI recommend a barbershop that&apos;s further away from the customer?</h3>
+              <p>
+                AI platforms do not prioritize proximity the way Google Maps does. They prioritize the
+                best-verified, most credible match for the query. A barbershop five miles away with
+                detailed service descriptions, dozens of specific reviews mentioning kids cuts and hot
+                towel shaves, and consistent directory data will outrank a shop two blocks away with a
+                sparse online presence. Trust signals and content specificity outweigh distance in AI
+                recommendations.
+              </p>
 
-            <h3>Why does AI recommend a barbershop that&apos;s further away from the customer?</h3>
-            <p>
-              AI platforms do not prioritize proximity the way Google Maps does. They prioritize the
-              best-verified, most credible match for the query. A barbershop five miles away with
-              detailed service descriptions, dozens of specific reviews mentioning kids cuts and hot
-              towel shaves, and consistent directory data will outrank a shop two blocks away with a
-              sparse online presence. Trust signals and content specificity outweigh distance in AI
-              recommendations.
-            </p>
+              <h3>
+                How many Google reviews does a barbershop need to start appearing in AI
+                recommendations?
+              </h3>
+              <p>
+                There is no magic number, and Google reviews alone are largely invisible to non-Google
+                AI platforms like ChatGPT and Perplexity because they are JavaScript-rendered. What
+                matters more than count is quality and specificity of reviews across multiple platforms.
+                A barbershop with 40 Yelp reviews that mention specific services, and testimonials
+                published as plain HTML on its own website, will often outperform a shop with 200 Google
+                reviews and nothing else in terms of cross-platform AI visibility.
+              </p>
 
-            <h3>
-              How many Google reviews does a barbershop need to start appearing in AI
-              recommendations?
-            </h3>
-            <p>
-              There is no magic number, and Google reviews alone are largely invisible to non-Google
-              AI platforms like ChatGPT and Perplexity because they are JavaScript-rendered. What
-              matters more than count is quality and specificity of reviews across multiple platforms.
-              A barbershop with 40 Yelp reviews that mention specific services, and testimonials
-              published as plain HTML on its own website, will often outperform a shop with 200 Google
-              reviews and nothing else in terms of cross-platform AI visibility.
-            </p>
-
-            <h3>
-              What is the biggest mistake barbershops make with their online presence that hurts AI
-              visibility?
-            </h3>
-            <p>
-              The single most common mistake is relying entirely on Instagram and Google Maps. Both
-              are either invisible to AI crawlers or have limited cross-platform reach. Barbershops
-              with no website, no crawlable service descriptions, and no reviews outside of Google are
-              essentially invisible to ChatGPT, Perplexity, and Claude. AI cannot recommend what it
-              cannot verify, and it cannot verify a shop that only exists inside walled gardens.
-            </p>
-
-            {/* CTA 13 */}
-            <div className="ae-cta-inline not-prose">
+              <h3>
+                What is the biggest mistake barbershops make with their online presence that hurts AI
+                visibility?
+              </h3>
+              <p>
+                The single most common mistake is relying entirely on Instagram and Google Maps. Both
+                are either invisible to AI crawlers or have limited cross-platform reach. Barbershops
+                with no website, no crawlable service descriptions, and no reviews outside of Google are
+                essentially invisible to ChatGPT, Perplexity, and Claude. AI cannot recommend what it
+                cannot verify, and it cannot verify a shop that only exists inside walled gardens.
+              </p>
+            </div>
+            <div className="ae-cta-inline not-prose mt-6">
               <p>
                 Ready to see where your shop stands in AI search? The report is free and takes 2
                 minutes.
               </p>
               <Link href="/blindspot">Get Your Free Blind Spot Report &rarr;</Link>
             </div>
-
-            {/* CTA 14 */}
-            <div className="ae-cta-inline not-prose">
+            <div className="ae-cta-inline not-prose mt-6">
               <p>
                 Have questions about your specific situation? Call us and we will walk through it with
                 you.
               </p>
               <a href="tel:+12134442229">Call (213) 444-2229 &rarr;</a>
             </div>
-
-          </div>
+          </section>
 
           {/* FINAL CTA */}
           <div className="ae-final-cta not-prose">
@@ -1219,15 +1203,10 @@ export default function HowBarbershopsGetFoundOnAISearch() {
 
           {/* AUTHOR CARD */}
           <div className="ae-author-card not-prose">
-            <div className="w-12 h-12 rounded-full bg-[#FF6A00] flex items-center justify-center text-white font-bold text-lg shrink-0">
-              AE
-            </div>
+            <div className="ae-author-avatar">AE</div>
             <div>
-              <p className="text-white font-semibold">The Answer Engine Team</p>
-              <p className="text-sm text-gray-400">
-                We help local service businesses get found, cited, and recommended by AI platforms.
-                Our team tracks AI search trends daily so you do not have to.
-              </p>
+              <div className="ae-author-name">The Answer Engine Team</div>
+              <div className="ae-author-role">Answer Engine Optimization Specialists</div>
             </div>
           </div>
 
