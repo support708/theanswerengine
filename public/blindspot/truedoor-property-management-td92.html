@@ -356,6 +356,8 @@
     font-weight: 700;
   }
   .query-icon.miss    { color: var(--red);    background: rgba(229,62,62,0.12); }
+  .query-icon.partial { color: #f59e0b;       background: rgba(245,158,11,0.12); }
+  .query-icon.win     { color: var(--green);  background: rgba(74,222,128,0.12); }
   .query-icon.tested  { color: var(--orange);  background: var(--orange-dim); }
   .query-text { font-size: 13px; line-height: 1.4; }
   .query-text strong {
@@ -897,7 +899,9 @@
       You've managed <strong>1,200+ units</strong> across Orange County for <strong>18 years</strong>.
       Your Yelp score beats most competitors. But when a landlord types
       "property management Irvine" into ChatGPT, Google AI, or Perplexity,
-      your name doesn't appear. Not once. Across any of the 10 queries your customers actually use.
+      you rank mid-page in Google for general searches. But when a landlord asks ChatGPT, Perplexity,
+      or Google AI Overviews for a recommendation, your name doesn't appear. Not once.
+      And on the informational queries landlords use to evaluate PM companies, you're not in Google either.
     </p>
     <div class="stat-bar">
       <div class="stat-cell">
@@ -906,7 +910,7 @@
       </div>
       <div class="stat-cell">
         <div class="stat-val v-red">0</div>
-        <div class="stat-label">Target Queries Captured</div>
+        <div class="stat-label">AI Citations Found</div>
       </div>
       <div class="stat-cell">
         <div class="stat-val v-white">$140K</div>
@@ -932,7 +936,7 @@
     <h2 class="slide-headline">
       They Search. <span class="accent">You're Missing.</span>
     </h2>
-    <p class="slide-sub">Live AI query test &mdash; run April 2026 across ChatGPT and Perplexity</p>
+    <p class="slide-sub">Live query test &mdash; April 2026, Google + ChatGPT + Perplexity. Key finding: no OC property manager has AI Overview dominance yet. First mover wins.</p>
 
     <div class="ai-window">
       <div class="ai-window-header">
@@ -968,19 +972,19 @@
         <div class="vs-name">HCM Property Mgmt</div>
         <div class="vs-detail">
           4.7&#9733; / 466 reviews &middot; A+ BBB (verified)<br>
-          Found in AI results across tested queries<br>
-          FAQ schema: Implemented<br>
-          AERO-10 score: 79/100
+          Google: Ranks 3rd on general OC queries<br>
+          HCM fee guide ranks 5th for cost queries<br>
+          FAQ schema: Implemented &middot; AERO-10: 79/100
         </div>
       </div>
       <div class="vs-card you">
         <div class="vs-label">TrueDoor PM</div>
         <div class="vs-name">Not in AI Answers</div>
         <div class="vs-detail">
-          4.6&#9733; / 163 reviews &middot; 18 years experience<br>
-          Not found in any tested query<br>
-          FAQ schema: Confirmed missing<br>
-          AERO-10 score: 53/100
+          4.6&#9733; / 163 reviews &middot; BBB C+ Rating (confirmed)<br>
+          Google: Ranks 5&ndash;10th on general queries<br>
+          Absent from all informational queries (fees, screening, evictions)<br>
+          FAQ schema: Confirmed missing &middot; AERO-10: 53/100
         </div>
       </div>
     </div>
@@ -1003,41 +1007,41 @@
     <h2 class="slide-headline">
       The <span class="accent">Exact Queries</span> You're Losing
     </h2>
-    <p class="slide-sub">These are the searches landlords and owners type into AI systems when looking for a property manager in Irvine and Orange County. TrueDoor appears in zero of them.</p>
+    <p class="slide-sub">Tested live April 2026. Three states: amber = TrueDoor ranks in Google but not in any AI answer. Red = absent from Google and AI entirely. Green = branded dominance only.</p>
 
     <div class="query-grid">
 
-      <!-- Tested queries (orange icon) -->
+      <!-- Q1-3: In Google mid-page, not in AI (partial/amber) -->
       <div class="query-item">
-        <div class="query-icon tested">&#9711;</div>
+        <div class="query-icon partial">&#9651;</div>
         <div class="query-text">
           <strong>"best property management companies in Irvine CA"</strong>
-          <span>Tested April 2026 &mdash; TrueDoor: not found</span>
+          <span>Google: TrueDoor rank 7 &mdash; No AI Overview, not cited in chatbot responses</span>
         </div>
       </div>
 
       <div class="query-item">
-        <div class="query-icon tested">&#9711;</div>
+        <div class="query-icon partial">&#9651;</div>
         <div class="query-text">
           <strong>"property management company Orange County CA"</strong>
-          <span>Tested April 2026 &mdash; TrueDoor: not found</span>
+          <span>Google: TrueDoor rank 5 &mdash; No AI Overview, HCM ranks 3rd</span>
         </div>
       </div>
 
       <div class="query-item">
-        <div class="query-icon tested">&#9711;</div>
+        <div class="query-icon partial">&#9651;</div>
         <div class="query-text">
           <strong>"who manages rental properties in Irvine California"</strong>
-          <span>Tested April 2026 &mdash; TrueDoor: not found</span>
+          <span>Google: TrueDoor rank 5 &mdash; No AI Overview, HCM ranks 3rd</span>
         </div>
       </div>
 
-      <!-- Keyword research targets (red icon) -->
+      <!-- Q4-7: Absent from Google and AI entirely (red) -->
       <div class="query-item">
         <div class="query-icon miss">&#10005;</div>
         <div class="query-text">
           <strong>"property management fees Orange County 2026"</strong>
-          <span>High commercial intent &mdash; no TrueDoor content targeting this</span>
+          <span>TrueDoor absent &mdash; BFPM, Good Life, KeyRenter capture this query. No AI Overview.</span>
         </div>
       </div>
 
@@ -1045,7 +1049,7 @@
         <div class="query-icon miss">&#10005;</div>
         <div class="query-text">
           <strong>"how much does property management cost in Irvine CA"</strong>
-          <span>Top-of-funnel discovery query &mdash; no dedicated page</span>
+          <span>TrueDoor absent &mdash; HCM fee guide ranks 5th here. AI gives generic price ranges.</span>
         </div>
       </div>
 
@@ -1053,7 +1057,7 @@
         <div class="query-icon miss">&#10005;</div>
         <div class="query-text">
           <strong>"tenant screening process California property manager"</strong>
-          <span>FAQ-format query &mdash; AI pulls structured Q&amp;A content</span>
+          <span>TrueDoor absent &mdash; Top results are CAA, AAOA, and screening vendors. Not PM companies.</span>
         </div>
       </div>
 
@@ -1061,31 +1065,33 @@
         <div class="query-icon miss">&#10005;</div>
         <div class="query-text">
           <strong>"eviction costs and process Orange County California"</strong>
-          <span>High-anxiety query &mdash; landlords seeking authoritative guidance</span>
+          <span>TrueDoor absent &mdash; Dominated by eviction attorneys. PM companies invisible here.</span>
         </div>
       </div>
 
+      <!-- Q8-9: Partial (Google mid-page, not AI) -->
       <div class="query-item">
-        <div class="query-icon miss">&#10005;</div>
+        <div class="query-icon partial">&#9651;</div>
         <div class="query-text">
           <strong>"property management for out-of-state landlord Irvine"</strong>
-          <span>Underserved niche &mdash; no competitor fully owns this query</span>
+          <span>Google: TrueDoor rank 8 &mdash; HCM ranks 4th. No AI Overview. Underserved by content.</span>
         </div>
       </div>
 
       <div class="query-item">
-        <div class="query-icon miss">&#10005;</div>
+        <div class="query-icon partial">&#9651;</div>
         <div class="query-text">
           <strong>"best property manager single family home Orange County"</strong>
-          <span>Portfolio-specific query &mdash; maps to TrueDoor's core service</span>
+          <span>Google: TrueDoor rank 10 &mdash; No AI Overview. Good Life, Management One rank higher.</span>
         </div>
       </div>
 
+      <!-- Q10: Branded dominance -->
       <div class="query-item">
-        <div class="query-icon miss">&#10005;</div>
+        <div class="query-icon win">&#10003;</div>
         <div class="query-text">
           <strong>"TrueDoor Property Management reviews"</strong>
-          <span>Branded query &mdash; AI should surface TrueDoor's own content first</span>
+          <span>TrueDoor dominates &mdash; 5 of top 10 results. BBB C+ rating visible here (confirmed).</span>
         </div>
       </div>
 
@@ -1093,20 +1099,24 @@
 
     <div class="query-legend">
       <div class="ql-item">
-        <div class="ql-swatch orange"></div>
-        <span>Tested live &mdash; April 2026</span>
+        <div class="ql-swatch" style="background:#f59e0b;"></div>
+        <span>Google mid-page &mdash; not in AI answers (5 queries)</span>
       </div>
       <div class="ql-item">
         <div class="ql-swatch red"></div>
-        <span>Keyword research targets &mdash; no current content</span>
+        <span>Absent from Google &amp; AI entirely (4 queries)</span>
+      </div>
+      <div class="ql-item">
+        <div class="ql-swatch" style="background:#4ade80;"></div>
+        <span>Branded dominance only (1 query)</span>
       </div>
     </div>
 
     <div class="query-verdict">
       <p>
-        These 10 queries represent the majority of how landlords discover property managers via AI.
-        <strong>AE's 90-day engagement targets all 10</strong> with FAQ schema, structured blog content,
-        and co-citation placements. HCM currently owns 5 of these through FAQ schema and roundup citations alone.
+        <strong>The opportunity:</strong> none of these 10 queries have an AI Overview featuring any property management company.
+        The field is wide open. The first OC property manager to publish structured, FAQ-rich content for these queries
+        will own the AI citations. <strong>AE's 90-day engagement claims that position for TrueDoor.</strong>
       </p>
     </div>
   </div>
@@ -1138,16 +1148,16 @@
       <div class="gap-item">
         <div class="gap-icon bad">&#10005;</div>
         <div class="gap-text">
-          <strong>Not Found in AI Queries</strong>
-          <span>Absent from all 3 live-tested AI searches (April 2026)</span>
+          <strong>Zero AI Citations</strong>
+          <span>Google rank 5&ndash;10 on general queries &mdash; not cited in any AI Overview or chatbot response</span>
         </div>
       </div>
       <div class="gap-divider"><span class="gap-vs">VS</span></div>
       <div class="gap-item">
         <div class="gap-icon good">&#10003;</div>
         <div class="gap-text">
-          <strong>Appears in AI Results</strong>
-          <span>Cited across tested queries for Irvine and OC PM</span>
+          <strong>Google Rank 3 + Fee Guide</strong>
+          <span>HCM-authored fee guide ranks 5th for cost queries &mdash; the content type AI systems cite</span>
         </div>
       </div>
 
@@ -1219,20 +1229,37 @@
         </div>
       </div>
 
-      <!-- Row: Co-Citation -->
+      <!-- Row: BBB (confirmed from live search) -->
       <div class="gap-item">
         <div class="gap-icon bad">&#10005;</div>
         <div class="gap-text">
-          <strong>Not in OC Roundup Articles</strong>
-          <span>Missing from "Best PM in Irvine" editorial lists</span>
+          <strong>BBB C+ Rating</strong>
+          <span>Confirmed from BBB.org &mdash; visible in branded search results, actively hurts trust signals</span>
         </div>
       </div>
       <div class="gap-divider"></div>
       <div class="gap-item">
         <div class="gap-icon good">&#10003;</div>
         <div class="gap-text">
-          <strong>Featured in OC Roundups</strong>
-          <span>Cited alongside Utopia, BFPM in AI-training guides</span>
+          <strong>BBB A+ Accredited</strong>
+          <span>Verified &mdash; accreditation badge cited in AI authority signals for OC PM queries</span>
+        </div>
+      </div>
+
+      <!-- Row: Co-Citation -->
+      <div class="gap-item">
+        <div class="gap-icon bad">&#10005;</div>
+        <div class="gap-text">
+          <strong>Mid-Ranking in OC Roundups</strong>
+          <span>Listed on Yelp, Expertise, HomeGuide &mdash; but ranks below BFPM, Good Life, Management One</span>
+        </div>
+      </div>
+      <div class="gap-divider"></div>
+      <div class="gap-item">
+        <div class="gap-icon good">&#10003;</div>
+        <div class="gap-text">
+          <strong>Top-Ranked in OC Roundups</strong>
+          <span>Consistently cited #1&ndash;3 in Irvine and OC editorial lists &mdash; drives AI co-citation weight</span>
         </div>
       </div>
     </div>
@@ -1355,9 +1382,10 @@
         <div class="score-denom">/100</div>
         <div class="score-grade">Grade: C &mdash; Below Market Average</div>
         <div class="score-context">
-          The Orange County PM market average is ~65/100.
-          Top performer (HCM) scores 79/100.
-          TrueDoor has a 26-point gap &mdash; all recoverable.
+          OC PM market average: ~65/100. HCM: 79/100.
+          P6 downgraded: BBB C+ confirmed from live search.
+          P8 upgraded: TrueDoor does appear in Yelp, Expertise, HomeGuide roundups.
+          26-point gap &mdash; all recoverable. No OC PM company has AI Overview dominance yet.
         </div>
       </div>
     </div>
@@ -1390,8 +1418,8 @@
       </div>
       <div class="pillar-row">
         <div class="pillar-label">P6 &middot; Authority Signals</div>
-        <div class="pillar-track"><div class="pillar-fill low" style="width:40%;"></div></div>
-        <div class="pillar-score low">4/10</div>
+        <div class="pillar-track"><div class="pillar-fill low" style="width:30%;"></div></div>
+        <div class="pillar-score low">3/10</div>
       </div>
       <div class="pillar-row">
         <div class="pillar-label">P7 &middot; Authority Distribution</div>
@@ -1400,8 +1428,8 @@
       </div>
       <div class="pillar-row">
         <div class="pillar-label">P8 &middot; Consensus &amp; Co-Citation</div>
-        <div class="pillar-track"><div class="pillar-fill low" style="width:30%;"></div></div>
-        <div class="pillar-score low">3/10</div>
+        <div class="pillar-track"><div class="pillar-fill low" style="width:40%;"></div></div>
+        <div class="pillar-score low">4/10</div>
       </div>
       <div class="pillar-row">
         <div class="pillar-label">P9 &middot; Platform Readiness</div>
