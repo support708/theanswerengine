@@ -282,6 +282,12 @@
       "email": "mario@expresselectricalservices.com",
       "type": "follow_up_2",
       "sentAt": "2026-04-22T16:00:18.556Z"
+    },
+    {
+      "leadId": "lead_1773023912047_h4wfp1",
+      "email": "office@smilela.com",
+      "type": "follow_up_2",
+      "sentAt": "2026-04-22T16:00:22.933Z"
     }
   ]
 }
