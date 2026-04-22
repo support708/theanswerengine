@@ -1,0 +1,791 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AJ Reyes Roofing, AI Visibility Blind Spot Report</title>
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    background: #f8f8f6;
+    color: #1a1a2e;
+    line-height: 1.6;
+  }
+
+  a { color: #FF6A00; text-decoration: none; }
+  a:hover { text-decoration: underline; }
+
+  /* ── HERO ── */
+  .hero {
+    background: linear-gradient(135deg, #0a0a1a 0%, #1a2744 100%);
+    color: #fff;
+    padding: 80px 24px 64px;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+  }
+  .hero::before {
+    content: "";
+    position: absolute;
+    top: -80px; left: 50%;
+    transform: translateX(-50%);
+    width: 600px; height: 600px;
+    background: radial-gradient(circle, rgba(255,106,0,0.12) 0%, transparent 70%);
+    pointer-events: none;
+  }
+  .hero-eyebrow {
+    display: inline-block;
+    background: rgba(255,106,0,0.15);
+    border: 1px solid rgba(255,106,0,0.4);
+    color: #FF6A00;
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    padding: 6px 16px;
+    border-radius: 40px;
+    margin-bottom: 28px;
+  }
+  .hero h1 {
+    font-size: clamp(28px, 5vw, 52px);
+    font-weight: 800;
+    line-height: 1.15;
+    max-width: 780px;
+    margin: 0 auto 20px;
+    letter-spacing: -0.5px;
+  }
+  .hero h1 span { color: #FF6A00; }
+  .hero-sub {
+    font-size: clamp(15px, 2vw, 18px);
+    color: rgba(255,255,255,0.7);
+    max-width: 580px;
+    margin: 0 auto 36px;
+  }
+  .hero-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    background: rgba(255,255,255,0.07);
+    border: 1px solid rgba(255,255,255,0.15);
+    border-radius: 8px;
+    padding: 10px 20px;
+    font-size: 13px;
+    color: rgba(255,255,255,0.75);
+  }
+  .hero-badge strong { color: #fff; }
+  .dot-live {
+    width: 8px; height: 8px;
+    border-radius: 50%;
+    background: #22c55e;
+    display: inline-block;
+    animation: pulse 1.8s ease-in-out infinite;
+  }
+  @keyframes pulse {
+    0%,100% { opacity: 1; transform: scale(1); }
+    50%      { opacity: 0.5; transform: scale(1.3); }
+  }
+
+  /* ── SECTION WRAPPER ── */
+  .section { padding: 72px 24px; }
+  .section-dark {
+    background: #1a2744;
+    color: #fff;
+  }
+  .section-alt { background: #f0efed; }
+
+  .container { max-width: 960px; margin: 0 auto; }
+
+  .section-label {
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 2.5px;
+    text-transform: uppercase;
+    color: #FF6A00;
+    margin-bottom: 10px;
+  }
+  .section-title {
+    font-size: clamp(22px, 3.5vw, 36px);
+    font-weight: 800;
+    line-height: 1.2;
+    margin-bottom: 12px;
+  }
+  .section-intro {
+    font-size: 16px;
+    color: rgba(255,255,255,0.65);
+    max-width: 600px;
+    margin-bottom: 48px;
+  }
+  .section-intro-dark { color: #555; max-width: 600px; margin-bottom: 48px; font-size: 16px; }
+
+  /* ── STATS PANEL ── */
+  .stats-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 20px;
+    margin-bottom: 40px;
+  }
+  .stat-card {
+    background: #fff;
+    border-radius: 14px;
+    padding: 28px 24px;
+    text-align: center;
+    border: 1px solid #e8e8e4;
+    position: relative;
+    overflow: hidden;
+  }
+  .stat-card::after {
+    content: "";
+    position: absolute;
+    top: 0; left: 0; right: 0;
+    height: 3px;
+    background: linear-gradient(90deg, #FF6A00, #ff9f4a);
+  }
+  .stat-number {
+    font-size: 42px;
+    font-weight: 900;
+    color: #FF6A00;
+    line-height: 1;
+    margin-bottom: 6px;
+  }
+  .stat-label {
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #777;
+  }
+  .stat-note {
+    font-size: 11px;
+    color: #aaa;
+    margin-top: 4px;
+  }
+
+  /* AERO score */
+  .aero-wrap {
+    background: #fff;
+    border-radius: 14px;
+    padding: 32px;
+    border: 1px solid #e8e8e4;
+    display: flex;
+    align-items: center;
+    gap: 32px;
+    flex-wrap: wrap;
+  }
+  .aero-score-circle {
+    flex-shrink: 0;
+    width: 110px; height: 110px;
+    border-radius: 50%;
+    background: conic-gradient(#FF6A00 0deg 187deg, #f0efed 187deg 360deg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+  }
+  .aero-score-circle::before {
+    content: "";
+    position: absolute;
+    width: 82px; height: 82px;
+    border-radius: 50%;
+    background: #fff;
+  }
+  .aero-score-inner {
+    position: relative;
+    z-index: 1;
+    text-align: center;
+  }
+  .aero-score-inner span:first-child {
+    display: block;
+    font-size: 26px;
+    font-weight: 900;
+    color: #1a1a2e;
+    line-height: 1;
+  }
+  .aero-score-inner span:last-child {
+    font-size: 11px;
+    color: #999;
+    font-weight: 600;
+  }
+  .aero-text h3 {
+    font-size: 20px;
+    font-weight: 800;
+    margin-bottom: 8px;
+  }
+  .aero-text p { font-size: 15px; color: #555; }
+  .aero-text p strong { color: #FF6A00; }
+
+  /* ── TERMINAL ── */
+  .terminal {
+    background: #0d1117;
+    border-radius: 14px;
+    overflow: hidden;
+    font-family: "SF Mono", "Fira Code", "Courier New", monospace;
+    box-shadow: 0 20px 60px rgba(0,0,0,0.4);
+    max-width: 720px;
+    margin: 0 auto;
+  }
+  .terminal-bar {
+    background: #1c2128;
+    padding: 12px 16px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  .t-dot { width: 12px; height: 12px; border-radius: 50%; }
+  .t-dot.red   { background: #ff5f57; }
+  .t-dot.yel   { background: #febc2e; }
+  .t-dot.grn   { background: #28c840; }
+  .terminal-label {
+    margin-left: auto;
+    font-size: 11px;
+    color: #6e7681;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  }
+  .terminal-body { padding: 24px; font-size: 13px; line-height: 1.8; }
+  .t-prompt { color: #7ee787; }
+  .t-user   { color: #e6edf3; }
+  .t-ai-tag { color: #79c0ff; font-weight: 700; }
+  .t-response { color: #cdd9e5; }
+  .t-highlight {
+    background: rgba(255,106,0,0.18);
+    color: #FF6A00;
+    padding: 1px 4px;
+    border-radius: 3px;
+    font-weight: 700;
+  }
+  .t-missing {
+    background: rgba(239,68,68,0.15);
+    color: #f87171;
+    padding: 1px 4px;
+    border-radius: 3px;
+    font-weight: 700;
+  }
+  .t-line { margin-bottom: 6px; }
+  .t-gap { margin-bottom: 16px; }
+  .t-cursor {
+    display: inline-block;
+    width: 8px; height: 14px;
+    background: #7ee787;
+    animation: blink 1s step-end infinite;
+    vertical-align: middle;
+  }
+  @keyframes blink { 0%,100%{opacity:1;} 50%{opacity:0;} }
+
+  .terminal-note {
+    margin-top: 24px;
+    padding: 16px 20px;
+    background: rgba(255,106,0,0.08);
+    border-left: 3px solid #FF6A00;
+    border-radius: 0 8px 8px 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    font-size: 14px;
+    color: rgba(255,255,255,0.8);
+  }
+  .terminal-note strong { color: #FF6A00; }
+
+  /* ── DIFFERENTIATORS ── */
+  .diff-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 20px;
+  }
+  .diff-card {
+    background: #fff;
+    border-radius: 14px;
+    padding: 28px 24px;
+    border: 1px solid #e8e8e4;
+    transition: transform 0.2s, box-shadow 0.2s;
+  }
+  .diff-card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 12px 36px rgba(0,0,0,0.09);
+  }
+  .diff-icon {
+    width: 46px; height: 46px;
+    border-radius: 12px;
+    background: linear-gradient(135deg, rgba(255,106,0,0.12), rgba(255,106,0,0.05));
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 22px;
+    margin-bottom: 16px;
+    border: 1px solid rgba(255,106,0,0.2);
+  }
+  .diff-card h3 { font-size: 16px; font-weight: 700; margin-bottom: 8px; color: #1a1a2e; }
+  .diff-card p  { font-size: 14px; color: #555; line-height: 1.6; }
+  .diff-tag {
+    display: inline-block;
+    margin-top: 12px;
+    font-size: 10px;
+    font-weight: 700;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    color: #FF6A00;
+    background: rgba(255,106,0,0.08);
+    padding: 3px 10px;
+    border-radius: 20px;
+    border: 1px solid rgba(255,106,0,0.2);
+  }
+
+  /* ── FIX GRID ── */
+  .fix-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
+    gap: 20px;
+  }
+  .fix-card {
+    background: rgba(255,255,255,0.05);
+    border: 1px solid rgba(255,255,255,0.1);
+    border-radius: 14px;
+    padding: 28px 22px;
+    transition: background 0.2s;
+  }
+  .fix-card:hover { background: rgba(255,255,255,0.09); }
+  .fix-number {
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #FF6A00;
+    margin-bottom: 14px;
+  }
+  .fix-card h3 {
+    font-size: 17px;
+    font-weight: 800;
+    color: #fff;
+    margin-bottom: 10px;
+  }
+  .fix-card p {
+    font-size: 14px;
+    color: rgba(255,255,255,0.6);
+    line-height: 1.65;
+  }
+  .fix-card ul {
+    list-style: none;
+    margin-top: 10px;
+  }
+  .fix-card ul li {
+    font-size: 13px;
+    color: rgba(255,255,255,0.55);
+    padding: 3px 0;
+  }
+  .fix-card ul li::before {
+    content: "→ ";
+    color: #FF6A00;
+    font-weight: 700;
+  }
+
+  /* ── CTA ── */
+  .cta-section {
+    background: linear-gradient(135deg, #0a0a1a 0%, #1a2744 100%);
+    padding: 88px 24px;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+  }
+  .cta-section::before {
+    content: "";
+    position: absolute;
+    bottom: -100px; left: 50%;
+    transform: translateX(-50%);
+    width: 700px; height: 400px;
+    background: radial-gradient(circle, rgba(255,106,0,0.1) 0%, transparent 65%);
+    pointer-events: none;
+  }
+  .cta-section h2 {
+    font-size: clamp(26px, 4vw, 44px);
+    font-weight: 900;
+    color: #fff;
+    margin-bottom: 16px;
+    line-height: 1.2;
+  }
+  .cta-section h2 span { color: #FF6A00; }
+  .cta-section p {
+    font-size: 17px;
+    color: rgba(255,255,255,0.65);
+    max-width: 520px;
+    margin: 0 auto 40px;
+  }
+  .cta-btn {
+    display: inline-block;
+    background: linear-gradient(135deg, #FF6A00, #ff8c38);
+    color: #fff !important;
+    font-size: 16px;
+    font-weight: 800;
+    letter-spacing: 0.5px;
+    padding: 18px 44px;
+    border-radius: 50px;
+    text-decoration: none !important;
+    box-shadow: 0 8px 32px rgba(255,106,0,0.35);
+    transition: transform 0.2s, box-shadow 0.2s;
+  }
+  .cta-btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 14px 44px rgba(255,106,0,0.45);
+  }
+  .cta-sub {
+    margin-top: 18px;
+    font-size: 13px;
+    color: rgba(255,255,255,0.4);
+  }
+
+  /* ── FOOTER ── */
+  footer {
+    background: #0a0a1a;
+    text-align: center;
+    padding: 28px 24px;
+    font-size: 12px;
+    color: rgba(255,255,255,0.3);
+  }
+  footer a { color: rgba(255,255,255,0.45); }
+
+  /* ── RESPONSIVE ── */
+  @media (max-width: 600px) {
+    .aero-wrap { flex-direction: column; align-items: flex-start; gap: 20px; }
+    .stats-grid { grid-template-columns: 1fr 1fr; }
+  }
+  @media (max-width: 400px) {
+    .stats-grid { grid-template-columns: 1fr; }
+  }
+</style>
+</head>
+<body>
+
+<!-- ══════════════════════════════════════════
+     SECTION 1: HERO / THE HOOK
+══════════════════════════════════════════ -->
+<section class="hero">
+  <div class="container">
+    <div class="hero-eyebrow">AI Visibility Blind Spot Report</div>
+    <h1>Antonio, You Have a<br><span>Visibility Problem.</span></h1>
+    <p class="hero-sub">
+      AJ Reyes Roofing has 30 years of proven expertise in Los Angeles, yet when homeowners ask AI assistants for a trusted roofing contractor, your business is nowhere in the answer. Competitors are capturing those leads instead.
+    </p>
+    <div class="hero-badge">
+      <span class="dot-live"></span>
+      Report generated for <strong>ajreyesroofing.com</strong> &nbsp;|&nbsp; Los Angeles, CA
+    </div>
+  </div>
+</section>
+
+
+<!-- ══════════════════════════════════════════
+     SECTION 2: THE GAP
+══════════════════════════════════════════ -->
+<section class="section">
+  <div class="container">
+    <div class="section-label">The Gap</div>
+    <h2 class="section-title">Your Credentials Are Strong.<br>Your AI Presence Is Not.</h2>
+    <p class="section-intro-dark">
+      Three decades of roofing experience, multiple manufacturer certifications, and a family legacy built from the ground up. Yet AI search engines cannot find you. Here is where you stand today.
+    </p>
+
+    <div class="stats-grid">
+      <div class="stat-card">
+        <div class="stat-number">30</div>
+        <div class="stat-label">Years in Business</div>
+        <div class="stat-note">Founded 1995, Los Angeles</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-number">6</div>
+        <div class="stat-label">Credentials &amp; Certifications</div>
+        <div class="stat-note">C-39, GAF, Boral, CertainTeed &amp; more</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-number">25+</div>
+        <div class="stat-label">Years Spanish Tile Specialty</div>
+        <div class="stat-note">Mediterranean clay tile expertise</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-number">0</div>
+        <div class="stat-label">AI Citations Found</div>
+        <div class="stat-note">Not referenced in AI responses</div>
+      </div>
+    </div>
+
+    <div class="aero-wrap">
+      <div class="aero-score-circle">
+        <div class="aero-score-inner">
+          <span>52</span>
+          <span>/100</span>
+        </div>
+      </div>
+      <div class="aero-text">
+        <h3>AERO-10 Score: 52 out of 100</h3>
+        <p>
+          Your current Answer Engine Readiness score sits in the <strong>critical zone</strong>. This means AI platforms like ChatGPT, Perplexity, and Google's AI Overviews are consistently recommending competitors such as <strong>Bilt-well Roofing</strong> over AJ Reyes Roofing, even though your qualifications and experience are equal to or exceed theirs.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- ══════════════════════════════════════════
+     SECTION 3: WHAT AI SEES
+══════════════════════════════════════════ -->
+<section class="section section-dark">
+  <div class="container">
+    <div class="section-label">What AI Sees</div>
+    <h2 class="section-title" style="color:#fff;">When Homeowners Ask AI,<br>They Hear About Your Competitor.</h2>
+    <p class="section-intro">
+      This is a simulated example of how AI assistants currently respond to roofing queries in Los Angeles. Notice who gets recommended and who gets left out.
+    </p>
+
+    <div class="terminal">
+      <div class="terminal-bar">
+        <span class="t-dot red"></span>
+        <span class="t-dot yel"></span>
+        <span class="t-dot grn"></span>
+        <span class="terminal-label">AI Assistant Simulation</span>
+      </div>
+      <div class="terminal-body">
+        <div class="t-line t-gap">
+          <span class="t-prompt">user@browser:~$</span>
+          <span class="t-user"> "Who are the best roofing contractors in Los Angeles for Spanish tile roofs?"</span>
+        </div>
+        <div class="t-line">
+          <span class="t-ai-tag">AI:</span>
+          <span class="t-response"> Here are some well-regarded roofing contractors serving the Los Angeles area:</span>
+        </div>
+        <div class="t-line" style="padding-left:20px;">
+          <span class="t-response">1. <span class="t-highlight">Bilt-well Roofing</span>, established contractor with strong online presence</span>
+        </div>
+        <div class="t-line" style="padding-left:20px;">
+          <span class="t-response">2. [Regional competitor with schema markup]</span>
+        </div>
+        <div class="t-line t-gap" style="padding-left:20px;">
+          <span class="t-response">3. [Contractor with structured review data]</span>
+        </div>
+        <div class="t-line t-gap">
+          <span class="t-response">For Spanish tile or Mediterranean-style roofs, I recommend verifying contractor certifications and requesting multiple quotes...</span>
+        </div>
+        <div class="t-line">
+          <span class="t-ai-tag">AI:</span>
+          <span class="t-response"> <span class="t-missing">AJ Reyes Roofing not found in indexed sources.</span> Despite 30 years of experience and GAF, Boral, and CertainTeed certifications, insufficient structured data prevents citation.</span>
+        </div>
+        <div class="t-line" style="margin-top:8px;">
+          <span class="t-cursor"></span>
+        </div>
+      </div>
+    </div>
+
+    <div class="terminal-note">
+      <strong>Why does this happen?</strong> AI engines rely on structured data, authoritative mentions, and entity-level signals to form recommendations. AJ Reyes Roofing's expertise exists, but it has not been organized in a format AI can read and cite with confidence.
+    </div>
+  </div>
+</section>
+
+
+<!-- ══════════════════════════════════════════
+     SECTION 4: HIDDEN DIFFERENTIATORS
+══════════════════════════════════════════ -->
+<section class="section section-alt">
+  <div class="container">
+    <div class="section-label">Hidden Differentiators</div>
+    <h2 class="section-title">What Makes AJ Reyes Roofing Different<br>Needs to Be Visible to AI.</h2>
+    <p class="section-intro-dark" style="margin-bottom:40px;">
+      These genuine competitive advantages exist today but are invisible to AI platforms. Once structured correctly, they become powerful citation triggers.
+    </p>
+
+    <div class="diff-grid">
+
+      <div class="diff-card">
+        <div class="diff-icon">👨‍👦</div>
+        <h3>Father and Son Legacy Business</h3>
+        <p>
+          Antonio Reyes founded the company in 1995 as a solo operation. He grew it by bringing in family members, and now son Jose Reyes carries the tradition forward into the next generation. This authentic family story is a powerful trust signal that AI engines and homeowners respond to.
+        </p>
+        <span class="diff-tag">Trust Signal</span>
+      </div>
+
+      <div class="diff-card">
+        <div class="diff-icon">🏛️</div>
+        <h3>25+ Years Spanish Tile Specialty</h3>
+        <p>
+          AJ Reyes Roofing has specialized in Mediterranean and Spanish clay tile installation for over 25 years. This depth of niche expertise is rare in the Los Angeles market and positions the company as a category authority that AI should be citing.
+        </p>
+        <span class="diff-tag">Niche Authority</span>
+      </div>
+
+      <div class="diff-card">
+        <div class="diff-icon">🗺️</div>
+        <h3>Regional Reach from San Francisco to San Diego</h3>
+        <p>
+          Operating from Granada Hills in the San Fernando Valley, AJ Reyes Roofing serves a broad geographic corridor across California. This regional footprint is an underutilized signal for local and regional AI visibility.
+        </p>
+        <span class="diff-tag">Geographic Authority</span>
+      </div>
+
+      <div class="diff-card">
+        <div class="diff-icon">💰</div>
+        <h3>In-House Crew Model for Competitive Pricing</h3>
+        <p>
+          By hiring family members and maintaining an in-house crew, AJ Reyes Roofing avoids third-party subcontractor markups. This directly results in the competitive, transparent pricing that customers reference in reviews, creating a clear differentiator AI can describe.
+        </p>
+        <span class="diff-tag">Cost Advantage</span>
+      </div>
+
+      <div class="diff-card">
+        <div class="diff-icon">🛡️</div>
+        <h3>25-Year Material Warranty and 5-Year Labor Warranty</h3>
+        <p>
+          Offering a 25-year material warranty alongside a 5-year labor warranty signals exceptional confidence in workmanship. Warranty specifics are exactly the kind of structured, verifiable data AI engines use to recommend contractors to homeowners.
+        </p>
+        <span class="diff-tag">Confidence Signal</span>
+      </div>
+
+      <div class="diff-card">
+        <div class="diff-icon">🏅</div>
+        <h3>Six Industry Certifications</h3>
+        <p>
+          California C-39 contractor license, California Secretary of State registration, GAF certification, Boral certification, CertainTeed certification, and professional manufacturer accreditations represent a comprehensive credential stack that most competitors do not match.
+        </p>
+        <span class="diff-tag">Credibility Stack</span>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+<!-- ══════════════════════════════════════════
+     SECTION 5: THE FIX
+══════════════════════════════════════════ -->
+<section class="section section-dark">
+  <div class="container">
+    <div class="section-label">The Fix</div>
+    <h2 class="section-title" style="color:#fff;">Four Moves to Get AJ Reyes Roofing<br>Into AI Answers.</h2>
+    <p class="section-intro">
+      Your expertise is real. The gap is structural. These four optimizations directly raise your AERO-10 score and move you into AI recommendation results.
+    </p>
+
+    <div class="fix-grid">
+
+      <div class="fix-card">
+        <div class="fix-number">Fix 01</div>
+        <h3>Answer-First Content</h3>
+        <p>Rewrite your website pages so they directly answer the questions homeowners type into AI assistants.</p>
+        <ul>
+          <li>FAQ pages structured as direct Q and A</li>
+          <li>Spanish tile roofing process explained step by step</li>
+          <li>Warranty terms stated in plain, specific language</li>
+          <li>Pricing philosophy described transparently</li>
+        </ul>
+      </div>
+
+      <div class="fix-card">
+        <div class="fix-number">Fix 02</div>
+        <h3>Schema Markup</h3>
+        <p>Add structured data that tells AI engines exactly who you are, what you do, and where you operate.</p>
+        <ul>
+          <li>LocalBusiness and Contractor schema</li>
+          <li>Service area markup for San Fernando Valley</li>
+          <li>Certification and license schema fields</li>
+          <li>Warranty terms in structured format</li>
+        </ul>
+      </div>
+
+      <div class="fix-card">
+        <div class="fix-number">Fix 03</div>
+        <h3>Entity Building</h3>
+        <p>Establish AJ Reyes Roofing as a named, trustworthy entity across the web so AI can confidently cite it.</p>
+        <ul>
+          <li>Google Business Profile fully completed</li>
+          <li>Antonio and Jose Reyes named publicly</li>
+          <li>Consistent NAP across all directories</li>
+          <li>Family founding story published as content</li>
+        </ul>
+      </div>
+
+      <div class="fix-card">
+        <div class="fix-number">Fix 04</div>
+        <h3>Authority Signals</h3>
+        <p>Build the third-party credibility layer that AI engines require before recommending a business.</p>
+        <ul>
+          <li>Manufacturer credential pages linked back to your site</li>
+          <li>Review generation campaign launched</li>
+          <li>Industry directory listings secured</li>
+          <li>Spanish tile expertise cited on external sources</li>
+        </ul>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+<!-- ══════════════════════════════════════════
+     SECTION 6: CTA
+══════════════════════════════════════════ -->
+<section class="cta-section">
+  <div class="container">
+    <h2>Ready to Put AJ Reyes Roofing<br>Into <span>AI Search Results?</span></h2>
+    <p>
+      In 30 minutes, we will walk through exactly which fixes will have the greatest impact for your business and how quickly you can expect to see AJ Reyes Roofing appearing in AI-generated answers.
+    </p>
+    <a href="https://calendly.com/theanswerengine-support/30min" class="cta-btn" target="_blank" rel="noopener">
+      Book Your Free 30-Min Strategy Call
+    </a>
+    <div class="cta-sub">No obligation. No sales pressure. Just a clear, actionable plan.</div>
+  </div>
+</section>
+
+
+<!-- ══════════════════════════════════════════
+     FOOTER
+══════════════════════════════════════════ -->
+<footer>
+  <p>This analysis uses publicly available information about AJ Reyes Roofing and the competitive landscape in Los Angeles.</p>
+  <p style="margin-top:6px;">Questions? <a href="mailto:support@theanswerengine.ai">support@theanswerengine.ai</a></p>
+</footer>
+
+
+<h2 style="margin:0 0 6px 0;font-family:'Space Grotesk','Inter','Helvetica Neue',Arial,sans-serif;font-size:20px;font-weight:900;color:#1a1a1a;letter-spacing:-0.02em;text-transform:uppercase;">Competitor Battlecard</h2>
+<p style="margin:0 0 18px 0;font-size:14px;color:#555;">AJ Reyes Roofing has zero AI citations and no review presence on local platforms, while competitors capture search traffic and leads through aggregator visibility.</p>
+
+<table role="presentation" cellpadding="0" cellspacing="0" border="0" width="100%" style="border-collapse:collapse;margin:0 0 22px 0;">
+  <tr>
+    <td valign="top" style="padding:14px;background:#fafafa;border-left:3px solid #FF6A00;width:50%;">
+      <div style="font-family:'JetBrains Mono',Consolas,Menlo,'Courier New',monospace;font-size:10px;color:#888;letter-spacing:0.12em;text-transform:uppercase;margin-bottom:6px;">You</div>
+      <div style="font-family:'Space Grotesk','Inter','Helvetica Neue',Arial,sans-serif;font-size:16px;font-weight:800;color:#1a1a1a;margin-bottom:6px;">AJ Reyes Roofing</div>
+      <div style="font-size:12px;color:#555;line-height:1.5;">0 verified citations · 0 reviews · 0★</div>
+    </td>
+    <td style="width:12px;"></td>
+    <td valign="top" style="padding:14px;background:#fafafa;border-left:3px solid #bbb;width:50%;">
+      <div style="font-family:'JetBrains Mono',Consolas,Menlo,'Courier New',monospace;font-size:10px;color:#888;letter-spacing:0.12em;text-transform:uppercase;margin-bottom:6px;">Competitor</div>
+      <div style="font-family:'Space Grotesk','Inter','Helvetica Neue',Arial,sans-serif;font-size:16px;font-weight:800;color:#1a1a1a;margin-bottom:6px;">Bilt-well Roofing</div>
+      <div style="font-size:12px;color:#555;line-height:1.5;">cited on multiple platforms · public review presence</div>
+    </td>
+  </tr>
+</table>
+
+<h3 style="margin:0 0 10px 0;font-size:14px;color:#1a1a1a;font-family:'Space Grotesk','Inter','Helvetica Neue',Arial,sans-serif;font-weight:800;text-transform:uppercase;letter-spacing:0.02em;">Where They Show Up Today</h3>
+<ul style="margin:0 0 20px 0;padding:0;">
+    <li style="margin:0 0 8px 0;padding:8px 12px;background:#fafafa;border-left:3px solid #FF6A00;list-style:none;font-size:13px;color:#333;">Bilt-well likely ranks in Google local pack and answer engines because they maintain active review profiles on Google My Business, Yelp, and HomeAdvisor</li>
+    <li style="margin:0 0 8px 0;padding:8px 12px;background:#fafafa;border-left:3px solid #FF6A00;list-style:none;font-size:13px;color:#333;">Competitors accumulate social proof (review count and ratings) that answer engines surface when customers search 'roofing contractors near me' or 'best roofers Los Angeles'</li>
+    <li style="margin:0 0 8px 0;padding:8px 12px;background:#fafafa;border-left:3px solid #FF6A00;list-style:none;font-size:13px;color:#333;">Review aggregators funnel qualified leads directly to competitors who claim and optimize their listings</li></ul>
+
+<h3 style="margin:0 0 10px 0;font-size:14px;color:#1a1a1a;font-family:'Space Grotesk','Inter','Helvetica Neue',Arial,sans-serif;font-weight:800;text-transform:uppercase;letter-spacing:0.02em;">Three Flip Moves</h3>
+<ol style="margin:0 0 20px 0;padding:0;list-style:none;">
+    <li style="margin:0 0 12px 0;padding:12px 14px;background:#f6faf6;border-left:3px solid #2e8b57;list-style:none;">
+      <div style="font-family:'Space Grotesk','Inter','Helvetica Neue',Arial,sans-serif;font-weight:800;color:#1a1a1a;font-size:14px;margin-bottom:4px;">1. Claim and optimize Google My Business immediately</div>
+      <div style="font-size:13px;color:#555;">Set up verified GBP profile with complete business info, service areas from San Francisco to San Diego, C-39 license number, photos of completed projects, and service descriptions. This becomes the foundation for local search visibility and AI citations.</div>
+    </li>
+    <li style="margin:0 0 12px 0;padding:12px 14px;background:#f6faf6;border-left:3px solid #2e8b57;list-style:none;">
+      <div style="font-family:'Space Grotesk','Inter','Helvetica Neue',Arial,sans-serif;font-weight:800;color:#1a1a1a;font-size:14px;margin-bottom:4px;">2. Populate Yelp with full profile and encourage first reviews</div>
+      <div style="font-size:13px;color:#555;">Complete Yelp listing with photos, service offerings, pricing mention, and business hours. Systematically request reviews from past customers to build the review count and rating that answer engines display.</div>
+    </li>
+    <li style="margin:0 0 12px 0;padding:12px 14px;background:#f6faf6;border-left:3px solid #2e8b57;list-style:none;">
+      <div style="font-family:'Space Grotesk','Inter','Helvetica Neue',Arial,sans-serif;font-weight:800;color:#1a1a1a;font-size:14px;margin-bottom:4px;">3. Add schema markup to website</div>
+      <div style="font-size:13px;color:#555;">Implement LocalBusiness, Service, and FAQ structured data on ajreyesroofing.com so answer engines can extract and cite roofing services, warranty details, and Spanish tile specialty directly from the site.</div>
+    </li></ol>
+
+<h3 style="margin:0 0 10px 0;font-size:14px;color:#1a1a1a;font-family:'Space Grotesk','Inter','Helvetica Neue',Arial,sans-serif;font-weight:800;text-transform:uppercase;letter-spacing:0.02em;">Gaps They Haven't Filled</h3>
+<ul style="margin:0 0 20px 0;padding:0;">
+    <li style="margin:0 0 6px 0;padding:6px 10px;background:#fff6ea;list-style:none;font-size:13px;color:#333;">Bilt-well likely has no Spanish language service pages or testimonials, but AJ Reyes can own 'Spanish tile roofing Los Angeles' by adding bilingual content and Spanish customer testimonials</li>
+    <li style="margin:0 0 6px 0;padding:6px 10px;background:#fff6ea;list-style:none;font-size:13px;color:#333;">Competitors probably lack before-and-after gallery schema markup, leaving AJ Reyes the chance to structure project images so answer engines feature them in visual results</li>
+    <li style="margin:0 0 6px 0;padding:6px 10px;background:#fff6ea;list-style:none;font-size:13px;color:#333;">Bilt-well may not emphasize family-owned differentiator in structured data, allowing AJ Reyes to claim local, family business citations that resonate in answer engine rankings for 'father-son roofing' or 'family owned contractors'</li></ul>
+</body>
+</html>

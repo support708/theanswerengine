@@ -4375,8 +4375,70 @@
     "reviewCount": null,
     "rating": null,
     "notes": "Auto-discovered by Lead Hunter. AI citation: not cited on 1/1 platforms. Competitors cited: Bilt-well Roofing, J and J Roofing, Smart Roofing. Outreach-ready: YES (citation data + contact + differentiator verified). Differentiator: Father and son-owned, 25+ years in business since 1995, specializes in Spanish tile roofs, San Fernando Valley based",
-    "status": "queued",
-    "research": null,
+    "status": "report_ready",
+    "research": {
+      "reviewCount": 0,
+      "rating": 0,
+      "yearsInBusiness": 30,
+      "credentials": [
+        "California State Contractor License Board C-39",
+        "California Secretary of State License",
+        "Professional accreditation from roofing material manufacturers",
+        "GAF roofing contractor certification",
+        "Boral roofing contractor certification",
+        "CertainTeed roofing contractor certification"
+      ],
+      "awards": [],
+      "communityInvolvement": [],
+      "hiddenDifferentiators": [
+        "Father and son-owned family business: Antonio Reyes (founder) and Jose Reyes (son) continuing family tradition",
+        "Spanish tile roof specialty: 25+ years of specialized experience in Mediterranean and Spanish clay tile installation",
+        "San Fernando Valley-based with regional dominance: operates from Granada Hills, serves San Francisco to San Diego",
+        "In-house crew model: reduces labor costs, hires family members to maintain affordable pricing philosophy",
+        "Transparent pricing: referenced in customer reviews for competitive quotes",
+        "25-year material warranty and 5-year labor warranty: strong confidence signals"
+      ],
+      "topCompetitors": [
+        {
+          "name": "Final Touch Roofing",
+          "reason": "Appears at top of Yelp rankings for Los Angeles roofing, receives exceptional reviews for professionalism and timeliness"
+        },
+        {
+          "name": "Smart Roofing",
+          "reason": "Mentioned as competitor in context, top-ranked on Yelp with strong reviews"
+        },
+        {
+          "name": "SLR Roofing",
+          "reason": "Appears in top 10 for both Los Angeles and San Fernando Valley Yelp searches"
+        },
+        {
+          "name": "The Roof Doctors",
+          "reason": "30+ years established authority in LA County, positioned as preferred roofing contractor with strong brand presence"
+        }
+      ],
+      "faqContentPresent": true,
+      "blogPresent": true,
+      "gmbPresent": false,
+      "schemaDetected": false,
+      "recentContent": true,
+      "uniqueStory": "Father and son-owned roofing business founded in 1995 by Antonio Reyes. Started as solo roofing operation, expanded by bringing in brothers, and now includes son Jose Reyes representing the next generation. Based in San Fernando Valley with 25+ years of experience specializing in Spanish tile roofs. Strong emphasis on family values, honest work, and competitive pricing through in-house crew hiring model.",
+      "aiCited": false,
+      "aero7": {
+        "answerQuality": 7,
+        "entityOptimization": 4,
+        "relevanceFreshness": 7,
+        "optimizationStructure": 6,
+        "voiceAuthenticity": 8,
+        "authoritySignals": 5,
+        "authorityDistribution": 5,
+        "consensusCoCitation": 3,
+        "platformReadiness": 4,
+        "technicalAccessibility": 3,
+        "total": 52
+      },
+      "rawNotes": "STRENGTHS: Strong website with detailed service pages, recent content updates (August 2025), clear about-us with family origin story, blog with helpful content (architectural shingles guide, roof damage identification), projects page with before/after, multiple service offerings (shingle, tile, flat roofs), strong warranty positioning (25-year materials, 5-year labor). Legitimate credentials (C-39 license, CA Secretary of State). Real customer testimonials on homepage. Differentiator clearly articulated: father and son-owned, 25+ years, Spanish tile specialty. Pricing transparency mentioned in reviews. Serves large geographic area (San Francisco to San Diego). WEAKNESSES: No Google My Business/GBP presence detected despite being local service business. Not BBB Accredited (shows as unapproved). Yelp listings appear to be blank or minimal detail. No social proof metrics available (review counts not shown on Yelp). Limited third-party platform presence (Facebook: only 2 reviews showing). No detectable schema markup on website for LocalBusiness, Service, or FAQ structured data, which is critical for AI discoverability. New to HomeAdvisor and Angi with no reviews yet. No Reddit mentions found. NAP inconsistency risk: Some listings show Granada Hills, some show Arleta, Pacoima. Website lacks clear schema making it invisible to AI citation systems. Not appearing in top AI-recommended roofing contractors for Los Angeles search. Competitors like Final Touch Roofing, Smart Roofing, and The Roof Doctors rank higher in both traditional search and third-party visibility. Blog exists but appears underdeveloped. No FAQ schema detected despite having FAQ-style content. PLATFORM ANALYSIS: Website is primarily own-domain dependent. Limited third-party presence reduces AI discovery. No prominent presence on contractor directories (Angi, HomeAdvisor show as new with zero reviews). Facebook page exists but minimal engagement (2 reviews). Instagram profile exists but inaccessible. ProvenExpert profile exists but marked as not reviewed. CITATION DATA: AI citation status: 0 of 1 platforms citing. Not appearing in AI-generated recommendations for best roofing contractors in Los Angeles. Competitors actively appearing in top results. TECHNICAL READINESS: Robots.txt access not verified. Schema markup appears absent despite extensive content that would benefit from LocalBusiness, Service, and FAQ schema. No rich snippets detected. Site appears mobile-responsive but technical optimization for AI systems appears low. NAP CONSISTENCY ISSUES: Primary address: 17020 Chatsworth St #1064, Granada Hills, CA 91344. Some references show Arleta, CA. Phone: (424) 264-8603. Email: ajreyesroofing@gmail.com / hello@ajreyesroofing.com (inconsistency). RECOMMENDATION: Immediate priorities for AI readiness: (1) Implement full LocalBusiness, Service, FAQ, and Review schema markup; (2) Claim and optimize Google My Business with photo gallery and detailed service descriptions; (3) Ensure NAP consistency across all platforms; (4) Build third-party presence on Angi, HomeAdvisor, Yelp with complete profiles and photos; (5) Develop more FAQ content with schema markup; (6) Consider joining directories relevant to roofing (Bark, Rated People equivalent in US). Site has strong foundational content and authentic family story but lacks technical AI optimization needed for citation and discovery in 2026 answer engine landscape.",
+      "researchedAt": "2026-04-22T06:00:55.843Z"
+    },
     "reportSlug": "aj-reyes-roofing-ck90",
     "emailDraftId": null,
     "fabricationFlags": [],
@@ -4385,10 +4447,42 @@
       {
         "action": "Queued by Lead Hunter (P2, score: 25.5, outreach-ready: true)",
         "timestamp": "2026-04-09T14:00:57.391Z"
+      },
+      {
+        "action": "Research started (auto-pipeline)",
+        "timestamp": "2026-04-22T06:00:26.385Z"
+      },
+      {
+        "action": "Research completed (AERO-10: 52/100)",
+        "timestamp": "2026-04-22T06:00:55.843Z"
+      },
+      {
+        "action": "Report generation started",
+        "timestamp": "2026-04-22T06:00:55.843Z"
+      },
+      {
+        "action": "Competitor battlecard attached",
+        "timestamp": "2026-04-22T06:02:53.334Z"
+      },
+      {
+        "action": "Report generated",
+        "timestamp": "2026-04-22T06:02:53.334Z"
+      },
+      {
+        "action": "Fabrication scan: CLEAN",
+        "timestamp": "2026-04-22T06:02:53.334Z"
+      },
+      {
+        "action": "Em-dash scan: 2 found, auto-stripped",
+        "timestamp": "2026-04-22T06:02:53.334Z"
+      },
+      {
+        "action": "Report + OG metadata deployed to production",
+        "timestamp": "2026-04-22T06:02:53.483Z"
       }
     ],
     "createdAt": "2026-04-09T14:00:57.391Z",
-    "updatedAt": "2026-04-09T14:00:57.391Z",
+    "updatedAt": "2026-04-22T06:02:53.334Z",
     "huntSource": "hunt_1775743210629_lqp4",
     "huntScore": 25.5,
     "huntPriority": "P2",
