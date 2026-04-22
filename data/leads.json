@@ -1328,7 +1328,7 @@
     "reviewCount": 3911,
     "rating": 4.9,
     "notes": "Auto-discovered by Lead Hunter. AI citation: not cited on 1/1 platforms. Competitors cited: The Electric Connection, Powell Electric, Prime Electric. Outreach-ready: YES (citation data + contact + differentiator verified). Differentiator: Operating since 1982 (44 years), 3,911 reviews on Birdeye, 24/7 emergency service, 60-90 minute response guarantee, largest review count",
-    "status": "follow_up_1",
+    "status": "follow_up_2",
     "research": {
       "reviewCount": 3911,
       "rating": 4.9,
@@ -1444,10 +1444,14 @@
       {
         "action": "follow_up_1 auto-sent via Gmail (19d879310663ca76)",
         "timestamp": "2026-04-13T16:00:57.264Z"
+      },
+      {
+        "action": "follow_up_2 auto-sent via Gmail (19db5ebbad2d0bcf)",
+        "timestamp": "2026-04-22T16:00:20.365Z"
       }
     ],
     "createdAt": "2026-03-09T02:13:45.366Z",
-    "updatedAt": "2026-04-13T16:00:57.373Z",
+    "updatedAt": "2026-04-22T16:00:20.504Z",
     "huntSource": "hunt_1773022316078_kn4h",
     "huntScore": 37.5,
     "huntPriority": "P1",
