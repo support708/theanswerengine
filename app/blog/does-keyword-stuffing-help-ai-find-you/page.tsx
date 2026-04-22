@@ -162,33 +162,19 @@ export default function BlogPost() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
 
       {/* HERO */}
-      <section
-        className="relative overflow-hidden"
-        style={{ background: 'linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%)' }}
-      >
-        <svg className="absolute inset-0 w-full h-full opacity-10" xmlns="http://www.w3.org/2000/svg">
-          <defs>
-            <pattern id="hero-grid-keyword-myth" x="0" y="0" width="60" height="60" patternUnits="userSpaceOnUse">
-              <path d="M60 0L30 30L60 60" fill="none" stroke="#FF6A00" strokeWidth="0.5" />
-              <path d="M0 0L30 30L0 60" fill="none" stroke="#FF6A00" strokeWidth="0.5" />
-              <circle cx="30" cy="30" r="2" fill="#FF6A00" opacity="0.4" />
-            </pattern>
-          </defs>
-          <rect width="100%" height="100%" fill="url(#hero-grid-keyword-myth)" />
-        </svg>
-
+      <section className="relative overflow-hidden bg-[#131313] grid-bg border-b border-white/10">
         <div className="relative max-w-4xl mx-auto px-6 pt-24 pb-16">
-          <nav className="flex items-center gap-2 text-sm text-gray-400 mb-8">
+          <nav className="flex items-center gap-2 text-sm text-white/40 mb-8">
             <Link href="/" className="hover:text-[#FF6A00] transition-colors">Home</Link>
             <span>/</span>
             <Link href="/blog" className="hover:text-[#FF6A00] transition-colors">Blog</Link>
             <span>/</span>
-            <span className="text-gray-500">Keyword Stuffing Myth</span>
+            <span className="text-white/30">Keyword Stuffing Myth</span>
           </nav>
 
-          <span className="inline-block bg-orange-400/10 text-orange-400 px-3 py-1 rounded-full text-xs font-semibold tracking-wide uppercase mb-6">Myth Busters</span>
+          <span className="font-mono text-[10px] text-[#FF6A00] tracking-widest uppercase block mb-4">◉ MYTH BUSTERS // The Answer Engine Intel</span>
 
-          <h1 className="font-plus-jakarta text-4xl md:text-5xl font-bold text-white leading-tight mb-6">
+          <h1 className="font-headline font-black text-4xl md:text-6xl tracking-tighter uppercase text-[#e5e2e1] mb-6">
             {title}
           </h1>
 
@@ -205,7 +191,7 @@ export default function BlogPost() {
       </section>
 
       <article className="max-w-4xl mx-auto px-6 pb-20 pt-12">
-        <div className="prose prose-invert prose-lg max-w-none prose-headings:font-plus-jakarta prose-headings:text-white prose-p:text-gray-300 prose-a:text-[#FF6A00] prose-a:no-underline hover:prose-a:underline prose-strong:text-white">
+        <div className="prose prose-invert prose-lg max-w-none prose-headings:font-headline prose-headings:text-white prose-p:text-gray-300 prose-a:text-[#FF6A00] prose-a:no-underline hover:prose-a:underline prose-strong:text-white">
 
           {/* TABLE OF CONTENTS */}
           <div className="ae-toc not-prose">
@@ -226,23 +212,19 @@ export default function BlogPost() {
           {/* STATS GRID */}
           <div className="ae-stats-grid not-prose">
             <div className="ae-stat-card">
-              <div className="ae-stat-emoji">📉</div>
-              <div className="ae-stat-value ae-accent">63%</div>
+<div className="ae-stat-value ae-accent">63%</div>
               <div className="ae-stat-label">of businesses using traditional SEO tactics see no improvement in AI citations</div>
             </div>
             <div className="ae-stat-card">
-              <div className="ae-stat-emoji">📍</div>
-              <div className="ae-stat-value ae-accent">1.2%</div>
+<div className="ae-stat-value ae-accent">1.2%</div>
               <div className="ae-stat-label">of local businesses are currently cited by ChatGPT in any consistent way</div>
             </div>
             <div className="ae-stat-card">
-              <div className="ae-stat-emoji">📈</div>
-              <div className="ae-stat-value ae-accent">4.4x</div>
+<div className="ae-stat-value ae-accent">4.4x</div>
               <div className="ae-stat-label">higher conversion rate from AI-referred traffic vs. traditional search</div>
             </div>
             <div className="ae-stat-card">
-              <div className="ae-stat-emoji">🤖</div>
-              <div className="ae-stat-value ae-accent">45%</div>
+<div className="ae-stat-value ae-accent">45%</div>
               <div className="ae-stat-label">of consumers now use AI to find local services and businesses</div>
             </div>
           </div>
@@ -579,29 +561,22 @@ export default function BlogPost() {
           <hr />
 
           {/* 3-TIER CTA BLOCK (MANDATORY) */}
-          <div className="not-prose my-16 p-8 rounded-2xl bg-gradient-to-br from-[#FF6A00]/10 to-transparent border border-[#FF6A00]/20">
-            <h3 className="font-plus-jakarta text-2xl font-bold text-white mb-3">Stop Guessing — Know Exactly Where AI Can&apos;t Find You</h3>
-            <p className="text-gray-400 mb-6">Our Blind Spot Report reveals exactly which AI platforms are ignoring your business and why. No keyword tricks required.</p>
-            <Link href="/blindspot" className="inline-flex items-center gap-2 bg-[#FF6A00] text-white px-6 py-3 rounded-lg font-semibold hover:bg-[#e55f00] transition-colors">
-              Get Your Free Blind Spot Report
-              <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" /></svg>
-            </Link>
-            <div className="flex flex-wrap items-center gap-6 mt-6 pt-6 border-t border-[#FF6A00]/10">
-              <a href="tel:+12134442229" className="flex items-center gap-2 text-gray-400 hover:text-white transition-colors">
-                <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" /></svg>
-                (213) 444-2229
-              </a>
-              <a href="mailto:support@theanswerengine.ai" className="flex items-center gap-2 text-gray-400 hover:text-white transition-colors">
-                <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" /></svg>
-                support@theanswerengine.ai
-              </a>
+          <div className="ae-final-cta not-prose">
+            <h2>Know Exactly Where AI Can&apos;t Find You</h2>
+            <p>Our Blind Spot Report reveals which AI platforms are ignoring your business and why. No keyword tricks required.</p>
+            <div className="flex flex-wrap gap-4 justify-center">
+              <Link href="/blindspot" className="ae-cta-primary">
+                Get Your Free Blind Spot Report
+                <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" /></svg>
+              </Link>
+              <a href="tel:+12134442229" className="ae-cta-secondary">(213) 444-2229</a>
             </div>
           </div>
 
           {/* AUTHOR CARD */}
           <div className="ae-author-card not-prose">
             <div>
-              <p className="text-white font-semibold text-lg font-plus-jakarta mb-1">The Answer Engine Team</p>
+              <p className="text-white font-semibold text-lg font-headline mb-1">The Answer Engine Team</p>
               <p className="text-gray-400 text-sm mb-3">Answer Engine Optimization Specialists</p>
               <p className="text-gray-300 leading-relaxed text-sm">The Answer Engine specializes in AEO for local service businesses. We position companies to be cited by Google AI Overviews, ChatGPT, Claude, Perplexity, and other AI platforms, making them the trusted expert AI recommends in their market. Our work focuses on entity authority, structured data, and the genuine business signals that AI platforms actually evaluate.</p>
               <div className="flex flex-wrap gap-4 mt-3 text-sm">
@@ -651,8 +626,8 @@ export default function BlogPost() {
                 a: "Update timelines vary significantly by platform. Some AI platforms use retrieval-augmented generation and can update within days as new content is crawled. Others rely primarily on training data that refreshes periodically over weeks to months. New authority signals typically take several weeks to fully propagate through AI systems. This means the work you do today may not be immediately visible in AI recommendations, but it compounds over time and is durable once established."
               }
             ].map((faq, i) => (
-              <div key={i} className="bg-white/[0.03] border border-white/[0.08] rounded-xl p-6">
-                <h3 className="text-xl font-semibold mb-3 text-white font-plus-jakarta">
+              <div key={i} className="bg-white/[0.03] border border-white/[0.08] p-6">
+                <h3 className="text-xl font-semibold mb-3 text-white font-headline">
                   {faq.q}
                 </h3>
                 <p className="text-gray-400 leading-relaxed">
@@ -727,9 +702,9 @@ export default function BlogPost() {
           <h2>Related Articles</h2>
 
           <div className="space-y-4 not-prose">
-            <div className="bg-white/[0.03] border border-white/[0.08] rounded-xl p-6 hover:border-white/[0.12] transition-colors">
+            <div className="bg-white/[0.03] border border-white/[0.08] p-6 hover:border-white/[0.12] transition-colors">
               <Link href="/blog/what-your-website-looks-like-to-an-ai-crawler" className="group">
-                <h4 className="text-xl font-semibold text-white mb-2 group-hover:text-[#FF6A00] transition-colors font-plus-jakarta">
+                <h4 className="text-xl font-semibold text-white mb-2 group-hover:text-[#FF6A00] transition-colors font-headline">
                   What Your Website Looks Like to an AI Crawler
                 </h4>
                 <p className="text-gray-400 leading-relaxed">
@@ -737,9 +712,9 @@ export default function BlogPost() {
                 </p>
               </Link>
             </div>
-            <div className="bg-white/[0.03] border border-white/[0.08] rounded-xl p-6 hover:border-white/[0.12] transition-colors">
+            <div className="bg-white/[0.03] border border-white/[0.08] p-6 hover:border-white/[0.12] transition-colors">
               <Link href="/blog/how-to-build-faq-page-ai-cites" className="group">
-                <h4 className="text-xl font-semibold text-white mb-2 group-hover:text-[#FF6A00] transition-colors font-plus-jakarta">
+                <h4 className="text-xl font-semibold text-white mb-2 group-hover:text-[#FF6A00] transition-colors font-headline">
                   How to Build an FAQ Page That AI Actually Cites
                 </h4>
                 <p className="text-gray-400 leading-relaxed">
@@ -747,9 +722,9 @@ export default function BlogPost() {
                 </p>
               </Link>
             </div>
-            <div className="bg-white/[0.03] border border-white/[0.08] rounded-xl p-6 hover:border-white/[0.12] transition-colors">
+            <div className="bg-white/[0.03] border border-white/[0.08] p-6 hover:border-white/[0.12] transition-colors">
               <Link href="/blog/does-having-more-web-pages-help-ai-find-you" className="group">
-                <h4 className="text-xl font-semibold text-white mb-2 group-hover:text-[#FF6A00] transition-colors font-plus-jakarta">
+                <h4 className="text-xl font-semibold text-white mb-2 group-hover:text-[#FF6A00] transition-colors font-headline">
                   Does Having More Web Pages Help AI Find You?
                 </h4>
                 <p className="text-gray-400 leading-relaxed">

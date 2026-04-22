@@ -191,40 +191,24 @@ export default function Page() {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
       />
-      <main className="min-h-screen" style={{ background: '#0F1117' }}>
+      <main className="min-h-screen bg-[#131313]">
 
         {/* Hero Section */}
-        <section className="relative overflow-hidden" style={{ background: 'linear-gradient(135deg, #0F1117 0%, #1a1025 50%, #0F1117 100%)' }}>
-          <svg
-            aria-hidden="true"
-            className="absolute inset-0 w-full h-full opacity-10 pointer-events-none"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <defs>
-              <pattern id="hero-grid-wikipedia-myth" width="40" height="40" patternUnits="userSpaceOnUse">
-                <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#FF6A00" strokeWidth="0.5" />
-              </pattern>
-            </defs>
-            <rect width="100%" height="100%" fill="url(#hero-grid-wikipedia-myth)" />
-          </svg>
+        <section className="relative overflow-hidden bg-[#131313] grid-bg border-b border-white/10">
           <div className="relative max-w-4xl mx-auto px-6 py-20">
 
             {/* Breadcrumbs */}
-            <nav className="text-sm text-gray-500 mb-8" aria-label="Breadcrumb">
-              <Link href="/" className="hover:text-white transition-colors">Home</Link>
+            <nav className="text-sm text-white/40 mb-8" aria-label="Breadcrumb">
+              <Link href="/" className="hover:text-[#FF6A00] transition-colors">Home</Link>
               <span className="mx-2">&rsaquo;</span>
-              <Link href="/blog" className="hover:text-white transition-colors">Blog</Link>
+              <Link href="/blog" className="hover:text-[#FF6A00] transition-colors">Blog</Link>
               <span className="mx-2">&rsaquo;</span>
-              <span className="text-gray-400">Does Wikipedia Help AI Find Your Business</span>
+              <span className="text-white/30">Does Wikipedia Help AI Find Your Business</span>
             </nav>
 
-            {/* Category Badge */}
-            <div className="inline-flex items-center gap-2 px-4 py-2 rounded-xl mb-6" style={{ background: 'rgba(255,106,0,0.12)', border: '1px solid rgba(255,106,0,0.3)' }}>
-              <span className="w-2 h-2 rounded-full inline-block" style={{ background: '#FF6A00' }}></span>
-              <span className="text-sm font-semibold tracking-wider uppercase" style={{ color: '#FF6A00' }}>Myth Busters</span>
-            </div>
+            <span className="font-mono text-[10px] text-[#FF6A00] tracking-widest uppercase block mb-4">◉ MYTH BUSTERS // The Answer Engine Intel</span>
 
-            <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold mb-6 text-white leading-tight font-plus-jakarta">
+            <h1 className="font-headline font-black text-3xl sm:text-5xl lg:text-6xl tracking-tighter uppercase text-[#e5e2e1] mb-6">
               Does Having a Wikipedia Page Help AI Find Your Business?
             </h1>
             <p className="text-lg sm:text-xl text-gray-300 mb-8 max-w-3xl leading-relaxed">
@@ -243,39 +227,34 @@ export default function Page() {
         <article className="max-w-4xl mx-auto px-6 py-12">
 
           {/* Stats Grid */}
-          <section className="ae-stats-grid grid grid-cols-2 md:grid-cols-4 gap-4 mb-14" aria-label="Key statistics">
-            <div className="ae-stat-card rounded-xl p-5 text-center" style={{ background: 'rgba(255,106,0,0.07)', border: '1px solid rgba(255,106,0,0.2)' }}>
-              <div className="text-3xl font-bold mb-1 font-plus-jakarta" style={{ color: '#FF6A00' }}>99.9%</div>
-              <div className="text-xs text-gray-400 leading-snug">of local businesses that will never qualify for a Wikipedia page</div>
+          <section className="ae-stats-grid not-prose mb-14" aria-label="Key statistics">
+            <div className="ae-stat-card">
+              <div className="ae-stat-value ae-accent">99.9%</div>
+              <div className="ae-stat-label">of local businesses will never qualify for a Wikipedia page</div>
             </div>
-            <div className="ae-stat-card rounded-xl p-5 text-center" style={{ background: 'rgba(255,106,0,0.07)', border: '1px solid rgba(255,106,0,0.2)' }}>
-              <div className="text-3xl font-bold mb-1 font-plus-jakarta" style={{ color: '#FF6A00' }}>1.2%</div>
-              <div className="text-xs text-gray-400 leading-snug">of local businesses actually cited by ChatGPT in local search queries</div>
+            <div className="ae-stat-card">
+              <div className="ae-stat-value ae-accent">1.2%</div>
+              <div className="ae-stat-label">of local businesses actually cited by ChatGPT in local search queries</div>
             </div>
-            <div className="ae-stat-card rounded-xl p-5 text-center" style={{ background: 'rgba(255,106,0,0.07)', border: '1px solid rgba(255,106,0,0.2)' }}>
-              <div className="text-3xl font-bold mb-1 font-plus-jakarta" style={{ color: '#FF6A00' }}>45%</div>
-              <div className="text-xs text-gray-400 leading-snug">of consumers now use AI to find local services near them</div>
+            <div className="ae-stat-card">
+              <div className="ae-stat-value ae-accent">45%</div>
+              <div className="ae-stat-label">of consumers now use AI to find local services near them</div>
             </div>
-            <div className="ae-stat-card rounded-xl p-5 text-center" style={{ background: 'rgba(255,106,0,0.07)', border: '1px solid rgba(255,106,0,0.2)' }}>
-              <div className="text-3xl font-bold mb-1 font-plus-jakarta" style={{ color: '#FF6A00' }}>6.7M</div>
-              <div className="text-xs text-gray-400 leading-snug">articles on English Wikipedia — almost none about local businesses</div>
+            <div className="ae-stat-card">
+              <div className="ae-stat-value ae-accent">6.7M</div>
+              <div className="ae-stat-label">articles on English Wikipedia — almost none about local businesses</div>
             </div>
           </section>
 
           {/* Inline CTA 1 */}
-          <div className="ae-cta-inline rounded-xl p-5 mb-10 flex flex-col sm:flex-row items-start sm:items-center gap-4" style={{ background: 'rgba(255,106,0,0.08)', border: '1px solid rgba(255,106,0,0.25)' }}>
-            <div className="flex-1">
-              <p className="text-white font-semibold mb-1">Wondering how AI actually sees your business right now?</p>
-              <p className="text-gray-400 text-sm">Find the exact signals AI platforms use to evaluate you — and what you're missing.</p>
-            </div>
-            <Link href="/blindspot" className="shrink-0 px-5 py-3 rounded-lg font-semibold text-sm transition-all hover:scale-105" style={{ background: '#FF6A00', color: '#fff' }}>
-              Get Free Blind Spot Report
-            </Link>
+          <div className="ae-cta-inline mb-10">
+            <p>Wondering how AI actually sees your business right now? Find the exact signals AI platforms use to evaluate you.</p>
+            <Link href="/blindspot" className="ae-cta-primary">Get Free Blind Spot Report</Link>
           </div>
 
           {/* Table of Contents */}
-          <nav className="ae-toc rounded-xl p-6 mb-12" style={{ background: 'rgba(255,255,255,0.03)', border: '1px solid rgba(255,255,255,0.08)' }} aria-label="Table of contents">
-            <h2 className="text-lg font-bold text-white mb-4 font-plus-jakarta">In This Article</h2>
+          <nav className="ae-toc mb-12" aria-label="Table of contents">
+            <div className="ae-toc-title">In This Article</div>
             <ol className="space-y-2 text-sm">
               <li><a href="#wikipedia-as-ai-source" className="text-gray-400 hover:text-white transition-colors">1. Wikipedia as an AI Training Source: What It Actually Means</a></li>
               <li><a href="#notability-requirements" className="text-gray-400 hover:text-white transition-colors">2. Wikipedia's Notability Rules and Why Local Businesses Can't Get Pages</a></li>
@@ -293,7 +272,7 @@ export default function Page() {
 
           {/* Section 1: Wikipedia as an AI Training Source */}
           <section id="wikipedia-as-ai-source" className="mb-14">
-            <h2 className="text-2xl sm:text-3xl font-bold text-white mb-6 font-plus-jakarta">Wikipedia as an AI Training Source: What It Actually Means</h2>
+            <h2 className="text-2xl sm:text-3xl font-bold text-white mb-6 font-headline">Wikipedia as an AI Training Source: What It Actually Means</h2>
             <p className="text-gray-300 mb-5 leading-relaxed">
               Wikipedia is one of the most cited sources in AI training datasets, and that is not an exaggeration. GPT-4's training corpus included substantial portions of Wikipedia. Google's knowledge systems have long used Wikipedia as a primary seed for the Knowledge Graph. Perplexity's retrieval systems frequently surface Wikipedia articles as top references. If you are trying to understand how AI learns about the world, Wikipedia is legitimately important.
             </p>
@@ -317,7 +296,7 @@ export default function Page() {
 
           {/* Section 2: Notability Requirements */}
           <section id="notability-requirements" className="mb-14">
-            <h2 className="text-2xl sm:text-3xl font-bold text-white mb-6 font-plus-jakarta">Wikipedia's Notability Rules and Why Local Businesses Can't Get Pages</h2>
+            <h2 className="text-2xl sm:text-3xl font-bold text-white mb-6 font-headline">Wikipedia's Notability Rules and Why Local Businesses Can't Get Pages</h2>
             <p className="text-gray-300 mb-5 leading-relaxed">
               Wikipedia operates under a strict notability policy. To earn a Wikipedia page, a subject must have received "significant coverage in reliable sources that are independent of the subject." In practice, this means major newspaper features, academic citations, or national-level coverage from outlets like the New York Times, Reuters, or equivalent publications.
             </p>
@@ -329,7 +308,7 @@ export default function Page() {
             <div className="grid sm:grid-cols-3 gap-4 mb-8">
               <div className="rounded-xl p-5" style={{ background: 'rgba(239,68,68,0.06)', border: '1px solid rgba(239,68,68,0.2)' }}>
                 <div className="text-2xl mb-3">&#128683;</div>
-                <h3 className="text-red-400 font-bold mb-2 font-plus-jakarta text-sm">What Doesn't Qualify</h3>
+                <h3 className="text-red-400 font-bold mb-2 font-headline text-sm">What Doesn't Qualify</h3>
                 <ul className="text-gray-400 text-xs space-y-1.5 leading-relaxed">
                   <li>Local service businesses</li>
                   <li>Regional restaurants or retailers</li>
@@ -340,7 +319,7 @@ export default function Page() {
               </div>
               <div className="rounded-xl p-5" style={{ background: 'rgba(255,106,0,0.06)', border: '1px solid rgba(255,106,0,0.2)' }}>
                 <div className="text-2xl mb-3">&#9888;</div>
-                <h3 className="font-bold mb-2 font-plus-jakarta text-sm" style={{ color: '#FF6A00' }}>Gray Zone</h3>
+                <h3 className="font-bold mb-2 font-headline text-sm" style={{ color: '#FF6A00' }}>Gray Zone</h3>
                 <ul className="text-gray-400 text-xs space-y-1.5 leading-relaxed">
                   <li>Regional chains with significant news coverage</li>
                   <li>Companies that have won national awards</li>
@@ -350,7 +329,7 @@ export default function Page() {
               </div>
               <div className="rounded-xl p-5" style={{ background: 'rgba(74,222,128,0.06)', border: '1px solid rgba(74,222,128,0.2)' }}>
                 <div className="text-2xl mb-3">&#10003;</div>
-                <h3 className="text-green-400 font-bold mb-2 font-plus-jakarta text-sm">What Actually Qualifies</h3>
+                <h3 className="text-green-400 font-bold mb-2 font-headline text-sm">What Actually Qualifies</h3>
                 <ul className="text-gray-400 text-xs space-y-1.5 leading-relaxed">
                   <li>National brands with extensive press history</li>
                   <li>Companies publicly traded or acquired</li>
@@ -373,7 +352,7 @@ export default function Page() {
 
           {/* Section 3: What Wikipedia Signals to AI */}
           <section id="what-wikipedia-signals" className="mb-14">
-            <h2 className="text-2xl sm:text-3xl font-bold text-white mb-6 font-plus-jakarta">What Wikipedia Actually Signals to AI Systems</h2>
+            <h2 className="text-2xl sm:text-3xl font-bold text-white mb-6 font-headline">What Wikipedia Actually Signals to AI Systems</h2>
             <p className="text-gray-300 mb-5 leading-relaxed">
               For the entities that do appear on Wikipedia — large corporations, national chains, famous founders, major institutions — the platform provides three distinct types of value to AI systems.
             </p>
@@ -382,21 +361,21 @@ export default function Page() {
             <div className="grid sm:grid-cols-3 gap-5 mb-8">
               <div className="rounded-xl p-5" style={{ background: 'rgba(255,255,255,0.03)', border: '1px solid rgba(255,255,255,0.08)' }}>
                 <div className="text-2xl mb-3">&#127760;</div>
-                <h3 className="text-white font-bold mb-2 font-plus-jakarta">Entity Recognition</h3>
+                <h3 className="text-white font-bold mb-2 font-headline">Entity Recognition</h3>
                 <p className="text-gray-400 text-sm leading-relaxed">
                   Wikipedia gives an entity a confirmed, named existence in AI training data. The model learns: "This company exists, it does this, it is located here." That unambiguous grounding affects how confidently AI will recommend it.
                 </p>
               </div>
               <div className="rounded-xl p-5" style={{ background: 'rgba(255,255,255,0.03)', border: '1px solid rgba(255,255,255,0.08)' }}>
                 <div className="text-2xl mb-3">&#128279;</div>
-                <h3 className="text-white font-bold mb-2 font-plus-jakarta">Cross-Reference Verification</h3>
+                <h3 className="text-white font-bold mb-2 font-headline">Cross-Reference Verification</h3>
                 <p className="text-gray-400 text-sm leading-relaxed">
                   Wikipedia articles cite sources and link outward. This creates a web of cross-validated facts that AI systems use to confirm information accuracy. The more an entity is cited consistently across multiple Wikipedia articles, the higher its authority signal.
                 </p>
               </div>
               <div className="rounded-xl p-5" style={{ background: 'rgba(255,255,255,0.03)', border: '1px solid rgba(255,255,255,0.08)' }}>
                 <div className="text-2xl mb-3">&#128203;</div>
-                <h3 className="text-white font-bold mb-2 font-plus-jakarta">Structured Fact Anchoring</h3>
+                <h3 className="text-white font-bold mb-2 font-headline">Structured Fact Anchoring</h3>
                 <p className="text-gray-400 text-sm leading-relaxed">
                   Wikipedia's infoboxes provide clean, structured data: founding date, headquarters, industry, CEO, revenue. These structured facts feed directly into knowledge graph entries and give AI systems high-confidence data points to anchor answers around.
                 </p>
@@ -422,7 +401,7 @@ export default function Page() {
 
           {/* Section 4: Wikidata Connection */}
           <section id="wikidata-connection" className="mb-14">
-            <h2 className="text-2xl sm:text-3xl font-bold text-white mb-6 font-plus-jakarta">The Wikidata Knowledge Graph Connection</h2>
+            <h2 className="text-2xl sm:text-3xl font-bold text-white mb-6 font-headline">The Wikidata Knowledge Graph Connection</h2>
             <p className="text-gray-300 mb-5 leading-relaxed">
               Underneath Wikipedia sits Wikidata: a structured, machine-readable knowledge base that assigns unique identifiers called Q-numbers to every entity it recognizes. When AI systems and Google's Knowledge Graph need to unambiguously identify an entity, Wikidata Q-numbers serve as the canonical reference point.
             </p>
@@ -432,7 +411,7 @@ export default function Page() {
 
             {/* Wikidata Reality Block */}
             <div className="rounded-xl p-6 mb-8" style={{ background: 'rgba(255,255,255,0.03)', border: '1px solid rgba(255,255,255,0.08)' }}>
-              <h3 className="text-white font-bold mb-4 font-plus-jakarta">Wikidata for Local Businesses: The Honest Assessment</h3>
+              <h3 className="text-white font-bold mb-4 font-headline">Wikidata for Local Businesses: The Honest Assessment</h3>
               <div className="grid sm:grid-cols-2 gap-4 text-sm">
                 <div>
                   <p className="font-semibold mb-2" style={{ color: '#FF6A00' }}>The theoretical upside</p>
@@ -473,7 +452,7 @@ export default function Page() {
 
           {/* Section 5: Comparison Table */}
           <section id="comparison-table" className="mb-14">
-            <h2 className="text-2xl sm:text-3xl font-bold text-white mb-6 font-plus-jakarta">Wikipedia's Role: Major Brands vs. Local Businesses</h2>
+            <h2 className="text-2xl sm:text-3xl font-bold text-white mb-6 font-headline">Wikipedia's Role: Major Brands vs. Local Businesses</h2>
             <p className="text-gray-300 mb-6 leading-relaxed">
               The contrast between how Wikipedia functions for large brands versus local businesses is stark. Understanding this contrast clarifies exactly why the conventional wisdom around Wikipedia and AI does not apply to the businesses most people own.
             </p>
@@ -541,7 +520,7 @@ export default function Page() {
 
           {/* Section 6: Accessible Signals */}
           <section id="accessible-signals" className="mb-14">
-            <h2 className="text-2xl sm:text-3xl font-bold text-white mb-6 font-plus-jakarta">The Entity Signals Local Businesses Can Actually Build</h2>
+            <h2 className="text-2xl sm:text-3xl font-bold text-white mb-6 font-headline">The Entity Signals Local Businesses Can Actually Build</h2>
             <p className="text-gray-300 mb-6 leading-relaxed">
               The good news is that the entity signals AI platforms use for local business recommendations are accessible to every business willing to do the work. Here is the landscape of what matters and why.
             </p>
@@ -550,9 +529,9 @@ export default function Page() {
             <div className="space-y-4 mb-8">
               <div className="rounded-xl p-5" style={{ background: 'rgba(255,255,255,0.03)', border: '1px solid rgba(255,255,255,0.08)' }}>
                 <div className="flex items-start gap-4">
-                  <div className="w-10 h-10 rounded-lg flex items-center justify-center shrink-0 text-lg font-bold font-plus-jakarta" style={{ background: 'rgba(255,106,0,0.15)', color: '#FF6A00' }}>1</div>
+                  <div className="w-10 h-10 rounded-lg flex items-center justify-center shrink-0 text-lg font-bold font-headline" style={{ background: 'rgba(255,106,0,0.15)', color: '#FF6A00' }}>1</div>
                   <div>
-                    <h3 className="text-white font-bold mb-2 font-plus-jakarta">Google Business Profile and Knowledge Panel</h3>
+                    <h3 className="text-white font-bold mb-2 font-headline">Google Business Profile and Knowledge Panel</h3>
                     <p className="text-gray-400 text-sm leading-relaxed">
                       A fully verified and populated Google Business Profile is the single most important entity signal for local AI recommendations. It feeds the Knowledge Graph with confirmed location data, service categories, hours, and business attributes. When AI platforms look for structured entity data about local businesses, Google's Knowledge Graph is where they find it — and your GBP is the primary input.
                     </p>
@@ -562,9 +541,9 @@ export default function Page() {
 
               <div className="rounded-xl p-5" style={{ background: 'rgba(255,255,255,0.03)', border: '1px solid rgba(255,255,255,0.08)' }}>
                 <div className="flex items-start gap-4">
-                  <div className="w-10 h-10 rounded-lg flex items-center justify-center shrink-0 text-lg font-bold font-plus-jakarta" style={{ background: 'rgba(255,106,0,0.15)', color: '#FF6A00' }}>2</div>
+                  <div className="w-10 h-10 rounded-lg flex items-center justify-center shrink-0 text-lg font-bold font-headline" style={{ background: 'rgba(255,106,0,0.15)', color: '#FF6A00' }}>2</div>
                   <div>
-                    <h3 className="text-white font-bold mb-2 font-plus-jakarta">Structured Schema Markup</h3>
+                    <h3 className="text-white font-bold mb-2 font-headline">Structured Schema Markup</h3>
                     <p className="text-gray-400 text-sm leading-relaxed">
                       Schema.org markup on your website translates your content into machine-readable signals. LocalBusiness schema, Service schema, Review schema, and FAQ schema give AI systems the structured facts they need to confidently include your business in relevant responses. Pages with correct schema markup receive significantly more AI citations than unstructured pages covering the same content.
                     </p>
@@ -574,9 +553,9 @@ export default function Page() {
 
               <div className="rounded-xl p-5" style={{ background: 'rgba(255,255,255,0.03)', border: '1px solid rgba(255,255,255,0.08)' }}>
                 <div className="flex items-start gap-4">
-                  <div className="w-10 h-10 rounded-lg flex items-center justify-center shrink-0 text-lg font-bold font-plus-jakarta" style={{ background: 'rgba(255,106,0,0.15)', color: '#FF6A00' }}>3</div>
+                  <div className="w-10 h-10 rounded-lg flex items-center justify-center shrink-0 text-lg font-bold font-headline" style={{ background: 'rgba(255,106,0,0.15)', color: '#FF6A00' }}>3</div>
                   <div>
-                    <h3 className="text-white font-bold mb-2 font-plus-jakarta">Authoritative Directory Listings</h3>
+                    <h3 className="text-white font-bold mb-2 font-headline">Authoritative Directory Listings</h3>
                     <p className="text-gray-400 text-sm leading-relaxed">
                       Consistent business information across authoritative directories — Yelp, BBB, Angi, Houzz, Healthgrades, Avvo, and industry-specific platforms — creates the cross-reference verification that Wikipedia provides for large brands. When AI systems see the same entity information confirmed across 50+ independent sources, confidence in that entity rises significantly.
                     </p>
@@ -586,9 +565,9 @@ export default function Page() {
 
               <div className="rounded-xl p-5" style={{ background: 'rgba(255,255,255,0.03)', border: '1px solid rgba(255,255,255,0.08)' }}>
                 <div className="flex items-start gap-4">
-                  <div className="w-10 h-10 rounded-lg flex items-center justify-center shrink-0 text-lg font-bold font-plus-jakarta" style={{ background: 'rgba(255,106,0,0.15)', color: '#FF6A00' }}>4</div>
+                  <div className="w-10 h-10 rounded-lg flex items-center justify-center shrink-0 text-lg font-bold font-headline" style={{ background: 'rgba(255,106,0,0.15)', color: '#FF6A00' }}>4</div>
                   <div>
-                    <h3 className="text-white font-bold mb-2 font-plus-jakarta">Press Mentions and Editorial Coverage</h3>
+                    <h3 className="text-white font-bold mb-2 font-headline">Press Mentions and Editorial Coverage</h3>
                     <p className="text-gray-400 text-sm leading-relaxed">
                       Coverage in local news outlets, industry publications, and community websites functions like a scaled-down version of the independent source citations Wikipedia requires. Each mention from a credible, independent source adds to your entity's authority footprint. A business featured in five local press pieces has a measurably stronger AI authority signal than one with no press presence at all.
                     </p>
@@ -598,9 +577,9 @@ export default function Page() {
 
               <div className="rounded-xl p-5" style={{ background: 'rgba(255,255,255,0.03)', border: '1px solid rgba(255,255,255,0.08)' }}>
                 <div className="flex items-start gap-4">
-                  <div className="w-10 h-10 rounded-lg flex items-center justify-center shrink-0 text-lg font-bold font-plus-jakarta" style={{ background: 'rgba(255,106,0,0.15)', color: '#FF6A00' }}>5</div>
+                  <div className="w-10 h-10 rounded-lg flex items-center justify-center shrink-0 text-lg font-bold font-headline" style={{ background: 'rgba(255,106,0,0.15)', color: '#FF6A00' }}>5</div>
                   <div>
-                    <h3 className="text-white font-bold mb-2 font-plus-jakarta">Review Platform Authority</h3>
+                    <h3 className="text-white font-bold mb-2 font-headline">Review Platform Authority</h3>
                     <p className="text-gray-400 text-sm leading-relaxed">
                       Review signals from Google, Yelp, and industry-specific platforms represent user-generated cross-reference validation at scale. A business with 200 reviews across four platforms has a far stronger consensus signal than one with 10 reviews on a single platform. AI systems treat high review volume as evidence of genuine market presence.
                     </p>
@@ -624,7 +603,7 @@ export default function Page() {
 
           {/* Section 7: Entity Score */}
           <section id="entity-score" className="mb-14">
-            <h2 className="text-2xl sm:text-3xl font-bold text-white mb-6 font-plus-jakarta">The Entity Score Concept: AI Knows More Than Wikipedia</h2>
+            <h2 className="text-2xl sm:text-3xl font-bold text-white mb-6 font-headline">The Entity Score Concept: AI Knows More Than Wikipedia</h2>
             <p className="text-gray-300 mb-5 leading-relaxed">
               Modern AI platforms do not rely solely on any single data source to evaluate business authority. They compute what researchers and practitioners call an entity score: a composite confidence rating based on how consistently and how widely a business appears across independent data points.
             </p>
@@ -633,8 +612,8 @@ export default function Page() {
             </p>
 
             {/* Entity Score Visual */}
-            <div className="rounded-2xl p-6 mb-8" style={{ background: 'rgba(255,106,0,0.05)', border: '1px solid rgba(255,106,0,0.2)' }}>
-              <h3 className="text-white font-bold mb-5 font-plus-jakarta text-center">What Builds an AI Entity Score for Local Businesses</h3>
+            <div className="p-6 mb-8" style={{ background: 'rgba(255,106,0,0.05)', border: '1px solid rgba(255,106,0,0.2)' }}>
+              <h3 className="text-white font-bold mb-5 font-headline text-center">What Builds an AI Entity Score for Local Businesses</h3>
               <div className="grid sm:grid-cols-2 gap-4">
                 <div className="space-y-3">
                   <div className="flex items-center gap-3">
@@ -687,7 +666,7 @@ export default function Page() {
 
           {/* Section 8: Press and Directories */}
           <section id="press-and-directories" className="mb-14">
-            <h2 className="text-2xl sm:text-3xl font-bold text-white mb-6 font-plus-jakarta">Why Press Mentions and Directories Matter More for Local Businesses</h2>
+            <h2 className="text-2xl sm:text-3xl font-bold text-white mb-6 font-headline">Why Press Mentions and Directories Matter More for Local Businesses</h2>
             <p className="text-gray-300 mb-5 leading-relaxed">
               If Wikipedia's authority comes from independent sources validating an entity's existence and importance, local businesses need to build their own version of that independent validation ecosystem. Press mentions and authoritative directory listings are the two most powerful tools for that goal.
             </p>
@@ -695,7 +674,7 @@ export default function Page() {
             {/* Press vs Directory Cards */}
             <div className="grid sm:grid-cols-2 gap-5 mb-8">
               <div className="rounded-xl p-6" style={{ background: 'rgba(255,255,255,0.03)', border: '1px solid rgba(255,255,255,0.08)' }}>
-                <h3 className="text-white font-bold mb-4 font-plus-jakarta flex items-center gap-2">
+                <h3 className="text-white font-bold mb-4 font-headline flex items-center gap-2">
                   <span className="text-xl">&#128240;</span> Press Mentions
                 </h3>
                 <ul className="space-y-3 text-sm text-gray-300">
@@ -722,7 +701,7 @@ export default function Page() {
                 </ul>
               </div>
               <div className="rounded-xl p-6" style={{ background: 'rgba(255,255,255,0.03)', border: '1px solid rgba(255,255,255,0.08)' }}>
-                <h3 className="text-white font-bold mb-4 font-plus-jakarta flex items-center gap-2">
+                <h3 className="text-white font-bold mb-4 font-headline flex items-center gap-2">
                   <span className="text-xl">&#128193;</span> Authoritative Directories
                 </h3>
                 <ul className="space-y-3 text-sm text-gray-300">
@@ -762,28 +741,21 @@ export default function Page() {
           </section>
 
           {/* 3-Tier CTA Block */}
-          <div className="not-prose my-16 p-8 rounded-2xl bg-gradient-to-br from-[#FF6A00]/10 to-transparent border border-[#FF6A00]/20">
-            <h3 className="font-plus-jakarta text-2xl font-bold text-white mb-3">Skip Wikipedia. Find the Signals That Actually Work for Your Business.</h3>
-            <p className="text-gray-400 mb-6">Your Blind Spot Report shows the actual gaps between you and the businesses AI keeps recommending instead.</p>
-            <Link href="/blindspot" className="inline-flex items-center gap-2 bg-[#FF6A00] text-white px-6 py-3 rounded-lg font-semibold hover:bg-[#e55f00] transition-colors">
-              Get Your Free Blind Spot Report
-              <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" /></svg>
-            </Link>
-            <div className="flex flex-wrap items-center gap-6 mt-6 pt-6 border-t border-[#FF6A00]/10">
-              <a href="tel:+12134442229" className="flex items-center gap-2 text-gray-400 hover:text-white transition-colors">
-                <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" /></svg>
-                (213) 444-2229
-              </a>
-              <a href="mailto:support@theanswerengine.ai" className="flex items-center gap-2 text-gray-400 hover:text-white transition-colors">
-                <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" /></svg>
-                support@theanswerengine.ai
-              </a>
+          <div className="ae-final-cta not-prose">
+            <h2>Skip Wikipedia. Find the Signals That Actually Work.</h2>
+            <p>Your Blind Spot Report shows the actual gaps between you and the businesses AI keeps recommending instead.</p>
+            <div className="flex flex-wrap gap-4 justify-center">
+              <Link href="/blindspot" className="ae-cta-primary">
+                Get Your Free Blind Spot Report
+                <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" /></svg>
+              </Link>
+              <a href="tel:+12134442229" className="ae-cta-secondary">(213) 444-2229</a>
             </div>
           </div>
 
           {/* Section 9: Decision Matrix */}
           <section id="decision-matrix" className="mb-14">
-            <h2 className="text-2xl sm:text-3xl font-bold text-white mb-6 font-plus-jakarta">Decision Matrix: Where to Invest Your Authority-Building Effort</h2>
+            <h2 className="text-2xl sm:text-3xl font-bold text-white mb-6 font-headline">Decision Matrix: Where to Invest Your Authority-Building Effort</h2>
             <p className="text-gray-300 mb-6 leading-relaxed">
               Given everything above, the strategic question for local businesses is not "how do I get on Wikipedia" but "where should I invest time and resources to maximize my AI entity authority?" This matrix maps it out clearly.
             </p>
@@ -858,7 +830,7 @@ export default function Page() {
 
           {/* Pros/Cons: Wikipedia Pursuit vs Entity Building */}
           <section className="mb-14">
-            <h2 className="text-2xl sm:text-3xl font-bold text-white mb-6 font-plus-jakarta">Wikipedia Pursuit vs. Entity Signal Building: An Honest Comparison</h2>
+            <h2 className="text-2xl sm:text-3xl font-bold text-white mb-6 font-headline">Wikipedia Pursuit vs. Entity Signal Building: An Honest Comparison</h2>
             <div className="ae-pros-cons">
               <div className="ae-cons-box">
                 <h4>Chasing Wikipedia</h4>
@@ -887,12 +859,12 @@ export default function Page() {
 
           {/* Section 10: Cheat Sheet */}
           <section id="cheat-sheet" className="mb-14">
-            <h2 className="text-2xl sm:text-3xl font-bold text-white mb-6 font-plus-jakarta">Wikipedia Myth Cheat Sheet</h2>
+            <h2 className="text-2xl sm:text-3xl font-bold text-white mb-6 font-headline">Wikipedia Myth Cheat Sheet</h2>
 
-            <div className="ae-cheat-sheet rounded-2xl p-7" style={{ background: 'rgba(255,106,0,0.05)', border: '2px solid rgba(255,106,0,0.25)' }}>
+            <div className="ae-cheat-sheet p-7" style={{ background: 'rgba(255,106,0,0.05)', border: '2px solid rgba(255,106,0,0.25)' }}>
               <div className="grid sm:grid-cols-2 gap-6">
                 <div>
-                  <h3 className="font-bold mb-4 font-plus-jakarta" style={{ color: '#FF6A00' }}>The Myths to Stop Believing</h3>
+                  <h3 className="font-bold mb-4 font-headline" style={{ color: '#FF6A00' }}>The Myths to Stop Believing</h3>
                   <ul className="space-y-2.5 text-sm text-gray-300">
                     <li className="flex items-start gap-2">
                       <span className="text-red-400 font-bold mt-0.5">&#215;</span>
@@ -921,7 +893,7 @@ export default function Page() {
                   </ul>
                 </div>
                 <div>
-                  <h3 className="font-bold mb-4 font-plus-jakarta" style={{ color: '#4ade80' }}>The Truths to Act On</h3>
+                  <h3 className="font-bold mb-4 font-headline" style={{ color: '#4ade80' }}>The Truths to Act On</h3>
                   <ul className="space-y-2.5 text-sm text-gray-300">
                     <li className="flex items-start gap-2">
                       <span className="text-green-400 font-bold mt-0.5">&#10003;</span>
@@ -973,7 +945,7 @@ export default function Page() {
 
           {/* Related Reading Block */}
           <section className="rounded-xl p-6 mb-14" style={{ background: 'rgba(255,255,255,0.03)', border: '1px solid rgba(255,255,255,0.08)' }}>
-            <h3 className="text-white font-bold mb-4 font-plus-jakarta">Keep Reading</h3>
+            <h3 className="text-white font-bold mb-4 font-headline">Keep Reading</h3>
             <div className="grid sm:grid-cols-3 gap-4">
               <Link href="/blog/what-is-an-ai-entity-score-and-why-it-controls-your-visibility" className="block rounded-lg p-4 transition-all hover:scale-[1.02]" style={{ background: 'rgba(255,106,0,0.06)', border: '1px solid rgba(255,106,0,0.2)' }}>
                 <p className="text-white text-sm font-semibold leading-snug mb-1">What Is an AI Entity Score and Why It Controls Your Visibility</p>
@@ -992,53 +964,53 @@ export default function Page() {
 
           {/* FAQ Section */}
           <section id="faq" className="mb-14">
-            <h2 className="text-2xl sm:text-3xl font-bold text-white mb-8 font-plus-jakarta">Frequently Asked Questions</h2>
+            <h2 className="text-2xl sm:text-3xl font-bold text-white mb-8 font-headline">Frequently Asked Questions</h2>
 
             <div className="space-y-4">
               <div className="rounded-xl p-6" style={{ background: 'rgba(255,255,255,0.03)', border: '1px solid rgba(255,255,255,0.08)' }}>
-                <h3 className="text-white font-bold mb-3 font-plus-jakarta">Can a local business get a Wikipedia page to help AI search visibility?</h3>
+                <h3 className="text-white font-bold mb-3 font-headline">Can a local business get a Wikipedia page to help AI search visibility?</h3>
                 <p className="text-gray-400 text-sm leading-relaxed">
                   Almost certainly not. Wikipedia's notability guidelines require significant coverage in reliable, independent published sources. A local business — no matter how excellent — will not meet this bar. Wikipedia editors actively delete pages created for local businesses, viewing them as promotional content. The realistic path is building entity signals that are actually accessible: knowledge panels, structured data, authoritative directory mentions, and press coverage.
                 </p>
               </div>
 
               <div className="rounded-xl p-6" style={{ background: 'rgba(255,255,255,0.03)', border: '1px solid rgba(255,255,255,0.08)' }}>
-                <h3 className="text-white font-bold mb-3 font-plus-jakarta">Does Wikipedia help AI like ChatGPT recommend businesses?</h3>
+                <h3 className="text-white font-bold mb-3 font-headline">Does Wikipedia help AI like ChatGPT recommend businesses?</h3>
                 <p className="text-gray-400 text-sm leading-relaxed">
                   Wikipedia is a significant training source for large language models and does influence AI entity recognition — but almost entirely for national brands and public figures with genuine notability. For local businesses, Wikipedia plays no meaningful role in AI recommendation engines. The signals that actually drive local business recommendations are structured data, consistent directory presence, authoritative third-party mentions, and review platform authority.
                 </p>
               </div>
 
               <div className="rounded-xl p-6" style={{ background: 'rgba(255,255,255,0.03)', border: '1px solid rgba(255,255,255,0.08)' }}>
-                <h3 className="text-white font-bold mb-3 font-plus-jakarta">If I can't get on Wikipedia, what gives me the same type of authority signal?</h3>
+                <h3 className="text-white font-bold mb-3 font-headline">If I can't get on Wikipedia, what gives me the same type of authority signal?</h3>
                 <p className="text-gray-400 text-sm leading-relaxed">
                   The entity signals accessible to local businesses include a verified Google Business Profile, consistent NAP data across 50+ authoritative directories, structured schema markup on your website, press mentions in local and regional publications, and professional association listings. Together, these build an entity footprint that AI platforms use to confidently recognize and recommend your business — without requiring Wikipedia.
                 </p>
               </div>
 
               <div className="rounded-xl p-6" style={{ background: 'rgba(255,255,255,0.03)', border: '1px solid rgba(255,255,255,0.08)' }}>
-                <h3 className="text-white font-bold mb-3 font-plus-jakarta">Why does AI seem to know a lot about big brands but little about my local business?</h3>
+                <h3 className="text-white font-bold mb-3 font-headline">Why does AI seem to know a lot about big brands but little about my local business?</h3>
                 <p className="text-gray-400 text-sm leading-relaxed">
                   Large brands appear extensively in AI training data: news articles, Wikipedia entries, industry publications, financial filings, and millions of web pages referencing them. Local businesses generate a much smaller information footprint. AI systems see fewer consistent, cross-validated mentions and therefore have lower confidence when recommending them. The solution is systematically building that footprint through the channels available to local businesses.
                 </p>
               </div>
 
               <div className="rounded-xl p-6" style={{ background: 'rgba(255,255,255,0.03)', border: '1px solid rgba(255,255,255,0.08)' }}>
-                <h3 className="text-white font-bold mb-3 font-plus-jakarta">What is Wikidata and does it affect AI recommendations for local businesses?</h3>
+                <h3 className="text-white font-bold mb-3 font-headline">What is Wikidata and does it affect AI recommendations for local businesses?</h3>
                 <p className="text-gray-400 text-sm leading-relaxed">
                   Wikidata is a structured knowledge base that underpins Wikipedia and feeds Google's Knowledge Graph. Entities in Wikidata get unique Q-number identifiers that AI platforms use for unambiguous entity resolution. However, Wikidata entries for local businesses carry essentially the same notability hurdles as Wikipedia. The practical alternative is ensuring your Google Business Profile and structured data are complete and consistent, which feeds the same Knowledge Graph through accessible channels.
                 </p>
               </div>
 
               <div className="rounded-xl p-6" style={{ background: 'rgba(255,255,255,0.03)', border: '1px solid rgba(255,255,255,0.08)' }}>
-                <h3 className="text-white font-bold mb-3 font-plus-jakarta">Does having a Google Knowledge Panel replace Wikipedia for AI visibility?</h3>
+                <h3 className="text-white font-bold mb-3 font-headline">Does having a Google Knowledge Panel replace Wikipedia for AI visibility?</h3>
                 <p className="text-gray-400 text-sm leading-relaxed">
                   A verified Google Knowledge Panel is arguably more valuable than a Wikipedia page for local business AI visibility. It signals to Google's systems — and to Google AI Mode and Google-integrated AI tools — that your business is a confirmed, real-world entity with verified attributes. It feeds structured entity data into the same Knowledge Graph that Wikipedia entries contribute to. For local businesses, earning and optimizing a Knowledge Panel is a realistic, high-impact goal that Wikipedia simply is not.
                 </p>
               </div>
 
               <div className="rounded-xl p-6" style={{ background: 'rgba(255,255,255,0.03)', border: '1px solid rgba(255,255,255,0.08)' }}>
-                <h3 className="text-white font-bold mb-3 font-plus-jakarta">How much does a Wikipedia page actually help AI recommend a business?</h3>
+                <h3 className="text-white font-bold mb-3 font-headline">How much does a Wikipedia page actually help AI recommend a business?</h3>
                 <p className="text-gray-400 text-sm leading-relaxed">
                   For major brands and nationally recognized organizations, a Wikipedia page provides meaningful AI authority signals through entity recognition, cross-referenced facts, and training data presence. For the vast majority of local businesses — which will never qualify — the question is moot. The more productive question is what entity signals ARE accessible and how to maximize them. Structured data, authoritative directories, press mentions, and a verified Knowledge Panel together create an entity profile that moves the needle for local AI recommendations.
                 </p>
@@ -1058,7 +1030,7 @@ export default function Page() {
           {/* Final CTA */}
           <div className="ae-final-cta">
             <div className="ae-final-cta-pulse" />
-            <h2 className="font-plus-jakarta text-3xl font-bold text-white mb-4 relative">Stop Chasing Wikipedia. Start Building What AI Actually Looks For.</h2>
+            <h2 className="font-headline text-3xl font-bold text-white mb-4 relative">Stop Chasing Wikipedia. Start Building What AI Actually Looks For.</h2>
             <p className="text-gray-400 mb-8 relative">The businesses that win in AI search are not the ones who got lucky with a Wikipedia page. They are the ones who built a dense, consistent, multi-platform entity footprint — and your Blind Spot Report shows exactly what yours is missing right now.</p>
             <Link href="/blindspot" className="ae-cta-primary relative">
               Get Your Free Blind Spot Report

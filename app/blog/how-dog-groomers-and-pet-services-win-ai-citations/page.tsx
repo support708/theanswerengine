@@ -174,26 +174,14 @@ export default function HowDogGroomersWinAICitations() {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
       />
 
-      <main className="min-h-screen bg-[#0F1117]">
+      <main className="min-h-screen bg-[#131313]">
         {/* Hero Section */}
-        <section className="relative overflow-hidden border-b border-white/5">
-          <div className="absolute inset-0 bg-gradient-to-br from-[#FF6A00]/10 via-transparent to-transparent" />
-          <svg className="absolute inset-0 w-full h-full opacity-[0.03]" aria-hidden="true">
-            <defs>
-              <pattern id="hero-grid-petgrooming" width="40" height="40" patternUnits="userSpaceOnUse">
-                <path d="M 40 0 L 0 0 0 40" fill="none" stroke="white" strokeWidth="0.5" />
-              </pattern>
-            </defs>
-            <rect width="100%" height="100%" fill="url(#hero-grid-petgrooming)" />
-          </svg>
+        <section className="relative overflow-hidden bg-[#131313] grid-bg border-b border-white/10">
           <div className="relative max-w-4xl mx-auto px-6 py-16 sm:py-24">
             <Breadcrumb />
-            <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full mb-6 bg-[#FF6A00]/10 border border-[#FF6A00]/30">
-              <span className="text-sm font-semibold tracking-wider uppercase text-[#FF6A00]">Industry Guides</span>
-            </div>
-            <h1 className="font-plus-jakarta text-3xl sm:text-4xl lg:text-5xl font-bold mb-6 text-white leading-tight">
-              How Dog Groomers and Pet Services{' '}
-              <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#FF6A00] to-orange-400">Win AI Citations</span>
+            <span className="font-mono text-[10px] text-[#FF6A00] tracking-widest uppercase block mb-4">◉ INDUSTRY GUIDES // The Answer Engine Intel</span>
+            <h1 className="font-headline font-black text-3xl sm:text-5xl lg:text-6xl tracking-tighter uppercase text-[#e5e2e1] mb-6">
+              How Dog Groomers and Pet Services Win AI Citations
             </h1>
             <p className="text-xl text-gray-300 mb-8 max-w-2xl leading-relaxed">
               Pet owners no longer scroll ten search results to find a groomer. They ask AI. If your business is not showing up in those answers, a national chain is getting the booking instead.
@@ -223,7 +211,7 @@ export default function HowDogGroomersWinAICitations() {
 
         {/* Article Body */}
         <article className="max-w-4xl mx-auto px-6 py-12 sm:py-16">
-          <div className="prose prose-invert prose-lg max-w-none prose-headings:font-plus-jakarta prose-headings:text-white prose-p:text-gray-300 prose-a:text-[#FF6A00] prose-a:no-underline hover:prose-a:underline prose-strong:text-white">
+          <div className="prose prose-invert prose-lg max-w-none prose-headings:font-headline prose-headings:text-white prose-p:text-gray-300 prose-a:text-[#FF6A00] prose-a:no-underline hover:prose-a:underline prose-strong:text-white">
 
             {/* STATS GRID */}
             <div className="ae-stats-grid not-prose">
@@ -653,27 +641,20 @@ export default function HowDogGroomersWinAICitations() {
           </div>
 
           {/* 3-TIER CTA BLOCK (before FAQ) */}
-          <div className="not-prose my-16 p-8 rounded-2xl bg-gradient-to-br from-[#FF6A00]/10 to-transparent border border-[#FF6A00]/20">
-            <h3 className="font-plus-jakarta text-2xl font-bold text-white mb-3">Is AI Sending Pet Owners to Your Competitors?</h3>
-            <p className="text-gray-400 mb-6">Find out exactly what AI says when a pet owner searches for groomers in your area. Get your free Blind Spot Report.</p>
-            <Link href="/blindspot" className="inline-flex items-center gap-2 bg-[#FF6A00] text-white px-6 py-3 rounded-lg font-semibold hover:bg-[#e55f00] transition-colors">
-              Get Your Free Blind Spot Report
-              <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" /></svg>
-            </Link>
-            <div className="flex flex-wrap items-center gap-6 mt-6 pt-6 border-t border-[#FF6A00]/10">
-              <a href="tel:+12134442229" className="flex items-center gap-2 text-gray-400 hover:text-white transition-colors">
-                <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" /></svg>
-                (213) 444-2229
-              </a>
-              <a href="mailto:support@theanswerengine.ai" className="flex items-center gap-2 text-gray-400 hover:text-white transition-colors">
-                <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" /></svg>
-                support@theanswerengine.ai
-              </a>
+          <div className="ae-final-cta not-prose">
+            <h2>Is AI Sending Pet Owners to Your Competitors?</h2>
+            <p>Find out exactly what AI says when a pet owner searches for groomers in your area. Get your free Blind Spot Report.</p>
+            <div className="flex flex-wrap gap-4 justify-center">
+              <Link href="/blindspot" className="ae-cta-primary">
+                Get Your Free Blind Spot Report
+                <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" /></svg>
+              </Link>
+              <a href="tel:+12134442229" className="ae-cta-secondary">(213) 444-2229</a>
             </div>
           </div>
 
           {/* FAQ SECTION */}
-          <div className="prose prose-invert prose-lg max-w-none prose-headings:font-plus-jakarta prose-headings:text-white prose-p:text-gray-300 prose-a:text-[#FF6A00] prose-a:no-underline hover:prose-a:underline prose-strong:text-white">
+          <div className="prose prose-invert prose-lg max-w-none prose-headings:font-headline prose-headings:text-white prose-p:text-gray-300 prose-a:text-[#FF6A00] prose-a:no-underline hover:prose-a:underline prose-strong:text-white">
             <span className="ae-section-label" id="faq">FAQ</span>
             <h2>Frequently Asked Questions</h2>
 
