@@ -336,6 +336,12 @@
       "email": "info@bodyprochiro.com",
       "type": "follow_up_1",
       "sentAt": "2026-04-22T16:00:55.845Z"
+    },
+    {
+      "leadId": "lead_1775669481214_073jaw",
+      "email": "lucerohomes.ca@gmail.com",
+      "type": "follow_up_2",
+      "sentAt": "2026-04-22T16:01:00.062Z"
     }
   ]
 }
