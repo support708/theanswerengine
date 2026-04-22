@@ -247,9 +247,9 @@ export default function Page() {
           </section>
 
           {/* Inline CTA 1 */}
-          <div className="ae-cta-inline mb-10">
+          <div className="ae-cta-inline not-prose mb-10">
             <p>Wondering how AI actually sees your business right now? Find the exact signals AI platforms use to evaluate you.</p>
-            <Link href="/blindspot" className="ae-cta-primary">Get Free Blind Spot Report</Link>
+            <Link href="/blindspot">Get Free Blind Spot Report &rarr;</Link>
           </div>
 
           {/* Table of Contents */}
@@ -390,12 +390,10 @@ export default function Page() {
             </p>
 
             {/* Inline CTA 2 */}
-            <div className="ae-cta-inline rounded-xl p-5 mb-4" style={{ background: 'rgba(255,106,0,0.08)', border: '1px solid rgba(255,106,0,0.25)' }}>
-              <p className="text-white font-semibold mb-1">Not sure which entity signals your business is missing?</p>
-              <p className="text-gray-400 text-sm mb-3">Your Blind Spot Report reveals exactly where the gaps are and how AI currently sees you.</p>
-              <Link href="/blindspot" className="inline-block px-5 py-2.5 rounded-lg font-semibold text-sm transition-all hover:scale-105" style={{ background: '#FF6A00', color: '#fff' }}>
-                Get My Blind Spot Report
-              </Link>
+            <div className="ae-cta-inline not-prose mb-4">
+              <p className="font-semibold mb-1">Not sure which entity signals your business is missing?</p>
+              <p className="text-sm mb-3">Your Blind Spot Report reveals exactly where the gaps are and how AI currently sees you.</p>
+              <Link href="/blindspot">Get My Blind Spot Report &rarr;</Link>
             </div>
           </section>
 
@@ -589,15 +587,13 @@ export default function Page() {
             </div>
 
             {/* Inline CTA 3 */}
-            <div className="ae-cta-inline rounded-xl p-5" style={{ background: 'rgba(255,106,0,0.08)', border: '1px solid rgba(255,106,0,0.25)' }}>
-              <p className="text-white font-semibold mb-1">Want to know which of these signals you're missing?</p>
-              <p className="text-gray-400 text-sm mb-3">Our Blind Spot Report audits your complete entity footprint against what AI platforms expect to see.</p>
-              <Link href="/blindspot" className="inline-block px-5 py-2.5 rounded-lg font-semibold text-sm transition-all hover:scale-105 mr-3" style={{ background: '#FF6A00', color: '#fff' }}>
-                Get My Free Blind Spot Report
-              </Link>
-              <a href="tel:+12134442229" className="inline-block px-5 py-2.5 rounded-lg font-semibold text-sm transition-all hover:scale-105" style={{ background: 'rgba(255,255,255,0.08)', color: '#fff', border: '1px solid rgba(255,255,255,0.15)' }}>
-                Call (213) 444-2229
-              </a>
+            <div className="ae-cta-inline not-prose">
+              <p className="font-semibold mb-1">Want to know which of these signals you're missing?</p>
+              <p className="text-sm mb-3">Our Blind Spot Report audits your complete entity footprint against what AI platforms expect to see.</p>
+              <div className="flex flex-wrap gap-4">
+                <Link href="/blindspot">Get My Free Blind Spot Report &rarr;</Link>
+                <a href="tel:+12134442229">Call (213) 444-2229</a>
+              </div>
             </div>
           </section>
 
