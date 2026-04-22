@@ -4,6 +4,7 @@ import Image from 'next/image';
 import { Analytics } from '@vercel/analytics/react';
 import { SpeedInsights } from '@vercel/speed-insights/next';
 import Nav from './components/Nav';
+import MetaPixel from './components/MetaPixel';
 import "./globals.css";
 
 export const metadata: Metadata = {
@@ -255,6 +256,7 @@ export default function RootLayout({
           <div className="absolute bottom-0 right-0 h-1 w-32 bg-[#FF6A00]" />
         </footer>
         
+        <MetaPixel />
         <Analytics />
         <SpeedInsights />
       </body>
