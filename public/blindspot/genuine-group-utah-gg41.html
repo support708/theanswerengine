@@ -1,0 +1,2112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AERO-10 Intelligence Brief | The Genuine Group | Saint George, UT</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@700;900&family=DM+Mono:wght@400;500&family=DM+Sans:wght@300;400;500;700&display=swap');
+
+  :root {
+    --orange:  #FF6A00;
+    --orange-dim: rgba(255,106,0,0.12);
+    --orange-glow: rgba(255,106,0,0.07);
+    --red:    #e53e3e;
+    --green:  #4ade80;
+    --bg:     #131313;
+    --bg-alt: #1c1b1b;
+    --surf:   #2a2a2a;
+    --text:   #e5e2e1;
+    --muted:  rgba(229,226,225,0.4);
+    --border: rgba(255,255,255,0.08);
+    --border-strong: rgba(255,255,255,0.14);
+  }
+
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  html { scroll-behavior: smooth; }
+
+  body {
+    background: var(--bg);
+    color: var(--text);
+    font-family: 'DM Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    overflow-x: hidden;
+  }
+
+  /* ---- GRID DOT PATTERN ---- */
+  .grid-bg::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background-image:
+      radial-gradient(circle, rgba(255,106,0,0.08) 1px, transparent 1px);
+    background-size: 32px 32px;
+    z-index: 0;
+  }
+
+  /* ---- ORANGE GLOW ---- */
+  .glow-orange {
+    position: absolute;
+    width: 700px; height: 700px;
+    border-radius: 50%;
+    background: radial-gradient(circle, rgba(255,106,0,0.10) 0%, transparent 65%);
+    z-index: 0;
+    pointer-events: none;
+  }
+
+  /* ---- NAV DOTS ---- */
+  .nav-dots {
+    position: fixed;
+    right: 24px;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 100;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .nav-dot {
+    width: 7px; height: 7px;
+    background: rgba(255,255,255,0.18);
+    cursor: pointer;
+    border: none;
+    transition: all 0.3s ease;
+  }
+  .nav-dot.active, .nav-dot:hover {
+    background: var(--orange);
+    transform: scale(1.5);
+  }
+
+  /* ---- SLIDE BASE ---- */
+  .slide {
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 80px 48px 100px;
+    position: relative;
+    overflow: hidden;
+  }
+  .slide-inner {
+    width: 100%;
+    max-width: 900px;
+    position: relative;
+    z-index: 2;
+  }
+
+  /* ---- FOOTER ---- */
+  .slide-footer {
+    position: absolute;
+    bottom: 0; left: 0; right: 0;
+    padding: 16px 48px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid var(--border);
+    font-size: 10px;
+    color: var(--muted);
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    z-index: 10;
+  }
+  .footer-logo {
+    font-family: 'Space Grotesk', sans-serif;
+    font-weight: 900;
+    font-size: 13px;
+    letter-spacing: 0.1em;
+    color: var(--orange);
+    text-transform: uppercase;
+  }
+
+  /* ---- SLIDE NUMBER ---- */
+  .slide-num {
+    position: absolute;
+    top: 28px; right: 48px;
+    font-family: 'DM Mono', monospace;
+    font-size: 11px;
+    letter-spacing: 0.2em;
+    color: var(--muted);
+    z-index: 10;
+  }
+
+  /* ---- MONO EYEBROW ---- */
+  .eyebrow {
+    font-family: 'DM Mono', monospace;
+    font-size: 10px;
+    font-weight: 500;
+    letter-spacing: 0.22em;
+    text-transform: uppercase;
+    color: var(--orange);
+    margin-bottom: 20px;
+    display: block;
+  }
+
+  /* ---- CHAMPIONSHIP HEADLINE ---- */
+  .champ-headline {
+    font-family: 'Space Grotesk', sans-serif;
+    font-weight: 900;
+    line-height: 0.93;
+    letter-spacing: -0.03em;
+    text-transform: uppercase;
+    margin-bottom: 28px;
+  }
+  .champ-headline .line-white { color: var(--text); display: block; }
+  .champ-headline .line-orange { color: var(--orange); display: block; }
+  .champ-headline .line-dim { color: rgba(229,226,225,0.18); display: block; }
+
+  /* ---- STAT BAR ---- */
+  .stat-bar {
+    display: flex;
+    gap: 0;
+    border: 1px solid var(--border-strong);
+    max-width: 660px;
+    margin-top: 40px;
+  }
+  .stat-cell {
+    flex: 1;
+    padding: 22px 24px;
+    border-right: 1px solid var(--border);
+  }
+  .stat-cell:last-child { border-right: none; }
+  .stat-val {
+    font-family: 'Space Grotesk', sans-serif;
+    font-weight: 900;
+    font-size: 38px;
+    line-height: 1;
+    margin-bottom: 6px;
+    letter-spacing: -0.02em;
+  }
+  .stat-label {
+    font-family: 'DM Mono', monospace;
+    font-size: 10px;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: var(--muted);
+  }
+  .v-orange { color: var(--orange); }
+  .v-red    { color: var(--red); }
+  .v-white  { color: var(--text); }
+
+  /* ================================
+     SLIDE 1 — HOOK
+  ================================ */
+  #slide1 { background: var(--bg); }
+
+  .s1-sub {
+    font-size: 17px;
+    font-weight: 300;
+    color: var(--muted);
+    max-width: 560px;
+    line-height: 1.65;
+  }
+  .s1-sub strong { color: var(--text); font-weight: 500; }
+
+  /* ================================
+     SLIDE 2 — PROOF
+  ================================ */
+  #slide2 { background: var(--bg-alt); }
+
+  .slide-headline {
+    font-family: 'Space Grotesk', sans-serif;
+    font-weight: 900;
+    font-size: clamp(30px, 4vw, 46px);
+    letter-spacing: -0.03em;
+    text-transform: uppercase;
+    line-height: 1;
+    margin-bottom: 8px;
+  }
+  .slide-sub {
+    font-size: 14px;
+    color: var(--muted);
+    margin-bottom: 36px;
+    font-weight: 300;
+  }
+
+  .ai-window {
+    background: #0e0e0e;
+    border: 1px solid var(--border-strong);
+    max-width: 720px;
+  }
+  .ai-window-header {
+    background: #161616;
+    padding: 13px 18px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    border-bottom: 1px solid var(--border);
+  }
+  .ai-dot { width: 9px; height: 9px; border-radius: 50%; }
+  .ai-logo {
+    margin-left: auto;
+    font-family: 'DM Mono', monospace;
+    font-size: 10px;
+    letter-spacing: 0.14em;
+    color: rgba(255,255,255,0.25);
+    text-transform: uppercase;
+  }
+  .ai-query {
+    padding: 16px 20px;
+    background: rgba(255,255,255,0.025);
+    font-size: 13px;
+    color: rgba(255,255,255,0.6);
+    border-bottom: 1px solid var(--border);
+    font-style: italic;
+  }
+  .ai-response { padding: 20px 20px 24px; }
+  .ai-response p {
+    font-size: 13px;
+    line-height: 1.75;
+    color: rgba(255,255,255,0.7);
+    margin-bottom: 14px;
+  }
+
+  .ai-chip {
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+    background: rgba(255,255,255,0.05);
+    padding: 2px 9px;
+    font-size: 12px;
+    color: var(--text);
+    margin: 2px;
+    border: 1px solid transparent;
+  }
+  .ai-chip.competitor { color: var(--green); border-color: rgba(74,222,128,0.2); background: rgba(74,222,128,0.06); }
+  .ai-chip.missing {
+    color: var(--red);
+    background: rgba(229,62,62,0.1);
+    border: 1px solid rgba(229,62,62,0.3);
+    text-decoration: line-through;
+    text-decoration-color: var(--red);
+  }
+  .missing-badge {
+    display: inline-block;
+    background: var(--red);
+    color: white;
+    font-family: 'DM Mono', monospace;
+    font-size: 9px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    padding: 2px 7px;
+    margin-left: 8px;
+    text-decoration: none;
+  }
+
+  .vs-row {
+    display: flex;
+    gap: 14px;
+    margin-top: 28px;
+    max-width: 720px;
+  }
+  .vs-card {
+    flex: 1;
+    padding: 18px 20px;
+    border: 1px solid var(--border);
+  }
+  .vs-card.them { border-color: rgba(74,222,128,0.25); background: rgba(74,222,128,0.04); }
+  .vs-card.you  { border-color: rgba(229,62,62,0.3);  background: rgba(229,62,62,0.05); }
+  .vs-label {
+    font-family: 'DM Mono', monospace;
+    font-size: 9px;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+  }
+  .vs-card.them .vs-label { color: var(--green); }
+  .vs-card.you  .vs-label { color: var(--red); }
+  .vs-name {
+    font-family: 'Space Grotesk', sans-serif;
+    font-weight: 900;
+    font-size: 20px;
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+    margin-bottom: 7px;
+  }
+  .vs-card.them .vs-name { color: var(--green); }
+  .vs-card.you  .vs-name { color: var(--red); }
+  .vs-detail { font-size: 13px; color: var(--muted); line-height: 1.55; }
+
+  /* ================================
+     SLIDE 3 — QUERY TARGET MAP
+  ================================ */
+  #slide3 { background: var(--bg); }
+
+  .query-grid {
+    max-width: 840px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 8px;
+    margin-top: 8px;
+  }
+  .query-item {
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
+    padding: 12px 14px;
+    border: 1px solid var(--border);
+    background: rgba(255,255,255,0.018);
+  }
+  .query-icon {
+    width: 22px; height: 22px;
+    display: flex; align-items: center; justify-content: center;
+    font-size: 11px;
+    flex-shrink: 0;
+    margin-top: 1px;
+    font-weight: 700;
+  }
+  .query-icon.miss    { color: var(--red);    background: rgba(229,62,62,0.12); }
+  .query-icon.partial { color: #f59e0b;       background: rgba(245,158,11,0.12); }
+  .query-icon.win     { color: var(--green);  background: rgba(74,222,128,0.12); }
+  .query-text { font-size: 13px; line-height: 1.4; }
+  .query-text strong {
+    display: block;
+    color: var(--text);
+    font-size: 12px;
+    margin-bottom: 3px;
+    font-style: italic;
+    font-weight: 400;
+  }
+  .query-text span { font-size: 10px; color: var(--muted); letter-spacing: 0.06em; }
+
+  .query-legend {
+    display: flex;
+    gap: 24px;
+    margin-top: 18px;
+    font-family: 'DM Mono', monospace;
+    font-size: 9px;
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
+    color: var(--muted);
+  }
+  .ql-item { display: flex; align-items: center; gap: 7px; }
+  .ql-swatch { width: 10px; height: 10px; }
+  .ql-swatch.orange { background: var(--orange); }
+  .ql-swatch.red    { background: var(--red); }
+
+  .query-verdict {
+    margin-top: 20px;
+    max-width: 840px;
+    padding: 18px 22px;
+    border-left: 3px solid var(--orange);
+    background: var(--orange-dim);
+  }
+  .query-verdict p { font-size: 14px; line-height: 1.6; color: rgba(229,226,225,0.85); }
+  .query-verdict strong { color: var(--orange); }
+
+  /* ================================
+     SLIDE 4 — GAP ANALYSIS
+  ================================ */
+  #slide4 { background: var(--bg-alt); }
+
+  .gap-grid {
+    display: grid;
+    grid-template-columns: 1fr 54px 1fr;
+    gap: 0;
+    max-width: 840px;
+  }
+  .gap-col-label {
+    font-family: 'DM Mono', monospace;
+    font-size: 10px;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    padding-bottom: 16px;
+    border-bottom: 1px solid var(--border);
+    margin-bottom: 0;
+  }
+  .gap-col-label.you  { color: var(--red); }
+  .gap-col-label.them { color: var(--green); }
+  .gap-divider { display: flex; align-items: flex-start; justify-content: center; padding-top: 14px; }
+  .gap-vs {
+    font-family: 'Space Grotesk', sans-serif;
+    font-weight: 900;
+    font-size: 20px;
+    letter-spacing: -0.02em;
+    color: var(--muted);
+  }
+
+  .gap-item {
+    display: flex;
+    align-items: flex-start;
+    gap: 11px;
+    padding: 13px 0;
+    border-bottom: 1px solid var(--border);
+  }
+  .gap-item:last-child { border-bottom: none; }
+  .gap-icon {
+    width: 20px; height: 20px;
+    display: flex; align-items: center; justify-content: center;
+    font-size: 11px;
+    flex-shrink: 0;
+    margin-top: 1px;
+  }
+  .gap-icon.bad  { background: rgba(229,62,62,0.15);  color: var(--red); }
+  .gap-icon.good { background: rgba(74,222,128,0.12); color: var(--green); }
+  .gap-text { font-size: 13px; line-height: 1.5; }
+  .gap-text strong { display: block; font-weight: 600; font-size: 13px; margin-bottom: 1px; }
+  .gap-text span { font-size: 11px; color: var(--muted); font-weight: 300; }
+
+  /* ================================
+     SLIDE 5 — AERO-10 SCORECARD
+  ================================ */
+  #slide5 { background: var(--bg); }
+
+  .score-header {
+    display: flex;
+    align-items: flex-end;
+    gap: 28px;
+    margin-bottom: 36px;
+    flex-wrap: wrap;
+  }
+  .score-big {
+    font-family: 'Space Grotesk', sans-serif;
+    font-weight: 900;
+    font-size: 88px;
+    line-height: 0.9;
+    letter-spacing: -0.04em;
+    color: var(--orange);
+  }
+  .score-denom {
+    font-family: 'Space Grotesk', sans-serif;
+    font-weight: 900;
+    font-size: 36px;
+    line-height: 1;
+    letter-spacing: -0.02em;
+    color: var(--muted);
+    margin-bottom: 8px;
+  }
+  .score-grade {
+    font-family: 'DM Mono', monospace;
+    font-size: 11px;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: var(--muted);
+    margin-bottom: 4px;
+  }
+  .score-context {
+    font-size: 14px;
+    font-weight: 300;
+    color: var(--muted);
+    max-width: 360px;
+    line-height: 1.55;
+  }
+
+  .pillar-list {
+    max-width: 840px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .pillar-row {
+    display: grid;
+    grid-template-columns: 220px 1fr 42px;
+    gap: 14px;
+    align-items: center;
+  }
+  .pillar-label {
+    font-family: 'DM Mono', monospace;
+    font-size: 10px;
+    letter-spacing: 0.1em;
+    color: var(--muted);
+    text-transform: uppercase;
+    white-space: nowrap;
+  }
+  .pillar-track {
+    background: rgba(255,255,255,0.04);
+    border: 1px solid var(--border);
+    height: 8px;
+    position: relative;
+  }
+  .pillar-fill {
+    position: absolute;
+    left: 0; top: 0; bottom: 0;
+    background: var(--orange);
+    transition: width 0.4s ease;
+  }
+  .pillar-fill.low  { background: var(--red); }
+  .pillar-fill.mid  { background: var(--orange); }
+  .pillar-fill.high { background: #4ade80; }
+  .pillar-score {
+    font-family: 'Space Grotesk', sans-serif;
+    font-weight: 900;
+    font-size: 15px;
+    letter-spacing: -0.02em;
+    text-align: right;
+  }
+  .pillar-score.low  { color: var(--red); }
+  .pillar-score.mid  { color: var(--orange); }
+  .pillar-score.high { color: #4ade80; }
+
+  /* ================================
+     SLIDE 6 — REVENUE MATH
+  ================================ */
+  #slide6 { background: var(--bg-alt); }
+
+  .math-table {
+    width: 100%;
+    max-width: 800px;
+    border-collapse: collapse;
+  }
+  .math-table th {
+    padding: 12px 18px;
+    font-family: 'DM Mono', monospace;
+    font-size: 9px;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: var(--muted);
+    text-align: left;
+    border-bottom: 1px solid var(--border);
+  }
+  .math-table th:last-child { text-align: right; }
+  .math-table td {
+    padding: 16px 18px;
+    font-size: 14px;
+    border-bottom: 1px solid var(--border);
+    vertical-align: top;
+    line-height: 1.45;
+  }
+  .math-table td:last-child { text-align: right; font-weight: 600; }
+  .math-table tr.row-bad  td { background: rgba(229,62,62,0.04); }
+  .math-table tr.row-bad  td:last-child { color: var(--red); }
+  .math-table tr.row-good td { background: rgba(74,222,128,0.03); }
+  .math-table tr.row-good td:last-child { color: var(--green); }
+  .math-table tr.row-total td {
+    font-family: 'Space Grotesk', sans-serif;
+    font-weight: 900;
+    font-size: 20px;
+    letter-spacing: -0.02em;
+    border-bottom: none;
+    padding-top: 22px;
+  }
+  .math-sub {
+    font-size: 11px;
+    color: var(--muted);
+    margin-top: 3px;
+    font-weight: 300;
+    font-family: 'DM Sans', sans-serif;
+  }
+
+  .verdict-box {
+    margin-top: 28px;
+    max-width: 800px;
+    padding: 22px 26px;
+    border-left: 3px solid var(--orange);
+    background: var(--orange-dim);
+  }
+  .verdict-box p {
+    font-size: 15px;
+    line-height: 1.65;
+    color: rgba(229,226,225,0.85);
+  }
+  .verdict-box strong { color: var(--orange); }
+
+  /* ================================
+     SLIDE 7 — THE FIX (AE SERVICE)
+  ================================ */
+  #slide7 { background: var(--bg); }
+
+  .content-table {
+    width: 100%;
+    max-width: 840px;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+  }
+  .content-table th {
+    padding: 10px 14px;
+    font-family: 'DM Mono', monospace;
+    font-size: 9px;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: var(--muted);
+    text-align: left;
+    border-bottom: 1px solid var(--border-strong);
+  }
+  .content-table td {
+    padding: 13px 14px;
+    font-size: 13px;
+    border-bottom: 1px solid var(--border);
+    vertical-align: top;
+    line-height: 1.45;
+  }
+  .content-table tr.mo-head td {
+    background: rgba(255,255,255,0.025);
+    font-family: 'DM Mono', monospace;
+    font-size: 9px;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    padding: 8px 14px;
+    border-bottom: none;
+  }
+  .content-table tr.mo-head.m1 td { color: var(--orange); }
+  .content-table tr.mo-head.m2 td { color: #60a5fa; }
+  .content-table tr.mo-head.m3 td { color: var(--green); }
+  .content-table td.article-title { font-weight: 600; color: var(--text); }
+  .content-table td.query-target  { font-size: 11px; color: var(--muted); font-style: italic; }
+  .content-table td.output-tag {
+    font-family: 'DM Mono', monospace;
+    font-size: 10px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--orange);
+  }
+
+  .funnel-strip {
+    max-width: 840px;
+    display: flex;
+    align-items: center;
+    gap: 0;
+    margin-bottom: 16px;
+  }
+  .funnel-step {
+    flex: 1;
+    padding: 14px 16px;
+    border: 1px solid var(--border);
+    background: rgba(255,255,255,0.02);
+    text-align: center;
+  }
+  .funnel-step-label {
+    font-family: 'DM Mono', monospace;
+    font-size: 9px;
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
+    color: var(--muted);
+    margin-bottom: 5px;
+  }
+  .funnel-step-val {
+    font-family: 'Space Grotesk', sans-serif;
+    font-weight: 900;
+    font-size: 13px;
+    letter-spacing: -0.01em;
+    color: var(--text);
+    line-height: 1.3;
+  }
+  .funnel-arrow {
+    font-size: 18px;
+    color: var(--orange);
+    padding: 0 4px;
+    flex-shrink: 0;
+  }
+
+  .parallel-note {
+    max-width: 840px;
+    padding: 12px 16px;
+    border: 1px solid rgba(255,255,255,0.06);
+    background: rgba(255,255,255,0.015);
+    display: flex;
+    gap: 10px;
+    align-items: flex-start;
+  }
+  .parallel-note-label {
+    font-family: 'DM Mono', monospace;
+    font-size: 9px;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: var(--muted);
+    white-space: nowrap;
+    margin-top: 1px;
+    flex-shrink: 0;
+  }
+  .parallel-note p {
+    font-size: 12px;
+    color: var(--muted);
+    line-height: 1.55;
+  }
+
+  .fix-result {
+    margin-top: 16px;
+    max-width: 840px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 12px;
+  }
+  .fix-result-card {
+    padding: 16px 18px;
+    border: 1px solid var(--border-strong);
+    background: var(--surf);
+  }
+  .fix-result-val {
+    font-family: 'Space Grotesk', sans-serif;
+    font-weight: 900;
+    font-size: 26px;
+    letter-spacing: -0.03em;
+    color: var(--orange);
+    margin-bottom: 4px;
+  }
+  .fix-result-label {
+    font-family: 'DM Mono', monospace;
+    font-size: 9px;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: var(--muted);
+  }
+
+  /* ================================
+     SLIDE 8 — HOW IT COMPOUNDS
+  ================================ */
+  #slide8 { background: var(--bg-alt); }
+
+  .growth-chart {
+    max-width: 840px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 28px;
+    margin-bottom: 18px;
+  }
+  .growth-bars {
+    display: flex;
+    flex-direction: column;
+    gap: 9px;
+  }
+  .growth-row {
+    display: grid;
+    grid-template-columns: 68px 1fr 90px;
+    gap: 10px;
+    align-items: center;
+  }
+  .growth-month-label {
+    font-family: 'DM Mono', monospace;
+    font-size: 9px;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: var(--muted);
+  }
+  .growth-row.inflect .growth-month-label { color: var(--orange); }
+  .growth-track {
+    background: rgba(255,255,255,0.04);
+    border: 1px solid var(--border);
+    height: 10px;
+    position: relative;
+  }
+  .growth-row.inflect .growth-track { border-color: rgba(255,106,0,0.4); }
+  .growth-fill {
+    position: absolute;
+    left: 0; top: 0; bottom: 0;
+    background: linear-gradient(90deg, var(--orange) 0%, rgba(255,106,0,0.55) 100%);
+  }
+  .growth-stat {
+    font-family: 'DM Mono', monospace;
+    font-size: 9px;
+    letter-spacing: 0.1em;
+    color: var(--muted);
+    text-align: right;
+    white-space: nowrap;
+  }
+  .growth-row.inflect .growth-stat { color: var(--orange); }
+  .inflect-badge {
+    display: inline-block;
+    background: var(--orange);
+    color: #000;
+    font-family: 'DM Mono', monospace;
+    font-size: 7px;
+    font-weight: 700;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    padding: 1px 5px;
+    margin-right: 4px;
+    vertical-align: middle;
+  }
+
+  .phase-right {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .phase-block {
+    padding: 13px 15px;
+    border: 1px solid var(--border);
+    background: rgba(255,255,255,0.02);
+  }
+  .phase-block.active {
+    border-color: rgba(255,106,0,0.5);
+    background: var(--orange-dim);
+  }
+  .phase-block-label {
+    font-family: 'DM Mono', monospace;
+    font-size: 8px;
+    letter-spacing: 0.22em;
+    text-transform: uppercase;
+    color: var(--muted);
+    margin-bottom: 5px;
+  }
+  .phase-block.active .phase-block-label { color: var(--orange); }
+  .phase-block-title {
+    font-family: 'Space Grotesk', sans-serif;
+    font-weight: 700;
+    font-size: 13px;
+    letter-spacing: -0.01em;
+    color: var(--text);
+    margin-bottom: 4px;
+  }
+  .phase-block-body {
+    font-size: 11px;
+    color: var(--muted);
+    line-height: 1.5;
+    font-weight: 300;
+  }
+
+  .workflow-strip {
+    max-width: 840px;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 0;
+  }
+  .workflow-step {
+    padding: 11px 13px;
+    border: 1px solid var(--border);
+    border-right: none;
+    background: rgba(255,255,255,0.015);
+    text-align: center;
+  }
+  .workflow-step:last-child {
+    border-right: 1px solid rgba(255,106,0,0.3);
+    border-color: rgba(255,106,0,0.3);
+    background: var(--orange-dim);
+  }
+  .workflow-step-icon {
+    font-family: 'Space Grotesk', sans-serif;
+    font-weight: 900;
+    font-size: 14px;
+    letter-spacing: -0.02em;
+    color: var(--orange);
+    line-height: 1;
+    margin-bottom: 5px;
+  }
+  .workflow-step-body {
+    font-size: 10px;
+    color: var(--muted);
+    line-height: 1.45;
+    font-weight: 300;
+  }
+  .workflow-step:last-child .workflow-step-body { color: rgba(229,226,225,0.7); }
+
+  .article-split {
+    max-width: 840px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 8px;
+    margin-top: 14px;
+  }
+  .article-type {
+    padding: 10px 12px;
+    border: 1px solid var(--border);
+    background: rgba(255,255,255,0.02);
+  }
+  .article-type-count {
+    font-family: 'Space Grotesk', sans-serif;
+    font-weight: 900;
+    font-size: 22px;
+    letter-spacing: -0.03em;
+    color: var(--orange);
+    line-height: 1;
+    margin-bottom: 3px;
+  }
+  .article-type-label {
+    font-family: 'DM Mono', monospace;
+    font-size: 9px;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: var(--muted);
+    margin-bottom: 4px;
+  }
+  .article-type-example {
+    font-size: 10px;
+    color: rgba(229,226,225,0.35);
+    font-style: italic;
+    line-height: 1.4;
+  }
+
+  /* ================================
+     SLIDE 9 — PRICING
+  ================================ */
+  #slide9 { background: var(--bg-alt); }
+  #slide10 { background: var(--bg); text-align: center; }
+
+  .price-grid {
+    max-width: 840px;
+    display: grid;
+    grid-template-columns: 1fr 1.6fr 1fr;
+    gap: 0;
+    margin-top: 22px;
+  }
+  .price-block {
+    padding: 22px 24px;
+    border: 1px solid var(--border);
+    border-right: none;
+    background: rgba(255,255,255,0.015);
+  }
+  .price-block:last-child { border-right: 1px solid var(--border); }
+  .price-block.price-featured {
+    border: 1px solid rgba(255,106,0,0.5);
+    background: var(--orange-dim);
+  }
+  .price-badge {
+    font-family: 'DM Mono', monospace;
+    font-size: 8px;
+    letter-spacing: 0.22em;
+    text-transform: uppercase;
+    color: var(--muted);
+    margin-bottom: 10px;
+  }
+  .price-featured .price-badge { color: var(--orange); }
+  .price-title {
+    font-family: 'Space Grotesk', sans-serif;
+    font-weight: 900;
+    font-size: 22px;
+    letter-spacing: -0.02em;
+    color: var(--text);
+    margin-bottom: 14px;
+    line-height: 1.1;
+  }
+  .price-featured .price-title { color: var(--orange); }
+  .price-includes {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  .price-includes li {
+    font-size: 11px;
+    color: var(--muted);
+    line-height: 1.6;
+    padding: 4px 0;
+    border-top: 1px solid var(--border);
+    font-weight: 300;
+    padding-left: 12px;
+    position: relative;
+  }
+  .price-includes li::before {
+    content: '&#8594;';
+    position: absolute;
+    left: 0;
+    color: var(--orange);
+    font-family: 'DM Mono', monospace;
+    font-size: 9px;
+  }
+  .price-featured .price-includes li { border-color: rgba(255,106,0,0.12); }
+  .price-amount {
+    font-family: 'Space Grotesk', sans-serif;
+    font-weight: 900;
+    font-size: 38px;
+    letter-spacing: -0.03em;
+    color: var(--text);
+    line-height: 1;
+    margin-bottom: 2px;
+  }
+  .price-featured .price-amount { color: var(--orange); }
+  .price-amount-sub {
+    font-family: 'DM Mono', monospace;
+    font-size: 9px;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    color: var(--muted);
+    margin-bottom: 14px;
+  }
+  .price-save {
+    display: inline-block;
+    background: var(--orange);
+    color: #000;
+    font-family: 'DM Mono', monospace;
+    font-size: 8px;
+    font-weight: 700;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    padding: 2px 7px;
+    margin-bottom: 12px;
+  }
+
+  /* ================================
+     SLIDE 8 EXTRAS
+  ================================ */
+  .ai-quote {
+    background: var(--orange-dim);
+    border-left: 3px solid var(--orange);
+    padding: 14px 18px;
+    margin: 12px 0 16px;
+    max-width: 840px;
+    font-size: 14px;
+    line-height: 1.6;
+    color: rgba(229,226,225,0.88);
+    font-weight: 300;
+    font-style: normal;
+  }
+  .ai-quote strong { color: var(--orange); font-weight: 700; }
+
+  /* ================================
+     SLIDE 10 — CLOSE
+  ================================ */
+  .cta-headline {
+    font-family: 'Space Grotesk', sans-serif;
+    font-weight: 900;
+    font-size: clamp(42px, 7.5vw, 88px);
+    line-height: 0.9;
+    letter-spacing: -0.04em;
+    text-transform: uppercase;
+    margin-bottom: 24px;
+  }
+  .cta-headline .line1 { color: var(--text); display: block; }
+  .cta-headline .line2 { color: var(--orange); display: block; }
+  .cta-headline .line3 { color: rgba(229,226,225,0.15); display: block; }
+
+  .cta-sub {
+    font-size: 16px;
+    font-weight: 300;
+    color: var(--muted);
+    max-width: 480px;
+    margin: 0 auto 36px;
+    line-height: 1.65;
+  }
+
+  .next-steps {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 12px;
+    max-width: 720px;
+    margin: 0 auto 36px;
+    text-align: left;
+  }
+  .next-step-card {
+    padding: 16px 18px;
+    border: 1px solid var(--border);
+    background: rgba(255,255,255,0.025);
+  }
+  .next-step-num {
+    font-family: 'Space Grotesk', sans-serif;
+    font-weight: 900;
+    font-size: 28px;
+    letter-spacing: -0.04em;
+    color: var(--orange);
+    margin-bottom: 6px;
+    line-height: 1;
+  }
+  .next-step-title {
+    font-size: 12px;
+    font-weight: 600;
+    color: var(--text);
+    margin-bottom: 4px;
+  }
+  .next-step-body {
+    font-size: 11px;
+    color: var(--muted);
+    line-height: 1.55;
+    font-weight: 300;
+  }
+
+  .cta-buttons {
+    display: flex;
+    gap: 14px;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .btn-primary {
+    display: inline-block;
+    background: var(--orange);
+    color: #000;
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    padding: 16px 34px;
+    text-decoration: none;
+    transition: opacity 0.2s ease;
+  }
+  .btn-primary:hover { opacity: 0.9; }
+
+  .btn-secondary {
+    display: inline-block;
+    background: transparent;
+    color: var(--text);
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    padding: 16px 34px;
+    text-decoration: none;
+    border: 1px solid var(--border-strong);
+    transition: border-color 0.2s ease;
+  }
+  .btn-secondary:hover { border-color: var(--orange); color: var(--orange); }
+
+  .cta-detail {
+    margin-top: 28px;
+    font-family: 'DM Mono', monospace;
+    font-size: 10px;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    color: var(--muted);
+  }
+
+  /* ---- UTILITY ---- */
+  .accent { color: var(--orange); }
+  .tag {
+    display: inline-block;
+    font-family: 'DM Mono', monospace;
+    font-size: 9px;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    padding: 4px 10px;
+    border: 1px solid var(--orange-dim);
+    color: var(--orange);
+    background: var(--orange-dim);
+    margin-bottom: 22px;
+  }
+</style>
+</head>
+<body>
+
+<!-- NAV DOTS -->
+<nav class="nav-dots" aria-label="Section navigation">
+  <button class="nav-dot active" onclick="goTo(0)" title="Hook"></button>
+  <button class="nav-dot" onclick="goTo(1)" title="Proof"></button>
+  <button class="nav-dot" onclick="goTo(2)" title="Queries"></button>
+  <button class="nav-dot" onclick="goTo(3)" title="Gap"></button>
+  <button class="nav-dot" onclick="goTo(4)" title="Scorecard"></button>
+  <button class="nav-dot" onclick="goTo(5)" title="Money"></button>
+  <button class="nav-dot" onclick="goTo(6)" title="Fix"></button>
+  <button class="nav-dot" onclick="goTo(7)" title="Growth"></button>
+  <button class="nav-dot" onclick="goTo(8)" title="Pricing"></button>
+  <button class="nav-dot" onclick="goTo(9)" title="Close"></button>
+</nav>
+
+<!-- ================================================
+     SLIDE 1 — THE HOOK
+================================================ -->
+<section class="slide grid-bg" id="slide1">
+  <div class="glow-orange" style="top:-200px; right:-200px;"></div>
+  <div class="slide-num">01 / 10</div>
+  <div class="slide-inner">
+    <span class="eyebrow">&#9711; AERO-10 Intelligence Brief // The Genuine Group &middot; Saint George, UT</span>
+    <h1 class="champ-headline" style="font-size: clamp(48px, 8vw, 88px);">
+      <span class="line-white">Southern Utah's Most</span>
+      <span class="line-orange">Trusted Real Estate Team</span>
+      <span class="line-dim">Invisible to AI Search</span>
+    </h1>
+    <p class="s1-sub">
+      JD Reese and The Genuine Group have closed <strong>1,500+ transactions</strong> over <strong>11 years</strong> in Washington County.
+      Clients describe you as patient, trustworthy, and always present. But when a buyer types
+      "best real estate agent Saint George Utah" into ChatGPT, Perplexity, or Google AI,
+      Red Rock Real Estate appears. The Agency St George appears. Fathom Realty appears.
+      The Genuine Group does not. Not once.
+    </p>
+    <div class="stat-bar">
+      <div class="stat-cell">
+        <div class="stat-val v-orange">32<span style="font-size:22px;opacity:0.5">/100</span></div>
+        <div class="stat-label">AERO-10 Score</div>
+      </div>
+      <div class="stat-cell">
+        <div class="stat-val v-red">0</div>
+        <div class="stat-label">AI Citations Found</div>
+      </div>
+      <div class="stat-cell">
+        <div class="stat-val v-white">$127K</div>
+        <div class="stat-label">Est. Annual Revenue at Risk</div>
+      </div>
+    </div>
+  </div>
+  <div class="slide-footer">
+    <span class="footer-logo">The Answer Engine</span>
+    <span>Prepared for JD Reese &middot; The Genuine Group &middot; April 2026</span>
+    <span>Confidential</span>
+  </div>
+</section>
+
+<!-- ================================================
+     SLIDE 2 — THE PROOF
+================================================ -->
+<section class="slide" id="slide2">
+  <div class="glow-orange" style="bottom:-300px; left:-200px;"></div>
+  <div class="slide-num">02 / 10</div>
+  <div class="slide-inner">
+    <span class="eyebrow">&#9711; AI Visibility Test // What Saint George Buyers Actually See</span>
+    <h2 class="slide-headline">
+      They Search. <span class="accent">You're Missing.</span>
+    </h2>
+    <p class="slide-sub">Live query test &mdash; April 2026, ChatGPT + Perplexity + Google AI. Finding: 42% of Utah buyers now use AI to find agents. Zero mentions of Genuine Group in any result.</p>
+
+    <div class="ai-window">
+      <div class="ai-window-header">
+        <div class="ai-dot" style="background:#ff5f56;"></div>
+        <div class="ai-dot" style="background:#ffbd2e;"></div>
+        <div class="ai-dot" style="background:#27c93f;"></div>
+        <span class="ai-logo">ChatGPT / Perplexity AI</span>
+      </div>
+      <div class="ai-query">"Who are the best real estate agents in Saint George, Utah?"</div>
+      <div class="ai-response">
+        <p>Here are the top-rated real estate agents and teams serving Saint George and Washington County:</p>
+        <p>
+          <span class="ai-chip competitor">&#10003; Red Rock Real Estate</span>
+          <span class="ai-chip competitor">&#10003; The Agency St George</span>
+          <span class="ai-chip competitor">&#10003; Fathom Realty</span>
+        </p>
+        <p>
+          <span class="ai-chip competitor">&#10003; David Ellis</span>
+          <span class="ai-chip competitor">&#10003; Heather Mongie</span>
+          <span class="ai-chip missing">The Genuine Group</span>
+          <span class="missing-badge">Not Found</span>
+        </p>
+        <p style="font-size:12px; color:rgba(229,226,225,0.35); margin-top:8px;">
+          AI systems surface agents with schema markup, published reviews, authority content, and entity-verified profiles.
+          The Genuine Group's digital footprint does not yet meet this threshold.
+        </p>
+      </div>
+    </div>
+
+    <div class="vs-row">
+      <div class="vs-card them">
+        <div class="vs-label">Top Competitor</div>
+        <div class="vs-name">Red Rock Real Estate</div>
+        <div class="vs-detail">
+          4.9&#9733; / 106 reviews (Top Rated Local)<br>
+          Voted #1 Saint George real estate company for 5 consecutive years<br>
+          Largest brokerage in Southern Utah &mdash; top of every map pack<br>
+          Also runs property management: 1,989 reviews / 4.8&#9733;
+        </div>
+      </div>
+      <div class="vs-card you">
+        <div class="vs-label">The Genuine Group</div>
+        <div class="vs-name">Not in AI Answers</div>
+        <div class="vs-detail">
+          Strong Zillow testimonials &mdash; but review count not publicly visible<br>
+          1,500+ transactions / 11 years &mdash; unmatched local track record<br>
+          Not appearing in any AI search for category or geo queries<br>
+          No schema, no awards published, 1 dormant blog post &mdash; AERO-10: 32/100
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="slide-footer">
+    <span class="footer-logo">The Answer Engine</span>
+    <span>AERO-10 Intelligence Brief &middot; The Genuine Group &middot; Saint George, UT</span>
+    <span>theanswerengine.ai</span>
+  </div>
+</section>
+
+<!-- ================================================
+     SLIDE 3 — TARGET QUERY MAP
+================================================ -->
+<section class="slide" id="slide3">
+  <div class="glow-orange" style="top:-100px; left:-200px;"></div>
+  <div class="slide-num">03 / 10</div>
+  <div class="slide-inner">
+    <span class="eyebrow">&#9711; Query Intelligence // 10 Searches The Genuine Group Must Own</span>
+    <h2 class="slide-headline">
+      The <span class="accent">Exact Queries</span> You're Losing
+    </h2>
+    <p class="slide-sub">Tested live April 2026. Three states: amber = some Google presence but no AI answer. Red = absent from Google and AI entirely. Green = branded dominance.</p>
+
+    <div class="query-grid">
+
+      <div class="query-item">
+        <div class="query-icon miss">&#10005;</div>
+        <div class="query-text">
+          <strong>"best real estate agent Saint George Utah"</strong>
+          <span>Genuine Group absent &mdash; Red Rock, The Agency, Fathom capture this query entirely</span>
+        </div>
+      </div>
+
+      <div class="query-item">
+        <div class="query-icon miss">&#10005;</div>
+        <div class="query-text">
+          <strong>"top real estate team Saint George UT"</strong>
+          <span>Genuine Group absent from top 10 &mdash; no content, no schema, no co-citation signals</span>
+        </div>
+      </div>
+
+      <div class="query-item">
+        <div class="query-icon miss">&#10005;</div>
+        <div class="query-text">
+          <strong>"luxury homes Saint George Utah"</strong>
+          <span>Genuine Group absent &mdash; Salisbury Homes partnership not leveraged with content</span>
+        </div>
+      </div>
+
+      <div class="query-item">
+        <div class="query-icon miss">&#10005;</div>
+        <div class="query-text">
+          <strong>"new construction homes Saint George Utah 2026"</strong>
+          <span>Salisbury Homes appears, not Genuine Group &mdash; partnership invisible to AI</span>
+        </div>
+      </div>
+
+      <div class="query-item">
+        <div class="query-icon partial">&#9651;</div>
+        <div class="query-text">
+          <strong>"buy a home in Saint George Utah"</strong>
+          <span>Google: Genuine Group rank 8&ndash;12 &mdash; not in any AI Overview or chatbot answer</span>
+        </div>
+      </div>
+
+      <div class="query-item">
+        <div class="query-icon miss">&#10005;</div>
+        <div class="query-text">
+          <strong>"sell my home Saint George Utah realtor"</strong>
+          <span>Genuine Group absent &mdash; no seller-focused content, no Google ranking</span>
+        </div>
+      </div>
+
+      <div class="query-item">
+        <div class="query-icon miss">&#10005;</div>
+        <div class="query-text">
+          <strong>"Washington County real estate market 2026"</strong>
+          <span>Zero Genuine Group content &mdash; no market reports, Redfin and Zillow fill this void</span>
+        </div>
+      </div>
+
+      <div class="query-item">
+        <div class="query-icon miss">&#10005;</div>
+        <div class="query-text">
+          <strong>"first time home buyer Saint George Utah"</strong>
+          <span>Genuine Group absent &mdash; lenders and national sites capture buyer education queries</span>
+        </div>
+      </div>
+
+      <div class="query-item">
+        <div class="query-icon partial">&#9651;</div>
+        <div class="query-text">
+          <strong>"investment property Washington County Utah"</strong>
+          <span>Google: minimal Genuine Group presence &mdash; no investor guide content published</span>
+        </div>
+      </div>
+
+      <div class="query-item">
+        <div class="query-icon win">&#10003;</div>
+        <div class="query-text">
+          <strong>"The Genuine Group reviews"</strong>
+          <span>Genuine Group dominates &mdash; Zillow and website results rank well on branded query</span>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="query-legend">
+      <div class="ql-item">
+        <div class="ql-swatch" style="background:#f59e0b;"></div>
+        <span>Google mid-page &mdash; not in AI answers (2 queries)</span>
+      </div>
+      <div class="ql-item">
+        <div class="ql-swatch red"></div>
+        <span>Absent from Google &amp; AI entirely (7 queries)</span>
+      </div>
+      <div class="ql-item">
+        <div class="ql-swatch" style="background:#4ade80;"></div>
+        <span>Branded dominance only (1 query)</span>
+      </div>
+    </div>
+
+    <div class="query-verdict">
+      <p>
+        <strong>The opportunity:</strong> none of these 10 queries have a consistent AI-cited Saint George real estate agent.
+        The field is wide open. The first team to publish structured, FAQ-rich content for these queries
+        will own the AI citations in Washington County. <strong>AE's 90-day engagement claims that position for The Genuine Group.</strong>
+      </p>
+    </div>
+  </div>
+  <div class="slide-footer">
+    <span class="footer-logo">The Answer Engine</span>
+    <span>AERO-10 Intelligence Brief &middot; The Genuine Group &middot; Saint George, UT</span>
+    <span>theanswerengine.ai</span>
+  </div>
+</section>
+
+<!-- ================================================
+     SLIDE 4 — GAP ANALYSIS
+================================================ -->
+<section class="slide" id="slide4">
+  <div class="glow-orange" style="top:-100px; right:-300px;"></div>
+  <div class="slide-num">04 / 10</div>
+  <div class="slide-inner">
+    <span class="eyebrow">&#9711; Competitive Gap // The Genuine Group vs. Red Rock Real Estate</span>
+    <h2 class="slide-headline">Where the <span class="accent">AI Gap</span> Lives</h2>
+    <p class="slide-sub">Red Rock has been in the market as long as you &mdash; yet they dominate every AI result. These are the confirmed structural differences.</p>
+
+    <div class="gap-grid">
+      <div class="gap-col-label you">The Genuine Group</div>
+      <div></div>
+      <div class="gap-col-label them">Red Rock Real Estate</div>
+
+      <div class="gap-item">
+        <div class="gap-icon bad">&#10005;</div>
+        <div class="gap-text">
+          <strong>Zero AI Citations</strong>
+          <span>Not mentioned in any ChatGPT, Perplexity, or Google AI Overview for Saint George real estate queries</span>
+        </div>
+      </div>
+      <div class="gap-divider"><span class="gap-vs">VS</span></div>
+      <div class="gap-item">
+        <div class="gap-icon good">&#10003;</div>
+        <div class="gap-text">
+          <strong>AI + Map Pack Dominance</strong>
+          <span>Top result for "real estate Saint George Utah" in Google and cited in chatbot responses</span>
+        </div>
+      </div>
+
+      <div class="gap-item">
+        <div class="gap-icon bad">&#10005;</div>
+        <div class="gap-text">
+          <strong>No Schema Markup</strong>
+          <span>No LocalBusiness, Person, or FAQPage schema on genuineutah.com &mdash; confirmed April 2026</span>
+        </div>
+      </div>
+      <div class="gap-divider"></div>
+      <div class="gap-item">
+        <div class="gap-icon good">&#10003;</div>
+        <div class="gap-text">
+          <strong>Full Local Schema</strong>
+          <span>Rich snippets appearing for brokerage queries &mdash; signals AI can parse and cite</span>
+        </div>
+      </div>
+
+      <div class="gap-item">
+        <div class="gap-icon bad">&#10005;</div>
+        <div class="gap-text">
+          <strong>1 Blog Post (March 2024)</strong>
+          <span>Blog is dormant &mdash; no market reports, no buyer/seller guides, no geo content</span>
+        </div>
+      </div>
+      <div class="gap-divider"></div>
+      <div class="gap-item">
+        <div class="gap-icon good">&#10003;</div>
+        <div class="gap-text">
+          <strong>Multiple Content Assets</strong>
+          <span>Service pages, neighborhood content, and market-facing copy AI systems actively index</span>
+        </div>
+      </div>
+
+      <div class="gap-item">
+        <div class="gap-icon bad">&#10005;</div>
+        <div class="gap-text">
+          <strong>Review Count Hidden</strong>
+          <span>Google review count not publicly visible &mdash; creates "unknown quality" perception vs. competitors</span>
+        </div>
+      </div>
+      <div class="gap-divider"></div>
+      <div class="gap-item">
+        <div class="gap-icon good">&#10003;</div>
+        <div class="gap-text">
+          <strong>106 Google Reviews / 4.9&#9733;</strong>
+          <span>Voted #1 in Southern Utah for 5 consecutive years &mdash; volume drives AI co-citation weight</span>
+        </div>
+      </div>
+
+      <div class="gap-item">
+        <div class="gap-icon bad">&#10005;</div>
+        <div class="gap-text">
+          <strong>No Published Awards</strong>
+          <span>Strong reputation on Zillow but zero third-party recognition listed on website or in AI training data</span>
+        </div>
+      </div>
+      <div class="gap-divider"></div>
+      <div class="gap-item">
+        <div class="gap-icon good">&#10003;</div>
+        <div class="gap-text">
+          <strong>Voted #1 for 5 Years</strong>
+          <span>Award recognition signals authority to AI systems &mdash; cited in "top real estate" roundups</span>
+        </div>
+      </div>
+
+      <div class="gap-item">
+        <div class="gap-icon bad">&#10005;</div>
+        <div class="gap-text">
+          <strong>No Knowledge Panel</strong>
+          <span>JD Reese and Genuine Group not verified in Google Knowledge Graph &mdash; no branded entity recognition</span>
+        </div>
+      </div>
+      <div class="gap-divider"></div>
+      <div class="gap-item">
+        <div class="gap-icon good">&#10003;</div>
+        <div class="gap-text">
+          <strong>Top Local Map Pack</strong>
+          <span>Consistently #1 in the 3-pack for Saint George real estate searches &mdash; drives organic traffic and citations</span>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="slide-footer">
+    <span class="footer-logo">The Answer Engine</span>
+    <span>AERO-10 Intelligence Brief &middot; The Genuine Group &middot; Saint George, UT</span>
+    <span>theanswerengine.ai</span>
+  </div>
+</section>
+
+<!-- ================================================
+     SLIDE 5 — AERO-10 SCORECARD
+================================================ -->
+<section class="slide" id="slide5">
+  <div class="slide-num">05 / 10</div>
+  <div class="slide-inner">
+    <span class="eyebrow">&#9711; AERO-10 Framework // 10-Pillar AI Visibility Score</span>
+
+    <div class="score-header">
+      <div>
+        <div class="score-big">32</div>
+      </div>
+      <div>
+        <div class="score-denom">/100</div>
+        <div class="score-grade">Grade: D &mdash; Critical AI Visibility Gap</div>
+        <div class="score-context">
+          Southern Utah RE market average: ~48/100. Red Rock: ~71/100.
+          Genuine Group scores in the bottom 20% nationally &mdash; driven by zero schema,
+          dormant content, and no third-party authority signals.
+          The 11-year track record is real. AI just can't see it yet.
+        </div>
+      </div>
+    </div>
+
+    <div class="pillar-list">
+      <div class="pillar-row">
+        <div class="pillar-label">P1 &middot; Answer Quality</div>
+        <div class="pillar-track"><div class="pillar-fill low" style="width:20%;"></div></div>
+        <div class="pillar-score low">2/10</div>
+      </div>
+      <div class="pillar-row">
+        <div class="pillar-label">P2 &middot; Entity Optimization</div>
+        <div class="pillar-track"><div class="pillar-fill low" style="width:20%;"></div></div>
+        <div class="pillar-score low">2/10</div>
+      </div>
+      <div class="pillar-row">
+        <div class="pillar-label">P3 &middot; Relevance &amp; Freshness</div>
+        <div class="pillar-track"><div class="pillar-fill low" style="width:20%;"></div></div>
+        <div class="pillar-score low">2/10</div>
+      </div>
+      <div class="pillar-row">
+        <div class="pillar-label">P4 &middot; Optimization Structure</div>
+        <div class="pillar-track"><div class="pillar-fill low" style="width:10%;"></div></div>
+        <div class="pillar-score low">1/10</div>
+      </div>
+      <div class="pillar-row">
+        <div class="pillar-label">P5 &middot; Voice &amp; Authenticity</div>
+        <div class="pillar-track"><div class="pillar-fill mid" style="width:50%;"></div></div>
+        <div class="pillar-score mid">5/10</div>
+      </div>
+      <div class="pillar-row">
+        <div class="pillar-label">P6 &middot; Authority Signals</div>
+        <div class="pillar-track"><div class="pillar-fill low" style="width:20%;"></div></div>
+        <div class="pillar-score low">2/10</div>
+      </div>
+      <div class="pillar-row">
+        <div class="pillar-label">P7 &middot; Authority Distribution</div>
+        <div class="pillar-track"><div class="pillar-fill low" style="width:30%;"></div></div>
+        <div class="pillar-score low">3/10</div>
+      </div>
+      <div class="pillar-row">
+        <div class="pillar-label">P8 &middot; Consensus &amp; Co-Citation</div>
+        <div class="pillar-track"><div class="pillar-fill low" style="width:40%;"></div></div>
+        <div class="pillar-score low">4/10</div>
+      </div>
+      <div class="pillar-row">
+        <div class="pillar-label">P9 &middot; Platform Readiness</div>
+        <div class="pillar-track"><div class="pillar-fill mid" style="width:60%;"></div></div>
+        <div class="pillar-score mid">6/10</div>
+      </div>
+      <div class="pillar-row">
+        <div class="pillar-label">P10 &middot; Technical AI Accessibility</div>
+        <div class="pillar-track"><div class="pillar-fill mid" style="width:50%;"></div></div>
+        <div class="pillar-score mid">5/10</div>
+      </div>
+    </div>
+  </div>
+  <div class="slide-footer">
+    <span class="footer-logo">The Answer Engine</span>
+    <span>AERO-10 Intelligence Brief &middot; The Genuine Group &middot; Saint George, UT</span>
+    <span>theanswerengine.ai</span>
+  </div>
+</section>
+
+<!-- ================================================
+     SLIDE 6 — REVENUE MATH
+================================================ -->
+<section class="slide" id="slide6">
+  <div class="slide-num">06 / 10</div>
+  <div class="slide-inner">
+    <span class="eyebrow">&#9711; Revenue Impact // What the Invisibility Gap Costs</span>
+    <h2 class="slide-headline">The <span class="accent">$127K</span> Gap</h2>
+    <p class="slide-sub">Based on Washington County sales volume, Utah AI-discovery rates, and Saint George median home prices (2026)</p>
+
+    <table class="math-table">
+      <thead>
+        <tr>
+          <th>Factor</th>
+          <th>Current Reality</th>
+          <th>If Optimized</th>
+          <th>Difference</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr class="row-bad">
+          <td>
+            <strong>AI Search Presence</strong>
+            <div class="math-sub">Mentions in ChatGPT, Perplexity, AI Overviews &mdash; tested April 2026</div>
+          </td>
+          <td>0 of 9 queries tested</td>
+          <td>Present in target queries</td>
+          <td style="color: var(--red);">0%</td>
+        </tr>
+        <tr class="row-bad">
+          <td>
+            <strong>Target Queries Owned</strong>
+            <div class="math-sub">10 identified buyer/seller searches used in Saint George market</div>
+          </td>
+          <td>1 of 10 (branded only)</td>
+          <td>7&ndash;9 of 10</td>
+          <td style="color: var(--red);">10%</td>
+        </tr>
+        <tr>
+          <td>
+            <strong>AI-Discovery Buyer Rate</strong>
+            <div class="math-sub">Utah homebuyers using ChatGPT or Perplexity to find agents (2026 data)</div>
+          </td>
+          <td>42% use AI &mdash; 0% find Genuine Group</td>
+          <td>42% use AI &mdash; Genuine Group appears</td>
+          <td>+42% addressable market</td>
+        </tr>
+        <tr>
+          <td>
+            <strong>Estimated Monthly AI Leads</strong>
+            <div class="math-sub">Qualified buyers and sellers from AI-referred discovery</div>
+          </td>
+          <td>~0 AI leads/month</td>
+          <td>15&ndash;20 leads/month</td>
+          <td>+1,500%</td>
+        </tr>
+        <tr>
+          <td>
+            <strong>Close Rate (Genuine Group)</strong>
+            <div class="math-sub">AI-referred leads convert at 12&ndash;15% (warm, research-complete buyers)</div>
+          </td>
+          <td colspan="2">12% close rate</td>
+          <td>&mdash;</td>
+        </tr>
+        <tr>
+          <td>
+            <strong>Avg Commission</strong>
+            <div class="math-sub">3% of $527K Saint George median sale price (Redfin 2026)</div>
+          </td>
+          <td colspan="2">$15,810 per closed transaction</td>
+          <td>&mdash;</td>
+        </tr>
+        <tr class="row-good">
+          <td>
+            <strong>New Annual Revenue Potential</strong>
+            <div class="math-sub">15 leads/mo &times; 12% close &times; $15,810 &times; 12 months</div>
+          </td>
+          <td>$0 AI-sourced revenue</td>
+          <td>$170,748/year</td>
+          <td>+$170,748</td>
+        </tr>
+        <tr class="row-total">
+          <td>Conservative Estimate</td>
+          <td colspan="2">&mdash;</td>
+          <td style="color: var(--orange);">$64K&ndash;$127K/yr</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <div class="verdict-box">
+      <p>
+        The Genuine Group has the track record, the local relationships, and the market knowledge to dominate AI search in Southern Utah.
+        The gap is not operational &mdash; it's structural. <strong>Schema markup, JD-attributed content,
+        and entity graph setup</strong> account for 75% of the AERO-10 gap and are fully addressable in under 90 days.
+      </p>
+    </div>
+  </div>
+  <div class="slide-footer">
+    <span class="footer-logo">The Answer Engine</span>
+    <span>AERO-10 Intelligence Brief &middot; The Genuine Group &middot; Saint George, UT</span>
+    <span>theanswerengine.ai</span>
+  </div>
+</section>
+
+<!-- ================================================
+     SLIDE 7 — THE FIX (AE SERVICE)
+================================================ -->
+<section class="slide" id="slide7">
+  <div class="glow-orange" style="bottom:-200px; right:-200px;"></div>
+  <div class="slide-num">07 / 10</div>
+  <div class="slide-inner">
+    <span class="eyebrow">&#9711; AE Engagement // Content That Gets Views and Calls</span>
+    <h2 class="slide-headline">We Build It. <span class="accent">AI Sends the Clients.</span></h2>
+    <p class="slide-sub">AE writes and deploys 9 content assets over 90 days &mdash; each targeting one query from your map, each structured so AI systems cite The Genuine Group when buyers and sellers search.</p>
+
+    <div class="funnel-strip">
+      <div class="funnel-step">
+        <div class="funnel-step-label">Buyer searches</div>
+        <div class="funnel-step-val">"Best agent Saint George UT"</div>
+      </div>
+      <div class="funnel-arrow">&#8594;</div>
+      <div class="funnel-step">
+        <div class="funnel-step-label">AI cites</div>
+        <div class="funnel-step-val">Genuine Group article</div>
+      </div>
+      <div class="funnel-arrow">&#8594;</div>
+      <div class="funnel-step">
+        <div class="funnel-step-label">Buyer clicks</div>
+        <div class="funnel-step-val">genuineutah.com</div>
+      </div>
+      <div class="funnel-arrow">&#8594;</div>
+      <div class="funnel-step" style="border-color: rgba(255,106,0,0.4); background: var(--orange-dim);">
+        <div class="funnel-step-label">Call or form submit</div>
+        <div class="funnel-step-val" style="color: var(--orange);">JD gets the lead</div>
+      </div>
+    </div>
+
+    <table class="content-table">
+      <thead>
+        <tr>
+          <th style="width:40%">Article AE Writes &amp; Deploys</th>
+          <th style="width:36%">Query It Targets</th>
+          <th>Output</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr class="mo-head m1"><td colspan="3">&#9632; Month 1 &mdash; Schema Foundation + First Article</td></tr>
+        <tr>
+          <td class="article-title">LocalBusiness + Person + FAQPage schema (JD Reese / team pages)</td>
+          <td class="query-target">All category queries &mdash; enables rich snippets + Knowledge Panel</td>
+          <td class="output-tag">AI-Readable</td>
+        </tr>
+        <tr>
+          <td class="article-title">"Saint George UT Real Estate Market Report: Spring 2026"</td>
+          <td class="query-target">"Washington County real estate market 2026"</td>
+          <td class="output-tag">Authority</td>
+        </tr>
+
+        <tr class="mo-head m2"><td colspan="3">&#9632; Month 2 &mdash; Buyer &amp; Seller Education Queries</td></tr>
+        <tr>
+          <td class="article-title">"First-Time Home Buyer Guide to Saint George, Utah"</td>
+          <td class="query-target">"first time home buyer Saint George Utah"</td>
+          <td class="output-tag">Views + Leads</td>
+        </tr>
+        <tr>
+          <td class="article-title">"Selling Your Home in Saint George: The 2026 Seller's Playbook"</td>
+          <td class="query-target">"sell my home Saint George Utah realtor"</td>
+          <td class="output-tag">Views + Leads</td>
+        </tr>
+        <tr>
+          <td class="article-title">"New Construction Homes in Saint George: Complete Buyer's Guide"</td>
+          <td class="query-target">"new construction homes Saint George Utah 2026"</td>
+          <td class="output-tag">Views + Leads</td>
+        </tr>
+
+        <tr class="mo-head m3"><td colspan="3">&#9632; Month 3 &mdash; Authority &amp; Discovery Queries</td></tr>
+        <tr>
+          <td class="article-title">"Luxury Homes in Saint George, Utah: Washington County's Premier Market"</td>
+          <td class="query-target">"luxury homes Saint George Utah"</td>
+          <td class="output-tag">Views + Leads</td>
+        </tr>
+        <tr>
+          <td class="article-title">"Investment Properties in Washington County: JD Reese's Investor Guide"</td>
+          <td class="query-target">"investment property Washington County Utah"</td>
+          <td class="output-tag">Views + Leads</td>
+        </tr>
+        <tr>
+          <td class="article-title">"Best Real Estate Agents in Saint George &mdash; How to Choose (2026)"</td>
+          <td class="query-target">"best real estate agent Saint George Utah"</td>
+          <td class="output-tag">Views + Leads</td>
+        </tr>
+        <tr>
+          <td class="article-title">"Relocating to Saint George, Utah: Complete Guide for Out-of-State Buyers"</td>
+          <td class="query-target">Relocation + geo queries &mdash; backlink authority across all 10 targets</td>
+          <td class="output-tag">Authority</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <div class="parallel-note">
+      <div class="parallel-note-label">Parallel</div>
+      <p>
+        Google Business Profile optimization, review generation campaign targeting 50 new Google reviews in 90 days,
+        and Washington County Board of REALTORS committee citation build &mdash; these amplify AE content but are one-time tasks JD completes independently.
+        They are not AE deliverables but we guide every step.
+      </p>
+    </div>
+
+    <div class="fix-result">
+      <div class="fix-result-card">
+        <div class="fix-result-val">9</div>
+        <div class="fix-result-label">Articles AE Writes in 90 Days</div>
+      </div>
+      <div class="fix-result-card">
+        <div class="fix-result-val">10</div>
+        <div class="fix-result-label">Target Queries Addressed</div>
+      </div>
+      <div class="fix-result-card">
+        <div class="fix-result-val">$127K+</div>
+        <div class="fix-result-label">Annual Revenue Unlocked</div>
+      </div>
+    </div>
+  </div>
+  <div class="slide-footer">
+    <span class="footer-logo">The Answer Engine</span>
+    <span>AERO-10 Intelligence Brief &middot; The Genuine Group &middot; Saint George, UT</span>
+    <span>theanswerengine.ai</span>
+  </div>
+</section>
+
+<!-- ================================================
+     SLIDE 8 — HOW IT WORKS / COMPOUND EFFECT
+================================================ -->
+<section class="slide" id="slide8">
+  <div class="glow-orange" style="top:-150px; left:-150px; width:500px; height:500px; opacity:0.35;"></div>
+  <div class="slide-num">08 / 10</div>
+  <div class="slide-inner">
+    <span class="eyebrow">&#9711; HOW IT WORKS // The Compound Content Effect</span>
+    <h2 class="slide-headline">16 Articles a Month. <span class="accent">Permanent AI Presence.</span></h2>
+
+    <blockquote class="ai-quote">
+      Every ad you run disappears the second you stop paying. Every article we publish lives permanently in AI&rsquo;s memory &mdash; cited, referenced, and driving calls around the clock. <strong>This isn&rsquo;t ad spend. It&rsquo;s AI infrastructure that compounds forever.</strong>
+    </blockquote>
+
+    <div class="growth-chart">
+      <div class="growth-bars">
+        <div class="growth-row">
+          <div class="growth-month-label">Month 1</div>
+          <div class="growth-track"><div class="growth-fill" style="width:5%"></div></div>
+          <div class="growth-stat">Foundation</div>
+        </div>
+        <div class="growth-row">
+          <div class="growth-month-label">Month 2</div>
+          <div class="growth-track"><div class="growth-fill" style="width:12%"></div></div>
+          <div class="growth-stat">Schema Live</div>
+        </div>
+        <div class="growth-row">
+          <div class="growth-month-label">Month 3</div>
+          <div class="growth-track"><div class="growth-fill" style="width:22%"></div></div>
+          <div class="growth-stat">First Citations</div>
+        </div>
+        <div class="growth-row inflect">
+          <div class="growth-month-label"><span class="inflect-badge">Inflect</span>Mo 4</div>
+          <div class="growth-track"><div class="growth-fill" style="width:45%"></div></div>
+          <div class="growth-stat">+180% Impressions</div>
+        </div>
+        <div class="growth-row">
+          <div class="growth-month-label">Month 5</div>
+          <div class="growth-track"><div class="growth-fill" style="width:58%"></div></div>
+          <div class="growth-stat">5+ Queries Owned</div>
+        </div>
+        <div class="growth-row">
+          <div class="growth-month-label">Month 6</div>
+          <div class="growth-track"><div class="growth-fill" style="width:70%"></div></div>
+          <div class="growth-stat">GSC Skyrockets</div>
+        </div>
+        <div class="growth-row">
+          <div class="growth-month-label">Month 12</div>
+          <div class="growth-track"><div class="growth-fill" style="width:94%"></div></div>
+          <div class="growth-stat">Market Leader</div>
+        </div>
+      </div>
+      <div class="phase-right">
+        <div class="phase-block">
+          <div class="phase-block-label">Phase 1 &middot; M1&ndash;3</div>
+          <div class="phase-block-title">Foundation</div>
+          <div class="phase-block-body">Schema deploy, entity graph for JD Reese, pillar articles. AI systems begin recognizing Genuine Group as the authoritative Saint George real estate source.</div>
+        </div>
+        <div class="phase-block active">
+          <div class="phase-block-label">Phase 2 &middot; Month 4 &mdash; Inflection</div>
+          <div class="phase-block-title">Results Roll In</div>
+          <div class="phase-block-body">GSC impressions jump. First AI citations appear. JD's name starts surfacing in ChatGPT and Perplexity for Saint George buyer and seller queries.</div>
+        </div>
+        <div class="phase-block">
+          <div class="phase-block-label">Phase 3 &middot; M6&ndash;12</div>
+          <div class="phase-block-title">Compound Effect</div>
+          <div class="phase-block-body">80+ published assets. Each article boosts every other. Red Rock feels the pressure. JD gets monthly reports showing which queries Genuine Group now owns.</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="article-split">
+      <div class="article-type">
+        <div class="article-type-count">4</div>
+        <div class="article-type-label">Commercial</div>
+        <div class="article-type-example">"best agent Saint George" &middot; seller playbook &middot; conversion queries</div>
+      </div>
+      <div class="article-type">
+        <div class="article-type-count">4</div>
+        <div class="article-type-label">Educational</div>
+        <div class="article-type-example">first-time buyer guide &middot; new construction &middot; investor guide</div>
+      </div>
+      <div class="article-type">
+        <div class="article-type-count">4</div>
+        <div class="article-type-label">Geographic</div>
+        <div class="article-type-example">Saint George &middot; Washington &middot; Hurricane &middot; Ivins geo pages</div>
+      </div>
+      <div class="article-type">
+        <div class="article-type-count">4</div>
+        <div class="article-type-label">Authority</div>
+        <div class="article-type-example">Monthly market reports &middot; JD Reese expert commentary &middot; roundup-bait</div>
+      </div>
+    </div>
+
+    <div class="workflow-strip">
+      <div class="workflow-step">
+        <div class="workflow-step-icon">01</div>
+        <div class="workflow-step-body">AE researches &amp; writes all 16 articles</div>
+      </div>
+      <div class="workflow-step">
+        <div class="workflow-step-icon">02</div>
+        <div class="workflow-step-body">JD reviews &amp; approves (30 min/mo)</div>
+      </div>
+      <div class="workflow-step">
+        <div class="workflow-step-icon">03</div>
+        <div class="workflow-step-body">Published to website &plus; schema deployed</div>
+      </div>
+      <div class="workflow-step">
+        <div class="workflow-step-icon">04</div>
+        <div class="workflow-step-body">AE tracks GSC &amp; AI citation growth</div>
+      </div>
+      <div class="workflow-step">
+        <div class="workflow-step-icon">05</div>
+        <div class="workflow-step-body">Monthly report: queries owned, leads attributed</div>
+      </div>
+    </div>
+
+  </div>
+  <div class="slide-footer">
+    <span class="footer-logo">The Answer Engine</span>
+    <span>AERO-10 Intelligence Brief &middot; The Genuine Group &middot; Saint George, UT</span>
+    <span>theanswerengine.ai</span>
+  </div>
+</section>
+
+<!-- ================================================
+     SLIDE 9 — PRICING / INVESTMENT
+================================================ -->
+<section class="slide" id="slide9">
+  <div class="glow-orange" style="bottom:-200px; right:-200px; width:600px; height:600px; opacity:0.3;"></div>
+  <div class="slide-num">09 / 10</div>
+  <div class="slide-inner">
+    <span class="eyebrow">&#9711; INVESTMENT // 6-Month AI Authority Program</span>
+    <h2 class="slide-headline">One Investment. <span class="accent">Permanent Results.</span></h2>
+    <p class="slide-sub">Every article AE publishes is a permanent AI-indexed asset. You stop running ads the day you sign &mdash; and you never look back.</p>
+
+    <div class="price-grid">
+      <div class="price-block">
+        <div class="price-badge">One-Time &middot; Required</div>
+        <div class="price-title">Onboarding</div>
+        <div class="price-amount">$1,500</div>
+        <div class="price-amount-sub">one-time fee</div>
+        <ul class="price-includes">
+          <li>Full technical audit &amp; website schema integration</li>
+          <li>JD Reese entity graph (Google Knowledge Panel)</li>
+          <li>LocalBusiness + Person + FAQPage schema deployed</li>
+          <li>10-query content map finalized &amp; locked</li>
+          <li>GBP optimization strategy &amp; review generation guide</li>
+          <li>2-week setup before Month 1 begins</li>
+        </ul>
+      </div>
+
+      <div class="price-block price-featured">
+        <div class="price-badge">&#11088; 6-Month Program &mdash; Best Value</div>
+        <div class="price-title">Pay 6 &rarr; Get Month 7 Free</div>
+        <div class="price-amount">$997<span style="font-size:16px; font-weight:500;">/mo</span></div>
+        <div class="price-amount-sub">$5,982 upfront &middot; billed once</div>
+        <div class="price-save">Save $997 &mdash; Month 7 Free</div>
+        <ul class="price-includes">
+          <li>16 AI-optimized articles per month</li>
+          <li>4 commercial + 4 educational + 4 geo + 4 authority</li>
+          <li>All content reviewed &amp; approved by JD (30 min/mo)</li>
+          <li>Monthly GSC impression report + query tracking</li>
+          <li>AI citation monitoring across all 10 target queries</li>
+          <li>Month 7 included at zero cost &mdash; paid upfront</li>
+        </ul>
+      </div>
+
+      <div class="price-block">
+        <div class="price-badge">Ongoing &middot; After Month 7</div>
+        <div class="price-title">Month-to-Month</div>
+        <div class="price-amount">$997<span style="font-size:16px; font-weight:500;">/mo</span></div>
+        <div class="price-amount-sub">no commitment &middot; cancel anytime</div>
+        <ul class="price-includes">
+          <li>Same 16 articles/month</li>
+          <li>Same GSC + query reporting</li>
+          <li>Cancel anytime &mdash; no lock-in</li>
+          <li>All published assets remain yours forever</li>
+          <li>Compound effect continues whether or not AE is active</li>
+          <li>Most clients never stop once the calls start</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="slide-footer">
+    <span class="footer-logo">The Answer Engine</span>
+    <span>AERO-10 Intelligence Brief &middot; The Genuine Group &middot; Saint George, UT</span>
+    <span>theanswerengine.ai</span>
+  </div>
+</section>
+
+<!-- ================================================
+     SLIDE 10 — CLOSE / WE START MONDAY
+================================================ -->
+<section class="slide grid-bg" id="slide10">
+  <div class="glow-orange" style="top:50%; left:50%; transform:translate(-50%,-50%); width:900px; height:900px;"></div>
+  <div class="slide-num">10 / 10</div>
+  <div class="slide-inner" style="text-align:center;">
+    <span class="eyebrow" style="justify-content:center; display:flex;">&#9711; THE DECISION // Your AI Presence Starts This Week</span>
+    <h2 class="cta-headline">
+      <span class="line1">We Start</span>
+      <span class="line2">Monday.</span>
+      <span class="line3">Let&rsquo;s Go.</span>
+    </h2>
+    <p class="cta-sub">
+      The Genuine Group has 11 years of wins, 1,500+ transactions, and a reputation that Red Rock can't match on trust.
+      The only question is whether we start this week or let them own AI search while you wait.
+    </p>
+
+    <div class="next-steps">
+      <div class="next-step-card">
+        <div class="next-step-num">Day 1</div>
+        <div class="next-step-title">Onboarding Call &mdash; 30 Min</div>
+        <div class="next-step-body">We finalize the 10-query content plan, confirm website access for schema deploy, and walk through the GBP optimization checklist. JD does nothing after this call.</div>
+      </div>
+      <div class="next-step-card">
+        <div class="next-step-num">Week 1</div>
+        <div class="next-step-title">Foundation Live</div>
+        <div class="next-step-body">LocalBusiness, Person, and FAQPage schema deployed on genuineutah.com. Entity graph connects JD Reese to Washington County market. AI systems start indexing Genuine Group immediately.</div>
+      </div>
+      <div class="next-step-card">
+        <div class="next-step-num">Month 4</div>
+        <div class="next-step-title">The Curve Begins</div>
+        <div class="next-step-body">GSC impressions jump. First AI citations appear in ChatGPT and Perplexity for Saint George queries. Red Rock starts losing ground it can't get back. JD gets the report showing exactly which queries Genuine Group now owns.</div>
+      </div>
+    </div>
+
+    <div class="cta-buttons">
+      <a href="mailto:justin@theanswerengine.ai?subject=The%20Genuine%20Group%20%E2%80%94%20Ready%20to%20Start" class="btn-primary">
+        I&rsquo;m In &mdash; Let&rsquo;s Start &rarr;
+      </a>
+      <a href="tel:+12134442229" class="btn-secondary">
+        (213) 444-2229
+      </a>
+    </div>
+    <div class="cta-detail">
+      theanswerengine.ai &nbsp;&middot;&nbsp; Answer Engine Optimization &nbsp;&middot;&nbsp; Saint George, UT &amp; Washington County
+    </div>
+  </div>
+  <div class="slide-footer">
+    <span class="footer-logo">The Answer Engine</span>
+    <span>AERO-10 Intelligence Brief &middot; The Genuine Group &middot; April 2026</span>
+    <span>Confidential</span>
+  </div>
+</section>
+
+<script>
+  const slides = document.querySelectorAll('.slide');
+  const dots = document.querySelectorAll('.nav-dot');
+
+  function goTo(index) {
+    slides[index].scrollIntoView({ behavior: 'smooth' });
+  }
+
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        const index = Array.from(slides).indexOf(entry.target);
+        dots.forEach((d, i) => d.classList.toggle('active', i === index));
+      }
+    });
+  }, { threshold: 0.5 });
+
+  slides.forEach(s => observer.observe(s));
+</script>
+
+</body>
+</html>
