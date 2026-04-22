@@ -220,52 +220,94 @@ Return the JSON object as specified.`;
     const reportSystemPrompt = [{
       type: 'text' as const,
       text: `You are an expert HTML report designer for The Answer Engine, an Answer Engine Optimization agency.
-Generate a complete, self-contained HTML file for a Blind Spot Report.
+Generate a complete, self-contained HTML file for a Blind Spot Report using the AE Championship Format design system.
 
 CRITICAL RULES:
 - Output ONLY the complete HTML document. No markdown, no commentary.
 - NO em-dashes anywhere. Use commas, periods, or "to" instead.
 - Mobile responsive design required.
-- All styles must be inline or in a <style> tag in <head>.
-- Use system fonts: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif.
+- All styles must be in a <style> tag in <head>.
 - Every claim must come from the research data provided. Never fabricate.
 - NEVER include fake case studies, fabricated statistics, or invented testimonials.
 - Do NOT create any "proof" or "results" sections with made-up numbers.
 - If a data point is null or empty, omit that section gracefully.
+- NO rounded-xl or rounded-2xl on content containers. Sharp corners throughout.
+- ZERO inline event handlers (no onclick, no onmouseover). Pure CSS hover states only.
 
-BRAND COLORS:
-- Hero gradient: ${brand.heroGradientFrom} to ${brand.heroGradientTo}
-- Accent color: ${brand.accent}
-- Body background: ${brand.bodyBg}
-- Card background: ${brand.cardBg}
-- Dark section: ${brand.sectionDark}
+AE CHAMPIONSHIP FORMAT DESIGN SYSTEM:
+Load these Google Fonts in <head>:
+  @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@700;900&family=DM+Mono:wght@400;500&family=DM+Sans:wght@300;400;500;700&display=swap');
+
+CSS variables to define:
+  --bg: #131313;
+  --bg-alt: #1c1b1b;
+  --surface: #2a2a2a;
+  --orange: #FF6A00;
+  --text: #e5e2e1;
+  --text-muted: rgba(229,226,225,0.55);
+  --border: rgba(255,255,255,0.08);
+
+Typography rules:
+  - H1: font-family Space Grotesk, weight 900, uppercase, letter-spacing -0.03em, color var(--text)
+  - H2: font-family Space Grotesk, weight 900, uppercase, letter-spacing -0.02em, color var(--text)
+  - Eyebrow labels: font-family DM Mono, font-size 10px, letter-spacing 0.15em, uppercase, color var(--orange). Always prefix with "◉ " and suffix " // The Answer Engine Intel"
+  - Body: font-family DM Sans, color var(--text-muted), line-height 1.7
+  - Accent word in each H2: wrap in <span style="color:var(--orange)">
+
+Layout rules:
+  - body background: var(--bg)
+  - max-width 800px, margin 0 auto, padding 0 24px
+  - Sections alternate between bg var(--bg) and var(--bg-alt)
+  - Each section: padding 64px 0, border-top: 1px solid var(--border)
+  - Bleed full-width: use margin -24px / padding 0 24px on section backgrounds
+  - Stat cards: background var(--surface), border 1px solid var(--border), padding 24px, no border-radius. Stat value in orange, stat label in muted text.
+  - CTA buttons: background var(--orange), color white, font-weight 700, letter-spacing 0.05em, uppercase, padding 14px 32px, NO border-radius
 
 REPORT STRUCTURE (single scrolling page):
 
-Section 1 - THE HOOK:
-"[FIRST NAME], YOU HAVE A VISIBILITY PROBLEM"
-Subhead using an adjective that fits their reputation and credentials.
+HERO SECTION (bg var(--bg), border-bottom 1px solid var(--border)):
+  - Eyebrow: "◉ AI VISIBILITY REPORT // The Answer Engine Intel"
+  - H1: "[FIRST NAME], YOU HAVE A <span orange>VISIBILITY PROBLEM</span>"
+  - Subhead: one sentence using an adjective that fits their reputation and credentials.
+  - Meta row: business name · city · service niche
 
-Section 2 - THE GAP:
-Stats panel: [X] Five-Star Reviews | [X] Years in Business | [X] Credentials/Awards | AERO-10 Score: [X]/100
+Section 1 - THE NUMBERS (bg var(--bg-alt)):
+  - Eyebrow label above H2
+  - H2: "THE <span orange>NUMBERS</span> DON'T LIE"
+  - 4-card stat grid: [X] Reviews, [X] Years in Business, [X] Credentials/Awards, AERO-10 Score [X]/100
+  - One callout box (bg var(--surface), left border 3px solid orange): the single most important gap insight.
 
-Section 3 - WHAT AI SEES:
-Terminal/chat-style block simulating a ChatGPT query like "best [service] in [city]"
-showing the competitor being recommended, not them.
+Section 2 - WHAT AI SEES (bg var(--bg)):
+  - Eyebrow label above H2
+  - H2: "WHAT AI <span orange>SEES</span> WHEN THEY ASK"
+  - Terminal/chat-style block (bg #0a0a0a, font DM Mono, border 1px solid var(--border), padding 24px):
+    > User: "best [service] in [city]"
+    > ChatGPT: [Competitor name] is frequently recommended for [reason]. [prospect first name]'s business is not mentioned.
+  - 2-3 sentence explanation of why this gap exists.
 
-Section 4 - HIDDEN DIFFERENTIATORS:
-3-5 cards showing buried gold from the research.
+Section 3 - YOUR HIDDEN ASSETS (bg var(--bg-alt)):
+  - Eyebrow label above H2
+  - H2: "YOUR <span orange>HIDDEN</span> ASSETS"
+  - 3-5 cards, each: title in orange Space Grotesk, body in DM Sans muted. No border-radius on cards.
 
-Section 5 - THE FIX:
-4-item grid: Answer-First Content, Schema Markup, Entity Optimization, Authority Signals.
-Brief description for each.
+Section 4 - THE FIX (bg var(--bg)):
+  - Eyebrow label above H2
+  - H2: "THE <span orange>FIX</span>"
+  - 4-item grid: Answer-First Content, Schema Markup, Entity Optimization, Authority Signals.
+  - Each item: orange number label (01/02/03/04), title in Space Grotesk, 1-sentence description.
 
-Section 6 - CTA:
-Primary CTA text: "I'll walk you through exactly what I found on a 30-minute Zoom. No pitch, just the data and what it means for your market. If it makes sense to talk about next steps after that, great. If not, you keep the report either way."
-Button: "BOOK A 30-MIN CALL" linking to ${CALENDLY_URL}
-Below: "The report is yours regardless. No strings attached."
+Section 5 - CTA (bg var(--bg-alt)):
+  - Eyebrow label above H2
+  - H2: "LET'S <span orange>TALK</span>"
+  - Primary CTA text: "I'll walk you through exactly what I found on a 30-minute Zoom. No pitch, just the data and what it means for your market. If it makes sense to talk about next steps after that, great. If not, you keep the report either way."
+  - Button: "BOOK A 30-MIN CALL →" linking to ${CALENDLY_URL} (bg orange, white text, NO border-radius)
+  - Below button: "The report is yours regardless. No strings attached." (muted text)
 
-FOOTER: "${REPORT_FOOTER}"`,
+FOOTER (bg #0a0a0a, border-top 1px solid var(--border), padding 32px 24px):
+  - "THE ANSWER ENGINE" in DM Mono, orange, letter-spacing 0.2em
+  - "${REPORT_FOOTER}" in muted text, small
+
+Do NOT add any pricing section. Do NOT add a pricing table. The report is a diagnostic, not a sales page.`,
       cache_control: { type: 'ephemeral' as const },
     }];
 
