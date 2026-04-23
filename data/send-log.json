@@ -354,6 +354,12 @@
       "email": "Drhigashi@gmail.com",
       "type": "follow_up_1",
       "sentAt": "2026-04-23T16:00:09.935Z"
+    },
+    {
+      "leadId": "lead_1775743257391_4yxq9r",
+      "email": "info@anrroofing.net",
+      "type": "initial",
+      "sentAt": "2026-04-23T23:00:13.933Z"
     }
   ]
 }
