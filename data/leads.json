@@ -4882,7 +4882,7 @@
     "reviewCount": 230,
     "rating": null,
     "notes": "Auto-discovered by Lead Hunter. AI citation: not cited on 0/1 platforms. Competitors cited: Bilt-well Roofing, J and J Roofing, Smart Roofing. Outreach-ready: YES (citation data + contact + differentiator verified). Differentiator: Family-owned, 60 years combined experience, BuildZoom top 1% score of 121, 747 building permits, exceptional customer service ratings",
-    "status": "queued",
+    "status": "failed",
     "research": null,
     "reportSlug": "final-touch-roofing-4brm",
     "emailDraftId": null,
@@ -4892,10 +4892,26 @@
       {
         "action": "Queued by Lead Hunter (P2, score: 28, outreach-ready: true)",
         "timestamp": "2026-04-09T14:00:57.391Z"
+      },
+      {
+        "action": "Research started (auto-pipeline)",
+        "timestamp": "2026-04-23T23:30:11.934Z"
+      },
+      {
+        "action": "Research started (auto-pipeline)",
+        "timestamp": "2026-04-23T23:30:17.007Z"
+      },
+      {
+        "action": "Research started (auto-pipeline)",
+        "timestamp": "2026-04-23T23:30:27.062Z"
+      },
+      {
+        "action": "Dead-lettered after 3 failed attempts: Anthropic API error (401): {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CaMaCvvTCRXCZ1v4S5ccX\"}",
+        "timestamp": "2026-04-23T23:30:27.192Z"
       }
     ],
     "createdAt": "2026-04-09T14:00:57.391Z",
-    "updatedAt": "2026-04-09T14:00:57.391Z",
+    "updatedAt": "2026-04-23T23:30:27.192Z",
     "huntSource": "hunt_1775743210629_lqp4",
     "huntScore": 28,
     "huntPriority": "P2",
