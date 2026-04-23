@@ -269,5 +269,20 @@
     "outreachReadyCount": 7,
     "errors": [],
     "completedAt": "2026-04-22T14:01:12.351Z"
+  },
+  {
+    "id": "hunt_1776952816860_kw5v",
+    "startedAt": "2026-04-23T14:00:16.860Z",
+    "trigger": "cron_daily",
+    "vertical": "Electrician",
+    "metro": "Los Angeles",
+    "prospectsFound": 10,
+    "p1Queued": 0,
+    "p2Queued": 1,
+    "p3Backlogged": 1,
+    "duplicatesSkipped": 8,
+    "outreachReadyCount": 1,
+    "errors": [],
+    "completedAt": "2026-04-23T14:01:17.744Z"
   }
 ]

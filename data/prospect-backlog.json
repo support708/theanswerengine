@@ -1392,5 +1392,44 @@
       "total": 25.5
     },
     "priority": "P2"
+  },
+  {
+    "businessName": "J Powers Electric",
+    "contactName": "Evans Joel Coronado",
+    "website": "https://www.jpowerselectric.com/",
+    "phone": "(323) 423-2117",
+    "city": "Los Angeles",
+    "state": "",
+    "serviceNiche": "Electrician",
+    "reviewCount": 65,
+    "rating": 4.9,
+    "painSignals": [
+      "J Powers Electric has 65 Google reviews but is not recommended by AI assistants for \"Electrician in Los Angeles\""
+    ],
+    "citationResults": [
+      {
+        "platform": "chatgpt",
+        "query": "best Electrician in Los Angeles",
+        "cited": false,
+        "competitorsCited": [
+          "The Electric Connection",
+          "Powell Electric",
+          "BK Electric Services",
+          "Prime Electric",
+          "Alex & Alex Electrical Services"
+        ]
+      }
+    ],
+    "differentiator": "BuildZoom score 107 (top 6%), 134 building permits, family-owned business, specializes in EV chargers and panel upgrades, excellent communication",
+    "outreachReady": true,
+    "scoreBreakdown": {
+      "aiBlindSpot": 9,
+      "reputationStrength": 10.5,
+      "contentGap": 6,
+      "revenuePotential": 5,
+      "contactQuality": 3,
+      "total": 33.5
+    },
+    "priority": "P2"
   }
 ]

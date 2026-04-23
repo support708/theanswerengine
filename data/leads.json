@@ -6827,5 +6827,51 @@
     ],
     "huntDifferentiator": "Trial-tested strategies, hundreds of jury trial cases, thousands of successful settlements, Super Lawyers Rising Star recognition",
     "huntOutreachReady": true
+  },
+  {
+    "id": "lead_1776952877744_cwheut",
+    "businessName": "West LA Electric",
+    "contactFirstName": "Scott",
+    "contactEmail": "scottfromla@aol.com",
+    "websiteUrl": "https://www.westlaelectrical.com/",
+    "city": "Los Angeles",
+    "serviceNiche": "Electrician",
+    "competitorName": "The Electric Connection",
+    "reviewCount": 113,
+    "rating": null,
+    "notes": "Auto-discovered by Lead Hunter. AI citation: not cited on 1/1 platforms. Competitors cited: The Electric Connection, Powell Electric, BK Electric Services. Outreach-ready: YES (citation data + contact + differentiator verified). Differentiator: 26+ years in business since 1990, master electrician owner, lifetime warranty on workmanship, local Mar Vista focus, free phone estimates",
+    "status": "queued",
+    "research": null,
+    "reportSlug": "west-la-electric-07ld",
+    "emailDraftId": null,
+    "fabricationFlags": [],
+    "emDashClean": false,
+    "actionLog": [
+      {
+        "action": "Queued by Lead Hunter (P2, score: 31, outreach-ready: true)",
+        "timestamp": "2026-04-23T14:01:17.744Z"
+      }
+    ],
+    "createdAt": "2026-04-23T14:01:17.744Z",
+    "updatedAt": "2026-04-23T14:01:17.744Z",
+    "huntSource": "hunt_1776952816860_kw5v",
+    "huntScore": 31,
+    "huntPriority": "P2",
+    "huntCitationResults": [
+      {
+        "platform": "chatgpt",
+        "query": "best Electrician in Los Angeles",
+        "cited": false,
+        "competitorsCited": [
+          "The Electric Connection",
+          "Powell Electric",
+          "BK Electric Services",
+          "Prime Electric",
+          "Alex & Alex Electrical Services"
+        ]
+      }
+    ],
+    "huntDifferentiator": "26+ years in business since 1990, master electrician owner, lifetime warranty on workmanship, local Mar Vista focus, free phone estimates",
+    "huntOutreachReady": true
   }
 ]
