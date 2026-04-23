@@ -348,6 +348,12 @@
       "email": "dalia@doctor.com",
       "type": "follow_up_2",
       "sentAt": "2026-04-23T16:00:05.577Z"
+    },
+    {
+      "leadId": "lead_1773061289519_9py5s8",
+      "email": "Drhigashi@gmail.com",
+      "type": "follow_up_1",
+      "sentAt": "2026-04-23T16:00:09.935Z"
     }
   ]
 }
