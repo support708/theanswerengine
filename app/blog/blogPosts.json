@@ -1,5 +1,88 @@
 [
   {
+    "id": 221,
+    "title": "Google Ads vs AI Visibility: Which Wins in 2026",
+    "slug": "google-ads-vs-ai-visibility-2026",
+    "excerpt": "AI search traffic converts at 14.2% — nearly 5x higher than Google organic — but Google Ads still dominates volume with 97% of paid search. Here is the data-driven breakdown of where each channel wins and how smart businesses are allocating budget in 2026.",
+    "category": "Comparisons",
+    "author": "The Answer Engine Team",
+    "readTime": "12 min",
+    "image": "/blog/google-ads-vs-ai-visibility-2026.svg",
+    "publishDate": "2026-04-23",
+    "lastModified": "2026-04-23",
+    "featured": true,
+    "tags": [
+      "Google Ads",
+      "AI Visibility",
+      "Comparisons",
+      "ROI",
+      "Marketing Budget",
+      "AEO"
+    ]
+  },
+  {
+    "id": 220,
+    "title": "Why AI Recommends My Competitor With a Worse Site",
+    "slug": "ai-recommends-worse-competitor",
+    "excerpt": "Your website is faster, prettier, and more professional — but AI keeps recommending your competitor. AI platforms prioritize authority signals like third-party citations, review volume, and cross-platform consistency over website design and speed.",
+    "category": "Business Pain Points",
+    "author": "The Answer Engine Team",
+    "readTime": "12 min",
+    "image": "/blog/ai-recommends-worse-competitor.svg",
+    "publishDate": "2026-04-23",
+    "lastModified": "2026-04-23",
+    "featured": true,
+    "tags": [
+      "AI Search",
+      "Competitor Analysis",
+      "Authority Signals",
+      "ChatGPT",
+      "AEO",
+      "Business Pain Points"
+    ]
+  },
+  {
+    "id": 217,
+    "title": "How Law Firms Get Found on AI Search",
+    "slug": "law-firms-ai-search",
+    "excerpt": "Most law firms are invisible to ChatGPT, Perplexity, and Google AI because traditional legal authority signals like Avvo ratings and Martindale-Hubbell designations do not translate to AI platforms. Here is what actually gets law firms cited in AI-generated answers and why the window to act is closing.",
+    "category": "Industry Guides",
+    "author": "The Answer Engine Team",
+    "readTime": "12 min",
+    "image": "/blog/law-firms-ai-search.svg",
+    "publishDate": "2026-04-23",
+    "lastModified": "2026-04-23",
+    "featured": true,
+    "tags": [
+      "Law Firms",
+      "AI Search",
+      "ChatGPT",
+      "Legal Marketing",
+      "AEO"
+    ]
+  },
+  {
+    "id": 218,
+    "title": "How ChatGPT Search Finds Businesses on the Web",
+    "slug": "chatgpt-search-web-discovery",
+    "excerpt": "ChatGPT Search uses a completely different discovery process than Google — relying on Bing retrieval, structured data, and metadata filtering to decide which businesses to cite. Ranking on Google does not guarantee AI visibility.",
+    "category": "Platform Deep Dives",
+    "author": "The Answer Engine Team",
+    "readTime": "12 min",
+    "image": "/blog/chatgpt-search-web-discovery.svg",
+    "publishDate": "2026-04-23",
+    "lastModified": "2026-04-23",
+    "featured": true,
+    "tags": [
+      "ChatGPT",
+      "AI Search",
+      "Platform Deep Dives",
+      "Schema Markup",
+      "Bing",
+      "AEO"
+    ]
+  },
+  {
     "id": 216,
     "title": "How B2B Companies Get Found on AI Search",
     "slug": "how-b2b-companies-get-found-on-ai-search",
@@ -4500,6 +4583,90 @@
       "Business Authority",
       "AI Search",
       "AEO"
+    ]
+  },
+  {
+    "id": 208,
+    "title": "How Garage Door Repair Companies Get Found on AI Search",
+    "slug": "how-garage-door-repair-companies-get-found-on-ai-search",
+    "excerpt": "Most garage door repair companies are invisible on ChatGPT, Gemini, and Claude. Here is exactly how local contractors get cited in AI search results for emergency, brand-specific, and same-day queries.",
+    "category": "Industry Guides",
+    "author": "The Answer Engine Team",
+    "readTime": "13 min",
+    "image": "/blog/how-garage-door-repair-companies-get-found-on-ai-search.svg",
+    "publishDate": "2026-04-23",
+    "lastModified": "2026-04-23",
+    "featured": true,
+    "tags": [
+      "Garage Door Repair",
+      "AI Search",
+      "ChatGPT",
+      "Local Services",
+      "AEO",
+      "Emergency Services"
+    ]
+  },
+  {
+    "id": 209,
+    "title": "How Solar Panel Installers Get Found on AI Search",
+    "slug": "how-solar-panel-installers-get-found-on-ai-search",
+    "excerpt": "Most solar installers are invisible on ChatGPT, Gemini, and Perplexity. Here is exactly how residential solar companies get cited, which trust signals AI platforms prioritize, and how to win financing, battery, and geo-specific queries.",
+    "category": "Industry Guides",
+    "author": "The Answer Engine Team",
+    "readTime": "14 min",
+    "image": "/blog/how-solar-panel-installers-get-found-on-ai-search.svg",
+    "publishDate": "2026-04-23",
+    "lastModified": "2026-04-23",
+    "featured": true,
+    "tags": [
+      "Solar Panels",
+      "NABCEP",
+      "AI Search",
+      "ChatGPT",
+      "Residential Solar",
+      "AEO"
+    ]
+  },
+  {
+    "id": 210,
+    "title": "How Home Inspectors Get Found on AI Search",
+    "slug": "how-home-inspectors-get-found-on-ai-search",
+    "excerpt": "Most home inspectors are invisible on ChatGPT, Gemini, and Perplexity. Here is exactly how certified inspectors build AI citation authority, which specialty queries to target, and why pre-listing demand is reshaping how buyers find inspectors.",
+    "category": "Industry Guides",
+    "author": "The Answer Engine Team",
+    "readTime": "13 min",
+    "image": "/blog/how-home-inspectors-get-found-on-ai-search.svg",
+    "publishDate": "2026-04-23",
+    "lastModified": "2026-04-23",
+    "featured": true,
+    "tags": [
+      "Home Inspectors",
+      "ASHI",
+      "InterNACHI",
+      "AI Search",
+      "ChatGPT",
+      "AEO"
+    ]
+  },
+  {
+    "id": 211,
+    "title": "How Appliance Repair Services Get Found on AI Search",
+    "slug": "how-appliance-repair-services-get-found-on-ai-search",
+    "excerpt": "Most appliance repair shops are invisible on ChatGPT and Gemini. Here is exactly how appliance repair services get cited, which brand-specific and appliance-type content patterns win, and how to appear before a homeowner calls someone else.",
+    "category": "Industry Guides",
+    "author": "The Answer Engine Team",
+    "readTime": "13 min",
+    "image": "/blog/how-appliance-repair-services-get-found-on-ai-search.svg",
+    "publishDate": "2026-04-23",
+    "lastModified": "2026-04-23",
+    "featured": true,
+    "tags": [
+      "Appliance Repair",
+      "AI Search",
+      "ChatGPT",
+      "Local Services",
+      "AEO",
+      "Home Services"
     ]
   }
 ]
