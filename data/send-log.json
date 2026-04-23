@@ -342,6 +342,12 @@
       "email": "lucerohomes.ca@gmail.com",
       "type": "follow_up_2",
       "sentAt": "2026-04-22T16:01:00.062Z"
+    },
+    {
+      "leadId": "lead_1773023912048_uzp5sb",
+      "email": "dalia@doctor.com",
+      "type": "follow_up_2",
+      "sentAt": "2026-04-23T16:00:05.577Z"
     }
   ]
 }
