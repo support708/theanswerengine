@@ -7078,7 +7078,7 @@
     "reviewCount": 155,
     "rating": 4.9,
     "notes": "Auto-discovered by Lead Hunter. AI citation: not cited on 1/1 platforms. Competitors cited: Final Touch Roofing, Smart Roofing, SLR Roofing. Outreach-ready: YES (citation data + contact + differentiator verified). Differentiator: Established 2009, 20+ years combined experience, family-owned, BuildZoom top 1% score, motto 'Family First Integrity Follows', excellent communication reviews, solar installation services",
-    "status": "queued",
+    "status": "failed",
     "research": null,
     "reportSlug": "rafael-iris-roofing-1azc",
     "emailDraftId": null,
@@ -7088,10 +7088,26 @@
       {
         "action": "Queued by Lead Hunter (P1, score: 38, outreach-ready: true)",
         "timestamp": "2026-04-21T14:01:23.379Z"
+      },
+      {
+        "action": "Research started (auto-pipeline)",
+        "timestamp": "2026-04-24T17:30:34.396Z"
+      },
+      {
+        "action": "Research started (auto-pipeline)",
+        "timestamp": "2026-04-24T17:30:39.476Z"
+      },
+      {
+        "action": "Research started (auto-pipeline)",
+        "timestamp": "2026-04-24T17:30:49.577Z"
+      },
+      {
+        "action": "Dead-lettered after 3 failed attempts: Anthropic API error (401): {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CaNzbGvPwTrdC8Mhf1Lst\"}",
+        "timestamp": "2026-04-24T17:30:49.643Z"
       }
     ],
     "createdAt": "2026-04-21T14:01:23.379Z",
-    "updatedAt": "2026-04-21T14:01:23.379Z",
+    "updatedAt": "2026-04-24T17:30:49.643Z",
     "huntSource": "hunt_1776780020327_ntqn",
     "huntScore": 38,
     "huntPriority": "P1",
