@@ -7383,7 +7383,7 @@
     "reviewCount": null,
     "rating": null,
     "notes": "Auto-discovered by Lead Hunter. AI citation: not cited on 1/1 platforms. Competitors cited: Mullen & Mullen Law Firm, Thompson Law, Arnold & Itkin. Outreach-ready: YES (citation data + contact + differentiator verified). Differentiator: Established 2000, Jason Franklin is board certified in Personal Injury Trial Law, Super Lawyers recognition, President-Elect Dallas Trial Lawyers Association",
-    "status": "queued",
+    "status": "failed",
     "research": null,
     "reportSlug": "franklin-law-firm-ozpk",
     "emailDraftId": null,
@@ -7393,10 +7393,26 @@
       {
         "action": "Queued by Lead Hunter (P2, score: 27.5, outreach-ready: true)",
         "timestamp": "2026-04-22T14:01:12.351Z"
+      },
+      {
+        "action": "Research started (auto-pipeline)",
+        "timestamp": "2026-04-24T20:00:34.624Z"
+      },
+      {
+        "action": "Research started (auto-pipeline)",
+        "timestamp": "2026-04-24T20:00:39.786Z"
+      },
+      {
+        "action": "Research started (auto-pipeline)",
+        "timestamp": "2026-04-24T20:00:49.847Z"
+      },
+      {
+        "action": "Dead-lettered after 3 failed attempts: Anthropic API error (401): {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CaPC2ixYDJDveRDpHwFp6\"}",
+        "timestamp": "2026-04-24T20:00:49.983Z"
       }
     ],
     "createdAt": "2026-04-22T14:01:12.351Z",
-    "updatedAt": "2026-04-22T14:01:12.351Z",
+    "updatedAt": "2026-04-24T20:00:49.983Z",
     "huntSource": "hunt_1776866416164_5ely",
     "huntScore": 27.5,
     "huntPriority": "P2",
