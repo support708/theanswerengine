@@ -6827,7 +6827,7 @@
     "reviewCount": 78,
     "rating": 4.8,
     "notes": "Auto-discovered by Lead Hunter. AI citation: not cited on 1/1 platforms. Competitors cited: Suddenly Slimmer Med Spa, Med 44 Arcadia, Vibrant Skin Bar. Outreach-ready: YES (citation data + contact + differentiator verified). Differentiator: Established 2008; over 20 years combined experience; Dr. Weiss is Chair of Arizona Chapter of American Med Spa Association; specializes in holistic wellness and bio-identical hormone therapy",
-    "status": "queued",
+    "status": "failed",
     "research": null,
     "reportSlug": "paradise-medspa-xghk",
     "emailDraftId": null,
@@ -6837,10 +6837,26 @@
       {
         "action": "Queued by Lead Hunter (P1, score: 37.5, outreach-ready: true)",
         "timestamp": "2026-04-20T14:01:07.285Z"
+      },
+      {
+        "action": "Research started (auto-pipeline)",
+        "timestamp": "2026-04-24T15:30:34.317Z"
+      },
+      {
+        "action": "Research started (auto-pipeline)",
+        "timestamp": "2026-04-24T15:30:39.382Z"
+      },
+      {
+        "action": "Research started (auto-pipeline)",
+        "timestamp": "2026-04-24T15:30:49.449Z"
+      },
+      {
+        "action": "Dead-lettered after 3 failed attempts: Anthropic API error (401): {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CaNqSXH3ZP4ohbJURxmYw\"}",
+        "timestamp": "2026-04-24T15:30:49.529Z"
       }
     ],
     "createdAt": "2026-04-20T14:01:07.285Z",
-    "updatedAt": "2026-04-20T14:01:07.285Z",
+    "updatedAt": "2026-04-24T15:30:49.529Z",
     "huntSource": "hunt_1776693616291_d93z",
     "huntScore": 37.5,
     "huntPriority": "P1",
