@@ -5306,7 +5306,7 @@
     "reviewCount": 341,
     "rating": 4.8,
     "notes": "Auto-discovered by Lead Hunter. AI citation: not cited on 0/1 platforms. Competitors cited: Parker & Sons, Benjamin Franklin Plumbing. Outreach-ready: YES (citation data + contact + differentiator verified). Differentiator: Founded 2004 by Stephanie & Brian, 341+ reviews, mission focused on honesty and integrity, 24/7 emergency service",
-    "status": "queued",
+    "status": "failed",
     "research": null,
     "reportSlug": "robins-plumbing-7dnm",
     "emailDraftId": null,
@@ -5316,10 +5316,26 @@
       {
         "action": "Queued by Lead Hunter (P2, score: 31.5, outreach-ready: true)",
         "timestamp": "2026-04-14T14:01:05.109Z"
+      },
+      {
+        "action": "Research started (auto-pipeline)",
+        "timestamp": "2026-04-24T03:00:34.365Z"
+      },
+      {
+        "action": "Research started (auto-pipeline)",
+        "timestamp": "2026-04-24T03:00:39.415Z"
+      },
+      {
+        "action": "Research started (auto-pipeline)",
+        "timestamp": "2026-04-24T03:00:49.552Z"
+      },
+      {
+        "action": "Dead-lettered after 3 failed attempts: Anthropic API error (401): {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CaMrFPVHsv5F5iLPVjiuG\"}",
+        "timestamp": "2026-04-24T03:00:49.682Z"
       }
     ],
     "createdAt": "2026-04-14T14:01:05.109Z",
-    "updatedAt": "2026-04-14T14:01:05.109Z",
+    "updatedAt": "2026-04-24T03:00:49.682Z",
     "huntSource": "hunt_1776175211411_1f1j",
     "huntScore": 31.5,
     "huntPriority": "P2",
