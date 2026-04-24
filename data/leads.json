@@ -5425,7 +5425,7 @@
     "reviewCount": 102,
     "rating": 4.7,
     "notes": "Auto-discovered by Lead Hunter. AI citation: not cited on 1/1 platforms. Competitors cited: Parker & Sons, Benjamin Franklin Plumbing, Robins Plumbing. Outreach-ready: YES (citation data + contact + differentiator verified). Differentiator: Family-owned since 1999, 25+ years experience, BBB A+ rated, free estimates, emphasis on honesty and fair pricing",
-    "status": "queued",
+    "status": "failed",
     "research": null,
     "reportSlug": "apache-plumbing-services-fto0",
     "emailDraftId": null,
@@ -5435,10 +5435,26 @@
       {
         "action": "Queued by Lead Hunter (P1, score: 37, outreach-ready: true)",
         "timestamp": "2026-04-14T14:01:05.110Z"
+      },
+      {
+        "action": "Research started (auto-pipeline)",
+        "timestamp": "2026-04-24T04:00:34.378Z"
+      },
+      {
+        "action": "Research started (auto-pipeline)",
+        "timestamp": "2026-04-24T04:00:39.507Z"
+      },
+      {
+        "action": "Research started (auto-pipeline)",
+        "timestamp": "2026-04-24T04:00:49.572Z"
+      },
+      {
+        "action": "Dead-lettered after 3 failed attempts: Anthropic API error (401): {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CaMvpm6gy1WAMo2zHdtgv\"}",
+        "timestamp": "2026-04-24T04:00:49.698Z"
       }
     ],
     "createdAt": "2026-04-14T14:01:05.110Z",
-    "updatedAt": "2026-04-14T14:01:05.110Z",
+    "updatedAt": "2026-04-24T04:00:49.698Z",
     "huntSource": "hunt_1776175211411_1f1j",
     "huntScore": 37,
     "huntPriority": "P1",
