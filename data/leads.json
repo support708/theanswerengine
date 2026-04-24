@@ -5124,7 +5124,7 @@
     "reviewCount": 600,
     "rating": 4.8,
     "notes": "Auto-discovered by Lead Hunter. AI citation: not cited on 1/1 platforms. Competitors cited: Howard Air & Plumbing, Parker & Sons, Chas Roberts. Outreach-ready: YES (citation data + contact + differentiator verified). Differentiator: In business since 1939 (85+ years), family-founded, 100% satisfaction guarantee, AC Rejuuuvination maintenance service, 89 fully stocked trucks in Phoenix area",
-    "status": "queued",
+    "status": "failed",
     "research": null,
     "reportSlug": "goettl-4kkg",
     "emailDraftId": null,
@@ -5134,10 +5134,26 @@
       {
         "action": "Queued by Lead Hunter (P1, score: 38, outreach-ready: true)",
         "timestamp": "2026-04-10T14:00:58.884Z"
+      },
+      {
+        "action": "Research started (auto-pipeline)",
+        "timestamp": "2026-04-24T01:30:34.294Z"
+      },
+      {
+        "action": "Research started (auto-pipeline)",
+        "timestamp": "2026-04-24T01:30:39.374Z"
+      },
+      {
+        "action": "Research started (auto-pipeline)",
+        "timestamp": "2026-04-24T01:30:49.435Z"
+      },
+      {
+        "action": "Dead-lettered after 3 failed attempts: Anthropic API error (401): {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CaMjPKhVm3ksyduviyFtJ\"}",
+        "timestamp": "2026-04-24T01:30:49.585Z"
       }
     ],
     "createdAt": "2026-04-10T14:00:58.884Z",
-    "updatedAt": "2026-04-10T14:00:58.884Z",
+    "updatedAt": "2026-04-24T01:30:49.585Z",
     "huntSource": "hunt_1775829603167_smp7",
     "huntScore": 38,
     "huntPriority": "P1",
