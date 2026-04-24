@@ -360,6 +360,12 @@
       "email": "info@anrroofing.net",
       "type": "initial",
       "sentAt": "2026-04-23T23:00:13.933Z"
+    },
+    {
+      "leadId": "lead_1775681943860_l6kcrj",
+      "email": "reservations@milkandhoney.com",
+      "type": "follow_up_1",
+      "sentAt": "2026-04-24T16:00:15.683Z"
     }
   ]
 }
