@@ -6647,7 +6647,7 @@
     "reviewCount": null,
     "rating": null,
     "notes": "Auto-discovered by Lead Hunter. AI citation: not cited on 1/1 platforms. Competitors cited: Suddenly Slimmer Med Spa, Med 44 Arcadia, Vibrant Skin Bar. Outreach-ready: NO (missing data for SOP templates, needs manual enrichment). Differentiator: Experiential aesthetics approach; features luxury amenities including champagne service and VIP spa party areas",
-    "status": "queued",
+    "status": "failed",
     "research": null,
     "reportSlug": "sculpt-az-med-spa-yi21",
     "emailDraftId": null,
@@ -6657,10 +6657,26 @@
       {
         "action": "Queued by Lead Hunter (P2, score: 26, outreach-ready: false)",
         "timestamp": "2026-04-20T14:01:07.285Z"
+      },
+      {
+        "action": "Research started (auto-pipeline)",
+        "timestamp": "2026-04-24T14:00:34.506Z"
+      },
+      {
+        "action": "Research started (auto-pipeline)",
+        "timestamp": "2026-04-24T14:00:39.672Z"
+      },
+      {
+        "action": "Research started (auto-pipeline)",
+        "timestamp": "2026-04-24T14:00:49.748Z"
+      },
+      {
+        "action": "Dead-lettered after 3 failed attempts: Anthropic API error (401): {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CaNiaWTLzWvbqe1fcaoFD\"}",
+        "timestamp": "2026-04-24T14:00:50.756Z"
       }
     ],
     "createdAt": "2026-04-20T14:01:07.285Z",
-    "updatedAt": "2026-04-20T14:01:07.285Z",
+    "updatedAt": "2026-04-24T14:00:50.756Z",
     "huntSource": "hunt_1776693616291_d93z",
     "huntScore": 26,
     "huntPriority": "P2",
