@@ -6281,7 +6281,7 @@
     "reviewCount": 900,
     "rating": 4.9,
     "notes": "Auto-discovered by Lead Hunter. AI citation: not cited on 0/1 platforms. Competitors cited: Phoenix Valley Dental, Downtown Phoenix Dental, Studio B Smiles. Outreach-ready: YES (citation data + contact + differentiator verified). Differentiator: Over 900 five-star reviews, established 2004, same-day crowns in under 2 hours, extended evening hours",
-    "status": "queued",
+    "status": "failed",
     "research": null,
     "reportSlug": "central-valley-dentistry-9p1e",
     "emailDraftId": null,
@@ -6291,10 +6291,26 @@
       {
         "action": "Queued by Lead Hunter (P1, score: 36, outreach-ready: true)",
         "timestamp": "2026-04-16T14:01:07.193Z"
+      },
+      {
+        "action": "Research started (auto-pipeline)",
+        "timestamp": "2026-04-24T11:00:34.437Z"
+      },
+      {
+        "action": "Research started (auto-pipeline)",
+        "timestamp": "2026-04-24T11:00:39.527Z"
+      },
+      {
+        "action": "Research started (auto-pipeline)",
+        "timestamp": "2026-04-24T11:00:49.670Z"
+      },
+      {
+        "action": "Dead-lettered after 3 failed attempts: Anthropic API error (401): {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CaNUrNLW636pA4kW8PVxG\"}",
+        "timestamp": "2026-04-24T11:00:49.796Z"
       }
     ],
     "createdAt": "2026-04-16T14:01:07.193Z",
-    "updatedAt": "2026-04-16T14:01:07.193Z",
+    "updatedAt": "2026-04-24T11:00:49.796Z",
     "huntSource": "hunt_1776348011240_tep0",
     "huntScore": 36,
     "huntPriority": "P1",
