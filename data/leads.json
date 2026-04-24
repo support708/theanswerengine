@@ -7138,7 +7138,7 @@
     "reviewCount": 560,
     "rating": 4.9,
     "notes": "Auto-discovered by Lead Hunter. AI citation: not cited on 0/1 platforms. Competitors cited: Thompson Law, Arnold & Itkin, Hamilton Wingo. Outreach-ready: YES (citation data + contact + differentiator verified). Differentiator: 40+ years in business, 104 years combined attorney experience, $800M+ in settlements, recognized by TopVerdict 44 times in Top 50 list, 29% contingency fee",
-    "status": "queued",
+    "status": "failed",
     "research": null,
     "reportSlug": "mullen-mullen-law-firm-0r3q",
     "emailDraftId": null,
@@ -7148,10 +7148,26 @@
       {
         "action": "Queued by Lead Hunter (P1, score: 36, outreach-ready: true)",
         "timestamp": "2026-04-22T14:01:12.351Z"
+      },
+      {
+        "action": "Research started (auto-pipeline)",
+        "timestamp": "2026-04-24T18:00:34.334Z"
+      },
+      {
+        "action": "Research started (auto-pipeline)",
+        "timestamp": "2026-04-24T18:00:39.654Z"
+      },
+      {
+        "action": "Research started (auto-pipeline)",
+        "timestamp": "2026-04-24T18:00:49.774Z"
+      },
+      {
+        "action": "Dead-lettered after 3 failed attempts: Anthropic API error (401): {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CaP2syfmjzGmJwN6ZMkPD\"}",
+        "timestamp": "2026-04-24T18:00:49.887Z"
       }
     ],
     "createdAt": "2026-04-22T14:01:12.351Z",
-    "updatedAt": "2026-04-22T14:01:12.351Z",
+    "updatedAt": "2026-04-24T18:00:49.887Z",
     "huntSource": "hunt_1776866416164_5ely",
     "huntScore": 36,
     "huntPriority": "P1",
