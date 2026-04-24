@@ -5004,7 +5004,7 @@
     "reviewCount": 264,
     "rating": null,
     "notes": "Auto-discovered by Lead Hunter. AI citation: not cited on 0/1 platforms. Competitors cited: Bilt-well Roofing, J and J Roofing, Smart Roofing. Outreach-ready: YES (citation data + contact + differentiator verified). Differentiator: 20+ years experience since 1998, C-39 licensed, Owens Corning Preferred Contractor, Neighborhood Favorite 2021-2023, Title 24 Cool Roof specialization",
-    "status": "queued",
+    "status": "failed",
     "research": null,
     "reportSlug": "slr-roofing-7ykh",
     "emailDraftId": null,
@@ -5014,10 +5014,26 @@
       {
         "action": "Queued by Lead Hunter (P2, score: 28, outreach-ready: true)",
         "timestamp": "2026-04-09T14:00:57.391Z"
+      },
+      {
+        "action": "Research started (auto-pipeline)",
+        "timestamp": "2026-04-24T00:30:34.399Z"
+      },
+      {
+        "action": "Research started (auto-pipeline)",
+        "timestamp": "2026-04-24T00:30:39.572Z"
+      },
+      {
+        "action": "Research started (auto-pipeline)",
+        "timestamp": "2026-04-24T00:30:49.698Z"
+      },
+      {
+        "action": "Dead-lettered after 3 failed attempts: Anthropic API error (401): {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CaMeoy8rMtpKySyx1TRdc\"}",
+        "timestamp": "2026-04-24T00:30:49.758Z"
       }
     ],
     "createdAt": "2026-04-09T14:00:57.391Z",
-    "updatedAt": "2026-04-09T14:00:57.391Z",
+    "updatedAt": "2026-04-24T00:30:49.758Z",
     "huntSource": "hunt_1775743210629_lqp4",
     "huntScore": 28,
     "huntPriority": "P2",
