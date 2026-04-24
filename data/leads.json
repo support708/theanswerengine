@@ -5244,7 +5244,7 @@
     "reviewCount": 118,
     "rating": 4.8,
     "notes": "Auto-discovered by Lead Hunter. AI citation: not cited on 1/1 platforms. Competitors cited: Express Electrical Services, Alex & Alex Electrical Services, The Electric Connection. Outreach-ready: YES (citation data + contact + differentiator verified). Differentiator: 10+ years experience, specializes in panel upgrades and rewiring, responsive customer service, reasonable pricing",
-    "status": "queued",
+    "status": "failed",
     "research": null,
     "reportSlug": "go-pro-electric-inc-z0s9",
     "emailDraftId": null,
@@ -5254,10 +5254,26 @@
       {
         "action": "Queued by Lead Hunter (P1, score: 37.5, outreach-ready: true)",
         "timestamp": "2026-04-13T14:01:12.414Z"
+      },
+      {
+        "action": "Research started (auto-pipeline)",
+        "timestamp": "2026-04-24T02:30:34.274Z"
+      },
+      {
+        "action": "Research started (auto-pipeline)",
+        "timestamp": "2026-04-24T02:30:39.344Z"
+      },
+      {
+        "action": "Research started (auto-pipeline)",
+        "timestamp": "2026-04-24T02:30:49.399Z"
+      },
+      {
+        "action": "Dead-lettered after 3 failed attempts: Anthropic API error (401): {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CaMoxh9iQ25c21PKJ1JBg\"}",
+        "timestamp": "2026-04-24T02:30:49.560Z"
       }
     ],
     "createdAt": "2026-04-13T14:01:12.414Z",
-    "updatedAt": "2026-04-13T14:01:12.414Z",
+    "updatedAt": "2026-04-24T02:30:49.560Z",
     "huntSource": "hunt_1776088811318_1mql",
     "huntScore": 37.5,
     "huntPriority": "P1",
