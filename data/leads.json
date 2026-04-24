@@ -6466,7 +6466,7 @@
     "reviewCount": 25,
     "rating": 4.9,
     "notes": "Auto-discovered by Lead Hunter. AI citation: not cited on 1/1 platforms. Competitors cited: Express Electrical Services, The Electric Connection, Alex & Alex Electrical Services. Outreach-ready: YES (citation data + contact + differentiator verified). Differentiator: Established 2010, 15+ years in business, Tesla-referred electrician, specializes in EV charger installation, expanding to San Diego",
-    "status": "queued",
+    "status": "failed",
     "research": null,
     "reportSlug": "bright-city-electrical-jj9o",
     "emailDraftId": null,
@@ -6476,10 +6476,26 @@
       {
         "action": "Queued by Lead Hunter (P2, score: 34, outreach-ready: true)",
         "timestamp": "2026-04-17T14:01:06.237Z"
+      },
+      {
+        "action": "Research started (auto-pipeline)",
+        "timestamp": "2026-04-24T12:30:34.439Z"
+      },
+      {
+        "action": "Research started (auto-pipeline)",
+        "timestamp": "2026-04-24T12:30:39.629Z"
+      },
+      {
+        "action": "Research started (auto-pipeline)",
+        "timestamp": "2026-04-24T12:30:49.770Z"
+      },
+      {
+        "action": "Dead-lettered after 3 failed attempts: Anthropic API error (401): {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CaNbiS8YyiiY25HznbhWn\"}",
+        "timestamp": "2026-04-24T12:30:49.910Z"
       }
     ],
     "createdAt": "2026-04-17T14:01:06.237Z",
-    "updatedAt": "2026-04-17T14:01:06.237Z",
+    "updatedAt": "2026-04-24T12:30:49.910Z",
     "huntSource": "hunt_1776434411819_f498",
     "huntScore": 34,
     "huntPriority": "P2",
