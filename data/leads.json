@@ -7322,7 +7322,7 @@
     "reviewCount": 1993,
     "rating": 4.5,
     "notes": "Auto-discovered by Lead Hunter. AI citation: not cited on 0/1 platforms. Competitors cited: Mullen & Mullen Law Firm, Thompson Law, Arnold & Itkin. Outreach-ready: YES (citation data + contact + differentiator verified). Differentiator: 1,993 reviews, 19 attorneys on Super Lawyers/Rising Stars lists, national presence in 4 states, $2M+ settlements demonstrated",
-    "status": "queued",
+    "status": "failed",
     "research": null,
     "reportSlug": "witherite-law-group-l2d5",
     "emailDraftId": null,
@@ -7332,10 +7332,26 @@
       {
         "action": "Queued by Lead Hunter (P1, score: 36, outreach-ready: true)",
         "timestamp": "2026-04-22T14:01:12.351Z"
+      },
+      {
+        "action": "Research started (auto-pipeline)",
+        "timestamp": "2026-04-24T19:30:34.538Z"
+      },
+      {
+        "action": "Research started (auto-pipeline)",
+        "timestamp": "2026-04-24T19:30:39.617Z"
+      },
+      {
+        "action": "Research started (auto-pipeline)",
+        "timestamp": "2026-04-24T19:30:53.363Z"
+      },
+      {
+        "action": "Dead-lettered after 3 failed attempts: Anthropic API error (401): {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CaP9kJrXjAfdhAmiJP9Sh\"}",
+        "timestamp": "2026-04-24T19:30:53.586Z"
       }
     ],
     "createdAt": "2026-04-22T14:01:12.351Z",
-    "updatedAt": "2026-04-22T14:01:12.351Z",
+    "updatedAt": "2026-04-24T19:30:53.586Z",
     "huntSource": "hunt_1776866416164_5ely",
     "huntScore": 36,
     "huntPriority": "P1",
