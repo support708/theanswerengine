@@ -6036,7 +6036,7 @@
     "reviewCount": null,
     "rating": 5,
     "notes": "Auto-discovered by Lead Hunter. AI citation: not cited on 0/1 platforms. Competitors cited: Central Valley Dentistry, Phoenix Valley Dental, Downtown Phoenix Dental. Outreach-ready: YES (citation data + contact + differentiator verified). Differentiator: Official Team Dentist for Phoenix Suns, Phoenix Mercury, Arizona Diamondbacks; Official Cosmetic Dentist for ABC's Extreme Makeover",
-    "status": "queued",
+    "status": "failed",
     "research": null,
     "reportSlug": "studio-b-smiles-f3ky",
     "emailDraftId": null,
@@ -6046,10 +6046,26 @@
       {
         "action": "Queued by Lead Hunter (P2, score: 30, outreach-ready: true)",
         "timestamp": "2026-04-16T14:01:07.193Z"
+      },
+      {
+        "action": "Research started (auto-pipeline)",
+        "timestamp": "2026-04-24T09:00:34.300Z"
+      },
+      {
+        "action": "Research started (auto-pipeline)",
+        "timestamp": "2026-04-24T09:00:39.451Z"
+      },
+      {
+        "action": "Research started (auto-pipeline)",
+        "timestamp": "2026-04-24T09:00:49.597Z"
+      },
+      {
+        "action": "Dead-lettered after 3 failed attempts: Anthropic API error (401): {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CaNKhcvJ2qSofZ4nyNJoS\"}",
+        "timestamp": "2026-04-24T09:00:49.720Z"
       }
     ],
     "createdAt": "2026-04-16T14:01:07.193Z",
-    "updatedAt": "2026-04-16T14:01:07.193Z",
+    "updatedAt": "2026-04-24T09:00:49.720Z",
     "huntSource": "hunt_1776348011240_tep0",
     "huntScore": 30,
     "huntPriority": "P2",
