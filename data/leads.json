@@ -6528,7 +6528,7 @@
     "reviewCount": null,
     "rating": null,
     "notes": "Auto-discovered by Lead Hunter. AI citation: not cited on 1/1 platforms. Competitors cited: Suddenly Slimmer Med Spa, Med 44 Arcadia, Vibrant Skin Bar. Outreach-ready: YES (citation data + contact + differentiator verified). Differentiator: Board-certified physicians with National Laser Institute credentials; specializes in Botox, Dysport, fillers, and PRP therapies",
-    "status": "queued",
+    "status": "failed",
     "research": null,
     "reportSlug": "phoenix-medspa-4za2",
     "emailDraftId": null,
@@ -6538,10 +6538,26 @@
       {
         "action": "Queued by Lead Hunter (P2, score: 27, outreach-ready: true)",
         "timestamp": "2026-04-20T14:01:07.284Z"
+      },
+      {
+        "action": "Research started (auto-pipeline)",
+        "timestamp": "2026-04-24T13:00:34.631Z"
+      },
+      {
+        "action": "Research started (auto-pipeline)",
+        "timestamp": "2026-04-24T13:00:39.750Z"
+      },
+      {
+        "action": "Research started (auto-pipeline)",
+        "timestamp": "2026-04-24T13:00:54.888Z"
+      },
+      {
+        "action": "Dead-lettered after 3 failed attempts: Anthropic API error (401): {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CaNe1Vrz3hhHrRunvrEz9\"}",
+        "timestamp": "2026-04-24T13:00:54.999Z"
       }
     ],
     "createdAt": "2026-04-20T14:01:07.284Z",
-    "updatedAt": "2026-04-20T14:01:07.284Z",
+    "updatedAt": "2026-04-24T13:00:54.999Z",
     "huntSource": "hunt_1776693616291_d93z",
     "huntScore": 27,
     "huntPriority": "P2",
