@@ -4943,7 +4943,7 @@
     "reviewCount": 182,
     "rating": null,
     "notes": "Auto-discovered by Lead Hunter. AI citation: not cited on 0/1 platforms. Competitors cited: Bilt-well Roofing, J and J Roofing, Final Touch Roofing. Outreach-ready: YES (citation data + contact + differentiator verified). Differentiator: Owens Corning Platinum Preferred Contractor, BuildZoom top 4% score of 110, 471 projects in 3 years, known for transparent quotes",
-    "status": "queued",
+    "status": "failed",
     "research": null,
     "reportSlug": "smart-roofing-ie2l",
     "emailDraftId": null,
@@ -4953,10 +4953,26 @@
       {
         "action": "Queued by Lead Hunter (P2, score: 28, outreach-ready: true)",
         "timestamp": "2026-04-09T14:00:57.391Z"
+      },
+      {
+        "action": "Research started (auto-pipeline)",
+        "timestamp": "2026-04-24T00:00:34.595Z"
+      },
+      {
+        "action": "Research started (auto-pipeline)",
+        "timestamp": "2026-04-24T00:00:39.814Z"
+      },
+      {
+        "action": "Research started (auto-pipeline)",
+        "timestamp": "2026-04-24T00:00:49.899Z"
+      },
+      {
+        "action": "Dead-lettered after 3 failed attempts: Anthropic API error (401): {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CaMcXJFLXtbuhBfDaJ8M2\"}",
+        "timestamp": "2026-04-24T00:00:49.965Z"
       }
     ],
     "createdAt": "2026-04-09T14:00:57.391Z",
-    "updatedAt": "2026-04-09T14:00:57.391Z",
+    "updatedAt": "2026-04-24T00:00:49.965Z",
     "huntSource": "hunt_1775743210629_lqp4",
     "huntScore": 28,
     "huntPriority": "P2",
