@@ -5184,7 +5184,7 @@
     "reviewCount": 300,
     "rating": 4.7,
     "notes": "Auto-discovered by Lead Hunter. AI citation: not cited on 1/1 platforms. Competitors cited: Howard Air & Plumbing, Parker & Sons, Chas Roberts. Outreach-ready: YES (citation data + contact + differentiator verified). Differentiator: Veteran-owned, 30+ years experience, Armstrong and LG dealer, custom home specialist, no breakdown guarantee on maintenance plans, Gold/Platinum/Diamond membership tiers",
-    "status": "queued",
+    "status": "failed",
     "research": null,
     "reportSlug": "hometown-hvac-am5t",
     "emailDraftId": null,
@@ -5194,10 +5194,26 @@
       {
         "action": "Queued by Lead Hunter (P1, score: 38, outreach-ready: true)",
         "timestamp": "2026-04-10T14:00:58.884Z"
+      },
+      {
+        "action": "Research started (auto-pipeline)",
+        "timestamp": "2026-04-24T02:00:34.307Z"
+      },
+      {
+        "action": "Research started (auto-pipeline)",
+        "timestamp": "2026-04-24T02:00:39.676Z"
+      },
+      {
+        "action": "Research started (auto-pipeline)",
+        "timestamp": "2026-04-24T02:00:49.732Z"
+      },
+      {
+        "action": "Dead-lettered after 3 failed attempts: Anthropic API error (401): {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CaMmg2tumEGWjbN9FpzPY\"}",
+        "timestamp": "2026-04-24T02:00:50.042Z"
       }
     ],
     "createdAt": "2026-04-10T14:00:58.884Z",
-    "updatedAt": "2026-04-10T14:00:58.884Z",
+    "updatedAt": "2026-04-24T02:00:50.042Z",
     "huntSource": "hunt_1775829603167_smp7",
     "huntScore": 38,
     "huntPriority": "P1",
