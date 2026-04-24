@@ -7445,7 +7445,7 @@
     "reviewCount": 119,
     "rating": 5,
     "notes": "Auto-discovered by Lead Hunter. AI citation: not cited on 0/1 platforms. Competitors cited: Mullen & Mullen Law Firm, Thompson Law, Arnold & Itkin. Outreach-ready: YES (citation data + contact + differentiator verified). Differentiator: $10+ billion recovered, $7.37 billion verdict in 2022 (largest of year), named Best Personal Injury Law Firm Dallas 2 consecutive years",
-    "status": "queued",
+    "status": "failed",
     "research": null,
     "reportSlug": "hamilton-wingo-5tvy",
     "emailDraftId": null,
@@ -7455,10 +7455,26 @@
       {
         "action": "Queued by Lead Hunter (P1, score: 36, outreach-ready: true)",
         "timestamp": "2026-04-22T14:01:12.351Z"
+      },
+      {
+        "action": "Research started (auto-pipeline)",
+        "timestamp": "2026-04-24T20:30:34.429Z"
+      },
+      {
+        "action": "Research started (auto-pipeline)",
+        "timestamp": "2026-04-24T20:30:39.486Z"
+      },
+      {
+        "action": "Research started (auto-pipeline)",
+        "timestamp": "2026-04-24T20:30:49.707Z"
+      },
+      {
+        "action": "Dead-lettered after 3 failed attempts: Anthropic API error (401): {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CaPEKQ8AYmAfeYVs7oyeF\"}",
+        "timestamp": "2026-04-24T20:30:49.785Z"
       }
     ],
     "createdAt": "2026-04-22T14:01:12.351Z",
-    "updatedAt": "2026-04-22T14:01:12.351Z",
+    "updatedAt": "2026-04-24T20:30:49.785Z",
     "huntSource": "hunt_1776866416164_5ely",
     "huntScore": 36,
     "huntPriority": "P1",
