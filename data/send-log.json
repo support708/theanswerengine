@@ -366,6 +366,12 @@
       "email": "reservations@milkandhoney.com",
       "type": "follow_up_1",
       "sentAt": "2026-04-24T16:00:15.683Z"
+    },
+    {
+      "leadId": "lead_1775681943860_5y6hdw",
+      "email": "concierge@drpaulnassif.com",
+      "type": "follow_up_1",
+      "sentAt": "2026-04-24T16:00:19.817Z"
     }
   ]
 }
