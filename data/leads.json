@@ -6958,7 +6958,7 @@
     "reviewCount": null,
     "rating": null,
     "notes": "Auto-discovered by Lead Hunter. AI citation: not cited on 1/1 platforms. Competitors cited: Suddenly Slimmer Med Spa, Med 44 Arcadia, Vibrant Skin Bar. Outreach-ready: YES (citation data + contact + differentiator verified). Differentiator: Single-doctor boutique practice; personalized aesthetic approach; specializes in natural results with minimal downtime; uses only FDA-approved manufacturers",
-    "status": "queued",
+    "status": "failed",
     "research": null,
     "reportSlug": "willo-medispa-3xzz",
     "emailDraftId": null,
@@ -6968,10 +6968,26 @@
       {
         "action": "Queued by Lead Hunter (P2, score: 27, outreach-ready: true)",
         "timestamp": "2026-04-20T14:01:07.285Z"
+      },
+      {
+        "action": "Research started (auto-pipeline)",
+        "timestamp": "2026-04-24T16:30:34.399Z"
+      },
+      {
+        "action": "Research started (auto-pipeline)",
+        "timestamp": "2026-04-24T16:30:39.479Z"
+      },
+      {
+        "action": "Research started (auto-pipeline)",
+        "timestamp": "2026-04-24T16:30:49.546Z"
+      },
+      {
+        "action": "Dead-lettered after 3 failed attempts: Anthropic API error (401): {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CaNv1uEnFRmnY2aDeJGko\"}",
+        "timestamp": "2026-04-24T16:30:49.610Z"
       }
     ],
     "createdAt": "2026-04-20T14:01:07.285Z",
-    "updatedAt": "2026-04-20T14:01:07.285Z",
+    "updatedAt": "2026-04-24T16:30:49.610Z",
     "huntSource": "hunt_1776693616291_d93z",
     "huntScore": 27,
     "huntPriority": "P2",
