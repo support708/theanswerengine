@@ -5365,7 +5365,7 @@
     "reviewCount": 37,
     "rating": 4.5,
     "notes": "Auto-discovered by Lead Hunter. AI citation: not cited on 1/1 platforms. Competitors cited: Parker & Sons, Benjamin Franklin Plumbing, Robins Plumbing. Outreach-ready: YES (citation data + contact + differentiator verified). Differentiator: Established 1999, family-operated, 20+ years serving greater Phoenix, honest plumbing practices emphasis",
-    "status": "queued",
+    "status": "failed",
     "research": null,
     "reportSlug": "phoenix-plumbing-drain-service-pkyv",
     "emailDraftId": null,
@@ -5375,10 +5375,26 @@
       {
         "action": "Queued by Lead Hunter (P2, score: 33, outreach-ready: true)",
         "timestamp": "2026-04-14T14:01:05.110Z"
+      },
+      {
+        "action": "Research started (auto-pipeline)",
+        "timestamp": "2026-04-24T03:30:34.670Z"
+      },
+      {
+        "action": "Research started (auto-pipeline)",
+        "timestamp": "2026-04-24T03:30:39.921Z"
+      },
+      {
+        "action": "Research started (auto-pipeline)",
+        "timestamp": "2026-04-24T03:30:49.970Z"
+      },
+      {
+        "action": "Dead-lettered after 3 failed attempts: Anthropic API error (401): {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CaMtY6uMNkxbAzvS4buqp\"}",
+        "timestamp": "2026-04-24T03:30:50.020Z"
       }
     ],
     "createdAt": "2026-04-14T14:01:05.110Z",
-    "updatedAt": "2026-04-14T14:01:05.110Z",
+    "updatedAt": "2026-04-24T03:30:50.020Z",
     "huntSource": "hunt_1776175211411_1f1j",
     "huntScore": 33,
     "huntPriority": "P2",
