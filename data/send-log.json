@@ -372,6 +372,12 @@
       "email": "concierge@drpaulnassif.com",
       "type": "follow_up_1",
       "sentAt": "2026-04-24T16:00:19.817Z"
+    },
+    {
+      "leadId": "lead_1775681943860_bxyck6",
+      "email": "beverlyhillsmedspa@gmail.com",
+      "type": "follow_up_1",
+      "sentAt": "2026-04-24T16:00:23.839Z"
     }
   ]
 }
