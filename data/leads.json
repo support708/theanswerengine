@@ -6404,7 +6404,7 @@
     "reviewCount": 589,
     "rating": 4.9,
     "notes": "Auto-discovered by Lead Hunter. AI citation: not cited on 1/1 platforms. Competitors cited: Central Valley Dentistry, Phoenix Valley Dental, Downtown Phoenix Dental. Outreach-ready: YES (citation data + contact + differentiator verified). Differentiator: Official dentist for Arizona Coyotes, 24+ years experience, established 1998, specializes in full mouth rehabilitation",
-    "status": "queued",
+    "status": "failed",
     "research": null,
     "reportSlug": "brookstone-dental-care-8d1o",
     "emailDraftId": null,
@@ -6414,10 +6414,26 @@
       {
         "action": "Queued by Lead Hunter (P1, score: 40, outreach-ready: true)",
         "timestamp": "2026-04-16T14:01:07.193Z"
+      },
+      {
+        "action": "Research started (auto-pipeline)",
+        "timestamp": "2026-04-24T12:00:34.422Z"
+      },
+      {
+        "action": "Research started (auto-pipeline)",
+        "timestamp": "2026-04-24T12:00:40.112Z"
+      },
+      {
+        "action": "Research started (auto-pipeline)",
+        "timestamp": "2026-04-24T12:00:50.286Z"
+      },
+      {
+        "action": "Dead-lettered after 3 failed attempts: Anthropic API error (401): {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CaNZRnSDvpTTWPMuywwTd\"}",
+        "timestamp": "2026-04-24T12:00:50.347Z"
       }
     ],
     "createdAt": "2026-04-16T14:01:07.193Z",
-    "updatedAt": "2026-04-16T14:01:07.193Z",
+    "updatedAt": "2026-04-24T12:00:50.347Z",
     "huntSource": "hunt_1776348011240_tep0",
     "huntScore": 40,
     "huntPriority": "P1",
