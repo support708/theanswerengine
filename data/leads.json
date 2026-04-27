@@ -4138,7 +4138,7 @@
     "reviewCount": 274,
     "rating": 4.8,
     "notes": "Auto-discovered by Lead Hunter. AI citation: not cited on 1/1 platforms. Competitors cited: NassifMD Medical Spa, Cienega Med Spa, Marina Medspa. Outreach-ready: YES (citation data + contact + differentiator verified). Differentiator: Multiple LA locations (West Hollywood, Studio City); founded by Dr. Rafaeloff and esthetician Sharona Rafaeloff; extensive treatment menu; known for personalized approach and Vanessa's expert care",
-    "status": "sent",
+    "status": "follow_up_1",
     "research": {
       "reviewCount": 274,
       "rating": 4.8,
@@ -4262,10 +4262,14 @@
       {
         "action": "Initial email auto-sent via Gmail (19db373d3000e243)",
         "timestamp": "2026-04-22T04:30:05.878Z"
+      },
+      {
+        "action": "follow_up_1 auto-sent via Gmail (19dcfab8e454bf9b)",
+        "timestamp": "2026-04-27T16:00:22.524Z"
       }
     ],
     "createdAt": "2026-04-08T20:59:03.860Z",
-    "updatedAt": "2026-04-22T04:30:05.878Z",
+    "updatedAt": "2026-04-27T16:00:22.654Z",
     "huntSource": "hunt_1775681881534_kh3q",
     "huntScore": 40,
     "huntPriority": "P1",
