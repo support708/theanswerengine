@@ -4463,7 +4463,7 @@
     "reviewCount": null,
     "rating": null,
     "notes": "Auto-discovered by Lead Hunter. AI citation: not cited on 1/1 platforms. Competitors cited: Bilt-well Roofing, J and J Roofing, Smart Roofing. Outreach-ready: YES (citation data + contact + differentiator verified). Differentiator: Father and son-owned, 25+ years in business since 1995, specializes in Spanish tile roofs, San Fernando Valley based",
-    "status": "sent",
+    "status": "follow_up_1",
     "research": {
       "reviewCount": 0,
       "rating": 0,
@@ -4571,10 +4571,14 @@
       {
         "action": "Initial email auto-sent via Gmail (19db3e1cf017ff92)",
         "timestamp": "2026-04-22T06:30:13.627Z"
+      },
+      {
+        "action": "follow_up_1 auto-sent via Gmail (19dcfabb2c63abe8)",
+        "timestamp": "2026-04-27T16:00:31.140Z"
       }
     ],
     "createdAt": "2026-04-09T14:00:57.391Z",
-    "updatedAt": "2026-04-22T06:30:13.627Z",
+    "updatedAt": "2026-04-27T16:00:31.288Z",
     "huntSource": "hunt_1775743210629_lqp4",
     "huntScore": 25.5,
     "huntPriority": "P2",
