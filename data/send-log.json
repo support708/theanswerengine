@@ -408,6 +408,12 @@
       "email": "info@bumbleroofing.com",
       "type": "follow_up_1",
       "sentAt": "2026-04-27T16:00:33.535Z"
+    },
+    {
+      "leadId": "lead_1775743257391_4yxq9r",
+      "email": "info@anrroofing.net",
+      "type": "follow_up_1",
+      "sentAt": "2026-04-27T16:00:39.522Z"
     }
   ]
 }
