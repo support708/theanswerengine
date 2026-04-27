@@ -378,6 +378,12 @@
       "email": "beverlyhillsmedspa@gmail.com",
       "type": "follow_up_1",
       "sentAt": "2026-04-24T16:00:23.839Z"
+    },
+    {
+      "leadId": "lead_1775681943860_hgd93b",
+      "email": "reception@losfelizmedspa.com",
+      "type": "follow_up_1",
+      "sentAt": "2026-04-27T16:00:16.196Z"
     }
   ]
 }
