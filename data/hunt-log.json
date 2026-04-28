@@ -320,5 +320,23 @@
       "Pass 2 failed: Anthropic API error (401): {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CaUPzkGXqsTt6S7etwcBm\"}"
     ],
     "completedAt": "2026-04-27T14:00:43.243Z"
+  },
+  {
+    "id": "hunt_1777384837568_auc9",
+    "startedAt": "2026-04-28T14:00:37.568Z",
+    "trigger": "cron_daily",
+    "vertical": "Electrician",
+    "metro": "Dallas, TX",
+    "prospectsFound": 0,
+    "p1Queued": 0,
+    "p2Queued": 0,
+    "p3Backlogged": 0,
+    "duplicatesSkipped": 0,
+    "outreachReadyCount": 0,
+    "errors": [
+      "Pass 1 failed: Anthropic API error (401): {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CaWHoJeAktHKU5kXQUtEm\"}",
+      "Pass 2 failed: Anthropic API error (401): {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CaWHogHv61V8t2zV6poiV\"}"
+    ],
+    "completedAt": "2026-04-28T14:00:43.413Z"
   }
 ]
