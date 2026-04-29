@@ -19,7 +19,7 @@ export const metadata: Metadata = {
     description,
     type: 'article',
     publishedTime: publishDate,
-    authors: ['The Answer Engine Team'],
+    authors: ['https://theanswerengine.ai/about'],
     url: `https://theanswerengine.ai/blog/${slug}`,
     images: [{ url: `https://theanswerengine.ai/blog/${slug}.webp`, width: 1200, height: 630, alt: title }],
   },
@@ -43,9 +43,18 @@ const jsonLd = {
       datePublished: publishDate,
       dateModified: publishDate,
       author: {
-        '@type': 'Organization',
-        name: 'The Answer Engine',
-        url: 'https://theanswerengine.ai',
+        '@type': 'Person',
+        '@id': 'https://theanswerengine.ai/about#justin-borges',
+        name: 'Justin Borges',
+        jobTitle: 'Founder, The Answer Engine',
+        worksFor: {
+          '@type': 'Organization',
+          name: 'The Answer Engine',
+          url: 'https://theanswerengine.ai',
+        },
+        knowsAbout: ['Answer Engine Optimization', 'AI Search', 'Content Strategy', 'Real Estate Marketing', 'Citation Surface'],
+        url: 'https://theanswerengine.ai/about',
+        image: 'https://theanswerengine.ai/justin-borges.webp',
       },
       publisher: {
         '@type': 'Organization',
@@ -351,17 +360,17 @@ export default function Page() {
               <tr>
                 <td className="font-semibold text-white">Client Testimonials</td>
                 <td>Outcome-specific testimonials on your website and review platforms. "Lost 30 lbs in 5 months" beats "great trainer" every time for AI signal.</td>
-                <td><span className="ae-tier-badge" style={{background:'rgba(255,106,0,0.15)', color:'#FF6A00', border:'1px solid rgba(255,106,0,0.3)', borderRadius:'4px', padding:'2px 8px', fontSize:'0.75rem', fontWeight:600}}>Very High</span></td>
+                <td><span className="ae-tier-badge" style={{background:'rgba(255,106,0,0.15)', color:'#F27D24', border:'1px solid rgba(255,106,0,0.3)', borderRadius:'4px', padding:'2px 8px', fontSize:'0.75rem', fontWeight:600}}>Very High</span></td>
               </tr>
               <tr>
                 <td className="font-semibold text-white">FAQ Section</td>
                 <td>Answers to what clients actually ask before hiring a trainer. Mirrors the questions clients type into AI assistants.</td>
-                <td><span className="ae-tier-badge" style={{background:'rgba(255,106,0,0.15)', color:'#FF6A00', border:'1px solid rgba(255,106,0,0.3)', borderRadius:'4px', padding:'2px 8px', fontSize:'0.75rem', fontWeight:600}}>Very High</span></td>
+                <td><span className="ae-tier-badge" style={{background:'rgba(255,106,0,0.15)', color:'#F27D24', border:'1px solid rgba(255,106,0,0.3)', borderRadius:'4px', padding:'2px 8px', fontSize:'0.75rem', fontWeight:600}}>Very High</span></td>
               </tr>
               <tr>
                 <td className="font-semibold text-white">Directory Listings</td>
                 <td>Yelp, Mindbody, ClassPass, IDEA FitnessConnect, NASM trainer finder, local business directories. Consistent name/address/phone across all.</td>
-                <td><span className="ae-tier-badge" style={{background:'rgba(255,106,0,0.15)', color:'#FF6A00', border:'1px solid rgba(255,106,0,0.3)', borderRadius:'4px', padding:'2px 8px', fontSize:'0.75rem', fontWeight:600}}>High</span></td>
+                <td><span className="ae-tier-badge" style={{background:'rgba(255,106,0,0.15)', color:'#F27D24', border:'1px solid rgba(255,106,0,0.3)', borderRadius:'4px', padding:'2px 8px', fontSize:'0.75rem', fontWeight:600}}>High</span></td>
               </tr>
               <tr>
                 <td className="font-semibold text-white">Blog / Content</td>
@@ -508,26 +517,26 @@ export default function Page() {
         <section className="mt-12">
           <h3 className="font-plus-jakarta text-xl font-bold text-white mb-4">Related Reading</h3>
           <div className="grid gap-4 md:grid-cols-2">
-            <Link href="/blog/how-gyms-and-fitness-studios-get-found-on-ai" className="block p-4 rounded-xl border border-white/10 bg-white/5 hover:border-[#FF6A00]/30 transition-colors">
-              <p className="text-sm text-[#FF6A00] mb-1">Industry Guides</p>
+            <Link href="/blog/how-gyms-and-fitness-studios-get-found-on-ai" className="block p-4 rounded-xl border border-white/10 bg-white/5 hover:border-[#F27D24]/30 transition-colors">
+              <p className="text-sm text-[#F27D24] mb-1">Industry Guides</p>
               <p className="text-white font-medium">How Gyms and Fitness Studios Get Found on AI</p>
             </Link>
-            <Link href="/blog/does-schema-markup-help-ai-search" className="block p-4 rounded-xl border border-white/10 bg-white/5 hover:border-[#FF6A00]/30 transition-colors">
-              <p className="text-sm text-[#FF6A00] mb-1">How-To Guides</p>
+            <Link href="/blog/does-schema-markup-help-ai-search" className="block p-4 rounded-xl border border-white/10 bg-white/5 hover:border-[#F27D24]/30 transition-colors">
+              <p className="text-sm text-[#F27D24] mb-1">How-To Guides</p>
               <p className="text-white font-medium">Does Schema Markup Help You Show Up on AI Search?</p>
             </Link>
           </div>
         </section>
 
         {/* 3-Tier CTA Block */}
-        <div className="not-prose my-16 p-8 rounded-2xl bg-gradient-to-br from-[#FF6A00]/10 to-transparent border border-[#FF6A00]/20">
+        <div className="not-prose my-16 p-8 rounded-2xl bg-gradient-to-br from-[#F27D24]/10 to-transparent border border-[#F27D24]/20">
           <h3 className="font-plus-jakarta text-2xl font-bold text-white mb-3">Are Potential Clients Finding You on AI?</h3>
           <p className="text-gray-400 mb-6">Your Blind Spot Report shows how AI currently describes your training business, what is missing, and exactly what to build to start appearing in recommendations for the clients you most want to serve.</p>
-          <Link href="/blindspot" className="inline-flex items-center gap-2 bg-[#FF6A00] text-white px-6 py-3 rounded-lg font-semibold hover:bg-[#e55f00] transition-colors">
+          <Link href="/blindspot" className="inline-flex items-center gap-2 bg-[#F27D24] text-white px-6 py-3 rounded-lg font-semibold hover:bg-[#D96416] transition-colors">
             Get Your Free Blind Spot Report
             <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" /></svg>
           </Link>
-          <div className="flex flex-wrap items-center gap-6 mt-6 pt-6 border-t border-[#FF6A00]/10">
+          <div className="flex flex-wrap items-center gap-6 mt-6 pt-6 border-t border-[#F27D24]/10">
             <a href="tel:+12134442229" className="flex items-center gap-2 text-gray-400 hover:text-white transition-colors">
               <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" /></svg>
               (213) 444-2229
@@ -540,13 +549,20 @@ export default function Page() {
         </div>
 
         {/* Author Card */}
-        <div className="ae-author-card">
-          <div className="ae-author-avatar">AE</div>
-          <div>
-            <div className="font-semibold text-white">The Answer Engine Team</div>
-            <div className="text-gray-400 text-sm">We help personal trainers and fitness professionals build the AI visibility that brings clients directly to their door. Our Blind Spot Reports identify exactly what AI is missing about your business.</div>
+        <div className="not-prose">
+            <div className="ae-author-card">
+              <img
+                src="/justin-borges.webp"
+                alt="Justin Borges, Founder of The Answer Engine"
+                style={{ width: 64, height: 64, borderRadius: '50%', objectFit: 'cover', flexShrink: 0 }}
+              />
+              <div>
+                <div className="ae-author-name" style={{ fontWeight: 600 }}>Justin Borges</div>
+                <div className="ae-author-role" style={{ fontWeight: 400 }}>Founder, The Answer Engine</div>
+                <p style={{ marginTop: 8, fontSize: '0.875rem', color: 'rgba(255,255,255,0.65)', lineHeight: 1.6 }}>Justin Borges founded The Answer Engine in 2025 after 13+ years in real estate, $200M+ in production, and discovering that AI search rankings now decide who gets cited as the answer. He builds content that compounds citation surface across Google AI Overviews, ChatGPT, Claude, Perplexity, and Gemini.</p>
+              </div>
+            </div>
           </div>
-        </div>
 
         {/* FAQ Section */}
         <section id="faq" className="mt-16">

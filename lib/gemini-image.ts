@@ -40,7 +40,7 @@ export function buildImagePrompt(title: string, category: string): string {
     `Visual concept: ${categoryStyle}.`,
     `Style requirements:`,
     `- Dark moody background transitioning from deep navy (#0F1117) to charcoal`,
-    `- Subtle orange accent lighting and highlights (#FF6A00)`,
+    `- Subtle orange accent lighting and highlights (#F27D24)`,
     `- Cinematic depth of field with bokeh effects`,
     `- Futuristic, premium, editorial quality`,
     `- Abstract and conceptual, not literal`,

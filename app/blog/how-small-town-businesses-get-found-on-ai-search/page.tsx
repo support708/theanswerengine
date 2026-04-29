@@ -28,13 +28,13 @@ export const metadata: Metadata = {
     'small town SEO AI',
     'local business AI discoverability',
   ],
-  authors: [{ name: 'The Answer Engine Team' }],
+  authors: [{ name: 'Justin Borges', url: 'https://theanswerengine.ai/about' }],
   openGraph: {
     title: `${title} | The Answer Engine`,
     description,
     type: 'article',
     publishedTime: publishDate,
-    authors: ['The Answer Engine Team'],
+    authors: ['https://theanswerengine.ai/about'],
     url: `https://theanswerengine.ai/blog/${slug}`,
     images: [
       {
@@ -124,9 +124,18 @@ const jsonLd = {
       datePublished: publishDate + 'T00:00:00Z',
       dateModified: publishDate + 'T00:00:00Z',
       author: {
-        '@type': 'Organization',
-        name: 'The Answer Engine',
-        url: 'https://theanswerengine.ai',
+        '@type': 'Person',
+        '@id': 'https://theanswerengine.ai/about#justin-borges',
+        name: 'Justin Borges',
+        jobTitle: 'Founder, The Answer Engine',
+        worksFor: {
+          '@type': 'Organization',
+          name: 'The Answer Engine',
+          url: 'https://theanswerengine.ai',
+        },
+        knowsAbout: ['Answer Engine Optimization', 'AI Search', 'Content Strategy', 'Real Estate Marketing', 'Citation Surface'],
+        url: 'https://theanswerengine.ai/about',
+        image: 'https://theanswerengine.ai/justin-borges.webp',
       },
       publisher: {
         '@type': 'Organization',
@@ -186,13 +195,13 @@ export default function Page() {
       <nav className="max-w-4xl mx-auto px-6 pt-8 pb-2" aria-label="Breadcrumb">
         <ol className="flex items-center gap-2 text-sm text-gray-500">
           <li>
-            <Link href="/" className="hover:text-[#FF6A00] transition-colors">
+            <Link href="/" className="hover:text-[#F27D24] transition-colors">
               Home
             </Link>
           </li>
           <li>/</li>
           <li>
-            <Link href="/blog" className="hover:text-[#FF6A00] transition-colors">
+            <Link href="/blog" className="hover:text-[#F27D24] transition-colors">
               Blog
             </Link>
           </li>
@@ -207,7 +216,7 @@ export default function Page() {
           <svg width="100%" height="100%" xmlns="http://www.w3.org/2000/svg">
             <defs>
               <pattern id="grid-small-town" width="40" height="40" patternUnits="userSpaceOnUse">
-                <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#FF6A00" strokeWidth="0.5" />
+                <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#F27D24" strokeWidth="0.5" />
               </pattern>
             </defs>
             <rect width="100%" height="100%" fill="url(#grid-small-town)" />
@@ -221,7 +230,7 @@ export default function Page() {
           </div>
           <h1 className="font-plus-jakarta text-4xl md:text-5xl font-bold text-white leading-tight mb-6">
             How Small Town Businesses{' '}
-            <span className="text-[#FF6A00]">Get Found on AI Search</span>
+            <span className="text-[#F27D24]">Get Found on AI Search</span>
           </h1>
           <p className="text-xl text-gray-300 leading-relaxed max-w-3xl">
             You built a real business in a real community. But when someone in your town asks
@@ -232,7 +241,7 @@ export default function Page() {
           <div className="mt-8 flex flex-wrap gap-4">
             <Link
               href="/blindspot"
-              className="inline-flex items-center gap-2 bg-[#FF6A00] text-white px-6 py-3 rounded-lg font-semibold hover:bg-[#e55f00] transition-colors"
+              className="inline-flex items-center gap-2 bg-[#F27D24] text-white px-6 py-3 rounded-lg font-semibold hover:bg-[#D96416] transition-colors"
             >
               Get Your Free Blind Spot Report
               <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -241,7 +250,7 @@ export default function Page() {
             </Link>
             <a
               href="tel:+12134442229"
-              className="inline-flex items-center gap-2 border border-[#FF6A00]/40 text-[#FF6A00] px-6 py-3 rounded-lg font-semibold hover:border-[#FF6A00] transition-colors"
+              className="inline-flex items-center gap-2 border border-[#F27D24]/40 text-[#F27D24] px-6 py-3 rounded-lg font-semibold hover:border-[#F27D24] transition-colors"
             >
               (213) 444-2229
             </a>
@@ -470,7 +479,7 @@ export default function Page() {
               said about your business. In small markets, the internet has said very little, so AI
               defaults to the places it knows best.&quot;
             </p>
-            <cite>The Answer Engine Team</cite>
+            <cite>Justin Borges</cite>
           </div>
 
           <p className="text-gray-300 leading-relaxed mb-4">
@@ -492,7 +501,7 @@ export default function Page() {
             our article on{' '}
             <Link
               href="/blog/why-ai-recommends-businesses-in-other-cities"
-              className="text-[#FF6A00] hover:underline"
+              className="text-[#F27D24] hover:underline"
             >
               why AI recommends businesses in other cities
             </Link>
@@ -583,7 +592,7 @@ export default function Page() {
             our guide on{' '}
             <Link
               href="/blog/directory-listings-that-help-ai-find-business"
-              className="text-[#FF6A00] hover:underline"
+              className="text-[#F27D24] hover:underline"
             >
               directory listings that actually help AI find your business
             </Link>
@@ -715,7 +724,7 @@ export default function Page() {
             our article on{' '}
             <Link
               href="/blog/how-ai-answers-change-based-on-your-location"
-              className="text-[#FF6A00] hover:underline"
+              className="text-[#F27D24] hover:underline"
             >
               how AI answers change based on your location
             </Link>{' '}
@@ -734,7 +743,7 @@ export default function Page() {
             </Link>
             <a
               href="tel:+12134442229"
-              className="inline-flex items-center gap-2 border border-[#FF6A00]/40 text-[#FF6A00] px-5 py-2.5 rounded-lg text-sm font-medium hover:border-[#FF6A00] transition-colors"
+              className="inline-flex items-center gap-2 border border-[#F27D24]/40 text-[#F27D24] px-5 py-2.5 rounded-lg text-sm font-medium hover:border-[#F27D24] transition-colors"
             >
               Call (213) 444-2229
             </a>
@@ -757,7 +766,7 @@ export default function Page() {
             <div className="ae-decision-row">
               <div className="ae-decision-if">You have no Google Business Profile or it is unverified</div>
               <div className="ae-decision-arrow">
-                <svg className="w-5 h-5 text-[#FF6A00]" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <svg className="w-5 h-5 text-[#F27D24]" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7l5 5m0 0l-5 5m5-5H6" />
                 </svg>
               </div>
@@ -766,7 +775,7 @@ export default function Page() {
             <div className="ae-decision-row">
               <div className="ae-decision-if">GBP exists but has under 20 reviews</div>
               <div className="ae-decision-arrow">
-                <svg className="w-5 h-5 text-[#FF6A00]" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <svg className="w-5 h-5 text-[#F27D24]" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7l5 5m0 0l-5 5m5-5H6" />
                 </svg>
               </div>
@@ -775,7 +784,7 @@ export default function Page() {
             <div className="ae-decision-row">
               <div className="ae-decision-if">You are not listed on Bing Places or Apple Maps</div>
               <div className="ae-decision-arrow">
-                <svg className="w-5 h-5 text-[#FF6A00]" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <svg className="w-5 h-5 text-[#F27D24]" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7l5 5m0 0l-5 5m5-5H6" />
                 </svg>
               </div>
@@ -784,7 +793,7 @@ export default function Page() {
             <div className="ae-decision-row">
               <div className="ae-decision-if">Your website does not mention your town name</div>
               <div className="ae-decision-arrow">
-                <svg className="w-5 h-5 text-[#FF6A00]" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <svg className="w-5 h-5 text-[#F27D24]" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7l5 5m0 0l-5 5m5-5H6" />
                 </svg>
               </div>
@@ -793,7 +802,7 @@ export default function Page() {
             <div className="ae-decision-row">
               <div className="ae-decision-if">Your NAP differs across platforms</div>
               <div className="ae-decision-arrow">
-                <svg className="w-5 h-5 text-[#FF6A00]" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <svg className="w-5 h-5 text-[#F27D24]" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7l5 5m0 0l-5 5m5-5H6" />
                 </svg>
               </div>
@@ -802,7 +811,7 @@ export default function Page() {
             <div className="ae-decision-row">
               <div className="ae-decision-if">You have strong GBP and NAP consistency</div>
               <div className="ae-decision-arrow">
-                <svg className="w-5 h-5 text-[#FF6A00]" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <svg className="w-5 h-5 text-[#F27D24]" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7l5 5m0 0l-5 5m5-5H6" />
                 </svg>
               </div>
@@ -838,7 +847,7 @@ export default function Page() {
             For more on how these signals interact in AI systems, our article on{' '}
             <Link
               href="/blog/how-to-get-found-on-ai-for-near-me-searches"
-              className="text-[#FF6A00] hover:underline"
+              className="text-[#F27D24] hover:underline"
             >
               how to get found on AI for near me searches
             </Link>{' '}
@@ -866,61 +875,61 @@ export default function Page() {
             <div className="ae-cheat-sheet-title">Small Town AI Visibility Cheat Sheet</div>
             <div className="grid md:grid-cols-2 gap-6 mt-4">
               <div>
-                <h4 className="font-plus-jakarta font-semibold text-[#FF6A00] mb-3 text-sm uppercase tracking-wide">
+                <h4 className="font-plus-jakarta font-semibold text-[#F27D24] mb-3 text-sm uppercase tracking-wide">
                   Foundation Layer (Do These First)
                 </h4>
                 <ul className="space-y-2">
                   <li className="flex items-start gap-2 text-gray-300 text-sm">
-                    <span className="text-[#FF6A00] mt-0.5 flex-shrink-0">1.</span>
+                    <span className="text-[#F27D24] mt-0.5 flex-shrink-0">1.</span>
                     Claim and fully verify Google Business Profile with complete category, hours, photos, and services
                   </li>
                   <li className="flex items-start gap-2 text-gray-300 text-sm">
-                    <span className="text-[#FF6A00] mt-0.5 flex-shrink-0">2.</span>
+                    <span className="text-[#F27D24] mt-0.5 flex-shrink-0">2.</span>
                     Claim Bing Places for Business (ChatGPT Search uses Bing location data)
                   </li>
                   <li className="flex items-start gap-2 text-gray-300 text-sm">
-                    <span className="text-[#FF6A00] mt-0.5 flex-shrink-0">3.</span>
+                    <span className="text-[#F27D24] mt-0.5 flex-shrink-0">3.</span>
                     Claim Apple Maps Connect (Siri and Apple AI use this for voice queries)
                   </li>
                   <li className="flex items-start gap-2 text-gray-300 text-sm">
-                    <span className="text-[#FF6A00] mt-0.5 flex-shrink-0">4.</span>
+                    <span className="text-[#F27D24] mt-0.5 flex-shrink-0">4.</span>
                     Audit all existing listings for NAP consistency. Fix every mismatch.
                   </li>
                   <li className="flex items-start gap-2 text-gray-300 text-sm">
-                    <span className="text-[#FF6A00] mt-0.5 flex-shrink-0">5.</span>
+                    <span className="text-[#F27D24] mt-0.5 flex-shrink-0">5.</span>
                     Create a systematic review request process for every customer
                   </li>
                 </ul>
               </div>
               <div>
-                <h4 className="font-plus-jakarta font-semibold text-[#FF6A00] mb-3 text-sm uppercase tracking-wide">
+                <h4 className="font-plus-jakarta font-semibold text-[#F27D24] mb-3 text-sm uppercase tracking-wide">
                   Amplification Layer (Build After Foundation)
                 </h4>
                 <ul className="space-y-2">
                   <li className="flex items-start gap-2 text-gray-300 text-sm">
-                    <span className="text-[#FF6A00] mt-0.5 flex-shrink-0">6.</span>
+                    <span className="text-[#F27D24] mt-0.5 flex-shrink-0">6.</span>
                     Add your town, county, and service area to your website content explicitly
                   </li>
                   <li className="flex items-start gap-2 text-gray-300 text-sm">
-                    <span className="text-[#FF6A00] mt-0.5 flex-shrink-0">7.</span>
+                    <span className="text-[#F27D24] mt-0.5 flex-shrink-0">7.</span>
                     List on Yelp, Foursquare, and industry-specific directories for your category
                   </li>
                   <li className="flex items-start gap-2 text-gray-300 text-sm">
-                    <span className="text-[#FF6A00] mt-0.5 flex-shrink-0">8.</span>
+                    <span className="text-[#F27D24] mt-0.5 flex-shrink-0">8.</span>
                     Pursue a local news mention or Chamber of Commerce feature for third-party citation
                   </li>
                   <li className="flex items-start gap-2 text-gray-300 text-sm">
-                    <span className="text-[#FF6A00] mt-0.5 flex-shrink-0">9.</span>
+                    <span className="text-[#F27D24] mt-0.5 flex-shrink-0">9.</span>
                     Encourage reviewers to mention your town name and specific service in their reviews
                   </li>
                   <li className="flex items-start gap-2 text-gray-300 text-sm">
-                    <span className="text-[#FF6A00] mt-0.5 flex-shrink-0">10.</span>
+                    <span className="text-[#F27D24] mt-0.5 flex-shrink-0">10.</span>
                     Check your AI visibility every 60-90 days and track which platforms name you
                   </li>
                 </ul>
               </div>
               <div className="md:col-span-2">
-                <h4 className="font-plus-jakarta font-semibold text-[#FF6A00] mb-3 text-sm uppercase tracking-wide">
+                <h4 className="font-plus-jakarta font-semibold text-[#F27D24] mb-3 text-sm uppercase tracking-wide">
                   Warning Signs You Have a Visibility Problem
                 </h4>
                 <ul className="space-y-2">
@@ -947,7 +956,7 @@ export default function Page() {
         </section>
 
         {/* 3-Tier CTA Block */}
-        <div className="not-prose my-16 p-8 rounded-2xl bg-gradient-to-br from-[#FF6A00]/10 to-transparent border border-[#FF6A00]/20">
+        <div className="not-prose my-16 p-8 rounded-2xl bg-gradient-to-br from-[#F27D24]/10 to-transparent border border-[#F27D24]/20">
           <h3 className="font-plus-jakarta text-2xl font-bold text-white mb-3">
             Is AI Sending Customers to Your Small Town Business?
           </h3>
@@ -957,14 +966,14 @@ export default function Page() {
           </p>
           <Link
             href="/blindspot"
-            className="inline-flex items-center gap-2 bg-[#FF6A00] text-white px-6 py-3 rounded-lg font-semibold hover:bg-[#e55f00] transition-colors"
+            className="inline-flex items-center gap-2 bg-[#F27D24] text-white px-6 py-3 rounded-lg font-semibold hover:bg-[#D96416] transition-colors"
           >
             Get Your Free Blind Spot Report
             <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
             </svg>
           </Link>
-          <div className="flex flex-wrap items-center gap-6 mt-6 pt-6 border-t border-[#FF6A00]/10">
+          <div className="flex flex-wrap items-center gap-6 mt-6 pt-6 border-t border-[#F27D24]/10">
             <a
               href="tel:+12134442229"
               className="flex items-center gap-2 text-gray-400 hover:text-white transition-colors"
@@ -996,7 +1005,7 @@ export default function Page() {
             {faqItems.map((item, i) => (
               <div
                 key={i}
-                className="p-6 rounded-xl bg-white/5 border border-white/10 hover:border-[#FF6A00]/30 transition-colors"
+                className="p-6 rounded-xl bg-white/5 border border-white/10 hover:border-[#F27D24]/30 transition-colors"
               >
                 <h3 className="font-plus-jakarta text-lg font-semibold text-white mb-3">
                   {item.name}
@@ -1015,37 +1024,37 @@ export default function Page() {
           <div className="grid md:grid-cols-2 gap-4">
             <Link
               href="/blog/why-ai-recommends-businesses-in-other-cities"
-              className="p-5 rounded-xl bg-white/5 border border-white/10 hover:border-[#FF6A00]/30 transition-colors group"
+              className="p-5 rounded-xl bg-white/5 border border-white/10 hover:border-[#F27D24]/30 transition-colors group"
             >
               <span className="ae-section-label mb-2 inline-block">AI Behavior</span>
-              <h3 className="font-plus-jakarta font-semibold text-white group-hover:text-[#FF6A00] transition-colors leading-snug">
+              <h3 className="font-plus-jakarta font-semibold text-white group-hover:text-[#F27D24] transition-colors leading-snug">
                 Why AI Recommends Businesses in Other Cities
               </h3>
             </Link>
             <Link
               href="/blog/why-ai-recommends-you-in-one-city-not-another"
-              className="p-5 rounded-xl bg-white/5 border border-white/10 hover:border-[#FF6A00]/30 transition-colors group"
+              className="p-5 rounded-xl bg-white/5 border border-white/10 hover:border-[#F27D24]/30 transition-colors group"
             >
               <span className="ae-section-label mb-2 inline-block">AI Behavior</span>
-              <h3 className="font-plus-jakarta font-semibold text-white group-hover:text-[#FF6A00] transition-colors leading-snug">
+              <h3 className="font-plus-jakarta font-semibold text-white group-hover:text-[#F27D24] transition-colors leading-snug">
                 Why AI Recommends You in One City but Not Another
               </h3>
             </Link>
             <Link
               href="/blog/how-to-get-found-on-ai-for-near-me-searches"
-              className="p-5 rounded-xl bg-white/5 border border-white/10 hover:border-[#FF6A00]/30 transition-colors group"
+              className="p-5 rounded-xl bg-white/5 border border-white/10 hover:border-[#F27D24]/30 transition-colors group"
             >
               <span className="ae-section-label mb-2 inline-block">How-To</span>
-              <h3 className="font-plus-jakarta font-semibold text-white group-hover:text-[#FF6A00] transition-colors leading-snug">
+              <h3 className="font-plus-jakarta font-semibold text-white group-hover:text-[#F27D24] transition-colors leading-snug">
                 How to Get Found on AI for Near Me Searches
               </h3>
             </Link>
             <Link
               href="/blog/directory-listings-that-help-ai-find-business"
-              className="p-5 rounded-xl bg-white/5 border border-white/10 hover:border-[#FF6A00]/30 transition-colors group"
+              className="p-5 rounded-xl bg-white/5 border border-white/10 hover:border-[#F27D24]/30 transition-colors group"
             >
               <span className="ae-section-label mb-2 inline-block">How-To</span>
-              <h3 className="font-plus-jakarta font-semibold text-white group-hover:text-[#FF6A00] transition-colors leading-snug">
+              <h3 className="font-plus-jakarta font-semibold text-white group-hover:text-[#F27D24] transition-colors leading-snug">
                 Directory Listings That Actually Help AI Find Your Business
               </h3>
             </Link>
@@ -1053,32 +1062,20 @@ export default function Page() {
         </section>
 
         {/* Author Card */}
-        <div className="ae-author-card mb-14">
-          <div className="ae-author-avatar">AE</div>
-          <div>
-            <p className="font-plus-jakarta font-semibold text-white">The Answer Engine Team</p>
-            <p className="text-gray-400 text-sm mt-1">
-              The Answer Engine Team specializes in AI search visibility for local and small-market
-              businesses. We track how AI platforms source, rank, and recommend local businesses
-              so owners can stop losing customers to competitors that just happen to have more
-              data, not better service.
-            </p>
-            <div className="flex flex-wrap gap-4 mt-3">
-              <Link
-                href="/blindspot"
-                className="text-[#FF6A00] text-sm hover:underline font-medium"
-              >
-                Get a Free Blind Spot Report
-              </Link>
-              <a
-                href="mailto:support@theanswerengine.ai"
-                className="text-gray-400 text-sm hover:text-white transition-colors"
-              >
-                support@theanswerengine.ai
-              </a>
+        <div className="not-prose">
+            <div className="ae-author-card">
+              <img
+                src="/justin-borges.webp"
+                alt="Justin Borges, Founder of The Answer Engine"
+                style={{ width: 64, height: 64, borderRadius: '50%', objectFit: 'cover', flexShrink: 0 }}
+              />
+              <div>
+                <div className="ae-author-name" style={{ fontWeight: 600 }}>Justin Borges</div>
+                <div className="ae-author-role" style={{ fontWeight: 400 }}>Founder, The Answer Engine</div>
+                <p style={{ marginTop: 8, fontSize: '0.875rem', color: 'rgba(255,255,255,0.65)', lineHeight: 1.6 }}>Justin Borges founded The Answer Engine in 2025 after 13+ years in real estate, $200M+ in production, and discovering that AI search rankings now decide who gets cited as the answer. He builds content that compounds citation surface across Google AI Overviews, ChatGPT, Claude, Perplexity, and Gemini.</p>
+              </div>
             </div>
           </div>
-        </div>
 
         {/* Final CTA */}
         <div className="ae-final-cta">
@@ -1093,7 +1090,7 @@ export default function Page() {
           <div className="flex flex-wrap justify-center gap-4 mb-8">
             <Link
               href="/blindspot"
-              className="inline-flex items-center gap-2 bg-[#FF6A00] text-white px-8 py-4 rounded-lg font-semibold text-lg hover:bg-[#e55f00] transition-colors"
+              className="inline-flex items-center gap-2 bg-[#F27D24] text-white px-8 py-4 rounded-lg font-semibold text-lg hover:bg-[#D96416] transition-colors"
             >
               Get Your Free Blind Spot Report
               <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">

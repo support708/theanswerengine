@@ -27,7 +27,7 @@ export const metadata: Metadata = {
     description,
     type: 'article',
     publishedTime: publishDate,
-    authors: ['The Answer Engine Team'],
+    authors: ['https://theanswerengine.ai/about'],
     url: `https://theanswerengine.ai/blog/${slug}`,
     images: [
       {
@@ -65,9 +65,18 @@ const jsonLd = {
       datePublished: publishDate,
       dateModified: publishDate,
       author: {
-        '@type': 'Organization',
-        name: 'The Answer Engine',
-        url: 'https://theanswerengine.ai',
+        '@type': 'Person',
+        '@id': 'https://theanswerengine.ai/about#justin-borges',
+        name: 'Justin Borges',
+        jobTitle: 'Founder, The Answer Engine',
+        worksFor: {
+          '@type': 'Organization',
+          name: 'The Answer Engine',
+          url: 'https://theanswerengine.ai',
+        },
+        knowsAbout: ['Answer Engine Optimization', 'AI Search', 'Content Strategy', 'Real Estate Marketing', 'Citation Surface'],
+        url: 'https://theanswerengine.ai/about',
+        image: 'https://theanswerengine.ai/justin-borges.webp',
       },
       publisher: {
         '@type': 'Organization',
@@ -188,11 +197,11 @@ export default function Page() {
             <svg width="100%" height="100%" xmlns="http://www.w3.org/2000/svg">
               <defs>
                 <pattern id="entity-net-a197" x="0" y="0" width="50" height="50" patternUnits="userSpaceOnUse">
-                  <circle cx="25" cy="25" r="8" fill="none" stroke="#FF6A00" strokeWidth="0.5" />
-                  <line x1="25" y1="0" x2="25" y2="17" stroke="#FF6A00" strokeWidth="0.3" />
-                  <line x1="0" y1="25" x2="17" y2="25" stroke="#FF6A00" strokeWidth="0.3" />
-                  <line x1="33" y1="25" x2="50" y2="25" stroke="#FF6A00" strokeWidth="0.3" />
-                  <line x1="25" y1="33" x2="25" y2="50" stroke="#FF6A00" strokeWidth="0.3" />
+                  <circle cx="25" cy="25" r="8" fill="none" stroke="#F27D24" strokeWidth="0.5" />
+                  <line x1="25" y1="0" x2="25" y2="17" stroke="#F27D24" strokeWidth="0.3" />
+                  <line x1="0" y1="25" x2="17" y2="25" stroke="#F27D24" strokeWidth="0.3" />
+                  <line x1="33" y1="25" x2="50" y2="25" stroke="#F27D24" strokeWidth="0.3" />
+                  <line x1="25" y1="33" x2="25" y2="50" stroke="#F27D24" strokeWidth="0.3" />
                 </pattern>
               </defs>
               <rect width="100%" height="100%" fill="url(#entity-net-a197)" />
@@ -210,7 +219,7 @@ export default function Page() {
               Before ChatGPT or Perplexity recommends your business, it runs an invisible evaluation. It does not ask if your website looks good. It asks how confident it is in what it knows about you as an entity. That confidence score is what controls whether you get recommended or invisible.
             </p>
             <div className="flex items-center gap-6 text-sm text-gray-500">
-              <span>By The Answer Engine Team</span>
+              <span>By Justin Borges</span>
               <span>12 min read</span>
               <span>April 20, 2026</span>
             </div>
@@ -460,23 +469,23 @@ export default function Page() {
             <div className="ae-bar-item">
               <span className="ae-bar-label">Service-specific content depth</span>
               <div className="ae-bar-track">
-                <div className="ae-bar-fill" style={{ width: '78%', background: '#FF6A00' }}></div>
+                <div className="ae-bar-fill" style={{ width: '78%', background: '#F27D24' }}></div>
               </div>
-              <span className="ae-bar-value" style={{ color: '#FF6A00' }}>High impact</span>
+              <span className="ae-bar-value" style={{ color: '#F27D24' }}>High impact</span>
             </div>
             <div className="ae-bar-item">
               <span className="ae-bar-label">Third-party authoritative mentions</span>
               <div className="ae-bar-track">
-                <div className="ae-bar-fill" style={{ width: '72%', background: '#FF6A00' }}></div>
+                <div className="ae-bar-fill" style={{ width: '72%', background: '#F27D24' }}></div>
               </div>
-              <span className="ae-bar-value" style={{ color: '#FF6A00' }}>High impact</span>
+              <span className="ae-bar-value" style={{ color: '#F27D24' }}>High impact</span>
             </div>
             <div className="ae-bar-item">
               <span className="ae-bar-label">Review volume and specificity</span>
               <div className="ae-bar-track">
-                <div className="ae-bar-fill" style={{ width: '65%', background: '#FF6A00' }}></div>
+                <div className="ae-bar-fill" style={{ width: '65%', background: '#F27D24' }}></div>
               </div>
-              <span className="ae-bar-value" style={{ color: '#FF6A00' }}>High impact</span>
+              <span className="ae-bar-value" style={{ color: '#F27D24' }}>High impact</span>
             </div>
             <div className="ae-bar-item">
               <span className="ae-bar-label">Industry directory presence</span>
@@ -537,7 +546,7 @@ export default function Page() {
             The sequence matters. Starting with inconsistencies is essential because inconsistencies actively lower confidence and actively working against everything else you build. A beautifully structured website cannot overcome the entity drift created by 30 inconsistent directory listings that contradict it.
           </p>
           <p className="text-gray-300 leading-relaxed mb-6">
-            The framework for prioritizing and executing entity improvement is what we build for clients. What we can tell you here is that <Link href="/blog/what-your-website-looks-like-to-an-ai-crawler" className="text-[#FF6A00] hover:text-orange-400 transition-colors">how AI crawlers see your website</Link> is just one input into a much larger entity evaluation. Understanding the full picture is the starting point for any improvement program.
+            The framework for prioritizing and executing entity improvement is what we build for clients. What we can tell you here is that <Link href="/blog/what-your-website-looks-like-to-an-ai-crawler" className="text-[#F27D24] hover:text-orange-400 transition-colors">how AI crawlers see your website</Link> is just one input into a much larger entity evaluation. Understanding the full picture is the starting point for any improvement program.
           </p>
 
           <div className="ae-callout ae-callout-orange">
@@ -619,12 +628,12 @@ export default function Page() {
         <section className="my-12">
           <div className="ae-quote">
             <p>"AI does not know your business is good. It only knows whether the information about your business is consistent, authoritative, and clear. Your entity score is not a measure of your business quality. It is a measure of your information quality."</p>
-            <cite>The Answer Engine Team</cite>
+            <cite>Justin Borges</cite>
           </div>
         </section>
 
         {/* 3-Tier CTA Block */}
-        <div className="not-prose my-16 p-8 rounded-2xl bg-gradient-to-br from-[#FF6A00]/10 to-transparent border border-[#FF6A00]/20">
+        <div className="not-prose my-16 p-8 rounded-2xl bg-gradient-to-br from-[#F27D24]/10 to-transparent border border-[#F27D24]/20">
           <h3 className="font-plus-jakarta text-2xl font-bold text-white mb-3">
             See Your AI Entity Score Right Now
           </h3>
@@ -633,14 +642,14 @@ export default function Page() {
           </p>
           <Link
             href="/blindspot"
-            className="inline-flex items-center gap-2 bg-[#FF6A00] text-white px-6 py-3 rounded-lg font-semibold hover:bg-[#e55f00] transition-colors"
+            className="inline-flex items-center gap-2 bg-[#F27D24] text-white px-6 py-3 rounded-lg font-semibold hover:bg-[#D96416] transition-colors"
           >
             Get Your Free Blind Spot Report
             <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
             </svg>
           </Link>
-          <div className="flex flex-wrap items-center gap-6 mt-6 pt-6 border-t border-[#FF6A00]/10">
+          <div className="flex flex-wrap items-center gap-6 mt-6 pt-6 border-t border-[#F27D24]/10">
             <a href="tel:+12134442229" className="flex items-center gap-2 text-gray-400 hover:text-white transition-colors">
               <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
@@ -657,14 +666,18 @@ export default function Page() {
         </div>
 
         {/* Author Card */}
-        <div className="ae-author-card not-prose">
-          <div className="ae-author-avatar">AE</div>
-          <div>
-            <div className="font-plus-jakarta font-bold text-white">The Answer Engine Team</div>
-            <div className="text-gray-400 text-sm">AI Search Visibility Specialists</div>
-            <div className="text-gray-500 text-sm mt-1">We build entity authority for local businesses so that AI platforms have every reason to recommend them with confidence.</div>
-          </div>
-        </div>
+        <div className="ae-author-card">
+              <img
+                src="/justin-borges.webp"
+                alt="Justin Borges, Founder of The Answer Engine"
+                style={{ width: 64, height: 64, borderRadius: '50%', objectFit: 'cover', flexShrink: 0 }}
+              />
+              <div>
+                <div className="ae-author-name" style={{ fontWeight: 600 }}>Justin Borges</div>
+                <div className="ae-author-role" style={{ fontWeight: 400 }}>Founder, The Answer Engine</div>
+                <p style={{ marginTop: 8, fontSize: '0.875rem', color: 'rgba(255,255,255,0.65)', lineHeight: 1.6 }}>Justin Borges founded The Answer Engine in 2025 after 13+ years in real estate, $200M+ in production, and discovering that AI search rankings now decide who gets cited as the answer. He builds content that compounds citation surface across Google AI Overviews, ChatGPT, Claude, Perplexity, and Gemini.</p>
+              </div>
+            </div>
 
         {/* FAQ Section */}
         <section id="faq" className="not-prose mt-16">
@@ -716,7 +729,7 @@ export default function Page() {
           </p>
           <Link
             href="/blindspot"
-            className="inline-flex items-center gap-2 bg-[#FF6A00] text-white px-8 py-4 rounded-xl font-semibold text-lg hover:bg-[#e55f00] transition-colors ae-pulse-glow"
+            className="inline-flex items-center gap-2 bg-[#F27D24] text-white px-8 py-4 rounded-xl font-semibold text-lg hover:bg-[#D96416] transition-colors ae-pulse-glow"
           >
             Get Your Free Blind Spot Report
             <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -724,7 +737,7 @@ export default function Page() {
             </svg>
           </Link>
           <p className="text-gray-500 text-sm mt-4">
-            Free. No credit card. Results in 24 hours. <a href="tel:+12134442229" className="text-[#FF6A00] hover:text-orange-400 transition-colors">(213) 444-2229</a>
+            Free. No credit card. Results in 24 hours. <a href="tel:+12134442229" className="text-[#F27D24] hover:text-orange-400 transition-colors">(213) 444-2229</a>
           </p>
         </div>
 

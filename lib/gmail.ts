@@ -40,7 +40,7 @@ const DISPLAY_STACK = `'Space Grotesk','Inter','Helvetica Neue',Arial,sans-serif
 const SANS_STACK = `'Inter','Helvetica Neue',Arial,sans-serif`;
 const MONO_STACK = `'JetBrains Mono',Consolas,Menlo,'Courier New',monospace`;
 
-const BRAND_ORANGE = '#FF6A00';
+const BRAND_ORANGE = '#F27D24';
 const BG_PRIMARY = '#131313';
 const BG_CARD = '#1c1b1b';
 const BG_ALT = '#2a2a2a';
@@ -186,7 +186,7 @@ function reportImageBlock(reportUrl: string, previewUrl: string, businessName: s
 <!--<![endif]-->
 
 <div style="text-align:center;margin:0 0 24px 0;">
-<a href="${reportUrl}" target="_blank" style="display:inline-block;background:#FF6A00;color:#ffffff;font-family:Arial,sans-serif;font-size:16px;font-weight:bold;padding:14px 32px;border-radius:6px;text-decoration:none;letter-spacing:0.5px;">View Your Full Report</a>
+<a href="${reportUrl}" target="_blank" style="display:inline-block;background:#F27D24;color:#ffffff;font-family:Arial,sans-serif;font-size:16px;font-weight:bold;padding:14px 32px;border-radius:6px;text-decoration:none;letter-spacing:0.5px;">View Your Full Report</a>
 </div>`;
 }
 
@@ -236,7 +236,7 @@ ${reportImageBlock(reportUrl, previewUrl, lead.businessName)}
 
 <p>We helped an LA real estate team go from zero AI visibility to 8,400+ monthly clicks using this same type of analysis as a starting point. Happy to walk you through your report on a quick call.</p>
 
-<p><a href="${CALENDLY_URL}" target="_blank" style="color:#FF6A00;font-weight:bold;">Book a 30-min call</a></p>`);
+<p><a href="${CALENDLY_URL}" target="_blank" style="color:#F27D24;font-weight:bold;">Book a 30-min call</a></p>`);
 }
 
 // ============================================================
@@ -290,7 +290,7 @@ ${reportImageBlock(reportUrl, previewUrl, lead.businessName)}
 
 <p>Happy to walk through the findings on a 30-minute call. No pitch, just the data.</p>
 
-<p><a href="${CALENDLY_URL}" target="_blank" style="color:#FF6A00;font-weight:bold;">Book a 30-min call</a></p>`);
+<p><a href="${CALENDLY_URL}" target="_blank" style="color:#F27D24;font-weight:bold;">Book a 30-min call</a></p>`);
 }
 
 // ============================================================
@@ -343,21 +343,21 @@ export function buildRealEstateHtmlEmailBody(lead: Lead): string {
 <table style="width:100%;border-collapse:collapse;margin:16px 0;">
 <tr>
 <td style="text-align:center;padding:12px;background:#f8f8f8;border-radius:6px 0 0 6px;">
-<div style="font-size:24px;font-weight:bold;color:#FF6A00;">8,400+</div>
+<div style="font-size:24px;font-weight:bold;color:#F27D24;">8,400+</div>
 <div style="font-size:12px;color:#666;">Monthly Clicks</div>
 </td>
 <td style="text-align:center;padding:12px;background:#f8f8f8;">
-<div style="font-size:24px;font-weight:bold;color:#FF6A00;">1.1M+</div>
+<div style="font-size:24px;font-weight:bold;color:#F27D24;">1.1M+</div>
 <div style="font-size:12px;color:#666;">Impressions</div>
 </td>
 <td style="text-align:center;padding:12px;background:#f8f8f8;border-radius:0 6px 6px 0;">
-<div style="font-size:24px;font-weight:bold;color:#FF6A00;">100%</div>
+<div style="font-size:24px;font-weight:bold;color:#F27D24;">100%</div>
 <div style="font-size:12px;color:#666;">AI Citation Rate</div>
 </td>
 </tr>
 </table>
 
-<p><a href="${CASE_STUDY_URL}" target="_blank" style="color:#FF6A00;font-weight:bold;">See the full case study (verified GSC data)</a></p>
+<p><a href="${CASE_STUDY_URL}" target="_blank" style="color:#F27D24;font-weight:bold;">See the full case study (verified GSC data)</a></p>
 
 <p>I also built a free visibility report specifically for ${lead.businessName}:</p>
 
@@ -365,7 +365,7 @@ ${reportImageBlock(reportUrl, previewUrl, lead.businessName)}
 
 <p>Happy to walk through both on a 30-minute call.</p>
 
-<p><a href="${CALENDLY_URL}" target="_blank" style="color:#FF6A00;font-weight:bold;">Book a 30-min call</a></p>`);
+<p><a href="${CALENDLY_URL}" target="_blank" style="color:#F27D24;font-weight:bold;">Book a 30-min call</a></p>`);
 }
 
 // ============================================================
@@ -407,7 +407,7 @@ export function buildFollowUp1Html(lead: Lead): string {
 
 <p>The report breaks down exactly why and what to fix:</p>
 
-<p><a href="${reportUrl}" target="_blank" style="color:#FF6A00;font-weight:bold;">View Your AI Visibility Report</a></p>`);
+<p><a href="${reportUrl}" target="_blank" style="color:#F27D24;font-weight:bold;">View Your AI Visibility Report</a></p>`);
 }
 
 // ============================================================
@@ -450,11 +450,11 @@ export function buildFollowUp2Html(lead: Lead): string {
 
 <p>The starting point was the same analysis I built for you:</p>
 
-<p><a href="${reportUrl}" target="_blank" style="color:#FF6A00;font-weight:bold;">View Your AI Visibility Report</a></p>
+<p><a href="${reportUrl}" target="_blank" style="color:#F27D24;font-weight:bold;">View Your AI Visibility Report</a></p>
 
 <p>Worth a 30-minute conversation?</p>
 
-<p><a href="${CALENDLY_URL}" target="_blank" style="color:#FF6A00;font-weight:bold;">Book a 30-min call</a></p>`);
+<p><a href="${CALENDLY_URL}" target="_blank" style="color:#F27D24;font-weight:bold;">Book a 30-min call</a></p>`);
 }
 
 // ============================================================
@@ -491,7 +491,7 @@ export function buildFollowUp3Html(lead: Lead): string {
 
 <p>Your report is still live. The findings have not changed:</p>
 
-<p><a href="${reportUrl}" target="_blank" style="color:#FF6A00;font-weight:bold;">View Your AI Visibility Report</a></p>
+<p><a href="${reportUrl}" target="_blank" style="color:#F27D24;font-weight:bold;">View Your AI Visibility Report</a></p>
 
 <p>If the timing is better down the road, just reply to this email. Either way, the report is yours.</p>`);
 }
@@ -530,7 +530,7 @@ export function buildFollowUp4Html(lead: Lead): string {
 
 <p>The AI visibility report will stay live here if you ever want to revisit it:</p>
 
-<p><a href="${reportUrl}" target="_blank" style="color:#FF6A00;font-weight:bold;">View Your AI Visibility Report</a></p>
+<p><a href="${reportUrl}" target="_blank" style="color:#F27D24;font-weight:bold;">View Your AI Visibility Report</a></p>
 
 <p>Wishing you continued success.</p>`);
 }

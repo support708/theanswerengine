@@ -32,7 +32,7 @@ export const metadata: Metadata = {
     description,
     type: 'article',
     publishedTime: publishDate,
-    authors: ['The Answer Engine Team'],
+    authors: ['https://theanswerengine.ai/about'],
     url: `https://theanswerengine.ai/blog/${slug}`,
     images: [
       {
@@ -66,9 +66,18 @@ const jsonLd = {
       datePublished: publishDate,
       dateModified: publishDate,
       author: {
-        '@type': 'Organization',
-        name: 'The Answer Engine',
-        url: 'https://theanswerengine.ai',
+        '@type': 'Person',
+        '@id': 'https://theanswerengine.ai/about#justin-borges',
+        name: 'Justin Borges',
+        jobTitle: 'Founder, The Answer Engine',
+        worksFor: {
+          '@type': 'Organization',
+          name: 'The Answer Engine',
+          url: 'https://theanswerengine.ai',
+        },
+        knowsAbout: ['Answer Engine Optimization', 'AI Search', 'Content Strategy', 'Real Estate Marketing', 'Citation Surface'],
+        url: 'https://theanswerengine.ai/about',
+        image: 'https://theanswerengine.ai/justin-borges.webp',
       },
       publisher: {
         '@type': 'Organization',
@@ -222,7 +231,7 @@ export default function BlogPost() {
             </Link>
           </li>
           <li style={{ color: '#6B7280' }}>/</li>
-          <li style={{ color: '#FF6A00' }}>Franchise vs Independent AI Search</li>
+          <li style={{ color: '#F27D24' }}>Franchise vs Independent AI Search</li>
         </ol>
       </nav>
 
@@ -250,16 +259,16 @@ export default function BlogPost() {
         >
           <defs>
             <pattern id="heroGrid" x="0" y="0" width="60" height="60" patternUnits="userSpaceOnUse">
-              <path d="M 60 0 L 0 0 0 60" fill="none" stroke="#FF6A00" strokeWidth="0.5" />
+              <path d="M 60 0 L 0 0 0 60" fill="none" stroke="#F27D24" strokeWidth="0.5" />
             </pattern>
           </defs>
           <rect width="100%" height="100%" fill="url(#heroGrid)" />
-          <circle cx="200" cy="150" r="120" fill="none" stroke="#FF6A00" strokeWidth="0.5" />
-          <circle cx="1000" cy="400" r="180" fill="none" stroke="#FF6A00" strokeWidth="0.5" />
-          <polygon points="600,50 650,150 550,150" fill="none" stroke="#FF6A00" strokeWidth="0.5" />
-          <polygon points="900,100 960,220 840,220" fill="none" stroke="#FF6A00" strokeWidth="0.5" />
-          <line x1="0" y1="300" x2="1200" y2="300" stroke="#FF6A00" strokeWidth="0.3" />
-          <rect x="300" y="350" width="100" height="100" fill="none" stroke="#FF6A00" strokeWidth="0.5" transform="rotate(15 350 400)" />
+          <circle cx="200" cy="150" r="120" fill="none" stroke="#F27D24" strokeWidth="0.5" />
+          <circle cx="1000" cy="400" r="180" fill="none" stroke="#F27D24" strokeWidth="0.5" />
+          <polygon points="600,50 650,150 550,150" fill="none" stroke="#F27D24" strokeWidth="0.5" />
+          <polygon points="900,100 960,220 840,220" fill="none" stroke="#F27D24" strokeWidth="0.5" />
+          <line x1="0" y1="300" x2="1200" y2="300" stroke="#F27D24" strokeWidth="0.3" />
+          <rect x="300" y="350" width="100" height="100" fill="none" stroke="#F27D24" strokeWidth="0.5" transform="rotate(15 350 400)" />
         </svg>
 
         <div style={{ maxWidth: 800, margin: '0 auto', position: 'relative', zIndex: 1 }}>
@@ -855,7 +864,7 @@ export default function BlogPost() {
             href="/blindspot"
             style={{
               display: 'inline-block',
-              backgroundColor: '#FF6A00',
+              backgroundColor: '#F27D24',
               color: '#FFFFFF',
               padding: '16px 32px',
               borderRadius: 8,

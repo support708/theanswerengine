@@ -27,7 +27,7 @@ export const metadata: Metadata = {
     description,
     type: 'article',
     publishedTime: publishDate,
-    authors: ['The Answer Engine Team'],
+    authors: ['https://theanswerengine.ai/about'],
     url: `https://theanswerengine.ai/blog/${slug}`,
     images: [{ url: `https://theanswerengine.ai/blog/${slug}.webp`, width: 1200, height: 630, alt: title }],
   },
@@ -51,9 +51,18 @@ const jsonLd = {
       datePublished: publishDate,
       dateModified: publishDate,
       author: {
-        '@type': 'Organization',
-        name: 'The Answer Engine',
-        url: 'https://theanswerengine.ai',
+        '@type': 'Person',
+        '@id': 'https://theanswerengine.ai/about#justin-borges',
+        name: 'Justin Borges',
+        jobTitle: 'Founder, The Answer Engine',
+        worksFor: {
+          '@type': 'Organization',
+          name: 'The Answer Engine',
+          url: 'https://theanswerengine.ai',
+        },
+        knowsAbout: ['Answer Engine Optimization', 'AI Search', 'Content Strategy', 'Real Estate Marketing', 'Citation Surface'],
+        url: 'https://theanswerengine.ai/about',
+        image: 'https://theanswerengine.ai/justin-borges.webp',
       },
       publisher: {
         '@type': 'Organization',
@@ -179,29 +188,29 @@ export default function Page() {
                 <stop offset="100%" stopColor="#0F1117" />
               </radialGradient>
               <radialGradient id="art185-glow" cx="40%" cy="60%" r="45%">
-                <stop offset="0%" stopColor="#FF6A00" stopOpacity="0.12" />
-                <stop offset="100%" stopColor="#FF6A00" stopOpacity="0" />
+                <stop offset="0%" stopColor="#F27D24" stopOpacity="0.12" />
+                <stop offset="100%" stopColor="#F27D24" stopOpacity="0" />
               </radialGradient>
             </defs>
             <rect width="1200" height="400" fill="url(#art185-bg)" />
             <circle cx="480" cy="240" r="280" fill="url(#art185-glow)" />
             {/* Wrench */}
-            <rect x="440" y="160" width="80" height="20" rx="4" fill="none" stroke="#FF6A00" strokeWidth="2" strokeOpacity="0.5" />
-            <rect x="460" y="180" width="40" height="100" rx="4" fill="none" stroke="#FF6A00" strokeWidth="2" strokeOpacity="0.5" />
-            <circle cx="480" cy="155" r="20" fill="none" stroke="#FF6A00" strokeWidth="2" strokeOpacity="0.6" />
+            <rect x="440" y="160" width="80" height="20" rx="4" fill="none" stroke="#F27D24" strokeWidth="2" strokeOpacity="0.5" />
+            <rect x="460" y="180" width="40" height="100" rx="4" fill="none" stroke="#F27D24" strokeWidth="2" strokeOpacity="0.5" />
+            <circle cx="480" cy="155" r="20" fill="none" stroke="#F27D24" strokeWidth="2" strokeOpacity="0.6" />
             {/* AI response bubble */}
-            <rect x="580" y="130" width="320" height="140" rx="16" fill="#1e2235" stroke="#FF6A00" strokeWidth="1" strokeOpacity="0.3" />
-            <text x="600" y="162" fill="#FF6A00" fontSize="13" fontFamily="monospace" opacity="0.9">AI Response</text>
-            <line x1="600" y1="172" x2="880" y2="172" stroke="#FF6A00" strokeWidth="0.5" strokeOpacity="0.3" />
+            <rect x="580" y="130" width="320" height="140" rx="16" fill="#1e2235" stroke="#F27D24" strokeWidth="1" strokeOpacity="0.3" />
+            <text x="600" y="162" fill="#F27D24" fontSize="13" fontFamily="monospace" opacity="0.9">AI Response</text>
+            <line x1="600" y1="172" x2="880" y2="172" stroke="#F27D24" strokeWidth="0.5" strokeOpacity="0.3" />
             <text x="600" y="195" fill="#aaa" fontSize="12" fontFamily="monospace">"Best emergency plumber</text>
             <text x="600" y="214" fill="#aaa" fontSize="12" fontFamily="monospace"> near you..."</text>
-            <circle cx="615" cy="235" r="4" fill="#FF6A00" opacity="0.8" />
+            <circle cx="615" cy="235" r="4" fill="#F27D24" opacity="0.8" />
             <text x="625" y="238" fill="#eee" fontSize="11" fontFamily="monospace">Your Business Name</text>
             <circle cx="615" cy="253" r="4" fill="#555" opacity="0.5" />
             <text x="625" y="256" fill="#555" fontSize="11" fontFamily="monospace">Competitor</text>
             {/* Arrow */}
-            <path d="M530,200 Q555,200 575,200" stroke="#FF6A00" strokeWidth="1.5" strokeDasharray="5,3" fill="none" strokeOpacity="0.5" />
-            <polygon points="574,196 582,200 574,204" fill="#FF6A00" fillOpacity="0.5" />
+            <path d="M530,200 Q555,200 575,200" stroke="#F27D24" strokeWidth="1.5" strokeDasharray="5,3" fill="none" strokeOpacity="0.5" />
+            <polygon points="574,196 582,200 574,204" fill="#F27D24" fillOpacity="0.5" />
           </svg>
         </div>
 
@@ -249,7 +258,7 @@ export default function Page() {
         </div>
 
         <div className="ae-cta-inline not-prose">
-          <p>Wondering if ChatGPT even knows your plumbing business exists? <Link href="/blindspot" className="text-[#FF6A00] hover:underline font-semibold">Get a free Blind Spot Report</Link> and find out in minutes.</p>
+          <p>Wondering if ChatGPT even knows your plumbing business exists? <Link href="/blindspot" className="text-[#F27D24] hover:underline font-semibold">Get a free Blind Spot Report</Link> and find out in minutes.</p>
         </div>
 
         <h2 id="how-ai-finds-plumbers">How AI Finds Plumbers in Your Area</h2>
@@ -339,7 +348,7 @@ export default function Page() {
         </div>
 
         <div className="ae-cta-inline not-prose">
-          <p>Is your emergency signal strong enough for AI to notice? <Link href="/blindspot" className="text-[#FF6A00] hover:underline font-semibold">Find out free</Link> before a competitor takes that call.</p>
+          <p>Is your emergency signal strong enough for AI to notice? <Link href="/blindspot" className="text-[#F27D24] hover:underline font-semibold">Find out free</Link> before a competitor takes that call.</p>
         </div>
 
         <h2 id="review-signals">Why Your Reviews Are Being Read Wrong</h2>
@@ -398,7 +407,7 @@ export default function Page() {
         </div>
 
         <div className="ae-cta-inline not-prose">
-          <p>Not sure which cities AI associates with your plumbing business? <Link href="/blindspot" className="text-[#FF6A00] hover:underline font-semibold">Get your free Blind Spot Report</Link> and see your full coverage map.</p>
+          <p>Not sure which cities AI associates with your plumbing business? <Link href="/blindspot" className="text-[#F27D24] hover:underline font-semibold">Get your free Blind Spot Report</Link> and see your full coverage map.</p>
         </div>
 
         <h2 id="competitor-profile">What Top Competitors Are Doing Differently</h2>
@@ -506,23 +515,23 @@ export default function Page() {
         </div>
 
         <div className="ae-cta-inline not-prose">
-          <p>Know exactly where your gaps are. <Link href="/blindspot" className="text-[#FF6A00] hover:underline font-semibold">Get your free Blind Spot Report</Link> and see the full picture in minutes.</p>
+          <p>Know exactly where your gaps are. <Link href="/blindspot" className="text-[#F27D24] hover:underline font-semibold">Get your free Blind Spot Report</Link> and see the full picture in minutes.</p>
         </div>
 
         <div className="ae-callout ae-callout-info not-prose">
           <div className="ae-callout-title">Related Reading</div>
-          <p>Plumbing is part of the broader home services category. See <Link href="/blog/how-contractors-and-home-service-companies-win-ai-search" className="text-[#FF6A00] hover:underline">how contractors win AI search</Link> for patterns that apply across trades, and <Link href="/blog/how-home-service-companies-dominate-ai-search" className="text-[#FF6A00] hover:underline">how home service companies dominate AI search</Link> for the full competitive picture.</p>
+          <p>Plumbing is part of the broader home services category. See <Link href="/blog/how-contractors-and-home-service-companies-win-ai-search" className="text-[#F27D24] hover:underline">how contractors win AI search</Link> for patterns that apply across trades, and <Link href="/blog/how-home-service-companies-dominate-ai-search" className="text-[#F27D24] hover:underline">how home service companies dominate AI search</Link> for the full competitive picture.</p>
         </div>
 
         {/* 3-tier CTA block */}
-        <div className="not-prose my-16 p-8 rounded-2xl bg-gradient-to-br from-[#FF6A00]/10 to-transparent border border-[#FF6A00]/20">
+        <div className="not-prose my-16 p-8 rounded-2xl bg-gradient-to-br from-[#F27D24]/10 to-transparent border border-[#F27D24]/20">
           <h3 className="font-plus-jakarta text-2xl font-bold text-white mb-3">Find Out Why AI Is Recommending Other Plumbers Instead of You</h3>
           <p className="text-gray-400 mb-6">Our free Blind Spot Report shows exactly what ChatGPT, Perplexity, and Google AI know about your plumbing business, which signals are missing, and what it would take to appear in more recommendations.</p>
-          <Link href="/blindspot" className="inline-flex items-center gap-2 bg-[#FF6A00] text-white px-6 py-3 rounded-lg font-semibold hover:bg-[#e55f00] transition-colors">
+          <Link href="/blindspot" className="inline-flex items-center gap-2 bg-[#F27D24] text-white px-6 py-3 rounded-lg font-semibold hover:bg-[#D96416] transition-colors">
             Get Your Free Blind Spot Report
             <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" /></svg>
           </Link>
-          <div className="flex flex-wrap items-center gap-6 mt-6 pt-6 border-t border-[#FF6A00]/10">
+          <div className="flex flex-wrap items-center gap-6 mt-6 pt-6 border-t border-[#F27D24]/10">
             <a href="tel:+12134442229" className="flex items-center gap-2 text-gray-400 hover:text-white transition-colors">
               <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" /></svg>
               (213) 444-2229
@@ -535,13 +544,18 @@ export default function Page() {
         </div>
 
         {/* Author card */}
-        <div className="ae-author-card not-prose">
-          <div className="ae-author-avatar">AE</div>
-          <div>
-            <div className="font-semibold text-white">The Answer Engine Team</div>
-            <div className="text-sm text-gray-400">AI visibility specialists helping local businesses get found, trusted, and recommended by ChatGPT, Perplexity, and Google AI.</div>
-          </div>
-        </div>
+        <div className="ae-author-card">
+              <img
+                src="/justin-borges.webp"
+                alt="Justin Borges, Founder of The Answer Engine"
+                style={{ width: 64, height: 64, borderRadius: '50%', objectFit: 'cover', flexShrink: 0 }}
+              />
+              <div>
+                <div className="ae-author-name" style={{ fontWeight: 600 }}>Justin Borges</div>
+                <div className="ae-author-role" style={{ fontWeight: 400 }}>Founder, The Answer Engine</div>
+                <p style={{ marginTop: 8, fontSize: '0.875rem', color: 'rgba(255,255,255,0.65)', lineHeight: 1.6 }}>Justin Borges founded The Answer Engine in 2025 after 13+ years in real estate, $200M+ in production, and discovering that AI search rankings now decide who gets cited as the answer. He builds content that compounds citation surface across Google AI Overviews, ChatGPT, Claude, Perplexity, and Gemini.</p>
+              </div>
+            </div>
 
         {/* FAQ */}
         <h2 id="faq">Frequently Asked Questions</h2>
@@ -588,7 +602,7 @@ export default function Page() {
         <div className="ae-final-cta not-prose">
           <h2 className="font-plus-jakarta text-3xl font-bold text-white mb-4">The Next Emergency Call Could Be Yours</h2>
           <p className="text-gray-300 mb-8 text-lg">Every AI-referred emergency call that goes to a competitor is a lost job. Our Blind Spot Report shows exactly what AI sees when someone searches for a plumber in your area, and what you need to change to capture that call.</p>
-          <Link href="/blindspot" className="inline-flex items-center gap-2 bg-[#FF6A00] text-white px-8 py-4 rounded-xl font-bold text-lg hover:bg-[#e55f00] transition-colors ae-pulse-glow">
+          <Link href="/blindspot" className="inline-flex items-center gap-2 bg-[#F27D24] text-white px-8 py-4 rounded-xl font-bold text-lg hover:bg-[#D96416] transition-colors ae-pulse-glow">
             Get Your Free Blind Spot Report
             <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" /></svg>
           </Link>

@@ -75,7 +75,17 @@ function ComprehensiveSchema() {
         "dateModified": "2025-11-21T09:00:00-08:00",
         "author": {
           "@type": "Person",
-          "@id": "https://theanswerengine.ai/about#founder"
+          "@id": "https://theanswerengine.ai/about#justin-borges",
+          "name": "Justin Borges",
+          "jobTitle": "Founder, The Answer Engine",
+          "worksFor": {
+            "@type": "Organization",
+            "name": "The Answer Engine",
+            "url": "https://theanswerengine.ai"
+          },
+          "knowsAbout": ["Answer Engine Optimization", "AI Search", "Content Strategy", "Real Estate Marketing", "Citation Surface"],
+          "url": "https://theanswerengine.ai/about",
+          "image": "https://theanswerengine.ai/justin-borges.webp"
         },
         "publisher": {
           "@type": "Organization",
@@ -288,7 +298,7 @@ export default function HowChatGPTChoosesBusiness() {
             </div>
 
             {/* Featured Snippet */}
-            <div className="bg-white/[0.04] border-l-4 border-[#FF6A00] p-6 rounded-r-xl">
+            <div className="bg-white/[0.04] border-l-4 border-[#F27D24] p-6 rounded-r-xl">
               <p className="text-lg text-gray-300 leading-relaxed">
                 ChatGPT chooses businesses to recommend by evaluating expertise, content depth, local authority, and trust signals across seven core dimensions. It prioritizes companies that explain their processes clearly, demonstrate verifiable knowledge, and publish comprehensive educational content. Unlike Google, ChatGPT analyzes meaning and expertise, not keywords, to identify the most reliable businesses to recommend.
               </p>
@@ -320,7 +330,7 @@ export default function HowChatGPTChoosesBusiness() {
           </div>
 
           {/* Main Content */}
-          <div className="prose prose-invert prose-lg max-w-none prose-headings:font-plus-jakarta prose-headings:text-white prose-p:text-gray-300 prose-a:text-[#FF6A00] prose-a:no-underline hover:prose-a:underline prose-strong:text-white">
+          <div className="prose prose-invert prose-lg max-w-none prose-headings:font-plus-jakarta prose-headings:text-white prose-p:text-gray-300 prose-a:text-[#F27D24] prose-a:no-underline hover:prose-a:underline prose-strong:text-white">
 
             {/* Introduction */}
             <span className="ae-section-label">The New Reality</span>
@@ -1049,7 +1059,7 @@ export default function HowChatGPTChoosesBusiness() {
                 <strong>Written by JB</strong>
                 <p>Founder of The Answer Engine. Helping local service businesses get cited by AI platforms through deep expertise documentation and strategic content optimization. No pitch, just the data.</p>
                 <div style={{ display: 'flex', gap: '16px', marginTop: '8px', flexWrap: 'wrap' }}>
-                  <Link href="/blindspot" style={{ color: '#FF6A00', fontSize: '14px' }}>Free Blind Spot Report</Link>
+                  <Link href="/blindspot" style={{ color: '#F27D24', fontSize: '14px' }}>Free Blind Spot Report</Link>
                   <a href="tel:+12134442229" style={{ color: '#9ca3af', fontSize: '14px' }}>(213) 444-2229</a>
                   <a href="mailto:support@theanswerengine.ai" style={{ color: '#9ca3af', fontSize: '14px' }}>support@theanswerengine.ai</a>
                 </div>

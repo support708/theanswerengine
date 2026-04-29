@@ -179,7 +179,7 @@ export function renderMonthlyReportHtml(r: MonthlyReportData, firstName: string,
   const oppRows = r.page2Opportunities.length > 0
     ? r.page2Opportunities.map((q, i) => `
     <tr>
-      <td style="padding:8px 6px;border-bottom:1px solid #f0f0f0;font-family:${MONO};font-size:12px;color:#FF6A00;font-weight:700;width:26px;">${(i + 1).toString().padStart(2, '0')}</td>
+      <td style="padding:8px 6px;border-bottom:1px solid #f0f0f0;font-family:${MONO};font-size:12px;color:#F27D24;font-weight:700;width:26px;">${(i + 1).toString().padStart(2, '0')}</td>
       <td style="padding:8px 6px;border-bottom:1px solid #f0f0f0;font-size:13px;color:#1a1a1a;">${escapeHtml(q.query)}</td>
       <td style="padding:8px 6px;border-bottom:1px solid #f0f0f0;font-size:13px;color:#333;text-align:right;">${formatInt(q.impressions)}</td>
       <td style="padding:8px 6px;border-bottom:1px solid #f0f0f0;font-size:13px;color:#BF172E;font-weight:700;text-align:right;">${formatPos(q.position)}</td>
@@ -193,13 +193,13 @@ export function renderMonthlyReportHtml(r: MonthlyReportData, firstName: string,
 <!-- HERO METRICS -->
 <table role="presentation" cellpadding="0" cellspacing="0" border="0" width="100%" style="border-collapse:collapse;margin:0 0 26px 0;">
   <tr>
-    <td style="padding:16px;background:#fafafa;border-left:3px solid #FF6A00;width:50%;" valign="top">
+    <td style="padding:16px;background:#fafafa;border-left:3px solid #F27D24;width:50%;" valign="top">
       <div style="font-family:${MONO};font-size:10px;color:#888;letter-spacing:0.14em;text-transform:uppercase;margin-bottom:4px;">Impressions</div>
       <div style="font-family:${DISPLAY};font-size:28px;font-weight:900;color:#1a1a1a;letter-spacing:-0.02em;line-height:1;">${formatInt(r.totalImpressions)}</div>
       <div style="margin-top:4px;">${deltaBadge(r.deltaImpressions)} <span style="color:#888;font-size:11px;">vs prior month</span></div>
     </td>
     <td style="width:12px;"></td>
-    <td style="padding:16px;background:#fafafa;border-left:3px solid #FF6A00;width:50%;" valign="top">
+    <td style="padding:16px;background:#fafafa;border-left:3px solid #F27D24;width:50%;" valign="top">
       <div style="font-family:${MONO};font-size:10px;color:#888;letter-spacing:0.14em;text-transform:uppercase;margin-bottom:4px;">Clicks</div>
       <div style="font-family:${DISPLAY};font-size:28px;font-weight:900;color:#1a1a1a;letter-spacing:-0.02em;line-height:1;">${formatInt(r.totalClicks)}</div>
       <div style="margin-top:4px;">${deltaBadge(r.deltaClicks)} <span style="color:#888;font-size:11px;">vs prior month</span></div>
@@ -270,10 +270,10 @@ ${renderCohortSectionHtml(cohort)}
 </table>
 
 <!-- CTA -->
-<div style="background:#fafafa;border-left:4px solid #FF6A00;padding:18px 20px;margin:8px 0 20px 0;">
+<div style="background:#fafafa;border-left:4px solid #F27D24;padding:18px 20px;margin:8px 0 20px 0;">
   <p style="margin:0 0 8px 0;font-family:${DISPLAY};font-size:15px;font-weight:800;color:#1a1a1a;">Want to capture those page-2 queries?</p>
   <p style="margin:0 0 12px 0;font-size:13px;color:#555;">Reply to this email and we'll queue the next content batch targeted at your top opportunities.</p>
-  <a href="mailto:support@theanswerengine.ai?subject=Content%20Request%20-%20${encodeURIComponent(r.displayName)}" style="display:inline-block;background:#FF6A00;color:#000;font-family:${DISPLAY};font-size:12px;font-weight:900;padding:12px 20px;text-decoration:none;letter-spacing:-0.01em;text-transform:uppercase;">Request Content Batch &rarr;</a>
+  <a href="mailto:support@theanswerengine.ai?subject=Content%20Request%20-%20${encodeURIComponent(r.displayName)}" style="display:inline-block;background:#F27D24;color:#000;font-family:${DISPLAY};font-size:12px;font-weight:900;padding:12px 20px;text-decoration:none;letter-spacing:-0.01em;text-transform:uppercase;">Request Content Batch &rarr;</a>
 </div>
 
 <p style="margin:20px 0 0 0;font-size:11px;color:#aaa;">

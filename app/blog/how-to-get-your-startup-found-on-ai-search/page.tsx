@@ -38,10 +38,19 @@ const jsonLd = {
       "datePublished": "2026-04-08",
       "dateModified": "2026-04-08",
       "author": {
-        "@type": "Organization",
-        "name": "The Answer Engine Team",
-        "url": "https://theanswerengine.ai/about"
-      },
+          "@type": "Person",
+          "@id": "https://theanswerengine.ai/about#justin-borges",
+          "name": "Justin Borges",
+          "jobTitle": "Founder, The Answer Engine",
+          "worksFor": {
+            "@type": "Organization",
+            "name": "The Answer Engine",
+            "url": "https://theanswerengine.ai"
+          },
+          "knowsAbout": ["Answer Engine Optimization", "AI Search", "Content Strategy", "Real Estate Marketing", "Citation Surface"],
+          "url": "https://theanswerengine.ai/about",
+          "image": "https://theanswerengine.ai/justin-borges.webp"
+        },
       "publisher": {
         "@type": "Organization",
         "@id": "https://theanswerengine.ai/#organization"
@@ -164,7 +173,7 @@ export default function HowToGetYourStartupFoundOnAISearch() {
 
         {/* Hero Section */}
         <section className="relative overflow-hidden border-b border-white/5">
-          <div className="absolute inset-0 bg-gradient-to-br from-[#FF6A00]/10 via-transparent to-transparent" />
+          <div className="absolute inset-0 bg-gradient-to-br from-[#F27D24]/10 via-transparent to-transparent" />
           <svg className="absolute inset-0 w-full h-full opacity-[0.03]" aria-hidden="true">
             <defs>
               <pattern id="hero-grid-146" width="40" height="40" patternUnits="userSpaceOnUse">
@@ -175,12 +184,12 @@ export default function HowToGetYourStartupFoundOnAISearch() {
           </svg>
           <div className="relative max-w-4xl mx-auto px-6 py-16 sm:py-24">
             <Breadcrumb />
-            <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full mb-6 bg-[#FF6A00]/10 border border-[#FF6A00]/30">
-              <span className="text-sm font-semibold tracking-wider uppercase text-[#FF6A00]">How-To Guides</span>
+            <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full mb-6 bg-[#F27D24]/10 border border-[#F27D24]/30">
+              <span className="text-sm font-semibold tracking-wider uppercase text-[#F27D24]">How-To Guides</span>
             </div>
             <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold mb-6 text-white leading-tight font-plus-jakarta">
               How to Get Your Startup Found on{' '}
-              <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#FF6A00] to-orange-400">AI Search</span>
+              <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#F27D24] to-orange-400">AI Search</span>
             </h1>
             <p className="text-xl text-gray-300 mb-8 max-w-2xl leading-relaxed">
               Your startup launched. You built the product. You put up the website. And now AI platforms like ChatGPT and Perplexity act like you do not exist. Here is the uncomfortable truth about why that happens, and what it actually takes to change it.
@@ -202,7 +211,7 @@ export default function HowToGetYourStartupFoundOnAISearch() {
                 <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={2}>
                   <path strokeLinecap="round" strokeLinejoin="round" d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z" />
                 </svg>
-                <span>The Answer Engine Team</span>
+                <span>Justin Borges</span>
               </div>
             </div>
           </div>
@@ -210,7 +219,7 @@ export default function HowToGetYourStartupFoundOnAISearch() {
 
         {/* Article Body */}
         <article className="max-w-4xl mx-auto px-6 py-12 sm:py-16">
-          <div className="prose prose-invert prose-lg max-w-none prose-headings:font-plus-jakarta prose-headings:text-white prose-p:text-gray-300 prose-a:text-[#FF6A00] prose-a:no-underline hover:prose-a:underline prose-strong:text-white">
+          <div className="prose prose-invert prose-lg max-w-none prose-headings:font-plus-jakarta prose-headings:text-white prose-p:text-gray-300 prose-a:text-[#F27D24] prose-a:no-underline hover:prose-a:underline prose-strong:text-white">
 
             {/* STATS GRID */}
             <div className="ae-stats-grid not-prose">
@@ -381,7 +390,7 @@ export default function HowToGetYourStartupFoundOnAISearch() {
                     <th className="text-left px-5 py-4 text-gray-300 font-semibold bg-white/5">Signal Type</th>
                     <th className="text-left px-5 py-4 text-gray-300 font-semibold bg-white/5">AI Weight</th>
                     <th className="text-left px-5 py-4 text-gray-300 font-semibold bg-white/5">Startup Baseline</th>
-                    <th className="text-left px-5 py-4 text-[#FF6A00] font-semibold bg-[#FF6A00]/5">Impact on Citations</th>
+                    <th className="text-left px-5 py-4 text-[#F27D24] font-semibold bg-[#F27D24]/5">Impact on Citations</th>
                   </tr>
                 </thead>
                 <tbody>
@@ -389,43 +398,43 @@ export default function HowToGetYourStartupFoundOnAISearch() {
                     <td className="px-5 py-4 text-white font-medium">Third-party reviews (G2, Capterra)</td>
                     <td className="px-5 py-4 text-gray-300">Very High</td>
                     <td className="px-5 py-4 text-red-400">Typically zero</td>
-                    <td className="px-5 py-4 text-[#FF6A00]">3x higher citation rate with presence</td>
+                    <td className="px-5 py-4 text-[#F27D24]">3x higher citation rate with presence</td>
                   </tr>
                   <tr className="border-t border-white/5 bg-white/[0.02]">
                     <td className="px-5 py-4 text-white font-medium">Referring domain count</td>
                     <td className="px-5 py-4 text-gray-300">Very High</td>
                     <td className="px-5 py-4 text-red-400">Under 200</td>
-                    <td className="px-5 py-4 text-[#FF6A00]">3.5x gap vs. established brands</td>
+                    <td className="px-5 py-4 text-[#F27D24]">3.5x gap vs. established brands</td>
                   </tr>
                   <tr className="border-t border-white/5">
                     <td className="px-5 py-4 text-white font-medium">Reddit / community mentions</td>
                     <td className="px-5 py-4 text-gray-300">High</td>
                     <td className="px-5 py-4 text-yellow-400">Minimal</td>
-                    <td className="px-5 py-4 text-[#FF6A00]">4x higher surfacing probability</td>
+                    <td className="px-5 py-4 text-[#F27D24]">4x higher surfacing probability</td>
                   </tr>
                   <tr className="border-t border-white/5 bg-white/[0.02]">
                     <td className="px-5 py-4 text-white font-medium">Directory listings (authoritative)</td>
                     <td className="px-5 py-4 text-gray-300">High</td>
                     <td className="px-5 py-4 text-yellow-400">Incomplete</td>
-                    <td className="px-5 py-4 text-[#FF6A00]">Key corroboration signal</td>
+                    <td className="px-5 py-4 text-[#F27D24]">Key corroboration signal</td>
                   </tr>
                   <tr className="border-t border-white/5">
                     <td className="px-5 py-4 text-white font-medium">Press / editorial coverage</td>
                     <td className="px-5 py-4 text-gray-300">Medium-High</td>
                     <td className="px-5 py-4 text-red-400">Rare in year one</td>
-                    <td className="px-5 py-4 text-[#FF6A00]">Significant authority multiplier</td>
+                    <td className="px-5 py-4 text-[#F27D24]">Significant authority multiplier</td>
                   </tr>
                   <tr className="border-t border-white/5 bg-white/[0.02]">
                     <td className="px-5 py-4 text-white font-medium">Owned website content</td>
                     <td className="px-5 py-4 text-gray-300">Medium</td>
                     <td className="px-5 py-4 text-green-400">Controllable</td>
-                    <td className="px-5 py-4 text-[#FF6A00]">Foundation, not differentiator</td>
+                    <td className="px-5 py-4 text-[#F27D24]">Foundation, not differentiator</td>
                   </tr>
                   <tr className="border-t border-white/5">
                     <td className="px-5 py-4 text-white font-medium">Schema markup</td>
                     <td className="px-5 py-4 text-gray-300">Medium</td>
                     <td className="px-5 py-4 text-yellow-400">Often missing</td>
-                    <td className="px-5 py-4 text-[#FF6A00]">2.8x citation rate with structure</td>
+                    <td className="px-5 py-4 text-[#F27D24]">2.8x citation rate with structure</td>
                   </tr>
                 </tbody>
               </table>
@@ -473,7 +482,7 @@ export default function HowToGetYourStartupFoundOnAISearch() {
                 <thead>
                   <tr>
                     <th className="text-left px-5 py-4 text-gray-300 font-semibold bg-white/5">AI Evaluation Dimension</th>
-                    <th className="text-left px-5 py-4 text-[#FF6A00] font-semibold bg-[#FF6A00]/5">New Startup (Year 1)</th>
+                    <th className="text-left px-5 py-4 text-[#F27D24] font-semibold bg-[#F27D24]/5">New Startup (Year 1)</th>
                     <th className="text-left px-5 py-4 text-gray-300 font-semibold bg-white/5">Established Brand (5+ Years)</th>
                     <th className="text-left px-5 py-4 text-gray-300 font-semibold bg-white/5">Gap Closeable?</th>
                   </tr>
@@ -605,56 +614,56 @@ export default function HowToGetYourStartupFoundOnAISearch() {
               <h3 className="font-plus-jakarta text-xl font-bold text-white mb-4">Startup AI Visibility: Priority Checklist</h3>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
                 <div className="flex items-start gap-3 p-3 rounded-lg bg-white/5 border border-white/10">
-                  <span className="text-[#FF6A00] font-bold text-lg mt-0.5">01</span>
+                  <span className="text-[#F27D24] font-bold text-lg mt-0.5">01</span>
                   <div>
                     <p className="text-white font-semibold text-sm">Consistent NAP data everywhere</p>
                     <p className="text-gray-400 text-xs mt-0.5">Name, address, phone: identical across all platforms</p>
                   </div>
                 </div>
                 <div className="flex items-start gap-3 p-3 rounded-lg bg-white/5 border border-white/10">
-                  <span className="text-[#FF6A00] font-bold text-lg mt-0.5">02</span>
+                  <span className="text-[#F27D24] font-bold text-lg mt-0.5">02</span>
                   <div>
                     <p className="text-white font-semibold text-sm">Authoritative directory listings</p>
                     <p className="text-gray-400 text-xs mt-0.5">G2, Capterra, Crunchbase, industry-specific directories</p>
                   </div>
                 </div>
                 <div className="flex items-start gap-3 p-3 rounded-lg bg-white/5 border border-white/10">
-                  <span className="text-[#FF6A00] font-bold text-lg mt-0.5">03</span>
+                  <span className="text-[#F27D24] font-bold text-lg mt-0.5">03</span>
                   <div>
                     <p className="text-white font-semibold text-sm">Schema markup on every key page</p>
                     <p className="text-gray-400 text-xs mt-0.5">Organization, FAQPage, Article schemas at minimum</p>
                   </div>
                 </div>
                 <div className="flex items-start gap-3 p-3 rounded-lg bg-white/5 border border-white/10">
-                  <span className="text-[#FF6A00] font-bold text-lg mt-0.5">04</span>
+                  <span className="text-[#F27D24] font-bold text-lg mt-0.5">04</span>
                   <div>
                     <p className="text-white font-semibold text-sm">Review velocity on key platforms</p>
                     <p className="text-gray-400 text-xs mt-0.5">Aim for 20+ reviews in the first 90 days</p>
                   </div>
                 </div>
                 <div className="flex items-start gap-3 p-3 rounded-lg bg-white/5 border border-white/10">
-                  <span className="text-[#FF6A00] font-bold text-lg mt-0.5">05</span>
+                  <span className="text-[#F27D24] font-bold text-lg mt-0.5">05</span>
                   <div>
                     <p className="text-white font-semibold text-sm">FAQ content on every service page</p>
                     <p className="text-gray-400 text-xs mt-0.5">5-8 specific questions with definitive answers</p>
                   </div>
                 </div>
                 <div className="flex items-start gap-3 p-3 rounded-lg bg-white/5 border border-white/10">
-                  <span className="text-[#FF6A00] font-bold text-lg mt-0.5">06</span>
+                  <span className="text-[#F27D24] font-bold text-lg mt-0.5">06</span>
                   <div>
                     <p className="text-white font-semibold text-sm">Community presence (Reddit, LinkedIn)</p>
                     <p className="text-gray-400 text-xs mt-0.5">Genuine participation, not promotional posting</p>
                   </div>
                 </div>
                 <div className="flex items-start gap-3 p-3 rounded-lg bg-white/5 border border-white/10">
-                  <span className="text-[#FF6A00] font-bold text-lg mt-0.5">07</span>
+                  <span className="text-[#F27D24] font-bold text-lg mt-0.5">07</span>
                   <div>
                     <p className="text-white font-semibold text-sm">Quarterly content refresh cadence</p>
                     <p className="text-gray-400 text-xs mt-0.5">Update stats, add new data, revise outdated claims</p>
                   </div>
                 </div>
                 <div className="flex items-start gap-3 p-3 rounded-lg bg-white/5 border border-white/10">
-                  <span className="text-[#FF6A00] font-bold text-lg mt-0.5">08</span>
+                  <span className="text-[#F27D24] font-bold text-lg mt-0.5">08</span>
                   <div>
                     <p className="text-white font-semibold text-sm">Earned media and press mentions</p>
                     <p className="text-gray-400 text-xs mt-0.5">Even one strong industry blog mention compounds over time</p>
@@ -692,14 +701,14 @@ export default function HowToGetYourStartupFoundOnAISearch() {
             </div>
 
             {/* 3-TIER CTA BLOCK */}
-            <div className="not-prose my-16 p-8 rounded-2xl bg-gradient-to-br from-[#FF6A00]/10 to-transparent border border-[#FF6A00]/20">
+            <div className="not-prose my-16 p-8 rounded-2xl bg-gradient-to-br from-[#F27D24]/10 to-transparent border border-[#F27D24]/20">
               <h3 className="font-plus-jakarta text-2xl font-bold text-white mb-3">Launch Your Startup Into AI Search Results</h3>
               <p className="text-gray-400 mb-6">Our free Blind Spot Report shows exactly how AI platforms currently see your startup and where the biggest opportunities are to get recommended.</p>
-              <Link href="/blindspot" className="inline-flex items-center gap-2 bg-[#FF6A00] text-white px-6 py-3 rounded-lg font-semibold hover:bg-[#e55f00] transition-colors">
+              <Link href="/blindspot" className="inline-flex items-center gap-2 bg-[#F27D24] text-white px-6 py-3 rounded-lg font-semibold hover:bg-[#D96416] transition-colors">
                 Get Your Free Blind Spot Report
                 <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" /></svg>
               </Link>
-              <div className="flex flex-wrap items-center gap-6 mt-6 pt-6 border-t border-[#FF6A00]/10">
+              <div className="flex flex-wrap items-center gap-6 mt-6 pt-6 border-t border-[#F27D24]/10">
                 <a href="tel:+12134442229" className="flex items-center gap-2 text-gray-400 hover:text-white transition-colors">
                   <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" /></svg>
                   (213) 444-2229
@@ -712,17 +721,16 @@ export default function HowToGetYourStartupFoundOnAISearch() {
             </div>
 
             {/* AUTHOR CARD */}
-            <div className="ae-author-card not-prose">
-              <div className="ae-author-avatar">
-                <svg className="w-8 h-8 text-[#FF6A00]" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={1.5}>
-                  <path strokeLinecap="round" strokeLinejoin="round" d="M15.75 6a3.75 3.75 0 11-7.5 0 3.75 3.75 0 017.5 0zM4.501 20.118a7.5 7.5 0 0114.998 0A17.933 17.933 0 0112 21.75c-2.676 0-5.216-.584-7.499-1.632z" />
-                </svg>
-              </div>
-              <div className="ae-author-info">
-                <div className="ae-author-name">The Answer Engine Team</div>
-                <div className="ae-author-bio">
-                  The Answer Engine is an Answer Engine Optimization agency helping startups and growing businesses become the source AI platforms recommend. We track how ChatGPT, Perplexity, Google AI, Claude, and Gemini cite businesses, and we build the signal ecosystems that earn those citations.
-                </div>
+            <div className="ae-author-card">
+              <img
+                src="/justin-borges.webp"
+                alt="Justin Borges, Founder of The Answer Engine"
+                style={{ width: 64, height: 64, borderRadius: '50%', objectFit: 'cover', flexShrink: 0 }}
+              />
+              <div>
+                <div className="ae-author-name" style={{ fontWeight: 600 }}>Justin Borges</div>
+                <div className="ae-author-role" style={{ fontWeight: 400 }}>Founder, The Answer Engine</div>
+                <p style={{ marginTop: 8, fontSize: '0.875rem', color: 'rgba(255,255,255,0.65)', lineHeight: 1.6 }}>Justin Borges founded The Answer Engine in 2025 after 13+ years in real estate, $200M+ in production, and discovering that AI search rankings now decide who gets cited as the answer. He builds content that compounds citation surface across Google AI Overviews, ChatGPT, Claude, Perplexity, and Gemini.</p>
               </div>
             </div>
 
@@ -772,7 +780,7 @@ export default function HowToGetYourStartupFoundOnAISearch() {
               <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
                 <Link
                   href="/blindspot"
-                  className="inline-flex items-center gap-2 bg-[#FF6A00] text-white px-8 py-4 rounded-xl font-bold text-lg hover:bg-[#e55f00] transition-colors shadow-lg shadow-[#FF6A00]/25"
+                  className="inline-flex items-center gap-2 bg-[#F27D24] text-white px-8 py-4 rounded-xl font-bold text-lg hover:bg-[#D96416] transition-colors shadow-lg shadow-[#F27D24]/25"
                 >
                   Get Your Free Blind Spot Report
                   <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">

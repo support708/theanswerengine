@@ -56,9 +56,18 @@ const jsonLd = {
       datePublished: publishDate,
       dateModified: publishDate,
       author: {
-        '@type': 'Organization',
-        name: 'The Answer Engine Team',
+        '@type': 'Person',
+        '@id': 'https://theanswerengine.ai/about#justin-borges',
+        name: 'Justin Borges',
+        jobTitle: 'Founder, The Answer Engine',
+        worksFor: {
+          '@type': 'Organization',
+          name: 'The Answer Engine',
+          url: 'https://theanswerengine.ai',
+        },
+        knowsAbout: ['Answer Engine Optimization', 'AI Search', 'Content Strategy', 'Real Estate Marketing', 'Citation Surface'],
         url: 'https://theanswerengine.ai/about',
+        image: 'https://theanswerengine.ai/justin-borges.webp',
       },
       publisher: {
         '@type': 'Organization',
@@ -181,7 +190,7 @@ export default function HowFloristsWinAISearch() {
       <main className="min-h-screen bg-[#0F1117]">
         {/* Hero Section */}
         <section className="relative overflow-hidden border-b border-white/5">
-          <div className="absolute inset-0 bg-gradient-to-br from-[#FF6A00]/10 via-transparent to-transparent" />
+          <div className="absolute inset-0 bg-gradient-to-br from-[#F27D24]/10 via-transparent to-transparent" />
           <svg className="absolute inset-0 w-full h-full opacity-[0.03]" aria-hidden="true">
             <defs>
               <pattern id="hero-grid-florists" width="40" height="40" patternUnits="userSpaceOnUse">
@@ -192,12 +201,12 @@ export default function HowFloristsWinAISearch() {
           </svg>
           <div className="relative max-w-4xl mx-auto px-6 py-16 sm:py-24">
             <Breadcrumb />
-            <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full mb-6 bg-[#FF6A00]/10 border border-[#FF6A00]/30">
-              <span className="text-sm font-semibold tracking-wider uppercase text-[#FF6A00]">Industry Guides</span>
+            <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full mb-6 bg-[#F27D24]/10 border border-[#F27D24]/30">
+              <span className="text-sm font-semibold tracking-wider uppercase text-[#F27D24]">Industry Guides</span>
             </div>
             <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold mb-6 text-white leading-tight font-plus-jakarta">
               How Florists and Flower Shops{' '}
-              <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#FF6A00] to-orange-400">
+              <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#F27D24] to-orange-400">
                 Win AI Search
               </span>
             </h1>
@@ -222,7 +231,7 @@ export default function HowFloristsWinAISearch() {
                 <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={2}>
                   <path strokeLinecap="round" strokeLinejoin="round" d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z" />
                 </svg>
-                <span>The Answer Engine Team</span>
+                <span>Justin Borges</span>
               </div>
             </div>
           </div>
@@ -230,7 +239,7 @@ export default function HowFloristsWinAISearch() {
 
         {/* Article Body */}
         <article className="max-w-4xl mx-auto px-6 py-12 sm:py-16">
-          <div className="prose prose-invert prose-lg max-w-none prose-headings:font-plus-jakarta prose-headings:text-white prose-p:text-gray-300 prose-a:text-[#FF6A00] prose-a:no-underline hover:prose-a:underline prose-strong:text-white">
+          <div className="prose prose-invert prose-lg max-w-none prose-headings:font-plus-jakarta prose-headings:text-white prose-p:text-gray-300 prose-a:text-[#F27D24] prose-a:no-underline hover:prose-a:underline prose-strong:text-white">
 
             {/* STATS GRID */}
             <div className="ae-stats-grid not-prose">
@@ -709,25 +718,28 @@ export default function HowFloristsWinAISearch() {
           </div>
 
           {/* AUTHOR CARD */}
-          <div className="ae-author-card not-prose">
-            <div className="ae-author-avatar">
-              <span className="text-2xl">AE</span>
+          <div className="ae-author-card">
+              <img
+                src="/justin-borges.webp"
+                alt="Justin Borges, Founder of The Answer Engine"
+                style={{ width: 64, height: 64, borderRadius: '50%', objectFit: 'cover', flexShrink: 0 }}
+              />
+              <div>
+                <div className="ae-author-name" style={{ fontWeight: 600 }}>Justin Borges</div>
+                <div className="ae-author-role" style={{ fontWeight: 400 }}>Founder, The Answer Engine</div>
+                <p style={{ marginTop: 8, fontSize: '0.875rem', color: 'rgba(255,255,255,0.65)', lineHeight: 1.6 }}>Justin Borges founded The Answer Engine in 2025 after 13+ years in real estate, $200M+ in production, and discovering that AI search rankings now decide who gets cited as the answer. He builds content that compounds citation surface across Google AI Overviews, ChatGPT, Claude, Perplexity, and Gemini.</p>
+              </div>
             </div>
-            <div className="ae-author-info">
-              <div className="ae-author-name">The Answer Engine Team</div>
-              <div className="ae-author-bio">We help local florists, flower shops, and floral designers become the answer when customers ask AI for recommendations. Our team specializes in Answer Engine Optimization: making your business visible, verifiable, and recommended by ChatGPT, Google AI, Perplexity, and every other AI platform that drives customer discovery in the floral industry.</div>
-            </div>
-          </div>
 
           {/* 3-TIER CTA BLOCK */}
-          <div className="not-prose my-16 p-8 rounded-2xl bg-gradient-to-br from-[#FF6A00]/10 to-transparent border border-[#FF6A00]/20">
+          <div className="not-prose my-16 p-8 rounded-2xl bg-gradient-to-br from-[#F27D24]/10 to-transparent border border-[#F27D24]/20">
             <h3 className="font-plus-jakarta text-2xl font-bold text-white mb-3">Is Your Flower Shop Invisible to AI Search?</h3>
             <p className="text-gray-400 mb-6">Get a free Blind Spot Report showing exactly what AI platforms say when customers search for a florist in your area. See your gaps, your competitors, and your opportunity before the next occasion rush.</p>
-            <Link href="/blindspot" className="inline-flex items-center gap-2 bg-[#FF6A00] text-white px-6 py-3 rounded-lg font-semibold hover:bg-[#e55f00] transition-colors">
+            <Link href="/blindspot" className="inline-flex items-center gap-2 bg-[#F27D24] text-white px-6 py-3 rounded-lg font-semibold hover:bg-[#D96416] transition-colors">
               Get Your Free Blind Spot Report
               <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" /></svg>
             </Link>
-            <div className="flex flex-wrap items-center gap-6 mt-6 pt-6 border-t border-[#FF6A00]/10">
+            <div className="flex flex-wrap items-center gap-6 mt-6 pt-6 border-t border-[#F27D24]/10">
               <a href="tel:+12134442229" className="flex items-center gap-2 text-gray-400 hover:text-white transition-colors">
                 <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" /></svg>
                 (213) 444-2229
@@ -740,7 +752,7 @@ export default function HowFloristsWinAISearch() {
           </div>
 
           {/* FAQ SECTION */}
-          <div className="prose prose-invert prose-lg max-w-none prose-headings:font-plus-jakarta prose-headings:text-white prose-p:text-gray-300 prose-a:text-[#FF6A00] prose-a:no-underline hover:prose-a:underline prose-strong:text-white">
+          <div className="prose prose-invert prose-lg max-w-none prose-headings:font-plus-jakarta prose-headings:text-white prose-p:text-gray-300 prose-a:text-[#F27D24] prose-a:no-underline hover:prose-a:underline prose-strong:text-white">
             <span className="ae-section-label" id="faq">FAQ</span>
             <h2>Frequently Asked Questions</h2>
 
@@ -805,7 +817,7 @@ export default function HowFloristsWinAISearch() {
             <h2 className="font-plus-jakarta">Local Florists Deserve to Win AI Search.</h2>
             <p>Find out what ChatGPT, Google AI, and Perplexity say when a customer searches for flowers in your city and for the occasions you specialize in. Our free Blind Spot Report shows you the gaps and the path to being the florist AI recommends.</p>
             <Link href="/blindspot" className="ae-final-cta-pulse">Get Your Free Blind Spot Report &rarr;</Link>
-            <div className="flex flex-wrap items-center justify-center gap-6 mt-6 pt-6 border-t border-[#FF6A00]/10">
+            <div className="flex flex-wrap items-center justify-center gap-6 mt-6 pt-6 border-t border-[#F27D24]/10">
               <a href="tel:+12134442229" className="flex items-center gap-2 text-gray-400 hover:text-white transition-colors">
                 <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" /></svg>
                 (213) 444-2229

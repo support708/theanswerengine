@@ -342,7 +342,7 @@ export function loadAuthorityIndexHistory(slug: string): AuthorityIndexEntry[] {
  */
 export function renderAuthorityIndexHtml(result: AuthorityIndexResult, options: { rawDelta?: boolean } = {}): string {
   const DISPLAY = `'Space Grotesk','Inter','Helvetica Neue',Arial,sans-serif`;
-  const BRAND = '#FF6A00';
+  const BRAND = '#F27D24';
 
   const deltaLine = (() => {
     if (result.deltaFromLast === null) return 'Your first reading — baseline captured.';

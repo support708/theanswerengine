@@ -38,10 +38,19 @@ const jsonLd = {
       "datePublished": "2026-03-17",
       "dateModified": "2026-03-17",
       "author": {
-        "@type": "Organization",
-        "name": "The Answer Engine Team",
-        "url": "https://theanswerengine.ai/about"
-      },
+          "@type": "Person",
+          "@id": "https://theanswerengine.ai/about#justin-borges",
+          "name": "Justin Borges",
+          "jobTitle": "Founder, The Answer Engine",
+          "worksFor": {
+            "@type": "Organization",
+            "name": "The Answer Engine",
+            "url": "https://theanswerengine.ai"
+          },
+          "knowsAbout": ["Answer Engine Optimization", "AI Search", "Content Strategy", "Real Estate Marketing", "Citation Surface"],
+          "url": "https://theanswerengine.ai/about",
+          "image": "https://theanswerengine.ai/justin-borges.webp"
+        },
       "publisher": {
         "@type": "Organization",
         "@id": "https://theanswerengine.ai/#organization"
@@ -147,7 +156,7 @@ export default function HowHomeServiceCompaniesDominateAISearch() {
       <main className="min-h-screen bg-[#0F1117]">
         {/* Hero Section */}
         <section className="relative overflow-hidden border-b border-white/5">
-          <div className="absolute inset-0 bg-gradient-to-br from-[#FF6A00]/10 via-transparent to-transparent" />
+          <div className="absolute inset-0 bg-gradient-to-br from-[#F27D24]/10 via-transparent to-transparent" />
           <svg className="absolute inset-0 w-full h-full opacity-[0.03]" aria-hidden="true">
             <defs>
               <pattern id="hero-grid" width="40" height="40" patternUnits="userSpaceOnUse">
@@ -158,12 +167,12 @@ export default function HowHomeServiceCompaniesDominateAISearch() {
           </svg>
           <div className="relative max-w-4xl mx-auto px-6 py-16 sm:py-24">
             <Breadcrumb />
-            <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full mb-6 bg-[#FF6A00]/10 border border-[#FF6A00]/30">
-              <span className="text-sm font-semibold tracking-wider uppercase text-[#FF6A00]">Industry Guides</span>
+            <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full mb-6 bg-[#F27D24]/10 border border-[#F27D24]/30">
+              <span className="text-sm font-semibold tracking-wider uppercase text-[#F27D24]">Industry Guides</span>
             </div>
             <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold mb-6 text-white leading-tight">
               How Home Service Companies Are Dominating AI Search{' '}
-              <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#FF6A00] to-orange-400">Right Now</span>
+              <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#F27D24] to-orange-400">Right Now</span>
             </h1>
             <p className="text-xl text-gray-300 mb-8 max-w-2xl leading-relaxed">
               The contractors getting calls from ChatGPT and Google AI are not lucky. They are doing specific things that most competitors are not. Here is the playbook.
@@ -185,7 +194,7 @@ export default function HowHomeServiceCompaniesDominateAISearch() {
                 <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={2}>
                   <path strokeLinecap="round" strokeLinejoin="round" d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z" />
                 </svg>
-                <span>The Answer Engine Team</span>
+                <span>Justin Borges</span>
               </div>
             </div>
           </div>
@@ -193,7 +202,7 @@ export default function HowHomeServiceCompaniesDominateAISearch() {
 
         {/* Article Body */}
         <article className="max-w-4xl mx-auto px-6 py-12 sm:py-16">
-          <div className="prose prose-invert prose-lg max-w-none prose-headings:font-plus-jakarta prose-headings:text-white prose-p:text-gray-300 prose-a:text-[#FF6A00] prose-a:no-underline hover:prose-a:underline prose-strong:text-white">
+          <div className="prose prose-invert prose-lg max-w-none prose-headings:font-plus-jakarta prose-headings:text-white prose-p:text-gray-300 prose-a:text-[#F27D24] prose-a:no-underline hover:prose-a:underline prose-strong:text-white">
 
             {/* ── STATS GRID ── */}
             <div className="ae-stats-grid not-prose">
@@ -712,7 +721,7 @@ export default function HowHomeServiceCompaniesDominateAISearch() {
             <h2>Is Your Home Service Company Visible to AI?</h2>
             <p>Find out exactly what ChatGPT, Google AI, and Perplexity say when someone asks about businesses like yours. Our free Blind Spot Report shows you the gaps and the opportunities in your AI visibility.</p>
             <Link href="/blindspot" className="ae-final-cta-pulse">Get Your Free Blind Spot Report &rarr;</Link>
-            <div className="flex flex-wrap items-center justify-center gap-6 mt-6 pt-6 border-t border-[#FF6A00]/10">
+            <div className="flex flex-wrap items-center justify-center gap-6 mt-6 pt-6 border-t border-[#F27D24]/10">
               <a href="tel:+12134442229" className="flex items-center gap-2 text-gray-400 hover:text-white transition-colors">
                 <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" /></svg>
                 (213) 444-2229
@@ -727,11 +736,11 @@ export default function HowHomeServiceCompaniesDominateAISearch() {
 
           {/* ── AUTHOR CARD ── */}
           <div className="ae-author-card not-prose">
-            <div className="w-12 h-12 rounded-full bg-[#FF6A00] flex items-center justify-center text-white font-bold text-lg shrink-0">
+            <div className="w-12 h-12 rounded-full bg-[#F27D24] flex items-center justify-center text-white font-bold text-lg shrink-0">
               AE
             </div>
             <div>
-              <p className="text-white font-semibold">The Answer Engine Team</p>
+              <p className="text-white font-semibold">Justin Borges</p>
               <p className="text-sm text-gray-400">
                 We help local service businesses get found, cited, and recommended by AI platforms. Our team tracks AI search trends daily so you do not have to.
               </p>

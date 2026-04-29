@@ -164,7 +164,7 @@ export function renderCannibalizationInner(displayName: string, cases: Cannibali
         })
         .join('');
       return `
-<div style="margin-bottom:16px;padding:12px;background:#fafafa;border-left:3px solid #FF6A00;">
+<div style="margin-bottom:16px;padding:12px;background:#fafafa;border-left:3px solid #F27D24;">
   <div style="margin-bottom:6px;">
     <b style="font-size:14px;color:#1a1a1a;">${escapeHtml(c.query)}</b>
     ${sevBadge(c.severity)}

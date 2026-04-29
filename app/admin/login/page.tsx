@@ -39,7 +39,7 @@ export default function AdminLoginPage() {
     <div className="min-h-screen bg-[#0F1117] flex items-center justify-center px-4">
       <div className="w-full max-w-sm">
         <div className="text-center mb-8">
-          <div className="text-[#FF6A00] text-sm font-semibold tracking-widest uppercase mb-2">
+          <div className="text-[#F27D24] text-sm font-semibold tracking-widest uppercase mb-2">
             Admin Access
           </div>
           <h1 className="text-2xl font-bold text-white">
@@ -63,7 +63,7 @@ export default function AdminLoginPage() {
               placeholder="Enter admin password"
               required
               autoFocus
-              className="w-full px-4 py-3 bg-zinc-900 border border-zinc-700 rounded-lg text-white placeholder-zinc-500 focus:outline-none focus:border-[#FF6A00] focus:ring-1 focus:ring-[#FF6A00] transition-colors"
+              className="w-full px-4 py-3 bg-zinc-900 border border-zinc-700 rounded-lg text-white placeholder-zinc-500 focus:outline-none focus:border-[#F27D24] focus:ring-1 focus:ring-[#F27D24] transition-colors"
             />
           </div>
 
@@ -76,7 +76,7 @@ export default function AdminLoginPage() {
           <button
             type="submit"
             disabled={loading || !password}
-            className="w-full py-3 bg-[#FF6A00] hover:bg-[#e55f00] disabled:opacity-50 disabled:cursor-not-allowed text-white font-semibold rounded-lg transition-colors"
+            className="w-full py-3 bg-[#F27D24] hover:bg-[#D96416] disabled:opacity-50 disabled:cursor-not-allowed text-white font-semibold rounded-lg transition-colors"
           >
             {loading ? 'Authenticating...' : 'Sign In'}
           </button>

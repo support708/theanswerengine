@@ -45,8 +45,11 @@ export default function JustinBorgesCaseStudy() {
         "dateModified": "2026-03-04",
         "author": {
           "@type": "Person",
-          "name": "JB",
-          "url": "https://theanswerengine.ai/about"
+          "@id": "https://www.theanswerengine.ai/about#justin-borges",
+          "name": "Justin Borges",
+          "jobTitle": "Founder, The Answer Engine",
+          "url": "https://theanswerengine.ai/about",
+          "image": "https://theanswerengine.ai/justin-borges.webp"
         },
         "publisher": {
           "@type": "Organization",

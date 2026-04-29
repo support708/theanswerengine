@@ -18,7 +18,7 @@ export const metadata: Metadata = {
     description,
     type: 'article',
     publishedTime: publishDate,
-    authors: ['The Answer Engine Team'],
+    authors: ['https://theanswerengine.ai/about'],
     url: `https://theanswerengine.ai/blog/${slug}`,
     images: [{ url: `https://theanswerengine.ai/blog/${slug}.svg`, width: 1200, height: 630, alt: title }],
     siteName: 'The Answer Engine',
@@ -37,7 +37,20 @@ const jsonLd = {
       image: `https://theanswerengine.ai/blog/${slug}.svg`,
       datePublished: publishDate,
       dateModified: publishDate,
-      author: { '@type': 'Organization', name: 'The Answer Engine', url: 'https://theanswerengine.ai' },
+      author: {
+        '@type': 'Person',
+        '@id': 'https://theanswerengine.ai/about#justin-borges',
+        name: 'Justin Borges',
+        jobTitle: 'Founder, The Answer Engine',
+        worksFor: {
+          '@type': 'Organization',
+          name: 'The Answer Engine',
+          url: 'https://theanswerengine.ai',
+        },
+        knowsAbout: ['Answer Engine Optimization', 'AI Search', 'Content Strategy', 'Real Estate Marketing', 'Citation Surface'],
+        url: 'https://theanswerengine.ai/about',
+        image: 'https://theanswerengine.ai/justin-borges.webp',
+      },
       publisher: {
         '@type': 'Organization',
         name: 'The Answer Engine',
@@ -122,9 +135,9 @@ export default function BlogPost() {
       {/* BREADCRUMB */}
       <div className="max-w-4xl mx-auto px-6 pt-20 pb-4">
         <nav className="flex items-center gap-2 text-sm text-gray-500">
-          <Link href="/" className="hover:text-[#FF6A00] transition-colors">Home</Link>
+          <Link href="/" className="hover:text-[#F27D24] transition-colors">Home</Link>
           <span>/</span>
-          <Link href="/blog" className="hover:text-[#FF6A00] transition-colors">Blog</Link>
+          <Link href="/blog" className="hover:text-[#F27D24] transition-colors">Blog</Link>
           <span>/</span>
           <span className="text-gray-400">Does Having a Blog Help AI Recommend You?</span>
         </nav>
@@ -133,7 +146,7 @@ export default function BlogPost() {
       {/* HEADER */}
       <header className="max-w-4xl mx-auto px-6 pb-12">
         <div className="flex items-center gap-3 mb-6">
-          <span className="bg-[#FF6A00]/10 text-[#FF6A00] px-3 py-1 rounded-full text-xs font-semibold tracking-wide uppercase">Myth Busters</span>
+          <span className="bg-[#F27D24]/10 text-[#F27D24] px-3 py-1 rounded-full text-xs font-semibold tracking-wide uppercase">Myth Busters</span>
           <time className="text-gray-500 text-sm">{publishDate}</time>
         </div>
         <h1 className="font-plus-jakarta text-4xl md:text-5xl font-bold text-white leading-tight mb-6">{title}</h1>
@@ -141,14 +154,14 @@ export default function BlogPost() {
           You have a blog. You publish regularly. You cover the topics your customers search for. So why isn&apos;t ChatGPT recommending you? The uncomfortable answer: most business blogs are structured for humans and ignored by AI. Here is the evidence, the nuance, and the exact line between a blog that gets cited and one that gets skipped.
         </p>
         <div className="flex flex-wrap gap-4 mt-6 text-sm text-gray-500">
-          <span>By The Answer Engine Team</span>
+          <span>By Justin Borges</span>
           <span>8 min read</span>
           <span>Updated {publishDate}</span>
         </div>
       </header>
 
       <article className="max-w-4xl mx-auto px-6 pb-20">
-        <div className="prose prose-invert prose-lg max-w-none prose-headings:font-plus-jakarta prose-headings:text-white prose-p:text-gray-300 prose-a:text-[#FF6A00] prose-a:no-underline hover:prose-a:underline prose-strong:text-white">
+        <div className="prose prose-invert prose-lg max-w-none prose-headings:font-plus-jakarta prose-headings:text-white prose-p:text-gray-300 prose-a:text-[#F27D24] prose-a:no-underline hover:prose-a:underline prose-strong:text-white">
 
           {/* TABLE OF CONTENTS */}
           <div className="ae-toc not-prose">
@@ -617,17 +630,18 @@ export default function BlogPost() {
           </div>
 
           {/* AUTHOR CARD */}
-          <div className="ae-author-card not-prose">
-            <div className="ae-author-avatar">AE</div>
-            <div className="ae-author-info">
-              <div className="ae-author-name">The Answer Engine Team</div>
-              <div className="ae-author-bio">We help businesses get recommended by ChatGPT, Perplexity, and Google AI. Our team analyzes AI citation patterns, content structure, and authority signals across thousands of business categories so your brand shows up when customers ask AI for recommendations.</div>
-              <div className="ae-author-links">
-                <Link href="/about">About Us</Link>
-                <Link href="/contact">Work With Us</Link>
+          <div className="ae-author-card">
+              <img
+                src="/justin-borges.webp"
+                alt="Justin Borges, Founder of The Answer Engine"
+                style={{ width: 64, height: 64, borderRadius: '50%', objectFit: 'cover', flexShrink: 0 }}
+              />
+              <div>
+                <div className="ae-author-name" style={{ fontWeight: 600 }}>Justin Borges</div>
+                <div className="ae-author-role" style={{ fontWeight: 400 }}>Founder, The Answer Engine</div>
+                <p style={{ marginTop: 8, fontSize: '0.875rem', color: 'rgba(255,255,255,0.65)', lineHeight: 1.6 }}>Justin Borges founded The Answer Engine in 2025 after 13+ years in real estate, $200M+ in production, and discovering that AI search rankings now decide who gets cited as the answer. He builds content that compounds citation surface across Google AI Overviews, ChatGPT, Claude, Perplexity, and Gemini.</p>
               </div>
             </div>
-          </div>
 
           {/* 3-TIER CTA BLOCK */}
           <div className="ae-cta-block not-prose" id="cta-main">

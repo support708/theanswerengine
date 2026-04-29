@@ -32,7 +32,7 @@ export const metadata: Metadata = {
     description,
     type: 'article',
     publishedTime: publishDate,
-    authors: ['The Answer Engine Team'],
+    authors: ['https://theanswerengine.ai/about'],
     url: `https://theanswerengine.ai/blog/${slug}`,
     images: [{ url: `https://theanswerengine.ai/blog/${slug}.webp`, width: 1200, height: 630, alt: title }],
     siteName: 'The Answer Engine',
@@ -51,7 +51,20 @@ const jsonLd = {
       image: `https://theanswerengine.ai/blog/${slug}.webp`,
       datePublished: publishDate,
       dateModified: publishDate,
-      author: { '@type': 'Organization', name: 'The Answer Engine', url: 'https://theanswerengine.ai' },
+      author: {
+        '@type': 'Person',
+        '@id': 'https://theanswerengine.ai/about#justin-borges',
+        name: 'Justin Borges',
+        jobTitle: 'Founder, The Answer Engine',
+        worksFor: {
+          '@type': 'Organization',
+          name: 'The Answer Engine',
+          url: 'https://theanswerengine.ai',
+        },
+        knowsAbout: ['Answer Engine Optimization', 'AI Search', 'Content Strategy', 'Real Estate Marketing', 'Citation Surface'],
+        url: 'https://theanswerengine.ai/about',
+        image: 'https://theanswerengine.ai/justin-borges.webp',
+      },
       publisher: {
         '@type': 'Organization',
         name: 'The Answer Engine',
@@ -165,14 +178,14 @@ export default function BlogPost() {
       <section className="relative overflow-hidden bg-[#131313] grid-bg border-b border-white/10">
         <div className="relative max-w-4xl mx-auto px-6 pt-24 pb-16">
           <nav className="flex items-center gap-2 text-sm text-white/40 mb-8">
-            <Link href="/" className="hover:text-[#FF6A00] transition-colors">Home</Link>
+            <Link href="/" className="hover:text-[#F27D24] transition-colors">Home</Link>
             <span>/</span>
-            <Link href="/blog" className="hover:text-[#FF6A00] transition-colors">Blog</Link>
+            <Link href="/blog" className="hover:text-[#F27D24] transition-colors">Blog</Link>
             <span>/</span>
             <span className="text-white/30">Keyword Stuffing Myth</span>
           </nav>
 
-          <span className="font-mono text-[10px] text-[#FF6A00] tracking-widest uppercase block mb-4">&#9679; MYTH BUSTERS // The Answer Engine Intel</span>
+          <span className="font-mono text-[10px] text-[#F27D24] tracking-widest uppercase block mb-4">&#9679; MYTH BUSTERS // The Answer Engine Intel</span>
 
           <h1 className="font-headline font-black text-4xl md:text-6xl tracking-tighter uppercase text-[#e5e2e1] mb-6">
             {title}
@@ -183,7 +196,7 @@ export default function BlogPost() {
           </p>
 
           <div className="flex flex-wrap gap-4 text-sm text-gray-400">
-            <span>By The Answer Engine Team</span>
+            <span>By Justin Borges</span>
             <span>{publishDate}</span>
             <span>13 min read</span>
           </div>
@@ -231,13 +244,13 @@ export default function BlogPost() {
 
         {/* SECTION 1: THE MYTH */}
         <section id="the-myth" className="-mx-6 px-6 py-12 bg-[#131313] border-t border-white/10">
-          <span className="font-mono text-[10px] text-[#FF6A00] tracking-widest uppercase block mb-3">
+          <span className="font-mono text-[10px] text-[#F27D24] tracking-widest uppercase block mb-3">
             &#9679; MYTH BUSTERS // The Answer Engine Intel
           </span>
           <h2 className="font-headline font-black text-2xl md:text-3xl tracking-tighter uppercase text-[#e5e2e1] mb-6">
-            THE KEYWORD STUFFING <span className="text-[#FF6A00]">MYTH</span>
+            THE KEYWORD STUFFING <span className="text-[#F27D24]">MYTH</span>
           </h2>
-          <div className="prose prose-invert prose-lg max-w-none prose-p:text-gray-300 prose-a:text-[#FF6A00] prose-a:no-underline hover:prose-a:underline prose-strong:text-white">
+          <div className="prose prose-invert prose-lg max-w-none prose-p:text-gray-300 prose-a:text-[#F27D24] prose-a:no-underline hover:prose-a:underline prose-strong:text-white">
             <p>For most of the internet era, keyword density was treated like a volume knob. More keywords meant higher relevance scores. Marketers stuffed keywords into titles, headings, body copy, alt text, meta descriptions, and even hidden white-on-white text that users could not see but crawlers could read. And for a window of time, it worked.</p>
             <p>That window closed for traditional search years ago when Google introduced semantic search capabilities. For AI platforms, that window never opened. ChatGPT, Perplexity, Claude, and Google AI Overviews were built on large language models that understand context and meaning from the first line of their architecture. There is no keyword count to exploit.</p>
           </div>
@@ -245,7 +258,7 @@ export default function BlogPost() {
             <div className="ae-callout-title">The Core Misunderstanding</div>
             <p>Most businesses approaching AI search assume it works like Google did in 2008. It does not. AI platforms do not rank pages by keywords. They synthesize answers from trusted sources. The question is not &ldquo;did you mention your target phrase enough times?&rdquo; It is &ldquo;does AI trust your business enough to cite it?&rdquo; Those are entirely different questions with entirely different answers.</p>
           </div>
-          <div className="prose prose-invert prose-lg max-w-none prose-p:text-gray-300 prose-a:text-[#FF6A00] prose-a:no-underline hover:prose-a:underline prose-strong:text-white mt-6">
+          <div className="prose prose-invert prose-lg max-w-none prose-p:text-gray-300 prose-a:text-[#F27D24] prose-a:no-underline hover:prose-a:underline prose-strong:text-white mt-6">
             <p>The keyword stuffing myth persists because the underlying intuition feels reasonable. If AI is searching for information about plumbers in Los Angeles, then a page mentioning &ldquo;plumber Los Angeles&rdquo; fifty times should be highly relevant, right? Wrong. The AI is not scanning for phrase matches. It is evaluating whether your business represents genuine, verifiable expertise in your field and location.</p>
             <p>Understanding why requires a clear picture of how AI platforms actually process content.</p>
           </div>
@@ -257,13 +270,13 @@ export default function BlogPost() {
 
         {/* SECTION 2: HOW AI READS */}
         <section id="how-ai-reads" className="-mx-6 px-6 py-12 bg-[#1c1b1b] border-t border-white/10">
-          <span className="font-mono text-[10px] text-[#FF6A00] tracking-widest uppercase block mb-3">
+          <span className="font-mono text-[10px] text-[#F27D24] tracking-widest uppercase block mb-3">
             &#9679; HOW IT WORKS // The Answer Engine Intel
           </span>
           <h2 className="font-headline font-black text-2xl md:text-3xl tracking-tighter uppercase text-[#e5e2e1] mb-6">
-            HOW AI ACTUALLY <span className="text-[#FF6A00]">READS</span> YOUR CONTENT
+            HOW AI ACTUALLY <span className="text-[#F27D24]">READS</span> YOUR CONTENT
           </h2>
-          <div className="prose prose-invert prose-lg max-w-none prose-p:text-gray-300 prose-a:text-[#FF6A00] prose-a:no-underline hover:prose-a:underline prose-strong:text-white">
+          <div className="prose prose-invert prose-lg max-w-none prose-p:text-gray-300 prose-a:text-[#F27D24] prose-a:no-underline hover:prose-a:underline prose-strong:text-white">
             <p>When an AI platform like ChatGPT encounters your website, it is not performing a keyword match. It is performing semantic analysis across multiple dimensions simultaneously. The model evaluates what your content means, not just what words appear in it.</p>
             <p>This distinction matters enormously. Two pages can discuss the exact same topic with the exact same keywords and receive completely different AI treatment, because the model understands which one demonstrates genuine expertise and which one merely repeats terminology.</p>
           </div>
@@ -271,7 +284,7 @@ export default function BlogPost() {
             <div className="ae-callout-title">What &ldquo;Semantic Understanding&rdquo; Actually Means</div>
             <p>Large language models are trained to understand relationships between concepts, not just word co-occurrence. When evaluating a plumbing company, the AI understands that licensed, insured, emergency service, pipe repair, drain cleaning, and water heater installation are semantically related concepts in the plumbing domain. A page that demonstrates deep, interconnected knowledge of these concepts reads as authoritative. A page that simply repeats &ldquo;best plumber Los Angeles&rdquo; reads as shallow and keyword-stuffed.</p>
           </div>
-          <div className="prose prose-invert prose-lg max-w-none prose-p:text-gray-300 prose-a:text-[#FF6A00] prose-a:no-underline hover:prose-a:underline prose-strong:text-white mt-6">
+          <div className="prose prose-invert prose-lg max-w-none prose-p:text-gray-300 prose-a:text-[#F27D24] prose-a:no-underline hover:prose-a:underline prose-strong:text-white mt-6">
             <p>Beyond semantic analysis, AI platforms use retrieval layers that cross-reference your content against external signals. This means the AI is not just reading your page in isolation. It is comparing what your page says against what directories, review platforms, licensing databases, and other authoritative sources say about your business.</p>
             <p>To understand exactly what AI sees when it visits your site, our guide on <Link href="/blog/what-your-website-looks-like-to-an-ai-crawler">what your website looks like to an AI crawler</Link> breaks down the specific elements that matter and how they get interpreted.</p>
           </div>
@@ -283,13 +296,13 @@ export default function BlogPost() {
 
         {/* SECTION 3: WHY IT BACKFIRES */}
         <section id="why-it-backfires" className="-mx-6 px-6 py-12 bg-[#131313] border-t border-white/10">
-          <span className="font-mono text-[10px] text-[#FF6A00] tracking-widest uppercase block mb-3">
+          <span className="font-mono text-[10px] text-[#F27D24] tracking-widest uppercase block mb-3">
             &#9679; THE BACKFIRE EFFECT // The Answer Engine Intel
           </span>
           <h2 className="font-headline font-black text-2xl md:text-3xl tracking-tighter uppercase text-[#e5e2e1] mb-6">
-            WHY KEYWORD STUFFING <span className="text-[#FF6A00]">BACKFIRES</span>
+            WHY KEYWORD STUFFING <span className="text-[#F27D24]">BACKFIRES</span>
           </h2>
-          <div className="prose prose-invert prose-lg max-w-none prose-p:text-gray-300 prose-a:text-[#FF6A00] prose-a:no-underline hover:prose-a:underline prose-strong:text-white">
+          <div className="prose prose-invert prose-lg max-w-none prose-p:text-gray-300 prose-a:text-[#F27D24] prose-a:no-underline hover:prose-a:underline prose-strong:text-white">
             <p>Keyword stuffing is not just ineffective on AI platforms. It is actively harmful. The same language model capabilities that allow AI to understand genuine expertise also allow it to identify content that has been artificially manipulated for extraction. Stuffed content reads differently from naturally written content, and AI detects this immediately.</p>
             <p>Think of it from the model&apos;s perspective. The AI has been trained on billions of pages written by genuine experts: medical journals, legal briefs, technical manuals, investigative journalism. High-quality content has specific patterns: varied sentence structure, conceptual depth, logical progression of ideas, and specific details that only someone with real experience would include. Keyword-stuffed content lacks all of these qualities. It has unnatural repetition, thin substance, and the hallmarks of optimization-first writing.</p>
           </div>
@@ -297,7 +310,7 @@ export default function BlogPost() {
             <div className="ae-callout-title">What AI Actually Flags as Low Quality</div>
             <p>AI citation systems specifically deprioritize content that repeats target phrases unnaturally, lacks depth on the claimed topic, provides no specific or verifiable details, reads as machine-generated or template-based, and fails to demonstrate first-hand experience with the subject. Keyword stuffing triggers multiple of these flags simultaneously. The result is not just a missed citation opportunity. It is active exclusion from the citation pool for that topic.</p>
           </div>
-          <div className="prose prose-invert prose-lg max-w-none prose-p:text-gray-300 prose-a:text-[#FF6A00] prose-a:no-underline hover:prose-a:underline prose-strong:text-white mt-6">
+          <div className="prose prose-invert prose-lg max-w-none prose-p:text-gray-300 prose-a:text-[#F27D24] prose-a:no-underline hover:prose-a:underline prose-strong:text-white mt-6">
             <p>The 63% of businesses seeing no AI citation improvement despite applying traditional SEO tactics are largely in this situation. They are optimizing for a signal (keyword density) that AI platforms do not use, while neglecting the signals (entity authority, structured data, content depth) that AI platforms do use. They are not just running in place. They are running in the wrong direction.</p>
           </div>
           <div className="ae-bar-group not-prose mt-6">
@@ -332,7 +345,7 @@ export default function BlogPost() {
               <div className="ae-bar-value">4%</div>
             </div>
           </div>
-          <div className="prose prose-invert prose-lg max-w-none prose-p:text-gray-300 prose-a:text-[#FF6A00] prose-a:no-underline hover:prose-a:underline prose-strong:text-white mt-6">
+          <div className="prose prose-invert prose-lg max-w-none prose-p:text-gray-300 prose-a:text-[#F27D24] prose-a:no-underline hover:prose-a:underline prose-strong:text-white mt-6">
             <p>The chart above illustrates relative impact on AI citation probability based on signal type. Keyword density sits at the bottom because AI platforms do not use it as a meaningful ranking factor. Every percentage point of effort spent on keyword stuffing is a percentage point not spent on the signals that actually move the needle.</p>
           </div>
           <div className="ae-cta-inline not-prose mt-6">
@@ -343,13 +356,13 @@ export default function BlogPost() {
 
         {/* SECTION 4: SEO VS AI */}
         <section id="seo-vs-ai" className="-mx-6 px-6 py-12 bg-[#1c1b1b] border-t border-white/10">
-          <span className="font-mono text-[10px] text-[#FF6A00] tracking-widest uppercase block mb-3">
+          <span className="font-mono text-[10px] text-[#F27D24] tracking-widest uppercase block mb-3">
             &#9679; SIDE BY SIDE // The Answer Engine Intel
           </span>
           <h2 className="font-headline font-black text-2xl md:text-3xl tracking-tighter uppercase text-[#e5e2e1] mb-6">
-            SEO KEYWORDS VS. <span className="text-[#FF6A00]">AI SIGNALS</span>
+            SEO KEYWORDS VS. <span className="text-[#F27D24]">AI SIGNALS</span>
           </h2>
-          <div className="prose prose-invert prose-lg max-w-none prose-p:text-gray-300 prose-a:text-[#FF6A00] prose-a:no-underline hover:prose-a:underline prose-strong:text-white">
+          <div className="prose prose-invert prose-lg max-w-none prose-p:text-gray-300 prose-a:text-[#F27D24] prose-a:no-underline hover:prose-a:underline prose-strong:text-white">
             <p>To make this concrete, here is a direct comparison of how traditional keyword SEO thinking maps against what AI platforms actually evaluate. These are not subtle differences. They represent fundamentally different approaches to information retrieval.</p>
           </div>
           <table className="ae-comparison-table not-prose mt-6">
@@ -403,7 +416,7 @@ export default function BlogPost() {
               </tr>
             </tbody>
           </table>
-          <div className="prose prose-invert prose-lg max-w-none prose-p:text-gray-300 prose-a:text-[#FF6A00] prose-a:no-underline hover:prose-a:underline prose-strong:text-white mt-6">
+          <div className="prose prose-invert prose-lg max-w-none prose-p:text-gray-300 prose-a:text-[#F27D24] prose-a:no-underline hover:prose-a:underline prose-strong:text-white mt-6">
             <p>The most important row in that table is the last one about penalties. Traditional SEO over-optimization could drop you from position three to position eight. AI search over-optimization through keyword stuffing can remove you from the citation pool entirely. That is not a ranking drop. That is invisibility.</p>
             <p>For a deeper look at how the two systems interact in practice, our analysis of <Link href="/blog/does-having-more-web-pages-help-ai-find-you">whether having more web pages helps AI find you</Link> explores the volume-vs-depth question that many businesses get wrong.</p>
           </div>
@@ -415,13 +428,13 @@ export default function BlogPost() {
 
         {/* SECTION 5: WHAT AI WANTS */}
         <section id="what-ai-wants" className="-mx-6 px-6 py-12 bg-[#131313] border-t border-white/10">
-          <span className="font-mono text-[10px] text-[#FF6A00] tracking-widest uppercase block mb-3">
+          <span className="font-mono text-[10px] text-[#F27D24] tracking-widest uppercase block mb-3">
             &#9679; THE REAL SIGNALS // The Answer Engine Intel
           </span>
           <h2 className="font-headline font-black text-2xl md:text-3xl tracking-tighter uppercase text-[#e5e2e1] mb-6">
-            WHAT AI ACTUALLY <span className="text-[#FF6A00]">WANTS</span>
+            WHAT AI ACTUALLY <span className="text-[#F27D24]">WANTS</span>
           </h2>
-          <div className="prose prose-invert prose-lg max-w-none prose-p:text-gray-300 prose-a:text-[#FF6A00] prose-a:no-underline hover:prose-a:underline prose-strong:text-white">
+          <div className="prose prose-invert prose-lg max-w-none prose-p:text-gray-300 prose-a:text-[#F27D24] prose-a:no-underline hover:prose-a:underline prose-strong:text-white">
             <p>If keywords are not the answer, what is? The signals that drive AI citation decisions break down into four primary categories: entity authority, structured data, content quality, and cross-platform verification. Each one requires genuine investment in your business&apos;s digital presence rather than manipulation tactics.</p>
           </div>
           <div className="ae-cheat-sheet not-prose mt-6">
@@ -433,7 +446,7 @@ export default function BlogPost() {
               <li><strong>Cross-platform citation consistency:</strong> Do your business name, address, phone number, service descriptions, and service areas match across Google Business Profile, Yelp, Bing Places, and industry directories? Inconsistencies create doubt in AI verification systems and reduce citation probability significantly.</li>
             </ul>
           </div>
-          <div className="prose prose-invert prose-lg max-w-none prose-p:text-gray-300 prose-a:text-[#FF6A00] prose-a:no-underline hover:prose-a:underline prose-strong:text-white mt-6">
+          <div className="prose prose-invert prose-lg max-w-none prose-p:text-gray-300 prose-a:text-[#F27D24] prose-a:no-underline hover:prose-a:underline prose-strong:text-white mt-6">
             <p>Notice that none of these signals can be gamed with text manipulation. Entity authority requires a real, established business. Structured data requires accurate information to structure. Content quality requires genuine expertise. Cross-platform consistency requires consistent real-world business operations. The AI visibility game rewards businesses that are genuinely good and well-documented, not businesses that are clever with their copy.</p>
           </div>
           <div className="ae-callout ae-callout-success mt-6">
@@ -448,13 +461,13 @@ export default function BlogPost() {
 
         {/* SECTION 6: ENTITY SIGNALS */}
         <section id="entity-signals" className="-mx-6 px-6 py-12 bg-[#1c1b1b] border-t border-white/10">
-          <span className="font-mono text-[10px] text-[#FF6A00] tracking-widest uppercase block mb-3">
+          <span className="font-mono text-[10px] text-[#F27D24] tracking-widest uppercase block mb-3">
             &#9679; ENTITY AUTHORITY // The Answer Engine Intel
           </span>
           <h2 className="font-headline font-black text-2xl md:text-3xl tracking-tighter uppercase text-[#e5e2e1] mb-6">
-            ENTITY SIGNALS REPLACE <span className="text-[#FF6A00]">KEYWORDS</span>
+            ENTITY SIGNALS REPLACE <span className="text-[#F27D24]">KEYWORDS</span>
           </h2>
-          <div className="prose prose-invert prose-lg max-w-none prose-p:text-gray-300 prose-a:text-[#FF6A00] prose-a:no-underline hover:prose-a:underline prose-strong:text-white">
+          <div className="prose prose-invert prose-lg max-w-none prose-p:text-gray-300 prose-a:text-[#F27D24] prose-a:no-underline hover:prose-a:underline prose-strong:text-white">
             <p>The concept of &ldquo;entity&rdquo; is central to understanding why AI search works so differently from keyword search. In AI terms, an entity is a distinct, identifiable thing: a person, a business, a place, a product, a concept. AI platforms build knowledge graphs that map relationships between entities rather than indexing pages by keyword.</p>
             <p>Your business is an entity. So is your service area. So are the services you provide. The strength of your entity in AI knowledge graphs is determined by how much verifiable, consistent, cross-referenced data exists about you, not by how many times your entity name appears on your website.</p>
           </div>
@@ -484,7 +497,7 @@ export default function BlogPost() {
               </ul>
             </div>
           </div>
-          <div className="prose prose-invert prose-lg max-w-none prose-p:text-gray-300 prose-a:text-[#FF6A00] prose-a:no-underline hover:prose-a:underline prose-strong:text-white mt-6">
+          <div className="prose prose-invert prose-lg max-w-none prose-p:text-gray-300 prose-a:text-[#F27D24] prose-a:no-underline hover:prose-a:underline prose-strong:text-white mt-6">
             <p>A business with strong entity signals and zero keyword optimization will consistently outperform a business with heavy keyword optimization and weak entity signals in AI search. This is the core reality that most traditional SEO approaches have not yet absorbed.</p>
             <p>Building an FAQ page that AI can cite is one of the most effective structural moves for establishing topical entity authority. Our guide on <Link href="/blog/how-to-build-faq-page-ai-cites">how to build an FAQ page that AI cites</Link> covers exactly what that requires.</p>
           </div>
@@ -496,13 +509,13 @@ export default function BlogPost() {
 
         {/* SECTION 7: WRITING CONTENT FOR AI */}
         <section id="content-for-ai" className="-mx-6 px-6 py-12 bg-[#131313] border-t border-white/10">
-          <span className="font-mono text-[10px] text-[#FF6A00] tracking-widest uppercase block mb-3">
+          <span className="font-mono text-[10px] text-[#F27D24] tracking-widest uppercase block mb-3">
             &#9679; CONTENT STRATEGY // The Answer Engine Intel
           </span>
           <h2 className="font-headline font-black text-2xl md:text-3xl tracking-tighter uppercase text-[#e5e2e1] mb-6">
-            WRITING CONTENT <span className="text-[#FF6A00]">AI TRUSTS</span>
+            WRITING CONTENT <span className="text-[#F27D24]">AI TRUSTS</span>
           </h2>
-          <div className="prose prose-invert prose-lg max-w-none prose-p:text-gray-300 prose-a:text-[#FF6A00] prose-a:no-underline hover:prose-a:underline prose-strong:text-white">
+          <div className="prose prose-invert prose-lg max-w-none prose-p:text-gray-300 prose-a:text-[#F27D24] prose-a:no-underline hover:prose-a:underline prose-strong:text-white">
             <p>Knowing that keyword stuffing fails is the first step. Understanding what good AI-optimized content looks like is the second. The principles are not complicated, but they do require a genuine shift in how most businesses approach content creation.</p>
             <p>The core principle: write for the question, not the keyword. When someone asks ChatGPT to recommend a roofing contractor in Phoenix, the AI is not looking for the page that says &ldquo;roofing contractor Phoenix&rdquo; the most. It is looking for the source that best answers the implicit questions: Who can be trusted? What do they specialize in? What is their service area? What have other customers experienced? How can I verify their credentials?</p>
           </div>
@@ -510,7 +523,7 @@ export default function BlogPost() {
             <div className="ae-callout-title">The Question-First Approach to Content</div>
             <p>Before writing any page, ask: what questions would a prospective customer have before hiring a business like mine? Then answer those questions with specificity. How long have you been in business? What specific neighborhoods do you serve? What certifications do you hold and what license numbers verify them? What does your typical project look like? What should customers expect from the process? AI platforms cite sources that answer real questions with specific detail. Not sources that repeat a keyword phrase throughout a page.</p>
           </div>
-          <div className="prose prose-invert prose-lg max-w-none prose-p:text-gray-300 prose-a:text-[#FF6A00] prose-a:no-underline hover:prose-a:underline prose-strong:text-white mt-6">
+          <div className="prose prose-invert prose-lg max-w-none prose-p:text-gray-300 prose-a:text-[#F27D24] prose-a:no-underline hover:prose-a:underline prose-strong:text-white mt-6">
             <p>Structure matters enormously for AI parsing. Content organized with clear headings, logical information hierarchy, and question-answer formatting is significantly easier for AI to extract and cite accurately. This is why FAQ schema is so valuable: it explicitly signals to AI that your content answers specific questions, in a format the model can parse and reproduce.</p>
             <p>Specificity is the single biggest differentiator between content that gets cited and content that gets ignored. Generic statements like &ldquo;we provide excellent service&rdquo; carry no weight. Specific claims like &ldquo;we have completed 847 roof replacements across Mesa, Scottsdale, and Tempe since 2009, with a 4.8 star average across 312 verified reviews&rdquo; are the kind of verifiable, specific claims that AI citation systems value.</p>
           </div>
@@ -526,13 +539,13 @@ export default function BlogPost() {
 
         {/* SECTION 8: DECISION MATRIX */}
         <section id="decision-matrix" className="-mx-6 px-6 py-12 bg-[#1c1b1b] border-t border-white/10">
-          <span className="font-mono text-[10px] text-[#FF6A00] tracking-widest uppercase block mb-3">
+          <span className="font-mono text-[10px] text-[#F27D24] tracking-widest uppercase block mb-3">
             &#9679; YOUR NEXT MOVE // The Answer Engine Intel
           </span>
           <h2 className="font-headline font-black text-2xl md:text-3xl tracking-tighter uppercase text-[#e5e2e1] mb-6">
-            SHOULD YOU <span className="text-[#FF6A00]">RETHINK</span>?
+            SHOULD YOU <span className="text-[#F27D24]">RETHINK</span>?
           </h2>
-          <div className="prose prose-invert prose-lg max-w-none prose-p:text-gray-300 prose-a:text-[#FF6A00] prose-a:no-underline hover:prose-a:underline prose-strong:text-white">
+          <div className="prose prose-invert prose-lg max-w-none prose-p:text-gray-300 prose-a:text-[#F27D24] prose-a:no-underline hover:prose-a:underline prose-strong:text-white">
             <p>Whether you need to completely overhaul your content strategy depends on where you currently stand. Use this decision matrix to assess your situation.</p>
           </div>
           <div className="ae-decision-matrix not-prose mt-6">
@@ -567,14 +580,14 @@ export default function BlogPost() {
               <div className="ae-decision-then">Build entity signals first. Get listed, verified, and consistent across platforms before investing in content volume. The entity foundation has to be solid for content to have any AI citation value.</div>
             </div>
           </div>
-          <div className="prose prose-invert prose-lg max-w-none prose-p:text-gray-300 prose-a:text-[#FF6A00] prose-a:no-underline hover:prose-a:underline prose-strong:text-white mt-6">
+          <div className="prose prose-invert prose-lg max-w-none prose-p:text-gray-300 prose-a:text-[#F27D24] prose-a:no-underline hover:prose-a:underline prose-strong:text-white mt-6">
             <p>Regardless of your current situation, the universal first step is understanding exactly where you stand. The 1.2% of local businesses currently being cited by ChatGPT did not get there by accident. They have specific signals in place that the other 98.8% do not. The gap is measurable and closeable, but only once you know precisely where it exists.</p>
           </div>
           <div className="ae-cta-inline not-prose mt-6">
             <p>Find out exactly which signals are keeping you out of AI recommendations.</p>
             <Link href="/blindspot">Get Your Free Blind Spot Report &rarr;</Link>
           </div>
-          <div className="prose prose-invert prose-lg max-w-none prose-p:text-gray-300 prose-a:text-[#FF6A00] prose-a:no-underline hover:prose-a:underline prose-strong:text-white mt-6">
+          <div className="prose prose-invert prose-lg max-w-none prose-p:text-gray-300 prose-a:text-[#F27D24] prose-a:no-underline hover:prose-a:underline prose-strong:text-white mt-6">
             <p>The conversion math makes the urgency clear. AI-referred traffic converts at 4.4x the rate of traditional search traffic. That is not a marginal improvement. That is a fundamentally different quality of visitor: someone who has already received an AI recommendation to contact your business specifically. Every month without AI visibility is a month of 4.4x conversion traffic going to whoever AI does recommend.</p>
           </div>
           <div className="ae-cta-inline not-prose mt-6">
@@ -602,7 +615,7 @@ export default function BlogPost() {
         <div className="-mx-6 px-6 py-8 bg-[#1c1b1b] border-t border-white/10">
           <div className="ae-author-card not-prose">
             <div>
-              <p className="text-white font-semibold text-lg font-headline mb-1">The Answer Engine Team</p>
+              <p className="text-white font-semibold text-lg font-headline mb-1">Justin Borges</p>
               <p className="text-gray-400 text-sm mb-3">Answer Engine Optimization Specialists</p>
               <p className="text-gray-300 leading-relaxed text-sm">The Answer Engine specializes in AEO for local service businesses. We position companies to be cited by Google AI Overviews, ChatGPT, Claude, Perplexity, and other AI platforms, making them the trusted expert AI recommends in their market. Our work focuses on entity authority, structured data, and the genuine business signals that AI platforms actually evaluate.</p>
               <div className="flex flex-wrap gap-4 mt-3 text-sm">
@@ -616,11 +629,11 @@ export default function BlogPost() {
 
         {/* FAQ SECTION */}
         <section id="faq" className="-mx-6 px-6 py-12 bg-[#131313] border-t border-white/10">
-          <span className="font-mono text-[10px] text-[#FF6A00] tracking-widest uppercase block mb-3">
+          <span className="font-mono text-[10px] text-[#F27D24] tracking-widest uppercase block mb-3">
             &#9679; FAQ // The Answer Engine Intel
           </span>
           <h2 className="font-headline font-black text-2xl md:text-3xl tracking-tighter uppercase text-[#e5e2e1] mb-6">
-            FREQUENTLY ASKED <span className="text-[#FF6A00]">QUESTIONS</span>
+            FREQUENTLY ASKED <span className="text-[#F27D24]">QUESTIONS</span>
           </h2>
           <div className="space-y-4 not-prose">
             {[
@@ -688,7 +701,7 @@ export default function BlogPost() {
             <h3>The Keyword Era Is Over. The Entity Era Has Arrived.</h3>
             <p>Businesses still optimizing for keyword density are playing a game that ended years ago for traditional search and was never valid for AI search. The 45% of consumers now using AI to find local services are being directed to businesses with strong entity signals, structured data, and verified authority. Your free Blind Spot Report shows you exactly what is standing between your business and those recommendations.</p>
             <Link href="/blindspot" className="ae-final-cta-pulse">Get Your Free Blind Spot Report &rarr;</Link>
-            <div className="flex flex-wrap items-center justify-center gap-6 mt-6 pt-6 border-t border-[#FF6A00]/10">
+            <div className="flex flex-wrap items-center justify-center gap-6 mt-6 pt-6 border-t border-[#F27D24]/10">
               <a href="tel:+12134442229" className="flex items-center gap-2 text-gray-400 hover:text-white transition-colors">
                 <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" /></svg>
                 (213) 444-2229
@@ -719,16 +732,16 @@ export default function BlogPost() {
 
         {/* RELATED ARTICLES */}
         <section id="related" className="-mx-6 px-6 py-12 bg-[#131313] border-t border-white/10">
-          <span className="font-mono text-[10px] text-[#FF6A00] tracking-widest uppercase block mb-3">
+          <span className="font-mono text-[10px] text-[#F27D24] tracking-widest uppercase block mb-3">
             &#9679; KEEP READING // The Answer Engine Intel
           </span>
           <h2 className="font-headline font-black text-2xl md:text-3xl tracking-tighter uppercase text-[#e5e2e1] mb-6">
-            RELATED <span className="text-[#FF6A00]">ARTICLES</span>
+            RELATED <span className="text-[#F27D24]">ARTICLES</span>
           </h2>
           <div className="space-y-4 not-prose">
             <div className="bg-white/[0.03] border border-white/[0.08] p-6 hover:border-white/[0.12] transition-colors">
               <Link href="/blog/what-your-website-looks-like-to-an-ai-crawler" className="group">
-                <h4 className="text-xl font-semibold text-white mb-2 group-hover:text-[#FF6A00] transition-colors font-headline">
+                <h4 className="text-xl font-semibold text-white mb-2 group-hover:text-[#F27D24] transition-colors font-headline">
                   What Your Website Looks Like to an AI Crawler
                 </h4>
                 <p className="text-gray-400 leading-relaxed">
@@ -738,7 +751,7 @@ export default function BlogPost() {
             </div>
             <div className="bg-white/[0.03] border border-white/[0.08] p-6 hover:border-white/[0.12] transition-colors">
               <Link href="/blog/how-to-build-faq-page-ai-cites" className="group">
-                <h4 className="text-xl font-semibold text-white mb-2 group-hover:text-[#FF6A00] transition-colors font-headline">
+                <h4 className="text-xl font-semibold text-white mb-2 group-hover:text-[#F27D24] transition-colors font-headline">
                   How to Build an FAQ Page That AI Actually Cites
                 </h4>
                 <p className="text-gray-400 leading-relaxed">
@@ -748,7 +761,7 @@ export default function BlogPost() {
             </div>
             <div className="bg-white/[0.03] border border-white/[0.08] p-6 hover:border-white/[0.12] transition-colors">
               <Link href="/blog/does-having-more-web-pages-help-ai-find-you" className="group">
-                <h4 className="text-xl font-semibold text-white mb-2 group-hover:text-[#FF6A00] transition-colors font-headline">
+                <h4 className="text-xl font-semibold text-white mb-2 group-hover:text-[#F27D24] transition-colors font-headline">
                   Does Having More Web Pages Help AI Find You?
                 </h4>
                 <p className="text-gray-400 leading-relaxed">

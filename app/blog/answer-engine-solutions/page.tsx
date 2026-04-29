@@ -33,7 +33,7 @@ export async function generateMetadata(): Promise<Metadata> {
       type: 'article',
       publishedTime: '2025-12-01T00:00:00Z',
       modifiedTime: '2025-12-01T00:00:00Z',
-      authors: ['Justin Borges'],
+      authors: ['https://theanswerengine.ai/about'],
     },
     twitter: {
       card: 'summary_large_image',
@@ -55,9 +55,18 @@ export default function AnswerEngineSolutionsPage() {
         "description": "Answer engine solutions help local service businesses get cited by AI platforms like ChatGPT, Claude, and Google AI Overview. Learn the 4 components that drive AI citations.",
         "image": "https://theanswerengine.ai/images/answer-engine-solutions-featured.png",
         "author": {
-          "@type": "Organization",
-          "name": "The Answer Engine",
-          "url": "https://theanswerengine.ai"
+          "@type": "Person",
+          "@id": "https://theanswerengine.ai/about#justin-borges",
+          "name": "Justin Borges",
+          "jobTitle": "Founder, The Answer Engine",
+          "worksFor": {
+            "@type": "Organization",
+            "name": "The Answer Engine",
+            "url": "https://theanswerengine.ai"
+          },
+          "knowsAbout": ["Answer Engine Optimization", "AI Search", "Content Strategy", "Real Estate Marketing", "Citation Surface"],
+          "url": "https://theanswerengine.ai/about",
+          "image": "https://theanswerengine.ai/justin-borges.webp"
         },
         "publisher": {
           "@type": "Organization",
@@ -157,9 +166,9 @@ export default function AnswerEngineSolutionsPage() {
       {/* Breadcrumb */}
       <div className="max-w-4xl mx-auto px-6 pt-20 pb-4">
         <nav className="flex items-center gap-2 text-sm text-gray-500">
-          <Link href="/" className="hover:text-[#FF6A00] transition-colors">Home</Link>
+          <Link href="/" className="hover:text-[#F27D24] transition-colors">Home</Link>
           <span>/</span>
-          <Link href="/blog" className="hover:text-[#FF6A00] transition-colors">Blog</Link>
+          <Link href="/blog" className="hover:text-[#F27D24] transition-colors">Blog</Link>
           <span>/</span>
           <span className="text-gray-400">Answer Engine Solutions</span>
         </nav>
@@ -168,7 +177,7 @@ export default function AnswerEngineSolutionsPage() {
       {/* Hero */}
       <header className="max-w-4xl mx-auto px-6 pb-12">
         <div className="flex items-center gap-3 mb-6">
-          <span className="bg-[#FF6A00]/10 text-[#FF6A00] px-3 py-1 rounded-full text-xs font-semibold tracking-wide uppercase">AEO Fundamentals</span>
+          <span className="bg-[#F27D24]/10 text-[#F27D24] px-3 py-1 rounded-full text-xs font-semibold tracking-wide uppercase">AEO Fundamentals</span>
           <time className="text-gray-500 text-sm">December 1, 2025</time>
           <span className="text-gray-600 text-sm">12 min read</span>
         </div>
@@ -183,7 +192,7 @@ export default function AnswerEngineSolutionsPage() {
 
       {/* Article Body */}
       <article className="max-w-4xl mx-auto px-6 pb-20">
-        <div className="prose prose-invert prose-lg max-w-none prose-headings:font-plus-jakarta prose-headings:text-white prose-p:text-gray-300 prose-a:text-[#FF6A00] prose-a:no-underline hover:prose-a:underline prose-strong:text-white">
+        <div className="prose prose-invert prose-lg max-w-none prose-headings:font-plus-jakarta prose-headings:text-white prose-p:text-gray-300 prose-a:text-[#F27D24] prose-a:no-underline hover:prose-a:underline prose-strong:text-white">
 
           {/* Stats Grid */}
           <div className="not-prose ae-stats-grid">
@@ -830,7 +839,7 @@ export default function AnswerEngineSolutionsPage() {
 
         {/* FAQ Section */}
         <section className="mt-16" id="faq">
-          <div className="prose prose-invert prose-lg max-w-none prose-headings:font-plus-jakarta prose-headings:text-white prose-p:text-gray-300 prose-a:text-[#FF6A00] prose-a:no-underline hover:prose-a:underline prose-strong:text-white">
+          <div className="prose prose-invert prose-lg max-w-none prose-headings:font-plus-jakarta prose-headings:text-white prose-p:text-gray-300 prose-a:text-[#F27D24] prose-a:no-underline hover:prose-a:underline prose-strong:text-white">
             <h2>Frequently Asked Questions</h2>
           </div>
 
@@ -905,8 +914,8 @@ export default function AnswerEngineSolutionsPage() {
           <h2 className="text-xl font-bold text-white mb-6 font-plus-jakarta">Related Articles</h2>
           <div className="grid md:grid-cols-3 gap-6">
             <Link href="/blog/how-to-get-in-the-answer-engine" className="group">
-              <div className="bg-gray-900/50 border border-gray-800 rounded-lg p-4 hover:border-[#FF6A00]/30 transition-colors">
-                <h3 className="text-white font-semibold group-hover:text-[#FF6A00] transition-colors mb-2">
+              <div className="bg-gray-900/50 border border-gray-800 rounded-lg p-4 hover:border-[#F27D24]/30 transition-colors">
+                <h3 className="text-white font-semibold group-hover:text-[#F27D24] transition-colors mb-2">
                   How to Get in the Answer Engine
                 </h3>
                 <p className="text-gray-400 text-sm">
@@ -915,8 +924,8 @@ export default function AnswerEngineSolutionsPage() {
               </div>
             </Link>
             <Link href="/blog/complete-guide-answer-engine-optimization" className="group">
-              <div className="bg-gray-900/50 border border-gray-800 rounded-lg p-4 hover:border-[#FF6A00]/30 transition-colors">
-                <h3 className="text-white font-semibold group-hover:text-[#FF6A00] transition-colors mb-2">
+              <div className="bg-gray-900/50 border border-gray-800 rounded-lg p-4 hover:border-[#F27D24]/30 transition-colors">
+                <h3 className="text-white font-semibold group-hover:text-[#F27D24] transition-colors mb-2">
                   The Complete Guide to AEO
                 </h3>
                 <p className="text-gray-400 text-sm">
@@ -925,8 +934,8 @@ export default function AnswerEngineSolutionsPage() {
               </div>
             </Link>
             <Link href="/blog/why-businesses-fail-answer-engine-optimization" className="group">
-              <div className="bg-gray-900/50 border border-gray-800 rounded-lg p-4 hover:border-[#FF6A00]/30 transition-colors">
-                <h3 className="text-white font-semibold group-hover:text-[#FF6A00] transition-colors mb-2">
+              <div className="bg-gray-900/50 border border-gray-800 rounded-lg p-4 hover:border-[#F27D24]/30 transition-colors">
+                <h3 className="text-white font-semibold group-hover:text-[#F27D24] transition-colors mb-2">
                   Why Most Businesses Fail at AEO
                 </h3>
                 <p className="text-gray-400 text-sm">

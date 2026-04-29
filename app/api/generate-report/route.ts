@@ -242,7 +242,7 @@ CSS variables to define:
   --bg: #131313;
   --bg-alt: #1c1b1b;
   --surface: #2a2a2a;
-  --orange: #FF6A00;
+  --orange: #F27D24;
   --text: #e5e2e1;
   --text-muted: rgba(229,226,225,0.55);
   --border: rgba(255,255,255,0.08);

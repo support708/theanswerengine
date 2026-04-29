@@ -31,7 +31,7 @@ export const metadata: Metadata = {
     description,
     type: 'article',
     publishedTime: publishDate,
-    authors: ['The Answer Engine Team'],
+    authors: ['https://theanswerengine.ai/about'],
     url: `https://theanswerengine.ai/blog/${slug}`,
     images: [{ url: `https://theanswerengine.ai/blog/${slug}.webp`, width: 1200, height: 630, alt: title }],
   },
@@ -55,9 +55,18 @@ const jsonLd = {
       datePublished: publishDate,
       dateModified: publishDate,
       author: {
-        '@type': 'Organization',
-        name: 'The Answer Engine',
-        url: 'https://theanswerengine.ai',
+        '@type': 'Person',
+        '@id': 'https://theanswerengine.ai/about#justin-borges',
+        name: 'Justin Borges',
+        jobTitle: 'Founder, The Answer Engine',
+        worksFor: {
+          '@type': 'Organization',
+          name: 'The Answer Engine',
+          url: 'https://theanswerengine.ai',
+        },
+        knowsAbout: ['Answer Engine Optimization', 'AI Search', 'Content Strategy', 'Real Estate Marketing', 'Citation Surface'],
+        url: 'https://theanswerengine.ai/about',
+        image: 'https://theanswerengine.ai/justin-borges.webp',
       },
       publisher: {
         '@type': 'Organization',
@@ -183,8 +192,8 @@ export default function Page() {
                 <stop offset="100%" stopColor="#0F1117" />
               </radialGradient>
               <radialGradient id="elec-glow" cx="38%" cy="55%" r="48%">
-                <stop offset="0%" stopColor="#FF6A00" stopOpacity="0.14" />
-                <stop offset="100%" stopColor="#FF6A00" stopOpacity="0" />
+                <stop offset="0%" stopColor="#F27D24" stopOpacity="0.14" />
+                <stop offset="100%" stopColor="#F27D24" stopOpacity="0" />
               </radialGradient>
               <filter id="elec-blur">
                 <feGaussianBlur stdDeviation="18" />
@@ -194,24 +203,24 @@ export default function Page() {
             <circle cx="460" cy="230" r="260" fill="url(#elec-glow)" />
 
             {/* Lightning bolt */}
-            <polygon points="430,100 390,210 430,210 390,310 480,175 435,175 480,100" fill="none" stroke="#FF6A00" strokeWidth="2.5" strokeOpacity="0.65" strokeLinejoin="round" />
-            <polygon points="430,100 390,210 430,210 390,310 480,175 435,175 480,100" fill="#FF6A00" fillOpacity="0.07" />
+            <polygon points="430,100 390,210 430,210 390,310 480,175 435,175 480,100" fill="none" stroke="#F27D24" strokeWidth="2.5" strokeOpacity="0.65" strokeLinejoin="round" />
+            <polygon points="430,100 390,210 430,210 390,310 480,175 435,175 480,100" fill="#F27D24" fillOpacity="0.07" />
 
             {/* Circuit lines radiating out */}
-            <line x1="490" y1="200" x2="560" y2="200" stroke="#FF6A00" strokeWidth="1" strokeOpacity="0.3" strokeDasharray="4,3" />
-            <line x1="485" y1="170" x2="545" y2="140" stroke="#FF6A00" strokeWidth="1" strokeOpacity="0.2" strokeDasharray="4,3" />
-            <line x1="485" y1="230" x2="545" y2="260" stroke="#FF6A00" strokeWidth="1" strokeOpacity="0.2" strokeDasharray="4,3" />
+            <line x1="490" y1="200" x2="560" y2="200" stroke="#F27D24" strokeWidth="1" strokeOpacity="0.3" strokeDasharray="4,3" />
+            <line x1="485" y1="170" x2="545" y2="140" stroke="#F27D24" strokeWidth="1" strokeOpacity="0.2" strokeDasharray="4,3" />
+            <line x1="485" y1="230" x2="545" y2="260" stroke="#F27D24" strokeWidth="1" strokeOpacity="0.2" strokeDasharray="4,3" />
 
             {/* AI response panel */}
-            <rect x="575" y="110" width="360" height="175" rx="16" fill="#1e2235" stroke="#FF6A00" strokeWidth="1" strokeOpacity="0.25" />
-            <text x="595" y="145" fill="#FF6A00" fontSize="12" fontFamily="monospace" opacity="0.9">AI Response</text>
-            <line x1="595" y1="154" x2="915" y2="154" stroke="#FF6A00" strokeWidth="0.5" strokeOpacity="0.25" />
+            <rect x="575" y="110" width="360" height="175" rx="16" fill="#1e2235" stroke="#F27D24" strokeWidth="1" strokeOpacity="0.25" />
+            <text x="595" y="145" fill="#F27D24" fontSize="12" fontFamily="monospace" opacity="0.9">AI Response</text>
+            <line x1="595" y1="154" x2="915" y2="154" stroke="#F27D24" strokeWidth="0.5" strokeOpacity="0.25" />
 
             {/* AI query */}
             <text x="595" y="177" fill="#888" fontSize="11" fontFamily="monospace">"emergency electrician near me"</text>
 
             {/* Results */}
-            <circle cx="604" cy="202" r="5" fill="#FF6A00" opacity="0.9" />
+            <circle cx="604" cy="202" r="5" fill="#F27D24" opacity="0.9" />
             <text x="617" y="206" fill="#e0e0e0" fontSize="12" fontFamily="monospace" fontWeight="bold">Acme Electric Co.</text>
             <text x="617" y="222" fill="#666" fontSize="10" fontFamily="monospace">24/7 service, 4.9 stars, licensed</text>
 
@@ -222,14 +231,14 @@ export default function Page() {
             <text x="617" y="266" fill="#444" fontSize="12" fontFamily="monospace">Generic Contractor</text>
 
             {/* Connection arrow */}
-            <path d="M495,200 Q530,200 570,200" stroke="#FF6A00" strokeWidth="1.5" strokeDasharray="5,3" fill="none" strokeOpacity="0.5" />
-            <polygon points="568,196 576,200 568,204" fill="#FF6A00" fillOpacity="0.5" />
+            <path d="M495,200 Q530,200 570,200" stroke="#F27D24" strokeWidth="1.5" strokeDasharray="5,3" fill="none" strokeOpacity="0.5" />
+            <polygon points="568,196 576,200 568,204" fill="#F27D24" fillOpacity="0.5" />
 
             {/* Platform labels */}
-            <text x="596" y="308" fill="#FF6A00" fontSize="10" fontFamily="monospace" opacity="0.5">ChatGPT</text>
-            <text x="660" y="308" fill="#FF6A00" fontSize="10" fontFamily="monospace" opacity="0.5">Gemini</text>
-            <text x="718" y="308" fill="#FF6A00" fontSize="10" fontFamily="monospace" opacity="0.5">Claude</text>
-            <text x="773" y="308" fill="#FF6A00" fontSize="10" fontFamily="monospace" opacity="0.5">Perplexity</text>
+            <text x="596" y="308" fill="#F27D24" fontSize="10" fontFamily="monospace" opacity="0.5">ChatGPT</text>
+            <text x="660" y="308" fill="#F27D24" fontSize="10" fontFamily="monospace" opacity="0.5">Gemini</text>
+            <text x="718" y="308" fill="#F27D24" fontSize="10" fontFamily="monospace" opacity="0.5">Claude</text>
+            <text x="773" y="308" fill="#F27D24" fontSize="10" fontFamily="monospace" opacity="0.5">Perplexity</text>
           </svg>
         </div>
 
@@ -278,7 +287,7 @@ export default function Page() {
         </div>
 
         <div className="ae-cta-inline not-prose">
-          <p>Not sure whether ChatGPT even knows your electrical business exists? <Link href="/blindspot" className="text-[#FF6A00] hover:underline font-semibold">Get a free Blind Spot Report</Link> and find out in minutes.</p>
+          <p>Not sure whether ChatGPT even knows your electrical business exists? <Link href="/blindspot" className="text-[#F27D24] hover:underline font-semibold">Get a free Blind Spot Report</Link> and find out in minutes.</p>
         </div>
 
         <h2 id="how-ai-finds-electricians">How AI Finds Electricians in Your Area</h2>
@@ -405,7 +414,7 @@ export default function Page() {
         </div>
 
         <div className="ae-cta-inline not-prose">
-          <p>Not sure if your schema is structured the right way for AI to read it? <Link href="/blindspot" className="text-[#FF6A00] hover:underline font-semibold">Get your free Blind Spot Report</Link> and see what AI actually sees when it looks at your business.</p>
+          <p>Not sure if your schema is structured the right way for AI to read it? <Link href="/blindspot" className="text-[#F27D24] hover:underline font-semibold">Get your free Blind Spot Report</Link> and see what AI actually sees when it looks at your business.</p>
         </div>
 
         <h2 id="location-queries">Winning Location-Based Queries on ChatGPT, Gemini, and Claude</h2>
@@ -535,7 +544,7 @@ export default function Page() {
         </div>
 
         <div className="ae-cta-inline not-prose">
-          <p>Wondering which of your service pages are actually getting cited by AI? <Link href="/blindspot" className="text-[#FF6A00] hover:underline font-semibold">Get your free Blind Spot Report</Link> and see the gaps.</p>
+          <p>Wondering which of your service pages are actually getting cited by AI? <Link href="/blindspot" className="text-[#F27D24] hover:underline font-semibold">Get your free Blind Spot Report</Link> and see the gaps.</p>
         </div>
 
         <h2 id="competitor-profile">What Top Competitors Are Doing Differently</h2>
@@ -619,18 +628,18 @@ export default function Page() {
 
         <div className="ae-callout ae-callout-info not-prose">
           <div className="ae-callout-title">Related Reading</div>
-          <p>Electrical contracting is part of a broader home services pattern. See <Link href="/blog/how-contractors-and-home-service-companies-win-ai-search" className="text-[#FF6A00] hover:underline">how contractors win AI search</Link> for cross-trade patterns, and <Link href="/blog/why-isnt-my-electrical-business-showing-up-on-chatgpt" className="text-[#FF6A00] hover:underline">why electrical businesses go invisible on ChatGPT</Link> for a deeper diagnosis of the most common failure modes.</p>
+          <p>Electrical contracting is part of a broader home services pattern. See <Link href="/blog/how-contractors-and-home-service-companies-win-ai-search" className="text-[#F27D24] hover:underline">how contractors win AI search</Link> for cross-trade patterns, and <Link href="/blog/why-isnt-my-electrical-business-showing-up-on-chatgpt" className="text-[#F27D24] hover:underline">why electrical businesses go invisible on ChatGPT</Link> for a deeper diagnosis of the most common failure modes.</p>
         </div>
 
         {/* 3-tier CTA block */}
-        <div className="not-prose my-16 p-8 rounded-2xl bg-gradient-to-br from-[#FF6A00]/10 to-transparent border border-[#FF6A00]/20">
+        <div className="not-prose my-16 p-8 rounded-2xl bg-gradient-to-br from-[#F27D24]/10 to-transparent border border-[#F27D24]/20">
           <h3 className="font-plus-jakarta text-2xl font-bold text-white mb-3">Find Out Why AI Is Recommending Other Electricians Instead of You</h3>
           <p className="text-gray-400 mb-6">Our free Blind Spot Report shows exactly what ChatGPT, Gemini, and Claude know about your electrical business, which signals are missing, and what structural changes would move you into AI recommendations in your service area.</p>
-          <Link href="/blindspot" className="inline-flex items-center gap-2 bg-[#FF6A00] text-white px-6 py-3 rounded-lg font-semibold hover:bg-[#e55f00] transition-colors">
+          <Link href="/blindspot" className="inline-flex items-center gap-2 bg-[#F27D24] text-white px-6 py-3 rounded-lg font-semibold hover:bg-[#D96416] transition-colors">
             Get Your Free Blind Spot Report
             <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" /></svg>
           </Link>
-          <div className="flex flex-wrap items-center gap-6 mt-6 pt-6 border-t border-[#FF6A00]/10">
+          <div className="flex flex-wrap items-center gap-6 mt-6 pt-6 border-t border-[#F27D24]/10">
             <a href="tel:+12134442229" className="flex items-center gap-2 text-gray-400 hover:text-white transition-colors">
               <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" /></svg>
               (213) 444-2229
@@ -643,13 +652,18 @@ export default function Page() {
         </div>
 
         {/* Author card */}
-        <div className="ae-author-card not-prose">
-          <div className="ae-author-avatar">AE</div>
-          <div>
-            <div className="font-semibold text-white">The Answer Engine Team</div>
-            <div className="text-sm text-gray-400">AI visibility specialists helping local service businesses get found, trusted, and recommended by ChatGPT, Gemini, Claude, and Perplexity.</div>
-          </div>
-        </div>
+        <div className="ae-author-card">
+              <img
+                src="/justin-borges.webp"
+                alt="Justin Borges, Founder of The Answer Engine"
+                style={{ width: 64, height: 64, borderRadius: '50%', objectFit: 'cover', flexShrink: 0 }}
+              />
+              <div>
+                <div className="ae-author-name" style={{ fontWeight: 600 }}>Justin Borges</div>
+                <div className="ae-author-role" style={{ fontWeight: 400 }}>Founder, The Answer Engine</div>
+                <p style={{ marginTop: 8, fontSize: '0.875rem', color: 'rgba(255,255,255,0.65)', lineHeight: 1.6 }}>Justin Borges founded The Answer Engine in 2025 after 13+ years in real estate, $200M+ in production, and discovering that AI search rankings now decide who gets cited as the answer. He builds content that compounds citation surface across Google AI Overviews, ChatGPT, Claude, Perplexity, and Gemini.</p>
+              </div>
+            </div>
 
         {/* FAQ */}
         <h2 id="faq">Frequently Asked Questions</h2>
@@ -696,7 +710,7 @@ export default function Page() {
         <div className="ae-final-cta not-prose">
           <h2 className="font-plus-jakarta text-3xl font-bold text-white mb-4">The Next Emergency Call Could Be Yours</h2>
           <p className="text-gray-300 mb-8 text-lg">Every AI-referred electrical job that goes to a competitor is a call you did not get. Our free Blind Spot Report shows exactly what ChatGPT, Gemini, and Claude see when someone searches for an electrician in your area, and what structural changes would put your business in the recommendation.</p>
-          <Link href="/blindspot" className="inline-flex items-center gap-2 bg-[#FF6A00] text-white px-8 py-4 rounded-xl font-bold text-lg hover:bg-[#e55f00] transition-colors ae-pulse-glow">
+          <Link href="/blindspot" className="inline-flex items-center gap-2 bg-[#F27D24] text-white px-8 py-4 rounded-xl font-bold text-lg hover:bg-[#D96416] transition-colors ae-pulse-glow">
             Get Your Free Blind Spot Report
             <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" /></svg>
           </Link>

@@ -279,7 +279,7 @@ export function renderClientCuratedInner(c: ClientWinsMisses, firstName: string)
   const actionsList = actions
     .map(
       (a, i) =>
-        `<li style="margin:0 0 8px 0;font-size:14px;color:#1a1a1a;line-height:1.55;"><b style="color:#FF6A00;font-family:${MONO};font-size:11px;margin-right:6px;">${(i + 1).toString().padStart(2, '0')}</b>${escapeHtml(a)}</li>`,
+        `<li style="margin:0 0 8px 0;font-size:14px;color:#1a1a1a;line-height:1.55;"><b style="color:#F27D24;font-family:${MONO};font-size:11px;margin-right:6px;">${(i + 1).toString().padStart(2, '0')}</b>${escapeHtml(a)}</li>`,
     )
     .join('');
 
@@ -324,7 +324,7 @@ ${newQueriesBlock}
 <h3 style="margin:24px 0 10px 0;font-size:15px;color:#1a1a1a;font-family:${DISPLAY};font-weight:800;text-transform:uppercase;letter-spacing:0.02em;">What we're doing next</h3>
 <ol style="margin:0 0 24px 0;padding:0 0 0 4px;list-style:none;">${actionsList}</ol>
 
-<div style="background:#fafafa;border-left:4px solid #FF6A00;padding:16px 18px;margin:8px 0 20px 0;">
+<div style="background:#fafafa;border-left:4px solid #F27D24;padding:16px 18px;margin:8px 0 20px 0;">
   <p style="margin:0;font-size:13px;color:#555;">Reply to this email with any questions or priorities you want us to push higher in the queue.</p>
 </div>`;
 }

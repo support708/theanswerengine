@@ -31,7 +31,7 @@ export const metadata: Metadata = {
     description,
     type: 'article',
     publishedTime: publishDate,
-    authors: ['The Answer Engine Team'],
+    authors: ['https://theanswerengine.ai/about'],
     url: `https://www.theanswerengine.ai/blog/${slug}`,
     images: [
       {
@@ -64,9 +64,18 @@ const jsonLd = {
       datePublished: publishDate,
       dateModified: publishDate,
       author: {
-        '@type': 'Organization',
-        name: 'The Answer Engine',
-        url: 'https://theanswerengine.ai',
+        '@type': 'Person',
+        '@id': 'https://theanswerengine.ai/about#justin-borges',
+        name: 'Justin Borges',
+        jobTitle: 'Founder, The Answer Engine',
+        worksFor: {
+          '@type': 'Organization',
+          name: 'The Answer Engine',
+          url: 'https://theanswerengine.ai',
+        },
+        knowsAbout: ['Answer Engine Optimization', 'AI Search', 'Content Strategy', 'Real Estate Marketing', 'Citation Surface'],
+        url: 'https://theanswerengine.ai/about',
+        image: 'https://theanswerengine.ai/justin-borges.webp',
       },
       publisher: {
         '@type': 'Organization',
@@ -212,14 +221,14 @@ export default function Page() {
               >
                 <defs>
                   <pattern id="hero-grid-141-pat" x="0" y="0" width="32" height="32" patternUnits="userSpaceOnUse">
-                    <path d="M 32 0 L 0 0 0 32" fill="none" stroke="#FF6A00" strokeWidth="0.4" strokeOpacity="0.3" />
+                    <path d="M 32 0 L 0 0 0 32" fill="none" stroke="#F27D24" strokeWidth="0.4" strokeOpacity="0.3" />
                   </pattern>
                 </defs>
                 <rect width="100%" height="100%" fill="url(#hero-grid-141-pat)" />
                 <rect width="100%" height="100%" fill="url(#hero-grid-141-pat)" transform="translate(16,16)" opacity="0.5" />
               </svg>
               <div className="relative z-10 p-8 sm:p-12">
-                <div className="inline-flex items-center gap-2 bg-[#FF6A00]/10 border border-[#FF6A00]/20 rounded-full px-3 py-1 text-xs font-semibold text-[#FF6A00] uppercase tracking-wider mb-4">
+                <div className="inline-flex items-center gap-2 bg-[#F27D24]/10 border border-[#F27D24]/20 rounded-full px-3 py-1 text-xs font-semibold text-[#F27D24] uppercase tracking-wider mb-4">
                   Comparisons
                 </div>
                 <h1 className="font-plus-jakarta text-3xl sm:text-4xl lg:text-5xl font-bold text-white leading-tight mb-4">
@@ -233,7 +242,7 @@ export default function Page() {
                   <span className="w-1 h-1 rounded-full bg-gray-600" />
                   <span>14 min read</span>
                   <span className="w-1 h-1 rounded-full bg-gray-600" />
-                  <span>The Answer Engine Team</span>
+                  <span>Justin Borges</span>
                 </div>
               </div>
             </div>
@@ -242,26 +251,26 @@ export default function Page() {
           {/* Stats Grid */}
           <div className="ae-stats-grid grid grid-cols-2 sm:grid-cols-4 gap-4 mb-12 not-prose">
             <div className="ae-stat-card bg-white/[0.03] border border-white/[0.08] rounded-xl p-5 text-center">
-              <div className="ae-stat-value font-plus-jakarta text-3xl font-bold text-[#FF6A00] mb-1">8,000+</div>
+              <div className="ae-stat-value font-plus-jakarta text-3xl font-bold text-[#F27D24] mb-1">8,000+</div>
               <div className="ae-stat-label text-xs text-gray-400 leading-snug">Shopify apps including AI-driven SEO tools</div>
             </div>
             <div className="ae-stat-card bg-white/[0.03] border border-white/[0.08] rounded-xl p-5 text-center">
-              <div className="ae-stat-value font-plus-jakarta text-3xl font-bold text-[#FF6A00] mb-1">73%</div>
+              <div className="ae-stat-value font-plus-jakarta text-3xl font-bold text-[#F27D24] mb-1">73%</div>
               <div className="ae-stat-label text-xs text-gray-400 leading-snug">Of AI shopping queries include structured product data signals</div>
             </div>
             <div className="ae-stat-card bg-white/[0.03] border border-white/[0.08] rounded-xl p-5 text-center">
-              <div className="ae-stat-value font-plus-jakarta text-3xl font-bold text-[#FF6A00] mb-1">2x</div>
+              <div className="ae-stat-value font-plus-jakarta text-3xl font-bold text-[#F27D24] mb-1">2x</div>
               <div className="ae-stat-label text-xs text-gray-400 leading-snug">More AI citation rate for sites with complete FAQ schema</div>
             </div>
             <div className="ae-stat-card bg-white/[0.03] border border-white/[0.08] rounded-xl p-5 text-center">
-              <div className="ae-stat-value font-plus-jakarta text-3xl font-bold text-[#FF6A00] mb-1">#1</div>
+              <div className="ae-stat-value font-plus-jakarta text-3xl font-bold text-[#F27D24] mb-1">#1</div>
               <div className="ae-stat-label text-xs text-gray-400 leading-snug">Factor for AI product citations: structured data completeness</div>
             </div>
           </div>
 
           {/* Table of Contents */}
           <div className="ae-toc not-prose bg-white/[0.03] border border-white/[0.08] rounded-xl p-6 mb-12">
-            <div className="ae-toc-title font-plus-jakarta text-sm font-semibold text-[#FF6A00] uppercase tracking-wider mb-4">In This Article</div>
+            <div className="ae-toc-title font-plus-jakarta text-sm font-semibold text-[#F27D24] uppercase tracking-wider mb-4">In This Article</div>
             <ol className="ae-toc-list space-y-2 text-sm text-gray-400">
               <li><a href="#the-real-question" className="hover:text-white transition-colors">1. The Real Question AI is Actually Asking</a></li>
               <li><a href="#how-ai-crawlers-see-both" className="hover:text-white transition-colors">2. How AI Crawlers See Squarespace vs Shopify</a></li>
@@ -288,20 +297,20 @@ export default function Page() {
           </div>
 
           {/* CTA Inline 1 */}
-          <div className="ae-cta-inline not-prose my-10 p-5 bg-[#FF6A00]/5 border border-[#FF6A00]/15 rounded-xl flex flex-col sm:flex-row items-start sm:items-center gap-4">
+          <div className="ae-cta-inline not-prose my-10 p-5 bg-[#F27D24]/5 border border-[#F27D24]/15 rounded-xl flex flex-col sm:flex-row items-start sm:items-center gap-4">
             <div className="flex-1">
               <p className="text-sm font-semibold text-white mb-1">Is your platform hurting your AI visibility?</p>
               <p className="text-xs text-gray-400">Find out which signals AI platforms are using to evaluate your site right now.</p>
             </div>
-            <Link href="/blindspot" className="ae-cta-primary shrink-0 bg-[#FF6A00] text-white px-5 py-2.5 rounded-lg text-sm font-semibold hover:bg-[#e55f00] transition-colors whitespace-nowrap">
+            <Link href="/blindspot" className="ae-cta-primary shrink-0 bg-[#F27D24] text-white px-5 py-2.5 rounded-lg text-sm font-semibold hover:bg-[#D96416] transition-colors whitespace-nowrap">
               Get Your Free Blind Spot Report
             </Link>
           </div>
 
           {/* Section 1 */}
           <div id="the-real-question" className="prose prose-invert prose-lg max-w-none mt-12">
-            <div className="ae-section-label not-prose inline-flex items-center gap-2 text-xs font-semibold text-[#FF6A00] uppercase tracking-widest mb-3">
-              <span className="w-6 h-px bg-[#FF6A00]" />
+            <div className="ae-section-label not-prose inline-flex items-center gap-2 text-xs font-semibold text-[#F27D24] uppercase tracking-widest mb-3">
+              <span className="w-6 h-px bg-[#F27D24]" />
               The Core Issue
             </div>
             <h2 className="font-plus-jakarta text-2xl sm:text-3xl font-bold text-white mt-2 mb-4">The Real Question AI Is Actually Asking</h2>
@@ -323,8 +332,8 @@ export default function Page() {
 
           {/* Section 2 */}
           <div id="how-ai-crawlers-see-both" className="prose prose-invert prose-lg max-w-none mt-12">
-            <div className="ae-section-label not-prose inline-flex items-center gap-2 text-xs font-semibold text-[#FF6A00] uppercase tracking-widest mb-3">
-              <span className="w-6 h-px bg-[#FF6A00]" />
+            <div className="ae-section-label not-prose inline-flex items-center gap-2 text-xs font-semibold text-[#F27D24] uppercase tracking-widest mb-3">
+              <span className="w-6 h-px bg-[#F27D24]" />
               Crawlability
             </div>
             <h2 className="font-plus-jakarta text-2xl sm:text-3xl font-bold text-white mt-2 mb-4">How AI Crawlers See Squarespace vs Shopify</h2>
@@ -346,19 +355,19 @@ export default function Page() {
               <div className="ae-bar-item">
                 <div className="flex justify-between items-center mb-1.5">
                   <span className="ae-bar-label text-sm text-gray-300">Squarespace (Default)</span>
-                  <span className="ae-bar-value text-sm font-bold text-[#FF6A00]">88/100</span>
+                  <span className="ae-bar-value text-sm font-bold text-[#F27D24]">88/100</span>
                 </div>
                 <div className="ae-bar-track bg-white/[0.06] rounded-full h-2">
-                  <div className="ae-bar-fill bg-[#FF6A00] h-2 rounded-full" style={{ width: '88%' }} />
+                  <div className="ae-bar-fill bg-[#F27D24] h-2 rounded-full" style={{ width: '88%' }} />
                 </div>
               </div>
               <div className="ae-bar-item">
                 <div className="flex justify-between items-center mb-1.5">
                   <span className="ae-bar-label text-sm text-gray-300">Shopify (Default Theme)</span>
-                  <span className="ae-bar-value text-sm font-bold text-[#FF6A00]">85/100</span>
+                  <span className="ae-bar-value text-sm font-bold text-[#F27D24]">85/100</span>
                 </div>
                 <div className="ae-bar-track bg-white/[0.06] rounded-full h-2">
-                  <div className="ae-bar-fill bg-[#FF6A00] h-2 rounded-full" style={{ width: '85%' }} />
+                  <div className="ae-bar-fill bg-[#F27D24] h-2 rounded-full" style={{ width: '85%' }} />
                 </div>
               </div>
               <div className="ae-bar-item">
@@ -385,8 +394,8 @@ export default function Page() {
 
           {/* Section 3 */}
           <div id="schema-battle" className="prose prose-invert prose-lg max-w-none mt-12">
-            <div className="ae-section-label not-prose inline-flex items-center gap-2 text-xs font-semibold text-[#FF6A00] uppercase tracking-widest mb-3">
-              <span className="w-6 h-px bg-[#FF6A00]" />
+            <div className="ae-section-label not-prose inline-flex items-center gap-2 text-xs font-semibold text-[#F27D24] uppercase tracking-widest mb-3">
+              <span className="w-6 h-px bg-[#F27D24]" />
               Structured Data
             </div>
             <h2 className="font-plus-jakarta text-2xl sm:text-3xl font-bold text-white mt-2 mb-4">The Schema Battle: Who Wins?</h2>
@@ -511,8 +520,8 @@ export default function Page() {
 
           {/* Section 4 */}
           <div id="ai-tools-compared" className="prose prose-invert prose-lg max-w-none mt-12">
-            <div className="ae-section-label not-prose inline-flex items-center gap-2 text-xs font-semibold text-[#FF6A00] uppercase tracking-widest mb-3">
-              <span className="w-6 h-px bg-[#FF6A00]" />
+            <div className="ae-section-label not-prose inline-flex items-center gap-2 text-xs font-semibold text-[#F27D24] uppercase tracking-widest mb-3">
+              <span className="w-6 h-px bg-[#F27D24]" />
               Platform AI Features
             </div>
             <h2 className="font-plus-jakarta text-2xl sm:text-3xl font-bold text-white mt-2 mb-4">Built-In AI Tools Compared</h2>
@@ -531,8 +540,8 @@ export default function Page() {
                 <thead>
                   <tr className="border-b border-white/[0.06]">
                     <th className="text-left px-6 py-3 text-xs font-semibold text-gray-400 uppercase tracking-wider">Feature</th>
-                    <th className="text-center px-6 py-3 text-xs font-semibold text-[#FF6A00] uppercase tracking-wider">Squarespace</th>
-                    <th className="text-center px-6 py-3 text-xs font-semibold text-[#FF6A00] uppercase tracking-wider">Shopify</th>
+                    <th className="text-center px-6 py-3 text-xs font-semibold text-[#F27D24] uppercase tracking-wider">Squarespace</th>
+                    <th className="text-center px-6 py-3 text-xs font-semibold text-[#F27D24] uppercase tracking-wider">Shopify</th>
                   </tr>
                 </thead>
                 <tbody className="divide-y divide-white/[0.04]">
@@ -577,20 +586,20 @@ export default function Page() {
           </div>
 
           {/* CTA Inline 2 */}
-          <div className="ae-cta-inline not-prose my-10 p-5 bg-[#FF6A00]/5 border border-[#FF6A00]/15 rounded-xl flex flex-col sm:flex-row items-start sm:items-center gap-4">
+          <div className="ae-cta-inline not-prose my-10 p-5 bg-[#F27D24]/5 border border-[#F27D24]/15 rounded-xl flex flex-col sm:flex-row items-start sm:items-center gap-4">
             <div className="flex-1">
               <p className="text-sm font-semibold text-white mb-1">See how your site looks to AI right now</p>
               <p className="text-xs text-gray-400">Our Blind Spot Report reveals exactly which AI signals you are missing, on any platform.</p>
             </div>
-            <Link href="/blindspot" className="ae-cta-primary shrink-0 bg-[#FF6A00] text-white px-5 py-2.5 rounded-lg text-sm font-semibold hover:bg-[#e55f00] transition-colors whitespace-nowrap">
+            <Link href="/blindspot" className="ae-cta-primary shrink-0 bg-[#F27D24] text-white px-5 py-2.5 rounded-lg text-sm font-semibold hover:bg-[#D96416] transition-colors whitespace-nowrap">
               Get Your Free Report
             </Link>
           </div>
 
           {/* Section 5 */}
           <div id="content-architecture" className="prose prose-invert prose-lg max-w-none mt-12">
-            <div className="ae-section-label not-prose inline-flex items-center gap-2 text-xs font-semibold text-[#FF6A00] uppercase tracking-widest mb-3">
-              <span className="w-6 h-px bg-[#FF6A00]" />
+            <div className="ae-section-label not-prose inline-flex items-center gap-2 text-xs font-semibold text-[#F27D24] uppercase tracking-widest mb-3">
+              <span className="w-6 h-px bg-[#F27D24]" />
               Content Strategy
             </div>
             <h2 className="font-plus-jakarta text-2xl sm:text-3xl font-bold text-white mt-2 mb-4">Content Architecture for AI Visibility</h2>
@@ -609,22 +618,22 @@ export default function Page() {
           <div className="ae-callout ae-callout-info not-prose my-8 p-6 bg-blue-500/5 border border-blue-500/20 rounded-xl">
             <div className="ae-callout-title font-plus-jakarta text-sm font-bold text-blue-400 uppercase tracking-wider mb-2">What AI Actually Reads on Your Site</div>
             <div className="ae-callout-body text-gray-300 text-sm leading-relaxed">
-              AI platforms are not impressed by design. They are reading heading structure, paragraph text, schema markup, internal link patterns, and topical consistency. A Squarespace site with expert-level FAQ sections, thorough service pages, and consistent content publishing will outperform a Shopify store with sparse descriptions and no blog every time. See our guide on <Link href="/blog/what-your-website-looks-like-to-an-ai-crawler" className="text-[#FF6A00] hover:underline">what your website looks like to an AI crawler</Link> for a deeper breakdown.
+              AI platforms are not impressed by design. They are reading heading structure, paragraph text, schema markup, internal link patterns, and topical consistency. A Squarespace site with expert-level FAQ sections, thorough service pages, and consistent content publishing will outperform a Shopify store with sparse descriptions and no blog every time. See our guide on <Link href="/blog/what-your-website-looks-like-to-an-ai-crawler" className="text-[#F27D24] hover:underline">what your website looks like to an AI crawler</Link> for a deeper breakdown.
             </div>
           </div>
 
           {/* Quote */}
-          <blockquote className="ae-quote not-prose my-10 border-l-4 border-[#FF6A00] pl-6 py-2">
+          <blockquote className="ae-quote not-prose my-10 border-l-4 border-[#F27D24] pl-6 py-2">
             <p className="text-xl text-white font-plus-jakarta font-semibold leading-snug mb-2">
               "The platform you use sets the ceiling. Your content strategy determines whether you hit it."
             </p>
-            <footer className="text-sm text-gray-500">The Answer Engine Team</footer>
+            <footer className="text-sm text-gray-500">Justin Borges</footer>
           </blockquote>
 
           {/* Section 6: Pros/Cons Squarespace */}
           <div id="pros-cons-squarespace" className="not-prose mt-12">
-            <div className="ae-section-label inline-flex items-center gap-2 text-xs font-semibold text-[#FF6A00] uppercase tracking-widest mb-3">
-              <span className="w-6 h-px bg-[#FF6A00]" />
+            <div className="ae-section-label inline-flex items-center gap-2 text-xs font-semibold text-[#F27D24] uppercase tracking-widest mb-3">
+              <span className="w-6 h-px bg-[#F27D24]" />
               Platform Deep Dive
             </div>
             <h2 className="font-plus-jakarta text-2xl sm:text-3xl font-bold text-white mt-2 mb-6">Squarespace: Pros and Cons for AI Visibility</h2>
@@ -700,7 +709,7 @@ export default function Page() {
           </div>
 
           {/* CTA Inline 3 */}
-          <div className="ae-cta-inline not-prose my-10 p-5 bg-[#FF6A00]/5 border border-[#FF6A00]/15 rounded-xl flex flex-col sm:flex-row items-start sm:items-center gap-4">
+          <div className="ae-cta-inline not-prose my-10 p-5 bg-[#F27D24]/5 border border-[#F27D24]/15 rounded-xl flex flex-col sm:flex-row items-start sm:items-center gap-4">
             <div className="flex-1">
               <p className="text-sm font-semibold text-white mb-1">Running a Shopify or Squarespace store?</p>
               <p className="text-xs text-gray-400">We audit your AI visibility gaps and build the schema, content, and signals AI platforms need to recommend you.</p>
@@ -711,8 +720,8 @@ export default function Page() {
           </div>
 
           {/* Takeaway Box */}
-          <div className="ae-takeaway not-prose my-10 p-6 bg-[#FF6A00]/5 border-l-4 border-[#FF6A00] rounded-r-xl">
-            <div className="ae-takeaway-title font-plus-jakarta text-sm font-bold text-[#FF6A00] uppercase tracking-wider mb-2">Key Takeaway</div>
+          <div className="ae-takeaway not-prose my-10 p-6 bg-[#F27D24]/5 border-l-4 border-[#F27D24] rounded-r-xl">
+            <div className="ae-takeaway-title font-plus-jakarta text-sm font-bold text-[#F27D24] uppercase tracking-wider mb-2">Key Takeaway</div>
             <p className="text-gray-300 text-sm leading-relaxed">
               Shopify wins the product schema battle. Squarespace wins the content architecture battle. For service-based businesses, both platforms need significant AI optimization work on top of their defaults. The right platform for AI visibility is the one your team can actually execute a content strategy on.
             </p>
@@ -721,7 +730,7 @@ export default function Page() {
           {/* Dollar/Tier Comparison */}
           <div className="ae-dollar-compare not-prose my-10 grid sm:grid-cols-2 gap-4">
             <div className="ae-dollar-item bg-white/[0.03] border border-white/[0.08] rounded-xl p-5">
-              <div className="ae-tier-badge inline-block bg-[#FF6A00]/10 text-[#FF6A00] text-xs font-bold px-2 py-0.5 rounded mb-3 uppercase tracking-wider">Squarespace</div>
+              <div className="ae-tier-badge inline-block bg-[#F27D24]/10 text-[#F27D24] text-xs font-bold px-2 py-0.5 rounded mb-3 uppercase tracking-wider">Squarespace</div>
               <div className="ae-dollar-label text-xs text-gray-500 mb-1">Basic Commerce</div>
               <div className="ae-dollar-price font-plus-jakarta text-2xl font-bold text-white mb-1">$28<span className="text-sm font-normal text-gray-400">/mo</span></div>
               <p className="text-xs text-gray-500 mb-3">Includes AI tools, Beacon SEO, blogging</p>
@@ -743,20 +752,20 @@ export default function Page() {
           {/* Internal Links Bridge */}
           <div className="prose prose-invert prose-lg max-w-none mt-8">
             <p className="text-gray-400">
-              Understanding which platform gives you a head start matters, but it is only one piece of the puzzle. The deeper question is whether your site speaks the language AI platforms actually read. If you want to understand this at a technical level, our guide on <Link href="/blog/does-schema-markup-help-ai-search" className="text-[#FF6A00] hover:underline">whether schema markup actually helps AI search</Link> walks through the specific markup types that move the needle, and our breakdown of <Link href="/blog/wix-vs-wordpress-for-ai-search" className="text-[#FF6A00] hover:underline">Wix vs WordPress for AI search</Link> covers the other major platform comparison in the same depth.
+              Understanding which platform gives you a head start matters, but it is only one piece of the puzzle. The deeper question is whether your site speaks the language AI platforms actually read. If you want to understand this at a technical level, our guide on <Link href="/blog/does-schema-markup-help-ai-search" className="text-[#F27D24] hover:underline">whether schema markup actually helps AI search</Link> walks through the specific markup types that move the needle, and our breakdown of <Link href="/blog/wix-vs-wordpress-for-ai-search" className="text-[#F27D24] hover:underline">Wix vs WordPress for AI search</Link> covers the other major platform comparison in the same depth.
             </p>
           </div>
 
           {/* Decision Matrix */}
           <div id="decision-matrix" className="ae-decision-matrix not-prose my-12">
-            <div className="ae-section-label inline-flex items-center gap-2 text-xs font-semibold text-[#FF6A00] uppercase tracking-widest mb-4">
-              <span className="w-6 h-px bg-[#FF6A00]" />
+            <div className="ae-section-label inline-flex items-center gap-2 text-xs font-semibold text-[#F27D24] uppercase tracking-widest mb-4">
+              <span className="w-6 h-px bg-[#F27D24]" />
               Decision Framework
             </div>
             <h2 className="font-plus-jakarta text-2xl sm:text-3xl font-bold text-white mb-6">Which Platform for Your Business Type</h2>
             <div className="space-y-3">
               <div className="ae-decision-row flex items-center gap-3 p-4 bg-white/[0.03] border border-white/[0.08] rounded-xl">
-                <div className="ae-decision-if shrink-0 bg-[#FF6A00]/10 text-[#FF6A00] text-xs font-bold px-3 py-1.5 rounded-lg w-40 text-center">If you sell products</div>
+                <div className="ae-decision-if shrink-0 bg-[#F27D24]/10 text-[#F27D24] text-xs font-bold px-3 py-1.5 rounded-lg w-40 text-center">If you sell products</div>
                 <div className="ae-decision-arrow text-gray-600 shrink-0">
                   <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" /></svg>
                 </div>
@@ -765,7 +774,7 @@ export default function Page() {
                 </div>
               </div>
               <div className="ae-decision-row flex items-center gap-3 p-4 bg-white/[0.03] border border-white/[0.08] rounded-xl">
-                <div className="ae-decision-if shrink-0 bg-[#FF6A00]/10 text-[#FF6A00] text-xs font-bold px-3 py-1.5 rounded-lg w-40 text-center">If you sell services</div>
+                <div className="ae-decision-if shrink-0 bg-[#F27D24]/10 text-[#F27D24] text-xs font-bold px-3 py-1.5 rounded-lg w-40 text-center">If you sell services</div>
                 <div className="ae-decision-arrow text-gray-600 shrink-0">
                   <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" /></svg>
                 </div>
@@ -774,7 +783,7 @@ export default function Page() {
                 </div>
               </div>
               <div className="ae-decision-row flex items-center gap-3 p-4 bg-white/[0.03] border border-white/[0.08] rounded-xl">
-                <div className="ae-decision-if shrink-0 bg-[#FF6A00]/10 text-[#FF6A00] text-xs font-bold px-3 py-1.5 rounded-lg w-40 text-center">If you need advanced schema</div>
+                <div className="ae-decision-if shrink-0 bg-[#F27D24]/10 text-[#F27D24] text-xs font-bold px-3 py-1.5 rounded-lg w-40 text-center">If you need advanced schema</div>
                 <div className="ae-decision-arrow text-gray-600 shrink-0">
                   <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" /></svg>
                 </div>
@@ -783,7 +792,7 @@ export default function Page() {
                 </div>
               </div>
               <div className="ae-decision-row flex items-center gap-3 p-4 bg-white/[0.03] border border-white/[0.08] rounded-xl">
-                <div className="ae-decision-if shrink-0 bg-[#FF6A00]/10 text-[#FF6A00] text-xs font-bold px-3 py-1.5 rounded-lg w-40 text-center">If content is your strategy</div>
+                <div className="ae-decision-if shrink-0 bg-[#F27D24]/10 text-[#F27D24] text-xs font-bold px-3 py-1.5 rounded-lg w-40 text-center">If content is your strategy</div>
                 <div className="ae-decision-arrow text-gray-600 shrink-0">
                   <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" /></svg>
                 </div>
@@ -792,7 +801,7 @@ export default function Page() {
                 </div>
               </div>
               <div className="ae-decision-row flex items-center gap-3 p-4 bg-white/[0.03] border border-white/[0.08] rounded-xl">
-                <div className="ae-decision-if shrink-0 bg-[#FF6A00]/10 text-[#FF6A00] text-xs font-bold px-3 py-1.5 rounded-lg w-40 text-center">If you are already on a platform</div>
+                <div className="ae-decision-if shrink-0 bg-[#F27D24]/10 text-[#F27D24] text-xs font-bold px-3 py-1.5 rounded-lg w-40 text-center">If you are already on a platform</div>
                 <div className="ae-decision-arrow text-gray-600 shrink-0">
                   <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" /></svg>
                 </div>
@@ -804,66 +813,66 @@ export default function Page() {
           </div>
 
           {/* Cheat Sheet */}
-          <div id="cheat-sheet" className="ae-cheat-sheet not-prose my-12 bg-gradient-to-br from-[#FF6A00]/5 to-transparent border border-[#FF6A00]/20 rounded-2xl p-8">
+          <div id="cheat-sheet" className="ae-cheat-sheet not-prose my-12 bg-gradient-to-br from-[#F27D24]/5 to-transparent border border-[#F27D24]/20 rounded-2xl p-8">
             <div className="ae-cheat-sheet-title font-plus-jakarta text-lg font-bold text-white mb-6 flex items-center gap-3">
-              <svg className="w-5 h-5 text-[#FF6A00]" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2" /></svg>
+              <svg className="w-5 h-5 text-[#F27D24]" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2" /></svg>
               AI Visibility Cheat Sheet: What to Fix on Each Platform
             </div>
             <div className="grid sm:grid-cols-2 gap-6">
               <div>
-                <div className="font-plus-jakarta text-sm font-bold text-[#FF6A00] mb-3 uppercase tracking-wider">On Squarespace</div>
+                <div className="font-plus-jakarta text-sm font-bold text-[#F27D24] mb-3 uppercase tracking-wider">On Squarespace</div>
                 <ul className="space-y-2.5 text-sm">
                   <li className="flex items-start gap-2 text-gray-300">
-                    <span className="text-[#FF6A00] mt-0.5 shrink-0 font-bold">01</span>
+                    <span className="text-[#F27D24] mt-0.5 shrink-0 font-bold">01</span>
                     Add a dedicated FAQ page with question-format headings (FAQ schema requires code injection)
                   </li>
                   <li className="flex items-start gap-2 text-gray-300">
-                    <span className="text-[#FF6A00] mt-0.5 shrink-0 font-bold">02</span>
+                    <span className="text-[#F27D24] mt-0.5 shrink-0 font-bold">02</span>
                     Create individual service pages with H1 targeting the service name
                   </li>
                   <li className="flex items-start gap-2 text-gray-300">
-                    <span className="text-[#FF6A00] mt-0.5 shrink-0 font-bold">03</span>
+                    <span className="text-[#F27D24] mt-0.5 shrink-0 font-bold">03</span>
                     Use Beacon to audit all missing meta descriptions and fix them
                   </li>
                   <li className="flex items-start gap-2 text-gray-300">
-                    <span className="text-[#FF6A00] mt-0.5 shrink-0 font-bold">04</span>
+                    <span className="text-[#F27D24] mt-0.5 shrink-0 font-bold">04</span>
                     Inject LocalBusiness JSON-LD via the Code Injection feature in Settings
                   </li>
                   <li className="flex items-start gap-2 text-gray-300">
-                    <span className="text-[#FF6A00] mt-0.5 shrink-0 font-bold">05</span>
+                    <span className="text-[#F27D24] mt-0.5 shrink-0 font-bold">05</span>
                     Publish weekly blog content targeting questions your customers ask AI
                   </li>
                 </ul>
               </div>
               <div>
-                <div className="font-plus-jakarta text-sm font-bold text-[#FF6A00] mb-3 uppercase tracking-wider">On Shopify</div>
+                <div className="font-plus-jakarta text-sm font-bold text-[#F27D24] mb-3 uppercase tracking-wider">On Shopify</div>
                 <ul className="space-y-2.5 text-sm">
                   <li className="flex items-start gap-2 text-gray-300">
-                    <span className="text-[#FF6A00] mt-0.5 shrink-0 font-bold">01</span>
+                    <span className="text-[#F27D24] mt-0.5 shrink-0 font-bold">01</span>
                     Verify all product pages have complete descriptions (Shopify Magic can help generate them)
                   </li>
                   <li className="flex items-start gap-2 text-gray-300">
-                    <span className="text-[#FF6A00] mt-0.5 shrink-0 font-bold">02</span>
+                    <span className="text-[#F27D24] mt-0.5 shrink-0 font-bold">02</span>
                     Install a dedicated schema app to add FAQ and LocalBusiness markup
                   </li>
                   <li className="flex items-start gap-2 text-gray-300">
-                    <span className="text-[#FF6A00] mt-0.5 shrink-0 font-bold">03</span>
+                    <span className="text-[#F27D24] mt-0.5 shrink-0 font-bold">03</span>
                     Audit your theme for JavaScript-heavy content that crawlers cannot read
                   </li>
                   <li className="flex items-start gap-2 text-gray-300">
-                    <span className="text-[#FF6A00] mt-0.5 shrink-0 font-bold">04</span>
+                    <span className="text-[#F27D24] mt-0.5 shrink-0 font-bold">04</span>
                     Build out your blog with category-level content strategy targeting AI queries
                   </li>
                   <li className="flex items-start gap-2 text-gray-300">
-                    <span className="text-[#FF6A00] mt-0.5 shrink-0 font-bold">05</span>
+                    <span className="text-[#F27D24] mt-0.5 shrink-0 font-bold">05</span>
                     Connect a review app that injects Review schema on product pages automatically
                   </li>
                 </ul>
               </div>
             </div>
-            <div className="mt-6 pt-6 border-t border-[#FF6A00]/10 text-center">
+            <div className="mt-6 pt-6 border-t border-[#F27D24]/10 text-center">
               <p className="text-sm text-gray-400 mb-3">These steps get you to baseline. Advanced AI visibility requires a deeper strategy.</p>
-              <Link href="/blindspot" className="inline-flex items-center gap-2 text-[#FF6A00] text-sm font-semibold hover:underline">
+              <Link href="/blindspot" className="inline-flex items-center gap-2 text-[#F27D24] text-sm font-semibold hover:underline">
                 See your specific AI visibility gaps
                 <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" /></svg>
               </Link>
@@ -881,19 +890,19 @@ export default function Page() {
           {/* Internal Link: What AI Crawler Sees */}
           <div className="prose prose-invert prose-lg max-w-none mt-8">
             <p className="text-gray-400">
-              If you want to see the contrast in real terms, read our deep dive on <Link href="/blog/what-your-website-looks-like-to-an-ai-crawler" className="text-[#FF6A00] hover:underline">what your website actually looks like to an AI crawler</Link>. It walks through what GPTBot and similar crawlers see when they hit a typical Squarespace or Shopify page, and where the content disappears.
+              If you want to see the contrast in real terms, read our deep dive on <Link href="/blog/what-your-website-looks-like-to-an-ai-crawler" className="text-[#F27D24] hover:underline">what your website actually looks like to an AI crawler</Link>. It walks through what GPTBot and similar crawlers see when they hit a typical Squarespace or Shopify page, and where the content disappears.
             </p>
           </div>
 
           {/* 3-Tier CTA Block */}
-          <div className="not-prose my-16 p-8 rounded-2xl bg-gradient-to-br from-[#FF6A00]/10 to-transparent border border-[#FF6A00]/20">
+          <div className="not-prose my-16 p-8 rounded-2xl bg-gradient-to-br from-[#F27D24]/10 to-transparent border border-[#F27D24]/20">
             <h3 className="font-plus-jakarta text-2xl font-bold text-white mb-3">Not Sure Which Platform Is Right for AI Visibility?</h3>
             <p className="text-gray-400 mb-6">Get your free Blind Spot Report and see how your current platform performs when customers ask AI for recommendations in your industry.</p>
-            <Link href="/blindspot" className="inline-flex items-center gap-2 bg-[#FF6A00] text-white px-6 py-3 rounded-lg font-semibold hover:bg-[#e55f00] transition-colors">
+            <Link href="/blindspot" className="inline-flex items-center gap-2 bg-[#F27D24] text-white px-6 py-3 rounded-lg font-semibold hover:bg-[#D96416] transition-colors">
               Get Your Free Blind Spot Report
               <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" /></svg>
             </Link>
-            <div className="flex flex-wrap items-center gap-6 mt-6 pt-6 border-t border-[#FF6A00]/10">
+            <div className="flex flex-wrap items-center gap-6 mt-6 pt-6 border-t border-[#F27D24]/10">
               <a href="tel:+12134442229" className="flex items-center gap-2 text-gray-400 hover:text-white transition-colors">
                 <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" /></svg>
                 (213) 444-2229
@@ -906,72 +915,27 @@ export default function Page() {
           </div>
 
           {/* Author Card */}
-          <div className="ae-author-card not-prose my-12 flex items-start gap-5 p-6 bg-white/[0.03] border border-white/[0.08] rounded-xl">
-            <div className="ae-author-avatar shrink-0 w-14 h-14 rounded-full bg-[#FF6A00]/10 border border-[#FF6A00]/20 flex items-center justify-center">
-              <svg className="w-7 h-7 text-[#FF6A00]" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z" /></svg>
-            </div>
-            <div className="flex-1">
-              <div className="font-plus-jakarta text-sm font-bold text-white mb-0.5">The Answer Engine Team</div>
-              <div className="text-xs text-[#FF6A00] mb-2">AI Search Visibility Specialists</div>
-              <p className="text-xs text-gray-400 leading-relaxed">
-                We audit, optimize, and build AI visibility strategies for businesses across every major website platform. Our team has analyzed thousands of Squarespace, Shopify, WordPress, and custom sites for AI crawlability and citation patterns.
-              </p>
-            </div>
-          </div>
-
-          {/* FAQ */}
-          <div id="faq" className="not-prose mt-16">
-            <div className="ae-section-label inline-flex items-center gap-2 text-xs font-semibold text-[#FF6A00] uppercase tracking-widest mb-4">
-              <span className="w-6 h-px bg-[#FF6A00]" />
-              Frequently Asked Questions
-            </div>
-            <h2 className="font-plus-jakarta text-2xl sm:text-3xl font-bold text-white mb-8">Common Questions About Squarespace, Shopify, and AI Search</h2>
-            <div className="space-y-4">
-
-              <div className="p-6 bg-white/[0.03] border border-white/[0.08] rounded-xl">
-                <h3 className="font-plus-jakarta text-base font-bold text-white mb-2">Is Shopify or Squarespace better for AI search visibility?</h3>
-                <p className="text-sm text-gray-400 leading-relaxed">For eCommerce businesses, Shopify generally edges ahead because it automatically injects structured data for products, including names, prices, and availability, which AI platforms use to answer shopping queries. For content-driven businesses, Squarespace can hold its own with cleaner blogging infrastructure and simpler site architecture. Neither platform guarantees AI visibility on its own. Content quality, schema completeness, and topical authority matter far more than the platform name.</p>
+          <div className="not-prose">
+            <div className="ae-author-card">
+              <img
+                src="/justin-borges.webp"
+                alt="Justin Borges, Founder of The Answer Engine"
+                style={{ width: 64, height: 64, borderRadius: '50%', objectFit: 'cover', flexShrink: 0 }}
+              />
+              <div>
+                <div className="ae-author-name" style={{ fontWeight: 600 }}>Justin Borges</div>
+                <div className="ae-author-role" style={{ fontWeight: 400 }}>Founder, The Answer Engine</div>
+                <p style={{ marginTop: 8, fontSize: '0.875rem', color: 'rgba(255,255,255,0.65)', lineHeight: 1.6 }}>Justin Borges founded The Answer Engine in 2025 after 13+ years in real estate, $200M+ in production, and discovering that AI search rankings now decide who gets cited as the answer. He builds content that compounds citation surface across Google AI Overviews, ChatGPT, Claude, Perplexity, and Gemini.</p>
               </div>
-
-              <div className="p-6 bg-white/[0.03] border border-white/[0.08] rounded-xl">
-                <h3 className="font-plus-jakarta text-base font-bold text-white mb-2">Does Shopify automatically add schema markup for AI?</h3>
-                <p className="text-sm text-gray-400 leading-relaxed">Shopify themes automatically generate Product schema markup including names, prices, images, and availability status. This structured data is machine-readable and helps AI platforms identify and describe products in shopping-related queries. However, Shopify does not automatically generate LocalBusiness, Service, or FAQ schema, which are critical for non-product AI queries. Those require additional configuration or third-party apps.</p>
-              </div>
-
-              <div className="p-6 bg-white/[0.03] border border-white/[0.08] rounded-xl">
-                <h3 className="font-plus-jakarta text-base font-bold text-white mb-2">Can Squarespace sites appear in ChatGPT and Perplexity results?</h3>
-                <p className="text-sm text-gray-400 leading-relaxed">Yes. Squarespace sites can and do appear in ChatGPT, Perplexity, Google AI Mode, and other AI assistant results. Squarespace renders content server-side in clean HTML, which AI crawlers can read without executing JavaScript. The gap between Squarespace and Shopify for AI visibility is less about crawlability and more about the depth of schema and content architecture.</p>
-              </div>
-
-              <div className="p-6 bg-white/[0.03] border border-white/[0.08] rounded-xl">
-                <h3 className="font-plus-jakarta text-base font-bold text-white mb-2">What is Shopify Magic and does it help with AI search?</h3>
-                <p className="text-sm text-gray-400 leading-relaxed">Shopify Magic is Shopify's built-in AI writing tool that helps merchants generate product descriptions, email copy, and blog content. Shopify Sidekick is the AI assistant that analyzes store performance. While these tools help create content faster, they do not directly affect how AI search platforms discover or cite your store. AI visibility comes from the content itself, its structure, and the schema markup surrounding it, not from which tool generated the text.</p>
-              </div>
-
-              <div className="p-6 bg-white/[0.03] border border-white/[0.08] rounded-xl">
-                <h3 className="font-plus-jakarta text-base font-bold text-white mb-2">Does Squarespace Beacon help with AI search optimization?</h3>
-                <p className="text-sm text-gray-400 leading-relaxed">Squarespace Beacon is an SEO tool that identifies missing meta descriptions, audits SEO elements, and provides improvement recommendations. It helps ensure basic on-page SEO hygiene, which has indirect benefits for AI visibility. However, Beacon focuses on traditional search signals and does not address AI-specific concerns like FAQ schema, Speakable markup, topical authority signals, or the structured content patterns that AI platforms use to decide what to cite.</p>
-              </div>
-
-              <div className="p-6 bg-white/[0.03] border border-white/[0.08] rounded-xl">
-                <h3 className="font-plus-jakarta text-base font-bold text-white mb-2">Should I switch platforms to improve my AI search visibility?</h3>
-                <p className="text-sm text-gray-400 leading-relaxed">Almost certainly not. The visibility problems that make businesses invisible to AI, such as missing FAQ sections, thin content, incomplete structured data, and lack of topical depth, exist on every platform and can be fixed without migrating. A platform switch is expensive, time-consuming, and risks losing search presence temporarily. The right strategy is to optimize what you have.</p>
-              </div>
-
-              <div className="p-6 bg-white/[0.03] border border-white/[0.08] rounded-xl">
-                <h3 className="font-plus-jakarta text-base font-bold text-white mb-2">Which platform has more AI optimization tools and apps?</h3>
-                <p className="text-sm text-gray-400 leading-relaxed">Shopify has a dramatically larger app ecosystem with over 8,000 apps, many of which address structured data, SEO schema, content optimization, and AI search signals. Squarespace has a smaller extensions marketplace with more limited third-party SEO tooling. For businesses that want to layer sophisticated AI visibility strategies on top of their platform, Shopify provides more options. That said, the most impactful AI visibility improvements, structured content, FAQ sections, service pages, and topical authority, require content work that no app can do for you.</p>
-              </div>
-
             </div>
           </div>
 
           {/* Final CTA with pulse glow */}
           <div className="ae-final-cta not-prose mt-16 relative overflow-hidden rounded-2xl p-8 sm:p-10 text-center" style={{ background: 'linear-gradient(135deg, #0F1117 0%, #1a0a00 100%)' }}>
-            <div className="absolute inset-0 rounded-2xl border border-[#FF6A00]/30" />
+            <div className="absolute inset-0 rounded-2xl border border-[#F27D24]/30" />
             <div className="absolute inset-0 rounded-2xl" style={{ boxShadow: '0 0 60px rgba(255, 106, 0, 0.15) inset' }} />
             <div className="relative z-10">
-              <div className="inline-flex items-center gap-2 bg-[#FF6A00]/10 border border-[#FF6A00]/20 rounded-full px-4 py-1.5 text-xs font-semibold text-[#FF6A00] uppercase tracking-wider mb-6">
+              <div className="inline-flex items-center gap-2 bg-[#F27D24]/10 border border-[#F27D24]/20 rounded-full px-4 py-1.5 text-xs font-semibold text-[#F27D24] uppercase tracking-wider mb-6">
                 Free Platform Audit
               </div>
               <h2 className="font-plus-jakarta text-3xl sm:text-4xl font-bold text-white mb-4 leading-tight">
@@ -983,7 +947,7 @@ export default function Page() {
               <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
                 <Link
                   href="/blindspot"
-                  className="inline-flex items-center gap-2 bg-[#FF6A00] text-white px-8 py-4 rounded-xl font-bold text-base hover:bg-[#e55f00] transition-all"
+                  className="inline-flex items-center gap-2 bg-[#F27D24] text-white px-8 py-4 rounded-xl font-bold text-base hover:bg-[#D96416] transition-all"
                   style={{ boxShadow: '0 0 30px rgba(255, 106, 0, 0.4)' }}
                 >
                   Get Your Free Blind Spot Report
@@ -1002,17 +966,17 @@ export default function Page() {
           <div className="not-prose mt-16 pt-10 border-t border-white/[0.06]">
             <div className="font-plus-jakarta text-sm font-semibold text-gray-400 uppercase tracking-wider mb-6">Related Articles</div>
             <div className="grid sm:grid-cols-3 gap-4">
-              <Link href="/blog/wix-vs-wordpress-for-ai-search" className="group p-4 bg-white/[0.03] border border-white/[0.08] rounded-xl hover:border-[#FF6A00]/30 transition-colors">
-                <div className="text-xs text-[#FF6A00] font-semibold uppercase tracking-wider mb-2">Comparisons</div>
-                <div className="text-sm font-semibold text-white group-hover:text-[#FF6A00] transition-colors leading-snug">Wix vs WordPress for Getting Found on AI</div>
+              <Link href="/blog/wix-vs-wordpress-for-ai-search" className="group p-4 bg-white/[0.03] border border-white/[0.08] rounded-xl hover:border-[#F27D24]/30 transition-colors">
+                <div className="text-xs text-[#F27D24] font-semibold uppercase tracking-wider mb-2">Comparisons</div>
+                <div className="text-sm font-semibold text-white group-hover:text-[#F27D24] transition-colors leading-snug">Wix vs WordPress for Getting Found on AI</div>
               </Link>
-              <Link href="/blog/does-schema-markup-help-ai-search" className="group p-4 bg-white/[0.03] border border-white/[0.08] rounded-xl hover:border-[#FF6A00]/30 transition-colors">
-                <div className="text-xs text-[#FF6A00] font-semibold uppercase tracking-wider mb-2">Technical SEO</div>
-                <div className="text-sm font-semibold text-white group-hover:text-[#FF6A00] transition-colors leading-snug">Does Schema Markup Actually Help AI Search?</div>
+              <Link href="/blog/does-schema-markup-help-ai-search" className="group p-4 bg-white/[0.03] border border-white/[0.08] rounded-xl hover:border-[#F27D24]/30 transition-colors">
+                <div className="text-xs text-[#F27D24] font-semibold uppercase tracking-wider mb-2">Technical SEO</div>
+                <div className="text-sm font-semibold text-white group-hover:text-[#F27D24] transition-colors leading-snug">Does Schema Markup Actually Help AI Search?</div>
               </Link>
-              <Link href="/blog/what-your-website-looks-like-to-an-ai-crawler" className="group p-4 bg-white/[0.03] border border-white/[0.08] rounded-xl hover:border-[#FF6A00]/30 transition-colors">
-                <div className="text-xs text-[#FF6A00] font-semibold uppercase tracking-wider mb-2">AI Crawlers</div>
-                <div className="text-sm font-semibold text-white group-hover:text-[#FF6A00] transition-colors leading-snug">What Your Website Looks Like to an AI Crawler</div>
+              <Link href="/blog/what-your-website-looks-like-to-an-ai-crawler" className="group p-4 bg-white/[0.03] border border-white/[0.08] rounded-xl hover:border-[#F27D24]/30 transition-colors">
+                <div className="text-xs text-[#F27D24] font-semibold uppercase tracking-wider mb-2">AI Crawlers</div>
+                <div className="text-sm font-semibold text-white group-hover:text-[#F27D24] transition-colors leading-snug">What Your Website Looks Like to an AI Crawler</div>
               </Link>
             </div>
           </div>

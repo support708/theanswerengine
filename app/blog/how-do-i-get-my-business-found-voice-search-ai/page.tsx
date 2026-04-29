@@ -19,7 +19,7 @@ export const metadata: Metadata = {
     description,
     type: 'article',
     publishedTime: publishDate,
-    authors: ['The Answer Engine Team'],
+    authors: ['https://theanswerengine.ai/about'],
     url: `https://theanswerengine.ai/blog/${slug}`,
     images: [
       {
@@ -52,9 +52,18 @@ const jsonLd = {
       datePublished: publishDate,
       dateModified: publishDate,
       author: {
-        '@type': 'Organization',
-        name: 'The Answer Engine',
-        url: 'https://theanswerengine.ai',
+        '@type': 'Person',
+        '@id': 'https://theanswerengine.ai/about#justin-borges',
+        name: 'Justin Borges',
+        jobTitle: 'Founder, The Answer Engine',
+        worksFor: {
+          '@type': 'Organization',
+          name: 'The Answer Engine',
+          url: 'https://theanswerengine.ai',
+        },
+        knowsAbout: ['Answer Engine Optimization', 'AI Search', 'Content Strategy', 'Real Estate Marketing', 'Citation Surface'],
+        url: 'https://theanswerengine.ai/about',
+        image: 'https://theanswerengine.ai/justin-borges.webp',
       },
       publisher: {
         '@type': 'Organization',
@@ -187,17 +196,17 @@ export default function Page() {
               fill="none"
               aria-hidden="true"
             >
-              <circle cx="600" cy="200" r="120" stroke="#FF6A00" strokeWidth="0.5" />
-              <circle cx="600" cy="200" r="80" stroke="#FF6A00" strokeWidth="0.5" />
-              <circle cx="600" cy="200" r="40" stroke="#FF6A00" strokeWidth="0.5" />
-              <path d="M580 180 L600 160 L620 180" stroke="#FF6A00" strokeWidth="0.8" fill="none" />
-              <path d="M570 210 L600 240 L630 210" stroke="#FF6A00" strokeWidth="0.8" fill="none" />
-              <circle cx="200" cy="100" r="4" fill="#FF6A00" />
-              <circle cx="150" cy="300" r="3" fill="#FF6A00" />
-              <circle cx="700" cy="350" r="3" fill="#FF6A00" />
-              <line x1="0" y1="150" x2="800" y2="150" stroke="#FF6A00" strokeWidth="0.3" />
-              <line x1="0" y1="250" x2="800" y2="250" stroke="#FF6A00" strokeWidth="0.3" />
-              <line x1="300" y1="0" x2="300" y2="400" stroke="#FF6A00" strokeWidth="0.3" />
+              <circle cx="600" cy="200" r="120" stroke="#F27D24" strokeWidth="0.5" />
+              <circle cx="600" cy="200" r="80" stroke="#F27D24" strokeWidth="0.5" />
+              <circle cx="600" cy="200" r="40" stroke="#F27D24" strokeWidth="0.5" />
+              <path d="M580 180 L600 160 L620 180" stroke="#F27D24" strokeWidth="0.8" fill="none" />
+              <path d="M570 210 L600 240 L630 210" stroke="#F27D24" strokeWidth="0.8" fill="none" />
+              <circle cx="200" cy="100" r="4" fill="#F27D24" />
+              <circle cx="150" cy="300" r="3" fill="#F27D24" />
+              <circle cx="700" cy="350" r="3" fill="#F27D24" />
+              <line x1="0" y1="150" x2="800" y2="150" stroke="#F27D24" strokeWidth="0.3" />
+              <line x1="0" y1="250" x2="800" y2="250" stroke="#F27D24" strokeWidth="0.3" />
+              <line x1="300" y1="0" x2="300" y2="400" stroke="#F27D24" strokeWidth="0.3" />
             </svg>
             <div className="relative px-8 py-16 sm:px-12 sm:py-20">
               <p className="text-sm font-medium text-orange-400 mb-4">Voice Search &amp; AI</p>
@@ -209,13 +218,13 @@ export default function Page() {
                 <span>-</span>
                 <span>12 min read</span>
                 <span>-</span>
-                <span>The Answer Engine Team</span>
+                <span>Justin Borges</span>
               </div>
             </div>
           </div>
 
           {/* Article Body */}
-          <article className="prose prose-invert prose-lg max-w-none prose-headings:font-plus-jakarta prose-headings:text-white prose-p:text-gray-300 prose-a:text-[#FF6A00] prose-a:no-underline hover:prose-a:underline prose-strong:text-white">
+          <article className="prose prose-invert prose-lg max-w-none prose-headings:font-plus-jakarta prose-headings:text-white prose-p:text-gray-300 prose-a:text-[#F27D24] prose-a:no-underline hover:prose-a:underline prose-strong:text-white">
 
             {/* Stats Grid */}
             <div className="ae-stats-grid not-prose">
@@ -911,8 +920,8 @@ export default function Page() {
             <h3>Ready to Dominate Voice Search and AI?</h3>
             <p>The businesses that optimize now will own the channel for years to come. Do not wait until your competitors figure this out. Get your free visibility data today and see exactly where you stand.</p>
             <div className="flex flex-wrap gap-4">
-              <Link href="/blindspot" className="inline-block bg-[#FF6A00] text-white font-semibold px-6 py-3 rounded-lg hover:bg-orange-600 transition-colors">Get Your Free Blind Spot Report</Link>
-              <a href="tel:+12134442229" className="inline-block border border-[#FF6A00] text-[#FF6A00] font-semibold px-6 py-3 rounded-lg hover:bg-[#FF6A00] hover:text-white transition-colors">Call (213) 444-2229</a>
+              <Link href="/blindspot" className="inline-block bg-[#F27D24] text-white font-semibold px-6 py-3 rounded-lg hover:bg-orange-600 transition-colors">Get Your Free Blind Spot Report</Link>
+              <a href="tel:+12134442229" className="inline-block border border-[#F27D24] text-[#F27D24] font-semibold px-6 py-3 rounded-lg hover:bg-[#F27D24] hover:text-white transition-colors">Call (213) 444-2229</a>
             </div>
           </div>
 
@@ -921,7 +930,7 @@ export default function Page() {
             <h3>Your Competitors Are Getting Found by Voice Search. Are You?</h3>
             <p>8.4 billion voice assistants are answering questions about your industry right now. Find out if they are recommending you or sending customers to your competition.</p>
             <Link href="/blindspot" className="ae-final-cta-pulse">Get Your Free Blind Spot Report &rarr;</Link>
-            <div className="flex flex-wrap items-center justify-center gap-6 mt-6 pt-6 border-t border-[#FF6A00]/10">
+            <div className="flex flex-wrap items-center justify-center gap-6 mt-6 pt-6 border-t border-[#F27D24]/10">
               <a href="tel:+12134442229" className="flex items-center gap-2 text-gray-400 hover:text-white transition-colors">
                 <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" /></svg>
                 (213) 444-2229
@@ -935,16 +944,16 @@ export default function Page() {
 
           {/* Author Card */}
           <div className="ae-author-card not-prose mt-12">
-            <div className="w-12 h-12 rounded-full bg-[#FF6A00] flex items-center justify-center text-white font-bold text-lg flex-shrink-0">
+            <div className="w-12 h-12 rounded-full bg-[#F27D24] flex items-center justify-center text-white font-bold text-lg flex-shrink-0">
               AE
             </div>
             <div>
-              <p className="text-white font-semibold">The Answer Engine Team</p>
+              <p className="text-white font-semibold">Justin Borges</p>
               <p className="text-gray-400 text-sm mt-1">
                 Helping local service businesses get found by voice assistants and AI platforms. We turn invisible businesses into the recommended answer.
               </p>
               <div className="flex flex-wrap gap-4 mt-3">
-                <Link href="/blindspot" className="text-[#FF6A00] text-sm font-medium hover:underline">Get Your Free Report &rarr;</Link>
+                <Link href="/blindspot" className="text-[#F27D24] text-sm font-medium hover:underline">Get Your Free Report &rarr;</Link>
                 <a href="tel:+12134442229" className="text-gray-400 text-sm hover:text-white transition-colors">(213) 444-2229</a>
                 <a href="mailto:support@theanswerengine.ai" className="text-gray-400 text-sm hover:text-white transition-colors">support@theanswerengine.ai</a>
               </div>

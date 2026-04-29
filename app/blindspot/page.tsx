@@ -9,10 +9,26 @@ export const metadata: Metadata = {
     'Find out where your business is invisible to AI search. Get a free Blind Spot Report showing how ChatGPT, Claude, Perplexity, and Google AI see your business.',
   alternates: { canonical: 'https://www.theanswerengine.ai/blindspot' },
   openGraph: {
-    title: 'Free AI Blind Spot Report',
-    description: 'Discover where AI search cannot find your business.',
+    title: 'Free AI Blind Spot Report | The Answer Engine',
+    description: 'Find out exactly where your business is invisible to ChatGPT, Claude, Perplexity, and Google AI. Free diagnostic with your AI visibility score and fix list.',
     url: 'https://www.theanswerengine.ai/blindspot',
     type: 'website',
+    siteName: 'The Answer Engine',
+    images: [
+      {
+        url: 'https://www.theanswerengine.ai/og-default.png',
+        width: 1200,
+        height: 630,
+        alt: 'Free AI Blind Spot Report — The Answer Engine',
+      }
+    ],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Free AI Blind Spot Report | The Answer Engine',
+    description: 'Find out exactly where your business is invisible to ChatGPT, Claude, Perplexity, and Google AI. Free diagnostic.',
+    site: '@theanswerengine',
+    images: ['https://www.theanswerengine.ai/og-default.png'],
   },
 }
 
@@ -79,13 +95,39 @@ export default function BlindSpotPage() {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
       />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify({
+          '@context': 'https://schema.org',
+          '@graph': [
+            {
+              '@type': 'WebPage',
+              '@id': 'https://www.theanswerengine.ai/blindspot#webpage',
+              name: 'Free AI Blind Spot Report — The Answer Engine',
+              description: 'Find out where your business is invisible to ChatGPT, Claude, Perplexity, and Google AI. Free diagnostic with AI visibility score and fix list.',
+              url: 'https://www.theanswerengine.ai/blindspot',
+              inLanguage: 'en-US',
+              isPartOf: { '@id': 'https://www.theanswerengine.ai/#website' },
+              breadcrumb: { '@id': 'https://www.theanswerengine.ai/blindspot#breadcrumb' },
+            },
+            {
+              '@type': 'BreadcrumbList',
+              '@id': 'https://www.theanswerengine.ai/blindspot#breadcrumb',
+              itemListElement: [
+                { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://www.theanswerengine.ai' },
+                { '@type': 'ListItem', position: 2, name: 'Blind Spot Report', item: 'https://www.theanswerengine.ai/blindspot' },
+              ],
+            },
+          ],
+        }) }}
+      />
 
       <main className="min-h-screen bg-[#131313] text-white overflow-x-hidden pt-16">
         {/* HERO */}
         <section
           className="relative py-24 md:py-32 px-6 lg:px-24 border-b border-white/5"
           style={{
-            backgroundImage: 'radial-gradient(#FF6A0011 0.5px, transparent 0.5px)',
+            backgroundImage: 'radial-gradient(#F27D2411 0.5px, transparent 0.5px)',
             backgroundSize: '24px 24px',
           }}
         >
@@ -98,7 +140,7 @@ export default function BlindSpotPage() {
           />
           <div className="relative max-w-7xl mx-auto">
             <div className="mb-8">
-              <Link href="/" className="font-mono text-[10px] tracking-widest uppercase text-white/40 hover:text-[#FF6A00] transition-colors inline-flex items-center gap-2">
+              <Link href="/" className="font-mono text-[10px] tracking-widest uppercase text-white/40 hover:text-[#F27D24] transition-colors inline-flex items-center gap-2">
                 <svg className="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={2}>
                   <path strokeLinecap="round" strokeLinejoin="round" d="M10.5 19.5L3 12m0 0l7.5-7.5M3 12h18" />
                 </svg>
@@ -106,18 +148,18 @@ export default function BlindSpotPage() {
               </Link>
             </div>
 
-            <div className="inline-block border border-[#FF6A00]/30 px-3 py-1 mb-8">
-              <span className="font-mono text-[10px] font-bold tracking-[0.2em] text-[#FF6A00] uppercase">
+            <div className="inline-block border border-[#F27D24]/30 px-3 py-1 mb-8">
+              <span className="font-mono text-[10px] font-bold tracking-[0.2em] text-[#F27D24] uppercase">
                 Free // AI Visibility Analysis
               </span>
             </div>
 
             <h1 className="font-headline font-black text-5xl md:text-7xl lg:text-8xl uppercase tracking-tighter leading-none mb-8 max-w-5xl">
               WHERE IS YOUR BUSINESS{' '}
-              <span className="text-[#FF6A00]">INVISIBLE</span> TO AI?
+              <span className="text-[#F27D24]">INVISIBLE</span> TO AI?
             </h1>
 
-            <p className="text-white/60 text-lg md:text-xl leading-relaxed max-w-2xl mb-10 border-l-2 border-[#FF6A00] pl-6">
+            <p className="text-white/60 text-lg md:text-xl leading-relaxed max-w-2xl mb-10 border-l-2 border-[#F27D24] pl-6">
               A free Blind Spot Report showing exactly how ChatGPT, Claude, Perplexity, and Google AI see your business right now — with the top 3 fixes that move the needle first.
             </p>
 
@@ -126,7 +168,7 @@ export default function BlindSpotPage() {
                 href="https://calendly.com/theanswerengine-support/30min"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="bg-[#FF6A00] text-black font-black px-10 py-5 text-xl tracking-tighter hover:translate-y-[2px] transition-transform font-headline uppercase inline-flex items-center gap-3"
+                className="bg-[#F27D24] text-black font-black px-10 py-5 text-xl tracking-tighter hover:translate-y-[2px] transition-transform font-headline uppercase inline-flex items-center gap-3"
               >
                 Book 30-Min Call
                 <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={2.5}>
@@ -149,12 +191,12 @@ export default function BlindSpotPage() {
         {/* WHAT YOU'LL DISCOVER */}
         <section className="py-24 md:py-32 px-6 lg:px-24 bg-[#1c1b1b]">
           <div className="max-w-7xl mx-auto">
-            <span className="font-mono text-[10px] tracking-widest uppercase text-[#FF6A00] block mb-3">
+            <span className="font-mono text-[10px] tracking-widest uppercase text-[#F27D24] block mb-3">
               What&apos;s Included // Three Deliverables
             </span>
             <h2 className="font-headline font-black text-4xl md:text-5xl uppercase tracking-tighter mb-16">
               WHAT YOU WILL{' '}
-              <span className="text-[#FF6A00]">DISCOVER</span>
+              <span className="text-[#F27D24]">DISCOVER</span>
             </h2>
 
             <div className="grid grid-cols-1 md:grid-cols-3 gap-0 border border-white/10">
@@ -177,10 +219,10 @@ export default function BlindSpotPage() {
               ].map((c, i, arr) => (
                 <div
                   key={c.num}
-                  className={`p-10 bg-[#131313] border-l-4 border-l-[#FF6A00] ${i < arr.length - 1 ? 'border-b md:border-b-0 md:border-r' : ''} border-white/10 hover:bg-[#2a2a2a] transition-colors`}
+                  className={`p-10 bg-[#131313] border-l-4 border-l-[#F27D24] ${i < arr.length - 1 ? 'border-b md:border-b-0 md:border-r' : ''} border-white/10 hover:bg-[#2a2a2a] transition-colors`}
                 >
-                  <div className="w-10 h-10 border border-[#FF6A00]/40 flex items-center justify-center mb-6">
-                    <span className="font-mono text-[10px] text-[#FF6A00]">{c.num}</span>
+                  <div className="w-10 h-10 border border-[#F27D24]/40 flex items-center justify-center mb-6">
+                    <span className="font-mono text-[10px] text-[#F27D24]">{c.num}</span>
                   </div>
                   <h3 className="font-headline font-black text-2xl uppercase tracking-tighter mb-4 text-[#e5e2e1]">{c.title}</h3>
                   <p className="text-white/60 text-sm leading-relaxed">{c.body}</p>
@@ -203,7 +245,7 @@ export default function BlindSpotPage() {
                   key={stat.label}
                   className={`p-8 bg-[#1c1b1b] ${i < arr.length - 1 ? 'border-b md:border-b-0 md:border-r' : ''} border-white/10`}
                 >
-                  <div className="font-headline font-black text-4xl md:text-5xl text-[#FF6A00] mb-2">{stat.val}</div>
+                  <div className="font-headline font-black text-4xl md:text-5xl text-[#F27D24] mb-2">{stat.val}</div>
                   <div className="font-mono text-[10px] text-white/40 uppercase tracking-widest">{stat.label}</div>
                 </div>
               ))}
@@ -212,7 +254,7 @@ export default function BlindSpotPage() {
         </section>
 
         {/* CTA */}
-        <section className="py-24 md:py-32 px-6 lg:px-24 bg-[#FF6A00]">
+        <section className="py-24 md:py-32 px-6 lg:px-24 bg-[#F27D24]">
           <div className="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center gap-12">
             <div>
               <span className="font-mono text-[10px] tracking-widest uppercase text-black/60 mb-4 block">
@@ -227,7 +269,7 @@ export default function BlindSpotPage() {
                 href="https://calendly.com/theanswerengine-support/30min"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="bg-black text-[#FF6A00] px-10 py-4 font-headline font-black uppercase tracking-tighter text-sm hover:bg-[#131313] transition-colors inline-flex items-center gap-3 whitespace-nowrap"
+                className="bg-black text-[#F27D24] px-10 py-4 font-headline font-black uppercase tracking-tighter text-sm hover:bg-[#131313] transition-colors inline-flex items-center gap-3 whitespace-nowrap"
               >
                 BOOK 30-MIN CALL
                 <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={2.5}>
@@ -236,7 +278,7 @@ export default function BlindSpotPage() {
               </Link>
               <Link
                 href="/#territory-check"
-                className="border-2 border-black text-black px-10 py-4 font-headline font-black uppercase tracking-tighter text-sm hover:bg-black hover:text-[#FF6A00] transition-colors"
+                className="border-2 border-black text-black px-10 py-4 font-headline font-black uppercase tracking-tighter text-sm hover:bg-black hover:text-[#F27D24] transition-colors"
               >
                 CHECK TERRITORY
               </Link>
@@ -247,22 +289,22 @@ export default function BlindSpotPage() {
         {/* FAQ */}
         <section className="py-24 md:py-32 px-6 lg:px-24 bg-[#131313]">
           <div className="max-w-4xl mx-auto">
-            <span className="font-mono text-[10px] tracking-widest uppercase text-[#FF6A00] block mb-3">
+            <span className="font-mono text-[10px] tracking-widest uppercase text-[#F27D24] block mb-3">
               Common Questions // FAQ
             </span>
             <h2 className="font-headline font-black text-4xl md:text-5xl uppercase tracking-tighter mb-12">
               FREQUENTLY ASKED{' '}
-              <span className="text-[#FF6A00]">QUESTIONS</span>
+              <span className="text-[#F27D24]">QUESTIONS</span>
             </h2>
 
             <div className="space-y-3">
               {faqs.map((faq, index) => (
                 <details
                   key={index}
-                  className="group bg-[#1c1b1b] border border-white/10 border-l-4 border-l-transparent open:border-l-[#FF6A00] transition-colors"
+                  className="group bg-[#1c1b1b] border border-white/10 border-l-4 border-l-transparent open:border-l-[#F27D24] transition-colors"
                 >
                   <summary className="px-6 py-5 flex justify-between items-center cursor-pointer list-none [&::-webkit-details-marker]:hidden">
-                    <h4 className="font-headline font-bold text-base md:text-lg uppercase tracking-tighter text-white group-open:text-[#FF6A00] transition-colors">
+                    <h4 className="font-headline font-bold text-base md:text-lg uppercase tracking-tighter text-white group-open:text-[#F27D24] transition-colors">
                       {faq.question}
                     </h4>
                     <span className="font-mono text-white/40 text-xl select-none ml-4 group-open:rotate-45 transition-transform">

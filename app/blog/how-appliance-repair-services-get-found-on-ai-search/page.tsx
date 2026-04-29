@@ -32,7 +32,7 @@ export const metadata: Metadata = {
     description,
     type: 'article',
     publishedTime: publishDate,
-    authors: ['The Answer Engine Team'],
+    authors: ['https://theanswerengine.ai/about'],
     url: `https://theanswerengine.ai/blog/${slug}`,
     images: [{ url: `https://theanswerengine.ai/blog/${slug}.webp`, width: 1200, height: 630, alt: title }],
   },
@@ -56,9 +56,18 @@ const jsonLd = {
       datePublished: publishDate,
       dateModified: publishDate,
       author: {
-        '@type': 'Organization',
-        name: 'The Answer Engine',
-        url: 'https://theanswerengine.ai',
+        '@type': 'Person',
+        '@id': 'https://theanswerengine.ai/about#justin-borges',
+        name: 'Justin Borges',
+        jobTitle: 'Founder, The Answer Engine',
+        worksFor: {
+          '@type': 'Organization',
+          name: 'The Answer Engine',
+          url: 'https://theanswerengine.ai',
+        },
+        knowsAbout: ['Answer Engine Optimization', 'AI Search', 'Content Strategy', 'Real Estate Marketing', 'Citation Surface'],
+        url: 'https://theanswerengine.ai/about',
+        image: 'https://theanswerengine.ai/justin-borges.webp',
       },
       publisher: {
         '@type': 'Organization',
@@ -192,43 +201,43 @@ export default function Page() {
                 <stop offset="100%" stopColor="#0F1117" />
               </radialGradient>
               <radialGradient id="appl-glow" cx="38%" cy="55%" r="48%">
-                <stop offset="0%" stopColor="#FF6A00" stopOpacity="0.14" />
-                <stop offset="100%" stopColor="#FF6A00" stopOpacity="0" />
+                <stop offset="0%" stopColor="#F27D24" stopOpacity="0.14" />
+                <stop offset="100%" stopColor="#F27D24" stopOpacity="0" />
               </radialGradient>
             </defs>
             <rect width="1200" height="400" fill="url(#appl-bg)" />
             <circle cx="400" cy="230" r="260" fill="url(#appl-glow)" />
 
             {/* Refrigerator outline */}
-            <rect x="160" y="100" width="90" height="200" rx="8" fill="none" stroke="#FF6A00" strokeWidth="2" strokeOpacity="0.55" />
-            <line x1="160" y1="190" x2="250" y2="190" stroke="#FF6A00" strokeWidth="1.5" strokeOpacity="0.4" />
-            <rect x="168" y="108" width="20" height="10" rx="2" fill="#FF6A00" fillOpacity="0.25" />
-            <rect x="168" y="200" width="20" height="10" rx="2" fill="#FF6A00" fillOpacity="0.2" />
+            <rect x="160" y="100" width="90" height="200" rx="8" fill="none" stroke="#F27D24" strokeWidth="2" strokeOpacity="0.55" />
+            <line x1="160" y1="190" x2="250" y2="190" stroke="#F27D24" strokeWidth="1.5" strokeOpacity="0.4" />
+            <rect x="168" y="108" width="20" height="10" rx="2" fill="#F27D24" fillOpacity="0.25" />
+            <rect x="168" y="200" width="20" height="10" rx="2" fill="#F27D24" fillOpacity="0.2" />
 
             {/* Washing machine outline */}
-            <rect x="270" y="130" width="90" height="175" rx="8" fill="none" stroke="#FF6A00" strokeWidth="2" strokeOpacity="0.45" />
-            <circle cx="315" cy="230" r="32" fill="none" stroke="#FF6A00" strokeWidth="1.5" strokeOpacity="0.4" />
-            <circle cx="315" cy="230" r="18" fill="none" stroke="#FF6A00" strokeWidth="1" strokeOpacity="0.25" />
-            <circle cx="315" cy="155" r="6" fill="none" stroke="#FF6A00" strokeWidth="1" strokeOpacity="0.3" />
+            <rect x="270" y="130" width="90" height="175" rx="8" fill="none" stroke="#F27D24" strokeWidth="2" strokeOpacity="0.45" />
+            <circle cx="315" cy="230" r="32" fill="none" stroke="#F27D24" strokeWidth="1.5" strokeOpacity="0.4" />
+            <circle cx="315" cy="230" r="18" fill="none" stroke="#F27D24" strokeWidth="1" strokeOpacity="0.25" />
+            <circle cx="315" cy="155" r="6" fill="none" stroke="#F27D24" strokeWidth="1" strokeOpacity="0.3" />
 
             {/* Wrench / repair tool */}
-            <path d="M390,180 Q395,150 410,145 L416,151 Q406,158 403,178 Z" fill="#FF6A00" fillOpacity="0.3" stroke="#FF6A00" strokeWidth="1" strokeOpacity="0.6" />
-            <line x1="403" y1="178" x2="430" y2="230" stroke="#FF6A00" strokeWidth="4" strokeLinecap="round" strokeOpacity="0.5" />
+            <path d="M390,180 Q395,150 410,145 L416,151 Q406,158 403,178 Z" fill="#F27D24" fillOpacity="0.3" stroke="#F27D24" strokeWidth="1" strokeOpacity="0.6" />
+            <line x1="403" y1="178" x2="430" y2="230" stroke="#F27D24" strokeWidth="4" strokeLinecap="round" strokeOpacity="0.5" />
 
             {/* Dashed connector to AI panel */}
-            <path d="M445,200 Q490,200 530,200" stroke="#FF6A00" strokeWidth="1.5" strokeDasharray="5,3" fill="none" strokeOpacity="0.45" />
-            <polygon points="528,196 536,200 528,204" fill="#FF6A00" fillOpacity="0.45" />
+            <path d="M445,200 Q490,200 530,200" stroke="#F27D24" strokeWidth="1.5" strokeDasharray="5,3" fill="none" strokeOpacity="0.45" />
+            <polygon points="528,196 536,200 528,204" fill="#F27D24" fillOpacity="0.45" />
 
             {/* AI response panel */}
-            <rect x="550" y="100" width="390" height="195" rx="16" fill="#1e2235" stroke="#FF6A00" strokeWidth="1" strokeOpacity="0.25" />
-            <text x="572" y="136" fill="#FF6A00" fontSize="12" fontFamily="monospace" opacity="0.9">AI Response</text>
-            <line x1="572" y1="145" x2="920" y2="145" stroke="#FF6A00" strokeWidth="0.5" strokeOpacity="0.25" />
+            <rect x="550" y="100" width="390" height="195" rx="16" fill="#1e2235" stroke="#F27D24" strokeWidth="1" strokeOpacity="0.25" />
+            <text x="572" y="136" fill="#F27D24" fontSize="12" fontFamily="monospace" opacity="0.9">AI Response</text>
+            <line x1="572" y1="145" x2="920" y2="145" stroke="#F27D24" strokeWidth="0.5" strokeOpacity="0.25" />
 
             {/* Query */}
             <text x="572" y="168" fill="#888" fontSize="11" fontFamily="monospace">"Samsung refrigerator not cooling repair near me"</text>
 
             {/* Results */}
-            <circle cx="581" cy="194" r="5" fill="#FF6A00" opacity="0.9" />
+            <circle cx="581" cy="194" r="5" fill="#F27D24" opacity="0.9" />
             <text x="594" y="198" fill="#e0e0e0" fontSize="12" fontFamily="monospace" fontWeight="bold">Metro Appliance Pros</text>
             <text x="594" y="214" fill="#666" fontSize="10" fontFamily="monospace">Samsung-authorized, same-day, 4.8 stars</text>
 
@@ -239,14 +248,14 @@ export default function Page() {
             <text x="594" y="262" fill="#444" fontSize="12" fontFamily="monospace">Area Repair Co.</text>
 
             {/* Platform labels */}
-            <text x="572" y="315" fill="#FF6A00" fontSize="10" fontFamily="monospace" opacity="0.5">ChatGPT</text>
-            <text x="636" y="315" fill="#FF6A00" fontSize="10" fontFamily="monospace" opacity="0.5">Gemini</text>
-            <text x="694" y="315" fill="#FF6A00" fontSize="10" fontFamily="monospace" opacity="0.5">Claude</text>
-            <text x="752" y="315" fill="#FF6A00" fontSize="10" fontFamily="monospace" opacity="0.5">Perplexity</text>
+            <text x="572" y="315" fill="#F27D24" fontSize="10" fontFamily="monospace" opacity="0.5">ChatGPT</text>
+            <text x="636" y="315" fill="#F27D24" fontSize="10" fontFamily="monospace" opacity="0.5">Gemini</text>
+            <text x="694" y="315" fill="#F27D24" fontSize="10" fontFamily="monospace" opacity="0.5">Claude</text>
+            <text x="752" y="315" fill="#F27D24" fontSize="10" fontFamily="monospace" opacity="0.5">Perplexity</text>
 
             {/* Brand logos as text indicators */}
-            <text x="162" y="95" fill="#FF6A00" fontSize="9" fontFamily="monospace" opacity="0.5">FRIDGE</text>
-            <text x="272" y="125" fill="#FF6A00" fontSize="9" fontFamily="monospace" opacity="0.5">WASHER</text>
+            <text x="162" y="95" fill="#F27D24" fontSize="9" fontFamily="monospace" opacity="0.5">FRIDGE</text>
+            <text x="272" y="125" fill="#F27D24" fontSize="9" fontFamily="monospace" opacity="0.5">WASHER</text>
           </svg>
         </div>
 
@@ -296,7 +305,7 @@ export default function Page() {
         </div>
 
         <div className="ae-cta-inline not-prose">
-          <p>Not sure whether ChatGPT even knows your appliance repair business exists? <Link href="/blindspot" className="text-[#FF6A00] hover:underline font-semibold">Get a free Blind Spot Report</Link> and find out in minutes.</p>
+          <p>Not sure whether ChatGPT even knows your appliance repair business exists? <Link href="/blindspot" className="text-[#F27D24] hover:underline font-semibold">Get a free Blind Spot Report</Link> and find out in minutes.</p>
         </div>
 
         <h2 id="how-ai-finds-repair-shops">How AI Finds Appliance Repair Shops in Your Area</h2>
@@ -375,7 +384,7 @@ export default function Page() {
         </div>
 
         <div className="ae-cta-inline not-prose">
-          <p>Not sure which brand queries are missing your shop from AI recommendations? <Link href="/blindspot" className="text-[#FF6A00] hover:underline font-semibold">Get your free Blind Spot Report</Link> and see exactly what AI knows about your business.</p>
+          <p>Not sure which brand queries are missing your shop from AI recommendations? <Link href="/blindspot" className="text-[#F27D24] hover:underline font-semibold">Get your free Blind Spot Report</Link> and see exactly what AI knows about your business.</p>
         </div>
 
         <h2 id="appliance-type-segmentation">Appliance-Type Segmentation: The Service Page Architecture AI Needs</h2>
@@ -475,7 +484,7 @@ export default function Page() {
         <p>Repair-or-replace content has a compounding effect on AI visibility. A homeowner who reads your consultative content and decides to replace an appliance may still call you next time something breaks. And if they decide to repair, they already trust your shop before they dial. The consultation content positions your business as the knowledgeable local expert rather than just a service provider competing on response time and price.</p>
 
         <div className="ae-cta-inline not-prose">
-          <p>Want to know if your repair-or-replace content is structured in a way AI can actually cite? <Link href="/blindspot" className="text-[#FF6A00] hover:underline font-semibold">Get your free Blind Spot Report</Link> and see the gaps in your content architecture.</p>
+          <p>Want to know if your repair-or-replace content is structured in a way AI can actually cite? <Link href="/blindspot" className="text-[#F27D24] hover:underline font-semibold">Get your free Blind Spot Report</Link> and see the gaps in your content architecture.</p>
         </div>
 
         <h2 id="same-day-positioning">Same-Day vs 24-Hour vs Next-Available: Positioning That AI Reads</h2>
@@ -658,18 +667,18 @@ export default function Page() {
 
         <div className="ae-callout ae-callout-info not-prose">
           <div className="ae-callout-title">Related Reading</div>
-          <p>Appliance repair is part of a broader home services AI search pattern. See <Link href="/blog/how-electricians-get-found-on-ai-search" className="text-[#FF6A00] hover:underline">how electricians get found on AI search</Link> for cross-trade patterns that apply across home service categories.</p>
+          <p>Appliance repair is part of a broader home services AI search pattern. See <Link href="/blog/how-electricians-get-found-on-ai-search" className="text-[#F27D24] hover:underline">how electricians get found on AI search</Link> for cross-trade patterns that apply across home service categories.</p>
         </div>
 
         {/* 3-tier CTA block */}
-        <div className="not-prose my-16 p-8 rounded-2xl bg-gradient-to-br from-[#FF6A00]/10 to-transparent border border-[#FF6A00]/20">
+        <div className="not-prose my-16 p-8 rounded-2xl bg-gradient-to-br from-[#F27D24]/10 to-transparent border border-[#F27D24]/20">
           <h3 className="font-plus-jakarta text-2xl font-bold text-white mb-3">Find Out Why AI Is Recommending Other Appliance Repair Shops Instead of Yours</h3>
           <p className="text-gray-400 mb-6">Our free Blind Spot Report shows exactly what ChatGPT, Gemini, and Claude know about your appliance repair business, which brand and appliance-type signals are missing, and what structural changes would move you into AI recommendations in your service area.</p>
-          <Link href="/blindspot" className="inline-flex items-center gap-2 bg-[#FF6A00] text-white px-6 py-3 rounded-lg font-semibold hover:bg-[#e55f00] transition-colors">
+          <Link href="/blindspot" className="inline-flex items-center gap-2 bg-[#F27D24] text-white px-6 py-3 rounded-lg font-semibold hover:bg-[#D96416] transition-colors">
             Get Your Free Blind Spot Report
             <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" /></svg>
           </Link>
-          <div className="flex flex-wrap items-center gap-6 mt-6 pt-6 border-t border-[#FF6A00]/10">
+          <div className="flex flex-wrap items-center gap-6 mt-6 pt-6 border-t border-[#F27D24]/10">
             <a href="tel:+12134442229" className="flex items-center gap-2 text-gray-400 hover:text-white transition-colors">
               <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" /></svg>
               (213) 444-2229
@@ -682,13 +691,18 @@ export default function Page() {
         </div>
 
         {/* Author card */}
-        <div className="ae-author-card not-prose">
-          <div className="ae-author-avatar">AE</div>
-          <div>
-            <div className="font-semibold text-white">The Answer Engine Team</div>
-            <div className="text-sm text-gray-400">AI visibility specialists helping local service businesses get found, trusted, and recommended by ChatGPT, Gemini, Claude, and Perplexity.</div>
-          </div>
-        </div>
+        <div className="ae-author-card">
+              <img
+                src="/justin-borges.webp"
+                alt="Justin Borges, Founder of The Answer Engine"
+                style={{ width: 64, height: 64, borderRadius: '50%', objectFit: 'cover', flexShrink: 0 }}
+              />
+              <div>
+                <div className="ae-author-name" style={{ fontWeight: 600 }}>Justin Borges</div>
+                <div className="ae-author-role" style={{ fontWeight: 400 }}>Founder, The Answer Engine</div>
+                <p style={{ marginTop: 8, fontSize: '0.875rem', color: 'rgba(255,255,255,0.65)', lineHeight: 1.6 }}>Justin Borges founded The Answer Engine in 2025 after 13+ years in real estate, $200M+ in production, and discovering that AI search rankings now decide who gets cited as the answer. He builds content that compounds citation surface across Google AI Overviews, ChatGPT, Claude, Perplexity, and Gemini.</p>
+              </div>
+            </div>
 
         {/* FAQ */}
         <h2 id="faq">Frequently Asked Questions</h2>
@@ -739,7 +753,7 @@ export default function Page() {
         <div className="ae-final-cta not-prose">
           <h2 className="font-plus-jakarta text-3xl font-bold text-white mb-4">The Next Urgent Repair Call Could Be Yours</h2>
           <p className="text-gray-300 mb-8 text-lg">Every AI-referred appliance repair job that goes to a competitor is a call your shop did not get. Our free Blind Spot Report shows exactly what ChatGPT, Gemini, and Claude see when someone searches for appliance repair in your area, which brand and appliance-type signals are missing, and what structural changes would put your business in the recommendation.</p>
-          <Link href="/blindspot" className="inline-flex items-center gap-2 bg-[#FF6A00] text-white px-8 py-4 rounded-xl font-bold text-lg hover:bg-[#e55f00] transition-colors ae-pulse-glow">
+          <Link href="/blindspot" className="inline-flex items-center gap-2 bg-[#F27D24] text-white px-8 py-4 rounded-xl font-bold text-lg hover:bg-[#D96416] transition-colors ae-pulse-glow">
             Get Your Free Blind Spot Report
             <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" /></svg>
           </Link>

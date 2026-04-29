@@ -22,7 +22,7 @@ export const metadata: Metadata = {
     'authority building',
     'AI discoverability'
   ],
-  authors: [{ name: 'The Answer Engine Team' }],
+  authors: [{ name: 'Justin Borges', url: 'https://theanswerengine.ai/about' }],
   openGraph: {
     title: 'Get Cited by ChatGPT: Local Business Owner\'s AEO Guide',
     description: 'Learn how to get cited by ChatGPT and boost conversions 4.4x higher than Google. Proven tactics for local service businesses to dominate AI search.',
@@ -30,7 +30,7 @@ export const metadata: Metadata = {
     siteName: 'The Answer Engine',
     type: 'article',
     publishedTime: '2026-03-08',
-    authors: ['The Answer Engine Team'],
+    authors: ['https://theanswerengine.ai/about'],
     images: [
       {
         url: 'https://theanswerengine.ai/og/get-cited-chatgpt-local-business-guide.png',
@@ -62,9 +62,18 @@ const jsonLd = {
       datePublished: '2026-03-08',
       dateModified: '2026-03-08',
       author: {
-        '@type': 'Organization',
-        name: 'The Answer Engine Team',
-        url: 'https://theanswerengine.ai'
+        '@type': 'Person',
+        '@id': 'https://theanswerengine.ai/about#justin-borges',
+        name: 'Justin Borges',
+        jobTitle: 'Founder, The Answer Engine',
+        worksFor: {
+          '@type': 'Organization',
+          name: 'The Answer Engine',
+          url: 'https://theanswerengine.ai',
+        },
+        knowsAbout: ['Answer Engine Optimization', 'AI Search', 'Content Strategy', 'Real Estate Marketing', 'Citation Surface'],
+        url: 'https://theanswerengine.ai/about',
+        image: 'https://theanswerengine.ai/justin-borges.webp',
       },
       publisher: {
         '@type': 'Organization',
@@ -211,17 +220,17 @@ export default function Page() {
         {/* Hero */}
         <div className="relative overflow-hidden rounded-2xl mb-12" style={{ background: 'linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%)' }}>
           <svg className="absolute inset-0 w-full h-full opacity-10" viewBox="0 0 800 400" fill="none" aria-hidden="true">
-            <circle cx="650" cy="80" r="200" stroke="#FF6A00" strokeWidth="0.5" />
-            <circle cx="650" cy="80" r="140" stroke="#FF6A00" strokeWidth="0.5" />
-            <circle cx="650" cy="80" r="80" stroke="#FF6A00" strokeWidth="0.5" />
-            <circle cx="150" cy="320" r="120" stroke="#FF6A00" strokeWidth="0.4" />
-            <circle cx="150" cy="320" r="70" stroke="#FF6A00" strokeWidth="0.4" />
-            <line x1="0" y1="0" x2="800" y2="400" stroke="#FF6A00" strokeWidth="0.3" />
-            <line x1="800" y1="0" x2="0" y2="400" stroke="#FF6A00" strokeWidth="0.3" />
-            <line x1="400" y1="0" x2="400" y2="400" stroke="#FF6A00" strokeWidth="0.2" />
-            <line x1="0" y1="200" x2="800" y2="200" stroke="#FF6A00" strokeWidth="0.2" />
-            <rect x="300" y="100" width="200" height="200" stroke="#FF6A00" strokeWidth="0.3" />
-            <polygon points="400,50 500,200 300,200" stroke="#FF6A00" strokeWidth="0.3" fill="none" />
+            <circle cx="650" cy="80" r="200" stroke="#F27D24" strokeWidth="0.5" />
+            <circle cx="650" cy="80" r="140" stroke="#F27D24" strokeWidth="0.5" />
+            <circle cx="650" cy="80" r="80" stroke="#F27D24" strokeWidth="0.5" />
+            <circle cx="150" cy="320" r="120" stroke="#F27D24" strokeWidth="0.4" />
+            <circle cx="150" cy="320" r="70" stroke="#F27D24" strokeWidth="0.4" />
+            <line x1="0" y1="0" x2="800" y2="400" stroke="#F27D24" strokeWidth="0.3" />
+            <line x1="800" y1="0" x2="0" y2="400" stroke="#F27D24" strokeWidth="0.3" />
+            <line x1="400" y1="0" x2="400" y2="400" stroke="#F27D24" strokeWidth="0.2" />
+            <line x1="0" y1="200" x2="800" y2="200" stroke="#F27D24" strokeWidth="0.2" />
+            <rect x="300" y="100" width="200" height="200" stroke="#F27D24" strokeWidth="0.3" />
+            <polygon points="400,50 500,200 300,200" stroke="#F27D24" strokeWidth="0.3" fill="none" />
           </svg>
           <div className="relative px-8 py-16 sm:px-12 sm:py-20">
             <p className="text-sm font-medium text-orange-400 mb-4">How-To Guides</p>
@@ -233,13 +242,13 @@ export default function Page() {
               <span>-</span>
               <span>12 min read</span>
               <span>-</span>
-              <span>The Answer Engine Team</span>
+              <span>Justin Borges</span>
             </div>
           </div>
         </div>
 
         {/* Article Body */}
-        <article className="prose prose-invert prose-lg max-w-none prose-headings:font-plus-jakarta prose-headings:text-white prose-p:text-gray-300 prose-a:text-[#FF6A00] prose-a:no-underline hover:prose-a:underline prose-strong:text-white">
+        <article className="prose prose-invert prose-lg max-w-none prose-headings:font-plus-jakarta prose-headings:text-white prose-p:text-gray-300 prose-a:text-[#F27D24] prose-a:no-underline hover:prose-a:underline prose-strong:text-white">
 
           {/* ── STATS GRID ── */}
           <div className="ae-stats-grid not-prose">
@@ -896,7 +905,7 @@ export default function Page() {
           {/* ── AUTHOR CARD ── */}
           <div className="ae-author-card not-prose">
             <div>
-              <p><strong>The Answer Engine Team</strong></p>
+              <p><strong>Justin Borges</strong></p>
               <p>We help local service businesses get cited by ChatGPT, Google AI, Perplexity, and Claude. Our Blind Spot Reports reveal exactly where your AI visibility gaps are and what to do about them.</p>
             </div>
           </div>
@@ -919,7 +928,7 @@ export default function Page() {
             <h3>Find Out If AI Platforms Can See Your Business</h3>
             <p>Run 5 high-intent queries in your service area on ChatGPT right now and see if your business appears. If it does not, you have a blind spot. Get a free AI visibility check and find out exactly where you stand.</p>
             <Link href="/blindspot" className="ae-final-cta-pulse">Get Your Free Blind Spot Report &rarr;</Link>
-            <div className="flex flex-wrap items-center justify-center gap-6 mt-6 pt-6 border-t border-[#FF6A00]/10">
+            <div className="flex flex-wrap items-center justify-center gap-6 mt-6 pt-6 border-t border-[#F27D24]/10">
               <a href="tel:+12134442229" className="flex items-center gap-2 text-gray-400 hover:text-white transition-colors">
                 <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" /></svg>
                 (213) 444-2229

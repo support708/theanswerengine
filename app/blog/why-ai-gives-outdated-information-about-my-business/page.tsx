@@ -55,9 +55,18 @@ const jsonLd = {
       datePublished: '2026-03-27',
       dateModified: '2026-03-27',
       author: {
-        '@type': 'Organization',
-        name: 'The Answer Engine Team',
+        '@type': 'Person',
+        '@id': 'https://theanswerengine.ai/about#justin-borges',
+        name: 'Justin Borges',
+        jobTitle: 'Founder, The Answer Engine',
+        worksFor: {
+          '@type': 'Organization',
+          name: 'The Answer Engine',
+          url: 'https://theanswerengine.ai',
+        },
+        knowsAbout: ['Answer Engine Optimization', 'AI Search', 'Content Strategy', 'Real Estate Marketing', 'Citation Surface'],
         url: 'https://theanswerengine.ai/about',
+        image: 'https://theanswerengine.ai/justin-borges.webp',
       },
       publisher: {
         '@type': 'Organization',
@@ -173,9 +182,9 @@ export default function WhyAIGivesOutdatedInformationPage() {
           {/* Breadcrumb */}
           <nav aria-label="Breadcrumb" className="mb-8">
             <ol className="flex items-center gap-2 text-sm text-gray-500">
-              <li><Link href="/" className="hover:text-[#FF6A00] transition-colors">Home</Link></li>
+              <li><Link href="/" className="hover:text-[#F27D24] transition-colors">Home</Link></li>
               <li className="text-gray-700">/</li>
-              <li><Link href="/blog" className="hover:text-[#FF6A00] transition-colors">Blog</Link></li>
+              <li><Link href="/blog" className="hover:text-[#F27D24] transition-colors">Blog</Link></li>
               <li className="text-gray-700">/</li>
               <li className="text-gray-400 truncate max-w-[250px]">{title}</li>
             </ol>
@@ -196,49 +205,49 @@ export default function WhyAIGivesOutdatedInformationPage() {
               aria-hidden="true"
             >
               {/* Clock with stale hands */}
-              <circle cx="200" cy="200" r="80" stroke="#FF6A00" strokeWidth="0.8" fill="rgba(255,106,0,0.04)" />
-              <circle cx="200" cy="200" r="3" fill="#FF6A00" opacity="0.4" />
-              <line x1="200" y1="200" x2="200" y2="140" stroke="#FF6A00" strokeWidth="0.8" opacity="0.4" />
-              <line x1="200" y1="200" x2="240" y2="200" stroke="#FF6A00" strokeWidth="0.6" opacity="0.3" />
+              <circle cx="200" cy="200" r="80" stroke="#F27D24" strokeWidth="0.8" fill="rgba(255,106,0,0.04)" />
+              <circle cx="200" cy="200" r="3" fill="#F27D24" opacity="0.4" />
+              <line x1="200" y1="200" x2="200" y2="140" stroke="#F27D24" strokeWidth="0.8" opacity="0.4" />
+              <line x1="200" y1="200" x2="240" y2="200" stroke="#F27D24" strokeWidth="0.6" opacity="0.3" />
               {/* Tick marks */}
-              <line x1="200" y1="122" x2="200" y2="130" stroke="#FF6A00" strokeWidth="0.5" opacity="0.3" />
-              <line x1="200" y1="270" x2="200" y2="278" stroke="#FF6A00" strokeWidth="0.5" opacity="0.3" />
-              <line x1="122" y1="200" x2="130" y2="200" stroke="#FF6A00" strokeWidth="0.5" opacity="0.3" />
-              <line x1="270" y1="200" x2="278" y2="200" stroke="#FF6A00" strokeWidth="0.5" opacity="0.3" />
-              <text x="160" y="310" fontFamily="monospace" fontSize="11" fill="#FF6A00" opacity="0.2">STALE DATA</text>
+              <line x1="200" y1="122" x2="200" y2="130" stroke="#F27D24" strokeWidth="0.5" opacity="0.3" />
+              <line x1="200" y1="270" x2="200" y2="278" stroke="#F27D24" strokeWidth="0.5" opacity="0.3" />
+              <line x1="122" y1="200" x2="130" y2="200" stroke="#F27D24" strokeWidth="0.5" opacity="0.3" />
+              <line x1="270" y1="200" x2="278" y2="200" stroke="#F27D24" strokeWidth="0.5" opacity="0.3" />
+              <text x="160" y="310" fontFamily="monospace" fontSize="11" fill="#F27D24" opacity="0.2">STALE DATA</text>
               {/* Data flow arrows that break */}
-              <path d="M340 140 L440 140" stroke="#FF6A00" strokeWidth="0.5" strokeDasharray="6 4" opacity="0.3" />
-              <path d="M340 200 L440 200" stroke="#FF6A00" strokeWidth="0.5" strokeDasharray="6 4" opacity="0.25" />
-              <path d="M340 260 L440 260" stroke="#FF6A00" strokeWidth="0.5" strokeDasharray="6 4" opacity="0.2" />
+              <path d="M340 140 L440 140" stroke="#F27D24" strokeWidth="0.5" strokeDasharray="6 4" opacity="0.3" />
+              <path d="M340 200 L440 200" stroke="#F27D24" strokeWidth="0.5" strokeDasharray="6 4" opacity="0.25" />
+              <path d="M340 260 L440 260" stroke="#F27D24" strokeWidth="0.5" strokeDasharray="6 4" opacity="0.2" />
               {/* Broken connection symbol */}
-              <line x1="450" y1="130" x2="470" y2="150" stroke="#FF6A00" strokeWidth="0.6" opacity="0.3" />
-              <line x1="470" y1="130" x2="450" y2="150" stroke="#FF6A00" strokeWidth="0.6" opacity="0.3" />
+              <line x1="450" y1="130" x2="470" y2="150" stroke="#F27D24" strokeWidth="0.6" opacity="0.3" />
+              <line x1="470" y1="130" x2="450" y2="150" stroke="#F27D24" strokeWidth="0.6" opacity="0.3" />
               {/* AI brain with outdated info */}
-              <rect x="530" y="130" width="160" height="140" rx="12" stroke="#FF6A00" strokeWidth="0.6" fill="rgba(255,106,0,0.03)" />
-              <text x="560" y="175" fontFamily="monospace" fontSize="9" fill="#FF6A00" opacity="0.25">hrs: 9-5 (OLD)</text>
-              <text x="560" y="195" fontFamily="monospace" fontSize="9" fill="#FF6A00" opacity="0.25">phone: XXX (OLD)</text>
-              <text x="560" y="215" fontFamily="monospace" fontSize="9" fill="#FF6A00" opacity="0.25">addr: ??? (OLD)</text>
-              <text x="570" y="250" fontFamily="monospace" fontSize="10" fill="#FF6A00" opacity="0.2">AI MODEL</text>
+              <rect x="530" y="130" width="160" height="140" rx="12" stroke="#F27D24" strokeWidth="0.6" fill="rgba(255,106,0,0.03)" />
+              <text x="560" y="175" fontFamily="monospace" fontSize="9" fill="#F27D24" opacity="0.25">hrs: 9-5 (OLD)</text>
+              <text x="560" y="195" fontFamily="monospace" fontSize="9" fill="#F27D24" opacity="0.25">phone: XXX (OLD)</text>
+              <text x="560" y="215" fontFamily="monospace" fontSize="9" fill="#F27D24" opacity="0.25">addr: ??? (OLD)</text>
+              <text x="570" y="250" fontFamily="monospace" fontSize="10" fill="#F27D24" opacity="0.2">AI MODEL</text>
             </svg>
             <div className="relative px-8 py-16 sm:px-12 sm:py-20">
               <span
                 className="ae-section-label inline-block text-xs font-bold uppercase tracking-widest px-3 py-1 rounded-full mb-4"
-                style={{ background: 'rgba(255,106,0,0.15)', color: '#FF6A00', border: '1px solid rgba(255,106,0,0.3)' }}
+                style={{ background: 'rgba(255,106,0,0.15)', color: '#F27D24', border: '1px solid rgba(255,106,0,0.3)' }}
               >
                 Business Pain Points
               </span>
               <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-white leading-tight mb-6 font-plus-jakarta">
                 Why AI Gives Outdated Information{' '}
-                <span style={{ color: '#FF6A00' }}>About My Business</span>
+                <span style={{ color: '#F27D24' }}>About My Business</span>
               </h1>
               <div className="flex flex-wrap items-center gap-4 text-sm text-gray-400">
-                <span>By The Answer Engine Team</span>
+                <span>By Justin Borges</span>
                 <span aria-hidden="true">|</span>
                 <time dateTime="2026-03-27">March 27, 2026</time>
                 <span aria-hidden="true">|</span>
                 <span>13 min read</span>
                 <span aria-hidden="true">|</span>
-                <span style={{ color: '#FF6A00' }}>Business Pain Points</span>
+                <span style={{ color: '#F27D24' }}>Business Pain Points</span>
               </div>
             </div>
           </div>
@@ -251,14 +260,14 @@ export default function WhyAIGivesOutdatedInformationPage() {
           </div>
 
           {/* Inline CTA 1 */}
-          <div className="ae-cta-inline my-8 p-5 rounded-xl bg-[#FF6A00]/10 border border-[#FF6A00]/20 flex flex-col sm:flex-row sm:items-center gap-4">
+          <div className="ae-cta-inline my-8 p-5 rounded-xl bg-[#F27D24]/10 border border-[#F27D24]/20 flex flex-col sm:flex-row sm:items-center gap-4">
             <div className="flex-1">
               <p className="text-white font-semibold mb-1">Wondering what outdated info AI has about you?</p>
               <p className="text-gray-400 text-sm">Our free Blind Spot Report reveals exactly what each AI platform currently says about your business.</p>
             </div>
             <Link
               href="/blindspot"
-              className="shrink-0 inline-flex items-center gap-2 bg-[#FF6A00] text-white px-5 py-2.5 rounded-lg font-semibold text-sm hover:bg-[#e55f00] transition-colors"
+              className="shrink-0 inline-flex items-center gap-2 bg-[#F27D24] text-white px-5 py-2.5 rounded-lg font-semibold text-sm hover:bg-[#D96416] transition-colors"
             >
               Get Free Report
               <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" /></svg>
@@ -266,7 +275,7 @@ export default function WhyAIGivesOutdatedInformationPage() {
           </div>
 
           {/* Article Body */}
-          <article className="prose prose-invert prose-lg max-w-none prose-headings:font-plus-jakarta prose-headings:text-white prose-p:text-gray-300 prose-a:text-[#FF6A00] prose-a:no-underline hover:prose-a:underline prose-strong:text-white">
+          <article className="prose prose-invert prose-lg max-w-none prose-headings:font-plus-jakarta prose-headings:text-white prose-p:text-gray-300 prose-a:text-[#F27D24] prose-a:no-underline hover:prose-a:underline prose-strong:text-white">
 
             {/* Table of Contents */}
             <div className="ae-toc not-prose my-10 p-6 rounded-xl border border-gray-800 bg-gray-900/60">
@@ -283,7 +292,7 @@ export default function WhyAIGivesOutdatedInformationPage() {
                   ['#faq', 'Frequently Asked Questions'],
                 ].map(([href, label]) => (
                   <li key={href as string}>
-                    <a href={href as string} className="text-[#FF6A00] hover:underline">
+                    <a href={href as string} className="text-[#F27D24] hover:underline">
                       {label as string}
                     </a>
                   </li>
@@ -293,7 +302,7 @@ export default function WhyAIGivesOutdatedInformationPage() {
 
             {/* Stats Grid */}
             <div id="the-staleness-problem" className="not-prose my-12">
-              <div className="ae-section-label text-xs font-bold uppercase tracking-widest text-[#FF6A00] mb-2">The Staleness Problem</div>
+              <div className="ae-section-label text-xs font-bold uppercase tracking-widest text-[#F27D24] mb-2">The Staleness Problem</div>
               <h2 className="font-plus-jakarta text-3xl font-bold text-white mb-6">AI Information Staleness in Numbers</h2>
               <p className="text-gray-300 text-lg mb-8">
                 The data tells a stark story. AI platforms are making confident claims about businesses using information that is months or even years out of date. And the businesses affected rarely know it is happening.
@@ -306,7 +315,7 @@ export default function WhyAIGivesOutdatedInformationPage() {
                   { value: '53%', label: 'of consumers will not visit a business with incorrect listings' },
                 ].map((stat) => (
                   <div key={stat.label} className="ae-stat-card p-5 rounded-xl border border-gray-800 bg-gray-900/60 text-center">
-                    <div className="ae-stat-value ae-accent font-plus-jakarta text-2xl font-bold text-[#FF6A00] mb-1">{stat.value}</div>
+                    <div className="ae-stat-value ae-accent font-plus-jakarta text-2xl font-bold text-[#F27D24] mb-1">{stat.value}</div>
                     <div className="ae-stat-label text-xs text-gray-400 leading-snug">{stat.label}</div>
                   </div>
                 ))}
@@ -326,7 +335,7 @@ export default function WhyAIGivesOutdatedInformationPage() {
 
             {/* Section 2 */}
             <div id="how-ai-learns" className="not-prose mt-14 mb-4">
-              <div className="ae-section-label text-xs font-bold uppercase tracking-widest text-[#FF6A00] mb-2">Under the Hood</div>
+              <div className="ae-section-label text-xs font-bold uppercase tracking-widest text-[#F27D24] mb-2">Under the Hood</div>
               <h2 className="font-plus-jakarta text-3xl font-bold text-white mb-4">How AI Actually Learns About Your Business</h2>
             </div>
 
@@ -363,14 +372,14 @@ export default function WhyAIGivesOutdatedInformationPage() {
             </div>
 
             {/* Inline CTA 2 */}
-            <div className="ae-cta-inline not-prose my-10 p-5 rounded-xl bg-[#FF6A00]/10 border border-[#FF6A00]/20 flex flex-col sm:flex-row sm:items-center gap-4">
+            <div className="ae-cta-inline not-prose my-10 p-5 rounded-xl bg-[#F27D24]/10 border border-[#F27D24]/20 flex flex-col sm:flex-row sm:items-center gap-4">
               <div className="flex-1">
                 <p className="text-white font-semibold mb-1">Not sure how stale your AI presence is?</p>
                 <p className="text-gray-400 text-sm">We audit all major AI platforms and tell you exactly what is outdated. No charge for the initial report.</p>
               </div>
               <a
                 href="tel:+12134442229"
-                className="shrink-0 inline-flex items-center gap-2 border border-[#FF6A00] text-[#FF6A00] px-5 py-2.5 rounded-lg font-semibold text-sm hover:bg-[#FF6A00]/10 transition-colors"
+                className="shrink-0 inline-flex items-center gap-2 border border-[#F27D24] text-[#F27D24] px-5 py-2.5 rounded-lg font-semibold text-sm hover:bg-[#F27D24]/10 transition-colors"
               >
                 <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" /></svg>
                 Call (213) 444-2229
@@ -379,7 +388,7 @@ export default function WhyAIGivesOutdatedInformationPage() {
 
             {/* Section 3 */}
             <div id="knowledge-cutoffs" className="not-prose mt-14 mb-4">
-              <div className="ae-section-label text-xs font-bold uppercase tracking-widest text-[#FF6A00] mb-2">The Core Issue</div>
+              <div className="ae-section-label text-xs font-bold uppercase tracking-widest text-[#F27D24] mb-2">The Core Issue</div>
               <h2 className="font-plus-jakarta text-3xl font-bold text-white mb-4">Knowledge Cutoffs: The Heart of the Staleness Problem</h2>
             </div>
 
@@ -392,10 +401,10 @@ export default function WhyAIGivesOutdatedInformationPage() {
               <table className="w-full text-sm border-collapse">
                 <thead>
                   <tr className="border-b border-gray-700">
-                    <th className="text-left py-3 px-4 text-[#FF6A00] font-semibold">AI Platform</th>
-                    <th className="text-left py-3 px-4 text-[#FF6A00] font-semibold">Training Cutoff</th>
-                    <th className="text-left py-3 px-4 text-[#FF6A00] font-semibold">Live Search?</th>
-                    <th className="text-left py-3 px-4 text-[#FF6A00] font-semibold">Business Data Source</th>
+                    <th className="text-left py-3 px-4 text-[#F27D24] font-semibold">AI Platform</th>
+                    <th className="text-left py-3 px-4 text-[#F27D24] font-semibold">Training Cutoff</th>
+                    <th className="text-left py-3 px-4 text-[#F27D24] font-semibold">Live Search?</th>
+                    <th className="text-left py-3 px-4 text-[#F27D24] font-semibold">Business Data Source</th>
                   </tr>
                 </thead>
                 <tbody className="divide-y divide-gray-800">
@@ -452,7 +461,7 @@ export default function WhyAIGivesOutdatedInformationPage() {
 
             {/* Section 4 */}
             <div id="live-retrieval-gaps" className="not-prose mt-14 mb-4">
-              <div className="ae-section-label text-xs font-bold uppercase tracking-widest text-[#FF6A00] mb-2">Common Misconception</div>
+              <div className="ae-section-label text-xs font-bold uppercase tracking-widest text-[#F27D24] mb-2">Common Misconception</div>
               <h2 className="font-plus-jakarta text-3xl font-bold text-white mb-4">Why Live Search Does Not Fully Solve the Problem</h2>
             </div>
 
@@ -478,21 +487,21 @@ export default function WhyAIGivesOutdatedInformationPage() {
                 <div>
                   <p className="font-semibold text-white mb-1">The Source Authority Principle</p>
                   <p className="text-gray-300 text-sm">
-                    AI models weight sources by perceived authority. A single update on your website competes against dozens of directory listings, cached pages, forum mentions, and archived versions. Freshness alone is not enough. You need consistency across every source the AI can access. This is why <Link href="/blog/what-happens-when-ai-search-gets-business-wrong" className="text-[#FF6A00] hover:underline">understanding what happens when AI gets your business wrong</Link> is so important.
+                    AI models weight sources by perceived authority. A single update on your website competes against dozens of directory listings, cached pages, forum mentions, and archived versions. Freshness alone is not enough. You need consistency across every source the AI can access. This is why <Link href="/blog/what-happens-when-ai-search-gets-business-wrong" className="text-[#F27D24] hover:underline">understanding what happens when AI gets your business wrong</Link> is so important.
                   </p>
                 </div>
               </div>
             </div>
 
             {/* Inline CTA 3 */}
-            <div className="ae-cta-inline not-prose my-10 p-5 rounded-xl bg-[#FF6A00]/10 border border-[#FF6A00]/20 flex flex-col sm:flex-row sm:items-center gap-4">
+            <div className="ae-cta-inline not-prose my-10 p-5 rounded-xl bg-[#F27D24]/10 border border-[#F27D24]/20 flex flex-col sm:flex-row sm:items-center gap-4">
               <div className="flex-1">
                 <p className="text-white font-semibold mb-1">How many stale sources are dragging you down?</p>
                 <p className="text-gray-400 text-sm">Our audit maps every source AI references for your business and flags the outdated ones.</p>
               </div>
               <a
                 href="mailto:support@theanswerengine.ai"
-                className="shrink-0 inline-flex items-center gap-2 border border-[#FF6A00] text-[#FF6A00] px-5 py-2.5 rounded-lg font-semibold text-sm hover:bg-[#FF6A00]/10 transition-colors"
+                className="shrink-0 inline-flex items-center gap-2 border border-[#F27D24] text-[#F27D24] px-5 py-2.5 rounded-lg font-semibold text-sm hover:bg-[#F27D24]/10 transition-colors"
               >
                 <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" /></svg>
                 Email Us
@@ -501,7 +510,7 @@ export default function WhyAIGivesOutdatedInformationPage() {
 
             {/* Section 5 */}
             <div id="what-goes-stale" className="not-prose mt-14 mb-4">
-              <div className="ae-section-label text-xs font-bold uppercase tracking-widest text-[#FF6A00] mb-2">Vulnerability Map</div>
+              <div className="ae-section-label text-xs font-bold uppercase tracking-widest text-[#F27D24] mb-2">Vulnerability Map</div>
               <h2 className="font-plus-jakarta text-3xl font-bold text-white mb-4">The Business Details That Go Stale Fastest</h2>
             </div>
 
@@ -555,7 +564,7 @@ export default function WhyAIGivesOutdatedInformationPage() {
               The pattern is predictable: anything that changes more than once per year is almost certainly outdated in at least one AI platform. Businesses that update hours seasonally, rotate service offerings, or adjust pricing regularly are the most vulnerable. And these are exactly the details customers rely on most when making a purchasing decision.
             </p>
 
-            <div className="ae-quote not-prose my-10 pl-6 border-l-4 border-[#FF6A00]">
+            <div className="ae-quote not-prose my-10 pl-6 border-l-4 border-[#F27D24]">
               <blockquote className="text-xl text-white font-plus-jakarta font-semibold leading-relaxed mb-3">
                 &ldquo;AI search recommends only 1.2% of local businesses. The rest are invisible. And for those it does recommend, accuracy hovers around 68% on most platforms.&rdquo;
               </blockquote>
@@ -564,7 +573,7 @@ export default function WhyAIGivesOutdatedInformationPage() {
 
             {/* Section 6 */}
             <div id="real-cost" className="not-prose mt-14 mb-4">
-              <div className="ae-section-label text-xs font-bold uppercase tracking-widest text-[#FF6A00] mb-2">Revenue Impact</div>
+              <div className="ae-section-label text-xs font-bold uppercase tracking-widest text-[#F27D24] mb-2">Revenue Impact</div>
               <h2 className="font-plus-jakarta text-3xl font-bold text-white mb-4">The Real Cost of Outdated AI Answers</h2>
             </div>
 
@@ -589,21 +598,21 @@ export default function WhyAIGivesOutdatedInformationPage() {
             </p>
 
             {/* Inline CTA 4 */}
-            <div className="ae-cta-inline not-prose my-10 p-5 rounded-xl bg-[#FF6A00]/10 border border-[#FF6A00]/20 flex flex-col sm:flex-row sm:items-center gap-4">
+            <div className="ae-cta-inline not-prose my-10 p-5 rounded-xl bg-[#F27D24]/10 border border-[#F27D24]/20 flex flex-col sm:flex-row sm:items-center gap-4">
               <div className="flex-1">
                 <p className="text-white font-semibold mb-1">How much revenue is stale AI data costing you?</p>
                 <p className="text-gray-400 text-sm">We quantify the gap between what AI says and what is true. The report is free.</p>
               </div>
               <Link
                 href="/blindspot"
-                className="shrink-0 inline-flex items-center gap-2 bg-[#FF6A00] text-white px-5 py-2.5 rounded-lg font-semibold text-sm hover:bg-[#e55f00] transition-colors"
+                className="shrink-0 inline-flex items-center gap-2 bg-[#F27D24] text-white px-5 py-2.5 rounded-lg font-semibold text-sm hover:bg-[#D96416] transition-colors"
               >
                 Get Free Report
                 <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" /></svg>
               </Link>
             </div>
 
-            <div className="ae-callout ae-callout-orange not-prose my-8 p-5 rounded-xl border border-[#FF6A00]/30 bg-[#FF6A00]/5">
+            <div className="ae-callout ae-callout-orange not-prose my-8 p-5 rounded-xl border border-[#F27D24]/30 bg-[#F27D24]/5">
               <div className="flex gap-3">
                 <span className="text-2xl">&#128073;</span>
                 <div>
@@ -611,7 +620,7 @@ export default function WhyAIGivesOutdatedInformationPage() {
                   <p className="text-gray-300 text-sm">
                     Outdated information does not just lose you one customer. AI platforms serve the same wrong answer to every person who asks a similar question. If 50 people per month ask AI about your type of business in your area, and the AI gives stale details for your listing, that is 50 potential customers receiving wrong information every single month until the data is corrected.
                     {' '}Questions? Call us at{' '}
-                    <a href="tel:+12134442229" className="text-[#FF6A00] hover:underline">(213) 444-2229</a>.
+                    <a href="tel:+12134442229" className="text-[#F27D24] hover:underline">(213) 444-2229</a>.
                   </p>
                 </div>
               </div>
@@ -619,7 +628,7 @@ export default function WhyAIGivesOutdatedInformationPage() {
 
             {/* Section 7 */}
             <div id="building-freshness" className="not-prose mt-14 mb-4">
-              <div className="ae-section-label text-xs font-bold uppercase tracking-widest text-[#FF6A00] mb-2">The Framework</div>
+              <div className="ae-section-label text-xs font-bold uppercase tracking-widest text-[#F27D24] mb-2">The Framework</div>
               <h2 className="font-plus-jakarta text-3xl font-bold text-white mb-4">Building a Freshness Signal That AI Actually Reads</h2>
             </div>
 
@@ -648,14 +657,14 @@ export default function WhyAIGivesOutdatedInformationPage() {
             </p>
 
             {/* Inline CTA 5 */}
-            <div className="ae-cta-inline not-prose my-10 p-5 rounded-xl bg-[#FF6A00]/10 border border-[#FF6A00]/20 flex flex-col sm:flex-row sm:items-center gap-4">
+            <div className="ae-cta-inline not-prose my-10 p-5 rounded-xl bg-[#F27D24]/10 border border-[#F27D24]/20 flex flex-col sm:flex-row sm:items-center gap-4">
               <div className="flex-1">
                 <p className="text-white font-semibold mb-1">Want a freshness strategy built for your business?</p>
                 <p className="text-gray-400 text-sm">We design AI correction ecosystems for businesses in over 40 industries. Let us show you the plan.</p>
               </div>
               <a
                 href="tel:+12134442229"
-                className="shrink-0 inline-flex items-center gap-2 border border-[#FF6A00] text-[#FF6A00] px-5 py-2.5 rounded-lg font-semibold text-sm hover:bg-[#FF6A00]/10 transition-colors"
+                className="shrink-0 inline-flex items-center gap-2 border border-[#F27D24] text-[#F27D24] px-5 py-2.5 rounded-lg font-semibold text-sm hover:bg-[#F27D24]/10 transition-colors"
               >
                 <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" /></svg>
                 Call (213) 444-2229
@@ -663,7 +672,7 @@ export default function WhyAIGivesOutdatedInformationPage() {
             </div>
 
             {/* Takeaway */}
-            <div className="ae-takeaway not-prose my-8 p-6 rounded-xl border border-[#FF6A00]/30 bg-gradient-to-br from-[#FF6A00]/10 to-transparent">
+            <div className="ae-takeaway not-prose my-8 p-6 rounded-xl border border-[#F27D24]/30 bg-gradient-to-br from-[#F27D24]/10 to-transparent">
               <h3 className="font-plus-jakarta font-bold text-white mb-3">The Key Takeaway</h3>
               <p className="text-gray-300 text-sm leading-relaxed">
                 Outdated AI answers are not a temporary glitch that fixes itself. They persist because AI models learn from the web on their own schedule, not yours. The only reliable path to freshness is making the correct information so dominant across so many authoritative sources that the AI has no alternative but to use it. That is what Answer Engine Optimization addresses at a systematic level.
@@ -672,7 +681,7 @@ export default function WhyAIGivesOutdatedInformationPage() {
 
             {/* Cheat Sheet */}
             <div className="ae-cheat-sheet not-prose my-12 p-6 rounded-xl border border-gray-700 bg-gray-900/80">
-              <h3 className="font-plus-jakarta text-xl font-bold text-[#FF6A00] mb-5">AI Freshness Cheat Sheet: Priority Actions</h3>
+              <h3 className="font-plus-jakarta text-xl font-bold text-[#F27D24] mb-5">AI Freshness Cheat Sheet: Priority Actions</h3>
               <p className="text-gray-400 text-sm mb-4">Working through this list? <a href="mailto:support@theanswerengine.ai" className="text-orange-500 hover:underline">Email us</a> or <a href="tel:+12134442229" className="text-orange-500 hover:underline">call (213) 444-2229</a> if you need guidance on any step.</p>
               <div className="grid md:grid-cols-2 gap-x-8 gap-y-2">
                 {[
@@ -690,7 +699,7 @@ export default function WhyAIGivesOutdatedInformationPage() {
                   'Track citation consistency across all sources quarterly',
                 ].map((item) => (
                   <div key={item} className="flex gap-2 py-1.5 border-b border-gray-800 last:border-0">
-                    <span className="text-[#FF6A00] shrink-0 mt-0.5 text-sm">&#9744;</span>
+                    <span className="text-[#F27D24] shrink-0 mt-0.5 text-sm">&#9744;</span>
                     <span className="text-gray-300 text-sm">{item}</span>
                   </div>
                 ))}
@@ -698,14 +707,14 @@ export default function WhyAIGivesOutdatedInformationPage() {
             </div>
 
             {/* Inline CTA 6 */}
-            <div className="ae-cta-inline not-prose my-10 p-5 rounded-xl bg-[#FF6A00]/10 border border-[#FF6A00]/20 flex flex-col sm:flex-row sm:items-center gap-4">
+            <div className="ae-cta-inline not-prose my-10 p-5 rounded-xl bg-[#F27D24]/10 border border-[#F27D24]/20 flex flex-col sm:flex-row sm:items-center gap-4">
               <div className="flex-1">
                 <p className="text-white font-semibold mb-1">Want someone to handle this checklist for you?</p>
                 <p className="text-gray-400 text-sm">We execute the full freshness strategy for businesses like yours. Start with a free audit.</p>
               </div>
               <a
                 href="mailto:support@theanswerengine.ai"
-                className="shrink-0 inline-flex items-center gap-2 border border-[#FF6A00] text-[#FF6A00] px-5 py-2.5 rounded-lg font-semibold text-sm hover:bg-[#FF6A00]/10 transition-colors"
+                className="shrink-0 inline-flex items-center gap-2 border border-[#F27D24] text-[#F27D24] px-5 py-2.5 rounded-lg font-semibold text-sm hover:bg-[#F27D24]/10 transition-colors"
               >
                 <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" /></svg>
                 Email Us
@@ -716,12 +725,12 @@ export default function WhyAIGivesOutdatedInformationPage() {
 
           {/* Author Card */}
           <div className="ae-author-card my-12 p-6 rounded-xl border border-gray-800 bg-gray-900/60 flex items-start gap-5">
-            <div className="w-14 h-14 rounded-full bg-[#FF6A00]/20 border border-[#FF6A00]/40 flex items-center justify-center text-2xl shrink-0">
+            <div className="w-14 h-14 rounded-full bg-[#F27D24]/20 border border-[#F27D24]/40 flex items-center justify-center text-2xl shrink-0">
               &#128204;
             </div>
             <div className="flex-1">
-              <p className="font-plus-jakarta font-bold text-white">The Answer Engine Team</p>
-              <p className="text-[#FF6A00] text-sm mb-2">AI Visibility Specialists</p>
+              <p className="font-plus-jakarta font-bold text-white">Justin Borges</p>
+              <p className="text-[#F27D24] text-sm mb-2">AI Visibility Specialists</p>
               <p className="text-gray-400 text-sm leading-relaxed mb-3">
                 We specialize in diagnosing and correcting how AI platforms represent local and regional businesses. Our Blind Spot Reports have uncovered outdated AI data for businesses in over 40 industries across the US.
               </p>
@@ -734,14 +743,14 @@ export default function WhyAIGivesOutdatedInformationPage() {
           </div>
 
           {/* 3-Tier CTA Block */}
-          <div className="not-prose my-16 p-8 rounded-2xl bg-gradient-to-br from-[#FF6A00]/10 to-transparent border border-[#FF6A00]/20">
+          <div className="not-prose my-16 p-8 rounded-2xl bg-gradient-to-br from-[#F27D24]/10 to-transparent border border-[#F27D24]/20">
             <h3 className="font-plus-jakarta text-2xl font-bold text-white mb-3">Stop AI From Sharing Outdated Information About Your Business</h3>
             <p className="text-gray-400 mb-6">Our Blind Spot Report reveals exactly what each AI platform currently says about you, what is outdated, and what is completely wrong.</p>
-            <Link href="/blindspot" className="inline-flex items-center gap-2 bg-[#FF6A00] text-white px-6 py-3 rounded-lg font-semibold hover:bg-[#e55f00] transition-colors">
+            <Link href="/blindspot" className="inline-flex items-center gap-2 bg-[#F27D24] text-white px-6 py-3 rounded-lg font-semibold hover:bg-[#D96416] transition-colors">
               Get Your Free Blind Spot Report
               <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" /></svg>
             </Link>
-            <div className="flex flex-wrap items-center gap-6 mt-6 pt-6 border-t border-[#FF6A00]/10">
+            <div className="flex flex-wrap items-center gap-6 mt-6 pt-6 border-t border-[#F27D24]/10">
               <a href="tel:+12134442229" className="flex items-center gap-2 text-gray-400 hover:text-white transition-colors">
                 <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" /></svg>
                 (213) 444-2229
@@ -755,7 +764,7 @@ export default function WhyAIGivesOutdatedInformationPage() {
 
           {/* FAQ Section */}
           <section id="faq" className="my-16">
-            <div className="ae-section-label text-xs font-bold uppercase tracking-widest text-[#FF6A00] mb-2">Common Questions</div>
+            <div className="ae-section-label text-xs font-bold uppercase tracking-widest text-[#F27D24] mb-2">Common Questions</div>
             <h2 className="font-plus-jakarta text-3xl font-bold text-white mb-8">Frequently Asked Questions</h2>
             <p className="text-gray-400 mb-8">Have questions about fixing outdated AI information? We have answers. Or <a href="tel:+12134442229" className="text-orange-500 hover:underline">call us at (213) 444-2229</a> to discuss your situation.</p>
             <div className="space-y-6">
@@ -794,7 +803,7 @@ export default function WhyAIGivesOutdatedInformationPage() {
           </section>
 
           {/* Final CTA */}
-          <div className="ae-final-cta my-16 text-center p-10 rounded-2xl border border-[#FF6A00]/30 bg-gradient-to-b from-[#FF6A00]/10 to-transparent relative overflow-hidden">
+          <div className="ae-final-cta my-16 text-center p-10 rounded-2xl border border-[#F27D24]/30 bg-gradient-to-b from-[#F27D24]/10 to-transparent relative overflow-hidden">
             <div
               className="absolute inset-0 rounded-2xl pointer-events-none"
               style={{
@@ -802,7 +811,7 @@ export default function WhyAIGivesOutdatedInformationPage() {
               }}
             />
             <div className="relative z-10">
-              <p className="text-[#FF6A00] text-sm font-semibold uppercase tracking-widest mb-3">Take Action Today</p>
+              <p className="text-[#F27D24] text-sm font-semibold uppercase tracking-widest mb-3">Take Action Today</p>
               <h3 className="font-plus-jakarta text-3xl font-bold text-white mb-4">
                 Every Day AI Shares Outdated Info,<br className="hidden md:block" /> You Lose Customers You Never Knew About
               </h3>
@@ -812,7 +821,7 @@ export default function WhyAIGivesOutdatedInformationPage() {
               <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
                 <Link
                   href="/blindspot"
-                  className="inline-flex items-center gap-2 bg-[#FF6A00] text-white px-8 py-4 rounded-xl font-bold text-lg hover:bg-[#e55f00] transition-colors"
+                  className="inline-flex items-center gap-2 bg-[#F27D24] text-white px-8 py-4 rounded-xl font-bold text-lg hover:bg-[#D96416] transition-colors"
                   style={{ animation: 'pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite' }}
                 >
                   Get Your Free Blind Spot Report

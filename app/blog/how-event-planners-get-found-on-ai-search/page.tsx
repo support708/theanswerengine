@@ -17,7 +17,7 @@ export const metadata: Metadata = {
     type: 'article',
     publishedTime: '2026-04-19',
     modifiedTime: '2026-04-19',
-    authors: ['The Answer Engine Team'],
+    authors: ['https://theanswerengine.ai/about'],
     url: 'https://theanswerengine.ai/blog/how-event-planners-get-found-on-ai-search',
     images: [
       {
@@ -73,9 +73,18 @@ function ComprehensiveSchema() {
           "height": 630
         },
         "author": {
-          "@type": "Organization",
-          "name": "The Answer Engine Team",
-          "url": "https://theanswerengine.ai/about"
+          "@type": "Person",
+          "@id": "https://theanswerengine.ai/about#justin-borges",
+          "name": "Justin Borges",
+          "jobTitle": "Founder, The Answer Engine",
+          "worksFor": {
+            "@type": "Organization",
+            "name": "The Answer Engine",
+            "url": "https://theanswerengine.ai"
+          },
+          "knowsAbout": ["Answer Engine Optimization", "AI Search", "Content Strategy", "Real Estate Marketing", "Citation Surface"],
+          "url": "https://theanswerengine.ai/about",
+          "image": "https://theanswerengine.ai/justin-borges.webp"
         },
         "publisher": {
           "@type": "Organization",
@@ -266,7 +275,7 @@ export default function HowEventPlannersGetFoundOnAISearch() {
                 <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={2}>
                   <path strokeLinecap="round" strokeLinejoin="round" d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z" />
                 </svg>
-                <span>The Answer Engine Team</span>
+                <span>Justin Borges</span>
               </div>
             </div>
           </div>
@@ -350,12 +359,12 @@ export default function HowEventPlannersGetFoundOnAISearch() {
           </div>
 
           {/* Inline CTA 1 */}
-          <div className="not-prose my-10 p-6 rounded-xl bg-gradient-to-r from-[#FF6A00]/10 to-transparent border border-[#FF6A00]/20 flex flex-col sm:flex-row items-start sm:items-center gap-4 ae-cta-inline">
+          <div className="not-prose my-10 p-6 rounded-xl bg-gradient-to-r from-[#F27D24]/10 to-transparent border border-[#F27D24]/20 flex flex-col sm:flex-row items-start sm:items-center gap-4 ae-cta-inline">
             <div className="flex-1">
               <p className="text-white font-semibold mb-1">Is AI recommending your event planning business?</p>
               <p className="text-gray-400 text-sm">Find your blind spots with a free AI visibility audit. Results delivered within 24 hours.</p>
             </div>
-            <Link href="/blindspot" className="shrink-0 inline-flex items-center gap-2 bg-[#FF6A00] text-white px-5 py-2.5 rounded-lg font-semibold hover:bg-[#e55f00] transition-colors text-sm">
+            <Link href="/blindspot" className="shrink-0 inline-flex items-center gap-2 bg-[#F27D24] text-white px-5 py-2.5 rounded-lg font-semibold hover:bg-[#D96416] transition-colors text-sm">
               Get Your Free Report
               <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" /></svg>
             </Link>
@@ -386,7 +395,7 @@ export default function HowEventPlannersGetFoundOnAISearch() {
             </p>
 
             <p className="text-gray-300 leading-relaxed mb-5">
-              This is why understanding <Link href="/blog/does-schema-markup-help-ai-search" className="text-[#FF6A00] hover:text-orange-400 underline underline-offset-2 transition-colors">schema markup for AI search</Link> matters for event planners specifically. Structured data is one of the few direct signals a business can
+              This is why understanding <Link href="/blog/does-schema-markup-help-ai-search" className="text-[#F27D24] hover:text-orange-400 underline underline-offset-2 transition-colors">schema markup for AI search</Link> matters for event planners specifically. Structured data is one of the few direct signals a business can
               send to AI models without relying entirely on third-party sources. When your website clearly declares
               your service category, location, pricing structure, and service offerings in machine-readable format,
               you are giving AI platforms explicit data to work with rather than making them infer it.
@@ -401,7 +410,7 @@ export default function HowEventPlannersGetFoundOnAISearch() {
 
             <p className="text-gray-300 leading-relaxed mb-8">
               Beyond your own website, the business profiles you maintain on external platforms matter significantly.
-              Your <Link href="/blog/how-to-optimize-your-google-business-profile-for-ai" className="text-[#FF6A00] hover:text-orange-400 underline underline-offset-2 transition-colors">Google Business Profile for AI</Link> is one of the most important external data sources AI platforms pull from when forming local recommendations. Incomplete or inconsistent profiles create gaps that
+              Your <Link href="/blog/how-to-optimize-your-google-business-profile-for-ai" className="text-[#F27D24] hover:text-orange-400 underline underline-offset-2 transition-colors">Google Business Profile for AI</Link> is one of the most important external data sources AI platforms pull from when forming local recommendations. Incomplete or inconsistent profiles create gaps that
               erode AI confidence and push you down in favor of better-documented competitors.
             </p>
           </div>
@@ -473,12 +482,12 @@ export default function HowEventPlannersGetFoundOnAISearch() {
           </div>
 
           {/* Inline CTA 2 */}
-          <div className="not-prose my-10 p-6 rounded-xl bg-gradient-to-r from-[#FF6A00]/10 to-transparent border border-[#FF6A00]/20 flex flex-col sm:flex-row items-start sm:items-center gap-4 ae-cta-inline">
+          <div className="not-prose my-10 p-6 rounded-xl bg-gradient-to-r from-[#F27D24]/10 to-transparent border border-[#F27D24]/20 flex flex-col sm:flex-row items-start sm:items-center gap-4 ae-cta-inline">
             <div className="flex-1">
               <p className="text-white font-semibold mb-1">How many AI-driven clients are going to your competitors?</p>
               <p className="text-gray-400 text-sm">Your free Blind Spot Report maps exactly where you stand across ChatGPT, Perplexity, and Google AI.</p>
             </div>
-            <Link href="/blindspot" className="shrink-0 inline-flex items-center gap-2 bg-[#FF6A00] text-white px-5 py-2.5 rounded-lg font-semibold hover:bg-[#e55f00] transition-colors text-sm">
+            <Link href="/blindspot" className="shrink-0 inline-flex items-center gap-2 bg-[#F27D24] text-white px-5 py-2.5 rounded-lg font-semibold hover:bg-[#D96416] transition-colors text-sm">
               Run My Audit
               <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" /></svg>
             </Link>
@@ -518,7 +527,7 @@ export default function HowEventPlannersGetFoundOnAISearch() {
               Structured data and content clarity round out the top three factors. This is where the connection to
               AI recommendation logic becomes technical. The way your website describes your services, the questions
               it answers, and the schema markup it uses all influence how confidently AI can categorize and recommend
-              your business. It is also worth understanding <Link href="/blog/why-ai-recommends-businesses-with-worse-reviews" className="text-[#FF6A00] hover:text-orange-400 underline underline-offset-2 transition-colors">why AI recommendations are not just about reviews</Link> — the full signal picture matters more than any single metric.
+              your business. It is also worth understanding <Link href="/blog/why-ai-recommends-businesses-with-worse-reviews" className="text-[#F27D24] hover:text-orange-400 underline underline-offset-2 transition-colors">why AI recommendations are not just about reviews</Link> — the full signal picture matters more than any single metric.
             </p>
 
             <p className="text-gray-300 leading-relaxed mb-8">
@@ -618,7 +627,7 @@ export default function HowEventPlannersGetFoundOnAISearch() {
 
             {/* Quote */}
             <div className="not-prose ae-quote my-10">
-              <blockquote className="border-l-4 border-[#FF6A00] pl-6 py-2">
+              <blockquote className="border-l-4 border-[#F27D24] pl-6 py-2">
                 <p className="text-lg text-gray-200 italic leading-relaxed">
                   "AI can&apos;t recommend what it can&apos;t verify. Event planners who make pricing and service clarity
                   a priority consistently outperform those who rely on their reputation alone."
@@ -636,7 +645,7 @@ export default function HowEventPlannersGetFoundOnAISearch() {
             </p>
 
             <p className="text-gray-300 leading-relaxed mb-8">
-              The multi-platform review strategy connects to a broader principle about how <Link href="/blog/how-press-mentions-help-ai-recommend-you" className="text-[#FF6A00] hover:text-orange-400 underline underline-offset-2 transition-colors">how press mentions help AI</Link> recommend your business. Reviews on third-party platforms and editorial coverage from publications are
+              The multi-platform review strategy connects to a broader principle about how <Link href="/blog/how-press-mentions-help-ai-recommend-you" className="text-[#F27D24] hover:text-orange-400 underline underline-offset-2 transition-colors">how press mentions help AI</Link> recommend your business. Reviews on third-party platforms and editorial coverage from publications are
               different types of external validation, but they serve the same function in AI's evaluation model:
               they are third-party evidence that your business is what it claims to be.
             </p>
@@ -695,19 +704,19 @@ export default function HowEventPlannersGetFoundOnAISearch() {
               The practical threshold is this: basic hygiene improvements are DIY-friendly. Systematic AI visibility
               building across the full signal stack is not. Most event planners who attempt a full DIY approach discover
               they have addressed the visible surface layer but missed the structural signals that determine whether AI
-              actually recommends them when the query comes in. Understanding how <Link href="/blog/does-having-a-blog-actually-help-ai-recommend-your-business" className="text-[#FF6A00] hover:text-orange-400 underline underline-offset-2 transition-colors">blog content for AI</Link> fits into
+              actually recommends them when the query comes in. Understanding how <Link href="/blog/does-having-a-blog-actually-help-ai-recommend-your-business" className="text-[#F27D24] hover:text-orange-400 underline underline-offset-2 transition-colors">blog content for AI</Link> fits into
               the broader signal picture is one example of the depth that separates surface improvements from
               genuine visibility gains.
             </p>
           </div>
 
           {/* Inline CTA 3 */}
-          <div className="not-prose my-10 p-6 rounded-xl bg-gradient-to-r from-[#FF6A00]/10 to-transparent border border-[#FF6A00]/20 flex flex-col sm:flex-row items-start sm:items-center gap-4 ae-cta-inline">
+          <div className="not-prose my-10 p-6 rounded-xl bg-gradient-to-r from-[#F27D24]/10 to-transparent border border-[#F27D24]/20 flex flex-col sm:flex-row items-start sm:items-center gap-4 ae-cta-inline">
             <div className="flex-1">
               <p className="text-white font-semibold mb-1">Want to know exactly where your AI visibility gaps are?</p>
               <p className="text-gray-400 text-sm">We audit every major AI platform and show you what they see about your business right now.</p>
             </div>
-            <Link href="/blindspot" className="shrink-0 inline-flex items-center gap-2 bg-[#FF6A00] text-white px-5 py-2.5 rounded-lg font-semibold hover:bg-[#e55f00] transition-colors text-sm">
+            <Link href="/blindspot" className="shrink-0 inline-flex items-center gap-2 bg-[#F27D24] text-white px-5 py-2.5 rounded-lg font-semibold hover:bg-[#D96416] transition-colors text-sm">
               Start Free Audit
               <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" /></svg>
             </Link>
@@ -732,8 +741,8 @@ export default function HowEventPlannersGetFoundOnAISearch() {
               <div className="ae-bar-group-title text-white font-semibold mb-4 font-plus-jakarta">AI Platform Recommendation Weight for Local Service Queries</div>
               <div className="space-y-3">
                 {[
-                  { label: 'Google AI Mode / AI Overviews', value: 91, note: 'Highest volume. Pulls from GBP, Maps, and structured web data.', color: '#FF6A00' },
-                  { label: 'ChatGPT (with web browsing)', value: 84, note: 'Dominant for research-style queries. Weighs site content and third-party mentions.', color: '#FF6A00' },
+                  { label: 'Google AI Mode / AI Overviews', value: 91, note: 'Highest volume. Pulls from GBP, Maps, and structured web data.', color: '#F27D24' },
+                  { label: 'ChatGPT (with web browsing)', value: 84, note: 'Dominant for research-style queries. Weighs site content and third-party mentions.', color: '#F27D24' },
                   { label: 'Perplexity AI', value: 78, note: 'Real-time web access. Rewards recency and review platform breadth.', color: '#e07b00' },
                   { label: 'Microsoft Copilot', value: 67, note: 'Bing-integrated. Responds well to Bing Places and structured listings.', color: '#e07b00' },
                   { label: 'Claude AI', value: 52, note: 'Context-heavy responses. Values detailed service descriptions.', color: '#b86a00' },
@@ -835,8 +844,8 @@ export default function HowEventPlannersGetFoundOnAISearch() {
           <div id="cheat-sheet" className="scroll-mt-20">
             <div className="not-prose ae-cheat-sheet my-10 p-6 rounded-2xl bg-gradient-to-br from-white/[0.03] to-transparent border border-white/10">
               <div className="flex items-center gap-3 mb-6">
-                <div className="w-8 h-8 rounded-lg bg-[#FF6A00]/20 flex items-center justify-center">
-                  <svg className="w-4 h-4 text-[#FF6A00]" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <div className="w-8 h-8 rounded-lg bg-[#F27D24]/20 flex items-center justify-center">
+                  <svg className="w-4 h-4 text-[#F27D24]" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2" />
                   </svg>
                 </div>
@@ -858,8 +867,8 @@ export default function HowEventPlannersGetFoundOnAISearch() {
                   { label: 'Earn at least one editorial third-party mention', note: 'A local business journal feature outperforms any number of directory listings.' },
                 ].map((item, i) => (
                   <div key={i} className="flex items-start gap-3 p-3 rounded-lg bg-white/[0.02] border border-white/5">
-                    <div className="w-5 h-5 rounded-full bg-[#FF6A00]/20 flex items-center justify-center shrink-0 mt-0.5">
-                      <span className="text-[#FF6A00] text-xs font-bold">{i + 1}</span>
+                    <div className="w-5 h-5 rounded-full bg-[#F27D24]/20 flex items-center justify-center shrink-0 mt-0.5">
+                      <span className="text-[#F27D24] text-xs font-bold">{i + 1}</span>
                     </div>
                     <div>
                       <div className="text-white text-sm font-medium">{item.label}</div>
@@ -891,30 +900,30 @@ export default function HowEventPlannersGetFoundOnAISearch() {
           </div>
 
           {/* Inline CTA 4 */}
-          <div className="not-prose my-10 p-6 rounded-xl bg-gradient-to-r from-[#FF6A00]/10 to-transparent border border-[#FF6A00]/20 flex flex-col sm:flex-row items-start sm:items-center gap-4 ae-cta-inline">
+          <div className="not-prose my-10 p-6 rounded-xl bg-gradient-to-r from-[#F27D24]/10 to-transparent border border-[#F27D24]/20 flex flex-col sm:flex-row items-start sm:items-center gap-4 ae-cta-inline">
             <div className="flex-1">
               <p className="text-white font-semibold mb-1">Ready to build AI visibility for your event planning business?</p>
               <p className="text-gray-400 text-sm">Your free Blind Spot Report shows exactly where AI can and cannot find you right now.</p>
             </div>
-            <Link href="/blindspot" className="shrink-0 inline-flex items-center gap-2 bg-[#FF6A00] text-white px-5 py-2.5 rounded-lg font-semibold hover:bg-[#e55f00] transition-colors text-sm">
+            <Link href="/blindspot" className="shrink-0 inline-flex items-center gap-2 bg-[#F27D24] text-white px-5 py-2.5 rounded-lg font-semibold hover:bg-[#D96416] transition-colors text-sm">
               Get Your Free Report
               <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" /></svg>
             </Link>
           </div>
 
           {/* 3-Tier CTA Block */}
-          <div className="not-prose ae-cta-block my-16 p-8 rounded-2xl bg-gradient-to-br from-[#FF6A00]/10 to-transparent border border-[#FF6A00]/20">
+          <div className="not-prose ae-cta-block my-16 p-8 rounded-2xl bg-gradient-to-br from-[#F27D24]/10 to-transparent border border-[#F27D24]/20">
             <h3 className="font-plus-jakarta text-2xl font-bold text-white mb-3">Is AI Sending Clients to You or to Your Competition?</h3>
             <p className="text-gray-400 mb-6">
               Most event planners have no idea what ChatGPT, Perplexity, and Google AI say when a client asks for
               a recommendation in their market. Your free Blind Spot Report maps exactly which AI platforms surface
               your business, which queries you appear in, and where your strongest competitors are outranking you.
             </p>
-            <Link href="/blindspot" className="inline-flex items-center gap-2 bg-[#FF6A00] text-white px-6 py-3 rounded-lg font-semibold hover:bg-[#e55f00] transition-colors">
+            <Link href="/blindspot" className="inline-flex items-center gap-2 bg-[#F27D24] text-white px-6 py-3 rounded-lg font-semibold hover:bg-[#D96416] transition-colors">
               Get Your Free Blind Spot Report
               <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" /></svg>
             </Link>
-            <div className="flex flex-wrap items-center gap-6 mt-6 pt-6 border-t border-[#FF6A00]/10">
+            <div className="flex flex-wrap items-center gap-6 mt-6 pt-6 border-t border-[#F27D24]/10">
               <a href="tel:+12134442229" className="flex items-center gap-2 text-gray-400 hover:text-white transition-colors">
                 <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" /></svg>
                 (213) 444-2229
@@ -928,14 +937,14 @@ export default function HowEventPlannersGetFoundOnAISearch() {
 
           {/* Author Card */}
           <div className="not-prose ae-author-card my-12 p-6 rounded-2xl bg-white/[0.03] border border-white/10 flex items-start gap-5">
-            <div className="w-14 h-14 rounded-full bg-gradient-to-br from-[#FF6A00]/30 to-[#FF6A00]/10 flex items-center justify-center shrink-0">
-              <svg className="w-7 h-7 text-[#FF6A00]" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <div className="w-14 h-14 rounded-full bg-gradient-to-br from-[#F27D24]/30 to-[#F27D24]/10 flex items-center justify-center shrink-0">
+              <svg className="w-7 h-7 text-[#F27D24]" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z" />
               </svg>
             </div>
             <div>
-              <div className="text-white font-bold text-lg font-plus-jakarta mb-1">The Answer Engine Team</div>
-              <div className="text-[#FF6A00] text-sm font-medium mb-3">Answer Engine Optimization Specialists</div>
+              <div className="text-white font-bold text-lg font-plus-jakarta mb-1">Justin Borges</div>
+              <div className="text-[#F27D24] text-sm font-medium mb-3">Answer Engine Optimization Specialists</div>
               <p className="text-gray-400 text-sm leading-relaxed">
                 The Answer Engine is an AEO agency focused exclusively on helping businesses appear in AI-generated
                 recommendations. Our team researches AI citation patterns, platform-specific ranking signals, and
@@ -998,10 +1007,10 @@ export default function HowEventPlannersGetFoundOnAISearch() {
 
           {/* Final CTA with pulse glow */}
           <div className="not-prose ae-final-cta mt-20 relative">
-            <div className="absolute inset-0 rounded-2xl bg-[#FF6A00]/20 blur-2xl animate-pulse" />
-            <div className="relative p-8 sm:p-10 rounded-2xl bg-gradient-to-br from-[#FF6A00]/15 via-[#0F1117] to-[#0F1117] border border-[#FF6A00]/30 text-center">
-              <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-[#FF6A00]/10 border border-[#FF6A00]/20 mb-6">
-                <span className="text-[#FF6A00] text-xs font-semibold uppercase tracking-wider">Free AI Visibility Audit</span>
+            <div className="absolute inset-0 rounded-2xl bg-[#F27D24]/20 blur-2xl animate-pulse" />
+            <div className="relative p-8 sm:p-10 rounded-2xl bg-gradient-to-br from-[#F27D24]/15 via-[#0F1117] to-[#0F1117] border border-[#F27D24]/30 text-center">
+              <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-[#F27D24]/10 border border-[#F27D24]/20 mb-6">
+                <span className="text-[#F27D24] text-xs font-semibold uppercase tracking-wider">Free AI Visibility Audit</span>
               </div>
               <h2 className="font-plus-jakarta text-2xl sm:text-3xl font-bold text-white mb-4">
                 Find Out If AI Is Recommending You or Ignoring You
@@ -1012,7 +1021,7 @@ export default function HowEventPlannersGetFoundOnAISearch() {
                 your competitors are not thinking about yet.
               </p>
               <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-                <Link href="/blindspot" className="inline-flex items-center gap-2 bg-[#FF6A00] text-white px-8 py-4 rounded-xl font-bold text-lg hover:bg-[#e55f00] transition-colors shadow-lg shadow-orange-500/20">
+                <Link href="/blindspot" className="inline-flex items-center gap-2 bg-[#F27D24] text-white px-8 py-4 rounded-xl font-bold text-lg hover:bg-[#D96416] transition-colors shadow-lg shadow-orange-500/20">
                   Get Your Free Blind Spot Report
                   <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" /></svg>
                 </Link>

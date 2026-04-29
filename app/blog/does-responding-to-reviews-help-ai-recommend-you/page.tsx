@@ -29,7 +29,7 @@ export const metadata: Metadata = {
     description,
     type: 'article',
     publishedTime: publishDate,
-    authors: ['The Answer Engine Team'],
+    authors: ['https://theanswerengine.ai/about'],
     url: `https://theanswerengine.ai/blog/${slug}`,
     images: [{ url: `https://theanswerengine.ai/blog/${slug}.webp`, width: 1200, height: 630, alt: title }],
   },
@@ -120,9 +120,18 @@ const jsonLd = {
       datePublished: publishDate,
       dateModified: publishDate,
       author: {
-        '@type': 'Organization',
-        name: 'The Answer Engine Team',
+        '@type': 'Person',
+        '@id': 'https://theanswerengine.ai/about#justin-borges',
+        name: 'Justin Borges',
+        jobTitle: 'Founder, The Answer Engine',
+        worksFor: {
+          '@type': 'Organization',
+          name: 'The Answer Engine',
+          url: 'https://theanswerengine.ai',
+        },
+        knowsAbout: ['Answer Engine Optimization', 'AI Search', 'Content Strategy', 'Real Estate Marketing', 'Citation Surface'],
         url: 'https://theanswerengine.ai/about',
+        image: 'https://theanswerengine.ai/justin-borges.webp',
       },
       publisher: {
         '@type': 'Organization',
@@ -180,7 +189,7 @@ export default function Page() {
 
         {/* Hero Section */}
         <section className="relative overflow-hidden border-b border-white/5">
-          <div className="absolute inset-0 bg-gradient-to-br from-[#FF6A00]/10 via-transparent to-transparent" />
+          <div className="absolute inset-0 bg-gradient-to-br from-[#F27D24]/10 via-transparent to-transparent" />
           <svg className="absolute inset-0 w-full h-full opacity-[0.03]" aria-hidden="true">
             <defs>
               <pattern id="hero-grid-review-responses" width="40" height="40" patternUnits="userSpaceOnUse">
@@ -191,12 +200,12 @@ export default function Page() {
           </svg>
           <div className="relative max-w-4xl mx-auto px-6 py-16 sm:py-24">
             <Breadcrumb />
-            <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full mb-6 bg-[#FF6A00]/10 border border-[#FF6A00]/30">
-              <span className="text-sm font-semibold tracking-wider uppercase text-[#FF6A00]">Myth Busters</span>
+            <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full mb-6 bg-[#F27D24]/10 border border-[#F27D24]/30">
+              <span className="text-sm font-semibold tracking-wider uppercase text-[#F27D24]">Myth Busters</span>
             </div>
             <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold mb-6 text-white leading-tight font-plus-jakarta">
               Does Responding to Reviews{' '}
-              <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#FF6A00] to-orange-400">Help AI Recommend You</span>
+              <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#F27D24] to-orange-400">Help AI Recommend You</span>
             </h1>
             <p className="text-xl text-gray-300 mb-8 max-w-2xl leading-relaxed">
               The advice sounds reasonable: respond to every review and AI will reward you. The reality is more complicated, and most businesses responding to reviews are doing it in a way that adds zero AI visibility.
@@ -218,7 +227,7 @@ export default function Page() {
                 <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={2}>
                   <path strokeLinecap="round" strokeLinejoin="round" d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z" />
                 </svg>
-                <span>The Answer Engine Team</span>
+                <span>Justin Borges</span>
               </div>
             </div>
           </div>
@@ -226,7 +235,7 @@ export default function Page() {
 
         {/* Article Body */}
         <article className="max-w-4xl mx-auto px-6 py-12 sm:py-16">
-          <div className="prose prose-invert prose-lg max-w-none prose-headings:font-plus-jakarta prose-headings:text-white prose-p:text-gray-300 prose-a:text-[#FF6A00] prose-a:no-underline hover:prose-a:underline prose-strong:text-white">
+          <div className="prose prose-invert prose-lg max-w-none prose-headings:font-plus-jakarta prose-headings:text-white prose-p:text-gray-300 prose-a:text-[#F27D24] prose-a:no-underline hover:prose-a:underline prose-strong:text-white">
 
             {/* Stats Grid */}
             <div className="not-prose ae-stats-grid">
@@ -519,7 +528,7 @@ export default function Page() {
                 <p className="text-gray-300 text-sm leading-relaxed mb-3">
                   Customer review: "Fixed our water heater fast, great price."
                 </p>
-                <p className="text-[#FF6A00] text-sm leading-relaxed italic">
+                <p className="text-[#F27D24] text-sm leading-relaxed italic">
                   "Thank you for choosing [Business Name] for your water heater repair in [City]. Our licensed plumbers prioritize same-day service for water heater emergencies throughout [Metro Area]. We are glad the repair resolved the issue quickly and that our pricing was transparent. We look forward to being your go-to plumber for any future needs."
                 </p>
                 <ul className="mt-3 text-sm text-gray-300 space-y-1">
@@ -723,25 +732,30 @@ export default function Page() {
         <div className="max-w-4xl mx-auto px-6">
 
           {/* Author Card */}
-          <div className="not-prose ae-author-card">
-            <div className="ae-author-avatar">AE</div>
-            <div>
-              <div className="ae-author-name">The Answer Engine Team</div>
-              <div className="ae-author-role">
-                We help local service businesses get recommended by AI platforms like ChatGPT, Perplexity, Claude, and Google AI. Our research-driven approach identifies exactly where your business is invisible to AI and what to fix first.
+          <div className="not-prose">
+            <div className="ae-author-card">
+              <img
+                src="/justin-borges.webp"
+                alt="Justin Borges, Founder of The Answer Engine"
+                style={{ width: 64, height: 64, borderRadius: '50%', objectFit: 'cover', flexShrink: 0 }}
+              />
+              <div>
+                <div className="ae-author-name" style={{ fontWeight: 600 }}>Justin Borges</div>
+                <div className="ae-author-role" style={{ fontWeight: 400 }}>Founder, The Answer Engine</div>
+                <p style={{ marginTop: 8, fontSize: '0.875rem', color: 'rgba(255,255,255,0.65)', lineHeight: 1.6 }}>Justin Borges founded The Answer Engine in 2025 after 13+ years in real estate, $200M+ in production, and discovering that AI search rankings now decide who gets cited as the answer. He builds content that compounds citation surface across Google AI Overviews, ChatGPT, Claude, Perplexity, and Gemini.</p>
               </div>
             </div>
           </div>
 
           {/* 3-Tier CTA Block */}
-          <div className="not-prose my-16 p-8 rounded-2xl bg-gradient-to-br from-[#FF6A00]/10 to-transparent border border-[#FF6A00]/20">
+          <div className="not-prose my-16 p-8 rounded-2xl bg-gradient-to-br from-[#F27D24]/10 to-transparent border border-[#F27D24]/20">
             <h3 className="font-plus-jakarta text-2xl font-bold text-white mb-3">Find Out What AI Thinks of Your Reviews</h3>
             <p className="text-gray-400 mb-6">Our free Blind Spot Report shows exactly how AI platforms are reading your reviews and whether your response strategy is helping or hurting your visibility.</p>
-            <Link href="/blindspot" className="inline-flex items-center gap-2 bg-[#FF6A00] text-white px-6 py-3 rounded-lg font-semibold hover:bg-[#e55f00] transition-colors">
+            <Link href="/blindspot" className="inline-flex items-center gap-2 bg-[#F27D24] text-white px-6 py-3 rounded-lg font-semibold hover:bg-[#D96416] transition-colors">
               Get Your Free Blind Spot Report
               <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" /></svg>
             </Link>
-            <div className="flex flex-wrap items-center gap-6 mt-6 pt-6 border-t border-[#FF6A00]/10">
+            <div className="flex flex-wrap items-center gap-6 mt-6 pt-6 border-t border-[#F27D24]/10">
               <a href="tel:+12134442229" className="flex items-center gap-2 text-gray-400 hover:text-white transition-colors">
                 <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" /></svg>
                 (213) 444-2229

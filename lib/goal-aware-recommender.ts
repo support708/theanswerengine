@@ -173,7 +173,7 @@ Return JSON only — the goal-aware interpretation + 3 recommendations + convers
  */
 export function renderRecommendationsHtml(output: GoalAwareOutput): string {
   const DISPLAY = `'Space Grotesk','Inter','Helvetica Neue',Arial,sans-serif`;
-  const BRAND = '#FF6A00';
+  const BRAND = '#F27D24';
 
   const recItems = output.recommendations.map((r, i) => `
     <li style="margin:0 0 14px 0;padding:12px 14px;background:#fafafa;border-left:3px solid ${BRAND};list-style:none;">

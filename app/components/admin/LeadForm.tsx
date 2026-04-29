@@ -56,7 +56,7 @@ export default function LeadForm({ onLeadCreated }: LeadFormProps) {
     return (
       <button
         onClick={() => setOpen(true)}
-        className="px-4 py-2 bg-[#FF6A00] hover:bg-[#e55f00] text-white font-semibold rounded-lg transition-colors text-sm"
+        className="px-4 py-2 bg-[#F27D24] hover:bg-[#D96416] text-white font-semibold rounded-lg transition-colors text-sm"
       >
         + Add Lead
       </button>
@@ -92,7 +92,7 @@ export default function LeadForm({ onLeadCreated }: LeadFormProps) {
           <textarea
             name="notes"
             rows={3}
-            className="w-full px-3 py-2 bg-zinc-800 border border-zinc-600 rounded-lg text-white text-sm placeholder-zinc-500 focus:outline-none focus:border-[#FF6A00] resize-none"
+            className="w-full px-3 py-2 bg-zinc-800 border border-zinc-600 rounded-lg text-white text-sm placeholder-zinc-500 focus:outline-none focus:border-[#F27D24] resize-none"
             placeholder="Board positions, awards, community involvement, origin story, certifications..."
           />
         </div>
@@ -102,7 +102,7 @@ export default function LeadForm({ onLeadCreated }: LeadFormProps) {
         <button
           type="submit"
           disabled={loading}
-          className="px-6 py-2 bg-[#FF6A00] hover:bg-[#e55f00] disabled:opacity-50 text-white font-semibold rounded-lg transition-colors text-sm"
+          className="px-6 py-2 bg-[#F27D24] hover:bg-[#D96416] disabled:opacity-50 text-white font-semibold rounded-lg transition-colors text-sm"
         >
           {loading ? 'Creating...' : 'Add to Queue'}
         </button>
@@ -127,7 +127,7 @@ function Field({
   return (
     <div>
       <label htmlFor={name} className="block text-sm text-zinc-400 mb-1">
-        {label} {required && <span className="text-[#FF6A00]">*</span>}
+        {label} {required && <span className="text-[#F27D24]">*</span>}
       </label>
       <input
         id={name}
@@ -136,7 +136,7 @@ function Field({
         required={required}
         placeholder={placeholder}
         step={type === 'number' ? 'any' : undefined}
-        className="w-full px-3 py-2 bg-zinc-800 border border-zinc-600 rounded-lg text-white text-sm placeholder-zinc-500 focus:outline-none focus:border-[#FF6A00]"
+        className="w-full px-3 py-2 bg-zinc-800 border border-zinc-600 rounded-lg text-white text-sm placeholder-zinc-500 focus:outline-none focus:border-[#F27D24]"
       />
     </div>
   );

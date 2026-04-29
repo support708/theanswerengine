@@ -29,13 +29,13 @@ export const metadata: Metadata = {
     'content depth AI ranking',
     'cross-platform consistency AI',
   ],
-  authors: [{ name: 'The Answer Engine Team' }],
+  authors: [{ name: 'Justin Borges', url: 'https://theanswerengine.ai/about' }],
   openGraph: {
     title: titleWithSuffix,
     description,
     type: 'article',
     publishedTime: publishDate,
-    authors: ['The Answer Engine Team'],
+    authors: ['https://theanswerengine.ai/about'],
     url: `https://theanswerengine.ai/blog/${slug}`,
     images: [
       {
@@ -111,9 +111,18 @@ const jsonLd = {
       datePublished: publishDate + 'T00:00:00Z',
       dateModified: publishDate + 'T00:00:00Z',
       author: {
-        '@type': 'Organization',
-        name: 'The Answer Engine',
-        url: 'https://theanswerengine.ai',
+        '@type': 'Person',
+        '@id': 'https://theanswerengine.ai/about#justin-borges',
+        name: 'Justin Borges',
+        jobTitle: 'Founder, The Answer Engine',
+        worksFor: {
+          '@type': 'Organization',
+          name: 'The Answer Engine',
+          url: 'https://theanswerengine.ai',
+        },
+        knowsAbout: ['Answer Engine Optimization', 'AI Search', 'Content Strategy', 'Real Estate Marketing', 'Citation Surface'],
+        url: 'https://theanswerengine.ai/about',
+        image: 'https://theanswerengine.ai/justin-borges.webp',
       },
       publisher: {
         '@type': 'Organization',
@@ -223,7 +232,7 @@ export default function Page() {
                 <path
                   d="M 40 0 L 0 0 0 40"
                   fill="none"
-                  stroke="#FF6A00"
+                  stroke="#F27D24"
                   strokeWidth="0.5"
                 />
               </pattern>
@@ -237,7 +246,7 @@ export default function Page() {
             <div className="flex items-center gap-3 mb-6">
               <span
                 className="text-xs font-semibold uppercase tracking-widest px-3 py-1 rounded-full"
-                style={{ backgroundColor: 'rgba(255,106,0,0.15)', color: '#FF6A00', border: '1px solid rgba(255,106,0,0.3)' }}
+                style={{ backgroundColor: 'rgba(255,106,0,0.15)', color: '#F27D24', border: '1px solid rgba(255,106,0,0.3)' }}
               >
                 Platform Deep Dives
               </span>
@@ -250,7 +259,7 @@ export default function Page() {
               style={{ color: '#FFFFFF' }}
             >
               How AI Search Decides Between{' '}
-              <span style={{ color: '#FF6A00' }}>Two Similar Businesses</span>
+              <span style={{ color: '#F27D24' }}>Two Similar Businesses</span>
             </h1>
 
             <p className="text-xl text-gray-300 leading-relaxed mb-8 max-w-3xl">
@@ -262,7 +271,7 @@ export default function Page() {
               <a
                 href="https://theanswerengine.ai/blindspot"
                 className="inline-flex items-center gap-2 px-6 py-3 rounded-lg font-semibold text-white transition-all hover:opacity-90"
-                style={{ backgroundColor: '#FF6A00' }}
+                style={{ backgroundColor: '#F27D24' }}
               >
                 Find Your AI Blind Spots
                 <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" /></svg>
@@ -270,7 +279,7 @@ export default function Page() {
               <a
                 href="tel:+12134442229"
                 className="inline-flex items-center gap-2 px-6 py-3 rounded-lg font-semibold transition-all hover:opacity-90"
-                style={{ backgroundColor: 'rgba(255,106,0,0.1)', color: '#FF6A00', border: '1px solid rgba(255,106,0,0.3)' }}
+                style={{ backgroundColor: 'rgba(255,106,0,0.1)', color: '#F27D24', border: '1px solid rgba(255,106,0,0.3)' }}
               >
                 <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.948V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" /></svg>
                 (213) 444-2229
@@ -287,28 +296,28 @@ export default function Page() {
               className="ae-stat-card rounded-xl p-5 text-center"
               style={{ backgroundColor: 'rgba(255,106,0,0.08)', border: '1px solid rgba(255,106,0,0.2)' }}
             >
-              <div className="font-plus-jakarta text-3xl font-extrabold mb-1" style={{ color: '#FF6A00' }}>4.2x</div>
+              <div className="font-plus-jakarta text-3xl font-extrabold mb-1" style={{ color: '#F27D24' }}>4.2x</div>
               <div className="text-xs text-gray-400 leading-snug">Higher citation rate for content scoring 8.5+ on semantic completeness</div>
             </div>
             <div
               className="ae-stat-card rounded-xl p-5 text-center"
               style={{ backgroundColor: 'rgba(255,106,0,0.08)', border: '1px solid rgba(255,106,0,0.2)' }}
             >
-              <div className="font-plus-jakarta text-3xl font-extrabold mb-1" style={{ color: '#FF6A00' }}>34%</div>
+              <div className="font-plus-jakarta text-3xl font-extrabold mb-1" style={{ color: '#F27D24' }}>34%</div>
               <div className="text-xs text-gray-400 leading-snug">Citation rate decline possible in just five weeks without updates</div>
             </div>
             <div
               className="ae-stat-card rounded-xl p-5 text-center"
               style={{ backgroundColor: 'rgba(255,106,0,0.08)', border: '1px solid rgba(255,106,0,0.2)' }}
             >
-              <div className="font-plus-jakarta text-3xl font-extrabold mb-1" style={{ color: '#FF6A00' }}>86%</div>
+              <div className="font-plus-jakarta text-3xl font-extrabold mb-1" style={{ color: '#F27D24' }}>86%</div>
               <div className="text-xs text-gray-400 leading-snug">Of the citation landscape varies across different AI platforms</div>
             </div>
             <div
               className="ae-stat-card rounded-xl p-5 text-center"
               style={{ backgroundColor: 'rgba(255,106,0,0.08)', border: '1px solid rgba(255,106,0,0.2)' }}
             >
-              <div className="font-plus-jakarta text-3xl font-extrabold mb-1" style={{ color: '#FF6A00' }}>65%</div>
+              <div className="font-plus-jakarta text-3xl font-extrabold mb-1" style={{ color: '#F27D24' }}>65%</div>
               <div className="text-xs text-gray-400 leading-snug">Of AI bot hits target content less than one year old</div>
             </div>
           </section>
@@ -319,40 +328,40 @@ export default function Page() {
             style={{ backgroundColor: '#1a1f2e', border: '1px solid rgba(255,106,0,0.15)' }}
             aria-label="Table of Contents"
           >
-            <h2 className="font-plus-jakarta text-lg font-bold mb-4" style={{ color: '#FF6A00' }}>
+            <h2 className="font-plus-jakarta text-lg font-bold mb-4" style={{ color: '#F27D24' }}>
               In This Article
             </h2>
             <ol className="space-y-2 text-sm text-gray-300">
               <li className="flex items-start gap-2">
-                <span style={{ color: '#FF6A00' }}>01</span>
+                <span style={{ color: '#F27D24' }}>01</span>
                 <a href="#identical-problem" className="hover:text-orange-400 transition-colors">The Identical Business Problem</a>
               </li>
               <li className="flex items-start gap-2">
-                <span style={{ color: '#FF6A00' }}>02</span>
+                <span style={{ color: '#F27D24' }}>02</span>
                 <a href="#tiebreaker-signals" className="hover:text-orange-400 transition-colors">The Seven Tiebreaker Signals AI Actually Weighs</a>
               </li>
               <li className="flex items-start gap-2">
-                <span style={{ color: '#FF6A00' }}>03</span>
+                <span style={{ color: '#F27D24' }}>03</span>
                 <a href="#citation-momentum" className="hover:text-orange-400 transition-colors">Citation Momentum: The Compounding Advantage</a>
               </li>
               <li className="flex items-start gap-2">
-                <span style={{ color: '#FF6A00' }}>04</span>
+                <span style={{ color: '#F27D24' }}>04</span>
                 <a href="#platform-differences" className="hover:text-orange-400 transition-colors">How Each Platform Breaks Ties Differently</a>
               </li>
               <li className="flex items-start gap-2">
-                <span style={{ color: '#FF6A00' }}>05</span>
+                <span style={{ color: '#F27D24' }}>05</span>
                 <a href="#entity-recognition" className="hover:text-orange-400 transition-colors">Entity Recognition: The Signal Most Businesses Ignore</a>
               </li>
               <li className="flex items-start gap-2">
-                <span style={{ color: '#FF6A00' }}>06</span>
+                <span style={{ color: '#F27D24' }}>06</span>
                 <a href="#decision-matrix" className="hover:text-orange-400 transition-colors">Decision Matrix: Which Business Would AI Pick?</a>
               </li>
               <li className="flex items-start gap-2">
-                <span style={{ color: '#FF6A00' }}>07</span>
+                <span style={{ color: '#F27D24' }}>07</span>
                 <a href="#cheat-sheet" className="hover:text-orange-400 transition-colors">AI Tiebreaker Cheat Sheet</a>
               </li>
               <li className="flex items-start gap-2">
-                <span style={{ color: '#FF6A00' }}>08</span>
+                <span style={{ color: '#F27D24' }}>08</span>
                 <a href="#faq" className="hover:text-orange-400 transition-colors">Frequently Asked Questions</a>
               </li>
             </ol>
@@ -402,7 +411,7 @@ export default function Page() {
               <a
                 href="https://theanswerengine.ai/blindspot"
                 className="inline-flex items-center gap-2 text-sm font-semibold transition-colors hover:opacity-80"
-                style={{ color: '#FF6A00' }}
+                style={{ color: '#F27D24' }}
               >
                 Run Your Free AI Blind Spot Report
                 <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" /></svg>
@@ -432,7 +441,7 @@ export default function Page() {
                   className="w-10 h-10 rounded-lg flex items-center justify-center mb-4"
                   style={{ backgroundColor: 'rgba(255,106,0,0.15)' }}
                 >
-                  <svg className="w-5 h-5" style={{ color: '#FF6A00' }} fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" /></svg>
+                  <svg className="w-5 h-5" style={{ color: '#F27D24' }} fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" /></svg>
                 </div>
                 <h3 className="font-plus-jakarta font-bold text-white mb-2">1. Content Depth and Semantic Completeness</h3>
                 <p className="text-sm text-gray-400 leading-relaxed">
@@ -449,7 +458,7 @@ export default function Page() {
                   className="w-10 h-10 rounded-lg flex items-center justify-center mb-4"
                   style={{ backgroundColor: 'rgba(255,106,0,0.15)' }}
                 >
-                  <svg className="w-5 h-5" style={{ color: '#FF6A00' }} fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" /></svg>
+                  <svg className="w-5 h-5" style={{ color: '#F27D24' }} fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" /></svg>
                 </div>
                 <h3 className="font-plus-jakarta font-bold text-white mb-2">2. Authority Signals Across the Web</h3>
                 <p className="text-sm text-gray-400 leading-relaxed">
@@ -466,7 +475,7 @@ export default function Page() {
                   className="w-10 h-10 rounded-lg flex items-center justify-center mb-4"
                   style={{ backgroundColor: 'rgba(255,106,0,0.15)' }}
                 >
-                  <svg className="w-5 h-5" style={{ color: '#FF6A00' }} fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
+                  <svg className="w-5 h-5" style={{ color: '#F27D24' }} fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
                 </div>
                 <h3 className="font-plus-jakarta font-bold text-white mb-2">3. Content Freshness</h3>
                 <p className="text-sm text-gray-400 leading-relaxed">
@@ -483,7 +492,7 @@ export default function Page() {
                   className="w-10 h-10 rounded-lg flex items-center justify-center mb-4"
                   style={{ backgroundColor: 'rgba(255,106,0,0.15)' }}
                 >
-                  <svg className="w-5 h-5" style={{ color: '#FF6A00' }} fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M7 20l4-16m2 16l4-16M6 9h14M4 15h14" /></svg>
+                  <svg className="w-5 h-5" style={{ color: '#F27D24' }} fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M7 20l4-16m2 16l4-16M6 9h14M4 15h14" /></svg>
                 </div>
                 <h3 className="font-plus-jakarta font-bold text-white mb-2">4. Entity Recognition and Structured Data</h3>
                 <p className="text-sm text-gray-400 leading-relaxed">
@@ -500,7 +509,7 @@ export default function Page() {
                   className="w-10 h-10 rounded-lg flex items-center justify-center mb-4"
                   style={{ backgroundColor: 'rgba(255,106,0,0.15)' }}
                 >
-                  <svg className="w-5 h-5" style={{ color: '#FF6A00' }} fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M11.049 2.927c.3-.921 1.603-.921 1.902 0l1.519 4.674a1 1 0 00.95.69h4.915c.969 0 1.371 1.24.588 1.81l-3.976 2.888a1 1 0 00-.363 1.118l1.518 4.674c.3.922-.755 1.688-1.538 1.118l-3.976-2.888a1 1 0 00-1.176 0l-3.976 2.888c-.783.57-1.838-.197-1.538-1.118l1.518-4.674a1 1 0 00-.363-1.118l-3.976-2.888c-.784-.57-.38-1.81.588-1.81h4.914a1 1 0 00.951-.69l1.519-4.674z" /></svg>
+                  <svg className="w-5 h-5" style={{ color: '#F27D24' }} fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M11.049 2.927c.3-.921 1.603-.921 1.902 0l1.519 4.674a1 1 0 00.95.69h4.915c.969 0 1.371 1.24.588 1.81l-3.976 2.888a1 1 0 00-.363 1.118l1.518 4.674c.3.922-.755 1.688-1.538 1.118l-3.976-2.888a1 1 0 00-1.176 0l-3.976 2.888c-.783.57-1.838-.197-1.538-1.118l1.518-4.674a1 1 0 00-.363-1.118l-3.976-2.888c-.784-.57-.38-1.81.588-1.81h4.914a1 1 0 00.951-.69l1.519-4.674z" /></svg>
                 </div>
                 <h3 className="font-plus-jakarta font-bold text-white mb-2">5. Review Patterns, Not Just Ratings</h3>
                 <p className="text-sm text-gray-400 leading-relaxed">
@@ -517,7 +526,7 @@ export default function Page() {
                   className="w-10 h-10 rounded-lg flex items-center justify-center mb-4"
                   style={{ backgroundColor: 'rgba(255,106,0,0.15)' }}
                 >
-                  <svg className="w-5 h-5" style={{ color: '#FF6A00' }} fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15" /></svg>
+                  <svg className="w-5 h-5" style={{ color: '#F27D24' }} fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15" /></svg>
                 </div>
                 <h3 className="font-plus-jakarta font-bold text-white mb-2">6. Response Consistency Across Platforms</h3>
                 <p className="text-sm text-gray-400 leading-relaxed">
@@ -534,7 +543,7 @@ export default function Page() {
                   className="w-10 h-10 rounded-lg flex items-center justify-center mb-4"
                   style={{ backgroundColor: 'rgba(255,106,0,0.15)' }}
                 >
-                  <svg className="w-5 h-5" style={{ color: '#FF6A00' }} fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6" /></svg>
+                  <svg className="w-5 h-5" style={{ color: '#F27D24' }} fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6" /></svg>
                 </div>
                 <h3 className="font-plus-jakarta font-bold text-white mb-2">7. Multi-Modal Content Integration</h3>
                 <p className="text-sm text-gray-400 leading-relaxed">
@@ -549,7 +558,7 @@ export default function Page() {
               <a
                 href="https://theanswerengine.ai/blindspot"
                 className="inline-flex items-center gap-2 text-sm font-semibold transition-colors hover:opacity-80"
-                style={{ color: '#FF6A00' }}
+                style={{ color: '#F27D24' }}
               >
                 Get Your Signal Breakdown
                 <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" /></svg>
@@ -576,9 +585,9 @@ export default function Page() {
               <table className="w-full text-sm" style={{ borderCollapse: 'separate', borderSpacing: 0 }}>
                 <thead>
                   <tr>
-                    <th className="text-left p-4 font-plus-jakarta font-bold rounded-tl-xl" style={{ backgroundColor: 'rgba(255,106,0,0.15)', color: '#FF6A00' }}>Signal Dimension</th>
-                    <th className="text-center p-4 font-plus-jakarta font-bold" style={{ backgroundColor: 'rgba(255,106,0,0.15)', color: '#FF6A00' }}>Business With Momentum</th>
-                    <th className="text-center p-4 font-plus-jakarta font-bold rounded-tr-xl" style={{ backgroundColor: 'rgba(255,106,0,0.15)', color: '#FF6A00' }}>Business Without Momentum</th>
+                    <th className="text-left p-4 font-plus-jakarta font-bold rounded-tl-xl" style={{ backgroundColor: 'rgba(255,106,0,0.15)', color: '#F27D24' }}>Signal Dimension</th>
+                    <th className="text-center p-4 font-plus-jakarta font-bold" style={{ backgroundColor: 'rgba(255,106,0,0.15)', color: '#F27D24' }}>Business With Momentum</th>
+                    <th className="text-center p-4 font-plus-jakarta font-bold rounded-tr-xl" style={{ backgroundColor: 'rgba(255,106,0,0.15)', color: '#F27D24' }}>Business Without Momentum</th>
                   </tr>
                 </thead>
                 <tbody>
@@ -637,7 +646,7 @@ export default function Page() {
               <Link
                 href="/blog/how-perplexity-decides-what-to-cite"
                 className="inline-flex items-center gap-2 text-sm font-semibold transition-colors hover:opacity-80"
-                style={{ color: '#FF6A00' }}
+                style={{ color: '#F27D24' }}
               >
                 How Perplexity Decides What to Cite
                 <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" /></svg>
@@ -714,7 +723,7 @@ export default function Page() {
                 <Link
                   href="/blog/how-claude-ai-evaluates-business-authority"
                   className="inline-flex items-center gap-2 text-sm font-semibold transition-colors hover:opacity-80"
-                  style={{ color: '#FF6A00' }}
+                  style={{ color: '#F27D24' }}
                 >
                   How Claude AI Evaluates Business Authority
                   <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" /></svg>
@@ -722,7 +731,7 @@ export default function Page() {
                 <Link
                   href="/blog/which-ai-assistant-is-best-for-finding-local-businesses"
                   className="inline-flex items-center gap-2 text-sm font-semibold transition-colors hover:opacity-80"
-                  style={{ color: '#FF6A00' }}
+                  style={{ color: '#F27D24' }}
                 >
                   Which AI Assistant Is Best for Finding Local Businesses
                   <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" /></svg>
@@ -810,7 +819,7 @@ export default function Page() {
               <a
                 href="mailto:support@theanswerengine.ai"
                 className="inline-flex items-center gap-2 text-sm font-semibold transition-colors hover:opacity-80"
-                style={{ color: '#FF6A00' }}
+                style={{ color: '#F27D24' }}
               >
                 Email Us for an Entity Audit
                 <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" /></svg>
@@ -832,7 +841,7 @@ export default function Page() {
               <table className="w-full text-sm" style={{ borderCollapse: 'separate', borderSpacing: 0 }}>
                 <thead>
                   <tr>
-                    <th className="text-left p-4 font-plus-jakarta font-bold rounded-tl-xl" style={{ backgroundColor: 'rgba(255,106,0,0.15)', color: '#FF6A00' }}>Evaluation Criteria</th>
+                    <th className="text-left p-4 font-plus-jakarta font-bold rounded-tl-xl" style={{ backgroundColor: 'rgba(255,106,0,0.15)', color: '#F27D24' }}>Evaluation Criteria</th>
                     <th className="text-center p-4 font-plus-jakarta font-bold" style={{ backgroundColor: 'rgba(34,197,94,0.15)', color: '#22C55E' }}>Business A (Cited)</th>
                     <th className="text-center p-4 font-plus-jakarta font-bold rounded-tr-xl" style={{ backgroundColor: 'rgba(239,68,68,0.15)', color: '#EF4444' }}>Business B (Invisible)</th>
                   </tr>
@@ -899,7 +908,7 @@ export default function Page() {
               <a
                 href="tel:+12134442229"
                 className="inline-flex items-center gap-2 text-sm font-semibold transition-colors hover:opacity-80"
-                style={{ color: '#FF6A00' }}
+                style={{ color: '#F27D24' }}
               >
                 <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.948V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" /></svg>
                 Call (213) 444-2229 for a Competitor Comparison
@@ -920,7 +929,7 @@ export default function Page() {
             <div className="ae-cheat-sheet rounded-xl p-6 mb-8" style={{ backgroundColor: '#1a1f2e', border: '1px solid rgba(255,106,0,0.15)' }}>
               <div className="space-y-4">
                 <div className="flex items-start gap-4 p-4 rounded-lg" style={{ backgroundColor: 'rgba(255,106,0,0.06)' }}>
-                  <span className="font-plus-jakarta text-2xl font-extrabold flex-shrink-0" style={{ color: '#FF6A00' }}>1</span>
+                  <span className="font-plus-jakarta text-2xl font-extrabold flex-shrink-0" style={{ color: '#F27D24' }}>1</span>
                   <div>
                     <p className="font-semibold text-white mb-1">Content Depth Wins Over Content Volume</p>
                     <p className="text-sm text-gray-400">20 comprehensive pages outperform 200 thin pages. Semantic completeness is the single highest-correlation factor for AI citations.</p>
@@ -928,7 +937,7 @@ export default function Page() {
                 </div>
 
                 <div className="flex items-start gap-4 p-4 rounded-lg" style={{ backgroundColor: 'rgba(255,106,0,0.06)' }}>
-                  <span className="font-plus-jakarta text-2xl font-extrabold flex-shrink-0" style={{ color: '#FF6A00' }}>2</span>
+                  <span className="font-plus-jakarta text-2xl font-extrabold flex-shrink-0" style={{ color: '#F27D24' }}>2</span>
                   <div>
                     <p className="font-semibold text-white mb-1">Entity Clarity Is Non-Negotiable</p>
                     <p className="text-sm text-gray-400">Consistent NAP data, clean schema markup, and unambiguous entity identification across all platforms. Any conflicting signal is a penalty.</p>
@@ -936,7 +945,7 @@ export default function Page() {
                 </div>
 
                 <div className="flex items-start gap-4 p-4 rounded-lg" style={{ backgroundColor: 'rgba(255,106,0,0.06)' }}>
-                  <span className="font-plus-jakarta text-2xl font-extrabold flex-shrink-0" style={{ color: '#FF6A00' }}>3</span>
+                  <span className="font-plus-jakarta text-2xl font-extrabold flex-shrink-0" style={{ color: '#F27D24' }}>3</span>
                   <div>
                     <p className="font-semibold text-white mb-1">Third-Party Mentions Trump Self-Promotion</p>
                     <p className="text-sm text-gray-400">85% of AI brand mentions come from third-party pages. Your own website is the starting point, not the finish line.</p>
@@ -944,7 +953,7 @@ export default function Page() {
                 </div>
 
                 <div className="flex items-start gap-4 p-4 rounded-lg" style={{ backgroundColor: 'rgba(255,106,0,0.06)' }}>
-                  <span className="font-plus-jakarta text-2xl font-extrabold flex-shrink-0" style={{ color: '#FF6A00' }}>4</span>
+                  <span className="font-plus-jakarta text-2xl font-extrabold flex-shrink-0" style={{ color: '#F27D24' }}>4</span>
                   <div>
                     <p className="font-semibold text-white mb-1">Freshness Is a Tiebreaker, Not a Bonus</p>
                     <p className="text-sm text-gray-400">When all else is equal, the business with more recent content wins. Quarterly updates are the minimum. Monthly is the standard for competitive markets.</p>
@@ -952,7 +961,7 @@ export default function Page() {
                 </div>
 
                 <div className="flex items-start gap-4 p-4 rounded-lg" style={{ backgroundColor: 'rgba(255,106,0,0.06)' }}>
-                  <span className="font-plus-jakarta text-2xl font-extrabold flex-shrink-0" style={{ color: '#FF6A00' }}>5</span>
+                  <span className="font-plus-jakarta text-2xl font-extrabold flex-shrink-0" style={{ color: '#F27D24' }}>5</span>
                   <div>
                     <p className="font-semibold text-white mb-1">Review Velocity Matters More Than Review Count</p>
                     <p className="text-sm text-gray-400">A steady stream of recent, detailed reviews across multiple platforms signals active customer engagement. 500 reviews from 2022 are worth less than 50 from this month.</p>
@@ -960,7 +969,7 @@ export default function Page() {
                 </div>
 
                 <div className="flex items-start gap-4 p-4 rounded-lg" style={{ backgroundColor: 'rgba(255,106,0,0.06)' }}>
-                  <span className="font-plus-jakarta text-2xl font-extrabold flex-shrink-0" style={{ color: '#FF6A00' }}>6</span>
+                  <span className="font-plus-jakarta text-2xl font-extrabold flex-shrink-0" style={{ color: '#F27D24' }}>6</span>
                   <div>
                     <p className="font-semibold text-white mb-1">Multi-Platform Optimization Is Required</p>
                     <p className="text-sm text-gray-400">86% of the citation landscape varies across AI platforms. Winning on ChatGPT does not mean winning on Perplexity. You need a strategy for each.</p>
@@ -968,7 +977,7 @@ export default function Page() {
                 </div>
 
                 <div className="flex items-start gap-4 p-4 rounded-lg" style={{ backgroundColor: 'rgba(255,106,0,0.06)' }}>
-                  <span className="font-plus-jakarta text-2xl font-extrabold flex-shrink-0" style={{ color: '#FF6A00' }}>7</span>
+                  <span className="font-plus-jakarta text-2xl font-extrabold flex-shrink-0" style={{ color: '#F27D24' }}>7</span>
                   <div>
                     <p className="font-semibold text-white mb-1">Citation Momentum Compounds</p>
                     <p className="text-sm text-gray-400">The first business to build citation momentum in a market creates a structural advantage that becomes harder to overcome with every passing month. Starting today is the best move available.</p>
@@ -983,7 +992,7 @@ export default function Page() {
               <a
                 href="https://theanswerengine.ai/blindspot"
                 className="inline-flex items-center gap-2 text-sm font-semibold transition-colors hover:opacity-80"
-                style={{ color: '#FF6A00' }}
+                style={{ color: '#F27D24' }}
               >
                 Get Your Personalized Priority List
                 <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" /></svg>
@@ -1002,7 +1011,7 @@ export default function Page() {
             >
               <h2 className="font-plus-jakarta text-3xl md:text-4xl font-extrabold text-center mb-4" style={{ color: '#FFFFFF' }}>
                 Find Out Which Business AI Is{' '}
-                <span style={{ color: '#FF6A00' }}>Actually Recommending</span>
+                <span style={{ color: '#F27D24' }}>Actually Recommending</span>
               </h2>
 
               <p className="text-gray-300 text-center leading-relaxed mb-8 max-w-2xl mx-auto">
@@ -1014,7 +1023,7 @@ export default function Page() {
                 <a
                   href="https://theanswerengine.ai/blindspot"
                   className="inline-flex items-center gap-2 px-8 py-4 rounded-xl font-bold text-lg text-white transition-all hover:opacity-90 hover:scale-105"
-                  style={{ backgroundColor: '#FF6A00', boxShadow: '0 0 30px rgba(255,106,0,0.3)' }}
+                  style={{ backgroundColor: '#F27D24', boxShadow: '0 0 30px rgba(255,106,0,0.3)' }}
                 >
                   Run Your AI Blind Spot Report
                   <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" /></svg>
@@ -1024,7 +1033,7 @@ export default function Page() {
                 <a
                   href="tel:+12134442229"
                   className="inline-flex items-center gap-2 px-6 py-3 rounded-lg font-semibold transition-all hover:opacity-90"
-                  style={{ backgroundColor: 'rgba(255,106,0,0.1)', color: '#FF6A00', border: '1px solid rgba(255,106,0,0.3)' }}
+                  style={{ backgroundColor: 'rgba(255,106,0,0.1)', color: '#F27D24', border: '1px solid rgba(255,106,0,0.3)' }}
                 >
                   <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.948V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" /></svg>
                   Call (213) 444-2229
@@ -1034,7 +1043,7 @@ export default function Page() {
                 <a
                   href="mailto:support@theanswerengine.ai"
                   className="inline-flex items-center gap-2 text-sm transition-colors hover:opacity-80"
-                  style={{ color: '#FF6A00' }}
+                  style={{ color: '#F27D24' }}
                 >
                   <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" /></svg>
                   support@theanswerengine.ai
@@ -1053,19 +1062,19 @@ export default function Page() {
                 className="w-16 h-16 rounded-full flex items-center justify-center flex-shrink-0"
                 style={{ backgroundColor: 'rgba(255,106,0,0.15)' }}
               >
-                <svg className="w-8 h-8" style={{ color: '#FF6A00' }} fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <svg className="w-8 h-8" style={{ color: '#F27D24' }} fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z" />
                 </svg>
               </div>
               <div>
-                <p className="font-plus-jakarta font-bold text-white mb-1">The Answer Engine Team</p>
+                <p className="font-plus-jakarta font-bold text-white mb-1">Justin Borges</p>
                 <p className="text-sm text-gray-400 leading-relaxed mb-3">
                   We help businesses become the answer AI gives. Our team audits, optimizes, and monitors AI visibility across every major platform so that when a customer asks AI for a recommendation, your business is the one that gets named.
                 </p>
                 <a
                   href="https://theanswerengine.ai/blindspot"
                   className="inline-flex items-center gap-2 text-sm font-semibold transition-colors hover:opacity-80"
-                  style={{ color: '#FF6A00' }}
+                  style={{ color: '#F27D24' }}
                 >
                   Learn What We Do
                   <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" /></svg>
@@ -1091,7 +1100,7 @@ export default function Page() {
                     <h3 className="font-plus-jakarta font-bold text-white mb-3 flex items-start gap-3">
                       <span
                         className="flex-shrink-0 w-7 h-7 rounded-full flex items-center justify-center text-xs font-bold mt-0.5"
-                        style={{ backgroundColor: 'rgba(255,106,0,0.15)', color: '#FF6A00' }}
+                        style={{ backgroundColor: 'rgba(255,106,0,0.15)', color: '#F27D24' }}
                       >
                         {index + 1}
                       </span>
@@ -1111,7 +1120,7 @@ export default function Page() {
               <a
                 href="mailto:support@theanswerengine.ai"
                 className="inline-flex items-center gap-2 text-sm font-semibold transition-colors hover:opacity-80"
-                style={{ color: '#FF6A00' }}
+                style={{ color: '#F27D24' }}
               >
                 Ask Us Anything
                 <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" /></svg>
@@ -1131,7 +1140,7 @@ export default function Page() {
                 className="group rounded-xl p-5 transition-all hover:scale-[1.02]"
                 style={{ backgroundColor: '#1a1f2e', border: '1px solid rgba(255,106,0,0.1)' }}
               >
-                <span className="text-xs uppercase tracking-widest mb-2 block" style={{ color: '#FF6A00' }}>Platform Deep Dive</span>
+                <span className="text-xs uppercase tracking-widest mb-2 block" style={{ color: '#F27D24' }}>Platform Deep Dive</span>
                 <span className="font-plus-jakarta font-bold text-white group-hover:text-orange-400 transition-colors block text-sm">How Perplexity Decides What to Cite</span>
               </Link>
 
@@ -1140,7 +1149,7 @@ export default function Page() {
                 className="group rounded-xl p-5 transition-all hover:scale-[1.02]"
                 style={{ backgroundColor: '#1a1f2e', border: '1px solid rgba(255,106,0,0.1)' }}
               >
-                <span className="text-xs uppercase tracking-widest mb-2 block" style={{ color: '#FF6A00' }}>Platform Deep Dive</span>
+                <span className="text-xs uppercase tracking-widest mb-2 block" style={{ color: '#F27D24' }}>Platform Deep Dive</span>
                 <span className="font-plus-jakarta font-bold text-white group-hover:text-orange-400 transition-colors block text-sm">How Claude AI Evaluates Business Authority</span>
               </Link>
 
@@ -1149,7 +1158,7 @@ export default function Page() {
                 className="group rounded-xl p-5 transition-all hover:scale-[1.02]"
                 style={{ backgroundColor: '#1a1f2e', border: '1px solid rgba(255,106,0,0.1)' }}
               >
-                <span className="text-xs uppercase tracking-widest mb-2 block" style={{ color: '#FF6A00' }}>Comparison Guide</span>
+                <span className="text-xs uppercase tracking-widest mb-2 block" style={{ color: '#F27D24' }}>Comparison Guide</span>
                 <span className="font-plus-jakarta font-bold text-white group-hover:text-orange-400 transition-colors block text-sm">Which AI Assistant Is Best for Finding Local Businesses</span>
               </Link>
             </div>
@@ -1174,7 +1183,7 @@ export default function Page() {
               <a
                 href="https://theanswerengine.ai/blindspot"
                 className="ae-final-cta-pulse inline-flex items-center gap-2 px-8 py-4 rounded-xl font-bold text-white transition-all hover:opacity-90"
-                style={{ backgroundColor: '#FF6A00' }}
+                style={{ backgroundColor: '#F27D24' }}
               >
                 See Where You Stand in AI Search
                 <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" /></svg>
@@ -1196,7 +1205,7 @@ export default function Page() {
             <a
               href="https://theanswerengine.ai/blindspot"
               className="inline-flex items-center gap-2 text-sm font-semibold transition-colors hover:opacity-80"
-              style={{ color: '#FF6A00' }}
+              style={{ color: '#F27D24' }}
             >
               Get Your AI Blind Spot Report
               <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" /></svg>

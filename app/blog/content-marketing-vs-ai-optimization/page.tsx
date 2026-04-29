@@ -32,7 +32,7 @@ export const metadata: Metadata = {
     description,
     type: 'article',
     publishedTime: publishDate,
-    authors: ['The Answer Engine Team'],
+    authors: ['https://theanswerengine.ai/about'],
     url: `https://theanswerengine.ai/blog/${slug}`,
     images: [
       {
@@ -65,9 +65,18 @@ const jsonLd = {
       datePublished: publishDate,
       dateModified: publishDate,
       author: {
-        '@type': 'Organization',
-        name: 'The Answer Engine',
-        url: 'https://theanswerengine.ai',
+        '@type': 'Person',
+        '@id': 'https://theanswerengine.ai/about#justin-borges',
+        name: 'Justin Borges',
+        jobTitle: 'Founder, The Answer Engine',
+        worksFor: {
+          '@type': 'Organization',
+          name: 'The Answer Engine',
+          url: 'https://theanswerengine.ai',
+        },
+        knowsAbout: ['Answer Engine Optimization', 'AI Search', 'Content Strategy', 'Real Estate Marketing', 'Citation Surface'],
+        url: 'https://theanswerengine.ai/about',
+        image: 'https://theanswerengine.ai/justin-borges.webp',
       },
       publisher: {
         '@type': 'Organization',
@@ -259,7 +268,7 @@ export default function Page() {
                 <path
                   d="M 40 0 L 0 0 0 40"
                   fill="none"
-                  stroke="#FF6A00"
+                  stroke="#F27D24"
                   strokeWidth="0.5"
                 />
               </pattern>
@@ -275,7 +284,7 @@ export default function Page() {
               <span
                 style={{
                   backgroundColor: 'rgba(255, 106, 0, 0.15)',
-                  color: '#FF6A00',
+                  color: '#F27D24',
                   border: '1px solid rgba(255, 106, 0, 0.3)',
                 }}
                 className="text-xs font-semibold uppercase tracking-widest px-3 py-1 rounded-full"
@@ -289,7 +298,7 @@ export default function Page() {
               style={{ color: '#FFFFFF' }}
             >
               Content Marketing vs{' '}
-              <span style={{ color: '#FF6A00' }}>AI Optimization</span>
+              <span style={{ color: '#F27D24' }}>AI Optimization</span>
             </h1>
 
             <p className="text-xl text-gray-300 max-w-3xl mb-8 leading-relaxed">
@@ -302,13 +311,13 @@ export default function Page() {
             {/* Author + date row */}
             <div className="flex items-center gap-4 text-sm text-gray-500">
               <div
-                style={{ backgroundColor: '#FF6A00' }}
+                style={{ backgroundColor: '#F27D24' }}
                 className="w-9 h-9 rounded-full flex items-center justify-center font-bold text-white text-sm"
               >
                 AE
               </div>
               <div>
-                <span className="text-gray-300 font-medium">The Answer Engine Team</span>
+                <span className="text-gray-300 font-medium">Justin Borges</span>
                 <span className="mx-2">·</span>
                 <time dateTime={publishDate} className="text-gray-500">
                   April 2, 2026
@@ -334,7 +343,7 @@ export default function Page() {
             >
               <div
                 className="font-plus-jakarta text-4xl font-extrabold mb-1"
-                style={{ color: '#FF6A00' }}
+                style={{ color: '#F27D24' }}
               >
                 $7.65
               </div>
@@ -353,7 +362,7 @@ export default function Page() {
             >
               <div
                 className="font-plus-jakarta text-4xl font-extrabold mb-1"
-                style={{ color: '#FF6A00' }}
+                style={{ color: '#F27D24' }}
               >
                 60%
               </div>
@@ -372,7 +381,7 @@ export default function Page() {
             >
               <div
                 className="font-plus-jakarta text-4xl font-extrabold mb-1"
-                style={{ color: '#FF6A00' }}
+                style={{ color: '#F27D24' }}
               >
                 23x
               </div>
@@ -391,7 +400,7 @@ export default function Page() {
             >
               <div
                 className="font-plus-jakarta text-4xl font-extrabold mb-1"
-                style={{ color: '#FF6A00' }}
+                style={{ color: '#F27D24' }}
               >
                 58%
               </div>
@@ -413,7 +422,7 @@ export default function Page() {
           >
             <h2
               className="font-plus-jakarta text-lg font-bold mb-4"
-              style={{ color: '#FF6A00' }}
+              style={{ color: '#F27D24' }}
             >
               In This Article
             </h2>
@@ -552,7 +561,7 @@ export default function Page() {
                 <div key={i} className="mb-4">
                   <div className="flex justify-between text-sm mb-1">
                     <span className="text-gray-300">{item.label}</span>
-                    <span style={{ color: '#FF6A00' }} className="font-semibold text-xs">
+                    <span style={{ color: '#F27D24' }} className="font-semibold text-xs">
                       {item.display}
                     </span>
                   </div>
@@ -564,7 +573,7 @@ export default function Page() {
                       className="h-2.5 rounded-full"
                       style={{
                         width: `${item.pct}%`,
-                        background: 'linear-gradient(90deg, #FF6A00, #FF8C00)',
+                        background: 'linear-gradient(90deg, #F27D24, #FF8C00)',
                       }}
                     />
                   </div>
@@ -586,7 +595,7 @@ export default function Page() {
           >
             <div className="flex-1">
               <p className="text-sm text-gray-300">
-                <span style={{ color: '#FF6A00' }} className="font-semibold">
+                <span style={{ color: '#F27D24' }} className="font-semibold">
                   Publishing great content but traffic is flat?
                 </span>{' '}
                 The problem might not be your content. It might be where customers are looking.
@@ -594,7 +603,7 @@ export default function Page() {
             </div>
             <a
               href="/blindspot"
-              style={{ color: '#FF6A00' }}
+              style={{ color: '#F27D24' }}
               className="text-sm font-semibold whitespace-nowrap hover:underline"
             >
               Free AI Audit &rarr;
@@ -653,7 +662,7 @@ export default function Page() {
                 >
                   <div
                     className="font-plus-jakarta text-xl font-extrabold mb-1"
-                    style={{ color: '#FF6A00' }}
+                    style={{ color: '#F27D24' }}
                   >
                     {item.stat}
                   </div>
@@ -702,7 +711,7 @@ export default function Page() {
               <Link
                 href="/blog/traditional-marketing-vs-ai-visibility-what-actually-works-in-2026"
                 className="underline hover:text-orange-400 transition-colors"
-                style={{ color: '#FF6A00' }}
+                style={{ color: '#F27D24' }}
               >
                 traditional marketing compares to AI visibility
               </Link>, we covered the full data in a recent analysis.
@@ -719,7 +728,7 @@ export default function Page() {
           >
             <div className="flex-1">
               <p className="text-sm text-gray-300">
-                <span style={{ color: '#FF6A00' }} className="font-semibold">
+                <span style={{ color: '#F27D24' }} className="font-semibold">
                   Not sure where your business stands on AI search?
                 </span>{' '}
                 A free Blind Spot Audit shows you exactly what ChatGPT, Perplexity, and Google AI say about you today.
@@ -727,7 +736,7 @@ export default function Page() {
             </div>
             <a
               href="/blindspot"
-              style={{ color: '#FF6A00' }}
+              style={{ color: '#F27D24' }}
               className="text-sm font-semibold whitespace-nowrap hover:underline"
             >
               Start Your Audit &rarr;
@@ -762,7 +771,7 @@ export default function Page() {
                       className="text-left py-4 px-4 font-plus-jakarta font-bold text-sm rounded-tl-lg"
                       style={{
                         backgroundColor: 'rgba(255,106,0,0.15)',
-                        color: '#FF6A00',
+                        color: '#F27D24',
                         border: '1px solid rgba(255,106,0,0.25)',
                         borderRight: 'none',
                       }}
@@ -773,7 +782,7 @@ export default function Page() {
                       className="text-left py-4 px-4 font-plus-jakarta font-bold text-sm"
                       style={{
                         backgroundColor: 'rgba(255,106,0,0.15)',
-                        color: '#FF6A00',
+                        color: '#F27D24',
                         border: '1px solid rgba(255,106,0,0.25)',
                         borderRight: 'none',
                       }}
@@ -784,7 +793,7 @@ export default function Page() {
                       className="text-left py-4 px-4 font-plus-jakarta font-bold text-sm rounded-tr-lg"
                       style={{
                         backgroundColor: 'rgba(255,106,0,0.15)',
-                        color: '#FF6A00',
+                        color: '#F27D24',
                         border: '1px solid rgba(255,106,0,0.25)',
                       }}
                     >
@@ -890,7 +899,7 @@ export default function Page() {
               }}
             >
               <p className="text-sm text-gray-300 leading-relaxed">
-                <span style={{ color: '#FF6A00' }} className="font-semibold">Key insight:</span>{' '}
+                <span style={{ color: '#F27D24' }} className="font-semibold">Key insight:</span>{' '}
                 Notice that content marketing and AI optimization are not substitutes for each
                 other. They operate at different stages of the customer journey, target different
                 platforms, and compound in different ways. The businesses winning right now are
@@ -910,7 +919,7 @@ export default function Page() {
           >
             <div className="flex-1">
               <p className="text-sm text-gray-300">
-                <span style={{ color: '#FF6A00' }} className="font-semibold">
+                <span style={{ color: '#F27D24' }} className="font-semibold">
                   Where does your business fall on this table?
                 </span>{' '}
                 Get a free AI Blind Spot Audit and find out in 5 minutes.
@@ -918,7 +927,7 @@ export default function Page() {
             </div>
             <a
               href="/blindspot"
-              style={{ color: '#FF6A00' }}
+              style={{ color: '#F27D24' }}
               className="text-sm font-semibold whitespace-nowrap hover:underline"
             >
               Get Your Audit &rarr;
@@ -988,7 +997,7 @@ export default function Page() {
               <Link
                 href="/blog/does-having-a-blog-actually-help-ai-recommend-your-business"
                 className="underline hover:text-orange-400 transition-colors"
-                style={{ color: '#FF6A00' }}
+                style={{ color: '#F27D24' }}
               >
                 practical business problem
               </Link>.
@@ -1051,7 +1060,7 @@ export default function Page() {
           >
             <div className="flex-1">
               <p className="text-sm text-gray-300">
-                <span style={{ color: '#FF6A00' }} className="font-semibold">
+                <span style={{ color: '#F27D24' }} className="font-semibold">
                   Is your content feeding AI answers for competitors?
                 </span>{' '}
                 Find out who AI platforms are recommending instead of you.
@@ -1059,7 +1068,7 @@ export default function Page() {
             </div>
             <a
               href="tel:+12134442229"
-              style={{ color: '#FF6A00' }}
+              style={{ color: '#F27D24' }}
               className="text-sm font-semibold whitespace-nowrap hover:underline"
             >
               Call (213) 444-2229 &rarr;
@@ -1255,7 +1264,7 @@ export default function Page() {
           >
             <div className="flex-1">
               <p className="text-sm text-gray-300">
-                <span style={{ color: '#FF6A00' }} className="font-semibold">
+                <span style={{ color: '#F27D24' }} className="font-semibold">
                   Wondering which approach fits your business?
                 </span>{' '}
                 A 5-minute AI audit reveals the answer.
@@ -1263,7 +1272,7 @@ export default function Page() {
             </div>
             <a
               href="/blindspot"
-              style={{ color: '#FF6A00' }}
+              style={{ color: '#F27D24' }}
               className="text-sm font-semibold whitespace-nowrap hover:underline"
             >
               Run Your Free Audit &rarr;
@@ -1307,7 +1316,7 @@ export default function Page() {
               <Link
                 href="/blog/diy-ai-optimization-vs-hiring-an-expert"
                 className="underline hover:text-orange-400 transition-colors"
-                style={{ color: '#FF6A00' }}
+                style={{ color: '#F27D24' }}
               >
                 doing it yourself versus hiring an expert
               </Link>, the complexity of integration is the deciding factor for most teams.
@@ -1381,7 +1390,7 @@ export default function Page() {
           >
             <div className="flex-1">
               <p className="text-sm text-gray-300">
-                <span style={{ color: '#FF6A00' }} className="font-semibold">
+                <span style={{ color: '#F27D24' }} className="font-semibold">
                   Already doing content marketing? Good.
                 </span>{' '}
                 Now find out if any of that work is actually reaching AI platforms.
@@ -1389,7 +1398,7 @@ export default function Page() {
             </div>
             <a
               href="mailto:support@theanswerengine.ai"
-              style={{ color: '#FF6A00' }}
+              style={{ color: '#F27D24' }}
               className="text-sm font-semibold whitespace-nowrap hover:underline"
             >
               Email Our Team &rarr;
@@ -1424,7 +1433,7 @@ export default function Page() {
               <Link
                 href="/blog/why-fresh-content-key-ai-search-visibility"
                 className="underline hover:text-orange-400 transition-colors"
-                style={{ color: '#FF6A00' }}
+                style={{ color: '#F27D24' }}
               >
                 keep fresh content flowing
               </Link>{' '}
@@ -1479,29 +1488,29 @@ export default function Page() {
               >
                 <h3
                   className="font-plus-jakarta font-bold text-base mb-4"
-                  style={{ color: '#FF6A00' }}
+                  style={{ color: '#F27D24' }}
                 >
                   AI Optimization Signals
                 </h3>
                 <ul className="space-y-3 text-sm text-gray-300">
                   <li className="flex items-start gap-2">
-                    <span style={{ color: '#FF6A00' }} className="mt-0.5 flex-shrink-0">&#x25CF;</span>
+                    <span style={{ color: '#F27D24' }} className="mt-0.5 flex-shrink-0">&#x25CF;</span>
                     Entity consistency across web mentions
                   </li>
                   <li className="flex items-start gap-2">
-                    <span style={{ color: '#FF6A00' }} className="mt-0.5 flex-shrink-0">&#x25CF;</span>
+                    <span style={{ color: '#F27D24' }} className="mt-0.5 flex-shrink-0">&#x25CF;</span>
                     Structured data accuracy and completeness
                   </li>
                   <li className="flex items-start gap-2">
-                    <span style={{ color: '#FF6A00' }} className="mt-0.5 flex-shrink-0">&#x25CF;</span>
+                    <span style={{ color: '#F27D24' }} className="mt-0.5 flex-shrink-0">&#x25CF;</span>
                     Third-party authority citations and mentions
                   </li>
                   <li className="flex items-start gap-2">
-                    <span style={{ color: '#FF6A00' }} className="mt-0.5 flex-shrink-0">&#x25CF;</span>
+                    <span style={{ color: '#F27D24' }} className="mt-0.5 flex-shrink-0">&#x25CF;</span>
                     Topical depth and coverage breadth
                   </li>
                   <li className="flex items-start gap-2">
-                    <span style={{ color: '#FF6A00' }} className="mt-0.5 flex-shrink-0">&#x25CF;</span>
+                    <span style={{ color: '#F27D24' }} className="mt-0.5 flex-shrink-0">&#x25CF;</span>
                     Cross-platform trust indicators and review sentiment
                   </li>
                 </ul>
@@ -1544,7 +1553,7 @@ export default function Page() {
                 <a
                   href="/blindspot"
                   style={{
-                    background: 'linear-gradient(90deg, #FF6A00, #FF8C00)',
+                    background: 'linear-gradient(90deg, #F27D24, #FF8C00)',
                     color: '#FFFFFF',
                     boxShadow: '0 0 30px rgba(255,106,0,0.4)',
                   }}
@@ -1556,7 +1565,7 @@ export default function Page() {
                   href="tel:+12134442229"
                   style={{
                     border: '2px solid rgba(255,106,0,0.4)',
-                    color: '#FF6A00',
+                    color: '#F27D24',
                   }}
                   className="inline-block text-sm font-bold px-7 py-3.5 rounded-xl hover:border-orange-400 transition-colors"
                 >
@@ -1564,7 +1573,7 @@ export default function Page() {
                 </a>
                 <a
                   href="mailto:support@theanswerengine.ai"
-                  style={{ color: '#FF6A00' }}
+                  style={{ color: '#F27D24' }}
                   className="text-sm font-semibold hover:underline"
                 >
                   support@theanswerengine.ai
@@ -1635,7 +1644,7 @@ export default function Page() {
                 >
                   <div className="p-4" style={{ borderRight: '1px solid rgba(255,255,255,0.06)' }}>
                     <p className="text-sm text-gray-300 font-semibold">
-                      <span style={{ color: '#FF6A00' }} className="mr-2">If:</span>
+                      <span style={{ color: '#F27D24' }} className="mr-2">If:</span>
                       {row.situation}
                     </p>
                   </div>
@@ -1660,7 +1669,7 @@ export default function Page() {
           >
             <div className="flex-1">
               <p className="text-sm text-gray-300">
-                <span style={{ color: '#FF6A00' }} className="font-semibold">
+                <span style={{ color: '#F27D24' }} className="font-semibold">
                   Not sure which row describes you?
                 </span>{' '}
                 We will tell you. The audit is free and takes 5 minutes.
@@ -1668,7 +1677,7 @@ export default function Page() {
             </div>
             <a
               href="/blindspot"
-              style={{ color: '#FF6A00' }}
+              style={{ color: '#F27D24' }}
               className="text-sm font-semibold whitespace-nowrap hover:underline"
             >
               Get Your Audit &rarr;
@@ -1748,7 +1757,7 @@ export default function Page() {
             >
               <div className="flex-1">
                 <p className="text-sm text-gray-300">
-                  <span style={{ color: '#FF6A00' }} className="font-semibold">
+                  <span style={{ color: '#F27D24' }} className="font-semibold">
                     Have a question not answered above?
                   </span>{' '}
                   Our team responds within one business day.
@@ -1756,7 +1765,7 @@ export default function Page() {
               </div>
               <a
                 href="mailto:support@theanswerengine.ai"
-                style={{ color: '#FF6A00' }}
+                style={{ color: '#F27D24' }}
                 className="text-sm font-semibold whitespace-nowrap hover:underline"
               >
                 Ask Us Directly &rarr;
@@ -1775,7 +1784,7 @@ export default function Page() {
             >
               <div
                 className="w-16 h-16 rounded-full flex items-center justify-center text-white font-bold text-xl flex-shrink-0"
-                style={{ backgroundColor: '#FF6A00' }}
+                style={{ backgroundColor: '#F27D24' }}
                 aria-hidden="true"
               >
                 AE
@@ -1785,7 +1794,7 @@ export default function Page() {
                   className="font-plus-jakarta font-bold text-base mb-1"
                   style={{ color: '#FFFFFF' }}
                 >
-                  The Answer Engine Team
+                  Justin Borges
                 </div>
                 <div className="text-xs text-gray-500 mb-3">
                   Published April 2, 2026 · Comparisons
@@ -1799,21 +1808,21 @@ export default function Page() {
                 <div className="flex flex-wrap gap-4 mt-4">
                   <a
                     href="tel:+12134442229"
-                    style={{ color: '#FF6A00' }}
+                    style={{ color: '#F27D24' }}
                     className="text-sm font-semibold hover:underline"
                   >
                     (213) 444-2229
                   </a>
                   <a
                     href="mailto:support@theanswerengine.ai"
-                    style={{ color: '#FF6A00' }}
+                    style={{ color: '#F27D24' }}
                     className="text-sm font-semibold hover:underline"
                   >
                     support@theanswerengine.ai
                   </a>
                   <a
                     href="https://theanswerengine.ai"
-                    style={{ color: '#FF6A00' }}
+                    style={{ color: '#F27D24' }}
                     className="text-sm font-semibold hover:underline"
                   >
                     theanswerengine.ai
@@ -1868,7 +1877,7 @@ export default function Page() {
                 <a
                   href="/blindspot"
                   style={{
-                    background: 'linear-gradient(90deg, #FF6A00, #FF8C00)',
+                    background: 'linear-gradient(90deg, #F27D24, #FF8C00)',
                     color: '#FFFFFF',
                     boxShadow: '0 0 40px rgba(255,106,0,0.5)',
                   }}
@@ -1880,7 +1889,7 @@ export default function Page() {
                   href="tel:+12134442229"
                   style={{
                     border: '2px solid rgba(255,106,0,0.5)',
-                    color: '#FF6A00',
+                    color: '#F27D24',
                   }}
                   className="inline-block text-base font-bold px-8 py-4 rounded-xl hover:border-orange-400 transition-colors"
                 >

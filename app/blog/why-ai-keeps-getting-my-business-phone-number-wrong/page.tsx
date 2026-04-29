@@ -54,9 +54,18 @@ export default function WhyAIGetsPhoneNumberWrong() {
         "datePublished": "2026-04-12",
         "dateModified": "2026-04-12",
         "author": {
-          "@type": "Organization",
-          "name": "The Answer Engine",
-          "url": "https://theanswerengine.ai/about"
+          "@type": "Person",
+          "@id": "https://theanswerengine.ai/about#justin-borges",
+          "name": "Justin Borges",
+          "jobTitle": "Founder, The Answer Engine",
+          "worksFor": {
+            "@type": "Organization",
+            "name": "The Answer Engine",
+            "url": "https://theanswerengine.ai"
+          },
+          "knowsAbout": ["Answer Engine Optimization", "AI Search", "Content Strategy", "Real Estate Marketing", "Citation Surface"],
+          "url": "https://theanswerengine.ai/about",
+          "image": "https://theanswerengine.ai/justin-borges.webp"
         },
         "publisher": {
           "@type": "Organization",
@@ -237,7 +246,7 @@ export default function WhyAIGetsPhoneNumberWrong() {
           </header>
 
           {/* Main Content with prose */}
-          <div className="prose prose-invert prose-lg max-w-none prose-headings:font-plus-jakarta prose-headings:text-white prose-p:text-gray-300 prose-a:text-[#FF6A00] prose-a:no-underline hover:prose-a:underline prose-strong:text-white">
+          <div className="prose prose-invert prose-lg max-w-none prose-headings:font-plus-jakarta prose-headings:text-white prose-p:text-gray-300 prose-a:text-[#F27D24] prose-a:no-underline hover:prose-a:underline prose-strong:text-white">
 
             {/* ── PROBLEM STATEMENT ── */}
             <span className="ae-section-label">The Real Cost</span>
@@ -527,7 +536,7 @@ export default function WhyAIGetsPhoneNumberWrong() {
               <h3 className="text-xl font-semibold text-white mb-4">Still Have Questions?</h3>
               <p className="text-gray-300 mb-6">Our team specializes in helping local service businesses make sure AI platforms cite accurate contact information. We audit what ChatGPT, Claude, and Google AI are saying about your business.</p>
               <div className="flex flex-wrap gap-4">
-                <a href="tel:+12134442229" className="inline-flex items-center gap-2 px-6 py-3 bg-[#FF6A00] text-white rounded-lg font-semibold hover:bg-[#E55A00] transition-colors">
+                <a href="tel:+12134442229" className="inline-flex items-center gap-2 px-6 py-3 bg-[#F27D24] text-white rounded-lg font-semibold hover:bg-[#E55A00] transition-colors">
                   Call (213) 444-2229
                 </a>
                 <Link href="/blindspot" className="inline-flex items-center gap-2 px-6 py-3 bg-white/[0.08] text-white border border-white/[0.1] rounded-lg font-semibold hover:bg-white/[0.12] transition-colors">

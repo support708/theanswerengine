@@ -47,9 +47,18 @@ const jsonLd = {
       datePublished: '2026-03-25',
       dateModified: '2026-03-25',
       author: {
-        '@type': 'Organization',
-        name: 'The Answer Engine Team',
+        '@type': 'Person',
+        '@id': 'https://theanswerengine.ai/about#justin-borges',
+        name: 'Justin Borges',
+        jobTitle: 'Founder, The Answer Engine',
+        worksFor: {
+          '@type': 'Organization',
+          name: 'The Answer Engine',
+          url: 'https://theanswerengine.ai',
+        },
+        knowsAbout: ['Answer Engine Optimization', 'AI Search', 'Content Strategy', 'Real Estate Marketing', 'Citation Surface'],
         url: 'https://theanswerengine.ai/about',
+        image: 'https://theanswerengine.ai/justin-borges.webp',
       },
       publisher: {
         '@type': 'Organization',
@@ -162,9 +171,9 @@ export default function HowToFixWrongAIAnswersPage() {
           {/* Breadcrumb */}
           <nav aria-label="Breadcrumb" className="mb-8">
             <ol className="flex items-center gap-2 text-sm text-gray-500">
-              <li><Link href="/" className="hover:text-[#FF6A00] transition-colors">Home</Link></li>
+              <li><Link href="/" className="hover:text-[#F27D24] transition-colors">Home</Link></li>
               <li className="text-gray-700">/</li>
-              <li><Link href="/blog" className="hover:text-[#FF6A00] transition-colors">Blog</Link></li>
+              <li><Link href="/blog" className="hover:text-[#F27D24] transition-colors">Blog</Link></li>
               <li className="text-gray-700">/</li>
               <li className="text-gray-400">How to Fix Wrong AI Answers About Your Business</li>
             </ol>
@@ -173,7 +182,7 @@ export default function HowToFixWrongAIAnswersPage() {
           {/* Header */}
           <header className="mb-12">
             <div className="flex items-center gap-3 mb-4">
-              <span className="text-xs font-semibold uppercase tracking-widest px-3 py-1 rounded-full border border-[#FF6A00]/40 text-[#FF6A00]">
+              <span className="text-xs font-semibold uppercase tracking-widest px-3 py-1 rounded-full border border-[#F27D24]/40 text-[#F27D24]">
                 How-To Guides
               </span>
             </div>
@@ -186,7 +195,7 @@ export default function HowToFixWrongAIAnswersPage() {
               </p>
             </div>
             <div className="flex flex-wrap items-center gap-6 text-sm text-gray-500">
-              <span>By The Answer Engine Team</span>
+              <span>By Justin Borges</span>
               <span>&#x2022;</span>
               <time dateTime="2026-03-25">March 25, 2026</time>
               <span>&#x2022;</span>
@@ -195,14 +204,14 @@ export default function HowToFixWrongAIAnswersPage() {
           </header>
 
           {/* Inline CTA 1 */}
-          <div className="ae-cta-inline my-8 p-5 rounded-xl bg-[#FF6A00]/10 border border-[#FF6A00]/20 flex flex-col sm:flex-row sm:items-center gap-4">
+          <div className="ae-cta-inline my-8 p-5 rounded-xl bg-[#F27D24]/10 border border-[#F27D24]/20 flex flex-col sm:flex-row sm:items-center gap-4">
             <div className="flex-1">
               <p className="text-white font-semibold mb-1">Not sure what AI is saying about you?</p>
               <p className="text-gray-400 text-sm">Our Blind Spot Report shows exactly what each AI platform has on file for your business.</p>
             </div>
             <Link
               href="/blindspot"
-              className="shrink-0 inline-flex items-center gap-2 bg-[#FF6A00] text-white px-5 py-2.5 rounded-lg font-semibold text-sm hover:bg-[#e55f00] transition-colors"
+              className="shrink-0 inline-flex items-center gap-2 bg-[#F27D24] text-white px-5 py-2.5 rounded-lg font-semibold text-sm hover:bg-[#D96416] transition-colors"
             >
               Get Free Report
               <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" /></svg>
@@ -210,7 +219,7 @@ export default function HowToFixWrongAIAnswersPage() {
           </div>
 
           {/* Prose content */}
-          <div className="prose prose-invert prose-lg max-w-none prose-headings:font-plus-jakarta prose-headings:text-white prose-p:text-gray-300 prose-a:text-[#FF6A00] prose-a:no-underline hover:prose-a:underline prose-strong:text-white">
+          <div className="prose prose-invert prose-lg max-w-none prose-headings:font-plus-jakarta prose-headings:text-white prose-p:text-gray-300 prose-a:text-[#F27D24] prose-a:no-underline hover:prose-a:underline prose-strong:text-white">
 
             {/* TOC */}
             <div className="ae-toc not-prose my-10 p-6 rounded-xl border border-gray-800 bg-gray-900/60">
@@ -227,7 +236,7 @@ export default function HowToFixWrongAIAnswersPage() {
                   ['#faq', 'Frequently Asked Questions'],
                 ].map(([href, label]) => (
                   <li key={href as string}>
-                    <a href={href as string} className="text-[#FF6A00] hover:underline">
+                    <a href={href as string} className="text-[#F27D24] hover:underline">
                       {label as string}
                     </a>
                   </li>
@@ -237,7 +246,7 @@ export default function HowToFixWrongAIAnswersPage() {
 
             {/* Stats Grid */}
             <div id="the-scale-of-the-problem" className="not-prose my-12">
-              <div className="ae-section-label text-xs font-bold uppercase tracking-widest text-[#FF6A00] mb-2">The Scale of the Problem</div>
+              <div className="ae-section-label text-xs font-bold uppercase tracking-widest text-[#F27D24] mb-2">The Scale of the Problem</div>
               <h2 className="font-plus-jakarta text-3xl font-bold text-white mb-6">AI Misinformation Is Not a Fringe Problem</h2>
               <p className="text-gray-300 text-lg mb-8">
                 The numbers are difficult to look at if you own a local business. AI-powered search is now the first place millions of customers turn for business information, and the error rate is far higher than most people realize.
@@ -251,7 +260,7 @@ export default function HowToFixWrongAIAnswersPage() {
                 ].map((stat) => (
                   <div key={stat.label} className="ae-stat-card p-5 rounded-xl border border-gray-800 bg-gray-900/60 text-center">
                     <div className="ae-stat-emoji text-3xl mb-2">{stat.emoji}</div>
-                    <div className="ae-stat-value ae-accent font-plus-jakarta text-2xl font-bold text-[#FF6A00] mb-1">{stat.value}</div>
+                    <div className="ae-stat-value ae-accent font-plus-jakarta text-2xl font-bold text-[#F27D24] mb-1">{stat.value}</div>
                     <div className="ae-stat-label text-xs text-gray-400 leading-snug">{stat.label}</div>
                   </div>
                 ))}
@@ -283,7 +292,7 @@ export default function HowToFixWrongAIAnswersPage() {
 
             {/* Section 2 */}
             <div id="why-ai-gets-it-wrong" className="not-prose mt-14 mb-4">
-              <div className="ae-section-label text-xs font-bold uppercase tracking-widest text-[#FF6A00] mb-2">Root Causes</div>
+              <div className="ae-section-label text-xs font-bold uppercase tracking-widest text-[#F27D24] mb-2">Root Causes</div>
               <h2 className="font-plus-jakarta text-3xl font-bold text-white mb-4">Why AI Gets Your Information Wrong</h2>
             </div>
 
@@ -308,14 +317,14 @@ export default function HowToFixWrongAIAnswersPage() {
             </p>
 
             {/* Inline CTA 2 */}
-            <div className="ae-cta-inline not-prose my-10 p-5 rounded-xl bg-[#FF6A00]/10 border border-[#FF6A00]/20 flex flex-col sm:flex-row sm:items-center gap-4">
+            <div className="ae-cta-inline not-prose my-10 p-5 rounded-xl bg-[#F27D24]/10 border border-[#F27D24]/20 flex flex-col sm:flex-row sm:items-center gap-4">
               <div className="flex-1">
                 <p className="text-white font-semibold mb-1">Is AI conflating you with a competitor?</p>
                 <p className="text-gray-400 text-sm">Our audit identifies exactly which platforms have errors and what those errors are. No guesswork.</p>
               </div>
               <a
                 href="tel:+12134442229"
-                className="shrink-0 inline-flex items-center gap-2 border border-[#FF6A00] text-[#FF6A00] px-5 py-2.5 rounded-lg font-semibold text-sm hover:bg-[#FF6A00]/10 transition-colors"
+                className="shrink-0 inline-flex items-center gap-2 border border-[#F27D24] text-[#F27D24] px-5 py-2.5 rounded-lg font-semibold text-sm hover:bg-[#F27D24]/10 transition-colors"
               >
                 <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" /></svg>
                 Call (213) 444-2229
@@ -324,7 +333,7 @@ export default function HowToFixWrongAIAnswersPage() {
 
             {/* Section 3 */}
             <div id="what-types-of-errors-exist" className="not-prose mt-14 mb-4">
-              <div className="ae-section-label text-xs font-bold uppercase tracking-widest text-[#FF6A00] mb-2">Error Taxonomy</div>
+              <div className="ae-section-label text-xs font-bold uppercase tracking-widest text-[#F27D24] mb-2">Error Taxonomy</div>
               <h2 className="font-plus-jakarta text-3xl font-bold text-white mb-4">What Types of Errors to Look For</h2>
             </div>
 
@@ -337,10 +346,10 @@ export default function HowToFixWrongAIAnswersPage() {
               <table className="w-full text-sm border-collapse">
                 <thead>
                   <tr className="border-b border-gray-700">
-                    <th className="text-left py-3 px-4 text-[#FF6A00] font-semibold">Error Type</th>
-                    <th className="text-left py-3 px-4 text-[#FF6A00] font-semibold">Examples</th>
-                    <th className="text-left py-3 px-4 text-[#FF6A00] font-semibold">Business Cost</th>
-                    <th className="text-left py-3 px-4 text-[#FF6A00] font-semibold">Fix Complexity</th>
+                    <th className="text-left py-3 px-4 text-[#F27D24] font-semibold">Error Type</th>
+                    <th className="text-left py-3 px-4 text-[#F27D24] font-semibold">Examples</th>
+                    <th className="text-left py-3 px-4 text-[#F27D24] font-semibold">Business Cost</th>
+                    <th className="text-left py-3 px-4 text-[#F27D24] font-semibold">Fix Complexity</th>
                   </tr>
                 </thead>
                 <tbody className="divide-y divide-gray-800">
@@ -387,7 +396,7 @@ export default function HowToFixWrongAIAnswersPage() {
 
             {/* Section 4 */}
             <div id="the-diagnosis-phase" className="not-prose mt-14 mb-4">
-              <div className="ae-section-label text-xs font-bold uppercase tracking-widest text-[#FF6A00] mb-2">Phase 1</div>
+              <div className="ae-section-label text-xs font-bold uppercase tracking-widest text-[#F27D24] mb-2">Phase 1</div>
               <h2 className="font-plus-jakarta text-3xl font-bold text-white mb-4">Diagnosing Your AI Footprint</h2>
             </div>
 
@@ -421,7 +430,7 @@ export default function HowToFixWrongAIAnswersPage() {
               ].map((item, i, arr) => (
                 <div key={item.step} className="flex gap-6">
                   <div className="flex flex-col items-center">
-                    <div className="w-10 h-10 rounded-full bg-[#FF6A00] text-white text-sm font-bold flex items-center justify-center shrink-0 z-10">
+                    <div className="w-10 h-10 rounded-full bg-[#F27D24] text-white text-sm font-bold flex items-center justify-center shrink-0 z-10">
                       {item.step}
                     </div>
                     {i < arr.length - 1 && (
@@ -445,7 +454,7 @@ export default function HowToFixWrongAIAnswersPage() {
                     A thorough AI footprint audit across six platforms with 10-15 query variations per platform, plus cross-referencing 20+ directory sources, typically takes 3-5 hours for a single-location business. Multi-location businesses should plan for a full day per market. This is why most business owners never complete one, and why the errors persist.
                     <span className="inline-block mt-2">
                       We do this as part of our{' '}
-                      <Link href="/blindspot" className="text-[#FF6A00] hover:underline">Blind Spot Report</Link>.
+                      <Link href="/blindspot" className="text-[#F27D24] hover:underline">Blind Spot Report</Link>.
                       {' '}You get the completed audit, not just instructions on how to do one.
                     </span>
                   </p>
@@ -455,7 +464,7 @@ export default function HowToFixWrongAIAnswersPage() {
 
             {/* Section 5 */}
             <div id="the-correction-framework" className="not-prose mt-14 mb-4">
-              <div className="ae-section-label text-xs font-bold uppercase tracking-widest text-[#FF6A00] mb-2">Phase 2</div>
+              <div className="ae-section-label text-xs font-bold uppercase tracking-widest text-[#F27D24] mb-2">Phase 2</div>
               <h2 className="font-plus-jakarta text-3xl font-bold text-white mb-4">The Correction Framework</h2>
             </div>
 
@@ -528,14 +537,14 @@ export default function HowToFixWrongAIAnswersPage() {
             </p>
 
             {/* Inline CTA 3 */}
-            <div className="ae-cta-inline not-prose my-10 p-5 rounded-xl bg-[#FF6A00]/10 border border-[#FF6A00]/20 flex flex-col sm:flex-row sm:items-center gap-4">
+            <div className="ae-cta-inline not-prose my-10 p-5 rounded-xl bg-[#F27D24]/10 border border-[#F27D24]/20 flex flex-col sm:flex-row sm:items-center gap-4">
               <div className="flex-1">
                 <p className="text-white font-semibold mb-1">Ready to fix your AI footprint?</p>
                 <p className="text-gray-400 text-sm">We handle all four correction layers. Start with a free audit to see what we are working with.</p>
               </div>
               <Link
                 href="/blindspot"
-                className="shrink-0 inline-flex items-center gap-2 bg-[#FF6A00] text-white px-5 py-2.5 rounded-lg font-semibold text-sm hover:bg-[#e55f00] transition-colors"
+                className="shrink-0 inline-flex items-center gap-2 bg-[#F27D24] text-white px-5 py-2.5 rounded-lg font-semibold text-sm hover:bg-[#D96416] transition-colors"
               >
                 Get Free Blind Spot Report
                 <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" /></svg>
@@ -544,7 +553,7 @@ export default function HowToFixWrongAIAnswersPage() {
 
             {/* Section 6 */}
             <div id="prevention-is-ongoing" className="not-prose mt-14 mb-4">
-              <div className="ae-section-label text-xs font-bold uppercase tracking-widest text-[#FF6A00] mb-2">Phase 3</div>
+              <div className="ae-section-label text-xs font-bold uppercase tracking-widest text-[#F27D24] mb-2">Phase 3</div>
               <h2 className="font-plus-jakarta text-3xl font-bold text-white mb-4">Preventing Future Errors: This Is Not a One-Time Fix</h2>
             </div>
 
@@ -557,7 +566,7 @@ export default function HowToFixWrongAIAnswersPage() {
             </p>
 
             {/* ae-quote */}
-            <div className="ae-quote not-prose my-10 pl-6 border-l-4 border-[#FF6A00]">
+            <div className="ae-quote not-prose my-10 pl-6 border-l-4 border-[#F27D24]">
               <blockquote className="text-xl text-white font-plus-jakarta font-semibold leading-relaxed mb-3">
                 &ldquo;The average time to discover an AI-generated error in business context is 3.7 weeks. In that time, the AI has already answered hundreds of queries with the wrong information.&rdquo;
               </blockquote>
@@ -569,7 +578,7 @@ export default function HowToFixWrongAIAnswersPage() {
             </p>
 
             {/* ae-callout-orange */}
-            <div className="ae-callout ae-callout-orange not-prose my-8 p-5 rounded-xl border border-[#FF6A00]/30 bg-[#FF6A00]/5">
+            <div className="ae-callout ae-callout-orange not-prose my-8 p-5 rounded-xl border border-[#F27D24]/30 bg-[#F27D24]/5">
               <div className="flex gap-3">
                 <span className="text-2xl">&#128073;</span>
                 <div>
@@ -577,7 +586,7 @@ export default function HowToFixWrongAIAnswersPage() {
                   <p className="text-gray-300 text-sm">
                     Best practice is a full AI accuracy re-audit every 90 days, plus an immediate re-audit any time you make a significant business change. Most businesses do zero audits. That is why AI error rates stay stubbornly high.
                     {' '}Questions? Text or call us at{' '}
-                    <a href="sms:+12134442229" className="text-[#FF6A00] hover:underline">(213) 444-2229</a>.
+                    <a href="sms:+12134442229" className="text-[#F27D24] hover:underline">(213) 444-2229</a>.
                   </p>
                 </div>
               </div>
@@ -585,7 +594,7 @@ export default function HowToFixWrongAIAnswersPage() {
 
             {/* Section 7 */}
             <div id="what-you-cannot-control" className="not-prose mt-14 mb-4">
-              <div className="ae-section-label text-xs font-bold uppercase tracking-widest text-[#FF6A00] mb-2">Honest Assessment</div>
+              <div className="ae-section-label text-xs font-bold uppercase tracking-widest text-[#F27D24] mb-2">Honest Assessment</div>
               <h2 className="font-plus-jakarta text-3xl font-bold text-white mb-4">What You Cannot Control Directly</h2>
             </div>
 
@@ -602,7 +611,7 @@ export default function HowToFixWrongAIAnswersPage() {
             </p>
 
             {/* Takeaway */}
-            <div className="ae-takeaway not-prose my-8 p-6 rounded-xl border border-[#FF6A00]/30 bg-gradient-to-br from-[#FF6A00]/10 to-transparent">
+            <div className="ae-takeaway not-prose my-8 p-6 rounded-xl border border-[#F27D24]/30 bg-gradient-to-br from-[#F27D24]/10 to-transparent">
               <h3 className="font-plus-jakarta font-bold text-white mb-3">The Key Takeaway</h3>
               <p className="text-gray-300 text-sm leading-relaxed">
                 Fixing wrong AI answers is an influence problem, not an access problem. You do not need backdoor access to AI training data. You need to make the correct data so authoritative and so ubiquitous that it crowds out everything else. That is what AEO (Answer Engine Optimization) does at a systematic level.
@@ -611,7 +620,7 @@ export default function HowToFixWrongAIAnswersPage() {
 
             {/* Cheat Sheet */}
             <div className="ae-cheat-sheet not-prose my-12 p-6 rounded-xl border border-gray-700 bg-gray-900/80">
-              <h3 className="font-plus-jakarta text-xl font-bold text-[#FF6A00] mb-5">Quick Reference: AI Error Fix Checklist</h3>
+              <h3 className="font-plus-jakarta text-xl font-bold text-[#F27D24] mb-5">Quick Reference: AI Error Fix Checklist</h3>
               <p className="text-gray-400 text-sm mb-4">Going through all 12 steps yourself? <a href="sms:+18004470003" className="text-orange-500 hover:underline">Text us</a> if you get stuck. We help businesses complete this audit all the time.</p>
               <div className="grid md:grid-cols-2 gap-x-8 gap-y-2">
                 {[
@@ -629,7 +638,7 @@ export default function HowToFixWrongAIAnswersPage() {
                   'Track which AI platforms return your business in category searches',
                 ].map((item) => (
                   <div key={item} className="flex gap-2 py-1.5 border-b border-gray-800 last:border-0">
-                    <span className="text-[#FF6A00] shrink-0 mt-0.5 text-sm">&#9744;</span>
+                    <span className="text-[#F27D24] shrink-0 mt-0.5 text-sm">&#9744;</span>
                     <span className="text-gray-300 text-sm">{item}</span>
                   </div>
                 ))}
@@ -637,14 +646,14 @@ export default function HowToFixWrongAIAnswersPage() {
             </div>
 
             {/* Inline CTA 4 */}
-            <div className="ae-cta-inline not-prose my-10 p-5 rounded-xl bg-[#FF6A00]/10 border border-[#FF6A00]/20 flex flex-col sm:flex-row sm:items-center gap-4">
+            <div className="ae-cta-inline not-prose my-10 p-5 rounded-xl bg-[#F27D24]/10 border border-[#F27D24]/20 flex flex-col sm:flex-row sm:items-center gap-4">
               <div className="flex-1">
                 <p className="text-white font-semibold mb-1">Want someone else to handle this checklist for you?</p>
                 <p className="text-gray-400 text-sm">Email us and we will tell you what we find before asking for anything.</p>
               </div>
               <a
                 href="mailto:support@theanswerengine.ai"
-                className="shrink-0 inline-flex items-center gap-2 border border-[#FF6A00] text-[#FF6A00] px-5 py-2.5 rounded-lg font-semibold text-sm hover:bg-[#FF6A00]/10 transition-colors"
+                className="shrink-0 inline-flex items-center gap-2 border border-[#F27D24] text-[#F27D24] px-5 py-2.5 rounded-lg font-semibold text-sm hover:bg-[#F27D24]/10 transition-colors"
               >
                 <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" /></svg>
                 Email Us
@@ -655,12 +664,12 @@ export default function HowToFixWrongAIAnswersPage() {
 
           {/* Author Card */}
           <div className="ae-author-card my-12 p-6 rounded-xl border border-gray-800 bg-gray-900/60 flex items-start gap-5">
-            <div className="w-14 h-14 rounded-full bg-[#FF6A00]/20 border border-[#FF6A00]/40 flex items-center justify-center text-2xl shrink-0">
+            <div className="w-14 h-14 rounded-full bg-[#F27D24]/20 border border-[#F27D24]/40 flex items-center justify-center text-2xl shrink-0">
               &#128204;
             </div>
             <div className="flex-1">
-              <p className="font-plus-jakarta font-bold text-white">The Answer Engine Team</p>
-              <p className="text-[#FF6A00] text-sm mb-2">AI Visibility Specialists</p>
+              <p className="font-plus-jakarta font-bold text-white">Justin Borges</p>
+              <p className="text-[#F27D24] text-sm mb-2">AI Visibility Specialists</p>
               <p className="text-gray-400 text-sm leading-relaxed mb-3">
                 We specialize in diagnosing and correcting how AI platforms represent local and regional businesses. Our Blind Spot Reports have uncovered AI errors for businesses in over 40 industries across the US.
               </p>
@@ -673,14 +682,14 @@ export default function HowToFixWrongAIAnswersPage() {
           </div>
 
           {/* 3-Tier CTA Block */}
-          <div className="not-prose my-16 p-8 rounded-2xl bg-gradient-to-br from-[#FF6A00]/10 to-transparent border border-[#FF6A00]/20">
+          <div className="not-prose my-16 p-8 rounded-2xl bg-gradient-to-br from-[#F27D24]/10 to-transparent border border-[#F27D24]/20">
             <h3 className="font-plus-jakarta text-2xl font-bold text-white mb-3">Stop AI From Spreading Wrong Info About Your Business</h3>
             <p className="text-gray-400 mb-6">Our Blind Spot Report shows exactly what AI platforms are saying about you right now, and where the errors are.</p>
-            <Link href="/blindspot" className="inline-flex items-center gap-2 bg-[#FF6A00] text-white px-6 py-3 rounded-lg font-semibold hover:bg-[#e55f00] transition-colors">
+            <Link href="/blindspot" className="inline-flex items-center gap-2 bg-[#F27D24] text-white px-6 py-3 rounded-lg font-semibold hover:bg-[#D96416] transition-colors">
               Get Your Free Blind Spot Report
               <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" /></svg>
             </Link>
-            <div className="flex flex-wrap items-center gap-6 mt-6 pt-6 border-t border-[#FF6A00]/10">
+            <div className="flex flex-wrap items-center gap-6 mt-6 pt-6 border-t border-[#F27D24]/10">
               <a href="tel:+12134442229" className="flex items-center gap-2 text-gray-400 hover:text-white transition-colors">
                 <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" /></svg>
                 (213) 444-2229
@@ -694,7 +703,7 @@ export default function HowToFixWrongAIAnswersPage() {
 
           {/* FAQ Section */}
           <section id="faq" className="my-16">
-            <div className="ae-section-label text-xs font-bold uppercase tracking-widest text-[#FF6A00] mb-2">Common Questions</div>
+            <div className="ae-section-label text-xs font-bold uppercase tracking-widest text-[#F27D24] mb-2">Common Questions</div>
             <h2 className="font-plus-jakarta text-3xl font-bold text-white mb-8">Frequently Asked Questions</h2>
             <p className="text-gray-400 mb-8">Have questions about fixing your AI footprint? We have answers. Or <a href="tel:+18004470003" className="text-orange-500 hover:underline">call us at 1-800-447-0003</a> to discuss your specific situation.</p>
             <div className="space-y-6">
@@ -733,7 +742,7 @@ export default function HowToFixWrongAIAnswersPage() {
           </section>
 
           {/* Final CTA */}
-          <div className="ae-final-cta my-16 text-center p-10 rounded-2xl border border-[#FF6A00]/30 bg-gradient-to-b from-[#FF6A00]/10 to-transparent relative overflow-hidden">
+          <div className="ae-final-cta my-16 text-center p-10 rounded-2xl border border-[#F27D24]/30 bg-gradient-to-b from-[#F27D24]/10 to-transparent relative overflow-hidden">
             <div
               className="absolute inset-0 rounded-2xl pointer-events-none"
               style={{
@@ -741,7 +750,7 @@ export default function HowToFixWrongAIAnswersPage() {
               }}
             />
             <div className="relative z-10">
-              <p className="text-[#FF6A00] text-sm font-semibold uppercase tracking-widest mb-3">Take Action Today</p>
+              <p className="text-[#F27D24] text-sm font-semibold uppercase tracking-widest mb-3">Take Action Today</p>
               <h3 className="font-plus-jakarta text-3xl font-bold text-white mb-4">
                 Every Day You Wait, AI Keeps Sending<br className="hidden md:block" /> Customers the Wrong Way
               </h3>
@@ -751,7 +760,7 @@ export default function HowToFixWrongAIAnswersPage() {
               <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
                 <Link
                   href="/blindspot"
-                  className="inline-flex items-center gap-2 bg-[#FF6A00] text-white px-8 py-4 rounded-xl font-bold text-lg hover:bg-[#e55f00] transition-colors"
+                  className="inline-flex items-center gap-2 bg-[#F27D24] text-white px-8 py-4 rounded-xl font-bold text-lg hover:bg-[#D96416] transition-colors"
                   style={{ animation: 'pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite' }}
                 >
                   Get Your Free Blind Spot Report

@@ -33,7 +33,7 @@ export const metadata: Metadata = {
     type: 'article',
     url,
     publishedTime: publishDate,
-    authors: ['The Answer Engine Team'],
+    authors: ['https://theanswerengine.ai/about'],
     images: [{ url: image, width: 1200, height: 630, alt: title }],
   },
   twitter: {
@@ -59,9 +59,18 @@ const jsonLd = {
       datePublished: publishDate,
       dateModified: publishDate,
       author: {
-        '@type': 'Organization',
-        name: 'The Answer Engine Team',
+        '@type': 'Person',
+        '@id': 'https://theanswerengine.ai/about#justin-borges',
+        name: 'Justin Borges',
+        jobTitle: 'Founder, The Answer Engine',
+        worksFor: {
+          '@type': 'Organization',
+          name: 'The Answer Engine',
+          url: 'https://theanswerengine.ai',
+        },
+        knowsAbout: ['Answer Engine Optimization', 'AI Search', 'Content Strategy', 'Real Estate Marketing', 'Citation Surface'],
         url: 'https://theanswerengine.ai/about',
+        image: 'https://theanswerengine.ai/justin-borges.webp',
       },
       publisher: {
         '@type': 'Organization',
@@ -193,9 +202,9 @@ export default function WhyAIRecommendsBusinessesInOtherCitiesPage() {
           {/* Breadcrumb */}
           <nav aria-label="Breadcrumb" className="mb-8">
             <ol className="flex items-center gap-2 text-sm text-gray-500">
-              <li><Link href="/" className="hover:text-[#FF6A00] transition-colors">Home</Link></li>
+              <li><Link href="/" className="hover:text-[#F27D24] transition-colors">Home</Link></li>
               <li className="text-gray-700">/</li>
-              <li><Link href="/blog" className="hover:text-[#FF6A00] transition-colors">Blog</Link></li>
+              <li><Link href="/blog" className="hover:text-[#F27D24] transition-colors">Blog</Link></li>
               <li className="text-gray-700">/</li>
               <li className="text-gray-400 truncate max-w-[250px]">{title}</li>
             </ol>
@@ -218,54 +227,54 @@ export default function WhyAIRecommendsBusinessesInOtherCitiesPage() {
               <defs>
                 <pattern id="hero-grid-104" x="0" y="0" width="40" height="40" patternUnits="userSpaceOnUse">
                   <rect width="40" height="40" fill="none" />
-                  <circle cx="20" cy="20" r="1" fill="#FF6A00" opacity="0.15" />
+                  <circle cx="20" cy="20" r="1" fill="#F27D24" opacity="0.15" />
                 </pattern>
               </defs>
               <rect width="800" height="400" fill="url(#hero-grid-104)" />
               {/* Map pin 1: local */}
-              <path d="M150 180 C150 155 175 130 200 130 C225 130 250 155 250 180 C250 220 200 270 200 270 C200 270 150 220 150 180Z" stroke="#FF6A00" strokeWidth="0.8" fill="rgba(255,106,0,0.04)" />
-              <circle cx="200" cy="175" r="12" stroke="#FF6A00" strokeWidth="0.6" fill="rgba(255,106,0,0.06)" />
-              <text x="185" y="310" fontFamily="monospace" fontSize="9" fill="#FF6A00" opacity="0.2">YOUR CITY</text>
+              <path d="M150 180 C150 155 175 130 200 130 C225 130 250 155 250 180 C250 220 200 270 200 270 C200 270 150 220 150 180Z" stroke="#F27D24" strokeWidth="0.8" fill="rgba(255,106,0,0.04)" />
+              <circle cx="200" cy="175" r="12" stroke="#F27D24" strokeWidth="0.6" fill="rgba(255,106,0,0.06)" />
+              <text x="185" y="310" fontFamily="monospace" fontSize="9" fill="#F27D24" opacity="0.2">YOUR CITY</text>
               {/* Map pin 2: distant city */}
-              <path d="M520 120 C520 95 545 70 570 70 C595 70 620 95 620 120 C620 160 570 210 570 210 C570 210 520 160 520 120Z" stroke="#FF6A00" strokeWidth="0.8" fill="rgba(255,106,0,0.06)" />
-              <circle cx="570" cy="115" r="12" stroke="#FF6A00" strokeWidth="0.6" fill="rgba(255,106,0,0.08)" />
-              <text x="540" y="240" fontFamily="monospace" fontSize="9" fill="#FF6A00" opacity="0.25">300 MI AWAY</text>
+              <path d="M520 120 C520 95 545 70 570 70 C595 70 620 95 620 120 C620 160 570 210 570 210 C570 210 520 160 520 120Z" stroke="#F27D24" strokeWidth="0.8" fill="rgba(255,106,0,0.06)" />
+              <circle cx="570" cy="115" r="12" stroke="#F27D24" strokeWidth="0.6" fill="rgba(255,106,0,0.08)" />
+              <text x="540" y="240" fontFamily="monospace" fontSize="9" fill="#F27D24" opacity="0.25">300 MI AWAY</text>
               {/* Dotted path between pins */}
-              <path d="M220 230 Q400 80 550 210" stroke="#FF6A00" strokeWidth="0.6" strokeDasharray="8 6" opacity="0.2" />
+              <path d="M220 230 Q400 80 550 210" stroke="#F27D24" strokeWidth="0.6" strokeDasharray="8 6" opacity="0.2" />
               {/* Arrow pointing to distant pin */}
-              <path d="M560 215 L570 210 L565 225" stroke="#FF6A00" strokeWidth="0.5" opacity="0.3" />
+              <path d="M560 215 L570 210 L565 225" stroke="#F27D24" strokeWidth="0.5" opacity="0.3" />
               {/* AI label */}
-              <rect x="340" y="280" width="120" height="40" rx="8" stroke="#FF6A00" strokeWidth="0.5" fill="rgba(255,106,0,0.03)" />
-              <text x="360" y="305" fontFamily="monospace" fontSize="10" fill="#FF6A00" opacity="0.2">AI SEARCH</text>
+              <rect x="340" y="280" width="120" height="40" rx="8" stroke="#F27D24" strokeWidth="0.5" fill="rgba(255,106,0,0.03)" />
+              <text x="360" y="305" fontFamily="monospace" fontSize="10" fill="#F27D24" opacity="0.2">AI SEARCH</text>
               {/* Signal waves from distant pin */}
-              <circle cx="570" cy="115" r="30" stroke="#FF6A00" strokeWidth="0.3" opacity="0.15" fill="none" />
-              <circle cx="570" cy="115" r="50" stroke="#FF6A00" strokeWidth="0.3" opacity="0.1" fill="none" />
-              <circle cx="570" cy="115" r="70" stroke="#FF6A00" strokeWidth="0.3" opacity="0.05" fill="none" />
+              <circle cx="570" cy="115" r="30" stroke="#F27D24" strokeWidth="0.3" opacity="0.15" fill="none" />
+              <circle cx="570" cy="115" r="50" stroke="#F27D24" strokeWidth="0.3" opacity="0.1" fill="none" />
+              <circle cx="570" cy="115" r="70" stroke="#F27D24" strokeWidth="0.3" opacity="0.05" fill="none" />
               {/* Weak signal from local pin */}
-              <circle cx="200" cy="175" r="20" stroke="#FF6A00" strokeWidth="0.2" opacity="0.08" fill="none" />
+              <circle cx="200" cy="175" r="20" stroke="#F27D24" strokeWidth="0.2" opacity="0.08" fill="none" />
               {/* X marks on local pin */}
-              <line x1="190" y1="165" x2="210" y2="185" stroke="#FF6A00" strokeWidth="0.4" opacity="0.15" />
-              <line x1="210" y1="165" x2="190" y2="185" stroke="#FF6A00" strokeWidth="0.4" opacity="0.15" />
+              <line x1="190" y1="165" x2="210" y2="185" stroke="#F27D24" strokeWidth="0.4" opacity="0.15" />
+              <line x1="210" y1="165" x2="190" y2="185" stroke="#F27D24" strokeWidth="0.4" opacity="0.15" />
             </svg>
             <div className="relative px-8 py-16 sm:px-12 sm:py-20">
               <span
                 className="ae-section-label inline-block text-xs font-bold uppercase tracking-widest px-3 py-1 rounded-full mb-4"
-                style={{ background: 'rgba(255,106,0,0.15)', color: '#FF6A00', border: '1px solid rgba(255,106,0,0.3)' }}
+                style={{ background: 'rgba(255,106,0,0.15)', color: '#F27D24', border: '1px solid rgba(255,106,0,0.3)' }}
               >
                 Business Pain Points
               </span>
               <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-white leading-tight mb-6 font-plus-jakarta">
                 Why AI Recommends Businesses{' '}
-                <span style={{ color: '#FF6A00' }}>in Other Cities</span>
+                <span style={{ color: '#F27D24' }}>in Other Cities</span>
               </h1>
               <div className="flex flex-wrap items-center gap-4 text-sm text-gray-400">
-                <span>By The Answer Engine Team</span>
+                <span>By Justin Borges</span>
                 <span aria-hidden="true">|</span>
                 <time dateTime={publishDate}>March 31, 2026</time>
                 <span aria-hidden="true">|</span>
                 <span>14 min read</span>
                 <span aria-hidden="true">|</span>
-                <span style={{ color: '#FF6A00' }}>Business Pain Points</span>
+                <span style={{ color: '#F27D24' }}>Business Pain Points</span>
               </div>
             </div>
           </div>
@@ -278,14 +287,14 @@ export default function WhyAIRecommendsBusinessesInOtherCitiesPage() {
           </div>
 
           {/* Inline CTA 1 */}
-          <div className="ae-cta-inline my-8 p-5 rounded-xl bg-[#FF6A00]/10 border border-[#FF6A00]/20 flex flex-col sm:flex-row sm:items-center gap-4">
+          <div className="ae-cta-inline my-8 p-5 rounded-xl bg-[#F27D24]/10 border border-[#F27D24]/20 flex flex-col sm:flex-row sm:items-center gap-4">
             <div className="flex-1">
               <p className="text-white font-semibold mb-1">Is AI sending your customers to competitors in other cities?</p>
               <p className="text-gray-400 text-sm">Our free Blind Spot Report shows exactly which businesses AI recommends instead of yours, and where they are located.</p>
             </div>
             <Link
               href="/blindspot"
-              className="shrink-0 inline-flex items-center gap-2 bg-[#FF6A00] text-white px-5 py-2.5 rounded-lg font-semibold text-sm hover:bg-[#e55f00] transition-colors"
+              className="shrink-0 inline-flex items-center gap-2 bg-[#F27D24] text-white px-5 py-2.5 rounded-lg font-semibold text-sm hover:bg-[#D96416] transition-colors"
             >
               Get Free Report
               <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" /></svg>
@@ -293,7 +302,7 @@ export default function WhyAIRecommendsBusinessesInOtherCitiesPage() {
           </div>
 
           {/* Article Body */}
-          <article className="prose prose-invert prose-lg max-w-none prose-headings:font-plus-jakarta prose-headings:text-white prose-p:text-gray-300 prose-a:text-[#FF6A00] prose-a:no-underline hover:prose-a:underline prose-strong:text-white">
+          <article className="prose prose-invert prose-lg max-w-none prose-headings:font-plus-jakarta prose-headings:text-white prose-p:text-gray-300 prose-a:text-[#F27D24] prose-a:no-underline hover:prose-a:underline prose-strong:text-white">
 
             {/* Table of Contents */}
             <div className="ae-toc not-prose my-10 p-6 rounded-xl border border-gray-800 bg-gray-900/60">
@@ -311,7 +320,7 @@ export default function WhyAIRecommendsBusinessesInOtherCitiesPage() {
                   ['#faq', 'Frequently Asked Questions'],
                 ].map(([href, label]) => (
                   <li key={href as string}>
-                    <a href={href as string} className="text-[#FF6A00] hover:underline">
+                    <a href={href as string} className="text-[#F27D24] hover:underline">
                       {label as string}
                     </a>
                   </li>
@@ -321,7 +330,7 @@ export default function WhyAIRecommendsBusinessesInOtherCitiesPage() {
 
             {/* Stats Grid */}
             <div id="the-location-problem" className="not-prose my-12">
-              <div className="ae-section-label text-xs font-bold uppercase tracking-widest text-[#FF6A00] mb-2">The Location Problem</div>
+              <div className="ae-section-label text-xs font-bold uppercase tracking-widest text-[#F27D24] mb-2">The Location Problem</div>
               <h2 className="font-plus-jakarta text-3xl font-bold text-white mb-6">AI Location Accuracy in Numbers</h2>
               <p className="text-gray-300 text-lg mb-8">
                 The scale of this problem is staggering. AI platforms are confidently pointing customers toward businesses that are geographically irrelevant, and most local business owners have no idea it is happening.
@@ -334,7 +343,7 @@ export default function WhyAIRecommendsBusinessesInOtherCitiesPage() {
                   { value: '0%', label: 'of LLMs consistently verify whether a recommended business actually serves your area' },
                 ].map((stat) => (
                   <div key={stat.label} className="ae-stat-card p-5 rounded-xl border border-gray-800 bg-gray-900/60 text-center">
-                    <div className="ae-stat-value ae-accent font-plus-jakarta text-2xl font-bold text-[#FF6A00] mb-1">{stat.value}</div>
+                    <div className="ae-stat-value ae-accent font-plus-jakarta text-2xl font-bold text-[#F27D24] mb-1">{stat.value}</div>
                     <div className="ae-stat-label text-xs text-gray-400 leading-snug">{stat.label}</div>
                   </div>
                 ))}
@@ -353,14 +362,14 @@ export default function WhyAIRecommendsBusinessesInOtherCitiesPage() {
             </p>
 
             {/* Inline CTA 2 */}
-            <div className="ae-cta-inline not-prose my-10 p-5 rounded-xl bg-[#FF6A00]/10 border border-[#FF6A00]/20 flex flex-col sm:flex-row sm:items-center gap-4">
+            <div className="ae-cta-inline not-prose my-10 p-5 rounded-xl bg-[#F27D24]/10 border border-[#F27D24]/20 flex flex-col sm:flex-row sm:items-center gap-4">
               <div className="flex-1">
                 <p className="text-white font-semibold mb-1">Losing leads to businesses in other cities?</p>
                 <p className="text-gray-400 text-sm">Find out exactly what AI says when customers ask for your services in your area.</p>
               </div>
               <a
                 href="tel:+12134442229"
-                className="shrink-0 inline-flex items-center gap-2 border border-[#FF6A00] text-[#FF6A00] px-5 py-2.5 rounded-lg font-semibold text-sm hover:bg-[#FF6A00]/10 transition-colors"
+                className="shrink-0 inline-flex items-center gap-2 border border-[#F27D24] text-[#F27D24] px-5 py-2.5 rounded-lg font-semibold text-sm hover:bg-[#F27D24]/10 transition-colors"
               >
                 <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" /></svg>
                 Call (213) 444-2229
@@ -369,7 +378,7 @@ export default function WhyAIRecommendsBusinessesInOtherCitiesPage() {
 
             {/* Section 2 */}
             <div id="why-ai-skips-local" className="not-prose mt-14 mb-4">
-              <div className="ae-section-label text-xs font-bold uppercase tracking-widest text-[#FF6A00] mb-2">The Root Cause</div>
+              <div className="ae-section-label text-xs font-bold uppercase tracking-widest text-[#F27D24] mb-2">The Root Cause</div>
               <h2 className="font-plus-jakarta text-3xl font-bold text-white mb-4">Why AI Skips Your City Entirely</h2>
             </div>
 
@@ -403,14 +412,14 @@ export default function WhyAIRecommendsBusinessesInOtherCitiesPage() {
             </div>
 
             {/* Inline CTA 3 */}
-            <div className="ae-cta-inline not-prose my-10 p-5 rounded-xl bg-[#FF6A00]/10 border border-[#FF6A00]/20 flex flex-col sm:flex-row sm:items-center gap-4">
+            <div className="ae-cta-inline not-prose my-10 p-5 rounded-xl bg-[#F27D24]/10 border border-[#F27D24]/20 flex flex-col sm:flex-row sm:items-center gap-4">
               <div className="flex-1">
                 <p className="text-white font-semibold mb-1">Wondering what AI recommends instead of you?</p>
                 <p className="text-gray-400 text-sm">We test every major AI platform with your actual customer queries. The results are often surprising.</p>
               </div>
               <Link
                 href="/blindspot"
-                className="shrink-0 inline-flex items-center gap-2 bg-[#FF6A00] text-white px-5 py-2.5 rounded-lg font-semibold text-sm hover:bg-[#e55f00] transition-colors"
+                className="shrink-0 inline-flex items-center gap-2 bg-[#F27D24] text-white px-5 py-2.5 rounded-lg font-semibold text-sm hover:bg-[#D96416] transition-colors"
               >
                 Free Blind Spot Report
                 <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" /></svg>
@@ -419,7 +428,7 @@ export default function WhyAIRecommendsBusinessesInOtherCitiesPage() {
 
             {/* Section 3: Authority vs Proximity */}
             <div id="authority-vs-proximity" className="not-prose mt-14 mb-4">
-              <div className="ae-section-label text-xs font-bold uppercase tracking-widest text-[#FF6A00] mb-2">The Core Trade-Off</div>
+              <div className="ae-section-label text-xs font-bold uppercase tracking-widest text-[#F27D24] mb-2">The Core Trade-Off</div>
               <h2 className="font-plus-jakarta text-3xl font-bold text-white mb-4">Authority vs. Proximity: What AI Actually Weighs</h2>
             </div>
 
@@ -462,14 +471,14 @@ export default function WhyAIRecommendsBusinessesInOtherCitiesPage() {
             </p>
 
             {/* Inline CTA 4 */}
-            <div className="ae-cta-inline not-prose my-10 p-5 rounded-xl bg-[#FF6A00]/10 border border-[#FF6A00]/20 flex flex-col sm:flex-row sm:items-center gap-4">
+            <div className="ae-cta-inline not-prose my-10 p-5 rounded-xl bg-[#F27D24]/10 border border-[#F27D24]/20 flex flex-col sm:flex-row sm:items-center gap-4">
               <div className="flex-1">
                 <p className="text-white font-semibold mb-1">Your authority signals may be weaker than you think.</p>
                 <p className="text-gray-400 text-sm">We compare your signals against the businesses AI actually recommends. No cost, no commitment.</p>
               </div>
               <a
                 href="mailto:support@theanswerengine.ai"
-                className="shrink-0 inline-flex items-center gap-2 border border-[#FF6A00] text-[#FF6A00] px-5 py-2.5 rounded-lg font-semibold text-sm hover:bg-[#FF6A00]/10 transition-colors"
+                className="shrink-0 inline-flex items-center gap-2 border border-[#F27D24] text-[#F27D24] px-5 py-2.5 rounded-lg font-semibold text-sm hover:bg-[#F27D24]/10 transition-colors"
               >
                 <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" /></svg>
                 Email Us
@@ -478,7 +487,7 @@ export default function WhyAIRecommendsBusinessesInOtherCitiesPage() {
 
             {/* Section 4: Rural vs Urban */}
             <div id="rural-vs-urban" className="not-prose mt-14 mb-4">
-              <div className="ae-section-label text-xs font-bold uppercase tracking-widest text-[#FF6A00] mb-2">The Geographic Divide</div>
+              <div className="ae-section-label text-xs font-bold uppercase tracking-widest text-[#F27D24] mb-2">The Geographic Divide</div>
               <h2 className="font-plus-jakarta text-3xl font-bold text-white mb-4">The Rural vs. Urban Divide in AI Search</h2>
             </div>
 
@@ -508,14 +517,14 @@ export default function WhyAIRecommendsBusinessesInOtherCitiesPage() {
             </div>
 
             {/* Inline CTA 5 */}
-            <div className="ae-cta-inline not-prose my-10 p-5 rounded-xl bg-[#FF6A00]/10 border border-[#FF6A00]/20 flex flex-col sm:flex-row sm:items-center gap-4">
+            <div className="ae-cta-inline not-prose my-10 p-5 rounded-xl bg-[#F27D24]/10 border border-[#F27D24]/20 flex flex-col sm:flex-row sm:items-center gap-4">
               <div className="flex-1">
                 <p className="text-white font-semibold mb-1">In a smaller market? Your window of opportunity is closing.</p>
                 <p className="text-gray-400 text-sm">Get ahead of competitors before they discover AI optimization. Start with a free audit.</p>
               </div>
               <Link
                 href="/blindspot"
-                className="shrink-0 inline-flex items-center gap-2 bg-[#FF6A00] text-white px-5 py-2.5 rounded-lg font-semibold text-sm hover:bg-[#e55f00] transition-colors"
+                className="shrink-0 inline-flex items-center gap-2 bg-[#F27D24] text-white px-5 py-2.5 rounded-lg font-semibold text-sm hover:bg-[#D96416] transition-colors"
               >
                 Claim Your Advantage
                 <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" /></svg>
@@ -524,7 +533,7 @@ export default function WhyAIRecommendsBusinessesInOtherCitiesPage() {
 
             {/* Section 5: Platform Comparison */}
             <div id="platform-comparison" className="not-prose mt-14 mb-4">
-              <div className="ae-section-label text-xs font-bold uppercase tracking-widest text-[#FF6A00] mb-2">Platform Breakdown</div>
+              <div className="ae-section-label text-xs font-bold uppercase tracking-widest text-[#F27D24] mb-2">Platform Breakdown</div>
               <h2 className="font-plus-jakarta text-3xl font-bold text-white mb-4">How Each AI Platform Handles Location</h2>
             </div>
 
@@ -537,10 +546,10 @@ export default function WhyAIRecommendsBusinessesInOtherCitiesPage() {
               <table className="w-full text-sm border-collapse">
                 <thead>
                   <tr className="border-b border-gray-700">
-                    <th className="text-left py-3 px-4 text-[#FF6A00] font-semibold">Platform</th>
-                    <th className="text-left py-3 px-4 text-[#FF6A00] font-semibold">Location Awareness</th>
-                    <th className="text-left py-3 px-4 text-[#FF6A00] font-semibold">Data Source</th>
-                    <th className="text-left py-3 px-4 text-[#FF6A00] font-semibold">Cross-City Risk</th>
+                    <th className="text-left py-3 px-4 text-[#F27D24] font-semibold">Platform</th>
+                    <th className="text-left py-3 px-4 text-[#F27D24] font-semibold">Location Awareness</th>
+                    <th className="text-left py-3 px-4 text-[#F27D24] font-semibold">Data Source</th>
+                    <th className="text-left py-3 px-4 text-[#F27D24] font-semibold">Cross-City Risk</th>
                   </tr>
                 </thead>
                 <tbody className="divide-y divide-gray-800">
@@ -592,14 +601,14 @@ export default function WhyAIRecommendsBusinessesInOtherCitiesPage() {
             </p>
 
             {/* Inline CTA 6 */}
-            <div className="ae-cta-inline not-prose my-10 p-5 rounded-xl bg-[#FF6A00]/10 border border-[#FF6A00]/20 flex flex-col sm:flex-row sm:items-center gap-4">
+            <div className="ae-cta-inline not-prose my-10 p-5 rounded-xl bg-[#F27D24]/10 border border-[#F27D24]/20 flex flex-col sm:flex-row sm:items-center gap-4">
               <div className="flex-1">
                 <p className="text-white font-semibold mb-1">Not sure which platforms are getting your location wrong?</p>
                 <p className="text-gray-400 text-sm">We audit all five major AI platforms and document every location error. Takes less than 24 hours.</p>
               </div>
               <a
                 href="tel:+12134442229"
-                className="shrink-0 inline-flex items-center gap-2 border border-[#FF6A00] text-[#FF6A00] px-5 py-2.5 rounded-lg font-semibold text-sm hover:bg-[#FF6A00]/10 transition-colors"
+                className="shrink-0 inline-flex items-center gap-2 border border-[#F27D24] text-[#F27D24] px-5 py-2.5 rounded-lg font-semibold text-sm hover:bg-[#F27D24]/10 transition-colors"
               >
                 <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" /></svg>
                 Call (213) 444-2229
@@ -608,7 +617,7 @@ export default function WhyAIRecommendsBusinessesInOtherCitiesPage() {
 
             {/* Section 6: Closed/Wrong Businesses */}
             <div id="closed-and-wrong" className="not-prose mt-14 mb-4">
-              <div className="ae-section-label text-xs font-bold uppercase tracking-widest text-[#FF6A00] mb-2">The Worst Case</div>
+              <div className="ae-section-label text-xs font-bold uppercase tracking-widest text-[#F27D24] mb-2">The Worst Case</div>
               <h2 className="font-plus-jakarta text-3xl font-bold text-white mb-4">When AI Recommends Closed or Wrong Businesses</h2>
             </div>
 
@@ -625,7 +634,7 @@ export default function WhyAIRecommendsBusinessesInOtherCitiesPage() {
             </p>
 
             {/* Callout Orange */}
-            <div className="ae-callout ae-callout-orange not-prose my-8 p-5 rounded-xl border border-[#FF6A00]/30 bg-[#FF6A00]/5">
+            <div className="ae-callout ae-callout-orange not-prose my-8 p-5 rounded-xl border border-[#F27D24]/30 bg-[#F27D24]/5">
               <div className="flex gap-3">
                 <span className="text-2xl">&#128205;</span>
                 <div>
@@ -638,14 +647,14 @@ export default function WhyAIRecommendsBusinessesInOtherCitiesPage() {
             </div>
 
             {/* Inline CTA 7 */}
-            <div className="ae-cta-inline not-prose my-10 p-5 rounded-xl bg-[#FF6A00]/10 border border-[#FF6A00]/20 flex flex-col sm:flex-row sm:items-center gap-4">
+            <div className="ae-cta-inline not-prose my-10 p-5 rounded-xl bg-[#F27D24]/10 border border-[#F27D24]/20 flex flex-col sm:flex-row sm:items-center gap-4">
               <div className="flex-1">
                 <p className="text-white font-semibold mb-1">Is AI recommending closed competitors instead of you?</p>
                 <p className="text-gray-400 text-sm">Our audit catches every error, including closed businesses and category mismatches AI is surfacing in your market.</p>
               </div>
               <Link
                 href="/blindspot"
-                className="shrink-0 inline-flex items-center gap-2 bg-[#FF6A00] text-white px-5 py-2.5 rounded-lg font-semibold text-sm hover:bg-[#e55f00] transition-colors"
+                className="shrink-0 inline-flex items-center gap-2 bg-[#F27D24] text-white px-5 py-2.5 rounded-lg font-semibold text-sm hover:bg-[#D96416] transition-colors"
               >
                 Get Your Report
                 <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" /></svg>
@@ -654,7 +663,7 @@ export default function WhyAIRecommendsBusinessesInOtherCitiesPage() {
 
             {/* Section 7: Signals That Matter */}
             <div id="signals-that-matter" className="not-prose mt-14 mb-4">
-              <div className="ae-section-label text-xs font-bold uppercase tracking-widest text-[#FF6A00] mb-2">What Works</div>
+              <div className="ae-section-label text-xs font-bold uppercase tracking-widest text-[#F27D24] mb-2">What Works</div>
               <h2 className="font-plus-jakarta text-3xl font-bold text-white mb-4">The Location Signals That Actually Matter</h2>
             </div>
 
@@ -693,7 +702,7 @@ export default function WhyAIRecommendsBusinessesInOtherCitiesPage() {
                       <p className="text-white text-sm font-medium">{row.signal}</p>
                       <p className="text-gray-500 text-xs">{row.impact}</p>
                     </div>
-                    <span className={`text-xs font-bold px-3 py-1 rounded-full shrink-0 ${row.strength === 'Critical' ? 'bg-red-500/20 text-red-400 border border-red-500/30' : row.strength === 'High' ? 'bg-[#FF6A00]/20 text-[#FF6A00] border border-[#FF6A00]/30' : 'bg-blue-500/20 text-blue-400 border border-blue-500/30'}`}>
+                    <span className={`text-xs font-bold px-3 py-1 rounded-full shrink-0 ${row.strength === 'Critical' ? 'bg-red-500/20 text-red-400 border border-red-500/30' : row.strength === 'High' ? 'bg-[#F27D24]/20 text-[#F27D24] border border-[#F27D24]/30' : 'bg-blue-500/20 text-blue-400 border border-blue-500/30'}`}>
                       {row.strength}
                     </span>
                   </div>
@@ -715,14 +724,14 @@ export default function WhyAIRecommendsBusinessesInOtherCitiesPage() {
             </div>
 
             {/* Inline CTA 8 */}
-            <div className="ae-cta-inline not-prose my-10 p-5 rounded-xl bg-[#FF6A00]/10 border border-[#FF6A00]/20 flex flex-col sm:flex-row sm:items-center gap-4">
+            <div className="ae-cta-inline not-prose my-10 p-5 rounded-xl bg-[#F27D24]/10 border border-[#F27D24]/20 flex flex-col sm:flex-row sm:items-center gap-4">
               <div className="flex-1">
                 <p className="text-white font-semibold mb-1">Building the right signal stack is complex.</p>
                 <p className="text-gray-400 text-sm">We handle the entire location signal strategy for businesses like yours. Start with a free assessment.</p>
               </div>
               <a
                 href="mailto:support@theanswerengine.ai"
-                className="shrink-0 inline-flex items-center gap-2 border border-[#FF6A00] text-[#FF6A00] px-5 py-2.5 rounded-lg font-semibold text-sm hover:bg-[#FF6A00]/10 transition-colors"
+                className="shrink-0 inline-flex items-center gap-2 border border-[#F27D24] text-[#F27D24] px-5 py-2.5 rounded-lg font-semibold text-sm hover:bg-[#F27D24]/10 transition-colors"
               >
                 <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" /></svg>
                 Email Us
@@ -730,7 +739,7 @@ export default function WhyAIRecommendsBusinessesInOtherCitiesPage() {
             </div>
 
             {/* Takeaway */}
-            <div className="ae-takeaway not-prose my-10 p-6 rounded-xl border-l-4 border-[#FF6A00] bg-gray-900/60">
+            <div className="ae-takeaway not-prose my-10 p-6 rounded-xl border-l-4 border-[#F27D24] bg-gray-900/60">
               <p className="font-plus-jakarta font-bold text-white mb-2">Key Takeaway</p>
               <p className="text-gray-300 text-sm leading-relaxed">
                 AI does not recommend the nearest business. It recommends the business with the strongest composite signal. If a competitor in another city has better structured data, more citations, deeper content, and stronger reviews, AI will choose them over you regardless of distance. The only way to fix this is to build a location signal stack that makes your geographic relevance undeniable.
@@ -738,22 +747,22 @@ export default function WhyAIRecommendsBusinessesInOtherCitiesPage() {
             </div>
 
             {/* Quote */}
-            <div className="ae-quote not-prose my-10 p-6 rounded-xl bg-gray-900/40 border-l-4 border-[#FF6A00]/60">
+            <div className="ae-quote not-prose my-10 p-6 rounded-xl bg-gray-900/40 border-l-4 border-[#F27D24]/60">
               <blockquote className="text-gray-300 text-lg italic leading-relaxed mb-3">
                 &ldquo;AI search is a reputation engine, not a compass. It points to the most referenced business, not the nearest one.&rdquo;
               </blockquote>
-              <cite className="text-[#FF6A00] text-sm not-italic">The Answer Engine Team</cite>
+              <cite className="text-[#F27D24] text-sm not-italic">Justin Borges</cite>
             </div>
 
             {/* Inline CTA 9 */}
-            <div className="ae-cta-inline not-prose my-10 p-5 rounded-xl bg-[#FF6A00]/10 border border-[#FF6A00]/20 flex flex-col sm:flex-row sm:items-center gap-4">
+            <div className="ae-cta-inline not-prose my-10 p-5 rounded-xl bg-[#F27D24]/10 border border-[#F27D24]/20 flex flex-col sm:flex-row sm:items-center gap-4">
               <div className="flex-1">
                 <p className="text-white font-semibold mb-1">Ready to stop losing customers to out-of-town competitors?</p>
                 <p className="text-gray-400 text-sm">The first step is understanding what AI currently says about you. Our report takes less than 24 hours.</p>
               </div>
               <Link
                 href="/blindspot"
-                className="shrink-0 inline-flex items-center gap-2 bg-[#FF6A00] text-white px-5 py-2.5 rounded-lg font-semibold text-sm hover:bg-[#e55f00] transition-colors"
+                className="shrink-0 inline-flex items-center gap-2 bg-[#F27D24] text-white px-5 py-2.5 rounded-lg font-semibold text-sm hover:bg-[#D96416] transition-colors"
               >
                 Start Free Audit
                 <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" /></svg>
@@ -761,8 +770,8 @@ export default function WhyAIRecommendsBusinessesInOtherCitiesPage() {
             </div>
 
             {/* Cheat Sheet */}
-            <div id="cheat-sheet" className="ae-cheat-sheet not-prose my-12 p-6 rounded-xl border border-[#FF6A00]/20 bg-gradient-to-br from-[#FF6A00]/5 to-transparent">
-              <div className="ae-section-label text-xs font-bold uppercase tracking-widest text-[#FF6A00] mb-2">Quick Reference</div>
+            <div id="cheat-sheet" className="ae-cheat-sheet not-prose my-12 p-6 rounded-xl border border-[#F27D24]/20 bg-gradient-to-br from-[#F27D24]/5 to-transparent">
+              <div className="ae-section-label text-xs font-bold uppercase tracking-widest text-[#F27D24] mb-2">Quick Reference</div>
               <h2 className="font-plus-jakarta text-2xl font-bold text-white mb-6">Location Visibility Cheat Sheet</h2>
               <div className="grid md:grid-cols-2 gap-4">
                 {[
@@ -776,7 +785,7 @@ export default function WhyAIRecommendsBusinessesInOtherCitiesPage() {
                   { label: 'Ongoing Monitoring', desc: 'AI results change constantly. Regular audits catch new location errors before they cost you customers' },
                 ].map((item) => (
                   <div key={item.label} className="flex gap-3 p-3 rounded-lg bg-gray-900/50">
-                    <div className="w-2 h-2 rounded-full bg-[#FF6A00] mt-2 shrink-0" />
+                    <div className="w-2 h-2 rounded-full bg-[#F27D24] mt-2 shrink-0" />
                     <div>
                       <p className="text-white text-sm font-semibold">{item.label}</p>
                       <p className="text-gray-400 text-xs leading-relaxed">{item.desc}</p>
@@ -787,14 +796,14 @@ export default function WhyAIRecommendsBusinessesInOtherCitiesPage() {
             </div>
 
             {/* Inline CTA 10 */}
-            <div className="ae-cta-inline not-prose my-10 p-5 rounded-xl bg-[#FF6A00]/10 border border-[#FF6A00]/20 flex flex-col sm:flex-row sm:items-center gap-4">
+            <div className="ae-cta-inline not-prose my-10 p-5 rounded-xl bg-[#F27D24]/10 border border-[#F27D24]/20 flex flex-col sm:flex-row sm:items-center gap-4">
               <div className="flex-1">
                 <p className="text-white font-semibold mb-1">Want this cheat sheet executed for your business?</p>
                 <p className="text-gray-400 text-sm">We handle every layer of the location signal stack. Results typically visible within 60 to 90 days.</p>
               </div>
               <a
                 href="tel:+12134442229"
-                className="shrink-0 inline-flex items-center gap-2 border border-[#FF6A00] text-[#FF6A00] px-5 py-2.5 rounded-lg font-semibold text-sm hover:bg-[#FF6A00]/10 transition-colors"
+                className="shrink-0 inline-flex items-center gap-2 border border-[#F27D24] text-[#F27D24] px-5 py-2.5 rounded-lg font-semibold text-sm hover:bg-[#F27D24]/10 transition-colors"
               >
                 <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" /></svg>
                 Call (213) 444-2229
@@ -806,19 +815,19 @@ export default function WhyAIRecommendsBusinessesInOtherCitiesPage() {
               <h3 className="font-plus-jakarta font-bold text-white mb-4 text-lg">Related Articles</h3>
               <ul className="space-y-3">
                 <li>
-                  <Link href="/blog/my-business-disappeared-from-ai-search-results-overnight" className="text-[#FF6A00] hover:underline text-sm">
+                  <Link href="/blog/my-business-disappeared-from-ai-search-results-overnight" className="text-[#F27D24] hover:underline text-sm">
                     My Business Disappeared from AI Search Results Overnight
                   </Link>
                   <p className="text-gray-500 text-xs mt-1">Understanding why AI visibility collapses and how to recover</p>
                 </li>
                 <li>
-                  <Link href="/blog/why-ai-gives-outdated-information-about-my-business" className="text-[#FF6A00] hover:underline text-sm">
+                  <Link href="/blog/why-ai-gives-outdated-information-about-my-business" className="text-[#F27D24] hover:underline text-sm">
                     Why AI Gives Outdated Information About My Business
                   </Link>
                   <p className="text-gray-500 text-xs mt-1">How training data cutoffs and stale citations create inaccuracy</p>
                 </li>
                 <li>
-                  <Link href="/blog/how-to-optimize-your-google-business-profile-for-ai" className="text-[#FF6A00] hover:underline text-sm">
+                  <Link href="/blog/how-to-optimize-your-google-business-profile-for-ai" className="text-[#F27D24] hover:underline text-sm">
                     How to Optimize Your Google Business Profile for AI
                   </Link>
                   <p className="text-gray-500 text-xs mt-1">Making your GBP work for AI platforms, not just Google Maps</p>
@@ -827,14 +836,14 @@ export default function WhyAIRecommendsBusinessesInOtherCitiesPage() {
             </div>
 
             {/* Inline CTA 11 */}
-            <div className="ae-cta-inline not-prose my-10 p-5 rounded-xl bg-[#FF6A00]/10 border border-[#FF6A00]/20 flex flex-col sm:flex-row sm:items-center gap-4">
+            <div className="ae-cta-inline not-prose my-10 p-5 rounded-xl bg-[#F27D24]/10 border border-[#F27D24]/20 flex flex-col sm:flex-row sm:items-center gap-4">
               <div className="flex-1">
                 <p className="text-white font-semibold mb-1">Still reading? That tells us you are concerned about this.</p>
                 <p className="text-gray-400 text-sm">The concern is justified. Let us show you exactly what is happening with your AI visibility. No cost to find out.</p>
               </div>
               <Link
                 href="/blindspot"
-                className="shrink-0 inline-flex items-center gap-2 bg-[#FF6A00] text-white px-5 py-2.5 rounded-lg font-semibold text-sm hover:bg-[#e55f00] transition-colors"
+                className="shrink-0 inline-flex items-center gap-2 bg-[#F27D24] text-white px-5 py-2.5 rounded-lg font-semibold text-sm hover:bg-[#D96416] transition-colors"
               >
                 Free Blind Spot Report
                 <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" /></svg>
@@ -845,12 +854,12 @@ export default function WhyAIRecommendsBusinessesInOtherCitiesPage() {
 
           {/* Author Card */}
           <div className="ae-author-card my-12 p-6 rounded-xl border border-gray-800 bg-gray-900/60 flex items-start gap-5">
-            <div className="w-14 h-14 rounded-full bg-[#FF6A00]/20 border border-[#FF6A00]/40 flex items-center justify-center text-2xl shrink-0">
+            <div className="w-14 h-14 rounded-full bg-[#F27D24]/20 border border-[#F27D24]/40 flex items-center justify-center text-2xl shrink-0">
               &#128205;
             </div>
             <div className="flex-1">
-              <p className="font-plus-jakarta font-bold text-white">The Answer Engine Team</p>
-              <p className="text-[#FF6A00] text-sm mb-2">AI Visibility Specialists</p>
+              <p className="font-plus-jakarta font-bold text-white">Justin Borges</p>
+              <p className="text-[#F27D24] text-sm mb-2">AI Visibility Specialists</p>
               <p className="text-gray-400 text-sm leading-relaxed mb-3">
                 We specialize in diagnosing and correcting how AI platforms represent local and regional businesses. Our Blind Spot Reports have uncovered location accuracy problems for businesses in over 40 industries across the US, from solo practitioners to multi-location enterprises.
               </p>
@@ -863,14 +872,14 @@ export default function WhyAIRecommendsBusinessesInOtherCitiesPage() {
           </div>
 
           {/* 3-Tier CTA Block */}
-          <div className="ae-cta-block not-prose my-16 p-8 rounded-2xl bg-gradient-to-br from-[#FF6A00]/10 to-transparent border border-[#FF6A00]/20">
+          <div className="ae-cta-block not-prose my-16 p-8 rounded-2xl bg-gradient-to-br from-[#F27D24]/10 to-transparent border border-[#F27D24]/20">
             <h3 className="font-plus-jakarta text-2xl font-bold text-white mb-3">Stop Losing Customers to Businesses in Other Cities</h3>
             <p className="text-gray-400 mb-6">Our Blind Spot Report reveals exactly which businesses AI recommends instead of yours, where they are located, and why AI chose them over you.</p>
-            <Link href="/blindspot" className="inline-flex items-center gap-2 bg-[#FF6A00] text-white px-6 py-3 rounded-lg font-semibold hover:bg-[#e55f00] transition-colors">
+            <Link href="/blindspot" className="inline-flex items-center gap-2 bg-[#F27D24] text-white px-6 py-3 rounded-lg font-semibold hover:bg-[#D96416] transition-colors">
               Get Your Free Blind Spot Report
               <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" /></svg>
             </Link>
-            <div className="flex flex-wrap items-center gap-6 mt-6 pt-6 border-t border-[#FF6A00]/10">
+            <div className="flex flex-wrap items-center gap-6 mt-6 pt-6 border-t border-[#F27D24]/10">
               <a href="tel:+12134442229" className="flex items-center gap-2 text-gray-400 hover:text-white transition-colors">
                 <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" /></svg>
                 (213) 444-2229
@@ -884,7 +893,7 @@ export default function WhyAIRecommendsBusinessesInOtherCitiesPage() {
 
           {/* FAQ Section */}
           <section id="faq" className="my-16">
-            <div className="ae-section-label text-xs font-bold uppercase tracking-widest text-[#FF6A00] mb-2">Common Questions</div>
+            <div className="ae-section-label text-xs font-bold uppercase tracking-widest text-[#F27D24] mb-2">Common Questions</div>
             <h2 className="font-plus-jakarta text-3xl font-bold text-white mb-8">Frequently Asked Questions</h2>
             <p className="text-gray-400 mb-8">Have questions about AI location bias and cross-city recommendations? We have answers. Or <a href="tel:+12134442229" className="text-orange-500 hover:underline">call us at (213) 444-2229</a> to discuss your situation.</p>
             <div className="space-y-6">
@@ -923,7 +932,7 @@ export default function WhyAIRecommendsBusinessesInOtherCitiesPage() {
           </section>
 
           {/* Final CTA with pulse glow */}
-          <div className="ae-final-cta my-16 text-center p-10 rounded-2xl border border-[#FF6A00]/30 bg-gradient-to-b from-[#FF6A00]/10 to-transparent relative overflow-hidden">
+          <div className="ae-final-cta my-16 text-center p-10 rounded-2xl border border-[#F27D24]/30 bg-gradient-to-b from-[#F27D24]/10 to-transparent relative overflow-hidden">
             <div
               className="absolute inset-0 rounded-2xl pointer-events-none"
               style={{
@@ -931,7 +940,7 @@ export default function WhyAIRecommendsBusinessesInOtherCitiesPage() {
               }}
             />
             <div className="relative z-10">
-              <p className="text-[#FF6A00] text-sm font-semibold uppercase tracking-widest mb-3">Take Action Today</p>
+              <p className="text-[#F27D24] text-sm font-semibold uppercase tracking-widest mb-3">Take Action Today</p>
               <h3 className="font-plus-jakarta text-3xl font-bold text-white mb-4">
                 Every Day AI Sends Your Customers<br className="hidden md:block" /> to Businesses in Other Cities
               </h3>
@@ -941,7 +950,7 @@ export default function WhyAIRecommendsBusinessesInOtherCitiesPage() {
               <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
                 <Link
                   href="/blindspot"
-                  className="inline-flex items-center gap-2 bg-[#FF6A00] text-white px-8 py-4 rounded-xl font-bold text-lg hover:bg-[#e55f00] transition-colors"
+                  className="inline-flex items-center gap-2 bg-[#F27D24] text-white px-8 py-4 rounded-xl font-bold text-lg hover:bg-[#D96416] transition-colors"
                   style={{ animation: 'pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite' }}
                 >
                   Get Your Free Blind Spot Report

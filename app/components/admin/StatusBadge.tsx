@@ -5,7 +5,7 @@ const STATUS_CONFIG: Record<LeadStatus, { label: string; color: string; bg: stri
   researching: { label: 'Researching', color: 'text-blue-300', bg: 'bg-blue-900/50' },
   research_complete: { label: 'Research Done', color: 'text-cyan-300', bg: 'bg-cyan-900/30' },
   generating_report: { label: 'Generating', color: 'text-indigo-300', bg: 'bg-indigo-900/30' },
-  report_ready: { label: 'Report Ready', color: 'text-[#FF6A00]', bg: 'bg-orange-900/30' },
+  report_ready: { label: 'Report Ready', color: 'text-[#F27D24]', bg: 'bg-orange-900/30' },
   email_drafted: { label: 'Email Drafted', color: 'text-purple-300', bg: 'bg-purple-900/30' },
   approved: { label: 'Approved', color: 'text-lime-300', bg: 'bg-lime-900/30' },
   sent: { label: 'Sent', color: 'text-green-300', bg: 'bg-green-900/30' },

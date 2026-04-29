@@ -38,8 +38,17 @@ function ComprehensiveSchema() {
         "dateModified": "2025-12-17",
         "author": {
           "@type": "Person",
-          "name": "JB",
-          "url": "https://theanswerengine.ai/about"
+          "@id": "https://theanswerengine.ai/about#justin-borges",
+          "name": "Justin Borges",
+          "jobTitle": "Founder, The Answer Engine",
+          "worksFor": {
+            "@type": "Organization",
+            "name": "The Answer Engine",
+            "url": "https://theanswerengine.ai"
+          },
+          "knowsAbout": ["Answer Engine Optimization", "AI Search", "Content Strategy", "Real Estate Marketing", "Citation Surface"],
+          "url": "https://theanswerengine.ai/about",
+          "image": "https://theanswerengine.ai/justin-borges.webp"
         },
         "publisher": {
           "@type": "Organization",
@@ -172,7 +181,7 @@ export default function GoogleReviewsAIRecommendations() {
             </div>
 
             <h1 className="text-3xl sm:text-4xl lg:text-5xl font-semibold mb-6 text-white leading-tight font-plus-jakarta">
-              Do Google Reviews Affect AI Recommendations? <span className="text-[#FF6A00]">(The Surprising Truth)</span>
+              Do Google Reviews Affect AI Recommendations? <span className="text-[#F27D24]">(The Surprising Truth)</span>
             </h1>
 
             <div className="flex flex-wrap gap-4 text-sm text-gray-400 mb-8">
@@ -196,7 +205,7 @@ export default function GoogleReviewsAIRecommendations() {
 
         {/* Article Body */}
         <article className="max-w-4xl mx-auto px-6 pb-20">
-          <div className="prose prose-invert prose-lg max-w-none prose-headings:font-plus-jakarta prose-headings:text-white prose-p:text-gray-300 prose-a:text-[#FF6A00] prose-a:no-underline hover:prose-a:underline prose-strong:text-white">
+          <div className="prose prose-invert prose-lg max-w-none prose-headings:font-plus-jakarta prose-headings:text-white prose-p:text-gray-300 prose-a:text-[#F27D24] prose-a:no-underline hover:prose-a:underline prose-strong:text-white">
 
             {/* Hero Stats Grid */}
             <div className="not-prose ae-stats-grid">
@@ -776,21 +785,21 @@ export default function GoogleReviewsAIRecommendations() {
             <h2>Related Articles</h2>
 
             <div className="not-prose grid sm:grid-cols-2 gap-4 mb-12">
-              <Link href="/blog/check-if-ai-recommends-your-business" className="bg-white/[0.02] border border-white/[0.05] rounded-xl p-6 hover:border-[#FF6A00]/30 transition-colors group">
-                <div className="text-[#FF6A00] text-sm font-medium mb-2">DIY Guide</div>
-                <div className="text-white font-semibold group-hover:text-[#FF6A00] transition-colors">How to Check If AI Recommends Your Business</div>
+              <Link href="/blog/check-if-ai-recommends-your-business" className="bg-white/[0.02] border border-white/[0.05] rounded-xl p-6 hover:border-[#F27D24]/30 transition-colors group">
+                <div className="text-[#F27D24] text-sm font-medium mb-2">DIY Guide</div>
+                <div className="text-white font-semibold group-hover:text-[#F27D24] transition-colors">How to Check If AI Recommends Your Business</div>
               </Link>
-              <Link href="/blog/how-chatgpt-chooses-businesses-to-recommend" className="bg-white/[0.02] border border-white/[0.05] rounded-xl p-6 hover:border-[#FF6A00]/30 transition-colors group">
-                <div className="text-[#FF6A00] text-sm font-medium mb-2">AI Algorithm</div>
-                <div className="text-white font-semibold group-hover:text-[#FF6A00] transition-colors">How ChatGPT Chooses Businesses to Recommend</div>
+              <Link href="/blog/how-chatgpt-chooses-businesses-to-recommend" className="bg-white/[0.02] border border-white/[0.05] rounded-xl p-6 hover:border-[#F27D24]/30 transition-colors group">
+                <div className="text-[#F27D24] text-sm font-medium mb-2">AI Algorithm</div>
+                <div className="text-white font-semibold group-hover:text-[#F27D24] transition-colors">How ChatGPT Chooses Businesses to Recommend</div>
               </Link>
-              <Link href="/blog/why-chatgpt-recommends-competitors" className="bg-white/[0.02] border border-white/[0.05] rounded-xl p-6 hover:border-[#FF6A00]/30 transition-colors group">
-                <div className="text-[#FF6A00] text-sm font-medium mb-2">Problem Solving</div>
-                <div className="text-white font-semibold group-hover:text-[#FF6A00] transition-colors">Why ChatGPT Recommends Your Competitors</div>
+              <Link href="/blog/why-chatgpt-recommends-competitors" className="bg-white/[0.02] border border-white/[0.05] rounded-xl p-6 hover:border-[#F27D24]/30 transition-colors group">
+                <div className="text-[#F27D24] text-sm font-medium mb-2">Problem Solving</div>
+                <div className="text-white font-semibold group-hover:text-[#F27D24] transition-colors">Why ChatGPT Recommends Your Competitors</div>
               </Link>
-              <Link href="/blog/aeo-vs-seo" className="bg-white/[0.02] border border-white/[0.05] rounded-xl p-6 hover:border-[#FF6A00]/30 transition-colors group">
-                <div className="text-[#FF6A00] text-sm font-medium mb-2">Comparison</div>
-                <div className="text-white font-semibold group-hover:text-[#FF6A00] transition-colors">AEO vs SEO: What is the Difference?</div>
+              <Link href="/blog/aeo-vs-seo" className="bg-white/[0.02] border border-white/[0.05] rounded-xl p-6 hover:border-[#F27D24]/30 transition-colors group">
+                <div className="text-[#F27D24] text-sm font-medium mb-2">Comparison</div>
+                <div className="text-white font-semibold group-hover:text-[#F27D24] transition-colors">AEO vs SEO: What is the Difference?</div>
               </Link>
             </div>
 
@@ -812,7 +821,7 @@ export default function GoogleReviewsAIRecommendations() {
               <h2>Find Out If AI Is Recommending Your Business</h2>
               <p>Most businesses have no idea whether AI platforms are sending them customers or sending them to competitors. Your 5-star Google reviews might be completely invisible to the AI tools your future customers are using right now. Our free blind spot report shows you exactly where you stand.</p>
               <Link href="/blindspot" className="ae-final-cta-pulse">Get Your Free Blind Spot Report</Link>
-              <div className="flex flex-wrap items-center justify-center gap-6 mt-6 pt-6 border-t border-[#FF6A00]/10">
+              <div className="flex flex-wrap items-center justify-center gap-6 mt-6 pt-6 border-t border-[#F27D24]/10">
                 <a href="tel:+12134442229" className="flex items-center gap-2 text-gray-400 hover:text-white transition-colors">
                   <span>📞</span> (213) 444-2229
                 </a>

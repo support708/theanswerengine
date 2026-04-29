@@ -59,9 +59,18 @@ const jsonLd = {
       datePublished: '2026-04-08',
       dateModified: '2026-04-08',
       author: {
-        '@type': 'Organization',
-        name: 'The Answer Engine Team',
+        '@type': 'Person',
+        '@id': 'https://theanswerengine.ai/about#justin-borges',
+        name: 'Justin Borges',
+        jobTitle: 'Founder, The Answer Engine',
+        worksFor: {
+          '@type': 'Organization',
+          name: 'The Answer Engine',
+          url: 'https://theanswerengine.ai',
+        },
+        knowsAbout: ['Answer Engine Optimization', 'AI Search', 'Content Strategy', 'Real Estate Marketing', 'Citation Surface'],
         url: 'https://theanswerengine.ai/about',
+        image: 'https://theanswerengine.ai/justin-borges.webp',
       },
       publisher: {
         '@type': 'Organization',
@@ -222,14 +231,14 @@ export default function Page() {
           </svg>
 
           <div className="relative mx-auto max-w-4xl px-6">
-            <div className="mb-5 inline-flex items-center gap-2 rounded-full border border-[#FF6A00]/30 bg-[#FF6A00]/10 px-4 py-1.5 text-sm font-medium text-[#FF6A00]">
-              <span className="h-1.5 w-1.5 rounded-full bg-[#FF6A00]" />
+            <div className="mb-5 inline-flex items-center gap-2 rounded-full border border-[#F27D24]/30 bg-[#F27D24]/10 px-4 py-1.5 text-sm font-medium text-[#F27D24]">
+              <span className="h-1.5 w-1.5 rounded-full bg-[#F27D24]" />
               Business Pain Points
             </div>
 
             <h1 className="font-plus-jakarta mb-6 text-4xl font-extrabold leading-tight tracking-tight text-white md:text-5xl lg:text-6xl">
               Why AI Recommends Closed Businesses Over{' '}
-              <span className="text-[#FF6A00]">Yours</span>
+              <span className="text-[#F27D24]">Yours</span>
             </h1>
 
             <p className="mb-8 max-w-2xl text-lg leading-relaxed text-gray-400">
@@ -241,7 +250,7 @@ export default function Page() {
             <div className="flex flex-wrap items-center gap-4 text-sm text-gray-500">
               <span>Published April 8, 2026</span>
               <span className="h-1 w-1 rounded-full bg-gray-600" />
-              <span>By The Answer Engine Team</span>
+              <span>By Justin Borges</span>
               <span className="h-1 w-1 rounded-full bg-gray-600" />
               <span>11 min read</span>
             </div>
@@ -253,26 +262,26 @@ export default function Page() {
           {/* STATS GRID */}
           <div className="ae-stats-grid not-prose mb-14 grid grid-cols-2 gap-4 md:grid-cols-4">
             <div className="ae-stat-card rounded-xl border border-white/10 bg-white/5 p-5 text-center">
-              <div className="font-plus-jakarta mb-1 text-3xl font-extrabold text-[#FF6A00]">600K+</div>
+              <div className="font-plus-jakarta mb-1 text-3xl font-extrabold text-[#F27D24]">600K+</div>
               <div className="text-sm leading-tight text-gray-400">US businesses close permanently every year</div>
             </div>
             <div className="ae-stat-card rounded-xl border border-white/10 bg-white/5 p-5 text-center">
-              <div className="font-plus-jakarta mb-1 text-3xl font-extrabold text-[#FF6A00]">1 in 5</div>
+              <div className="font-plus-jakarta mb-1 text-3xl font-extrabold text-[#F27D24]">1 in 5</div>
               <div className="text-sm leading-tight text-gray-400">local AI queries return incorrect business data</div>
             </div>
             <div className="ae-stat-card rounded-xl border border-white/10 bg-white/5 p-5 text-center">
-              <div className="font-plus-jakarta mb-1 text-3xl font-extrabold text-[#FF6A00]">3.7 wks</div>
+              <div className="font-plus-jakarta mb-1 text-3xl font-extrabold text-[#F27D24]">3.7 wks</div>
               <div className="text-sm leading-tight text-gray-400">average time to discover an AI error about your business</div>
             </div>
             <div className="ae-stat-card rounded-xl border border-white/10 bg-white/5 p-5 text-center">
-              <div className="font-plus-jakarta mb-1 text-3xl font-extrabold text-[#FF6A00]">98.8%</div>
+              <div className="font-plus-jakarta mb-1 text-3xl font-extrabold text-[#F27D24]">98.8%</div>
               <div className="text-sm leading-tight text-gray-400">of local businesses are invisible in AI recommendations</div>
             </div>
           </div>
 
           {/* TABLE OF CONTENTS */}
           <nav className="ae-toc not-prose mb-12 rounded-xl border border-white/10 bg-white/5 p-6">
-            <p className="font-plus-jakarta mb-4 text-sm font-semibold uppercase tracking-widest text-[#FF6A00]">
+            <p className="font-plus-jakarta mb-4 text-sm font-semibold uppercase tracking-widest text-[#F27D24]">
               In This Article
             </p>
             <ol className="space-y-2 text-sm text-gray-400">
@@ -321,7 +330,7 @@ export default function Page() {
 
           {/* SECTION 1 */}
           <section id="the-graveyard-problem" className="mb-14">
-            <div className="ae-section-label mb-3 text-xs font-semibold uppercase tracking-widest text-[#FF6A00]">
+            <div className="ae-section-label mb-3 text-xs font-semibold uppercase tracking-widest text-[#F27D24]">
               The Core Problem
             </div>
             <h2 className="font-plus-jakarta mb-5 text-3xl font-bold text-white">
@@ -368,7 +377,7 @@ export default function Page() {
             </p>
 
             <p className="leading-relaxed text-gray-300">
-              If you have ever wondered why <Link href="/blog/my-business-disappeared-from-ai-search-results-overnight" className="text-[#FF6A00] underline decoration-[#FF6A00]/30 underline-offset-2 hover:decoration-[#FF6A00]">your business disappeared from AI search results</Link> while
+              If you have ever wondered why <Link href="/blog/my-business-disappeared-from-ai-search-results-overnight" className="text-[#F27D24] underline decoration-[#F27D24]/30 underline-offset-2 hover:decoration-[#F27D24]">your business disappeared from AI search results</Link> while
               a closed competitor still shows up, this data dynamic is the explanation. The AI is not
               malfunctioning. It is doing exactly what it was designed to do: surface the most data-rich
               business for any given query. Right now, that business may be one that no longer exists.
@@ -376,14 +385,14 @@ export default function Page() {
           </section>
 
           {/* INLINE CTA 1 */}
-          <div className="ae-cta-inline not-prose mb-14 flex flex-col items-start gap-4 rounded-xl border border-[#FF6A00]/20 bg-[#FF6A00]/5 p-6 sm:flex-row sm:items-center sm:justify-between">
+          <div className="ae-cta-inline not-prose mb-14 flex flex-col items-start gap-4 rounded-xl border border-[#F27D24]/20 bg-[#F27D24]/5 p-6 sm:flex-row sm:items-center sm:justify-between">
             <div>
               <p className="font-plus-jakarta font-semibold text-white">Is AI sending your customers to a ghost business?</p>
               <p className="mt-1 text-sm text-gray-400">Find out exactly what ChatGPT, Perplexity, and Google AI say about your business today.</p>
             </div>
             <Link
               href="/blindspot"
-              className="shrink-0 rounded-lg bg-[#FF6A00] px-5 py-2.5 text-sm font-semibold text-white transition-colors hover:bg-[#e55f00]"
+              className="shrink-0 rounded-lg bg-[#F27D24] px-5 py-2.5 text-sm font-semibold text-white transition-colors hover:bg-[#D96416]"
             >
               Get Free Blind Spot Report
             </Link>
@@ -391,7 +400,7 @@ export default function Page() {
 
           {/* SECTION 2 */}
           <section id="why-stale-data-wins" className="mb-14">
-            <div className="ae-section-label mb-3 text-xs font-semibold uppercase tracking-widest text-[#FF6A00]">
+            <div className="ae-section-label mb-3 text-xs font-semibold uppercase tracking-widest text-[#F27D24]">
               How AI Memory Works
             </div>
             <h2 className="font-plus-jakarta mb-5 text-3xl font-bold text-white">
@@ -412,7 +421,7 @@ export default function Page() {
               of how certain it is that this business exists, where it is located, and what it does.
             </p>
 
-            <div className="ae-quote not-prose mb-6 border-l-4 border-[#FF6A00] pl-6">
+            <div className="ae-quote not-prose mb-6 border-l-4 border-[#F27D24] pl-6">
               <blockquote className="text-lg italic leading-relaxed text-gray-300">
                 &quot;The AI does not know a business is closed. It only knows the data it was trained on.
                 If that data says the business exists, the AI will say the business exists, regardless
@@ -433,14 +442,14 @@ export default function Page() {
               Your business, on the other hand, may have a fraction of that data trail, especially if you
               are newer, if you recently moved, or if you have not actively managed your citations. In a
               head-to-head data comparison, the ghost business wins. This is also why
-              {' '}<Link href="/blog/why-ai-gives-outdated-information-about-my-business" className="text-[#FF6A00] underline decoration-[#FF6A00]/30 underline-offset-2 hover:decoration-[#FF6A00]">AI so frequently gives outdated information</Link>{' '}
+              {' '}<Link href="/blog/why-ai-gives-outdated-information-about-my-business" className="text-[#F27D24] underline decoration-[#F27D24]/30 underline-offset-2 hover:decoration-[#F27D24]">AI so frequently gives outdated information</Link>{' '}
               about businesses that are still operating, not just the ones that have closed.
             </p>
           </section>
 
           {/* SECTION 3 */}
           <section id="the-signal-war" className="mb-14">
-            <div className="ae-section-label mb-3 text-xs font-semibold uppercase tracking-widest text-[#FF6A00]">
+            <div className="ae-section-label mb-3 text-xs font-semibold uppercase tracking-widest text-[#F27D24]">
               The Data Signal War
             </div>
             <h2 className="font-plus-jakarta mb-5 text-3xl font-bold text-white">
@@ -527,14 +536,14 @@ export default function Page() {
           </section>
 
           {/* INLINE CTA 2 */}
-          <div className="ae-cta-inline not-prose mb-14 flex flex-col items-start gap-4 rounded-xl border border-[#FF6A00]/20 bg-[#FF6A00]/5 p-6 sm:flex-row sm:items-center sm:justify-between">
+          <div className="ae-cta-inline not-prose mb-14 flex flex-col items-start gap-4 rounded-xl border border-[#F27D24]/20 bg-[#F27D24]/5 p-6 sm:flex-row sm:items-center sm:justify-between">
             <div>
               <p className="font-plus-jakarta font-semibold text-white">How strong is your AI data signal right now?</p>
               <p className="mt-1 text-sm text-gray-400">Our Blind Spot Report audits ChatGPT, Perplexity, and Google AI in one report.</p>
             </div>
             <Link
               href="/blindspot"
-              className="shrink-0 rounded-lg bg-[#FF6A00] px-5 py-2.5 text-sm font-semibold text-white transition-colors hover:bg-[#e55f00]"
+              className="shrink-0 rounded-lg bg-[#F27D24] px-5 py-2.5 text-sm font-semibold text-white transition-colors hover:bg-[#D96416]"
             >
               Run My Free Audit
             </Link>
@@ -542,7 +551,7 @@ export default function Page() {
 
           {/* SECTION 4 */}
           <section id="platforms-comparison" className="mb-14">
-            <div className="ae-section-label mb-3 text-xs font-semibold uppercase tracking-widest text-[#FF6A00]">
+            <div className="ae-section-label mb-3 text-xs font-semibold uppercase tracking-widest text-[#F27D24]">
               Platform by Platform
             </div>
             <h2 className="font-plus-jakarta mb-5 text-3xl font-bold text-white">
@@ -644,7 +653,7 @@ export default function Page() {
 
           {/* SECTION 5 */}
           <section id="cost-to-your-business" className="mb-14">
-            <div className="ae-section-label mb-3 text-xs font-semibold uppercase tracking-widest text-[#FF6A00]">
+            <div className="ae-section-label mb-3 text-xs font-semibold uppercase tracking-widest text-[#F27D24]">
               The Revenue Impact
             </div>
             <h2 className="font-plus-jakarta mb-5 text-3xl font-bold text-white">
@@ -661,8 +670,8 @@ export default function Page() {
             {/* TIMELINE */}
             <div className="ae-timeline not-prose mb-8 space-y-0">
               <div className="relative pl-8">
-                <div className="absolute left-0 top-2 h-full w-px bg-[#FF6A00]/30" />
-                <div className="absolute left-[-4px] top-1.5 h-3 w-3 rounded-full border-2 border-[#FF6A00] bg-[#0F1117]" />
+                <div className="absolute left-0 top-2 h-full w-px bg-[#F27D24]/30" />
+                <div className="absolute left-[-4px] top-1.5 h-3 w-3 rounded-full border-2 border-[#F27D24] bg-[#0F1117]" />
                 <div className="mb-8">
                   <p className="font-plus-jakarta mb-1 font-semibold text-white">Day 1: Customer Asks AI</p>
                   <p className="text-sm text-gray-400">
@@ -672,8 +681,8 @@ export default function Page() {
                 </div>
               </div>
               <div className="relative pl-8">
-                <div className="absolute left-0 top-2 h-full w-px bg-[#FF6A00]/30" />
-                <div className="absolute left-[-4px] top-1.5 h-3 w-3 rounded-full border-2 border-[#FF6A00] bg-[#0F1117]" />
+                <div className="absolute left-0 top-2 h-full w-px bg-[#F27D24]/30" />
+                <div className="absolute left-[-4px] top-1.5 h-3 w-3 rounded-full border-2 border-[#F27D24] bg-[#0F1117]" />
                 <div className="mb-8">
                   <p className="font-plus-jakarta mb-1 font-semibold text-white">Day 1 to Day 3: Wasted Effort</p>
                   <p className="text-sm text-gray-400">
@@ -684,8 +693,8 @@ export default function Page() {
                 </div>
               </div>
               <div className="relative pl-8">
-                <div className="absolute left-0 top-2 h-full w-px bg-[#FF6A00]/30" />
-                <div className="absolute left-[-4px] top-1.5 h-3 w-3 rounded-full border-2 border-[#FF6A00] bg-[#0F1117]" />
+                <div className="absolute left-0 top-2 h-full w-px bg-[#F27D24]/30" />
+                <div className="absolute left-[-4px] top-1.5 h-3 w-3 rounded-full border-2 border-[#F27D24] bg-[#0F1117]" />
                 <div className="mb-8">
                   <p className="font-plus-jakarta mb-1 font-semibold text-white">Week 1 to Week 3: The Pattern Repeats</p>
                   <p className="text-sm text-gray-400">
@@ -708,8 +717,8 @@ export default function Page() {
               </div>
             </div>
 
-            <div className="ae-takeaway not-prose rounded-xl border border-[#FF6A00]/20 bg-[#FF6A00]/5 p-6">
-              <p className="font-plus-jakarta mb-2 font-semibold text-[#FF6A00]">Key Takeaway</p>
+            <div className="ae-takeaway not-prose rounded-xl border border-[#F27D24]/20 bg-[#F27D24]/5 p-6">
+              <p className="font-plus-jakarta mb-2 font-semibold text-[#F27D24]">Key Takeaway</p>
               <p className="leading-relaxed text-gray-300">
                 The ghost business problem is not just annoying. It is a continuous revenue drain.
                 Every day your AI data footprint is weaker than a closed competitor&apos;s is another day
@@ -719,14 +728,14 @@ export default function Page() {
           </section>
 
           {/* INLINE CTA 3 */}
-          <div className="ae-cta-inline not-prose mb-14 flex flex-col items-start gap-4 rounded-xl border border-[#FF6A00]/20 bg-[#FF6A00]/5 p-6 sm:flex-row sm:items-center sm:justify-between">
+          <div className="ae-cta-inline not-prose mb-14 flex flex-col items-start gap-4 rounded-xl border border-[#F27D24]/20 bg-[#F27D24]/5 p-6 sm:flex-row sm:items-center sm:justify-between">
             <div>
               <p className="font-plus-jakarta font-semibold text-white">Stop the silent revenue drain today.</p>
               <p className="mt-1 text-sm text-gray-400">See exactly what every major AI platform says about your business in one free report.</p>
             </div>
             <Link
               href="/blindspot"
-              className="shrink-0 rounded-lg bg-[#FF6A00] px-5 py-2.5 text-sm font-semibold text-white transition-colors hover:bg-[#e55f00]"
+              className="shrink-0 rounded-lg bg-[#F27D24] px-5 py-2.5 text-sm font-semibold text-white transition-colors hover:bg-[#D96416]"
             >
               Get Free Blind Spot Report
             </Link>
@@ -734,7 +743,7 @@ export default function Page() {
 
           {/* SECTION 6 */}
           <section id="what-creates-ghost-authority" className="mb-14">
-            <div className="ae-section-label mb-3 text-xs font-semibold uppercase tracking-widest text-[#FF6A00]">
+            <div className="ae-section-label mb-3 text-xs font-semibold uppercase tracking-widest text-[#F27D24]">
               The Mechanics
             </div>
             <h2 className="font-plus-jakarta mb-5 text-3xl font-bold text-white">
@@ -747,12 +756,12 @@ export default function Page() {
               AI models treat as authoritative, and therefore what signals you need to build for yourself.
             </p>
 
-            <div className="ae-callout ae-callout-orange not-prose mb-6 rounded-xl border border-[#FF6A00]/20 bg-[#FF6A00]/5 p-6">
+            <div className="ae-callout ae-callout-orange not-prose mb-6 rounded-xl border border-[#F27D24]/20 bg-[#F27D24]/5 p-6">
               <div className="mb-2 flex items-center gap-2">
-                <svg className="h-5 w-5 text-[#FF6A00]" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <svg className="h-5 w-5 text-[#F27D24]" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17.657 18.657A8 8 0 016.343 7.343S7 9 9 10c0-2 .5-5 2.986-7C14 5 16.09 5.777 17.656 7.343A7.975 7.975 0 0120 13a7.975 7.975 0 01-2.343 5.657z" />
                 </svg>
-                <span className="font-semibold text-[#FF6A00]">The Three Ghost Signals</span>
+                <span className="font-semibold text-[#F27D24]">The Three Ghost Signals</span>
               </div>
               <p className="mb-3 text-sm leading-relaxed text-gray-300">
                 AI models are most likely to recommend a closed business when it has: consistent Name,
@@ -778,9 +787,9 @@ export default function Page() {
 
             <p className="leading-relaxed text-gray-300">
               This is directly related to why{' '}
-              <Link href="/blog/why-ai-gets-your-business-hours-wrong" className="text-[#FF6A00] underline decoration-[#FF6A00]/30 underline-offset-2 hover:decoration-[#FF6A00]">AI gets your business hours wrong</Link>{' '}
+              <Link href="/blog/why-ai-gets-your-business-hours-wrong" className="text-[#F27D24] underline decoration-[#F27D24]/30 underline-offset-2 hover:decoration-[#F27D24]">AI gets your business hours wrong</Link>{' '}
               and why{' '}
-              <Link href="/blog/why-ai-sends-customers-to-wrong-location" className="text-[#FF6A00] underline decoration-[#FF6A00]/30 underline-offset-2 hover:decoration-[#FF6A00]">AI sends customers to the wrong location</Link>.
+              <Link href="/blog/why-ai-sends-customers-to-wrong-location" className="text-[#F27D24] underline decoration-[#F27D24]/30 underline-offset-2 hover:decoration-[#F27D24]">AI sends customers to the wrong location</Link>.
               These errors all stem from the same root: AI systems are trained on historical data, and
               that data does not automatically update when real-world circumstances change.
             </p>
@@ -788,7 +797,7 @@ export default function Page() {
 
           {/* DECISION MATRIX */}
           <section id="fix-the-problem" className="mb-14">
-            <div className="ae-section-label mb-3 text-xs font-semibold uppercase tracking-widest text-[#FF6A00]">
+            <div className="ae-section-label mb-3 text-xs font-semibold uppercase tracking-widest text-[#F27D24]">
               The Path Forward
             </div>
             <h2 className="font-plus-jakarta mb-5 text-3xl font-bold text-white">
@@ -815,27 +824,27 @@ export default function Page() {
                   <tr className="hover:bg-white/5">
                     <td className="px-5 py-4 text-gray-300">AI recommends a closed competitor by name</td>
                     <td className="px-5 py-4 text-gray-300">Build citations on every platform that ghost is cited on, plus more</td>
-                    <td className="px-5 py-4 text-[#FF6A00]">60 to 90 days</td>
+                    <td className="px-5 py-4 text-[#F27D24]">60 to 90 days</td>
                   </tr>
                   <tr className="hover:bg-white/5">
                     <td className="px-5 py-4 text-gray-300">AI gives your old address or hours</td>
                     <td className="px-5 py-4 text-gray-300">Update all citations and add schema markup to your website</td>
-                    <td className="px-5 py-4 text-[#FF6A00]">30 to 60 days</td>
+                    <td className="px-5 py-4 text-[#F27D24]">30 to 60 days</td>
                   </tr>
                   <tr className="hover:bg-white/5">
                     <td className="px-5 py-4 text-gray-300">AI does not mention you at all</td>
                     <td className="px-5 py-4 text-gray-300">Full AEO build: citations, schema, AEO content, authority signals</td>
-                    <td className="px-5 py-4 text-[#FF6A00]">90 to 120 days</td>
+                    <td className="px-5 py-4 text-[#F27D24]">90 to 120 days</td>
                   </tr>
                   <tr className="hover:bg-white/5">
                     <td className="px-5 py-4 text-gray-300">AI mentions you but with wrong details</td>
                     <td className="px-5 py-4 text-gray-300">Correct all source data and publish clarifying content</td>
-                    <td className="px-5 py-4 text-[#FF6A00]">30 to 45 days</td>
+                    <td className="px-5 py-4 text-[#F27D24]">30 to 45 days</td>
                   </tr>
                   <tr className="hover:bg-white/5">
                     <td className="px-5 py-4 text-gray-300">You recently moved or changed your name</td>
                     <td className="px-5 py-4 text-gray-300">Emergency citation update across all platforms immediately</td>
-                    <td className="px-5 py-4 text-[#FF6A00]">14 to 30 days</td>
+                    <td className="px-5 py-4 text-[#F27D24]">14 to 30 days</td>
                   </tr>
                 </tbody>
               </table>
@@ -859,14 +868,14 @@ export default function Page() {
             <p className="leading-relaxed text-gray-300">
               If you have already taken some steps but still see wrong information appearing,
               read our guide on{' '}
-              <Link href="/blog/how-to-fix-wrong-ai-answers-about-your-business" className="text-[#FF6A00] underline decoration-[#FF6A00]/30 underline-offset-2 hover:decoration-[#FF6A00]">how to fix wrong AI answers about your business</Link>{' '}
+              <Link href="/blog/how-to-fix-wrong-ai-answers-about-your-business" className="text-[#F27D24] underline decoration-[#F27D24]/30 underline-offset-2 hover:decoration-[#F27D24]">how to fix wrong AI answers about your business</Link>{' '}
               for a deeper look at the correction process and why some platforms are slower to update
               than others.
             </p>
           </section>
 
           {/* CHEAT SHEET */}
-          <div className="ae-cheat-sheet not-prose mb-14 rounded-xl border border-[#FF6A00]/20 bg-gradient-to-br from-[#FF6A00]/10 to-transparent p-6">
+          <div className="ae-cheat-sheet not-prose mb-14 rounded-xl border border-[#F27D24]/20 bg-gradient-to-br from-[#F27D24]/10 to-transparent p-6">
             <p className="font-plus-jakarta mb-5 text-lg font-bold text-white">
               Quick Reference: Ghost Business Warning Signs
             </p>
@@ -882,7 +891,7 @@ export default function Page() {
                 'Customers are confused about what you actually do based on AI answers',
               ].map((sign) => (
                 <div key={sign} className="flex items-start gap-3 rounded-lg border border-white/5 bg-white/5 p-3">
-                  <svg className="mt-0.5 h-4 w-4 shrink-0 text-[#FF6A00]" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <svg className="mt-0.5 h-4 w-4 shrink-0 text-[#F27D24]" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.538-1.333-3.308 0L3.732 16c-.77 1.333.268 3 1.732 3z" />
                   </svg>
                   <span className="text-sm text-gray-300">{sign}</span>
@@ -892,21 +901,21 @@ export default function Page() {
           </div>
 
           {/* INLINE CTA 4 */}
-          <div className="ae-cta-inline not-prose mb-14 flex flex-col items-start gap-4 rounded-xl border border-[#FF6A00]/20 bg-[#FF6A00]/5 p-6 sm:flex-row sm:items-center sm:justify-between">
+          <div className="ae-cta-inline not-prose mb-14 flex flex-col items-start gap-4 rounded-xl border border-[#F27D24]/20 bg-[#F27D24]/5 p-6 sm:flex-row sm:items-center sm:justify-between">
             <div>
               <p className="font-plus-jakarta font-semibold text-white">Recognize any of those warning signs?</p>
               <p className="mt-1 text-sm text-gray-400">Our team can audit every major AI platform and show you exactly what needs to change.</p>
             </div>
             <Link
               href="/contact"
-              className="shrink-0 rounded-lg bg-[#FF6A00] px-5 py-2.5 text-sm font-semibold text-white transition-colors hover:bg-[#e55f00]"
+              className="shrink-0 rounded-lg bg-[#F27D24] px-5 py-2.5 text-sm font-semibold text-white transition-colors hover:bg-[#D96416]"
             >
               Talk to Our Team
             </Link>
           </div>
 
           {/* 3-TIER CTA BLOCK */}
-          <div className="not-prose my-16 rounded-2xl border border-[#FF6A00]/20 bg-gradient-to-br from-[#FF6A00]/10 to-transparent p-8">
+          <div className="not-prose my-16 rounded-2xl border border-[#F27D24]/20 bg-gradient-to-br from-[#F27D24]/10 to-transparent p-8">
             <h3 className="font-plus-jakarta mb-3 text-2xl font-bold text-white">
               Find Out What AI Is Saying About Your Business Right Now
             </h3>
@@ -916,14 +925,14 @@ export default function Page() {
             </p>
             <Link
               href="/blindspot"
-              className="inline-flex items-center gap-2 rounded-lg bg-[#FF6A00] px-6 py-3 font-semibold text-white transition-colors hover:bg-[#e55f00]"
+              className="inline-flex items-center gap-2 rounded-lg bg-[#F27D24] px-6 py-3 font-semibold text-white transition-colors hover:bg-[#D96416]"
             >
               Get Your Free Blind Spot Report
               <svg className="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
               </svg>
             </Link>
-            <div className="mt-6 flex flex-wrap items-center gap-6 border-t border-[#FF6A00]/10 pt-6">
+            <div className="mt-6 flex flex-wrap items-center gap-6 border-t border-[#F27D24]/10 pt-6">
               <a
                 href="tel:+12134442229"
                 className="flex items-center gap-2 text-gray-400 transition-colors hover:text-white"
@@ -947,12 +956,12 @@ export default function Page() {
 
           {/* AUTHOR CARD */}
           <div className="ae-author-card not-prose mb-14 flex items-start gap-5 rounded-xl border border-white/10 bg-white/5 p-6">
-            <div className="flex h-14 w-14 shrink-0 items-center justify-center rounded-full bg-[#FF6A00]/20 text-xl font-bold text-[#FF6A00]">
+            <div className="flex h-14 w-14 shrink-0 items-center justify-center rounded-full bg-[#F27D24]/20 text-xl font-bold text-[#F27D24]">
               AE
             </div>
             <div>
-              <p className="font-plus-jakarta font-semibold text-white">The Answer Engine Team</p>
-              <p className="mb-2 text-sm text-[#FF6A00]">Answer Engine Optimization Specialists</p>
+              <p className="font-plus-jakarta font-semibold text-white">Justin Borges</p>
+              <p className="mb-2 text-sm text-[#F27D24]">Answer Engine Optimization Specialists</p>
               <p className="text-sm leading-relaxed text-gray-400">
                 We help local and regional businesses become the answer AI gives when customers ask.
                 Our team has audited thousands of businesses across ChatGPT, Perplexity, Gemini, and
@@ -963,7 +972,7 @@ export default function Page() {
 
           {/* FAQ */}
           <section id="faq" className="mb-14">
-            <div className="ae-section-label mb-3 text-xs font-semibold uppercase tracking-widest text-[#FF6A00]">
+            <div className="ae-section-label mb-3 text-xs font-semibold uppercase tracking-widest text-[#F27D24]">
               Common Questions
             </div>
             <h2 className="font-plus-jakarta mb-8 text-3xl font-bold text-white">
@@ -1007,12 +1016,12 @@ export default function Page() {
               ].map((item) => (
                 <details
                   key={item.q}
-                  className="group rounded-xl border border-white/10 bg-white/5 transition-colors hover:border-[#FF6A00]/30"
+                  className="group rounded-xl border border-white/10 bg-white/5 transition-colors hover:border-[#F27D24]/30"
                 >
                   <summary className="flex cursor-pointer list-none items-center justify-between gap-4 px-6 py-4">
                     <span className="font-plus-jakarta font-semibold text-white">{item.q}</span>
                     <svg
-                      className="h-5 w-5 shrink-0 text-[#FF6A00] transition-transform group-open:rotate-180"
+                      className="h-5 w-5 shrink-0 text-[#F27D24] transition-transform group-open:rotate-180"
                       fill="none"
                       viewBox="0 0 24 24"
                       stroke="currentColor"
@@ -1029,23 +1038,23 @@ export default function Page() {
           </section>
 
           {/* INLINE CTA 5 */}
-          <div className="ae-cta-inline not-prose mb-14 flex flex-col items-start gap-4 rounded-xl border border-[#FF6A00]/20 bg-[#FF6A00]/5 p-6 sm:flex-row sm:items-center sm:justify-between">
+          <div className="ae-cta-inline not-prose mb-14 flex flex-col items-start gap-4 rounded-xl border border-[#F27D24]/20 bg-[#F27D24]/5 p-6 sm:flex-row sm:items-center sm:justify-between">
             <div>
               <p className="font-plus-jakarta font-semibold text-white">Ready to claim your spot in AI search?</p>
               <p className="mt-1 text-sm text-gray-400">Start with a free audit. No commitment, no sales pressure.</p>
             </div>
             <Link
               href="/blindspot"
-              className="shrink-0 rounded-lg bg-[#FF6A00] px-5 py-2.5 text-sm font-semibold text-white transition-colors hover:bg-[#e55f00]"
+              className="shrink-0 rounded-lg bg-[#F27D24] px-5 py-2.5 text-sm font-semibold text-white transition-colors hover:bg-[#D96416]"
             >
               Get Free Blind Spot Report
             </Link>
           </div>
 
           {/* FINAL CTA */}
-          <div className="ae-final-cta not-prose mb-10 rounded-2xl border border-[#FF6A00]/30 bg-gradient-to-br from-[#FF6A00]/15 to-transparent p-10 text-center shadow-[0_0_60px_rgba(255,106,0,0.12)]">
-            <div className="mx-auto mb-4 inline-flex h-14 w-14 items-center justify-center rounded-full border border-[#FF6A00]/40 bg-[#FF6A00]/20">
-              <svg className="h-7 w-7 text-[#FF6A00]" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+          <div className="ae-final-cta not-prose mb-10 rounded-2xl border border-[#F27D24]/30 bg-gradient-to-br from-[#F27D24]/15 to-transparent p-10 text-center shadow-[0_0_60px_rgba(255,106,0,0.12)]">
+            <div className="mx-auto mb-4 inline-flex h-14 w-14 items-center justify-center rounded-full border border-[#F27D24]/40 bg-[#F27D24]/20">
+              <svg className="h-7 w-7 text-[#F27D24]" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 10V3L4 14h7v7l9-11h-7z" />
               </svg>
             </div>
@@ -1060,7 +1069,7 @@ export default function Page() {
             <div className="flex flex-col items-center gap-4 sm:flex-row sm:justify-center">
               <Link
                 href="/blindspot"
-                className="inline-flex items-center gap-2 rounded-xl bg-[#FF6A00] px-8 py-4 text-base font-bold text-white shadow-lg shadow-[#FF6A00]/25 transition-all hover:bg-[#e55f00] hover:shadow-[#FF6A00]/40"
+                className="inline-flex items-center gap-2 rounded-xl bg-[#F27D24] px-8 py-4 text-base font-bold text-white shadow-lg shadow-[#F27D24]/25 transition-all hover:bg-[#D96416] hover:shadow-[#F27D24]/40"
               >
                 Get My Free Blind Spot Report
                 <svg className="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -1069,7 +1078,7 @@ export default function Page() {
               </Link>
               <a
                 href="tel:+12134442229"
-                className="inline-flex items-center gap-2 rounded-xl border border-white/10 px-8 py-4 text-base font-semibold text-white transition-all hover:border-[#FF6A00]/40 hover:bg-white/5"
+                className="inline-flex items-center gap-2 rounded-xl border border-white/10 px-8 py-4 text-base font-semibold text-white transition-all hover:border-[#F27D24]/40 hover:bg-white/5"
               >
                 <svg className="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />

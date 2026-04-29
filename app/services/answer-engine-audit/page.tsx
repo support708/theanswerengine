@@ -7,10 +7,26 @@ export const metadata: Metadata = {
     'Free 30-minute audit across ChatGPT, Claude, Perplexity, and Google AI. Your AI visibility score, the citation gaps, and the 3 fixes that move the needle first.',
   alternates: { canonical: 'https://www.theanswerengine.ai/services/answer-engine-audit' },
   openGraph: {
-    title: 'Free Answer Engine Audit',
+    title: 'Free Answer Engine Audit | See Where AI Can\'t Find Your Business',
     description: 'Live scan across 4 AI platforms. See where your business is invisible, who AI is recommending instead, and the 3 fastest fixes.',
     url: 'https://www.theanswerengine.ai/services/answer-engine-audit',
     type: 'website',
+    siteName: 'The Answer Engine',
+    images: [
+      {
+        url: 'https://www.theanswerengine.ai/og-default.png',
+        width: 1200,
+        height: 630,
+        alt: 'Free Answer Engine Audit — AI Visibility Scan',
+      }
+    ],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Free Answer Engine Audit | See Where AI Can\'t Find Your Business',
+    description: 'Free 30-min scan across 4 AI platforms. Your AI visibility score, citation gaps, and the 3 fastest fixes.',
+    site: '@theanswerengine',
+    images: ['https://www.theanswerengine.ai/og-default.png'],
   },
 };
 
@@ -92,6 +108,16 @@ export default function AnswerEngineAuditPage() {
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
+        '@context': 'https://schema.org',
+        '@type': 'BreadcrumbList',
+        '@id': 'https://www.theanswerengine.ai/services/answer-engine-audit#breadcrumb',
+        itemListElement: [
+          { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://www.theanswerengine.ai' },
+          { '@type': 'ListItem', position: 2, name: 'Services', item: 'https://www.theanswerengine.ai/services' },
+          { '@type': 'ListItem', position: 3, name: 'Free Answer Engine Audit', item: 'https://www.theanswerengine.ai/services/answer-engine-audit' },
+        ],
+      }) }} />
 
       <main className="min-h-screen bg-[#131313] text-white overflow-x-hidden pt-16">
         {/* Scanline Overlay */}
@@ -109,7 +135,7 @@ export default function AnswerEngineAuditPage() {
         <section
           className="relative py-24 md:py-32 px-6 lg:px-24 border-b border-white/5"
           style={{
-            backgroundImage: 'radial-gradient(#FF6A0011 0.5px, transparent 0.5px)',
+            backgroundImage: 'radial-gradient(#F27D2411 0.5px, transparent 0.5px)',
             backgroundSize: '24px 24px',
           }}
         >
@@ -117,7 +143,7 @@ export default function AnswerEngineAuditPage() {
             <div className="mb-8">
               <Link
                 href="/"
-                className="font-mono text-[10px] tracking-widest uppercase text-white/40 hover:text-[#FF6A00] transition-colors inline-flex items-center gap-2"
+                className="font-mono text-[10px] tracking-widest uppercase text-white/40 hover:text-[#F27D24] transition-colors inline-flex items-center gap-2"
               >
                 <svg className="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={2}>
                   <path strokeLinecap="round" strokeLinejoin="round" d="M10.5 19.5L3 12m0 0l7.5-7.5M3 12h18" />
@@ -126,18 +152,18 @@ export default function AnswerEngineAuditPage() {
               </Link>
             </div>
 
-            <div className="inline-block border border-[#FF6A00]/30 px-3 py-1 mb-8">
-              <span className="font-mono text-[10px] font-bold tracking-[0.2em] text-[#FF6A00] uppercase">
+            <div className="inline-block border border-[#F27D24]/30 px-3 py-1 mb-8">
+              <span className="font-mono text-[10px] font-bold tracking-[0.2em] text-[#F27D24] uppercase">
                 Free // 30-Minute Audit
               </span>
             </div>
 
             <h1 className="font-headline font-black text-5xl md:text-7xl lg:text-8xl uppercase tracking-tighter leading-none mb-8 max-w-5xl">
               FREE ANSWER ENGINE{' '}
-              <span className="text-[#FF6A00]">AUDIT</span>
+              <span className="text-[#F27D24]">AUDIT</span>
             </h1>
 
-            <p className="text-white/60 text-lg md:text-xl leading-relaxed max-w-2xl mb-10 border-l-2 border-[#FF6A00] pl-6">
+            <p className="text-white/60 text-lg md:text-xl leading-relaxed max-w-2xl mb-10 border-l-2 border-[#F27D24] pl-6">
               See how ChatGPT, Claude, Perplexity, and Google AI answer questions about your category today — and where you&apos;re missing from the answer.
             </p>
 
@@ -146,7 +172,7 @@ export default function AnswerEngineAuditPage() {
                 href="https://calendly.com/theanswerengine-support/30min"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="bg-[#FF6A00] text-black font-black px-10 py-5 text-xl tracking-tighter hover:translate-y-[2px] transition-transform font-headline uppercase inline-flex items-center gap-3"
+                className="bg-[#F27D24] text-black font-black px-10 py-5 text-xl tracking-tighter hover:translate-y-[2px] transition-transform font-headline uppercase inline-flex items-center gap-3"
               >
                 Book 30-Min Audit
                 <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={2.5}>
@@ -170,25 +196,25 @@ export default function AnswerEngineAuditPage() {
         {/* WHAT'S IN THE AUDIT */}
         <section className="py-24 md:py-32 px-6 lg:px-24 bg-[#1c1b1b]">
           <div className="max-w-7xl mx-auto">
-            <span className="font-mono text-[10px] tracking-widest uppercase text-[#FF6A00] block mb-3">
+            <span className="font-mono text-[10px] tracking-widest uppercase text-[#F27D24] block mb-3">
               What&apos;s Included // Four Deliverables
             </span>
             <h2 className="font-headline font-black text-4xl md:text-5xl uppercase tracking-tighter mb-16">
               WHAT YOU{' '}
-              <span className="text-[#FF6A00]">GET</span>
+              <span className="text-[#F27D24]">GET</span>
             </h2>
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-0 border border-white/10">
               {AUDIT_CARDS.map((card, i) => (
                 <div
                   key={card.num}
-                  className={`p-10 bg-[#131313] border-l-4 border-l-[#FF6A00] hover:bg-[#2a2a2a] transition-colors
+                  className={`p-10 bg-[#131313] border-l-4 border-l-[#F27D24] hover:bg-[#2a2a2a] transition-colors
                     ${i % 2 === 0 ? 'md:border-r border-white/10' : ''}
                     ${i < 2 ? 'border-b border-white/10' : ''}
                   `}
                 >
-                  <div className="w-10 h-10 border border-[#FF6A00]/40 flex items-center justify-center mb-6">
-                    <span className="font-mono text-[10px] text-[#FF6A00]">{card.num}</span>
+                  <div className="w-10 h-10 border border-[#F27D24]/40 flex items-center justify-center mb-6">
+                    <span className="font-mono text-[10px] text-[#F27D24]">{card.num}</span>
                   </div>
                   <h3 className="font-headline font-black text-2xl uppercase tracking-tighter mb-4">
                     {card.title}
@@ -203,8 +229,8 @@ export default function AnswerEngineAuditPage() {
         {/* PROOF BLOCK */}
         <section className="py-24 md:py-32 px-6 lg:px-24 bg-[#131313] border-y border-white/5">
           <div className="max-w-5xl mx-auto">
-            <div className="bg-[#2a2a2a] border-l-4 border-l-[#FF6A00] p-10 md:p-14">
-              <span className="font-mono text-[10px] tracking-widest uppercase text-[#FF6A00] block mb-4">
+            <div className="bg-[#2a2a2a] border-l-4 border-l-[#F27D24] p-10 md:p-14">
+              <span className="font-mono text-[10px] tracking-widest uppercase text-[#F27D24] block mb-4">
                 Why This Audit Matters // Our Own Proof
               </span>
               <h2 className="font-headline font-black text-3xl md:text-4xl uppercase tracking-tighter mb-6 leading-tight">
@@ -215,7 +241,7 @@ export default function AnswerEngineAuditPage() {
               </p>
               <Link
                 href="/case-studies"
-                className="font-mono text-[10px] tracking-widest uppercase text-[#FF6A00] hover:text-white transition-colors inline-flex items-center gap-2"
+                className="font-mono text-[10px] tracking-widest uppercase text-[#F27D24] hover:text-white transition-colors inline-flex items-center gap-2"
               >
                 Read the full case study
                 <svg className="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={2}>
@@ -229,22 +255,22 @@ export default function AnswerEngineAuditPage() {
         {/* FAQ */}
         <section className="py-24 md:py-32 px-6 lg:px-24 bg-[#1c1b1b]">
           <div className="max-w-4xl mx-auto">
-            <span className="font-mono text-[10px] tracking-widest uppercase text-[#FF6A00] block mb-3">
+            <span className="font-mono text-[10px] tracking-widest uppercase text-[#F27D24] block mb-3">
               Frequently Asked // Audit Details
             </span>
             <h2 className="font-headline font-black text-4xl md:text-5xl uppercase tracking-tighter mb-12">
               COMMON{' '}
-              <span className="text-[#FF6A00]">QUESTIONS</span>
+              <span className="text-[#F27D24]">QUESTIONS</span>
             </h2>
 
             <div className="space-y-4">
               {FAQS.map((faq) => (
                 <details
                   key={faq.q}
-                  className="group bg-[#131313] border border-white/5 border-l-4 border-l-transparent open:border-l-[#FF6A00] transition-colors"
+                  className="group bg-[#131313] border border-white/5 border-l-4 border-l-transparent open:border-l-[#F27D24] transition-colors"
                 >
                   <summary className="p-6 flex justify-between items-center cursor-pointer list-none">
-                    <h4 className="font-headline font-bold text-lg uppercase tracking-tighter text-white group-open:text-[#FF6A00] transition-colors">
+                    <h4 className="font-headline font-bold text-lg uppercase tracking-tighter text-white group-open:text-[#F27D24] transition-colors">
                       {faq.q}
                     </h4>
                     <span className="font-mono text-white/40 text-xl select-none ml-4 group-open:rotate-45 transition-transform">
@@ -261,7 +287,7 @@ export default function AnswerEngineAuditPage() {
         </section>
 
         {/* CTA */}
-        <section className="py-24 md:py-32 px-6 lg:px-24 bg-[#FF6A00]">
+        <section className="py-24 md:py-32 px-6 lg:px-24 bg-[#F27D24]">
           <div className="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center gap-12">
             <div>
               <span className="font-mono text-[10px] tracking-widest uppercase text-black/60 mb-4 block">
@@ -276,7 +302,7 @@ export default function AnswerEngineAuditPage() {
                 href="https://calendly.com/theanswerengine-support/30min"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="bg-black text-[#FF6A00] px-10 py-4 font-headline font-black uppercase tracking-tighter text-sm hover:bg-[#131313] transition-colors inline-flex items-center gap-3 whitespace-nowrap"
+                className="bg-black text-[#F27D24] px-10 py-4 font-headline font-black uppercase tracking-tighter text-sm hover:bg-[#131313] transition-colors inline-flex items-center gap-3 whitespace-nowrap"
               >
                 BOOK 30-MIN AUDIT
                 <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={2.5}>
@@ -285,7 +311,7 @@ export default function AnswerEngineAuditPage() {
               </a>
               <Link
                 href="/#territory-check"
-                className="border-2 border-black text-black px-10 py-4 font-headline font-black uppercase tracking-tighter text-sm hover:bg-black hover:text-[#FF6A00] transition-colors"
+                className="border-2 border-black text-black px-10 py-4 font-headline font-black uppercase tracking-tighter text-sm hover:bg-black hover:text-[#F27D24] transition-colors"
               >
                 CHECK TERRITORY
               </Link>

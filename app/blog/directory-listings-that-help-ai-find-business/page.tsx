@@ -31,7 +31,7 @@ export const metadata: Metadata = {
     description,
     type: 'article',
     publishedTime: publishDate,
-    authors: ['The Answer Engine Team'],
+    authors: ['https://theanswerengine.ai/about'],
     url: `https://www.theanswerengine.ai/blog/${slug}`,
     images: [
       {
@@ -64,9 +64,18 @@ const jsonLd = {
       datePublished: publishDate,
       dateModified: publishDate,
       author: {
-        '@type': 'Organization',
-        name: 'The Answer Engine',
-        url: 'https://theanswerengine.ai',
+        '@type': 'Person',
+        '@id': 'https://theanswerengine.ai/about#justin-borges',
+        name: 'Justin Borges',
+        jobTitle: 'Founder, The Answer Engine',
+        worksFor: {
+          '@type': 'Organization',
+          name: 'The Answer Engine',
+          url: 'https://theanswerengine.ai',
+        },
+        knowsAbout: ['Answer Engine Optimization', 'AI Search', 'Content Strategy', 'Real Estate Marketing', 'Citation Surface'],
+        url: 'https://theanswerengine.ai/about',
+        image: 'https://theanswerengine.ai/justin-borges.webp',
       },
       publisher: {
         '@type': 'Organization',
@@ -212,31 +221,31 @@ export default function Page() {
               aria-hidden="true"
             >
               {/* Directory / listing grid pattern */}
-              <rect x="60" y="60" width="160" height="40" rx="6" stroke="#FF6A00" strokeWidth="1" fill="none" opacity="0.2" />
-              <rect x="60" y="110" width="160" height="40" rx="6" stroke="#FF6A00" strokeWidth="1" fill="none" opacity="0.15" />
-              <rect x="60" y="160" width="160" height="40" rx="6" stroke="#FF6A00" strokeWidth="1" fill="none" opacity="0.2" />
-              <rect x="60" y="210" width="160" height="40" rx="6" stroke="#FF6A00" strokeWidth="1" fill="none" opacity="0.15" />
-              <rect x="60" y="260" width="160" height="40" rx="6" stroke="#FF6A00" strokeWidth="1" fill="none" opacity="0.2" />
+              <rect x="60" y="60" width="160" height="40" rx="6" stroke="#F27D24" strokeWidth="1" fill="none" opacity="0.2" />
+              <rect x="60" y="110" width="160" height="40" rx="6" stroke="#F27D24" strokeWidth="1" fill="none" opacity="0.15" />
+              <rect x="60" y="160" width="160" height="40" rx="6" stroke="#F27D24" strokeWidth="1" fill="none" opacity="0.2" />
+              <rect x="60" y="210" width="160" height="40" rx="6" stroke="#F27D24" strokeWidth="1" fill="none" opacity="0.15" />
+              <rect x="60" y="260" width="160" height="40" rx="6" stroke="#F27D24" strokeWidth="1" fill="none" opacity="0.2" />
               {/* Checkmarks in listing rows */}
-              <path d="M80 80 L88 88 L100 72" stroke="#FF6A00" strokeWidth="1.5" fill="none" opacity="0.3" />
-              <path d="M80 180 L88 188 L100 172" stroke="#FF6A00" strokeWidth="1.5" fill="none" opacity="0.3" />
-              <path d="M80 280 L88 288 L100 272" stroke="#FF6A00" strokeWidth="1.5" fill="none" opacity="0.3" />
+              <path d="M80 80 L88 88 L100 72" stroke="#F27D24" strokeWidth="1.5" fill="none" opacity="0.3" />
+              <path d="M80 180 L88 188 L100 172" stroke="#F27D24" strokeWidth="1.5" fill="none" opacity="0.3" />
+              <path d="M80 280 L88 288 L100 272" stroke="#F27D24" strokeWidth="1.5" fill="none" opacity="0.3" />
               {/* Connection lines from listings to AI node */}
-              <line x1="220" y1="80" x2="380" y2="180" stroke="#FF6A00" strokeWidth="0.8" opacity="0.15" />
-              <line x1="220" y1="180" x2="380" y2="180" stroke="#FF6A00" strokeWidth="0.8" opacity="0.2" />
-              <line x1="220" y1="280" x2="380" y2="180" stroke="#FF6A00" strokeWidth="0.8" opacity="0.15" />
+              <line x1="220" y1="80" x2="380" y2="180" stroke="#F27D24" strokeWidth="0.8" opacity="0.15" />
+              <line x1="220" y1="180" x2="380" y2="180" stroke="#F27D24" strokeWidth="0.8" opacity="0.2" />
+              <line x1="220" y1="280" x2="380" y2="180" stroke="#F27D24" strokeWidth="0.8" opacity="0.15" />
               {/* AI brain node */}
-              <circle cx="420" cy="180" r="40" stroke="#FF6A00" strokeWidth="1.2" fill="none" opacity="0.2" />
-              <circle cx="420" cy="180" r="20" stroke="#FF6A00" strokeWidth="0.8" fill="none" opacity="0.15" />
-              <circle cx="420" cy="180" r="4" fill="#FF6A00" opacity="0.3" />
+              <circle cx="420" cy="180" r="40" stroke="#F27D24" strokeWidth="1.2" fill="none" opacity="0.2" />
+              <circle cx="420" cy="180" r="20" stroke="#F27D24" strokeWidth="0.8" fill="none" opacity="0.15" />
+              <circle cx="420" cy="180" r="4" fill="#F27D24" opacity="0.3" />
               {/* Output lines from AI to results */}
-              <line x1="460" y1="170" x2="580" y2="120" stroke="#FF6A00" strokeWidth="0.8" opacity="0.15" />
-              <line x1="460" y1="180" x2="580" y2="180" stroke="#FF6A00" strokeWidth="0.8" opacity="0.2" />
-              <line x1="460" y1="190" x2="580" y2="240" stroke="#FF6A00" strokeWidth="0.8" opacity="0.15" />
+              <line x1="460" y1="170" x2="580" y2="120" stroke="#F27D24" strokeWidth="0.8" opacity="0.15" />
+              <line x1="460" y1="180" x2="580" y2="180" stroke="#F27D24" strokeWidth="0.8" opacity="0.2" />
+              <line x1="460" y1="190" x2="580" y2="240" stroke="#F27D24" strokeWidth="0.8" opacity="0.15" />
               {/* Result cards */}
-              <rect x="580" y="100" width="140" height="40" rx="6" stroke="#FF6A00" strokeWidth="1" fill="none" opacity="0.2" />
-              <rect x="580" y="160" width="140" height="40" rx="6" stroke="#FF6A00" strokeWidth="1" fill="none" opacity="0.25" />
-              <rect x="580" y="220" width="140" height="40" rx="6" stroke="#FF6A00" strokeWidth="1" fill="none" opacity="0.2" />
+              <rect x="580" y="100" width="140" height="40" rx="6" stroke="#F27D24" strokeWidth="1" fill="none" opacity="0.2" />
+              <rect x="580" y="160" width="140" height="40" rx="6" stroke="#F27D24" strokeWidth="1" fill="none" opacity="0.25" />
+              <rect x="580" y="220" width="140" height="40" rx="6" stroke="#F27D24" strokeWidth="1" fill="none" opacity="0.2" />
               {/* Dots grid */}
               {[0, 1, 2, 3, 4, 5, 6, 7].map((i) =>
                 [0, 1, 2, 3, 4].map((j) => (
@@ -245,7 +254,7 @@ export default function Page() {
                     cx={80 + i * 90}
                     cy={60 + j * 80}
                     r="1.5"
-                    fill="#FF6A00"
+                    fill="#F27D24"
                     opacity="0.08"
                   />
                 ))
@@ -263,7 +272,7 @@ export default function Page() {
                 <span>-</span>
                 <span>14 min read</span>
                 <span>-</span>
-                <span>The Answer Engine Team</span>
+                <span>Justin Borges</span>
               </div>
             </div>
           </div>
@@ -295,7 +304,7 @@ export default function Page() {
           </div>
 
           {/* Article Body */}
-          <article className="prose prose-invert prose-lg max-w-none prose-headings:font-plus-jakarta prose-headings:text-white prose-p:text-gray-300 prose-a:text-[#FF6A00] prose-a:no-underline hover:prose-a:underline prose-strong:text-white">
+          <article className="prose prose-invert prose-lg max-w-none prose-headings:font-plus-jakarta prose-headings:text-white prose-p:text-gray-300 prose-a:text-[#F27D24] prose-a:no-underline hover:prose-a:underline prose-strong:text-white">
 
             {/* Intro */}
             <p className="text-xl text-gray-300 leading-relaxed mb-10">
@@ -1103,10 +1112,15 @@ export default function Page() {
           {/* Author Card */}
           <div className="not-prose">
             <div className="ae-author-card">
-              <div className="ae-author-avatar">AE</div>
+              <img
+                src="/justin-borges.webp"
+                alt="Justin Borges, Founder of The Answer Engine"
+                style={{ width: 64, height: 64, borderRadius: '50%', objectFit: 'cover', flexShrink: 0 }}
+              />
               <div>
-                <div className="ae-author-name">The Answer Engine Team</div>
-                <div className="ae-author-role">Helping businesses get found, recommended, and cited by AI search platforms</div>
+                <div className="ae-author-name" style={{ fontWeight: 600 }}>Justin Borges</div>
+                <div className="ae-author-role" style={{ fontWeight: 400 }}>Founder, The Answer Engine</div>
+                <p style={{ marginTop: 8, fontSize: '0.875rem', color: 'rgba(255,255,255,0.65)', lineHeight: 1.6 }}>Justin Borges founded The Answer Engine in 2025 after 13+ years in real estate, $200M+ in production, and discovering that AI search rankings now decide who gets cited as the answer. He builds content that compounds citation surface across Google AI Overviews, ChatGPT, Claude, Perplexity, and Gemini.</p>
               </div>
             </div>
           </div>

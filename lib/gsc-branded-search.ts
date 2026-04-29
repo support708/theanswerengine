@@ -222,13 +222,13 @@ export function renderClientCuratedInner(t: BrandedSearchTrend, firstName: strin
 
 <table role="presentation" cellpadding="0" cellspacing="0" border="0" width="100%" style="border-collapse:collapse;margin:20px 0 24px 0;">
   <tr>
-    <td style="padding:16px;background:#fafafa;border-left:3px solid #FF6A00;width:50%;" valign="top">
+    <td style="padding:16px;background:#fafafa;border-left:3px solid #F27D24;width:50%;" valign="top">
       <div style="font-family:${MONO};font-size:10px;color:#888;letter-spacing:0.14em;text-transform:uppercase;margin-bottom:4px;">This Week</div>
       <div style="font-family:${DISPLAY};font-size:28px;font-weight:900;color:#1a1a1a;letter-spacing:-0.02em;line-height:1;">${latest.brandedImpressions}</div>
       <div style="margin-top:4px;font-size:11px;color:#888;">branded impressions</div>
     </td>
     <td style="width:12px;"></td>
-    <td style="padding:16px;background:#fafafa;border-left:3px solid #FF6A00;width:50%;" valign="top">
+    <td style="padding:16px;background:#fafafa;border-left:3px solid #F27D24;width:50%;" valign="top">
       <div style="font-family:${MONO};font-size:10px;color:#888;letter-spacing:0.14em;text-transform:uppercase;margin-bottom:4px;">4-Week Trend</div>
       <div style="font-family:${DISPLAY};font-size:28px;font-weight:900;color:#0d8a3e;letter-spacing:-0.02em;line-height:1;">+${t.fourWeekTrendPct}%</div>
       <div style="margin-top:4px;font-size:11px;color:#888;">branded demand growth</div>
@@ -238,9 +238,9 @@ export function renderClientCuratedInner(t: BrandedSearchTrend, firstName: strin
 
 <h3 style="margin:24px 0 10px 0;font-size:15px;color:#1a1a1a;font-family:${DISPLAY};font-weight:800;text-transform:uppercase;letter-spacing:0.02em;">What we're doing next</h3>
 <ol style="margin:0 0 24px 0;padding:0 0 0 4px;list-style:none;">
-  <li style="margin:0 0 8px 0;font-size:14px;color:#1a1a1a;line-height:1.55;"><b style="color:#FF6A00;font-family:${MONO};font-size:11px;margin-right:6px;">01</b>Leaning into the query patterns driving this lift to keep compounding ${esc(goalPrimaryOutcome)}.</li>
-  <li style="margin:0 0 8px 0;font-size:14px;color:#1a1a1a;line-height:1.55;"><b style="color:#FF6A00;font-family:${MONO};font-size:11px;margin-right:6px;">02</b>Publishing new authority content on themes that are pulling brand searches in.</li>
-  <li style="margin:0 0 8px 0;font-size:14px;color:#1a1a1a;line-height:1.55;"><b style="color:#FF6A00;font-family:${MONO};font-size:11px;margin-right:6px;">03</b>Sharpening the on-page conversion funnel so this demand becomes real leads.</li>
+  <li style="margin:0 0 8px 0;font-size:14px;color:#1a1a1a;line-height:1.55;"><b style="color:#F27D24;font-family:${MONO};font-size:11px;margin-right:6px;">01</b>Leaning into the query patterns driving this lift to keep compounding ${esc(goalPrimaryOutcome)}.</li>
+  <li style="margin:0 0 8px 0;font-size:14px;color:#1a1a1a;line-height:1.55;"><b style="color:#F27D24;font-family:${MONO};font-size:11px;margin-right:6px;">02</b>Publishing new authority content on themes that are pulling brand searches in.</li>
+  <li style="margin:0 0 8px 0;font-size:14px;color:#1a1a1a;line-height:1.55;"><b style="color:#F27D24;font-family:${MONO};font-size:11px;margin-right:6px;">03</b>Sharpening the on-page conversion funnel so this demand becomes real leads.</li>
 </ol>`;
 }
 

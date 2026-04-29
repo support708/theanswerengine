@@ -120,7 +120,7 @@ Return the battlecard JSON.`;
 
 const DISPLAY = `'Space Grotesk','Inter','Helvetica Neue',Arial,sans-serif`;
 const MONO = `'JetBrains Mono',Consolas,Menlo,'Courier New',monospace`;
-const BRAND = '#FF6A00';
+const BRAND = '#F27D24';
 
 function escapeHtml(s: string): string {
   return String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');

@@ -29,7 +29,7 @@ export const metadata: Metadata = {
     description,
     type: 'article',
     publishedTime: publishDate,
-    authors: ['The Answer Engine Team'],
+    authors: ['https://theanswerengine.ai/about'],
     url: `https://theanswerengine.ai/blog/${slug}`,
     images: [
       {
@@ -67,9 +67,18 @@ const jsonLd = {
       datePublished: publishDate,
       dateModified: publishDate,
       author: {
-        '@type': 'Organization',
-        name: 'The Answer Engine',
-        url: 'https://theanswerengine.ai',
+        '@type': 'Person',
+        '@id': 'https://theanswerengine.ai/about#justin-borges',
+        name: 'Justin Borges',
+        jobTitle: 'Founder, The Answer Engine',
+        worksFor: {
+          '@type': 'Organization',
+          name: 'The Answer Engine',
+          url: 'https://theanswerengine.ai',
+        },
+        knowsAbout: ['Answer Engine Optimization', 'AI Search', 'Content Strategy', 'Real Estate Marketing', 'Citation Surface'],
+        url: 'https://theanswerengine.ai/about',
+        image: 'https://theanswerengine.ai/justin-borges.webp',
       },
       publisher: {
         '@type': 'Organization',
@@ -566,7 +575,7 @@ export default function Page() {
             Read more about how reviews feed into AI recommendations in our guide on{' '}
             <Link
               href="/blog/why-my-5star-google-reviews-dont-show-up-in-ai-answers"
-              className="text-[#FF6A00] hover:text-[#e55f00] transition-colors"
+              className="text-[#F27D24] hover:text-[#D96416] transition-colors"
             >
               why 5-star Google reviews do not always show up in AI answers
             </Link>
@@ -613,7 +622,7 @@ export default function Page() {
             Understanding how AI disappearances work is closely related to understanding{' '}
             <Link
               href="/blog/my-business-disappeared-from-ai-search-results-overnight"
-              className="text-[#FF6A00] hover:text-[#e55f00] transition-colors"
+              className="text-[#F27D24] hover:text-[#D96416] transition-colors"
             >
               why businesses disappear from AI search results overnight
             </Link>
@@ -642,27 +651,27 @@ export default function Page() {
           <div className="ae-timeline mt-6 mb-8">
             <div className="ae-timeline-item">
               <div className="font-plus-jakarta font-bold text-white">Step 1</div>
-              <div className="font-semibold text-[#FF6A00]">AI crawler attempts to visit your website</div>
+              <div className="font-semibold text-[#F27D24]">AI crawler attempts to visit your website</div>
               <div className="text-gray-400 text-sm">Automated bots from OpenAI, Google, Anthropic, and Perplexity index your content periodically</div>
             </div>
             <div className="ae-timeline-item">
               <div className="font-plus-jakarta font-bold text-white">Step 2</div>
-              <div className="font-semibold text-[#FF6A00]">Crawler hits a blocker</div>
+              <div className="font-semibold text-[#F27D24]">Crawler hits a blocker</div>
               <div className="text-gray-400 text-sm">Slow load, robots.txt block, expired SSL, or JavaScript rendering wall stops the crawl</div>
             </div>
             <div className="ae-timeline-item">
               <div className="font-plus-jakarta font-bold text-white">Step 3</div>
-              <div className="font-semibold text-[#FF6A00]">Your content goes unread</div>
+              <div className="font-semibold text-[#F27D24]">Your content goes unread</div>
               <div className="text-gray-400 text-sm">The AI has no fresh data from your site to include in citations or recommendations</div>
             </div>
             <div className="ae-timeline-item">
               <div className="font-plus-jakarta font-bold text-white">Step 4</div>
-              <div className="font-semibold text-[#FF6A00]">AI confidence in your business drops</div>
+              <div className="font-semibold text-[#F27D24]">AI confidence in your business drops</div>
               <div className="text-gray-400 text-sm">Stale cached data ages out, your name appears less frequently or not at all</div>
             </div>
             <div className="ae-timeline-item">
               <div className="font-plus-jakarta font-bold text-white">Step 5</div>
-              <div className="font-semibold text-[#FF6A00]">Competitor takes your slot</div>
+              <div className="font-semibold text-[#F27D24]">Competitor takes your slot</div>
               <div className="text-gray-400 text-sm">The AI fills the recommendation gap with a competitor whose site is fully accessible</div>
             </div>
           </div>
@@ -678,7 +687,7 @@ export default function Page() {
             For more on what AI actually sees when it visits your site, read our guide on{' '}
             <Link
               href="/blog/why-ai-gives-outdated-information-about-my-business"
-              className="text-[#FF6A00] hover:text-[#e55f00] transition-colors"
+              className="text-[#F27D24] hover:text-[#D96416] transition-colors"
             >
               why AI gives outdated information about your business
             </Link>
@@ -780,7 +789,7 @@ export default function Page() {
         </div>
 
         {/* CTA Block */}
-        <div className="not-prose my-16 p-8 rounded-2xl bg-gradient-to-br from-[#FF6A00]/10 to-transparent border border-[#FF6A00]/20">
+        <div className="not-prose my-16 p-8 rounded-2xl bg-gradient-to-br from-[#F27D24]/10 to-transparent border border-[#F27D24]/20">
           <h3 className="font-plus-jakarta text-2xl font-bold text-white mb-3">
             Find Out Why AI Dropped Your Business
           </h3>
@@ -791,14 +800,14 @@ export default function Page() {
           </p>
           <Link
             href="/blindspot"
-            className="inline-flex items-center gap-2 bg-[#FF6A00] text-white px-6 py-3 rounded-lg font-semibold hover:bg-[#e55f00] transition-colors"
+            className="inline-flex items-center gap-2 bg-[#F27D24] text-white px-6 py-3 rounded-lg font-semibold hover:bg-[#D96416] transition-colors"
           >
             Get Your Free Blind Spot Report
             <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
             </svg>
           </Link>
-          <div className="flex flex-wrap items-center gap-6 mt-6 pt-6 border-t border-[#FF6A00]/10">
+          <div className="flex flex-wrap items-center gap-6 mt-6 pt-6 border-t border-[#F27D24]/10">
             <a
               href="tel:+12134442229"
               className="flex items-center gap-2 text-gray-400 hover:text-white transition-colors"
@@ -821,16 +830,20 @@ export default function Page() {
         </div>
 
         {/* Author Card */}
-        <div className="ae-author-card mb-14">
-          <div className="ae-author-avatar">AE</div>
-          <div>
-            <div className="font-plus-jakarta font-bold text-white">The Answer Engine Team</div>
-            <div className="text-gray-400 text-sm">
-              AI visibility specialists helping local businesses stay recommended across ChatGPT,
-              Perplexity, Google AI, and every major AI platform.
+        <div className="not-prose">
+            <div className="ae-author-card">
+              <img
+                src="/justin-borges.webp"
+                alt="Justin Borges, Founder of The Answer Engine"
+                style={{ width: 64, height: 64, borderRadius: '50%', objectFit: 'cover', flexShrink: 0 }}
+              />
+              <div>
+                <div className="ae-author-name" style={{ fontWeight: 600 }}>Justin Borges</div>
+                <div className="ae-author-role" style={{ fontWeight: 400 }}>Founder, The Answer Engine</div>
+                <p style={{ marginTop: 8, fontSize: '0.875rem', color: 'rgba(255,255,255,0.65)', lineHeight: 1.6 }}>Justin Borges founded The Answer Engine in 2025 after 13+ years in real estate, $200M+ in production, and discovering that AI search rankings now decide who gets cited as the answer. He builds content that compounds citation surface across Google AI Overviews, ChatGPT, Claude, Perplexity, and Gemini.</p>
+              </div>
             </div>
           </div>
-        </div>
 
         {/* FAQ */}
         <section id="faq" className="mb-14">

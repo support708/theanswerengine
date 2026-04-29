@@ -21,7 +21,7 @@ export async function generateMetadata(): Promise<Metadata> {
       type: 'article',
       publishedTime: publishDate,
       modifiedTime: lastUpdated,
-      authors: ['Justin Borges'],
+      authors: ['https://theanswerengine.ai/about'],
       url: 'https://theanswerengine.ai/blog/how-to-get-in-the-answer-engine',
       images: [
         {
@@ -91,10 +91,19 @@ export default function HowToGetInTheAnswerEngine() {
                   "height": 630
                 },
                 "author": {
-                  "@type": "Organization",
-                  "name": "The Answer Engine",
-                  "url": "https://theanswerengine.ai"
-                },
+          "@type": "Person",
+          "@id": "https://theanswerengine.ai/about#justin-borges",
+          "name": "Justin Borges",
+          "jobTitle": "Founder, The Answer Engine",
+          "worksFor": {
+            "@type": "Organization",
+            "name": "The Answer Engine",
+            "url": "https://theanswerengine.ai"
+          },
+          "knowsAbout": ["Answer Engine Optimization", "AI Search", "Content Strategy", "Real Estate Marketing", "Citation Surface"],
+          "url": "https://theanswerengine.ai/about",
+          "image": "https://theanswerengine.ai/justin-borges.webp"
+        },
                 "publisher": {
                   "@type": "Organization",
                   "name": "The Answer Engine",
@@ -207,7 +216,7 @@ export default function HowToGetInTheAnswerEngine() {
             </div>
 
             <h1 className="text-3xl sm:text-4xl lg:text-5xl font-semibold mb-6 text-white leading-tight">
-              How to Get in the <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#FF6A00] to-[#FF8C3A]">Answer Engine</span>
+              How to Get in the <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#F27D24] to-[#FF8C3A]">Answer Engine</span>
             </h1>
 
             {/* Featured Image */}
@@ -249,7 +258,7 @@ export default function HowToGetInTheAnswerEngine() {
           </header>
 
           {/* ══════════════ PROSE WRAPPER ══════════════ */}
-          <div className="prose prose-invert prose-lg max-w-none prose-headings:font-plus-jakarta prose-headings:text-white prose-p:text-gray-300 prose-a:text-[#FF6A00] prose-a:no-underline hover:prose-a:underline prose-strong:text-white">
+          <div className="prose prose-invert prose-lg max-w-none prose-headings:font-plus-jakarta prose-headings:text-white prose-p:text-gray-300 prose-a:text-[#F27D24] prose-a:no-underline hover:prose-a:underline prose-strong:text-white">
 
             {/* ── STATS GRID ── */}
             <div className="ae-stats-grid not-prose">
@@ -872,7 +881,7 @@ export default function HowToGetInTheAnswerEngine() {
             <h3>Find Out If AI Is Recommending Your Business</h3>
             <p>Most businesses have no idea whether AI platforms are sending them customers or sending them to competitors. Our free Blind Spot Report shows you exactly where you stand across every major AI platform.</p>
             <Link href="/blindspot">Get Your Free Blind Spot Report &rarr;</Link>
-            <div className="flex flex-wrap items-center gap-6 mt-6 pt-6 border-t border-[#FF6A00]/10">
+            <div className="flex flex-wrap items-center gap-6 mt-6 pt-6 border-t border-[#F27D24]/10">
               <a href="tel:+12134442229" className="flex items-center gap-2 text-gray-400 hover:text-white transition-colors">
                 <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" /></svg>
                 (213) 444-2229
@@ -901,7 +910,7 @@ export default function HowToGetInTheAnswerEngine() {
             <div className="space-y-4">
               <div className="bg-white/[0.03] border border-white/[0.08] rounded-xl p-6 hover:border-white/[0.12] transition-colors">
                 <Link href="/blog/aeo-case-study-real-estate" className="group">
-                  <h4 className="text-xl font-medium text-white mb-2 group-hover:text-[#FF6A00] transition-colors">
+                  <h4 className="text-xl font-medium text-white mb-2 group-hover:text-[#F27D24] transition-colors">
                     AEO Case Study: How a Real Estate Team Dominates AI Search
                   </h4>
                   <p className="text-gray-400 leading-relaxed">
@@ -911,7 +920,7 @@ export default function HowToGetInTheAnswerEngine() {
               </div>
               <div className="bg-white/[0.03] border border-white/[0.08] rounded-xl p-6 hover:border-white/[0.12] transition-colors">
                 <Link href="/blog/why-businesses-fail-answer-engine-optimization" className="group">
-                  <h4 className="text-xl font-medium text-white mb-2 group-hover:text-[#FF6A00] transition-colors">
+                  <h4 className="text-xl font-medium text-white mb-2 group-hover:text-[#F27D24] transition-colors">
                     Why Most Businesses Fail at Answer Engine Optimization
                   </h4>
                   <p className="text-gray-400 leading-relaxed">
@@ -921,7 +930,7 @@ export default function HowToGetInTheAnswerEngine() {
               </div>
               <div className="bg-white/[0.03] border border-white/[0.08] rounded-xl p-6 hover:border-white/[0.12] transition-colors">
                 <Link href="/blog/what-is-answer-engine-optimization" className="group">
-                  <h4 className="text-xl font-medium text-white mb-2 group-hover:text-[#FF6A00] transition-colors">
+                  <h4 className="text-xl font-medium text-white mb-2 group-hover:text-[#F27D24] transition-colors">
                     What is Answer Engine Optimization (AEO)? Complete Guide
                   </h4>
                   <p className="text-gray-400 leading-relaxed">

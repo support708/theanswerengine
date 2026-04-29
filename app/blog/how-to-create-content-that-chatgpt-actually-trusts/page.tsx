@@ -14,7 +14,7 @@ const publishDate = '2026-03-30'
 export const metadata: Metadata = {
   title: `${title} | The Answer Engine`,
   description,
-  authors: [{ name: 'The Answer Engine Team' }],
+  authors: [{ name: 'Justin Borges', url: 'https://theanswerengine.ai/about' }],
   keywords: [
     'content ChatGPT trusts',
     'AI trusted content',
@@ -33,7 +33,7 @@ export const metadata: Metadata = {
     type: 'article',
     publishedTime: '2026-03-30T09:00:00-07:00',
     modifiedTime: '2026-03-30T09:00:00-07:00',
-    authors: ['The Answer Engine Team'],
+    authors: ['https://theanswerengine.ai/about'],
     url: `https://theanswerengine.ai/blog/${slug}`,
     images: [
       {
@@ -69,8 +69,18 @@ const jsonLd = {
       datePublished: '2026-03-30T09:00:00-07:00',
       dateModified: '2026-03-30T09:00:00-07:00',
       author: {
-        '@type': 'Organization',
-        '@id': 'https://theanswerengine.ai/#organization',
+        '@type': 'Person',
+        '@id': 'https://theanswerengine.ai/about#justin-borges',
+        name: 'Justin Borges',
+        jobTitle: 'Founder, The Answer Engine',
+        worksFor: {
+          '@type': 'Organization',
+          name: 'The Answer Engine',
+          url: 'https://theanswerengine.ai',
+        },
+        knowsAbout: ['Answer Engine Optimization', 'AI Search', 'Content Strategy', 'Real Estate Marketing', 'Citation Surface'],
+        url: 'https://theanswerengine.ai/about',
+        image: 'https://theanswerengine.ai/justin-borges.webp',
       },
       publisher: {
         '@type': 'Organization',
@@ -207,28 +217,28 @@ export default function Page() {
           <svg className="absolute inset-0 w-full h-full opacity-10" viewBox="0 0 800 400" fill="none" aria-hidden="true">
             <defs>
               <pattern id="hero-grid-99" width="40" height="40" patternUnits="userSpaceOnUse">
-                <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#FF6A00" strokeWidth="0.5" />
+                <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#F27D24" strokeWidth="0.5" />
               </pattern>
             </defs>
             <rect width="100%" height="100%" fill="url(#hero-grid-99)" />
             {/* Trust shield */}
-            <path d="M400 60 L440 80 L440 130 C440 170 400 200 400 200 C400 200 360 170 360 130 L360 80 Z" stroke="#FF6A00" strokeWidth="1.5" fill="none" opacity="0.4" />
-            <path d="M385 120 L398 133 L418 108" stroke="#FF6A00" strokeWidth="2" fill="none" opacity="0.5" strokeLinecap="round" strokeLinejoin="round" />
+            <path d="M400 60 L440 80 L440 130 C440 170 400 200 400 200 C400 200 360 170 360 130 L360 80 Z" stroke="#F27D24" strokeWidth="1.5" fill="none" opacity="0.4" />
+            <path d="M385 120 L398 133 L418 108" stroke="#F27D24" strokeWidth="2" fill="none" opacity="0.5" strokeLinecap="round" strokeLinejoin="round" />
             {/* Document icon */}
-            <rect x="150" y="120" width="60" height="80" rx="4" stroke="#FF6A00" strokeWidth="1" fill="none" opacity="0.3" />
-            <line x1="165" y1="145" x2="195" y2="145" stroke="#FF6A00" strokeWidth="1" opacity="0.25" />
-            <line x1="165" y1="158" x2="195" y2="158" stroke="#FF6A00" strokeWidth="1" opacity="0.25" />
-            <line x1="165" y1="171" x2="185" y2="171" stroke="#FF6A00" strokeWidth="1" opacity="0.25" />
+            <rect x="150" y="120" width="60" height="80" rx="4" stroke="#F27D24" strokeWidth="1" fill="none" opacity="0.3" />
+            <line x1="165" y1="145" x2="195" y2="145" stroke="#F27D24" strokeWidth="1" opacity="0.25" />
+            <line x1="165" y1="158" x2="195" y2="158" stroke="#F27D24" strokeWidth="1" opacity="0.25" />
+            <line x1="165" y1="171" x2="185" y2="171" stroke="#F27D24" strokeWidth="1" opacity="0.25" />
             {/* Lock icon */}
-            <rect x="610" y="140" width="40" height="35" rx="4" stroke="#FF6A00" strokeWidth="1" fill="none" opacity="0.3" />
-            <path d="M618 140 L618 128 C618 118 642 118 642 128 L642 140" stroke="#FF6A00" strokeWidth="1" fill="none" opacity="0.3" />
+            <rect x="610" y="140" width="40" height="35" rx="4" stroke="#F27D24" strokeWidth="1" fill="none" opacity="0.3" />
+            <path d="M618 140 L618 128 C618 118 642 118 642 128 L642 140" stroke="#F27D24" strokeWidth="1" fill="none" opacity="0.3" />
           </svg>
           <div className="relative px-8 py-16 sm:px-12 sm:py-20">
             <p className="inline-block text-sm font-medium text-orange-400 mb-4 border border-orange-500/30 rounded-full px-4 py-1">How-To Guides</p>
             <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-white leading-tight mb-6 font-plus-jakarta">{title}</h1>
             <p className="text-lg text-gray-300 max-w-2xl mb-6">You can write the best content on the internet. But if ChatGPT does not trust the source, that content will never surface in an AI answer. Here is what separates the pages that get cited from the ones that get ignored.</p>
             <div className="flex items-center gap-4 text-sm text-gray-400">
-              <span>March 30, 2026</span><span>&#183;</span><span>12 min read</span><span>&#183;</span><span>The Answer Engine Team</span>
+              <span>March 30, 2026</span><span>&#183;</span><span>12 min read</span><span>&#183;</span><span>Justin Borges</span>
             </div>
           </div>
         </div>
@@ -285,7 +295,7 @@ export default function Page() {
           </div>
 
           {/* ══════════════ PROSE WRAPPER ══════════════ */}
-          <div className="prose prose-invert prose-lg max-w-none prose-headings:font-plus-jakarta prose-headings:text-white prose-p:text-gray-300 prose-a:text-[#FF6A00] prose-a:no-underline hover:prose-a:underline prose-strong:text-white">
+          <div className="prose prose-invert prose-lg max-w-none prose-headings:font-plus-jakarta prose-headings:text-white prose-p:text-gray-300 prose-a:text-[#F27D24] prose-a:no-underline hover:prose-a:underline prose-strong:text-white">
 
             {/* ── SECTION 1: THE TRUST GAP ── */}
             <span className="ae-section-label" id="trust-gap">The Problem</span>
@@ -693,14 +703,14 @@ export default function Page() {
             </div>
 
             {/* ══════════════ 3-TIER CTA BLOCK ══════════════ */}
-            <div className="not-prose my-16 p-8 rounded-2xl bg-gradient-to-br from-[#FF6A00]/10 to-transparent border border-[#FF6A00]/20">
+            <div className="not-prose my-16 p-8 rounded-2xl bg-gradient-to-br from-[#F27D24]/10 to-transparent border border-[#F27D24]/20">
               <h3 className="font-plus-jakarta text-2xl font-bold text-white mb-3">Your Content Might Read Well to Humans. But Does AI Trust It?</h3>
               <p className="text-gray-400 mb-6">Our Blind Spot Report reveals exactly how AI platforms evaluate your content authority, trust signals, and citation worthiness.</p>
-              <Link href="/blindspot" className="inline-flex items-center gap-2 bg-[#FF6A00] text-white px-6 py-3 rounded-lg font-semibold hover:bg-[#e55f00] transition-colors">
+              <Link href="/blindspot" className="inline-flex items-center gap-2 bg-[#F27D24] text-white px-6 py-3 rounded-lg font-semibold hover:bg-[#D96416] transition-colors">
                 Get Your Free Blind Spot Report
                 <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" /></svg>
               </Link>
-              <div className="flex flex-wrap items-center gap-6 mt-6 pt-6 border-t border-[#FF6A00]/10">
+              <div className="flex flex-wrap items-center gap-6 mt-6 pt-6 border-t border-[#F27D24]/10">
                 <a href="tel:+12134442229" className="flex items-center gap-2 text-gray-400 hover:text-white transition-colors">
                   <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" /></svg>
                   (213) 444-2229
@@ -753,13 +763,16 @@ export default function Page() {
             </div>
 
             {/* ── AUTHOR CARD ── */}
-            <div className="ae-author-card not-prose">
-              <div className="ae-author-avatar">
-                <svg className="w-12 h-12 text-gray-500" fill="currentColor" viewBox="0 0 24 24"><path d="M12 12c2.7 0 4.8-2.1 4.8-4.8S14.7 2.4 12 2.4 7.2 4.5 7.2 7.2 9.3 12 12 12zm0 2.4c-3.2 0-9.6 1.6-9.6 4.8v2.4h19.2v-2.4c0-3.2-6.4-4.8-9.6-4.8z" /></svg>
-              </div>
+            <div className="ae-author-card">
+              <img
+                src="/justin-borges.webp"
+                alt="Justin Borges, Founder of The Answer Engine"
+                style={{ width: 64, height: 64, borderRadius: '50%', objectFit: 'cover', flexShrink: 0 }}
+              />
               <div>
-                <strong>Written by The Answer Engine Team</strong>
-                <p>We help businesses build content that AI platforms trust, cite, and recommend. Specializing in Answer Engine Optimization for local service businesses. Based in Los Angeles.</p>
+                <div className="ae-author-name" style={{ fontWeight: 600 }}>Justin Borges</div>
+                <div className="ae-author-role" style={{ fontWeight: 400 }}>Founder, The Answer Engine</div>
+                <p style={{ marginTop: 8, fontSize: '0.875rem', color: 'rgba(255,255,255,0.65)', lineHeight: 1.6 }}>Justin Borges founded The Answer Engine in 2025 after 13+ years in real estate, $200M+ in production, and discovering that AI search rankings now decide who gets cited as the answer. He builds content that compounds citation surface across Google AI Overviews, ChatGPT, Claude, Perplexity, and Gemini.</p>
               </div>
             </div>
 
@@ -770,7 +783,7 @@ export default function Page() {
             <h2>Want to See How ChatGPT Evaluates Your Content?</h2>
             <p>Our free Blind Spot Report analyzes your content across every trust factor ChatGPT evaluates: entity authority, schema markup, content structure, freshness, third-party validation, and community sentiment. No pitch, just the data you need to start earning citations.</p>
             <Link href="/blindspot">Get Your Free Blind Spot Report &rarr;</Link>
-            <div className="flex flex-wrap items-center justify-center gap-6 mt-6 pt-6 border-t border-[#FF6A00]/10">
+            <div className="flex flex-wrap items-center justify-center gap-6 mt-6 pt-6 border-t border-[#F27D24]/10">
               <a href="tel:+12134442229" className="flex items-center gap-2 text-gray-400 hover:text-white transition-colors">
                 <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" /></svg>
                 (213) 444-2229

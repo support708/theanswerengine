@@ -21,7 +21,7 @@ export const metadata: Metadata = {
     'voice search Apple',
     'Apple Intelligence Siri 2026',
   ],
-  authors: [{ name: 'The Answer Engine Team' }],
+  authors: [{ name: 'Justin Borges', url: 'https://theanswerengine.ai/about' }],
   openGraph: {
     title: 'Apple Intelligence Local Business Guide | The Answer Engine',
     description:
@@ -68,9 +68,18 @@ const jsonLd = {
       datePublished: '2026-03-27T00:00:00Z',
       dateModified: '2026-03-27T00:00:00Z',
       author: {
-        '@type': 'Organization',
-        name: 'The Answer Engine Team',
-        url: 'https://theanswerengine.ai',
+        '@type': 'Person',
+        '@id': 'https://theanswerengine.ai/about#justin-borges',
+        name: 'Justin Borges',
+        jobTitle: 'Founder, The Answer Engine',
+        worksFor: {
+          '@type': 'Organization',
+          name: 'The Answer Engine',
+          url: 'https://theanswerengine.ai',
+        },
+        knowsAbout: ['Answer Engine Optimization', 'AI Search', 'Content Strategy', 'Real Estate Marketing', 'Citation Surface'],
+        url: 'https://theanswerengine.ai/about',
+        image: 'https://theanswerengine.ai/justin-borges.webp',
       },
       publisher: {
         '@type': 'Organization',
@@ -203,9 +212,9 @@ export default function Page() {
         {/* ── BREADCRUMB ── */}
         <div className="relative max-w-4xl mx-auto px-6 pt-20 pb-4">
           <nav className="flex items-center gap-2 text-sm text-gray-500">
-            <Link href="/" className="hover:text-[#FF6A00] transition-colors">Home</Link>
+            <Link href="/" className="hover:text-[#F27D24] transition-colors">Home</Link>
             <span>/</span>
-            <Link href="/blog" className="hover:text-[#FF6A00] transition-colors">Blog</Link>
+            <Link href="/blog" className="hover:text-[#F27D24] transition-colors">Blog</Link>
             <span>/</span>
             <span className="text-gray-400">How Apple Intelligence Recommends Local Businesses</span>
           </nav>
@@ -214,7 +223,7 @@ export default function Page() {
         {/* ── HEADER ── */}
         <header className="relative max-w-4xl mx-auto px-6 pb-16">
           <div className="flex items-center gap-3 mb-6">
-            <span className="bg-[#FF6A00]/10 text-[#FF6A00] px-3 py-1 rounded-full text-xs font-semibold tracking-wide uppercase">Platform Deep Dives</span>
+            <span className="bg-[#F27D24]/10 text-[#F27D24] px-3 py-1 rounded-full text-xs font-semibold tracking-wide uppercase">Platform Deep Dives</span>
             <time className="text-gray-500 text-sm" dateTime="2026-03-27">March 27, 2026</time>
           </div>
           <h1 className="font-plus-jakarta text-4xl md:text-5xl font-bold text-white leading-tight mb-6">
@@ -224,7 +233,7 @@ export default function Page() {
             With 1.52 billion active iPhones and a privacy-first AI stack embedded directly in the operating system, Apple Intelligence is quietly becoming one of the most powerful forces in local business discovery. Here is how it works, what data it uses, and what it means for your visibility.
           </p>
           <div className="flex items-center gap-4 text-sm text-gray-500 border-t border-white/10 pt-6">
-            <span>By <strong className="text-gray-300">The Answer Engine Team</strong></span>
+            <span>By <strong className="text-gray-300">Justin Borges</strong></span>
             <span>·</span>
             <span>14 min read</span>
             <span>·</span>
@@ -234,7 +243,7 @@ export default function Page() {
       </div>
 
       <article className="max-w-4xl mx-auto px-6 pb-20">
-        <div className="prose prose-invert prose-lg max-w-none prose-headings:font-plus-jakarta prose-headings:text-white prose-p:text-gray-300 prose-a:text-[#FF6A00] prose-a:no-underline hover:prose-a:underline prose-strong:text-white">
+        <div className="prose prose-invert prose-lg max-w-none prose-headings:font-plus-jakarta prose-headings:text-white prose-p:text-gray-300 prose-a:text-[#F27D24] prose-a:no-underline hover:prose-a:underline prose-strong:text-white">
 
           {/* ── TABLE OF CONTENTS ── */}
           <nav className="ae-toc not-prose" aria-label="Table of contents">
@@ -614,42 +623,42 @@ export default function Page() {
             <div className="ae-bar-item">
               <div className="ae-bar-label">Apple Business Connect completeness</div>
               <div className="ae-bar-track">
-                <div className="ae-bar-fill" style={{ width: '95%', background: '#FF6A00' }} />
+                <div className="ae-bar-fill" style={{ width: '95%', background: '#F27D24' }} />
               </div>
               <div className="ae-bar-value">95%</div>
             </div>
             <div className="ae-bar-item">
               <div className="ae-bar-label">NAP consistency across directories</div>
               <div className="ae-bar-track">
-                <div className="ae-bar-fill" style={{ width: '90%', background: '#FF6A00' }} />
+                <div className="ae-bar-fill" style={{ width: '90%', background: '#F27D24' }} />
               </div>
               <div className="ae-bar-value">90%</div>
             </div>
             <div className="ae-bar-item">
               <div className="ae-bar-label">Review volume and sentiment (Apple Maps + Yelp)</div>
               <div className="ae-bar-track">
-                <div className="ae-bar-fill" style={{ width: '85%', background: '#FF6A00' }} />
+                <div className="ae-bar-fill" style={{ width: '85%', background: '#F27D24' }} />
               </div>
               <div className="ae-bar-value">85%</div>
             </div>
             <div className="ae-bar-item">
               <div className="ae-bar-label">Proximity to the user</div>
               <div className="ae-bar-track">
-                <div className="ae-bar-fill" style={{ width: '80%', background: '#FF6A00' }} />
+                <div className="ae-bar-fill" style={{ width: '80%', background: '#F27D24' }} />
               </div>
               <div className="ae-bar-value">80%</div>
             </div>
             <div className="ae-bar-item">
               <div className="ae-bar-label">Website structured data (schema markup)</div>
               <div className="ae-bar-track">
-                <div className="ae-bar-fill" style={{ width: '70%', background: '#FF6A00' }} />
+                <div className="ae-bar-fill" style={{ width: '70%', background: '#F27D24' }} />
               </div>
               <div className="ae-bar-value">70%</div>
             </div>
             <div className="ae-bar-item">
               <div className="ae-bar-label">User interaction history with your business</div>
               <div className="ae-bar-track">
-                <div className="ae-bar-fill" style={{ width: '65%', background: '#FF6A00' }} />
+                <div className="ae-bar-fill" style={{ width: '65%', background: '#F27D24' }} />
               </div>
               <div className="ae-bar-value">65%</div>
             </div>
@@ -693,7 +702,7 @@ export default function Page() {
           >
             <p
               className="font-plus-jakarta text-xs font-bold uppercase tracking-widest mb-6"
-              style={{ color: '#FF6A00' }}
+              style={{ color: '#F27D24' }}
             >
               At a Glance: What Your Business Needs
             </p>
@@ -712,7 +721,7 @@ export default function Page() {
                 </ul>
               </div>
               <div>
-                <p className="font-bold mb-3 text-sm" style={{ color: '#FF6A00' }}>
+                <p className="font-bold mb-3 text-sm" style={{ color: '#F27D24' }}>
                   Should Have (Competitive Edge)
                 </p>
                 <ul className="space-y-2 text-sm" style={{ color: '#9CA3AF' }}>
@@ -761,14 +770,14 @@ export default function Page() {
           <div className="flex items-start gap-4">
             <div
               className="flex-shrink-0 w-12 h-12 rounded-full flex items-center justify-center font-plus-jakarta font-bold text-lg"
-              style={{ background: 'rgba(255,106,0,0.15)', color: '#FF6A00' }}
+              style={{ background: 'rgba(255,106,0,0.15)', color: '#F27D24' }}
               aria-hidden="true"
             >
               AE
             </div>
             <div>
               <p className="font-bold text-sm mb-0.5" style={{ color: '#FFFFFF' }}>
-                The Answer Engine Team
+                Justin Borges
               </p>
               <p className="text-xs mb-2" style={{ color: '#6B7280' }}>
                 AEO Specialists | Published March 27, 2026
@@ -838,7 +847,7 @@ export default function Page() {
               >
                 <p
                   className="font-plus-jakarta font-bold"
-                  style={{ color: tier.style === 'primary' ? '#FF6A00' : '#FFFFFF' }}
+                  style={{ color: tier.style === 'primary' ? '#F27D24' : '#FFFFFF' }}
                 >
                   {tier.tier}
                 </p>
@@ -850,7 +859,7 @@ export default function Page() {
                   className="inline-block text-center font-bold text-sm py-2.5 px-4 rounded-lg transition-all"
                   style={
                     tier.style === 'primary'
-                      ? { background: '#FF6A00', color: '#fff' }
+                      ? { background: '#F27D24', color: '#fff' }
                       : { border: '1px solid #1E2130', color: '#9CA3AF' }
                   }
                 >
@@ -861,7 +870,7 @@ export default function Page() {
           </div>
 
           <div className="flex flex-wrap justify-center gap-4 text-sm">
-            <a href="tel:+12134442229" style={{ color: '#FF6A00' }}>
+            <a href="tel:+12134442229" style={{ color: '#F27D24' }}>
               Call: (213) 444-2229
             </a>
             <span style={{ color: '#1E2130' }} aria-hidden="true">|</span>
@@ -924,7 +933,7 @@ export default function Page() {
                   <span>{item.q}</span>
                   <span
                     className="flex-shrink-0 ml-4 text-lg"
-                    style={{ color: '#FF6A00' }}
+                    style={{ color: '#F27D24' }}
                     aria-hidden="true"
                   >
                     +
@@ -955,7 +964,7 @@ export default function Page() {
           >
             305 Million iPhone Users Are Asking Siri for Recommendations.
             <br />
-            <span style={{ color: '#FF6A00' }}>Is Your Business in the Answer?</span>
+            <span style={{ color: '#F27D24' }}>Is Your Business in the Answer?</span>
           </h2>
           <p className="text-lg mb-8 max-w-xl mx-auto leading-relaxed relative" style={{ color: '#D1D5DB' }}>
             Apple Intelligence is evolving faster than any other AI recommendation platform in 2026.
@@ -966,14 +975,14 @@ export default function Page() {
             <Link
               href="/blindspot"
               className="ae-cta-primary inline-block font-bold px-8 py-3.5 rounded-xl text-base transition-all"
-              style={{ background: '#FF6A00', color: '#fff' }}
+              style={{ background: '#F27D24', color: '#fff' }}
             >
               Get My Free AI Visibility Audit
             </Link>
             <a
               href="tel:+12134442229"
               className="inline-block font-bold px-8 py-3.5 rounded-xl text-base transition-all"
-              style={{ border: '1px solid rgba(255,106,0,0.4)', color: '#FF6A00' }}
+              style={{ border: '1px solid rgba(255,106,0,0.4)', color: '#F27D24' }}
             >
               Call (213) 444-2229
             </a>

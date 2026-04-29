@@ -20,7 +20,7 @@ export const metadata: Metadata = {
     description,
     type: 'article',
     publishedTime: publishDate,
-    authors: ['The Answer Engine Team'],
+    authors: ['https://theanswerengine.ai/about'],
     url: `https://theanswerengine.ai/blog/${slug}`,
     images: [{ url: `https://theanswerengine.ai/blog/${slug}.webp`, width: 1200, height: 630, alt: title }],
     siteName: 'The Answer Engine',
@@ -39,7 +39,20 @@ const jsonLd = {
       image: `https://theanswerengine.ai/blog/${slug}.webp`,
       datePublished: publishDate,
       dateModified: publishDate,
-      author: { '@type': 'Organization', name: 'The Answer Engine', url: 'https://theanswerengine.ai' },
+      author: {
+        '@type': 'Person',
+        '@id': 'https://theanswerengine.ai/about#justin-borges',
+        name: 'Justin Borges',
+        jobTitle: 'Founder, The Answer Engine',
+        worksFor: {
+          '@type': 'Organization',
+          name: 'The Answer Engine',
+          url: 'https://theanswerengine.ai',
+        },
+        knowsAbout: ['Answer Engine Optimization', 'AI Search', 'Content Strategy', 'Real Estate Marketing', 'Citation Surface'],
+        url: 'https://theanswerengine.ai/about',
+        image: 'https://theanswerengine.ai/justin-borges.webp',
+      },
       publisher: {
         '@type': 'Organization',
         name: 'The Answer Engine',
@@ -161,9 +174,9 @@ export default function BlogPost() {
         <svg className="absolute inset-0 w-full h-full opacity-10" xmlns="http://www.w3.org/2000/svg">
           <defs>
             <pattern id="hero-grid-121" x="0" y="0" width="60" height="60" patternUnits="userSpaceOnUse">
-              <path d="M60 0L30 30L60 60" fill="none" stroke="#FF6A00" strokeWidth="0.5" />
-              <path d="M0 0L30 30L0 60" fill="none" stroke="#FF6A00" strokeWidth="0.5" />
-              <circle cx="30" cy="30" r="2" fill="#FF6A00" opacity="0.4" />
+              <path d="M60 0L30 30L60 60" fill="none" stroke="#F27D24" strokeWidth="0.5" />
+              <path d="M0 0L30 30L0 60" fill="none" stroke="#F27D24" strokeWidth="0.5" />
+              <circle cx="30" cy="30" r="2" fill="#F27D24" opacity="0.4" />
             </pattern>
           </defs>
           <rect width="100%" height="100%" fill="url(#hero-grid-121)" />
@@ -171,9 +184,9 @@ export default function BlogPost() {
 
         <div className="relative max-w-4xl mx-auto px-6 pt-24 pb-16">
           <nav className="flex items-center gap-2 text-sm text-gray-400 mb-8">
-            <Link href="/" className="hover:text-[#FF6A00] transition-colors">Home</Link>
+            <Link href="/" className="hover:text-[#F27D24] transition-colors">Home</Link>
             <span>/</span>
-            <Link href="/blog" className="hover:text-[#FF6A00] transition-colors">Blog</Link>
+            <Link href="/blog" className="hover:text-[#F27D24] transition-colors">Blog</Link>
             <span>/</span>
             <span className="text-gray-500">Buying Backlinks and AI Search</span>
           </nav>
@@ -189,7 +202,7 @@ export default function BlogPost() {
           </p>
 
           <div className="flex flex-wrap gap-4 text-sm text-gray-400">
-            <span>By The Answer Engine Team</span>
+            <span>By Justin Borges</span>
             <span>{publishDate}</span>
             <span>13 min read</span>
           </div>
@@ -197,7 +210,7 @@ export default function BlogPost() {
       </section>
 
       <article className="max-w-4xl mx-auto px-6 pb-20 pt-12">
-        <div className="prose prose-invert prose-lg max-w-none prose-headings:font-plus-jakarta prose-headings:text-white prose-p:text-gray-300 prose-a:text-[#FF6A00] prose-a:no-underline hover:prose-a:underline prose-strong:text-white">
+        <div className="prose prose-invert prose-lg max-w-none prose-headings:font-plus-jakarta prose-headings:text-white prose-p:text-gray-300 prose-a:text-[#F27D24] prose-a:no-underline hover:prose-a:underline prose-strong:text-white">
 
           {/* TABLE OF CONTENTS */}
           <div className="ae-toc not-prose">
@@ -627,14 +640,14 @@ export default function BlogPost() {
           <hr />
 
           {/* 3-TIER CTA BLOCK (MANDATORY) */}
-          <div className="not-prose my-16 p-8 rounded-2xl bg-gradient-to-br from-[#FF6A00]/10 to-transparent border border-[#FF6A00]/20">
+          <div className="not-prose my-16 p-8 rounded-2xl bg-gradient-to-br from-[#F27D24]/10 to-transparent border border-[#F27D24]/20">
             <h3 className="font-plus-jakarta text-2xl font-bold text-white mb-3">Your Backlinks Are Not Your AI Strategy</h3>
             <p className="text-gray-400 mb-6">Our free Blind Spot Report reveals exactly what AI platforms see (and miss) about your business. No link audits. No upsells. Just the data you need to make a smarter investment.</p>
-            <Link href="/blindspot" className="inline-flex items-center gap-2 bg-[#FF6A00] text-white px-6 py-3 rounded-lg font-semibold hover:bg-[#e55f00] transition-colors">
+            <Link href="/blindspot" className="inline-flex items-center gap-2 bg-[#F27D24] text-white px-6 py-3 rounded-lg font-semibold hover:bg-[#D96416] transition-colors">
               Get Your Free Blind Spot Report
               <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" /></svg>
             </Link>
-            <div className="flex flex-wrap items-center gap-6 mt-6 pt-6 border-t border-[#FF6A00]/10">
+            <div className="flex flex-wrap items-center gap-6 mt-6 pt-6 border-t border-[#F27D24]/10">
               <a href="tel:+12134442229" className="flex items-center gap-2 text-gray-400 hover:text-white transition-colors">
                 <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" /></svg>
                 (213) 444-2229
@@ -730,7 +743,7 @@ export default function BlogPost() {
           {/* AUTHOR CARD */}
           <div className="ae-author-card not-prose">
             <div>
-              <p className="text-white font-semibold text-lg font-plus-jakarta mb-1">The Answer Engine Team</p>
+              <p className="text-white font-semibold text-lg font-plus-jakarta mb-1">Justin Borges</p>
               <p className="text-gray-400 text-sm mb-3">Answer Engine Optimization Specialists</p>
               <p className="text-gray-300 leading-relaxed text-sm">The Answer Engine specializes in AEO for local service businesses. We position companies to be cited by Google AI Overviews, ChatGPT, Claude, Perplexity, and other AI platforms, making them the trusted expert AI recommends in their market.</p>
               <div className="flex flex-wrap gap-4 mt-3 text-sm">
@@ -752,7 +765,7 @@ export default function BlogPost() {
             <h3>Stop Buying Links. Start Building Trust.</h3>
             <p>The businesses getting cited by ChatGPT, Claude, and Perplexity did not get there through purchased backlinks. They got there by being verifiably worth recommending. Your free Blind Spot Report shows exactly what AI platforms see about your business today, and what it would take to become the one they cite tomorrow.</p>
             <Link href="/blindspot" className="ae-final-cta-pulse">Get Your Free Blind Spot Report &rarr;</Link>
-            <div className="flex flex-wrap items-center justify-center gap-6 mt-6 pt-6 border-t border-[#FF6A00]/10">
+            <div className="flex flex-wrap items-center justify-center gap-6 mt-6 pt-6 border-t border-[#F27D24]/10">
               <a href="tel:+12134442229" className="flex items-center gap-2 text-gray-400 hover:text-white transition-colors">
                 <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" /></svg>
                 (213) 444-2229
@@ -771,7 +784,7 @@ export default function BlogPost() {
           <div className="space-y-4 not-prose">
             <div className="bg-white/[0.03] border border-white/[0.08] rounded-xl p-6 hover:border-white/[0.12] transition-colors">
               <Link href="/blog/can-you-game-ai-search-like-people-used-to-game-google" className="group">
-                <h4 className="text-xl font-semibold text-white mb-2 group-hover:text-[#FF6A00] transition-colors font-plus-jakarta">
+                <h4 className="text-xl font-semibold text-white mb-2 group-hover:text-[#F27D24] transition-colors font-plus-jakarta">
                   Can You Game AI Search Like People Used to Game Google
                 </h4>
                 <p className="text-gray-400 leading-relaxed">
@@ -781,7 +794,7 @@ export default function BlogPost() {
             </div>
             <div className="bg-white/[0.03] border border-white/[0.08] rounded-xl p-6 hover:border-white/[0.12] transition-colors">
               <Link href="/blog/is-paying-for-seo-a-waste-of-money-in-the-ai-era" className="group">
-                <h4 className="text-xl font-semibold text-white mb-2 group-hover:text-[#FF6A00] transition-colors font-plus-jakarta">
+                <h4 className="text-xl font-semibold text-white mb-2 group-hover:text-[#F27D24] transition-colors font-plus-jakarta">
                   Is Paying for SEO a Waste of Money in the AI Era
                 </h4>
                 <p className="text-gray-400 leading-relaxed">
@@ -791,7 +804,7 @@ export default function BlogPost() {
             </div>
             <div className="bg-white/[0.03] border border-white/[0.08] rounded-xl p-6 hover:border-white/[0.12] transition-colors">
               <Link href="/blog/reddit-mentions-boost-ai-search-visibility" className="group">
-                <h4 className="text-xl font-semibold text-white mb-2 group-hover:text-[#FF6A00] transition-colors font-plus-jakarta">
+                <h4 className="text-xl font-semibold text-white mb-2 group-hover:text-[#F27D24] transition-colors font-plus-jakarta">
                   Reddit Mentions Boost AI Search Visibility
                 </h4>
                 <p className="text-gray-400 leading-relaxed">

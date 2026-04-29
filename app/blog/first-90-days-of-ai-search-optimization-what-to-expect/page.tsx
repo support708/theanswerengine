@@ -19,7 +19,7 @@ export const metadata: Metadata = {
     description,
     type: 'article',
     publishedTime: publishDate,
-    authors: ['The Answer Engine Team'],
+    authors: ['https://theanswerengine.ai/about'],
     url: `https://theanswerengine.ai/blog/${slug}`,
     images: [{ url: `https://theanswerengine.ai/blog/${slug}.webp`, width: 1200, height: 630, alt: title }],
     siteName: 'The Answer Engine',
@@ -38,7 +38,20 @@ const jsonLd = {
       image: `https://theanswerengine.ai/blog/${slug}.webp`,
       datePublished: publishDate,
       dateModified: publishDate,
-      author: { '@type': 'Organization', name: 'The Answer Engine', url: 'https://theanswerengine.ai' },
+      author: {
+        '@type': 'Person',
+        '@id': 'https://theanswerengine.ai/about#justin-borges',
+        name: 'Justin Borges',
+        jobTitle: 'Founder, The Answer Engine',
+        worksFor: {
+          '@type': 'Organization',
+          name: 'The Answer Engine',
+          url: 'https://theanswerengine.ai',
+        },
+        knowsAbout: ['Answer Engine Optimization', 'AI Search', 'Content Strategy', 'Real Estate Marketing', 'Citation Surface'],
+        url: 'https://theanswerengine.ai/about',
+        image: 'https://theanswerengine.ai/justin-borges.webp',
+      },
       publisher: {
         '@type': 'Organization',
         name: 'The Answer Engine',
@@ -129,9 +142,9 @@ export default function BlogPost() {
         <svg className="absolute inset-0 w-full h-full opacity-10" xmlns="http://www.w3.org/2000/svg">
           <defs>
             <pattern id="hero-grid" x="0" y="0" width="60" height="60" patternUnits="userSpaceOnUse">
-              <path d="M60 0L30 30L60 60" fill="none" stroke="#FF6A00" strokeWidth="0.5" />
-              <path d="M0 0L30 30L0 60" fill="none" stroke="#FF6A00" strokeWidth="0.5" />
-              <circle cx="30" cy="30" r="2" fill="#FF6A00" opacity="0.4" />
+              <path d="M60 0L30 30L60 60" fill="none" stroke="#F27D24" strokeWidth="0.5" />
+              <path d="M0 0L30 30L0 60" fill="none" stroke="#F27D24" strokeWidth="0.5" />
+              <circle cx="30" cy="30" r="2" fill="#F27D24" opacity="0.4" />
             </pattern>
           </defs>
           <rect width="100%" height="100%" fill="url(#hero-grid)" />
@@ -140,9 +153,9 @@ export default function BlogPost() {
         <div className="relative max-w-4xl mx-auto px-6 pt-24 pb-16">
           {/* BREADCRUMB */}
           <nav className="flex items-center gap-2 text-sm text-gray-400 mb-8">
-            <Link href="/" className="hover:text-[#FF6A00] transition-colors">Home</Link>
+            <Link href="/" className="hover:text-[#F27D24] transition-colors">Home</Link>
             <span>/</span>
-            <Link href="/blog" className="hover:text-[#FF6A00] transition-colors">Blog</Link>
+            <Link href="/blog" className="hover:text-[#F27D24] transition-colors">Blog</Link>
             <span>/</span>
             <span className="text-gray-500">First 90 Days of AI Optimization</span>
           </nav>
@@ -158,7 +171,7 @@ export default function BlogPost() {
           </p>
 
           <div className="flex flex-wrap gap-4 text-sm text-gray-400">
-            <span>By The Answer Engine Team</span>
+            <span>By Justin Borges</span>
             <span>{publishDate}</span>
             <span>10 min read</span>
           </div>
@@ -166,7 +179,7 @@ export default function BlogPost() {
       </section>
 
       <article className="max-w-4xl mx-auto px-6 pb-20 pt-12">
-        <div className="prose prose-invert prose-lg max-w-none prose-headings:font-plus-jakarta prose-headings:text-white prose-p:text-gray-300 prose-a:text-[#FF6A00] prose-a:no-underline hover:prose-a:underline prose-strong:text-white">
+        <div className="prose prose-invert prose-lg max-w-none prose-headings:font-plus-jakarta prose-headings:text-white prose-p:text-gray-300 prose-a:text-[#F27D24] prose-a:no-underline hover:prose-a:underline prose-strong:text-white">
 
           {/* TABLE OF CONTENTS */}
           <div className="ae-toc not-prose">
@@ -459,17 +472,18 @@ export default function BlogPost() {
           </p>
 
           {/* AUTHOR CARD */}
-          <div className="ae-author-card not-prose">
-            <div className="ae-author-avatar">AE</div>
-            <div className="ae-author-info">
-              <div className="ae-author-name">The Answer Engine Team</div>
-              <div className="ae-author-bio">We help businesses get recommended by ChatGPT, Perplexity, and Google AI. Our team analyzes AI citation patterns, content structure, and authority signals across thousands of business categories so your brand shows up when customers ask AI for recommendations.</div>
-              <div className="ae-author-links">
-                <Link href="/about">About Us</Link>
-                <Link href="/contact">Work With Us</Link>
+          <div className="ae-author-card">
+              <img
+                src="/justin-borges.webp"
+                alt="Justin Borges, Founder of The Answer Engine"
+                style={{ width: 64, height: 64, borderRadius: '50%', objectFit: 'cover', flexShrink: 0 }}
+              />
+              <div>
+                <div className="ae-author-name" style={{ fontWeight: 600 }}>Justin Borges</div>
+                <div className="ae-author-role" style={{ fontWeight: 400 }}>Founder, The Answer Engine</div>
+                <p style={{ marginTop: 8, fontSize: '0.875rem', color: 'rgba(255,255,255,0.65)', lineHeight: 1.6 }}>Justin Borges founded The Answer Engine in 2025 after 13+ years in real estate, $200M+ in production, and discovering that AI search rankings now decide who gets cited as the answer. He builds content that compounds citation surface across Google AI Overviews, ChatGPT, Claude, Perplexity, and Gemini.</p>
               </div>
             </div>
-          </div>
 
           {/* 3-TIER CTA BLOCK */}
           <div className="ae-cta-block not-prose" id="cta-main">

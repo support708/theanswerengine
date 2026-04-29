@@ -249,7 +249,7 @@ export function renderPillarsInner(displayName: string, clusters: PillarCluster[
         </tr>`)
         .join('');
       return `
-<div style="margin-bottom:20px;padding:14px;background:#fafafa;border-left:3px solid #FF6A00;">
+<div style="margin-bottom:20px;padding:14px;background:#fafafa;border-left:3px solid #F27D24;">
   <div style="margin-bottom:8px;">
     <span style="font-family:${MONO};font-size:10px;color:#888;letter-spacing:0.14em;text-transform:uppercase;">Cluster ${i + 1}</span>
     <h3 style="margin:4px 0 2px 0;font-size:17px;color:#1a1a1a;font-weight:900;letter-spacing:-0.01em;">${escapeHtml(c.name || c.topTokens.slice(0, 3).join(' / '))}</h3>

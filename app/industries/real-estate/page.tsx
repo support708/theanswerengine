@@ -7,11 +7,27 @@ export const metadata: Metadata = {
     'Answer Engine Optimization built for real estate. Our own LA site reached 1.14M+ monthly impressions with citations across 4 AI platforms. One agent per market. 90-day guarantee.',
   alternates: { canonical: 'https://www.theanswerengine.ai/industries/real-estate' },
   openGraph: {
-    title: 'AEO for Real Estate Agents',
+    title: 'AEO for Real Estate Agents | Get Cited by ChatGPT, Claude, Google AI, Perplexity',
     description:
       'The AEO playbook we built on our own real estate site — 1.14M+ monthly impressions, 4 AI platforms citing, $0 ad spend. Now one real estate agent per market gets the same system.',
     url: 'https://www.theanswerengine.ai/industries/real-estate',
     type: 'website',
+    siteName: 'The Answer Engine',
+    images: [
+      {
+        url: 'https://www.theanswerengine.ai/og-default.png',
+        width: 1200,
+        height: 630,
+        alt: 'AEO for Real Estate Agents — The Answer Engine',
+      }
+    ],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'AEO for Real Estate Agents | Get Cited by ChatGPT, Claude, Google AI, Perplexity',
+    description: '1.14M+ monthly impressions on our own LA real estate site. One agent per market. 90-day citation guarantee.',
+    site: '@theanswerengine',
+    images: ['https://www.theanswerengine.ai/og-default.png'],
   },
 };
 
@@ -102,7 +118,7 @@ export default function RealEstateIndustryPage() {
         <section
           className="relative py-24 md:py-32 px-6 lg:px-24 border-b border-white/5"
           style={{
-            backgroundImage: 'radial-gradient(#FF6A0011 0.5px, transparent 0.5px)',
+            backgroundImage: 'radial-gradient(#F27D2411 0.5px, transparent 0.5px)',
             backgroundSize: '24px 24px',
           }}
         >
@@ -110,7 +126,7 @@ export default function RealEstateIndustryPage() {
             <div className="mb-8">
               <Link
                 href="/"
-                className="font-mono text-[10px] tracking-widest uppercase text-white/40 hover:text-[#FF6A00] transition-colors inline-flex items-center gap-2"
+                className="font-mono text-[10px] tracking-widest uppercase text-white/40 hover:text-[#F27D24] transition-colors inline-flex items-center gap-2"
               >
                 <svg className="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={2}>
                   <path strokeLinecap="round" strokeLinejoin="round" d="M10.5 19.5L3 12m0 0l7.5-7.5M3 12h18" />
@@ -119,26 +135,26 @@ export default function RealEstateIndustryPage() {
               </Link>
             </div>
 
-            <div className="inline-block border border-[#FF6A00]/30 px-3 py-1 mb-8">
-              <span className="font-mono text-[10px] font-bold tracking-[0.2em] text-[#FF6A00] uppercase">
+            <div className="inline-block border border-[#F27D24]/30 px-3 py-1 mb-8">
+              <span className="font-mono text-[10px] font-bold tracking-[0.2em] text-[#F27D24] uppercase">
                 Industries // Real Estate
               </span>
             </div>
 
             <h1 className="font-headline font-black text-5xl md:text-7xl lg:text-8xl uppercase tracking-tighter leading-none mb-8 max-w-5xl">
               AEO FOR{' '}
-              <span className="text-[#FF6A00]">REAL ESTATE</span><br />
+              <span className="text-[#F27D24]">REAL ESTATE</span><br />
               AGENTS
             </h1>
 
-            <p className="text-white/60 text-lg md:text-xl leading-relaxed max-w-2xl mb-10 border-l-2 border-[#FF6A00] pl-6">
+            <p className="text-white/60 text-lg md:text-xl leading-relaxed max-w-2xl mb-10 border-l-2 border-[#F27D24] pl-6">
               Built on a real estate site first. 1.14M+ monthly impressions. Cited by ChatGPT, Claude, Perplexity, and Google AI Overviews. Now one real estate professional per market gets the same playbook.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4">
               <Link
                 href="/#territory-check"
-                className="bg-[#FF6A00] text-black font-black px-10 py-5 text-xl tracking-tighter hover:translate-y-[2px] transition-transform font-headline uppercase inline-flex items-center gap-3"
+                className="bg-[#F27D24] text-black font-black px-10 py-5 text-xl tracking-tighter hover:translate-y-[2px] transition-transform font-headline uppercase inline-flex items-center gap-3"
               >
                 Check Your Market
                 <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={2.5}>
@@ -149,7 +165,7 @@ export default function RealEstateIndustryPage() {
                 href="https://calendly.com/theanswerengine-support/30min"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="border-2 border-[#FF6A00] text-[#FF6A00] font-bold px-10 py-5 text-xl tracking-tighter hover:bg-[#FF6A00] hover:text-black transition-all font-headline uppercase"
+                className="border-2 border-[#F27D24] text-[#F27D24] font-bold px-10 py-5 text-xl tracking-tighter hover:bg-[#F27D24] hover:text-black transition-all font-headline uppercase"
               >
                 Book 30-Min Call
               </a>
@@ -171,7 +187,7 @@ export default function RealEstateIndustryPage() {
                   key={stat.label}
                   className={`p-8 ${i < 3 ? 'border-b md:border-b-0 md:border-r' : ''} border-white/10 bg-[#131313]`}
                 >
-                  <div className="font-headline font-black text-4xl md:text-5xl text-[#FF6A00] mb-2">{stat.val}</div>
+                  <div className="font-headline font-black text-4xl md:text-5xl text-[#F27D24] mb-2">{stat.val}</div>
                   <div className="font-mono text-[10px] text-white/40 uppercase tracking-widest">{stat.label}</div>
                 </div>
               ))}
@@ -182,12 +198,12 @@ export default function RealEstateIndustryPage() {
         {/* QUERY CLUSTERS */}
         <section className="py-24 md:py-32 px-6 lg:px-24 bg-[#131313]">
           <div className="max-w-7xl mx-auto">
-            <span className="font-mono text-[10px] tracking-widest uppercase text-[#FF6A00] block mb-3">
+            <span className="font-mono text-[10px] tracking-widest uppercase text-[#F27D24] block mb-3">
               What We Target // Real Estate Query Clusters
             </span>
             <h2 className="font-headline font-black text-4xl md:text-5xl uppercase tracking-tighter mb-6">
               EVERY QUERY A CLIENT{' '}
-              <span className="text-[#FF6A00]">ASKS AI.</span>
+              <span className="text-[#F27D24]">ASKS AI.</span>
             </h2>
             <p className="text-white/50 text-sm leading-relaxed mb-16 max-w-2xl">
               We map the specific questions buyers, sellers, and investors ask AI platforms in your market. Then we build the authority surface that positions you as the named answer.
@@ -197,13 +213,13 @@ export default function RealEstateIndustryPage() {
               {QUERY_CLUSTERS.map((q, i) => (
                 <div
                   key={q.num}
-                  className={`p-8 bg-[#1c1b1b] hover:bg-[#2a2a2a] transition-colors border-l-4 border-l-[#FF6A00] ${
+                  className={`p-8 bg-[#1c1b1b] hover:bg-[#2a2a2a] transition-colors border-l-4 border-l-[#F27D24] ${
                     i < 2 ? 'border-b border-white/10' : ''
                   } ${i % 2 === 0 ? 'md:border-r border-white/10' : ''}`}
                 >
                   <div className="flex justify-between items-start mb-6">
                     <span className="text-5xl font-headline font-black text-white/10">{q.num}</span>
-                    <span className="font-mono text-[10px] text-[#FF6A00] tracking-widest uppercase mt-3">
+                    <span className="font-mono text-[10px] text-[#F27D24] tracking-widest uppercase mt-3">
                       {q.tag}
                     </span>
                   </div>
@@ -221,12 +237,12 @@ export default function RealEstateIndustryPage() {
         {/* WHO IT'S FOR */}
         <section className="py-24 md:py-32 px-6 lg:px-24 bg-[#1c1b1b] border-y border-white/5">
           <div className="max-w-7xl mx-auto">
-            <span className="font-mono text-[10px] tracking-widest uppercase text-[#FF6A00] block mb-3">
+            <span className="font-mono text-[10px] tracking-widest uppercase text-[#F27D24] block mb-3">
               Who It&apos;s For // Three Profiles
             </span>
             <h2 className="font-headline font-black text-4xl md:text-5xl uppercase tracking-tighter mb-16">
               SOLO, TEAM,{' '}
-              <span className="text-[#FF6A00]">OR BROKERAGE.</span>
+              <span className="text-[#F27D24]">OR BROKERAGE.</span>
             </h2>
 
             <div className="grid grid-cols-1 md:grid-cols-3 gap-0 border border-white/10">
@@ -248,8 +264,8 @@ export default function RealEstateIndustryPage() {
         {/* LAMH MINI CASE */}
         <section className="py-24 md:py-32 px-6 lg:px-24 bg-[#131313]">
           <div className="max-w-5xl mx-auto">
-            <div className="bg-[#2a2a2a] border-l-4 border-l-[#FF6A00] p-10 md:p-14">
-              <span className="font-mono text-[10px] tracking-widest uppercase text-[#FF6A00] block mb-4">
+            <div className="bg-[#2a2a2a] border-l-4 border-l-[#F27D24] p-10 md:p-14">
+              <span className="font-mono text-[10px] tracking-widest uppercase text-[#F27D24] block mb-4">
                 The Proof // LA Metro Home Finder
               </span>
               <h2 className="font-headline font-black text-3xl md:text-4xl uppercase tracking-tighter mb-6 leading-tight">
@@ -260,7 +276,7 @@ export default function RealEstateIndustryPage() {
               </p>
               <Link
                 href="/case-studies"
-                className="font-mono text-[10px] tracking-widest uppercase text-[#FF6A00] hover:text-white transition-colors inline-flex items-center gap-2"
+                className="font-mono text-[10px] tracking-widest uppercase text-[#F27D24] hover:text-white transition-colors inline-flex items-center gap-2"
               >
                 Read the full case study
                 <svg className="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={2}>
@@ -272,7 +288,7 @@ export default function RealEstateIndustryPage() {
         </section>
 
         {/* CTA */}
-        <section className="py-24 md:py-32 px-6 lg:px-24 bg-[#FF6A00]">
+        <section className="py-24 md:py-32 px-6 lg:px-24 bg-[#F27D24]">
           <div className="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center gap-12">
             <div>
               <span className="font-mono text-[10px] tracking-widest uppercase text-black/60 mb-4 block">
@@ -285,7 +301,7 @@ export default function RealEstateIndustryPage() {
             <div className="flex flex-col sm:flex-row gap-4">
               <Link
                 href="/#territory-check"
-                className="bg-black text-[#FF6A00] px-10 py-4 font-headline font-black uppercase tracking-tighter text-sm hover:bg-[#131313] transition-colors inline-flex items-center gap-3 whitespace-nowrap"
+                className="bg-black text-[#F27D24] px-10 py-4 font-headline font-black uppercase tracking-tighter text-sm hover:bg-[#131313] transition-colors inline-flex items-center gap-3 whitespace-nowrap"
               >
                 CHECK TERRITORY
                 <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={2.5}>
@@ -296,7 +312,7 @@ export default function RealEstateIndustryPage() {
                 href="https://calendly.com/theanswerengine-support/30min"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="border-2 border-black text-black px-10 py-4 font-headline font-black uppercase tracking-tighter text-sm hover:bg-black hover:text-[#FF6A00] transition-colors"
+                className="border-2 border-black text-black px-10 py-4 font-headline font-black uppercase tracking-tighter text-sm hover:bg-black hover:text-[#F27D24] transition-colors"
               >
                 BOOK 30-MIN CALL
               </a>

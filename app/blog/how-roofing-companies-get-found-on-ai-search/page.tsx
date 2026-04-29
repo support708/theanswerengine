@@ -31,7 +31,7 @@ export const metadata: Metadata = {
     description,
     type: 'article',
     publishedTime: publishDate,
-    authors: ['The Answer Engine Team'],
+    authors: ['https://theanswerengine.ai/about'],
     url: `https://www.theanswerengine.ai/blog/${slug}`,
     images: [{ url: `https://www.theanswerengine.ai/blog/${slug}.webp`, width: 1200, height: 630, alt: title }],
   },
@@ -62,9 +62,18 @@ const jsonLd = {
       datePublished: publishDate,
       dateModified: publishDate,
       author: {
-        '@type': 'Organization',
-        name: 'The Answer Engine',
-        url: 'https://www.theanswerengine.ai',
+        '@type': 'Person',
+        '@id': 'https://theanswerengine.ai/about#justin-borges',
+        name: 'Justin Borges',
+        jobTitle: 'Founder, The Answer Engine',
+        worksFor: {
+          '@type': 'Organization',
+          name: 'The Answer Engine',
+          url: 'https://theanswerengine.ai',
+        },
+        knowsAbout: ['Answer Engine Optimization', 'AI Search', 'Content Strategy', 'Real Estate Marketing', 'Citation Surface'],
+        url: 'https://theanswerengine.ai/about',
+        image: 'https://theanswerengine.ai/justin-borges.webp',
       },
       publisher: {
         '@type': 'Organization',
@@ -208,34 +217,34 @@ export default function Page() {
                 <stop offset="100%" stopColor="#0F1117" />
               </radialGradient>
               <radialGradient id="roof-glow" cx="38%" cy="55%" r="45%">
-                <stop offset="0%" stopColor="#FF6A00" stopOpacity="0.14" />
-                <stop offset="100%" stopColor="#FF6A00" stopOpacity="0" />
+                <stop offset="0%" stopColor="#F27D24" stopOpacity="0.14" />
+                <stop offset="100%" stopColor="#F27D24" stopOpacity="0" />
               </radialGradient>
             </defs>
             <rect width="1200" height="400" fill="url(#roof-bg)" />
             <circle cx="460" cy="240" r="300" fill="url(#roof-glow)" />
 
             {/* Roof silhouette */}
-            <polygon points="300,280 460,140 620,280" fill="none" stroke="#FF6A00" strokeWidth="2.5" strokeOpacity="0.55" />
-            <rect x="370" y="280" width="180" height="60" rx="2" fill="none" stroke="#FF6A00" strokeWidth="1.5" strokeOpacity="0.35" />
+            <polygon points="300,280 460,140 620,280" fill="none" stroke="#F27D24" strokeWidth="2.5" strokeOpacity="0.55" />
+            <rect x="370" y="280" width="180" height="60" rx="2" fill="none" stroke="#F27D24" strokeWidth="1.5" strokeOpacity="0.35" />
             {/* Shingles suggestion */}
-            <line x1="300" y1="280" x2="620" y2="280" stroke="#FF6A00" strokeWidth="1" strokeOpacity="0.2" />
-            <line x1="340" y1="245" x2="580" y2="245" stroke="#FF6A00" strokeWidth="1" strokeOpacity="0.15" />
-            <line x1="380" y1="210" x2="540" y2="210" stroke="#FF6A00" strokeWidth="1" strokeOpacity="0.12" />
+            <line x1="300" y1="280" x2="620" y2="280" stroke="#F27D24" strokeWidth="1" strokeOpacity="0.2" />
+            <line x1="340" y1="245" x2="580" y2="245" stroke="#F27D24" strokeWidth="1" strokeOpacity="0.15" />
+            <line x1="380" y1="210" x2="540" y2="210" stroke="#F27D24" strokeWidth="1" strokeOpacity="0.12" />
             {/* Hail dots */}
-            <circle cx="350" cy="160" r="3" fill="#FF6A00" fillOpacity="0.4" />
-            <circle cx="430" cy="120" r="2.5" fill="#FF6A00" fillOpacity="0.3" />
-            <circle cx="510" cy="150" r="3.5" fill="#FF6A00" fillOpacity="0.35" />
-            <circle cx="590" cy="135" r="2" fill="#FF6A00" fillOpacity="0.25" />
-            <circle cx="320" cy="200" r="2" fill="#FF6A00" fillOpacity="0.2" />
-            <circle cx="610" cy="195" r="2.5" fill="#FF6A00" fillOpacity="0.3" />
+            <circle cx="350" cy="160" r="3" fill="#F27D24" fillOpacity="0.4" />
+            <circle cx="430" cy="120" r="2.5" fill="#F27D24" fillOpacity="0.3" />
+            <circle cx="510" cy="150" r="3.5" fill="#F27D24" fillOpacity="0.35" />
+            <circle cx="590" cy="135" r="2" fill="#F27D24" fillOpacity="0.25" />
+            <circle cx="320" cy="200" r="2" fill="#F27D24" fillOpacity="0.2" />
+            <circle cx="610" cy="195" r="2.5" fill="#F27D24" fillOpacity="0.3" />
 
             {/* AI response bubble */}
-            <rect x="660" y="110" width="360" height="180" rx="16" fill="#1e2235" stroke="#FF6A00" strokeWidth="1" strokeOpacity="0.3" />
-            <text x="684" y="146" fill="#FF6A00" fontSize="13" fontFamily="monospace" opacity="0.9">AI Response</text>
-            <line x1="684" y1="156" x2="1000" y2="156" stroke="#FF6A00" strokeWidth="0.5" strokeOpacity="0.3" />
+            <rect x="660" y="110" width="360" height="180" rx="16" fill="#1e2235" stroke="#F27D24" strokeWidth="1" strokeOpacity="0.3" />
+            <text x="684" y="146" fill="#F27D24" fontSize="13" fontFamily="monospace" opacity="0.9">AI Response</text>
+            <line x1="684" y1="156" x2="1000" y2="156" stroke="#F27D24" strokeWidth="0.5" strokeOpacity="0.3" />
             <text x="684" y="180" fill="#aaa" fontSize="12" fontFamily="monospace">"Best roofer near me..."</text>
-            <circle cx="699" cy="205" r="4.5" fill="#FF6A00" opacity="0.85" />
+            <circle cx="699" cy="205" r="4.5" fill="#F27D24" opacity="0.85" />
             <text x="712" y="209" fill="#eee" fontSize="12" fontFamily="monospace">Your Roofing Co.</text>
             <circle cx="699" cy="228" r="4.5" fill="#444" opacity="0.5" />
             <text x="712" y="232" fill="#555" fontSize="12" fontFamily="monospace">Competitor A</text>
@@ -243,8 +252,8 @@ export default function Page() {
             <text x="712" y="255" fill="#444" fontSize="12" fontFamily="monospace">Competitor B</text>
 
             {/* Arrow from roof to bubble */}
-            <path d="M635,215 Q648,215 655,215" stroke="#FF6A00" strokeWidth="1.5" strokeDasharray="5,3" fill="none" strokeOpacity="0.5" />
-            <polygon points="654,211 662,215 654,219" fill="#FF6A00" fillOpacity="0.5" />
+            <path d="M635,215 Q648,215 655,215" stroke="#F27D24" strokeWidth="1.5" strokeDasharray="5,3" fill="none" strokeOpacity="0.5" />
+            <polygon points="654,211 662,215 654,219" fill="#F27D24" fillOpacity="0.5" />
           </svg>
         </div>
 
@@ -293,7 +302,7 @@ export default function Page() {
         </div>
 
         <div className="ae-cta-inline not-prose">
-          <p>Wondering if AI platforms even know your roofing business exists? <Link href="/blindspot" className="text-[#FF6A00] hover:underline font-semibold">Get a free Blind Spot Report</Link> and find out in minutes.</p>
+          <p>Wondering if AI platforms even know your roofing business exists? <Link href="/blindspot" className="text-[#F27D24] hover:underline font-semibold">Get a free Blind Spot Report</Link> and find out in minutes.</p>
         </div>
 
         <h2 id="how-ai-finds-roofers">How AI Platforms Find and Rank Roofing Companies</h2>
@@ -383,7 +392,7 @@ export default function Page() {
         </div>
 
         <div className="ae-cta-inline not-prose">
-          <p>Not sure if your storm damage content is citation-ready? <Link href="/blindspot" className="text-[#FF6A00] hover:underline font-semibold">Get a free Blind Spot Report</Link> and see exactly what AI knows about your roofing company.</p>
+          <p>Not sure if your storm damage content is citation-ready? <Link href="/blindspot" className="text-[#F27D24] hover:underline font-semibold">Get a free Blind Spot Report</Link> and see exactly what AI knows about your roofing company.</p>
         </div>
 
         <h2 id="local-citations">Why Local Citations Are the Foundation of Roofing AI Visibility</h2>
@@ -464,7 +473,7 @@ export default function Page() {
         <p>The gap between these two schema profiles is enormous in terms of AI query matching. A roofer with full multi-service schema can potentially surface for "who does storm damage roof repair in [city]," "best roofer for insurance claims near me," "emergency roof tarping [city]," and "GAF certified roofer [city]" as separate citation events. A roofer with no schema is unlikely to surface for any of them specifically.</p>
 
         <div className="ae-cta-inline not-prose">
-          <p>Not sure if your schema setup covers all your services? <Link href="/blindspot" className="text-[#FF6A00] hover:underline font-semibold">Get a free Blind Spot Report</Link> to see your full structured data profile.</p>
+          <p>Not sure if your schema setup covers all your services? <Link href="/blindspot" className="text-[#F27D24] hover:underline font-semibold">Get a free Blind Spot Report</Link> to see your full structured data profile.</p>
         </div>
 
         <h2 id="service-pages">Service Pages That Become Citation Assets</h2>
@@ -587,18 +596,18 @@ export default function Page() {
 
         <div className="ae-callout ae-callout-info not-prose">
           <div className="ae-callout-title">Related Reading</div>
-          <p>Roofing is part of the broader home services category. See <Link href="/blog/how-contractors-and-home-service-companies-win-ai-search" className="text-[#FF6A00] hover:underline">how contractors win AI search</Link> for cross-trade patterns, and <Link href="/blog/why-does-ai-recommend-other-roofers-but-not-me" className="text-[#FF6A00] hover:underline">why AI recommends other roofers instead of you</Link> for a diagnostic breakdown of the most common gaps.</p>
+          <p>Roofing is part of the broader home services category. See <Link href="/blog/how-contractors-and-home-service-companies-win-ai-search" className="text-[#F27D24] hover:underline">how contractors win AI search</Link> for cross-trade patterns, and <Link href="/blog/why-does-ai-recommend-other-roofers-but-not-me" className="text-[#F27D24] hover:underline">why AI recommends other roofers instead of you</Link> for a diagnostic breakdown of the most common gaps.</p>
         </div>
 
         {/* 3-tier CTA block */}
-        <div className="not-prose my-16 p-8 rounded-2xl bg-gradient-to-br from-[#FF6A00]/10 to-transparent border border-[#FF6A00]/20">
+        <div className="not-prose my-16 p-8 rounded-2xl bg-gradient-to-br from-[#F27D24]/10 to-transparent border border-[#F27D24]/20">
           <h3 className="font-plus-jakarta text-2xl font-bold text-white mb-3">Find Out Why AI Is Sending Storm Calls to Other Roofers</h3>
           <p className="text-gray-400 mb-6">Our free Blind Spot Report shows exactly what ChatGPT, Perplexity, and Google AI know about your roofing company, which citation signals are missing, and what it would take to appear when a homeowner asks for a roofer after the next storm.</p>
-          <Link href="/blindspot" className="inline-flex items-center gap-2 bg-[#FF6A00] text-white px-6 py-3 rounded-lg font-semibold hover:bg-[#e55f00] transition-colors">
+          <Link href="/blindspot" className="inline-flex items-center gap-2 bg-[#F27D24] text-white px-6 py-3 rounded-lg font-semibold hover:bg-[#D96416] transition-colors">
             Get Your Free Blind Spot Report
             <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" /></svg>
           </Link>
-          <div className="flex flex-wrap items-center gap-6 mt-6 pt-6 border-t border-[#FF6A00]/10">
+          <div className="flex flex-wrap items-center gap-6 mt-6 pt-6 border-t border-[#F27D24]/10">
             <a href="tel:+12134442229" className="flex items-center gap-2 text-gray-400 hover:text-white transition-colors">
               <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" /></svg>
               (213) 444-2229
@@ -611,13 +620,18 @@ export default function Page() {
         </div>
 
         {/* Author card */}
-        <div className="ae-author-card not-prose">
-          <div className="ae-author-avatar">AE</div>
-          <div>
-            <div className="font-semibold text-white">The Answer Engine Team</div>
-            <div className="text-sm text-gray-400">AI visibility specialists helping local service businesses get found, trusted, and recommended by ChatGPT, Perplexity, and Google AI.</div>
-          </div>
-        </div>
+        <div className="ae-author-card">
+              <img
+                src="/justin-borges.webp"
+                alt="Justin Borges, Founder of The Answer Engine"
+                style={{ width: 64, height: 64, borderRadius: '50%', objectFit: 'cover', flexShrink: 0 }}
+              />
+              <div>
+                <div className="ae-author-name" style={{ fontWeight: 600 }}>Justin Borges</div>
+                <div className="ae-author-role" style={{ fontWeight: 400 }}>Founder, The Answer Engine</div>
+                <p style={{ marginTop: 8, fontSize: '0.875rem', color: 'rgba(255,255,255,0.65)', lineHeight: 1.6 }}>Justin Borges founded The Answer Engine in 2025 after 13+ years in real estate, $200M+ in production, and discovering that AI search rankings now decide who gets cited as the answer. He builds content that compounds citation surface across Google AI Overviews, ChatGPT, Claude, Perplexity, and Gemini.</p>
+              </div>
+            </div>
 
         {/* FAQ */}
         <h2 id="faq">Frequently Asked Questions</h2>
@@ -664,7 +678,7 @@ export default function Page() {
         <div className="ae-final-cta not-prose">
           <h2 className="font-plus-jakarta text-3xl font-bold text-white mb-4">The Next Storm Job Could Be Yours</h2>
           <p className="text-gray-300 mb-8 text-lg">Every AI-referred roofing call that goes to a competitor is a lost job. Our Blind Spot Report shows exactly what AI sees when a homeowner searches for a roofer in your area after a storm, and what you need to change to capture that call.</p>
-          <Link href="/blindspot" className="inline-flex items-center gap-2 bg-[#FF6A00] text-white px-8 py-4 rounded-xl font-bold text-lg hover:bg-[#e55f00] transition-colors ae-pulse-glow">
+          <Link href="/blindspot" className="inline-flex items-center gap-2 bg-[#F27D24] text-white px-8 py-4 rounded-xl font-bold text-lg hover:bg-[#D96416] transition-colors ae-pulse-glow">
             Get Your Free Blind Spot Report
             <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" /></svg>
           </Link>

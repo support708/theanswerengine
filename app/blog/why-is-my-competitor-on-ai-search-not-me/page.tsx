@@ -28,7 +28,7 @@ export const metadata: Metadata = {
     description,
     type: 'article',
     publishedTime: publishDate,
-    authors: ['The Answer Engine Team'],
+    authors: ['https://theanswerengine.ai/about'],
     url: `https://theanswerengine.ai/blog/${slug}`,
     images: [
       {
@@ -61,9 +61,18 @@ const jsonLd = {
       datePublished: publishDate,
       dateModified: publishDate,
       author: {
-        '@type': 'Organization',
-        name: 'The Answer Engine',
-        url: 'https://theanswerengine.ai',
+        '@type': 'Person',
+        '@id': 'https://theanswerengine.ai/about#justin-borges',
+        name: 'Justin Borges',
+        jobTitle: 'Founder, The Answer Engine',
+        worksFor: {
+          '@type': 'Organization',
+          name: 'The Answer Engine',
+          url: 'https://theanswerengine.ai',
+        },
+        knowsAbout: ['Answer Engine Optimization', 'AI Search', 'Content Strategy', 'Real Estate Marketing', 'Citation Surface'],
+        url: 'https://theanswerengine.ai/about',
+        image: 'https://theanswerengine.ai/justin-borges.webp',
       },
       publisher: {
         '@type': 'Organization',
@@ -208,17 +217,17 @@ export default function Page() {
               fill="none"
               aria-hidden="true"
             >
-              <rect x="200" y="80" width="120" height="240" rx="8" stroke="#FF6A00" strokeWidth="0.5" fill="rgba(255,106,0,0.05)" />
-              <rect x="480" y="80" width="120" height="240" rx="8" stroke="#FF6A00" strokeWidth="0.3" fill="none" strokeDasharray="4 4" />
+              <rect x="200" y="80" width="120" height="240" rx="8" stroke="#F27D24" strokeWidth="0.5" fill="rgba(255,106,0,0.05)" />
+              <rect x="480" y="80" width="120" height="240" rx="8" stroke="#F27D24" strokeWidth="0.3" fill="none" strokeDasharray="4 4" />
               <circle cx="260" cy="160" r="20" fill="rgba(255,106,0,0.15)" />
               <circle cx="260" cy="200" r="14" fill="rgba(255,106,0,0.1)" />
               <circle cx="260" cy="240" r="10" fill="rgba(255,106,0,0.08)" />
-              <text x="245" y="290" fontFamily="monospace" fontSize="12" fill="#FF6A00" opacity="0.3">CITED</text>
-              <text x="515" y="290" fontFamily="monospace" fontSize="12" fill="#FF6A00" opacity="0.15">INVISIBLE</text>
-              <line x1="380" y1="100" x2="420" y2="100" stroke="#FF6A00" strokeWidth="0.5" />
-              <line x1="380" y1="200" x2="420" y2="200" stroke="#FF6A00" strokeWidth="0.3" />
-              <line x1="380" y1="300" x2="420" y2="300" stroke="#FF6A00" strokeWidth="0.3" />
-              <path d="M390 190 L400 180 L410 190" stroke="#FF6A00" strokeWidth="0.5" fill="none" />
+              <text x="245" y="290" fontFamily="monospace" fontSize="12" fill="#F27D24" opacity="0.3">CITED</text>
+              <text x="515" y="290" fontFamily="monospace" fontSize="12" fill="#F27D24" opacity="0.15">INVISIBLE</text>
+              <line x1="380" y1="100" x2="420" y2="100" stroke="#F27D24" strokeWidth="0.5" />
+              <line x1="380" y1="200" x2="420" y2="200" stroke="#F27D24" strokeWidth="0.3" />
+              <line x1="380" y1="300" x2="420" y2="300" stroke="#F27D24" strokeWidth="0.3" />
+              <path d="M390 190 L400 180 L410 190" stroke="#F27D24" strokeWidth="0.5" fill="none" />
             </svg>
             <div className="relative px-8 py-16 sm:px-12 sm:py-20">
               <p className="text-sm font-medium text-orange-400 mb-4">Business Pain Points</p>
@@ -230,13 +239,13 @@ export default function Page() {
                 <span>-</span>
                 <span>12 min read</span>
                 <span>-</span>
-                <span>The Answer Engine Team</span>
+                <span>Justin Borges</span>
               </div>
             </div>
           </div>
 
           {/* Article Body */}
-          <article className="prose prose-invert prose-lg max-w-none prose-headings:font-plus-jakarta prose-headings:text-white prose-p:text-gray-300 prose-a:text-[#FF6A00] prose-a:no-underline hover:prose-a:underline prose-strong:text-white">
+          <article className="prose prose-invert prose-lg max-w-none prose-headings:font-plus-jakarta prose-headings:text-white prose-p:text-gray-300 prose-a:text-[#F27D24] prose-a:no-underline hover:prose-a:underline prose-strong:text-white">
 
             {/* Stats Grid */}
             <div className="ae-stats-grid not-prose">
@@ -727,11 +736,16 @@ export default function Page() {
             </div>
 
             {/* Author Card */}
-            <div className="ae-author-card not-prose">
-              <div className="ae-author-avatar">AE</div>
+            <div className="ae-author-card">
+              <img
+                src="/justin-borges.webp"
+                alt="Justin Borges, Founder of The Answer Engine"
+                style={{ width: 64, height: 64, borderRadius: '50%', objectFit: 'cover', flexShrink: 0 }}
+              />
               <div>
-                <div className="ae-author-name">The Answer Engine Team</div>
-                <div className="ae-author-role">AEO specialists helping local service businesses close the AI visibility gap with their competitors. We audit, strategize, and implement the authority signals that get you cited by ChatGPT, Claude, Perplexity, and Google AI Overviews.</div>
+                <div className="ae-author-name" style={{ fontWeight: 600 }}>Justin Borges</div>
+                <div className="ae-author-role" style={{ fontWeight: 400 }}>Founder, The Answer Engine</div>
+                <p style={{ marginTop: 8, fontSize: '0.875rem', color: 'rgba(255,255,255,0.65)', lineHeight: 1.6 }}>Justin Borges founded The Answer Engine in 2025 after 13+ years in real estate, $200M+ in production, and discovering that AI search rankings now decide who gets cited as the answer. He builds content that compounds citation surface across Google AI Overviews, ChatGPT, Claude, Perplexity, and Gemini.</p>
               </div>
             </div>
 
@@ -760,7 +774,7 @@ export default function Page() {
             <h2>Find Out Exactly Why Your Competitor Is Beating You on AI Search</h2>
             <p>Our free Blind Spot Report shows you exactly where your competitor has an advantage in AI visibility, which authority signals you are missing, and what it would take to close the gap. No pitch, just the data.</p>
             <Link href="/blindspot" className="ae-cta-primary">Get Your Free Blind Spot Report</Link>
-            <div className="flex flex-wrap items-center justify-center gap-6 mt-6 pt-6 border-t border-[#FF6A00]/10">
+            <div className="flex flex-wrap items-center justify-center gap-6 mt-6 pt-6 border-t border-[#F27D24]/10">
               <a href="tel:+12134442229" className="flex items-center gap-2 text-gray-400 hover:text-white transition-colors">
                 <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" /></svg>
                 (213) 444-2229

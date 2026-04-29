@@ -30,7 +30,7 @@ export const metadata: Metadata = {
     description,
     type: 'article',
     publishedTime: publishDate,
-    authors: ['The Answer Engine Team'],
+    authors: ['https://theanswerengine.ai/about'],
     url: `https://theanswerengine.ai/blog/${slug}`,
     images: [{ url: `https://theanswerengine.ai/blog/${slug}.webp`, width: 1200, height: 630, alt: title }],
   },
@@ -59,9 +59,18 @@ const jsonLd = {
       datePublished: publishDate,
       dateModified: publishDate,
       author: {
-        '@type': 'Organization',
-        name: 'The Answer Engine',
-        url: 'https://theanswerengine.ai',
+        '@type': 'Person',
+        '@id': 'https://theanswerengine.ai/about#justin-borges',
+        name: 'Justin Borges',
+        jobTitle: 'Founder, The Answer Engine',
+        worksFor: {
+          '@type': 'Organization',
+          name: 'The Answer Engine',
+          url: 'https://theanswerengine.ai',
+        },
+        knowsAbout: ['Answer Engine Optimization', 'AI Search', 'Content Strategy', 'Real Estate Marketing', 'Citation Surface'],
+        url: 'https://theanswerengine.ai/about',
+        image: 'https://theanswerengine.ai/justin-borges.webp',
       },
       publisher: {
         '@type': 'Organization',
@@ -152,9 +161,9 @@ export default function Page() {
       {/* Breadcrumb */}
       <nav className="max-w-4xl mx-auto px-6 pt-8 pb-0" aria-label="Breadcrumb">
         <ol className="flex items-center gap-2 text-sm text-gray-500">
-          <li><Link href="/" className="hover:text-[#FF6A00] transition-colors">Home</Link></li>
+          <li><Link href="/" className="hover:text-[#F27D24] transition-colors">Home</Link></li>
           <li className="text-gray-700">/</li>
-          <li><Link href="/blog" className="hover:text-[#FF6A00] transition-colors">Blog</Link></li>
+          <li><Link href="/blog" className="hover:text-[#F27D24] transition-colors">Blog</Link></li>
           <li className="text-gray-700">/</li>
           <li className="text-gray-400 truncate max-w-[200px]">{title}</li>
         </ol>
@@ -170,7 +179,7 @@ export default function Page() {
           >
             <defs>
               <pattern id="hero-grid-newsletter" width="40" height="40" patternUnits="userSpaceOnUse">
-                <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#FF6A00" strokeWidth="0.5" />
+                <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#F27D24" strokeWidth="0.5" />
               </pattern>
             </defs>
             <rect width="100%" height="100%" fill="url(#hero-grid-newsletter)" />
@@ -187,7 +196,7 @@ export default function Page() {
               Thousands of businesses send excellent newsletters and wonder why AI never recommends them. There is a simple reason: AI cannot read your inbox. Here is what that means for your content strategy.
             </p>
             <p className="text-gray-500 text-sm mt-6">
-              Published {publishDate} by The Answer Engine Team
+              Published {publishDate} by Justin Borges
             </p>
           </div>
         </div>
@@ -228,7 +237,7 @@ export default function Page() {
         </p>
 
         <div className="ae-cta-inline mb-10">
-          <p>Wondering where your AI visibility actually stands? <Link href="/blindspot" className="text-[#FF6A00] hover:underline font-semibold">Run your free Blind Spot Report</Link> and find out in 2 minutes.</p>
+          <p>Wondering where your AI visibility actually stands? <Link href="/blindspot" className="text-[#F27D24] hover:underline font-semibold">Run your free Blind Spot Report</Link> and find out in 2 minutes.</p>
         </div>
 
         {/* TOC */}
@@ -291,8 +300,8 @@ export default function Page() {
               <tbody>
                 <tr>
                   <td>Blog post on your domain</td>
-                  <td className="text-[#FF6A00]">Yes</td>
-                  <td className="text-[#FF6A00]">High</td>
+                  <td className="text-[#F27D24]">Yes</td>
+                  <td className="text-[#F27D24]">High</td>
                   <td>Primary AI citation source</td>
                 </tr>
                 <tr>
@@ -321,14 +330,14 @@ export default function Page() {
                 </tr>
                 <tr>
                   <td>Google Business Profile posts</td>
-                  <td className="text-[#FF6A00]">Yes</td>
-                  <td className="text-[#FF6A00]">Moderate-High</td>
+                  <td className="text-[#F27D24]">Yes</td>
+                  <td className="text-[#F27D24]">Moderate-High</td>
                   <td>Indexed, contributes to local AI citations</td>
                 </tr>
                 <tr>
                   <td>Website FAQ pages</td>
-                  <td className="text-[#FF6A00]">Yes</td>
-                  <td className="text-[#FF6A00]">High</td>
+                  <td className="text-[#F27D24]">Yes</td>
+                  <td className="text-[#F27D24]">High</td>
                   <td>With FAQPage schema, among top cited formats</td>
                 </tr>
                 <tr>
@@ -393,7 +402,7 @@ export default function Page() {
         </section>
 
         <div className="ae-cta-inline mb-10">
-          <p>Not sure which of your content channels are actually visible to AI? <a href="tel:+12134442229" className="text-[#FF6A00] hover:underline font-semibold">Call (213) 444-2229</a> or <Link href="/blindspot" className="text-[#FF6A00] hover:underline font-semibold">get your free Blind Spot Report</Link>.</p>
+          <p>Not sure which of your content channels are actually visible to AI? <a href="tel:+12134442229" className="text-[#F27D24] hover:underline font-semibold">Call (213) 444-2229</a> or <Link href="/blindspot" className="text-[#F27D24] hover:underline font-semibold">get your free Blind Spot Report</Link>.</p>
         </div>
 
         {/* Side by Side */}
@@ -489,22 +498,22 @@ export default function Page() {
               <tbody>
                 <tr>
                   <td>3,000+ word comprehensive post</td>
-                  <td className="text-[#FF6A00]">3x more traffic and citations</td>
+                  <td className="text-[#F27D24]">3x more traffic and citations</td>
                   <td className="text-gray-400">N/A (not crawled)</td>
                 </tr>
                 <tr>
                   <td>Updated within 30 days</td>
-                  <td className="text-[#FF6A00]">28% more citations</td>
+                  <td className="text-[#F27D24]">28% more citations</td>
                   <td className="text-gray-400">N/A (not crawled)</td>
                 </tr>
                 <tr>
                   <td>FAQ schema markup</td>
-                  <td className="text-[#FF6A00]">67/100 citation impact score</td>
+                  <td className="text-[#F27D24]">67/100 citation impact score</td>
                   <td className="text-gray-400">N/A (not crawled)</td>
                 </tr>
                 <tr>
                   <td>Internal links to related posts</td>
-                  <td className="text-[#FF6A00]">Builds topical cluster authority</td>
+                  <td className="text-[#F27D24]">Builds topical cluster authority</td>
                   <td className="text-gray-400">N/A (not crawled)</td>
                 </tr>
                 <tr>
@@ -521,12 +530,12 @@ export default function Page() {
           </p>
 
           <p className="text-gray-300 leading-relaxed">
-            For more on how blog content structure affects AI citations, our article on <Link href="/blog/how-to-write-blog-content-that-gets-cited-by-ai" className="text-[#FF6A00] hover:underline">how to write blog content that gets cited by AI</Link> breaks down the exact format signals that matter.
+            For more on how blog content structure affects AI citations, our article on <Link href="/blog/how-to-write-blog-content-that-gets-cited-by-ai" className="text-[#F27D24] hover:underline">how to write blog content that gets cited by AI</Link> breaks down the exact format signals that matter.
           </p>
         </section>
 
         <div className="ae-cta-inline mb-10">
-          <p>Not generating enough AI citations from your blog? <Link href="/blindspot" className="text-[#FF6A00] hover:underline font-semibold">Your Blind Spot Report shows the exact content gaps</Link> holding you back.</p>
+          <p>Not generating enough AI citations from your blog? <Link href="/blindspot" className="text-[#F27D24] hover:underline font-semibold">Your Blind Spot Report shows the exact content gaps</Link> holding you back.</p>
         </div>
 
         {/* Do You Need Both */}
@@ -582,27 +591,27 @@ export default function Page() {
 
           <div className="ae-timeline mb-8">
             <div className="ae-timeline-item">
-              <span className="font-bold text-[#FF6A00]">Step 1</span>
+              <span className="font-bold text-[#F27D24]">Step 1</span>
               <p className="font-semibold text-white">Write your newsletter as usual</p>
               <p className="text-gray-400 text-sm">No change to your existing workflow. Draft your issue as you normally would.</p>
             </div>
             <div className="ae-timeline-item">
-              <span className="font-bold text-[#FF6A00]">Step 2</span>
+              <span className="font-bold text-[#F27D24]">Step 2</span>
               <p className="font-semibold text-white">Adapt it for web reading</p>
               <p className="text-gray-400 text-sm">Adjust the opening (no "Hey subscribers!" framing), add H2 headings for sections, expand key points slightly. 20-30 minutes of editing.</p>
             </div>
             <div className="ae-timeline-item">
-              <span className="font-bold text-[#FF6A00]">Step 3</span>
+              <span className="font-bold text-[#F27D24]">Step 3</span>
               <p className="font-semibold text-white">Publish on your blog before sending the email</p>
               <p className="text-gray-400 text-sm">Get the public URL live first. Crawlers can begin indexing immediately. Then send your newsletter with a link to the full post.</p>
             </div>
             <div className="ae-timeline-item">
-              <span className="font-bold text-[#FF6A00]">Step 4</span>
+              <span className="font-bold text-[#F27D24]">Step 4</span>
               <p className="font-semibold text-white">Add schema markup to the blog post</p>
               <p className="text-gray-400 text-sm">Article schema at minimum. FAQPage schema if the post addresses questions. This signals to AI the content format and context.</p>
             </div>
             <div className="ae-timeline-item">
-              <span className="font-bold text-[#FF6A00]">Step 5</span>
+              <span className="font-bold text-[#F27D24]">Step 5</span>
               <p className="font-semibold text-white">Link newsletter readers to the post</p>
               <p className="text-gray-400 text-sm">Email subscribers get your full content. AI gets the public post. One piece of content serves both audiences.</p>
             </div>
@@ -677,19 +686,19 @@ export default function Page() {
         </div>
 
         {/* 3-tier CTA block */}
-        <div className="not-prose my-16 p-8 rounded-2xl bg-gradient-to-br from-[#FF6A00]/10 to-transparent border border-[#FF6A00]/20">
+        <div className="not-prose my-16 p-8 rounded-2xl bg-gradient-to-br from-[#F27D24]/10 to-transparent border border-[#F27D24]/20">
           <h3 className="font-plus-jakarta text-2xl font-bold text-white mb-3">Find Out What AI Can Actually See About Your Business</h3>
           <p className="text-gray-400 mb-6">Your free Blind Spot Report shows which of your content channels are generating AI citations and which are invisible. Know exactly where to focus before you invest another hour of content effort.</p>
           <Link
             href="/blindspot"
-            className="inline-flex items-center gap-2 bg-[#FF6A00] text-white px-6 py-3 rounded-lg font-semibold hover:bg-[#e55f00] transition-colors"
+            className="inline-flex items-center gap-2 bg-[#F27D24] text-white px-6 py-3 rounded-lg font-semibold hover:bg-[#D96416] transition-colors"
           >
             Get Your Free Blind Spot Report
             <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
             </svg>
           </Link>
-          <div className="flex flex-wrap items-center gap-6 mt-6 pt-6 border-t border-[#FF6A00]/10">
+          <div className="flex flex-wrap items-center gap-6 mt-6 pt-6 border-t border-[#F27D24]/10">
             <a
               href="tel:+12134442229"
               className="flex items-center gap-2 text-gray-400 hover:text-white transition-colors"
@@ -713,12 +722,17 @@ export default function Page() {
 
         {/* Author Card */}
         <div className="ae-author-card mb-12">
-          <div className="ae-author-avatar">AE</div>
-          <div>
-            <p className="font-semibold text-white">The Answer Engine Team</p>
-            <p className="text-gray-400 text-sm">AEO specialists helping businesses build content strategies that generate AI citations and real-world leads. Based in Los Angeles.</p>
-          </div>
-        </div>
+          <img
+                src="/justin-borges.webp"
+                alt="Justin Borges, Founder of The Answer Engine"
+                style={{ width: 64, height: 64, borderRadius: '50%', objectFit: 'cover', flexShrink: 0 }}
+              />
+              <div>
+                <div className="ae-author-name" style={{ fontWeight: 600 }}>Justin Borges</div>
+                <div className="ae-author-role" style={{ fontWeight: 400 }}>Founder, The Answer Engine</div>
+                <p style={{ marginTop: 8, fontSize: '0.875rem', color: 'rgba(255,255,255,0.65)', lineHeight: 1.6 }}>Justin Borges founded The Answer Engine in 2025 after 13+ years in real estate, $200M+ in production, and discovering that AI search rankings now decide who gets cited as the answer. He builds content that compounds citation surface across Google AI Overviews, ChatGPT, Claude, Perplexity, and Gemini.</p>
+              </div>
+              </div>
 
         {/* FAQ Section */}
         <section id="faq" className="mb-14">
@@ -754,7 +768,7 @@ export default function Page() {
               },
             ].map(({ q, a }) => (
               <details key={q} className="group border border-gray-800 rounded-xl overflow-hidden">
-                <summary className="flex items-center justify-between px-6 py-5 cursor-pointer text-white font-semibold hover:text-[#FF6A00] transition-colors list-none">
+                <summary className="flex items-center justify-between px-6 py-5 cursor-pointer text-white font-semibold hover:text-[#F27D24] transition-colors list-none">
                   {q}
                   <svg className="w-5 h-5 text-gray-500 group-open:rotate-180 transition-transform flex-shrink-0 ml-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
@@ -778,9 +792,9 @@ export default function Page() {
               <Link
                 key={href}
                 href={href}
-                className="block p-4 rounded-xl border border-gray-800 hover:border-[#FF6A00]/40 hover:bg-[#FF6A00]/5 transition-all text-gray-300 hover:text-white text-sm font-medium"
+                className="block p-4 rounded-xl border border-gray-800 hover:border-[#F27D24]/40 hover:bg-[#F27D24]/5 transition-all text-gray-300 hover:text-white text-sm font-medium"
               >
-                {label} <span className="text-[#FF6A00]">→</span>
+                {label} <span className="text-[#F27D24]">→</span>
               </Link>
             ))}
           </div>

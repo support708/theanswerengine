@@ -31,7 +31,7 @@ export const metadata: Metadata = {
     description,
     type: 'article',
     publishedTime: publishDate,
-    authors: ['The Answer Engine Team'],
+    authors: ['https://theanswerengine.ai/about'],
     url: `https://www.theanswerengine.ai/blog/${slug}`,
     images: [
       {
@@ -64,9 +64,18 @@ const jsonLd = {
       datePublished: publishDate,
       dateModified: publishDate,
       author: {
-        '@type': 'Organization',
-        name: 'The Answer Engine',
-        url: 'https://theanswerengine.ai',
+        '@type': 'Person',
+        '@id': 'https://theanswerengine.ai/about#justin-borges',
+        name: 'Justin Borges',
+        jobTitle: 'Founder, The Answer Engine',
+        worksFor: {
+          '@type': 'Organization',
+          name: 'The Answer Engine',
+          url: 'https://theanswerengine.ai',
+        },
+        knowsAbout: ['Answer Engine Optimization', 'AI Search', 'Content Strategy', 'Real Estate Marketing', 'Citation Surface'],
+        url: 'https://theanswerengine.ai/about',
+        image: 'https://theanswerengine.ai/justin-borges.webp',
       },
       publisher: {
         '@type': 'Organization',
@@ -212,16 +221,16 @@ export default function Page() {
               >
                 <defs>
                   <pattern id="hero-grid-132-pat" x="0" y="0" width="32" height="32" patternUnits="userSpaceOnUse">
-                    <path d="M 32 0 L 0 0 0 32" fill="none" stroke="#FF6A00" strokeWidth="0.4" strokeOpacity="0.3" />
+                    <path d="M 32 0 L 0 0 0 32" fill="none" stroke="#F27D24" strokeWidth="0.4" strokeOpacity="0.3" />
                   </pattern>
                 </defs>
                 <rect width="100%" height="100%" fill="url(#hero-grid-132-pat)" />
                 <rect width="100%" height="100%" fill="url(#hero-grid-132-pat)" transform="translate(16,16)" opacity="0.5" />
               </svg>
               <div className="relative z-10 flex flex-col items-start justify-center p-8 sm:p-12" style={{ minHeight: '180px' }}>
-                <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-[#FF6A00]/10 border border-[#FF6A00]/30 mb-4">
-                  <span className="w-2 h-2 rounded-full bg-[#FF6A00]" />
-                  <span className="text-xs font-bold tracking-widest uppercase text-[#FF6A00]">Comparisons</span>
+                <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-[#F27D24]/10 border border-[#F27D24]/30 mb-4">
+                  <span className="w-2 h-2 rounded-full bg-[#F27D24]" />
+                  <span className="text-xs font-bold tracking-widest uppercase text-[#F27D24]">Comparisons</span>
                 </div>
                 <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-white leading-tight font-plus-jakarta max-w-3xl">
                   Wix vs WordPress for Getting Found on AI
@@ -254,13 +263,13 @@ export default function Page() {
                 <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={2}>
                   <path strokeLinecap="round" strokeLinejoin="round" d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z" />
                 </svg>
-                <span>The Answer Engine Team</span>
+                <span>Justin Borges</span>
               </div>
             </div>
           </header>
 
           {/* Main content */}
-          <div className="prose prose-invert prose-lg max-w-none prose-headings:font-plus-jakarta prose-headings:text-white prose-p:text-gray-300 prose-a:text-[#FF6A00] prose-a:no-underline hover:prose-a:underline prose-strong:text-white">
+          <div className="prose prose-invert prose-lg max-w-none prose-headings:font-plus-jakarta prose-headings:text-white prose-p:text-gray-300 prose-a:text-[#F27D24] prose-a:no-underline hover:prose-a:underline prose-strong:text-white">
 
             {/* Stats Grid */}
             <div className="ae-stats-grid not-prose">
@@ -737,27 +746,27 @@ export default function Page() {
                 <div>
                   <h4 className="text-white font-plus-jakarta font-semibold mb-3">If You Are on Wix</h4>
                   <ul className="space-y-2 text-gray-300 text-sm">
-                    <li className="flex items-start gap-2"><span className="text-[#FF6A00] mt-0.5">&#10003;</span> Create individual pages for each core service</li>
-                    <li className="flex items-start gap-2"><span className="text-[#FF6A00] mt-0.5">&#10003;</span> Add FAQ sections to every service and location page</li>
-                    <li className="flex items-start gap-2"><span className="text-[#FF6A00] mt-0.5">&#10003;</span> Use the AI Visibility Overview dashboard weekly</li>
-                    <li className="flex items-start gap-2"><span className="text-[#FF6A00] mt-0.5">&#10003;</span> Add custom JSON-LD schema through the code editor</li>
-                    <li className="flex items-start gap-2"><span className="text-[#FF6A00] mt-0.5">&#10003;</span> Minimize dynamic/JavaScript-heavy content sections</li>
-                    <li className="flex items-start gap-2"><span className="text-[#FF6A00] mt-0.5">&#10003;</span> Write clear meta titles and descriptions for every page</li>
-                    <li className="flex items-start gap-2"><span className="text-[#FF6A00] mt-0.5">&#10003;</span> Ensure business name, address, and phone are in HTML text</li>
-                    <li className="flex items-start gap-2"><span className="text-[#FF6A00] mt-0.5">&#10003;</span> Publish blog content consistently to build topical authority</li>
+                    <li className="flex items-start gap-2"><span className="text-[#F27D24] mt-0.5">&#10003;</span> Create individual pages for each core service</li>
+                    <li className="flex items-start gap-2"><span className="text-[#F27D24] mt-0.5">&#10003;</span> Add FAQ sections to every service and location page</li>
+                    <li className="flex items-start gap-2"><span className="text-[#F27D24] mt-0.5">&#10003;</span> Use the AI Visibility Overview dashboard weekly</li>
+                    <li className="flex items-start gap-2"><span className="text-[#F27D24] mt-0.5">&#10003;</span> Add custom JSON-LD schema through the code editor</li>
+                    <li className="flex items-start gap-2"><span className="text-[#F27D24] mt-0.5">&#10003;</span> Minimize dynamic/JavaScript-heavy content sections</li>
+                    <li className="flex items-start gap-2"><span className="text-[#F27D24] mt-0.5">&#10003;</span> Write clear meta titles and descriptions for every page</li>
+                    <li className="flex items-start gap-2"><span className="text-[#F27D24] mt-0.5">&#10003;</span> Ensure business name, address, and phone are in HTML text</li>
+                    <li className="flex items-start gap-2"><span className="text-[#F27D24] mt-0.5">&#10003;</span> Publish blog content consistently to build topical authority</li>
                   </ul>
                 </div>
                 <div>
                   <h4 className="text-white font-plus-jakarta font-semibold mb-3">If You Are on WordPress</h4>
                   <ul className="space-y-2 text-gray-300 text-sm">
-                    <li className="flex items-start gap-2"><span className="text-[#FF6A00] mt-0.5">&#10003;</span> Install a schema plugin and configure all relevant types</li>
-                    <li className="flex items-start gap-2"><span className="text-[#FF6A00] mt-0.5">&#10003;</span> Use a lightweight theme (avoid heavy page builders)</li>
-                    <li className="flex items-start gap-2"><span className="text-[#FF6A00] mt-0.5">&#10003;</span> Invest in quality hosting with sub-200ms response times</li>
-                    <li className="flex items-start gap-2"><span className="text-[#FF6A00] mt-0.5">&#10003;</span> Audit your robots.txt for AI crawler access</li>
-                    <li className="flex items-start gap-2"><span className="text-[#FF6A00] mt-0.5">&#10003;</span> Minimize plugin count to reduce HTML bloat</li>
-                    <li className="flex items-start gap-2"><span className="text-[#FF6A00] mt-0.5">&#10003;</span> Create topic clusters with proper internal linking</li>
-                    <li className="flex items-start gap-2"><span className="text-[#FF6A00] mt-0.5">&#10003;</span> Add FAQ schema to every relevant page</li>
-                    <li className="flex items-start gap-2"><span className="text-[#FF6A00] mt-0.5">&#10003;</span> Test pages with JavaScript disabled to see AI crawler view</li>
+                    <li className="flex items-start gap-2"><span className="text-[#F27D24] mt-0.5">&#10003;</span> Install a schema plugin and configure all relevant types</li>
+                    <li className="flex items-start gap-2"><span className="text-[#F27D24] mt-0.5">&#10003;</span> Use a lightweight theme (avoid heavy page builders)</li>
+                    <li className="flex items-start gap-2"><span className="text-[#F27D24] mt-0.5">&#10003;</span> Invest in quality hosting with sub-200ms response times</li>
+                    <li className="flex items-start gap-2"><span className="text-[#F27D24] mt-0.5">&#10003;</span> Audit your robots.txt for AI crawler access</li>
+                    <li className="flex items-start gap-2"><span className="text-[#F27D24] mt-0.5">&#10003;</span> Minimize plugin count to reduce HTML bloat</li>
+                    <li className="flex items-start gap-2"><span className="text-[#F27D24] mt-0.5">&#10003;</span> Create topic clusters with proper internal linking</li>
+                    <li className="flex items-start gap-2"><span className="text-[#F27D24] mt-0.5">&#10003;</span> Add FAQ schema to every relevant page</li>
+                    <li className="flex items-start gap-2"><span className="text-[#F27D24] mt-0.5">&#10003;</span> Test pages with JavaScript disabled to see AI crawler view</li>
                   </ul>
                 </div>
               </div>
@@ -768,7 +777,7 @@ export default function Page() {
               <h3>Find Out What AI Search Engines See on Your Website</h3>
               <p>Whether you are on Wix, WordPress, or any other platform, our Blind Spot Report reveals exactly how AI crawlers interpret your site versus your competitors. Free analysis, delivered in 48 hours.</p>
               <div className="flex flex-col sm:flex-row gap-4 mt-6">
-                <Link href="/blindspot" className="inline-flex items-center justify-center px-6 py-3 bg-[#FF6A00] text-white font-semibold rounded-lg hover:bg-[#FF6A00]/90 transition-colors">
+                <Link href="/blindspot" className="inline-flex items-center justify-center px-6 py-3 bg-[#F27D24] text-white font-semibold rounded-lg hover:bg-[#F27D24]/90 transition-colors">
                   Get Your Free Blind Spot Report
                 </Link>
               </div>
@@ -782,11 +791,11 @@ export default function Page() {
             {/* Author Card */}
             <div className="ae-author-card not-prose">
               <div className="flex items-start gap-4">
-                <div className="w-12 h-12 rounded-full bg-[#FF6A00]/20 flex items-center justify-center flex-shrink-0">
-                  <span className="text-[#FF6A00] font-bold text-lg">AE</span>
+                <div className="w-12 h-12 rounded-full bg-[#F27D24]/20 flex items-center justify-center flex-shrink-0">
+                  <span className="text-[#F27D24] font-bold text-lg">AE</span>
                 </div>
                 <div>
-                  <div className="text-white font-semibold font-plus-jakarta">The Answer Engine Team</div>
+                  <div className="text-white font-semibold font-plus-jakarta">Justin Borges</div>
                   <p className="text-gray-400 text-sm mt-1">
                     We help businesses become the answer AI gives. Our team analyzes how AI search engines discover, interpret, and cite business websites across every major platform. We have audited hundreds of Wix and WordPress sites for AI readiness.
                   </p>
@@ -836,7 +845,7 @@ export default function Page() {
               Your platform is just the foundation. What you build on it determines whether AI search engines cite your business or your competitor. Get a free Blind Spot Report and see exactly where you stand.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <Link href="/blindspot" className="inline-flex items-center justify-center px-8 py-3 bg-[#FF6A00] text-white font-semibold rounded-lg hover:bg-[#FF6A00]/90 transition-colors">
+              <Link href="/blindspot" className="inline-flex items-center justify-center px-8 py-3 bg-[#F27D24] text-white font-semibold rounded-lg hover:bg-[#F27D24]/90 transition-colors">
                 Get Your Free Blind Spot Report &rarr;
               </Link>
             </div>

@@ -38,9 +38,18 @@ function ComprehensiveSchema() {
         "datePublished": "2026-03-28",
         "dateModified": "2026-03-28",
         "author": {
-          "@type": "Organization",
-          "name": "The Answer Engine Team",
-          "url": "https://theanswerengine.ai/about"
+          "@type": "Person",
+          "@id": "https://theanswerengine.ai/about#justin-borges",
+          "name": "Justin Borges",
+          "jobTitle": "Founder, The Answer Engine",
+          "worksFor": {
+            "@type": "Organization",
+            "name": "The Answer Engine",
+            "url": "https://theanswerengine.ai"
+          },
+          "knowsAbout": ["Answer Engine Optimization", "AI Search", "Content Strategy", "Real Estate Marketing", "Citation Surface"],
+          "url": "https://theanswerengine.ai/about",
+          "image": "https://theanswerengine.ai/justin-borges.webp"
         },
         "publisher": {
           "@type": "Organization",
@@ -170,11 +179,11 @@ export default function WhyGoogleReviewsDontShowInAI() {
           {/* Header */}
           <header className="mb-10">
             <div className="inline-flex items-center gap-2 px-4 py-2 rounded-xl mb-6 bg-white/[0.04] border border-white/[0.08]">
-              <span className="text-sm font-semibold tracking-wider uppercase text-[#FF6A00]">Business Pain Points</span>
+              <span className="text-sm font-semibold tracking-wider uppercase text-[#F27D24]">Business Pain Points</span>
             </div>
 
             <h1 className="text-3xl sm:text-4xl lg:text-5xl font-semibold mb-6 text-white leading-tight font-plus-jakarta">
-              Why My 5-Star Google Reviews <span className="text-[#FF6A00]">Don&apos;t Show Up</span> in AI Answers
+              Why My 5-Star Google Reviews <span className="text-[#F27D24]">Don&apos;t Show Up</span> in AI Answers
             </h1>
 
             <div className="flex flex-wrap gap-4 text-sm text-gray-400 mb-8">
@@ -182,14 +191,14 @@ export default function WhyGoogleReviewsDontShowInAI() {
               <span>|</span>
               <span>Published March 28, 2026</span>
               <span>|</span>
-              <span>By The Answer Engine Team</span>
+              <span>By Justin Borges</span>
             </div>
           </header>
         </div>
 
         {/* Article Body */}
         <article className="max-w-4xl mx-auto px-6 pb-20">
-          <div className="prose prose-invert prose-lg max-w-none prose-headings:font-plus-jakarta prose-headings:text-white prose-p:text-gray-300 prose-a:text-[#FF6A00] prose-a:no-underline hover:prose-a:underline prose-strong:text-white">
+          <div className="prose prose-invert prose-lg max-w-none prose-headings:font-plus-jakarta prose-headings:text-white prose-p:text-gray-300 prose-a:text-[#F27D24] prose-a:no-underline hover:prose-a:underline prose-strong:text-white">
 
             {/* Stats Grid */}
             <div className="not-prose ae-stats-grid">
@@ -693,14 +702,14 @@ export default function WhyGoogleReviewsDontShowInAI() {
             </div>
 
             {/* 3-Tier CTA Block */}
-            <div className="not-prose my-16 p-8 rounded-2xl bg-gradient-to-br from-[#FF6A00]/10 to-transparent border border-[#FF6A00]/20">
+            <div className="not-prose my-16 p-8 rounded-2xl bg-gradient-to-br from-[#F27D24]/10 to-transparent border border-[#F27D24]/20">
               <h3 className="font-plus-jakarta text-2xl font-bold text-white mb-3">Are Your Reviews Actually Reaching AI?</h3>
               <p className="text-gray-400 mb-6">Our free Blind Spot Report shows which of your reviews AI platforms can actually see, and which are invisible.</p>
-              <Link href="/blindspot" className="inline-flex items-center gap-2 bg-[#FF6A00] text-white px-6 py-3 rounded-lg font-semibold hover:bg-[#e55f00] transition-colors">
+              <Link href="/blindspot" className="inline-flex items-center gap-2 bg-[#F27D24] text-white px-6 py-3 rounded-lg font-semibold hover:bg-[#D96416] transition-colors">
                 Get Your Free Blind Spot Report
                 <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" /></svg>
               </Link>
-              <div className="flex flex-wrap items-center gap-6 mt-6 pt-6 border-t border-[#FF6A00]/10">
+              <div className="flex flex-wrap items-center gap-6 mt-6 pt-6 border-t border-[#F27D24]/10">
                 <a href="tel:+12134442229" className="flex items-center gap-2 text-gray-400 hover:text-white transition-colors">
                   <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" /></svg>
                   (213) 444-2229
@@ -743,7 +752,7 @@ export default function WhyGoogleReviewsDontShowInAI() {
             {/* Author Card */}
             <div className="not-prose ae-author-card">
               <div className="ae-author-info">
-                <div className="ae-author-name">The Answer Engine Team</div>
+                <div className="ae-author-name" style={{ fontWeight: 600 }}>Justin Borges</div>
                 <div className="ae-author-bio">We help local service businesses get found, trusted, and recommended by AI platforms like ChatGPT, Perplexity, and Google AI Mode. Our team specializes in Answer Engine Optimization, the practice of making your business visible in the AI-driven search landscape.</div>
               </div>
             </div>

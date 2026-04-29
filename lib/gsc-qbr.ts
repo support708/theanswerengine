@@ -121,7 +121,7 @@ function buildNextQuarterActions(input: QbrInput, current: BaselineSnapshot, pil
 const DISPLAY = `'Space Grotesk','Inter','Helvetica Neue',Arial,sans-serif`;
 const SANS = `'Inter','Helvetica Neue',Arial,sans-serif`;
 const MONO = `'JetBrains Mono',Consolas,Menlo,'Courier New',monospace`;
-const BRAND = '#FF6A00';
+const BRAND = '#F27D24';
 
 function esc(s: string | null | undefined): string {
   return String(s ?? '').replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
@@ -150,13 +150,13 @@ export function renderQbrInner(q: QbrData, firstName: string): string {
       ? `
 <table role="presentation" cellpadding="0" cellspacing="0" border="0" width="100%" style="border-collapse:collapse;margin:0 0 24px 0;">
   <tr>
-    <td style="padding:18px;background:#fafafa;border-left:3px solid #FF6A00;" valign="top">
+    <td style="padding:18px;background:#fafafa;border-left:3px solid #F27D24;" valign="top">
       <div style="font-family:${MONO};font-size:10px;color:#888;letter-spacing:0.14em;text-transform:uppercase;margin-bottom:4px;">Impressions since day-0</div>
       <div style="font-family:${DISPLAY};font-size:28px;font-weight:900;color:#1a1a1a;">${fi(current.totalImpressions)}</div>
       <div style="margin-top:4px;">${deltaBadge(delta.impressionsPct)} <span style="color:#888;font-size:11px;">vs ${fi(baseline.totalImpressions)} at start</span></div>
     </td>
     <td style="width:12px;"></td>
-    <td style="padding:18px;background:#fafafa;border-left:3px solid #FF6A00;" valign="top">
+    <td style="padding:18px;background:#fafafa;border-left:3px solid #F27D24;" valign="top">
       <div style="font-family:${MONO};font-size:10px;color:#888;letter-spacing:0.14em;text-transform:uppercase;margin-bottom:4px;">Clicks since day-0</div>
       <div style="font-family:${DISPLAY};font-size:28px;font-weight:900;color:#1a1a1a;">${fi(current.totalClicks)}</div>
       <div style="margin-top:4px;">${deltaBadge(delta.clicksPct)} <span style="color:#888;font-size:11px;">vs ${fi(baseline.totalClicks)} at start</span></div>
@@ -165,15 +165,15 @@ export function renderQbrInner(q: QbrData, firstName: string): string {
 </table>
 <p style="margin:0 0 24px 0;color:#555;font-size:13px;">Window compared: ${esc(baseline.windowStart)}–${esc(baseline.windowEnd)} (day-0) vs ${esc(current.windowStart)}–${esc(current.windowEnd)} (now) — ${delta.daysSinceBaseline} days elapsed.</p>`
       : `
-<p style="margin:0 0 20px 0;padding:12px 14px;background:#fff8f0;border-left:3px solid #FF6A00;color:#555;font-size:13px;">No day-0 baseline captured yet. Current 28-day snapshot only.</p>
+<p style="margin:0 0 20px 0;padding:12px 14px;background:#fff8f0;border-left:3px solid #F27D24;color:#555;font-size:13px;">No day-0 baseline captured yet. Current 28-day snapshot only.</p>
 <table role="presentation" cellpadding="0" cellspacing="0" border="0" width="100%" style="border-collapse:collapse;margin:0 0 24px 0;">
   <tr>
-    <td style="padding:18px;background:#fafafa;border-left:3px solid #FF6A00;">
+    <td style="padding:18px;background:#fafafa;border-left:3px solid #F27D24;">
       <div style="font-family:${MONO};font-size:10px;color:#888;letter-spacing:0.14em;text-transform:uppercase;margin-bottom:4px;">Impressions (last 28d)</div>
       <div style="font-family:${DISPLAY};font-size:28px;font-weight:900;color:#1a1a1a;">${fi(current.totalImpressions)}</div>
     </td>
     <td style="width:12px;"></td>
-    <td style="padding:18px;background:#fafafa;border-left:3px solid #FF6A00;">
+    <td style="padding:18px;background:#fafafa;border-left:3px solid #F27D24;">
       <div style="font-family:${MONO};font-size:10px;color:#888;letter-spacing:0.14em;text-transform:uppercase;margin-bottom:4px;">Clicks (last 28d)</div>
       <div style="font-family:${DISPLAY};font-size:28px;font-weight:900;color:#1a1a1a;">${fi(current.totalClicks)}</div>
     </td>
@@ -214,7 +214,7 @@ ${q.topPillars.slice(0, 3).map(p => `<li><b>${esc(p.topTokens.slice(0, 3).join('
   const actionsBlock = q.nextQuarterActions
     .map(
       (a, i) =>
-        `<li style="margin:0 0 10px 0;font-size:14px;color:#1a1a1a;line-height:1.6;"><b style="color:#FF6A00;font-family:${MONO};font-size:11px;margin-right:6px;">${(i + 1).toString().padStart(2, '0')}</b>${esc(a)}</li>`,
+        `<li style="margin:0 0 10px 0;font-size:14px;color:#1a1a1a;line-height:1.6;"><b style="color:#F27D24;font-family:${MONO};font-size:11px;margin-right:6px;">${(i + 1).toString().padStart(2, '0')}</b>${esc(a)}</li>`,
     )
     .join('');
 
@@ -240,7 +240,7 @@ ${pillarsBlock}
 <h3 style="margin:24px 0 10px 0;font-size:15px;color:#1a1a1a;font-family:${DISPLAY};font-weight:800;text-transform:uppercase;letter-spacing:0.02em;">What we're doing next quarter</h3>
 <ol style="margin:0 0 24px 0;padding:0 0 0 4px;list-style:none;">${actionsBlock}</ol>
 
-<div style="background:#fafafa;border-left:4px solid #FF6A00;padding:18px 20px;margin:24px 0 20px 0;">
+<div style="background:#fafafa;border-left:4px solid #F27D24;padding:18px 20px;margin:24px 0 20px 0;">
   <p style="margin:0;font-size:14px;color:#1a1a1a;line-height:1.55;">Reply to this email with anything you want prioritized differently, or if you want to jump on a quarterly review call to walk through the full strategy.</p>
 </div>`;
 }

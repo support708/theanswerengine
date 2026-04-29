@@ -49,8 +49,17 @@ function ComprehensiveSchema() {
         "dateModified": publishDate,
         "author": {
           "@type": "Person",
-          "name": "JB",
-          "url": "https://theanswerengine.ai/about"
+          "@id": "https://theanswerengine.ai/about#justin-borges",
+          "name": "Justin Borges",
+          "jobTitle": "Founder, The Answer Engine",
+          "worksFor": {
+            "@type": "Organization",
+            "name": "The Answer Engine",
+            "url": "https://theanswerengine.ai"
+          },
+          "knowsAbout": ["Answer Engine Optimization", "AI Search", "Content Strategy", "Real Estate Marketing", "Citation Surface"],
+          "url": "https://theanswerengine.ai/about",
+          "image": "https://theanswerengine.ai/justin-borges.webp"
         },
         "publisher": {
           "@type": "Organization",
@@ -188,7 +197,7 @@ export default function SocialMediaAIVisibility() {
           {/* Header */}
           <header className="mb-10">
             <div className="inline-flex items-center gap-2 px-4 py-2 rounded-xl mb-6 bg-white/[0.04] border border-white/[0.08]">
-              <span className="text-sm font-semibold tracking-wider uppercase text-[#FF6A00]">Myth Busters</span>
+              <span className="text-sm font-semibold tracking-wider uppercase text-[#F27D24]">Myth Busters</span>
             </div>
 
             <h1 className="text-3xl sm:text-4xl lg:text-5xl font-semibold mb-6 text-white leading-tight font-plus-jakarta">
@@ -213,7 +222,7 @@ export default function SocialMediaAIVisibility() {
 
         {/* Article Body */}
         <article className="max-w-4xl mx-auto px-6 pb-20">
-          <div className="prose prose-invert prose-lg max-w-none prose-headings:font-plus-jakarta prose-headings:text-white prose-p:text-gray-300 prose-a:text-[#FF6A00] prose-a:no-underline hover:prose-a:underline prose-strong:text-white">
+          <div className="prose prose-invert prose-lg max-w-none prose-headings:font-plus-jakarta prose-headings:text-white prose-p:text-gray-300 prose-a:text-[#F27D24] prose-a:no-underline hover:prose-a:underline prose-strong:text-white">
 
             {/* Stats Grid */}
             <div className="not-prose ae-stats-grid">
@@ -616,9 +625,8 @@ export default function SocialMediaAIVisibility() {
               <div className="ae-author-info">
                 <div className="ae-author-name">JB</div>
                 <div className="ae-author-role">Founder, The Answer Engine</div>
-                <p className="ae-author-bio">
-                  JB helps local service businesses get found and recommended by AI search platforms like ChatGPT, Claude, Perplexity, and Google AI Overviews. After watching businesses pour thousands into social media with zero AI visibility return, he built The Answer Engine to focus on the signals that actually matter.
-                </p>
+                <div className="ae-author-role" style={{ fontWeight: 400 }}>Founder, The Answer Engine</div>
+            <p style={{ marginTop: 8, fontSize: '0.875rem', color: 'rgba(255,255,255,0.65)', lineHeight: 1.6 }}>Justin Borges founded The Answer Engine in 2025 after 13+ years in real estate, $200M+ in production, and discovering that AI search rankings now decide who gets cited as the answer. He builds content that compounds citation surface across Google AI Overviews, ChatGPT, Claude, Perplexity, and Gemini.</p>
               </div>
             </div>
 
@@ -646,7 +654,7 @@ export default function SocialMediaAIVisibility() {
                     href="/blindspot"
                     style={{
                       display: 'inline-block',
-                      background: '#FF6A00',
+                      background: '#F27D24',
                       color: '#fff',
                       padding: '1rem 2.5rem',
                       borderRadius: '0.75rem',
@@ -662,7 +670,7 @@ export default function SocialMediaAIVisibility() {
                     style={{
                       display: 'inline-block',
                       border: '1px solid rgba(255,106,0,0.5)',
-                      color: '#FF6A00',
+                      color: '#F27D24',
                       padding: '0.875rem 2rem',
                       borderRadius: '0.75rem',
                       fontWeight: 600,
@@ -728,7 +736,7 @@ export default function SocialMediaAIVisibility() {
                 left: 0,
                 right: 0,
                 height: '3px',
-                background: '#FF6A00',
+                background: '#F27D24',
                 animation: 'pulse-glow 2s ease-in-out infinite',
               }} />
               <h3 style={{
@@ -745,7 +753,7 @@ export default function SocialMediaAIVisibility() {
                 href="/blindspot"
                 style={{
                   display: 'inline-block',
-                  background: '#FF6A00',
+                  background: '#F27D24',
                   color: '#fff',
                   padding: '1rem 2.5rem',
                   borderRadius: '0.75rem',

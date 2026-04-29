@@ -151,3 +151,16 @@ data/reddit-state.json
 data/reddit-opportunities.json
 .env.production
 logs/
+
+# Graphify knowledge graph cache (auto-generated, do not commit)
+graphify-out/
+
+# Claude Code worktrees (per-agent isolated copies)
+.claude/worktrees/
+
+# Stray Python install (not part of project)
+Python/
+fix-unclosed-divs.py
+
+# Compliance screenshots (artifact directory, not source)
+compliance-screenshots/

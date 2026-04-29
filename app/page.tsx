@@ -275,13 +275,13 @@ export default function Home() {
         <div className="max-w-7xl mx-auto w-full grid grid-cols-1 lg:grid-cols-12 gap-12 items-center relative z-10">
           {/* Left column — headline + CTAs */}
           <div className="lg:col-span-8">
-            <div className="inline-block bg-[#FF6A00] text-black px-3 py-1 font-mono text-[10px] mb-6 tracking-widest uppercase font-bold">
+            <div className="inline-block bg-[#F27D24] text-black px-3 py-1 font-mono text-[10px] mb-6 tracking-widest uppercase font-bold">
               Answer Engine Optimization // AI Citations
             </div>
 
             <h1 className="font-headline font-black text-6xl md:text-8xl lg:text-9xl leading-[0.85] tracking-tighter uppercase mb-6 text-[#e5e2e1]">
               ANSWER ENGINE{' '}
-              <span className="text-[#FF6A00]">OPTIMIZATION</span> FOR LOCAL BUSINESSES
+              <span className="text-[#F27D24]">OPTIMIZATION</span> FOR LOCAL BUSINESSES
             </h1>
 
             <p className="hero-description text-white/50 text-lg leading-relaxed mb-10 max-w-xl">
@@ -291,7 +291,7 @@ export default function Home() {
             <div className="flex flex-wrap gap-4">
               <a
                 href="#territory-check"
-                className="bg-[#FF6A00] text-black font-black px-10 py-5 text-xl tracking-tighter hover:translate-y-[2px] transition-transform font-headline uppercase inline-flex items-center gap-3"
+                className="bg-[#F27D24] text-black font-black px-10 py-5 text-xl tracking-tighter hover:translate-y-[2px] transition-transform font-headline uppercase inline-flex items-center gap-3"
               >
                 CHECK TERRITORY
                 <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={2.5} aria-hidden="true">
@@ -302,7 +302,7 @@ export default function Home() {
                 href="https://calendly.com/theanswerengine-support/30min"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="border-2 border-[#FF6A00] text-[#FF6A00] font-black px-10 py-5 text-xl tracking-tighter hover:bg-[#FF6A00] hover:text-black transition-all font-headline uppercase"
+                className="border-2 border-[#F27D24] text-[#F27D24] font-black px-10 py-5 text-xl tracking-tighter hover:bg-[#F27D24] hover:text-black transition-all font-headline uppercase"
               >
                 BOOK 30-MIN CALL
               </a>
@@ -321,7 +321,7 @@ export default function Home() {
               </div>
               <div className="w-px h-10 bg-white/10" />
               <div>
-                <div className="font-headline font-black text-2xl text-[#FF6A00]">90-Day</div>
+                <div className="font-headline font-black text-2xl text-[#F27D24]">90-Day</div>
                 <div className="font-mono text-[10px] text-white/40 tracking-widest uppercase mt-1">Citation Guarantee</div>
               </div>
             </div>
@@ -330,18 +330,18 @@ export default function Home() {
           {/* Right column — Monday Brief preview card */}
           <div className="lg:col-span-4">
             <div
-              className="bg-[#2a2a2a] p-8 border-l-4 border-[#FF6A00] relative hover-lift"
+              className="bg-[#2a2a2a] p-8 border-l-4 border-[#F27D24] relative hover-lift"
               onMouseMove={handleCardMouseMove}
               onMouseLeave={handleCardMouseLeave}
             >
               <div className="absolute top-4 right-4 font-mono text-[10px] text-white/20 tracking-widest">SAMPLE // Monday Brief</div>
-              <h3 className="font-mono text-[10px] text-[#FF6A00] tracking-widest uppercase mb-4">The Monday Brief</h3>
+              <h3 className="font-mono text-[10px] text-[#F27D24] tracking-widest uppercase mb-4">The Monday Brief</h3>
               <p className="text-white/60 text-xs leading-relaxed mb-6">
                 One email every Monday. Your AEO Authority Index, rank deltas that matter, Reddit opportunities, and what we&apos;re doing next.
               </p>
               <div className="bg-[#0e0e0e] p-4 mb-6 font-mono text-[11px] border border-white/5">
                 <div className="text-white/40 mb-2">GOOD MORNING, {'{CLIENT}'}.</div>
-                <div className="text-[#e5e2e1] mb-3">AEO Authority Index: <span className="text-[#FF6A00] font-bold">47/100</span> <span className="text-green-400">↑ 3</span></div>
+                <div className="text-[#e5e2e1] mb-3">AEO Authority Index: <span className="text-[#F27D24] font-bold">47/100</span> <span className="text-green-400">↑ 3</span></div>
                 <div className="text-white/50 text-[10px] leading-relaxed">
                   New query ranking: &ldquo;sell my house fast&rdquo;<br />
                   Rank up: position 14 → 8<br />
@@ -364,7 +364,7 @@ export default function Home() {
 
         {/* Scroll indicator */}
         <div className="absolute bottom-10 left-1/2 -translate-x-1/2 flex flex-col items-center gap-2" aria-hidden="true">
-          <div className="w-px h-12 bg-gradient-to-b from-[#FF6A00] to-transparent" />
+          <div className="w-px h-12 bg-gradient-to-b from-[#F27D24] to-transparent" />
           <span className="font-mono text-[10px] text-white/40 uppercase tracking-widest">Scroll to Access</span>
         </div>
       </section>
@@ -373,7 +373,7 @@ export default function Home() {
           TICKER BAR
       ════════════════════════════════════════════════════════ */}
       <div
-        className="bg-black overflow-hidden py-4 border-t border-b border-[#FF6A00]"
+        className="bg-black overflow-hidden py-4 border-t border-b border-[#F27D24]"
         aria-hidden="true"
       >
         <style>{`@keyframes tae-tick { from { transform: translateX(0); } to { transform: translateX(-50%); } }`}</style>
@@ -396,7 +396,7 @@ export default function Home() {
                   key={j}
                   className="inline-flex items-center gap-3 font-mono text-[11px] tracking-[0.2em] uppercase text-white"
                 >
-                  <span className="text-[#FF6A00]">◉</span>
+                  <span className="text-[#F27D24]">◉</span>
                   {t}
                 </span>
               ))}
@@ -413,7 +413,7 @@ export default function Home() {
           <div className="flex items-end justify-between mb-24 gap-8">
             <h2 className="font-headline font-black text-5xl md:text-6xl tracking-tighter uppercase leading-none max-w-xl text-[#e5e2e1]">
               HOW WE GET YOU CITED{' '}
-              <span className="text-[#FF6A00]">BY AI</span>
+              <span className="text-[#F27D24]">BY AI</span>
             </h2>
             <div className="hidden md:block w-48 h-px bg-white/10 mb-4" aria-hidden="true" />
           </div>
@@ -464,16 +464,16 @@ export default function Home() {
                 style={{ transitionDelay: stepsAnim.isVisible ? `${step.delay}ms` : '0ms' }}
               >
                 <div className="flex justify-between items-start mb-10">
-                  <span className="text-5xl font-headline font-black text-white/10 group-hover:text-[#FF6A00] transition-colors">
+                  <span className="text-5xl font-headline font-black text-white/10 group-hover:text-[#F27D24] transition-colors">
                     {step.num}
                   </span>
-                  <span className="font-mono text-[10px] text-[#FF6A00] tracking-widest uppercase mt-3">
+                  <span className="font-mono text-[10px] text-[#F27D24] tracking-widest uppercase mt-3">
                     {step.kicker}
                   </span>
                 </div>
                 <h4 className="font-headline font-bold text-2xl uppercase mb-4 text-[#e5e2e1]">{step.title}</h4>
                 <p className="text-white/60 text-sm leading-relaxed mb-8">{step.desc}</p>
-                <div className="font-mono text-[10px] text-[#FF6A00] tracking-widest uppercase">{step.status}</div>
+                <div className="font-mono text-[10px] text-[#F27D24] tracking-widest uppercase">{step.status}</div>
               </div>
             ))}
           </div>
@@ -498,14 +498,14 @@ export default function Home() {
           <div className="font-headline font-black text-3xl md:text-5xl lg:text-6xl tracking-[0.15em] uppercase leading-none">
             <div className="flex flex-col md:flex-row gap-3 md:gap-10 items-center justify-center">
               <span className="text-[#e5e2e1]">AUDIT.</span>
-              <span className="text-[#FF6A00]">OPTIMIZE.</span>
+              <span className="text-[#F27D24]">OPTIMIZE.</span>
               <span className="text-[#e5e2e1]">DOMINATE.</span>
             </div>
           </div>
           <div className="mt-6 flex justify-center gap-2">
-            <div className="w-1.5 h-1.5 bg-[#FF6A00]" />
-            <div className="w-1.5 h-1.5 bg-[#FF6A00]/40" />
-            <div className="w-1.5 h-1.5 bg-[#FF6A00]/20" />
+            <div className="w-1.5 h-1.5 bg-[#F27D24]" />
+            <div className="w-1.5 h-1.5 bg-[#F27D24]/40" />
+            <div className="w-1.5 h-1.5 bg-[#F27D24]/20" />
           </div>
         </div>
       </section>
@@ -521,10 +521,10 @@ export default function Home() {
           }`}
         >
           <div className="mb-16">
-            <span className="font-mono text-[10px] text-[#FF6A00] tracking-widest uppercase block mb-4">Proof // We Eat Our Own Dog Food</span>
+            <span className="font-mono text-[10px] text-[#F27D24] tracking-widest uppercase block mb-4">Proof // We Eat Our Own Dog Food</span>
             <h2 className="font-headline font-black text-5xl md:text-6xl tracking-tighter uppercase leading-none text-[#e5e2e1]">
               WE PROVED IT ON OUR{' '}
-              <span className="text-[#FF6A00]">OWN SITE FIRST.</span>
+              <span className="text-[#F27D24]">OWN SITE FIRST.</span>
             </h2>
             <p className="text-white/50 text-sm leading-relaxed mt-6 max-w-xl">
               The AERO-10 framework was built and tested on our own real estate site in LA before a single client paid for it. Today it reaches 1.14M+ monthly impressions and sits as the recommended agent across all four major AI platforms for rent control, probate, and ADU questions.
@@ -544,7 +544,7 @@ export default function Home() {
               >
                 <div className="font-headline font-black text-4xl md:text-5xl text-[#e5e2e1] mb-2">{stat.value}</div>
                 <div className="font-mono text-[10px] text-white/40 uppercase tracking-widest">{stat.label}</div>
-                <div className="font-mono text-[10px] text-[#FF6A00] uppercase tracking-widest mt-2">{stat.status}</div>
+                <div className="font-mono text-[10px] text-[#F27D24] uppercase tracking-widest mt-2">{stat.status}</div>
               </div>
             ))}
           </div>
@@ -592,7 +592,7 @@ export default function Home() {
                       <div className="flex gap-1.5">
                         <div className="w-2 h-2 rounded-full bg-white/10" />
                         <div className="w-2 h-2 rounded-full bg-white/10" />
-                        <div className="w-2 h-2 rounded-full bg-[#FF6A00]/40" />
+                        <div className="w-2 h-2 rounded-full bg-[#F27D24]/40" />
                       </div>
                       <span className="font-mono text-[9px] text-white/20 uppercase tracking-widest ml-2">{citation.platform}</span>
                     </div>
@@ -611,7 +611,7 @@ export default function Home() {
                   </div>
                 </button>
                 <div className="p-5 pt-3">
-                  <div className="font-mono text-[10px] text-[#FF6A00] uppercase tracking-widest mb-1">{citation.platform}</div>
+                  <div className="font-mono text-[10px] text-[#F27D24] uppercase tracking-widest mb-1">{citation.platform}</div>
                   <p className="text-white/40 text-sm italic">&ldquo;{citation.query}&rdquo;</p>
                 </div>
               </div>
@@ -620,17 +620,17 @@ export default function Home() {
 
           {/* Interactive CitationProof demo */}
           <div className="border border-white/10 bg-[#131313] p-8">
-            <div className="font-mono text-[10px] text-[#FF6A00] uppercase tracking-widest mb-6">Live Demo // See It In Action</div>
+            <div className="font-mono text-[10px] text-[#F27D24] uppercase tracking-widest mb-6">Live Demo // See It In Action</div>
             <CitationProof isVisible={citationsAnim.isVisible} />
           </div>
 
           {/* Testimonial */}
-          <div className="mt-12 border border-white/10 border-l-4 border-l-[#FF6A00] bg-[#2a2a2a] p-10">
+          <div className="mt-12 border border-white/10 border-l-4 border-l-[#F27D24] bg-[#2a2a2a] p-10">
             <blockquote className="text-2xl sm:text-3xl font-light text-white/80 leading-[1.35] mb-8 font-headline tracking-tight">
               &ldquo;He understands how AI actually decides who to recommend. That&apos;s a completely different skill set, and it&apos;s working.&rdquo;
             </blockquote>
             <div className="flex items-center gap-4">
-              <div className="w-10 h-10 bg-[#FF6A00] flex items-center justify-center text-black text-sm font-black font-headline">JB</div>
+              <div className="w-10 h-10 bg-[#F27D24] flex items-center justify-center text-black text-sm font-black font-headline">JB</div>
               <div>
                 <p className="text-sm font-bold text-[#e5e2e1] font-headline uppercase tracking-tight">Justin Borges</p>
                 <p className="font-mono text-[10px] text-white/40 uppercase tracking-widest mt-0.5">Borges Real Estate Team // Pasadena, CA</p>
@@ -651,10 +651,10 @@ export default function Home() {
           }`}
         >
           <div className="mb-16">
-            <span className="font-mono text-[10px] text-[#FF6A00] tracking-widest uppercase block mb-4">Live Demo // See It In Action</span>
+            <span className="font-mono text-[10px] text-[#F27D24] tracking-widest uppercase block mb-4">Live Demo // See It In Action</span>
             <h2 className="font-headline font-black text-5xl md:text-6xl tracking-tighter uppercase leading-none text-[#e5e2e1]">
               ASK AN AI.<br />
-              WATCH THE SYSTEM <span className="text-[#FF6A00]">MOVE.</span>
+              WATCH THE SYSTEM <span className="text-[#F27D24]">MOVE.</span>
             </h2>
             <p className="text-white/50 text-sm leading-relaxed mt-6 max-w-xl">
               This is the field scan we run on every new client before day one. Four platforms, live, in order.
@@ -665,28 +665,28 @@ export default function Home() {
             {/* Left — terminal */}
             <div className="bg-black text-white/90 border-b md:border-b-0 md:border-r border-white/10 min-h-[480px] flex flex-col">
               <div className="px-6 py-4 border-b border-white/10 flex justify-between items-center">
-                <span className="font-mono text-[10px] tracking-widest text-[#FF6A00] uppercase">◉ Field Scan · Live</span>
+                <span className="font-mono text-[10px] tracking-widest text-[#F27D24] uppercase">◉ Field Scan · Live</span>
                 <span className="font-mono text-[10px] tracking-widest text-white/40 uppercase">Your City / Your Category</span>
               </div>
               <div className="p-6 flex-1 font-mono text-[12px] leading-[1.9]">
                 <div className="text-white/70">&gt; initiate scan --territory=&quot;your-city&quot; --category=&quot;your-category&quot;</div>
-                <div className="text-[#FF6A00] mt-1">SCAN 001 OPEN</div>
+                <div className="text-[#F27D24] mt-1">SCAN 001 OPEN</div>
                 <div className="mt-4">
                   {SCAN_LINES.slice(0, scanStep).map((l, i) => (
                     <div key={i} className="mb-1">
-                      <span className="text-[#FF6A00]">[{String(i + 1).padStart(2, '0')}]</span>{' '}
-                      <span className={i === scanStep - 1 ? 'text-[#FF6A00]' : 'text-white/80'}>{l.t}</span>
+                      <span className="text-[#F27D24]">[{String(i + 1).padStart(2, '0')}]</span>{' '}
+                      <span className={i === scanStep - 1 ? 'text-[#F27D24]' : 'text-white/80'}>{l.t}</span>
                       {i < scanStep - 1 && <span className="text-white/40 ml-2">· ok</span>}
                     </div>
                   ))}
                   {scanStep < SCAN_LINES.length && (
-                    <span className="text-[#FF6A00] animate-pulse">█</span>
+                    <span className="text-[#F27D24] animate-pulse">█</span>
                   )}
                 </div>
                 {scanStep >= SCAN_LINES.length && (
                   <button
                     onClick={() => setScanStep(0)}
-                    className="mt-6 bg-[#FF6A00] text-black font-headline font-black px-4 py-2 text-[11px] tracking-widest uppercase hover:translate-y-[1px] transition-transform"
+                    className="mt-6 bg-[#F27D24] text-black font-headline font-black px-4 py-2 text-[11px] tracking-widest uppercase hover:translate-y-[1px] transition-transform"
                   >
                     Replay scan →
                   </button>
@@ -721,10 +721,10 @@ export default function Home() {
                   </div>
                 ))}
 
-                <div className="mt-6 p-5 bg-black border-l-4 border-[#FF6A00]">
-                  <div className="font-mono text-[10px] tracking-widest text-[#FF6A00] uppercase mb-1">— Projected · Day 90</div>
+                <div className="mt-6 p-5 bg-black border-l-4 border-[#F27D24]">
+                  <div className="font-mono text-[10px] tracking-widest text-[#F27D24] uppercase mb-1">— Projected · Day 90</div>
                   <div className="text-[#e5e2e1] text-base font-bold">
-                    4 / 4 platforms citing <span className="text-[#FF6A00]">you</span>.
+                    4 / 4 platforms citing <span className="text-[#F27D24]">you</span>.
                   </div>
                 </div>
               </div>
@@ -744,9 +744,9 @@ export default function Home() {
           }`}
         >
           <div className="mb-16">
-            <span className="font-mono text-[10px] text-[#FF6A00] tracking-widest uppercase block mb-4">Territory Map // Live Availability</span>
+            <span className="font-mono text-[10px] text-[#F27D24] tracking-widest uppercase block mb-4">Territory Map // Live Availability</span>
             <h2 className="font-headline font-black text-5xl md:text-6xl tracking-tighter uppercase leading-none text-[#e5e2e1]">
-              EXCLUSIVE <span className="text-[#FF6A00]">TERRITORY</span> GRID
+              EXCLUSIVE <span className="text-[#F27D24]">TERRITORY</span> GRID
             </h2>
             <p className="text-white/50 text-sm leading-relaxed mt-4 max-w-xl">
               One client per category, per city. Once claimed, no competitor gets access. Check your territory before they do.
@@ -778,7 +778,7 @@ export default function Home() {
                         LOCKED · CLAIMED
                       </span>
                     ) : (
-                      <span className="font-mono text-[10px] tracking-widest uppercase bg-[#FF6A00] text-black font-bold px-2.5 py-1 inline-flex items-center gap-1.5">
+                      <span className="font-mono text-[10px] tracking-widest uppercase bg-[#F27D24] text-black font-bold px-2.5 py-1 inline-flex items-center gap-1.5">
                         <span>◉</span>
                         OPEN
                       </span>
@@ -788,7 +788,7 @@ export default function Home() {
                     {!isClaimed && (
                       <a
                         href="#territory-check"
-                        className="font-headline font-black text-[11px] tracking-widest uppercase underline underline-offset-4 text-[#FF6A00] hover:text-white transition-colors"
+                        className="font-headline font-black text-[11px] tracking-widest uppercase underline underline-offset-4 text-[#F27D24] hover:text-white transition-colors"
                       >
                         CLAIM →
                       </a>
@@ -805,7 +805,7 @@ export default function Home() {
             </div>
             <a
               href="#territory-check"
-              className="inline-flex items-center gap-3 bg-[#FF6A00] text-black font-black px-10 py-4 tracking-tighter hover:translate-y-[2px] transition-transform font-headline uppercase"
+              className="inline-flex items-center gap-3 bg-[#F27D24] text-black font-black px-10 py-4 tracking-tighter hover:translate-y-[2px] transition-transform font-headline uppercase"
             >
               CHECK YOUR TERRITORY
               <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={2.5} aria-hidden="true">
@@ -822,10 +822,10 @@ export default function Home() {
       <section className="py-32 px-6 lg:px-24 bg-[#131313]">
         <div className="max-w-7xl mx-auto">
           <div className="mb-16">
-            <span className="font-mono text-[10px] text-[#FF6A00] tracking-widest uppercase block mb-4">Who We Serve // Primary Verticals</span>
+            <span className="font-mono text-[10px] text-[#F27D24] tracking-widest uppercase block mb-4">Who We Serve // Primary Verticals</span>
             <h2 className="font-headline font-black text-5xl md:text-6xl tracking-tighter uppercase leading-none text-[#e5e2e1]">
               BUILT ON{' '}
-              <span className="text-[#FF6A00]">REAL ESTATE.</span><br />
+              <span className="text-[#F27D24]">REAL ESTATE.</span><br />
               READY FOR THE REST.
             </h2>
             <p className="text-white/50 text-sm leading-relaxed mt-6 max-w-2xl">
@@ -870,7 +870,7 @@ export default function Home() {
               >
                 <div className="flex items-start justify-between mb-6">
                   <span className="text-5xl font-headline font-black text-white/10">{v.num}</span>
-                  <span className={`font-mono text-[10px] tracking-widest uppercase ${v.tag === 'PRIMARY' ? 'text-[#FF6A00]' : 'text-white/40'}`}>
+                  <span className={`font-mono text-[10px] tracking-widest uppercase ${v.tag === 'PRIMARY' ? 'text-[#F27D24]' : 'text-white/40'}`}>
                     {v.tag}
                   </span>
                 </div>
@@ -900,7 +900,7 @@ export default function Home() {
           }`}
         >
           <div
-            className="border border-[#FF6A00]/40 border-l-4 border-l-[#FF6A00] bg-[#131313] p-12 sm:p-16 relative overflow-hidden hover-lift"
+            className="border border-[#F27D24]/40 border-l-4 border-l-[#F27D24] bg-[#131313] p-12 sm:p-16 relative overflow-hidden hover-lift"
             onMouseMove={handleCardMouseMove}
             onMouseLeave={handleCardMouseLeave}
             style={{ '--mouse-x': '50%', '--mouse-y': '50%' } as React.CSSProperties}
@@ -909,11 +909,11 @@ export default function Home() {
             <div className="absolute top-0 right-0 w-64 h-64 bg-[radial-gradient(ellipse_at_top_right,rgba(255,106,0,0.08),transparent_70%)] pointer-events-none" aria-hidden="true" />
 
             <div className="relative z-10">
-              <span className="font-mono text-[10px] text-[#FF6A00] tracking-widest uppercase block mb-6">Our Guarantee // Zero Risk</span>
+              <span className="font-mono text-[10px] text-[#F27D24] tracking-widest uppercase block mb-6">Our Guarantee // Zero Risk</span>
 
               <h2 className="font-headline font-black text-5xl md:text-7xl tracking-tighter uppercase leading-none text-[#e5e2e1] mb-8">
                 90-DAY CITATION<br />
-                <span className="text-[#FF6A00]">GUARANTEE</span>
+                <span className="text-[#F27D24]">GUARANTEE</span>
               </h2>
 
               <p className="text-white/50 text-sm leading-relaxed max-w-lg mb-10">
@@ -934,7 +934,7 @@ export default function Home() {
                     }`}
                     style={{ transitionDelay: guaranteeAnim.isVisible ? `${200 + i * 100}ms` : '0ms' }}
                   >
-                    <span className="text-[#FF6A00] font-bold text-sm flex-shrink-0">&#10003;</span>
+                    <span className="text-[#F27D24] font-bold text-sm flex-shrink-0">&#10003;</span>
                     <span className="text-white/60 text-sm">{item}</span>
                   </div>
                 ))}
@@ -959,9 +959,9 @@ export default function Home() {
           }`}
         >
           <div className="mb-16">
-            <span className="font-mono text-[10px] text-[#FF6A00] tracking-widest uppercase block mb-4">Common Questions // FAQ</span>
+            <span className="font-mono text-[10px] text-[#F27D24] tracking-widest uppercase block mb-4">Common Questions // FAQ</span>
             <h2 className="font-headline font-black text-5xl md:text-6xl tracking-tighter uppercase leading-none text-[#e5e2e1]">
-              FREQUENTLY ASKED <span className="text-[#FF6A00]">QUESTIONS</span>
+              FREQUENTLY ASKED <span className="text-[#F27D24]">QUESTIONS</span>
             </h2>
           </div>
 
@@ -976,13 +976,13 @@ export default function Home() {
               >
                 <button
                   onClick={() => setExpandedFaq(expandedFaq === i ? null : i)}
-                  className={`w-full px-8 py-6 text-left flex items-center justify-between gap-4 ${expandedFaq === i ? 'border-l-4 border-[#FF6A00]' : 'border-l-4 border-transparent'} transition-all`}
+                  className={`w-full px-8 py-6 text-left flex items-center justify-between gap-4 ${expandedFaq === i ? 'border-l-4 border-[#F27D24]' : 'border-l-4 border-transparent'} transition-all`}
                   aria-expanded={expandedFaq === i}
                   aria-controls={`faq-answer-${i}`}
                 >
                   <span className="font-headline font-bold text-lg uppercase tracking-tight text-[#e5e2e1]">{faq.q}</span>
                   <svg
-                    className={`w-5 h-5 text-[#FF6A00] flex-shrink-0 transition-transform duration-300 ${expandedFaq === i ? 'rotate-180' : ''}`}
+                    className={`w-5 h-5 text-[#F27D24] flex-shrink-0 transition-transform duration-300 ${expandedFaq === i ? 'rotate-180' : ''}`}
                     fill="none"
                     stroke="currentColor"
                     viewBox="0 0 24 24"
@@ -998,7 +998,7 @@ export default function Home() {
                   style={{ gridTemplateRows: expandedFaq === i ? '1fr' : '0fr' }}
                 >
                   <div className="overflow-hidden min-h-0">
-                    <p className="px-8 pb-6 text-white/50 text-sm leading-relaxed border-l-4 border-[#FF6A00]">{faq.a}</p>
+                    <p className="px-8 pb-6 text-white/50 text-sm leading-relaxed border-l-4 border-[#F27D24]">{faq.a}</p>
                   </div>
                 </div>
               </div>
@@ -1010,7 +1010,7 @@ export default function Home() {
       {/* ════════════════════════════════════════════════════════
           ORANGE CTA SECTION
       ════════════════════════════════════════════════════════ */}
-      <section className="bg-[#FF6A00] py-24 px-6 lg:px-24">
+      <section className="bg-[#F27D24] py-24 px-6 lg:px-24">
         <div className="max-w-7xl mx-auto flex flex-col items-center text-center">
           <div className="font-mono text-[10px] uppercase tracking-[0.3em] font-black mb-6 text-black/60">
             Ready to Get Started?
@@ -1021,7 +1021,7 @@ export default function Home() {
           <div className="flex flex-wrap gap-4 justify-center">
             <a
               href="#territory-check"
-              className="bg-black text-[#FF6A00] font-black px-16 py-6 text-2xl tracking-tighter hover:translate-y-[2px] transition-transform font-headline inline-flex items-center gap-4"
+              className="bg-black text-[#F27D24] font-black px-16 py-6 text-2xl tracking-tighter hover:translate-y-[2px] transition-transform font-headline inline-flex items-center gap-4"
             >
               CHECK TERRITORY
               <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={2.5} aria-hidden="true">
@@ -1032,7 +1032,7 @@ export default function Home() {
               href="https://calendly.com/theanswerengine-support/30min"
               target="_blank"
               rel="noopener noreferrer"
-              className="border-2 border-black text-black font-black px-16 py-6 text-2xl tracking-tighter hover:bg-black hover:text-[#FF6A00] transition-all font-headline"
+              className="border-2 border-black text-black font-black px-16 py-6 text-2xl tracking-tighter hover:bg-black hover:text-[#F27D24] transition-all font-headline"
             >
               BOOK 30-MIN CALL
             </a>
@@ -1049,9 +1049,9 @@ export default function Home() {
       <section id="territory-check" className="py-32 px-6 lg:px-24 bg-[#1c1b1b]">
         <div className="max-w-3xl mx-auto">
           <div className="mb-12">
-            <span className="font-mono text-[10px] text-[#FF6A00] tracking-widest uppercase block mb-4">Check Your Territory // Free Scan</span>
+            <span className="font-mono text-[10px] text-[#F27D24] tracking-widest uppercase block mb-4">Check Your Territory // Free Scan</span>
             <h2 className="font-headline font-black text-5xl md:text-6xl tracking-tighter uppercase leading-none text-[#e5e2e1]">
-              CHECK YOUR <span className="text-[#FF6A00]">TERRITORY</span>
+              CHECK YOUR <span className="text-[#F27D24]">TERRITORY</span>
             </h2>
             <p className="text-white/50 text-sm leading-relaxed mt-4">
               One business per category, per area. We&apos;ll check availability and respond within 24 hours.
@@ -1061,12 +1061,12 @@ export default function Home() {
           <div className="border border-white/10 bg-[#131313] p-10 sm:p-12">
             {formStatus === 'success' ? (
               <div className="text-center py-12">
-                <div className="w-16 h-16 mx-auto mb-6 bg-[#FF6A00] flex items-center justify-center">
+                <div className="w-16 h-16 mx-auto mb-6 bg-[#F27D24] flex items-center justify-center">
                   <svg className="w-8 h-8 text-black" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={2.5}>
                     <path strokeLinecap="round" strokeLinejoin="round" d="M5 13l4 4L19 7" />
                   </svg>
                 </div>
-                <div className="font-mono text-[10px] text-[#FF6A00] tracking-widest uppercase mb-4">Request received — we'll be in touch</div>
+                <div className="font-mono text-[10px] text-[#F27D24] tracking-widest uppercase mb-4">Request received — we'll be in touch</div>
                 <h3 className="font-headline font-black text-3xl uppercase tracking-tighter text-[#e5e2e1] mb-3">
                   Territory Check Started
                 </h3>
@@ -1091,9 +1091,9 @@ export default function Home() {
                     name="industry"
                     required
                     disabled={formStatus === 'submitting'}
-                    className="w-full px-4 py-4 bg-[#1c1b1b] border border-white/10 text-[#e5e2e1] font-headline font-bold focus:outline-none focus:border-[#FF6A00] transition-colors disabled:opacity-50 appearance-none cursor-pointer"
+                    className="w-full px-4 py-4 bg-[#1c1b1b] border border-white/10 text-[#e5e2e1] font-headline font-bold focus:outline-none focus:border-[#F27D24] transition-colors disabled:opacity-50 appearance-none cursor-pointer"
                     style={{
-                      backgroundImage: `url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 24 24' stroke='%23FF6A00'%3E%3Cpath stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M19 9l-7 7-7-7'%3E%3C/path%3E%3C/svg%3E")`,
+                      backgroundImage: `url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 24 24' stroke='%23F27D24'%3E%3Cpath stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M19 9l-7 7-7-7'%3E%3C/path%3E%3C/svg%3E")`,
                       backgroundRepeat: 'no-repeat',
                       backgroundPosition: 'right 12px center',
                       backgroundSize: '20px',
@@ -1122,7 +1122,7 @@ export default function Home() {
                     required
                     disabled={formStatus === 'submitting'}
                     placeholder="e.g., Phoenix, AZ"
-                    className="w-full px-4 py-4 bg-[#1c1b1b] border border-white/10 text-[#e5e2e1] font-headline font-bold placeholder-white/20 focus:outline-none focus:border-[#FF6A00] transition-colors disabled:opacity-50"
+                    className="w-full px-4 py-4 bg-[#1c1b1b] border border-white/10 text-[#e5e2e1] font-headline font-bold placeholder-white/20 focus:outline-none focus:border-[#F27D24] transition-colors disabled:opacity-50"
                   />
                 </div>
 
@@ -1137,7 +1137,7 @@ export default function Home() {
                     required
                     disabled={formStatus === 'submitting'}
                     placeholder="you@company.com"
-                    className="w-full px-4 py-4 bg-[#1c1b1b] border border-white/10 text-[#e5e2e1] font-headline font-bold placeholder-white/20 focus:outline-none focus:border-[#FF6A00] transition-colors disabled:opacity-50"
+                    className="w-full px-4 py-4 bg-[#1c1b1b] border border-white/10 text-[#e5e2e1] font-headline font-bold placeholder-white/20 focus:outline-none focus:border-[#F27D24] transition-colors disabled:opacity-50"
                   />
                 </div>
 
@@ -1152,7 +1152,7 @@ export default function Home() {
                 <button
                   type="submit"
                   disabled={formStatus === 'submitting'}
-                  className="w-full py-5 bg-[#FF6A00] text-black font-headline font-black text-xl uppercase tracking-tighter hover:translate-y-[2px] transition-transform disabled:opacity-70 disabled:cursor-not-allowed flex items-center justify-center gap-3"
+                  className="w-full py-5 bg-[#F27D24] text-black font-headline font-black text-xl uppercase tracking-tighter hover:translate-y-[2px] transition-transform disabled:opacity-70 disabled:cursor-not-allowed flex items-center justify-center gap-3"
                 >
                   {formStatus === 'submitting' ? (
                     <>
@@ -1186,7 +1186,7 @@ export default function Home() {
       >
         <a
           href="#territory-check"
-          className="flex items-center justify-center gap-2 w-full py-4 bg-[#FF6A00] text-black font-headline font-black text-lg uppercase tracking-tighter shadow-[0_4px_24px_rgba(255,106,0,0.3)]"
+          className="flex items-center justify-center gap-2 w-full py-4 bg-[#F27D24] text-black font-headline font-black text-lg uppercase tracking-tighter shadow-[0_4px_24px_rgba(255,106,0,0.3)]"
         >
           CHECK YOUR TERRITORY
           <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={2.5} aria-hidden="true">

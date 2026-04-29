@@ -31,7 +31,7 @@ export const metadata: Metadata = {
     description,
     type: 'article',
     publishedTime: publishDate,
-    authors: ['The Answer Engine Team'],
+    authors: ['https://theanswerengine.ai/about'],
     url: `https://theanswerengine.ai/blog/${slug}`,
     images: [
       {
@@ -64,9 +64,18 @@ const jsonLd = {
       datePublished: publishDate,
       dateModified: publishDate,
       author: {
-        '@type': 'Organization',
-        name: 'The Answer Engine',
-        url: 'https://theanswerengine.ai',
+        '@type': 'Person',
+        '@id': 'https://theanswerengine.ai/about#justin-borges',
+        name: 'Justin Borges',
+        jobTitle: 'Founder, The Answer Engine',
+        worksFor: {
+          '@type': 'Organization',
+          name: 'The Answer Engine',
+          url: 'https://theanswerengine.ai',
+        },
+        knowsAbout: ['Answer Engine Optimization', 'AI Search', 'Content Strategy', 'Real Estate Marketing', 'Citation Surface'],
+        url: 'https://theanswerengine.ai/about',
+        image: 'https://theanswerengine.ai/justin-borges.webp',
       },
       publisher: {
         '@type': 'Organization',
@@ -212,21 +221,21 @@ export default function Page() {
               aria-hidden="true"
             >
               {/* Business icon fading out */}
-              <rect x="120" y="100" width="140" height="200" rx="6" stroke="#FF6A00" strokeWidth="0.8" fill="rgba(255,106,0,0.08)" />
-              <rect x="155" y="130" width="30" height="30" rx="2" stroke="#FF6A00" strokeWidth="0.5" fill="rgba(255,106,0,0.1)" />
-              <rect x="205" y="130" width="30" height="30" rx="2" stroke="#FF6A00" strokeWidth="0.5" fill="rgba(255,106,0,0.1)" />
-              <rect x="155" y="175" width="30" height="30" rx="2" stroke="#FF6A00" strokeWidth="0.5" fill="rgba(255,106,0,0.1)" />
-              <rect x="205" y="175" width="30" height="30" rx="2" stroke="#FF6A00" strokeWidth="0.5" fill="rgba(255,106,0,0.1)" />
-              <rect x="170" y="230" width="40" height="70" rx="2" stroke="#FF6A00" strokeWidth="0.5" fill="rgba(255,106,0,0.05)" />
+              <rect x="120" y="100" width="140" height="200" rx="6" stroke="#F27D24" strokeWidth="0.8" fill="rgba(255,106,0,0.08)" />
+              <rect x="155" y="130" width="30" height="30" rx="2" stroke="#F27D24" strokeWidth="0.5" fill="rgba(255,106,0,0.1)" />
+              <rect x="205" y="130" width="30" height="30" rx="2" stroke="#F27D24" strokeWidth="0.5" fill="rgba(255,106,0,0.1)" />
+              <rect x="155" y="175" width="30" height="30" rx="2" stroke="#F27D24" strokeWidth="0.5" fill="rgba(255,106,0,0.1)" />
+              <rect x="205" y="175" width="30" height="30" rx="2" stroke="#F27D24" strokeWidth="0.5" fill="rgba(255,106,0,0.1)" />
+              <rect x="170" y="230" width="40" height="70" rx="2" stroke="#F27D24" strokeWidth="0.5" fill="rgba(255,106,0,0.05)" />
               {/* Signal waves that stop */}
-              <path d="M320 180 Q360 140 400 180 Q440 220 480 180" stroke="#FF6A00" strokeWidth="0.5" strokeDasharray="6 4" fill="none" opacity="0.4"/>
-              <path d="M320 200 Q360 160 400 200 Q440 240 480 200" stroke="#FF6A00" strokeWidth="0.3" strokeDasharray="6 4" fill="none" opacity="0.3"/>
+              <path d="M320 180 Q360 140 400 180 Q440 220 480 180" stroke="#F27D24" strokeWidth="0.5" strokeDasharray="6 4" fill="none" opacity="0.4"/>
+              <path d="M320 200 Q360 160 400 200 Q440 240 480 200" stroke="#F27D24" strokeWidth="0.3" strokeDasharray="6 4" fill="none" opacity="0.3"/>
               {/* X mark / disappear */}
-              <circle cx="580" cy="200" r="60" stroke="#FF6A00" strokeWidth="0.4" fill="rgba(255,106,0,0.03)" strokeDasharray="4 4" />
-              <line x1="555" y1="175" x2="605" y2="225" stroke="#FF6A00" strokeWidth="0.6" opacity="0.3"/>
-              <line x1="605" y1="175" x2="555" y2="225" stroke="#FF6A00" strokeWidth="0.6" opacity="0.3"/>
-              <text x="545" y="280" fontFamily="monospace" fontSize="11" fill="#FF6A00" opacity="0.2">NOT FOUND</text>
-              <text x="130" y="320" fontFamily="monospace" fontSize="11" fill="#FF6A00" opacity="0.25">YOUR BUSINESS</text>
+              <circle cx="580" cy="200" r="60" stroke="#F27D24" strokeWidth="0.4" fill="rgba(255,106,0,0.03)" strokeDasharray="4 4" />
+              <line x1="555" y1="175" x2="605" y2="225" stroke="#F27D24" strokeWidth="0.6" opacity="0.3"/>
+              <line x1="605" y1="175" x2="555" y2="225" stroke="#F27D24" strokeWidth="0.6" opacity="0.3"/>
+              <text x="545" y="280" fontFamily="monospace" fontSize="11" fill="#F27D24" opacity="0.2">NOT FOUND</text>
+              <text x="130" y="320" fontFamily="monospace" fontSize="11" fill="#F27D24" opacity="0.25">YOUR BUSINESS</text>
             </svg>
             <div className="relative px-8 py-16 sm:px-12 sm:py-20">
               <p className="text-sm font-medium text-orange-400 mb-4">Business Pain Points</p>
@@ -238,13 +247,13 @@ export default function Page() {
                 <span>-</span>
                 <span>13 min read</span>
                 <span>-</span>
-                <span>The Answer Engine Team</span>
+                <span>Justin Borges</span>
               </div>
             </div>
           </div>
 
           {/* Article Body */}
-          <article className="prose prose-invert prose-lg max-w-none prose-headings:font-plus-jakarta prose-headings:text-white prose-p:text-gray-300 prose-a:text-[#FF6A00] prose-a:no-underline hover:prose-a:underline prose-strong:text-white">
+          <article className="prose prose-invert prose-lg max-w-none prose-headings:font-plus-jakarta prose-headings:text-white prose-p:text-gray-300 prose-a:text-[#F27D24] prose-a:no-underline hover:prose-a:underline prose-strong:text-white">
 
             {/* Table of Contents */}
             <div className="ae-toc not-prose">
@@ -591,12 +600,17 @@ export default function Page() {
           </article>
 
           {/* Author Card */}
-          <div className="ae-author-card mt-16">
-            <div className="ae-author-avatar">AE</div>
-            <div className="ae-author-info">
-              <div className="ae-author-name">The Answer Engine Team</div>
-              <div className="ae-author-bio">
-                We help local and regional businesses build lasting visibility in AI search results. Our team has audited hundreds of businesses across ChatGPT, Perplexity, Google Gemini, and Google AI Overviews. We know exactly why businesses disappear and exactly how to bring them back.
+          <div className="not-prose">
+            <div className="ae-author-card">
+              <img
+                src="/justin-borges.webp"
+                alt="Justin Borges, Founder of The Answer Engine"
+                style={{ width: 64, height: 64, borderRadius: '50%', objectFit: 'cover', flexShrink: 0 }}
+              />
+              <div>
+                <div className="ae-author-name" style={{ fontWeight: 600 }}>Justin Borges</div>
+                <div className="ae-author-role" style={{ fontWeight: 400 }}>Founder, The Answer Engine</div>
+                <p style={{ marginTop: 8, fontSize: '0.875rem', color: 'rgba(255,255,255,0.65)', lineHeight: 1.6 }}>Justin Borges founded The Answer Engine in 2025 after 13+ years in real estate, $200M+ in production, and discovering that AI search rankings now decide who gets cited as the answer. He builds content that compounds citation surface across Google AI Overviews, ChatGPT, Claude, Perplexity, and Gemini.</p>
               </div>
             </div>
           </div>
@@ -619,7 +633,7 @@ export default function Page() {
                 <Link
                   href="/blindspot"
                   className="text-sm font-medium px-4 py-2 rounded-lg transition-colors"
-                  style={{ backgroundColor: '#FF6A00', color: 'white' }}
+                  style={{ backgroundColor: '#F27D24', color: 'white' }}
                 >
                   Get My Free Report
                 </Link>
@@ -628,7 +642,7 @@ export default function Page() {
                 className="rounded-xl p-6 flex flex-col items-center text-center"
                 style={{ backgroundColor: '#1a1a2e', border: '1px solid rgba(255,106,0,0.3)' }}
               >
-                <div className="text-3xl mb-3" style={{ color: '#FF6A00' }}>02</div>
+                <div className="text-3xl mb-3" style={{ color: '#F27D24' }}>02</div>
                 <h3 className="text-white font-semibold mb-2 font-plus-jakarta">AI Recovery Audit</h3>
                 <p className="text-gray-400 text-sm mb-4">
                   A full diagnosis of which trigger category caused your disappearance, with a prioritized action plan to recover visibility in 60 to 90 days.
@@ -636,7 +650,7 @@ export default function Page() {
                 <a
                   href="tel:+12134442229"
                   className="text-sm font-medium px-4 py-2 rounded-lg transition-colors"
-                  style={{ backgroundColor: '#FF6A00', color: 'white' }}
+                  style={{ backgroundColor: '#F27D24', color: 'white' }}
                 >
                   Call (213) 444-2229
                 </a>
@@ -653,7 +667,7 @@ export default function Page() {
                 <a
                   href="sms:+12134442229"
                   className="text-sm font-medium px-4 py-2 rounded-lg transition-colors"
-                  style={{ backgroundColor: '#FF6A00', color: 'white' }}
+                  style={{ backgroundColor: '#F27D24', color: 'white' }}
                 >
                   Text to Learn More
                 </a>
@@ -757,7 +771,7 @@ export default function Page() {
           >
             <p
               className="text-xs font-semibold uppercase tracking-widest mb-4"
-              style={{ color: '#FF6A00' }}
+              style={{ color: '#F27D24' }}
             >
               Stop the Bleeding Today
             </p>
@@ -771,7 +785,7 @@ export default function Page() {
               <Link
                 href="/blindspot"
                 className="inline-block px-6 py-3 rounded-lg font-semibold text-sm transition-opacity hover:opacity-90"
-                style={{ backgroundColor: '#FF6A00', color: 'white' }}
+                style={{ backgroundColor: '#F27D24', color: 'white' }}
               >
                 Get My Free Blind Spot Report
               </Link>
@@ -780,7 +794,7 @@ export default function Page() {
                 className="inline-block px-6 py-3 rounded-lg font-semibold text-sm transition-colors"
                 style={{
                   border: '1px solid rgba(255,106,0,0.5)',
-                  color: '#FF6A00',
+                  color: '#F27D24',
                 }}
               >
                 Call (213) 444-2229

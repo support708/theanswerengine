@@ -27,7 +27,7 @@ export const metadata: Metadata = {
     description,
     type: 'article',
     publishedTime: publishDate,
-    authors: ['The Answer Engine Team'],
+    authors: ['https://theanswerengine.ai/about'],
     url: `https://theanswerengine.ai/blog/${slug}`,
     images: [{ url: `https://theanswerengine.ai/blog/${slug}.webp`, width: 1200, height: 630, alt: title }],
   },
@@ -51,9 +51,18 @@ const jsonLd = {
       datePublished: publishDate,
       dateModified: publishDate,
       author: {
-        '@type': 'Organization',
-        name: 'The Answer Engine',
-        url: 'https://theanswerengine.ai',
+        '@type': 'Person',
+        '@id': 'https://theanswerengine.ai/about#justin-borges',
+        name: 'Justin Borges',
+        jobTitle: 'Founder, The Answer Engine',
+        worksFor: {
+          '@type': 'Organization',
+          name: 'The Answer Engine',
+          url: 'https://theanswerengine.ai',
+        },
+        knowsAbout: ['Answer Engine Optimization', 'AI Search', 'Content Strategy', 'Real Estate Marketing', 'Citation Surface'],
+        url: 'https://theanswerengine.ai/about',
+        image: 'https://theanswerengine.ai/justin-borges.webp',
       },
       publisher: {
         '@type': 'Organization',
@@ -171,31 +180,31 @@ export default function Page() {
                 <stop offset="100%" stopColor="#0F1117" />
               </radialGradient>
               <radialGradient id="pm-glow" cx="40%" cy="50%" r="45%">
-                <stop offset="0%" stopColor="#FF6A00" stopOpacity="0.12" />
-                <stop offset="100%" stopColor="#FF6A00" stopOpacity="0" />
+                <stop offset="0%" stopColor="#F27D24" stopOpacity="0.12" />
+                <stop offset="100%" stopColor="#F27D24" stopOpacity="0" />
               </radialGradient>
             </defs>
             <rect width="1200" height="400" fill="url(#pm-bg)" />
             <circle cx="480" cy="200" r="280" fill="url(#pm-glow)" />
             {/* Building icon */}
-            <rect x="400" y="140" width="120" height="140" rx="4" fill="none" stroke="#FF6A00" strokeWidth="2" strokeOpacity="0.5" />
-            <rect x="420" y="160" width="24" height="24" rx="2" fill="#FF6A00" fillOpacity="0.2" stroke="#FF6A00" strokeWidth="1" strokeOpacity="0.5" />
-            <rect x="456" y="160" width="24" height="24" rx="2" fill="#FF6A00" fillOpacity="0.2" stroke="#FF6A00" strokeWidth="1" strokeOpacity="0.5" />
-            <rect x="420" y="196" width="24" height="24" rx="2" fill="#FF6A00" fillOpacity="0.2" stroke="#FF6A00" strokeWidth="1" strokeOpacity="0.5" />
-            <rect x="456" y="196" width="24" height="24" rx="2" fill="#FF6A00" fillOpacity="0.2" stroke="#FF6A00" strokeWidth="1" strokeOpacity="0.5" />
-            <rect x="436" y="232" width="48" height="48" rx="2" fill="none" stroke="#FF6A00" strokeWidth="1.5" strokeOpacity="0.4" />
+            <rect x="400" y="140" width="120" height="140" rx="4" fill="none" stroke="#F27D24" strokeWidth="2" strokeOpacity="0.5" />
+            <rect x="420" y="160" width="24" height="24" rx="2" fill="#F27D24" fillOpacity="0.2" stroke="#F27D24" strokeWidth="1" strokeOpacity="0.5" />
+            <rect x="456" y="160" width="24" height="24" rx="2" fill="#F27D24" fillOpacity="0.2" stroke="#F27D24" strokeWidth="1" strokeOpacity="0.5" />
+            <rect x="420" y="196" width="24" height="24" rx="2" fill="#F27D24" fillOpacity="0.2" stroke="#F27D24" strokeWidth="1" strokeOpacity="0.5" />
+            <rect x="456" y="196" width="24" height="24" rx="2" fill="#F27D24" fillOpacity="0.2" stroke="#F27D24" strokeWidth="1" strokeOpacity="0.5" />
+            <rect x="436" y="232" width="48" height="48" rx="2" fill="none" stroke="#F27D24" strokeWidth="1.5" strokeOpacity="0.4" />
             {/* AI response bubble */}
-            <rect x="580" y="130" width="320" height="140" rx="16" fill="#1e2235" stroke="#FF6A00" strokeWidth="1" strokeOpacity="0.3" />
-            <text x="600" y="162" fill="#FF6A00" fontSize="13" fontFamily="monospace" opacity="0.9">AI Response</text>
-            <line x1="600" y1="172" x2="880" y2="172" stroke="#FF6A00" strokeWidth="0.5" strokeOpacity="0.3" />
+            <rect x="580" y="130" width="320" height="140" rx="16" fill="#1e2235" stroke="#F27D24" strokeWidth="1" strokeOpacity="0.3" />
+            <text x="600" y="162" fill="#F27D24" fontSize="13" fontFamily="monospace" opacity="0.9">AI Response</text>
+            <line x1="600" y1="172" x2="880" y2="172" stroke="#F27D24" strokeWidth="0.5" strokeOpacity="0.3" />
             <text x="600" y="195" fill="#aaa" fontSize="12" fontFamily="monospace">"Best property manager</text>
             <text x="600" y="214" fill="#aaa" fontSize="12" fontFamily="monospace"> in [your city]..."</text>
-            <circle cx="615" cy="235" r="4" fill="#FF6A00" opacity="0.8" />
+            <circle cx="615" cy="235" r="4" fill="#F27D24" opacity="0.8" />
             <text x="625" y="238" fill="#eee" fontSize="11" fontFamily="monospace">Your Company</text>
             <circle cx="615" cy="253" r="4" fill="#555" opacity="0.5" />
             <text x="625" y="256" fill="#555" fontSize="11" fontFamily="monospace">Competitor</text>
-            <path d="M530,200 Q555,200 575,200" stroke="#FF6A00" strokeWidth="1.5" strokeDasharray="5,3" fill="none" strokeOpacity="0.5" />
-            <polygon points="574,196 582,200 574,204" fill="#FF6A00" fillOpacity="0.5" />
+            <path d="M530,200 Q555,200 575,200" stroke="#F27D24" strokeWidth="1.5" strokeDasharray="5,3" fill="none" strokeOpacity="0.5" />
+            <polygon points="574,196 582,200 574,204" fill="#F27D24" fillOpacity="0.5" />
           </svg>
         </div>
 
@@ -243,7 +252,7 @@ export default function Page() {
         </div>
 
         <div className="ae-cta-inline not-prose">
-          <p>Wondering if ChatGPT even knows your property management company exists? <Link href="/blindspot" className="text-[#FF6A00] hover:underline font-semibold">Get a free Blind Spot Report</Link> and find out in minutes.</p>
+          <p>Wondering if ChatGPT even knows your property management company exists? <Link href="/blindspot" className="text-[#F27D24] hover:underline font-semibold">Get a free Blind Spot Report</Link> and find out in minutes.</p>
         </div>
 
         <h2 id="how-ai-finds-pm">How AI Finds Property Managers</h2>
@@ -333,7 +342,7 @@ export default function Page() {
         </div>
 
         <div className="ae-cta-inline not-prose">
-          <p>Not sure how visible your property management company is to AI? <Link href="/blindspot" className="text-[#FF6A00] hover:underline font-semibold">Get your free Blind Spot Report</Link> in minutes.</p>
+          <p>Not sure how visible your property management company is to AI? <Link href="/blindspot" className="text-[#F27D24] hover:underline font-semibold">Get your free Blind Spot Report</Link> in minutes.</p>
         </div>
 
         <h2 id="review-signals">Why Your Reviews Are Underperforming for AI</h2>
@@ -392,7 +401,7 @@ export default function Page() {
         <p>This applies to local associations as well. Membership in a regional apartment association, a city's rental housing organization, or a state landlord association all create additional citation points in directories AI recognizes as credible. These memberships are also differentiators: they signal to AI that you are a professional operator, not a casual entrant.</p>
 
         <div className="ae-cta-inline not-prose">
-          <p>Find out exactly which signals are making competitors more visible than you. <Link href="/blindspot" className="text-[#FF6A00] hover:underline font-semibold">Get your free Blind Spot Report</Link> today.</p>
+          <p>Find out exactly which signals are making competitors more visible than you. <Link href="/blindspot" className="text-[#F27D24] hover:underline font-semibold">Get your free Blind Spot Report</Link> today.</p>
         </div>
 
         <h2 id="competitor-profile">What Top Competitors Do Differently</h2>
@@ -459,18 +468,18 @@ export default function Page() {
 
         <div className="ae-callout ae-callout-info not-prose">
           <div className="ae-callout-title">Related Reading</div>
-          <p>Property management sits at the intersection of real estate and local service businesses. See <Link href="/blog/how-real-estate-agents-get-found-ai-search" className="text-[#FF6A00] hover:underline">how real estate agents get found on AI search</Link> and <Link href="/blog/hub-spoke-content-strategy-ai-citations" className="text-[#FF6A00] hover:underline">how hub-and-spoke content strategy drives AI citations</Link> for overlapping frameworks.</p>
+          <p>Property management sits at the intersection of real estate and local service businesses. See <Link href="/blog/how-real-estate-agents-get-found-ai-search" className="text-[#F27D24] hover:underline">how real estate agents get found on AI search</Link> and <Link href="/blog/hub-spoke-content-strategy-ai-citations" className="text-[#F27D24] hover:underline">how hub-and-spoke content strategy drives AI citations</Link> for overlapping frameworks.</p>
         </div>
 
         {/* 3-tier CTA block */}
-        <div className="not-prose my-16 p-8 rounded-2xl bg-gradient-to-br from-[#FF6A00]/10 to-transparent border border-[#FF6A00]/20">
+        <div className="not-prose my-16 p-8 rounded-2xl bg-gradient-to-br from-[#F27D24]/10 to-transparent border border-[#F27D24]/20">
           <h3 className="font-plus-jakarta text-2xl font-bold text-white mb-3">Find Out Why AI Is Recommending Other Property Managers Instead of You</h3>
           <p className="text-gray-400 mb-6">Our free Blind Spot Report shows exactly what ChatGPT, Perplexity, and Google AI know about your property management company, which signals are missing, and what it would take to appear in more landlord recommendations.</p>
-          <Link href="/blindspot" className="inline-flex items-center gap-2 bg-[#FF6A00] text-white px-6 py-3 rounded-lg font-semibold hover:bg-[#e55f00] transition-colors">
+          <Link href="/blindspot" className="inline-flex items-center gap-2 bg-[#F27D24] text-white px-6 py-3 rounded-lg font-semibold hover:bg-[#D96416] transition-colors">
             Get Your Free Blind Spot Report
             <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" /></svg>
           </Link>
-          <div className="flex flex-wrap items-center gap-6 mt-6 pt-6 border-t border-[#FF6A00]/10">
+          <div className="flex flex-wrap items-center gap-6 mt-6 pt-6 border-t border-[#F27D24]/10">
             <a href="tel:+12134442229" className="flex items-center gap-2 text-gray-400 hover:text-white transition-colors">
               <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" /></svg>
               (213) 444-2229
@@ -483,13 +492,18 @@ export default function Page() {
         </div>
 
         {/* Author card */}
-        <div className="ae-author-card not-prose">
-          <div className="ae-author-avatar">AE</div>
-          <div>
-            <div className="font-semibold text-white">The Answer Engine Team</div>
-            <div className="text-sm text-gray-400">AI visibility specialists helping local businesses get found, trusted, and recommended by ChatGPT, Perplexity, and Google AI.</div>
-          </div>
-        </div>
+        <div className="ae-author-card">
+              <img
+                src="/justin-borges.webp"
+                alt="Justin Borges, Founder of The Answer Engine"
+                style={{ width: 64, height: 64, borderRadius: '50%', objectFit: 'cover', flexShrink: 0 }}
+              />
+              <div>
+                <div className="ae-author-name" style={{ fontWeight: 600 }}>Justin Borges</div>
+                <div className="ae-author-role" style={{ fontWeight: 400 }}>Founder, The Answer Engine</div>
+                <p style={{ marginTop: 8, fontSize: '0.875rem', color: 'rgba(255,255,255,0.65)', lineHeight: 1.6 }}>Justin Borges founded The Answer Engine in 2025 after 13+ years in real estate, $200M+ in production, and discovering that AI search rankings now decide who gets cited as the answer. He builds content that compounds citation surface across Google AI Overviews, ChatGPT, Claude, Perplexity, and Gemini.</p>
+              </div>
+            </div>
 
         {/* FAQ */}
         <h2 id="faq">Frequently Asked Questions</h2>
@@ -532,7 +546,7 @@ export default function Page() {
         <div className="ae-final-cta not-prose">
           <h2 className="font-plus-jakarta text-3xl font-bold text-white mb-4">The Next Landlord Inquiry Could Be Yours</h2>
           <p className="text-gray-300 mb-8 text-lg">Every AI-referred landlord that contacts a competitor is a lost management contract. Our Blind Spot Report shows exactly what AI sees when a property owner searches in your market, and what it would take to capture that inquiry.</p>
-          <Link href="/blindspot" className="inline-flex items-center gap-2 bg-[#FF6A00] text-white px-8 py-4 rounded-xl font-bold text-lg hover:bg-[#e55f00] transition-colors ae-pulse-glow">
+          <Link href="/blindspot" className="inline-flex items-center gap-2 bg-[#F27D24] text-white px-8 py-4 rounded-xl font-bold text-lg hover:bg-[#D96416] transition-colors ae-pulse-glow">
             Get Your Free Blind Spot Report
             <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" /></svg>
           </Link>

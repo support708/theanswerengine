@@ -23,7 +23,7 @@ export const metadata: Metadata = {
     'business-visibility',
     'local-service-marketing',
   ],
-  authors: [{ name: 'The Answer Engine Team' }],
+  authors: [{ name: 'Justin Borges', url: 'https://theanswerengine.ai/about' }],
   openGraph: {
     title: 'Answer Engine Optimization: Complete AEO Guide for 2026',
     description:
@@ -32,7 +32,7 @@ export const metadata: Metadata = {
     siteName: 'The Answer Engine',
     type: 'article',
     publishedTime: '2026-03-08T00:00:00Z',
-    authors: ['The Answer Engine Team'],
+    authors: ['https://theanswerengine.ai/about'],
   },
   twitter: {
     card: 'summary_large_image',
@@ -58,9 +58,18 @@ const jsonLd = {
       datePublished: '2026-03-08T00:00:00Z',
       dateModified: '2026-03-08T00:00:00Z',
       author: {
-        '@type': 'Organization',
-        name: 'The Answer Engine Team',
-        url: 'https://theanswerengine.ai',
+        '@type': 'Person',
+        '@id': 'https://theanswerengine.ai/about#justin-borges',
+        name: 'Justin Borges',
+        jobTitle: 'Founder, The Answer Engine',
+        worksFor: {
+          '@type': 'Organization',
+          name: 'The Answer Engine',
+          url: 'https://theanswerengine.ai',
+        },
+        knowsAbout: ['Answer Engine Optimization', 'AI Search', 'Content Strategy', 'Real Estate Marketing', 'Citation Surface'],
+        url: 'https://theanswerengine.ai/about',
+        image: 'https://theanswerengine.ai/justin-borges.webp',
       },
       publisher: {
         '@type': 'Organization',
@@ -224,7 +233,7 @@ export default function AEOGuidePage() {
                 <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={2}>
                   <path strokeLinecap="round" strokeLinejoin="round" d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z" />
                 </svg>
-                <span>The Answer Engine Team</span>
+                <span>Justin Borges</span>
               </div>
             </div>
           </header>
@@ -254,7 +263,7 @@ export default function AEOGuidePage() {
           </div>
 
           {/* Main Content */}
-          <div className="prose prose-invert prose-lg max-w-none prose-headings:font-plus-jakarta prose-headings:text-white prose-p:text-gray-300 prose-a:text-[#FF6A00] prose-a:no-underline hover:prose-a:underline prose-strong:text-white">
+          <div className="prose prose-invert prose-lg max-w-none prose-headings:font-plus-jakarta prose-headings:text-white prose-p:text-gray-300 prose-a:text-[#F27D24] prose-a:no-underline hover:prose-a:underline prose-strong:text-white">
 
             {/* Section 1 */}
             <span className="ae-section-label">The Foundation</span>
@@ -883,11 +892,11 @@ export default function AEOGuidePage() {
 
           {/* Author Card */}
           <div className="ae-author-card not-prose">
-            <div className="w-14 h-14 rounded-full flex items-center justify-center text-white font-bold text-lg flex-shrink-0" style={{ backgroundColor: '#FF6A00' }}>
+            <div className="w-14 h-14 rounded-full flex items-center justify-center text-white font-bold text-lg flex-shrink-0" style={{ backgroundColor: '#F27D24' }}>
               AE
             </div>
             <div>
-              <p style={{ color: 'white', fontWeight: 600, marginBottom: '4px' }}>The Answer Engine Team</p>
+              <p style={{ color: 'white', fontWeight: 600, fontSize: '0.875rem', margin: 0 }}>Justin Borges</p>
               <p style={{ color: '#9CA3AF', fontSize: '14px' }}>We help local service businesses become the answer AI platforms recommend. Published March 8, 2026 at theanswerengine.ai</p>
             </div>
           </div>
@@ -897,7 +906,7 @@ export default function AEOGuidePage() {
             <h2 style={{ color: 'white', fontSize: '24px', fontWeight: 700, marginBottom: '12px' }}>Find Out If AI Platforms Can See Your Business</h2>
             <p style={{ color: '#D1D5DB', marginBottom: '24px' }}>Most local service businesses have zero visibility in AI answers right now. Get a free AI visibility check and see exactly where you stand. No pitch, just the data.</p>
             <div style={{ display: 'flex', flexWrap: 'wrap', gap: '12px', marginBottom: '20px' }}>
-              <Link href="/blindspot" className="inline-block bg-[#FF6A00] hover:bg-orange-600 text-white font-semibold px-6 py-3 rounded-lg transition-colors">
+              <Link href="/blindspot" className="inline-block bg-[#F27D24] hover:bg-orange-600 text-white font-semibold px-6 py-3 rounded-lg transition-colors">
                 Get Your Free Blind Spot Report
               </Link>
             </div>
@@ -987,7 +996,7 @@ export default function AEOGuidePage() {
             <div className="ae-final-cta-pulse"></div>
             <h2 style={{ color: 'white', fontSize: '28px', fontWeight: 700, marginBottom: '12px', position: 'relative', zIndex: 1 }}>Your Competitors Are Already Optimizing for AI. Are You?</h2>
             <p style={{ color: '#D1D5DB', marginBottom: '24px', maxWidth: '600px', marginLeft: 'auto', marginRight: 'auto', position: 'relative', zIndex: 1 }}>Every day you wait, competitors capture more AI citations, more trust, and more customers. The businesses that move first build a moat that gets harder to cross over time.</p>
-            <Link href="/blindspot" className="inline-block bg-[#FF6A00] hover:bg-orange-600 text-white font-bold px-8 py-4 rounded-xl text-lg transition-colors" style={{ position: 'relative', zIndex: 1 }}>
+            <Link href="/blindspot" className="inline-block bg-[#F27D24] hover:bg-orange-600 text-white font-bold px-8 py-4 rounded-xl text-lg transition-colors" style={{ position: 'relative', zIndex: 1 }}>
               Get Your Free Blind Spot Report Now
             </Link>
             <div style={{ display: 'flex', justifyContent: 'center', gap: '24px', marginTop: '16px', position: 'relative', zIndex: 1 }}>

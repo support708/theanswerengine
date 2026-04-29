@@ -21,7 +21,7 @@ export const metadata: Metadata = {
     'local SEO 2025',
     'ChatGPT vs Google Maps',
   ],
-  authors: [{ name: 'The Answer Engine Team' }],
+  authors: [{ name: 'Justin Borges', url: 'https://theanswerengine.ai/about' }],
   openGraph: {
     title: 'AI Search vs Google Maps: Which Sends More Customers',
     description:
@@ -30,7 +30,7 @@ export const metadata: Metadata = {
     siteName: 'The Answer Engine',
     type: 'article',
     publishedTime: '2026-03-25T00:00:00Z',
-    authors: ['The Answer Engine Team'],
+    authors: ['https://theanswerengine.ai/about'],
     images: [
       {
         url: 'https://theanswerengine.ai/blog/ai-search-vs-google-maps-which-one-sends-more-customers.webp',
@@ -67,9 +67,18 @@ const jsonLd = {
       datePublished: '2026-03-25T00:00:00Z',
       dateModified: '2026-03-25T00:00:00Z',
       author: {
-        '@type': 'Organization',
-        name: 'The Answer Engine Team',
-        url: 'https://theanswerengine.ai',
+        '@type': 'Person',
+        '@id': 'https://theanswerengine.ai/about#justin-borges',
+        name: 'Justin Borges',
+        jobTitle: 'Founder, The Answer Engine',
+        worksFor: {
+          '@type': 'Organization',
+          name: 'The Answer Engine',
+          url: 'https://theanswerengine.ai',
+        },
+        knowsAbout: ['Answer Engine Optimization', 'AI Search', 'Content Strategy', 'Real Estate Marketing', 'Citation Surface'],
+        url: 'https://theanswerengine.ai/about',
+        image: 'https://theanswerengine.ai/justin-borges.webp',
       },
       publisher: {
         '@type': 'Organization',
@@ -202,7 +211,7 @@ export default function Page() {
                 </Link>
               </li>
               <li aria-hidden="true">/</li>
-              <li style={{ color: '#FF6A00' }} aria-current="page">
+              <li style={{ color: '#F27D24' }} aria-current="page">
                 AI Search vs Google Maps
               </li>
             </ol>
@@ -214,7 +223,7 @@ export default function Page() {
           <div className="mb-4">
             <span
               className="ae-section-label inline-block text-xs font-bold uppercase tracking-widest px-3 py-1 rounded-full"
-              style={{ background: 'rgba(255,106,0,0.15)', color: '#FF6A00', border: '1px solid rgba(255,106,0,0.3)' }}
+              style={{ background: 'rgba(255,106,0,0.15)', color: '#F27D24', border: '1px solid rgba(255,106,0,0.3)' }}
             >
               Competitive Intelligence
             </span>
@@ -225,7 +234,7 @@ export default function Page() {
             style={{ color: '#FFFFFF' }}
           >
             AI Search vs Google Maps:{' '}
-            <span style={{ color: '#FF6A00' }}>Which One Sends More Customers</span>
+            <span style={{ color: '#F27D24' }}>Which One Sends More Customers</span>
           </h1>
 
           {/* Intro Box */}
@@ -248,13 +257,13 @@ export default function Page() {
 
           {/* Article Meta */}
           <div className="flex flex-wrap items-center gap-4 text-sm" style={{ color: '#6B7280' }}>
-            <span>By The Answer Engine Team</span>
+            <span>By Justin Borges</span>
             <span aria-hidden="true">|</span>
             <time dateTime="2026-03-25">March 25, 2026</time>
             <span aria-hidden="true">|</span>
             <span>12 min read</span>
             <span aria-hidden="true">|</span>
-            <span style={{ color: '#FF6A00' }}>Competitive Intelligence</span>
+            <span style={{ color: '#F27D24' }}>Competitive Intelligence</span>
           </div>
         </header>
 
@@ -269,7 +278,7 @@ export default function Page() {
           >
             <p
               className="font-plus-jakarta text-xs font-bold uppercase tracking-widest mb-4"
-              style={{ color: '#FF6A00' }}
+              style={{ color: '#F27D24' }}
             >
               In This Article
             </p>
@@ -348,7 +357,7 @@ export default function Page() {
                 {
                   stat: '15.9%',
                   label: 'conversion rate for ChatGPT-referred visitors vs 1.76% for Google organic',
-                  color: '#FF6A00',
+                  color: '#F27D24',
                 },
                 {
                   stat: '357%',
@@ -386,12 +395,12 @@ export default function Page() {
             >
               <p
                 className="font-plus-jakarta text-sm font-bold uppercase tracking-wider mb-6"
-                style={{ color: '#FF6A00' }}
+                style={{ color: '#F27D24' }}
               >
                 Conversion Rates by Channel
               </p>
               {[
-                { label: 'ChatGPT', value: 15.9, max: 16, color: '#FF6A00' },
+                { label: 'ChatGPT', value: 15.9, max: 16, color: '#F27D24' },
                 { label: 'Perplexity', value: 10.5, max: 16, color: '#F59E0B' },
                 { label: 'Google AI Overview', value: 3.0, max: 16, color: '#60A5FA' },
                 { label: 'Google Maps / 3-Pack', value: 2.8, max: 16, color: '#34D399' },
@@ -445,14 +454,14 @@ export default function Page() {
               <Link
                 href="/get-started"
                 className="inline-block font-bold text-sm px-5 py-2.5 rounded-lg transition-all"
-                style={{ background: '#FF6A00', color: '#fff' }}
+                style={{ background: '#F27D24', color: '#fff' }}
               >
                 Get Your Free Visibility Audit
               </Link>
               <a
                 href="tel:+1-800-555-0199"
                 className="inline-block text-sm px-5 py-2.5 rounded-lg transition-all"
-                style={{ border: '1px solid rgba(255,106,0,0.4)', color: '#FF6A00' }}
+                style={{ border: '1px solid rgba(255,106,0,0.4)', color: '#F27D24' }}
               >
                 Call Us Now
               </a>
@@ -537,7 +546,7 @@ export default function Page() {
               For a detailed breakdown of how each AI platform evaluates businesses, see our guide:{' '}
               <Link
                 href="/blog/how-customers-use-ai-to-find-local-businesses"
-                style={{ color: '#FF6A00', textDecoration: 'underline' }}
+                style={{ color: '#F27D24', textDecoration: 'underline' }}
               >
                 How Customers Use AI to Find Local Businesses
               </Link>
@@ -579,7 +588,7 @@ export default function Page() {
             <a
               href="sms:+1-800-555-0199"
               className="inline-block font-bold text-sm px-5 py-2.5 rounded-lg"
-              style={{ background: '#FF6A00', color: '#fff' }}
+              style={{ background: '#F27D24', color: '#fff' }}
             >
               Text Us Your Business Name
             </a>
@@ -617,7 +626,7 @@ export default function Page() {
                     </th>
                     <th
                       className="text-center p-4 font-bold"
-                      style={{ color: '#FF6A00', borderBottom: '1px solid #1E2130' }}
+                      style={{ color: '#F27D24', borderBottom: '1px solid #1E2130' }}
                     >
                       AI Search (ChatGPT / Perplexity)
                     </th>
@@ -704,7 +713,7 @@ export default function Page() {
                   year: '2025',
                   title: 'The Inflection Point',
                   body: 'AI platform visits hit 55.2 billion annually, up 81% year-over-year. Consumer AI adoption for local recommendations reaches 45%, a 650% jump in one year. AI referral traffic surges 527%. Google Maps traffic stable but share of initial research declines.',
-                  color: '#FF6A00',
+                  color: '#F27D24',
                 },
                 {
                   year: '2026+',
@@ -738,7 +747,7 @@ export default function Page() {
             {/* Quote */}
             <blockquote
               className="ae-quote rounded-xl p-6 mb-8"
-              style={{ background: '#161923', borderLeft: '4px solid #FF6A00' }}
+              style={{ background: '#161923', borderLeft: '4px solid #F27D24' }}
             >
               <p className="text-lg italic leading-relaxed mb-3" style={{ color: '#E5E7EB' }}>
                 &ldquo;Google Maps still drives the most foot traffic. But ChatGPT drives the most
@@ -755,7 +764,7 @@ export default function Page() {
               To understand how this shift is changing the full buyer journey, read:{' '}
               <Link
                 href="/blog/how-ai-search-changes-sales-funnel"
-                style={{ color: '#FF6A00', textDecoration: 'underline' }}
+                style={{ color: '#F27D24', textDecoration: 'underline' }}
               >
                 How AI Search Changes the Sales Funnel for Local Businesses
               </Link>
@@ -783,7 +792,7 @@ export default function Page() {
               <Link
                 href="/blindspot"
                 className="inline-block font-bold text-sm px-5 py-2.5 rounded-lg"
-                style={{ background: '#FF6A00', color: '#fff' }}
+                style={{ background: '#F27D24', color: '#fff' }}
               >
                 Book a Free Visibility Call
               </Link>
@@ -861,7 +870,7 @@ export default function Page() {
               <div className="rounded-xl p-6" style={{ background: '#161923', border: '1px solid #1E2130' }}>
                 <p
                   className="font-plus-jakarta text-base font-bold uppercase tracking-wide mb-4"
-                  style={{ color: '#FF6A00' }}
+                  style={{ color: '#F27D24' }}
                 >
                   AI Search: Pros
                 </p>
@@ -932,7 +941,7 @@ export default function Page() {
                   leads: '5 to 20 leads/mo (and growing)',
                   costPerLead: '$40 to $90 today, declining as volume grows',
                   note: 'Early-stage, high quality, compounding returns',
-                  color: '#FF6A00',
+                  color: '#F27D24',
                 },
               ].map((item) => (
                 <div
@@ -1044,7 +1053,7 @@ export default function Page() {
               businesses to recommend, see:{' '}
               <Link
                 href="/blog/ai-search-replacing-map-pack"
-                style={{ color: '#FF6A00', textDecoration: 'underline' }}
+                style={{ color: '#F27D24', textDecoration: 'underline' }}
               >
                 Is AI Search Replacing the Google Map Pack?
               </Link>
@@ -1070,14 +1079,14 @@ export default function Page() {
               <Link
                 href="/get-started"
                 className="inline-block font-bold text-sm px-5 py-2.5 rounded-lg"
-                style={{ background: '#FF6A00', color: '#fff' }}
+                style={{ background: '#F27D24', color: '#fff' }}
               >
                 Request Your Dual-Channel Audit
               </Link>
               <a
                 href="tel:+1-800-555-0199"
                 className="inline-block text-sm px-5 py-2.5 rounded-lg"
-                style={{ border: '1px solid rgba(255,106,0,0.4)', color: '#FF6A00' }}
+                style={{ border: '1px solid rgba(255,106,0,0.4)', color: '#F27D24' }}
               >
                 Call: 1-800-555-0199
               </a>
@@ -1100,7 +1109,7 @@ export default function Page() {
             >
               <p
                 className="font-plus-jakarta text-xs font-bold uppercase tracking-widest mb-6"
-                style={{ color: '#FF6A00' }}
+                style={{ color: '#F27D24' }}
               >
                 At a Glance: What You Need to Know
               </p>
@@ -1119,7 +1128,7 @@ export default function Page() {
                   </ul>
                 </div>
                 <div>
-                  <p className="font-bold mb-3 text-sm" style={{ color: '#FF6A00' }}>
+                  <p className="font-bold mb-3 text-sm" style={{ color: '#F27D24' }}>
                     AI Search (ChatGPT / Perplexity / Gemini)
                   </p>
                   <ul className="space-y-2 text-sm" style={{ color: '#9CA3AF' }}>
@@ -1150,14 +1159,14 @@ export default function Page() {
             <div className="flex items-start gap-4">
               <div
                 className="flex-shrink-0 w-12 h-12 rounded-full flex items-center justify-center font-plus-jakarta font-bold text-lg"
-                style={{ background: 'rgba(255,106,0,0.15)', color: '#FF6A00' }}
+                style={{ background: 'rgba(255,106,0,0.15)', color: '#F27D24' }}
                 aria-hidden="true"
               >
                 AE
               </div>
               <div>
                 <p className="font-bold text-sm mb-0.5" style={{ color: '#FFFFFF' }}>
-                  The Answer Engine Team
+                  Justin Borges
                 </p>
                 <p className="text-xs mb-2" style={{ color: '#6B7280' }}>
                   AEO Specialists | Published March 25, 2026
@@ -1227,7 +1236,7 @@ export default function Page() {
                 >
                   <p
                     className="font-plus-jakarta font-bold"
-                    style={{ color: tier.style === 'primary' ? '#FF6A00' : '#FFFFFF' }}
+                    style={{ color: tier.style === 'primary' ? '#F27D24' : '#FFFFFF' }}
                   >
                     {tier.tier}
                   </p>
@@ -1239,7 +1248,7 @@ export default function Page() {
                     className="inline-block text-center font-bold text-sm py-2.5 px-4 rounded-lg transition-all"
                     style={
                       tier.style === 'primary'
-                        ? { background: '#FF6A00', color: '#fff' }
+                        ? { background: '#F27D24', color: '#fff' }
                         : { border: '1px solid #1E2130', color: '#9CA3AF' }
                     }
                   >
@@ -1250,7 +1259,7 @@ export default function Page() {
             </div>
 
             <div className="flex flex-wrap justify-center gap-4 text-sm">
-              <a href="tel:+1-800-555-0199" style={{ color: '#FF6A00' }}>
+              <a href="tel:+1-800-555-0199" style={{ color: '#F27D24' }}>
                 Call: 1-800-555-0199
               </a>
               <span style={{ color: '#1E2130' }} aria-hidden="true">|</span>
@@ -1313,7 +1322,7 @@ export default function Page() {
                     <span>{item.q}</span>
                     <span
                       className="flex-shrink-0 ml-4 text-lg"
-                      style={{ color: '#FF6A00' }}
+                      style={{ color: '#F27D24' }}
                       aria-hidden="true"
                     >
                       +
@@ -1343,7 +1352,7 @@ export default function Page() {
             >
               Your Competitors Are Already Building AI Visibility.
               <br />
-              <span style={{ color: '#FF6A00' }}>Are You?</span>
+              <span style={{ color: '#F27D24' }}>Are You?</span>
             </h2>
             <p className="text-lg mb-8 max-w-xl mx-auto leading-relaxed" style={{ color: '#D1D5DB' }}>
               AI search adoption grew 650% in one year. The businesses investing in it today will
@@ -1354,14 +1363,14 @@ export default function Page() {
               <Link
                 href="/get-started"
                 className="inline-block font-bold px-8 py-3.5 rounded-xl text-base transition-all"
-                style={{ background: '#FF6A00', color: '#fff' }}
+                style={{ background: '#F27D24', color: '#fff' }}
               >
                 Get My Free AI Visibility Audit
               </Link>
               <a
                 href="tel:+1-800-555-0199"
                 className="inline-block font-bold px-8 py-3.5 rounded-xl text-base transition-all"
-                style={{ border: '1px solid rgba(255,106,0,0.4)', color: '#FF6A00' }}
+                style={{ border: '1px solid rgba(255,106,0,0.4)', color: '#F27D24' }}
               >
                 Call 1-800-555-0199
               </a>

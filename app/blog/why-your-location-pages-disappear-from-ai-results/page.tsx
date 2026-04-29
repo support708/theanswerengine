@@ -22,7 +22,7 @@ export const metadata: Metadata = {
     'location page duplicates',
     'location page content AI',
   ],
-  authors: [{ name: 'The Answer Engine Team' }],
+  authors: [{ name: 'Justin Borges', url: 'https://theanswerengine.ai/about' }],
   openGraph: {
     title: 'Why Your Location Pages Disappear from AI Results',
     description:
@@ -66,9 +66,18 @@ const jsonLd = {
       datePublished: '2026-04-05T00:00:00Z',
       dateModified: '2026-04-05T00:00:00Z',
       author: {
-        '@type': 'Organization',
-        name: 'The Answer Engine Team',
+        '@type': 'Person',
+        '@id': 'https://theanswerengine.ai/about#justin-borges',
+        name: 'Justin Borges',
+        jobTitle: 'Founder, The Answer Engine',
+        worksFor: {
+          '@type': 'Organization',
+          name: 'The Answer Engine',
+          url: 'https://theanswerengine.ai',
+        },
+        knowsAbout: ['Answer Engine Optimization', 'AI Search', 'Content Strategy', 'Real Estate Marketing', 'Citation Surface'],
         url: 'https://theanswerengine.ai/about',
+        image: 'https://theanswerengine.ai/justin-borges.webp',
       },
       publisher: {
         '@type': 'Organization',
@@ -171,11 +180,11 @@ export default function WhyLocationPagesDisappearFromAI() {
 
       <div className="max-w-4xl mx-auto px-6 pt-20 pb-4">
         <nav className="flex items-center gap-2 text-sm text-gray-500">
-          <Link href="/" className="hover:text-[#FF6A00] transition-colors">
+          <Link href="/" className="hover:text-[#F27D24] transition-colors">
             Home
           </Link>
           <span>/</span>
-          <Link href="/blog" className="hover:text-[#FF6A00] transition-colors">
+          <Link href="/blog" className="hover:text-[#F27D24] transition-colors">
             Blog
           </Link>
           <span>/</span>
@@ -185,7 +194,7 @@ export default function WhyLocationPagesDisappearFromAI() {
 
       <header className="max-w-4xl mx-auto px-6 pb-12">
         <div className="flex items-center gap-3 mb-6">
-          <span className="bg-[#FF6A00]/10 text-[#FF6A00] px-3 py-1 rounded-full text-xs font-semibold tracking-wide uppercase">
+          <span className="bg-[#F27D24]/10 text-[#F27D24] px-3 py-1 rounded-full text-xs font-semibold tracking-wide uppercase">
             Business Pain Points
           </span>
           <time className="text-gray-500 text-sm">2026-04-05</time>
@@ -193,7 +202,7 @@ export default function WhyLocationPagesDisappearFromAI() {
         </div>
         <h1 className="font-plus-jakarta text-4xl md:text-5xl font-bold text-white leading-tight mb-6">
           Why Your Location Pages{' '}
-          <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#FF6A00] to-orange-400">
+          <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#F27D24] to-orange-400">
             Disappear from AI Results
           </span>
         </h1>
@@ -203,7 +212,7 @@ export default function WhyLocationPagesDisappearFromAI() {
       </header>
 
       <article className="max-w-4xl mx-auto px-6 pb-20">
-        <div className="prose prose-invert prose-lg max-w-none prose-headings:font-plus-jakarta prose-headings:text-white prose-p:text-gray-300 prose-a:text-[#FF6A00] prose-a:no-underline hover:prose-a:underline prose-strong:text-white">
+        <div className="prose prose-invert prose-lg max-w-none prose-headings:font-plus-jakarta prose-headings:text-white prose-p:text-gray-300 prose-a:text-[#F27D24] prose-a:no-underline hover:prose-a:underline prose-strong:text-white">
           {/* ── HERO STATS GRID ── */}
           <div className="ae-stats-grid not-prose">
             <div className="ae-stat-card">
@@ -748,7 +757,7 @@ export default function WhyLocationPagesDisappearFromAI() {
               <li>
                 <Link
                   href="/blog/why-multi-location-businesses-struggle-ai-search"
-                  className="text-[#FF6A00] hover:underline"
+                  className="text-[#F27D24] hover:underline"
                 >
                   Why Multi-Location Businesses Struggle with AI Search
                 </Link>
@@ -756,7 +765,7 @@ export default function WhyLocationPagesDisappearFromAI() {
               <li>
                 <Link
                   href="/blog/does-schema-markup-help-ai-search"
-                  className="text-[#FF6A00] hover:underline"
+                  className="text-[#F27D24] hover:underline"
                 >
                   Does Schema Markup Help with AI Search?
                 </Link>
@@ -764,7 +773,7 @@ export default function WhyLocationPagesDisappearFromAI() {
               <li>
                 <Link
                   href="/blog/how-ai-platforms-choose-businesses-to-cite"
-                  className="text-[#FF6A00] hover:underline"
+                  className="text-[#F27D24] hover:underline"
                 >
                   How AI Platforms Choose Which Businesses to Cite
                 </Link>
@@ -772,7 +781,7 @@ export default function WhyLocationPagesDisappearFromAI() {
               <li>
                 <Link
                   href="/blog/directory-listings-that-help-ai-find-business"
-                  className="text-[#FF6A00] hover:underline"
+                  className="text-[#F27D24] hover:underline"
                 >
                   Directory Listings That Help AI Find Your Business
                 </Link>
@@ -780,7 +789,7 @@ export default function WhyLocationPagesDisappearFromAI() {
               <li>
                 <Link
                   href="/blog/aeo-vs-seo-local-business-guide"
-                  className="text-[#FF6A00] hover:underline"
+                  className="text-[#F27D24] hover:underline"
                 >
                   AEO vs SEO: Local Business Guide
                 </Link>

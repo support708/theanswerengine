@@ -20,7 +20,7 @@ export const metadata: Metadata = {
     'Digital Marketing',
     'Content Strategy',
   ],
-  authors: [{ name: 'The Answer Engine Team' }],
+  authors: [{ name: 'Justin Borges', url: 'https://theanswerengine.ai/about' }],
   openGraph: {
     title: 'Google AI Overviews Replacing Search: What You Need to Know',
     description: 'Google AI Overviews now appear in 60% of searches, fundamentally changing how users discover information. Learn why they\'re replacing traditional results and how to adapt.',
@@ -28,7 +28,7 @@ export const metadata: Metadata = {
     siteName: 'The Answer Engine',
     type: 'article',
     publishedTime: '2026-03-08T00:00:00Z',
-    authors: ['The Answer Engine Team'],
+    authors: ['https://theanswerengine.ai/about'],
     tags: [
       'AEO',
       'AI Overviews',
@@ -60,9 +60,18 @@ const jsonLd = {
       datePublished: '2026-03-08T00:00:00Z',
       dateModified: '2026-03-08T00:00:00Z',
       author: {
-        '@type': 'Organization',
-        name: 'The Answer Engine Team',
-        url: 'https://theanswerengine.ai',
+        '@type': 'Person',
+        '@id': 'https://theanswerengine.ai/about#justin-borges',
+        name: 'Justin Borges',
+        jobTitle: 'Founder, The Answer Engine',
+        worksFor: {
+          '@type': 'Organization',
+          name: 'The Answer Engine',
+          url: 'https://theanswerengine.ai',
+        },
+        knowsAbout: ['Answer Engine Optimization', 'AI Search', 'Content Strategy', 'Real Estate Marketing', 'Citation Surface'],
+        url: 'https://theanswerengine.ai/about',
+        image: 'https://theanswerengine.ai/justin-borges.webp',
       },
       publisher: {
         '@type': 'Organization',
@@ -225,23 +234,23 @@ export default function Page() {
               fill="none"
               aria-hidden="true"
             >
-              <circle cx="600" cy="100" r="200" stroke="#FF6A00" strokeWidth="0.5" />
-              <circle cx="600" cy="100" r="140" stroke="#FF6A00" strokeWidth="0.5" />
-              <circle cx="600" cy="100" r="80" stroke="#FF6A00" strokeWidth="0.5" />
-              <line x1="0" y1="100" x2="800" y2="100" stroke="#FF6A00" strokeWidth="0.3" />
-              <line x1="0" y1="200" x2="800" y2="200" stroke="#FF6A00" strokeWidth="0.3" />
-              <line x1="0" y1="300" x2="800" y2="300" stroke="#FF6A00" strokeWidth="0.3" />
-              <line x1="100" y1="0" x2="100" y2="400" stroke="#FF6A00" strokeWidth="0.3" />
-              <line x1="400" y1="0" x2="400" y2="400" stroke="#FF6A00" strokeWidth="0.3" />
+              <circle cx="600" cy="100" r="200" stroke="#F27D24" strokeWidth="0.5" />
+              <circle cx="600" cy="100" r="140" stroke="#F27D24" strokeWidth="0.5" />
+              <circle cx="600" cy="100" r="80" stroke="#F27D24" strokeWidth="0.5" />
+              <line x1="0" y1="100" x2="800" y2="100" stroke="#F27D24" strokeWidth="0.3" />
+              <line x1="0" y1="200" x2="800" y2="200" stroke="#F27D24" strokeWidth="0.3" />
+              <line x1="0" y1="300" x2="800" y2="300" stroke="#F27D24" strokeWidth="0.3" />
+              <line x1="100" y1="0" x2="100" y2="400" stroke="#F27D24" strokeWidth="0.3" />
+              <line x1="400" y1="0" x2="400" y2="400" stroke="#F27D24" strokeWidth="0.3" />
               <polygon
                 points="50,350 150,200 250,350"
-                stroke="#FF6A00"
+                stroke="#F27D24"
                 strokeWidth="0.5"
                 fill="none"
               />
               <polygon
                 points="200,380 320,220 440,380"
-                stroke="#FF6A00"
+                stroke="#F27D24"
                 strokeWidth="0.4"
                 fill="none"
               />
@@ -256,7 +265,7 @@ export default function Page() {
                 <span>-</span>
                 <span>8 min read</span>
                 <span>-</span>
-                <span>The Answer Engine Team</span>
+                <span>Justin Borges</span>
               </div>
             </div>
           </div>
@@ -286,7 +295,7 @@ export default function Page() {
           </div>
 
           {/* Article Body */}
-          <article className="prose prose-invert prose-lg max-w-none prose-headings:font-plus-jakarta prose-headings:text-white prose-p:text-gray-300 prose-a:text-[#FF6A00] prose-a:no-underline hover:prose-a:underline prose-strong:text-white">
+          <article className="prose prose-invert prose-lg max-w-none prose-headings:font-plus-jakarta prose-headings:text-white prose-p:text-gray-300 prose-a:text-[#F27D24] prose-a:no-underline hover:prose-a:underline prose-strong:text-white">
 
             {/* Intro */}
             <p className="text-xl text-gray-300 leading-relaxed mb-10">
@@ -1000,13 +1009,17 @@ export default function Page() {
           </article>
 
           {/* Author Card */}
-          <div className="not-prose ae-author-card">
-            <div className="ae-author-avatar">AE</div>
-            <div>
-              <div className="ae-author-name">The Answer Engine Team</div>
-              <div className="ae-author-role">
-                Research-driven insights on AI search, answer engine optimization, and the
-                future of local business visibility.
+          <div className="not-prose">
+            <div className="ae-author-card">
+              <img
+                src="/justin-borges.webp"
+                alt="Justin Borges, Founder of The Answer Engine"
+                style={{ width: 64, height: 64, borderRadius: '50%', objectFit: 'cover', flexShrink: 0 }}
+              />
+              <div>
+                <div className="ae-author-name" style={{ fontWeight: 600 }}>Justin Borges</div>
+                <div className="ae-author-role" style={{ fontWeight: 400 }}>Founder, The Answer Engine</div>
+                <p style={{ marginTop: 8, fontSize: '0.875rem', color: 'rgba(255,255,255,0.65)', lineHeight: 1.6 }}>Justin Borges founded The Answer Engine in 2025 after 13+ years in real estate, $200M+ in production, and discovering that AI search rankings now decide who gets cited as the answer. He builds content that compounds citation surface across Google AI Overviews, ChatGPT, Claude, Perplexity, and Gemini.</p>
               </div>
             </div>
           </div>

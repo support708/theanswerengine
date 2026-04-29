@@ -13,7 +13,7 @@ const publishDate = '2026-03-30'
 export const metadata: Metadata = {
   title: `${title} | The Answer Engine`,
   description,
-  authors: [{ name: 'The Answer Engine Team' }],
+  authors: [{ name: 'Justin Borges', url: 'https://theanswerengine.ai/about' }],
 
   openGraph: {
     title: `${title} | The Answer Engine`,
@@ -21,7 +21,7 @@ export const metadata: Metadata = {
     type: 'article',
     publishedTime: publishDate,
     modifiedTime: publishDate,
-    authors: ['The Answer Engine Team'],
+    authors: ['https://theanswerengine.ai/about'],
     url: `https://theanswerengine.ai/blog/${slug}`,
     images: [
       {
@@ -74,8 +74,18 @@ function ComprehensiveSchema() {
           "height": 630
         },
         "author": {
-          "@type": "Organization",
-          "@id": "https://theanswerengine.ai/#organization"
+          "@type": "Person",
+          "@id": "https://theanswerengine.ai/about#justin-borges",
+          "name": "Justin Borges",
+          "jobTitle": "Founder, The Answer Engine",
+          "worksFor": {
+            "@type": "Organization",
+            "name": "The Answer Engine",
+            "url": "https://theanswerengine.ai"
+          },
+          "knowsAbout": ["Answer Engine Optimization", "AI Search", "Content Strategy", "Real Estate Marketing", "Citation Surface"],
+          "url": "https://theanswerengine.ai/about",
+          "image": "https://theanswerengine.ai/justin-borges.webp"
         },
         "publisher": {
           "@type": "Organization",
@@ -237,37 +247,37 @@ export default function HowToOptimizeGoogleBusinessProfileForAI() {
             <svg className="absolute inset-0 w-full h-full opacity-10" viewBox="0 0 800 400" fill="none" aria-hidden="true">
               <defs>
                 <pattern id="hero-grid-98" x="0" y="0" width="40" height="40" patternUnits="userSpaceOnUse">
-                  <path d="M40 0H0v40" fill="none" stroke="#FF6A00" strokeWidth="0.5" />
+                  <path d="M40 0H0v40" fill="none" stroke="#F27D24" strokeWidth="0.5" />
                 </pattern>
               </defs>
               <rect width="800" height="400" fill="url(#hero-grid-98)" />
               {/* Location pin */}
-              <path d="M400 80c-22 0-40 18-40 40 0 35 40 70 40 70s40-35 40-70c0-22-18-40-40-40zm0 54c-8 0-14-6-14-14s6-14 14-14 14 6 14 14-6 14-14 14z" fill="#FF6A00" opacity="0.3" />
+              <path d="M400 80c-22 0-40 18-40 40 0 35 40 70 40 70s40-35 40-70c0-22-18-40-40-40zm0 54c-8 0-14-6-14-14s6-14 14-14 14 6 14 14-6 14-14 14z" fill="#F27D24" opacity="0.3" />
               {/* Profile card left */}
-              <rect x="120" y="140" width="140" height="90" rx="8" stroke="#FF6A00" strokeWidth="1" opacity="0.25" />
-              <circle cx="155" cy="170" r="12" stroke="#FF6A00" strokeWidth="1" opacity="0.2" />
-              <line x1="175" y1="165" x2="240" y2="165" stroke="#FF6A00" strokeWidth="1" opacity="0.15" />
-              <line x1="175" y1="178" x2="225" y2="178" stroke="#FF6A00" strokeWidth="1" opacity="0.15" />
+              <rect x="120" y="140" width="140" height="90" rx="8" stroke="#F27D24" strokeWidth="1" opacity="0.25" />
+              <circle cx="155" cy="170" r="12" stroke="#F27D24" strokeWidth="1" opacity="0.2" />
+              <line x1="175" y1="165" x2="240" y2="165" stroke="#F27D24" strokeWidth="1" opacity="0.15" />
+              <line x1="175" y1="178" x2="225" y2="178" stroke="#F27D24" strokeWidth="1" opacity="0.15" />
               {/* Checkmarks */}
-              <path d="M560 160l6 6 12-12" stroke="#FF6A00" strokeWidth="1.5" opacity="0.3" strokeLinecap="round" strokeLinejoin="round" />
-              <path d="M560 190l6 6 12-12" stroke="#FF6A00" strokeWidth="1.5" opacity="0.3" strokeLinecap="round" strokeLinejoin="round" />
-              <path d="M560 220l6 6 12-12" stroke="#FF6A00" strokeWidth="1.5" opacity="0.3" strokeLinecap="round" strokeLinejoin="round" />
+              <path d="M560 160l6 6 12-12" stroke="#F27D24" strokeWidth="1.5" opacity="0.3" strokeLinecap="round" strokeLinejoin="round" />
+              <path d="M560 190l6 6 12-12" stroke="#F27D24" strokeWidth="1.5" opacity="0.3" strokeLinecap="round" strokeLinejoin="round" />
+              <path d="M560 220l6 6 12-12" stroke="#F27D24" strokeWidth="1.5" opacity="0.3" strokeLinecap="round" strokeLinejoin="round" />
               {/* Star cluster */}
-              <polygon points="680,120 683,128 692,128 685,133 688,141 680,136 672,141 675,133 668,128 677,128" fill="#FF6A00" opacity="0.2" />
-              <polygon points="710,145 713,153 722,153 715,158 718,166 710,161 702,166 705,158 698,153 707,153" fill="#FF6A00" opacity="0.15" />
+              <polygon points="680,120 683,128 692,128 685,133 688,141 680,136 672,141 675,133 668,128 677,128" fill="#F27D24" opacity="0.2" />
+              <polygon points="710,145 713,153 722,153 715,158 718,166 710,161 702,166 705,158 698,153 707,153" fill="#F27D24" opacity="0.15" />
             </svg>
             <div className="relative px-8 py-16 sm:px-12 sm:py-20">
               <p className="inline-block text-sm font-medium text-orange-400 mb-4 border border-orange-500/30 rounded-full px-4 py-1">How-To Guides</p>
               <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-white leading-tight mb-6 font-plus-jakarta">{title}</h1>
               <p className="text-lg text-gray-300 max-w-2xl mb-6">Your Google Business Profile is the single richest data source AI platforms use for local recommendations. Most businesses treat it as a set-it-and-forget-it listing. AI treats it as a trust signal.</p>
               <div className="flex items-center gap-4 text-sm text-gray-400">
-                <span>March 30, 2026</span><span>&#183;</span><span>12 min read</span><span>&#183;</span><span>The Answer Engine Team</span>
+                <span>March 30, 2026</span><span>&#183;</span><span>12 min read</span><span>&#183;</span><span>Justin Borges</span>
               </div>
             </div>
           </div>
 
           {/* ── ARTICLE BODY ── */}
-          <article className="prose prose-invert prose-lg max-w-none prose-headings:font-plus-jakarta prose-headings:text-white prose-p:text-gray-300 prose-a:text-[#FF6A00] prose-a:no-underline hover:prose-a:underline prose-strong:text-white">
+          <article className="prose prose-invert prose-lg max-w-none prose-headings:font-plus-jakarta prose-headings:text-white prose-p:text-gray-300 prose-a:text-[#F27D24] prose-a:no-underline hover:prose-a:underline prose-strong:text-white">
 
             {/* ── STATS GRID ── */}
             <div className="ae-stats-grid not-prose">
@@ -622,24 +632,31 @@ export default function HowToOptimizeGoogleBusinessProfileForAI() {
 
           {/* ── AUTHOR CARD ── */}
           <div className="not-prose my-12">
+            <div className="not-prose">
             <div className="ae-author-card">
-              <div className="ae-author-avatar">AE</div>
+              <img
+                src="/justin-borges.webp"
+                alt="Justin Borges, Founder of The Answer Engine"
+                style={{ width: 64, height: 64, borderRadius: '50%', objectFit: 'cover', flexShrink: 0 }}
+              />
               <div>
-                <div className="font-bold text-white">The Answer Engine Team</div>
-                <div className="text-sm text-gray-400">AI Search Visibility Experts</div>
+                <div className="ae-author-name" style={{ fontWeight: 600 }}>Justin Borges</div>
+                <div className="ae-author-role" style={{ fontWeight: 400 }}>Founder, The Answer Engine</div>
+                <p style={{ marginTop: 8, fontSize: '0.875rem', color: 'rgba(255,255,255,0.65)', lineHeight: 1.6 }}>Justin Borges founded The Answer Engine in 2025 after 13+ years in real estate, $200M+ in production, and discovering that AI search rankings now decide who gets cited as the answer. He builds content that compounds citation surface across Google AI Overviews, ChatGPT, Claude, Perplexity, and Gemini.</p>
               </div>
             </div>
           </div>
+          </div>
 
           {/* ── 3-TIER CTA BLOCK ── */}
-          <div className="not-prose my-16 p-8 rounded-2xl bg-gradient-to-br from-[#FF6A00]/10 to-transparent border border-[#FF6A00]/20">
+          <div className="not-prose my-16 p-8 rounded-2xl bg-gradient-to-br from-[#F27D24]/10 to-transparent border border-[#F27D24]/20">
             <h3 className="font-plus-jakarta text-2xl font-bold text-white mb-3">Your GBP Might Look Fine to You. AI Sees Something Different.</h3>
             <p className="text-gray-400 mb-6">Find out exactly how AI platforms interpret your Google Business Profile with a free Blind Spot Report.</p>
-            <Link href="/blindspot" className="inline-flex items-center gap-2 bg-[#FF6A00] text-white px-6 py-3 rounded-lg font-semibold hover:bg-[#e55f00] transition-colors">
+            <Link href="/blindspot" className="inline-flex items-center gap-2 bg-[#F27D24] text-white px-6 py-3 rounded-lg font-semibold hover:bg-[#D96416] transition-colors">
               Get Your Free Blind Spot Report
               <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" /></svg>
             </Link>
-            <div className="flex flex-wrap items-center gap-6 mt-6 pt-6 border-t border-[#FF6A00]/10">
+            <div className="flex flex-wrap items-center gap-6 mt-6 pt-6 border-t border-[#F27D24]/10">
               <a href="tel:+12134442229" className="flex items-center gap-2 text-gray-400 hover:text-white transition-colors">
                 <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" /></svg>
                 (213) 444-2229

@@ -18,7 +18,7 @@ export const metadata: Metadata = {
     description,
     type: 'article',
     publishedTime: publishDate,
-    authors: ['The Answer Engine Team'],
+    authors: ['https://theanswerengine.ai/about'],
     url: `https://theanswerengine.ai/blog/${slug}`,
     images: [{ url: `https://theanswerengine.ai/blog/${slug}.svg`, width: 1200, height: 630, alt: title }],
     siteName: 'The Answer Engine',
@@ -58,10 +58,19 @@ function ComprehensiveSchema() {
         datePublished: `${publishDate}T09:00:00-07:00`,
         dateModified: `${publishDate}T09:00:00-07:00`,
         author: {
+        '@type': 'Person',
+        '@id': 'https://theanswerengine.ai/about#justin-borges',
+        name: 'Justin Borges',
+        jobTitle: 'Founder, The Answer Engine',
+        worksFor: {
           '@type': 'Organization',
           name: 'The Answer Engine',
           url: 'https://theanswerengine.ai',
         },
+        knowsAbout: ['Answer Engine Optimization', 'AI Search', 'Content Strategy', 'Real Estate Marketing', 'Citation Surface'],
+        url: 'https://theanswerengine.ai/about',
+        image: 'https://theanswerengine.ai/justin-borges.webp',
+      },
         publisher: {
           '@type': 'Organization',
           name: 'The Answer Engine',
@@ -165,9 +174,9 @@ export default function LocalSEOvsAISearch() {
             {/* Breadcrumbs */}
             <nav className="mb-10" aria-label="Breadcrumb">
               <ol className="flex items-center gap-2 text-sm text-gray-500 font-light">
-                <li><Link href="/" className="hover:text-[#FF6A00] transition-colors">Home</Link></li>
+                <li><Link href="/" className="hover:text-[#F27D24] transition-colors">Home</Link></li>
                 <li className="text-gray-700">/</li>
-                <li><Link href="/blog" className="hover:text-[#FF6A00] transition-colors">Blog</Link></li>
+                <li><Link href="/blog" className="hover:text-[#F27D24] transition-colors">Blog</Link></li>
                 <li className="text-gray-700">/</li>
                 <li className="text-gray-400">Local SEO vs AI Search</li>
               </ol>
@@ -193,12 +202,12 @@ export default function LocalSEOvsAISearch() {
               <span className="text-gray-700">|</span>
               <span>Comparisons</span>
               <span className="text-gray-700">|</span>
-              <span>By The Answer Engine Team</span>
+              <span>By Justin Borges</span>
             </div>
           </header>
 
           {/* Main Content */}
-          <div className="prose prose-invert prose-lg max-w-none prose-headings:font-plus-jakarta prose-headings:text-white prose-p:text-gray-300 prose-a:text-[#FF6A00] prose-a:no-underline hover:prose-a:underline prose-strong:text-white">
+          <div className="prose prose-invert prose-lg max-w-none prose-headings:font-plus-jakarta prose-headings:text-white prose-p:text-gray-300 prose-a:text-[#F27D24] prose-a:no-underline hover:prose-a:underline prose-strong:text-white">
 
             {/* Stats Grid */}
             <div className="ae-stats-grid not-prose">
@@ -650,16 +659,16 @@ export default function LocalSEOvsAISearch() {
             </div>
 
             {/* Author Card */}
-            <div className="ae-author-card not-prose">
-              <div className="ae-author-avatar">
-                <span style={{ fontSize: '2rem' }}>AE</span>
-              </div>
+            <div className="ae-author-card">
+              <img
+                src="/justin-borges.webp"
+                alt="Justin Borges, Founder of The Answer Engine"
+                style={{ width: 64, height: 64, borderRadius: '50%', objectFit: 'cover', flexShrink: 0 }}
+              />
               <div>
-                <p className="ae-author-name">The Answer Engine Team</p>
-                <p className="ae-author-role">Answer Engine Optimization Specialists</p>
-                <p style={{ color: 'rgba(255,255,255,0.6)', fontSize: '0.9rem', marginTop: '8px', lineHeight: '1.6' }}>
-                  The Answer Engine helps local service businesses get cited by AI platforms like ChatGPT, Perplexity, Claude, and Google AI Overviews. We specialize in structured content strategies, schema optimization, and AI visibility tracking that turns AI recommendations into real customer calls.
-                </p>
+                <div className="ae-author-name" style={{ fontWeight: 600 }}>Justin Borges</div>
+                <div className="ae-author-role" style={{ fontWeight: 400 }}>Founder, The Answer Engine</div>
+                <p style={{ marginTop: 8, fontSize: '0.875rem', color: 'rgba(255,255,255,0.65)', lineHeight: 1.6 }}>Justin Borges founded The Answer Engine in 2025 after 13+ years in real estate, $200M+ in production, and discovering that AI search rankings now decide who gets cited as the answer. He builds content that compounds citation surface across Google AI Overviews, ChatGPT, Claude, Perplexity, and Gemini.</p>
               </div>
             </div>
 
@@ -714,28 +723,28 @@ export default function LocalSEOvsAISearch() {
             <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))', gap: '20px', marginBottom: '40px' }}>
               <div style={{ padding: '20px', border: '1px solid rgba(255,255,255,0.1)', borderRadius: '12px', background: 'rgba(255,106,0,0.05)' }}>
                 <h4 style={{ color: 'white', marginBottom: '8px' }}>
-                  <Link href="/blog/aeo-vs-seo" style={{ color: '#FF6A00', textDecoration: 'none' }}>AEO vs SEO: The Definitive Difference</Link>
+                  <Link href="/blog/aeo-vs-seo" style={{ color: '#F27D24', textDecoration: 'none' }}>AEO vs SEO: The Definitive Difference</Link>
                 </h4>
                 <p style={{ color: 'rgba(255,255,255,0.6)', fontSize: '0.9rem' }}>Understand exactly why AEO is not just SEO with a different name. They operate on fundamentally different principles.</p>
               </div>
 
               <div style={{ padding: '20px', border: '1px solid rgba(255,255,255,0.1)', borderRadius: '12px', background: 'rgba(255,106,0,0.05)' }}>
                 <h4 style={{ color: 'white', marginBottom: '8px' }}>
-                  <Link href="/blog/google-rankings-dont-matter" style={{ color: '#FF6A00', textDecoration: 'none' }}>Why Google Rankings Do Not Matter Anymore</Link>
+                  <Link href="/blog/google-rankings-dont-matter" style={{ color: '#F27D24', textDecoration: 'none' }}>Why Google Rankings Do Not Matter Anymore</Link>
                 </h4>
                 <p style={{ color: 'rgba(255,255,255,0.6)', fontSize: '0.9rem' }}>The data shows why ranking position one is no longer the goal. Read why.</p>
               </div>
 
               <div style={{ padding: '20px', border: '1px solid rgba(255,255,255,0.1)', borderRadius: '12px', background: 'rgba(255,106,0,0.05)' }}>
                 <h4 style={{ color: 'white', marginBottom: '8px' }}>
-                  <Link href="/blog/ai-search-replacing-map-pack" style={{ color: '#FF6A00', textDecoration: 'none' }}>Is AI Search Replacing the Map Pack?</Link>
+                  <Link href="/blog/ai-search-replacing-map-pack" style={{ color: '#F27D24', textDecoration: 'none' }}>Is AI Search Replacing the Map Pack?</Link>
                 </h4>
                 <p style={{ color: 'rgba(255,255,255,0.6)', fontSize: '0.9rem' }}>The data shows what is actually replacing Map Pack traffic and what that means for your business.</p>
               </div>
 
               <div style={{ padding: '20px', border: '1px solid rgba(255,255,255,0.1)', borderRadius: '12px', background: 'rgba(255,106,0,0.05)' }}>
                 <h4 style={{ color: 'white', marginBottom: '8px' }}>
-                  <Link href="/blog/chatgpt-vs-perplexity-vs-google-ai-local" style={{ color: '#FF6A00', textDecoration: 'none' }}>ChatGPT vs Perplexity vs Google AI for Local Businesses</Link>
+                  <Link href="/blog/chatgpt-vs-perplexity-vs-google-ai-local" style={{ color: '#F27D24', textDecoration: 'none' }}>ChatGPT vs Perplexity vs Google AI for Local Businesses</Link>
                 </h4>
                 <p style={{ color: 'rgba(255,255,255,0.6)', fontSize: '0.9rem' }}>Each AI platform has different citation patterns. Learn which ones matter most for your business.</p>
               </div>

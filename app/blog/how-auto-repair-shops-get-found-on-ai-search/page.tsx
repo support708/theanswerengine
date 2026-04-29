@@ -31,7 +31,7 @@ export const metadata: Metadata = {
     description,
     type: 'article',
     publishedTime: publishDate,
-    authors: ['The Answer Engine Team'],
+    authors: ['https://theanswerengine.ai/about'],
     url: `https://www.theanswerengine.ai/blog/${slug}`,
     images: [{ url: `https://www.theanswerengine.ai/blog/${slug}.webp`, width: 1200, height: 630, alt: title }],
   },
@@ -57,9 +57,18 @@ const jsonLd = {
       datePublished: publishDate,
       dateModified: publishDate,
       author: {
-        '@type': 'Organization',
-        name: 'The Answer Engine',
-        url: 'https://theanswerengine.ai',
+        '@type': 'Person',
+        '@id': 'https://theanswerengine.ai/about#justin-borges',
+        name: 'Justin Borges',
+        jobTitle: 'Founder, The Answer Engine',
+        worksFor: {
+          '@type': 'Organization',
+          name: 'The Answer Engine',
+          url: 'https://theanswerengine.ai',
+        },
+        knowsAbout: ['Answer Engine Optimization', 'AI Search', 'Content Strategy', 'Real Estate Marketing', 'Citation Surface'],
+        url: 'https://theanswerengine.ai/about',
+        image: 'https://theanswerengine.ai/justin-borges.webp',
       },
       publisher: {
         '@type': 'Organization',
@@ -169,9 +178,9 @@ export default function Page() {
           {/* Breadcrumbs */}
           <nav aria-label="Breadcrumb" className="mb-8">
             <ol className="flex flex-wrap items-center gap-2 text-sm text-gray-500">
-              <li><Link href="/" className="hover:text-[#FF6A00] transition-colors">Home</Link></li>
+              <li><Link href="/" className="hover:text-[#F27D24] transition-colors">Home</Link></li>
               <li className="text-gray-600">/</li>
-              <li><Link href="/blog" className="hover:text-[#FF6A00] transition-colors">Blog</Link></li>
+              <li><Link href="/blog" className="hover:text-[#F27D24] transition-colors">Blog</Link></li>
               <li className="text-gray-600">/</li>
               <li className="text-gray-400 truncate max-w-[200px] sm:max-w-none">How Auto Repair Shops Get Found on AI Search</li>
             </ol>
@@ -182,7 +191,7 @@ export default function Page() {
             <svg className="absolute inset-0 w-full h-full opacity-10 pointer-events-none" aria-hidden="true">
               <defs>
                 <pattern id="hero-grid-138" x="0" y="0" width="40" height="40" patternUnits="userSpaceOnUse">
-                  <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#FF6A00" strokeWidth="0.5" />
+                  <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#F27D24" strokeWidth="0.5" />
                 </pattern>
               </defs>
               <rect width="100%" height="100%" fill="url(#hero-grid-138)" />
@@ -200,7 +209,7 @@ export default function Page() {
                 <span className="text-gray-700">•</span>
                 <span>12 min read</span>
                 <span className="text-gray-700">•</span>
-                <span>By The Answer Engine Team</span>
+                <span>By Justin Borges</span>
               </div>
             </div>
           </div>
@@ -479,14 +488,14 @@ export default function Page() {
               <div className="ae-pros-box">
                 <h3 className="font-plus-jakarta font-bold text-white mb-4">What Works for AI Visibility</h3>
                 <ul className="space-y-3 text-gray-300 text-sm">
-                  <li className="flex gap-2"><span className="text-[#FF6A00] mt-0.5">✓</span>Individual pages per service category with depth and specificity</li>
-                  <li className="flex gap-2"><span className="text-[#FF6A00] mt-0.5">✓</span>Consistent business name, address, and phone across all directories</li>
-                  <li className="flex gap-2"><span className="text-[#FF6A00] mt-0.5">✓</span>Testimonials published as plain HTML text on your own website</li>
-                  <li className="flex gap-2"><span className="text-[#FF6A00] mt-0.5">✓</span>Clear service area coverage stated explicitly by city and region</li>
-                  <li className="flex gap-2"><span className="text-[#FF6A00] mt-0.5">✓</span>Reviews on crawlable platforms beyond Google alone</li>
-                  <li className="flex gap-2"><span className="text-[#FF6A00] mt-0.5">✓</span>FAQ content answering the specific questions drivers ask AI before booking</li>
-                  <li className="flex gap-2"><span className="text-[#FF6A00] mt-0.5">✓</span>Fast, structured responses to incoming leads from AI discovery sources</li>
-                  <li className="flex gap-2"><span className="text-[#FF6A00] mt-0.5">✓</span>Video content (shop tour, service explanations) on website and YouTube</li>
+                  <li className="flex gap-2"><span className="text-[#F27D24] mt-0.5">✓</span>Individual pages per service category with depth and specificity</li>
+                  <li className="flex gap-2"><span className="text-[#F27D24] mt-0.5">✓</span>Consistent business name, address, and phone across all directories</li>
+                  <li className="flex gap-2"><span className="text-[#F27D24] mt-0.5">✓</span>Testimonials published as plain HTML text on your own website</li>
+                  <li className="flex gap-2"><span className="text-[#F27D24] mt-0.5">✓</span>Clear service area coverage stated explicitly by city and region</li>
+                  <li className="flex gap-2"><span className="text-[#F27D24] mt-0.5">✓</span>Reviews on crawlable platforms beyond Google alone</li>
+                  <li className="flex gap-2"><span className="text-[#F27D24] mt-0.5">✓</span>FAQ content answering the specific questions drivers ask AI before booking</li>
+                  <li className="flex gap-2"><span className="text-[#F27D24] mt-0.5">✓</span>Fast, structured responses to incoming leads from AI discovery sources</li>
+                  <li className="flex gap-2"><span className="text-[#F27D24] mt-0.5">✓</span>Video content (shop tour, service explanations) on website and YouTube</li>
                 </ul>
               </div>
               <div className="ae-cons-box">
@@ -533,19 +542,19 @@ export default function Page() {
                     <td className="font-semibold text-white">ChatGPT</td>
                     <td>Indexed web content, Bing search integration</td>
                     <td>Website content quality and crawlability</td>
-                    <td className="text-[#FF6A00] font-semibold">Critical</td>
+                    <td className="text-[#F27D24] font-semibold">Critical</td>
                   </tr>
                   <tr>
                     <td className="font-semibold text-white">Perplexity</td>
                     <td>Real-time web crawl</td>
                     <td>Fresh, structured content with clear service descriptions</td>
-                    <td className="text-[#FF6A00] font-semibold">Critical</td>
+                    <td className="text-[#F27D24] font-semibold">Critical</td>
                   </tr>
                   <tr>
                     <td className="font-semibold text-white">Google AI Overviews</td>
                     <td>Google index plus Business Profile data</td>
                     <td>GBP optimization combined with website authority signals</td>
-                    <td className="text-[#FF6A00] font-semibold">Critical</td>
+                    <td className="text-[#F27D24] font-semibold">Critical</td>
                   </tr>
                   <tr>
                     <td className="font-semibold text-white">Apple Intelligence / Siri</td>
@@ -557,7 +566,7 @@ export default function Page() {
                     <td className="font-semibold text-white">Google Gemini</td>
                     <td>Google ecosystem plus web crawl</td>
                     <td>Schema markup, structured data, and GBP signals</td>
-                    <td className="text-[#FF6A00] font-semibold">Critical</td>
+                    <td className="text-[#F27D24] font-semibold">Critical</td>
                   </tr>
                   <tr>
                     <td className="font-semibold text-white">Microsoft Copilot</td>
@@ -637,21 +646,21 @@ export default function Page() {
             <h3 className="font-plus-jakarta text-lg font-semibold text-white mb-4">Related Reading</h3>
             <div className="space-y-3">
               <Link href="/blog/how-contractors-and-home-service-companies-win-ai-search" className="flex items-start gap-3 group">
-                <span className="text-[#FF6A00] mt-1 flex-shrink-0">→</span>
+                <span className="text-[#F27D24] mt-1 flex-shrink-0">→</span>
                 <div>
                   <span className="text-gray-300 group-hover:text-white transition-colors text-sm font-medium">How Contractors and Home Service Companies Win AI Search</span>
                   <p className="text-gray-500 text-xs mt-0.5">The same GEO principles applied to contractor and home service businesses, with category-specific examples and timelines.</p>
                 </div>
               </Link>
               <Link href="/blog/how-to-optimize-your-google-business-profile-for-ai" className="flex items-start gap-3 group">
-                <span className="text-[#FF6A00] mt-1 flex-shrink-0">→</span>
+                <span className="text-[#F27D24] mt-1 flex-shrink-0">→</span>
                 <div>
                   <span className="text-gray-300 group-hover:text-white transition-colors text-sm font-medium">How to Optimize Your Google Business Profile for AI</span>
                   <p className="text-gray-500 text-xs mt-0.5">GBP is one important layer of AI visibility. Learn how to maximize its contribution to your overall AI search presence across platforms.</p>
                 </div>
               </Link>
               <Link href="/blog/why-ai-never-mentions-your-business-by-name" className="flex items-start gap-3 group">
-                <span className="text-[#FF6A00] mt-1 flex-shrink-0">→</span>
+                <span className="text-[#F27D24] mt-1 flex-shrink-0">→</span>
                 <div>
                   <span className="text-gray-300 group-hover:text-white transition-colors text-sm font-medium">Why AI Never Mentions Your Business by Name</span>
                   <p className="text-gray-500 text-xs mt-0.5">The deeper structural reasons businesses disappear from AI recommendations entirely, and the specific approaches to address each root cause.</p>
@@ -668,39 +677,39 @@ export default function Page() {
                 <div>
                   <h4 className="font-plus-jakarta font-semibold text-white text-sm mb-3">Website Requirements</h4>
                   <ul className="space-y-2 text-gray-400 text-sm">
-                    <li className="flex gap-2"><span className="text-[#FF6A00]">•</span>Individual page for each major service (oil change, brakes, transmission, AC, tires, diagnostics, suspension)</li>
-                    <li className="flex gap-2"><span className="text-[#FF6A00]">•</span>Explicit service area coverage with city names stated in plain text</li>
-                    <li className="flex gap-2"><span className="text-[#FF6A00]">•</span>Testimonials published as plain HTML text, not JavaScript-rendered widgets</li>
-                    <li className="flex gap-2"><span className="text-[#FF6A00]">•</span>FAQ section answering real driver questions before booking</li>
-                    <li className="flex gap-2"><span className="text-[#FF6A00]">•</span>Static HTML rendering so AI crawlers can actually read the content</li>
+                    <li className="flex gap-2"><span className="text-[#F27D24]">•</span>Individual page for each major service (oil change, brakes, transmission, AC, tires, diagnostics, suspension)</li>
+                    <li className="flex gap-2"><span className="text-[#F27D24]">•</span>Explicit service area coverage with city names stated in plain text</li>
+                    <li className="flex gap-2"><span className="text-[#F27D24]">•</span>Testimonials published as plain HTML text, not JavaScript-rendered widgets</li>
+                    <li className="flex gap-2"><span className="text-[#F27D24]">•</span>FAQ section answering real driver questions before booking</li>
+                    <li className="flex gap-2"><span className="text-[#F27D24]">•</span>Static HTML rendering so AI crawlers can actually read the content</li>
                   </ul>
                 </div>
                 <div>
                   <h4 className="font-plus-jakarta font-semibold text-white text-sm mb-3">Off-Site Requirements</h4>
                   <ul className="space-y-2 text-gray-400 text-sm">
-                    <li className="flex gap-2"><span className="text-[#FF6A00]">•</span>Consistent NAP across all directories (exact match, no variations in spelling or format)</li>
-                    <li className="flex gap-2"><span className="text-[#FF6A00]">•</span>Yelp profile complete with services, photos, and business description</li>
-                    <li className="flex gap-2"><span className="text-[#FF6A00]">•</span>BBB listing verified and actively maintained</li>
-                    <li className="flex gap-2"><span className="text-[#FF6A00]">•</span>Apple Maps listing optimized for Siri and Apple Intelligence recommendations</li>
-                    <li className="flex gap-2"><span className="text-[#FF6A00]">•</span>Chamber of commerce and local business directory presence</li>
+                    <li className="flex gap-2"><span className="text-[#F27D24]">•</span>Consistent NAP across all directories (exact match, no variations in spelling or format)</li>
+                    <li className="flex gap-2"><span className="text-[#F27D24]">•</span>Yelp profile complete with services, photos, and business description</li>
+                    <li className="flex gap-2"><span className="text-[#F27D24]">•</span>BBB listing verified and actively maintained</li>
+                    <li className="flex gap-2"><span className="text-[#F27D24]">•</span>Apple Maps listing optimized for Siri and Apple Intelligence recommendations</li>
+                    <li className="flex gap-2"><span className="text-[#F27D24]">•</span>Chamber of commerce and local business directory presence</li>
                   </ul>
                 </div>
                 <div>
                   <h4 className="font-plus-jakarta font-semibold text-white text-sm mb-3">Content Priorities</h4>
                   <ul className="space-y-2 text-gray-400 text-sm">
-                    <li className="flex gap-2"><span className="text-[#FF6A00]">•</span>Content structured to answer "best [specific repair] shop in [city]" queries explicitly</li>
-                    <li className="flex gap-2"><span className="text-[#FF6A00]">•</span>Certifications and credentials stated in crawlable text on the website</li>
-                    <li className="flex gap-2"><span className="text-[#FF6A00]">•</span>Vehicle makes served (if specialized) stated explicitly in content</li>
-                    <li className="flex gap-2"><span className="text-[#FF6A00]">•</span>Hours, warranty policy, and appointment process clearly described in plain text</li>
+                    <li className="flex gap-2"><span className="text-[#F27D24]">•</span>Content structured to answer "best [specific repair] shop in [city]" queries explicitly</li>
+                    <li className="flex gap-2"><span className="text-[#F27D24]">•</span>Certifications and credentials stated in crawlable text on the website</li>
+                    <li className="flex gap-2"><span className="text-[#F27D24]">•</span>Vehicle makes served (if specialized) stated explicitly in content</li>
+                    <li className="flex gap-2"><span className="text-[#F27D24]">•</span>Hours, warranty policy, and appointment process clearly described in plain text</li>
                   </ul>
                 </div>
                 <div>
                   <h4 className="font-plus-jakarta font-semibold text-white text-sm mb-3">Lead Conversion</h4>
                   <ul className="space-y-2 text-gray-400 text-sm">
-                    <li className="flex gap-2"><span className="text-[#FF6A00]">•</span>Respond to AI-referred inquiries within minutes, not hours</li>
-                    <li className="flex gap-2"><span className="text-[#FF6A00]">•</span>Automate initial acknowledgment for form and text inquiries</li>
-                    <li className="flex gap-2"><span className="text-[#FF6A00]">•</span>Follow up at least twice before treating a lead as lost</li>
-                    <li className="flex gap-2"><span className="text-[#FF6A00]">•</span>Track which inquiries reference coming from AI or a chatbot recommendation</li>
+                    <li className="flex gap-2"><span className="text-[#F27D24]">•</span>Respond to AI-referred inquiries within minutes, not hours</li>
+                    <li className="flex gap-2"><span className="text-[#F27D24]">•</span>Automate initial acknowledgment for form and text inquiries</li>
+                    <li className="flex gap-2"><span className="text-[#F27D24]">•</span>Follow up at least twice before treating a lead as lost</li>
+                    <li className="flex gap-2"><span className="text-[#F27D24]">•</span>Track which inquiries reference coming from AI or a chatbot recommendation</li>
                   </ul>
                 </div>
               </div>
@@ -716,27 +725,30 @@ export default function Page() {
           </div>
 
           {/* Author Card */}
-          <div className="ae-author-card mb-12">
-            <div className="ae-author-avatar">AE</div>
-            <div>
-              <div className="font-plus-jakarta font-semibold text-white">The Answer Engine Team</div>
-              <div className="text-gray-500 text-sm mt-1">Specialists in Generative Engine Optimization for local businesses. We help auto shops, contractors, medical practices, and service businesses get found by the AI platforms their customers are already using every day.</div>
-              <div className="flex flex-wrap gap-4 mt-3">
-                <a href="tel:+12134442229" className="text-[#FF6A00] text-sm hover:underline">(213) 444-2229</a>
-                <a href="mailto:support@theanswerengine.ai" className="text-[#FF6A00] text-sm hover:underline">support@theanswerengine.ai</a>
+          <div className="not-prose">
+            <div className="ae-author-card">
+              <img
+                src="/justin-borges.webp"
+                alt="Justin Borges, Founder of The Answer Engine"
+                style={{ width: 64, height: 64, borderRadius: '50%', objectFit: 'cover', flexShrink: 0 }}
+              />
+              <div>
+                <div className="ae-author-name" style={{ fontWeight: 600 }}>Justin Borges</div>
+                <div className="ae-author-role" style={{ fontWeight: 400 }}>Founder, The Answer Engine</div>
+                <p style={{ marginTop: 8, fontSize: '0.875rem', color: 'rgba(255,255,255,0.65)', lineHeight: 1.6 }}>Justin Borges founded The Answer Engine in 2025 after 13+ years in real estate, $200M+ in production, and discovering that AI search rankings now decide who gets cited as the answer. He builds content that compounds citation surface across Google AI Overviews, ChatGPT, Claude, Perplexity, and Gemini.</p>
               </div>
             </div>
           </div>
 
           {/* 3-Tier CTA Block */}
-          <div className="not-prose my-16 p-8 rounded-2xl bg-gradient-to-br from-[#FF6A00]/10 to-transparent border border-[#FF6A00]/20">
+          <div className="not-prose my-16 p-8 rounded-2xl bg-gradient-to-br from-[#F27D24]/10 to-transparent border border-[#F27D24]/20">
             <h3 className="font-plus-jakarta text-2xl font-bold text-white mb-3">Your Auto Shop Deserves to Be Found by AI</h3>
             <p className="text-gray-400 mb-6">Get your free Blind Spot Report and see exactly what AI platforms say when customers ask for auto repair recommendations in your area.</p>
-            <Link href="/blindspot" className="inline-flex items-center gap-2 bg-[#FF6A00] text-white px-6 py-3 rounded-lg font-semibold hover:bg-[#e55f00] transition-colors">
+            <Link href="/blindspot" className="inline-flex items-center gap-2 bg-[#F27D24] text-white px-6 py-3 rounded-lg font-semibold hover:bg-[#D96416] transition-colors">
               Get Your Free Blind Spot Report
               <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" /></svg>
             </Link>
-            <div className="flex flex-wrap items-center gap-6 mt-6 pt-6 border-t border-[#FF6A00]/10">
+            <div className="flex flex-wrap items-center gap-6 mt-6 pt-6 border-t border-[#F27D24]/10">
               <a href="tel:+12134442229" className="flex items-center gap-2 text-gray-400 hover:text-white transition-colors">
                 <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" /></svg>
                 (213) 444-2229
@@ -801,11 +813,11 @@ export default function Page() {
                 Every day your shop is not showing up in AI search, a competitor is getting that referral instead. Get your free Blind Spot Report and find out exactly where your AI visibility breaks down.
               </p>
               <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mb-8">
-                <Link href="/blindspot" className="inline-flex items-center gap-2 bg-[#FF6A00] text-white px-8 py-4 rounded-lg font-semibold text-lg hover:bg-[#e55f00] transition-colors shadow-lg shadow-[#FF6A00]/25">
+                <Link href="/blindspot" className="inline-flex items-center gap-2 bg-[#F27D24] text-white px-8 py-4 rounded-lg font-semibold text-lg hover:bg-[#D96416] transition-colors shadow-lg shadow-[#F27D24]/25">
                   Get My Free Blind Spot Report
                   <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" /></svg>
                 </Link>
-                <a href="tel:+12134442229" className="inline-flex items-center gap-2 border border-white/20 text-white px-8 py-4 rounded-lg font-semibold text-lg hover:border-[#FF6A00] hover:text-[#FF6A00] transition-colors">
+                <a href="tel:+12134442229" className="inline-flex items-center gap-2 border border-white/20 text-white px-8 py-4 rounded-lg font-semibold text-lg hover:border-[#F27D24] hover:text-[#F27D24] transition-colors">
                   <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" /></svg>
                   Call (213) 444-2229
                 </a>

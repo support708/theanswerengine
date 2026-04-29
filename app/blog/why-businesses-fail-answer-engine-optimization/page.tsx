@@ -17,7 +17,7 @@ export const metadata: Metadata = {
     type: 'article',
     publishedTime: '2025-11-09',
     modifiedTime: '2025-11-09',
-    authors: ['Justin Borges'],
+    authors: ['https://theanswerengine.ai/about'],
     url: 'https://theanswerengine.ai/blog/why-businesses-fail-answer-engine-optimization',
     images: [
       {
@@ -71,7 +71,17 @@ function ComprehensiveSchema() {
         },
         "author": {
           "@type": "Person",
-          "@id": "https://theanswerengine.ai/about#founder"
+          "@id": "https://theanswerengine.ai/about#justin-borges",
+          "name": "Justin Borges",
+          "jobTitle": "Founder, The Answer Engine",
+          "worksFor": {
+            "@type": "Organization",
+            "name": "The Answer Engine",
+            "url": "https://theanswerengine.ai"
+          },
+          "knowsAbout": ["Answer Engine Optimization", "AI Search", "Content Strategy", "Real Estate Marketing", "Citation Surface"],
+          "url": "https://theanswerengine.ai/about",
+          "image": "https://theanswerengine.ai/justin-borges.webp"
         },
         "publisher": {
           "@type": "Organization",
@@ -229,16 +239,16 @@ export default function WhyBusinessesFailAEO() {
               fill="none"
               aria-hidden="true"
             >
-              <circle cx="150" cy="200" r="160" stroke="#FF6A00" strokeWidth="0.5" />
-              <circle cx="150" cy="200" r="100" stroke="#FF6A00" strokeWidth="0.5" />
+              <circle cx="150" cy="200" r="160" stroke="#F27D24" strokeWidth="0.5" />
+              <circle cx="150" cy="200" r="100" stroke="#F27D24" strokeWidth="0.5" />
               <line x1="0" y1="100" x2="800" y2="100" stroke="#ef4444" strokeWidth="0.3" />
               <line x1="0" y1="300" x2="800" y2="300" stroke="#ef4444" strokeWidth="0.3" />
-              <line x1="400" y1="0" x2="400" y2="400" stroke="#FF6A00" strokeWidth="0.3" />
+              <line x1="400" y1="0" x2="400" y2="400" stroke="#F27D24" strokeWidth="0.3" />
               <polygon points="500,80 700,80 700,320 500,320" stroke="#ef4444" strokeWidth="0.4" fill="none" />
               <line x1="500" y1="140" x2="700" y2="140" stroke="#ef4444" strokeWidth="0.3" />
               <line x1="500" y1="200" x2="700" y2="200" stroke="#ef4444" strokeWidth="0.3" />
               <line x1="500" y1="260" x2="700" y2="260" stroke="#ef4444" strokeWidth="0.3" />
-              <circle cx="650" cy="350" r="30" stroke="#FF6A00" strokeWidth="0.4" />
+              <circle cx="650" cy="350" r="30" stroke="#F27D24" strokeWidth="0.4" />
             </svg>
             <div className="relative px-8 py-16 sm:px-12 sm:py-20">
               <p className="text-sm font-medium text-orange-400 mb-4">AEO Strategy</p>
@@ -253,7 +263,7 @@ export default function WhyBusinessesFailAEO() {
                 <span>-</span>
                 <span>12 min read</span>
                 <span>-</span>
-                <span>The Answer Engine Team</span>
+                <span>Justin Borges</span>
               </div>
             </div>
           </div>
@@ -283,7 +293,7 @@ export default function WhyBusinessesFailAEO() {
           </div>
 
           {/* Article Body */}
-          <article className="prose prose-invert prose-lg max-w-none prose-headings:font-plus-jakarta prose-headings:text-white prose-p:text-gray-300 prose-a:text-[#FF6A00] prose-a:no-underline hover:prose-a:underline prose-strong:text-white">
+          <article className="prose prose-invert prose-lg max-w-none prose-headings:font-plus-jakarta prose-headings:text-white prose-p:text-gray-300 prose-a:text-[#F27D24] prose-a:no-underline hover:prose-a:underline prose-strong:text-white">
 
             {/* Intro */}
             <p className="text-xl text-gray-300 leading-relaxed mb-10">
@@ -981,19 +991,19 @@ export default function WhyBusinessesFailAEO() {
             {/* Author Card */}
             <div className="not-prose ae-author-card">
               <div>
-                <div className="ae-author-name">The Answer Engine Team</div>
+                <div className="ae-author-name" style={{ fontWeight: 600 }}>Justin Borges</div>
                 <div className="ae-author-role">AEO Specialists</div>
                 <p className="text-gray-400 text-sm leading-relaxed mt-2">
                   The Answer Engine specializes in Answer Engine Optimization (AEO) for local service businesses. We position companies to be cited by Google AI Overviews, ChatGPT, Claude, Perplexity, and other AI platforms. 2+ years of specialized AEO experience across 50+ local service businesses, with 500+ schema implementations deployed and multi-platform AI testing and citation tracking.
                 </p>
                 <div className="flex gap-4 mt-3">
-                  <Link href="/" className="text-[#FF6A00] text-sm hover:underline">
+                  <Link href="/" className="text-[#F27D24] text-sm hover:underline">
                     TheAnswerEngine.ai
                   </Link>
-                  <a href="mailto:support@theanswerengine.ai" className="text-[#FF6A00] text-sm hover:underline">
+                  <a href="mailto:support@theanswerengine.ai" className="text-[#F27D24] text-sm hover:underline">
                     Email Us
                   </a>
-                  <a href="tel:+12134442229" className="text-[#FF6A00] text-sm hover:underline">
+                  <a href="tel:+12134442229" className="text-[#F27D24] text-sm hover:underline">
                     (213) 444-2229
                   </a>
                 </div>
@@ -1027,9 +1037,9 @@ export default function WhyBusinessesFailAEO() {
               Continue Learning
             </h2>
             <div className="space-y-4 not-prose">
-              <div className="bg-white/[0.03] border border-white/[0.08] rounded-xl p-6 hover:border-[#FF6A00]/30 transition-colors">
+              <div className="bg-white/[0.03] border border-white/[0.08] rounded-xl p-6 hover:border-[#F27D24]/30 transition-colors">
                 <Link href="/blog/google-rankings-dont-matter" className="group">
-                  <h4 className="text-lg font-semibold text-white mb-2 group-hover:text-[#FF6A00] transition-colors font-plus-jakarta">
+                  <h4 className="text-lg font-semibold text-white mb-2 group-hover:text-[#F27D24] transition-colors font-plus-jakarta">
                     The Real Reason Your Google Rankings Do Not Matter Anymore
                   </h4>
                   <p className="text-gray-400 text-sm leading-relaxed">
@@ -1037,9 +1047,9 @@ export default function WhyBusinessesFailAEO() {
                   </p>
                 </Link>
               </div>
-              <div className="bg-white/[0.03] border border-white/[0.08] rounded-xl p-6 hover:border-[#FF6A00]/30 transition-colors">
+              <div className="bg-white/[0.03] border border-white/[0.08] rounded-xl p-6 hover:border-[#F27D24]/30 transition-colors">
                 <Link href="/blog/what-is-answer-engine-optimization" className="group">
-                  <h4 className="text-lg font-semibold text-white mb-2 group-hover:text-[#FF6A00] transition-colors font-plus-jakarta">
+                  <h4 className="text-lg font-semibold text-white mb-2 group-hover:text-[#F27D24] transition-colors font-plus-jakarta">
                     What is Answer Engine Optimization (AEO)? Complete Guide
                   </h4>
                   <p className="text-gray-400 text-sm leading-relaxed">
@@ -1047,9 +1057,9 @@ export default function WhyBusinessesFailAEO() {
                   </p>
                 </Link>
               </div>
-              <div className="bg-white/[0.03] border border-white/[0.08] rounded-xl p-6 hover:border-[#FF6A00]/30 transition-colors">
+              <div className="bg-white/[0.03] border border-white/[0.08] rounded-xl p-6 hover:border-[#F27D24]/30 transition-colors">
                 <Link href="/blog/how-ai-platforms-choose-businesses-to-cite" className="group">
-                  <h4 className="text-lg font-semibold text-white mb-2 group-hover:text-[#FF6A00] transition-colors font-plus-jakarta">
+                  <h4 className="text-lg font-semibold text-white mb-2 group-hover:text-[#F27D24] transition-colors font-plus-jakarta">
                     How AI Platforms Choose Which Businesses to Cite
                   </h4>
                   <p className="text-gray-400 text-sm leading-relaxed">

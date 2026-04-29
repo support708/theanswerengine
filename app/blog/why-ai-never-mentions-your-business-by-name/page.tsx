@@ -30,7 +30,7 @@ export const metadata: Metadata = {
     description,
     type: 'article',
     publishedTime: publishDate,
-    authors: ['The Answer Engine Team'],
+    authors: ['https://theanswerengine.ai/about'],
     url: `https://theanswerengine.ai/blog/${slug}`,
     images: [
       {
@@ -63,9 +63,18 @@ const jsonLd = {
       datePublished: publishDate,
       dateModified: publishDate,
       author: {
-        '@type': 'Organization',
-        name: 'The Answer Engine',
-        url: 'https://theanswerengine.ai',
+        '@type': 'Person',
+        '@id': 'https://theanswerengine.ai/about#justin-borges',
+        name: 'Justin Borges',
+        jobTitle: 'Founder, The Answer Engine',
+        worksFor: {
+          '@type': 'Organization',
+          name: 'The Answer Engine',
+          url: 'https://theanswerengine.ai',
+        },
+        knowsAbout: ['Answer Engine Optimization', 'AI Search', 'Content Strategy', 'Real Estate Marketing', 'Citation Surface'],
+        url: 'https://theanswerengine.ai/about',
+        image: 'https://theanswerengine.ai/justin-borges.webp',
       },
       publisher: {
         '@type': 'Organization',
@@ -246,15 +255,15 @@ export default function Page() {
             >
               <defs>
                 <pattern id="hero-grid-120" x="0" y="0" width="40" height="40" patternUnits="userSpaceOnUse">
-                  <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#FF6A00" strokeWidth="0.3" />
+                  <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#F27D24" strokeWidth="0.3" />
                 </pattern>
               </defs>
               <rect width="800" height="400" fill="url(#hero-grid-120)" />
-              <circle cx="400" cy="200" r="80" stroke="#FF6A00" strokeWidth="0.5" fill="none" opacity="0.3" />
-              <circle cx="400" cy="200" r="120" stroke="#FF6A00" strokeWidth="0.3" fill="none" opacity="0.2" />
-              <circle cx="400" cy="200" r="160" stroke="#FF6A00" strokeWidth="0.2" fill="none" opacity="0.1" />
-              <text x="370" y="195" fontFamily="monospace" fontSize="14" fill="#FF6A00" opacity="0.4">???</text>
-              <text x="360" y="215" fontFamily="monospace" fontSize="10" fill="#FF6A00" opacity="0.25">NOT FOUND</text>
+              <circle cx="400" cy="200" r="80" stroke="#F27D24" strokeWidth="0.5" fill="none" opacity="0.3" />
+              <circle cx="400" cy="200" r="120" stroke="#F27D24" strokeWidth="0.3" fill="none" opacity="0.2" />
+              <circle cx="400" cy="200" r="160" stroke="#F27D24" strokeWidth="0.2" fill="none" opacity="0.1" />
+              <text x="370" y="195" fontFamily="monospace" fontSize="14" fill="#F27D24" opacity="0.4">???</text>
+              <text x="360" y="215" fontFamily="monospace" fontSize="10" fill="#F27D24" opacity="0.25">NOT FOUND</text>
               <rect x="120" y="120" width="100" height="16" rx="3" fill="rgba(255,106,0,0.08)" />
               <rect x="120" y="144" width="80" height="12" rx="3" fill="rgba(255,106,0,0.05)" />
               <rect x="120" y="164" width="60" height="12" rx="3" fill="rgba(255,106,0,0.03)" />
@@ -272,13 +281,13 @@ export default function Page() {
                 <span>-</span>
                 <span>14 min read</span>
                 <span>-</span>
-                <span>The Answer Engine Team</span>
+                <span>Justin Borges</span>
               </div>
             </div>
           </div>
 
           {/* Article Body */}
-          <article className="prose prose-invert prose-lg max-w-none prose-headings:font-plus-jakarta prose-headings:text-white prose-p:text-gray-300 prose-a:text-[#FF6A00] prose-a:no-underline hover:prose-a:underline prose-strong:text-white">
+          <article className="prose prose-invert prose-lg max-w-none prose-headings:font-plus-jakarta prose-headings:text-white prose-p:text-gray-300 prose-a:text-[#F27D24] prose-a:no-underline hover:prose-a:underline prose-strong:text-white">
 
             {/* Stats Grid */}
             <div className="ae-stats-grid not-prose">
@@ -785,11 +794,16 @@ export default function Page() {
             </div>
 
             {/* Author Card */}
-            <div className="ae-author-card not-prose">
-              <div className="ae-author-avatar">AE</div>
+            <div className="ae-author-card">
+              <img
+                src="/justin-borges.webp"
+                alt="Justin Borges, Founder of The Answer Engine"
+                style={{ width: 64, height: 64, borderRadius: '50%', objectFit: 'cover', flexShrink: 0 }}
+              />
               <div>
-                <div className="ae-author-name">The Answer Engine Team</div>
-                <div className="ae-author-role">AI visibility specialists helping local service businesses get cited by ChatGPT, Claude, Perplexity, and Google AI Overviews. We audit, strategize, and implement the authority signals that make AI confident enough to name your business.</div>
+                <div className="ae-author-name" style={{ fontWeight: 600 }}>Justin Borges</div>
+                <div className="ae-author-role" style={{ fontWeight: 400 }}>Founder, The Answer Engine</div>
+                <p style={{ marginTop: 8, fontSize: '0.875rem', color: 'rgba(255,255,255,0.65)', lineHeight: 1.6 }}>Justin Borges founded The Answer Engine in 2025 after 13+ years in real estate, $200M+ in production, and discovering that AI search rankings now decide who gets cited as the answer. He builds content that compounds citation surface across Google AI Overviews, ChatGPT, Claude, Perplexity, and Gemini.</p>
               </div>
             </div>
 
@@ -818,7 +832,7 @@ export default function Page() {
             <h2>Stop Being the Business AI Forgot</h2>
             <p>92% of brands are invisible to AI search. Our free Blind Spot Report shows you exactly where you fall, what signals you are missing, and what it takes to become the business AI recommends by name. No pitch. Just the data.</p>
             <Link href="/blindspot" className="ae-cta-primary">Get Your Free Blind Spot Report</Link>
-            <div className="flex flex-wrap items-center justify-center gap-6 mt-6 pt-6 border-t border-[#FF6A00]/10">
+            <div className="flex flex-wrap items-center justify-center gap-6 mt-6 pt-6 border-t border-[#F27D24]/10">
               <a href="tel:+12134442229" className="flex items-center gap-2 text-gray-400 hover:text-white transition-colors">
                 <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" /></svg>
                 (213) 444-2229

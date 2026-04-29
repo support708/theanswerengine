@@ -21,7 +21,7 @@ export const metadata: Metadata = {
     'which AI recommends businesses',
     'AI assistant market share 2026',
   ],
-  authors: [{ name: 'The Answer Engine Team' }],
+  authors: [{ name: 'Justin Borges', url: 'https://theanswerengine.ai/about' }],
   openGraph: {
     title: 'Best AI Assistant for Local Businesses | The Answer Engine',
     description:
@@ -67,9 +67,18 @@ const jsonLd = {
       datePublished: '2026-03-27T00:00:00Z',
       dateModified: '2026-03-27T00:00:00Z',
       author: {
-        '@type': 'Organization',
-        name: 'The Answer Engine Team',
-        url: 'https://theanswerengine.ai',
+        '@type': 'Person',
+        '@id': 'https://theanswerengine.ai/about#justin-borges',
+        name: 'Justin Borges',
+        jobTitle: 'Founder, The Answer Engine',
+        worksFor: {
+          '@type': 'Organization',
+          name: 'The Answer Engine',
+          url: 'https://theanswerengine.ai',
+        },
+        knowsAbout: ['Answer Engine Optimization', 'AI Search', 'Content Strategy', 'Real Estate Marketing', 'Citation Surface'],
+        url: 'https://theanswerengine.ai/about',
+        image: 'https://theanswerengine.ai/justin-borges.webp',
       },
       publisher: {
         '@type': 'Organization',
@@ -218,22 +227,22 @@ export default function WhichAIAssistantFindsLocalBusinessesBest() {
             fill="none"
             aria-hidden="true"
           >
-            <line x1="0" y1="80" x2="800" y2="80" stroke="#FF6A00" strokeWidth="0.4" />
-            <line x1="0" y1="160" x2="800" y2="160" stroke="#FF6A00" strokeWidth="0.4" />
-            <line x1="0" y1="240" x2="800" y2="240" stroke="#FF6A00" strokeWidth="0.4" />
-            <line x1="0" y1="320" x2="800" y2="320" stroke="#FF6A00" strokeWidth="0.4" />
-            <line x1="160" y1="0" x2="160" y2="400" stroke="#FF6A00" strokeWidth="0.4" />
-            <line x1="320" y1="0" x2="320" y2="400" stroke="#FF6A00" strokeWidth="0.4" />
-            <line x1="480" y1="0" x2="480" y2="400" stroke="#FF6A00" strokeWidth="0.4" />
-            <line x1="640" y1="0" x2="640" y2="400" stroke="#FF6A00" strokeWidth="0.4" />
+            <line x1="0" y1="80" x2="800" y2="80" stroke="#F27D24" strokeWidth="0.4" />
+            <line x1="0" y1="160" x2="800" y2="160" stroke="#F27D24" strokeWidth="0.4" />
+            <line x1="0" y1="240" x2="800" y2="240" stroke="#F27D24" strokeWidth="0.4" />
+            <line x1="0" y1="320" x2="800" y2="320" stroke="#F27D24" strokeWidth="0.4" />
+            <line x1="160" y1="0" x2="160" y2="400" stroke="#F27D24" strokeWidth="0.4" />
+            <line x1="320" y1="0" x2="320" y2="400" stroke="#F27D24" strokeWidth="0.4" />
+            <line x1="480" y1="0" x2="480" y2="400" stroke="#F27D24" strokeWidth="0.4" />
+            <line x1="640" y1="0" x2="640" y2="400" stroke="#F27D24" strokeWidth="0.4" />
             <circle cx="160" cy="200" r="70" stroke="#10A37F" strokeWidth="0.8" />
             <circle cx="320" cy="200" r="70" stroke="#4285F4" strokeWidth="0.8" />
-            <circle cx="480" cy="200" r="70" stroke="#FF6A00" strokeWidth="0.8" />
+            <circle cx="480" cy="200" r="70" stroke="#F27D24" strokeWidth="0.8" />
             <circle cx="640" cy="200" r="70" stroke="#A855F7" strokeWidth="0.8" />
             <rect x="200" y="120" width="60" height="60" rx="8" stroke="#20B2AA" strokeWidth="0.6" fill="none" />
             <rect x="540" y="220" width="60" height="60" rx="8" stroke="#20B2AA" strokeWidth="0.6" fill="none" />
-            <path d="M0 0 L60 0 L60 60" stroke="#FF6A00" strokeWidth="0.6" fill="none" />
-            <path d="M800 400 L740 400 L740 340" stroke="#FF6A00" strokeWidth="0.6" fill="none" />
+            <path d="M0 0 L60 0 L60 60" stroke="#F27D24" strokeWidth="0.6" fill="none" />
+            <path d="M800 400 L740 400 L740 340" stroke="#F27D24" strokeWidth="0.6" fill="none" />
           </svg>
           <div className="relative px-8 py-16 sm:px-12 sm:py-20">
             <p className="text-sm font-medium text-orange-400 mb-4">
@@ -247,7 +256,7 @@ export default function WhichAIAssistantFindsLocalBusinessesBest() {
               <span>-</span>
               <span>14 min read</span>
               <span>-</span>
-              <span>The Answer Engine Team</span>
+              <span>Justin Borges</span>
             </div>
           </div>
         </div>
@@ -296,7 +305,7 @@ export default function WhichAIAssistantFindsLocalBusinessesBest() {
         </div>
 
         {/* Article Body */}
-        <article className="prose prose-invert prose-lg max-w-none prose-headings:font-plus-jakarta prose-headings:text-white prose-p:text-gray-300 prose-a:text-[#FF6A00] prose-a:no-underline hover:prose-a:underline prose-strong:text-white">
+        <article className="prose prose-invert prose-lg max-w-none prose-headings:font-plus-jakarta prose-headings:text-white prose-p:text-gray-300 prose-a:text-[#F27D24] prose-a:no-underline hover:prose-a:underline prose-strong:text-white">
 
           {/* Intro */}
           <p className="text-lg mb-8 text-gray-200">
@@ -874,14 +883,14 @@ export default function WhichAIAssistantFindsLocalBusinessesBest() {
           <div className="not-prose">
             <div className="ae-author-card">
               <div style={{ display: 'flex', alignItems: 'center', gap: '1rem' }}>
-                <div style={{ width: '3rem', height: '3rem', borderRadius: '9999px', backgroundColor: '#FF6A00', display: 'flex', alignItems: 'center', justifyContent: 'center', color: 'white', fontWeight: 700, fontSize: '0.875rem', flexShrink: 0 }}>
+                <div style={{ width: '3rem', height: '3rem', borderRadius: '9999px', backgroundColor: '#F27D24', display: 'flex', alignItems: 'center', justifyContent: 'center', color: 'white', fontWeight: 700, fontSize: '0.875rem', flexShrink: 0 }}>
                   AE
                 </div>
                 <div>
-                  <p style={{ color: 'white', fontWeight: 600, fontSize: '0.875rem', margin: 0 }}>The Answer Engine Team</p>
+                  <p style={{ color: 'white', fontWeight: 600, fontSize: '0.875rem', margin: 0 }}>Justin Borges</p>
                   <p style={{ color: '#9CA3AF', fontSize: '0.75rem', margin: 0 }}>
                     Published March 27, 2026 on{' '}
-                    <Link href="/" style={{ color: '#FF6A00' }}>
+                    <Link href="/" style={{ color: '#F27D24' }}>
                       theanswerengine.ai
                     </Link>
                   </p>
@@ -894,14 +903,14 @@ export default function WhichAIAssistantFindsLocalBusinessesBest() {
           </div>
 
           {/* 3-tier CTA Block before FAQ */}
-          <div className="not-prose my-16 p-8 rounded-2xl bg-gradient-to-br from-[#FF6A00]/10 to-transparent border border-[#FF6A00]/20">
+          <div className="not-prose my-16 p-8 rounded-2xl bg-gradient-to-br from-[#F27D24]/10 to-transparent border border-[#F27D24]/20">
             <h3 className="font-plus-jakarta text-2xl font-bold text-white mb-3">Which AI Assistants Are Recommending Your Competitors?</h3>
             <p className="text-gray-400 mb-6">Our free Blind Spot Report tests your business across ChatGPT, Perplexity, Google AI, Siri, and Alexa simultaneously.</p>
-            <Link href="/blindspot" className="inline-flex items-center gap-2 bg-[#FF6A00] text-white px-6 py-3 rounded-lg font-semibold hover:bg-[#e55f00] transition-colors">
+            <Link href="/blindspot" className="inline-flex items-center gap-2 bg-[#F27D24] text-white px-6 py-3 rounded-lg font-semibold hover:bg-[#D96416] transition-colors">
               Get Your Free Blind Spot Report
               <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" /></svg>
             </Link>
-            <div className="flex flex-wrap items-center gap-6 mt-6 pt-6 border-t border-[#FF6A00]/10">
+            <div className="flex flex-wrap items-center gap-6 mt-6 pt-6 border-t border-[#F27D24]/10">
               <a href="tel:+12134442229" className="flex items-center gap-2 text-gray-400 hover:text-white transition-colors">
                 <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" /></svg>
                 (213) 444-2229
@@ -1030,7 +1039,7 @@ export default function WhichAIAssistantFindsLocalBusinessesBest() {
                 ChatGPT, Perplexity, Google AI, Siri, and Alexa are all recommending businesses in your market right now. Find out if yours is one of them. Get your free blind spot report and see exactly where you stand across all five platforms. No pitch, just the data.
               </p>
               <div style={{ display: 'flex', flexWrap: 'wrap', gap: '1rem', justifyContent: 'center', position: 'relative' }}>
-                <Link href="/blindspot" style={{ display: 'inline-block', backgroundColor: '#FF6A00', color: 'white', fontWeight: 700, padding: '1rem 2rem', borderRadius: '0.5rem', textDecoration: 'none', fontSize: '1.125rem' }}>
+                <Link href="/blindspot" style={{ display: 'inline-block', backgroundColor: '#F27D24', color: 'white', fontWeight: 700, padding: '1rem 2rem', borderRadius: '0.5rem', textDecoration: 'none', fontSize: '1.125rem' }}>
                   Get Your Free Blind Spot Report
                 </Link>
               </div>

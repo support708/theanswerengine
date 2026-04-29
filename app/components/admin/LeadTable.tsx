@@ -38,7 +38,7 @@ export default function LeadTable({ leads, onAction }: LeadTableProps) {
               <td className="px-4 py-3">
                 <Link
                   href={`/admin/pipeline/${lead.id}`}
-                  className="text-white font-medium hover:text-[#FF6A00] transition-colors"
+                  className="text-white font-medium hover:text-[#F27D24] transition-colors"
                 >
                   {lead.businessName}
                 </Link>
@@ -77,7 +77,7 @@ export default function LeadTable({ leads, onAction }: LeadTableProps) {
                   {lead.status === 'report_ready' && (
                     <Link
                       href={`/admin/pipeline/${lead.id}`}
-                      className="px-3 py-1 text-xs bg-[#FF6A00] hover:bg-[#e55f00] text-white rounded transition-colors"
+                      className="px-3 py-1 text-xs bg-[#F27D24] hover:bg-[#D96416] text-white rounded transition-colors"
                     >
                       Review
                     </Link>

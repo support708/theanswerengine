@@ -27,7 +27,7 @@ export const metadata: Metadata = {
     description,
     type: 'article',
     publishedTime: publishDate,
-    authors: ['The Answer Engine Team'],
+    authors: ['https://theanswerengine.ai/about'],
     url: `https://theanswerengine.ai/blog/${slug}`,
     images: [{ url: `https://theanswerengine.ai/blog/${slug}.webp`, width: 1200, height: 630, alt: title }],
   },
@@ -51,9 +51,18 @@ const jsonLd = {
       datePublished: publishDate,
       dateModified: publishDate,
       author: {
-        '@type': 'Organization',
-        name: 'The Answer Engine',
-        url: 'https://theanswerengine.ai',
+        '@type': 'Person',
+        '@id': 'https://theanswerengine.ai/about#justin-borges',
+        name: 'Justin Borges',
+        jobTitle: 'Founder, The Answer Engine',
+        worksFor: {
+          '@type': 'Organization',
+          name: 'The Answer Engine',
+          url: 'https://theanswerengine.ai',
+        },
+        knowsAbout: ['Answer Engine Optimization', 'AI Search', 'Content Strategy', 'Real Estate Marketing', 'Citation Surface'],
+        url: 'https://theanswerengine.ai/about',
+        image: 'https://theanswerengine.ai/justin-borges.webp',
       },
       publisher: {
         '@type': 'Organization',
@@ -158,7 +167,7 @@ export default function Page() {
           <span>·</span>
           <span>10 min read</span>
           <span>·</span>
-          <span>The Answer Engine Team</span>
+          <span>Justin Borges</span>
         </div>
 
         {/* Hero SVG */}
@@ -225,7 +234,7 @@ export default function Page() {
         </div>
 
         <div className="ae-cta-inline not-prose">
-          <p>Want to see which AI queries your B2B competitors are already winning? <Link href="/contact" className="text-[#FF6A00] hover:underline font-semibold">Get a free B2B AI audit</Link> — we will show you exactly where you are visible and where you are invisible.</p>
+          <p>Want to see which AI queries your B2B competitors are already winning? <Link href="/contact" className="text-[#F27D24] hover:underline font-semibold">Get a free B2B AI audit</Link> — we will show you exactly where you are visible and where you are invisible.</p>
         </div>
 
         <h2 id="how-b2b-buyers-use-ai">How B2B Buyers Use AI Today</h2>
@@ -478,14 +487,14 @@ export default function Page() {
         </div>
 
         {/* 3-tier CTA block */}
-        <div className="not-prose my-16 p-8 rounded-2xl bg-gradient-to-br from-[#FF6A00]/10 to-transparent border border-[#FF6A00]/20">
+        <div className="not-prose my-16 p-8 rounded-2xl bg-gradient-to-br from-[#F27D24]/10 to-transparent border border-[#F27D24]/20">
           <h3 className="font-plus-jakarta text-2xl font-bold text-white mb-3">Ready to Appear on Your Buyer&apos;s AI Shortlist?</h3>
           <p className="text-gray-400 mb-6">B2B buyers are building shortlists from AI recommendations right now. Get your company in those answers before your competitors lock in the positions.</p>
-          <Link href="/contact" className="inline-flex items-center gap-2 bg-[#FF6A00] text-white px-6 py-3 rounded-lg font-semibold hover:bg-[#e55f00] transition-colors">
+          <Link href="/contact" className="inline-flex items-center gap-2 bg-[#F27D24] text-white px-6 py-3 rounded-lg font-semibold hover:bg-[#D96416] transition-colors">
             Get My B2B AI Audit
             <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" /></svg>
           </Link>
-          <div className="flex flex-wrap items-center gap-6 mt-6 pt-6 border-t border-[#FF6A00]/10">
+          <div className="flex flex-wrap items-center gap-6 mt-6 pt-6 border-t border-[#F27D24]/10">
             <a href="tel:+12134442229" className="flex items-center gap-2 text-gray-400 hover:text-white transition-colors">
               <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" /></svg>
               (213) 444-2229
@@ -499,12 +508,17 @@ export default function Page() {
 
         {/* Author card */}
         <div className="not-prose ae-author-card">
-          <div className="ae-author-avatar">AE</div>
-          <div>
-            <p className="ae-author-name">The Answer Engine Team</p>
-            <p className="ae-author-bio">We help B2B companies build AI visibility that generates pipeline. Our B2B clients typically see their first AI citations within 8 to 12 weeks and traceable AI-sourced leads within 3 to 4 months.</p>
-          </div>
-        </div>
+          <img
+                src="/justin-borges.webp"
+                alt="Justin Borges, Founder of The Answer Engine"
+                style={{ width: 64, height: 64, borderRadius: '50%', objectFit: 'cover', flexShrink: 0 }}
+              />
+              <div>
+                <div className="ae-author-name" style={{ fontWeight: 600 }}>Justin Borges</div>
+                <div className="ae-author-role" style={{ fontWeight: 400 }}>Founder, The Answer Engine</div>
+                <p style={{ marginTop: 8, fontSize: '0.875rem', color: 'rgba(255,255,255,0.65)', lineHeight: 1.6 }}>Justin Borges founded The Answer Engine in 2025 after 13+ years in real estate, $200M+ in production, and discovering that AI search rankings now decide who gets cited as the answer. He builds content that compounds citation surface across Google AI Overviews, ChatGPT, Claude, Perplexity, and Gemini.</p>
+              </div>
+              </div>
 
         {/* FAQ */}
         <div id="faq" className="not-prose mt-12">
@@ -551,7 +565,7 @@ export default function Page() {
           <h3 className="font-plus-jakarta text-2xl font-bold text-white mb-3">Get on Your Buyer&apos;s AI Shortlist Before Your Competitors Do</h3>
           <p className="text-gray-400 mb-6">The window to establish B2B AI visibility before your category gets competitive is narrowing. Companies building AEO programs now will be the default recommendations your buyers see in 2027.</p>
           <div className="flex flex-wrap justify-center gap-4">
-            <Link href="/contact" className="inline-flex items-center gap-2 bg-[#FF6A00] text-white px-8 py-3 rounded-lg font-semibold hover:bg-[#e55f00] transition-colors">Start My B2B AEO Program</Link>
+            <Link href="/contact" className="inline-flex items-center gap-2 bg-[#F27D24] text-white px-8 py-3 rounded-lg font-semibold hover:bg-[#D96416] transition-colors">Start My B2B AEO Program</Link>
             <Link href="/blog" className="inline-flex items-center gap-2 border border-white/20 text-gray-300 px-8 py-3 rounded-lg font-semibold hover:border-white/40 transition-colors">Read More AEO Guides</Link>
           </div>
         </div>

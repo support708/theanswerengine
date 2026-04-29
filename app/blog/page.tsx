@@ -222,9 +222,9 @@ export default function Blog() {
         {/* Hero */}
         <section className="py-32 px-6 lg:px-24 grid-bg">
           <div className="max-w-7xl mx-auto">
-            <span className="font-mono text-[10px] text-[#FF6A00] tracking-widest uppercase block mb-4">AEO Blog // Free Resources</span>
+            <span className="font-mono text-[10px] text-[#F27D24] tracking-widest uppercase block mb-4">AEO Blog // Free Resources</span>
             <h1 className="font-headline font-black text-5xl md:text-6xl lg:text-7xl tracking-tighter uppercase text-[#e5e2e1] mb-6">
-              AEO <span className="text-[#FF6A00]">Insights & Guides</span>
+              AEO <span className="text-[#F27D24]">Insights & Guides</span>
             </h1>
             <p className="text-white/60 text-lg max-w-2xl leading-relaxed">
               {sortedPosts.length}+ field-tested strategies for dominating AI search results.
@@ -244,7 +244,7 @@ export default function Blog() {
                 }`}
               >
                 <div className="mb-10">
-                  <span className="font-mono text-[10px] text-[#FF6A00] tracking-widest uppercase block mb-3">Featured Articles</span>
+                  <span className="font-mono text-[10px] text-[#F27D24] tracking-widest uppercase block mb-3">Featured Articles</span>
                   <h2 className="font-headline font-black text-3xl tracking-tighter uppercase text-[#e5e2e1]">
                     ESSENTIAL READING
                   </h2>
@@ -290,7 +290,7 @@ export default function Blog() {
                             <BlogCardPattern index={i} className="absolute inset-0 w-full h-full pointer-events-none z-[1]" />
                           )}
                           <div className="absolute inset-0 bg-gradient-to-t from-[#131313] via-transparent to-[#131313]/40 pointer-events-none z-[2]" />
-                          <div className="absolute top-3 right-3 px-2.5 py-1 bg-[#FF6A00] text-black text-xs font-black uppercase tracking-tight z-[3]">
+                          <div className="absolute top-3 right-3 px-2.5 py-1 bg-[#F27D24] text-black text-xs font-black uppercase tracking-tight z-[3]">
                             Featured
                           </div>
                         </div>
@@ -306,7 +306,7 @@ export default function Blog() {
                             </time>
                           </div>
 
-                          <h3 className="text-lg font-headline font-bold uppercase tracking-tight text-[#e5e2e1] mb-3 group-hover:text-[#FF6A00] transition-colors leading-tight line-clamp-2">
+                          <h3 className="text-lg font-headline font-bold uppercase tracking-tight text-[#e5e2e1] mb-3 group-hover:text-[#F27D24] transition-colors leading-tight line-clamp-2">
                             {post.title}
                           </h3>
 
@@ -340,7 +340,7 @@ export default function Blog() {
             }`}
           >
             <div className="mb-10">
-              <span className="font-mono text-[10px] text-[#FF6A00] tracking-widest uppercase block mb-3">All Articles // {filteredPosts.length} articles</span>
+              <span className="font-mono text-[10px] text-[#F27D24] tracking-widest uppercase block mb-3">All Articles // {filteredPosts.length} articles</span>
               <h2 className="font-headline font-black text-3xl tracking-tighter uppercase text-[#e5e2e1] mb-6">
                 ALL ARTICLES
               </h2>
@@ -353,7 +353,7 @@ export default function Blog() {
                     onClick={() => setActiveCategory(cat)}
                     className={`px-4 py-2 text-sm font-bold uppercase tracking-tight transition-all duration-200 font-headline ${
                       activeCategory === cat
-                        ? 'bg-[#FF6A00] text-black'
+                        ? 'bg-[#F27D24] text-black'
                         : 'bg-transparent text-white/60 border border-white/10 hover:bg-white/5 hover:text-white'
                     }`}
                   >
@@ -422,7 +422,7 @@ export default function Blog() {
                         </time>
                       </div>
 
-                      <h3 className="text-lg font-headline font-bold uppercase tracking-tight text-[#e5e2e1] mb-3 group-hover:text-[#FF6A00] transition-colors leading-tight line-clamp-2">
+                      <h3 className="text-lg font-headline font-bold uppercase tracking-tight text-[#e5e2e1] mb-3 group-hover:text-[#F27D24] transition-colors leading-tight line-clamp-2">
                         {post.title}
                       </h3>
 
@@ -444,8 +444,8 @@ export default function Blog() {
           </div>
 
           {/* CTA Section */}
-          <div className="border border-white/10 border-l-4 border-l-[#FF6A00] p-8 sm:p-12 lg:p-16">
-            <span className="font-mono text-[10px] text-[#FF6A00] tracking-widest uppercase block mb-4">Start Your AEO Journey</span>
+          <div className="border border-white/10 border-l-4 border-l-[#F27D24] p-8 sm:p-12 lg:p-16">
+            <span className="font-mono text-[10px] text-[#F27D24] tracking-widest uppercase block mb-4">Start Your AEO Journey</span>
             <h2 className="font-headline font-black text-3xl sm:text-4xl tracking-tighter uppercase text-[#e5e2e1] mb-4">
               READY TO GET CITED BY AI?
             </h2>
@@ -454,7 +454,7 @@ export default function Blog() {
             </p>
             <Link
               href="/#territory-check"
-              className="inline-flex items-center gap-3 bg-[#FF6A00] text-black font-black px-10 py-4 tracking-tighter hover:translate-y-[2px] transition-transform font-headline uppercase"
+              className="inline-flex items-center gap-3 bg-[#F27D24] text-black font-black px-10 py-4 tracking-tighter hover:translate-y-[2px] transition-transform font-headline uppercase"
             >
               CHECK YOUR TERRITORY
             </Link>

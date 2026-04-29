@@ -38,8 +38,17 @@ function ComprehensiveSchema() {
         "dateModified": "2025-12-17",
         "author": {
           "@type": "Person",
-          "name": "JB",
-          "url": "https://theanswerengine.ai/about"
+          "@id": "https://theanswerengine.ai/about#justin-borges",
+          "name": "Justin Borges",
+          "jobTitle": "Founder, The Answer Engine",
+          "worksFor": {
+            "@type": "Organization",
+            "name": "The Answer Engine",
+            "url": "https://theanswerengine.ai"
+          },
+          "knowsAbout": ["Answer Engine Optimization", "AI Search", "Content Strategy", "Real Estate Marketing", "Citation Surface"],
+          "url": "https://theanswerengine.ai/about",
+          "image": "https://theanswerengine.ai/justin-borges.webp"
         },
         "publisher": {
           "@type": "Organization",
@@ -174,17 +183,17 @@ export default function ChatGPTCantSeeGBP() {
           {/* Hero Section */}
           <div className="relative overflow-hidden rounded-2xl mb-12" style={{ background: 'linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%)' }}>
             <svg className="absolute inset-0 w-full h-full opacity-10" viewBox="0 0 800 400" fill="none" aria-hidden="true">
-              <circle cx="150" cy="200" r="160" stroke="#FF6A00" strokeWidth="0.5" />
-              <circle cx="150" cy="200" r="100" stroke="#FF6A00" strokeWidth="0.5" />
-              <circle cx="150" cy="200" r="40" stroke="#FF6A00" strokeWidth="0.5" />
-              <rect x="420" y="60" width="140" height="100" stroke="#FF6A00" strokeWidth="0.4" fill="none" />
-              <rect x="460" y="90" width="60" height="40" stroke="#FF6A00" strokeWidth="0.4" fill="none" />
-              <line x1="0" y1="130" x2="800" y2="130" stroke="#FF6A00" strokeWidth="0.3" />
-              <line x1="0" y1="270" x2="800" y2="270" stroke="#FF6A00" strokeWidth="0.3" />
-              <line x1="350" y1="0" x2="350" y2="400" stroke="#FF6A00" strokeWidth="0.3" />
-              <line x1="650" y1="0" x2="650" y2="400" stroke="#FF6A00" strokeWidth="0.3" />
-              <polygon points="580,300 680,200 780,300" stroke="#FF6A00" strokeWidth="0.5" fill="none" />
-              <circle cx="700" cy="340" r="35" stroke="#FF6A00" strokeWidth="0.4" />
+              <circle cx="150" cy="200" r="160" stroke="#F27D24" strokeWidth="0.5" />
+              <circle cx="150" cy="200" r="100" stroke="#F27D24" strokeWidth="0.5" />
+              <circle cx="150" cy="200" r="40" stroke="#F27D24" strokeWidth="0.5" />
+              <rect x="420" y="60" width="140" height="100" stroke="#F27D24" strokeWidth="0.4" fill="none" />
+              <rect x="460" y="90" width="60" height="40" stroke="#F27D24" strokeWidth="0.4" fill="none" />
+              <line x1="0" y1="130" x2="800" y2="130" stroke="#F27D24" strokeWidth="0.3" />
+              <line x1="0" y1="270" x2="800" y2="270" stroke="#F27D24" strokeWidth="0.3" />
+              <line x1="350" y1="0" x2="350" y2="400" stroke="#F27D24" strokeWidth="0.3" />
+              <line x1="650" y1="0" x2="650" y2="400" stroke="#F27D24" strokeWidth="0.3" />
+              <polygon points="580,300 680,200 780,300" stroke="#F27D24" strokeWidth="0.5" fill="none" />
+              <circle cx="700" cy="340" r="35" stroke="#F27D24" strokeWidth="0.4" />
             </svg>
             <div className="relative px-8 py-16 sm:px-12 sm:py-20">
               <p className="text-sm font-medium text-orange-400 mb-4">AI Visibility</p>
@@ -196,7 +205,7 @@ export default function ChatGPTCantSeeGBP() {
                 <span>-</span>
                 <span>9 min read</span>
                 <span>-</span>
-                <span>The Answer Engine Team</span>
+                <span>Justin Borges</span>
               </div>
             </div>
           </div>
@@ -226,7 +235,7 @@ export default function ChatGPTCantSeeGBP() {
           </div>
 
           {/* Article Body */}
-          <article className="prose prose-invert prose-lg max-w-none prose-headings:font-plus-jakarta prose-headings:text-white prose-p:text-gray-300 prose-a:text-[#FF6A00] prose-a:no-underline hover:prose-a:underline prose-strong:text-white">
+          <article className="prose prose-invert prose-lg max-w-none prose-headings:font-plus-jakarta prose-headings:text-white prose-p:text-gray-300 prose-a:text-[#F27D24] prose-a:no-underline hover:prose-a:underline prose-strong:text-white">
 
             {/* Intro */}
             <p className="text-xl text-gray-300 leading-relaxed mb-10">
@@ -802,28 +811,28 @@ export default function ChatGPTCantSeeGBP() {
 
           {/* Related Articles Grid - outside prose */}
           <div className="not-prose grid sm:grid-cols-2 gap-4 mb-16">
-            <Link href="/blog/do-google-reviews-affect-ai-recommendations" className="bg-white/[0.02] border border-white/[0.05] rounded-xl p-6 hover:border-[#FF6A00]/30 transition-colors group">
-              <div className="text-[#FF6A00] text-sm font-medium mb-2">Reviews &amp; AI</div>
-              <div className="text-white font-semibold group-hover:text-[#FF6A00] transition-colors">Do Google Reviews Affect AI Recommendations?</div>
+            <Link href="/blog/do-google-reviews-affect-ai-recommendations" className="bg-white/[0.02] border border-white/[0.05] rounded-xl p-6 hover:border-[#F27D24]/30 transition-colors group">
+              <div className="text-[#F27D24] text-sm font-medium mb-2">Reviews &amp; AI</div>
+              <div className="text-white font-semibold group-hover:text-[#F27D24] transition-colors">Do Google Reviews Affect AI Recommendations?</div>
             </Link>
-            <Link href="/blog/bing-places-chatgpt-connection" className="bg-white/[0.02] border border-white/[0.05] rounded-xl p-6 hover:border-[#FF6A00]/30 transition-colors group">
-              <div className="text-[#FF6A00] text-sm font-medium mb-2">Hidden Connection</div>
-              <div className="text-white font-semibold group-hover:text-[#FF6A00] transition-colors">Why Bing Places Matters (The ChatGPT Connection)</div>
+            <Link href="/blog/bing-places-chatgpt-connection" className="bg-white/[0.02] border border-white/[0.05] rounded-xl p-6 hover:border-[#F27D24]/30 transition-colors group">
+              <div className="text-[#F27D24] text-sm font-medium mb-2">Hidden Connection</div>
+              <div className="text-white font-semibold group-hover:text-[#F27D24] transition-colors">Why Bing Places Matters (The ChatGPT Connection)</div>
             </Link>
-            <Link href="/blog/check-if-ai-recommends-your-business" className="bg-white/[0.02] border border-white/[0.05] rounded-xl p-6 hover:border-[#FF6A00]/30 transition-colors group">
-              <div className="text-[#FF6A00] text-sm font-medium mb-2">DIY Guide</div>
-              <div className="text-white font-semibold group-hover:text-[#FF6A00] transition-colors">How to Check If AI Recommends Your Business</div>
+            <Link href="/blog/check-if-ai-recommends-your-business" className="bg-white/[0.02] border border-white/[0.05] rounded-xl p-6 hover:border-[#F27D24]/30 transition-colors group">
+              <div className="text-[#F27D24] text-sm font-medium mb-2">DIY Guide</div>
+              <div className="text-white font-semibold group-hover:text-[#F27D24] transition-colors">How to Check If AI Recommends Your Business</div>
             </Link>
-            <Link href="/blog/why-chatgpt-recommends-competitors" className="bg-white/[0.02] border border-white/[0.05] rounded-xl p-6 hover:border-[#FF6A00]/30 transition-colors group">
-              <div className="text-[#FF6A00] text-sm font-medium mb-2">Problem Solving</div>
-              <div className="text-white font-semibold group-hover:text-[#FF6A00] transition-colors">Why ChatGPT Recommends Your Competitors</div>
+            <Link href="/blog/why-chatgpt-recommends-competitors" className="bg-white/[0.02] border border-white/[0.05] rounded-xl p-6 hover:border-[#F27D24]/30 transition-colors group">
+              <div className="text-[#F27D24] text-sm font-medium mb-2">Problem Solving</div>
+              <div className="text-white font-semibold group-hover:text-[#F27D24] transition-colors">Why ChatGPT Recommends Your Competitors</div>
             </Link>
           </div>
 
           {/* Author Card */}
           <div className="not-prose ae-author-card">
             <div>
-              <strong>The Answer Engine Team</strong>
+              <strong>Justin Borges</strong>
               <p>We help local service businesses get cited, recommended, and chosen by AI platforms like ChatGPT, Google AI Overview, and Perplexity. No guesswork. No fluff. Just the data that moves the needle.</p>
             </div>
           </div>

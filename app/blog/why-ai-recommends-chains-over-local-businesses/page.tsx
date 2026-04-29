@@ -28,14 +28,14 @@ export const metadata: Metadata = {
     'AI search structured data',
     'local vs national AI search',
   ],
-  authors: [{ name: 'The Answer Engine Team' }],
+  authors: [{ name: 'Justin Borges', url: 'https://theanswerengine.ai/about' }],
   openGraph: {
     title: `${title} | The Answer Engine`,
     description,
     type: 'article',
     publishedTime: publishDate,
     modifiedTime: publishDate,
-    authors: ['The Answer Engine Team'],
+    authors: ['https://theanswerengine.ai/about'],
     url: `https://theanswerengine.ai/blog/${slug}`,
     images: [
       {
@@ -76,9 +76,18 @@ const jsonLd = {
       datePublished: '2026-04-03T09:00:00-07:00',
       dateModified: '2026-04-03T09:00:00-07:00',
       author: {
-        '@type': 'Organization',
-        name: 'The Answer Engine Team',
-        url: 'https://theanswerengine.ai',
+        '@type': 'Person',
+        '@id': 'https://theanswerengine.ai/about#justin-borges',
+        name: 'Justin Borges',
+        jobTitle: 'Founder, The Answer Engine',
+        worksFor: {
+          '@type': 'Organization',
+          name: 'The Answer Engine',
+          url: 'https://theanswerengine.ai',
+        },
+        knowsAbout: ['Answer Engine Optimization', 'AI Search', 'Content Strategy', 'Real Estate Marketing', 'Citation Surface'],
+        url: 'https://theanswerengine.ai/about',
+        image: 'https://theanswerengine.ai/justin-borges.webp',
       },
       publisher: {
         '@type': 'Organization',
@@ -259,14 +268,14 @@ export default function Page() {
                 <path
                   d="M 60 0 L 0 0 0 60"
                   fill="none"
-                  stroke="#FF6A00"
+                  stroke="#F27D24"
                   strokeWidth="0.5"
                 />
                 {/* Store vs chain icon hints */}
-                <rect x="8" y="30" width="18" height="22" fill="#FF6A00" opacity="0.08" rx="1" />
-                <rect x="10" y="36" width="6" height="8" fill="#FF6A00" opacity="0.15" rx="0.5" />
-                <rect x="34" y="22" width="18" height="30" fill="#FF6A00" opacity="0.15" rx="1" />
-                <rect x="36" y="28" width="14" height="4" fill="#FF6A00" opacity="0.2" rx="0.5" />
+                <rect x="8" y="30" width="18" height="22" fill="#F27D24" opacity="0.08" rx="1" />
+                <rect x="10" y="36" width="6" height="8" fill="#F27D24" opacity="0.15" rx="0.5" />
+                <rect x="34" y="22" width="18" height="30" fill="#F27D24" opacity="0.15" rx="1" />
+                <rect x="36" y="28" width="14" height="4" fill="#F27D24" opacity="0.2" rx="0.5" />
               </pattern>
             </defs>
             <rect width="100%" height="100%" fill="url(#hero-grid-126)" />
@@ -280,7 +289,7 @@ export default function Page() {
                 className="text-xs font-semibold uppercase tracking-widest px-3 py-1 rounded-full"
                 style={{
                   backgroundColor: 'rgba(255,106,0,0.15)',
-                  color: '#FF6A00',
+                  color: '#F27D24',
                   border: '1px solid rgba(255,106,0,0.3)',
                 }}
               >
@@ -295,7 +304,7 @@ export default function Page() {
               style={{ color: '#FFFFFF' }}
             >
               Why AI Recommends{' '}
-              <span style={{ color: '#FF6A00' }}>Chains Over Local Businesses</span>
+              <span style={{ color: '#F27D24' }}>Chains Over Local Businesses</span>
             </h1>
 
             <p className="text-xl text-gray-300 leading-relaxed mb-8 max-w-3xl">
@@ -307,7 +316,7 @@ export default function Page() {
               <Link
                 href="/blindspot"
                 className="inline-flex items-center gap-2 px-6 py-3 rounded-lg font-semibold text-white transition-all hover:opacity-90"
-                style={{ backgroundColor: '#FF6A00' }}
+                style={{ backgroundColor: '#F27D24' }}
               >
                 Check If AI Finds Your Business
                 <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -319,7 +328,7 @@ export default function Page() {
                 className="inline-flex items-center gap-2 px-6 py-3 rounded-lg font-semibold transition-all hover:opacity-90"
                 style={{
                   backgroundColor: 'rgba(255,106,0,0.1)',
-                  color: '#FF6A00',
+                  color: '#F27D24',
                   border: '1px solid rgba(255,106,0,0.3)',
                 }}
               >
@@ -340,7 +349,7 @@ export default function Page() {
               className="ae-stat-card rounded-xl p-5 text-center"
               style={{ backgroundColor: 'rgba(255,106,0,0.08)', border: '1px solid rgba(255,106,0,0.2)' }}
             >
-              <div className="font-plus-jakarta text-3xl font-extrabold mb-1" style={{ color: '#FF6A00' }}>
+              <div className="font-plus-jakarta text-3xl font-extrabold mb-1" style={{ color: '#F27D24' }}>
                 87%
               </div>
               <div className="text-xs text-gray-400 leading-snug">
@@ -351,7 +360,7 @@ export default function Page() {
               className="ae-stat-card rounded-xl p-5 text-center"
               style={{ backgroundColor: 'rgba(255,106,0,0.08)', border: '1px solid rgba(255,106,0,0.2)' }}
             >
-              <div className="font-plus-jakarta text-3xl font-extrabold mb-1" style={{ color: '#FF6A00' }}>
+              <div className="font-plus-jakarta text-3xl font-extrabold mb-1" style={{ color: '#F27D24' }}>
                 3x
               </div>
               <div className="text-xs text-gray-400 leading-snug">
@@ -362,7 +371,7 @@ export default function Page() {
               className="ae-stat-card rounded-xl p-5 text-center"
               style={{ backgroundColor: 'rgba(255,106,0,0.08)', border: '1px solid rgba(255,106,0,0.2)' }}
             >
-              <div className="font-plus-jakarta text-3xl font-extrabold mb-1" style={{ color: '#FF6A00' }}>
+              <div className="font-plus-jakarta text-3xl font-extrabold mb-1" style={{ color: '#F27D24' }}>
                 60-90
               </div>
               <div className="text-xs text-gray-400 leading-snug">
@@ -373,7 +382,7 @@ export default function Page() {
               className="ae-stat-card rounded-xl p-5 text-center"
               style={{ backgroundColor: 'rgba(255,106,0,0.08)', border: '1px solid rgba(255,106,0,0.2)' }}
             >
-              <div className="font-plus-jakarta text-3xl font-extrabold mb-1" style={{ color: '#FF6A00' }}>
+              <div className="font-plus-jakarta text-3xl font-extrabold mb-1" style={{ color: '#F27D24' }}>
                 1 in 4
               </div>
               <div className="text-xs text-gray-400 leading-snug">
@@ -436,7 +445,7 @@ export default function Page() {
 
             {/* Section 1: The Misconception */}
             <section id="the-misconception" className="mb-16 not-prose">
-              <div className="ae-section-label text-xs font-bold uppercase tracking-widest mb-3" style={{ color: '#FF6A00' }}>
+              <div className="ae-section-label text-xs font-bold uppercase tracking-widest mb-3" style={{ color: '#F27D24' }}>
                 Section 01
               </div>
               <h2 className="font-plus-jakarta text-3xl font-bold text-white mb-6">
@@ -472,17 +481,17 @@ export default function Page() {
                 This distinction matters enormously for local business owners. If the problem were that AI simply preferred chains by design, there would be nothing to do. But the actual problem, an information gap, is solvable. That is what this article breaks down.
               </p>
 
-              <blockquote className="ae-quote border-l-4 pl-6 py-2 my-8" style={{ borderColor: '#FF6A00' }}>
+              <blockquote className="ae-quote border-l-4 pl-6 py-2 my-8" style={{ borderColor: '#F27D24' }}>
                 <p className="text-xl text-gray-200 italic leading-relaxed">
                   "AI does not recommend the biggest business in your category. It recommends the one it understands best."
                 </p>
-                <footer className="text-sm text-gray-500 mt-3">The Answer Engine Team</footer>
+                <footer className="text-sm text-gray-500 mt-3">Justin Borges</footer>
               </blockquote>
             </section>
 
             {/* Section 2: Why Chains Have an Advantage */}
             <section id="why-chains-have-an-advantage" className="mb-16 not-prose">
-              <div className="ae-section-label text-xs font-bold uppercase tracking-widest mb-3" style={{ color: '#FF6A00' }}>
+              <div className="ae-section-label text-xs font-bold uppercase tracking-widest mb-3" style={{ color: '#F27D24' }}>
                 Section 02
               </div>
               <h2 className="font-plus-jakarta text-3xl font-bold text-white mb-6">
@@ -521,7 +530,7 @@ export default function Page() {
                 <Link
                   href="/blindspot"
                   className="inline-flex items-center gap-2 px-5 py-2.5 rounded-lg font-semibold text-white text-sm transition-all hover:opacity-90"
-                  style={{ backgroundColor: '#FF6A00' }}
+                  style={{ backgroundColor: '#F27D24' }}
                 >
                   Get Your Free Blind Spot Report
                   <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -533,7 +542,7 @@ export default function Page() {
 
             {/* Section 3: AI Visibility Gap */}
             <section id="the-ai-visibility-gap" className="mb-16 not-prose">
-              <div className="ae-section-label text-xs font-bold uppercase tracking-widest mb-3" style={{ color: '#FF6A00' }}>
+              <div className="ae-section-label text-xs font-bold uppercase tracking-widest mb-3" style={{ color: '#F27D24' }}>
                 Section 03
               </div>
               <h2 className="font-plus-jakarta text-3xl font-bold text-white mb-6">
@@ -584,7 +593,7 @@ export default function Page() {
 
             {/* Section 4: Local Advantages */}
             <section id="local-advantages" className="mb-16 not-prose">
-              <div className="ae-section-label text-xs font-bold uppercase tracking-widest mb-3" style={{ color: '#FF6A00' }}>
+              <div className="ae-section-label text-xs font-bold uppercase tracking-widest mb-3" style={{ color: '#F27D24' }}>
                 Section 04
               </div>
               <h2 className="font-plus-jakarta text-3xl font-bold text-white mb-6">
@@ -688,7 +697,7 @@ export default function Page() {
 
             {/* Section 5: Comparison Table */}
             <section id="chain-vs-local-comparison" className="mb-16 not-prose">
-              <div className="ae-section-label text-xs font-bold uppercase tracking-widest mb-3" style={{ color: '#FF6A00' }}>
+              <div className="ae-section-label text-xs font-bold uppercase tracking-widest mb-3" style={{ color: '#F27D24' }}>
                 Section 05
               </div>
               <h2 className="font-plus-jakarta text-3xl font-bold text-white mb-6">
@@ -704,7 +713,7 @@ export default function Page() {
                   <thead>
                     <tr style={{ backgroundColor: 'rgba(255,106,0,0.12)' }}>
                       <th className="text-left p-4 font-plus-jakarta font-bold text-white">AI Signal</th>
-                      <th className="text-center p-4 font-plus-jakarta font-bold" style={{ color: '#FF6A00' }}>National Chain</th>
+                      <th className="text-center p-4 font-plus-jakarta font-bold" style={{ color: '#F27D24' }}>National Chain</th>
                       <th className="text-center p-4 font-plus-jakarta font-bold text-gray-400">Unoptimized Local</th>
                       <th className="text-center p-4 font-plus-jakarta font-bold" style={{ color: '#22C55E' }}>Optimized Local</th>
                     </tr>
@@ -825,7 +834,7 @@ export default function Page() {
                   <Link
                     href="/blindspot"
                     className="inline-flex items-center gap-2 px-5 py-2.5 rounded-lg font-semibold text-white text-sm transition-all hover:opacity-90"
-                    style={{ backgroundColor: '#FF6A00' }}
+                    style={{ backgroundColor: '#F27D24' }}
                   >
                     Get Your Free Blind Spot Report
                     <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -835,7 +844,7 @@ export default function Page() {
                   <a
                     href="tel:+12134442229"
                     className="inline-flex items-center gap-2 px-5 py-2.5 rounded-lg font-semibold text-sm transition-all hover:opacity-90"
-                    style={{ backgroundColor: 'rgba(255,106,0,0.1)', color: '#FF6A00', border: '1px solid rgba(255,106,0,0.3)' }}
+                    style={{ backgroundColor: 'rgba(255,106,0,0.1)', color: '#F27D24', border: '1px solid rgba(255,106,0,0.3)' }}
                   >
                     Call (213) 444-2229
                   </a>
@@ -845,7 +854,7 @@ export default function Page() {
 
             {/* Section 6: Decision Matrix */}
             <section id="decision-matrix" className="mb-16 not-prose">
-              <div className="ae-section-label text-xs font-bold uppercase tracking-widest mb-3" style={{ color: '#FF6A00' }}>
+              <div className="ae-section-label text-xs font-bold uppercase tracking-widest mb-3" style={{ color: '#F27D24' }}>
                 Section 06
               </div>
               <h2 className="font-plus-jakarta text-3xl font-bold text-white mb-6">
@@ -874,13 +883,13 @@ export default function Page() {
                     condition: 'Chain has FAQ-rich content answering category questions',
                     localAction: 'Create a dedicated FAQ page and embed relevant Q&A sections on each service page. Answer the exact questions your customers ask, in plain language.',
                     priority: 'High',
-                    priorityColor: '#FF6A00',
+                    priorityColor: '#F27D24',
                   },
                   {
                     condition: 'Chain has reviews on Google, Yelp, Angi, and industry platforms',
                     localAction: 'Build a multi-platform review presence. A business with 40 reviews across 6 platforms signals more trust than 200 reviews on one platform.',
                     priority: 'High',
-                    priorityColor: '#FF6A00',
+                    priorityColor: '#F27D24',
                   },
                   {
                     condition: 'Chain has press mentions on authoritative publications',
@@ -892,7 +901,7 @@ export default function Page() {
                     condition: 'Chain has generic service descriptions for every market',
                     localAction: 'Write hyper-local service pages that reference your specific service area, local conditions, and community knowledge. This is where local beats chain every time.',
                     priority: 'High',
-                    priorityColor: '#FF6A00',
+                    priorityColor: '#F27D24',
                   },
                   {
                     condition: 'Chain content avoids deep niche expertise',
@@ -931,11 +940,11 @@ export default function Page() {
                 style={{ backgroundColor: 'rgba(255,106,0,0.08)', border: '1px solid rgba(255,106,0,0.25)' }}
               >
                 <div className="flex items-start gap-3">
-                  <svg className="w-5 h-5 mt-0.5 flex-shrink-0" style={{ color: '#FF6A00' }} fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <svg className="w-5 h-5 mt-0.5 flex-shrink-0" style={{ color: '#F27D24' }} fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 10V3L4 14h7v7l9-11h-7z" />
                   </svg>
                   <div>
-                    <p className="font-semibold mb-1" style={{ color: '#FF6A00' }}>Start with the Critical items</p>
+                    <p className="font-semibold mb-1" style={{ color: '#F27D24' }}>Start with the Critical items</p>
                     <p className="text-gray-300 text-sm leading-relaxed">
                       NAP consistency and schema markup are foundational. Every other signal you build on top of a weak foundation underperforms. Fix these first, then layer in the High and Medium priority items.
                     </p>
@@ -954,7 +963,7 @@ export default function Page() {
 
             {/* Section 7: Cheat Sheet */}
             <section id="cheat-sheet" className="mb-16 not-prose">
-              <div className="ae-section-label text-xs font-bold uppercase tracking-widest mb-3" style={{ color: '#FF6A00' }}>
+              <div className="ae-section-label text-xs font-bold uppercase tracking-widest mb-3" style={{ color: '#F27D24' }}>
                 Section 07
               </div>
               <h2 className="font-plus-jakarta text-3xl font-bold text-white mb-6">
@@ -966,7 +975,7 @@ export default function Page() {
                 style={{ backgroundColor: 'rgba(255,106,0,0.06)', border: '1px solid rgba(255,106,0,0.2)' }}
               >
                 <h3 className="font-plus-jakarta text-lg font-bold text-white mb-6 flex items-center gap-2">
-                  <svg className="w-5 h-5" style={{ color: '#FF6A00' }} fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <svg className="w-5 h-5" style={{ color: '#F27D24' }} fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-6 9l2 2 4-4" />
                   </svg>
                   The Local Business AI Visibility Checklist
@@ -985,7 +994,7 @@ export default function Page() {
                         'FAQPage schema on FAQ sections',
                       ].map((item, i) => (
                         <li key={i} className="flex items-start gap-2 text-sm text-gray-300">
-                          <svg className="w-4 h-4 mt-0.5 flex-shrink-0" style={{ color: '#FF6A00' }} fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                          <svg className="w-4 h-4 mt-0.5 flex-shrink-0" style={{ color: '#F27D24' }} fill="none" stroke="currentColor" viewBox="0 0 24 24">
                             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4" />
                           </svg>
                           {item}
@@ -1005,7 +1014,7 @@ export default function Page() {
                         'Service area page naming specific neighborhoods and cities',
                       ].map((item, i) => (
                         <li key={i} className="flex items-start gap-2 text-sm text-gray-300">
-                          <svg className="w-4 h-4 mt-0.5 flex-shrink-0" style={{ color: '#FF6A00' }} fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                          <svg className="w-4 h-4 mt-0.5 flex-shrink-0" style={{ color: '#F27D24' }} fill="none" stroke="currentColor" viewBox="0 0 24 24">
                             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4" />
                           </svg>
                           {item}
@@ -1023,7 +1032,7 @@ export default function Page() {
                         'Owner credentials and expertise explained on About page',
                       ].map((item, i) => (
                         <li key={i} className="flex items-start gap-2 text-sm text-gray-300">
-                          <svg className="w-4 h-4 mt-0.5 flex-shrink-0" style={{ color: '#FF6A00' }} fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                          <svg className="w-4 h-4 mt-0.5 flex-shrink-0" style={{ color: '#F27D24' }} fill="none" stroke="currentColor" viewBox="0 0 24 24">
                             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4" />
                           </svg>
                           {item}
@@ -1041,7 +1050,7 @@ export default function Page() {
                         'Community involvement or local partnerships referenced',
                       ].map((item, i) => (
                         <li key={i} className="flex items-start gap-2 text-sm text-gray-300">
-                          <svg className="w-4 h-4 mt-0.5 flex-shrink-0" style={{ color: '#FF6A00' }} fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                          <svg className="w-4 h-4 mt-0.5 flex-shrink-0" style={{ color: '#F27D24' }} fill="none" stroke="currentColor" viewBox="0 0 24 24">
                             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4" />
                           </svg>
                           {item}
@@ -1059,7 +1068,7 @@ export default function Page() {
                     <Link
                       href="/blindspot"
                       className="inline-flex items-center gap-2 px-5 py-2.5 rounded-lg font-semibold text-white text-sm transition-all hover:opacity-90"
-                      style={{ backgroundColor: '#FF6A00' }}
+                      style={{ backgroundColor: '#F27D24' }}
                     >
                       Get Your Free Blind Spot Report
                       <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -1069,7 +1078,7 @@ export default function Page() {
                     <a
                       href="mailto:support@theanswerengine.ai"
                       className="inline-flex items-center gap-2 px-5 py-2.5 rounded-lg font-semibold text-sm transition-all hover:opacity-90"
-                      style={{ backgroundColor: 'rgba(255,106,0,0.1)', color: '#FF6A00', border: '1px solid rgba(255,106,0,0.3)' }}
+                      style={{ backgroundColor: 'rgba(255,106,0,0.1)', color: '#F27D24', border: '1px solid rgba(255,106,0,0.3)' }}
                     >
                       Email Us
                     </a>
@@ -1085,12 +1094,12 @@ export default function Page() {
             <div className="flex items-start gap-4">
               <div
                 className="w-12 h-12 rounded-full flex items-center justify-center flex-shrink-0 font-plus-jakarta font-bold text-white text-lg"
-                style={{ backgroundColor: '#FF6A00' }}
+                style={{ backgroundColor: '#F27D24' }}
               >
                 AE
               </div>
               <div>
-                <div className="font-plus-jakarta font-bold text-white mb-1">The Answer Engine Team</div>
+                <div className="font-plus-jakarta font-bold text-white mb-1">Justin Borges</div>
                 <div className="text-xs text-gray-500 mb-3">Answer Engine Optimization Specialists</div>
                 <p className="text-sm text-gray-400 leading-relaxed">
                   We help local businesses close the AI visibility gap and compete against national chains on AI platforms including ChatGPT, Perplexity, Google AI, and more. Our Blind Spot Reports have uncovered critical visibility gaps for hundreds of local service businesses across the U.S.
@@ -1100,7 +1109,7 @@ export default function Page() {
           </div>
 
           {/* 3-Tier CTA Block */}
-          <div className="not-prose my-16 p-8 rounded-2xl bg-gradient-to-br from-[#FF6A00]/10 to-transparent border border-[#FF6A00]/20">
+          <div className="not-prose my-16 p-8 rounded-2xl bg-gradient-to-br from-[#F27D24]/10 to-transparent border border-[#F27D24]/20">
             <h3 className="font-plus-jakarta text-2xl font-bold text-white mb-3">
               Is a National Chain Stealing Your AI Recommendations?
             </h3>
@@ -1109,14 +1118,14 @@ export default function Page() {
             </p>
             <Link
               href="/blindspot"
-              className="inline-flex items-center gap-2 bg-[#FF6A00] text-white px-6 py-3 rounded-lg font-semibold hover:bg-[#e55f00] transition-colors"
+              className="inline-flex items-center gap-2 bg-[#F27D24] text-white px-6 py-3 rounded-lg font-semibold hover:bg-[#D96416] transition-colors"
             >
               Get Your Free Blind Spot Report
               <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
               </svg>
             </Link>
-            <div className="flex flex-wrap items-center gap-6 mt-6 pt-6 border-t border-[#FF6A00]/10">
+            <div className="flex flex-wrap items-center gap-6 mt-6 pt-6 border-t border-[#F27D24]/10">
               <a href="tel:+12134442229" className="flex items-center gap-2 text-gray-400 hover:text-white transition-colors">
                 <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
@@ -1134,7 +1143,7 @@ export default function Page() {
 
           {/* FAQ */}
           <section id="faq" className="mb-16">
-            <div className="ae-section-label text-xs font-bold uppercase tracking-widest mb-3 not-prose" style={{ color: '#FF6A00' }}>
+            <div className="ae-section-label text-xs font-bold uppercase tracking-widest mb-3 not-prose" style={{ color: '#F27D24' }}>
               FAQ
             </div>
             <h2 className="font-plus-jakarta text-3xl font-bold text-white mb-8 not-prose">
@@ -1205,7 +1214,7 @@ export default function Page() {
               aria-hidden="true"
             />
             <div className="relative">
-              <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full text-xs font-semibold mb-6" style={{ backgroundColor: 'rgba(255,106,0,0.15)', color: '#FF6A00', border: '1px solid rgba(255,106,0,0.3)' }}>
+              <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full text-xs font-semibold mb-6" style={{ backgroundColor: 'rgba(255,106,0,0.15)', color: '#F27D24', border: '1px solid rgba(255,106,0,0.3)' }}>
                 Free for qualifying businesses
               </div>
               <h2 className="font-plus-jakarta text-3xl md:text-4xl font-extrabold text-white mb-4">
@@ -1218,7 +1227,7 @@ export default function Page() {
                 <Link
                   href="/blindspot"
                   className="inline-flex items-center gap-2 px-8 py-4 rounded-xl font-bold text-white text-base transition-all hover:opacity-90"
-                  style={{ backgroundColor: '#FF6A00', boxShadow: '0 0 30px rgba(255,106,0,0.4)' }}
+                  style={{ backgroundColor: '#F27D24', boxShadow: '0 0 30px rgba(255,106,0,0.4)' }}
                 >
                   Get Your Free Blind Spot Report
                   <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -1228,7 +1237,7 @@ export default function Page() {
                 <a
                   href="tel:+12134442229"
                   className="inline-flex items-center gap-2 px-8 py-4 rounded-xl font-bold text-base transition-all hover:opacity-90"
-                  style={{ backgroundColor: 'rgba(255,106,0,0.1)', color: '#FF6A00', border: '1px solid rgba(255,106,0,0.4)' }}
+                  style={{ backgroundColor: 'rgba(255,106,0,0.1)', color: '#F27D24', border: '1px solid rgba(255,106,0,0.4)' }}
                 >
                   <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.948V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />

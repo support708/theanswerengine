@@ -29,7 +29,7 @@ export const metadata: Metadata = {
     description,
     type: 'article',
     publishedTime: publishDate,
-    authors: ['The Answer Engine Team'],
+    authors: ['https://theanswerengine.ai/about'],
     url: `https://theanswerengine.ai/blog/${slug}`,
     images: [
       {
@@ -62,9 +62,18 @@ const jsonLd = {
       datePublished: publishDate,
       dateModified: publishDate,
       author: {
-        '@type': 'Organization',
-        name: 'The Answer Engine',
-        url: 'https://theanswerengine.ai',
+        '@type': 'Person',
+        '@id': 'https://theanswerengine.ai/about#justin-borges',
+        name: 'Justin Borges',
+        jobTitle: 'Founder, The Answer Engine',
+        worksFor: {
+          '@type': 'Organization',
+          name: 'The Answer Engine',
+          url: 'https://theanswerengine.ai',
+        },
+        knowsAbout: ['Answer Engine Optimization', 'AI Search', 'Content Strategy', 'Real Estate Marketing', 'Citation Surface'],
+        url: 'https://theanswerengine.ai/about',
+        image: 'https://theanswerengine.ai/justin-borges.webp',
       },
       publisher: {
         '@type': 'Organization',
@@ -217,19 +226,19 @@ export default function Page() {
               fill="none"
               aria-hidden="true"
             >
-              <circle cx="150" cy="200" r="100" stroke="#FF6A00" strokeWidth="0.5" fill="none" />
-              <circle cx="150" cy="200" r="60" stroke="#FF6A00" strokeWidth="0.5" fill="none" />
-              <rect x="400" y="80" width="300" height="40" rx="6" stroke="#FF6A00" strokeWidth="0.5" fill="none" opacity="0.4" />
-              <rect x="400" y="140" width="300" height="40" rx="6" stroke="#FF6A00" strokeWidth="0.5" fill="none" opacity="0.3" />
-              <rect x="400" y="200" width="300" height="40" rx="6" stroke="#FF6A00" strokeWidth="0.5" fill="none" opacity="0.3" />
-              <rect x="400" y="260" width="300" height="40" rx="6" stroke="#FF6A00" strokeWidth="0.5" fill="none" opacity="0.2" />
-              <text x="420" y="105" fill="#FF6A00" fontSize="10" opacity="0.4">Q1</text>
-              <text x="420" y="165" fill="#FF6A00" fontSize="10" opacity="0.3">Q2</text>
-              <text x="420" y="225" fill="#FF6A00" fontSize="10" opacity="0.3">Q3</text>
-              <text x="420" y="285" fill="#FF6A00" fontSize="10" opacity="0.2">Q4</text>
-              <line x1="280" y1="200" x2="390" y2="100" stroke="#FF6A00" strokeWidth="0.5" strokeDasharray="6 4" opacity="0.3" />
-              <line x1="280" y1="200" x2="390" y2="160" stroke="#FF6A00" strokeWidth="0.5" strokeDasharray="6 4" opacity="0.3" />
-              <text x="150" y="205" textAnchor="middle" fill="#FF6A00" fontSize="12" opacity="0.5">AGENCY</text>
+              <circle cx="150" cy="200" r="100" stroke="#F27D24" strokeWidth="0.5" fill="none" />
+              <circle cx="150" cy="200" r="60" stroke="#F27D24" strokeWidth="0.5" fill="none" />
+              <rect x="400" y="80" width="300" height="40" rx="6" stroke="#F27D24" strokeWidth="0.5" fill="none" opacity="0.4" />
+              <rect x="400" y="140" width="300" height="40" rx="6" stroke="#F27D24" strokeWidth="0.5" fill="none" opacity="0.3" />
+              <rect x="400" y="200" width="300" height="40" rx="6" stroke="#F27D24" strokeWidth="0.5" fill="none" opacity="0.3" />
+              <rect x="400" y="260" width="300" height="40" rx="6" stroke="#F27D24" strokeWidth="0.5" fill="none" opacity="0.2" />
+              <text x="420" y="105" fill="#F27D24" fontSize="10" opacity="0.4">Q1</text>
+              <text x="420" y="165" fill="#F27D24" fontSize="10" opacity="0.3">Q2</text>
+              <text x="420" y="225" fill="#F27D24" fontSize="10" opacity="0.3">Q3</text>
+              <text x="420" y="285" fill="#F27D24" fontSize="10" opacity="0.2">Q4</text>
+              <line x1="280" y1="200" x2="390" y2="100" stroke="#F27D24" strokeWidth="0.5" strokeDasharray="6 4" opacity="0.3" />
+              <line x1="280" y1="200" x2="390" y2="160" stroke="#F27D24" strokeWidth="0.5" strokeDasharray="6 4" opacity="0.3" />
+              <text x="150" y="205" textAnchor="middle" fill="#F27D24" fontSize="12" opacity="0.5">AGENCY</text>
             </svg>
             <div className="relative px-8 py-16 sm:px-12 sm:py-20">
               <p className="inline-block text-sm font-medium text-orange-400 mb-4 border border-orange-500/30 rounded-full px-4 py-1">
@@ -243,7 +252,7 @@ export default function Page() {
                 <span>-</span>
                 <span>16 min read</span>
                 <span>-</span>
-                <span>The Answer Engine Team</span>
+                <span>Justin Borges</span>
               </div>
             </div>
           </div>
@@ -292,7 +301,7 @@ export default function Page() {
           </div>
 
           {/* Article Body */}
-          <article className="prose prose-invert prose-lg max-w-none prose-headings:font-plus-jakarta prose-headings:text-white prose-p:text-gray-300 prose-a:text-[#FF6A00] prose-a:no-underline hover:prose-a:underline prose-strong:text-white">
+          <article className="prose prose-invert prose-lg max-w-none prose-headings:font-plus-jakarta prose-headings:text-white prose-p:text-gray-300 prose-a:text-[#F27D24] prose-a:no-underline hover:prose-a:underline prose-strong:text-white">
 
             {/* Intro */}
             <p className="text-xl text-gray-300 leading-relaxed mb-10">
@@ -1004,14 +1013,14 @@ export default function Page() {
           </article>
 
           {/* CTA Block: 3-tier with phone/email */}
-          <div className="not-prose my-16 p-8 rounded-2xl bg-gradient-to-br from-[#FF6A00]/10 to-transparent border border-[#FF6A00]/20">
+          <div className="not-prose my-16 p-8 rounded-2xl bg-gradient-to-br from-[#F27D24]/10 to-transparent border border-[#F27D24]/20">
             <h3 className="font-plus-jakarta text-2xl font-bold text-white mb-3">Not Sure If Your Agency Is Delivering Real AI Results?</h3>
             <p className="text-gray-400 mb-6">Our free Blind Spot Report shows exactly what AI platforms say about your business today, so you can hold any agency accountable with data.</p>
-            <Link href="/blindspot" className="inline-flex items-center gap-2 bg-[#FF6A00] text-white px-6 py-3 rounded-lg font-semibold hover:bg-[#e55f00] transition-colors">
+            <Link href="/blindspot" className="inline-flex items-center gap-2 bg-[#F27D24] text-white px-6 py-3 rounded-lg font-semibold hover:bg-[#D96416] transition-colors">
               Get Your Free Blind Spot Report
               <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" /></svg>
             </Link>
-            <div className="flex flex-wrap items-center gap-6 mt-6 pt-6 border-t border-[#FF6A00]/10">
+            <div className="flex flex-wrap items-center gap-6 mt-6 pt-6 border-t border-[#F27D24]/10">
               <a href="tel:+12134442229" className="flex items-center gap-2 text-gray-400 hover:text-white transition-colors">
                 <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" /></svg>
                 (213) 444-2229
@@ -1024,7 +1033,7 @@ export default function Page() {
           </div>
 
           {/* FAQ Section */}
-          <article className="prose prose-invert prose-lg max-w-none prose-headings:font-plus-jakarta prose-headings:text-white prose-p:text-gray-300 prose-a:text-[#FF6A00] prose-a:no-underline hover:prose-a:underline prose-strong:text-white">
+          <article className="prose prose-invert prose-lg max-w-none prose-headings:font-plus-jakarta prose-headings:text-white prose-p:text-gray-300 prose-a:text-[#F27D24] prose-a:no-underline hover:prose-a:underline prose-strong:text-white">
             <div className="not-prose"><span className="ae-section-label">FAQ</span></div>
             <h2 className="text-2xl font-bold text-white mt-4 mb-8 font-plus-jakarta">
               Frequently Asked Questions
@@ -1119,7 +1128,7 @@ export default function Page() {
                 It takes 60 seconds and costs nothing.
               </p>
               <Link href="/blindspot">Get Your Free AI Blind Spot Report &#8594;</Link>
-              <div className="flex flex-wrap items-center justify-center gap-6 mt-6 pt-6 border-t border-[#FF6A00]/20">
+              <div className="flex flex-wrap items-center justify-center gap-6 mt-6 pt-6 border-t border-[#F27D24]/20">
                 <a href="tel:+12134442229" className="flex items-center gap-2 text-gray-400 hover:text-white transition-colors">
                   <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" /></svg>
                   (213) 444-2229
@@ -1139,7 +1148,7 @@ export default function Page() {
                 AE
               </div>
               <div>
-                <p className="text-white font-semibold">The Answer Engine Team</p>
+                <p className="text-white font-semibold">Justin Borges</p>
                 <p className="text-gray-400 text-sm">
                   Helping local service businesses stay visible in an AI-first world.
                   We combine AI-powered research with human strategy to make sure the

@@ -38,10 +38,19 @@ const jsonLd = {
       "datePublished": "2026-03-22",
       "dateModified": "2026-03-22",
       "author": {
-        "@type": "Organization",
-        "name": "The Answer Engine Team",
-        "url": "https://theanswerengine.ai/about"
-      },
+          "@type": "Person",
+          "@id": "https://theanswerengine.ai/about#justin-borges",
+          "name": "Justin Borges",
+          "jobTitle": "Founder, The Answer Engine",
+          "worksFor": {
+            "@type": "Organization",
+            "name": "The Answer Engine",
+            "url": "https://theanswerengine.ai"
+          },
+          "knowsAbout": ["Answer Engine Optimization", "AI Search", "Content Strategy", "Real Estate Marketing", "Citation Surface"],
+          "url": "https://theanswerengine.ai/about",
+          "image": "https://theanswerengine.ai/justin-borges.webp"
+        },
       "publisher": {
         "@type": "Organization",
         "@id": "https://theanswerengine.ai/#organization"
@@ -146,13 +155,13 @@ export default function WhyAISaysWrongThingsAboutBusiness() {
 
           {/* Header */}
           <header className="mb-12">
-            <div className="inline-flex items-center gap-2 px-4 py-2 rounded-xl mb-6 bg-[#FF6A00]/10 border border-[#FF6A00]/30">
-              <span className="text-sm font-semibold tracking-wider uppercase text-[#FF6A00]">Business Pain Points</span>
+            <div className="inline-flex items-center gap-2 px-4 py-2 rounded-xl mb-6 bg-[#F27D24]/10 border border-[#F27D24]/30">
+              <span className="text-sm font-semibold tracking-wider uppercase text-[#F27D24]">Business Pain Points</span>
             </div>
 
             <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-white leading-tight mb-6 font-plus-jakarta">
               Why AI Says Wrong Things{' '}
-              <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#FF6A00] to-orange-400">About Your Business</span>
+              <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#F27D24] to-orange-400">About Your Business</span>
             </h1>
 
             {/* Hero Image */}
@@ -185,12 +194,12 @@ export default function WhyAISaysWrongThingsAboutBusiness() {
                 </svg>
                 <span>14 min read</span>
               </div>
-              <span>The Answer Engine Team</span>
+              <span>Justin Borges</span>
             </div>
           </header>
 
           {/* Main Content */}
-          <div className="prose prose-invert prose-lg max-w-none prose-headings:font-plus-jakarta prose-headings:text-white prose-p:text-gray-300 prose-a:text-[#FF6A00] prose-a:no-underline hover:prose-a:underline prose-strong:text-white">
+          <div className="prose prose-invert prose-lg max-w-none prose-headings:font-plus-jakarta prose-headings:text-white prose-p:text-gray-300 prose-a:text-[#F27D24] prose-a:no-underline hover:prose-a:underline prose-strong:text-white">
 
             {/* ── STATS GRID ── */}
             <div className="ae-stats-grid not-prose">
@@ -423,7 +432,7 @@ export default function WhyAISaysWrongThingsAboutBusiness() {
             {/* ── CTA 4 ── */}
             <div className="ae-cta-inline not-prose">
               <p>Not sure if your NAP data is consistent? We check every major platform.</p>
-              <a href="tel:+12134442229" className="flex items-center gap-2 text-[#FF6A00] font-semibold">
+              <a href="tel:+12134442229" className="flex items-center gap-2 text-[#F27D24] font-semibold">
                 <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" /></svg>
                 Call (213) 444-2229
               </a>
@@ -500,7 +509,7 @@ export default function WhyAISaysWrongThingsAboutBusiness() {
             {/* ── CTA 6 ── */}
             <div className="ae-cta-inline not-prose">
               <p>How much revenue is AI misinformation costing your business?</p>
-              <a href="mailto:support@theanswerengine.ai" className="text-[#FF6A00] font-semibold">
+              <a href="mailto:support@theanswerengine.ai" className="text-[#F27D24] font-semibold">
                 Email us at support@theanswerengine.ai for a free assessment &rarr;
               </a>
             </div>
@@ -635,7 +644,7 @@ export default function WhyAISaysWrongThingsAboutBusiness() {
             {/* ── CTA 9: Phone ── */}
             <div className="ae-cta-inline not-prose">
               <p>Prefer to talk through your situation with a real person?</p>
-              <a href="tel:+12134442229" className="flex items-center gap-2 text-[#FF6A00] font-semibold">
+              <a href="tel:+12134442229" className="flex items-center gap-2 text-[#F27D24] font-semibold">
                 <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" /></svg>
                 Call (213) 444-2229
               </a>
@@ -644,29 +653,34 @@ export default function WhyAISaysWrongThingsAboutBusiness() {
             {/* ── CTA 10: Email ── */}
             <div className="ae-cta-inline not-prose">
               <p>Questions about AI visibility for your specific business?</p>
-              <a href="mailto:support@theanswerengine.ai" className="text-[#FF6A00] font-semibold">
+              <a href="mailto:support@theanswerengine.ai" className="text-[#F27D24] font-semibold">
                 Email support@theanswerengine.ai &rarr;
               </a>
             </div>
 
             {/* ── AUTHOR CARD ── */}
-            <div className="ae-author-card not-prose">
-              <div className="ae-author-avatar">AE</div>
+            <div className="ae-author-card">
+              <img
+                src="/justin-borges.webp"
+                alt="Justin Borges, Founder of The Answer Engine"
+                style={{ width: 64, height: 64, borderRadius: '50%', objectFit: 'cover', flexShrink: 0 }}
+              />
               <div>
-                <div className="ae-author-name">The Answer Engine Team</div>
-                <div className="ae-author-bio">We help local service businesses get found, trusted, and recommended by AI platforms like ChatGPT, Google AI Overviews, and Perplexity. Our team combines search marketing expertise with deep knowledge of how large language models source and surface business information.</div>
+                <div className="ae-author-name" style={{ fontWeight: 600 }}>Justin Borges</div>
+                <div className="ae-author-role" style={{ fontWeight: 400 }}>Founder, The Answer Engine</div>
+                <p style={{ marginTop: 8, fontSize: '0.875rem', color: 'rgba(255,255,255,0.65)', lineHeight: 1.6 }}>Justin Borges founded The Answer Engine in 2025 after 13+ years in real estate, $200M+ in production, and discovering that AI search rankings now decide who gets cited as the answer. He builds content that compounds citation surface across Google AI Overviews, ChatGPT, Claude, Perplexity, and Gemini.</p>
               </div>
             </div>
 
             {/* ── 3-TIER CTA BLOCK ── */}
-            <div className="not-prose my-16 p-8 rounded-2xl bg-gradient-to-br from-[#FF6A00]/10 to-transparent border border-[#FF6A00]/20">
+            <div className="not-prose my-16 p-8 rounded-2xl bg-gradient-to-br from-[#F27D24]/10 to-transparent border border-[#F27D24]/20">
               <h3 className="font-plus-jakarta text-2xl font-bold text-white mb-3">Is AI Giving Wrong Information About Your Business?</h3>
               <p className="text-gray-400 mb-6">Our free Blind Spot Report reveals exactly what AI platforms are saying about your business right now.</p>
-              <Link href="/blindspot" className="inline-flex items-center gap-2 bg-[#FF6A00] text-white px-6 py-3 rounded-lg font-semibold hover:bg-[#e55f00] transition-colors">
+              <Link href="/blindspot" className="inline-flex items-center gap-2 bg-[#F27D24] text-white px-6 py-3 rounded-lg font-semibold hover:bg-[#D96416] transition-colors">
                 Get Your Free Blind Spot Report
                 <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" /></svg>
               </Link>
-              <div className="flex flex-wrap items-center gap-6 mt-6 pt-6 border-t border-[#FF6A00]/10">
+              <div className="flex flex-wrap items-center gap-6 mt-6 pt-6 border-t border-[#F27D24]/10">
                 <a href="tel:+12134442229" className="flex items-center gap-2 text-gray-400 hover:text-white transition-colors">
                   <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" /></svg>
                   (213) 444-2229
@@ -701,7 +715,7 @@ export default function WhyAISaysWrongThingsAboutBusiness() {
               </div>
               <div className="ae-faq-item">
                 <h3 className="ae-faq-question">How can I check what AI is saying about my business?</h3>
-                <p className="ae-faq-answer">Search for your business name on ChatGPT, Google AI Overviews, Perplexity, and Claude. Ask specific questions like &quot;What is [business name] phone number?&quot; and &quot;What are [business name] hours?&quot; Compare every detail against your actual information. For a comprehensive audit, The Answer Engine offers a <Link href="/blindspot" className="text-[#FF6A00]">free Blind Spot Report</Link> that checks all major AI platforms at once.</p>
+                <p className="ae-faq-answer">Search for your business name on ChatGPT, Google AI Overviews, Perplexity, and Claude. Ask specific questions like &quot;What is [business name] phone number?&quot; and &quot;What are [business name] hours?&quot; Compare every detail against your actual information. For a comprehensive audit, The Answer Engine offers a <Link href="/blindspot" className="text-[#F27D24]">free Blind Spot Report</Link> that checks all major AI platforms at once.</p>
               </div>
               <div className="ae-faq-item">
                 <h3 className="ae-faq-question">Does Google Business Profile data feed into AI answers?</h3>
@@ -718,7 +732,7 @@ export default function WhyAISaysWrongThingsAboutBusiness() {
             {/* ── CTA 12: Phone after FAQ ── */}
             <div className="ae-cta-inline not-prose">
               <p>Want expert guidance on fixing AI errors for your business?</p>
-              <a href="tel:+12134442229" className="flex items-center gap-2 text-[#FF6A00] font-semibold">
+              <a href="tel:+12134442229" className="flex items-center gap-2 text-[#F27D24] font-semibold">
                 <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" /></svg>
                 Call (213) 444-2229
               </a>
@@ -727,7 +741,7 @@ export default function WhyAISaysWrongThingsAboutBusiness() {
             {/* ── CTA 13: Email ── */}
             <div className="ae-cta-inline not-prose">
               <p>Reach out for a custom AI visibility strategy.</p>
-              <a href="mailto:support@theanswerengine.ai" className="text-[#FF6A00] font-semibold">
+              <a href="mailto:support@theanswerengine.ai" className="text-[#F27D24] font-semibold">
                 Email support@theanswerengine.ai &rarr;
               </a>
             </div>
@@ -737,15 +751,15 @@ export default function WhyAISaysWrongThingsAboutBusiness() {
               <h3 className="font-plus-jakarta text-lg font-semibold text-white mb-4">Related Reading</h3>
               <ul className="space-y-3">
                 <li>
-                  <Link href="/blog/what-happens-when-ai-search-gets-business-wrong" className="text-[#FF6A00] hover:underline">What Happens to Your Business When AI Search Gets It Wrong</Link>
+                  <Link href="/blog/what-happens-when-ai-search-gets-business-wrong" className="text-[#F27D24] hover:underline">What Happens to Your Business When AI Search Gets It Wrong</Link>
                   <p className="text-sm text-gray-500 mt-1">The consequences of AI errors: lost revenue, reputation damage, and silent customer loss.</p>
                 </li>
                 <li>
-                  <Link href="/blog/chatgpt-cant-see-google-business-profile" className="text-[#FF6A00] hover:underline">ChatGPT Can&apos;t See Your Google Business Profile</Link>
+                  <Link href="/blog/chatgpt-cant-see-google-business-profile" className="text-[#F27D24] hover:underline">ChatGPT Can&apos;t See Your Google Business Profile</Link>
                   <p className="text-sm text-gray-500 mt-1">Why your GBP investment is invisible to the most popular AI assistant.</p>
                 </li>
                 <li>
-                  <Link href="/blog/directory-listings-that-help-ai-find-business" className="text-[#FF6A00] hover:underline">Directory Listings That Help AI Find Your Business</Link>
+                  <Link href="/blog/directory-listings-that-help-ai-find-business" className="text-[#F27D24] hover:underline">Directory Listings That Help AI Find Your Business</Link>
                   <p className="text-sm text-gray-500 mt-1">Which directories actually feed AI training data and which ones do not matter.</p>
                 </li>
               </ul>
@@ -755,7 +769,7 @@ export default function WhyAISaysWrongThingsAboutBusiness() {
             <div className="ae-cta-block not-prose">
               <h3 className="font-plus-jakarta text-xl font-bold text-white mb-2">Take Control of Your AI Presence</h3>
               <p className="text-gray-400 mb-4">Your competitors may already be optimizing for AI search. Do not let incorrect information hold your business back.</p>
-              <Link href="/blindspot" className="inline-flex items-center gap-2 bg-[#FF6A00] text-white px-6 py-3 rounded-lg font-semibold hover:bg-[#e55f00] transition-colors">
+              <Link href="/blindspot" className="inline-flex items-center gap-2 bg-[#F27D24] text-white px-6 py-3 rounded-lg font-semibold hover:bg-[#D96416] transition-colors">
                 Get Your Free Blind Spot Report
                 <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" /></svg>
               </Link>

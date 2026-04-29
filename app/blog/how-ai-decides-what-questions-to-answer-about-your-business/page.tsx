@@ -17,7 +17,7 @@ export const metadata: Metadata = {
     type: 'article',
     publishedTime: '2026-04-14',
     modifiedTime: '2026-04-14',
-    authors: ['The Answer Engine Team'],
+    authors: ['https://theanswerengine.ai/about'],
     url: 'https://theanswerengine.ai/blog/how-ai-decides-what-questions-to-answer-about-your-business',
     images: [
       {
@@ -72,8 +72,18 @@ function ComprehensiveSchema() {
           "height": 630
         },
         "author": {
-          "@type": "Organization",
-          "@id": "https://theanswerengine.ai/#organization"
+          "@type": "Person",
+          "@id": "https://theanswerengine.ai/about#justin-borges",
+          "name": "Justin Borges",
+          "jobTitle": "Founder, The Answer Engine",
+          "worksFor": {
+            "@type": "Organization",
+            "name": "The Answer Engine",
+            "url": "https://theanswerengine.ai"
+          },
+          "knowsAbout": ["Answer Engine Optimization", "AI Search", "Content Strategy", "Real Estate Marketing", "Citation Surface"],
+          "url": "https://theanswerengine.ai/about",
+          "image": "https://theanswerengine.ai/justin-borges.webp"
         },
         "publisher": {
           "@type": "Organization",
@@ -227,7 +237,7 @@ export default function HowAIDecideswhatQuestionsToAnswer() {
           {/* Header */}
           <header className="mb-12">
             <div className="inline-flex items-center gap-2 px-4 py-2 rounded-xl mb-6 bg-white/[0.04] border border-white/[0.08]">
-              <span className="text-sm font-semibold tracking-wider uppercase text-[#FF6A00]">AEO Education</span>
+              <span className="text-sm font-semibold tracking-wider uppercase text-[#F27D24]">AEO Education</span>
             </div>
 
             <h1 className="text-3xl sm:text-4xl lg:text-5xl font-semibold mb-6 text-white leading-tight font-plus-jakarta">
@@ -267,13 +277,13 @@ export default function HowAIDecideswhatQuestionsToAnswer() {
                 <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={2}>
                   <path strokeLinecap="round" strokeLinejoin="round" d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z" />
                 </svg>
-                <span>By The Answer Engine Team</span>
+                <span>By Justin Borges</span>
               </div>
             </div>
           </header>
 
           {/* Main Content */}
-          <div className="prose prose-invert prose-lg max-w-none prose-headings:font-plus-jakarta prose-headings:text-white prose-p:text-gray-300 prose-a:text-[#FF6A00] prose-a:no-underline hover:prose-a:underline prose-strong:text-white">
+          <div className="prose prose-invert prose-lg max-w-none prose-headings:font-plus-jakarta prose-headings:text-white prose-p:text-gray-300 prose-a:text-[#F27D24] prose-a:no-underline hover:prose-a:underline prose-strong:text-white">
 
             {/* STATS GRID */}
             <div className="ae-stats-grid not-prose">
@@ -541,46 +551,46 @@ export default function HowAIDecideswhatQuestionsToAnswer() {
                 <div>
                   <div className="flex justify-between text-sm text-gray-400 mb-1">
                     <span>Brand-Managed Sources (website, listings, profiles)</span>
-                    <span className="text-[#FF6A00] font-semibold">86%</span>
+                    <span className="text-[#F27D24] font-semibold">86%</span>
                   </div>
                   <div className="h-3 bg-white/[0.06] rounded-full overflow-hidden">
-                    <div className="h-full bg-gradient-to-r from-[#FF6A00] to-[#FF8C38] rounded-full" style={{ width: '86%' }}></div>
+                    <div className="h-full bg-gradient-to-r from-[#F27D24] to-[#FF8C38] rounded-full" style={{ width: '86%' }}></div>
                   </div>
                 </div>
                 <div>
                   <div className="flex justify-between text-sm text-gray-400 mb-1">
                     <span>Third-Party Directories (Yelp, BBB, industry directories)</span>
-                    <span className="text-[#FF6A00] font-semibold">72%</span>
+                    <span className="text-[#F27D24] font-semibold">72%</span>
                   </div>
                   <div className="h-3 bg-white/[0.06] rounded-full overflow-hidden">
-                    <div className="h-full bg-gradient-to-r from-[#FF6A00] to-[#FF8C38] rounded-full" style={{ width: '72%' }}></div>
+                    <div className="h-full bg-gradient-to-r from-[#F27D24] to-[#FF8C38] rounded-full" style={{ width: '72%' }}></div>
                   </div>
                 </div>
                 <div>
                   <div className="flex justify-between text-sm text-gray-400 mb-1">
                     <span>Review Platforms (Google, Yelp, Trustpilot)</span>
-                    <span className="text-[#FF6A00] font-semibold">61%</span>
+                    <span className="text-[#F27D24] font-semibold">61%</span>
                   </div>
                   <div className="h-3 bg-white/[0.06] rounded-full overflow-hidden">
-                    <div className="h-full bg-gradient-to-r from-[#FF6A00] to-[#FF8C38] rounded-full" style={{ width: '61%' }}></div>
+                    <div className="h-full bg-gradient-to-r from-[#F27D24] to-[#FF8C38] rounded-full" style={{ width: '61%' }}></div>
                   </div>
                 </div>
                 <div>
                   <div className="flex justify-between text-sm text-gray-400 mb-1">
                     <span>Editorial / News Coverage</span>
-                    <span className="text-[#FF6A00] font-semibold">48%</span>
+                    <span className="text-[#F27D24] font-semibold">48%</span>
                   </div>
                   <div className="h-3 bg-white/[0.06] rounded-full overflow-hidden">
-                    <div className="h-full bg-gradient-to-r from-[#FF6A00] to-[#FF8C38] rounded-full" style={{ width: '48%' }}></div>
+                    <div className="h-full bg-gradient-to-r from-[#F27D24] to-[#FF8C38] rounded-full" style={{ width: '48%' }}></div>
                   </div>
                 </div>
                 <div>
                   <div className="flex justify-between text-sm text-gray-400 mb-1">
                     <span>Social Media Profiles (Facebook, LinkedIn)</span>
-                    <span className="text-[#FF6A00] font-semibold">34%</span>
+                    <span className="text-[#F27D24] font-semibold">34%</span>
                   </div>
                   <div className="h-3 bg-white/[0.06] rounded-full overflow-hidden">
-                    <div className="h-full bg-gradient-to-r from-[#FF6A00] to-[#FF8C38] rounded-full" style={{ width: '34%' }}></div>
+                    <div className="h-full bg-gradient-to-r from-[#F27D24] to-[#FF8C38] rounded-full" style={{ width: '34%' }}></div>
                   </div>
                 </div>
               </div>
@@ -791,16 +801,16 @@ export default function HowAIDecideswhatQuestionsToAnswer() {
             </div>
 
             {/* AUTHOR CARD */}
-            <div className="ae-author-card not-prose">
-              <div className="ae-author-avatar">AE</div>
-              <div className="ae-author-info">
-                <div className="ae-author-name">The Answer Engine Team</div>
-                <p className="text-gray-300 leading-relaxed text-sm">The Answer Engine specializes in AEO for local service businesses. We position companies to be cited by Google AI Overviews, ChatGPT, Claude, Perplexity, and other AI platforms, making them the trusted expert AI recommends in their market.</p>
-                <div className="flex flex-wrap gap-4 mt-3 text-sm">
-                  <span className="text-gray-500">3+ years specialized AEO experience</span>
-                  <span className="text-gray-500">50+ local business implementations</span>
-                  <span className="text-gray-500">500+ schema deployments</span>
-                </div>
+            <div className="ae-author-card">
+              <img
+                src="/justin-borges.webp"
+                alt="Justin Borges, Founder of The Answer Engine"
+                style={{ width: 64, height: 64, borderRadius: '50%', objectFit: 'cover', flexShrink: 0 }}
+              />
+              <div>
+                <div className="ae-author-name" style={{ fontWeight: 600 }}>Justin Borges</div>
+                <div className="ae-author-role" style={{ fontWeight: 400 }}>Founder, The Answer Engine</div>
+                <p style={{ marginTop: 8, fontSize: '0.875rem', color: 'rgba(255,255,255,0.65)', lineHeight: 1.6 }}>Justin Borges founded The Answer Engine in 2025 after 13+ years in real estate, $200M+ in production, and discovering that AI search rankings now decide who gets cited as the answer. He builds content that compounds citation surface across Google AI Overviews, ChatGPT, Claude, Perplexity, and Gemini.</p>
               </div>
             </div>
 
@@ -811,14 +821,14 @@ export default function HowAIDecideswhatQuestionsToAnswer() {
             </div>
 
             {/* 3-TIER CTA BLOCK */}
-            <div className="not-prose my-16 p-8 rounded-2xl bg-gradient-to-br from-[#FF6A00]/10 to-transparent border border-[#FF6A00]/20">
+            <div className="not-prose my-16 p-8 rounded-2xl bg-gradient-to-br from-[#F27D24]/10 to-transparent border border-[#F27D24]/20">
               <h3 className="font-plus-jakarta text-2xl font-bold text-white mb-3">Is Your Business Passing AI&apos;s Entity Check?</h3>
               <p className="text-gray-400 mb-6">Most businesses are invisible to AI not because their service is bad, but because their data structure is incomplete. Find out where you stand with a free Blind Spot Report.</p>
-              <Link href="/blindspot" className="inline-flex items-center gap-2 bg-[#FF6A00] text-white px-6 py-3 rounded-lg font-semibold hover:bg-[#e55f00] transition-colors">
+              <Link href="/blindspot" className="inline-flex items-center gap-2 bg-[#F27D24] text-white px-6 py-3 rounded-lg font-semibold hover:bg-[#D96416] transition-colors">
                 Get Your Free Blind Spot Report
                 <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" /></svg>
               </Link>
-              <div className="flex flex-wrap items-center gap-6 mt-6 pt-6 border-t border-[#FF6A00]/10">
+              <div className="flex flex-wrap items-center gap-6 mt-6 pt-6 border-t border-[#F27D24]/10">
                 <a href="tel:+12134442229" className="flex items-center gap-2 text-gray-400 hover:text-white transition-colors">
                   <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" /></svg>
                   (213) 444-2229
@@ -841,7 +851,7 @@ export default function HowAIDecideswhatQuestionsToAnswer() {
               <h3>AI Is Answering Questions About Your Market Right Now</h3>
               <p>Every hour someone asks an AI assistant about a service in your area, that AI is deciding whether to mention you or your competitor. The decision is based on entity signals you can control. The question is whether you are going to control them.</p>
               <Link href="/blindspot" className="ae-final-cta-pulse">Get Your Free Blind Spot Report &rarr;</Link>
-              <div className="flex flex-wrap items-center justify-center gap-6 mt-6 pt-6 border-t border-[#FF6A00]/10">
+              <div className="flex flex-wrap items-center justify-center gap-6 mt-6 pt-6 border-t border-[#F27D24]/10">
                 <a href="tel:+12134442229" className="flex items-center gap-2 text-gray-400 hover:text-white transition-colors">
                   <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" /></svg>
                   (213) 444-2229

@@ -33,7 +33,7 @@ export const metadata: Metadata = {
     description,
     type: 'article',
     publishedTime: publishDate,
-    authors: ['The Answer Engine Team'],
+    authors: ['https://theanswerengine.ai/about'],
     url: `https://theanswerengine.ai/blog/${slug}`,
     images: [{ url: `https://theanswerengine.ai/blog/${slug}.webp`, width: 1200, height: 630, alt: title }],
   },
@@ -57,9 +57,18 @@ const jsonLd = {
       datePublished: publishDate,
       dateModified: publishDate,
       author: {
-        '@type': 'Organization',
-        name: 'The Answer Engine',
-        url: 'https://theanswerengine.ai',
+        '@type': 'Person',
+        '@id': 'https://theanswerengine.ai/about#justin-borges',
+        name: 'Justin Borges',
+        jobTitle: 'Founder, The Answer Engine',
+        worksFor: {
+          '@type': 'Organization',
+          name: 'The Answer Engine',
+          url: 'https://theanswerengine.ai',
+        },
+        knowsAbout: ['Answer Engine Optimization', 'AI Search', 'Content Strategy', 'Real Estate Marketing', 'Citation Surface'],
+        url: 'https://theanswerengine.ai/about',
+        image: 'https://theanswerengine.ai/justin-borges.webp',
       },
       publisher: {
         '@type': 'Organization',
@@ -193,8 +202,8 @@ export default function Page() {
                 <stop offset="100%" stopColor="#0F1117" />
               </radialGradient>
               <radialGradient id="insp-glow" cx="38%" cy="55%" r="48%">
-                <stop offset="0%" stopColor="#FF6A00" stopOpacity="0.13" />
-                <stop offset="100%" stopColor="#FF6A00" stopOpacity="0" />
+                <stop offset="0%" stopColor="#F27D24" stopOpacity="0.13" />
+                <stop offset="100%" stopColor="#F27D24" stopOpacity="0" />
               </radialGradient>
             </defs>
             <rect width="1200" height="400" fill="url(#insp-bg)" />
@@ -202,32 +211,32 @@ export default function Page() {
 
             {/* House cross-section outline */}
             {/* Roof */}
-            <polygon points="280,60 420,160 560,160 560,160 420,60" fill="none" stroke="#FF6A00" strokeWidth="2" strokeOpacity="0.5" strokeLinejoin="round" />
+            <polygon points="280,60 420,160 560,160 560,160 420,60" fill="none" stroke="#F27D24" strokeWidth="2" strokeOpacity="0.5" strokeLinejoin="round" />
             {/* Left wall */}
-            <line x1="280" y1="160" x2="280" y2="310" stroke="#FF6A00" strokeWidth="2" strokeOpacity="0.4" />
+            <line x1="280" y1="160" x2="280" y2="310" stroke="#F27D24" strokeWidth="2" strokeOpacity="0.4" />
             {/* Right wall */}
-            <line x1="560" y1="160" x2="560" y2="310" stroke="#FF6A00" strokeWidth="2" strokeOpacity="0.4" />
+            <line x1="560" y1="160" x2="560" y2="310" stroke="#F27D24" strokeWidth="2" strokeOpacity="0.4" />
             {/* Floor */}
-            <line x1="270" y1="310" x2="570" y2="310" stroke="#FF6A00" strokeWidth="2" strokeOpacity="0.4" />
+            <line x1="270" y1="310" x2="570" y2="310" stroke="#F27D24" strokeWidth="2" strokeOpacity="0.4" />
             {/* Roof peak */}
-            <polygon points="280,160 420,60 560,160" fill="#FF6A00" fillOpacity="0.05" strokeLinejoin="round" />
+            <polygon points="280,160 420,60 560,160" fill="#F27D24" fillOpacity="0.05" strokeLinejoin="round" />
             {/* House interior fill */}
-            <rect x="280" y="160" width="280" height="150" fill="#FF6A00" fillOpacity="0.03" />
+            <rect x="280" y="160" width="280" height="150" fill="#F27D24" fillOpacity="0.03" />
             {/* Door */}
-            <rect x="390" y="245" width="60" height="65" rx="2" fill="none" stroke="#FF6A00" strokeWidth="1.5" strokeOpacity="0.35" />
+            <rect x="390" y="245" width="60" height="65" rx="2" fill="none" stroke="#F27D24" strokeWidth="1.5" strokeOpacity="0.35" />
             {/* Window left */}
-            <rect x="305" y="195" width="55" height="45" rx="2" fill="none" stroke="#FF6A00" strokeWidth="1.5" strokeOpacity="0.35" />
-            <line x1="332" y1="195" x2="332" y2="240" stroke="#FF6A00" strokeWidth="1" strokeOpacity="0.2" />
-            <line x1="305" y1="217" x2="360" y2="217" stroke="#FF6A00" strokeWidth="1" strokeOpacity="0.2" />
+            <rect x="305" y="195" width="55" height="45" rx="2" fill="none" stroke="#F27D24" strokeWidth="1.5" strokeOpacity="0.35" />
+            <line x1="332" y1="195" x2="332" y2="240" stroke="#F27D24" strokeWidth="1" strokeOpacity="0.2" />
+            <line x1="305" y1="217" x2="360" y2="217" stroke="#F27D24" strokeWidth="1" strokeOpacity="0.2" />
             {/* Window right */}
-            <rect x="480" y="195" width="55" height="45" rx="2" fill="none" stroke="#FF6A00" strokeWidth="1.5" strokeOpacity="0.35" />
-            <line x1="507" y1="195" x2="507" y2="240" stroke="#FF6A00" strokeWidth="1" strokeOpacity="0.2" />
-            <line x1="480" y1="217" x2="535" y2="217" stroke="#FF6A00" strokeWidth="1" strokeOpacity="0.2" />
+            <rect x="480" y="195" width="55" height="45" rx="2" fill="none" stroke="#F27D24" strokeWidth="1.5" strokeOpacity="0.35" />
+            <line x1="507" y1="195" x2="507" y2="240" stroke="#F27D24" strokeWidth="1" strokeOpacity="0.2" />
+            <line x1="480" y1="217" x2="535" y2="217" stroke="#F27D24" strokeWidth="1" strokeOpacity="0.2" />
 
             {/* Checklist panel left of house */}
-            <rect x="90" y="130" width="160" height="145" rx="10" fill="#1e2235" stroke="#FF6A00" strokeWidth="1" strokeOpacity="0.2" />
-            <text x="108" y="157" fill="#FF6A00" fontSize="10" fontFamily="monospace" opacity="0.8">Inspection Report</text>
-            <line x1="108" y1="165" x2="232" y2="165" stroke="#FF6A00" strokeWidth="0.5" strokeOpacity="0.2" />
+            <rect x="90" y="130" width="160" height="145" rx="10" fill="#1e2235" stroke="#F27D24" strokeWidth="1" strokeOpacity="0.2" />
+            <text x="108" y="157" fill="#F27D24" fontSize="10" fontFamily="monospace" opacity="0.8">Inspection Report</text>
+            <line x1="108" y1="165" x2="232" y2="165" stroke="#F27D24" strokeWidth="0.5" strokeOpacity="0.2" />
             {/* Check items */}
             <text x="112" y="184" fill="#4ade80" fontSize="11" fontFamily="monospace">&#10003;</text>
             <text x="126" y="184" fill="#ccc" fontSize="10" fontFamily="monospace">Foundation</text>
@@ -237,27 +246,27 @@ export default function Page() {
             <text x="126" y="220" fill="#ccc" fontSize="10" fontFamily="monospace">Electrical</text>
             <text x="112" y="238" fill="#4ade80" fontSize="11" fontFamily="monospace">&#10003;</text>
             <text x="126" y="238" fill="#ccc" fontSize="10" fontFamily="monospace">HVAC / Plumbing</text>
-            <text x="112" y="256" fill="#FF6A00" fontSize="11" fontFamily="monospace">&#9675;</text>
+            <text x="112" y="256" fill="#F27D24" fontSize="11" fontFamily="monospace">&#9675;</text>
             <text x="126" y="256" fill="#777" fontSize="10" fontFamily="monospace">Sewer Scope</text>
 
             {/* Arrow from checklist to AI panel */}
-            <path d="M252,202 Q290,202 310,202" stroke="#FF6A00" strokeWidth="1.5" strokeDasharray="4,3" fill="none" strokeOpacity="0.4" />
-            <polygon points="308,198 316,202 308,206" fill="#FF6A00" fillOpacity="0.4" />
+            <path d="M252,202 Q290,202 310,202" stroke="#F27D24" strokeWidth="1.5" strokeDasharray="4,3" fill="none" strokeOpacity="0.4" />
+            <polygon points="308,198 316,202 308,206" fill="#F27D24" fillOpacity="0.4" />
 
             {/* Connection dashes from house to AI panel */}
-            <path d="M565,200 Q590,200 610,200" stroke="#FF6A00" strokeWidth="1.5" strokeDasharray="4,3" fill="none" strokeOpacity="0.4" />
-            <polygon points="608,196 616,200 608,204" fill="#FF6A00" fillOpacity="0.4" />
+            <path d="M565,200 Q590,200 610,200" stroke="#F27D24" strokeWidth="1.5" strokeDasharray="4,3" fill="none" strokeOpacity="0.4" />
+            <polygon points="608,196 616,200 608,204" fill="#F27D24" fillOpacity="0.4" />
 
             {/* AI response panel */}
-            <rect x="625" y="110" width="360" height="185" rx="16" fill="#1e2235" stroke="#FF6A00" strokeWidth="1" strokeOpacity="0.25" />
-            <text x="645" y="145" fill="#FF6A00" fontSize="12" fontFamily="monospace" opacity="0.9">AI Response</text>
-            <line x1="645" y1="154" x2="965" y2="154" stroke="#FF6A00" strokeWidth="0.5" strokeOpacity="0.25" />
+            <rect x="625" y="110" width="360" height="185" rx="16" fill="#1e2235" stroke="#F27D24" strokeWidth="1" strokeOpacity="0.25" />
+            <text x="645" y="145" fill="#F27D24" fontSize="12" fontFamily="monospace" opacity="0.9">AI Response</text>
+            <line x1="645" y1="154" x2="965" y2="154" stroke="#F27D24" strokeWidth="0.5" strokeOpacity="0.25" />
 
             {/* AI query */}
             <text x="645" y="177" fill="#888" fontSize="11" fontFamily="monospace">"ASHI certified inspector near me"</text>
 
             {/* Results */}
-            <circle cx="654" cy="202" r="5" fill="#FF6A00" opacity="0.9" />
+            <circle cx="654" cy="202" r="5" fill="#F27D24" opacity="0.9" />
             <text x="667" y="206" fill="#e0e0e0" fontSize="12" fontFamily="monospace" fontWeight="bold">Precision Home Inspect.</text>
             <text x="667" y="221" fill="#666" fontSize="10" fontFamily="monospace">ASHI cert, same-day report, thermal</text>
 
@@ -269,10 +278,10 @@ export default function Page() {
             <text x="667" y="286" fill="#3a3a3a" fontSize="12" fontFamily="monospace">Generic Inspector</text>
 
             {/* Platform labels */}
-            <text x="646" y="320" fill="#FF6A00" fontSize="10" fontFamily="monospace" opacity="0.5">ChatGPT</text>
-            <text x="712" y="320" fill="#FF6A00" fontSize="10" fontFamily="monospace" opacity="0.5">Gemini</text>
-            <text x="772" y="320" fill="#FF6A00" fontSize="10" fontFamily="monospace" opacity="0.5">Claude</text>
-            <text x="827" y="320" fill="#FF6A00" fontSize="10" fontFamily="monospace" opacity="0.5">Perplexity</text>
+            <text x="646" y="320" fill="#F27D24" fontSize="10" fontFamily="monospace" opacity="0.5">ChatGPT</text>
+            <text x="712" y="320" fill="#F27D24" fontSize="10" fontFamily="monospace" opacity="0.5">Gemini</text>
+            <text x="772" y="320" fill="#F27D24" fontSize="10" fontFamily="monospace" opacity="0.5">Claude</text>
+            <text x="827" y="320" fill="#F27D24" fontSize="10" fontFamily="monospace" opacity="0.5">Perplexity</text>
           </svg>
         </div>
 
@@ -321,7 +330,7 @@ export default function Page() {
         </div>
 
         <div className="ae-cta-inline not-prose">
-          <p>Not sure whether ChatGPT even knows your inspection business exists? <Link href="/blindspot" className="text-[#FF6A00] hover:underline font-semibold">Get a free Blind Spot Report</Link> and find out in minutes.</p>
+          <p>Not sure whether ChatGPT even knows your inspection business exists? <Link href="/blindspot" className="text-[#F27D24] hover:underline font-semibold">Get a free Blind Spot Report</Link> and find out in minutes.</p>
         </div>
 
         <h2 id="how-ai-finds-inspectors">How AI Finds Home Inspectors in Your Area</h2>
@@ -375,7 +384,7 @@ export default function Page() {
         </div>
 
         <div className="ae-cta-inline not-prose">
-          <p>Not sure if your certification appears correctly in AI search results? <Link href="/blindspot" className="text-[#FF6A00] hover:underline font-semibold">Get your free Blind Spot Report</Link> and see exactly what AI sees when it looks up inspectors in your area.</p>
+          <p>Not sure if your certification appears correctly in AI search results? <Link href="/blindspot" className="text-[#F27D24] hover:underline font-semibold">Get your free Blind Spot Report</Link> and see exactly what AI sees when it looks up inspectors in your area.</p>
         </div>
 
         <h2 id="specialty-queries">Specialty Inspection Queries That AI Handles Differently</h2>
@@ -557,7 +566,7 @@ export default function Page() {
         </div>
 
         <div className="ae-cta-inline not-prose">
-          <p>Wondering how your report delivery timeline appears to AI platforms? <Link href="/blindspot" className="text-[#FF6A00] hover:underline font-semibold">Get your free Blind Spot Report</Link> and see exactly what gaps are making you invisible.</p>
+          <p>Wondering how your report delivery timeline appears to AI platforms? <Link href="/blindspot" className="text-[#F27D24] hover:underline font-semibold">Get your free Blind Spot Report</Link> and see exactly what gaps are making you invisible.</p>
         </div>
 
         <h2 id="breaking-referral-dependency">Breaking the Agent-Referral Dependency</h2>
@@ -651,18 +660,18 @@ export default function Page() {
 
         <div className="ae-callout ae-callout-info not-prose">
           <div className="ae-callout-title">Related Reading</div>
-          <p>Home inspection is part of a broader pattern in professional service AI visibility. See <Link href="/blog/how-electricians-get-found-on-ai-search" className="text-[#FF6A00] hover:underline">how electricians get found on AI search</Link> for cross-trade patterns, and <Link href="/blog/aeo-vs-seo" className="text-[#FF6A00] hover:underline">AEO vs SEO: What is the difference</Link> for the foundational framework behind everything in this guide.</p>
+          <p>Home inspection is part of a broader pattern in professional service AI visibility. See <Link href="/blog/how-electricians-get-found-on-ai-search" className="text-[#F27D24] hover:underline">how electricians get found on AI search</Link> for cross-trade patterns, and <Link href="/blog/aeo-vs-seo" className="text-[#F27D24] hover:underline">AEO vs SEO: What is the difference</Link> for the foundational framework behind everything in this guide.</p>
         </div>
 
         {/* 3-tier CTA block */}
-        <div className="not-prose my-16 p-8 rounded-2xl bg-gradient-to-br from-[#FF6A00]/10 to-transparent border border-[#FF6A00]/20">
+        <div className="not-prose my-16 p-8 rounded-2xl bg-gradient-to-br from-[#F27D24]/10 to-transparent border border-[#F27D24]/20">
           <h3 className="font-plus-jakarta text-2xl font-bold text-white mb-3">Find Out Whether AI Is Recommending Other Inspectors Instead of You</h3>
           <p className="text-gray-400 mb-6">Our free Blind Spot Report shows exactly what ChatGPT, Gemini, and Claude know about your inspection business, which signals are missing, and what structural changes would move you into AI recommendations in your service area.</p>
-          <Link href="/blindspot" className="inline-flex items-center gap-2 bg-[#FF6A00] text-white px-6 py-3 rounded-lg font-semibold hover:bg-[#e55f00] transition-colors">
+          <Link href="/blindspot" className="inline-flex items-center gap-2 bg-[#F27D24] text-white px-6 py-3 rounded-lg font-semibold hover:bg-[#D96416] transition-colors">
             Get Your Free Blind Spot Report
             <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" /></svg>
           </Link>
-          <div className="flex flex-wrap items-center gap-6 mt-6 pt-6 border-t border-[#FF6A00]/10">
+          <div className="flex flex-wrap items-center gap-6 mt-6 pt-6 border-t border-[#F27D24]/10">
             <a href="tel:+12134442229" className="flex items-center gap-2 text-gray-400 hover:text-white transition-colors">
               <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" /></svg>
               (213) 444-2229
@@ -675,13 +684,18 @@ export default function Page() {
         </div>
 
         {/* Author card */}
-        <div className="ae-author-card not-prose">
-          <div className="ae-author-avatar">AE</div>
-          <div>
-            <div className="font-semibold text-white">The Answer Engine Team</div>
-            <div className="text-sm text-gray-400">AI visibility specialists helping local service businesses get found, trusted, and recommended by ChatGPT, Gemini, Claude, and Perplexity.</div>
-          </div>
-        </div>
+        <div className="ae-author-card">
+              <img
+                src="/justin-borges.webp"
+                alt="Justin Borges, Founder of The Answer Engine"
+                style={{ width: 64, height: 64, borderRadius: '50%', objectFit: 'cover', flexShrink: 0 }}
+              />
+              <div>
+                <div className="ae-author-name" style={{ fontWeight: 600 }}>Justin Borges</div>
+                <div className="ae-author-role" style={{ fontWeight: 400 }}>Founder, The Answer Engine</div>
+                <p style={{ marginTop: 8, fontSize: '0.875rem', color: 'rgba(255,255,255,0.65)', lineHeight: 1.6 }}>Justin Borges founded The Answer Engine in 2025 after 13+ years in real estate, $200M+ in production, and discovering that AI search rankings now decide who gets cited as the answer. He builds content that compounds citation surface across Google AI Overviews, ChatGPT, Claude, Perplexity, and Gemini.</p>
+              </div>
+            </div>
 
         {/* FAQ */}
         <h2 id="faq">Frequently Asked Questions</h2>
@@ -732,7 +746,7 @@ export default function Page() {
         <div className="ae-final-cta not-prose">
           <h2 className="font-plus-jakarta text-3xl font-bold text-white mb-4">The Next Booked Inspection Could Be Yours</h2>
           <p className="text-gray-300 mb-8 text-lg">Every AI-referred inspection job that goes to a competitor is a call you did not get. Our free Blind Spot Report shows exactly what ChatGPT, Gemini, and Claude see when someone searches for a home inspector in your area, which signals are missing, and what structural changes would put your business in the recommendation before the next buyer goes under contract.</p>
-          <Link href="/blindspot" className="inline-flex items-center gap-2 bg-[#FF6A00] text-white px-8 py-4 rounded-xl font-bold text-lg hover:bg-[#e55f00] transition-colors ae-pulse-glow">
+          <Link href="/blindspot" className="inline-flex items-center gap-2 bg-[#F27D24] text-white px-8 py-4 rounded-xl font-bold text-lg hover:bg-[#D96416] transition-colors ae-pulse-glow">
             Get Your Free Blind Spot Report
             <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" /></svg>
           </Link>

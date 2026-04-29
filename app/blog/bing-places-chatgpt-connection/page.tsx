@@ -38,8 +38,17 @@ function ComprehensiveSchema() {
         "dateModified": "2025-12-17",
         "author": {
           "@type": "Person",
-          "name": "JB",
-          "url": "https://theanswerengine.ai/about"
+          "@id": "https://theanswerengine.ai/about#justin-borges",
+          "name": "Justin Borges",
+          "jobTitle": "Founder, The Answer Engine",
+          "worksFor": {
+            "@type": "Organization",
+            "name": "The Answer Engine",
+            "url": "https://theanswerengine.ai"
+          },
+          "knowsAbout": ["Answer Engine Optimization", "AI Search", "Content Strategy", "Real Estate Marketing", "Citation Surface"],
+          "url": "https://theanswerengine.ai/about",
+          "image": "https://theanswerengine.ai/justin-borges.webp"
         },
         "publisher": {
           "@type": "Organization",
@@ -227,22 +236,22 @@ export default function BingPlacesChatGPTConnection() {
             style={{ background: 'linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%)' }}
           >
             <svg className="absolute inset-0 w-full h-full opacity-10" viewBox="0 0 800 400" fill="none" aria-hidden="true">
-              <circle cx="200" cy="200" r="180" stroke="#FF6A00" strokeWidth="0.5" />
-              <circle cx="200" cy="200" r="120" stroke="#FF6A00" strokeWidth="0.5" />
-              <circle cx="200" cy="200" r="60" stroke="#FF6A00" strokeWidth="0.5" />
-              <rect x="450" y="50" width="120" height="120" stroke="#FF6A00" strokeWidth="0.4" fill="none" />
-              <rect x="480" y="80" width="60" height="60" stroke="#FF6A00" strokeWidth="0.4" fill="none" />
-              <line x1="0" y1="150" x2="800" y2="150" stroke="#FF6A00" strokeWidth="0.3" />
-              <line x1="0" y1="250" x2="800" y2="250" stroke="#FF6A00" strokeWidth="0.3" />
-              <line x1="300" y1="0" x2="300" y2="400" stroke="#FF6A00" strokeWidth="0.3" />
-              <line x1="600" y1="0" x2="600" y2="400" stroke="#FF6A00" strokeWidth="0.3" />
-              <polygon points="550,300 650,180 750,300" stroke="#FF6A00" strokeWidth="0.5" fill="none" />
-              <circle cx="650" cy="320" r="40" stroke="#FF6A00" strokeWidth="0.4" />
+              <circle cx="200" cy="200" r="180" stroke="#F27D24" strokeWidth="0.5" />
+              <circle cx="200" cy="200" r="120" stroke="#F27D24" strokeWidth="0.5" />
+              <circle cx="200" cy="200" r="60" stroke="#F27D24" strokeWidth="0.5" />
+              <rect x="450" y="50" width="120" height="120" stroke="#F27D24" strokeWidth="0.4" fill="none" />
+              <rect x="480" y="80" width="60" height="60" stroke="#F27D24" strokeWidth="0.4" fill="none" />
+              <line x1="0" y1="150" x2="800" y2="150" stroke="#F27D24" strokeWidth="0.3" />
+              <line x1="0" y1="250" x2="800" y2="250" stroke="#F27D24" strokeWidth="0.3" />
+              <line x1="300" y1="0" x2="300" y2="400" stroke="#F27D24" strokeWidth="0.3" />
+              <line x1="600" y1="0" x2="600" y2="400" stroke="#F27D24" strokeWidth="0.3" />
+              <polygon points="550,300 650,180 750,300" stroke="#F27D24" strokeWidth="0.5" fill="none" />
+              <circle cx="650" cy="320" r="40" stroke="#F27D24" strokeWidth="0.4" />
             </svg>
             <div className="relative px-8 py-16 sm:px-12 sm:py-20">
               <p className="text-sm font-medium text-orange-400 mb-4">AI Visibility</p>
               <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-white leading-tight mb-6 font-plus-jakarta">
-                Why Bing Places Matters More Than You Think <span className="text-[#FF6A00]">(The ChatGPT Connection)</span>
+                Why Bing Places Matters More Than You Think <span className="text-[#F27D24]">(The ChatGPT Connection)</span>
               </h1>
               <div className="flex items-center gap-4 text-sm text-gray-400">
                 <span>December 17, 2025</span>
@@ -279,7 +288,7 @@ export default function BingPlacesChatGPTConnection() {
           </div>
 
           {/* Article Body */}
-          <article className="prose prose-invert prose-lg max-w-none prose-headings:font-plus-jakarta prose-headings:text-white prose-p:text-gray-300 prose-a:text-[#FF6A00] prose-a:no-underline hover:prose-a:underline prose-strong:text-white">
+          <article className="prose prose-invert prose-lg max-w-none prose-headings:font-plus-jakarta prose-headings:text-white prose-p:text-gray-300 prose-a:text-[#F27D24] prose-a:no-underline hover:prose-a:underline prose-strong:text-white">
 
             {/* Intro */}
             <p className="text-xl text-gray-300 leading-relaxed mb-10">
@@ -813,19 +822,19 @@ export default function BingPlacesChatGPTConnection() {
             </h2>
 
             <div className="not-prose grid sm:grid-cols-2 gap-4 mb-12">
-              <Link href="/blog/do-google-reviews-affect-ai-recommendations" className="ae-stat-card hover:border-[#FF6A00]/30 transition-colors">
+              <Link href="/blog/do-google-reviews-affect-ai-recommendations" className="ae-stat-card hover:border-[#F27D24]/30 transition-colors">
                 <div className="ae-stat-emoji">Reviews</div>
                 <div className="ae-stat-label">Do Google Reviews Affect AI Recommendations?</div>
               </Link>
-              <Link href="/blog/check-if-ai-recommends-your-business" className="ae-stat-card hover:border-[#FF6A00]/30 transition-colors">
+              <Link href="/blog/check-if-ai-recommends-your-business" className="ae-stat-card hover:border-[#F27D24]/30 transition-colors">
                 <div className="ae-stat-emoji">DIY</div>
                 <div className="ae-stat-label">How to Check If AI Recommends Your Business</div>
               </Link>
-              <Link href="/blog/why-chatgpt-isnt-recommending-your-business" className="ae-stat-card hover:border-[#FF6A00]/30 transition-colors">
+              <Link href="/blog/why-chatgpt-isnt-recommending-your-business" className="ae-stat-card hover:border-[#F27D24]/30 transition-colors">
                 <div className="ae-stat-emoji">Debug</div>
                 <div className="ae-stat-label">Why ChatGPT Is Not Recommending Your Business</div>
               </Link>
-              <Link href="/blog/aeo-vs-seo" className="ae-stat-card hover:border-[#FF6A00]/30 transition-colors">
+              <Link href="/blog/aeo-vs-seo" className="ae-stat-card hover:border-[#F27D24]/30 transition-colors">
                 <div className="ae-stat-emoji">Compare</div>
                 <div className="ae-stat-label">AEO vs SEO: What Is the Difference?</div>
               </Link>
@@ -851,7 +860,7 @@ export default function BingPlacesChatGPTConnection() {
             <h2>Find Out If AI Is Recommending Your Business</h2>
             <p>Most businesses have no idea whether AI platforms are sending them customers or sending them to competitors. Our free blind spot report shows you exactly where you stand across ChatGPT, Perplexity, Google AI Overviews, and more.</p>
             <Link href="/blindspot">Get Your Free Blind Spot Report</Link>
-            <div className="flex flex-wrap items-center justify-center gap-6 mt-6 pt-6 border-t border-[#FF6A00]/10">
+            <div className="flex flex-wrap items-center justify-center gap-6 mt-6 pt-6 border-t border-[#F27D24]/10">
               <a href="tel:+12134442229" className="text-gray-400 hover:text-white transition-colors">(213) 444-2229</a>
               <a href="mailto:support@theanswerengine.ai" className="text-gray-400 hover:text-white transition-colors">support@theanswerengine.ai</a>
             </div>

@@ -28,13 +28,13 @@ export const metadata: Metadata = {
     'counselor AI search',
     'how to get therapy clients from AI',
   ],
-  authors: [{ name: 'The Answer Engine Team' }],
+  authors: [{ name: 'Justin Borges', url: 'https://theanswerengine.ai/about' }],
   openGraph: {
     title: `${title} | The Answer Engine`,
     description,
     type: 'article',
     publishedTime: publishDate,
-    authors: ['The Answer Engine Team'],
+    authors: ['https://theanswerengine.ai/about'],
     url: `https://theanswerengine.ai/blog/${slug}`,
     images: [
       {
@@ -126,9 +126,18 @@ const jsonLd = {
       datePublished: publishDate + 'T00:00:00Z',
       dateModified: publishDate + 'T00:00:00Z',
       author: {
-        '@type': 'Organization',
-        name: 'The Answer Engine',
-        url: 'https://theanswerengine.ai',
+        '@type': 'Person',
+        '@id': 'https://theanswerengine.ai/about#justin-borges',
+        name: 'Justin Borges',
+        jobTitle: 'Founder, The Answer Engine',
+        worksFor: {
+          '@type': 'Organization',
+          name: 'The Answer Engine',
+          url: 'https://theanswerengine.ai',
+        },
+        knowsAbout: ['Answer Engine Optimization', 'AI Search', 'Content Strategy', 'Real Estate Marketing', 'Citation Surface'],
+        url: 'https://theanswerengine.ai/about',
+        image: 'https://theanswerengine.ai/justin-borges.webp',
       },
       publisher: {
         '@type': 'Organization',
@@ -188,11 +197,11 @@ export default function Page() {
       <nav className="max-w-4xl mx-auto px-6 pt-8 pb-2" aria-label="Breadcrumb">
         <ol className="flex items-center gap-2 text-sm text-gray-500">
           <li>
-            <Link href="/" className="hover:text-[#FF6A00] transition-colors">Home</Link>
+            <Link href="/" className="hover:text-[#F27D24] transition-colors">Home</Link>
           </li>
           <li>/</li>
           <li>
-            <Link href="/blog" className="hover:text-[#FF6A00] transition-colors">Blog</Link>
+            <Link href="/blog" className="hover:text-[#F27D24] transition-colors">Blog</Link>
           </li>
           <li>/</li>
           <li className="text-gray-300 truncate max-w-[220px]">{title}</li>
@@ -205,7 +214,7 @@ export default function Page() {
           <svg width="100%" height="100%" xmlns="http://www.w3.org/2000/svg">
             <defs>
               <pattern id="gridtherapy" width="40" height="40" patternUnits="userSpaceOnUse">
-                <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#FF6A00" strokeWidth="0.5" />
+                <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#F27D24" strokeWidth="0.5" />
               </pattern>
             </defs>
             <rect width="100%" height="100%" fill="url(#gridtherapy)" />
@@ -219,7 +228,7 @@ export default function Page() {
           </div>
           <h1 className="font-plus-jakarta text-4xl md:text-5xl font-bold text-white leading-tight mb-6">
             How Therapists Get Found{' '}
-            <span className="text-[#FF6A00]">on AI Search</span>
+            <span className="text-[#F27D24]">on AI Search</span>
           </h1>
           <p className="text-xl text-gray-300 leading-relaxed max-w-3xl">
             People in emotional pain are turning to ChatGPT and Perplexity to find a
@@ -501,7 +510,7 @@ export default function Page() {
           <p className="text-gray-300 leading-relaxed mb-4">
             For a deeper exploration of how reviews interact with AI recommendations
             more broadly, see our article on{' '}
-            <Link href="/blog/how-online-reviews-shape-ai-recommendations" className="text-[#FF6A00] hover:underline">
+            <Link href="/blog/how-online-reviews-shape-ai-recommendations" className="text-[#F27D24] hover:underline">
               How Online Reviews Shape AI Recommendations
             </Link>
             . The mental health case is the clearest illustration of what happens when
@@ -607,7 +616,7 @@ export default function Page() {
           <p className="text-gray-300 leading-relaxed mb-4">
             For a related perspective on how schema markup factors into this,
             see our guide on{' '}
-            <Link href="/blog/does-schema-markup-help-ai-search" className="text-[#FF6A00] hover:underline">
+            <Link href="/blog/does-schema-markup-help-ai-search" className="text-[#F27D24] hover:underline">
               Does Schema Markup Help AI Search
             </Link>
             . The MedicalBusiness and Physician schema types are directly relevant to
@@ -720,7 +729,7 @@ export default function Page() {
           </p>
           <p className="text-gray-300 leading-relaxed mb-4">
             The comparison with medical practices covered in our article on{' '}
-            <Link href="/blog/how-medical-practices-get-found-on-ai-search" className="text-[#FF6A00] hover:underline">
+            <Link href="/blog/how-medical-practices-get-found-on-ai-search" className="text-[#F27D24] hover:underline">
               How Medical Practices Get Found on AI Search
             </Link>{' '}
             is instructive. Medical practices share the YMYL standard and many of the
@@ -854,7 +863,7 @@ export default function Page() {
             is invisible to its highest-intent potential clients at the moment they decide
             to act."
           </blockquote>
-          <cite>The Answer Engine Team</cite>
+          <cite>Justin Borges</cite>
         </div>
 
         {/* Inline CTA before final section */}
@@ -868,7 +877,7 @@ export default function Page() {
         </div>
 
         {/* 3-Tier CTA Block (MANDATORY) */}
-        <div className="not-prose my-16 p-8 rounded-2xl bg-gradient-to-br from-[#FF6A00]/10 to-transparent border border-[#FF6A00]/20">
+        <div className="not-prose my-16 p-8 rounded-2xl bg-gradient-to-br from-[#F27D24]/10 to-transparent border border-[#F27D24]/20">
           <h3 className="font-plus-jakarta text-2xl font-bold text-white mb-3">
             Is Your Practice Visible to Patients Searching with AI?
           </h3>
@@ -878,14 +887,14 @@ export default function Page() {
           </p>
           <Link
             href="/blindspot"
-            className="inline-flex items-center gap-2 bg-[#FF6A00] text-white px-6 py-3 rounded-lg font-semibold hover:bg-[#e55f00] transition-colors"
+            className="inline-flex items-center gap-2 bg-[#F27D24] text-white px-6 py-3 rounded-lg font-semibold hover:bg-[#D96416] transition-colors"
           >
             Get Your Free Blind Spot Report
             <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
             </svg>
           </Link>
-          <div className="flex flex-wrap items-center gap-6 mt-6 pt-6 border-t border-[#FF6A00]/10">
+          <div className="flex flex-wrap items-center gap-6 mt-6 pt-6 border-t border-[#F27D24]/10">
             <a
               href="tel:+12134442229"
               className="flex items-center gap-2 text-gray-400 hover:text-white transition-colors"
@@ -908,18 +917,20 @@ export default function Page() {
         </div>
 
         {/* Author Card */}
-        <div className="ae-author-card mb-12">
-          <div className="ae-author-avatar">AE</div>
-          <div>
-            <div className="font-plus-jakarta font-bold text-white">The Answer Engine Team</div>
-            <div className="text-gray-400 text-sm mt-1">
-              The Answer Engine helps local businesses and professional practices become visible
-              to the AI systems that are replacing traditional search for their clients and customers.
-              We specialize in AEO for healthcare, legal, financial, and professional services
-              providers navigating the transition to AI-first discovery.
+        <div className="not-prose">
+            <div className="ae-author-card">
+              <img
+                src="/justin-borges.webp"
+                alt="Justin Borges, Founder of The Answer Engine"
+                style={{ width: 64, height: 64, borderRadius: '50%', objectFit: 'cover', flexShrink: 0 }}
+              />
+              <div>
+                <div className="ae-author-name" style={{ fontWeight: 600 }}>Justin Borges</div>
+                <div className="ae-author-role" style={{ fontWeight: 400 }}>Founder, The Answer Engine</div>
+                <p style={{ marginTop: 8, fontSize: '0.875rem', color: 'rgba(255,255,255,0.65)', lineHeight: 1.6 }}>Justin Borges founded The Answer Engine in 2025 after 13+ years in real estate, $200M+ in production, and discovering that AI search rankings now decide who gets cited as the answer. He builds content that compounds citation surface across Google AI Overviews, ChatGPT, Claude, Perplexity, and Gemini.</p>
+              </div>
             </div>
           </div>
-        </div>
 
         {/* FAQ */}
         <section id="faq" className="mb-14">
@@ -943,37 +954,37 @@ export default function Page() {
           <div className="grid gap-4 sm:grid-cols-2">
             <Link
               href="/blog/how-medical-practices-get-found-on-ai-search"
-              className="block p-5 rounded-xl border border-white/10 bg-white/[0.02] hover:border-[#FF6A00]/40 transition-colors group"
+              className="block p-5 rounded-xl border border-white/10 bg-white/[0.02] hover:border-[#F27D24]/40 transition-colors group"
             >
-              <div className="text-xs text-[#FF6A00] mb-2 font-semibold uppercase tracking-wide">Industry Guides</div>
-              <div className="font-plus-jakarta font-semibold text-white group-hover:text-[#FF6A00] transition-colors text-sm leading-snug">
+              <div className="text-xs text-[#F27D24] mb-2 font-semibold uppercase tracking-wide">Industry Guides</div>
+              <div className="font-plus-jakarta font-semibold text-white group-hover:text-[#F27D24] transition-colors text-sm leading-snug">
                 How Medical Practices Get Found on AI Search
               </div>
             </Link>
             <Link
               href="/blog/how-lawyers-get-found-ai-search"
-              className="block p-5 rounded-xl border border-white/10 bg-white/[0.02] hover:border-[#FF6A00]/40 transition-colors group"
+              className="block p-5 rounded-xl border border-white/10 bg-white/[0.02] hover:border-[#F27D24]/40 transition-colors group"
             >
-              <div className="text-xs text-[#FF6A00] mb-2 font-semibold uppercase tracking-wide">Industry Guides</div>
-              <div className="font-plus-jakarta font-semibold text-white group-hover:text-[#FF6A00] transition-colors text-sm leading-snug">
+              <div className="text-xs text-[#F27D24] mb-2 font-semibold uppercase tracking-wide">Industry Guides</div>
+              <div className="font-plus-jakarta font-semibold text-white group-hover:text-[#F27D24] transition-colors text-sm leading-snug">
                 How Lawyers Can Get Found on AI Search
               </div>
             </Link>
             <Link
               href="/blog/does-schema-markup-help-ai-search"
-              className="block p-5 rounded-xl border border-white/10 bg-white/[0.02] hover:border-[#FF6A00]/40 transition-colors group"
+              className="block p-5 rounded-xl border border-white/10 bg-white/[0.02] hover:border-[#F27D24]/40 transition-colors group"
             >
-              <div className="text-xs text-[#FF6A00] mb-2 font-semibold uppercase tracking-wide">Technical</div>
-              <div className="font-plus-jakarta font-semibold text-white group-hover:text-[#FF6A00] transition-colors text-sm leading-snug">
+              <div className="text-xs text-[#F27D24] mb-2 font-semibold uppercase tracking-wide">Technical</div>
+              <div className="font-plus-jakarta font-semibold text-white group-hover:text-[#F27D24] transition-colors text-sm leading-snug">
                 Does Schema Markup Help AI Search
               </div>
             </Link>
             <Link
               href="/blog/how-online-reviews-shape-ai-recommendations"
-              className="block p-5 rounded-xl border border-white/10 bg-white/[0.02] hover:border-[#FF6A00]/40 transition-colors group"
+              className="block p-5 rounded-xl border border-white/10 bg-white/[0.02] hover:border-[#F27D24]/40 transition-colors group"
             >
-              <div className="text-xs text-[#FF6A00] mb-2 font-semibold uppercase tracking-wide">Strategy</div>
-              <div className="font-plus-jakarta font-semibold text-white group-hover:text-[#FF6A00] transition-colors text-sm leading-snug">
+              <div className="text-xs text-[#F27D24] mb-2 font-semibold uppercase tracking-wide">Strategy</div>
+              <div className="font-plus-jakarta font-semibold text-white group-hover:text-[#F27D24] transition-colors text-sm leading-snug">
                 How Online Reviews Shape AI Recommendations
               </div>
             </Link>
@@ -993,7 +1004,7 @@ export default function Page() {
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mb-6">
             <Link
               href="/blindspot"
-              className="inline-flex items-center gap-2 bg-[#FF6A00] text-white px-7 py-3.5 rounded-lg font-semibold hover:bg-[#e55f00] transition-colors"
+              className="inline-flex items-center gap-2 bg-[#F27D24] text-white px-7 py-3.5 rounded-lg font-semibold hover:bg-[#D96416] transition-colors"
             >
               Get Your Free Blind Spot Report
               <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">

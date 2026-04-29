@@ -29,7 +29,7 @@ export const metadata: Metadata = {
     description,
     type: 'article',
     publishedTime: publishDate,
-    authors: ['The Answer Engine Team'],
+    authors: ['https://theanswerengine.ai/about'],
     url: `https://theanswerengine.ai/blog/${slug}`,
     images: [
       {
@@ -67,9 +67,18 @@ const jsonLd = {
       datePublished: publishDate,
       dateModified: publishDate,
       author: {
-        '@type': 'Organization',
-        name: 'The Answer Engine',
-        url: 'https://theanswerengine.ai',
+        '@type': 'Person',
+        '@id': 'https://theanswerengine.ai/about#justin-borges',
+        name: 'Justin Borges',
+        jobTitle: 'Founder, The Answer Engine',
+        worksFor: {
+          '@type': 'Organization',
+          name: 'The Answer Engine',
+          url: 'https://theanswerengine.ai',
+        },
+        knowsAbout: ['Answer Engine Optimization', 'AI Search', 'Content Strategy', 'Real Estate Marketing', 'Citation Surface'],
+        url: 'https://theanswerengine.ai/about',
+        image: 'https://theanswerengine.ai/justin-borges.webp',
       },
       publisher: {
         '@type': 'Organization',
@@ -386,7 +395,7 @@ export default function Page() {
           <div className="ae-timeline mt-6 mb-10">
             <div className="ae-timeline-item">
               <div className="font-plus-jakarta font-bold text-white">Step 1</div>
-              <div className="font-semibold text-[#FF6A00]">Verify your GBP if you have not already</div>
+              <div className="font-semibold text-[#F27D24]">Verify your GBP if you have not already</div>
               <div className="text-gray-400 text-sm">
                 Unverified profiles receive much lower weight in AI recommendation systems. Complete
                 verification via postcard, phone, or video verification as Google offers.
@@ -394,7 +403,7 @@ export default function Page() {
             </div>
             <div className="ae-timeline-item">
               <div className="font-plus-jakarta font-bold text-white">Step 2</div>
-              <div className="font-semibold text-[#FF6A00]">Set primary category to "Moving Company" and add relevant secondaries</div>
+              <div className="font-semibold text-[#F27D24]">Set primary category to "Moving Company" and add relevant secondaries</div>
               <div className="text-gray-400 text-sm">
                 Secondary categories like "Storage Facility," "Piano Moving Service," and "Long Distance
                 Moving Service" unlock visibility for category-specific AI queries.
@@ -402,7 +411,7 @@ export default function Page() {
             </div>
             <div className="ae-timeline-item">
               <div className="font-plus-jakarta font-bold text-white">Step 3</div>
-              <div className="font-semibold text-[#FF6A00]">Write detailed service descriptions for each service you offer</div>
+              <div className="font-semibold text-[#F27D24]">Write detailed service descriptions for each service you offer</div>
               <div className="text-gray-400 text-sm">
                 "We do local and long-distance moves" is weak. "Full-service local residential moving
                 in [city] and surrounding areas, including packing, loading, transport, and setup" is
@@ -411,7 +420,7 @@ export default function Page() {
             </div>
             <div className="ae-timeline-item">
               <div className="font-plus-jakarta font-bold text-white">Step 4</div>
-              <div className="font-semibold text-[#FF6A00]">Set all service areas with individual city or zip entries</div>
+              <div className="font-semibold text-[#F27D24]">Set all service areas with individual city or zip entries</div>
               <div className="text-gray-400 text-sm">
                 AI uses service area data to filter movers for geographic queries. If a city you serve
                 is not listed, you will not appear in AI recommendations for queries from that city.
@@ -419,7 +428,7 @@ export default function Page() {
             </div>
             <div className="ae-timeline-item">
               <div className="font-plus-jakarta font-bold text-white">Step 5</div>
-              <div className="font-semibold text-[#FF6A00]">Complete all applicable attributes and add your license information</div>
+              <div className="font-semibold text-[#F27D24]">Complete all applicable attributes and add your license information</div>
               <div className="text-gray-400 text-sm">
                 Attributes like "licensed and insured," "free estimates," and "USDOT verified" are
                 trust signals that AI platforms factor into their credibility assessment for movers.
@@ -549,7 +558,7 @@ export default function Page() {
             article on{' '}
             <Link
               href="/blog/how-to-write-a-service-page-that-ai-platforms-actually-cite"
-              className="text-[#FF6A00] hover:text-[#e55f00] transition-colors"
+              className="text-[#F27D24] hover:text-[#D96416] transition-colors"
             >
               how to write a service page that AI platforms actually cite
             </Link>
@@ -615,7 +624,7 @@ export default function Page() {
             For more on which directories matter most across AI platforms, read our guide on{' '}
             <Link
               href="/blog/directory-listings-that-help-ai-find-business"
-              className="text-[#FF6A00] hover:text-[#e55f00] transition-colors"
+              className="text-[#F27D24] hover:text-[#D96416] transition-colors"
             >
               directory listings that help AI find your business
             </Link>
@@ -674,7 +683,7 @@ export default function Page() {
         </div>
 
         {/* CTA Block */}
-        <div className="not-prose my-16 p-8 rounded-2xl bg-gradient-to-br from-[#FF6A00]/10 to-transparent border border-[#FF6A00]/20">
+        <div className="not-prose my-16 p-8 rounded-2xl bg-gradient-to-br from-[#F27D24]/10 to-transparent border border-[#F27D24]/20">
           <h3 className="font-plus-jakarta text-2xl font-bold text-white mb-3">
             Is Your Moving Company Showing Up When People Ask AI for a Mover?
           </h3>
@@ -685,14 +694,14 @@ export default function Page() {
           </p>
           <Link
             href="/blindspot"
-            className="inline-flex items-center gap-2 bg-[#FF6A00] text-white px-6 py-3 rounded-lg font-semibold hover:bg-[#e55f00] transition-colors"
+            className="inline-flex items-center gap-2 bg-[#F27D24] text-white px-6 py-3 rounded-lg font-semibold hover:bg-[#D96416] transition-colors"
           >
             Get Your Free AI Visibility Audit
             <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
             </svg>
           </Link>
-          <div className="flex flex-wrap items-center gap-6 mt-6 pt-6 border-t border-[#FF6A00]/10">
+          <div className="flex flex-wrap items-center gap-6 mt-6 pt-6 border-t border-[#F27D24]/10">
             <a href="tel:+12134442229" className="flex items-center gap-2 text-gray-400 hover:text-white transition-colors">
               <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
@@ -709,17 +718,20 @@ export default function Page() {
         </div>
 
         {/* Author Card */}
-        <div className="ae-author-card mb-14">
-          <div className="ae-author-avatar">AE</div>
-          <div>
-            <div className="font-plus-jakarta font-bold text-white">The Answer Engine Team</div>
-            <div className="text-gray-400 text-sm">
-              We specialize in AI visibility for local service businesses including movers, HVAC
-              companies, plumbers, and contractors. We help local operators get recommended by AI
-              before their competitors figure out it matters.
+        <div className="not-prose">
+            <div className="ae-author-card">
+              <img
+                src="/justin-borges.webp"
+                alt="Justin Borges, Founder of The Answer Engine"
+                style={{ width: 64, height: 64, borderRadius: '50%', objectFit: 'cover', flexShrink: 0 }}
+              />
+              <div>
+                <div className="ae-author-name" style={{ fontWeight: 600 }}>Justin Borges</div>
+                <div className="ae-author-role" style={{ fontWeight: 400 }}>Founder, The Answer Engine</div>
+                <p style={{ marginTop: 8, fontSize: '0.875rem', color: 'rgba(255,255,255,0.65)', lineHeight: 1.6 }}>Justin Borges founded The Answer Engine in 2025 after 13+ years in real estate, $200M+ in production, and discovering that AI search rankings now decide who gets cited as the answer. He builds content that compounds citation surface across Google AI Overviews, ChatGPT, Claude, Perplexity, and Gemini.</p>
+              </div>
             </div>
           </div>
-        </div>
 
         {/* FAQ */}
         <section id="faq" className="mb-14">

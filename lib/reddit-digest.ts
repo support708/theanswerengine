@@ -260,7 +260,7 @@ function buildHtmlDigest(
   lowCount: number,
 ): string {
   const opportunityCards = opportunities.map(opp => {
-    const impactColor = opp.score.businessImpact === 'high' ? '#FF6A00'
+    const impactColor = opp.score.businessImpact === 'high' ? '#F27D24'
       : opp.score.businessImpact === 'medium' ? '#2196F3'
       : '#9E9E9E';
 
@@ -298,14 +298,14 @@ function buildHtmlDigest(
 <h2 style="margin:0 0 6px 0;font-size:22px;line-height:1.15;color:#1a1a1a;font-family:'Space Grotesk','Inter','Helvetica Neue',Arial,sans-serif;font-weight:900;letter-spacing:-0.02em;text-transform:uppercase;">Reddit Opportunities</h2>
 <p style="margin:0 0 6px 0;color:#555;font-size:15px;"><strong>${opportunities.length} opportunities</strong> found for <strong>${escapeHtml(businessName)}</strong> &mdash; ${escapeHtml(dateRange)}</p>
 <p style="margin:0 0 22px 0;font-size:13px;color:#666;">
-  <span style="color:#FF6A00;font-weight:bold;">${highCount} High</span> &bull;
+  <span style="color:#F27D24;font-weight:bold;">${highCount} High</span> &bull;
   <span style="color:#2196F3;font-weight:bold;">${medCount} Medium</span> &bull;
   <span style="color:#9E9E9E;font-weight:bold;">${lowCount} Low</span> Impact
 </p>
 
 ${opportunityCards}
 
-<div style="background:#fafafa;padding:18px 20px;margin-top:28px;border-left:3px solid #FF6A00;">
+<div style="background:#fafafa;padding:18px 20px;margin-top:28px;border-left:3px solid #F27D24;">
   <h3 style="margin:0 0 10px 0;font-size:14px;color:#1a1a1a;font-family:'Space Grotesk','Inter','Helvetica Neue',Arial,sans-serif;font-weight:800;text-transform:uppercase;letter-spacing:0.04em;">Tips for Responding</h3>
   <ul style="margin:0;padding-left:20px;color:#555;font-size:13px;line-height:1.7;">
     <li>Be genuinely helpful first. Answer the question before mentioning your business.</li>
@@ -328,9 +328,9 @@ function buildSingleOpportunityEmail(opp: RedditOpportunity, profile: ClientProf
 <h2 style="margin:0 0 6px 0;font-size:22px;line-height:1.15;color:#1a1a1a;font-family:'Space Grotesk','Inter','Helvetica Neue',Arial,sans-serif;font-weight:900;letter-spacing:-0.02em;text-transform:uppercase;">High-Impact Reddit Opportunity</h2>
 <p style="margin:0 0 22px 0;color:#777;font-size:14px;">Someone needs your expertise right now${businessName ? ` &mdash; ${escapeHtml(businessName)}` : ''}</p>
 
-<div style="border-left:4px solid #FF6A00;background:#fafafa;padding:16px 18px;margin:0 0 20px 0;">
+<div style="border-left:4px solid #F27D24;background:#fafafa;padding:16px 18px;margin:0 0 20px 0;">
   <div style="margin-bottom:8px;">
-    <span style="font-weight:bold;color:#FF6A00;font-size:12px;text-transform:uppercase;letter-spacing:0.08em;">High Impact</span>
+    <span style="font-weight:bold;color:#F27D24;font-size:12px;text-transform:uppercase;letter-spacing:0.08em;">High Impact</span>
     <span style="color:#777;font-size:12px;margin-left:10px;">Score: ${opp.score.composite}/10</span>
   </div>
   <h3 style="margin:4px 0 8px 0;font-size:17px;line-height:1.4;">
@@ -346,7 +346,7 @@ ${draftResponse ? `
 <p style="margin:0 0 10px 0;font-size:12px;color:#888;">Written in your voice. Copy, paste, and post &mdash; or use as a starting point.</p>
 <div style="background:#fafafa;border:1px solid #e5e7eb;padding:16px;font-size:14px;color:#333;line-height:1.7;white-space:pre-wrap;">${escapeHtml(draftResponse)}</div>
 <div style="margin:14px 0 20px 0;">
-  <a href="${opp.postUrl}" style="display:inline-block;background:#FF6A00;color:#000000;font-family:'Space Grotesk','Inter',Arial,sans-serif;font-size:13px;font-weight:900;padding:14px 24px;text-decoration:none;letter-spacing:-0.01em;text-transform:uppercase;">Post Response on Reddit &rarr;</a>
+  <a href="${opp.postUrl}" style="display:inline-block;background:#F27D24;color:#000000;font-family:'Space Grotesk','Inter',Arial,sans-serif;font-size:13px;font-weight:900;padding:14px 24px;text-decoration:none;letter-spacing:-0.01em;text-transform:uppercase;">Post Response on Reddit &rarr;</a>
 </div>
 ` : ''}
 

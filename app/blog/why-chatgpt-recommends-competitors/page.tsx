@@ -27,7 +27,7 @@ export const metadata: Metadata = {
     ],
     publishedTime: '2025-11-17T08:00:00-08:00',
     modifiedTime: '2025-11-17T08:00:00-08:00',
-    authors: ['Justin Borges'],
+    authors: ['https://theanswerengine.ai/about'],
     section: 'Answer Engine Optimization',
     tags: ['AEO', 'ChatGPT', 'AI Citations', 'Local Business', 'Authority Building'],
   },
@@ -75,7 +75,17 @@ function ComprehensiveSchema() {
         "dateModified": "2025-11-17T08:00:00-08:00",
         "author": {
           "@type": "Person",
-          "@id": "https://theanswerengine.ai/about#founder"
+          "@id": "https://theanswerengine.ai/about#justin-borges",
+          "name": "Justin Borges",
+          "jobTitle": "Founder, The Answer Engine",
+          "worksFor": {
+            "@type": "Organization",
+            "name": "The Answer Engine",
+            "url": "https://theanswerengine.ai"
+          },
+          "knowsAbout": ["Answer Engine Optimization", "AI Search", "Content Strategy", "Real Estate Marketing", "Citation Surface"],
+          "url": "https://theanswerengine.ai/about",
+          "image": "https://theanswerengine.ai/justin-borges.webp"
         },
         "publisher": {
           "@type": "Organization",
@@ -185,9 +195,9 @@ export default function WhyChatGPTRecommendsCompetitors() {
       {/* Breadcrumb */}
       <div className="max-w-4xl mx-auto px-6 pt-20 pb-4">
         <nav className="flex items-center gap-2 text-sm text-gray-500">
-          <Link href="/" className="hover:text-[#FF6A00] transition-colors">Home</Link>
+          <Link href="/" className="hover:text-[#F27D24] transition-colors">Home</Link>
           <span>/</span>
-          <Link href="/blog" className="hover:text-[#FF6A00] transition-colors">Blog</Link>
+          <Link href="/blog" className="hover:text-[#F27D24] transition-colors">Blog</Link>
           <span>/</span>
           <span className="text-gray-400">Why ChatGPT Recommends Competitors</span>
         </nav>
@@ -196,7 +206,7 @@ export default function WhyChatGPTRecommendsCompetitors() {
       {/* Header */}
       <header className="max-w-4xl mx-auto px-6 pb-12">
         <div className="flex items-center gap-3 mb-6">
-          <span className="bg-[#FF6A00]/10 text-[#FF6A00] px-3 py-1 rounded-full text-xs font-semibold tracking-wide uppercase">ChatGPT Citation Series</span>
+          <span className="bg-[#F27D24]/10 text-[#F27D24] px-3 py-1 rounded-full text-xs font-semibold tracking-wide uppercase">ChatGPT Citation Series</span>
           <time className="text-gray-500 text-sm">November 17, 2025</time>
         </div>
         <h1 className="font-plus-jakarta text-4xl md:text-5xl font-bold text-white leading-tight mb-6">Why ChatGPT Recommends Your Competitors (And Not You)</h1>
@@ -218,7 +228,7 @@ export default function WhyChatGPTRecommendsCompetitors() {
       </div>
 
       <article className="max-w-4xl mx-auto px-6 pb-20">
-        <div className="prose prose-invert prose-lg max-w-none prose-headings:font-plus-jakarta prose-headings:text-white prose-p:text-gray-300 prose-a:text-[#FF6A00] prose-a:no-underline hover:prose-a:underline prose-strong:text-white">
+        <div className="prose prose-invert prose-lg max-w-none prose-headings:font-plus-jakarta prose-headings:text-white prose-p:text-gray-300 prose-a:text-[#F27D24] prose-a:no-underline hover:prose-a:underline prose-strong:text-white">
 
           {/* ── STATS GRID ── */}
           <div className="ae-stats-grid not-prose">
@@ -729,13 +739,18 @@ export default function WhyChatGPTRecommendsCompetitors() {
           </div>
 
           {/* ── AUTHOR CARD ── */}
-          <div className="ae-author-card not-prose">
-            <div className="ae-author-avatar">JB</div>
-            <div>
-              <div className="ae-author-name">Justin Borges</div>
-              <div className="ae-author-role">Founder, The Answer Engine. Helping businesses get recommended by AI search platforms.</div>
+          <div className="ae-author-card">
+              <img
+                src="/justin-borges.webp"
+                alt="Justin Borges, Founder of The Answer Engine"
+                style={{ width: 64, height: 64, borderRadius: '50%', objectFit: 'cover', flexShrink: 0 }}
+              />
+              <div>
+                <div className="ae-author-name" style={{ fontWeight: 600 }}>Justin Borges</div>
+                <div className="ae-author-role" style={{ fontWeight: 400 }}>Founder, The Answer Engine</div>
+                <p style={{ marginTop: 8, fontSize: '0.875rem', color: 'rgba(255,255,255,0.65)', lineHeight: 1.6 }}>Justin Borges founded The Answer Engine in 2025 after 13+ years in real estate, $200M+ in production, and discovering that AI search rankings now decide who gets cited as the answer. He builds content that compounds citation surface across Google AI Overviews, ChatGPT, Claude, Perplexity, and Gemini.</p>
+              </div>
             </div>
-          </div>
 
           {/* Platform Disclaimer */}
           <p className="text-sm text-gray-500 italic">

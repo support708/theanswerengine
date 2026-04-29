@@ -154,7 +154,7 @@ export default function LeadReviewPage() {
           {lead.research?.aero7 && (
             <div className="bg-zinc-900 border border-zinc-700 rounded-lg p-4">
               <h2 className="text-sm font-semibold text-zinc-400 uppercase tracking-wider mb-3">
-                AERO-10 Score: <span className="text-[#FF6A00]">{lead.research.aero7.total}/100</span>
+                AERO-10 Score: <span className="text-[#F27D24]">{lead.research.aero7.total}/100</span>
               </h2>
               <div className="space-y-2">
                 <ScoreBar label="P1: Answer Quality" score={lead.research.aero7.answerQuality} />
@@ -206,7 +206,7 @@ export default function LeadReviewPage() {
                   href={reportUrl}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="text-xs text-[#FF6A00] hover:underline"
+                  className="text-xs text-[#F27D24] hover:underline"
                 >
                   Open in new tab
                 </a>
@@ -249,7 +249,7 @@ export default function LeadReviewPage() {
                     value={editedBody}
                     onChange={(e) => setEditedBody(e.target.value)}
                     rows={18}
-                    className="w-full bg-zinc-800 border border-zinc-600 rounded-lg p-3 text-sm text-white font-mono resize-y focus:outline-none focus:border-[#FF6A00]"
+                    className="w-full bg-zinc-800 border border-zinc-600 rounded-lg p-3 text-sm text-white font-mono resize-y focus:outline-none focus:border-[#F27D24]"
                   />
                   <div className="flex items-center gap-3">
                     {lead.status === 'email_drafted' && (
@@ -378,7 +378,7 @@ function InfoRow({ label, value, link }: { label: string; value: string; link?: 
       <dt className="text-zinc-500 w-20 shrink-0">{label}</dt>
       <dd className="text-white">
         {link && value ? (
-          <a href={value} target="_blank" rel="noopener noreferrer" className="text-[#FF6A00] hover:underline truncate block max-w-64">
+          <a href={value} target="_blank" rel="noopener noreferrer" className="text-[#F27D24] hover:underline truncate block max-w-64">
             {value.replace(/^https?:\/\//, '')}
           </a>
         ) : (

@@ -30,7 +30,7 @@ export function getIndustryColors(niche: string): ReportBrand {
     return {
       heroGradientFrom: '#0a0a1a',
       heroGradientTo: '#1a2744',
-      accent: '#FF6A00',
+      accent: '#F27D24',
       bodyBg: '#f8f8f6',
       cardBg: '#ffffff',
       sectionDark: '#1a2744',
@@ -52,7 +52,7 @@ export function getIndustryColors(niche: string): ReportBrand {
   return {
     heroGradientFrom: '#0a0a0a',
     heroGradientTo: '#1a1a2e',
-    accent: '#FF6A00',
+    accent: '#F27D24',
     bodyBg: '#f8f8f6',
     cardBg: '#ffffff',
     sectionDark: '#0a0a0a',

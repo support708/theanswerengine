@@ -13,6 +13,17 @@ export const metadata: Metadata = {
 export default function Privacy() {
   return (
     <main className="min-h-screen bg-[#0F1117] relative">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify({
+          '@context': 'https://schema.org',
+          '@type': 'BreadcrumbList',
+          itemListElement: [
+            { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://www.theanswerengine.ai' },
+            { '@type': 'ListItem', position: 2, name: 'Privacy Policy', item: 'https://www.theanswerengine.ai/privacy' },
+          ],
+        }) }}
+      />
 
       <div className="max-w-3xl mx-auto px-6 py-16 sm:py-24 relative">
         {/* Back to Home */}

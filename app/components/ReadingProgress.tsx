@@ -20,7 +20,7 @@ export function ReadingProgress() {
   return (
     <div
       className="fixed top-0 left-0 z-[60] transition-all duration-150"
-      style={{ width: `${progress}%`, height: '3px', backgroundColor: '#FF6A00' }}
+      style={{ width: `${progress}%`, height: '3px', backgroundColor: '#F27D24' }}
     />
   );
 }

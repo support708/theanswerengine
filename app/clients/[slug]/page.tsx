@@ -129,7 +129,7 @@ function Sparkline({ history }: { history: AuthorityIndexEntry[] }) {
   const points = scores.map((s, i) => `${i * step},${height - ((s - min) / range) * height}`).join(' ');
   return (
     <svg width={width} height={height} className="mt-2" aria-label="Authority Index trend">
-      <polyline points={points} fill="none" stroke="#FF6A00" strokeWidth="2" />
+      <polyline points={points} fill="none" stroke="#F27D24" strokeWidth="2" />
     </svg>
   );
 }
@@ -142,7 +142,7 @@ function ComponentBar({ label, value, note }: { label: string; value: number; no
         <span className="font-mono">{value}/100{note ? <span className="text-gray-400 ml-2 text-xs">{note}</span> : null}</span>
       </div>
       <div className="h-2 bg-gray-100 rounded overflow-hidden">
-        <div className="h-full bg-[#FF6A00]" style={{ width: `${value}%` }} />
+        <div className="h-full bg-[#F27D24]" style={{ width: `${value}%` }} />
       </div>
     </div>
   );
@@ -165,7 +165,7 @@ export default async function ClientDashboardPage({ params }: { params: Promise<
       <header className="bg-[#131313] text-white py-6 px-8">
         <div className="max-w-6xl mx-auto flex items-baseline justify-between">
           <div>
-            <div className="text-xs tracking-widest text-[#FF6A00] uppercase font-bold">Client Dashboard</div>
+            <div className="text-xs tracking-widest text-[#F27D24] uppercase font-bold">Client Dashboard</div>
             <h1 className="text-2xl font-bold mt-1">{displayName}</h1>
           </div>
           <div className="text-sm text-gray-400">
@@ -177,7 +177,7 @@ export default async function ClientDashboardPage({ params }: { params: Promise<
       <main className="max-w-6xl mx-auto px-8 py-10 space-y-10">
 
         <section className="bg-white rounded-lg shadow-sm border border-gray-200 p-8">
-          <div className="text-xs tracking-widest text-[#FF6A00] uppercase font-bold mb-2">AEO Authority Index</div>
+          <div className="text-xs tracking-widest text-[#F27D24] uppercase font-bold mb-2">AEO Authority Index</div>
           <div className="flex items-baseline gap-6">
             <div className="text-6xl font-extrabold text-gray-900">{authority.score}<span className="text-2xl text-gray-400">/100</span></div>
             <div className="text-sm text-gray-600">
@@ -204,7 +204,7 @@ export default async function ClientDashboardPage({ params }: { params: Promise<
         </section>
 
         <section className="bg-white rounded-lg shadow-sm border border-gray-200 p-8">
-          <h2 className="text-xs tracking-widest text-[#FF6A00] uppercase font-bold mb-4">This Week&apos;s Wins</h2>
+          <h2 className="text-xs tracking-widest text-[#F27D24] uppercase font-bold mb-4">This Week&apos;s Wins</h2>
           {winsMisses.wins.length === 0 && winsMisses.newQueries.length === 0 ? (
             <p className="text-sm text-gray-600">Data maturing this week — new indexing is settling. Check back Monday.</p>
           ) : (
@@ -216,7 +216,7 @@ export default async function ClientDashboardPage({ params }: { params: Promise<
                 </li>
               ))}
               {winsMisses.newQueries.length > 0 && (
-                <li className="p-3 bg-[#fff6ea] border-l-4 border-[#FF6A00] text-sm">
+                <li className="p-3 bg-[#fff6ea] border-l-4 border-[#F27D24] text-sm">
                   <div className="font-semibold text-gray-900">{winsMisses.newQueries.length} new queries ranking</div>
                   <div className="text-gray-600">Previously unranked — now earning impressions.</div>
                 </li>
@@ -227,10 +227,10 @@ export default async function ClientDashboardPage({ params }: { params: Promise<
 
         {highImpactOpps.length > 0 && (
           <section className="bg-white rounded-lg shadow-sm border border-gray-200 p-8">
-            <h2 className="text-xs tracking-widest text-[#FF6A00] uppercase font-bold mb-4">Reddit Opportunities</h2>
+            <h2 className="text-xs tracking-widest text-[#F27D24] uppercase font-bold mb-4">Reddit Opportunities</h2>
             <ul className="space-y-4">
               {highImpactOpps.slice(0, 5).map(o => (
-                <li key={o.id} className="border-l-4 border-[#FF6A00] pl-4">
+                <li key={o.id} className="border-l-4 border-[#F27D24] pl-4">
                   <div className="text-sm text-gray-500 mb-1">
                     r/{o.subreddit} · score {o.score.composite}/10
                   </div>
@@ -247,14 +247,14 @@ export default async function ClientDashboardPage({ params }: { params: Promise<
         <PlatformCitationsSection />
 
         <section className="bg-white rounded-lg shadow-sm border border-gray-200 p-8">
-          <h2 className="text-xs tracking-widest text-[#FF6A00] uppercase font-bold mb-2">What We&apos;re Doing Next</h2>
+          <h2 className="text-xs tracking-widest text-[#F27D24] uppercase font-bold mb-2">What We&apos;re Doing Next</h2>
           <p className="text-sm text-gray-700 mb-6">{recommendation.interpretation}</p>
           <ol className="space-y-4">
             {recommendation.recommendations.map((r, i) => (
-              <li key={i} className="p-4 bg-[#fafafa] border-l-4 border-[#FF6A00]">
+              <li key={i} className="p-4 bg-[#fafafa] border-l-4 border-[#F27D24]">
                 <div className="font-semibold text-gray-900 mb-1">{i + 1}. {r.action}</div>
                 <div className="text-sm text-gray-600 mb-2">{r.rationale}</div>
-                <div className="text-xs uppercase tracking-widest text-[#FF6A00] font-bold">Tied to: {r.tied_to_goal}</div>
+                <div className="text-xs uppercase tracking-widest text-[#F27D24] font-bold">Tied to: {r.tied_to_goal}</div>
               </li>
             ))}
           </ol>
@@ -269,7 +269,7 @@ function PlatformCitationsSection() {
   // Placeholder until #10 Platform-Specific Citation Tracker ships.
   const platforms = [
     { name: 'Perplexity', note: 'Tracker live next cycle', color: '#1fb8cd' },
-    { name: 'Claude', note: 'Tracker live next cycle', color: '#FF6A00' },
+    { name: 'Claude', note: 'Tracker live next cycle', color: '#F27D24' },
     { name: 'Google AI', note: 'Tracker live next cycle', color: '#4285F4' },
     { name: 'ChatGPT', note: 'Tracker live next cycle', color: '#10a37f' },
   ];
@@ -277,7 +277,7 @@ function PlatformCitationsSection() {
   return (
     <section className="bg-white rounded-lg shadow-sm border border-gray-200 p-8">
       <div className="flex items-baseline justify-between mb-4">
-        <h2 className="text-xs tracking-widest text-[#FF6A00] uppercase font-bold">Platform Citations</h2>
+        <h2 className="text-xs tracking-widest text-[#F27D24] uppercase font-bold">Platform Citations</h2>
         <span className="text-xs text-gray-400">Stub — tracker ships next sprint</span>
       </div>
       <div className="grid grid-cols-2 md:grid-cols-4 gap-4">

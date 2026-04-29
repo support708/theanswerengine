@@ -54,9 +54,18 @@ const jsonLd = {
       datePublished: publishDate,
       dateModified: publishDate,
       author: {
-        '@type': 'Organization',
-        name: 'The Answer Engine Team',
+        '@type': 'Person',
+        '@id': 'https://theanswerengine.ai/about#justin-borges',
+        name: 'Justin Borges',
+        jobTitle: 'Founder, The Answer Engine',
+        worksFor: {
+          '@type': 'Organization',
+          name: 'The Answer Engine',
+          url: 'https://theanswerengine.ai',
+        },
+        knowsAbout: ['Answer Engine Optimization', 'AI Search', 'Content Strategy', 'Real Estate Marketing', 'Citation Surface'],
         url: 'https://theanswerengine.ai/about',
+        image: 'https://theanswerengine.ai/justin-borges.webp',
       },
       publisher: {
         '@type': 'Organization',
@@ -164,7 +173,7 @@ export default function Page() {
 
         {/* Hero */}
         <section className="relative overflow-hidden border-b border-white/5">
-          <div className="absolute inset-0 bg-gradient-to-br from-[#FF6A00]/10 via-transparent to-transparent" />
+          <div className="absolute inset-0 bg-gradient-to-br from-[#F27D24]/10 via-transparent to-transparent" />
           <svg className="absolute inset-0 w-full h-full opacity-[0.03]" aria-hidden="true">
             <defs>
               <pattern id="hero-grid-lawfirm" width="40" height="40" patternUnits="userSpaceOnUse">
@@ -175,12 +184,12 @@ export default function Page() {
           </svg>
           <div className="relative max-w-4xl mx-auto px-6 py-16 sm:py-24">
             <Breadcrumb />
-            <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full mb-6 bg-[#FF6A00]/10 border border-[#FF6A00]/30">
-              <span className="text-sm font-semibold tracking-wider uppercase text-[#FF6A00]">Industry Guides</span>
+            <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full mb-6 bg-[#F27D24]/10 border border-[#F27D24]/30">
+              <span className="text-sm font-semibold tracking-wider uppercase text-[#F27D24]">Industry Guides</span>
             </div>
             <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold mb-6 text-white leading-tight font-plus-jakarta">
               How to Get Your Law Firm Found on{' '}
-              <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#FF6A00] to-orange-400">AI Search</span>
+              <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#F27D24] to-orange-400">AI Search</span>
             </h1>
             <p className="text-xl text-gray-300 mb-8 max-w-2xl leading-relaxed">
               78% of legal professionals now use AI. When a potential client asks ChatGPT to recommend an attorney, your firm either shows up or it does not. Here is the framework that decides which outcome you get.
@@ -202,7 +211,7 @@ export default function Page() {
                 <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={2}>
                   <path strokeLinecap="round" strokeLinejoin="round" d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z" />
                 </svg>
-                <span>The Answer Engine Team</span>
+                <span>Justin Borges</span>
               </div>
             </div>
           </div>
@@ -210,7 +219,7 @@ export default function Page() {
 
         {/* Article Body */}
         <article className="max-w-4xl mx-auto px-6 py-12 sm:py-16">
-          <div className="prose prose-invert prose-lg max-w-none prose-headings:font-plus-jakarta prose-headings:text-white prose-p:text-gray-300 prose-a:text-[#FF6A00] prose-a:no-underline hover:prose-a:underline prose-strong:text-white">
+          <div className="prose prose-invert prose-lg max-w-none prose-headings:font-plus-jakarta prose-headings:text-white prose-p:text-gray-300 prose-a:text-[#F27D24] prose-a:no-underline hover:prose-a:underline prose-strong:text-white">
 
             {/* STATS GRID */}
             <div className="ae-stats-grid not-prose">
@@ -272,9 +281,9 @@ export default function Page() {
             </div>
 
             {/* INLINE CTA */}
-            <div className="not-prose my-10 p-6 rounded-xl border border-[#FF6A00]/20 bg-[#FF6A00]/5">
+            <div className="not-prose my-10 p-6 rounded-xl border border-[#F27D24]/20 bg-[#F27D24]/5">
               <p className="text-gray-300 text-sm mb-3">Wondering if your firm is already showing up in AI recommendations?</p>
-              <Link href="/blindspot" className="inline-flex items-center gap-2 bg-[#FF6A00] text-white px-5 py-2.5 rounded-lg font-semibold text-sm hover:bg-[#e55f00] transition-colors">
+              <Link href="/blindspot" className="inline-flex items-center gap-2 bg-[#F27D24] text-white px-5 py-2.5 rounded-lg font-semibold text-sm hover:bg-[#D96416] transition-colors">
                 Get Your Free Blind Spot Report
                 <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" /></svg>
               </Link>
@@ -314,30 +323,30 @@ export default function Page() {
 
             {/* 4 R's VISUAL GRID */}
             <div className="not-prose grid grid-cols-1 sm:grid-cols-2 gap-4 my-8">
-              <div className="p-5 rounded-xl border border-[#FF6A00]/30 bg-[#FF6A00]/5">
+              <div className="p-5 rounded-xl border border-[#F27D24]/30 bg-[#F27D24]/5">
                 <div className="flex items-center gap-3 mb-3">
-                  <div className="w-8 h-8 rounded-full bg-[#FF6A00]/20 flex items-center justify-center text-[#FF6A00] font-bold text-sm">R1</div>
+                  <div className="w-8 h-8 rounded-full bg-[#F27D24]/20 flex items-center justify-center text-[#F27D24] font-bold text-sm">R1</div>
                   <span className="font-plus-jakarta font-bold text-white text-lg">Ratings</span>
                 </div>
                 <p className="text-gray-300 text-sm leading-relaxed">Your star ratings on Google, Avvo, and Martindale-Hubbell. AI platforms pull these scores as fast, quantifiable trust signals. A low or missing rating is a recommendation blocker.</p>
               </div>
-              <div className="p-5 rounded-xl border border-[#FF6A00]/30 bg-[#FF6A00]/5">
+              <div className="p-5 rounded-xl border border-[#F27D24]/30 bg-[#F27D24]/5">
                 <div className="flex items-center gap-3 mb-3">
-                  <div className="w-8 h-8 rounded-full bg-[#FF6A00]/20 flex items-center justify-center text-[#FF6A00] font-bold text-sm">R2</div>
+                  <div className="w-8 h-8 rounded-full bg-[#F27D24]/20 flex items-center justify-center text-[#F27D24] font-bold text-sm">R2</div>
                   <span className="font-plus-jakarta font-bold text-white text-lg">Reviews</span>
                 </div>
                 <p className="text-gray-300 text-sm leading-relaxed">Client and peer sentiment in written form. AI systems parse review text for specific outcomes, practice area terms, and sentiment patterns. Volume plus recency plus specificity all matter.</p>
               </div>
-              <div className="p-5 rounded-xl border border-[#FF6A00]/30 bg-[#FF6A00]/5">
+              <div className="p-5 rounded-xl border border-[#F27D24]/30 bg-[#F27D24]/5">
                 <div className="flex items-center gap-3 mb-3">
-                  <div className="w-8 h-8 rounded-full bg-[#FF6A00]/20 flex items-center justify-center text-[#FF6A00] font-bold text-sm">R3</div>
+                  <div className="w-8 h-8 rounded-full bg-[#F27D24]/20 flex items-center justify-center text-[#F27D24] font-bold text-sm">R3</div>
                   <span className="font-plus-jakarta font-bold text-white text-lg">Recognitions</span>
                 </div>
                 <p className="text-gray-300 text-sm leading-relaxed">Third-party validations: Super Lawyers listings, Best Lawyers designations, bar certifications, published articles, speaking engagements. These are the external authority signals AI weighs most heavily.</p>
               </div>
-              <div className="p-5 rounded-xl border border-[#FF6A00]/30 bg-[#FF6A00]/5">
+              <div className="p-5 rounded-xl border border-[#F27D24]/30 bg-[#F27D24]/5">
                 <div className="flex items-center gap-3 mb-3">
-                  <div className="w-8 h-8 rounded-full bg-[#FF6A00]/20 flex items-center justify-center text-[#FF6A00] font-bold text-sm">R4</div>
+                  <div className="w-8 h-8 rounded-full bg-[#F27D24]/20 flex items-center justify-center text-[#F27D24] font-bold text-sm">R4</div>
                   <span className="font-plus-jakarta font-bold text-white text-lg">Roots</span>
                 </div>
                 <p className="text-gray-300 text-sm leading-relaxed">How complete and consistent your directory profiles are across Avvo, Martindale, FindLaw, Justia, and Super Lawyers. Incomplete profiles send weak signals. Inconsistent data causes AI to distrust recommendations.</p>
@@ -351,7 +360,7 @@ export default function Page() {
             {/* INLINE CTA */}
             <div className="not-prose my-10 p-6 rounded-xl border border-white/10 bg-white/5">
               <p className="text-sm text-gray-400 mb-3">Want to know exactly which of the 4 R&apos;s your firm is missing? We map that out in every Blind Spot Report.</p>
-              <Link href="/blindspot" className="text-[#FF6A00] font-semibold text-sm hover:underline inline-flex items-center gap-1">
+              <Link href="/blindspot" className="text-[#F27D24] font-semibold text-sm hover:underline inline-flex items-center gap-1">
                 Get your free analysis
                 <svg className="w-3 h-3" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" /></svg>
               </Link>
@@ -372,80 +381,80 @@ export default function Page() {
               <div>
                 <div className="flex justify-between text-sm mb-1">
                   <span className="text-white font-medium">Verified bar admission + JD credentials</span>
-                  <span className="text-[#FF6A00] font-bold">95</span>
+                  <span className="text-[#F27D24] font-bold">95</span>
                 </div>
                 <div className="h-2.5 bg-white/10 rounded-full overflow-hidden">
-                  <div className="h-full bg-gradient-to-r from-[#FF6A00] to-orange-400 rounded-full" style={{ width: '95%' }} />
+                  <div className="h-full bg-gradient-to-r from-[#F27D24] to-orange-400 rounded-full" style={{ width: '95%' }} />
                 </div>
               </div>
 
               <div>
                 <div className="flex justify-between text-sm mb-1">
                   <span className="text-white font-medium">Directory completeness (Avvo, Martindale, FindLaw)</span>
-                  <span className="text-[#FF6A00] font-bold">88</span>
+                  <span className="text-[#F27D24] font-bold">88</span>
                 </div>
                 <div className="h-2.5 bg-white/10 rounded-full overflow-hidden">
-                  <div className="h-full bg-gradient-to-r from-[#FF6A00] to-orange-400 rounded-full" style={{ width: '88%' }} />
+                  <div className="h-full bg-gradient-to-r from-[#F27D24] to-orange-400 rounded-full" style={{ width: '88%' }} />
                 </div>
               </div>
 
               <div>
                 <div className="flex justify-between text-sm mb-1">
                   <span className="text-white font-medium">Case results with specific outcomes</span>
-                  <span className="text-[#FF6A00] font-bold">82</span>
+                  <span className="text-[#F27D24] font-bold">82</span>
                 </div>
                 <div className="h-2.5 bg-white/10 rounded-full overflow-hidden">
-                  <div className="h-full bg-gradient-to-r from-[#FF6A00] to-orange-400 rounded-full" style={{ width: '82%' }} />
+                  <div className="h-full bg-gradient-to-r from-[#F27D24] to-orange-400 rounded-full" style={{ width: '82%' }} />
                 </div>
               </div>
 
               <div>
                 <div className="flex justify-between text-sm mb-1">
                   <span className="text-white font-medium">Client reviews on Avvo and Google</span>
-                  <span className="text-[#FF6A00] font-bold">79</span>
+                  <span className="text-[#F27D24] font-bold">79</span>
                 </div>
                 <div className="h-2.5 bg-white/10 rounded-full overflow-hidden">
-                  <div className="h-full bg-gradient-to-r from-[#FF6A00] to-orange-400 rounded-full" style={{ width: '79%' }} />
+                  <div className="h-full bg-gradient-to-r from-[#F27D24] to-orange-400 rounded-full" style={{ width: '79%' }} />
                 </div>
               </div>
 
               <div>
                 <div className="flex justify-between text-sm mb-1">
                   <span className="text-white font-medium">Third-party recognition (Super Lawyers, Best Lawyers)</span>
-                  <span className="text-[#FF6A00] font-bold">74</span>
+                  <span className="text-[#F27D24] font-bold">74</span>
                 </div>
                 <div className="h-2.5 bg-white/10 rounded-full overflow-hidden">
-                  <div className="h-full bg-gradient-to-r from-[#FF6A00] to-orange-400 rounded-full" style={{ width: '74%' }} />
+                  <div className="h-full bg-gradient-to-r from-[#F27D24] to-orange-400 rounded-full" style={{ width: '74%' }} />
                 </div>
               </div>
 
               <div>
                 <div className="flex justify-between text-sm mb-1">
                   <span className="text-white font-medium">Published articles or media mentions</span>
-                  <span className="text-[#FF6A00] font-bold">68</span>
+                  <span className="text-[#F27D24] font-bold">68</span>
                 </div>
                 <div className="h-2.5 bg-white/10 rounded-full overflow-hidden">
-                  <div className="h-full bg-gradient-to-r from-[#FF6A00] to-orange-400 rounded-full" style={{ width: '68%' }} />
+                  <div className="h-full bg-gradient-to-r from-[#F27D24] to-orange-400 rounded-full" style={{ width: '68%' }} />
                 </div>
               </div>
 
               <div>
                 <div className="flex justify-between text-sm mb-1">
                   <span className="text-white font-medium">Website LegalService schema markup</span>
-                  <span className="text-[#FF6A00] font-bold">61</span>
+                  <span className="text-[#F27D24] font-bold">61</span>
                 </div>
                 <div className="h-2.5 bg-white/10 rounded-full overflow-hidden">
-                  <div className="h-full bg-gradient-to-r from-[#FF6A00] to-orange-400 rounded-full" style={{ width: '61%' }} />
+                  <div className="h-full bg-gradient-to-r from-[#F27D24] to-orange-400 rounded-full" style={{ width: '61%' }} />
                 </div>
               </div>
 
               <div>
                 <div className="flex justify-between text-sm mb-1">
                   <span className="text-white font-medium">Google Business Profile completeness</span>
-                  <span className="text-[#FF6A00] font-bold">55</span>
+                  <span className="text-[#F27D24] font-bold">55</span>
                 </div>
                 <div className="h-2.5 bg-white/10 rounded-full overflow-hidden">
-                  <div className="h-full bg-gradient-to-r from-[#FF6A00] to-orange-400 rounded-full" style={{ width: '55%' }} />
+                  <div className="h-full bg-gradient-to-r from-[#F27D24] to-orange-400 rounded-full" style={{ width: '55%' }} />
                 </div>
               </div>
 
@@ -469,7 +478,7 @@ export default function Page() {
                   <tr className="border-b border-white/10 bg-white/5">
                     <th className="text-left p-4 text-gray-400 font-medium">Signal Type</th>
                     <th className="text-center p-4 text-gray-400 font-medium">Law Firm Website</th>
-                    <th className="text-center p-4 text-[#FF6A00] font-medium">Legal Directories</th>
+                    <th className="text-center p-4 text-[#F27D24] font-medium">Legal Directories</th>
                   </tr>
                 </thead>
                 <tbody className="divide-y divide-white/5">
@@ -688,9 +697,9 @@ export default function Page() {
             <p>It is also worth understanding how AI recommendations interact with review signals. Our analysis of why certain businesses with seemingly weaker profiles still get recommended has some counterintuitive implications for law firms. Read more in our piece on <Link href="/blog/why-ai-recommends-businesses-with-worse-reviews">why AI recommends businesses with worse reviews</Link>.</p>
 
             {/* INLINE CTA */}
-            <div className="not-prose my-10 p-6 rounded-xl border border-[#FF6A00]/20 bg-[#FF6A00]/5">
+            <div className="not-prose my-10 p-6 rounded-xl border border-[#F27D24]/20 bg-[#F27D24]/5">
               <p className="text-gray-300 text-sm mb-3">Not sure where your firm falls on this matrix? We do the analysis for you in a free Blind Spot Report.</p>
-              <Link href="/blindspot" className="inline-flex items-center gap-2 bg-[#FF6A00] text-white px-5 py-2.5 rounded-lg font-semibold text-sm hover:bg-[#e55f00] transition-colors">
+              <Link href="/blindspot" className="inline-flex items-center gap-2 bg-[#F27D24] text-white px-5 py-2.5 rounded-lg font-semibold text-sm hover:bg-[#D96416] transition-colors">
                 Get the Free Report
                 <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" /></svg>
               </Link>
@@ -744,15 +753,15 @@ export default function Page() {
               ].map((item, i, arr) => (
                 <div key={item.step} className="flex gap-4">
                   <div className="flex flex-col items-center">
-                    <div className="w-10 h-10 rounded-full bg-[#FF6A00]/20 border border-[#FF6A00]/40 flex items-center justify-center text-[#FF6A00] font-bold text-xs flex-shrink-0">
+                    <div className="w-10 h-10 rounded-full bg-[#F27D24]/20 border border-[#F27D24]/40 flex items-center justify-center text-[#F27D24] font-bold text-xs flex-shrink-0">
                       {item.step}
                     </div>
-                    {i < arr.length - 1 && <div className="w-px flex-1 bg-[#FF6A00]/20 my-1" />}
+                    {i < arr.length - 1 && <div className="w-px flex-1 bg-[#F27D24]/20 my-1" />}
                   </div>
                   <div className="pb-6">
                     <div className="flex items-center gap-3 mb-1">
                       <span className="font-plus-jakarta font-semibold text-white">{item.label}</span>
-                      <span className="text-xs text-[#FF6A00] bg-[#FF6A00]/10 px-2 py-0.5 rounded-full">{item.timing}</span>
+                      <span className="text-xs text-[#F27D24] bg-[#F27D24]/10 px-2 py-0.5 rounded-full">{item.timing}</span>
                     </div>
                     <p className="text-gray-400 text-sm leading-relaxed">{item.desc}</p>
                   </div>
@@ -773,7 +782,7 @@ export default function Page() {
 
               <div className="p-5 rounded-xl border border-white/10 bg-white/[0.02]">
                 <div className="flex items-center gap-3 mb-4">
-                  <div className="w-8 h-8 rounded-full bg-[#FF6A00]/20 flex items-center justify-center text-[#FF6A00] font-bold text-xs">R1</div>
+                  <div className="w-8 h-8 rounded-full bg-[#F27D24]/20 flex items-center justify-center text-[#F27D24] font-bold text-xs">R1</div>
                   <span className="font-plus-jakarta font-bold text-white text-base">Ratings Checklist</span>
                 </div>
                 <div className="space-y-2">
@@ -784,7 +793,7 @@ export default function Page() {
                     'Rating consistency across all platforms (no major discrepancies)',
                   ].map((item) => (
                     <div key={item} className="flex items-start gap-3">
-                      <div className="w-4 h-4 rounded border border-[#FF6A00]/40 bg-[#FF6A00]/10 flex-shrink-0 mt-0.5" />
+                      <div className="w-4 h-4 rounded border border-[#F27D24]/40 bg-[#F27D24]/10 flex-shrink-0 mt-0.5" />
                       <span className="text-gray-300 text-sm">{item}</span>
                     </div>
                   ))}
@@ -793,7 +802,7 @@ export default function Page() {
 
               <div className="p-5 rounded-xl border border-white/10 bg-white/[0.02]">
                 <div className="flex items-center gap-3 mb-4">
-                  <div className="w-8 h-8 rounded-full bg-[#FF6A00]/20 flex items-center justify-center text-[#FF6A00] font-bold text-xs">R2</div>
+                  <div className="w-8 h-8 rounded-full bg-[#F27D24]/20 flex items-center justify-center text-[#F27D24] font-bold text-xs">R2</div>
                   <span className="font-plus-jakarta font-bold text-white text-base">Reviews Checklist</span>
                 </div>
                 <div className="space-y-2">
@@ -805,7 +814,7 @@ export default function Page() {
                     'Reviews that use the kinds of terms clients actually search for',
                   ].map((item) => (
                     <div key={item} className="flex items-start gap-3">
-                      <div className="w-4 h-4 rounded border border-[#FF6A00]/40 bg-[#FF6A00]/10 flex-shrink-0 mt-0.5" />
+                      <div className="w-4 h-4 rounded border border-[#F27D24]/40 bg-[#F27D24]/10 flex-shrink-0 mt-0.5" />
                       <span className="text-gray-300 text-sm">{item}</span>
                     </div>
                   ))}
@@ -814,7 +823,7 @@ export default function Page() {
 
               <div className="p-5 rounded-xl border border-white/10 bg-white/[0.02]">
                 <div className="flex items-center gap-3 mb-4">
-                  <div className="w-8 h-8 rounded-full bg-[#FF6A00]/20 flex items-center justify-center text-[#FF6A00] font-bold text-xs">R3</div>
+                  <div className="w-8 h-8 rounded-full bg-[#F27D24]/20 flex items-center justify-center text-[#F27D24] font-bold text-xs">R3</div>
                   <span className="font-plus-jakarta font-bold text-white text-base">Recognitions Checklist</span>
                 </div>
                 <div className="space-y-2">
@@ -826,7 +835,7 @@ export default function Page() {
                     'Speaking engagements or CLE teaching credits listed in directory profiles',
                   ].map((item) => (
                     <div key={item} className="flex items-start gap-3">
-                      <div className="w-4 h-4 rounded border border-[#FF6A00]/40 bg-[#FF6A00]/10 flex-shrink-0 mt-0.5" />
+                      <div className="w-4 h-4 rounded border border-[#F27D24]/40 bg-[#F27D24]/10 flex-shrink-0 mt-0.5" />
                       <span className="text-gray-300 text-sm">{item}</span>
                     </div>
                   ))}
@@ -835,7 +844,7 @@ export default function Page() {
 
               <div className="p-5 rounded-xl border border-white/10 bg-white/[0.02]">
                 <div className="flex items-center gap-3 mb-4">
-                  <div className="w-8 h-8 rounded-full bg-[#FF6A00]/20 flex items-center justify-center text-[#FF6A00] font-bold text-xs">R4</div>
+                  <div className="w-8 h-8 rounded-full bg-[#F27D24]/20 flex items-center justify-center text-[#F27D24] font-bold text-xs">R4</div>
                   <span className="font-plus-jakarta font-bold text-white text-base">Roots Checklist</span>
                 </div>
                 <div className="space-y-2">
@@ -848,7 +857,7 @@ export default function Page() {
                     'Case results published with enough specificity to be cited as evidence',
                   ].map((item) => (
                     <div key={item} className="flex items-start gap-3">
-                      <div className="w-4 h-4 rounded border border-[#FF6A00]/40 bg-[#FF6A00]/10 flex-shrink-0 mt-0.5" />
+                      <div className="w-4 h-4 rounded border border-[#F27D24]/40 bg-[#F27D24]/10 flex-shrink-0 mt-0.5" />
                       <span className="text-gray-300 text-sm">{item}</span>
                     </div>
                   ))}
@@ -869,23 +878,30 @@ export default function Page() {
             </div>
 
             {/* AUTHOR CARD */}
-            <div className="ae-author-card not-prose my-10">
-              <div className="ae-author-avatar">AE</div>
+            <div className="not-prose">
+            <div className="ae-author-card">
+              <img
+                src="/justin-borges.webp"
+                alt="Justin Borges, Founder of The Answer Engine"
+                style={{ width: 64, height: 64, borderRadius: '50%', objectFit: 'cover', flexShrink: 0 }}
+              />
               <div>
-                <div className="font-semibold text-white">The Answer Engine Team</div>
-                <div className="text-sm text-gray-400">AI Search Visibility Experts</div>
+                <div className="ae-author-name" style={{ fontWeight: 600 }}>Justin Borges</div>
+                <div className="ae-author-role" style={{ fontWeight: 400 }}>Founder, The Answer Engine</div>
+                <p style={{ marginTop: 8, fontSize: '0.875rem', color: 'rgba(255,255,255,0.65)', lineHeight: 1.6 }}>Justin Borges founded The Answer Engine in 2025 after 13+ years in real estate, $200M+ in production, and discovering that AI search rankings now decide who gets cited as the answer. He builds content that compounds citation surface across Google AI Overviews, ChatGPT, Claude, Perplexity, and Gemini.</p>
               </div>
             </div>
+          </div>
 
             {/* 3-TIER CTA BLOCK */}
-            <div className="not-prose my-16 p-8 rounded-2xl bg-gradient-to-br from-[#FF6A00]/10 to-transparent border border-[#FF6A00]/20">
+            <div className="not-prose my-16 p-8 rounded-2xl bg-gradient-to-br from-[#F27D24]/10 to-transparent border border-[#F27D24]/20">
               <h3 className="font-plus-jakarta text-2xl font-bold text-white mb-3">Is Your Law Firm Showing Up When Clients Ask AI?</h3>
               <p className="text-gray-400 mb-6">Find out exactly where your firm stands in AI recommendations with a free Blind Spot Report. We show you which competitors AI is recommending and why.</p>
-              <Link href="/blindspot" className="inline-flex items-center gap-2 bg-[#FF6A00] text-white px-6 py-3 rounded-lg font-semibold hover:bg-[#e55f00] transition-colors">
+              <Link href="/blindspot" className="inline-flex items-center gap-2 bg-[#F27D24] text-white px-6 py-3 rounded-lg font-semibold hover:bg-[#D96416] transition-colors">
                 Get Your Free Blind Spot Report
                 <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" /></svg>
               </Link>
-              <div className="flex flex-wrap items-center gap-6 mt-6 pt-6 border-t border-[#FF6A00]/10">
+              <div className="flex flex-wrap items-center gap-6 mt-6 pt-6 border-t border-[#F27D24]/10">
                 <a href="tel:+12134442229" className="flex items-center gap-2 text-gray-400 hover:text-white transition-colors">
                   <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" /></svg>
                   (213) 444-2229
@@ -931,7 +947,7 @@ export default function Page() {
                 <details key={item.q} className="group border border-white/10 rounded-xl overflow-hidden">
                   <summary className="flex items-center justify-between p-5 cursor-pointer list-none bg-white/[0.02] hover:bg-white/[0.04] transition-colors">
                     <span className="font-plus-jakarta font-semibold text-white pr-4">{item.q}</span>
-                    <svg className="w-5 h-5 text-[#FF6A00] flex-shrink-0 transition-transform group-open:rotate-180" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={2}>
+                    <svg className="w-5 h-5 text-[#F27D24] flex-shrink-0 transition-transform group-open:rotate-180" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={2}>
                       <path strokeLinecap="round" strokeLinejoin="round" d="M19 9l-7 7-7-7" />
                     </svg>
                   </summary>
@@ -946,17 +962,17 @@ export default function Page() {
             <div className="not-prose mt-12 pt-8 border-t border-white/10">
               <h3 className="font-plus-jakarta text-lg font-bold text-white mb-4">Related Reading</h3>
               <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
-                <Link href="/blog/does-schema-markup-help-ai-search" className="p-4 rounded-xl border border-white/10 bg-white/[0.02] hover:border-[#FF6A00]/30 hover:bg-[#FF6A00]/5 transition-all group">
-                  <div className="text-xs text-[#FF6A00] mb-2 font-medium uppercase tracking-wide">Schema</div>
-                  <div className="text-sm text-white font-medium group-hover:text-[#FF6A00] transition-colors leading-snug">Does Schema Markup Help AI Search?</div>
+                <Link href="/blog/does-schema-markup-help-ai-search" className="p-4 rounded-xl border border-white/10 bg-white/[0.02] hover:border-[#F27D24]/30 hover:bg-[#F27D24]/5 transition-all group">
+                  <div className="text-xs text-[#F27D24] mb-2 font-medium uppercase tracking-wide">Schema</div>
+                  <div className="text-sm text-white font-medium group-hover:text-[#F27D24] transition-colors leading-snug">Does Schema Markup Help AI Search?</div>
                 </Link>
-                <Link href="/blog/why-ai-recommends-businesses-with-worse-reviews" className="p-4 rounded-xl border border-white/10 bg-white/[0.02] hover:border-[#FF6A00]/30 hover:bg-[#FF6A00]/5 transition-all group">
-                  <div className="text-xs text-[#FF6A00] mb-2 font-medium uppercase tracking-wide">AI Behavior</div>
-                  <div className="text-sm text-white font-medium group-hover:text-[#FF6A00] transition-colors leading-snug">Why AI Recommends Businesses With Worse Reviews</div>
+                <Link href="/blog/why-ai-recommends-businesses-with-worse-reviews" className="p-4 rounded-xl border border-white/10 bg-white/[0.02] hover:border-[#F27D24]/30 hover:bg-[#F27D24]/5 transition-all group">
+                  <div className="text-xs text-[#F27D24] mb-2 font-medium uppercase tracking-wide">AI Behavior</div>
+                  <div className="text-sm text-white font-medium group-hover:text-[#F27D24] transition-colors leading-snug">Why AI Recommends Businesses With Worse Reviews</div>
                 </Link>
-                <Link href="/blog/what-your-website-looks-like-to-an-ai-crawler" className="p-4 rounded-xl border border-white/10 bg-white/[0.02] hover:border-[#FF6A00]/30 hover:bg-[#FF6A00]/5 transition-all group">
-                  <div className="text-xs text-[#FF6A00] mb-2 font-medium uppercase tracking-wide">Crawling</div>
-                  <div className="text-sm text-white font-medium group-hover:text-[#FF6A00] transition-colors leading-snug">What Your Website Looks Like to an AI Crawler</div>
+                <Link href="/blog/what-your-website-looks-like-to-an-ai-crawler" className="p-4 rounded-xl border border-white/10 bg-white/[0.02] hover:border-[#F27D24]/30 hover:bg-[#F27D24]/5 transition-all group">
+                  <div className="text-xs text-[#F27D24] mb-2 font-medium uppercase tracking-wide">Crawling</div>
+                  <div className="text-sm text-white font-medium group-hover:text-[#F27D24] transition-colors leading-snug">What Your Website Looks Like to an AI Crawler</div>
                 </Link>
               </div>
             </div>
@@ -965,7 +981,7 @@ export default function Page() {
             <div className="ae-final-cta not-prose mt-16">
               <h2 className="font-plus-jakarta text-3xl font-bold text-white mb-4">Ready to Get Your Law Firm Found on AI?</h2>
               <p className="text-gray-300 mb-8 text-lg">Stop losing clients to AI-invisible competitors. Get your free Blind Spot Report and see exactly where you stand.</p>
-              <Link href="/blindspot" className="inline-flex items-center gap-3 bg-[#FF6A00] text-white px-8 py-4 rounded-xl font-bold text-lg hover:bg-[#e55f00] transition-all duration-200 shadow-[0_0_30px_rgba(255,106,0,0.4)] hover:shadow-[0_0_50px_rgba(255,106,0,0.6)]">
+              <Link href="/blindspot" className="inline-flex items-center gap-3 bg-[#F27D24] text-white px-8 py-4 rounded-xl font-bold text-lg hover:bg-[#D96416] transition-all duration-200 shadow-[0_0_30px_rgba(255,106,0,0.4)] hover:shadow-[0_0_50px_rgba(255,106,0,0.6)]">
                 Get Your Free Blind Spot Report
                 <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" /></svg>
               </Link>

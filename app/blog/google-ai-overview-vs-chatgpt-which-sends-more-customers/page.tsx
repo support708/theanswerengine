@@ -27,7 +27,7 @@ export const metadata: Metadata = {
     description,
     type: 'article',
     publishedTime: publishDate,
-    authors: ['The Answer Engine Team'],
+    authors: ['https://theanswerengine.ai/about'],
     url: `https://theanswerengine.ai/blog/${slug}`,
     images: [
       {
@@ -65,9 +65,18 @@ const jsonLd = {
       datePublished: publishDate,
       dateModified: publishDate,
       author: {
-        '@type': 'Organization',
-        name: 'The Answer Engine',
-        url: 'https://theanswerengine.ai',
+        '@type': 'Person',
+        '@id': 'https://theanswerengine.ai/about#justin-borges',
+        name: 'Justin Borges',
+        jobTitle: 'Founder, The Answer Engine',
+        worksFor: {
+          '@type': 'Organization',
+          name: 'The Answer Engine',
+          url: 'https://theanswerengine.ai',
+        },
+        knowsAbout: ['Answer Engine Optimization', 'AI Search', 'Content Strategy', 'Real Estate Marketing', 'Citation Surface'],
+        url: 'https://theanswerengine.ai/about',
+        image: 'https://theanswerengine.ai/justin-borges.webp',
       },
       publisher: {
         '@type': 'Organization',
@@ -188,7 +197,7 @@ export default function Page() {
             <svg width="100%" height="100%" xmlns="http://www.w3.org/2000/svg">
               <defs>
                 <pattern id="compare-hex-a196" x="0" y="0" width="60" height="52" patternUnits="userSpaceOnUse">
-                  <polygon points="30,1 59,15 59,37 30,51 1,37 1,15" fill="none" stroke="#FF6A00" strokeWidth="0.5" />
+                  <polygon points="30,1 59,15 59,37 30,51 1,37 1,15" fill="none" stroke="#F27D24" strokeWidth="0.5" />
                 </pattern>
               </defs>
               <rect width="100%" height="100%" fill="url(#compare-hex-a196)" />
@@ -206,7 +215,7 @@ export default function Page() {
               Google sends 190 times more traffic than ChatGPT. But ChatGPT converts 4 to 5 times higher. When it comes to which AI platform actually drives more revenue for local businesses, the answer is more complicated than raw traffic numbers suggest.
             </p>
             <div className="flex items-center gap-6 text-sm text-gray-500">
-              <span>By The Answer Engine Team</span>
+              <span>By Justin Borges</span>
               <span>12 min read</span>
               <span>April 20, 2026</span>
             </div>
@@ -307,7 +316,7 @@ export default function Page() {
             ChatGPT operates outside the Google ecosystem entirely. Users come to it with a different intent: conversational research, comparison, and decision-making. 75% of ChatGPT users use keyword-style local prompts, and 45% of those sessions are one-shot, meaning one question leads to one decision. The customer does their entire research process inside the AI conversation and arrives at your business already confident in their choice.
           </p>
           <p className="text-gray-300 leading-relaxed mb-6">
-            The <Link href="/blog/how-chatgpt-search-picks-local-business-results" className="text-[#FF6A00] hover:text-orange-400 transition-colors">mechanics of how ChatGPT picks local business results</Link> are fundamentally different from how Google decides what to show in an AI Overview. The signals overlap but the weighting differs significantly.
+            The <Link href="/blog/how-chatgpt-search-picks-local-business-results" className="text-[#F27D24] hover:text-orange-400 transition-colors">mechanics of how ChatGPT picks local business results</Link> are fundamentally different from how Google decides what to show in an AI Overview. The signals overlap but the weighting differs significantly.
           </p>
 
           <div className="ae-callout ae-callout-warning">
@@ -353,7 +362,7 @@ export default function Page() {
           </div>
 
           <p className="text-gray-300 leading-relaxed mt-6 mb-6">
-            This is why <Link href="/blog/how-to-measure-if-ai-is-sending-you-customers" className="text-[#FF6A00] hover:text-orange-400 transition-colors">measuring AI-referred traffic requires different attribution</Link> than standard organic search. Much of the ChatGPT-driven customer journey happens inside the AI platform before anyone ever visits your website.
+            This is why <Link href="/blog/how-to-measure-if-ai-is-sending-you-customers" className="text-[#F27D24] hover:text-orange-400 transition-colors">measuring AI-referred traffic requires different attribution</Link> than standard organic search. Much of the ChatGPT-driven customer journey happens inside the AI platform before anyone ever visits your website.
           </p>
 
           <div className="ae-cta-inline">
@@ -507,7 +516,7 @@ export default function Page() {
           </div>
 
           <p className="text-gray-300 leading-relaxed mt-6 mb-6">
-            This comparison connects to the broader question of <Link href="/blog/aeo-vs-seo-difference-local-business" className="text-[#FF6A00] hover:text-orange-400 transition-colors">how AEO and SEO differ for local businesses</Link>. AI visibility is not a replacement for traditional search optimization. It is an additional layer that requires its own approach and its own signals.
+            This comparison connects to the broader question of <Link href="/blog/aeo-vs-seo-difference-local-business" className="text-[#F27D24] hover:text-orange-400 transition-colors">how AEO and SEO differ for local businesses</Link>. AI visibility is not a replacement for traditional search optimization. It is an additional layer that requires its own approach and its own signals.
           </p>
 
           <div className="ae-takeaway">
@@ -539,7 +548,7 @@ export default function Page() {
             </div>
             <div className="ae-dollar-item" style={{ borderColor: 'rgba(255,106,0,0.4)' }}>
               <div className="ae-dollar-label">ChatGPT Recommendation</div>
-              <div className="ae-dollar-price" style={{ color: '#FF6A00' }}>100 visitors × 10% conversion = 10 customers × $500 = $5,000</div>
+              <div className="ae-dollar-price" style={{ color: '#F27D24' }}>100 visitors × 10% conversion = 10 customers × $500 = $5,000</div>
             </div>
           </div>
           <p className="text-gray-400 text-sm mt-4 italic">These are illustrative estimates based on reported AI traffic conversion benchmarks. Actual results vary by business type, market, and service category.</p>
@@ -550,7 +559,7 @@ export default function Page() {
         </section>
 
         {/* 3-Tier CTA Block */}
-        <div className="not-prose my-16 p-8 rounded-2xl bg-gradient-to-br from-[#FF6A00]/10 to-transparent border border-[#FF6A00]/20">
+        <div className="not-prose my-16 p-8 rounded-2xl bg-gradient-to-br from-[#F27D24]/10 to-transparent border border-[#F27D24]/20">
           <h3 className="font-plus-jakarta text-2xl font-bold text-white mb-3">
             See Where Your Business Stands on Both AI Platforms
           </h3>
@@ -559,14 +568,14 @@ export default function Page() {
           </p>
           <Link
             href="/blindspot"
-            className="inline-flex items-center gap-2 bg-[#FF6A00] text-white px-6 py-3 rounded-lg font-semibold hover:bg-[#e55f00] transition-colors"
+            className="inline-flex items-center gap-2 bg-[#F27D24] text-white px-6 py-3 rounded-lg font-semibold hover:bg-[#D96416] transition-colors"
           >
             Get Your Free Blind Spot Report
             <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
             </svg>
           </Link>
-          <div className="flex flex-wrap items-center gap-6 mt-6 pt-6 border-t border-[#FF6A00]/10">
+          <div className="flex flex-wrap items-center gap-6 mt-6 pt-6 border-t border-[#F27D24]/10">
             <a href="tel:+12134442229" className="flex items-center gap-2 text-gray-400 hover:text-white transition-colors">
               <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
@@ -583,14 +592,18 @@ export default function Page() {
         </div>
 
         {/* Author Card */}
-        <div className="ae-author-card not-prose">
-          <div className="ae-author-avatar">AE</div>
-          <div>
-            <div className="font-plus-jakarta font-bold text-white">The Answer Engine Team</div>
-            <div className="text-gray-400 text-sm">AI Search Visibility Specialists</div>
-            <div className="text-gray-500 text-sm mt-1">We help local businesses appear in both Google AI Overviews and ChatGPT recommendations simultaneously by building the entity foundation that both platforms look for.</div>
-          </div>
-        </div>
+        <div className="ae-author-card">
+              <img
+                src="/justin-borges.webp"
+                alt="Justin Borges, Founder of The Answer Engine"
+                style={{ width: 64, height: 64, borderRadius: '50%', objectFit: 'cover', flexShrink: 0 }}
+              />
+              <div>
+                <div className="ae-author-name" style={{ fontWeight: 600 }}>Justin Borges</div>
+                <div className="ae-author-role" style={{ fontWeight: 400 }}>Founder, The Answer Engine</div>
+                <p style={{ marginTop: 8, fontSize: '0.875rem', color: 'rgba(255,255,255,0.65)', lineHeight: 1.6 }}>Justin Borges founded The Answer Engine in 2025 after 13+ years in real estate, $200M+ in production, and discovering that AI search rankings now decide who gets cited as the answer. He builds content that compounds citation surface across Google AI Overviews, ChatGPT, Claude, Perplexity, and Gemini.</p>
+              </div>
+            </div>
 
         {/* FAQ Section */}
         <section id="faq" className="not-prose mt-16">
@@ -646,7 +659,7 @@ export default function Page() {
           </p>
           <Link
             href="/blindspot"
-            className="inline-flex items-center gap-2 bg-[#FF6A00] text-white px-8 py-4 rounded-xl font-semibold text-lg hover:bg-[#e55f00] transition-colors ae-pulse-glow"
+            className="inline-flex items-center gap-2 bg-[#F27D24] text-white px-8 py-4 rounded-xl font-semibold text-lg hover:bg-[#D96416] transition-colors ae-pulse-glow"
           >
             Get Your Free Blind Spot Report
             <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -654,7 +667,7 @@ export default function Page() {
             </svg>
           </Link>
           <p className="text-gray-500 text-sm mt-4">
-            Free. No credit card. Results in 24 hours. <a href="tel:+12134442229" className="text-[#FF6A00] hover:text-orange-400 transition-colors">(213) 444-2229</a>
+            Free. No credit card. Results in 24 hours. <a href="tel:+12134442229" className="text-[#F27D24] hover:text-orange-400 transition-colors">(213) 444-2229</a>
           </p>
         </div>
 

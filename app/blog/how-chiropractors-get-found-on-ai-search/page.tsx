@@ -27,7 +27,7 @@ export const metadata: Metadata = {
     description,
     type: 'article',
     publishedTime: publishDate,
-    authors: ['The Answer Engine Team'],
+    authors: ['https://theanswerengine.ai/about'],
     url: `https://theanswerengine.ai/blog/${slug}`,
     images: [
       {
@@ -65,9 +65,18 @@ const jsonLd = {
       datePublished: publishDate,
       dateModified: publishDate,
       author: {
-        '@type': 'Organization',
-        name: 'The Answer Engine',
-        url: 'https://theanswerengine.ai',
+        '@type': 'Person',
+        '@id': 'https://theanswerengine.ai/about#justin-borges',
+        name: 'Justin Borges',
+        jobTitle: 'Founder, The Answer Engine',
+        worksFor: {
+          '@type': 'Organization',
+          name: 'The Answer Engine',
+          url: 'https://theanswerengine.ai',
+        },
+        knowsAbout: ['Answer Engine Optimization', 'AI Search', 'Content Strategy', 'Real Estate Marketing', 'Citation Surface'],
+        url: 'https://theanswerengine.ai/about',
+        image: 'https://theanswerengine.ai/justin-borges.webp',
       },
       publisher: {
         '@type': 'Organization',
@@ -188,7 +197,7 @@ export default function Page() {
             <svg width="100%" height="100%" xmlns="http://www.w3.org/2000/svg">
               <defs>
                 <pattern id="chiro-grid-a194" x="0" y="0" width="40" height="40" patternUnits="userSpaceOnUse">
-                  <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#FF6A00" strokeWidth="0.5" />
+                  <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#F27D24" strokeWidth="0.5" />
                 </pattern>
               </defs>
               <rect width="100%" height="100%" fill="url(#chiro-grid-a194)" />
@@ -206,7 +215,7 @@ export default function Page() {
               When someone types "best chiropractor for lower back pain near me" into ChatGPT, the AI does not browse Yelp. It evaluates entity authority. Most chiropractic practices are completely invisible to this process.
             </p>
             <div className="flex items-center gap-6 text-sm text-gray-500">
-              <span>By The Answer Engine Team</span>
+              <span>By Justin Borges</span>
               <span>10 min read</span>
               <span>April 20, 2026</span>
             </div>
@@ -286,7 +295,7 @@ export default function Page() {
             AI platforms are not reading your website the way a person does. They are building a structured understanding of your business entity, asking implicit questions: Does this practice exist consistently across multiple sources? What conditions does it treat? Is it trusted by authoritative health platforms? What do patients say about specific outcomes?
           </p>
           <p className="text-gray-300 leading-relaxed mb-6">
-            The signals AI uses to evaluate a chiropractic practice fall into four categories. Understanding these categories is the foundation for knowing why some practices get recommended and others do not. <Link href="/blog/what-your-website-looks-like-to-an-ai-crawler" className="text-[#FF6A00] hover:text-orange-400 transition-colors">What AI crawlers see when they visit your website</Link> is fundamentally different from what a human visitor sees.
+            The signals AI uses to evaluate a chiropractic practice fall into four categories. Understanding these categories is the foundation for knowing why some practices get recommended and others do not. <Link href="/blog/what-your-website-looks-like-to-an-ai-crawler" className="text-[#F27D24] hover:text-orange-400 transition-colors">What AI crawlers see when they visit your website</Link> is fundamentally different from what a human visitor sees.
           </p>
 
           <div className="ae-callout ae-callout-info">
@@ -474,7 +483,7 @@ export default function Page() {
           </table>
 
           <p className="text-gray-300 leading-relaxed mt-6 mb-6">
-            Google AI Overview matters most for immediate local discovery because it appears before any organic results. But ChatGPT matters for the growing segment of patients who bypass Google entirely and start their search in an AI assistant. <Link href="/blog/how-google-ai-mode-changes-local-business-discovery" className="text-[#FF6A00] hover:text-orange-400 transition-colors">Google AI Mode is reshaping local healthcare discovery</Link> faster than most providers realize.
+            Google AI Overview matters most for immediate local discovery because it appears before any organic results. But ChatGPT matters for the growing segment of patients who bypass Google entirely and start their search in an AI assistant. <Link href="/blog/how-google-ai-mode-changes-local-business-discovery" className="text-[#F27D24] hover:text-orange-400 transition-colors">Google AI Mode is reshaping local healthcare discovery</Link> faster than most providers realize.
           </p>
 
           <div className="ae-callout ae-callout-success">
@@ -552,7 +561,7 @@ export default function Page() {
             Doing one piece well and neglecting the others does not work. AI platforms evaluate the totality of your entity signal, not individual components in isolation. A beautiful website with inconsistent directory data still scores poorly. A fully optimized Google Business Profile with a thin, generic website still scores poorly. Everything needs to point in the same direction at the same time.
           </p>
           <p className="text-gray-300 leading-relaxed mb-6">
-            The framework for doing this correctly is what we build for clients. The principles in this article are the what and why. The exact architecture, sequencing, and coordinated implementation is what The Answer Engine delivers through our optimization process. <Link href="/blog/how-ai-decides-what-questions-to-answer-about-your-business" className="text-[#FF6A00] hover:text-orange-400 transition-colors">Understanding how AI decides which businesses to answer questions about</Link> is the foundation of that work.
+            The framework for doing this correctly is what we build for clients. The principles in this article are the what and why. The exact architecture, sequencing, and coordinated implementation is what The Answer Engine delivers through our optimization process. <Link href="/blog/how-ai-decides-what-questions-to-answer-about-your-business" className="text-[#F27D24] hover:text-orange-400 transition-colors">Understanding how AI decides which businesses to answer questions about</Link> is the foundation of that work.
           </p>
 
           <div className="ae-takeaway">
@@ -625,12 +634,12 @@ export default function Page() {
         <section className="my-12">
           <div className="ae-quote">
             <p>"A chiropractic practice open for 20 years with 500 reviews can be completely invisible to AI if its entity signals are inconsistent. A practice open for 18 months with the right optimization can be recommended daily. Entity authority is not about longevity. It is about clarity."</p>
-            <cite>The Answer Engine Team</cite>
+            <cite>Justin Borges</cite>
           </div>
         </section>
 
         {/* 3-Tier CTA Block */}
-        <div className="not-prose my-16 p-8 rounded-2xl bg-gradient-to-br from-[#FF6A00]/10 to-transparent border border-[#FF6A00]/20">
+        <div className="not-prose my-16 p-8 rounded-2xl bg-gradient-to-br from-[#F27D24]/10 to-transparent border border-[#F27D24]/20">
           <h3 className="font-plus-jakarta text-2xl font-bold text-white mb-3">
             Find Out If AI Is Sending Patients to Your Competitors
           </h3>
@@ -639,14 +648,14 @@ export default function Page() {
           </p>
           <Link
             href="/blindspot"
-            className="inline-flex items-center gap-2 bg-[#FF6A00] text-white px-6 py-3 rounded-lg font-semibold hover:bg-[#e55f00] transition-colors"
+            className="inline-flex items-center gap-2 bg-[#F27D24] text-white px-6 py-3 rounded-lg font-semibold hover:bg-[#D96416] transition-colors"
           >
             Get Your Free Blind Spot Report
             <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
             </svg>
           </Link>
-          <div className="flex flex-wrap items-center gap-6 mt-6 pt-6 border-t border-[#FF6A00]/10">
+          <div className="flex flex-wrap items-center gap-6 mt-6 pt-6 border-t border-[#F27D24]/10">
             <a href="tel:+12134442229" className="flex items-center gap-2 text-gray-400 hover:text-white transition-colors">
               <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
@@ -663,14 +672,18 @@ export default function Page() {
         </div>
 
         {/* Author Card */}
-        <div className="ae-author-card not-prose">
-          <div className="ae-author-avatar">AE</div>
-          <div>
-            <div className="font-plus-jakarta font-bold text-white">The Answer Engine Team</div>
-            <div className="text-gray-400 text-sm">AI Search Visibility Specialists</div>
-            <div className="text-gray-500 text-sm mt-1">We help local businesses get found by ChatGPT, Perplexity, Google AI, and every AI platform patients use to find services near them.</div>
-          </div>
-        </div>
+        <div className="ae-author-card">
+              <img
+                src="/justin-borges.webp"
+                alt="Justin Borges, Founder of The Answer Engine"
+                style={{ width: 64, height: 64, borderRadius: '50%', objectFit: 'cover', flexShrink: 0 }}
+              />
+              <div>
+                <div className="ae-author-name" style={{ fontWeight: 600 }}>Justin Borges</div>
+                <div className="ae-author-role" style={{ fontWeight: 400 }}>Founder, The Answer Engine</div>
+                <p style={{ marginTop: 8, fontSize: '0.875rem', color: 'rgba(255,255,255,0.65)', lineHeight: 1.6 }}>Justin Borges founded The Answer Engine in 2025 after 13+ years in real estate, $200M+ in production, and discovering that AI search rankings now decide who gets cited as the answer. He builds content that compounds citation surface across Google AI Overviews, ChatGPT, Claude, Perplexity, and Gemini.</p>
+              </div>
+            </div>
 
         {/* FAQ Section */}
         <section id="faq" className="not-prose mt-16">
@@ -722,7 +735,7 @@ export default function Page() {
           </p>
           <Link
             href="/blindspot"
-            className="inline-flex items-center gap-2 bg-[#FF6A00] text-white px-8 py-4 rounded-xl font-semibold text-lg hover:bg-[#e55f00] transition-colors ae-pulse-glow"
+            className="inline-flex items-center gap-2 bg-[#F27D24] text-white px-8 py-4 rounded-xl font-semibold text-lg hover:bg-[#D96416] transition-colors ae-pulse-glow"
           >
             Get Your Free Blind Spot Report
             <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -730,7 +743,7 @@ export default function Page() {
             </svg>
           </Link>
           <p className="text-gray-500 text-sm mt-4">
-            Free. No credit card. Results in 24 hours. <a href="tel:+12134442229" className="text-[#FF6A00] hover:text-orange-400 transition-colors">(213) 444-2229</a>
+            Free. No credit card. Results in 24 hours. <a href="tel:+12134442229" className="text-[#F27D24] hover:text-orange-400 transition-colors">(213) 444-2229</a>
           </p>
         </div>
 

@@ -19,7 +19,7 @@ export const metadata: Metadata = {
     description,
     type: 'article',
     publishedTime: publishDate,
-    authors: ['The Answer Engine Team'],
+    authors: ['https://theanswerengine.ai/about'],
     url: `https://theanswerengine.ai/blog/${slug}`,
     images: [{ url: `https://theanswerengine.ai/blog/${slug}.webp`, width: 1200, height: 630, alt: title }],
     siteName: 'The Answer Engine',
@@ -38,7 +38,20 @@ const jsonLd = {
       image: `https://theanswerengine.ai/blog/${slug}.webp`,
       datePublished: publishDate,
       dateModified: publishDate,
-      author: { '@type': 'Organization', name: 'The Answer Engine', url: 'https://theanswerengine.ai' },
+      author: {
+        '@type': 'Person',
+        '@id': 'https://theanswerengine.ai/about#justin-borges',
+        name: 'Justin Borges',
+        jobTitle: 'Founder, The Answer Engine',
+        worksFor: {
+          '@type': 'Organization',
+          name: 'The Answer Engine',
+          url: 'https://theanswerengine.ai',
+        },
+        knowsAbout: ['Answer Engine Optimization', 'AI Search', 'Content Strategy', 'Real Estate Marketing', 'Citation Surface'],
+        url: 'https://theanswerengine.ai/about',
+        image: 'https://theanswerengine.ai/justin-borges.webp',
+      },
       publisher: {
         '@type': 'Organization',
         name: 'The Answer Engine',
@@ -140,19 +153,19 @@ export default function BlogPost() {
         <svg className="absolute inset-0 w-full h-full opacity-10" xmlns="http://www.w3.org/2000/svg">
           <defs>
             <pattern id="hero-grid-105" x="0" y="0" width="64" height="64" patternUnits="userSpaceOnUse">
-              <rect x="8" y="4" width="18" height="22" rx="2" fill="none" stroke="#FF6A00" strokeWidth="0.5" />
-              <line x1="12" y1="10" x2="22" y2="10" stroke="#FF6A00" strokeWidth="0.4" opacity="0.5" />
-              <line x1="12" y1="14" x2="22" y2="14" stroke="#FF6A00" strokeWidth="0.4" opacity="0.5" />
-              <line x1="12" y1="18" x2="20" y2="18" stroke="#FF6A00" strokeWidth="0.4" opacity="0.5" />
-              <circle cx="48" cy="16" r="8" fill="none" stroke="#FF6A00" strokeWidth="0.5" />
-              <line x1="48" y1="10" x2="48" y2="16" stroke="#FF6A00" strokeWidth="0.5" opacity="0.6" />
-              <line x1="48" y1="16" x2="52" y2="18" stroke="#FF6A00" strokeWidth="0.5" opacity="0.6" />
-              <rect x="36" y="38" width="20" height="18" rx="2" fill="none" stroke="#FF6A00" strokeWidth="0.5" />
-              <line x1="36" y1="44" x2="56" y2="44" stroke="#FF6A00" strokeWidth="0.4" opacity="0.4" />
-              <line x1="40" y1="48" x2="52" y2="48" stroke="#FF6A00" strokeWidth="0.4" opacity="0.4" />
-              <line x1="40" y1="52" x2="48" y2="52" stroke="#FF6A00" strokeWidth="0.4" opacity="0.4" />
-              <circle cx="14" cy="48" r="3" fill="#FF6A00" opacity="0.15" />
-              <circle cx="14" cy="48" r="1" fill="#FF6A00" opacity="0.3" />
+              <rect x="8" y="4" width="18" height="22" rx="2" fill="none" stroke="#F27D24" strokeWidth="0.5" />
+              <line x1="12" y1="10" x2="22" y2="10" stroke="#F27D24" strokeWidth="0.4" opacity="0.5" />
+              <line x1="12" y1="14" x2="22" y2="14" stroke="#F27D24" strokeWidth="0.4" opacity="0.5" />
+              <line x1="12" y1="18" x2="20" y2="18" stroke="#F27D24" strokeWidth="0.4" opacity="0.5" />
+              <circle cx="48" cy="16" r="8" fill="none" stroke="#F27D24" strokeWidth="0.5" />
+              <line x1="48" y1="10" x2="48" y2="16" stroke="#F27D24" strokeWidth="0.5" opacity="0.6" />
+              <line x1="48" y1="16" x2="52" y2="18" stroke="#F27D24" strokeWidth="0.5" opacity="0.6" />
+              <rect x="36" y="38" width="20" height="18" rx="2" fill="none" stroke="#F27D24" strokeWidth="0.5" />
+              <line x1="36" y1="44" x2="56" y2="44" stroke="#F27D24" strokeWidth="0.4" opacity="0.4" />
+              <line x1="40" y1="48" x2="52" y2="48" stroke="#F27D24" strokeWidth="0.4" opacity="0.4" />
+              <line x1="40" y1="52" x2="48" y2="52" stroke="#F27D24" strokeWidth="0.4" opacity="0.4" />
+              <circle cx="14" cy="48" r="3" fill="#F27D24" opacity="0.15" />
+              <circle cx="14" cy="48" r="1" fill="#F27D24" opacity="0.3" />
             </pattern>
           </defs>
           <rect width="100%" height="100%" fill="url(#hero-grid-105)" />
@@ -160,9 +173,9 @@ export default function BlogPost() {
 
         <div className="relative max-w-4xl mx-auto px-6 pt-24 pb-16">
           <nav className="flex items-center gap-2 text-sm text-gray-400 mb-8">
-            <Link href="/" className="hover:text-[#FF6A00] transition-colors">Home</Link>
+            <Link href="/" className="hover:text-[#F27D24] transition-colors">Home</Link>
             <span>/</span>
-            <Link href="/blog" className="hover:text-[#FF6A00] transition-colors">Blog</Link>
+            <Link href="/blog" className="hover:text-[#F27D24] transition-colors">Blog</Link>
             <span>/</span>
             <span className="text-gray-500">Does Posting Every Day Help AI Find You</span>
           </nav>
@@ -178,7 +191,7 @@ export default function BlogPost() {
           </p>
 
           <div className="flex flex-wrap gap-4 text-sm text-gray-400">
-            <span>By The Answer Engine Team</span>
+            <span>By Justin Borges</span>
             <span>{publishDate}</span>
             <span>12 min read</span>
           </div>
@@ -186,7 +199,7 @@ export default function BlogPost() {
       </section>
 
       <article className="max-w-4xl mx-auto px-6 pb-20 pt-12">
-        <div className="prose prose-invert prose-lg max-w-none prose-headings:font-plus-jakarta prose-headings:text-white prose-p:text-gray-300 prose-a:text-[#FF6A00] prose-a:no-underline hover:prose-a:underline prose-strong:text-white">
+        <div className="prose prose-invert prose-lg max-w-none prose-headings:font-plus-jakarta prose-headings:text-white prose-p:text-gray-300 prose-a:text-[#F27D24] prose-a:no-underline hover:prose-a:underline prose-strong:text-white">
 
           {/* TABLE OF CONTENTS */}
           <div className="ae-toc not-prose">
@@ -548,14 +561,14 @@ export default function BlogPost() {
           <hr />
 
           {/* 3-TIER CTA BLOCK */}
-          <div className="not-prose my-16 p-8 rounded-2xl bg-gradient-to-br from-[#FF6A00]/10 to-transparent border border-[#FF6A00]/20">
+          <div className="not-prose my-16 p-8 rounded-2xl bg-gradient-to-br from-[#F27D24]/10 to-transparent border border-[#F27D24]/20">
             <h3 className="font-plus-jakarta text-2xl font-bold text-white mb-3">Stop Posting Into the Void</h3>
             <p className="text-gray-400 mb-6">Your free Blind Spot Report reveals exactly what AI platforms see when they evaluate your business, and what they skip entirely. No daily posting required.</p>
-            <Link href="/blindspot" className="inline-flex items-center gap-2 bg-[#FF6A00] text-white px-6 py-3 rounded-lg font-semibold hover:bg-[#e55f00] transition-colors">
+            <Link href="/blindspot" className="inline-flex items-center gap-2 bg-[#F27D24] text-white px-6 py-3 rounded-lg font-semibold hover:bg-[#D96416] transition-colors">
               Get Your Free Blind Spot Report
               <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" /></svg>
             </Link>
-            <div className="flex flex-wrap items-center gap-6 mt-6 pt-6 border-t border-[#FF6A00]/10">
+            <div className="flex flex-wrap items-center gap-6 mt-6 pt-6 border-t border-[#F27D24]/10">
               <a href="tel:+12134442229" className="flex items-center gap-2 text-gray-400 hover:text-white transition-colors">
                 <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" /></svg>
                 (213) 444-2229
@@ -576,7 +589,7 @@ export default function BlogPost() {
           {/* AUTHOR CARD */}
           <div className="ae-author-card not-prose">
             <div>
-              <p className="text-white font-semibold text-lg font-plus-jakarta mb-1">The Answer Engine Team</p>
+              <p className="text-white font-semibold text-lg font-plus-jakarta mb-1">Justin Borges</p>
               <p className="text-gray-400 text-sm mb-3">Answer Engine Optimization Specialists</p>
               <p className="text-gray-300 leading-relaxed text-sm">The Answer Engine specializes in AEO for local service businesses. We position companies to be cited by Google AI Overviews, ChatGPT, Claude, Perplexity, and other AI platforms, making them the trusted expert AI recommends in their market.</p>
               <div className="flex flex-wrap gap-4 mt-3 text-sm">
@@ -673,7 +686,7 @@ export default function BlogPost() {
           <div className="space-y-4 not-prose">
             <div className="bg-white/[0.03] border border-white/[0.08] rounded-xl p-6 hover:border-white/[0.12] transition-colors">
               <Link href="/blog/why-fresh-content-key-ai-search-visibility" className="group">
-                <h4 className="text-xl font-semibold text-white mb-2 group-hover:text-[#FF6A00] transition-colors font-plus-jakarta">
+                <h4 className="text-xl font-semibold text-white mb-2 group-hover:text-[#F27D24] transition-colors font-plus-jakarta">
                   Why Fresh Content Is the Key to AI Search Visibility
                 </h4>
                 <p className="text-gray-400 leading-relaxed">
@@ -683,7 +696,7 @@ export default function BlogPost() {
             </div>
             <div className="bg-white/[0.03] border border-white/[0.08] rounded-xl p-6 hover:border-white/[0.12] transition-colors">
               <Link href="/blog/does-having-a-blog-actually-help-ai-recommend-your-business" className="group">
-                <h4 className="text-xl font-semibold text-white mb-2 group-hover:text-[#FF6A00] transition-colors font-plus-jakarta">
+                <h4 className="text-xl font-semibold text-white mb-2 group-hover:text-[#F27D24] transition-colors font-plus-jakarta">
                   Does Having a Blog Actually Help AI Recommend Your Business?
                 </h4>
                 <p className="text-gray-400 leading-relaxed">
@@ -693,7 +706,7 @@ export default function BlogPost() {
             </div>
             <div className="bg-white/[0.03] border border-white/[0.08] rounded-xl p-6 hover:border-white/[0.12] transition-colors">
               <Link href="/blog/how-to-create-content-that-chatgpt-actually-trusts" className="group">
-                <h4 className="text-xl font-semibold text-white mb-2 group-hover:text-[#FF6A00] transition-colors font-plus-jakarta">
+                <h4 className="text-xl font-semibold text-white mb-2 group-hover:text-[#F27D24] transition-colors font-plus-jakarta">
                   How to Create Content That ChatGPT Actually Trusts
                 </h4>
                 <p className="text-gray-400 leading-relaxed">
@@ -714,7 +727,7 @@ export default function BlogPost() {
             <h3>Posting More Will Not Fix This. Posting Smarter Will.</h3>
             <p>98.8% of local businesses are invisible to ChatGPT. Not because they are quiet, but because their content does not meet the authority, structure, and verification thresholds AI platforms require. Your free Blind Spot Report reveals exactly where you fall and what it takes to cross the threshold.</p>
             <Link href="/blindspot" className="ae-final-cta-pulse">Get Your Free Blind Spot Report &rarr;</Link>
-            <div className="flex flex-wrap items-center justify-center gap-6 mt-6 pt-6 border-t border-[#FF6A00]/10">
+            <div className="flex flex-wrap items-center justify-center gap-6 mt-6 pt-6 border-t border-[#F27D24]/10">
               <a href="tel:+12134442229" className="flex items-center gap-2 text-gray-400 hover:text-white transition-colors">
                 <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" /></svg>
                 (213) 444-2229

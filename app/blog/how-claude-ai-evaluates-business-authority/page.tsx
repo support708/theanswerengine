@@ -26,13 +26,13 @@ export const metadata: Metadata = {
     'AI brand authority',
     'generative AI search',
   ],
-  authors: [{ name: 'The Answer Engine Team' }],
+  authors: [{ name: 'Justin Borges', url: 'https://theanswerengine.ai/about' }],
   openGraph: {
     title,
     description,
     type: 'article',
     publishedTime: publishDate,
-    authors: ['The Answer Engine Team'],
+    authors: ['https://theanswerengine.ai/about'],
     url: `https://theanswerengine.ai/blog/${slug}`,
     images: [
       {
@@ -65,9 +65,18 @@ const jsonLd = {
       datePublished: publishDate + 'T00:00:00Z',
       dateModified: publishDate + 'T00:00:00Z',
       author: {
-        '@type': 'Organization',
-        name: 'The Answer Engine',
-        url: 'https://theanswerengine.ai',
+        '@type': 'Person',
+        '@id': 'https://theanswerengine.ai/about#justin-borges',
+        name: 'Justin Borges',
+        jobTitle: 'Founder, The Answer Engine',
+        worksFor: {
+          '@type': 'Organization',
+          name: 'The Answer Engine',
+          url: 'https://theanswerengine.ai',
+        },
+        knowsAbout: ['Answer Engine Optimization', 'AI Search', 'Content Strategy', 'Real Estate Marketing', 'Citation Surface'],
+        url: 'https://theanswerengine.ai/about',
+        image: 'https://theanswerengine.ai/justin-borges.webp',
       },
       publisher: {
         '@type': 'Organization',
@@ -220,21 +229,21 @@ export default function Page() {
                 cx="650"
                 cy="80"
                 r="200"
-                stroke="#FF6A00"
+                stroke="#F27D24"
                 strokeWidth="0.5"
               />
               <circle
                 cx="650"
                 cy="80"
                 r="140"
-                stroke="#FF6A00"
+                stroke="#F27D24"
                 strokeWidth="0.5"
               />
               <circle
                 cx="650"
                 cy="80"
                 r="80"
-                stroke="#FF6A00"
+                stroke="#F27D24"
                 strokeWidth="0.5"
               />
               <line
@@ -242,7 +251,7 @@ export default function Page() {
                 y1="200"
                 x2="800"
                 y2="200"
-                stroke="#FF6A00"
+                stroke="#F27D24"
                 strokeWidth="0.3"
               />
               <line
@@ -250,7 +259,7 @@ export default function Page() {
                 y1="0"
                 x2="400"
                 y2="400"
-                stroke="#FF6A00"
+                stroke="#F27D24"
                 strokeWidth="0.3"
               />
               <rect
@@ -258,7 +267,7 @@ export default function Page() {
                 y="120"
                 width="200"
                 height="160"
-                stroke="#FF6A00"
+                stroke="#F27D24"
                 strokeWidth="0.4"
               />
               <rect
@@ -266,22 +275,22 @@ export default function Page() {
                 y="150"
                 width="140"
                 height="100"
-                stroke="#FF6A00"
+                stroke="#F27D24"
                 strokeWidth="0.4"
               />
               <polygon
                 points="600,280 700,280 650,200"
-                stroke="#FF6A00"
+                stroke="#F27D24"
                 strokeWidth="0.4"
                 fill="none"
               />
-              <circle cx="200" cy="320" r="60" stroke="#FF6A00" strokeWidth="0.4" />
+              <circle cx="200" cy="320" r="60" stroke="#F27D24" strokeWidth="0.4" />
               <line
                 x1="550"
                 y1="200"
                 x2="800"
                 y2="350"
-                stroke="#FF6A00"
+                stroke="#F27D24"
                 strokeWidth="0.3"
               />
             </svg>
@@ -297,13 +306,13 @@ export default function Page() {
                 <span>-</span>
                 <span>12 min read</span>
                 <span>-</span>
-                <span>The Answer Engine Team</span>
+                <span>Justin Borges</span>
               </div>
             </div>
           </div>
 
           {/* Article Body */}
-          <article className="prose prose-invert prose-lg max-w-none prose-headings:font-plus-jakarta prose-headings:text-white prose-p:text-gray-300 prose-a:text-[#FF6A00] prose-a:no-underline hover:prose-a:underline prose-strong:text-white">
+          <article className="prose prose-invert prose-lg max-w-none prose-headings:font-plus-jakarta prose-headings:text-white prose-p:text-gray-300 prose-a:text-[#F27D24] prose-a:no-underline hover:prose-a:underline prose-strong:text-white">
 
             {/* ── STATS GRID ── */}
             <div className="ae-stats-grid not-prose">
@@ -950,7 +959,7 @@ export default function Page() {
               <h3>Your Competitors Are Already Optimizing for Claude</h3>
               <p>Every day you wait, another business in your industry builds the authority signals Claude needs to recommend them over you. The window for early-mover advantage is closing.</p>
               <Link href="/blindspot" className="ae-final-cta-pulse">Get Your Free Blind Spot Report Now &rarr;</Link>
-              <div className="flex flex-wrap items-center justify-center gap-6 mt-6 pt-6 border-t border-[#FF6A00]/10">
+              <div className="flex flex-wrap items-center justify-center gap-6 mt-6 pt-6 border-t border-[#F27D24]/10">
                 <a href="tel:+12134442229" className="flex items-center gap-2 text-gray-400 hover:text-white transition-colors">
                   <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" /></svg>
                   (213) 444-2229
@@ -972,7 +981,7 @@ export default function Page() {
               </div>
               <div>
                 <p className="text-white font-medium">
-                  The Answer Engine Team
+                  Justin Borges
                 </p>
                 <p className="text-gray-400 text-sm">
                   Published March 14, 2026 | Specialists in AI search visibility and answer engine optimization for businesses that refuse to be invisible.

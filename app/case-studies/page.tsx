@@ -5,11 +5,31 @@ export const metadata: Metadata = {
   title: 'AEO Case Study — LA Metro Home Finder vs. 70,000 Agents | The Answer Engine',
   description:
     'How the AERO-10 framework took our own real estate site from invisible to 1.14M+ monthly impressions with citations across ChatGPT, Claude, Perplexity, and Google AI. The verified case.',
+  alternates: {
+    canonical: 'https://www.theanswerengine.ai/case-studies',
+  },
   openGraph: {
-    title: 'AEO Case Study — LA Metro Home Finder',
+    title: 'AEO Case Study — LA Metro Home Finder vs. 70,000 Agents',
     description:
       'The verified AEO case: 1.14M+ monthly impressions, citations across 4 AI platforms, $0 ad spend. Built on our own site before selling it to clients.',
-    url: 'https://theanswerengine.ai/case-studies',
+    url: 'https://www.theanswerengine.ai/case-studies',
+    type: 'website',
+    siteName: 'The Answer Engine',
+    images: [
+      {
+        url: 'https://www.theanswerengine.ai/og-default.png',
+        width: 1200,
+        height: 630,
+        alt: 'AEO Case Study — LA Metro Home Finder',
+      }
+    ],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'AEO Case Study — LA Metro Home Finder vs. 70,000 Agents',
+    description: '1.14M+ monthly impressions, 4 AI platforms citing, $0 ad spend. The verified AEO case built on our own site.',
+    site: '@theanswerengine',
+    images: ['https://www.theanswerengine.ai/og-default.png'],
   },
 };
 
@@ -96,9 +116,9 @@ export default function CaseStudiesPage() {
 
       {/* ── HERO ─────────────────────────────────────────────── */}
       <header
-        className="relative pt-32 pb-24 border-b border-[#FF6A00]/10 overflow-hidden"
+        className="relative pt-32 pb-24 border-b border-[#F27D24]/10 overflow-hidden"
         style={{
-          backgroundImage: 'radial-gradient(#FF6A0011 0.5px, transparent 0.5px)',
+          backgroundImage: 'radial-gradient(#F27D2411 0.5px, transparent 0.5px)',
           backgroundSize: '24px 24px',
         }}
       >
@@ -107,7 +127,7 @@ export default function CaseStudiesPage() {
           <div className="mb-12">
             <Link
               href="/"
-              className="font-mono text-[10px] tracking-widest uppercase text-white/40 hover:text-[#FF6A00] transition-colors inline-flex items-center gap-2"
+              className="font-mono text-[10px] tracking-widest uppercase text-white/40 hover:text-[#F27D24] transition-colors inline-flex items-center gap-2"
             >
               <svg className="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={2}>
                 <path strokeLinecap="round" strokeLinejoin="round" d="M10.5 19.5L3 12m0 0l7.5-7.5M3 12h18" />
@@ -118,7 +138,7 @@ export default function CaseStudiesPage() {
 
           {/* Tag */}
           <div className="flex items-center gap-3 mb-6">
-            <span className="w-3 h-3 bg-[#FF6A00]" />
+            <span className="w-3 h-3 bg-[#F27D24]" />
             <span className="font-mono text-[10px] tracking-widest uppercase text-white/40">
               Case Study // Our Own Site First
             </span>
@@ -129,7 +149,7 @@ export default function CaseStudiesPage() {
             WE DIDN&apos;T SELL IT
             <br />
             <span
-              className="text-[#FF6A00]"
+              className="text-[#F27D24]"
               style={{ textShadow: '0 0 10px rgba(255,106,0,0.25)' }}
             >
               UNTIL WE PROVED IT.
@@ -139,7 +159,7 @@ export default function CaseStudiesPage() {
           <div className="grid md:grid-cols-2 gap-12 items-end">
             <p className="text-white/60 text-sm leading-relaxed max-w-xl">
               The AERO-10 framework was built and tested on our own real estate site in the most
-              competitive local market in America. <span className="text-white border-b border-[#FF6A00]">1.14M+ monthly impressions.</span> Four of four major AI platforms citing the same agent. Zero ad spend. Then we packaged it for local service businesses outside real estate.
+              competitive local market in America. <span className="text-white border-b border-[#F27D24]">1.14M+ monthly impressions.</span> Four of four major AI platforms citing the same agent. Zero ad spend. Then we packaged it for local service businesses outside real estate.
             </p>
             <div className="flex flex-col gap-2 font-mono text-[10px] tracking-widest text-white/40 md:text-right">
               <p>Market: Los Angeles, CA</p>
@@ -151,12 +171,12 @@ export default function CaseStudiesPage() {
       </header>
 
       {/* ── KPI BAR ──────────────────────────────────────────── */}
-      <section className="bg-[#1c1b1b] border-b border-[#FF6A00]/10 py-16 px-6 lg:px-24">
+      <section className="bg-[#1c1b1b] border-b border-[#F27D24]/10 py-16 px-6 lg:px-24">
         <div className="max-w-7xl mx-auto">
           <div className="grid grid-cols-2 lg:grid-cols-4 gap-8">
             {KPI_STATS.map((stat) => (
               <div key={stat.label} className="flex flex-col">
-                <span className="font-headline font-black text-5xl md:text-6xl text-[#FF6A00]">
+                <span className="font-headline font-black text-5xl md:text-6xl text-[#F27D24]">
                   {stat.val}
                 </span>
                 <span className="font-mono text-[10px] tracking-widest uppercase text-white/40 mt-3">
@@ -172,12 +192,12 @@ export default function CaseStudiesPage() {
       <section className="py-32 px-6 lg:px-24 bg-[#131313]">
         <div className="max-w-7xl mx-auto">
           <div className="mb-16">
-            <span className="font-mono text-[10px] tracking-widest uppercase text-[#FF6A00] block mb-3">
+            <span className="font-mono text-[10px] tracking-widest uppercase text-[#F27D24] block mb-3">
               What To Expect // Stage By Stage
             </span>
             <h2 className="font-headline font-black text-4xl md:text-5xl uppercase tracking-tighter">
               HOW RESULTS{' '}
-              <span className="text-[#FF6A00]">BUILD</span>
+              <span className="text-[#F27D24]">BUILD</span>
             </h2>
             <p className="text-white/50 text-sm leading-relaxed mt-4 max-w-2xl">
               Same framework, applied to your market. The five stages we walk every client through — from zero baseline to compounding authority.
@@ -188,16 +208,16 @@ export default function CaseStudiesPage() {
             {RESULT_STAGES.map((stage, i) => (
               <div
                 key={i}
-                className={`p-6 bg-[#131313] hover:bg-[#1c1b1b] transition-colors border-l-4 border-l-[#FF6A00] ${
+                className={`p-6 bg-[#131313] hover:bg-[#1c1b1b] transition-colors border-l-4 border-l-[#F27D24] ${
                   i < RESULT_STAGES.length - 1 ? 'border-b md:border-b-0 md:border-r border-white/10' : ''
                 }`}
               >
-                <div className="w-10 h-10 border border-[#FF6A00]/40 flex items-center justify-center mb-6">
-                  <span className="font-mono text-[10px] text-[#FF6A00]">
+                <div className="w-10 h-10 border border-[#F27D24]/40 flex items-center justify-center mb-6">
+                  <span className="font-mono text-[10px] text-[#F27D24]">
                     {String(i + 1).padStart(2, '0')}
                   </span>
                 </div>
-                <span className="font-mono text-[10px] tracking-widest uppercase text-[#FF6A00] block mb-2">
+                <span className="font-mono text-[10px] tracking-widest uppercase text-[#F27D24] block mb-2">
                   {stage.stage}
                 </span>
                 <p className="font-mono text-[10px] tracking-widest uppercase text-white/40 mb-4">
@@ -211,7 +231,7 @@ export default function CaseStudiesPage() {
       </section>
 
       {/* ── FEATURED DEEP DIVE ───────────────────────────────── */}
-      <section className="py-32 px-6 lg:px-24 bg-[#1c1b1b] border-y border-[#FF6A00]/10">
+      <section className="py-32 px-6 lg:px-24 bg-[#1c1b1b] border-y border-[#F27D24]/10">
         <div className="max-w-7xl mx-auto">
           <div className="mb-12">
             <span className="font-mono text-[10px] tracking-widest uppercase text-white/40">
@@ -219,7 +239,7 @@ export default function CaseStudiesPage() {
             </span>
             <h2 className="font-headline font-black text-4xl uppercase tracking-tighter mt-4">
               LA Metro Home Finder vs.{' '}
-              <span className="text-[#FF6A00]">70,000 Agents</span>
+              <span className="text-[#F27D24]">70,000 Agents</span>
             </h2>
             <p className="text-white/50 text-sm leading-relaxed mt-4 max-w-2xl">
               Our own real estate property. The first place the AERO-10 framework ran live. Today it carries the heaviest AI-citation load of any site in the portfolio.
@@ -228,7 +248,7 @@ export default function CaseStudiesPage() {
 
           <div className="grid lg:grid-cols-12 gap-12">
             {/* Phase timeline */}
-            <div className="lg:col-span-4 border-l border-[#FF6A00]/20 pl-8 space-y-16 py-4">
+            <div className="lg:col-span-4 border-l border-[#F27D24]/20 pl-8 space-y-16 py-4">
               {[
                 {
                   phase: 'PHASE_01: STRATEGY',
@@ -249,7 +269,7 @@ export default function CaseStudiesPage() {
                 <div key={i} className="relative">
                   <div
                     className={`absolute -left-[37px] top-0 w-4 h-4 ${
-                      phase.active ? 'bg-[#FF6A00]' : 'bg-white/20'
+                      phase.active ? 'bg-[#F27D24]' : 'bg-white/20'
                     }`}
                   />
                   <h4 className="font-headline font-black text-lg uppercase tracking-tighter mb-2">
@@ -289,14 +309,14 @@ export default function CaseStudiesPage() {
                   </div>
                 </div>
                 <div>
-                  <p className="font-mono text-[10px] tracking-widest uppercase text-[#FF6A00] mb-4">
+                  <p className="font-mono text-[10px] tracking-widest uppercase text-[#F27D24] mb-4">
                     After AEO
                   </p>
                   <div className="h-40 flex items-end gap-1">
                     {[40, 65, 85, 95, 100].map((h, i) => (
                       <div
                         key={i}
-                        className="w-full bg-[#FF6A00]"
+                        className="w-full bg-[#F27D24]"
                         style={{ height: `${h}%`, opacity: 0.4 + i * 0.15 }}
                       />
                     ))}
@@ -317,7 +337,7 @@ export default function CaseStudiesPage() {
                     </span>
                     <span
                       className={`font-headline font-black text-3xl ${
-                        stat.orange ? 'text-[#FF6A00]' : 'text-white'
+                        stat.orange ? 'text-[#F27D24]' : 'text-white'
                       }`}
                     >
                       {stat.val}
@@ -333,12 +353,12 @@ export default function CaseStudiesPage() {
       {/* ── ALSO WORKING WITH — portfolio adjacency ────────── */}
       <section className="py-24 px-6 lg:px-24 bg-[#131313] border-t border-white/5">
         <div className="max-w-7xl mx-auto">
-          <span className="font-mono text-[10px] tracking-widest uppercase text-[#FF6A00] block mb-3">
+          <span className="font-mono text-[10px] tracking-widest uppercase text-[#F27D24] block mb-3">
             Portfolio // Also On The Framework
           </span>
           <h2 className="font-headline font-black text-3xl md:text-4xl uppercase tracking-tighter mb-4">
             ALSO WORKING{' '}
-            <span className="text-[#FF6A00]">WITH</span>
+            <span className="text-[#F27D24]">WITH</span>
           </h2>
           <p className="text-white/50 text-sm leading-relaxed mb-12 max-w-2xl">
             The LAMH case is the flagship. These are the other businesses running on the AERO-10 framework right now.
@@ -355,7 +375,7 @@ export default function CaseStudiesPage() {
             ].map((c, i, arr) => (
               <div
                 key={c.name}
-                className={`p-8 bg-[#1c1b1b] hover:bg-[#2a2a2a] transition-colors border-l-4 border-l-[#FF6A00] ${i < arr.length - 1 ? 'border-b lg:border-b-0' : ''} ${(i + 1) % 3 !== 0 ? 'lg:border-r' : ''} ${(i % 2 === 0) ? 'md:border-r lg:border-r' : ''} border-white/10`}
+                className={`p-8 bg-[#1c1b1b] hover:bg-[#2a2a2a] transition-colors border-l-4 border-l-[#F27D24] ${i < arr.length - 1 ? 'border-b lg:border-b-0' : ''} ${(i + 1) % 3 !== 0 ? 'lg:border-r' : ''} ${(i % 2 === 0) ? 'md:border-r lg:border-r' : ''} border-white/10`}
               >
                 <div className="font-mono text-[10px] tracking-widest text-white/40 uppercase mb-3">{c.city}</div>
                 <h3 className="font-headline font-bold text-lg uppercase tracking-tighter text-[#e5e2e1] mb-2">{c.name}</h3>
@@ -367,7 +387,7 @@ export default function CaseStudiesPage() {
       </section>
 
       {/* ── CTA ──────────────────────────────────────────────── */}
-      <section className="bg-[#FF6A00] py-24 px-6 lg:px-24">
+      <section className="bg-[#F27D24] py-24 px-6 lg:px-24">
         <div className="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center gap-12">
           <h2 className="font-headline font-black text-4xl md:text-5xl uppercase tracking-tighter text-black leading-none text-center md:text-left">
             READY TO SEE YOUR NAME<br />IN AI RESULTS?
@@ -375,7 +395,7 @@ export default function CaseStudiesPage() {
           <div className="flex flex-col sm:flex-row gap-4">
             <Link
               href="/#territory-check"
-              className="bg-black text-[#FF6A00] px-12 py-5 font-headline font-black uppercase tracking-tighter text-lg hover:bg-[#131313] transition-colors inline-flex items-center gap-3 whitespace-nowrap"
+              className="bg-black text-[#F27D24] px-12 py-5 font-headline font-black uppercase tracking-tighter text-lg hover:bg-[#131313] transition-colors inline-flex items-center gap-3 whitespace-nowrap"
             >
               Check Territory
               <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={2.5}>
@@ -386,7 +406,7 @@ export default function CaseStudiesPage() {
               href="https://calendly.com/theanswerengine-support/30min"
               target="_blank"
               rel="noopener noreferrer"
-              className="border-2 border-black text-black px-12 py-5 font-headline font-black uppercase tracking-tighter text-lg hover:bg-black hover:text-[#FF6A00] transition-colors inline-flex items-center justify-center whitespace-nowrap"
+              className="border-2 border-black text-black px-12 py-5 font-headline font-black uppercase tracking-tighter text-lg hover:bg-black hover:text-[#F27D24] transition-colors inline-flex items-center justify-center whitespace-nowrap"
             >
               Book 30-Min Call
             </a>

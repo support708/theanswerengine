@@ -28,7 +28,7 @@ export const metadata: Metadata = {
     description,
     type: 'article',
     publishedTime: publishDate,
-    authors: ['The Answer Engine Team'],
+    authors: ['https://theanswerengine.ai/about'],
     url: `https://theanswerengine.ai/blog/${slug}`,
     images: [{ url: `https://theanswerengine.ai/blog/${slug}.svg`, width: 1200, height: 630, alt: title }],
     siteName: 'The Answer Engine',
@@ -47,7 +47,20 @@ const jsonLd = {
       image: `https://theanswerengine.ai/blog/${slug}.svg`,
       datePublished: publishDate,
       dateModified: publishDate,
-      author: { '@type': 'Organization', name: 'The Answer Engine', url: 'https://theanswerengine.ai' },
+      author: {
+        '@type': 'Person',
+        '@id': 'https://theanswerengine.ai/about#justin-borges',
+        name: 'Justin Borges',
+        jobTitle: 'Founder, The Answer Engine',
+        worksFor: {
+          '@type': 'Organization',
+          name: 'The Answer Engine',
+          url: 'https://theanswerengine.ai',
+        },
+        knowsAbout: ['Answer Engine Optimization', 'AI Search', 'Content Strategy', 'Real Estate Marketing', 'Citation Surface'],
+        url: 'https://theanswerengine.ai/about',
+        image: 'https://theanswerengine.ai/justin-borges.webp',
+      },
       publisher: {
         '@type': 'Organization',
         name: 'The Answer Engine',
@@ -132,9 +145,9 @@ export default function BlogPost() {
       {/* BREADCRUMB */}
       <div className="max-w-4xl mx-auto px-6 pt-20 pb-4">
         <nav className="flex items-center gap-2 text-sm text-gray-500">
-          <Link href="/" className="hover:text-[#FF6A00] transition-colors">Home</Link>
+          <Link href="/" className="hover:text-[#F27D24] transition-colors">Home</Link>
           <span>/</span>
-          <Link href="/blog" className="hover:text-[#FF6A00] transition-colors">Blog</Link>
+          <Link href="/blog" className="hover:text-[#F27D24] transition-colors">Blog</Link>
           <span>/</span>
           <span className="text-gray-400">Does Having More Web Pages Help AI Find You</span>
         </nav>
@@ -143,7 +156,7 @@ export default function BlogPost() {
       {/* HEADER */}
       <header className="max-w-4xl mx-auto px-6 pb-12">
         <div className="flex items-center gap-3 mb-6">
-          <span className="bg-[#FF6A00]/10 text-[#FF6A00] px-3 py-1 rounded-full text-xs font-semibold tracking-wide uppercase">Myth Busters</span>
+          <span className="bg-[#F27D24]/10 text-[#F27D24] px-3 py-1 rounded-full text-xs font-semibold tracking-wide uppercase">Myth Busters</span>
           <time className="text-gray-500 text-sm">{publishDate}</time>
         </div>
         <h1 className="font-plus-jakarta text-4xl md:text-5xl font-bold text-white leading-tight mb-6">{title}</h1>
@@ -151,7 +164,7 @@ export default function BlogPost() {
           Business owners instinctively add pages when AI ignores them. More content equals more visibility, right? Wrong. AI platforms evaluate your site as a single interconnected system, and the businesses drowning in thin, disconnected pages are often the ones least visible to ChatGPT, Perplexity, and Google AI. Here is the evidence, and the framework that actually works.
         </p>
         <div className="flex flex-wrap gap-4 mt-6 text-sm text-gray-500">
-          <span>By The Answer Engine Team</span>
+          <span>By Justin Borges</span>
           <span>9 min read</span>
           <span>Updated {publishDate}</span>
         </div>
@@ -174,9 +187,9 @@ export default function BlogPost() {
               <div className="text-5xl font-bold font-plus-jakarta text-white/10">50</div>
               <div className="text-xs text-gray-600 mt-1">Disconnected Pages</div>
             </div>
-            <div className="text-[#FF6A00] text-3xl font-bold">&lt;</div>
+            <div className="text-[#F27D24] text-3xl font-bold">&lt;</div>
             <div className="text-center">
-              <div className="text-5xl font-bold font-plus-jakarta text-[#FF6A00]">12</div>
+              <div className="text-5xl font-bold font-plus-jakarta text-[#F27D24]">12</div>
               <div className="text-xs text-gray-400 mt-1">Structured Ecosystem Pages</div>
             </div>
           </div>
@@ -184,7 +197,7 @@ export default function BlogPost() {
       </div>
 
       <article className="max-w-4xl mx-auto px-6 pb-20">
-        <div className="prose prose-invert prose-lg max-w-none prose-headings:font-plus-jakarta prose-headings:text-white prose-p:text-gray-300 prose-a:text-[#FF6A00] prose-a:no-underline hover:prose-a:underline prose-strong:text-white">
+        <div className="prose prose-invert prose-lg max-w-none prose-headings:font-plus-jakarta prose-headings:text-white prose-p:text-gray-300 prose-a:text-[#F27D24] prose-a:no-underline hover:prose-a:underline prose-strong:text-white">
 
           {/* TABLE OF CONTENTS */}
           <div className="ae-toc not-prose">
@@ -377,21 +390,21 @@ export default function BlogPost() {
               <div className="ae-bar-item">
                 <div className="ae-bar-label text-sm text-gray-300 mb-1">FCP under 0.4s</div>
                 <div className="ae-bar-track bg-white/5 rounded-full h-3 relative overflow-hidden">
-                  <div className="ae-bar-fill h-full rounded-full bg-[#FF6A00]" style={{ width: '100%' }}></div>
+                  <div className="ae-bar-fill h-full rounded-full bg-[#F27D24]" style={{ width: '100%' }}></div>
                 </div>
-                <div className="ae-bar-value text-right text-xs text-[#FF6A00] font-semibold mt-1">6.7 avg citations</div>
+                <div className="ae-bar-value text-right text-xs text-[#F27D24] font-semibold mt-1">6.7 avg citations</div>
               </div>
               <div className="ae-bar-item">
                 <div className="ae-bar-label text-sm text-gray-300 mb-1">FCP 0.4s to 1.2s</div>
                 <div className="ae-bar-track bg-white/5 rounded-full h-3 relative overflow-hidden">
-                  <div className="ae-bar-fill h-full rounded-full bg-[#FF6A00]/70" style={{ width: '64%' }}></div>
+                  <div className="ae-bar-fill h-full rounded-full bg-[#F27D24]/70" style={{ width: '64%' }}></div>
                 </div>
                 <div className="ae-bar-value text-right text-xs text-gray-400 font-semibold mt-1">4.3 avg citations</div>
               </div>
               <div className="ae-bar-item">
                 <div className="ae-bar-label text-sm text-gray-300 mb-1">FCP 1.2s to 2.5s</div>
                 <div className="ae-bar-track bg-white/5 rounded-full h-3 relative overflow-hidden">
-                  <div className="ae-bar-fill h-full rounded-full bg-[#FF6A00]/40" style={{ width: '45%' }}></div>
+                  <div className="ae-bar-fill h-full rounded-full bg-[#F27D24]/40" style={{ width: '45%' }}></div>
                 </div>
                 <div className="ae-bar-value text-right text-xs text-gray-500 font-semibold mt-1">3.0 avg citations</div>
               </div>
@@ -456,7 +469,7 @@ export default function BlogPost() {
                 <tr className="border-b border-white/10">
                   <th className="text-left py-3 pr-6 font-plus-jakarta text-gray-400 font-semibold">Factor</th>
                   <th className="text-left py-3 pr-6 font-plus-jakarta text-gray-400 font-semibold">50 Disconnected Posts</th>
-                  <th className="text-left py-3 font-plus-jakarta text-[#FF6A00] font-semibold">12-Page Structured Ecosystem</th>
+                  <th className="text-left py-3 font-plus-jakarta text-[#F27D24] font-semibold">12-Page Structured Ecosystem</th>
                 </tr>
               </thead>
               <tbody className="divide-y divide-white/5">
@@ -568,16 +581,16 @@ export default function BlogPost() {
           <div className="not-prose my-10 p-6 rounded-2xl bg-white/[0.02] border border-white/5">
             <h4 className="font-plus-jakarta text-sm font-semibold text-gray-400 uppercase tracking-wide mb-4">Related Reading</h4>
             <div className="grid sm:grid-cols-3 gap-4">
-              <Link href="/blog/why-your-blog-not-getting-ai-citations" className="block p-4 rounded-xl bg-white/[0.02] border border-white/5 hover:border-[#FF6A00]/30 transition-colors">
-                <div className="text-xs text-[#FF6A00] font-semibold uppercase mb-2">Myth Busters</div>
+              <Link href="/blog/why-your-blog-not-getting-ai-citations" className="block p-4 rounded-xl bg-white/[0.02] border border-white/5 hover:border-[#F27D24]/30 transition-colors">
+                <div className="text-xs text-[#F27D24] font-semibold uppercase mb-2">Myth Busters</div>
                 <div className="text-sm text-gray-300 leading-snug">Why Your Blog Is Not Getting AI Citations</div>
               </Link>
-              <Link href="/blog/does-having-a-blog-actually-help-ai-recommend-your-business" className="block p-4 rounded-xl bg-white/[0.02] border border-white/5 hover:border-[#FF6A00]/30 transition-colors">
-                <div className="text-xs text-[#FF6A00] font-semibold uppercase mb-2">Strategy</div>
+              <Link href="/blog/does-having-a-blog-actually-help-ai-recommend-your-business" className="block p-4 rounded-xl bg-white/[0.02] border border-white/5 hover:border-[#F27D24]/30 transition-colors">
+                <div className="text-xs text-[#F27D24] font-semibold uppercase mb-2">Strategy</div>
                 <div className="text-sm text-gray-300 leading-snug">Does Having a Blog Actually Help AI Recommend Your Business?</div>
               </Link>
-              <Link href="/blog/content-marketing-vs-ai-optimization" className="block p-4 rounded-xl bg-white/[0.02] border border-white/5 hover:border-[#FF6A00]/30 transition-colors">
-                <div className="text-xs text-[#FF6A00] font-semibold uppercase mb-2">AEO vs SEO</div>
+              <Link href="/blog/content-marketing-vs-ai-optimization" className="block p-4 rounded-xl bg-white/[0.02] border border-white/5 hover:border-[#F27D24]/30 transition-colors">
+                <div className="text-xs text-[#F27D24] font-semibold uppercase mb-2">AEO vs SEO</div>
                 <div className="text-sm text-gray-300 leading-snug">Content Marketing vs. AI Optimization: Key Differences</div>
               </Link>
             </div>
@@ -593,32 +606,32 @@ export default function BlogPost() {
 
           <div className="ae-decision-matrix not-prose my-8 space-y-3">
             <div className="ae-decision-row flex items-start gap-3 p-4 rounded-xl bg-white/[0.02] border border-white/5">
-              <div className="ae-decision-if flex-1 text-sm text-gray-300"><span className="text-[#FF6A00] font-semibold">IF</span> the new page fills a documented semantic gap in an existing topic cluster</div>
+              <div className="ae-decision-if flex-1 text-sm text-gray-300"><span className="text-[#F27D24] font-semibold">IF</span> the new page fills a documented semantic gap in an existing topic cluster</div>
               <div className="ae-decision-arrow text-gray-600">&#8594;</div>
               <div className="ae-decision-then flex-1 text-sm text-green-400 font-semibold">ADD IT with deliberate interlinks to related pages</div>
             </div>
             <div className="ae-decision-row flex items-start gap-3 p-4 rounded-xl bg-white/[0.02] border border-white/5">
-              <div className="ae-decision-if flex-1 text-sm text-gray-300"><span className="text-[#FF6A00] font-semibold">IF</span> you have 3 to 5 thin posts on overlapping subtopics</div>
+              <div className="ae-decision-if flex-1 text-sm text-gray-300"><span className="text-[#F27D24] font-semibold">IF</span> you have 3 to 5 thin posts on overlapping subtopics</div>
               <div className="ae-decision-arrow text-gray-600">&#8594;</div>
               <div className="ae-decision-then flex-1 text-sm text-yellow-400 font-semibold">CONSOLIDATE into one deep resource before adding anything new</div>
             </div>
             <div className="ae-decision-row flex items-start gap-3 p-4 rounded-xl bg-white/[0.02] border border-white/5">
-              <div className="ae-decision-if flex-1 text-sm text-gray-300"><span className="text-[#FF6A00] font-semibold">IF</span> the new page would address a topic outside your core authority domain</div>
+              <div className="ae-decision-if flex-1 text-sm text-gray-300"><span className="text-[#F27D24] font-semibold">IF</span> the new page would address a topic outside your core authority domain</div>
               <div className="ae-decision-arrow text-gray-600">&#8594;</div>
               <div className="ae-decision-then flex-1 text-sm text-red-400 font-semibold">DO NOT ADD IT, it will dilute your topical authority signal</div>
             </div>
             <div className="ae-decision-row flex items-start gap-3 p-4 rounded-xl bg-white/[0.02] border border-white/5">
-              <div className="ae-decision-if flex-1 text-sm text-gray-300"><span className="text-[#FF6A00] font-semibold">IF</span> your site loads slowly and has more than 40 pages</div>
+              <div className="ae-decision-if flex-1 text-sm text-gray-300"><span className="text-[#F27D24] font-semibold">IF</span> your site loads slowly and has more than 40 pages</div>
               <div className="ae-decision-arrow text-gray-600">&#8594;</div>
               <div className="ae-decision-then flex-1 text-sm text-yellow-400 font-semibold">FIX SPEED FIRST before any new content is published</div>
             </div>
             <div className="ae-decision-row flex items-start gap-3 p-4 rounded-xl bg-white/[0.02] border border-white/5">
-              <div className="ae-decision-if flex-1 text-sm text-gray-300"><span className="text-[#FF6A00] font-semibold">IF</span> you have pages with under 400 words and no external links pointing to them</div>
+              <div className="ae-decision-if flex-1 text-sm text-gray-300"><span className="text-[#F27D24] font-semibold">IF</span> you have pages with under 400 words and no external links pointing to them</div>
               <div className="ae-decision-arrow text-gray-600">&#8594;</div>
               <div className="ae-decision-then flex-1 text-sm text-red-400 font-semibold">EXPAND or RETIRE before building new pages</div>
             </div>
             <div className="ae-decision-row flex items-start gap-3 p-4 rounded-xl bg-white/[0.02] border border-white/5">
-              <div className="ae-decision-if flex-1 text-sm text-gray-300"><span className="text-[#FF6A00] font-semibold">IF</span> a new page would be the third or deeper level of a well-structured hub</div>
+              <div className="ae-decision-if flex-1 text-sm text-gray-300"><span className="text-[#F27D24] font-semibold">IF</span> a new page would be the third or deeper level of a well-structured hub</div>
               <div className="ae-decision-arrow text-gray-600">&#8594;</div>
               <div className="ae-decision-then flex-1 text-sm text-green-400 font-semibold">ADD IT, this is exactly how authority compounds</div>
             </div>
@@ -663,42 +676,34 @@ export default function BlogPost() {
               </div>
             </div>
             <div className="mt-6 pt-6 border-t border-white/5">
-              <div className="text-xs font-semibold text-[#FF6A00] uppercase tracking-wide mb-3">The Single Most Important Rule</div>
+              <div className="text-xs font-semibold text-[#F27D24] uppercase tracking-wide mb-3">The Single Most Important Rule</div>
               <p className="text-sm text-gray-300">Every page you add should either deepen an existing topic cluster or directly answer a question your target customer is asking AI. If it does neither, it is working against you.</p>
             </div>
           </div>
 
           {/* AUTHOR CARD */}
-          <div className="ae-author-card not-prose">
-            <div className="ae-author-avatar">
-              <svg viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg" className="w-full h-full">
-                <circle cx="20" cy="20" r="20" fill="#FF6A00" fillOpacity="0.15" />
-                <circle cx="20" cy="16" r="7" fill="#FF6A00" fillOpacity="0.8" />
-                <path d="M6 36c0-7.732 6.268-14 14-14s14 6.268 14 14" stroke="#FF6A00" strokeWidth="2" strokeLinecap="round" opacity="0.6" />
-              </svg>
-            </div>
-            <div>
-              <div className="font-plus-jakarta font-bold text-white text-sm">The Answer Engine Team</div>
-              <div className="text-gray-500 text-xs mt-1">
-                The Answer Engine team helps local businesses and service companies get found by ChatGPT, Perplexity, Google AI Overviews, and every other AI platform that is replacing traditional search. We build content ecosystems, not content archives.
-              </div>
-              <div className="flex items-center gap-4 mt-3">
-                <Link href="/about" className="text-xs text-[#FF6A00] hover:underline">About Us</Link>
-                <Link href="/blog" className="text-xs text-[#FF6A00] hover:underline">More Articles</Link>
-                <Link href="/blindspot" className="text-xs text-[#FF6A00] hover:underline">Free Audit</Link>
+          <div className="ae-author-card">
+              <img
+                src="/justin-borges.webp"
+                alt="Justin Borges, Founder of The Answer Engine"
+                style={{ width: 64, height: 64, borderRadius: '50%', objectFit: 'cover', flexShrink: 0 }}
+              />
+              <div>
+                <div className="ae-author-name" style={{ fontWeight: 600 }}>Justin Borges</div>
+                <div className="ae-author-role" style={{ fontWeight: 400 }}>Founder, The Answer Engine</div>
+                <p style={{ marginTop: 8, fontSize: '0.875rem', color: 'rgba(255,255,255,0.65)', lineHeight: 1.6 }}>Justin Borges founded The Answer Engine in 2025 after 13+ years in real estate, $200M+ in production, and discovering that AI search rankings now decide who gets cited as the answer. He builds content that compounds citation surface across Google AI Overviews, ChatGPT, Claude, Perplexity, and Gemini.</p>
               </div>
             </div>
-          </div>
 
           {/* 3-TIER CTA BLOCK */}
-          <div className="not-prose my-16 p-8 rounded-2xl bg-gradient-to-br from-[#FF6A00]/10 to-transparent border border-[#FF6A00]/20">
+          <div className="not-prose my-16 p-8 rounded-2xl bg-gradient-to-br from-[#F27D24]/10 to-transparent border border-[#F27D24]/20">
             <h3 className="font-plus-jakarta text-2xl font-bold text-white mb-3">Stop Publishing Pages That AI Ignores</h3>
             <p className="text-gray-400 mb-6">Get your free Blind Spot Report and discover which of your pages AI actually reads, and which ones it skips entirely.</p>
-            <Link href="/blindspot" className="inline-flex items-center gap-2 bg-[#FF6A00] text-white px-6 py-3 rounded-lg font-semibold hover:bg-[#e55f00] transition-colors">
+            <Link href="/blindspot" className="inline-flex items-center gap-2 bg-[#F27D24] text-white px-6 py-3 rounded-lg font-semibold hover:bg-[#D96416] transition-colors">
               Get Your Free Blind Spot Report
               <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" /></svg>
             </Link>
-            <div className="flex flex-wrap items-center gap-6 mt-6 pt-6 border-t border-[#FF6A00]/10">
+            <div className="flex flex-wrap items-center gap-6 mt-6 pt-6 border-t border-[#F27D24]/10">
               <a href="tel:+12134442229" className="flex items-center gap-2 text-gray-400 hover:text-white transition-colors">
                 <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" /></svg>
                 (213) 444-2229
@@ -753,7 +758,7 @@ export default function BlogPost() {
           {/* FINAL CTA */}
           <div className="ae-final-cta not-prose">
             <div className="text-center">
-              <div className="inline-block text-xs font-semibold text-[#FF6A00] uppercase tracking-widest mb-4 px-3 py-1 rounded-full bg-[#FF6A00]/10">Ready to Build the Right Content System?</div>
+              <div className="inline-block text-xs font-semibold text-[#F27D24] uppercase tracking-widest mb-4 px-3 py-1 rounded-full bg-[#F27D24]/10">Ready to Build the Right Content System?</div>
               <h2 className="font-plus-jakarta text-3xl md:text-4xl font-bold text-white mb-4">
                 Stop Counting Pages.<br className="hidden md:block" /> Start Building Authority.
               </h2>
@@ -763,7 +768,7 @@ export default function BlogPost() {
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
                 <Link
                   href="/blindspot"
-                  className="inline-flex items-center justify-center gap-2 bg-[#FF6A00] text-white px-8 py-4 rounded-xl font-bold text-lg hover:bg-[#e55f00] transition-colors shadow-lg shadow-[#FF6A00]/20"
+                  className="inline-flex items-center justify-center gap-2 bg-[#F27D24] text-white px-8 py-4 rounded-xl font-bold text-lg hover:bg-[#D96416] transition-colors shadow-lg shadow-[#F27D24]/20"
                 >
                   Get Your Free Blind Spot Report
                   <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" /></svg>

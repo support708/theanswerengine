@@ -17,7 +17,7 @@ export const metadata: Metadata = {
     type: 'article',
     publishedTime: '2025-11-09',
     modifiedTime: '2025-11-09',
-    authors: ['Justin Borges'],
+    authors: ['https://theanswerengine.ai/about'],
     url: 'https://theanswerengine.ai/blog/how-to-get-google-ai-chatgpt-recommend-business',
     images: [
       {
@@ -72,7 +72,17 @@ function ComprehensiveSchema() {
         },
         "author": {
           "@type": "Person",
-          "@id": "https://theanswerengine.ai/about#founder"
+          "@id": "https://theanswerengine.ai/about#justin-borges",
+          "name": "Justin Borges",
+          "jobTitle": "Founder, The Answer Engine",
+          "worksFor": {
+            "@type": "Organization",
+            "name": "The Answer Engine",
+            "url": "https://theanswerengine.ai"
+          },
+          "knowsAbout": ["Answer Engine Optimization", "AI Search", "Content Strategy", "Real Estate Marketing", "Citation Surface"],
+          "url": "https://theanswerengine.ai/about",
+          "image": "https://theanswerengine.ai/justin-borges.webp"
         },
         "publisher": {
           "@type": "Organization",
@@ -251,7 +261,7 @@ export default function HowToGetAIRecommendBusiness() {
             </div>
 
             <h1 className="text-3xl sm:text-4xl lg:text-5xl font-semibold mb-6 text-white leading-tight">
-              How to Get <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#FF6A00] to-[#FF8533]">Google AI Overviews and ChatGPT</span> to Recommend Your Business
+              How to Get <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#F27D24] to-[#FF8533]">Google AI Overviews and ChatGPT</span> to Recommend Your Business
             </h1>
 
             {/* Featured Image */}
@@ -293,7 +303,7 @@ export default function HowToGetAIRecommendBusiness() {
           </header>
 
           {/* ══════════════ PROSE WRAPPER ══════════════ */}
-          <div className="prose prose-invert prose-lg max-w-none prose-headings:font-plus-jakarta prose-headings:text-white prose-p:text-gray-300 prose-a:text-[#FF6A00] prose-a:no-underline hover:prose-a:underline prose-strong:text-white">
+          <div className="prose prose-invert prose-lg max-w-none prose-headings:font-plus-jakarta prose-headings:text-white prose-p:text-gray-300 prose-a:text-[#F27D24] prose-a:no-underline hover:prose-a:underline prose-strong:text-white">
 
             {/* ── STATS GRID ── */}
             <div className="ae-stats-grid not-prose">

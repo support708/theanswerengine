@@ -17,7 +17,7 @@ export const metadata: Metadata = {
     type: 'article',
     publishedTime: '2026-03-17',
     modifiedTime: '2026-03-17',
-    authors: ['The Answer Engine Team'],
+    authors: ['https://theanswerengine.ai/about'],
     url: 'https://theanswerengine.ai/blog/how-online-reviews-shape-ai-recommendations',
     images: [
       {
@@ -71,9 +71,18 @@ function ComprehensiveSchema() {
           "height": 630
         },
         "author": {
-          "@type": "Organization",
-          "name": "The Answer Engine Team",
-          "url": "https://theanswerengine.ai/about"
+          "@type": "Person",
+          "@id": "https://theanswerengine.ai/about#justin-borges",
+          "name": "Justin Borges",
+          "jobTitle": "Founder, The Answer Engine",
+          "worksFor": {
+            "@type": "Organization",
+            "name": "The Answer Engine",
+            "url": "https://theanswerengine.ai"
+          },
+          "knowsAbout": ["Answer Engine Optimization", "AI Search", "Content Strategy", "Real Estate Marketing", "Citation Surface"],
+          "url": "https://theanswerengine.ai/about",
+          "image": "https://theanswerengine.ai/justin-borges.webp"
         },
         "publisher": {
           "@type": "Organization",
@@ -248,7 +257,7 @@ export default function HowOnlineReviewsShapeAIRecommendations() {
                 <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={2}>
                   <path strokeLinecap="round" strokeLinejoin="round" d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z" />
                 </svg>
-                <span>The Answer Engine Team</span>
+                <span>Justin Borges</span>
               </div>
             </div>
           </div>
@@ -278,7 +287,7 @@ export default function HowOnlineReviewsShapeAIRecommendations() {
           </div>
 
           {/* Article Body */}
-          <article className="prose prose-invert prose-lg max-w-none prose-headings:font-plus-jakarta prose-headings:text-white prose-p:text-gray-300 prose-a:text-[#FF6A00] prose-a:no-underline hover:prose-a:underline prose-strong:text-white">
+          <article className="prose prose-invert prose-lg max-w-none prose-headings:font-plus-jakarta prose-headings:text-white prose-p:text-gray-300 prose-a:text-[#F27D24] prose-a:no-underline hover:prose-a:underline prose-strong:text-white">
 
             {/* Introduction */}
             <p className="text-xl text-gray-300 leading-relaxed mb-10">
@@ -807,12 +816,17 @@ export default function HowOnlineReviewsShapeAIRecommendations() {
           </article>
 
           {/* Author Card */}
-          <div className="not-prose ae-author-card">
-            <div className="ae-author-avatar">AE</div>
-            <div>
-              <div className="ae-author-name">The Answer Engine Team</div>
-              <div className="ae-author-role">
-                We help local service businesses get recommended by AI platforms like ChatGPT, Perplexity, Claude, and Google AI. Our research-driven approach identifies exactly where your business is invisible to AI and what to fix first.
+          <div className="not-prose">
+            <div className="ae-author-card">
+              <img
+                src="/justin-borges.webp"
+                alt="Justin Borges, Founder of The Answer Engine"
+                style={{ width: 64, height: 64, borderRadius: '50%', objectFit: 'cover', flexShrink: 0 }}
+              />
+              <div>
+                <div className="ae-author-name" style={{ fontWeight: 600 }}>Justin Borges</div>
+                <div className="ae-author-role" style={{ fontWeight: 400 }}>Founder, The Answer Engine</div>
+                <p style={{ marginTop: 8, fontSize: '0.875rem', color: 'rgba(255,255,255,0.65)', lineHeight: 1.6 }}>Justin Borges founded The Answer Engine in 2025 after 13+ years in real estate, $200M+ in production, and discovering that AI search rankings now decide who gets cited as the answer. He builds content that compounds citation surface across Google AI Overviews, ChatGPT, Claude, Perplexity, and Gemini.</p>
               </div>
             </div>
           </div>

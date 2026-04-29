@@ -17,7 +17,7 @@ export const metadata: Metadata = {
     type: 'article',
     publishedTime: '2025-11-09',
     modifiedTime: '2025-11-09',
-    authors: ['Justin Borges'],
+    authors: ['https://theanswerengine.ai/about'],
     url: 'https://theanswerengine.ai/blog/google-rankings-dont-matter',
     images: [
       {
@@ -72,7 +72,17 @@ function ComprehensiveSchema() {
         },
         "author": {
           "@type": "Person",
-          "@id": "https://theanswerengine.ai/about#founder"
+          "@id": "https://theanswerengine.ai/about#justin-borges",
+          "name": "Justin Borges",
+          "jobTitle": "Founder, The Answer Engine",
+          "worksFor": {
+            "@type": "Organization",
+            "name": "The Answer Engine",
+            "url": "https://theanswerengine.ai"
+          },
+          "knowsAbout": ["Answer Engine Optimization", "AI Search", "Content Strategy", "Real Estate Marketing", "Citation Surface"],
+          "url": "https://theanswerengine.ai/about",
+          "image": "https://theanswerengine.ai/justin-borges.webp"
         },
         "publisher": {
           "@type": "Organization",
@@ -225,12 +235,12 @@ export default function GoogleRankingsDontMatter() {
               <span className="text-gray-700">|</span>
               <span>Updated {new Date(lastUpdated).toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' })}</span>
               <span className="text-gray-700">|</span>
-              <span>By The Answer Engine Team</span>
+              <span>By Justin Borges</span>
             </div>
           </header>
 
           {/* Main Content */}
-          <div className="prose prose-invert prose-lg max-w-none prose-headings:font-plus-jakarta prose-headings:text-white prose-p:text-gray-300 prose-a:text-[#FF6A00] prose-a:no-underline hover:prose-a:underline prose-strong:text-white">
+          <div className="prose prose-invert prose-lg max-w-none prose-headings:font-plus-jakarta prose-headings:text-white prose-p:text-gray-300 prose-a:text-[#F27D24] prose-a:no-underline hover:prose-a:underline prose-strong:text-white">
 
             {/* Opening Stats Grid */}
             <div className="ae-stats-grid not-prose">
@@ -830,7 +840,7 @@ export default function GoogleRankingsDontMatter() {
             {/* Author Card */}
             <div className="ae-author-card not-prose">
               <div>
-                <p><strong>Written by: The Answer Engine Team</strong></p>
+                <p><strong>Written by: Justin Borges</strong></p>
                 <p>The Answer Engine specializes in Answer Engine Optimization (AEO) for local service businesses. We help companies get cited by Google AI Overviews, ChatGPT, Claude, Perplexity, and other AI platforms, positioning them as the trusted expert in their market.</p>
                 <p><strong>Credentials:</strong> 2+ years specialized AEO experience, 10+ years combined traditional SEO, 500+ schema implementations deployed, 100+ featured snippet wins for clients.</p>
                 <p><Link href="/">Learn more at TheAnswerEngine.ai</Link></p>
@@ -848,7 +858,7 @@ export default function GoogleRankingsDontMatter() {
               <h3>Your Competitors Are Getting Cited by AI. Are You?</h3>
               <p>Every day you wait, another business in your market is building the citation history that makes them the default AI recommendation. Do not let that business be your competitor.</p>
               <Link href="/blindspot" className="ae-final-cta-pulse">Get Your Free Blind Spot Report Now</Link>
-              <div className="flex flex-wrap items-center justify-center gap-6 mt-6 pt-6 border-t border-[#FF6A00]/20">
+              <div className="flex flex-wrap items-center justify-center gap-6 mt-6 pt-6 border-t border-[#F27D24]/20">
                 <a href="tel:+12134442229" className="flex items-center gap-2 text-gray-400 hover:text-white transition-colors">
                   <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" /></svg>
                   (213) 444-2229

@@ -31,7 +31,7 @@ export const metadata: Metadata = {
     description,
     type: 'article',
     publishedTime: publishDate,
-    authors: ['The Answer Engine Team'],
+    authors: ['https://theanswerengine.ai/about'],
     url: `https://theanswerengine.ai/blog/${slug}`,
     images: [
       {
@@ -64,9 +64,18 @@ const jsonLd = {
       datePublished: publishDate,
       dateModified: publishDate,
       author: {
-        '@type': 'Organization',
-        name: 'The Answer Engine',
-        url: 'https://theanswerengine.ai',
+        '@type': 'Person',
+        '@id': 'https://theanswerengine.ai/about#justin-borges',
+        name: 'Justin Borges',
+        jobTitle: 'Founder, The Answer Engine',
+        worksFor: {
+          '@type': 'Organization',
+          name: 'The Answer Engine',
+          url: 'https://theanswerengine.ai',
+        },
+        knowsAbout: ['Answer Engine Optimization', 'AI Search', 'Content Strategy', 'Real Estate Marketing', 'Citation Surface'],
+        url: 'https://theanswerengine.ai/about',
+        image: 'https://theanswerengine.ai/justin-borges.webp',
       },
       publisher: {
         '@type': 'Organization',
@@ -211,17 +220,17 @@ export default function Page() {
               fill="none"
               aria-hidden="true"
             >
-              <rect x="80" y="100" width="200" height="140" rx="8" stroke="#FF6A00" strokeWidth="1" fill="none" opacity="0.2" />
-              <line x1="100" y1="200" x2="130" y2="170" stroke="#FF6A00" strokeWidth="1.5" opacity="0.25" />
-              <line x1="130" y1="170" x2="160" y2="185" stroke="#FF6A00" strokeWidth="1.5" opacity="0.25" />
-              <line x1="160" y1="185" x2="190" y2="150" stroke="#FF6A00" strokeWidth="1.5" opacity="0.25" />
-              <line x1="190" y1="150" x2="220" y2="140" stroke="#FF6A00" strokeWidth="1.5" opacity="0.25" />
-              <line x1="220" y1="140" x2="250" y2="160" stroke="#FF6A00" strokeWidth="1.5" opacity="0.25" />
-              <rect x="500" y="180" width="20" height="60" fill="#FF6A00" opacity="0.15" rx="2" />
-              <rect x="530" y="150" width="20" height="90" fill="#FF6A00" opacity="0.2" rx="2" />
-              <rect x="560" y="130" width="20" height="110" fill="#FF6A00" opacity="0.25" rx="2" />
-              <rect x="590" y="160" width="20" height="80" fill="#FF6A00" opacity="0.18" rx="2" />
-              <rect x="620" y="110" width="20" height="130" fill="#FF6A00" opacity="0.22" rx="2" />
+              <rect x="80" y="100" width="200" height="140" rx="8" stroke="#F27D24" strokeWidth="1" fill="none" opacity="0.2" />
+              <line x1="100" y1="200" x2="130" y2="170" stroke="#F27D24" strokeWidth="1.5" opacity="0.25" />
+              <line x1="130" y1="170" x2="160" y2="185" stroke="#F27D24" strokeWidth="1.5" opacity="0.25" />
+              <line x1="160" y1="185" x2="190" y2="150" stroke="#F27D24" strokeWidth="1.5" opacity="0.25" />
+              <line x1="190" y1="150" x2="220" y2="140" stroke="#F27D24" strokeWidth="1.5" opacity="0.25" />
+              <line x1="220" y1="140" x2="250" y2="160" stroke="#F27D24" strokeWidth="1.5" opacity="0.25" />
+              <rect x="500" y="180" width="20" height="60" fill="#F27D24" opacity="0.15" rx="2" />
+              <rect x="530" y="150" width="20" height="90" fill="#F27D24" opacity="0.2" rx="2" />
+              <rect x="560" y="130" width="20" height="110" fill="#F27D24" opacity="0.25" rx="2" />
+              <rect x="590" y="160" width="20" height="80" fill="#F27D24" opacity="0.18" rx="2" />
+              <rect x="620" y="110" width="20" height="130" fill="#F27D24" opacity="0.22" rx="2" />
               {[0, 1, 2, 3, 4, 5, 6, 7].map((i) =>
                 [0, 1, 2, 3, 4].map((j) => (
                   <circle
@@ -229,7 +238,7 @@ export default function Page() {
                     cx={80 + i * 90}
                     cy={60 + j * 80}
                     r="1.5"
-                    fill="#FF6A00"
+                    fill="#F27D24"
                     opacity="0.12"
                   />
                 ))
@@ -247,13 +256,13 @@ export default function Page() {
                 <span>-</span>
                 <span>12 min read</span>
                 <span>-</span>
-                <span>The Answer Engine Team</span>
+                <span>Justin Borges</span>
               </div>
             </div>
           </div>
 
           {/* Article Body */}
-          <article className="prose prose-invert prose-lg max-w-none prose-headings:font-plus-jakarta prose-headings:text-white prose-p:text-gray-300 prose-a:text-[#FF6A00] prose-a:no-underline hover:prose-a:underline prose-strong:text-white">
+          <article className="prose prose-invert prose-lg max-w-none prose-headings:font-plus-jakarta prose-headings:text-white prose-p:text-gray-300 prose-a:text-[#F27D24] prose-a:no-underline hover:prose-a:underline prose-strong:text-white">
 
             {/* ── STATS GRID ── */}
             <div className="ae-stats-grid not-prose">
@@ -826,7 +835,7 @@ export default function Page() {
             <h2>Not Sure Where You Stand in AI Search?</h2>
             <p>Our free Blind Spot Report runs a complete analysis across all major AI platforms, maps your competitor landscape, and delivers a prioritized action plan. No pitch, just the data.</p>
             <Link href="/blindspot" className="ae-final-cta-pulse">Get Your Free Blind Spot Report</Link>
-            <div className="flex flex-wrap items-center justify-center gap-6 mt-6 pt-6 border-t border-[#FF6A00]/10">
+            <div className="flex flex-wrap items-center justify-center gap-6 mt-6 pt-6 border-t border-[#F27D24]/10">
               <a href="tel:+12134442229" className="flex items-center gap-2 text-gray-400 hover:text-white transition-colors">
                 <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" /></svg>
                 (213) 444-2229
@@ -846,11 +855,11 @@ export default function Page() {
 
           {/* ── AUTHOR CARD ── */}
           <section className="ae-author-card not-prose">
-            <div className="w-12 h-12 rounded-full bg-[#FF6A00] flex items-center justify-center text-white font-bold text-lg flex-shrink-0">
+            <div className="w-12 h-12 rounded-full bg-[#F27D24] flex items-center justify-center text-white font-bold text-lg flex-shrink-0">
               AE
             </div>
             <div>
-              <p className="text-white font-semibold">The Answer Engine Team</p>
+              <p className="text-white font-semibold">Justin Borges</p>
               <p className="text-gray-500 text-sm">
                 Helping local businesses get found, recommended, and cited by AI search platforms.
               </p>

@@ -19,8 +19,26 @@ export const metadata: Metadata = {
   openGraph: {
     siteName: 'The Answer Engine',
     type: 'website',
-    locale: 'en_US'
-  }
+    locale: 'en_US',
+    url: 'https://www.theanswerengine.ai',
+    title: 'The Answer Engine | AEO for Local Businesses',
+    description: 'Answer Engine Optimization for local service businesses. 1.14M+ monthly impressions, citations across 4 AI platforms. One client per market, 90-day guarantee.',
+    images: [
+      {
+        url: 'https://www.theanswerengine.ai/og-default.png',
+        width: 1200,
+        height: 630,
+        alt: 'The Answer Engine — AEO for Local Businesses',
+      }
+    ],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    site: '@theanswerengine',
+    title: 'The Answer Engine | AEO for Local Businesses',
+    description: 'Answer Engine Optimization for local service businesses. 1.14M+ monthly impressions, citations across 4 AI platforms. 90-day guarantee.',
+    images: ['https://www.theanswerengine.ai/og-default.png'],
+  },
 };
 
 const spaceGrotesk = Space_Grotesk({
@@ -56,18 +74,54 @@ export default function RootLayout({
           dangerouslySetInnerHTML={{
             __html: JSON.stringify({
               "@context": "https://schema.org",
-              "@type": "Organization",
+              "@type": "ProfessionalService",
+              "@id": "https://www.theanswerengine.ai/#organization",
               "name": "The Answer Engine",
-              "description": "Answer Engine Optimization specialists helping businesses get cited by AI platforms like ChatGPT, Claude, Google AI Overviews, and Perplexity",
+              "legalName": "The Answer Engine LLC",
+              "description": "Answer Engine Optimization specialists helping local service businesses get cited by AI platforms like ChatGPT, Claude, Google AI Overviews, and Perplexity. Founded 2025. One client per market, 90-day citation guarantee.",
               "url": "https://www.theanswerengine.ai",
-              "logo": "https://www.theanswerengine.ai/TheAnswerEngine_white%20logo%20only.png",
-              "contactPoint": {
-                "@type": "ContactPoint",
-                "telephone": "+1-213-444-2229",
-                "contactType": "Sales",
-                "email": "support@theanswerengine.ai",
-                "availableLanguage": "English"
+              "foundingDate": "2025",
+              "logo": {
+                "@type": "ImageObject",
+                "url": "https://www.theanswerengine.ai/TheAnswerEngine_white%20logo%20only.png",
+                "width": 400,
+                "height": 400
               },
+              "image": "https://www.theanswerengine.ai/og-default.png",
+              "telephone": "+1-213-444-2229",
+              "email": "support@theanswerengine.ai",
+              "address": {
+                "@type": "PostalAddress",
+                "addressLocality": "Los Angeles",
+                "addressRegion": "CA",
+                "addressCountry": "US"
+              },
+              "areaServed": "US",
+              "serviceType": "Answer Engine Optimization",
+              "priceRange": "$$$$",
+              "founder": {
+                "@type": "Person",
+                "@id": "https://www.theanswerengine.ai/about#justin-borges",
+                "name": "Justin Borges",
+                "jobTitle": "Founder & AEO Strategist",
+                "url": "https://www.theanswerengine.ai/about",
+                "image": "https://www.theanswerengine.ai/justin-borges.webp",
+                "sameAs": [
+                  "https://www.linkedin.com/in/justinborges",
+                  "https://lametrohomefinder.com"
+                ],
+                "knowsAbout": ["Answer Engine Optimization", "AI Search", "Content Strategy", "Real Estate", "Citation Surface", "AEO"]
+              },
+              "contactPoint": [
+                {
+                  "@type": "ContactPoint",
+                  "telephone": "+1-213-444-2229",
+                  "contactType": "sales",
+                  "email": "support@theanswerengine.ai",
+                  "availableLanguage": "English",
+                  "hoursAvailable": "Mo-Fr 09:00-18:00"
+                }
+              ],
               "sameAs": [
                 "https://www.linkedin.com/company/theanswerengine",
                 "https://instagram.com/theanswerengine"
@@ -127,33 +181,33 @@ export default function RootLayout({
         <section id="contact" className="bg-[#1c1b1b] py-32 px-6 lg:px-24 border-t border-white/10">
           <div className="max-w-7xl mx-auto">
             <div className="mb-16">
-              <span className="font-mono text-[10px] text-[#FF6A00] tracking-widest uppercase block mb-4">Get in Touch // Let&apos;s Talk</span>
+              <span className="font-mono text-[10px] text-[#F27D24] tracking-widest uppercase block mb-4">Get in Touch // Let&apos;s Talk</span>
               <h2 className="font-headline font-black text-4xl sm:text-5xl lg:text-6xl tracking-tighter uppercase text-[#e5e2e1]">
-                GET IN <span className="text-[#FF6A00]">TOUCH</span>
+                GET IN <span className="text-[#F27D24]">TOUCH</span>
               </h2>
             </div>
 
             <div className="grid md:grid-cols-3 gap-0 border border-white/10 mb-16">
-              <div className="p-8 border-b md:border-b-0 md:border-r border-white/10 bg-[#2a2a2a] border-l-4 border-l-[#FF6A00]">
+              <div className="p-8 border-b md:border-b-0 md:border-r border-white/10 bg-[#2a2a2a] border-l-4 border-l-[#F27D24]">
                 <span className="font-mono text-[10px] text-white/40 tracking-widest uppercase block mb-3">CALL US</span>
-                <a href="tel:+12134442229" className="text-2xl font-headline font-bold text-[#e5e2e1] hover:text-[#FF6A00] transition-colors">
+                <a href="tel:+12134442229" className="text-2xl font-headline font-bold text-[#e5e2e1] hover:text-[#F27D24] transition-colors">
                   (213) 444-2229
                 </a>
               </div>
               <div className="p-8 border-b md:border-b-0 md:border-r border-white/10 bg-[#2a2a2a]">
                 <span className="font-mono text-[10px] text-white/40 tracking-widest uppercase block mb-3">EMAIL</span>
-                <a href="mailto:support@theanswerengine.ai" className="text-lg font-headline font-bold text-[#e5e2e1] hover:text-[#FF6A00] transition-colors break-all">
+                <a href="mailto:support@theanswerengine.ai" className="text-lg font-headline font-bold text-[#e5e2e1] hover:text-[#F27D24] transition-colors break-all">
                   support@theanswerengine.ai
                 </a>
               </div>
               <div className="p-8 bg-[#2a2a2a]">
                 <span className="font-mono text-[10px] text-white/40 tracking-widest uppercase block mb-3">BUSINESS HOURS</span>
                 <span className="text-lg font-headline font-bold text-[#e5e2e1]">MON-FRI 0900-1800 PT</span>
-                <span className="font-mono text-[10px] text-[#FF6A00] tracking-widest uppercase block mt-2">AVG RESPONSE: 2.4 HOURS</span>
+                <span className="font-mono text-[10px] text-[#F27D24] tracking-widest uppercase block mt-2">AVG RESPONSE: 2.4 HOURS</span>
               </div>
             </div>
 
-            <div className="bg-[#131313] border border-white/10 border-l-4 border-l-[#FF6A00] p-12 sm:p-16">
+            <div className="bg-[#131313] border border-white/10 border-l-4 border-l-[#F27D24] p-12 sm:p-16">
               <h3 className="font-headline font-black text-2xl sm:text-3xl tracking-tighter uppercase text-[#e5e2e1] mb-6">
                 FREE 30-MINUTE STRATEGY CALL
               </h3>
@@ -164,7 +218,7 @@ export default function RootLayout({
                   "Receive a 90-day dominance roadmap"
                 ].map((text, i) => (
                   <div key={i} className="flex items-center gap-3">
-                    <span className="text-[#FF6A00] text-sm">&#10003;</span>
+                    <span className="text-[#F27D24] text-sm">&#10003;</span>
                     <span className="text-white/60 text-sm">{text}</span>
                   </div>
                 ))}
@@ -172,7 +226,7 @@ export default function RootLayout({
               <div className="flex flex-col sm:flex-row gap-4">
                 <a
                   href="tel:+12134442229"
-                  className="inline-flex items-center justify-center bg-[#FF6A00] text-black font-black px-10 py-4 tracking-tighter hover:translate-y-[2px] transition-transform font-headline uppercase"
+                  className="inline-flex items-center justify-center bg-[#F27D24] text-black font-black px-10 py-4 tracking-tighter hover:translate-y-[2px] transition-transform font-headline uppercase"
                 >
                   SCHEDULE A CALL
                 </a>
@@ -194,15 +248,15 @@ export default function RootLayout({
             {/* Brand column */}
             <div className="md:col-span-1">
               <div className="font-headline font-black text-3xl tracking-tighter uppercase leading-none text-[#e5e2e1] mb-4">
-                THE<br />ANSWER<br /><span className="text-[#FF6A00]">ENGINE.</span>
+                THE<br />ANSWER<br /><span className="text-[#F27D24]">ENGINE.</span>
               </div>
               <div className="font-mono text-[10px] tracking-widest uppercase text-white/40 leading-relaxed space-y-1">
                 <div>Los Angeles, CA</div>
                 <div>(213) 444-2229</div>
                 <div className="break-all">support@theanswerengine.ai</div>
               </div>
-              <div className="mt-6 inline-flex items-center gap-2 font-mono text-[10px] tracking-widest uppercase text-[#FF6A00]">
-                <span className="w-1.5 h-1.5 bg-[#FF6A00] animate-pulse" />
+              <div className="mt-6 inline-flex items-center gap-2 font-mono text-[10px] tracking-widest uppercase text-[#F27D24]">
+                <span className="w-1.5 h-1.5 bg-[#F27D24] animate-pulse" />
                 Accepting new operators
               </div>
             </div>
@@ -211,10 +265,10 @@ export default function RootLayout({
             <div>
               <h4 className="font-headline font-black text-xs tracking-widest uppercase text-[#e5e2e1] mb-5">The System</h4>
               <ul className="space-y-3">
-                <li><a href="/services" className="font-mono text-[11px] tracking-widest uppercase text-white/50 hover:text-[#FF6A00] transition-colors">Services</a></li>
-                <li><a href="/services/answer-engine-audit" className="font-mono text-[11px] tracking-widest uppercase text-white/50 hover:text-[#FF6A00] transition-colors">Free Audit</a></li>
-                <li><a href="/case-studies" className="font-mono text-[11px] tracking-widest uppercase text-white/50 hover:text-[#FF6A00] transition-colors">Case Studies</a></li>
-                <li><a href="/territory-check" className="font-mono text-[11px] tracking-widest uppercase text-white/50 hover:text-[#FF6A00] transition-colors">Territory Check</a></li>
+                <li><a href="/services" className="font-mono text-[11px] tracking-widest uppercase text-white/50 hover:text-[#F27D24] transition-colors">Services</a></li>
+                <li><a href="/services/answer-engine-audit" className="font-mono text-[11px] tracking-widest uppercase text-white/50 hover:text-[#F27D24] transition-colors">Free Audit</a></li>
+                <li><a href="/case-studies" className="font-mono text-[11px] tracking-widest uppercase text-white/50 hover:text-[#F27D24] transition-colors">Case Studies</a></li>
+                <li><a href="/territory-check" className="font-mono text-[11px] tracking-widest uppercase text-white/50 hover:text-[#F27D24] transition-colors">Territory Check</a></li>
               </ul>
             </div>
 
@@ -222,10 +276,10 @@ export default function RootLayout({
             <div>
               <h4 className="font-headline font-black text-xs tracking-widest uppercase text-[#e5e2e1] mb-5">Industries</h4>
               <ul className="space-y-3">
-                <li><a href="/industries/real-estate" className="font-mono text-[11px] tracking-widest uppercase text-white/50 hover:text-[#FF6A00] transition-colors">Real Estate</a></li>
+                <li><a href="/industries/real-estate" className="font-mono text-[11px] tracking-widest uppercase text-white/50 hover:text-[#F27D24] transition-colors">Real Estate</a></li>
                 <li><span className="font-mono text-[11px] tracking-widest uppercase text-white/30">Property Mgmt</span></li>
                 <li><span className="font-mono text-[11px] tracking-widest uppercase text-white/30">Builder Financial</span></li>
-                <li><a href="/territory-check" className="font-mono text-[11px] tracking-widest uppercase text-white/50 hover:text-[#FF6A00] transition-colors">Other · by Territory</a></li>
+                <li><a href="/territory-check" className="font-mono text-[11px] tracking-widest uppercase text-white/50 hover:text-[#F27D24] transition-colors">Other · by Territory</a></li>
               </ul>
             </div>
 
@@ -233,10 +287,10 @@ export default function RootLayout({
             <div>
               <h4 className="font-headline font-black text-xs tracking-widest uppercase text-[#e5e2e1] mb-5">Intel</h4>
               <ul className="space-y-3">
-                <li><a href="/blog" className="font-mono text-[11px] tracking-widest uppercase text-white/50 hover:text-[#FF6A00] transition-colors">Blog</a></li>
-                <li><a href="/blindspot" className="font-mono text-[11px] tracking-widest uppercase text-white/50 hover:text-[#FF6A00] transition-colors">Blind Spot Report</a></li>
-                <li><a href="/about" className="font-mono text-[11px] tracking-widest uppercase text-white/50 hover:text-[#FF6A00] transition-colors">About</a></li>
-                <li><a href="/contact" className="font-mono text-[11px] tracking-widest uppercase text-white/50 hover:text-[#FF6A00] transition-colors">Contact</a></li>
+                <li><a href="/blog" className="font-mono text-[11px] tracking-widest uppercase text-white/50 hover:text-[#F27D24] transition-colors">Blog</a></li>
+                <li><a href="/blindspot" className="font-mono text-[11px] tracking-widest uppercase text-white/50 hover:text-[#F27D24] transition-colors">Blind Spot Report</a></li>
+                <li><a href="/about" className="font-mono text-[11px] tracking-widest uppercase text-white/50 hover:text-[#F27D24] transition-colors">About</a></li>
+                <li><a href="/contact" className="font-mono text-[11px] tracking-widest uppercase text-white/50 hover:text-[#F27D24] transition-colors">Contact</a></li>
               </ul>
             </div>
           </div>
@@ -247,13 +301,13 @@ export default function RootLayout({
               &copy;{new Date().getFullYear()} THE ANSWER ENGINE // AEO
             </div>
             <div className="flex gap-6">
-              <a className="font-mono text-[10px] uppercase tracking-widest text-white/40 hover:text-[#FF6A00] transition-colors" href="/privacy">Privacy</a>
-              <a className="font-mono text-[10px] uppercase tracking-widest text-white/40 hover:text-[#FF6A00] transition-colors" href="/terms">Terms</a>
-              <a className="font-mono text-[10px] uppercase tracking-widest text-white/40 hover:text-[#FF6A00] transition-colors" href="/llms.txt">llms.txt</a>
+              <a className="font-mono text-[10px] uppercase tracking-widest text-white/40 hover:text-[#F27D24] transition-colors" href="/privacy">Privacy</a>
+              <a className="font-mono text-[10px] uppercase tracking-widest text-white/40 hover:text-[#F27D24] transition-colors" href="/terms">Terms</a>
+              <a className="font-mono text-[10px] uppercase tracking-widest text-white/40 hover:text-[#F27D24] transition-colors" href="/llms.txt">llms.txt</a>
             </div>
           </div>
 
-          <div className="absolute bottom-0 right-0 h-1 w-32 bg-[#FF6A00]" />
+          <div className="absolute bottom-0 right-0 h-1 w-32 bg-[#F27D24]" />
         </footer>
         
         <MetaPixel />

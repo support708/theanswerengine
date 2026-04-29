@@ -31,7 +31,7 @@ export const metadata: Metadata = {
     description,
     type: 'article',
     publishedTime: publishDate,
-    authors: ['The Answer Engine Team'],
+    authors: ['https://theanswerengine.ai/about'],
     url: `https://theanswerengine.ai/blog/${slug}`,
     images: [
       {
@@ -64,9 +64,18 @@ const jsonLd = {
       datePublished: publishDate,
       dateModified: publishDate,
       author: {
-        '@type': 'Organization',
-        name: 'The Answer Engine',
-        url: 'https://theanswerengine.ai',
+        '@type': 'Person',
+        '@id': 'https://theanswerengine.ai/about#justin-borges',
+        name: 'Justin Borges',
+        jobTitle: 'Founder, The Answer Engine',
+        worksFor: {
+          '@type': 'Organization',
+          name: 'The Answer Engine',
+          url: 'https://theanswerengine.ai',
+        },
+        knowsAbout: ['Answer Engine Optimization', 'AI Search', 'Content Strategy', 'Real Estate Marketing', 'Citation Surface'],
+        url: 'https://theanswerengine.ai/about',
+        image: 'https://theanswerengine.ai/justin-borges.webp',
       },
       publisher: {
         '@type': 'Organization',
@@ -231,7 +240,7 @@ export default function Page() {
                   <path
                     d="M 40 0 L 0 0 0 40"
                     fill="none"
-                    stroke="#FF6A00"
+                    stroke="#F27D24"
                     strokeWidth="0.4"
                     opacity="0.4"
                   />
@@ -241,14 +250,14 @@ export default function Page() {
               {/* Funnel shape */}
               <polygon
                 points="120,80 280,80 230,200 170,200"
-                stroke="#FF6A00"
+                stroke="#F27D24"
                 strokeWidth="1.5"
                 fill="none"
                 opacity="0.25"
               />
               <polygon
                 points="155,210 245,210 225,270 175,270"
-                stroke="#FF6A00"
+                stroke="#F27D24"
                 strokeWidth="1.5"
                 fill="none"
                 opacity="0.25"
@@ -257,27 +266,27 @@ export default function Page() {
                 cx="200"
                 cy="300"
                 r="22"
-                stroke="#FF6A00"
+                stroke="#F27D24"
                 strokeWidth="2"
                 fill="none"
                 opacity="0.3"
               />
               {/* Analytics bars */}
-              <rect x="440" y="220" width="18" height="90" fill="#FF6A00" opacity="0.15" rx="2" />
-              <rect x="468" y="170" width="18" height="140" fill="#FF6A00" opacity="0.2" rx="2" />
-              <rect x="496" y="130" width="18" height="180" fill="#FF6A00" opacity="0.25" rx="2" />
-              <rect x="524" y="100" width="18" height="210" fill="#FF6A00" opacity="0.3" rx="2" />
-              <rect x="552" y="80" width="18" height="230" fill="#FF6A00" opacity="0.35" rx="2" />
-              <line x1="430" y1="315" x2="580" y2="315" stroke="#FF6A00" strokeWidth="1" opacity="0.2" />
+              <rect x="440" y="220" width="18" height="90" fill="#F27D24" opacity="0.15" rx="2" />
+              <rect x="468" y="170" width="18" height="140" fill="#F27D24" opacity="0.2" rx="2" />
+              <rect x="496" y="130" width="18" height="180" fill="#F27D24" opacity="0.25" rx="2" />
+              <rect x="524" y="100" width="18" height="210" fill="#F27D24" opacity="0.3" rx="2" />
+              <rect x="552" y="80" width="18" height="230" fill="#F27D24" opacity="0.35" rx="2" />
+              <line x1="430" y1="315" x2="580" y2="315" stroke="#F27D24" strokeWidth="1" opacity="0.2" />
               {/* AI chat bubble */}
-              <rect x="600" y="100" width="140" height="70" rx="12" stroke="#FF6A00" strokeWidth="1" fill="none" opacity="0.2" />
-              <line x1="620" y1="122" x2="720" y2="122" stroke="#FF6A00" strokeWidth="1" opacity="0.15" />
-              <line x1="620" y1="138" x2="700" y2="138" stroke="#FF6A00" strokeWidth="1" opacity="0.15" />
-              <line x1="620" y1="154" x2="710" y2="154" stroke="#FF6A00" strokeWidth="1" opacity="0.15" />
+              <rect x="600" y="100" width="140" height="70" rx="12" stroke="#F27D24" strokeWidth="1" fill="none" opacity="0.2" />
+              <line x1="620" y1="122" x2="720" y2="122" stroke="#F27D24" strokeWidth="1" opacity="0.15" />
+              <line x1="620" y1="138" x2="700" y2="138" stroke="#F27D24" strokeWidth="1" opacity="0.15" />
+              <line x1="620" y1="154" x2="710" y2="154" stroke="#F27D24" strokeWidth="1" opacity="0.15" />
               {/* Arrow from chat to funnel */}
               <path
                 d="M600 145 Q520 180 430 200"
-                stroke="#FF6A00"
+                stroke="#F27D24"
                 strokeWidth="1.5"
                 fill="none"
                 strokeDasharray="4 4"
@@ -285,7 +294,7 @@ export default function Page() {
               />
               <polygon
                 points="430,200 440,190 438,204"
-                fill="#FF6A00"
+                fill="#F27D24"
                 opacity="0.3"
               />
               {/* Question mark dots */}
@@ -296,7 +305,7 @@ export default function Page() {
                     cx={350 + i * 20}
                     cy={60 + j * 30}
                     r="1.5"
-                    fill="#FF6A00"
+                    fill="#F27D24"
                     opacity="0.1"
                   />
                 ))
@@ -319,7 +328,7 @@ export default function Page() {
                 <span>·</span>
                 <span>11 min read</span>
                 <span>·</span>
-                <span>The Answer Engine Team</span>
+                <span>Justin Borges</span>
               </div>
             </div>
           </div>
@@ -374,7 +383,7 @@ export default function Page() {
           </div>
 
           {/* Article Body */}
-          <article className="prose prose-invert prose-lg max-w-none prose-headings:font-plus-jakarta prose-headings:text-white prose-p:text-gray-300 prose-a:text-[#FF6A00] prose-a:no-underline hover:prose-a:underline prose-strong:text-white">
+          <article className="prose prose-invert prose-lg max-w-none prose-headings:font-plus-jakarta prose-headings:text-white prose-p:text-gray-300 prose-a:text-[#F27D24] prose-a:no-underline hover:prose-a:underline prose-strong:text-white">
 
             {/* Intro */}
             <p className="text-xl text-gray-300 leading-relaxed mb-10">
@@ -828,9 +837,9 @@ export default function Page() {
                   <table style={{ width: '100%', borderCollapse: 'collapse' }}>
                     <thead>
                       <tr>
-                        <th style={{ padding: '10px 14px', textAlign: 'left', color: '#FF6A00', fontSize: '0.8rem', textTransform: 'uppercase', letterSpacing: '0.05em', borderBottom: '1px solid rgba(255,106,0,0.2)' }}>Your Situation</th>
-                        <th style={{ padding: '10px 14px', textAlign: 'left', color: '#FF6A00', fontSize: '0.8rem', textTransform: 'uppercase', letterSpacing: '0.05em', borderBottom: '1px solid rgba(255,106,0,0.2)' }}>Priority Level</th>
-                        <th style={{ padding: '10px 14px', textAlign: 'left', color: '#FF6A00', fontSize: '0.8rem', textTransform: 'uppercase', letterSpacing: '0.05em', borderBottom: '1px solid rgba(255,106,0,0.2)' }}>Recommended First Step</th>
+                        <th style={{ padding: '10px 14px', textAlign: 'left', color: '#F27D24', fontSize: '0.8rem', textTransform: 'uppercase', letterSpacing: '0.05em', borderBottom: '1px solid rgba(255,106,0,0.2)' }}>Your Situation</th>
+                        <th style={{ padding: '10px 14px', textAlign: 'left', color: '#F27D24', fontSize: '0.8rem', textTransform: 'uppercase', letterSpacing: '0.05em', borderBottom: '1px solid rgba(255,106,0,0.2)' }}>Priority Level</th>
+                        <th style={{ padding: '10px 14px', textAlign: 'left', color: '#F27D24', fontSize: '0.8rem', textTransform: 'uppercase', letterSpacing: '0.05em', borderBottom: '1px solid rgba(255,106,0,0.2)' }}>Recommended First Step</th>
                       </tr>
                     </thead>
                     <tbody>
@@ -847,7 +856,7 @@ export default function Page() {
                           <td style={{ padding: '10px 14px', color: '#d1d5db', fontSize: '0.9rem' }}>{situation}</td>
                           <td style={{ padding: '10px 14px', fontSize: '0.9rem' }}>
                             <span style={{
-                              color: priority === 'Critical' ? '#ef4444' : priority === 'High' ? '#FF6A00' : '#facc15',
+                              color: priority === 'Critical' ? '#ef4444' : priority === 'High' ? '#F27D24' : '#facc15',
                               fontWeight: 700
                             }}>{priority}</span>
                           </td>
@@ -979,7 +988,7 @@ export default function Page() {
                   <Link
                     href="/blindspot"
                     style={{
-                      background: '#FF6A00',
+                      background: '#F27D24',
                       color: 'white',
                       padding: '12px 24px',
                       borderRadius: '8px',
@@ -994,7 +1003,7 @@ export default function Page() {
                     href="tel:2134442229"
                     style={{
                       border: '1px solid rgba(255,106,0,0.5)',
-                      color: '#FF6A00',
+                      color: '#F27D24',
                       padding: '12px 24px',
                       borderRadius: '8px',
                       fontWeight: 700,
@@ -1101,7 +1110,7 @@ export default function Page() {
               >
                 <p
                   className="font-plus-jakarta"
-                  style={{ color: '#FF6A00', fontSize: '0.8rem', textTransform: 'uppercase', letterSpacing: '0.1em', fontWeight: 700, marginBottom: '12px' }}
+                  style={{ color: '#F27D24', fontSize: '0.8rem', textTransform: 'uppercase', letterSpacing: '0.1em', fontWeight: 700, marginBottom: '12px' }}
                 >
                   Ready to Know Your AI Visibility Score?
                 </p>
@@ -1120,7 +1129,7 @@ export default function Page() {
                   <Link
                     href="/blindspot"
                     style={{
-                      background: 'linear-gradient(90deg, #FF6A00, #ff8c00)',
+                      background: 'linear-gradient(90deg, #F27D24, #ff8c00)',
                       color: 'white',
                       padding: '14px 32px',
                       borderRadius: '10px',
@@ -1137,7 +1146,7 @@ export default function Page() {
                     <a
                       href="tel:2134442229"
                       style={{
-                        color: '#FF6A00',
+                        color: '#F27D24',
                         fontWeight: 700,
                         textDecoration: 'none',
                         fontSize: '0.95rem',
@@ -1199,24 +1208,19 @@ export default function Page() {
 
             {/* Author Card */}
             <div className="not-prose">
-              <div className="ae-author-card">
-                <div className="ae-author-avatar">AE</div>
-                <div className="ae-author-info">
-                  <div className="ae-author-name">The Answer Engine Team</div>
-                  <div className="ae-author-bio">
-                    We help local and regional businesses get found, cited, and recommended by AI
-                    search engines. Our team specializes in AI visibility optimization, citation
-                    tracking, and building the content and data infrastructure that makes AI
-                    platforms confident in recommending your business over competitors.
-                  </div>
-                  <div className="ae-author-links">
-                    <a href="https://theanswerengine.ai">theanswerengine.ai</a>
-                    <a href="tel:2134442229">(213) 444-2229</a>
-                    <a href="mailto:support@theanswerengine.ai">support@theanswerengine.ai</a>
-                  </div>
-                </div>
+            <div className="ae-author-card">
+              <img
+                src="/justin-borges.webp"
+                alt="Justin Borges, Founder of The Answer Engine"
+                style={{ width: 64, height: 64, borderRadius: '50%', objectFit: 'cover', flexShrink: 0 }}
+              />
+              <div>
+                <div className="ae-author-name" style={{ fontWeight: 600 }}>Justin Borges</div>
+                <div className="ae-author-role" style={{ fontWeight: 400 }}>Founder, The Answer Engine</div>
+                <p style={{ marginTop: 8, fontSize: '0.875rem', color: 'rgba(255,255,255,0.65)', lineHeight: 1.6 }}>Justin Borges founded The Answer Engine in 2025 after 13+ years in real estate, $200M+ in production, and discovering that AI search rankings now decide who gets cited as the answer. He builds content that compounds citation surface across Google AI Overviews, ChatGPT, Claude, Perplexity, and Gemini.</p>
               </div>
             </div>
+          </div>
 
             {/* Related Articles */}
             <div className="not-prose mt-12">
@@ -1228,7 +1232,7 @@ export default function Page() {
                   marginBottom: '16px',
                   textTransform: 'uppercase',
                   letterSpacing: '0.05em',
-                  color: '#FF6A00',
+                  color: '#F27D24',
                 }}
               >
                 Keep Reading
@@ -1273,7 +1277,7 @@ export default function Page() {
                     <span
                       style={{
                         display: 'block',
-                        color: '#FF6A00',
+                        color: '#F27D24',
                         fontSize: '0.7rem',
                         textTransform: 'uppercase',
                         letterSpacing: '0.08em',

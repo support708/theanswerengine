@@ -32,7 +32,7 @@ export const metadata: Metadata = {
     description,
     type: 'article',
     publishedTime: publishDate,
-    authors: ['The Answer Engine Team'],
+    authors: ['https://theanswerengine.ai/about'],
     url: `https://theanswerengine.ai/blog/${slug}`,
     images: [
       {
@@ -65,9 +65,18 @@ const jsonLd = {
       datePublished: publishDate,
       dateModified: publishDate,
       author: {
-        '@type': 'Organization',
-        name: 'The Answer Engine',
-        url: 'https://theanswerengine.ai',
+        '@type': 'Person',
+        '@id': 'https://theanswerengine.ai/about#justin-borges',
+        name: 'Justin Borges',
+        jobTitle: 'Founder, The Answer Engine',
+        worksFor: {
+          '@type': 'Organization',
+          name: 'The Answer Engine',
+          url: 'https://theanswerengine.ai',
+        },
+        knowsAbout: ['Answer Engine Optimization', 'AI Search', 'Content Strategy', 'Real Estate Marketing', 'Citation Surface'],
+        url: 'https://theanswerengine.ai/about',
+        image: 'https://theanswerengine.ai/justin-borges.webp',
       },
       publisher: {
         '@type': 'Organization',
@@ -229,27 +238,27 @@ export default function Page() {
               aria-hidden="true"
             >
               {/* Competitor podium/trophy */}
-              <rect x="500" y="120" width="120" height="180" rx="6" stroke="#FF6A00" strokeWidth="1" fill="rgba(255,106,0,0.12)" />
-              <circle cx="560" cy="100" r="25" stroke="#FF6A00" strokeWidth="0.8" fill="rgba(255,106,0,0.15)" />
-              <text x="548" y="105" fontFamily="monospace" fontSize="14" fill="#FF6A00" opacity="0.5">1st</text>
-              <text x="510" y="220" fontFamily="monospace" fontSize="10" fill="#FF6A00" opacity="0.3">COMPETITOR</text>
-              <text x="520" y="235" fontFamily="monospace" fontSize="9" fill="#FF6A00" opacity="0.25">AI CITED</text>
+              <rect x="500" y="120" width="120" height="180" rx="6" stroke="#F27D24" strokeWidth="1" fill="rgba(255,106,0,0.12)" />
+              <circle cx="560" cy="100" r="25" stroke="#F27D24" strokeWidth="0.8" fill="rgba(255,106,0,0.15)" />
+              <text x="548" y="105" fontFamily="monospace" fontSize="14" fill="#F27D24" opacity="0.5">1st</text>
+              <text x="510" y="220" fontFamily="monospace" fontSize="10" fill="#F27D24" opacity="0.3">COMPETITOR</text>
+              <text x="520" y="235" fontFamily="monospace" fontSize="9" fill="#F27D24" opacity="0.25">AI CITED</text>
               {/* Your business, faded and behind */}
-              <rect x="180" y="180" width="100" height="120" rx="6" stroke="#FF6A00" strokeWidth="0.4" fill="rgba(255,106,0,0.03)" strokeDasharray="4 4" />
-              <text x="190" y="250" fontFamily="monospace" fontSize="10" fill="#FF6A00" opacity="0.15">YOUR BIZ</text>
-              <text x="195" y="265" fontFamily="monospace" fontSize="9" fill="#FF6A00" opacity="0.1">NOT CITED</text>
+              <rect x="180" y="180" width="100" height="120" rx="6" stroke="#F27D24" strokeWidth="0.4" fill="rgba(255,106,0,0.03)" strokeDasharray="4 4" />
+              <text x="190" y="250" fontFamily="monospace" fontSize="10" fill="#F27D24" opacity="0.15">YOUR BIZ</text>
+              <text x="195" y="265" fontFamily="monospace" fontSize="9" fill="#F27D24" opacity="0.1">NOT CITED</text>
               {/* Arrow showing traffic flowing to competitor */}
-              <path d="M320 200 Q400 160 480 180" stroke="#FF6A00" strokeWidth="0.6" fill="none" opacity="0.3" />
-              <path d="M330 190 Q400 140 470 170" stroke="#FF6A00" strokeWidth="0.4" fill="none" opacity="0.2" />
-              <path d="M340 210 Q410 180 475 195" stroke="#FF6A00" strokeWidth="0.3" fill="none" opacity="0.15" />
+              <path d="M320 200 Q400 160 480 180" stroke="#F27D24" strokeWidth="0.6" fill="none" opacity="0.3" />
+              <path d="M330 190 Q400 140 470 170" stroke="#F27D24" strokeWidth="0.4" fill="none" opacity="0.2" />
+              <path d="M340 210 Q410 180 475 195" stroke="#F27D24" strokeWidth="0.3" fill="none" opacity="0.15" />
               {/* Small dots representing leads */}
-              <circle cx="350" cy="195" r="2" fill="#FF6A00" opacity="0.3" />
-              <circle cx="380" cy="175" r="2" fill="#FF6A00" opacity="0.25" />
-              <circle cx="420" cy="170" r="2" fill="#FF6A00" opacity="0.3" />
-              <circle cx="450" cy="178" r="2" fill="#FF6A00" opacity="0.35" />
+              <circle cx="350" cy="195" r="2" fill="#F27D24" opacity="0.3" />
+              <circle cx="380" cy="175" r="2" fill="#F27D24" opacity="0.25" />
+              <circle cx="420" cy="170" r="2" fill="#F27D24" opacity="0.3" />
+              <circle cx="450" cy="178" r="2" fill="#F27D24" opacity="0.35" />
               {/* Growing gap indicator */}
-              <text x="100" y="350" fontFamily="monospace" fontSize="11" fill="#FF6A00" opacity="0.2">GAP WIDENING</text>
-              <line x1="100" y1="360" x2="300" y2="360" stroke="#FF6A00" strokeWidth="0.3" opacity="0.15" />
+              <text x="100" y="350" fontFamily="monospace" fontSize="11" fill="#F27D24" opacity="0.2">GAP WIDENING</text>
+              <line x1="100" y1="360" x2="300" y2="360" stroke="#F27D24" strokeWidth="0.3" opacity="0.15" />
             </svg>
             <div className="relative px-8 py-16 sm:px-12 sm:py-20">
               <p className="text-sm font-medium text-orange-400 mb-4">Competitive Intelligence</p>
@@ -261,13 +270,13 @@ export default function Page() {
                 <span>-</span>
                 <span>14 min read</span>
                 <span>-</span>
-                <span>The Answer Engine Team</span>
+                <span>Justin Borges</span>
               </div>
             </div>
           </div>
 
           {/* Article Body */}
-          <article className="prose prose-invert prose-lg max-w-none prose-headings:font-plus-jakarta prose-headings:text-white prose-p:text-gray-300 prose-a:text-[#FF6A00] prose-a:no-underline hover:prose-a:underline prose-strong:text-white">
+          <article className="prose prose-invert prose-lg max-w-none prose-headings:font-plus-jakarta prose-headings:text-white prose-p:text-gray-300 prose-a:text-[#F27D24] prose-a:no-underline hover:prose-a:underline prose-strong:text-white">
 
             {/* Table of Contents */}
             <div className="ae-toc not-prose">
@@ -699,12 +708,17 @@ export default function Page() {
           </article>
 
           {/* Author Card */}
-          <div className="ae-author-card mt-16">
-            <div className="ae-author-avatar">AE</div>
-            <div className="ae-author-info">
-              <div className="ae-author-name">The Answer Engine Team</div>
-              <div className="ae-author-bio">
-                We help businesses build and defend AI search visibility across ChatGPT, Perplexity, Google Gemini, and Google AI Overviews. Our team has audited hundreds of businesses for competitive AI gaps and knows exactly what it takes to close them.
+          <div className="not-prose">
+            <div className="ae-author-card">
+              <img
+                src="/justin-borges.webp"
+                alt="Justin Borges, Founder of The Answer Engine"
+                style={{ width: 64, height: 64, borderRadius: '50%', objectFit: 'cover', flexShrink: 0 }}
+              />
+              <div>
+                <div className="ae-author-name" style={{ fontWeight: 600 }}>Justin Borges</div>
+                <div className="ae-author-role" style={{ fontWeight: 400 }}>Founder, The Answer Engine</div>
+                <p style={{ marginTop: 8, fontSize: '0.875rem', color: 'rgba(255,255,255,0.65)', lineHeight: 1.6 }}>Justin Borges founded The Answer Engine in 2025 after 13+ years in real estate, $200M+ in production, and discovering that AI search rankings now decide who gets cited as the answer. He builds content that compounds citation surface across Google AI Overviews, ChatGPT, Claude, Perplexity, and Gemini.</p>
               </div>
             </div>
           </div>
@@ -727,7 +741,7 @@ export default function Page() {
                 <Link
                   href="/blindspot"
                   className="text-sm font-medium px-4 py-2 rounded-lg transition-colors"
-                  style={{ backgroundColor: '#FF6A00', color: 'white' }}
+                  style={{ backgroundColor: '#F27D24', color: 'white' }}
                 >
                   Get My Free Report
                 </Link>
@@ -736,7 +750,7 @@ export default function Page() {
                 className="rounded-xl p-6 flex flex-col items-center text-center"
                 style={{ backgroundColor: '#1a1a2e', border: '1px solid rgba(255,106,0,0.3)' }}
               >
-                <div className="text-3xl mb-3" style={{ color: '#FF6A00' }}>02</div>
+                <div className="text-3xl mb-3" style={{ color: '#F27D24' }}>02</div>
                 <h3 className="text-white font-semibold mb-2 font-plus-jakarta">Competitive AI Audit</h3>
                 <p className="text-gray-400 text-sm mb-4">
                   A full diagnosis of which competitors are being cited, on which platforms, and for which queries, with a prioritized action plan to close the gap.
@@ -744,7 +758,7 @@ export default function Page() {
                 <a
                   href="tel:+12134442229"
                   className="text-sm font-medium px-4 py-2 rounded-lg transition-colors"
-                  style={{ backgroundColor: '#FF6A00', color: 'white' }}
+                  style={{ backgroundColor: '#F27D24', color: 'white' }}
                 >
                   Call (213) 444-2229
                 </a>
@@ -761,7 +775,7 @@ export default function Page() {
                 <a
                   href="mailto:support@theanswerengine.ai"
                   className="text-sm font-medium px-4 py-2 rounded-lg transition-colors"
-                  style={{ backgroundColor: '#FF6A00', color: 'white' }}
+                  style={{ backgroundColor: '#F27D24', color: 'white' }}
                 >
                   Email Us to Learn More
                 </a>
@@ -889,7 +903,7 @@ export default function Page() {
           >
             <p
               className="text-xs font-semibold uppercase tracking-widest mb-4"
-              style={{ color: '#FF6A00' }}
+              style={{ color: '#F27D24' }}
             >
               The Gap Is Growing Right Now
             </p>
@@ -903,7 +917,7 @@ export default function Page() {
               <Link
                 href="/blindspot"
                 className="ae-final-cta-pulse inline-block px-6 py-3 rounded-lg font-semibold text-sm transition-opacity hover:opacity-90"
-                style={{ backgroundColor: '#FF6A00', color: 'white' }}
+                style={{ backgroundColor: '#F27D24', color: 'white' }}
               >
                 Get My Free Blind Spot Report
               </Link>
@@ -912,7 +926,7 @@ export default function Page() {
                 className="inline-block px-6 py-3 rounded-lg font-semibold text-sm transition-colors"
                 style={{
                   border: '1px solid rgba(255,106,0,0.5)',
-                  color: '#FF6A00',
+                  color: '#F27D24',
                 }}
               >
                 Call (213) 444-2229

@@ -29,7 +29,7 @@ export const metadata: Metadata = {
     description,
     type: 'article',
     publishedTime: publishDate,
-    authors: ['The Answer Engine Team'],
+    authors: ['https://theanswerengine.ai/about'],
     url: `https://theanswerengine.ai/blog/${slug}`,
     images: [
       {
@@ -62,9 +62,18 @@ const jsonLd = {
       datePublished: publishDate,
       dateModified: publishDate,
       author: {
-        '@type': 'Organization',
-        name: 'The Answer Engine',
-        url: 'https://theanswerengine.ai',
+        '@type': 'Person',
+        '@id': 'https://theanswerengine.ai/about#justin-borges',
+        name: 'Justin Borges',
+        jobTitle: 'Founder, The Answer Engine',
+        worksFor: {
+          '@type': 'Organization',
+          name: 'The Answer Engine',
+          url: 'https://theanswerengine.ai',
+        },
+        knowsAbout: ['Answer Engine Optimization', 'AI Search', 'Content Strategy', 'Real Estate Marketing', 'Citation Surface'],
+        url: 'https://theanswerengine.ai/about',
+        image: 'https://theanswerengine.ai/justin-borges.webp',
       },
       publisher: {
         '@type': 'Organization',
@@ -209,19 +218,19 @@ export default function Page() {
               fill="none"
               aria-hidden="true"
             >
-              <circle cx="200" cy="200" r="120" stroke="#FF6A00" strokeWidth="0.5" fill="none" />
-              <circle cx="200" cy="200" r="80" stroke="#FF6A00" strokeWidth="0.5" fill="none" />
-              <circle cx="200" cy="200" r="40" stroke="#FF6A00" strokeWidth="1" fill="none" />
-              <circle cx="600" cy="200" r="120" stroke="#FF6A00" strokeWidth="0.5" fill="none" />
-              <circle cx="600" cy="200" r="80" stroke="#FF6A00" strokeWidth="0.5" fill="none" />
-              <circle cx="600" cy="200" r="40" stroke="#FF6A00" strokeWidth="1" fill="none" />
-              <line x1="320" y1="200" x2="480" y2="200" stroke="#FF6A00" strokeWidth="0.8" strokeDasharray="8 4" />
-              <path d="M460 190 L480 200 L460 210" stroke="#FF6A00" strokeWidth="0.8" fill="none" />
-              <path d="M340 210 L320 200 L340 190" stroke="#FF6A00" strokeWidth="0.8" fill="none" />
-              <rect x="50" y="50" width="12" height="12" fill="#FF6A00" opacity="0.2" />
-              <rect x="740" y="50" width="12" height="12" fill="#FF6A00" opacity="0.2" />
-              <rect x="50" y="340" width="12" height="12" fill="#FF6A00" opacity="0.2" />
-              <rect x="740" y="340" width="12" height="12" fill="#FF6A00" opacity="0.2" />
+              <circle cx="200" cy="200" r="120" stroke="#F27D24" strokeWidth="0.5" fill="none" />
+              <circle cx="200" cy="200" r="80" stroke="#F27D24" strokeWidth="0.5" fill="none" />
+              <circle cx="200" cy="200" r="40" stroke="#F27D24" strokeWidth="1" fill="none" />
+              <circle cx="600" cy="200" r="120" stroke="#F27D24" strokeWidth="0.5" fill="none" />
+              <circle cx="600" cy="200" r="80" stroke="#F27D24" strokeWidth="0.5" fill="none" />
+              <circle cx="600" cy="200" r="40" stroke="#F27D24" strokeWidth="1" fill="none" />
+              <line x1="320" y1="200" x2="480" y2="200" stroke="#F27D24" strokeWidth="0.8" strokeDasharray="8 4" />
+              <path d="M460 190 L480 200 L460 210" stroke="#F27D24" strokeWidth="0.8" fill="none" />
+              <path d="M340 210 L320 200 L340 190" stroke="#F27D24" strokeWidth="0.8" fill="none" />
+              <rect x="50" y="50" width="12" height="12" fill="#F27D24" opacity="0.2" />
+              <rect x="740" y="50" width="12" height="12" fill="#F27D24" opacity="0.2" />
+              <rect x="50" y="340" width="12" height="12" fill="#F27D24" opacity="0.2" />
+              <rect x="740" y="340" width="12" height="12" fill="#F27D24" opacity="0.2" />
             </svg>
             <div className="relative px-8 py-16 sm:px-12 sm:py-20">
               <p className="inline-block text-sm font-medium text-orange-400 mb-4 border border-orange-500/30 rounded-full px-4 py-1">
@@ -235,7 +244,7 @@ export default function Page() {
                 <span>-</span>
                 <span>12 min read</span>
                 <span>-</span>
-                <span>The Answer Engine Team</span>
+                <span>Justin Borges</span>
               </div>
             </div>
           </div>
@@ -267,7 +276,7 @@ export default function Page() {
           </div>
 
           {/* Article Body */}
-          <article className="prose prose-invert prose-lg max-w-none prose-headings:font-plus-jakarta prose-headings:text-white prose-p:text-gray-300 prose-a:text-[#FF6A00] prose-a:no-underline hover:prose-a:underline prose-strong:text-white">
+          <article className="prose prose-invert prose-lg max-w-none prose-headings:font-plus-jakarta prose-headings:text-white prose-p:text-gray-300 prose-a:text-[#F27D24] prose-a:no-underline hover:prose-a:underline prose-strong:text-white">
 
             {/* Intro */}
             <p className="text-xl text-gray-300 leading-relaxed mb-10">
@@ -1036,7 +1045,7 @@ export default function Page() {
                 costs nothing.
               </p>
               <Link href="/blindspot">Get Your Free AI Blind Spot Report &#8594;</Link>
-              <div className="flex flex-wrap items-center justify-center gap-6 mt-6 pt-6 border-t border-[#FF6A00]/20">
+              <div className="flex flex-wrap items-center justify-center gap-6 mt-6 pt-6 border-t border-[#F27D24]/20">
                 <a href="tel:+12134442229" className="flex items-center gap-2 text-gray-400 hover:text-white transition-colors">
                   <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" /></svg>
                   (213) 444-2229
@@ -1056,7 +1065,7 @@ export default function Page() {
                 AE
               </div>
               <div>
-                <p className="text-white font-semibold">The Answer Engine Team</p>
+                <p className="text-white font-semibold">Justin Borges</p>
                 <p className="text-gray-400 text-sm">
                   Helping local service businesses stay visible in an AI-first world.
                   We combine AI-powered research with human strategy to make sure the

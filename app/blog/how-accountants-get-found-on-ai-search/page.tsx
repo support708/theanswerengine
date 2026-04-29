@@ -61,9 +61,18 @@ const jsonLd = {
       datePublished: publishDate,
       dateModified: publishDate,
       author: {
-        '@type': 'Organization',
-        name: 'The Answer Engine Team',
+        '@type': 'Person',
+        '@id': 'https://theanswerengine.ai/about#justin-borges',
+        name: 'Justin Borges',
+        jobTitle: 'Founder, The Answer Engine',
+        worksFor: {
+          '@type': 'Organization',
+          name: 'The Answer Engine',
+          url: 'https://theanswerengine.ai',
+        },
+        knowsAbout: ['Answer Engine Optimization', 'AI Search', 'Content Strategy', 'Real Estate Marketing', 'Citation Surface'],
         url: 'https://theanswerengine.ai/about',
+        image: 'https://theanswerengine.ai/justin-borges.webp',
       },
       publisher: {
         '@type': 'Organization',
@@ -189,7 +198,7 @@ export default function HowAccountantsGetFoundOnAISearch() {
       <main className="min-h-screen bg-[#0F1117]">
         {/* Hero */}
         <section className="relative overflow-hidden border-b border-white/5">
-          <div className="absolute inset-0 bg-gradient-to-br from-[#FF6A00]/10 via-transparent to-transparent" />
+          <div className="absolute inset-0 bg-gradient-to-br from-[#F27D24]/10 via-transparent to-transparent" />
           <svg
             className="absolute inset-0 w-full h-full opacity-[0.03]"
             aria-hidden="true"
@@ -214,14 +223,14 @@ export default function HowAccountantsGetFoundOnAISearch() {
 
           <div className="relative max-w-4xl mx-auto px-6 py-16 sm:py-24">
             <Breadcrumb />
-            <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full mb-6 bg-[#FF6A00]/10 border border-[#FF6A00]/30">
-              <span className="text-sm font-semibold tracking-wider uppercase text-[#FF6A00]">
+            <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full mb-6 bg-[#F27D24]/10 border border-[#F27D24]/30">
+              <span className="text-sm font-semibold tracking-wider uppercase text-[#F27D24]">
                 Industry Guides
               </span>
             </div>
             <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold mb-6 text-white leading-tight">
               How Accountants Get Found on{' '}
-              <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#FF6A00] to-orange-400">
+              <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#F27D24] to-orange-400">
                 AI Search
               </span>
             </h1>
@@ -278,7 +287,7 @@ export default function HowAccountantsGetFoundOnAISearch() {
                     d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z"
                   />
                 </svg>
-                <span>The Answer Engine Team</span>
+                <span>Justin Borges</span>
               </div>
             </div>
           </div>
@@ -286,7 +295,7 @@ export default function HowAccountantsGetFoundOnAISearch() {
 
         {/* Article Body */}
         <article className="max-w-4xl mx-auto px-6 py-12 sm:py-16">
-          <div className="prose prose-invert prose-lg max-w-none prose-headings:font-plus-jakarta prose-headings:text-white prose-p:text-gray-300 prose-a:text-[#FF6A00] prose-a:no-underline hover:prose-a:underline prose-strong:text-white">
+          <div className="prose prose-invert prose-lg max-w-none prose-headings:font-plus-jakarta prose-headings:text-white prose-p:text-gray-300 prose-a:text-[#F27D24] prose-a:no-underline hover:prose-a:underline prose-strong:text-white">
 
             {/* STATS GRID */}
             <div className="ae-stats-grid not-prose">
@@ -413,7 +422,7 @@ export default function HowAccountantsGetFoundOnAISearch() {
               </p>
               <Link
                 href="/blindspot"
-                className="inline-flex items-center gap-2 text-[#FF6A00] font-semibold hover:underline"
+                className="inline-flex items-center gap-2 text-[#F27D24] font-semibold hover:underline"
               >
                 Get your free Blind Spot Report
                 <svg
@@ -628,7 +637,7 @@ export default function HowAccountantsGetFoundOnAISearch() {
               </p>
               <Link
                 href="/blindspot"
-                className="inline-flex items-center gap-2 text-[#FF6A00] font-semibold hover:underline"
+                className="inline-flex items-center gap-2 text-[#F27D24] font-semibold hover:underline"
               >
                 See exactly which directories you are missing
                 <svg
@@ -847,7 +856,7 @@ export default function HowAccountantsGetFoundOnAISearch() {
                 whose credentials are the most visible and the most
                 verifiable.&quot;
               </blockquote>
-              <cite>The Answer Engine Team</cite>
+              <cite>Justin Borges</cite>
             </div>
 
             {/* INLINE CTA 3 */}
@@ -857,7 +866,7 @@ export default function HowAccountantsGetFoundOnAISearch() {
               </p>
               <Link
                 href="/blindspot"
-                className="inline-flex items-center gap-2 text-[#FF6A00] font-semibold hover:underline"
+                className="inline-flex items-center gap-2 text-[#F27D24] font-semibold hover:underline"
               >
                 Run your free Blind Spot Report
                 <svg
@@ -1027,7 +1036,7 @@ export default function HowAccountantsGetFoundOnAISearch() {
                     <tr key={row.factor} className="border-b border-white/5">
                       <td className="p-3 font-medium text-white">{row.factor}</td>
                       <td className="p-3 text-gray-400">{row.seo}</td>
-                      <td className="p-3 text-[#FF6A00]">{row.ai}</td>
+                      <td className="p-3 text-[#F27D24]">{row.ai}</td>
                     </tr>
                   ))}
                 </tbody>
@@ -1059,7 +1068,7 @@ export default function HowAccountantsGetFoundOnAISearch() {
               </p>
               <Link
                 href="/blindspot"
-                className="inline-flex items-center gap-2 text-[#FF6A00] font-semibold hover:underline"
+                className="inline-flex items-center gap-2 text-[#F27D24] font-semibold hover:underline"
               >
                 Find your AI visibility gap
                 <svg
@@ -1165,7 +1174,7 @@ export default function HowAccountantsGetFoundOnAISearch() {
             </div>
 
             {/* 3-TIER CTA BLOCK */}
-            <div className="not-prose my-16 p-8 rounded-2xl bg-gradient-to-br from-[#FF6A00]/10 to-transparent border border-[#FF6A00]/20">
+            <div className="not-prose my-16 p-8 rounded-2xl bg-gradient-to-br from-[#F27D24]/10 to-transparent border border-[#F27D24]/20">
               <h3 className="font-plus-jakarta text-2xl font-bold text-white mb-3">
                 Is Your Accounting Firm Showing Up When Clients Search AI?
               </h3>
@@ -1175,7 +1184,7 @@ export default function HowAccountantsGetFoundOnAISearch() {
               </p>
               <Link
                 href="/blindspot"
-                className="inline-flex items-center gap-2 bg-[#FF6A00] text-white px-6 py-3 rounded-lg font-semibold hover:bg-[#e55f00] transition-colors"
+                className="inline-flex items-center gap-2 bg-[#F27D24] text-white px-6 py-3 rounded-lg font-semibold hover:bg-[#D96416] transition-colors"
               >
                 Get Your Free Blind Spot Report
                 <svg
@@ -1192,7 +1201,7 @@ export default function HowAccountantsGetFoundOnAISearch() {
                   />
                 </svg>
               </Link>
-              <div className="flex flex-wrap items-center gap-6 mt-6 pt-6 border-t border-[#FF6A00]/10">
+              <div className="flex flex-wrap items-center gap-6 mt-6 pt-6 border-t border-[#F27D24]/10">
                 <a
                   href="tel:+12134442229"
                   className="flex items-center gap-2 text-gray-400 hover:text-white transition-colors"
@@ -1235,15 +1244,16 @@ export default function HowAccountantsGetFoundOnAISearch() {
             </div>
 
             {/* AUTHOR CARD */}
-            <div className="ae-author-card not-prose">
-              <div className="ae-author-avatar">AE</div>
+            <div className="ae-author-card">
+              <img
+                src="/justin-borges.webp"
+                alt="Justin Borges, Founder of The Answer Engine"
+                style={{ width: 64, height: 64, borderRadius: '50%', objectFit: 'cover', flexShrink: 0 }}
+              />
               <div>
-                <div className="font-semibold text-white">
-                  The Answer Engine Team
-                </div>
-                <div className="text-sm text-gray-400">
-                  AI Search Visibility Experts
-                </div>
+                <div className="ae-author-name" style={{ fontWeight: 600 }}>Justin Borges</div>
+                <div className="ae-author-role" style={{ fontWeight: 400 }}>Founder, The Answer Engine</div>
+                <p style={{ marginTop: 8, fontSize: '0.875rem', color: 'rgba(255,255,255,0.65)', lineHeight: 1.6 }}>Justin Borges founded The Answer Engine in 2025 after 13+ years in real estate, $200M+ in production, and discovering that AI search rankings now decide who gets cited as the answer. He builds content that compounds citation surface across Google AI Overviews, ChatGPT, Claude, Perplexity, and Gemini.</p>
               </div>
             </div>
 
@@ -1300,34 +1310,34 @@ export default function HowAccountantsGetFoundOnAISearch() {
               <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
                 <Link
                   href="/blog/how-dentists-get-found-on-ai-search"
-                  className="group p-4 rounded-xl bg-white/5 border border-white/10 hover:border-[#FF6A00]/30 transition-colors"
+                  className="group p-4 rounded-xl bg-white/5 border border-white/10 hover:border-[#F27D24]/30 transition-colors"
                 >
-                  <div className="text-xs text-[#FF6A00] font-semibold uppercase tracking-wide mb-2">
+                  <div className="text-xs text-[#F27D24] font-semibold uppercase tracking-wide mb-2">
                     Industry Guide
                   </div>
-                  <div className="text-sm font-medium text-white group-hover:text-[#FF6A00] transition-colors leading-snug">
+                  <div className="text-sm font-medium text-white group-hover:text-[#F27D24] transition-colors leading-snug">
                     How Dentists Get Found on AI Search
                   </div>
                 </Link>
                 <Link
                   href="/blog/does-schema-markup-help-ai-search"
-                  className="group p-4 rounded-xl bg-white/5 border border-white/10 hover:border-[#FF6A00]/30 transition-colors"
+                  className="group p-4 rounded-xl bg-white/5 border border-white/10 hover:border-[#F27D24]/30 transition-colors"
                 >
-                  <div className="text-xs text-[#FF6A00] font-semibold uppercase tracking-wide mb-2">
+                  <div className="text-xs text-[#F27D24] font-semibold uppercase tracking-wide mb-2">
                     Technical
                   </div>
-                  <div className="text-sm font-medium text-white group-hover:text-[#FF6A00] transition-colors leading-snug">
+                  <div className="text-sm font-medium text-white group-hover:text-[#F27D24] transition-colors leading-snug">
                     Does Schema Markup Help AI Search?
                   </div>
                 </Link>
                 <Link
                   href="/blog/how-to-optimize-your-google-business-profile-for-ai"
-                  className="group p-4 rounded-xl bg-white/5 border border-white/10 hover:border-[#FF6A00]/30 transition-colors"
+                  className="group p-4 rounded-xl bg-white/5 border border-white/10 hover:border-[#F27D24]/30 transition-colors"
                 >
-                  <div className="text-xs text-[#FF6A00] font-semibold uppercase tracking-wide mb-2">
+                  <div className="text-xs text-[#F27D24] font-semibold uppercase tracking-wide mb-2">
                     Google
                   </div>
-                  <div className="text-sm font-medium text-white group-hover:text-[#FF6A00] transition-colors leading-snug">
+                  <div className="text-sm font-medium text-white group-hover:text-[#F27D24] transition-colors leading-snug">
                     How to Optimize Your Google Business Profile for AI
                   </div>
                 </Link>
@@ -1346,7 +1356,7 @@ export default function HowAccountantsGetFoundOnAISearch() {
               </p>
               <Link
                 href="/blindspot"
-                className="inline-flex items-center gap-3 bg-[#FF6A00] text-white px-8 py-4 rounded-xl font-bold text-lg hover:bg-[#e55f00] transition-all duration-200 shadow-[0_0_30px_rgba(255,106,0,0.4)] hover:shadow-[0_0_50px_rgba(255,106,0,0.6)]"
+                className="inline-flex items-center gap-3 bg-[#F27D24] text-white px-8 py-4 rounded-xl font-bold text-lg hover:bg-[#D96416] transition-all duration-200 shadow-[0_0_30px_rgba(255,106,0,0.4)] hover:shadow-[0_0_50px_rgba(255,106,0,0.6)]"
               >
                 Get Your Free Blind Spot Report
                 <svg

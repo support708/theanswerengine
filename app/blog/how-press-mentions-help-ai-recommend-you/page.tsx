@@ -17,7 +17,7 @@ export const metadata: Metadata = {
     type: 'article',
     publishedTime: '2026-04-03',
     modifiedTime: '2026-04-03',
-    authors: ['The Answer Engine Team'],
+    authors: ['https://theanswerengine.ai/about'],
     url: 'https://theanswerengine.ai/blog/how-press-mentions-help-ai-recommend-you',
     images: [
       {
@@ -73,9 +73,18 @@ function ComprehensiveSchema() {
           "height": 630
         },
         "author": {
-          "@type": "Organization",
-          "name": "The Answer Engine Team",
-          "url": "https://theanswerengine.ai/about"
+          "@type": "Person",
+          "@id": "https://theanswerengine.ai/about#justin-borges",
+          "name": "Justin Borges",
+          "jobTitle": "Founder, The Answer Engine",
+          "worksFor": {
+            "@type": "Organization",
+            "name": "The Answer Engine",
+            "url": "https://theanswerengine.ai"
+          },
+          "knowsAbout": ["Answer Engine Optimization", "AI Search", "Content Strategy", "Real Estate Marketing", "Citation Surface"],
+          "url": "https://theanswerengine.ai/about",
+          "image": "https://theanswerengine.ai/justin-borges.webp"
         },
         "publisher": {
           "@type": "Organization",
@@ -265,7 +274,7 @@ export default function HowPressMentionsHelpAIRecommendYou() {
                 <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={2}>
                   <path strokeLinecap="round" strokeLinejoin="round" d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z" />
                 </svg>
-                <span>The Answer Engine Team</span>
+                <span>Justin Borges</span>
               </div>
             </div>
           </div>
@@ -372,12 +381,12 @@ export default function HowPressMentionsHelpAIRecommendYou() {
           </div>
 
           {/* CTA Inline 1 */}
-          <div className="not-prose my-10 p-6 rounded-xl bg-gradient-to-r from-[#FF6A00]/10 to-transparent border border-[#FF6A00]/20 flex flex-col sm:flex-row items-start sm:items-center gap-4">
+          <div className="not-prose my-10 p-6 rounded-xl bg-gradient-to-r from-[#F27D24]/10 to-transparent border border-[#F27D24]/20 flex flex-col sm:flex-row items-start sm:items-center gap-4">
             <div className="flex-1">
               <p className="text-white font-semibold mb-1">Is your business invisible to AI right now?</p>
               <p className="text-gray-400 text-sm">Find out exactly where you stand with a free Blind Spot Report.</p>
             </div>
-            <Link href="/blindspot" className="shrink-0 inline-flex items-center gap-2 bg-[#FF6A00] text-white px-5 py-2.5 rounded-lg font-semibold hover:bg-[#e55f00] transition-colors text-sm">
+            <Link href="/blindspot" className="shrink-0 inline-flex items-center gap-2 bg-[#F27D24] text-white px-5 py-2.5 rounded-lg font-semibold hover:bg-[#D96416] transition-colors text-sm">
               Get Your Free Report
               <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" /></svg>
             </Link>
@@ -419,13 +428,13 @@ export default function HowPressMentionsHelpAIRecommendYou() {
                 <tbody className="divide-y divide-white/5">
                   <tr className="hover:bg-white/[0.02] transition-colors">
                     <td className="py-3 px-4 text-white font-medium">Editorial news coverage (AP, Reuters)</td>
-                    <td className="py-3 px-4 text-[#FF6A00] font-bold">Very High</td>
+                    <td className="py-3 px-4 text-[#F27D24] font-bold">Very High</td>
                     <td className="py-3 px-4 text-gray-300">Frequent</td>
                     <td className="py-3 px-4 text-gray-300">Permanent</td>
                   </tr>
                   <tr className="hover:bg-white/[0.02] transition-colors">
                     <td className="py-3 px-4 text-white font-medium">Regional business journal feature</td>
-                    <td className="py-3 px-4 text-[#FF6A00] font-bold">High</td>
+                    <td className="py-3 px-4 text-[#F27D24] font-bold">High</td>
                     <td className="py-3 px-4 text-gray-300">Regular</td>
                     <td className="py-3 px-4 text-gray-300">Permanent</td>
                   </tr>
@@ -491,9 +500,9 @@ export default function HowPressMentionsHelpAIRecommendYou() {
 
               <div className="space-y-3">
                 {[
-                  { label: 'National wire service (AP, Reuters, AFP)', value: 97, color: '#FF6A00' },
-                  { label: 'Major national publication feature', value: 91, color: '#FF6A00' },
-                  { label: 'Regional business journal', value: 82, color: '#FF6A00' },
+                  { label: 'National wire service (AP, Reuters, AFP)', value: 97, color: '#F27D24' },
+                  { label: 'Major national publication feature', value: 91, color: '#F27D24' },
+                  { label: 'Regional business journal', value: 82, color: '#F27D24' },
                   { label: 'Industry trade publication', value: 74, color: '#e07b00' },
                   { label: 'Local newspaper with archive', value: 65, color: '#e07b00' },
                   { label: 'Podcast transcript (reputable host)', value: 55, color: '#b86a00' },
@@ -521,7 +530,7 @@ export default function HowPressMentionsHelpAIRecommendYou() {
 
             {/* Quote */}
             <div className="not-prose ae-quote my-10">
-              <blockquote className="border-l-4 border-[#FF6A00] pl-6 py-2">
+              <blockquote className="border-l-4 border-[#F27D24] pl-6 py-2">
                 <p className="text-lg text-gray-200 italic leading-relaxed">
                   "A single citation in a regional business journal carries more weight for AI visibility than a dozen
                   directory listings. The editorial filter is the signal AI is actually reading."
@@ -572,12 +581,12 @@ export default function HowPressMentionsHelpAIRecommendYou() {
           </div>
 
           {/* CTA Inline 2 */}
-          <div className="not-prose my-10 p-6 rounded-xl bg-gradient-to-r from-[#FF6A00]/10 to-transparent border border-[#FF6A00]/20 flex flex-col sm:flex-row items-start sm:items-center gap-4">
+          <div className="not-prose my-10 p-6 rounded-xl bg-gradient-to-r from-[#F27D24]/10 to-transparent border border-[#F27D24]/20 flex flex-col sm:flex-row items-start sm:items-center gap-4">
             <div className="flex-1">
               <p className="text-white font-semibold mb-1">What media coverage does AI actually see about your business?</p>
               <p className="text-gray-400 text-sm">Your Blind Spot Report includes an audit of your third-party signal footprint.</p>
             </div>
-            <Link href="/blindspot" className="shrink-0 inline-flex items-center gap-2 bg-[#FF6A00] text-white px-5 py-2.5 rounded-lg font-semibold hover:bg-[#e55f00] transition-colors text-sm">
+            <Link href="/blindspot" className="shrink-0 inline-flex items-center gap-2 bg-[#F27D24] text-white px-5 py-2.5 rounded-lg font-semibold hover:bg-[#D96416] transition-colors text-sm">
               Get Your Free Report
               <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" /></svg>
             </Link>
@@ -614,13 +623,13 @@ export default function HowPressMentionsHelpAIRecommendYou() {
                     month: 'Month 1-2',
                     title: 'Foundation Coverage',
                     desc: 'First editorial placements land. AI crawlers index the content. Your business name begins appearing in AI training contexts associated with credible outlets.',
-                    color: '#FF6A00',
+                    color: '#F27D24',
                   },
                   {
                     month: 'Month 3-4',
                     title: 'Signal Reinforcement',
                     desc: 'Additional placements in different publications. Cross-links between outlets start forming. AI begins associating your business with a cluster of trusted sources.',
-                    color: '#FF6A00',
+                    color: '#F27D24',
                   },
                   {
                     month: 'Month 5-6',
@@ -745,12 +754,12 @@ export default function HowPressMentionsHelpAIRecommendYou() {
           </div>
 
           {/* CTA Inline 3 */}
-          <div className="not-prose my-10 p-6 rounded-xl bg-gradient-to-r from-[#FF6A00]/10 to-transparent border border-[#FF6A00]/20 flex flex-col sm:flex-row items-start sm:items-center gap-4">
+          <div className="not-prose my-10 p-6 rounded-xl bg-gradient-to-r from-[#F27D24]/10 to-transparent border border-[#F27D24]/20 flex flex-col sm:flex-row items-start sm:items-center gap-4">
             <div className="flex-1">
               <p className="text-white font-semibold mb-1">Want to know if AI platforms are finding your coverage?</p>
               <p className="text-gray-400 text-sm">We map your full media footprint in your free Blind Spot Report.</p>
             </div>
-            <Link href="/blindspot" className="shrink-0 inline-flex items-center gap-2 bg-[#FF6A00] text-white px-5 py-2.5 rounded-lg font-semibold hover:bg-[#e55f00] transition-colors text-sm">
+            <Link href="/blindspot" className="shrink-0 inline-flex items-center gap-2 bg-[#F27D24] text-white px-5 py-2.5 rounded-lg font-semibold hover:bg-[#D96416] transition-colors text-sm">
               Run My Audit
               <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" /></svg>
             </Link>
@@ -812,7 +821,7 @@ export default function HowPressMentionsHelpAIRecommendYou() {
             <p className="text-gray-300 leading-relaxed mb-8">
               Understanding this pattern connects to why earned media specifically matters. See how platforms evaluate
               businesses for recommendations in our article on{' '}
-              <Link href="/blog/how-online-reviews-shape-ai-recommendations" className="text-[#FF6A00] hover:text-orange-400 underline underline-offset-2 transition-colors">
+              <Link href="/blog/how-online-reviews-shape-ai-recommendations" className="text-[#F27D24] hover:text-orange-400 underline underline-offset-2 transition-colors">
                 how online reviews shape AI recommendations
               </Link>
               . The signals work together, but press coverage provides the foundational layer that reviews and
@@ -852,7 +861,7 @@ export default function HowPressMentionsHelpAIRecommendYou() {
 
             <p className="text-gray-300 leading-relaxed mb-5">
               This is related to, but distinct from, community-driven signals. In our analysis of{' '}
-              <Link href="/blog/reddit-mentions-boost-ai-search-visibility" className="text-[#FF6A00] hover:text-orange-400 underline underline-offset-2 transition-colors">
+              <Link href="/blog/reddit-mentions-boost-ai-search-visibility" className="text-[#F27D24] hover:text-orange-400 underline underline-offset-2 transition-colors">
                 how Reddit mentions boost AI search visibility
               </Link>
               , we explored how community discussion creates a different type of trust signal. Press coverage
@@ -868,12 +877,12 @@ export default function HowPressMentionsHelpAIRecommendYou() {
           </div>
 
           {/* CTA Inline 4 */}
-          <div className="not-prose my-10 p-6 rounded-xl bg-gradient-to-r from-[#FF6A00]/10 to-transparent border border-[#FF6A00]/20 flex flex-col sm:flex-row items-start sm:items-center gap-4">
+          <div className="not-prose my-10 p-6 rounded-xl bg-gradient-to-r from-[#F27D24]/10 to-transparent border border-[#F27D24]/20 flex flex-col sm:flex-row items-start sm:items-center gap-4">
             <div className="flex-1">
               <p className="text-white font-semibold mb-1">Wondering where your business stands in AI search today?</p>
               <p className="text-gray-400 text-sm">See which AI platforms recommend you, and which don't, with a free Blind Spot Report.</p>
             </div>
-            <Link href="/blindspot" className="shrink-0 inline-flex items-center gap-2 bg-[#FF6A00] text-white px-5 py-2.5 rounded-lg font-semibold hover:bg-[#e55f00] transition-colors text-sm">
+            <Link href="/blindspot" className="shrink-0 inline-flex items-center gap-2 bg-[#F27D24] text-white px-5 py-2.5 rounded-lg font-semibold hover:bg-[#D96416] transition-colors text-sm">
               Get Your Free Report
               <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" /></svg>
             </Link>
@@ -919,7 +928,7 @@ export default function HowPressMentionsHelpAIRecommendYou() {
 
             <p className="text-gray-300 leading-relaxed mb-5">
               The content-authority connection extends to your blog as well. Understanding how{' '}
-              <Link href="/blog/does-having-a-blog-actually-help-ai-recommend-your-business" className="text-[#FF6A00] hover:text-orange-400 underline underline-offset-2 transition-colors">
+              <Link href="/blog/does-having-a-blog-actually-help-ai-recommend-your-business" className="text-[#F27D24] hover:text-orange-400 underline underline-offset-2 transition-colors">
                 a blog helps AI recommend your business
               </Link>{' '}
               is part of the same authority-building picture. Owned content and earned media amplify each other:
@@ -930,8 +939,8 @@ export default function HowPressMentionsHelpAIRecommendYou() {
             {/* Cheat Sheet */}
             <div className="not-prose ae-cheat-sheet my-10 p-6 rounded-2xl bg-gradient-to-br from-white/[0.03] to-transparent border border-white/10">
               <div className="flex items-center gap-3 mb-6">
-                <div className="w-8 h-8 rounded-lg bg-[#FF6A00]/20 flex items-center justify-center">
-                  <svg className="w-4 h-4 text-[#FF6A00]" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <div className="w-8 h-8 rounded-lg bg-[#F27D24]/20 flex items-center justify-center">
+                  <svg className="w-4 h-4 text-[#F27D24]" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2" />
                   </svg>
                 </div>
@@ -953,8 +962,8 @@ export default function HowPressMentionsHelpAIRecommendYou() {
                   { label: 'Build journalist relationships proactively', note: 'Introduce yourself before you need coverage, not during' },
                 ].map((item, i) => (
                   <div key={i} className="flex items-start gap-3 p-3 rounded-lg bg-white/[0.02] border border-white/5">
-                    <div className="w-5 h-5 rounded-full bg-[#FF6A00]/20 flex items-center justify-center shrink-0 mt-0.5">
-                      <span className="text-[#FF6A00] text-xs font-bold">{i + 1}</span>
+                    <div className="w-5 h-5 rounded-full bg-[#F27D24]/20 flex items-center justify-center shrink-0 mt-0.5">
+                      <span className="text-[#F27D24] text-xs font-bold">{i + 1}</span>
                     </div>
                     <div>
                       <div className="text-white text-sm font-medium">{item.label}</div>
@@ -973,12 +982,12 @@ export default function HowPressMentionsHelpAIRecommendYou() {
           </div>
 
           {/* CTA Inline 5 */}
-          <div className="not-prose my-10 p-6 rounded-xl bg-gradient-to-r from-[#FF6A00]/10 to-transparent border border-[#FF6A00]/20 flex flex-col sm:flex-row items-start sm:items-center gap-4">
+          <div className="not-prose my-10 p-6 rounded-xl bg-gradient-to-r from-[#F27D24]/10 to-transparent border border-[#F27D24]/20 flex flex-col sm:flex-row items-start sm:items-center gap-4">
             <div className="flex-1">
               <p className="text-white font-semibold mb-1">Ready to build AI authority through earned media?</p>
               <p className="text-gray-400 text-sm">Start with your free Blind Spot Report to see your current authority footprint.</p>
             </div>
-            <Link href="/blindspot" className="shrink-0 inline-flex items-center gap-2 bg-[#FF6A00] text-white px-5 py-2.5 rounded-lg font-semibold hover:bg-[#e55f00] transition-colors text-sm">
+            <Link href="/blindspot" className="shrink-0 inline-flex items-center gap-2 bg-[#F27D24] text-white px-5 py-2.5 rounded-lg font-semibold hover:bg-[#D96416] transition-colors text-sm">
               Start Free Audit
               <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" /></svg>
             </Link>
@@ -986,14 +995,14 @@ export default function HowPressMentionsHelpAIRecommendYou() {
 
           {/* Author Card */}
           <div className="not-prose ae-author-card my-12 p-6 rounded-2xl bg-white/[0.03] border border-white/10 flex items-start gap-5">
-            <div className="w-14 h-14 rounded-full bg-gradient-to-br from-[#FF6A00]/30 to-[#FF6A00]/10 flex items-center justify-center shrink-0">
-              <svg className="w-7 h-7 text-[#FF6A00]" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <div className="w-14 h-14 rounded-full bg-gradient-to-br from-[#F27D24]/30 to-[#F27D24]/10 flex items-center justify-center shrink-0">
+              <svg className="w-7 h-7 text-[#F27D24]" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z" />
               </svg>
             </div>
             <div>
-              <div className="text-white font-bold text-lg font-plus-jakarta mb-1">The Answer Engine Team</div>
-              <div className="text-[#FF6A00] text-sm font-medium mb-3">Answer Engine Optimization Specialists</div>
+              <div className="text-white font-bold text-lg font-plus-jakarta mb-1">Justin Borges</div>
+              <div className="text-[#F27D24] text-sm font-medium mb-3">Answer Engine Optimization Specialists</div>
               <p className="text-gray-400 text-sm leading-relaxed">
                 The Answer Engine is an AEO agency focused exclusively on helping businesses appear in AI-generated
                 recommendations. Our team researches AI citation patterns, third-party signal hierarchies, and
@@ -1003,18 +1012,18 @@ export default function HowPressMentionsHelpAIRecommendYou() {
           </div>
 
           {/* 3-Tier CTA Block */}
-          <div className="not-prose my-16 p-8 rounded-2xl bg-gradient-to-br from-[#FF6A00]/10 to-transparent border border-[#FF6A00]/20">
+          <div className="not-prose my-16 p-8 rounded-2xl bg-gradient-to-br from-[#F27D24]/10 to-transparent border border-[#F27D24]/20">
             <h3 className="font-plus-jakarta text-2xl font-bold text-white mb-3">Is AI Recommending You or Your Competitors?</h3>
             <p className="text-gray-400 mb-6">
               Most businesses have no idea what AI platforms say about them when a customer asks for a recommendation.
               Your free Blind Spot Report shows exactly where you appear, where you are missing, and what earned media
               signals AI is finding about your business right now.
             </p>
-            <Link href="/blindspot" className="inline-flex items-center gap-2 bg-[#FF6A00] text-white px-6 py-3 rounded-lg font-semibold hover:bg-[#e55f00] transition-colors">
+            <Link href="/blindspot" className="inline-flex items-center gap-2 bg-[#F27D24] text-white px-6 py-3 rounded-lg font-semibold hover:bg-[#D96416] transition-colors">
               Get Your Free Blind Spot Report
               <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" /></svg>
             </Link>
-            <div className="flex flex-wrap items-center gap-6 mt-6 pt-6 border-t border-[#FF6A00]/10">
+            <div className="flex flex-wrap items-center gap-6 mt-6 pt-6 border-t border-[#F27D24]/10">
               <a href="tel:+12134442229" className="flex items-center gap-2 text-gray-400 hover:text-white transition-colors">
                 <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" /></svg>
                 (213) 444-2229
@@ -1079,10 +1088,10 @@ export default function HowPressMentionsHelpAIRecommendYou() {
 
           {/* Final CTA with pulse glow */}
           <div className="not-prose ae-final-cta mt-20 relative">
-            <div className="absolute inset-0 rounded-2xl bg-[#FF6A00]/20 blur-2xl animate-pulse" />
-            <div className="relative p-8 sm:p-10 rounded-2xl bg-gradient-to-br from-[#FF6A00]/15 via-[#0F1117] to-[#0F1117] border border-[#FF6A00]/30 text-center">
-              <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-[#FF6A00]/10 border border-[#FF6A00]/20 mb-6">
-                <span className="text-[#FF6A00] text-xs font-semibold uppercase tracking-wider">Free AI Visibility Audit</span>
+            <div className="absolute inset-0 rounded-2xl bg-[#F27D24]/20 blur-2xl animate-pulse" />
+            <div className="relative p-8 sm:p-10 rounded-2xl bg-gradient-to-br from-[#F27D24]/15 via-[#0F1117] to-[#0F1117] border border-[#F27D24]/30 text-center">
+              <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-[#F27D24]/10 border border-[#F27D24]/20 mb-6">
+                <span className="text-[#F27D24] text-xs font-semibold uppercase tracking-wider">Free AI Visibility Audit</span>
               </div>
               <h2 className="font-plus-jakarta text-2xl sm:text-3xl font-bold text-white mb-4">
                 Find Out If AI Is Recommending You or Ignoring You
@@ -1093,7 +1102,7 @@ export default function HowPressMentionsHelpAIRecommendYou() {
                 your competitors do.
               </p>
               <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-                <Link href="/blindspot" className="inline-flex items-center gap-2 bg-[#FF6A00] text-white px-8 py-4 rounded-xl font-bold text-lg hover:bg-[#e55f00] transition-colors shadow-lg shadow-orange-500/20">
+                <Link href="/blindspot" className="inline-flex items-center gap-2 bg-[#F27D24] text-white px-8 py-4 rounded-xl font-bold text-lg hover:bg-[#D96416] transition-colors shadow-lg shadow-orange-500/20">
                   Get Your Free Blind Spot Report
                   <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" /></svg>
                 </Link>

@@ -1,4 +1,26 @@
 import Link from 'next/link';
+import type { Metadata } from 'next';
+
+export const metadata: Metadata = {
+  title: 'Why Your Website Stopped Getting Calls (The Shift Nobody Told You About)',
+  description: 'Nearly 60% of searches now end without a click because AI answers questions directly. Learn why your website traffic looks fine but calls have dropped — and how to fix it.',
+  alternates: { canonical: 'https://www.theanswerengine.ai/blog/website-stopped-getting-calls' },
+  openGraph: {
+    title: 'Why Your Website Stopped Getting Calls',
+    description: 'Nearly 60% of searches end without a click. AI answers questions directly and recommends one business — learn why your calls dropped and how to fix it.',
+    type: 'article',
+    url: 'https://www.theanswerengine.ai/blog/website-stopped-getting-calls',
+    siteName: 'The Answer Engine',
+    images: [{ url: 'https://www.theanswerengine.ai/og-default.png', width: 1200, height: 630, alt: 'Why Your Website Stopped Getting Calls' }],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Why Your Website Stopped Getting Calls',
+    description: 'Nearly 60% of searches end without a click. Learn why calls dropped and how to fix your AI visibility.',
+    site: '@theanswerengine',
+    images: ['https://www.theanswerengine.ai/og-default.png'],
+  },
+};
 
 export default function BlogPost() {
   const jsonLd = {
@@ -15,9 +37,18 @@ export default function BlogPost() {
           "height": 1024
         },
         "author": {
-          "@type": "Organization",
-          "name": "The Answer Engine",
-          "url": "https://theanswerengine.ai"
+          "@type": "Person",
+          "@id": "https://theanswerengine.ai/about#justin-borges",
+          "name": "Justin Borges",
+          "jobTitle": "Founder, The Answer Engine",
+          "worksFor": {
+            "@type": "Organization",
+            "name": "The Answer Engine",
+            "url": "https://theanswerengine.ai"
+          },
+          "knowsAbout": ["Answer Engine Optimization", "AI Search", "Content Strategy", "Real Estate Marketing", "Citation Surface"],
+          "url": "https://theanswerengine.ai/about",
+          "image": "https://theanswerengine.ai/justin-borges.webp"
         },
         "publisher": {
           "@type": "Organization",
@@ -179,13 +210,13 @@ export default function BlogPost() {
                 <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={2}>
                   <path strokeLinecap="round" strokeLinejoin="round" d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z" />
                 </svg>
-                <span>The Answer Engine Team</span>
+                <span>Justin Borges</span>
               </div>
             </div>
           </header>
 
           {/* ══════════════ PROSE WRAPPER ══════════════ */}
-          <div className="prose prose-invert prose-lg max-w-none prose-headings:font-plus-jakarta prose-headings:text-white prose-p:text-gray-300 prose-a:text-[#FF6A00] prose-a:no-underline hover:prose-a:underline prose-strong:text-white">
+          <div className="prose prose-invert prose-lg max-w-none prose-headings:font-plus-jakarta prose-headings:text-white prose-p:text-gray-300 prose-a:text-[#F27D24] prose-a:no-underline hover:prose-a:underline prose-strong:text-white">
 
             {/* ── STATS GRID ── */}
             <div className="ae-stats-grid not-prose">
@@ -671,7 +702,7 @@ export default function BlogPost() {
             {/* ── AUTHOR CARD ── */}
             <div className="ae-author-card not-prose">
               <div className="ae-author-info">
-                <div className="ae-author-name">The Answer Engine Team</div>
+                <div className="ae-author-name" style={{ fontWeight: 600 }}>Justin Borges</div>
                 <p>We help local service businesses become the answer when customers ask AI for recommendations. Our clients see results like 5,700+ monthly organic clicks and dominant positions across entire topic categories. Every insight in this article comes from real client data and verified AI platform behavior.</p>
                 <div className="ae-author-links">
                   <Link href="/blog">Read More Articles</Link>

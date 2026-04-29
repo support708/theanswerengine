@@ -30,7 +30,7 @@ export const metadata: Metadata = {
     description,
     type: 'article',
     publishedTime: publishDate,
-    authors: ['The Answer Engine Team'],
+    authors: ['https://theanswerengine.ai/about'],
     url: `https://theanswerengine.ai/blog/${slug}`,
     images: [{ url: `https://theanswerengine.ai/blog/${slug}.webp`, width: 1200, height: 630, alt: title }],
   },
@@ -54,9 +54,18 @@ const jsonLd = {
       datePublished: publishDate,
       dateModified: publishDate,
       author: {
-        '@type': 'Organization',
-        name: 'The Answer Engine',
-        url: 'https://theanswerengine.ai',
+        '@type': 'Person',
+        '@id': 'https://theanswerengine.ai/about#justin-borges',
+        name: 'Justin Borges',
+        jobTitle: 'Founder, The Answer Engine',
+        worksFor: {
+          '@type': 'Organization',
+          name: 'The Answer Engine',
+          url: 'https://theanswerengine.ai',
+        },
+        knowsAbout: ['Answer Engine Optimization', 'AI Search', 'Content Strategy', 'Real Estate Marketing', 'Citation Surface'],
+        url: 'https://theanswerengine.ai/about',
+        image: 'https://theanswerengine.ai/justin-borges.webp',
       },
       publisher: {
         '@type': 'Organization',
@@ -182,8 +191,8 @@ export default function Page() {
                 <stop offset="100%" stopColor="#0F1117" />
               </radialGradient>
               <radialGradient id="gdoor-glow" cx="35%" cy="60%" r="50%">
-                <stop offset="0%" stopColor="#FF6A00" stopOpacity="0.13" />
-                <stop offset="100%" stopColor="#FF6A00" stopOpacity="0" />
+                <stop offset="0%" stopColor="#F27D24" stopOpacity="0.13" />
+                <stop offset="100%" stopColor="#F27D24" stopOpacity="0" />
               </radialGradient>
             </defs>
             <rect width="1200" height="400" fill="url(#gdoor-bg)" />
@@ -191,54 +200,54 @@ export default function Page() {
 
             {/* House silhouette */}
             {/* Roof */}
-            <polygon points="220,200 380,100 540,200" fill="none" stroke="#FF6A00" strokeWidth="2" strokeOpacity="0.5" strokeLinejoin="round" />
-            <polygon points="220,200 380,100 540,200" fill="#FF6A00" fillOpacity="0.04" />
+            <polygon points="220,200 380,100 540,200" fill="none" stroke="#F27D24" strokeWidth="2" strokeOpacity="0.5" strokeLinejoin="round" />
+            <polygon points="220,200 380,100 540,200" fill="#F27D24" fillOpacity="0.04" />
             {/* House walls */}
-            <rect x="235" y="200" width="290" height="145" fill="none" stroke="#FF6A00" strokeWidth="1.5" strokeOpacity="0.35" />
-            <rect x="235" y="200" width="290" height="145" fill="#FF6A00" fillOpacity="0.03" />
+            <rect x="235" y="200" width="290" height="145" fill="none" stroke="#F27D24" strokeWidth="1.5" strokeOpacity="0.35" />
+            <rect x="235" y="200" width="290" height="145" fill="#F27D24" fillOpacity="0.03" />
 
             {/* Garage door opening (partially open) */}
             {/* Door frame */}
-            <rect x="280" y="255" width="200" height="88" fill="none" stroke="#FF6A00" strokeWidth="1.5" strokeOpacity="0.5" />
+            <rect x="280" y="255" width="200" height="88" fill="none" stroke="#F27D24" strokeWidth="1.5" strokeOpacity="0.5" />
             {/* Door panels - partially lifted (top portion) */}
-            <rect x="281" y="256" width="198" height="22" fill="#1e2235" stroke="#FF6A00" strokeWidth="0.8" strokeOpacity="0.4" />
-            <rect x="281" y="279" width="198" height="22" fill="#1a1d27" stroke="#FF6A00" strokeWidth="0.8" strokeOpacity="0.3" />
+            <rect x="281" y="256" width="198" height="22" fill="#1e2235" stroke="#F27D24" strokeWidth="0.8" strokeOpacity="0.4" />
+            <rect x="281" y="279" width="198" height="22" fill="#1a1d27" stroke="#F27D24" strokeWidth="0.8" strokeOpacity="0.3" />
             {/* Door raised off ground by 44px - gap showing interior */}
             <rect x="281" y="301" width="198" height="42" fill="#111318" fillOpacity="0.8" />
             {/* Interior light glow */}
-            <rect x="285" y="305" width="190" height="35" fill="#FF6A00" fillOpacity="0.06" />
+            <rect x="285" y="305" width="190" height="35" fill="#F27D24" fillOpacity="0.06" />
 
             {/* Vertical door rails */}
-            <line x1="280" y1="255" x2="280" y2="343" stroke="#FF6A00" strokeWidth="1" strokeOpacity="0.35" />
-            <line x1="480" y1="255" x2="480" y2="343" stroke="#FF6A00" strokeWidth="1" strokeOpacity="0.35" />
+            <line x1="280" y1="255" x2="280" y2="343" stroke="#F27D24" strokeWidth="1" strokeOpacity="0.35" />
+            <line x1="480" y1="255" x2="480" y2="343" stroke="#F27D24" strokeWidth="1" strokeOpacity="0.35" />
 
             {/* Door handle */}
-            <rect x="370" y="287" width="20" height="6" rx="3" fill="#FF6A00" fillOpacity="0.5" />
+            <rect x="370" y="287" width="20" height="6" rx="3" fill="#F27D24" fillOpacity="0.5" />
 
             {/* Spring above door */}
-            <path d="M300,248 Q310,242 320,248 Q330,254 340,248 Q350,242 360,248 Q370,254 380,248 Q390,242 400,248 Q410,254 420,248 Q430,242 440,248 Q450,254 460,248" fill="none" stroke="#FF6A00" strokeWidth="1.5" strokeOpacity="0.45" />
+            <path d="M300,248 Q310,242 320,248 Q330,254 340,248 Q350,242 360,248 Q370,254 380,248 Q390,242 400,248 Q410,254 420,248 Q430,242 440,248 Q450,254 460,248" fill="none" stroke="#F27D24" strokeWidth="1.5" strokeOpacity="0.45" />
 
             {/* Wrench tool */}
             <g transform="translate(175,260) rotate(-35)">
-              <rect x="-4" y="-22" width="8" height="36" rx="4" fill="none" stroke="#FF6A00" strokeWidth="1.5" strokeOpacity="0.4" />
-              <circle cx="0" cy="-22" r="9" fill="none" stroke="#FF6A00" strokeWidth="1.5" strokeOpacity="0.4" />
-              <circle cx="0" cy="-22" r="4" fill="#FF6A00" fillOpacity="0.2" />
+              <rect x="-4" y="-22" width="8" height="36" rx="4" fill="none" stroke="#F27D24" strokeWidth="1.5" strokeOpacity="0.4" />
+              <circle cx="0" cy="-22" r="9" fill="none" stroke="#F27D24" strokeWidth="1.5" strokeOpacity="0.4" />
+              <circle cx="0" cy="-22" r="4" fill="#F27D24" fillOpacity="0.2" />
             </g>
 
             {/* Connection dashes from house to AI panel */}
-            <path d="M545,250 Q565,250 585,250" stroke="#FF6A00" strokeWidth="1.5" strokeDasharray="5,3" fill="none" strokeOpacity="0.45" />
-            <polygon points="583,246 591,250 583,254" fill="#FF6A00" fillOpacity="0.45" />
+            <path d="M545,250 Q565,250 585,250" stroke="#F27D24" strokeWidth="1.5" strokeDasharray="5,3" fill="none" strokeOpacity="0.45" />
+            <polygon points="583,246 591,250 583,254" fill="#F27D24" fillOpacity="0.45" />
 
             {/* AI response panel */}
-            <rect x="600" y="110" width="370" height="190" rx="16" fill="#1e2235" stroke="#FF6A00" strokeWidth="1" strokeOpacity="0.25" />
-            <text x="620" y="146" fill="#FF6A00" fontSize="12" fontFamily="monospace" opacity="0.9">AI Response</text>
-            <line x1="620" y1="155" x2="950" y2="155" stroke="#FF6A00" strokeWidth="0.5" strokeOpacity="0.25" />
+            <rect x="600" y="110" width="370" height="190" rx="16" fill="#1e2235" stroke="#F27D24" strokeWidth="1" strokeOpacity="0.25" />
+            <text x="620" y="146" fill="#F27D24" fontSize="12" fontFamily="monospace" opacity="0.9">AI Response</text>
+            <line x1="620" y1="155" x2="950" y2="155" stroke="#F27D24" strokeWidth="0.5" strokeOpacity="0.25" />
 
             {/* AI query */}
             <text x="620" y="177" fill="#888" fontSize="11" fontFamily="monospace">&quot;emergency garage door repair open now&quot;</text>
 
             {/* Results */}
-            <circle cx="629" cy="202" r="5" fill="#FF6A00" opacity="0.9" />
+            <circle cx="629" cy="202" r="5" fill="#F27D24" opacity="0.9" />
             <text x="642" y="206" fill="#e0e0e0" fontSize="12" fontFamily="monospace" fontWeight="bold">Apex Garage Door Co.</text>
             <text x="642" y="222" fill="#666" fontSize="10" fontFamily="monospace">24/7 service, 4.9 stars, LiftMaster certified</text>
 
@@ -249,10 +258,10 @@ export default function Page() {
             <text x="642" y="267" fill="#444" fontSize="12" fontFamily="monospace">Generic Door Repair</text>
 
             {/* Platform labels */}
-            <text x="621" y="320" fill="#FF6A00" fontSize="10" fontFamily="monospace" opacity="0.5">ChatGPT</text>
-            <text x="685" y="320" fill="#FF6A00" fontSize="10" fontFamily="monospace" opacity="0.5">Gemini</text>
-            <text x="743" y="320" fill="#FF6A00" fontSize="10" fontFamily="monospace" opacity="0.5">Claude</text>
-            <text x="798" y="320" fill="#FF6A00" fontSize="10" fontFamily="monospace" opacity="0.5">Perplexity</text>
+            <text x="621" y="320" fill="#F27D24" fontSize="10" fontFamily="monospace" opacity="0.5">ChatGPT</text>
+            <text x="685" y="320" fill="#F27D24" fontSize="10" fontFamily="monospace" opacity="0.5">Gemini</text>
+            <text x="743" y="320" fill="#F27D24" fontSize="10" fontFamily="monospace" opacity="0.5">Claude</text>
+            <text x="798" y="320" fill="#F27D24" fontSize="10" fontFamily="monospace" opacity="0.5">Perplexity</text>
           </svg>
         </div>
 
@@ -302,7 +311,7 @@ export default function Page() {
         </div>
 
         <div className="ae-cta-inline not-prose">
-          <p>Not sure whether ChatGPT even knows your garage door business exists? <Link href="/blindspot" className="text-[#FF6A00] hover:underline font-semibold">Get a free Blind Spot Report</Link> and find out in minutes.</p>
+          <p>Not sure whether ChatGPT even knows your garage door business exists? <Link href="/blindspot" className="text-[#F27D24] hover:underline font-semibold">Get a free Blind Spot Report</Link> and find out in minutes.</p>
         </div>
 
         <h2 id="how-ai-finds-garage-door-companies">How AI Finds Garage Door Companies in Your Area</h2>
@@ -426,7 +435,7 @@ export default function Page() {
         </div>
 
         <div className="ae-cta-inline not-prose">
-          <p>Wondering whether AI knows your brand certifications and safety credentials? <Link href="/blindspot" className="text-[#FF6A00] hover:underline font-semibold">Get your free Blind Spot Report</Link> and see what AI actually sees when it evaluates your business.</p>
+          <p>Wondering whether AI knows your brand certifications and safety credentials? <Link href="/blindspot" className="text-[#F27D24] hover:underline font-semibold">Get your free Blind Spot Report</Link> and see what AI actually sees when it evaluates your business.</p>
         </div>
 
         <h2 id="schema-patterns">Schema Patterns That Actually Work for Garage Door Companies</h2>
@@ -547,7 +556,7 @@ export default function Page() {
         </div>
 
         <div className="ae-cta-inline not-prose">
-          <p>Is AI sending commercial garage door queries to a competitor while you remain invisible in that segment? <Link href="/blindspot" className="text-[#FF6A00] hover:underline font-semibold">Get your free Blind Spot Report</Link> and find the gaps.</p>
+          <p>Is AI sending commercial garage door queries to a competitor while you remain invisible in that segment? <Link href="/blindspot" className="text-[#F27D24] hover:underline font-semibold">Get your free Blind Spot Report</Link> and find the gaps.</p>
         </div>
 
         <h2 id="review-signals">How Review Content Becomes AI Citation Evidence</h2>
@@ -638,7 +647,7 @@ export default function Page() {
 
         <div className="ae-callout ae-callout-info not-prose">
           <div className="ae-callout-title">Related Reading</div>
-          <p>Garage door repair is part of a broader home services pattern. See <Link href="/blog/how-electricians-get-found-on-ai-search" className="text-[#FF6A00] hover:underline">how electricians get found on AI search</Link> for cross-trade patterns that apply equally to garage door companies, and <Link href="/blog/how-contractors-and-home-service-companies-win-ai-search" className="text-[#FF6A00] hover:underline">how contractors win AI search</Link> for the underlying structural framework behind every home service AI citation strategy.</p>
+          <p>Garage door repair is part of a broader home services pattern. See <Link href="/blog/how-electricians-get-found-on-ai-search" className="text-[#F27D24] hover:underline">how electricians get found on AI search</Link> for cross-trade patterns that apply equally to garage door companies, and <Link href="/blog/how-contractors-and-home-service-companies-win-ai-search" className="text-[#F27D24] hover:underline">how contractors win AI search</Link> for the underlying structural framework behind every home service AI citation strategy.</p>
         </div>
 
         <h2 id="quick-wins">Quick Wins Checklist for Garage Door Companies</h2>
@@ -725,14 +734,14 @@ export default function Page() {
         </div>
 
         {/* Mid-article CTA block */}
-        <div className="not-prose my-16 p-8 rounded-2xl bg-gradient-to-br from-[#FF6A00]/10 to-transparent border border-[#FF6A00]/20">
+        <div className="not-prose my-16 p-8 rounded-2xl bg-gradient-to-br from-[#F27D24]/10 to-transparent border border-[#F27D24]/20">
           <h3 className="font-plus-jakarta text-2xl font-bold text-white mb-3">Find Out Why AI Is Recommending Other Garage Door Companies Instead of Yours</h3>
           <p className="text-gray-400 mb-6">Our free Blind Spot Report shows exactly what ChatGPT, Gemini, and Claude know about your garage door business, which signals are missing, and what structural changes would move you into AI recommendations for emergency, brand-specific, and same-day queries in your service area.</p>
-          <Link href="/blindspot" className="inline-flex items-center gap-2 bg-[#FF6A00] text-white px-6 py-3 rounded-lg font-semibold hover:bg-[#e55f00] transition-colors">
+          <Link href="/blindspot" className="inline-flex items-center gap-2 bg-[#F27D24] text-white px-6 py-3 rounded-lg font-semibold hover:bg-[#D96416] transition-colors">
             Get Your Free Blind Spot Report
             <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" /></svg>
           </Link>
-          <div className="flex flex-wrap items-center gap-6 mt-6 pt-6 border-t border-[#FF6A00]/10">
+          <div className="flex flex-wrap items-center gap-6 mt-6 pt-6 border-t border-[#F27D24]/10">
             <a href="tel:+12134442229" className="flex items-center gap-2 text-gray-400 hover:text-white transition-colors">
               <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" /></svg>
               (213) 444-2229
@@ -745,13 +754,18 @@ export default function Page() {
         </div>
 
         {/* Author card */}
-        <div className="ae-author-card not-prose">
-          <div className="ae-author-avatar">AE</div>
-          <div>
-            <div className="font-semibold text-white">The Answer Engine Team</div>
-            <div className="text-sm text-gray-400">AI visibility specialists helping local service businesses get found, trusted, and recommended by ChatGPT, Gemini, Claude, and Perplexity.</div>
-          </div>
-        </div>
+        <div className="ae-author-card">
+              <img
+                src="/justin-borges.webp"
+                alt="Justin Borges, Founder of The Answer Engine"
+                style={{ width: 64, height: 64, borderRadius: '50%', objectFit: 'cover', flexShrink: 0 }}
+              />
+              <div>
+                <div className="ae-author-name" style={{ fontWeight: 600 }}>Justin Borges</div>
+                <div className="ae-author-role" style={{ fontWeight: 400 }}>Founder, The Answer Engine</div>
+                <p style={{ marginTop: 8, fontSize: '0.875rem', color: 'rgba(255,255,255,0.65)', lineHeight: 1.6 }}>Justin Borges founded The Answer Engine in 2025 after 13+ years in real estate, $200M+ in production, and discovering that AI search rankings now decide who gets cited as the answer. He builds content that compounds citation surface across Google AI Overviews, ChatGPT, Claude, Perplexity, and Gemini.</p>
+              </div>
+            </div>
 
         {/* FAQ */}
         <h2 id="faq">Frequently Asked Questions</h2>
@@ -798,7 +812,7 @@ export default function Page() {
         <div className="ae-final-cta not-prose">
           <h2 className="font-plus-jakarta text-3xl font-bold text-white mb-4">The Next Emergency Call Could Be Yours</h2>
           <p className="text-gray-300 mb-8 text-lg">Every AI-referred garage door job that goes to a competitor is a call you did not get. Our free Blind Spot Report shows exactly what ChatGPT, Gemini, and Claude see when someone searches for a garage door repair company in your area, and what structural changes would put your business in the recommendation.</p>
-          <Link href="/blindspot" className="inline-flex items-center gap-2 bg-[#FF6A00] text-white px-8 py-4 rounded-xl font-bold text-lg hover:bg-[#e55f00] transition-colors ae-pulse-glow">
+          <Link href="/blindspot" className="inline-flex items-center gap-2 bg-[#F27D24] text-white px-8 py-4 rounded-xl font-bold text-lg hover:bg-[#D96416] transition-colors ae-pulse-glow">
             Get Your Free Blind Spot Report
             <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" /></svg>
           </Link>

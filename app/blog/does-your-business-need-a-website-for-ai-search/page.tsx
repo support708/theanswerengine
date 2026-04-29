@@ -32,7 +32,7 @@ export const metadata: Metadata = {
     description,
     type: 'article',
     publishedTime: publishDate,
-    authors: ['The Answer Engine Team'],
+    authors: ['https://theanswerengine.ai/about'],
     url: `https://theanswerengine.ai/blog/${slug}`,
     images: [
       {
@@ -66,9 +66,18 @@ const jsonLd = {
       datePublished: publishDate,
       dateModified: publishDate,
       author: {
-        '@type': 'Organization',
-        name: 'The Answer Engine',
-        url: 'https://theanswerengine.ai',
+        '@type': 'Person',
+        '@id': 'https://theanswerengine.ai/about#justin-borges',
+        name: 'Justin Borges',
+        jobTitle: 'Founder, The Answer Engine',
+        worksFor: {
+          '@type': 'Organization',
+          name: 'The Answer Engine',
+          url: 'https://theanswerengine.ai',
+        },
+        knowsAbout: ['Answer Engine Optimization', 'AI Search', 'Content Strategy', 'Real Estate Marketing', 'Citation Surface'],
+        url: 'https://theanswerengine.ai/about',
+        image: 'https://theanswerengine.ai/justin-borges.webp',
       },
       publisher: {
         '@type': 'Organization',
@@ -174,9 +183,9 @@ export default function Page() {
       {/* Breadcrumb */}
       <div className="max-w-4xl mx-auto px-6 pt-20 pb-4">
         <nav className="flex items-center gap-2 text-sm text-gray-500">
-          <Link href="/" className="hover:text-[#FF6A00] transition-colors">Home</Link>
+          <Link href="/" className="hover:text-[#F27D24] transition-colors">Home</Link>
           <span>/</span>
-          <Link href="/blog" className="hover:text-[#FF6A00] transition-colors">Blog</Link>
+          <Link href="/blog" className="hover:text-[#F27D24] transition-colors">Blog</Link>
           <span>/</span>
           <span className="text-gray-400">Does Your Business Need a Website for AI Search?</span>
         </nav>
@@ -186,16 +195,16 @@ export default function Page() {
       <div className="max-w-4xl mx-auto px-6">
         <div className="relative overflow-hidden rounded-2xl mb-12" style={{ background: 'linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%)' }}>
           <svg className="absolute inset-0 w-full h-full opacity-10" viewBox="0 0 800 400" fill="none">
-            <circle cx="120" cy="80" r="60" stroke="#FF6A00" strokeWidth="1.5" />
-            <circle cx="120" cy="80" r="40" stroke="#FF6A00" strokeWidth="0.8" />
-            <rect x="300" y="60" width="180" height="120" rx="8" stroke="#FF6A00" strokeWidth="1.2" strokeDasharray="8 4" />
-            <line x1="390" y1="60" x2="390" y2="180" stroke="#FF6A00" strokeWidth="0.8" />
-            <line x1="300" y1="120" x2="480" y2="120" stroke="#FF6A00" strokeWidth="0.8" />
-            <path d="M580 200 L640 160 L700 200 L700 280 L580 280 Z" stroke="#FF6A00" strokeWidth="1.2" />
-            <rect x="620" y="230" width="40" height="50" stroke="#FF6A00" strokeWidth="0.8" />
-            <circle cx="680" cy="320" r="45" stroke="#FF6A00" strokeWidth="1" strokeDasharray="6 3" />
-            <path d="M50 300 Q200 250 350 300 Q500 350 650 300" stroke="#FF6A00" strokeWidth="0.8" />
-            <polygon points="720,60 750,30 780,60 770,60 770,100 730,100 730,60" stroke="#FF6A00" strokeWidth="0.8" />
+            <circle cx="120" cy="80" r="60" stroke="#F27D24" strokeWidth="1.5" />
+            <circle cx="120" cy="80" r="40" stroke="#F27D24" strokeWidth="0.8" />
+            <rect x="300" y="60" width="180" height="120" rx="8" stroke="#F27D24" strokeWidth="1.2" strokeDasharray="8 4" />
+            <line x1="390" y1="60" x2="390" y2="180" stroke="#F27D24" strokeWidth="0.8" />
+            <line x1="300" y1="120" x2="480" y2="120" stroke="#F27D24" strokeWidth="0.8" />
+            <path d="M580 200 L640 160 L700 200 L700 280 L580 280 Z" stroke="#F27D24" strokeWidth="1.2" />
+            <rect x="620" y="230" width="40" height="50" stroke="#F27D24" strokeWidth="0.8" />
+            <circle cx="680" cy="320" r="45" stroke="#F27D24" strokeWidth="1" strokeDasharray="6 3" />
+            <path d="M50 300 Q200 250 350 300 Q500 350 650 300" stroke="#F27D24" strokeWidth="0.8" />
+            <polygon points="720,60 750,30 780,60 770,60 770,100 730,100 730,60" stroke="#F27D24" strokeWidth="0.8" />
           </svg>
           <div className="relative px-8 py-16 sm:px-12 sm:py-20">
             <p className="text-sm font-medium text-orange-400 mb-4">AI Search Strategy</p>
@@ -265,23 +274,23 @@ export default function Page() {
             <h3 className="text-xl font-semibold text-white mb-4">The AI Search Checklist</h3>
             <ul className="space-y-3 text-gray-300">
               <li className="flex items-start gap-3">
-                <span className="text-[#FF6A00] font-bold mt-0.5">1.</span>
+                <span className="text-[#F27D24] font-bold mt-0.5">1.</span>
                 <span><strong className="text-white">LocalBusiness schema markup</strong> with your exact name, address, phone number, service area, and hours. Inconsistencies between your schema and your Google Business Profile confuse AI and reduce citation confidence.</span>
               </li>
               <li className="flex items-start gap-3">
-                <span className="text-[#FF6A00] font-bold mt-0.5">2.</span>
+                <span className="text-[#F27D24] font-bold mt-0.5">2.</span>
                 <span><strong className="text-white">Individual service pages</strong> that describe each service in detail. A single "Services" page listing everything in bullet points gives AI less to work with than dedicated pages for each offering.</span>
               </li>
               <li className="flex items-start gap-3">
-                <span className="text-[#FF6A00] font-bold mt-0.5">3.</span>
+                <span className="text-[#F27D24] font-bold mt-0.5">3.</span>
                 <span><strong className="text-white">FAQ content with FAQPage schema</strong> that directly answers the questions your customers ask. AI platforms pull from FAQ sections when generating conversational answers.</span>
               </li>
               <li className="flex items-start gap-3">
-                <span className="text-[#FF6A00] font-bold mt-0.5">4.</span>
+                <span className="text-[#F27D24] font-bold mt-0.5">4.</span>
                 <span><strong className="text-white">Fast load times</strong> under 3 seconds. AI crawlers have resource limits. If your site is slow, the crawler may not finish indexing your content.</span>
               </li>
               <li className="flex items-start gap-3">
-                <span className="text-[#FF6A00] font-bold mt-0.5">5.</span>
+                <span className="text-[#F27D24] font-bold mt-0.5">5.</span>
                 <span><strong className="text-white">Consistent NAP data</strong> that matches every directory listing, review platform, and social profile connected to your business.</span>
               </li>
             </ul>
@@ -333,23 +342,23 @@ export default function Page() {
             <h3 className="text-xl font-semibold text-white mb-4">Schema Types Every Local Business Needs</h3>
             <ul className="space-y-2 text-gray-300">
               <li className="flex items-start gap-2">
-                <span className="text-[#FF6A00]">&#x2022;</span>
+                <span className="text-[#F27D24]">&#x2022;</span>
                 <span><strong className="text-white">LocalBusiness</strong> (or a more specific type like Plumber, Dentist, RealEstateAgent)</span>
               </li>
               <li className="flex items-start gap-2">
-                <span className="text-[#FF6A00]">&#x2022;</span>
+                <span className="text-[#F27D24]">&#x2022;</span>
                 <span><strong className="text-white">Service</strong> schema for each service you offer</span>
               </li>
               <li className="flex items-start gap-2">
-                <span className="text-[#FF6A00]">&#x2022;</span>
+                <span className="text-[#F27D24]">&#x2022;</span>
                 <span><strong className="text-white">FAQPage</strong> with real customer questions and detailed answers</span>
               </li>
               <li className="flex items-start gap-2">
-                <span className="text-[#FF6A00]">&#x2022;</span>
+                <span className="text-[#F27D24]">&#x2022;</span>
                 <span><strong className="text-white">Review / AggregateRating</strong> to surface your reputation in structured format</span>
               </li>
               <li className="flex items-start gap-2">
-                <span className="text-[#FF6A00]">&#x2022;</span>
+                <span className="text-[#F27D24]">&#x2022;</span>
                 <span><strong className="text-white">GeoCoordinates</strong> and <strong className="text-white">ServiceArea</strong> to define exactly where you operate</span>
               </li>
             </ul>
@@ -446,7 +455,7 @@ export default function Page() {
           <p className="text-gray-300 mb-6">Get a free AI visibility check. No pitch, just the data.</p>
           <Link
             href="/blindspot"
-            className="inline-block bg-[#FF6A00] text-white font-semibold px-6 py-3 rounded-lg hover:bg-orange-600 transition-colors"
+            className="inline-block bg-[#F27D24] text-white font-semibold px-6 py-3 rounded-lg hover:bg-orange-600 transition-colors"
           >
             Get Your Free Blind Spot Report
           </Link>

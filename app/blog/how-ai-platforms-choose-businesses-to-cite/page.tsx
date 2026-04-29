@@ -17,7 +17,7 @@ export const metadata: Metadata = {
     type: 'article',
     publishedTime: '2025-11-09',
     modifiedTime: '2025-11-09',
-    authors: ['Justin Borges'],
+    authors: ['https://theanswerengine.ai/about'],
     url: 'https://theanswerengine.ai/blog/how-ai-platforms-choose-businesses-to-cite',
     images: [
       {
@@ -71,7 +71,17 @@ function ComprehensiveSchema() {
         },
         "author": {
           "@type": "Person",
-          "@id": "https://theanswerengine.ai/about#founder"
+          "@id": "https://theanswerengine.ai/about#justin-borges",
+          "name": "Justin Borges",
+          "jobTitle": "Founder, The Answer Engine",
+          "worksFor": {
+            "@type": "Organization",
+            "name": "The Answer Engine",
+            "url": "https://theanswerengine.ai"
+          },
+          "knowsAbout": ["Answer Engine Optimization", "AI Search", "Content Strategy", "Real Estate Marketing", "Citation Surface"],
+          "url": "https://theanswerengine.ai/about",
+          "image": "https://theanswerengine.ai/justin-borges.webp"
         },
         "publisher": {
           "@type": "Organization",
@@ -241,13 +251,13 @@ export default function HowAIChoosesBlogPost() {
                 <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={2}>
                   <path strokeLinecap="round" strokeLinejoin="round" d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z" />
                 </svg>
-                <span>By The Answer Engine Team</span>
+                <span>By Justin Borges</span>
               </div>
             </div>
           </header>
 
           {/* Main Content with prose */}
-          <div className="prose prose-invert prose-lg max-w-none prose-headings:font-plus-jakarta prose-headings:text-white prose-p:text-gray-300 prose-a:text-[#FF6A00] prose-a:no-underline hover:prose-a:underline prose-strong:text-white">
+          <div className="prose prose-invert prose-lg max-w-none prose-headings:font-plus-jakarta prose-headings:text-white prose-p:text-gray-300 prose-a:text-[#F27D24] prose-a:no-underline hover:prose-a:underline prose-strong:text-white">
 
             {/* ── STATS GRID ── */}
             <div className="ae-stats-grid not-prose">
@@ -795,7 +805,7 @@ export default function HowAIChoosesBlogPost() {
             {/* ── AUTHOR CARD ── */}
             <div className="ae-author-card not-prose">
               <div>
-                <p className="text-white font-semibold text-lg font-plus-jakarta mb-1">The Answer Engine Team</p>
+                <p className="text-white font-semibold text-lg font-plus-jakarta mb-1">Justin Borges</p>
                 <p className="text-gray-400 text-sm mb-3">Answer Engine Optimization Specialists</p>
                 <p className="text-gray-300 leading-relaxed text-sm">The Answer Engine specializes in AEO for local service businesses. We position companies to be cited by Google AI Overviews, ChatGPT, Claude, Perplexity, and other AI platforms, making them the trusted expert AI recommends in their market.</p>
                 <div className="flex flex-wrap gap-4 mt-3 text-sm">
@@ -817,7 +827,7 @@ export default function HowAIChoosesBlogPost() {
               <h3>AI Is Already Choosing Winners in Your Market</h3>
               <p>The question is not whether AI citation matters for your business. The question is whether you will establish authority now while it is achievable, or wait until established competitors have built insurmountable advantages.</p>
               <Link href="/blindspot" className="ae-final-cta-pulse">Get Your Free Blind Spot Report &rarr;</Link>
-              <div className="flex flex-wrap items-center justify-center gap-6 mt-6 pt-6 border-t border-[#FF6A00]/10">
+              <div className="flex flex-wrap items-center justify-center gap-6 mt-6 pt-6 border-t border-[#F27D24]/10">
                 <a href="tel:+12134442229" className="flex items-center gap-2 text-gray-400 hover:text-white transition-colors">
                   <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" /></svg>
                   (213) 444-2229
@@ -842,7 +852,7 @@ export default function HowAIChoosesBlogPost() {
             <div className="space-y-4 not-prose">
               <div className="bg-white/[0.03] border border-white/[0.08] rounded-xl p-6 hover:border-white/[0.12] transition-colors">
                 <Link href="/blog/what-is-answer-engine-optimization" className="group">
-                  <h4 className="text-xl font-semibold text-white mb-2 group-hover:text-[#FF6A00] transition-colors font-plus-jakarta">
+                  <h4 className="text-xl font-semibold text-white mb-2 group-hover:text-[#F27D24] transition-colors font-plus-jakarta">
                     What is Answer Engine Optimization (AEO)? The Complete Guide for 2025
                   </h4>
                   <p className="text-gray-400 leading-relaxed">
@@ -852,7 +862,7 @@ export default function HowAIChoosesBlogPost() {
               </div>
               <div className="bg-white/[0.03] border border-white/[0.08] rounded-xl p-6 hover:border-white/[0.12] transition-colors">
                 <Link href="/blog/google-rankings-dont-matter" className="group">
-                  <h4 className="text-xl font-semibold text-white mb-2 group-hover:text-[#FF6A00] transition-colors font-plus-jakarta">
+                  <h4 className="text-xl font-semibold text-white mb-2 group-hover:text-[#F27D24] transition-colors font-plus-jakarta">
                     The Real Reason Your Google Rankings Do Not Matter Anymore
                   </h4>
                   <p className="text-gray-400 leading-relaxed">
@@ -862,7 +872,7 @@ export default function HowAIChoosesBlogPost() {
               </div>
               <div className="bg-white/[0.03] border border-white/[0.08] rounded-xl p-6 hover:border-white/[0.12] transition-colors">
                 <Link href="/blog/aeo-vs-seo" className="group">
-                  <h4 className="text-xl font-semibold text-white mb-2 group-hover:text-[#FF6A00] transition-colors font-plus-jakarta">
+                  <h4 className="text-xl font-semibold text-white mb-2 group-hover:text-[#F27D24] transition-colors font-plus-jakarta">
                     AEO vs SEO: What Is the Difference?
                   </h4>
                   <p className="text-gray-400 leading-relaxed">

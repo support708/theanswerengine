@@ -35,7 +35,7 @@ export const metadata: Metadata = {
     description,
     type: 'article',
     publishedTime: publishDate,
-    authors: ['The Answer Engine Team'],
+    authors: ['https://theanswerengine.ai/about'],
     url: `https://www.theanswerengine.ai/blog/${slug}`,
     images: [
       {
@@ -68,9 +68,18 @@ const jsonLd = {
       datePublished: publishDate,
       dateModified: publishDate,
       author: {
-        '@type': 'Organization',
-        name: 'The Answer Engine',
-        url: 'https://theanswerengine.ai',
+        '@type': 'Person',
+        '@id': 'https://theanswerengine.ai/about#justin-borges',
+        name: 'Justin Borges',
+        jobTitle: 'Founder, The Answer Engine',
+        worksFor: {
+          '@type': 'Organization',
+          name: 'The Answer Engine',
+          url: 'https://theanswerengine.ai',
+        },
+        knowsAbout: ['Answer Engine Optimization', 'AI Search', 'Content Strategy', 'Real Estate Marketing', 'Citation Surface'],
+        url: 'https://theanswerengine.ai/about',
+        image: 'https://theanswerengine.ai/justin-borges.webp',
       },
       publisher: {
         '@type': 'Organization',
@@ -224,16 +233,16 @@ export default function Page() {
               >
                 <defs>
                   <pattern id="hero-grid-147-pat" x="0" y="0" width="32" height="32" patternUnits="userSpaceOnUse">
-                    <path d="M 32 0 L 0 0 0 32" fill="none" stroke="#FF6A00" strokeWidth="0.4" strokeOpacity="0.3" />
+                    <path d="M 32 0 L 0 0 0 32" fill="none" stroke="#F27D24" strokeWidth="0.4" strokeOpacity="0.3" />
                   </pattern>
                 </defs>
                 <rect width="100%" height="100%" fill="url(#hero-grid-147-pat)" />
                 <rect width="100%" height="100%" fill="url(#hero-grid-147-pat)" transform="translate(16,16)" opacity="0.5" />
               </svg>
               <div className="relative z-10 flex flex-col items-start justify-center p-8 sm:p-12" style={{ minHeight: '200px' }}>
-                <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-[#FF6A00]/10 border border-[#FF6A00]/30 mb-4">
-                  <span className="w-2 h-2 rounded-full bg-[#FF6A00]" />
-                  <span className="text-xs font-bold tracking-widest uppercase text-[#FF6A00]">AEO Education</span>
+                <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-[#F27D24]/10 border border-[#F27D24]/30 mb-4">
+                  <span className="w-2 h-2 rounded-full bg-[#F27D24]" />
+                  <span className="text-xs font-bold tracking-widest uppercase text-[#F27D24]">AEO Education</span>
                 </div>
                 <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-white leading-tight font-plus-jakarta max-w-3xl">
                   How AI Answers Change Based on Your Location
@@ -266,13 +275,13 @@ export default function Page() {
                 <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={2}>
                   <path strokeLinecap="round" strokeLinejoin="round" d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z" />
                 </svg>
-                <span>The Answer Engine Team</span>
+                <span>Justin Borges</span>
               </div>
             </div>
           </header>
 
           {/* Main content */}
-          <div className="prose prose-invert prose-lg max-w-none prose-headings:font-plus-jakarta prose-headings:text-white prose-p:text-gray-300 prose-a:text-[#FF6A00] prose-a:no-underline hover:prose-a:underline prose-strong:text-white">
+          <div className="prose prose-invert prose-lg max-w-none prose-headings:font-plus-jakarta prose-headings:text-white prose-p:text-gray-300 prose-a:text-[#F27D24] prose-a:no-underline hover:prose-a:underline prose-strong:text-white">
 
             {/* Stats Grid */}
             <div className="ae-stats-grid not-prose">
@@ -346,12 +355,12 @@ export default function Page() {
             </div>
 
             {/* CTA Inline 1 */}
-            <div className="not-prose my-10 p-5 rounded-xl bg-[#FF6A00]/5 border border-[#FF6A00]/20 flex flex-col sm:flex-row items-start sm:items-center gap-4">
+            <div className="not-prose my-10 p-5 rounded-xl bg-[#F27D24]/5 border border-[#F27D24]/20 flex flex-col sm:flex-row items-start sm:items-center gap-4">
               <div className="flex-1">
                 <p className="text-white font-semibold mb-1">Is AI finding you in all your target cities?</p>
                 <p className="text-gray-400 text-sm">Our Blind Spot Report maps your AI visibility across every location that matters to your business.</p>
               </div>
-              <Link href="/blindspot" className="shrink-0 inline-flex items-center gap-2 bg-[#FF6A00] text-white px-5 py-2.5 rounded-lg font-semibold text-sm hover:bg-[#e55f00] transition-colors">
+              <Link href="/blindspot" className="shrink-0 inline-flex items-center gap-2 bg-[#F27D24] text-white px-5 py-2.5 rounded-lg font-semibold text-sm hover:bg-[#D96416] transition-colors">
                 Get the Report
                 <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" /></svg>
               </Link>
@@ -373,7 +382,7 @@ export default function Page() {
               <blockquote className="text-white text-xl font-semibold leading-relaxed">
                 &quot;AI local visibility is up to 30 times harder to achieve than traditional local search visibility, and unlike Google Maps, it does not operate on a simple distance radius. It operates on confidence.&quot;
               </blockquote>
-              <cite className="text-[#FF6A00] text-sm mt-3 block">SOCi 2026 Local Visibility Index Research</cite>
+              <cite className="text-[#F27D24] text-sm mt-3 block">SOCi 2026 Local Visibility Index Research</cite>
             </div>
 
             <p>
@@ -410,14 +419,14 @@ export default function Page() {
                     <td>IP geolocation + web search integration</td>
                     <td>Bing, web crawl, Yelp, directories</td>
                     <td>City-level estimate</td>
-                    <td className="text-[#FF6A00]">High</td>
+                    <td className="text-[#F27D24]">High</td>
                   </tr>
                   <tr>
                     <td><strong className="text-white">Perplexity</strong></td>
                     <td>IP geolocation + real-time web retrieval</td>
                     <td>Yelp, Google, directories, citations</td>
                     <td>City-level estimate</td>
-                    <td className="text-[#FF6A00]">High</td>
+                    <td className="text-[#F27D24]">High</td>
                   </tr>
                   <tr>
                     <td><strong className="text-white">Google AI Mode</strong></td>
@@ -438,7 +447,7 @@ export default function Page() {
                     <td>IP + Bing Maps integration</td>
                     <td>Bing Places, directories, web</td>
                     <td>City-level estimate</td>
-                    <td className="text-[#FF6A00]">High</td>
+                    <td className="text-[#F27D24]">High</td>
                   </tr>
                   <tr>
                     <td><strong className="text-white">Amazon Alexa</strong></td>
@@ -460,12 +469,12 @@ export default function Page() {
             </p>
 
             {/* CTA Inline 2 */}
-            <div className="not-prose my-10 p-5 rounded-xl bg-[#FF6A00]/5 border border-[#FF6A00]/20 flex flex-col sm:flex-row items-start sm:items-center gap-4">
+            <div className="not-prose my-10 p-5 rounded-xl bg-[#F27D24]/5 border border-[#F27D24]/20 flex flex-col sm:flex-row items-start sm:items-center gap-4">
               <div className="flex-1">
                 <p className="text-white font-semibold mb-1">Not sure which platforms are sending you customers?</p>
                 <p className="text-gray-400 text-sm">We test ChatGPT, Perplexity, Google AI Mode, and more to show you where you stand across every major platform.</p>
               </div>
-              <Link href="/blindspot" className="shrink-0 inline-flex items-center gap-2 bg-[#FF6A00] text-white px-5 py-2.5 rounded-lg font-semibold text-sm hover:bg-[#e55f00] transition-colors">
+              <Link href="/blindspot" className="shrink-0 inline-flex items-center gap-2 bg-[#F27D24] text-white px-5 py-2.5 rounded-lg font-semibold text-sm hover:bg-[#D96416] transition-colors">
                 Free Visibility Audit
                 <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" /></svg>
               </Link>
@@ -580,12 +589,12 @@ export default function Page() {
             </p>
 
             {/* CTA Inline 3 */}
-            <div className="not-prose my-10 p-5 rounded-xl bg-[#FF6A00]/5 border border-[#FF6A00]/20 flex flex-col sm:flex-row items-start sm:items-center gap-4">
+            <div className="not-prose my-10 p-5 rounded-xl bg-[#F27D24]/5 border border-[#F27D24]/20 flex flex-col sm:flex-row items-start sm:items-center gap-4">
               <div className="flex-1">
                 <p className="text-white font-semibold mb-1">Find out who AI is recommending instead of you</p>
                 <p className="text-gray-400 text-sm">Our competitive analysis shows which businesses are winning the AI recommendations you should be capturing.</p>
               </div>
-              <Link href="/contact" className="shrink-0 inline-flex items-center gap-2 border border-[#FF6A00] text-[#FF6A00] px-5 py-2.5 rounded-lg font-semibold text-sm hover:bg-[#FF6A00]/10 transition-colors">
+              <Link href="/contact" className="shrink-0 inline-flex items-center gap-2 border border-[#F27D24] text-[#F27D24] px-5 py-2.5 rounded-lg font-semibold text-sm hover:bg-[#F27D24]/10 transition-colors">
                 Talk to an Expert
                 <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" /></svg>
               </Link>
@@ -732,12 +741,12 @@ export default function Page() {
             </p>
 
             {/* CTA Inline 4 */}
-            <div className="not-prose my-10 p-5 rounded-xl bg-[#FF6A00]/5 border border-[#FF6A00]/20 flex flex-col sm:flex-row items-start sm:items-center gap-4">
+            <div className="not-prose my-10 p-5 rounded-xl bg-[#F27D24]/5 border border-[#F27D24]/20 flex flex-col sm:flex-row items-start sm:items-center gap-4">
               <div className="flex-1">
                 <p className="text-white font-semibold mb-1">Stop guessing. Start measuring.</p>
                 <p className="text-gray-400 text-sm">The Answer Engine tracks your AI visibility across all major platforms and multiple locations so you know exactly where you stand.</p>
               </div>
-              <Link href="/services" className="shrink-0 inline-flex items-center gap-2 border border-[#FF6A00] text-[#FF6A00] px-5 py-2.5 rounded-lg font-semibold text-sm hover:bg-[#FF6A00]/10 transition-colors">
+              <Link href="/services" className="shrink-0 inline-flex items-center gap-2 border border-[#F27D24] text-[#F27D24] px-5 py-2.5 rounded-lg font-semibold text-sm hover:bg-[#F27D24]/10 transition-colors">
                 See Our Services
                 <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" /></svg>
               </Link>
@@ -749,28 +758,28 @@ export default function Page() {
               <div className="ae-cheat-sheet-subtitle">What AI Platforms Look For When They Decide Whether to Recommend You in Any Given Location</div>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 mt-6">
                 <div>
-                  <div className="text-[#FF6A00] font-semibold text-sm uppercase tracking-wider mb-3">Foundation Layer</div>
+                  <div className="text-[#F27D24] font-semibold text-sm uppercase tracking-wider mb-3">Foundation Layer</div>
                   <ul className="space-y-2 text-sm text-gray-300">
-                    <li className="flex items-start gap-2"><span className="text-[#FF6A00] shrink-0">01</span> NAP identical across every major directory, aggregator, and social profile</li>
-                    <li className="flex items-start gap-2"><span className="text-[#FF6A00] shrink-0">02</span> LocalBusiness schema with GeoCoordinates, hasMap, and areaServed fields live on your site</li>
-                    <li className="flex items-start gap-2"><span className="text-[#FF6A00] shrink-0">03</span> Google Business Profile fully built out: services, hours, attributes, photos, posts, Q&amp;A</li>
-                    <li className="flex items-start gap-2"><span className="text-[#FF6A00] shrink-0">04</span> Bing Places, Apple Maps, and Yelp listings claimed and verified with matching data</li>
-                    <li className="flex items-start gap-2"><span className="text-[#FF6A00] shrink-0">05</span> Any old address or previous location data fully purged from all directories</li>
+                    <li className="flex items-start gap-2"><span className="text-[#F27D24] shrink-0">01</span> NAP identical across every major directory, aggregator, and social profile</li>
+                    <li className="flex items-start gap-2"><span className="text-[#F27D24] shrink-0">02</span> LocalBusiness schema with GeoCoordinates, hasMap, and areaServed fields live on your site</li>
+                    <li className="flex items-start gap-2"><span className="text-[#F27D24] shrink-0">03</span> Google Business Profile fully built out: services, hours, attributes, photos, posts, Q&amp;A</li>
+                    <li className="flex items-start gap-2"><span className="text-[#F27D24] shrink-0">04</span> Bing Places, Apple Maps, and Yelp listings claimed and verified with matching data</li>
+                    <li className="flex items-start gap-2"><span className="text-[#F27D24] shrink-0">05</span> Any old address or previous location data fully purged from all directories</li>
                   </ul>
                 </div>
                 <div>
-                  <div className="text-[#FF6A00] font-semibold text-sm uppercase tracking-wider mb-3">Authority Layer</div>
+                  <div className="text-[#F27D24] font-semibold text-sm uppercase tracking-wider mb-3">Authority Layer</div>
                   <ul className="space-y-2 text-sm text-gray-300">
-                    <li className="flex items-start gap-2"><span className="text-[#FF6A00] shrink-0">06</span> Service area pages with genuine local context for each market you serve</li>
-                    <li className="flex items-start gap-2"><span className="text-[#FF6A00] shrink-0">07</span> Citations from local news, city guides, chamber of commerce, neighborhood blogs</li>
-                    <li className="flex items-start gap-2"><span className="text-[#FF6A00] shrink-0">08</span> Reviews that mention neighborhood names, local landmarks, and service context</li>
-                    <li className="flex items-start gap-2"><span className="text-[#FF6A00] shrink-0">09</span> FAQ content on your website that addresses location-specific questions directly</li>
-                    <li className="flex items-start gap-2"><span className="text-[#FF6A00] shrink-0">10</span> Regular testing across AI platforms from multiple geographic starting points</li>
+                    <li className="flex items-start gap-2"><span className="text-[#F27D24] shrink-0">06</span> Service area pages with genuine local context for each market you serve</li>
+                    <li className="flex items-start gap-2"><span className="text-[#F27D24] shrink-0">07</span> Citations from local news, city guides, chamber of commerce, neighborhood blogs</li>
+                    <li className="flex items-start gap-2"><span className="text-[#F27D24] shrink-0">08</span> Reviews that mention neighborhood names, local landmarks, and service context</li>
+                    <li className="flex items-start gap-2"><span className="text-[#F27D24] shrink-0">09</span> FAQ content on your website that addresses location-specific questions directly</li>
+                    <li className="flex items-start gap-2"><span className="text-[#F27D24] shrink-0">10</span> Regular testing across AI platforms from multiple geographic starting points</li>
                   </ul>
                 </div>
               </div>
-              <div className="mt-6 pt-6 border-t border-[#FF6A00]/20">
-                <div className="text-[#FF6A00] font-semibold text-sm uppercase tracking-wider mb-3">Red Flags to Fix Immediately</div>
+              <div className="mt-6 pt-6 border-t border-[#F27D24]/20">
+                <div className="text-[#F27D24] font-semibold text-sm uppercase tracking-wider mb-3">Red Flags to Fix Immediately</div>
                 <div className="grid grid-cols-1 sm:grid-cols-3 gap-3">
                   <div className="bg-red-500/10 border border-red-500/20 rounded-lg p-3 text-sm text-red-300">Duplicate listings with conflicting NAP on any major platform</div>
                   <div className="bg-red-500/10 border border-red-500/20 rounded-lg p-3 text-sm text-red-300">Generic website with no location-specific page content</div>
@@ -780,29 +789,28 @@ export default function Page() {
             </div>
 
             {/* Author Card */}
-            <div className="ae-author-card not-prose">
-              <div className="ae-author-avatar">
-                <svg className="w-8 h-8 text-[#FF6A00]" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z" />
-                </svg>
-              </div>
-              <div className="ae-author-info">
-                <div className="ae-author-name">The Answer Engine Research Team</div>
-                <div className="ae-author-bio">
-                  The Answer Engine specializes in Answer Engine Optimization (AEO) for local and multi-location businesses. Our team tracks AI recommendation behavior across ChatGPT, Perplexity, Google AI Mode, and emerging platforms to give business owners accurate, actionable intelligence about their AI visibility. We have analyzed AI search behavior for hundreds of businesses across dozens of service categories.
-                </div>
+            <div className="ae-author-card">
+              <img
+                src="/justin-borges.webp"
+                alt="Justin Borges, Founder of The Answer Engine"
+                style={{ width: 64, height: 64, borderRadius: '50%', objectFit: 'cover', flexShrink: 0 }}
+              />
+              <div>
+                <div className="ae-author-name" style={{ fontWeight: 600 }}>Justin Borges</div>
+                <div className="ae-author-role" style={{ fontWeight: 400 }}>Founder, The Answer Engine</div>
+                <p style={{ marginTop: 8, fontSize: '0.875rem', color: 'rgba(255,255,255,0.65)', lineHeight: 1.6 }}>Justin Borges founded The Answer Engine in 2025 after 13+ years in real estate, $200M+ in production, and discovering that AI search rankings now decide who gets cited as the answer. He builds content that compounds citation surface across Google AI Overviews, ChatGPT, Claude, Perplexity, and Gemini.</p>
               </div>
             </div>
 
             {/* 3-Tier CTA Block */}
-            <div className="not-prose my-16 p-8 rounded-2xl bg-gradient-to-br from-[#FF6A00]/10 to-transparent border border-[#FF6A00]/20">
+            <div className="not-prose my-16 p-8 rounded-2xl bg-gradient-to-br from-[#F27D24]/10 to-transparent border border-[#F27D24]/20">
               <h3 className="font-plus-jakarta text-2xl font-bold text-white mb-3">See How AI Recommends You Across Different Locations</h3>
               <p className="text-gray-400 mb-6">Our free Blind Spot Report tests what AI platforms say about your business from multiple locations, revealing gaps in your local AI visibility.</p>
-              <Link href="/blindspot" className="inline-flex items-center gap-2 bg-[#FF6A00] text-white px-6 py-3 rounded-lg font-semibold hover:bg-[#e55f00] transition-colors">
+              <Link href="/blindspot" className="inline-flex items-center gap-2 bg-[#F27D24] text-white px-6 py-3 rounded-lg font-semibold hover:bg-[#D96416] transition-colors">
                 Get Your Free Blind Spot Report
                 <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" /></svg>
               </Link>
-              <div className="flex flex-wrap items-center gap-6 mt-6 pt-6 border-t border-[#FF6A00]/10">
+              <div className="flex flex-wrap items-center gap-6 mt-6 pt-6 border-t border-[#F27D24]/10">
                 <a href="tel:+12134442229" className="flex items-center gap-2 text-gray-400 hover:text-white transition-colors">
                   <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" /></svg>
                   (213) 444-2229
@@ -864,9 +872,9 @@ export default function Page() {
             <div className="ae-final-cta not-prose">
               <div className="ae-final-cta-glow" />
               <div className="relative z-10 text-center">
-                <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-[#FF6A00]/10 border border-[#FF6A00]/30 mb-4">
-                  <span className="w-2 h-2 rounded-full bg-[#FF6A00] animate-pulse" />
-                  <span className="text-xs font-bold tracking-widest uppercase text-[#FF6A00]">Free for Local Businesses</span>
+                <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-[#F27D24]/10 border border-[#F27D24]/30 mb-4">
+                  <span className="w-2 h-2 rounded-full bg-[#F27D24] animate-pulse" />
+                  <span className="text-xs font-bold tracking-widest uppercase text-[#F27D24]">Free for Local Businesses</span>
                 </div>
                 <h2 className="font-plus-jakarta text-3xl font-bold text-white mb-4">
                   Find Out Where AI Is Sending Your Customers
@@ -875,7 +883,7 @@ export default function Page() {
                   Location shapes every AI answer. Our Blind Spot Report reveals exactly how ChatGPT, Perplexity, and Google AI respond when someone in your market searches for what you offer. You will see which locations you own, which you are losing, and what it will take to win them.
                 </p>
                 <div className="flex flex-col sm:flex-row gap-4 justify-center">
-                  <Link href="/blindspot" className="inline-flex items-center justify-center gap-2 bg-[#FF6A00] text-white px-8 py-4 rounded-xl font-bold text-lg hover:bg-[#e55f00] transition-colors">
+                  <Link href="/blindspot" className="inline-flex items-center justify-center gap-2 bg-[#F27D24] text-white px-8 py-4 rounded-xl font-bold text-lg hover:bg-[#D96416] transition-colors">
                     Get Your Free Blind Spot Report
                     <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" /></svg>
                   </Link>

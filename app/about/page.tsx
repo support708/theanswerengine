@@ -5,11 +5,31 @@ export const metadata: Metadata = {
   title: 'About The Answer Engine | Built By a Practitioner, Not a Theorist',
   description:
     'Justin Borges built the AERO-10 framework on his own real estate site first — 1.14M+ monthly impressions, 4 AI platforms citing. 13+ years in LA real estate. $200M+ closed. Now the system is yours.',
+  alternates: {
+    canonical: 'https://www.theanswerengine.ai/about',
+  },
   openGraph: {
     title: 'About The Answer Engine | Built By a Practitioner, Not a Theorist',
     description:
       'AEO built by a practitioner. Tested on our own site first — 1.14M+ monthly impressions and AI citations across 4 platforms.',
-    url: 'https://theanswerengine.ai/about',
+    url: 'https://www.theanswerengine.ai/about',
+    type: 'website',
+    siteName: 'The Answer Engine',
+    images: [
+      {
+        url: 'https://www.theanswerengine.ai/justin-borges.webp',
+        width: 1200,
+        height: 630,
+        alt: 'Justin Borges — Founder, The Answer Engine',
+      }
+    ],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'About The Answer Engine | Built By a Practitioner, Not a Theorist',
+    description: 'Justin Borges built the AERO-10 framework on his own real estate site first — 1.14M+ monthly impressions, 4 AI platforms citing.',
+    site: '@theanswerengine',
+    images: ['https://www.theanswerengine.ai/justin-borges.webp'],
   },
 };
 
@@ -83,20 +103,76 @@ export default function AboutPage() {
         dangerouslySetInnerHTML={{
           __html: JSON.stringify({
             '@context': 'https://schema.org',
-            '@type': 'AboutPage',
-            name: 'About The Answer Engine — Built By A Practitioner',
-            description:
-              'Justin Borges founded The Answer Engine after 13+ years in real estate. The AERO-10 framework was forged in real market conditions.',
-            url: 'https://theanswerengine.ai/about',
-            mainEntity: {
-              '@type': 'Organization',
-              name: 'The Answer Engine',
-              founder: {
+            '@graph': [
+              {
+                '@type': 'AboutPage',
+                '@id': 'https://www.theanswerengine.ai/about#webpage',
+                name: 'About The Answer Engine — Built By A Practitioner',
+                description: 'Justin Borges founded The Answer Engine after 13+ years in real estate and $200M+ in production. The AERO-10 framework was forged in real market conditions before being offered to clients.',
+                url: 'https://www.theanswerengine.ai/about',
+                inLanguage: 'en-US',
+                isPartOf: { '@id': 'https://www.theanswerengine.ai/#website' },
+                breadcrumb: { '@id': 'https://www.theanswerengine.ai/about#breadcrumb' },
+                mainEntity: { '@id': 'https://www.theanswerengine.ai/about#justin-borges' },
+              },
+              {
+                '@type': 'BreadcrumbList',
+                '@id': 'https://www.theanswerengine.ai/about#breadcrumb',
+                itemListElement: [
+                  { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://www.theanswerengine.ai' },
+                  { '@type': 'ListItem', position: 2, name: 'About', item: 'https://www.theanswerengine.ai/about' },
+                ],
+              },
+              {
                 '@type': 'Person',
+                '@id': 'https://www.theanswerengine.ai/about#justin-borges',
                 name: 'Justin Borges',
                 jobTitle: 'Founder & AEO Strategist',
+                description: 'Justin Borges founded The Answer Engine in 2025 after 13+ years in real estate and $200M+ in production. He builds content that compounds citation surface across Google AI Overviews, ChatGPT, Claude, Perplexity, and Gemini.',
+                url: 'https://www.theanswerengine.ai/about',
+                image: {
+                  '@type': 'ImageObject',
+                  url: 'https://www.theanswerengine.ai/justin-borges.webp',
+                  width: 400,
+                  height: 400,
+                },
+                worksFor: {
+                  '@type': 'Organization',
+                  '@id': 'https://www.theanswerengine.ai/#organization',
+                  name: 'The Answer Engine',
+                  url: 'https://www.theanswerengine.ai',
+                },
+                knowsAbout: [
+                  'Answer Engine Optimization',
+                  'AI Search',
+                  'Citation Surface',
+                  'Content Strategy',
+                  'Real Estate',
+                  'AEO Framework',
+                  'Schema Markup',
+                  'Google AI Overviews',
+                  'ChatGPT Optimization',
+                ],
+                alumniOf: 'Real Estate Industry — Los Angeles, CA',
+                hasOccupation: {
+                  '@type': 'Occupation',
+                  name: 'AEO Strategist',
+                  description: 'Answer Engine Optimization strategist specializing in AI citation authority for local service businesses.',
+                },
+                sameAs: [
+                  'https://www.linkedin.com/in/justinborges',
+                  'https://lametrohomefinder.com',
+                ],
               },
-            },
+              {
+                '@type': 'Organization',
+                '@id': 'https://www.theanswerengine.ai/#organization',
+                name: 'The Answer Engine',
+                url: 'https://www.theanswerengine.ai',
+                foundingDate: '2025',
+                founder: { '@id': 'https://www.theanswerengine.ai/about#justin-borges' },
+              },
+            ],
           }),
         }}
       />
@@ -114,7 +190,7 @@ export default function AboutPage() {
           <div className="mb-12">
             <Link
               href="/"
-              className="font-mono text-[10px] tracking-widest uppercase text-white/40 hover:text-[#FF6A00] transition-colors inline-flex items-center gap-2"
+              className="font-mono text-[10px] tracking-widest uppercase text-white/40 hover:text-[#F27D24] transition-colors inline-flex items-center gap-2"
             >
               <svg className="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={2}>
                 <path strokeLinecap="round" strokeLinejoin="round" d="M10.5 19.5L3 12m0 0l7.5-7.5M3 12h18" />
@@ -125,8 +201,8 @@ export default function AboutPage() {
 
           {/* Tag */}
           <div className="inline-flex items-center gap-3 mb-8">
-            <span className="w-2 h-2 bg-[#FF6A00]" />
-            <span className="font-mono text-[10px] tracking-widest uppercase text-[#FF6A00]">
+            <span className="w-2 h-2 bg-[#F27D24]" />
+            <span className="font-mono text-[10px] tracking-widest uppercase text-[#F27D24]">
               About Us // The Answer Engine
             </span>
           </div>
@@ -135,7 +211,7 @@ export default function AboutPage() {
           <h1 className="font-headline font-black text-5xl md:text-7xl lg:text-8xl uppercase tracking-tighter leading-none mb-10 max-w-5xl">
             BUILT BY A{' '}
             <span
-              className="text-[#FF6A00]"
+              className="text-[#F27D24]"
               style={{ textShadow: '0 0 10px rgba(255,106,0,0.3)' }}
             >
               PRACTITIONER
@@ -165,7 +241,7 @@ export default function AboutPage() {
         <div className="max-w-7xl mx-auto">
           <h2 className="font-headline font-black text-4xl uppercase tracking-tighter mb-16">
             Our{' '}
-            <span className="text-[#FF6A00]">Story</span>
+            <span className="text-[#F27D24]">Story</span>
           </h2>
 
           {/* Horizontal rule behind cards */}
@@ -175,11 +251,11 @@ export default function AboutPage() {
               {TIMELINE.map((item, i) => (
                 <div
                   key={i}
-                  className={`bg-[#2a2a2a] border border-white/10 border-l-4 border-l-[#FF6A00] p-6 flex flex-col gap-4 ${
+                  className={`bg-[#2a2a2a] border border-white/10 border-l-4 border-l-[#F27D24] p-6 flex flex-col gap-4 ${
                     i % 2 === 1 ? 'md:mt-12' : ''
                   }`}
                 >
-                  <span className="font-mono text-[10px] tracking-widest uppercase text-[#FF6A00]">
+                  <span className="font-mono text-[10px] tracking-widest uppercase text-[#F27D24]">
                     {item.code}
                   </span>
                   <h3 className="font-headline font-black text-xl uppercase tracking-tighter">
@@ -198,7 +274,7 @@ export default function AboutPage() {
         <div className="max-w-7xl mx-auto">
           <h2 className="font-headline font-black text-4xl uppercase tracking-tighter mb-4">
             THE AERO-10 SCORING{' '}
-            <span className="text-[#FF6A00]">PROTOCOL</span>
+            <span className="text-[#F27D24]">PROTOCOL</span>
           </h2>
           <p className="text-white/40 text-sm leading-relaxed mb-16 max-w-2xl">
             Ten pillars. Every AEO engagement is scored against all ten. No pillar below 80
@@ -218,7 +294,7 @@ export default function AboutPage() {
                   {pillar.label}
                 </h4>
                 <div className="relative z-10">
-                  <span className="font-mono text-[10px] tracking-widest uppercase text-[#FF6A00] block">
+                  <span className="font-mono text-[10px] tracking-widest uppercase text-[#F27D24] block">
                     Pillar {pillar.num}
                   </span>
                 </div>
@@ -227,9 +303,9 @@ export default function AboutPage() {
           </div>
 
           {/* AERO-10 scorecard CTA */}
-          <div className="mt-12 border border-[#FF6A00]/30 border-l-4 border-l-[#FF6A00] bg-[#131313] p-8 md:p-10 flex flex-col md:flex-row items-start md:items-center justify-between gap-6">
+          <div className="mt-12 border border-[#F27D24]/30 border-l-4 border-l-[#F27D24] bg-[#131313] p-8 md:p-10 flex flex-col md:flex-row items-start md:items-center justify-between gap-6">
             <div>
-              <span className="font-mono text-[10px] tracking-widest uppercase text-[#FF6A00] block mb-2">
+              <span className="font-mono text-[10px] tracking-widest uppercase text-[#F27D24] block mb-2">
                 Free // Your AERO-10 Scorecard
               </span>
               <h3 className="font-headline font-black text-2xl md:text-3xl uppercase tracking-tighter text-[#e5e2e1] mb-2">
@@ -243,7 +319,7 @@ export default function AboutPage() {
               href="https://calendly.com/theanswerengine-support/30min"
               target="_blank"
               rel="noopener noreferrer"
-              className="flex-shrink-0 bg-[#FF6A00] text-black font-black px-8 py-4 font-headline uppercase tracking-tighter text-sm hover:translate-y-[2px] transition-transform inline-flex items-center gap-3 whitespace-nowrap"
+              className="flex-shrink-0 bg-[#F27D24] text-black font-black px-8 py-4 font-headline uppercase tracking-tighter text-sm hover:translate-y-[2px] transition-transform inline-flex items-center gap-3 whitespace-nowrap"
             >
               BOOK 30-MIN CALL
               <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={2.5}>
@@ -259,7 +335,7 @@ export default function AboutPage() {
         <div className="max-w-7xl mx-auto">
           <h2 className="font-headline font-black text-4xl uppercase tracking-tighter mb-16">
             WHY WE{' '}
-            <span className="text-[#FF6A00]">DOMINATE</span>
+            <span className="text-[#F27D24]">DOMINATE</span>
           </h2>
 
           <div className="grid md:grid-cols-3 border border-white/10">
@@ -268,10 +344,10 @@ export default function AboutPage() {
                 key={i}
                 className={`p-12 flex flex-col gap-6 ${
                   i < DIFFERENTIATORS.length - 1 ? 'border-r border-white/10' : ''
-                } border-l-4 border-l-[#FF6A00]`}
+                } border-l-4 border-l-[#F27D24]`}
               >
-                <div className="w-10 h-10 border border-[#FF6A00] flex items-center justify-center">
-                  <span className="font-mono text-[10px] text-[#FF6A00]">0{i + 1}</span>
+                <div className="w-10 h-10 border border-[#F27D24] flex items-center justify-center">
+                  <span className="font-mono text-[10px] text-[#F27D24]">0{i + 1}</span>
                 </div>
                 <h3 className="font-headline font-black text-2xl uppercase tracking-tighter">
                   {item.tag}
@@ -288,7 +364,7 @@ export default function AboutPage() {
         <div className="max-w-7xl mx-auto">
           <div className="grid md:grid-cols-2 gap-16 items-center">
             <div>
-              <span className="font-mono text-[10px] tracking-widest uppercase text-[#FF6A00] mb-4 block">
+              <span className="font-mono text-[10px] tracking-widest uppercase text-[#F27D24] mb-4 block">
                 Founder // Justin Borges
               </span>
               <h2 className="font-headline font-black text-5xl uppercase tracking-tighter mb-6 leading-none">
@@ -317,7 +393,7 @@ export default function AboutPage() {
                 ))}
               </div>
             </div>
-            <div className="border border-white/10 bg-[#2a2a2a] p-10 border-l-4 border-l-[#FF6A00]">
+            <div className="border border-white/10 bg-[#2a2a2a] p-10 border-l-4 border-l-[#F27D24]">
               <span className="font-mono text-[10px] tracking-widest uppercase text-white/40 mb-6 block">
                 In His Own Words
               </span>
@@ -327,7 +403,7 @@ export default function AboutPage() {
                 AI started recommending competitors, I reverse-engineered exactly how to become
                 the answer. It worked. Then I made it a business.&rdquo;
               </blockquote>
-              <cite className="font-mono text-[10px] tracking-widest uppercase text-[#FF6A00] not-italic">
+              <cite className="font-mono text-[10px] tracking-widest uppercase text-[#F27D24] not-italic">
                 — Justin Borges, Founder
               </cite>
             </div>
@@ -338,12 +414,12 @@ export default function AboutPage() {
       {/* ── THE MONTHLY PROGRAM ──────────────────────────────── */}
       <section className="py-32 px-6 lg:px-24 bg-[#131313]">
         <div className="max-w-7xl mx-auto">
-          <span className="font-mono text-[10px] tracking-widest uppercase text-[#FF6A00] block mb-3">
+          <span className="font-mono text-[10px] tracking-widest uppercase text-[#F27D24] block mb-3">
             After The Foundation // Ongoing
           </span>
           <h2 className="font-headline font-black text-4xl uppercase tracking-tighter mb-4">
             THE MONTHLY{' '}
-            <span className="text-[#FF6A00]">PROGRAM</span>
+            <span className="text-[#F27D24]">PROGRAM</span>
           </h2>
           <p className="text-white/50 text-sm leading-relaxed mb-16 max-w-2xl">
             What you receive after the 90-day foundation ships. One email per week. One report per month. Dashboard 24/7.
@@ -366,7 +442,7 @@ export default function AboutPage() {
             ].map((item, i) => (
               <div
                 key={i}
-                className={`p-10 bg-[#1c1b1b] border-l-4 border-l-[#FF6A00] hover:bg-[#2a2a2a] transition-colors ${
+                className={`p-10 bg-[#1c1b1b] border-l-4 border-l-[#F27D24] hover:bg-[#2a2a2a] transition-colors ${
                   i < 2 ? 'border-b md:border-b-0 md:border-r border-white/10' : ''
                 }`}
               >
@@ -385,7 +461,7 @@ export default function AboutPage() {
       </section>
 
       {/* ── CTA ──────────────────────────────────────────────── */}
-      <section className="py-32 px-6 lg:px-24 bg-[#FF6A00]">
+      <section className="py-32 px-6 lg:px-24 bg-[#F27D24]">
         <div className="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center gap-12">
           <div>
             <span className="font-mono text-[10px] tracking-widest uppercase text-black/60 mb-4 block">
@@ -398,7 +474,7 @@ export default function AboutPage() {
           <div className="flex flex-col sm:flex-row gap-4">
             <Link
               href="/#territory-check"
-              className="bg-black text-[#FF6A00] px-10 py-4 font-headline font-black uppercase tracking-tighter text-sm hover:bg-[#131313] transition-colors inline-flex items-center gap-3"
+              className="bg-black text-[#F27D24] px-10 py-4 font-headline font-black uppercase tracking-tighter text-sm hover:bg-[#131313] transition-colors inline-flex items-center gap-3"
             >
               CHECK TERRITORY
               <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={2.5}>
@@ -409,7 +485,7 @@ export default function AboutPage() {
               href="https://calendly.com/theanswerengine-support/30min"
               target="_blank"
               rel="noopener noreferrer"
-              className="border-2 border-black text-black px-10 py-4 font-headline font-black uppercase tracking-tighter text-sm hover:bg-black hover:text-[#FF6A00] transition-colors"
+              className="border-2 border-black text-black px-10 py-4 font-headline font-black uppercase tracking-tighter text-sm hover:bg-black hover:text-[#F27D24] transition-colors"
             >
               BOOK 30-MIN CALL
             </a>

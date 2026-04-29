@@ -63,7 +63,7 @@ Your job: generate a COMPLETE Next.js page.tsx file for a blog article.
 
 BRAND RULES:
 - Dark theme: background #0F1117, text white/gray-300
-- Accent: #FF6A00 (orange) - use sparingly for highlights and CTAs
+- Accent: #F27D24 (orange) - use sparingly for highlights and CTAs
 - Font: Plus Jakarta Sans for headings (via className, already loaded globally)
 - Layout: max-w-4xl mx-auto px-6 py-20
 
@@ -92,9 +92,9 @@ HERO SECTION TEMPLATE (customize colors/pattern per article):
 <div className="relative overflow-hidden rounded-2xl mb-12" style={{background: 'linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%)'}}>
   <svg className="absolute inset-0 w-full h-full opacity-10" viewBox="0 0 800 400" fill="none">
     {/* Unique geometric pattern - vary per article */}
-    <circle cx="200" cy="200" r="150" stroke="#FF6A00" strokeWidth="0.5" />
-    <circle cx="200" cy="200" r="100" stroke="#FF6A00" strokeWidth="0.5" />
-    <line x1="0" y1="200" x2="800" y2="200" stroke="#FF6A00" strokeWidth="0.3" />
+    <circle cx="200" cy="200" r="150" stroke="#F27D24" strokeWidth="0.5" />
+    <circle cx="200" cy="200" r="100" stroke="#F27D24" strokeWidth="0.5" />
+    <line x1="0" y1="200" x2="800" y2="200" stroke="#F27D24" strokeWidth="0.3" />
   </svg>
   <div className="relative px-8 py-16 sm:px-12 sm:py-20">
     <p className="text-sm font-medium text-orange-400 mb-4">{category}</p>
@@ -111,7 +111,7 @@ CTA SECTION TEMPLATE:
 <div className="mt-16 p-8 rounded-2xl border border-gray-800 bg-gradient-to-r from-gray-900 to-gray-800">
   <h2 className="text-2xl font-bold text-white mb-4">Find Out If AI Platforms Can See Your Business</h2>
   <p className="text-gray-300 mb-6">Get a free AI visibility check. No pitch, just the data.</p>
-  <a href="/blindspot" className="inline-block bg-[#FF6A00] text-white font-semibold px-6 py-3 rounded-lg hover:bg-orange-600 transition-colors">
+  <a href="/blindspot" className="inline-block bg-[#F27D24] text-white font-semibold px-6 py-3 rounded-lg hover:bg-orange-600 transition-colors">
     Get Your Free Blind Spot Report
   </a>
 </div>
@@ -137,7 +137,7 @@ SCORING (100 points total):
 - Metadata Quality (10 pts): Complete OG, Twitter, canonical, keywords
 - Schema Markup (10 pts): Article + FAQPage + BreadcrumbList in @graph
 - Content Quality (20 pts): Informative, actionable, proper heading hierarchy
-- Brand Compliance (15 pts): Correct colors (#0F1117, #FF6A00), dark theme, proper layout
+- Brand Compliance (15 pts): Correct colors (#0F1117, #F27D24), dark theme, proper layout
 - Zero Em-Dashes (10 pts): No -- or \u2014 characters anywhere (instant 0 if found)
 - No Event Handlers (5 pts): No inline onClick/onMouseOver/etc. (Server Component)
 - FAQ Section (10 pts): At least 4 FAQ Q&As present
@@ -304,7 +304,7 @@ export function generateBlogSvg(title: string, category: string, slug: string): 
   const titleY = 240;
   const titleLines = lines.map((line, i) => {
     const isLast = i === lines.length - 1;
-    const fill = isLast && lines.length > 1 ? '#FF6A00' : 'white';
+    const fill = isLast && lines.length > 1 ? '#F27D24' : 'white';
     return `<text x="80" y="${titleY + i * 65}" font-family="system-ui, -apple-system, sans-serif" font-size="48" font-weight="700" fill="${fill}">${escapeXml(line)}</text>`;
   }).join('\n  ');
 
@@ -319,7 +319,7 @@ export function generateBlogSvg(title: string, category: string, slug: string): 
   <rect width="1200" height="630" fill="url(#bg)"/>
   ${patterns[patternType]}
   <rect x="40" y="40" width="${Math.min(category.length * 10 + 40, 250)}" height="32" rx="16" fill="rgba(255,106,0,0.15)" stroke="rgba(255,106,0,0.3)" stroke-width="1"/>
-  <text x="${Math.min(category.length * 5 + 60, 165)}" y="62" font-family="system-ui, -apple-system, sans-serif" font-size="14" font-weight="500" fill="#FF6A00" text-anchor="middle">${escapeXml(category)}</text>
+  <text x="${Math.min(category.length * 5 + 60, 165)}" y="62" font-family="system-ui, -apple-system, sans-serif" font-size="14" font-weight="500" fill="#F27D24" text-anchor="middle">${escapeXml(category)}</text>
   ${titleLines}
   <text x="600" y="580" font-family="system-ui, -apple-system, sans-serif" font-size="16" font-weight="500" fill="rgba(255,255,255,0.5)" text-anchor="middle" letter-spacing="4">THE ANSWER ENGINE</text>
   <circle cx="1120" cy="590" r="30" fill="rgba(255,255,255,0.1)"/>

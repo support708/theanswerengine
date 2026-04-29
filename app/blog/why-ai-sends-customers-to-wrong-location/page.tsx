@@ -33,7 +33,7 @@ export const metadata: Metadata = {
     description,
     type: 'article',
     publishedTime: publishDate,
-    authors: ['The Answer Engine Team'],
+    authors: ['https://theanswerengine.ai/about'],
     url: `https://www.theanswerengine.ai/blog/${slug}`,
     images: [
       {
@@ -66,9 +66,18 @@ const jsonLd = {
       datePublished: publishDate,
       dateModified: publishDate,
       author: {
-        '@type': 'Organization',
-        name: 'The Answer Engine',
-        url: 'https://theanswerengine.ai',
+        '@type': 'Person',
+        '@id': 'https://theanswerengine.ai/about#justin-borges',
+        name: 'Justin Borges',
+        jobTitle: 'Founder, The Answer Engine',
+        worksFor: {
+          '@type': 'Organization',
+          name: 'The Answer Engine',
+          url: 'https://theanswerengine.ai',
+        },
+        knowsAbout: ['Answer Engine Optimization', 'AI Search', 'Content Strategy', 'Real Estate Marketing', 'Citation Surface'],
+        url: 'https://theanswerengine.ai/about',
+        image: 'https://theanswerengine.ai/justin-borges.webp',
       },
       publisher: {
         '@type': 'Organization',
@@ -222,16 +231,16 @@ export default function Page() {
               >
                 <defs>
                   <pattern id="hero-grid-139-pat" x="0" y="0" width="32" height="32" patternUnits="userSpaceOnUse">
-                    <path d="M 32 0 L 0 0 0 32" fill="none" stroke="#FF6A00" strokeWidth="0.4" strokeOpacity="0.3" />
+                    <path d="M 32 0 L 0 0 0 32" fill="none" stroke="#F27D24" strokeWidth="0.4" strokeOpacity="0.3" />
                   </pattern>
                 </defs>
                 <rect width="100%" height="100%" fill="url(#hero-grid-139-pat)" />
                 <rect width="100%" height="100%" fill="url(#hero-grid-139-pat)" transform="translate(16,16)" opacity="0.5" />
               </svg>
               <div className="relative z-10 flex flex-col items-start justify-center p-8 sm:p-12" style={{ minHeight: '200px' }}>
-                <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-[#FF6A00]/10 border border-[#FF6A00]/30 mb-4">
-                  <span className="w-2 h-2 rounded-full bg-[#FF6A00]" />
-                  <span className="text-xs font-bold tracking-widest uppercase text-[#FF6A00]">Business Pain Points</span>
+                <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-[#F27D24]/10 border border-[#F27D24]/30 mb-4">
+                  <span className="w-2 h-2 rounded-full bg-[#F27D24]" />
+                  <span className="text-xs font-bold tracking-widest uppercase text-[#F27D24]">Business Pain Points</span>
                 </div>
                 <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-white leading-tight font-plus-jakarta max-w-3xl">
                   Why AI Sends Customers to the Wrong Location
@@ -264,13 +273,13 @@ export default function Page() {
                 <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={2}>
                   <path strokeLinecap="round" strokeLinejoin="round" d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z" />
                 </svg>
-                <span>The Answer Engine Team</span>
+                <span>Justin Borges</span>
               </div>
             </div>
           </header>
 
           {/* Main content */}
-          <div className="prose prose-invert prose-lg max-w-none prose-headings:font-plus-jakarta prose-headings:text-white prose-p:text-gray-300 prose-a:text-[#FF6A00] prose-a:no-underline hover:prose-a:underline prose-strong:text-white">
+          <div className="prose prose-invert prose-lg max-w-none prose-headings:font-plus-jakarta prose-headings:text-white prose-p:text-gray-300 prose-a:text-[#F27D24] prose-a:no-underline hover:prose-a:underline prose-strong:text-white">
 
             {/* Stats Grid */}
             <div className="ae-stats-grid not-prose">
@@ -746,7 +755,7 @@ export default function Page() {
               <div className="ae-cheat-sheet-title">Quick Reference: AI Location Error Cheat Sheet</div>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mt-4">
                 <div>
-                  <p className="text-xs font-bold uppercase tracking-widest text-[#FF6A00] mb-2">Why AI Gets Your Address Wrong</p>
+                  <p className="text-xs font-bold uppercase tracking-widest text-[#F27D24] mb-2">Why AI Gets Your Address Wrong</p>
                   <ul className="text-sm text-gray-300 space-y-1 list-disc list-inside">
                     <li>Old addresses persist across the internet indefinitely</li>
                     <li>Data aggregators update slowly (3-6 months)</li>
@@ -756,7 +765,7 @@ export default function Page() {
                   </ul>
                 </div>
                 <div>
-                  <p className="text-xs font-bold uppercase tracking-widest text-[#FF6A00] mb-2">Signals That Carry Most Weight</p>
+                  <p className="text-xs font-bold uppercase tracking-widest text-[#F27D24] mb-2">Signals That Carry Most Weight</p>
                   <ul className="text-sm text-gray-300 space-y-1 list-disc list-inside">
                     <li>Your business website with structured data</li>
                     <li>Google Business Profile (for Google AI products)</li>
@@ -766,7 +775,7 @@ export default function Page() {
                   </ul>
                 </div>
                 <div>
-                  <p className="text-xs font-bold uppercase tracking-widest text-[#FF6A00] mb-2">What Makes It Worse</p>
+                  <p className="text-xs font-bold uppercase tracking-widest text-[#F27D24] mb-2">What Makes It Worse</p>
                   <ul className="text-sm text-gray-300 space-y-1 list-disc list-inside">
                     <li>Having moved locations at any point in your history</li>
                     <li>Multiple locations with overlapping data footprints</li>
@@ -776,7 +785,7 @@ export default function Page() {
                   </ul>
                 </div>
                 <div>
-                  <p className="text-xs font-bold uppercase tracking-widest text-[#FF6A00] mb-2">The Limitation to Understand</p>
+                  <p className="text-xs font-bold uppercase tracking-widest text-[#F27D24] mb-2">The Limitation to Understand</p>
                   <ul className="text-sm text-gray-300 space-y-1 list-disc list-inside">
                     <li>No direct edit access to AI chatbot responses</li>
                     <li>Feedback buttons have no guaranteed correction timeline</li>
@@ -789,34 +798,28 @@ export default function Page() {
             </div>
 
             {/* Author Card */}
-            <div className="ae-author-card not-prose">
-              <div className="ae-author-avatar">
-                <svg className="w-8 h-8 text-[#FF6A00]" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z" />
-                </svg>
-              </div>
+            <div className="ae-author-card">
+              <img
+                src="/justin-borges.webp"
+                alt="Justin Borges, Founder of The Answer Engine"
+                style={{ width: 64, height: 64, borderRadius: '50%', objectFit: 'cover', flexShrink: 0 }}
+              />
               <div>
-                <div className="font-bold text-white font-plus-jakarta">The Answer Engine Team</div>
-                <div className="text-sm text-gray-400 mt-1">
-                  The Answer Engine is a specialized AI visibility agency. We help local and multi-location businesses control how AI platforms represent their information. Our research focuses on how AI systems ingest, weight, and display business data, and what business owners can do to influence those outcomes.
-                </div>
-                <div className="flex flex-wrap gap-4 mt-3">
-                  <Link href="/about" className="text-sm text-[#FF6A00] hover:underline">About Us</Link>
-                  <Link href="/blog" className="text-sm text-[#FF6A00] hover:underline">More Articles</Link>
-                  <Link href="/blindspot" className="text-sm text-[#FF6A00] hover:underline">Free Blind Spot Report</Link>
-                </div>
+                <div className="ae-author-name" style={{ fontWeight: 600 }}>Justin Borges</div>
+                <div className="ae-author-role" style={{ fontWeight: 400 }}>Founder, The Answer Engine</div>
+                <p style={{ marginTop: 8, fontSize: '0.875rem', color: 'rgba(255,255,255,0.65)', lineHeight: 1.6 }}>Justin Borges founded The Answer Engine in 2025 after 13+ years in real estate, $200M+ in production, and discovering that AI search rankings now decide who gets cited as the answer. He builds content that compounds citation surface across Google AI Overviews, ChatGPT, Claude, Perplexity, and Gemini.</p>
               </div>
             </div>
 
             {/* 3-Tier CTA Block */}
-            <div className="not-prose my-16 p-8 rounded-2xl bg-gradient-to-br from-[#FF6A00]/10 to-transparent border border-[#FF6A00]/20">
+            <div className="not-prose my-16 p-8 rounded-2xl bg-gradient-to-br from-[#F27D24]/10 to-transparent border border-[#F27D24]/20">
               <h3 className="font-plus-jakarta text-2xl font-bold text-white mb-3">Find Out If AI Is Sending Your Customers Somewhere Else</h3>
               <p className="text-gray-400 mb-6">Get your free Blind Spot Report and discover exactly what address AI platforms show when customers search for your business.</p>
-              <Link href="/blindspot" className="inline-flex items-center gap-2 bg-[#FF6A00] text-white px-6 py-3 rounded-lg font-semibold hover:bg-[#e55f00] transition-colors">
+              <Link href="/blindspot" className="inline-flex items-center gap-2 bg-[#F27D24] text-white px-6 py-3 rounded-lg font-semibold hover:bg-[#D96416] transition-colors">
                 Get Your Free Blind Spot Report
                 <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" /></svg>
               </Link>
-              <div className="flex flex-wrap items-center gap-6 mt-6 pt-6 border-t border-[#FF6A00]/10">
+              <div className="flex flex-wrap items-center gap-6 mt-6 pt-6 border-t border-[#F27D24]/10">
                 <a href="tel:+12134442229" className="flex items-center gap-2 text-gray-400 hover:text-white transition-colors">
                   <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" /></svg>
                   (213) 444-2229
@@ -879,17 +882,17 @@ export default function Page() {
             <div className="not-prose mt-16 pt-8 border-t border-white/[0.08]">
               <h3 className="font-plus-jakarta text-xl font-bold text-white mb-6">Related Articles</h3>
               <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
-                <Link href="/blog/why-ai-gives-outdated-information-about-my-business" className="block p-4 rounded-xl border border-white/[0.08] bg-white/[0.02] hover:border-[#FF6A00]/40 transition-colors group">
-                  <div className="text-xs text-[#FF6A00] font-bold uppercase tracking-widest mb-2">Related</div>
-                  <div className="text-sm font-semibold text-white group-hover:text-[#FF6A00] transition-colors leading-snug">Why AI Gives Outdated Information About My Business</div>
+                <Link href="/blog/why-ai-gives-outdated-information-about-my-business" className="block p-4 rounded-xl border border-white/[0.08] bg-white/[0.02] hover:border-[#F27D24]/40 transition-colors group">
+                  <div className="text-xs text-[#F27D24] font-bold uppercase tracking-widest mb-2">Related</div>
+                  <div className="text-sm font-semibold text-white group-hover:text-[#F27D24] transition-colors leading-snug">Why AI Gives Outdated Information About My Business</div>
                 </Link>
-                <Link href="/blog/why-ai-gets-your-business-hours-wrong" className="block p-4 rounded-xl border border-white/[0.08] bg-white/[0.02] hover:border-[#FF6A00]/40 transition-colors group">
-                  <div className="text-xs text-[#FF6A00] font-bold uppercase tracking-widest mb-2">Related</div>
-                  <div className="text-sm font-semibold text-white group-hover:text-[#FF6A00] transition-colors leading-snug">Why AI Gets Your Business Hours Wrong</div>
+                <Link href="/blog/why-ai-gets-your-business-hours-wrong" className="block p-4 rounded-xl border border-white/[0.08] bg-white/[0.02] hover:border-[#F27D24]/40 transition-colors group">
+                  <div className="text-xs text-[#F27D24] font-bold uppercase tracking-widest mb-2">Related</div>
+                  <div className="text-sm font-semibold text-white group-hover:text-[#F27D24] transition-colors leading-snug">Why AI Gets Your Business Hours Wrong</div>
                 </Link>
-                <Link href="/blog/what-happens-when-ai-search-gets-business-wrong" className="block p-4 rounded-xl border border-white/[0.08] bg-white/[0.02] hover:border-[#FF6A00]/40 transition-colors group">
-                  <div className="text-xs text-[#FF6A00] font-bold uppercase tracking-widest mb-2">Related</div>
-                  <div className="text-sm font-semibold text-white group-hover:text-[#FF6A00] transition-colors leading-snug">What Happens When AI Search Gets Your Business Wrong</div>
+                <Link href="/blog/what-happens-when-ai-search-gets-business-wrong" className="block p-4 rounded-xl border border-white/[0.08] bg-white/[0.02] hover:border-[#F27D24]/40 transition-colors group">
+                  <div className="text-xs text-[#F27D24] font-bold uppercase tracking-widest mb-2">Related</div>
+                  <div className="text-sm font-semibold text-white group-hover:text-[#F27D24] transition-colors leading-snug">What Happens When AI Search Gets Your Business Wrong</div>
                 </Link>
               </div>
             </div>
@@ -901,7 +904,7 @@ export default function Page() {
                 Every day your business address is wrong on AI platforms is another day of customers going somewhere else. The Blind Spot Report shows you exactly what AI says about your location, hours, and services, for free.
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
-                <Link href="/blindspot" className="inline-flex items-center justify-center gap-2 bg-[#FF6A00] text-white px-8 py-4 rounded-lg font-bold text-lg hover:bg-[#e55f00] transition-colors">
+                <Link href="/blindspot" className="inline-flex items-center justify-center gap-2 bg-[#F27D24] text-white px-8 py-4 rounded-lg font-bold text-lg hover:bg-[#D96416] transition-colors">
                   Get My Free Blind Spot Report
                   <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" /></svg>
                 </Link>

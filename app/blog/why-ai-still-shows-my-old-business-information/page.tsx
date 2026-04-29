@@ -27,7 +27,7 @@ export const metadata: Metadata = {
     description,
     type: 'article',
     publishedTime: publishDate,
-    authors: ['The Answer Engine Team'],
+    authors: ['https://theanswerengine.ai/about'],
     url: `https://theanswerengine.ai/blog/${slug}`,
     images: [{ url: `https://theanswerengine.ai/blog/${slug}.webp`, width: 1200, height: 630, alt: title }],
   },
@@ -51,9 +51,18 @@ const jsonLd = {
       datePublished: publishDate,
       dateModified: publishDate,
       author: {
-        '@type': 'Organization',
-        name: 'The Answer Engine',
-        url: 'https://theanswerengine.ai',
+        '@type': 'Person',
+        '@id': 'https://theanswerengine.ai/about#justin-borges',
+        name: 'Justin Borges',
+        jobTitle: 'Founder, The Answer Engine',
+        worksFor: {
+          '@type': 'Organization',
+          name: 'The Answer Engine',
+          url: 'https://theanswerengine.ai',
+        },
+        knowsAbout: ['Answer Engine Optimization', 'AI Search', 'Content Strategy', 'Real Estate Marketing', 'Citation Surface'],
+        url: 'https://theanswerengine.ai/about',
+        image: 'https://theanswerengine.ai/justin-borges.webp',
       },
       publisher: {
         '@type': 'Organization',
@@ -179,30 +188,30 @@ export default function Page() {
                 <stop offset="100%" stopColor="#0F1117" />
               </radialGradient>
               <radialGradient id="art184-glow" cx="50%" cy="50%" r="50%">
-                <stop offset="0%" stopColor="#FF6A00" stopOpacity="0.15" />
-                <stop offset="100%" stopColor="#FF6A00" stopOpacity="0" />
+                <stop offset="0%" stopColor="#F27D24" stopOpacity="0.15" />
+                <stop offset="100%" stopColor="#F27D24" stopOpacity="0" />
               </radialGradient>
             </defs>
             <rect width="1200" height="400" fill="url(#art184-bg)" />
             <circle cx="600" cy="200" r="300" fill="url(#art184-glow)" />
             {/* Clock showing old time */}
-            <circle cx="600" cy="200" r="90" fill="none" stroke="#FF6A00" strokeWidth="2" strokeOpacity="0.4" />
-            <circle cx="600" cy="200" r="70" fill="none" stroke="#FF6A00" strokeWidth="1" strokeOpacity="0.2" />
-            <line x1="600" y1="200" x2="600" y2="135" stroke="#FF6A00" strokeWidth="3" strokeLinecap="round" />
+            <circle cx="600" cy="200" r="90" fill="none" stroke="#F27D24" strokeWidth="2" strokeOpacity="0.4" />
+            <circle cx="600" cy="200" r="70" fill="none" stroke="#F27D24" strokeWidth="1" strokeOpacity="0.2" />
+            <line x1="600" y1="200" x2="600" y2="135" stroke="#F27D24" strokeWidth="3" strokeLinecap="round" />
             <line x1="600" y1="200" x2="650" y2="220" stroke="#888" strokeWidth="2" strokeLinecap="round" />
-            <circle cx="600" cy="200" r="5" fill="#FF6A00" />
+            <circle cx="600" cy="200" r="5" fill="#F27D24" />
             {/* Strikethrough old info */}
             <text x="300" y="180" fill="#888" fontSize="18" fontFamily="monospace" opacity="0.6">OLD ADDRESS</text>
-            <line x1="295" y1="178" x2="470" y2="178" stroke="#FF6A00" strokeWidth="2" opacity="0.7" />
+            <line x1="295" y1="178" x2="470" y2="178" stroke="#F27D24" strokeWidth="2" opacity="0.7" />
             <text x="300" y="210" fill="#888" fontSize="18" fontFamily="monospace" opacity="0.6">(555) 000-0000</text>
-            <line x1="295" y1="208" x2="470" y2="208" stroke="#FF6A00" strokeWidth="2" opacity="0.7" />
+            <line x1="295" y1="208" x2="470" y2="208" stroke="#F27D24" strokeWidth="2" opacity="0.7" />
             {/* New info bubble */}
-            <rect x="720" y="155" width="200" height="80" rx="12" fill="#1e2235" stroke="#FF6A00" strokeWidth="1" strokeOpacity="0.4" />
-            <text x="740" y="185" fill="#FF6A00" fontSize="13" fontFamily="monospace" opacity="0.9">NEW ADDRESS</text>
+            <rect x="720" y="155" width="200" height="80" rx="12" fill="#1e2235" stroke="#F27D24" strokeWidth="1" strokeOpacity="0.4" />
+            <text x="740" y="185" fill="#F27D24" fontSize="13" fontFamily="monospace" opacity="0.9">NEW ADDRESS</text>
             <text x="740" y="210" fill="#666" fontSize="11" fontFamily="monospace">AI doesnt know yet</text>
             {/* Data flow lines */}
-            <path d="M470,185 Q560,185 565,195" stroke="#FF6A00" strokeWidth="1" strokeDasharray="4,4" strokeOpacity="0.4" fill="none" />
-            <path d="M470,208 Q565,208 565,205" stroke="#FF6A00" strokeWidth="1" strokeDasharray="4,4" strokeOpacity="0.4" fill="none" />
+            <path d="M470,185 Q560,185 565,195" stroke="#F27D24" strokeWidth="1" strokeDasharray="4,4" strokeOpacity="0.4" fill="none" />
+            <path d="M470,208 Q565,208 565,205" stroke="#F27D24" strokeWidth="1" strokeDasharray="4,4" strokeOpacity="0.4" fill="none" />
           </svg>
         </div>
 
@@ -250,7 +259,7 @@ export default function Page() {
         </div>
 
         <div className="ae-cta-inline not-prose">
-          <p>Not sure what AI is saying about your business right now? <Link href="/blindspot" className="text-[#FF6A00] hover:underline font-semibold">Get a free Blind Spot Report</Link> and find out in minutes.</p>
+          <p>Not sure what AI is saying about your business right now? <Link href="/blindspot" className="text-[#F27D24] hover:underline font-semibold">Get a free Blind Spot Report</Link> and find out in minutes.</p>
         </div>
 
         <h2 id="why-ai-lags">Why AI Runs 6-18 Months Behind Reality</h2>
@@ -278,7 +287,7 @@ export default function Page() {
         <p>The implication is significant. You can update your website, Google Business Profile, and every directory you control. But if an old version of your information lives on five aggregator sites, the AI will still surface that conflicting data with disturbing confidence. It averages across all sources it encountered in training.</p>
 
         <div className="ae-cta-inline not-prose">
-          <p>We audit your entire AI footprint, including third-party sources, in our <Link href="/blindspot" className="text-[#FF6A00] hover:underline font-semibold">free Blind Spot Report</Link>.</p>
+          <p>We audit your entire AI footprint, including third-party sources, in our <Link href="/blindspot" className="text-[#F27D24] hover:underline font-semibold">free Blind Spot Report</Link>.</p>
         </div>
 
         <h2 id="what-ai-actually-reads">What AI Actually Reads About Your Business</h2>
@@ -379,7 +388,7 @@ export default function Page() {
         </div>
 
         <div className="ae-cta-inline not-prose">
-          <p>Find out if AI is giving customers the wrong number for your business. <Link href="/blindspot" className="text-[#FF6A00] hover:underline font-semibold">Get your free Blind Spot Report</Link> today.</p>
+          <p>Find out if AI is giving customers the wrong number for your business. <Link href="/blindspot" className="text-[#F27D24] hover:underline font-semibold">Get your free Blind Spot Report</Link> today.</p>
         </div>
 
         <h2 id="what-signals-update">What Signals AI to Update Your Info</h2>
@@ -514,18 +523,18 @@ export default function Page() {
 
         <div className="ae-callout ae-callout-info not-prose">
           <div className="ae-callout-title">Related Reading</div>
-          <p>Understanding how stale data spreads is connected to <Link href="/blog/why-ai-gives-outdated-information-about-my-business" className="text-[#FF6A00] hover:underline">why AI gives outdated information</Link> broadly, and to <Link href="/blog/why-ai-says-wrong-things-about-business" className="text-[#FF6A00] hover:underline">why AI says wrong things about businesses</Link> in general. Both articles go deeper on the mechanisms behind AI inaccuracy.</p>
+          <p>Understanding how stale data spreads is connected to <Link href="/blog/why-ai-gives-outdated-information-about-my-business" className="text-[#F27D24] hover:underline">why AI gives outdated information</Link> broadly, and to <Link href="/blog/why-ai-says-wrong-things-about-business" className="text-[#F27D24] hover:underline">why AI says wrong things about businesses</Link> in general. Both articles go deeper on the mechanisms behind AI inaccuracy.</p>
         </div>
 
         {/* 3-tier CTA block */}
-        <div className="not-prose my-16 p-8 rounded-2xl bg-gradient-to-br from-[#FF6A00]/10 to-transparent border border-[#FF6A00]/20">
+        <div className="not-prose my-16 p-8 rounded-2xl bg-gradient-to-br from-[#F27D24]/10 to-transparent border border-[#F27D24]/20">
           <h3 className="font-plus-jakarta text-2xl font-bold text-white mb-3">Find Out What AI Is Saying About You Right Now</h3>
           <p className="text-gray-400 mb-6">Our free Blind Spot Report scans what ChatGPT, Perplexity, and Google AI are telling customers about your business, including every outdated fact, wrong number, and conflicting listing we find.</p>
-          <Link href="/blindspot" className="inline-flex items-center gap-2 bg-[#FF6A00] text-white px-6 py-3 rounded-lg font-semibold hover:bg-[#e55f00] transition-colors">
+          <Link href="/blindspot" className="inline-flex items-center gap-2 bg-[#F27D24] text-white px-6 py-3 rounded-lg font-semibold hover:bg-[#D96416] transition-colors">
             Get Your Free Blind Spot Report
             <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" /></svg>
           </Link>
-          <div className="flex flex-wrap items-center gap-6 mt-6 pt-6 border-t border-[#FF6A00]/10">
+          <div className="flex flex-wrap items-center gap-6 mt-6 pt-6 border-t border-[#F27D24]/10">
             <a href="tel:+12134442229" className="flex items-center gap-2 text-gray-400 hover:text-white transition-colors">
               <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" /></svg>
               (213) 444-2229
@@ -538,13 +547,18 @@ export default function Page() {
         </div>
 
         {/* Author card */}
-        <div className="ae-author-card not-prose">
-          <div className="ae-author-avatar">AE</div>
-          <div>
-            <div className="font-semibold text-white">The Answer Engine Team</div>
-            <div className="text-sm text-gray-400">AI visibility specialists helping local businesses get found, trusted, and recommended by ChatGPT, Perplexity, and Google AI.</div>
-          </div>
-        </div>
+        <div className="ae-author-card">
+              <img
+                src="/justin-borges.webp"
+                alt="Justin Borges, Founder of The Answer Engine"
+                style={{ width: 64, height: 64, borderRadius: '50%', objectFit: 'cover', flexShrink: 0 }}
+              />
+              <div>
+                <div className="ae-author-name" style={{ fontWeight: 600 }}>Justin Borges</div>
+                <div className="ae-author-role" style={{ fontWeight: 400 }}>Founder, The Answer Engine</div>
+                <p style={{ marginTop: 8, fontSize: '0.875rem', color: 'rgba(255,255,255,0.65)', lineHeight: 1.6 }}>Justin Borges founded The Answer Engine in 2025 after 13+ years in real estate, $200M+ in production, and discovering that AI search rankings now decide who gets cited as the answer. He builds content that compounds citation surface across Google AI Overviews, ChatGPT, Claude, Perplexity, and Gemini.</p>
+              </div>
+            </div>
 
         {/* FAQ section */}
         <h2 id="faq">Frequently Asked Questions</h2>
@@ -591,7 +605,7 @@ export default function Page() {
         <div className="ae-final-cta not-prose">
           <h2 className="font-plus-jakarta text-3xl font-bold text-white mb-4">Stop Letting AI Send Customers to the Wrong Number</h2>
           <p className="text-gray-300 mb-8 text-lg">Every day your AI footprint has wrong information, you are losing customers who never call back. Our Blind Spot Report shows exactly what AI is telling them, and what it will take to fix it.</p>
-          <Link href="/blindspot" className="inline-flex items-center gap-2 bg-[#FF6A00] text-white px-8 py-4 rounded-xl font-bold text-lg hover:bg-[#e55f00] transition-colors ae-pulse-glow">
+          <Link href="/blindspot" className="inline-flex items-center gap-2 bg-[#F27D24] text-white px-8 py-4 rounded-xl font-bold text-lg hover:bg-[#D96416] transition-colors ae-pulse-glow">
             Get Your Free Blind Spot Report
             <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" /></svg>
           </Link>

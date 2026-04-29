@@ -29,7 +29,7 @@ export const metadata: Metadata = {
     type: 'article',
     publishedTime: publishDate,
     modifiedTime: publishDate,
-    authors: ['The Answer Engine Team'],
+    authors: ['https://theanswerengine.ai/about'],
     url: `https://theanswerengine.ai/blog/${slug}`,
     images: [
       {
@@ -69,9 +69,18 @@ function ComprehensiveSchema() {
           "height": 630
         },
         "author": {
-          "@type": "Organization",
-          "name": "The Answer Engine Team",
-          "url": "https://theanswerengine.ai/about"
+          "@type": "Person",
+          "@id": "https://theanswerengine.ai/about#justin-borges",
+          "name": "Justin Borges",
+          "jobTitle": "Founder, The Answer Engine",
+          "worksFor": {
+            "@type": "Organization",
+            "name": "The Answer Engine",
+            "url": "https://theanswerengine.ai"
+          },
+          "knowsAbout": ["Answer Engine Optimization", "AI Search", "Content Strategy", "Real Estate Marketing", "Citation Surface"],
+          "url": "https://theanswerengine.ai/about",
+          "image": "https://theanswerengine.ai/justin-borges.webp"
         },
         "publisher": {
           "@type": "Organization",
@@ -252,7 +261,7 @@ export default function DoesUpdatingYourSiteWeeklyHelpAIFindYou() {
                 <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={2}>
                   <path strokeLinecap="round" strokeLinejoin="round" d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z" />
                 </svg>
-                <span>The Answer Engine Team</span>
+                <span>Justin Borges</span>
               </div>
             </div>
           </div>
@@ -303,7 +312,7 @@ export default function DoesUpdatingYourSiteWeeklyHelpAIFindYou() {
               <p className="text-white font-semibold mb-1">Not sure which pages are costing you AI visibility?</p>
               <p className="text-gray-400 text-sm">Our Blind Spot Report reveals exactly which pages AI is reading and which it is ignoring.</p>
             </div>
-            <Link href="/blindspot" className="shrink-0 inline-flex items-center gap-2 bg-[#FF6A00] text-white px-5 py-2.5 rounded-lg font-semibold hover:bg-[#e55f00] transition-colors text-sm">
+            <Link href="/blindspot" className="shrink-0 inline-flex items-center gap-2 bg-[#F27D24] text-white px-5 py-2.5 rounded-lg font-semibold hover:bg-[#D96416] transition-colors text-sm">
               Get Your Free Report
               <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" /></svg>
             </Link>
@@ -359,7 +368,7 @@ export default function DoesUpdatingYourSiteWeeklyHelpAIFindYou() {
               search results. What is required is having content that reflects the current state of your industry, your
               services, and the questions your customers are asking right now. For some pages, that means quarterly
               refreshes. For others, monthly. And for a select few, it may indeed mean weekly attention. The distinction
-              lies in understanding <Link href="/blog/why-fresh-content-key-ai-search-visibility" className="text-[#FF6A00] hover:underline">what freshness actually signals</Link> to the AI models reading your site.
+              lies in understanding <Link href="/blog/why-fresh-content-key-ai-search-visibility" className="text-[#F27D24] hover:underline">what freshness actually signals</Link> to the AI models reading your site.
             </p>
           </div>
 
@@ -446,7 +455,7 @@ export default function DoesUpdatingYourSiteWeeklyHelpAIFindYou() {
               The takeaway: freshness is not a universal ranking factor for AI. It is a contextual one. The businesses
               gaining the most AI citations understand which of their pages need regular attention and which can be left
               alone without any visibility cost. That kind of strategic allocation is worth more than a blanket weekly
-              posting schedule. Understanding <Link href="/blog/what-your-website-looks-like-to-an-ai-crawler" className="text-[#FF6A00] hover:underline">how AI crawlers actually read your site</Link> makes this distinction much clearer.
+              posting schedule. Understanding <Link href="/blog/what-your-website-looks-like-to-an-ai-crawler" className="text-[#F27D24] hover:underline">how AI crawlers actually read your site</Link> makes this distinction much clearer.
             </p>
           </div>
 
@@ -456,7 +465,7 @@ export default function DoesUpdatingYourSiteWeeklyHelpAIFindYou() {
               <p className="text-white font-semibold mb-1">Which of your pages need attention right now?</p>
               <p className="text-gray-400 text-sm">Our analysis shows exactly which pages AI is reading and where freshness gaps exist.</p>
             </div>
-            <Link href="/blindspot" className="shrink-0 inline-flex items-center gap-2 bg-[#FF6A00] text-white px-5 py-2.5 rounded-lg font-semibold hover:bg-[#e55f00] transition-colors text-sm">
+            <Link href="/blindspot" className="shrink-0 inline-flex items-center gap-2 bg-[#F27D24] text-white px-5 py-2.5 rounded-lg font-semibold hover:bg-[#D96416] transition-colors text-sm">
               See Your Freshness Gaps
               <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" /></svg>
             </Link>
@@ -482,8 +491,8 @@ export default function DoesUpdatingYourSiteWeeklyHelpAIFindYou() {
 
               <div className="space-y-3">
                 {[
-                  { label: 'Perplexity (50% citations from current year)', value: 92, color: '#FF6A00' },
-                  { label: 'ChatGPT (cites URLs 393-458 days newer)', value: 78, color: '#FF6A00' },
+                  { label: 'Perplexity (50% citations from current year)', value: 92, color: '#F27D24' },
+                  { label: 'ChatGPT (cites URLs 393-458 days newer)', value: 78, color: '#F27D24' },
                   { label: 'Google AI Overviews (moderate freshness preference)', value: 55, color: '#e07b00' },
                   { label: 'Claude (balanced recency and authority)', value: 50, color: '#e07b00' },
                   { label: 'Bing Copilot (mirrors Bing index freshness)', value: 48, color: '#b86a00' },
@@ -535,7 +544,7 @@ export default function DoesUpdatingYourSiteWeeklyHelpAIFindYou() {
               Google AI Overviews, while still important, behave more conservatively. They tend to pull from pages that
               already rank well in traditional search, which means freshness is one factor among many rather than a
               dominant signal. This is a key reason why optimizing for AI visibility is not just about content age. It
-              requires understanding the full picture of <Link href="/blog/does-having-a-blog-actually-help-ai-recommend-your-business" className="text-[#FF6A00] hover:underline">how blogs and content influence AI recommendations</Link>.
+              requires understanding the full picture of <Link href="/blog/does-having-a-blog-actually-help-ai-recommend-your-business" className="text-[#F27D24] hover:underline">how blogs and content influence AI recommendations</Link>.
             </p>
           </div>
 
@@ -545,7 +554,7 @@ export default function DoesUpdatingYourSiteWeeklyHelpAIFindYou() {
               <p className="text-white font-semibold mb-1">Wondering how your content stacks up across platforms?</p>
               <p className="text-gray-400 text-sm">We test your visibility on ChatGPT, Perplexity, Google AI, and more.</p>
             </div>
-            <a href="tel:+12134442229" className="shrink-0 inline-flex items-center gap-2 bg-[#FF6A00] text-white px-5 py-2.5 rounded-lg font-semibold hover:bg-[#e55f00] transition-colors text-sm">
+            <a href="tel:+12134442229" className="shrink-0 inline-flex items-center gap-2 bg-[#F27D24] text-white px-5 py-2.5 rounded-lg font-semibold hover:bg-[#D96416] transition-colors text-sm">
               Call (213) 444-2229
               <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" /></svg>
             </a>
@@ -580,19 +589,19 @@ export default function DoesUpdatingYourSiteWeeklyHelpAIFindYou() {
                 <tbody className="divide-y divide-white/5">
                   <tr className="hover:bg-white/[0.02] transition-colors">
                     <td className="py-3 px-4 text-white font-medium">New data, statistics, or research findings</td>
-                    <td className="py-3 px-4 text-[#FF6A00] font-bold">Very High</td>
+                    <td className="py-3 px-4 text-[#F27D24] font-bold">Very High</td>
                     <td className="py-3 px-4 text-gray-300">Medium</td>
                     <td className="py-3 px-4 text-green-400">Always</td>
                   </tr>
                   <tr className="hover:bg-white/[0.02] transition-colors">
                     <td className="py-3 px-4 text-white font-medium">New sections addressing emerging questions</td>
-                    <td className="py-3 px-4 text-[#FF6A00] font-bold">High</td>
+                    <td className="py-3 px-4 text-[#F27D24] font-bold">High</td>
                     <td className="py-3 px-4 text-gray-300">Medium-High</td>
                     <td className="py-3 px-4 text-green-400">Always</td>
                   </tr>
                   <tr className="hover:bg-white/[0.02] transition-colors">
                     <td className="py-3 px-4 text-white font-medium">Updated pricing, availability, or specifications</td>
-                    <td className="py-3 px-4 text-[#FF6A00] font-bold">High</td>
+                    <td className="py-3 px-4 text-[#F27D24] font-bold">High</td>
                     <td className="py-3 px-4 text-gray-300">Low</td>
                     <td className="py-3 px-4 text-green-400">Always</td>
                   </tr>
@@ -652,7 +661,7 @@ export default function DoesUpdatingYourSiteWeeklyHelpAIFindYou() {
               <p className="text-white font-semibold mb-1">Need help identifying which updates will move the needle?</p>
               <p className="text-gray-400 text-sm">We analyze your content against AI citation patterns to find the highest-impact refreshes.</p>
             </div>
-            <a href="mailto:support@theanswerengine.ai" className="shrink-0 inline-flex items-center gap-2 bg-[#FF6A00] text-white px-5 py-2.5 rounded-lg font-semibold hover:bg-[#e55f00] transition-colors text-sm">
+            <a href="mailto:support@theanswerengine.ai" className="shrink-0 inline-flex items-center gap-2 bg-[#F27D24] text-white px-5 py-2.5 rounded-lg font-semibold hover:bg-[#D96416] transition-colors text-sm">
               Email Our Team
               <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" /></svg>
             </a>
@@ -725,7 +734,7 @@ export default function DoesUpdatingYourSiteWeeklyHelpAIFindYou() {
               <p className="text-white font-semibold mb-1">Want a content refresh calendar built for your business?</p>
               <p className="text-gray-400 text-sm">We map every page on your site to the right update cadence for maximum AI visibility.</p>
             </div>
-            <Link href="/blindspot" className="shrink-0 inline-flex items-center gap-2 bg-[#FF6A00] text-white px-5 py-2.5 rounded-lg font-semibold hover:bg-[#e55f00] transition-colors text-sm">
+            <Link href="/blindspot" className="shrink-0 inline-flex items-center gap-2 bg-[#F27D24] text-white px-5 py-2.5 rounded-lg font-semibold hover:bg-[#D96416] transition-colors text-sm">
               Start With a Blind Spot Report
               <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" /></svg>
             </Link>
@@ -813,7 +822,7 @@ export default function DoesUpdatingYourSiteWeeklyHelpAIFindYou() {
               <p className="text-white font-semibold mb-1">Ready to find your top 20% pages?</p>
               <p className="text-gray-400 text-sm">Our Blind Spot Report identifies the pages with the highest AI citation potential on your site.</p>
             </div>
-            <Link href="/blindspot" className="shrink-0 inline-flex items-center gap-2 bg-[#FF6A00] text-white px-5 py-2.5 rounded-lg font-semibold hover:bg-[#e55f00] transition-colors text-sm">
+            <Link href="/blindspot" className="shrink-0 inline-flex items-center gap-2 bg-[#F27D24] text-white px-5 py-2.5 rounded-lg font-semibold hover:bg-[#D96416] transition-colors text-sm">
               Get Your Free Report
               <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" /></svg>
             </Link>
@@ -895,7 +904,7 @@ export default function DoesUpdatingYourSiteWeeklyHelpAIFindYou() {
               <p className="text-white font-semibold mb-1">Making mistakes you do not even realize?</p>
               <p className="text-gray-400 text-sm">Our team audits your content strategy against the latest AI citation patterns.</p>
             </div>
-            <Link href="/blindspot" className="shrink-0 inline-flex items-center gap-2 bg-[#FF6A00] text-white px-5 py-2.5 rounded-lg font-semibold hover:bg-[#e55f00] transition-colors text-sm">
+            <Link href="/blindspot" className="shrink-0 inline-flex items-center gap-2 bg-[#F27D24] text-white px-5 py-2.5 rounded-lg font-semibold hover:bg-[#D96416] transition-colors text-sm">
               Request a Free Audit
               <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" /></svg>
             </Link>
@@ -907,35 +916,35 @@ export default function DoesUpdatingYourSiteWeeklyHelpAIFindYou() {
               <div className="ae-cheat-sheet-title">Content Freshness Cheat Sheet</div>
               <div className="space-y-4 mt-4">
                 <div className="flex items-start gap-3">
-                  <div className="shrink-0 w-6 h-6 rounded-full bg-[#FF6A00]/20 flex items-center justify-center text-[#FF6A00] text-xs font-bold">1</div>
+                  <div className="shrink-0 w-6 h-6 rounded-full bg-[#F27D24]/20 flex items-center justify-center text-[#F27D24] text-xs font-bold">1</div>
                   <p className="text-gray-300 text-sm">AI-cited content is 25.7% fresher than traditional Google results, but freshness without substance has zero impact.</p>
                 </div>
                 <div className="flex items-start gap-3">
-                  <div className="shrink-0 w-6 h-6 rounded-full bg-[#FF6A00]/20 flex items-center justify-center text-[#FF6A00] text-xs font-bold">2</div>
+                  <div className="shrink-0 w-6 h-6 rounded-full bg-[#F27D24]/20 flex items-center justify-center text-[#F27D24] text-xs font-bold">2</div>
                   <p className="text-gray-300 text-sm">ChatGPT cites URLs that are 393 to 458 days newer than what traditional Google search surfaces.</p>
                 </div>
                 <div className="flex items-start gap-3">
-                  <div className="shrink-0 w-6 h-6 rounded-full bg-[#FF6A00]/20 flex items-center justify-center text-[#FF6A00] text-xs font-bold">3</div>
+                  <div className="shrink-0 w-6 h-6 rounded-full bg-[#F27D24]/20 flex items-center justify-center text-[#F27D24] text-xs font-bold">3</div>
                   <p className="text-gray-300 text-sm">Half of all Perplexity citations come from the current year. Perplexity has the strongest freshness preference.</p>
                 </div>
                 <div className="flex items-start gap-3">
-                  <div className="shrink-0 w-6 h-6 rounded-full bg-[#FF6A00]/20 flex items-center justify-center text-[#FF6A00] text-xs font-bold">4</div>
+                  <div className="shrink-0 w-6 h-6 rounded-full bg-[#F27D24]/20 flex items-center justify-center text-[#F27D24] text-xs font-bold">4</div>
                   <p className="text-gray-300 text-sm">Never update publish dates without making substantive content changes. Both Google and AI platforms detect this.</p>
                 </div>
                 <div className="flex items-start gap-3">
-                  <div className="shrink-0 w-6 h-6 rounded-full bg-[#FF6A00]/20 flex items-center justify-center text-[#FF6A00] text-xs font-bold">5</div>
+                  <div className="shrink-0 w-6 h-6 rounded-full bg-[#F27D24]/20 flex items-center justify-center text-[#F27D24] text-xs font-bold">5</div>
                   <p className="text-gray-300 text-sm">Start with your top 20% of pages by traffic. These deliver the highest return on refresh investment.</p>
                 </div>
                 <div className="flex items-start gap-3">
-                  <div className="shrink-0 w-6 h-6 rounded-full bg-[#FF6A00]/20 flex items-center justify-center text-[#FF6A00] text-xs font-bold">6</div>
+                  <div className="shrink-0 w-6 h-6 rounded-full bg-[#F27D24]/20 flex items-center justify-center text-[#F27D24] text-xs font-bold">6</div>
                   <p className="text-gray-300 text-sm">Match update frequency to content type: weekly for trends, monthly for comparisons, quarterly for services, annually for evergreen.</p>
                 </div>
                 <div className="flex items-start gap-3">
-                  <div className="shrink-0 w-6 h-6 rounded-full bg-[#FF6A00]/20 flex items-center justify-center text-[#FF6A00] text-xs font-bold">7</div>
+                  <div className="shrink-0 w-6 h-6 rounded-full bg-[#F27D24]/20 flex items-center justify-center text-[#F27D24] text-xs font-bold">7</div>
                   <p className="text-gray-300 text-sm">One deeply researched article per month outperforms four shallow weekly posts for AI citation potential.</p>
                 </div>
                 <div className="flex items-start gap-3">
-                  <div className="shrink-0 w-6 h-6 rounded-full bg-[#FF6A00]/20 flex items-center justify-center text-[#FF6A00] text-xs font-bold">8</div>
+                  <div className="shrink-0 w-6 h-6 rounded-full bg-[#F27D24]/20 flex items-center justify-center text-[#F27D24] text-xs font-bold">8</div>
                   <p className="text-gray-300 text-sm">Aim to change 20 to 30 percent of textual content when refreshing a page for the update to register as meaningful.</p>
                 </div>
               </div>
@@ -948,7 +957,7 @@ export default function DoesUpdatingYourSiteWeeklyHelpAIFindYou() {
               <p className="text-white font-semibold mb-1">Want this cheat sheet applied to your actual pages?</p>
               <p className="text-gray-400 text-sm">Our Blind Spot Report maps each of your pages against these freshness benchmarks.</p>
             </div>
-            <Link href="/blindspot" className="shrink-0 inline-flex items-center gap-2 bg-[#FF6A00] text-white px-5 py-2.5 rounded-lg font-semibold hover:bg-[#e55f00] transition-colors text-sm">
+            <Link href="/blindspot" className="shrink-0 inline-flex items-center gap-2 bg-[#F27D24] text-white px-5 py-2.5 rounded-lg font-semibold hover:bg-[#D96416] transition-colors text-sm">
               Get Your Free Report
               <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" /></svg>
             </Link>
@@ -971,21 +980,21 @@ export default function DoesUpdatingYourSiteWeeklyHelpAIFindYou() {
               <p className="text-white font-semibold mb-1">Questions about your content freshness strategy?</p>
               <p className="text-gray-400 text-sm">Talk to our AI visibility team directly.</p>
             </div>
-            <a href="tel:+12134442229" className="shrink-0 inline-flex items-center gap-2 bg-[#FF6A00] text-white px-5 py-2.5 rounded-lg font-semibold hover:bg-[#e55f00] transition-colors text-sm">
+            <a href="tel:+12134442229" className="shrink-0 inline-flex items-center gap-2 bg-[#F27D24] text-white px-5 py-2.5 rounded-lg font-semibold hover:bg-[#D96416] transition-colors text-sm">
               (213) 444-2229
               <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" /></svg>
             </a>
           </div>
 
           {/* 3-Tier CTA Block */}
-          <div className="not-prose my-16 p-8 rounded-2xl bg-gradient-to-br from-[#FF6A00]/10 to-transparent border border-[#FF6A00]/20">
+          <div className="not-prose my-16 p-8 rounded-2xl bg-gradient-to-br from-[#F27D24]/10 to-transparent border border-[#F27D24]/20">
             <h3 className="font-plus-jakarta text-2xl font-bold text-white mb-3">Not Sure What to Update or How Often?</h3>
             <p className="text-gray-400 mb-6">Our Blind Spot Report shows exactly which pages AI platforms are reading, which they are ignoring, and where freshness gaps are costing you citations.</p>
-            <Link href="/blindspot" className="inline-flex items-center gap-2 bg-[#FF6A00] text-white px-6 py-3 rounded-lg font-semibold hover:bg-[#e55f00] transition-colors">
+            <Link href="/blindspot" className="inline-flex items-center gap-2 bg-[#F27D24] text-white px-6 py-3 rounded-lg font-semibold hover:bg-[#D96416] transition-colors">
               Get Your Free Blind Spot Report
               <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" /></svg>
             </Link>
-            <div className="flex flex-wrap items-center gap-6 mt-6 pt-6 border-t border-[#FF6A00]/10">
+            <div className="flex flex-wrap items-center gap-6 mt-6 pt-6 border-t border-[#F27D24]/10">
               <a href="tel:+12134442229" className="flex items-center gap-2 text-gray-400 hover:text-white transition-colors">
                 <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" /></svg>
                 (213) 444-2229
@@ -998,13 +1007,18 @@ export default function DoesUpdatingYourSiteWeeklyHelpAIFindYou() {
           </div>
 
           {/* Author Card */}
-          <div className="ae-author-card not-prose">
-            <div className="ae-author-avatar">AE</div>
-            <div>
-              <div className="text-white font-semibold">The Answer Engine Team</div>
-              <div className="text-gray-400 text-sm">AI visibility strategists helping local businesses get cited by ChatGPT, Perplexity, Google AI, and every major AI platform.</div>
+          <div className="ae-author-card">
+              <img
+                src="/justin-borges.webp"
+                alt="Justin Borges, Founder of The Answer Engine"
+                style={{ width: 64, height: 64, borderRadius: '50%', objectFit: 'cover', flexShrink: 0 }}
+              />
+              <div>
+                <div className="ae-author-name" style={{ fontWeight: 600 }}>Justin Borges</div>
+                <div className="ae-author-role" style={{ fontWeight: 400 }}>Founder, The Answer Engine</div>
+                <p style={{ marginTop: 8, fontSize: '0.875rem', color: 'rgba(255,255,255,0.65)', lineHeight: 1.6 }}>Justin Borges founded The Answer Engine in 2025 after 13+ years in real estate, $200M+ in production, and discovering that AI search rankings now decide who gets cited as the answer. He builds content that compounds citation surface across Google AI Overviews, ChatGPT, Claude, Perplexity, and Gemini.</p>
+              </div>
             </div>
-          </div>
 
           {/* FAQ Section */}
           <div id="faq" className="scroll-mt-20 mt-16">
@@ -1092,7 +1106,7 @@ export default function DoesUpdatingYourSiteWeeklyHelpAIFindYou() {
               <p className="text-white font-semibold mb-1">Still have questions about your content strategy?</p>
               <p className="text-gray-400 text-sm">Our team is happy to walk you through what we are seeing across AI platforms.</p>
             </div>
-            <a href="mailto:support@theanswerengine.ai" className="shrink-0 inline-flex items-center gap-2 bg-[#FF6A00] text-white px-5 py-2.5 rounded-lg font-semibold hover:bg-[#e55f00] transition-colors text-sm">
+            <a href="mailto:support@theanswerengine.ai" className="shrink-0 inline-flex items-center gap-2 bg-[#F27D24] text-white px-5 py-2.5 rounded-lg font-semibold hover:bg-[#D96416] transition-colors text-sm">
               Email Us
               <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" /></svg>
             </a>
@@ -1102,14 +1116,14 @@ export default function DoesUpdatingYourSiteWeeklyHelpAIFindYou() {
           <div className="not-prose mt-16 mb-12">
             <h3 className="text-lg font-bold text-white mb-4 font-plus-jakarta">Related Articles</h3>
             <div className="grid sm:grid-cols-3 gap-4">
-              <Link href="/blog/why-fresh-content-key-ai-search-visibility" className="p-4 rounded-xl bg-white/[0.02] border border-white/[0.06] hover:border-[#FF6A00]/30 transition-colors group">
-                <span className="text-white text-sm font-semibold group-hover:text-[#FF6A00] transition-colors">Why Fresh Content Is the Key to AI Search Visibility</span>
+              <Link href="/blog/why-fresh-content-key-ai-search-visibility" className="p-4 rounded-xl bg-white/[0.02] border border-white/[0.06] hover:border-[#F27D24]/30 transition-colors group">
+                <span className="text-white text-sm font-semibold group-hover:text-[#F27D24] transition-colors">Why Fresh Content Is the Key to AI Search Visibility</span>
               </Link>
-              <Link href="/blog/does-having-a-blog-actually-help-ai-recommend-your-business" className="p-4 rounded-xl bg-white/[0.02] border border-white/[0.06] hover:border-[#FF6A00]/30 transition-colors group">
-                <span className="text-white text-sm font-semibold group-hover:text-[#FF6A00] transition-colors">Does Having a Blog Actually Help AI Recommend Your Business?</span>
+              <Link href="/blog/does-having-a-blog-actually-help-ai-recommend-your-business" className="p-4 rounded-xl bg-white/[0.02] border border-white/[0.06] hover:border-[#F27D24]/30 transition-colors group">
+                <span className="text-white text-sm font-semibold group-hover:text-[#F27D24] transition-colors">Does Having a Blog Actually Help AI Recommend Your Business?</span>
               </Link>
-              <Link href="/blog/what-your-website-looks-like-to-an-ai-crawler" className="p-4 rounded-xl bg-white/[0.02] border border-white/[0.06] hover:border-[#FF6A00]/30 transition-colors group">
-                <span className="text-white text-sm font-semibold group-hover:text-[#FF6A00] transition-colors">What Your Website Looks Like to an AI Crawler</span>
+              <Link href="/blog/what-your-website-looks-like-to-an-ai-crawler" className="p-4 rounded-xl bg-white/[0.02] border border-white/[0.06] hover:border-[#F27D24]/30 transition-colors group">
+                <span className="text-white text-sm font-semibold group-hover:text-[#F27D24] transition-colors">What Your Website Looks Like to an AI Crawler</span>
               </Link>
             </div>
           </div>

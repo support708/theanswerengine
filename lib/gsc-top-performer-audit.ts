@@ -601,7 +601,7 @@ function pageRowJustin(p: PageAuditResult, i: number, isLamh: boolean): string {
   const briefBlock =
     !isLamh && p.brief
       ? `
-<div style="margin-top:10px;padding:12px 14px;background:#fafafa;border-left:3px solid ${p.brief.alignmentScore >= 2 ? '#0d8a3e' : '#FF6A00'};">
+<div style="margin-top:10px;padding:12px 14px;background:#fafafa;border-left:3px solid ${p.brief.alignmentScore >= 2 ? '#0d8a3e' : '#F27D24'};">
   <div style="font-size:12px;color:#333;line-height:1.55;"><b>Rationale:</b> ${escapeHtml(p.brief.alignmentRationale)}</div>
   ${
     p.brief.recommendedH1
@@ -623,7 +623,7 @@ function pageRowJustin(p: PageAuditResult, i: number, isLamh: boolean): string {
       : '';
 
   const lamhNote = isLamh
-    ? `<div style="margin-top:8px;padding:10px 12px;background:#fff8f0;border-left:3px solid #FF6A00;font-size:12px;color:#333;">LAMH Safety Protocol: surface only. No CTA or H1 changes without explicit Justin approval.</div>`
+    ? `<div style="margin-top:8px;padding:10px 12px;background:#fff8f0;border-left:3px solid #F27D24;font-size:12px;color:#333;">LAMH Safety Protocol: surface only. No CTA or H1 changes without explicit Justin approval.</div>`
     : '';
 
   return `
@@ -649,27 +649,27 @@ export function renderJustinAuditInner(r: TopPerformerAudit): string {
   const nextActions = r.topNextActions
     .map(
       (a, i) =>
-        `<li style="margin:0 0 8px 0;font-size:14px;color:#1a1a1a;line-height:1.55;"><b style="color:#FF6A00;font-family:${MONO};font-size:11px;margin-right:6px;">${(i + 1).toString().padStart(2, '0')}</b>${escapeHtml(a)}</li>`,
+        `<li style="margin:0 0 8px 0;font-size:14px;color:#1a1a1a;line-height:1.55;"><b style="color:#F27D24;font-family:${MONO};font-size:11px;margin-right:6px;">${(i + 1).toString().padStart(2, '0')}</b>${escapeHtml(a)}</li>`,
     )
     .join('');
 
   const conversationBlock = r.conversationFlag
     ? `
-<div style="background:#fff8f0;border:1px solid #FF6A00;padding:14px 16px;margin:0 0 22px 0;">
-  <div style="font-family:${MONO};font-size:10px;letter-spacing:0.16em;text-transform:uppercase;color:#FF6A00;margin-bottom:6px;">// Conversation flag</div>
+<div style="background:#fff8f0;border:1px solid #F27D24;padding:14px 16px;margin:0 0 22px 0;">
+  <div style="font-family:${MONO};font-size:10px;letter-spacing:0.16em;text-transform:uppercase;color:#F27D24;margin-bottom:6px;">// Conversation flag</div>
   <div style="font-size:14px;color:#1a1a1a;line-height:1.55;">${escapeHtml(r.conversationFlag)}</div>
 </div>`
     : '';
 
   const lamhBanner = r.isLamh
-    ? `<div style="background:#fff8f0;border-left:4px solid #FF6A00;padding:12px 16px;margin:0 0 20px 0;font-size:13px;color:#1a1a1a;"><b>LAMH Safety Protocol active.</b> Top pages are surfaced for monitoring only. 1.14M+ impressions asset — no rewrites without explicit approval.</div>`
+    ? `<div style="background:#fff8f0;border-left:4px solid #F27D24;padding:12px 16px;margin:0 0 20px 0;font-size:13px;color:#1a1a1a;"><b>LAMH Safety Protocol active.</b> Top pages are surfaced for monitoring only. 1.14M+ impressions asset — no rewrites without explicit approval.</div>`
     : '';
 
   return `
 <h2 style="margin:0 0 4px 0;font-size:24px;line-height:1.1;color:#1a1a1a;font-family:${DISPLAY};font-weight:900;letter-spacing:-0.025em;text-transform:uppercase;">Top-Performer Conversion Audit</h2>
 <p style="margin:0 0 18px 0;color:#555;font-size:14px;">${escapeHtml(r.displayName)} &mdash; last 28 days (${escapeHtml(r.periodStart)} to ${escapeHtml(r.periodEnd)})</p>
 
-<div style="background:#fafafa;border-left:3px solid #FF6A00;padding:12px 14px;margin:0 0 22px 0;">
+<div style="background:#fafafa;border-left:3px solid #F27D24;padding:12px 14px;margin:0 0 22px 0;">
   <div style="font-family:${MONO};font-size:10px;letter-spacing:0.16em;text-transform:uppercase;color:#888;margin-bottom:4px;">Client goal</div>
   <div style="font-size:14px;color:#1a1a1a;line-height:1.5;">${escapeHtml(r.goals.primary_outcome)}</div>
   ${r.goals.conversion_definition ? `<div style="margin-top:4px;font-size:12px;color:#555;"><b>Conversion:</b> ${escapeHtml(r.goals.conversion_definition)}</div>` : ''}
@@ -680,12 +680,12 @@ ${lamhBanner}
 
 <table role="presentation" cellpadding="0" cellspacing="0" border="0" width="100%" style="border-collapse:collapse;margin:0 0 20px 0;">
   <tr>
-    <td style="padding:14px;background:#fafafa;border-left:3px solid #FF6A00;" valign="top">
+    <td style="padding:14px;background:#fafafa;border-left:3px solid #F27D24;" valign="top">
       <div style="font-family:${MONO};font-size:10px;color:#888;letter-spacing:0.14em;text-transform:uppercase;margin-bottom:4px;">Top ${r.pages.length} Pages &middot; Clicks</div>
       <div style="font-family:${DISPLAY};font-size:26px;font-weight:900;color:#1a1a1a;">${formatInt(r.totalClicksTop10)}</div>
     </td>
     <td style="width:12px;"></td>
-    <td style="padding:14px;background:#fafafa;border-left:3px solid #FF6A00;" valign="top">
+    <td style="padding:14px;background:#fafafa;border-left:3px solid #F27D24;" valign="top">
       <div style="font-family:${MONO};font-size:10px;color:#888;letter-spacing:0.14em;text-transform:uppercase;margin-bottom:4px;">Top ${r.pages.length} Pages &middot; Impressions</div>
       <div style="font-family:${DISPLAY};font-size:26px;font-weight:900;color:#1a1a1a;">${formatInt(r.totalImpressionsTop10)}</div>
     </td>
@@ -723,7 +723,7 @@ export function renderClientCuratedInner(r: TopPerformerAudit, firstName: string
   const nextItems = r.topNextActions
     .map(
       (a, i) =>
-        `<li style="margin:0 0 8px 0;font-size:14px;color:#1a1a1a;line-height:1.6;"><b style="color:#FF6A00;font-family:${MONO};font-size:11px;margin-right:6px;">${(i + 1).toString().padStart(2, '0')}</b>${escapeHtml(a)}</li>`,
+        `<li style="margin:0 0 8px 0;font-size:14px;color:#1a1a1a;line-height:1.6;"><b style="color:#F27D24;font-family:${MONO};font-size:11px;margin-right:6px;">${(i + 1).toString().padStart(2, '0')}</b>${escapeHtml(a)}</li>`,
     )
     .join('');
 
@@ -763,7 +763,7 @@ export function renderClientCuratedInner(r: TopPerformerAudit, firstName: string
 <h3 style="margin:24px 0 10px 0;font-size:15px;color:#1a1a1a;font-family:${DISPLAY};font-weight:800;text-transform:uppercase;letter-spacing:0.02em;">What we're doing next</h3>
 <ol style="margin:0 0 24px 0;padding:0 0 0 4px;list-style:none;">${nextItems}</ol>
 
-<div style="background:#fafafa;border-left:4px solid #FF6A00;padding:16px 18px;margin:8px 0 20px 0;">
+<div style="background:#fafafa;border-left:4px solid #F27D24;padding:16px 18px;margin:8px 0 20px 0;">
   <p style="margin:0 0 8px 0;font-family:${DISPLAY};font-size:15px;font-weight:800;color:#1a1a1a;">Want to move faster?</p>
   <p style="margin:0;font-size:13px;color:#555;">Reply to this email and we'll prioritize the rewrites that move the needle on ${escapeHtml(r.goals.primary_outcome)}.</p>
 </div>`;

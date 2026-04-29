@@ -32,7 +32,7 @@ export const metadata: Metadata = {
     description,
     type: 'article',
     publishedTime: publishDate,
-    authors: ['The Answer Engine Team'],
+    authors: ['https://theanswerengine.ai/about'],
     url: `https://theanswerengine.ai/blog/${slug}`,
     images: [
       {
@@ -66,9 +66,18 @@ const jsonLd = {
       datePublished: publishDate,
       dateModified: publishDate,
       author: {
-        '@type': 'Organization',
-        name: 'The Answer Engine',
-        url: 'https://theanswerengine.ai',
+        '@type': 'Person',
+        '@id': 'https://theanswerengine.ai/about#justin-borges',
+        name: 'Justin Borges',
+        jobTitle: 'Founder, The Answer Engine',
+        worksFor: {
+          '@type': 'Organization',
+          name: 'The Answer Engine',
+          url: 'https://theanswerengine.ai',
+        },
+        knowsAbout: ['Answer Engine Optimization', 'AI Search', 'Content Strategy', 'Real Estate Marketing', 'Citation Surface'],
+        url: 'https://theanswerengine.ai/about',
+        image: 'https://theanswerengine.ai/justin-borges.webp',
       },
       publisher: {
         '@type': 'Organization',
@@ -195,9 +204,9 @@ export default function Page() {
       {/* Breadcrumb */}
       <div className="max-w-4xl mx-auto px-6 pt-20 pb-4">
         <nav className="flex items-center gap-2 text-sm text-gray-500">
-          <Link href="/" className="hover:text-[#FF6A00] transition-colors">Home</Link>
+          <Link href="/" className="hover:text-[#F27D24] transition-colors">Home</Link>
           <span>/</span>
-          <Link href="/blog" className="hover:text-[#FF6A00] transition-colors">Blog</Link>
+          <Link href="/blog" className="hover:text-[#F27D24] transition-colors">Blog</Link>
           <span>/</span>
           <span className="text-gray-400">{title}</span>
         </nav>
@@ -211,28 +220,28 @@ export default function Page() {
             <defs>
               <pattern id="hero-grid-106" x="0" y="0" width="60" height="40" patternUnits="userSpaceOnUse">
                 {/* Waveform bars */}
-                <rect x="4" y="16" width="3" height="8" fill="#FF6A00" rx="1" />
-                <rect x="10" y="10" width="3" height="20" fill="#FF6A00" rx="1" />
-                <rect x="16" y="6" width="3" height="28" fill="#FF6A00" rx="1" />
-                <rect x="22" y="12" width="3" height="16" fill="#FF6A00" rx="1" />
-                <rect x="28" y="4" width="3" height="32" fill="#FF6A00" rx="1" />
-                <rect x="34" y="14" width="3" height="12" fill="#FF6A00" rx="1" />
-                <rect x="40" y="8" width="3" height="24" fill="#FF6A00" rx="1" />
-                <rect x="46" y="16" width="3" height="8" fill="#FF6A00" rx="1" />
-                <rect x="52" y="12" width="3" height="16" fill="#FF6A00" rx="1" />
+                <rect x="4" y="16" width="3" height="8" fill="#F27D24" rx="1" />
+                <rect x="10" y="10" width="3" height="20" fill="#F27D24" rx="1" />
+                <rect x="16" y="6" width="3" height="28" fill="#F27D24" rx="1" />
+                <rect x="22" y="12" width="3" height="16" fill="#F27D24" rx="1" />
+                <rect x="28" y="4" width="3" height="32" fill="#F27D24" rx="1" />
+                <rect x="34" y="14" width="3" height="12" fill="#F27D24" rx="1" />
+                <rect x="40" y="8" width="3" height="24" fill="#F27D24" rx="1" />
+                <rect x="46" y="16" width="3" height="8" fill="#F27D24" rx="1" />
+                <rect x="52" y="12" width="3" height="16" fill="#F27D24" rx="1" />
                 {/* Microphone circle */}
-                <circle cx="30" cy="20" r="18" fill="none" stroke="#FF6A00" strokeWidth="0.3" />
+                <circle cx="30" cy="20" r="18" fill="none" stroke="#F27D24" strokeWidth="0.3" />
               </pattern>
             </defs>
             <rect width="100%" height="100%" fill="url(#hero-grid-106)" />
           </svg>
         </div>
         {/* Gradient Overlay */}
-        <div className="absolute inset-0 bg-gradient-to-b from-[#FF6A00]/[0.04] to-transparent pointer-events-none" aria-hidden="true" />
+        <div className="absolute inset-0 bg-gradient-to-b from-[#F27D24]/[0.04] to-transparent pointer-events-none" aria-hidden="true" />
 
         <div className="relative">
           <div className="flex items-center gap-3 mb-6">
-            <span className="bg-[#FF6A00]/10 text-[#FF6A00] px-3 py-1 rounded-full text-xs font-semibold tracking-wide uppercase">How-To Guides</span>
+            <span className="bg-[#F27D24]/10 text-[#F27D24] px-3 py-1 rounded-full text-xs font-semibold tracking-wide uppercase">How-To Guides</span>
             <time className="text-gray-500 text-sm">{publishDate}</time>
           </div>
           <h1 className="font-plus-jakarta text-4xl md:text-5xl font-bold text-white leading-tight mb-6">{title}</h1>
@@ -242,7 +251,7 @@ export default function Page() {
 
       {/* Article Body */}
       <article className="max-w-4xl mx-auto px-6 pb-20">
-        <div className="prose prose-invert prose-lg max-w-none prose-headings:font-plus-jakarta prose-headings:text-white prose-p:text-gray-300 prose-a:text-[#FF6A00] prose-a:no-underline hover:prose-a:underline prose-strong:text-white">
+        <div className="prose prose-invert prose-lg max-w-none prose-headings:font-plus-jakarta prose-headings:text-white prose-p:text-gray-300 prose-a:text-[#F27D24] prose-a:no-underline hover:prose-a:underline prose-strong:text-white">
 
           {/* Table of Contents */}
           <div className="ae-toc">
@@ -655,11 +664,18 @@ export default function Page() {
           </div>
 
           {/* Author Card */}
-          <div className="ae-author-card">
-            <div className="ae-author-avatar">AE</div>
-            <div>
-              <div className="ae-author-name">The Answer Engine Team</div>
-              <div className="ae-author-role">Helping businesses get found by AI search platforms</div>
+          <div className="not-prose">
+            <div className="ae-author-card">
+              <img
+                src="/justin-borges.webp"
+                alt="Justin Borges, Founder of The Answer Engine"
+                style={{ width: 64, height: 64, borderRadius: '50%', objectFit: 'cover', flexShrink: 0 }}
+              />
+              <div>
+                <div className="ae-author-name" style={{ fontWeight: 600 }}>Justin Borges</div>
+                <div className="ae-author-role" style={{ fontWeight: 400 }}>Founder, The Answer Engine</div>
+                <p style={{ marginTop: 8, fontSize: '0.875rem', color: 'rgba(255,255,255,0.65)', lineHeight: 1.6 }}>Justin Borges founded The Answer Engine in 2025 after 13+ years in real estate, $200M+ in production, and discovering that AI search rankings now decide who gets cited as the answer. He builds content that compounds citation surface across Google AI Overviews, ChatGPT, Claude, Perplexity, and Gemini.</p>
+              </div>
             </div>
           </div>
 

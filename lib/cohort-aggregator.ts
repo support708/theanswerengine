@@ -219,7 +219,7 @@ export function renderCohortSectionHtml(vs: ClientVsCohort | null): string {
 
   const DISPLAY = `'Space Grotesk','Inter','Helvetica Neue',Arial,sans-serif`;
   const MONO = `'JetBrains Mono',Consolas,Menlo,'Courier New',monospace`;
-  const BRAND = '#FF6A00';
+  const BRAND = '#F27D24';
 
   const rows = vs.comparisons.map(c => {
     const isAbove = c.directionGood === 'up' ? c.client > c.cohortMedian : c.client < c.cohortMedian;

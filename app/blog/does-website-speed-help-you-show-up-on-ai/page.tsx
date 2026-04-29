@@ -30,7 +30,7 @@ export const metadata: Metadata = {
     description,
     type: 'article',
     publishedTime: publishDate,
-    authors: ['The Answer Engine Team'],
+    authors: ['https://theanswerengine.ai/about'],
     url: `https://theanswerengine.ai/blog/${slug}`,
     images: [{ url: `https://theanswerengine.ai/blog/${slug}.webp`, width: 1200, height: 630, alt: title }],
   },
@@ -59,9 +59,18 @@ const jsonLd = {
       datePublished: publishDate,
       dateModified: publishDate,
       author: {
-        '@type': 'Organization',
-        name: 'The Answer Engine',
-        url: 'https://theanswerengine.ai',
+        '@type': 'Person',
+        '@id': 'https://theanswerengine.ai/about#justin-borges',
+        name: 'Justin Borges',
+        jobTitle: 'Founder, The Answer Engine',
+        worksFor: {
+          '@type': 'Organization',
+          name: 'The Answer Engine',
+          url: 'https://theanswerengine.ai',
+        },
+        knowsAbout: ['Answer Engine Optimization', 'AI Search', 'Content Strategy', 'Real Estate Marketing', 'Citation Surface'],
+        url: 'https://theanswerengine.ai/about',
+        image: 'https://theanswerengine.ai/justin-borges.webp',
       },
       publisher: {
         '@type': 'Organization',
@@ -152,9 +161,9 @@ export default function Page() {
       {/* Breadcrumb */}
       <nav className="max-w-4xl mx-auto px-6 pt-8 pb-0" aria-label="Breadcrumb">
         <ol className="flex items-center gap-2 text-sm text-gray-500">
-          <li><Link href="/" className="hover:text-[#FF6A00] transition-colors">Home</Link></li>
+          <li><Link href="/" className="hover:text-[#F27D24] transition-colors">Home</Link></li>
           <li className="text-gray-700">/</li>
-          <li><Link href="/blog" className="hover:text-[#FF6A00] transition-colors">Blog</Link></li>
+          <li><Link href="/blog" className="hover:text-[#F27D24] transition-colors">Blog</Link></li>
           <li className="text-gray-700">/</li>
           <li className="text-gray-400 truncate max-w-[200px]">{title}</li>
         </ol>
@@ -170,7 +179,7 @@ export default function Page() {
           >
             <defs>
               <pattern id="hero-grid-speed" width="40" height="40" patternUnits="userSpaceOnUse">
-                <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#FF6A00" strokeWidth="0.5" />
+                <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#F27D24" strokeWidth="0.5" />
               </pattern>
             </defs>
             <rect width="100%" height="100%" fill="url(#hero-grid-speed)" />
@@ -187,7 +196,7 @@ export default function Page() {
               Thousands of business owners are investing in Core Web Vitals hoping to get recommended by ChatGPT and Perplexity. A 107,000-page study shows it almost certainly will not work.
             </p>
             <p className="text-gray-500 text-sm mt-6">
-              Published {publishDate} by The Answer Engine Team
+              Published {publishDate} by Justin Borges
             </p>
           </div>
         </div>
@@ -228,7 +237,7 @@ export default function Page() {
         </p>
 
         <div className="ae-cta-inline mb-10">
-          <p>Not sure what is actually holding you back from AI recommendations? <Link href="/blindspot" className="text-[#FF6A00] hover:underline font-semibold">Get your free Blind Spot Report</Link> and find out in minutes.</p>
+          <p>Not sure what is actually holding you back from AI recommendations? <Link href="/blindspot" className="text-[#F27D24] hover:underline font-semibold">Get your free Blind Spot Report</Link> and find out in minutes.</p>
         </div>
 
         {/* TOC */}
@@ -341,7 +350,7 @@ export default function Page() {
         </section>
 
         <div className="ae-cta-inline mb-10">
-          <p>Want to know exactly what AI crawlers see when they visit your site? <Link href="/blindspot" className="text-[#FF6A00] hover:underline font-semibold">Run your free Blind Spot Report</Link> and see your AI footprint today.</p>
+          <p>Want to know exactly what AI crawlers see when they visit your site? <Link href="/blindspot" className="text-[#F27D24] hover:underline font-semibold">Run your free Blind Spot Report</Link> and see your AI footprint today.</p>
         </div>
 
         {/* Section: Study Data */}
@@ -460,12 +469,12 @@ export default function Page() {
           </p>
 
           <p className="text-gray-300 leading-relaxed mb-5">
-            Learn how structured data plays into this in our article on <Link href="/blog/does-schema-markup-help-ai-search" className="text-[#FF6A00] hover:underline">whether schema markup helps AI search</Link>. And if you want to understand what AI crawlers see when they visit your site, read our breakdown of <Link href="/blog/what-your-website-looks-like-to-an-ai-crawler" className="text-[#FF6A00] hover:underline">what your website looks like to an AI crawler</Link>.
+            Learn how structured data plays into this in our article on <Link href="/blog/does-schema-markup-help-ai-search" className="text-[#F27D24] hover:underline">whether schema markup helps AI search</Link>. And if you want to understand what AI crawlers see when they visit your site, read our breakdown of <Link href="/blog/what-your-website-looks-like-to-an-ai-crawler" className="text-[#F27D24] hover:underline">what your website looks like to an AI crawler</Link>.
           </p>
         </section>
 
         <div className="ae-cta-inline mb-10">
-          <p>Ready to see your real AI visibility gaps? <a href="tel:+12134442229" className="text-[#FF6A00] hover:underline font-semibold">(213) 444-2229</a> or <Link href="/blindspot" className="text-[#FF6A00] hover:underline font-semibold">run your free Blind Spot Report</Link>.</p>
+          <p>Ready to see your real AI visibility gaps? <a href="tel:+12134442229" className="text-[#F27D24] hover:underline font-semibold">(213) 444-2229</a> or <Link href="/blindspot" className="text-[#F27D24] hover:underline font-semibold">run your free Blind Spot Report</Link>.</p>
         </div>
 
         {/* Section: Speed, SEO, AI */}
@@ -479,22 +488,22 @@ export default function Page() {
 
           <div className="ae-timeline mb-8">
             <div className="ae-timeline-item">
-              <span className="font-bold text-[#FF6A00]">Step 1</span>
+              <span className="font-bold text-[#F27D24]">Step 1</span>
               <p className="font-semibold text-white">You fix Core Web Vitals</p>
               <p className="text-gray-400 text-sm">Page speed improves. Google notices and may adjust your rankings.</p>
             </div>
             <div className="ae-timeline-item">
-              <span className="font-bold text-[#FF6A00]">Step 2</span>
+              <span className="font-bold text-[#F27D24]">Step 2</span>
               <p className="font-semibold text-white">Google rankings improve</p>
               <p className="text-gray-400 text-sm">You move from page 2 to page 1 for competitive queries.</p>
             </div>
             <div className="ae-timeline-item">
-              <span className="font-bold text-[#FF6A00]">Step 3</span>
+              <span className="font-bold text-[#F27D24]">Step 3</span>
               <p className="font-semibold text-white">AI models sample top Google results</p>
               <p className="text-gray-400 text-sm">ChatGPT and Google AI Mode frequently pull from top-10 Google results as a quality signal.</p>
             </div>
             <div className="ae-timeline-item">
-              <span className="font-bold text-[#FF6A00]">Step 4</span>
+              <span className="font-bold text-[#F27D24]">Step 4</span>
               <p className="font-semibold text-white">Your pages get into the AI citation pool</p>
               <p className="text-gray-400 text-sm">Indirectly, better Google rank creates more AI exposure opportunities.</p>
             </div>
@@ -594,28 +603,28 @@ export default function Page() {
                   <td>$2,000-5,000</td>
                   <td className="text-gray-400">Negligible</td>
                   <td>10-15 Q&A content pages targeting real questions</td>
-                  <td className="text-[#FF6A00]">High</td>
+                  <td className="text-[#F27D24]">High</td>
                 </tr>
                 <tr>
                   <td>CDN upgrade for TTFB</td>
                   <td>$100-300/mo</td>
                   <td className="text-gray-400">None direct</td>
                   <td>Schema.org markup implementation</td>
-                  <td className="text-[#FF6A00]">High</td>
+                  <td className="text-[#F27D24]">High</td>
                 </tr>
                 <tr>
                   <td>JS bundle splitting for TBT</td>
                   <td>$1,000-3,000</td>
                   <td className="text-gray-400">None</td>
                   <td>Directory citation cleanup and NAP audit</td>
-                  <td className="text-[#FF6A00]">Moderate-High</td>
+                  <td className="text-[#F27D24]">Moderate-High</td>
                 </tr>
                 <tr>
                   <td>Image lazy loading refactor</td>
                   <td>$500-1,500</td>
                   <td className="text-gray-400">None</td>
                   <td>Monthly content refresh schedule</td>
-                  <td className="text-[#FF6A00]">Moderate</td>
+                  <td className="text-[#F27D24]">Moderate</td>
                 </tr>
               </tbody>
             </table>
@@ -626,7 +635,7 @@ export default function Page() {
           </p>
 
           <p className="text-gray-300 leading-relaxed">
-            For a deeper look at what specific technical elements AI crawlers respond to, our article on <Link href="/blog/is-your-website-too-complicated-for-ai" className="text-[#FF6A00] hover:underline">whether your website is too complicated for AI</Link> covers the signals that actually matter from a technical standpoint.
+            For a deeper look at what specific technical elements AI crawlers respond to, our article on <Link href="/blog/is-your-website-too-complicated-for-ai" className="text-[#F27D24] hover:underline">whether your website is too complicated for AI</Link> covers the signals that actually matter from a technical standpoint.
           </p>
         </section>
 
@@ -681,19 +690,19 @@ export default function Page() {
         </div>
 
         {/* 3-tier CTA block */}
-        <div className="not-prose my-16 p-8 rounded-2xl bg-gradient-to-br from-[#FF6A00]/10 to-transparent border border-[#FF6A00]/20">
+        <div className="not-prose my-16 p-8 rounded-2xl bg-gradient-to-br from-[#F27D24]/10 to-transparent border border-[#F27D24]/20">
           <h3 className="font-plus-jakarta text-2xl font-bold text-white mb-3">Find Out What Is Actually Holding You Back from AI</h3>
           <p className="text-gray-400 mb-6">Stop guessing whether speed, content, or citations are your bottleneck. Your free Blind Spot Report shows exactly which AI visibility gaps are costing you recommendations right now.</p>
           <Link
             href="/blindspot"
-            className="inline-flex items-center gap-2 bg-[#FF6A00] text-white px-6 py-3 rounded-lg font-semibold hover:bg-[#e55f00] transition-colors"
+            className="inline-flex items-center gap-2 bg-[#F27D24] text-white px-6 py-3 rounded-lg font-semibold hover:bg-[#D96416] transition-colors"
           >
             Get Your Free Blind Spot Report
             <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
             </svg>
           </Link>
-          <div className="flex flex-wrap items-center gap-6 mt-6 pt-6 border-t border-[#FF6A00]/10">
+          <div className="flex flex-wrap items-center gap-6 mt-6 pt-6 border-t border-[#F27D24]/10">
             <a
               href="tel:+12134442229"
               className="flex items-center gap-2 text-gray-400 hover:text-white transition-colors"
@@ -717,12 +726,17 @@ export default function Page() {
 
         {/* Author Card */}
         <div className="ae-author-card mb-12">
-          <div className="ae-author-avatar">AE</div>
-          <div>
-            <p className="font-semibold text-white">The Answer Engine Team</p>
-            <p className="text-gray-400 text-sm">AEO specialists helping local and regional businesses get found, cited, and recommended by AI search engines. Based in Los Angeles.</p>
-          </div>
-        </div>
+          <img
+                src="/justin-borges.webp"
+                alt="Justin Borges, Founder of The Answer Engine"
+                style={{ width: 64, height: 64, borderRadius: '50%', objectFit: 'cover', flexShrink: 0 }}
+              />
+              <div>
+                <div className="ae-author-name" style={{ fontWeight: 600 }}>Justin Borges</div>
+                <div className="ae-author-role" style={{ fontWeight: 400 }}>Founder, The Answer Engine</div>
+                <p style={{ marginTop: 8, fontSize: '0.875rem', color: 'rgba(255,255,255,0.65)', lineHeight: 1.6 }}>Justin Borges founded The Answer Engine in 2025 after 13+ years in real estate, $200M+ in production, and discovering that AI search rankings now decide who gets cited as the answer. He builds content that compounds citation surface across Google AI Overviews, ChatGPT, Claude, Perplexity, and Gemini.</p>
+              </div>
+              </div>
 
         {/* FAQ Section */}
         <section id="faq" className="mb-14">
@@ -758,7 +772,7 @@ export default function Page() {
               },
             ].map(({ q, a }) => (
               <details key={q} className="group border border-gray-800 rounded-xl overflow-hidden">
-                <summary className="flex items-center justify-between px-6 py-5 cursor-pointer text-white font-semibold hover:text-[#FF6A00] transition-colors list-none">
+                <summary className="flex items-center justify-between px-6 py-5 cursor-pointer text-white font-semibold hover:text-[#F27D24] transition-colors list-none">
                   {q}
                   <svg className="w-5 h-5 text-gray-500 group-open:rotate-180 transition-transform flex-shrink-0 ml-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
@@ -782,9 +796,9 @@ export default function Page() {
               <Link
                 key={href}
                 href={href}
-                className="block p-4 rounded-xl border border-gray-800 hover:border-[#FF6A00]/40 hover:bg-[#FF6A00]/5 transition-all text-gray-300 hover:text-white text-sm font-medium"
+                className="block p-4 rounded-xl border border-gray-800 hover:border-[#F27D24]/40 hover:bg-[#F27D24]/5 transition-all text-gray-300 hover:text-white text-sm font-medium"
               >
-                {label} <span className="text-[#FF6A00]">→</span>
+                {label} <span className="text-[#F27D24]">→</span>
               </Link>
             ))}
           </div>

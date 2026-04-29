@@ -31,7 +31,7 @@ export const metadata: Metadata = {
     description,
     type: 'article',
     publishedTime: publishDate,
-    authors: ['The Answer Engine Team'],
+    authors: ['https://theanswerengine.ai/about'],
     url: `https://www.theanswerengine.ai/blog/${slug}`,
     images: [
       {
@@ -64,9 +64,18 @@ const jsonLd = {
       datePublished: publishDate,
       dateModified: publishDate,
       author: {
-        '@type': 'Organization',
-        name: 'The Answer Engine',
-        url: 'https://theanswerengine.ai',
+        '@type': 'Person',
+        '@id': 'https://theanswerengine.ai/about#justin-borges',
+        name: 'Justin Borges',
+        jobTitle: 'Founder, The Answer Engine',
+        worksFor: {
+          '@type': 'Organization',
+          name: 'The Answer Engine',
+          url: 'https://theanswerengine.ai',
+        },
+        knowsAbout: ['Answer Engine Optimization', 'AI Search', 'Content Strategy', 'Real Estate Marketing', 'Citation Surface'],
+        url: 'https://theanswerengine.ai/about',
+        image: 'https://theanswerengine.ai/justin-borges.webp',
       },
       publisher: {
         '@type': 'Organization',
@@ -178,7 +187,7 @@ export default function Page() {
           >
             <defs>
               <pattern id="hero-grid-94" width="40" height="40" patternUnits="userSpaceOnUse">
-                <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#FF6A00" strokeWidth="0.5" />
+                <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#F27D24" strokeWidth="0.5" />
               </pattern>
             </defs>
             <rect width="100%" height="100%" fill="url(#hero-grid-94)" />
@@ -195,8 +204,8 @@ export default function Page() {
 
             {/* Category Badge */}
             <div className="inline-flex items-center gap-2 px-4 py-2 rounded-xl mb-6" style={{ background: 'rgba(255,106,0,0.12)', border: '1px solid rgba(255,106,0,0.3)' }}>
-              <span className="w-2 h-2 rounded-full inline-block" style={{ background: '#FF6A00' }}></span>
-              <span className="text-sm font-semibold tracking-wider uppercase" style={{ color: '#FF6A00' }}>Myth Busters</span>
+              <span className="w-2 h-2 rounded-full inline-block" style={{ background: '#F27D24' }}></span>
+              <span className="text-sm font-semibold tracking-wider uppercase" style={{ color: '#F27D24' }}>Myth Busters</span>
             </div>
 
             <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold mb-6 text-white leading-tight font-plus-jakarta">
@@ -210,7 +219,7 @@ export default function Page() {
               <span className="text-gray-700">|</span>
               <span>12 min read</span>
               <span className="text-gray-700">|</span>
-              <span>The Answer Engine Team</span>
+              <span>Justin Borges</span>
             </div>
           </div>
         </section>
@@ -220,19 +229,19 @@ export default function Page() {
           {/* Stats Grid */}
           <section className="ae-stats-grid grid grid-cols-2 md:grid-cols-4 gap-4 mb-14" aria-label="Key statistics">
             <div className="ae-stat-card rounded-xl p-5 text-center" style={{ background: 'rgba(255,106,0,0.07)', border: '1px solid rgba(255,106,0,0.2)' }}>
-              <div className="text-3xl font-bold mb-1 font-plus-jakarta" style={{ color: '#FF6A00' }}>49%</div>
+              <div className="text-3xl font-bold mb-1 font-plus-jakarta" style={{ color: '#F27D24' }}>49%</div>
               <div className="text-xs text-gray-400 leading-snug">of Google AI Overview citations go to domains over 15 years old</div>
             </div>
             <div className="ae-stat-card rounded-xl p-5 text-center" style={{ background: 'rgba(255,106,0,0.07)', border: '1px solid rgba(255,106,0,0.2)' }}>
-              <div className="text-3xl font-bold mb-1 font-plus-jakarta" style={{ color: '#FF6A00' }}>12%</div>
+              <div className="text-3xl font-bold mb-1 font-plus-jakarta" style={{ color: '#F27D24' }}>12%</div>
               <div className="text-xs text-gray-400 leading-snug">of ChatGPT citations already come from domains less than 5 years old</div>
             </div>
             <div className="ae-stat-card rounded-xl p-5 text-center" style={{ background: 'rgba(255,106,0,0.07)', border: '1px solid rgba(255,106,0,0.2)' }}>
-              <div className="text-3xl font-bold mb-1 font-plus-jakarta" style={{ color: '#FF6A00' }}>3x</div>
+              <div className="text-3xl font-bold mb-1 font-plus-jakarta" style={{ color: '#F27D24' }}>3x</div>
               <div className="text-xs text-gray-400 leading-snug">more likely to be cited by ChatGPT with active review platform profiles</div>
             </div>
             <div className="ae-stat-card rounded-xl p-5 text-center" style={{ background: 'rgba(255,106,0,0.07)', border: '1px solid rgba(255,106,0,0.2)' }}>
-              <div className="text-3xl font-bold mb-1 font-plus-jakarta" style={{ color: '#FF6A00' }}>3x</div>
+              <div className="text-3xl font-bold mb-1 font-plus-jakarta" style={{ color: '#F27D24' }}>3x</div>
               <div className="text-xs text-gray-400 leading-snug">more likely to lose citations if content is not updated quarterly</div>
             </div>
           </section>
@@ -243,7 +252,7 @@ export default function Page() {
               <p className="text-white font-semibold mb-1">Not sure where your domain stands with AI search?</p>
               <p className="text-gray-400 text-sm">Get a free AI visibility audit and find out exactly what's holding you back.</p>
             </div>
-            <Link href="/contact" className="shrink-0 px-5 py-3 rounded-lg font-semibold text-sm transition-all hover:scale-105" style={{ background: '#FF6A00', color: '#fff' }}>
+            <Link href="/contact" className="shrink-0 px-5 py-3 rounded-lg font-semibold text-sm transition-all hover:scale-105" style={{ background: '#F27D24', color: '#fff' }}>
               Get Free Audit
             </Link>
           </div>
@@ -332,7 +341,7 @@ export default function Page() {
             <div className="ae-cta-inline rounded-xl p-5 mb-4" style={{ background: 'rgba(255,106,0,0.08)', border: '1px solid rgba(255,106,0,0.25)' }}>
               <p className="text-white font-semibold mb-1">Ready to stop guessing what AI thinks of your domain?</p>
               <p className="text-gray-400 text-sm mb-3">Our team audits the exact signals AI platforms use to evaluate your business.</p>
-              <Link href="/contact" className="inline-block px-5 py-2.5 rounded-lg font-semibold text-sm transition-all hover:scale-105" style={{ background: '#FF6A00', color: '#fff' }}>
+              <Link href="/contact" className="inline-block px-5 py-2.5 rounded-lg font-semibold text-sm transition-all hover:scale-105" style={{ background: '#F27D24', color: '#fff' }}>
                 Request an AI Audit
               </Link>
             </div>
@@ -360,7 +369,7 @@ export default function Page() {
                   <tr style={{ borderBottom: '1px solid rgba(255,255,255,0.06)', background: 'rgba(255,255,255,0.02)' }}>
                     <td className="px-4 py-3 text-white font-medium">Google AI Overviews</td>
                     <td className="px-4 py-3 text-gray-300">High (49% cite 15+ yr domains)</td>
-                    <td className="px-4 py-3" style={{ color: '#FF6A00' }}>Lowest</td>
+                    <td className="px-4 py-3" style={{ color: '#F27D24' }}>Lowest</td>
                     <td className="px-4 py-3 text-gray-300">E-E-A-T, topical depth, freshness</td>
                   </tr>
                   <tr style={{ borderBottom: '1px solid rgba(255,255,255,0.06)' }}>
@@ -398,9 +407,9 @@ export default function Page() {
             {/* Callout Orange */}
             <div className="ae-callout-orange rounded-xl p-6 mb-4" style={{ background: 'rgba(255,106,0,0.08)', border: '1px solid rgba(255,106,0,0.3)' }}>
               <div className="flex items-start gap-3">
-                <span className="text-xl mt-0.5" style={{ color: '#FF6A00' }}>&#9650;</span>
+                <span className="text-xl mt-0.5" style={{ color: '#F27D24' }}>&#9650;</span>
                 <div>
-                  <p className="font-bold mb-2" style={{ color: '#FF6A00' }}>The Platform Opportunity</p>
+                  <p className="font-bold mb-2" style={{ color: '#F27D24' }}>The Platform Opportunity</p>
                   <p className="text-gray-300 text-sm leading-relaxed">
                     If you're a newer domain, Bing Copilot and ChatGPT are your fastest paths to early AI citations. Prioritizing the trust signals those platforms weight most heavily, review profiles, community mentions, structured data, creates traction you can build on across all platforms over time.
                   </p>
@@ -555,7 +564,7 @@ export default function Page() {
             <div className="ae-cta-inline rounded-xl p-5" style={{ background: 'rgba(255,106,0,0.08)', border: '1px solid rgba(255,106,0,0.25)' }}>
               <p className="text-white font-semibold mb-1">New domain or old, the optimization strategy differs significantly.</p>
               <p className="text-gray-400 text-sm mb-3">We diagnose exactly where you are and build the right roadmap for your situation.</p>
-              <a href="tel:+12134442229" className="inline-block px-5 py-2.5 rounded-lg font-semibold text-sm transition-all hover:scale-105 mr-3" style={{ background: '#FF6A00', color: '#fff' }}>
+              <a href="tel:+12134442229" className="inline-block px-5 py-2.5 rounded-lg font-semibold text-sm transition-all hover:scale-105 mr-3" style={{ background: '#F27D24', color: '#fff' }}>
                 Call (213) 444-2229
               </a>
               <Link href="/contact" className="inline-block px-5 py-2.5 rounded-lg font-semibold text-sm transition-all hover:scale-105" style={{ background: 'rgba(255,255,255,0.08)', color: '#fff', border: '1px solid rgba(255,255,255,0.15)' }}>
@@ -603,7 +612,7 @@ export default function Page() {
                   </tr>
                   <tr style={{ background: 'rgba(255,255,255,0.02)' }}>
                     <td className="px-4 py-3 text-gray-300">Competitor dominating AI on old domain</td>
-                    <td className="px-4 py-3" style={{ color: '#FF6A00' }}>Outflank on content depth</td>
+                    <td className="px-4 py-3" style={{ color: '#F27D24' }}>Outflank on content depth</td>
                     <td className="px-4 py-3 text-gray-400">Identify content gaps, publish more comprehensive answers, build review platform lead</td>
                   </tr>
                 </tbody>
@@ -635,7 +644,7 @@ export default function Page() {
                 <div className="text-3xl mb-3">&#128269;</div>
                 <h3 className="text-white font-bold mb-2 font-plus-jakarta">Find Your Blind Spots</h3>
                 <p className="text-gray-400 text-sm mb-4">Discover which AI visibility signals your domain is missing right now.</p>
-                <Link href="/blindspot" className="block w-full py-3 rounded-lg font-semibold text-sm transition-all hover:scale-105" style={{ background: '#FF6A00', color: '#fff' }}>
+                <Link href="/blindspot" className="block w-full py-3 rounded-lg font-semibold text-sm transition-all hover:scale-105" style={{ background: '#F27D24', color: '#fff' }}>
                   Get Your Free Blind Spot Report
                 </Link>
               </div>
@@ -644,7 +653,7 @@ export default function Page() {
                 <div className="text-3xl mb-3">&#128222;</div>
                 <h3 className="text-white font-bold mb-2 font-plus-jakarta">Talk to an Expert</h3>
                 <p className="text-gray-400 text-sm mb-4">Get direct answers about your domain's AI search position in a quick call.</p>
-                <a href="tel:+12134442229" className="block w-full py-3 rounded-lg font-semibold text-sm transition-all hover:scale-105" style={{ background: 'rgba(255,106,0,0.15)', color: '#FF6A00', border: '1px solid rgba(255,106,0,0.4)' }}>
+                <a href="tel:+12134442229" className="block w-full py-3 rounded-lg font-semibold text-sm transition-all hover:scale-105" style={{ background: 'rgba(255,106,0,0.15)', color: '#F27D24', border: '1px solid rgba(255,106,0,0.4)' }}>
                   (213) 444-2229
                 </a>
               </div>
@@ -653,7 +662,7 @@ export default function Page() {
                 <div className="text-3xl mb-3">&#128231;</div>
                 <h3 className="text-white font-bold mb-2 font-plus-jakarta">Email Us Directly</h3>
                 <p className="text-gray-400 text-sm mb-4">Send your domain and we'll send back a preliminary assessment within 24 hours.</p>
-                <a href="mailto:support@theanswerengine.ai" className="block w-full py-3 rounded-lg font-semibold text-sm transition-all hover:scale-105 truncate" style={{ background: 'rgba(255,106,0,0.15)', color: '#FF6A00', border: '1px solid rgba(255,106,0,0.4)' }}>
+                <a href="mailto:support@theanswerengine.ai" className="block w-full py-3 rounded-lg font-semibold text-sm transition-all hover:scale-105 truncate" style={{ background: 'rgba(255,106,0,0.15)', color: '#F27D24', border: '1px solid rgba(255,106,0,0.4)' }}>
                   support@theanswerengine.ai
                 </a>
               </div>
@@ -667,7 +676,7 @@ export default function Page() {
             <div className="ae-cheat-sheet rounded-2xl p-7" style={{ background: 'rgba(255,106,0,0.05)', border: '2px solid rgba(255,106,0,0.25)' }}>
               <div className="grid sm:grid-cols-2 gap-6">
                 <div>
-                  <h3 className="font-bold mb-4 font-plus-jakarta" style={{ color: '#FF6A00' }}>What Domain Age Does NOT Determine</h3>
+                  <h3 className="font-bold mb-4 font-plus-jakarta" style={{ color: '#F27D24' }}>What Domain Age Does NOT Determine</h3>
                   <ul className="space-y-2.5 text-sm text-gray-300">
                     <li className="flex items-start gap-2">
                       <span className="text-red-400 font-bold mt-0.5">&#215;</span>
@@ -735,7 +744,7 @@ export default function Page() {
               </div>
 
               <div className="mt-6 pt-5" style={{ borderTop: '1px solid rgba(255,106,0,0.2)' }}>
-                <p className="text-sm font-semibold mb-3" style={{ color: '#FF6A00' }}>Quick Domain Age Reality Check</p>
+                <p className="text-sm font-semibold mb-3" style={{ color: '#F27D24' }}>Quick Domain Age Reality Check</p>
                 <div className="grid sm:grid-cols-3 gap-3 text-xs text-gray-400">
                   <div className="rounded-lg p-3" style={{ background: 'rgba(0,0,0,0.3)' }}>
                     <p className="font-semibold text-white mb-1">Domain under 1 year</p>
@@ -829,8 +838,8 @@ export default function Page() {
                 &#128161;
               </div>
               <div>
-                <p className="text-white font-bold font-plus-jakarta mb-1">The Answer Engine Team</p>
-                <p className="text-xs mb-3" style={{ color: '#FF6A00' }}>AI Search Optimization Specialists</p>
+                <p className="text-white font-bold font-plus-jakarta mb-1">Justin Borges</p>
+                <p className="text-xs mb-3" style={{ color: '#F27D24' }}>AI Search Optimization Specialists</p>
                 <p className="text-gray-400 text-sm leading-relaxed">
                   The Answer Engine is a Los Angeles-based AEO agency helping businesses of all sizes achieve consistent visibility across ChatGPT, Perplexity, Google AI Mode, and every other AI search platform shaping how customers find services today.
                 </p>
@@ -848,7 +857,7 @@ export default function Page() {
               Domain age is the myth. Content quality, trust signals, and structured optimization are the reality. Find out exactly where your domain stands and what it will take to earn consistent AI citations, before your competitors figure it out first.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
-              <Link href="/contact" className="px-8 py-4 rounded-xl font-bold text-base transition-all hover:scale-105" style={{ background: '#FF6A00', color: '#fff', boxShadow: '0 0 20px rgba(255,106,0,0.4)' }}>
+              <Link href="/contact" className="px-8 py-4 rounded-xl font-bold text-base transition-all hover:scale-105" style={{ background: '#F27D24', color: '#fff', boxShadow: '0 0 20px rgba(255,106,0,0.4)' }}>
                 Get My Free AI Visibility Audit
               </Link>
               <a href="tel:+12134442229" className="px-8 py-4 rounded-xl font-bold text-base transition-all hover:scale-105" style={{ background: 'rgba(255,255,255,0.06)', color: '#fff', border: '1px solid rgba(255,255,255,0.15)' }}>
@@ -857,7 +866,7 @@ export default function Page() {
             </div>
             <p className="text-gray-600 text-sm mt-6">
               Free assessment. No commitment. Just answers.{' '}
-              <a href="mailto:support@theanswerengine.ai" className="hover:text-gray-400 transition-colors" style={{ color: '#FF6A00' }}>
+              <a href="mailto:support@theanswerengine.ai" className="hover:text-gray-400 transition-colors" style={{ color: '#F27D24' }}>
                 support@theanswerengine.ai
               </a>
             </p>

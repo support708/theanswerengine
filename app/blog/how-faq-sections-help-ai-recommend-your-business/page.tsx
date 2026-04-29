@@ -31,7 +31,7 @@ export const metadata: Metadata = {
     description,
     type: 'article',
     publishedTime: publishDate,
-    authors: ['The Answer Engine Team'],
+    authors: ['https://theanswerengine.ai/about'],
     url: `https://theanswerengine.ai/blog/${slug}`,
     images: [
       {
@@ -64,9 +64,18 @@ const jsonLd = {
       datePublished: publishDate,
       dateModified: publishDate,
       author: {
-        '@type': 'Organization',
-        name: 'The Answer Engine',
-        url: 'https://theanswerengine.ai',
+        '@type': 'Person',
+        '@id': 'https://theanswerengine.ai/about#justin-borges',
+        name: 'Justin Borges',
+        jobTitle: 'Founder, The Answer Engine',
+        worksFor: {
+          '@type': 'Organization',
+          name: 'The Answer Engine',
+          url: 'https://theanswerengine.ai',
+        },
+        knowsAbout: ['Answer Engine Optimization', 'AI Search', 'Content Strategy', 'Real Estate Marketing', 'Citation Surface'],
+        url: 'https://theanswerengine.ai/about',
+        image: 'https://theanswerengine.ai/justin-borges.webp',
       },
       publisher: {
         '@type': 'Organization',
@@ -128,6 +137,15 @@ const jsonLd = {
         },
       ],
     },
+    {
+      '@type': 'BreadcrumbList',
+      '@id': `https://www.theanswerengine.ai/blog/${slug}#breadcrumb`,
+      itemListElement: [
+        { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://www.theanswerengine.ai' },
+        { '@type': 'ListItem', position: 2, name: 'Blog', item: 'https://www.theanswerengine.ai/blog' },
+        { '@type': 'ListItem', position: 3, name: title, item: `https://www.theanswerengine.ai/blog/${slug}` },
+      ],
+    },
   ],
 }
 
@@ -144,7 +162,7 @@ export default function Page() {
           {/* ── HEADER ── */}
           <header className="mb-16">
             <div className="mb-6">
-              <span className="inline-block px-3 py-1 text-xs font-semibold uppercase tracking-wider text-[#FF6A00] bg-[#FF6A00]/10 rounded-full">
+              <span className="inline-block px-3 py-1 text-xs font-semibold uppercase tracking-wider text-[#F27D24] bg-[#F27D24]/10 rounded-full">
                 How-To Guide
               </span>
             </div>
@@ -185,13 +203,13 @@ export default function Page() {
                 <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={2}>
                   <path strokeLinecap="round" strokeLinejoin="round" d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z" />
                 </svg>
-                <span>The Answer Engine Team</span>
+                <span>Justin Borges</span>
               </div>
             </div>
           </header>
 
           {/* Main Content with prose */}
-          <div className="prose prose-invert prose-lg max-w-none prose-headings:font-plus-jakarta prose-headings:text-white prose-p:text-gray-300 prose-a:text-[#FF6A00] prose-a:no-underline hover:prose-a:underline prose-strong:text-white">
+          <div className="prose prose-invert prose-lg max-w-none prose-headings:font-plus-jakarta prose-headings:text-white prose-p:text-gray-300 prose-a:text-[#F27D24] prose-a:no-underline hover:prose-a:underline prose-strong:text-white">
 
             {/* ── STATS GRID ── */}
             <div className="ae-stats-grid not-prose">

@@ -30,7 +30,7 @@ export const metadata: Metadata = {
     description,
     type: 'article',
     publishedTime: publishDate,
-    authors: ['The Answer Engine Team'],
+    authors: ['https://theanswerengine.ai/about'],
     url: `https://theanswerengine.ai/blog/${slug}`,
     images: [{ url: `https://theanswerengine.ai/blog/${slug}.webp`, width: 1200, height: 630, alt: title }],
   },
@@ -59,9 +59,18 @@ const jsonLd = {
       datePublished: publishDate,
       dateModified: publishDate,
       author: {
-        '@type': 'Organization',
-        name: 'The Answer Engine',
-        url: 'https://theanswerengine.ai',
+        '@type': 'Person',
+        '@id': 'https://theanswerengine.ai/about#justin-borges',
+        name: 'Justin Borges',
+        jobTitle: 'Founder, The Answer Engine',
+        worksFor: {
+          '@type': 'Organization',
+          name: 'The Answer Engine',
+          url: 'https://theanswerengine.ai',
+        },
+        knowsAbout: ['Answer Engine Optimization', 'AI Search', 'Content Strategy', 'Real Estate Marketing', 'Citation Surface'],
+        url: 'https://theanswerengine.ai/about',
+        image: 'https://theanswerengine.ai/justin-borges.webp',
       },
       publisher: {
         '@type': 'Organization',
@@ -152,9 +161,9 @@ export default function Page() {
       {/* Breadcrumb */}
       <nav className="max-w-4xl mx-auto px-6 pt-8 pb-0" aria-label="Breadcrumb">
         <ol className="flex items-center gap-2 text-sm text-gray-500">
-          <li><Link href="/" className="hover:text-[#FF6A00] transition-colors">Home</Link></li>
+          <li><Link href="/" className="hover:text-[#F27D24] transition-colors">Home</Link></li>
           <li className="text-gray-700">/</li>
-          <li><Link href="/blog" className="hover:text-[#FF6A00] transition-colors">Blog</Link></li>
+          <li><Link href="/blog" className="hover:text-[#F27D24] transition-colors">Blog</Link></li>
           <li className="text-gray-700">/</li>
           <li className="text-gray-400 truncate max-w-[200px]">{title}</li>
         </ol>
@@ -170,7 +179,7 @@ export default function Page() {
           >
             <defs>
               <pattern id="hero-grid-angi" width="40" height="40" patternUnits="userSpaceOnUse">
-                <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#FF6A00" strokeWidth="0.5" />
+                <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#F27D24" strokeWidth="0.5" />
               </pattern>
             </defs>
             <rect width="100%" height="100%" fill="url(#hero-grid-angi)" />
@@ -187,7 +196,7 @@ export default function Page() {
               Not a myth anymore. Thumbtack is embedded inside ChatGPT. Angi launched a ChatGPT app and feeds Amazon Alexa+. Your directory profile is now an AI recommendation feed. Here is what that actually means.
             </p>
             <p className="text-gray-500 text-sm mt-6">
-              Published {publishDate} by The Answer Engine Team
+              Published {publishDate} by Justin Borges
             </p>
           </div>
         </div>
@@ -223,12 +232,12 @@ export default function Page() {
         <div className="ae-toc mb-12">
           <div className="ae-toc-title">What You Will Learn</div>
           <ol className="space-y-1 text-sm text-gray-400 list-decimal list-inside">
-            <li><a href="#the-real-answer" className="hover:text-[#FF6A00] transition-colors">The real answer: yes, but with conditions</a></li>
-            <li><a href="#thumbtack-chatgpt" className="hover:text-[#FF6A00] transition-colors">How Thumbtack feeds ChatGPT directly</a></li>
-            <li><a href="#angi-chatgpt-alexa" className="hover:text-[#FF6A00] transition-colors">Angi's ChatGPT app and Alexa+ integration</a></li>
-            <li><a href="#profile-quality" className="hover:text-[#FF6A00] transition-colors">Why registration alone does nothing</a></li>
-            <li><a href="#optimization" className="hover:text-[#FF6A00] transition-colors">What a profile needs to actually surface</a></li>
-            <li><a href="#vs-website" className="hover:text-[#FF6A00] transition-colors">Directories vs your website: not either/or</a></li>
+            <li><a href="#the-real-answer" className="hover:text-[#F27D24] transition-colors">The real answer: yes, but with conditions</a></li>
+            <li><a href="#thumbtack-chatgpt" className="hover:text-[#F27D24] transition-colors">How Thumbtack feeds ChatGPT directly</a></li>
+            <li><a href="#angi-chatgpt-alexa" className="hover:text-[#F27D24] transition-colors">Angi's ChatGPT app and Alexa+ integration</a></li>
+            <li><a href="#profile-quality" className="hover:text-[#F27D24] transition-colors">Why registration alone does nothing</a></li>
+            <li><a href="#optimization" className="hover:text-[#F27D24] transition-colors">What a profile needs to actually surface</a></li>
+            <li><a href="#vs-website" className="hover:text-[#F27D24] transition-colors">Directories vs your website: not either/or</a></li>
           </ol>
         </div>
 
@@ -256,7 +265,7 @@ export default function Page() {
 
           <div className="ae-cta-inline my-6">
             <p className="text-gray-400 text-sm">Not sure if your directory profiles are feeding AI recommendations?</p>
-            <Link href="/blindspot" className="text-[#FF6A00] hover:text-[#e55f00] font-semibold text-sm transition-colors">
+            <Link href="/blindspot" className="text-[#F27D24] hover:text-[#D96416] font-semibold text-sm transition-colors">
               Get your free Blind Spot Report and see your full AI footprint
             </Link>
           </div>
@@ -365,7 +374,7 @@ export default function Page() {
 
           <div className="ae-cta-inline my-6">
             <p className="text-gray-400 text-sm">Want to know how well your Angi and Thumbtack profiles score for AI visibility?</p>
-            <Link href="/blindspot" className="text-[#FF6A00] hover:text-[#e55f00] font-semibold text-sm transition-colors">
+            <Link href="/blindspot" className="text-[#F27D24] hover:text-[#D96416] font-semibold text-sm transition-colors">
               Run a free Blind Spot Report to see your directory coverage across AI systems
             </Link>
           </div>
@@ -545,7 +554,7 @@ export default function Page() {
 
           <div className="ae-cta-inline my-6">
             <p className="text-gray-400 text-sm">Want to see your coverage across both directory and website AI channels?</p>
-            <Link href="/blindspot" className="text-[#FF6A00] hover:text-[#e55f00] font-semibold text-sm transition-colors">
+            <Link href="/blindspot" className="text-[#F27D24] hover:text-[#D96416] font-semibold text-sm transition-colors">
               Get your free Blind Spot Report and see the complete picture
             </Link>
           </div>
@@ -555,26 +564,26 @@ export default function Page() {
         <section className="mb-12">
           <h2 className="font-plus-jakarta text-2xl font-bold text-white mb-4">Related Reading</h2>
           <div className="grid md:grid-cols-2 gap-4">
-            <Link href="/blog/how-amazon-alexa-plus-recommends-local-businesses" className="block p-4 rounded-xl bg-white/5 border border-gray-800 hover:border-[#FF6A00]/40 transition-colors">
-              <span className="text-[#FF6A00] text-xs font-semibold uppercase tracking-wide">Platform Deep Dives</span>
+            <Link href="/blog/how-amazon-alexa-plus-recommends-local-businesses" className="block p-4 rounded-xl bg-white/5 border border-gray-800 hover:border-[#F27D24]/40 transition-colors">
+              <span className="text-[#F27D24] text-xs font-semibold uppercase tracking-wide">Platform Deep Dives</span>
               <p className="text-white font-semibold text-sm mt-1">How Amazon Alexa+ Recommends Local Businesses</p>
             </Link>
-            <Link href="/blog/your-website-vs-directories-what-ai-trusts" className="block p-4 rounded-xl bg-white/5 border border-gray-800 hover:border-[#FF6A00]/40 transition-colors">
-              <span className="text-[#FF6A00] text-xs font-semibold uppercase tracking-wide">Comparisons</span>
+            <Link href="/blog/your-website-vs-directories-what-ai-trusts" className="block p-4 rounded-xl bg-white/5 border border-gray-800 hover:border-[#F27D24]/40 transition-colors">
+              <span className="text-[#F27D24] text-xs font-semibold uppercase tracking-wide">Comparisons</span>
               <p className="text-white font-semibold text-sm mt-1">Your Website vs Directories: What AI Trusts</p>
             </Link>
           </div>
         </section>
 
         {/* 3-tier CTA */}
-        <div className="not-prose my-16 p-8 rounded-2xl bg-gradient-to-br from-[#FF6A00]/10 to-transparent border border-[#FF6A00]/20">
+        <div className="not-prose my-16 p-8 rounded-2xl bg-gradient-to-br from-[#F27D24]/10 to-transparent border border-[#F27D24]/20">
           <h3 className="font-plus-jakarta text-2xl font-bold text-white mb-3">Find Out If Your Directory Profiles Are Feeding AI Recommendations</h3>
           <p className="text-gray-400 mb-6">Our free Blind Spot Report audits your Angi, Thumbtack, and Yelp profiles alongside your website presence to show exactly where ChatGPT and Alexa+ can find you.</p>
-          <Link href="/blindspot" className="inline-flex items-center gap-2 bg-[#FF6A00] text-white px-6 py-3 rounded-lg font-semibold hover:bg-[#e55f00] transition-colors">
+          <Link href="/blindspot" className="inline-flex items-center gap-2 bg-[#F27D24] text-white px-6 py-3 rounded-lg font-semibold hover:bg-[#D96416] transition-colors">
             Get Your Free Blind Spot Report
             <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" /></svg>
           </Link>
-          <div className="flex flex-wrap items-center gap-6 mt-6 pt-6 border-t border-[#FF6A00]/10">
+          <div className="flex flex-wrap items-center gap-6 mt-6 pt-6 border-t border-[#F27D24]/10">
             <a href="tel:+12134442229" className="flex items-center gap-2 text-gray-400 hover:text-white transition-colors">
               <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" /></svg>
               (213) 444-2229
@@ -587,13 +596,20 @@ export default function Page() {
         </div>
 
         {/* Author card */}
-        <div className="ae-author-card mb-12">
-          <div className="ae-author-avatar">AE</div>
-          <div>
-            <div className="font-plus-jakarta font-bold text-white">The Answer Engine Team</div>
-            <div className="text-gray-400 text-sm">We track AI integrations with business directories and help home service businesses understand exactly which platforms feed their AI recommendations.</div>
+        <div className="not-prose">
+            <div className="ae-author-card">
+              <img
+                src="/justin-borges.webp"
+                alt="Justin Borges, Founder of The Answer Engine"
+                style={{ width: 64, height: 64, borderRadius: '50%', objectFit: 'cover', flexShrink: 0 }}
+              />
+              <div>
+                <div className="ae-author-name" style={{ fontWeight: 600 }}>Justin Borges</div>
+                <div className="ae-author-role" style={{ fontWeight: 400 }}>Founder, The Answer Engine</div>
+                <p style={{ marginTop: 8, fontSize: '0.875rem', color: 'rgba(255,255,255,0.65)', lineHeight: 1.6 }}>Justin Borges founded The Answer Engine in 2025 after 13+ years in real estate, $200M+ in production, and discovering that AI search rankings now decide who gets cited as the answer. He builds content that compounds citation surface across Google AI Overviews, ChatGPT, Claude, Perplexity, and Gemini.</p>
+              </div>
+            </div>
           </div>
-        </div>
 
         {/* FAQ */}
         <section className="mb-12">
@@ -643,7 +659,7 @@ export default function Page() {
           <p className="text-gray-400 mb-8 max-w-xl mx-auto">
             Our free Blind Spot Report shows exactly which AI systems can recommend your business, which platforms are feeding those recommendations, and what gaps are keeping you out of the results.
           </p>
-          <Link href="/blindspot" className="inline-flex items-center gap-2 bg-[#FF6A00] text-white px-8 py-4 rounded-xl font-bold text-lg hover:bg-[#e55f00] transition-colors ae-pulse-glow">
+          <Link href="/blindspot" className="inline-flex items-center gap-2 bg-[#F27D24] text-white px-8 py-4 rounded-xl font-bold text-lg hover:bg-[#D96416] transition-colors ae-pulse-glow">
             Get Your Free Blind Spot Report
             <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" /></svg>
           </Link>

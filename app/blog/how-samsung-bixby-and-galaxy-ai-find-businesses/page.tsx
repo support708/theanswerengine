@@ -33,7 +33,7 @@ export const metadata: Metadata = {
     description,
     type: 'article',
     publishedTime: publishDate,
-    authors: ['The Answer Engine Team'],
+    authors: ['https://theanswerengine.ai/about'],
     url: `https://theanswerengine.ai/blog/${slug}`,
     images: [
       {
@@ -66,9 +66,18 @@ const jsonLd = {
       datePublished: publishDate,
       dateModified: publishDate,
       author: {
-        '@type': 'Organization',
-        name: 'The Answer Engine',
-        url: 'https://theanswerengine.ai',
+        '@type': 'Person',
+        '@id': 'https://theanswerengine.ai/about#justin-borges',
+        name: 'Justin Borges',
+        jobTitle: 'Founder, The Answer Engine',
+        worksFor: {
+          '@type': 'Organization',
+          name: 'The Answer Engine',
+          url: 'https://theanswerengine.ai',
+        },
+        knowsAbout: ['Answer Engine Optimization', 'AI Search', 'Content Strategy', 'Real Estate Marketing', 'Citation Surface'],
+        url: 'https://theanswerengine.ai/about',
+        image: 'https://theanswerengine.ai/justin-borges.webp',
       },
       publisher: {
         '@type': 'Organization',
@@ -198,7 +207,7 @@ export default function Page() {
             >
               <defs>
                 <pattern id="hero-grid-142" x="0" y="0" width="40" height="40" patternUnits="userSpaceOnUse">
-                  <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#FF6A00" strokeWidth="0.5" />
+                  <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#F27D24" strokeWidth="0.5" />
                 </pattern>
               </defs>
               <rect width="100%" height="100%" fill="url(#hero-grid-142)" />
@@ -206,7 +215,7 @@ export default function Page() {
 
             <div className="relative">
               <div className="inline-flex items-center gap-2 px-4 py-2 rounded-xl mb-6 bg-white/[0.04] border border-white/[0.08]">
-                <span className="w-2 h-2 rounded-full bg-[#FF6A00]" aria-hidden="true" />
+                <span className="w-2 h-2 rounded-full bg-[#F27D24]" aria-hidden="true" />
                 <span className="text-sm font-semibold tracking-wider uppercase text-white">Platform Deep Dives</span>
               </div>
 
@@ -214,7 +223,7 @@ export default function Page() {
                 How Samsung Bixby and Galaxy AI Find Businesses
               </h1>
 
-              <div className="bg-gradient-to-br from-[#FF6A00]/5 to-white/[0.02] border border-white/[0.08] rounded-xl p-6 mb-8">
+              <div className="bg-gradient-to-br from-[#F27D24]/5 to-white/[0.02] border border-white/[0.08] rounded-xl p-6 mb-8">
                 <p className="text-lg text-white leading-relaxed">
                   <strong>Samsung Bixby 4.0 is no longer a simple voice assistant.</strong> Powered by a strategic partnership with Perplexity AI, Bixby now searches the real-time web to recommend local businesses to hundreds of millions of Galaxy users. If your business is not visible in this ecosystem, you are invisible to a massive and growing segment of mobile consumers.
                 </p>
@@ -233,7 +242,7 @@ export default function Page() {
                   </svg>
                   <span>April 7, 2026</span>
                 </div>
-                <span>The Answer Engine Team</span>
+                <span>Justin Borges</span>
               </div>
             </div>
           </header>
@@ -256,7 +265,7 @@ export default function Page() {
           </div>
 
           {/* Main Content */}
-          <div className="prose prose-invert prose-lg max-w-none prose-headings:font-plus-jakarta prose-headings:text-white prose-p:text-gray-300 prose-a:text-[#FF6A00] prose-a:no-underline hover:prose-a:underline prose-strong:text-white">
+          <div className="prose prose-invert prose-lg max-w-none prose-headings:font-plus-jakarta prose-headings:text-white prose-p:text-gray-300 prose-a:text-[#F27D24] prose-a:no-underline hover:prose-a:underline prose-strong:text-white">
 
             {/* Stats Grid */}
             <div className="ae-stats-grid not-prose">
@@ -439,7 +448,7 @@ export default function Page() {
                 <thead>
                   <tr className="border-b border-white/10">
                     <th className="text-left py-3 pr-4 text-white font-semibold font-plus-jakarta">Feature</th>
-                    <th className="text-left py-3 pr-4 text-[#FF6A00] font-semibold font-plus-jakarta">Bixby 4.0</th>
+                    <th className="text-left py-3 pr-4 text-[#F27D24] font-semibold font-plus-jakarta">Bixby 4.0</th>
                     <th className="text-left py-3 pr-4 text-gray-300 font-semibold font-plus-jakarta">Siri</th>
                     <th className="text-left py-3 pr-4 text-gray-300 font-semibold font-plus-jakarta">Google Asst.</th>
                     <th className="text-left py-3 text-gray-300 font-semibold font-plus-jakarta">Alexa</th>
@@ -627,34 +636,34 @@ export default function Page() {
               <h3 className="ae-cheat-sheet-title">Bixby + Galaxy AI: Visibility Framework</h3>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 mt-6">
                 <div>
-                  <h4 className="font-plus-jakarta font-bold text-[#FF6A00] text-sm uppercase tracking-wider mb-3">Foundation Layer</h4>
+                  <h4 className="font-plus-jakarta font-bold text-[#F27D24] text-sm uppercase tracking-wider mb-3">Foundation Layer</h4>
                   <ul className="space-y-2 text-gray-300 text-sm">
-                    <li className="flex gap-2"><span className="text-[#FF6A00]">&#9656;</span> Website clearly describes all services with geographic context</li>
-                    <li className="flex gap-2"><span className="text-[#FF6A00]">&#9656;</span> Business name, address, and phone consistent across all web properties</li>
-                    <li className="flex gap-2"><span className="text-[#FF6A00]">&#9656;</span> Structured data markup on service and location pages</li>
-                    <li className="flex gap-2"><span className="text-[#FF6A00]">&#9656;</span> FAQ content addressing specific service queries</li>
+                    <li className="flex gap-2"><span className="text-[#F27D24]">&#9656;</span> Website clearly describes all services with geographic context</li>
+                    <li className="flex gap-2"><span className="text-[#F27D24]">&#9656;</span> Business name, address, and phone consistent across all web properties</li>
+                    <li className="flex gap-2"><span className="text-[#F27D24]">&#9656;</span> Structured data markup on service and location pages</li>
+                    <li className="flex gap-2"><span className="text-[#F27D24]">&#9656;</span> FAQ content addressing specific service queries</li>
                   </ul>
                 </div>
                 <div>
-                  <h4 className="font-plus-jakarta font-bold text-[#FF6A00] text-sm uppercase tracking-wider mb-3">Authority Layer</h4>
+                  <h4 className="font-plus-jakarta font-bold text-[#F27D24] text-sm uppercase tracking-wider mb-3">Authority Layer</h4>
                   <ul className="space-y-2 text-gray-300 text-sm">
-                    <li className="flex gap-2"><span className="text-[#FF6A00]">&#9656;</span> Reviews across multiple platforms with recent activity</li>
-                    <li className="flex gap-2"><span className="text-[#FF6A00]">&#9656;</span> Third-party mentions in local publications or directories</li>
-                    <li className="flex gap-2"><span className="text-[#FF6A00]">&#9656;</span> Content that demonstrates expertise in your service category</li>
-                    <li className="flex gap-2"><span className="text-[#FF6A00]">&#9656;</span> Consistent business presence on high-authority directory sites</li>
+                    <li className="flex gap-2"><span className="text-[#F27D24]">&#9656;</span> Reviews across multiple platforms with recent activity</li>
+                    <li className="flex gap-2"><span className="text-[#F27D24]">&#9656;</span> Third-party mentions in local publications or directories</li>
+                    <li className="flex gap-2"><span className="text-[#F27D24]">&#9656;</span> Content that demonstrates expertise in your service category</li>
+                    <li className="flex gap-2"><span className="text-[#F27D24]">&#9656;</span> Consistent business presence on high-authority directory sites</li>
                   </ul>
                 </div>
                 <div>
-                  <h4 className="font-plus-jakarta font-bold text-[#FF6A00] text-sm uppercase tracking-wider mb-3">Perplexity Legibility</h4>
+                  <h4 className="font-plus-jakarta font-bold text-[#F27D24] text-sm uppercase tracking-wider mb-3">Perplexity Legibility</h4>
                   <ul className="space-y-2 text-gray-300 text-sm">
-                    <li className="flex gap-2"><span className="text-[#FF6A00]">&#9656;</span> Content answers specific questions customers actually ask</li>
-                    <li className="flex gap-2"><span className="text-[#FF6A00]">&#9656;</span> No conflicting information between web properties</li>
-                    <li className="flex gap-2"><span className="text-[#FF6A00]">&#9656;</span> Business hours, pricing signals, and service specifics are findable</li>
-                    <li className="flex gap-2"><span className="text-[#FF6A00]">&#9656;</span> Website is crawlable without JavaScript rendering barriers</li>
+                    <li className="flex gap-2"><span className="text-[#F27D24]">&#9656;</span> Content answers specific questions customers actually ask</li>
+                    <li className="flex gap-2"><span className="text-[#F27D24]">&#9656;</span> No conflicting information between web properties</li>
+                    <li className="flex gap-2"><span className="text-[#F27D24]">&#9656;</span> Business hours, pricing signals, and service specifics are findable</li>
+                    <li className="flex gap-2"><span className="text-[#F27D24]">&#9656;</span> Website is crawlable without JavaScript rendering barriers</li>
                   </ul>
                 </div>
                 <div>
-                  <h4 className="font-plus-jakarta font-bold text-[#FF6A00] text-sm uppercase tracking-wider mb-3">What Does Not Work</h4>
+                  <h4 className="font-plus-jakarta font-bold text-[#F27D24] text-sm uppercase tracking-wider mb-3">What Does Not Work</h4>
                   <ul className="space-y-2 text-gray-300 text-sm">
                     <li className="flex gap-2"><span className="text-red-400">&#9656;</span> Keyword stuffing without substantive service content</li>
                     <li className="flex gap-2"><span className="text-red-400">&#9656;</span> Relying solely on social media with no website authority</li>
@@ -675,14 +684,14 @@ export default function Page() {
           </div>
 
           {/* 3-Tier CTA Block */}
-          <div className="not-prose my-16 p-8 rounded-2xl bg-gradient-to-br from-[#FF6A00]/10 to-transparent border border-[#FF6A00]/20">
+          <div className="not-prose my-16 p-8 rounded-2xl bg-gradient-to-br from-[#F27D24]/10 to-transparent border border-[#F27D24]/20">
             <h3 className="font-plus-jakarta text-2xl font-bold text-white mb-3">Is Bixby Recommending Your Competitors Instead of You?</h3>
             <p className="text-gray-400 mb-6">Get your free Blind Spot Report and find out what Samsung Galaxy AI tells customers when they search for businesses like yours.</p>
-            <Link href="/blindspot" className="inline-flex items-center gap-2 bg-[#FF6A00] text-white px-6 py-3 rounded-lg font-semibold hover:bg-[#e55f00] transition-colors">
+            <Link href="/blindspot" className="inline-flex items-center gap-2 bg-[#F27D24] text-white px-6 py-3 rounded-lg font-semibold hover:bg-[#D96416] transition-colors">
               Get Your Free Blind Spot Report
               <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" /></svg>
             </Link>
-            <div className="flex flex-wrap items-center gap-6 mt-6 pt-6 border-t border-[#FF6A00]/10">
+            <div className="flex flex-wrap items-center gap-6 mt-6 pt-6 border-t border-[#F27D24]/10">
               <a href="tel:+12134442229" className="flex items-center gap-2 text-gray-400 hover:text-white transition-colors">
                 <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" /></svg>
                 (213) 444-2229
@@ -695,20 +704,17 @@ export default function Page() {
           </div>
 
           {/* Author Card */}
-          <div className="ae-author-card not-prose mb-16">
-            <div className="ae-author-avatar" aria-hidden="true">
-              <svg viewBox="0 0 40 40" fill="none" className="w-full h-full">
-                <circle cx="20" cy="20" r="20" fill="#FF6A00" fillOpacity="0.15" />
-                <circle cx="20" cy="16" r="7" fill="#FF6A00" fillOpacity="0.6" />
-                <ellipse cx="20" cy="34" rx="11" ry="7" fill="#FF6A00" fillOpacity="0.4" />
-              </svg>
-            </div>
-            <div>
-              <div className="font-plus-jakarta font-bold text-white text-base">The Answer Engine Research Team</div>
-              <div className="text-gray-400 text-sm mt-1">We study how AI search platforms discover, evaluate, and recommend local businesses. Our research covers Bixby, Siri, ChatGPT, Perplexity, Google AI, and every major AI assistant shaping how customers find businesses in 2026.</div>
-              <div className="flex gap-4 mt-3">
-                <Link href="/blog" className="text-[#FF6A00] text-sm hover:underline">More Research</Link>
-                <Link href="/blindspot" className="text-[#FF6A00] text-sm hover:underline">Free Blind Spot Report</Link>
+          <div className="not-prose">
+            <div className="ae-author-card">
+              <img
+                src="/justin-borges.webp"
+                alt="Justin Borges, Founder of The Answer Engine"
+                style={{ width: 64, height: 64, borderRadius: '50%', objectFit: 'cover', flexShrink: 0 }}
+              />
+              <div>
+                <div className="ae-author-name" style={{ fontWeight: 600 }}>Justin Borges</div>
+                <div className="ae-author-role" style={{ fontWeight: 400 }}>Founder, The Answer Engine</div>
+                <p style={{ marginTop: 8, fontSize: '0.875rem', color: 'rgba(255,255,255,0.65)', lineHeight: 1.6 }}>Justin Borges founded The Answer Engine in 2025 after 13+ years in real estate, $200M+ in production, and discovering that AI search rankings now decide who gets cited as the answer. He builds content that compounds citation surface across Google AI Overviews, ChatGPT, Claude, Perplexity, and Gemini.</p>
               </div>
             </div>
           </div>
@@ -758,12 +764,12 @@ export default function Page() {
 
           {/* Final CTA with Pulse Glow */}
           <div className="ae-final-cta not-prose relative overflow-hidden rounded-2xl p-10 text-center">
-            <div className="absolute inset-0 bg-gradient-to-br from-[#FF6A00]/20 via-[#FF6A00]/5 to-transparent" aria-hidden="true" />
-            <div className="absolute -top-24 -right-24 w-64 h-64 rounded-full bg-[#FF6A00]/10 blur-3xl animate-pulse" aria-hidden="true" />
-            <div className="absolute -bottom-24 -left-24 w-64 h-64 rounded-full bg-[#FF6A00]/10 blur-3xl animate-pulse" aria-hidden="true" />
+            <div className="absolute inset-0 bg-gradient-to-br from-[#F27D24]/20 via-[#F27D24]/5 to-transparent" aria-hidden="true" />
+            <div className="absolute -top-24 -right-24 w-64 h-64 rounded-full bg-[#F27D24]/10 blur-3xl animate-pulse" aria-hidden="true" />
+            <div className="absolute -bottom-24 -left-24 w-64 h-64 rounded-full bg-[#F27D24]/10 blur-3xl animate-pulse" aria-hidden="true" />
             <div className="relative">
-              <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-[#FF6A00]/10 border border-[#FF6A00]/20 text-[#FF6A00] text-sm font-semibold mb-6">
-                <span className="w-2 h-2 rounded-full bg-[#FF6A00] animate-pulse" aria-hidden="true" />
+              <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-[#F27D24]/10 border border-[#F27D24]/20 text-[#F27D24] text-sm font-semibold mb-6">
+                <span className="w-2 h-2 rounded-full bg-[#F27D24] animate-pulse" aria-hidden="true" />
                 Free for a Limited Time
               </div>
               <h2 className="font-plus-jakarta text-3xl sm:text-4xl font-bold text-white mb-4">
@@ -774,7 +780,7 @@ export default function Page() {
               </p>
               <Link
                 href="/blindspot"
-                className="inline-flex items-center gap-3 bg-[#FF6A00] text-white px-8 py-4 rounded-xl font-bold text-lg hover:bg-[#e55f00] transition-colors shadow-lg shadow-[#FF6A00]/25"
+                className="inline-flex items-center gap-3 bg-[#F27D24] text-white px-8 py-4 rounded-xl font-bold text-lg hover:bg-[#D96416] transition-colors shadow-lg shadow-[#F27D24]/25"
               >
                 Get Your Free Blind Spot Report
                 <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" /></svg>
@@ -806,17 +812,17 @@ export default function Page() {
           <div className="not-prose mt-16 pt-12 border-t border-white/10">
             <h3 className="font-plus-jakarta text-xl font-bold text-white mb-6">Related Platform Deep Dives</h3>
             <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
-              <Link href="/blog/how-siri-decides-which-businesses-to-suggest" className="group block p-5 rounded-xl bg-white/[0.03] border border-white/[0.08] hover:border-[#FF6A00]/30 transition-colors">
-                <div className="text-xs text-[#FF6A00] font-semibold uppercase tracking-wider mb-2">Platform Deep Dive</div>
-                <div className="text-white font-semibold text-sm group-hover:text-[#FF6A00] transition-colors leading-snug">How Siri Decides Which Businesses to Suggest</div>
+              <Link href="/blog/how-siri-decides-which-businesses-to-suggest" className="group block p-5 rounded-xl bg-white/[0.03] border border-white/[0.08] hover:border-[#F27D24]/30 transition-colors">
+                <div className="text-xs text-[#F27D24] font-semibold uppercase tracking-wider mb-2">Platform Deep Dive</div>
+                <div className="text-white font-semibold text-sm group-hover:text-[#F27D24] transition-colors leading-snug">How Siri Decides Which Businesses to Suggest</div>
               </Link>
-              <Link href="/blog/how-apple-intelligence-picks-local-businesses" className="group block p-5 rounded-xl bg-white/[0.03] border border-white/[0.08] hover:border-[#FF6A00]/30 transition-colors">
-                <div className="text-xs text-[#FF6A00] font-semibold uppercase tracking-wider mb-2">Platform Deep Dive</div>
-                <div className="text-white font-semibold text-sm group-hover:text-[#FF6A00] transition-colors leading-snug">How Apple Intelligence Picks Local Businesses</div>
+              <Link href="/blog/how-apple-intelligence-picks-local-businesses" className="group block p-5 rounded-xl bg-white/[0.03] border border-white/[0.08] hover:border-[#F27D24]/30 transition-colors">
+                <div className="text-xs text-[#F27D24] font-semibold uppercase tracking-wider mb-2">Platform Deep Dive</div>
+                <div className="text-white font-semibold text-sm group-hover:text-[#F27D24] transition-colors leading-snug">How Apple Intelligence Picks Local Businesses</div>
               </Link>
-              <Link href="/blog/what-happens-when-you-ask-alexa-to-find-a-business" className="group block p-5 rounded-xl bg-white/[0.03] border border-white/[0.08] hover:border-[#FF6A00]/30 transition-colors">
-                <div className="text-xs text-[#FF6A00] font-semibold uppercase tracking-wider mb-2">Platform Deep Dive</div>
-                <div className="text-white font-semibold text-sm group-hover:text-[#FF6A00] transition-colors leading-snug">What Happens When You Ask Alexa to Find a Business</div>
+              <Link href="/blog/what-happens-when-you-ask-alexa-to-find-a-business" className="group block p-5 rounded-xl bg-white/[0.03] border border-white/[0.08] hover:border-[#F27D24]/30 transition-colors">
+                <div className="text-xs text-[#F27D24] font-semibold uppercase tracking-wider mb-2">Platform Deep Dive</div>
+                <div className="text-white font-semibold text-sm group-hover:text-[#F27D24] transition-colors leading-snug">What Happens When You Ask Alexa to Find a Business</div>
               </Link>
             </div>
           </div>

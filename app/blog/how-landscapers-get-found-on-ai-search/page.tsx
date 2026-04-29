@@ -30,7 +30,7 @@ export const metadata: Metadata = {
     description,
     type: 'article',
     publishedTime: publishDate,
-    authors: ['The Answer Engine Team'],
+    authors: ['https://theanswerengine.ai/about'],
     url: `https://theanswerengine.ai/blog/${slug}`,
     images: [{ url: `https://theanswerengine.ai/blog/${slug}.webp`, width: 1200, height: 630, alt: title }],
   },
@@ -59,9 +59,18 @@ const jsonLd = {
       datePublished: publishDate,
       dateModified: publishDate,
       author: {
-        '@type': 'Organization',
-        name: 'The Answer Engine',
-        url: 'https://theanswerengine.ai',
+        '@type': 'Person',
+        '@id': 'https://theanswerengine.ai/about#justin-borges',
+        name: 'Justin Borges',
+        jobTitle: 'Founder, The Answer Engine',
+        worksFor: {
+          '@type': 'Organization',
+          name: 'The Answer Engine',
+          url: 'https://theanswerengine.ai',
+        },
+        knowsAbout: ['Answer Engine Optimization', 'AI Search', 'Content Strategy', 'Real Estate Marketing', 'Citation Surface'],
+        url: 'https://theanswerengine.ai/about',
+        image: 'https://theanswerengine.ai/justin-borges.webp',
       },
       publisher: {
         '@type': 'Organization',
@@ -152,9 +161,9 @@ export default function Page() {
       {/* Breadcrumb */}
       <nav className="max-w-4xl mx-auto px-6 pt-8 pb-0" aria-label="Breadcrumb">
         <ol className="flex items-center gap-2 text-sm text-gray-500">
-          <li><Link href="/" className="hover:text-[#FF6A00] transition-colors">Home</Link></li>
+          <li><Link href="/" className="hover:text-[#F27D24] transition-colors">Home</Link></li>
           <li className="text-gray-700">/</li>
-          <li><Link href="/blog" className="hover:text-[#FF6A00] transition-colors">Blog</Link></li>
+          <li><Link href="/blog" className="hover:text-[#F27D24] transition-colors">Blog</Link></li>
           <li className="text-gray-700">/</li>
           <li className="text-gray-400 truncate max-w-[200px]">{title}</li>
         </ol>
@@ -170,7 +179,7 @@ export default function Page() {
           >
             <defs>
               <pattern id="hero-grid-landscapers" width="40" height="40" patternUnits="userSpaceOnUse">
-                <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#FF6A00" strokeWidth="0.5" />
+                <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#F27D24" strokeWidth="0.5" />
               </pattern>
             </defs>
             <rect width="100%" height="100%" fill="url(#hero-grid-landscapers)" />
@@ -187,7 +196,7 @@ export default function Page() {
               Homeowners used to call the number on a yard sign. Now they ask ChatGPT, Perplexity, or Alexa. Here is what those AI platforms look for before recommending a landscaping or lawn care business.
             </p>
             <p className="text-gray-500 text-sm mt-6">
-              Published {publishDate} by The Answer Engine Team
+              Published {publishDate} by Justin Borges
             </p>
           </div>
         </div>
@@ -223,13 +232,13 @@ export default function Page() {
         <div className="ae-toc mb-12">
           <div className="ae-toc-title">What You Will Learn</div>
           <ol className="space-y-1 text-sm text-gray-400 list-decimal list-inside">
-            <li><a href="#why-ai-matters" className="hover:text-[#FF6A00] transition-colors">Why AI search now controls landscaping leads</a></li>
-            <li><a href="#how-ai-picks" className="hover:text-[#FF6A00] transition-colors">How AI decides which landscapers to recommend</a></li>
-            <li><a href="#directory-power" className="hover:text-[#FF6A00] transition-colors">The directory platforms feeding AI recommendations</a></li>
-            <li><a href="#website-signals" className="hover:text-[#FF6A00] transition-colors">What your website needs to say</a></li>
-            <li><a href="#review-strategy" className="hover:text-[#FF6A00] transition-colors">How reviews factor into AI citations</a></li>
-            <li><a href="#alexa-plus" className="hover:text-[#FF6A00] transition-colors">Alexa+ and voice-driven landscaping leads</a></li>
-            <li><a href="#common-mistakes" className="hover:text-[#FF6A00] transition-colors">Why most landscapers are invisible to AI</a></li>
+            <li><a href="#why-ai-matters" className="hover:text-[#F27D24] transition-colors">Why AI search now controls landscaping leads</a></li>
+            <li><a href="#how-ai-picks" className="hover:text-[#F27D24] transition-colors">How AI decides which landscapers to recommend</a></li>
+            <li><a href="#directory-power" className="hover:text-[#F27D24] transition-colors">The directory platforms feeding AI recommendations</a></li>
+            <li><a href="#website-signals" className="hover:text-[#F27D24] transition-colors">What your website needs to say</a></li>
+            <li><a href="#review-strategy" className="hover:text-[#F27D24] transition-colors">How reviews factor into AI citations</a></li>
+            <li><a href="#alexa-plus" className="hover:text-[#F27D24] transition-colors">Alexa+ and voice-driven landscaping leads</a></li>
+            <li><a href="#common-mistakes" className="hover:text-[#F27D24] transition-colors">Why most landscapers are invisible to AI</a></li>
           </ol>
         </div>
 
@@ -250,7 +259,7 @@ export default function Page() {
 
           <div className="ae-cta-inline my-6">
             <p className="text-gray-400 text-sm">Not sure if AI can find your landscaping business?</p>
-            <Link href="/blindspot" className="text-[#FF6A00] hover:text-[#e55f00] font-semibold text-sm transition-colors">
+            <Link href="/blindspot" className="text-[#F27D24] hover:text-[#D96416] font-semibold text-sm transition-colors">
               Get your free AI Blind Spot Report and find out in minutes
             </Link>
           </div>
@@ -308,7 +317,7 @@ export default function Page() {
 
           <div className="ae-cta-inline my-6">
             <p className="text-gray-400 text-sm">Wondering how your landscaping website reads to AI?</p>
-            <Link href="/blindspot" className="text-[#FF6A00] hover:text-[#e55f00] font-semibold text-sm transition-colors">
+            <Link href="/blindspot" className="text-[#F27D24] hover:text-[#D96416] font-semibold text-sm transition-colors">
               Run your free Blind Spot Report to see exactly what AI sees
             </Link>
           </div>
@@ -493,7 +502,7 @@ export default function Page() {
 
           <div className="ae-cta-inline my-6">
             <p className="text-gray-400 text-sm">Want to know which review platforms are helping your AI visibility?</p>
-            <Link href="/blindspot" className="text-[#FF6A00] hover:text-[#e55f00] font-semibold text-sm transition-colors">
+            <Link href="/blindspot" className="text-[#F27D24] hover:text-[#D96416] font-semibold text-sm transition-colors">
               Get your free Blind Spot Report and see the full picture
             </Link>
           </div>
@@ -606,26 +615,26 @@ export default function Page() {
         <section className="mb-12">
           <h2 className="font-plus-jakarta text-2xl font-bold text-white mb-4">Related Reading for Home Service Businesses</h2>
           <div className="grid md:grid-cols-2 gap-4">
-            <Link href="/blog/how-contractors-and-home-service-companies-win-ai-search" className="block p-4 rounded-xl bg-white/5 border border-gray-800 hover:border-[#FF6A00]/40 transition-colors">
-              <span className="text-[#FF6A00] text-xs font-semibold uppercase tracking-wide">How-To Guide</span>
+            <Link href="/blog/how-contractors-and-home-service-companies-win-ai-search" className="block p-4 rounded-xl bg-white/5 border border-gray-800 hover:border-[#F27D24]/40 transition-colors">
+              <span className="text-[#F27D24] text-xs font-semibold uppercase tracking-wide">How-To Guide</span>
               <p className="text-white font-semibold text-sm mt-1">How Contractors and Home Service Companies Win AI Search</p>
             </Link>
-            <Link href="/blog/does-being-on-angi-or-thumbtack-help-ai-find-you" className="block p-4 rounded-xl bg-white/5 border border-gray-800 hover:border-[#FF6A00]/40 transition-colors">
-              <span className="text-[#FF6A00] text-xs font-semibold uppercase tracking-wide">Myth Busters</span>
+            <Link href="/blog/does-being-on-angi-or-thumbtack-help-ai-find-you" className="block p-4 rounded-xl bg-white/5 border border-gray-800 hover:border-[#F27D24]/40 transition-colors">
+              <span className="text-[#F27D24] text-xs font-semibold uppercase tracking-wide">Myth Busters</span>
               <p className="text-white font-semibold text-sm mt-1">Does Being on Angi or Thumbtack Help AI Find You</p>
             </Link>
           </div>
         </section>
 
         {/* 3-tier CTA block */}
-        <div className="not-prose my-16 p-8 rounded-2xl bg-gradient-to-br from-[#FF6A00]/10 to-transparent border border-[#FF6A00]/20">
+        <div className="not-prose my-16 p-8 rounded-2xl bg-gradient-to-br from-[#F27D24]/10 to-transparent border border-[#F27D24]/20">
           <h3 className="font-plus-jakarta text-2xl font-bold text-white mb-3">Find Out If AI Can Actually Recommend Your Landscaping Business</h3>
           <p className="text-gray-400 mb-6">Our free Blind Spot Report audits your AI visibility across ChatGPT, Perplexity, Alexa+, and Google AI. You will see exactly where you appear, where you do not, and what is standing in the way.</p>
-          <Link href="/blindspot" className="inline-flex items-center gap-2 bg-[#FF6A00] text-white px-6 py-3 rounded-lg font-semibold hover:bg-[#e55f00] transition-colors">
+          <Link href="/blindspot" className="inline-flex items-center gap-2 bg-[#F27D24] text-white px-6 py-3 rounded-lg font-semibold hover:bg-[#D96416] transition-colors">
             Get Your Free Blind Spot Report
             <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" /></svg>
           </Link>
-          <div className="flex flex-wrap items-center gap-6 mt-6 pt-6 border-t border-[#FF6A00]/10">
+          <div className="flex flex-wrap items-center gap-6 mt-6 pt-6 border-t border-[#F27D24]/10">
             <a href="tel:+12134442229" className="flex items-center gap-2 text-gray-400 hover:text-white transition-colors">
               <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" /></svg>
               (213) 444-2229
@@ -638,13 +647,20 @@ export default function Page() {
         </div>
 
         {/* Author card */}
-        <div className="ae-author-card mb-12">
-          <div className="ae-author-avatar">AE</div>
-          <div>
-            <div className="font-plus-jakarta font-bold text-white">The Answer Engine Team</div>
-            <div className="text-gray-400 text-sm">Specialists in AI search visibility for local and home service businesses. We help landscapers, contractors, and service providers get recommended by ChatGPT, Perplexity, Alexa+, and Google AI.</div>
+        <div className="not-prose">
+            <div className="ae-author-card">
+              <img
+                src="/justin-borges.webp"
+                alt="Justin Borges, Founder of The Answer Engine"
+                style={{ width: 64, height: 64, borderRadius: '50%', objectFit: 'cover', flexShrink: 0 }}
+              />
+              <div>
+                <div className="ae-author-name" style={{ fontWeight: 600 }}>Justin Borges</div>
+                <div className="ae-author-role" style={{ fontWeight: 400 }}>Founder, The Answer Engine</div>
+                <p style={{ marginTop: 8, fontSize: '0.875rem', color: 'rgba(255,255,255,0.65)', lineHeight: 1.6 }}>Justin Borges founded The Answer Engine in 2025 after 13+ years in real estate, $200M+ in production, and discovering that AI search rankings now decide who gets cited as the answer. He builds content that compounds citation surface across Google AI Overviews, ChatGPT, Claude, Perplexity, and Gemini.</p>
+              </div>
+            </div>
           </div>
-        </div>
 
         {/* FAQ Section */}
         <section className="mb-12">
@@ -694,7 +710,7 @@ export default function Page() {
           <p className="text-gray-400 mb-8 max-w-xl mx-auto">
             AI is already recommending landscapers in your area. Get your free Blind Spot Report to see exactly where you stand and what it takes to get recommended.
           </p>
-          <Link href="/blindspot" className="inline-flex items-center gap-2 bg-[#FF6A00] text-white px-8 py-4 rounded-xl font-bold text-lg hover:bg-[#e55f00] transition-colors ae-pulse-glow">
+          <Link href="/blindspot" className="inline-flex items-center gap-2 bg-[#F27D24] text-white px-8 py-4 rounded-xl font-bold text-lg hover:bg-[#D96416] transition-colors ae-pulse-glow">
             Get Your Free Blind Spot Report
             <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" /></svg>
           </Link>

@@ -28,7 +28,7 @@ export const metadata: Metadata = {
     description,
     type: 'article',
     publishedTime: publishDate,
-    authors: ['The Answer Engine Team'],
+    authors: ['https://theanswerengine.ai/about'],
     url: `https://theanswerengine.ai/blog/${slug}`,
     images: [
       {
@@ -61,9 +61,18 @@ const jsonLd = {
       datePublished: publishDate,
       dateModified: publishDate,
       author: {
-        '@type': 'Organization',
-        name: 'The Answer Engine',
-        url: 'https://theanswerengine.ai',
+        '@type': 'Person',
+        '@id': 'https://theanswerengine.ai/about#justin-borges',
+        name: 'Justin Borges',
+        jobTitle: 'Founder, The Answer Engine',
+        worksFor: {
+          '@type': 'Organization',
+          name: 'The Answer Engine',
+          url: 'https://theanswerengine.ai',
+        },
+        knowsAbout: ['Answer Engine Optimization', 'AI Search', 'Content Strategy', 'Real Estate Marketing', 'Citation Surface'],
+        url: 'https://theanswerengine.ai/about',
+        image: 'https://theanswerengine.ai/justin-borges.webp',
       },
       publisher: {
         '@type': 'Organization',
@@ -198,12 +207,12 @@ export default function Page() {
                 </svg>
                 <span>March 11, 2026</span>
               </div>
-              <span>The Answer Engine Team</span>
+              <span>Justin Borges</span>
             </div>
           </header>
 
           {/* Main Content */}
-          <div className="prose prose-invert prose-lg max-w-none prose-headings:font-plus-jakarta prose-headings:text-white prose-p:text-gray-300 prose-a:text-[#FF6A00] prose-a:no-underline hover:prose-a:underline prose-strong:text-white">
+          <div className="prose prose-invert prose-lg max-w-none prose-headings:font-plus-jakarta prose-headings:text-white prose-p:text-gray-300 prose-a:text-[#F27D24] prose-a:no-underline hover:prose-a:underline prose-strong:text-white">
 
             {/* Stats Grid */}
             <div className="ae-stats-grid not-prose">
@@ -300,13 +309,13 @@ export default function Page() {
                 <tbody>
                   <tr>
                     <td>Citation Frequency</td>
-                    <td><span className="text-[#FF6A00] font-bold">Very High</span></td>
+                    <td><span className="text-[#F27D24] font-bold">Very High</span></td>
                     <td>Medium</td>
                     <td>3-6 months</td>
                   </tr>
                   <tr>
                     <td>Content Freshness</td>
-                    <td><span className="text-[#FF6A00] font-bold">High</span></td>
+                    <td><span className="text-[#F27D24] font-bold">High</span></td>
                     <td>Low</td>
                     <td>1-2 weeks</td>
                   </tr>
@@ -426,7 +435,7 @@ export default function Page() {
                 </tr>
                 <tr>
                   <td>Freshness Weight</td>
-                  <td><span className="text-[#FF6A00] font-bold">Very High</span></td>
+                  <td><span className="text-[#F27D24] font-bold">Very High</span></td>
                   <td>Medium</td>
                   <td>High</td>
                 </tr>
@@ -450,7 +459,7 @@ export default function Page() {
                 </tr>
                 <tr>
                   <td>Click-Through Potential</td>
-                  <td><span className="text-[#FF6A00] font-bold">Highest</span></td>
+                  <td><span className="text-[#F27D24] font-bold">Highest</span></td>
                   <td>Low</td>
                   <td>Medium</td>
                 </tr>
@@ -735,10 +744,10 @@ export default function Page() {
               getting cited. No pitch, just the data.
             </p>
             {/* CTA 13 */}
-            <Link href="/blindspot" className="inline-block bg-[#FF6A00] text-white font-semibold px-8 py-4 rounded-lg hover:bg-orange-600 transition-colors text-lg">
+            <Link href="/blindspot" className="inline-block bg-[#F27D24] text-white font-semibold px-8 py-4 rounded-lg hover:bg-orange-600 transition-colors text-lg">
               Get Your Free Blind Spot Report
             </Link>
-            <div className="flex flex-wrap items-center gap-6 mt-6 pt-6 border-t border-[#FF6A00]/10">
+            <div className="flex flex-wrap items-center gap-6 mt-6 pt-6 border-t border-[#F27D24]/10">
               {/* CTA 14 */}
               <a href="tel:+12134442229" className="flex items-center gap-2 text-gray-400 hover:text-white transition-colors">
                 <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" /></svg>
@@ -758,18 +767,18 @@ export default function Page() {
             <h3 className="text-xl font-bold text-white mb-3 font-plus-jakarta">Your Competitors Are Getting Cited. Are You?</h3>
             <p className="text-gray-300 mb-6">The businesses that optimize for AI search first will own the citations for years. Do not let competitors lock you out.</p>
             {/* CTA 16 (bonus) */}
-            <Link href="/blindspot" className="inline-block bg-[#FF6A00] text-white font-semibold px-8 py-4 rounded-lg hover:bg-orange-600 transition-colors">
+            <Link href="/blindspot" className="inline-block bg-[#F27D24] text-white font-semibold px-8 py-4 rounded-lg hover:bg-orange-600 transition-colors">
               Check Your AI Visibility Now
             </Link>
           </div>
 
           {/* Author Card */}
           <div className="ae-author-card not-prose mt-12">
-            <div className="w-12 h-12 rounded-full bg-[#FF6A00] flex items-center justify-center text-white font-bold text-lg flex-shrink-0">
+            <div className="w-12 h-12 rounded-full bg-[#F27D24] flex items-center justify-center text-white font-bold text-lg flex-shrink-0">
               AE
             </div>
             <div>
-              <p className="text-white font-semibold">The Answer Engine Team</p>
+              <p className="text-white font-semibold">Justin Borges</p>
               <p className="text-gray-400 text-sm mt-1">
                 Helping local service businesses get cited by AI platforms. We track Perplexity, ChatGPT, Claude, and Google AI Overviews so you do not have to.
               </p>

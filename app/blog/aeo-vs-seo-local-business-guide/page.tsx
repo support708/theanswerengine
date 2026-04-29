@@ -21,7 +21,7 @@ export const metadata: Metadata = {
     'ChatGPT',
     'Google AI Overviews',
   ],
-  authors: [{ name: 'The Answer Engine Team' }],
+  authors: [{ name: 'Justin Borges', url: 'https://theanswerengine.ai/about' }],
   openGraph: {
     title: 'AEO vs SEO: What Local Businesses Actually Need',
     description:
@@ -30,7 +30,7 @@ export const metadata: Metadata = {
     siteName: 'The Answer Engine',
     type: 'article',
     publishedTime: '2026-03-08T00:00:00Z',
-    authors: ['The Answer Engine Team'],
+    authors: ['https://theanswerengine.ai/about'],
   },
   twitter: {
     card: 'summary_large_image',
@@ -56,9 +56,18 @@ const jsonLd = {
       datePublished: '2026-03-08T00:00:00Z',
       dateModified: '2026-03-08T00:00:00Z',
       author: {
-        '@type': 'Organization',
-        name: 'The Answer Engine Team',
-        url: 'https://theanswerengine.ai',
+        '@type': 'Person',
+        '@id': 'https://theanswerengine.ai/about#justin-borges',
+        name: 'Justin Borges',
+        jobTitle: 'Founder, The Answer Engine',
+        worksFor: {
+          '@type': 'Organization',
+          name: 'The Answer Engine',
+          url: 'https://theanswerengine.ai',
+        },
+        knowsAbout: ['Answer Engine Optimization', 'AI Search', 'Content Strategy', 'Real Estate Marketing', 'Citation Surface'],
+        url: 'https://theanswerengine.ai/about',
+        image: 'https://theanswerengine.ai/justin-borges.webp',
       },
       publisher: {
         '@type': 'Organization',
@@ -212,17 +221,17 @@ export default function AeoVsSeoLocalBusinessGuide() {
             fill="none"
             aria-hidden="true"
           >
-            <line x1="0" y1="100" x2="800" y2="100" stroke="#FF6A00" strokeWidth="0.4" />
-            <line x1="0" y1="200" x2="800" y2="200" stroke="#FF6A00" strokeWidth="0.4" />
-            <line x1="0" y1="300" x2="800" y2="300" stroke="#FF6A00" strokeWidth="0.4" />
-            <line x1="200" y1="0" x2="200" y2="400" stroke="#FF6A00" strokeWidth="0.4" />
-            <line x1="400" y1="0" x2="400" y2="400" stroke="#FF6A00" strokeWidth="0.4" />
-            <line x1="600" y1="0" x2="600" y2="400" stroke="#FF6A00" strokeWidth="0.4" />
-            <circle cx="310" cy="200" r="130" stroke="#FF6A00" strokeWidth="0.8" />
-            <circle cx="490" cy="200" r="130" stroke="#FF6A00" strokeWidth="0.8" />
-            <circle cx="400" cy="200" r="60" stroke="#FF6A00" strokeWidth="1.2" />
-            <path d="M0 0 L80 0 L80 80" stroke="#FF6A00" strokeWidth="0.6" fill="none" />
-            <path d="M800 400 L720 400 L720 320" stroke="#FF6A00" strokeWidth="0.6" fill="none" />
+            <line x1="0" y1="100" x2="800" y2="100" stroke="#F27D24" strokeWidth="0.4" />
+            <line x1="0" y1="200" x2="800" y2="200" stroke="#F27D24" strokeWidth="0.4" />
+            <line x1="0" y1="300" x2="800" y2="300" stroke="#F27D24" strokeWidth="0.4" />
+            <line x1="200" y1="0" x2="200" y2="400" stroke="#F27D24" strokeWidth="0.4" />
+            <line x1="400" y1="0" x2="400" y2="400" stroke="#F27D24" strokeWidth="0.4" />
+            <line x1="600" y1="0" x2="600" y2="400" stroke="#F27D24" strokeWidth="0.4" />
+            <circle cx="310" cy="200" r="130" stroke="#F27D24" strokeWidth="0.8" />
+            <circle cx="490" cy="200" r="130" stroke="#F27D24" strokeWidth="0.8" />
+            <circle cx="400" cy="200" r="60" stroke="#F27D24" strokeWidth="1.2" />
+            <path d="M0 0 L80 0 L80 80" stroke="#F27D24" strokeWidth="0.6" fill="none" />
+            <path d="M800 400 L720 400 L720 320" stroke="#F27D24" strokeWidth="0.6" fill="none" />
           </svg>
           <div className="relative px-8 py-16 sm:px-12 sm:py-20">
             <p className="text-sm font-medium text-orange-400 mb-4">
@@ -236,7 +245,7 @@ export default function AeoVsSeoLocalBusinessGuide() {
               <span>-</span>
               <span>8 min read</span>
               <span>-</span>
-              <span>The Answer Engine Team</span>
+              <span>Justin Borges</span>
             </div>
           </div>
         </div>
@@ -268,7 +277,7 @@ export default function AeoVsSeoLocalBusinessGuide() {
         </div>
 
         {/* Article Body */}
-        <article className="prose prose-invert prose-lg max-w-none prose-headings:font-plus-jakarta prose-headings:text-white prose-p:text-gray-300 prose-a:text-[#FF6A00] prose-a:no-underline hover:prose-a:underline prose-strong:text-white">
+        <article className="prose prose-invert prose-lg max-w-none prose-headings:font-plus-jakarta prose-headings:text-white prose-p:text-gray-300 prose-a:text-[#F27D24] prose-a:no-underline hover:prose-a:underline prose-strong:text-white">
 
           {/* Intro */}
           <p className="text-lg mb-8 text-gray-200">
@@ -842,14 +851,14 @@ export default function AeoVsSeoLocalBusinessGuide() {
           <div className="not-prose">
             <div className="ae-author-card">
               <div style={{ display: 'flex', alignItems: 'center', gap: '1rem' }}>
-                <div style={{ width: '3rem', height: '3rem', borderRadius: '9999px', backgroundColor: '#FF6A00', display: 'flex', alignItems: 'center', justifyContent: 'center', color: 'white', fontWeight: 700, fontSize: '0.875rem', flexShrink: 0 }}>
+                <div style={{ width: '3rem', height: '3rem', borderRadius: '9999px', backgroundColor: '#F27D24', display: 'flex', alignItems: 'center', justifyContent: 'center', color: 'white', fontWeight: 700, fontSize: '0.875rem', flexShrink: 0 }}>
                   AE
                 </div>
                 <div>
-                  <p style={{ color: 'white', fontWeight: 600, fontSize: '0.875rem', margin: 0 }}>The Answer Engine Team</p>
+                  <p style={{ color: 'white', fontWeight: 600, fontSize: '0.875rem', margin: 0 }}>Justin Borges</p>
                   <p style={{ color: '#9CA3AF', fontSize: '0.75rem', margin: 0 }}>
                     Published March 8, 2026 on{' '}
-                    <Link href="/" style={{ color: '#FF6A00' }}>
+                    <Link href="/" style={{ color: '#F27D24' }}>
                       theanswerengine.ai
                     </Link>
                   </p>
@@ -869,7 +878,7 @@ export default function AeoVsSeoLocalBusinessGuide() {
                 Get a free AI visibility check. No pitch, just the data. See exactly where your business appears (or does not appear) when potential customers ask AI assistants about services in your area.
               </p>
               <div style={{ display: 'flex', flexWrap: 'wrap', gap: '1rem', marginBottom: '1.5rem' }}>
-                <Link href="/blindspot" style={{ display: 'inline-block', backgroundColor: '#FF6A00', color: 'white', fontWeight: 600, padding: '0.75rem 1.5rem', borderRadius: '0.5rem', textDecoration: 'none' }}>
+                <Link href="/blindspot" style={{ display: 'inline-block', backgroundColor: '#F27D24', color: 'white', fontWeight: 600, padding: '0.75rem 1.5rem', borderRadius: '0.5rem', textDecoration: 'none' }}>
                   Get Your Free Blind Spot Report
                 </Link>
               </div>
@@ -1020,7 +1029,7 @@ export default function AeoVsSeoLocalBusinessGuide() {
                 The businesses that dominate AI search in 2026 and beyond are the ones taking action right now. Get your free blind spot report and see exactly where you stand. No pitch, just the data.
               </p>
               <div style={{ display: 'flex', flexWrap: 'wrap', gap: '1rem', justifyContent: 'center', position: 'relative' }}>
-                <Link href="/blindspot" style={{ display: 'inline-block', backgroundColor: '#FF6A00', color: 'white', fontWeight: 700, padding: '1rem 2rem', borderRadius: '0.5rem', textDecoration: 'none', fontSize: '1.125rem' }}>
+                <Link href="/blindspot" style={{ display: 'inline-block', backgroundColor: '#F27D24', color: 'white', fontWeight: 700, padding: '1rem 2rem', borderRadius: '0.5rem', textDecoration: 'none', fontSize: '1.125rem' }}>
                   Get Your Free Blind Spot Report
                 </Link>
               </div>

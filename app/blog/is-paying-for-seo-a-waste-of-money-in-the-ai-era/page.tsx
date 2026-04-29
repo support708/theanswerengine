@@ -21,7 +21,7 @@ export const metadata: Metadata = {
     'SEO budget',
     'SEO dead',
   ],
-  authors: [{ name: 'The Answer Engine Team' }],
+  authors: [{ name: 'Justin Borges', url: 'https://theanswerengine.ai/about' }],
   openGraph: {
     title: 'Is Paying for SEO a Waste of Money Now?',
     description:
@@ -30,7 +30,7 @@ export const metadata: Metadata = {
     siteName: 'The Answer Engine',
     type: 'article',
     publishedTime: '2026-03-27T00:00:00Z',
-    authors: ['The Answer Engine Team'],
+    authors: ['https://theanswerengine.ai/about'],
     images: [
       {
         url: 'https://theanswerengine.ai/blog/is-paying-for-seo-a-waste-of-money-in-the-ai-era.webp',
@@ -71,9 +71,18 @@ const jsonLd = {
         height: 630,
       },
       author: {
-        '@type': 'Organization',
-        name: 'The Answer Engine',
-        url: 'https://theanswerengine.ai',
+        '@type': 'Person',
+        '@id': 'https://theanswerengine.ai/about#justin-borges',
+        name: 'Justin Borges',
+        jobTitle: 'Founder, The Answer Engine',
+        worksFor: {
+          '@type': 'Organization',
+          name: 'The Answer Engine',
+          url: 'https://theanswerengine.ai',
+        },
+        knowsAbout: ['Answer Engine Optimization', 'AI Search', 'Content Strategy', 'Real Estate Marketing', 'Citation Surface'],
+        url: 'https://theanswerengine.ai/about',
+        image: 'https://theanswerengine.ai/justin-borges.webp',
       },
       publisher: {
         '@type': 'Organization',
@@ -187,9 +196,9 @@ const jsonLd = {
 function Breadcrumb() {
   return (
     <nav className="flex items-center gap-2 text-sm text-gray-500 mb-8">
-      <Link href="/" className="hover:text-[#FF6A00] transition-colors">Home</Link>
+      <Link href="/" className="hover:text-[#F27D24] transition-colors">Home</Link>
       <span>/</span>
-      <Link href="/blog" className="hover:text-[#FF6A00] transition-colors">Blog</Link>
+      <Link href="/blog" className="hover:text-[#F27D24] transition-colors">Blog</Link>
       <span>/</span>
       <span className="text-gray-400">Is Paying for SEO a Waste of Money Now?</span>
     </nav>
@@ -221,20 +230,20 @@ export default function BlogPost() {
             fill="none"
             aria-hidden="true"
           >
-            <line x1="0" y1="80" x2="800" y2="80" stroke="#FF6A00" strokeWidth="0.4" />
-            <line x1="0" y1="160" x2="800" y2="160" stroke="#FF6A00" strokeWidth="0.4" />
-            <line x1="0" y1="240" x2="800" y2="240" stroke="#FF6A00" strokeWidth="0.4" />
-            <line x1="0" y1="320" x2="800" y2="320" stroke="#FF6A00" strokeWidth="0.4" />
-            <line x1="160" y1="0" x2="160" y2="400" stroke="#FF6A00" strokeWidth="0.4" />
-            <line x1="320" y1="0" x2="320" y2="400" stroke="#FF6A00" strokeWidth="0.4" />
-            <line x1="480" y1="0" x2="480" y2="400" stroke="#FF6A00" strokeWidth="0.4" />
-            <line x1="640" y1="0" x2="640" y2="400" stroke="#FF6A00" strokeWidth="0.4" />
-            <circle cx="400" cy="200" r="120" stroke="#FF6A00" strokeWidth="0.8" />
-            <circle cx="400" cy="200" r="60" stroke="#FF6A00" strokeWidth="1.2" />
-            <path d="M280 200 L520 200" stroke="#FF6A00" strokeWidth="0.6" />
-            <path d="M400 80 L400 320" stroke="#FF6A00" strokeWidth="0.6" />
-            <path d="M0 0 L60 0 L60 60" stroke="#FF6A00" strokeWidth="0.6" fill="none" />
-            <path d="M800 400 L740 400 L740 340" stroke="#FF6A00" strokeWidth="0.6" fill="none" />
+            <line x1="0" y1="80" x2="800" y2="80" stroke="#F27D24" strokeWidth="0.4" />
+            <line x1="0" y1="160" x2="800" y2="160" stroke="#F27D24" strokeWidth="0.4" />
+            <line x1="0" y1="240" x2="800" y2="240" stroke="#F27D24" strokeWidth="0.4" />
+            <line x1="0" y1="320" x2="800" y2="320" stroke="#F27D24" strokeWidth="0.4" />
+            <line x1="160" y1="0" x2="160" y2="400" stroke="#F27D24" strokeWidth="0.4" />
+            <line x1="320" y1="0" x2="320" y2="400" stroke="#F27D24" strokeWidth="0.4" />
+            <line x1="480" y1="0" x2="480" y2="400" stroke="#F27D24" strokeWidth="0.4" />
+            <line x1="640" y1="0" x2="640" y2="400" stroke="#F27D24" strokeWidth="0.4" />
+            <circle cx="400" cy="200" r="120" stroke="#F27D24" strokeWidth="0.8" />
+            <circle cx="400" cy="200" r="60" stroke="#F27D24" strokeWidth="1.2" />
+            <path d="M280 200 L520 200" stroke="#F27D24" strokeWidth="0.6" />
+            <path d="M400 80 L400 320" stroke="#F27D24" strokeWidth="0.6" />
+            <path d="M0 0 L60 0 L60 60" stroke="#F27D24" strokeWidth="0.6" fill="none" />
+            <path d="M800 400 L740 400 L740 340" stroke="#F27D24" strokeWidth="0.6" fill="none" />
           </svg>
           <div className="relative px-8 py-16 sm:px-12 sm:py-20">
             <p className="text-sm font-medium text-orange-400 mb-4">
@@ -248,7 +257,7 @@ export default function BlogPost() {
               <span>-</span>
               <span>10 min read</span>
               <span>-</span>
-              <span>The Answer Engine Team</span>
+              <span>Justin Borges</span>
             </div>
           </div>
         </div>
@@ -276,7 +285,7 @@ export default function BlogPost() {
         </div>
 
         {/* ── TABLE OF CONTENTS ── */}
-        <div className="prose prose-invert prose-lg max-w-none prose-headings:font-plus-jakarta prose-headings:text-white prose-p:text-gray-300 prose-a:text-[#FF6A00] prose-a:no-underline hover:prose-a:underline prose-strong:text-white">
+        <div className="prose prose-invert prose-lg max-w-none prose-headings:font-plus-jakarta prose-headings:text-white prose-p:text-gray-300 prose-a:text-[#F27D24] prose-a:no-underline hover:prose-a:underline prose-strong:text-white">
 
           <nav className="ae-toc not-prose" aria-label="Table of contents">
             <div className="ae-toc-title">In This Article</div>
@@ -676,13 +685,18 @@ export default function BlogPost() {
           </div>
 
           {/* ── AUTHOR CARD ── */}
-          <div className="ae-author-card not-prose">
-            <div className="ae-author-avatar">AE</div>
-            <div>
-              <div className="ae-author-name">The Answer Engine Team</div>
-              <div className="ae-author-role">We help local service businesses become the answer when customers ask AI for recommendations. Specializing in AI visibility optimization across ChatGPT, Google AI, Perplexity, and Claude.</div>
+          <div className="ae-author-card">
+              <img
+                src="/justin-borges.webp"
+                alt="Justin Borges, Founder of The Answer Engine"
+                style={{ width: 64, height: 64, borderRadius: '50%', objectFit: 'cover', flexShrink: 0 }}
+              />
+              <div>
+                <div className="ae-author-name" style={{ fontWeight: 600 }}>Justin Borges</div>
+                <div className="ae-author-role" style={{ fontWeight: 400 }}>Founder, The Answer Engine</div>
+                <p style={{ marginTop: 8, fontSize: '0.875rem', color: 'rgba(255,255,255,0.65)', lineHeight: 1.6 }}>Justin Borges founded The Answer Engine in 2025 after 13+ years in real estate, $200M+ in production, and discovering that AI search rankings now decide who gets cited as the answer. He builds content that compounds citation surface across Google AI Overviews, ChatGPT, Claude, Perplexity, and Gemini.</p>
+              </div>
             </div>
-          </div>
 
           {/* ── FAQ SECTION ── */}
           <span className="ae-section-label" id="faq">FAQ</span>

@@ -164,8 +164,8 @@ html {
 
 /* Territory card orange glow pulse */
 @keyframes orange-pulse {
-  0%, 100% { box-shadow: 0 0 0 0 rgba(255, 106, 0, 0); }
-  50% { box-shadow: 0 0 20px 4px rgba(255, 106, 0, 0.15); }
+  0%, 100% { box-shadow: 0 0 0 0 rgba(242, 125, 36, 0); }
+  50% { box-shadow: 0 0 20px 4px rgba(242, 125, 36, 0.15); }
 }
 
 .animate-orange-pulse {
@@ -438,7 +438,7 @@ button:focus-visible, a:focus-visible {
 }
 
 /* ═══════════════════════════════════════════════════════════════
-   CHAMPIONSHIP FORMAT — Dark Theme (#0F1117 bg, #FF6A00 accent)
+   CHAMPIONSHIP FORMAT — Dark Theme (#0F1117 bg, #F27D24 accent)
    ═══════════════════════════════════════════════════════════════ */
 
 /* ===== STATS GRID ===== */
@@ -461,9 +461,9 @@ button:focus-visible, a:focus-visible {
 }
 .ae-stat-card:hover {
   background: rgba(255,255,255,0.06);
-  border-color: rgba(255,106,0,0.3);
+  border-color: rgba(242,125,36,0.3);
   transform: translateY(-2px);
-  box-shadow: 0 8px 24px rgba(255,106,0,0.08);
+  box-shadow: 0 8px 24px rgba(242,125,36,0.08);
 }
 .ae-stat-emoji { font-size: 1.5rem; margin-bottom: 8px; }
 .ae-stat-value {
@@ -472,7 +472,7 @@ button:focus-visible, a:focus-visible {
   color: white;
   line-height: 1.2;
 }
-.ae-stat-value.ae-accent { color: #FF6A00; }
+.ae-stat-value.ae-accent { color: #F27D24; }
 .ae-stat-label {
   font-size: 0.7rem;
   font-weight: 600;
@@ -525,10 +525,10 @@ button:focus-visible, a:focus-visible {
 }
 .ae-callout-danger .ae-callout-title { color: rgba(255,80,80,0.9); }
 .ae-callout-orange {
-  background: rgba(255,106,0,0.12);
-  border-color: rgba(255,106,0,0.6);
+  background: rgba(242,125,36,0.12);
+  border-color: rgba(242,125,36,0.6);
 }
-.ae-callout-orange .ae-callout-title { color: #FF6A00; }
+.ae-callout-orange .ae-callout-title { color: #F27D24; }
 
 /* ===== COMPARISON TABLE ===== */
 .ae-comparison-table {
@@ -539,15 +539,15 @@ button:focus-visible, a:focus-visible {
   overflow: hidden;
 }
 .ae-comparison-table thead th {
-  background: rgba(255,106,0,0.15);
-  color: #FF6A00;
+  background: rgba(242,125,36,0.15);
+  color: #F27D24;
   font-size: 0.78rem;
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 0.06em;
   padding: 14px 16px;
   text-align: left;
-  border-bottom: 2px solid rgba(255,106,0,0.3);
+  border-bottom: 2px solid rgba(242,125,36,0.3);
 }
 .ae-comparison-table tbody td {
   padding: 12px 16px;
@@ -573,7 +573,7 @@ button:focus-visible, a:focus-visible {
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 0.06em;
-  color: #FF6A00;
+  color: #F27D24;
   padding: 16px 20px;
   border-bottom: 1px solid rgba(255,255,255,0.08);
 }
@@ -598,7 +598,7 @@ button:focus-visible, a:focus-visible {
   display: flex;
   align-items: center;
   padding: 0 12px;
-  color: #FF6A00;
+  color: #F27D24;
   font-size: 1.2rem;
 }
 
@@ -645,29 +645,29 @@ button:focus-visible, a:focus-visible {
 /* ===== CHEAT SHEET ===== */
 .ae-cheat-sheet {
   margin: 28px 0;
-  background: rgba(255,106,0,0.04);
-  border: 1px solid rgba(255,106,0,0.15);
+  background: rgba(242,125,36,0.04);
+  border: 1px solid rgba(242,125,36,0.15);
   border-radius: 0;
   overflow: hidden;
 }
 .ae-cheat-sheet-title {
-  background: rgba(255,106,0,0.1);
-  color: #FF6A00;
+  background: rgba(242,125,36,0.1);
+  color: #F27D24;
   font-size: 0.82rem;
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 0.06em;
   padding: 14px 20px;
-  border-bottom: 1px solid rgba(255,106,0,0.15);
+  border-bottom: 1px solid rgba(242,125,36,0.15);
 }
 .ae-cheat-sheet table { width: 100%; border-collapse: collapse; }
 .ae-cheat-sheet th {
   text-align: left;
   padding: 12px 20px;
-  color: #FF6A00;
+  color: #F27D24;
   font-size: 0.82rem;
   font-weight: 700;
-  border-bottom: 1px solid rgba(255,106,0,0.1);
+  border-bottom: 1px solid rgba(242,125,36,0.1);
 }
 .ae-cheat-sheet td {
   padding: 10px 20px;
@@ -704,7 +704,7 @@ button:focus-visible, a:focus-visible {
 .ae-dollar-price {
   font-size: 1.8rem;
   font-weight: 800;
-  color: #FF6A00;
+  color: #F27D24;
 }
 .ae-dollar-note {
   font-size: 0.82rem;
@@ -722,7 +722,7 @@ button:focus-visible, a:focus-visible {
   text-transform: uppercase;
   letter-spacing: 0.06em;
 }
-.ae-tier-premium { background: rgba(255,106,0,0.15); color: #FF6A00; }
+.ae-tier-premium { background: rgba(242,125,36,0.15); color: #F27D24; }
 .ae-tier-standard { background: rgba(100,150,255,0.15); color: rgba(100,150,255,0.9); }
 .ae-tier-basic { background: rgba(255,255,255,0.08); color: rgba(255,255,255,0.6); }
 
@@ -750,14 +750,14 @@ button:focus-visible, a:focus-visible {
 .ae-bar-fill {
   height: 100%;
   border-radius: 12px;
-  background: linear-gradient(90deg, #FF6A00, rgba(255,106,0,0.7));
+  background: linear-gradient(90deg, #F27D24, rgba(242,125,36,0.7));
   transition: width 0.6s cubic-bezier(0.4,0,0.2,1);
 }
 .ae-bar-value {
   min-width: 40px;
   font-size: 0.85rem;
   font-weight: 700;
-  color: #FF6A00;
+  color: #F27D24;
   text-align: right;
 }
 
@@ -766,8 +766,8 @@ button:focus-visible, a:focus-visible {
   margin: 32px 0;
   padding: 28px;
   border-radius: 0;
-  background: linear-gradient(135deg, rgba(255,106,0,0.1), transparent);
-  border: 1px solid rgba(255,106,0,0.2);
+  background: linear-gradient(135deg, rgba(242,125,36,0.1), transparent);
+  border: 1px solid rgba(242,125,36,0.2);
 }
 .ae-cta-block h3 { color: white; font-size: 1.25rem; font-weight: 700; margin-bottom: 8px; }
 .ae-cta-block p { color: rgba(255,255,255,0.6); font-size: 0.95rem; margin-bottom: 16px; }
@@ -775,7 +775,7 @@ button:focus-visible, a:focus-visible {
   display: inline-flex;
   align-items: center;
   gap: 8px;
-  background: #FF6A00;
+  background: #F27D24;
   color: white;
   font-weight: 600;
   padding: 12px 24px;
@@ -783,7 +783,7 @@ button:focus-visible, a:focus-visible {
   text-decoration: none;
   transition: background 0.2s;
 }
-.ae-cta-primary:hover { background: #e55f00; }
+.ae-cta-primary:hover { background: #D96416; }
 .ae-cta-secondary {
   display: inline-flex;
   align-items: center;
@@ -803,8 +803,8 @@ button:focus-visible, a:focus-visible {
 .ae-cta-inline {
   margin: 24px 0;
   padding: 16px 20px;
-  background: rgba(255,106,0,0.04);
-  border: 1px solid rgba(255,106,0,0.12);
+  background: rgba(242,125,36,0.04);
+  border: 1px solid rgba(242,125,36,0.12);
   border-radius: 0;
   display: flex;
   align-items: center;
@@ -814,7 +814,7 @@ button:focus-visible, a:focus-visible {
 }
 .ae-cta-inline p { color: rgba(255,255,255,0.7); font-size: 0.92rem; margin: 0; flex: 1; }
 .ae-cta-inline a {
-  color: #FF6A00;
+  color: #F27D24;
   font-weight: 600;
   font-size: 0.92rem;
   text-decoration: none;
@@ -827,8 +827,8 @@ button:focus-visible, a:focus-visible {
   margin: 48px 0 32px;
   padding: 40px 32px;
   border-radius: 0;
-  background: linear-gradient(135deg, rgba(255,106,0,0.12), rgba(255,106,0,0.04));
-  border: 2px solid rgba(255,106,0,0.25);
+  background: linear-gradient(135deg, rgba(242,125,36,0.12), rgba(242,125,36,0.04));
+  border: 2px solid rgba(242,125,36,0.25);
   text-align: center;
   position: relative;
   overflow: hidden;
@@ -839,7 +839,7 @@ button:focus-visible, a:focus-visible {
   inset: -2px;
   border-radius: 0;
   border: 2px solid transparent;
-  background: linear-gradient(135deg, #FF6A00, transparent, #FF6A00) border-box;
+  background: linear-gradient(135deg, #F27D24, transparent, #F27D24) border-box;
   mask: linear-gradient(#fff 0 0) padding-box, linear-gradient(#fff 0 0);
   mask-composite: exclude;
   animation: ae-pulse-glow 3s ease-in-out infinite;
@@ -869,11 +869,11 @@ button:focus-visible, a:focus-visible {
   width: 64px;
   height: 64px;
   border-radius: 50%;
-  background: rgba(255,106,0,0.15);
+  background: rgba(242,125,36,0.15);
   display: flex;
   align-items: center;
   justify-content: center;
-  color: #FF6A00;
+  color: #F27D24;
   font-weight: 800;
   font-size: 1.25rem;
   flex-shrink: 0;
@@ -894,7 +894,7 @@ button:focus-visible, a:focus-visible {
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 0.08em;
-  color: #FF6A00;
+  color: #F27D24;
   margin-bottom: 14px;
 }
 .ae-toc ol { list-style: none; counter-reset: toc-counter; padding: 0; margin: 0; }
@@ -907,8 +907,8 @@ button:focus-visible, a:focus-visible {
   width: 22px;
   height: 22px;
   border-radius: 50%;
-  background: rgba(255,106,0,0.12);
-  color: #FF6A00;
+  background: rgba(242,125,36,0.12);
+  color: #F27D24;
   font-size: 0.72rem;
   font-weight: 700;
   margin-right: 10px;
@@ -920,13 +920,13 @@ button:focus-visible, a:focus-visible {
   font-weight: 500;
   transition: color 0.2s;
 }
-.ae-toc a:hover { color: #FF6A00; }
+.ae-toc a:hover { color: #F27D24; }
 
 /* ===== TIMELINE ===== */
 .ae-timeline {
   margin: 28px 0;
   padding-left: 28px;
-  border-left: 2px solid rgba(255,106,0,0.2);
+  border-left: 2px solid rgba(242,125,36,0.2);
 }
 .ae-timeline-item {
   position: relative;
@@ -941,7 +941,7 @@ button:focus-visible, a:focus-visible {
   width: 12px;
   height: 12px;
   border-radius: 50%;
-  background: #FF6A00;
+  background: #F27D24;
   border: 3px solid #0F1117;
 }
 .ae-timeline-step {
@@ -949,7 +949,7 @@ button:focus-visible, a:focus-visible {
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 0.06em;
-  color: #FF6A00;
+  color: #F27D24;
   margin-bottom: 4px;
 }
 .ae-timeline-title {
@@ -968,8 +968,8 @@ button:focus-visible, a:focus-visible {
 .ae-quote {
   margin: 28px 0;
   padding: 20px 24px;
-  border-left: 4px solid #FF6A00;
-  background: rgba(255,106,0,0.04);
+  border-left: 4px solid #F27D24;
+  background: rgba(242,125,36,0.04);
   border-radius: 0;
 }
 .ae-quote p {
@@ -991,8 +991,8 @@ button:focus-visible, a:focus-visible {
 .ae-takeaway {
   margin: 28px 0;
   padding: 20px 24px;
-  background: rgba(255,106,0,0.06);
-  border: 1px solid rgba(255,106,0,0.15);
+  background: rgba(242,125,36,0.06);
+  border: 1px solid rgba(242,125,36,0.15);
   border-radius: 0;
 }
 .ae-takeaway-title {
@@ -1000,7 +1000,7 @@ button:focus-visible, a:focus-visible {
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 0.06em;
-  color: #FF6A00;
+  color: #F27D24;
   margin-bottom: 8px;
 }
 .ae-takeaway p { color: rgba(255,255,255,0.85); font-size: 0.95rem; margin: 0; line-height: 1.7; }
@@ -1008,8 +1008,8 @@ button:focus-visible, a:focus-visible {
 /* ===== SECTION LABEL ===== */
 .ae-section-label {
   display: inline-block;
-  background: rgba(255,106,0,0.1);
-  color: #FF6A00;
+  background: rgba(242,125,36,0.1);
+  color: #F27D24;
   font-size: 0.72rem;
   font-weight: 700;
   text-transform: uppercase;

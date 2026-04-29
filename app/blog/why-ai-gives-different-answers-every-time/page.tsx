@@ -42,7 +42,20 @@ export default function WhyAIDifferentAnswers() {
         "image": "https://theanswerengine.ai/images/ai-consistency-local-business-2025.png",
         "datePublished": "2025-04-04",
         "dateModified": "2025-04-04",
-        "author": { "@type": "Person", "name": "JB" },
+        "author": {
+          "@type": "Person",
+          "@id": "https://theanswerengine.ai/about#justin-borges",
+          "name": "Justin Borges",
+          "jobTitle": "Founder, The Answer Engine",
+          "worksFor": {
+            "@type": "Organization",
+            "name": "The Answer Engine",
+            "url": "https://theanswerengine.ai"
+          },
+          "knowsAbout": ["Answer Engine Optimization", "AI Search", "Content Strategy", "Real Estate Marketing", "Citation Surface"],
+          "url": "https://theanswerengine.ai/about",
+          "image": "https://theanswerengine.ai/justin-borges.webp"
+        },
         "publisher": { "@type": "Organization", "name": "The Answer Engine" }
       },
       {
@@ -65,6 +78,20 @@ export default function WhyAIDifferentAnswers() {
         id="aeo-consistency-schema"
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
+      />
+      <Script
+        id="aeo-consistency-breadcrumb"
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify({
+          '@context': 'https://schema.org',
+          '@type': 'BreadcrumbList',
+          '@id': 'https://www.theanswerengine.ai/blog/why-ai-gives-different-answers-every-time#breadcrumb',
+          itemListElement: [
+            { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://www.theanswerengine.ai' },
+            { '@type': 'ListItem', position: 2, name: 'Blog', item: 'https://www.theanswerengine.ai/blog' },
+            { '@type': 'ListItem', position: 3, name: 'Why AI Gives Different Answers Every Time You Ask', item: 'https://www.theanswerengine.ai/blog/why-ai-gives-different-answers-every-time' },
+          ],
+        }) }}
       />
       <article style={{ maxWidth: '900px', margin: '0 auto', padding: '40px 20px', fontFamily: 'system-ui' }}>
         <h1>Why AI Gives Different Answers Every Time You Ask</h1>

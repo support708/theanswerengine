@@ -31,7 +31,7 @@ export const metadata: Metadata = {
     description,
     type: 'article',
     publishedTime: publishDate,
-    authors: ['The Answer Engine Team'],
+    authors: ['https://theanswerengine.ai/about'],
     url: `https://theanswerengine.ai/blog/${slug}`,
     images: [
       {
@@ -64,9 +64,18 @@ const jsonLd = {
       datePublished: publishDate,
       dateModified: publishDate,
       author: {
-        '@type': 'Organization',
-        name: 'The Answer Engine',
-        url: 'https://theanswerengine.ai',
+        '@type': 'Person',
+        '@id': 'https://theanswerengine.ai/about#justin-borges',
+        name: 'Justin Borges',
+        jobTitle: 'Founder, The Answer Engine',
+        worksFor: {
+          '@type': 'Organization',
+          name: 'The Answer Engine',
+          url: 'https://theanswerengine.ai',
+        },
+        knowsAbout: ['Answer Engine Optimization', 'AI Search', 'Content Strategy', 'Real Estate Marketing', 'Citation Surface'],
+        url: 'https://theanswerengine.ai/about',
+        image: 'https://theanswerengine.ai/justin-borges.webp',
       },
       publisher: {
         '@type': 'Organization',
@@ -232,7 +241,7 @@ export default function Page() {
                 <path
                   d="M 40 0 L 0 0 0 40"
                   fill="none"
-                  stroke="#FF6A00"
+                  stroke="#F27D24"
                   strokeWidth="0.5"
                 />
               </pattern>
@@ -248,7 +257,7 @@ export default function Page() {
               <span
                 style={{
                   backgroundColor: 'rgba(255, 106, 0, 0.15)',
-                  color: '#FF6A00',
+                  color: '#F27D24',
                   border: '1px solid rgba(255, 106, 0, 0.3)',
                 }}
                 className="text-xs font-semibold uppercase tracking-widest px-3 py-1 rounded-full"
@@ -262,7 +271,7 @@ export default function Page() {
               style={{ color: '#FFFFFF' }}
             >
               Traditional Marketing vs{' '}
-              <span style={{ color: '#FF6A00' }}>AI Visibility</span>
+              <span style={{ color: '#F27D24' }}>AI Visibility</span>
               <br />
               What Actually Works in 2026
             </h1>
@@ -277,13 +286,13 @@ export default function Page() {
             {/* Author + date row */}
             <div className="flex items-center gap-4 text-sm text-gray-500">
               <div
-                style={{ backgroundColor: '#FF6A00' }}
+                style={{ backgroundColor: '#F27D24' }}
                 className="w-9 h-9 rounded-full flex items-center justify-center font-bold text-white text-sm"
               >
                 AE
               </div>
               <div>
-                <span className="text-gray-300 font-medium">The Answer Engine Team</span>
+                <span className="text-gray-300 font-medium">Justin Borges</span>
                 <span className="mx-2">·</span>
                 <time dateTime={publishDate} className="text-gray-500">
                   March 29, 2026
@@ -309,7 +318,7 @@ export default function Page() {
             >
               <div
                 className="font-plus-jakarta text-4xl font-extrabold mb-1"
-                style={{ color: '#FF6A00' }}
+                style={{ color: '#F27D24' }}
               >
                 37%
               </div>
@@ -328,7 +337,7 @@ export default function Page() {
             >
               <div
                 className="font-plus-jakarta text-4xl font-extrabold mb-1"
-                style={{ color: '#FF6A00' }}
+                style={{ color: '#F27D24' }}
               >
                 4.4x
               </div>
@@ -347,7 +356,7 @@ export default function Page() {
             >
               <div
                 className="font-plus-jakarta text-4xl font-extrabold mb-1"
-                style={{ color: '#FF6A00' }}
+                style={{ color: '#F27D24' }}
               >
                 25%
               </div>
@@ -366,7 +375,7 @@ export default function Page() {
             >
               <div
                 className="font-plus-jakarta text-4xl font-extrabold mb-1"
-                style={{ color: '#FF6A00' }}
+                style={{ color: '#F27D24' }}
               >
                 11%+
               </div>
@@ -388,7 +397,7 @@ export default function Page() {
           >
             <h2
               className="font-plus-jakarta text-lg font-bold mb-4"
-              style={{ color: '#FF6A00' }}
+              style={{ color: '#F27D24' }}
             >
               In This Article
             </h2>
@@ -592,7 +601,7 @@ export default function Page() {
             >
               <div className="flex-1">
                 <p className="text-sm text-gray-300">
-                  <span style={{ color: '#FF6A00' }} className="font-semibold">
+                  <span style={{ color: '#F27D24' }} className="font-semibold">
                     Is your business invisible to AI?
                   </span>{' '}
                   Find out in 5 minutes with a free AI Blind Spot Audit.
@@ -601,7 +610,7 @@ export default function Page() {
               <a
                 href="/blindspot"
                 style={{
-                  backgroundColor: '#FF6A00',
+                  backgroundColor: '#F27D24',
                   color: '#FFFFFF',
                 }}
                 className="text-sm font-semibold px-4 py-2 rounded-lg whitespace-nowrap hover:opacity-90 transition-opacity"
@@ -692,14 +701,14 @@ export default function Page() {
               <div className="flex flex-col sm:flex-row gap-3">
                 <Link
                   href="/blog/hidden-cost-ignoring-ai-search"
-                  style={{ color: '#FF6A00' }}
+                  style={{ color: '#F27D24' }}
                   className="text-sm font-medium hover:underline"
                 >
                   The Hidden Cost of Ignoring AI Search →
                 </Link>
                 <Link
                   href="/blog/ai-search-vs-google-maps-which-one-sends-more-customers"
-                  style={{ color: '#FF6A00' }}
+                  style={{ color: '#F27D24' }}
                   className="text-sm font-medium hover:underline"
                 >
                   AI Search vs Google Maps: Who Sends More Customers →
@@ -717,7 +726,7 @@ export default function Page() {
             >
               <div className="flex-1">
                 <p className="text-sm text-gray-300">
-                  <span style={{ color: '#FF6A00' }} className="font-semibold">
+                  <span style={{ color: '#F27D24' }} className="font-semibold">
                     Curious what AI says about your business right now?
                   </span>{' '}
                   Talk to a visibility specialist.
@@ -725,7 +734,7 @@ export default function Page() {
               </div>
               <a
                 href="tel:+12134442229"
-                style={{ color: '#FF6A00' }}
+                style={{ color: '#F27D24' }}
                 className="text-sm font-semibold whitespace-nowrap hover:underline"
               >
                 Call (213) 444-2229
@@ -812,7 +821,7 @@ export default function Page() {
                   className="text-xs font-medium px-2 py-1 rounded"
                   style={{
                     backgroundColor: 'rgba(255,106,0,0.1)',
-                    color: '#FF6A00',
+                    color: '#F27D24',
                     display: 'inline-block',
                   }}
                 >
@@ -868,7 +877,7 @@ export default function Page() {
                 <div>
                   <h3
                     className="font-plus-jakarta font-bold text-lg mb-2"
-                    style={{ color: '#FF6A00' }}
+                    style={{ color: '#F27D24' }}
                   >
                     The Stage That Determines Whether You Win or Lose
                   </h3>
@@ -893,7 +902,7 @@ export default function Page() {
             >
               <div className="flex-1">
                 <p className="text-sm text-gray-300">
-                  <span style={{ color: '#FF6A00' }} className="font-semibold">
+                  <span style={{ color: '#F27D24' }} className="font-semibold">
                     See exactly where your business stands in Stage 2.
                   </span>{' '}
                   We audit ChatGPT, Perplexity, Gemini, and more.
@@ -901,7 +910,7 @@ export default function Page() {
               </div>
               <a
                 href="mailto:support@theanswerengine.ai"
-                style={{ color: '#FF6A00' }}
+                style={{ color: '#F27D24' }}
                 className="text-sm font-semibold whitespace-nowrap hover:underline"
               >
                 Email Us
@@ -937,7 +946,7 @@ export default function Page() {
                   >
                     <th
                       className="text-left p-4 font-plus-jakarta font-semibold"
-                      style={{ color: '#FF6A00' }}
+                      style={{ color: '#F27D24' }}
                     >
                       Dimension
                     </th>
@@ -955,7 +964,7 @@ export default function Page() {
                     </th>
                     <th
                       className="text-left p-4 font-plus-jakarta font-semibold"
-                      style={{ color: '#FF6A00' }}
+                      style={{ color: '#F27D24' }}
                     >
                       AI Search Visibility
                     </th>
@@ -1023,7 +1032,7 @@ export default function Page() {
                       <td className="p-4 text-gray-400">{row.ooh}</td>
                       <td
                         className="p-4 font-medium"
-                        style={{ color: '#FF6A00' }}
+                        style={{ color: '#F27D24' }}
                       >
                         {row.ai}
                       </td>
@@ -1043,7 +1052,7 @@ export default function Page() {
             >
               <div className="flex-1">
                 <p className="text-sm text-gray-300">
-                  <span style={{ color: '#FF6A00' }} className="font-semibold">
+                  <span style={{ color: '#F27D24' }} className="font-semibold">
                     Not sure how to read this for your specific industry?
                   </span>{' '}
                   We build channel-specific visibility strategies every week.
@@ -1052,7 +1061,7 @@ export default function Page() {
               <a
                 href="/blindspot"
                 style={{
-                  backgroundColor: '#FF6A00',
+                  backgroundColor: '#F27D24',
                   color: '#FFFFFF',
                 }}
                 className="text-sm font-semibold px-4 py-2 rounded-lg whitespace-nowrap hover:opacity-90 transition-opacity"
@@ -1169,7 +1178,7 @@ export default function Page() {
             >
               <div className="flex-1">
                 <p className="text-sm text-gray-300">
-                  <span style={{ color: '#FF6A00' }} className="font-semibold">
+                  <span style={{ color: '#F27D24' }} className="font-semibold">
                     Want to know exactly what ChatGPT says about your business today?
                   </span>{' '}
                   We run the audit and show you the exact gap.
@@ -1177,7 +1186,7 @@ export default function Page() {
               </div>
               <a
                 href="tel:+12134442229"
-                style={{ color: '#FF6A00' }}
+                style={{ color: '#F27D24' }}
                 className="text-sm font-semibold whitespace-nowrap hover:underline"
               >
                 Call (213) 444-2229
@@ -1211,7 +1220,7 @@ export default function Page() {
                   <tr style={{ borderBottom: '1px solid rgba(255,255,255,0.1)' }}>
                     <th
                       className="text-left p-4 font-plus-jakarta font-semibold"
-                      style={{ color: '#FF6A00' }}
+                      style={{ color: '#F27D24' }}
                     >
                       Business Situation
                     </th>
@@ -1223,7 +1232,7 @@ export default function Page() {
                     </th>
                     <th
                       className="text-left p-4 font-plus-jakarta font-semibold"
-                      style={{ color: '#FF6A00' }}
+                      style={{ color: '#F27D24' }}
                     >
                       AI Visibility Priority
                     </th>
@@ -1283,7 +1292,7 @@ export default function Page() {
                     >
                       <td className="p-4 text-white font-medium">{row.situation}</td>
                       <td className="p-4 text-gray-400">{row.traditional}</td>
-                      <td className="p-4 font-medium" style={{ color: '#FF6A00' }}>{row.ai}</td>
+                      <td className="p-4 font-medium" style={{ color: '#F27D24' }}>{row.ai}</td>
                       <td className="p-4 text-gray-400">{row.mix}</td>
                     </tr>
                   ))}
@@ -1330,7 +1339,7 @@ export default function Page() {
             >
               <div className="flex-1">
                 <p className="text-sm text-gray-300">
-                  <span style={{ color: '#FF6A00' }} className="font-semibold">
+                  <span style={{ color: '#F27D24' }} className="font-semibold">
                     Not sure which row describes your business?
                   </span>{' '}
                   We'll map it out in a free consultation.
@@ -1339,7 +1348,7 @@ export default function Page() {
               <a
                 href="mailto:support@theanswerengine.ai"
                 style={{
-                  backgroundColor: '#FF6A00',
+                  backgroundColor: '#F27D24',
                   color: '#FFFFFF',
                 }}
                 className="text-sm font-semibold px-4 py-2 rounded-lg whitespace-nowrap hover:opacity-90 transition-opacity"
@@ -1437,7 +1446,7 @@ export default function Page() {
             >
               <div className="flex-1">
                 <p className="text-sm text-gray-300">
-                  <span style={{ color: '#FF6A00' }} className="font-semibold">
+                  <span style={{ color: '#F27D24' }} className="font-semibold">
                     We handle all six of these signal categories.
                   </span>{' '}
                   See which ones your business is missing.
@@ -1446,7 +1455,7 @@ export default function Page() {
               <a
                 href="/blindspot"
                 style={{
-                  backgroundColor: '#FF6A00',
+                  backgroundColor: '#F27D24',
                   color: '#FFFFFF',
                 }}
                 className="text-sm font-semibold px-4 py-2 rounded-lg whitespace-nowrap hover:opacity-90 transition-opacity"
@@ -1529,8 +1538,8 @@ export default function Page() {
                       className="w-8 h-8 rounded-full flex items-center justify-center text-sm font-bold flex-shrink-0"
                       style={{
                         backgroundColor: i === 3 ? 'rgba(255,106,0,0.2)' : 'rgba(255,255,255,0.05)',
-                        border: i === 3 ? '1px solid #FF6A00' : '1px solid rgba(255,255,255,0.1)',
-                        color: i === 3 ? '#FF6A00' : '#9CA3AF',
+                        border: i === 3 ? '1px solid #F27D24' : '1px solid rgba(255,255,255,0.1)',
+                        color: i === 3 ? '#F27D24' : '#9CA3AF',
                       }}
                     >
                       {item.step}
@@ -1538,7 +1547,7 @@ export default function Page() {
                     <div>
                       <span
                         className="text-xs font-semibold uppercase tracking-widest"
-                        style={{ color: i === 3 ? '#FF6A00' : '#6B7280' }}
+                        style={{ color: i === 3 ? '#F27D24' : '#6B7280' }}
                       >
                         {item.label}
                       </span>
@@ -1559,7 +1568,7 @@ export default function Page() {
             >
               <div className="flex-1">
                 <p className="text-sm text-gray-300">
-                  <span style={{ color: '#FF6A00' }} className="font-semibold">
+                  <span style={{ color: '#F27D24' }} className="font-semibold">
                     Step 4 in the example above is where most businesses lose.
                   </span>{' '}
                   We can make sure it works for you.
@@ -1567,7 +1576,7 @@ export default function Page() {
               </div>
               <a
                 href="tel:+12134442229"
-                style={{ color: '#FF6A00' }}
+                style={{ color: '#F27D24' }}
                 className="text-sm font-semibold whitespace-nowrap hover:underline"
               >
                 Call (213) 444-2229
@@ -1586,7 +1595,7 @@ export default function Page() {
             >
               <h2
                 className="font-plus-jakarta text-2xl font-bold mb-2"
-                style={{ color: '#FF6A00' }}
+                style={{ color: '#F27D24' }}
               >
                 2026 Marketing Channel Cheat Sheet
               </h2>
@@ -1642,7 +1651,7 @@ export default function Page() {
                 <div>
                   <h3
                     className="font-plus-jakarta font-bold text-sm uppercase tracking-widest mb-4"
-                    style={{ color: '#FF6A00' }}
+                    style={{ color: '#F27D24' }}
                   >
                     AI and Digital Channels
                   </h3>
@@ -1666,7 +1675,7 @@ export default function Page() {
                                 : 'rgba(234,179,8,0.15)',
                             color:
                               item.verdict === 'Invest Now'
-                                ? '#FF6A00'
+                                ? '#F27D24'
                                 : item.verdict === 'Maintain'
                                 ? '#22C55E'
                                 : '#EAB308',
@@ -1697,7 +1706,7 @@ export default function Page() {
                   <a
                     href="/blindspot"
                     style={{
-                      backgroundColor: '#FF6A00',
+                      backgroundColor: '#F27D24',
                       color: '#FFFFFF',
                     }}
                     className="text-sm font-bold px-5 py-2.5 rounded-lg hover:opacity-90 transition-opacity"
@@ -1708,7 +1717,7 @@ export default function Page() {
                     href="tel:+12134442229"
                     style={{
                       border: '1px solid rgba(255,106,0,0.4)',
-                      color: '#FF6A00',
+                      color: '#F27D24',
                     }}
                     className="text-sm font-bold px-5 py-2.5 rounded-lg hover:opacity-80 transition-opacity"
                   >
@@ -1730,7 +1739,7 @@ export default function Page() {
             >
               <p
                 className="text-xs font-semibold uppercase tracking-widest mb-3"
-                style={{ color: '#FF6A00' }}
+                style={{ color: '#F27D24' }}
               >
                 Free for Business Owners
               </p>
@@ -1752,7 +1761,7 @@ export default function Page() {
                 <a
                   href="/blindspot"
                   style={{
-                    background: 'linear-gradient(90deg, #FF6A00, #FF8C00)',
+                    background: 'linear-gradient(90deg, #F27D24, #FF8C00)',
                     color: '#FFFFFF',
                     boxShadow: '0 0 30px rgba(255,106,0,0.4)',
                   }}
@@ -1768,7 +1777,7 @@ export default function Page() {
                 <a
                   href="tel:+12134442229"
                   className="font-plus-jakarta text-2xl font-bold hover:opacity-80 transition-opacity"
-                  style={{ color: '#FF6A00' }}
+                  style={{ color: '#F27D24' }}
                 >
                   (213) 444-2229
                 </a>
@@ -1856,7 +1865,7 @@ export default function Page() {
             >
               <div className="flex-1">
                 <p className="text-sm text-gray-300">
-                  <span style={{ color: '#FF6A00' }} className="font-semibold">
+                  <span style={{ color: '#F27D24' }} className="font-semibold">
                     Have a question not answered above?
                   </span>{' '}
                   Our team responds within one business day.
@@ -1864,7 +1873,7 @@ export default function Page() {
               </div>
               <a
                 href="mailto:support@theanswerengine.ai"
-                style={{ color: '#FF6A00' }}
+                style={{ color: '#F27D24' }}
                 className="text-sm font-semibold whitespace-nowrap hover:underline"
               >
                 Ask Us Directly
@@ -1883,7 +1892,7 @@ export default function Page() {
             >
               <div
                 className="w-16 h-16 rounded-full flex items-center justify-center text-white font-bold text-xl flex-shrink-0"
-                style={{ backgroundColor: '#FF6A00' }}
+                style={{ backgroundColor: '#F27D24' }}
                 aria-hidden="true"
               >
                 AE
@@ -1893,7 +1902,7 @@ export default function Page() {
                   className="font-plus-jakarta font-bold text-base mb-1"
                   style={{ color: '#FFFFFF' }}
                 >
-                  The Answer Engine Team
+                  Justin Borges
                 </div>
                 <div className="text-xs text-gray-500 mb-3">
                   Published March 29, 2026 · Competitive Intelligence
@@ -1907,21 +1916,21 @@ export default function Page() {
                 <div className="flex flex-wrap gap-4 mt-4">
                   <a
                     href="tel:+12134442229"
-                    style={{ color: '#FF6A00' }}
+                    style={{ color: '#F27D24' }}
                     className="text-sm font-semibold hover:underline"
                   >
                     (213) 444-2229
                   </a>
                   <a
                     href="mailto:support@theanswerengine.ai"
-                    style={{ color: '#FF6A00' }}
+                    style={{ color: '#F27D24' }}
                     className="text-sm font-semibold hover:underline"
                   >
                     support@theanswerengine.ai
                   </a>
                   <a
                     href="https://theanswerengine.ai"
-                    style={{ color: '#FF6A00' }}
+                    style={{ color: '#F27D24' }}
                     className="text-sm font-semibold hover:underline"
                   >
                     theanswerengine.ai
@@ -1976,7 +1985,7 @@ export default function Page() {
                 <a
                   href="/blindspot"
                   style={{
-                    background: 'linear-gradient(90deg, #FF6A00, #FF8C00)',
+                    background: 'linear-gradient(90deg, #F27D24, #FF8C00)',
                     color: '#FFFFFF',
                     boxShadow: '0 0 40px rgba(255,106,0,0.5)',
                   }}
@@ -1988,7 +1997,7 @@ export default function Page() {
                   href="tel:+12134442229"
                   style={{
                     border: '2px solid rgba(255,106,0,0.5)',
-                    color: '#FF6A00',
+                    color: '#F27D24',
                   }}
                   className="inline-block text-base font-bold px-8 py-4 rounded-xl hover:border-orange-400 transition-colors"
                 >

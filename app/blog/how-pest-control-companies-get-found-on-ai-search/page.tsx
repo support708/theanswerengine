@@ -29,7 +29,7 @@ export const metadata: Metadata = {
     description,
     type: 'article',
     publishedTime: publishDate,
-    authors: ['The Answer Engine Team'],
+    authors: ['https://theanswerengine.ai/about'],
     url: `https://theanswerengine.ai/blog/${slug}`,
     images: [{ url: `https://theanswerengine.ai/blog/${slug}.webp`, width: 1200, height: 630, alt: title }],
   },
@@ -53,9 +53,18 @@ const jsonLd = {
       datePublished: publishDate,
       dateModified: publishDate,
       author: {
-        '@type': 'Organization',
-        name: 'The Answer Engine',
-        url: 'https://theanswerengine.ai',
+        '@type': 'Person',
+        '@id': 'https://theanswerengine.ai/about#justin-borges',
+        name: 'Justin Borges',
+        jobTitle: 'Founder, The Answer Engine',
+        worksFor: {
+          '@type': 'Organization',
+          name: 'The Answer Engine',
+          url: 'https://theanswerengine.ai',
+        },
+        knowsAbout: ['Answer Engine Optimization', 'AI Search', 'Content Strategy', 'Real Estate Marketing', 'Citation Surface'],
+        url: 'https://theanswerengine.ai/about',
+        image: 'https://theanswerengine.ai/justin-borges.webp',
       },
       publisher: {
         '@type': 'Organization',
@@ -181,78 +190,78 @@ export default function Page() {
                 <stop offset="100%" stopColor="#0F1117" />
               </radialGradient>
               <radialGradient id="pest-glow" cx="38%" cy="55%" r="40%">
-                <stop offset="0%" stopColor="#FF6A00" stopOpacity="0.13" />
-                <stop offset="100%" stopColor="#FF6A00" stopOpacity="0" />
+                <stop offset="0%" stopColor="#F27D24" stopOpacity="0.13" />
+                <stop offset="100%" stopColor="#F27D24" stopOpacity="0" />
               </radialGradient>
             </defs>
             <rect width="1200" height="400" fill="url(#pest-bg)" />
             <circle cx="380" cy="220" r="220" fill="url(#pest-glow)" />
 
             {/* House silhouette */}
-            <polygon points="160,310 160,190 230,120 300,190 300,310" fill="#1e2235" stroke="#FF6A00" strokeWidth="1.5" strokeOpacity="0.5" />
+            <polygon points="160,310 160,190 230,120 300,190 300,310" fill="#1e2235" stroke="#F27D24" strokeWidth="1.5" strokeOpacity="0.5" />
             {/* Roof ridge */}
-            <line x1="230" y1="120" x2="230" y2="118" stroke="#FF6A00" strokeWidth="1.5" strokeOpacity="0.7" />
+            <line x1="230" y1="120" x2="230" y2="118" stroke="#F27D24" strokeWidth="1.5" strokeOpacity="0.7" />
             {/* Door */}
-            <rect x="207" y="265" width="24" height="45" rx="2" fill="#141824" stroke="#FF6A00" strokeWidth="0.8" strokeOpacity="0.4" />
+            <rect x="207" y="265" width="24" height="45" rx="2" fill="#141824" stroke="#F27D24" strokeWidth="0.8" strokeOpacity="0.4" />
             {/* Window */}
-            <rect x="168" y="220" width="22" height="20" rx="2" fill="#141824" stroke="#FF6A00" strokeWidth="0.8" strokeOpacity="0.4" />
-            <line x1="179" y1="220" x2="179" y2="240" stroke="#FF6A00" strokeWidth="0.5" strokeOpacity="0.3" />
-            <line x1="168" y1="230" x2="190" y2="230" stroke="#FF6A00" strokeWidth="0.5" strokeOpacity="0.3" />
+            <rect x="168" y="220" width="22" height="20" rx="2" fill="#141824" stroke="#F27D24" strokeWidth="0.8" strokeOpacity="0.4" />
+            <line x1="179" y1="220" x2="179" y2="240" stroke="#F27D24" strokeWidth="0.5" strokeOpacity="0.3" />
+            <line x1="168" y1="230" x2="190" y2="230" stroke="#F27D24" strokeWidth="0.5" strokeOpacity="0.3" />
             {/* Window right */}
-            <rect x="270" y="220" width="22" height="20" rx="2" fill="#141824" stroke="#FF6A00" strokeWidth="0.8" strokeOpacity="0.4" />
-            <line x1="281" y1="220" x2="281" y2="240" stroke="#FF6A00" strokeWidth="0.5" strokeOpacity="0.3" />
-            <line x1="270" y1="230" x2="292" y2="230" stroke="#FF6A00" strokeWidth="0.5" strokeOpacity="0.3" />
+            <rect x="270" y="220" width="22" height="20" rx="2" fill="#141824" stroke="#F27D24" strokeWidth="0.8" strokeOpacity="0.4" />
+            <line x1="281" y1="220" x2="281" y2="240" stroke="#F27D24" strokeWidth="0.5" strokeOpacity="0.3" />
+            <line x1="270" y1="230" x2="292" y2="230" stroke="#F27D24" strokeWidth="0.5" strokeOpacity="0.3" />
 
             {/* Pest icons around the house */}
             {/* Rat - upper left */}
-            <ellipse cx="115" cy="165" rx="16" ry="10" fill="#1e2235" stroke="#FF6A00" strokeWidth="1.2" strokeOpacity="0.6" />
-            <circle cx="128" cy="160" r="6" fill="#1e2235" stroke="#FF6A00" strokeWidth="1.2" strokeOpacity="0.6" />
-            <circle cx="131" cy="158" r="1.5" fill="#FF6A00" fillOpacity="0.8" />
-            <path d="M99,168 Q90,172 88,180" stroke="#FF6A00" strokeWidth="1" fill="none" strokeOpacity="0.5" />
-            <text x="88" y="153" fill="#FF6A00" fontSize="8" fontFamily="monospace" opacity="0.7">rodent</text>
+            <ellipse cx="115" cy="165" rx="16" ry="10" fill="#1e2235" stroke="#F27D24" strokeWidth="1.2" strokeOpacity="0.6" />
+            <circle cx="128" cy="160" r="6" fill="#1e2235" stroke="#F27D24" strokeWidth="1.2" strokeOpacity="0.6" />
+            <circle cx="131" cy="158" r="1.5" fill="#F27D24" fillOpacity="0.8" />
+            <path d="M99,168 Q90,172 88,180" stroke="#F27D24" strokeWidth="1" fill="none" strokeOpacity="0.5" />
+            <text x="88" y="153" fill="#F27D24" fontSize="8" fontFamily="monospace" opacity="0.7">rodent</text>
 
             {/* Termite - lower left */}
-            <ellipse cx="105" cy="265" rx="8" ry="12" fill="#1e2235" stroke="#FF6A00" strokeWidth="1.2" strokeOpacity="0.55" />
-            <circle cx="105" cy="252" r="5" fill="#1e2235" stroke="#FF6A00" strokeWidth="1.2" strokeOpacity="0.55" />
-            <line x1="97" y1="260" x2="87" y2="255" stroke="#FF6A00" strokeWidth="0.9" strokeOpacity="0.4" />
-            <line x1="97" y1="268" x2="87" y2="270" stroke="#FF6A00" strokeWidth="0.9" strokeOpacity="0.4" />
-            <line x1="113" y1="260" x2="123" y2="255" stroke="#FF6A00" strokeWidth="0.9" strokeOpacity="0.4" />
-            <line x1="113" y1="268" x2="123" y2="270" stroke="#FF6A00" strokeWidth="0.9" strokeOpacity="0.4" />
-            <text x="82" y="283" fill="#FF6A00" fontSize="8" fontFamily="monospace" opacity="0.7">termite</text>
+            <ellipse cx="105" cy="265" rx="8" ry="12" fill="#1e2235" stroke="#F27D24" strokeWidth="1.2" strokeOpacity="0.55" />
+            <circle cx="105" cy="252" r="5" fill="#1e2235" stroke="#F27D24" strokeWidth="1.2" strokeOpacity="0.55" />
+            <line x1="97" y1="260" x2="87" y2="255" stroke="#F27D24" strokeWidth="0.9" strokeOpacity="0.4" />
+            <line x1="97" y1="268" x2="87" y2="270" stroke="#F27D24" strokeWidth="0.9" strokeOpacity="0.4" />
+            <line x1="113" y1="260" x2="123" y2="255" stroke="#F27D24" strokeWidth="0.9" strokeOpacity="0.4" />
+            <line x1="113" y1="268" x2="123" y2="270" stroke="#F27D24" strokeWidth="0.9" strokeOpacity="0.4" />
+            <text x="82" y="283" fill="#F27D24" fontSize="8" fontFamily="monospace" opacity="0.7">termite</text>
 
             {/* Wasp - upper right */}
-            <ellipse cx="340" cy="148" rx="14" ry="8" fill="#1e2235" stroke="#FF6A00" strokeWidth="1.2" strokeOpacity="0.6" />
-            <circle cx="351" cy="144" r="5" fill="#1e2235" stroke="#FF6A00" strokeWidth="1.2" strokeOpacity="0.6" />
-            <path d="M326,142 Q320,134 318,126" stroke="#FF6A00" strokeWidth="1" fill="none" strokeOpacity="0.45" />
-            <path d="M326,148 Q318,152 316,158" stroke="#FF6A00" strokeWidth="1" fill="none" strokeOpacity="0.45" />
-            <text x="320" y="130" fill="#FF6A00" fontSize="8" fontFamily="monospace" opacity="0.7">wasp</text>
+            <ellipse cx="340" cy="148" rx="14" ry="8" fill="#1e2235" stroke="#F27D24" strokeWidth="1.2" strokeOpacity="0.6" />
+            <circle cx="351" cy="144" r="5" fill="#1e2235" stroke="#F27D24" strokeWidth="1.2" strokeOpacity="0.6" />
+            <path d="M326,142 Q320,134 318,126" stroke="#F27D24" strokeWidth="1" fill="none" strokeOpacity="0.45" />
+            <path d="M326,148 Q318,152 316,158" stroke="#F27D24" strokeWidth="1" fill="none" strokeOpacity="0.45" />
+            <text x="320" y="130" fill="#F27D24" fontSize="8" fontFamily="monospace" opacity="0.7">wasp</text>
 
             {/* Cockroach - lower right */}
-            <ellipse cx="338" cy="285" rx="12" ry="8" fill="#1e2235" stroke="#FF6A00" strokeWidth="1.2" strokeOpacity="0.55" />
-            <circle cx="348" cy="280" r="4" fill="#1e2235" stroke="#FF6A00" strokeWidth="1.2" strokeOpacity="0.55" />
-            <line x1="327" y1="281" x2="318" y2="275" stroke="#FF6A00" strokeWidth="0.9" strokeOpacity="0.4" />
-            <line x1="327" y1="286" x2="317" y2="287" stroke="#FF6A00" strokeWidth="0.9" strokeOpacity="0.4" />
-            <line x1="327" y1="291" x2="318" y2="297" stroke="#FF6A00" strokeWidth="0.9" strokeOpacity="0.4" />
-            <text x="318" y="308" fill="#FF6A00" fontSize="8" fontFamily="monospace" opacity="0.7">roach</text>
+            <ellipse cx="338" cy="285" rx="12" ry="8" fill="#1e2235" stroke="#F27D24" strokeWidth="1.2" strokeOpacity="0.55" />
+            <circle cx="348" cy="280" r="4" fill="#1e2235" stroke="#F27D24" strokeWidth="1.2" strokeOpacity="0.55" />
+            <line x1="327" y1="281" x2="318" y2="275" stroke="#F27D24" strokeWidth="0.9" strokeOpacity="0.4" />
+            <line x1="327" y1="286" x2="317" y2="287" stroke="#F27D24" strokeWidth="0.9" strokeOpacity="0.4" />
+            <line x1="327" y1="291" x2="318" y2="297" stroke="#F27D24" strokeWidth="0.9" strokeOpacity="0.4" />
+            <text x="318" y="308" fill="#F27D24" fontSize="8" fontFamily="monospace" opacity="0.7">roach</text>
 
             {/* Arrow from house cluster to AI panel */}
-            <path d="M345,220 Q410,220 435,220" stroke="#FF6A00" strokeWidth="1.5" strokeDasharray="5,3" fill="none" strokeOpacity="0.55" />
-            <polygon points="434,216 442,220 434,224" fill="#FF6A00" fillOpacity="0.55" />
+            <path d="M345,220 Q410,220 435,220" stroke="#F27D24" strokeWidth="1.5" strokeDasharray="5,3" fill="none" strokeOpacity="0.55" />
+            <polygon points="434,216 442,220 434,224" fill="#F27D24" fillOpacity="0.55" />
 
             {/* AI Search panel */}
-            <rect x="450" y="130" width="340" height="170" rx="14" fill="#1e2235" stroke="#FF6A00" strokeWidth="1" strokeOpacity="0.3" />
-            <text x="470" y="158" fill="#FF6A00" fontSize="11" fontFamily="monospace" opacity="0.9">AI Search Response</text>
-            <line x1="470" y1="166" x2="770" y2="166" stroke="#FF6A00" strokeWidth="0.5" strokeOpacity="0.25" />
+            <rect x="450" y="130" width="340" height="170" rx="14" fill="#1e2235" stroke="#F27D24" strokeWidth="1" strokeOpacity="0.3" />
+            <text x="470" y="158" fill="#F27D24" fontSize="11" fontFamily="monospace" opacity="0.9">AI Search Response</text>
+            <line x1="470" y1="166" x2="770" y2="166" stroke="#F27D24" strokeWidth="0.5" strokeOpacity="0.25" />
 
             {/* Query line */}
-            <rect x="466" y="172" width="308" height="20" rx="4" fill="#141824" stroke="#FF6A00" strokeWidth="0.5" strokeOpacity="0.2" />
+            <rect x="466" y="172" width="308" height="20" rx="4" fill="#141824" stroke="#F27D24" strokeWidth="0.5" strokeOpacity="0.2" />
             <text x="474" y="185" fill="#888" fontSize="9" fontFamily="monospace">"how do I get rid of rats fast"</text>
 
             {/* Answer rows */}
-            <circle cx="474" cy="210" r="4" fill="#FF6A00" opacity="0.9" />
+            <circle cx="474" cy="210" r="4" fill="#F27D24" opacity="0.9" />
             <text x="484" y="213" fill="#eee" fontSize="10" fontFamily="monospace">Acme Pest Control</text>
-            <rect x="612" y="204" width="72" height="12" rx="6" fill="#FF6A00" fillOpacity="0.18" />
-            <text x="648" y="213" fill="#FF6A00" fontSize="8" fontFamily="monospace" textAnchor="middle" opacity="0.85">licensed</text>
+            <rect x="612" y="204" width="72" height="12" rx="6" fill="#F27D24" fillOpacity="0.18" />
+            <text x="648" y="213" fill="#F27D24" fontSize="8" fontFamily="monospace" textAnchor="middle" opacity="0.85">licensed</text>
 
             <circle cx="474" cy="230" r="4" fill="#555" opacity="0.5" />
             <text x="484" y="233" fill="#666" fontSize="10" fontFamily="monospace">City Exterminators</text>
@@ -261,8 +270,8 @@ export default function Page() {
             <text x="484" y="253" fill="#555" fontSize="10" fontFamily="monospace">Metro Bug Solutions</text>
 
             {/* Seasonal badge */}
-            <rect x="670" y="196" width="100" height="24" rx="8" fill="#FF6A00" fillOpacity="0.12" stroke="#FF6A00" strokeWidth="0.8" strokeOpacity="0.35" />
-            <text x="720" y="212" fill="#FF6A00" fontSize="9" fontFamily="monospace" textAnchor="middle" opacity="0.8">winter rodents</text>
+            <rect x="670" y="196" width="100" height="24" rx="8" fill="#F27D24" fillOpacity="0.12" stroke="#F27D24" strokeWidth="0.8" strokeOpacity="0.35" />
+            <text x="720" y="212" fill="#F27D24" fontSize="9" fontFamily="monospace" textAnchor="middle" opacity="0.8">winter rodents</text>
 
             {/* Pest label bottom */}
             <text x="470" y="284" fill="#555" fontSize="9" fontFamily="monospace">Seasonal spike: Nov-Feb</text>
@@ -314,7 +323,7 @@ export default function Page() {
         </div>
 
         <div className="ae-cta-inline not-prose">
-          <p>Want to see which AI queries your pest control competitors are already winning in your market? <Link href="/blindspot" className="text-[#FF6A00] hover:underline font-semibold">Get a free Blind Spot Report</Link> and find out exactly where you are visible and where you are invisible.</p>
+          <p>Want to see which AI queries your pest control competitors are already winning in your market? <Link href="/blindspot" className="text-[#F27D24] hover:underline font-semibold">Get a free Blind Spot Report</Link> and find out exactly where you are visible and where you are invisible.</p>
         </div>
 
         <h2 id="emergency-queries">Emergency Queries: The Highest-Urgency AI Traffic</h2>
@@ -380,7 +389,7 @@ export default function Page() {
         </div>
 
         <div className="ae-cta-inline not-prose">
-          <p>Not sure how your pest control company appears in AI answers right now? <Link href="/blindspot" className="text-[#FF6A00] hover:underline font-semibold">Get your free Blind Spot Report</Link> and see exactly what ChatGPT and Perplexity know about your business today.</p>
+          <p>Not sure how your pest control company appears in AI answers right now? <Link href="/blindspot" className="text-[#F27D24] hover:underline font-semibold">Get your free Blind Spot Report</Link> and see exactly what ChatGPT and Perplexity know about your business today.</p>
         </div>
 
         <h2 id="licensing-trust">State Licensing as an AI Trust Signal</h2>
@@ -497,7 +506,7 @@ export default function Page() {
         </div>
 
         <div className="ae-cta-inline not-prose">
-          <p>We have helped pest control companies across the country identify exactly which queries they are invisible for and build the content structure that captures them. <Link href="/blindspot" className="text-[#FF6A00] hover:underline font-semibold">Get your free Blind Spot Report</Link> to see your specific gaps.</p>
+          <p>We have helped pest control companies across the country identify exactly which queries they are invisible for and build the content structure that captures them. <Link href="/blindspot" className="text-[#F27D24] hover:underline font-semibold">Get your free Blind Spot Report</Link> to see your specific gaps.</p>
         </div>
 
         <h2 id="quick-wins">Quick Wins for Pest Control Companies</h2>
@@ -508,18 +517,18 @@ export default function Page() {
 
         <div className="ae-callout ae-callout-info not-prose">
           <div className="ae-callout-title">Related Reading</div>
-          <p>The pest control content framework connects to broader local service AEO strategy. See <Link href="/blog/how-long-does-aeo-take-to-work" className="text-[#FF6A00] hover:underline">how long AEO takes to work</Link> for realistic local service timelines, and <Link href="/blog/how-gyms-and-fitness-studios-get-found-on-ai-search" className="text-[#FF6A00] hover:underline">how local service businesses build AI visibility</Link> for the broader framework that applies across service categories.</p>
+          <p>The pest control content framework connects to broader local service AEO strategy. See <Link href="/blog/how-long-does-aeo-take-to-work" className="text-[#F27D24] hover:underline">how long AEO takes to work</Link> for realistic local service timelines, and <Link href="/blog/how-gyms-and-fitness-studios-get-found-on-ai-search" className="text-[#F27D24] hover:underline">how local service businesses build AI visibility</Link> for the broader framework that applies across service categories.</p>
         </div>
 
         {/* Mid-article CTA block */}
-        <div className="not-prose my-16 p-8 rounded-2xl bg-gradient-to-br from-[#FF6A00]/10 to-transparent border border-[#FF6A00]/20">
+        <div className="not-prose my-16 p-8 rounded-2xl bg-gradient-to-br from-[#F27D24]/10 to-transparent border border-[#F27D24]/20">
           <h3 className="font-plus-jakarta text-2xl font-bold text-white mb-3">Find Out Which Pest Control Queries Your Competitors Are Winning in Your Market</h3>
           <p className="text-gray-400 mb-6">Our free Blind Spot Report shows exactly what ChatGPT, Perplexity, and Google AI know about your pest control company, which emergency and seasonal queries you are missing, and what it would take to appear in those answers before your competitors do.</p>
-          <Link href="/blindspot" className="inline-flex items-center gap-2 bg-[#FF6A00] text-white px-6 py-3 rounded-lg font-semibold hover:bg-[#e55f00] transition-colors">
+          <Link href="/blindspot" className="inline-flex items-center gap-2 bg-[#F27D24] text-white px-6 py-3 rounded-lg font-semibold hover:bg-[#D96416] transition-colors">
             Get Your Free Blind Spot Report
             <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" /></svg>
           </Link>
-          <div className="flex flex-wrap items-center gap-6 mt-6 pt-6 border-t border-[#FF6A00]/10">
+          <div className="flex flex-wrap items-center gap-6 mt-6 pt-6 border-t border-[#F27D24]/10">
             <a href="tel:+12134442229" className="flex items-center gap-2 text-gray-400 hover:text-white transition-colors">
               <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" /></svg>
               (213) 444-2229
@@ -532,13 +541,18 @@ export default function Page() {
         </div>
 
         {/* Author card */}
-        <div className="ae-author-card not-prose">
-          <div className="ae-author-avatar">AE</div>
-          <div>
-            <div className="font-semibold text-white">The Answer Engine Team</div>
-            <div className="text-sm text-gray-400">AI visibility specialists helping local businesses get found, trusted, and recommended by ChatGPT, Perplexity, and Google AI.</div>
-          </div>
-        </div>
+        <div className="ae-author-card">
+              <img
+                src="/justin-borges.webp"
+                alt="Justin Borges, Founder of The Answer Engine"
+                style={{ width: 64, height: 64, borderRadius: '50%', objectFit: 'cover', flexShrink: 0 }}
+              />
+              <div>
+                <div className="ae-author-name" style={{ fontWeight: 600 }}>Justin Borges</div>
+                <div className="ae-author-role" style={{ fontWeight: 400 }}>Founder, The Answer Engine</div>
+                <p style={{ marginTop: 8, fontSize: '0.875rem', color: 'rgba(255,255,255,0.65)', lineHeight: 1.6 }}>Justin Borges founded The Answer Engine in 2025 after 13+ years in real estate, $200M+ in production, and discovering that AI search rankings now decide who gets cited as the answer. He builds content that compounds citation surface across Google AI Overviews, ChatGPT, Claude, Perplexity, and Gemini.</p>
+              </div>
+            </div>
 
         {/* FAQ */}
         <h2 id="faq">Frequently Asked Questions</h2>
@@ -585,7 +599,7 @@ export default function Page() {
         <div className="ae-final-cta not-prose">
           <h2 className="font-plus-jakarta text-3xl font-bold text-white mb-4">Get Your Pest Control Company Into AI Answers Before Your Competitors Do</h2>
           <p className="text-gray-300 mb-8 text-lg">Homeowners with active pest problems are asking AI for recommendations right now. Our Blind Spot Report shows exactly what AI knows about your pest control company, which emergency and seasonal queries you are missing, and what structural changes would put you in those answers.</p>
-          <Link href="/blindspot" className="inline-flex items-center gap-2 bg-[#FF6A00] text-white px-8 py-4 rounded-xl font-bold text-lg hover:bg-[#e55f00] transition-colors ae-pulse-glow">
+          <Link href="/blindspot" className="inline-flex items-center gap-2 bg-[#F27D24] text-white px-8 py-4 rounded-xl font-bold text-lg hover:bg-[#D96416] transition-colors ae-pulse-glow">
             Get Your Free Blind Spot Report
             <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" /></svg>
           </Link>

@@ -29,7 +29,7 @@ export const metadata: Metadata = {
     description,
     type: 'article',
     publishedTime: publishDate,
-    authors: ['The Answer Engine Team'],
+    authors: ['https://theanswerengine.ai/about'],
     url: `https://theanswerengine.ai/blog/${slug}`,
     images: [
       {
@@ -67,9 +67,18 @@ const jsonLd = {
       datePublished: publishDate,
       dateModified: publishDate,
       author: {
-        '@type': 'Organization',
-        name: 'The Answer Engine',
-        url: 'https://theanswerengine.ai',
+        '@type': 'Person',
+        '@id': 'https://theanswerengine.ai/about#justin-borges',
+        name: 'Justin Borges',
+        jobTitle: 'Founder, The Answer Engine',
+        worksFor: {
+          '@type': 'Organization',
+          name: 'The Answer Engine',
+          url: 'https://theanswerengine.ai',
+        },
+        knowsAbout: ['Answer Engine Optimization', 'AI Search', 'Content Strategy', 'Real Estate Marketing', 'Citation Surface'],
+        url: 'https://theanswerengine.ai/about',
+        image: 'https://theanswerengine.ai/justin-borges.webp',
       },
       publisher: {
         '@type': 'Organization',
@@ -277,7 +286,7 @@ export default function Page() {
           <div className="ae-cta-inline mt-6">
             <p>
               Not showing up in Gemini recommendations?{' '}
-              <a href="tel:+12134442229" className="text-[#FF6A00] hover:text-[#e55f00] transition-colors font-semibold">
+              <a href="tel:+12134442229" className="text-[#F27D24] hover:text-[#D96416] transition-colors font-semibold">
                 Call (213) 444-2229
               </a>{' '}
               to speak with a Gemini visibility specialist.
@@ -536,7 +545,7 @@ export default function Page() {
             logic, see our platform comparison guide on{' '}
             <Link
               href="/blog/how-perplexity-decides-what-to-cite"
-              className="text-[#FF6A00] hover:text-[#e55f00] transition-colors"
+              className="text-[#F27D24] hover:text-[#D96416] transition-colors"
             >
               how Perplexity decides what sources to cite
             </Link>
@@ -666,7 +675,7 @@ export default function Page() {
             guide on{' '}
             <Link
               href="/blog/how-claude-ai-evaluates-business-authority"
-              className="text-[#FF6A00] hover:text-[#e55f00] transition-colors"
+              className="text-[#F27D24] hover:text-[#D96416] transition-colors"
             >
               how Claude AI evaluates business authority
             </Link>
@@ -689,27 +698,27 @@ export default function Page() {
           <div className="ae-timeline mt-6 mb-10">
             <div className="ae-timeline-item">
               <div className="font-plus-jakarta font-bold text-white">Foundation</div>
-              <div className="font-semibold text-[#FF6A00]">Complete and verify your Google Business Profile</div>
+              <div className="font-semibold text-[#F27D24]">Complete and verify your Google Business Profile</div>
               <div className="text-gray-400 text-sm">Every section filled. Accurate. Verified. This is non-negotiable for Gemini visibility.</div>
             </div>
             <div className="ae-timeline-item">
               <div className="font-plus-jakarta font-bold text-white">Reviews</div>
-              <div className="font-semibold text-[#FF6A00]">Build and maintain review velocity</div>
+              <div className="font-semibold text-[#F27D24]">Build and maintain review velocity</div>
               <div className="text-gray-400 text-sm">Consistent recent reviews with specific language about your services and quality.</div>
             </div>
             <div className="ae-timeline-item">
               <div className="font-plus-jakarta font-bold text-white">Attributes</div>
-              <div className="font-semibold text-[#FF6A00]">Complete every relevant profile attribute</div>
+              <div className="font-semibold text-[#F27D24]">Complete every relevant profile attribute</div>
               <div className="text-gray-400 text-sm">This unlocks attribute-based query visibility that most competitors ignore.</div>
             </div>
             <div className="ae-timeline-item">
               <div className="font-plus-jakarta font-bold text-white">Website</div>
-              <div className="font-semibold text-[#FF6A00]">Align website content with GBP categories and services</div>
+              <div className="font-semibold text-[#F27D24]">Align website content with GBP categories and services</div>
               <div className="text-gray-400 text-sm">Gemini cross-references your site. Make it confirm and reinforce your GBP, not contradict it.</div>
             </div>
             <div className="ae-timeline-item">
               <div className="font-plus-jakarta font-bold text-white">Monitoring</div>
-              <div className="font-semibold text-[#FF6A00]">Test your Gemini visibility regularly with real queries</div>
+              <div className="font-semibold text-[#F27D24]">Test your Gemini visibility regularly with real queries</div>
               <div className="text-gray-400 text-sm">Ask Gemini the questions your customers ask. Adjust when competitors appear instead of you.</div>
             </div>
           </div>
@@ -761,7 +770,7 @@ export default function Page() {
         </div>
 
         {/* CTA Block */}
-        <div className="not-prose my-16 p-8 rounded-2xl bg-gradient-to-br from-[#FF6A00]/10 to-transparent border border-[#FF6A00]/20">
+        <div className="not-prose my-16 p-8 rounded-2xl bg-gradient-to-br from-[#F27D24]/10 to-transparent border border-[#F27D24]/20">
           <h3 className="font-plus-jakarta text-2xl font-bold text-white mb-3">
             See How You Stack Up in Google Gemini Right Now
           </h3>
@@ -771,14 +780,14 @@ export default function Page() {
           </p>
           <Link
             href="/blindspot"
-            className="inline-flex items-center gap-2 bg-[#FF6A00] text-white px-6 py-3 rounded-lg font-semibold hover:bg-[#e55f00] transition-colors"
+            className="inline-flex items-center gap-2 bg-[#F27D24] text-white px-6 py-3 rounded-lg font-semibold hover:bg-[#D96416] transition-colors"
           >
             Get Your Free Blind Spot Report
             <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
             </svg>
           </Link>
-          <div className="flex flex-wrap items-center gap-6 mt-6 pt-6 border-t border-[#FF6A00]/10">
+          <div className="flex flex-wrap items-center gap-6 mt-6 pt-6 border-t border-[#F27D24]/10">
             <a href="tel:+12134442229" className="flex items-center gap-2 text-gray-400 hover:text-white transition-colors">
               <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
@@ -795,17 +804,20 @@ export default function Page() {
         </div>
 
         {/* Author Card */}
-        <div className="ae-author-card mb-14">
-          <div className="ae-author-avatar">AE</div>
-          <div>
-            <div className="font-plus-jakarta font-bold text-white">The Answer Engine Team</div>
-            <div className="text-gray-400 text-sm">
-              Platform-specific AI visibility specialists. We help local businesses get recommended
-              across Google Gemini, ChatGPT, Perplexity, and every AI surface where customers are
-              asking for your services.
+        <div className="not-prose">
+            <div className="ae-author-card">
+              <img
+                src="/justin-borges.webp"
+                alt="Justin Borges, Founder of The Answer Engine"
+                style={{ width: 64, height: 64, borderRadius: '50%', objectFit: 'cover', flexShrink: 0 }}
+              />
+              <div>
+                <div className="ae-author-name" style={{ fontWeight: 600 }}>Justin Borges</div>
+                <div className="ae-author-role" style={{ fontWeight: 400 }}>Founder, The Answer Engine</div>
+                <p style={{ marginTop: 8, fontSize: '0.875rem', color: 'rgba(255,255,255,0.65)', lineHeight: 1.6 }}>Justin Borges founded The Answer Engine in 2025 after 13+ years in real estate, $200M+ in production, and discovering that AI search rankings now decide who gets cited as the answer. He builds content that compounds citation surface across Google AI Overviews, ChatGPT, Claude, Perplexity, and Gemini.</p>
+              </div>
             </div>
           </div>
-        </div>
 
         {/* FAQ */}
         <section id="faq" className="mb-14">

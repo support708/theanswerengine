@@ -28,13 +28,13 @@ export const metadata: Metadata = {
     'business comparison criteria',
     'AI business comparison competitors',
   ],
-  authors: [{ name: 'The Answer Engine Team' }],
+  authors: [{ name: 'Justin Borges', url: 'https://theanswerengine.ai/about' }],
   openGraph: {
     title,
     description,
     type: 'article',
     publishedTime: publishDate,
-    authors: ['The Answer Engine Team'],
+    authors: ['https://theanswerengine.ai/about'],
     url: `https://theanswerengine.ai/blog/${slug}`,
     images: [
       {
@@ -74,9 +74,18 @@ const jsonLd = {
       datePublished: publishDate + 'T09:00:00Z',
       dateModified: publishDate + 'T09:00:00Z',
       author: {
-        '@type': 'Organization',
-        name: 'The Answer Engine',
-        url: 'https://theanswerengine.ai',
+        '@type': 'Person',
+        '@id': 'https://theanswerengine.ai/about#justin-borges',
+        name: 'Justin Borges',
+        jobTitle: 'Founder, The Answer Engine',
+        worksFor: {
+          '@type': 'Organization',
+          name: 'The Answer Engine',
+          url: 'https://theanswerengine.ai',
+        },
+        knowsAbout: ['Answer Engine Optimization', 'AI Search', 'Content Strategy', 'Real Estate Marketing', 'Citation Surface'],
+        url: 'https://theanswerengine.ai/about',
+        image: 'https://theanswerengine.ai/justin-borges.webp',
       },
       publisher: {
         '@type': 'Organization',
@@ -252,7 +261,7 @@ function StatsGrid() {
           className="p-6 rounded-xl text-center"
           style={{
             backgroundColor: 'rgba(255, 106, 0, 0.08)',
-            borderLeft: '3px solid #FF6A00',
+            borderLeft: '3px solid #F27D24',
           }}
         >
           <div className="text-2xl lg:text-3xl font-bold text-orange-400 mb-2">
@@ -271,7 +280,7 @@ function CalloutBox() {
       className="my-12 p-8 rounded-xl border-l-4"
       style={{
         backgroundColor: 'rgba(30, 60, 96, 0.3)',
-        borderColor: '#FF6A00',
+        borderColor: '#F27D24',
       }}
     >
       <h3 className="text-lg font-bold text-white mb-4 flex items-center gap-2">
@@ -494,21 +503,21 @@ export default function Page() {
                 cx="650"
                 cy="80"
                 r="200"
-                stroke="#FF6A00"
+                stroke="#F27D24"
                 strokeWidth="0.5"
               />
               <circle
                 cx="650"
                 cy="80"
                 r="140"
-                stroke="#FF6A00"
+                stroke="#F27D24"
                 strokeWidth="0.5"
               />
               <circle
                 cx="650"
                 cy="80"
                 r="80"
-                stroke="#FF6A00"
+                stroke="#F27D24"
                 strokeWidth="0.5"
               />
               <line
@@ -516,7 +525,7 @@ export default function Page() {
                 y1="200"
                 x2="800"
                 y2="200"
-                stroke="#FF6A00"
+                stroke="#F27D24"
                 strokeWidth="0.3"
               />
               <line
@@ -524,7 +533,7 @@ export default function Page() {
                 y1="0"
                 x2="400"
                 y2="400"
-                stroke="#FF6A00"
+                stroke="#F27D24"
                 strokeWidth="0.3"
               />
               <rect
@@ -532,7 +541,7 @@ export default function Page() {
                 y="120"
                 width="200"
                 height="160"
-                stroke="#FF6A00"
+                stroke="#F27D24"
                 strokeWidth="0.4"
               />
               <rect
@@ -540,22 +549,22 @@ export default function Page() {
                 y="150"
                 width="140"
                 height="100"
-                stroke="#FF6A00"
+                stroke="#F27D24"
                 strokeWidth="0.4"
               />
               <polygon
                 points="600,280 700,280 650,200"
-                stroke="#FF6A00"
+                stroke="#F27D24"
                 strokeWidth="0.4"
                 fill="none"
               />
-              <circle cx="200" cy="320" r="60" stroke="#FF6A00" strokeWidth="0.4" />
+              <circle cx="200" cy="320" r="60" stroke="#F27D24" strokeWidth="0.4" />
               <line
                 x1="550"
                 y1="200"
                 x2="800"
                 y2="350"
-                stroke="#FF6A00"
+                stroke="#F27D24"
                 strokeWidth="0.3"
               />
             </svg>
@@ -574,7 +583,7 @@ export default function Page() {
                 <span>-</span>
                 <span>16 min read</span>
                 <span>-</span>
-                <span>The Answer Engine Team</span>
+                <span>Justin Borges</span>
               </div>
             </div>
           </div>
@@ -618,7 +627,7 @@ export default function Page() {
               href="https://theanswerengine.ai/blindspot"
               className="inline-block px-8 py-4 rounded-lg font-semibold transition-all"
               style={{
-                backgroundColor: '#FF6A00',
+                backgroundColor: '#F27D24',
                 color: 'white',
               }}
             >
@@ -715,7 +724,7 @@ export default function Page() {
               className="p-8 rounded-xl mb-8"
               style={{
                 backgroundColor: 'rgba(15, 17, 23, 0.6)',
-                borderLeft: '4px solid #FF6A00',
+                borderLeft: '4px solid #F27D24',
               }}
             >
               <h3 className="text-xl font-semibold text-white mb-6">
@@ -755,7 +764,7 @@ export default function Page() {
                 className="p-6 rounded-lg"
                 style={{
                   backgroundColor: 'rgba(255, 106, 0, 0.1)',
-                  borderLeft: '2px solid #FF6A00',
+                  borderLeft: '2px solid #F27D24',
                 }}
               >
                 <p className="text-gray-300 mb-4">
@@ -792,7 +801,7 @@ export default function Page() {
                 className="p-6 rounded-lg"
                 style={{
                   backgroundColor: 'rgba(15, 17, 23, 0.8)',
-                  borderLeft: '4px solid #FF6A00',
+                  borderLeft: '4px solid #F27D24',
                 }}
               >
                 <h4 className="text-lg font-semibold text-white mb-3">
@@ -810,7 +819,7 @@ export default function Page() {
                 className="p-6 rounded-lg"
                 style={{
                   backgroundColor: 'rgba(15, 17, 23, 0.8)',
-                  borderLeft: '4px solid #FF6A00',
+                  borderLeft: '4px solid #F27D24',
                 }}
               >
                 <h4 className="text-lg font-semibold text-white mb-3">
@@ -828,7 +837,7 @@ export default function Page() {
                 className="p-6 rounded-lg"
                 style={{
                   backgroundColor: 'rgba(15, 17, 23, 0.8)',
-                  borderLeft: '4px solid #FF6A00',
+                  borderLeft: '4px solid #F27D24',
                 }}
               >
                 <h4 className="text-lg font-semibold text-white mb-3">
@@ -846,7 +855,7 @@ export default function Page() {
                 className="p-6 rounded-lg"
                 style={{
                   backgroundColor: 'rgba(15, 17, 23, 0.8)',
-                  borderLeft: '4px solid #FF6A00',
+                  borderLeft: '4px solid #F27D24',
                 }}
               >
                 <h4 className="text-lg font-semibold text-white mb-3">
@@ -1012,7 +1021,7 @@ export default function Page() {
               className="mt-8 p-6 rounded-lg"
               style={{
                 backgroundColor: 'rgba(255, 106, 0, 0.1)',
-                borderLeft: '2px solid #FF6A00',
+                borderLeft: '2px solid #F27D24',
               }}
             >
               <p className="text-gray-300 mb-4">
@@ -1022,7 +1031,7 @@ export default function Page() {
                 href="https://theanswerengine.ai/blindspot"
                 className="inline-block px-6 py-3 rounded-lg font-semibold transition-all mt-4"
                 style={{
-                  backgroundColor: '#FF6A00',
+                  backgroundColor: '#F27D24',
                   color: 'white',
                 }}
               >
@@ -1042,7 +1051,7 @@ export default function Page() {
                 className="p-6 rounded-lg"
                 style={{
                   backgroundColor: 'rgba(15, 17, 23, 0.8)',
-                  borderLeft: '4px solid #FF6A00',
+                  borderLeft: '4px solid #F27D24',
                 }}
               >
                 <h4 className="text-lg font-semibold text-white mb-3">
@@ -1057,7 +1066,7 @@ export default function Page() {
                 className="p-6 rounded-lg"
                 style={{
                   backgroundColor: 'rgba(15, 17, 23, 0.8)',
-                  borderLeft: '4px solid #FF6A00',
+                  borderLeft: '4px solid #F27D24',
                 }}
               >
                 <h4 className="text-lg font-semibold text-white mb-3">
@@ -1072,7 +1081,7 @@ export default function Page() {
                 className="p-6 rounded-lg"
                 style={{
                   backgroundColor: 'rgba(15, 17, 23, 0.8)',
-                  borderLeft: '4px solid #FF6A00',
+                  borderLeft: '4px solid #F27D24',
                 }}
               >
                 <h4 className="text-lg font-semibold text-white mb-3">
@@ -1087,7 +1096,7 @@ export default function Page() {
                 className="p-6 rounded-lg"
                 style={{
                   backgroundColor: 'rgba(15, 17, 23, 0.8)',
-                  borderLeft: '4px solid #FF6A00',
+                  borderLeft: '4px solid #F27D24',
                 }}
               >
                 <h4 className="text-lg font-semibold text-white mb-3">
@@ -1102,7 +1111,7 @@ export default function Page() {
                 className="p-6 rounded-lg"
                 style={{
                   backgroundColor: 'rgba(15, 17, 23, 0.8)',
-                  borderLeft: '4px solid #FF6A00',
+                  borderLeft: '4px solid #F27D24',
                 }}
               >
                 <h4 className="text-lg font-semibold text-white mb-3">
@@ -1117,7 +1126,7 @@ export default function Page() {
                 className="p-6 rounded-lg"
                 style={{
                   backgroundColor: 'rgba(15, 17, 23, 0.8)',
-                  borderLeft: '4px solid #FF6A00',
+                  borderLeft: '4px solid #F27D24',
                 }}
               >
                 <h4 className="text-lg font-semibold text-white mb-3">
@@ -1143,7 +1152,7 @@ export default function Page() {
                 href="https://theanswerengine.ai/blindspot"
                 className="inline-block px-8 py-4 rounded-lg font-semibold transition-all"
                 style={{
-                  backgroundColor: '#FF6A00',
+                  backgroundColor: '#F27D24',
                   color: 'white',
                 }}
               >
@@ -1167,7 +1176,7 @@ export default function Page() {
               className="p-8 rounded-xl"
               style={{
                 backgroundColor: 'rgba(15, 17, 23, 0.6)',
-                borderLeft: '4px solid #FF6A00',
+                borderLeft: '4px solid #F27D24',
               }}
             >
               <p className="text-gray-300 text-lg leading-relaxed mb-6">
@@ -1188,7 +1197,7 @@ export default function Page() {
               href="https://theanswerengine.ai/blindspot"
               className="inline-block px-8 py-4 rounded-lg font-semibold transition-all"
               style={{
-                backgroundColor: '#FF6A00',
+                backgroundColor: '#F27D24',
                 color: 'white',
               }}
             >

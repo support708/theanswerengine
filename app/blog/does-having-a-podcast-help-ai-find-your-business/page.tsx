@@ -29,7 +29,7 @@ export const metadata: Metadata = {
     description,
     type: 'article',
     publishedTime: publishDate,
-    authors: ['The Answer Engine Team'],
+    authors: ['https://theanswerengine.ai/about'],
     url: `https://theanswerengine.ai/blog/${slug}`,
     images: [
       {
@@ -67,9 +67,18 @@ const jsonLd = {
       datePublished: publishDate,
       dateModified: publishDate,
       author: {
-        '@type': 'Organization',
-        name: 'The Answer Engine',
-        url: 'https://theanswerengine.ai',
+        '@type': 'Person',
+        '@id': 'https://theanswerengine.ai/about#justin-borges',
+        name: 'Justin Borges',
+        jobTitle: 'Founder, The Answer Engine',
+        worksFor: {
+          '@type': 'Organization',
+          name: 'The Answer Engine',
+          url: 'https://theanswerengine.ai',
+        },
+        knowsAbout: ['Answer Engine Optimization', 'AI Search', 'Content Strategy', 'Real Estate Marketing', 'Citation Surface'],
+        url: 'https://theanswerengine.ai/about',
+        image: 'https://theanswerengine.ai/justin-borges.webp',
       },
       publisher: {
         '@type': 'Organization',
@@ -279,7 +288,7 @@ export default function Page() {
           <div className="ae-cta-inline mt-6">
             <p>
               Not sure if your current content is creating AI-readable signals?{' '}
-              <a href="tel:+12134442229" className="text-[#FF6A00] hover:text-[#e55f00] transition-colors font-semibold">
+              <a href="tel:+12134442229" className="text-[#F27D24] hover:text-[#D96416] transition-colors font-semibold">
                 Call (213) 444-2229
               </a>{' '}
               for a quick content audit.
@@ -427,7 +436,7 @@ export default function Page() {
             how third-party mentions influence AI recommendations, read our piece on{' '}
             <Link
               href="/blog/how-press-mentions-help-ai-recommend-you"
-              className="text-[#FF6A00] hover:text-[#e55f00] transition-colors"
+              className="text-[#F27D24] hover:text-[#D96416] transition-colors"
             >
               how press mentions help AI recommend your business
             </Link>
@@ -484,7 +493,7 @@ export default function Page() {
             in place. For a clear-eyed comparison of what AI trusts, read our guide on{' '}
             <Link
               href="/blog/your-website-vs-directories-what-ai-trusts"
-              className="text-[#FF6A00] hover:text-[#e55f00] transition-colors"
+              className="text-[#F27D24] hover:text-[#D96416] transition-colors"
             >
               your website vs directories and what AI actually trusts
             </Link>
@@ -534,27 +543,27 @@ export default function Page() {
           <div className="ae-timeline mt-8 mb-8">
             <div className="ae-timeline-item">
               <div className="font-plus-jakarta font-bold text-white">Day 1</div>
-              <div className="font-semibold text-[#FF6A00]">You appear on the podcast</div>
+              <div className="font-semibold text-[#F27D24]">You appear on the podcast</div>
               <div className="text-gray-400 text-sm">60-minute conversation about your expertise in your field</div>
             </div>
             <div className="ae-timeline-item">
               <div className="font-plus-jakarta font-bold text-white">Day 3-7</div>
-              <div className="font-semibold text-[#FF6A00]">Episode page goes live on host site</div>
+              <div className="font-semibold text-[#F27D24]">Episode page goes live on host site</div>
               <div className="text-gray-400 text-sm">Show notes mention your business name, website, and specialty</div>
             </div>
             <div className="ae-timeline-item">
               <div className="font-plus-jakarta font-bold text-white">Day 7-14</div>
-              <div className="font-semibold text-[#FF6A00]">Social promotion by host</div>
+              <div className="font-semibold text-[#F27D24]">Social promotion by host</div>
               <div className="text-gray-400 text-sm">LinkedIn, Instagram, and email newsletter cite your name and business</div>
             </div>
             <div className="ae-timeline-item">
               <div className="font-plus-jakarta font-bold text-white">Weeks 2-4</div>
-              <div className="font-semibold text-[#FF6A00]">AI crawlers index the episode page</div>
+              <div className="font-semibold text-[#F27D24]">AI crawlers index the episode page</div>
               <div className="text-gray-400 text-sm">Your business now has a third-party citation on an authoritative domain</div>
             </div>
             <div className="ae-timeline-item">
               <div className="font-plus-jakarta font-bold text-white">Ongoing</div>
-              <div className="font-semibold text-[#FF6A00]">Citation persists indefinitely</div>
+              <div className="font-semibold text-[#F27D24]">Citation persists indefinitely</div>
               <div className="text-gray-400 text-sm">Every future AI query about your specialty finds this citation as supporting evidence</div>
             </div>
           </div>
@@ -611,7 +620,7 @@ export default function Page() {
             For a related comparison, see our guide on{' '}
             <Link
               href="/blog/does-having-a-blog-actually-help-ai-recommend-your-business"
-              className="text-[#FF6A00] hover:text-[#e55f00] transition-colors"
+              className="text-[#F27D24] hover:text-[#D96416] transition-colors"
             >
               whether having a blog actually helps AI recommend your business
             </Link>
@@ -696,7 +705,7 @@ export default function Page() {
         </div>
 
         {/* CTA Block */}
-        <div className="not-prose my-16 p-8 rounded-2xl bg-gradient-to-br from-[#FF6A00]/10 to-transparent border border-[#FF6A00]/20">
+        <div className="not-prose my-16 p-8 rounded-2xl bg-gradient-to-br from-[#F27D24]/10 to-transparent border border-[#F27D24]/20">
           <h3 className="font-plus-jakarta text-2xl font-bold text-white mb-3">
             Is Your Content Strategy Actually Building AI Visibility?
           </h3>
@@ -707,14 +716,14 @@ export default function Page() {
           </p>
           <Link
             href="/blindspot"
-            className="inline-flex items-center gap-2 bg-[#FF6A00] text-white px-6 py-3 rounded-lg font-semibold hover:bg-[#e55f00] transition-colors"
+            className="inline-flex items-center gap-2 bg-[#F27D24] text-white px-6 py-3 rounded-lg font-semibold hover:bg-[#D96416] transition-colors"
           >
             Get Your Free Blind Spot Report
             <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
             </svg>
           </Link>
-          <div className="flex flex-wrap items-center gap-6 mt-6 pt-6 border-t border-[#FF6A00]/10">
+          <div className="flex flex-wrap items-center gap-6 mt-6 pt-6 border-t border-[#F27D24]/10">
             <a href="tel:+12134442229" className="flex items-center gap-2 text-gray-400 hover:text-white transition-colors">
               <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
@@ -731,16 +740,20 @@ export default function Page() {
         </div>
 
         {/* Author Card */}
-        <div className="ae-author-card mb-14">
-          <div className="ae-author-avatar">AE</div>
-          <div>
-            <div className="font-plus-jakarta font-bold text-white">The Answer Engine Team</div>
-            <div className="text-gray-400 text-sm">
-              AI visibility specialists helping local and service businesses get recommended by
-              ChatGPT, Perplexity, Google AI, and every platform where customers are asking for help.
+        <div className="not-prose">
+            <div className="ae-author-card">
+              <img
+                src="/justin-borges.webp"
+                alt="Justin Borges, Founder of The Answer Engine"
+                style={{ width: 64, height: 64, borderRadius: '50%', objectFit: 'cover', flexShrink: 0 }}
+              />
+              <div>
+                <div className="ae-author-name" style={{ fontWeight: 600 }}>Justin Borges</div>
+                <div className="ae-author-role" style={{ fontWeight: 400 }}>Founder, The Answer Engine</div>
+                <p style={{ marginTop: 8, fontSize: '0.875rem', color: 'rgba(255,255,255,0.65)', lineHeight: 1.6 }}>Justin Borges founded The Answer Engine in 2025 after 13+ years in real estate, $200M+ in production, and discovering that AI search rankings now decide who gets cited as the answer. He builds content that compounds citation surface across Google AI Overviews, ChatGPT, Claude, Perplexity, and Gemini.</p>
+              </div>
             </div>
           </div>
-        </div>
 
         {/* FAQ */}
         <section id="faq" className="mb-14">

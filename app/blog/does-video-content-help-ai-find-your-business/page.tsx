@@ -33,7 +33,7 @@ export const metadata: Metadata = {
     description,
     type: 'article',
     publishedTime: publishDate,
-    authors: ['The Answer Engine Team'],
+    authors: ['https://theanswerengine.ai/about'],
     url: `https://theanswerengine.ai/blog/${slug}`,
     images: [
       {
@@ -67,9 +67,18 @@ const jsonLd = {
       datePublished: publishDate,
       dateModified: publishDate,
       author: {
-        '@type': 'Organization',
-        name: 'The Answer Engine',
-        url: 'https://theanswerengine.ai',
+        '@type': 'Person',
+        '@id': 'https://theanswerengine.ai/about#justin-borges',
+        name: 'Justin Borges',
+        jobTitle: 'Founder, The Answer Engine',
+        worksFor: {
+          '@type': 'Organization',
+          name: 'The Answer Engine',
+          url: 'https://theanswerengine.ai',
+        },
+        knowsAbout: ['Answer Engine Optimization', 'AI Search', 'Content Strategy', 'Real Estate Marketing', 'Citation Surface'],
+        url: 'https://theanswerengine.ai/about',
+        image: 'https://theanswerengine.ai/justin-borges.webp',
       },
       publisher: {
         '@type': 'Organization',
@@ -210,11 +219,11 @@ export default function Page() {
       {/* Breadcrumb */}
       <div className="max-w-4xl mx-auto px-6 pt-20 pb-4">
         <nav className="flex items-center gap-2 text-sm text-gray-500">
-          <Link href="/" className="hover:text-[#FF6A00] transition-colors">
+          <Link href="/" className="hover:text-[#F27D24] transition-colors">
             Home
           </Link>
           <span>/</span>
-          <Link href="/blog" className="hover:text-[#FF6A00] transition-colors">
+          <Link href="/blog" className="hover:text-[#F27D24] transition-colors">
             Blog
           </Link>
           <span>/</span>
@@ -236,7 +245,7 @@ export default function Page() {
                 height="40"
                 patternUnits="userSpaceOnUse"
               >
-                <path d="M40 0L0 0 0 40" fill="none" stroke="#FF6A00" strokeWidth="0.5" />
+                <path d="M40 0L0 0 0 40" fill="none" stroke="#F27D24" strokeWidth="0.5" />
               </pattern>
             </defs>
             <rect width="100%" height="100%" fill="url(#hero-grid-145)" />
@@ -244,13 +253,13 @@ export default function Page() {
         </div>
         {/* Gradient Overlay */}
         <div
-          className="absolute inset-0 bg-gradient-to-b from-[#FF6A00]/[0.04] to-transparent pointer-events-none"
+          className="absolute inset-0 bg-gradient-to-b from-[#F27D24]/[0.04] to-transparent pointer-events-none"
           aria-hidden="true"
         />
 
         <div className="relative">
           <div className="flex items-center gap-3 mb-6">
-            <span className="bg-[#FF6A00]/10 text-[#FF6A00] px-3 py-1 rounded-full text-xs font-semibold tracking-wide uppercase">
+            <span className="bg-[#F27D24]/10 text-[#F27D24] px-3 py-1 rounded-full text-xs font-semibold tracking-wide uppercase">
               Myth Busters
             </span>
             <time className="text-gray-500 text-sm">{publishDate}</time>
@@ -279,7 +288,7 @@ export default function Page() {
 
       {/* Article Body */}
       <article className="max-w-4xl mx-auto px-6 pb-20">
-        <div className="prose prose-invert prose-lg max-w-none prose-headings:font-plus-jakarta prose-headings:text-white prose-p:text-gray-300 prose-a:text-[#FF6A00] prose-a:no-underline hover:prose-a:underline prose-strong:text-white">
+        <div className="prose prose-invert prose-lg max-w-none prose-headings:font-plus-jakarta prose-headings:text-white prose-p:text-gray-300 prose-a:text-[#F27D24] prose-a:no-underline hover:prose-a:underline prose-strong:text-white">
 
           {/* Table of Contents */}
           <div className="ae-toc">
@@ -859,10 +868,10 @@ export default function Page() {
           </p>
 
           {/* Takeaway */}
-          <div className="ae-takeaway not-prose my-10 p-6 rounded-xl border border-[#FF6A00]/30 bg-[#FF6A00]/5">
+          <div className="ae-takeaway not-prose my-10 p-6 rounded-xl border border-[#F27D24]/30 bg-[#F27D24]/5">
             <div className="flex items-start gap-4">
-              <div className="w-10 h-10 rounded-full bg-[#FF6A00]/20 flex items-center justify-center shrink-0 mt-0.5">
-                <svg className="w-5 h-5 text-[#FF6A00]" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <div className="w-10 h-10 rounded-full bg-[#F27D24]/20 flex items-center justify-center shrink-0 mt-0.5">
+                <svg className="w-5 h-5 text-[#F27D24]" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
                 </svg>
               </div>
@@ -937,10 +946,10 @@ export default function Page() {
           </div>
 
           {/* Cheat Sheet */}
-          <div className="ae-cheat-sheet not-prose my-12 p-8 rounded-2xl bg-gradient-to-br from-[#FF6A00]/10 to-[#0F1117] border border-[#FF6A00]/25">
+          <div className="ae-cheat-sheet not-prose my-12 p-8 rounded-2xl bg-gradient-to-br from-[#F27D24]/10 to-[#0F1117] border border-[#F27D24]/25">
             <div className="flex items-center gap-3 mb-6">
-              <div className="w-8 h-8 rounded-lg bg-[#FF6A00]/20 flex items-center justify-center">
-                <svg className="w-4 h-4 text-[#FF6A00]" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <div className="w-8 h-8 rounded-lg bg-[#F27D24]/20 flex items-center justify-center">
+                <svg className="w-4 h-4 text-[#F27D24]" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2" />
                 </svg>
               </div>
@@ -950,20 +959,20 @@ export default function Page() {
             </div>
             <div className="grid md:grid-cols-2 gap-6">
               <div>
-                <div className="text-[#FF6A00] font-semibold text-sm uppercase tracking-wide mb-3">
+                <div className="text-[#F27D24] font-semibold text-sm uppercase tracking-wide mb-3">
                   What AI Can Read From Video
                 </div>
                 <ul className="space-y-2 text-gray-300 text-sm">
-                  <li className="flex items-start gap-2"><span className="text-[#FF6A00] shrink-0 mt-0.5">&#8226;</span>Video title and meta description</li>
-                  <li className="flex items-start gap-2"><span className="text-[#FF6A00] shrink-0 mt-0.5">&#8226;</span>Uploaded transcript text (manually reviewed)</li>
-                  <li className="flex items-start gap-2"><span className="text-[#FF6A00] shrink-0 mt-0.5">&#8226;</span>Description field (first 150 chars weighted highest)</li>
-                  <li className="flex items-start gap-2"><span className="text-[#FF6A00] shrink-0 mt-0.5">&#8226;</span>Chapter timestamps and labels</li>
-                  <li className="flex items-start gap-2"><span className="text-[#FF6A00] shrink-0 mt-0.5">&#8226;</span>Tags and category metadata</li>
-                  <li className="flex items-start gap-2"><span className="text-[#FF6A00] shrink-0 mt-0.5">&#8226;</span>Linked website in channel and description</li>
+                  <li className="flex items-start gap-2"><span className="text-[#F27D24] shrink-0 mt-0.5">&#8226;</span>Video title and meta description</li>
+                  <li className="flex items-start gap-2"><span className="text-[#F27D24] shrink-0 mt-0.5">&#8226;</span>Uploaded transcript text (manually reviewed)</li>
+                  <li className="flex items-start gap-2"><span className="text-[#F27D24] shrink-0 mt-0.5">&#8226;</span>Description field (first 150 chars weighted highest)</li>
+                  <li className="flex items-start gap-2"><span className="text-[#F27D24] shrink-0 mt-0.5">&#8226;</span>Chapter timestamps and labels</li>
+                  <li className="flex items-start gap-2"><span className="text-[#F27D24] shrink-0 mt-0.5">&#8226;</span>Tags and category metadata</li>
+                  <li className="flex items-start gap-2"><span className="text-[#F27D24] shrink-0 mt-0.5">&#8226;</span>Linked website in channel and description</li>
                 </ul>
               </div>
               <div>
-                <div className="text-[#FF6A00] font-semibold text-sm uppercase tracking-wide mb-3">
+                <div className="text-[#F27D24] font-semibold text-sm uppercase tracking-wide mb-3">
                   What AI Cannot Read From Video
                 </div>
                 <ul className="space-y-2 text-gray-300 text-sm">
@@ -976,8 +985,8 @@ export default function Page() {
                 </ul>
               </div>
             </div>
-            <div className="mt-6 pt-6 border-t border-[#FF6A00]/15">
-              <div className="text-[#FF6A00] font-semibold text-sm uppercase tracking-wide mb-3">
+            <div className="mt-6 pt-6 border-t border-[#F27D24]/15">
+              <div className="text-[#F27D24] font-semibold text-sm uppercase tracking-wide mb-3">
                 The One Rule That Changes Everything
               </div>
               <p className="text-gray-300 text-sm">
@@ -1000,7 +1009,7 @@ export default function Page() {
           </div>
 
           {/* 3-TIER CTA BLOCK */}
-          <div className="not-prose my-16 p-8 rounded-2xl bg-gradient-to-br from-[#FF6A00]/10 to-transparent border border-[#FF6A00]/20">
+          <div className="not-prose my-16 p-8 rounded-2xl bg-gradient-to-br from-[#F27D24]/10 to-transparent border border-[#F27D24]/20">
             <h3 className="font-plus-jakarta text-2xl font-bold text-white mb-3">
               Is Your Content Strategy Working for AI Search?
             </h3>
@@ -1010,14 +1019,14 @@ export default function Page() {
             </p>
             <Link
               href="/blindspot"
-              className="inline-flex items-center gap-2 bg-[#FF6A00] text-white px-6 py-3 rounded-lg font-semibold hover:bg-[#e55f00] transition-colors"
+              className="inline-flex items-center gap-2 bg-[#F27D24] text-white px-6 py-3 rounded-lg font-semibold hover:bg-[#D96416] transition-colors"
             >
               Get Your Free Blind Spot Report
               <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
               </svg>
             </Link>
-            <div className="flex flex-wrap items-center gap-6 mt-6 pt-6 border-t border-[#FF6A00]/10">
+            <div className="flex flex-wrap items-center gap-6 mt-6 pt-6 border-t border-[#F27D24]/10">
               <a
                 href="tel:+12134442229"
                 className="flex items-center gap-2 text-gray-400 hover:text-white transition-colors"
@@ -1041,14 +1050,14 @@ export default function Page() {
 
           {/* Author Card */}
           <div className="ae-author-card not-prose my-12 p-6 rounded-2xl bg-white/[0.03] border border-white/[0.07] flex items-start gap-5">
-            <div className="w-14 h-14 rounded-full bg-[#FF6A00]/20 flex items-center justify-center shrink-0">
-              <svg className="w-7 h-7 text-[#FF6A00]" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <div className="w-14 h-14 rounded-full bg-[#F27D24]/20 flex items-center justify-center shrink-0">
+              <svg className="w-7 h-7 text-[#F27D24]" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M9.75 3.104v5.714a2.25 2.25 0 01-.659 1.591L5 14.5M9.75 3.104c-.251.023-.501.05-.75.082m.75-.082a24.301 24.301 0 014.5 0m0 0v5.714c0 .597.237 1.17.659 1.591L19.8 15.3M14.25 3.104c.251.023.501.05.75.082M19.8 15.3l-1.57.393A9.065 9.065 0 0112 15a9.065 9.065 0 00-6.23-.693L5 14.5m14.8.8l1.402 1.402c1 1 .03 2.698-1.382 2.698H4.18c-1.412 0-2.382-1.698-1.382-2.698L4.6 15.3" />
               </svg>
             </div>
             <div>
               <div className="font-plus-jakarta font-bold text-white text-lg">The Answer Engine Research Team</div>
-              <div className="text-[#FF6A00] text-sm mb-2">AI Search Visibility Specialists</div>
+              <div className="text-[#F27D24] text-sm mb-2">AI Search Visibility Specialists</div>
               <p className="text-gray-400 text-sm leading-relaxed">
                 The Answer Engine team analyzes AI search citation patterns across ChatGPT,
                 Perplexity, Google AI Overviews, and Claude. We publish findings on what actually
@@ -1149,7 +1158,7 @@ export default function Page() {
           </div>
 
           {/* Final CTA */}
-          <div className="ae-final-cta not-prose my-16 p-10 rounded-2xl bg-gradient-to-br from-[#FF6A00]/15 via-[#FF6A00]/5 to-transparent border border-[#FF6A00]/30 relative overflow-hidden text-center">
+          <div className="ae-final-cta not-prose my-16 p-10 rounded-2xl bg-gradient-to-br from-[#F27D24]/15 via-[#F27D24]/5 to-transparent border border-[#F27D24]/30 relative overflow-hidden text-center">
             <div
               className="absolute inset-0 rounded-2xl pointer-events-none"
               style={{
@@ -1158,8 +1167,8 @@ export default function Page() {
               aria-hidden="true"
             />
             <div className="relative">
-              <div className="inline-flex items-center gap-2 bg-[#FF6A00]/15 text-[#FF6A00] px-4 py-1.5 rounded-full text-xs font-semibold tracking-wider uppercase mb-6">
-                <span className="w-1.5 h-1.5 rounded-full bg-[#FF6A00] animate-pulse inline-block" />
+              <div className="inline-flex items-center gap-2 bg-[#F27D24]/15 text-[#F27D24] px-4 py-1.5 rounded-full text-xs font-semibold tracking-wider uppercase mb-6">
+                <span className="w-1.5 h-1.5 rounded-full bg-[#F27D24] animate-pulse inline-block" />
                 Free for a Limited Time
               </div>
               <h3 className="font-plus-jakarta text-3xl md:text-4xl font-bold text-white mb-4">
@@ -1173,7 +1182,7 @@ export default function Page() {
               <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mb-8">
                 <Link
                   href="/blindspot"
-                  className="inline-flex items-center gap-2 bg-[#FF6A00] text-white px-8 py-4 rounded-xl font-bold text-lg hover:bg-[#e55f00] transition-all hover:scale-105"
+                  className="inline-flex items-center gap-2 bg-[#F27D24] text-white px-8 py-4 rounded-xl font-bold text-lg hover:bg-[#D96416] transition-all hover:scale-105"
                 >
                   Get My Free Blind Spot Report
                   <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -1182,7 +1191,7 @@ export default function Page() {
                 </Link>
                 <a
                   href="tel:+12134442229"
-                  className="inline-flex items-center gap-2 border border-white/20 text-white px-8 py-4 rounded-xl font-semibold hover:border-[#FF6A00]/50 hover:text-[#FF6A00] transition-colors"
+                  className="inline-flex items-center gap-2 border border-white/20 text-white px-8 py-4 rounded-xl font-semibold hover:border-[#F27D24]/50 hover:text-[#F27D24] transition-colors"
                 >
                   <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />

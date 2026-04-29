@@ -28,13 +28,13 @@ export const metadata: Metadata = {
     'generative AI local search',
     'Copilot GEO',
   ],
-  authors: [{ name: 'The Answer Engine Team' }],
+  authors: [{ name: 'Justin Borges', url: 'https://theanswerengine.ai/about' }],
   openGraph: {
     title: `${title} | The Answer Engine`,
     description,
     type: 'article',
     publishedTime: publishDate,
-    authors: ['The Answer Engine Team'],
+    authors: ['https://theanswerengine.ai/about'],
     url: `https://theanswerengine.ai/blog/${slug}`,
     images: [
       {
@@ -67,9 +67,18 @@ const jsonLd = {
       datePublished: publishDate + 'T00:00:00Z',
       dateModified: publishDate + 'T00:00:00Z',
       author: {
-        '@type': 'Organization',
-        name: 'The Answer Engine',
-        url: 'https://theanswerengine.ai',
+        '@type': 'Person',
+        '@id': 'https://theanswerengine.ai/about#justin-borges',
+        name: 'Justin Borges',
+        jobTitle: 'Founder, The Answer Engine',
+        worksFor: {
+          '@type': 'Organization',
+          name: 'The Answer Engine',
+          url: 'https://theanswerengine.ai',
+        },
+        knowsAbout: ['Answer Engine Optimization', 'AI Search', 'Content Strategy', 'Real Estate Marketing', 'Citation Surface'],
+        url: 'https://theanswerengine.ai/about',
+        image: 'https://theanswerengine.ai/justin-borges.webp',
       },
       publisher: {
         '@type': 'Organization',
@@ -219,7 +228,7 @@ export default function Page() {
                 <path
                   d="M 40 0 L 0 0 0 40"
                   fill="none"
-                  stroke="#FF6A00"
+                  stroke="#F27D24"
                   strokeWidth="0.5"
                 />
               </pattern>
@@ -233,7 +242,7 @@ export default function Page() {
             <div className="flex items-center gap-3 mb-6">
               <span
                 className="text-xs font-semibold uppercase tracking-widest px-3 py-1 rounded-full"
-                style={{ backgroundColor: 'rgba(255,106,0,0.15)', color: '#FF6A00', border: '1px solid rgba(255,106,0,0.3)' }}
+                style={{ backgroundColor: 'rgba(255,106,0,0.15)', color: '#F27D24', border: '1px solid rgba(255,106,0,0.3)' }}
               >
                 Platform Deep Dives
               </span>
@@ -246,7 +255,7 @@ export default function Page() {
               style={{ color: '#FFFFFF' }}
             >
               How Microsoft Copilot Decides Which{' '}
-              <span style={{ color: '#FF6A00' }}>Businesses to Recommend</span>
+              <span style={{ color: '#F27D24' }}>Businesses to Recommend</span>
             </h1>
 
             <p className="text-xl text-gray-300 leading-relaxed mb-8 max-w-3xl">
@@ -258,7 +267,7 @@ export default function Page() {
               <a
                 href="https://theanswerengine.ai/audit"
                 className="inline-flex items-center gap-2 px-6 py-3 rounded-lg font-semibold text-white transition-all hover:opacity-90"
-                style={{ backgroundColor: '#FF6A00' }}
+                style={{ backgroundColor: '#F27D24' }}
               >
                 Check Your Copilot Visibility
                 <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" /></svg>
@@ -266,7 +275,7 @@ export default function Page() {
               <a
                 href="tel:+12134442229"
                 className="inline-flex items-center gap-2 px-6 py-3 rounded-lg font-semibold transition-all hover:opacity-90"
-                style={{ backgroundColor: 'rgba(255,106,0,0.1)', color: '#FF6A00', border: '1px solid rgba(255,106,0,0.3)' }}
+                style={{ backgroundColor: 'rgba(255,106,0,0.1)', color: '#F27D24', border: '1px solid rgba(255,106,0,0.3)' }}
               >
                 <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.948V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" /></svg>
                 (213) 444-2229
@@ -283,28 +292,28 @@ export default function Page() {
               className="ae-stat-card rounded-xl p-5 text-center"
               style={{ backgroundColor: 'rgba(255,106,0,0.08)', border: '1px solid rgba(255,106,0,0.2)' }}
             >
-              <div className="font-plus-jakarta text-3xl font-extrabold mb-1" style={{ color: '#FF6A00' }}>140M</div>
+              <div className="font-plus-jakarta text-3xl font-extrabold mb-1" style={{ color: '#F27D24' }}>140M</div>
               <div className="text-xs text-gray-400 leading-snug">Daily Bing users exposed to Copilot AI answers</div>
             </div>
             <div
               className="ae-stat-card rounded-xl p-5 text-center"
               style={{ backgroundColor: 'rgba(255,106,0,0.08)', border: '1px solid rgba(255,106,0,0.2)' }}
             >
-              <div className="font-plus-jakarta text-3xl font-extrabold mb-1" style={{ color: '#FF6A00' }}>34%</div>
+              <div className="font-plus-jakarta text-3xl font-extrabold mb-1" style={{ color: '#F27D24' }}>34%</div>
               <div className="text-xs text-gray-400 leading-snug">Of all Bing queries now powered by AI assistant</div>
             </div>
             <div
               className="ae-stat-card rounded-xl p-5 text-center"
               style={{ backgroundColor: 'rgba(255,106,0,0.08)', border: '1px solid rgba(255,106,0,0.2)' }}
             >
-              <div className="font-plus-jakarta text-3xl font-extrabold mb-1" style={{ color: '#FF6A00' }}>15M</div>
+              <div className="font-plus-jakarta text-3xl font-extrabold mb-1" style={{ color: '#F27D24' }}>15M</div>
               <div className="text-xs text-gray-400 leading-snug">Paid Microsoft 365 Copilot enterprise seats (Jan 2026)</div>
             </div>
             <div
               className="ae-stat-card rounded-xl p-5 text-center"
               style={{ backgroundColor: 'rgba(255,106,0,0.08)', border: '1px solid rgba(255,106,0,0.2)' }}
             >
-              <div className="font-plus-jakarta text-3xl font-extrabold mb-1" style={{ color: '#FF6A00' }}>11.5%</div>
+              <div className="font-plus-jakarta text-3xl font-extrabold mb-1" style={{ color: '#F27D24' }}>11.5%</div>
               <div className="text-xs text-gray-400 leading-snug">AI assistant market share among paid subscribers (Jan 2026)</div>
             </div>
           </section>
@@ -315,40 +324,40 @@ export default function Page() {
             style={{ backgroundColor: '#1a1f2e', border: '1px solid rgba(255,106,0,0.15)' }}
             aria-label="Table of Contents"
           >
-            <h2 className="font-plus-jakarta text-lg font-bold mb-4" style={{ color: '#FF6A00' }}>
+            <h2 className="font-plus-jakarta text-lg font-bold mb-4" style={{ color: '#F27D24' }}>
               In This Article
             </h2>
             <ol className="space-y-2 text-sm text-gray-300">
               <li className="flex items-start gap-2">
-                <span style={{ color: '#FF6A00' }}>01</span>
+                <span style={{ color: '#F27D24' }}>01</span>
                 <a href="#what-is-copilot-local" className="hover:text-orange-400 transition-colors">What Microsoft Copilot Actually Does for Local Searches</a>
               </li>
               <li className="flex items-start gap-2">
-                <span style={{ color: '#FF6A00' }}>02</span>
+                <span style={{ color: '#F27D24' }}>02</span>
                 <a href="#bing-foundation" className="hover:text-orange-400 transition-colors">The Bing Foundation: Why It Changes Everything</a>
               </li>
               <li className="flex items-start gap-2">
-                <span style={{ color: '#FF6A00' }}>03</span>
+                <span style={{ color: '#F27D24' }}>03</span>
                 <a href="#ranking-signals" className="hover:text-orange-400 transition-colors">The Six Ranking Signals Copilot Weighs</a>
               </li>
               <li className="flex items-start gap-2">
-                <span style={{ color: '#FF6A00' }}>04</span>
+                <span style={{ color: '#F27D24' }}>04</span>
                 <a href="#copilot-vs-chatgpt" className="hover:text-orange-400 transition-colors">Copilot vs ChatGPT: The Local Recommendation Difference</a>
               </li>
               <li className="flex items-start gap-2">
-                <span style={{ color: '#FF6A00' }}>05</span>
+                <span style={{ color: '#F27D24' }}>05</span>
                 <a href="#who-wins" className="hover:text-orange-400 transition-colors">Who Wins in Copilot Recommendations (and Who Disappears)</a>
               </li>
               <li className="flex items-start gap-2">
-                <span style={{ color: '#FF6A00' }}>06</span>
+                <span style={{ color: '#F27D24' }}>06</span>
                 <a href="#decision-matrix" className="hover:text-orange-400 transition-colors">Decision Matrix: Are You Copilot-Ready?</a>
               </li>
               <li className="flex items-start gap-2">
-                <span style={{ color: '#FF6A00' }}>07</span>
+                <span style={{ color: '#F27D24' }}>07</span>
                 <a href="#cheat-sheet" className="hover:text-orange-400 transition-colors">Copilot Visibility Cheat Sheet</a>
               </li>
               <li className="flex items-start gap-2">
-                <span style={{ color: '#FF6A00' }}>08</span>
+                <span style={{ color: '#F27D24' }}>08</span>
                 <a href="#faq" className="hover:text-orange-400 transition-colors">Frequently Asked Questions</a>
               </li>
             </ol>
@@ -394,7 +403,7 @@ export default function Page() {
               <a
                 href="https://theanswerengine.ai/audit"
                 className="inline-flex items-center gap-2 text-sm font-semibold transition-colors hover:opacity-80"
-                style={{ color: '#FF6A00' }}
+                style={{ color: '#F27D24' }}
               >
                 Get Your Free AI Visibility Audit
                 <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" /></svg>
@@ -445,7 +454,7 @@ export default function Page() {
               <Link
                 href="/blog/chatgpt-vs-perplexity-vs-google-ai-local"
                 className="inline-flex items-center gap-2 text-sm font-semibold transition-colors hover:opacity-80"
-                style={{ color: '#FF6A00' }}
+                style={{ color: '#F27D24' }}
               >
                 ChatGPT vs Perplexity vs Google AI: Local Showdown
                 <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" /></svg>
@@ -473,7 +482,7 @@ export default function Page() {
                   className="w-10 h-10 rounded-lg flex items-center justify-center mb-4"
                   style={{ backgroundColor: 'rgba(255,106,0,0.15)' }}
                 >
-                  <svg className="w-5 h-5" style={{ color: '#FF6A00' }} fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" /></svg>
+                  <svg className="w-5 h-5" style={{ color: '#F27D24' }} fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" /></svg>
                 </div>
                 <h3 className="font-plus-jakarta font-bold text-white mb-2">1. Listing Completeness</h3>
                 <p className="text-sm text-gray-400 leading-relaxed">
@@ -489,7 +498,7 @@ export default function Page() {
                   className="w-10 h-10 rounded-lg flex items-center justify-center mb-4"
                   style={{ backgroundColor: 'rgba(255,106,0,0.15)' }}
                 >
-                  <svg className="w-5 h-5" style={{ color: '#FF6A00' }} fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M11.049 2.927c.3-.921 1.603-.921 1.902 0l1.519 4.674a1 1 0 00.95.69h4.915c.969 0 1.371 1.24.588 1.81l-3.976 2.888a1 1 0 00-.363 1.118l1.518 4.674c.3.922-.755 1.688-1.538 1.118l-3.976-2.888a1 1 0 00-1.176 0l-3.976 2.888c-.783.57-1.838-.197-1.538-1.118l1.518-4.674a1 1 0 00-.363-1.118l-3.976-2.888c-.784-.57-.38-1.81.588-1.81h4.914a1 1 0 00.951-.69l1.519-4.674z" /></svg>
+                  <svg className="w-5 h-5" style={{ color: '#F27D24' }} fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M11.049 2.927c.3-.921 1.603-.921 1.902 0l1.519 4.674a1 1 0 00.95.69h4.915c.969 0 1.371 1.24.588 1.81l-3.976 2.888a1 1 0 00-.363 1.118l1.518 4.674c.3.922-.755 1.688-1.538 1.118l-3.976-2.888a1 1 0 00-1.176 0l-3.976 2.888c-.783.57-1.838-.197-1.538-1.118l1.518-4.674a1 1 0 00-.363-1.118l-3.976-2.888c-.784-.57-.38-1.81.588-1.81h4.914a1 1 0 00.951-.69l1.519-4.674z" /></svg>
                 </div>
                 <h3 className="font-plus-jakarta font-bold text-white mb-2">2. Multi-Platform Review Signals</h3>
                 <p className="text-sm text-gray-400 leading-relaxed">
@@ -505,7 +514,7 @@ export default function Page() {
                   className="w-10 h-10 rounded-lg flex items-center justify-center mb-4"
                   style={{ backgroundColor: 'rgba(255,106,0,0.15)' }}
                 >
-                  <svg className="w-5 h-5" style={{ color: '#FF6A00' }} fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" /></svg>
+                  <svg className="w-5 h-5" style={{ color: '#F27D24' }} fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" /></svg>
                 </div>
                 <h3 className="font-plus-jakarta font-bold text-white mb-2">3. Geographic Relevance</h3>
                 <p className="text-sm text-gray-400 leading-relaxed">
@@ -521,7 +530,7 @@ export default function Page() {
                   className="w-10 h-10 rounded-lg flex items-center justify-center mb-4"
                   style={{ backgroundColor: 'rgba(255,106,0,0.15)' }}
                 >
-                  <svg className="w-5 h-5" style={{ color: '#FF6A00' }} fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M7 20l4-16m2 16l4-16M6 9h14M4 15h14" /></svg>
+                  <svg className="w-5 h-5" style={{ color: '#F27D24' }} fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M7 20l4-16m2 16l4-16M6 9h14M4 15h14" /></svg>
                 </div>
                 <h3 className="font-plus-jakarta font-bold text-white mb-2">4. Structured Attributes</h3>
                 <p className="text-sm text-gray-400 leading-relaxed">
@@ -537,7 +546,7 @@ export default function Page() {
                   className="w-10 h-10 rounded-lg flex items-center justify-center mb-4"
                   style={{ backgroundColor: 'rgba(255,106,0,0.15)' }}
                 >
-                  <svg className="w-5 h-5" style={{ color: '#FF6A00' }} fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8h2a2 2 0 012 2v6a2 2 0 01-2 2h-2v4l-4-4H9a1.994 1.994 0 01-1.414-.586m0 0L11 14h4a2 2 0 002-2V6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2v4l.586-.586z" /></svg>
+                  <svg className="w-5 h-5" style={{ color: '#F27D24' }} fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8h2a2 2 0 012 2v6a2 2 0 01-2 2h-2v4l-4-4H9a1.994 1.994 0 01-1.414-.586m0 0L11 14h4a2 2 0 002-2V6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2v4l.586-.586z" /></svg>
                 </div>
                 <h3 className="font-plus-jakarta font-bold text-white mb-2">5. Social Signals</h3>
                 <p className="text-sm text-gray-400 leading-relaxed">
@@ -553,7 +562,7 @@ export default function Page() {
                   className="w-10 h-10 rounded-lg flex items-center justify-center mb-4"
                   style={{ backgroundColor: 'rgba(255,106,0,0.15)' }}
                 >
-                  <svg className="w-5 h-5" style={{ color: '#FF6A00' }} fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13.828 10.172a4 4 0 00-5.656 0l-4 4a4 4 0 105.656 5.656l1.102-1.101m-.758-4.899a4 4 0 005.656 0l4-4a4 4 0 00-5.656-5.656l-1.1 1.1" /></svg>
+                  <svg className="w-5 h-5" style={{ color: '#F27D24' }} fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13.828 10.172a4 4 0 00-5.656 0l-4 4a4 4 0 105.656 5.656l1.102-1.101m-.758-4.899a4 4 0 005.656 0l4-4a4 4 0 00-5.656-5.656l-1.1 1.1" /></svg>
                 </div>
                 <h3 className="font-plus-jakarta font-bold text-white mb-2">6. Citation Consistency (NAP)</h3>
                 <p className="text-sm text-gray-400 leading-relaxed">
@@ -583,7 +592,7 @@ export default function Page() {
               <a
                 href="mailto:support@theanswerengine.ai"
                 className="inline-flex items-center gap-2 text-sm font-semibold transition-colors hover:opacity-80"
-                style={{ color: '#FF6A00' }}
+                style={{ color: '#F27D24' }}
               >
                 Email Us for a Custom AI Signal Audit
                 <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" /></svg>
@@ -607,7 +616,7 @@ export default function Page() {
                 <thead>
                   <tr style={{ backgroundColor: 'rgba(255,106,0,0.12)' }}>
                     <th className="text-left p-4 font-plus-jakarta font-semibold text-white">Feature</th>
-                    <th className="text-left p-4 font-plus-jakarta font-semibold" style={{ color: '#FF6A00' }}>Microsoft Copilot</th>
+                    <th className="text-left p-4 font-plus-jakarta font-semibold" style={{ color: '#F27D24' }}>Microsoft Copilot</th>
                     <th className="text-left p-4 font-plus-jakarta font-semibold text-gray-300">ChatGPT</th>
                   </tr>
                 </thead>
@@ -669,7 +678,7 @@ export default function Page() {
               <a
                 href="tel:+12134442229"
                 className="inline-flex items-center gap-2 text-sm font-semibold transition-colors hover:opacity-80"
-                style={{ color: '#FF6A00' }}
+                style={{ color: '#F27D24' }}
               >
                 <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.948V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" /></svg>
                 Call (213) 444-2229 for a Platform Strategy Session
@@ -750,9 +759,9 @@ export default function Page() {
               style={{ backgroundColor: 'rgba(255,106,0,0.08)', border: '1px solid rgba(255,106,0,0.3)' }}
             >
               <div className="flex items-start gap-3">
-                <svg className="w-5 h-5 mt-0.5 flex-shrink-0" style={{ color: '#FF6A00' }} fill="currentColor" viewBox="0 0 20 20"><path fillRule="evenodd" d="M12.395 2.553a1 1 0 00-1.45-.385c-.345.23-.614.558-.822.88-.214.33-.403.713-.57 1.116-.334.804-.614 1.768-.84 2.734a31.365 31.365 0 00-.613 3.58 2.64 2.64 0 01-.945-1.067c-.328-.68-.398-1.534-.398-2.654A1 1 0 005.05 6.05 6.981 6.981 0 003 11a7 7 0 1011.95-4.95c-.592-.591-.98-.985-1.348-1.467-.363-.476-.724-1.063-1.207-2.03zM12.12 15.12A3 3 0 017 13s.879.5 2.5.5c0-1 .5-4 1.25-4.5.5 1 .786 1.293 1.371 1.879A2.99 2.99 0 0113 13a2.99 2.99 0 01-.879 2.121z" clipRule="evenodd" /></svg>
+                <svg className="w-5 h-5 mt-0.5 flex-shrink-0" style={{ color: '#F27D24' }} fill="currentColor" viewBox="0 0 20 20"><path fillRule="evenodd" d="M12.395 2.553a1 1 0 00-1.45-.385c-.345.23-.614.558-.822.88-.214.33-.403.713-.57 1.116-.334.804-.614 1.768-.84 2.734a31.365 31.365 0 00-.613 3.58 2.64 2.64 0 01-.945-1.067c-.328-.68-.398-1.534-.398-2.654A1 1 0 005.05 6.05 6.981 6.981 0 003 11a7 7 0 1011.95-4.95c-.592-.591-.98-.985-1.348-1.467-.363-.476-.724-1.063-1.207-2.03zM12.12 15.12A3 3 0 017 13s.879.5 2.5.5c0-1 .5-4 1.25-4.5.5 1 .786 1.293 1.371 1.879A2.99 2.99 0 0113 13a2.99 2.99 0 01-.879 2.121z" clipRule="evenodd" /></svg>
                 <div>
-                  <p className="font-semibold mb-1" style={{ color: '#FF6A00' }}>The Hidden Multiplier: Bing Powers ChatGPT Too</p>
+                  <p className="font-semibold mb-1" style={{ color: '#F27D24' }}>The Hidden Multiplier: Bing Powers ChatGPT Too</p>
                   <p className="text-sm text-gray-300 leading-relaxed">
                     Every Bing Places optimization you make propagates into ChatGPT's web browsing results as well. Microsoft and OpenAI share Bing's index. Winning in Bing Places is not just a Copilot strategy. It is the single upstream investment that improves your visibility across the two largest AI platforms simultaneously.
                   </p>
@@ -769,7 +778,7 @@ export default function Page() {
               <Link
                 href="/blog/how-ai-picks-between-two-similar-businesses"
                 className="inline-flex items-center gap-2 text-sm font-semibold transition-colors hover:opacity-80"
-                style={{ color: '#FF6A00' }}
+                style={{ color: '#F27D24' }}
               >
                 How AI Picks Between Two Similar Businesses
                 <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" /></svg>
@@ -865,14 +874,14 @@ export default function Page() {
                 <a
                   href="https://theanswerengine.ai/audit"
                   className="inline-flex items-center gap-2 text-sm font-semibold px-4 py-2 rounded-lg text-white transition-all hover:opacity-90"
-                  style={{ backgroundColor: '#FF6A00' }}
+                  style={{ backgroundColor: '#F27D24' }}
                 >
                   Get Your Full Copilot Readiness Score
                 </a>
                 <a
                   href="tel:+12134442229"
                   className="inline-flex items-center gap-2 text-sm font-semibold transition-colors hover:opacity-80"
-                  style={{ color: '#FF6A00' }}
+                  style={{ color: '#F27D24' }}
                 >
                   Or call (213) 444-2229
                 </a>
@@ -893,7 +902,7 @@ export default function Page() {
                   className="block p-4 rounded-lg transition-all hover:border-orange-500"
                   style={{ backgroundColor: 'rgba(255,106,0,0.05)', border: '1px solid rgba(255,106,0,0.1)' }}
                 >
-                  <p className="text-xs uppercase tracking-wide mb-1" style={{ color: '#FF6A00' }}>Platform Deep Dive</p>
+                  <p className="text-xs uppercase tracking-wide mb-1" style={{ color: '#F27D24' }}>Platform Deep Dive</p>
                   <p className="text-sm font-semibold text-white leading-snug">How Claude AI Evaluates Business Authority</p>
                 </Link>
                 <Link
@@ -901,7 +910,7 @@ export default function Page() {
                   className="block p-4 rounded-lg transition-all hover:border-orange-500"
                   style={{ backgroundColor: 'rgba(255,106,0,0.05)', border: '1px solid rgba(255,106,0,0.1)' }}
                 >
-                  <p className="text-xs uppercase tracking-wide mb-1" style={{ color: '#FF6A00' }}>Platform Comparison</p>
+                  <p className="text-xs uppercase tracking-wide mb-1" style={{ color: '#F27D24' }}>Platform Comparison</p>
                   <p className="text-sm font-semibold text-white leading-snug">ChatGPT vs Perplexity vs Google AI: Local Search</p>
                 </Link>
                 <Link
@@ -909,7 +918,7 @@ export default function Page() {
                   className="block p-4 rounded-lg transition-all hover:border-orange-500"
                   style={{ backgroundColor: 'rgba(255,106,0,0.05)', border: '1px solid rgba(255,106,0,0.1)' }}
                 >
-                  <p className="text-xs uppercase tracking-wide mb-1" style={{ color: '#FF6A00' }}>AI Tiebreakers</p>
+                  <p className="text-xs uppercase tracking-wide mb-1" style={{ color: '#F27D24' }}>AI Tiebreakers</p>
                   <p className="text-sm font-semibold text-white leading-snug">How AI Picks Between Two Similar Businesses</p>
                 </Link>
               </div>
@@ -931,14 +940,14 @@ export default function Page() {
                   className="w-10 h-10 rounded-lg flex items-center justify-center"
                   style={{ backgroundColor: 'rgba(255,106,0,0.2)' }}
                 >
-                  <svg className="w-5 h-5" style={{ color: '#FF6A00' }} fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-6 9l2 2 4-4" /></svg>
+                  <svg className="w-5 h-5" style={{ color: '#F27D24' }} fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-6 9l2 2 4-4" /></svg>
                 </div>
                 <h3 className="font-plus-jakarta text-xl font-bold text-white">Microsoft Copilot Optimization Quick Reference</h3>
               </div>
 
               <div className="grid md:grid-cols-2 gap-6">
                 <div>
-                  <h4 className="font-semibold mb-3" style={{ color: '#FF6A00' }}>Foundation Moves (Do These First)</h4>
+                  <h4 className="font-semibold mb-3" style={{ color: '#F27D24' }}>Foundation Moves (Do These First)</h4>
                   <ul className="space-y-2">
                     {[
                       'Claim and verify Bing Places at bing.com/forbusiness',
@@ -949,7 +958,7 @@ export default function Page() {
                       'Ensure NAP is identical on your website and listing',
                     ].map((item) => (
                       <li key={item} className="flex items-start gap-2 text-sm text-gray-300">
-                        <span style={{ color: '#FF6A00' }} className="mt-0.5">→</span>
+                        <span style={{ color: '#F27D24' }} className="mt-0.5">→</span>
                         {item}
                       </li>
                     ))}
@@ -957,7 +966,7 @@ export default function Page() {
                 </div>
 
                 <div>
-                  <h4 className="font-semibold mb-3" style={{ color: '#FF6A00' }}>Authority Amplifiers (Do These Next)</h4>
+                  <h4 className="font-semibold mb-3" style={{ color: '#F27D24' }}>Authority Amplifiers (Do These Next)</h4>
                   <ul className="space-y-2">
                     {[
                       'Build reviews on Yelp, TripAdvisor, Facebook, and Trustpilot',
@@ -968,7 +977,7 @@ export default function Page() {
                       'Respond to all reviews publicly, especially negative ones',
                     ].map((item) => (
                       <li key={item} className="flex items-start gap-2 text-sm text-gray-300">
-                        <span style={{ color: '#FF6A00' }} className="mt-0.5">→</span>
+                        <span style={{ color: '#F27D24' }} className="mt-0.5">→</span>
                         {item}
                       </li>
                     ))}
@@ -976,7 +985,7 @@ export default function Page() {
                 </div>
 
                 <div>
-                  <h4 className="font-semibold mb-3" style={{ color: '#FF6A00' }}>Advanced Signals (Differentiate)</h4>
+                  <h4 className="font-semibold mb-3" style={{ color: '#F27D24' }}>Advanced Signals (Differentiate)</h4>
                   <ul className="space-y-2">
                     {[
                       'Connect booking platforms (OpenTable, Calendly) to your listing',
@@ -986,7 +995,7 @@ export default function Page() {
                       'Get mentioned in local publications indexed by Bing',
                     ].map((item) => (
                       <li key={item} className="flex items-start gap-2 text-sm text-gray-300">
-                        <span style={{ color: '#FF6A00' }} className="mt-0.5">→</span>
+                        <span style={{ color: '#F27D24' }} className="mt-0.5">→</span>
                         {item}
                       </li>
                     ))}
@@ -1033,7 +1042,7 @@ export default function Page() {
                   style={{ backgroundColor: 'rgba(255,255,255,0.04)', border: '1px solid rgba(255,106,0,0.15)' }}
                 >
                   <div className="w-10 h-10 rounded-full mx-auto mb-3 flex items-center justify-center" style={{ backgroundColor: 'rgba(255,106,0,0.2)' }}>
-                    <svg className="w-5 h-5" style={{ color: '#FF6A00' }} fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z" /></svg>
+                    <svg className="w-5 h-5" style={{ color: '#F27D24' }} fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z" /></svg>
                   </div>
                   <h3 className="font-bold text-white text-sm mb-1">Full AI Visibility Audit</h3>
                   <p className="text-xs text-gray-400">Copilot, ChatGPT, Perplexity, Google AI: see exactly where you appear and where you don't</p>
@@ -1043,7 +1052,7 @@ export default function Page() {
                   style={{ backgroundColor: 'rgba(255,255,255,0.04)', border: '1px solid rgba(255,106,0,0.15)' }}
                 >
                   <div className="w-10 h-10 rounded-full mx-auto mb-3 flex items-center justify-center" style={{ backgroundColor: 'rgba(255,106,0,0.2)' }}>
-                    <svg className="w-5 h-5" style={{ color: '#FF6A00' }} fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" /><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z" /></svg>
+                    <svg className="w-5 h-5" style={{ color: '#F27D24' }} fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" /><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z" /></svg>
                   </div>
                   <h3 className="font-bold text-white text-sm mb-1">Competitor Gap Analysis</h3>
                   <p className="text-xs text-gray-400">Find out exactly which signals your top competitors have that you don't, and why Copilot picks them</p>
@@ -1053,7 +1062,7 @@ export default function Page() {
                   style={{ backgroundColor: 'rgba(255,255,255,0.04)', border: '1px solid rgba(255,106,0,0.15)' }}
                 >
                   <div className="w-10 h-10 rounded-full mx-auto mb-3 flex items-center justify-center" style={{ backgroundColor: 'rgba(255,106,0,0.2)' }}>
-                    <svg className="w-5 h-5" style={{ color: '#FF6A00' }} fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 10V3L4 14h7v7l9-11h-7z" /></svg>
+                    <svg className="w-5 h-5" style={{ color: '#F27D24' }} fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 10V3L4 14h7v7l9-11h-7z" /></svg>
                   </div>
                   <h3 className="font-bold text-white text-sm mb-1">Done-For-You Optimization</h3>
                   <p className="text-xs text-gray-400">We fix every gap identified in the audit so you start appearing in Copilot answers within weeks</p>
@@ -1064,7 +1073,7 @@ export default function Page() {
                 <Link
                   href="/blindspot"
                   className="inline-flex items-center gap-2 px-8 py-4 rounded-xl font-bold text-white text-base transition-all hover:opacity-90"
-                  style={{ backgroundColor: '#FF6A00' }}
+                  style={{ backgroundColor: '#F27D24' }}
                 >
                   Get Your Free Blind Spot Report
                   <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" /></svg>
@@ -1072,7 +1081,7 @@ export default function Page() {
                 <a
                   href="tel:+12134442229"
                   className="inline-flex items-center gap-2 px-8 py-4 rounded-xl font-bold text-base transition-all hover:opacity-90"
-                  style={{ backgroundColor: 'rgba(255,106,0,0.1)', color: '#FF6A00', border: '2px solid rgba(255,106,0,0.4)' }}
+                  style={{ backgroundColor: 'rgba(255,106,0,0.1)', color: '#F27D24', border: '2px solid rgba(255,106,0,0.4)' }}
                 >
                   <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.948V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" /></svg>
                   (213) 444-2229
@@ -1139,7 +1148,7 @@ export default function Page() {
                 <a
                   href="mailto:support@theanswerengine.ai"
                   className="inline-flex items-center gap-2 text-sm font-semibold transition-colors hover:opacity-80"
-                  style={{ color: '#FF6A00' }}
+                  style={{ color: '#F27D24' }}
                 >
                   Email support@theanswerengine.ai
                 </a>
@@ -1147,7 +1156,7 @@ export default function Page() {
                 <a
                   href="tel:+12134442229"
                   className="inline-flex items-center gap-2 text-sm font-semibold transition-colors hover:opacity-80"
-                  style={{ color: '#FF6A00' }}
+                  style={{ color: '#F27D24' }}
                 >
                   Call (213) 444-2229
                 </a>
@@ -1163,20 +1172,20 @@ export default function Page() {
             <div className="flex items-start gap-4">
               <div
                 className="w-14 h-14 rounded-full flex items-center justify-center flex-shrink-0 font-plus-jakarta font-extrabold text-xl"
-                style={{ backgroundColor: 'rgba(255,106,0,0.2)', color: '#FF6A00' }}
+                style={{ backgroundColor: 'rgba(255,106,0,0.2)', color: '#F27D24' }}
               >
                 AE
               </div>
               <div>
-                <p className="font-plus-jakarta font-bold text-white mb-1">The Answer Engine Team</p>
+                <p className="font-plus-jakarta font-bold text-white mb-1">Justin Borges</p>
                 <p className="text-xs text-gray-500 mb-2">Published March 29, 2026 · Platform Deep Dives</p>
                 <p className="text-sm text-gray-400 leading-relaxed">
                   The Answer Engine is a Los Angeles-based AEO and AI visibility agency. We help local businesses get recommended by Microsoft Copilot, ChatGPT, Perplexity, Google AI Overviews, and every other major AI recommendation engine. Our team has audited hundreds of businesses across all AI platforms and built the playbook for winning in the AI-first era of local search.
                 </p>
                 <div className="flex flex-wrap gap-4 mt-3">
-                  <a href="https://theanswerengine.ai" className="text-xs transition-colors hover:opacity-80" style={{ color: '#FF6A00' }}>theanswerengine.ai</a>
-                  <a href="tel:+12134442229" className="text-xs transition-colors hover:opacity-80" style={{ color: '#FF6A00' }}>(213) 444-2229</a>
-                  <a href="mailto:support@theanswerengine.ai" className="text-xs transition-colors hover:opacity-80" style={{ color: '#FF6A00' }}>support@theanswerengine.ai</a>
+                  <a href="https://theanswerengine.ai" className="text-xs transition-colors hover:opacity-80" style={{ color: '#F27D24' }}>theanswerengine.ai</a>
+                  <a href="tel:+12134442229" className="text-xs transition-colors hover:opacity-80" style={{ color: '#F27D24' }}>(213) 444-2229</a>
+                  <a href="mailto:support@theanswerengine.ai" className="text-xs transition-colors hover:opacity-80" style={{ color: '#F27D24' }}>support@theanswerengine.ai</a>
                 </div>
               </div>
             </div>
@@ -1200,9 +1209,9 @@ export default function Page() {
             <div className="relative">
               <div
                 className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full text-xs font-semibold mb-6"
-                style={{ backgroundColor: 'rgba(255,106,0,0.2)', color: '#FF6A00', border: '1px solid rgba(255,106,0,0.4)' }}
+                style={{ backgroundColor: 'rgba(255,106,0,0.2)', color: '#F27D24', border: '1px solid rgba(255,106,0,0.4)' }}
               >
-                <span className="inline-block w-2 h-2 rounded-full animate-pulse" style={{ backgroundColor: '#FF6A00' }} />
+                <span className="inline-block w-2 h-2 rounded-full animate-pulse" style={{ backgroundColor: '#F27D24' }} />
                 Free AI Visibility Assessment Available Now
               </div>
 
@@ -1219,7 +1228,7 @@ export default function Page() {
                   href="/blindspot"
                   className="inline-flex items-center gap-3 px-8 py-4 rounded-xl font-bold text-white text-lg transition-all hover:opacity-90"
                   style={{
-                    backgroundColor: '#FF6A00',
+                    backgroundColor: '#F27D24',
                     boxShadow: '0 0 20px rgba(255,106,0,0.4)',
                   }}
                 >
@@ -1229,7 +1238,7 @@ export default function Page() {
                 <a
                   href="tel:+12134442229"
                   className="inline-flex items-center gap-3 px-8 py-4 rounded-xl font-bold text-base transition-all hover:opacity-80"
-                  style={{ color: '#FF6A00', border: '2px solid rgba(255,106,0,0.4)', backgroundColor: 'rgba(255,106,0,0.08)' }}
+                  style={{ color: '#F27D24', border: '2px solid rgba(255,106,0,0.4)', backgroundColor: 'rgba(255,106,0,0.08)' }}
                 >
                   <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.948V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" /></svg>
                   (213) 444-2229

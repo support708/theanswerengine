@@ -28,14 +28,14 @@ export const metadata: Metadata = {
     'smart speaker market 2026',
     'answer engine optimization',
   ],
-  authors: [{ name: 'The Answer Engine Team' }],
+  authors: [{ name: 'Justin Borges', url: 'https://theanswerengine.ai/about' }],
   openGraph: {
     title: `${title} | The Answer Engine`,
     description,
     type: 'article',
     publishedTime: publishDate,
     modifiedTime: publishDate,
-    authors: ['The Answer Engine Team'],
+    authors: ['https://theanswerengine.ai/about'],
     url: `https://theanswerengine.ai/blog/${slug}`,
     images: [
       {
@@ -76,8 +76,18 @@ const jsonLd = {
       datePublished: '2026-03-30T09:00:00-07:00',
       dateModified: '2026-03-30T09:00:00-07:00',
       author: {
-        '@type': 'Organization',
-        '@id': 'https://theanswerengine.ai/#organization',
+        '@type': 'Person',
+        '@id': 'https://theanswerengine.ai/about#justin-borges',
+        name: 'Justin Borges',
+        jobTitle: 'Founder, The Answer Engine',
+        worksFor: {
+          '@type': 'Organization',
+          name: 'The Answer Engine',
+          url: 'https://theanswerengine.ai',
+        },
+        knowsAbout: ['Answer Engine Optimization', 'AI Search', 'Content Strategy', 'Real Estate Marketing', 'Citation Surface'],
+        url: 'https://theanswerengine.ai/about',
+        image: 'https://theanswerengine.ai/justin-borges.webp',
       },
       publisher: {
         '@type': 'Organization',
@@ -248,13 +258,13 @@ export default function Page() {
                 <path
                   d="M 48 0 L 0 0 0 48"
                   fill="none"
-                  stroke="#FF6A00"
+                  stroke="#F27D24"
                   strokeWidth="0.5"
                 />
                 {/* Voice wave shapes */}
-                <circle cx="24" cy="24" r="6" fill="none" stroke="#FF6A00" strokeWidth="0.3" opacity="0.5" />
-                <circle cx="24" cy="24" r="12" fill="none" stroke="#FF6A00" strokeWidth="0.2" opacity="0.3" />
-                <circle cx="24" cy="24" r="18" fill="none" stroke="#FF6A00" strokeWidth="0.15" opacity="0.2" />
+                <circle cx="24" cy="24" r="6" fill="none" stroke="#F27D24" strokeWidth="0.3" opacity="0.5" />
+                <circle cx="24" cy="24" r="12" fill="none" stroke="#F27D24" strokeWidth="0.2" opacity="0.3" />
+                <circle cx="24" cy="24" r="18" fill="none" stroke="#F27D24" strokeWidth="0.15" opacity="0.2" />
               </pattern>
             </defs>
             <rect width="100%" height="100%" fill="url(#hero-grid-100)" />
@@ -266,7 +276,7 @@ export default function Page() {
             <div className="flex items-center gap-3 mb-6">
               <span
                 className="text-xs font-semibold uppercase tracking-widest px-3 py-1 rounded-full"
-                style={{ backgroundColor: 'rgba(255,106,0,0.15)', color: '#FF6A00', border: '1px solid rgba(255,106,0,0.3)' }}
+                style={{ backgroundColor: 'rgba(255,106,0,0.15)', color: '#F27D24', border: '1px solid rgba(255,106,0,0.3)' }}
               >
                 Platform Deep Dives
               </span>
@@ -279,7 +289,7 @@ export default function Page() {
               style={{ color: '#FFFFFF' }}
             >
               What Happens When You Ask Alexa to{' '}
-              <span style={{ color: '#FF6A00' }}>Find a Business</span>
+              <span style={{ color: '#F27D24' }}>Find a Business</span>
             </h1>
 
             <p className="text-xl text-gray-300 leading-relaxed mb-8 max-w-3xl">
@@ -291,7 +301,7 @@ export default function Page() {
               <Link
                 href="/blindspot"
                 className="inline-flex items-center gap-2 px-6 py-3 rounded-lg font-semibold text-white transition-all hover:opacity-90"
-                style={{ backgroundColor: '#FF6A00' }}
+                style={{ backgroundColor: '#F27D24' }}
               >
                 Check Your Voice Search Visibility
                 <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" /></svg>
@@ -299,7 +309,7 @@ export default function Page() {
               <a
                 href="tel:+12134442229"
                 className="inline-flex items-center gap-2 px-6 py-3 rounded-lg font-semibold transition-all hover:opacity-90"
-                style={{ backgroundColor: 'rgba(255,106,0,0.1)', color: '#FF6A00', border: '1px solid rgba(255,106,0,0.3)' }}
+                style={{ backgroundColor: 'rgba(255,106,0,0.1)', color: '#F27D24', border: '1px solid rgba(255,106,0,0.3)' }}
               >
                 <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.948V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" /></svg>
                 (213) 444-2229
@@ -317,7 +327,7 @@ export default function Page() {
               style={{ backgroundColor: 'rgba(255,106,0,0.08)', border: '1px solid rgba(255,106,0,0.2)' }}
             >
               <div className="ae-stat-emoji text-2xl mb-2">🔊</div>
-              <div className="ae-stat-value ae-accent font-plus-jakarta text-3xl font-extrabold mb-1" style={{ color: '#FF6A00' }}>70.6%</div>
+              <div className="ae-stat-value ae-accent font-plus-jakarta text-3xl font-extrabold mb-1" style={{ color: '#F27D24' }}>70.6%</div>
               <div className="ae-stat-label text-xs text-gray-400 leading-snug">US smart speaker market held by Amazon Echo</div>
               <div className="ae-stat-source text-[10px] text-gray-600 mt-1">eMarketer 2026</div>
             </div>
@@ -326,7 +336,7 @@ export default function Page() {
               style={{ backgroundColor: 'rgba(255,106,0,0.08)', border: '1px solid rgba(255,106,0,0.2)' }}
             >
               <div className="ae-stat-emoji text-2xl mb-2">💰</div>
-              <div className="ae-stat-value ae-accent font-plus-jakarta text-3xl font-extrabold mb-1" style={{ color: '#FF6A00' }}>$17.8B</div>
+              <div className="ae-stat-value ae-accent font-plus-jakarta text-3xl font-extrabold mb-1" style={{ color: '#F27D24' }}>$17.8B</div>
               <div className="ae-stat-label text-xs text-gray-400 leading-snug">Global smart speaker market value in 2026</div>
               <div className="ae-stat-source text-[10px] text-gray-600 mt-1">Grand View Research</div>
             </div>
@@ -335,7 +345,7 @@ export default function Page() {
               style={{ backgroundColor: 'rgba(255,106,0,0.08)', border: '1px solid rgba(255,106,0,0.2)' }}
             >
               <div className="ae-stat-emoji text-2xl mb-2">📈</div>
-              <div className="ae-stat-value ae-accent font-plus-jakarta text-3xl font-extrabold mb-1" style={{ color: '#FF6A00' }}>14.9%</div>
+              <div className="ae-stat-value ae-accent font-plus-jakarta text-3xl font-extrabold mb-1" style={{ color: '#F27D24' }}>14.9%</div>
               <div className="ae-stat-label text-xs text-gray-400 leading-snug">Alexa segment annual growth rate (CAGR)</div>
               <div className="ae-stat-source text-[10px] text-gray-600 mt-1">Mordor Intelligence</div>
             </div>
@@ -344,7 +354,7 @@ export default function Page() {
               style={{ backgroundColor: 'rgba(255,106,0,0.08)', border: '1px solid rgba(255,106,0,0.2)' }}
             >
               <div className="ae-stat-emoji text-2xl mb-2">🏢</div>
-              <div className="ae-stat-value ae-accent font-plus-jakarta text-3xl font-extrabold mb-1" style={{ color: '#FF6A00' }}>~300</div>
+              <div className="ae-stat-value ae-accent font-plus-jakarta text-3xl font-extrabold mb-1" style={{ color: '#F27D24' }}>~300</div>
               <div className="ae-stat-label text-xs text-gray-400 leading-snug">Directories that feed voice assistant data pipelines</div>
               <div className="ae-stat-source text-[10px] text-gray-600 mt-1">BrightLocal 2026</div>
             </div>
@@ -356,40 +366,40 @@ export default function Page() {
             style={{ backgroundColor: '#1a1f2e', border: '1px solid rgba(255,106,0,0.15)' }}
             aria-label="Table of Contents"
           >
-            <h2 className="font-plus-jakarta text-lg font-bold mb-4" style={{ color: '#FF6A00' }}>
+            <h2 className="font-plus-jakarta text-lg font-bold mb-4" style={{ color: '#F27D24' }}>
               In This Article
             </h2>
             <ol className="space-y-2 text-sm text-gray-300">
               <li className="flex items-start gap-2">
-                <span style={{ color: '#FF6A00' }}>01</span>
+                <span style={{ color: '#F27D24' }}>01</span>
                 <a href="#what-alexa-does" className="hover:text-orange-400 transition-colors">What Actually Happens When You Ask Alexa for a Business</a>
               </li>
               <li className="flex items-start gap-2">
-                <span style={{ color: '#FF6A00' }}>02</span>
+                <span style={{ color: '#F27D24' }}>02</span>
                 <a href="#where-alexa-pulls-data" className="hover:text-orange-400 transition-colors">Where Alexa Pulls Its Business Data</a>
               </li>
               <li className="flex items-start gap-2">
-                <span style={{ color: '#FF6A00' }}>03</span>
+                <span style={{ color: '#F27D24' }}>03</span>
                 <a href="#trust-signals" className="hover:text-orange-400 transition-colors">The Trust Signals That Determine Who Gets Named</a>
               </li>
               <li className="flex items-start gap-2">
-                <span style={{ color: '#FF6A00' }}>04</span>
+                <span style={{ color: '#F27D24' }}>04</span>
                 <a href="#alexa-vs-others" className="hover:text-orange-400 transition-colors">Alexa vs Siri vs Google Assistant: How They Differ</a>
               </li>
               <li className="flex items-start gap-2">
-                <span style={{ color: '#FF6A00' }}>05</span>
+                <span style={{ color: '#F27D24' }}>05</span>
                 <a href="#who-wins" className="hover:text-orange-400 transition-colors">Who Wins in Alexa Recommendations (and Who Disappears)</a>
               </li>
               <li className="flex items-start gap-2">
-                <span style={{ color: '#FF6A00' }}>06</span>
+                <span style={{ color: '#F27D24' }}>06</span>
                 <a href="#decision-matrix" className="hover:text-orange-400 transition-colors">Decision Matrix: Is Alexa Finding Your Business?</a>
               </li>
               <li className="flex items-start gap-2">
-                <span style={{ color: '#FF6A00' }}>07</span>
+                <span style={{ color: '#F27D24' }}>07</span>
                 <a href="#cheat-sheet" className="hover:text-orange-400 transition-colors">Alexa Visibility Cheat Sheet</a>
               </li>
               <li className="flex items-start gap-2">
-                <span style={{ color: '#FF6A00' }}>08</span>
+                <span style={{ color: '#F27D24' }}>08</span>
                 <a href="#faq" className="hover:text-orange-400 transition-colors">Frequently Asked Questions</a>
               </li>
             </ol>
@@ -397,7 +407,7 @@ export default function Page() {
 
           {/* Section 1: What Alexa Does */}
           <section id="what-alexa-does" className="mb-14">
-            <div className="ae-section-label text-xs font-semibold uppercase tracking-widest mb-4" style={{ color: '#FF6A00' }}>Section 01</div>
+            <div className="ae-section-label text-xs font-semibold uppercase tracking-widest mb-4" style={{ color: '#F27D24' }}>Section 01</div>
             <h2 className="font-plus-jakarta text-3xl font-bold mb-6" style={{ color: '#FFFFFF' }}>
               What Actually Happens When You Ask Alexa for a Business
             </h2>
@@ -433,12 +443,12 @@ export default function Page() {
             {/* Quote */}
             <div
               className="ae-quote rounded-xl p-6 my-8 border-l-4"
-              style={{ backgroundColor: 'rgba(255,106,0,0.06)', borderLeftColor: '#FF6A00' }}
+              style={{ backgroundColor: 'rgba(255,106,0,0.06)', borderLeftColor: '#F27D24' }}
             >
               <p className="text-gray-200 italic leading-relaxed mb-2">
                 &quot;The businesses that win in voice search are the ones that control what the algorithm sees. Not what the customer searches for.&quot;
               </p>
-              <p className="text-xs text-gray-500">The Answer Engine Team</p>
+              <p className="text-xs text-gray-500">Justin Borges</p>
             </div>
 
             {/* Inline CTA */}
@@ -447,7 +457,7 @@ export default function Page() {
               <Link
                 href="/blindspot"
                 className="inline-flex items-center gap-2 text-sm font-semibold transition-colors hover:opacity-80"
-                style={{ color: '#FF6A00' }}
+                style={{ color: '#F27D24' }}
               >
                 Get Your Free AI Visibility Audit
                 <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" /></svg>
@@ -457,7 +467,7 @@ export default function Page() {
 
           {/* Section 2: Where Alexa Pulls Data */}
           <section id="where-alexa-pulls-data" className="mb-14">
-            <div className="ae-section-label text-xs font-semibold uppercase tracking-widest mb-4" style={{ color: '#FF6A00' }}>Section 02</div>
+            <div className="ae-section-label text-xs font-semibold uppercase tracking-widest mb-4" style={{ color: '#F27D24' }}>Section 02</div>
             <h2 className="font-plus-jakarta text-3xl font-bold mb-6" style={{ color: '#FFFFFF' }}>
               Where Alexa Pulls Its Business Data
             </h2>
@@ -496,9 +506,9 @@ export default function Page() {
               style={{ backgroundColor: 'rgba(255,106,0,0.06)', border: '1px solid rgba(255,106,0,0.2)' }}
             >
               <div className="flex items-start gap-3">
-                <svg className="w-5 h-5 mt-0.5 flex-shrink-0" style={{ color: '#FF6A00' }} fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
+                <svg className="w-5 h-5 mt-0.5 flex-shrink-0" style={{ color: '#F27D24' }} fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
                 <div>
-                  <p className="font-semibold mb-1" style={{ color: '#FF6A00' }}>Key Takeaway</p>
+                  <p className="font-semibold mb-1" style={{ color: '#F27D24' }}>Key Takeaway</p>
                   <p className="text-sm text-gray-300 leading-relaxed">
                     Alexa&apos;s data pipeline is indirect. You influence it by controlling the sources it trusts. The businesses that dominate Alexa recommendations are the ones that have solved the upstream data consistency problem across hundreds of directories. This is not something most businesses can brute-force alone.
                   </p>
@@ -511,7 +521,7 @@ export default function Page() {
               <Link
                 href="/blog/directory-listings-that-help-ai-find-business"
                 className="inline-flex items-center gap-2 text-sm font-semibold transition-colors hover:opacity-80"
-                style={{ color: '#FF6A00' }}
+                style={{ color: '#F27D24' }}
               >
                 Directory Listings That Help AI Find Your Business
                 <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" /></svg>
@@ -533,7 +543,7 @@ export default function Page() {
 
           {/* Section 3: Trust Signals */}
           <section id="trust-signals" className="mb-14">
-            <div className="ae-section-label text-xs font-semibold uppercase tracking-widest mb-4" style={{ color: '#FF6A00' }}>Section 03</div>
+            <div className="ae-section-label text-xs font-semibold uppercase tracking-widest mb-4" style={{ color: '#F27D24' }}>Section 03</div>
             <h2 className="font-plus-jakarta text-3xl font-bold mb-6" style={{ color: '#FFFFFF' }}>
               The Trust Signals That Determine Who Gets Named
             </h2>
@@ -552,7 +562,7 @@ export default function Page() {
                   className="w-10 h-10 rounded-lg flex items-center justify-center mb-4"
                   style={{ backgroundColor: 'rgba(255,106,0,0.15)' }}
                 >
-                  <svg className="w-5 h-5" style={{ color: '#FF6A00' }} fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M11.049 2.927c.3-.921 1.603-.921 1.902 0l1.519 4.674a1 1 0 00.95.69h4.915c.969 0 1.371 1.24.588 1.81l-3.976 2.888a1 1 0 00-.363 1.118l1.518 4.674c.3.922-.755 1.688-1.538 1.118l-3.976-2.888a1 1 0 00-1.176 0l-3.976 2.888c-.783.57-1.838-.197-1.538-1.118l1.518-4.674a1 1 0 00-.363-1.118l-3.976-2.888c-.784-.57-.38-1.81.588-1.81h4.914a1 1 0 00.951-.69l1.519-4.674z" /></svg>
+                  <svg className="w-5 h-5" style={{ color: '#F27D24' }} fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M11.049 2.927c.3-.921 1.603-.921 1.902 0l1.519 4.674a1 1 0 00.95.69h4.915c.969 0 1.371 1.24.588 1.81l-3.976 2.888a1 1 0 00-.363 1.118l1.518 4.674c.3.922-.755 1.688-1.538 1.118l-3.976-2.888a1 1 0 00-1.176 0l-3.976 2.888c-.783.57-1.838-.197-1.538-1.118l1.518-4.674a1 1 0 00-.363-1.118l-3.976-2.888c-.784-.57-.38-1.81.588-1.81h4.914a1 1 0 00.951-.69l1.519-4.674z" /></svg>
                 </div>
                 <h3 className="font-plus-jakarta font-bold text-white mb-2">1. Review Quality and Volume</h3>
                 <p className="text-sm text-gray-400 leading-relaxed">
@@ -568,7 +578,7 @@ export default function Page() {
                   className="w-10 h-10 rounded-lg flex items-center justify-center mb-4"
                   style={{ backgroundColor: 'rgba(255,106,0,0.15)' }}
                 >
-                  <svg className="w-5 h-5" style={{ color: '#FF6A00' }} fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" /></svg>
+                  <svg className="w-5 h-5" style={{ color: '#F27D24' }} fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" /></svg>
                 </div>
                 <h3 className="font-plus-jakarta font-bold text-white mb-2">2. Data Consistency (Trust)</h3>
                 <p className="text-sm text-gray-400 leading-relaxed">
@@ -584,7 +594,7 @@ export default function Page() {
                   className="w-10 h-10 rounded-lg flex items-center justify-center mb-4"
                   style={{ backgroundColor: 'rgba(255,106,0,0.15)' }}
                 >
-                  <svg className="w-5 h-5" style={{ color: '#FF6A00' }} fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4" /></svg>
+                  <svg className="w-5 h-5" style={{ color: '#F27D24' }} fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4" /></svg>
                 </div>
                 <h3 className="font-plus-jakarta font-bold text-white mb-2">3. Category Authority</h3>
                 <p className="text-sm text-gray-400 leading-relaxed">
@@ -600,7 +610,7 @@ export default function Page() {
                   className="w-10 h-10 rounded-lg flex items-center justify-center mb-4"
                   style={{ backgroundColor: 'rgba(255,106,0,0.15)' }}
                 >
-                  <svg className="w-5 h-5" style={{ color: '#FF6A00' }} fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M7 20l4-16m2 16l4-16M6 9h14M4 15h14" /></svg>
+                  <svg className="w-5 h-5" style={{ color: '#F27D24' }} fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M7 20l4-16m2 16l4-16M6 9h14M4 15h14" /></svg>
                 </div>
                 <h3 className="font-plus-jakarta font-bold text-white mb-2">4. Structured Data Signals</h3>
                 <p className="text-sm text-gray-400 leading-relaxed">
@@ -630,7 +640,7 @@ export default function Page() {
               <a
                 href="mailto:support@theanswerengine.ai"
                 className="inline-flex items-center gap-2 text-sm font-semibold transition-colors hover:opacity-80"
-                style={{ color: '#FF6A00' }}
+                style={{ color: '#F27D24' }}
               >
                 Email Us for a Full Voice Search Signal Audit
                 <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" /></svg>
@@ -640,7 +650,7 @@ export default function Page() {
 
           {/* Section 4: Alexa vs Others */}
           <section id="alexa-vs-others" className="mb-14">
-            <div className="ae-section-label text-xs font-semibold uppercase tracking-widest mb-4" style={{ color: '#FF6A00' }}>Section 04</div>
+            <div className="ae-section-label text-xs font-semibold uppercase tracking-widest mb-4" style={{ color: '#F27D24' }}>Section 04</div>
             <h2 className="font-plus-jakarta text-3xl font-bold mb-6" style={{ color: '#FFFFFF' }}>
               Alexa vs Siri vs Google Assistant: How They Differ
             </h2>
@@ -656,7 +666,7 @@ export default function Page() {
                 <thead>
                   <tr style={{ backgroundColor: 'rgba(255,106,0,0.12)' }}>
                     <th className="text-left p-4 font-plus-jakarta font-semibold text-white">Feature</th>
-                    <th className="text-left p-4 font-plus-jakarta font-semibold" style={{ color: '#FF6A00' }}>Amazon Alexa</th>
+                    <th className="text-left p-4 font-plus-jakarta font-semibold" style={{ color: '#F27D24' }}>Amazon Alexa</th>
                     <th className="text-left p-4 font-plus-jakarta font-semibold text-gray-300">Apple Siri</th>
                     <th className="text-left p-4 font-plus-jakarta font-semibold text-gray-300">Google Assistant</th>
                   </tr>
@@ -711,7 +721,7 @@ export default function Page() {
               <Link
                 href="/blog/how-siri-decides-which-businesses-to-suggest"
                 className="inline-flex items-center gap-2 text-sm font-semibold transition-colors hover:opacity-80"
-                style={{ color: '#FF6A00' }}
+                style={{ color: '#F27D24' }}
               >
                 How Siri Decides Which Businesses to Suggest
                 <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" /></svg>
@@ -721,7 +731,7 @@ export default function Page() {
 
           {/* Section 5: Who Wins */}
           <section id="who-wins" className="mb-14">
-            <div className="ae-section-label text-xs font-semibold uppercase tracking-widest mb-4" style={{ color: '#FF6A00' }}>Section 05</div>
+            <div className="ae-section-label text-xs font-semibold uppercase tracking-widest mb-4" style={{ color: '#F27D24' }}>Section 05</div>
             <h2 className="font-plus-jakarta text-3xl font-bold mb-6" style={{ color: '#FFFFFF' }}>
               Who Wins in Alexa Recommendations (and Who Disappears)
             </h2>
@@ -793,9 +803,9 @@ export default function Page() {
               style={{ backgroundColor: 'rgba(255,106,0,0.08)', border: '1px solid rgba(255,106,0,0.3)' }}
             >
               <div className="flex items-start gap-3">
-                <svg className="w-5 h-5 mt-0.5 flex-shrink-0" style={{ color: '#FF6A00' }} fill="currentColor" viewBox="0 0 20 20"><path fillRule="evenodd" d="M12.395 2.553a1 1 0 00-1.45-.385c-.345.23-.614.558-.822.88-.214.33-.403.713-.57 1.116-.334.804-.614 1.768-.84 2.734a31.365 31.365 0 00-.613 3.58 2.64 2.64 0 01-.945-1.067c-.328-.68-.398-1.534-.398-2.654A1 1 0 005.05 6.05 6.981 6.981 0 003 11a7 7 0 1011.95-4.95c-.592-.591-.98-.985-1.348-1.467-.363-.476-.724-1.063-1.207-2.03zM12.12 15.12A3 3 0 017 13s.879.5 2.5.5c0-1 .5-4 1.25-4.5.5 1 .786 1.293 1.371 1.879A2.99 2.99 0 0113 13a2.99 2.99 0 01-.879 2.121z" clipRule="evenodd" /></svg>
+                <svg className="w-5 h-5 mt-0.5 flex-shrink-0" style={{ color: '#F27D24' }} fill="currentColor" viewBox="0 0 20 20"><path fillRule="evenodd" d="M12.395 2.553a1 1 0 00-1.45-.385c-.345.23-.614.558-.822.88-.214.33-.403.713-.57 1.116-.334.804-.614 1.768-.84 2.734a31.365 31.365 0 00-.613 3.58 2.64 2.64 0 01-.945-1.067c-.328-.68-.398-1.534-.398-2.654A1 1 0 005.05 6.05 6.981 6.981 0 003 11a7 7 0 1011.95-4.95c-.592-.591-.98-.985-1.348-1.467-.363-.476-.724-1.063-1.207-2.03zM12.12 15.12A3 3 0 017 13s.879.5 2.5.5c0-1 .5-4 1.25-4.5.5 1 .786 1.293 1.371 1.879A2.99 2.99 0 0113 13a2.99 2.99 0 01-.879 2.121z" clipRule="evenodd" /></svg>
                 <div>
-                  <p className="font-semibold mb-1" style={{ color: '#FF6A00' }}>The Upstream Data Problem Nobody Talks About</p>
+                  <p className="font-semibold mb-1" style={{ color: '#F27D24' }}>The Upstream Data Problem Nobody Talks About</p>
                   <p className="text-sm text-gray-300 leading-relaxed">
                     The businesses that win with Alexa are not doing one thing well. They have solved the data consistency problem across hundreds of sources simultaneously. That is the real competitive moat. It is not about being on Yelp. It is about having clean, consistent, authoritative data everywhere Alexa looks. Fixing this at scale is what separates businesses that get named from those that get skipped.
                   </p>
@@ -808,7 +818,7 @@ export default function Page() {
               <Link
                 href="/blog/how-do-i-get-my-business-found-voice-search-ai"
                 className="inline-flex items-center gap-2 text-sm font-semibold transition-colors hover:opacity-80"
-                style={{ color: '#FF6A00' }}
+                style={{ color: '#F27D24' }}
               >
                 How Do I Get My Business Found in Voice Search and AI?
                 <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" /></svg>
@@ -818,7 +828,7 @@ export default function Page() {
 
           {/* Section 6: Decision Matrix */}
           <section id="decision-matrix" className="mb-14">
-            <div className="ae-section-label text-xs font-semibold uppercase tracking-widest mb-4" style={{ color: '#FF6A00' }}>Section 06</div>
+            <div className="ae-section-label text-xs font-semibold uppercase tracking-widest mb-4" style={{ color: '#F27D24' }}>Section 06</div>
             <h2 className="font-plus-jakarta text-3xl font-bold mb-6" style={{ color: '#FFFFFF' }}>
               Decision Matrix: Is Alexa Finding Your Business?
             </h2>
@@ -906,14 +916,14 @@ export default function Page() {
                 <Link
                   href="/blindspot"
                   className="inline-flex items-center gap-2 text-sm font-semibold px-4 py-2 rounded-lg text-white transition-all hover:opacity-90"
-                  style={{ backgroundColor: '#FF6A00' }}
+                  style={{ backgroundColor: '#F27D24' }}
                 >
                   Get Your Full Alexa Readiness Score
                 </Link>
                 <a
                   href="tel:+12134442229"
                   className="inline-flex items-center gap-2 text-sm font-semibold transition-colors hover:opacity-80"
-                  style={{ color: '#FF6A00' }}
+                  style={{ color: '#F27D24' }}
                 >
                   Or call (213) 444-2229
                 </a>
@@ -934,7 +944,7 @@ export default function Page() {
                   className="block p-4 rounded-lg transition-all hover:border-orange-500"
                   style={{ backgroundColor: 'rgba(255,106,0,0.05)', border: '1px solid rgba(255,106,0,0.1)' }}
                 >
-                  <p className="text-xs uppercase tracking-wide mb-1" style={{ color: '#FF6A00' }}>Platform Deep Dive</p>
+                  <p className="text-xs uppercase tracking-wide mb-1" style={{ color: '#F27D24' }}>Platform Deep Dive</p>
                   <p className="text-sm font-semibold text-white leading-snug">How Siri Decides Which Businesses to Suggest</p>
                 </Link>
                 <Link
@@ -942,7 +952,7 @@ export default function Page() {
                   className="block p-4 rounded-lg transition-all hover:border-orange-500"
                   style={{ backgroundColor: 'rgba(255,106,0,0.05)', border: '1px solid rgba(255,106,0,0.1)' }}
                 >
-                  <p className="text-xs uppercase tracking-wide mb-1" style={{ color: '#FF6A00' }}>Directory Strategy</p>
+                  <p className="text-xs uppercase tracking-wide mb-1" style={{ color: '#F27D24' }}>Directory Strategy</p>
                   <p className="text-sm font-semibold text-white leading-snug">Directory Listings That Help AI Find Your Business</p>
                 </Link>
                 <Link
@@ -950,7 +960,7 @@ export default function Page() {
                   className="block p-4 rounded-lg transition-all hover:border-orange-500"
                   style={{ backgroundColor: 'rgba(255,106,0,0.05)', border: '1px solid rgba(255,106,0,0.1)' }}
                 >
-                  <p className="text-xs uppercase tracking-wide mb-1" style={{ color: '#FF6A00' }}>Voice Search Guide</p>
+                  <p className="text-xs uppercase tracking-wide mb-1" style={{ color: '#F27D24' }}>Voice Search Guide</p>
                   <p className="text-sm font-semibold text-white leading-snug">How Do I Get My Business Found in Voice Search and AI?</p>
                 </Link>
                 <Link
@@ -958,7 +968,7 @@ export default function Page() {
                   className="block p-4 rounded-lg transition-all hover:border-orange-500"
                   style={{ backgroundColor: 'rgba(255,106,0,0.05)', border: '1px solid rgba(255,106,0,0.1)' }}
                 >
-                  <p className="text-xs uppercase tracking-wide mb-1" style={{ color: '#FF6A00' }}>AI Platform Signals</p>
+                  <p className="text-xs uppercase tracking-wide mb-1" style={{ color: '#F27D24' }}>AI Platform Signals</p>
                   <p className="text-sm font-semibold text-white leading-snug">How AI Platforms Choose Which Businesses to Cite</p>
                 </Link>
               </div>
@@ -967,7 +977,7 @@ export default function Page() {
 
           {/* Section 7: Cheat Sheet */}
           <section id="cheat-sheet" className="mb-14">
-            <div className="ae-section-label text-xs font-semibold uppercase tracking-widest mb-4" style={{ color: '#FF6A00' }}>Section 07</div>
+            <div className="ae-section-label text-xs font-semibold uppercase tracking-widest mb-4" style={{ color: '#F27D24' }}>Section 07</div>
             <h2 className="font-plus-jakarta text-3xl font-bold mb-6" style={{ color: '#FFFFFF' }}>
               Alexa Visibility Cheat Sheet
             </h2>
@@ -981,14 +991,14 @@ export default function Page() {
                   className="w-10 h-10 rounded-lg flex items-center justify-center"
                   style={{ backgroundColor: 'rgba(255,106,0,0.2)' }}
                 >
-                  <svg className="w-5 h-5" style={{ color: '#FF6A00' }} fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-6 9l2 2 4-4" /></svg>
+                  <svg className="w-5 h-5" style={{ color: '#F27D24' }} fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-6 9l2 2 4-4" /></svg>
                 </div>
                 <h3 className="font-plus-jakarta text-xl font-bold text-white">Amazon Alexa Optimization Quick Reference</h3>
               </div>
 
               <div className="grid md:grid-cols-2 gap-6">
                 <div>
-                  <h4 className="font-semibold mb-3" style={{ color: '#FF6A00' }}>Foundation (Do These First)</h4>
+                  <h4 className="font-semibold mb-3" style={{ color: '#F27D24' }}>Foundation (Do These First)</h4>
                   <ul className="space-y-2">
                     {[
                       'Claim and fully complete your Yelp Business profile',
@@ -999,7 +1009,7 @@ export default function Page() {
                       'Add LocalBusiness schema markup to your website',
                     ].map((item) => (
                       <li key={item} className="flex items-start gap-2 text-sm text-gray-300">
-                        <span style={{ color: '#FF6A00' }} className="mt-0.5">&#8594;</span>
+                        <span style={{ color: '#F27D24' }} className="mt-0.5">&#8594;</span>
                         {item}
                       </li>
                     ))}
@@ -1007,7 +1017,7 @@ export default function Page() {
                 </div>
 
                 <div>
-                  <h4 className="font-semibold mb-3" style={{ color: '#FF6A00' }}>Authority Amplifiers (Do These Next)</h4>
+                  <h4 className="font-semibold mb-3" style={{ color: '#F27D24' }}>Authority Amplifiers (Do These Next)</h4>
                   <ul className="space-y-2">
                     {[
                       'Build a steady flow of Yelp reviews (respond to every one)',
@@ -1018,7 +1028,7 @@ export default function Page() {
                       'Monitor your Yelp ratings and address negative reviews promptly',
                     ].map((item) => (
                       <li key={item} className="flex items-start gap-2 text-sm text-gray-300">
-                        <span style={{ color: '#FF6A00' }} className="mt-0.5">&#8594;</span>
+                        <span style={{ color: '#F27D24' }} className="mt-0.5">&#8594;</span>
                         {item}
                       </li>
                     ))}
@@ -1026,7 +1036,7 @@ export default function Page() {
                 </div>
 
                 <div>
-                  <h4 className="font-semibold mb-3" style={{ color: '#FF6A00' }}>Advanced Signals (Differentiate)</h4>
+                  <h4 className="font-semibold mb-3" style={{ color: '#F27D24' }}>Advanced Signals (Differentiate)</h4>
                   <ul className="space-y-2">
                     {[
                       'Get mentioned in local publications and authoritative websites',
@@ -1036,7 +1046,7 @@ export default function Page() {
                       'Maintain quarterly audit cycles across all directory listings',
                     ].map((item) => (
                       <li key={item} className="flex items-start gap-2 text-sm text-gray-300">
-                        <span style={{ color: '#FF6A00' }} className="mt-0.5">&#8594;</span>
+                        <span style={{ color: '#F27D24' }} className="mt-0.5">&#8594;</span>
                         {item}
                       </li>
                     ))}
@@ -1068,7 +1078,7 @@ export default function Page() {
               <a
                 href="tel:+12134442229"
                 className="inline-flex items-center gap-2 text-sm font-semibold transition-colors hover:opacity-80"
-                style={{ color: '#FF6A00' }}
+                style={{ color: '#F27D24' }}
               >
                 <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.948V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" /></svg>
                 Call (213) 444-2229 for a Voice Search Strategy Session
@@ -1077,14 +1087,14 @@ export default function Page() {
           </section>
 
           {/* 3-Tier CTA Block (MANDATORY before FAQ) */}
-          <div className="not-prose my-16 p-8 rounded-2xl bg-gradient-to-br from-[#FF6A00]/10 to-transparent border border-[#FF6A00]/20">
+          <div className="not-prose my-16 p-8 rounded-2xl bg-gradient-to-br from-[#F27D24]/10 to-transparent border border-[#F27D24]/20">
             <h3 className="font-plus-jakarta text-2xl font-bold text-white mb-3">Alexa, Siri, and ChatGPT All Check the Same Signals. Are Yours Ready?</h3>
             <p className="text-gray-400 mb-6">Our free Blind Spot Report shows exactly how voice assistants and AI platforms see your business right now.</p>
-            <Link href="/blindspot" className="inline-flex items-center gap-2 bg-[#FF6A00] text-white px-6 py-3 rounded-lg font-semibold hover:bg-[#e55f00] transition-colors">
+            <Link href="/blindspot" className="inline-flex items-center gap-2 bg-[#F27D24] text-white px-6 py-3 rounded-lg font-semibold hover:bg-[#D96416] transition-colors">
               Get Your Free Blind Spot Report
               <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" /></svg>
             </Link>
-            <div className="flex flex-wrap items-center gap-6 mt-6 pt-6 border-t border-[#FF6A00]/10">
+            <div className="flex flex-wrap items-center gap-6 mt-6 pt-6 border-t border-[#F27D24]/10">
               <a href="tel:+12134442229" className="flex items-center gap-2 text-gray-400 hover:text-white transition-colors">
                 <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" /></svg>
                 (213) 444-2229
@@ -1098,7 +1108,7 @@ export default function Page() {
 
           {/* FAQ Section */}
           <section id="faq" className="mb-14">
-            <div className="ae-section-label text-xs font-semibold uppercase tracking-widest mb-4" style={{ color: '#FF6A00' }}>Section 08</div>
+            <div className="ae-section-label text-xs font-semibold uppercase tracking-widest mb-4" style={{ color: '#F27D24' }}>Section 08</div>
             <h2 className="font-plus-jakarta text-3xl font-bold mb-8" style={{ color: '#FFFFFF' }}>
               Frequently Asked Questions
             </h2>
@@ -1151,7 +1161,7 @@ export default function Page() {
                 <a
                   href="mailto:support@theanswerengine.ai"
                   className="inline-flex items-center gap-2 text-sm font-semibold transition-colors hover:opacity-80"
-                  style={{ color: '#FF6A00' }}
+                  style={{ color: '#F27D24' }}
                 >
                   Email support@theanswerengine.ai
                 </a>
@@ -1159,7 +1169,7 @@ export default function Page() {
                 <a
                   href="tel:+12134442229"
                   className="inline-flex items-center gap-2 text-sm font-semibold transition-colors hover:opacity-80"
-                  style={{ color: '#FF6A00' }}
+                  style={{ color: '#F27D24' }}
                 >
                   Call (213) 444-2229
                 </a>
@@ -1168,28 +1178,17 @@ export default function Page() {
           </section>
 
           {/* Author Card */}
-          <div
-            className="ae-author-card rounded-xl p-6 mb-14"
-            style={{ backgroundColor: '#1a1f2e', border: '1px solid rgba(255,106,0,0.15)' }}
-          >
-            <div className="flex items-start gap-4">
-              <div
-                className="ae-author-avatar w-14 h-14 rounded-full flex items-center justify-center flex-shrink-0 font-plus-jakarta font-extrabold text-xl"
-                style={{ backgroundColor: 'rgba(255,106,0,0.2)', color: '#FF6A00' }}
-              >
-                AE
-              </div>
+          <div className="not-prose">
+            <div className="ae-author-card">
+              <img
+                src="/justin-borges.webp"
+                alt="Justin Borges, Founder of The Answer Engine"
+                style={{ width: 64, height: 64, borderRadius: '50%', objectFit: 'cover', flexShrink: 0 }}
+              />
               <div>
-                <p className="font-plus-jakarta font-bold text-white mb-1">The Answer Engine Team</p>
-                <p className="text-xs text-gray-500 mb-2">Published March 30, 2026 · Platform Deep Dives</p>
-                <p className="text-sm text-gray-400 leading-relaxed">
-                  The Answer Engine is a Los Angeles-based AEO and AI visibility agency. We help local businesses get recommended by Amazon Alexa, Siri, Google Assistant, ChatGPT, Perplexity, and every other major AI and voice platform. Our team has audited hundreds of businesses across all AI and voice ecosystems and built the playbook for winning in the voice-first, AI-first era of local search.
-                </p>
-                <div className="flex flex-wrap gap-4 mt-3">
-                  <a href="https://theanswerengine.ai" className="text-xs transition-colors hover:opacity-80" style={{ color: '#FF6A00' }}>theanswerengine.ai</a>
-                  <a href="tel:+12134442229" className="text-xs transition-colors hover:opacity-80" style={{ color: '#FF6A00' }}>(213) 444-2229</a>
-                  <a href="mailto:support@theanswerengine.ai" className="text-xs transition-colors hover:opacity-80" style={{ color: '#FF6A00' }}>support@theanswerengine.ai</a>
-                </div>
+                <div className="ae-author-name" style={{ fontWeight: 600 }}>Justin Borges</div>
+                <div className="ae-author-role" style={{ fontWeight: 400 }}>Founder, The Answer Engine</div>
+                <p style={{ marginTop: 8, fontSize: '0.875rem', color: 'rgba(255,255,255,0.65)', lineHeight: 1.6 }}>Justin Borges founded The Answer Engine in 2025 after 13+ years in real estate, $200M+ in production, and discovering that AI search rankings now decide who gets cited as the answer. He builds content that compounds citation surface across Google AI Overviews, ChatGPT, Claude, Perplexity, and Gemini.</p>
               </div>
             </div>
           </div>
@@ -1213,9 +1212,9 @@ export default function Page() {
               <div className="relative">
                 <div
                   className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full text-xs font-semibold mb-6"
-                  style={{ backgroundColor: 'rgba(255,106,0,0.2)', color: '#FF6A00', border: '1px solid rgba(255,106,0,0.4)' }}
+                  style={{ backgroundColor: 'rgba(255,106,0,0.2)', color: '#F27D24', border: '1px solid rgba(255,106,0,0.4)' }}
                 >
-                  <span className="inline-block w-2 h-2 rounded-full animate-pulse" style={{ backgroundColor: '#FF6A00' }} />
+                  <span className="inline-block w-2 h-2 rounded-full animate-pulse" style={{ backgroundColor: '#F27D24' }} />
                   Free AI Visibility Assessment Available Now
                 </div>
 
@@ -1232,7 +1231,7 @@ export default function Page() {
                     href="/blindspot"
                     className="ae-cta-primary inline-flex items-center gap-3 px-8 py-4 rounded-xl font-bold text-white text-lg transition-all hover:opacity-90"
                     style={{
-                      backgroundColor: '#FF6A00',
+                      backgroundColor: '#F27D24',
                       boxShadow: '0 0 20px rgba(255,106,0,0.4)',
                     }}
                   >
@@ -1241,7 +1240,7 @@ export default function Page() {
                   <a
                     href="tel:+12134442229"
                     className="inline-flex items-center gap-3 px-8 py-4 rounded-xl font-bold text-base transition-all hover:opacity-80"
-                    style={{ color: '#FF6A00', border: '2px solid rgba(255,106,0,0.4)', backgroundColor: 'rgba(255,106,0,0.08)' }}
+                    style={{ color: '#F27D24', border: '2px solid rgba(255,106,0,0.4)', backgroundColor: 'rgba(255,106,0,0.08)' }}
                   >
                     <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.948V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" /></svg>
                     (213) 444-2229

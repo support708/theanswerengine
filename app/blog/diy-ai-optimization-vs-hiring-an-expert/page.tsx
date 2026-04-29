@@ -30,7 +30,7 @@ export const metadata: Metadata = {
     type: 'article',
     publishedTime: publishDate,
     modifiedTime: publishDate,
-    authors: ['The Answer Engine Team'],
+    authors: ['https://theanswerengine.ai/about'],
     url: `https://theanswerengine.ai/blog/${slug}`,
     images: [
       {
@@ -66,9 +66,18 @@ const jsonLd = {
       datePublished: publishDate,
       dateModified: publishDate,
       author: {
-        '@type': 'Organization',
-        name: 'The Answer Engine',
-        url: 'https://theanswerengine.ai',
+        '@type': 'Person',
+        '@id': 'https://theanswerengine.ai/about#justin-borges',
+        name: 'Justin Borges',
+        jobTitle: 'Founder, The Answer Engine',
+        worksFor: {
+          '@type': 'Organization',
+          name: 'The Answer Engine',
+          url: 'https://theanswerengine.ai',
+        },
+        knowsAbout: ['Answer Engine Optimization', 'AI Search', 'Content Strategy', 'Real Estate Marketing', 'Citation Surface'],
+        url: 'https://theanswerengine.ai/about',
+        image: 'https://theanswerengine.ai/justin-borges.webp',
       },
       publisher: {
         '@type': 'Organization',
@@ -244,34 +253,34 @@ export default function Page() {
             >
               <defs>
                 <pattern id="hero-grid-107" x="0" y="0" width="80" height="80" patternUnits="userSpaceOnUse">
-                  <rect x="0" y="0" width="80" height="80" fill="none" stroke="#FF6A00" strokeWidth="0.3" />
+                  <rect x="0" y="0" width="80" height="80" fill="none" stroke="#F27D24" strokeWidth="0.3" />
                 </pattern>
               </defs>
               <rect width="800" height="400" fill="url(#hero-grid-107)" />
               {/* Balance beam */}
-              <line x1="400" y1="60" x2="400" y2="200" stroke="#FF6A00" strokeWidth="1.5" />
-              <circle cx="400" cy="60" r="8" stroke="#FF6A00" strokeWidth="1" fill="none" />
-              <line x1="250" y1="200" x2="550" y2="200" stroke="#FF6A00" strokeWidth="1.2" />
+              <line x1="400" y1="60" x2="400" y2="200" stroke="#F27D24" strokeWidth="1.5" />
+              <circle cx="400" cy="60" r="8" stroke="#F27D24" strokeWidth="1" fill="none" />
+              <line x1="250" y1="200" x2="550" y2="200" stroke="#F27D24" strokeWidth="1.2" />
               {/* Left pan (DIY) */}
-              <line x1="280" y1="200" x2="250" y2="260" stroke="#FF6A00" strokeWidth="0.8" />
-              <line x1="280" y1="200" x2="310" y2="260" stroke="#FF6A00" strokeWidth="0.8" />
-              <path d="M240 260 Q280 280 320 260" stroke="#FF6A00" strokeWidth="0.8" fill="none" />
-              <text x="280" y="300" textAnchor="middle" fill="#FF6A00" fontSize="11" opacity="0.6">DIY</text>
+              <line x1="280" y1="200" x2="250" y2="260" stroke="#F27D24" strokeWidth="0.8" />
+              <line x1="280" y1="200" x2="310" y2="260" stroke="#F27D24" strokeWidth="0.8" />
+              <path d="M240 260 Q280 280 320 260" stroke="#F27D24" strokeWidth="0.8" fill="none" />
+              <text x="280" y="300" textAnchor="middle" fill="#F27D24" fontSize="11" opacity="0.6">DIY</text>
               {/* Right pan (Expert) */}
-              <line x1="520" y1="200" x2="490" y2="240" stroke="#FF6A00" strokeWidth="0.8" />
-              <line x1="520" y1="200" x2="550" y2="240" stroke="#FF6A00" strokeWidth="0.8" />
-              <path d="M480 240 Q520 260 560 240" stroke="#FF6A00" strokeWidth="0.8" fill="none" />
-              <text x="520" y="280" textAnchor="middle" fill="#FF6A00" fontSize="11" opacity="0.6">EXPERT</text>
+              <line x1="520" y1="200" x2="490" y2="240" stroke="#F27D24" strokeWidth="0.8" />
+              <line x1="520" y1="200" x2="550" y2="240" stroke="#F27D24" strokeWidth="0.8" />
+              <path d="M480 240 Q520 260 560 240" stroke="#F27D24" strokeWidth="0.8" fill="none" />
+              <text x="520" y="280" textAnchor="middle" fill="#F27D24" fontSize="11" opacity="0.6">EXPERT</text>
               {/* Comparison arrows */}
-              <path d="M140 340 L260 340" stroke="#FF6A00" strokeWidth="0.6" strokeDasharray="6 3" />
-              <path d="M250 334 L264 340 L250 346" stroke="#FF6A00" strokeWidth="0.6" fill="none" />
-              <path d="M660 340 L540 340" stroke="#FF6A00" strokeWidth="0.6" strokeDasharray="6 3" />
-              <path d="M550 334 L536 340 L550 346" stroke="#FF6A00" strokeWidth="0.6" fill="none" />
-              <text x="400" y="345" textAnchor="middle" fill="#FF6A00" fontSize="10" opacity="0.5">VS</text>
+              <path d="M140 340 L260 340" stroke="#F27D24" strokeWidth="0.6" strokeDasharray="6 3" />
+              <path d="M250 334 L264 340 L250 346" stroke="#F27D24" strokeWidth="0.6" fill="none" />
+              <path d="M660 340 L540 340" stroke="#F27D24" strokeWidth="0.6" strokeDasharray="6 3" />
+              <path d="M550 334 L536 340 L550 346" stroke="#F27D24" strokeWidth="0.6" fill="none" />
+              <text x="400" y="345" textAnchor="middle" fill="#F27D24" fontSize="10" opacity="0.5">VS</text>
               {/* Dollar signs */}
-              <text x="120" y="130" fill="#FF6A00" fontSize="28" opacity="0.15">$</text>
-              <text x="650" y="150" fill="#FF6A00" fontSize="36" opacity="0.15">$</text>
-              <text x="700" y="90" fill="#FF6A00" fontSize="20" opacity="0.1">$</text>
+              <text x="120" y="130" fill="#F27D24" fontSize="28" opacity="0.15">$</text>
+              <text x="650" y="150" fill="#F27D24" fontSize="36" opacity="0.15">$</text>
+              <text x="700" y="90" fill="#F27D24" fontSize="20" opacity="0.1">$</text>
             </svg>
             <div className="relative px-8 py-16 sm:px-12 sm:py-20">
               <p className="inline-block text-sm font-medium text-orange-400 mb-4 border border-orange-500/30 rounded-full px-4 py-1">
@@ -285,7 +294,7 @@ export default function Page() {
                 <span>-</span>
                 <span>14 min read</span>
                 <span>-</span>
-                <span>The Answer Engine Team</span>
+                <span>Justin Borges</span>
               </div>
             </div>
           </div>
@@ -331,7 +340,7 @@ export default function Page() {
           </div>
 
           {/* Article Body */}
-          <article className="prose prose-invert prose-lg max-w-none prose-headings:font-plus-jakarta prose-headings:text-white prose-p:text-gray-300 prose-a:text-[#FF6A00] prose-a:no-underline hover:prose-a:underline prose-strong:text-white">
+          <article className="prose prose-invert prose-lg max-w-none prose-headings:font-plus-jakarta prose-headings:text-white prose-p:text-gray-300 prose-a:text-[#F27D24] prose-a:no-underline hover:prose-a:underline prose-strong:text-white">
 
             {/* Intro */}
             <p className="text-xl text-gray-300 leading-relaxed mb-10">
@@ -575,7 +584,7 @@ export default function Page() {
                     leads: '4 to 8 weeks to first AI citations',
                     costPerLead: '$50 to $150 per lead (after ramp)',
                     note: 'Higher cash outlay, fast results, compounding ROI',
-                    color: '#FF6A00',
+                    color: '#F27D24',
                   },
                 ].map((item) => (
                   <div
@@ -892,14 +901,14 @@ export default function Page() {
           </article>
 
           {/* 3-Tier CTA Block */}
-          <div className="not-prose my-16 p-8 rounded-2xl bg-gradient-to-br from-[#FF6A00]/10 to-transparent border border-[#FF6A00]/20">
+          <div className="not-prose my-16 p-8 rounded-2xl bg-gradient-to-br from-[#F27D24]/10 to-transparent border border-[#F27D24]/20">
             <h3 className="font-plus-jakarta text-2xl font-bold text-white mb-3">Stop Guessing. Start With Data.</h3>
             <p className="text-gray-400 mb-6">Whether you go DIY or hire an expert, the first step is identical: understand where you stand today. Our free Blind Spot Report shows exactly what AI platforms say about your business right now.</p>
-            <Link href="/blindspot" className="inline-flex items-center gap-2 bg-[#FF6A00] text-white px-6 py-3 rounded-lg font-semibold hover:bg-[#e55f00] transition-colors">
+            <Link href="/blindspot" className="inline-flex items-center gap-2 bg-[#F27D24] text-white px-6 py-3 rounded-lg font-semibold hover:bg-[#D96416] transition-colors">
               Get Your Free Blind Spot Report
               <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" /></svg>
             </Link>
-            <div className="flex flex-wrap items-center gap-6 mt-6 pt-6 border-t border-[#FF6A00]/10">
+            <div className="flex flex-wrap items-center gap-6 mt-6 pt-6 border-t border-[#F27D24]/10">
               <a href="tel:+12134442229" className="flex items-center gap-2 text-gray-400 hover:text-white transition-colors">
                 <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" /></svg>
                 (213) 444-2229
@@ -918,7 +927,7 @@ export default function Page() {
                 AE
               </div>
               <div>
-                <p className="text-white font-semibold">The Answer Engine Team</p>
+                <p className="text-white font-semibold">Justin Borges</p>
                 <p className="text-gray-400 text-sm">
                   Helping local service businesses stay visible in an AI-first world.
                   We combine AI-powered research with human strategy to make sure the
@@ -929,7 +938,7 @@ export default function Page() {
           </div>
 
           {/* FAQ Section */}
-          <article className="prose prose-invert prose-lg max-w-none prose-headings:font-plus-jakarta prose-headings:text-white prose-p:text-gray-300 prose-a:text-[#FF6A00] prose-a:no-underline hover:prose-a:underline prose-strong:text-white">
+          <article className="prose prose-invert prose-lg max-w-none prose-headings:font-plus-jakarta prose-headings:text-white prose-p:text-gray-300 prose-a:text-[#F27D24] prose-a:no-underline hover:prose-a:underline prose-strong:text-white">
             <div className="not-prose"><span className="ae-section-label" id="faq">FAQ</span></div>
             <h2 className="text-2xl font-bold text-white mt-4 mb-8 font-plus-jakarta">
               Frequently Asked Questions
@@ -1021,7 +1030,7 @@ export default function Page() {
                 Whether you tackle AI optimization yourself or bring in an expert, the worst decision is doing nothing. Only 1.2% of local businesses currently get recommended by AI platforms. 45% of consumers are already using AI to find services like yours. The gap between visible and invisible businesses is widening every month. Start with a free Blind Spot Report and make your next move based on data, not guesswork.
               </p>
               <Link href="/blindspot">Get Your Free AI Blind Spot Report &#8594;</Link>
-              <div className="flex flex-wrap items-center justify-center gap-6 mt-6 pt-6 border-t border-[#FF6A00]/20">
+              <div className="flex flex-wrap items-center justify-center gap-6 mt-6 pt-6 border-t border-[#F27D24]/20">
                 <a href="tel:+12134442229" className="flex items-center gap-2 text-gray-400 hover:text-white transition-colors">
                   <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" /></svg>
                   (213) 444-2229

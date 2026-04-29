@@ -1,4 +1,26 @@
 import Link from 'next/link';
+import type { Metadata } from 'next';
+
+export const metadata: Metadata = {
+  title: 'How to Get Your Business Recommended by ChatGPT (Case Study: 89% Growth, 5 Deals Closed)',
+  description: 'The exact AEO strategy that produced 89% click growth, 2.9M impressions, and 5 closed deals in 4 months — verified. One business got recommended by ChatGPT. Here is how.',
+  alternates: { canonical: 'https://www.theanswerengine.ai/blog/get-business-recommended-by-chatgpt' },
+  openGraph: {
+    title: 'How to Get Your Business Recommended by ChatGPT (Case Study: 89% Growth)',
+    description: 'The exact AEO strategy: 89% click growth, 2.9M impressions, 5 closed deals in 4 months. Verified case study.',
+    type: 'article',
+    url: 'https://www.theanswerengine.ai/blog/get-business-recommended-by-chatgpt',
+    siteName: 'The Answer Engine',
+    images: [{ url: 'https://www.theanswerengine.ai/blog/get-business-recommended-by-chatgpt.webp', width: 1024, height: 1024, alt: 'How to Get Your Business Recommended by ChatGPT' }],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'How to Get Your Business Recommended by ChatGPT',
+    description: '89% click growth, 2.9M impressions, 5 closed deals. The verified AEO case study.',
+    site: '@theanswerengine',
+    images: ['https://www.theanswerengine.ai/blog/get-business-recommended-by-chatgpt.webp'],
+  },
+};
 
 export default function BlogPost() {
   const jsonLd = {
@@ -15,9 +37,18 @@ export default function BlogPost() {
           "height": 1024
         },
         "author": {
-          "@type": "Organization",
-          "name": "The Answer Engine",
-          "url": "https://theanswerengine.ai"
+          "@type": "Person",
+          "@id": "https://theanswerengine.ai/about#justin-borges",
+          "name": "Justin Borges",
+          "jobTitle": "Founder, The Answer Engine",
+          "worksFor": {
+            "@type": "Organization",
+            "name": "The Answer Engine",
+            "url": "https://theanswerengine.ai"
+          },
+          "knowsAbout": ["Answer Engine Optimization", "AI Search", "Content Strategy", "Real Estate Marketing", "Citation Surface"],
+          "url": "https://theanswerengine.ai/about",
+          "image": "https://theanswerengine.ai/justin-borges.webp"
         },
         "publisher": {
           "@type": "Organization",
@@ -176,7 +207,7 @@ export default function BlogPost() {
           </header>
 
           {/* Main Content with prose */}
-          <div className="prose prose-invert prose-lg max-w-none prose-headings:font-plus-jakarta prose-headings:text-white prose-p:text-gray-300 prose-a:text-[#FF6A00] prose-a:no-underline hover:prose-a:underline prose-strong:text-white">
+          <div className="prose prose-invert prose-lg max-w-none prose-headings:font-plus-jakarta prose-headings:text-white prose-p:text-gray-300 prose-a:text-[#F27D24] prose-a:no-underline hover:prose-a:underline prose-strong:text-white">
 
             {/* ── STATS GRID: 90-Day Results ── */}
             <div className="ae-stats-grid not-prose">
@@ -784,7 +815,7 @@ export default function BlogPost() {
               <h2>Ready to Become the Business AI Recommends?</h2>
               <p>This case study started with a simple question: what happens when deep expertise meets the right content strategy? The answer: 89% click growth, 2.9M impressions, 5 closed deals, and a ChatGPT referral. Your results start with your free blind spot report.</p>
               <Link href="/blindspot" className="ae-final-cta-pulse">Get Your Free Blind Spot Report &rarr;</Link>
-              <div className="flex flex-wrap items-center justify-center gap-6 mt-6 pt-6 border-t border-[#FF6A00]/10">
+              <div className="flex flex-wrap items-center justify-center gap-6 mt-6 pt-6 border-t border-[#F27D24]/10">
                 <a href="tel:+12134442229" className="flex items-center gap-2 text-gray-400 hover:text-white transition-colors">
                   <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" /></svg>
                   (213) 444-2229

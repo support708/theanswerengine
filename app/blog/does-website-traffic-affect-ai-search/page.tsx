@@ -27,7 +27,7 @@ export const metadata: Metadata = {
     description,
     type: 'article',
     publishedTime: publishDate,
-    authors: ['The Answer Engine Team'],
+    authors: ['https://theanswerengine.ai/about'],
     url: `https://theanswerengine.ai/blog/${slug}`,
     images: [{ url: `https://theanswerengine.ai/blog/${slug}.webp`, width: 1200, height: 630, alt: title }],
   },
@@ -51,9 +51,18 @@ const jsonLd = {
       datePublished: publishDate,
       dateModified: publishDate,
       author: {
-        '@type': 'Organization',
-        name: 'The Answer Engine',
-        url: 'https://theanswerengine.ai',
+        '@type': 'Person',
+        '@id': 'https://theanswerengine.ai/about#justin-borges',
+        name: 'Justin Borges',
+        jobTitle: 'Founder, The Answer Engine',
+        worksFor: {
+          '@type': 'Organization',
+          name: 'The Answer Engine',
+          url: 'https://theanswerengine.ai',
+        },
+        knowsAbout: ['Answer Engine Optimization', 'AI Search', 'Content Strategy', 'Real Estate Marketing', 'Citation Surface'],
+        url: 'https://theanswerengine.ai/about',
+        image: 'https://theanswerengine.ai/justin-borges.webp',
       },
       publisher: {
         '@type': 'Organization',
@@ -181,21 +190,21 @@ export default function Page() {
             </defs>
             <rect width="1200" height="400" fill="url(#art186-bg)" />
             {/* Traffic bar chart going up */}
-            <rect x="160" y="280" width="40" height="60" rx="3" fill="#FF6A00" fillOpacity="0.3" />
-            <rect x="220" y="240" width="40" height="100" rx="3" fill="#FF6A00" fillOpacity="0.4" />
-            <rect x="280" y="190" width="40" height="150" rx="3" fill="#FF6A00" fillOpacity="0.5" />
-            <rect x="340" y="150" width="40" height="190" rx="3" fill="#FF6A00" fillOpacity="0.6" />
-            <rect x="400" y="110" width="40" height="230" rx="3" fill="#FF6A00" fillOpacity="0.7" />
+            <rect x="160" y="280" width="40" height="60" rx="3" fill="#F27D24" fillOpacity="0.3" />
+            <rect x="220" y="240" width="40" height="100" rx="3" fill="#F27D24" fillOpacity="0.4" />
+            <rect x="280" y="190" width="40" height="150" rx="3" fill="#F27D24" fillOpacity="0.5" />
+            <rect x="340" y="150" width="40" height="190" rx="3" fill="#F27D24" fillOpacity="0.6" />
+            <rect x="400" y="110" width="40" height="230" rx="3" fill="#F27D24" fillOpacity="0.7" />
             <text x="225" y="350" fill="#888" fontSize="12" fontFamily="monospace">Traffic</text>
             {/* Arrow with X mark */}
-            <path d="M470,200 L530,200" stroke="#FF6A00" strokeWidth="2" strokeDasharray="6,4" />
+            <path d="M470,200 L530,200" stroke="#F27D24" strokeWidth="2" strokeDasharray="6,4" />
             <circle cx="560" cy="200" r="20" fill="none" stroke="#f87171" strokeWidth="2" />
             <line x1="548" y1="188" x2="572" y2="212" stroke="#f87171" strokeWidth="2.5" />
             <line x1="572" y1="188" x2="548" y2="212" stroke="#f87171" strokeWidth="2.5" />
             {/* AI citation signal column */}
-            <rect x="620" y="130" width="350" height="200" rx="12" fill="#1e2235" stroke="#FF6A00" strokeWidth="1" strokeOpacity="0.3" />
-            <text x="640" y="162" fill="#FF6A00" fontSize="13" fontFamily="monospace" opacity="0.9">What AI Actually Uses</text>
-            <line x1="640" y1="172" x2="950" y2="172" stroke="#FF6A00" strokeWidth="0.5" strokeOpacity="0.3" />
+            <rect x="620" y="130" width="350" height="200" rx="12" fill="#1e2235" stroke="#F27D24" strokeWidth="1" strokeOpacity="0.3" />
+            <text x="640" y="162" fill="#F27D24" fontSize="13" fontFamily="monospace" opacity="0.9">What AI Actually Uses</text>
+            <line x1="640" y1="172" x2="950" y2="172" stroke="#F27D24" strokeWidth="0.5" strokeOpacity="0.3" />
             <text x="640" y="195" fill="#aaa" fontSize="11" fontFamily="monospace">Schema markup</text>
             <text x="640" y="215" fill="#aaa" fontSize="11" fontFamily="monospace">Content authority</text>
             <text x="640" y="235" fill="#aaa" fontSize="11" fontFamily="monospace">Review specificity</text>
@@ -248,7 +257,7 @@ export default function Page() {
         </div>
 
         <div className="ae-cta-inline not-prose">
-          <p>Want to know what AI actually sees about your business? <Link href="/blindspot" className="text-[#FF6A00] hover:underline font-semibold">Get a free Blind Spot Report</Link> and find your real visibility gaps.</p>
+          <p>Want to know what AI actually sees about your business? <Link href="/blindspot" className="text-[#F27D24] hover:underline font-semibold">Get a free Blind Spot Report</Link> and find your real visibility gaps.</p>
         </div>
 
         <div className="ae-decision-matrix not-prose">
@@ -352,7 +361,7 @@ export default function Page() {
         </div>
 
         <div className="ae-cta-inline not-prose">
-          <p>See exactly which AI visibility signals your business is missing. <Link href="/blindspot" className="text-[#FF6A00] hover:underline font-semibold">Get your free Blind Spot Report.</Link></p>
+          <p>See exactly which AI visibility signals your business is missing. <Link href="/blindspot" className="text-[#F27D24] hover:underline font-semibold">Get your free Blind Spot Report.</Link></p>
         </div>
 
         <h2 id="real-signals">The Signals That Actually Drive AI Citations</h2>
@@ -506,23 +515,23 @@ export default function Page() {
         </div>
 
         <div className="ae-cta-inline not-prose">
-          <p>Wondering which misconception is affecting your business most? <Link href="/blindspot" className="text-[#FF6A00] hover:underline font-semibold">Get a free Blind Spot Report</Link> and find out exactly where your AI visibility stands.</p>
+          <p>Wondering which misconception is affecting your business most? <Link href="/blindspot" className="text-[#F27D24] hover:underline font-semibold">Get a free Blind Spot Report</Link> and find out exactly where your AI visibility stands.</p>
         </div>
 
         <div className="ae-callout ae-callout-info not-prose">
           <div className="ae-callout-title">Related Reading</div>
-          <p>For a deeper look at what AI citation signals look like in practice, see <Link href="/blog/how-to-create-content-that-chatgpt-actually-trusts" className="text-[#FF6A00] hover:underline">how to create content ChatGPT trusts</Link> and <Link href="/blog/does-schema-markup-help-ai-search" className="text-[#FF6A00] hover:underline">whether schema markup actually helps AI search</Link>. Both articles go deeper on the specific signals that matter.</p>
+          <p>For a deeper look at what AI citation signals look like in practice, see <Link href="/blog/how-to-create-content-that-chatgpt-actually-trusts" className="text-[#F27D24] hover:underline">how to create content ChatGPT trusts</Link> and <Link href="/blog/does-schema-markup-help-ai-search" className="text-[#F27D24] hover:underline">whether schema markup actually helps AI search</Link>. Both articles go deeper on the specific signals that matter.</p>
         </div>
 
         {/* 3-tier CTA block */}
-        <div className="not-prose my-16 p-8 rounded-2xl bg-gradient-to-br from-[#FF6A00]/10 to-transparent border border-[#FF6A00]/20">
+        <div className="not-prose my-16 p-8 rounded-2xl bg-gradient-to-br from-[#F27D24]/10 to-transparent border border-[#F27D24]/20">
           <h3 className="font-plus-jakarta text-2xl font-bold text-white mb-3">Stop Investing in Signals AI Does Not See</h3>
           <p className="text-gray-400 mb-6">Our free Blind Spot Report shows exactly what ChatGPT, Perplexity, and Google AI know about your business, which signals are missing, and what actually needs to change for you to appear in recommendations.</p>
-          <Link href="/blindspot" className="inline-flex items-center gap-2 bg-[#FF6A00] text-white px-6 py-3 rounded-lg font-semibold hover:bg-[#e55f00] transition-colors">
+          <Link href="/blindspot" className="inline-flex items-center gap-2 bg-[#F27D24] text-white px-6 py-3 rounded-lg font-semibold hover:bg-[#D96416] transition-colors">
             Get Your Free Blind Spot Report
             <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" /></svg>
           </Link>
-          <div className="flex flex-wrap items-center gap-6 mt-6 pt-6 border-t border-[#FF6A00]/10">
+          <div className="flex flex-wrap items-center gap-6 mt-6 pt-6 border-t border-[#F27D24]/10">
             <a href="tel:+12134442229" className="flex items-center gap-2 text-gray-400 hover:text-white transition-colors">
               <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" /></svg>
               (213) 444-2229
@@ -535,13 +544,18 @@ export default function Page() {
         </div>
 
         {/* Author card */}
-        <div className="ae-author-card not-prose">
-          <div className="ae-author-avatar">AE</div>
-          <div>
-            <div className="font-semibold text-white">The Answer Engine Team</div>
-            <div className="text-sm text-gray-400">AI visibility specialists helping local businesses get found, trusted, and recommended by ChatGPT, Perplexity, and Google AI.</div>
-          </div>
-        </div>
+        <div className="ae-author-card">
+              <img
+                src="/justin-borges.webp"
+                alt="Justin Borges, Founder of The Answer Engine"
+                style={{ width: 64, height: 64, borderRadius: '50%', objectFit: 'cover', flexShrink: 0 }}
+              />
+              <div>
+                <div className="ae-author-name" style={{ fontWeight: 600 }}>Justin Borges</div>
+                <div className="ae-author-role" style={{ fontWeight: 400 }}>Founder, The Answer Engine</div>
+                <p style={{ marginTop: 8, fontSize: '0.875rem', color: 'rgba(255,255,255,0.65)', lineHeight: 1.6 }}>Justin Borges founded The Answer Engine in 2025 after 13+ years in real estate, $200M+ in production, and discovering that AI search rankings now decide who gets cited as the answer. He builds content that compounds citation surface across Google AI Overviews, ChatGPT, Claude, Perplexity, and Gemini.</p>
+              </div>
+            </div>
 
         {/* FAQ */}
         <h2 id="faq">Frequently Asked Questions</h2>
@@ -588,7 +602,7 @@ export default function Page() {
         <div className="ae-final-cta not-prose">
           <h2 className="font-plus-jakarta text-3xl font-bold text-white mb-4">Traffic Is Not the Signal. Structure Is.</h2>
           <p className="text-gray-300 mb-8 text-lg">Every month you spend on traffic tactics instead of AI-specific signals is a month your competitors are building the citations you are not. Our Blind Spot Report shows exactly what it will take to change that.</p>
-          <Link href="/blindspot" className="inline-flex items-center gap-2 bg-[#FF6A00] text-white px-8 py-4 rounded-xl font-bold text-lg hover:bg-[#e55f00] transition-colors ae-pulse-glow">
+          <Link href="/blindspot" className="inline-flex items-center gap-2 bg-[#F27D24] text-white px-8 py-4 rounded-xl font-bold text-lg hover:bg-[#D96416] transition-colors ae-pulse-glow">
             Get Your Free Blind Spot Report
             <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" /></svg>
           </Link>

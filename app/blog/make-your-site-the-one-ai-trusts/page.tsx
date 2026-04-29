@@ -31,7 +31,7 @@ export const metadata: Metadata = {
     description,
     type: 'article',
     publishedTime: publishDate,
-    authors: ['The Answer Engine Team'],
+    authors: ['https://theanswerengine.ai/about'],
     url: `https://www.theanswerengine.ai/blog/${slug}`,
     images: [
       {
@@ -64,9 +64,18 @@ const jsonLd = {
       datePublished: publishDate,
       dateModified: publishDate,
       author: {
-        '@type': 'Organization',
-        name: 'The Answer Engine',
-        url: 'https://theanswerengine.ai',
+        '@type': 'Person',
+        '@id': 'https://theanswerengine.ai/about#justin-borges',
+        name: 'Justin Borges',
+        jobTitle: 'Founder, The Answer Engine',
+        worksFor: {
+          '@type': 'Organization',
+          name: 'The Answer Engine',
+          url: 'https://theanswerengine.ai',
+        },
+        knowsAbout: ['Answer Engine Optimization', 'AI Search', 'Content Strategy', 'Real Estate Marketing', 'Citation Surface'],
+        url: 'https://theanswerengine.ai/about',
+        image: 'https://theanswerengine.ai/justin-borges.webp',
       },
       publisher: {
         '@type': 'Organization',
@@ -216,22 +225,22 @@ export default function Page() {
               aria-hidden="true"
             >
               {/* Shield / trust icon pattern */}
-              <path d="M400 50 L450 80 L450 140 L400 170 L350 140 L350 80 Z" stroke="#FF6A00" strokeWidth="1" fill="none" opacity="0.3" />
-              <path d="M400 70 L430 90 L430 130 L400 150 L370 130 L370 90 Z" stroke="#FF6A00" strokeWidth="0.5" fill="none" opacity="0.15" />
-              <line x1="370" y1="108" x2="395" y2="128" stroke="#FF6A00" strokeWidth="1.5" opacity="0.3" />
-              <line x1="395" y1="128" x2="430" y2="90" stroke="#FF6A00" strokeWidth="1.5" opacity="0.3" />
+              <path d="M400 50 L450 80 L450 140 L400 170 L350 140 L350 80 Z" stroke="#F27D24" strokeWidth="1" fill="none" opacity="0.3" />
+              <path d="M400 70 L430 90 L430 130 L400 150 L370 130 L370 90 Z" stroke="#F27D24" strokeWidth="0.5" fill="none" opacity="0.15" />
+              <line x1="370" y1="108" x2="395" y2="128" stroke="#F27D24" strokeWidth="1.5" opacity="0.3" />
+              <line x1="395" y1="128" x2="430" y2="90" stroke="#F27D24" strokeWidth="1.5" opacity="0.3" />
               {/* Signal waves */}
-              <circle cx="600" cy="200" r="40" stroke="#FF6A00" strokeWidth="0.5" fill="none" opacity="0.1" />
-              <circle cx="600" cy="200" r="70" stroke="#FF6A00" strokeWidth="0.5" fill="none" opacity="0.08" />
-              <circle cx="600" cy="200" r="100" stroke="#FF6A00" strokeWidth="0.5" fill="none" opacity="0.06" />
+              <circle cx="600" cy="200" r="40" stroke="#F27D24" strokeWidth="0.5" fill="none" opacity="0.1" />
+              <circle cx="600" cy="200" r="70" stroke="#F27D24" strokeWidth="0.5" fill="none" opacity="0.08" />
+              <circle cx="600" cy="200" r="100" stroke="#F27D24" strokeWidth="0.5" fill="none" opacity="0.06" />
               {/* Connection nodes */}
-              <circle cx="150" cy="100" r="3" fill="#FF6A00" opacity="0.2" />
-              <circle cx="250" cy="300" r="3" fill="#FF6A00" opacity="0.2" />
-              <circle cx="700" cy="100" r="3" fill="#FF6A00" opacity="0.2" />
-              <circle cx="650" cy="350" r="3" fill="#FF6A00" opacity="0.2" />
-              <line x1="150" y1="100" x2="400" y2="110" stroke="#FF6A00" strokeWidth="0.5" opacity="0.08" />
-              <line x1="250" y1="300" x2="400" y2="170" stroke="#FF6A00" strokeWidth="0.5" opacity="0.08" />
-              <line x1="700" y1="100" x2="600" y2="200" stroke="#FF6A00" strokeWidth="0.5" opacity="0.08" />
+              <circle cx="150" cy="100" r="3" fill="#F27D24" opacity="0.2" />
+              <circle cx="250" cy="300" r="3" fill="#F27D24" opacity="0.2" />
+              <circle cx="700" cy="100" r="3" fill="#F27D24" opacity="0.2" />
+              <circle cx="650" cy="350" r="3" fill="#F27D24" opacity="0.2" />
+              <line x1="150" y1="100" x2="400" y2="110" stroke="#F27D24" strokeWidth="0.5" opacity="0.08" />
+              <line x1="250" y1="300" x2="400" y2="170" stroke="#F27D24" strokeWidth="0.5" opacity="0.08" />
+              <line x1="700" y1="100" x2="600" y2="200" stroke="#F27D24" strokeWidth="0.5" opacity="0.08" />
               {/* Dots grid */}
               {[0, 1, 2, 3, 4, 5, 6, 7, 8].map((i) =>
                 [0, 1, 2, 3, 4].map((j) => (
@@ -240,7 +249,7 @@ export default function Page() {
                     cx={50 + i * 90}
                     cy={40 + j * 85}
                     r="1.5"
-                    fill="#FF6A00"
+                    fill="#F27D24"
                     opacity="0.1"
                   />
                 ))
@@ -258,7 +267,7 @@ export default function Page() {
                 <span>-</span>
                 <span>16 min read</span>
                 <span>-</span>
-                <span>The Answer Engine Team</span>
+                <span>Justin Borges</span>
               </div>
             </div>
           </div>
@@ -308,7 +317,7 @@ export default function Page() {
           </div>
 
           {/* Article Body */}
-          <article className="prose prose-invert prose-lg max-w-none prose-headings:font-plus-jakarta prose-headings:text-white prose-p:text-gray-300 prose-a:text-[#FF6A00] prose-a:no-underline hover:prose-a:underline prose-strong:text-white">
+          <article className="prose prose-invert prose-lg max-w-none prose-headings:font-plus-jakarta prose-headings:text-white prose-p:text-gray-300 prose-a:text-[#F27D24] prose-a:no-underline hover:prose-a:underline prose-strong:text-white">
 
             {/* Intro */}
             <p className="text-xl text-gray-300 leading-relaxed mb-10">
@@ -929,14 +938,14 @@ export default function Page() {
           </div>
 
           {/* 3-Tier CTA Block */}
-          <div className="not-prose my-16 p-8 rounded-2xl bg-gradient-to-br from-[#FF6A00]/10 to-transparent border border-[#FF6A00]/20">
+          <div className="not-prose my-16 p-8 rounded-2xl bg-gradient-to-br from-[#F27D24]/10 to-transparent border border-[#F27D24]/20">
             <h3 className="font-plus-jakarta text-2xl font-bold text-white mb-3">Ready to Become the Source AI Trusts?</h3>
             <p className="text-gray-400 mb-6">Our free Blind Spot Report shows your current AI trust score and exactly where to improve.</p>
-            <Link href="/blindspot" className="inline-flex items-center gap-2 bg-[#FF6A00] text-white px-6 py-3 rounded-lg font-semibold hover:bg-[#e55f00] transition-colors">
+            <Link href="/blindspot" className="inline-flex items-center gap-2 bg-[#F27D24] text-white px-6 py-3 rounded-lg font-semibold hover:bg-[#D96416] transition-colors">
               Get Your Free Blind Spot Report
               <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" /></svg>
             </Link>
-            <div className="flex flex-wrap items-center gap-6 mt-6 pt-6 border-t border-[#FF6A00]/10">
+            <div className="flex flex-wrap items-center gap-6 mt-6 pt-6 border-t border-[#F27D24]/10">
               <a href="tel:+12134442229" className="flex items-center gap-2 text-gray-400 hover:text-white transition-colors">
                 <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" /></svg>
                 (213) 444-2229
@@ -1037,7 +1046,7 @@ export default function Page() {
               <Link href="/blindspot" className="ae-final-cta-pulse">
                 Get Your Free Blind Spot Report
               </Link>
-              <div className="flex flex-wrap items-center justify-center gap-6 mt-6 pt-6 border-t border-[#FF6A00]/10">
+              <div className="flex flex-wrap items-center justify-center gap-6 mt-6 pt-6 border-t border-[#F27D24]/10">
                 <a href="tel:+12134442229" className="flex items-center gap-2 text-gray-400 hover:text-white transition-colors">
                   <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" /></svg>
                   (213) 444-2229
@@ -1052,17 +1061,20 @@ export default function Page() {
 
           {/* Author Card */}
           <div className="not-prose mt-12">
+            <div className="not-prose">
             <div className="ae-author-card">
-              <div className="ae-author-avatar">AE</div>
-              <div className="ae-author-info">
-                <div className="ae-author-name">The Answer Engine Team</div>
-                <div className="ae-author-bio">
-                  Helping local businesses get found, recommended, and cited by AI
-                  search platforms. Specialists in Answer Engine Optimization for
-                  service-based businesses across the United States.
-                </div>
+              <img
+                src="/justin-borges.webp"
+                alt="Justin Borges, Founder of The Answer Engine"
+                style={{ width: 64, height: 64, borderRadius: '50%', objectFit: 'cover', flexShrink: 0 }}
+              />
+              <div>
+                <div className="ae-author-name" style={{ fontWeight: 600 }}>Justin Borges</div>
+                <div className="ae-author-role" style={{ fontWeight: 400 }}>Founder, The Answer Engine</div>
+                <p style={{ marginTop: 8, fontSize: '0.875rem', color: 'rgba(255,255,255,0.65)', lineHeight: 1.6 }}>Justin Borges founded The Answer Engine in 2025 after 13+ years in real estate, $200M+ in production, and discovering that AI search rankings now decide who gets cited as the answer. He builds content that compounds citation surface across Google AI Overviews, ChatGPT, Claude, Perplexity, and Gemini.</p>
               </div>
             </div>
+          </div>
           </div>
         </div>
       </main>

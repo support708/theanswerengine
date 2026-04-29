@@ -192,7 +192,7 @@ export function renderGeoInner(r: GeoExpansionResult): string {
   return `
 <h2 style="margin:0 0 6px 0;font-size:22px;color:#1a1a1a;font-weight:900;text-transform:uppercase;letter-spacing:-0.02em;">Geographic Expansion</h2>
 <p style="margin:0 0 10px 0;color:#555;font-size:13px;">${escapeHtml(r.displayName)} &mdash; ${r.cityTotals.length} cities outside current service area with search demand.</p>
-<p style="margin:0 0 18px 0;color:#1a1a1a;font-size:14px;">Total unserved-city impressions last 28 days: <b style="color:#FF6A00;">${totalImpr.toLocaleString()}</b></p>
+<p style="margin:0 0 18px 0;color:#1a1a1a;font-size:14px;">Total unserved-city impressions last 28 days: <b style="color:#F27D24;">${totalImpr.toLocaleString()}</b></p>
 
 <h3 style="margin:0 0 8px 0;font-size:13px;color:#1a1a1a;font-weight:800;text-transform:uppercase;">Cities by impressions</h3>
 <table role="presentation" cellpadding="0" cellspacing="0" border="0" width="100%" style="border-collapse:collapse;margin:0 0 20px 0;">

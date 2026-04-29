@@ -38,10 +38,19 @@ const jsonLd = {
       "datePublished": "2026-03-19",
       "dateModified": "2026-03-19",
       "author": {
-        "@type": "Organization",
-        "name": "The Answer Engine Team",
-        "url": "https://theanswerengine.ai/about"
-      },
+          "@type": "Person",
+          "@id": "https://theanswerengine.ai/about#justin-borges",
+          "name": "Justin Borges",
+          "jobTitle": "Founder, The Answer Engine",
+          "worksFor": {
+            "@type": "Organization",
+            "name": "The Answer Engine",
+            "url": "https://theanswerengine.ai"
+          },
+          "knowsAbout": ["Answer Engine Optimization", "AI Search", "Content Strategy", "Real Estate Marketing", "Citation Surface"],
+          "url": "https://theanswerengine.ai/about",
+          "image": "https://theanswerengine.ai/justin-borges.webp"
+        },
       "publisher": {
         "@type": "Organization",
         "@id": "https://theanswerengine.ai/#organization"
@@ -134,9 +143,9 @@ export default function HowAISearchChangesSalesFunnel() {
 
       <div className="max-w-4xl mx-auto px-6 pt-20 pb-4">
         <nav className="flex items-center gap-2 text-sm text-gray-500">
-          <Link href="/" className="hover:text-[#FF6A00] transition-colors">Home</Link>
+          <Link href="/" className="hover:text-[#F27D24] transition-colors">Home</Link>
           <span>/</span>
-          <Link href="/blog" className="hover:text-[#FF6A00] transition-colors">Blog</Link>
+          <Link href="/blog" className="hover:text-[#F27D24] transition-colors">Blog</Link>
           <span>/</span>
           <span className="text-gray-400">How AI Search Changes the Sales Funnel</span>
         </nav>
@@ -144,13 +153,13 @@ export default function HowAISearchChangesSalesFunnel() {
 
       <header className="max-w-4xl mx-auto px-6 pb-12">
         <div className="flex items-center gap-3 mb-6">
-          <span className="bg-[#FF6A00]/10 text-[#FF6A00] px-3 py-1 rounded-full text-xs font-semibold tracking-wide uppercase">Market Analysis</span>
+          <span className="bg-[#F27D24]/10 text-[#F27D24] px-3 py-1 rounded-full text-xs font-semibold tracking-wide uppercase">Market Analysis</span>
           <time className="text-gray-500 text-sm">March 19, 2026</time>
           <span className="text-gray-600 text-sm">12 min read</span>
         </div>
         <h1 className="font-plus-jakarta text-4xl md:text-5xl font-bold text-white leading-tight mb-6">
           How AI Search Changes the{' '}
-          <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#FF6A00] to-orange-400">Sales Funnel</span>
+          <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#F27D24] to-orange-400">Sales Funnel</span>
           {' '}for Local Businesses
         </h1>
         <p className="text-gray-400 text-lg leading-relaxed max-w-2xl">
@@ -159,7 +168,7 @@ export default function HowAISearchChangesSalesFunnel() {
       </header>
 
       <article className="max-w-4xl mx-auto px-6 pb-20">
-        <div className="prose prose-invert prose-lg max-w-none prose-headings:font-plus-jakarta prose-headings:text-white prose-p:text-gray-300 prose-a:text-[#FF6A00] prose-a:no-underline hover:prose-a:underline prose-strong:text-white">
+        <div className="prose prose-invert prose-lg max-w-none prose-headings:font-plus-jakarta prose-headings:text-white prose-p:text-gray-300 prose-a:text-[#F27D24] prose-a:no-underline hover:prose-a:underline prose-strong:text-white">
 
           {/* ── STATS GRID ── */}
           <div className="ae-stats-grid not-prose">
@@ -636,13 +645,18 @@ export default function HowAISearchChangesSalesFunnel() {
           </div>
 
           {/* ── AUTHOR CARD ── */}
-          <div className="ae-author-card not-prose">
-            <div className="ae-author-avatar">AE</div>
-            <div>
-              <div className="ae-author-name">The Answer Engine Team</div>
-              <div className="ae-author-role">We help local service businesses get found, cited, and recommended by AI platforms. Our team tracks AI search trends daily so you do not have to.</div>
+          <div className="ae-author-card">
+              <img
+                src="/justin-borges.webp"
+                alt="Justin Borges, Founder of The Answer Engine"
+                style={{ width: 64, height: 64, borderRadius: '50%', objectFit: 'cover', flexShrink: 0 }}
+              />
+              <div>
+                <div className="ae-author-name" style={{ fontWeight: 600 }}>Justin Borges</div>
+                <div className="ae-author-role" style={{ fontWeight: 400 }}>Founder, The Answer Engine</div>
+                <p style={{ marginTop: 8, fontSize: '0.875rem', color: 'rgba(255,255,255,0.65)', lineHeight: 1.6 }}>Justin Borges founded The Answer Engine in 2025 after 13+ years in real estate, $200M+ in production, and discovering that AI search rankings now decide who gets cited as the answer. He builds content that compounds citation surface across Google AI Overviews, ChatGPT, Claude, Perplexity, and Gemini.</p>
+              </div>
             </div>
-          </div>
 
           {/* ── FAQ ── */}
           <span className="ae-section-label">FAQ</span>

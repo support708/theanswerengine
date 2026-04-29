@@ -32,7 +32,7 @@ export const metadata: Metadata = {
     description,
     type: 'article',
     publishedTime: publishDate,
-    authors: ['The Answer Engine Team'],
+    authors: ['https://theanswerengine.ai/about'],
     url: `https://theanswerengine.ai/blog/${slug}`,
     images: [
       {
@@ -66,9 +66,18 @@ const jsonLd = {
       datePublished: publishDate,
       dateModified: publishDate,
       author: {
-        '@type': 'Organization',
-        name: 'The Answer Engine',
-        url: 'https://theanswerengine.ai',
+        '@type': 'Person',
+        '@id': 'https://theanswerengine.ai/about#justin-borges',
+        name: 'Justin Borges',
+        jobTitle: 'Founder, The Answer Engine',
+        worksFor: {
+          '@type': 'Organization',
+          name: 'The Answer Engine',
+          url: 'https://theanswerengine.ai',
+        },
+        knowsAbout: ['Answer Engine Optimization', 'AI Search', 'Content Strategy', 'Real Estate Marketing', 'Citation Surface'],
+        url: 'https://theanswerengine.ai/about',
+        image: 'https://theanswerengine.ai/justin-borges.webp',
       },
       publisher: {
         '@type': 'Organization',
@@ -182,9 +191,9 @@ export default function Page() {
       {/* Breadcrumb */}
       <div className="max-w-4xl mx-auto px-6 pt-20 pb-4">
         <nav className="flex items-center gap-2 text-sm text-gray-500">
-          <Link href="/" className="hover:text-[#FF6A00] transition-colors">Home</Link>
+          <Link href="/" className="hover:text-[#F27D24] transition-colors">Home</Link>
           <span>/</span>
-          <Link href="/blog" className="hover:text-[#FF6A00] transition-colors">Blog</Link>
+          <Link href="/blog" className="hover:text-[#F27D24] transition-colors">Blog</Link>
           <span>/</span>
           <span className="text-gray-400">AI Visibility After a Name or Address Change</span>
         </nav>
@@ -194,29 +203,29 @@ export default function Page() {
       <div className="max-w-4xl mx-auto px-6">
         <div className="relative overflow-hidden rounded-2xl mb-12" style={{ background: 'linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%)' }}>
           <svg className="absolute inset-0 w-full h-full opacity-10" viewBox="0 0 800 400" fill="none">
-            <circle cx="100" cy="100" r="70" stroke="#FF6A00" strokeWidth="1.5" />
-            <circle cx="100" cy="100" r="45" stroke="#FF6A00" strokeWidth="0.8" />
-            <path d="M100 55 L100 145" stroke="#FF6A00" strokeWidth="0.8" />
-            <path d="M55 100 L145 100" stroke="#FF6A00" strokeWidth="0.8" />
-            <rect x="280" y="50" width="160" height="100" rx="6" stroke="#FF6A00" strokeWidth="1.2" />
-            <rect x="290" y="60" width="60" height="12" rx="2" stroke="#FF6A00" strokeWidth="0.6" />
-            <rect x="290" y="80" width="140" height="8" rx="2" stroke="#FF6A00" strokeWidth="0.6" />
-            <rect x="290" y="96" width="100" height="8" rx="2" stroke="#FF6A00" strokeWidth="0.6" />
-            <rect x="290" y="112" width="120" height="8" rx="2" stroke="#FF6A00" strokeWidth="0.6" />
-            <path d="M500 100 L560 100" stroke="#FF6A00" strokeWidth="1" strokeDasharray="4 3" />
-            <polygon points="555,95 565,100 555,105" fill="#FF6A00" opacity="0.6" />
-            <rect x="580" y="50" width="160" height="100" rx="6" stroke="#FF6A00" strokeWidth="1.2" />
-            <rect x="590" y="60" width="80" height="12" rx="2" stroke="#FF6A00" strokeWidth="0.6" />
-            <rect x="590" y="80" width="140" height="8" rx="2" stroke="#FF6A00" strokeWidth="0.6" />
-            <rect x="590" y="96" width="110" height="8" rx="2" stroke="#FF6A00" strokeWidth="0.6" />
-            <rect x="590" y="112" width="130" height="8" rx="2" stroke="#FF6A00" strokeWidth="0.6" />
-            <circle cx="200" cy="300" r="40" stroke="#FF6A00" strokeWidth="1" strokeDasharray="6 3" />
-            <circle cx="400" cy="320" r="35" stroke="#FF6A00" strokeWidth="1" strokeDasharray="6 3" />
-            <circle cx="600" cy="290" r="50" stroke="#FF6A00" strokeWidth="1" strokeDasharray="6 3" />
-            <path d="M240 300 Q320 280 365 320" stroke="#FF6A00" strokeWidth="0.8" />
-            <path d="M435 320 Q520 340 550 290" stroke="#FF6A00" strokeWidth="0.8" />
-            <path d="M160 300 Q130 250 160 200" stroke="#FF6A00" strokeWidth="0.6" />
-            <path d="M650 290 Q700 240 700 180" stroke="#FF6A00" strokeWidth="0.6" />
+            <circle cx="100" cy="100" r="70" stroke="#F27D24" strokeWidth="1.5" />
+            <circle cx="100" cy="100" r="45" stroke="#F27D24" strokeWidth="0.8" />
+            <path d="M100 55 L100 145" stroke="#F27D24" strokeWidth="0.8" />
+            <path d="M55 100 L145 100" stroke="#F27D24" strokeWidth="0.8" />
+            <rect x="280" y="50" width="160" height="100" rx="6" stroke="#F27D24" strokeWidth="1.2" />
+            <rect x="290" y="60" width="60" height="12" rx="2" stroke="#F27D24" strokeWidth="0.6" />
+            <rect x="290" y="80" width="140" height="8" rx="2" stroke="#F27D24" strokeWidth="0.6" />
+            <rect x="290" y="96" width="100" height="8" rx="2" stroke="#F27D24" strokeWidth="0.6" />
+            <rect x="290" y="112" width="120" height="8" rx="2" stroke="#F27D24" strokeWidth="0.6" />
+            <path d="M500 100 L560 100" stroke="#F27D24" strokeWidth="1" strokeDasharray="4 3" />
+            <polygon points="555,95 565,100 555,105" fill="#F27D24" opacity="0.6" />
+            <rect x="580" y="50" width="160" height="100" rx="6" stroke="#F27D24" strokeWidth="1.2" />
+            <rect x="590" y="60" width="80" height="12" rx="2" stroke="#F27D24" strokeWidth="0.6" />
+            <rect x="590" y="80" width="140" height="8" rx="2" stroke="#F27D24" strokeWidth="0.6" />
+            <rect x="590" y="96" width="110" height="8" rx="2" stroke="#F27D24" strokeWidth="0.6" />
+            <rect x="590" y="112" width="130" height="8" rx="2" stroke="#F27D24" strokeWidth="0.6" />
+            <circle cx="200" cy="300" r="40" stroke="#F27D24" strokeWidth="1" strokeDasharray="6 3" />
+            <circle cx="400" cy="320" r="35" stroke="#F27D24" strokeWidth="1" strokeDasharray="6 3" />
+            <circle cx="600" cy="290" r="50" stroke="#F27D24" strokeWidth="1" strokeDasharray="6 3" />
+            <path d="M240 300 Q320 280 365 320" stroke="#F27D24" strokeWidth="0.8" />
+            <path d="M435 320 Q520 340 550 290" stroke="#F27D24" strokeWidth="0.8" />
+            <path d="M160 300 Q130 250 160 200" stroke="#F27D24" strokeWidth="0.6" />
+            <path d="M650 290 Q700 240 700 180" stroke="#F27D24" strokeWidth="0.6" />
           </svg>
           <div className="relative px-8 py-16 sm:px-12 sm:py-20">
             <p className="text-sm font-medium text-orange-400 mb-4">AI Search Strategy</p>
@@ -276,27 +285,27 @@ export default function Page() {
             <h3 className="text-xl font-semibold text-white mb-4">Where AI Cross-References Your Business Data</h3>
             <ul className="space-y-3 text-gray-300">
               <li className="flex items-start gap-3">
-                <span className="text-[#FF6A00] font-bold mt-0.5">&#x2022;</span>
+                <span className="text-[#F27D24] font-bold mt-0.5">&#x2022;</span>
                 <span><strong className="text-white">Your website</strong> including schema markup, contact pages, and footer information</span>
               </li>
               <li className="flex items-start gap-3">
-                <span className="text-[#FF6A00] font-bold mt-0.5">&#x2022;</span>
+                <span className="text-[#F27D24] font-bold mt-0.5">&#x2022;</span>
                 <span><strong className="text-white">Google Business Profile</strong> for hours, address, phone, categories, and reviews</span>
               </li>
               <li className="flex items-start gap-3">
-                <span className="text-[#FF6A00] font-bold mt-0.5">&#x2022;</span>
+                <span className="text-[#F27D24] font-bold mt-0.5">&#x2022;</span>
                 <span><strong className="text-white">Yelp</strong> for business name, address, reviews, and service categories</span>
               </li>
               <li className="flex items-start gap-3">
-                <span className="text-[#FF6A00] font-bold mt-0.5">&#x2022;</span>
+                <span className="text-[#F27D24] font-bold mt-0.5">&#x2022;</span>
                 <span><strong className="text-white">Foursquare</strong> which powers location data for many AI platforms behind the scenes</span>
               </li>
               <li className="flex items-start gap-3">
-                <span className="text-[#FF6A00] font-bold mt-0.5">&#x2022;</span>
+                <span className="text-[#F27D24] font-bold mt-0.5">&#x2022;</span>
                 <span><strong className="text-white">Apple Maps</strong> especially for Siri and Apple Intelligence recommendations</span>
               </li>
               <li className="flex items-start gap-3">
-                <span className="text-[#FF6A00] font-bold mt-0.5">&#x2022;</span>
+                <span className="text-[#F27D24] font-bold mt-0.5">&#x2022;</span>
                 <span><strong className="text-white">Bing Places</strong> which feeds data directly to ChatGPT for local business queries</span>
               </li>
             </ul>
@@ -348,23 +357,23 @@ export default function Page() {
             <h3 className="text-xl font-semibold text-white mb-4">Structured Data Priority List for Business Changes</h3>
             <ul className="space-y-3 text-gray-300">
               <li className="flex items-start gap-3">
-                <span className="text-[#FF6A00] font-bold mt-0.5">1.</span>
+                <span className="text-[#F27D24] font-bold mt-0.5">1.</span>
                 <span><strong className="text-white">LocalBusiness schema</strong> on your website. Update your name, address, phone, and any other changed fields immediately. This is your source of truth.</span>
               </li>
               <li className="flex items-start gap-3">
-                <span className="text-[#FF6A00] font-bold mt-0.5">2.</span>
+                <span className="text-[#F27D24] font-bold mt-0.5">2.</span>
                 <span><strong className="text-white">Google Business Profile</strong>. Update within the same day as your website to prevent any crawl-timing conflicts.</span>
               </li>
               <li className="flex items-start gap-3">
-                <span className="text-[#FF6A00] font-bold mt-0.5">3.</span>
+                <span className="text-[#F27D24] font-bold mt-0.5">3.</span>
                 <span><strong className="text-white">Bing Places</strong>. Because ChatGPT pulls local business data from Bing, this is far more important than most businesses realize.</span>
               </li>
               <li className="flex items-start gap-3">
-                <span className="text-[#FF6A00] font-bold mt-0.5">4.</span>
+                <span className="text-[#F27D24] font-bold mt-0.5">4.</span>
                 <span><strong className="text-white">Apple Maps Connect</strong>. Siri and Apple Intelligence use this data exclusively for local recommendations.</span>
               </li>
               <li className="flex items-start gap-3">
-                <span className="text-[#FF6A00] font-bold mt-0.5">5.</span>
+                <span className="text-[#F27D24] font-bold mt-0.5">5.</span>
                 <span><strong className="text-white">Foursquare, Yelp, and remaining directories</strong>. Update every listing you can find. Missed directories become data conflicts.</span>
               </li>
             </ul>
@@ -488,7 +497,7 @@ export default function Page() {
           <p className="text-gray-300 mb-6">Get a free AI visibility check and find out exactly what AI platforms see when they look at your business. No pitch, just the data.</p>
           <Link
             href="/blindspot"
-            className="inline-block bg-[#FF6A00] text-white font-semibold px-6 py-3 rounded-lg hover:bg-orange-600 transition-colors"
+            className="inline-block bg-[#F27D24] text-white font-semibold px-6 py-3 rounded-lg hover:bg-orange-600 transition-colors"
           >
             Get Your Free Blind Spot Report
           </Link>

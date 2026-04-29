@@ -17,7 +17,7 @@ export const metadata: Metadata = {
     type: 'article',
     publishedTime: '2025-11-09',
     modifiedTime: '2025-11-09',
-    authors: ['Justin Borges'],
+    authors: ['https://theanswerengine.ai/about'],
     url: 'https://theanswerengine.ai/blog/what-is-answer-engine-optimization',
     images: [
       {
@@ -70,7 +70,17 @@ function ComprehensiveSchema() {
         },
         "author": {
           "@type": "Person",
-          "@id": "https://theanswerengine.ai/about#founder"
+          "@id": "https://theanswerengine.ai/about#justin-borges",
+          "name": "Justin Borges",
+          "jobTitle": "Founder, The Answer Engine",
+          "worksFor": {
+            "@type": "Organization",
+            "name": "The Answer Engine",
+            "url": "https://theanswerengine.ai"
+          },
+          "knowsAbout": ["Answer Engine Optimization", "AI Search", "Content Strategy", "Real Estate Marketing", "Citation Surface"],
+          "url": "https://theanswerengine.ai/about",
+          "image": "https://theanswerengine.ai/justin-borges.webp"
         },
         "publisher": {
           "@type": "Organization",
@@ -240,13 +250,13 @@ export default function WhatIsAEOBlogPost() {
                 <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={2}>
                   <path strokeLinecap="round" strokeLinejoin="round" d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z" />
                 </svg>
-                <span>By The Answer Engine Team</span>
+                <span>By Justin Borges</span>
               </div>
             </div>
           </header>
 
           {/* Main Content with prose */}
-          <div className="prose prose-invert prose-lg max-w-none prose-headings:font-plus-jakarta prose-headings:text-white prose-p:text-gray-300 prose-a:text-[#FF6A00] prose-a:no-underline hover:prose-a:underline prose-strong:text-white">
+          <div className="prose prose-invert prose-lg max-w-none prose-headings:font-plus-jakarta prose-headings:text-white prose-p:text-gray-300 prose-a:text-[#F27D24] prose-a:no-underline hover:prose-a:underline prose-strong:text-white">
 
             {/* ── STATS GRID ── */}
             <div className="ae-stats-grid not-prose">
@@ -768,7 +778,7 @@ export default function WhatIsAEOBlogPost() {
               <h3>Ready to Dominate AI Citations in Your Market?</h3>
               <p>We have spent two years figuring out exactly what makes AI platforms cite businesses instead of competitors. We know which implementations work, which break, and how to get you cited in 60-90 days. Stop guessing and start dominating.</p>
               <Link href="/blindspot">Get Your Free Blind Spot Report &rarr;</Link>
-              <div className="flex flex-wrap items-center justify-center gap-6 mt-6 pt-6 border-t border-[#FF6A00]/10">
+              <div className="flex flex-wrap items-center justify-center gap-6 mt-6 pt-6 border-t border-[#F27D24]/10">
                 <a href="tel:+12134442229" className="flex items-center gap-2 text-gray-400 hover:text-white transition-colors">
                   <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" /></svg>
                   (213) 444-2229
@@ -845,9 +855,10 @@ export default function WhatIsAEOBlogPost() {
             {/* ── AUTHOR CARD ── */}
             <div className="ae-author-card not-prose">
               <div className="ae-author-info">
-                <div className="ae-author-name">The Answer Engine Team</div>
+                <div className="ae-author-name" style={{ fontWeight: 600 }}>Justin Borges</div>
                 <div className="ae-author-title">Answer Engine Optimization Specialists</div>
-                <p className="ae-author-bio">The Answer Engine specializes in AEO for local service businesses. We position companies to be cited by Google AI Overviews, ChatGPT, Claude, Perplexity, and other AI platforms, making them the trusted expert AI recommends in their market.</p>
+                <div className="ae-author-role" style={{ fontWeight: 400 }}>Founder, The Answer Engine</div>
+            <p style={{ marginTop: 8, fontSize: '0.875rem', color: 'rgba(255,255,255,0.65)', lineHeight: 1.6 }}>Justin Borges founded The Answer Engine in 2025 after 13+ years in real estate, $200M+ in production, and discovering that AI search rankings now decide who gets cited as the answer. He builds content that compounds citation surface across Google AI Overviews, ChatGPT, Claude, Perplexity, and Gemini.</p>
                 <div className="ae-author-credentials">
                   <span>2+ years AEO experience</span>
                   <span>500+ schema implementations</span>
@@ -868,11 +879,11 @@ export default function WhatIsAEOBlogPost() {
             <h2>Related Articles</h2>
 
             <div className="not-prose grid gap-4 sm:grid-cols-2">
-              <Link href="/blog/google-rankings-dont-matter" className="block bg-white/[0.03] border border-white/[0.08] rounded-xl p-6 hover:border-[#FF6A00]/30 transition-colors">
+              <Link href="/blog/google-rankings-dont-matter" className="block bg-white/[0.03] border border-white/[0.08] rounded-xl p-6 hover:border-[#F27D24]/30 transition-colors">
                 <h4 className="text-lg font-semibold text-white mb-2">The Real Reason Your Google Rankings Do Not Matter Anymore</h4>
                 <p className="text-gray-400 text-sm leading-relaxed">Google AI Overviews, ChatGPT, Claude, and Perplexity are answering questions directly, which means even a #1 ranking can get zero clicks.</p>
               </Link>
-              <Link href="/blog/aeo-vs-seo" className="block bg-white/[0.03] border border-white/[0.08] rounded-xl p-6 hover:border-[#FF6A00]/30 transition-colors">
+              <Link href="/blog/aeo-vs-seo" className="block bg-white/[0.03] border border-white/[0.08] rounded-xl p-6 hover:border-[#F27D24]/30 transition-colors">
                 <h4 className="text-lg font-semibold text-white mb-2">AEO vs SEO: What Is the Difference?</h4>
                 <p className="text-gray-400 text-sm leading-relaxed">A detailed comparison guide breaking down every major difference between Answer Engine Optimization and Search Engine Optimization.</p>
               </Link>

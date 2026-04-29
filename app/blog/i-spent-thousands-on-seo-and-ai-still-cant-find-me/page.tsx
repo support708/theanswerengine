@@ -23,7 +23,7 @@ export const metadata: Metadata = {
     'SEO waste of money AI era',
     'AI search marketing 2026',
   ],
-  authors: [{ name: 'The Answer Engine Team' }],
+  authors: [{ name: 'Justin Borges', url: 'https://theanswerengine.ai/about' }],
   openGraph: {
     title: "I Spent Thousands on SEO and AI Still Can't Find Me",
     description:
@@ -32,7 +32,7 @@ export const metadata: Metadata = {
     siteName: 'The Answer Engine',
     type: 'article',
     publishedTime: '2026-03-29T00:00:00Z',
-    authors: ['The Answer Engine Team'],
+    authors: ['https://theanswerengine.ai/about'],
     images: [
       {
         url: 'https://theanswerengine.ai/blog/i-spent-thousands-on-seo-and-ai-still-cant-find-me.webp',
@@ -75,9 +75,18 @@ const jsonLd = {
         height: 630,
       },
       author: {
-        '@type': 'Organization',
-        name: 'The Answer Engine',
-        url: 'https://theanswerengine.ai',
+        '@type': 'Person',
+        '@id': 'https://theanswerengine.ai/about#justin-borges',
+        name: 'Justin Borges',
+        jobTitle: 'Founder, The Answer Engine',
+        worksFor: {
+          '@type': 'Organization',
+          name: 'The Answer Engine',
+          url: 'https://theanswerengine.ai',
+        },
+        knowsAbout: ['Answer Engine Optimization', 'AI Search', 'Content Strategy', 'Real Estate Marketing', 'Citation Surface'],
+        url: 'https://theanswerengine.ai/about',
+        image: 'https://theanswerengine.ai/justin-borges.webp',
       },
       publisher: {
         '@type': 'Organization',
@@ -221,7 +230,7 @@ export default function ISpentThousandsOnSEOPage() {
                 <path
                   d="M 40 0 L 0 0 0 40"
                   fill="none"
-                  stroke="#FF6A00"
+                  stroke="#F27D24"
                   strokeWidth="0.8"
                 />
               </pattern>
@@ -236,14 +245,14 @@ export default function ISpentThousandsOnSEOPage() {
               <span>/</span>
               <Link href="/blog" style={{ color: '#9CA3AF' }} className="hover:text-white transition-colors">Blog</Link>
               <span>/</span>
-              <span style={{ color: '#FF6A00' }}>Business Pain Points</span>
+              <span style={{ color: '#F27D24' }}>Business Pain Points</span>
             </nav>
 
             {/* Category badge */}
             <div className="mb-4">
               <span
                 className="inline-block text-xs font-semibold uppercase tracking-widest px-3 py-1 rounded-full"
-                style={{ backgroundColor: 'rgba(255,106,0,0.15)', color: '#FF6A00', border: '1px solid rgba(255,106,0,0.3)' }}
+                style={{ backgroundColor: 'rgba(255,106,0,0.15)', color: '#F27D24', border: '1px solid rgba(255,106,0,0.3)' }}
               >
                 Business Pain Points
               </span>
@@ -254,7 +263,7 @@ export default function ISpentThousandsOnSEOPage() {
               style={{ color: '#FFFFFF' }}
             >
               I Spent Thousands on SEO and{' '}
-              <span style={{ color: '#FF6A00' }}>AI Still Can&apos;t Find Me</span>
+              <span style={{ color: '#F27D24' }}>AI Still Can&apos;t Find Me</span>
             </h1>
 
             <p className="text-lg md:text-xl leading-relaxed mb-8" style={{ color: '#D1D5DB', maxWidth: '720px' }}>
@@ -262,7 +271,7 @@ export default function ISpentThousandsOnSEOPage() {
             </p>
 
             <div className="flex flex-wrap items-center gap-4 text-sm" style={{ color: '#6B7280' }}>
-              <span>By The Answer Engine Team</span>
+              <span>By Justin Borges</span>
               <span>|</span>
               <time dateTime="2026-03-29">March 29, 2026</time>
               <span>|</span>
@@ -274,7 +283,7 @@ export default function ISpentThousandsOnSEOPage() {
               <Link
                 href="/blindspot"
                 className="ae-cta-inline inline-flex items-center gap-2 font-semibold px-6 py-3 rounded-lg transition-all"
-                style={{ backgroundColor: '#FF6A00', color: '#FFFFFF' }}
+                style={{ backgroundColor: '#F27D24', color: '#FFFFFF' }}
               >
                 Get Your Free Blind Spot Report
                 <span aria-hidden="true">&#8594;</span>
@@ -318,7 +327,7 @@ export default function ISpentThousandsOnSEOPage() {
               >
                 <div
                   className="text-3xl md:text-4xl font-extrabold font-plus-jakarta mb-2"
-                  style={{ color: '#FF6A00' }}
+                  style={{ color: '#F27D24' }}
                 >
                   {item.stat}
                 </div>
@@ -345,7 +354,7 @@ export default function ISpentThousandsOnSEOPage() {
           >
             <h2
               className="font-plus-jakarta text-base font-bold mb-4 uppercase tracking-wider"
-              style={{ color: '#FF6A00' }}
+              style={{ color: '#F27D24' }}
             >
               In This Article
             </h2>
@@ -424,7 +433,7 @@ export default function ISpentThousandsOnSEOPage() {
 
             {/* Inline CTA */}
             <div className="ae-cta-block rounded-xl p-6 my-8" style={{ backgroundColor: 'rgba(255,106,0,0.08)', border: '1px solid rgba(255,106,0,0.2)' }}>
-              <p className="font-semibold mb-3" style={{ color: '#FF6A00' }}>
+              <p className="font-semibold mb-3" style={{ color: '#F27D24' }}>
                 Wondering if AI can find your business right now?
               </p>
               <p className="text-sm mb-4" style={{ color: '#D1D5DB' }}>
@@ -433,7 +442,7 @@ export default function ISpentThousandsOnSEOPage() {
               <a
                 href="/blindspot"
                 className="ae-cta-inline inline-flex items-center gap-2 text-sm font-semibold px-5 py-2.5 rounded-lg transition-all"
-                style={{ backgroundColor: '#FF6A00', color: '#FFFFFF' }}
+                style={{ backgroundColor: '#F27D24', color: '#FFFFFF' }}
               >
                 Get My Free AI Visibility Audit &#8594;
               </a>
@@ -467,7 +476,7 @@ export default function ISpentThousandsOnSEOPage() {
                 'How much topical depth exists in your content ecosystem',
               ].map((item) => (
                 <li key={item} className="flex items-start gap-3 text-sm">
-                  <span style={{ color: '#FF6A00', marginTop: '2px' }} aria-hidden="true">&#10003;</span>
+                  <span style={{ color: '#F27D24', marginTop: '2px' }} aria-hidden="true">&#10003;</span>
                   <span>{item}</span>
                 </li>
               ))}
@@ -499,7 +508,7 @@ export default function ISpentThousandsOnSEOPage() {
 
             <p className="mb-4 leading-relaxed" style={{ color: '#D1D5DB' }}>
               For more context on how this shift is affecting businesses that depend on Google traffic, see our deep dive on{' '}
-              <Link href="/blog/seo-not-generating-leads" style={{ color: '#FF6A00' }} className="underline hover:opacity-80">
+              <Link href="/blog/seo-not-generating-leads" style={{ color: '#F27D24' }} className="underline hover:opacity-80">
                 why SEO is no longer generating leads the way it used to
               </Link>
               .
@@ -571,7 +580,7 @@ export default function ISpentThousandsOnSEOPage() {
               <a
                 href="/blindspot"
                 className="ae-cta-inline font-semibold underline"
-                style={{ color: '#FF6A00' }}
+                style={{ color: '#F27D24' }}
               >
                 See where your AI visibility stands right now.
               </a>
@@ -594,7 +603,7 @@ export default function ISpentThousandsOnSEOPage() {
               <table className="w-full text-sm">
                 <thead>
                   <tr style={{ backgroundColor: 'rgba(255,106,0,0.12)' }}>
-                    <th className="text-left px-5 py-4 font-semibold" style={{ color: '#FF6A00' }}>Factor</th>
+                    <th className="text-left px-5 py-4 font-semibold" style={{ color: '#F27D24' }}>Factor</th>
                     <th className="text-left px-5 py-4 font-semibold" style={{ color: '#9CA3AF' }}>Traditional SEO</th>
                     <th className="text-left px-5 py-4 font-semibold" style={{ color: '#34D399' }}>AI Search Visibility</th>
                   </tr>
@@ -707,7 +716,7 @@ export default function ISpentThousandsOnSEOPage() {
                 border: '1px solid rgba(255,106,0,0.3)',
               }}
             >
-              <p className="font-bold mb-2" style={{ color: '#FF6A00' }}>
+              <p className="font-bold mb-2" style={{ color: '#F27D24' }}>
                 The Compounding Cost
               </p>
               <p className="text-sm leading-relaxed" style={{ color: '#D1D5DB' }}>
@@ -717,7 +726,7 @@ export default function ISpentThousandsOnSEOPage() {
 
             <p className="mb-4 leading-relaxed" style={{ color: '#D1D5DB' }}>
               For a broader look at whether your SEO budget is delivering returns in the AI era, our analysis of{' '}
-              <Link href="/blog/is-paying-for-seo-a-waste-of-money-in-the-ai-era" style={{ color: '#FF6A00' }} className="underline hover:opacity-80">
+              <Link href="/blog/is-paying-for-seo-a-waste-of-money-in-the-ai-era" style={{ color: '#F27D24' }} className="underline hover:opacity-80">
                 whether paying for SEO is a waste of money
               </Link>{' '}
               covers the full financial picture.
@@ -798,16 +807,16 @@ export default function ISpentThousandsOnSEOPage() {
                 border: '1px solid rgba(255,106,0,0.2)',
               }}
             >
-              <p className="text-sm font-semibold mb-2" style={{ color: '#FF6A00' }}>
+              <p className="text-sm font-semibold mb-2" style={{ color: '#F27D24' }}>
                 Recognize any of these signs?
               </p>
               <p className="text-sm mb-3" style={{ color: '#D1D5DB' }}>
                 Call us at{' '}
-                <a href="tel:+12134442229" style={{ color: '#FF6A00' }} className="font-semibold">
+                <a href="tel:+12134442229" style={{ color: '#F27D24' }} className="font-semibold">
                   (213) 444-2229
                 </a>{' '}
                 or email{' '}
-                <a href="mailto:support@theanswerengine.ai" style={{ color: '#FF6A00' }} className="font-semibold">
+                <a href="mailto:support@theanswerengine.ai" style={{ color: '#F27D24' }} className="font-semibold">
                   support@theanswerengine.ai
                 </a>{' '}
                 and we&apos;ll run a free AI visibility audit and tell you exactly where your blind spots are.
@@ -896,7 +905,7 @@ export default function ISpentThousandsOnSEOPage() {
 
             <p className="mb-4 leading-relaxed" style={{ color: '#D1D5DB' }}>
               If you&apos;re wondering how long you have before AI invisibility becomes a crisis-level problem, our piece on{' '}
-              <Link href="/blog/will-business-vanish-stop-doing-seo" style={{ color: '#FF6A00' }} className="underline hover:opacity-80">
+              <Link href="/blog/will-business-vanish-stop-doing-seo" style={{ color: '#F27D24' }} className="underline hover:opacity-80">
                 whether your business will vanish if you stop doing SEO
               </Link>{' '}
               addresses that timeline directly.
@@ -986,7 +995,7 @@ export default function ISpentThousandsOnSEOPage() {
               <table className="w-full text-sm">
                 <thead>
                   <tr style={{ backgroundColor: 'rgba(255,106,0,0.1)' }}>
-                    <th className="text-left px-5 py-4 font-semibold" style={{ color: '#FF6A00' }}>Your Situation</th>
+                    <th className="text-left px-5 py-4 font-semibold" style={{ color: '#F27D24' }}>Your Situation</th>
                     <th className="text-left px-5 py-4 font-semibold" style={{ color: '#9CA3AF' }}>SEO-Only Risk</th>
                     <th className="text-left px-5 py-4 font-semibold" style={{ color: '#34D399' }}>Recommended Action</th>
                   </tr>
@@ -1066,7 +1075,7 @@ export default function ISpentThousandsOnSEOPage() {
                 <span className="text-2xl" aria-hidden="true">&#128203;</span>
                 <h2
                   className="font-plus-jakarta text-xl md:text-2xl font-bold"
-                  style={{ color: '#FF6A00' }}
+                  style={{ color: '#F27D24' }}
                 >
                   AI Visibility Audit Cheat Sheet
                 </h2>
@@ -1115,13 +1124,13 @@ export default function ISpentThousandsOnSEOPage() {
                   },
                 ].map((section) => (
                   <div key={section.category}>
-                    <h3 className="font-plus-jakarta font-bold text-sm mb-3" style={{ color: '#FF6A00' }}>
+                    <h3 className="font-plus-jakarta font-bold text-sm mb-3" style={{ color: '#F27D24' }}>
                       {section.category}
                     </h3>
                     <ul className="space-y-2">
                       {section.items.map((item) => (
                         <li key={item} className="flex items-start gap-2 text-sm" style={{ color: '#D1D5DB' }}>
-                          <span style={{ color: '#FF6A00', marginTop: '2px', flexShrink: 0 }} aria-hidden="true">&#9744;</span>
+                          <span style={{ color: '#F27D24', marginTop: '2px', flexShrink: 0 }} aria-hidden="true">&#9744;</span>
                           <span>{item}</span>
                         </li>
                       ))}
@@ -1138,7 +1147,7 @@ export default function ISpentThousandsOnSEOPage() {
                   <a
                     href="/blindspot"
                     className="ae-cta-inline inline-flex items-center gap-2 text-sm font-semibold px-5 py-2.5 rounded-lg"
-                    style={{ backgroundColor: '#FF6A00', color: '#FFFFFF' }}
+                    style={{ backgroundColor: '#F27D24', color: '#FFFFFF' }}
                   >
                     Get a Full AI Audit &#8594;
                   </a>
@@ -1147,7 +1156,7 @@ export default function ISpentThousandsOnSEOPage() {
                     className="inline-flex items-center gap-2 text-sm font-semibold px-5 py-2.5 rounded-lg"
                     style={{
                       backgroundColor: 'transparent',
-                      color: '#FF6A00',
+                      color: '#F27D24',
                       border: '1px solid rgba(255,106,0,0.5)',
                     }}
                   >
@@ -1182,7 +1191,7 @@ export default function ISpentThousandsOnSEOPage() {
                 <a
                   href="/blindspot"
                   className="ae-cta-inline inline-flex items-center gap-2 font-bold px-7 py-4 rounded-xl text-base transition-all"
-                  style={{ backgroundColor: '#FF6A00', color: '#FFFFFF' }}
+                  style={{ backgroundColor: '#F27D24', color: '#FFFFFF' }}
                 >
                   Find My AI Blind Spots Free &#8594;
                 </a>
@@ -1262,7 +1271,7 @@ export default function ISpentThousandsOnSEOPage() {
                     className="font-plus-jakarta font-bold mb-3 flex items-start gap-3"
                     style={{ color: '#FFFFFF' }}
                   >
-                    <span style={{ color: '#FF6A00', flexShrink: 0 }} aria-hidden="true">Q.</span>
+                    <span style={{ color: '#F27D24', flexShrink: 0 }} aria-hidden="true">Q.</span>
                     {item.q}
                   </h3>
                   <p className="text-sm leading-relaxed pl-6" style={{ color: '#9CA3AF' }}>
@@ -1284,14 +1293,14 @@ export default function ISpentThousandsOnSEOPage() {
             >
               <div
                 className="shrink-0 w-14 h-14 rounded-full flex items-center justify-center text-xl font-bold"
-                style={{ backgroundColor: 'rgba(255,106,0,0.2)', color: '#FF6A00' }}
+                style={{ backgroundColor: 'rgba(255,106,0,0.2)', color: '#F27D24' }}
                 aria-hidden="true"
               >
                 AE
               </div>
               <div>
                 <p className="font-plus-jakarta font-bold mb-1" style={{ color: '#FFFFFF' }}>
-                  The Answer Engine Team
+                  Justin Borges
                 </p>
                 <p className="text-xs mb-2" style={{ color: '#6B7280' }}>
                   Published March 29, 2026 &bull; Business Pain Points
@@ -1387,7 +1396,7 @@ export default function ISpentThousandsOnSEOPage() {
                   href="/blindspot"
                   className="ae-cta-inline inline-flex items-center gap-2 font-extrabold text-lg px-8 py-4 rounded-xl transition-all"
                   style={{
-                    backgroundColor: '#FF6A00',
+                    backgroundColor: '#F27D24',
                     color: '#FFFFFF',
                     boxShadow: '0 0 24px rgba(255,106,0,0.5)',
                   }}
@@ -1400,7 +1409,7 @@ export default function ISpentThousandsOnSEOPage() {
                 <a
                   href="tel:+12134442229"
                   className="flex items-center gap-2 font-semibold"
-                  style={{ color: '#FF6A00' }}
+                  style={{ color: '#F27D24' }}
                 >
                   &#128222; (213) 444-2229
                 </a>

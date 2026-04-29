@@ -35,7 +35,7 @@ export default function Nav() {
             height={32}
             className="h-7 w-auto opacity-90"
           />
-          <span className="text-xl font-black tracking-tighter text-[#FF6A00] uppercase font-headline">
+          <span className="text-xl font-black tracking-tighter text-[#F27D24] uppercase font-headline">
             THE ANSWER ENGINE
           </span>
         </a>
@@ -48,7 +48,7 @@ export default function Nav() {
               href={link.paths[0]}
               className={
                 link.active
-                  ? 'text-[#FF6A00] border-b-2 border-[#FF6A00] pb-1'
+                  ? 'text-[#F27D24] border-b-2 border-[#F27D24] pb-1'
                   : 'text-white/60 hover:text-white transition-colors'
               }
             >
@@ -61,7 +61,7 @@ export default function Nav() {
         <div className="flex items-center gap-3">
           <a
             href="/#territory-check"
-            className="hidden lg:block bg-[#FF6A00] text-black font-black px-5 py-2 tracking-tighter hover:translate-y-[2px] transition-transform font-headline text-sm"
+            className="hidden lg:block bg-[#F27D24] text-black font-black px-5 py-2 tracking-tighter hover:translate-y-[2px] transition-transform font-headline text-sm"
           >
             CHECK TERRITORY
           </a>
@@ -97,7 +97,7 @@ export default function Nav() {
                 onClick={() => setMobileMenuOpen(false)}
                 className={`px-6 py-3 font-headline font-bold uppercase tracking-tighter ${
                   link.active
-                    ? 'text-[#FF6A00] border-l-4 border-[#FF6A00]'
+                    ? 'text-[#F27D24] border-l-4 border-[#F27D24]'
                     : 'text-white/60 hover:text-white hover:bg-white/5 border-l-4 border-transparent'
                 } transition-colors`}
               >
@@ -108,7 +108,7 @@ export default function Nav() {
               <a
                 href="/#territory-check"
                 onClick={() => setMobileMenuOpen(false)}
-                className="block bg-[#FF6A00] text-black font-black px-6 py-3 tracking-tighter text-center font-headline"
+                className="block bg-[#F27D24] text-black font-black px-6 py-3 tracking-tighter text-center font-headline"
               >
                 CHECK TERRITORY
               </a>

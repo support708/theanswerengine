@@ -4,21 +4,30 @@ import Link from 'next/link';
 export const metadata: Metadata = {
   title: 'Contact The Answer Engine | Book a Free AEO Strategy Call',
   description: 'Free 30-minute strategy call. We scan your AI visibility live across ChatGPT, Claude, Perplexity, and Google AI and map the 90-day plan. (213) 444-2229 or book Calendly.',
+  alternates: {
+    canonical: 'https://www.theanswerengine.ai/contact',
+  },
   openGraph: {
     title: 'Contact The Answer Engine | Book a Free AEO Strategy Call',
     description: 'Free 30-minute strategy call. We scan your AI visibility live across 4 AI platforms and map the 90-day plan.',
     type: 'website',
-    url: 'https://theanswerengine.ai/contact',
+    url: 'https://www.theanswerengine.ai/contact',
     siteName: 'The Answer Engine',
+    images: [
+      {
+        url: 'https://www.theanswerengine.ai/og-default.png',
+        width: 1200,
+        height: 630,
+        alt: 'Contact The Answer Engine — Free AEO Strategy Call',
+      }
+    ],
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Contact The Answer Engine',
-    description: 'Schedule your free 30-minute AEO strategy call. We help local businesses get cited by AI platforms.',
-    creator: '@theanswerengine',
-  },
-  alternates: {
-    canonical: 'https://theanswerengine.ai/contact',
+    title: 'Contact The Answer Engine | Book a Free AEO Strategy Call',
+    description: 'Schedule your free 30-minute AEO strategy call. We scan your AI visibility across 4 platforms live.',
+    site: '@theanswerengine',
+    images: ['https://www.theanswerengine.ai/og-default.png'],
   },
 };
 
@@ -87,8 +96,8 @@ export default function ContactPage() {
             '@context': 'https://schema.org',
             '@type': 'BreadcrumbList',
             itemListElement: [
-              { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://theanswerengine.ai' },
-              { '@type': 'ListItem', position: 2, name: 'Contact', item: 'https://theanswerengine.ai/contact' },
+              { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://www.theanswerengine.ai' },
+              { '@type': 'ListItem', position: 2, name: 'Contact', item: 'https://www.theanswerengine.ai/contact' },
             ],
           }),
         }}
@@ -106,15 +115,15 @@ export default function ContactPage() {
             }}
           >
             <div className="flex items-center gap-2 mb-4">
-              <span className="h-px w-8 bg-[#FF6A00]" />
-              <p className="font-mono text-xs text-[#FF6A00] tracking-[0.3em] uppercase">
+              <span className="h-px w-8 bg-[#F27D24]" />
+              <p className="font-mono text-xs text-[#F27D24] tracking-[0.3em] uppercase">
                 Get in Touch // Let's Talk
               </p>
             </div>
 
             <h1 className="text-6xl md:text-8xl font-black font-['Space_Grotesk'] leading-none tracking-tighter uppercase mb-6">
               ESTABLISH{' '}
-              <span className="text-[#FF6A00]">CONTACT</span>
+              <span className="text-[#F27D24]">CONTACT</span>
             </h1>
 
             <p className="max-w-2xl text-white/50 text-lg border-l-2 border-white/10 pl-6">
@@ -130,16 +139,16 @@ export default function ContactPage() {
             <div className="lg:col-span-5 flex flex-col gap-6">
 
               {/* Phone Card */}
-              <div className="bg-[#2a2a2a] border-l-4 border-[#FF6A00] p-6 relative overflow-hidden">
+              <div className="bg-[#2a2a2a] border-l-4 border-[#F27D24] p-6 relative overflow-hidden">
                 <div className="absolute top-0 right-0 p-2 font-mono text-[8px] text-white/10">
                   Phone
                 </div>
-                <p className="font-mono text-[10px] text-[#FF6A00] tracking-widest mb-1 uppercase">
+                <p className="font-mono text-[10px] text-[#F27D24] tracking-widest mb-1 uppercase">
                   Call Us
                 </p>
                 <a
                   href="tel:+12134442229"
-                  className="text-2xl font-bold font-['Space_Grotesk'] uppercase text-white hover:text-[#FF6A00] transition-colors"
+                  className="text-2xl font-bold font-['Space_Grotesk'] uppercase text-white hover:text-[#F27D24] transition-colors"
                 >
                   (213) 444-2229
                 </a>
@@ -147,16 +156,16 @@ export default function ContactPage() {
               </div>
 
               {/* Email Card */}
-              <div className="bg-[#2a2a2a] border-l-4 border-[#FF6A00] p-6 relative overflow-hidden">
+              <div className="bg-[#2a2a2a] border-l-4 border-[#F27D24] p-6 relative overflow-hidden">
                 <div className="absolute top-0 right-0 p-2 font-mono text-[8px] text-white/10">
                   Email
                 </div>
-                <p className="font-mono text-[10px] text-[#FF6A00] tracking-widest mb-1 uppercase">
+                <p className="font-mono text-[10px] text-[#F27D24] tracking-widest mb-1 uppercase">
                   Email Us
                 </p>
                 <a
                   href="mailto:support@theanswerengine.ai"
-                  className="text-xl font-bold font-['Space_Grotesk'] uppercase text-white hover:text-[#FF6A00] transition-colors break-all"
+                  className="text-xl font-bold font-['Space_Grotesk'] uppercase text-white hover:text-[#F27D24] transition-colors break-all"
                 >
                   support@theanswerengine.ai
                 </a>
@@ -164,11 +173,11 @@ export default function ContactPage() {
               </div>
 
               {/* Hours Card */}
-              <div className="bg-[#2a2a2a] border-l-4 border-[#FF6A00] p-6 relative overflow-hidden">
+              <div className="bg-[#2a2a2a] border-l-4 border-[#F27D24] p-6 relative overflow-hidden">
                 <div className="absolute top-0 right-0 p-2 font-mono text-[8px] text-white/10">
                   Hours
                 </div>
-                <p className="font-mono text-[10px] text-[#FF6A00] tracking-widest mb-1 uppercase">
+                <p className="font-mono text-[10px] text-[#F27D24] tracking-widest mb-1 uppercase">
                   Business Hours
                 </p>
                 <p className="text-2xl font-bold font-['Space_Grotesk'] uppercase text-white">
@@ -189,16 +198,16 @@ export default function ContactPage() {
 
             {/* Right: Strategy Call Card */}
             <div className="lg:col-span-7">
-              <div className="bg-[#2a2a2a] border-t-4 border-[#FF6A00] p-8 h-full">
+              <div className="bg-[#2a2a2a] border-t-4 border-[#F27D24] p-8 h-full">
                 <div className="mb-8">
-                  <p className="font-mono text-[10px] text-[#FF6A00] tracking-widest uppercase mb-3">
+                  <p className="font-mono text-[10px] text-[#F27D24] tracking-widest uppercase mb-3">
                     Free Strategy Call // 30 Minutes
                   </p>
                   <h2 className="text-3xl font-black font-['Space_Grotesk'] uppercase tracking-tighter leading-tight mb-2">
                     FREE 30-MINUTE{' '}
-                    <span className="text-[#FF6A00]">STRATEGY BRIEFING</span>
+                    <span className="text-[#F27D24]">STRATEGY BRIEFING</span>
                   </h2>
-                  <div className="h-px w-24 bg-[#FF6A00] mt-3" />
+                  <div className="h-px w-24 bg-[#F27D24] mt-3" />
                 </div>
 
                 <ul className="space-y-4 mb-10">
@@ -208,7 +217,7 @@ export default function ContactPage() {
                     "Get a 90-day roadmap to dominate AI recommendations",
                   ].map((item, i) => (
                     <li key={i} className="flex items-start gap-3">
-                      <span className="font-mono text-[#FF6A00] text-sm mt-0.5">[+]</span>
+                      <span className="font-mono text-[#F27D24] text-sm mt-0.5">[+]</span>
                       <span className="font-mono text-sm text-white/70 uppercase tracking-wide">{item}</span>
                     </li>
                   ))}
@@ -217,13 +226,13 @@ export default function ContactPage() {
                 <div className="flex flex-col sm:flex-row gap-4">
                   <a
                     href="tel:+12134442229"
-                    className="flex-1 flex items-center justify-center gap-2 px-8 py-4 bg-[#FF6A00] text-black font-black font-['Space_Grotesk'] text-base uppercase tracking-widest hover:bg-white transition-colors"
+                    className="flex-1 flex items-center justify-center gap-2 px-8 py-4 bg-[#F27D24] text-black font-black font-['Space_Grotesk'] text-base uppercase tracking-widest hover:bg-white transition-colors"
                   >
                     CALL: (213) 444-2229
                   </a>
                   <a
                     href="mailto:support@theanswerengine.ai"
-                    className="flex-1 flex items-center justify-center gap-2 px-8 py-4 border border-white/20 text-white font-black font-['Space_Grotesk'] text-base uppercase tracking-widest hover:border-[#FF6A00] hover:text-[#FF6A00] transition-colors"
+                    className="flex-1 flex items-center justify-center gap-2 px-8 py-4 border border-white/20 text-white font-black font-['Space_Grotesk'] text-base uppercase tracking-widest hover:border-[#F27D24] hover:text-[#F27D24] transition-colors"
                   >
                     EMAIL US
                   </a>
@@ -253,7 +262,7 @@ export default function ContactPage() {
                 <h4 className="font-black font-['Space_Grotesk'] uppercase tracking-tighter text-white mb-2">
                   {item.label}
                 </h4>
-                <p className="text-xs font-mono text-[#FF6A00]/60">{item.sub}</p>
+                <p className="text-xs font-mono text-[#F27D24]/60">{item.sub}</p>
               </div>
             ))}
           </section>
@@ -261,7 +270,7 @@ export default function ContactPage() {
           {/* FAQ Section */}
           <section className="mb-16">
             <div className="flex items-center gap-2 mb-8">
-              <div className="w-1 h-4 bg-[#FF6A00]" />
+              <div className="w-1 h-4 bg-[#F27D24]" />
               <h3 className="text-xs font-['Space_Grotesk'] font-black tracking-widest uppercase text-white">
                 Common Questions
               </h3>
@@ -281,8 +290,8 @@ export default function ContactPage() {
                   a: 'Currently we focus on US-based local service businesses, as AI citation patterns and data sources vary significantly by region.',
                 },
               ].map((item) => (
-                <div key={item.q} className="bg-[#1c1b1b] p-6 border-l-4 border-transparent hover:border-[#FF6A00] transition-colors">
-                  <p className="font-mono text-xs text-[#FF6A00] font-bold tracking-widest uppercase mb-2">
+                <div key={item.q} className="bg-[#1c1b1b] p-6 border-l-4 border-transparent hover:border-[#F27D24] transition-colors">
+                  <p className="font-mono text-xs text-[#F27D24] font-bold tracking-widest uppercase mb-2">
                     {item.q}
                   </p>
                   <p className="text-white/60 text-sm leading-relaxed">{item.a}</p>
@@ -295,7 +304,7 @@ export default function ContactPage() {
           <div className="text-center">
             <Link
               href="/"
-              className="inline-flex items-center gap-2 font-mono text-xs text-white/30 hover:text-[#FF6A00] transition-colors uppercase tracking-widest"
+              className="inline-flex items-center gap-2 font-mono text-xs text-white/30 hover:text-[#F27D24] transition-colors uppercase tracking-widest"
             >
               <svg
                 className="w-4 h-4"
@@ -315,17 +324,17 @@ export default function ContactPage() {
       </main>
 
       {/* Mobile Sticky Footer */}
-      <div className="md:hidden fixed bottom-0 left-0 right-0 p-4 bg-[#131313]/95 border-t border-[#FF6A00]/20 z-50">
+      <div className="md:hidden fixed bottom-0 left-0 right-0 p-4 bg-[#131313]/95 border-t border-[#F27D24]/20 z-50">
         <div className="flex gap-3">
           <a
             href="tel:+12134442229"
-            className="flex-1 flex items-center justify-center gap-2 py-3.5 bg-[#FF6A00] text-black font-black font-['Space_Grotesk'] uppercase text-sm tracking-widest active:opacity-80 transition-all"
+            className="flex-1 flex items-center justify-center gap-2 py-3.5 bg-[#F27D24] text-black font-black font-['Space_Grotesk'] uppercase text-sm tracking-widest active:opacity-80 transition-all"
           >
             CALL
           </a>
           <a
             href="mailto:support@theanswerengine.ai"
-            className="flex-1 flex items-center justify-center gap-2 py-3.5 border border-white/20 text-white font-black font-['Space_Grotesk'] uppercase text-sm tracking-widest hover:border-[#FF6A00] active:opacity-80 transition-all"
+            className="flex-1 flex items-center justify-center gap-2 py-3.5 border border-white/20 text-white font-black font-['Space_Grotesk'] uppercase text-sm tracking-widest hover:border-[#F27D24] active:opacity-80 transition-all"
           >
             EMAIL
           </a>

@@ -27,7 +27,7 @@ export const metadata: Metadata = {
     description,
     type: 'article',
     publishedTime: publishDate,
-    authors: ['The Answer Engine Team'],
+    authors: ['https://theanswerengine.ai/about'],
     url: `https://theanswerengine.ai/blog/${slug}`,
     images: [
       {
@@ -65,9 +65,18 @@ const jsonLd = {
       datePublished: publishDate,
       dateModified: publishDate,
       author: {
-        '@type': 'Organization',
-        name: 'The Answer Engine',
-        url: 'https://theanswerengine.ai',
+        '@type': 'Person',
+        '@id': 'https://theanswerengine.ai/about#justin-borges',
+        name: 'Justin Borges',
+        jobTitle: 'Founder, The Answer Engine',
+        worksFor: {
+          '@type': 'Organization',
+          name: 'The Answer Engine',
+          url: 'https://theanswerengine.ai',
+        },
+        knowsAbout: ['Answer Engine Optimization', 'AI Search', 'Content Strategy', 'Real Estate Marketing', 'Citation Surface'],
+        url: 'https://theanswerengine.ai/about',
+        image: 'https://theanswerengine.ai/justin-borges.webp',
       },
       publisher: {
         '@type': 'Organization',
@@ -188,7 +197,7 @@ export default function Page() {
             <svg width="100%" height="100%" xmlns="http://www.w3.org/2000/svg">
               <defs>
                 <pattern id="price-dots-a195" x="0" y="0" width="20" height="20" patternUnits="userSpaceOnUse">
-                  <circle cx="2" cy="2" r="1" fill="#FF6A00" />
+                  <circle cx="2" cy="2" r="1" fill="#F27D24" />
                 </pattern>
               </defs>
               <rect width="100%" height="100%" fill="url(#price-dots-a195)" />
@@ -206,7 +215,7 @@ export default function Page() {
               A customer researches your pricing on ChatGPT, gets a number that is 40% below your current rate, and calls you expecting that price. When they hear the real number, they hang up thinking you are a scam. This happens every day to businesses that have not addressed their AI pricing signals.
             </p>
             <div className="flex items-center gap-6 text-sm text-gray-500">
-              <span>By The Answer Engine Team</span>
+              <span>By Justin Borges</span>
               <span>11 min read</span>
               <span>April 20, 2026</span>
             </div>
@@ -388,7 +397,7 @@ export default function Page() {
           </div>
 
           <p className="text-gray-300 leading-relaxed mt-6 mb-6">
-            This connects directly to the broader problem of <Link href="/blog/why-ai-gives-outdated-information-about-my-business" className="text-[#FF6A00] hover:text-orange-400 transition-colors">why AI gives outdated information about businesses</Link>. Pricing is just the most financially damaging version of this problem because it creates direct purchase friction at the exact moment a customer is ready to decide.
+            This connects directly to the broader problem of <Link href="/blog/why-ai-gives-outdated-information-about-my-business" className="text-[#F27D24] hover:text-orange-400 transition-colors">why AI gives outdated information about businesses</Link>. Pricing is just the most financially damaging version of this problem because it creates direct purchase friction at the exact moment a customer is ready to decide.
           </p>
 
           <div className="ae-cta-inline">
@@ -411,21 +420,21 @@ export default function Page() {
             <div className="ae-bar-item">
               <span className="ae-bar-label">Structured data pricing schema on website</span>
               <div className="ae-bar-track">
-                <div className="ae-bar-fill" style={{ width: '92%', background: '#FF6A00' }}></div>
+                <div className="ae-bar-fill" style={{ width: '92%', background: '#F27D24' }}></div>
               </div>
               <span className="ae-bar-value">Highest trust signal</span>
             </div>
             <div className="ae-bar-item">
               <span className="ae-bar-label">Dedicated pricing page with clear formatting</span>
               <div className="ae-bar-track">
-                <div className="ae-bar-fill" style={{ width: '80%', background: '#FF6A00' }}></div>
+                <div className="ae-bar-fill" style={{ width: '80%', background: '#F27D24' }}></div>
               </div>
               <span className="ae-bar-value">High trust signal</span>
             </div>
             <div className="ae-bar-item">
               <span className="ae-bar-label">GBP service prices updated and consistent</span>
               <div className="ae-bar-track">
-                <div className="ae-bar-fill" style={{ width: '74%', background: '#FF6A00' }}></div>
+                <div className="ae-bar-fill" style={{ width: '74%', background: '#F27D24' }}></div>
               </div>
               <span className="ae-bar-value">High trust signal</span>
             </div>
@@ -493,11 +502,11 @@ export default function Page() {
           </div>
 
           <p className="text-gray-300 leading-relaxed mt-6 mb-6">
-            The pattern here connects to the broader challenge of <Link href="/blog/how-to-fix-wrong-ai-answers-about-your-business" className="text-[#FF6A00] hover:text-orange-400 transition-colors">fixing wrong AI answers about your business</Link>. Pricing is just one category of factual error, but it is the one that creates the most direct purchase friction and the most immediate revenue impact.
+            The pattern here connects to the broader challenge of <Link href="/blog/how-to-fix-wrong-ai-answers-about-your-business" className="text-[#F27D24] hover:text-orange-400 transition-colors">fixing wrong AI answers about your business</Link>. Pricing is just one category of factual error, but it is the one that creates the most direct purchase friction and the most immediate revenue impact.
           </p>
 
           <div className="ae-cta-inline">
-            <p>Dealing with a specific pricing error AI is spreading about your business? <a href="tel:+12134442229" className="text-[#FF6A00] hover:text-orange-400 transition-colors">Call us at (213) 444-2229</a> or <Link href="/blindspot">get your Blind Spot Report</Link> to start with a complete picture of what AI platforms are saying.</p>
+            <p>Dealing with a specific pricing error AI is spreading about your business? <a href="tel:+12134442229" className="text-[#F27D24] hover:text-orange-400 transition-colors">Call us at (213) 444-2229</a> or <Link href="/blindspot">get your Blind Spot Report</Link> to start with a complete picture of what AI platforms are saying.</p>
           </div>
         </section>
 
@@ -585,12 +594,12 @@ export default function Page() {
         <section className="my-12">
           <div className="ae-quote">
             <p>"Your prices are not wrong on AI because the AI made a mistake. Your prices are wrong on AI because the signals you put on the web are inconsistent. AI is just reporting what it found. The problem is what it found."</p>
-            <cite>The Answer Engine Team</cite>
+            <cite>Justin Borges</cite>
           </div>
         </section>
 
         {/* 3-Tier CTA Block */}
-        <div className="not-prose my-16 p-8 rounded-2xl bg-gradient-to-br from-[#FF6A00]/10 to-transparent border border-[#FF6A00]/20">
+        <div className="not-prose my-16 p-8 rounded-2xl bg-gradient-to-br from-[#F27D24]/10 to-transparent border border-[#F27D24]/20">
           <h3 className="font-plus-jakarta text-2xl font-bold text-white mb-3">
             Find Out Exactly What AI Is Telling Your Customers
           </h3>
@@ -599,14 +608,14 @@ export default function Page() {
           </p>
           <Link
             href="/blindspot"
-            className="inline-flex items-center gap-2 bg-[#FF6A00] text-white px-6 py-3 rounded-lg font-semibold hover:bg-[#e55f00] transition-colors"
+            className="inline-flex items-center gap-2 bg-[#F27D24] text-white px-6 py-3 rounded-lg font-semibold hover:bg-[#D96416] transition-colors"
           >
             Get Your Free Blind Spot Report
             <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
             </svg>
           </Link>
-          <div className="flex flex-wrap items-center gap-6 mt-6 pt-6 border-t border-[#FF6A00]/10">
+          <div className="flex flex-wrap items-center gap-6 mt-6 pt-6 border-t border-[#F27D24]/10">
             <a href="tel:+12134442229" className="flex items-center gap-2 text-gray-400 hover:text-white transition-colors">
               <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
@@ -623,14 +632,18 @@ export default function Page() {
         </div>
 
         {/* Author Card */}
-        <div className="ae-author-card not-prose">
-          <div className="ae-author-avatar">AE</div>
-          <div>
-            <div className="font-plus-jakarta font-bold text-white">The Answer Engine Team</div>
-            <div className="text-gray-400 text-sm">AI Search Visibility Specialists</div>
-            <div className="text-gray-500 text-sm mt-1">We help local businesses correct factual errors AI platforms spread about them and build the signal infrastructure that keeps those errors from coming back.</div>
-          </div>
-        </div>
+        <div className="ae-author-card">
+              <img
+                src="/justin-borges.webp"
+                alt="Justin Borges, Founder of The Answer Engine"
+                style={{ width: 64, height: 64, borderRadius: '50%', objectFit: 'cover', flexShrink: 0 }}
+              />
+              <div>
+                <div className="ae-author-name" style={{ fontWeight: 600 }}>Justin Borges</div>
+                <div className="ae-author-role" style={{ fontWeight: 400 }}>Founder, The Answer Engine</div>
+                <p style={{ marginTop: 8, fontSize: '0.875rem', color: 'rgba(255,255,255,0.65)', lineHeight: 1.6 }}>Justin Borges founded The Answer Engine in 2025 after 13+ years in real estate, $200M+ in production, and discovering that AI search rankings now decide who gets cited as the answer. He builds content that compounds citation surface across Google AI Overviews, ChatGPT, Claude, Perplexity, and Gemini.</p>
+              </div>
+            </div>
 
         {/* FAQ Section */}
         <section id="faq" className="not-prose mt-16">
@@ -682,7 +695,7 @@ export default function Page() {
           </p>
           <Link
             href="/blindspot"
-            className="inline-flex items-center gap-2 bg-[#FF6A00] text-white px-8 py-4 rounded-xl font-semibold text-lg hover:bg-[#e55f00] transition-colors ae-pulse-glow"
+            className="inline-flex items-center gap-2 bg-[#F27D24] text-white px-8 py-4 rounded-xl font-semibold text-lg hover:bg-[#D96416] transition-colors ae-pulse-glow"
           >
             Get Your Free Blind Spot Report
             <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -690,7 +703,7 @@ export default function Page() {
             </svg>
           </Link>
           <p className="text-gray-500 text-sm mt-4">
-            Free. No credit card. Results in 24 hours. <a href="tel:+12134442229" className="text-[#FF6A00] hover:text-orange-400 transition-colors">(213) 444-2229</a>
+            Free. No credit card. Results in 24 hours. <a href="tel:+12134442229" className="text-[#F27D24] hover:text-orange-400 transition-colors">(213) 444-2229</a>
           </p>
         </div>
 

@@ -27,7 +27,7 @@ Primary vertical: real estate (solo agents, teams, brokerages). Adjacent: proper
 
 ## Blog
 
-- [The Answer Engine Blog](https://www.theanswerengine.ai/blog): 150+ in-depth articles on Answer Engine Optimization, AI platform behavior (ChatGPT, Claude, Perplexity, Google AI Overviews, Grok, Gemini), schema markup, citation tracking, and vertical-specific AEO strategy.
+- [The Answer Engine Blog](https://www.theanswerengine.ai/blog): 234+ in-depth articles on Answer Engine Optimization, AI platform behavior (ChatGPT, Claude, Perplexity, Google AI Overviews, Grok, Gemini), schema markup, citation tracking, and vertical-specific AEO strategy.
 
 ## Contact
 

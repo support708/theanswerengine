@@ -60,9 +60,18 @@ const jsonLd = {
       datePublished: '2026-04-08',
       dateModified: '2026-04-08',
       author: {
-        '@type': 'Organization',
-        name: 'The Answer Engine Team',
+        '@type': 'Person',
+        '@id': 'https://theanswerengine.ai/about#justin-borges',
+        name: 'Justin Borges',
+        jobTitle: 'Founder, The Answer Engine',
+        worksFor: {
+          '@type': 'Organization',
+          name: 'The Answer Engine',
+          url: 'https://theanswerengine.ai',
+        },
+        knowsAbout: ['Answer Engine Optimization', 'AI Search', 'Content Strategy', 'Real Estate Marketing', 'Citation Surface'],
         url: 'https://theanswerengine.ai/about',
+        image: 'https://theanswerengine.ai/justin-borges.webp',
       },
       publisher: {
         '@type': 'Organization',
@@ -190,7 +199,7 @@ export default function HowPhotographersGetFoundOnAISearch() {
 
         {/* ── HERO ── */}
         <section className="relative overflow-hidden border-b border-white/5">
-          <div className="absolute inset-0 bg-gradient-to-br from-[#FF6A00]/10 via-transparent to-transparent" />
+          <div className="absolute inset-0 bg-gradient-to-br from-[#F27D24]/10 via-transparent to-transparent" />
           <svg className="absolute inset-0 w-full h-full opacity-[0.03]" aria-hidden="true">
             <defs>
               <pattern id="hero-grid-143" width="40" height="40" patternUnits="userSpaceOnUse">
@@ -209,13 +218,13 @@ export default function HowPhotographersGetFoundOnAISearch() {
               <span className="text-gray-400">How Photographers Get Found on AI Search</span>
             </nav>
 
-            <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full mb-6 bg-[#FF6A00]/10 border border-[#FF6A00]/30">
-              <span className="text-sm font-semibold tracking-wider uppercase text-[#FF6A00]">Industry Guides</span>
+            <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full mb-6 bg-[#F27D24]/10 border border-[#F27D24]/30">
+              <span className="text-sm font-semibold tracking-wider uppercase text-[#F27D24]">Industry Guides</span>
             </div>
 
             <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold mb-6 text-white leading-tight font-plus-jakarta">
               How Photographers Get Found on{' '}
-              <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#FF6A00] to-orange-400">
+              <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#F27D24] to-orange-400">
                 AI Search
               </span>
             </h1>
@@ -229,22 +238,22 @@ export default function HowPhotographersGetFoundOnAISearch() {
 
             <div className="flex flex-wrap items-center gap-6 text-sm text-gray-500">
               <span className="flex items-center gap-2">
-                <svg className="w-4 h-4 text-[#FF6A00]" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <svg className="w-4 h-4 text-[#F27D24]" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
                 </svg>
                 April 8, 2026
               </span>
               <span className="flex items-center gap-2">
-                <svg className="w-4 h-4 text-[#FF6A00]" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <svg className="w-4 h-4 text-[#F27D24]" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
                 </svg>
                 11 min read
               </span>
               <span className="flex items-center gap-2">
-                <svg className="w-4 h-4 text-[#FF6A00]" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <svg className="w-4 h-4 text-[#F27D24]" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z" />
                 </svg>
-                The Answer Engine Team
+                Justin Borges
               </span>
             </div>
           </div>
@@ -256,19 +265,19 @@ export default function HowPhotographersGetFoundOnAISearch() {
           {/* ── STATS GRID ── */}
           <div className="ae-stats-grid grid grid-cols-2 lg:grid-cols-4 gap-4 mb-14">
             <div className="ae-stat-card bg-white/5 border border-white/10 rounded-xl p-5 text-center">
-              <div className="text-3xl font-bold text-[#FF6A00] font-plus-jakarta mb-1">$15.8B</div>
+              <div className="text-3xl font-bold text-[#F27D24] font-plus-jakarta mb-1">$15.8B</div>
               <div className="text-sm text-gray-400 leading-tight">U.S. photography industry revenue in 2025</div>
             </div>
             <div className="ae-stat-card bg-white/5 border border-white/10 rounded-xl p-5 text-center">
-              <div className="text-3xl font-bold text-[#FF6A00] font-plus-jakarta mb-1">267K</div>
+              <div className="text-3xl font-bold text-[#F27D24] font-plus-jakarta mb-1">267K</div>
               <div className="text-sm text-gray-400 leading-tight">photography businesses competing for bookings</div>
             </div>
             <div className="ae-stat-card bg-white/5 border border-white/10 rounded-xl p-5 text-center">
-              <div className="text-3xl font-bold text-[#FF6A00] font-plus-jakarta mb-1">810M</div>
+              <div className="text-3xl font-bold text-[#F27D24] font-plus-jakarta mb-1">810M</div>
               <div className="text-sm text-gray-400 leading-tight">daily ChatGPT users - many searching for local services</div>
             </div>
             <div className="ae-stat-card bg-white/5 border border-white/10 rounded-xl p-5 text-center">
-              <div className="text-3xl font-bold text-[#FF6A00] font-plus-jakarta mb-1">93%</div>
+              <div className="text-3xl font-bold text-[#F27D24] font-plus-jakarta mb-1">93%</div>
               <div className="text-sm text-gray-400 leading-tight">of AI search sessions end without a website click</div>
             </div>
           </div>
@@ -292,7 +301,7 @@ export default function HowPhotographersGetFoundOnAISearch() {
 
           {/* ── TABLE OF CONTENTS ── */}
           <nav className="ae-toc bg-white/5 border border-white/10 rounded-xl p-6 mb-12">
-            <p className="text-sm font-semibold text-[#FF6A00] uppercase tracking-wider mb-4">In This Guide</p>
+            <p className="text-sm font-semibold text-[#F27D24] uppercase tracking-wider mb-4">In This Guide</p>
             <ol className="space-y-2 text-sm">
               {[
                 ['#why-ai-search-matters', 'Why AI Search Is Now a Photography Business Problem'],
@@ -306,7 +315,7 @@ export default function HowPhotographersGetFoundOnAISearch() {
               ].map(([href, label]) => (
                 <li key={href as string}>
                   <a href={href as string} className="flex items-center gap-2 text-gray-400 hover:text-white transition-colors group">
-                    <span className="w-1.5 h-1.5 rounded-full bg-[#FF6A00]/50 group-hover:bg-[#FF6A00] transition-colors flex-shrink-0" />
+                    <span className="w-1.5 h-1.5 rounded-full bg-[#F27D24]/50 group-hover:bg-[#F27D24] transition-colors flex-shrink-0" />
                     {label as string}
                   </a>
                 </li>
@@ -316,7 +325,7 @@ export default function HowPhotographersGetFoundOnAISearch() {
 
           {/* ── SECTION 1: WHY AI SEARCH MATTERS ── */}
           <section id="why-ai-search-matters" className="mb-14">
-            <div className="ae-section-label text-xs font-semibold tracking-widest uppercase text-[#FF6A00] mb-3">Section 01</div>
+            <div className="ae-section-label text-xs font-semibold tracking-widest uppercase text-[#F27D24] mb-3">Section 01</div>
             <h2 className="text-2xl sm:text-3xl font-bold text-white font-plus-jakarta mb-6">
               Why AI Search Is Now a Photography Business Problem
             </h2>
@@ -345,20 +354,20 @@ export default function HowPhotographersGetFoundOnAISearch() {
             </p>
 
             {/* Inline CTA 1 */}
-            <div className="ae-cta-inline my-8 p-5 rounded-xl bg-[#FF6A00]/8 border border-[#FF6A00]/20 flex flex-col sm:flex-row items-start sm:items-center gap-4">
+            <div className="ae-cta-inline my-8 p-5 rounded-xl bg-[#F27D24]/8 border border-[#F27D24]/20 flex flex-col sm:flex-row items-start sm:items-center gap-4">
               <div className="flex-1">
                 <p className="text-white font-semibold text-sm mb-1">Is your photography business showing up?</p>
                 <p className="text-gray-400 text-xs">Find out what AI platforms actually say when someone searches for a photographer in your city.</p>
               </div>
               <Link
                 href="/blindspot"
-                className="flex-shrink-0 bg-[#FF6A00] text-white px-5 py-2.5 rounded-lg text-sm font-semibold hover:bg-[#e55f00] transition-colors whitespace-nowrap"
+                className="flex-shrink-0 bg-[#F27D24] text-white px-5 py-2.5 rounded-lg text-sm font-semibold hover:bg-[#D96416] transition-colors whitespace-nowrap"
               >
                 Get Free Blind Spot Report
               </Link>
             </div>
 
-            <div className="ae-quote border-l-4 border-[#FF6A00] pl-6 py-2 my-8">
+            <div className="ae-quote border-l-4 border-[#F27D24] pl-6 py-2 my-8">
               <p className="text-lg text-gray-200 italic leading-relaxed">
                 &quot;The vendors mentioned by AI receive immediate credibility and consideration.
                 Those not mentioned might as well not exist for a growing segment of engaged couples.&quot;
@@ -369,7 +378,7 @@ export default function HowPhotographersGetFoundOnAISearch() {
 
           {/* ── SECTION 2: HOW AI DISCOVERS PHOTOGRAPHERS ── */}
           <section id="how-ai-discovers-photographers" className="mb-14">
-            <div className="ae-section-label text-xs font-semibold tracking-widest uppercase text-[#FF6A00] mb-3">Section 02</div>
+            <div className="ae-section-label text-xs font-semibold tracking-widest uppercase text-[#F27D24] mb-3">Section 02</div>
             <h2 className="text-2xl sm:text-3xl font-bold text-white font-plus-jakarta mb-6">
               How AI Platforms Discover and Evaluate Photographers
             </h2>
@@ -426,7 +435,7 @@ export default function HowPhotographersGetFoundOnAISearch() {
             <p className="text-gray-300 leading-relaxed">
               For a broader look at how this same dynamic plays out across other creative industries,
               the principles in our guide on{' '}
-              <Link href="/blog/does-having-a-blog-actually-help-ai-recommend-your-business" className="text-[#FF6A00] hover:text-orange-400 underline underline-offset-2 transition-colors">
+              <Link href="/blog/does-having-a-blog-actually-help-ai-recommend-your-business" className="text-[#F27D24] hover:text-orange-400 underline underline-offset-2 transition-colors">
                 whether content depth helps AI recommend your business
               </Link>{' '}
               apply directly to photography studios.
@@ -435,7 +444,7 @@ export default function HowPhotographersGetFoundOnAISearch() {
 
           {/* ── SECTION 3: SIGNALS THAT DRIVE RECOMMENDATIONS ── */}
           <section id="signals-that-drive-recommendations" className="mb-14">
-            <div className="ae-section-label text-xs font-semibold tracking-widest uppercase text-[#FF6A00] mb-3">Section 03</div>
+            <div className="ae-section-label text-xs font-semibold tracking-widest uppercase text-[#F27D24] mb-3">Section 03</div>
             <h2 className="text-2xl sm:text-3xl font-bold text-white font-plus-jakarta mb-6">
               The Signals That Drive AI Recommendations
             </h2>
@@ -511,7 +520,7 @@ export default function HowPhotographersGetFoundOnAISearch() {
             <p className="text-gray-300 leading-relaxed mb-6">
               This mirrors exactly what our research found in the real estate industry. In our guide
               on{' '}
-              <Link href="/blog/how-real-estate-agents-get-found-ai-search" className="text-[#FF6A00] hover:text-orange-400 underline underline-offset-2 transition-colors">
+              <Link href="/blog/how-real-estate-agents-get-found-ai-search" className="text-[#F27D24] hover:text-orange-400 underline underline-offset-2 transition-colors">
                 how real estate agents get found on AI search
               </Link>
               , the agents with the most AI visibility were not necessarily the ones with the most
@@ -520,14 +529,14 @@ export default function HowPhotographersGetFoundOnAISearch() {
             </p>
 
             {/* Inline CTA 2 */}
-            <div className="ae-cta-inline my-8 p-5 rounded-xl bg-[#FF6A00]/8 border border-[#FF6A00]/20 flex flex-col sm:flex-row items-start sm:items-center gap-4">
+            <div className="ae-cta-inline my-8 p-5 rounded-xl bg-[#F27D24]/8 border border-[#F27D24]/20 flex flex-col sm:flex-row items-start sm:items-center gap-4">
               <div className="flex-1">
                 <p className="text-white font-semibold text-sm mb-1">How many of these signals does your studio have?</p>
                 <p className="text-gray-400 text-xs">Our Blind Spot Report shows you exactly where your AI visibility gaps are - and what to fix first.</p>
               </div>
               <Link
                 href="/blindspot"
-                className="flex-shrink-0 bg-[#FF6A00] text-white px-5 py-2.5 rounded-lg text-sm font-semibold hover:bg-[#e55f00] transition-colors whitespace-nowrap"
+                className="flex-shrink-0 bg-[#F27D24] text-white px-5 py-2.5 rounded-lg text-sm font-semibold hover:bg-[#D96416] transition-colors whitespace-nowrap"
               >
                 Get My Free Report
               </Link>
@@ -536,7 +545,7 @@ export default function HowPhotographersGetFoundOnAISearch() {
 
           {/* ── SECTION 4: PHOTOGRAPHY NICHES AND AI ── */}
           <section id="photography-niches-and-ai" className="mb-14">
-            <div className="ae-section-label text-xs font-semibold tracking-widest uppercase text-[#FF6A00] mb-3">Section 04</div>
+            <div className="ae-section-label text-xs font-semibold tracking-widest uppercase text-[#F27D24] mb-3">Section 04</div>
             <h2 className="text-2xl sm:text-3xl font-bold text-white font-plus-jakarta mb-6">
               Photography Niches: Who Has the Most to Win
             </h2>
@@ -592,7 +601,7 @@ export default function HowPhotographersGetFoundOnAISearch() {
 
             <div className="ae-takeaway bg-white/5 border border-white/10 rounded-xl p-6 mb-6">
               <div className="flex items-start gap-3">
-                <svg className="w-5 h-5 text-[#FF6A00] flex-shrink-0 mt-0.5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <svg className="w-5 h-5 text-[#F27D24] flex-shrink-0 mt-0.5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.347.347a3.5 3.5 0 01-4.95 0l-.347-.347z" />
                 </svg>
                 <div>
@@ -610,7 +619,7 @@ export default function HowPhotographersGetFoundOnAISearch() {
 
           {/* ── SECTION 5: WHAT MOST PHOTOGRAPHERS DO WRONG ── */}
           <section id="what-most-photographers-do-wrong" className="mb-14">
-            <div className="ae-section-label text-xs font-semibold tracking-widest uppercase text-[#FF6A00] mb-3">Section 05</div>
+            <div className="ae-section-label text-xs font-semibold tracking-widest uppercase text-[#F27D24] mb-3">Section 05</div>
             <h2 className="text-2xl sm:text-3xl font-bold text-white font-plus-jakarta mb-6">
               What Most Photographers Are Getting Wrong
             </h2>
@@ -650,7 +659,7 @@ export default function HowPhotographersGetFoundOnAISearch() {
                 },
               ].map((item) => (
                 <div key={item.number} className="flex gap-5 p-5 rounded-xl bg-white/[0.03] border border-white/8">
-                  <div className="text-2xl font-bold text-[#FF6A00]/30 font-plus-jakarta flex-shrink-0 w-8">{item.number}</div>
+                  <div className="text-2xl font-bold text-[#F27D24]/30 font-plus-jakarta flex-shrink-0 w-8">{item.number}</div>
                   <div>
                     <h3 className="font-semibold text-white mb-2 font-plus-jakarta">{item.title}</h3>
                     <p className="text-gray-400 text-sm leading-relaxed">{item.body}</p>
@@ -661,7 +670,7 @@ export default function HowPhotographersGetFoundOnAISearch() {
 
             <p className="text-gray-300 leading-relaxed mb-4">
               This connects directly to a broader pattern we documented in our article on{' '}
-              <Link href="/blog/does-social-media-help-ai-find-business" className="text-[#FF6A00] hover:text-orange-400 underline underline-offset-2 transition-colors">
+              <Link href="/blog/does-social-media-help-ai-find-business" className="text-[#F27D24] hover:text-orange-400 underline underline-offset-2 transition-colors">
                 whether social media actually helps AI find your business
               </Link>
               . The short answer: it helps at the margins, but it is not the core driver most photographers
@@ -669,14 +678,14 @@ export default function HowPhotographersGetFoundOnAISearch() {
             </p>
 
             {/* Inline CTA 3 */}
-            <div className="ae-cta-inline my-8 p-5 rounded-xl bg-[#FF6A00]/8 border border-[#FF6A00]/20 flex flex-col sm:flex-row items-start sm:items-center gap-4">
+            <div className="ae-cta-inline my-8 p-5 rounded-xl bg-[#F27D24]/8 border border-[#F27D24]/20 flex flex-col sm:flex-row items-start sm:items-center gap-4">
               <div className="flex-1">
                 <p className="text-white font-semibold text-sm mb-1">Which of these gaps does your studio have?</p>
                 <p className="text-gray-400 text-xs">Our free Blind Spot Report audits your AI presence across ChatGPT, Perplexity, and Google AI - no tech knowledge required.</p>
               </div>
               <Link
                 href="/blindspot"
-                className="flex-shrink-0 bg-[#FF6A00] text-white px-5 py-2.5 rounded-lg text-sm font-semibold hover:bg-[#e55f00] transition-colors whitespace-nowrap"
+                className="flex-shrink-0 bg-[#F27D24] text-white px-5 py-2.5 rounded-lg text-sm font-semibold hover:bg-[#D96416] transition-colors whitespace-nowrap"
               >
                 Run My Free Audit
               </Link>
@@ -685,7 +694,7 @@ export default function HowPhotographersGetFoundOnAISearch() {
 
           {/* ── SECTION 6: COMPARISON TABLE ── */}
           <section id="comparison" className="mb-14">
-            <div className="ae-section-label text-xs font-semibold tracking-widest uppercase text-[#FF6A00] mb-3">Section 06</div>
+            <div className="ae-section-label text-xs font-semibold tracking-widest uppercase text-[#F27D24] mb-3">Section 06</div>
             <h2 className="text-2xl sm:text-3xl font-bold text-white font-plus-jakarta mb-6">
               AI Search vs. Traditional Discovery Channels
             </h2>
@@ -723,7 +732,7 @@ export default function HowPhotographersGetFoundOnAISearch() {
                       <td className={`py-3 px-4 font-medium ${(quality as string).includes('Very') ? 'text-green-400' : (quality as string).includes('High') ? 'text-blue-400' : 'text-gray-300'}`}>
                         {quality as string}
                       </td>
-                      <td className={`py-3 px-4 ${(ai as string).includes('Direct') ? 'text-[#FF6A00]' : (ai as string).includes('Strong') ? 'text-yellow-400' : 'text-gray-400'}`}>
+                      <td className={`py-3 px-4 ${(ai as string).includes('Direct') ? 'text-[#F27D24]' : (ai as string).includes('Strong') ? 'text-yellow-400' : 'text-gray-400'}`}>
                         {ai as string}
                       </td>
                       <td className={`py-3 px-4 ${(trend as string).includes('Growing') ? 'text-green-400' : (trend as string).includes('Declining') ? 'text-red-400' : 'text-gray-400'}`}>
@@ -735,13 +744,13 @@ export default function HowPhotographersGetFoundOnAISearch() {
               </table>
             </div>
 
-            <div className="ae-callout ae-callout-orange border border-[#FF6A00]/30 bg-[#FF6A00]/5 rounded-xl p-6 mb-6">
+            <div className="ae-callout ae-callout-orange border border-[#F27D24]/30 bg-[#F27D24]/5 rounded-xl p-6 mb-6">
               <div className="flex gap-4">
-                <svg className="w-6 h-6 text-[#FF6A00] flex-shrink-0 mt-0.5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <svg className="w-6 h-6 text-[#F27D24] flex-shrink-0 mt-0.5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 10V3L4 14h7v7l9-11h-7z" />
                 </svg>
                 <div>
-                  <p className="font-semibold text-[#FF6A00] mb-1">The Compounding Advantage</p>
+                  <p className="font-semibold text-[#F27D24] mb-1">The Compounding Advantage</p>
                   <p className="text-gray-300 text-sm leading-relaxed">
                     AI visibility and SEO are not either/or. The actions that build AI authority - structured
                     data, editorial mentions, consistent entity identity, review depth - simultaneously strengthen
@@ -755,7 +764,7 @@ export default function HowPhotographersGetFoundOnAISearch() {
 
           {/* ── SECTION 7: DECISION MATRIX ── */}
           <section id="decision-matrix" className="mb-14">
-            <div className="ae-section-label text-xs font-semibold tracking-widest uppercase text-[#FF6A00] mb-3">Section 07</div>
+            <div className="ae-section-label text-xs font-semibold tracking-widest uppercase text-[#F27D24] mb-3">Section 07</div>
             <h2 className="text-2xl sm:text-3xl font-bold text-white font-plus-jakarta mb-6">
               Is Your Photography Business AI-Ready?
             </h2>
@@ -821,14 +830,14 @@ export default function HowPhotographersGetFoundOnAISearch() {
             </div>
 
             {/* Inline CTA 4 */}
-            <div className="ae-cta-inline my-8 p-5 rounded-xl bg-[#FF6A00]/8 border border-[#FF6A00]/20 flex flex-col sm:flex-row items-start sm:items-center gap-4">
+            <div className="ae-cta-inline my-8 p-5 rounded-xl bg-[#F27D24]/8 border border-[#F27D24]/20 flex flex-col sm:flex-row items-start sm:items-center gap-4">
               <div className="flex-1">
                 <p className="text-white font-semibold text-sm mb-1">Stop guessing. Get the real data.</p>
                 <p className="text-gray-400 text-xs">Our Blind Spot Report shows you exactly what ChatGPT and Perplexity say about your studio right now.</p>
               </div>
               <Link
                 href="/blindspot"
-                className="flex-shrink-0 bg-[#FF6A00] text-white px-5 py-2.5 rounded-lg text-sm font-semibold hover:bg-[#e55f00] transition-colors whitespace-nowrap"
+                className="flex-shrink-0 bg-[#F27D24] text-white px-5 py-2.5 rounded-lg text-sm font-semibold hover:bg-[#D96416] transition-colors whitespace-nowrap"
               >
                 Get My Blind Spot Report
               </Link>
@@ -837,10 +846,10 @@ export default function HowPhotographersGetFoundOnAISearch() {
 
           {/* ── CHEAT SHEET ── */}
           <section className="mb-14">
-            <div className="ae-cheat-sheet bg-gradient-to-br from-[#FF6A00]/10 to-white/[0.02] border border-[#FF6A00]/20 rounded-2xl p-8">
+            <div className="ae-cheat-sheet bg-gradient-to-br from-[#F27D24]/10 to-white/[0.02] border border-[#F27D24]/20 rounded-2xl p-8">
               <div className="flex items-center gap-3 mb-6">
-                <div className="w-8 h-8 rounded-lg bg-[#FF6A00]/20 flex items-center justify-center">
-                  <svg className="w-4 h-4 text-[#FF6A00]" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <div className="w-8 h-8 rounded-lg bg-[#F27D24]/20 flex items-center justify-center">
+                  <svg className="w-4 h-4 text-[#F27D24]" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2" />
                   </svg>
                 </div>
@@ -849,7 +858,7 @@ export default function HowPhotographersGetFoundOnAISearch() {
 
               <div className="grid sm:grid-cols-2 gap-6">
                 <div>
-                  <h3 className="text-sm font-semibold text-[#FF6A00] uppercase tracking-wider mb-3">Foundation Layer</h3>
+                  <h3 className="text-sm font-semibold text-[#F27D24] uppercase tracking-wider mb-3">Foundation Layer</h3>
                   <ul className="space-y-2 text-sm text-gray-300">
                     {[
                       'Consistent business name across all platforms',
@@ -859,14 +868,14 @@ export default function HowPhotographersGetFoundOnAISearch() {
                       'Listed on The Knot, WeddingWire, and niche directories',
                     ].map((item) => (
                       <li key={item} className="flex items-start gap-2">
-                        <span className="text-[#FF6A00] font-bold flex-shrink-0">&#8250;</span>
+                        <span className="text-[#F27D24] font-bold flex-shrink-0">&#8250;</span>
                         {item}
                       </li>
                     ))}
                   </ul>
                 </div>
                 <div>
-                  <h3 className="text-sm font-semibold text-[#FF6A00] uppercase tracking-wider mb-3">Authority Layer</h3>
+                  <h3 className="text-sm font-semibold text-[#F27D24] uppercase tracking-wider mb-3">Authority Layer</h3>
                   <ul className="space-y-2 text-sm text-gray-300">
                     {[
                       '50+ reviews with keyword-rich recent responses',
@@ -876,14 +885,14 @@ export default function HowPhotographersGetFoundOnAISearch() {
                       'Press mentions that are web-discoverable and linked',
                     ].map((item) => (
                       <li key={item} className="flex items-start gap-2">
-                        <span className="text-[#FF6A00] font-bold flex-shrink-0">&#8250;</span>
+                        <span className="text-[#F27D24] font-bold flex-shrink-0">&#8250;</span>
                         {item}
                       </li>
                     ))}
                   </ul>
                 </div>
                 <div>
-                  <h3 className="text-sm font-semibold text-[#FF6A00] uppercase tracking-wider mb-3">What NOT to Over-Invest In</h3>
+                  <h3 className="text-sm font-semibold text-[#F27D24] uppercase tracking-wider mb-3">What NOT to Over-Invest In</h3>
                   <ul className="space-y-2 text-sm text-gray-300">
                     {[
                       'Instagram follower count (low AI signal value)',
@@ -899,7 +908,7 @@ export default function HowPhotographersGetFoundOnAISearch() {
                   </ul>
                 </div>
                 <div>
-                  <h3 className="text-sm font-semibold text-[#FF6A00] uppercase tracking-wider mb-3">Timing Advantage</h3>
+                  <h3 className="text-sm font-semibold text-[#F27D24] uppercase tracking-wider mb-3">Timing Advantage</h3>
                   <ul className="space-y-2 text-sm text-gray-300">
                     {[
                       'Most photographers have not started on AI visibility',
@@ -943,7 +952,7 @@ export default function HowPhotographersGetFoundOnAISearch() {
           </div>
 
           {/* ── 3-TIER CTA BLOCK ── */}
-          <div className="not-prose my-16 p-8 rounded-2xl bg-gradient-to-br from-[#FF6A00]/10 to-transparent border border-[#FF6A00]/20">
+          <div className="not-prose my-16 p-8 rounded-2xl bg-gradient-to-br from-[#F27D24]/10 to-transparent border border-[#F27D24]/20">
             <h3 className="font-plus-jakarta text-2xl font-bold text-white mb-3">
               See How AI Platforms View Your Photography Business
             </h3>
@@ -954,14 +963,14 @@ export default function HowPhotographersGetFoundOnAISearch() {
             </p>
             <Link
               href="/blindspot"
-              className="inline-flex items-center gap-2 bg-[#FF6A00] text-white px-6 py-3 rounded-lg font-semibold hover:bg-[#e55f00] transition-colors"
+              className="inline-flex items-center gap-2 bg-[#F27D24] text-white px-6 py-3 rounded-lg font-semibold hover:bg-[#D96416] transition-colors"
             >
               Get Your Free Blind Spot Report
               <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
               </svg>
             </Link>
-            <div className="flex flex-wrap items-center gap-6 mt-6 pt-6 border-t border-[#FF6A00]/10">
+            <div className="flex flex-wrap items-center gap-6 mt-6 pt-6 border-t border-[#F27D24]/10">
               <a href="tel:+12134442229" className="flex items-center gap-2 text-gray-400 hover:text-white transition-colors">
                 <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
@@ -979,7 +988,7 @@ export default function HowPhotographersGetFoundOnAISearch() {
 
           {/* ── AUTHOR CARD ── */}
           <div className="ae-author-card flex items-start gap-5 p-6 rounded-xl bg-white/5 border border-white/10 mb-12">
-            <div className="w-14 h-14 rounded-full bg-gradient-to-br from-[#FF6A00] to-orange-400 flex items-center justify-center flex-shrink-0">
+            <div className="w-14 h-14 rounded-full bg-gradient-to-br from-[#F27D24] to-orange-400 flex items-center justify-center flex-shrink-0">
               <svg className="w-7 h-7 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
               </svg>
@@ -992,7 +1001,7 @@ export default function HowPhotographersGetFoundOnAISearch() {
                 ChatGPT, Perplexity, Claude, and Google AI Overviews.
               </p>
               <div className="flex items-center gap-4 mt-3">
-                <Link href="/about" className="text-xs text-[#FF6A00] hover:text-orange-400 transition-colors">About Us</Link>
+                <Link href="/about" className="text-xs text-[#F27D24] hover:text-orange-400 transition-colors">About Us</Link>
                 <Link href="/blog" className="text-xs text-gray-500 hover:text-gray-300 transition-colors">More Articles</Link>
               </div>
             </div>
@@ -1000,7 +1009,7 @@ export default function HowPhotographersGetFoundOnAISearch() {
 
           {/* ── FAQ ── */}
           <section id="faq" className="mb-14">
-            <div className="ae-section-label text-xs font-semibold tracking-widest uppercase text-[#FF6A00] mb-3">FAQ</div>
+            <div className="ae-section-label text-xs font-semibold tracking-widest uppercase text-[#F27D24] mb-3">FAQ</div>
             <h2 className="text-2xl sm:text-3xl font-bold text-white font-plus-jakarta mb-8">
               Frequently Asked Questions
             </h2>
@@ -1043,7 +1052,7 @@ export default function HowPhotographersGetFoundOnAISearch() {
                   <summary className="flex items-center justify-between p-6 cursor-pointer list-none">
                     <h3 className="text-white font-semibold pr-4 text-sm sm:text-base leading-snug">{item.q}</h3>
                     <svg
-                      className="w-5 h-5 text-[#FF6A00] flex-shrink-0 transition-transform group-open:rotate-180"
+                      className="w-5 h-5 text-[#F27D24] flex-shrink-0 transition-transform group-open:rotate-180"
                       fill="none"
                       viewBox="0 0 24 24"
                       stroke="currentColor"
@@ -1076,14 +1085,14 @@ export default function HowPhotographersGetFoundOnAISearch() {
               aria-hidden="true"
             />
             <div className="relative">
-              <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full mb-4 bg-[#FF6A00]/15 border border-[#FF6A00]/30">
-                <span className="w-2 h-2 rounded-full bg-[#FF6A00] animate-pulse" />
-                <span className="text-sm font-semibold text-[#FF6A00]">Free Report Available</span>
+              <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full mb-4 bg-[#F27D24]/15 border border-[#F27D24]/30">
+                <span className="w-2 h-2 rounded-full bg-[#F27D24] animate-pulse" />
+                <span className="text-sm font-semibold text-[#F27D24]">Free Report Available</span>
               </div>
 
               <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-white font-plus-jakarta mb-4 leading-tight">
                 Your Competitors Are Invisible to AI.<br />
-                <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#FF6A00] to-orange-400">
+                <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#F27D24] to-orange-400">
                   You Do Not Have to Be.
                 </span>
               </h2>
@@ -1097,7 +1106,7 @@ export default function HowPhotographersGetFoundOnAISearch() {
               <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mb-8">
                 <Link
                   href="/blindspot"
-                  className="inline-flex items-center gap-2 bg-[#FF6A00] text-white px-8 py-4 rounded-xl font-bold text-lg hover:bg-[#e55f00] transition-colors"
+                  className="inline-flex items-center gap-2 bg-[#F27D24] text-white px-8 py-4 rounded-xl font-bold text-lg hover:bg-[#D96416] transition-colors"
                 >
                   Get Your Free Blind Spot Report
                   <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -1162,13 +1171,13 @@ export default function HowPhotographersGetFoundOnAISearch() {
                 <Link
                   key={article.href}
                   href={article.href}
-                  className="group block p-5 rounded-xl bg-white/5 border border-white/10 hover:border-[#FF6A00]/30 hover:bg-white/8 transition-all"
+                  className="group block p-5 rounded-xl bg-white/5 border border-white/10 hover:border-[#F27D24]/30 hover:bg-white/8 transition-all"
                 >
-                  <div className="text-xs font-semibold text-[#FF6A00] uppercase tracking-wider mb-2">{article.label}</div>
+                  <div className="text-xs font-semibold text-[#F27D24] uppercase tracking-wider mb-2">{article.label}</div>
                   <p className="text-sm text-gray-300 group-hover:text-white transition-colors leading-snug font-medium">
                     {article.title}
                   </p>
-                  <div className="mt-3 flex items-center gap-1 text-xs text-[#FF6A00]">
+                  <div className="mt-3 flex items-center gap-1 text-xs text-[#F27D24]">
                     Read more
                     <svg className="w-3 h-3 group-hover:translate-x-1 transition-transform" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />

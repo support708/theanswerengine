@@ -55,9 +55,18 @@ const jsonLd = {
       datePublished: publishDate,
       dateModified: publishDate,
       author: {
-        '@type': 'Organization',
-        name: 'The Answer Engine Team',
+        '@type': 'Person',
+        '@id': 'https://theanswerengine.ai/about#justin-borges',
+        name: 'Justin Borges',
+        jobTitle: 'Founder, The Answer Engine',
+        worksFor: {
+          '@type': 'Organization',
+          name: 'The Answer Engine',
+          url: 'https://theanswerengine.ai',
+        },
+        knowsAbout: ['Answer Engine Optimization', 'AI Search', 'Content Strategy', 'Real Estate Marketing', 'Citation Surface'],
         url: 'https://theanswerengine.ai/about',
+        image: 'https://theanswerengine.ai/justin-borges.webp',
       },
       publisher: {
         '@type': 'Organization',
@@ -186,7 +195,7 @@ export default function HowBarbershopsGetFoundOnAISearch() {
         <section className="relative overflow-hidden bg-[#131313] grid-bg border-b border-white/10">
           <div className="relative max-w-4xl mx-auto px-6 py-16 sm:py-24">
             <Breadcrumb />
-            <span className="font-mono text-[10px] text-[#FF6A00] tracking-widest uppercase block mb-4">◉ INDUSTRY GUIDES // The Answer Engine Intel</span>
+            <span className="font-mono text-[10px] text-[#F27D24] tracking-widest uppercase block mb-4">◉ INDUSTRY GUIDES // The Answer Engine Intel</span>
             <h1 className="font-headline font-black text-3xl sm:text-5xl lg:text-6xl tracking-tighter uppercase text-[#e5e2e1] mb-6">
               How Barbershops Get Found on AI Search
             </h1>
@@ -242,7 +251,7 @@ export default function HowBarbershopsGetFoundOnAISearch() {
                     d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z"
                   />
                 </svg>
-                <span>The Answer Engine Team</span>
+                <span>Justin Borges</span>
               </div>
             </div>
           </div>
@@ -319,13 +328,13 @@ export default function HowBarbershopsGetFoundOnAISearch() {
 
           {/* SECTION 1 */}
           <section id="ai-disruption" className="-mx-6 px-6 py-12 bg-[#131313] border-t border-white/10">
-            <span className="font-mono text-[10px] text-[#FF6A00] tracking-widest uppercase block mb-3">
+            <span className="font-mono text-[10px] text-[#F27D24] tracking-widest uppercase block mb-3">
               ◉ THE SHIFT // The Answer Engine Intel
             </span>
             <h2 className="font-headline font-black text-2xl md:text-3xl tracking-tighter uppercase text-[#e5e2e1] mb-6">
-              WHY AI IS <span className="text-[#FF6A00]">DISRUPTING</span> WALK-IN TRAFFIC
+              WHY AI IS <span className="text-[#F27D24]">DISRUPTING</span> WALK-IN TRAFFIC
             </h2>
-            <div className="prose prose-invert prose-lg max-w-none prose-p:text-gray-300 prose-a:text-[#FF6A00] prose-a:no-underline hover:prose-a:underline prose-strong:text-white">
+            <div className="prose prose-invert prose-lg max-w-none prose-p:text-gray-300 prose-a:text-[#F27D24] prose-a:no-underline hover:prose-a:underline prose-strong:text-white">
               <p>
                 For most of barbershop history, customer acquisition worked through two channels:
                 walk-in foot traffic and word-of-mouth referrals. A new resident asks a neighbor for a
@@ -349,7 +358,7 @@ export default function HowBarbershopsGetFoundOnAISearch() {
                 are largely unprepared for it.
               </p>
             </div>
-            <div className="prose prose-invert prose-lg max-w-none prose-p:text-gray-300 prose-a:text-[#FF6A00] prose-a:no-underline hover:prose-a:underline prose-strong:text-white mt-6">
+            <div className="prose prose-invert prose-lg max-w-none prose-p:text-gray-300 prose-a:text-[#F27D24] prose-a:no-underline hover:prose-a:underline prose-strong:text-white mt-6">
               <p>
                 The disruption is not that walk-ins and referrals have stopped working. It is that a
                 growing slice of the customer pool is now making decisions before they ever walk past
@@ -371,13 +380,13 @@ export default function HowBarbershopsGetFoundOnAISearch() {
 
           {/* SECTION 2 */}
           <section id="barber-near-me" className="-mx-6 px-6 py-12 bg-[#1c1b1b] border-t border-white/10">
-            <span className="font-mono text-[10px] text-[#FF6A00] tracking-widest uppercase block mb-3">
+            <span className="font-mono text-[10px] text-[#F27D24] tracking-widest uppercase block mb-3">
               ◉ QUERY SHIFT // The Answer Engine Intel
             </span>
             <h2 className="font-headline font-black text-2xl md:text-3xl tracking-tighter uppercase text-[#e5e2e1] mb-6">
-              WHY BARBER NEAR ME <span className="text-[#FF6A00]">GOES THROUGH AI</span>
+              WHY BARBER NEAR ME <span className="text-[#F27D24]">GOES THROUGH AI</span>
             </h2>
-            <div className="prose prose-invert prose-lg max-w-none prose-p:text-gray-300 prose-a:text-[#FF6A00] prose-a:no-underline hover:prose-a:underline prose-strong:text-white">
+            <div className="prose prose-invert prose-lg max-w-none prose-p:text-gray-300 prose-a:text-[#F27D24] prose-a:no-underline hover:prose-a:underline prose-strong:text-white">
               <p>
                 Until recently, &quot;barber near me&quot; was a Google Maps query. The customer got a
                 map with pins, star ratings, and review snippets. They picked the closest shop with
@@ -407,7 +416,7 @@ export default function HowBarbershopsGetFoundOnAISearch() {
                 you for those queries, even if you are the best barber on the block.
               </p>
             </div>
-            <div className="prose prose-invert prose-lg max-w-none prose-p:text-gray-300 prose-a:text-[#FF6A00] prose-a:no-underline hover:prose-a:underline prose-strong:text-white mt-6">
+            <div className="prose prose-invert prose-lg max-w-none prose-p:text-gray-300 prose-a:text-[#F27D24] prose-a:no-underline hover:prose-a:underline prose-strong:text-white mt-6">
               <p>
                 The shift is also platform-level. Customers asking Google are still somewhat likely to
                 land on a map result. Customers asking ChatGPT, Perplexity, or Claude get a direct
@@ -432,13 +441,13 @@ export default function HowBarbershopsGetFoundOnAISearch() {
 
           {/* SECTION 3 */}
           <section id="trust-signals" className="-mx-6 px-6 py-12 bg-[#131313] border-t border-white/10">
-            <span className="font-mono text-[10px] text-[#FF6A00] tracking-widest uppercase block mb-3">
+            <span className="font-mono text-[10px] text-[#F27D24] tracking-widest uppercase block mb-3">
               ◉ TRUST SIGNALS // The Answer Engine Intel
             </span>
             <h2 className="font-headline font-black text-2xl md:text-3xl tracking-tighter uppercase text-[#e5e2e1] mb-6">
-              TRUST SIGNALS <span className="text-[#FF6A00]">AI EVALUATES</span>
+              TRUST SIGNALS <span className="text-[#F27D24]">AI EVALUATES</span>
             </h2>
-            <div className="prose prose-invert prose-lg max-w-none prose-p:text-gray-300 prose-a:text-[#FF6A00] prose-a:no-underline hover:prose-a:underline prose-strong:text-white">
+            <div className="prose prose-invert prose-lg max-w-none prose-p:text-gray-300 prose-a:text-[#F27D24] prose-a:no-underline hover:prose-a:underline prose-strong:text-white">
               <p>
                 AI platforms do not guess which barbershop to recommend. They cross-reference your
                 business information across multiple sources, evaluate the depth and specificity of what
@@ -476,7 +485,7 @@ export default function HowBarbershopsGetFoundOnAISearch() {
                 media is invisible to the systems increasingly making barbershop recommendations.
               </p>
             </div>
-            <div className="prose prose-invert prose-lg max-w-none prose-p:text-gray-300 prose-a:text-[#FF6A00] prose-a:no-underline hover:prose-a:underline prose-strong:text-white mt-6">
+            <div className="prose prose-invert prose-lg max-w-none prose-p:text-gray-300 prose-a:text-[#F27D24] prose-a:no-underline hover:prose-a:underline prose-strong:text-white mt-6">
               <h3>Consistency Across the Web</h3>
               <p>
                 AI cross-checks your business name, address, phone number, and hours across multiple
@@ -493,13 +502,13 @@ export default function HowBarbershopsGetFoundOnAISearch() {
 
           {/* SECTION 4 */}
           <section id="reviews-matter" className="-mx-6 px-6 py-12 bg-[#1c1b1b] border-t border-white/10">
-            <span className="font-mono text-[10px] text-[#FF6A00] tracking-widest uppercase block mb-3">
+            <span className="font-mono text-[10px] text-[#F27D24] tracking-widest uppercase block mb-3">
               ◉ REVIEW QUALITY // The Answer Engine Intel
             </span>
             <h2 className="font-headline font-black text-2xl md:text-3xl tracking-tighter uppercase text-[#e5e2e1] mb-6">
-              WHY SPECIFIC REVIEWS <span className="text-[#FF6A00]">BEAT</span> GENERIC RATINGS
+              WHY SPECIFIC REVIEWS <span className="text-[#F27D24]">BEAT</span> GENERIC RATINGS
             </h2>
-            <div className="prose prose-invert prose-lg max-w-none prose-p:text-gray-300 prose-a:text-[#FF6A00] prose-a:no-underline hover:prose-a:underline prose-strong:text-white">
+            <div className="prose prose-invert prose-lg max-w-none prose-p:text-gray-300 prose-a:text-[#F27D24] prose-a:no-underline hover:prose-a:underline prose-strong:text-white">
               <p>
                 Reviews are one of the strongest signals in AI&apos;s evaluation of a barbershop. But
                 there is a critical distinction that most shop owners completely miss: AI cares about
@@ -523,7 +532,7 @@ export default function HowBarbershopsGetFoundOnAISearch() {
                 and Claude. Facebook reviews are partially crawlable. Instagram comments are invisible.
               </p>
             </div>
-            <div className="prose prose-invert prose-lg max-w-none prose-p:text-gray-300 prose-a:text-[#FF6A00] prose-a:no-underline hover:prose-a:underline prose-strong:text-white mt-6">
+            <div className="prose prose-invert prose-lg max-w-none prose-p:text-gray-300 prose-a:text-[#F27D24] prose-a:no-underline hover:prose-a:underline prose-strong:text-white mt-6">
               <p>
                 The service-specific review is especially powerful for barbershops. When multiple
                 customers mention the same service, whether that is hot towel shaves, beard trims, or
@@ -556,13 +565,13 @@ export default function HowBarbershopsGetFoundOnAISearch() {
 
           {/* SECTION 5 */}
           <section id="website-problem" className="-mx-6 px-6 py-12 bg-[#131313] border-t border-white/10">
-            <span className="font-mono text-[10px] text-[#FF6A00] tracking-widest uppercase block mb-3">
+            <span className="font-mono text-[10px] text-[#F27D24] tracking-widest uppercase block mb-3">
               ◉ VISIBILITY GAP // The Answer Engine Intel
             </span>
             <h2 className="font-headline font-black text-2xl md:text-3xl tracking-tighter uppercase text-[#e5e2e1] mb-6">
-              WHY MOST WEBSITES ARE <span className="text-[#FF6A00]">INVISIBLE TO AI</span>
+              WHY MOST WEBSITES ARE <span className="text-[#F27D24]">INVISIBLE TO AI</span>
             </h2>
-            <div className="prose prose-invert prose-lg max-w-none prose-p:text-gray-300 prose-a:text-[#FF6A00] prose-a:no-underline hover:prose-a:underline prose-strong:text-white">
+            <div className="prose prose-invert prose-lg max-w-none prose-p:text-gray-300 prose-a:text-[#F27D24] prose-a:no-underline hover:prose-a:underline prose-strong:text-white">
               <p>
                 Many independent barbershops have one of two website situations: either they have no
                 website at all and rely entirely on Google Business Profile and Instagram, or they have
@@ -600,7 +609,7 @@ export default function HowBarbershopsGetFoundOnAISearch() {
                 browser renders the JavaScript. AI crawlers do not have a browser.
               </p>
             </div>
-            <div className="prose prose-invert prose-lg max-w-none prose-p:text-gray-300 prose-a:text-[#FF6A00] prose-a:no-underline hover:prose-a:underline prose-strong:text-white mt-6">
+            <div className="prose prose-invert prose-lg max-w-none prose-p:text-gray-300 prose-a:text-[#F27D24] prose-a:no-underline hover:prose-a:underline prose-strong:text-white mt-6">
               <p>
                 Beyond rendering, barbershop websites almost universally lack the structured service
                 content that would help AI contextualize the business. A gallery of haircut photos tells
@@ -660,13 +669,13 @@ export default function HowBarbershopsGetFoundOnAISearch() {
 
           {/* SECTION 6 */}
           <section id="chains-vs-independents" className="-mx-6 px-6 py-12 bg-[#1c1b1b] border-t border-white/10">
-            <span className="font-mono text-[10px] text-[#FF6A00] tracking-widest uppercase block mb-3">
+            <span className="font-mono text-[10px] text-[#F27D24] tracking-widest uppercase block mb-3">
               ◉ CHAIN ADVANTAGE // The Answer Engine Intel
             </span>
             <h2 className="font-headline font-black text-2xl md:text-3xl tracking-tighter uppercase text-[#e5e2e1] mb-6">
-              HOW CHAINS <span className="text-[#FF6A00]">DOMINATE</span> AI SEARCH
+              HOW CHAINS <span className="text-[#F27D24]">DOMINATE</span> AI SEARCH
             </h2>
-            <div className="prose prose-invert prose-lg max-w-none prose-p:text-gray-300 prose-a:text-[#FF6A00] prose-a:no-underline hover:prose-a:underline prose-strong:text-white">
+            <div className="prose prose-invert prose-lg max-w-none prose-p:text-gray-300 prose-a:text-[#F27D24] prose-a:no-underline hover:prose-a:underline prose-strong:text-white">
               <p>
                 Ask ChatGPT for a barbershop recommendation in almost any city and you are likely to
                 see Great Clips or Sport Clips in the answer. This is not because they cut better hair.
@@ -706,7 +715,7 @@ export default function HowBarbershopsGetFoundOnAISearch() {
                 </ul>
               </div>
             </div>
-            <div className="prose prose-invert prose-lg max-w-none prose-p:text-gray-300 prose-a:text-[#FF6A00] prose-a:no-underline hover:prose-a:underline prose-strong:text-white mt-6">
+            <div className="prose prose-invert prose-lg max-w-none prose-p:text-gray-300 prose-a:text-[#F27D24] prose-a:no-underline hover:prose-a:underline prose-strong:text-white mt-6">
               <p>
                 The gap is not as wide as it looks. Independent barbershops have one advantage chains
                 can never fully replicate: specificity and personality. An independent shop can describe
@@ -740,13 +749,13 @@ export default function HowBarbershopsGetFoundOnAISearch() {
 
           {/* SECTION 7 */}
           <section id="specialization" className="-mx-6 px-6 py-12 bg-[#131313] border-t border-white/10">
-            <span className="font-mono text-[10px] text-[#FF6A00] tracking-widest uppercase block mb-3">
+            <span className="font-mono text-[10px] text-[#F27D24] tracking-widest uppercase block mb-3">
               ◉ NICHE AUTHORITY // The Answer Engine Intel
             </span>
             <h2 className="font-headline font-black text-2xl md:text-3xl tracking-tighter uppercase text-[#e5e2e1] mb-6">
-              SPECIALIZATION DRIVES <span className="text-[#FF6A00]">AI VISIBILITY</span>
+              SPECIALIZATION DRIVES <span className="text-[#F27D24]">AI VISIBILITY</span>
             </h2>
-            <div className="prose prose-invert prose-lg max-w-none prose-p:text-gray-300 prose-a:text-[#FF6A00] prose-a:no-underline hover:prose-a:underline prose-strong:text-white">
+            <div className="prose prose-invert prose-lg max-w-none prose-p:text-gray-300 prose-a:text-[#F27D24] prose-a:no-underline hover:prose-a:underline prose-strong:text-white">
               <p>
                 One of the most underappreciated dynamics in AI search is how it rewards niche
                 expertise. AI platforms are not just looking for the nearest business that performs a
@@ -831,13 +840,13 @@ export default function HowBarbershopsGetFoundOnAISearch() {
 
           {/* SECTION 8 */}
           <section id="booking-signals" className="-mx-6 px-6 py-12 bg-[#1c1b1b] border-t border-white/10">
-            <span className="font-mono text-[10px] text-[#FF6A00] tracking-widest uppercase block mb-3">
+            <span className="font-mono text-[10px] text-[#F27D24] tracking-widest uppercase block mb-3">
               ◉ BOOKING + TRUST // The Answer Engine Intel
             </span>
             <h2 className="font-headline font-black text-2xl md:text-3xl tracking-tighter uppercase text-[#e5e2e1] mb-6">
-              BOOKING AND <span className="text-[#FF6A00]">AI TRUST SIGNALS</span>
+              BOOKING AND <span className="text-[#F27D24]">AI TRUST SIGNALS</span>
             </h2>
-            <div className="prose prose-invert prose-lg max-w-none prose-p:text-gray-300 prose-a:text-[#FF6A00] prose-a:no-underline hover:prose-a:underline prose-strong:text-white">
+            <div className="prose prose-invert prose-lg max-w-none prose-p:text-gray-300 prose-a:text-[#F27D24] prose-a:no-underline hover:prose-a:underline prose-strong:text-white">
               <p>
                 Booking systems do more than let customers schedule appointments. When implemented
                 correctly, they generate a layer of operational signal that AI platforms interpret as
@@ -873,7 +882,7 @@ export default function HowBarbershopsGetFoundOnAISearch() {
                 yourself.
               </p>
             </div>
-            <div className="prose prose-invert prose-lg max-w-none prose-p:text-gray-300 prose-a:text-[#FF6A00] prose-a:no-underline hover:prose-a:underline prose-strong:text-white mt-6">
+            <div className="prose prose-invert prose-lg max-w-none prose-p:text-gray-300 prose-a:text-[#F27D24] prose-a:no-underline hover:prose-a:underline prose-strong:text-white mt-6">
               <p>
                 Booking data also feeds indirectly into review patterns. Barbershops with active booking
                 systems tend to have more consistent, frequent customer interactions, which produces more
@@ -923,13 +932,13 @@ export default function HowBarbershopsGetFoundOnAISearch() {
 
           {/* LOOKING AHEAD */}
           <section className="-mx-6 px-6 py-12 bg-[#131313] border-t border-white/10">
-            <span className="font-mono text-[10px] text-[#FF6A00] tracking-widest uppercase block mb-3">
+            <span className="font-mono text-[10px] text-[#F27D24] tracking-widest uppercase block mb-3">
               ◉ LOOKING AHEAD // The Answer Engine Intel
             </span>
             <h2 className="font-headline font-black text-2xl md:text-3xl tracking-tighter uppercase text-[#e5e2e1] mb-6">
-              WHEN AI BECOMES THE <span className="text-[#FF6A00]">WALK-IN REPLACEMENT</span>
+              WHEN AI BECOMES THE <span className="text-[#F27D24]">WALK-IN REPLACEMENT</span>
             </h2>
-            <div className="prose prose-invert prose-lg max-w-none prose-p:text-gray-300 prose-a:text-[#FF6A00] prose-a:no-underline hover:prose-a:underline prose-strong:text-white">
+            <div className="prose prose-invert prose-lg max-w-none prose-p:text-gray-300 prose-a:text-[#F27D24] prose-a:no-underline hover:prose-a:underline prose-strong:text-white">
               <p>
                 Walk-in traffic is not disappearing. But the share of customers who decide on a
                 barbershop before leaving the house is growing. When that decision is made through AI,
@@ -952,7 +961,7 @@ export default function HowBarbershopsGetFoundOnAISearch() {
                 that starts the same process in 2027. The gap compounds over time.
               </p>
             </div>
-            <div className="prose prose-invert prose-lg max-w-none prose-p:text-gray-300 prose-a:text-[#FF6A00] prose-a:no-underline hover:prose-a:underline prose-strong:text-white mt-6">
+            <div className="prose prose-invert prose-lg max-w-none prose-p:text-gray-300 prose-a:text-[#F27D24] prose-a:no-underline hover:prose-a:underline prose-strong:text-white mt-6">
               <p>
                 This is not about chasing an algorithm or gaming a system. It is about making sure that
                 the expertise your barbers have, the services your shop delivers, and the reputation you
@@ -995,8 +1004,8 @@ export default function HowBarbershopsGetFoundOnAISearch() {
 
           {/* CHEAT SHEET SECTION */}
           <section id="cheat-sheet" className="-mx-6 px-6 py-12 bg-[#131313] border-t border-white/10">
-            <span className="font-mono text-[10px] text-[#FF6A00] tracking-widest uppercase block mb-3">◉ CHEAT SHEET // The Answer Engine Intel</span>
-            <h2 className="font-headline font-black text-2xl md:text-3xl tracking-tighter uppercase text-[#e5e2e1] mb-6">AI VISIBILITY <span className="text-[#FF6A00]">CHEAT SHEET</span></h2>
+            <span className="font-mono text-[10px] text-[#F27D24] tracking-widest uppercase block mb-3">◉ CHEAT SHEET // The Answer Engine Intel</span>
+            <h2 className="font-headline font-black text-2xl md:text-3xl tracking-tighter uppercase text-[#e5e2e1] mb-6">AI VISIBILITY <span className="text-[#F27D24]">CHEAT SHEET</span></h2>
             <div className="ae-cheat-sheet not-prose">
               <ul>
                 <li>
@@ -1051,9 +1060,9 @@ export default function HowBarbershopsGetFoundOnAISearch() {
 
           {/* FAQ SECTION */}
           <section id="faq" className="-mx-6 px-6 py-12 bg-[#1c1b1b] border-t border-white/10">
-            <span className="font-mono text-[10px] text-[#FF6A00] tracking-widest uppercase block mb-3">◉ FAQ // The Answer Engine Intel</span>
-            <h2 className="font-headline font-black text-2xl md:text-3xl tracking-tighter uppercase text-[#e5e2e1] mb-8">FREQUENTLY ASKED <span className="text-[#FF6A00]">QUESTIONS</span></h2>
-            <div className="prose prose-invert prose-lg max-w-none prose-headings:font-headline prose-p:text-gray-300 prose-a:text-[#FF6A00] prose-a:no-underline hover:prose-a:underline prose-strong:text-white">
+            <span className="font-mono text-[10px] text-[#F27D24] tracking-widest uppercase block mb-3">◉ FAQ // The Answer Engine Intel</span>
+            <h2 className="font-headline font-black text-2xl md:text-3xl tracking-tighter uppercase text-[#e5e2e1] mb-8">FREQUENTLY ASKED <span className="text-[#F27D24]">QUESTIONS</span></h2>
+            <div className="prose prose-invert prose-lg max-w-none prose-headings:font-headline prose-p:text-gray-300 prose-a:text-[#F27D24] prose-a:no-underline hover:prose-a:underline prose-strong:text-white">
               <h3>Why does ChatGPT recommend Great Clips instead of my barbershop?</h3>
               <p>
                 Great Clips has structured websites with consistent service descriptions, uniform NAP
@@ -1168,7 +1177,7 @@ export default function HowBarbershopsGetFoundOnAISearch() {
             <Link href="/blindspot" className="ae-final-cta-pulse">
               Get Your Free Blind Spot Report &rarr;
             </Link>
-            <div className="flex flex-wrap items-center justify-center gap-6 mt-6 pt-6 border-t border-[#FF6A00]/10">
+            <div className="flex flex-wrap items-center justify-center gap-6 mt-6 pt-6 border-t border-[#F27D24]/10">
               <a
                 href="tel:+12134442229"
                 className="flex items-center gap-2 text-gray-400 hover:text-white transition-colors"
@@ -1202,14 +1211,18 @@ export default function HowBarbershopsGetFoundOnAISearch() {
           </div>
 
           {/* AUTHOR CARD */}
-          <div className="ae-author-card not-prose">
-            <div className="ae-author-avatar">AE</div>
-            <div>
-              <div className="ae-author-name">The Answer Engine Team</div>
-              <div className="ae-author-role">Answer Engine Optimization Specialists</div>
+          <div className="ae-author-card">
+              <img
+                src="/justin-borges.webp"
+                alt="Justin Borges, Founder of The Answer Engine"
+                style={{ width: 64, height: 64, borderRadius: '50%', objectFit: 'cover', flexShrink: 0 }}
+              />
+              <div>
+                <div className="ae-author-name" style={{ fontWeight: 600 }}>Justin Borges</div>
+                <div className="ae-author-role" style={{ fontWeight: 400 }}>Founder, The Answer Engine</div>
+                <p style={{ marginTop: 8, fontSize: '0.875rem', color: 'rgba(255,255,255,0.65)', lineHeight: 1.6 }}>Justin Borges founded The Answer Engine in 2025 after 13+ years in real estate, $200M+ in production, and discovering that AI search rankings now decide who gets cited as the answer. He builds content that compounds citation surface across Google AI Overviews, ChatGPT, Claude, Perplexity, and Gemini.</p>
+              </div>
             </div>
-          </div>
-
         </article>
       </main>
     </>
