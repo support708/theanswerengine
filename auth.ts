@@ -47,8 +47,9 @@ export const { handlers, signIn, signOut, auth } = NextAuth({
       const isLoginPage = nextUrl.pathname === '/admin/login';
       const isApiRoute = nextUrl.pathname.startsWith('/api/');
 
-      // Protect /api/ routes (except /api/auth and /api/cron)
-      if (isApiRoute && !nextUrl.pathname.startsWith('/api/auth') && !nextUrl.pathname.startsWith('/api/cron')) {
+      // Protect /api/ routes (except public endpoints)
+      const publicApiPrefixes = ['/api/auth', '/api/cron', '/api/docusign', '/api/og', '/api/telegram', '/api/webhook', '/api/indexnow', '/api/borges-os']
+      if (isApiRoute && !publicApiPrefixes.some(p => nextUrl.pathname.startsWith(p))) {
         return isLoggedIn;
       }
 
