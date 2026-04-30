@@ -356,5 +356,23 @@
       "Pass 2 failed: Anthropic API error (401): {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CaYBcbtW3nVP83y82E8s2\"}"
     ],
     "completedAt": "2026-04-29T14:00:43.565Z"
+  },
+  {
+    "id": "hunt_1777557637218_21q1",
+    "startedAt": "2026-04-30T14:00:37.219Z",
+    "trigger": "cron_daily",
+    "vertical": "Chiropractor",
+    "metro": "Dallas, TX",
+    "prospectsFound": 0,
+    "p1Queued": 0,
+    "p2Queued": 0,
+    "p3Backlogged": 0,
+    "duplicatesSkipped": 0,
+    "outreachReadyCount": 0,
+    "errors": [
+      "Pass 1 failed: Anthropic API error (401): {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Caa5R7NWcCRxwc7DiNRzK\"}",
+      "Pass 2 failed: Anthropic API error (401): {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Caa5RVNLtXvNVR48Y5siC\"}"
+    ],
+    "completedAt": "2026-04-30T14:00:43.318Z"
   }
 ]
