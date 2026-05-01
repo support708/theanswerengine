@@ -432,6 +432,12 @@
       "email": "renata623@gmail.com",
       "type": "follow_up_2",
       "sentAt": "2026-05-01T16:00:23.140Z"
+    },
+    {
+      "leadId": "lead_1773061289518_syna8q",
+      "email": "wilshirechiro@gmail.com",
+      "type": "follow_up_2",
+      "sentAt": "2026-05-01T16:00:27.413Z"
     }
   ]
 }
