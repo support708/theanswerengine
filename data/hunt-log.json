@@ -374,5 +374,23 @@
       "Pass 2 failed: Anthropic API error (401): {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Caa5RVNLtXvNVR48Y5siC\"}"
     ],
     "completedAt": "2026-04-30T14:00:43.318Z"
+  },
+  {
+    "id": "hunt_1777644036985_akeu",
+    "startedAt": "2026-05-01T14:00:36.985Z",
+    "trigger": "cron_daily",
+    "vertical": "Roofing Contractor",
+    "metro": "Los Angeles",
+    "prospectsFound": 0,
+    "p1Queued": 0,
+    "p2Queued": 0,
+    "p3Backlogged": 0,
+    "duplicatesSkipped": 0,
+    "outreachReadyCount": 0,
+    "errors": [
+      "Pass 1 failed: Anthropic API error (401): {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CabyE3niEunwKdWJZXZFt\"}",
+      "Pass 2 failed: Anthropic API error (401): {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CabyERxDHM5nDrrWxCWJY\"}"
+    ],
+    "completedAt": "2026-05-01T14:00:43.542Z"
   }
 ]
