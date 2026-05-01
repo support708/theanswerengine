@@ -426,6 +426,12 @@
       "email": "e_zau17@yahoo.com",
       "type": "follow_up_2",
       "sentAt": "2026-05-01T16:00:19.081Z"
+    },
+    {
+      "leadId": "lead_1773023912048_yzl6om",
+      "email": "renata623@gmail.com",
+      "type": "follow_up_2",
+      "sentAt": "2026-05-01T16:00:23.140Z"
     }
   ]
 }
