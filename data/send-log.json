@@ -444,6 +444,12 @@
       "email": "saoriacupuncture@gmail.com",
       "type": "follow_up_2",
       "sentAt": "2026-05-01T16:00:31.195Z"
+    },
+    {
+      "leadId": "lead_1773061289518_0k15w2",
+      "email": "spinesolutionchiro@gmail.com",
+      "type": "follow_up_2",
+      "sentAt": "2026-05-01T16:00:34.986Z"
     }
   ]
 }
