@@ -456,6 +456,12 @@
       "email": "info@bodyprochiro.com",
       "type": "follow_up_2",
       "sentAt": "2026-05-01T16:00:38.690Z"
+    },
+    {
+      "leadId": "lead_1773061289519_9py5s8",
+      "email": "Drhigashi@gmail.com",
+      "type": "follow_up_2",
+      "sentAt": "2026-05-01T16:00:42.523Z"
     }
   ]
 }
