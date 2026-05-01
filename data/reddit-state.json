@@ -445,38 +445,9 @@
     "davis-agency": "2026-04-18T23:07:15.627Z"
   },
   "monthlyStats": {
-    "month": "2026-04",
-    "totalScanned": 6082,
-    "totalQualified": 13,
-    "byClient": {
-      "lovery-re": {
-        "opportunities": 3,
-        "digestsSent": 3,
-        "highImpact": 2,
-        "mediumImpact": 1,
-        "lowImpact": 0
-      },
-      "the-answer-engine": {
-        "opportunities": 1,
-        "digestsSent": 2,
-        "highImpact": 0,
-        "mediumImpact": 1,
-        "lowImpact": 0
-      },
-      "rpm-southland": {
-        "opportunities": 7,
-        "digestsSent": 3,
-        "highImpact": 4,
-        "mediumImpact": 3,
-        "lowImpact": 0
-      },
-      "davis-agency": {
-        "opportunities": 2,
-        "digestsSent": 1,
-        "highImpact": 2,
-        "mediumImpact": 0,
-        "lowImpact": 0
-      }
-    }
+    "month": "2026-05",
+    "totalScanned": 0,
+    "totalQualified": 0,
+    "byClient": {}
   }
 }
