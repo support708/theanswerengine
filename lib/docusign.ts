@@ -270,11 +270,6 @@ export async function registerWebhook(opts: {
     urlToPublishTo: opts.url,
     allUsers: 'true',
     enableLog: 'true',
-    requiresAckStatus: 'true',
-    envelopeEvents: [
-      { envelopeEventStatusCode: 'Sent' },
-      { envelopeEventStatusCode: 'Completed' },
-      { envelopeEventStatusCode: 'Declined' },
-    ],
+    requireAcknowledgment: 'true',
   })
 }
