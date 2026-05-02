@@ -2,8 +2,21 @@ import { NextRequest, NextResponse } from 'next/server'
 
 export async function POST(req: NextRequest) {
   try {
-    const body = await req.json()
-    const { grant_type, client_id, client_secret } = body
+    const contentType = req.headers.get('content-type') || ''
+    let grant_type: string, client_id: string, client_secret: string
+
+    if (contentType.includes('application/x-www-form-urlencoded')) {
+      const text = await req.text()
+      const params = new URLSearchParams(text)
+      grant_type = params.get('grant_type') ?? ''
+      client_id = params.get('client_id') ?? ''
+      client_secret = params.get('client_secret') ?? ''
+    } else {
+      const body = await req.json()
+      grant_type = body.grant_type
+      client_id = body.client_id
+      client_secret = body.client_secret
+    }
 
     if (client_id !== process.env.DOCUSIGN_INTEGRATION_KEY ||
         client_secret !== process.env.DOCUSIGN_CLIENT_SECRET) {
