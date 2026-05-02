@@ -264,23 +264,17 @@ export async function registerWebhook(opts: {
   url: string
   events?: string[]
 }) {
-  const eventMap: Record<string, string> = {
-    'envelope-sent': 'sent',
-    'envelope-completed': 'completed',
-    'recipient-completed': 'completed',
-    'envelope-declined': 'declined',
-  }
-
-  const envelopeEvents = (opts.events || ['envelope-sent', 'envelope-completed']).map((e) => ({
-    envelopeEventStatusCode: eventMap[e] || e,
-  }))
-
   return dsPost('/connect', {
+    configurationType: 'custom',
     name: opts.name || 'The Answer Engine — Envelope Status',
     urlToPublishTo: opts.url,
     allUsers: 'true',
     enableLog: 'true',
     requiresAckStatus: 'true',
-    envelopeEvents,
+    envelopeEvents: [
+      { envelopeEventStatusCode: 'Sent' },
+      { envelopeEventStatusCode: 'Completed' },
+      { envelopeEventStatusCode: 'Declined' },
+    ],
   })
 }
