@@ -522,11 +522,11 @@ export default function ServicesPage() {
                   '@graph': [
                     {
                       '@type': 'Service',
-                      '@id': 'https://theanswerengine.ai/services#authority',
+                      '@id': 'https://www.theanswerengine.ai/services#authority',
                       name: 'Authority AEO Plan',
                       description: 'Answer Engine Optimization — 16 articles/month, 5-type JSON-LD schema, internal-link mesh, Reddit monitoring, quarterly strategy session. $1,497/month + $1,500 onboarding.',
-                      provider: { '@id': 'https://theanswerengine.ai/#organization' },
-                      url: 'https://theanswerengine.ai/services',
+                      provider: { '@id': 'https://www.theanswerengine.ai/#organization' },
+                      url: 'https://www.theanswerengine.ai/services',
                       offers: {
                         '@type': 'Offer',
                         price: '1497',
@@ -571,11 +571,11 @@ export default function ServicesPage() {
                     },
                     {
                       '@type': 'Service',
-                      '@id': 'https://theanswerengine.ai/services#dominance',
+                      '@id': 'https://www.theanswerengine.ai/services#dominance',
                       name: 'Dominance AEO Plan',
                       description: 'Answer Engine Optimization — 24 articles/month, publishing handled, bi-monthly strategy sessions, quarterly executive review, monthly citation-surface report. $1,997/month + $1,500 onboarding.',
-                      provider: { '@id': 'https://theanswerengine.ai/#organization' },
-                      url: 'https://theanswerengine.ai/services',
+                      provider: { '@id': 'https://www.theanswerengine.ai/#organization' },
+                      url: 'https://www.theanswerengine.ai/services',
                       offers: {
                         '@type': 'Offer',
                         price: '1997',
@@ -621,7 +621,7 @@ export default function ServicesPage() {
                     },
                     {
                       '@type': 'FAQPage',
-                      '@id': 'https://theanswerengine.ai/services#pricing-faq',
+                      '@id': 'https://www.theanswerengine.ai/services#pricing-faq',
                       mainEntity: [
                         {
                           '@type': 'Question',

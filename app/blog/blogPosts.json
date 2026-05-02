@@ -4668,5 +4668,87 @@
       "AEO",
       "Home Services"
     ]
+  },
+  {
+    "id": 222,
+    "title": "How Personal Injury Lawyers Get Found on AI Search in 2026",
+    "slug": "how-personal-injury-lawyers-get-found-on-ai-search",
+    "excerpt": "Personal injury is one of the most expensive legal verticals in paid search and most PI firms are invisible on AI. Here is exactly what gets PI lawyers cited on ChatGPT, Perplexity, and Google AI Overviews.",
+    "category": "Industry Guides",
+    "author": "The Answer Engine Team",
+    "readTime": "11 min",
+    "image": "/blog/how-personal-injury-lawyers-get-found-on-ai-search.webp",
+    "publishDate": "2026-05-01",
+    "lastModified": "2026-05-01",
+    "featured": false,
+    "tags": [
+      "Personal Injury",
+      "Legal",
+      "AI Search",
+      "AEO",
+      "Law Firms"
+    ]
+  },
+  {
+    "id": 223,
+    "title": "How Urgent Care Clinics Get Found on AI Search in 2026",
+    "slug": "how-urgent-care-clinics-get-found-on-ai-search",
+    "excerpt": "Urgent care is a uniquely high-intent AI search vertical. Patients are in pain, searching fast, and consulting AI before Google. Here is exactly how clinics get cited and what most are doing wrong.",
+    "category": "Industry Guides",
+    "author": "The Answer Engine Team",
+    "readTime": "10 min",
+    "image": "/blog/how-urgent-care-clinics-get-found-on-ai-search.webp",
+    "publishDate": "2026-05-01",
+    "lastModified": "2026-05-01",
+    "featured": false,
+    "tags": [
+      "Healthcare",
+      "Urgent Care",
+      "AI Search",
+      "AEO",
+      "Local Business"
+    ]
+  },
+  {
+    "id": 224,
+    "title": "Grok 3 and xAI Search: What Business Owners Need to Know in 2026",
+    "slug": "grok-3-ai-search-what-businesses-need-to-know",
+    "excerpt": "Grok 3 pulls real-time data from X.com and surfaces businesses differently than ChatGPT or Perplexity. Here is what your X presence actually does for your AI visibility and how to optimize for it.",
+    "category": "Platform Guides",
+    "author": "The Answer Engine Team",
+    "readTime": "12 min",
+    "image": "/blog/grok-3-ai-search-what-businesses-need-to-know.webp",
+    "publishDate": "2026-05-01",
+    "lastModified": "2026-05-01",
+    "featured": false,
+    "tags": [
+      "Grok",
+      "xAI",
+      "AI Search",
+      "X.com",
+      "Platform Guide",
+      "AEO"
+    ]
+  },
+  {
+    "id": 225,
+    "title": "How to Get Featured in the AI Answer Box: Your 2026 Placement Guide",
+    "slug": "how-to-get-featured-in-ai-answer-box",
+    "excerpt": "Only 12% of AI appearances reach the featured answer slot. That position gets 7x the click-through of a standard citation. Here is the exact framework for reaching featured placement across ChatGPT, Perplexity, and Google AI Overviews.",
+    "category": "Strategy",
+    "author": "The Answer Engine Team",
+    "readTime": "13 min",
+    "image": "/blog/how-to-get-featured-in-ai-answer-box.webp",
+    "publishDate": "2026-05-01",
+    "lastModified": "2026-05-01",
+    "featured": true,
+    "tags": [
+      "AI Answer Box",
+      "Featured Placement",
+      "AEO",
+      "ChatGPT",
+      "Perplexity",
+      "Strategy"
+    ]
   }
 ]

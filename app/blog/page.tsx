@@ -106,15 +106,15 @@ export default function Blog() {
             "@type": "CollectionPage",
             "name": "Answer Engine Optimization Blog - AEO Insights & Strategies",
             "description": "Expert insights on Answer Engine Optimization, AI citations, and how to get your business recommended by ChatGPT, Claude, and Google AI Overviews.",
-            "url": "https://theanswerengine.ai/blog",
+            "url": "https://www.theanswerengine.ai/blog",
             "inLanguage": "en-US",
             "publisher": {
               "@type": "Organization",
               "name": "The Answer Engine",
-              "url": "https://theanswerengine.ai",
+              "url": "https://www.theanswerengine.ai",
               "logo": {
                 "@type": "ImageObject",
-                "url": "https://theanswerengine.ai/TheAnswerEngine_white%20logo%20only.png",
+                "url": "https://www.theanswerengine.ai/TheAnswerEngine_white%20logo%20only.png",
                 "width": 600,
                 "height": 60
               }
@@ -122,7 +122,7 @@ export default function Blog() {
             "author": {
               "@type": "Organization",
               "name": "The Answer Engine Team",
-              "url": "https://theanswerengine.ai"
+              "url": "https://www.theanswerengine.ai"
             }
           })
         }}
@@ -138,7 +138,7 @@ export default function Blog() {
             "itemListElement": sortedPosts.map((post, index) => ({
               "@type": "ListItem",
               "position": index + 1,
-              "url": post.customUrl ? `https://theanswerengine.ai${post.customUrl}` : `https://theanswerengine.ai/blog/${post.slug}`,
+              "url": post.customUrl ? `https://www.theanswerengine.ai${post.customUrl}` : `https://www.theanswerengine.ai/blog/${post.slug}`,
               "name": post.title
             }))
           })
@@ -157,63 +157,19 @@ export default function Blog() {
                 "@type": "ListItem",
                 "position": 1,
                 "name": "Home",
-                "item": "https://theanswerengine.ai"
+                "item": "https://www.theanswerengine.ai"
               },
               {
                 "@type": "ListItem",
                 "position": 2,
                 "name": "Blog",
-                "item": "https://theanswerengine.ai/blog"
+                "item": "https://www.theanswerengine.ai/blog"
               }
             ]
           })
         }}
       />
 
-      {/* Organization Schema */}
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{
-          __html: JSON.stringify({
-            "@context": "https://schema.org",
-            "@type": "Organization",
-            "name": "The Answer Engine",
-            "url": "https://theanswerengine.ai",
-            "logo": "https://theanswerengine.ai/TheAnswerEngine_white%20logo%20only.png",
-            "description": "We specialize in Answer Engine Optimization (AEO) for local service businesses, positioning companies to be cited by Google AI Overviews, ChatGPT, Claude, and Perplexity.",
-            "sameAs": [
-              "https://www.linkedin.com/company/theanswerengine",
-              "https://instagram.com/theanswerengine"
-            ],
-            "contactPoint": {
-              "@type": "ContactPoint",
-              "contactType": "Sales",
-              "url": "https://theanswerengine.ai/#territory-check"
-            }
-          })
-        }}
-      />
-
-      {/* WebSite Schema */}
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{
-          __html: JSON.stringify({
-            "@context": "https://schema.org",
-            "@type": "WebSite",
-            "name": "The Answer Engine",
-            "url": "https://theanswerengine.ai",
-            "potentialAction": {
-              "@type": "SearchAction",
-              "target": {
-                "@type": "EntryPoint",
-                "urlTemplate": "https://theanswerengine.ai/blog?q={search_term_string}"
-              },
-              "query-input": "required name=search_term_string"
-            }
-          })
-        }}
-      />
 
       <main className="min-h-screen bg-[#131313] relative overflow-hidden">
         {/* Scanline Overlay */}

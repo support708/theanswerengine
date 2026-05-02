@@ -91,11 +91,11 @@ export default function CaseStudiesPage() {
             name: 'AEO Case Studies — Proof of Dominance',
             description:
               'Real results from Answer Engine Optimization. Local service businesses achieving AI citation dominance.',
-            url: 'https://theanswerengine.ai/case-studies',
+            url: 'https://www.theanswerengine.ai/case-studies',
             publisher: {
               '@type': 'Organization',
               name: 'The Answer Engine',
-              url: 'https://theanswerengine.ai',
+              url: 'https://www.theanswerengine.ai',
             },
           }),
         }}
@@ -107,8 +107,8 @@ export default function CaseStudiesPage() {
             '@context': 'https://schema.org',
             '@type': 'BreadcrumbList',
             itemListElement: [
-              { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://theanswerengine.ai' },
-              { '@type': 'ListItem', position: 2, name: 'Case Studies', item: 'https://theanswerengine.ai/case-studies' },
+              { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://www.theanswerengine.ai' },
+              { '@type': 'ListItem', position: 2, name: 'Case Studies', item: 'https://www.theanswerengine.ai/case-studies' },
             ],
           }),
         }}
@@ -350,6 +350,83 @@ export default function CaseStudiesPage() {
         </div>
       </section>
 
+      {/* ── RPM SOUTHLAND FEATURED CASE ─────────────────────── */}
+      <section className="py-32 px-6 lg:px-24 bg-[#131313] border-b border-[#F27D24]/10">
+        <div className="max-w-7xl mx-auto">
+          <div className="mb-12">
+            <span className="font-mono text-[10px] tracking-widest uppercase text-white/40">
+              Deep Dive // Property Management Category
+            </span>
+            <h2 className="font-headline font-black text-4xl uppercase tracking-tighter mt-4">
+              RPM Southland vs.{' '}
+              <span className="text-[#F27D24]">Every Competitor Without a Schema</span>
+            </h2>
+            <p className="text-white/50 text-sm leading-relaxed mt-4 max-w-2xl">
+              921 Google reviews at 4.8 stars. 730+ properties managed. Three named guarantees. All invisible to AI search — until AEO fixed the infrastructure.
+            </p>
+          </div>
+
+          <div className="grid lg:grid-cols-3 gap-0 border border-white/10 mb-10">
+            {[
+              {
+                label: 'THE PROBLEM',
+                body: 'The strongest social proof in Long Beach property management — 921 reviews, 730+ properties, 3 named guarantees — was completely invisible to AI engines. No aggregateRating schema. No topical cluster. No answer-engine presence.',
+                orange: true,
+              },
+              {
+                label: 'THE FIX',
+                body: 'Full 5-type JSON-LD schema per article. AggregateRating marked at 4.8/921. 12 articles live in 4 months targeting high-intent landlord queries. Internal-link mesh connecting every piece. Voice locked to Miles Williams.',
+                orange: false,
+              },
+              {
+                label: 'THE RESULT',
+                body: 'RPM Southland\'s 921 reviews and three named guarantees are now machine-readable authority signals. Topical cluster covering fees, multi-family, switching managers, first-time landlords, and territory-specific guides — live and compounding.',
+                orange: false,
+              },
+            ].map((col, i) => (
+              <div
+                key={i}
+                className={`p-8 bg-[#1c1b1b] border-l-4 ${col.orange ? 'border-l-[#F27D24]' : 'border-l-white/10'} ${i < 2 ? 'border-r border-white/10' : ''}`}
+              >
+                <span className={`font-mono text-[10px] tracking-widest uppercase ${col.orange ? 'text-[#F27D24]' : 'text-white/40'} block mb-4`}>
+                  {col.label}
+                </span>
+                <p className="text-white/50 text-sm leading-relaxed">{col.body}</p>
+              </div>
+            ))}
+          </div>
+
+          <div className="flex flex-wrap gap-12 mb-10">
+            {[
+              { label: 'Google Reviews', val: '921', orange: true },
+              { label: 'Star Rating', val: '4.8', orange: false },
+              { label: 'Properties Managed', val: '730+', orange: false },
+              { label: 'Articles Live', val: '12', orange: false },
+              { label: 'Schema Types Per Article', val: '5', orange: false },
+            ].map((stat) => (
+              <div key={stat.label}>
+                <span className="block font-mono text-[10px] tracking-widest uppercase text-white/40 mb-1">
+                  {stat.label}
+                </span>
+                <span className={`font-headline font-black text-3xl ${stat.orange ? 'text-[#F27D24]' : 'text-white'}`}>
+                  {stat.val}
+                </span>
+              </div>
+            ))}
+          </div>
+
+          <Link
+            href="/case-studies/rpm-southland"
+            className="inline-flex items-center gap-3 border border-[#F27D24]/40 text-[#F27D24] px-8 py-4 font-headline font-black uppercase tracking-tighter text-sm hover:bg-[#F27D24]/10 transition-colors"
+          >
+            Read the Full Case Study
+            <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={2.5}>
+              <path strokeLinecap="round" strokeLinejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3" />
+            </svg>
+          </Link>
+        </div>
+      </section>
+
       {/* ── ALSO WORKING WITH — portfolio adjacency ────────── */}
       <section className="py-24 px-6 lg:px-24 bg-[#131313] border-t border-white/5">
         <div className="max-w-7xl mx-auto">
@@ -366,22 +443,36 @@ export default function CaseStudiesPage() {
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-0 border border-white/10">
             {[
-              { name: 'Borges Real Estate Team', city: 'Pasadena, CA', cat: 'Residential real estate' },
-              { name: 'Lovery Real Estate', city: 'San Diego, CA', cat: 'Real estate · seller focus' },
-              { name: 'Brandon Thompson', city: 'Inland Empire, CA', cat: 'Real estate · IE markets' },
-              { name: 'Davis Agency', city: 'Austin, TX', cat: 'Real estate' },
-              { name: 'RPM Southland', city: 'Long Beach, CA', cat: 'Property management' },
-              { name: 'ClearClose Builder Services', city: 'Nationwide', cat: 'Builder financial services' },
-            ].map((c, i, arr) => (
-              <div
-                key={c.name}
-                className={`p-8 bg-[#1c1b1b] hover:bg-[#2a2a2a] transition-colors border-l-4 border-l-[#F27D24] ${i < arr.length - 1 ? 'border-b lg:border-b-0' : ''} ${(i + 1) % 3 !== 0 ? 'lg:border-r' : ''} ${(i % 2 === 0) ? 'md:border-r lg:border-r' : ''} border-white/10`}
-              >
-                <div className="font-mono text-[10px] tracking-widest text-white/40 uppercase mb-3">{c.city}</div>
-                <h3 className="font-headline font-bold text-lg uppercase tracking-tighter text-[#e5e2e1] mb-2">{c.name}</h3>
-                <p className="text-white/50 text-sm">{c.cat}</p>
-              </div>
-            ))}
+              { name: 'Borges Real Estate Team', city: 'Pasadena, CA', cat: 'Residential real estate', href: null },
+              { name: 'Lovery Real Estate', city: 'San Diego, CA', cat: 'Real estate · seller focus', href: null },
+              { name: 'Brandon Thompson', city: 'Inland Empire, CA', cat: 'Real estate · IE markets', href: null },
+              { name: 'Davis Agency', city: 'Austin, TX', cat: 'Real estate', href: null },
+              { name: 'RPM Southland', city: 'Long Beach, CA', cat: 'Property management · Case study available', href: '/case-studies/rpm-southland' },
+              { name: 'ClearClose Builder Services', city: 'Nationwide', cat: 'Builder financial services', href: null },
+            ].map((c, i, arr) => {
+              const inner = (
+                <>
+                  <div className="font-mono text-[10px] tracking-widest text-white/40 uppercase mb-3">{c.city}</div>
+                  <h3 className="font-headline font-bold text-lg uppercase tracking-tighter text-[#e5e2e1] mb-2">{c.name}</h3>
+                  <p className="text-white/50 text-sm">{c.cat}</p>
+                  {c.href && (
+                    <span className="inline-flex items-center gap-1 mt-3 font-mono text-[10px] tracking-widest uppercase text-[#F27D24]">
+                      Read case study →
+                    </span>
+                  )}
+                </>
+              );
+              const cls = `p-8 bg-[#1c1b1b] hover:bg-[#2a2a2a] transition-colors border-l-4 border-l-[#F27D24] ${i < arr.length - 1 ? 'border-b lg:border-b-0' : ''} ${(i + 1) % 3 !== 0 ? 'lg:border-r' : ''} ${(i % 2 === 0) ? 'md:border-r lg:border-r' : ''} border-white/10`;
+              return c.href ? (
+                <Link key={c.name} href={c.href} className={cls}>
+                  {inner}
+                </Link>
+              ) : (
+                <div key={c.name} className={cls}>
+                  {inner}
+                </div>
+              );
+            })}
           </div>
         </div>
       </section>

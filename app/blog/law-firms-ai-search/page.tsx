@@ -179,14 +179,14 @@ export default function Page() {
             {/* Left pan — traditional signals */}
             <line x1="160" y1="70" x2="140" y2="120" stroke="#ef4444" strokeWidth="1.5" opacity="0.6"/>
             <line x1="160" y1="70" x2="180" y2="120" stroke="#ef4444" strokeWidth="1.5" opacity="0.6"/>
-            <path d="M130 120 Q160 135 190 120" fill="#ef4444" opacity="0.15" stroke="#ef4444" strokeWidth="1.5" opacity="0.4"/>
+            <path d="M130 120 Q160 135 190 120" fill="#ef4444" stroke="#ef4444" strokeWidth="1.5" opacity="0.4"/>
             <text x="160" y="115" textAnchor="middle" fill="#fca5a5" fontSize="8">Avvo</text>
             <text x="145" y="155" textAnchor="middle" fill="#94a3b8" fontSize="7.5">Directories</text>
             <text x="175" y="155" textAnchor="middle" fill="#94a3b8" fontSize="7.5">Ratings</text>
             {/* Right pan — AI signals (raised higher = more weight) */}
             <line x1="320" y1="70" x2="300" y2="100" stroke="#22c55e" strokeWidth="1.5" opacity="0.6"/>
             <line x1="320" y1="70" x2="340" y2="100" stroke="#22c55e" strokeWidth="1.5" opacity="0.6"/>
-            <path d="M290 100 Q320 115 350 100" fill="#22c55e" opacity="0.15" stroke="#22c55e" strokeWidth="1.5" opacity="0.4"/>
+            <path d="M290 100 Q320 115 350 100" fill="#22c55e" stroke="#22c55e" strokeWidth="1.5" opacity="0.4"/>
             <text x="320" y="96" textAnchor="middle" fill="#86efac" fontSize="8">Content</text>
             <text x="305" y="135" textAnchor="middle" fill="#94a3b8" fontSize="7.5">Schema</text>
             <text x="335" y="135" textAnchor="middle" fill="#94a3b8" fontSize="7.5">Citations</text>

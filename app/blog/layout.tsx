@@ -12,10 +12,10 @@ export const metadata: Metadata = {
     url: 'https://www.theanswerengine.ai/blog',
     images: [
       {
-        url: 'https://www.theanswerengine.ai/images/blog-featured.png',
+        url: 'https://www.theanswerengine.ai/og-default.png',
         width: 1200,
         height: 630,
-        alt: 'Answer Engine Optimization Blog',
+        alt: 'Answer Engine Optimization Blog — AEO Insights & Strategies',
       }
     ],
     siteName: 'The Answer Engine',
@@ -25,7 +25,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'Answer Engine Optimization Blog',
     description: 'Expert insights on AEO and AI citations.',
-    images: ['https://www.theanswerengine.ai/images/blog-featured.png'],
+    images: ['https://www.theanswerengine.ai/og-default.png'],
     creator: '@theanswerengine',
   },
 

@@ -5,10 +5,10 @@ const BASE_URI = process.env.DOCUSIGN_BASE_URI!
 const AUTH_HOST = process.env.DOCUSIGN_AUTH_HOST!
 const INTEGRATION_KEY = process.env.DOCUSIGN_INTEGRATION_KEY!
 const CLIENT_SECRET = process.env.DOCUSIGN_CLIENT_SECRET!
-const API_ACCOUNT_ID = process.env.DOCUSIGN_API_ACCOUNT_ID!
+const ACCOUNT_ID = process.env.DOCUSIGN_ACCOUNT_ID!
 const REDIRECT_URI = process.env.NODE_ENV === 'development'
-  ? process.env.DOCUSIGN_REDIRECT_URI_LOCAL!
-  : process.env.DOCUSIGN_REDIRECT_URI!
+  ? (process.env.DOCUSIGN_REDIRECT_URI_LOCAL || 'http://localhost:3000/api/docusign/callback')
+  : (process.env.DOCUSIGN_REDIRECT_URI || 'https://theanswerengine.ai/api/docusign/callback')
 
 // In-memory token cache (survives restarts via env refresh token)
 let cachedAccessToken: string | null = null
@@ -68,7 +68,7 @@ export async function getAccessToken(): Promise<string> {
 }
 
 function apiUrl(path: string) {
-  return `${BASE_URI}/restapi/v2.1/accounts/${API_ACCOUNT_ID}${path}`
+  return `${BASE_URI}/restapi/v2.1/accounts/${ACCOUNT_ID}${path}`
 }
 
 async function dsGet(path: string) {
@@ -116,30 +116,35 @@ export async function listBrands() {
   return dsGet('/brands')
 }
 
-export async function createAEBrand(): Promise<string> {
+export async function createBrand(opts: {
+  brandName: string
+  buttons?: { primary?: string }
+  text?: string
+  heading?: string
+}): Promise<{ brandId: string; brandName: string }> {
+  const primaryButton = opts.buttons?.primary || 'FF6B35'
+  const textColor = opts.text || '1A1A1A'
+  const headingColor = opts.heading || '1A1A1A'
+
   const data = await dsPost('/brands', {
-    brandName: 'The Answer Engine',
+    brandName: opts.brandName,
     defaultBrandLanguage: 'en',
     colors: [
-      // Signing ceremony — primary action button (the big "Sign Here" CTA)
-      { name: 'ButtonPrimaryBackground', color: 'FF6B35' },
+      { name: 'ButtonPrimaryBackground', color: primaryButton },
       { name: 'ButtonPrimaryText', color: 'FFFFFF' },
-      // Secondary buttons (Next, Continue, etc.)
-      { name: 'ButtonSecondaryBackground', color: '1A1A1A' },
+      { name: 'ButtonSecondaryBackground', color: textColor },
       { name: 'ButtonSecondaryText', color: 'FFFFFF' },
-      // Page header bar
-      { name: 'HeaderBackground', color: '1A1A1A' },
+      { name: 'HeaderBackground', color: textColor },
       { name: 'HeaderText', color: 'FFFFFF' },
-      // Signing page body
       { name: 'BodyBackground', color: 'F7F7F7' },
-      { name: 'BodyColor', color: '1A1A1A' },
-      // Links and accents
-      { name: 'LinkColor', color: 'FF6B35' },
+      { name: 'BodyColor', color: textColor },
+      { name: 'LinkColor', color: primaryButton },
     ],
   })
-  const brandId: string = data.brandId
-  await uploadBrandLogo(brandId)
-  return brandId
+  return {
+    brandId: data.brandId,
+    brandName: data.brandName,
+  }
 }
 
 async function uploadBrandLogo(brandId: string) {
@@ -254,19 +259,28 @@ export async function voidEnvelope(envelopeId: string, reason: string) {
 
 // ─── Connect (Webhook) ────────────────────────────────────────────────────────
 
-export async function registerWebhook(webhookUrl: string) {
+export async function registerWebhook(opts: {
+  name?: string
+  url: string
+  events?: string[]
+}) {
+  const eventMap: Record<string, string> = {
+    'envelope-sent': 'sent',
+    'envelope-completed': 'completed',
+    'recipient-completed': 'completed',
+    'envelope-declined': 'declined',
+  }
+
+  const envelopeEvents = (opts.events || ['envelope-sent', 'envelope-completed']).map((e) => ({
+    envelopeEventStatusCode: eventMap[e] || e,
+  }))
+
   return dsPost('/connect', {
-    name: 'The Answer Engine — Envelope Status',
-    urlToPublishTo: webhookUrl,
+    name: opts.name || 'The Answer Engine — Envelope Status',
+    urlToPublishTo: opts.url,
     allUsers: 'true',
     enableLog: 'true',
     requiresAckStatus: 'true',
-    envelopeEvents: [
-      { envelopeEventStatusCode: 'sent' },
-      { envelopeEventStatusCode: 'delivered' },
-      { envelopeEventStatusCode: 'completed' },
-      { envelopeEventStatusCode: 'declined' },
-      { envelopeEventStatusCode: 'voided' },
-    ],
+    envelopeEvents,
   })
 }

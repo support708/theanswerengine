@@ -1,41 +1,60 @@
 import { NextResponse } from 'next/server'
-import { createAEBrand, listBrands, registerWebhook } from '@/lib/docusign'
+import { createBrand, registerWebhook, getAccessToken } from '@/lib/docusign'
+import fs from 'fs'
+import path from 'path'
 
-// GET /api/docusign/setup
-// One-time setup: creates AE brand + registers Connect webhook.
-// Run once after completing the OAuth dance. Copy brandId → DOCUSIGN_BRAND_ID in .env.local.
 export async function GET() {
-  const results: Record<string, unknown> = {}
-
-  // Check if AE brand already exists
   try {
-    const existing = await listBrands()
-    const aeBrand = existing.brands?.find(
-      (b: { brandName: string }) => b.brandName === 'The Answer Engine'
-    )
-    if (aeBrand) {
-      results.brand = { status: 'already_exists', brandId: aeBrand.brandId }
-    } else {
-      const brandId = await createAEBrand()
-      results.brand = { status: 'created', brandId }
+    const logoPath = path.join(process.cwd(), 'public', 'logo.png')
+    if (!fs.existsSync(logoPath)) {
+      return NextResponse.json({ error: 'Logo not found at public/logo.png' }, { status: 400 })
     }
-  } catch (err) {
-    results.brand = { status: 'error', error: String(err) }
-  }
+    const logoBinary = fs.readFileSync(logoPath)
 
-  // Register Connect webhook
-  try {
-    const webhookUrl = 'https://theanswerengine.ai/api/docusign/webhook'
-    const webhook = await registerWebhook(webhookUrl)
-    results.webhook = { status: 'registered', connectId: webhook.connectId }
-  } catch (err) {
-    // Webhook may already be registered — not fatal
-    results.webhook = { status: 'error', error: String(err) }
-  }
+    const brand = await createBrand({
+      brandName: 'The Answer Engine',
+      buttons: { primary: '#FF6B35' },
+      text: '#1A1A1A',
+      heading: '#1A1A1A',
+    })
 
-  return NextResponse.json({
-    ok: true,
-    ...results,
-    next: 'Add DOCUSIGN_BRAND_ID to .env.local using the brandId above',
-  })
+    const token = await getAccessToken()
+    await fetch(
+      `${process.env.DOCUSIGN_BASE_URI}/v2.1/accounts/${process.env.DOCUSIGN_ACCOUNT_ID}/brands/${brand.brandId}/logos/primary`,
+      {
+        method: 'PUT',
+        headers: {
+          Authorization: `Bearer ${token}`,
+          'Content-Type': 'image/png',
+        },
+        body: logoBinary,
+      }
+    )
+
+    const webhook = await registerWebhook({
+      name: 'AE Onboarding Webhook',
+      url: process.env.NODE_ENV === 'production'
+        ? 'https://theanswerengine.ai/api/docusign/webhook'
+        : 'https://localhost:3000/api/docusign/webhook',
+      events: ['envelope-sent', 'envelope-completed', 'recipient-completed'],
+    })
+
+    console.log('=== DOCUSIGN SETUP COMPLETE ===')
+    console.log('Brand ID:', brand.brandId)
+    console.log('Webhook ID:', webhook.webhookId)
+    console.log('Add DOCUSIGN_BRAND_ID=' + brand.brandId + ' to .env.local')
+
+    return NextResponse.json({
+      success: true,
+      brandId: brand.brandId,
+      brandName: brand.brandName,
+      webhookId: webhook.webhookId,
+      message: 'Add DOCUSIGN_BRAND_ID to .env.local and redeploy',
+    })
+  } catch (error) {
+    return NextResponse.json(
+      { error: error instanceof Error ? error.message : 'Setup failed' },
+      { status: 500 }
+    )
+  }
 }

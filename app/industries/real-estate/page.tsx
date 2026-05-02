@@ -102,8 +102,7 @@ const breadcrumbJsonLd = {
   '@type': 'BreadcrumbList',
   itemListElement: [
     { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://www.theanswerengine.ai' },
-    { '@type': 'ListItem', position: 2, name: 'Industries', item: 'https://www.theanswerengine.ai/industries/real-estate' },
-    { '@type': 'ListItem', position: 3, name: 'Real Estate', item: 'https://www.theanswerengine.ai/industries/real-estate' },
+    { '@type': 'ListItem', position: 2, name: 'AEO for Real Estate', item: 'https://www.theanswerengine.ai/industries/real-estate' },
   ],
 };
 

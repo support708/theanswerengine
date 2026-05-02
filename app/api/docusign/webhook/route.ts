@@ -1,51 +1,40 @@
 import { NextRequest, NextResponse } from 'next/server'
 import { sendMessage as sendTelegram } from '@/lib/telegram'
-import { verifyConnectToken } from '../oauth/route'
 
-const STATUS_EMOJI: Record<string, string> = {
-  sent: '📤',
-  delivered: '👀',
-  completed: '✅',
-  declined: '❌',
-  voided: '🚫',
-}
-
-// POST /api/docusign/webhook
-// DocuSign Connect pushes envelope status changes here.
-// Requests are authenticated via Bearer token obtained from /api/docusign/oauth.
 export async function POST(req: NextRequest) {
-  // Verify the Connect OAuth Bearer token
-  const authHeader = req.headers.get('Authorization')
-  if (!verifyConnectToken(authHeader)) {
-    console.warn('DocuSign webhook: invalid or missing Bearer token')
-    // Return 200 anyway — prevents DocuSign from retrying indefinitely on auth failures
-    // while still logging the unauthorized attempt
-    return new NextResponse('OK', { status: 200 })
-  }
-
   try {
-    const text = await req.text()
+    const authHeader = req.headers.get('Authorization') || ''
+    if (!authHeader.startsWith('Bearer ')) {
+      return NextResponse.json({ error: 'Missing Bearer token' }, { status: 401 })
+    }
 
-    // DocuSign sends XML — parse key fields with regex (no xml2js dependency)
-    const envelopeId = text.match(/<EnvelopeID>(.*?)<\/EnvelopeID>/)?.[1] ?? 'unknown'
-    const status = text.match(/<Status>(.*?)<\/Status>/)?.[1]?.toLowerCase() ?? 'unknown'
-    const subject = text.match(/<EmailSubject>(.*?)<\/EmailSubject>/)?.[1] ?? ''
-    const signer = text.match(/<Name>(.*?)<\/Name>/)?.[1] ?? ''
-    const signerEmail = text.match(/<Email>(.*?)<\/Email>/)?.[1] ?? ''
+    const token = authHeader.substring(7)
+    const expectedToken = process.env.DOCUSIGN_CONNECT_SECRET
+    if (token !== expectedToken) {
+      return NextResponse.json({ error: 'Invalid token' }, { status: 401 })
+    }
 
-    const emoji = STATUS_EMOJI[status] ?? '📋'
-    const msg = [
-      `${emoji} DocuSign — ${status.toUpperCase()}`,
-      subject ? `Contract: ${subject}` : '',
-      signer ? `Signer: ${signer} <${signerEmail}>` : '',
-      `Envelope: ${envelopeId}`,
-    ].filter(Boolean).join('\n')
+    const body = await req.text()
 
-    await sendTelegram(msg).catch(() => {})
+    const envelopeIdMatch = body.match(/<EnvelopeId>([^<]+)<\/EnvelopeId>/)
+    const statusMatch = body.match(/<Status>([^<]+)<\/Status>/)
 
-    return new NextResponse('OK', { status: 200 })
-  } catch (err) {
-    console.error('DocuSign webhook error:', err)
-    return new NextResponse('OK', { status: 200 })
+    if (!envelopeIdMatch || !statusMatch) {
+      return NextResponse.json({ error: 'Invalid webhook payload' }, { status: 400 })
+    }
+
+    const envelopeId = envelopeIdMatch[1]
+    const status = statusMatch[1]
+    const signerMatch = body.match(/<SignerName>([^<]+)<\/SignerName>/)
+    const signerName = signerMatch ? signerMatch[1] : 'Recipient'
+
+    const message = `📋 DocuSign Update\n\nEnvelope: ${envelopeId}\nStatus: ${status}\nSigner: ${signerName}\n\nTime: ${new Date().toLocaleTimeString()}`
+
+    await sendTelegram(message)
+
+    return NextResponse.json({ received: true })
+  } catch (error) {
+    console.error('Webhook error:', error)
+    return NextResponse.json({ error: error instanceof Error ? error.message : 'Webhook processing failed' }, { status: 200 })
   }
 }

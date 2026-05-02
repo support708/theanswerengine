@@ -201,10 +201,10 @@ export default function Home() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
         "@context": "https://schema.org",
         "@type": "ProfessionalService",
-        "@id": "https://theanswerengine.ai/#organization",
+        "@id": "https://www.theanswerengine.ai/#organization",
         "name": "The Answer Engine",
         "description": "Answer Engine Optimization specialists helping local service businesses get cited by AI platforms like Google AI Overviews, ChatGPT, Claude, and Perplexity. 90-day citation guarantee. Exclusive territory protection.",
-        "url": "https://theanswerengine.ai",
+        "url": "https://www.theanswerengine.ai",
         "telephone": "+1-213-444-2229",
         "email": "support@theanswerengine.ai",
         "priceRange": "$$",
@@ -237,9 +237,9 @@ export default function Home() {
         "description": "The Answer Engine's 3-step process to get your local business cited as the authoritative answer across ChatGPT, Claude, Perplexity, and Google AI Overviews.",
         "totalTime": "P90D",
         "step": [
-          { "@type": "HowToStep", "position": 1, "name": "AI Visibility Audit", "text": "We test 50+ queries across ChatGPT, Google AI, Claude and Perplexity to map exactly where your category prospects are being sent today — and where you're missing.", "url": "https://theanswerengine.ai/#how-it-works" },
-          { "@type": "HowToStep", "position": 2, "name": "Authority Content Build", "text": "We build a hub of research-backed, schema-rich pages structured specifically for AI citation — the same pattern we used on our own real estate site to reach 1.14M+ monthly impressions.", "url": "https://theanswerengine.ai/#how-it-works" },
-          { "@type": "HowToStep", "position": 3, "name": "Citation Monitoring", "text": "Live tracking across ChatGPT, Perplexity, Claude, and Google AI Overviews. Weekly Monday Brief, monthly AEO Intelligence Report, and a client dashboard so you can see it compounding.", "url": "https://theanswerengine.ai/#how-it-works" },
+          { "@type": "HowToStep", "position": 1, "name": "AI Visibility Audit", "text": "We test 50+ queries across ChatGPT, Google AI, Claude and Perplexity to map exactly where your category prospects are being sent today — and where you're missing.", "url": "https://www.theanswerengine.ai/#how-it-works" },
+          { "@type": "HowToStep", "position": 2, "name": "Authority Content Build", "text": "We build a hub of research-backed, schema-rich pages structured specifically for AI citation — the same pattern we used on our own real estate site to reach 1.14M+ monthly impressions.", "url": "https://www.theanswerengine.ai/#how-it-works" },
+          { "@type": "HowToStep", "position": 3, "name": "Citation Monitoring", "text": "Live tracking across ChatGPT, Perplexity, Claude, and Google AI Overviews. Weekly Monday Brief, monthly AEO Intelligence Report, and a client dashboard so you can see it compounding.", "url": "https://www.theanswerengine.ai/#how-it-works" },
         ],
       })}} />
 
@@ -247,13 +247,13 @@ export default function Home() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
         "@context": "https://schema.org",
         "@type": "WebPage",
-        "@id": "https://theanswerengine.ai/",
+        "@id": "https://www.theanswerengine.ai/",
         "name": "The Answer Engine - Answer Engine Optimization for Local Businesses",
         "description": "Get your business cited by ChatGPT, Claude, Google AI Overviews, and Perplexity. Answer Engine Optimization with 90-day citation guarantee and exclusive territory protection.",
-        "url": "https://theanswerengine.ai",
-        "isPartOf": { "@type": "WebSite", "name": "The Answer Engine", "url": "https://theanswerengine.ai" },
+        "url": "https://www.theanswerengine.ai",
+        "isPartOf": { "@type": "WebSite", "name": "The Answer Engine", "url": "https://www.theanswerengine.ai" },
         "speakable": { "@type": "SpeakableSpecification", "cssSelector": ["h1", ".hero-description", "#faq-section"] },
-        "mainEntity": { "@type": "Service", "name": "Answer Engine Optimization", "provider": { "@id": "https://theanswerengine.ai/#organization" } },
+        "mainEntity": { "@type": "Service", "name": "Answer Engine Optimization", "provider": { "@id": "https://www.theanswerengine.ai/#organization" } },
       })}} />
 
       {/* ── Global scanline overlay ── */}
