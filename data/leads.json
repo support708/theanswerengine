@@ -1934,7 +1934,7 @@
     "reviewCount": 121,
     "rating": 5,
     "notes": "Auto-discovered by Lead Hunter. AI citation: not cited on 0/1 platforms. Competitors cited: Smile LA Downtown Modern Dentistry, Downtown Dental, Westside Dental Associates. Outreach-ready: YES (citation data + contact + differentiator verified). Differentiator: Established 2016, 5.0-star rating on Rank My Dentist, family-owned practice, known for pain-free procedures and comprehensive cosmetic dentistry",
-    "status": "follow_up_1",
+    "status": "follow_up_2",
     "research": {
       "reviewCount": 121,
       "rating": 5,
@@ -2052,10 +2052,14 @@
       {
         "action": "follow_up_1 auto-sent via Gmail (19db5ebef658dc19)",
         "timestamp": "2026-04-22T16:00:33.132Z"
+      },
+      {
+        "action": "follow_up_2 auto-sent via Gmail (19de444ea3a9e914)",
+        "timestamp": "2026-05-01T16:00:16.764Z"
       }
     ],
     "createdAt": "2026-03-09T02:38:32.048Z",
-    "updatedAt": "2026-04-22T16:00:33.273Z",
+    "updatedAt": "2026-05-01T16:00:16.911Z",
     "huntSource": "hunt_1773023618468_oxni",
     "huntScore": 36,
     "huntPriority": "P1",
@@ -2087,7 +2091,7 @@
     "reviewCount": 76,
     "rating": 5,
     "notes": "Auto-discovered by Lead Hunter. AI citation: not cited on 1/1 platforms. Competitors cited: Smile LA Downtown Modern Dentistry, Downtown Dental, Larchmont Dental Associates. Outreach-ready: YES (citation data + contact + differentiator verified). Differentiator: Over 20 years experience, 5.0-star rating, specializes in cosmetic and restorative dentistry, known for patient comfort and educational approach",
-    "status": "follow_up_1",
+    "status": "follow_up_2",
     "research": {
       "reviewCount": 76,
       "rating": 5,
@@ -2200,10 +2204,14 @@
       {
         "action": "follow_up_1 auto-sent via Gmail (19db5ebfeee95f56)",
         "timestamp": "2026-04-22T16:00:37.118Z"
+      },
+      {
+        "action": "follow_up_2 auto-sent via Gmail (19de444f8fdae114)",
+        "timestamp": "2026-05-01T16:00:20.755Z"
       }
     ],
     "createdAt": "2026-03-09T02:38:32.048Z",
-    "updatedAt": "2026-04-22T16:00:37.259Z",
+    "updatedAt": "2026-05-01T16:00:20.897Z",
     "huntSource": "hunt_1773023618468_oxni",
     "huntScore": 38,
     "huntPriority": "P1",
@@ -2385,7 +2393,7 @@
     "reviewCount": 279,
     "rating": 4.7,
     "notes": "Auto-discovered by Lead Hunter. AI citation: not cited on 0/1 platforms. Competitors cited: Smile LA Downtown Modern Dentistry, Downtown Dental, Larchmont Dental Associates. Outreach-ready: YES (citation data + contact + differentiator verified). Differentiator: Multi-specialty practice with 15+ dental professionals, decades of experience, comprehensive services from general to oral surgery under one roof, patient education focus",
-    "status": "follow_up_1",
+    "status": "follow_up_2",
     "research": {
       "reviewCount": 279,
       "rating": 4.7,
@@ -2508,10 +2516,14 @@
       {
         "action": "follow_up_1 auto-sent via Gmail (19db5ec0d111e76c)",
         "timestamp": "2026-04-22T16:00:41.186Z"
+      },
+      {
+        "action": "follow_up_2 auto-sent via Gmail (19de44509314c789)",
+        "timestamp": "2026-05-01T16:00:24.866Z"
       }
     ],
     "createdAt": "2026-03-09T02:38:32.048Z",
-    "updatedAt": "2026-04-22T16:00:41.322Z",
+    "updatedAt": "2026-05-01T16:00:25.003Z",
     "huntSource": "hunt_1773023618468_oxni",
     "huntScore": 36,
     "huntPriority": "P1",
@@ -2592,7 +2604,7 @@
     "reviewCount": 39,
     "rating": 5,
     "notes": "Auto-discovered by Lead Hunter. AI citation: not cited on 0/1 platforms. Competitors cited: Yonsei Chiropractic Clinic, The Joint Chiropractic, BodyPro Chiropractic & Sports Medicine. Outreach-ready: YES (citation data + contact + differentiator verified). Differentiator: Established 2008, specialized in spinal decompression, private treatment rooms, integrated team with acupuncture and massage",
-    "status": "follow_up_1",
+    "status": "follow_up_2",
     "research": {
       "reviewCount": 39,
       "rating": 5,
@@ -2706,10 +2718,14 @@
       {
         "action": "follow_up_1 auto-sent via Gmail (19db5ec1d0007373)",
         "timestamp": "2026-04-22T16:00:45.133Z"
+      },
+      {
+        "action": "follow_up_2 auto-sent via Gmail (19de4451a5dea1f1)",
+        "timestamp": "2026-05-01T16:00:29.010Z"
       }
     ],
     "createdAt": "2026-03-09T13:01:29.518Z",
-    "updatedAt": "2026-04-22T16:00:45.283Z",
+    "updatedAt": "2026-05-01T16:00:29.137Z",
     "huntSource": "hunt_1773061221808_5npi",
     "huntScore": 31,
     "huntPriority": "P2",
@@ -2741,7 +2757,7 @@
     "reviewCount": 157,
     "rating": 4.5,
     "notes": "Auto-discovered by Lead Hunter. AI citation: not cited on 1/1 platforms. Competitors cited: Wilshire Center Chiropractic, Yonsei Chiropractic Clinic, The Joint Chiropractic. Outreach-ready: YES (citation data + contact + differentiator verified). Differentiator: Established 2012, 32+ years clinic history, specializes in Japanese color therapy, applied kinesiology, acupuncture",
-    "status": "follow_up_1",
+    "status": "follow_up_2",
     "research": {
       "reviewCount": 157,
       "rating": 4.5,
@@ -2851,10 +2867,14 @@
       {
         "action": "follow_up_1 auto-sent via Gmail (19db5ec2c34736eb)",
         "timestamp": "2026-04-22T16:00:49.379Z"
+      },
+      {
+        "action": "follow_up_2 auto-sent via Gmail (19de445298765f17)",
+        "timestamp": "2026-05-01T16:00:32.815Z"
       }
     ],
     "createdAt": "2026-03-09T13:01:29.518Z",
-    "updatedAt": "2026-04-22T16:00:49.530Z",
+    "updatedAt": "2026-05-01T16:00:32.935Z",
     "huntSource": "hunt_1773061221808_5npi",
     "huntScore": 38.5,
     "huntPriority": "P1",
@@ -2887,7 +2907,7 @@
     "reviewCount": 174,
     "rating": 4.5,
     "notes": "Auto-discovered by Lead Hunter. AI citation: not cited on 1/1 platforms. Competitors cited: Wilshire Center Chiropractic, Yonsei Chiropractic Clinic, The Joint Chiropractic. Outreach-ready: YES (citation data + contact + differentiator verified). Differentiator: Established 2009, specializes in disc decompression therapy, multiple locations, praised for friendly staff and clinical skills",
-    "status": "follow_up_1",
+    "status": "follow_up_2",
     "research": {
       "reviewCount": 174,
       "rating": 4.5,
@@ -2998,10 +3018,14 @@
       {
         "action": "follow_up_1 auto-sent via Gmail (19db5ec3dac15320)",
         "timestamp": "2026-04-22T16:00:53.359Z"
+      },
+      {
+        "action": "follow_up_2 auto-sent via Gmail (19de44536d562627)",
+        "timestamp": "2026-05-01T16:00:36.480Z"
       }
     ],
     "createdAt": "2026-03-09T13:01:29.518Z",
-    "updatedAt": "2026-04-22T16:00:53.477Z",
+    "updatedAt": "2026-05-01T16:00:36.608Z",
     "huntSource": "hunt_1773061221808_5npi",
     "huntScore": 38.5,
     "huntPriority": "P1",
@@ -3034,7 +3058,7 @@
     "reviewCount": 150,
     "rating": 5,
     "notes": "Auto-discovered by Lead Hunter. AI citation: not cited on 0/1 platforms. Competitors cited: Wilshire Center Chiropractic, Yonsei Chiropractic Clinic, The Joint Chiropractic. Outreach-ready: YES (citation data + contact + differentiator verified). Differentiator: 7 years serving LA, specializes in sports medicine, treats professional and Olympic athletes, first office with Tecar therapy in USA",
-    "status": "follow_up_1",
+    "status": "follow_up_2",
     "research": {
       "reviewCount": 150,
       "rating": 5,
@@ -3160,10 +3184,14 @@
       {
         "action": "follow_up_1 auto-sent via Gmail (19db5ec4d1943edb)",
         "timestamp": "2026-04-22T16:00:57.516Z"
+      },
+      {
+        "action": "follow_up_2 auto-sent via Gmail (19de445472eea7dd)",
+        "timestamp": "2026-05-01T16:00:40.270Z"
       }
     ],
     "createdAt": "2026-03-09T13:01:29.518Z",
-    "updatedAt": "2026-04-22T16:00:57.663Z",
+    "updatedAt": "2026-05-01T16:00:40.404Z",
     "huntSource": "hunt_1773061221808_5npi",
     "huntScore": 34.5,
     "huntPriority": "P2",
@@ -3195,7 +3223,7 @@
     "reviewCount": 102,
     "rating": 4.8,
     "notes": "Auto-discovered by Lead Hunter. AI citation: not cited on 1/1 platforms. Competitors cited: Wilshire Center Chiropractic, Yonsei Chiropractic Clinic, The Joint Chiropractic. Outreach-ready: YES (citation data + contact + differentiator verified). Differentiator: Revolutionary multidisciplinary clinic with MDs, chiropractors, acupuncture, massage, founded 2001, integrated wellness approach",
-    "status": "follow_up_1",
+    "status": "follow_up_2",
     "research": {
       "reviewCount": 102,
       "rating": 4.8,
@@ -3315,10 +3343,14 @@
       {
         "action": "follow_up_1 auto-sent via Gmail (19dbb11f428eb6d6)",
         "timestamp": "2026-04-23T16:00:12.124Z"
+      },
+      {
+        "action": "follow_up_2 auto-sent via Gmail (19de4455533ea36d)",
+        "timestamp": "2026-05-01T16:00:44.018Z"
       }
     ],
     "createdAt": "2026-03-09T13:01:29.518Z",
-    "updatedAt": "2026-04-23T16:00:12.268Z",
+    "updatedAt": "2026-05-01T16:00:44.163Z",
     "huntSource": "hunt_1773061221808_5npi",
     "huntScore": 38.5,
     "huntPriority": "P1",
