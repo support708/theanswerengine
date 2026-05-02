@@ -1697,9 +1697,9 @@
         "draftResponse": "You've diagnosed the problem correctly, but you're solving it with 2024 tactics when the issue is 2025 structural. Zero citations in 12 weeks on identical prompts tells me this isn't about content quality or authority gaps. Your competitors likely aren't better writers. They're probably hitting a citation threshold through a specific pattern you're missing.\n\nHere's what actually triggers citation in Claude, ChatGPT, and Perplexity: it's not guest posts or roundups alone. It's consistent citation co-occurrence across multiple touchpoints plus what I call \"Answer Authority\" signals. These models train on patterns of which sources get cited together. If you're missing from that citation graph entirely, you're invisible.\n\nThe structured data and FAQ schemas you implemented? Good foundation, but that's hygiene, not differentiation. What you need to audit:\n\n1. Are your competitors getting cited in industry-specific knowledge bases or curated lists that the models see as authoritative?\n2. Is your content appearing in forums, Q&A sites, or aggregators where these models extract training data?\n3. Are you missing from any \"must-cite\" reference that competitors dominate?\n\nI've worked with B2B SaaS companies in Los Angeles at your exact stage. The shift from Google ranking to AI citation requires rethinking distribution, not just content. Your 50 blog posts might have lower co-citation weight than their 20 if those 20 are strategically placed.\n\nRun a citation audit: search your category in each model and map where those citations actually originate. The pattern will show you the real gap."
       },
       "discoveredAt": "2026-04-29T00:14:10.330Z",
-      "digestSentAt": null,
+      "digestSentAt": "2026-05-02T07:07:25.520Z",
       "telegramSentAt": "2026-04-29T00:14:10.953Z",
-      "status": "pending"
+      "status": "digest_sent"
     },
     {
       "id": "reddit_1777469494052_2ar27t",
