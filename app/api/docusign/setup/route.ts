@@ -5,9 +5,9 @@ import path from 'path'
 
 export async function GET() {
   try {
-    const logoPath = path.join(process.cwd(), 'public', 'TheAnswerEngine_Color.png')
+    const logoPath = path.join(process.cwd(), 'public', 'The_Answer_Engine_Solo_Logo_Transparent.png')
     if (!fs.existsSync(logoPath)) {
-      return NextResponse.json({ error: 'Logo not found at public/TheAnswerEngine_Color.png' }, { status: 400 })
+      return NextResponse.json({ error: 'Logo not found at public/The_Answer_Engine_Solo_Logo_Transparent.png' }, { status: 400 })
     }
     const logoBinary = fs.readFileSync(logoPath)
 
