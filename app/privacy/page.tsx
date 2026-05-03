@@ -43,7 +43,7 @@ export default function Privacy() {
         <header className="text-center mb-12">
           <Link href="/" className="inline-block mb-8">
             <Image
-              src="/TheAnswerEngine_white logo only.png"
+              src="/mark-1b-white.png"
               alt="The Answer Engine"
               width={200}
               height={60}

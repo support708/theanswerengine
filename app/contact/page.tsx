@@ -67,7 +67,7 @@ export default function ContactPage() {
             description:
               'Answer Engine Optimization specialists helping local service businesses get cited by AI platforms like ChatGPT, Claude, Google AI Overviews, and Perplexity.',
             url: 'https://theanswerengine.ai',
-            logo: 'https://theanswerengine.ai/TheAnswerEngine_white%20logo%20only.png',
+            logo: 'https://theanswerengine.ai/mark-1b-white.png',
             telephone: '+1-213-444-2229',
             email: 'support@theanswerengine.ai',
             address: {

@@ -44,7 +44,7 @@ export const metadata: Metadata = {
 const spaceGrotesk = Space_Grotesk({
   variable: "--font-headline",
   subsets: ["latin"],
-  weight: ["400", "500", "600", "700", "900"],
+  weight: ["400", "500", "600", "700"],
 });
 
 const inter = Inter({
@@ -83,7 +83,7 @@ export default function RootLayout({
               "foundingDate": "2025",
               "logo": {
                 "@type": "ImageObject",
-                "url": "https://www.theanswerengine.ai/TheAnswerEngine_white%20logo%20only.png",
+                "url": "https://www.theanswerengine.ai/mark-1b-white.png",
                 "width": 400,
                 "height": 400
               },
@@ -144,7 +144,7 @@ export default function RootLayout({
                 "name": "The Answer Engine",
                 "logo": {
                   "@type": "ImageObject",
-                  "url": "https://www.theanswerengine.ai/TheAnswerEngine_white%20logo%20only.png",
+                  "url": "https://www.theanswerengine.ai/mark-1b-white.png",
                   "width": 400,
                   "height": 400
                 }

@@ -114,7 +114,7 @@ export default function Blog() {
               "url": "https://www.theanswerengine.ai",
               "logo": {
                 "@type": "ImageObject",
-                "url": "https://www.theanswerengine.ai/TheAnswerEngine_white%20logo%20only.png",
+                "url": "https://www.theanswerengine.ai/mark-1b-white.png",
                 "width": 600,
                 "height": 60
               }

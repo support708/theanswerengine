@@ -19,7 +19,7 @@ export function ArticleSchema({
   dateModified,
   authorName = "Justin Borges",
   authorJobTitle = "Founder & AEO Strategist",
-  imageUrl = "https://theanswerengine.ai/TheAnswerEngine_white%20logo%20only.png",
+  imageUrl = "https://theanswerengine.ai/mark-1b-white.png",
   url
 }: ArticleSchemaProps) {
   const schema = {
@@ -49,7 +49,7 @@ export function ArticleSchema({
       "url": "https://theanswerengine.ai",
       "logo": {
         "@type": "ImageObject",
-        "url": "https://theanswerengine.ai/TheAnswerEngine_white%20logo%20only.png",
+        "url": "https://theanswerengine.ai/mark-1b-white.png",
         "width": 400,
         "height": 400
       }

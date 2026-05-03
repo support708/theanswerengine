@@ -78,7 +78,7 @@ const faqs = [
   },
   {
     q: "What's the investment?",
-    a: 'Two parts: a one-time foundation fee (scoped to your industry and market size) and a monthly program fee that covers the Monday Brief, Monthly Report, Dashboard, and ongoing citation work. We quote live on the strategy call — no surprise pricing. Book a call at (213) 444-2229.'
+    a: 'Two parts: a one-time foundation fee (scoped to your industry and market size) and a monthly program fee that covers ongoing citation work and a Monthly Intelligence Report. We quote live on the strategy call — no surprise pricing. Book a call at (213) 444-2229.'
   },
   {
     q: 'What if AI is giving wrong information about my business?',
@@ -239,7 +239,7 @@ export default function Home() {
         "step": [
           { "@type": "HowToStep", "position": 1, "name": "AI Visibility Audit", "text": "We test 50+ queries across ChatGPT, Google AI, Claude and Perplexity to map exactly where your category prospects are being sent today — and where you're missing.", "url": "https://www.theanswerengine.ai/#how-it-works" },
           { "@type": "HowToStep", "position": 2, "name": "Authority Content Build", "text": "We build a hub of research-backed, schema-rich pages structured specifically for AI citation — the same pattern we used on our own real estate site to reach 1.14M+ monthly impressions.", "url": "https://www.theanswerengine.ai/#how-it-works" },
-          { "@type": "HowToStep", "position": 3, "name": "Citation Monitoring", "text": "Live tracking across ChatGPT, Perplexity, Claude, and Google AI Overviews. Weekly Monday Brief, monthly AEO Intelligence Report, and a client dashboard so you can see it compounding.", "url": "https://www.theanswerengine.ai/#how-it-works" },
+          { "@type": "HowToStep", "position": 3, "name": "Citation Monitoring", "text": "Live tracking across ChatGPT, Perplexity, Claude, and Google AI Overviews. Monthly Intelligence Report so you can see it compounding.", "url": "https://www.theanswerengine.ai/#how-it-works" },
         ],
       })}} />
 
@@ -327,35 +327,39 @@ export default function Home() {
             </div>
           </div>
 
-          {/* Right column — Monday Brief preview card */}
+          {/* Right column — 4-platform citation proof */}
           <div className="lg:col-span-4">
             <div
               className="bg-[#2a2a2a] p-8 border-l-4 border-[#F27D24] relative hover-lift"
               onMouseMove={handleCardMouseMove}
               onMouseLeave={handleCardMouseLeave}
             >
-              <div className="absolute top-4 right-4 font-mono text-[10px] text-white/20 tracking-widest">SAMPLE // Monday Brief</div>
-              <h3 className="font-mono text-[10px] text-[#F27D24] tracking-widest uppercase mb-4">The Monday Brief</h3>
+              <div className="absolute top-4 right-4 font-mono text-[10px] text-white/20 tracking-widest">LIVE // Our Site</div>
+              <h3 className="font-mono text-[10px] text-[#F27D24] tracking-widest uppercase mb-4">4-Platform Citation Proof</h3>
               <p className="text-white/60 text-xs leading-relaxed mb-6">
-                One email every Monday. Your AEO Authority Index, rank deltas that matter, Reddit opportunities, and what we&apos;re doing next.
+                We built the playbook on our own real estate site. Every platform that matters cites us — and we replicate this for your business.
               </p>
-              <div className="bg-[#0e0e0e] p-4 mb-6 font-mono text-[11px] border border-white/5">
-                <div className="text-white/40 mb-2">GOOD MORNING, {'{CLIENT}'}.</div>
-                <div className="text-[#e5e2e1] mb-3">AEO Authority Index: <span className="text-[#F27D24] font-bold">47/100</span> <span className="text-green-400">↑ 3</span></div>
-                <div className="text-white/50 text-[10px] leading-relaxed">
-                  New query ranking: &ldquo;sell my house fast&rdquo;<br />
-                  Rank up: position 14 → 8<br />
-                  2 Reddit threads with draft responses ready
-                </div>
+              <div className="space-y-3 mb-6">
+                {[
+                  { platform: 'ChatGPT', status: 'CITED' },
+                  { platform: 'Claude', status: 'CITED' },
+                  { platform: 'Perplexity', status: 'CITED' },
+                  { platform: 'Google AI Overview', status: 'CITED' },
+                ].map(({ platform, status }) => (
+                  <div key={platform} className="flex items-center justify-between bg-[#0e0e0e] px-4 py-3 border border-white/5">
+                    <span className="font-mono text-[11px] text-[#e5e2e1] tracking-wide">{platform}</span>
+                    <span className="font-mono text-[10px] text-green-400 tracking-widest font-bold">✓ {status}</span>
+                  </div>
+                ))}
               </div>
               <div className="grid grid-cols-2 gap-4 border-t border-white/10 pt-6">
                 <div>
-                  <div className="font-mono text-[10px] text-white/40 uppercase tracking-widest mb-1">Cadence</div>
-                  <div className="text-sm font-headline font-bold text-[#e5e2e1]">1×/week</div>
+                  <div className="font-mono text-[10px] text-white/40 uppercase tracking-widest mb-1">Impressions</div>
+                  <div className="text-sm font-headline font-bold text-[#F27D24]">1.14M+/mo</div>
                 </div>
                 <div>
-                  <div className="font-mono text-[10px] text-white/40 uppercase tracking-widest mb-1">Plus</div>
-                  <div className="text-sm font-headline font-bold text-[#e5e2e1]">Dashboard 24/7</div>
+                  <div className="font-mono text-[10px] text-white/40 uppercase tracking-widest mb-1">Guarantee</div>
+                  <div className="text-sm font-headline font-bold text-[#e5e2e1]">90-Day</div>
                 </div>
               </div>
             </div>
@@ -453,7 +457,7 @@ export default function Home() {
                 num: '04',
                 kicker: 'DAY 1 → FOREVER',
                 title: 'Monitor',
-                desc: 'Real-time citation tracking across all 4 platforms. Monday Brief. Monthly Intelligence Report. Live dashboard. Quarterly strategy call.',
+                desc: 'Real-time citation tracking across all 4 platforms. Monthly Intelligence Report. Ongoing authority compounding.',
                 status: 'Live 24/7',
                 delay: 450,
               },

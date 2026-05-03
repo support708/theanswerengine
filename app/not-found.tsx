@@ -10,7 +10,7 @@ export default function NotFound() {
       <div className="relative text-center">
         <Link href="/" className="inline-block mb-8">
           <Image
-            src="/TheAnswerEngine_white logo only.png"
+            src="/mark-1b-white.png"
             alt="The Answer Engine"
             width={120}
             height={40}

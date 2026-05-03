@@ -422,28 +422,24 @@ export default function AboutPage() {
             <span className="text-[#F27D24]">PROGRAM</span>
           </h2>
           <p className="text-white/50 text-sm leading-relaxed mb-16 max-w-2xl">
-            What you receive after the 90-day foundation ships. One email per week. One report per month. Dashboard 24/7.
+            What you receive after the 90-day foundation ships. Monthly Intelligence Report. Ongoing authority compounding.
           </p>
 
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-0 border border-white/10">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-0 border border-white/10">
             {[
-              {
-                title: 'THE MONDAY BRIEF',
-                body: 'One email every Monday. Your AEO Authority Index, the rank movements that matter this week, Reddit citation opportunities, and what we\'re doing next — tied to your goal.',
-              },
               {
                 title: 'MONTHLY AEO REPORT',
                 body: 'First of every month. Impressions, clicks, CTR, rank deltas, top pages, page-2 queue, competitor movements, and the next three actions we\'ll take.',
               },
               {
-                title: 'CLIENT DASHBOARD',
-                body: 'Live visibility across ChatGPT, Claude, Perplexity, and Google AI — on your schedule, not ours. Pull-based, 24/7.',
+                title: 'REDDIT CITATION MONITOR',
+                body: 'Ongoing scan of high-intent Reddit threads where your AI-voice can land. Draft responses included. We find the opportunities — you own the territory.',
               },
             ].map((item, i) => (
               <div
                 key={i}
                 className={`p-10 bg-[#1c1b1b] border-l-4 border-l-[#F27D24] hover:bg-[#2a2a2a] transition-colors ${
-                  i < 2 ? 'border-b md:border-b-0 md:border-r border-white/10' : ''
+                  i < 1 ? 'border-b md:border-b-0 md:border-r border-white/10' : ''
                 }`}
               >
                 <h3 className="font-headline font-black text-lg uppercase tracking-tighter mb-4">
@@ -453,10 +449,6 @@ export default function AboutPage() {
               </div>
             ))}
           </div>
-
-          <p className="text-white/40 text-xs mt-6 font-mono tracking-widest uppercase">
-            Cardinal rule: ≤ 1.5 emails/week. Everything else lives in your dashboard.
-          </p>
         </div>
       </section>
 
