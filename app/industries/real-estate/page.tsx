@@ -125,7 +125,7 @@ export default function RealEstateIndustryPage() {
             <div className="mb-8">
               <Link
                 href="/"
-                className="font-mono text-[10px] tracking-widest uppercase text-white/40 hover:text-[#F27D24] transition-colors inline-flex items-center gap-2"
+                className="font-mono text-[10px] tracking-widest uppercase text-black/40 hover:text-[#F27D24] transition-colors inline-flex items-center gap-2"
               >
                 <svg className="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={2}>
                   <path strokeLinecap="round" strokeLinejoin="round" d="M10.5 19.5L3 12m0 0l7.5-7.5M3 12h18" />
@@ -146,7 +146,7 @@ export default function RealEstateIndustryPage() {
               AGENTS
             </h1>
 
-            <p className="text-white/60 text-lg md:text-xl leading-relaxed max-w-2xl mb-10 border-l-2 border-[#F27D24] pl-6">
+            <p className="text-black/60 text-lg md:text-xl leading-relaxed max-w-2xl mb-10 border-l-2 border-[#F27D24] pl-6">
               Built on a real estate site first. 1.14M+ monthly impressions. Cited by ChatGPT, Claude, Perplexity, and Google AI Overviews. Now one real estate professional per market gets the same playbook.
             </p>
 
@@ -175,7 +175,7 @@ export default function RealEstateIndustryPage() {
         {/* PROOF BAR */}
         <section className="py-16 px-6 lg:px-24 bg-[#F4F0E8] border-b border-white/5">
           <div className="max-w-7xl mx-auto">
-            <div className="grid grid-cols-1 md:grid-cols-4 gap-0 border border-white/10">
+            <div className="grid grid-cols-1 md:grid-cols-4 gap-0 border border-black/10">
               {[
                 { val: '1.14M+', label: 'Monthly Impressions (Our RE Site)' },
                 { val: '4 / 4', label: 'AI Platforms Citing' },
@@ -184,10 +184,10 @@ export default function RealEstateIndustryPage() {
               ].map((stat, i) => (
                 <div
                   key={stat.label}
-                  className={`p-8 ${i < 3 ? 'border-b md:border-b-0 md:border-r' : ''} border-white/10 bg-[#FAF8F2]`}
+                  className={`p-8 ${i < 3 ? 'border-b md:border-b-0 md:border-r' : ''} border-black/10 bg-[#FAF8F2]`}
                 >
                   <div className="font-headline font-black text-4xl md:text-5xl text-[#F27D24] mb-2">{stat.val}</div>
-                  <div className="font-mono text-[10px] text-white/40 uppercase tracking-widest">{stat.label}</div>
+                  <div className="font-mono text-[10px] text-black/40 uppercase tracking-widest">{stat.label}</div>
                 </div>
               ))}
             </div>
@@ -204,27 +204,27 @@ export default function RealEstateIndustryPage() {
               EVERY QUERY A CLIENT{' '}
               <span className="text-[#F27D24]">ASKS AI.</span>
             </h2>
-            <p className="text-white/50 text-sm leading-relaxed mb-16 max-w-2xl">
+            <p className="text-black/50 text-sm leading-relaxed mb-16 max-w-2xl">
               We map the specific questions buyers, sellers, and investors ask AI platforms in your market. Then we build the authority surface that positions you as the named answer.
             </p>
 
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-0 border border-white/10">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-0 border border-black/10">
               {QUERY_CLUSTERS.map((q, i) => (
                 <div
                   key={q.num}
                   className={`p-8 bg-[#F4F0E8] hover:bg-[#F4F0E8] transition-colors border-l-4 border-l-[#F27D24] ${
-                    i < 2 ? 'border-b border-white/10' : ''
-                  } ${i % 2 === 0 ? 'md:border-r border-white/10' : ''}`}
+                    i < 2 ? 'border-b border-black/10' : ''
+                  } ${i % 2 === 0 ? 'md:border-r border-black/10' : ''}`}
                 >
                   <div className="flex justify-between items-start mb-6">
-                    <span className="text-5xl font-headline font-black text-white/10">{q.num}</span>
+                    <span className="text-5xl font-headline font-black text-black/10">{q.num}</span>
                     <span className="font-mono text-[10px] text-[#F27D24] tracking-widest uppercase mt-3">
                       {q.tag}
                     </span>
                   </div>
                   <h3 className="font-headline font-bold text-2xl uppercase mb-4 text-[#0A0A0A]">{q.title}</h3>
-                  <p className="text-white/60 text-sm leading-relaxed mb-6">{q.body}</p>
-                  <div className="font-mono text-[10px] text-white/40 tracking-widest uppercase pt-4 border-t border-white/10">
+                  <p className="text-black/60 text-sm leading-relaxed mb-6">{q.body}</p>
+                  <div className="font-mono text-[10px] text-black/40 tracking-widest uppercase pt-4 border-t border-black/10">
                     {q.examples}
                   </div>
                 </div>
@@ -244,16 +244,16 @@ export default function RealEstateIndustryPage() {
               <span className="text-[#F27D24]">OR BROKERAGE.</span>
             </h2>
 
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-0 border border-white/10">
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-0 border border-black/10">
               {WHO_ITS_FOR.map((w, i) => (
                 <div
                   key={w.title}
                   className={`p-10 bg-[#FAF8F2] hover:bg-[#F4F0E8] transition-colors ${
                     i < WHO_ITS_FOR.length - 1 ? 'border-b md:border-b-0 md:border-r' : ''
-                  } border-white/10`}
+                  } border-black/10`}
                 >
                   <h3 className="font-headline font-bold text-2xl uppercase mb-4 text-[#0A0A0A]">{w.title}</h3>
-                  <p className="text-white/60 text-sm leading-relaxed">{w.body}</p>
+                  <p className="text-black/60 text-sm leading-relaxed">{w.body}</p>
                 </div>
               ))}
             </div>
@@ -270,7 +270,7 @@ export default function RealEstateIndustryPage() {
               <h2 className="font-headline font-black text-3xl md:text-4xl uppercase tracking-tighter mb-6 leading-tight">
                 Our real estate site vs. 70,000 LA agents.
               </h2>
-              <p className="text-white/60 text-sm leading-relaxed mb-6 max-w-3xl">
+              <p className="text-black/60 text-sm leading-relaxed mb-6 max-w-3xl">
                 We built the AERO-10 framework on our own real estate site in Los Angeles — the most competitive local market in America. Today it holds 1.14M+ monthly impressions and sits as the recommended agent on ChatGPT, Claude, Perplexity, and Google AI Overviews for rent control, probate, and ADU questions across LA County. We didn&apos;t sell the framework until it proved itself there.
               </p>
               <Link

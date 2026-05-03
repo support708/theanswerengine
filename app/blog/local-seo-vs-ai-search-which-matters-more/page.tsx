@@ -183,9 +183,9 @@ export default function LocalSEOvsAISearch() {
             </nav>
 
             <div className="flex gap-2 mb-8">
-              <div className="w-1.5 h-1.5 bg-white/40" />
+              <div className="w-1.5 h-1.5 bg-black/40" />
               <div className="w-1.5 h-1.5 bg-white/30" />
-              <div className="w-1.5 h-1.5 bg-white/40" />
+              <div className="w-1.5 h-1.5 bg-black/40" />
             </div>
 
             <p className="ae-section-label not-prose">COMPARISONS</p>
@@ -689,7 +689,7 @@ export default function LocalSEOvsAISearch() {
                 <div style={{ display: 'flex', flexDirection: 'column', gap: '12px', alignItems: 'center' }}>
                   <Link href="/blindspot" className="ae-cta-primary">Get Your Free Blind Spot Report</Link>
                   <a href="tel:+12134442229" className="ae-cta-secondary">Call (213) 444-2229</a>
-                  <a href="mailto:justin@theanswerengine.ai" style={{ color: 'rgba(255,255,255,0.5)', fontSize: '0.85rem', textDecoration: 'none' }}>Or email justin@theanswerengine.ai</a>
+                  <a href="mailto:justin@theanswerengine.ai" style={{ color: 'rgba(10,10,10,0.55)', fontSize: '0.85rem', textDecoration: 'none' }}>Or email justin@theanswerengine.ai</a>
                 </div>
               </div>
             </div>

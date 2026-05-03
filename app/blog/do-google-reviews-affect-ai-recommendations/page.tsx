@@ -193,7 +193,7 @@ export default function GoogleReviewsAIRecommendations() {
             </div>
 
             {/* Featured Image */}
-            <div className="mb-8 rounded-xl overflow-hidden border border-white/10">
+            <div className="mb-8 rounded-xl overflow-hidden border border-black/10">
               <img
                 src="/images/google-reviews-ai-recommendations.png"
                 alt="Do Google Reviews Affect AI Recommendations - The Surprising Truth"

@@ -190,7 +190,7 @@ export default function AboutPage() {
           <div className="mb-12">
             <Link
               href="/"
-              className="font-mono text-[10px] tracking-widest uppercase text-white/40 hover:text-[#F27D24] transition-colors inline-flex items-center gap-2"
+              className="font-mono text-[10px] tracking-widest uppercase text-black/40 hover:text-[#F27D24] transition-colors inline-flex items-center gap-2"
             >
               <svg className="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={2}>
                 <path strokeLinecap="round" strokeLinejoin="round" d="M10.5 19.5L3 12m0 0l7.5-7.5M3 12h18" />
@@ -221,13 +221,13 @@ export default function AboutPage() {
           </h1>
 
           <div className="grid md:grid-cols-2 gap-12 items-end">
-            <p className="text-white/60 text-sm leading-relaxed max-w-xl">
+            <p className="text-black/60 text-sm leading-relaxed max-w-xl">
               Justin Borges spent 13+ years and $200M+ in transactions proving what works in the
               real world before he ever wrote the AERO-10 framework. When AI started reshaping how
               customers find businesses, he built the system on his own site first — and took it
               live before calling it a product.
             </p>
-            <div className="flex flex-col gap-2 font-mono text-[10px] tracking-widest text-white/40 md:text-right">
+            <div className="flex flex-col gap-2 font-mono text-[10px] tracking-widest text-black/40 md:text-right">
               <p>Status: Proven // Results-Driven</p>
               <p>FRAMEWORK: AERO-10 // ACTIVE</p>
               <p>TERRITORIES: AVAILABLE</p>
@@ -246,12 +246,12 @@ export default function AboutPage() {
 
           {/* Horizontal rule behind cards */}
           <div className="relative">
-            <div className="hidden md:block absolute top-1/2 left-0 w-full h-px bg-white/10 -translate-y-1/2 z-0" />
+            <div className="hidden md:block absolute top-1/2 left-0 w-full h-px bg-black/10 -translate-y-1/2 z-0" />
             <div className="grid md:grid-cols-4 gap-4 relative z-10">
               {TIMELINE.map((item, i) => (
                 <div
                   key={i}
-                  className={`bg-[#F4F0E8] border border-white/10 border-l-4 border-l-[#F27D24] p-6 flex flex-col gap-4 ${
+                  className={`bg-[#F4F0E8] border border-black/10 border-l-4 border-l-[#F27D24] p-6 flex flex-col gap-4 ${
                     i % 2 === 1 ? 'md:mt-12' : ''
                   }`}
                 >
@@ -261,7 +261,7 @@ export default function AboutPage() {
                   <h3 className="font-headline font-black text-xl uppercase tracking-tighter">
                     {item.headline}
                   </h3>
-                  <p className="text-white/40 text-sm leading-relaxed">{item.body}</p>
+                  <p className="text-black/40 text-sm leading-relaxed">{item.body}</p>
                 </div>
               ))}
             </div>
@@ -276,12 +276,12 @@ export default function AboutPage() {
             THE AERO-10 SCORING{' '}
             <span className="text-[#F27D24]">PROTOCOL</span>
           </h2>
-          <p className="text-white/40 text-sm leading-relaxed mb-16 max-w-2xl">
+          <p className="text-black/40 text-sm leading-relaxed mb-16 max-w-2xl">
             Ten pillars. Every AEO engagement is scored against all ten. No pillar below 80
             ships to production. This is the framework that earned #1 AI citations in LA County.
           </p>
 
-          <div className="grid grid-cols-2 md:grid-cols-5 border border-white/10">
+          <div className="grid grid-cols-2 md:grid-cols-5 border border-black/10">
             {AERO_10_PILLARS.map((pillar) => (
               <div
                 key={pillar.num}
@@ -311,7 +311,7 @@ export default function AboutPage() {
               <h3 className="font-headline font-black text-2xl md:text-3xl uppercase tracking-tighter text-[#0A0A0A] mb-2">
                 See where your business scores on all ten pillars.
               </h3>
-              <p className="text-white/50 text-sm leading-relaxed max-w-lg">
+              <p className="text-black/50 text-sm leading-relaxed max-w-lg">
                 Your scorecard ships with the free Blind Spot Report. No pitch — just the data.
               </p>
             </div>
@@ -338,12 +338,12 @@ export default function AboutPage() {
             <span className="text-[#F27D24]">DOMINATE</span>
           </h2>
 
-          <div className="grid md:grid-cols-3 border border-white/10">
+          <div className="grid md:grid-cols-3 border border-black/10">
             {DIFFERENTIATORS.map((item, i) => (
               <div
                 key={i}
                 className={`p-12 flex flex-col gap-6 ${
-                  i < DIFFERENTIATORS.length - 1 ? 'border-r border-white/10' : ''
+                  i < DIFFERENTIATORS.length - 1 ? 'border-r border-black/10' : ''
                 } border-l-4 border-l-[#F27D24]`}
               >
                 <div className="w-10 h-10 border border-[#F27D24] flex items-center justify-center">
@@ -352,7 +352,7 @@ export default function AboutPage() {
                 <h3 className="font-headline font-black text-2xl uppercase tracking-tighter">
                   {item.tag}
                 </h3>
-                <p className="text-white/60 text-sm leading-relaxed">{item.body}</p>
+                <p className="text-black/60 text-sm leading-relaxed">{item.body}</p>
               </div>
             ))}
           </div>
@@ -370,7 +370,7 @@ export default function AboutPage() {
               <h2 className="font-headline font-black text-5xl uppercase tracking-tighter mb-6 leading-none">
                 JUSTIN<br />BORGES
               </h2>
-              <p className="text-white/60 text-sm leading-relaxed mb-8">
+              <p className="text-black/60 text-sm leading-relaxed mb-8">
                 13+ years in LA real estate. $200M+ closed. 70,000+ competing agents beaten with
                 zero ad spend. The AERO-10 framework is the system Justin built for himself — it
                 earned #1 AI recommendations across every major platform before a single client
@@ -382,19 +382,19 @@ export default function AboutPage() {
                   { val: '$200M+', label: 'TRANSACTIONS' },
                   { val: '100%', label: 'AI Citation Rate' },
                 ].map((stat) => (
-                  <div key={stat.label} className="border border-white/10 p-4 bg-[#F4F0E8]">
+                  <div key={stat.label} className="border border-black/10 p-4 bg-[#F4F0E8]">
                     <div className="font-headline font-black text-2xl text-white mb-1">
                       {stat.val}
                     </div>
-                    <div className="font-mono text-[10px] tracking-widest uppercase text-white/40">
+                    <div className="font-mono text-[10px] tracking-widest uppercase text-black/40">
                       {stat.label}
                     </div>
                   </div>
                 ))}
               </div>
             </div>
-            <div className="border border-white/10 bg-[#F4F0E8] p-10 border-l-4 border-l-[#F27D24]">
-              <span className="font-mono text-[10px] tracking-widest uppercase text-white/40 mb-6 block">
+            <div className="border border-black/10 bg-[#F4F0E8] p-10 border-l-4 border-l-[#F27D24]">
+              <span className="font-mono text-[10px] tracking-widest uppercase text-black/40 mb-6 block">
                 In His Own Words
               </span>
               <blockquote className="text-white/80 text-base leading-relaxed mb-6 italic">
@@ -421,11 +421,11 @@ export default function AboutPage() {
             THE MONTHLY{' '}
             <span className="text-[#F27D24]">PROGRAM</span>
           </h2>
-          <p className="text-white/50 text-sm leading-relaxed mb-16 max-w-2xl">
+          <p className="text-black/50 text-sm leading-relaxed mb-16 max-w-2xl">
             What you receive after the 90-day foundation ships. One email per week. One report per month. Dashboard 24/7.
           </p>
 
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-0 border border-white/10">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-0 border border-black/10">
             {[
               {
                 title: 'THE MONDAY BRIEF',
@@ -443,18 +443,18 @@ export default function AboutPage() {
               <div
                 key={i}
                 className={`p-10 bg-[#F4F0E8] border-l-4 border-l-[#F27D24] hover:bg-[#F4F0E8] transition-colors ${
-                  i < 2 ? 'border-b md:border-b-0 md:border-r border-white/10' : ''
+                  i < 2 ? 'border-b md:border-b-0 md:border-r border-black/10' : ''
                 }`}
               >
                 <h3 className="font-headline font-black text-lg uppercase tracking-tighter mb-4">
                   {item.title}
                 </h3>
-                <p className="text-white/60 text-sm leading-relaxed">{item.body}</p>
+                <p className="text-black/60 text-sm leading-relaxed">{item.body}</p>
               </div>
             ))}
           </div>
 
-          <p className="text-white/40 text-xs mt-6 font-mono tracking-widest uppercase">
+          <p className="text-black/40 text-xs mt-6 font-mono tracking-widest uppercase">
             Cardinal rule: ≤ 1.5 emails/week. Everything else lives in your dashboard.
           </p>
         </div>

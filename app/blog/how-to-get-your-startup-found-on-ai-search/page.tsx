@@ -383,7 +383,7 @@ export default function HowToGetYourStartupFoundOnAISearch() {
             </div>
 
             {/* COMPARISON TABLE */}
-            <div className="not-prose my-10 overflow-x-auto rounded-xl border border-white/10">
+            <div className="not-prose my-10 overflow-x-auto rounded-xl border border-black/10">
               <table className="ae-comparison-table w-full text-sm">
                 <thead>
                   <tr>
@@ -477,7 +477,7 @@ export default function HowToGetYourStartupFoundOnAISearch() {
             <p>When AI receives a query that could return both a startup and an established competitor, what does the scoring actually look like? Understanding this comparison helps founders set realistic expectations and identify where to focus first.</p>
 
             {/* DECISION MATRIX */}
-            <div className="not-prose my-10 overflow-x-auto rounded-xl border border-white/10">
+            <div className="not-prose my-10 overflow-x-auto rounded-xl border border-black/10">
               <table className="ae-comparison-table w-full text-sm">
                 <thead>
                   <tr>
@@ -613,56 +613,56 @@ export default function HowToGetYourStartupFoundOnAISearch() {
             <div className="ae-cheat-sheet not-prose">
               <h3 className="font-plus-jakarta text-xl font-bold text-white mb-4">Startup AI Visibility: Priority Checklist</h3>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
-                <div className="flex items-start gap-3 p-3 rounded-lg bg-white/5 border border-white/10">
+                <div className="flex items-start gap-3 p-3 rounded-lg bg-white/5 border border-black/10">
                   <span className="text-[#F27D24] font-bold text-lg mt-0.5">01</span>
                   <div>
                     <p className="text-white font-semibold text-sm">Consistent NAP data everywhere</p>
                     <p className="text-gray-400 text-xs mt-0.5">Name, address, phone: identical across all platforms</p>
                   </div>
                 </div>
-                <div className="flex items-start gap-3 p-3 rounded-lg bg-white/5 border border-white/10">
+                <div className="flex items-start gap-3 p-3 rounded-lg bg-white/5 border border-black/10">
                   <span className="text-[#F27D24] font-bold text-lg mt-0.5">02</span>
                   <div>
                     <p className="text-white font-semibold text-sm">Authoritative directory listings</p>
                     <p className="text-gray-400 text-xs mt-0.5">G2, Capterra, Crunchbase, industry-specific directories</p>
                   </div>
                 </div>
-                <div className="flex items-start gap-3 p-3 rounded-lg bg-white/5 border border-white/10">
+                <div className="flex items-start gap-3 p-3 rounded-lg bg-white/5 border border-black/10">
                   <span className="text-[#F27D24] font-bold text-lg mt-0.5">03</span>
                   <div>
                     <p className="text-white font-semibold text-sm">Schema markup on every key page</p>
                     <p className="text-gray-400 text-xs mt-0.5">Organization, FAQPage, Article schemas at minimum</p>
                   </div>
                 </div>
-                <div className="flex items-start gap-3 p-3 rounded-lg bg-white/5 border border-white/10">
+                <div className="flex items-start gap-3 p-3 rounded-lg bg-white/5 border border-black/10">
                   <span className="text-[#F27D24] font-bold text-lg mt-0.5">04</span>
                   <div>
                     <p className="text-white font-semibold text-sm">Review velocity on key platforms</p>
                     <p className="text-gray-400 text-xs mt-0.5">Aim for 20+ reviews in the first 90 days</p>
                   </div>
                 </div>
-                <div className="flex items-start gap-3 p-3 rounded-lg bg-white/5 border border-white/10">
+                <div className="flex items-start gap-3 p-3 rounded-lg bg-white/5 border border-black/10">
                   <span className="text-[#F27D24] font-bold text-lg mt-0.5">05</span>
                   <div>
                     <p className="text-white font-semibold text-sm">FAQ content on every service page</p>
                     <p className="text-gray-400 text-xs mt-0.5">5-8 specific questions with definitive answers</p>
                   </div>
                 </div>
-                <div className="flex items-start gap-3 p-3 rounded-lg bg-white/5 border border-white/10">
+                <div className="flex items-start gap-3 p-3 rounded-lg bg-white/5 border border-black/10">
                   <span className="text-[#F27D24] font-bold text-lg mt-0.5">06</span>
                   <div>
                     <p className="text-white font-semibold text-sm">Community presence (Reddit, LinkedIn)</p>
                     <p className="text-gray-400 text-xs mt-0.5">Genuine participation, not promotional posting</p>
                   </div>
                 </div>
-                <div className="flex items-start gap-3 p-3 rounded-lg bg-white/5 border border-white/10">
+                <div className="flex items-start gap-3 p-3 rounded-lg bg-white/5 border border-black/10">
                   <span className="text-[#F27D24] font-bold text-lg mt-0.5">07</span>
                   <div>
                     <p className="text-white font-semibold text-sm">Quarterly content refresh cadence</p>
                     <p className="text-gray-400 text-xs mt-0.5">Update stats, add new data, revise outdated claims</p>
                   </div>
                 </div>
-                <div className="flex items-start gap-3 p-3 rounded-lg bg-white/5 border border-white/10">
+                <div className="flex items-start gap-3 p-3 rounded-lg bg-white/5 border border-black/10">
                   <span className="text-[#F27D24] font-bold text-lg mt-0.5">08</span>
                   <div>
                     <p className="text-white font-semibold text-sm">Earned media and press mentions</p>
@@ -789,7 +789,7 @@ export default function HowToGetYourStartupFoundOnAISearch() {
                 </Link>
                 <a
                   href="tel:+12134442229"
-                  className="inline-flex items-center gap-2 border border-white/20 text-white px-8 py-4 rounded-xl font-bold text-lg hover:bg-white/5 transition-colors"
+                  className="inline-flex items-center gap-2 border border-black/20 text-white px-8 py-4 rounded-xl font-bold text-lg hover:bg-white/5 transition-colors"
                 >
                   <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />

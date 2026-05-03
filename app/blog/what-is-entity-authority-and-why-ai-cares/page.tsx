@@ -591,7 +591,7 @@ export default function Page() {
               a: 'Newer businesses can build meaningful entity authority faster than it might seem. Setting up a complete Google Business Profile, adding schema markup to your website, and claiming consistent directory listings can establish a recognizable entity profile within 60 to 90 days. Building the third-party mention diversity that reinforces that profile takes longer but starts immediately.',
             },
           ].map((item, i) => (
-            <div key={i} className="border border-white/10 rounded-xl p-6 bg-white/[0.02]">
+            <div key={i} className="border border-black/10 rounded-xl p-6 bg-white/[0.02]">
               <h3 className="font-plus-jakarta font-semibold text-white mb-3">{item.q}</h3>
               <p className="text-gray-300 leading-relaxed">{item.a}</p>
             </div>

@@ -140,7 +140,7 @@ export default function BlindSpotPage() {
           />
           <div className="relative max-w-7xl mx-auto">
             <div className="mb-8">
-              <Link href="/" className="font-mono text-[10px] tracking-widest uppercase text-white/40 hover:text-[#F27D24] transition-colors inline-flex items-center gap-2">
+              <Link href="/" className="font-mono text-[10px] tracking-widest uppercase text-black/40 hover:text-[#F27D24] transition-colors inline-flex items-center gap-2">
                 <svg className="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={2}>
                   <path strokeLinecap="round" strokeLinejoin="round" d="M10.5 19.5L3 12m0 0l7.5-7.5M3 12h18" />
                 </svg>
@@ -159,7 +159,7 @@ export default function BlindSpotPage() {
               <span className="text-[#F27D24]">INVISIBLE</span> TO AI?
             </h1>
 
-            <p className="text-white/60 text-lg md:text-xl leading-relaxed max-w-2xl mb-10 border-l-2 border-[#F27D24] pl-6">
+            <p className="text-black/60 text-lg md:text-xl leading-relaxed max-w-2xl mb-10 border-l-2 border-[#F27D24] pl-6">
               A free Blind Spot Report showing exactly how ChatGPT, Claude, Perplexity, and Google AI see your business right now — with the top 3 fixes that move the needle first.
             </p>
 
@@ -177,12 +177,12 @@ export default function BlindSpotPage() {
               </Link>
               <Link
                 href="/#territory-check"
-                className="border-2 border-white/20 text-[#0A0A0A] font-bold px-10 py-5 text-xl tracking-tighter hover:bg-white/5 hover:border-white/30 transition-all font-headline uppercase"
+                className="border-2 border-black/20 text-[#0A0A0A] font-bold px-10 py-5 text-xl tracking-tighter hover:bg-white/5 hover:border-white/30 transition-all font-headline uppercase"
               >
                 Check Territory
               </Link>
             </div>
-            <p className="mt-6 font-mono text-xs text-white/40 tracking-widest uppercase">
+            <p className="mt-6 font-mono text-xs text-black/40 tracking-widest uppercase">
               No pitch, just the data // 30 minutes
             </p>
           </div>
@@ -199,7 +199,7 @@ export default function BlindSpotPage() {
               <span className="text-[#F27D24]">DISCOVER</span>
             </h2>
 
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-0 border border-white/10">
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-0 border border-black/10">
               {[
                 {
                   num: '01',
@@ -219,13 +219,13 @@ export default function BlindSpotPage() {
               ].map((c, i, arr) => (
                 <div
                   key={c.num}
-                  className={`p-10 bg-[#FAF8F2] border-l-4 border-l-[#F27D24] ${i < arr.length - 1 ? 'border-b md:border-b-0 md:border-r' : ''} border-white/10 hover:bg-[#F4F0E8] transition-colors`}
+                  className={`p-10 bg-[#FAF8F2] border-l-4 border-l-[#F27D24] ${i < arr.length - 1 ? 'border-b md:border-b-0 md:border-r' : ''} border-black/10 hover:bg-[#F4F0E8] transition-colors`}
                 >
                   <div className="w-10 h-10 border border-[#F27D24]/40 flex items-center justify-center mb-6">
                     <span className="font-mono text-[10px] text-[#F27D24]">{c.num}</span>
                   </div>
                   <h3 className="font-headline font-black text-2xl uppercase tracking-tighter mb-4 text-[#0A0A0A]">{c.title}</h3>
-                  <p className="text-white/60 text-sm leading-relaxed">{c.body}</p>
+                  <p className="text-black/60 text-sm leading-relaxed">{c.body}</p>
                 </div>
               ))}
             </div>
@@ -235,7 +235,7 @@ export default function BlindSpotPage() {
         {/* TRUST SIGNALS */}
         <section className="py-16 px-6 lg:px-24 bg-[#FAF8F2] border-y border-white/5">
           <div className="max-w-7xl mx-auto">
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-0 border border-white/10">
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-0 border border-black/10">
               {[
                 { val: '1.14M+', label: 'Monthly Impressions (Our Site)' },
                 { val: '4 / 4', label: 'Major AI Platforms Citing Us' },
@@ -243,10 +243,10 @@ export default function BlindSpotPage() {
               ].map((stat, i, arr) => (
                 <div
                   key={stat.label}
-                  className={`p-8 bg-[#F4F0E8] ${i < arr.length - 1 ? 'border-b md:border-b-0 md:border-r' : ''} border-white/10`}
+                  className={`p-8 bg-[#F4F0E8] ${i < arr.length - 1 ? 'border-b md:border-b-0 md:border-r' : ''} border-black/10`}
                 >
                   <div className="font-headline font-black text-4xl md:text-5xl text-[#F27D24] mb-2">{stat.val}</div>
-                  <div className="font-mono text-[10px] text-white/40 uppercase tracking-widest">{stat.label}</div>
+                  <div className="font-mono text-[10px] text-black/40 uppercase tracking-widest">{stat.label}</div>
                 </div>
               ))}
             </div>
@@ -301,17 +301,17 @@ export default function BlindSpotPage() {
               {faqs.map((faq, index) => (
                 <details
                   key={index}
-                  className="group bg-[#F4F0E8] border border-white/10 border-l-4 border-l-transparent open:border-l-[#F27D24] transition-colors"
+                  className="group bg-[#F4F0E8] border border-black/10 border-l-4 border-l-transparent open:border-l-[#F27D24] transition-colors"
                 >
                   <summary className="px-6 py-5 flex justify-between items-center cursor-pointer list-none [&::-webkit-details-marker]:hidden">
                     <h4 className="font-headline font-bold text-base md:text-lg uppercase tracking-tighter text-white group-open:text-[#F27D24] transition-colors">
                       {faq.question}
                     </h4>
-                    <span className="font-mono text-white/40 text-xl select-none ml-4 group-open:rotate-45 transition-transform">
+                    <span className="font-mono text-black/40 text-xl select-none ml-4 group-open:rotate-45 transition-transform">
                       +
                     </span>
                   </summary>
-                  <div className="px-6 pb-6 text-white/60 text-sm leading-relaxed">
+                  <div className="px-6 pb-6 text-black/60 text-sm leading-relaxed">
                     {faq.answer}
                   </div>
                 </details>

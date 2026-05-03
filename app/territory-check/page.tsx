@@ -149,7 +149,7 @@ export default function TerritoryCheckPage() {
               AVAILABLE
             </h1>
 
-            <p className="text-lg md:text-xl text-white/60 max-w-3xl mx-auto mb-12">
+            <p className="text-lg md:text-xl text-black/60 max-w-3xl mx-auto mb-12">
               One business per category. Per city. Once claimed, your competitors
               are{' '}
               <span className="text-white font-bold">permanently locked out.</span>
@@ -169,14 +169,14 @@ export default function TerritoryCheckPage() {
                   <div className="text-left">
                     <label
                       htmlFor="industry"
-                      className="block font-mono text-[10px] text-white/40 mb-2 uppercase tracking-widest"
+                      className="block font-mono text-[10px] text-black/40 mb-2 uppercase tracking-widest"
                     >
                       Your Industry
                     </label>
                     <select
                       id="industry"
                       name="industry"
-                      className="w-full bg-[#0A0A0A] border border-white/10 text-white p-4 focus:outline-none focus:border-[#F27D24] transition-all cursor-pointer font-mono text-sm"
+                      className="w-full bg-[#0A0A0A] border border-black/10 text-white p-4 focus:outline-none focus:border-[#F27D24] transition-all cursor-pointer font-mono text-sm"
                     >
                       {INDUSTRIES.map((ind) => (
                         <option key={ind}>{ind}</option>
@@ -186,7 +186,7 @@ export default function TerritoryCheckPage() {
                   <div className="text-left">
                     <label
                       htmlFor="city"
-                      className="block font-mono text-[10px] text-white/40 mb-2 uppercase tracking-widest"
+                      className="block font-mono text-[10px] text-black/40 mb-2 uppercase tracking-widest"
                     >
                       Your City
                     </label>
@@ -195,7 +195,7 @@ export default function TerritoryCheckPage() {
                       name="city"
                       type="text"
                       placeholder="e.g. Austin, TX"
-                      className="w-full bg-[#0A0A0A] border border-white/10 text-white p-4 focus:outline-none focus:border-[#F27D24] transition-all font-mono text-sm placeholder:text-white/20"
+                      className="w-full bg-[#0A0A0A] border border-black/10 text-white p-4 focus:outline-none focus:border-[#F27D24] transition-all font-mono text-sm placeholder:text-black/20"
                     />
                   </div>
                 </div>
@@ -222,13 +222,13 @@ export default function TerritoryCheckPage() {
         </section>
 
         {/* ── TERRITORY GRID ───────────────────────────────────────────────── */}
-        <section className="bg-[#F4F0E8] py-24 px-6 border-y border-white/10">
+        <section className="bg-[#F4F0E8] py-24 px-6 border-y border-black/10">
           <div className="max-w-7xl mx-auto">
             <div className="flex items-center justify-between mb-12">
               <h2 className="font-headline font-black text-3xl uppercase tracking-tighter">
                 ACTIVE TERRITORY MAP
               </h2>
-              <div className="flex gap-6 font-mono text-[10px] tracking-widest text-white/40">
+              <div className="flex gap-6 font-mono text-[10px] tracking-widest text-black/40">
                 <span className="flex items-center gap-2">
                   <span
                     className="w-2 h-2 bg-[#F27D24]"
@@ -237,13 +237,13 @@ export default function TerritoryCheckPage() {
                   AVAILABLE
                 </span>
                 <span className="flex items-center gap-2">
-                  <span className="w-2 h-2 bg-white/20" />
+                  <span className="w-2 h-2 bg-black/20" />
                   Claimed
                 </span>
               </div>
             </div>
 
-            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-[1px] bg-white/10 border border-white/10">
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-[1px] bg-black/10 border border-black/10">
               {TERRITORIES.map((t) =>
                 t.status === 'secured' ? (
                   <div
@@ -251,20 +251,20 @@ export default function TerritoryCheckPage() {
                     className="bg-[#F4F0E8] p-6 opacity-40 grayscale"
                   >
                     <div className="flex justify-between items-start mb-4">
-                      <span className="font-mono text-[10px] font-bold text-white/40">
+                      <span className="font-mono text-[10px] font-bold text-black/40">
                         {t.id}
                       </span>
-                      <span className="text-white/40 text-sm font-mono">
+                      <span className="text-black/40 text-sm font-mono">
                         Claimed
                       </span>
                     </div>
                     <h3 className="font-headline font-black text-xl mb-1 uppercase tracking-tighter">
                       {t.city}
                     </h3>
-                    <p className="text-[10px] text-white/40 mb-6 uppercase tracking-wider">
+                    <p className="text-[10px] text-black/40 mb-6 uppercase tracking-wider">
                       {t.category}
                     </p>
-                    <div className="bg-white/10 text-[10px] py-1 text-center font-mono font-bold tracking-widest text-white/40 uppercase">
+                    <div className="bg-black/10 text-[10px] py-1 text-center font-mono font-bold tracking-widest text-black/40 uppercase">
                       Claimed
                     </div>
                   </div>
@@ -288,7 +288,7 @@ export default function TerritoryCheckPage() {
                     <h3 className="font-headline font-black text-xl mb-1 uppercase tracking-tighter relative z-10">
                       {t.city}
                     </h3>
-                    <p className="text-[10px] text-white/60 mb-6 uppercase tracking-wider relative z-10">
+                    <p className="text-[10px] text-black/60 mb-6 uppercase tracking-wider relative z-10">
                       {t.category}
                     </p>
                     <div className="bg-[#F27D24] text-black text-[10px] py-1 text-center font-mono font-bold tracking-widest relative z-10 uppercase">

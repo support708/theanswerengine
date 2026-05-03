@@ -534,11 +534,11 @@ export default function Page() {
         <section className="mt-12">
           <h3 className="font-plus-jakarta text-xl font-bold text-white mb-4">Related Reading</h3>
           <div className="grid gap-4 md:grid-cols-2">
-            <Link href="/blog/why-ai-recommends-my-competitor-over-me" className="block p-4 rounded-xl border border-white/10 bg-white/5 hover:border-[#F27D24]/30 transition-colors">
+            <Link href="/blog/why-ai-recommends-my-competitor-over-me" className="block p-4 rounded-xl border border-black/10 bg-white/5 hover:border-[#F27D24]/30 transition-colors">
               <p className="text-sm text-[#F27D24] mb-1">Business Pain Points</p>
               <p className="text-white font-medium">Why AI Recommends My Competitor Over Me</p>
             </Link>
-            <Link href="/blog/what-your-website-looks-like-to-an-ai-crawler" className="block p-4 rounded-xl border border-white/10 bg-white/5 hover:border-[#F27D24]/30 transition-colors">
+            <Link href="/blog/what-your-website-looks-like-to-an-ai-crawler" className="block p-4 rounded-xl border border-black/10 bg-white/5 hover:border-[#F27D24]/30 transition-colors">
               <p className="text-sm text-[#F27D24] mb-1">AEO Education</p>
               <p className="text-white font-medium">What Your Website Looks Like to an AI Crawler</p>
             </Link>
@@ -615,7 +615,7 @@ export default function Page() {
                 a: 'The most direct way is an AI Blind Spot audit that compares your digital footprint against what AI systems are drawing on in your category. This shows you the specific gaps, whether in website content, directory consistency, structured data, or third-party mentions, that are creating your competitor\'s AI advantage.'
               },
             ].map((item, i) => (
-              <div key={i} className="border border-white/10 rounded-xl p-6 bg-white/5">
+              <div key={i} className="border border-black/10 rounded-xl p-6 bg-white/5">
                 <h3 className="font-plus-jakarta font-semibold text-white mb-3">{item.q}</h3>
                 <p className="text-gray-300 leading-relaxed">{item.a}</p>
               </div>

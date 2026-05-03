@@ -238,7 +238,7 @@ export default function Page() {
           <p className="text-gray-400 text-lg leading-relaxed max-w-2xl mb-8">
             YouTube AI features now cite businesses 200x more than any other video platform. Most businesses have no idea the algorithm is already making decisions about them.
           </p>
-          <div className="flex items-center gap-4 text-sm text-gray-500 border-t border-white/10 pt-6">
+          <div className="flex items-center gap-4 text-sm text-gray-500 border-t border-black/10 pt-6">
             <span>By <strong className="text-gray-300">Justin Borges</strong></span>
             <span>·</span>
             <span>14 min read</span>

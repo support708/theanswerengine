@@ -358,7 +358,7 @@ export default function Page() {
             <p>The 4 R&apos;s framework matters because it gives law firms a diagnostic tool. If your firm is not appearing in AI recommendations, you can usually trace it back to a specific weakness in one of these four areas rather than needing a complete rebuild of your marketing strategy.</p>
 
             {/* INLINE CTA */}
-            <div className="not-prose my-10 p-6 rounded-xl border border-white/10 bg-white/5">
+            <div className="not-prose my-10 p-6 rounded-xl border border-black/10 bg-white/5">
               <p className="text-sm text-gray-400 mb-3">Want to know exactly which of the 4 R&apos;s your firm is missing? We map that out in every Blind Spot Report.</p>
               <Link href="/blindspot" className="text-[#F27D24] font-semibold text-sm hover:underline inline-flex items-center gap-1">
                 Get your free analysis
@@ -383,7 +383,7 @@ export default function Page() {
                   <span className="text-white font-medium">Verified bar admission + JD credentials</span>
                   <span className="text-[#F27D24] font-bold">95</span>
                 </div>
-                <div className="h-2.5 bg-white/10 rounded-full overflow-hidden">
+                <div className="h-2.5 bg-black/10 rounded-full overflow-hidden">
                   <div className="h-full bg-gradient-to-r from-[#F27D24] to-orange-400 rounded-full" style={{ width: '95%' }} />
                 </div>
               </div>
@@ -393,7 +393,7 @@ export default function Page() {
                   <span className="text-white font-medium">Directory completeness (Avvo, Martindale, FindLaw)</span>
                   <span className="text-[#F27D24] font-bold">88</span>
                 </div>
-                <div className="h-2.5 bg-white/10 rounded-full overflow-hidden">
+                <div className="h-2.5 bg-black/10 rounded-full overflow-hidden">
                   <div className="h-full bg-gradient-to-r from-[#F27D24] to-orange-400 rounded-full" style={{ width: '88%' }} />
                 </div>
               </div>
@@ -403,7 +403,7 @@ export default function Page() {
                   <span className="text-white font-medium">Case results with specific outcomes</span>
                   <span className="text-[#F27D24] font-bold">82</span>
                 </div>
-                <div className="h-2.5 bg-white/10 rounded-full overflow-hidden">
+                <div className="h-2.5 bg-black/10 rounded-full overflow-hidden">
                   <div className="h-full bg-gradient-to-r from-[#F27D24] to-orange-400 rounded-full" style={{ width: '82%' }} />
                 </div>
               </div>
@@ -413,7 +413,7 @@ export default function Page() {
                   <span className="text-white font-medium">Client reviews on Avvo and Google</span>
                   <span className="text-[#F27D24] font-bold">79</span>
                 </div>
-                <div className="h-2.5 bg-white/10 rounded-full overflow-hidden">
+                <div className="h-2.5 bg-black/10 rounded-full overflow-hidden">
                   <div className="h-full bg-gradient-to-r from-[#F27D24] to-orange-400 rounded-full" style={{ width: '79%' }} />
                 </div>
               </div>
@@ -423,7 +423,7 @@ export default function Page() {
                   <span className="text-white font-medium">Third-party recognition (Super Lawyers, Best Lawyers)</span>
                   <span className="text-[#F27D24] font-bold">74</span>
                 </div>
-                <div className="h-2.5 bg-white/10 rounded-full overflow-hidden">
+                <div className="h-2.5 bg-black/10 rounded-full overflow-hidden">
                   <div className="h-full bg-gradient-to-r from-[#F27D24] to-orange-400 rounded-full" style={{ width: '74%' }} />
                 </div>
               </div>
@@ -433,7 +433,7 @@ export default function Page() {
                   <span className="text-white font-medium">Published articles or media mentions</span>
                   <span className="text-[#F27D24] font-bold">68</span>
                 </div>
-                <div className="h-2.5 bg-white/10 rounded-full overflow-hidden">
+                <div className="h-2.5 bg-black/10 rounded-full overflow-hidden">
                   <div className="h-full bg-gradient-to-r from-[#F27D24] to-orange-400 rounded-full" style={{ width: '68%' }} />
                 </div>
               </div>
@@ -443,7 +443,7 @@ export default function Page() {
                   <span className="text-white font-medium">Website LegalService schema markup</span>
                   <span className="text-[#F27D24] font-bold">61</span>
                 </div>
-                <div className="h-2.5 bg-white/10 rounded-full overflow-hidden">
+                <div className="h-2.5 bg-black/10 rounded-full overflow-hidden">
                   <div className="h-full bg-gradient-to-r from-[#F27D24] to-orange-400 rounded-full" style={{ width: '61%' }} />
                 </div>
               </div>
@@ -453,7 +453,7 @@ export default function Page() {
                   <span className="text-white font-medium">Google Business Profile completeness</span>
                   <span className="text-[#F27D24] font-bold">55</span>
                 </div>
-                <div className="h-2.5 bg-white/10 rounded-full overflow-hidden">
+                <div className="h-2.5 bg-black/10 rounded-full overflow-hidden">
                   <div className="h-full bg-gradient-to-r from-[#F27D24] to-orange-400 rounded-full" style={{ width: '55%' }} />
                 </div>
               </div>
@@ -472,10 +472,10 @@ export default function Page() {
             <p>One of the most useful exercises for any law firm is to look at your online presence from an AI system&apos;s perspective. Here is a direct comparison of what a typical law firm website provides versus what a well-built legal directory profile provides:</p>
 
             {/* COMPARISON TABLE */}
-            <div className="not-prose my-8 overflow-x-auto rounded-xl border border-white/10">
+            <div className="not-prose my-8 overflow-x-auto rounded-xl border border-black/10">
               <table className="w-full text-sm">
                 <thead>
-                  <tr className="border-b border-white/10 bg-white/5">
+                  <tr className="border-b border-black/10 bg-white/5">
                     <th className="text-left p-4 text-gray-400 font-medium">Signal Type</th>
                     <th className="text-center p-4 text-gray-400 font-medium">Law Firm Website</th>
                     <th className="text-center p-4 text-[#F27D24] font-medium">Legal Directories</th>
@@ -660,10 +660,10 @@ export default function Page() {
             <p>Use this matrix to get a quick read on where your firm stands across the key dimensions of AI visibility:</p>
 
             {/* DECISION MATRIX */}
-            <div className="not-prose my-8 overflow-x-auto rounded-xl border border-white/10">
+            <div className="not-prose my-8 overflow-x-auto rounded-xl border border-black/10">
               <table className="w-full text-sm">
                 <thead>
-                  <tr className="border-b border-white/10 bg-white/5">
+                  <tr className="border-b border-black/10 bg-white/5">
                     <th className="text-left p-4 text-gray-400 font-medium">Check</th>
                     <th className="text-center p-4 text-green-400 font-medium">Strong</th>
                     <th className="text-center p-4 text-yellow-400 font-medium">Weak</th>
@@ -780,7 +780,7 @@ export default function Page() {
             {/* CHEAT SHEET */}
             <div className="not-prose my-8 space-y-5">
 
-              <div className="p-5 rounded-xl border border-white/10 bg-white/[0.02]">
+              <div className="p-5 rounded-xl border border-black/10 bg-white/[0.02]">
                 <div className="flex items-center gap-3 mb-4">
                   <div className="w-8 h-8 rounded-full bg-[#F27D24]/20 flex items-center justify-center text-[#F27D24] font-bold text-xs">R1</div>
                   <span className="font-plus-jakarta font-bold text-white text-base">Ratings Checklist</span>
@@ -800,7 +800,7 @@ export default function Page() {
                 </div>
               </div>
 
-              <div className="p-5 rounded-xl border border-white/10 bg-white/[0.02]">
+              <div className="p-5 rounded-xl border border-black/10 bg-white/[0.02]">
                 <div className="flex items-center gap-3 mb-4">
                   <div className="w-8 h-8 rounded-full bg-[#F27D24]/20 flex items-center justify-center text-[#F27D24] font-bold text-xs">R2</div>
                   <span className="font-plus-jakarta font-bold text-white text-base">Reviews Checklist</span>
@@ -821,7 +821,7 @@ export default function Page() {
                 </div>
               </div>
 
-              <div className="p-5 rounded-xl border border-white/10 bg-white/[0.02]">
+              <div className="p-5 rounded-xl border border-black/10 bg-white/[0.02]">
                 <div className="flex items-center gap-3 mb-4">
                   <div className="w-8 h-8 rounded-full bg-[#F27D24]/20 flex items-center justify-center text-[#F27D24] font-bold text-xs">R3</div>
                   <span className="font-plus-jakarta font-bold text-white text-base">Recognitions Checklist</span>
@@ -842,7 +842,7 @@ export default function Page() {
                 </div>
               </div>
 
-              <div className="p-5 rounded-xl border border-white/10 bg-white/[0.02]">
+              <div className="p-5 rounded-xl border border-black/10 bg-white/[0.02]">
                 <div className="flex items-center gap-3 mb-4">
                   <div className="w-8 h-8 rounded-full bg-[#F27D24]/20 flex items-center justify-center text-[#F27D24] font-bold text-xs">R4</div>
                   <span className="font-plus-jakarta font-bold text-white text-base">Roots Checklist</span>
@@ -944,7 +944,7 @@ export default function Page() {
                   a: 'Most firms start seeing measurable improvement within 60 to 90 days of implementing a structured AEO strategy. Directory completeness and schema markup tend to produce the fastest results because AI crawlers can immediately parse new structured signals. Content-based improvements, particularly building topical authority around specific practice areas, typically take 90 to 180 days to show full effect.',
                 },
               ].map((item) => (
-                <details key={item.q} className="group border border-white/10 rounded-xl overflow-hidden">
+                <details key={item.q} className="group border border-black/10 rounded-xl overflow-hidden">
                   <summary className="flex items-center justify-between p-5 cursor-pointer list-none bg-white/[0.02] hover:bg-white/[0.04] transition-colors">
                     <span className="font-plus-jakarta font-semibold text-white pr-4">{item.q}</span>
                     <svg className="w-5 h-5 text-[#F27D24] flex-shrink-0 transition-transform group-open:rotate-180" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={2}>
@@ -959,18 +959,18 @@ export default function Page() {
             </div>
 
             {/* RELATED ARTICLES */}
-            <div className="not-prose mt-12 pt-8 border-t border-white/10">
+            <div className="not-prose mt-12 pt-8 border-t border-black/10">
               <h3 className="font-plus-jakarta text-lg font-bold text-white mb-4">Related Reading</h3>
               <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
-                <Link href="/blog/does-schema-markup-help-ai-search" className="p-4 rounded-xl border border-white/10 bg-white/[0.02] hover:border-[#F27D24]/30 hover:bg-[#F27D24]/5 transition-all group">
+                <Link href="/blog/does-schema-markup-help-ai-search" className="p-4 rounded-xl border border-black/10 bg-white/[0.02] hover:border-[#F27D24]/30 hover:bg-[#F27D24]/5 transition-all group">
                   <div className="text-xs text-[#F27D24] mb-2 font-medium uppercase tracking-wide">Schema</div>
                   <div className="text-sm text-white font-medium group-hover:text-[#F27D24] transition-colors leading-snug">Does Schema Markup Help AI Search?</div>
                 </Link>
-                <Link href="/blog/why-ai-recommends-businesses-with-worse-reviews" className="p-4 rounded-xl border border-white/10 bg-white/[0.02] hover:border-[#F27D24]/30 hover:bg-[#F27D24]/5 transition-all group">
+                <Link href="/blog/why-ai-recommends-businesses-with-worse-reviews" className="p-4 rounded-xl border border-black/10 bg-white/[0.02] hover:border-[#F27D24]/30 hover:bg-[#F27D24]/5 transition-all group">
                   <div className="text-xs text-[#F27D24] mb-2 font-medium uppercase tracking-wide">AI Behavior</div>
                   <div className="text-sm text-white font-medium group-hover:text-[#F27D24] transition-colors leading-snug">Why AI Recommends Businesses With Worse Reviews</div>
                 </Link>
-                <Link href="/blog/what-your-website-looks-like-to-an-ai-crawler" className="p-4 rounded-xl border border-white/10 bg-white/[0.02] hover:border-[#F27D24]/30 hover:bg-[#F27D24]/5 transition-all group">
+                <Link href="/blog/what-your-website-looks-like-to-an-ai-crawler" className="p-4 rounded-xl border border-black/10 bg-white/[0.02] hover:border-[#F27D24]/30 hover:bg-[#F27D24]/5 transition-all group">
                   <div className="text-xs text-[#F27D24] mb-2 font-medium uppercase tracking-wide">Crawling</div>
                   <div className="text-sm text-white font-medium group-hover:text-[#F27D24] transition-colors leading-snug">What Your Website Looks Like to an AI Crawler</div>
                 </Link>

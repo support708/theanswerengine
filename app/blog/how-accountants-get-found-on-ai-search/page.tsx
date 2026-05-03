@@ -559,7 +559,7 @@ export default function HowAccountantsGetFoundOnAISearch() {
             </p>
 
             <div className="not-prose my-10 grid grid-cols-1 sm:grid-cols-2 gap-4">
-              <div className="p-5 rounded-xl bg-white/5 border border-white/10">
+              <div className="p-5 rounded-xl bg-white/5 border border-black/10">
                 <div className="flex items-center gap-3 mb-3">
                   <span className="ae-tier-badge ae-tier-premium">Tier 1</span>
                   <span className="font-semibold text-white">QuickBooks ProAdvisor</span>
@@ -571,7 +571,7 @@ export default function HowAccountantsGetFoundOnAISearch() {
                   business accounting queries.
                 </p>
               </div>
-              <div className="p-5 rounded-xl bg-white/5 border border-white/10">
+              <div className="p-5 rounded-xl bg-white/5 border border-black/10">
                 <div className="flex items-center gap-3 mb-3">
                   <span className="ae-tier-badge ae-tier-premium">Tier 1</span>
                   <span className="font-semibold text-white">AICPA Find-a-CPA</span>
@@ -583,7 +583,7 @@ export default function HowAccountantsGetFoundOnAISearch() {
                   association listing for attorneys.
                 </p>
               </div>
-              <div className="p-5 rounded-xl bg-white/5 border border-white/10">
+              <div className="p-5 rounded-xl bg-white/5 border border-black/10">
                 <div className="flex items-center gap-3 mb-3">
                   <span className="ae-tier-badge ae-tier-high">Tier 2</span>
                   <span className="font-semibold text-white">Better Business Bureau</span>
@@ -595,7 +595,7 @@ export default function HowAccountantsGetFoundOnAISearch() {
                   recommending accountants.
                 </p>
               </div>
-              <div className="p-5 rounded-xl bg-white/5 border border-white/10">
+              <div className="p-5 rounded-xl bg-white/5 border border-black/10">
                 <div className="flex items-center gap-3 mb-3">
                   <span className="ae-tier-badge ae-tier-high">Tier 2</span>
                   <span className="font-semibold text-white">NAPFA (Fee-Only Planners)</span>
@@ -686,13 +686,13 @@ export default function HowAccountantsGetFoundOnAISearch() {
               <table className="w-full text-sm">
                 <thead>
                   <tr>
-                    <th className="text-left p-3 text-gray-400 font-semibold border-b border-white/10">
+                    <th className="text-left p-3 text-gray-400 font-semibold border-b border-black/10">
                       Common NAP Problem
                     </th>
-                    <th className="text-left p-3 text-gray-400 font-semibold border-b border-white/10">
+                    <th className="text-left p-3 text-gray-400 font-semibold border-b border-black/10">
                       AI Impact
                     </th>
-                    <th className="text-left p-3 text-gray-400 font-semibold border-b border-white/10">
+                    <th className="text-left p-3 text-gray-400 font-semibold border-b border-black/10">
                       Fix
                     </th>
                   </tr>
@@ -989,13 +989,13 @@ export default function HowAccountantsGetFoundOnAISearch() {
               <table className="w-full text-sm">
                 <thead>
                   <tr>
-                    <th className="text-left p-3 text-gray-400 font-semibold border-b border-white/10">
+                    <th className="text-left p-3 text-gray-400 font-semibold border-b border-black/10">
                       Factor
                     </th>
-                    <th className="text-left p-3 text-gray-400 font-semibold border-b border-white/10">
+                    <th className="text-left p-3 text-gray-400 font-semibold border-b border-black/10">
                       Traditional SEO
                     </th>
-                    <th className="text-left p-3 text-gray-400 font-semibold border-b border-white/10">
+                    <th className="text-left p-3 text-gray-400 font-semibold border-b border-black/10">
                       AI Visibility
                     </th>
                   </tr>
@@ -1292,7 +1292,7 @@ export default function HowAccountantsGetFoundOnAISearch() {
               ].map((item) => (
                 <div
                   key={item.q}
-                  className="border border-white/10 rounded-xl p-6 bg-white/[0.02]"
+                  className="border border-black/10 rounded-xl p-6 bg-white/[0.02]"
                 >
                   <h3 className="font-plus-jakarta font-semibold text-white mb-3">
                     {item.q}
@@ -1303,14 +1303,14 @@ export default function HowAccountantsGetFoundOnAISearch() {
             </div>
 
             {/* RELATED ARTICLES */}
-            <div className="not-prose mt-16 pt-10 border-t border-white/10">
+            <div className="not-prose mt-16 pt-10 border-t border-black/10">
               <h3 className="font-plus-jakarta text-xl font-bold text-white mb-6">
                 Related Guides
               </h3>
               <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
                 <Link
                   href="/blog/how-dentists-get-found-on-ai-search"
-                  className="group p-4 rounded-xl bg-white/5 border border-white/10 hover:border-[#F27D24]/30 transition-colors"
+                  className="group p-4 rounded-xl bg-white/5 border border-black/10 hover:border-[#F27D24]/30 transition-colors"
                 >
                   <div className="text-xs text-[#F27D24] font-semibold uppercase tracking-wide mb-2">
                     Industry Guide
@@ -1321,7 +1321,7 @@ export default function HowAccountantsGetFoundOnAISearch() {
                 </Link>
                 <Link
                   href="/blog/does-schema-markup-help-ai-search"
-                  className="group p-4 rounded-xl bg-white/5 border border-white/10 hover:border-[#F27D24]/30 transition-colors"
+                  className="group p-4 rounded-xl bg-white/5 border border-black/10 hover:border-[#F27D24]/30 transition-colors"
                 >
                   <div className="text-xs text-[#F27D24] font-semibold uppercase tracking-wide mb-2">
                     Technical
@@ -1332,7 +1332,7 @@ export default function HowAccountantsGetFoundOnAISearch() {
                 </Link>
                 <Link
                   href="/blog/how-to-optimize-your-google-business-profile-for-ai"
-                  className="group p-4 rounded-xl bg-white/5 border border-white/10 hover:border-[#F27D24]/30 transition-colors"
+                  className="group p-4 rounded-xl bg-white/5 border border-black/10 hover:border-[#F27D24]/30 transition-colors"
                 >
                   <div className="text-xs text-[#F27D24] font-semibold uppercase tracking-wide mb-2">
                     Google

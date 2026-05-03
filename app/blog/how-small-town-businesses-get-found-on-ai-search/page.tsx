@@ -412,7 +412,7 @@ export default function Page() {
           </p>
 
           {/* Bar chart: Competition density */}
-          <div className="not-prose my-8 p-6 rounded-xl bg-white/5 border border-white/10">
+          <div className="not-prose my-8 p-6 rounded-xl bg-white/5 border border-black/10">
             <h3 className="font-plus-jakarta text-lg font-semibold text-white mb-6">
               Businesses Competing for AI Citations by Market Size
             </h3>
@@ -1005,7 +1005,7 @@ export default function Page() {
             {faqItems.map((item, i) => (
               <div
                 key={i}
-                className="p-6 rounded-xl bg-white/5 border border-white/10 hover:border-[#F27D24]/30 transition-colors"
+                className="p-6 rounded-xl bg-white/5 border border-black/10 hover:border-[#F27D24]/30 transition-colors"
               >
                 <h3 className="font-plus-jakarta text-lg font-semibold text-white mb-3">
                   {item.name}
@@ -1024,7 +1024,7 @@ export default function Page() {
           <div className="grid md:grid-cols-2 gap-4">
             <Link
               href="/blog/why-ai-recommends-businesses-in-other-cities"
-              className="p-5 rounded-xl bg-white/5 border border-white/10 hover:border-[#F27D24]/30 transition-colors group"
+              className="p-5 rounded-xl bg-white/5 border border-black/10 hover:border-[#F27D24]/30 transition-colors group"
             >
               <span className="ae-section-label mb-2 inline-block">AI Behavior</span>
               <h3 className="font-plus-jakarta font-semibold text-white group-hover:text-[#F27D24] transition-colors leading-snug">
@@ -1033,7 +1033,7 @@ export default function Page() {
             </Link>
             <Link
               href="/blog/why-ai-recommends-you-in-one-city-not-another"
-              className="p-5 rounded-xl bg-white/5 border border-white/10 hover:border-[#F27D24]/30 transition-colors group"
+              className="p-5 rounded-xl bg-white/5 border border-black/10 hover:border-[#F27D24]/30 transition-colors group"
             >
               <span className="ae-section-label mb-2 inline-block">AI Behavior</span>
               <h3 className="font-plus-jakarta font-semibold text-white group-hover:text-[#F27D24] transition-colors leading-snug">
@@ -1042,7 +1042,7 @@ export default function Page() {
             </Link>
             <Link
               href="/blog/how-to-get-found-on-ai-for-near-me-searches"
-              className="p-5 rounded-xl bg-white/5 border border-white/10 hover:border-[#F27D24]/30 transition-colors group"
+              className="p-5 rounded-xl bg-white/5 border border-black/10 hover:border-[#F27D24]/30 transition-colors group"
             >
               <span className="ae-section-label mb-2 inline-block">How-To</span>
               <h3 className="font-plus-jakarta font-semibold text-white group-hover:text-[#F27D24] transition-colors leading-snug">
@@ -1051,7 +1051,7 @@ export default function Page() {
             </Link>
             <Link
               href="/blog/directory-listings-that-help-ai-find-business"
-              className="p-5 rounded-xl bg-white/5 border border-white/10 hover:border-[#F27D24]/30 transition-colors group"
+              className="p-5 rounded-xl bg-white/5 border border-black/10 hover:border-[#F27D24]/30 transition-colors group"
             >
               <span className="ae-section-label mb-2 inline-block">How-To</span>
               <h3 className="font-plus-jakarta font-semibold text-white group-hover:text-[#F27D24] transition-colors leading-snug">
@@ -1099,7 +1099,7 @@ export default function Page() {
             </Link>
             <a
               href="tel:+12134442229"
-              className="inline-flex items-center gap-2 border border-white/20 text-white px-8 py-4 rounded-lg font-semibold text-lg hover:border-white/40 transition-colors"
+              className="inline-flex items-center gap-2 border border-black/20 text-white px-8 py-4 rounded-lg font-semibold text-lg hover:border-black/40 transition-colors"
             >
               Call (213) 444-2229
             </a>

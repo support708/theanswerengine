@@ -489,27 +489,27 @@ export default function HowContractorsWinAISearch() {
 
             {/* MISTAKE GRID */}
             <div className="not-prose grid grid-cols-1 md:grid-cols-2 gap-4 my-8">
-              <div className="p-5 rounded-xl bg-white/[0.03] border border-white/10">
+              <div className="p-5 rounded-xl bg-white/[0.03] border border-black/10">
                 <div className="text-[#F27D24] font-bold text-lg mb-2 font-plus-jakarta">1. The Single-Page Website</div>
                 <p className="text-gray-400 text-sm leading-relaxed">A one-page website with a hero image, phone number, and &quot;About Us&quot; blurb gives AI nothing to evaluate. No service detail, no area coverage, no expertise signals. AI skips these entirely.</p>
               </div>
-              <div className="p-5 rounded-xl bg-white/[0.03] border border-white/10">
+              <div className="p-5 rounded-xl bg-white/[0.03] border border-black/10">
                 <div className="text-[#F27D24] font-bold text-lg mb-2 font-plus-jakarta">2. Directory-Only Presence</div>
                 <p className="text-gray-400 text-sm leading-relaxed">If your digital footprint is HomeAdvisor + Google Business Profile and nothing else, most AI platforms cannot access your information. You are invisible to the fastest-growing discovery channel.</p>
               </div>
-              <div className="p-5 rounded-xl bg-white/[0.03] border border-white/10">
+              <div className="p-5 rounded-xl bg-white/[0.03] border border-black/10">
                 <div className="text-[#F27D24] font-bold text-lg mb-2 font-plus-jakarta">3. No Service-Specific Pages</div>
                 <p className="text-gray-400 text-sm leading-relaxed">Listing 15 services on one page tells AI you do everything but explains nothing. AI needs dedicated pages for each core service with depth, context, and specificity.</p>
               </div>
-              <div className="p-5 rounded-xl bg-white/[0.03] border border-white/10">
+              <div className="p-5 rounded-xl bg-white/[0.03] border border-black/10">
                 <div className="text-[#F27D24] font-bold text-lg mb-2 font-plus-jakarta">4. Missing Credentials</div>
                 <p className="text-gray-400 text-sm leading-relaxed">License numbers in image format, no mention of bonding or insurance, and no trade certifications. AI cannot read images. Credentials must be in crawlable text to count.</p>
               </div>
-              <div className="p-5 rounded-xl bg-white/[0.03] border border-white/10">
+              <div className="p-5 rounded-xl bg-white/[0.03] border border-black/10">
                 <div className="text-[#F27D24] font-bold text-lg mb-2 font-plus-jakarta">5. JavaScript-Rendered Content</div>
                 <p className="text-gray-400 text-sm leading-relaxed">Reviews loaded via widgets, service details rendered by JavaScript frameworks, and dynamic pricing calculators. All invisible to AI crawlers. If the HTML source is empty, AI sees nothing.</p>
               </div>
-              <div className="p-5 rounded-xl bg-white/[0.03] border border-white/10">
+              <div className="p-5 rounded-xl bg-white/[0.03] border border-black/10">
                 <div className="text-[#F27D24] font-bold text-lg mb-2 font-plus-jakarta">6. Zero Educational Content</div>
                 <p className="text-gray-400 text-sm leading-relaxed">No blog, no guides, no FAQ pages. Just &quot;We fix it. Call us.&quot; AI evaluates expertise through content depth. No content means no expertise signal, which means no recommendation.</p>
               </div>

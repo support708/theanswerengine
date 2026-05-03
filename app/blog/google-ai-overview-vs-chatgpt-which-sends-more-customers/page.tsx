@@ -637,7 +637,7 @@ export default function Page() {
                 a: 'Yes, and the businesses appearing in both tend to be those with the strongest overall entity authority. Consistent NAP data, deep service content, authoritative schema markup, and strong directory presence create the foundation that helps both platforms confidently recommend the same business.',
               },
             ].map(({ q, a }) => (
-              <div key={q} className="border border-white/10 rounded-xl p-6">
+              <div key={q} className="border border-black/10 rounded-xl p-6">
                 <h3 className="font-plus-jakarta font-bold text-white mb-3">{q}</h3>
                 <p className="text-gray-400 leading-relaxed">{a}</p>
               </div>

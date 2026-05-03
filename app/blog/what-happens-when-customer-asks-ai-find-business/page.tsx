@@ -672,7 +672,7 @@ export default function WhatHappensWhenCustomerAsksAIPage() {
               <a href="tel:+12134442229" style={{color:'rgba(255,255,255,0.6)'}}>Call: (213) 444-2229</a>
               <a href="mailto:support@theanswerengine.ai" style={{color:'rgba(255,255,255,0.6)'}}>Email: support@theanswerengine.ai</a>
             </div>
-            <p style={{color:'rgba(255,255,255,0.4)',fontSize:'14px',marginTop:'12px'}}>No pitch, just the data.</p>
+            <p style={{color:'rgba(10,10,10,0.4)',fontSize:'14px',marginTop:'12px'}}>No pitch, just the data.</p>
           </div>
 
         </div>

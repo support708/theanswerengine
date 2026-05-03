@@ -261,26 +261,26 @@ export default function Page() {
 
           {/* STATS GRID */}
           <div className="ae-stats-grid not-prose mb-14 grid grid-cols-2 gap-4 md:grid-cols-4">
-            <div className="ae-stat-card rounded-xl border border-white/10 bg-white/5 p-5 text-center">
+            <div className="ae-stat-card rounded-xl border border-black/10 bg-white/5 p-5 text-center">
               <div className="font-plus-jakarta mb-1 text-3xl font-extrabold text-[#F27D24]">600K+</div>
               <div className="text-sm leading-tight text-gray-400">US businesses close permanently every year</div>
             </div>
-            <div className="ae-stat-card rounded-xl border border-white/10 bg-white/5 p-5 text-center">
+            <div className="ae-stat-card rounded-xl border border-black/10 bg-white/5 p-5 text-center">
               <div className="font-plus-jakarta mb-1 text-3xl font-extrabold text-[#F27D24]">1 in 5</div>
               <div className="text-sm leading-tight text-gray-400">local AI queries return incorrect business data</div>
             </div>
-            <div className="ae-stat-card rounded-xl border border-white/10 bg-white/5 p-5 text-center">
+            <div className="ae-stat-card rounded-xl border border-black/10 bg-white/5 p-5 text-center">
               <div className="font-plus-jakarta mb-1 text-3xl font-extrabold text-[#F27D24]">3.7 wks</div>
               <div className="text-sm leading-tight text-gray-400">average time to discover an AI error about your business</div>
             </div>
-            <div className="ae-stat-card rounded-xl border border-white/10 bg-white/5 p-5 text-center">
+            <div className="ae-stat-card rounded-xl border border-black/10 bg-white/5 p-5 text-center">
               <div className="font-plus-jakarta mb-1 text-3xl font-extrabold text-[#F27D24]">98.8%</div>
               <div className="text-sm leading-tight text-gray-400">of local businesses are invisible in AI recommendations</div>
             </div>
           </div>
 
           {/* TABLE OF CONTENTS */}
-          <nav className="ae-toc not-prose mb-12 rounded-xl border border-white/10 bg-white/5 p-6">
+          <nav className="ae-toc not-prose mb-12 rounded-xl border border-black/10 bg-white/5 p-6">
             <p className="font-plus-jakarta mb-4 text-sm font-semibold uppercase tracking-widest text-[#F27D24]">
               In This Article
             </p>
@@ -564,10 +564,10 @@ export default function Page() {
               on training data. Understanding the difference tells you where to prioritize your efforts.
             </p>
 
-            <div className="ae-comparison-table not-prose mb-8 overflow-x-auto rounded-xl border border-white/10">
+            <div className="ae-comparison-table not-prose mb-8 overflow-x-auto rounded-xl border border-black/10">
               <table className="w-full text-sm">
                 <thead>
-                  <tr className="border-b border-white/10 bg-white/5">
+                  <tr className="border-b border-black/10 bg-white/5">
                     <th className="px-5 py-3 text-left font-semibold text-white">AI Platform</th>
                     <th className="px-5 py-3 text-left font-semibold text-white">Data Source</th>
                     <th className="px-5 py-3 text-left font-semibold text-white">Staleness Risk</th>
@@ -811,10 +811,10 @@ export default function Page() {
               how to approach that systematically.
             </p>
 
-            <div className="ae-decision-matrix not-prose mb-8 overflow-x-auto rounded-xl border border-white/10">
+            <div className="ae-decision-matrix not-prose mb-8 overflow-x-auto rounded-xl border border-black/10">
               <table className="w-full text-sm">
                 <thead>
-                  <tr className="border-b border-white/10 bg-white/5">
+                  <tr className="border-b border-black/10 bg-white/5">
                     <th className="px-5 py-3 text-left font-semibold text-white">Your Situation</th>
                     <th className="px-5 py-3 text-left font-semibold text-white">Priority Action</th>
                     <th className="px-5 py-3 text-left font-semibold text-white">Expected Timeline</th>
@@ -955,7 +955,7 @@ export default function Page() {
           </div>
 
           {/* AUTHOR CARD */}
-          <div className="ae-author-card not-prose mb-14 flex items-start gap-5 rounded-xl border border-white/10 bg-white/5 p-6">
+          <div className="ae-author-card not-prose mb-14 flex items-start gap-5 rounded-xl border border-black/10 bg-white/5 p-6">
             <div className="flex h-14 w-14 shrink-0 items-center justify-center rounded-full bg-[#F27D24]/20 text-xl font-bold text-[#F27D24]">
               AE
             </div>
@@ -1016,7 +1016,7 @@ export default function Page() {
               ].map((item) => (
                 <details
                   key={item.q}
-                  className="group rounded-xl border border-white/10 bg-white/5 transition-colors hover:border-[#F27D24]/30"
+                  className="group rounded-xl border border-black/10 bg-white/5 transition-colors hover:border-[#F27D24]/30"
                 >
                   <summary className="flex cursor-pointer list-none items-center justify-between gap-4 px-6 py-4">
                     <span className="font-plus-jakarta font-semibold text-white">{item.q}</span>
@@ -1078,7 +1078,7 @@ export default function Page() {
               </Link>
               <a
                 href="tel:+12134442229"
-                className="inline-flex items-center gap-2 rounded-xl border border-white/10 px-8 py-4 text-base font-semibold text-white transition-all hover:border-[#F27D24]/40 hover:bg-white/5"
+                className="inline-flex items-center gap-2 rounded-xl border border-black/10 px-8 py-4 text-base font-semibold text-white transition-all hover:border-[#F27D24]/40 hover:bg-white/5"
               >
                 <svg className="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />

@@ -24,7 +24,7 @@ export default function Nav() {
   ];
 
   return (
-    <nav className="fixed top-0 w-full border-b border-white/10 bg-[#FAF8F2] z-50">
+    <nav className="fixed top-0 w-full border-b border-black/10 bg-[#FAF8F2] z-50">
       <div className="flex justify-between items-center px-6 h-16 w-full max-w-none">
         {/* Logo */}
         <a href="/" className="flex items-center gap-3">
@@ -49,7 +49,7 @@ export default function Nav() {
               className={
                 link.active
                   ? 'text-[#F27D24] border-b-2 border-[#F27D24] pb-1'
-                  : 'text-white/60 hover:text-white transition-colors'
+                  : 'text-black/60 hover:text-white transition-colors'
               }
             >
               {link.label}
@@ -69,7 +69,7 @@ export default function Nav() {
           {/* Mobile/tablet hamburger */}
           <button
             onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
-            className="lg:hidden text-white/60 hover:text-white transition-colors"
+            className="lg:hidden text-black/60 hover:text-white transition-colors"
             aria-label="Toggle mobile menu"
             aria-expanded={mobileMenuOpen}
           >
@@ -88,7 +88,7 @@ export default function Nav() {
 
       {/* Mobile Menu */}
       {mobileMenuOpen && (
-        <div className="lg:hidden border-t border-white/10 bg-[#FAF8F2]">
+        <div className="lg:hidden border-t border-black/10 bg-[#FAF8F2]">
           <div className="flex flex-col py-4">
             {navLinks.map(link => (
               <a
@@ -98,7 +98,7 @@ export default function Nav() {
                 className={`px-6 py-3 font-headline font-bold uppercase tracking-tighter ${
                   link.active
                     ? 'text-[#F27D24] border-l-4 border-[#F27D24]'
-                    : 'text-white/60 hover:text-white hover:bg-white/5 border-l-4 border-transparent'
+                    : 'text-black/60 hover:text-white hover:bg-white/5 border-l-4 border-transparent'
                 } transition-colors`}
               >
                 {link.label}

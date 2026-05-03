@@ -709,7 +709,7 @@ export default function Page() {
                 a: 'Paid ads for local service businesses typically cost between $1,500 and $5,000 per month in ad spend alone, with additional agency or management fees on top. AI search optimization is a one-time build investment with ongoing maintenance rather than a recurring cost per click. Once your business earns consistent AI recommendations, that visibility does not pause when your budget does.',
               },
             ].map(({ q, a }) => (
-              <div key={q} className="border border-white/10 rounded-xl p-6">
+              <div key={q} className="border border-black/10 rounded-xl p-6">
                 <h3 className="font-plus-jakarta font-semibold text-white mb-3">{q}</h3>
                 <p className="text-gray-400 leading-relaxed">{a}</p>
               </div>

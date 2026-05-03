@@ -200,7 +200,7 @@ export default function GoogleRankingsDontMatter() {
       <ComprehensiveSchema />
 
       <main className="min-h-screen bg-[#FFF] relative">
-        <div className="absolute top-0 left-0 w-2 h-2 bg-white/20" />
+        <div className="absolute top-0 left-0 w-2 h-2 bg-black/20" />
         <div className="absolute top-0 left-2 w-2 h-2 bg-white/15" />
 
         <article className="max-w-4xl mx-auto px-6 py-20 sm:py-32 relative">
@@ -216,9 +216,9 @@ export default function GoogleRankingsDontMatter() {
           {/* Article Header */}
           <header className="mb-16">
             <div className="flex gap-2 mb-8">
-              <div className="w-1.5 h-1.5 bg-white/40" />
+              <div className="w-1.5 h-1.5 bg-black/40" />
               <div className="w-1.5 h-1.5 bg-white/30" />
-              <div className="w-1.5 h-1.5 bg-white/40" />
+              <div className="w-1.5 h-1.5 bg-black/40" />
             </div>
 
             <p className="ae-section-label not-prose">THE SHIFT NO ONE SAW COMING</p>

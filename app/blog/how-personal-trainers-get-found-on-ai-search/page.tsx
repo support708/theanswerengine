@@ -517,11 +517,11 @@ export default function Page() {
         <section className="mt-12">
           <h3 className="font-plus-jakarta text-xl font-bold text-white mb-4">Related Reading</h3>
           <div className="grid gap-4 md:grid-cols-2">
-            <Link href="/blog/how-gyms-and-fitness-studios-get-found-on-ai" className="block p-4 rounded-xl border border-white/10 bg-white/5 hover:border-[#F27D24]/30 transition-colors">
+            <Link href="/blog/how-gyms-and-fitness-studios-get-found-on-ai" className="block p-4 rounded-xl border border-black/10 bg-white/5 hover:border-[#F27D24]/30 transition-colors">
               <p className="text-sm text-[#F27D24] mb-1">Industry Guides</p>
               <p className="text-white font-medium">How Gyms and Fitness Studios Get Found on AI</p>
             </Link>
-            <Link href="/blog/does-schema-markup-help-ai-search" className="block p-4 rounded-xl border border-white/10 bg-white/5 hover:border-[#F27D24]/30 transition-colors">
+            <Link href="/blog/does-schema-markup-help-ai-search" className="block p-4 rounded-xl border border-black/10 bg-white/5 hover:border-[#F27D24]/30 transition-colors">
               <p className="text-sm text-[#F27D24] mb-1">How-To Guides</p>
               <p className="text-white font-medium">Does Schema Markup Help You Show Up on AI Search?</p>
             </Link>
@@ -598,7 +598,7 @@ export default function Page() {
                 a: 'The most common mistake is having a generic online presence with no clear specialization. AI recommends trainers it can describe specifically. A trainer whose website says "I help clients reach their fitness goals" gives AI almost nothing to match against specific client queries.'
               },
             ].map((item, i) => (
-              <div key={i} className="border border-white/10 rounded-xl p-6 bg-white/5">
+              <div key={i} className="border border-black/10 rounded-xl p-6 bg-white/5">
                 <h3 className="font-plus-jakarta font-semibold text-white mb-3">{item.q}</h3>
                 <p className="text-gray-300 leading-relaxed">{item.a}</p>
               </div>

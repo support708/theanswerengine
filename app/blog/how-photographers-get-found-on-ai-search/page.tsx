@@ -264,19 +264,19 @@ export default function HowPhotographersGetFoundOnAISearch() {
 
           {/* ── STATS GRID ── */}
           <div className="ae-stats-grid grid grid-cols-2 lg:grid-cols-4 gap-4 mb-14">
-            <div className="ae-stat-card bg-white/5 border border-white/10 rounded-xl p-5 text-center">
+            <div className="ae-stat-card bg-white/5 border border-black/10 rounded-xl p-5 text-center">
               <div className="text-3xl font-bold text-[#F27D24] font-plus-jakarta mb-1">$15.8B</div>
               <div className="text-sm text-gray-400 leading-tight">U.S. photography industry revenue in 2025</div>
             </div>
-            <div className="ae-stat-card bg-white/5 border border-white/10 rounded-xl p-5 text-center">
+            <div className="ae-stat-card bg-white/5 border border-black/10 rounded-xl p-5 text-center">
               <div className="text-3xl font-bold text-[#F27D24] font-plus-jakarta mb-1">267K</div>
               <div className="text-sm text-gray-400 leading-tight">photography businesses competing for bookings</div>
             </div>
-            <div className="ae-stat-card bg-white/5 border border-white/10 rounded-xl p-5 text-center">
+            <div className="ae-stat-card bg-white/5 border border-black/10 rounded-xl p-5 text-center">
               <div className="text-3xl font-bold text-[#F27D24] font-plus-jakarta mb-1">810M</div>
               <div className="text-sm text-gray-400 leading-tight">daily ChatGPT users - many searching for local services</div>
             </div>
-            <div className="ae-stat-card bg-white/5 border border-white/10 rounded-xl p-5 text-center">
+            <div className="ae-stat-card bg-white/5 border border-black/10 rounded-xl p-5 text-center">
               <div className="text-3xl font-bold text-[#F27D24] font-plus-jakarta mb-1">93%</div>
               <div className="text-sm text-gray-400 leading-tight">of AI search sessions end without a website click</div>
             </div>
@@ -300,7 +300,7 @@ export default function HowPhotographersGetFoundOnAISearch() {
           </div>
 
           {/* ── TABLE OF CONTENTS ── */}
-          <nav className="ae-toc bg-white/5 border border-white/10 rounded-xl p-6 mb-12">
+          <nav className="ae-toc bg-white/5 border border-black/10 rounded-xl p-6 mb-12">
             <p className="text-sm font-semibold text-[#F27D24] uppercase tracking-wider mb-4">In This Guide</p>
             <ol className="space-y-2 text-sm">
               {[
@@ -561,7 +561,7 @@ export default function HowPhotographersGetFoundOnAISearch() {
             <div className="ae-comparison-table overflow-x-auto mb-10">
               <table className="w-full text-sm border-collapse">
                 <thead>
-                  <tr className="border-b border-white/10">
+                  <tr className="border-b border-black/10">
                     <th className="text-left py-4 px-4 text-gray-400 font-semibold">Photography Niche</th>
                     <th className="text-left py-4 px-4 text-gray-400 font-semibold">AI Search Volume</th>
                     <th className="text-left py-4 px-4 text-gray-400 font-semibold">Avg. Booking Value</th>
@@ -599,7 +599,7 @@ export default function HowPhotographersGetFoundOnAISearch() {
               have compounding advantages.
             </p>
 
-            <div className="ae-takeaway bg-white/5 border border-white/10 rounded-xl p-6 mb-6">
+            <div className="ae-takeaway bg-white/5 border border-black/10 rounded-xl p-6 mb-6">
               <div className="flex items-start gap-3">
                 <svg className="w-5 h-5 text-[#F27D24] flex-shrink-0 mt-0.5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.347.347a3.5 3.5 0 01-4.95 0l-.347-.347z" />
@@ -707,7 +707,7 @@ export default function HowPhotographersGetFoundOnAISearch() {
             <div className="ae-comparison-table overflow-x-auto mb-8">
               <table className="w-full text-sm border-collapse">
                 <thead>
-                  <tr className="border-b border-white/10">
+                  <tr className="border-b border-black/10">
                     <th className="text-left py-4 px-4 text-gray-400 font-semibold">Channel</th>
                     <th className="text-left py-4 px-4 text-gray-400 font-semibold">Cost</th>
                     <th className="text-left py-4 px-4 text-gray-400 font-semibold">Lead Quality</th>
@@ -987,7 +987,7 @@ export default function HowPhotographersGetFoundOnAISearch() {
           </div>
 
           {/* ── AUTHOR CARD ── */}
-          <div className="ae-author-card flex items-start gap-5 p-6 rounded-xl bg-white/5 border border-white/10 mb-12">
+          <div className="ae-author-card flex items-start gap-5 p-6 rounded-xl bg-white/5 border border-black/10 mb-12">
             <div className="w-14 h-14 rounded-full bg-gradient-to-br from-[#F27D24] to-orange-400 flex items-center justify-center flex-shrink-0">
               <svg className="w-7 h-7 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
@@ -1047,7 +1047,7 @@ export default function HowPhotographersGetFoundOnAISearch() {
               ].map((item, i) => (
                 <details
                   key={i}
-                  className="group bg-white/5 border border-white/10 rounded-xl overflow-hidden"
+                  className="group bg-white/5 border border-black/10 rounded-xl overflow-hidden"
                 >
                   <summary className="flex items-center justify-between p-6 cursor-pointer list-none">
                     <h3 className="text-white font-semibold pr-4 text-sm sm:text-base leading-snug">{item.q}</h3>
@@ -1171,7 +1171,7 @@ export default function HowPhotographersGetFoundOnAISearch() {
                 <Link
                   key={article.href}
                   href={article.href}
-                  className="group block p-5 rounded-xl bg-white/5 border border-white/10 hover:border-[#F27D24]/30 hover:bg-white/8 transition-all"
+                  className="group block p-5 rounded-xl bg-white/5 border border-black/10 hover:border-[#F27D24]/30 hover:bg-white/8 transition-all"
                 >
                   <div className="text-xs font-semibold text-[#F27D24] uppercase tracking-wider mb-2">{article.label}</div>
                   <p className="text-sm text-gray-300 group-hover:text-white transition-colors leading-snug font-medium">

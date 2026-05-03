@@ -3,6 +3,12 @@
 :root {
   --background: #FAF8F2;
   --foreground: #0A0A0A;
+  --ink: #0A0A0A;
+  --paper: #FAF8F2;
+  --cream: #F4F0E8;
+  --cream-deep: #EAE4D6;
+  --orange: #F27D24;
+  --orange-deep: #D96416;
 
   /* Modern easing curves for 2025-2026 */
   --ease-out-expo: cubic-bezier(0.16, 1, 0.3, 1);
@@ -17,12 +23,6 @@
   --font-mono: var(--font-geist-mono);
 }
 
-@media (prefers-color-scheme: light) {
-  :root {
-    --background: #FAF8F2;
-    --foreground: #0A0A0A;
-  }
-}
 
 body {
   background: var(--background);
@@ -78,6 +78,13 @@ body {
 .font-heading-card {
   font-family: var(--font-headline), 'Archivo Black', system-ui, sans-serif;
   font-weight: 800;
+}
+
+.font-mono-label {
+  font-family: 'JetBrains Mono', ui-monospace, monospace;
+  font-size: 11px;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
 }
 
 /* Gradient border animation for featured cards */

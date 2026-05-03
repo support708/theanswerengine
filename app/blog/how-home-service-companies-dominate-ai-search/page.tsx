@@ -690,7 +690,7 @@ export default function HowHomeServiceCompaniesDominateAISearch() {
                   a: "Absolutely. AI platforms prioritize relevance and authority over brand size. A local electrician with detailed service pages, genuine customer testimonials on their website, and consistent directory listings can outrank a national franchise that has a generic, templated website. AI rewards specificity and depth."
                 }
               ].map((faq, i) => (
-                <div key={i} className="rounded-xl border border-white/10 bg-white/[0.02] p-6">
+                <div key={i} className="rounded-xl border border-black/10 bg-white/[0.02] p-6">
                   <h3 className="text-lg font-semibold text-white mb-3">{faq.q}</h3>
                   <p className="text-gray-300 leading-relaxed">{faq.a}</p>
                 </div>

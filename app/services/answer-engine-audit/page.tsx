@@ -143,7 +143,7 @@ export default function AnswerEngineAuditPage() {
             <div className="mb-8">
               <Link
                 href="/"
-                className="font-mono text-[10px] tracking-widest uppercase text-white/40 hover:text-[#F27D24] transition-colors inline-flex items-center gap-2"
+                className="font-mono text-[10px] tracking-widest uppercase text-black/40 hover:text-[#F27D24] transition-colors inline-flex items-center gap-2"
               >
                 <svg className="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={2}>
                   <path strokeLinecap="round" strokeLinejoin="round" d="M10.5 19.5L3 12m0 0l7.5-7.5M3 12h18" />
@@ -163,7 +163,7 @@ export default function AnswerEngineAuditPage() {
               <span className="text-[#F27D24]">AUDIT</span>
             </h1>
 
-            <p className="text-white/60 text-lg md:text-xl leading-relaxed max-w-2xl mb-10 border-l-2 border-[#F27D24] pl-6">
+            <p className="text-black/60 text-lg md:text-xl leading-relaxed max-w-2xl mb-10 border-l-2 border-[#F27D24] pl-6">
               See how ChatGPT, Claude, Perplexity, and Google AI answer questions about your category today — and where you&apos;re missing from the answer.
             </p>
 
@@ -181,13 +181,13 @@ export default function AnswerEngineAuditPage() {
               </a>
               <Link
                 href="/#territory-check"
-                className="border-2 border-white/20 text-[#0A0A0A] font-bold px-10 py-5 text-xl tracking-tighter hover:bg-white/5 hover:border-white/30 transition-all font-headline uppercase"
+                className="border-2 border-black/20 text-[#0A0A0A] font-bold px-10 py-5 text-xl tracking-tighter hover:bg-white/5 hover:border-white/30 transition-all font-headline uppercase"
               >
                 Check Territory
               </Link>
             </div>
 
-            <p className="mt-6 font-mono text-xs text-white/40 tracking-widest uppercase">
+            <p className="mt-6 font-mono text-xs text-black/40 tracking-widest uppercase">
               No pitch, just the data // 30 minutes
             </p>
           </div>
@@ -204,13 +204,13 @@ export default function AnswerEngineAuditPage() {
               <span className="text-[#F27D24]">GET</span>
             </h2>
 
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-0 border border-white/10">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-0 border border-black/10">
               {AUDIT_CARDS.map((card, i) => (
                 <div
                   key={card.num}
                   className={`p-10 bg-[#FAF8F2] border-l-4 border-l-[#F27D24] hover:bg-[#F4F0E8] transition-colors
-                    ${i % 2 === 0 ? 'md:border-r border-white/10' : ''}
-                    ${i < 2 ? 'border-b border-white/10' : ''}
+                    ${i % 2 === 0 ? 'md:border-r border-black/10' : ''}
+                    ${i < 2 ? 'border-b border-black/10' : ''}
                   `}
                 >
                   <div className="w-10 h-10 border border-[#F27D24]/40 flex items-center justify-center mb-6">
@@ -219,7 +219,7 @@ export default function AnswerEngineAuditPage() {
                   <h3 className="font-headline font-black text-2xl uppercase tracking-tighter mb-4">
                     {card.title}
                   </h3>
-                  <p className="text-white/60 text-sm leading-relaxed">{card.body}</p>
+                  <p className="text-black/60 text-sm leading-relaxed">{card.body}</p>
                 </div>
               ))}
             </div>
@@ -236,7 +236,7 @@ export default function AnswerEngineAuditPage() {
               <h2 className="font-headline font-black text-3xl md:text-4xl uppercase tracking-tighter mb-6 leading-tight">
                 We ran this exact audit on ourselves before we ran it for anyone else.
               </h2>
-              <p className="text-white/60 text-sm leading-relaxed mb-6 max-w-3xl">
+              <p className="text-black/60 text-sm leading-relaxed mb-6 max-w-3xl">
                 Our own real estate site (LA Metro Home Finder) went from invisible to 1.14M+ monthly impressions with citations across all four major AI platforms. We didn&apos;t sell the framework until we proved it on a live business in the most competitive local market in America. Now we&apos;re running the same scan — free — on yours.
               </p>
               <Link
@@ -273,11 +273,11 @@ export default function AnswerEngineAuditPage() {
                     <h4 className="font-headline font-bold text-lg uppercase tracking-tighter text-white group-open:text-[#F27D24] transition-colors">
                       {faq.q}
                     </h4>
-                    <span className="font-mono text-white/40 text-xl select-none ml-4 group-open:rotate-45 transition-transform">
+                    <span className="font-mono text-black/40 text-xl select-none ml-4 group-open:rotate-45 transition-transform">
                       +
                     </span>
                   </summary>
-                  <div className="px-6 pb-6 text-white/60 text-sm leading-relaxed max-w-3xl">
+                  <div className="px-6 pb-6 text-black/60 text-sm leading-relaxed max-w-3xl">
                     {faq.a}
                   </div>
                 </details>

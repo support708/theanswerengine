@@ -724,7 +724,7 @@ export default function Page() {
                 a: 'Yes, but the good news is that optimizing for ChatGPT Search shares most of its requirements with other AI platforms. Consistent NAP data across directories, structured schema markup, authoritative content that answers real questions, and strong online reviews all feed into how ChatGPT Search evaluates your business. The key difference from traditional SEO is that ChatGPT Search rewards clarity and authority, not just keyword presence.',
               },
             ].map(({ q, a }) => (
-              <div key={q} className="border border-white/10 rounded-xl p-6">
+              <div key={q} className="border border-black/10 rounded-xl p-6">
                 <h3 className="font-plus-jakarta font-semibold text-white mb-3">{q}</h3>
                 <p className="text-gray-400 leading-relaxed">{a}</p>
               </div>

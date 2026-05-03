@@ -940,7 +940,7 @@ export default function Page() {
 
           <div className="space-y-6">
             {faqItems.map((item, i) => (
-              <div key={i} className="border border-white/10 rounded-xl p-6 bg-white/[0.02]">
+              <div key={i} className="border border-black/10 rounded-xl p-6 bg-white/[0.02]">
                 <h3 className="font-plus-jakarta font-semibold text-white mb-3">{item.name}</h3>
                 <p className="text-gray-400 leading-relaxed text-sm">{item.acceptedAnswer.text}</p>
               </div>
@@ -954,7 +954,7 @@ export default function Page() {
           <div className="grid gap-4 sm:grid-cols-2">
             <Link
               href="/blog/how-medical-practices-get-found-on-ai-search"
-              className="block p-5 rounded-xl border border-white/10 bg-white/[0.02] hover:border-[#F27D24]/40 transition-colors group"
+              className="block p-5 rounded-xl border border-black/10 bg-white/[0.02] hover:border-[#F27D24]/40 transition-colors group"
             >
               <div className="text-xs text-[#F27D24] mb-2 font-semibold uppercase tracking-wide">Industry Guides</div>
               <div className="font-plus-jakarta font-semibold text-white group-hover:text-[#F27D24] transition-colors text-sm leading-snug">
@@ -963,7 +963,7 @@ export default function Page() {
             </Link>
             <Link
               href="/blog/how-lawyers-get-found-ai-search"
-              className="block p-5 rounded-xl border border-white/10 bg-white/[0.02] hover:border-[#F27D24]/40 transition-colors group"
+              className="block p-5 rounded-xl border border-black/10 bg-white/[0.02] hover:border-[#F27D24]/40 transition-colors group"
             >
               <div className="text-xs text-[#F27D24] mb-2 font-semibold uppercase tracking-wide">Industry Guides</div>
               <div className="font-plus-jakarta font-semibold text-white group-hover:text-[#F27D24] transition-colors text-sm leading-snug">
@@ -972,7 +972,7 @@ export default function Page() {
             </Link>
             <Link
               href="/blog/does-schema-markup-help-ai-search"
-              className="block p-5 rounded-xl border border-white/10 bg-white/[0.02] hover:border-[#F27D24]/40 transition-colors group"
+              className="block p-5 rounded-xl border border-black/10 bg-white/[0.02] hover:border-[#F27D24]/40 transition-colors group"
             >
               <div className="text-xs text-[#F27D24] mb-2 font-semibold uppercase tracking-wide">Technical</div>
               <div className="font-plus-jakarta font-semibold text-white group-hover:text-[#F27D24] transition-colors text-sm leading-snug">
@@ -981,7 +981,7 @@ export default function Page() {
             </Link>
             <Link
               href="/blog/how-online-reviews-shape-ai-recommendations"
-              className="block p-5 rounded-xl border border-white/10 bg-white/[0.02] hover:border-[#F27D24]/40 transition-colors group"
+              className="block p-5 rounded-xl border border-black/10 bg-white/[0.02] hover:border-[#F27D24]/40 transition-colors group"
             >
               <div className="text-xs text-[#F27D24] mb-2 font-semibold uppercase tracking-wide">Strategy</div>
               <div className="font-plus-jakarta font-semibold text-white group-hover:text-[#F27D24] transition-colors text-sm leading-snug">

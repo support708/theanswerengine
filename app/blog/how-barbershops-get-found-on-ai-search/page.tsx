@@ -192,7 +192,7 @@ export default function HowBarbershopsGetFoundOnAISearch() {
 
       <main className="min-h-screen bg-[#FAF8F2]">
         {/* Hero Section */}
-        <section className="relative overflow-hidden bg-[#FAF8F2] grid-bg border-b border-white/10">
+        <section className="relative overflow-hidden bg-[#FAF8F2] grid-bg border-b border-black/10">
           <div className="relative max-w-4xl mx-auto px-6 py-16 sm:py-24">
             <Breadcrumb />
             <span className="font-mono text-[10px] text-[#F27D24] tracking-widest uppercase block mb-4">◉ INDUSTRY GUIDES // The Answer Engine Intel</span>
@@ -327,7 +327,7 @@ export default function HowBarbershopsGetFoundOnAISearch() {
           </div>
 
           {/* SECTION 1 */}
-          <section id="ai-disruption" className="-mx-6 px-6 py-12 bg-[#FAF8F2] border-t border-white/10">
+          <section id="ai-disruption" className="-mx-6 px-6 py-12 bg-[#FAF8F2] border-t border-black/10">
             <span className="font-mono text-[10px] text-[#F27D24] tracking-widest uppercase block mb-3">
               ◉ THE SHIFT // The Answer Engine Intel
             </span>
@@ -379,7 +379,7 @@ export default function HowBarbershopsGetFoundOnAISearch() {
           </section>
 
           {/* SECTION 2 */}
-          <section id="barber-near-me" className="-mx-6 px-6 py-12 bg-[#F4F0E8] border-t border-white/10">
+          <section id="barber-near-me" className="-mx-6 px-6 py-12 bg-[#F4F0E8] border-t border-black/10">
             <span className="font-mono text-[10px] text-[#F27D24] tracking-widest uppercase block mb-3">
               ◉ QUERY SHIFT // The Answer Engine Intel
             </span>
@@ -440,7 +440,7 @@ export default function HowBarbershopsGetFoundOnAISearch() {
           </section>
 
           {/* SECTION 3 */}
-          <section id="trust-signals" className="-mx-6 px-6 py-12 bg-[#FAF8F2] border-t border-white/10">
+          <section id="trust-signals" className="-mx-6 px-6 py-12 bg-[#FAF8F2] border-t border-black/10">
             <span className="font-mono text-[10px] text-[#F27D24] tracking-widest uppercase block mb-3">
               ◉ TRUST SIGNALS // The Answer Engine Intel
             </span>
@@ -501,7 +501,7 @@ export default function HowBarbershopsGetFoundOnAISearch() {
           </section>
 
           {/* SECTION 4 */}
-          <section id="reviews-matter" className="-mx-6 px-6 py-12 bg-[#F4F0E8] border-t border-white/10">
+          <section id="reviews-matter" className="-mx-6 px-6 py-12 bg-[#F4F0E8] border-t border-black/10">
             <span className="font-mono text-[10px] text-[#F27D24] tracking-widest uppercase block mb-3">
               ◉ REVIEW QUALITY // The Answer Engine Intel
             </span>
@@ -564,7 +564,7 @@ export default function HowBarbershopsGetFoundOnAISearch() {
           </section>
 
           {/* SECTION 5 */}
-          <section id="website-problem" className="-mx-6 px-6 py-12 bg-[#FAF8F2] border-t border-white/10">
+          <section id="website-problem" className="-mx-6 px-6 py-12 bg-[#FAF8F2] border-t border-black/10">
             <span className="font-mono text-[10px] text-[#F27D24] tracking-widest uppercase block mb-3">
               ◉ VISIBILITY GAP // The Answer Engine Intel
             </span>
@@ -668,7 +668,7 @@ export default function HowBarbershopsGetFoundOnAISearch() {
           </section>
 
           {/* SECTION 6 */}
-          <section id="chains-vs-independents" className="-mx-6 px-6 py-12 bg-[#F4F0E8] border-t border-white/10">
+          <section id="chains-vs-independents" className="-mx-6 px-6 py-12 bg-[#F4F0E8] border-t border-black/10">
             <span className="font-mono text-[10px] text-[#F27D24] tracking-widest uppercase block mb-3">
               ◉ CHAIN ADVANTAGE // The Answer Engine Intel
             </span>
@@ -748,7 +748,7 @@ export default function HowBarbershopsGetFoundOnAISearch() {
           </section>
 
           {/* SECTION 7 */}
-          <section id="specialization" className="-mx-6 px-6 py-12 bg-[#FAF8F2] border-t border-white/10">
+          <section id="specialization" className="-mx-6 px-6 py-12 bg-[#FAF8F2] border-t border-black/10">
             <span className="font-mono text-[10px] text-[#F27D24] tracking-widest uppercase block mb-3">
               ◉ NICHE AUTHORITY // The Answer Engine Intel
             </span>
@@ -839,7 +839,7 @@ export default function HowBarbershopsGetFoundOnAISearch() {
           </section>
 
           {/* SECTION 8 */}
-          <section id="booking-signals" className="-mx-6 px-6 py-12 bg-[#F4F0E8] border-t border-white/10">
+          <section id="booking-signals" className="-mx-6 px-6 py-12 bg-[#F4F0E8] border-t border-black/10">
             <span className="font-mono text-[10px] text-[#F27D24] tracking-widest uppercase block mb-3">
               ◉ BOOKING + TRUST // The Answer Engine Intel
             </span>
@@ -931,7 +931,7 @@ export default function HowBarbershopsGetFoundOnAISearch() {
           </section>
 
           {/* LOOKING AHEAD */}
-          <section className="-mx-6 px-6 py-12 bg-[#FAF8F2] border-t border-white/10">
+          <section className="-mx-6 px-6 py-12 bg-[#FAF8F2] border-t border-black/10">
             <span className="font-mono text-[10px] text-[#F27D24] tracking-widest uppercase block mb-3">
               ◉ LOOKING AHEAD // The Answer Engine Intel
             </span>
@@ -1003,7 +1003,7 @@ export default function HowBarbershopsGetFoundOnAISearch() {
           </div>
 
           {/* CHEAT SHEET SECTION */}
-          <section id="cheat-sheet" className="-mx-6 px-6 py-12 bg-[#FAF8F2] border-t border-white/10">
+          <section id="cheat-sheet" className="-mx-6 px-6 py-12 bg-[#FAF8F2] border-t border-black/10">
             <span className="font-mono text-[10px] text-[#F27D24] tracking-widest uppercase block mb-3">◉ CHEAT SHEET // The Answer Engine Intel</span>
             <h2 className="font-headline font-black text-2xl md:text-3xl tracking-tighter uppercase text-[#0A0A0A] mb-6">AI VISIBILITY <span className="text-[#F27D24]">CHEAT SHEET</span></h2>
             <div className="ae-cheat-sheet not-prose">
@@ -1059,7 +1059,7 @@ export default function HowBarbershopsGetFoundOnAISearch() {
           </section>
 
           {/* FAQ SECTION */}
-          <section id="faq" className="-mx-6 px-6 py-12 bg-[#F4F0E8] border-t border-white/10">
+          <section id="faq" className="-mx-6 px-6 py-12 bg-[#F4F0E8] border-t border-black/10">
             <span className="font-mono text-[10px] text-[#F27D24] tracking-widest uppercase block mb-3">◉ FAQ // The Answer Engine Intel</span>
             <h2 className="font-headline font-black text-2xl md:text-3xl tracking-tighter uppercase text-[#0A0A0A] mb-8">FREQUENTLY ASKED <span className="text-[#F27D24]">QUESTIONS</span></h2>
             <div className="prose prose-invert prose-lg max-w-none prose-headings:font-headline prose-p:text-gray-300 prose-a:text-[#F27D24] prose-a:no-underline hover:prose-a:underline prose-strong:text-white">

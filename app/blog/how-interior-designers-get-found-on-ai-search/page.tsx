@@ -526,7 +526,7 @@ export default function Page() {
               a: 'Designers who improve Houzz profiles, build service-specific pages, and add schema markup typically see Perplexity and Google AI Overviews results within 30 to 60 days. ChatGPT base model citations take 12 to 18 months due to retraining cycles.',
             },
           ].map((item, i) => (
-            <div key={i} className="border border-white/10 rounded-xl p-6 bg-white/[0.02]">
+            <div key={i} className="border border-black/10 rounded-xl p-6 bg-white/[0.02]">
               <h3 className="font-plus-jakarta font-semibold text-white mb-3">{item.q}</h3>
               <p className="text-gray-300 leading-relaxed">{item.a}</p>
             </div>

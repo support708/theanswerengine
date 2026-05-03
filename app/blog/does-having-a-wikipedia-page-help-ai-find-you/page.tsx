@@ -203,11 +203,11 @@ export default function Page() {
       <main className="min-h-screen bg-[#FAF8F2]">
 
         {/* Hero Section */}
-        <section className="relative overflow-hidden bg-[#FAF8F2] grid-bg border-b border-white/10">
+        <section className="relative overflow-hidden bg-[#FAF8F2] grid-bg border-b border-black/10">
           <div className="relative max-w-4xl mx-auto px-6 py-20">
 
             {/* Breadcrumbs */}
-            <nav className="text-sm text-white/40 mb-8" aria-label="Breadcrumb">
+            <nav className="text-sm text-black/40 mb-8" aria-label="Breadcrumb">
               <Link href="/" className="hover:text-[#F27D24] transition-colors">Home</Link>
               <span className="mx-2">&rsaquo;</span>
               <Link href="/blog" className="hover:text-[#F27D24] transition-colors">Blog</Link>
@@ -279,7 +279,7 @@ export default function Page() {
           </div>
 
           {/* Section 1: Wikipedia as an AI Training Source */}
-          <section id="wikipedia-as-ai-source" className="-mx-6 px-6 py-12 bg-[#FAF8F2] border-t border-white/10">
+          <section id="wikipedia-as-ai-source" className="-mx-6 px-6 py-12 bg-[#FAF8F2] border-t border-black/10">
             <span className="font-mono text-[10px] text-[#F27D24] tracking-widest uppercase block mb-3">
               &#9689; WIKIPEDIA REALITY // The Answer Engine Intel
             </span>
@@ -313,7 +313,7 @@ export default function Page() {
           </section>
 
           {/* Section 2: Notability Requirements */}
-          <section id="notability-requirements" className="-mx-6 px-6 py-12 bg-[#F4F0E8] border-t border-white/10">
+          <section id="notability-requirements" className="-mx-6 px-6 py-12 bg-[#F4F0E8] border-t border-black/10">
             <span className="font-mono text-[10px] text-[#F27D24] tracking-widest uppercase block mb-3">
               &#9689; WHY IT FAILS // The Answer Engine Intel
             </span>
@@ -376,7 +376,7 @@ export default function Page() {
           </section>
 
           {/* Section 3: What Wikipedia Signals to AI */}
-          <section id="what-wikipedia-signals" className="-mx-6 px-6 py-12 bg-[#FAF8F2] border-t border-white/10">
+          <section id="what-wikipedia-signals" className="-mx-6 px-6 py-12 bg-[#FAF8F2] border-t border-black/10">
             <span className="font-mono text-[10px] text-[#F27D24] tracking-widest uppercase block mb-3">
               &#9689; AI SIGNALS // The Answer Engine Intel
             </span>
@@ -430,7 +430,7 @@ export default function Page() {
           </section>
 
           {/* Section 4: Wikidata Connection */}
-          <section id="wikidata-connection" className="-mx-6 px-6 py-12 bg-[#F4F0E8] border-t border-white/10">
+          <section id="wikidata-connection" className="-mx-6 px-6 py-12 bg-[#F4F0E8] border-t border-black/10">
             <span className="font-mono text-[10px] text-[#F27D24] tracking-widest uppercase block mb-3">
               &#9689; WIKIDATA // The Answer Engine Intel
             </span>
@@ -490,7 +490,7 @@ export default function Page() {
           </section>
 
           {/* Section 5: Comparison Table */}
-          <section id="comparison-table" className="-mx-6 px-6 py-12 bg-[#FAF8F2] border-t border-white/10">
+          <section id="comparison-table" className="-mx-6 px-6 py-12 bg-[#FAF8F2] border-t border-black/10">
             <span className="font-mono text-[10px] text-[#F27D24] tracking-widest uppercase block mb-3">
               &#9689; BRAND VS LOCAL // The Answer Engine Intel
             </span>
@@ -565,7 +565,7 @@ export default function Page() {
           </section>
 
           {/* Section 6: Accessible Signals */}
-          <section id="accessible-signals" className="-mx-6 px-6 py-12 bg-[#F4F0E8] border-t border-white/10">
+          <section id="accessible-signals" className="-mx-6 px-6 py-12 bg-[#F4F0E8] border-t border-black/10">
             <span className="font-mono text-[10px] text-[#F27D24] tracking-widest uppercase block mb-3">
               &#9689; ENTITY SIGNALS // The Answer Engine Intel
             </span>
@@ -652,7 +652,7 @@ export default function Page() {
           </section>
 
           {/* Section 7: Entity Score */}
-          <section id="entity-score" className="-mx-6 px-6 py-12 bg-[#FAF8F2] border-t border-white/10">
+          <section id="entity-score" className="-mx-6 px-6 py-12 bg-[#FAF8F2] border-t border-black/10">
             <span className="font-mono text-[10px] text-[#F27D24] tracking-widest uppercase block mb-3">
               &#9689; ENTITY SCORE // The Answer Engine Intel
             </span>
@@ -725,7 +725,7 @@ export default function Page() {
           </section>
 
           {/* Section 8: Press and Directories */}
-          <section id="press-and-directories" className="-mx-6 px-6 py-12 bg-[#F4F0E8] border-t border-white/10">
+          <section id="press-and-directories" className="-mx-6 px-6 py-12 bg-[#F4F0E8] border-t border-black/10">
             <span className="font-mono text-[10px] text-[#F27D24] tracking-widest uppercase block mb-3">
               &#9689; ALTERNATIVE STRATEGIES // The Answer Engine Intel
             </span>
@@ -810,7 +810,7 @@ export default function Page() {
           </section>
 
           {/* Mid-article Final CTA */}
-          <section className="-mx-6 px-6 py-12 bg-[#FAF8F2] border-t border-white/10">
+          <section className="-mx-6 px-6 py-12 bg-[#FAF8F2] border-t border-black/10">
             <div className="ae-final-cta not-prose">
               <h2>Skip Wikipedia. Find the Signals That Actually Work.</h2>
               <p>Your Blind Spot Report shows the actual gaps between you and the businesses AI keeps recommending instead.</p>
@@ -825,7 +825,7 @@ export default function Page() {
           </section>
 
           {/* Section 9: Decision Matrix */}
-          <section id="decision-matrix" className="-mx-6 px-6 py-12 bg-[#F4F0E8] border-t border-white/10">
+          <section id="decision-matrix" className="-mx-6 px-6 py-12 bg-[#F4F0E8] border-t border-black/10">
             <span className="font-mono text-[10px] text-[#F27D24] tracking-widest uppercase block mb-3">
               &#9689; DECISION MATRIX // The Answer Engine Intel
             </span>
@@ -909,7 +909,7 @@ export default function Page() {
           </section>
 
           {/* Pros/Cons section */}
-          <section className="-mx-6 px-6 py-12 bg-[#FAF8F2] border-t border-white/10">
+          <section className="-mx-6 px-6 py-12 bg-[#FAF8F2] border-t border-black/10">
             <span className="font-mono text-[10px] text-[#F27D24] tracking-widest uppercase block mb-3">
               &#9689; COMPARISON // The Answer Engine Intel
             </span>
@@ -943,7 +943,7 @@ export default function Page() {
           </section>
 
           {/* Section 10: Cheat Sheet */}
-          <section id="cheat-sheet" className="-mx-6 px-6 py-12 bg-[#F4F0E8] border-t border-white/10">
+          <section id="cheat-sheet" className="-mx-6 px-6 py-12 bg-[#F4F0E8] border-t border-black/10">
             <span className="font-mono text-[10px] text-[#F27D24] tracking-widest uppercase block mb-3">
               &#9689; MYTH CHEAT SHEET // The Answer Engine Intel
             </span>
@@ -1034,7 +1034,7 @@ export default function Page() {
           </section>
 
           {/* Related Reading Block */}
-          <section className="-mx-6 px-6 py-12 bg-[#FAF8F2] border-t border-white/10">
+          <section className="-mx-6 px-6 py-12 bg-[#FAF8F2] border-t border-black/10">
             <span className="font-mono text-[10px] text-[#F27D24] tracking-widest uppercase block mb-3">
               &#9689; KEEP READING // The Answer Engine Intel
             </span>
@@ -1058,7 +1058,7 @@ export default function Page() {
           </section>
 
           {/* FAQ Section */}
-          <section id="faq" className="-mx-6 px-6 py-12 bg-[#F4F0E8] border-t border-white/10">
+          <section id="faq" className="-mx-6 px-6 py-12 bg-[#F4F0E8] border-t border-black/10">
             <span className="font-mono text-[10px] text-[#F27D24] tracking-widest uppercase block mb-3">&#9689; FAQ // The Answer Engine Intel</span>
             <h2 className="font-headline font-black text-2xl md:text-3xl tracking-tighter uppercase text-[#0A0A0A] mb-8">FREQUENTLY ASKED <span className="text-[#F27D24]">QUESTIONS</span></h2>
             <div className="space-y-6 not-prose">
@@ -1102,7 +1102,7 @@ export default function Page() {
           </section>
 
           {/* Final CTA Section */}
-          <section className="-mx-6 px-6 py-12 bg-[#FAF8F2] border-t border-white/10">
+          <section className="-mx-6 px-6 py-12 bg-[#FAF8F2] border-t border-black/10">
             <div className="ae-final-cta not-prose">
               <div className="ae-final-cta-pulse" />
               <h2 className="font-headline text-3xl font-bold text-white mb-4 relative">Stop Chasing Wikipedia. Start Building What AI Actually Looks For.</h2>
@@ -1118,7 +1118,7 @@ export default function Page() {
           </section>
 
           {/* Author Card */}
-          <div className="-mx-6 px-6 py-10 bg-[#F4F0E8] border-t border-white/10">
+          <div className="-mx-6 px-6 py-10 bg-[#F4F0E8] border-t border-black/10">
             <div className="ae-author-card">
               <img
                 src="/justin-borges.webp"

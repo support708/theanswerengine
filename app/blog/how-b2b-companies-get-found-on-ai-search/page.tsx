@@ -561,12 +561,12 @@ export default function Page() {
         </div>
 
         {/* Final CTA */}
-        <div className="not-prose mt-12 p-8 rounded-2xl border border-white/10 text-center">
+        <div className="not-prose mt-12 p-8 rounded-2xl border border-black/10 text-center">
           <h3 className="font-plus-jakarta text-2xl font-bold text-white mb-3">Get on Your Buyer&apos;s AI Shortlist Before Your Competitors Do</h3>
           <p className="text-gray-400 mb-6">The window to establish B2B AI visibility before your category gets competitive is narrowing. Companies building AEO programs now will be the default recommendations your buyers see in 2027.</p>
           <div className="flex flex-wrap justify-center gap-4">
             <Link href="/contact" className="inline-flex items-center gap-2 bg-[#F27D24] text-white px-8 py-3 rounded-lg font-semibold hover:bg-[#D96416] transition-colors">Start My B2B AEO Program</Link>
-            <Link href="/blog" className="inline-flex items-center gap-2 border border-white/20 text-gray-300 px-8 py-3 rounded-lg font-semibold hover:border-white/40 transition-colors">Read More AEO Guides</Link>
+            <Link href="/blog" className="inline-flex items-center gap-2 border border-black/20 text-gray-300 px-8 py-3 rounded-lg font-semibold hover:border-black/40 transition-colors">Read More AEO Guides</Link>
           </div>
         </div>
 

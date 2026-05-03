@@ -757,7 +757,7 @@ export default function HowToGetYourRestaurantFoundOnAISearch() {
                   a: "AI search is not replacing Google, but it is capturing an increasingly large share of restaurant discovery. 76% of diners still search online before choosing where to eat, and Google remains dominant. However, the portion of those searches happening through AI is growing rapidly. The smart approach is to optimize for both traditional search and AI search simultaneously."
                 }
               ].map((faq, i) => (
-                <div key={i} className="rounded-xl border border-white/10 bg-white/[0.02] p-6">
+                <div key={i} className="rounded-xl border border-black/10 bg-white/[0.02] p-6">
                   <h3 className="text-lg font-semibold text-white mb-3 font-plus-jakarta">{faq.q}</h3>
                   <p className="text-gray-300 leading-relaxed">{faq.a}</p>
                 </div>

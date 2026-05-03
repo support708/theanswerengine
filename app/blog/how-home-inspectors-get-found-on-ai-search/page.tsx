@@ -735,7 +735,7 @@ export default function Page() {
               a: 'Same-day and 24-hour report delivery is an increasingly query-specific signal on AI platforms as buyers ask questions like "home inspector with same-day report delivery near me." Inspectors who explicitly state their report turnaround time on their website, in Google Business Profile, and in schema markup create a matchable claim for those specific queries. Inspectors who offer same-day delivery but never surface it prominently miss these high-intent searches entirely.',
             },
           ].map((item, i) => (
-            <div key={i} className="border border-white/10 rounded-xl p-6 bg-white/[0.02]">
+            <div key={i} className="border border-black/10 rounded-xl p-6 bg-white/[0.02]">
               <h3 className="font-plus-jakarta font-semibold text-white mb-3">{item.q}</h3>
               <p className="text-gray-300 leading-relaxed">{item.a}</p>
             </div>

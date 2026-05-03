@@ -56,7 +56,7 @@ export default function TrueDoorReport() {
       </section>
 
       {/* SLIDE 2: OPPORTUNITY SUMMARY */}
-      <section className="-mx-6 px-6 py-20 bg-[#F4F0E8] border-t border-white/10">
+      <section className="-mx-6 px-6 py-20 bg-[#F4F0E8] border-t border-black/10">
         <div className="max-w-5xl mx-auto">
           <div className="mb-12">
             <span className="font-mono text-[10px] tracking-widest uppercase text-[#F27D24]">
@@ -69,7 +69,7 @@ export default function TrueDoorReport() {
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             {/* Finding 1 */}
-            <div className="bg-[#F4F0E8] border border-white/10 p-6 hover:border-[#F27D24]/30 transition-colors">
+            <div className="bg-[#F4F0E8] border border-black/10 p-6 hover:border-[#F27D24]/30 transition-colors">
               <div className="font-mono text-xs uppercase tracking-widest text-[#F27D24] mb-3">Finding 01</div>
               <h3 className="font-headline font-black text-2xl uppercase mb-3">Kyle Has Zero Personal Brand</h3>
               <p className="text-[#b0a89f] text-sm leading-relaxed">
@@ -78,7 +78,7 @@ export default function TrueDoorReport() {
             </div>
 
             {/* Finding 2 */}
-            <div className="bg-[#F4F0E8] border border-white/10 p-6 hover:border-[#F27D24]/30 transition-colors">
+            <div className="bg-[#F4F0E8] border border-black/10 p-6 hover:border-[#F27D24]/30 transition-colors">
               <div className="font-mono text-xs uppercase tracking-widest text-[#F27D24] mb-3">Finding 02</div>
               <h3 className="font-headline font-black text-2xl uppercase mb-3">C+ BBB Kills Credibility</h3>
               <p className="text-[#b0a89f] text-sm leading-relaxed">
@@ -87,7 +87,7 @@ export default function TrueDoorReport() {
             </div>
 
             {/* Finding 3 */}
-            <div className="bg-[#F4F0E8] border border-white/10 p-6 hover:border-[#F27D24]/30 transition-colors">
+            <div className="bg-[#F4F0E8] border border-black/10 p-6 hover:border-[#F27D24]/30 transition-colors">
               <div className="font-mono text-xs uppercase tracking-widest text-[#F27D24] mb-3">Finding 03</div>
               <h3 className="font-headline font-black text-2xl uppercase mb-3">AB 2493 Is Unaddressed Territory</h3>
               <p className="text-[#b0a89f] text-sm leading-relaxed">
@@ -96,7 +96,7 @@ export default function TrueDoorReport() {
             </div>
 
             {/* Finding 4 */}
-            <div className="bg-[#F4F0E8] border border-white/10 p-6 hover:border-[#F27D24]/30 transition-colors">
+            <div className="bg-[#F4F0E8] border border-black/10 p-6 hover:border-[#F27D24]/30 transition-colors">
               <div className="font-mono text-xs uppercase tracking-widest text-[#F27D24] mb-3">Finding 04</div>
               <h3 className="font-headline font-black text-2xl uppercase mb-3">IE Market is Thin on Content</h3>
               <p className="text-[#b0a89f] text-sm leading-relaxed">
@@ -105,7 +105,7 @@ export default function TrueDoorReport() {
             </div>
 
             {/* Finding 5 */}
-            <div className="bg-[#F4F0E8] border border-white/10 p-6 hover:border-[#F27D24]/30 transition-colors">
+            <div className="bg-[#F4F0E8] border border-black/10 p-6 hover:border-[#F27D24]/30 transition-colors">
               <div className="font-mono text-xs uppercase tracking-widest text-[#F27D24] mb-3">Finding 05</div>
               <h3 className="font-headline font-black text-2xl uppercase mb-3">Regulatory Complexity = Sticky Service</h3>
               <p className="text-[#b0a89f] text-sm leading-relaxed">
@@ -114,7 +114,7 @@ export default function TrueDoorReport() {
             </div>
 
             {/* Finding 6 - bonus */}
-            <div className="bg-[#F4F0E8] border border-white/10 p-6 hover:border-[#F27D24]/30 transition-colors">
+            <div className="bg-[#F4F0E8] border border-black/10 p-6 hover:border-[#F27D24]/30 transition-colors">
               <div className="font-mono text-xs uppercase tracking-widest text-[#F27D24] mb-3">Finding 06</div>
               <h3 className="font-headline font-black text-2xl uppercase mb-3">Irvine is Landlord-Friendly</h3>
               <p className="text-[#b0a89f] text-sm leading-relaxed">
@@ -126,7 +126,7 @@ export default function TrueDoorReport() {
       </section>
 
       {/* SLIDE 3: MARKET REALITY */}
-      <section className="-mx-6 px-6 py-20 bg-[#FAF8F2] border-t border-white/10">
+      <section className="-mx-6 px-6 py-20 bg-[#FAF8F2] border-t border-black/10">
         <div className="max-w-5xl mx-auto">
           <div className="mb-12">
             <span className="font-mono text-[10px] tracking-widest uppercase text-[#F27D24]">
@@ -138,24 +138,24 @@ export default function TrueDoorReport() {
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-12">
-            <div className="bg-[#F4F0E8] border border-white/10 p-6 text-center">
+            <div className="bg-[#F4F0E8] border border-black/10 p-6 text-center">
               <div className="font-mono text-xs uppercase tracking-widest text-[#F27D24] mb-3">Vacancy</div>
               <div className="text-5xl font-black mb-2">4.0%</div>
               <p className="text-[#b0a89f] text-sm">OC multifamily — near zero slack</p>
             </div>
-            <div className="bg-[#F4F0E8] border border-white/10 p-6 text-center">
+            <div className="bg-[#F4F0E8] border border-black/10 p-6 text-center">
               <div className="font-mono text-xs uppercase tracking-widest text-[#F27D24] mb-3">Rent / Month</div>
               <div className="text-5xl font-black mb-2">$4,475</div>
               <p className="text-[#b0a89f] text-sm">Irvine median (all types, Feb 2026)</p>
             </div>
-            <div className="bg-[#F4F0E8] border border-white/10 p-6 text-center">
+            <div className="bg-[#F4F0E8] border border-black/10 p-6 text-center">
               <div className="font-mono text-xs uppercase tracking-widest text-[#F27D24] mb-3">Turnover Cost</div>
               <div className="text-5xl font-black mb-2">$4,000</div>
               <p className="text-[#b0a89f] text-sm">Per unit vacancy + repairs + marketing</p>
             </div>
           </div>
 
-          <div className="bg-[#F4F0E8] border border-white/10 p-8 mb-12">
+          <div className="bg-[#F4F0E8] border border-black/10 p-8 mb-12">
             <h3 className="font-headline font-black text-2xl uppercase mb-6">The Competitive Gap</h3>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
               <div>
@@ -190,7 +190,7 @@ export default function TrueDoorReport() {
       </section>
 
       {/* SLIDE 4: THE PAIN STACK */}
-      <section className="-mx-6 px-6 py-20 bg-[#F4F0E8] border-t border-white/10">
+      <section className="-mx-6 px-6 py-20 bg-[#F4F0E8] border-t border-black/10">
         <div className="max-w-5xl mx-auto">
           <div className="mb-12">
             <span className="font-mono text-[10px] tracking-widest uppercase text-[#F27D24]">
@@ -203,7 +203,7 @@ export default function TrueDoorReport() {
 
           <div className="space-y-6">
             {/* Pain 1 */}
-            <div className="bg-[#FAF8F2] border border-white/10 p-8">
+            <div className="bg-[#FAF8F2] border border-black/10 p-8">
               <div className="flex items-start gap-6">
                 <div className="flex-shrink-0 text-4xl font-black text-[#F27D24] opacity-20">01</div>
                 <div>
@@ -217,7 +217,7 @@ export default function TrueDoorReport() {
             </div>
 
             {/* Pain 2 */}
-            <div className="bg-[#FAF8F2] border border-white/10 p-8">
+            <div className="bg-[#FAF8F2] border border-black/10 p-8">
               <div className="flex items-start gap-6">
                 <div className="flex-shrink-0 text-4xl font-black text-[#F27D24] opacity-20">02</div>
                 <div>
@@ -231,7 +231,7 @@ export default function TrueDoorReport() {
             </div>
 
             {/* Pain 3 */}
-            <div className="bg-[#FAF8F2] border border-white/10 p-8">
+            <div className="bg-[#FAF8F2] border border-black/10 p-8">
               <div className="flex items-start gap-6">
                 <div className="flex-shrink-0 text-4xl font-black text-[#F27D24] opacity-20">03</div>
                 <div>
@@ -245,7 +245,7 @@ export default function TrueDoorReport() {
             </div>
 
             {/* Pain 4 */}
-            <div className="bg-[#FAF8F2] border border-white/10 p-8">
+            <div className="bg-[#FAF8F2] border border-black/10 p-8">
               <div className="flex items-start gap-6">
                 <div className="flex-shrink-0 text-4xl font-black text-[#F27D24] opacity-20">04</div>
                 <div>
@@ -268,7 +268,7 @@ export default function TrueDoorReport() {
       </section>
 
       {/* SLIDE 5: TRUEDOOR'S GAP ANALYSIS */}
-      <section className="-mx-6 px-6 py-20 bg-[#FAF8F2] border-t border-white/10">
+      <section className="-mx-6 px-6 py-20 bg-[#FAF8F2] border-t border-black/10">
         <div className="max-w-5xl mx-auto">
           <div className="mb-12">
             <span className="font-mono text-[10px] tracking-widest uppercase text-[#F27D24]">
@@ -346,7 +346,7 @@ export default function TrueDoorReport() {
       </section>
 
       {/* SLIDE 6: THE AERO FRAMEWORK */}
-      <section className="-mx-6 px-6 py-20 bg-[#F4F0E8] border-t border-white/10">
+      <section className="-mx-6 px-6 py-20 bg-[#F4F0E8] border-t border-black/10">
         <div className="max-w-5xl mx-auto">
           <div className="mb-12">
             <span className="font-mono text-[10px] tracking-widest uppercase text-[#F27D24]">
@@ -363,7 +363,7 @@ export default function TrueDoorReport() {
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-12">
             {/* A */}
-            <div className="bg-[#FAF8F2] border border-white/10 p-8">
+            <div className="bg-[#FAF8F2] border border-black/10 p-8">
               <div className="font-mono text-xs uppercase tracking-widest text-[#F27D24] mb-4">A — AI Research</div>
               <h3 className="font-headline font-black text-2xl uppercase mb-4">Uncover Landlord Questions</h3>
               <p className="text-[#b0a89f] text-sm leading-relaxed mb-4">
@@ -375,7 +375,7 @@ export default function TrueDoorReport() {
             </div>
 
             {/* E */}
-            <div className="bg-[#FAF8F2] border border-white/10 p-8">
+            <div className="bg-[#FAF8F2] border border-black/10 p-8">
               <div className="font-mono text-xs uppercase tracking-widest text-[#F27D24] mb-4">E — Expert Integration</div>
               <h3 className="font-headline font-black text-2xl uppercase mb-4">Pair AI With Kyle</h3>
               <p className="text-[#b0a89f] text-sm leading-relaxed mb-4">
@@ -387,7 +387,7 @@ export default function TrueDoorReport() {
             </div>
 
             {/* R */}
-            <div className="bg-[#FAF8F2] border border-white/10 p-8">
+            <div className="bg-[#FAF8F2] border border-black/10 p-8">
               <div className="font-mono text-xs uppercase tracking-widest text-[#F27D24] mb-4">R — Rapid Iteration</div>
               <h3 className="font-headline font-black text-2xl uppercase mb-4">Quick-Deploy, Test, Refine</h3>
               <p className="text-[#b0a89f] text-sm leading-relaxed mb-4">
@@ -399,7 +399,7 @@ export default function TrueDoorReport() {
             </div>
 
             {/* O */}
-            <div className="bg-[#FAF8F2] border border-white/10 p-8">
+            <div className="bg-[#FAF8F2] border border-black/10 p-8">
               <div className="font-mono text-xs uppercase tracking-widest text-[#F27D24] mb-4">O — Owned Assets</div>
               <h3 className="font-headline font-black text-2xl uppercase mb-4">Build Kyle's Moat</h3>
               <p className="text-[#b0a89f] text-sm leading-relaxed mb-4">
@@ -421,7 +421,7 @@ export default function TrueDoorReport() {
       </section>
 
       {/* SLIDE 7: ROADMAP & NEXT STEPS */}
-      <section className="-mx-6 px-6 py-20 bg-[#FAF8F2] border-t border-white/10">
+      <section className="-mx-6 px-6 py-20 bg-[#FAF8F2] border-t border-black/10">
         <div className="max-w-5xl mx-auto">
           <div className="mb-12">
             <span className="font-mono text-[10px] tracking-widest uppercase text-[#F27D24]">
@@ -523,7 +523,7 @@ export default function TrueDoorReport() {
       </section>
 
       {/* Footer */}
-      <section className="-mx-6 px-6 py-12 bg-[#F4F0E8] border-t border-white/10 text-center">
+      <section className="-mx-6 px-6 py-12 bg-[#F4F0E8] border-t border-black/10 text-center">
         <p className="text-[#7a7570] font-mono text-xs uppercase tracking-widest">
           The Answer Engine | AERO-10 Report | April 2026
         </p>

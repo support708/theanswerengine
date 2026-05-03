@@ -248,8 +248,8 @@ CSS variables to define:
   --border: rgba(255,255,255,0.08);
 
 Typography rules:
-  - H1: font-family Space Grotesk, weight 900, uppercase, letter-spacing -0.03em, color var(--text)
-  - H2: font-family Space Grotesk, weight 900, uppercase, letter-spacing -0.02em, color var(--text)
+  - H1: font-family Archivo Black, weight 900, uppercase, letter-spacing -0.03em, color var(--text)
+  - H2: font-family Archivo Black, weight 900, uppercase, letter-spacing -0.02em, color var(--text)
   - Eyebrow labels: font-family DM Mono, font-size 10px, letter-spacing 0.15em, uppercase, color var(--orange). Always prefix with "◉ " and suffix " // The Answer Engine Intel"
   - Body: font-family DM Sans, color var(--text-muted), line-height 1.7
   - Accent word in each H2: wrap in <span style="color:var(--orange)">
@@ -288,13 +288,13 @@ Section 2 - WHAT AI SEES (bg var(--bg)):
 Section 3 - YOUR HIDDEN ASSETS (bg var(--bg-alt)):
   - Eyebrow label above H2
   - H2: "YOUR <span orange>HIDDEN</span> ASSETS"
-  - 3-5 cards, each: title in orange Space Grotesk, body in DM Sans muted. No border-radius on cards.
+  - 3-5 cards, each: title in orange Archivo Black, body in DM Sans muted. No border-radius on cards.
 
 Section 4 - THE FIX (bg var(--bg)):
   - Eyebrow label above H2
   - H2: "THE <span orange>FIX</span>"
   - 4-item grid: Answer-First Content, Schema Markup, Entity Optimization, Authority Signals.
-  - Each item: orange number label (01/02/03/04), title in Space Grotesk, 1-sentence description.
+  - Each item: orange number label (01/02/03/04), title in Archivo Black, 1-sentence description.
 
 Section 5 - CTA (bg var(--bg-alt)):
   - Eyebrow label above H2
@@ -536,7 +536,7 @@ h1 {
 }
 .branding {
   font-size: 11px;
-  color: rgba(255,255,255,0.4);
+  color: rgba(10,10,10,0.4);
   letter-spacing: 3px;
   text-transform: uppercase;
   margin-top: 8px;

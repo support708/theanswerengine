@@ -568,7 +568,7 @@ export default function WhyDoesAIRecommendOtherRoofers() {
                   a: 'Yes, and smaller roofers often have a structural advantage here. AI platforms value specificity and local relevance over brand recognition. A locally owned roofing company with detailed pages about specific neighborhoods, honest cost ranges, before-and-after project photos with written descriptions, and real customer testimonials on the site can outrank a national franchise running a generic template website. Depth beats brand size in AI recommendations.',
                 },
               ].map((faq, i) => (
-                <div key={i} className="rounded-xl border border-white/10 bg-white/[0.02] p-6">
+                <div key={i} className="rounded-xl border border-black/10 bg-white/[0.02] p-6">
                   <h3 className="text-lg font-semibold text-white mb-3">{faq.q}</h3>
                   <p className="text-gray-300 leading-relaxed">{faq.a}</p>
                 </div>

@@ -206,7 +206,7 @@ export default function BlogPost() {
         <div className="prose prose-invert prose-lg max-w-none prose-headings:font-plus-jakarta prose-headings:text-white prose-p:text-gray-300 prose-a:text-[#F27D24] prose-a:no-underline hover:prose-a:underline prose-strong:text-white">
 
           {/* HERO IMAGE */}
-          <div className="not-prose mb-12 rounded-xl overflow-hidden border border-white/10">
+          <div className="not-prose mb-12 rounded-xl overflow-hidden border border-black/10">
             <img src={`/blog/${slug}.svg`} alt="Will My Business Vanish If I Stop Doing SEO? Dashboard showing traffic decline and recovery metrics" width={1200} height={630} className="w-full h-auto" />
           </div>
 

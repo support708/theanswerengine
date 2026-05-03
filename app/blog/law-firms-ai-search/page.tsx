@@ -606,12 +606,12 @@ export default function Page() {
         </div>
 
         {/* Final CTA */}
-        <div className="not-prose mt-12 p-8 rounded-2xl border border-white/10 text-center">
+        <div className="not-prose mt-12 p-8 rounded-2xl border border-black/10 text-center">
           <h3 className="font-plus-jakarta text-2xl font-bold text-white mb-3">Your Competitors Are Already Building AI Visibility. Are You?</h3>
           <p className="text-gray-400 mb-6">The firms that establish AI visibility now will be the default recommendations in 2027. Every week you wait is a week your competitors get further ahead.</p>
           <div className="flex flex-wrap justify-center gap-4">
             <Link href="/blindspot" className="inline-flex items-center gap-2 bg-[#F27D24] text-white px-8 py-3 rounded-lg font-semibold hover:bg-[#D96416] transition-colors">Run My AI Blindspot Report</Link>
-            <Link href="/blog" className="inline-flex items-center gap-2 border border-white/20 text-gray-300 px-8 py-3 rounded-lg font-semibold hover:border-white/40 transition-colors">Read More AEO Guides</Link>
+            <Link href="/blog" className="inline-flex items-center gap-2 border border-black/20 text-gray-300 px-8 py-3 rounded-lg font-semibold hover:border-black/40 transition-colors">Read More AEO Guides</Link>
           </div>
         </div>
 

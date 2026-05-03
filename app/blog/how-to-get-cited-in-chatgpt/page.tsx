@@ -276,7 +276,7 @@ export default function Page() {
             </svg>
             <div className="relative px-8 py-16 sm:px-12 sm:py-20">
               <p className="text-sm font-mono tracking-widest uppercase text-orange-400 mb-4">+ AEO Strategy</p>
-              <h1 className="text-3xl sm:text-4xl lg:text-5xl font-black text-white leading-tight mb-6 uppercase tracking-tight" style={{ fontFamily: '"Space Grotesk", "Arial Black", Arial, sans-serif' }}>
+              <h1 className="text-3xl sm:text-4xl lg:text-5xl font-black text-white leading-tight mb-6 uppercase tracking-tight" style={{ fontFamily: '"Archivo Black", "Arial Black", Arial, sans-serif' }}>
                 How to Get Cited in ChatGPT
                 <br />
                 <span className="text-orange-400">(and Claude, Perplexity, Gemini,</span>
@@ -350,7 +350,7 @@ export default function Page() {
 
             {/* Section 1 */}
             <span className="not-prose ae-section-label">+ Definition</span>
-            <h2 className="text-2xl font-black text-white mt-4 mb-4 uppercase tracking-tight" style={{ fontFamily: '"Space Grotesk", "Arial Black", Arial, sans-serif' }}>
+            <h2 className="text-2xl font-black text-white mt-4 mb-4 uppercase tracking-tight" style={{ fontFamily: '"Archivo Black", "Arial Black", Arial, sans-serif' }}>
               What &ldquo;Being Cited&rdquo; in an LLM Actually Means
             </h2>
             <p className="text-gray-300 leading-relaxed mb-4">
@@ -393,7 +393,7 @@ export default function Page() {
 
             {/* Section 2 */}
             <span className="not-prose ae-section-label">+ The Framework</span>
-            <h2 className="text-2xl font-black text-white mt-4 mb-4 uppercase tracking-tight" style={{ fontFamily: '"Space Grotesk", "Arial Black", Arial, sans-serif' }}>
+            <h2 className="text-2xl font-black text-white mt-4 mb-4 uppercase tracking-tight" style={{ fontFamily: '"Archivo Black", "Arial Black", Arial, sans-serif' }}>
               The Citation Surface Framework: AE&rsquo;s Methodology
             </h2>
             <p className="text-gray-300 leading-relaxed mb-4">
@@ -452,7 +452,7 @@ export default function Page() {
 
             {/* Section 3 */}
             <span className="not-prose ae-section-label">+ Component Deep-Dive</span>
-            <h2 className="text-2xl font-black text-white mt-4 mb-4 uppercase tracking-tight" style={{ fontFamily: '"Space Grotesk", "Arial Black", Arial, sans-serif' }}>
+            <h2 className="text-2xl font-black text-white mt-4 mb-4 uppercase tracking-tight" style={{ fontFamily: '"Archivo Black", "Arial Black", Arial, sans-serif' }}>
               Q&amp;A Semantic Hooks: The Foundation of LLM Citation
             </h2>
             <p className="text-gray-300 leading-relaxed mb-4">
@@ -488,7 +488,7 @@ export default function Page() {
 
             {/* Section 4 */}
             <span className="not-prose ae-section-label">+ Named Entities</span>
-            <h2 className="text-2xl font-black text-white mt-4 mb-4 uppercase tracking-tight" style={{ fontFamily: '"Space Grotesk", "Arial Black", Arial, sans-serif' }}>
+            <h2 className="text-2xl font-black text-white mt-4 mb-4 uppercase tracking-tight" style={{ fontFamily: '"Archivo Black", "Arial Black", Arial, sans-serif' }}>
               Named Methodologies and Named-Entity Anchoring
             </h2>
             <p className="text-gray-300 leading-relaxed mb-4">
@@ -524,7 +524,7 @@ export default function Page() {
 
             {/* Section 5 */}
             <span className="not-prose ae-section-label">+ The Proof Layer</span>
-            <h2 className="text-2xl font-black text-white mt-4 mb-4 uppercase tracking-tight" style={{ fontFamily: '"Space Grotesk", "Arial Black", Arial, sans-serif' }}>
+            <h2 className="text-2xl font-black text-white mt-4 mb-4 uppercase tracking-tight" style={{ fontFamily: '"Archivo Black", "Arial Black", Arial, sans-serif' }}>
               Receipts: Why Verifiable Data Gets AI to Trust Your Content
             </h2>
             <p className="text-gray-300 leading-relaxed mb-4">
@@ -575,7 +575,7 @@ export default function Page() {
 
             {/* Section 6 */}
             <span className="not-prose ae-section-label">+ Cross-Platform</span>
-            <h2 className="text-2xl font-black text-white mt-4 mb-4 uppercase tracking-tight" style={{ fontFamily: '"Space Grotesk", "Arial Black", Arial, sans-serif' }}>
+            <h2 className="text-2xl font-black text-white mt-4 mb-4 uppercase tracking-tight" style={{ fontFamily: '"Archivo Black", "Arial Black", Arial, sans-serif' }}>
               Why One Strategy Gets You Cited on All Four Platforms
             </h2>
             <p className="text-gray-300 leading-relaxed mb-4">
@@ -619,7 +619,7 @@ export default function Page() {
 
             {/* Section 7 */}
             <span className="not-prose ae-section-label">+ Schema &amp; Structure</span>
-            <h2 className="text-2xl font-black text-white mt-4 mb-4 uppercase tracking-tight" style={{ fontFamily: '"Space Grotesk", "Arial Black", Arial, sans-serif' }}>
+            <h2 className="text-2xl font-black text-white mt-4 mb-4 uppercase tracking-tight" style={{ fontFamily: '"Archivo Black", "Arial Black", Arial, sans-serif' }}>
               The Schema Stack That Makes Content Machine-Readable
             </h2>
             <p className="text-gray-300 leading-relaxed mb-4">
@@ -664,7 +664,7 @@ export default function Page() {
 
             {/* Section 8 */}
             <span className="not-prose ae-section-label">+ Implementation</span>
-            <h2 className="text-2xl font-black text-white mt-4 mb-4 uppercase tracking-tight" style={{ fontFamily: '"Space Grotesk", "Arial Black", Arial, sans-serif' }}>
+            <h2 className="text-2xl font-black text-white mt-4 mb-4 uppercase tracking-tight" style={{ fontFamily: '"Archivo Black", "Arial Black", Arial, sans-serif' }}>
               How to Apply This to Your Business Right Now
             </h2>
             <p className="text-gray-300 leading-relaxed mb-4">
@@ -750,7 +750,7 @@ export default function Page() {
 
             {/* Section 9 */}
             <span className="not-prose ae-section-label">+ Timeline</span>
-            <h2 className="text-2xl font-black text-white mt-4 mb-4 uppercase tracking-tight" style={{ fontFamily: '"Space Grotesk", "Arial Black", Arial, sans-serif' }}>
+            <h2 className="text-2xl font-black text-white mt-4 mb-4 uppercase tracking-tight" style={{ fontFamily: '"Archivo Black", "Arial Black", Arial, sans-serif' }}>
               What to Expect: The Citation Timeline
             </h2>
             <p className="text-gray-300 leading-relaxed mb-4">
@@ -851,7 +851,7 @@ export default function Page() {
 
           {/* FAQ Section */}
           <section className="mt-16 mb-16">
-            <h2 className="text-2xl font-black text-white mb-8 uppercase tracking-tight" style={{ fontFamily: '"Space Grotesk", "Arial Black", Arial, sans-serif' }}>
+            <h2 className="text-2xl font-black text-white mb-8 uppercase tracking-tight" style={{ fontFamily: '"Archivo Black", "Arial Black", Arial, sans-serif' }}>
               + Frequently Asked Questions
             </h2>
             <div className="grid gap-4">

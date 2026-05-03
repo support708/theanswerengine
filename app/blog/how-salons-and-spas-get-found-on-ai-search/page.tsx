@@ -356,7 +356,7 @@ export default function HowSalonsAndSpasGetFoundOnAISearch() {
                     <span>Specific specialization terms used throughout site</span>
                     <span className="text-[#F27D24] font-semibold">High match rate</span>
                   </div>
-                  <div className="h-2 bg-white/10 rounded-full overflow-hidden">
+                  <div className="h-2 bg-black/10 rounded-full overflow-hidden">
                     <div className="h-full bg-[#F27D24] rounded-full" style={{ width: '88%' }} />
                   </div>
                 </div>
@@ -365,7 +365,7 @@ export default function HowSalonsAndSpasGetFoundOnAISearch() {
                     <span>Service category terms on dedicated pages</span>
                     <span className="text-orange-400 font-semibold">Good match rate</span>
                   </div>
-                  <div className="h-2 bg-white/10 rounded-full overflow-hidden">
+                  <div className="h-2 bg-black/10 rounded-full overflow-hidden">
                     <div className="h-full bg-orange-400 rounded-full" style={{ width: '62%' }} />
                   </div>
                 </div>
@@ -374,7 +374,7 @@ export default function HowSalonsAndSpasGetFoundOnAISearch() {
                     <span>Generic service list on one page only</span>
                     <span className="text-yellow-500 font-semibold">Low match rate</span>
                   </div>
-                  <div className="h-2 bg-white/10 rounded-full overflow-hidden">
+                  <div className="h-2 bg-black/10 rounded-full overflow-hidden">
                     <div className="h-full bg-yellow-500 rounded-full" style={{ width: '28%' }} />
                   </div>
                 </div>
@@ -383,7 +383,7 @@ export default function HowSalonsAndSpasGetFoundOnAISearch() {
                     <span>No service description, JS-rendered content</span>
                     <span className="text-gray-500 font-semibold">Near-zero match rate</span>
                   </div>
-                  <div className="h-2 bg-white/10 rounded-full overflow-hidden">
+                  <div className="h-2 bg-black/10 rounded-full overflow-hidden">
                     <div className="h-full bg-gray-600 rounded-full" style={{ width: '8%' }} />
                   </div>
                 </div>

@@ -184,7 +184,7 @@ export default function BlogPost() {
           </svg>
           <div className="relative z-10 flex items-center justify-center h-full gap-8">
             <div className="text-center">
-              <div className="text-5xl font-bold font-plus-jakarta text-white/10">50</div>
+              <div className="text-5xl font-bold font-plus-jakarta text-black/10">50</div>
               <div className="text-xs text-gray-600 mt-1">Disconnected Pages</div>
             </div>
             <div className="text-[#F27D24] text-3xl font-bold">&lt;</div>
@@ -411,7 +411,7 @@ export default function BlogPost() {
               <div className="ae-bar-item">
                 <div className="ae-bar-label text-sm text-gray-300 mb-1">FCP over 2.5s</div>
                 <div className="ae-bar-track bg-white/5 rounded-full h-3 relative overflow-hidden">
-                  <div className="ae-bar-fill h-full rounded-full bg-white/20" style={{ width: '31%' }}></div>
+                  <div className="ae-bar-fill h-full rounded-full bg-black/20" style={{ width: '31%' }}></div>
                 </div>
                 <div className="ae-bar-value text-right text-xs text-gray-600 font-semibold mt-1">2.1 avg citations</div>
               </div>
@@ -466,7 +466,7 @@ export default function BlogPost() {
           <div className="ae-comparison-table not-prose overflow-x-auto my-8">
             <table className="w-full text-sm">
               <thead>
-                <tr className="border-b border-white/10">
+                <tr className="border-b border-black/10">
                   <th className="text-left py-3 pr-6 font-plus-jakarta text-gray-400 font-semibold">Factor</th>
                   <th className="text-left py-3 pr-6 font-plus-jakarta text-gray-400 font-semibold">50 Disconnected Posts</th>
                   <th className="text-left py-3 font-plus-jakarta text-[#F27D24] font-semibold">12-Page Structured Ecosystem</th>
@@ -775,14 +775,14 @@ export default function BlogPost() {
                 </Link>
                 <a
                   href="tel:+12134442229"
-                  className="inline-flex items-center justify-center gap-2 border border-white/10 text-white px-8 py-4 rounded-xl font-semibold text-lg hover:bg-white/5 transition-colors"
+                  className="inline-flex items-center justify-center gap-2 border border-black/10 text-white px-8 py-4 rounded-xl font-semibold text-lg hover:bg-white/5 transition-colors"
                 >
                   <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" /></svg>
                   Call (213) 444-2229
                 </a>
                 <a
                   href="mailto:support@theanswerengine.ai"
-                  className="inline-flex items-center justify-center gap-2 border border-white/10 text-white px-8 py-4 rounded-xl font-semibold text-lg hover:bg-white/5 transition-colors"
+                  className="inline-flex items-center justify-center gap-2 border border-black/10 text-white px-8 py-4 rounded-xl font-semibold text-lg hover:bg-white/5 transition-colors"
                 >
                   <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" /></svg>
                   Email Us

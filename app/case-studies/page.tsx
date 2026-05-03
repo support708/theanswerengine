@@ -127,7 +127,7 @@ export default function CaseStudiesPage() {
           <div className="mb-12">
             <Link
               href="/"
-              className="font-mono text-[10px] tracking-widest uppercase text-white/40 hover:text-[#F27D24] transition-colors inline-flex items-center gap-2"
+              className="font-mono text-[10px] tracking-widest uppercase text-black/40 hover:text-[#F27D24] transition-colors inline-flex items-center gap-2"
             >
               <svg className="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={2}>
                 <path strokeLinecap="round" strokeLinejoin="round" d="M10.5 19.5L3 12m0 0l7.5-7.5M3 12h18" />
@@ -139,7 +139,7 @@ export default function CaseStudiesPage() {
           {/* Tag */}
           <div className="flex items-center gap-3 mb-6">
             <span className="w-3 h-3 bg-[#F27D24]" />
-            <span className="font-mono text-[10px] tracking-widest uppercase text-white/40">
+            <span className="font-mono text-[10px] tracking-widest uppercase text-black/40">
               Case Study // Our Own Site First
             </span>
           </div>
@@ -157,11 +157,11 @@ export default function CaseStudiesPage() {
           </h1>
 
           <div className="grid md:grid-cols-2 gap-12 items-end">
-            <p className="text-white/60 text-sm leading-relaxed max-w-xl">
+            <p className="text-black/60 text-sm leading-relaxed max-w-xl">
               The AERO-10 framework was built and tested on our own real estate site in the most
               competitive local market in America. <span className="text-white border-b border-[#F27D24]">1.14M+ monthly impressions.</span> Four of four major AI platforms citing the same agent. Zero ad spend. Then we packaged it for local service businesses outside real estate.
             </p>
-            <div className="flex flex-col gap-2 font-mono text-[10px] tracking-widest text-white/40 md:text-right">
+            <div className="flex flex-col gap-2 font-mono text-[10px] tracking-widest text-black/40 md:text-right">
               <p>Market: Los Angeles, CA</p>
               <p>Competitors: 70,000+ agents</p>
               <p>Status: Live &amp; compounding</p>
@@ -179,7 +179,7 @@ export default function CaseStudiesPage() {
                 <span className="font-headline font-black text-5xl md:text-6xl text-[#F27D24]">
                   {stat.val}
                 </span>
-                <span className="font-mono text-[10px] tracking-widest uppercase text-white/40 mt-3">
+                <span className="font-mono text-[10px] tracking-widest uppercase text-black/40 mt-3">
                   {stat.label}
                 </span>
               </div>
@@ -199,17 +199,17 @@ export default function CaseStudiesPage() {
               HOW RESULTS{' '}
               <span className="text-[#F27D24]">BUILD</span>
             </h2>
-            <p className="text-white/50 text-sm leading-relaxed mt-4 max-w-2xl">
+            <p className="text-black/50 text-sm leading-relaxed mt-4 max-w-2xl">
               Same framework, applied to your market. The five stages we walk every client through — from zero baseline to compounding authority.
             </p>
           </div>
 
-          <div className="grid md:grid-cols-5 gap-0 border border-white/10">
+          <div className="grid md:grid-cols-5 gap-0 border border-black/10">
             {RESULT_STAGES.map((stage, i) => (
               <div
                 key={i}
                 className={`p-6 bg-[#FAF8F2] hover:bg-[#F4F0E8] transition-colors border-l-4 border-l-[#F27D24] ${
-                  i < RESULT_STAGES.length - 1 ? 'border-b md:border-b-0 md:border-r border-white/10' : ''
+                  i < RESULT_STAGES.length - 1 ? 'border-b md:border-b-0 md:border-r border-black/10' : ''
                 }`}
               >
                 <div className="w-10 h-10 border border-[#F27D24]/40 flex items-center justify-center mb-6">
@@ -220,10 +220,10 @@ export default function CaseStudiesPage() {
                 <span className="font-mono text-[10px] tracking-widest uppercase text-[#F27D24] block mb-2">
                   {stage.stage}
                 </span>
-                <p className="font-mono text-[10px] tracking-widest uppercase text-white/40 mb-4">
+                <p className="font-mono text-[10px] tracking-widest uppercase text-black/40 mb-4">
                   {stage.window}
                 </p>
-                <p className="text-white/50 text-sm leading-relaxed">{stage.body}</p>
+                <p className="text-black/50 text-sm leading-relaxed">{stage.body}</p>
               </div>
             ))}
           </div>
@@ -234,14 +234,14 @@ export default function CaseStudiesPage() {
       <section className="py-32 px-6 lg:px-24 bg-[#F4F0E8] border-y border-[#F27D24]/10">
         <div className="max-w-7xl mx-auto">
           <div className="mb-12">
-            <span className="font-mono text-[10px] tracking-widest uppercase text-white/40">
+            <span className="font-mono text-[10px] tracking-widest uppercase text-black/40">
               Deep Dive // The Verified Case
             </span>
             <h2 className="font-headline font-black text-4xl uppercase tracking-tighter mt-4">
               LA Metro Home Finder vs.{' '}
               <span className="text-[#F27D24]">70,000 Agents</span>
             </h2>
-            <p className="text-white/50 text-sm leading-relaxed mt-4 max-w-2xl">
+            <p className="text-black/50 text-sm leading-relaxed mt-4 max-w-2xl">
               Our own real estate property. The first place the AERO-10 framework ran live. Today it carries the heaviest AI-citation load of any site in the portfolio.
             </p>
           </div>
@@ -269,13 +269,13 @@ export default function CaseStudiesPage() {
                 <div key={i} className="relative">
                   <div
                     className={`absolute -left-[37px] top-0 w-4 h-4 ${
-                      phase.active ? 'bg-[#F27D24]' : 'bg-white/20'
+                      phase.active ? 'bg-[#F27D24]' : 'bg-black/20'
                     }`}
                   />
                   <h4 className="font-headline font-black text-lg uppercase tracking-tighter mb-2">
                     {phase.phase}
                   </h4>
-                  <p className="text-white/40 text-sm leading-relaxed">{phase.body}</p>
+                  <p className="text-black/40 text-sm leading-relaxed">{phase.body}</p>
                 </div>
               ))}
             </div>
@@ -283,7 +283,7 @@ export default function CaseStudiesPage() {
             {/* Data terminal */}
             <div className="lg:col-span-8 bg-black p-8 border border-white/5">
               <div className="flex justify-between items-center mb-12">
-                <span className="font-mono text-[10px] tracking-widest uppercase text-white/40">
+                <span className="font-mono text-[10px] tracking-widest uppercase text-black/40">
                   Results Chart
                 </span>
                 <div className="flex gap-2">
@@ -295,14 +295,14 @@ export default function CaseStudiesPage() {
 
               <div className="grid grid-cols-2 gap-8 mb-8">
                 <div>
-                  <p className="font-mono text-[10px] tracking-widest uppercase text-white/40 mb-4">
+                  <p className="font-mono text-[10px] tracking-widest uppercase text-black/40 mb-4">
                     Before AEO
                   </p>
                   <div className="h-40 flex items-end gap-1">
                     {[10, 15, 12, 8, 18].map((h, i) => (
                       <div
                         key={i}
-                        className="w-full bg-white/10"
+                        className="w-full bg-black/10"
                         style={{ height: `${h}%` }}
                       />
                     ))}
@@ -332,7 +332,7 @@ export default function CaseStudiesPage() {
                   { label: 'Query Clusters Won', val: '3+', orange: false },
                 ].map((stat) => (
                   <div key={stat.label}>
-                    <span className="block font-mono text-[10px] tracking-widest uppercase text-white/40 mb-1">
+                    <span className="block font-mono text-[10px] tracking-widest uppercase text-black/40 mb-1">
                       {stat.label}
                     </span>
                     <span
@@ -354,19 +354,19 @@ export default function CaseStudiesPage() {
       <section className="py-32 px-6 lg:px-24 bg-[#FAF8F2] border-b border-[#F27D24]/10">
         <div className="max-w-7xl mx-auto">
           <div className="mb-12">
-            <span className="font-mono text-[10px] tracking-widest uppercase text-white/40">
+            <span className="font-mono text-[10px] tracking-widest uppercase text-black/40">
               Deep Dive // Property Management Category
             </span>
             <h2 className="font-headline font-black text-4xl uppercase tracking-tighter mt-4">
               RPM Southland vs.{' '}
               <span className="text-[#F27D24]">Every Competitor Without a Schema</span>
             </h2>
-            <p className="text-white/50 text-sm leading-relaxed mt-4 max-w-2xl">
+            <p className="text-black/50 text-sm leading-relaxed mt-4 max-w-2xl">
               921 Google reviews at 4.8 stars. 730+ properties managed. Three named guarantees. All invisible to AI search — until AEO fixed the infrastructure.
             </p>
           </div>
 
-          <div className="grid lg:grid-cols-3 gap-0 border border-white/10 mb-10">
+          <div className="grid lg:grid-cols-3 gap-0 border border-black/10 mb-10">
             {[
               {
                 label: 'THE PROBLEM',
@@ -386,12 +386,12 @@ export default function CaseStudiesPage() {
             ].map((col, i) => (
               <div
                 key={i}
-                className={`p-8 bg-[#F4F0E8] border-l-4 ${col.orange ? 'border-l-[#F27D24]' : 'border-l-white/10'} ${i < 2 ? 'border-r border-white/10' : ''}`}
+                className={`p-8 bg-[#F4F0E8] border-l-4 ${col.orange ? 'border-l-[#F27D24]' : 'border-l-black/10'} ${i < 2 ? 'border-r border-black/10' : ''}`}
               >
-                <span className={`font-mono text-[10px] tracking-widest uppercase ${col.orange ? 'text-[#F27D24]' : 'text-white/40'} block mb-4`}>
+                <span className={`font-mono text-[10px] tracking-widest uppercase ${col.orange ? 'text-[#F27D24]' : 'text-black/40'} block mb-4`}>
                   {col.label}
                 </span>
-                <p className="text-white/50 text-sm leading-relaxed">{col.body}</p>
+                <p className="text-black/50 text-sm leading-relaxed">{col.body}</p>
               </div>
             ))}
           </div>
@@ -405,7 +405,7 @@ export default function CaseStudiesPage() {
               { label: 'Schema Types Per Article', val: '5', orange: false },
             ].map((stat) => (
               <div key={stat.label}>
-                <span className="block font-mono text-[10px] tracking-widest uppercase text-white/40 mb-1">
+                <span className="block font-mono text-[10px] tracking-widest uppercase text-black/40 mb-1">
                   {stat.label}
                 </span>
                 <span className={`font-headline font-black text-3xl ${stat.orange ? 'text-[#F27D24]' : 'text-white'}`}>
@@ -437,11 +437,11 @@ export default function CaseStudiesPage() {
             ALSO WORKING{' '}
             <span className="text-[#F27D24]">WITH</span>
           </h2>
-          <p className="text-white/50 text-sm leading-relaxed mb-12 max-w-2xl">
+          <p className="text-black/50 text-sm leading-relaxed mb-12 max-w-2xl">
             The LAMH case is the flagship. These are the other businesses running on the AERO-10 framework right now.
           </p>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-0 border border-white/10">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-0 border border-black/10">
             {[
               { name: 'Borges Real Estate Team', city: 'Pasadena, CA', cat: 'Residential real estate', href: null },
               { name: 'Lovery Real Estate', city: 'San Diego, CA', cat: 'Real estate · seller focus', href: null },
@@ -452,9 +452,9 @@ export default function CaseStudiesPage() {
             ].map((c, i, arr) => {
               const inner = (
                 <>
-                  <div className="font-mono text-[10px] tracking-widest text-white/40 uppercase mb-3">{c.city}</div>
+                  <div className="font-mono text-[10px] tracking-widest text-black/40 uppercase mb-3">{c.city}</div>
                   <h3 className="font-headline font-bold text-lg uppercase tracking-tighter text-[#0A0A0A] mb-2">{c.name}</h3>
-                  <p className="text-white/50 text-sm">{c.cat}</p>
+                  <p className="text-black/50 text-sm">{c.cat}</p>
                   {c.href && (
                     <span className="inline-flex items-center gap-1 mt-3 font-mono text-[10px] tracking-widest uppercase text-[#F27D24]">
                       Read case study →
@@ -462,7 +462,7 @@ export default function CaseStudiesPage() {
                   )}
                 </>
               );
-              const cls = `p-8 bg-[#F4F0E8] hover:bg-[#F4F0E8] transition-colors border-l-4 border-l-[#F27D24] ${i < arr.length - 1 ? 'border-b lg:border-b-0' : ''} ${(i + 1) % 3 !== 0 ? 'lg:border-r' : ''} ${(i % 2 === 0) ? 'md:border-r lg:border-r' : ''} border-white/10`;
+              const cls = `p-8 bg-[#F4F0E8] hover:bg-[#F4F0E8] transition-colors border-l-4 border-l-[#F27D24] ${i < arr.length - 1 ? 'border-b lg:border-b-0' : ''} ${(i + 1) % 3 !== 0 ? 'lg:border-r' : ''} ${(i % 2 === 0) ? 'md:border-r lg:border-r' : ''} border-black/10`;
               return c.href ? (
                 <Link key={c.name} href={c.href} className={cls}>
                   {inner}

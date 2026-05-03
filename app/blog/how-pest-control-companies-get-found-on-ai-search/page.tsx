@@ -588,7 +588,7 @@ export default function Page() {
               a: 'Most pest control companies see initial AI citation activity within 8 to 14 weeks of building proper AEO content, assuming the content is structured correctly with FAQPage schema, pest-specific service pages, and clear NAP consistency across platforms. Emergency query visibility often comes faster because the specificity of those queries is easier to win when you are the only company with a dedicated page addressing them.',
             },
           ].map((item, i) => (
-            <div key={i} className="border border-white/10 rounded-xl p-6 bg-white/[0.02]">
+            <div key={i} className="border border-black/10 rounded-xl p-6 bg-white/[0.02]">
               <h3 className="font-plus-jakarta font-semibold text-white mb-3">{item.q}</h3>
               <p className="text-gray-300 leading-relaxed">{item.a}</p>
             </div>

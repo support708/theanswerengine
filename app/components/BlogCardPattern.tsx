@@ -35,7 +35,7 @@ export default function BlogCardPattern({ index = 0, className = '' }: { index?:
           <circle cx={200 + r(1) * 80 - 40} cy={100 + r(2) * 40 - 20} r="80" stroke="rgba(255,255,255,0.06)" strokeWidth="0.5" />
           <circle cx={200 + r(1) * 80 - 40} cy={100 + r(2) * 40 - 20} r="55" stroke="rgba(255,255,255,0.04)" strokeWidth="0.5" />
           <circle cx={200 + r(1) * 80 - 40} cy={100 + r(2) * 40 - 20} r="30" stroke="rgba(255,255,255,0.08)" strokeWidth="0.5" />
-          <circle cx={200 + r(1) * 80 - 40} cy={100 + r(2) * 40 - 20} r="4" fill="rgba(255,255,255,0.1)" />
+          <circle cx={200 + r(1) * 80 - 40} cy={100 + r(2) * 40 - 20} r="4" fill="rgba(10,10,10,0.1)" />
           {/* Diagonal lines */}
           <line x1={r(3) * 100} y1="0" x2={r(3) * 100 + 120} y2="200" stroke="rgba(255,255,255,0.03)" strokeWidth="0.5" />
           <line x1={r(4) * 100 + 200} y1="0" x2={r(4) * 100 + 320} y2="200" stroke="rgba(255,255,255,0.03)" strokeWidth="0.5" />
@@ -62,7 +62,7 @@ export default function BlogCardPattern({ index = 0, className = '' }: { index?:
           <line x1="400" y1="100" x2="200" y2="200" stroke="rgba(255,255,255,0.04)" strokeWidth="0.5" />
           <line x1="200" y1="200" x2="0" y2="100" stroke="rgba(255,255,255,0.04)" strokeWidth="0.5" />
           <circle cx="200" cy="100" r="40" stroke="rgba(255,255,255,0.06)" strokeWidth="0.5" />
-          <circle cx="200" cy="100" r="3" fill="rgba(255,255,255,0.1)" />
+          <circle cx="200" cy="100" r="3" fill="rgba(10,10,10,0.1)" />
           {/* Corner accents */}
           <rect x="20" y="20" width="12" height="12" rx="1" stroke="rgba(255,255,255,0.06)" strokeWidth="0.5" fill="none" />
           <rect x="368" y="168" width="12" height="12" rx="1" stroke="rgba(255,255,255,0.06)" strokeWidth="0.5" fill="none" />

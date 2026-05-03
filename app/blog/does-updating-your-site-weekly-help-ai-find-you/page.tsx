@@ -579,7 +579,7 @@ export default function DoesUpdatingYourSiteWeeklyHelpAIFindYou() {
             <div className="not-prose ae-comparison-table my-8 overflow-x-auto">
               <table className="w-full text-sm">
                 <thead>
-                  <tr className="border-b border-white/10">
+                  <tr className="border-b border-black/10">
                     <th className="text-left py-3 px-4 text-gray-400 font-semibold">Update Type</th>
                     <th className="text-left py-3 px-4 text-gray-400 font-semibold">AI Impact</th>
                     <th className="text-left py-3 px-4 text-gray-400 font-semibold">Effort Level</th>

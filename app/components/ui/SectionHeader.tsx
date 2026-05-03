@@ -8,8 +8,8 @@ interface SectionHeaderProps {
 }
 
 const badgeColors = {
-  orange: 'bg-white/[0.04] border-white/[0.08] text-white/40',
-  purple: 'bg-white/[0.04] border-white/[0.08] text-white/40',
+  orange: 'bg-white/[0.04] border-white/[0.08] text-black/40',
+  purple: 'bg-white/[0.04] border-white/[0.08] text-black/40',
 };
 
 export default function SectionHeader({

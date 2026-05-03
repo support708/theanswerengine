@@ -535,7 +535,7 @@ export default function Page() {
               a: 'Property managers who optimize structured data and Google Business Profile typically see Perplexity and Google AI Overviews results within 30 to 60 days. ChatGPT base model citations depend on retraining cycles and take 12 to 18 months. AI search tools that use live retrieval can surface you much faster if your content and directories are properly structured.',
             },
           ].map((item, i) => (
-            <div key={i} className="border border-white/10 rounded-xl p-6 bg-white/[0.02]">
+            <div key={i} className="border border-black/10 rounded-xl p-6 bg-white/[0.02]">
               <h3 className="font-plus-jakarta font-semibold text-white mb-3">{item.q}</h3>
               <p className="text-gray-300 leading-relaxed">{item.a}</p>
             </div>

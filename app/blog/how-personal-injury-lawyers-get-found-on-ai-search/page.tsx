@@ -995,7 +995,7 @@ export default function Page() {
         </div>
 
         {/* Final CTA */}
-        <div className="not-prose mt-12 p-8 rounded-2xl border border-white/10 text-center">
+        <div className="not-prose mt-12 p-8 rounded-2xl border border-black/10 text-center">
           <h3 className="font-plus-jakarta text-2xl font-bold text-white mb-3">
             Ready to Get Your Firm Cited by AI?
           </h3>
@@ -1013,7 +1013,7 @@ export default function Page() {
             </Link>
             <Link
               href="/blog"
-              className="inline-flex items-center gap-2 border border-white/20 text-gray-300 px-8 py-3 rounded-lg font-semibold hover:border-white/40 transition-colors"
+              className="inline-flex items-center gap-2 border border-black/20 text-gray-300 px-8 py-3 rounded-lg font-semibold hover:border-black/40 transition-colors"
             >
               Read More Industry Guides
             </Link>
