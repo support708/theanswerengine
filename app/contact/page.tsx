@@ -103,7 +103,7 @@ export default function ContactPage() {
         }}
       />
 
-      <main className="min-h-screen bg-[#FAF8F2] text-white pt-[72px] pb-24">
+      <main className="min-h-screen bg-[#FAF8F2] text-[#0A0A0A] pt-[72px] pb-24">
         <div className="max-w-7xl mx-auto px-6">
 
           {/* Hero Section */}
@@ -148,7 +148,7 @@ export default function ContactPage() {
                 </p>
                 <a
                   href="tel:+12134442229"
-                  className="text-2xl font-bold font-['Space_Grotesk'] uppercase text-white hover:text-[#F27D24] transition-colors"
+                  className="text-2xl font-bold font-['Space_Grotesk'] uppercase text-[#0A0A0A] hover:text-[#F27D24] transition-colors"
                 >
                   (213) 444-2229
                 </a>
@@ -165,7 +165,7 @@ export default function ContactPage() {
                 </p>
                 <a
                   href="mailto:support@theanswerengine.ai"
-                  className="text-xl font-bold font-['Space_Grotesk'] uppercase text-white hover:text-[#F27D24] transition-colors break-all"
+                  className="text-xl font-bold font-['Space_Grotesk'] uppercase text-[#0A0A0A] hover:text-[#F27D24] transition-colors break-all"
                 >
                   support@theanswerengine.ai
                 </a>
@@ -180,7 +180,7 @@ export default function ContactPage() {
                 <p className="font-mono text-[10px] text-[#F27D24] tracking-widest mb-1 uppercase">
                   Business Hours
                 </p>
-                <p className="text-2xl font-bold font-['Space_Grotesk'] uppercase text-white">
+                <p className="text-2xl font-bold font-['Space_Grotesk'] uppercase text-[#0A0A0A]">
                   MON&ndash;FRI, 9 AM&ndash;6 PM PT
                 </p>
                 <p className="text-sm text-black/40 mt-2">Monday – Friday, 9 AM – 6 PM PT</p>
@@ -188,7 +188,7 @@ export default function ContactPage() {
 
               {/* System Status */}
               <div className="bg-[#F4F0E8] p-4 flex items-center justify-between border border-black/10">
-                <span className="text-xs font-mono uppercase text-white/30">Status</span>
+                <span className="text-xs font-mono uppercase text-black/30">Status</span>
                 <span className="text-xs font-mono text-green-400 flex items-center gap-2">
                   <span className="w-2 h-2 bg-green-400 animate-pulse inline-block" />
                   Online
@@ -218,7 +218,7 @@ export default function ContactPage() {
                   ].map((item, i) => (
                     <li key={i} className="flex items-start gap-3">
                       <span className="font-mono text-[#F27D24] text-sm mt-0.5">[+]</span>
-                      <span className="font-mono text-sm text-white/70 uppercase tracking-wide">{item}</span>
+                      <span className="font-mono text-sm text-black/60 uppercase tracking-wide">{item}</span>
                     </li>
                   ))}
                 </ul>
@@ -232,7 +232,7 @@ export default function ContactPage() {
                   </a>
                   <a
                     href="mailto:support@theanswerengine.ai"
-                    className="flex-1 flex items-center justify-center gap-2 px-8 py-4 border border-black/20 text-white font-black font-['Space_Grotesk'] text-base uppercase tracking-widest hover:border-[#F27D24] hover:text-[#F27D24] transition-colors"
+                    className="flex-1 flex items-center justify-center gap-2 px-8 py-4 border border-black/20 text-[#0A0A0A] font-black font-['Space_Grotesk'] text-base uppercase tracking-widest hover:border-[#F27D24] hover:text-[#F27D24] transition-colors"
                   >
                     EMAIL US
                   </a>
@@ -241,7 +241,7 @@ export default function ContactPage() {
                 {/* Guarantee */}
                 <div className="mt-8 pt-6 border-t border-black/10">
                   <p className="text-sm font-mono text-black/40 uppercase tracking-wide">
-                    <span className="text-white">90-DAY GUARANTEE:</span> Get cited by 2+ AI engines or we work free until you do.
+                    <span className="text-[#0A0A0A]">90-DAY GUARANTEE:</span> Get cited by 2+ AI engines or we work free until you do.
                   </p>
                 </div>
               </div>
@@ -259,7 +259,7 @@ export default function ContactPage() {
                 key={item.label}
                 className="bg-[#F4F0E8] p-8 flex flex-col items-center text-center"
               >
-                <h4 className="font-black font-['Space_Grotesk'] uppercase tracking-tighter text-white mb-2">
+                <h4 className="font-black font-['Space_Grotesk'] uppercase tracking-tighter text-[#0A0A0A] mb-2">
                   {item.label}
                 </h4>
                 <p className="text-xs font-mono text-[#F27D24]/60">{item.sub}</p>
@@ -271,7 +271,7 @@ export default function ContactPage() {
           <section className="mb-16">
             <div className="flex items-center gap-2 mb-8">
               <div className="w-1 h-4 bg-[#F27D24]" />
-              <h3 className="text-xs font-['Space_Grotesk'] font-black tracking-widest uppercase text-white">
+              <h3 className="text-xs font-['Space_Grotesk'] font-black tracking-widest uppercase text-[#0A0A0A]">
                 Common Questions
               </h3>
             </div>
@@ -304,7 +304,7 @@ export default function ContactPage() {
           <div className="text-center">
             <Link
               href="/"
-              className="inline-flex items-center gap-2 font-mono text-xs text-white/30 hover:text-[#F27D24] transition-colors uppercase tracking-widest"
+              className="inline-flex items-center gap-2 font-mono text-xs text-black/30 hover:text-[#F27D24] transition-colors uppercase tracking-widest"
             >
               <svg
                 className="w-4 h-4"
@@ -334,7 +334,7 @@ export default function ContactPage() {
           </a>
           <a
             href="mailto:support@theanswerengine.ai"
-            className="flex-1 flex items-center justify-center gap-2 py-3.5 border border-black/20 text-white font-black font-['Space_Grotesk'] uppercase text-sm tracking-widest hover:border-[#F27D24] active:opacity-80 transition-all"
+            className="flex-1 flex items-center justify-center gap-2 py-3.5 border border-black/20 text-[#0A0A0A] font-black font-['Space_Grotesk'] uppercase text-sm tracking-widest hover:border-[#F27D24] active:opacity-80 transition-all"
           >
             EMAIL
           </a>

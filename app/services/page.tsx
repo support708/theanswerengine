@@ -4,14 +4,14 @@ import Link from 'next/link';
 export const metadata: Metadata = {
   title: 'AEO Services — 90-Day Foundation + Monthly Program | The Answer Engine',
   description:
-    'The complete AEO system: 90-day Answer Authority Foundation with citation guarantee, then an ongoing Monthly Program (Authority Index, Monday Brief, Monthly Report, Dashboard). One client per market.',
+    'The complete AEO system: 90-day Answer Authority Foundation with citation guarantee, then an ongoing Monthly Program (Monthly AEO Report, Reddit monitoring, quarterly strategy). One client per market.',
   alternates: {
     canonical: 'https://www.theanswerengine.ai/services',
   },
   openGraph: {
     title: 'AEO Services — 90-Day Foundation + Monthly Program',
     description:
-      'Two parts: the 90-day foundation gets you cited. The Monthly Program compounds it. Monday Brief, Authority Index, Monthly Report, Dashboard, Reddit monitoring.',
+      'Two parts: the 90-day foundation gets you cited. The Monthly Program compounds it. Monthly AEO Report, Reddit monitoring, quarterly strategy call.',
     url: 'https://www.theanswerengine.ai/services',
     type: 'website',
     siteName: 'The Answer Engine',
@@ -69,23 +69,8 @@ const FOUNDATION_ITEMS = [
 const MONTHLY_ITEMS = [
   {
     icon: '✓',
-    title: 'AEO Authority Index',
-    desc: 'Your weekly score across ChatGPT, Claude, Perplexity, and Google AI. Updated every Monday.',
-  },
-  {
-    icon: '✓',
-    title: 'The Monday Brief',
-    desc: 'One email per week. Rank deltas that matter, Reddit opportunities, and what we\'re doing next.',
-  },
-  {
-    icon: '✓',
     title: 'Monthly AEO Intelligence Report',
-    desc: 'First of every month. Impressions, clicks, CTR, rank deltas, page-2 queue, and interpretation.',
-  },
-  {
-    icon: '✓',
-    title: 'Client Dashboard',
-    desc: 'Live 4-platform tabs — Perplexity, Claude, Google AI, ChatGPT. Pull-based, on your schedule.',
+    desc: 'First of every month. Impressions, clicks, CTR, rank deltas, page-2 queue, competitor movements, and the next three actions we\'ll take.',
   },
   {
     icon: '✓',
@@ -173,7 +158,7 @@ const COMPARISON_ROWS = [
 const FAQS = [
   {
     q: 'How does pricing work?',
-    a: 'Two parts: a one-time foundation fee (scoped to your industry and market size) and a monthly program fee that covers the Monday Brief, Monthly Report, Dashboard, Reddit monitoring, and Top-Performer Audit. We quote live on the strategy call — no surprise pricing.',
+    a: 'Two parts: a one-time foundation fee (scoped to your industry and market size) and a monthly program fee that covers the Monthly AEO Report, Reddit monitoring, Top-Performer Audit, and quarterly strategy call. We quote live on the strategy call — no surprise pricing.',
     open: true,
   },
   {
@@ -200,7 +185,7 @@ const FAQS = [
 
 export default function ServicesPage() {
   return (
-    <div className="bg-[#FAF8F2] text-white min-h-screen font-sans">
+    <div className="bg-[#FAF8F2] text-[#0A0A0A] min-h-screen font-sans">
       {/* BreadcrumbList schema */}
       <script
         type="application/ld+json"
@@ -340,7 +325,7 @@ export default function ServicesPage() {
                 </div>
               </div>
               <p className="text-black/50 text-sm leading-relaxed mb-12 max-w-2xl">
-                What keeps you cited — and surfaces new opportunities — after the foundation ships. One email per week. One report per month. Dashboard 24/7.
+                What keeps you cited — and surfaces new opportunities — after the foundation ships. One report per month. Ongoing Reddit monitoring and quarterly strategy.
               </p>
 
               <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-16">
@@ -364,7 +349,7 @@ export default function ServicesPage() {
 
               <div className="flex flex-col md:flex-row justify-between items-center pt-8 border-t border-black/10 gap-4">
                 <div className="font-mono text-[10px] tracking-widest text-black/40 uppercase">
-                  Cadence: ≤1.5 Emails/Week // Dashboard: 24/7
+                  Monthly Report // Quarterly Strategy Call // Reddit Monitor
                 </div>
                 <a
                   href="https://calendly.com/theanswerengine-support/30min"
@@ -473,16 +458,14 @@ export default function ServicesPage() {
                 </div>
                 <ul className="space-y-3">
                   {[
-                    'AEO Authority Index — weekly score across 4 AI platforms',
-                    'The Monday Brief — rank deltas + Reddit opportunities',
                     'Monthly AEO Intelligence Report',
-                    'Client Dashboard — live 4-platform tabs',
                     'Reddit Citation Monitor + draft responses',
                     'Top-Performer Conversion Audit (monthly)',
+                    'Quarterly strategy call',
                     'Territory lock — one client per category per city',
                     '90-day citation guarantee (from foundation)',
                   ].map((item) => (
-                    <li key={item} className="flex items-start gap-3 text-sm text-white/70">
+                    <li key={item} className="flex items-start gap-3 text-sm text-black/70">
                       <span className="mt-0.5 text-[#F27D24] font-bold flex-shrink-0">✓</span>
                       {item}
                     </li>
@@ -499,7 +482,7 @@ export default function ServicesPage() {
                     { step: '01', title: 'Territory Check', desc: 'Confirm your category and city are open. We only take one client per market.' },
                     { step: '02', title: 'Strategy Call', desc: '30-minute session to scope the foundation, confirm pricing, and lock your territory.' },
                     { step: '03', title: '90-Day Foundation', desc: 'We build your citation surface — content hub, schema, entity signals, baseline monitoring.' },
-                    { step: '04', title: 'Monthly Program', desc: 'Monday Brief, monthly report, dashboard, Reddit monitoring, and compounding content.' },
+                    { step: '04', title: 'Monthly Program', desc: 'Monthly AEO report, Reddit monitoring, quarterly strategy call, and compounding content.' },
                   ].map((s) => (
                     <li key={s.step} className="flex gap-4">
                       <span className="font-mono text-[#F27D24] font-bold text-sm flex-shrink-0 w-8">{s.step}</span>

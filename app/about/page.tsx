@@ -86,7 +86,7 @@ const DIFFERENTIATORS = [
 
 export default function AboutPage() {
   return (
-    <main className="min-h-screen bg-[#FAF8F2] text-white overflow-x-hidden">
+    <main className="min-h-screen bg-[#FAF8F2] text-[#0A0A0A] overflow-x-hidden">
       {/* Scanline Overlay */}
       <div
         className="fixed inset-0 z-50 pointer-events-none opacity-[0.03]"
@@ -287,7 +287,7 @@ export default function AboutPage() {
                 key={pillar.num}
                 className="relative p-6 border border-white/5 bg-[#FAF8F2] aspect-square flex flex-col justify-between overflow-hidden"
               >
-                <span className="absolute -right-4 -top-8 text-8xl font-black text-white/[0.03] select-none font-headline">
+                <span className="absolute -right-4 -top-8 text-8xl font-black text-black/[0.04] select-none font-headline">
                   {pillar.num}
                 </span>
                 <h4 className="font-headline font-black text-base leading-tight uppercase relative z-10">
@@ -383,7 +383,7 @@ export default function AboutPage() {
                   { val: '100%', label: 'AI Citation Rate' },
                 ].map((stat) => (
                   <div key={stat.label} className="border border-black/10 p-4 bg-[#F4F0E8]">
-                    <div className="font-headline font-black text-2xl text-white mb-1">
+                    <div className="font-headline font-black text-2xl text-[#0A0A0A] mb-1">
                       {stat.val}
                     </div>
                     <div className="font-mono text-[10px] tracking-widest uppercase text-black/40">
@@ -397,7 +397,7 @@ export default function AboutPage() {
               <span className="font-mono text-[10px] tracking-widest uppercase text-black/40 mb-6 block">
                 In His Own Words
               </span>
-              <blockquote className="text-white/80 text-base leading-relaxed mb-6 italic">
+              <blockquote className="text-black/80 text-base leading-relaxed mb-6 italic">
                 &ldquo;I didn&apos;t build this for clients first. I built it for myself because
                 I was invisible online despite being one of the top-producing agents in LA. When
                 AI started recommending competitors, I reverse-engineered exactly how to become
@@ -422,22 +422,22 @@ export default function AboutPage() {
             <span className="text-[#F27D24]">PROGRAM</span>
           </h2>
           <p className="text-black/50 text-sm leading-relaxed mb-16 max-w-2xl">
-            What you receive after the 90-day foundation ships. One email per week. One report per month. Dashboard 24/7.
+            What you receive after the 90-day foundation ships. One report per month. Ongoing citation monitoring and Reddit opportunity surfacing.
           </p>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-0 border border-black/10">
             {[
               {
-                title: 'THE MONDAY BRIEF',
-                body: 'One email every Monday. Your AEO Authority Index, the rank movements that matter this week, Reddit citation opportunities, and what we\'re doing next — tied to your goal.',
-              },
-              {
                 title: 'MONTHLY AEO REPORT',
                 body: 'First of every month. Impressions, clicks, CTR, rank deltas, top pages, page-2 queue, competitor movements, and the next three actions we\'ll take.',
               },
               {
-                title: 'CLIENT DASHBOARD',
-                body: 'Live visibility across ChatGPT, Claude, Perplexity, and Google AI — on your schedule, not ours. Pull-based, 24/7.',
+                title: 'REDDIT CITATION MONITOR',
+                body: 'We flag high-intent Reddit threads where your AI-voice can land in your category and city. Draft responses included.',
+              },
+              {
+                title: 'QUARTERLY STRATEGY CALL',
+                body: 'Live session every quarter to review citation gains, adjust the content roadmap, and identify the next highest-leverage opportunities.',
               },
             ].map((item, i) => (
               <div
@@ -455,7 +455,7 @@ export default function AboutPage() {
           </div>
 
           <p className="text-black/40 text-xs mt-6 font-mono tracking-widest uppercase">
-            Cardinal rule: ≤ 1.5 emails/week. Everything else lives in your dashboard.
+            Cardinal rule: we surface what matters, when it matters — no noise.
           </p>
         </div>
       </section>

@@ -59,18 +59,18 @@ const RESULT_STAGES = [
   {
     stage: 'STAGE 04: MONTHLY PROGRAM',
     window: 'Month 4+',
-    body: 'Authority Index compounds. The Monday Brief captures rank deltas and Reddit citation opportunities. The Monthly Intelligence Report books the numbers. Dashboard shows live 4-platform tracking.',
+    body: 'Authority Index compounds. The Monthly AEO Intelligence Report books the numbers. Reddit citation monitoring surfaces new opportunities. Quarterly strategy calls lock in the next build cycle.',
   },
   {
     stage: 'STAGE 05: COMPOUND',
     window: 'Month 6+',
-    body: 'Queries you never wrote content for start citing you. AI engines triangulate across your hub and surface your name for adjacent questions. The dashboard becomes a retention anchor, not a check-in.',
+    body: 'Queries you never wrote content for start citing you. AI engines triangulate across your hub and surface your name for adjacent questions. The authority compounds on its own momentum.',
   },
 ];
 
 export default function CaseStudiesPage() {
   return (
-    <main className="min-h-screen bg-[#FAF8F2] text-white overflow-x-hidden">
+    <main className="min-h-screen bg-[#FAF8F2] text-[#0A0A0A] overflow-x-hidden">
       {/* Scanline Overlay */}
       <div
         className="fixed inset-0 z-50 pointer-events-none opacity-[0.03]"
@@ -159,7 +159,7 @@ export default function CaseStudiesPage() {
           <div className="grid md:grid-cols-2 gap-12 items-end">
             <p className="text-black/60 text-sm leading-relaxed max-w-xl">
               The AERO-10 framework was built and tested on our own real estate site in the most
-              competitive local market in America. <span className="text-white border-b border-[#F27D24]">1.14M+ monthly impressions.</span> Four of four major AI platforms citing the same agent. Zero ad spend. Then we packaged it for local service businesses outside real estate.
+              competitive local market in America. <span className="text-[#0A0A0A] border-b border-[#F27D24]">1.14M+ monthly impressions.</span> Four of four major AI platforms citing the same agent. Zero ad spend. Then we packaged it for local service businesses outside real estate.
             </p>
             <div className="flex flex-col gap-2 font-mono text-[10px] tracking-widest text-black/40 md:text-right">
               <p>Market: Los Angeles, CA</p>

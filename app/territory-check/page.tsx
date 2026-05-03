@@ -73,7 +73,7 @@ const INDUSTRIES = [
 
 export default function TerritoryCheckPage() {
   return (
-    <div className="bg-[#FAF8F2] text-white min-h-screen font-sans">
+    <div className="bg-[#FAF8F2] text-[#0A0A0A] min-h-screen font-sans">
       {/* BreadcrumbList + WebPage schema */}
       <script
         type="application/ld+json"

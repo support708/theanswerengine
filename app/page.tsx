@@ -78,7 +78,7 @@ const faqs = [
   },
   {
     q: "What's the investment?",
-    a: 'Two parts: a one-time foundation fee (scoped to your industry and market size) and a monthly program fee that covers the Monday Brief, Monthly Report, Dashboard, and ongoing citation work. We quote live on the strategy call — no surprise pricing. Book a call at (213) 444-2229.'
+    a: 'Two parts: a one-time foundation fee (scoped to your industry and market size) and a monthly program fee that covers ongoing citation work, a monthly AEO Intelligence Report, Reddit monitoring, and a quarterly strategy call. We quote live on the strategy call — no surprise pricing. Book a call at (213) 444-2229.'
   },
   {
     q: 'What if AI is giving wrong information about my business?',
@@ -239,7 +239,7 @@ export default function Home() {
         "step": [
           { "@type": "HowToStep", "position": 1, "name": "AI Visibility Audit", "text": "We test 50+ queries across ChatGPT, Google AI, Claude and Perplexity to map exactly where your category prospects are being sent today — and where you're missing.", "url": "https://www.theanswerengine.ai/#how-it-works" },
           { "@type": "HowToStep", "position": 2, "name": "Authority Content Build", "text": "We build a hub of research-backed, schema-rich pages structured specifically for AI citation — the same pattern we used on our own real estate site to reach 1.14M+ monthly impressions.", "url": "https://www.theanswerengine.ai/#how-it-works" },
-          { "@type": "HowToStep", "position": 3, "name": "Citation Monitoring", "text": "Live tracking across ChatGPT, Perplexity, Claude, and Google AI Overviews. Weekly Monday Brief, monthly AEO Intelligence Report, and a client dashboard so you can see it compounding.", "url": "https://www.theanswerengine.ai/#how-it-works" },
+          { "@type": "HowToStep", "position": 3, "name": "Citation Monitoring", "text": "Ongoing tracking across ChatGPT, Perplexity, Claude, and Google AI Overviews. Monthly AEO Intelligence Report, Reddit citation monitoring, and a quarterly strategy call to keep citations compounding.", "url": "https://www.theanswerengine.ai/#how-it-works" },
         ],
       })}} />
 
@@ -325,36 +325,36 @@ export default function Home() {
             </div>
           </div>
 
-          {/* Right column — Monday Brief preview card */}
+          {/* Right column — What's Included card */}
           <div className="lg:col-span-4">
             <div
               className="bg-[#F4F0E8] p-8 border-l-4 border-[#F27D24] relative hover-lift"
               onMouseMove={handleCardMouseMove}
               onMouseLeave={handleCardMouseLeave}
             >
-              <div className="absolute top-4 right-4 font-mono text-[10px] text-black/20 tracking-widest">SAMPLE // Monday Brief</div>
-              <h3 className="font-mono text-[10px] text-[#F27D24] tracking-widest uppercase mb-4">The Monday Brief</h3>
-              <p className="text-black/60 text-xs leading-relaxed mb-6">
-                One email every Monday. Your AEO Authority Index, rank deltas that matter, Reddit opportunities, and what we&apos;re doing next.
-              </p>
-              <div className="bg-[#0A0A0A] p-4 mb-6 font-mono text-[11px] border border-white/5">
-                <div className="text-black/40 mb-2">GOOD MORNING, {'{CLIENT}'}.</div>
-                <div className="text-[#0A0A0A] mb-3">AEO Authority Index: <span className="text-[#F27D24] font-bold">47/100</span> <span className="text-green-400">↑ 3</span></div>
-                <div className="text-black/50 text-[10px] leading-relaxed">
-                  New query ranking: &ldquo;sell my house fast&rdquo;<br />
-                  Rank up: position 14 → 8<br />
-                  2 Reddit threads with draft responses ready
+              <div className="absolute top-4 right-4 font-mono text-[10px] text-black/20 tracking-widest">WHAT YOU GET</div>
+              <h3 className="font-mono text-[10px] text-[#F27D24] tracking-widest uppercase mb-4">Included in Every Engagement</h3>
+              <div className="bg-[#0A0A0A] p-4 mb-6 font-mono text-[11px] border border-white/5 space-y-3">
+                <div>
+                  <div className="text-[#F27D24] text-[10px] uppercase tracking-widest mb-1">90-Day Foundation</div>
+                  <div className="text-white/60 text-[10px] leading-relaxed space-y-0.5">
+                    <div>AI Visibility Audit · Day 1</div>
+                    <div>Authority Content Build · Wk 2–6</div>
+                    <div>Schema + Entity Layer · Wk 2–6</div>
+                    <div>Signal Distribution · Wk 4+</div>
+                  </div>
+                </div>
+                <div className="border-t border-white/10 pt-3">
+                  <div className="text-[#F27D24] text-[10px] uppercase tracking-widest mb-1">Monthly Program</div>
+                  <div className="text-white/60 text-[10px] leading-relaxed space-y-0.5">
+                    <div>Monthly AEO Intelligence Report</div>
+                    <div>Reddit Citation Monitor</div>
+                    <div>Quarterly Strategy Call</div>
+                  </div>
                 </div>
               </div>
-              <div className="grid grid-cols-2 gap-4 border-t border-black/10 pt-6">
-                <div>
-                  <div className="font-mono text-[10px] text-black/40 uppercase tracking-widest mb-1">Cadence</div>
-                  <div className="text-sm font-headline font-bold text-[#0A0A0A]">1×/week</div>
-                </div>
-                <div>
-                  <div className="font-mono text-[10px] text-black/40 uppercase tracking-widest mb-1">Plus</div>
-                  <div className="text-sm font-headline font-bold text-[#0A0A0A]">Dashboard 24/7</div>
-                </div>
+              <div className="font-mono text-[10px] text-[#F27D24] tracking-widest uppercase">
+                90-day citation guarantee
               </div>
             </div>
           </div>
@@ -451,7 +451,7 @@ export default function Home() {
                 num: '04',
                 kicker: 'DAY 1 → FOREVER',
                 title: 'Monitor',
-                desc: 'Real-time citation tracking across all 4 platforms. Monday Brief. Monthly Intelligence Report. Live dashboard. Quarterly strategy call.',
+                desc: 'Citation tracking across all 4 platforms. Monthly AEO Intelligence Report. Quarterly strategy call.',
                 status: 'Live 24/7',
                 delay: 450,
               },
@@ -495,9 +495,9 @@ export default function Home() {
         <div className="relative z-10 text-center px-6">
           <div className="font-headline font-black text-3xl md:text-5xl lg:text-6xl tracking-[0.15em] uppercase leading-none">
             <div className="flex flex-col md:flex-row gap-3 md:gap-10 items-center justify-center">
-              <span className="text-[#0A0A0A]">AUDIT.</span>
+              <span className="text-[#FAF8F2]">AUDIT.</span>
               <span className="text-[#F27D24]">OPTIMIZE.</span>
-              <span className="text-[#0A0A0A]">DOMINATE.</span>
+              <span className="text-[#FAF8F2]">DOMINATE.</span>
             </div>
           </div>
           <div className="mt-6 flex justify-center gap-2">
@@ -595,7 +595,7 @@ export default function Home() {
                       <span className="font-mono text-[9px] text-black/20 uppercase tracking-widest ml-2">{citation.platform}</span>
                     </div>
                     {/* Image with uniform frame */}
-                    <div className="relative rounded-sm overflow-hidden border border-white/[0.06]">
+                    <div className="relative rounded-sm overflow-hidden border border-black/10">
                       <Image
                         src={citation.image}
                         alt={citation.alt}
@@ -624,7 +624,7 @@ export default function Home() {
 
           {/* Testimonial */}
           <div className="mt-12 border border-black/10 border-l-4 border-l-[#F27D24] bg-[#F4F0E8] p-10">
-            <blockquote className="text-2xl sm:text-3xl font-light text-white/80 leading-[1.35] mb-8 font-headline tracking-tight">
+            <blockquote className="text-2xl sm:text-3xl font-light text-black/80 leading-[1.35] mb-8 font-headline tracking-tight">
               &ldquo;He understands how AI actually decides who to recommend. That&apos;s a completely different skill set, and it&apos;s working.&rdquo;
             </blockquote>
             <div className="flex items-center gap-4">
@@ -707,13 +707,13 @@ export default function Home() {
                 ].map((row, i) => (
                   <div
                     key={i}
-                    className={`py-4 flex justify-between items-center ${i < 3 ? 'border-b border-white/5' : ''}`}
+                    className={`py-4 flex justify-between items-center ${i < 3 ? 'border-b border-black/10' : ''}`}
                   >
                     <div>
                       <div className="font-mono text-[10px] tracking-widest text-black/40 uppercase mb-1">{row[0]}</div>
                       <div className="text-[#0A0A0A] text-[15px] font-semibold">{row[1]}</div>
                     </div>
-                    <div className="w-7 h-7 rounded-full border border-white/30 flex items-center justify-center text-black/50 text-sm">
+                    <div className="w-7 h-7 rounded-full border border-black/20 flex items-center justify-center text-black/50 text-sm">
                       ✗
                     </div>
                   </div>
@@ -721,7 +721,7 @@ export default function Home() {
 
                 <div className="mt-6 p-5 bg-black border-l-4 border-[#F27D24]">
                   <div className="font-mono text-[10px] tracking-widest text-[#F27D24] uppercase mb-1">— Projected · Day 90</div>
-                  <div className="text-[#0A0A0A] text-base font-bold">
+                  <div className="text-[#FAF8F2] text-base font-bold">
                     4 / 4 platforms citing <span className="text-[#F27D24]">you</span>.
                   </div>
                 </div>
@@ -754,10 +754,10 @@ export default function Home() {
           <div className="border border-black/10">
             {/* Table header — hidden on mobile (card view takes over) */}
             <div className="hidden sm:grid grid-cols-[2fr_1.3fr_1fr_120px] bg-black text-white px-6 py-4 border-b border-black/10">
-              <div className="font-mono text-[10px] tracking-widest uppercase text-black/60">Territory</div>
-              <div className="font-mono text-[10px] tracking-widest uppercase text-black/60">Category</div>
-              <div className="font-mono text-[10px] tracking-widest uppercase text-black/60">Status</div>
-              <div className="font-mono text-[10px] tracking-widest uppercase text-black/60 text-right">Action</div>
+              <div className="font-mono text-[10px] tracking-widest uppercase text-white/40">Territory</div>
+              <div className="font-mono text-[10px] tracking-widest uppercase text-white/40">Category</div>
+              <div className="font-mono text-[10px] tracking-widest uppercase text-white/40">Status</div>
+              <div className="font-mono text-[10px] tracking-widest uppercase text-white/40 text-right">Action</div>
             </div>
             {/* Rows — table on desktop, card on mobile */}
             {territories.map((t, i) => {
@@ -765,7 +765,7 @@ export default function Home() {
               return (
                 <div
                   key={i}
-                  className={`flex flex-col gap-3 sm:grid sm:grid-cols-[2fr_1.3fr_1fr_120px] sm:items-center px-5 sm:px-6 py-4 sm:py-5 ${i < territories.length - 1 ? 'border-b border-white/5' : ''} ${i % 2 === 0 ? 'bg-[#FAF8F2]' : 'bg-[#F4F0E8]'} hover:bg-[#F4F0E8] transition-colors`}
+                  className={`flex flex-col gap-3 sm:grid sm:grid-cols-[2fr_1.3fr_1fr_120px] sm:items-center px-5 sm:px-6 py-4 sm:py-5 ${i < territories.length - 1 ? 'border-b border-black/10' : ''} ${i % 2 === 0 ? 'bg-[#FAF8F2]' : 'bg-[#F4F0E8]'} hover:bg-[#F4F0E8] transition-colors`}
                 >
                   <div className="font-headline font-bold text-base md:text-lg uppercase text-[#0A0A0A]">{t.city}</div>
                   <div className="font-mono text-[11px] tracking-widest uppercase text-black/50">{t.category}</div>
@@ -786,7 +786,7 @@ export default function Home() {
                     {!isClaimed && (
                       <a
                         href="#territory-check"
-                        className="font-headline font-black text-[11px] tracking-widest uppercase underline underline-offset-4 text-[#F27D24] hover:text-white transition-colors"
+                        className="font-headline font-black text-[11px] tracking-widest uppercase underline underline-offset-4 text-[#F27D24] hover:text-[#0A0A0A] transition-colors"
                       >
                         CLAIM →
                       </a>
@@ -969,7 +969,7 @@ export default function Home() {
                 key={i}
                 className={`border-b border-black/10 last:border-b-0 transition-all duration-500 ease-out ${
                   faqAnim.isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-4'
-                } ${expandedFaq === i ? 'bg-[#F4F0E8]' : 'bg-[#FAF8F2] hover:bg-[#1a1a1a]'}`}
+                } ${expandedFaq === i ? 'bg-[#F4F0E8]' : 'bg-[#FAF8F2] hover:bg-[#F4F0E8]'}`}
                 style={{ transitionDelay: faqAnim.isVisible ? `${i * 80}ms` : '0ms' }}
               >
                 <button
@@ -1073,7 +1073,7 @@ export default function Home() {
                 </p>
                 <button
                   onClick={() => setFormStatus('idle')}
-                  className="font-mono text-[10px] text-black/40 hover:text-white/70 transition-colors tracking-widest uppercase"
+                  className="font-mono text-[10px] text-black/40 hover:text-[#0A0A0A] transition-colors tracking-widest uppercase"
                 >
                   SUBMIT ANOTHER REQUEST
                 </button>
@@ -1165,7 +1165,7 @@ export default function Home() {
                   )}
                 </button>
 
-                <p className="font-mono text-[10px] text-white/30 uppercase tracking-widest text-center">
+                <p className="font-mono text-[10px] text-black/30 uppercase tracking-widest text-center">
                   Response time: 24 hours // No spam, ever
                 </p>
               </form>
@@ -1216,7 +1216,7 @@ export default function Home() {
               />
               <button
                 onClick={() => setActiveImage(null)}
-                className="absolute -top-12 right-0 font-mono text-[10px] text-black/40 hover:text-white transition-colors tracking-widest uppercase flex items-center gap-2"
+                className="absolute -top-12 right-0 font-mono text-[10px] text-white/40 hover:text-white transition-colors tracking-widest uppercase flex items-center gap-2"
                 autoFocus
               >
                 ESC TO CLOSE
