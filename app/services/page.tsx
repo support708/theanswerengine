@@ -278,7 +278,7 @@ export default function ServicesPage() {
                 {FOUNDATION_ITEMS.map((item) => (
                   <div
                     key={item.title}
-                    className="p-6 bg-[#0A0A0A] border border-white/5 hover:border-[#F27D24]/50 transition-all"
+                    className="p-6 bg-[#0A0A0A] text-white border border-white/5 hover:border-[#F27D24]/50 transition-all"
                   >
                     <div className="text-[#F27D24] text-4xl mb-4 font-black font-mono">
                       {item.icon}
@@ -286,7 +286,7 @@ export default function ServicesPage() {
                     <h3 className="font-headline font-bold text-xl uppercase mb-2 tracking-tighter">
                       {item.title}
                     </h3>
-                    <p className="text-black/60 text-sm leading-relaxed">
+                    <p className="text-white/60 text-sm leading-relaxed">
                       {item.desc}
                     </p>
                   </div>
@@ -316,15 +316,15 @@ export default function ServicesPage() {
                   <div className="font-mono text-[10px] tracking-widest text-[#F27D24] uppercase mb-2">
                     Part 2 // Ongoing
                   </div>
-                  <div className="font-headline font-black text-3xl md:text-4xl text-[#0A0A0A] uppercase tracking-tighter">
+                  <div className="font-headline font-black text-3xl md:text-4xl text-white uppercase tracking-tighter">
                     The Monthly Program
                   </div>
                 </div>
-                <div className="font-mono text-[10px] text-black/40 uppercase tracking-widest">
+                <div className="font-mono text-[10px] text-white/40 uppercase tracking-widest">
                   Compounds The Foundation
                 </div>
               </div>
-              <p className="text-black/50 text-sm leading-relaxed mb-12 max-w-2xl">
+              <p className="text-white/50 text-sm leading-relaxed mb-12 max-w-2xl">
                 What keeps you cited — and surfaces new opportunities — after the foundation ships. One report per month. Ongoing Reddit monitoring and quarterly strategy.
               </p>
 
@@ -347,15 +347,15 @@ export default function ServicesPage() {
                 ))}
               </div>
 
-              <div className="flex flex-col md:flex-row justify-between items-center pt-8 border-t border-black/10 gap-4">
-                <div className="font-mono text-[10px] tracking-widest text-black/40 uppercase">
+              <div className="flex flex-col md:flex-row justify-between items-center pt-8 border-t border-white/10 gap-4">
+                <div className="font-mono text-[10px] tracking-widest text-white/40 uppercase">
                   Monthly Report // Quarterly Strategy Call // Reddit Monitor
                 </div>
                 <a
                   href="https://calendly.com/theanswerengine-support/30min"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="font-mono text-[10px] tracking-widest text-[#F27D24] uppercase hover:text-[#0A0A0A] transition-colors"
+                  className="font-mono text-[10px] tracking-widest text-[#F27D24] uppercase hover:text-white/60 transition-colors"
                 >
                   Book 30-min call →
                 </a>
@@ -373,12 +373,12 @@ export default function ServicesPage() {
               <div className="font-mono text-[10px] tracking-widest text-[#F27D24] uppercase mb-3">
                 + Pricing // Monthly Program
               </div>
-              <h2 className="font-headline font-black text-5xl md:text-6xl uppercase tracking-tighter leading-none mb-6">
+              <h2 className="font-headline font-black text-5xl md:text-6xl uppercase tracking-tighter leading-none mb-6 text-white">
                 TWO TIERS.
                 <br />
                 <span className="text-[#F27D24]">ONE MARKET EACH.</span>
               </h2>
-              <p className="max-w-2xl text-black/60 text-lg border-l-2 border-[#F27D24] pl-6">
+              <p className="max-w-2xl text-white/60 text-lg border-l-2 border-[#F27D24] pl-6">
                 Both plans include the $1,500 one-time onboarding. Six-month prepay = 1 month free (pay 5, get 6). Territory lock is exclusive — one client per category per city.
               </p>
             </div>
@@ -391,7 +391,7 @@ export default function ServicesPage() {
                   className={`relative border-t-4 border-l-4 p-10 ${
                     i === 1
                       ? 'bg-[#F27D24] border-[#F27D24] text-black'
-                      : 'bg-[#F4F0E8] border-[#F27D24] text-white'
+                      : 'bg-[#F4F0E8] border-[#F27D24] text-[#0A0A0A]'
                   }`}
                 >
                   {i === 1 && (
@@ -415,7 +415,7 @@ export default function ServicesPage() {
 
                   <ul className="space-y-3 mb-10">
                     {tier.features.map((f) => (
-                      <li key={f} className={`flex items-start gap-3 text-sm ${i === 1 ? 'text-black' : 'text-white/80'}`}>
+                      <li key={f} className={`flex items-start gap-3 text-sm ${i === 1 ? 'text-black' : 'text-black/70'}`}>
                         <span className={`mt-0.5 font-bold flex-shrink-0 ${i === 1 ? 'text-black' : 'text-[#F27D24]'}`}>✓</span>
                         {f}
                       </li>
