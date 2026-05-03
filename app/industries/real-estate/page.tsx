@@ -112,7 +112,7 @@ export default function RealEstateIndustryPage() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd) }} />
 
-      <main className="min-h-screen bg-[#FAF8F2] text-[#0A0A0A] overflow-x-hidden pt-16">
+      <main className="min-h-screen bg-[#FAF8F2] text-white overflow-x-hidden pt-16">
         {/* HERO */}
         <section
           className="relative py-24 md:py-32 px-6 lg:px-24 border-b border-white/5"
@@ -275,7 +275,7 @@ export default function RealEstateIndustryPage() {
               </p>
               <Link
                 href="/case-studies"
-                className="font-mono text-[10px] tracking-widest uppercase text-[#F27D24] hover:text-[#0A0A0A] transition-colors inline-flex items-center gap-2"
+                className="font-mono text-[10px] tracking-widest uppercase text-[#F27D24] hover:text-white transition-colors inline-flex items-center gap-2"
               >
                 Read the full case study
                 <svg className="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={2}>

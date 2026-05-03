@@ -119,7 +119,7 @@ export default function AnswerEngineAuditPage() {
         ],
       }) }} />
 
-      <main className="min-h-screen bg-[#FAF8F2] text-[#0A0A0A] overflow-x-hidden pt-16">
+      <main className="min-h-screen bg-[#FAF8F2] text-white overflow-x-hidden pt-16">
         {/* Scanline Overlay */}
         <div
           className="fixed inset-0 z-50 pointer-events-none opacity-[0.03]"
@@ -241,7 +241,7 @@ export default function AnswerEngineAuditPage() {
               </p>
               <Link
                 href="/case-studies"
-                className="font-mono text-[10px] tracking-widest uppercase text-[#F27D24] hover:text-[#0A0A0A] transition-colors inline-flex items-center gap-2"
+                className="font-mono text-[10px] tracking-widest uppercase text-[#F27D24] hover:text-white transition-colors inline-flex items-center gap-2"
               >
                 Read the full case study
                 <svg className="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={2}>
@@ -267,10 +267,10 @@ export default function AnswerEngineAuditPage() {
               {FAQS.map((faq) => (
                 <details
                   key={faq.q}
-                  className="group bg-[#FAF8F2] border border-black/10 border-l-4 border-l-transparent open:border-l-[#F27D24] transition-colors"
+                  className="group bg-[#FAF8F2] border border-white/5 border-l-4 border-l-transparent open:border-l-[#F27D24] transition-colors"
                 >
                   <summary className="p-6 flex justify-between items-center cursor-pointer list-none">
-                    <h4 className="font-headline font-bold text-lg uppercase tracking-tighter text-[#0A0A0A] group-open:text-[#F27D24] transition-colors">
+                    <h4 className="font-headline font-bold text-lg uppercase tracking-tighter text-white group-open:text-[#F27D24] transition-colors">
                       {faq.q}
                     </h4>
                     <span className="font-mono text-black/40 text-xl select-none ml-4 group-open:rotate-45 transition-transform">

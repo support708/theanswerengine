@@ -122,7 +122,7 @@ export default function BlindSpotPage() {
         }) }}
       />
 
-      <main className="min-h-screen bg-[#FAF8F2] text-[#0A0A0A] overflow-x-hidden pt-16">
+      <main className="min-h-screen bg-[#FAF8F2] text-white overflow-x-hidden pt-16">
         {/* HERO */}
         <section
           className="relative py-24 md:py-32 px-6 lg:px-24 border-b border-white/5"
@@ -304,7 +304,7 @@ export default function BlindSpotPage() {
                   className="group bg-[#F4F0E8] border border-black/10 border-l-4 border-l-transparent open:border-l-[#F27D24] transition-colors"
                 >
                   <summary className="px-6 py-5 flex justify-between items-center cursor-pointer list-none [&::-webkit-details-marker]:hidden">
-                    <h4 className="font-headline font-bold text-base md:text-lg uppercase tracking-tighter text-[#0A0A0A] group-open:text-[#F27D24] transition-colors">
+                    <h4 className="font-headline font-bold text-base md:text-lg uppercase tracking-tighter text-white group-open:text-[#F27D24] transition-colors">
                       {faq.question}
                     </h4>
                     <span className="font-mono text-black/40 text-xl select-none ml-4 group-open:rotate-45 transition-transform">

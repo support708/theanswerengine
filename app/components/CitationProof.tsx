@@ -19,8 +19,11 @@ export default function CitationProof({ className = '', isVisible = false }: Cit
     if (!isVisible || hasStarted.current) return;
     hasStarted.current = true;
 
+    // Step 1: Show query bubble after small delay
     const t1 = setTimeout(() => setStep(1), 600);
+    // Step 2: Show typing indicator
     const t2 = setTimeout(() => setStep(2), 1800);
+    // Step 3: Start typing response
     const t3 = setTimeout(() => setStep(3), 2800);
 
     return () => {
@@ -30,6 +33,7 @@ export default function CitationProof({ className = '', isVisible = false }: Cit
     };
   }, [isVisible]);
 
+  // Typing animation for response
   useEffect(() => {
     if (step !== 3) return;
 
@@ -49,15 +53,15 @@ export default function CitationProof({ className = '', isVisible = false }: Cit
   return (
     <div className={`max-w-lg mx-auto ${className}`}>
       {/* AI Chat Window */}
-      <div className="bg-white border border-black/10 rounded-2xl overflow-hidden">
+      <div className="bg-white/[0.02] border border-white/[0.08] rounded-2xl overflow-hidden">
         {/* Window chrome */}
-        <div className="flex items-center gap-2 px-4 py-3 border-b border-black/10 bg-[#F4F0E8]">
+        <div className="flex items-center gap-2 px-4 py-3 border-b border-white/[0.06]">
           <div className="flex gap-1.5">
-            <div className="w-2.5 h-2.5 rounded-full bg-black/20" />
-            <div className="w-2.5 h-2.5 rounded-full bg-black/20" />
-            <div className="w-2.5 h-2.5 rounded-full bg-black/20" />
+            <div className="w-2.5 h-2.5 rounded-full bg-black/10" />
+            <div className="w-2.5 h-2.5 rounded-full bg-black/10" />
+            <div className="w-2.5 h-2.5 rounded-full bg-black/10" />
           </div>
-          <span className="text-xs text-black/30 ml-2 font-mono">AI Assistant</span>
+          <span className="text-xs text-white/30 ml-2 font-mono">AI Assistant</span>
         </div>
 
         {/* Chat messages */}
@@ -68,17 +72,17 @@ export default function CitationProof({ className = '', isVisible = false }: Cit
               step >= 1 ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-3'
             }`}
           >
-            <div className="bg-[#F27D24]/15 border border-[#F27D24]/25 rounded-2xl rounded-br-md px-4 py-3 max-w-[85%]">
-              <p className="text-[#0A0A0A] text-sm leading-relaxed">{query}</p>
+            <div className="bg-white/[0.08] rounded-2xl rounded-br-md px-4 py-3 max-w-[85%]">
+              <p className="text-white/80 text-sm leading-relaxed">{query}</p>
             </div>
           </div>
 
           {/* Typing indicator */}
           {step === 2 && (
             <div className="flex items-center gap-1.5 px-4 py-3">
-              <div className="w-2 h-2 rounded-full bg-black/25 animate-pulse" style={{ animationDelay: '0ms' }} />
-              <div className="w-2 h-2 rounded-full bg-black/25 animate-pulse" style={{ animationDelay: '150ms' }} />
-              <div className="w-2 h-2 rounded-full bg-black/25 animate-pulse" style={{ animationDelay: '300ms' }} />
+              <div className="w-2 h-2 rounded-full bg-white/30 animate-pulse" style={{ animationDelay: '0ms' }} />
+              <div className="w-2 h-2 rounded-full bg-white/30 animate-pulse" style={{ animationDelay: '150ms' }} />
+              <div className="w-2 h-2 rounded-full bg-white/30 animate-pulse" style={{ animationDelay: '300ms' }} />
             </div>
           )}
 
@@ -89,10 +93,10 @@ export default function CitationProof({ className = '', isVisible = false }: Cit
             }`}
           >
             {step >= 3 && (
-              <div className="bg-[#FAF8F2] border border-black/10 rounded-2xl rounded-bl-md px-4 py-3 max-w-[90%]">
-                <p className="text-black/70 text-sm leading-relaxed">
+              <div className="bg-white/[0.04] border border-white/[0.06] rounded-2xl rounded-bl-md px-4 py-3 max-w-[90%]">
+                <p className="text-white/70 text-sm leading-relaxed">
                   {typedText}
-                  {step === 3 && <span className="inline-block w-0.5 h-4 bg-[#F27D24] ml-0.5 animate-pulse align-text-bottom" />}
+                  {step === 3 && <span className="inline-block w-0.5 h-4 bg-black/50 ml-0.5 animate-pulse align-text-bottom" />}
                 </p>
               </div>
             )}
@@ -105,8 +109,8 @@ export default function CitationProof({ className = '', isVisible = false }: Cit
             }`}
           >
             {step >= 4 && (
-              <div className="inline-flex items-center gap-2 px-3 py-1.5 bg-[#F4F0E8] border border-black/10 rounded-lg">
-                <div className="w-1.5 h-1.5 rounded-full bg-[#F27D24]" />
+              <div className="inline-flex items-center gap-2 px-3 py-1.5 bg-white/[0.04] border border-white/[0.1] rounded-lg">
+                <div className="w-1.5 h-1.5 rounded-full bg-black/40" />
                 <span className="text-xs text-black/50 font-medium">Source: theanswerengine.ai</span>
               </div>
             )}
