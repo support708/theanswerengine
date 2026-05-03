@@ -29,7 +29,7 @@ export default function Nav() {
         {/* Logo */}
         <a href="/" className="flex items-center gap-3">
           <Image
-            src="/TheAnswerEngine_white logo only.png"
+            src="/mark-1b-white.png"
             alt="The Answer Engine"
             width={32}
             height={32}

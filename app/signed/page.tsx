@@ -24,18 +24,18 @@ export default function SignedPage() {
           <div className="relative">
             <svg className="w-24 h-auto" viewBox="0 0 200 60" fill="none">
               {/* "THE" */}
-              <text x="10" y="45" fontSize="28" fontWeight="700" fontFamily="Archivo Black, sans-serif" fill="white">
+              <text x="10" y="45" fontSize="28" fontWeight="900" fontFamily="Space Grotesk, sans-serif" fill="white">
                 THE
               </text>
               {/* Orange bracket on ANSWER */}
-              <rect x="55" y="20" width="4" height="32" fill="#FF6B35" />
-              <text x="65" y="45" fontSize="28" fontWeight="700" fontFamily="Archivo Black, sans-serif" fill="white">
+              <rect x="55" y="20" width="4" height="32" fill="#F27D24" />
+              <text x="65" y="45" fontSize="28" fontWeight="900" fontFamily="Space Grotesk, sans-serif" fill="white">
                 ANSWER
               </text>
               {/* Orange bracket close */}
-              <rect x="142" y="20" width="4" height="32" fill="#FF6B35" />
+              <rect x="142" y="20" width="4" height="32" fill="#F27D24" />
               {/* ENGINE */}
-              <text x="152" y="45" fontSize="28" fontWeight="700" fontFamily="Archivo Black, sans-serif" fill="white">
+              <text x="152" y="45" fontSize="28" fontWeight="900" fontFamily="Space Grotesk, sans-serif" fill="white">
                 ENGINE
               </text>
             </svg>
