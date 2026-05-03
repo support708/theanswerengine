@@ -935,7 +935,7 @@ export default function Page() {
                 href="mailto:support@theanswerengine.ai"
                 className="inline-block px-6 py-3 rounded-lg font-semibold text-sm transition-colors"
                 style={{
-                  border: '1px solid rgba(255,255,255,0.1)',
+                  border: '1px solid rgba(10,10,10,0.1)',
                   color: '#9ca3af',
                 }}
               >

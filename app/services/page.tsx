@@ -200,7 +200,7 @@ const FAQS = [
 
 export default function ServicesPage() {
   return (
-    <div className="bg-[#131313] text-white min-h-screen font-sans">
+    <div className="bg-[#FAF8F2] text-white min-h-screen font-sans">
       {/* BreadcrumbList schema */}
       <script
         type="application/ld+json"
@@ -269,15 +269,15 @@ export default function ServicesPage() {
         </section>
 
         {/* ── 90-DAY FOUNDATION ─────────────────────────────────────────────── */}
-        <section className="py-20 px-6 bg-[#1c1b1b]">
+        <section className="py-20 px-6 bg-[#F4F0E8]">
           <div className="max-w-7xl mx-auto">
-            <div className="bg-[#2a2a2a] border-l-4 border-t-4 border-[#F27D24] p-8 md:p-12">
+            <div className="bg-[#F4F0E8] border-l-4 border-t-4 border-[#F27D24] p-8 md:p-12">
               <div className="flex flex-col md:flex-row justify-between items-start md:items-center mb-4 gap-4">
                 <div>
                   <div className="font-mono text-[10px] tracking-widest text-[#F27D24] uppercase mb-2">
                     Part 1 // One-Time Build
                   </div>
-                  <div className="font-headline font-black text-3xl md:text-4xl text-[#e5e2e1] uppercase tracking-tighter">
+                  <div className="font-headline font-black text-3xl md:text-4xl text-[#0A0A0A] uppercase tracking-tighter">
                     The 90-Day Foundation
                   </div>
                 </div>
@@ -293,7 +293,7 @@ export default function ServicesPage() {
                 {FOUNDATION_ITEMS.map((item) => (
                   <div
                     key={item.title}
-                    className="p-6 bg-[#0e0e0e] border border-white/5 hover:border-[#F27D24]/50 transition-all"
+                    className="p-6 bg-[#0A0A0A] border border-white/5 hover:border-[#F27D24]/50 transition-all"
                   >
                     <div className="text-[#F27D24] text-4xl mb-4 font-black font-mono">
                       {item.icon}
@@ -323,15 +323,15 @@ export default function ServicesPage() {
         </section>
 
         {/* ── MONTHLY PROGRAM ─────────────────────────────────────────────── */}
-        <section className="py-20 px-6 bg-[#131313]">
+        <section className="py-20 px-6 bg-[#FAF8F2]">
           <div className="max-w-7xl mx-auto">
-            <div className="bg-[#0e0e0e] border-l-4 border-t-4 border-[#F27D24] p-8 md:p-12">
+            <div className="bg-[#0A0A0A] border-l-4 border-t-4 border-[#F27D24] p-8 md:p-12">
               <div className="flex flex-col md:flex-row justify-between items-start md:items-center mb-4 gap-4">
                 <div>
                   <div className="font-mono text-[10px] tracking-widest text-[#F27D24] uppercase mb-2">
                     Part 2 // Ongoing
                   </div>
-                  <div className="font-headline font-black text-3xl md:text-4xl text-[#e5e2e1] uppercase tracking-tighter">
+                  <div className="font-headline font-black text-3xl md:text-4xl text-[#0A0A0A] uppercase tracking-tighter">
                     The Monthly Program
                   </div>
                 </div>
@@ -347,7 +347,7 @@ export default function ServicesPage() {
                 {MONTHLY_ITEMS.map((item) => (
                   <div
                     key={item.title}
-                    className="p-6 bg-[#1c1b1b] border border-white/5 hover:border-[#F27D24]/50 transition-all"
+                    className="p-6 bg-[#F4F0E8] border border-white/5 hover:border-[#F27D24]/50 transition-all"
                   >
                     <div className="text-[#F27D24] text-4xl mb-4 font-black font-mono">
                       {item.icon}
@@ -370,7 +370,7 @@ export default function ServicesPage() {
                   href="https://calendly.com/theanswerengine-support/30min"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="font-mono text-[10px] tracking-widest text-[#F27D24] uppercase hover:text-[#e5e2e1] transition-colors"
+                  className="font-mono text-[10px] tracking-widest text-[#F27D24] uppercase hover:text-[#0A0A0A] transition-colors"
                 >
                   Book 30-min call →
                 </a>
@@ -380,7 +380,7 @@ export default function ServicesPage() {
         </section>
 
         {/* ── PRICING ──────────────────────────────────────────────────────── */}
-        <section id="pricing" className="py-24 px-6 bg-[#0e0e0e]">
+        <section id="pricing" className="py-24 px-6 bg-[#0A0A0A]">
           <div className="max-w-7xl mx-auto">
 
             {/* Section header */}
@@ -406,7 +406,7 @@ export default function ServicesPage() {
                   className={`relative border-t-4 border-l-4 p-10 ${
                     i === 1
                       ? 'bg-[#F27D24] border-[#F27D24] text-black'
-                      : 'bg-[#1c1b1b] border-[#F27D24] text-white'
+                      : 'bg-[#F4F0E8] border-[#F27D24] text-white'
                   }`}
                 >
                   {i === 1 && (
@@ -419,7 +419,7 @@ export default function ServicesPage() {
                     + {tier.name} Plan
                   </div>
 
-                  <div className={`font-headline font-black text-5xl md:text-6xl tracking-tighter mb-2 ${i === 1 ? 'text-black' : 'text-[#e5e2e1]'}`}>
+                  <div className={`font-headline font-black text-5xl md:text-6xl tracking-tighter mb-2 ${i === 1 ? 'text-black' : 'text-[#0A0A0A]'}`}>
                     ${tier.price.toLocaleString()}
                     <span className={`text-xl font-mono font-normal tracking-normal ${i === 1 ? 'text-black/60' : 'text-white/40'}`}>/mo</span>
                   </div>
@@ -441,7 +441,7 @@ export default function ServicesPage() {
                     <div className={`font-mono text-[10px] tracking-widest uppercase mb-2 ${i === 1 ? 'text-black/60' : 'text-white/40'}`}>
                       6-Month Prepay (Pay 5, Get 6)
                     </div>
-                    <div className={`font-headline font-black text-2xl tracking-tighter mb-1 ${i === 1 ? 'text-black' : 'text-[#e5e2e1]'}`}>
+                    <div className={`font-headline font-black text-2xl tracking-tighter mb-1 ${i === 1 ? 'text-black' : 'text-[#0A0A0A]'}`}>
                       ${tier.prepayPrice.toLocaleString()}
                     </div>
                     <div className={`font-mono text-[10px] tracking-widest uppercase ${i === 1 ? 'text-black/60' : 'text-[#F27D24]'}`}>
@@ -467,7 +467,7 @@ export default function ServicesPage() {
 
             {/* Included in both / How we start */}
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-16">
-              <div className="bg-[#1c1b1b] border border-white/10 p-8">
+              <div className="bg-[#F4F0E8] border border-white/10 p-8">
                 <div className="font-mono text-[10px] tracking-widest text-[#F27D24] uppercase mb-4">
                   + Included in Both Plans
                 </div>
@@ -490,7 +490,7 @@ export default function ServicesPage() {
                 </ul>
               </div>
 
-              <div className="bg-[#1c1b1b] border border-white/10 p-8">
+              <div className="bg-[#F4F0E8] border border-white/10 p-8">
                 <div className="font-mono text-[10px] tracking-widest text-[#F27D24] uppercase mb-4">
                   + How We Get Started
                 </div>
@@ -504,7 +504,7 @@ export default function ServicesPage() {
                     <li key={s.step} className="flex gap-4">
                       <span className="font-mono text-[#F27D24] font-bold text-sm flex-shrink-0 w-8">{s.step}</span>
                       <div>
-                        <div className="font-headline font-bold text-sm uppercase text-[#e5e2e1] tracking-tight mb-1">{s.title}</div>
+                        <div className="font-headline font-bold text-sm uppercase text-[#0A0A0A] tracking-tight mb-1">{s.title}</div>
                         <div className="text-white/50 text-sm leading-relaxed">{s.desc}</div>
                       </div>
                     </li>
@@ -665,7 +665,7 @@ export default function ServicesPage() {
         </section>
 
         {/* ── AEO VS SEO TABLE ─────────────────────────────────────────────── */}
-        <section className="py-24 px-6 bg-[#131313]">
+        <section className="py-24 px-6 bg-[#FAF8F2]">
           <div className="max-w-5xl mx-auto">
             <h2 className="font-headline font-black text-4xl uppercase mb-12 tracking-tighter border-b border-[#F27D24]/30 pb-4 inline-block">
               AEO VS TRADITIONAL SEO
@@ -690,7 +690,7 @@ export default function ServicesPage() {
                   {COMPARISON_ROWS.map((row, i) => (
                     <tr
                       key={row.param}
-                      className={`border-b border-white/5 ${i % 2 === 0 ? 'bg-[#1c1b1b]' : 'bg-[#131313]'}`}
+                      className={`border-b border-white/5 ${i % 2 === 0 ? 'bg-[#F4F0E8]' : 'bg-[#FAF8F2]'}`}
                     >
                       <td className="p-4 border-r border-white/5 font-bold text-white">
                         {row.param}
@@ -708,7 +708,7 @@ export default function ServicesPage() {
         </section>
 
         {/* ── FAQ ──────────────────────────────────────────────────────────── */}
-        <section className="py-24 px-6 bg-[#1c1b1b]">
+        <section className="py-24 px-6 bg-[#F4F0E8]">
           <div className="max-w-4xl mx-auto">
             <div className="flex items-end gap-6 mb-16">
               <h2 className="font-headline font-black text-5xl uppercase tracking-tighter leading-none">
@@ -725,7 +725,7 @@ export default function ServicesPage() {
                 <details
                   key={faq.q}
                   open={faq.open}
-                  className={`group ${faq.open ? 'bg-[#131313] border border-white/5 border-l-4 border-l-[#F27D24]' : 'bg-[#131313] border border-white/5'}`}
+                  className={`group ${faq.open ? 'bg-[#FAF8F2] border border-white/5 border-l-4 border-l-[#F27D24]' : 'bg-[#FAF8F2] border border-white/5'}`}
                 >
                   <summary className="p-6 flex justify-between items-center cursor-pointer list-none">
                     <h4
@@ -747,7 +747,7 @@ export default function ServicesPage() {
         </section>
 
         {/* ── CTA ──────────────────────────────────────────────────────────── */}
-        <section className="py-24 px-6 bg-[#131313]">
+        <section className="py-24 px-6 bg-[#FAF8F2]">
           <div className="max-w-7xl mx-auto bg-[#F27D24] p-12 md:p-20 relative overflow-hidden">
             <div className="relative z-20 flex flex-col items-center text-center">
               <h2 className="font-headline font-black text-6xl md:text-8xl uppercase tracking-tighter text-black mb-8">

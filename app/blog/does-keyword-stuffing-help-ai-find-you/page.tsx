@@ -175,7 +175,7 @@ export default function BlogPost() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
 
       {/* HERO */}
-      <section className="relative overflow-hidden bg-[#131313] grid-bg border-b border-white/10">
+      <section className="relative overflow-hidden bg-[#FAF8F2] grid-bg border-b border-white/10">
         <div className="relative max-w-4xl mx-auto px-6 pt-24 pb-16">
           <nav className="flex items-center gap-2 text-sm text-white/40 mb-8">
             <Link href="/" className="hover:text-[#F27D24] transition-colors">Home</Link>
@@ -187,7 +187,7 @@ export default function BlogPost() {
 
           <span className="font-mono text-[10px] text-[#F27D24] tracking-widest uppercase block mb-4">&#9679; MYTH BUSTERS // The Answer Engine Intel</span>
 
-          <h1 className="font-headline font-black text-4xl md:text-6xl tracking-tighter uppercase text-[#e5e2e1] mb-6">
+          <h1 className="font-headline font-black text-4xl md:text-6xl tracking-tighter uppercase text-[#0A0A0A] mb-6">
             {title}
           </h1>
 
@@ -243,11 +243,11 @@ export default function BlogPost() {
         </div>
 
         {/* SECTION 1: THE MYTH */}
-        <section id="the-myth" className="-mx-6 px-6 py-12 bg-[#131313] border-t border-white/10">
+        <section id="the-myth" className="-mx-6 px-6 py-12 bg-[#FAF8F2] border-t border-white/10">
           <span className="font-mono text-[10px] text-[#F27D24] tracking-widest uppercase block mb-3">
             &#9679; MYTH BUSTERS // The Answer Engine Intel
           </span>
-          <h2 className="font-headline font-black text-2xl md:text-3xl tracking-tighter uppercase text-[#e5e2e1] mb-6">
+          <h2 className="font-headline font-black text-2xl md:text-3xl tracking-tighter uppercase text-[#0A0A0A] mb-6">
             THE KEYWORD STUFFING <span className="text-[#F27D24]">MYTH</span>
           </h2>
           <div className="prose prose-invert prose-lg max-w-none prose-p:text-gray-300 prose-a:text-[#F27D24] prose-a:no-underline hover:prose-a:underline prose-strong:text-white">
@@ -269,11 +269,11 @@ export default function BlogPost() {
         </section>
 
         {/* SECTION 2: HOW AI READS */}
-        <section id="how-ai-reads" className="-mx-6 px-6 py-12 bg-[#1c1b1b] border-t border-white/10">
+        <section id="how-ai-reads" className="-mx-6 px-6 py-12 bg-[#F4F0E8] border-t border-white/10">
           <span className="font-mono text-[10px] text-[#F27D24] tracking-widest uppercase block mb-3">
             &#9679; HOW IT WORKS // The Answer Engine Intel
           </span>
-          <h2 className="font-headline font-black text-2xl md:text-3xl tracking-tighter uppercase text-[#e5e2e1] mb-6">
+          <h2 className="font-headline font-black text-2xl md:text-3xl tracking-tighter uppercase text-[#0A0A0A] mb-6">
             HOW AI ACTUALLY <span className="text-[#F27D24]">READS</span> YOUR CONTENT
           </h2>
           <div className="prose prose-invert prose-lg max-w-none prose-p:text-gray-300 prose-a:text-[#F27D24] prose-a:no-underline hover:prose-a:underline prose-strong:text-white">
@@ -295,11 +295,11 @@ export default function BlogPost() {
         </section>
 
         {/* SECTION 3: WHY IT BACKFIRES */}
-        <section id="why-it-backfires" className="-mx-6 px-6 py-12 bg-[#131313] border-t border-white/10">
+        <section id="why-it-backfires" className="-mx-6 px-6 py-12 bg-[#FAF8F2] border-t border-white/10">
           <span className="font-mono text-[10px] text-[#F27D24] tracking-widest uppercase block mb-3">
             &#9679; THE BACKFIRE EFFECT // The Answer Engine Intel
           </span>
-          <h2 className="font-headline font-black text-2xl md:text-3xl tracking-tighter uppercase text-[#e5e2e1] mb-6">
+          <h2 className="font-headline font-black text-2xl md:text-3xl tracking-tighter uppercase text-[#0A0A0A] mb-6">
             WHY KEYWORD STUFFING <span className="text-[#F27D24]">BACKFIRES</span>
           </h2>
           <div className="prose prose-invert prose-lg max-w-none prose-p:text-gray-300 prose-a:text-[#F27D24] prose-a:no-underline hover:prose-a:underline prose-strong:text-white">
@@ -355,11 +355,11 @@ export default function BlogPost() {
         </section>
 
         {/* SECTION 4: SEO VS AI */}
-        <section id="seo-vs-ai" className="-mx-6 px-6 py-12 bg-[#1c1b1b] border-t border-white/10">
+        <section id="seo-vs-ai" className="-mx-6 px-6 py-12 bg-[#F4F0E8] border-t border-white/10">
           <span className="font-mono text-[10px] text-[#F27D24] tracking-widest uppercase block mb-3">
             &#9679; SIDE BY SIDE // The Answer Engine Intel
           </span>
-          <h2 className="font-headline font-black text-2xl md:text-3xl tracking-tighter uppercase text-[#e5e2e1] mb-6">
+          <h2 className="font-headline font-black text-2xl md:text-3xl tracking-tighter uppercase text-[#0A0A0A] mb-6">
             SEO KEYWORDS VS. <span className="text-[#F27D24]">AI SIGNALS</span>
           </h2>
           <div className="prose prose-invert prose-lg max-w-none prose-p:text-gray-300 prose-a:text-[#F27D24] prose-a:no-underline hover:prose-a:underline prose-strong:text-white">
@@ -427,11 +427,11 @@ export default function BlogPost() {
         </section>
 
         {/* SECTION 5: WHAT AI WANTS */}
-        <section id="what-ai-wants" className="-mx-6 px-6 py-12 bg-[#131313] border-t border-white/10">
+        <section id="what-ai-wants" className="-mx-6 px-6 py-12 bg-[#FAF8F2] border-t border-white/10">
           <span className="font-mono text-[10px] text-[#F27D24] tracking-widest uppercase block mb-3">
             &#9679; THE REAL SIGNALS // The Answer Engine Intel
           </span>
-          <h2 className="font-headline font-black text-2xl md:text-3xl tracking-tighter uppercase text-[#e5e2e1] mb-6">
+          <h2 className="font-headline font-black text-2xl md:text-3xl tracking-tighter uppercase text-[#0A0A0A] mb-6">
             WHAT AI ACTUALLY <span className="text-[#F27D24]">WANTS</span>
           </h2>
           <div className="prose prose-invert prose-lg max-w-none prose-p:text-gray-300 prose-a:text-[#F27D24] prose-a:no-underline hover:prose-a:underline prose-strong:text-white">
@@ -460,11 +460,11 @@ export default function BlogPost() {
         </section>
 
         {/* SECTION 6: ENTITY SIGNALS */}
-        <section id="entity-signals" className="-mx-6 px-6 py-12 bg-[#1c1b1b] border-t border-white/10">
+        <section id="entity-signals" className="-mx-6 px-6 py-12 bg-[#F4F0E8] border-t border-white/10">
           <span className="font-mono text-[10px] text-[#F27D24] tracking-widest uppercase block mb-3">
             &#9679; ENTITY AUTHORITY // The Answer Engine Intel
           </span>
-          <h2 className="font-headline font-black text-2xl md:text-3xl tracking-tighter uppercase text-[#e5e2e1] mb-6">
+          <h2 className="font-headline font-black text-2xl md:text-3xl tracking-tighter uppercase text-[#0A0A0A] mb-6">
             ENTITY SIGNALS REPLACE <span className="text-[#F27D24]">KEYWORDS</span>
           </h2>
           <div className="prose prose-invert prose-lg max-w-none prose-p:text-gray-300 prose-a:text-[#F27D24] prose-a:no-underline hover:prose-a:underline prose-strong:text-white">
@@ -508,11 +508,11 @@ export default function BlogPost() {
         </section>
 
         {/* SECTION 7: WRITING CONTENT FOR AI */}
-        <section id="content-for-ai" className="-mx-6 px-6 py-12 bg-[#131313] border-t border-white/10">
+        <section id="content-for-ai" className="-mx-6 px-6 py-12 bg-[#FAF8F2] border-t border-white/10">
           <span className="font-mono text-[10px] text-[#F27D24] tracking-widest uppercase block mb-3">
             &#9679; CONTENT STRATEGY // The Answer Engine Intel
           </span>
-          <h2 className="font-headline font-black text-2xl md:text-3xl tracking-tighter uppercase text-[#e5e2e1] mb-6">
+          <h2 className="font-headline font-black text-2xl md:text-3xl tracking-tighter uppercase text-[#0A0A0A] mb-6">
             WRITING CONTENT <span className="text-[#F27D24]">AI TRUSTS</span>
           </h2>
           <div className="prose prose-invert prose-lg max-w-none prose-p:text-gray-300 prose-a:text-[#F27D24] prose-a:no-underline hover:prose-a:underline prose-strong:text-white">
@@ -538,11 +538,11 @@ export default function BlogPost() {
         </section>
 
         {/* SECTION 8: DECISION MATRIX */}
-        <section id="decision-matrix" className="-mx-6 px-6 py-12 bg-[#1c1b1b] border-t border-white/10">
+        <section id="decision-matrix" className="-mx-6 px-6 py-12 bg-[#F4F0E8] border-t border-white/10">
           <span className="font-mono text-[10px] text-[#F27D24] tracking-widest uppercase block mb-3">
             &#9679; YOUR NEXT MOVE // The Answer Engine Intel
           </span>
-          <h2 className="font-headline font-black text-2xl md:text-3xl tracking-tighter uppercase text-[#e5e2e1] mb-6">
+          <h2 className="font-headline font-black text-2xl md:text-3xl tracking-tighter uppercase text-[#0A0A0A] mb-6">
             SHOULD YOU <span className="text-[#F27D24]">RETHINK</span>?
           </h2>
           <div className="prose prose-invert prose-lg max-w-none prose-p:text-gray-300 prose-a:text-[#F27D24] prose-a:no-underline hover:prose-a:underline prose-strong:text-white">
@@ -597,7 +597,7 @@ export default function BlogPost() {
         </section>
 
         {/* FINAL CTA SECTION */}
-        <section className="-mx-6 px-6 py-12 bg-[#131313] border-t border-white/10">
+        <section className="-mx-6 px-6 py-12 bg-[#FAF8F2] border-t border-white/10">
           <div className="ae-final-cta not-prose">
             <h2>Know Exactly Where AI Can&apos;t Find You</h2>
             <p>Our Blind Spot Report reveals which AI platforms are ignoring your business and why. No keyword tricks required.</p>
@@ -612,7 +612,7 @@ export default function BlogPost() {
         </section>
 
         {/* AUTHOR CARD */}
-        <div className="-mx-6 px-6 py-8 bg-[#1c1b1b] border-t border-white/10">
+        <div className="-mx-6 px-6 py-8 bg-[#F4F0E8] border-t border-white/10">
           <div className="ae-author-card not-prose">
             <div>
               <p className="text-white font-semibold text-lg font-headline mb-1">Justin Borges</p>
@@ -628,11 +628,11 @@ export default function BlogPost() {
         </div>
 
         {/* FAQ SECTION */}
-        <section id="faq" className="-mx-6 px-6 py-12 bg-[#131313] border-t border-white/10">
+        <section id="faq" className="-mx-6 px-6 py-12 bg-[#FAF8F2] border-t border-white/10">
           <span className="font-mono text-[10px] text-[#F27D24] tracking-widest uppercase block mb-3">
             &#9679; FAQ // The Answer Engine Intel
           </span>
-          <h2 className="font-headline font-black text-2xl md:text-3xl tracking-tighter uppercase text-[#e5e2e1] mb-6">
+          <h2 className="font-headline font-black text-2xl md:text-3xl tracking-tighter uppercase text-[#0A0A0A] mb-6">
             FREQUENTLY ASKED <span className="text-[#F27D24]">QUESTIONS</span>
           </h2>
           <div className="space-y-4 not-prose">
@@ -687,7 +687,7 @@ export default function BlogPost() {
         </section>
 
         {/* CTA BLOCK + FINAL CTA */}
-        <section className="-mx-6 px-6 py-12 bg-[#1c1b1b] border-t border-white/10">
+        <section className="-mx-6 px-6 py-12 bg-[#F4F0E8] border-t border-white/10">
           <div className="ae-cta-inline not-prose mb-6">
             <p>Ready to see exactly how AI platforms currently evaluate your business?</p>
             <Link href="/blindspot">Get Your Free Blind Spot Report &rarr;</Link>
@@ -731,11 +731,11 @@ export default function BlogPost() {
         </section>
 
         {/* RELATED ARTICLES */}
-        <section id="related" className="-mx-6 px-6 py-12 bg-[#131313] border-t border-white/10">
+        <section id="related" className="-mx-6 px-6 py-12 bg-[#FAF8F2] border-t border-white/10">
           <span className="font-mono text-[10px] text-[#F27D24] tracking-widest uppercase block mb-3">
             &#9679; KEEP READING // The Answer Engine Intel
           </span>
-          <h2 className="font-headline font-black text-2xl md:text-3xl tracking-tighter uppercase text-[#e5e2e1] mb-6">
+          <h2 className="font-headline font-black text-2xl md:text-3xl tracking-tighter uppercase text-[#0A0A0A] mb-6">
             RELATED <span className="text-[#F27D24]">ARTICLES</span>
           </h2>
           <div className="space-y-4 not-prose">

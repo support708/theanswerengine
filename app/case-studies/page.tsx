@@ -70,7 +70,7 @@ const RESULT_STAGES = [
 
 export default function CaseStudiesPage() {
   return (
-    <main className="min-h-screen bg-[#131313] text-white overflow-x-hidden">
+    <main className="min-h-screen bg-[#FAF8F2] text-white overflow-x-hidden">
       {/* Scanline Overlay */}
       <div
         className="fixed inset-0 z-50 pointer-events-none opacity-[0.03]"
@@ -171,7 +171,7 @@ export default function CaseStudiesPage() {
       </header>
 
       {/* ── KPI BAR ──────────────────────────────────────────── */}
-      <section className="bg-[#1c1b1b] border-b border-[#F27D24]/10 py-16 px-6 lg:px-24">
+      <section className="bg-[#F4F0E8] border-b border-[#F27D24]/10 py-16 px-6 lg:px-24">
         <div className="max-w-7xl mx-auto">
           <div className="grid grid-cols-2 lg:grid-cols-4 gap-8">
             {KPI_STATS.map((stat) => (
@@ -189,7 +189,7 @@ export default function CaseStudiesPage() {
       </section>
 
       {/* ── HOW RESULTS BUILD ─────────────────────────────── */}
-      <section className="py-32 px-6 lg:px-24 bg-[#131313]">
+      <section className="py-32 px-6 lg:px-24 bg-[#FAF8F2]">
         <div className="max-w-7xl mx-auto">
           <div className="mb-16">
             <span className="font-mono text-[10px] tracking-widest uppercase text-[#F27D24] block mb-3">
@@ -208,7 +208,7 @@ export default function CaseStudiesPage() {
             {RESULT_STAGES.map((stage, i) => (
               <div
                 key={i}
-                className={`p-6 bg-[#131313] hover:bg-[#1c1b1b] transition-colors border-l-4 border-l-[#F27D24] ${
+                className={`p-6 bg-[#FAF8F2] hover:bg-[#F4F0E8] transition-colors border-l-4 border-l-[#F27D24] ${
                   i < RESULT_STAGES.length - 1 ? 'border-b md:border-b-0 md:border-r border-white/10' : ''
                 }`}
               >
@@ -231,7 +231,7 @@ export default function CaseStudiesPage() {
       </section>
 
       {/* ── FEATURED DEEP DIVE ───────────────────────────────── */}
-      <section className="py-32 px-6 lg:px-24 bg-[#1c1b1b] border-y border-[#F27D24]/10">
+      <section className="py-32 px-6 lg:px-24 bg-[#F4F0E8] border-y border-[#F27D24]/10">
         <div className="max-w-7xl mx-auto">
           <div className="mb-12">
             <span className="font-mono text-[10px] tracking-widest uppercase text-white/40">
@@ -351,7 +351,7 @@ export default function CaseStudiesPage() {
       </section>
 
       {/* ── RPM SOUTHLAND FEATURED CASE ─────────────────────── */}
-      <section className="py-32 px-6 lg:px-24 bg-[#131313] border-b border-[#F27D24]/10">
+      <section className="py-32 px-6 lg:px-24 bg-[#FAF8F2] border-b border-[#F27D24]/10">
         <div className="max-w-7xl mx-auto">
           <div className="mb-12">
             <span className="font-mono text-[10px] tracking-widest uppercase text-white/40">
@@ -386,7 +386,7 @@ export default function CaseStudiesPage() {
             ].map((col, i) => (
               <div
                 key={i}
-                className={`p-8 bg-[#1c1b1b] border-l-4 ${col.orange ? 'border-l-[#F27D24]' : 'border-l-white/10'} ${i < 2 ? 'border-r border-white/10' : ''}`}
+                className={`p-8 bg-[#F4F0E8] border-l-4 ${col.orange ? 'border-l-[#F27D24]' : 'border-l-white/10'} ${i < 2 ? 'border-r border-white/10' : ''}`}
               >
                 <span className={`font-mono text-[10px] tracking-widest uppercase ${col.orange ? 'text-[#F27D24]' : 'text-white/40'} block mb-4`}>
                   {col.label}
@@ -428,7 +428,7 @@ export default function CaseStudiesPage() {
       </section>
 
       {/* ── ALSO WORKING WITH — portfolio adjacency ────────── */}
-      <section className="py-24 px-6 lg:px-24 bg-[#131313] border-t border-white/5">
+      <section className="py-24 px-6 lg:px-24 bg-[#FAF8F2] border-t border-white/5">
         <div className="max-w-7xl mx-auto">
           <span className="font-mono text-[10px] tracking-widest uppercase text-[#F27D24] block mb-3">
             Portfolio // Also On The Framework
@@ -453,7 +453,7 @@ export default function CaseStudiesPage() {
               const inner = (
                 <>
                   <div className="font-mono text-[10px] tracking-widest text-white/40 uppercase mb-3">{c.city}</div>
-                  <h3 className="font-headline font-bold text-lg uppercase tracking-tighter text-[#e5e2e1] mb-2">{c.name}</h3>
+                  <h3 className="font-headline font-bold text-lg uppercase tracking-tighter text-[#0A0A0A] mb-2">{c.name}</h3>
                   <p className="text-white/50 text-sm">{c.cat}</p>
                   {c.href && (
                     <span className="inline-flex items-center gap-1 mt-3 font-mono text-[10px] tracking-widest uppercase text-[#F27D24]">
@@ -462,7 +462,7 @@ export default function CaseStudiesPage() {
                   )}
                 </>
               );
-              const cls = `p-8 bg-[#1c1b1b] hover:bg-[#2a2a2a] transition-colors border-l-4 border-l-[#F27D24] ${i < arr.length - 1 ? 'border-b lg:border-b-0' : ''} ${(i + 1) % 3 !== 0 ? 'lg:border-r' : ''} ${(i % 2 === 0) ? 'md:border-r lg:border-r' : ''} border-white/10`;
+              const cls = `p-8 bg-[#F4F0E8] hover:bg-[#F4F0E8] transition-colors border-l-4 border-l-[#F27D24] ${i < arr.length - 1 ? 'border-b lg:border-b-0' : ''} ${(i + 1) % 3 !== 0 ? 'lg:border-r' : ''} ${(i % 2 === 0) ? 'md:border-r lg:border-r' : ''} border-white/10`;
               return c.href ? (
                 <Link key={c.name} href={c.href} className={cls}>
                   {inner}
@@ -486,7 +486,7 @@ export default function CaseStudiesPage() {
           <div className="flex flex-col sm:flex-row gap-4">
             <Link
               href="/#territory-check"
-              className="bg-black text-[#F27D24] px-12 py-5 font-headline font-black uppercase tracking-tighter text-lg hover:bg-[#131313] transition-colors inline-flex items-center gap-3 whitespace-nowrap"
+              className="bg-black text-[#F27D24] px-12 py-5 font-headline font-black uppercase tracking-tighter text-lg hover:bg-[#FAF8F2] transition-colors inline-flex items-center gap-3 whitespace-nowrap"
             >
               Check Territory
               <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={2.5}>

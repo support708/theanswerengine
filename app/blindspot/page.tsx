@@ -122,7 +122,7 @@ export default function BlindSpotPage() {
         }) }}
       />
 
-      <main className="min-h-screen bg-[#131313] text-white overflow-x-hidden pt-16">
+      <main className="min-h-screen bg-[#FAF8F2] text-white overflow-x-hidden pt-16">
         {/* HERO */}
         <section
           className="relative py-24 md:py-32 px-6 lg:px-24 border-b border-white/5"
@@ -177,7 +177,7 @@ export default function BlindSpotPage() {
               </Link>
               <Link
                 href="/#territory-check"
-                className="border-2 border-white/20 text-[#e5e2e1] font-bold px-10 py-5 text-xl tracking-tighter hover:bg-white/5 hover:border-white/30 transition-all font-headline uppercase"
+                className="border-2 border-white/20 text-[#0A0A0A] font-bold px-10 py-5 text-xl tracking-tighter hover:bg-white/5 hover:border-white/30 transition-all font-headline uppercase"
               >
                 Check Territory
               </Link>
@@ -189,7 +189,7 @@ export default function BlindSpotPage() {
         </section>
 
         {/* WHAT YOU'LL DISCOVER */}
-        <section className="py-24 md:py-32 px-6 lg:px-24 bg-[#1c1b1b]">
+        <section className="py-24 md:py-32 px-6 lg:px-24 bg-[#F4F0E8]">
           <div className="max-w-7xl mx-auto">
             <span className="font-mono text-[10px] tracking-widest uppercase text-[#F27D24] block mb-3">
               What&apos;s Included // Three Deliverables
@@ -219,12 +219,12 @@ export default function BlindSpotPage() {
               ].map((c, i, arr) => (
                 <div
                   key={c.num}
-                  className={`p-10 bg-[#131313] border-l-4 border-l-[#F27D24] ${i < arr.length - 1 ? 'border-b md:border-b-0 md:border-r' : ''} border-white/10 hover:bg-[#2a2a2a] transition-colors`}
+                  className={`p-10 bg-[#FAF8F2] border-l-4 border-l-[#F27D24] ${i < arr.length - 1 ? 'border-b md:border-b-0 md:border-r' : ''} border-white/10 hover:bg-[#F4F0E8] transition-colors`}
                 >
                   <div className="w-10 h-10 border border-[#F27D24]/40 flex items-center justify-center mb-6">
                     <span className="font-mono text-[10px] text-[#F27D24]">{c.num}</span>
                   </div>
-                  <h3 className="font-headline font-black text-2xl uppercase tracking-tighter mb-4 text-[#e5e2e1]">{c.title}</h3>
+                  <h3 className="font-headline font-black text-2xl uppercase tracking-tighter mb-4 text-[#0A0A0A]">{c.title}</h3>
                   <p className="text-white/60 text-sm leading-relaxed">{c.body}</p>
                 </div>
               ))}
@@ -233,7 +233,7 @@ export default function BlindSpotPage() {
         </section>
 
         {/* TRUST SIGNALS */}
-        <section className="py-16 px-6 lg:px-24 bg-[#131313] border-y border-white/5">
+        <section className="py-16 px-6 lg:px-24 bg-[#FAF8F2] border-y border-white/5">
           <div className="max-w-7xl mx-auto">
             <div className="grid grid-cols-1 md:grid-cols-3 gap-0 border border-white/10">
               {[
@@ -243,7 +243,7 @@ export default function BlindSpotPage() {
               ].map((stat, i, arr) => (
                 <div
                   key={stat.label}
-                  className={`p-8 bg-[#1c1b1b] ${i < arr.length - 1 ? 'border-b md:border-b-0 md:border-r' : ''} border-white/10`}
+                  className={`p-8 bg-[#F4F0E8] ${i < arr.length - 1 ? 'border-b md:border-b-0 md:border-r' : ''} border-white/10`}
                 >
                   <div className="font-headline font-black text-4xl md:text-5xl text-[#F27D24] mb-2">{stat.val}</div>
                   <div className="font-mono text-[10px] text-white/40 uppercase tracking-widest">{stat.label}</div>
@@ -269,7 +269,7 @@ export default function BlindSpotPage() {
                 href="https://calendly.com/theanswerengine-support/30min"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="bg-black text-[#F27D24] px-10 py-4 font-headline font-black uppercase tracking-tighter text-sm hover:bg-[#131313] transition-colors inline-flex items-center gap-3 whitespace-nowrap"
+                className="bg-black text-[#F27D24] px-10 py-4 font-headline font-black uppercase tracking-tighter text-sm hover:bg-[#FAF8F2] transition-colors inline-flex items-center gap-3 whitespace-nowrap"
               >
                 BOOK 30-MIN CALL
                 <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={2.5}>
@@ -287,7 +287,7 @@ export default function BlindSpotPage() {
         </section>
 
         {/* FAQ */}
-        <section className="py-24 md:py-32 px-6 lg:px-24 bg-[#131313]">
+        <section className="py-24 md:py-32 px-6 lg:px-24 bg-[#FAF8F2]">
           <div className="max-w-4xl mx-auto">
             <span className="font-mono text-[10px] tracking-widest uppercase text-[#F27D24] block mb-3">
               Common Questions // FAQ
@@ -301,7 +301,7 @@ export default function BlindSpotPage() {
               {faqs.map((faq, index) => (
                 <details
                   key={index}
-                  className="group bg-[#1c1b1b] border border-white/10 border-l-4 border-l-transparent open:border-l-[#F27D24] transition-colors"
+                  className="group bg-[#F4F0E8] border border-white/10 border-l-4 border-l-transparent open:border-l-[#F27D24] transition-colors"
                 >
                   <summary className="px-6 py-5 flex justify-between items-center cursor-pointer list-none [&::-webkit-details-marker]:hidden">
                     <h4 className="font-headline font-bold text-base md:text-lg uppercase tracking-tighter text-white group-open:text-[#F27D24] transition-colors">

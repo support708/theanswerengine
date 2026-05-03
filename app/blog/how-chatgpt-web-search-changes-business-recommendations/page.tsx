@@ -169,7 +169,7 @@ export default function Page() {
 
       {/* Hero */}
       <header className="max-w-4xl mx-auto px-6 pt-12 pb-8">
-        <div className="relative rounded-2xl overflow-hidden bg-[#0F1117] border border-[#F27D24]/20 p-10">
+        <div className="relative rounded-2xl overflow-hidden bg-[#FFF] border border-[#F27D24]/20 p-10">
           <svg className="absolute inset-0 w-full h-full opacity-5" xmlns="http://www.w3.org/2000/svg">
             <defs>
               <pattern id="chatgpt-grid-188" x="0" y="0" width="40" height="40" patternUnits="userSpaceOnUse">

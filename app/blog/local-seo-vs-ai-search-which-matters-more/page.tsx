@@ -166,7 +166,7 @@ export default function LocalSEOvsAISearch() {
     <>
       <ComprehensiveSchema />
 
-      <main className="min-h-screen bg-[#0F1117] relative">
+      <main className="min-h-screen bg-[#FFF] relative">
 
         {/* Hero + Breadcrumbs */}
         <article className="max-w-4xl mx-auto px-6 py-20 sm:py-32 relative">
@@ -721,28 +721,28 @@ export default function LocalSEOvsAISearch() {
             <h2>Expand Your Knowledge</h2>
 
             <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))', gap: '20px', marginBottom: '40px' }}>
-              <div style={{ padding: '20px', border: '1px solid rgba(255,255,255,0.1)', borderRadius: '12px', background: 'rgba(255,106,0,0.05)' }}>
+              <div style={{ padding: '20px', border: '1px solid rgba(10,10,10,0.1)', borderRadius: '12px', background: 'rgba(255,106,0,0.05)' }}>
                 <h4 style={{ color: 'white', marginBottom: '8px' }}>
                   <Link href="/blog/aeo-vs-seo" style={{ color: '#F27D24', textDecoration: 'none' }}>AEO vs SEO: The Definitive Difference</Link>
                 </h4>
                 <p style={{ color: 'rgba(255,255,255,0.6)', fontSize: '0.9rem' }}>Understand exactly why AEO is not just SEO with a different name. They operate on fundamentally different principles.</p>
               </div>
 
-              <div style={{ padding: '20px', border: '1px solid rgba(255,255,255,0.1)', borderRadius: '12px', background: 'rgba(255,106,0,0.05)' }}>
+              <div style={{ padding: '20px', border: '1px solid rgba(10,10,10,0.1)', borderRadius: '12px', background: 'rgba(255,106,0,0.05)' }}>
                 <h4 style={{ color: 'white', marginBottom: '8px' }}>
                   <Link href="/blog/google-rankings-dont-matter" style={{ color: '#F27D24', textDecoration: 'none' }}>Why Google Rankings Do Not Matter Anymore</Link>
                 </h4>
                 <p style={{ color: 'rgba(255,255,255,0.6)', fontSize: '0.9rem' }}>The data shows why ranking position one is no longer the goal. Read why.</p>
               </div>
 
-              <div style={{ padding: '20px', border: '1px solid rgba(255,255,255,0.1)', borderRadius: '12px', background: 'rgba(255,106,0,0.05)' }}>
+              <div style={{ padding: '20px', border: '1px solid rgba(10,10,10,0.1)', borderRadius: '12px', background: 'rgba(255,106,0,0.05)' }}>
                 <h4 style={{ color: 'white', marginBottom: '8px' }}>
                   <Link href="/blog/ai-search-replacing-map-pack" style={{ color: '#F27D24', textDecoration: 'none' }}>Is AI Search Replacing the Map Pack?</Link>
                 </h4>
                 <p style={{ color: 'rgba(255,255,255,0.6)', fontSize: '0.9rem' }}>The data shows what is actually replacing Map Pack traffic and what that means for your business.</p>
               </div>
 
-              <div style={{ padding: '20px', border: '1px solid rgba(255,255,255,0.1)', borderRadius: '12px', background: 'rgba(255,106,0,0.05)' }}>
+              <div style={{ padding: '20px', border: '1px solid rgba(10,10,10,0.1)', borderRadius: '12px', background: 'rgba(255,106,0,0.05)' }}>
                 <h4 style={{ color: 'white', marginBottom: '8px' }}>
                   <Link href="/blog/chatgpt-vs-perplexity-vs-google-ai-local" style={{ color: '#F27D24', textDecoration: 'none' }}>ChatGPT vs Perplexity vs Google AI for Local Businesses</Link>
                 </h4>

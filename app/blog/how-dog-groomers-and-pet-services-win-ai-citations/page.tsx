@@ -183,13 +183,13 @@ export default function HowDogGroomersWinAICitations() {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
       />
 
-      <main className="min-h-screen bg-[#131313]">
+      <main className="min-h-screen bg-[#FAF8F2]">
         {/* Hero Section */}
-        <section className="relative overflow-hidden bg-[#131313] grid-bg border-b border-white/10">
+        <section className="relative overflow-hidden bg-[#FAF8F2] grid-bg border-b border-white/10">
           <div className="relative max-w-4xl mx-auto px-6 py-16 sm:py-24">
             <Breadcrumb />
             <span className="font-mono text-[10px] text-[#F27D24] tracking-widest uppercase block mb-4">◉ INDUSTRY GUIDES // The Answer Engine Intel</span>
-            <h1 className="font-headline font-black text-3xl sm:text-5xl lg:text-6xl tracking-tighter uppercase text-[#e5e2e1] mb-6">
+            <h1 className="font-headline font-black text-3xl sm:text-5xl lg:text-6xl tracking-tighter uppercase text-[#0A0A0A] mb-6">
               How Dog Groomers and Pet Services Win AI Citations
             </h1>
             <p className="text-xl text-gray-300 mb-8 max-w-2xl leading-relaxed">
@@ -260,11 +260,11 @@ export default function HowDogGroomersWinAICitations() {
           </div>
 
           {/* SECTION 1: THE SHIFT */}
-          <section id="pet-owner-shift" className="-mx-6 px-6 py-12 bg-[#131313] border-t border-white/10">
+          <section id="pet-owner-shift" className="-mx-6 px-6 py-12 bg-[#FAF8F2] border-t border-white/10">
             <span className="font-mono text-[10px] text-[#F27D24] tracking-widest uppercase block mb-3">
               ◉ PET INDUSTRY // The Answer Engine Intel
             </span>
-            <h2 className="font-headline font-black text-2xl md:text-3xl tracking-tighter uppercase text-[#e5e2e1] mb-6">
+            <h2 className="font-headline font-black text-2xl md:text-3xl tracking-tighter uppercase text-[#0A0A0A] mb-6">
               HOW PET OWNERS NOW SEARCH FOR <span className="text-[#F27D24]">GROOMERS</span>
             </h2>
             <div className="prose prose-invert prose-lg max-w-none prose-p:text-gray-300 prose-a:text-[#F27D24] prose-a:no-underline hover:prose-a:underline prose-strong:text-white">
@@ -285,11 +285,11 @@ export default function HowDogGroomersWinAICitations() {
           </section>
 
           {/* SECTION 2: CHAIN ADVANTAGE */}
-          <section id="chain-advantage" className="-mx-6 px-6 py-12 bg-[#1c1b1b] border-t border-white/10">
+          <section id="chain-advantage" className="-mx-6 px-6 py-12 bg-[#F4F0E8] border-t border-white/10">
             <span className="font-mono text-[10px] text-[#F27D24] tracking-widest uppercase block mb-3">
               ◉ CHAIN VS. INDEPENDENT // The Answer Engine Intel
             </span>
-            <h2 className="font-headline font-black text-2xl md:text-3xl tracking-tighter uppercase text-[#e5e2e1] mb-6">
+            <h2 className="font-headline font-black text-2xl md:text-3xl tracking-tighter uppercase text-[#0A0A0A] mb-6">
               WHY NATIONAL CHAINS DOMINATE <span className="text-[#F27D24]">AI RESULTS</span>
             </h2>
             <div className="prose prose-invert prose-lg max-w-none prose-p:text-gray-300 prose-a:text-[#F27D24] prose-a:no-underline hover:prose-a:underline prose-strong:text-white">
@@ -313,11 +313,11 @@ export default function HowDogGroomersWinAICitations() {
           </section>
 
           {/* SECTION 3: TRUST SIGNALS */}
-          <section id="trust-signals" className="-mx-6 px-6 py-12 bg-[#131313] border-t border-white/10">
+          <section id="trust-signals" className="-mx-6 px-6 py-12 bg-[#FAF8F2] border-t border-white/10">
             <span className="font-mono text-[10px] text-[#F27D24] tracking-widest uppercase block mb-3">
               ◉ TRUST SIGNALS // The Answer Engine Intel
             </span>
-            <h2 className="font-headline font-black text-2xl md:text-3xl tracking-tighter uppercase text-[#e5e2e1] mb-6">
+            <h2 className="font-headline font-black text-2xl md:text-3xl tracking-tighter uppercase text-[#0A0A0A] mb-6">
               THE TRUST SIGNALS AI EVALUATES FOR <span className="text-[#F27D24]">PET SERVICES</span>
             </h2>
             <div className="prose prose-invert prose-lg max-w-none prose-p:text-gray-300 prose-a:text-[#F27D24] prose-a:no-underline hover:prose-a:underline prose-strong:text-white">
@@ -342,11 +342,11 @@ export default function HowDogGroomersWinAICitations() {
           </section>
 
           {/* SECTION 4: REVIEWS */}
-          <section id="reviews-that-matter" className="-mx-6 px-6 py-12 bg-[#1c1b1b] border-t border-white/10">
+          <section id="reviews-that-matter" className="-mx-6 px-6 py-12 bg-[#F4F0E8] border-t border-white/10">
             <span className="font-mono text-[10px] text-[#F27D24] tracking-widest uppercase block mb-3">
               ◉ REVIEW STRATEGY // The Answer Engine Intel
             </span>
-            <h2 className="font-headline font-black text-2xl md:text-3xl tracking-tighter uppercase text-[#e5e2e1] mb-6">
+            <h2 className="font-headline font-black text-2xl md:text-3xl tracking-tighter uppercase text-[#0A0A0A] mb-6">
               WHY SPECIFIC REVIEWS BEAT <span className="text-[#F27D24]">GENERIC FIVE-STARS</span>
             </h2>
             <div className="prose prose-invert prose-lg max-w-none prose-p:text-gray-300 prose-a:text-[#F27D24] prose-a:no-underline hover:prose-a:underline prose-strong:text-white">
@@ -393,11 +393,11 @@ export default function HowDogGroomersWinAICitations() {
           </section>
 
           {/* SECTION 5: MOBILE GROOMER CHALLENGE */}
-          <section id="mobile-challenge" className="-mx-6 px-6 py-12 bg-[#131313] border-t border-white/10">
+          <section id="mobile-challenge" className="-mx-6 px-6 py-12 bg-[#FAF8F2] border-t border-white/10">
             <span className="font-mono text-[10px] text-[#F27D24] tracking-widest uppercase block mb-3">
               ◉ MOBILE GROOMERS // The Answer Engine Intel
             </span>
-            <h2 className="font-headline font-black text-2xl md:text-3xl tracking-tighter uppercase text-[#e5e2e1] mb-6">
+            <h2 className="font-headline font-black text-2xl md:text-3xl tracking-tighter uppercase text-[#0A0A0A] mb-6">
               THE MOBILE GROOMER <span className="text-[#F27D24]">AI VISIBILITY PROBLEM</span>
             </h2>
             <div className="prose prose-invert prose-lg max-w-none prose-p:text-gray-300 prose-a:text-[#F27D24] prose-a:no-underline hover:prose-a:underline prose-strong:text-white">
@@ -454,11 +454,11 @@ export default function HowDogGroomersWinAICitations() {
           </section>
 
           {/* SECTION 6: SERVICE PAGES */}
-          <section id="service-pages" className="-mx-6 px-6 py-12 bg-[#1c1b1b] border-t border-white/10">
+          <section id="service-pages" className="-mx-6 px-6 py-12 bg-[#F4F0E8] border-t border-white/10">
             <span className="font-mono text-[10px] text-[#F27D24] tracking-widest uppercase block mb-3">
               ◉ WEBSITE VISIBILITY // The Answer Engine Intel
             </span>
-            <h2 className="font-headline font-black text-2xl md:text-3xl tracking-tighter uppercase text-[#e5e2e1] mb-6">
+            <h2 className="font-headline font-black text-2xl md:text-3xl tracking-tighter uppercase text-[#0A0A0A] mb-6">
               SERVICE-SPECIFIC PAGES THAT DRIVE <span className="text-[#F27D24]">AI RECOMMENDATIONS</span>
             </h2>
             <div className="prose prose-invert prose-lg max-w-none prose-p:text-gray-300 prose-a:text-[#F27D24] prose-a:no-underline hover:prose-a:underline prose-strong:text-white">
@@ -485,11 +485,11 @@ export default function HowDogGroomersWinAICitations() {
           </section>
 
           {/* SECTION 7: SAFETY AND CERTS */}
-          <section id="safety-certs" className="-mx-6 px-6 py-12 bg-[#131313] border-t border-white/10">
+          <section id="safety-certs" className="-mx-6 px-6 py-12 bg-[#FAF8F2] border-t border-white/10">
             <span className="font-mono text-[10px] text-[#F27D24] tracking-widest uppercase block mb-3">
               ◉ SPECIALIZATION // The Answer Engine Intel
             </span>
-            <h2 className="font-headline font-black text-2xl md:text-3xl tracking-tighter uppercase text-[#e5e2e1] mb-6">
+            <h2 className="font-headline font-black text-2xl md:text-3xl tracking-tighter uppercase text-[#0A0A0A] mb-6">
               HOW AI HANDLES SAFETY AND <span className="text-[#F27D24]">CERTIFICATION SIGNALS</span>
             </h2>
             <div className="prose prose-invert prose-lg max-w-none prose-p:text-gray-300 prose-a:text-[#F27D24] prose-a:no-underline hover:prose-a:underline prose-strong:text-white">
@@ -510,11 +510,11 @@ export default function HowDogGroomersWinAICitations() {
           </section>
 
           {/* SECTION 8: WEBSITE INVISIBILITY */}
-          <section id="website-invisibility" className="-mx-6 px-6 py-12 bg-[#1c1b1b] border-t border-white/10">
+          <section id="website-invisibility" className="-mx-6 px-6 py-12 bg-[#F4F0E8] border-t border-white/10">
             <span className="font-mono text-[10px] text-[#F27D24] tracking-widest uppercase block mb-3">
               ◉ TECHNICAL GAPS // The Answer Engine Intel
             </span>
-            <h2 className="font-headline font-black text-2xl md:text-3xl tracking-tighter uppercase text-[#e5e2e1] mb-6">
+            <h2 className="font-headline font-black text-2xl md:text-3xl tracking-tighter uppercase text-[#0A0A0A] mb-6">
               WHY MOST GROOMER WEBSITES ARE <span className="text-[#F27D24]">INVISIBLE TO AI</span>
             </h2>
             <div className="prose prose-invert prose-lg max-w-none prose-p:text-gray-300 prose-a:text-[#F27D24] prose-a:no-underline hover:prose-a:underline prose-strong:text-white">
@@ -585,11 +585,11 @@ export default function HowDogGroomersWinAICitations() {
           </section>
 
           {/* CHEAT SHEET */}
-          <section id="cheat-sheet" className="-mx-6 px-6 py-12 bg-[#131313] border-t border-white/10">
+          <section id="cheat-sheet" className="-mx-6 px-6 py-12 bg-[#FAF8F2] border-t border-white/10">
             <span className="font-mono text-[10px] text-[#F27D24] tracking-widest uppercase block mb-3">
               ◉ ACTION PLAN // The Answer Engine Intel
             </span>
-            <h2 className="font-headline font-black text-2xl md:text-3xl tracking-tighter uppercase text-[#e5e2e1] mb-6">
+            <h2 className="font-headline font-black text-2xl md:text-3xl tracking-tighter uppercase text-[#0A0A0A] mb-6">
               AI VISIBILITY CHEAT SHEET FOR <span className="text-[#F27D24]">PET SERVICES</span>
             </h2>
             <div className="ae-cheat-sheet not-prose">
@@ -614,11 +614,11 @@ export default function HowDogGroomersWinAICitations() {
           </section>
 
           {/* LOOKING AHEAD */}
-          <section className="-mx-6 px-6 py-12 bg-[#1c1b1b] border-t border-white/10">
+          <section className="-mx-6 px-6 py-12 bg-[#F4F0E8] border-t border-white/10">
             <span className="font-mono text-[10px] text-[#F27D24] tracking-widest uppercase block mb-3">
               ◉ MARKET OUTLOOK // The Answer Engine Intel
             </span>
-            <h2 className="font-headline font-black text-2xl md:text-3xl tracking-tighter uppercase text-[#e5e2e1] mb-6">
+            <h2 className="font-headline font-black text-2xl md:text-3xl tracking-tighter uppercase text-[#0A0A0A] mb-6">
               THE WINDOW FOR INDEPENDENT GROOMERS IS <span className="text-[#F27D24]">OPEN RIGHT NOW</span>
             </h2>
             <div className="prose prose-invert prose-lg max-w-none prose-p:text-gray-300 prose-a:text-[#F27D24] prose-a:no-underline hover:prose-a:underline prose-strong:text-white">
@@ -643,7 +643,7 @@ export default function HowDogGroomersWinAICitations() {
           </section>
 
           {/* PRE-FAQ FINAL CTA */}
-          <section className="-mx-6 px-6 py-12 bg-[#131313] border-t border-white/10">
+          <section className="-mx-6 px-6 py-12 bg-[#FAF8F2] border-t border-white/10">
             <div className="ae-final-cta not-prose">
               <h2>Is AI Sending Pet Owners to Your Competitors?</h2>
               <p>Find out exactly what AI says when a pet owner searches for groomers in your area. Get your free Blind Spot Report.</p>
@@ -658,9 +658,9 @@ export default function HowDogGroomersWinAICitations() {
           </section>
 
           {/* FAQ SECTION */}
-          <section id="faq" className="-mx-6 px-6 py-12 bg-[#1c1b1b] border-t border-white/10">
+          <section id="faq" className="-mx-6 px-6 py-12 bg-[#F4F0E8] border-t border-white/10">
             <span className="font-mono text-[10px] text-[#F27D24] tracking-widest uppercase block mb-3">◉ FAQ // The Answer Engine Intel</span>
-            <h2 className="font-headline font-black text-2xl md:text-3xl tracking-tighter uppercase text-[#e5e2e1] mb-8">FREQUENTLY ASKED <span className="text-[#F27D24]">QUESTIONS</span></h2>
+            <h2 className="font-headline font-black text-2xl md:text-3xl tracking-tighter uppercase text-[#0A0A0A] mb-8">FREQUENTLY ASKED <span className="text-[#F27D24]">QUESTIONS</span></h2>
             <div className="space-y-6 not-prose">
               <div className="bg-white/[0.03] border border-white/[0.08] p-6">
                 <h3 className="text-xl font-semibold mb-3 text-white font-headline">Why does AI recommend PetSmart grooming over my independent grooming salon?</h3>
@@ -706,7 +706,7 @@ export default function HowDogGroomersWinAICitations() {
           </section>
 
           {/* FINAL CTA */}
-          <section className="-mx-6 px-6 py-12 bg-[#131313] border-t border-white/10">
+          <section className="-mx-6 px-6 py-12 bg-[#FAF8F2] border-t border-white/10">
             <div className="ae-final-cta not-prose">
               <h2>Is Your Pet Grooming Business Visible to AI Search?</h2>
               <p>Find out exactly what ChatGPT, Google AI, and Perplexity say when a pet owner searches for a groomer in your area. Our free Blind Spot Report shows you the gaps and the opportunities in your AI visibility.</p>
@@ -732,7 +732,7 @@ export default function HowDogGroomersWinAICitations() {
           </section>
 
           {/* AUTHOR CARD */}
-          <div className="-mx-6 px-6 py-10 bg-[#1c1b1b] border-t border-white/10">
+          <div className="-mx-6 px-6 py-10 bg-[#F4F0E8] border-t border-white/10">
             <div className="ae-author-card">
               <img
                 src="/justin-borges.webp"

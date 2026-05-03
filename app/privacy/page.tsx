@@ -12,7 +12,7 @@ export const metadata: Metadata = {
 
 export default function Privacy() {
   return (
-    <main className="min-h-screen bg-[#0F1117] relative">
+    <main className="min-h-screen bg-[#FFF] relative">
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify({

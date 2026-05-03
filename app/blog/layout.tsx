@@ -54,17 +54,17 @@ export default function BlogLayout({
       {children}
 
       {/* Universal blog footer CTA — every article gets this */}
-      <section className="bg-[#131313] border-t border-white/10 py-20 px-6 lg:px-24">
+      <section className="bg-[#FAF8F2] border-t border-white/10 py-20 px-6 lg:px-24">
         <div className="max-w-5xl mx-auto">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-0 border border-white/10">
             <a
               href="/industries/real-estate"
-              className="block p-10 bg-[#1c1b1b] hover:bg-[#2a2a2a] transition-colors border-l-4 border-l-[#F27D24] border-b md:border-b-0 md:border-r border-white/10 group"
+              className="block p-10 bg-[#F4F0E8] hover:bg-[#F4F0E8] transition-colors border-l-4 border-l-[#F27D24] border-b md:border-b-0 md:border-r border-white/10 group"
             >
               <span className="font-mono text-[10px] tracking-widest uppercase text-[#F27D24] block mb-3">
                 Who We Serve // Real Estate Lead
               </span>
-              <h3 className="font-headline font-black text-2xl uppercase tracking-tighter text-[#e5e2e1] mb-4">
+              <h3 className="font-headline font-black text-2xl uppercase tracking-tighter text-[#0A0A0A] mb-4">
                 AEO for Real Estate Agents
               </h3>
               <p className="text-white/60 text-sm leading-relaxed mb-5">
@@ -76,12 +76,12 @@ export default function BlogLayout({
             </a>
             <a
               href="/services/answer-engine-audit"
-              className="block p-10 bg-[#1c1b1b] hover:bg-[#2a2a2a] transition-colors border-l-4 border-l-[#F27D24] group"
+              className="block p-10 bg-[#F4F0E8] hover:bg-[#F4F0E8] transition-colors border-l-4 border-l-[#F27D24] group"
             >
               <span className="font-mono text-[10px] tracking-widest uppercase text-[#F27D24] block mb-3">
                 Free // 30-Minute Audit
               </span>
-              <h3 className="font-headline font-black text-2xl uppercase tracking-tighter text-[#e5e2e1] mb-4">
+              <h3 className="font-headline font-black text-2xl uppercase tracking-tighter text-[#0A0A0A] mb-4">
                 Run a Free Answer Engine Audit
               </h3>
               <p className="text-white/60 text-sm leading-relaxed mb-5">

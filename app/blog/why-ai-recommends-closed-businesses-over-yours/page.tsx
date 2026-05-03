@@ -209,7 +209,7 @@ export default function Page() {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
       />
 
-      <main className="min-h-screen bg-[#0F1117] text-gray-200">
+      <main className="min-h-screen bg-[#FFF] text-gray-200">
 
         {/* HERO */}
         <section className="relative overflow-hidden border-b border-white/5 py-20 md:py-28">
@@ -671,7 +671,7 @@ export default function Page() {
             <div className="ae-timeline not-prose mb-8 space-y-0">
               <div className="relative pl-8">
                 <div className="absolute left-0 top-2 h-full w-px bg-[#F27D24]/30" />
-                <div className="absolute left-[-4px] top-1.5 h-3 w-3 rounded-full border-2 border-[#F27D24] bg-[#0F1117]" />
+                <div className="absolute left-[-4px] top-1.5 h-3 w-3 rounded-full border-2 border-[#F27D24] bg-[#FFF]" />
                 <div className="mb-8">
                   <p className="font-plus-jakarta mb-1 font-semibold text-white">Day 1: Customer Asks AI</p>
                   <p className="text-sm text-gray-400">
@@ -682,7 +682,7 @@ export default function Page() {
               </div>
               <div className="relative pl-8">
                 <div className="absolute left-0 top-2 h-full w-px bg-[#F27D24]/30" />
-                <div className="absolute left-[-4px] top-1.5 h-3 w-3 rounded-full border-2 border-[#F27D24] bg-[#0F1117]" />
+                <div className="absolute left-[-4px] top-1.5 h-3 w-3 rounded-full border-2 border-[#F27D24] bg-[#FFF]" />
                 <div className="mb-8">
                   <p className="font-plus-jakarta mb-1 font-semibold text-white">Day 1 to Day 3: Wasted Effort</p>
                   <p className="text-sm text-gray-400">
@@ -694,7 +694,7 @@ export default function Page() {
               </div>
               <div className="relative pl-8">
                 <div className="absolute left-0 top-2 h-full w-px bg-[#F27D24]/30" />
-                <div className="absolute left-[-4px] top-1.5 h-3 w-3 rounded-full border-2 border-[#F27D24] bg-[#0F1117]" />
+                <div className="absolute left-[-4px] top-1.5 h-3 w-3 rounded-full border-2 border-[#F27D24] bg-[#FFF]" />
                 <div className="mb-8">
                   <p className="font-plus-jakarta mb-1 font-semibold text-white">Week 1 to Week 3: The Pattern Repeats</p>
                   <p className="text-sm text-gray-400">
@@ -705,7 +705,7 @@ export default function Page() {
                 </div>
               </div>
               <div className="relative pl-8">
-                <div className="absolute left-[-4px] top-1.5 h-3 w-3 rounded-full border-2 border-yellow-400 bg-[#0F1117]" />
+                <div className="absolute left-[-4px] top-1.5 h-3 w-3 rounded-full border-2 border-yellow-400 bg-[#FFF]" />
                 <div className="mb-8">
                   <p className="font-plus-jakarta mb-1 font-semibold text-white">Week 3.7: You Find Out (Maybe)</p>
                   <p className="text-sm text-gray-400">

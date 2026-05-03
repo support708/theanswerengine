@@ -175,7 +175,7 @@ export default function Page() {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
       />
-      <main className="min-h-screen bg-[#0F1117]">
+      <main className="min-h-screen bg-[#FFF]">
         <article className="max-w-4xl mx-auto px-6 py-20">
 
           {/* Breadcrumbs */}

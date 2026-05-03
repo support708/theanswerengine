@@ -24,7 +24,7 @@ export default function Nav() {
   ];
 
   return (
-    <nav className="fixed top-0 w-full border-b border-white/10 bg-[#131313] z-50">
+    <nav className="fixed top-0 w-full border-b border-white/10 bg-[#FAF8F2] z-50">
       <div className="flex justify-between items-center px-6 h-16 w-full max-w-none">
         {/* Logo */}
         <a href="/" className="flex items-center gap-3">
@@ -88,7 +88,7 @@ export default function Nav() {
 
       {/* Mobile Menu */}
       {mobileMenuOpen && (
-        <div className="lg:hidden border-t border-white/10 bg-[#131313]">
+        <div className="lg:hidden border-t border-white/10 bg-[#FAF8F2]">
           <div className="flex flex-col py-4">
             {navLinks.map(link => (
               <a

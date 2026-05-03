@@ -171,7 +171,7 @@ export default function Page() {
 
       {/* Hero */}
       <header className="max-w-4xl mx-auto px-6 pt-10 pb-12">
-        <div className="relative rounded-2xl overflow-hidden bg-[#0F1117] border border-gray-800">
+        <div className="relative rounded-2xl overflow-hidden bg-[#FFF] border border-gray-800">
           <svg
             className="absolute inset-0 w-full h-full opacity-10"
             xmlns="http://www.w3.org/2000/svg"

@@ -209,7 +209,7 @@ export default function Page() {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
       />
-      <main className="min-h-screen bg-[#0F1117]">
+      <main className="min-h-screen bg-[#FFF]">
         <article className="max-w-4xl mx-auto px-6 py-12 sm:py-16">
 
           {/* Breadcrumbs */}
@@ -223,7 +223,7 @@ export default function Page() {
 
           {/* Hero */}
           <header className="mb-12">
-            <div className="relative rounded-2xl overflow-hidden mb-8 bg-[#0F1117] border border-white/[0.06]" style={{ minHeight: '200px' }}>
+            <div className="relative rounded-2xl overflow-hidden mb-8 bg-[#FFF] border border-white/[0.06]" style={{ minHeight: '200px' }}>
               <svg
                 id="hero-grid-147"
                 className="absolute inset-0 w-full h-full opacity-30"

@@ -221,7 +221,7 @@ export default function HowEventPlannersGetFoundOnAISearch() {
     <>
       <ComprehensiveSchema />
 
-      <main className="min-h-screen bg-[#0F1117] relative">
+      <main className="min-h-screen bg-[#FFF] relative">
         {/* Hero Section */}
         <section className="relative overflow-hidden border-b border-white/[0.06]">
           <div className="absolute inset-0 bg-gradient-to-br from-[#0F1117] via-[#141620] to-[#0F1117]" />

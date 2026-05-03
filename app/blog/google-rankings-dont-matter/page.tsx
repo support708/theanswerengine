@@ -199,7 +199,7 @@ export default function GoogleRankingsDontMatter() {
     <>
       <ComprehensiveSchema />
 
-      <main className="min-h-screen bg-[#0F1117] relative">
+      <main className="min-h-screen bg-[#FFF] relative">
         <div className="absolute top-0 left-0 w-2 h-2 bg-white/20" />
         <div className="absolute top-0 left-2 w-2 h-2 bg-white/15" />
 

@@ -103,7 +103,7 @@ export default function ContactPage() {
         }}
       />
 
-      <main className="min-h-screen bg-[#131313] text-white pt-[72px] pb-24">
+      <main className="min-h-screen bg-[#FAF8F2] text-white pt-[72px] pb-24">
         <div className="max-w-7xl mx-auto px-6">
 
           {/* Hero Section */}
@@ -139,7 +139,7 @@ export default function ContactPage() {
             <div className="lg:col-span-5 flex flex-col gap-6">
 
               {/* Phone Card */}
-              <div className="bg-[#2a2a2a] border-l-4 border-[#F27D24] p-6 relative overflow-hidden">
+              <div className="bg-[#F4F0E8] border-l-4 border-[#F27D24] p-6 relative overflow-hidden">
                 <div className="absolute top-0 right-0 p-2 font-mono text-[8px] text-white/10">
                   Phone
                 </div>
@@ -156,7 +156,7 @@ export default function ContactPage() {
               </div>
 
               {/* Email Card */}
-              <div className="bg-[#2a2a2a] border-l-4 border-[#F27D24] p-6 relative overflow-hidden">
+              <div className="bg-[#F4F0E8] border-l-4 border-[#F27D24] p-6 relative overflow-hidden">
                 <div className="absolute top-0 right-0 p-2 font-mono text-[8px] text-white/10">
                   Email
                 </div>
@@ -173,7 +173,7 @@ export default function ContactPage() {
               </div>
 
               {/* Hours Card */}
-              <div className="bg-[#2a2a2a] border-l-4 border-[#F27D24] p-6 relative overflow-hidden">
+              <div className="bg-[#F4F0E8] border-l-4 border-[#F27D24] p-6 relative overflow-hidden">
                 <div className="absolute top-0 right-0 p-2 font-mono text-[8px] text-white/10">
                   Hours
                 </div>
@@ -187,7 +187,7 @@ export default function ContactPage() {
               </div>
 
               {/* System Status */}
-              <div className="bg-[#1c1b1b] p-4 flex items-center justify-between border border-white/10">
+              <div className="bg-[#F4F0E8] p-4 flex items-center justify-between border border-white/10">
                 <span className="text-xs font-mono uppercase text-white/30">Status</span>
                 <span className="text-xs font-mono text-green-400 flex items-center gap-2">
                   <span className="w-2 h-2 bg-green-400 animate-pulse inline-block" />
@@ -198,7 +198,7 @@ export default function ContactPage() {
 
             {/* Right: Strategy Call Card */}
             <div className="lg:col-span-7">
-              <div className="bg-[#2a2a2a] border-t-4 border-[#F27D24] p-8 h-full">
+              <div className="bg-[#F4F0E8] border-t-4 border-[#F27D24] p-8 h-full">
                 <div className="mb-8">
                   <p className="font-mono text-[10px] text-[#F27D24] tracking-widest uppercase mb-3">
                     Free Strategy Call // 30 Minutes
@@ -257,7 +257,7 @@ export default function ContactPage() {
             ].map((item) => (
               <div
                 key={item.label}
-                className="bg-[#2a2a2a] p-8 flex flex-col items-center text-center"
+                className="bg-[#F4F0E8] p-8 flex flex-col items-center text-center"
               >
                 <h4 className="font-black font-['Space_Grotesk'] uppercase tracking-tighter text-white mb-2">
                   {item.label}
@@ -290,7 +290,7 @@ export default function ContactPage() {
                   a: 'Currently we focus on US-based local service businesses, as AI citation patterns and data sources vary significantly by region.',
                 },
               ].map((item) => (
-                <div key={item.q} className="bg-[#1c1b1b] p-6 border-l-4 border-transparent hover:border-[#F27D24] transition-colors">
+                <div key={item.q} className="bg-[#F4F0E8] p-6 border-l-4 border-transparent hover:border-[#F27D24] transition-colors">
                   <p className="font-mono text-xs text-[#F27D24] font-bold tracking-widest uppercase mb-2">
                     {item.q}
                   </p>
@@ -324,7 +324,7 @@ export default function ContactPage() {
       </main>
 
       {/* Mobile Sticky Footer */}
-      <div className="md:hidden fixed bottom-0 left-0 right-0 p-4 bg-[#131313]/95 border-t border-[#F27D24]/20 z-50">
+      <div className="md:hidden fixed bottom-0 left-0 right-0 p-4 bg-[#FAF8F2]/95 border-t border-[#F27D24]/20 z-50">
         <div className="flex gap-3">
           <a
             href="tel:+12134442229"

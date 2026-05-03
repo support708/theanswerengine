@@ -279,7 +279,7 @@ export default function Home() {
               Answer Engine Optimization // AI Citations
             </div>
 
-            <h1 className="font-headline font-black text-6xl md:text-8xl lg:text-9xl leading-[0.85] tracking-tighter uppercase mb-6 text-[#e5e2e1]">
+            <h1 className="font-headline font-black text-6xl md:text-8xl lg:text-9xl leading-[0.85] tracking-tighter uppercase mb-6 text-[#0A0A0A]">
               ANSWER ENGINE{' '}
               <span className="text-[#F27D24]">OPTIMIZATION</span> FOR LOCAL BUSINESSES
             </h1>
@@ -311,12 +311,12 @@ export default function Home() {
             {/* Inline metrics strip */}
             <div className="flex items-center gap-8 mt-10 border-t border-white/10 pt-8">
               <div>
-                <div className="font-headline font-black text-2xl text-[#e5e2e1]">1.14M+</div>
+                <div className="font-headline font-black text-2xl text-[#0A0A0A]">1.14M+</div>
                 <div className="font-mono text-[10px] text-white/40 tracking-widest uppercase mt-1">Monthly Impressions (Our Site)</div>
               </div>
               <div className="w-px h-10 bg-white/10" />
               <div>
-                <div className="font-headline font-black text-2xl text-[#e5e2e1]">4 / 4</div>
+                <div className="font-headline font-black text-2xl text-[#0A0A0A]">4 / 4</div>
                 <div className="font-mono text-[10px] text-white/40 tracking-widest uppercase mt-1">Platforms Citing Us</div>
               </div>
               <div className="w-px h-10 bg-white/10" />
@@ -330,7 +330,7 @@ export default function Home() {
           {/* Right column — Monday Brief preview card */}
           <div className="lg:col-span-4">
             <div
-              className="bg-[#2a2a2a] p-8 border-l-4 border-[#F27D24] relative hover-lift"
+              className="bg-[#F4F0E8] p-8 border-l-4 border-[#F27D24] relative hover-lift"
               onMouseMove={handleCardMouseMove}
               onMouseLeave={handleCardMouseLeave}
             >
@@ -339,9 +339,9 @@ export default function Home() {
               <p className="text-white/60 text-xs leading-relaxed mb-6">
                 One email every Monday. Your AEO Authority Index, rank deltas that matter, Reddit opportunities, and what we&apos;re doing next.
               </p>
-              <div className="bg-[#0e0e0e] p-4 mb-6 font-mono text-[11px] border border-white/5">
+              <div className="bg-[#0A0A0A] p-4 mb-6 font-mono text-[11px] border border-white/5">
                 <div className="text-white/40 mb-2">GOOD MORNING, {'{CLIENT}'}.</div>
-                <div className="text-[#e5e2e1] mb-3">AEO Authority Index: <span className="text-[#F27D24] font-bold">47/100</span> <span className="text-green-400">↑ 3</span></div>
+                <div className="text-[#0A0A0A] mb-3">AEO Authority Index: <span className="text-[#F27D24] font-bold">47/100</span> <span className="text-green-400">↑ 3</span></div>
                 <div className="text-white/50 text-[10px] leading-relaxed">
                   New query ranking: &ldquo;sell my house fast&rdquo;<br />
                   Rank up: position 14 → 8<br />
@@ -351,11 +351,11 @@ export default function Home() {
               <div className="grid grid-cols-2 gap-4 border-t border-white/10 pt-6">
                 <div>
                   <div className="font-mono text-[10px] text-white/40 uppercase tracking-widest mb-1">Cadence</div>
-                  <div className="text-sm font-headline font-bold text-[#e5e2e1]">1×/week</div>
+                  <div className="text-sm font-headline font-bold text-[#0A0A0A]">1×/week</div>
                 </div>
                 <div>
                   <div className="font-mono text-[10px] text-white/40 uppercase tracking-widest mb-1">Plus</div>
-                  <div className="text-sm font-headline font-bold text-[#e5e2e1]">Dashboard 24/7</div>
+                  <div className="text-sm font-headline font-bold text-[#0A0A0A]">Dashboard 24/7</div>
                 </div>
               </div>
             </div>
@@ -408,10 +408,10 @@ export default function Home() {
       {/* ════════════════════════════════════════════════════════
           FOUR-PHASE METHOD
       ════════════════════════════════════════════════════════ */}
-      <section id="how-it-works" className="py-32 px-6 lg:px-24 bg-[#1c1b1b] relative">
+      <section id="how-it-works" className="py-32 px-6 lg:px-24 bg-[#F4F0E8] relative">
         <div className="max-w-7xl mx-auto">
           <div className="flex items-end justify-between mb-24 gap-8">
-            <h2 className="font-headline font-black text-5xl md:text-6xl tracking-tighter uppercase leading-none max-w-xl text-[#e5e2e1]">
+            <h2 className="font-headline font-black text-5xl md:text-6xl tracking-tighter uppercase leading-none max-w-xl text-[#0A0A0A]">
               HOW WE GET YOU CITED{' '}
               <span className="text-[#F27D24]">BY AI</span>
             </h2>
@@ -460,7 +460,7 @@ export default function Home() {
             ].map((step, i, arr) => (
               <div
                 key={step.num}
-                className={`p-10 ${i < arr.length - 1 ? 'border-b lg:border-b-0 lg:border-r' : ''} ${i === 1 ? 'md:border-r lg:border-r' : ''} border-white/10 bg-[#131313] hover:bg-[#2a2a2a] transition-colors group`}
+                className={`p-10 ${i < arr.length - 1 ? 'border-b lg:border-b-0 lg:border-r' : ''} ${i === 1 ? 'md:border-r lg:border-r' : ''} border-white/10 bg-[#FAF8F2] hover:bg-[#F4F0E8] transition-colors group`}
                 style={{ transitionDelay: stepsAnim.isVisible ? `${step.delay}ms` : '0ms' }}
               >
                 <div className="flex justify-between items-start mb-10">
@@ -471,7 +471,7 @@ export default function Home() {
                     {step.kicker}
                   </span>
                 </div>
-                <h4 className="font-headline font-bold text-2xl uppercase mb-4 text-[#e5e2e1]">{step.title}</h4>
+                <h4 className="font-headline font-bold text-2xl uppercase mb-4 text-[#0A0A0A]">{step.title}</h4>
                 <p className="text-white/60 text-sm leading-relaxed mb-8">{step.desc}</p>
                 <div className="font-mono text-[10px] text-[#F27D24] tracking-widest uppercase">{step.status}</div>
               </div>
@@ -491,15 +491,15 @@ export default function Home() {
         aria-hidden="true"
       >
         {/* Dark gradient background with grid */}
-        <div className="absolute inset-0 bg-[#0e0e0e] grid-bg" />
+        <div className="absolute inset-0 bg-[#0A0A0A] grid-bg" />
         <div className="absolute inset-0 bg-gradient-to-br from-black/60 via-transparent to-black/60" />
 
         <div className="relative z-10 text-center px-6">
           <div className="font-headline font-black text-3xl md:text-5xl lg:text-6xl tracking-[0.15em] uppercase leading-none">
             <div className="flex flex-col md:flex-row gap-3 md:gap-10 items-center justify-center">
-              <span className="text-[#e5e2e1]">AUDIT.</span>
+              <span className="text-[#0A0A0A]">AUDIT.</span>
               <span className="text-[#F27D24]">OPTIMIZE.</span>
-              <span className="text-[#e5e2e1]">DOMINATE.</span>
+              <span className="text-[#0A0A0A]">DOMINATE.</span>
             </div>
           </div>
           <div className="mt-6 flex justify-center gap-2">
@@ -513,7 +513,7 @@ export default function Home() {
       {/* ════════════════════════════════════════════════════════
           AI CITATION PROOF
       ════════════════════════════════════════════════════════ */}
-      <section id="citations" className="py-32 px-6 lg:px-24 bg-[#1c1b1b]">
+      <section id="citations" className="py-32 px-6 lg:px-24 bg-[#F4F0E8]">
         <div
           ref={citationsAnim.ref}
           className={`max-w-7xl mx-auto transition-all duration-700 ease-out ${
@@ -522,7 +522,7 @@ export default function Home() {
         >
           <div className="mb-16">
             <span className="font-mono text-[10px] text-[#F27D24] tracking-widest uppercase block mb-4">Proof // We Eat Our Own Dog Food</span>
-            <h2 className="font-headline font-black text-5xl md:text-6xl tracking-tighter uppercase leading-none text-[#e5e2e1]">
+            <h2 className="font-headline font-black text-5xl md:text-6xl tracking-tighter uppercase leading-none text-[#0A0A0A]">
               WE PROVED IT ON OUR{' '}
               <span className="text-[#F27D24]">OWN SITE FIRST.</span>
             </h2>
@@ -540,9 +540,9 @@ export default function Home() {
             ].map((stat, i) => (
               <div
                 key={i}
-                className={`p-8 ${i < 2 ? 'border-r' : ''} border-white/10 bg-[#131313]`}
+                className={`p-8 ${i < 2 ? 'border-r' : ''} border-white/10 bg-[#FAF8F2]`}
               >
-                <div className="font-headline font-black text-4xl md:text-5xl text-[#e5e2e1] mb-2">{stat.value}</div>
+                <div className="font-headline font-black text-4xl md:text-5xl text-[#0A0A0A] mb-2">{stat.value}</div>
                 <div className="font-mono text-[10px] text-white/40 uppercase tracking-widest">{stat.label}</div>
                 <div className="font-mono text-[10px] text-[#F27D24] uppercase tracking-widest mt-2">{stat.status}</div>
               </div>
@@ -579,7 +579,7 @@ export default function Home() {
             ].map((citation, i) => (
               <div
                 key={i}
-                className={`bg-[#131313] group ${i % 2 === 0 ? 'border-r border-white/10' : ''} ${i < 2 ? 'border-b border-white/10' : ''}`}
+                className={`bg-[#FAF8F2] group ${i % 2 === 0 ? 'border-r border-white/10' : ''} ${i < 2 ? 'border-b border-white/10' : ''}`}
               >
                 <button
                   onClick={() => setActiveImage(citation.image)}
@@ -606,7 +606,7 @@ export default function Home() {
                         className="w-full h-auto object-cover object-top aspect-[3/2] group-hover:scale-[1.02] transition-transform duration-500 brightness-90 group-hover:brightness-100"
                         loading="lazy"
                       />
-                      <div className="absolute inset-0 bg-gradient-to-t from-[#131313]/60 via-transparent to-transparent" />
+                      <div className="absolute inset-0 bg-gradient-to-t from-[#FAF8F2]/60 via-transparent to-transparent" />
                     </div>
                   </div>
                 </button>
@@ -619,20 +619,20 @@ export default function Home() {
           </div>
 
           {/* Interactive CitationProof demo */}
-          <div className="border border-white/10 bg-[#131313] p-8">
+          <div className="border border-white/10 bg-[#FAF8F2] p-8">
             <div className="font-mono text-[10px] text-[#F27D24] uppercase tracking-widest mb-6">Live Demo // See It In Action</div>
             <CitationProof isVisible={citationsAnim.isVisible} />
           </div>
 
           {/* Testimonial */}
-          <div className="mt-12 border border-white/10 border-l-4 border-l-[#F27D24] bg-[#2a2a2a] p-10">
+          <div className="mt-12 border border-white/10 border-l-4 border-l-[#F27D24] bg-[#F4F0E8] p-10">
             <blockquote className="text-2xl sm:text-3xl font-light text-white/80 leading-[1.35] mb-8 font-headline tracking-tight">
               &ldquo;He understands how AI actually decides who to recommend. That&apos;s a completely different skill set, and it&apos;s working.&rdquo;
             </blockquote>
             <div className="flex items-center gap-4">
               <div className="w-10 h-10 bg-[#F27D24] flex items-center justify-center text-black text-sm font-black font-headline">JB</div>
               <div>
-                <p className="text-sm font-bold text-[#e5e2e1] font-headline uppercase tracking-tight">Justin Borges</p>
+                <p className="text-sm font-bold text-[#0A0A0A] font-headline uppercase tracking-tight">Justin Borges</p>
                 <p className="font-mono text-[10px] text-white/40 uppercase tracking-widest mt-0.5">Borges Real Estate Team // Pasadena, CA</p>
               </div>
             </div>
@@ -643,7 +643,7 @@ export default function Home() {
       {/* ════════════════════════════════════════════════════════
           LIVE DEMO — FIELD SCAN TERMINAL
       ════════════════════════════════════════════════════════ */}
-      <section className="py-32 px-6 lg:px-24 bg-[#131313]">
+      <section className="py-32 px-6 lg:px-24 bg-[#FAF8F2]">
         <div
           ref={liveDemoAnim.ref}
           className={`max-w-7xl mx-auto transition-all duration-700 ease-out ${
@@ -652,7 +652,7 @@ export default function Home() {
         >
           <div className="mb-16">
             <span className="font-mono text-[10px] text-[#F27D24] tracking-widest uppercase block mb-4">Live Demo // See It In Action</span>
-            <h2 className="font-headline font-black text-5xl md:text-6xl tracking-tighter uppercase leading-none text-[#e5e2e1]">
+            <h2 className="font-headline font-black text-5xl md:text-6xl tracking-tighter uppercase leading-none text-[#0A0A0A]">
               ASK AN AI.<br />
               WATCH THE SYSTEM <span className="text-[#F27D24]">MOVE.</span>
             </h2>
@@ -695,7 +695,7 @@ export default function Home() {
             </div>
 
             {/* Right — citation map */}
-            <div className="bg-[#131313] flex flex-col">
+            <div className="bg-[#FAF8F2] flex flex-col">
               <div className="px-6 py-4 border-b border-white/10 flex justify-between items-center">
                 <span className="font-mono text-[10px] tracking-widest text-white/40 uppercase">Current Citation Map</span>
                 <span className="font-mono text-[10px] tracking-widest text-white/40 uppercase">Before Us</span>
@@ -713,7 +713,7 @@ export default function Home() {
                   >
                     <div>
                       <div className="font-mono text-[10px] tracking-widest text-white/40 uppercase mb-1">{row[0]}</div>
-                      <div className="text-[#e5e2e1] text-[15px] font-semibold">{row[1]}</div>
+                      <div className="text-[#0A0A0A] text-[15px] font-semibold">{row[1]}</div>
                     </div>
                     <div className="w-7 h-7 rounded-full border border-white/30 flex items-center justify-center text-white/50 text-sm">
                       ✗
@@ -723,7 +723,7 @@ export default function Home() {
 
                 <div className="mt-6 p-5 bg-black border-l-4 border-[#F27D24]">
                   <div className="font-mono text-[10px] tracking-widest text-[#F27D24] uppercase mb-1">— Projected · Day 90</div>
-                  <div className="text-[#e5e2e1] text-base font-bold">
+                  <div className="text-[#0A0A0A] text-base font-bold">
                     4 / 4 platforms citing <span className="text-[#F27D24]">you</span>.
                   </div>
                 </div>
@@ -736,7 +736,7 @@ export default function Home() {
       {/* ════════════════════════════════════════════════════════
           TERRITORY MAP
       ════════════════════════════════════════════════════════ */}
-      <section id="territory-map" className="py-32 px-6 lg:px-24 bg-[#131313]">
+      <section id="territory-map" className="py-32 px-6 lg:px-24 bg-[#FAF8F2]">
         <div
           ref={territoryAnim.ref}
           className={`max-w-7xl mx-auto transition-all duration-700 ease-out ${
@@ -745,7 +745,7 @@ export default function Home() {
         >
           <div className="mb-16">
             <span className="font-mono text-[10px] text-[#F27D24] tracking-widest uppercase block mb-4">Territory Map // Live Availability</span>
-            <h2 className="font-headline font-black text-5xl md:text-6xl tracking-tighter uppercase leading-none text-[#e5e2e1]">
+            <h2 className="font-headline font-black text-5xl md:text-6xl tracking-tighter uppercase leading-none text-[#0A0A0A]">
               EXCLUSIVE <span className="text-[#F27D24]">TERRITORY</span> GRID
             </h2>
             <p className="text-white/50 text-sm leading-relaxed mt-4 max-w-xl">
@@ -767,9 +767,9 @@ export default function Home() {
               return (
                 <div
                   key={i}
-                  className={`flex flex-col gap-3 sm:grid sm:grid-cols-[2fr_1.3fr_1fr_120px] sm:items-center px-5 sm:px-6 py-4 sm:py-5 ${i < territories.length - 1 ? 'border-b border-white/5' : ''} ${i % 2 === 0 ? 'bg-[#131313]' : 'bg-[#1c1b1b]'} hover:bg-[#2a2a2a] transition-colors`}
+                  className={`flex flex-col gap-3 sm:grid sm:grid-cols-[2fr_1.3fr_1fr_120px] sm:items-center px-5 sm:px-6 py-4 sm:py-5 ${i < territories.length - 1 ? 'border-b border-white/5' : ''} ${i % 2 === 0 ? 'bg-[#FAF8F2]' : 'bg-[#F4F0E8]'} hover:bg-[#F4F0E8] transition-colors`}
                 >
-                  <div className="font-headline font-bold text-base md:text-lg uppercase text-[#e5e2e1]">{t.city}</div>
+                  <div className="font-headline font-bold text-base md:text-lg uppercase text-[#0A0A0A]">{t.city}</div>
                   <div className="font-mono text-[11px] tracking-widest uppercase text-white/50">{t.category}</div>
                   <div>
                     {isClaimed ? (
@@ -819,11 +819,11 @@ export default function Home() {
       {/* ════════════════════════════════════════════════════════
           WHO WE SERVE — real-estate-forward positioning
       ════════════════════════════════════════════════════════ */}
-      <section className="py-32 px-6 lg:px-24 bg-[#131313]">
+      <section className="py-32 px-6 lg:px-24 bg-[#FAF8F2]">
         <div className="max-w-7xl mx-auto">
           <div className="mb-16">
             <span className="font-mono text-[10px] text-[#F27D24] tracking-widest uppercase block mb-4">Who We Serve // Primary Verticals</span>
-            <h2 className="font-headline font-black text-5xl md:text-6xl tracking-tighter uppercase leading-none text-[#e5e2e1]">
+            <h2 className="font-headline font-black text-5xl md:text-6xl tracking-tighter uppercase leading-none text-[#0A0A0A]">
               BUILT ON{' '}
               <span className="text-[#F27D24]">REAL ESTATE.</span><br />
               READY FOR THE REST.
@@ -866,7 +866,7 @@ export default function Home() {
             ].map((v, i, arr) => (
               <div
                 key={v.num}
-                className={`p-8 bg-[#1c1b1b] hover:bg-[#2a2a2a] transition-colors ${i < arr.length - 1 ? 'border-b lg:border-b-0 lg:border-r' : ''} ${i === 1 ? 'md:border-r' : ''} ${i < 2 ? 'md:border-b lg:border-b-0' : ''} border-white/10`}
+                className={`p-8 bg-[#F4F0E8] hover:bg-[#F4F0E8] transition-colors ${i < arr.length - 1 ? 'border-b lg:border-b-0 lg:border-r' : ''} ${i === 1 ? 'md:border-r' : ''} ${i < 2 ? 'md:border-b lg:border-b-0' : ''} border-white/10`}
               >
                 <div className="flex items-start justify-between mb-6">
                   <span className="text-5xl font-headline font-black text-white/10">{v.num}</span>
@@ -874,7 +874,7 @@ export default function Home() {
                     {v.tag}
                   </span>
                 </div>
-                <h4 className="font-headline font-bold text-xl uppercase mb-4 text-[#e5e2e1] leading-tight">{v.title}</h4>
+                <h4 className="font-headline font-bold text-xl uppercase mb-4 text-[#0A0A0A] leading-tight">{v.title}</h4>
                 <p className="text-white/60 text-sm leading-relaxed mb-6">{v.body}</p>
                 <div className="font-mono text-[10px] text-white/40 tracking-widest uppercase pt-4 border-t border-white/10">
                   {v.clients}
@@ -892,7 +892,7 @@ export default function Home() {
       {/* ════════════════════════════════════════════════════════
           90-DAY GUARANTEE
       ════════════════════════════════════════════════════════ */}
-      <section className="py-32 px-6 lg:px-24 bg-[#1c1b1b]">
+      <section className="py-32 px-6 lg:px-24 bg-[#F4F0E8]">
         <div
           ref={guaranteeAnim.ref}
           className={`max-w-5xl mx-auto transition-all duration-700 ease-out ${
@@ -900,7 +900,7 @@ export default function Home() {
           }`}
         >
           <div
-            className="border border-[#F27D24]/40 border-l-4 border-l-[#F27D24] bg-[#131313] p-12 sm:p-16 relative overflow-hidden hover-lift"
+            className="border border-[#F27D24]/40 border-l-4 border-l-[#F27D24] bg-[#FAF8F2] p-12 sm:p-16 relative overflow-hidden hover-lift"
             onMouseMove={handleCardMouseMove}
             onMouseLeave={handleCardMouseLeave}
             style={{ '--mouse-x': '50%', '--mouse-y': '50%' } as React.CSSProperties}
@@ -911,7 +911,7 @@ export default function Home() {
             <div className="relative z-10">
               <span className="font-mono text-[10px] text-[#F27D24] tracking-widest uppercase block mb-6">Our Guarantee // Zero Risk</span>
 
-              <h2 className="font-headline font-black text-5xl md:text-7xl tracking-tighter uppercase leading-none text-[#e5e2e1] mb-8">
+              <h2 className="font-headline font-black text-5xl md:text-7xl tracking-tighter uppercase leading-none text-[#0A0A0A] mb-8">
                 90-DAY CITATION<br />
                 <span className="text-[#F27D24]">GUARANTEE</span>
               </h2>
@@ -951,7 +951,7 @@ export default function Home() {
       {/* ════════════════════════════════════════════════════════
           FAQ
       ════════════════════════════════════════════════════════ */}
-      <section id="faq-section" className="py-32 px-6 lg:px-24 bg-[#131313]">
+      <section id="faq-section" className="py-32 px-6 lg:px-24 bg-[#FAF8F2]">
         <div
           ref={faqAnim.ref}
           className={`max-w-4xl mx-auto transition-all duration-700 ease-out ${
@@ -960,7 +960,7 @@ export default function Home() {
         >
           <div className="mb-16">
             <span className="font-mono text-[10px] text-[#F27D24] tracking-widest uppercase block mb-4">Common Questions // FAQ</span>
-            <h2 className="font-headline font-black text-5xl md:text-6xl tracking-tighter uppercase leading-none text-[#e5e2e1]">
+            <h2 className="font-headline font-black text-5xl md:text-6xl tracking-tighter uppercase leading-none text-[#0A0A0A]">
               FREQUENTLY ASKED <span className="text-[#F27D24]">QUESTIONS</span>
             </h2>
           </div>
@@ -971,7 +971,7 @@ export default function Home() {
                 key={i}
                 className={`border-b border-white/10 last:border-b-0 transition-all duration-500 ease-out ${
                   faqAnim.isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-4'
-                } ${expandedFaq === i ? 'bg-[#1c1b1b]' : 'bg-[#131313] hover:bg-[#1a1a1a]'}`}
+                } ${expandedFaq === i ? 'bg-[#F4F0E8]' : 'bg-[#FAF8F2] hover:bg-[#1a1a1a]'}`}
                 style={{ transitionDelay: faqAnim.isVisible ? `${i * 80}ms` : '0ms' }}
               >
                 <button
@@ -980,7 +980,7 @@ export default function Home() {
                   aria-expanded={expandedFaq === i}
                   aria-controls={`faq-answer-${i}`}
                 >
-                  <span className="font-headline font-bold text-lg uppercase tracking-tight text-[#e5e2e1]">{faq.q}</span>
+                  <span className="font-headline font-bold text-lg uppercase tracking-tight text-[#0A0A0A]">{faq.q}</span>
                   <svg
                     className={`w-5 h-5 text-[#F27D24] flex-shrink-0 transition-transform duration-300 ${expandedFaq === i ? 'rotate-180' : ''}`}
                     fill="none"
@@ -1046,11 +1046,11 @@ export default function Home() {
       {/* ════════════════════════════════════════════════════════
           TERRITORY CHECK FORM
       ════════════════════════════════════════════════════════ */}
-      <section id="territory-check" className="py-32 px-6 lg:px-24 bg-[#1c1b1b]">
+      <section id="territory-check" className="py-32 px-6 lg:px-24 bg-[#F4F0E8]">
         <div className="max-w-3xl mx-auto">
           <div className="mb-12">
             <span className="font-mono text-[10px] text-[#F27D24] tracking-widest uppercase block mb-4">Check Your Territory // Free Scan</span>
-            <h2 className="font-headline font-black text-5xl md:text-6xl tracking-tighter uppercase leading-none text-[#e5e2e1]">
+            <h2 className="font-headline font-black text-5xl md:text-6xl tracking-tighter uppercase leading-none text-[#0A0A0A]">
               CHECK YOUR <span className="text-[#F27D24]">TERRITORY</span>
             </h2>
             <p className="text-white/50 text-sm leading-relaxed mt-4">
@@ -1058,7 +1058,7 @@ export default function Home() {
             </p>
           </div>
 
-          <div className="border border-white/10 bg-[#131313] p-10 sm:p-12">
+          <div className="border border-white/10 bg-[#FAF8F2] p-10 sm:p-12">
             {formStatus === 'success' ? (
               <div className="text-center py-12">
                 <div className="w-16 h-16 mx-auto mb-6 bg-[#F27D24] flex items-center justify-center">
@@ -1067,7 +1067,7 @@ export default function Home() {
                   </svg>
                 </div>
                 <div className="font-mono text-[10px] text-[#F27D24] tracking-widest uppercase mb-4">Request received — we'll be in touch</div>
-                <h3 className="font-headline font-black text-3xl uppercase tracking-tighter text-[#e5e2e1] mb-3">
+                <h3 className="font-headline font-black text-3xl uppercase tracking-tighter text-[#0A0A0A] mb-3">
                   Territory Check Started
                 </h3>
                 <p className="text-white/50 text-sm mb-8">
@@ -1091,7 +1091,7 @@ export default function Home() {
                     name="industry"
                     required
                     disabled={formStatus === 'submitting'}
-                    className="w-full px-4 py-4 bg-[#1c1b1b] border border-white/10 text-[#e5e2e1] font-headline font-bold focus:outline-none focus:border-[#F27D24] transition-colors disabled:opacity-50 appearance-none cursor-pointer"
+                    className="w-full px-4 py-4 bg-[#F4F0E8] border border-white/10 text-[#0A0A0A] font-headline font-bold focus:outline-none focus:border-[#F27D24] transition-colors disabled:opacity-50 appearance-none cursor-pointer"
                     style={{
                       backgroundImage: `url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 24 24' stroke='%23F27D24'%3E%3Cpath stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M19 9l-7 7-7-7'%3E%3C/path%3E%3C/svg%3E")`,
                       backgroundRepeat: 'no-repeat',
@@ -1122,7 +1122,7 @@ export default function Home() {
                     required
                     disabled={formStatus === 'submitting'}
                     placeholder="e.g., Phoenix, AZ"
-                    className="w-full px-4 py-4 bg-[#1c1b1b] border border-white/10 text-[#e5e2e1] font-headline font-bold placeholder-white/20 focus:outline-none focus:border-[#F27D24] transition-colors disabled:opacity-50"
+                    className="w-full px-4 py-4 bg-[#F4F0E8] border border-white/10 text-[#0A0A0A] font-headline font-bold placeholder-white/20 focus:outline-none focus:border-[#F27D24] transition-colors disabled:opacity-50"
                   />
                 </div>
 
@@ -1137,7 +1137,7 @@ export default function Home() {
                     required
                     disabled={formStatus === 'submitting'}
                     placeholder="you@company.com"
-                    className="w-full px-4 py-4 bg-[#1c1b1b] border border-white/10 text-[#e5e2e1] font-headline font-bold placeholder-white/20 focus:outline-none focus:border-[#F27D24] transition-colors disabled:opacity-50"
+                    className="w-full px-4 py-4 bg-[#F4F0E8] border border-white/10 text-[#0A0A0A] font-headline font-bold placeholder-white/20 focus:outline-none focus:border-[#F27D24] transition-colors disabled:opacity-50"
                   />
                 </div>
 

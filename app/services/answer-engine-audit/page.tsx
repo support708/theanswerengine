@@ -119,7 +119,7 @@ export default function AnswerEngineAuditPage() {
         ],
       }) }} />
 
-      <main className="min-h-screen bg-[#131313] text-white overflow-x-hidden pt-16">
+      <main className="min-h-screen bg-[#FAF8F2] text-white overflow-x-hidden pt-16">
         {/* Scanline Overlay */}
         <div
           className="fixed inset-0 z-50 pointer-events-none opacity-[0.03]"
@@ -181,7 +181,7 @@ export default function AnswerEngineAuditPage() {
               </a>
               <Link
                 href="/#territory-check"
-                className="border-2 border-white/20 text-[#e5e2e1] font-bold px-10 py-5 text-xl tracking-tighter hover:bg-white/5 hover:border-white/30 transition-all font-headline uppercase"
+                className="border-2 border-white/20 text-[#0A0A0A] font-bold px-10 py-5 text-xl tracking-tighter hover:bg-white/5 hover:border-white/30 transition-all font-headline uppercase"
               >
                 Check Territory
               </Link>
@@ -194,7 +194,7 @@ export default function AnswerEngineAuditPage() {
         </section>
 
         {/* WHAT'S IN THE AUDIT */}
-        <section className="py-24 md:py-32 px-6 lg:px-24 bg-[#1c1b1b]">
+        <section className="py-24 md:py-32 px-6 lg:px-24 bg-[#F4F0E8]">
           <div className="max-w-7xl mx-auto">
             <span className="font-mono text-[10px] tracking-widest uppercase text-[#F27D24] block mb-3">
               What&apos;s Included // Four Deliverables
@@ -208,7 +208,7 @@ export default function AnswerEngineAuditPage() {
               {AUDIT_CARDS.map((card, i) => (
                 <div
                   key={card.num}
-                  className={`p-10 bg-[#131313] border-l-4 border-l-[#F27D24] hover:bg-[#2a2a2a] transition-colors
+                  className={`p-10 bg-[#FAF8F2] border-l-4 border-l-[#F27D24] hover:bg-[#F4F0E8] transition-colors
                     ${i % 2 === 0 ? 'md:border-r border-white/10' : ''}
                     ${i < 2 ? 'border-b border-white/10' : ''}
                   `}
@@ -227,9 +227,9 @@ export default function AnswerEngineAuditPage() {
         </section>
 
         {/* PROOF BLOCK */}
-        <section className="py-24 md:py-32 px-6 lg:px-24 bg-[#131313] border-y border-white/5">
+        <section className="py-24 md:py-32 px-6 lg:px-24 bg-[#FAF8F2] border-y border-white/5">
           <div className="max-w-5xl mx-auto">
-            <div className="bg-[#2a2a2a] border-l-4 border-l-[#F27D24] p-10 md:p-14">
+            <div className="bg-[#F4F0E8] border-l-4 border-l-[#F27D24] p-10 md:p-14">
               <span className="font-mono text-[10px] tracking-widest uppercase text-[#F27D24] block mb-4">
                 Why This Audit Matters // Our Own Proof
               </span>
@@ -253,7 +253,7 @@ export default function AnswerEngineAuditPage() {
         </section>
 
         {/* FAQ */}
-        <section className="py-24 md:py-32 px-6 lg:px-24 bg-[#1c1b1b]">
+        <section className="py-24 md:py-32 px-6 lg:px-24 bg-[#F4F0E8]">
           <div className="max-w-4xl mx-auto">
             <span className="font-mono text-[10px] tracking-widest uppercase text-[#F27D24] block mb-3">
               Frequently Asked // Audit Details
@@ -267,7 +267,7 @@ export default function AnswerEngineAuditPage() {
               {FAQS.map((faq) => (
                 <details
                   key={faq.q}
-                  className="group bg-[#131313] border border-white/5 border-l-4 border-l-transparent open:border-l-[#F27D24] transition-colors"
+                  className="group bg-[#FAF8F2] border border-white/5 border-l-4 border-l-transparent open:border-l-[#F27D24] transition-colors"
                 >
                   <summary className="p-6 flex justify-between items-center cursor-pointer list-none">
                     <h4 className="font-headline font-bold text-lg uppercase tracking-tighter text-white group-open:text-[#F27D24] transition-colors">
@@ -302,7 +302,7 @@ export default function AnswerEngineAuditPage() {
                 href="https://calendly.com/theanswerengine-support/30min"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="bg-black text-[#F27D24] px-10 py-4 font-headline font-black uppercase tracking-tighter text-sm hover:bg-[#131313] transition-colors inline-flex items-center gap-3 whitespace-nowrap"
+                className="bg-black text-[#F27D24] px-10 py-4 font-headline font-black uppercase tracking-tighter text-sm hover:bg-[#FAF8F2] transition-colors inline-flex items-center gap-3 whitespace-nowrap"
               >
                 BOOK 30-MIN AUDIT
                 <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={2.5}>

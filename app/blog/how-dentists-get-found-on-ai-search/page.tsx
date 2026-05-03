@@ -194,7 +194,7 @@ export default function HowDentistsGetFoundOnAISearch() {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
       />
 
-      <main className="min-h-screen bg-[#0F1117]">
+      <main className="min-h-screen bg-[#FFF]">
         {/* Hero */}
         <section className="relative overflow-hidden border-b border-white/5">
           <div className="absolute inset-0 bg-gradient-to-br from-[#F27D24]/10 via-transparent to-transparent" />

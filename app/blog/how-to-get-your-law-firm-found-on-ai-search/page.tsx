@@ -169,7 +169,7 @@ export default function Page() {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
       />
 
-      <main className="min-h-screen bg-[#0F1117]">
+      <main className="min-h-screen bg-[#FFF]">
 
         {/* Hero */}
         <section className="relative overflow-hidden border-b border-white/5">

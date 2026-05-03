@@ -3,7 +3,7 @@ import Image from 'next/image';
 
 export default function NotFound() {
   return (
-    <main className="min-h-screen flex items-center justify-center px-4 bg-[#0F1117]">
+    <main className="min-h-screen flex items-center justify-center px-4 bg-[#FFF]">
       <div className="absolute inset-0 pointer-events-none">
         <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[400px] bg-[radial-gradient(ellipse_at_center,rgba(242,125,36,0.1),transparent_70%)]" />
       </div>

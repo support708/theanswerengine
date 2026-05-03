@@ -73,7 +73,7 @@ const INDUSTRIES = [
 
 export default function TerritoryCheckPage() {
   return (
-    <div className="bg-[#131313] text-white min-h-screen font-sans">
+    <div className="bg-[#FAF8F2] text-white min-h-screen font-sans">
       {/* BreadcrumbList + WebPage schema */}
       <script
         type="application/ld+json"
@@ -156,7 +156,7 @@ export default function TerritoryCheckPage() {
             </p>
 
             {/* Query Form Card */}
-            <div className="max-w-2xl mx-auto bg-[#2a2a2a] border-t-4 border-[#F27D24] p-8 shadow-2xl">
+            <div className="max-w-2xl mx-auto bg-[#F4F0E8] border-t-4 border-[#F27D24] p-8 shadow-2xl">
               <div className="flex items-center gap-2 mb-6 opacity-60">
                 <span className="font-mono text-[10px] uppercase tracking-widest">
                   Check Availability
@@ -176,7 +176,7 @@ export default function TerritoryCheckPage() {
                     <select
                       id="industry"
                       name="industry"
-                      className="w-full bg-[#0e0e0e] border border-white/10 text-white p-4 focus:outline-none focus:border-[#F27D24] transition-all cursor-pointer font-mono text-sm"
+                      className="w-full bg-[#0A0A0A] border border-white/10 text-white p-4 focus:outline-none focus:border-[#F27D24] transition-all cursor-pointer font-mono text-sm"
                     >
                       {INDUSTRIES.map((ind) => (
                         <option key={ind}>{ind}</option>
@@ -195,7 +195,7 @@ export default function TerritoryCheckPage() {
                       name="city"
                       type="text"
                       placeholder="e.g. Austin, TX"
-                      className="w-full bg-[#0e0e0e] border border-white/10 text-white p-4 focus:outline-none focus:border-[#F27D24] transition-all font-mono text-sm placeholder:text-white/20"
+                      className="w-full bg-[#0A0A0A] border border-white/10 text-white p-4 focus:outline-none focus:border-[#F27D24] transition-all font-mono text-sm placeholder:text-white/20"
                     />
                   </div>
                 </div>
@@ -222,7 +222,7 @@ export default function TerritoryCheckPage() {
         </section>
 
         {/* ── TERRITORY GRID ───────────────────────────────────────────────── */}
-        <section className="bg-[#1c1b1b] py-24 px-6 border-y border-white/10">
+        <section className="bg-[#F4F0E8] py-24 px-6 border-y border-white/10">
           <div className="max-w-7xl mx-auto">
             <div className="flex items-center justify-between mb-12">
               <h2 className="font-headline font-black text-3xl uppercase tracking-tighter">
@@ -248,7 +248,7 @@ export default function TerritoryCheckPage() {
                 t.status === 'secured' ? (
                   <div
                     key={t.id}
-                    className="bg-[#2a2a2a] p-6 opacity-40 grayscale"
+                    className="bg-[#F4F0E8] p-6 opacity-40 grayscale"
                   >
                     <div className="flex justify-between items-start mb-4">
                       <span className="font-mono text-[10px] font-bold text-white/40">
@@ -271,7 +271,7 @@ export default function TerritoryCheckPage() {
                 ) : (
                   <div
                     key={t.id}
-                    className="bg-[#2a2a2a] p-6 border-2 border-[#F27D24] relative"
+                    className="bg-[#F4F0E8] p-6 border-2 border-[#F27D24] relative"
                   >
                     <div
                       className="absolute inset-0 bg-[#F27D24]/5 animate-pulse pointer-events-none"
@@ -302,14 +302,14 @@ export default function TerritoryCheckPage() {
         </section>
 
         {/* ── URGENCY SECTION ──────────────────────────────────────────────── */}
-        <section className="py-24 px-6 bg-[#0e0e0e]">
+        <section className="py-24 px-6 bg-[#0A0A0A]">
           <div className="max-w-4xl mx-auto text-center">
             <h2 className="font-headline font-bold text-3xl md:text-4xl text-white mb-12 uppercase leading-tight tracking-tighter">
               ONLY ONE BUSINESS PER CATEGORY PER AREA. ONCE CLAIMED, YOUR
               COMPETITORS ARE{' '}
               <span className="text-[#F27D24]">LOCKED OUT.</span>
             </h2>
-            <div className="inline-flex items-center gap-4 bg-[#1c1b1b] border border-[#F27D24]/30 px-8 py-6">
+            <div className="inline-flex items-center gap-4 bg-[#F4F0E8] border border-[#F27D24]/30 px-8 py-6">
               <span
                 className="w-3 h-3 bg-[#F27D24] animate-pulse"
                 aria-hidden="true"
@@ -329,7 +329,7 @@ export default function TerritoryCheckPage() {
             </h2>
             <Link
               href="/contact"
-              className="bg-black text-[#F27D24] font-headline font-black px-12 py-6 text-xl uppercase tracking-widest hover:bg-[#1c1b1b] transition-all inline-block"
+              className="bg-black text-[#F27D24] font-headline font-black px-12 py-6 text-xl uppercase tracking-widest hover:bg-[#F4F0E8] transition-all inline-block"
             >
               Claim My Territory
             </Link>

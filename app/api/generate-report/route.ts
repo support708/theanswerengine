@@ -239,11 +239,11 @@ Load these Google Fonts in <head>:
   @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@700;900&family=DM+Mono:wght@400;500&family=DM+Sans:wght@300;400;500;700&display=swap');
 
 CSS variables to define:
-  --bg: #131313;
-  --bg-alt: #1c1b1b;
-  --surface: #2a2a2a;
+  --bg: #FAF8F2;
+  --bg-alt: #F4F0E8;
+  --surface: #F4F0E8;
   --orange: #F27D24;
-  --text: #e5e2e1;
+  --text: #0A0A0A;
   --text-muted: rgba(229,226,225,0.55);
   --border: rgba(255,255,255,0.08);
 

@@ -86,7 +86,7 @@ const DIFFERENTIATORS = [
 
 export default function AboutPage() {
   return (
-    <main className="min-h-screen bg-[#131313] text-white overflow-x-hidden">
+    <main className="min-h-screen bg-[#FAF8F2] text-white overflow-x-hidden">
       {/* Scanline Overlay */}
       <div
         className="fixed inset-0 z-50 pointer-events-none opacity-[0.03]"
@@ -237,7 +237,7 @@ export default function AboutPage() {
       </section>
 
       {/* ── TIMELINE ─────────────────────────────────────────── */}
-      <section className="py-32 px-6 lg:px-24 bg-[#131313]">
+      <section className="py-32 px-6 lg:px-24 bg-[#FAF8F2]">
         <div className="max-w-7xl mx-auto">
           <h2 className="font-headline font-black text-4xl uppercase tracking-tighter mb-16">
             Our{' '}
@@ -251,7 +251,7 @@ export default function AboutPage() {
               {TIMELINE.map((item, i) => (
                 <div
                   key={i}
-                  className={`bg-[#2a2a2a] border border-white/10 border-l-4 border-l-[#F27D24] p-6 flex flex-col gap-4 ${
+                  className={`bg-[#F4F0E8] border border-white/10 border-l-4 border-l-[#F27D24] p-6 flex flex-col gap-4 ${
                     i % 2 === 1 ? 'md:mt-12' : ''
                   }`}
                 >
@@ -270,7 +270,7 @@ export default function AboutPage() {
       </section>
 
       {/* ── AERO-10 FRAMEWORK ────────────────────────────────── */}
-      <section className="py-32 px-6 lg:px-24 bg-[#1c1b1b] border-y border-white/5">
+      <section className="py-32 px-6 lg:px-24 bg-[#F4F0E8] border-y border-white/5">
         <div className="max-w-7xl mx-auto">
           <h2 className="font-headline font-black text-4xl uppercase tracking-tighter mb-4">
             THE AERO-10 SCORING{' '}
@@ -285,7 +285,7 @@ export default function AboutPage() {
             {AERO_10_PILLARS.map((pillar) => (
               <div
                 key={pillar.num}
-                className="relative p-6 border border-white/5 bg-[#131313] aspect-square flex flex-col justify-between overflow-hidden"
+                className="relative p-6 border border-white/5 bg-[#FAF8F2] aspect-square flex flex-col justify-between overflow-hidden"
               >
                 <span className="absolute -right-4 -top-8 text-8xl font-black text-white/[0.03] select-none font-headline">
                   {pillar.num}
@@ -303,12 +303,12 @@ export default function AboutPage() {
           </div>
 
           {/* AERO-10 scorecard CTA */}
-          <div className="mt-12 border border-[#F27D24]/30 border-l-4 border-l-[#F27D24] bg-[#131313] p-8 md:p-10 flex flex-col md:flex-row items-start md:items-center justify-between gap-6">
+          <div className="mt-12 border border-[#F27D24]/30 border-l-4 border-l-[#F27D24] bg-[#FAF8F2] p-8 md:p-10 flex flex-col md:flex-row items-start md:items-center justify-between gap-6">
             <div>
               <span className="font-mono text-[10px] tracking-widest uppercase text-[#F27D24] block mb-2">
                 Free // Your AERO-10 Scorecard
               </span>
-              <h3 className="font-headline font-black text-2xl md:text-3xl uppercase tracking-tighter text-[#e5e2e1] mb-2">
+              <h3 className="font-headline font-black text-2xl md:text-3xl uppercase tracking-tighter text-[#0A0A0A] mb-2">
                 See where your business scores on all ten pillars.
               </h3>
               <p className="text-white/50 text-sm leading-relaxed max-w-lg">
@@ -331,7 +331,7 @@ export default function AboutPage() {
       </section>
 
       {/* ── DIFFERENTIATORS ──────────────────────────────────── */}
-      <section className="py-32 px-6 lg:px-24 bg-[#131313]">
+      <section className="py-32 px-6 lg:px-24 bg-[#FAF8F2]">
         <div className="max-w-7xl mx-auto">
           <h2 className="font-headline font-black text-4xl uppercase tracking-tighter mb-16">
             WHY WE{' '}
@@ -360,7 +360,7 @@ export default function AboutPage() {
       </section>
 
       {/* ── FOUNDER BLOCK ────────────────────────────────────── */}
-      <section className="py-32 px-6 lg:px-24 bg-[#1c1b1b] border-y border-white/5">
+      <section className="py-32 px-6 lg:px-24 bg-[#F4F0E8] border-y border-white/5">
         <div className="max-w-7xl mx-auto">
           <div className="grid md:grid-cols-2 gap-16 items-center">
             <div>
@@ -382,7 +382,7 @@ export default function AboutPage() {
                   { val: '$200M+', label: 'TRANSACTIONS' },
                   { val: '100%', label: 'AI Citation Rate' },
                 ].map((stat) => (
-                  <div key={stat.label} className="border border-white/10 p-4 bg-[#2a2a2a]">
+                  <div key={stat.label} className="border border-white/10 p-4 bg-[#F4F0E8]">
                     <div className="font-headline font-black text-2xl text-white mb-1">
                       {stat.val}
                     </div>
@@ -393,7 +393,7 @@ export default function AboutPage() {
                 ))}
               </div>
             </div>
-            <div className="border border-white/10 bg-[#2a2a2a] p-10 border-l-4 border-l-[#F27D24]">
+            <div className="border border-white/10 bg-[#F4F0E8] p-10 border-l-4 border-l-[#F27D24]">
               <span className="font-mono text-[10px] tracking-widest uppercase text-white/40 mb-6 block">
                 In His Own Words
               </span>
@@ -412,7 +412,7 @@ export default function AboutPage() {
       </section>
 
       {/* ── THE MONTHLY PROGRAM ──────────────────────────────── */}
-      <section className="py-32 px-6 lg:px-24 bg-[#131313]">
+      <section className="py-32 px-6 lg:px-24 bg-[#FAF8F2]">
         <div className="max-w-7xl mx-auto">
           <span className="font-mono text-[10px] tracking-widest uppercase text-[#F27D24] block mb-3">
             After The Foundation // Ongoing
@@ -442,7 +442,7 @@ export default function AboutPage() {
             ].map((item, i) => (
               <div
                 key={i}
-                className={`p-10 bg-[#1c1b1b] border-l-4 border-l-[#F27D24] hover:bg-[#2a2a2a] transition-colors ${
+                className={`p-10 bg-[#F4F0E8] border-l-4 border-l-[#F27D24] hover:bg-[#F4F0E8] transition-colors ${
                   i < 2 ? 'border-b md:border-b-0 md:border-r border-white/10' : ''
                 }`}
               >
@@ -474,7 +474,7 @@ export default function AboutPage() {
           <div className="flex flex-col sm:flex-row gap-4">
             <Link
               href="/#territory-check"
-              className="bg-black text-[#F27D24] px-10 py-4 font-headline font-black uppercase tracking-tighter text-sm hover:bg-[#131313] transition-colors inline-flex items-center gap-3"
+              className="bg-black text-[#F27D24] px-10 py-4 font-headline font-black uppercase tracking-tighter text-sm hover:bg-[#FAF8F2] transition-colors inline-flex items-center gap-3"
             >
               CHECK TERRITORY
               <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={2.5}>

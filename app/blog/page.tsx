@@ -74,13 +74,13 @@ export default function Blog() {
 
         *:focus-visible {
           outline: none;
-          box-shadow: 0 0 0 2px #131313, 0 0 0 4px rgba(255,106,0,0.4);
+          box-shadow: 0 0 0 2px #FAF8F2, 0 0 0 4px rgba(255,106,0,0.4);
           transition: box-shadow 200ms var(--ease-out-quart);
         }
 
         button:focus-visible, a:focus-visible {
           outline: none;
-          box-shadow: 0 0 0 2px #131313, 0 0 0 4px rgba(255,106,0,0.4);
+          box-shadow: 0 0 0 2px #FAF8F2, 0 0 0 4px rgba(255,106,0,0.4);
         }
 
         html {
@@ -171,7 +171,7 @@ export default function Blog() {
       />
 
 
-      <main className="min-h-screen bg-[#131313] relative overflow-hidden">
+      <main className="min-h-screen bg-[#FAF8F2] relative overflow-hidden">
         {/* Scanline Overlay */}
         <div className="scanline-overlay fixed inset-0 z-[100] opacity-[0.03] pointer-events-none" />
 
@@ -179,7 +179,7 @@ export default function Blog() {
         <section className="py-32 px-6 lg:px-24 grid-bg">
           <div className="max-w-7xl mx-auto">
             <span className="font-mono text-[10px] text-[#F27D24] tracking-widest uppercase block mb-4">AEO Blog // Free Resources</span>
-            <h1 className="font-headline font-black text-5xl md:text-6xl lg:text-7xl tracking-tighter uppercase text-[#e5e2e1] mb-6">
+            <h1 className="font-headline font-black text-5xl md:text-6xl lg:text-7xl tracking-tighter uppercase text-[#0A0A0A] mb-6">
               AEO <span className="text-[#F27D24]">Insights & Guides</span>
             </h1>
             <p className="text-white/60 text-lg max-w-2xl leading-relaxed">
@@ -201,7 +201,7 @@ export default function Blog() {
               >
                 <div className="mb-10">
                   <span className="font-mono text-[10px] text-[#F27D24] tracking-widest uppercase block mb-3">Featured Articles</span>
-                  <h2 className="font-headline font-black text-3xl tracking-tighter uppercase text-[#e5e2e1]">
+                  <h2 className="font-headline font-black text-3xl tracking-tighter uppercase text-[#0A0A0A]">
                     ESSENTIAL READING
                   </h2>
                 </div>
@@ -210,7 +210,7 @@ export default function Blog() {
                   {featuredPosts.map((post, i) => (
                     <article
                       key={post.id}
-                      className={`bg-[#131313] border border-white/10 overflow-hidden hover:bg-[#2a2a2a] group transition-all duration-500 ${
+                      className={`bg-[#FAF8F2] border border-white/10 overflow-hidden hover:bg-[#F4F0E8] group transition-all duration-500 ${
                         featuredAnim.isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-6'
                       }`}
                       style={{ transitionDelay: featuredAnim.isVisible ? `${100 + i * 100}ms` : '0ms' }}
@@ -245,7 +245,7 @@ export default function Blog() {
                           {!post.image.endsWith('.svg') && !post.image.endsWith('.webp') && (
                             <BlogCardPattern index={i} className="absolute inset-0 w-full h-full pointer-events-none z-[1]" />
                           )}
-                          <div className="absolute inset-0 bg-gradient-to-t from-[#131313] via-transparent to-[#131313]/40 pointer-events-none z-[2]" />
+                          <div className="absolute inset-0 bg-gradient-to-t from-[#FAF8F2] via-transparent to-[#FAF8F2]/40 pointer-events-none z-[2]" />
                           <div className="absolute top-3 right-3 px-2.5 py-1 bg-[#F27D24] text-black text-xs font-black uppercase tracking-tight z-[3]">
                             Featured
                           </div>
@@ -262,7 +262,7 @@ export default function Blog() {
                             </time>
                           </div>
 
-                          <h3 className="text-lg font-headline font-bold uppercase tracking-tight text-[#e5e2e1] mb-3 group-hover:text-[#F27D24] transition-colors leading-tight line-clamp-2">
+                          <h3 className="text-lg font-headline font-bold uppercase tracking-tight text-[#0A0A0A] mb-3 group-hover:text-[#F27D24] transition-colors leading-tight line-clamp-2">
                             {post.title}
                           </h3>
 
@@ -297,7 +297,7 @@ export default function Blog() {
           >
             <div className="mb-10">
               <span className="font-mono text-[10px] text-[#F27D24] tracking-widest uppercase block mb-3">All Articles // {filteredPosts.length} articles</span>
-              <h2 className="font-headline font-black text-3xl tracking-tighter uppercase text-[#e5e2e1] mb-6">
+              <h2 className="font-headline font-black text-3xl tracking-tighter uppercase text-[#0A0A0A] mb-6">
                 ALL ARTICLES
               </h2>
 
@@ -329,7 +329,7 @@ export default function Blog() {
               {filteredPosts.map((post, i) => (
                 <article
                   key={post.id}
-                  className={`bg-[#131313] border border-white/10 overflow-hidden hover:bg-[#2a2a2a] group transition-all duration-500 ${
+                  className={`bg-[#FAF8F2] border border-white/10 overflow-hidden hover:bg-[#F4F0E8] group transition-all duration-500 ${
                     allPostsAnim.isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-6'
                   }`}
                   style={{ transitionDelay: allPostsAnim.isVisible ? `${(i % 6) * 50}ms` : '0ms' }}
@@ -364,7 +364,7 @@ export default function Blog() {
                       {!post.image.endsWith('.svg') && !post.image.endsWith('.webp') && (
                         <BlogCardPattern index={i + 10} className="absolute inset-0 w-full h-full pointer-events-none z-[1]" />
                       )}
-                      <div className="absolute inset-0 bg-gradient-to-t from-[#131313] via-transparent to-[#131313]/40 pointer-events-none z-[2]" />
+                      <div className="absolute inset-0 bg-gradient-to-t from-[#FAF8F2] via-transparent to-[#FAF8F2]/40 pointer-events-none z-[2]" />
                     </div>
 
                     <div className="p-5 sm:p-6">
@@ -378,7 +378,7 @@ export default function Blog() {
                         </time>
                       </div>
 
-                      <h3 className="text-lg font-headline font-bold uppercase tracking-tight text-[#e5e2e1] mb-3 group-hover:text-[#F27D24] transition-colors leading-tight line-clamp-2">
+                      <h3 className="text-lg font-headline font-bold uppercase tracking-tight text-[#0A0A0A] mb-3 group-hover:text-[#F27D24] transition-colors leading-tight line-clamp-2">
                         {post.title}
                       </h3>
 
@@ -402,7 +402,7 @@ export default function Blog() {
           {/* CTA Section */}
           <div className="border border-white/10 border-l-4 border-l-[#F27D24] p-8 sm:p-12 lg:p-16">
             <span className="font-mono text-[10px] text-[#F27D24] tracking-widest uppercase block mb-4">Start Your AEO Journey</span>
-            <h2 className="font-headline font-black text-3xl sm:text-4xl tracking-tighter uppercase text-[#e5e2e1] mb-4">
+            <h2 className="font-headline font-black text-3xl sm:text-4xl tracking-tighter uppercase text-[#0A0A0A] mb-4">
               READY TO GET CITED BY AI?
             </h2>
             <p className="text-white/60 mb-8 max-w-2xl leading-relaxed">

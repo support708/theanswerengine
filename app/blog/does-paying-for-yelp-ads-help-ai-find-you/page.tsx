@@ -108,7 +108,7 @@ export default function BlogPost() {
 
       {/* HERO */}
       <header className="max-w-4xl mx-auto px-6 pb-12">
-        <div className="relative rounded-2xl overflow-hidden mb-8 bg-[#0F1117] border border-white/[0.06]" style={{ minHeight: '180px' }}>
+        <div className="relative rounded-2xl overflow-hidden mb-8 bg-[#FFF] border border-white/[0.06]" style={{ minHeight: '180px' }}>
           <svg
             id="hero-grid-131"
             className="absolute inset-0 w-full h-full opacity-30"

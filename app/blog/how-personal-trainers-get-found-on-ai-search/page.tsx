@@ -375,12 +375,12 @@ export default function Page() {
               <tr>
                 <td className="font-semibold text-white">Blog / Content</td>
                 <td>Articles that answer fitness questions in your specialty. Builds topical authority and gives AI more vocabulary to use when describing you.</td>
-                <td><span className="ae-tier-badge" style={{background:'rgba(100,100,100,0.15)', color:'#aaa', border:'1px solid rgba(255,255,255,0.1)', borderRadius:'4px', padding:'2px 8px', fontSize:'0.75rem', fontWeight:600}}>Medium</span></td>
+                <td><span className="ae-tier-badge" style={{background:'rgba(100,100,100,0.15)', color:'#aaa', border:'1px solid rgba(10,10,10,0.1)', borderRadius:'4px', padding:'2px 8px', fontSize:'0.75rem', fontWeight:600}}>Medium</span></td>
               </tr>
               <tr>
                 <td className="font-semibold text-white">Social Profiles</td>
                 <td>LinkedIn with specializations listed. Instagram with consistent bio. These are supplementary signals, not primary ones for AI.</td>
-                <td><span className="ae-tier-badge" style={{background:'rgba(100,100,100,0.15)', color:'#aaa', border:'1px solid rgba(255,255,255,0.1)', borderRadius:'4px', padding:'2px 8px', fontSize:'0.75rem', fontWeight:600}}>Supplementary</span></td>
+                <td><span className="ae-tier-badge" style={{background:'rgba(100,100,100,0.15)', color:'#aaa', border:'1px solid rgba(10,10,10,0.1)', borderRadius:'4px', padding:'2px 8px', fontSize:'0.75rem', fontWeight:600}}>Supplementary</span></td>
               </tr>
             </tbody>
           </table>
