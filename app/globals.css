@@ -155,16 +155,9 @@ html {
   background: rgba(10, 10, 10, 0.3);
 }
 
-/* Scanline overlay effect removed for light mode */
-.scanline-overlay {
-  background: none;
-  pointer-events: none;
-}
-
 /* Dot-grid background for hero section - light mode */
 .grid-bg {
-  background-image: radial-gradient(circle, #D5CFC2 1px, transparent 1px);
-  background-size: 32px 32px;
+  background: none;
 }
 
 /* Territory card orange glow pulse */
@@ -426,8 +419,7 @@ button:focus-visible, a:focus-visible {
 }
 
 .grid-bg {
-  background-image: radial-gradient(circle, #D5CFC2 1px, transparent 1px);
-  background-size: 32px 32px;
+  background: none;
 }
 
 .tonal-shift {

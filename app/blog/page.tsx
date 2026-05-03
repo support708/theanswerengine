@@ -172,8 +172,6 @@ export default function Blog() {
 
 
       <main className="min-h-screen bg-[#FAF8F2] relative overflow-hidden">
-        {/* Scanline Overlay */}
-        <div className="scanline-overlay fixed inset-0 z-[100] opacity-[0.03] pointer-events-none" />
 
         {/* Hero */}
         <section className="py-32 px-6 lg:px-24 grid-bg">

@@ -256,8 +256,6 @@ export default function Home() {
         "mainEntity": { "@type": "Service", "name": "Answer Engine Optimization", "provider": { "@id": "https://www.theanswerengine.ai/#organization" } },
       })}} />
 
-      {/* ── Global scanline overlay ── */}
-      <div className="scanline-overlay fixed inset-0 z-[100] opacity-[0.03] pointer-events-none" aria-hidden="true" />
 
       {/* ════════════════════════════════════════════════════════
           HERO

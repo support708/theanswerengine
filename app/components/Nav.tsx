@@ -29,11 +29,11 @@ export default function Nav() {
         {/* Logo */}
         <a href="/" className="flex items-center gap-3">
           <Image
-            src="/TheAnswerEngine_white logo only.png"
+            src="/ae-mark-orange.png"
             alt="The Answer Engine"
             width={32}
             height={32}
-            className="h-7 w-auto opacity-90"
+            className="h-7 w-auto"
           />
           <span className="text-xl font-black tracking-tighter text-[#F27D24] uppercase font-headline">
             THE ANSWER ENGINE
