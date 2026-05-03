@@ -707,7 +707,7 @@ export default function Page() {
                 a: 'Yes, service-area businesses (plumbers, electricians, cleaning companies, etc.) can appear in AI recommendations for cities within their service area even without a physical presence. The key is building the right signals: consistent service-area declarations across directories, content that explicitly addresses customers in those cities, and reviews from customers in those locations.',
               },
             ].map(({ q, a }) => (
-              <div key={q} className="border border-black/10 rounded-xl p-6">
+              <div key={q} className="border border-white/10 rounded-xl p-6">
                 <h3 className="font-plus-jakarta font-semibold text-white mb-3">{q}</h3>
                 <p className="text-gray-400 leading-relaxed">{a}</p>
               </div>

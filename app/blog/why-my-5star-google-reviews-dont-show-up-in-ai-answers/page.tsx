@@ -164,7 +164,7 @@ export default function WhyGoogleReviewsDontShowInAI() {
     <>
       <ComprehensiveSchema />
 
-      <main className="min-h-screen bg-[#FFF]">
+      <main className="min-h-screen bg-[#0F1117]">
         {/* Hero Section */}
         <div className="max-w-4xl mx-auto px-6 pt-12 sm:pt-16">
           {/* Breadcrumbs */}

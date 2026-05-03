@@ -6,14 +6,14 @@ interface BadgeProps {
 }
 
 const variantStyles = {
-  default: 'bg-white/[0.03] border-white/[0.08] text-black/60',
-  orange: 'bg-white/[0.04] border-white/[0.08] text-black/40',
-  purple: 'bg-white/[0.04] border-white/[0.08] text-black/40',
-  emerald: 'bg-white/[0.04] border-white/[0.08] text-black/40',
+  default: 'bg-white/[0.03] border-white/[0.08] text-white/60',
+  orange: 'bg-white/[0.04] border-white/[0.08] text-white/40',
+  purple: 'bg-white/[0.04] border-white/[0.08] text-white/40',
+  emerald: 'bg-white/[0.04] border-white/[0.08] text-white/40',
 };
 
 const pulseColors = {
-  default: 'bg-black/60',
+  default: 'bg-white/60',
   orange: 'bg-white/30',
   purple: 'bg-white/30',
   emerald: 'bg-white/30',

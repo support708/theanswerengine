@@ -640,7 +640,7 @@ export default function Page() {
             </div>
             <div className="grid sm:grid-cols-3 gap-5">
               {/* Tier 1 */}
-              <div className="rounded-xl p-5 text-center" style={{ background: 'rgba(0,0,0,0.3)', border: '1px solid rgba(10,10,10,0.1)' }}>
+              <div className="rounded-xl p-5 text-center" style={{ background: 'rgba(0,0,0,0.3)', border: '1px solid rgba(255,255,255,0.1)' }}>
                 <div className="text-3xl mb-3">&#128269;</div>
                 <h3 className="text-white font-bold mb-2 font-plus-jakarta">Find Your Blind Spots</h3>
                 <p className="text-gray-400 text-sm mb-4">Discover which AI visibility signals your domain is missing right now.</p>
@@ -649,7 +649,7 @@ export default function Page() {
                 </Link>
               </div>
               {/* Tier 2 */}
-              <div className="rounded-xl p-5 text-center" style={{ background: 'rgba(0,0,0,0.3)', border: '1px solid rgba(10,10,10,0.1)' }}>
+              <div className="rounded-xl p-5 text-center" style={{ background: 'rgba(0,0,0,0.3)', border: '1px solid rgba(255,255,255,0.1)' }}>
                 <div className="text-3xl mb-3">&#128222;</div>
                 <h3 className="text-white font-bold mb-2 font-plus-jakarta">Talk to an Expert</h3>
                 <p className="text-gray-400 text-sm mb-4">Get direct answers about your domain's AI search position in a quick call.</p>
@@ -658,7 +658,7 @@ export default function Page() {
                 </a>
               </div>
               {/* Tier 3 */}
-              <div className="rounded-xl p-5 text-center" style={{ background: 'rgba(0,0,0,0.3)', border: '1px solid rgba(10,10,10,0.1)' }}>
+              <div className="rounded-xl p-5 text-center" style={{ background: 'rgba(0,0,0,0.3)', border: '1px solid rgba(255,255,255,0.1)' }}>
                 <div className="text-3xl mb-3">&#128231;</div>
                 <h3 className="text-white font-bold mb-2 font-plus-jakarta">Email Us Directly</h3>
                 <p className="text-gray-400 text-sm mb-4">Send your domain and we'll send back a preliminary assessment within 24 hours.</p>

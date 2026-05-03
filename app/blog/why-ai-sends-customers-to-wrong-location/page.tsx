@@ -207,7 +207,7 @@ export default function Page() {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
       />
-      <main className="min-h-screen bg-[#FFF]">
+      <main className="min-h-screen bg-[#0F1117]">
         <article className="max-w-4xl mx-auto px-6 py-12 sm:py-16">
 
           {/* Breadcrumbs */}
@@ -221,7 +221,7 @@ export default function Page() {
 
           {/* Hero */}
           <header className="mb-12">
-            <div className="relative rounded-2xl overflow-hidden mb-8 bg-[#FFF] border border-white/[0.06]" style={{ minHeight: '200px' }}>
+            <div className="relative rounded-2xl overflow-hidden mb-8 bg-[#0F1117] border border-white/[0.06]" style={{ minHeight: '200px' }}>
               <svg
                 id="hero-grid-139"
                 className="absolute inset-0 w-full h-full opacity-30"
@@ -908,7 +908,7 @@ export default function Page() {
                   Get My Free Blind Spot Report
                   <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" /></svg>
                 </Link>
-                <a href="tel:+12134442229" className="inline-flex items-center justify-center gap-2 border border-black/20 text-white px-8 py-4 rounded-lg font-bold text-lg hover:border-black/40 transition-colors">
+                <a href="tel:+12134442229" className="inline-flex items-center justify-center gap-2 border border-white/20 text-white px-8 py-4 rounded-lg font-bold text-lg hover:border-white/40 transition-colors">
                   <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" /></svg>
                   Call (213) 444-2229
                 </a>

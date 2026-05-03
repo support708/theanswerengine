@@ -521,7 +521,7 @@ export default function Page() {
               </ul>
             </div>
 
-            <div className="rounded-xl border border-black/10 bg-white/5 p-5">
+            <div className="rounded-xl border border-white/10 bg-white/5 p-5">
               <div className="flex items-center gap-2 mb-3">
                 <span className="text-xs font-bold uppercase tracking-widest text-gray-400">Reddit</span>
                 <span className="ml-auto text-xs bg-blue-500/20 text-blue-400 px-2 py-0.5 rounded-full font-semibold">Medium Priority</span>
@@ -534,7 +534,7 @@ export default function Page() {
               </ul>
             </div>
 
-            <div className="rounded-xl border border-black/10 bg-white/5 p-5">
+            <div className="rounded-xl border border-white/10 bg-white/5 p-5">
               <div className="flex items-center gap-2 mb-3">
                 <span className="text-xs font-bold uppercase tracking-widest text-gray-400">Instagram / TikTok</span>
                 <span className="ml-auto text-xs bg-yellow-500/20 text-yellow-400 px-2 py-0.5 rounded-full font-semibold">Brand Signal Only</span>

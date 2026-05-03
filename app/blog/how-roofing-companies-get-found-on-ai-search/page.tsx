@@ -667,7 +667,7 @@ export default function Page() {
               a: 'Yes. Many homeowners who ask AI about roofing are navigating an insurance claim for storm damage. Content that explains the insurance claim process for roof repairs, what documentation is needed, and how a roofer assists with adjuster meetings is highly specific and highly cited. Roofers who publish this content become the authoritative voice for those queries in their area.',
             },
           ].map((item, i) => (
-            <div key={i} className="border border-black/10 rounded-xl p-6 bg-white/[0.02]">
+            <div key={i} className="border border-white/10 rounded-xl p-6 bg-white/[0.02]">
               <h3 className="font-plus-jakarta font-semibold text-white mb-3">{item.q}</h3>
               <p className="text-gray-300 leading-relaxed">{item.a}</p>
             </div>

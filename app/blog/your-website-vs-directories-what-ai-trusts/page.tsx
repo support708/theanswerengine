@@ -178,7 +178,7 @@ export default function YourWebsiteVsDirectoriesWhatAITrusts() {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
       />
 
-      <main className="min-h-screen bg-[#FFF]">
+      <main className="min-h-screen bg-[#0F1117]">
         {/* Hero Section */}
         <section className="relative overflow-hidden border-b border-white/5">
           <div className="absolute inset-0 bg-gradient-to-br from-[#F27D24]/10 via-transparent to-transparent" />
@@ -294,19 +294,19 @@ export default function YourWebsiteVsDirectoriesWhatAITrusts() {
             <p>Your website is the only place that provides all of the following in a single, crawlable, structured package:</p>
 
             <div className="not-prose grid grid-cols-1 md:grid-cols-2 gap-4 my-8">
-              <div className="p-5 rounded-xl bg-white/[0.03] border border-black/10">
+              <div className="p-5 rounded-xl bg-white/[0.03] border border-white/10">
                 <div className="text-[#F27D24] font-bold text-lg mb-2 font-plus-jakarta">Service Depth</div>
                 <p className="text-gray-400 text-sm leading-relaxed">Individual service pages with detailed descriptions, pricing context, process explanations, and specialization signals. Directories give you a category dropdown. Your website tells AI what you actually do and how you do it.</p>
               </div>
-              <div className="p-5 rounded-xl bg-white/[0.03] border border-black/10">
+              <div className="p-5 rounded-xl bg-white/[0.03] border border-white/10">
                 <div className="text-[#F27D24] font-bold text-lg mb-2 font-plus-jakarta">Structured Data</div>
                 <p className="text-gray-400 text-sm leading-relaxed">Schema markup (LocalBusiness, Service, FAQPage, Review) that speaks the language AI understands natively. Directories do not let you add custom schema to your listing. Your website does.</p>
               </div>
-              <div className="p-5 rounded-xl bg-white/[0.03] border border-black/10">
+              <div className="p-5 rounded-xl bg-white/[0.03] border border-white/10">
                 <div className="text-[#F27D24] font-bold text-lg mb-2 font-plus-jakarta">Authority Content</div>
                 <p className="text-gray-400 text-sm leading-relaxed">Blog posts, guides, FAQ pages, and educational resources that demonstrate expertise. AI evaluates content depth when deciding who qualifies as an authority in a given service category.</p>
               </div>
-              <div className="p-5 rounded-xl bg-white/[0.03] border border-black/10">
+              <div className="p-5 rounded-xl bg-white/[0.03] border border-white/10">
                 <div className="text-[#F27D24] font-bold text-lg mb-2 font-plus-jakarta">Full Control</div>
                 <p className="text-gray-400 text-sm leading-relaxed">You control the content, the structure, the update frequency, and the technical implementation. Directory listings are constrained by whatever fields the platform offers. Your website has no such limits.</p>
               </div>

@@ -222,7 +222,7 @@ export default function HowAIDecideswhatQuestionsToAnswer() {
     <>
       <ComprehensiveSchema />
 
-      <main className="min-h-screen bg-[#FFF]">
+      <main className="min-h-screen bg-[#0F1117]">
         <article className="max-w-4xl mx-auto px-6 py-20">
 
           {/* Breadcrumbs */}

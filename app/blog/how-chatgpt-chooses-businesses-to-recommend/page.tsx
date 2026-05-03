@@ -262,7 +262,7 @@ export default function HowChatGPTChoosesBusiness() {
     <>
       <ComprehensiveSchema />
 
-      <article className="min-h-screen bg-[#FFF] relative overflow-hidden">
+      <article className="min-h-screen bg-[#0F1117] relative overflow-hidden">
         <div className="max-w-4xl mx-auto px-6 py-20 sm:py-32 relative">
           <Breadcrumb />
 

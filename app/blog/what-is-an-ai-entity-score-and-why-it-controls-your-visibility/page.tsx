@@ -711,7 +711,7 @@ export default function Page() {
                 a: 'AI platforms use knowledge graphs to map relationships between entities. Your business entity connects to location entities, category entities, review entities, and related service entities. A well-connected, consistent knowledge graph entry for your business increases the confidence with which AI systems can recommend you for specific queries.',
               },
             ].map(({ q, a }) => (
-              <div key={q} className="border border-black/10 rounded-xl p-6">
+              <div key={q} className="border border-white/10 rounded-xl p-6">
                 <h3 className="font-plus-jakarta font-bold text-white mb-3">{q}</h3>
                 <p className="text-gray-400 leading-relaxed">{a}</p>
               </div>

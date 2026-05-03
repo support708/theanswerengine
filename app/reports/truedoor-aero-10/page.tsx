@@ -7,9 +7,9 @@ export const metadata: Metadata = {
 
 export default function TrueDoorReport() {
   return (
-    <main className="bg-[#FAF8F2] text-[#0A0A0A]">
+    <main className="bg-[#131313] text-[#e5e2e1]">
       {/* SLIDE 1: HERO */}
-      <section className="relative min-h-screen flex flex-col justify-center items-center px-6 py-20 bg-[#FAF8F2]">
+      <section className="relative min-h-screen flex flex-col justify-center items-center px-6 py-20 bg-[#131313]">
         {/* Background grid pattern */}
         <div
           className="absolute inset-0 opacity-30"
@@ -56,7 +56,7 @@ export default function TrueDoorReport() {
       </section>
 
       {/* SLIDE 2: OPPORTUNITY SUMMARY */}
-      <section className="-mx-6 px-6 py-20 bg-[#F4F0E8] border-t border-black/10">
+      <section className="-mx-6 px-6 py-20 bg-[#1c1b1b] border-t border-white/10">
         <div className="max-w-5xl mx-auto">
           <div className="mb-12">
             <span className="font-mono text-[10px] tracking-widest uppercase text-[#F27D24]">
@@ -69,7 +69,7 @@ export default function TrueDoorReport() {
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             {/* Finding 1 */}
-            <div className="bg-[#F4F0E8] border border-black/10 p-6 hover:border-[#F27D24]/30 transition-colors">
+            <div className="bg-[#2a2a2a] border border-white/10 p-6 hover:border-[#F27D24]/30 transition-colors">
               <div className="font-mono text-xs uppercase tracking-widest text-[#F27D24] mb-3">Finding 01</div>
               <h3 className="font-headline font-black text-2xl uppercase mb-3">Kyle Has Zero Personal Brand</h3>
               <p className="text-[#b0a89f] text-sm leading-relaxed">
@@ -78,7 +78,7 @@ export default function TrueDoorReport() {
             </div>
 
             {/* Finding 2 */}
-            <div className="bg-[#F4F0E8] border border-black/10 p-6 hover:border-[#F27D24]/30 transition-colors">
+            <div className="bg-[#2a2a2a] border border-white/10 p-6 hover:border-[#F27D24]/30 transition-colors">
               <div className="font-mono text-xs uppercase tracking-widest text-[#F27D24] mb-3">Finding 02</div>
               <h3 className="font-headline font-black text-2xl uppercase mb-3">C+ BBB Kills Credibility</h3>
               <p className="text-[#b0a89f] text-sm leading-relaxed">
@@ -87,7 +87,7 @@ export default function TrueDoorReport() {
             </div>
 
             {/* Finding 3 */}
-            <div className="bg-[#F4F0E8] border border-black/10 p-6 hover:border-[#F27D24]/30 transition-colors">
+            <div className="bg-[#2a2a2a] border border-white/10 p-6 hover:border-[#F27D24]/30 transition-colors">
               <div className="font-mono text-xs uppercase tracking-widest text-[#F27D24] mb-3">Finding 03</div>
               <h3 className="font-headline font-black text-2xl uppercase mb-3">AB 2493 Is Unaddressed Territory</h3>
               <p className="text-[#b0a89f] text-sm leading-relaxed">
@@ -96,7 +96,7 @@ export default function TrueDoorReport() {
             </div>
 
             {/* Finding 4 */}
-            <div className="bg-[#F4F0E8] border border-black/10 p-6 hover:border-[#F27D24]/30 transition-colors">
+            <div className="bg-[#2a2a2a] border border-white/10 p-6 hover:border-[#F27D24]/30 transition-colors">
               <div className="font-mono text-xs uppercase tracking-widest text-[#F27D24] mb-3">Finding 04</div>
               <h3 className="font-headline font-black text-2xl uppercase mb-3">IE Market is Thin on Content</h3>
               <p className="text-[#b0a89f] text-sm leading-relaxed">
@@ -105,7 +105,7 @@ export default function TrueDoorReport() {
             </div>
 
             {/* Finding 5 */}
-            <div className="bg-[#F4F0E8] border border-black/10 p-6 hover:border-[#F27D24]/30 transition-colors">
+            <div className="bg-[#2a2a2a] border border-white/10 p-6 hover:border-[#F27D24]/30 transition-colors">
               <div className="font-mono text-xs uppercase tracking-widest text-[#F27D24] mb-3">Finding 05</div>
               <h3 className="font-headline font-black text-2xl uppercase mb-3">Regulatory Complexity = Sticky Service</h3>
               <p className="text-[#b0a89f] text-sm leading-relaxed">
@@ -114,7 +114,7 @@ export default function TrueDoorReport() {
             </div>
 
             {/* Finding 6 - bonus */}
-            <div className="bg-[#F4F0E8] border border-black/10 p-6 hover:border-[#F27D24]/30 transition-colors">
+            <div className="bg-[#2a2a2a] border border-white/10 p-6 hover:border-[#F27D24]/30 transition-colors">
               <div className="font-mono text-xs uppercase tracking-widest text-[#F27D24] mb-3">Finding 06</div>
               <h3 className="font-headline font-black text-2xl uppercase mb-3">Irvine is Landlord-Friendly</h3>
               <p className="text-[#b0a89f] text-sm leading-relaxed">
@@ -126,7 +126,7 @@ export default function TrueDoorReport() {
       </section>
 
       {/* SLIDE 3: MARKET REALITY */}
-      <section className="-mx-6 px-6 py-20 bg-[#FAF8F2] border-t border-black/10">
+      <section className="-mx-6 px-6 py-20 bg-[#131313] border-t border-white/10">
         <div className="max-w-5xl mx-auto">
           <div className="mb-12">
             <span className="font-mono text-[10px] tracking-widest uppercase text-[#F27D24]">
@@ -138,24 +138,24 @@ export default function TrueDoorReport() {
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-12">
-            <div className="bg-[#F4F0E8] border border-black/10 p-6 text-center">
+            <div className="bg-[#1c1b1b] border border-white/10 p-6 text-center">
               <div className="font-mono text-xs uppercase tracking-widest text-[#F27D24] mb-3">Vacancy</div>
               <div className="text-5xl font-black mb-2">4.0%</div>
               <p className="text-[#b0a89f] text-sm">OC multifamily — near zero slack</p>
             </div>
-            <div className="bg-[#F4F0E8] border border-black/10 p-6 text-center">
+            <div className="bg-[#1c1b1b] border border-white/10 p-6 text-center">
               <div className="font-mono text-xs uppercase tracking-widest text-[#F27D24] mb-3">Rent / Month</div>
               <div className="text-5xl font-black mb-2">$4,475</div>
               <p className="text-[#b0a89f] text-sm">Irvine median (all types, Feb 2026)</p>
             </div>
-            <div className="bg-[#F4F0E8] border border-black/10 p-6 text-center">
+            <div className="bg-[#1c1b1b] border border-white/10 p-6 text-center">
               <div className="font-mono text-xs uppercase tracking-widest text-[#F27D24] mb-3">Turnover Cost</div>
               <div className="text-5xl font-black mb-2">$4,000</div>
               <p className="text-[#b0a89f] text-sm">Per unit vacancy + repairs + marketing</p>
             </div>
           </div>
 
-          <div className="bg-[#F4F0E8] border border-black/10 p-8 mb-12">
+          <div className="bg-[#1c1b1b] border border-white/10 p-8 mb-12">
             <h3 className="font-headline font-black text-2xl uppercase mb-6">The Competitive Gap</h3>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
               <div>
@@ -183,14 +183,14 @@ export default function TrueDoorReport() {
 
           <div className="border-l-4 border-[#F27D24] pl-6 py-4">
             <p className="text-[#b0a89f] text-lg leading-relaxed">
-              <strong className="text-[#0A0A0A]">Kyle Thompson's opportunity:</strong> He has the pedigree (CSULB Outstanding Graduate, KPMG Fortune 500), the operations (20+ years, growing). But he's invisible where landlords search. AI-first content can flip that in 90 days.
+              <strong className="text-[#e5e2e1]">Kyle Thompson's opportunity:</strong> He has the pedigree (CSULB Outstanding Graduate, KPMG Fortune 500), the operations (20+ years, growing). But he's invisible where landlords search. AI-first content can flip that in 90 days.
             </p>
           </div>
         </div>
       </section>
 
       {/* SLIDE 4: THE PAIN STACK */}
-      <section className="-mx-6 px-6 py-20 bg-[#F4F0E8] border-t border-black/10">
+      <section className="-mx-6 px-6 py-20 bg-[#1c1b1b] border-t border-white/10">
         <div className="max-w-5xl mx-auto">
           <div className="mb-12">
             <span className="font-mono text-[10px] tracking-widest uppercase text-[#F27D24]">
@@ -203,7 +203,7 @@ export default function TrueDoorReport() {
 
           <div className="space-y-6">
             {/* Pain 1 */}
-            <div className="bg-[#FAF8F2] border border-black/10 p-8">
+            <div className="bg-[#131313] border border-white/10 p-8">
               <div className="flex items-start gap-6">
                 <div className="flex-shrink-0 text-4xl font-black text-[#F27D24] opacity-20">01</div>
                 <div>
@@ -217,7 +217,7 @@ export default function TrueDoorReport() {
             </div>
 
             {/* Pain 2 */}
-            <div className="bg-[#FAF8F2] border border-black/10 p-8">
+            <div className="bg-[#131313] border border-white/10 p-8">
               <div className="flex items-start gap-6">
                 <div className="flex-shrink-0 text-4xl font-black text-[#F27D24] opacity-20">02</div>
                 <div>
@@ -231,7 +231,7 @@ export default function TrueDoorReport() {
             </div>
 
             {/* Pain 3 */}
-            <div className="bg-[#FAF8F2] border border-black/10 p-8">
+            <div className="bg-[#131313] border border-white/10 p-8">
               <div className="flex items-start gap-6">
                 <div className="flex-shrink-0 text-4xl font-black text-[#F27D24] opacity-20">03</div>
                 <div>
@@ -245,7 +245,7 @@ export default function TrueDoorReport() {
             </div>
 
             {/* Pain 4 */}
-            <div className="bg-[#FAF8F2] border border-black/10 p-8">
+            <div className="bg-[#131313] border border-white/10 p-8">
               <div className="flex items-start gap-6">
                 <div className="flex-shrink-0 text-4xl font-black text-[#F27D24] opacity-20">04</div>
                 <div>
@@ -259,7 +259,7 @@ export default function TrueDoorReport() {
             </div>
           </div>
 
-          <div className="mt-8 border-l-4 border-[#F27D24] pl-6 py-4 bg-[#FAF8F2]/50">
+          <div className="mt-8 border-l-4 border-[#F27D24] pl-6 py-4 bg-[#131313]/50">
             <p className="text-[#b0a89f] font-mono text-sm uppercase tracking-widest">
               Bottom line: Landlords are terrified, unaware of new laws, and desperate for experts. This is not a commodity market anymore. This is a craving-experts market.
             </p>
@@ -268,7 +268,7 @@ export default function TrueDoorReport() {
       </section>
 
       {/* SLIDE 5: TRUEDOOR'S GAP ANALYSIS */}
-      <section className="-mx-6 px-6 py-20 bg-[#FAF8F2] border-t border-black/10">
+      <section className="-mx-6 px-6 py-20 bg-[#131313] border-t border-white/10">
         <div className="max-w-5xl mx-auto">
           <div className="mb-12">
             <span className="font-mono text-[10px] tracking-widest uppercase text-[#F27D24]">
@@ -281,7 +281,7 @@ export default function TrueDoorReport() {
 
           <div className="space-y-6 mb-12">
             {/* Gap 1 */}
-            <div className="bg-[#F4F0E8] border-l-4 border-[#F27D24] p-6">
+            <div className="bg-[#1c1b1b] border-l-4 border-[#F27D24] p-6">
               <h3 className="font-headline font-black text-xl uppercase mb-2">Gap 1: No Visible Thought Leadership from Kyle</h3>
               <p className="text-[#b0a89f] mb-3">
                 Kyle has a CSULB Outstanding Graduate degree + KPMG Fortune 500 background. That's gold. But zero LinkedIn posts, zero podcast appearances (except one old Signature PM episode), zero bylined articles. When landlords search "Orange County property management expert" or "AB 2493 expert," Kyle doesn't appear.
@@ -292,7 +292,7 @@ export default function TrueDoorReport() {
             </div>
 
             {/* Gap 2 */}
-            <div className="bg-[#F4F0E8] border-l-4 border-[#F27D24] p-6">
+            <div className="bg-[#1c1b1b] border-l-4 border-[#F27D24] p-6">
               <h3 className="font-headline font-black text-xl uppercase mb-2">Gap 2: BBB C+ Rating (With No Public Response)</h3>
               <p className="text-[#b0a89f] mb-3">
                 Good Life PM has a visible guarantee stack ($10K+ value claim). TrueDoor claims "4.6 stars with thousands of owners" but BBB shows C+ with a failure-to-respond complaint. The asymmetry kills trust. Landlords assume TrueDoor is okay but not trustworthy.
@@ -303,7 +303,7 @@ export default function TrueDoorReport() {
             </div>
 
             {/* Gap 3 */}
-            <div className="bg-[#F4F0E8] border-l-4 border-[#F27D24] p-6">
+            <div className="bg-[#1c1b1b] border-l-4 border-[#F27D24] p-6">
               <h3 className="font-headline font-black text-xl uppercase mb-2">Gap 3: Pricing Opacity</h3>
               <p className="text-[#b0a89f] mb-3">
                 Good Life PM publishes: "8% monthly (min $210/unit) or 7% if rent &gt;$6K/mo. 25% leasing fee." Totally transparent. TrueDoor: "Pricing on request." Landlords hate opacity. Opacity signals either a hidden upsell or weakness in the value prop.
@@ -314,7 +314,7 @@ export default function TrueDoorReport() {
             </div>
 
             {/* Gap 4 */}
-            <div className="bg-[#F4F0E8] border-l-4 border-[#F27D24] p-6">
+            <div className="bg-[#1c1b1b] border-l-4 border-[#F27D24] p-6">
               <h3 className="font-headline font-black text-xl uppercase mb-2">Gap 4: IE Market is Underdeveloped</h3>
               <p className="text-[#b0a89f] mb-3">
                 TrueDoor has offices in Redlands, Murrieta, Temecula. But near-zero SEO footprint. No IE-specific blog content. IE landlords (higher tenant volatility, different regulation, tighter margins) need different messaging than OC. TrueDoor is present but invisible.
@@ -325,7 +325,7 @@ export default function TrueDoorReport() {
             </div>
 
             {/* Gap 5 */}
-            <div className="bg-[#F4F0E8] border-l-4 border-[#F27D24] p-6">
+            <div className="bg-[#1c1b1b] border-l-4 border-[#F27D24] p-6">
               <h3 className="font-headline font-black text-xl uppercase mb-2">Gap 5: No AB 2493 / Regulatory Content</h3>
               <p className="text-[#b0a89f] mb-3">
                 AB 2493 took effect Jan 2025 and OC PM blogs are silent on it. TrueDoor's eviction team and legal guidance are perfect for teaching landlords how to navigate it. But there's zero content. Zero thought leadership. Zero SEO footprint on "AB 2493 property management" or "California first-qualified-applicant law."
@@ -336,7 +336,7 @@ export default function TrueDoorReport() {
             </div>
           </div>
 
-          <div className="bg-[#F27D24] text-[#FAF8F2] p-8 rounded-none">
+          <div className="bg-[#F27D24] text-[#131313] p-8 rounded-none">
             <h3 className="font-headline font-black text-2xl uppercase mb-3">The Core Insight</h3>
             <p className="text-lg font-light leading-relaxed">
               TrueDoor has a world-class operator (Kyle), a growing team (50+ staff), and proven operations (20+ years). But they're losing landlords to Good Life PM and smaller boutique competitors because landlords can't find them, don't trust the BBB rating, and are blind to TrueDoor's actual expertise. The gap is not capability. It's visibility.
@@ -346,7 +346,7 @@ export default function TrueDoorReport() {
       </section>
 
       {/* SLIDE 6: THE AERO FRAMEWORK */}
-      <section className="-mx-6 px-6 py-20 bg-[#F4F0E8] border-t border-black/10">
+      <section className="-mx-6 px-6 py-20 bg-[#1c1b1b] border-t border-white/10">
         <div className="max-w-5xl mx-auto">
           <div className="mb-12">
             <span className="font-mono text-[10px] tracking-widest uppercase text-[#F27D24]">
@@ -363,7 +363,7 @@ export default function TrueDoorReport() {
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-12">
             {/* A */}
-            <div className="bg-[#FAF8F2] border border-black/10 p-8">
+            <div className="bg-[#131313] border border-white/10 p-8">
               <div className="font-mono text-xs uppercase tracking-widest text-[#F27D24] mb-4">A — AI Research</div>
               <h3 className="font-headline font-black text-2xl uppercase mb-4">Uncover Landlord Questions</h3>
               <p className="text-[#b0a89f] text-sm leading-relaxed mb-4">
@@ -375,7 +375,7 @@ export default function TrueDoorReport() {
             </div>
 
             {/* E */}
-            <div className="bg-[#FAF8F2] border border-black/10 p-8">
+            <div className="bg-[#131313] border border-white/10 p-8">
               <div className="font-mono text-xs uppercase tracking-widest text-[#F27D24] mb-4">E — Expert Integration</div>
               <h3 className="font-headline font-black text-2xl uppercase mb-4">Pair AI With Kyle</h3>
               <p className="text-[#b0a89f] text-sm leading-relaxed mb-4">
@@ -387,7 +387,7 @@ export default function TrueDoorReport() {
             </div>
 
             {/* R */}
-            <div className="bg-[#FAF8F2] border border-black/10 p-8">
+            <div className="bg-[#131313] border border-white/10 p-8">
               <div className="font-mono text-xs uppercase tracking-widest text-[#F27D24] mb-4">R — Rapid Iteration</div>
               <h3 className="font-headline font-black text-2xl uppercase mb-4">Quick-Deploy, Test, Refine</h3>
               <p className="text-[#b0a89f] text-sm leading-relaxed mb-4">
@@ -399,7 +399,7 @@ export default function TrueDoorReport() {
             </div>
 
             {/* O */}
-            <div className="bg-[#FAF8F2] border border-black/10 p-8">
+            <div className="bg-[#131313] border border-white/10 p-8">
               <div className="font-mono text-xs uppercase tracking-widest text-[#F27D24] mb-4">O — Owned Assets</div>
               <h3 className="font-headline font-black text-2xl uppercase mb-4">Build Kyle's Moat</h3>
               <p className="text-[#b0a89f] text-sm leading-relaxed mb-4">
@@ -411,7 +411,7 @@ export default function TrueDoorReport() {
             </div>
           </div>
 
-          <div className="bg-[#F27D24] text-[#FAF8F2] p-8 rounded-none">
+          <div className="bg-[#F27D24] text-[#131313] p-8 rounded-none">
             <h3 className="font-headline font-black text-xl uppercase mb-3">Outcome</h3>
             <p className="text-lg font-light leading-relaxed">
               Within 6-9 months: Kyle is the most visible regulatory expert in OC/IE. TrueDoor's website is the go-to landlord resource for AB 2493, eviction compliance, and tenant financial risk. Inbound leads from Google. Higher-confidence sales conversations (landlords already know Kyle's expertise). Larger client contracts (because landlords trust TrueDoor more). Lower customer acquisition cost (organic vs. paid).
@@ -421,7 +421,7 @@ export default function TrueDoorReport() {
       </section>
 
       {/* SLIDE 7: ROADMAP & NEXT STEPS */}
-      <section className="-mx-6 px-6 py-20 bg-[#FAF8F2] border-t border-black/10">
+      <section className="-mx-6 px-6 py-20 bg-[#131313] border-t border-white/10">
         <div className="max-w-5xl mx-auto">
           <div className="mb-12">
             <span className="font-mono text-[10px] tracking-widest uppercase text-[#F27D24]">
@@ -433,7 +433,7 @@ export default function TrueDoorReport() {
           </div>
 
           <div className="space-y-4 mb-12">
-            <div className="bg-[#F4F0E8] border-l-4 border-[#F27D24] p-6">
+            <div className="bg-[#1c1b1b] border-l-4 border-[#F27D24] p-6">
               <div className="flex items-baseline gap-3">
                 <span className="font-headline font-black text-3xl text-[#F27D24]">Q1</span>
                 <span className="font-mono text-xs uppercase tracking-widest text-[#b0a89f]">Weeks 1-2</span>
@@ -448,7 +448,7 @@ export default function TrueDoorReport() {
               <p className="text-xs text-[#7a7570] mt-3">Deliverable: Content strategy document, 40+ keyword targets, 5 case studies</p>
             </div>
 
-            <div className="bg-[#F4F0E8] border-l-4 border-[#F27D24] p-6">
+            <div className="bg-[#1c1b1b] border-l-4 border-[#F27D24] p-6">
               <div className="flex items-baseline gap-3">
                 <span className="font-headline font-black text-3xl text-[#F27D24]">Q2</span>
                 <span className="font-mono text-xs uppercase tracking-widest text-[#b0a89f]">Weeks 3-6</span>
@@ -463,7 +463,7 @@ export default function TrueDoorReport() {
               <p className="text-xs text-[#7a7570] mt-3">Deliverable: 4 published articles, 16K+ words, on-page SEO dialed</p>
             </div>
 
-            <div className="bg-[#F4F0E8] border-l-4 border-[#F27D24] p-6">
+            <div className="bg-[#1c1b1b] border-l-4 border-[#F27D24] p-6">
               <div className="flex items-baseline gap-3">
                 <span className="font-headline font-black text-3xl text-[#F27D24]">Q3</span>
                 <span className="font-mono text-xs uppercase tracking-widest text-[#b0a89f]">Weeks 7-9</span>
@@ -479,21 +479,21 @@ export default function TrueDoorReport() {
             </div>
           </div>
 
-          <div className="mb-12 bg-[#F27D24] text-[#FAF8F2] p-8">
+          <div className="mb-12 bg-[#F27D24] text-[#131313] p-8">
             <h3 className="font-headline font-black text-2xl uppercase mb-4">Quarterly Projection</h3>
             <div className="grid grid-cols-3 gap-4 mb-6">
-              <div className="bg-[#FAF8F2]/20 p-4 text-center">
-                <div className="font-mono text-xs uppercase tracking-widest text-[#FAF8F2] opacity-60 mb-2">Organic Searches</div>
+              <div className="bg-[#131313]/20 p-4 text-center">
+                <div className="font-mono text-xs uppercase tracking-widest text-[#131313] opacity-60 mb-2">Organic Searches</div>
                 <div className="text-3xl font-black">240+</div>
                 <div className="text-xs mt-2">Monthly search impressions by week 12</div>
               </div>
-              <div className="bg-[#FAF8F2]/20 p-4 text-center">
-                <div className="font-mono text-xs uppercase tracking-widest text-[#FAF8F2] opacity-60 mb-2">Email Opens</div>
+              <div className="bg-[#131313]/20 p-4 text-center">
+                <div className="font-mono text-xs uppercase tracking-widest text-[#131313] opacity-60 mb-2">Email Opens</div>
                 <div className="text-3xl font-black">32%+</div>
                 <div className="text-xs mt-2">Typical landlord list engagement</div>
               </div>
-              <div className="bg-[#FAF8F2]/20 p-4 text-center">
-                <div className="font-mono text-xs uppercase tracking-widest text-[#FAF8F2] opacity-60 mb-2">Conversion</div>
+              <div className="bg-[#131313]/20 p-4 text-center">
+                <div className="font-mono text-xs uppercase tracking-widest text-[#131313] opacity-60 mb-2">Conversion</div>
                 <div className="text-3xl font-black">8-12</div>
                 <div className="text-xs mt-2">Estimated lead opportunities</div>
               </div>
@@ -504,7 +504,7 @@ export default function TrueDoorReport() {
           </div>
 
           {/* CTA Block */}
-          <div className="bg-[#F27D24] text-[#FAF8F2] p-12 text-center rounded-none">
+          <div className="bg-[#F27D24] text-[#131313] p-12 text-center rounded-none">
             <h3 className="font-headline font-black text-4xl uppercase mb-4">Ready to Own the Market?</h3>
             <p className="text-lg mb-8 font-light max-w-2xl mx-auto">
               Kyle Thompson + TrueDoor have the expertise. AERO has the methodology. Together, we can make Kyle the most visible property management expert in Orange County and the Inland Empire.
@@ -514,7 +514,7 @@ export default function TrueDoorReport() {
             </p>
             <a
               href="https://calendly.com/kyle-property-management/15min"
-              className="inline-block bg-[#FAF8F2] text-[#F27D24] font-headline font-black text-lg uppercase px-8 py-4 hover:bg-[#F4F0E8] transition-colors"
+              className="inline-block bg-[#131313] text-[#F27D24] font-headline font-black text-lg uppercase px-8 py-4 hover:bg-[#2a2a2a] transition-colors"
             >
               Schedule Call
             </a>
@@ -523,7 +523,7 @@ export default function TrueDoorReport() {
       </section>
 
       {/* Footer */}
-      <section className="-mx-6 px-6 py-12 bg-[#F4F0E8] border-t border-black/10 text-center">
+      <section className="-mx-6 px-6 py-12 bg-[#1c1b1b] border-t border-white/10 text-center">
         <p className="text-[#7a7570] font-mono text-xs uppercase tracking-widest">
           The Answer Engine | AERO-10 Report | April 2026
         </p>

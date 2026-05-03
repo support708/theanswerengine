@@ -95,8 +95,8 @@ export default function BlindSpotCheckerPage() {
     <div
       className="text-white min-h-screen font-sans overflow-x-hidden"
       style={{
-        backgroundColor: '#FAF8F2',
-        backgroundImage: 'radial-gradient(#F4F0E8 1px, transparent 1px)',
+        backgroundColor: '#131313',
+        backgroundImage: 'radial-gradient(#2a2a2a 1px, transparent 1px)',
         backgroundSize: '24px 24px',
       }}
     >
@@ -127,7 +127,7 @@ export default function BlindSpotCheckerPage() {
                 YOU?
               </h1>
 
-              <p className="text-xl md:text-2xl text-black/60 max-w-2xl font-light leading-relaxed">
+              <p className="text-xl md:text-2xl text-white/60 max-w-2xl font-light leading-relaxed">
                 Run a free scan to see which businesses AI platforms are citing
                 in your territory.
               </p>
@@ -135,7 +135,7 @@ export default function BlindSpotCheckerPage() {
 
             {/* Decorative panel */}
             <div className="lg:col-span-4 flex justify-end">
-              <div className="w-full aspect-square bg-[#F4F0E8] border border-black/10 p-4 relative overflow-hidden hidden lg:block">
+              <div className="w-full aspect-square bg-[#1c1b1b] border border-white/10 p-4 relative overflow-hidden hidden lg:block">
                 <div
                   className="absolute inset-0 opacity-20"
                   style={{
@@ -168,7 +168,7 @@ export default function BlindSpotCheckerPage() {
               className="bg-[#201f1f] border-t-4 border-[#F27D24] p-8 lg:p-12"
               style={{ boxShadow: '4px 4px 0px 0px #000000' }}
             >
-              <div className="flex justify-between items-center mb-8 border-b border-black/10 pb-4">
+              <div className="flex justify-between items-center mb-8 border-b border-white/10 pb-4">
                 <h2 className="font-headline font-bold text-xl uppercase tracking-widest">
                   Check Your Blind Spots
                 </h2>
@@ -180,7 +180,7 @@ export default function BlindSpotCheckerPage() {
                   <div className="space-y-2">
                     <label
                       htmlFor="business-name"
-                      className="block font-mono text-[10px] uppercase text-black/40 tracking-widest"
+                      className="block font-mono text-[10px] uppercase text-white/40 tracking-widest"
                     >
                       Business Name
                     </label>
@@ -189,20 +189,20 @@ export default function BlindSpotCheckerPage() {
                       name="business"
                       type="text"
                       placeholder="Your business name"
-                      className="w-full bg-[#0A0A0A] border border-black/10 focus:border-[#F27D24] focus:outline-none text-white font-mono py-3 px-4 text-sm placeholder:text-black/20 transition-colors"
+                      className="w-full bg-[#0e0e0e] border border-white/10 focus:border-[#F27D24] focus:outline-none text-white font-mono py-3 px-4 text-sm placeholder:text-white/20 transition-colors"
                     />
                   </div>
                   <div className="space-y-2">
                     <label
                       htmlFor="industry-select"
-                      className="block font-mono text-[10px] uppercase text-black/40 tracking-widest"
+                      className="block font-mono text-[10px] uppercase text-white/40 tracking-widest"
                     >
                       Industry
                     </label>
                     <select
                       id="industry-select"
                       name="industry"
-                      className="w-full bg-[#0A0A0A] border border-black/10 focus:border-[#F27D24] focus:outline-none text-white font-mono py-3 px-4 text-sm transition-colors cursor-pointer"
+                      className="w-full bg-[#0e0e0e] border border-white/10 focus:border-[#F27D24] focus:outline-none text-white font-mono py-3 px-4 text-sm transition-colors cursor-pointer"
                     >
                       {INDUSTRIES.map((ind) => (
                         <option key={ind}>{ind}</option>
@@ -215,7 +215,7 @@ export default function BlindSpotCheckerPage() {
                   <div className="space-y-2">
                     <label
                       htmlFor="city-zip"
-                      className="block font-mono text-[10px] uppercase text-black/40 tracking-widest"
+                      className="block font-mono text-[10px] uppercase text-white/40 tracking-widest"
                     >
                       City / Zip
                     </label>
@@ -224,13 +224,13 @@ export default function BlindSpotCheckerPage() {
                       name="location"
                       type="text"
                       placeholder="City, State or ZIP"
-                      className="w-full bg-[#0A0A0A] border border-black/10 focus:border-[#F27D24] focus:outline-none text-white font-mono py-3 px-4 text-sm placeholder:text-black/20 transition-colors"
+                      className="w-full bg-[#0e0e0e] border border-white/10 focus:border-[#F27D24] focus:outline-none text-white font-mono py-3 px-4 text-sm placeholder:text-white/20 transition-colors"
                     />
                   </div>
                   <div className="space-y-2">
                     <label
                       htmlFor="website-url"
-                      className="block font-mono text-[10px] uppercase text-black/40 tracking-widest"
+                      className="block font-mono text-[10px] uppercase text-white/40 tracking-widest"
                     >
                       Website URL
                     </label>
@@ -239,7 +239,7 @@ export default function BlindSpotCheckerPage() {
                       name="website"
                       type="url"
                       placeholder="https://yourbusiness.com"
-                      className="w-full bg-[#0A0A0A] border border-black/10 focus:border-[#F27D24] focus:outline-none text-white font-mono py-3 px-4 text-sm placeholder:text-black/20 transition-colors"
+                      className="w-full bg-[#0e0e0e] border border-white/10 focus:border-[#F27D24] focus:outline-none text-white font-mono py-3 px-4 text-sm placeholder:text-white/20 transition-colors"
                     />
                   </div>
                 </div>
@@ -263,7 +263,7 @@ export default function BlindSpotCheckerPage() {
                 <span className="text-[#F27D24] font-mono text-2xl font-black shrink-0">
                   {step.num}
                 </span>
-                <p className="text-black/60 font-light">
+                <p className="text-white/60 font-light">
                   <span className="text-white font-bold">{step.label}: </span>
                   {step.desc}
                 </p>
@@ -286,11 +286,11 @@ export default function BlindSpotCheckerPage() {
               card.variant === 'error' ? (
                 <div
                   key={card.platform}
-                  className="bg-[#201f1f] p-6 border border-black/10 border-r-4 relative overflow-hidden"
+                  className="bg-[#201f1f] p-6 border border-white/10 border-r-4 relative overflow-hidden"
                   style={{ borderRightColor: '#ffb4ab' }}
                 >
                   <div className="flex justify-between items-start mb-6">
-                    <div className="font-mono text-[10px] text-black/40 uppercase tracking-widest">
+                    <div className="font-mono text-[10px] text-white/40 uppercase tracking-widest">
                       {card.platform}
                     </div>
                     <span className="text-[#ffb4ab] font-mono text-sm">
@@ -298,13 +298,13 @@ export default function BlindSpotCheckerPage() {
                     </span>
                   </div>
                   <div className="font-mono text-sm leading-relaxed mb-8 h-24 overflow-hidden">
-                    <span className="text-black/40">{card.query}</span>
+                    <span className="text-white/40">{card.query}</span>
                     <br />
                     <span className="text-[#ffb4ab] font-bold tracking-widest">
                       Your Business: Not Found
                     </span>
                     <br />
-                    <span className="text-black/40 italic">
+                    <span className="text-white/40 italic">
                       AI platforms don&apos;t recognize your business as an authority in your market yet.
                     </span>
                   </div>
@@ -312,30 +312,30 @@ export default function BlindSpotCheckerPage() {
                     <span className="text-[#ffb4ab] font-bold">
                       {card.status}
                     </span>
-                    <span className="text-black/40">{card.ref}</span>
+                    <span className="text-white/40">{card.ref}</span>
                   </div>
                 </div>
               ) : (
                 <div
                   key={card.platform}
-                  className="bg-[#201f1f] p-6 border border-black/10 relative overflow-hidden"
+                  className="bg-[#201f1f] p-6 border border-white/10 relative overflow-hidden"
                 >
                   <div className="flex justify-between items-start mb-6">
-                    <div className="font-mono text-[10px] text-black/40 uppercase tracking-widest">
+                    <div className="font-mono text-[10px] text-white/40 uppercase tracking-widest">
                       {card.platform}
                     </div>
-                    <span className="text-black/40 font-mono text-sm">
+                    <span className="text-white/40 font-mono text-sm">
                       {card.icon}
                     </span>
                   </div>
                   <div className="font-mono text-sm leading-relaxed mb-8 h-24 overflow-hidden">
-                    <span className="text-black/40">{card.query}</span>
+                    <span className="text-white/40">{card.query}</span>
                     <br />
                     <span className="text-white">{card.response}</span>
                   </div>
                   <div className="flex justify-between items-center font-mono text-[10px]">
-                    <span className="text-black/40">{card.status}</span>
-                    <span className="text-black/40">{card.ref}</span>
+                    <span className="text-white/40">{card.status}</span>
+                    <span className="text-white/40">{card.ref}</span>
                   </div>
                 </div>
               )
@@ -344,13 +344,13 @@ export default function BlindSpotCheckerPage() {
         </section>
 
         {/* ── URGENCY BAR ──────────────────────────────────────────────────── */}
-        <section className="bg-[#F4F0E8] border-l-8 border-[#F27D24] p-8 mb-32 flex flex-col md:flex-row justify-between items-center gap-6">
+        <section className="bg-[#2a2a2a] border-l-8 border-[#F27D24] p-8 mb-32 flex flex-col md:flex-row justify-between items-center gap-6">
           <div className="font-headline text-xl md:text-2xl font-black uppercase tracking-tight text-white max-w-2xl">
             YOUR COMPETITORS ARE BEING CITED RIGHT NOW.{' '}
             <span className="text-[#F27D24]">YOU ARE NOT.</span>
           </div>
-          <div className="bg-[#0A0A0A] px-6 py-4 font-mono text-sm border border-black/10 shrink-0">
-            <span className="text-black/40">Businesses scanned today:</span>
+          <div className="bg-[#0e0e0e] px-6 py-4 font-mono text-sm border border-white/10 shrink-0">
+            <span className="text-white/40">Businesses scanned today:</span>
             <span className="text-[#F27D24] font-bold ml-2">147</span>
           </div>
         </section>
@@ -377,7 +377,7 @@ export default function BlindSpotCheckerPage() {
             </p>
             <Link
               href="/contact"
-              className="bg-black text-white font-headline font-black py-5 px-12 uppercase tracking-widest text-lg inline-flex items-center gap-4 hover:bg-[#F4F0E8] transition-all"
+              className="bg-black text-white font-headline font-black py-5 px-12 uppercase tracking-widest text-lg inline-flex items-center gap-4 hover:bg-[#1c1b1b] transition-all"
               style={{ boxShadow: '4px 4px 0px 0px #F27D24' }}
             >
               Book a Free Strategy Call

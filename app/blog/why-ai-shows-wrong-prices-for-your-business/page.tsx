@@ -677,7 +677,7 @@ export default function Page() {
                 a: 'The most effective approach combines several signals: updating and publishing clear pricing information on a dedicated page on your website, ensuring your Google Business Profile reflects accurate service categories, removing or updating old pages that contained incorrect pricing, and building consistent pricing signals across directory listings.',
               },
             ].map(({ q, a }) => (
-              <div key={q} className="border border-black/10 rounded-xl p-6">
+              <div key={q} className="border border-white/10 rounded-xl p-6">
                 <h3 className="font-plus-jakarta font-bold text-white mb-3">{q}</h3>
                 <p className="text-gray-400 leading-relaxed">{a}</p>
               </div>

@@ -210,7 +210,7 @@ export default function Page() {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
       />
-      <main className="min-h-screen bg-[#FFF]">
+      <main className="min-h-screen bg-[#0F1117]">
 
         {/* ══════════════ HERO SECTION ══════════════ */}
         <div className="relative overflow-hidden rounded-2xl mb-12" style={{ background: 'linear-gradient(135deg, #0d0600 0%, #1a1a2e 55%, #0F1117 100%)' }}>

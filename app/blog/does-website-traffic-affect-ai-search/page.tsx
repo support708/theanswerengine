@@ -591,7 +591,7 @@ export default function Page() {
               a: 'No. AI language models do not have access to behavioral metrics like bounce rate or session duration. Those signals are used internally by Google. For AI recommendation platforms, the relevant signals are entirely about content structure, authority, and information clarity.',
             },
           ].map((item, i) => (
-            <div key={i} className="border border-black/10 rounded-xl p-6 bg-white/[0.02]">
+            <div key={i} className="border border-white/10 rounded-xl p-6 bg-white/[0.02]">
               <h3 className="font-plus-jakarta font-semibold text-white mb-3">{item.q}</h3>
               <p className="text-gray-300 leading-relaxed">{item.a}</p>
             </div>

@@ -187,7 +187,7 @@ export default function Page() {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
       />
-      <main className="min-h-screen bg-[#FFF]">
+      <main className="min-h-screen bg-[#0F1117]">
         <article className="max-w-4xl mx-auto px-6 py-12 sm:py-16">
 
           {/* Breadcrumbs */}
@@ -446,7 +446,7 @@ export default function Page() {
             <div className="ae-comparison-table not-prose my-8 overflow-x-auto">
               <table className="w-full text-sm">
                 <thead>
-                  <tr className="border-b border-black/10">
+                  <tr className="border-b border-white/10">
                     <th className="text-left py-3 pr-4 text-white font-semibold font-plus-jakarta">Feature</th>
                     <th className="text-left py-3 pr-4 text-[#F27D24] font-semibold font-plus-jakarta">Bixby 4.0</th>
                     <th className="text-left py-3 pr-4 text-gray-300 font-semibold font-plus-jakarta">Siri</th>
@@ -724,37 +724,37 @@ export default function Page() {
             <h2 className="font-plus-jakarta text-2xl font-bold text-white mb-8">Frequently Asked Questions</h2>
             <div className="space-y-6">
 
-              <div className="border border-black/10 rounded-xl p-6 bg-white/[0.02]">
+              <div className="border border-white/10 rounded-xl p-6 bg-white/[0.02]">
                 <h3 className="font-plus-jakarta font-semibold text-white mb-3">How does Samsung Bixby find and recommend local businesses?</h3>
                 <p className="text-gray-300 text-sm leading-relaxed">Bixby 4.0 uses a strategic integration with Perplexity AI to fetch real-time web data when responding to local business queries. When a user asks Bixby to find a nearby business or service, Bixby routes the query through Perplexity&apos;s search engine, which aggregates data from directories, review sites, business websites, and the broader web to surface the most relevant recommendations.</p>
               </div>
 
-              <div className="border border-black/10 rounded-xl p-6 bg-white/[0.02]">
+              <div className="border border-white/10 rounded-xl p-6 bg-white/[0.02]">
                 <h3 className="font-plus-jakarta font-semibold text-white mb-3">What is the Bixby and Perplexity AI partnership?</h3>
                 <p className="text-gray-300 text-sm leading-relaxed">Samsung entered a strategic partnership with Perplexity AI to power Bixby&apos;s real-time web search capabilities. Instead of relying solely on Samsung&apos;s own data or cached information, Bixby now leverages Perplexity&apos;s AI-powered search to retrieve up-to-date business information, news, and local data in real time when answering user queries.</p>
               </div>
 
-              <div className="border border-black/10 rounded-xl p-6 bg-white/[0.02]">
+              <div className="border border-white/10 rounded-xl p-6 bg-white/[0.02]">
                 <h3 className="font-plus-jakarta font-semibold text-white mb-3">How many people use Samsung Bixby?</h3>
                 <p className="text-gray-300 text-sm leading-relaxed">Samsung holds approximately 25% of the global smartphone market, translating to hundreds of millions of active Galaxy devices. Bixby is the default AI assistant pre-installed on all Samsung Galaxy phones, tablets, and smart appliances, giving it enormous potential reach across the consumer market.</p>
               </div>
 
-              <div className="border border-black/10 rounded-xl p-6 bg-white/[0.02]">
+              <div className="border border-white/10 rounded-xl p-6 bg-white/[0.02]">
                 <h3 className="font-plus-jakarta font-semibold text-white mb-3">Does Bixby use Google or Apple Maps for local business data?</h3>
                 <p className="text-gray-300 text-sm leading-relaxed">Bixby operates independently of both Google Maps and Apple Maps for its core recommendation logic. Through the Perplexity AI integration, Bixby searches the open web in real time, which means it pulls data from business websites, review platforms, directories, and web mentions rather than a single proprietary mapping database.</p>
               </div>
 
-              <div className="border border-black/10 rounded-xl p-6 bg-white/[0.02]">
+              <div className="border border-white/10 rounded-xl p-6 bg-white/[0.02]">
                 <h3 className="font-plus-jakarta font-semibold text-white mb-3">How is Bixby different from Siri or Google Assistant for local search?</h3>
                 <p className="text-gray-300 text-sm leading-relaxed">Bixby&apos;s key differentiator is its Perplexity AI integration for real-time web search, giving it more current data than Siri, which relies on Apple Maps and Apple Business Connect. Google Assistant benefits from the full Google Search index and Maps, making it the most data-rich option. Bixby sits in a unique middle ground: open web data through AI synthesis, operating within Samsung&apos;s extensive device ecosystem.</p>
               </div>
 
-              <div className="border border-black/10 rounded-xl p-6 bg-white/[0.02]">
+              <div className="border border-white/10 rounded-xl p-6 bg-white/[0.02]">
                 <h3 className="font-plus-jakarta font-semibold text-white mb-3">Which businesses show up in Bixby recommendations?</h3>
                 <p className="text-gray-300 text-sm leading-relaxed">Businesses that Bixby recommends tend to have strong web presences with clear, structured information about their services, location, and hours. Because Bixby routes queries through Perplexity AI, which values authoritative and well-cited web sources, businesses that appear consistently across multiple web properties and directories are more likely to surface in Bixby responses.</p>
               </div>
 
-              <div className="border border-black/10 rounded-xl p-6 bg-white/[0.02]">
+              <div className="border border-white/10 rounded-xl p-6 bg-white/[0.02]">
                 <h3 className="font-plus-jakarta font-semibold text-white mb-3">Is Bixby 4.0 available on older Samsung phones?</h3>
                 <p className="text-gray-300 text-sm leading-relaxed">Bixby 4.0 launched initially with the Galaxy S26 series but Samsung announced plans to expand it to more Galaxy devices via Galaxy Store updates. Smart home appliances in the Samsung ecosystem are also receiving Galaxy AI and Bixby updates, extending the platform&apos;s reach well beyond just smartphones.</p>
               </div>
@@ -809,7 +809,7 @@ export default function Page() {
           </div>
 
           {/* Related Articles */}
-          <div className="not-prose mt-16 pt-12 border-t border-black/10">
+          <div className="not-prose mt-16 pt-12 border-t border-white/10">
             <h3 className="font-plus-jakarta text-xl font-bold text-white mb-6">Related Platform Deep Dives</h3>
             <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
               <Link href="/blog/how-siri-decides-which-businesses-to-suggest" className="group block p-5 rounded-xl bg-white/[0.03] border border-white/[0.08] hover:border-[#F27D24]/30 transition-colors">

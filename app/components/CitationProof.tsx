@@ -57,9 +57,9 @@ export default function CitationProof({ className = '', isVisible = false }: Cit
         {/* Window chrome */}
         <div className="flex items-center gap-2 px-4 py-3 border-b border-white/[0.06]">
           <div className="flex gap-1.5">
-            <div className="w-2.5 h-2.5 rounded-full bg-black/10" />
-            <div className="w-2.5 h-2.5 rounded-full bg-black/10" />
-            <div className="w-2.5 h-2.5 rounded-full bg-black/10" />
+            <div className="w-2.5 h-2.5 rounded-full bg-white/10" />
+            <div className="w-2.5 h-2.5 rounded-full bg-white/10" />
+            <div className="w-2.5 h-2.5 rounded-full bg-white/10" />
           </div>
           <span className="text-xs text-white/30 ml-2 font-mono">AI Assistant</span>
         </div>
@@ -96,7 +96,7 @@ export default function CitationProof({ className = '', isVisible = false }: Cit
               <div className="bg-white/[0.04] border border-white/[0.06] rounded-2xl rounded-bl-md px-4 py-3 max-w-[90%]">
                 <p className="text-white/70 text-sm leading-relaxed">
                   {typedText}
-                  {step === 3 && <span className="inline-block w-0.5 h-4 bg-black/50 ml-0.5 animate-pulse align-text-bottom" />}
+                  {step === 3 && <span className="inline-block w-0.5 h-4 bg-white/50 ml-0.5 animate-pulse align-text-bottom" />}
                 </p>
               </div>
             )}
@@ -110,8 +110,8 @@ export default function CitationProof({ className = '', isVisible = false }: Cit
           >
             {step >= 4 && (
               <div className="inline-flex items-center gap-2 px-3 py-1.5 bg-white/[0.04] border border-white/[0.1] rounded-lg">
-                <div className="w-1.5 h-1.5 rounded-full bg-black/40" />
-                <span className="text-xs text-black/50 font-medium">Source: theanswerengine.ai</span>
+                <div className="w-1.5 h-1.5 rounded-full bg-white/40" />
+                <span className="text-xs text-white/50 font-medium">Source: theanswerengine.ai</span>
               </div>
             )}
           </div>

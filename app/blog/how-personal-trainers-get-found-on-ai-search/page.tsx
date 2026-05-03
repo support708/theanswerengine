@@ -375,12 +375,12 @@ export default function Page() {
               <tr>
                 <td className="font-semibold text-white">Blog / Content</td>
                 <td>Articles that answer fitness questions in your specialty. Builds topical authority and gives AI more vocabulary to use when describing you.</td>
-                <td><span className="ae-tier-badge" style={{background:'rgba(100,100,100,0.15)', color:'#aaa', border:'1px solid rgba(10,10,10,0.1)', borderRadius:'4px', padding:'2px 8px', fontSize:'0.75rem', fontWeight:600}}>Medium</span></td>
+                <td><span className="ae-tier-badge" style={{background:'rgba(100,100,100,0.15)', color:'#aaa', border:'1px solid rgba(255,255,255,0.1)', borderRadius:'4px', padding:'2px 8px', fontSize:'0.75rem', fontWeight:600}}>Medium</span></td>
               </tr>
               <tr>
                 <td className="font-semibold text-white">Social Profiles</td>
                 <td>LinkedIn with specializations listed. Instagram with consistent bio. These are supplementary signals, not primary ones for AI.</td>
-                <td><span className="ae-tier-badge" style={{background:'rgba(100,100,100,0.15)', color:'#aaa', border:'1px solid rgba(10,10,10,0.1)', borderRadius:'4px', padding:'2px 8px', fontSize:'0.75rem', fontWeight:600}}>Supplementary</span></td>
+                <td><span className="ae-tier-badge" style={{background:'rgba(100,100,100,0.15)', color:'#aaa', border:'1px solid rgba(255,255,255,0.1)', borderRadius:'4px', padding:'2px 8px', fontSize:'0.75rem', fontWeight:600}}>Supplementary</span></td>
               </tr>
             </tbody>
           </table>
@@ -517,11 +517,11 @@ export default function Page() {
         <section className="mt-12">
           <h3 className="font-plus-jakarta text-xl font-bold text-white mb-4">Related Reading</h3>
           <div className="grid gap-4 md:grid-cols-2">
-            <Link href="/blog/how-gyms-and-fitness-studios-get-found-on-ai" className="block p-4 rounded-xl border border-black/10 bg-white/5 hover:border-[#F27D24]/30 transition-colors">
+            <Link href="/blog/how-gyms-and-fitness-studios-get-found-on-ai" className="block p-4 rounded-xl border border-white/10 bg-white/5 hover:border-[#F27D24]/30 transition-colors">
               <p className="text-sm text-[#F27D24] mb-1">Industry Guides</p>
               <p className="text-white font-medium">How Gyms and Fitness Studios Get Found on AI</p>
             </Link>
-            <Link href="/blog/does-schema-markup-help-ai-search" className="block p-4 rounded-xl border border-black/10 bg-white/5 hover:border-[#F27D24]/30 transition-colors">
+            <Link href="/blog/does-schema-markup-help-ai-search" className="block p-4 rounded-xl border border-white/10 bg-white/5 hover:border-[#F27D24]/30 transition-colors">
               <p className="text-sm text-[#F27D24] mb-1">How-To Guides</p>
               <p className="text-white font-medium">Does Schema Markup Help You Show Up on AI Search?</p>
             </Link>
@@ -598,7 +598,7 @@ export default function Page() {
                 a: 'The most common mistake is having a generic online presence with no clear specialization. AI recommends trainers it can describe specifically. A trainer whose website says "I help clients reach their fitness goals" gives AI almost nothing to match against specific client queries.'
               },
             ].map((item, i) => (
-              <div key={i} className="border border-black/10 rounded-xl p-6 bg-white/5">
+              <div key={i} className="border border-white/10 rounded-xl p-6 bg-white/5">
                 <h3 className="font-plus-jakarta font-semibold text-white mb-3">{item.q}</h3>
                 <p className="text-gray-300 leading-relaxed">{item.a}</p>
               </div>

@@ -828,19 +828,19 @@ export default function BlogPost() {
           <h2>Related Articles</h2>
 
           <div className="not-prose grid grid-cols-1 sm:grid-cols-2 gap-4 my-8">
-            <Link href="/blog/how-meta-ai-recommends-businesses-on-instagram-and-facebook" className="block p-5 rounded-xl border border-black/10 hover:border-[#F27D24]/40 transition-colors bg-white/5">
+            <Link href="/blog/how-meta-ai-recommends-businesses-on-instagram-and-facebook" className="block p-5 rounded-xl border border-white/10 hover:border-[#F27D24]/40 transition-colors bg-white/5">
               <div className="text-xs text-[#F27D24] font-semibold uppercase tracking-wide mb-2">Platform Deep Dives</div>
               <div className="font-plus-jakarta font-semibold text-white leading-snug">How Meta AI Recommends Businesses on Instagram and Facebook</div>
             </Link>
-            <Link href="/blog/reddit-mentions-boost-ai-search-visibility" className="block p-5 rounded-xl border border-black/10 hover:border-[#F27D24]/40 transition-colors bg-white/5">
+            <Link href="/blog/reddit-mentions-boost-ai-search-visibility" className="block p-5 rounded-xl border border-white/10 hover:border-[#F27D24]/40 transition-colors bg-white/5">
               <div className="text-xs text-[#F27D24] font-semibold uppercase tracking-wide mb-2">AI Search Signals</div>
               <div className="font-plus-jakarta font-semibold text-white leading-snug">Why Competitors Get Mentioned on Reddit and AI</div>
             </Link>
-            <Link href="/blog/how-customers-use-ai-to-find-local-businesses" className="block p-5 rounded-xl border border-black/10 hover:border-[#F27D24]/40 transition-colors bg-white/5">
+            <Link href="/blog/how-customers-use-ai-to-find-local-businesses" className="block p-5 rounded-xl border border-white/10 hover:border-[#F27D24]/40 transition-colors bg-white/5">
               <div className="text-xs text-[#F27D24] font-semibold uppercase tracking-wide mb-2">Buyer Behavior</div>
               <div className="font-plus-jakarta font-semibold text-white leading-snug">How Customers Actually Use AI to Find Businesses</div>
             </Link>
-            <Link href="/blog/which-ai-assistant-is-best-for-finding-local-businesses" className="block p-5 rounded-xl border border-black/10 hover:border-[#F27D24]/40 transition-colors bg-white/5">
+            <Link href="/blog/which-ai-assistant-is-best-for-finding-local-businesses" className="block p-5 rounded-xl border border-white/10 hover:border-[#F27D24]/40 transition-colors bg-white/5">
               <div className="text-xs text-[#F27D24] font-semibold uppercase tracking-wide mb-2">Platform Comparison</div>
               <div className="font-plus-jakarta font-semibold text-white leading-snug">Which AI Assistant Is Best for Finding Local Businesses</div>
             </Link>

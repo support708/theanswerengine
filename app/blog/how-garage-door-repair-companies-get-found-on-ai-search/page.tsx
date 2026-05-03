@@ -801,7 +801,7 @@ export default function Page() {
               a: 'The highest-weight directories for garage door AI citations are Google Business Profile, Yelp, Angi, HomeAdvisor, Thumbtack, and the Better Business Bureau. Manufacturer dealer-locator pages for LiftMaster, Chamberlain, Genie, and Wayne Dalton add authoritative third-party signals that most competitors lack. The critical requirement is that your business name, address, and phone number must be identical across every listing.',
             },
           ].map((item, i) => (
-            <div key={i} className="border border-black/10 rounded-xl p-6 bg-white/[0.02]">
+            <div key={i} className="border border-white/10 rounded-xl p-6 bg-white/[0.02]">
               <h3 className="font-plus-jakarta font-semibold text-white mb-3">{item.q}</h3>
               <p className="text-gray-300 leading-relaxed">{item.a}</p>
             </div>

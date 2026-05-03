@@ -169,7 +169,7 @@ export default function Page() {
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
 
-      <main className="min-h-screen bg-[#FFF]">
+      <main className="min-h-screen bg-[#0F1117]">
 
         {/* Hero Section */}
         <section className="relative overflow-hidden border-b border-white/5">
@@ -466,28 +466,28 @@ export default function Page() {
 
             {/* Tier Badges */}
             <div className="not-prose my-8 space-y-4">
-              <div className="flex items-start gap-4 p-4 rounded-xl bg-white/5 border border-black/10">
+              <div className="flex items-start gap-4 p-4 rounded-xl bg-white/5 border border-white/10">
                 <span className="ae-tier-badge ae-tier-low">Low</span>
                 <div>
                   <div className="font-semibold text-white mb-1">Single-Source Mentions</div>
                   <div className="text-gray-400 text-sm">Your business name appears on one platform only. Typically just a Google Business Profile or a single directory listing. AI can acknowledge your existence but has low confidence in recommending you.</div>
                 </div>
               </div>
-              <div className="flex items-start gap-4 p-4 rounded-xl bg-white/5 border border-black/10">
+              <div className="flex items-start gap-4 p-4 rounded-xl bg-white/5 border border-white/10">
                 <span className="ae-tier-badge ae-tier-medium">Medium</span>
                 <div>
                   <div className="font-semibold text-white mb-1">Multi-Source Mentions</div>
                   <div className="text-gray-400 text-sm">Your business appears on two to three platforms with reasonably consistent information. AI can corroborate your existence but still lacks the breadth needed for confident recommendations in competitive queries.</div>
                 </div>
               </div>
-              <div className="flex items-start gap-4 p-4 rounded-xl bg-white/5 border border-black/10">
+              <div className="flex items-start gap-4 p-4 rounded-xl bg-white/5 border border-white/10">
                 <span className="ae-tier-badge ae-tier-high">High</span>
                 <div>
                   <div className="font-semibold text-white mb-1">Cross-Platform Presence</div>
                   <div className="text-gray-400 text-sm">Four or more platforms with consistent NAP data, schema markup on your website, and reviews across multiple sources. This is the threshold where AI citation rates jump by 2.8x. Most businesses in the AI recommendation zone operate here.</div>
                 </div>
               </div>
-              <div className="flex items-start gap-4 p-4 rounded-xl bg-white/5 border border-black/10">
+              <div className="flex items-start gap-4 p-4 rounded-xl bg-white/5 border border-white/10">
                 <span className="ae-tier-badge ae-tier-expert">Expert</span>
                 <div>
                   <div className="font-semibold text-white mb-1">Media Coverage and Third-Party Citations</div>
@@ -837,32 +837,32 @@ export default function Page() {
 
             <div className="not-prose space-y-6">
 
-              <div className="p-6 rounded-xl bg-white/5 border border-black/10">
+              <div className="p-6 rounded-xl bg-white/5 border border-white/10">
                 <h3 className="font-plus-jakarta font-semibold text-white mb-3">Why does AI recommend my competitor instead of me?</h3>
                 <p className="text-gray-300 text-sm leading-relaxed">AI recommends businesses based on entity authority, not quality. If your competitor has more cross-platform mentions, consistent structured data, and a stronger presence across directories and media, AI will cite them regardless of who actually has the better service. The system rewards being well-understood, not being the best.</p>
               </div>
 
-              <div className="p-6 rounded-xl bg-white/5 border border-black/10">
+              <div className="p-6 rounded-xl bg-white/5 border border-white/10">
                 <h3 className="font-plus-jakarta font-semibold text-white mb-3">Does a higher star rating guarantee AI will recommend my business?</h3>
                 <p className="text-gray-300 text-sm leading-relaxed">No. Star ratings act as a threshold filter, not a ranking signal. Once a business clears approximately 4.1 to 4.3 stars, additional rating points provide almost no AI visibility advantage. A competitor with a 4.2 rating and strong schema markup will consistently outrank a business with a 4.8 rating but weak cross-platform presence.</p>
               </div>
 
-              <div className="p-6 rounded-xl bg-white/5 border border-black/10">
+              <div className="p-6 rounded-xl bg-white/5 border border-white/10">
                 <h3 className="font-plus-jakarta font-semibold text-white mb-3">How many platforms does my business need to appear on for AI to recommend it?</h3>
                 <p className="text-gray-300 text-sm leading-relaxed">Appearing on four or more platforms increases AI citation likelihood by 2.8 times. The key is consistency: the same business name, address, phone number, and category description across Google Business Profile, Yelp, BBB, industry directories, and your own website. Inconsistency across platforms signals unreliability to AI models.</p>
               </div>
 
-              <div className="p-6 rounded-xl bg-white/5 border border-black/10">
+              <div className="p-6 rounded-xl bg-white/5 border border-white/10">
                 <h3 className="font-plus-jakarta font-semibold text-white mb-3">What is entity authority and why does it matter for AI search?</h3>
                 <p className="text-gray-300 text-sm leading-relaxed">Entity authority is how confidently an AI model can describe your business based on structured, consistent data it has encountered. Businesses with schema markup, consistent NAP data, and clear category signals have 3 to 5 times more AI visibility than businesses without it. Schema markup tells AI exactly what your business is, where it operates, and what it does.</p>
               </div>
 
-              <div className="p-6 rounded-xl bg-white/5 border border-black/10">
+              <div className="p-6 rounded-xl bg-white/5 border border-white/10">
                 <h3 className="font-plus-jakarta font-semibold text-white mb-3">Are brand mentions more important than backlinks for AI visibility?</h3>
                 <p className="text-gray-300 text-sm leading-relaxed">Yes. Brand mentions correlate 3 times stronger with AI visibility than backlinks. When AI models see your business name cited across local news, industry publications, Reddit threads, and social platforms, they build a richer understanding of your authority. Backlinks help traditional SEO. Mentions build AI entity confidence.</p>
               </div>
 
-              <div className="p-6 rounded-xl bg-white/5 border border-black/10">
+              <div className="p-6 rounded-xl bg-white/5 border border-white/10">
                 <h3 className="font-plus-jakarta font-semibold text-white mb-3">How long does it take to close the AI visibility gap with a competitor?</h3>
                 <p className="text-gray-300 text-sm leading-relaxed">Most businesses see measurable AI visibility improvements within 60 to 90 days of implementing structured data and cross-platform consistency. Closing a significant authority gap with an established competitor typically takes 3 to 6 months of sustained effort. The businesses that act fastest lock in position advantages that compound over time.</p>
               </div>
@@ -870,18 +870,18 @@ export default function Page() {
             </div>
 
             {/* Related Articles */}
-            <div className="not-prose mt-16 pt-8 border-t border-black/10">
+            <div className="not-prose mt-16 pt-8 border-t border-white/10">
               <div className="ae-section-label mb-6">Continue Reading</div>
               <div className="grid sm:grid-cols-3 gap-4">
-                <Link href="/blog/why-ai-recommends-businesses-with-worse-reviews" className="group p-4 rounded-xl bg-white/5 border border-black/10 hover:border-[#F27D24]/30 transition-colors">
+                <Link href="/blog/why-ai-recommends-businesses-with-worse-reviews" className="group p-4 rounded-xl bg-white/5 border border-white/10 hover:border-[#F27D24]/30 transition-colors">
                   <div className="text-xs text-[#F27D24] font-semibold uppercase tracking-wider mb-2">Reviews</div>
                   <div className="text-white text-sm font-semibold group-hover:text-[#F27D24] transition-colors leading-snug">Why AI Recommends Businesses With Worse Reviews</div>
                 </Link>
-                <Link href="/blog/my-business-disappeared-from-ai-search-results-overnight" className="group p-4 rounded-xl bg-white/5 border border-black/10 hover:border-[#F27D24]/30 transition-colors">
+                <Link href="/blog/my-business-disappeared-from-ai-search-results-overnight" className="group p-4 rounded-xl bg-white/5 border border-white/10 hover:border-[#F27D24]/30 transition-colors">
                   <div className="text-xs text-[#F27D24] font-semibold uppercase tracking-wider mb-2">Visibility</div>
                   <div className="text-white text-sm font-semibold group-hover:text-[#F27D24] transition-colors leading-snug">My Business Disappeared From AI Search Results Overnight</div>
                 </Link>
-                <Link href="/blog/does-schema-markup-help-ai-search" className="group p-4 rounded-xl bg-white/5 border border-black/10 hover:border-[#F27D24]/30 transition-colors">
+                <Link href="/blog/does-schema-markup-help-ai-search" className="group p-4 rounded-xl bg-white/5 border border-white/10 hover:border-[#F27D24]/30 transition-colors">
                   <div className="text-xs text-[#F27D24] font-semibold uppercase tracking-wider mb-2">Schema</div>
                   <div className="text-white text-sm font-semibold group-hover:text-[#F27D24] transition-colors leading-snug">Does Schema Markup Help AI Search?</div>
                 </Link>

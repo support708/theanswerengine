@@ -547,11 +547,11 @@ export default function Page() {
         <section className="mt-12">
           <h3 className="font-plus-jakarta text-xl font-bold text-white mb-4">Related Reading</h3>
           <div className="grid gap-4 md:grid-cols-2">
-            <Link href="/blog/does-responding-to-reviews-help-ai-recommend-you" className="block p-4 rounded-xl border border-black/10 bg-white/5 hover:border-[#F27D24]/30 transition-colors">
+            <Link href="/blog/does-responding-to-reviews-help-ai-recommend-you" className="block p-4 rounded-xl border border-white/10 bg-white/5 hover:border-[#F27D24]/30 transition-colors">
               <p className="text-sm text-[#F27D24] mb-1">Business Pain Points</p>
               <p className="text-white font-medium">Does Responding to Reviews Help AI Recommend You</p>
             </Link>
-            <Link href="/blog/why-ai-recommends-businesses-with-worse-reviews" className="block p-4 rounded-xl border border-black/10 bg-white/5 hover:border-[#F27D24]/30 transition-colors">
+            <Link href="/blog/why-ai-recommends-businesses-with-worse-reviews" className="block p-4 rounded-xl border border-white/10 bg-white/5 hover:border-[#F27D24]/30 transition-colors">
               <p className="text-sm text-[#F27D24] mb-1">Business Pain Points</p>
               <p className="text-white font-medium">Why AI Recommends Businesses With Worse Reviews</p>
             </Link>
@@ -628,7 +628,7 @@ export default function Page() {
                 a: 'There is no published threshold. AI platforms do not rank businesses by review count. The real question is whether your overall digital footprint gives AI enough corroborating signal to confidently name your business. That comes from combining reviews with structured website content, directory consistency, and third-party mentions.'
               },
             ].map((item, i) => (
-              <div key={i} className="border border-black/10 rounded-xl p-6 bg-white/5">
+              <div key={i} className="border border-white/10 rounded-xl p-6 bg-white/5">
                 <h3 className="font-plus-jakarta font-semibold text-white mb-3">{item.q}</h3>
                 <p className="text-gray-300 leading-relaxed">{item.a}</p>
               </div>

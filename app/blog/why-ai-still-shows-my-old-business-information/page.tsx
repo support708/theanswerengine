@@ -594,7 +594,7 @@ export default function Page() {
               a: 'Prioritize updating high-authority sources that AI platforms weight most heavily: Google Business Profile, Wikidata, LinkedIn, and your primary industry directories. Ensure all entries use identical formatting. Remove or update legacy listings on aggregator sites like GetHuman or Pissed Consumer, which AI sources disproportionately when business information is ambiguous.',
             },
           ].map((item, i) => (
-            <div key={i} className="border border-black/10 rounded-xl p-6 bg-white/[0.02]">
+            <div key={i} className="border border-white/10 rounded-xl p-6 bg-white/[0.02]">
               <h3 className="font-plus-jakarta font-semibold text-white mb-3">{item.q}</h3>
               <p className="text-gray-300 leading-relaxed">{item.a}</p>
             </div>

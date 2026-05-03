@@ -222,9 +222,9 @@ export default function JustinBorgesCaseStudy() {
         <article className="max-w-4xl mx-auto px-6 py-12 sm:py-16 relative">
           {/* Breadcrumbs */}
           <nav className="text-sm text-white/30 mb-8">
-            <Link href="/" className="hover:text-black/60 transition-colors">Home</Link>
+            <Link href="/" className="hover:text-white/60 transition-colors">Home</Link>
             <span className="mx-2">&rsaquo;</span>
-            <Link href="/case-studies" className="hover:text-black/60 transition-colors">Case Studies</Link>
+            <Link href="/case-studies" className="hover:text-white/60 transition-colors">Case Studies</Link>
             <span className="mx-2">&rsaquo;</span>
             <span className="text-gray-400">Justin Borges</span>
           </nav>
@@ -267,7 +267,7 @@ export default function JustinBorgesCaseStudy() {
                 <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={2}>
                   <path strokeLinecap="round" strokeLinejoin="round" d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4" />
                 </svg>
-                <a href="https://theborgesrealestateteam.com" target="_blank" rel="noopener noreferrer" className="hover:text-black/60 transition-colors">The Borges Real Estate Team</a>
+                <a href="https://theborgesrealestateteam.com" target="_blank" rel="noopener noreferrer" className="hover:text-white/60 transition-colors">The Borges Real Estate Team</a>
               </div>
               <div className="flex items-center gap-2">
                 <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={2}>
@@ -288,7 +288,7 @@ export default function JustinBorgesCaseStudy() {
           {/* Results Dashboard */}
           <section className="mb-16 bg-white/[0.02] backdrop-blur-xl border border-white/[0.05] rounded-2xl p-8 sm:p-10">
             <div className="text-center mb-8">
-              <h2 className="text-sm font-semibold tracking-wider uppercase text-black/40 mb-2">Verified Results</h2>
+              <h2 className="text-sm font-semibold tracking-wider uppercase text-white/40 mb-2">Verified Results</h2>
               <p className="text-gray-400">Google Search Console - March 2026</p>
             </div>
 
@@ -362,10 +362,10 @@ export default function JustinBorgesCaseStudy() {
                     <div className="mt-2 text-xs text-gray-500">Baseline - first full month of AEO implementation</div>
                   )}
                   {i === 2 && (
-                    <div className="mt-2 text-xs text-black/40">+81% growth from December</div>
+                    <div className="mt-2 text-xs text-white/40">+81% growth from December</div>
                   )}
                   {i === 3 && (
-                    <div className="mt-2 text-xs text-black/40">Projected based on last 28 days</div>
+                    <div className="mt-2 text-xs text-white/40">Projected based on last 28 days</div>
                   )}
                 </div>
               ))}
@@ -448,7 +448,7 @@ export default function JustinBorgesCaseStudy() {
             <div className="bg-white/[0.02] border border-white/[0.05] rounded-xl p-6 mt-8">
               <div className="flex items-start gap-4">
                 <div className="flex-shrink-0">
-                  <svg className="w-6 h-6 text-black/40" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={2}>
+                  <svg className="w-6 h-6 text-white/40" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={2}>
                     <path strokeLinecap="round" strokeLinejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
                   </svg>
                 </div>
@@ -532,7 +532,7 @@ export default function JustinBorgesCaseStudy() {
             <div className="border border-white/[0.08] rounded-xl p-6">
               <div className="flex items-start gap-4">
                 <div className="flex-shrink-0">
-                  <svg className="w-6 h-6 text-black/40" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={2}>
+                  <svg className="w-6 h-6 text-white/40" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={2}>
                     <path strokeLinecap="round" strokeLinejoin="round" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
                   </svg>
                 </div>
@@ -549,7 +549,7 @@ export default function JustinBorgesCaseStudy() {
           {/* Testimonial */}
           <section className="mb-16">
             <div className="relative bg-gradient-to-br from-white/[0.03] to-white/[0.01] border border-white/[0.08] rounded-2xl p-8 sm:p-10">
-              <svg className="absolute top-6 left-6 w-12 h-12 text-black/10" fill="currentColor" viewBox="0 0 24 24">
+              <svg className="absolute top-6 left-6 w-12 h-12 text-white/10" fill="currentColor" viewBox="0 0 24 24">
                 <path d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h3.983v10h-9.983z" />
               </svg>
 
@@ -619,19 +619,19 @@ export default function JustinBorgesCaseStudy() {
             <h2 className="text-2xl sm:text-3xl font-semibold mb-6 text-white">Learn More About AEO</h2>
             <div className="grid sm:grid-cols-2 gap-4">
               <Link href="/blog/what-is-answer-engine-optimization" className="bg-white/[0.02] border border-white/[0.05] rounded-xl p-6 hover:border-white/[0.12] transition-colors group">
-                <div className="text-black/40 text-sm font-medium mb-2">AEO Fundamentals</div>
+                <div className="text-white/40 text-sm font-medium mb-2">AEO Fundamentals</div>
                 <div className="text-white font-semibold group-hover:text-white/80 transition-colors">What is Answer Engine Optimization?</div>
               </Link>
               <Link href="/blog/how-chatgpt-chooses-businesses-to-recommend" className="bg-white/[0.02] border border-white/[0.05] rounded-xl p-6 hover:border-white/[0.12] transition-colors group">
-                <div className="text-black/40 text-sm font-medium mb-2">AI Algorithm Series</div>
+                <div className="text-white/40 text-sm font-medium mb-2">AI Algorithm Series</div>
                 <div className="text-white font-semibold group-hover:text-white/80 transition-colors">How ChatGPT Chooses Businesses to Recommend</div>
               </Link>
               <Link href="/blog/complete-guide-answer-engine-optimization" className="bg-white/[0.02] border border-white/[0.05] rounded-xl p-6 hover:border-white/[0.12] transition-colors group">
-                <div className="text-black/40 text-sm font-medium mb-2">Complete Guide</div>
+                <div className="text-white/40 text-sm font-medium mb-2">Complete Guide</div>
                 <div className="text-white font-semibold group-hover:text-white/80 transition-colors">The Complete Guide to AEO for Local Businesses</div>
               </Link>
               <Link href="/blog/answer-engine-solutions" className="bg-white/[0.02] border border-white/[0.05] rounded-xl p-6 hover:border-white/[0.12] transition-colors group">
-                <div className="text-black/40 text-sm font-medium mb-2">Solutions</div>
+                <div className="text-white/40 text-sm font-medium mb-2">Solutions</div>
                 <div className="text-white font-semibold group-hover:text-white/80 transition-colors">Answer Engine Solutions for Local Businesses</div>
               </Link>
             </div>

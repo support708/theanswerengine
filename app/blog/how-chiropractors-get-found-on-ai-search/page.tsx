@@ -717,7 +717,7 @@ export default function Page() {
                 a: 'Reviews are one of the strongest trust signals AI platforms evaluate for healthcare providers. Reviews that mention specific conditions treated, techniques used, and outcomes achieved are especially valuable because they help AI systems build a detailed understanding of your practice scope.',
               },
             ].map(({ q, a }) => (
-              <div key={q} className="border border-black/10 rounded-xl p-6">
+              <div key={q} className="border border-white/10 rounded-xl p-6">
                 <h3 className="font-plus-jakarta font-bold text-white mb-3">{q}</h3>
                 <p className="text-gray-400 leading-relaxed">{a}</p>
               </div>

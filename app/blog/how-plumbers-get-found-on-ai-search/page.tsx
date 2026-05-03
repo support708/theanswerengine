@@ -591,7 +591,7 @@ export default function Page() {
               a: 'A website dramatically improves AI visibility, but it is not the only factor. Google Business Profile is often the highest-weight data source for local service queries. A website with dedicated service pages and schema markup creates significantly more citable content than a directory listing alone, making it a high-ROI investment for any plumbing business.',
             },
           ].map((item, i) => (
-            <div key={i} className="border border-black/10 rounded-xl p-6 bg-white/[0.02]">
+            <div key={i} className="border border-white/10 rounded-xl p-6 bg-white/[0.02]">
               <h3 className="font-plus-jakarta font-semibold text-white mb-3">{item.q}</h3>
               <p className="text-gray-300 leading-relaxed">{item.a}</p>
             </div>

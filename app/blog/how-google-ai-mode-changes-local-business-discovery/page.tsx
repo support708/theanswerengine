@@ -212,7 +212,7 @@ export default function Page() {
         <p className="text-gray-400 text-lg leading-relaxed max-w-2xl mb-8">
           The three-pack is no longer the whole game. Google AI Mode has introduced a new layer of local discovery that operates on completely different rules, and most local businesses are not ready for it.
         </p>
-        <div className="flex items-center gap-4 text-sm text-gray-500 border-t border-black/10 pt-6">
+        <div className="flex items-center gap-4 text-sm text-gray-500 border-t border-white/10 pt-6">
           <span>By <strong className="text-gray-300">Justin Borges</strong></span>
           <span>·</span>
           <span>12 min read</span>

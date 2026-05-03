@@ -3,7 +3,7 @@ import Image from 'next/image';
 
 export default function NotFound() {
   return (
-    <main className="min-h-screen flex items-center justify-center px-4 bg-[#FFF]">
+    <main className="min-h-screen flex items-center justify-center px-4 bg-[#0F1117]">
       <div className="absolute inset-0 pointer-events-none">
         <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[400px] bg-[radial-gradient(ellipse_at_center,rgba(242,125,36,0.1),transparent_70%)]" />
       </div>
@@ -18,10 +18,10 @@ export default function NotFound() {
           />
         </Link>
 
-        <h1 className="text-[150px] sm:text-[200px] font-bold font-heading leading-none text-black/10">404</h1>
+        <h1 className="text-[150px] sm:text-[200px] font-bold font-heading leading-none text-white/10">404</h1>
         <div className="-mt-16 sm:-mt-20 relative">
           <h2 className="text-2xl sm:text-3xl font-bold font-heading text-white mb-4">Page Not Found</h2>
-          <p className="text-black/60 mb-8 max-w-md mx-auto">This page got lost in the AI recommendations. Let&apos;s get you back on track.</p>
+          <p className="text-white/60 mb-8 max-w-md mx-auto">This page got lost in the AI recommendations. Let&apos;s get you back on track.</p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link
@@ -44,17 +44,17 @@ export default function NotFound() {
         </div>
 
         <div className="mt-12 pt-8 border-t border-white/[0.08]">
-          <p className="text-sm text-black/40 mb-4">Looking for something specific?</p>
+          <p className="text-sm text-white/40 mb-4">Looking for something specific?</p>
           <div className="flex flex-wrap justify-center gap-4 text-sm">
-            <Link href="/case-studies" className="text-black/50 hover:text-white transition-colors">
+            <Link href="/case-studies" className="text-white/50 hover:text-white transition-colors">
               Case Studies
             </Link>
-            <span className="text-black/20">|</span>
-            <Link href="/blog" className="text-black/50 hover:text-white transition-colors">
+            <span className="text-white/20">|</span>
+            <Link href="/blog" className="text-white/50 hover:text-white transition-colors">
               Blog
             </Link>
-            <span className="text-black/20">|</span>
-            <Link href="/about" className="text-black/50 hover:text-white transition-colors">
+            <span className="text-white/20">|</span>
+            <Link href="/about" className="text-white/50 hover:text-white transition-colors">
               About
             </Link>
           </div>

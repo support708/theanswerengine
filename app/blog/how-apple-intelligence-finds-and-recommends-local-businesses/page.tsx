@@ -232,7 +232,7 @@ export default function Page() {
           <p className="text-gray-400 text-lg leading-relaxed max-w-2xl mb-8">
             With 1.52 billion active iPhones and a privacy-first AI stack embedded directly in the operating system, Apple Intelligence is quietly becoming one of the most powerful forces in local business discovery. Here is how it works, what data it uses, and what it means for your visibility.
           </p>
-          <div className="flex items-center gap-4 text-sm text-gray-500 border-t border-black/10 pt-6">
+          <div className="flex items-center gap-4 text-sm text-gray-500 border-t border-white/10 pt-6">
             <span>By <strong className="text-gray-300">Justin Borges</strong></span>
             <span>·</span>
             <span>14 min read</span>

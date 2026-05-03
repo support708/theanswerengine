@@ -694,7 +694,7 @@ export default function Page() {
               className="ae-cta-block rounded-xl p-6 mb-8"
               style={{
                 backgroundColor: 'rgba(255,255,255,0.03)',
-                border: '1px solid rgba(10,10,10,0.1)',
+                border: '1px solid rgba(255,255,255,0.1)',
               }}
             >
               <p className="text-sm text-gray-400 mb-3">Related reading on this topic:</p>
@@ -942,7 +942,7 @@ export default function Page() {
               >
                 <thead>
                   <tr
-                    style={{ borderBottom: '1px solid rgba(10,10,10,0.1)' }}
+                    style={{ borderBottom: '1px solid rgba(255,255,255,0.1)' }}
                   >
                     <th
                       className="text-left p-4 font-plus-jakarta font-semibold"
@@ -1217,7 +1217,7 @@ export default function Page() {
                 }}
               >
                 <thead>
-                  <tr style={{ borderBottom: '1px solid rgba(10,10,10,0.1)' }}>
+                  <tr style={{ borderBottom: '1px solid rgba(255,255,255,0.1)' }}>
                     <th
                       className="text-left p-4 font-plus-jakarta font-semibold"
                       style={{ color: '#F27D24' }}
@@ -1538,7 +1538,7 @@ export default function Page() {
                       className="w-8 h-8 rounded-full flex items-center justify-center text-sm font-bold flex-shrink-0"
                       style={{
                         backgroundColor: i === 3 ? 'rgba(255,106,0,0.2)' : 'rgba(255,255,255,0.05)',
-                        border: i === 3 ? '1px solid #F27D24' : '1px solid rgba(10,10,10,0.1)',
+                        border: i === 3 ? '1px solid #F27D24' : '1px solid rgba(255,255,255,0.1)',
                         color: i === 3 ? '#F27D24' : '#9CA3AF',
                       }}
                     >

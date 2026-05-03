@@ -749,7 +749,7 @@ export default function Page() {
               a: 'The highest-impact schema types for solar installers are LocalBusiness with the SolarEnergyContractor sub-type, Service schema for each offering such as residential installation and battery storage, FAQPage schema on financing and product pages, BreadcrumbList for site structure, and AggregateRating to surface social proof signals. NABCEP certification should appear in schema hasCredential fields. Utility interconnection service areas should be named explicitly in the areaServed schema field.',
             },
           ].map((item, i) => (
-            <div key={i} className="border border-black/10 rounded-xl p-6 bg-white/[0.02]">
+            <div key={i} className="border border-white/10 rounded-xl p-6 bg-white/[0.02]">
               <h3 className="font-plus-jakarta font-semibold text-white mb-3">{item.q}</h3>
               <p className="text-gray-300 leading-relaxed">{item.a}</p>
             </div>

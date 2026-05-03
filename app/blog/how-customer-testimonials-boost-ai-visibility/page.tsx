@@ -732,7 +732,7 @@ export default function Page() {
                 a: 'Testimonials embedded on your website contribute some value, especially when marked up with Schema.org Review markup, but they carry less weight than third-party platform reviews because AI recognizes them as self-reported. Website testimonials work best as supporting evidence alongside robust third-party review profiles, not as a replacement for them.',
               },
             ].map(({ q, a }) => (
-              <div key={q} className="border border-black/10 rounded-xl p-6">
+              <div key={q} className="border border-white/10 rounded-xl p-6">
                 <h3 className="font-plus-jakarta font-semibold text-white mb-3">{q}</h3>
                 <p className="text-gray-400 leading-relaxed">{a}</p>
               </div>

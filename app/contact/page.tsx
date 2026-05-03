@@ -103,7 +103,7 @@ export default function ContactPage() {
         }}
       />
 
-      <main className="min-h-screen bg-[#FAF8F2] text-white pt-[72px] pb-24">
+      <main className="min-h-screen bg-[#131313] text-white pt-[72px] pb-24">
         <div className="max-w-7xl mx-auto px-6">
 
           {/* Hero Section */}
@@ -126,7 +126,7 @@ export default function ContactPage() {
               <span className="text-[#F27D24]">CONTACT</span>
             </h1>
 
-            <p className="max-w-2xl text-black/50 text-lg border-l-2 border-black/10 pl-6">
+            <p className="max-w-2xl text-white/50 text-lg border-l-2 border-white/10 pl-6">
               Reach out to our team directly. Ready to dominate AI search? Let&apos;s map your
               90-day plan to get cited by ChatGPT, Claude, Google AI, and Perplexity.
             </p>
@@ -139,8 +139,8 @@ export default function ContactPage() {
             <div className="lg:col-span-5 flex flex-col gap-6">
 
               {/* Phone Card */}
-              <div className="bg-[#F4F0E8] border-l-4 border-[#F27D24] p-6 relative overflow-hidden">
-                <div className="absolute top-0 right-0 p-2 font-mono text-[8px] text-black/10">
+              <div className="bg-[#2a2a2a] border-l-4 border-[#F27D24] p-6 relative overflow-hidden">
+                <div className="absolute top-0 right-0 p-2 font-mono text-[8px] text-white/10">
                   Phone
                 </div>
                 <p className="font-mono text-[10px] text-[#F27D24] tracking-widest mb-1 uppercase">
@@ -152,12 +152,12 @@ export default function ContactPage() {
                 >
                   (213) 444-2229
                 </a>
-                <p className="text-sm text-black/40 mt-2">Speak with an AEO specialist</p>
+                <p className="text-sm text-white/40 mt-2">Speak with an AEO specialist</p>
               </div>
 
               {/* Email Card */}
-              <div className="bg-[#F4F0E8] border-l-4 border-[#F27D24] p-6 relative overflow-hidden">
-                <div className="absolute top-0 right-0 p-2 font-mono text-[8px] text-black/10">
+              <div className="bg-[#2a2a2a] border-l-4 border-[#F27D24] p-6 relative overflow-hidden">
+                <div className="absolute top-0 right-0 p-2 font-mono text-[8px] text-white/10">
                   Email
                 </div>
                 <p className="font-mono text-[10px] text-[#F27D24] tracking-widest mb-1 uppercase">
@@ -169,12 +169,12 @@ export default function ContactPage() {
                 >
                   support@theanswerengine.ai
                 </a>
-                <p className="text-sm text-black/40 mt-2">Response within 24 hours</p>
+                <p className="text-sm text-white/40 mt-2">Response within 24 hours</p>
               </div>
 
               {/* Hours Card */}
-              <div className="bg-[#F4F0E8] border-l-4 border-[#F27D24] p-6 relative overflow-hidden">
-                <div className="absolute top-0 right-0 p-2 font-mono text-[8px] text-black/10">
+              <div className="bg-[#2a2a2a] border-l-4 border-[#F27D24] p-6 relative overflow-hidden">
+                <div className="absolute top-0 right-0 p-2 font-mono text-[8px] text-white/10">
                   Hours
                 </div>
                 <p className="font-mono text-[10px] text-[#F27D24] tracking-widest mb-1 uppercase">
@@ -183,11 +183,11 @@ export default function ContactPage() {
                 <p className="text-2xl font-bold font-['Space_Grotesk'] uppercase text-white">
                   MON&ndash;FRI, 9 AM&ndash;6 PM PT
                 </p>
-                <p className="text-sm text-black/40 mt-2">Monday – Friday, 9 AM – 6 PM PT</p>
+                <p className="text-sm text-white/40 mt-2">Monday – Friday, 9 AM – 6 PM PT</p>
               </div>
 
               {/* System Status */}
-              <div className="bg-[#F4F0E8] p-4 flex items-center justify-between border border-black/10">
+              <div className="bg-[#1c1b1b] p-4 flex items-center justify-between border border-white/10">
                 <span className="text-xs font-mono uppercase text-white/30">Status</span>
                 <span className="text-xs font-mono text-green-400 flex items-center gap-2">
                   <span className="w-2 h-2 bg-green-400 animate-pulse inline-block" />
@@ -198,7 +198,7 @@ export default function ContactPage() {
 
             {/* Right: Strategy Call Card */}
             <div className="lg:col-span-7">
-              <div className="bg-[#F4F0E8] border-t-4 border-[#F27D24] p-8 h-full">
+              <div className="bg-[#2a2a2a] border-t-4 border-[#F27D24] p-8 h-full">
                 <div className="mb-8">
                   <p className="font-mono text-[10px] text-[#F27D24] tracking-widest uppercase mb-3">
                     Free Strategy Call // 30 Minutes
@@ -232,15 +232,15 @@ export default function ContactPage() {
                   </a>
                   <a
                     href="mailto:support@theanswerengine.ai"
-                    className="flex-1 flex items-center justify-center gap-2 px-8 py-4 border border-black/20 text-white font-black font-['Space_Grotesk'] text-base uppercase tracking-widest hover:border-[#F27D24] hover:text-[#F27D24] transition-colors"
+                    className="flex-1 flex items-center justify-center gap-2 px-8 py-4 border border-white/20 text-white font-black font-['Space_Grotesk'] text-base uppercase tracking-widest hover:border-[#F27D24] hover:text-[#F27D24] transition-colors"
                   >
                     EMAIL US
                   </a>
                 </div>
 
                 {/* Guarantee */}
-                <div className="mt-8 pt-6 border-t border-black/10">
-                  <p className="text-sm font-mono text-black/40 uppercase tracking-wide">
+                <div className="mt-8 pt-6 border-t border-white/10">
+                  <p className="text-sm font-mono text-white/40 uppercase tracking-wide">
                     <span className="text-white">90-DAY GUARANTEE:</span> Get cited by 2+ AI engines or we work free until you do.
                   </p>
                 </div>
@@ -249,7 +249,7 @@ export default function ContactPage() {
           </div>
 
           {/* Trust Signals */}
-          <section className="grid grid-cols-1 md:grid-cols-3 gap-px bg-black/10 border border-black/10 mb-16">
+          <section className="grid grid-cols-1 md:grid-cols-3 gap-px bg-white/10 border border-white/10 mb-16">
             {[
               { label: '90-DAY GUARANTEE', sub: '90-Day Guarantee' },
               { label: 'TERRITORY EXCLUSIVITY', sub: 'Exclusive Territory' },
@@ -257,7 +257,7 @@ export default function ContactPage() {
             ].map((item) => (
               <div
                 key={item.label}
-                className="bg-[#F4F0E8] p-8 flex flex-col items-center text-center"
+                className="bg-[#2a2a2a] p-8 flex flex-col items-center text-center"
               >
                 <h4 className="font-black font-['Space_Grotesk'] uppercase tracking-tighter text-white mb-2">
                   {item.label}
@@ -275,7 +275,7 @@ export default function ContactPage() {
                 Common Questions
               </h3>
             </div>
-            <div className="flex flex-col gap-px bg-black/10 border border-black/10">
+            <div className="flex flex-col gap-px bg-white/10 border border-white/10">
               {[
                 {
                   q: 'WHAT HAPPENS ON THE STRATEGY CALL?',
@@ -290,11 +290,11 @@ export default function ContactPage() {
                   a: 'Currently we focus on US-based local service businesses, as AI citation patterns and data sources vary significantly by region.',
                 },
               ].map((item) => (
-                <div key={item.q} className="bg-[#F4F0E8] p-6 border-l-4 border-transparent hover:border-[#F27D24] transition-colors">
+                <div key={item.q} className="bg-[#1c1b1b] p-6 border-l-4 border-transparent hover:border-[#F27D24] transition-colors">
                   <p className="font-mono text-xs text-[#F27D24] font-bold tracking-widest uppercase mb-2">
                     {item.q}
                   </p>
-                  <p className="text-black/60 text-sm leading-relaxed">{item.a}</p>
+                  <p className="text-white/60 text-sm leading-relaxed">{item.a}</p>
                 </div>
               ))}
             </div>
@@ -324,7 +324,7 @@ export default function ContactPage() {
       </main>
 
       {/* Mobile Sticky Footer */}
-      <div className="md:hidden fixed bottom-0 left-0 right-0 p-4 bg-[#FAF8F2]/95 border-t border-[#F27D24]/20 z-50">
+      <div className="md:hidden fixed bottom-0 left-0 right-0 p-4 bg-[#131313]/95 border-t border-[#F27D24]/20 z-50">
         <div className="flex gap-3">
           <a
             href="tel:+12134442229"
@@ -334,7 +334,7 @@ export default function ContactPage() {
           </a>
           <a
             href="mailto:support@theanswerengine.ai"
-            className="flex-1 flex items-center justify-center gap-2 py-3.5 border border-black/20 text-white font-black font-['Space_Grotesk'] uppercase text-sm tracking-widest hover:border-[#F27D24] active:opacity-80 transition-all"
+            className="flex-1 flex items-center justify-center gap-2 py-3.5 border border-white/20 text-white font-black font-['Space_Grotesk'] uppercase text-sm tracking-widest hover:border-[#F27D24] active:opacity-80 transition-all"
           >
             EMAIL
           </a>

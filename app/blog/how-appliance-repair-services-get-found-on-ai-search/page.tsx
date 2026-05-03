@@ -742,7 +742,7 @@ export default function Page() {
               a: 'Parts availability and discontinued model expertise is an underutilized content angle that AI platforms cite frequently. Homeowners ask AI whether parts are still available for older appliances before committing to a repair. Businesses that publish specific content about which older models they can still source parts for, and which manufacturers have discontinued support, position themselves as the knowledgeable choice for those queries without competition from generic repair shops.',
             },
           ].map((item, i) => (
-            <div key={i} className="border border-black/10 rounded-xl p-6 bg-white/[0.02]">
+            <div key={i} className="border border-white/10 rounded-xl p-6 bg-white/[0.02]">
               <h3 className="font-plus-jakarta font-semibold text-white mb-3">{item.q}</h3>
               <p className="text-gray-300 leading-relaxed">{item.a}</p>
             </div>

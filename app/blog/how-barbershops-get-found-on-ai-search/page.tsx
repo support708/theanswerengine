@@ -190,13 +190,13 @@ export default function HowBarbershopsGetFoundOnAISearch() {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
       />
 
-      <main className="min-h-screen bg-[#FAF8F2]">
+      <main className="min-h-screen bg-[#131313]">
         {/* Hero Section */}
-        <section className="relative overflow-hidden bg-[#FAF8F2] grid-bg border-b border-black/10">
+        <section className="relative overflow-hidden bg-[#131313] grid-bg border-b border-white/10">
           <div className="relative max-w-4xl mx-auto px-6 py-16 sm:py-24">
             <Breadcrumb />
             <span className="font-mono text-[10px] text-[#F27D24] tracking-widest uppercase block mb-4">◉ INDUSTRY GUIDES // The Answer Engine Intel</span>
-            <h1 className="font-headline font-black text-3xl sm:text-5xl lg:text-6xl tracking-tighter uppercase text-[#0A0A0A] mb-6">
+            <h1 className="font-headline font-black text-3xl sm:text-5xl lg:text-6xl tracking-tighter uppercase text-[#e5e2e1] mb-6">
               How Barbershops Get Found on AI Search
             </h1>
             <p className="text-xl text-gray-300 mb-8 max-w-2xl leading-relaxed">
@@ -327,11 +327,11 @@ export default function HowBarbershopsGetFoundOnAISearch() {
           </div>
 
           {/* SECTION 1 */}
-          <section id="ai-disruption" className="-mx-6 px-6 py-12 bg-[#FAF8F2] border-t border-black/10">
+          <section id="ai-disruption" className="-mx-6 px-6 py-12 bg-[#131313] border-t border-white/10">
             <span className="font-mono text-[10px] text-[#F27D24] tracking-widest uppercase block mb-3">
               ◉ THE SHIFT // The Answer Engine Intel
             </span>
-            <h2 className="font-headline font-black text-2xl md:text-3xl tracking-tighter uppercase text-[#0A0A0A] mb-6">
+            <h2 className="font-headline font-black text-2xl md:text-3xl tracking-tighter uppercase text-[#e5e2e1] mb-6">
               WHY AI IS <span className="text-[#F27D24]">DISRUPTING</span> WALK-IN TRAFFIC
             </h2>
             <div className="prose prose-invert prose-lg max-w-none prose-p:text-gray-300 prose-a:text-[#F27D24] prose-a:no-underline hover:prose-a:underline prose-strong:text-white">
@@ -379,11 +379,11 @@ export default function HowBarbershopsGetFoundOnAISearch() {
           </section>
 
           {/* SECTION 2 */}
-          <section id="barber-near-me" className="-mx-6 px-6 py-12 bg-[#F4F0E8] border-t border-black/10">
+          <section id="barber-near-me" className="-mx-6 px-6 py-12 bg-[#1c1b1b] border-t border-white/10">
             <span className="font-mono text-[10px] text-[#F27D24] tracking-widest uppercase block mb-3">
               ◉ QUERY SHIFT // The Answer Engine Intel
             </span>
-            <h2 className="font-headline font-black text-2xl md:text-3xl tracking-tighter uppercase text-[#0A0A0A] mb-6">
+            <h2 className="font-headline font-black text-2xl md:text-3xl tracking-tighter uppercase text-[#e5e2e1] mb-6">
               WHY BARBER NEAR ME <span className="text-[#F27D24]">GOES THROUGH AI</span>
             </h2>
             <div className="prose prose-invert prose-lg max-w-none prose-p:text-gray-300 prose-a:text-[#F27D24] prose-a:no-underline hover:prose-a:underline prose-strong:text-white">
@@ -440,11 +440,11 @@ export default function HowBarbershopsGetFoundOnAISearch() {
           </section>
 
           {/* SECTION 3 */}
-          <section id="trust-signals" className="-mx-6 px-6 py-12 bg-[#FAF8F2] border-t border-black/10">
+          <section id="trust-signals" className="-mx-6 px-6 py-12 bg-[#131313] border-t border-white/10">
             <span className="font-mono text-[10px] text-[#F27D24] tracking-widest uppercase block mb-3">
               ◉ TRUST SIGNALS // The Answer Engine Intel
             </span>
-            <h2 className="font-headline font-black text-2xl md:text-3xl tracking-tighter uppercase text-[#0A0A0A] mb-6">
+            <h2 className="font-headline font-black text-2xl md:text-3xl tracking-tighter uppercase text-[#e5e2e1] mb-6">
               TRUST SIGNALS <span className="text-[#F27D24]">AI EVALUATES</span>
             </h2>
             <div className="prose prose-invert prose-lg max-w-none prose-p:text-gray-300 prose-a:text-[#F27D24] prose-a:no-underline hover:prose-a:underline prose-strong:text-white">
@@ -501,11 +501,11 @@ export default function HowBarbershopsGetFoundOnAISearch() {
           </section>
 
           {/* SECTION 4 */}
-          <section id="reviews-matter" className="-mx-6 px-6 py-12 bg-[#F4F0E8] border-t border-black/10">
+          <section id="reviews-matter" className="-mx-6 px-6 py-12 bg-[#1c1b1b] border-t border-white/10">
             <span className="font-mono text-[10px] text-[#F27D24] tracking-widest uppercase block mb-3">
               ◉ REVIEW QUALITY // The Answer Engine Intel
             </span>
-            <h2 className="font-headline font-black text-2xl md:text-3xl tracking-tighter uppercase text-[#0A0A0A] mb-6">
+            <h2 className="font-headline font-black text-2xl md:text-3xl tracking-tighter uppercase text-[#e5e2e1] mb-6">
               WHY SPECIFIC REVIEWS <span className="text-[#F27D24]">BEAT</span> GENERIC RATINGS
             </h2>
             <div className="prose prose-invert prose-lg max-w-none prose-p:text-gray-300 prose-a:text-[#F27D24] prose-a:no-underline hover:prose-a:underline prose-strong:text-white">
@@ -564,11 +564,11 @@ export default function HowBarbershopsGetFoundOnAISearch() {
           </section>
 
           {/* SECTION 5 */}
-          <section id="website-problem" className="-mx-6 px-6 py-12 bg-[#FAF8F2] border-t border-black/10">
+          <section id="website-problem" className="-mx-6 px-6 py-12 bg-[#131313] border-t border-white/10">
             <span className="font-mono text-[10px] text-[#F27D24] tracking-widest uppercase block mb-3">
               ◉ VISIBILITY GAP // The Answer Engine Intel
             </span>
-            <h2 className="font-headline font-black text-2xl md:text-3xl tracking-tighter uppercase text-[#0A0A0A] mb-6">
+            <h2 className="font-headline font-black text-2xl md:text-3xl tracking-tighter uppercase text-[#e5e2e1] mb-6">
               WHY MOST WEBSITES ARE <span className="text-[#F27D24]">INVISIBLE TO AI</span>
             </h2>
             <div className="prose prose-invert prose-lg max-w-none prose-p:text-gray-300 prose-a:text-[#F27D24] prose-a:no-underline hover:prose-a:underline prose-strong:text-white">
@@ -668,11 +668,11 @@ export default function HowBarbershopsGetFoundOnAISearch() {
           </section>
 
           {/* SECTION 6 */}
-          <section id="chains-vs-independents" className="-mx-6 px-6 py-12 bg-[#F4F0E8] border-t border-black/10">
+          <section id="chains-vs-independents" className="-mx-6 px-6 py-12 bg-[#1c1b1b] border-t border-white/10">
             <span className="font-mono text-[10px] text-[#F27D24] tracking-widest uppercase block mb-3">
               ◉ CHAIN ADVANTAGE // The Answer Engine Intel
             </span>
-            <h2 className="font-headline font-black text-2xl md:text-3xl tracking-tighter uppercase text-[#0A0A0A] mb-6">
+            <h2 className="font-headline font-black text-2xl md:text-3xl tracking-tighter uppercase text-[#e5e2e1] mb-6">
               HOW CHAINS <span className="text-[#F27D24]">DOMINATE</span> AI SEARCH
             </h2>
             <div className="prose prose-invert prose-lg max-w-none prose-p:text-gray-300 prose-a:text-[#F27D24] prose-a:no-underline hover:prose-a:underline prose-strong:text-white">
@@ -748,11 +748,11 @@ export default function HowBarbershopsGetFoundOnAISearch() {
           </section>
 
           {/* SECTION 7 */}
-          <section id="specialization" className="-mx-6 px-6 py-12 bg-[#FAF8F2] border-t border-black/10">
+          <section id="specialization" className="-mx-6 px-6 py-12 bg-[#131313] border-t border-white/10">
             <span className="font-mono text-[10px] text-[#F27D24] tracking-widest uppercase block mb-3">
               ◉ NICHE AUTHORITY // The Answer Engine Intel
             </span>
-            <h2 className="font-headline font-black text-2xl md:text-3xl tracking-tighter uppercase text-[#0A0A0A] mb-6">
+            <h2 className="font-headline font-black text-2xl md:text-3xl tracking-tighter uppercase text-[#e5e2e1] mb-6">
               SPECIALIZATION DRIVES <span className="text-[#F27D24]">AI VISIBILITY</span>
             </h2>
             <div className="prose prose-invert prose-lg max-w-none prose-p:text-gray-300 prose-a:text-[#F27D24] prose-a:no-underline hover:prose-a:underline prose-strong:text-white">
@@ -839,11 +839,11 @@ export default function HowBarbershopsGetFoundOnAISearch() {
           </section>
 
           {/* SECTION 8 */}
-          <section id="booking-signals" className="-mx-6 px-6 py-12 bg-[#F4F0E8] border-t border-black/10">
+          <section id="booking-signals" className="-mx-6 px-6 py-12 bg-[#1c1b1b] border-t border-white/10">
             <span className="font-mono text-[10px] text-[#F27D24] tracking-widest uppercase block mb-3">
               ◉ BOOKING + TRUST // The Answer Engine Intel
             </span>
-            <h2 className="font-headline font-black text-2xl md:text-3xl tracking-tighter uppercase text-[#0A0A0A] mb-6">
+            <h2 className="font-headline font-black text-2xl md:text-3xl tracking-tighter uppercase text-[#e5e2e1] mb-6">
               BOOKING AND <span className="text-[#F27D24]">AI TRUST SIGNALS</span>
             </h2>
             <div className="prose prose-invert prose-lg max-w-none prose-p:text-gray-300 prose-a:text-[#F27D24] prose-a:no-underline hover:prose-a:underline prose-strong:text-white">
@@ -931,11 +931,11 @@ export default function HowBarbershopsGetFoundOnAISearch() {
           </section>
 
           {/* LOOKING AHEAD */}
-          <section className="-mx-6 px-6 py-12 bg-[#FAF8F2] border-t border-black/10">
+          <section className="-mx-6 px-6 py-12 bg-[#131313] border-t border-white/10">
             <span className="font-mono text-[10px] text-[#F27D24] tracking-widest uppercase block mb-3">
               ◉ LOOKING AHEAD // The Answer Engine Intel
             </span>
-            <h2 className="font-headline font-black text-2xl md:text-3xl tracking-tighter uppercase text-[#0A0A0A] mb-6">
+            <h2 className="font-headline font-black text-2xl md:text-3xl tracking-tighter uppercase text-[#e5e2e1] mb-6">
               WHEN AI BECOMES THE <span className="text-[#F27D24]">WALK-IN REPLACEMENT</span>
             </h2>
             <div className="prose prose-invert prose-lg max-w-none prose-p:text-gray-300 prose-a:text-[#F27D24] prose-a:no-underline hover:prose-a:underline prose-strong:text-white">
@@ -1003,9 +1003,9 @@ export default function HowBarbershopsGetFoundOnAISearch() {
           </div>
 
           {/* CHEAT SHEET SECTION */}
-          <section id="cheat-sheet" className="-mx-6 px-6 py-12 bg-[#FAF8F2] border-t border-black/10">
+          <section id="cheat-sheet" className="-mx-6 px-6 py-12 bg-[#131313] border-t border-white/10">
             <span className="font-mono text-[10px] text-[#F27D24] tracking-widest uppercase block mb-3">◉ CHEAT SHEET // The Answer Engine Intel</span>
-            <h2 className="font-headline font-black text-2xl md:text-3xl tracking-tighter uppercase text-[#0A0A0A] mb-6">AI VISIBILITY <span className="text-[#F27D24]">CHEAT SHEET</span></h2>
+            <h2 className="font-headline font-black text-2xl md:text-3xl tracking-tighter uppercase text-[#e5e2e1] mb-6">AI VISIBILITY <span className="text-[#F27D24]">CHEAT SHEET</span></h2>
             <div className="ae-cheat-sheet not-prose">
               <ul>
                 <li>
@@ -1059,9 +1059,9 @@ export default function HowBarbershopsGetFoundOnAISearch() {
           </section>
 
           {/* FAQ SECTION */}
-          <section id="faq" className="-mx-6 px-6 py-12 bg-[#F4F0E8] border-t border-black/10">
+          <section id="faq" className="-mx-6 px-6 py-12 bg-[#1c1b1b] border-t border-white/10">
             <span className="font-mono text-[10px] text-[#F27D24] tracking-widest uppercase block mb-3">◉ FAQ // The Answer Engine Intel</span>
-            <h2 className="font-headline font-black text-2xl md:text-3xl tracking-tighter uppercase text-[#0A0A0A] mb-8">FREQUENTLY ASKED <span className="text-[#F27D24]">QUESTIONS</span></h2>
+            <h2 className="font-headline font-black text-2xl md:text-3xl tracking-tighter uppercase text-[#e5e2e1] mb-8">FREQUENTLY ASKED <span className="text-[#F27D24]">QUESTIONS</span></h2>
             <div className="prose prose-invert prose-lg max-w-none prose-headings:font-headline prose-p:text-gray-300 prose-a:text-[#F27D24] prose-a:no-underline hover:prose-a:underline prose-strong:text-white">
               <h3>Why does ChatGPT recommend Great Clips instead of my barbershop?</h3>
               <p>

@@ -172,7 +172,7 @@ export default function Page() {
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
-      <main className="min-h-screen bg-[#FFF]">
+      <main className="min-h-screen bg-[#0F1117]">
         <article className="max-w-4xl mx-auto px-6 py-12 sm:py-16">
 
           {/* Breadcrumbs */}
@@ -318,7 +318,7 @@ export default function Page() {
             </p>
 
             {/* Bar chart: signal weight */}
-            <div className="not-prose my-8 p-6 rounded-xl bg-white/5 border border-black/10">
+            <div className="not-prose my-8 p-6 rounded-xl bg-white/5 border border-white/10">
               <h3 className="font-plus-jakarta text-lg font-semibold text-white mb-5">Relative Weight of AI Trust Signals for Auto Shops</h3>
               <div className="ae-bar-group">
                 <div className="ae-bar-item">
@@ -642,7 +642,7 @@ export default function Page() {
           </section>
 
           {/* Related Articles */}
-          <div className="not-prose my-12 p-6 rounded-xl bg-white/5 border border-black/10">
+          <div className="not-prose my-12 p-6 rounded-xl bg-white/5 border border-white/10">
             <h3 className="font-plus-jakarta text-lg font-semibold text-white mb-4">Related Reading</h3>
             <div className="space-y-3">
               <Link href="/blog/how-contractors-and-home-service-companies-win-ai-search" className="flex items-start gap-3 group">
@@ -766,37 +766,37 @@ export default function Page() {
             <h2 className="font-plus-jakarta text-2xl sm:text-3xl font-bold text-white mt-3 mb-8">Auto Repair Shops and AI Search: Common Questions</h2>
 
             <div className="space-y-6">
-              <div className="p-6 rounded-xl bg-white/5 border border-black/10">
+              <div className="p-6 rounded-xl bg-white/5 border border-white/10">
                 <h3 className="font-plus-jakarta font-semibold text-white mb-3">Does my auto repair shop really need to worry about AI search?</h3>
                 <p className="text-gray-400 text-sm leading-relaxed">Yes. AI tools like ChatGPT, Google AI Overviews, and Perplexity are rapidly becoming a primary way people find auto repair services. AI platforms typically recommend only 3 to 4 businesses per query, so shops that are not optimized for AI are losing a growing share of new customers to competitors who are. The shift is happening now, not in the future.</p>
               </div>
 
-              <div className="p-6 rounded-xl bg-white/5 border border-black/10">
+              <div className="p-6 rounded-xl bg-white/5 border border-white/10">
                 <h3 className="font-plus-jakarta font-semibold text-white mb-3">Why does my auto shop not appear when customers ask ChatGPT for a mechanic?</h3>
                 <p className="text-gray-400 text-sm leading-relaxed">ChatGPT cannot access Google reviews or Google Business Profile data because those platforms use JavaScript rendering that AI crawlers cannot read. If your shop's online presence depends primarily on Google, ChatGPT and Perplexity have almost no data to evaluate. Visibility requires a structured website with specific service content and reviews on crawlable platforms beyond Google alone.</p>
               </div>
 
-              <div className="p-6 rounded-xl bg-white/5 border border-black/10">
+              <div className="p-6 rounded-xl bg-white/5 border border-white/10">
                 <h3 className="font-plus-jakarta font-semibold text-white mb-3">What is GEO and how does it apply to auto repair shops?</h3>
                 <p className="text-gray-400 text-sm leading-relaxed">Generative Engine Optimization (GEO) is the practice of structuring your web presence so AI-powered search engines can understand and recommend your business. For auto repair shops, GEO means having service-specific pages, verified business data across directories, crawlable testimonials, and content that answers the questions drivers actually ask AI when they need a mechanic nearby.</p>
               </div>
 
-              <div className="p-6 rounded-xl bg-white/5 border border-black/10">
+              <div className="p-6 rounded-xl bg-white/5 border border-white/10">
                 <h3 className="font-plus-jakarta font-semibold text-white mb-3">Can a small independent auto shop compete with dealerships and chains in AI search?</h3>
                 <p className="text-gray-400 text-sm leading-relaxed">Absolutely. AI platforms weight relevance, content clarity, and trust signals over brand size. An independent shop with specific, well-structured service pages and genuine local testimonials can outperform a chain dealership relying on generic corporate web templates. AI rewards the business that best answers the customer's specific question, not the business with the biggest marketing budget.</p>
               </div>
 
-              <div className="p-6 rounded-xl bg-white/5 border border-black/10">
+              <div className="p-6 rounded-xl bg-white/5 border border-white/10">
                 <h3 className="font-plus-jakarta font-semibold text-white mb-3">How long does it take for an auto repair shop to appear in AI search results?</h3>
                 <p className="text-gray-400 text-sm leading-relaxed">Most auto repair shops begin seeing measurable AI citation activity within 60 to 90 days of implementing a structured optimization approach. Specific service queries, such as transmission repair in a named city, tend to show results faster than broad queries. Full AI visibility across ChatGPT, Perplexity, Gemini, and Apple Intelligence typically develops over 90 to 180 days of sustained effort.</p>
               </div>
 
-              <div className="p-6 rounded-xl bg-white/5 border border-black/10">
+              <div className="p-6 rounded-xl bg-white/5 border border-white/10">
                 <h3 className="font-plus-jakarta font-semibold text-white mb-3">What is the biggest mistake auto shops make with their online presence for AI?</h3>
                 <p className="text-gray-400 text-sm leading-relaxed">The most common mistake is a website that functions as a digital business card: a phone number, a logo, and a generic paragraph listing services. AI platforms need depth and specificity. A shop that lists "oil change, brakes, transmission" with no supporting content gives AI nothing to evaluate. Shops that get recommended have individual service pages, service area coverage, and reviews on multiple AI-readable platforms.</p>
               </div>
 
-              <div className="p-6 rounded-xl bg-white/5 border border-black/10">
+              <div className="p-6 rounded-xl bg-white/5 border border-white/10">
                 <h3 className="font-plus-jakarta font-semibold text-white mb-3">Does responding faster to AI-referred leads actually make a difference in revenue?</h3>
                 <p className="text-gray-400 text-sm leading-relaxed">Yes, substantially. Businesses that automate lead follow-up see a 1.7x increase in qualified leads compared to manual processes. AI-referred customers are often in active decision mode, contacting multiple shops simultaneously from their phone. The shop that responds first with clarity and a clear next step wins the booking. Speed of response is a direct revenue variable, not just a courtesy metric.</p>
               </div>
@@ -817,7 +817,7 @@ export default function Page() {
                   Get My Free Blind Spot Report
                   <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" /></svg>
                 </Link>
-                <a href="tel:+12134442229" className="inline-flex items-center gap-2 border border-black/20 text-white px-8 py-4 rounded-lg font-semibold text-lg hover:border-[#F27D24] hover:text-[#F27D24] transition-colors">
+                <a href="tel:+12134442229" className="inline-flex items-center gap-2 border border-white/20 text-white px-8 py-4 rounded-lg font-semibold text-lg hover:border-[#F27D24] hover:text-[#F27D24] transition-colors">
                   <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" /></svg>
                   Call (213) 444-2229
                 </a>

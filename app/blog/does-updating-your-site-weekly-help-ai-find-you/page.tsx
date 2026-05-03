@@ -207,7 +207,7 @@ export default function DoesUpdatingYourSiteWeeklyHelpAIFindYou() {
     <>
       <ComprehensiveSchema />
 
-      <main className="min-h-screen bg-[#FFF] relative">
+      <main className="min-h-screen bg-[#0F1117] relative">
         {/* Hero Section */}
         <section className="relative overflow-hidden border-b border-white/[0.06]">
           <div className="absolute inset-0 bg-gradient-to-br from-[#0F1117] via-[#141620] to-[#0F1117]" />
@@ -579,7 +579,7 @@ export default function DoesUpdatingYourSiteWeeklyHelpAIFindYou() {
             <div className="not-prose ae-comparison-table my-8 overflow-x-auto">
               <table className="w-full text-sm">
                 <thead>
-                  <tr className="border-b border-black/10">
+                  <tr className="border-b border-white/10">
                     <th className="text-left py-3 px-4 text-gray-400 font-semibold">Update Type</th>
                     <th className="text-left py-3 px-4 text-gray-400 font-semibold">AI Impact</th>
                     <th className="text-left py-3 px-4 text-gray-400 font-semibold">Effort Level</th>

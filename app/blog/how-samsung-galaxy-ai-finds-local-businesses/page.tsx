@@ -238,7 +238,7 @@ export default function Page() {
           <p className="text-gray-400 text-lg leading-relaxed max-w-2xl mb-8">
             Samsung just transformed Bixby from a basic voice assistant into a full conversational AI powered by Perplexity. With over 300 million Galaxy users worldwide, this platform is now actively recommending local businesses to a massive audience. Here is how it works, what it means for your visibility, and why most businesses are completely unprepared.
           </p>
-          <div className="flex items-center gap-4 text-sm text-gray-500 border-t border-black/10 pt-6">
+          <div className="flex items-center gap-4 text-sm text-gray-500 border-t border-white/10 pt-6">
             <span>By <strong className="text-gray-300">Justin Borges</strong></span>
             <span>·</span>
             <span>15 min read</span>

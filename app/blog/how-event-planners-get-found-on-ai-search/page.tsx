@@ -221,7 +221,7 @@ export default function HowEventPlannersGetFoundOnAISearch() {
     <>
       <ComprehensiveSchema />
 
-      <main className="min-h-screen bg-[#FFF] relative">
+      <main className="min-h-screen bg-[#0F1117] relative">
         {/* Hero Section */}
         <section className="relative overflow-hidden border-b border-white/[0.06]">
           <div className="absolute inset-0 bg-gradient-to-br from-[#0F1117] via-[#141620] to-[#0F1117]" />
@@ -540,7 +540,7 @@ export default function HowEventPlannersGetFoundOnAISearch() {
               <div className="text-white font-semibold mb-4 font-plus-jakarta">What AI Search Needs vs. What Most Planners Provide</div>
               <table className="w-full text-sm">
                 <thead>
-                  <tr className="border-b border-black/10">
+                  <tr className="border-b border-white/10">
                     <th className="text-left py-3 px-4 text-gray-400 font-semibold">AI Needs</th>
                     <th className="text-left py-3 px-4 text-gray-400 font-semibold">Most Planners Provide</th>
                     <th className="text-left py-3 px-4 text-gray-400 font-semibold">AI Visibility Impact</th>
@@ -842,7 +842,7 @@ export default function HowEventPlannersGetFoundOnAISearch() {
 
           {/* Cheat Sheet */}
           <div id="cheat-sheet" className="scroll-mt-20">
-            <div className="not-prose ae-cheat-sheet my-10 p-6 rounded-2xl bg-gradient-to-br from-white/[0.03] to-transparent border border-black/10">
+            <div className="not-prose ae-cheat-sheet my-10 p-6 rounded-2xl bg-gradient-to-br from-white/[0.03] to-transparent border border-white/10">
               <div className="flex items-center gap-3 mb-6">
                 <div className="w-8 h-8 rounded-lg bg-[#F27D24]/20 flex items-center justify-center">
                   <svg className="w-4 h-4 text-[#F27D24]" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -936,7 +936,7 @@ export default function HowEventPlannersGetFoundOnAISearch() {
           </div>
 
           {/* Author Card */}
-          <div className="not-prose ae-author-card my-12 p-6 rounded-2xl bg-white/[0.03] border border-black/10 flex items-start gap-5">
+          <div className="not-prose ae-author-card my-12 p-6 rounded-2xl bg-white/[0.03] border border-white/10 flex items-start gap-5">
             <div className="w-14 h-14 rounded-full bg-gradient-to-br from-[#F27D24]/30 to-[#F27D24]/10 flex items-center justify-center shrink-0">
               <svg className="w-7 h-7 text-[#F27D24]" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z" />
@@ -997,7 +997,7 @@ export default function HowEventPlannersGetFoundOnAISearch() {
                   a: 'AI platforms recommend planners who demonstrate budget management competency explicitly. This means describing how they track spend against budget, what their process is when a line item exceeds projection, how they present vendor bids for client approval, and what contractual protections exist around cost overruns. Planners who address budget management as a defined part of their service process are more likely to be recommended for cost-conscious buyers, which represents a significant share of AI-driven event planning searches.',
                 },
               ].map((item, i) => (
-                <div key={i} className="p-6 rounded-xl bg-white/[0.02] border border-white/[0.06] hover:border-black/10 transition-colors">
+                <div key={i} className="p-6 rounded-xl bg-white/[0.02] border border-white/[0.06] hover:border-white/10 transition-colors">
                   <h3 className="text-white font-semibold mb-3 font-plus-jakarta leading-snug">{item.q}</h3>
                   <p className="text-gray-400 text-sm leading-relaxed">{item.a}</p>
                 </div>

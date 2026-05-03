@@ -663,7 +663,7 @@ function SectionGoals() {
             <p className="font-serif text-4xl font-semibold mb-1">
               ${householdYTD.toLocaleString()}
             </p>
-            <p className="text-black/50 text-sm">
+            <p className="text-white/50 text-sm">
               of ${householdTarget.toLocaleString()} target
             </p>
           </div>
@@ -671,7 +671,7 @@ function SectionGoals() {
             {householdPct.toFixed(1)}%
           </p>
         </div>
-        <div className="w-full bg-black/10 rounded-full h-2">
+        <div className="w-full bg-white/10 rounded-full h-2">
           <div
             className="bg-[#d97757] h-2 rounded-full transition-all duration-700"
             style={{ width: `${Math.max(householdPct, 0.5)}%` }}

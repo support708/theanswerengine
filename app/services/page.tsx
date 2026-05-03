@@ -200,7 +200,7 @@ const FAQS = [
 
 export default function ServicesPage() {
   return (
-    <div className="bg-[#FAF8F2] text-white min-h-screen font-sans">
+    <div className="bg-[#131313] text-white min-h-screen font-sans">
       {/* BreadcrumbList schema */}
       <script
         type="application/ld+json"
@@ -243,7 +243,7 @@ export default function ServicesPage() {
               <span className="bg-[#F27D24]/10 text-[#F27D24] font-mono text-[10px] px-2 py-1 border border-[#F27D24]/20 tracking-widest uppercase">
                 Our Services // AEO Packages
               </span>
-              <div className="h-[1px] flex-grow bg-black/10" />
+              <div className="h-[1px] flex-grow bg-white/10" />
             </div>
 
             <h1 className="font-headline font-black text-6xl md:text-8xl uppercase tracking-tighter leading-[0.9] mb-8">
@@ -251,7 +251,7 @@ export default function ServicesPage() {
               <span className="text-[#F27D24]">GET</span>
             </h1>
 
-            <p className="max-w-2xl text-xl md:text-2xl text-black/60 font-light tracking-tight border-l-2 border-[#F27D24] pl-6">
+            <p className="max-w-2xl text-xl md:text-2xl text-white/60 font-light tracking-tight border-l-2 border-[#F27D24] pl-6">
               The Answer Authority Foundation — a complete AEO system
               designed for total market dominance.
             </p>
@@ -269,23 +269,23 @@ export default function ServicesPage() {
         </section>
 
         {/* ── 90-DAY FOUNDATION ─────────────────────────────────────────────── */}
-        <section className="py-20 px-6 bg-[#F4F0E8]">
+        <section className="py-20 px-6 bg-[#1c1b1b]">
           <div className="max-w-7xl mx-auto">
-            <div className="bg-[#F4F0E8] border-l-4 border-t-4 border-[#F27D24] p-8 md:p-12">
+            <div className="bg-[#2a2a2a] border-l-4 border-t-4 border-[#F27D24] p-8 md:p-12">
               <div className="flex flex-col md:flex-row justify-between items-start md:items-center mb-4 gap-4">
                 <div>
                   <div className="font-mono text-[10px] tracking-widest text-[#F27D24] uppercase mb-2">
                     Part 1 // One-Time Build
                   </div>
-                  <div className="font-headline font-black text-3xl md:text-4xl text-[#0A0A0A] uppercase tracking-tighter">
+                  <div className="font-headline font-black text-3xl md:text-4xl text-[#e5e2e1] uppercase tracking-tighter">
                     The 90-Day Foundation
                   </div>
                 </div>
-                <div className="font-mono text-[10px] text-black/40 uppercase tracking-widest">
+                <div className="font-mono text-[10px] text-white/40 uppercase tracking-widest">
                   Answer Authority Foundation
                 </div>
               </div>
-              <p className="text-black/50 text-sm leading-relaxed mb-12 max-w-2xl">
+              <p className="text-white/50 text-sm leading-relaxed mb-12 max-w-2xl">
                 Setup. One-time build. Citation guarantee. If we don&apos;t get you cited by at least 2 AI platforms within 90 days, we keep working until you are — or refund.
               </p>
 
@@ -293,7 +293,7 @@ export default function ServicesPage() {
                 {FOUNDATION_ITEMS.map((item) => (
                   <div
                     key={item.title}
-                    className="p-6 bg-[#0A0A0A] border border-white/5 hover:border-[#F27D24]/50 transition-all"
+                    className="p-6 bg-[#0e0e0e] border border-white/5 hover:border-[#F27D24]/50 transition-all"
                   >
                     <div className="text-[#F27D24] text-4xl mb-4 font-black font-mono">
                       {item.icon}
@@ -301,15 +301,15 @@ export default function ServicesPage() {
                     <h3 className="font-headline font-bold text-xl uppercase mb-2 tracking-tighter">
                       {item.title}
                     </h3>
-                    <p className="text-black/60 text-sm leading-relaxed">
+                    <p className="text-white/60 text-sm leading-relaxed">
                       {item.desc}
                     </p>
                   </div>
                 ))}
               </div>
 
-              <div className="flex flex-col md:flex-row justify-between items-center pt-8 border-t border-black/10 gap-4">
-                <div className="font-mono text-[10px] tracking-widest text-black/40 uppercase">
+              <div className="flex flex-col md:flex-row justify-between items-center pt-8 border-t border-white/10 gap-4">
+                <div className="font-mono text-[10px] tracking-widest text-white/40 uppercase">
                   Timeline: 90 Days // Guarantee: Active
                 </div>
                 <div className="flex gap-2">
@@ -323,23 +323,23 @@ export default function ServicesPage() {
         </section>
 
         {/* ── MONTHLY PROGRAM ─────────────────────────────────────────────── */}
-        <section className="py-20 px-6 bg-[#FAF8F2]">
+        <section className="py-20 px-6 bg-[#131313]">
           <div className="max-w-7xl mx-auto">
-            <div className="bg-[#0A0A0A] border-l-4 border-t-4 border-[#F27D24] p-8 md:p-12">
+            <div className="bg-[#0e0e0e] border-l-4 border-t-4 border-[#F27D24] p-8 md:p-12">
               <div className="flex flex-col md:flex-row justify-between items-start md:items-center mb-4 gap-4">
                 <div>
                   <div className="font-mono text-[10px] tracking-widest text-[#F27D24] uppercase mb-2">
                     Part 2 // Ongoing
                   </div>
-                  <div className="font-headline font-black text-3xl md:text-4xl text-[#0A0A0A] uppercase tracking-tighter">
+                  <div className="font-headline font-black text-3xl md:text-4xl text-[#e5e2e1] uppercase tracking-tighter">
                     The Monthly Program
                   </div>
                 </div>
-                <div className="font-mono text-[10px] text-black/40 uppercase tracking-widest">
+                <div className="font-mono text-[10px] text-white/40 uppercase tracking-widest">
                   Compounds The Foundation
                 </div>
               </div>
-              <p className="text-black/50 text-sm leading-relaxed mb-12 max-w-2xl">
+              <p className="text-white/50 text-sm leading-relaxed mb-12 max-w-2xl">
                 What keeps you cited — and surfaces new opportunities — after the foundation ships. One email per week. One report per month. Dashboard 24/7.
               </p>
 
@@ -347,7 +347,7 @@ export default function ServicesPage() {
                 {MONTHLY_ITEMS.map((item) => (
                   <div
                     key={item.title}
-                    className="p-6 bg-[#F4F0E8] border border-white/5 hover:border-[#F27D24]/50 transition-all"
+                    className="p-6 bg-[#1c1b1b] border border-white/5 hover:border-[#F27D24]/50 transition-all"
                   >
                     <div className="text-[#F27D24] text-4xl mb-4 font-black font-mono">
                       {item.icon}
@@ -355,22 +355,22 @@ export default function ServicesPage() {
                     <h3 className="font-headline font-bold text-xl uppercase mb-2 tracking-tighter">
                       {item.title}
                     </h3>
-                    <p className="text-black/60 text-sm leading-relaxed">
+                    <p className="text-white/60 text-sm leading-relaxed">
                       {item.desc}
                     </p>
                   </div>
                 ))}
               </div>
 
-              <div className="flex flex-col md:flex-row justify-between items-center pt-8 border-t border-black/10 gap-4">
-                <div className="font-mono text-[10px] tracking-widest text-black/40 uppercase">
+              <div className="flex flex-col md:flex-row justify-between items-center pt-8 border-t border-white/10 gap-4">
+                <div className="font-mono text-[10px] tracking-widest text-white/40 uppercase">
                   Cadence: ≤1.5 Emails/Week // Dashboard: 24/7
                 </div>
                 <a
                   href="https://calendly.com/theanswerengine-support/30min"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="font-mono text-[10px] tracking-widest text-[#F27D24] uppercase hover:text-[#0A0A0A] transition-colors"
+                  className="font-mono text-[10px] tracking-widest text-[#F27D24] uppercase hover:text-[#e5e2e1] transition-colors"
                 >
                   Book 30-min call →
                 </a>
@@ -380,7 +380,7 @@ export default function ServicesPage() {
         </section>
 
         {/* ── PRICING ──────────────────────────────────────────────────────── */}
-        <section id="pricing" className="py-24 px-6 bg-[#0A0A0A]">
+        <section id="pricing" className="py-24 px-6 bg-[#0e0e0e]">
           <div className="max-w-7xl mx-auto">
 
             {/* Section header */}
@@ -393,7 +393,7 @@ export default function ServicesPage() {
                 <br />
                 <span className="text-[#F27D24]">ONE MARKET EACH.</span>
               </h2>
-              <p className="max-w-2xl text-black/60 text-lg border-l-2 border-[#F27D24] pl-6">
+              <p className="max-w-2xl text-white/60 text-lg border-l-2 border-[#F27D24] pl-6">
                 Both plans include the $1,500 one-time onboarding. Six-month prepay = 1 month free (pay 5, get 6). Territory lock is exclusive — one client per category per city.
               </p>
             </div>
@@ -406,7 +406,7 @@ export default function ServicesPage() {
                   className={`relative border-t-4 border-l-4 p-10 ${
                     i === 1
                       ? 'bg-[#F27D24] border-[#F27D24] text-black'
-                      : 'bg-[#F4F0E8] border-[#F27D24] text-white'
+                      : 'bg-[#1c1b1b] border-[#F27D24] text-white'
                   }`}
                 >
                   {i === 1 && (
@@ -419,12 +419,12 @@ export default function ServicesPage() {
                     + {tier.name} Plan
                   </div>
 
-                  <div className={`font-headline font-black text-5xl md:text-6xl tracking-tighter mb-2 ${i === 1 ? 'text-black' : 'text-[#0A0A0A]'}`}>
+                  <div className={`font-headline font-black text-5xl md:text-6xl tracking-tighter mb-2 ${i === 1 ? 'text-black' : 'text-[#e5e2e1]'}`}>
                     ${tier.price.toLocaleString()}
-                    <span className={`text-xl font-mono font-normal tracking-normal ${i === 1 ? 'text-black/60' : 'text-black/40'}`}>/mo</span>
+                    <span className={`text-xl font-mono font-normal tracking-normal ${i === 1 ? 'text-black/60' : 'text-white/40'}`}>/mo</span>
                   </div>
 
-                  <div className={`font-mono text-[11px] tracking-wide mb-8 ${i === 1 ? 'text-black/70' : 'text-black/50'}`}>
+                  <div className={`font-mono text-[11px] tracking-wide mb-8 ${i === 1 ? 'text-black/70' : 'text-white/50'}`}>
                     + $1,500 one-time onboarding
                   </div>
 
@@ -437,11 +437,11 @@ export default function ServicesPage() {
                     ))}
                   </ul>
 
-                  <div className={`border-t pt-6 ${i === 1 ? 'border-black/20' : 'border-black/10'}`}>
-                    <div className={`font-mono text-[10px] tracking-widest uppercase mb-2 ${i === 1 ? 'text-black/60' : 'text-black/40'}`}>
+                  <div className={`border-t pt-6 ${i === 1 ? 'border-black/20' : 'border-white/10'}`}>
+                    <div className={`font-mono text-[10px] tracking-widest uppercase mb-2 ${i === 1 ? 'text-black/60' : 'text-white/40'}`}>
                       6-Month Prepay (Pay 5, Get 6)
                     </div>
-                    <div className={`font-headline font-black text-2xl tracking-tighter mb-1 ${i === 1 ? 'text-black' : 'text-[#0A0A0A]'}`}>
+                    <div className={`font-headline font-black text-2xl tracking-tighter mb-1 ${i === 1 ? 'text-black' : 'text-[#e5e2e1]'}`}>
                       ${tier.prepayPrice.toLocaleString()}
                     </div>
                     <div className={`font-mono text-[10px] tracking-widest uppercase ${i === 1 ? 'text-black/60' : 'text-[#F27D24]'}`}>
@@ -467,7 +467,7 @@ export default function ServicesPage() {
 
             {/* Included in both / How we start */}
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-16">
-              <div className="bg-[#F4F0E8] border border-black/10 p-8">
+              <div className="bg-[#1c1b1b] border border-white/10 p-8">
                 <div className="font-mono text-[10px] tracking-widest text-[#F27D24] uppercase mb-4">
                   + Included in Both Plans
                 </div>
@@ -490,7 +490,7 @@ export default function ServicesPage() {
                 </ul>
               </div>
 
-              <div className="bg-[#F4F0E8] border border-black/10 p-8">
+              <div className="bg-[#1c1b1b] border border-white/10 p-8">
                 <div className="font-mono text-[10px] tracking-widest text-[#F27D24] uppercase mb-4">
                   + How We Get Started
                 </div>
@@ -504,8 +504,8 @@ export default function ServicesPage() {
                     <li key={s.step} className="flex gap-4">
                       <span className="font-mono text-[#F27D24] font-bold text-sm flex-shrink-0 w-8">{s.step}</span>
                       <div>
-                        <div className="font-headline font-bold text-sm uppercase text-[#0A0A0A] tracking-tight mb-1">{s.title}</div>
-                        <div className="text-black/50 text-sm leading-relaxed">{s.desc}</div>
+                        <div className="font-headline font-bold text-sm uppercase text-[#e5e2e1] tracking-tight mb-1">{s.title}</div>
+                        <div className="text-white/50 text-sm leading-relaxed">{s.desc}</div>
                       </div>
                     </li>
                   ))}
@@ -665,13 +665,13 @@ export default function ServicesPage() {
         </section>
 
         {/* ── AEO VS SEO TABLE ─────────────────────────────────────────────── */}
-        <section className="py-24 px-6 bg-[#FAF8F2]">
+        <section className="py-24 px-6 bg-[#131313]">
           <div className="max-w-5xl mx-auto">
             <h2 className="font-headline font-black text-4xl uppercase mb-12 tracking-tighter border-b border-[#F27D24]/30 pb-4 inline-block">
               AEO VS TRADITIONAL SEO
             </h2>
 
-            <div className="overflow-x-auto border border-black/10">
+            <div className="overflow-x-auto border border-white/10">
               <table className="w-full text-left border-collapse">
                 <thead>
                   <tr className="bg-[#F27D24] text-black font-black uppercase font-headline">
@@ -690,12 +690,12 @@ export default function ServicesPage() {
                   {COMPARISON_ROWS.map((row, i) => (
                     <tr
                       key={row.param}
-                      className={`border-b border-white/5 ${i % 2 === 0 ? 'bg-[#F4F0E8]' : 'bg-[#FAF8F2]'}`}
+                      className={`border-b border-white/5 ${i % 2 === 0 ? 'bg-[#1c1b1b]' : 'bg-[#131313]'}`}
                     >
                       <td className="p-4 border-r border-white/5 font-bold text-white">
                         {row.param}
                       </td>
-                      <td className="p-4 border-r border-white/5 text-black/60">
+                      <td className="p-4 border-r border-white/5 text-white/60">
                         {row.seo}
                       </td>
                       <td className="p-4 text-[#F27D24]">{row.aeo}</td>
@@ -708,7 +708,7 @@ export default function ServicesPage() {
         </section>
 
         {/* ── FAQ ──────────────────────────────────────────────────────────── */}
-        <section className="py-24 px-6 bg-[#F4F0E8]">
+        <section className="py-24 px-6 bg-[#1c1b1b]">
           <div className="max-w-4xl mx-auto">
             <div className="flex items-end gap-6 mb-16">
               <h2 className="font-headline font-black text-5xl uppercase tracking-tighter leading-none">
@@ -717,7 +717,7 @@ export default function ServicesPage() {
                 ASKED
               </h2>
               <div className="h-2 w-2 bg-[#F27D24] mb-1" />
-              <div className="h-[1px] flex-grow bg-black/10 mb-2" />
+              <div className="h-[1px] flex-grow bg-white/10 mb-2" />
             </div>
 
             <div className="space-y-4">
@@ -725,7 +725,7 @@ export default function ServicesPage() {
                 <details
                   key={faq.q}
                   open={faq.open}
-                  className={`group ${faq.open ? 'bg-[#FAF8F2] border border-white/5 border-l-4 border-l-[#F27D24]' : 'bg-[#FAF8F2] border border-white/5'}`}
+                  className={`group ${faq.open ? 'bg-[#131313] border border-white/5 border-l-4 border-l-[#F27D24]' : 'bg-[#131313] border border-white/5'}`}
                 >
                   <summary className="p-6 flex justify-between items-center cursor-pointer list-none">
                     <h4
@@ -733,11 +733,11 @@ export default function ServicesPage() {
                     >
                       {faq.q}
                     </h4>
-                    <span className="font-mono text-black/40 text-xl select-none ml-4">
+                    <span className="font-mono text-white/40 text-xl select-none ml-4">
                       +
                     </span>
                   </summary>
-                  <div className="px-6 pb-6 text-black/60 text-sm leading-relaxed max-w-2xl">
+                  <div className="px-6 pb-6 text-white/60 text-sm leading-relaxed max-w-2xl">
                     {faq.a}
                   </div>
                 </details>
@@ -747,7 +747,7 @@ export default function ServicesPage() {
         </section>
 
         {/* ── CTA ──────────────────────────────────────────────────────────── */}
-        <section className="py-24 px-6 bg-[#FAF8F2]">
+        <section className="py-24 px-6 bg-[#131313]">
           <div className="max-w-7xl mx-auto bg-[#F27D24] p-12 md:p-20 relative overflow-hidden">
             <div className="relative z-20 flex flex-col items-center text-center">
               <h2 className="font-headline font-black text-6xl md:text-8xl uppercase tracking-tighter text-black mb-8">

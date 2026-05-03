@@ -235,7 +235,7 @@ export default function CompleteGuideAEO() {
     <>
       <ComprehensiveSchema />
 
-      <main className="min-h-screen bg-[#FFF]">
+      <main className="min-h-screen bg-[#0F1117]">
         <article className="mx-auto max-w-4xl px-6 py-20">
 
           {/* Breadcrumbs */}

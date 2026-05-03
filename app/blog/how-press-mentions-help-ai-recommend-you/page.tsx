@@ -221,7 +221,7 @@ export default function HowPressMentionsHelpAIRecommendYou() {
     <>
       <ComprehensiveSchema />
 
-      <main className="min-h-screen bg-[#FFF] relative">
+      <main className="min-h-screen bg-[#0F1117] relative">
         {/* Hero Section */}
         <section className="relative overflow-hidden border-b border-white/[0.06]">
           <div className="absolute inset-0 bg-gradient-to-br from-[#0F1117] via-[#141620] to-[#0F1117]" />
@@ -418,7 +418,7 @@ export default function HowPressMentionsHelpAIRecommendYou() {
             <div className="not-prose ae-comparison-table my-8 overflow-x-auto">
               <table className="w-full text-sm">
                 <thead>
-                  <tr className="border-b border-black/10">
+                  <tr className="border-b border-white/10">
                     <th className="text-left py-3 px-4 text-gray-400 font-semibold">Signal Type</th>
                     <th className="text-left py-3 px-4 text-gray-400 font-semibold">AI Trust Weight</th>
                     <th className="text-left py-3 px-4 text-gray-400 font-semibold">Citation Frequency</th>
@@ -937,7 +937,7 @@ export default function HowPressMentionsHelpAIRecommendYou() {
             </p>
 
             {/* Cheat Sheet */}
-            <div className="not-prose ae-cheat-sheet my-10 p-6 rounded-2xl bg-gradient-to-br from-white/[0.03] to-transparent border border-black/10">
+            <div className="not-prose ae-cheat-sheet my-10 p-6 rounded-2xl bg-gradient-to-br from-white/[0.03] to-transparent border border-white/10">
               <div className="flex items-center gap-3 mb-6">
                 <div className="w-8 h-8 rounded-lg bg-[#F27D24]/20 flex items-center justify-center">
                   <svg className="w-4 h-4 text-[#F27D24]" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -994,7 +994,7 @@ export default function HowPressMentionsHelpAIRecommendYou() {
           </div>
 
           {/* Author Card */}
-          <div className="not-prose ae-author-card my-12 p-6 rounded-2xl bg-white/[0.03] border border-black/10 flex items-start gap-5">
+          <div className="not-prose ae-author-card my-12 p-6 rounded-2xl bg-white/[0.03] border border-white/10 flex items-start gap-5">
             <div className="w-14 h-14 rounded-full bg-gradient-to-br from-[#F27D24]/30 to-[#F27D24]/10 flex items-center justify-center shrink-0">
               <svg className="w-7 h-7 text-[#F27D24]" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z" />
@@ -1078,7 +1078,7 @@ export default function HowPressMentionsHelpAIRecommendYou() {
                   a: 'Consistency matters more than volume. A business generating one or two meaningful editorial placements per month builds authority far more effectively than one that runs a PR campaign once a year. Monthly press activity, even if modest, creates the pattern of ongoing validation that AI models associate with active, credible businesses.',
                 },
               ].map((item, i) => (
-                <div key={i} className="p-6 rounded-xl bg-white/[0.02] border border-white/[0.06] hover:border-black/10 transition-colors">
+                <div key={i} className="p-6 rounded-xl bg-white/[0.02] border border-white/[0.06] hover:border-white/10 transition-colors">
                   <h3 className="text-white font-semibold mb-3 font-plus-jakarta leading-snug">{item.q}</h3>
                   <p className="text-gray-400 text-sm leading-relaxed">{item.a}</p>
                 </div>

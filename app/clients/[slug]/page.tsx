@@ -162,7 +162,7 @@ export default async function ClientDashboardPage({ params }: { params: Promise<
 
   return (
     <div className="min-h-screen bg-[#f7f6f4]">
-      <header className="bg-[#FAF8F2] text-white py-6 px-8">
+      <header className="bg-[#131313] text-white py-6 px-8">
         <div className="max-w-6xl mx-auto flex items-baseline justify-between">
           <div>
             <div className="text-xs tracking-widest text-[#F27D24] uppercase font-bold">Client Dashboard</div>

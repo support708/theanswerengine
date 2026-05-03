@@ -348,7 +348,7 @@ export default function ISpentThousandsOnSEOPage() {
             className="ae-toc rounded-xl p-6"
             style={{
               backgroundColor: 'rgba(255,255,255,0.04)',
-              border: '1px solid rgba(10,10,10,0.1)',
+              border: '1px solid rgba(255,255,255,0.1)',
             }}
             aria-label="Table of contents"
           >
@@ -553,7 +553,7 @@ export default function ISpentThousandsOnSEOPage() {
                   className="rounded-xl p-5"
                   style={{
                     backgroundColor: 'rgba(255,255,255,0.04)',
-                    border: '1px solid rgba(10,10,10,0.1)',
+                    border: '1px solid rgba(255,255,255,0.1)',
                   }}
                 >
                   <div className="text-3xl mb-3" aria-hidden="true" dangerouslySetInnerHTML={{ __html: card.icon }} />
@@ -599,7 +599,7 @@ export default function ISpentThousandsOnSEOPage() {
               The table below captures the fundamental differences between what it takes to rank on Google and what it takes to be cited by AI. These are not the same game.
             </p>
 
-            <div className="ae-comparison-table overflow-x-auto rounded-xl mb-6" style={{ border: '1px solid rgba(10,10,10,0.1)' }}>
+            <div className="ae-comparison-table overflow-x-auto rounded-xl mb-6" style={{ border: '1px solid rgba(255,255,255,0.1)' }}>
               <table className="w-full text-sm">
                 <thead>
                   <tr style={{ backgroundColor: 'rgba(255,106,0,0.12)' }}>
@@ -991,7 +991,7 @@ export default function ISpentThousandsOnSEOPage() {
               Use this matrix to assess how urgently your business needs to address AI visibility. The more boxes you check on the right, the more your current SEO investment is working against your growth.
             </p>
 
-            <div className="ae-decision-matrix overflow-x-auto rounded-xl" style={{ border: '1px solid rgba(10,10,10,0.1)' }}>
+            <div className="ae-decision-matrix overflow-x-auto rounded-xl" style={{ border: '1px solid rgba(255,255,255,0.1)' }}>
               <table className="w-full text-sm">
                 <thead>
                   <tr style={{ backgroundColor: 'rgba(255,106,0,0.1)' }}>
@@ -1214,7 +1214,7 @@ export default function ISpentThousandsOnSEOPage() {
                   style={{
                     backgroundColor: 'transparent',
                     color: '#9CA3AF',
-                    border: '1px solid rgba(10,10,10,0.1)',
+                    border: '1px solid rgba(255,255,255,0.1)',
                   }}
                 >
                   &#9993; support@theanswerengine.ai

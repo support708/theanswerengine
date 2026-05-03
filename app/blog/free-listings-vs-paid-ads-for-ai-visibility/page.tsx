@@ -512,11 +512,11 @@ export default function Page() {
         <section className="mt-12">
           <h3 className="font-plus-jakarta text-xl font-bold text-white mb-4">Related Reading</h3>
           <div className="grid gap-4 md:grid-cols-2">
-            <Link href="/blog/your-website-vs-directories-what-ai-trusts" className="block p-4 rounded-xl border border-black/10 bg-white/5 hover:border-[#F27D24]/30 transition-colors">
+            <Link href="/blog/your-website-vs-directories-what-ai-trusts" className="block p-4 rounded-xl border border-white/10 bg-white/5 hover:border-[#F27D24]/30 transition-colors">
               <p className="text-sm text-[#F27D24] mb-1">Comparisons</p>
               <p className="text-white font-medium">Your Website vs Directories: What AI Trusts</p>
             </Link>
-            <Link href="/blog/do-google-ads-help-ai-search" className="block p-4 rounded-xl border border-black/10 bg-white/5 hover:border-[#F27D24]/30 transition-colors">
+            <Link href="/blog/do-google-ads-help-ai-search" className="block p-4 rounded-xl border border-white/10 bg-white/5 hover:border-[#F27D24]/30 transition-colors">
               <p className="text-sm text-[#F27D24] mb-1">Myth Busters</p>
               <p className="text-white font-medium">Does Paying for Google Ads Help AI Find You?</p>
             </Link>
@@ -593,7 +593,7 @@ export default function Page() {
                 a: 'Paid ads generate traffic while spend is active and stop immediately when budget runs out. AI citations, once established through organic signals, are persistent and compound over time. The tradeoff is timeline: paid ads produce immediate results while AI citation building takes weeks to months but creates a durable, zero-ongoing-cost traffic channel.'
               },
             ].map((item, i) => (
-              <div key={i} className="border border-black/10 rounded-xl p-6 bg-white/5">
+              <div key={i} className="border border-white/10 rounded-xl p-6 bg-white/5">
                 <h3 className="font-plus-jakarta font-semibold text-white mb-3">{item.q}</h3>
                 <p className="text-gray-300 leading-relaxed">{item.a}</p>
               </div>

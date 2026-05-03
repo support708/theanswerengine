@@ -237,7 +237,7 @@ export default function HowToOptimizeGoogleBusinessProfileForAI() {
     <>
       <ComprehensiveSchema />
 
-      <main className="min-h-screen bg-[#FFF]">
+      <main className="min-h-screen bg-[#0F1117]">
         <div className="max-w-4xl mx-auto px-6 py-20">
 
           <Breadcrumb />
@@ -685,32 +685,32 @@ export default function HowToOptimizeGoogleBusinessProfileForAI() {
             <h2 className="font-plus-jakarta text-2xl font-bold text-white mb-8">Frequently Asked Questions</h2>
 
             <div className="space-y-6">
-              <div className="border border-black/10 rounded-xl p-6">
+              <div className="border border-white/10 rounded-xl p-6">
                 <h3 className="text-white font-semibold text-lg mb-3">Does ChatGPT pull data from Google Business Profiles?</h3>
                 <p className="text-gray-300">Yes. ChatGPT uses data from Google Business Profiles for location-based queries. Your business name, category, hours, reviews, and posted content can all appear in AI-generated recommendations. The completeness and accuracy of your GBP directly influences whether you get cited.</p>
               </div>
 
-              <div className="border border-black/10 rounded-xl p-6">
+              <div className="border border-white/10 rounded-xl p-6">
                 <h3 className="text-white font-semibold text-lg mb-3">Do Google Posts help with AI search visibility?</h3>
                 <p className="text-gray-300">Google Posts are a direct GEO (Generative Engine Optimization) signal. Businesses that publish recent, relevant posts on their Google Business Profile are more likely to be cited in AI Overviews and other AI-generated responses. Recency and topical relevance both matter.</p>
               </div>
 
-              <div className="border border-black/10 rounded-xl p-6">
+              <div className="border border-white/10 rounded-xl p-6">
                 <h3 className="text-white font-semibold text-lg mb-3">How do I add verified reviews that signal trust to AI?</h3>
                 <p className="text-gray-300">Google Reviews directly influence AI citation probability across multiple dimensions: total review count, recency of reviews, owner response rate, average star rating, and the actual content of the reviews. AI platforms use all of these signals to assess business credibility and relevance.</p>
               </div>
 
-              <div className="border border-black/10 rounded-xl p-6">
+              <div className="border border-white/10 rounded-xl p-6">
                 <h3 className="text-white font-semibold text-lg mb-3">Can I optimize my GBP for AI without changing my website?</h3>
                 <p className="text-gray-300">You can improve several AI signals through GBP alone, including review management, Google Posts, photo uploads, and profile completeness. However, maximum AI visibility requires alignment between your GBP, website, directory listings, and third-party mentions. AI platforms cross-reference all of these sources.</p>
               </div>
 
-              <div className="border border-black/10 rounded-xl p-6">
+              <div className="border border-white/10 rounded-xl p-6">
                 <h3 className="text-white font-semibold text-lg mb-3">How often should I update my Google Business Profile for AI visibility?</h3>
                 <p className="text-gray-300">AI platforms favor recency signals. Businesses that update their GBP weekly with new posts, respond to reviews promptly, and upload fresh photos regularly send stronger trust signals than profiles that sit untouched for months. Consistency matters more than volume.</p>
               </div>
 
-              <div className="border border-black/10 rounded-xl p-6">
+              <div className="border border-white/10 rounded-xl p-6">
                 <h3 className="text-white font-semibold text-lg mb-3">Do GBP photos actually matter for AI search?</h3>
                 <p className="text-gray-300">Yes. Google AI scans photo content to understand business expertise, service quality, and operational context. Photos are not just for human visitors. AI visual search capabilities mean your images contribute to how AI platforms categorize and evaluate your business.</p>
               </div>

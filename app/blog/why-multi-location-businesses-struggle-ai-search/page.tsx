@@ -616,7 +616,7 @@ export default function WhyMultiLocationBusinessesStruggleAISearch() {
                 a: "Start with a citation audit across all locations. Check that every location has consistent Name, Address, and Phone (NAP) data across directories, Google Business Profile, Bing Places, Yelp, and industry-specific platforms. SOCi's research shows that data accuracy is a critical gap, and inconsistencies are the single fastest way to get silently excluded from AI recommendations."
               }
             ].map((faq, i) => (
-              <div key={i} className="rounded-xl border border-black/10 bg-white/[0.02] p-6">
+              <div key={i} className="rounded-xl border border-white/10 bg-white/[0.02] p-6">
                 <h3 className="text-lg font-semibold text-white mb-3">{faq.q}</h3>
                 <p className="text-gray-300 leading-relaxed">{faq.a}</p>
               </div>
@@ -654,7 +654,7 @@ export default function WhyMultiLocationBusinessesStruggleAISearch() {
           <h3>Your Locations Are Either Visible to AI or They Are Not</h3>
           <p>98.8% of multi-location businesses are invisible on ChatGPT. That is not a trend. That is a crisis. Find out where your brand stands before your competitors lock in those recommendation slots.</p>
           <Link href="/blindspot" className="ae-final-cta-pulse">Get Your Free Blind Spot Report</Link>
-          <div className="flex flex-wrap items-center justify-center gap-6 mt-6 pt-6 border-t border-black/10">
+          <div className="flex flex-wrap items-center justify-center gap-6 mt-6 pt-6 border-t border-white/10">
             <a href="tel:+12134442229" className="flex items-center gap-2 text-gray-400 hover:text-white transition-colors">
               <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" /></svg>
               (213) 444-2229

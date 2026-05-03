@@ -571,11 +571,11 @@ export default function Page() {
         <section className="mt-12">
           <h3 className="font-plus-jakarta text-xl font-bold text-white mb-4">Related Reading</h3>
           <div className="grid gap-4 md:grid-cols-2">
-            <Link href="/blog/what-your-website-looks-like-to-an-ai-crawler" className="block p-4 rounded-xl border border-black/10 bg-white/5 hover:border-[#F27D24]/30 transition-colors">
+            <Link href="/blog/what-your-website-looks-like-to-an-ai-crawler" className="block p-4 rounded-xl border border-white/10 bg-white/5 hover:border-[#F27D24]/30 transition-colors">
               <p className="text-sm text-[#F27D24] mb-1">AEO Education</p>
               <p className="text-white font-medium">What Your Website Looks Like to an AI Crawler</p>
             </Link>
-            <Link href="/blog/why-ai-says-wrong-things-about-business" className="block p-4 rounded-xl border border-black/10 bg-white/5 hover:border-[#F27D24]/30 transition-colors">
+            <Link href="/blog/why-ai-says-wrong-things-about-business" className="block p-4 rounded-xl border border-white/10 bg-white/5 hover:border-[#F27D24]/30 transition-colors">
               <p className="text-sm text-[#F27D24] mb-1">Business Pain Points</p>
               <p className="text-white font-medium">Why AI Says Wrong Things About Your Business</p>
             </Link>
@@ -652,7 +652,7 @@ export default function Page() {
                 a: 'The signals that most reliably raise AI confidence are: consistent NAP across all directories, schema markup on the website, third-party mentions in credible independent sources, answer-shaped website content, review presence across multiple platforms, and regular updates indicating an active business.'
               },
             ].map((item, i) => (
-              <div key={i} className="border border-black/10 rounded-xl p-6 bg-white/5">
+              <div key={i} className="border border-white/10 rounded-xl p-6 bg-white/5">
                 <h3 className="font-plus-jakarta font-semibold text-white mb-3">{item.q}</h3>
                 <p className="text-gray-300 leading-relaxed">{item.a}</p>
               </div>
