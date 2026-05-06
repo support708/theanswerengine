@@ -25,7 +25,7 @@ const EVENT_HOSTS: Record<string, { name: string; hosts: { name: string; email: 
     hosts: [
       { name: 'Justin Borges', email: 'justin@theborgesrealestateteam.com' },
       { name: 'Brian Grushkin', email: 'bgrush78@gmail.com' },
-      // { name: 'Isaiah Andalon', email: 'isaiah@...' }, // add when available
+      { name: 'Isaiah Andalon', email: 'isaiah@theborgesrealestateteam.com' },
     ],
   },
   // FTB IE — Thursdays 4:30 PM PDT
