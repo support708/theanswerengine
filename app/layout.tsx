@@ -44,7 +44,6 @@ export const metadata: Metadata = {
 const spaceGrotesk = Space_Grotesk({
   variable: "--font-headline",
   subsets: ["latin"],
-  weight: ["variable"],
 });
 
 const inter = Inter({
