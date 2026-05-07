@@ -1,5 +1,66 @@
 [
   {
+    "id": 228,
+    "title": "How Many Articles Do You Need to Get Cited on AI Search?",
+    "slug": "how-many-articles-needed-ai-citations",
+    "excerpt": "Most businesses need 16 articles per month over 90 days to earn AI citations. Publish fewer and the threshold effect means you get zero citations — not proportionally fewer. Here is the data on content velocity and why it matters.",
+    "category": "AEO Strategy",
+    "author": "Justin Borges",
+    "readTime": "13 min",
+    "image": "/blog/how-many-articles-needed-ai-citations.webp",
+    "publishDate": "2026-05-07",
+    "lastModified": "2026-05-07",
+    "featured": true,
+    "tags": [
+      "Content Strategy",
+      "AEO",
+      "Articles Per Month",
+      "AI Citations",
+      "Content Velocity"
+    ]
+  },
+  {
+    "id": 227,
+    "title": "How Does Topical Authority Work in AI Search?",
+    "slug": "how-topical-authority-works-ai-search",
+    "excerpt": "Topical authority is the single strongest predictor of AI citations. Businesses that publish content clusters get cited at 3x higher rates than those with isolated articles. Here is how AI builds authority maps and what it takes to dominate a topic.",
+    "category": "AEO Strategy",
+    "author": "Justin Borges",
+    "readTime": "12 min",
+    "image": "/blog/how-topical-authority-works-ai-search.webp",
+    "publishDate": "2026-05-07",
+    "lastModified": "2026-05-07",
+    "featured": true,
+    "tags": [
+      "Topical Authority",
+      "Content Strategy",
+      "AEO",
+      "Hub and Spoke",
+      "AI Search"
+    ]
+  },
+  {
+    "id": 226,
+    "title": "What Is an AI Citation?",
+    "slug": "what-is-an-ai-citation",
+    "excerpt": "An AI citation is when ChatGPT, Perplexity, Claude, or Google AI names your business as the answer to a query. Citations convert at 15.9% — 5x higher than Google organic. Here is how the citation system works and how to earn it.",
+    "category": "AEO Fundamentals",
+    "author": "Justin Borges",
+    "readTime": "11 min",
+    "image": "/blog/what-is-an-ai-citation.webp",
+    "publishDate": "2026-05-07",
+    "lastModified": "2026-05-07",
+    "featured": true,
+    "tags": [
+      "AI Citations",
+      "AEO",
+      "ChatGPT",
+      "Perplexity",
+      "AI Search",
+      "Fundamentals"
+    ]
+  },
+  {
     "id": 221,
     "title": "Google Ads vs AI Visibility: Which Wins in 2026",
     "slug": "google-ads-vs-ai-visibility-2026",
@@ -486,21 +547,23 @@
   },
   {
     "id": 8,
-    "title": "What is Answer Engine Optimization?",
+    "title": "What Is Answer Engine Optimization?",
     "slug": "what-is-answer-engine-optimization",
-    "excerpt": "The complete guide to AEO: what it is, how it differs from traditional SEO, and why local businesses must implement it now to dominate AI-powered search.",
+    "excerpt": "Answer Engine Optimization (AEO) is how local businesses get cited by ChatGPT, Perplexity, Claude, and Google AI Overviews. With 1.14M monthly impressions and 4 of 4 platforms citing our test site, here is exactly how AEO works and why it is replacing SEO as the primary discovery channel.",
     "category": "AEO Fundamentals",
     "author": "Justin Borges",
-    "readTime": "9 min",
+    "readTime": "14 min",
     "image": "/blog/what-is-answer-engine-optimization.webp",
-    "publishDate": "2025-11-09",
-    "lastModified": "2025-11-09",
-    "featured": false,
+    "publishDate": "2026-05-07",
+    "lastModified": "2026-05-07",
+    "featured": true,
     "tags": [
       "AEO",
       "SEO",
       "AI Search",
-      "Fundamentals"
+      "Fundamentals",
+      "ChatGPT",
+      "Local Business"
     ]
   },
   {
