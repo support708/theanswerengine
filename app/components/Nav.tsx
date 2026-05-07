@@ -29,14 +29,16 @@ export default function Nav() {
         {/* Logo */}
         <a href="/" className="flex items-center gap-3">
           <Image
-            src="/mark-1b-white.png"
+            src="/mark-1a-orange.png"
             alt="The Answer Engine"
             width={32}
             height={32}
-            className="h-7 w-auto opacity-90"
+            className="h-7 w-auto"
           />
-          <span className="text-xl font-black tracking-tighter text-[#F27D24] uppercase font-headline">
-            THE ANSWER ENGINE
+          <span className="text-xl font-black tracking-tighter uppercase font-headline">
+            <span className="text-[#e5e2e1]">THE</span>{' '}
+            <span className="text-[#F27D24]">[ANSWER]</span>{' '}
+            <span className="text-[#e5e2e1]">ENGINE</span>
           </span>
         </a>
 

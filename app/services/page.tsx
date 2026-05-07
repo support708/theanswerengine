@@ -4,14 +4,14 @@ import Link from 'next/link';
 export const metadata: Metadata = {
   title: 'AEO Services — 90-Day Foundation + Monthly Program | The Answer Engine',
   description:
-    'The complete AEO system: 90-day Answer Authority Foundation with citation guarantee, then an ongoing Monthly Program (Authority Index, Monthly Intelligence Report, Reddit monitoring). One client per market.',
+    'The complete AEO system: 90-day Answer Authority Foundation with citation guarantee, then an ongoing Monthly Program (Monthly Intelligence Report, Reddit monitoring). One client per market.',
   alternates: {
     canonical: 'https://www.theanswerengine.ai/services',
   },
   openGraph: {
     title: 'AEO Services — 90-Day Foundation + Monthly Program',
     description:
-      'Two parts: the 90-day foundation gets you cited. The Monthly Program compounds it. Authority Index, Monthly Intelligence Report, Reddit monitoring.',
+      'Two parts: the 90-day foundation gets you cited. The Monthly Program compounds it. Monthly Intelligence Report, Reddit monitoring, Top-Performer Audit.',
     url: 'https://www.theanswerengine.ai/services',
     type: 'website',
     siteName: 'The Answer Engine',
@@ -67,11 +67,6 @@ const FOUNDATION_ITEMS = [
 ];
 
 const MONTHLY_ITEMS = [
-  {
-    icon: '✓',
-    title: 'AEO Authority Index',
-    desc: 'Your weekly score across ChatGPT, Claude, Perplexity, and Google AI. Updated every Monday.',
-  },
   {
     icon: '✓',
     title: 'Monthly AEO Intelligence Report',
@@ -183,7 +178,7 @@ const FAQS = [
   },
   {
     q: 'Why do I need the Monthly Program after the 90-day foundation?',
-    a: 'AI platforms update their training data constantly. A single 90-day engagement gets you cited. The Monthly Program keeps you cited, surfaces new opportunities the Authority Index spots each week, and feeds fresh content into the hub. The businesses that compound over time are the ones on the Monthly Program.',
+    a: 'AI platforms update their training data constantly. A single 90-day engagement gets you cited. The Monthly Program keeps you cited, surfaces new opportunities via the Monthly Intelligence Report, and feeds fresh content into the hub. The businesses that compound over time are the ones on the Monthly Program.',
     open: false,
   },
 ];
@@ -463,7 +458,6 @@ export default function ServicesPage() {
                 </div>
                 <ul className="space-y-3">
                   {[
-                    'AEO Authority Index — weekly score across 4 AI platforms',
                     'Monthly AEO Intelligence Report',
                     'Reddit Citation Monitor + draft responses',
                     'Top-Performer Conversion Audit (monthly)',

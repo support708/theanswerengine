@@ -44,7 +44,7 @@ export const metadata: Metadata = {
 const spaceGrotesk = Space_Grotesk({
   variable: "--font-headline",
   subsets: ["latin"],
-  weight: ["400", "500", "600", "700"],
+  weight: ["variable"],
 });
 
 const inter = Inter({
@@ -248,7 +248,7 @@ export default function RootLayout({
             {/* Brand column */}
             <div className="md:col-span-1">
               <div className="font-headline font-black text-3xl tracking-tighter uppercase leading-none text-[#e5e2e1] mb-4">
-                THE<br />ANSWER<br /><span className="text-[#F27D24]">ENGINE.</span>
+                THE<br /><span className="text-[#F27D24]">[ANSWER]</span><br />ENGINE.
               </div>
               <div className="font-mono text-[10px] tracking-widest uppercase text-white/40 leading-relaxed space-y-1">
                 <div>Los Angeles, CA</div>
