@@ -160,7 +160,7 @@ export default function Page() {
       <main className="bg-[#131313] min-h-screen">
 
         {/* Hero header */}
-        <header className="max-w-4xl mx-auto px-6 pt-16 pb-8">
+        <header className="ae-article-hero max-w-4xl mx-auto px-6 pt-16 pb-10">
           <p className="font-mono text-[11px] tracking-widest uppercase text-[#F27D24] mb-4">AEO Education · The Answer Engine</p>
           <h1 className="font-headline font-black text-4xl md:text-5xl uppercase tracking-tighter text-[#e5e2e1] leading-none mb-6">
             What Is Answer Engine Optimization?
@@ -168,7 +168,7 @@ export default function Page() {
           <p className="ae-hero-desc text-lg text-gray-300 leading-relaxed mb-4 max-w-2xl">
             AEO is the discipline of becoming the source AI systems cite when someone asks about your service category. This guide covers how it works, how it differs from SEO, and what it takes to get cited on ChatGPT, Perplexity, Claude, Gemini, and Google AI Overviews in 2026.
           </p>
-          <div className="ae-hero-meta flex flex-wrap items-center gap-3 text-sm text-gray-500 mb-8">
+          <div className="ae-article-meta">
             <time dateTime={publishDate}>May 7, 2026</time>
             <span>·</span>
             <span>14 min read</span>
@@ -204,7 +204,7 @@ export default function Page() {
         </header>
 
         {/* Article body */}
-        <article className="max-w-4xl mx-auto px-6 py-4 prose prose-invert prose-lg max-w-none prose-headings:text-white prose-p:text-gray-300 prose-a:text-[#F27D24] prose-a:no-underline hover:prose-a:underline prose-strong:text-white">
+        <article className="ae-article-body max-w-4xl mx-auto px-6 py-4 prose prose-invert prose-lg max-w-none prose-p:text-gray-300 prose-a:text-[#F27D24] prose-a:no-underline hover:prose-a:underline prose-strong:text-white">
 
           {/* TOC */}
           <div className="ae-toc not-prose bg-white/[0.03] border border-white/[0.08] rounded-xl p-6 mb-10">

@@ -203,14 +203,12 @@ export default function Page() {
           </nav>
 
           {/* Header */}
-          <header className="mb-12">
-            <div className="inline-flex items-center gap-2 px-4 py-2 rounded-xl mb-6 bg-white/[0.04] border border-white/[0.08]">
-              <span className="text-sm font-semibold tracking-wider uppercase text-[#F27D24]">AEO Education</span>
-              <span className="text-gray-600">|</span>
-              <span className="text-sm text-gray-400">The Answer Engine</span>
+          <header className="ae-article-hero mb-12 p-8 rounded-xl">
+            <div className="mb-4">
+              <span className="font-mono text-[11px] tracking-widest uppercase text-[#F27D24]">AEO Strategy · The Answer Engine</span>
             </div>
 
-            <h1 className="text-3xl sm:text-4xl lg:text-5xl font-semibold mb-6 text-white leading-tight">
+            <h1 className="font-headline font-black text-4xl md:text-5xl uppercase tracking-tighter text-[#e5e2e1] leading-none mb-6">
               How Does Topical Authority Work in AI Search?
             </h1>
 
@@ -232,30 +230,17 @@ export default function Page() {
             </div>
 
             {/* Meta row */}
-            <div className="flex flex-wrap gap-4 text-sm text-gray-400">
-              <div className="flex items-center gap-2">
-                <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={2}>
-                  <path strokeLinecap="round" strokeLinejoin="round" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
-                </svg>
-                <time dateTime={publishDate}>May 7, 2026</time>
-              </div>
-              <div className="flex items-center gap-2">
-                <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={2}>
-                  <path strokeLinecap="round" strokeLinejoin="round" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
-                </svg>
-                <span>12 min read</span>
-              </div>
-              <div className="flex items-center gap-2">
-                <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={2}>
-                  <path strokeLinecap="round" strokeLinejoin="round" d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z" />
-                </svg>
-                <span>Justin Borges</span>
-              </div>
+            <div className="ae-article-meta">
+              <time dateTime={publishDate}>May 7, 2026</time>
+              <span>·</span>
+              <span>12 min read</span>
+              <span>·</span>
+              <span>Justin Borges</span>
             </div>
           </header>
 
           {/* Main content */}
-          <div className="prose prose-invert prose-lg max-w-none prose-headings:font-plus-jakarta prose-headings:text-white prose-p:text-gray-300 prose-a:text-[#F27D24] prose-a:no-underline hover:prose-a:underline prose-strong:text-white">
+          <div className="ae-article-body prose prose-invert prose-lg max-w-none prose-p:text-gray-300 prose-a:text-[#F27D24] prose-a:no-underline hover:prose-a:underline prose-strong:text-white">
 
             {/* Stats grid */}
             <div className="ae-stats-grid not-prose">

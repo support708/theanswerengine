@@ -207,49 +207,15 @@ export default function Page() {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
       />
-      <main
-        className="min-h-screen"
-        style={{ backgroundColor: '#0F1117', color: 'white' }}
-      >
+      <main className="bg-[#131313] min-h-screen">
         <div className="max-w-4xl mx-auto px-6 py-20">
           <Breadcrumb />
 
           {/* Hero Section */}
-          <div
-            className="relative overflow-hidden rounded-2xl mb-12"
-            style={{
-              background:
-                'linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%)',
-            }}
-          >
-            <svg
-              className="absolute inset-0 w-full h-full opacity-10"
-              viewBox="0 0 800 400"
-              fill="none"
-              aria-hidden="true"
-            >
-              {/* Citation quotation mark motif */}
-              <circle cx="120" cy="200" r="90" stroke="#F27D24" strokeWidth="0.5" fill="none" />
-              <circle cx="120" cy="200" r="55" stroke="#F27D24" strokeWidth="0.5" fill="none" />
-              <circle cx="120" cy="200" r="20" stroke="#F27D24" strokeWidth="0.8" fill="none" />
-              {/* Network nodes */}
-              <circle cx="420" cy="100" r="4" fill="#F27D24" opacity="0.4" />
-              <circle cx="540" cy="160" r="3" fill="#F27D24" opacity="0.35" />
-              <circle cx="620" cy="240" r="4" fill="#F27D24" opacity="0.3" />
-              <circle cx="480" cy="300" r="3" fill="#F27D24" opacity="0.3" />
-              <circle cx="350" cy="260" r="4" fill="#F27D24" opacity="0.25" />
-              <line x1="420" y1="100" x2="540" y2="160" stroke="#F27D24" strokeWidth="0.5" strokeDasharray="4 4" opacity="0.3" />
-              <line x1="540" y1="160" x2="620" y2="240" stroke="#F27D24" strokeWidth="0.5" strokeDasharray="4 4" opacity="0.25" />
-              <line x1="620" y1="240" x2="480" y2="300" stroke="#F27D24" strokeWidth="0.5" strokeDasharray="4 4" opacity="0.25" />
-              <line x1="480" y1="300" x2="350" y2="260" stroke="#F27D24" strokeWidth="0.5" strokeDasharray="4 4" opacity="0.2" />
-              <line x1="350" y1="260" x2="420" y2="100" stroke="#F27D24" strokeWidth="0.5" strokeDasharray="4 4" opacity="0.2" />
-              <text x="120" y="205" textAnchor="middle" fill="#F27D24" fontSize="14" opacity="0.5">CITED</text>
-            </svg>
+          <div className="ae-article-hero rounded-xl mb-8 overflow-hidden">
             <div className="relative px-8 py-16 sm:px-12 sm:py-20">
-              <p className="inline-block text-sm font-medium text-orange-400 mb-4 border border-orange-500/30 rounded-full px-4 py-1">
-                AEO Education
-              </p>
-              <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-white leading-tight mb-6 font-plus-jakarta">
+              <p className="font-mono text-[11px] tracking-widest uppercase text-[#F27D24] mb-4">AEO Fundamentals · The Answer Engine</p>
+              <h1 className="font-headline font-black text-4xl md:text-5xl uppercase tracking-tighter text-[#e5e2e1] leading-none mb-6">
                 What Is an AI Citation?
               </h1>
               <p className="text-lg text-gray-300 leading-relaxed mb-6 max-w-2xl">
@@ -258,11 +224,11 @@ export default function Page() {
                 position in a list. A recommendation with reasoning, delivered to someone
                 who already trusts the source.
               </p>
-              <div className="flex items-center gap-4 text-sm text-gray-400">
+              <div className="ae-article-meta">
                 <time dateTime={publishDate}>May 7, 2026</time>
-                <span>-</span>
+                <span>·</span>
                 <span>11 min read</span>
-                <span>-</span>
+                <span>·</span>
                 <span>Justin Borges</span>
               </div>
             </div>
@@ -320,7 +286,7 @@ export default function Page() {
           </div>
 
           {/* Article Body */}
-          <article className="prose prose-invert prose-lg max-w-none prose-headings:font-plus-jakarta prose-headings:text-white prose-p:text-gray-300 prose-a:text-[#F27D24] prose-a:no-underline hover:prose-a:underline prose-strong:text-white">
+          <article className="ae-article-body prose prose-invert prose-lg max-w-none prose-p:text-gray-300 prose-a:text-[#F27D24] prose-a:no-underline hover:prose-a:underline prose-strong:text-white">
 
             {/* Direct Answer Callout */}
             <div className="not-prose">
@@ -984,7 +950,7 @@ export default function Page() {
           </div>
 
           {/* FAQ Section */}
-          <article className="prose prose-invert prose-lg max-w-none prose-headings:font-plus-jakarta prose-headings:text-white prose-p:text-gray-300 prose-a:text-[#F27D24] prose-a:no-underline hover:prose-a:underline prose-strong:text-white">
+          <article className="ae-article-body prose prose-invert prose-lg max-w-none prose-p:text-gray-300 prose-a:text-[#F27D24] prose-a:no-underline hover:prose-a:underline prose-strong:text-white">
             <div className="not-prose"><span className="ae-section-label" id="faq">FAQ</span></div>
             <h2 className="text-2xl font-bold text-white mt-4 mb-8 font-plus-jakarta">
               Frequently Asked Questions

@@ -1018,3 +1018,70 @@ button:focus-visible, a:focus-visible {
   border-radius: 20px;
   margin-bottom: 12px;
 }
+
+/* =====================================================
+   AE BLOG ARTICLE — Brand-enforced layout + typography
+   Add 'ae-article-body' to the <article> wrapper.
+   Add 'ae-article-hero' to the <header> wrapper.
+   ===================================================== */
+
+/* Hero section — dot-grid texture + scanline overlay */
+.ae-article-hero {
+  background-image: radial-gradient(circle, #353534 1px, transparent 1px);
+  background-size: 32px 32px;
+  position: relative;
+}
+.ae-article-hero::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: repeating-linear-gradient(0deg, transparent, transparent 2px, rgba(0,0,0,0.12) 2px, rgba(0,0,0,0.12) 4px);
+  pointer-events: none;
+  opacity: 0.35;
+}
+.ae-article-hero > * { position: relative; z-index: 1; }
+
+/* ae-article-body — typography scope marker, no layout side effects */
+
+/* H2 — Space Grotesk 900 · UPPERCASE · orange section bar */
+.ae-article-body h2 {
+  font-family: var(--font-headline), 'Space Grotesk', system-ui, sans-serif !important;
+  font-weight: 900 !important;
+  text-transform: uppercase !important;
+  letter-spacing: -0.01em !important;
+  line-height: 1.1 !important;
+  font-size: clamp(1.5rem, 3vw, 2rem) !important;
+  color: #e5e2e1 !important;
+  border-top: 3px solid #F27D24;
+  padding-top: 2rem;
+  margin-top: 3.5rem !important;
+  margin-bottom: 1rem !important;
+}
+
+/* H3 — Space Grotesk 700 · UPPERCASE */
+.ae-article-body h3 {
+  font-family: var(--font-headline), 'Space Grotesk', system-ui, sans-serif !important;
+  font-weight: 700 !important;
+  text-transform: uppercase !important;
+  letter-spacing: 0.02em !important;
+  line-height: 1.2 !important;
+  font-size: 0.95rem !important;
+  color: #e5e2e1 !important;
+  margin-top: 2rem !important;
+  margin-bottom: 0.5rem !important;
+}
+
+/* Article meta (date · read time · author) — Courier mono */
+.ae-article-meta {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 0.7rem;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: rgba(229,226,225,0.45);
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.75rem;
+  margin-bottom: 2rem;
+}
+.ae-article-meta span { color: rgba(229,226,225,0.2); }
