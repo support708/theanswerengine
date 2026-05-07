@@ -4,6 +4,7 @@ import { useEffect, useRef, useState, RefObject } from 'react';
 import Image from 'next/image';
 import FocusTrap from 'focus-trap-react';
 import CitationProof from './components/CitationProof';
+import GSCChart from './components/GSCChart';
 
 // ─── Accessibility: respect reduced-motion preference ───────────────────────
 const usePrefersReducedMotion = () => {
@@ -551,6 +552,20 @@ export default function Home() {
                 <div className="font-mono text-[10px] text-[#F27D24] uppercase tracking-widest mt-2">{stat.status}</div>
               </div>
             ))}
+          </div>
+
+          {/* GSC Growth Chart */}
+          <div className="border border-white/10 bg-[#131313] p-8 mb-16">
+            <div className="flex items-center justify-between mb-6">
+              <div>
+                <span className="font-mono text-[10px] text-[#F27D24] tracking-widest uppercase block mb-1">Google Search Console // Live Data</span>
+                <span className="font-headline font-black text-xl uppercase tracking-tighter text-[#e5e2e1]">Monthly Impressions — lametrohomefinder.com</span>
+              </div>
+              <div className="font-mono text-[10px] text-white/20 tracking-widest uppercase text-right hidden sm:block">
+                Organic only · No ad spend
+              </div>
+            </div>
+            <GSCChart />
           </div>
 
           {/* Citation screenshot grid */}
