@@ -19,6 +19,25 @@ const usePrefersReducedMotion = () => {
   return prefersReducedMotion;
 };
 
+// ─── Count-up hook ──────────────────────────────────────────────────────────
+const useCountUp = (target: number, duration = 1800, trigger = false) => {
+  const [value, setValue] = useState(0);
+  useEffect(() => {
+    if (!trigger) return;
+    let start: number | null = null;
+    const step = (ts: number) => {
+      if (!start) start = ts;
+      const progress = Math.min((ts - start) / duration, 1);
+      // ease-out cubic
+      const eased = 1 - Math.pow(1 - progress, 3);
+      setValue(Math.floor(eased * target));
+      if (progress < 1) requestAnimationFrame(step);
+    };
+    requestAnimationFrame(step);
+  }, [trigger, target, duration]);
+  return value;
+};
+
 // ─── Scroll-triggered animation hook ────────────────────────────────────────
 const useScrollAnimation = (): { ref: RefObject<HTMLDivElement | null>; isVisible: boolean } => {
   const ref = useRef<HTMLDivElement>(null);
@@ -142,6 +161,10 @@ export default function Home() {
   const faqAnim = useScrollAnimation();
   const citationsAnim = useScrollAnimation();
   const liveDemoAnim = useScrollAnimation();
+
+  // Animated counters — triggered when citations section enters view
+  const impressionsCount = useCountUp(114, 1800, citationsAnim.isVisible);
+  const platformCount = useCountUp(4, 900, citationsAnim.isVisible);
 
   // Live demo scan animation — progresses through SCAN_LINES when section enters viewport
   useEffect(() => {
@@ -536,22 +559,47 @@ export default function Home() {
             </p>
           </div>
 
-          {/* Stat strip */}
-          <div className="grid grid-cols-3 gap-0 border border-white/10 mb-16">
-            {[
-              { value: '1.14M+', label: 'Monthly Impressions', status: 'verified — last 28d' },
-              { value: '4 / 4', label: 'AI Platforms Citing Us', status: 'tracked live' },
-              { value: '$0', label: 'Ad Spend', status: 'organic only' },
-            ].map((stat, i) => (
-              <div
-                key={i}
-                className={`p-8 ${i < 2 ? 'border-r' : ''} border-white/10 bg-[#131313]`}
-              >
-                <div className="font-headline font-black text-4xl md:text-5xl text-[#e5e2e1] mb-2">{stat.value}</div>
-                <div className="font-mono text-[10px] text-white/40 uppercase tracking-widest">{stat.label}</div>
-                <div className="font-mono text-[10px] text-[#F27D24] uppercase tracking-widest mt-2">{stat.status}</div>
+          {/* Stat strip — animated counters */}
+          <div className="grid grid-cols-3 gap-0 border border-white/10 mb-8">
+            <div className="p-8 border-r border-white/10 bg-[#131313]">
+              <div className="font-headline font-black text-4xl md:text-5xl text-[#e5e2e1] mb-2 tabular-nums">
+                {citationsAnim.isVisible ? `${(impressionsCount / 100).toFixed(impressionsCount >= 100 ? 2 : 2)}M+` : '0M+'}
               </div>
-            ))}
+              <div className="font-mono text-[10px] text-white/40 uppercase tracking-widest">Monthly Impressions</div>
+              <div className="font-mono text-[10px] text-[#F27D24] uppercase tracking-widest mt-2">verified — last 28d</div>
+            </div>
+            <div className="p-8 border-r border-white/10 bg-[#131313]">
+              <div className="font-headline font-black text-4xl md:text-5xl text-[#e5e2e1] mb-2 tabular-nums">
+                {citationsAnim.isVisible ? `${platformCount} / 4` : '0 / 4'}
+              </div>
+              <div className="font-mono text-[10px] text-white/40 uppercase tracking-widest">AI Platforms Citing Us</div>
+              <div className="font-mono text-[10px] text-[#F27D24] uppercase tracking-widest mt-2">tracked live</div>
+            </div>
+            <div className="p-8 bg-[#131313]">
+              <div className="font-headline font-black text-4xl md:text-5xl text-[#e5e2e1] mb-2">$0</div>
+              <div className="font-mono text-[10px] text-white/40 uppercase tracking-widest">Ad Spend</div>
+              <div className="font-mono text-[10px] text-[#F27D24] uppercase tracking-widest mt-2">organic only</div>
+            </div>
+          </div>
+
+          {/* Client logo strip */}
+          <div className="border border-white/10 bg-[#0e0e0e] px-8 py-6 mb-16">
+            <div className="font-mono text-[9px] text-white/20 tracking-widest uppercase mb-5">Current Operators // Active Clients</div>
+            <div className="flex flex-wrap items-center gap-0 divide-x divide-white/10">
+              {[
+                { name: 'LAMH', sub: 'Real Estate · LA' },
+                { name: 'RPM SOUTHLAND', sub: 'Property Mgmt · Long Beach' },
+                { name: 'DAVIS AGENCY', sub: 'Real Estate · Austin' },
+                { name: 'TRUEDOOR', sub: 'Property Mgmt · Irvine' },
+                { name: 'LOVERY RE', sub: 'Real Estate · San Diego' },
+                { name: 'CLEARCLOSE', sub: 'Builder Financial' },
+              ].map((client) => (
+                <div key={client.name} className="px-6 py-2 first:pl-0">
+                  <div className="font-headline font-black text-sm tracking-tight text-white/40 uppercase leading-none">{client.name}</div>
+                  <div className="font-mono text-[8px] text-white/20 tracking-widest uppercase mt-1">{client.sub}</div>
+                </div>
+              ))}
+            </div>
           </div>
 
           {/* GSC Growth Chart */}
@@ -649,10 +697,18 @@ export default function Home() {
               &ldquo;He understands how AI actually decides who to recommend. That&apos;s a completely different skill set, and it&apos;s working.&rdquo;
             </blockquote>
             <div className="flex items-center gap-4">
-              <div className="w-10 h-10 bg-[#F27D24] flex items-center justify-center text-black text-sm font-black font-headline">JB</div>
+              <div className="w-12 h-12 rounded-full overflow-hidden border-2 border-[#F27D24] flex-shrink-0">
+                <Image
+                  src="/justin-borges-headshot.jpg"
+                  alt="Justin Borges — Founder, The Answer Engine"
+                  width={48}
+                  height={48}
+                  className="w-full h-full object-cover"
+                />
+              </div>
               <div>
                 <p className="text-sm font-bold text-[#e5e2e1] font-headline uppercase tracking-tight">Justin Borges</p>
-                <p className="font-mono text-[10px] text-white/40 uppercase tracking-widest mt-0.5">Borges Real Estate Team // Pasadena, CA</p>
+                <p className="font-mono text-[10px] text-white/40 uppercase tracking-widest mt-0.5">Founder, The Answer Engine // Pasadena, CA</p>
               </div>
             </div>
           </div>
