@@ -622,9 +622,9 @@ export default function Home() {
           {/* Compounding Authority Chart */}
           <div className="border border-white/10 bg-[#0e0e0e] p-8 mb-16">
             <div className="mb-6">
-              <span className="font-mono text-[10px] text-[#F27D24] tracking-widest uppercase block mb-1">The Mechanism // Why It Works</span>
-              <span className="font-headline font-black text-xl uppercase tracking-tighter text-[#e5e2e1]">Authority Compounds. Rankings Don&apos;t.</span>
-              <p className="font-mono text-[10px] text-white/30 tracking-wide mt-2 max-w-xl">Month 2 inherits Month 1. Month 12 sits on 192 articles of trust. Every month you delay, a competitor locks that window shut.</p>
+              <span className="font-mono text-[10px] text-[#F27D24] tracking-widest uppercase block mb-1">The Compounding Window // Your Category Is Being Claimed</span>
+              <span className="font-headline font-black text-xl uppercase tracking-tighter text-[#e5e2e1]">Someone In Your Market Is Building This Curve Right Now.</span>
+              <p className="font-mono text-[10px] text-white/40 tracking-wide mt-2 max-w-2xl leading-relaxed">AI doesn&apos;t re-rank. It picks a default answer — then re-cites it automatically, on every platform, every time someone asks. The business that starts first doesn&apos;t just pull ahead. They close the gap behind them.</p>
             </div>
             <svg viewBox="0 0 900 440" className="w-full" xmlns="http://www.w3.org/2000/svg">
               <defs>
