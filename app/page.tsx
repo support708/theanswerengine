@@ -583,22 +583,39 @@ export default function Home() {
           </div>
 
           {/* Client logo strip */}
-          <div className="border border-white/10 bg-[#0e0e0e] px-8 py-6 mb-16">
-            <div className="font-mono text-[9px] text-white/20 tracking-widest uppercase mb-5">Current Operators // Active Clients</div>
-            <div className="flex flex-wrap items-center gap-0 divide-x divide-white/10">
+          <div className="border border-white/10 bg-[#0e0e0e] px-8 py-8 mb-16">
+            <div className="font-mono text-[9px] text-white/20 tracking-widest uppercase mb-7">Current Operators // Active Clients</div>
+            <div className="grid grid-cols-3 sm:grid-cols-6 gap-6 items-center">
               {[
-                { name: 'LAMH', sub: 'Real Estate · LA' },
-                { name: 'RPM SOUTHLAND', sub: 'Property Mgmt · Long Beach' },
-                { name: 'DAVIS AGENCY', sub: 'Real Estate · Austin' },
-                { name: 'TRUEDOOR', sub: 'Property Mgmt · Irvine' },
-                { name: 'LOVERY RE', sub: 'Real Estate · San Diego' },
-                { name: 'CLEARCLOSE', sub: 'Builder Financial' },
+                { src: '/clients/lamh.png', alt: 'LA Metro Home Finder', sub: 'Real Estate · LA', w: 110, h: 36, whiteBg: false },
+                { src: '/clients/rpm-southland.png', alt: 'RPM Southland', sub: 'Property Mgmt · Long Beach', w: 110, h: 36, whiteBg: true },
+                { src: '/clients/davis-agency.png', alt: 'Davis Agency', sub: 'Real Estate · Austin', w: 110, h: 36, whiteBg: false },
+                { src: '/clients/truedoor.png', alt: 'TrueDoor Property Management', sub: 'Property Mgmt · Irvine', w: 110, h: 36, whiteBg: true },
+                { src: '/clients/lovery.png', alt: 'Lovery Real Estate', sub: 'Real Estate · San Diego', w: 110, h: 36, whiteBg: false },
               ].map((client) => (
-                <div key={client.name} className="px-6 py-2 first:pl-0">
-                  <div className="font-headline font-black text-sm tracking-tight text-white/40 uppercase leading-none">{client.name}</div>
-                  <div className="font-mono text-[8px] text-white/20 tracking-widest uppercase mt-1">{client.sub}</div>
+                <div key={client.alt} className="flex flex-col items-center gap-2">
+                  {/* White-bg logos: invert→black bg, mix-blend-screen→transparent. Transparent-bg logos: brightness-0 invert→white marks */}
+                  <div className={`h-9 flex items-center justify-center transition-opacity duration-300 ${client.whiteBg ? 'mix-blend-screen opacity-55 hover:opacity-90' : 'opacity-35 hover:opacity-70'}`}>
+                    <Image
+                      src={client.src}
+                      alt={client.alt}
+                      width={client.w}
+                      height={client.h}
+                      className={`max-h-9 w-auto object-contain ${client.whiteBg ? 'invert grayscale' : 'brightness-0 invert'}`}
+                    />
+                  </div>
+                  <div className="font-mono text-[7px] text-white/20 tracking-widest uppercase text-center">{client.sub}</div>
                 </div>
               ))}
+              {/* ClearClose — inline SVG mark */}
+              <div className="flex flex-col items-center gap-2">
+                <div className="h-9 flex items-center justify-center opacity-40 hover:opacity-80 transition-opacity duration-300">
+                  <svg viewBox="0 0 54 54" width="36" height="36" fill="white" xmlns="http://www.w3.org/2000/svg" aria-label="ClearClose logo">
+                    <path d="M 9 3 A 24 24 0 1 1 9 51 L 43 27 Z M 9 11 A 16 16 0 1 1 9 43 L 33 27 Z" fillRule="evenodd"/>
+                  </svg>
+                </div>
+                <div className="font-mono text-[7px] text-white/20 tracking-widest uppercase text-center">Builder Financial</div>
+              </div>
             </div>
           </div>
 
@@ -691,25 +708,68 @@ export default function Home() {
             <CitationProof isVisible={citationsAnim.isVisible} />
           </div>
 
-          {/* Testimonial */}
-          <div className="mt-12 border border-white/10 border-l-4 border-l-[#F27D24] bg-[#2a2a2a] p-10">
-            <blockquote className="text-2xl sm:text-3xl font-light text-white/80 leading-[1.35] mb-8 font-headline tracking-tight">
-              &ldquo;He understands how AI actually decides who to recommend. That&apos;s a completely different skill set, and it&apos;s working.&rdquo;
-            </blockquote>
-            <div className="flex items-center gap-4">
-              <div className="w-12 h-12 rounded-full overflow-hidden border-2 border-[#F27D24] flex-shrink-0">
-                <Image
-                  src="/justin-borges-headshot.jpg"
-                  alt="Justin Borges — Founder, The Answer Engine"
-                  width={48}
-                  height={48}
-                  className="w-full h-full object-cover"
-                />
+          {/* Founder quote + operator profiles */}
+          <div className="mt-12">
+            <div className="border border-white/10 border-l-4 border-l-[#F27D24] bg-[#0e0e0e] p-10 mb-0">
+              <blockquote className="text-2xl sm:text-3xl font-light text-white/80 leading-[1.35] mb-8 font-headline tracking-tight">
+                &ldquo;I built this around one insight: AI doesn&apos;t rank pages, it recommends authorities. That distinction changes everything about how you invest in content.&rdquo;
+              </blockquote>
+              <div className="flex items-center gap-4">
+                <div className="w-12 h-12 rounded-full overflow-hidden border-2 border-[#F27D24] flex-shrink-0">
+                  <Image
+                    src="/justin-borges-headshot.jpg"
+                    alt="Justin Borges — Founder, The Answer Engine"
+                    width={48}
+                    height={48}
+                    className="w-full h-full object-cover"
+                  />
+                </div>
+                <div>
+                  <p className="text-sm font-bold text-[#e5e2e1] font-headline uppercase tracking-tight">Justin Borges</p>
+                  <p className="font-mono text-[10px] text-white/40 uppercase tracking-widest mt-0.5">Founder, The Answer Engine // Pasadena, CA</p>
+                </div>
               </div>
-              <div>
-                <p className="text-sm font-bold text-[#e5e2e1] font-headline uppercase tracking-tight">Justin Borges</p>
-                <p className="font-mono text-[10px] text-white/40 uppercase tracking-widest mt-0.5">Founder, The Answer Engine // Pasadena, CA</p>
-              </div>
+            </div>
+
+            {/* Operator profile row */}
+            <div className="grid grid-cols-2 sm:grid-cols-4 border border-t-0 border-white/10">
+              {[
+                { name: 'Miles Williams', role: 'Broker / Owner', company: 'RPM Southland', territory: 'Long Beach, CA', img: '/clients/rpm-southland.png', isLogo: true, whiteBg: true },
+                { name: 'Bryant Hull', role: 'Co-Founder', company: 'TrueDoor PM', territory: 'Irvine, CA', img: '/clients/truedoor.png', isLogo: true, whiteBg: true },
+                { name: 'Ryan Fisher', role: 'Principal Agent', company: 'Lovery RE', territory: 'San Diego, CA', img: '/clients/ryan-fisher.png' },
+                { name: 'Derrik Davis', role: 'Principal Agent', company: 'Davis Agency', territory: 'Austin, TX', img: '/clients/davis-agency.png', isLogo: true, whiteBg: false },
+              ].map((person, i) => (
+                <div key={i} className={`p-6 flex flex-col items-center text-center ${i < 3 ? 'border-r border-white/10' : ''}`}>
+                  {person.isLogo ? (
+                    /* Logo: white-bg logos use invert+screen; transparent-bg logos use brightness-0+invert */
+                    <div className={`w-14 h-10 flex items-center justify-center mb-3 ${person.whiteBg ? 'mix-blend-screen opacity-55' : 'opacity-40'}`}>
+                      <Image
+                        src={person.img}
+                        alt={person.name}
+                        width={56}
+                        height={40}
+                        className={`w-full h-full object-contain ${person.whiteBg ? 'invert grayscale' : 'brightness-0 invert'}`}
+                        unoptimized={person.img.endsWith('.svg')}
+                      />
+                    </div>
+                  ) : (
+                    /* Headshot: circular frame, normal photo rendering */
+                    <div className="w-14 h-14 rounded-full overflow-hidden border border-white/15 mb-3 flex-shrink-0">
+                      <Image
+                        src={person.img}
+                        alt={person.name}
+                        width={56}
+                        height={56}
+                        className="w-full h-full object-cover object-center"
+                      />
+                    </div>
+                  )}
+                  <p className="font-headline font-black text-[11px] text-[#e5e2e1] uppercase tracking-tight leading-tight">{person.name}</p>
+                  <p className="font-mono text-[8px] text-white/30 uppercase tracking-widest mt-1">{person.role}</p>
+                  <p className="font-mono text-[8px] text-[#F27D24]/60 uppercase tracking-widest">{person.company}</p>
+                  <p className="font-mono text-[7px] text-white/20 uppercase tracking-widest mt-0.5">{person.territory}</p>
+                </div>
+              ))}
             </div>
           </div>
         </div>

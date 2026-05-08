@@ -1,0 +1,19 @@
+# Large data directories that must not be deployed to Vercel
+graphify-out/
+nanobanana-output/
+compliance-screenshots/
+logs/
+
+# Dev/scratch files
+my-app/
+Python/
+fix-unclosed-divs.py
+create-miles-sub.js
+AEO-ARTICLES-CHECKLIST.md
+AEO-ARTICLES-DELIVERY-SUMMARY.txt
+AEO-ARTICLES-METADATA.md
+AEO-ARTICLES-QUICK-REFERENCE.txt
+DOCUSIGN_ACTIVATION.md
+
+# Build artifacts
+tsconfig.tsbuildinfo
