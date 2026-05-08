@@ -619,6 +619,87 @@ export default function Home() {
             </div>
           </div>
 
+          {/* Compounding Authority Chart */}
+          <div className="border border-white/10 bg-[#0e0e0e] p-8 mb-16">
+            <div className="mb-6">
+              <span className="font-mono text-[10px] text-[#F27D24] tracking-widest uppercase block mb-1">The Mechanism // Why It Works</span>
+              <span className="font-headline font-black text-xl uppercase tracking-tighter text-[#e5e2e1]">Authority Compounds. Rankings Don&apos;t.</span>
+              <p className="font-mono text-[10px] text-white/30 tracking-wide mt-2 max-w-xl">Month 2 inherits Month 1. Month 12 sits on 192 articles of trust. Every month you delay, a competitor locks that window shut.</p>
+            </div>
+            <svg viewBox="0 0 900 440" className="w-full" xmlns="http://www.w3.org/2000/svg">
+              <defs>
+                <pattern id="compGrid" width="50" height="40" patternUnits="userSpaceOnUse">
+                  <path d="M 50 0 L 0 0 0 40" fill="none" stroke="rgba(255,255,255,0.04)" strokeWidth="1"/>
+                </pattern>
+                <linearGradient id="compGlow" x1="0%" y1="100%" x2="0%" y2="0%">
+                  <stop offset="0%" stopColor="rgba(242,125,36,0)"/>
+                  <stop offset="100%" stopColor="rgba(242,125,36,0.12)"/>
+                </linearGradient>
+              </defs>
+              {/* Grid */}
+              <rect x="70" y="30" width="800" height="340" fill="url(#compGrid)"/>
+              {/* Axes */}
+              <line x1="70" y1="370" x2="870" y2="370" stroke="rgba(255,255,255,0.15)" strokeWidth="1"/>
+              <line x1="70" y1="30" x2="70" y2="370" stroke="rgba(255,255,255,0.15)" strokeWidth="1"/>
+              {/* Y axis label */}
+              <text x="22" y="200" fill="rgba(255,255,255,0.25)" fontSize="9" fontWeight="700"
+                    fontFamily="'Courier New', monospace" letterSpacing="3" textAnchor="middle"
+                    transform="rotate(-90 22 200)">CITATION AUTHORITY</text>
+              {/* X axis labels */}
+              <g fontFamily="'Courier New', monospace" fontSize="10" fill="rgba(255,255,255,0.35)" fontWeight="700" letterSpacing="2">
+                <text x="70"  y="393" textAnchor="middle">M0</text>
+                <text x="270" y="393" textAnchor="middle">M3</text>
+                <text x="470" y="393" textAnchor="middle">M6</text>
+                <text x="670" y="393" textAnchor="middle">M9</text>
+                <text x="870" y="393" textAnchor="middle">M12</text>
+              </g>
+              <text x="470" y="420" fontFamily="'Courier New', monospace" fontSize="9"
+                    fill="rgba(255,255,255,0.2)" fontWeight="700" letterSpacing="3" textAnchor="middle">
+                MONTHS OF AERO-10 PROGRAM
+              </text>
+              {/* Tick marks */}
+              <g stroke="rgba(255,255,255,0.15)" strokeWidth="1">
+                <line x1="270" y1="370" x2="270" y2="376"/>
+                <line x1="470" y1="370" x2="470" y2="376"/>
+                <line x1="670" y1="370" x2="670" y2="376"/>
+                <line x1="870" y1="370" x2="870" y2="376"/>
+              </g>
+              {/* Area fill under curve */}
+              <path d="M 70 360 C 180 358, 240 350, 300 320 C 380 280, 460 210, 560 150 C 680 85, 780 55, 870 50 L 870 370 L 70 370 Z"
+                    fill="url(#compGlow)" opacity="0.7"/>
+              {/* Flat baseline — never starts */}
+              <path d="M 70 360 L 870 360"
+                    fill="none" stroke="rgba(255,255,255,0.15)" strokeWidth="2" strokeLinecap="square"/>
+              {/* Main compounding curve — starts today */}
+              <path d="M 70 360 C 180 358, 240 350, 300 320 C 380 280, 460 210, 560 150 C 680 85, 780 55, 870 50"
+                    fill="none" stroke="#F27D24" strokeWidth="3.5" strokeLinecap="round" strokeLinejoin="round"/>
+              {/* Milestone dots */}
+              <rect x="295" y="315" width="10" height="10" fill="#F27D24"/>
+              <rect x="555" y="145" width="10" height="10" fill="#F27D24"/>
+              <rect x="864" y="44"  width="12" height="12" fill="#F27D24"/>
+              {/* Milestone labels */}
+              <g fontFamily="'Courier New', monospace" fontWeight="700" fontSize="10" fill="#F27D24" letterSpacing="2">
+                <text x="315" y="308">M3 // FIRST CITATIONS</text>
+                <text x="405" y="138">M6 // CATEGORY AUTHORITY</text>
+                <text x="855" y="38" textAnchor="end">M12 // DEFAULT ANSWER</text>
+              </g>
+              {/* Flat line label */}
+              <text x="855" y="354" fontFamily="'Courier New', monospace" fontSize="10" fontWeight="700"
+                    fill="rgba(255,255,255,0.2)" letterSpacing="2" textAnchor="end">INVISIBLE · FOREVER</text>
+            </svg>
+            {/* Legend */}
+            <div className="flex gap-6 mt-4">
+              <div className="flex items-center gap-2">
+                <div className="w-6 h-0.5 bg-[#F27D24]"/>
+                <span className="font-mono text-[9px] text-white/30 tracking-widest uppercase">Starts Today</span>
+              </div>
+              <div className="flex items-center gap-2">
+                <div className="w-6 h-0.5 bg-white/20"/>
+                <span className="font-mono text-[9px] text-white/30 tracking-widest uppercase">Never Starts</span>
+              </div>
+            </div>
+          </div>
+
           {/* GSC Growth Chart */}
           <div className="border border-white/10 bg-[#131313] p-8 mb-16">
             <div className="flex items-center justify-between mb-6">
