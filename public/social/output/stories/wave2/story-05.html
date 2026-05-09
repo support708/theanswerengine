@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Wave 2 Story 5 — Poll: Is your competitor already doing this?</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;700;900&family=Inter:wght@400;600&display=swap');
+    *, *::before, *::after { box-sizing: border-box; }
+    body {
+      margin: 0; padding: 0; width: 1080px; height: 1920px;
+      background: #131313; color: #ffffff;
+      font-family: 'Space Grotesk', 'Inter', sans-serif;
+      display: flex; flex-direction: column; justify-content: center; align-items: center;
+      text-align: center; position: relative; overflow: hidden;
+    }
+    .bg-grid { position: absolute; inset: 0; background-image: linear-gradient(rgba(255,106,0,0.04) 1px, transparent 1px), linear-gradient(90deg, rgba(255,106,0,0.04) 1px, transparent 1px); background-size: 80px 80px; pointer-events: none; }
+    .top-bar { position: absolute; top: 60px; left: 0; right: 0; display: flex; align-items: center; justify-content: center; gap: 12px; }
+    .top-bar .logo-mark { width: 40px; height: 40px; background: #FF6A00; border-radius: 4px; display: flex; align-items: center; justify-content: center; font-family: 'Space Grotesk', sans-serif; font-weight: 900; font-size: 18px; color: #131313; }
+    .top-bar .brand { font-family: 'Space Grotesk', sans-serif; font-weight: 900; font-size: 22px; color: #ffffff; letter-spacing: 0.05em; text-transform: uppercase; }
+    .top-bar .brand span { color: #FF6A00; }
+    .wave-label { position: absolute; top: 130px; left: 0; right: 0; text-align: center; font-family: 'Courier New', monospace; font-size: 14px; color: #FF6A00; letter-spacing: 0.2em; text-transform: uppercase; }
+    .divider { width: 600px; height: 2px; background: linear-gradient(90deg, transparent, #FF6A00, transparent); margin: 0 auto 50px; }
+    .poll-question { font-family: 'Space Grotesk', sans-serif; font-size: 52px; font-weight: 900; color: #FF6A00; line-height: 1.15; max-width: 820px; margin-bottom: 20px; text-transform: uppercase; letter-spacing: -0.01em; }
+    .divider-bottom { width: 600px; height: 2px; background: linear-gradient(90deg, transparent, #FF6A00, transparent); margin: 0 auto 70px; }
+    .poll-buttons { display: flex; gap: 40px; margin-bottom: 60px; }
+    .poll-btn { width: 280px; padding: 28px 20px; border: 3px solid #FF6A00; background: transparent; color: #ffffff; font-family: 'Space Grotesk', sans-serif; font-size: 22px; font-weight: 700; border-radius: 12px; letter-spacing: 0.04em; }
+    .footer { position: absolute; bottom: 60px; left: 0; right: 0; text-align: center; font-family: 'Courier New', monospace; font-size: 18px; color: #999999; letter-spacing: 0.05em; }
+    .footer .link { color: #FF6A00; }
+  </style>
+</head>
+<body>
+  <div class="bg-grid"></div>
+  <div class="top-bar">
+    <div class="logo-mark">A</div>
+    <div class="brand">THE <span>[ANSWER]</span> ENGINE</div>
+  </div>
+  <div class="wave-label">Wave 2 · The Proof · Day 20</div>
+
+  <div class="divider"></div>
+  <div class="poll-question">Is your competitor<br>already doing this?</div>
+  <div class="divider-bottom"></div>
+
+  <div class="poll-buttons">
+    <div class="poll-btn">PROBABLY</div>
+    <div class="poll-btn">CHECKING</div>
+  </div>
+
+  <div class="footer">
+    swipe up for your free AERO-10 score &rarr; <span class="link">theanswerengine.ai</span>
+  </div>
+</body>
+</html>

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Wave 2 Story 6 — Stat: 13 Davis Agency live articles</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;700;900&family=Inter:wght@400;600&display=swap');
+    *, *::before, *::after { box-sizing: border-box; }
+    body {
+      margin: 0; padding: 0; width: 1080px; height: 1920px;
+      background: #131313; color: #ffffff;
+      font-family: 'Space Grotesk', 'Inter', sans-serif;
+      display: flex; flex-direction: column; justify-content: center; align-items: center;
+      text-align: center; position: relative; overflow: hidden;
+    }
+    .bg-gradient { position: absolute; inset: 0; background: linear-gradient(135deg, rgba(255,106,0,0.08) 0%, transparent 60%); pointer-events: none; }
+    .bg-grid { position: absolute; inset: 0; background-image: linear-gradient(rgba(255,106,0,0.03) 1px, transparent 1px), linear-gradient(90deg, rgba(255,106,0,0.03) 1px, transparent 1px); background-size: 80px 80px; pointer-events: none; }
+    .top-bar { position: absolute; top: 60px; left: 0; right: 0; display: flex; align-items: center; justify-content: center; gap: 12px; }
+    .top-bar .logo-mark { width: 40px; height: 40px; background: #FF6A00; border-radius: 4px; display: flex; align-items: center; justify-content: center; font-family: 'Space Grotesk', sans-serif; font-weight: 900; font-size: 18px; color: #131313; }
+    .top-bar .brand { font-family: 'Space Grotesk', sans-serif; font-weight: 900; font-size: 22px; color: #ffffff; letter-spacing: 0.05em; text-transform: uppercase; }
+    .top-bar .brand span { color: #FF6A00; }
+    .wave-label { position: absolute; top: 130px; left: 0; right: 0; text-align: center; font-family: 'Courier New', monospace; font-size: 14px; color: #FF6A00; letter-spacing: 0.2em; text-transform: uppercase; }
+    .stat-frame { border: 2px solid rgba(255,106,0,0.4); border-radius: 16px; padding: 80px 100px; max-width: 860px; background: rgba(255,106,0,0.04); }
+    .stat-number { font-family: 'Space Grotesk', sans-serif; font-size: 220px; font-weight: 900; color: #FF6A00; line-height: 1; margin-bottom: 10px; }
+    .stat-label { font-family: 'Courier New', monospace; font-size: 20px; color: #ffffff; letter-spacing: 0.2em; text-transform: uppercase; margin-bottom: 40px; }
+    .stat-divider { width: 100px; height: 3px; background: #FF6A00; margin: 0 auto 40px; }
+    .stat-context { font-family: 'Inter', sans-serif; font-size: 22px; color: #cccccc; line-height: 1.6; max-width: 620px; margin: 0 auto 20px; }
+    .stat-cta { font-family: 'Space Grotesk', sans-serif; font-size: 22px; font-weight: 700; color: #FF6A00; margin-top: 20px; }
+    .footer { position: absolute; bottom: 60px; left: 0; right: 0; text-align: center; font-family: 'Courier New', monospace; font-size: 18px; color: #999999; letter-spacing: 0.05em; }
+    .footer .link { color: #FF6A00; }
+  </style>
+</head>
+<body>
+  <div class="bg-gradient"></div>
+  <div class="bg-grid"></div>
+  <div class="top-bar">
+    <div class="logo-mark">A</div>
+    <div class="brand">THE <span>[ANSWER]</span> ENGINE</div>
+  </div>
+  <div class="wave-label">Wave 2 · The Proof · Day 21</div>
+
+  <div class="stat-frame">
+    <div class="stat-number">13</div>
+    <div class="stat-label">Davis Agency Live Articles</div>
+    <div class="stat-divider"></div>
+    <div class="stat-context">
+      The Davis Agency in Austin has 13 live AEO articles.<br>
+      Each one answers a question AI retrieves — and refers back to Derrik.
+    </div>
+    <div class="stat-cta">13 territory anchors. And counting.</div>
+  </div>
+
+  <div class="footer">
+    See your score &rarr; <span class="link">theanswerengine.ai</span>
+  </div>
+</body>
+</html>
