@@ -10,9 +10,7 @@
 import { promises as fs } from 'fs';
 import path from 'path';
 import type { ClientProfile, ClientRedditConfig } from './reddit-types';
-import { getFileContentSafe, listDirectoryFiles } from './github-publish';
 
-const IS_VERCEL = !!process.env.VERCEL;
 const PROFILES_DIR = path.join(process.cwd(), 'data', 'client-profiles');
 
 // ===== Industry -> Subreddits Map =====
@@ -76,79 +74,37 @@ export const CITY_SUBREDDITS: Record<string, string[]> = {
 
 /**
  * Load all active client profiles from data/client-profiles/.
+ * Files are bundled in the deployment on both local and Vercel — read directly from filesystem.
  */
 export async function loadAllClientProfiles(): Promise<ClientProfile[]> {
   const profiles: ClientProfile[] = [];
 
-  if (IS_VERCEL) {
-    // On Vercel: profiles are committed to git, read via GitHub API
-    const slugs = await getClientSlugsFromGitHub();
-    for (const slug of slugs) {
-      const content = await getFileContentSafe(`data/client-profiles/${slug}.json`);
-      if (content) {
-        try {
-          const profile = JSON.parse(content) as ClientProfile;
-          if (profile._meta?.account_status === 'active') {
-            profiles.push(profile);
-          }
-        } catch {
-          console.error(`Failed to parse profile for ${slug}`);
+  try {
+    const files = await fs.readdir(PROFILES_DIR);
+    for (const file of files) {
+      if (!file.endsWith('.json')) continue;
+      try {
+        const content = await fs.readFile(path.join(PROFILES_DIR, file), 'utf-8');
+        const profile = JSON.parse(content) as ClientProfile;
+        if (profile._meta?.account_status === 'active') {
+          profiles.push(profile);
         }
+      } catch {
+        console.error(`Failed to parse profile: ${file}`);
       }
     }
-  } else {
-    // Local: read from filesystem
-    try {
-      const files = await fs.readdir(PROFILES_DIR);
-      for (const file of files) {
-        if (!file.endsWith('.json')) continue;
-        try {
-          const content = await fs.readFile(path.join(PROFILES_DIR, file), 'utf-8');
-          const profile = JSON.parse(content) as ClientProfile;
-          if (profile._meta?.account_status === 'active') {
-            profiles.push(profile);
-          }
-        } catch {
-          console.error(`Failed to parse profile: ${file}`);
-        }
-      }
-    } catch {
-      console.error(`Client profiles directory not found: ${PROFILES_DIR}`);
-    }
+  } catch {
+    console.error(`Client profiles directory not found: ${PROFILES_DIR}`);
   }
 
   return profiles;
 }
 
 /**
- * Get client slugs from the GitHub repo (for Vercel runtime).
- * Lists the data/client-profiles/ directory via GitHub API.
- * Falls back to a hardcoded list only if the API call fails.
- */
-async function getClientSlugsFromGitHub(): Promise<string[]> {
-  try {
-    const files = await listDirectoryFiles('data/client-profiles');
-    const slugs = files
-      .filter(f => f.endsWith('.json'))
-      .map(f => f.replace('.json', ''));
-    if (slugs.length > 0) return slugs;
-  } catch {
-    console.error('Failed to list client profiles from GitHub, using fallback');
-  }
-  // Fallback — keep in sync with data/client-profiles/ if API fails
-  return ['borges-team', 'davis-agency', 'lovery-re', 'rpm-southland'];
-}
-
-/**
  * Load a single client profile by slug.
+ * Files are bundled in the deployment — read directly from filesystem.
  */
 export async function loadClientProfile(slug: string): Promise<ClientProfile | null> {
-  if (IS_VERCEL) {
-    const content = await getFileContentSafe(`data/client-profiles/${slug}.json`);
-    if (!content) return null;
-    return JSON.parse(content) as ClientProfile;
-  }
-
   try {
     const content = await fs.readFile(path.join(PROFILES_DIR, `${slug}.json`), 'utf-8');
     return JSON.parse(content) as ClientProfile;
