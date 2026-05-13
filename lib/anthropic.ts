@@ -57,12 +57,13 @@ function getAuthHeaders(): AuthHeaders {
   } catch { /* .env.local not found */ }
 
   try {
-    // eslint-disable-next-line @typescript-eslint/no-require-imports
-    const { homedir } = require('os') as typeof import('os');
-    const credPath = join(homedir(), '.claude', '.credentials.json');
-    const creds = JSON.parse(readFileSync(credPath, 'utf-8'));
-    const token = creds?.claudeAiOauth?.accessToken;
-    if (token) return { Authorization: `Bearer ${token}` };
+    const home = process.env.HOME || process.env.USERPROFILE || '';
+    if (home) {
+      const credPath = join(home, '.claude', '.credentials.json');
+      const creds = JSON.parse(readFileSync(credPath, 'utf-8'));
+      const token = creds?.claudeAiOauth?.accessToken;
+      if (token) return { Authorization: `Bearer ${token}` };
+    }
   } catch { /* credentials file not found */ }
 
   throw new Error('No Anthropic credentials found. Set ANTHROPIC_API_KEY or log in with Claude Code.');
