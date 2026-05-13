@@ -1,6 +1,5 @@
 import { readFileSync } from 'fs';
 import { join } from 'path';
-import { homedir } from 'os';
 
 const ANTHROPIC_API_URL = 'https://api.anthropic.com/v1/messages';
 
@@ -58,6 +57,8 @@ function getAuthHeaders(): AuthHeaders {
   } catch { /* .env.local not found */ }
 
   try {
+    // eslint-disable-next-line @typescript-eslint/no-require-imports
+    const { homedir } = require('os') as typeof import('os');
     const credPath = join(homedir(), '.claude', '.credentials.json');
     const creds = JSON.parse(readFileSync(credPath, 'utf-8'));
     const token = creds?.claudeAiOauth?.accessToken;
