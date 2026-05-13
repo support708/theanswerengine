@@ -718,5 +718,16 @@
     "status": "queued",
     "createdAt": "2026-05-13T01:50:56.049Z",
     "error": "Anthropic API error (429): {\"type\":\"error\",\"error\":{\"type\":\"rate_limit_error\",\"message\":\"Error\"},\"request_id\":\"req_011CayniUiz224aA6gDd5iX5\"}"
+  },
+  {
+    "id": "manual-1778656263634",
+    "title": "How to Get Cited by AI Search: The Complete Local Business Guide",
+    "slug": "how-to-get-cited-by-ai-search",
+    "targetKeyword": "how to get cited by AI search",
+    "category": "How-To Guides",
+    "pillar": "How-To",
+    "priority": 1,
+    "status": "queued",
+    "createdAt": "2026-05-13T00:00:00.000Z"
   }
 ]
