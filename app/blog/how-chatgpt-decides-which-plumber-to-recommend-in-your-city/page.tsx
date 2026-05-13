@@ -420,17 +420,17 @@ export default function ChatGPTPlumberPage() {
             <div className="space-y-6">
               {[
                 {
-                  title: 'Source 1 — The Live Web Retrieval Pass',
+                  title: 'Source 1  -  The Live Web Retrieval Pass',
                   body: "ChatGPT's web tool pulls fresh pages indexed inside the last 24 to 72 hours through a Bing-backed retrieval surface. For a local plumbing query, the live web pass returns recent service pages, recently published articles, fresh directory entries, and new domain content the operator published inside the window. This is the only source that responds to publication cadence in real time, which is why a 16-articles-per-month publication rhythm earns disproportionate citation share.",
-                  cite: 'SparkToro (2024): 65% of Google searches now resolve without a click — the live retrieval pass is supplying the citation that used to be the click.',
+                  cite: 'SparkToro (2024): 65% of Google searches now resolve without a click  -  the live retrieval pass is supplying the citation that used to be the click.',
                 },
                 {
-                  title: 'Source 2 — Training Corpus Residue and Knowledge Graph Entities',
+                  title: 'Source 2  -  Training Corpus Residue and Knowledge Graph Entities',
                   body: "Training corpus residue supplies whatever pages were inside ChatGPT's pretraining cutoff. The knowledge graph supplies entity-level facts: that a named plumbing business exists, sits in a named city, holds a license number, carries a category code. Both sources are background context for the synthesis. Neither source produces a citation slot on its own.",
                   cite: null,
                 },
                 {
-                  title: 'Source 3 — Operator-Published Authority Content (The Decisive Lever)',
+                  title: 'Source 3  -  Operator-Published Authority Content (The Decisive Lever)',
                   body: "The operator's own domain is the only source the operator fully controls and the only source that scales with publication cadence. The operator-published authority content has to read as journalism, not marketing: definition-first, citation-anchored, bounded, dated. The Answer Engine measures this as the single highest-weighted source inside the retrieval pass for high-intent local queries.",
                   cite: 'Chen et al. (2025): 3-5x preference inside major LLMs for third-party-toned attribution over first-party brand claims.',
                 },
@@ -510,7 +510,7 @@ export default function ChatGPTPlumberPage() {
               <ul className="space-y-2 text-sm text-white/75">
                 <li>Definition-first openings earn a 57% citation premium</li>
                 <li>Inline attribution (named sources) lifts chunk influence by 22-37%</li>
-                <li>Chunk length must stay 80-180 tokens — over 300 words triggers 31% attention degradation</li>
+                <li>Chunk length must stay 80-180 tokens  -  over 300 words triggers 31% attention degradation</li>
                 <li>Journalistic tone earns a 3-5x retrieval preference over promotional copy</li>
                 <li>16 articles per month is the cadence for city-level category authority</li>
               </ul>
