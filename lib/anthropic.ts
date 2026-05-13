@@ -1,24 +1,35 @@
 import { readFileSync } from 'fs';
 import { join } from 'path';
+import { homedir } from 'os';
 
 const ANTHROPIC_API_URL = 'https://api.anthropic.com/v1/messages';
 
-/**
- * Get the API key, falling back to reading .env.local directly
- * when a system env var overrides it with an empty string.
- */
-function getApiKey(): string | undefined {
-  const key = process.env.ANTHROPIC_API_KEY;
-  if (key) return key;
+type AuthHeaders = { 'x-api-key': string } | { Authorization: string };
 
-  // Fallback: system env may override .env.local with empty string
+/**
+ * Resolve auth headers using the first available credential source:
+ * 1. ANTHROPIC_API_KEY env var
+ * 2. ANTHROPIC_API_KEY in .env.local
+ * 3. Claude Code local OAuth token (~/.claude/.credentials.json)
+ */
+function getAuthHeaders(): AuthHeaders {
+  const envKey = process.env.ANTHROPIC_API_KEY;
+  if (envKey) return { 'x-api-key': envKey };
+
   try {
     const envFile = readFileSync(join(process.cwd(), '.env.local'), 'utf-8');
     const match = envFile.match(/^ANTHROPIC_API_KEY=(.+)$/m);
-    if (match?.[1]) return match[1].trim();
+    if (match?.[1]) return { 'x-api-key': match[1].trim() };
   } catch { /* .env.local not found */ }
 
-  return undefined;
+  try {
+    const credPath = join(homedir(), '.claude', '.credentials.json');
+    const creds = JSON.parse(readFileSync(credPath, 'utf-8'));
+    const token = creds?.claudeAiOauth?.accessToken;
+    if (token) return { Authorization: `Bearer ${token}` };
+  } catch { /* credentials file not found */ }
+
+  throw new Error('No Anthropic credentials found. Set ANTHROPIC_API_KEY or log in with Claude Code.');
 }
 
 // Simple in-memory rate limiter for report generation
@@ -65,8 +76,7 @@ export async function callClaude(options: {
   maxTokens?: number;
   tools?: unknown[];
 }): Promise<AnthropicResponse> {
-  const apiKey = getApiKey();
-  if (!apiKey) throw new Error('ANTHROPIC_API_KEY not configured');
+  const authHeaders = getAuthHeaders();
 
   const body: Record<string, unknown> = {
     model: options.model,
@@ -87,7 +97,7 @@ export async function callClaude(options: {
       method: 'POST',
       headers: {
         'content-type': 'application/json',
-        'x-api-key': apiKey,
+        ...authHeaders,
         'anthropic-version': '2023-06-01',
       },
       body: JSON.stringify(body),
