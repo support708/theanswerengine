@@ -3,28 +3,33 @@ import { join } from 'path';
 
 const ANTHROPIC_API_URL = 'https://api.anthropic.com/v1/messages';
 
-type AuthHeaders = { 'x-api-key': string } | { Authorization: string };
+/**
+ * Get credentials. Priority:
+ * 1. ANTHROPIC_API_KEY env var
+ * 2. ANTHROPIC_API_KEY in .env.local
+ * 3. Local Claude Code OAuth token (~/.claude/.credentials.json)
+ * Returns undefined if nothing found.
+ */
+function getApiKey(): string | undefined {
+  const key = process.env.ANTHROPIC_API_KEY;
+  if (key) return key;
 
-// System prompt can be a string or an array with cache_control
-type SystemPrompt = string | { type: 'text'; text: string; cache_control?: { type: 'ephemeral' } }[];
+  try {
+    const envFile = readFileSync(join(process.cwd(), '.env.local'), 'utf-8');
+    const match = envFile.match(/^ANTHROPIC_API_KEY=(.+)$/m);
+    if (match?.[1]) return match[1].trim();
+  } catch { /* .env.local not found */ }
 
-interface AnthropicMessage {
-  role: 'user' | 'assistant';
-  content: string;
-}
+  try {
+    const home = process.env.HOME || process.env.USERPROFILE || '';
+    if (home) {
+      const creds = JSON.parse(readFileSync(join(home, '.claude', '.credentials.json'), 'utf-8'));
+      const token = creds?.claudeAiOauth?.accessToken;
+      if (token) return token;
+    }
+  } catch { /* credentials file not found */ }
 
-interface AnthropicContentBlock {
-  type: string;
-  text?: string;
-  [key: string]: unknown;
-}
-
-interface AnthropicResponse {
-  id: string;
-  content: AnthropicContentBlock[];
-  model: string;
-  stop_reason: string;
-  usage: { input_tokens: number; output_tokens: number; cache_creation_input_tokens?: number; cache_read_input_tokens?: number };
+  return undefined;
 }
 
 // Simple in-memory rate limiter for report generation
@@ -40,33 +45,28 @@ const rateLimiter = {
   },
 };
 
-/**
- * Resolve auth headers. Priority:
- * 1. ANTHROPIC_API_KEY env var
- * 2. ANTHROPIC_API_KEY in .env.local
- * 3. Local Claude Code OAuth token (~/.claude/.credentials.json)
- */
-function getAuthHeaders(): AuthHeaders {
-  const envKey = process.env.ANTHROPIC_API_KEY;
-  if (envKey) return { 'x-api-key': envKey };
+interface AnthropicMessage {
+  role: 'user' | 'assistant';
+  content: string;
+}
 
-  try {
-    const envFile = readFileSync(join(process.cwd(), '.env.local'), 'utf-8');
-    const match = envFile.match(/^ANTHROPIC_API_KEY=(.+)$/m);
-    if (match?.[1]) return { 'x-api-key': match[1].trim() };
-  } catch { /* .env.local not found */ }
+// System prompt can be a string or an array with cache_control
+type SystemPrompt = string | { type: 'text'; text: string; cache_control?: { type: 'ephemeral' } }[];
 
-  try {
-    const home = process.env.HOME || process.env.USERPROFILE || '';
-    if (home) {
-      const credPath = join(home, '.claude', '.credentials.json');
-      const creds = JSON.parse(readFileSync(credPath, 'utf-8'));
-      const token = creds?.claudeAiOauth?.accessToken;
-      if (token) return { Authorization: `Bearer ${token}` };
-    }
-  } catch { /* credentials file not found */ }
+interface AnthropicContentBlock {
+  type: string;
+  text?: string;
+  // web_search results come back as server_tool_use / web_search_tool_result blocks
+  // but the final text response is what we care about
+  [key: string]: unknown;
+}
 
-  throw new Error('No Anthropic credentials found. Set ANTHROPIC_API_KEY or log in with Claude Code.');
+interface AnthropicResponse {
+  id: string;
+  content: AnthropicContentBlock[];
+  model: string;
+  stop_reason: string;
+  usage: { input_tokens: number; output_tokens: number; cache_creation_input_tokens?: number; cache_read_input_tokens?: number };
 }
 
 export async function callClaude(options: {
@@ -76,7 +76,14 @@ export async function callClaude(options: {
   maxTokens?: number;
   tools?: unknown[];
 }): Promise<AnthropicResponse> {
-  const authHeaders = getAuthHeaders();
+  const apiKey = getApiKey();
+  if (!apiKey) throw new Error('ANTHROPIC_API_KEY not configured');
+
+  // OAuth tokens (sk-ant-oat01-...) use Bearer auth; API keys use x-api-key
+  const isOAuth = apiKey.startsWith('sk-ant-oat01-');
+  const authHeader: Record<string, string> = isOAuth
+    ? { Authorization: `Bearer ${apiKey}` }
+    : { 'x-api-key': apiKey };
 
   const body: Record<string, unknown> = {
     model: options.model,
@@ -97,7 +104,7 @@ export async function callClaude(options: {
       method: 'POST',
       headers: {
         'content-type': 'application/json',
-        ...authHeaders,
+        ...authHeader,
         'anthropic-version': '2023-06-01',
       },
       body: JSON.stringify(body),
@@ -107,10 +114,11 @@ export async function callClaude(options: {
       return res.json() as Promise<AnthropicResponse>;
     }
 
+    // Retry on 429 (rate limit) and 529 (overloaded)
     if ((res.status === 429 || res.status === 529) && attempt < MAX_RETRIES) {
       const retryAfter = parseInt(res.headers.get('retry-after') || '60', 10);
-      const waitMs = Math.min(retryAfter * 1000, 120_000);
-      console.log(`Rate limited (${res.status}), retrying in ${waitMs / 1000}s (attempt ${attempt + 1}/${MAX_RETRIES})`);
+      const waitMs = Math.min(retryAfter * 1000, 120_000); // cap at 2 min
+      console.log(`Anthropic rate limited (${res.status}), retrying in ${waitMs / 1000}s (attempt ${attempt + 1}/${MAX_RETRIES})`);
       await new Promise(r => setTimeout(r, waitMs));
       continue;
     }
