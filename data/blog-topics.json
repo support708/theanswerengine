@@ -727,6 +727,18 @@
     "category": "How-To Guides",
     "pillar": "How-To",
     "priority": 1,
+    "status": "published",
+    "createdAt": "2026-05-13T00:00:00.000Z",
+    "publishedAt": "2026-05-13T00:00:00.000Z"
+  },
+  {
+    "id": "manual-law-firm-aeo",
+    "title": "How to Get Your Law Firm Recommended by ChatGPT and AI Search",
+    "slug": "ai-search-for-law-firms",
+    "targetKeyword": "how to get law firm on ChatGPT",
+    "category": "Industry Verticals",
+    "pillar": "Verticals",
+    "priority": 1,
     "status": "queued",
     "createdAt": "2026-05-13T00:00:00.000Z"
   }
