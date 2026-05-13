@@ -6,11 +6,46 @@ const ANTHROPIC_API_URL = 'https://api.anthropic.com/v1/messages';
 
 type AuthHeaders = { 'x-api-key': string } | { Authorization: string };
 
+// System prompt can be a string or an array with cache_control
+type SystemPrompt = string | { type: 'text'; text: string; cache_control?: { type: 'ephemeral' } }[];
+
+interface AnthropicMessage {
+  role: 'user' | 'assistant';
+  content: string;
+}
+
+interface AnthropicContentBlock {
+  type: string;
+  text?: string;
+  [key: string]: unknown;
+}
+
+interface AnthropicResponse {
+  id: string;
+  content: AnthropicContentBlock[];
+  model: string;
+  stop_reason: string;
+  usage: { input_tokens: number; output_tokens: number; cache_creation_input_tokens?: number; cache_read_input_tokens?: number };
+}
+
+// Simple in-memory rate limiter for report generation
+const rateLimiter = {
+  requests: [] as number[],
+  maxPerHour: 10,
+  check(): boolean {
+    const oneHourAgo = Date.now() - 60 * 60 * 1000;
+    this.requests = this.requests.filter(t => t > oneHourAgo);
+    if (this.requests.length >= this.maxPerHour) return false;
+    this.requests.push(Date.now());
+    return true;
+  },
+};
+
 /**
- * Resolve auth headers using the first available credential source:
+ * Resolve auth headers. Priority:
  * 1. ANTHROPIC_API_KEY env var
  * 2. ANTHROPIC_API_KEY in .env.local
- * 3. Claude Code local OAuth token (~/.claude/.credentials.json)
+ * 3. Local Claude Code OAuth token (~/.claude/.credentials.json)
  */
 function getAuthHeaders(): AuthHeaders {
   const envKey = process.env.ANTHROPIC_API_KEY;
@@ -30,43 +65,6 @@ function getAuthHeaders(): AuthHeaders {
   } catch { /* credentials file not found */ }
 
   throw new Error('No Anthropic credentials found. Set ANTHROPIC_API_KEY or log in with Claude Code.');
-}
-
-// Simple in-memory rate limiter for report generation
-const rateLimiter = {
-  requests: [] as number[],
-  maxPerHour: 10,
-  check(): boolean {
-    const oneHourAgo = Date.now() - 60 * 60 * 1000;
-    this.requests = this.requests.filter(t => t > oneHourAgo);
-    if (this.requests.length >= this.maxPerHour) return false;
-    this.requests.push(Date.now());
-    return true;
-  },
-};
-
-interface AnthropicMessage {
-  role: 'user' | 'assistant';
-  content: string;
-}
-
-// System prompt can be a string or an array with cache_control
-type SystemPrompt = string | { type: 'text'; text: string; cache_control?: { type: 'ephemeral' } }[];
-
-interface AnthropicContentBlock {
-  type: string;
-  text?: string;
-  // web_search results come back as server_tool_use / web_search_tool_result blocks
-  // but the final text response is what we care about
-  [key: string]: unknown;
-}
-
-interface AnthropicResponse {
-  id: string;
-  content: AnthropicContentBlock[];
-  model: string;
-  stop_reason: string;
-  usage: { input_tokens: number; output_tokens: number; cache_creation_input_tokens?: number; cache_read_input_tokens?: number };
 }
 
 export async function callClaude(options: {
@@ -107,11 +105,10 @@ export async function callClaude(options: {
       return res.json() as Promise<AnthropicResponse>;
     }
 
-    // Retry on 429 (rate limit) and 529 (overloaded)
     if ((res.status === 429 || res.status === 529) && attempt < MAX_RETRIES) {
       const retryAfter = parseInt(res.headers.get('retry-after') || '60', 10);
-      const waitMs = Math.min(retryAfter * 1000, 120_000); // cap at 2 min
-      console.log(`Anthropic rate limited (${res.status}), retrying in ${waitMs / 1000}s (attempt ${attempt + 1}/${MAX_RETRIES})`);
+      const waitMs = Math.min(retryAfter * 1000, 120_000);
+      console.log(`Rate limited (${res.status}), retrying in ${waitMs / 1000}s (attempt ${attempt + 1}/${MAX_RETRIES})`);
       await new Promise(r => setTimeout(r, waitMs));
       continue;
     }

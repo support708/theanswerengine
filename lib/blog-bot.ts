@@ -23,18 +23,18 @@ const RESEARCH_SYSTEM = [
 Your job: research a given topic and produce a structured brief for article generation.
 
 RULES:
-- Use web_search to find current data, stats, and competitor content
-- Every stat MUST have a source URL
+- Draw on your training knowledge to find relevant data, stats, and search patterns for this topic
+- Prioritize stats you are confident are accurate; note approximate year if uncertain
 - Focus on what makes content get cited by AI platforms (ChatGPT, Claude, Perplexity, Google AI Overviews)
 - Target audience: local service business owners (plumbers, lawyers, dentists, roofers, etc.)
 - Tone: authoritative but accessible, no jargon without explanation
 - Find 5-8 FAQ questions real people ask about this topic
 
 KEYWORD STRATEGY (CRITICAL):
-- Use web_search to find what people ACTUALLY search for on Google related to this topic
+- Identify what people ACTUALLY search for on Google related to this topic based on your training data
 - Prioritize SEO keywords over AEO jargon. Most business owners search "how to get on ChatGPT" not "answer engine optimization"
 - The refined title MUST target a real search query people type into Google
-- Look at Google autocomplete, "People Also Ask", and competitor article titles for inspiration
+- Think like Google autocomplete and "People Also Ask" — use those patterns
 - Do NOT use the same title or near-identical title as any existing article (a list of existing titles will be provided)
 - The slug must be unique and not duplicate any existing slug
 
@@ -178,7 +178,7 @@ export async function researchTopic(topic: BlogTopic, existingTitles: string[] =
     ? `\n\nEXISTING ARTICLES (do NOT duplicate these titles or slugs):\nTitles: ${existingTitles.map(t => `"${t}"`).join(', ')}\nSlugs: ${existingSlugs.join(', ')}`
     : '';
 
-  const response = await callClaudeWithWebSearch({
+  const response = await callClaude({
     model: HAIKU,
     system: RESEARCH_SYSTEM,
     messages: [{
@@ -188,7 +188,7 @@ Target keyword: "${topic.targetKeyword}"
 Category: ${topic.category}
 Pillar: ${topic.pillar}
 
-Find current stats, competitor gaps, and FAQs. Use web_search to find what real people search for on Google about this topic. Target SEO-friendly titles that match actual search queries.${duplicateWarning}
+Produce a thorough research brief using your training knowledge. Identify real search queries people use, relevant stats, competitor content gaps, and FAQs.${duplicateWarning}
 
 Return structured JSON.`,
     }],
@@ -380,12 +380,12 @@ export async function runPipeline(topic: BlogTopic, existingTitles: string[] = [
   // Call 1: Research (pass existing titles/slugs to prevent duplicates)
   const { research, tokens: researchTokens } = await researchTopic(topic, existingTitles, existingSlugs);
 
-  await delay(15000); // Rate limit buffer
+  await delay(90000); // Rate limit buffer — 90s for OAuth token quota window
 
   // Call 2: Generate
   const { code, tokens: generationTokens } = await generateArticle(research);
 
-  await delay(15000); // Rate limit buffer
+  await delay(90000); // Rate limit buffer — 90s for OAuth token quota window
 
   // Call 3: Audit
   const { audit, tokens: auditTokens } = await auditArticle(code);

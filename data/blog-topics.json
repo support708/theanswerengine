@@ -703,9 +703,9 @@
     "category": "Platform Deep Dives",
     "pillar": "Platform Deep Dives",
     "priority": 1,
-    "status": "failed",
+    "status": "published",
     "createdAt": "2026-05-13T01:50:56.049Z",
-    "error": "Anthropic API error (401): {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CayjKvT4WdMmidbbEiajq\"}"
+    "error": "Anthropic API error (429): {\"type\":\"error\",\"error\":{\"type\":\"rate_limit_error\",\"message\":\"Error\"},\"request_id\":\"req_011Cayr6WWqwueo8G4aJtmgj\"}"
   },
   {
     "id": "new-1778637056051-2",
@@ -715,8 +715,8 @@
     "category": "How-To Guides",
     "pillar": "How-To",
     "priority": 1,
-    "status": "failed",
+    "status": "queued",
     "createdAt": "2026-05-13T01:50:56.049Z",
-    "error": "Anthropic API error (401): {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CayjLjQKGrDEdxPmfNrtv\"}"
+    "error": "Anthropic API error (429): {\"type\":\"error\",\"error\":{\"type\":\"rate_limit_error\",\"message\":\"Error\"},\"request_id\":\"req_011CayniUiz224aA6gDd5iX5\"}"
   }
 ]
