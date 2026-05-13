@@ -694,5 +694,53 @@
     "status": "published",
     "createdAt": "2026-04-07T00:00:00.000Z",
     "publishedAt": "2026-04-07T00:00:00.000Z"
+  },
+  {
+    "id": "new-1778637056050-1",
+    "title": "How Meta AI on WhatsApp Finds and Recommends Local Businesses",
+    "slug": "meta-ai-whatsapp-recommends-local-businesses",
+    "targetKeyword": "how meta ai whatsapp finds local businesses",
+    "category": "Platform Deep Dives",
+    "pillar": "Platform Deep Dives",
+    "priority": 1,
+    "status": "published",
+    "createdAt": "2026-05-13T01:50:56.049Z",
+    "error": "Anthropic API error (429): {\"type\":\"error\",\"error\":{\"type\":\"rate_limit_error\",\"message\":\"Error\"},\"request_id\":\"req_011Cayr6WWqwueo8G4aJtmgj\"}"
+  },
+  {
+    "id": "new-1778637056051-2",
+    "title": "The 2026 AI Visibility Checklist for Local Businesses",
+    "slug": "2026-ai-visibility-checklist-local-businesses",
+    "targetKeyword": "ai visibility checklist local business 2026",
+    "category": "How-To Guides",
+    "pillar": "How-To",
+    "priority": 1,
+    "status": "queued",
+    "createdAt": "2026-05-13T01:50:56.049Z",
+    "error": "Anthropic API error (429): {\"type\":\"error\",\"error\":{\"type\":\"rate_limit_error\",\"message\":\"Error\"},\"request_id\":\"req_011CayniUiz224aA6gDd5iX5\"}"
+  },
+  {
+    "id": "manual-1778656263634",
+    "title": "How to Get Cited by AI Search: The Complete Local Business Guide",
+    "slug": "how-to-get-cited-by-ai-search",
+    "targetKeyword": "how to get cited by AI search",
+    "category": "How-To Guides",
+    "pillar": "How-To",
+    "priority": 1,
+    "status": "published",
+    "createdAt": "2026-05-13T00:00:00.000Z",
+    "publishedAt": "2026-05-13T00:00:00.000Z"
+  },
+  {
+    "id": "manual-law-firm-aeo",
+    "title": "How to Get Your Law Firm Recommended by ChatGPT and AI Search",
+    "slug": "ai-search-for-law-firms",
+    "targetKeyword": "how to get law firm on ChatGPT",
+    "category": "Industry Verticals",
+    "pillar": "Verticals",
+    "priority": 1,
+    "status": "published",
+    "createdAt": "2026-05-13T00:00:00.000Z",
+    "publishedAt": "2026-05-13T00:00:00.000Z"
   }
 ]

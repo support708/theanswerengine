@@ -4,19 +4,30 @@ import { join } from 'path';
 const ANTHROPIC_API_URL = 'https://api.anthropic.com/v1/messages';
 
 /**
- * Get the API key, falling back to reading .env.local directly
- * when a system env var overrides it with an empty string.
+ * Get credentials. Priority:
+ * 1. ANTHROPIC_API_KEY env var
+ * 2. ANTHROPIC_API_KEY in .env.local
+ * 3. Local Claude Code OAuth token (~/.claude/.credentials.json)
+ * Returns undefined if nothing found.
  */
 function getApiKey(): string | undefined {
   const key = process.env.ANTHROPIC_API_KEY;
   if (key) return key;
 
-  // Fallback: system env may override .env.local with empty string
   try {
     const envFile = readFileSync(join(process.cwd(), '.env.local'), 'utf-8');
     const match = envFile.match(/^ANTHROPIC_API_KEY=(.+)$/m);
     if (match?.[1]) return match[1].trim();
   } catch { /* .env.local not found */ }
+
+  try {
+    const home = process.env.HOME || process.env.USERPROFILE || '';
+    if (home) {
+      const creds = JSON.parse(readFileSync(join(home, '.claude', '.credentials.json'), 'utf-8'));
+      const token = creds?.claudeAiOauth?.accessToken;
+      if (token) return token;
+    }
+  } catch { /* credentials file not found */ }
 
   return undefined;
 }
@@ -68,6 +79,12 @@ export async function callClaude(options: {
   const apiKey = getApiKey();
   if (!apiKey) throw new Error('ANTHROPIC_API_KEY not configured');
 
+  // OAuth tokens (sk-ant-oat01-...) use Bearer auth; API keys use x-api-key
+  const isOAuth = apiKey.startsWith('sk-ant-oat01-');
+  const authHeader: Record<string, string> = isOAuth
+    ? { Authorization: `Bearer ${apiKey}` }
+    : { 'x-api-key': apiKey };
+
   const body: Record<string, unknown> = {
     model: options.model,
     max_tokens: options.maxTokens ?? 8192,
@@ -87,7 +104,7 @@ export async function callClaude(options: {
       method: 'POST',
       headers: {
         'content-type': 'application/json',
-        'x-api-key': apiKey,
+        ...authHeader,
         'anthropic-version': '2023-06-01',
       },
       body: JSON.stringify(body),

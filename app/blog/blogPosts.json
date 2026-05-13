@@ -4813,5 +4813,47 @@
       "Perplexity",
       "Strategy"
     ]
+  },
+  {
+    "id": 226,
+    "title": "How DeepSeek Decides Which Local Businesses to Recommend",
+    "slug": "how-deepseek-recommends-local-businesses",
+    "excerpt": "DeepSeek has 350M+ monthly visits and a fundamentally different ranking engine. Here is exactly how it decides which local businesses to surface and cite.",
+    "category": "AI Algorithm Series",
+    "author": "The Answer Engine Team",
+    "readTime": "17 min",
+    "image": "/blog/how-deepseek-recommends-local-businesses.svg",
+    "publishDate": "2026-05-08",
+    "lastModified": "2026-05-08",
+    "featured": false,
+    "tags": ["DeepSeek", "AI Algorithm", "Open Weight Models", "AI Search", "Business Discovery"]
+  },
+  {
+    "id": 227,
+    "title": "What \"Near Me\" Searches Look Like in the AI Era",
+    "slug": "near-me-searches-in-ai-era",
+    "excerpt": "\"Near me\" searches are being replaced by AI-powered local intent queries. 68% of local queries now trigger AI Overviews. Here is what that shift means for your business.",
+    "category": "Strategy & Tactics",
+    "author": "The Answer Engine Team",
+    "readTime": "17 min",
+    "image": "/blog/near-me-searches-in-ai-era.svg",
+    "publishDate": "2026-05-08",
+    "lastModified": "2026-05-08",
+    "featured": false,
+    "tags": ["Local Search", "Near Me", "AI Search", "Location SEO", "Voice Search", "Google Business Profile"]
+  },
+  {
+    "id": 228,
+    "title": "Brand Mentions vs Backlinks: What AI Actually Counts in 2026",
+    "slug": "brand-mentions-vs-backlinks-ai-search",
+    "excerpt": "Backlinks once ruled SEO. In 2026, AI reads unlinked brand mentions 3x more than link graphs. Here is the data on what actually earns citations from ChatGPT, Gemini, and Perplexity.",
+    "category": "Strategy & Tactics",
+    "author": "The Answer Engine Team",
+    "readTime": "17 min",
+    "image": "/blog/brand-mentions-vs-backlinks-ai-search.svg",
+    "publishDate": "2026-05-08",
+    "lastModified": "2026-05-08",
+    "featured": false,
+    "tags": ["Brand Mentions", "Backlinks", "Authority Signals", "AI Citations", "Knowledge Graph", "Co-Citation"]
   }
 ]

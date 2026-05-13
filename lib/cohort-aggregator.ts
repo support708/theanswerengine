@@ -19,6 +19,10 @@
 import * as fs from 'fs';
 import * as path from 'path';
 import { computeAuthorityIndex, type AuthorityIndexEntry } from './aeo-authority-index';
+import { publishToGitHub } from './github-publish';
+
+const IS_VERCEL = !!process.env.VERCEL;
+const GH_SNAPSHOT = 'data/cohort-benchmarks.json';
 
 export interface CohortBenchmark {
   cohort: string;                  // "real-estate" | "property-management" | ...
@@ -79,13 +83,18 @@ function loadSnapshotFile(): CohortSnapshotFile {
   }
 }
 
-function saveSnapshotFile(data: CohortSnapshotFile): void {
+async function saveSnapshotFile(data: CohortSnapshotFile): Promise<void> {
   const keys = Object.keys(data).sort();
   const trimmed: CohortSnapshotFile = {};
   for (const k of keys.slice(-MAX_MONTHS_RETAINED)) {
     trimmed[k] = data[k];
   }
-  fs.writeFileSync(SNAPSHOT_PATH, JSON.stringify(trimmed, null, 2));
+  const content = JSON.stringify(trimmed, null, 2);
+  if (IS_VERCEL) {
+    await publishToGitHub([{ path: GH_SNAPSHOT, content }], 'cohort: monthly benchmark snapshot');
+    return;
+  }
+  fs.writeFileSync(SNAPSHOT_PATH, content);
 }
 
 function currentYyyyMm(): string {
@@ -167,7 +176,7 @@ export async function aggregateCohorts(opts: {
   if (opts.persist) {
     const file = loadSnapshotFile();
     file[yyyyMm] = benchmarks;
-    saveSnapshotFile(file);
+    await saveSnapshotFile(file);
   }
 
   return benchmarks;
