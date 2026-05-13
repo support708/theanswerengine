@@ -739,7 +739,8 @@
     "category": "Industry Verticals",
     "pillar": "Verticals",
     "priority": 1,
-    "status": "queued",
-    "createdAt": "2026-05-13T00:00:00.000Z"
+    "status": "published",
+    "createdAt": "2026-05-13T00:00:00.000Z",
+    "publishedAt": "2026-05-13T00:00:00.000Z"
   }
 ]
