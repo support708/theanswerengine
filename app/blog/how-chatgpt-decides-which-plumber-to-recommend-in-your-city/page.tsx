@@ -26,6 +26,7 @@ export async function generateMetadata(): Promise<Metadata> {
       type: 'article',
       publishedTime: '2026-05-13T00:00:00.000Z',
       authors: ['Justin Borges'],
+      images: [{ url: '/blog/how-plumbers-get-found-on-ai-search.webp', width: 1200, height: 630 }],
     },
     twitter: {
       card: 'summary_large_image',
