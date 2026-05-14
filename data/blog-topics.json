@@ -754,5 +754,17 @@
     "status": "published",
     "createdAt": "2026-05-13T00:00:00.000Z",
     "publishedAt": "2026-05-13T00:00:00.000Z"
+  },
+  {
+    "id": "manual-retrieval-layer-2026",
+    "title": "The Retrieval Layer Explained: How AI Search Actually Works in 2026",
+    "slug": "the-retrieval-layer-explained-how-ai-search-actually-works-in-2026",
+    "targetKeyword": "how AI search actually works 2026",
+    "category": "AEO Fundamentals",
+    "pillar": "How-To",
+    "priority": 1,
+    "status": "published",
+    "createdAt": "2026-05-14T00:00:00.000Z",
+    "publishedAt": "2026-05-14T00:00:00.000Z"
   }
 ]
