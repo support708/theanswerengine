@@ -1,0 +1,102 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="bgSB" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0d1424;stop-opacity:1"/>
+      <stop offset="50%" style="stop-color:#0F1117;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#2a1a08;stop-opacity:1"/>
+    </linearGradient>
+    <filter id="glowSB"><feGaussianBlur stdDeviation="5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <filter id="glowSoftSB"><feGaussianBlur stdDeviation="14" result="bs"/><feMerge><feMergeNode in="bs"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <filter id="dimGlow"><feGaussianBlur stdDeviation="3" result="d"/><feMerge><feMergeNode in="d"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bgSB)"/>
+
+  <!-- Background grid dots -->
+  <g opacity="0.04">
+    <pattern id="dotGrid" x="0" y="0" width="40" height="40" patternUnits="userSpaceOnUse">
+      <circle cx="20" cy="20" r="1" fill="white"/>
+    </pattern>
+    <rect width="1200" height="630" fill="url(#dotGrid)"/>
+  </g>
+
+  <!-- Title block -->
+  <text x="600" y="72" font-family="system-ui, sans-serif" font-size="42" font-weight="800" fill="white" text-anchor="middle">Seasonal Businesses on AI Search</text>
+  <text x="600" y="110" font-family="system-ui, sans-serif" font-size="17" font-weight="500" fill="rgba(255,255,255,0.5)" text-anchor="middle">How to stay cited year-round, not just during peak</text>
+
+  <!-- Always-on orange ring (outer arc decoration) -->
+  <circle cx="600" cy="355" r="200" fill="none" stroke="#FF6A00" stroke-width="2.5" stroke-dasharray="12 6" opacity="0.35" filter="url(#glowSB)"/>
+  <circle cx="600" cy="355" r="195" fill="none" stroke="#FF6A00" stroke-width="1" opacity="0.15"/>
+
+  <!-- Month arc labels around the ring (approximate clock positions) -->
+  <!-- Jan-Feb top (cold) -->
+  <text x="600" y="146" font-family="system-ui, sans-serif" font-size="10" fill="rgba(255,255,255,0.3)" text-anchor="middle" font-weight="600">JAN &nbsp; FEB</text>
+  <!-- Mar-Apr top-right -->
+  <text x="748" y="193" font-family="system-ui, sans-serif" font-size="10" fill="rgba(255,255,255,0.35)" text-anchor="middle" font-weight="600">MAR &nbsp; APR</text>
+  <!-- May-Jun right -->
+  <text x="808" y="358" font-family="system-ui, sans-serif" font-size="10" fill="#FF6A00" text-anchor="middle" font-weight="700">MAY &nbsp; JUN</text>
+  <!-- Jul-Aug bottom-right -->
+  <text x="748" y="523" font-family="system-ui, sans-serif" font-size="10" fill="#FF6A00" text-anchor="middle" font-weight="700">JUL &nbsp; AUG</text>
+  <!-- Sep-Oct bottom -->
+  <text x="600" y="566" font-family="system-ui, sans-serif" font-size="10" fill="rgba(255,255,255,0.35)" text-anchor="middle" font-weight="600">SEP &nbsp; OCT</text>
+  <!-- Nov-Dec bottom-left -->
+  <text x="452" y="523" font-family="system-ui, sans-serif" font-size="10" fill="rgba(255,255,255,0.3)" text-anchor="middle" font-weight="600">NOV &nbsp; DEC</text>
+  <!-- left -->
+  <text x="392" y="358" font-family="system-ui, sans-serif" font-size="10" fill="rgba(255,255,255,0.25)" text-anchor="middle" font-weight="600">OFF &nbsp; SEASON</text>
+  <!-- top-left -->
+  <text x="452" y="193" font-family="system-ui, sans-serif" font-size="10" fill="rgba(255,255,255,0.3)" text-anchor="middle" font-weight="600">FEB &nbsp; MAR</text>
+
+  <!-- Center circle -->
+  <circle cx="600" cy="355" r="80" fill="rgba(255,106,0,0.08)" stroke="#FF6A00" stroke-width="1.5" opacity="0.7"/>
+  <text x="600" y="348" font-family="system-ui, sans-serif" font-size="11" fill="#FF6A00" text-anchor="middle" font-weight="700" letter-spacing="2">ALWAYS-ON</text>
+  <text x="600" y="365" font-family="system-ui, sans-serif" font-size="11" fill="#FF6A00" text-anchor="middle" font-weight="700" letter-spacing="2">AI VISIBILITY</text>
+
+  <!-- HVAC / Snowflake icon (top, peak in winter) — glowing -->
+  <g transform="translate(600, 157)" filter="url(#glowSoftSB)">
+    <circle cx="0" cy="0" r="30" fill="rgba(100,180,255,0.15)" stroke="rgba(100,180,255,0.5)" stroke-width="1.5"/>
+    <!-- Snowflake simplified -->
+    <line x1="0" y1="-18" x2="0" y2="18" stroke="rgba(150,210,255,0.8)" stroke-width="2.5" stroke-linecap="round"/>
+    <line x1="-18" y1="0" x2="18" y2="0" stroke="rgba(150,210,255,0.8)" stroke-width="2.5" stroke-linecap="round"/>
+    <line x1="-12" y1="-12" x2="12" y2="12" stroke="rgba(150,210,255,0.8)" stroke-width="2.5" stroke-linecap="round"/>
+    <line x1="12" y1="-12" x2="-12" y2="12" stroke="rgba(150,210,255,0.8)" stroke-width="2.5" stroke-linecap="round"/>
+    <circle cx="0" cy="-18" r="3" fill="rgba(150,210,255,0.9)"/>
+    <circle cx="0" cy="18" r="3" fill="rgba(150,210,255,0.9)"/>
+    <circle cx="-18" cy="0" r="3" fill="rgba(150,210,255,0.9)"/>
+    <circle cx="18" cy="0" r="3" fill="rgba(150,210,255,0.9)"/>
+    <text x="0" y="44" font-family="system-ui, sans-serif" font-size="9" fill="rgba(150,210,255,0.7)" text-anchor="middle" font-weight="700">HVAC</text>
+  </g>
+
+  <!-- Pool icon (right, peak in summer) — glowing orange -->
+  <g transform="translate(798, 355)" filter="url(#glowSoftSB)">
+    <circle cx="0" cy="0" r="30" fill="rgba(255,106,0,0.2)" stroke="#FF6A00" stroke-width="1.5"/>
+    <!-- Water waves -->
+    <path d="M -16 -4 Q -8 -14 0 -4 Q 8 6 16 -4" fill="none" stroke="#FF6A00" stroke-width="2.5" stroke-linecap="round"/>
+    <path d="M -16 6 Q -8 -4 0 6 Q 8 16 16 6" fill="none" stroke="rgba(255,106,0,0.6)" stroke-width="2" stroke-linecap="round"/>
+    <text x="0" y="44" font-family="system-ui, sans-serif" font-size="9" fill="#FF6A00" text-anchor="middle" font-weight="700">POOL</text>
+  </g>
+
+  <!-- Leaf / Landscaping icon (bottom, peak in spring/fall) — green -->
+  <g transform="translate(600, 552)" filter="url(#glowSoftSB)">
+    <circle cx="0" cy="0" r="30" fill="rgba(80,200,100,0.12)" stroke="rgba(80,200,100,0.45)" stroke-width="1.5"/>
+    <!-- Leaf shape -->
+    <path d="M 0 -16 C 14 -16 18 0 0 16 C -18 0 -14 -16 0 -16 Z" fill="none" stroke="rgba(100,220,120,0.8)" stroke-width="2.5"/>
+    <line x1="0" y1="-16" x2="0" y2="16" stroke="rgba(100,220,120,0.6)" stroke-width="1.5" stroke-linecap="round"/>
+    <text x="0" y="44" font-family="system-ui, sans-serif" font-size="9" fill="rgba(100,220,120,0.7)" text-anchor="middle" font-weight="700">LANDSCAPING</text>
+  </g>
+
+  <!-- Dollar / Tax icon (left, peak in Q1) — dimmed -->
+  <g transform="translate(402, 355)" opacity="0.45" filter="url(#dimGlow)">
+    <circle cx="0" cy="0" r="30" fill="rgba(220,180,80,0.1)" stroke="rgba(220,180,80,0.3)" stroke-width="1.5"/>
+    <text x="0" y="8" font-family="system-ui, sans-serif" font-size="26" fill="rgba(220,180,80,0.6)" text-anchor="middle" font-weight="700">$</text>
+    <text x="0" y="44" font-family="system-ui, sans-serif" font-size="9" fill="rgba(220,180,80,0.5)" text-anchor="middle" font-weight="700">TAX PREP</text>
+  </g>
+
+  <!-- Connector lines from center to icons -->
+  <line x1="600" y1="275" x2="600" y2="187" stroke="#FF6A00" stroke-width="1" stroke-dasharray="4 4" opacity="0.3"/>
+  <line x1="672" y1="330" x2="768" y2="355" stroke="#FF6A00" stroke-width="1" stroke-dasharray="4 4" opacity="0.5"/>
+  <line x1="600" y1="435" x2="600" y2="522" stroke="#FF6A00" stroke-width="1" stroke-dasharray="4 4" opacity="0.25"/>
+  <line x1="528" y1="330" x2="432" y2="355" stroke="rgba(220,180,80,0.25)" stroke-width="1" stroke-dasharray="4 4" opacity="0.3"/>
+
+  <!-- Bottom strip -->
+  <rect x="0" y="600" width="1200" height="30" fill="#FF6A00" opacity="0.08"/>
+  <text x="600" y="620" font-family="system-ui, sans-serif" font-size="14" fill="#FF6A00" text-anchor="middle" font-weight="700" letter-spacing="3">THE ANSWER ENGINE &mdash; theanswerengine.ai</text>
+</svg>
