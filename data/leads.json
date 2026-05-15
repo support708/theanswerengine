@@ -4101,7 +4101,7 @@
     "reviewCount": 131,
     "rating": 4.7,
     "notes": "Auto-discovered by Lead Hunter. AI citation: not cited on 0/1 platforms. Competitors cited: NassifMD Medical Spa, Cienega Med Spa, Marina Medspa. Outreach-ready: YES (citation data + contact + differentiator verified). Differentiator: Established 2006; Dr. Michele Ware pioneered natural aesthetic approach for 15+ years; highly praised for natural-looking results without overdone appearance; board-certified physicians",
-    "status": "follow_up_1",
+    "status": "follow_up_2",
     "research": {
       "reviewCount": 131,
       "rating": 4.7,
@@ -4223,10 +4223,14 @@
       {
         "action": "follow_up_1 auto-sent via Gmail (19dcfab7df2a783b)",
         "timestamp": "2026-04-27T16:00:18.033Z"
+      },
+      {
+        "action": "follow_up_2 auto-sent via Gmail (19e2c5e4e47f5585)",
+        "timestamp": "2026-05-15T16:00:40.626Z"
       }
     ],
     "createdAt": "2026-04-08T20:59:03.860Z",
-    "updatedAt": "2026-04-27T16:00:18.278Z",
+    "updatedAt": "2026-05-15T16:00:40.803Z",
     "huntSource": "hunt_1775681881534_kh3q",
     "huntScore": 36,
     "huntPriority": "P1",
