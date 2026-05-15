@@ -7762,20 +7762,130 @@
     "reviewCount": 4,
     "rating": 5,
     "notes": "Auto-discovered by Lead Hunter. AI citation: not cited on 0/1 platforms. Competitors cited: Briggs Freeman Sotheby's International Realty, Van Poole Properties Group Keller Williams. Outreach-ready: YES (citation data + contact + differentiator verified). Differentiator: Founded 1985, most productive single office residential firm in Dallas, Berkshire Hathaway affiliate, $3.8 billion in annual sales",
-    "status": "queued",
-    "research": null,
+    "status": "report_ready",
+    "research": {
+      "reviewCount": 4,
+      "rating": 5,
+      "yearsInBusiness": 41,
+      "credentials": [
+        "Founded 1985 by Allie Beth Allman",
+        "Most productive single office residential firm in Dallas",
+        "Berkshire Hathaway affiliate (HomeServices of America)",
+        "D Magazine Best Realtor multiple years",
+        "Dallas Business Journal Women in Business Lifetime Achievement Award",
+        "Dallas County Top Producer (3 consecutive years)",
+        "Top 10 Dallas agents since market entry"
+      ],
+      "awards": [
+        "Dallas Business Journal Women in Business Lifetime Achievement Award (inaugural recipient)",
+        "D Magazine Best Realtor (multiple years)",
+        "D Best Top Producing Team (Catherine Cole Collective, 2024)",
+        "Ranked #1 in Texas by RealTrends (Alex Perry, 2 consecutive years)",
+        "Junior Achievement Dallas Business Hall of Fame (2025)"
+      ],
+      "communityInvolvement": [
+        "Highland Park United Methodist Church (founding client connection)",
+        "Dallas Historical Society (board member, Jubilee History Maker Award 2011)",
+        "Dallas Museum of Art",
+        "University of Texas at Dallas Center for BrainHealth (advisory board)",
+        "TCU (trustee since 1992)",
+        "Preservation Park Cities (event sponsor)",
+        "S.M. Wright Foundation (South Dallas Community Resource Center partnership)",
+        "Junior Achievement of Dallas"
+      ],
+      "hiddenDifferentiators": [
+        "Founded during 1985 S&L crisis, demonstrating resilience and market knowledge through economic downturns",
+        "High-profile client list: Dallas Cowboys (Tom Landry, Jerry Jones, Troy Aikman), Presidents (George W. Bush, Dick Cheney), celebrities and major business leaders",
+        "Largest single residential transaction in Dallas history: $100 million Tom Hicks estate (2016)",
+        "Strategic partnership with Berkshire Hathaway/Warren Buffett endorsement",
+        "Deep Park Cities focus (34% of market share in 2022)",
+        "Brother-and-wife team leadership (Allie Beth and Pierce Allman's integrated marketing/operations model)",
+        "400 agents with unparalleled Park Cities expertise",
+        "Record $4 billion in sales volume (2025)",
+        "Weekly Monday Morning Meeting educating 80+ agents in person, 165+ online",
+        "Multi-office expansion (Lakewood, Southlake, Plano) while maintaining local identity"
+      ],
+      "topCompetitors": [
+        {
+          "name": "Briggs Freeman Sotheby's International Realty",
+          "reason": "Sotheby's brand prestige, 348 agents, $2.28B sales volume, multiple offices (Dallas, Fort Worth, Southlake, Lakewood, Plano), 2016 volume $3.24B, strong ranking among Sotheby's affiliates"
+        },
+        {
+          "name": "Van Poole Properties Group (Keller Williams)",
+          "reason": "Top 100 internationally, #1 Team in #1 Brokerage for Collin/Dallas/Denton, focus on volume and multi-offer strategy, 3,300+ clients served, strong digital/remote capabilities"
+        },
+        {
+          "name": "Evan Downey (eXp Realty)",
+          "reason": "Recognized as Best Realtor Dallas 2025 by Evergreen Awards, focus on luxury market, 20+ years expertise"
+        }
+      ],
+      "faqContentPresent": false,
+      "blogPresent": true,
+      "gmbPresent": true,
+      "schemaDetected": false,
+      "recentContent": true,
+      "uniqueStory": "Founded in 1985 during the Texas S&L crisis when most competitors folded, Allie Beth Allman built a luxury real estate powerhouse from scratch with zero lending availability. After selling to Henry S. Miller in 1995, she returned in 2004 to relaunch the firm, navigating the 2008 financial crisis and emerging as Dallas' #1 luxury broker. In 2015, Warren Buffett's Berkshire Hathaway acquired the firm, validating her vision. Now 83 years old, she remains Executive Director while her leadership team has delivered record $4 billion in sales (2025), maintaining deep community roots and her legendary status as the 'Queen of Highland Park' with unmatched client relationships spanning presidents, pro athletes, and major business leaders.",
+      "aiCited": false,
+      "aero7": {
+        "answerQuality": 8,
+        "entityOptimization": 5,
+        "relevanceFreshness": 7,
+        "optimizationStructure": 6,
+        "voiceAuthenticity": 9,
+        "authoritySignals": 9,
+        "authorityDistribution": 8,
+        "consensusCoCitation": 7,
+        "platformReadiness": 6,
+        "technicalAccessibility": 5,
+        "total": 70
+      },
+      "rawNotes": "Allie Beth Allman & Associates demonstrates exceptional brand authority and offline reputation but shows significant gaps in AI/SEO optimization. Strengths: legendary founder story (40+ year track record), Berkshire Hathaway validation, $4B sales volume (2025), 400+ agents, deep community ties, comprehensive awards and recognition. Weaknesses: Website lacks modern schema markup (no LocalBusiness, Person, Organization schema detected), no visible FAQ section targeting voice search, blog titled 'Allmanac' exists but not optimized for SEO intent, GMB present but not maximally leveraged for AI discovery. No evidence of ChatGPT, Claude, Perplexity citations in top 20 searches for 'best real estate agent Dallas,' suggesting weak AI platform readiness despite strong traditional brand. LinkedIn presence strong (2,308 followers) with regular content. Not appearing in Evan Downey, Nitin Gupta, or other individual agent AI recommendations suggests algorithm not recognizing firm-level authority at AI layer. Robots.txt likely open but no explicit GPTBot/ClaudeBot optimization visible. NAP consistency good across Google, HAR.com, Yelp. Opportunity: Schema markup implementation, FAQ page for voice search, testimonial/structured data for review enrichment, AI-native content strategy.",
+      "researchedAt": "2026-05-15T09:30:48.600Z"
+    },
     "reportSlug": "allie-beth-allman-associates-d430",
     "emailDraftId": null,
     "fabricationFlags": [],
-    "emDashClean": false,
+    "emDashClean": true,
     "actionLog": [
       {
         "action": "Queued by Lead Hunter (P2, score: 26.5, outreach-ready: true)",
         "timestamp": "2026-05-15T09:23:01.106Z"
+      },
+      {
+        "action": "Research started (auto-pipeline)",
+        "timestamp": "2026-05-15T09:30:20.601Z"
+      },
+      {
+        "action": "Research completed (AERO-10: 70/100)",
+        "timestamp": "2026-05-15T09:30:48.600Z"
+      },
+      {
+        "action": "Report generation started",
+        "timestamp": "2026-05-15T09:30:48.600Z"
+      },
+      {
+        "action": "Competitor battlecard attached",
+        "timestamp": "2026-05-15T09:32:41.573Z"
+      },
+      {
+        "action": "Report generated",
+        "timestamp": "2026-05-15T09:32:41.573Z"
+      },
+      {
+        "action": "Fabrication scan: CLEAN",
+        "timestamp": "2026-05-15T09:32:41.573Z"
+      },
+      {
+        "action": "Em-dash scan: CLEAN",
+        "timestamp": "2026-05-15T09:32:41.573Z"
+      },
+      {
+        "action": "Report + OG metadata deployed to production",
+        "timestamp": "2026-05-15T09:32:41.656Z"
       }
     ],
     "createdAt": "2026-05-15T09:23:01.106Z",
-    "updatedAt": "2026-05-15T09:23:01.106Z",
+    "updatedAt": "2026-05-15T09:32:41.573Z",
     "huntSource": "hunt_1778836922414_neli",
     "huntScore": 26.5,
     "huntPriority": "P2",

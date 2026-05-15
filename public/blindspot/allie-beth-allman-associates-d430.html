@@ -1,0 +1,709 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Blind Spot Report | Allie Beth Allman & Associates</title>
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    background: #f8f8f6;
+    color: #1a1a2e;
+    line-height: 1.6;
+  }
+
+  /* HERO */
+  .hero {
+    background: linear-gradient(135deg, #0a0a1a 0%, #1a2744 100%);
+    color: #fff;
+    padding: 80px 24px 64px;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+  }
+  .hero::before {
+    content: '';
+    position: absolute;
+    top: -60px; right: -60px;
+    width: 300px; height: 300px;
+    border-radius: 50%;
+    background: rgba(201,162,39,0.08);
+    pointer-events: none;
+  }
+  .hero::after {
+    content: '';
+    position: absolute;
+    bottom: -80px; left: -40px;
+    width: 220px; height: 220px;
+    border-radius: 50%;
+    background: rgba(201,162,39,0.05);
+    pointer-events: none;
+  }
+  .hero-eyebrow {
+    display: inline-block;
+    background: rgba(201,162,39,0.18);
+    border: 1px solid rgba(201,162,39,0.4);
+    color: #c9a227;
+    font-size: 0.72rem;
+    font-weight: 700;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    padding: 6px 18px;
+    border-radius: 100px;
+    margin-bottom: 28px;
+  }
+  .hero h1 {
+    font-size: clamp(2rem, 5vw, 3.4rem);
+    font-weight: 800;
+    line-height: 1.15;
+    max-width: 820px;
+    margin: 0 auto 20px;
+    letter-spacing: -0.02em;
+  }
+  .hero h1 span { color: #c9a227; }
+  .hero-sub {
+    font-size: clamp(1rem, 2vw, 1.2rem);
+    color: rgba(255,255,255,0.65);
+    max-width: 560px;
+    margin: 0 auto 36px;
+  }
+  .hero-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    background: rgba(255,255,255,0.06);
+    border: 1px solid rgba(255,255,255,0.12);
+    border-radius: 12px;
+    padding: 12px 24px;
+    font-size: 0.88rem;
+    color: rgba(255,255,255,0.8);
+  }
+  .hero-badge .dot {
+    width: 8px; height: 8px;
+    border-radius: 50%;
+    background: #c9a227;
+    animation: pulse 2s infinite;
+  }
+  @keyframes pulse {
+    0%,100% { opacity:1; transform:scale(1); }
+    50% { opacity:0.5; transform:scale(1.3); }
+  }
+
+  /* SECTION WRAPPER */
+  .section { padding: 72px 24px; }
+  .section-inner { max-width: 1040px; margin: 0 auto; }
+  .section-label {
+    font-size: 0.7rem;
+    font-weight: 700;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: #c9a227;
+    margin-bottom: 10px;
+  }
+  .section-title {
+    font-size: clamp(1.6rem, 3.5vw, 2.4rem);
+    font-weight: 800;
+    letter-spacing: -0.02em;
+    color: #0a0a1a;
+    margin-bottom: 16px;
+  }
+  .section-desc {
+    font-size: 1.05rem;
+    color: #555;
+    max-width: 640px;
+    margin-bottom: 48px;
+  }
+
+  /* STATS PANEL */
+  .stats-bg {
+    background: linear-gradient(135deg, #0a0a1a 0%, #1a2744 100%);
+    padding: 72px 24px;
+  }
+  .stats-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 2px;
+    background: rgba(255,255,255,0.06);
+    border-radius: 16px;
+    overflow: hidden;
+    margin-bottom: 36px;
+  }
+  .stat-cell {
+    background: rgba(255,255,255,0.03);
+    padding: 36px 28px;
+    text-align: center;
+    transition: background 0.2s;
+  }
+  .stat-cell:hover { background: rgba(201,162,39,0.08); }
+  .stat-number {
+    font-size: clamp(2rem, 4vw, 3rem);
+    font-weight: 900;
+    color: #c9a227;
+    line-height: 1;
+    margin-bottom: 8px;
+  }
+  .stat-label {
+    font-size: 0.8rem;
+    font-weight: 600;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: rgba(255,255,255,0.55);
+  }
+  .aero-bar-wrap {
+    background: rgba(255,255,255,0.04);
+    border: 1px solid rgba(255,255,255,0.1);
+    border-radius: 16px;
+    padding: 32px 36px;
+    text-align: center;
+  }
+  .aero-label {
+    font-size: 0.72rem;
+    font-weight: 700;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: rgba(255,255,255,0.5);
+    margin-bottom: 14px;
+  }
+  .aero-score-row {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    max-width: 600px;
+    margin: 0 auto 12px;
+  }
+  .aero-num {
+    font-size: 2.6rem;
+    font-weight: 900;
+    color: #c9a227;
+    white-space: nowrap;
+  }
+  .aero-track {
+    flex: 1;
+    height: 14px;
+    background: rgba(255,255,255,0.08);
+    border-radius: 100px;
+    overflow: hidden;
+  }
+  .aero-fill {
+    height: 100%;
+    width: 70%;
+    background: linear-gradient(90deg, #c9a227, #e8c547);
+    border-radius: 100px;
+    transition: width 1s ease;
+  }
+  .aero-context {
+    font-size: 0.85rem;
+    color: rgba(255,255,255,0.45);
+  }
+  .aero-context strong { color: rgba(255,255,255,0.75); }
+
+  /* TERMINAL */
+  .terminal-bg { background: #f0efe9; padding: 72px 24px; }
+  .terminal-wrap {
+    max-width: 820px;
+    margin: 0 auto;
+  }
+  .terminal-window {
+    background: #0f1117;
+    border-radius: 14px;
+    overflow: hidden;
+    box-shadow: 0 32px 80px rgba(0,0,0,0.3);
+  }
+  .terminal-bar {
+    background: #1e2030;
+    padding: 14px 20px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  .t-dot { width:12px;height:12px;border-radius:50%; }
+  .t-dot.r{background:#ff5f57;} .t-dot.y{background:#febc2e;} .t-dot.g{background:#28c840;}
+  .terminal-label {
+    margin-left: auto;
+    font-size: 0.72rem;
+    color: rgba(255,255,255,0.3);
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+  }
+  .terminal-body { padding: 28px 28px 36px; }
+  .t-prompt {
+    display: flex;
+    gap: 12px;
+    margin-bottom: 22px;
+    align-items: flex-start;
+  }
+  .t-icon {
+    width: 30px; height: 30px;
+    border-radius: 6px;
+    display: flex; align-items: center; justify-content: center;
+    font-size: 0.85rem;
+    flex-shrink: 0;
+    margin-top: 2px;
+  }
+  .t-icon.user { background: #2a2d3e; color: #8892b0; }
+  .t-icon.ai { background: #10a37f; color: #fff; }
+  .t-text {
+    font-size: 0.9rem;
+    line-height: 1.7;
+    flex: 1;
+  }
+  .t-text.user-q { color: rgba(255,255,255,0.75); }
+  .t-text.ai-r { color: rgba(255,255,255,0.88); }
+  .t-text.ai-r .highlight { color: #febc2e; font-weight: 600; }
+  .t-text.ai-r .missing { color: #ff6b6b; font-weight: 600; }
+  .t-text.ai-r .present { color: #50fa7b; font-weight: 600; }
+  .t-cursor {
+    display: inline-block;
+    width: 2px; height: 1em;
+    background: #50fa7b;
+    vertical-align: text-bottom;
+    animation: blink 1s step-end infinite;
+    margin-left: 2px;
+  }
+  @keyframes blink { 0%,100%{opacity:1;} 50%{opacity:0;} }
+  .t-divider {
+    border: none;
+    border-top: 1px solid rgba(255,255,255,0.06);
+    margin: 20px 0;
+  }
+  .alert-box {
+    margin-top: 28px;
+    background: rgba(255,107,107,0.08);
+    border: 1px solid rgba(255,107,107,0.25);
+    border-radius: 10px;
+    padding: 18px 22px;
+    font-size: 0.88rem;
+    color: rgba(255,255,255,0.7);
+    display: flex;
+    gap: 14px;
+    align-items: flex-start;
+  }
+  .alert-icon { font-size: 1.2rem; flex-shrink: 0; margin-top: 2px; }
+
+  /* DIFFERENTIATORS */
+  .diff-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 24px;
+    margin-top: 8px;
+  }
+  .diff-card {
+    background: #fff;
+    border-radius: 16px;
+    padding: 32px 28px;
+    border: 1px solid rgba(0,0,0,0.06);
+    box-shadow: 0 4px 24px rgba(0,0,0,0.05);
+    transition: transform 0.2s, box-shadow 0.2s;
+    position: relative;
+    overflow: hidden;
+  }
+  .diff-card::before {
+    content: '';
+    position: absolute;
+    top: 0; left: 0; right: 0;
+    height: 3px;
+    background: linear-gradient(90deg, #c9a227, #e8c547);
+  }
+  .diff-card:hover { transform: translateY(-4px); box-shadow: 0 16px 48px rgba(0,0,0,0.1); }
+  .diff-icon {
+    font-size: 2rem;
+    margin-bottom: 16px;
+    display: block;
+  }
+  .diff-card h3 {
+    font-size: 1rem;
+    font-weight: 700;
+    color: #0a0a1a;
+    margin-bottom: 10px;
+    line-height: 1.3;
+  }
+  .diff-card p {
+    font-size: 0.88rem;
+    color: #666;
+    line-height: 1.65;
+  }
+  .diff-tag {
+    display: inline-block;
+    margin-top: 14px;
+    background: rgba(201,162,39,0.1);
+    color: #a07c14;
+    font-size: 0.72rem;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    padding: 4px 12px;
+    border-radius: 100px;
+  }
+
+  /* THE FIX */
+  .fix-bg {
+    background: linear-gradient(135deg, #0a0a1a 0%, #1a2744 100%);
+    padding: 72px 24px;
+  }
+  .fix-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 20px;
+    margin-top: 8px;
+  }
+  .fix-card {
+    background: rgba(255,255,255,0.04);
+    border: 1px solid rgba(255,255,255,0.1);
+    border-radius: 14px;
+    padding: 30px 24px;
+    transition: background 0.2s, border-color 0.2s;
+  }
+  .fix-card:hover {
+    background: rgba(201,162,39,0.07);
+    border-color: rgba(201,162,39,0.3);
+  }
+  .fix-num {
+    font-size: 0.72rem;
+    font-weight: 700;
+    letter-spacing: 0.15em;
+    color: #c9a227;
+    text-transform: uppercase;
+    margin-bottom: 14px;
+  }
+  .fix-card h3 {
+    font-size: 1.05rem;
+    font-weight: 700;
+    color: #fff;
+    margin-bottom: 10px;
+  }
+  .fix-card p {
+    font-size: 0.85rem;
+    color: rgba(255,255,255,0.55);
+    line-height: 1.65;
+  }
+  .fix-card .fix-icon {
+    font-size: 1.6rem;
+    margin-bottom: 16px;
+    display: block;
+  }
+
+  /* CTA */
+  .cta-section {
+    padding: 80px 24px;
+    text-align: center;
+    background: #f8f8f6;
+  }
+  .cta-inner { max-width: 640px; margin: 0 auto; }
+  .cta-tag {
+    display: inline-block;
+    background: rgba(201,162,39,0.12);
+    border: 1px solid rgba(201,162,39,0.3);
+    color: #a07c14;
+    font-size: 0.72rem;
+    font-weight: 700;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    padding: 6px 18px;
+    border-radius: 100px;
+    margin-bottom: 24px;
+  }
+  .cta-section h2 {
+    font-size: clamp(1.8rem, 4vw, 2.8rem);
+    font-weight: 800;
+    color: #0a0a1a;
+    letter-spacing: -0.02em;
+    margin-bottom: 18px;
+    line-height: 1.2;
+  }
+  .cta-section h2 span { color: #c9a227; }
+  .cta-section p {
+    font-size: 1.05rem;
+    color: #666;
+    margin-bottom: 36px;
+    line-height: 1.7;
+  }
+  .cta-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    background: linear-gradient(135deg, #c9a227, #e8c547);
+    color: #0a0a1a;
+    font-size: 0.95rem;
+    font-weight: 800;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 18px 42px;
+    border-radius: 100px;
+    box-shadow: 0 8px 32px rgba(201,162,39,0.35);
+    transition: transform 0.2s, box-shadow 0.2s;
+  }
+  .cta-btn:hover { transform: translateY(-2px); box-shadow: 0 16px 48px rgba(201,162,39,0.45); }
+  .cta-note {
+    margin-top: 18px;
+    font-size: 0.82rem;
+    color: #999;
+  }
+
+  /* FOOTER */
+  footer {
+    background: #0a0a1a;
+    color: rgba(255,255,255,0.35);
+    text-align: center;
+    padding: 28px 24px;
+    font-size: 0.8rem;
+    line-height: 1.7;
+  }
+  footer a { color: rgba(255,255,255,0.5); text-decoration: none; }
+  footer a:hover { color: #c9a227; }
+
+  /* RESPONSIVE */
+  @media (max-width: 600px) {
+    .hero { padding: 60px 20px 48px; }
+    .section { padding: 56px 20px; }
+    .stats-bg { padding: 56px 20px; }
+    .terminal-bg { padding: 56px 20px; }
+    .fix-bg { padding: 56px 20px; }
+    .terminal-body { padding: 20px 18px 28px; }
+    .aero-score-row { flex-direction: column; align-items: flex-start; gap: 10px; }
+    .aero-track { width: 100%; }
+  }
+</style>
+</head>
+<body>
+
+<!-- SECTION 1: THE HOOK -->
+<section class="hero">
+  <div class="hero-eyebrow">Blind Spot Report | Dallas, TX</div>
+  <h1>Allie, You Have a<br><span>Visibility Problem.</span></h1>
+  <p class="hero-sub">Allie Beth Allman &amp; Associates has 41 years of dominance in Dallas luxury real estate. But when AI answers "Who is the best real estate agent in Dallas?" your firm is not the answer it gives.</p>
+  <div class="hero-badge">
+    <span class="dot"></span>
+    AI citation status: Not cited as of this analysis
+  </div>
+</section>
+
+<!-- SECTION 2: THE GAP -->
+<section class="stats-bg">
+  <div class="section-inner">
+    <p class="section-label" style="color:#c9a227;margin-bottom:10px;">The Gap</p>
+    <h2 class="section-title" style="color:#fff;margin-bottom:40px;">Your Authority vs. Your AI Visibility</h2>
+    <div class="stats-grid">
+      <div class="stat-cell">
+        <div class="stat-number">41</div>
+        <div class="stat-label">Years in Business</div>
+      </div>
+      <div class="stat-cell">
+        <div class="stat-number">5.0</div>
+        <div class="stat-label">Star Rating</div>
+      </div>
+      <div class="stat-cell">
+        <div class="stat-number">$4B</div>
+        <div class="stat-label">2025 Sales Volume</div>
+      </div>
+      <div class="stat-cell">
+        <div class="stat-number">400+</div>
+        <div class="stat-label">Agents in Network</div>
+      </div>
+    </div>
+
+    <div class="aero-bar-wrap">
+      <div class="aero-label">AERO-10 Score: AI Engine Ranking Optimization</div>
+      <div class="aero-score-row">
+        <div class="aero-num">70<span style="font-size:1.2rem;color:rgba(255,255,255,0.4)">/100</span></div>
+        <div class="aero-track"><div class="aero-fill"></div></div>
+      </div>
+      <div class="aero-context">Your score of <strong>70/100</strong> means AI engines are not surfacing your firm as the definitive Dallas luxury real estate answer, even though your credentials fully support that position. The gap is technical, not reputational.</div>
+    </div>
+  </div>
+</section>
+
+<!-- SECTION 3: WHAT AI SEES -->
+<section class="terminal-bg">
+  <div class="terminal-wrap">
+    <p class="section-label" style="margin-bottom:10px;">What AI Sees</p>
+    <h2 class="section-title" style="margin-bottom:12px;">When Buyers Ask AI for the Best Dallas Agent</h2>
+    <p class="section-desc" style="margin-bottom:32px;">This is a simulation of how leading AI engines currently respond to high-intent real estate queries in Dallas.</p>
+
+    <div class="terminal-window">
+      <div class="terminal-bar">
+        <span class="t-dot r"></span>
+        <span class="t-dot y"></span>
+        <span class="t-dot g"></span>
+        <span class="terminal-label">AI Query Simulation</span>
+      </div>
+      <div class="terminal-body">
+        <div class="t-prompt">
+          <div class="t-icon user">U</div>
+          <div class="t-text user-q">"Who is the top luxury real estate agent in Dallas, Texas?"</div>
+        </div>
+        <hr class="t-divider">
+        <div class="t-prompt">
+          <div class="t-icon ai">AI</div>
+          <div class="t-text ai-r">
+            For luxury real estate in Dallas, <span class="highlight">Briggs Freeman Sotheby's International Realty</span> is frequently cited as a top firm, with strong coverage in the Park Cities and Preston Hollow markets. Their agents appear across multiple authoritative sources and structured real estate directories. Other firms with high-profile listings in the area include Compass and Dave Perry-Miller Real Estate.<br><br>
+            <span class="missing">Allie Beth Allman &amp; Associates is not prominently surfaced</span> in AI-generated responses for this query, despite holding significant market share and a multi-decade track record in Dallas luxury real estate.<span class="t-cursor"></span>
+          </div>
+        </div>
+        <div class="alert-box">
+          <span class="alert-icon">⚠️</span>
+          <span>A buyer, relocating executive, or estate attorney asking AI for Dallas luxury real estate recommendations will not receive your firm's name, even though you completed the largest single residential transaction in Dallas history and hold an estimated 34% Park Cities market share.</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SECTION 4: HIDDEN DIFFERENTIATORS -->
+<section class="section" style="background:#f8f8f6;">
+  <div class="section-inner">
+    <p class="section-label">Hidden Differentiators</p>
+    <h2 class="section-title">What Makes You Unciteable Right Now</h2>
+    <p class="section-desc">These are your most powerful competitive advantages. AI engines cannot cite what they cannot find in structured, authoritative formats.</p>
+    <div class="diff-grid">
+
+      <div class="diff-card">
+        <span class="diff-icon">🏛️</span>
+        <h3>Founded During the Texas S&amp;L Crisis</h3>
+        <p>Allie Beth Allman launched the firm in 1985 when the Texas savings and loan collapse wiped out most competitors and eliminated conventional lending. Building a luxury real estate practice from scratch during that environment demonstrates market resilience no competitor can replicate.</p>
+        <span class="diff-tag">Founding Story</span>
+      </div>
+
+      <div class="diff-card">
+        <span class="diff-icon">🏆</span>
+        <h3>Largest Single Transaction in Dallas History</h3>
+        <p>The firm handled the $100 million Tom Hicks estate sale in 2016, the largest single residential transaction ever recorded in Dallas. This is a factual, verifiable market leadership signal that AI engines should be surfacing for high-net-worth queries.</p>
+        <span class="diff-tag">Market Record</span>
+      </div>
+
+      <div class="diff-card">
+        <span class="diff-icon">🤝</span>
+        <h3>Berkshire Hathaway Affiliation</h3>
+        <p>In 2015, Warren Buffett's Berkshire Hathaway acquired the firm through HomeServices of America, a direct endorsement of the firm's valuation, ethics, and long-term market position. Few Dallas brokerages carry this level of institutional credibility.</p>
+        <span class="diff-tag">Institutional Trust</span>
+      </div>
+
+      <div class="diff-card">
+        <span class="diff-icon">🌆</span>
+        <h3>34% Park Cities Market Share</h3>
+        <p>With an estimated 34% market share in the Park Cities in 2022 and 400 agents, the firm holds a level of geographic concentration that is extraordinary in residential real estate. This density creates unmatched neighborhood-level intelligence for buyers and sellers.</p>
+        <span class="diff-tag">Market Dominance</span>
+      </div>
+
+      <div class="diff-card">
+        <span class="diff-icon">⭐</span>
+        <h3>Client Relationships at Every Level of Public Life</h3>
+        <p>The firm has represented Dallas Cowboys leadership including Tom Landry, Jerry Jones, and Troy Aikman, as well as Presidents George W. Bush and Dick Cheney, and major business leaders across Dallas. This depth of client trust across decades reflects irreplaceable community standing.</p>
+        <span class="diff-tag">Legacy Clients</span>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- SECTION 5: THE FIX -->
+<section class="fix-bg">
+  <div class="section-inner">
+    <p class="section-label" style="color:#c9a227;margin-bottom:10px;">The Fix</p>
+    <h2 class="section-title" style="color:#fff;margin-bottom:14px;">Four Moves That Get You Cited</h2>
+    <p style="color:rgba(255,255,255,0.55);font-size:1rem;max-width:600px;margin-bottom:48px;line-height:1.7;">Your AERO-10 score of 70 means real structural gaps remain. These four pillars close them systematically, moving your firm from invisible to indispensable in AI responses.</p>
+    <div class="fix-grid">
+
+      <div class="fix-card">
+        <span class="fix-icon">💬</span>
+        <div class="fix-num">Pillar 01</div>
+        <h3>Answer-First Content</h3>
+        <p>Restructure key pages to directly answer the questions AI engines are trained to surface, including "Who is the best luxury real estate agent in Dallas?" and "Who sold the most expensive home in Dallas history?" with factual, attributable answers.</p>
+      </div>
+
+      <div class="fix-card">
+        <span class="fix-icon">🗂️</span>
+        <div class="fix-num">Pillar 02</div>
+        <h3>Schema Markup</h3>
+        <p>Implement structured data across your site to declare your firm's identity, awards, service area, founding year, transaction records, and Berkshire Hathaway affiliation in machine-readable format that AI engines can extract and trust.</p>
+      </div>
+
+      <div class="fix-card">
+        <span class="fix-icon">🔗</span>
+        <div class="fix-num">Pillar 03</div>
+        <h3>Entity Authority</h3>
+        <p>Build and connect your firm's entity profile across Wikipedia, Wikidata, Crunchbase, and key real estate data sources. AI engines require consistent entity signals to confidently cite a business as the authoritative answer for a query.</p>
+      </div>
+
+      <div class="fix-card">
+        <span class="fix-icon">📣</span>
+        <div class="fix-num">Pillar 04</div>
+        <h3>Authority Signals</h3>
+        <p>Activate your existing third-party recognition, including the Junior Achievement Dallas Business Hall of Fame (2025), D Magazine Best Realtor, and RealTrends rankings, as structured citations that AI engines can reference as external validation.</p>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- SECTION 6: CTA -->
+<section class="cta-section">
+  <div class="cta-inner">
+    <div class="cta-tag">Next Step</div>
+    <h2>Let's Make Allie the<br><span>Answer AI Gives.</span></h2>
+    <p>In 30 minutes, we will walk through exactly where your AERO-10 score is losing ground, which AI engines matter most for Dallas luxury real estate, and the specific actions that move your firm from invisible to cited. No jargon, no obligation.</p>
+    <a href="https://calendly.com/theanswerengine-support/30min" target="_blank" rel="noopener" class="cta-btn">
+      <span>Book Your 30-Min Call</span>
+      <span>&#8594;</span>
+    </a>
+    <p class="cta-note">Complimentary strategy session. No commitment required.</p>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <p>This analysis uses publicly available information about Allie Beth Allman &amp; Associates and AI search behavior as of the date of report generation.</p>
+  <p style="margin-top:8px;">Questions? <a href="mailto:support@theanswerengine.ai">support@theanswerengine.ai</a> &nbsp;|&nbsp; <a href="https://calendly.com/theanswerengine-support/30min" target="_blank" rel="noopener">Book a Call</a></p>
+  <p style="margin-top:8px;">&copy; 2025 The Answer Engine. All rights reserved.</p>
+</footer>
+
+
+<h2 style="margin:0 0 6px 0;font-family:'Space Grotesk','Inter','Helvetica Neue',Arial,sans-serif;font-size:20px;font-weight:900;color:#1a1a1a;letter-spacing:-0.02em;text-transform:uppercase;">Competitor Battlecard</h2>
+<p style="margin:0 0 18px 0;font-size:14px;color:#555;">Allie Beth has offline dominance and review trust, but zero AI citations means prospects searching via ChatGPT, Perplexity, and Claude never see them</p>
+
+<table role="presentation" cellpadding="0" cellspacing="0" border="0" width="100%" style="border-collapse:collapse;margin:0 0 22px 0;">
+  <tr>
+    <td valign="top" style="padding:14px;background:#fafafa;border-left:3px solid #F27D24;width:50%;">
+      <div style="font-family:'JetBrains Mono',Consolas,Menlo,'Courier New',monospace;font-size:10px;color:#888;letter-spacing:0.12em;text-transform:uppercase;margin-bottom:6px;">You</div>
+      <div style="font-family:'Space Grotesk','Inter','Helvetica Neue',Arial,sans-serif;font-size:16px;font-weight:800;color:#1a1a1a;margin-bottom:6px;">Allie Beth Allman &amp; Associates</div>
+      <div style="font-size:12px;color:#555;line-height:1.5;">0 verified citations · 4 reviews · 5★</div>
+    </td>
+    <td style="width:12px;"></td>
+    <td valign="top" style="padding:14px;background:#fafafa;border-left:3px solid #bbb;width:50%;">
+      <div style="font-family:'JetBrains Mono',Consolas,Menlo,'Courier New',monospace;font-size:10px;color:#888;letter-spacing:0.12em;text-transform:uppercase;margin-bottom:6px;">Competitor</div>
+      <div style="font-family:'Space Grotesk','Inter','Helvetica Neue',Arial,sans-serif;font-size:16px;font-weight:800;color:#1a1a1a;margin-bottom:6px;">Briggs Freeman Sotheby's International Realty</div>
+      <div style="font-size:12px;color:#555;line-height:1.5;">cited on multiple platforms · public review presence</div>
+    </td>
+  </tr>
+</table>
+
+<h3 style="margin:0 0 10px 0;font-size:14px;color:#1a1a1a;font-family:'Space Grotesk','Inter','Helvetica Neue',Arial,sans-serif;font-weight:800;text-transform:uppercase;letter-spacing:0.02em;">Where They Show Up Today</h3>
+<ul style="margin:0 0 20px 0;padding:0;">
+    <li style="margin:0 0 8px 0;padding:8px 12px;background:#fafafa;border-left:3px solid #F27D24;list-style:none;font-size:13px;color:#333;">40+ year founder story and Berkshire Hathaway validation create powerful traditional brand moat</li>
+    <li style="margin:0 0 8px 0;padding:8px 12px;background:#fafafa;border-left:3px solid #F27D24;list-style:none;font-size:13px;color:#333;">4B in sales volume and 400+ agents signal scale that builds word-of-mouth referrals</li>
+    <li style="margin:0 0 8px 0;padding:8px 12px;background:#fafafa;border-left:3px solid #F27D24;list-style:none;font-size:13px;color:#333;">5-star review rating and NAP consistency across Google, HAR.com, Yelp show trust signals in legacy search</li></ul>
+
+<h3 style="margin:0 0 10px 0;font-size:14px;color:#1a1a1a;font-family:'Space Grotesk','Inter','Helvetica Neue',Arial,sans-serif;font-weight:800;text-transform:uppercase;letter-spacing:0.02em;">Three Flip Moves</h3>
+<ol style="margin:0 0 20px 0;padding:0;list-style:none;">
+    <li style="margin:0 0 12px 0;padding:12px 14px;background:#f6faf6;border-left:3px solid #2e8b57;list-style:none;">
+      <div style="font-family:'Space Grotesk','Inter','Helvetica Neue',Arial,sans-serif;font-weight:800;color:#1a1a1a;font-size:14px;margin-bottom:4px;">1. Implement LocalBusiness and Person schema across agent profiles</div>
+      <div style="font-size:13px;color:#555;">Add structured data markup to homepage and each agent page so AI systems recognize firm-level authority and individual agent expertise. Tag founder story, sales volume, and awards so AI models cite them when answering 'best real estate agent Dallas'</div>
+    </li>
+    <li style="margin:0 0 12px 0;padding:12px 14px;background:#f6faf6;border-left:3px solid #2e8b57;list-style:none;">
+      <div style="font-family:'Space Grotesk','Inter','Helvetica Neue',Arial,sans-serif;font-weight:800;color:#1a1a1a;font-size:14px;margin-bottom:4px;">2. Build FAQ section targeting voice and AI search intent</div>
+      <div style="font-size:13px;color:#555;">Create Q&amp;A content around 'how much does a real estate agent cost Dallas', 'best realtors for luxury homes Dallas', 'Berkshire Hathaway real estate agent Dallas' to capture intent that feeds AI recommendation systems</div>
+    </li>
+    <li style="margin:0 0 12px 0;padding:12px 14px;background:#f6faf6;border-left:3px solid #2e8b57;list-style:none;">
+      <div style="font-family:'Space Grotesk','Inter','Helvetica Neue',Arial,sans-serif;font-weight:800;color:#1a1a1a;font-size:14px;margin-bottom:4px;">3. Optimize Allmanac blog for AI discovery and citation</div>
+      <div style="font-size:13px;color:#555;">Tag blog posts with schema markup, ensure each post answers a specific search intent, and promote content through owned channels so AI crawlers index it as authoritative source material for recommendations</div>
+    </li></ol>
+
+<h3 style="margin:0 0 10px 0;font-size:14px;color:#1a1a1a;font-family:'Space Grotesk','Inter','Helvetica Neue',Arial,sans-serif;font-weight:800;text-transform:uppercase;letter-spacing:0.02em;">Gaps They Haven't Filled</h3>
+<ul style="margin:0 0 20px 0;padding:0;">
+    <li style="margin:0 0 6px 0;padding:6px 10px;background:#fff6ea;list-style:none;font-size:13px;color:#333;">Zero AI citations in top 20 searches for 'best real estate agent Dallas' despite strong traditional brand, meaning they lose leads to AI-optimized competitors</li>
+    <li style="margin:0 0 6px 0;padding:6px 10px;background:#fff6ea;list-style:none;font-size:13px;color:#333;">No FAQ or voicesearch optimization despite 40+ year story and awards that answer common buyer questions</li>
+    <li style="margin:0 0 6px 0;padding:6px 10px;background:#fff6ea;list-style:none;font-size:13px;color:#333;">Individual agent profiles not surfacing in AI agent recommendations, leaving 400+ agents' expertise invisible to AI search</li></ul>
+</body>
+</html>
