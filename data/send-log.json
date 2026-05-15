@@ -576,6 +576,12 @@
       "email": "Drhigashi@gmail.com",
       "type": "follow_up_3",
       "sentAt": "2026-05-10T19:39:52.288Z"
+    },
+    {
+      "leadId": "lead_1775681943860_l6kcrj",
+      "email": "reservations@milkandhoney.com",
+      "type": "follow_up_2",
+      "sentAt": "2026-05-15T16:00:24.639Z"
     }
   ]
 }
