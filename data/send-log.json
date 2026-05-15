@@ -600,6 +600,12 @@
       "email": "reception@losfelizmedspa.com",
       "type": "follow_up_2",
       "sentAt": "2026-05-15T16:00:38.772Z"
+    },
+    {
+      "leadId": "lead_1775681943860_dd6x5f",
+      "email": "weho@lejoliespa.com",
+      "type": "follow_up_2",
+      "sentAt": "2026-05-15T16:00:43.305Z"
     }
   ]
 }
