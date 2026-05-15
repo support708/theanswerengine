@@ -1611,5 +1611,43 @@
       "total": 24.5
     },
     "priority": "P3"
+  },
+  {
+    "businessName": "Dynamic Power Group",
+    "contactName": "Igor Onishchenko",
+    "website": "https://dpgcontractors.com/",
+    "phone": "(213) 401-2334",
+    "city": "Los Angeles",
+    "state": "",
+    "serviceNiche": "Electrician",
+    "reviewCount": 43,
+    "rating": 4.9,
+    "painSignals": [
+      "Dynamic Power Group has 43 Google reviews but is not recommended by AI assistants for \"Electrician in Los Angeles\""
+    ],
+    "citationResults": [
+      {
+        "platform": "chatgpt",
+        "query": "best Electrician in Los Angeles",
+        "cited": false,
+        "competitorsCited": [
+          "Express Electrical Services",
+          "The Electric Connection",
+          "Powell Electric",
+          "Alex & Alex Electrical Services"
+        ]
+      }
+    ],
+    "differentiator": "7,000+ projects completed, 24/7 emergency service available, transparent pricing, dual-licensed electricians",
+    "outreachReady": true,
+    "scoreBreakdown": {
+      "aiBlindSpot": 9,
+      "reputationStrength": 9,
+      "contentGap": 6,
+      "revenuePotential": 5,
+      "contactQuality": 3,
+      "total": 32
+    },
+    "priority": "P2"
   }
 ]
