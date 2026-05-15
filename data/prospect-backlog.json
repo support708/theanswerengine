@@ -1431,5 +1431,185 @@
       "total": 33.5
     },
     "priority": "P2"
+  },
+  {
+    "businessName": "Iconic Real Estate",
+    "contactName": "Matthew Scobee",
+    "contactEmail": "matt@iconicres.com",
+    "website": "https://iconicres.com",
+    "phone": "(214) 295-2405",
+    "city": "Dallas",
+    "state": "TX",
+    "serviceNiche": "Real Estate Agent",
+    "painSignals": [
+      "Iconic Real Estate has multiple Google reviews but is not recommended by AI assistants for \"Real Estate Agent in Dallas\""
+    ],
+    "citationResults": [
+      {
+        "platform": "chatgpt",
+        "query": "best Real Estate Agent in Dallas",
+        "cited": false,
+        "competitorsCited": [
+          "Allie Beth Allman & Associates",
+          "Briggs Freeman Sotheby's International Realty",
+          "Van Poole Properties Group Keller Williams"
+        ]
+      }
+    ],
+    "differentiator": "Specializes in residential, farm and ranch properties, boutique real estate company, builder/developer marketing",
+    "outreachReady": true,
+    "scoreBreakdown": {
+      "aiBlindSpot": 8.5,
+      "reputationStrength": 0,
+      "contentGap": 6,
+      "revenuePotential": 5,
+      "contactQuality": 5,
+      "total": 24.5
+    },
+    "priority": "P3"
+  },
+  {
+    "businessName": "Dave Perry-Miller Real Estate",
+    "contactName": "Dave Perry-Miller",
+    "contactEmail": "info@daveperrymiller.com",
+    "website": "https://www.daveperrymiller.com",
+    "phone": "(214) 522-3838",
+    "city": "Dallas",
+    "state": "TX",
+    "serviceNiche": "Real Estate Agent",
+    "painSignals": [
+      "Dave Perry-Miller Real Estate has multiple Google reviews but is not recommended by AI assistants for \"Real Estate Agent in Dallas\""
+    ],
+    "citationResults": [
+      {
+        "platform": "chatgpt",
+        "query": "best Real Estate Agent in Dallas",
+        "cited": false,
+        "competitorsCited": [
+          "Allie Beth Allman & Associates",
+          "Briggs Freeman Sotheby's International Realty",
+          "Van Poole Properties Group Keller Williams"
+        ]
+      }
+    ],
+    "differentiator": "40+ years in business, specializes in luxury estates, Ebby Halliday Companies brand, top 1% team with $2+ billion in sales",
+    "outreachReady": true,
+    "scoreBreakdown": {
+      "aiBlindSpot": 8.5,
+      "reputationStrength": 0,
+      "contentGap": 6,
+      "revenuePotential": 5,
+      "contactQuality": 5,
+      "total": 24.5
+    },
+    "priority": "P3"
+  },
+  {
+    "businessName": "Templeton Real Estate Group",
+    "contactName": "Matt Templeton",
+    "contactEmail": "admin@templeton.realestate",
+    "website": "https://www.tregdfw.com",
+    "phone": "(972) 677-3991",
+    "city": "Dallas",
+    "state": "TX",
+    "serviceNiche": "Real Estate Agent",
+    "painSignals": [
+      "Templeton Real Estate Group has multiple Google reviews but is not recommended by AI assistants for \"Real Estate Agent in Dallas\""
+    ],
+    "citationResults": [
+      {
+        "platform": "chatgpt",
+        "query": "best Real Estate Agent in Dallas",
+        "cited": false,
+        "competitorsCited": [
+          "Allie Beth Allman & Associates",
+          "Briggs Freeman Sotheby's International Realty",
+          "Van Poole Properties Group Keller Williams"
+        ]
+      }
+    ],
+    "differentiator": "Founded 2012, hand-picked professionals, sellers average 10% more with their marketing system, top 50 agent teams in Dallas",
+    "outreachReady": true,
+    "scoreBreakdown": {
+      "aiBlindSpot": 8.5,
+      "reputationStrength": 0,
+      "contentGap": 6,
+      "revenuePotential": 5,
+      "contactQuality": 5,
+      "total": 24.5
+    },
+    "priority": "P3"
+  },
+  {
+    "businessName": "eXp Realty",
+    "contactName": "Glenn Sanford",
+    "contactEmail": "tx.membership@exprealty.net",
+    "website": "https://www.exprealty.com/dallas-tx-real-estate",
+    "phone": "(888) 519-7431",
+    "city": "Dallas",
+    "state": "TX",
+    "serviceNiche": "Real Estate Agent",
+    "painSignals": [
+      "eXp Realty has multiple Google reviews but is not recommended by AI assistants for \"Real Estate Agent in Dallas\""
+    ],
+    "citationResults": [
+      {
+        "platform": "chatgpt",
+        "query": "best Real Estate Agent in Dallas",
+        "cited": false,
+        "competitorsCited": [
+          "Allie Beth Allman & Associates",
+          "Briggs Freeman Sotheby's International Realty",
+          "Van Poole Properties Group Keller Williams"
+        ]
+      }
+    ],
+    "differentiator": "Technology-driven brokerage, global presence, multiple top-producing agents with eXp ICON recognition",
+    "outreachReady": true,
+    "scoreBreakdown": {
+      "aiBlindSpot": 8.5,
+      "reputationStrength": 0,
+      "contentGap": 6,
+      "revenuePotential": 5,
+      "contactQuality": 5,
+      "total": 24.5
+    },
+    "priority": "P3"
+  },
+  {
+    "businessName": "Compass",
+    "contactName": "Robert Reffkin",
+    "contactEmail": "hali.mundy@compass.com",
+    "website": "https://www.compass.com/homes-for-sale/dallas-tx",
+    "phone": "(214) 814-8100",
+    "city": "Dallas",
+    "state": "TX",
+    "serviceNiche": "Real Estate Agent",
+    "painSignals": [
+      "Compass has multiple Google reviews but is not recommended by AI assistants for \"Real Estate Agent in Dallas\""
+    ],
+    "citationResults": [
+      {
+        "platform": "chatgpt",
+        "query": "best Real Estate Agent in Dallas",
+        "cited": false,
+        "competitorsCited": [
+          "Allie Beth Allman & Associates",
+          "Briggs Freeman Sotheby's International Realty",
+          "Van Poole Properties Group Keller Williams"
+        ]
+      }
+    ],
+    "differentiator": "Technology-driven platform, 787 Dallas agents, modern real estate technology, largest brokerage brand",
+    "outreachReady": true,
+    "scoreBreakdown": {
+      "aiBlindSpot": 8.5,
+      "reputationStrength": 0,
+      "contentGap": 6,
+      "revenuePotential": 5,
+      "contactQuality": 5,
+      "total": 24.5
+    },
+    "priority": "P3"
   }
 ]

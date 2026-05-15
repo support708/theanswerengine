@@ -7749,5 +7749,222 @@
     ],
     "huntDifferentiator": "26+ years in business since 1990, master electrician owner, lifetime warranty on workmanship, local Mar Vista focus, free phone estimates",
     "huntOutreachReady": true
+  },
+  {
+    "id": "lead_1778836981106_rrtdwb",
+    "businessName": "Allie Beth Allman & Associates",
+    "contactFirstName": "Allie",
+    "contactEmail": "relocation@alliebeth.com",
+    "websiteUrl": "https://www.alliebeth.com",
+    "city": "Dallas",
+    "serviceNiche": "Real Estate Agent",
+    "competitorName": "Briggs Freeman Sotheby's International Realty",
+    "reviewCount": 4,
+    "rating": 5,
+    "notes": "Auto-discovered by Lead Hunter. AI citation: not cited on 0/1 platforms. Competitors cited: Briggs Freeman Sotheby's International Realty, Van Poole Properties Group Keller Williams. Outreach-ready: YES (citation data + contact + differentiator verified). Differentiator: Founded 1985, most productive single office residential firm in Dallas, Berkshire Hathaway affiliate, $3.8 billion in annual sales",
+    "status": "queued",
+    "research": null,
+    "reportSlug": "allie-beth-allman-associates-d430",
+    "emailDraftId": null,
+    "fabricationFlags": [],
+    "emDashClean": false,
+    "actionLog": [
+      {
+        "action": "Queued by Lead Hunter (P2, score: 26.5, outreach-ready: true)",
+        "timestamp": "2026-05-15T09:23:01.106Z"
+      }
+    ],
+    "createdAt": "2026-05-15T09:23:01.106Z",
+    "updatedAt": "2026-05-15T09:23:01.106Z",
+    "huntSource": "hunt_1778836922414_neli",
+    "huntScore": 26.5,
+    "huntPriority": "P2",
+    "huntCitationResults": [
+      {
+        "platform": "chatgpt",
+        "query": "best Real Estate Agent in Dallas",
+        "cited": true,
+        "competitorsCited": [
+          "Briggs Freeman Sotheby's International Realty",
+          "Van Poole Properties Group Keller Williams"
+        ]
+      }
+    ],
+    "huntDifferentiator": "Founded 1985, most productive single office residential firm in Dallas, Berkshire Hathaway affiliate, $3.8 billion in annual sales",
+    "huntOutreachReady": true
+  },
+  {
+    "id": "lead_1778836981106_1j0rc9",
+    "businessName": "Knox & Associates",
+    "contactFirstName": "Jeff",
+    "contactEmail": "jeff.knox@knoxre.com",
+    "websiteUrl": "https://www.knoxre.com",
+    "city": "Dallas",
+    "serviceNiche": "Real Estate Agent",
+    "competitorName": "Allie Beth Allman & Associates",
+    "reviewCount": 28,
+    "rating": 4.7,
+    "notes": "Auto-discovered by Lead Hunter. AI citation: not cited on 1/1 platforms. Competitors cited: Allie Beth Allman & Associates, Briggs Freeman Sotheby's International Realty, Van Poole Properties Group Keller Williams. Outreach-ready: YES (citation data + contact + differentiator verified). Differentiator: Founded 2009, small boutique firm focusing on customer service, innovative technology-driven marketing",
+    "status": "queued",
+    "research": null,
+    "reportSlug": "knox-associates-prn2",
+    "emailDraftId": null,
+    "fabricationFlags": [],
+    "emDashClean": false,
+    "actionLog": [
+      {
+        "action": "Queued by Lead Hunter (P2, score: 33.5, outreach-ready: true)",
+        "timestamp": "2026-05-15T09:23:01.106Z"
+      }
+    ],
+    "createdAt": "2026-05-15T09:23:01.106Z",
+    "updatedAt": "2026-05-15T09:23:01.106Z",
+    "huntSource": "hunt_1778836922414_neli",
+    "huntScore": 33.5,
+    "huntPriority": "P2",
+    "huntCitationResults": [
+      {
+        "platform": "chatgpt",
+        "query": "best Real Estate Agent in Dallas",
+        "cited": false,
+        "competitorsCited": [
+          "Allie Beth Allman & Associates",
+          "Briggs Freeman Sotheby's International Realty",
+          "Van Poole Properties Group Keller Williams"
+        ]
+      }
+    ],
+    "huntDifferentiator": "Founded 2009, small boutique firm focusing on customer service, innovative technology-driven marketing",
+    "huntOutreachReady": true
+  },
+  {
+    "id": "lead_1778836981106_612o7z",
+    "businessName": "The Agency Dallas",
+    "contactFirstName": "Damon",
+    "contactEmail": "dallas@theagencyre.com",
+    "websiteUrl": "https://txrootsglobalre.com",
+    "city": "Dallas",
+    "serviceNiche": "Real Estate Agent",
+    "competitorName": "Allie Beth Allman & Associates",
+    "reviewCount": 31,
+    "rating": null,
+    "notes": "Auto-discovered by Lead Hunter. AI citation: not cited on 1/1 platforms. Competitors cited: Allie Beth Allman & Associates, Briggs Freeman Sotheby's International Realty, Van Poole Properties Group Keller Williams. Outreach-ready: YES (citation data + contact + differentiator verified). Differentiator: Established 2023, independently owned, award-winning agents, ranked top 1% nationwide",
+    "status": "queued",
+    "research": null,
+    "reportSlug": "the-agency-dallas-2mdy",
+    "emailDraftId": null,
+    "fabricationFlags": [],
+    "emDashClean": false,
+    "actionLog": [
+      {
+        "action": "Queued by Lead Hunter (P2, score: 27, outreach-ready: true)",
+        "timestamp": "2026-05-15T09:23:01.106Z"
+      }
+    ],
+    "createdAt": "2026-05-15T09:23:01.106Z",
+    "updatedAt": "2026-05-15T09:23:01.106Z",
+    "huntSource": "hunt_1778836922414_neli",
+    "huntScore": 27,
+    "huntPriority": "P2",
+    "huntCitationResults": [
+      {
+        "platform": "chatgpt",
+        "query": "best Real Estate Agent in Dallas",
+        "cited": false,
+        "competitorsCited": [
+          "Allie Beth Allman & Associates",
+          "Briggs Freeman Sotheby's International Realty",
+          "Van Poole Properties Group Keller Williams"
+        ]
+      }
+    ],
+    "huntDifferentiator": "Established 2023, independently owned, award-winning agents, ranked top 1% nationwide",
+    "huntOutreachReady": true
+  },
+  {
+    "id": "lead_1778836981106_aacats",
+    "businessName": "Briggs Freeman Sotheby's International Realty",
+    "contactFirstName": "Robbie",
+    "contactEmail": "social@briggsfreeman.com",
+    "websiteUrl": "https://www.briggsfreeman.com",
+    "city": "Dallas",
+    "serviceNiche": "Real Estate Agent",
+    "competitorName": "Allie Beth Allman & Associates",
+    "reviewCount": 138,
+    "rating": 4.8,
+    "notes": "Auto-discovered by Lead Hunter. AI citation: not cited on 0/1 platforms. Competitors cited: Allie Beth Allman & Associates, Van Poole Properties Group Keller Williams. Outreach-ready: YES (citation data + contact + differentiator verified). Differentiator: Founded 1960, #1 luxury brokerage in North Texas, Sotheby's International Realty network, 381 agents across 6 offices",
+    "status": "queued",
+    "research": null,
+    "reportSlug": "briggs-freeman-sotheby-s-international-realty-5ei0",
+    "emailDraftId": null,
+    "fabricationFlags": [],
+    "emDashClean": false,
+    "actionLog": [
+      {
+        "action": "Queued by Lead Hunter (P2, score: 31.5, outreach-ready: true)",
+        "timestamp": "2026-05-15T09:23:01.106Z"
+      }
+    ],
+    "createdAt": "2026-05-15T09:23:01.106Z",
+    "updatedAt": "2026-05-15T09:23:01.106Z",
+    "huntSource": "hunt_1778836922414_neli",
+    "huntScore": 31.5,
+    "huntPriority": "P2",
+    "huntCitationResults": [
+      {
+        "platform": "chatgpt",
+        "query": "best Real Estate Agent in Dallas",
+        "cited": true,
+        "competitorsCited": [
+          "Allie Beth Allman & Associates",
+          "Van Poole Properties Group Keller Williams"
+        ]
+      }
+    ],
+    "huntDifferentiator": "Founded 1960, #1 luxury brokerage in North Texas, Sotheby's International Realty network, 381 agents across 6 offices",
+    "huntOutreachReady": true
+  },
+  {
+    "id": "lead_1778836981106_yzxjzw",
+    "businessName": "Van Poole Properties Group Keller Williams",
+    "contactFirstName": "Seychelle",
+    "contactEmail": "barbara@vanpoole.com",
+    "websiteUrl": "https://vanpooleproperties.com",
+    "city": "Dallas",
+    "serviceNiche": "Real Estate Agent",
+    "competitorName": "Allie Beth Allman & Associates",
+    "reviewCount": 125,
+    "rating": 4.9,
+    "notes": "Auto-discovered by Lead Hunter. AI citation: not cited on 0/1 platforms. Competitors cited: Allie Beth Allman & Associates, Briggs Freeman Sotheby's International Realty. Outreach-ready: YES (citation data + contact + differentiator verified). Differentiator: Founded 2001, #1 team in #1 brokerage, top 1% nationwide, 75+ years combined experience, D Magazine Best Realtor 2006-2018",
+    "status": "queued",
+    "research": null,
+    "reportSlug": "van-poole-properties-group-keller-williams-qdff",
+    "emailDraftId": null,
+    "fabricationFlags": [],
+    "emDashClean": false,
+    "actionLog": [
+      {
+        "action": "Queued by Lead Hunter (P2, score: 31.5, outreach-ready: true)",
+        "timestamp": "2026-05-15T09:23:01.106Z"
+      }
+    ],
+    "createdAt": "2026-05-15T09:23:01.106Z",
+    "updatedAt": "2026-05-15T09:23:01.106Z",
+    "huntSource": "hunt_1778836922414_neli",
+    "huntScore": 31.5,
+    "huntPriority": "P2",
+    "huntCitationResults": [
+      {
+        "platform": "chatgpt",
+        "query": "best Real Estate Agent in Dallas",
+        "cited": true,
+        "competitorsCited": [
+          "Allie Beth Allman & Associates",
+          "Briggs Freeman Sotheby's International Realty"
+        ]
+      }
+    ],
+    "huntDifferentiator": "Founded 2001, #1 team in #1 brokerage, top 1% nationwide, 75+ years combined experience, D Magazine Best Realtor 2006-2018",
+    "huntOutreachReady": true
   }
 ]
