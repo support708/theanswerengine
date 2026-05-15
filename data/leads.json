@@ -4902,7 +4902,7 @@
     "reviewCount": 188,
     "rating": 4.8,
     "notes": "Auto-discovered by Lead Hunter. AI citation: not cited on 1/1 platforms. Competitors cited: Bilt-well Roofing, J and J Roofing, Smart Roofing. Outreach-ready: YES (citation data + contact + differentiator verified). Differentiator: 30+ years in business, family-owned 3rd generation, Eagle Rock based, Neighborhood Favorite 2021-2023",
-    "status": "follow_up_1",
+    "status": "follow_up_2",
     "research": {
       "reviewCount": 188,
       "rating": 4.8,
@@ -5022,10 +5022,14 @@
       {
         "action": "follow_up_1 auto-sent via Gmail (19dcfabd807dcb65)",
         "timestamp": "2026-04-27T16:00:41.286Z"
+      },
+      {
+        "action": "follow_up_2 auto-sent via Gmail (19e2c5ea614a9cfc)",
+        "timestamp": "2026-05-15T16:01:03.629Z"
       }
     ],
     "createdAt": "2026-04-09T14:00:57.391Z",
-    "updatedAt": "2026-04-27T16:00:41.435Z",
+    "updatedAt": "2026-05-15T16:01:03.768Z",
     "huntSource": "hunt_1775743210629_lqp4",
     "huntScore": 32,
     "huntPriority": "P2",
