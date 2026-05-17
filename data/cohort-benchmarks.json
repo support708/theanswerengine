@@ -90,13 +90,13 @@
       "cohortDisplayName": "Real Estate",
       "cohortSize": 4,
       "median": {
-        "authority_index": 48,
-        "impressions_28d": 1355,
+        "authority_index": 46,
+        "impressions_28d": 1362,
         "clicks_28d": 11,
-        "avg_position": 24.2,
-        "avg_ctr": 0.0107,
-        "unique_queries": 30,
-        "new_ranking_pages_28d": 30,
+        "avg_position": 24,
+        "avg_ctr": 0.0111,
+        "unique_queries": 29,
+        "new_ranking_pages_28d": 31,
         "review_count": 9,
         "review_rating": 2.5
       },
@@ -106,19 +106,19 @@
         "lamh",
         "lovery-re"
       ],
-      "computedAt": "2026-05-16T08:00:13.117Z"
+      "computedAt": "2026-05-17T08:00:12.298Z"
     },
     {
       "cohort": "property-management",
       "cohortDisplayName": "Property Management",
       "cohortSize": 1,
       "median": {
-        "authority_index": 76,
-        "impressions_28d": 15042,
+        "authority_index": 69,
+        "impressions_28d": 15830,
         "clicks_28d": 750,
         "avg_position": 5.1,
-        "avg_ctr": 0.0499,
-        "unique_queries": 88,
+        "avg_ctr": 0.0474,
+        "unique_queries": 90,
         "new_ranking_pages_28d": 32,
         "review_count": 880,
         "review_rating": 4.8
@@ -126,7 +126,7 @@
       "sampleSlugs": [
         "rpm-southland"
       ],
-      "computedAt": "2026-05-16T08:00:13.117Z"
+      "computedAt": "2026-05-17T08:00:12.298Z"
     },
     {
       "cohort": "builder-services",
@@ -146,19 +146,19 @@
       "sampleSlugs": [
         "clearclose"
       ],
-      "computedAt": "2026-05-16T08:00:13.117Z"
+      "computedAt": "2026-05-17T08:00:12.298Z"
     },
     {
       "cohort": "aeo-agency",
       "cohortDisplayName": "AEO Agency",
       "cohortSize": 1,
       "median": {
-        "authority_index": 40,
-        "impressions_28d": 1876,
-        "clicks_28d": 26,
-        "avg_position": 30.6,
-        "avg_ctr": 0.0139,
-        "unique_queries": 42,
+        "authority_index": 41,
+        "impressions_28d": 1706,
+        "clicks_28d": 0,
+        "avg_position": 27.8,
+        "avg_ctr": 0,
+        "unique_queries": 47,
         "new_ranking_pages_28d": 38,
         "review_count": 0,
         "review_rating": 0
@@ -166,7 +166,7 @@
       "sampleSlugs": [
         "the-answer-engine"
       ],
-      "computedAt": "2026-05-16T08:00:13.117Z"
+      "computedAt": "2026-05-17T08:00:12.298Z"
     }
   ]
 }
