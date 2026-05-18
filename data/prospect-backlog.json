@@ -1649,5 +1649,118 @@
       "total": 32
     },
     "priority": "P2"
+  },
+  {
+    "businessName": "Spring Branch AC",
+    "contactName": "Chris Crawford",
+    "website": "https://springbranchac.com/",
+    "phone": "(713) 999-6411",
+    "city": "Houston",
+    "state": "TX",
+    "serviceNiche": "HVAC Contractor",
+    "reviewCount": 371,
+    "rating": 4.9,
+    "painSignals": [
+      "Spring Branch AC appears in AI recommendations but may have optimization gaps"
+    ],
+    "citationResults": [
+      {
+        "platform": "chatgpt",
+        "query": "best HVAC Contractor in Houston",
+        "cited": true,
+        "competitorsCited": [
+          "75 Degree AC",
+          "Air Innovations",
+          "The Chill Brothers",
+          "All American AC & Heating"
+        ]
+      }
+    ],
+    "differentiator": "Serving Houston since 1956 (70+ years), 371 Google reviews at 4.9 stars, NATE-certified technicians, 24/7 availability with no weekend upcharges",
+    "outreachReady": true,
+    "scoreBreakdown": {
+      "aiBlindSpot": 5,
+      "reputationStrength": 12.5,
+      "contentGap": 6,
+      "revenuePotential": 6,
+      "contactQuality": 3,
+      "total": 32.5
+    },
+    "priority": "P2"
+  },
+  {
+    "businessName": "Air Innovations",
+    "contactName": "Troy Behrens",
+    "website": "https://www.airinnovationsllc.com/",
+    "phone": "(281) 830-2412",
+    "city": "Houston",
+    "state": "TX",
+    "serviceNiche": "HVAC Contractor",
+    "reviewCount": 1253,
+    "rating": 4.7,
+    "painSignals": [
+      "Air Innovations appears in AI recommendations but may have optimization gaps"
+    ],
+    "citationResults": [
+      {
+        "platform": "chatgpt",
+        "query": "best HVAC Contractor in Houston",
+        "cited": true,
+        "competitorsCited": [
+          "75 Degree AC",
+          "Spring Branch AC",
+          "The Chill Brothers",
+          "All American AC & Heating"
+        ]
+      }
+    ],
+    "differentiator": "Family-owned since 2005, BBB A+ accredited, 1253 Google reviews, specializes in indoor air quality and custom HVAC design",
+    "outreachReady": true,
+    "scoreBreakdown": {
+      "aiBlindSpot": 5,
+      "reputationStrength": 12.5,
+      "contentGap": 6,
+      "revenuePotential": 6,
+      "contactQuality": 3,
+      "total": 32.5
+    },
+    "priority": "P2"
+  },
+  {
+    "businessName": "Texas Central Air",
+    "contactName": "David",
+    "website": "https://texascentralair.com/",
+    "phone": "(281) 727-0327",
+    "city": "Houston",
+    "state": "TX",
+    "serviceNiche": "HVAC Contractor",
+    "painSignals": [
+      "Texas Central Air has multiple Google reviews but is not recommended by AI assistants for \"HVAC Contractor in Houston\""
+    ],
+    "citationResults": [
+      {
+        "platform": "chatgpt",
+        "query": "best HVAC Contractor in Houston",
+        "cited": false,
+        "competitorsCited": [
+          "75 Degree AC",
+          "Spring Branch AC",
+          "Air Innovations",
+          "The Chill Brothers",
+          "All American AC & Heating"
+        ]
+      }
+    ],
+    "differentiator": "Specializes in commercial and industrial HVAC, energy-efficient systems, 1-year labor warranty, 10+ years serving Houston",
+    "outreachReady": true,
+    "scoreBreakdown": {
+      "aiBlindSpot": 9,
+      "reputationStrength": 0,
+      "contentGap": 6,
+      "revenuePotential": 6,
+      "contactQuality": 3,
+      "total": 24
+    },
+    "priority": "P3"
   }
 ]

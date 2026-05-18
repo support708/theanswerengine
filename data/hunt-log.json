@@ -422,5 +422,20 @@
     "outreachReadyCount": 0,
     "errors": [],
     "completedAt": "2026-05-15T14:01:40.818Z"
+  },
+  {
+    "id": "hunt_1779112846945_e9sz",
+    "startedAt": "2026-05-18T14:00:46.945Z",
+    "trigger": "cron_daily",
+    "vertical": "HVAC Contractor",
+    "metro": "Houston, TX",
+    "prospectsFound": 10,
+    "p1Queued": 4,
+    "p2Queued": 3,
+    "p3Backlogged": 3,
+    "duplicatesSkipped": 0,
+    "outreachReadyCount": 7,
+    "errors": [],
+    "completedAt": "2026-05-18T14:01:37.264Z"
   }
 ]

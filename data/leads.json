@@ -8112,5 +8112,324 @@
     ],
     "huntDifferentiator": "Founded 2001, #1 team in #1 brokerage, top 1% nationwide, 75+ years combined experience, D Magazine Best Realtor 2006-2018",
     "huntOutreachReady": true
+  },
+  {
+    "id": "lead_1779112897263_v23di9",
+    "businessName": "75 Degree AC",
+    "contactFirstName": "Kenny",
+    "contactEmail": "75degreeacservices@gmail.com",
+    "websiteUrl": "https://75degreeac.com/",
+    "city": "Houston",
+    "serviceNiche": "HVAC Contractor",
+    "competitorName": "Spring Branch AC",
+    "reviewCount": 230,
+    "rating": 5,
+    "notes": "Auto-discovered by Lead Hunter. AI citation: not cited on 0/1 platforms. Competitors cited: Spring Branch AC, Air Innovations, The Chill Brothers. Outreach-ready: YES (citation data + contact + differentiator verified). Differentiator: 5.0 star rating across 230+ Google reviews, founded 2016, specializes in same-day emergency AC repair with transparent pricing",
+    "status": "queued",
+    "research": null,
+    "reportSlug": "75-degree-ac-xwfj",
+    "emailDraftId": null,
+    "fabricationFlags": [],
+    "emDashClean": false,
+    "actionLog": [
+      {
+        "action": "Queued by Lead Hunter (P2, score: 34.5, outreach-ready: true)",
+        "timestamp": "2026-05-18T14:01:37.263Z"
+      }
+    ],
+    "createdAt": "2026-05-18T14:01:37.263Z",
+    "updatedAt": "2026-05-18T14:01:37.263Z",
+    "huntSource": "hunt_1779112846945_e9sz",
+    "huntScore": 34.5,
+    "huntPriority": "P2",
+    "huntCitationResults": [
+      {
+        "platform": "chatgpt",
+        "query": "best HVAC Contractor in Houston",
+        "cited": true,
+        "competitorsCited": [
+          "Spring Branch AC",
+          "Air Innovations",
+          "The Chill Brothers",
+          "All American AC & Heating"
+        ]
+      }
+    ],
+    "huntDifferentiator": "5.0 star rating across 230+ Google reviews, founded 2016, specializes in same-day emergency AC repair with transparent pricing",
+    "huntOutreachReady": true
+  },
+  {
+    "id": "lead_1779112897264_a58bcj",
+    "businessName": "Global Air Service",
+    "contactFirstName": "Nicholas",
+    "contactEmail": "sales@globalairservicetx.com",
+    "websiteUrl": "https://globalairservicetx.com/",
+    "city": "Houston",
+    "serviceNiche": "HVAC Contractor",
+    "competitorName": "75 Degree AC",
+    "reviewCount": 350,
+    "rating": 4.8,
+    "notes": "Auto-discovered by Lead Hunter. AI citation: not cited on 1/1 platforms. Competitors cited: 75 Degree AC, Spring Branch AC, Air Innovations. Outreach-ready: YES (citation data + contact + differentiator verified). Differentiator: Family-owned company, 4.8 star rating, same-day and next-day service availability, Carrier dealer, 10 years experience",
+    "status": "queued",
+    "research": null,
+    "reportSlug": "global-air-service-nryv",
+    "emailDraftId": null,
+    "fabricationFlags": [],
+    "emDashClean": false,
+    "actionLog": [
+      {
+        "action": "Queued by Lead Hunter (P1, score: 38.5, outreach-ready: true)",
+        "timestamp": "2026-05-18T14:01:37.264Z"
+      }
+    ],
+    "createdAt": "2026-05-18T14:01:37.264Z",
+    "updatedAt": "2026-05-18T14:01:37.264Z",
+    "huntSource": "hunt_1779112846945_e9sz",
+    "huntScore": 38.5,
+    "huntPriority": "P1",
+    "huntCitationResults": [
+      {
+        "platform": "chatgpt",
+        "query": "best HVAC Contractor in Houston",
+        "cited": false,
+        "competitorsCited": [
+          "75 Degree AC",
+          "Spring Branch AC",
+          "Air Innovations",
+          "The Chill Brothers",
+          "All American AC & Heating"
+        ]
+      }
+    ],
+    "huntDifferentiator": "Family-owned company, 4.8 star rating, same-day and next-day service availability, Carrier dealer, 10 years experience",
+    "huntOutreachReady": true
+  },
+  {
+    "id": "lead_1779112897264_ecdmid",
+    "businessName": "The Chill Brothers",
+    "contactFirstName": "Andrew",
+    "contactEmail": "hello@thechillbrothers.com",
+    "websiteUrl": "https://thechillbrothers.com/",
+    "city": "Houston",
+    "serviceNiche": "HVAC Contractor",
+    "competitorName": "75 Degree AC",
+    "reviewCount": 294,
+    "rating": 4.1,
+    "notes": "Auto-discovered by Lead Hunter. AI citation: not cited on 0/1 platforms. Competitors cited: 75 Degree AC, Spring Branch AC, Air Innovations. Outreach-ready: YES (citation data + contact + differentiator verified). Differentiator: Award-winning (Houston Chronicle Best of the Best twice, Angi Super Service Award 3x), 3000+ AC installations, Premium Lennox Dealer, 50+ years combined experience",
+    "status": "queued",
+    "research": null,
+    "reportSlug": "the-chill-brothers-63bc",
+    "emailDraftId": null,
+    "fabricationFlags": [],
+    "emDashClean": false,
+    "actionLog": [
+      {
+        "action": "Queued by Lead Hunter (P2, score: 32.5, outreach-ready: true)",
+        "timestamp": "2026-05-18T14:01:37.264Z"
+      }
+    ],
+    "createdAt": "2026-05-18T14:01:37.264Z",
+    "updatedAt": "2026-05-18T14:01:37.264Z",
+    "huntSource": "hunt_1779112846945_e9sz",
+    "huntScore": 32.5,
+    "huntPriority": "P2",
+    "huntCitationResults": [
+      {
+        "platform": "chatgpt",
+        "query": "best HVAC Contractor in Houston",
+        "cited": true,
+        "competitorsCited": [
+          "75 Degree AC",
+          "Spring Branch AC",
+          "Air Innovations",
+          "All American AC & Heating"
+        ]
+      }
+    ],
+    "huntDifferentiator": "Award-winning (Houston Chronicle Best of the Best twice, Angi Super Service Award 3x), 3000+ AC installations, Premium Lennox Dealer, 50+ years combined experience",
+    "huntOutreachReady": true
+  },
+  {
+    "id": "lead_1779112897264_2gbkkn",
+    "businessName": "All American AC & Heating",
+    "contactFirstName": "Adrian",
+    "contactEmail": "allamericanacandheatusa@gmail.com",
+    "websiteUrl": "https://allamericanacandheat.com/",
+    "city": "Houston",
+    "serviceNiche": "HVAC Contractor",
+    "competitorName": "75 Degree AC",
+    "reviewCount": 929,
+    "rating": 4.8,
+    "notes": "Auto-discovered by Lead Hunter. AI citation: not cited on 0/1 platforms. Competitors cited: 75 Degree AC, Spring Branch AC, Air Innovations. Outreach-ready: YES (citation data + contact + differentiator verified). Differentiator: Family-owned and operated, 25+ years experience, 929 Google reviews at 4.8 stars, transparent diagnostics with photo documentation",
+    "status": "queued",
+    "research": null,
+    "reportSlug": "all-american-ac-heating-vzhp",
+    "emailDraftId": null,
+    "fabricationFlags": [],
+    "emDashClean": false,
+    "actionLog": [
+      {
+        "action": "Queued by Lead Hunter (P2, score: 34.5, outreach-ready: true)",
+        "timestamp": "2026-05-18T14:01:37.264Z"
+      }
+    ],
+    "createdAt": "2026-05-18T14:01:37.264Z",
+    "updatedAt": "2026-05-18T14:01:37.264Z",
+    "huntSource": "hunt_1779112846945_e9sz",
+    "huntScore": 34.5,
+    "huntPriority": "P2",
+    "huntCitationResults": [
+      {
+        "platform": "chatgpt",
+        "query": "best HVAC Contractor in Houston",
+        "cited": true,
+        "competitorsCited": [
+          "75 Degree AC",
+          "Spring Branch AC",
+          "Air Innovations",
+          "The Chill Brothers"
+        ]
+      }
+    ],
+    "huntDifferentiator": "Family-owned and operated, 25+ years experience, 929 Google reviews at 4.8 stars, transparent diagnostics with photo documentation",
+    "huntOutreachReady": true
+  },
+  {
+    "id": "lead_1779112897264_v86k30",
+    "businessName": "Smart Air",
+    "contactFirstName": "Jay",
+    "contactEmail": "houstonsmartair@outlook.com",
+    "websiteUrl": "https://www.houstonsmartair.com/",
+    "city": "Houston",
+    "serviceNiche": "HVAC Contractor",
+    "competitorName": "75 Degree AC",
+    "reviewCount": 332,
+    "rating": 4.9,
+    "notes": "Auto-discovered by Lead Hunter. AI citation: not cited on 1/1 platforms. Competitors cited: 75 Degree AC, Spring Branch AC, Air Innovations. Outreach-ready: YES (citation data + contact + differentiator verified). Differentiator: Family-owned with 4.9 star rating, same-day/next-day service, 12-year parts and labor warranty on Daikin systems, known for honest diagnostics",
+    "status": "queued",
+    "research": null,
+    "reportSlug": "smart-air-r9kz",
+    "emailDraftId": null,
+    "fabricationFlags": [],
+    "emDashClean": false,
+    "actionLog": [
+      {
+        "action": "Queued by Lead Hunter (P1, score: 38.5, outreach-ready: true)",
+        "timestamp": "2026-05-18T14:01:37.264Z"
+      }
+    ],
+    "createdAt": "2026-05-18T14:01:37.264Z",
+    "updatedAt": "2026-05-18T14:01:37.264Z",
+    "huntSource": "hunt_1779112846945_e9sz",
+    "huntScore": 38.5,
+    "huntPriority": "P1",
+    "huntCitationResults": [
+      {
+        "platform": "chatgpt",
+        "query": "best HVAC Contractor in Houston",
+        "cited": false,
+        "competitorsCited": [
+          "75 Degree AC",
+          "Spring Branch AC",
+          "Air Innovations",
+          "The Chill Brothers",
+          "All American AC & Heating"
+        ]
+      }
+    ],
+    "huntDifferentiator": "Family-owned with 4.9 star rating, same-day/next-day service, 12-year parts and labor warranty on Daikin systems, known for honest diagnostics",
+    "huntOutreachReady": true
+  },
+  {
+    "id": "lead_1779112897264_p0jwhz",
+    "businessName": "Air Depot",
+    "contactFirstName": "Kenneth",
+    "contactEmail": "info@airdepot.com",
+    "websiteUrl": "https://airdepot.com/",
+    "city": "Houston",
+    "serviceNiche": "HVAC Contractor",
+    "competitorName": "75 Degree AC",
+    "reviewCount": 359,
+    "rating": 4.8,
+    "notes": "Auto-discovered by Lead Hunter. AI citation: not cited on 1/1 platforms. Competitors cited: 75 Degree AC, Spring Branch AC, Air Innovations. Outreach-ready: YES (citation data + contact + differentiator verified). Differentiator: Family-owned since 1977 (50+ years), A+ BBB rating with multiple Gold Star awards, 359 reviews at 4.8 stars, Nextdoor Neighborhood Fave 2021-2023",
+    "status": "queued",
+    "research": null,
+    "reportSlug": "air-depot-mo2j",
+    "emailDraftId": null,
+    "fabricationFlags": [],
+    "emDashClean": false,
+    "actionLog": [
+      {
+        "action": "Queued by Lead Hunter (P1, score: 38.5, outreach-ready: true)",
+        "timestamp": "2026-05-18T14:01:37.264Z"
+      }
+    ],
+    "createdAt": "2026-05-18T14:01:37.264Z",
+    "updatedAt": "2026-05-18T14:01:37.264Z",
+    "huntSource": "hunt_1779112846945_e9sz",
+    "huntScore": 38.5,
+    "huntPriority": "P1",
+    "huntCitationResults": [
+      {
+        "platform": "chatgpt",
+        "query": "best HVAC Contractor in Houston",
+        "cited": false,
+        "competitorsCited": [
+          "75 Degree AC",
+          "Spring Branch AC",
+          "Air Innovations",
+          "The Chill Brothers",
+          "All American AC & Heating"
+        ]
+      }
+    ],
+    "huntDifferentiator": "Family-owned since 1977 (50+ years), A+ BBB rating with multiple Gold Star awards, 359 reviews at 4.8 stars, Nextdoor Neighborhood Fave 2021-2023",
+    "huntOutreachReady": true
+  },
+  {
+    "id": "lead_1779112897264_warq1n",
+    "businessName": "Air Tech of Houston",
+    "contactFirstName": "Larry",
+    "contactEmail": "service@airtechofhouston.com",
+    "websiteUrl": "https://www.airtechofhouston.com/",
+    "city": "Houston",
+    "serviceNiche": "HVAC Contractor",
+    "competitorName": "75 Degree AC",
+    "reviewCount": 5638,
+    "rating": 4.9,
+    "notes": "Auto-discovered by Lead Hunter. AI citation: not cited on 1/1 platforms. Competitors cited: 75 Degree AC, Spring Branch AC, Air Innovations. Outreach-ready: YES (citation data + contact + differentiator verified). Differentiator: Operating since 1985, 5638 verified reviews at 4.9 stars, 24/7 emergency service, multi-service provider (HVAC, plumbing, electrical)",
+    "status": "queued",
+    "research": null,
+    "reportSlug": "air-tech-of-houston-w4da",
+    "emailDraftId": null,
+    "fabricationFlags": [],
+    "emDashClean": false,
+    "actionLog": [
+      {
+        "action": "Queued by Lead Hunter (P1, score: 38.5, outreach-ready: true)",
+        "timestamp": "2026-05-18T14:01:37.264Z"
+      }
+    ],
+    "createdAt": "2026-05-18T14:01:37.264Z",
+    "updatedAt": "2026-05-18T14:01:37.264Z",
+    "huntSource": "hunt_1779112846945_e9sz",
+    "huntScore": 38.5,
+    "huntPriority": "P1",
+    "huntCitationResults": [
+      {
+        "platform": "chatgpt",
+        "query": "best HVAC Contractor in Houston",
+        "cited": false,
+        "competitorsCited": [
+          "75 Degree AC",
+          "Spring Branch AC",
+          "Air Innovations",
+          "The Chill Brothers",
+          "All American AC & Heating"
+        ]
+      }
+    ],
+    "huntDifferentiator": "Operating since 1985, 5638 verified reviews at 4.9 stars, 24/7 emergency service, multi-service provider (HVAC, plumbing, electrical)",
+    "huntOutreachReady": true
   }
 ]
