@@ -1,0 +1,133 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="bgHJ" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0d1424;stop-opacity:1"/>
+      <stop offset="55%" style="stop-color:#0F1117;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#2a1a08;stop-opacity:1"/>
+    </linearGradient>
+    <filter id="glowHJ"><feGaussianBlur stdDeviation="5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <filter id="glowSoftHJ"><feGaussianBlur stdDeviation="16" result="bs"/><feMerge><feMergeNode in="bs"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <filter id="glowOrangeHJ"><feGaussianBlur stdDeviation="10" result="bo"/><feMerge><feMergeNode in="bo"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <filter id="shadowDim"><feDropShadow dx="0" dy="2" stdDeviation="8" flood-color="rgba(0,0,0,0.5)"/></filter>
+    <marker id="arrowOrange" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#FF6A00"/>
+    </marker>
+    <marker id="arrowDim" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="rgba(255,255,255,0.15)"/>
+    </marker>
+    <marker id="arrowRed" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#e53935"/>
+    </marker>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="630" fill="url(#bgHJ)"/>
+
+  <!-- Subtle grid -->
+  <pattern id="gridHJ" width="40" height="40" patternUnits="userSpaceOnUse">
+    <path d="M 40 0 L 0 0 0 40" fill="none" stroke="rgba(255,255,255,0.025)" stroke-width="0.5"/>
+  </pattern>
+  <rect width="1200" height="630" fill="url(#gridHJ)"/>
+
+  <!-- Ambient glow: left doc (yours) -->
+  <ellipse cx="340" cy="320" rx="180" ry="120" fill="rgba(255,106,0,0.06)" filter="url(#glowSoftHJ)"/>
+
+  <!-- Ambient glow: right doc (competitor) -->
+  <ellipse cx="860" cy="320" rx="180" ry="120" fill="rgba(229,57,53,0.06)" filter="url(#glowSoftHJ)"/>
+
+  <!-- Title block -->
+  <text x="600" y="60" font-family="system-ui, sans-serif" font-size="14" font-weight="700" fill="#FF6A00" text-anchor="middle" letter-spacing="4">DIAGNOSTIC &amp; TROUBLESHOOTING</text>
+  <text x="600" y="102" font-family="system-ui, sans-serif" font-size="36" font-weight="800" fill="white" text-anchor="middle">AI Cites Your Competitor</text>
+  <text x="600" y="140" font-family="system-ui, sans-serif" font-size="36" font-weight="800" fill="white" text-anchor="middle">Using <tspan fill="#FF6A00">Your Content</tspan></text>
+  <text x="600" y="172" font-family="system-ui, sans-serif" font-size="16" fill="rgba(255,255,255,0.45)" text-anchor="middle">The attribution gap: 47 days from publication to hijacked citation</text>
+
+  <!-- YOUR DOCUMENT (left) -->
+  <g transform="translate(160, 200)">
+    <!-- Document card -->
+    <rect x="0" y="0" width="300" height="220" rx="14" fill="rgba(255,106,0,0.07)" stroke="#FF6A00" stroke-width="1.5" filter="url(#glowHJ)"/>
+    <!-- Header bar -->
+    <rect x="0" y="0" width="300" height="36" rx="14" fill="rgba(255,106,0,0.15)"/>
+    <rect x="0" y="22" width="300" height="14" fill="rgba(255,106,0,0.15)"/>
+    <text x="150" y="24" font-family="system-ui, sans-serif" font-size="12" font-weight="700" fill="white" text-anchor="middle">YOUR ORIGINAL CONTENT</text>
+    <!-- Content lines -->
+    <rect x="20" y="50" width="180" height="8" rx="4" fill="rgba(255,255,255,0.2)"/>
+    <rect x="20" y="66" width="240" height="8" rx="4" fill="rgba(255,255,255,0.12)"/>
+    <rect x="20" y="82" width="200" height="8" rx="4" fill="rgba(255,255,255,0.12)"/>
+    <!-- Highlighted stat row (your data) -->
+    <rect x="16" y="100" width="268" height="34" rx="6" fill="rgba(255,106,0,0.15)" stroke="rgba(255,106,0,0.4)" stroke-width="1"/>
+    <text x="150" y="118" font-family="system-ui, sans-serif" font-size="11" font-weight="700" fill="#FF6A00" text-anchor="middle">&#34;47-day attribution window&#34; — stat</text>
+    <text x="150" y="130" font-family="system-ui, sans-serif" font-size="9" fill="rgba(255,106,0,0.6)" text-anchor="middle">ORIGINAL SOURCE</text>
+    <!-- More content lines -->
+    <rect x="20" y="144" width="220" height="8" rx="4" fill="rgba(255,255,255,0.1)"/>
+    <rect x="20" y="160" width="180" height="8" rx="4" fill="rgba(255,255,255,0.08)"/>
+    <!-- Schema badge -->
+    <rect x="20" y="180" width="100" height="22" rx="5" fill="rgba(255,106,0,0.08)" stroke="rgba(255,106,0,0.25)" stroke-width="1"/>
+    <text x="70" y="195" font-family="system-ui, sans-serif" font-size="9" fill="rgba(255,106,0,0.6)" text-anchor="middle">datePublished: 2026</text>
+    <!-- Published label -->
+    <text x="150" y="212" font-family="system-ui, sans-serif" font-size="10" fill="rgba(255,255,255,0.35)" text-anchor="middle">Published Day 0</text>
+  </g>
+
+  <!-- CITATION PATH: Fork -->
+  <!-- Expected path (yours, faded/broken) -->
+  <line x1="462" y1="310" x2="530" y2="310" stroke="rgba(255,106,0,0.25)" stroke-width="2" stroke-dasharray="6 5" marker-end="url(#arrowDim)"/>
+
+  <!-- Citation chip (center) -->
+  <g transform="translate(530, 280)">
+    <rect x="0" y="0" width="140" height="60" rx="10" fill="rgba(255,255,255,0.04)" stroke="rgba(255,255,255,0.12)" stroke-width="1.5"/>
+    <text x="70" y="24" font-family="system-ui, sans-serif" font-size="11" font-weight="700" fill="rgba(255,255,255,0.7)" text-anchor="middle">AI CITATION</text>
+    <text x="70" y="40" font-family="system-ui, sans-serif" font-size="10" fill="rgba(255,255,255,0.35)" text-anchor="middle">DECISION</text>
+    <text x="70" y="54" font-family="system-ui, sans-serif" font-size="9" fill="rgba(255,106,0,0.5)" text-anchor="middle">off-page signals win</text>
+  </g>
+
+  <!-- Actual citation path (competitor, glowing red/orange) -->
+  <path d="M 670 310 Q 730 310 738 280" stroke="#e53935" stroke-width="2.5" fill="none" marker-end="url(#arrowRed)" filter="url(#glowHJ)"/>
+
+  <!-- X mark on your path -->
+  <text x="506" y="305" font-family="system-ui, sans-serif" font-size="16" fill="rgba(229,57,53,0.8)" text-anchor="middle" font-weight="900">&#10005;</text>
+
+  <!-- COMPETITOR DOCUMENT (right) -->
+  <g transform="translate(738, 170)">
+    <!-- Document card — highlighted as winner -->
+    <rect x="0" y="0" width="300" height="250" rx="14" fill="rgba(229,57,53,0.07)" stroke="rgba(229,57,53,0.5)" stroke-width="2" filter="url(#glowSoftHJ)"/>
+    <!-- Header bar -->
+    <rect x="0" y="0" width="300" height="36" rx="14" fill="rgba(229,57,53,0.18)"/>
+    <rect x="0" y="22" width="300" height="14" fill="rgba(229,57,53,0.18)"/>
+    <text x="150" y="24" font-family="system-ui, sans-serif" font-size="12" font-weight="700" fill="rgba(229,57,53,0.9)" text-anchor="middle">COMPETITOR REPUBLISHED VERSION</text>
+    <!-- Content lines -->
+    <rect x="20" y="50" width="180" height="8" rx="4" fill="rgba(255,255,255,0.15)"/>
+    <rect x="20" y="66" width="240" height="8" rx="4" fill="rgba(255,255,255,0.1)"/>
+    <rect x="20" y="82" width="200" height="8" rx="4" fill="rgba(255,255,255,0.1)"/>
+    <!-- Same stat row (paraphrased) -->
+    <rect x="16" y="100" width="268" height="34" rx="6" fill="rgba(229,57,53,0.12)" stroke="rgba(229,57,53,0.35)" stroke-width="1"/>
+    <text x="150" y="118" font-family="system-ui, sans-serif" font-size="11" font-weight="700" fill="rgba(229,57,53,0.9)" text-anchor="middle">&#34;47-day window&#34; — paraphrased</text>
+    <text x="150" y="130" font-family="system-ui, sans-serif" font-size="9" fill="rgba(229,57,53,0.6)" text-anchor="middle">STRONGER OFF-PAGE SIGNALS</text>
+    <!-- More content lines -->
+    <rect x="20" y="144" width="220" height="8" rx="4" fill="rgba(255,255,255,0.08)"/>
+    <rect x="20" y="160" width="180" height="8" rx="4" fill="rgba(255,255,255,0.06)"/>
+    <!-- Citation badge (AI CITES THIS) -->
+    <rect x="60" y="180" width="180" height="34" rx="8" fill="rgba(229,57,53,0.2)" stroke="rgba(229,57,53,0.6)" stroke-width="1.5"/>
+    <text x="150" y="200" font-family="system-ui, sans-serif" font-size="12" font-weight="800" fill="#e57373" text-anchor="middle">AI CITES THIS VERSION</text>
+    <!-- Published after -->
+    <text x="150" y="240" font-family="system-ui, sans-serif" font-size="10" fill="rgba(255,255,255,0.3)" text-anchor="middle">Published Day 47+</text>
+  </g>
+
+  <!-- Stat strip -->
+  <rect x="80" y="466" width="1040" height="60" rx="10" fill="rgba(255,106,0,0.05)" stroke="rgba(255,106,0,0.12)" stroke-width="1"/>
+
+  <text x="250" y="490" font-family="system-ui, sans-serif" font-size="11" fill="rgba(255,255,255,0.4)" text-anchor="middle">Attribution gap average</text>
+  <text x="250" y="508" font-family="system-ui, sans-serif" font-size="13" fill="#FF6A00" text-anchor="middle" font-weight="700">47 days to hijack</text>
+
+  <line x1="400" y1="476" x2="400" y2="516" stroke="rgba(255,106,0,0.15)" stroke-width="1"/>
+
+  <text x="600" y="490" font-family="system-ui, sans-serif" font-size="11" fill="rgba(255,255,255,0.4)" text-anchor="middle">Earned media drives</text>
+  <text x="600" y="508" font-family="system-ui, sans-serif" font-size="13" fill="#FF6A00" text-anchor="middle" font-weight="700">84% of AI citations</text>
+
+  <line x1="800" y1="476" x2="800" y2="516" stroke="rgba(255,106,0,0.15)" stroke-width="1"/>
+
+  <text x="960" y="490" font-family="system-ui, sans-serif" font-size="11" fill="rgba(255,255,255,0.4)" text-anchor="middle">DeepSeek misattributed</text>
+  <text x="960" y="508" font-family="system-ui, sans-serif" font-size="13" fill="#FF6A00" text-anchor="middle" font-weight="700">115 of 200 sources (CJR)</text>
+
+  <!-- Bottom strip -->
+  <rect x="0" y="600" width="1200" height="30" fill="#FF6A00" opacity="0.07"/>
+  <text x="600" y="620" font-family="system-ui, sans-serif" font-size="13" fill="#FF6A00" text-anchor="middle" font-weight="700" letter-spacing="3">THE ANSWER ENGINE</text>
+</svg>
