@@ -8431,5 +8431,97 @@
     ],
     "huntDifferentiator": "Operating since 1985, 5638 verified reviews at 4.9 stars, 24/7 emergency service, multi-service provider (HVAC, plumbing, electrical)",
     "huntOutreachReady": true
+  },
+  {
+    "id": "lead_1779199301634_grlvzd",
+    "businessName": "Family Roofing",
+    "contactFirstName": "Amiram",
+    "contactEmail": "ami@familyroofinginc.com",
+    "websiteUrl": "https://familyroofinginc.com/",
+    "city": "Los Angeles",
+    "serviceNiche": "Roofing Contractor",
+    "competitorName": "Smart Roofing",
+    "reviewCount": 35,
+    "rating": 4.9,
+    "notes": "Auto-discovered by Lead Hunter. AI citation: not cited on 1/1 platforms. Competitors cited: Smart Roofing, Final Touch Roofing, Bilt-well Roofing. Outreach-ready: YES (citation data + contact + differentiator verified). Differentiator: Recently established 2024, BBB Accredited A rating, owner Ami B. highlighted for excellent customer service, BuildZoom score 93, owner-involved in every project",
+    "status": "queued",
+    "research": null,
+    "reportSlug": "family-roofing-hc31",
+    "emailDraftId": null,
+    "fabricationFlags": [],
+    "emDashClean": false,
+    "actionLog": [
+      {
+        "action": "Queued by Lead Hunter (P1, score: 35, outreach-ready: true)",
+        "timestamp": "2026-05-19T14:01:41.634Z"
+      }
+    ],
+    "createdAt": "2026-05-19T14:01:41.634Z",
+    "updatedAt": "2026-05-19T14:01:41.634Z",
+    "huntSource": "hunt_1779199247659_1ar1",
+    "huntScore": 35,
+    "huntPriority": "P1",
+    "huntCitationResults": [
+      {
+        "platform": "chatgpt",
+        "query": "best Roofing Contractor in Los Angeles",
+        "cited": false,
+        "competitorsCited": [
+          "Smart Roofing",
+          "Final Touch Roofing",
+          "Bilt-well Roofing",
+          "J and J Roofing",
+          "Preferred Roofing"
+        ]
+      }
+    ],
+    "huntDifferentiator": "Recently established 2024, BBB Accredited A rating, owner Ami B. highlighted for excellent customer service, BuildZoom score 93, owner-involved in every project",
+    "huntOutreachReady": true
+  },
+  {
+    "id": "lead_1779199301635_fph996",
+    "businessName": "The Roofer Bros",
+    "contactFirstName": "Contact",
+    "contactEmail": "contact@therooferbros.com",
+    "websiteUrl": "https://therooferbros.com/",
+    "city": "Los Angeles",
+    "serviceNiche": "Roofing Contractor",
+    "competitorName": "Smart Roofing",
+    "reviewCount": 13,
+    "rating": 4.8,
+    "notes": "Auto-discovered by Lead Hunter. AI citation: not cited on 1/1 platforms. Competitors cited: Smart Roofing, Final Touch Roofing, Bilt-well Roofing. Outreach-ready: YES (citation data + contact + differentiator verified). Differentiator: 10+ years experience, BuildZoom score 117 (top 1% of CA contractors), 98 building permits completed, known for fast emergency response and thorough cleanup",
+    "status": "queued",
+    "research": null,
+    "reportSlug": "the-roofer-bros-xur9",
+    "emailDraftId": null,
+    "fabricationFlags": [],
+    "emDashClean": false,
+    "actionLog": [
+      {
+        "action": "Queued by Lead Hunter (P2, score: 33.5, outreach-ready: true)",
+        "timestamp": "2026-05-19T14:01:41.635Z"
+      }
+    ],
+    "createdAt": "2026-05-19T14:01:41.635Z",
+    "updatedAt": "2026-05-19T14:01:41.635Z",
+    "huntSource": "hunt_1779199247659_1ar1",
+    "huntScore": 33.5,
+    "huntPriority": "P2",
+    "huntCitationResults": [
+      {
+        "platform": "chatgpt",
+        "query": "best Roofing Contractor in Los Angeles",
+        "cited": false,
+        "competitorsCited": [
+          "Smart Roofing",
+          "Final Touch Roofing",
+          "Bilt-well Roofing",
+          "J and J Roofing",
+          "Preferred Roofing"
+        ]
+      }
+    ],
+    "huntDifferentiator": "10+ years experience, BuildZoom score 117 (top 1% of CA contractors), 98 building permits completed, known for fast emergency response and thorough cleanup",
+    "huntOutreachReady": true
   }
 ]

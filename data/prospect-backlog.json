@@ -1762,5 +1762,42 @@
       "total": 24
     },
     "priority": "P3"
+  },
+  {
+    "businessName": "Costa Roofing",
+    "contactName": "Contact via website",
+    "website": "https://costaroof.com/",
+    "phone": "(424) 218-6573",
+    "city": "Los Angeles",
+    "state": "",
+    "serviceNiche": "Roofing Contractor",
+    "painSignals": [
+      "Costa Roofing has multiple Google reviews but is not recommended by AI assistants for \"Roofing Contractor in Los Angeles\""
+    ],
+    "citationResults": [
+      {
+        "platform": "chatgpt",
+        "query": "best Roofing Contractor in Los Angeles",
+        "cited": false,
+        "competitorsCited": [
+          "Smart Roofing",
+          "Final Touch Roofing",
+          "Bilt-well Roofing",
+          "J and J Roofing",
+          "Preferred Roofing"
+        ]
+      }
+    ],
+    "differentiator": "25+ years in business, specializes in commercial roofing with manufacturer approvals (Sarnafil, APOC, Sika), GAF-certified, lifetime warranties, owner-involved on every project",
+    "outreachReady": true,
+    "scoreBreakdown": {
+      "aiBlindSpot": 9,
+      "reputationStrength": 0,
+      "contentGap": 6,
+      "revenuePotential": 6,
+      "contactQuality": 3,
+      "total": 24
+    },
+    "priority": "P3"
   }
 ]
