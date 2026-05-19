@@ -7798,7 +7798,7 @@
     "reviewCount": 4,
     "rating": 5,
     "notes": "Auto-discovered by Lead Hunter. AI citation: not cited on 0/1 platforms. Competitors cited: Briggs Freeman Sotheby's International Realty, Van Poole Properties Group Keller Williams. Outreach-ready: YES (citation data + contact + differentiator verified). Differentiator: Founded 1985, most productive single office residential firm in Dallas, Berkshire Hathaway affiliate, $3.8 billion in annual sales",
-    "status": "report_ready",
+    "status": "sent",
     "research": {
       "reviewCount": 4,
       "rating": 5,
@@ -7918,10 +7918,14 @@
       {
         "action": "Report + OG metadata deployed to production",
         "timestamp": "2026-05-15T09:32:41.656Z"
+      },
+      {
+        "action": "Initial email auto-sent via Gmail (19e40f7bc858a03e)",
+        "timestamp": "2026-05-19T16:00:38.155Z"
       }
     ],
     "createdAt": "2026-05-15T09:23:01.106Z",
-    "updatedAt": "2026-05-15T09:32:41.573Z",
+    "updatedAt": "2026-05-19T16:00:38.155Z",
     "huntSource": "hunt_1778836922414_neli",
     "huntScore": 26.5,
     "huntPriority": "P2",

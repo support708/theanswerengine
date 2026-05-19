@@ -630,6 +630,12 @@
       "email": "info@anrroofing.net",
       "type": "follow_up_2",
       "sentAt": "2026-05-15T16:01:01.569Z"
+    },
+    {
+      "leadId": "lead_1778836981106_rrtdwb",
+      "email": "relocation@alliebeth.com",
+      "type": "initial",
+      "sentAt": "2026-05-19T16:00:38.155Z"
     }
   ]
 }
