@@ -8015,7 +8015,7 @@
     "reviewCount": 31,
     "rating": null,
     "notes": "Auto-discovered by Lead Hunter. AI citation: not cited on 1/1 platforms. Competitors cited: Allie Beth Allman & Associates, Briggs Freeman Sotheby's International Realty, Van Poole Properties Group Keller Williams. Outreach-ready: YES (citation data + contact + differentiator verified). Differentiator: Established 2023, independently owned, award-winning agents, ranked top 1% nationwide",
-    "status": "queued",
+    "status": "failed",
     "research": null,
     "reportSlug": "the-agency-dallas-2mdy",
     "emailDraftId": null,
@@ -8025,10 +8025,26 @@
       {
         "action": "Queued by Lead Hunter (P2, score: 27, outreach-ready: true)",
         "timestamp": "2026-05-15T09:23:01.106Z"
+      },
+      {
+        "action": "Research started (auto-pipeline)",
+        "timestamp": "2026-05-19T16:30:44.504Z"
+      },
+      {
+        "action": "Research started (auto-pipeline)",
+        "timestamp": "2026-05-19T16:30:49.504Z"
+      },
+      {
+        "action": "Research started (auto-pipeline)",
+        "timestamp": "2026-05-19T16:30:59.504Z"
+      },
+      {
+        "action": "Dead-lettered after 3 failed attempts: ANTHROPIC_API_KEY not configured",
+        "timestamp": "2026-05-19T16:30:59.505Z"
       }
     ],
     "createdAt": "2026-05-15T09:23:01.106Z",
-    "updatedAt": "2026-05-15T09:23:01.106Z",
+    "updatedAt": "2026-05-19T16:30:59.505Z",
     "huntSource": "hunt_1778836922414_neli",
     "huntScore": 27,
     "huntPriority": "P2",
