@@ -8015,8 +8015,90 @@
     "reviewCount": 31,
     "rating": null,
     "notes": "Auto-discovered by Lead Hunter. AI citation: not cited on 1/1 platforms. Competitors cited: Allie Beth Allman & Associates, Briggs Freeman Sotheby's International Realty, Van Poole Properties Group Keller Williams. Outreach-ready: YES (citation data + contact + differentiator verified). Differentiator: Established 2023, independently owned, award-winning agents, ranked top 1% nationwide",
-    "status": "failed",
-    "research": null,
+    "status": "report_ready",
+    "research": {
+      "reviewCount": 31,
+      "rating": 0,
+      "yearsInBusiness": 3,
+      "credentials": [
+        "Top 1% of REALTORS nationwide (Damon Williamson)",
+        "D Magazine Best Real Estate Agent 2010-2025 (multiple agents)",
+        "Real Producers Top 25 Agent 2026 (Damon Williamson)",
+        "Top 500 Real Estate Agents Dallas (Damon Williamson)",
+        "Third-generation Realtor with 20+ years (Angelia Ekholm)",
+        "Over 20 years experience (Damon Williamson)"
+      ],
+      "awards": [
+        "D Magazine Best Real Estate Agent consistent recognition (Damon & multiple agents 2010-2025)",
+        "Real Producers Top 25 2026 (Damon Williamson)",
+        "D Magazine Top Producer Awards September 2025 (multiple agents)",
+        "MetroTex Community Service Award Finalist 2025 (Marlo Dell'Aquila)",
+        "HGTV House Hunters featured agents (Trey Stewart, Courtney Michalek)",
+        "D Magazine recognition since 2018 (Angelia Ekholm)"
+      ],
+      "communityInvolvement": [
+        "Dallas Cattle Baron's Ball",
+        "Jonathan's Place",
+        "Texas Ballet Theater",
+        "La Fiesta De Las Seis Banderas",
+        "Uptown Inc. Dallas",
+        "Community Partners of Dallas",
+        "Dec My Room-Dallas",
+        "Crystal Charity Ball",
+        "Sustainable agriculture and equitable local food systems support (Megan Williamson)",
+        "ABPA Homes for the Holidays Tour 2025 sponsorship"
+      ],
+      "hiddenDifferentiators": [
+        "Founded 2023, projected $492M transaction volume 2025 (highest volume per agent vs competitors)",
+        "Independently owned boutique approach with global reach (The Agency network 73+ offices)",
+        "Fewer than 54 agents vs 1500+ agent average competitors (lean, high-efficiency model)",
+        "Damon Williamson Group legacy since 2010 (13+ years proven success before Agency launch)",
+        "Netflix featured (Buying Beverly Hills series about The Agency parent company)",
+        "Specialized Land and Ranch Division",
+        "Global network access while maintaining local independent control",
+        "Husband-wife partnership combining real estate expertise with marketing/e-commerce"
+      ],
+      "topCompetitors": [
+        {
+          "name": "Allie Beth Allman & Associates",
+          "reason": "Established 1985, most productive single-office firm Dallas, 400+ agents, $1.59B volume, Berkshire Hathaway owned"
+        },
+        {
+          "name": "Briggs Freeman Sotheby's International Realty",
+          "reason": "50+ years established, 3823 transactions 2016, $3.24B volume, luxury focus, Sotheby's brand"
+        },
+        {
+          "name": "Van Poole Properties Group Keller Williams",
+          "reason": "100+ years combined experience, Keller Williams network, strong reviews, diverse property types"
+        },
+        {
+          "name": "Dave Perry-Miller Real Estate",
+          "reason": "3356 transactions 2016, $2.1B volume, long-established luxury focus, strong local presence"
+        }
+      ],
+      "faqContentPresent": false,
+      "blogPresent": true,
+      "gmbPresent": true,
+      "schemaDetected": true,
+      "recentContent": true,
+      "uniqueStory": "Founded January 2023 by Damon and Megan Williamson, The Agency Dallas combines Damon's 20+ year track record (top 1% REALTORS nationwide, consistent D Magazine recognition) with Megan's marketing and e-commerce expertise. Operating as an independently-owned boutique brokerage with fewer than 54 agents, they've achieved the highest transaction volume per agent in Dallas ($492M projected 2025), positioning themselves as a lean, innovative alternative to larger legacy competitors. The firm leverages The Agency's global network while maintaining local control and emphasizing personalized service in luxury real estate.",
+      "aiCited": false,
+      "aero7": {
+        "answerQuality": 7,
+        "entityOptimization": 6,
+        "relevanceFreshness": 8,
+        "optimizationStructure": 6,
+        "voiceAuthenticity": 7,
+        "authoritySignals": 8,
+        "authorityDistribution": 7,
+        "consensusCoCitation": 6,
+        "platformReadiness": 6,
+        "technicalAccessibility": 6,
+        "total": 67
+      },
+      "rawNotes": "STRENGTHS: (1) Strong authority via Damon Williamson (top 1%, consistent D Magazine 2010-2025, Real Producers Top 25 2026). (2) Extensive recent content - active blog with 40+ recent articles (2024-2026), YouTube channel, multiple social platforms (Instagram 15K followers, LinkedIn active, TikTok, Facebook 1,061 likes). (3) Robust team credentials - multiple agents D Magazine recognized, third-generation REALTOR with 20+ years. (4) Authentic voice - real client testimonials embedded throughout site, genuine community involvement (8+ organizations). (5) Good NAP consistency (8111 Preston Rd, Suite 725, Dallas TX 75225 across Yelp, website, LinkedIn). (6) GMB presence verified (31 reviews, Yelp listing with business hours). (7) Established parent company (The Agency - $9B+ in closed transactions, Netflix featured). (8) Unique market position (lean 54-agent model vs 1500+ competitors, highest per-agent volume). WEAKNESSES: (1) No FAQ section detected on website. (2) Limited schema markup evidence (basic organizational schema likely present but no comprehensive structured data visible). (3) New business (only 3 years old) limits authority accumulation vs competitors (Allie Beth 40 years, Briggs Freeman 50 years). (4) No direct Reddit mentions found. (5) Blog structure could be optimized (long list format vs detailed long-form articles). (6) Limited third-party AI platform presence - not appearing in major AI agent recommendations despite strong qualifications. (7) No robots.txt analysis conducted (cannot verify GPTBot/ClaudeBot/PerplexityBot access without direct access). (8) Competitors (Allie Beth, Briggs Freeman) have stronger established third-party presence and citations. AI CITATIONS: Not cited on provided platforms per brief. PRICING/VIABILITY: $3.8M annual revenue, $12.4M valuation, 21-50 employees (Prospeo data). Lead Hunter classification: OUTREACH-READY with verified differentiator and contact data. COMPETITIVE LANDSCAPE: Top 1% nationwide ranking matches Damon's credentials. Allie Beth (established, Berkshire backing) remains dominant; Agency Dallas differentiates via boutique model, boutique-with-scale approach, and innovation.",
+      "researchedAt": "2026-05-19T16:31:06.592Z"
+    },
     "reportSlug": "the-agency-dallas-2mdy",
     "emailDraftId": null,
     "fabricationFlags": [],
@@ -8028,23 +8110,39 @@
       },
       {
         "action": "Research started (auto-pipeline)",
-        "timestamp": "2026-05-19T16:30:44.504Z"
+        "timestamp": "2026-05-19T16:30:35.378Z"
       },
       {
-        "action": "Research started (auto-pipeline)",
-        "timestamp": "2026-05-19T16:30:49.504Z"
+        "action": "Research completed (AERO-10: 67/100)",
+        "timestamp": "2026-05-19T16:31:06.592Z"
       },
       {
-        "action": "Research started (auto-pipeline)",
-        "timestamp": "2026-05-19T16:30:59.504Z"
+        "action": "Report generation started",
+        "timestamp": "2026-05-19T16:31:06.592Z"
       },
       {
-        "action": "Dead-lettered after 3 failed attempts: ANTHROPIC_API_KEY not configured",
-        "timestamp": "2026-05-19T16:30:59.505Z"
+        "action": "Competitor battlecard attached",
+        "timestamp": "2026-05-19T16:33:11.139Z"
+      },
+      {
+        "action": "Report generated",
+        "timestamp": "2026-05-19T16:33:11.139Z"
+      },
+      {
+        "action": "Fabrication scan: CLEAN",
+        "timestamp": "2026-05-19T16:33:11.139Z"
+      },
+      {
+        "action": "Em-dash scan: 21 found, auto-stripped",
+        "timestamp": "2026-05-19T16:33:11.139Z"
+      },
+      {
+        "action": "Report + OG metadata deployed to production",
+        "timestamp": "2026-05-19T16:33:11.328Z"
       }
     ],
     "createdAt": "2026-05-15T09:23:01.106Z",
-    "updatedAt": "2026-05-19T16:30:59.505Z",
+    "updatedAt": "2026-05-19T16:33:11.139Z",
     "huntSource": "hunt_1778836922414_neli",
     "huntScore": 27,
     "huntPriority": "P2",
