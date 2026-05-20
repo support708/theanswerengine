@@ -8339,12 +8339,82 @@
     "reviewCount": 125,
     "rating": 4.9,
     "notes": "Auto-discovered by Lead Hunter. AI citation: not cited on 0/1 platforms. Competitors cited: Allie Beth Allman & Associates, Briggs Freeman Sotheby's International Realty. Outreach-ready: YES (citation data + contact + differentiator verified). Differentiator: Founded 2001, #1 team in #1 brokerage, top 1% nationwide, 75+ years combined experience, D Magazine Best Realtor 2006-2018",
-    "status": "failed",
-    "research": null,
+    "status": "report_ready",
+    "research": {
+      "reviewCount": 125,
+      "rating": 4.9,
+      "yearsInBusiness": 25,
+      "credentials": [
+        "D Magazine Best Realtor 2006-2023",
+        "Certified Residential Specialist (CRS)",
+        "Accredited Buyer Representative (ABR)",
+        "Graduate Realtor Institute (GRI)",
+        "Top 1% of Realtors nationwide",
+        "Top 1% in North Texas",
+        "#1 Team in #1 Brokerage",
+        "Top 100 Keller Williams internationally"
+      ],
+      "awards": [
+        "D Magazine Best Realtor 2006-2023",
+        "Inman News 2021 Podcast of the Year (Empire Building)",
+        "#1 Team in #1 Brokerage (Collin, Dallas, Denton Counties)",
+        "#1 in Luxury sales",
+        "#1 in number of families helped",
+        "Featured on HGTV, CBS News, Fox News, Dallas Morning News"
+      ],
+      "communityInvolvement": [
+        "Empire Building Podcast (CEO Seychelle Van Poole)",
+        "Her Best Life national women's group (co-founder)",
+        "Keller Williams Mega Camp instructor",
+        "Real estate training webinars (300K+ views)"
+      ],
+      "hiddenDifferentiators": [
+        "2 full-time agents per purchasing client",
+        "93% of listings bring multiple offers",
+        "3% more than competitors average",
+        "Virtual home buying expertise",
+        "Real estate insider and thought leader status",
+        "125+ years of combined team experience",
+        "Founded September 11, 2001 with 3,300+ clients served",
+        "Team founder has marketing/interior design degree from UT"
+      ],
+      "topCompetitors": [
+        {
+          "name": "Allie Beth Allman & Associates",
+          "reason": "Luxury focus, founded 1985, most productive single office in Dallas, Berkshire Hathaway affiliate"
+        },
+        {
+          "name": "Briggs Freeman Sotheby's International Realty",
+          "reason": "Leading luxury brokerage in North Texas, founded 1960, 400+ agents, global Sotheby's network"
+        }
+      ],
+      "faqContentPresent": false,
+      "blogPresent": true,
+      "gmbPresent": true,
+      "schemaDetected": false,
+      "recentContent": true,
+      "uniqueStory": "Founded September 11, 2001 by Barbara Van Poole, the group grew from a single founder to the #1 team in #1 brokerage across three counties. CEO Seychelle Van Poole (who joined in 2004) pioneered Empire Building Podcast, co-founded Her Best Life national women's group, and has delivered 300K+ training webinars. The team specializes in matching 2 dedicated agents per buyer, virtual staging, and has helped 3,300+ clients.",
+      "aiCited": false,
+      "aero7": {
+        "answerQuality": 7,
+        "entityOptimization": 4,
+        "relevanceFreshness": 8,
+        "optimizationStructure": 6,
+        "voiceAuthenticity": 8,
+        "authoritySignals": 9,
+        "authorityDistribution": 8,
+        "consensusCoCitation": 6,
+        "platformReadiness": 5,
+        "technicalAccessibility": 4,
+        "total": 65
+      },
+      "rawNotes": "Van Poole Properties demonstrates strong authority with verified awards (D Magazine 2006-2023, Inman News), excellent reviews (4.9/5 with 125+ reviews across platforms), and robust multi-platform presence (Yelp, Zillow, Birdeye, Facebook, LinkedIn, Twitter). CEO Seychelle Van Poole is a recognized thought leader with podcast, training content, and speaking engagements. Blog present at vanpooleproperties.com/blog with recent articles (latest Feb 2026). Website last updated Feb 2026. No FAQ page detected. Schema markup appears absent despite WordPress/HubSpot tech stack. GMB presence confirmed. NAP consistency verified across Yelp (214-267-9222), website, and Google. No evidence of AI citation across ChatGPT, Gemini, Claude platforms when searching 'best real estate agent Dallas' recommendations. AI platforms recommend competing services (TurboHome for budget-conscious) or generic agent directories. Platform-specific readiness limited: site does not optimize for AI snippets despite strong content. robots.txt access not verified. Competitors Allie Beth Allman (luxury focus since 1985) and Briggs Freeman (Sotheby's affiliate since 1960) dominate luxury segment; Van Poole competes on volume, team service model, and mid-to-luxury hybrid positioning. Strengths: Authentic voice, proven credentials, strong review volume, recent content, deep team bios, podcast/thought leadership. Gaps: Missing schema for LocalBusiness/RealEstateAgent, no FAQ structure, limited AI optimization, no documented schema for video tours or agent profiles. Recent content (blog articles Aug 2025-Feb 2026) but older than competitor refresh rates. LinkedIn activity strong; Reddit/news mentions limited.",
+      "researchedAt": "2026-05-20T07:01:05.632Z"
+    },
     "reportSlug": "van-poole-properties-group-keller-williams-qdff",
     "emailDraftId": null,
     "fabricationFlags": [],
-    "emDashClean": false,
+    "emDashClean": true,
     "actionLog": [
       {
         "action": "Queued by Lead Hunter (P2, score: 31.5, outreach-ready: true)",
@@ -8352,23 +8422,39 @@
       },
       {
         "action": "Research started (auto-pipeline)",
-        "timestamp": "2026-05-20T07:00:25.316Z"
+        "timestamp": "2026-05-20T07:00:41.606Z"
       },
       {
-        "action": "Research started (auto-pipeline)",
-        "timestamp": "2026-05-20T07:00:30.319Z"
+        "action": "Research completed (AERO-10: 65/100)",
+        "timestamp": "2026-05-20T07:01:05.632Z"
       },
       {
-        "action": "Research started (auto-pipeline)",
-        "timestamp": "2026-05-20T07:00:40.319Z"
+        "action": "Report generation started",
+        "timestamp": "2026-05-20T07:01:05.632Z"
       },
       {
-        "action": "Dead-lettered after 3 failed attempts: ANTHROPIC_API_KEY not configured",
-        "timestamp": "2026-05-20T07:00:40.320Z"
+        "action": "Competitor battlecard attached",
+        "timestamp": "2026-05-20T07:03:09.614Z"
+      },
+      {
+        "action": "Report generated",
+        "timestamp": "2026-05-20T07:03:09.614Z"
+      },
+      {
+        "action": "Fabrication scan: CLEAN",
+        "timestamp": "2026-05-20T07:03:09.614Z"
+      },
+      {
+        "action": "Em-dash scan: CLEAN",
+        "timestamp": "2026-05-20T07:03:09.614Z"
+      },
+      {
+        "action": "Report + OG metadata deployed to production",
+        "timestamp": "2026-05-20T07:03:09.743Z"
       }
     ],
     "createdAt": "2026-05-15T09:23:01.106Z",
-    "updatedAt": "2026-05-20T07:00:40.320Z",
+    "updatedAt": "2026-05-20T07:03:09.614Z",
     "huntSource": "hunt_1778836922414_neli",
     "huntScore": 31.5,
     "huntPriority": "P2",
