@@ -576,6 +576,66 @@
       "email": "Drhigashi@gmail.com",
       "type": "follow_up_3",
       "sentAt": "2026-05-10T19:39:52.288Z"
+    },
+    {
+      "leadId": "lead_1775681943860_l6kcrj",
+      "email": "reservations@milkandhoney.com",
+      "type": "follow_up_2",
+      "sentAt": "2026-05-15T16:00:24.639Z"
+    },
+    {
+      "leadId": "lead_1775681943860_5y6hdw",
+      "email": "concierge@drpaulnassif.com",
+      "type": "follow_up_2",
+      "sentAt": "2026-05-15T16:00:29.353Z"
+    },
+    {
+      "leadId": "lead_1775681943860_bxyck6",
+      "email": "beverlyhillsmedspa@gmail.com",
+      "type": "follow_up_2",
+      "sentAt": "2026-05-15T16:00:34.091Z"
+    },
+    {
+      "leadId": "lead_1775681943860_hgd93b",
+      "email": "reception@losfelizmedspa.com",
+      "type": "follow_up_2",
+      "sentAt": "2026-05-15T16:00:38.772Z"
+    },
+    {
+      "leadId": "lead_1775681943860_dd6x5f",
+      "email": "weho@lejoliespa.com",
+      "type": "follow_up_2",
+      "sentAt": "2026-05-15T16:00:43.305Z"
+    },
+    {
+      "leadId": "lead_1775743257391_lsfg3r",
+      "email": "scheduling@roofrepairspecialist.com",
+      "type": "follow_up_2",
+      "sentAt": "2026-05-15T16:00:47.981Z"
+    },
+    {
+      "leadId": "lead_1775743257391_704qei",
+      "email": "ajreyesroofing@gmail.com",
+      "type": "follow_up_2",
+      "sentAt": "2026-05-15T16:00:52.605Z"
+    },
+    {
+      "leadId": "lead_1775743257391_ivaapu",
+      "email": "info@bumbleroofing.com",
+      "type": "follow_up_2",
+      "sentAt": "2026-05-15T16:00:56.938Z"
+    },
+    {
+      "leadId": "lead_1775743257391_4yxq9r",
+      "email": "info@anrroofing.net",
+      "type": "follow_up_2",
+      "sentAt": "2026-05-15T16:01:01.569Z"
+    },
+    {
+      "leadId": "lead_1778836981106_rrtdwb",
+      "email": "relocation@alliebeth.com",
+      "type": "initial",
+      "sentAt": "2026-05-19T16:00:38.155Z"
     }
   ]
 }

@@ -327,7 +327,7 @@
   "lastPollBySubreddit": {},
   "lastDigestByClient": {
     "the-answer-engine": "2026-05-02T07:07:25.520Z",
-    "lovery-re": "2026-04-26T00:07:10.712Z",
+    "lovery-re": "2026-05-15T09:22:04.209Z",
     "rpm-southland": "2026-04-26T00:07:11.641Z",
     "davis-agency": "2026-04-18T23:07:15.627Z"
   },
@@ -337,6 +337,13 @@
     "totalQualified": 0,
     "byClient": {
       "the-answer-engine": {
+        "opportunities": 0,
+        "digestsSent": 1,
+        "highImpact": 0,
+        "mediumImpact": 0,
+        "lowImpact": 0
+      },
+      "lovery-re": {
         "opportunities": 0,
         "digestsSent": 1,
         "highImpact": 0,

@@ -1,5 +1,90 @@
 [
   {
+    "id": 236,
+    "title": "AI Cites Your Competitor Using Your Content: Why It Happens and How to Fix It",
+    "slug": "ai-cites-competitor-using-your-content",
+    "excerpt": "AI quotes your data but credits your competitor as the source. Here is why content attribution fails in AI search engines and the exact playbook for recovering your citations.",
+    "category": "Diagnostic & Troubleshooting",
+    "author": "The Answer Engine Team",
+    "readTime": "16 min",
+    "image": "/blog/ai-cites-competitor-using-your-content.svg",
+    "publishDate": "2026-05-14",
+    "lastModified": "2026-05-14",
+    "featured": false,
+    "tags": [
+      "AI Citations",
+      "Content Attribution",
+      "Diagnostic",
+      "Citation Recovery",
+      "Answer Engine Optimization",
+      "AEO Troubleshooting"
+    ]
+  },
+  {
+    "id": 235,
+    "title": "How Wedding Venues and Event Vendors Get Found on AI Search",
+    "slug": "how-wedding-venues-and-event-vendors-get-found-on-ai-search",
+    "excerpt": "54% of engaged couples now use AI to research wedding vendors. Here is exactly how venues and event vendors get cited by ChatGPT, Perplexity, and Google AI Overviews in 2026.",
+    "category": "Industry Guides",
+    "author": "The Answer Engine Team",
+    "readTime": "17 min",
+    "image": "/blog/how-wedding-venues-and-event-vendors-get-found-on-ai-search.svg",
+    "publishDate": "2026-05-14",
+    "lastModified": "2026-05-14",
+    "featured": false,
+    "tags": [
+      "Wedding Venues",
+      "Event Vendors",
+      "Local AI Search",
+      "Industry Guide",
+      "Answer Engine Optimization",
+      "AEO Strategy"
+    ]
+  },
+  {
+    "id": 234,
+    "title": "How Bing Generative Search Picks Businesses to Recommend",
+    "slug": "how-bing-generative-search-picks-businesses",
+    "excerpt": "Bing Generative Search is the engine behind Copilot, DuckDuckGo, and parts of ChatGPT. Here is exactly how its recommendation algorithm decides which businesses to cite in 2026.",
+    "category": "AI Algorithm Series",
+    "author": "The Answer Engine Team",
+    "readTime": "16 min",
+    "image": "/blog/how-bing-generative-search-picks-businesses.svg",
+    "publishDate": "2026-05-14",
+    "lastModified": "2026-05-14",
+    "featured": false,
+    "tags": [
+      "Bing",
+      "Copilot",
+      "Bing Places",
+      "ChatGPT",
+      "AI Algorithm",
+      "Answer Engine Optimization",
+      "AEO Strategy"
+    ]
+  },
+  {
+    "id": 233,
+    "title": "E-E-A-T for AI Search: The 2026 Trust Stack",
+    "slug": "e-e-a-t-for-ai-search",
+    "excerpt": "E-E-A-T started as a Google quality framework. In 2026, it is the trust stack AI platforms use to decide which brands to cite. Here is how to build each pillar.",
+    "category": "Strategy & Tactics",
+    "author": "The Answer Engine Team",
+    "readTime": "17 min",
+    "image": "/blog/e-e-a-t-for-ai-search.svg",
+    "publishDate": "2026-05-14",
+    "lastModified": "2026-05-14",
+    "featured": false,
+    "tags": [
+      "E-E-A-T",
+      "AI Citations",
+      "Trust Signals",
+      "Authority Building",
+      "Answer Engine Optimization",
+      "AEO Strategy"
+    ]
+  },
+  {
     "id": 228,
     "title": "How Many Articles Do You Need to Get Cited on AI Search?",
     "slug": "how-many-articles-needed-ai-citations",
@@ -4878,6 +4963,90 @@
   },
   {
     "id": 229,
+    "title": "How to Get Featured in Google AI Overviews: 2026 Playbook",
+    "slug": "how-to-get-featured-in-google-ai-overviews",
+    "excerpt": "Google AI Overviews now appear in over 50% of US searches and steal click-through from position 1. Here is the 2026 playbook for becoming the cited source instead of the bypassed link.",
+    "category": "Strategy & Tactics",
+    "author": "The Answer Engine Team",
+    "readTime": "18 min",
+    "image": "/blog/how-to-get-featured-in-google-ai-overviews.svg",
+    "publishDate": "2026-05-12",
+    "lastModified": "2026-05-12",
+    "featured": false,
+    "tags": [
+      "Google AI Overviews",
+      "SGE",
+      "Featured Snippets",
+      "AI Citations",
+      "Schema Markup",
+      "E-E-A-T"
+    ]
+  },
+  {
+    "id": 230,
+    "title": "The Anatomy of an AI Citation: Why You're Picked or Skipped",
+    "slug": "anatomy-of-an-ai-citation",
+    "excerpt": "Reverse-engineering the seven signals AI models use to decide which businesses appear in answers — and which ones never get cited, no matter how good their product is. Source authority, topical co-occurrence, entity recognition, schema trust, sentiment, freshness, and cross-source consistency: how each one works and how to optimize all seven.",
+    "category": "AI Algorithm Series",
+    "author": "The Answer Engine Team",
+    "readTime": "19 min",
+    "image": "/blog/anatomy-of-an-ai-citation.svg",
+    "publishDate": "2026-05-12",
+    "lastModified": "2026-05-12",
+    "featured": false,
+    "tags": [
+      "AI Citations",
+      "Algorithm Anatomy",
+      "Citation Signals",
+      "Authority Signals",
+      "AEO",
+      "AI Visibility"
+    ]
+  },
+  {
+    "id": 231,
+    "title": "How Seasonal Businesses Get Found on AI Search",
+    "slug": "how-seasonal-businesses-get-found-on-ai-search",
+    "excerpt": "Seasonal businesses face a unique AI search problem: relevance spikes and vanishes with the calendar. Here is how HVAC, pool, landscaping, and tax prep businesses stay cited all 12 months, not just during peak.",
+    "category": "Industry Guides",
+    "author": "The Answer Engine Team",
+    "readTime": "17 min",
+    "image": "/blog/how-seasonal-businesses-get-found-on-ai-search.svg",
+    "publishDate": "2026-05-12",
+    "lastModified": "2026-05-12",
+    "featured": false,
+    "tags": [
+      "Seasonal Businesses",
+      "HVAC AEO",
+      "Pool Service Marketing",
+      "Landscaping AI",
+      "Tax Prep Marketing",
+      "Year-Round Visibility"
+    ]
+  },
+  {
+    "id": 232,
+    "title": "Why Some AI Platforms Cite You But Others Don't",
+    "slug": "why-some-ai-platforms-cite-you-but-others-dont",
+    "excerpt": "ChatGPT recommends you. Perplexity ignores you. Gemini gets your hours wrong. Here is the diagnostic framework for the cross-platform citation gap and how to close it by understanding what each AI actually reads.",
+    "category": "Diagnostic & Troubleshooting",
+    "author": "The Answer Engine Team",
+    "readTime": "18 min",
+    "image": "/blog/why-some-ai-platforms-cite-you-but-others-dont.svg",
+    "publishDate": "2026-05-12",
+    "lastModified": "2026-05-12",
+    "featured": false,
+    "tags": [
+      "AI Platforms",
+      "Citation Gap",
+      "ChatGPT vs Perplexity",
+      "Cross-Platform Visibility",
+      "AEO Diagnostic",
+      "Multi-Platform AI"
+    ]
+  },
+  {
+    "id": 233,
     "title": "How Personal Injury Law Firms Get Found on AI Search Engines",
     "slug": "how-personal-injury-law-firms-get-found-on-ai-search",
     "excerpt": "Seven directories control 89% of all AI attorney citations. Here is exactly how ChatGPT and Perplexity decide which PI firms to recommend and how to get your firm in the answer.",

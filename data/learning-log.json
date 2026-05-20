@@ -1415,6 +1415,300 @@
         "improving": [],
         "declining": []
       }
+    },
+    {
+      "id": "retro_20260515",
+      "weekEnding": "2026-05-15",
+      "generatedAt": "2026-05-15T18:00:17.487Z",
+      "totalLeads": 90,
+      "leadsQueuedThisWeek": 5,
+      "leadsSentThisWeek": 0,
+      "nicheMetrics": [
+        {
+          "niche": "Roofing Contractor",
+          "sent": 7,
+          "replied": 0,
+          "closedWon": 0,
+          "closedLost": 0,
+          "noResponse": 0,
+          "inProgress": 7,
+          "replyRate": 0,
+          "conversionRate": 0,
+          "avgAeroScore": 55
+        },
+        {
+          "niche": "Electrician",
+          "sent": 4,
+          "replied": 0,
+          "closedWon": 0,
+          "closedLost": 0,
+          "noResponse": 0,
+          "inProgress": 4,
+          "replyRate": 0,
+          "conversionRate": 0,
+          "avgAeroScore": 64
+        },
+        {
+          "niche": "Dentist",
+          "sent": 6,
+          "replied": 0,
+          "closedWon": 0,
+          "closedLost": 0,
+          "noResponse": 0,
+          "inProgress": 6,
+          "replyRate": 0,
+          "conversionRate": 0,
+          "avgAeroScore": 60
+        },
+        {
+          "niche": "Chiropractor",
+          "sent": 5,
+          "replied": 0,
+          "closedWon": 0,
+          "closedLost": 0,
+          "noResponse": 0,
+          "inProgress": 5,
+          "replyRate": 0,
+          "conversionRate": 0,
+          "avgAeroScore": 51
+        },
+        {
+          "niche": "real-estate",
+          "sent": 1,
+          "replied": 0,
+          "closedWon": 0,
+          "closedLost": 0,
+          "noResponse": 0,
+          "inProgress": 1,
+          "replyRate": 0,
+          "conversionRate": 0,
+          "avgAeroScore": 4
+        },
+        {
+          "niche": "Med Spa",
+          "sent": 5,
+          "replied": 0,
+          "closedWon": 0,
+          "closedLost": 0,
+          "noResponse": 0,
+          "inProgress": 5,
+          "replyRate": 0,
+          "conversionRate": 0,
+          "avgAeroScore": 61
+        }
+      ],
+      "metroMetrics": [
+        {
+          "metro": "Northridge",
+          "sent": 1,
+          "replied": 0,
+          "closedWon": 0,
+          "replyRate": 0,
+          "conversionRate": 0
+        },
+        {
+          "metro": "Los Angeles",
+          "sent": 26,
+          "replied": 0,
+          "closedWon": 0,
+          "replyRate": 0,
+          "conversionRate": 0
+        },
+        {
+          "metro": "Palmdale, CA",
+          "sent": 1,
+          "replied": 0,
+          "closedWon": 0,
+          "replyRate": 0,
+          "conversionRate": 0
+        }
+      ],
+      "followUpMetrics": {
+        "repliedAtStage": {
+          "initial": 0,
+          "follow_up_1": 0,
+          "follow_up_2": 0,
+          "follow_up_3": 0
+        },
+        "totalByType": {
+          "initial": 29,
+          "follow_up_1": 28,
+          "follow_up_2": 29,
+          "follow_up_3": 19,
+          "follow_up_4": 0
+        },
+        "replyRateByStage": {
+          "initial": 0,
+          "follow_up_1": 0,
+          "follow_up_2": 0,
+          "follow_up_3": 0,
+          "follow_up_4": 0
+        }
+      },
+      "velocityMetrics": {
+        "avgQueuedToSentHours": 18.7,
+        "avgSentToReplyHours": 0,
+        "avgSentToCloseHours": 0,
+        "fastestClose": null
+      },
+      "aeroCorrelation": {
+        "avgScoreReplied": 0,
+        "avgScoreNoResponse": 0,
+        "avgScoreClosedWon": 0
+      },
+      "huntPriorities": [
+        {
+          "vertical": "Roofing Contractor",
+          "metro": "Northridge",
+          "score": 0,
+          "reason": "Roofing Contractor: 0% reply (0/7), Northridge: 0% reply (0/1)",
+          "replyRate": 0,
+          "sampleSize": 1
+        },
+        {
+          "vertical": "Roofing Contractor",
+          "metro": "Los Angeles",
+          "score": 0,
+          "reason": "Roofing Contractor: 0% reply (0/7), Los Angeles: 0% reply (0/26)",
+          "replyRate": 0,
+          "sampleSize": 7
+        },
+        {
+          "vertical": "Roofing Contractor",
+          "metro": "Palmdale, CA",
+          "score": 0,
+          "reason": "Roofing Contractor: 0% reply (0/7), Palmdale, CA: 0% reply (0/1)",
+          "replyRate": 0,
+          "sampleSize": 1
+        },
+        {
+          "vertical": "Electrician",
+          "metro": "Northridge",
+          "score": 0,
+          "reason": "Electrician: 0% reply (0/4), Northridge: 0% reply (0/1)",
+          "replyRate": 0,
+          "sampleSize": 1
+        },
+        {
+          "vertical": "Electrician",
+          "metro": "Los Angeles",
+          "score": 0,
+          "reason": "Electrician: 0% reply (0/4), Los Angeles: 0% reply (0/26)",
+          "replyRate": 0,
+          "sampleSize": 4
+        },
+        {
+          "vertical": "Electrician",
+          "metro": "Palmdale, CA",
+          "score": 0,
+          "reason": "Electrician: 0% reply (0/4), Palmdale, CA: 0% reply (0/1)",
+          "replyRate": 0,
+          "sampleSize": 1
+        },
+        {
+          "vertical": "Dentist",
+          "metro": "Northridge",
+          "score": 0,
+          "reason": "Dentist: 0% reply (0/6), Northridge: 0% reply (0/1)",
+          "replyRate": 0,
+          "sampleSize": 1
+        },
+        {
+          "vertical": "Dentist",
+          "metro": "Los Angeles",
+          "score": 0,
+          "reason": "Dentist: 0% reply (0/6), Los Angeles: 0% reply (0/26)",
+          "replyRate": 0,
+          "sampleSize": 6
+        },
+        {
+          "vertical": "Dentist",
+          "metro": "Palmdale, CA",
+          "score": 0,
+          "reason": "Dentist: 0% reply (0/6), Palmdale, CA: 0% reply (0/1)",
+          "replyRate": 0,
+          "sampleSize": 1
+        },
+        {
+          "vertical": "Chiropractor",
+          "metro": "Northridge",
+          "score": 0,
+          "reason": "Chiropractor: 0% reply (0/5), Northridge: 0% reply (0/1)",
+          "replyRate": 0,
+          "sampleSize": 1
+        },
+        {
+          "vertical": "Chiropractor",
+          "metro": "Los Angeles",
+          "score": 0,
+          "reason": "Chiropractor: 0% reply (0/5), Los Angeles: 0% reply (0/26)",
+          "replyRate": 0,
+          "sampleSize": 5
+        },
+        {
+          "vertical": "Chiropractor",
+          "metro": "Palmdale, CA",
+          "score": 0,
+          "reason": "Chiropractor: 0% reply (0/5), Palmdale, CA: 0% reply (0/1)",
+          "replyRate": 0,
+          "sampleSize": 1
+        },
+        {
+          "vertical": "real-estate",
+          "metro": "Northridge",
+          "score": 0,
+          "reason": "real-estate: 0% reply (0/1), Northridge: 0% reply (0/1)",
+          "replyRate": 0,
+          "sampleSize": 1
+        },
+        {
+          "vertical": "real-estate",
+          "metro": "Los Angeles",
+          "score": 0,
+          "reason": "real-estate: 0% reply (0/1), Los Angeles: 0% reply (0/26)",
+          "replyRate": 0,
+          "sampleSize": 1
+        },
+        {
+          "vertical": "real-estate",
+          "metro": "Palmdale, CA",
+          "score": 0,
+          "reason": "real-estate: 0% reply (0/1), Palmdale, CA: 0% reply (0/1)",
+          "replyRate": 0,
+          "sampleSize": 1
+        },
+        {
+          "vertical": "Med Spa",
+          "metro": "Northridge",
+          "score": 0,
+          "reason": "Med Spa: 0% reply (0/5), Northridge: 0% reply (0/1)",
+          "replyRate": 0,
+          "sampleSize": 1
+        },
+        {
+          "vertical": "Med Spa",
+          "metro": "Los Angeles",
+          "score": 0,
+          "reason": "Med Spa: 0% reply (0/5), Los Angeles: 0% reply (0/26)",
+          "replyRate": 0,
+          "sampleSize": 5
+        },
+        {
+          "vertical": "Med Spa",
+          "metro": "Palmdale, CA",
+          "score": 0,
+          "reason": "Med Spa: 0% reply (0/5), Palmdale, CA: 0% reply (0/1)",
+          "replyRate": 0,
+          "sampleSize": 1
+        }
+      ],
+      "trends": {
+        "replyRateDelta": 0,
+        "conversionRateDelta": 0,
+        "volumeDelta": 5,
+        "improving": [],
+        "declining": []
+      }
     }
   ],
   "currentPriorities": [
@@ -1563,5 +1857,5 @@
       "sampleSize": 1
     }
   ],
-  "updatedAt": "2026-05-01T18:00:28.181Z"
+  "updatedAt": "2026-05-15T18:00:17.626Z"
 }

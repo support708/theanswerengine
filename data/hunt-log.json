@@ -392,5 +392,65 @@
       "Pass 2 failed: Anthropic API error (401): {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CabyERxDHM5nDrrWxCWJY\"}"
     ],
     "completedAt": "2026-05-01T14:00:43.542Z"
+  },
+  {
+    "id": "hunt_1778836922414_neli",
+    "startedAt": "2026-05-15T09:22:02.415Z",
+    "trigger": "cron_daily",
+    "vertical": "Real Estate Agent",
+    "metro": "Dallas, TX",
+    "prospectsFound": 10,
+    "p1Queued": 0,
+    "p2Queued": 5,
+    "p3Backlogged": 5,
+    "duplicatesSkipped": 0,
+    "outreachReadyCount": 5,
+    "errors": [],
+    "completedAt": "2026-05-15T09:23:01.106Z"
+  },
+  {
+    "id": "hunt_1778853647237_myor",
+    "startedAt": "2026-05-15T14:00:47.238Z",
+    "trigger": "cron_daily",
+    "vertical": "Electrician",
+    "metro": "Los Angeles",
+    "prospectsFound": 10,
+    "p1Queued": 0,
+    "p2Queued": 0,
+    "p3Backlogged": 1,
+    "duplicatesSkipped": 9,
+    "outreachReadyCount": 0,
+    "errors": [],
+    "completedAt": "2026-05-15T14:01:40.818Z"
+  },
+  {
+    "id": "hunt_1779112846945_e9sz",
+    "startedAt": "2026-05-18T14:00:46.945Z",
+    "trigger": "cron_daily",
+    "vertical": "HVAC Contractor",
+    "metro": "Houston, TX",
+    "prospectsFound": 10,
+    "p1Queued": 4,
+    "p2Queued": 3,
+    "p3Backlogged": 3,
+    "duplicatesSkipped": 0,
+    "outreachReadyCount": 7,
+    "errors": [],
+    "completedAt": "2026-05-18T14:01:37.264Z"
+  },
+  {
+    "id": "hunt_1779199247659_1ar1",
+    "startedAt": "2026-05-19T14:00:47.660Z",
+    "trigger": "cron_daily",
+    "vertical": "Roofing Contractor",
+    "metro": "Los Angeles",
+    "prospectsFound": 10,
+    "p1Queued": 1,
+    "p2Queued": 1,
+    "p3Backlogged": 1,
+    "duplicatesSkipped": 7,
+    "outreachReadyCount": 2,
+    "errors": [],
+    "completedAt": "2026-05-19T14:01:41.635Z"
   }
 ]

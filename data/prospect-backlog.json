@@ -1431,5 +1431,373 @@
       "total": 33.5
     },
     "priority": "P2"
+  },
+  {
+    "businessName": "Iconic Real Estate",
+    "contactName": "Matthew Scobee",
+    "contactEmail": "matt@iconicres.com",
+    "website": "https://iconicres.com",
+    "phone": "(214) 295-2405",
+    "city": "Dallas",
+    "state": "TX",
+    "serviceNiche": "Real Estate Agent",
+    "painSignals": [
+      "Iconic Real Estate has multiple Google reviews but is not recommended by AI assistants for \"Real Estate Agent in Dallas\""
+    ],
+    "citationResults": [
+      {
+        "platform": "chatgpt",
+        "query": "best Real Estate Agent in Dallas",
+        "cited": false,
+        "competitorsCited": [
+          "Allie Beth Allman & Associates",
+          "Briggs Freeman Sotheby's International Realty",
+          "Van Poole Properties Group Keller Williams"
+        ]
+      }
+    ],
+    "differentiator": "Specializes in residential, farm and ranch properties, boutique real estate company, builder/developer marketing",
+    "outreachReady": true,
+    "scoreBreakdown": {
+      "aiBlindSpot": 8.5,
+      "reputationStrength": 0,
+      "contentGap": 6,
+      "revenuePotential": 5,
+      "contactQuality": 5,
+      "total": 24.5
+    },
+    "priority": "P3"
+  },
+  {
+    "businessName": "Dave Perry-Miller Real Estate",
+    "contactName": "Dave Perry-Miller",
+    "contactEmail": "info@daveperrymiller.com",
+    "website": "https://www.daveperrymiller.com",
+    "phone": "(214) 522-3838",
+    "city": "Dallas",
+    "state": "TX",
+    "serviceNiche": "Real Estate Agent",
+    "painSignals": [
+      "Dave Perry-Miller Real Estate has multiple Google reviews but is not recommended by AI assistants for \"Real Estate Agent in Dallas\""
+    ],
+    "citationResults": [
+      {
+        "platform": "chatgpt",
+        "query": "best Real Estate Agent in Dallas",
+        "cited": false,
+        "competitorsCited": [
+          "Allie Beth Allman & Associates",
+          "Briggs Freeman Sotheby's International Realty",
+          "Van Poole Properties Group Keller Williams"
+        ]
+      }
+    ],
+    "differentiator": "40+ years in business, specializes in luxury estates, Ebby Halliday Companies brand, top 1% team with $2+ billion in sales",
+    "outreachReady": true,
+    "scoreBreakdown": {
+      "aiBlindSpot": 8.5,
+      "reputationStrength": 0,
+      "contentGap": 6,
+      "revenuePotential": 5,
+      "contactQuality": 5,
+      "total": 24.5
+    },
+    "priority": "P3"
+  },
+  {
+    "businessName": "Templeton Real Estate Group",
+    "contactName": "Matt Templeton",
+    "contactEmail": "admin@templeton.realestate",
+    "website": "https://www.tregdfw.com",
+    "phone": "(972) 677-3991",
+    "city": "Dallas",
+    "state": "TX",
+    "serviceNiche": "Real Estate Agent",
+    "painSignals": [
+      "Templeton Real Estate Group has multiple Google reviews but is not recommended by AI assistants for \"Real Estate Agent in Dallas\""
+    ],
+    "citationResults": [
+      {
+        "platform": "chatgpt",
+        "query": "best Real Estate Agent in Dallas",
+        "cited": false,
+        "competitorsCited": [
+          "Allie Beth Allman & Associates",
+          "Briggs Freeman Sotheby's International Realty",
+          "Van Poole Properties Group Keller Williams"
+        ]
+      }
+    ],
+    "differentiator": "Founded 2012, hand-picked professionals, sellers average 10% more with their marketing system, top 50 agent teams in Dallas",
+    "outreachReady": true,
+    "scoreBreakdown": {
+      "aiBlindSpot": 8.5,
+      "reputationStrength": 0,
+      "contentGap": 6,
+      "revenuePotential": 5,
+      "contactQuality": 5,
+      "total": 24.5
+    },
+    "priority": "P3"
+  },
+  {
+    "businessName": "eXp Realty",
+    "contactName": "Glenn Sanford",
+    "contactEmail": "tx.membership@exprealty.net",
+    "website": "https://www.exprealty.com/dallas-tx-real-estate",
+    "phone": "(888) 519-7431",
+    "city": "Dallas",
+    "state": "TX",
+    "serviceNiche": "Real Estate Agent",
+    "painSignals": [
+      "eXp Realty has multiple Google reviews but is not recommended by AI assistants for \"Real Estate Agent in Dallas\""
+    ],
+    "citationResults": [
+      {
+        "platform": "chatgpt",
+        "query": "best Real Estate Agent in Dallas",
+        "cited": false,
+        "competitorsCited": [
+          "Allie Beth Allman & Associates",
+          "Briggs Freeman Sotheby's International Realty",
+          "Van Poole Properties Group Keller Williams"
+        ]
+      }
+    ],
+    "differentiator": "Technology-driven brokerage, global presence, multiple top-producing agents with eXp ICON recognition",
+    "outreachReady": true,
+    "scoreBreakdown": {
+      "aiBlindSpot": 8.5,
+      "reputationStrength": 0,
+      "contentGap": 6,
+      "revenuePotential": 5,
+      "contactQuality": 5,
+      "total": 24.5
+    },
+    "priority": "P3"
+  },
+  {
+    "businessName": "Compass",
+    "contactName": "Robert Reffkin",
+    "contactEmail": "hali.mundy@compass.com",
+    "website": "https://www.compass.com/homes-for-sale/dallas-tx",
+    "phone": "(214) 814-8100",
+    "city": "Dallas",
+    "state": "TX",
+    "serviceNiche": "Real Estate Agent",
+    "painSignals": [
+      "Compass has multiple Google reviews but is not recommended by AI assistants for \"Real Estate Agent in Dallas\""
+    ],
+    "citationResults": [
+      {
+        "platform": "chatgpt",
+        "query": "best Real Estate Agent in Dallas",
+        "cited": false,
+        "competitorsCited": [
+          "Allie Beth Allman & Associates",
+          "Briggs Freeman Sotheby's International Realty",
+          "Van Poole Properties Group Keller Williams"
+        ]
+      }
+    ],
+    "differentiator": "Technology-driven platform, 787 Dallas agents, modern real estate technology, largest brokerage brand",
+    "outreachReady": true,
+    "scoreBreakdown": {
+      "aiBlindSpot": 8.5,
+      "reputationStrength": 0,
+      "contentGap": 6,
+      "revenuePotential": 5,
+      "contactQuality": 5,
+      "total": 24.5
+    },
+    "priority": "P3"
+  },
+  {
+    "businessName": "Dynamic Power Group",
+    "contactName": "Igor Onishchenko",
+    "website": "https://dpgcontractors.com/",
+    "phone": "(213) 401-2334",
+    "city": "Los Angeles",
+    "state": "",
+    "serviceNiche": "Electrician",
+    "reviewCount": 43,
+    "rating": 4.9,
+    "painSignals": [
+      "Dynamic Power Group has 43 Google reviews but is not recommended by AI assistants for \"Electrician in Los Angeles\""
+    ],
+    "citationResults": [
+      {
+        "platform": "chatgpt",
+        "query": "best Electrician in Los Angeles",
+        "cited": false,
+        "competitorsCited": [
+          "Express Electrical Services",
+          "The Electric Connection",
+          "Powell Electric",
+          "Alex & Alex Electrical Services"
+        ]
+      }
+    ],
+    "differentiator": "7,000+ projects completed, 24/7 emergency service available, transparent pricing, dual-licensed electricians",
+    "outreachReady": true,
+    "scoreBreakdown": {
+      "aiBlindSpot": 9,
+      "reputationStrength": 9,
+      "contentGap": 6,
+      "revenuePotential": 5,
+      "contactQuality": 3,
+      "total": 32
+    },
+    "priority": "P2"
+  },
+  {
+    "businessName": "Spring Branch AC",
+    "contactName": "Chris Crawford",
+    "website": "https://springbranchac.com/",
+    "phone": "(713) 999-6411",
+    "city": "Houston",
+    "state": "TX",
+    "serviceNiche": "HVAC Contractor",
+    "reviewCount": 371,
+    "rating": 4.9,
+    "painSignals": [
+      "Spring Branch AC appears in AI recommendations but may have optimization gaps"
+    ],
+    "citationResults": [
+      {
+        "platform": "chatgpt",
+        "query": "best HVAC Contractor in Houston",
+        "cited": true,
+        "competitorsCited": [
+          "75 Degree AC",
+          "Air Innovations",
+          "The Chill Brothers",
+          "All American AC & Heating"
+        ]
+      }
+    ],
+    "differentiator": "Serving Houston since 1956 (70+ years), 371 Google reviews at 4.9 stars, NATE-certified technicians, 24/7 availability with no weekend upcharges",
+    "outreachReady": true,
+    "scoreBreakdown": {
+      "aiBlindSpot": 5,
+      "reputationStrength": 12.5,
+      "contentGap": 6,
+      "revenuePotential": 6,
+      "contactQuality": 3,
+      "total": 32.5
+    },
+    "priority": "P2"
+  },
+  {
+    "businessName": "Air Innovations",
+    "contactName": "Troy Behrens",
+    "website": "https://www.airinnovationsllc.com/",
+    "phone": "(281) 830-2412",
+    "city": "Houston",
+    "state": "TX",
+    "serviceNiche": "HVAC Contractor",
+    "reviewCount": 1253,
+    "rating": 4.7,
+    "painSignals": [
+      "Air Innovations appears in AI recommendations but may have optimization gaps"
+    ],
+    "citationResults": [
+      {
+        "platform": "chatgpt",
+        "query": "best HVAC Contractor in Houston",
+        "cited": true,
+        "competitorsCited": [
+          "75 Degree AC",
+          "Spring Branch AC",
+          "The Chill Brothers",
+          "All American AC & Heating"
+        ]
+      }
+    ],
+    "differentiator": "Family-owned since 2005, BBB A+ accredited, 1253 Google reviews, specializes in indoor air quality and custom HVAC design",
+    "outreachReady": true,
+    "scoreBreakdown": {
+      "aiBlindSpot": 5,
+      "reputationStrength": 12.5,
+      "contentGap": 6,
+      "revenuePotential": 6,
+      "contactQuality": 3,
+      "total": 32.5
+    },
+    "priority": "P2"
+  },
+  {
+    "businessName": "Texas Central Air",
+    "contactName": "David",
+    "website": "https://texascentralair.com/",
+    "phone": "(281) 727-0327",
+    "city": "Houston",
+    "state": "TX",
+    "serviceNiche": "HVAC Contractor",
+    "painSignals": [
+      "Texas Central Air has multiple Google reviews but is not recommended by AI assistants for \"HVAC Contractor in Houston\""
+    ],
+    "citationResults": [
+      {
+        "platform": "chatgpt",
+        "query": "best HVAC Contractor in Houston",
+        "cited": false,
+        "competitorsCited": [
+          "75 Degree AC",
+          "Spring Branch AC",
+          "Air Innovations",
+          "The Chill Brothers",
+          "All American AC & Heating"
+        ]
+      }
+    ],
+    "differentiator": "Specializes in commercial and industrial HVAC, energy-efficient systems, 1-year labor warranty, 10+ years serving Houston",
+    "outreachReady": true,
+    "scoreBreakdown": {
+      "aiBlindSpot": 9,
+      "reputationStrength": 0,
+      "contentGap": 6,
+      "revenuePotential": 6,
+      "contactQuality": 3,
+      "total": 24
+    },
+    "priority": "P3"
+  },
+  {
+    "businessName": "Costa Roofing",
+    "contactName": "Contact via website",
+    "website": "https://costaroof.com/",
+    "phone": "(424) 218-6573",
+    "city": "Los Angeles",
+    "state": "",
+    "serviceNiche": "Roofing Contractor",
+    "painSignals": [
+      "Costa Roofing has multiple Google reviews but is not recommended by AI assistants for \"Roofing Contractor in Los Angeles\""
+    ],
+    "citationResults": [
+      {
+        "platform": "chatgpt",
+        "query": "best Roofing Contractor in Los Angeles",
+        "cited": false,
+        "competitorsCited": [
+          "Smart Roofing",
+          "Final Touch Roofing",
+          "Bilt-well Roofing",
+          "J and J Roofing",
+          "Preferred Roofing"
+        ]
+      }
+    ],
+    "differentiator": "25+ years in business, specializes in commercial roofing with manufacturer approvals (Sarnafil, APOC, Sika), GAF-certified, lifetime warranties, owner-involved on every project",
+    "outreachReady": true,
+    "scoreBreakdown": {
+      "aiBlindSpot": 9,
+      "reputationStrength": 0,
+      "contentGap": 6,
+      "revenuePotential": 6,
+      "contactQuality": 3,
+      "total": 24
+    },
+    "priority": "P3"
   }
 ]
