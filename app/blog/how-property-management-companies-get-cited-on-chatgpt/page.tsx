@@ -167,8 +167,8 @@ export default function PropertyManagementAICitationsPage() {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
       />
-      <main className="min-h-screen bg-[#0A0A0F]">
-        <article className="max-w-4xl mx-auto px-6 py-12 sm:py-16">
+      <div className="min-h-screen bg-[#131313]">
+        <article className="max-w-4xl mx-auto px-6 pt-24 pb-16">
 
           <nav className="text-sm text-gray-500 mb-8" aria-label="Breadcrumb">
             <Link href="/" className="hover:text-white transition-colors">Home</Link>
@@ -1063,7 +1063,7 @@ export default function PropertyManagementAICitationsPage() {
             </div>
 
             <div className="ae-cta-block not-prose my-16">
-              <h2>Ready to Get Your Property Management Company Cited on ChatGPT?</h2>
+              <h3>Ready to Get Your Property Management Company Cited on ChatGPT?</h3>
               <p>
                 Find out whether your current digital presence is structured to earn AI citations,
                 or where the gap is. Our free blind spot report analyzes your directory coverage,
@@ -1104,7 +1104,7 @@ export default function PropertyManagementAICitationsPage() {
             </div>
 
             <section className="ae-final-cta not-prose text-center py-12 border-t border-white/[0.05]">
-              <h2 className="text-2xl sm:text-3xl font-semibold mb-4 text-white font-plus-jakarta">
+              <h2 className="text-2xl sm:text-3xl font-black mb-4 text-white font-headline uppercase tracking-tighter">
                 A Competitor in Your Market Is Building Citation Authority Right Now
               </h2>
               <p className="text-gray-400 mb-8 max-w-2xl mx-auto">
@@ -1116,7 +1116,7 @@ export default function PropertyManagementAICitationsPage() {
               </p>
               <Link
                 href="/blindspot"
-                className="ae-final-cta-pulse inline-flex items-center gap-2 font-semibold px-8 py-4 rounded-xl"
+                className="inline-flex items-center justify-center gap-2 bg-[#F27D24] text-black font-black px-10 py-4 tracking-tighter hover:translate-y-[2px] transition-transform font-headline uppercase"
               >
                 Get Your Free Blind Spot Report
                 <svg
@@ -1154,7 +1154,7 @@ export default function PropertyManagementAICitationsPage() {
 
           </div>
         </article>
-      </main>
+      </div>
     </>
   );
 }
