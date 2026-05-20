@@ -8339,7 +8339,7 @@
     "reviewCount": 125,
     "rating": 4.9,
     "notes": "Auto-discovered by Lead Hunter. AI citation: not cited on 0/1 platforms. Competitors cited: Allie Beth Allman & Associates, Briggs Freeman Sotheby's International Realty. Outreach-ready: YES (citation data + contact + differentiator verified). Differentiator: Founded 2001, #1 team in #1 brokerage, top 1% nationwide, 75+ years combined experience, D Magazine Best Realtor 2006-2018",
-    "status": "queued",
+    "status": "failed",
     "research": null,
     "reportSlug": "van-poole-properties-group-keller-williams-qdff",
     "emailDraftId": null,
@@ -8349,10 +8349,26 @@
       {
         "action": "Queued by Lead Hunter (P2, score: 31.5, outreach-ready: true)",
         "timestamp": "2026-05-15T09:23:01.106Z"
+      },
+      {
+        "action": "Research started (auto-pipeline)",
+        "timestamp": "2026-05-20T07:00:25.316Z"
+      },
+      {
+        "action": "Research started (auto-pipeline)",
+        "timestamp": "2026-05-20T07:00:30.319Z"
+      },
+      {
+        "action": "Research started (auto-pipeline)",
+        "timestamp": "2026-05-20T07:00:40.319Z"
+      },
+      {
+        "action": "Dead-lettered after 3 failed attempts: ANTHROPIC_API_KEY not configured",
+        "timestamp": "2026-05-20T07:00:40.320Z"
       }
     ],
     "createdAt": "2026-05-15T09:23:01.106Z",
-    "updatedAt": "2026-05-15T09:23:01.106Z",
+    "updatedAt": "2026-05-20T07:00:40.320Z",
     "huntSource": "hunt_1778836922414_neli",
     "huntScore": 31.5,
     "huntPriority": "P2",
