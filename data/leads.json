@@ -8181,12 +8181,87 @@
     "reviewCount": 138,
     "rating": 4.8,
     "notes": "Auto-discovered by Lead Hunter. AI citation: not cited on 0/1 platforms. Competitors cited: Allie Beth Allman & Associates, Van Poole Properties Group Keller Williams. Outreach-ready: YES (citation data + contact + differentiator verified). Differentiator: Founded 1960, #1 luxury brokerage in North Texas, Sotheby's International Realty network, 381 agents across 6 offices",
-    "status": "failed",
-    "research": null,
+    "status": "report_ready",
+    "research": {
+      "reviewCount": 138,
+      "rating": 4.8,
+      "yearsInBusiness": 66,
+      "credentials": [
+        "Sotheby's International Realty affiliation (26,400+ agents in 83 countries)",
+        "Award-winning agents designation",
+        "#1 luxury brokerage in North Texas by market share",
+        "RealTrends Verified #1 in Texas for agent productivity (among SIR affiliates)",
+        "Website award-winning (REAL Trends Inc, 1000Watt Consulting recognition)",
+        "Licensed Texas real estate brokerage",
+        "Executive team with advanced degrees (MBA, Economics)"
+      ],
+      "awards": [
+        "RealTrends Verified #1 in Texas for agent productivity among SIR affiliates (2024)",
+        "#1 in all of Dallas and #2 in all of Texas (brokerage ranking)",
+        "Ranked #5 of 800+ Sotheby's International Realty offices worldwide (within 4 years of affiliation)",
+        "Website awards from REAL Trends Inc and 1000Watt Consulting",
+        "Record-breaking sales volume multiple consecutive years ($3.2B in 2016, $3.05B in 2017)"
+      ],
+      "communityInvolvement": [
+        "Love Your Neighbors program (giving back to communities where agents work)",
+        "Texas Health sponsorship (Puttin' On The Pink 30th Pearl Anniversary)",
+        "Highland Park Village Christmas sponsorship (Photos with Santa)",
+        "Snider Plaza tree lighting sponsorship",
+        "Sotheby's International Realty global panel participation",
+        "Member of Dallas business community leadership"
+      ],
+      "hiddenDifferentiators": [
+        "Peerage Realty Partners backing (private equity, $53B in SIR affiliate partnerships)",
+        "Exposure on 120+ influential real estate syndication sites globally",
+        "Direct access to 26,400 Sotheby's agents worldwide for referrals",
+        "Proprietary Success Center for agent training",
+        "Virtual staging technology and digital marketing tools",
+        "Ranch & Land Division specialization",
+        "Commercial Division expansion (launched 2017)",
+        "W.T. Waggoner Ranch representation ($735M, largest SIR affiliate listing ever)",
+        "60+ years of embedded community relationships in North Texas"
+      ],
+      "topCompetitors": [
+        {
+          "name": "Allie Beth Allman & Associates",
+          "reason": "Founded 1985, Berkshire Hathaway backed, ~400 agents, single-office focused, strong Highland Park presence, recognized as most productive single office in Dallas"
+        },
+        {
+          "name": "Dave Perry-Miller Real Estate",
+          "reason": "Part of Ebby Halliday Companies, 3,356 transactions in 2016 ($2.1B volume), prestige neighborhood specialist"
+        },
+        {
+          "name": "Van Poole Properties Group Keller Williams",
+          "reason": "National KW affiliation, mentioned in competitive context"
+        }
+      ],
+      "faqContentPresent": false,
+      "blogPresent": true,
+      "gmbPresent": true,
+      "schemaDetected": false,
+      "recentContent": true,
+      "uniqueStory": "Founded in 1960 as a local boutique firm, Briggs Freeman grew to become the #1 luxury brokerage in North Texas before strategically affiliating with Sotheby's International Realty in 2010. Within 4 years, it ranked #5 among 800+ SIR affiliates globally. Now backed by Peerage Realty Partners (a $53B private equity investor in SIR), the brokerage combines 60+ years of deep community roots with global luxury network reach, maintaining independence while accessing unprecedented worldwide marketing resources.",
+      "aiCited": false,
+      "aero7": {
+        "answerQuality": 7,
+        "entityOptimization": 4,
+        "relevanceFreshness": 7,
+        "optimizationStructure": 6,
+        "voiceAuthenticity": 7,
+        "authoritySignals": 8,
+        "authorityDistribution": 7,
+        "consensusCoCitation": 5,
+        "platformReadiness": 3,
+        "technicalAccessibility": 4,
+        "total": 58
+      },
+      "rawNotes": "STRENGTHS: Strong domain authority (66 years), excellent review ratings (4.8/5 with 138 reviews on Facebook), major institutional backing (Peerage Realty Partners), extensive credentials (Sotheby's network, RealTrends ranking), deep community integration (Love Your Neighbors program), proven track record (record-breaking sales volumes), executive bios with credentials present. Recent content on LinkedIn and website (March 2026 homepage update). WEAKNESSES: Not appearing in AI platform recommendations despite scale (zero ChatGPT/Gemini/Perplexity citations found). No dedicated FAQ schema detected. Schema markup implementation appears minimal. robots.txt AI bot access status unknown but not verified as optimized. No detected blog presence for content marketing (About page exists but blog appears historical). Competitor Allie Beth Allman positioned as 'most productive single office' suggesting market positioning nuance. Not mentioned in major AI visibility tools. NAP consistency across platforms verified (address on Google, Yelp, HAR.com, LinkedIn) but formatting inconsistencies in listing (multiple office addresses). LinkedIn presence strong (3,679 followers) but not leveraging for AI recommendations. Missing modern AEO/GEO optimization despite being prime candidate. Website appears well-designed but technically underoptimized for AI crawlers. No mention of blog or thought leadership content. Website award-winning but pre-AI era recognition. Real estate industry experiencing major shift toward AI recommendations; Briggs Freeman not positioned for emerging search behavior where buyers research agents via ChatGPT/Perplexity.",
+      "researchedAt": "2026-05-20T06:00:33.366Z"
+    },
     "reportSlug": "briggs-freeman-sotheby-s-international-realty-5ei0",
     "emailDraftId": null,
     "fabricationFlags": [],
-    "emDashClean": false,
+    "emDashClean": true,
     "actionLog": [
       {
         "action": "Queued by Lead Hunter (P2, score: 31.5, outreach-ready: true)",
@@ -8194,23 +8269,39 @@
       },
       {
         "action": "Research started (auto-pipeline)",
-        "timestamp": "2026-05-20T06:00:12.316Z"
+        "timestamp": "2026-05-20T06:00:02.586Z"
       },
       {
-        "action": "Research started (auto-pipeline)",
-        "timestamp": "2026-05-20T06:00:17.318Z"
+        "action": "Research completed (AERO-10: 58/100)",
+        "timestamp": "2026-05-20T06:00:33.366Z"
       },
       {
-        "action": "Research started (auto-pipeline)",
-        "timestamp": "2026-05-20T06:00:27.318Z"
+        "action": "Report generation started",
+        "timestamp": "2026-05-20T06:00:33.366Z"
       },
       {
-        "action": "Dead-lettered after 3 failed attempts: ANTHROPIC_API_KEY not configured",
-        "timestamp": "2026-05-20T06:00:27.319Z"
+        "action": "Competitor battlecard attached",
+        "timestamp": "2026-05-20T06:02:30.548Z"
+      },
+      {
+        "action": "Report generated",
+        "timestamp": "2026-05-20T06:02:30.548Z"
+      },
+      {
+        "action": "Fabrication scan: CLEAN",
+        "timestamp": "2026-05-20T06:02:30.548Z"
+      },
+      {
+        "action": "Em-dash scan: CLEAN",
+        "timestamp": "2026-05-20T06:02:30.548Z"
+      },
+      {
+        "action": "Report + OG metadata deployed to production",
+        "timestamp": "2026-05-20T06:02:30.683Z"
       }
     ],
     "createdAt": "2026-05-15T09:23:01.106Z",
-    "updatedAt": "2026-05-20T06:00:27.319Z",
+    "updatedAt": "2026-05-20T06:02:30.548Z",
     "huntSource": "hunt_1778836922414_neli",
     "huntScore": 31.5,
     "huntPriority": "P2",

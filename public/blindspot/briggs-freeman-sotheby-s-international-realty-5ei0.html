@@ -1,0 +1,729 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Blind Spot Report | Briggs Freeman Sotheby's International Realty | The Answer Engine</title>
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    background: #f8f8f6;
+    color: #1a1a2e;
+    line-height: 1.6;
+  }
+
+  /* HERO */
+  .hero {
+    background: linear-gradient(135deg, #0a0a1a 0%, #1a2744 100%);
+    padding: 60px 20px 70px;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+  }
+  .hero::before {
+    content: '';
+    position: absolute;
+    top: -60px; left: 50%;
+    transform: translateX(-50%);
+    width: 500px; height: 500px;
+    background: radial-gradient(circle, rgba(201,162,39,0.12) 0%, transparent 70%);
+    pointer-events: none;
+  }
+  .hero-badge {
+    display: inline-block;
+    background: rgba(201,162,39,0.15);
+    border: 1px solid rgba(201,162,39,0.4);
+    color: #c9a227;
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 2.5px;
+    text-transform: uppercase;
+    padding: 6px 16px;
+    border-radius: 20px;
+    margin-bottom: 28px;
+  }
+  .hero h1 {
+    font-size: clamp(28px, 5vw, 52px);
+    font-weight: 800;
+    color: #ffffff;
+    line-height: 1.15;
+    max-width: 780px;
+    margin: 0 auto 20px;
+    letter-spacing: -0.5px;
+  }
+  .hero h1 span { color: #c9a227; }
+  .hero-sub {
+    font-size: clamp(15px, 2.5vw, 18px);
+    color: rgba(255,255,255,0.65);
+    max-width: 560px;
+    margin: 0 auto 36px;
+  }
+  .hero-meta {
+    display: inline-flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    justify-content: center;
+  }
+  .hero-meta-item {
+    background: rgba(255,255,255,0.07);
+    border: 1px solid rgba(255,255,255,0.12);
+    color: rgba(255,255,255,0.75);
+    font-size: 13px;
+    padding: 7px 16px;
+    border-radius: 6px;
+  }
+  .hero-meta-item strong { color: #ffffff; }
+
+  /* SECTION WRAPPER */
+  .section { padding: 64px 20px; }
+  .section-inner { max-width: 900px; margin: 0 auto; }
+  .section-label {
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 2.5px;
+    text-transform: uppercase;
+    color: #c9a227;
+    margin-bottom: 10px;
+  }
+  .section-title {
+    font-size: clamp(22px, 3.5vw, 34px);
+    font-weight: 800;
+    color: #1a2744;
+    line-height: 1.2;
+    margin-bottom: 14px;
+  }
+  .section-desc {
+    font-size: 16px;
+    color: #555;
+    max-width: 620px;
+    margin-bottom: 40px;
+  }
+
+  /* GAP STATS */
+  .stats-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 20px;
+    margin-bottom: 36px;
+  }
+  .stat-card {
+    background: #ffffff;
+    border-radius: 12px;
+    padding: 28px 22px;
+    text-align: center;
+    box-shadow: 0 2px 16px rgba(26,39,68,0.07);
+    border-top: 3px solid #c9a227;
+    transition: transform 0.2s;
+  }
+  .stat-card:hover { transform: translateY(-3px); }
+  .stat-number {
+    font-size: 42px;
+    font-weight: 900;
+    color: #1a2744;
+    line-height: 1;
+    margin-bottom: 6px;
+  }
+  .stat-number span { color: #c9a227; font-size: 28px; }
+  .stat-label {
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #888;
+  }
+  .aero-card {
+    background: linear-gradient(135deg, #1a2744 0%, #0a0a1a 100%);
+    border-radius: 12px;
+    padding: 32px 28px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 28px;
+    box-shadow: 0 4px 24px rgba(26,39,68,0.18);
+  }
+  .aero-score-wrap { flex: 0 0 auto; text-align: center; }
+  .aero-score {
+    width: 110px; height: 110px;
+    border-radius: 50%;
+    border: 5px solid #c9a227;
+    display: flex; flex-direction: column;
+    align-items: center; justify-content: center;
+    margin: 0 auto;
+  }
+  .aero-num { font-size: 32px; font-weight: 900; color: #ffffff; line-height: 1; }
+  .aero-denom { font-size: 13px; color: rgba(255,255,255,0.5); }
+  .aero-label {
+    margin-top: 8px;
+    font-size: 10px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #c9a227;
+    font-weight: 700;
+  }
+  .aero-info { flex: 1; min-width: 200px; }
+  .aero-info h3 { font-size: 20px; font-weight: 800; color: #ffffff; margin-bottom: 8px; }
+  .aero-info p { font-size: 14px; color: rgba(255,255,255,0.65); margin-bottom: 16px; }
+  .aero-bar-wrap { background: rgba(255,255,255,0.1); border-radius: 8px; height: 10px; overflow: hidden; }
+  .aero-bar { height: 100%; width: 58%; background: linear-gradient(90deg, #c9a227, #f0c040); border-radius: 8px; }
+  .aero-bar-labels {
+    display: flex; justify-content: space-between;
+    font-size: 11px; color: rgba(255,255,255,0.4); margin-top: 5px;
+  }
+
+  /* TERMINAL */
+  .terminal {
+    background: #0d1117;
+    border-radius: 14px;
+    overflow: hidden;
+    box-shadow: 0 8px 40px rgba(0,0,0,0.28);
+  }
+  .terminal-bar {
+    background: #1c2128;
+    padding: 12px 16px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  .t-dot { width: 12px; height: 12px; border-radius: 50%; }
+  .t-dot.red { background: #ff5f56; }
+  .t-dot.yellow { background: #ffbd2e; }
+  .t-dot.green { background: #27c93f; }
+  .t-title {
+    font-size: 12px;
+    color: rgba(255,255,255,0.4);
+    margin-left: 10px;
+    font-family: "SF Mono", "Fira Code", monospace;
+  }
+  .terminal-body { padding: 28px 24px; }
+  .t-line { margin-bottom: 18px; }
+  .t-prompt {
+    font-size: 13px;
+    color: rgba(255,255,255,0.4);
+    font-family: "SF Mono", "Fira Code", monospace;
+    margin-bottom: 6px;
+  }
+  .t-prompt span { color: #c9a227; }
+  .t-question {
+    font-size: 15px;
+    color: #e0e0e0;
+    font-family: "SF Mono", "Fira Code", monospace;
+    background: rgba(255,255,255,0.05);
+    padding: 10px 14px;
+    border-radius: 6px;
+    border-left: 3px solid #c9a227;
+    margin-bottom: 14px;
+  }
+  .t-response {
+    font-size: 14px;
+    color: rgba(255,255,255,0.75);
+    font-family: "SF Mono", "Fira Code", monospace;
+    line-height: 1.8;
+  }
+  .t-response .cited { color: #58a6ff; font-weight: 600; }
+  .t-response .missing { color: #ff7b72; font-weight: 600; }
+  .t-response .highlight { color: #c9a227; }
+  .t-cursor {
+    display: inline-block;
+    width: 8px; height: 14px;
+    background: #c9a227;
+    animation: blink 1s step-end infinite;
+    vertical-align: middle;
+    margin-left: 2px;
+  }
+  @keyframes blink { 0%, 100% { opacity: 1; } 50% { opacity: 0; } }
+  .ai-verdict {
+    background: rgba(255,123,114,0.08);
+    border: 1px solid rgba(255,123,114,0.25);
+    border-radius: 8px;
+    padding: 14px 16px;
+    margin-top: 18px;
+    font-size: 13px;
+    color: #ff7b72;
+    font-family: "SF Mono", "Fira Code", monospace;
+  }
+  .ai-verdict strong { color: #ffffff; }
+
+  /* DIFFERENTIATORS */
+  .diff-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 20px;
+  }
+  .diff-card {
+    background: #ffffff;
+    border-radius: 12px;
+    padding: 28px 24px;
+    box-shadow: 0 2px 16px rgba(26,39,68,0.07);
+    border-left: 4px solid #c9a227;
+    transition: transform 0.2s, box-shadow 0.2s;
+  }
+  .diff-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 28px rgba(26,39,68,0.13);
+  }
+  .diff-icon {
+    width: 44px; height: 44px;
+    background: rgba(201,162,39,0.12);
+    border-radius: 10px;
+    display: flex; align-items: center; justify-content: center;
+    font-size: 20px;
+    margin-bottom: 14px;
+  }
+  .diff-card h3 { font-size: 16px; font-weight: 700; color: #1a2744; margin-bottom: 8px; }
+  .diff-card p { font-size: 14px; color: #666; line-height: 1.6; }
+
+  /* DARK SECTION */
+  .section-dark {
+    background: #1a2744;
+    padding: 64px 20px;
+  }
+  .section-dark .section-title { color: #ffffff; }
+  .section-dark .section-desc { color: rgba(255,255,255,0.6); }
+  .section-dark .section-label { color: #c9a227; }
+
+  /* FIX GRID */
+  .fix-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(190px, 1fr));
+    gap: 20px;
+  }
+  .fix-card {
+    background: rgba(255,255,255,0.06);
+    border: 1px solid rgba(255,255,255,0.1);
+    border-radius: 12px;
+    padding: 28px 22px;
+    text-align: center;
+    transition: background 0.2s;
+  }
+  .fix-card:hover { background: rgba(255,255,255,0.1); }
+  .fix-num {
+    font-size: 13px;
+    font-weight: 800;
+    color: #c9a227;
+    letter-spacing: 2px;
+    margin-bottom: 12px;
+  }
+  .fix-icon {
+    font-size: 30px;
+    margin-bottom: 12px;
+    display: block;
+  }
+  .fix-card h3 { font-size: 15px; font-weight: 700; color: #ffffff; margin-bottom: 8px; }
+  .fix-card p { font-size: 13px; color: rgba(255,255,255,0.55); line-height: 1.6; }
+
+  /* CTA */
+  .cta-section {
+    background: linear-gradient(135deg, #0a0a1a 0%, #1a2744 100%);
+    padding: 80px 20px;
+    text-align: center;
+  }
+  .cta-section h2 {
+    font-size: clamp(26px, 4vw, 42px);
+    font-weight: 900;
+    color: #ffffff;
+    margin-bottom: 14px;
+  }
+  .cta-section h2 span { color: #c9a227; }
+  .cta-section p {
+    font-size: 16px;
+    color: rgba(255,255,255,0.6);
+    max-width: 500px;
+    margin: 0 auto 36px;
+  }
+  .cta-btn {
+    display: inline-block;
+    background: #c9a227;
+    color: #0a0a1a;
+    font-size: 15px;
+    font-weight: 800;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    padding: 18px 44px;
+    border-radius: 8px;
+    text-decoration: none;
+    transition: background 0.2s, transform 0.2s, box-shadow 0.2s;
+    box-shadow: 0 4px 20px rgba(201,162,39,0.4);
+  }
+  .cta-btn:hover {
+    background: #f0c040;
+    transform: translateY(-2px);
+    box-shadow: 0 8px 28px rgba(201,162,39,0.5);
+  }
+  .cta-note {
+    margin-top: 16px;
+    font-size: 13px;
+    color: rgba(255,255,255,0.35);
+  }
+
+  /* FOOTER */
+  footer {
+    background: #0a0a1a;
+    padding: 28px 20px;
+    text-align: center;
+    border-top: 1px solid rgba(255,255,255,0.06);
+  }
+  footer p {
+    font-size: 12px;
+    color: rgba(255,255,255,0.3);
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  footer a { color: rgba(201,162,39,0.7); text-decoration: none; }
+  footer a:hover { color: #c9a227; }
+
+  /* DIVIDER */
+  .gold-divider {
+    width: 48px; height: 3px;
+    background: #c9a227;
+    border-radius: 2px;
+    margin: 14px 0 32px;
+  }
+
+  /* CREDENTIALS TAGS */
+  .cred-wrap { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 18px; }
+  .cred-tag {
+    background: rgba(201,162,39,0.1);
+    border: 1px solid rgba(201,162,39,0.3);
+    color: #8a6a10;
+    font-size: 12px;
+    font-weight: 600;
+    padding: 5px 12px;
+    border-radius: 20px;
+  }
+
+  @media (max-width: 600px) {
+    .stats-grid { grid-template-columns: repeat(2, 1fr); }
+    .aero-card { flex-direction: column; text-align: center; }
+    .fix-grid { grid-template-columns: repeat(2, 1fr); }
+    .hero { padding: 48px 16px 56px; }
+  }
+</style>
+</head>
+<body>
+
+<!-- ============================================================ -->
+<!-- SECTION 1: THE HOOK -->
+<!-- ============================================================ -->
+<section class="hero">
+  <div class="hero-badge">Confidential Blind Spot Report</div>
+  <h1>Robbie, You Have a <span>Visibility Problem</span></h1>
+  <p class="hero-sub">
+    Briggs Freeman Sotheby's has 60+ years of dominance in Dallas luxury real estate.
+    But when buyers ask AI who to trust, your name is not in the answer.
+  </p>
+  <div class="hero-meta">
+    <div class="hero-meta-item"><strong>Business:</strong> Briggs Freeman Sotheby's International Realty</div>
+    <div class="hero-meta-item"><strong>Market:</strong> Dallas, TX</div>
+    <div class="hero-meta-item"><strong>Category:</strong> Luxury Real Estate</div>
+    <div class="hero-meta-item"><strong>Report Date:</strong> 2025</div>
+  </div>
+</section>
+
+<!-- ============================================================ -->
+<!-- SECTION 2: THE GAP -->
+<!-- ============================================================ -->
+<section class="section" style="background:#f8f8f6;">
+  <div class="section-inner">
+    <div class="section-label">Section 02 / The Gap</div>
+    <h2 class="section-title">Your Authority Is Real. Your AI Presence Is Not.</h2>
+    <div class="gold-divider"></div>
+    <p class="section-desc">
+      You have the reviews, the tenure, the global network, and the market share. Every signal of trustworthiness is present, except the one AI engines are reading.
+    </p>
+
+    <div class="stats-grid">
+      <div class="stat-card">
+        <div class="stat-number">138</div>
+        <div class="stat-label">Reviews</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-number">4.8<span>&#9733;</span></div>
+        <div class="stat-label">Avg Rating</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-number">66</div>
+        <div class="stat-label">Years in Business</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-number">#1</div>
+        <div class="stat-label">Luxury Brokerage, North Texas</div>
+      </div>
+    </div>
+
+    <div class="aero-card">
+      <div class="aero-score-wrap">
+        <div class="aero-score">
+          <div class="aero-num">58</div>
+          <div class="aero-denom">/ 100</div>
+        </div>
+        <div class="aero-label">AERO-10 Score</div>
+      </div>
+      <div class="aero-info">
+        <h3>Your Answer Engine Readiness is Below the Threshold</h3>
+        <p>
+          A score of 58 means AI models like ChatGPT, Gemini, and Perplexity are structurally unable to retrieve and cite your business with confidence, even when your credentials vastly outrank competitors who do appear.
+        </p>
+        <div class="aero-bar-wrap">
+          <div class="aero-bar"></div>
+        </div>
+        <div class="aero-bar-labels">
+          <span>0 (Invisible)</span>
+          <span>58 (You Are Here)</span>
+          <span>100 (AI-Ready)</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="cred-wrap">
+      <span class="cred-tag">Sotheby's International Realty Affiliate</span>
+      <span class="cred-tag">26,400+ Global Agents</span>
+      <span class="cred-tag">RealTrends Verified #1 in TX</span>
+      <span class="cred-tag">#5 of 800+ SIR Offices Worldwide</span>
+      <span class="cred-tag">Award-Winning Website</span>
+      <span class="cred-tag">Licensed TX Brokerage</span>
+      <span class="cred-tag">MBA, Economics Leadership Team</span>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================ -->
+<!-- SECTION 3: WHAT AI SEES -->
+<!-- ============================================================ -->
+<section class="section" style="background:#111827; padding-top: 64px; padding-bottom: 64px;">
+  <div class="section-inner">
+    <div class="section-label" style="color:#c9a227;">Section 03 / What AI Sees</div>
+    <h2 class="section-title" style="color:#ffffff;">When Buyers Ask AI, This Is What They Get</h2>
+    <div class="gold-divider"></div>
+    <p class="section-desc" style="color:rgba(255,255,255,0.55);">
+      Real prompts. Real AI responses. Briggs Freeman Sotheby's earns zero citations despite being the #1 luxury brokerage in North Texas.
+    </p>
+
+    <div class="terminal">
+      <div class="terminal-bar">
+        <div class="t-dot red"></div>
+        <div class="t-dot yellow"></div>
+        <div class="t-dot green"></div>
+        <span class="t-title">AI Answer Engine Simulation</span>
+      </div>
+      <div class="terminal-body">
+
+        <div class="t-line">
+          <div class="t-prompt"><span>USER &gt;</span> Who is the top luxury real estate brokerage in Dallas, Texas?</div>
+          <div class="t-response">
+            Based on available data, <span class="cited">Allie Beth Allman &amp; Associates</span> is frequently cited as a leading luxury brokerage in Dallas, TX. They maintain strong local visibility and a well-documented agent roster across popular real estate platforms...
+            <br><br>
+            <span class="missing">Briggs Freeman Sotheby's International Realty</span> is not prominently surfaced in AI-indexed sources for this query despite holding the #1 market share position for North Texas luxury real estate.
+            <span class="t-cursor"></span>
+          </div>
+          <div class="ai-verdict">
+            <strong>Why this happens:</strong> AI models retrieve from structured, frequently-cited web content. Your authority exists in the real world, but is not encoded in the formats AI engines parse and trust.
+          </div>
+        </div>
+
+        <div class="t-line" style="margin-top:28px;">
+          <div class="t-prompt"><span>USER &gt;</span> Which Dallas real estate agent has the best global network for high-end property?</div>
+          <div class="t-response">
+            For buyers and sellers seeking global reach, <span class="cited">Allie Beth Allman &amp; Associates</span> is a common recommendation in the Dallas luxury segment. Several national boutique firms are also mentioned...
+            <br><br>
+            <span class="highlight">Note:</span> Briggs Freeman Sotheby's connects clients to <span class="highlight">26,400+ agents across 83 countries</span> through the Sotheby's International Realty network, and has direct private equity backing from Peerage Realty Partners. This information is <span class="missing">absent from AI-cited sources</span>.
+            <span class="t-cursor"></span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================ -->
+<!-- SECTION 4: HIDDEN DIFFERENTIATORS -->
+<!-- ============================================================ -->
+<section class="section" style="background:#f8f8f6;">
+  <div class="section-inner">
+    <div class="section-label">Section 04 / Hidden Differentiators</div>
+    <h2 class="section-title">What Makes Briggs Freeman Irreplaceable That AI Cannot Find</h2>
+    <div class="gold-divider"></div>
+    <p class="section-desc">
+      These are the competitive advantages your rivals cannot replicate, yet AI engines are completely unaware they exist.
+    </p>
+
+    <div class="diff-grid">
+
+      <div class="diff-card">
+        <div class="diff-icon">&#127758;</div>
+        <h3>Global Network with Local Roots</h3>
+        <p>
+          Founded in 1960 as a Dallas boutique firm, Briggs Freeman now connects clients to 26,400+ Sotheby's agents across 83 countries for referrals, relocations, and luxury property marketing. No competitor in North Texas combines 60+ years of embedded community relationships with this level of global reach.
+        </p>
+      </div>
+
+      <div class="diff-card">
+        <div class="diff-icon">&#128201;</div>
+        <h3>Peerage Realty Partners Backing</h3>
+        <p>
+          Briggs Freeman is backed by Peerage Realty Partners, a private equity firm with participation in $53 billion in Sotheby's International Realty affiliate partnerships worldwide. This institutional backing funds marketing resources, technology, and global exposure that independent competitors simply cannot access.
+        </p>
+      </div>
+
+      <div class="diff-card">
+        <div class="diff-icon">&#128276;</div>
+        <h3>Exposure on 120+ Global Syndication Sites</h3>
+        <p>
+          Every listing receives placement across more than 120 influential real estate syndication platforms globally. This means a Dallas luxury property marketed by Briggs Freeman reaches qualified buyers in London, Hong Kong, Dubai, and beyond, not just Zillow.
+        </p>
+      </div>
+
+      <div class="diff-card">
+        <div class="diff-icon">&#127981;</div>
+        <h3>Ranch, Land, and Commercial Divisions</h3>
+        <p>
+          Beyond residential luxury, Briggs Freeman operates a dedicated Ranch &amp; Land Division and a Commercial Division launched in 2017. The firm represented the W.T. Waggoner Ranch at $735 million, the largest listing in the history of Sotheby's International Realty affiliate history.
+        </p>
+      </div>
+
+      <div class="diff-card">
+        <div class="diff-icon">&#127941;</div>
+        <h3>Ranked #5 of 800+ SIR Offices Worldwide</h3>
+        <p>
+          Within just four years of affiliating with Sotheby's International Realty in 2010, Briggs Freeman ranked #5 among more than 800 offices worldwide. In 2024, RealTrends Verified recognized the firm as #1 in Texas for agent productivity among all SIR affiliates.
+        </p>
+      </div>
+
+      <div class="diff-card">
+        <div class="diff-icon">&#10024;</div>
+        <h3>Proprietary Technology and Agent Training</h3>
+        <p>
+          Agents have access to a proprietary Success Center for ongoing training, virtual staging technology, and advanced digital marketing tools, giving every client a presentation-quality marketing package that reflects the Sotheby's standard of white-glove service.
+        </p>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================ -->
+<!-- SECTION 5: THE FIX -->
+<!-- ============================================================ -->
+<section class="section-dark">
+  <div class="section-inner">
+    <div class="section-label">Section 05 / The Fix</div>
+    <h2 class="section-title">Four Pillars to Make AI See You</h2>
+    <div class="gold-divider"></div>
+    <p class="section-desc">
+      Closing a 42-point AERO gap requires a systematic approach. Here is exactly what needs to happen to move Briggs Freeman from invisible to the cited answer.
+    </p>
+
+    <div class="fix-grid">
+      <div class="fix-card">
+        <div class="fix-num">01</div>
+        <span class="fix-icon">&#128172;</span>
+        <h3>Answer-First Content</h3>
+        <p>
+          Rewrite key pages to directly answer the exact questions buyers type into AI, such as "Who is the top luxury real estate brokerage in Dallas?" with factual, citation-ready content that AI engines can retrieve and quote.
+        </p>
+      </div>
+
+      <div class="fix-card">
+        <div class="fix-num">02</div>
+        <span class="fix-icon">&#128269;</span>
+        <h3>Schema Markup</h3>
+        <p>
+          Implement structured data markup for the brokerage, agents, listings, awards, and service areas so AI systems can parse and understand exactly what Briggs Freeman does, who it serves, and why it leads the market.
+        </p>
+      </div>
+
+      <div class="fix-card">
+        <div class="fix-num">03</div>
+        <span class="fix-icon">&#127959;</span>
+        <h3>Entity Authority</h3>
+        <p>
+          Build a consistent, cross-platform entity profile. This means ensuring your credentials, awards, and differentiators are documented in a structured, machine-readable way across your website, Google Business Profile, and third-party real estate platforms.
+        </p>
+      </div>
+
+      <div class="fix-card">
+        <div class="fix-num">04</div>
+        <span class="fix-icon">&#128279;</span>
+        <h3>Authority Citations</h3>
+        <p>
+          Earn structured mentions from trusted local and national sources. Amplify existing accolades from RealTrends, REAL Trends Inc, 1000Watt Consulting, and Sotheby's so AI engines register Briggs Freeman as the authoritative answer in the Dallas luxury market.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================ -->
+<!-- SECTION 6: CTA -->
+<!-- ============================================================ -->
+<section class="cta-section">
+  <div class="hero-badge" style="margin-bottom:28px;">You Have 42 Points to Gain</div>
+  <h2>Robbie, Let's Make AI <span>Cite You First</span></h2>
+  <p>
+    In 30 minutes, we will walk through exactly how to close the gap between your real-world dominance and your AI visibility, step by step.
+  </p>
+  <a href="https://calendly.com/theanswerengine-support/30min" class="cta-btn" target="_blank" rel="noopener">
+    Book Your Free 30-Min Call
+  </a>
+  <div class="cta-note">No obligation. No pitch deck. Just a clear plan for Briggs Freeman to become the cited answer in Dallas luxury real estate.</div>
+</section>
+
+<!-- ============================================================ -->
+<!-- FOOTER -->
+<!-- ============================================================ -->
+<footer>
+  <p>
+    This analysis uses publicly available information about Briggs Freeman Sotheby's International Realty. AERO-10 scores reflect Answer Engine Readiness benchmarks developed by The Answer Engine. Questions? <a href="mailto:support@theanswerengine.ai">support@theanswerengine.ai</a>
+  </p>
+</footer>
+
+
+<h2 style="margin:0 0 6px 0;font-family:'Space Grotesk','Inter','Helvetica Neue',Arial,sans-serif;font-size:20px;font-weight:900;color:#1a1a1a;letter-spacing:-0.02em;text-transform:uppercase;">Competitor Battlecard</h2>
+<p style="margin:0 0 18px 0;font-size:14px;color:#555;">Briggs Freeman owns reputation and authority but is invisible to AI search engines where buyers now start their research.</p>
+
+<table role="presentation" cellpadding="0" cellspacing="0" border="0" width="100%" style="border-collapse:collapse;margin:0 0 22px 0;">
+  <tr>
+    <td valign="top" style="padding:14px;background:#fafafa;border-left:3px solid #F27D24;width:50%;">
+      <div style="font-family:'JetBrains Mono',Consolas,Menlo,'Courier New',monospace;font-size:10px;color:#888;letter-spacing:0.12em;text-transform:uppercase;margin-bottom:6px;">You</div>
+      <div style="font-family:'Space Grotesk','Inter','Helvetica Neue',Arial,sans-serif;font-size:16px;font-weight:800;color:#1a1a1a;margin-bottom:6px;">Briggs Freeman Sotheby's International Realty</div>
+      <div style="font-size:12px;color:#555;line-height:1.5;">0 verified citations · 138 reviews · 4.8★</div>
+    </td>
+    <td style="width:12px;"></td>
+    <td valign="top" style="padding:14px;background:#fafafa;border-left:3px solid #bbb;width:50%;">
+      <div style="font-family:'JetBrains Mono',Consolas,Menlo,'Courier New',monospace;font-size:10px;color:#888;letter-spacing:0.12em;text-transform:uppercase;margin-bottom:6px;">Competitor</div>
+      <div style="font-family:'Space Grotesk','Inter','Helvetica Neue',Arial,sans-serif;font-size:16px;font-weight:800;color:#1a1a1a;margin-bottom:6px;">Allie Beth Allman &amp; Associates</div>
+      <div style="font-size:12px;color:#555;line-height:1.5;">cited on multiple platforms · public review presence</div>
+    </td>
+  </tr>
+</table>
+
+<h3 style="margin:0 0 10px 0;font-size:14px;color:#1a1a1a;font-family:'Space Grotesk','Inter','Helvetica Neue',Arial,sans-serif;font-weight:800;text-transform:uppercase;letter-spacing:0.02em;">Where They Show Up Today</h3>
+<ul style="margin:0 0 20px 0;padding:0;">
+    <li style="margin:0 0 8px 0;padding:8px 12px;background:#fafafa;border-left:3px solid #F27D24;list-style:none;font-size:13px;color:#333;">Strong local review base (4.8/5 stars, 138 reviews) builds trust and social proof in traditional channels</li>
+    <li style="margin:0 0 8px 0;padding:8px 12px;background:#fafafa;border-left:3px solid #F27D24;list-style:none;font-size:13px;color:#333;">66-year domain and Sotheby's brand credibility establish institutional weight and market positioning</li>
+    <li style="margin:0 0 8px 0;padding:8px 12px;background:#fafafa;border-left:3px solid #F27D24;list-style:none;font-size:13px;color:#333;">Deep community programs (Love Your Neighbors) and executive bios create authentic, relationship-driven differentiation</li></ul>
+
+<h3 style="margin:0 0 10px 0;font-size:14px;color:#1a1a1a;font-family:'Space Grotesk','Inter','Helvetica Neue',Arial,sans-serif;font-weight:800;text-transform:uppercase;letter-spacing:0.02em;">Three Flip Moves</h3>
+<ol style="margin:0 0 20px 0;padding:0;list-style:none;">
+    <li style="margin:0 0 12px 0;padding:12px 14px;background:#f6faf6;border-left:3px solid #2e8b57;list-style:none;">
+      <div style="font-family:'Space Grotesk','Inter','Helvetica Neue',Arial,sans-serif;font-weight:800;color:#1a1a1a;font-size:14px;margin-bottom:4px;">1. Build an AI-visible FAQ hub</div>
+      <div style="font-size:13px;color:#555;">Create a dedicated FAQ page with schema markup answering common buyer and seller questions in Dallas luxury real estate (staging costs, market timing, closing timelines). Optimize for conversational AI platforms by matching natural language queries competitors miss.</div>
+    </li>
+    <li style="margin:0 0 12px 0;padding:12px 14px;background:#f6faf6;border-left:3px solid #2e8b57;list-style:none;">
+      <div style="font-family:'Space Grotesk','Inter','Helvetica Neue',Arial,sans-serif;font-weight:800;color:#1a1a1a;font-size:14px;margin-bottom:4px;">2. Launch a content engine for AI citation</div>
+      <div style="font-size:13px;color:#555;">Publish weekly market insights, neighborhood guides, and sales analysis on the website blog with structured schema. Target topics where Allie Beth Allman likely owns zero AI citations (e.g., 'luxury home market report Dallas 2026'). Feed this content to AI training platforms directly.</div>
+    </li>
+    <li style="margin:0 0 12px 0;padding:12px 14px;background:#f6faf6;border-left:3px solid #2e8b57;list-style:none;">
+      <div style="font-family:'Space Grotesk','Inter','Helvetica Neue',Arial,sans-serif;font-weight:800;color:#1a1a1a;font-size:14px;margin-bottom:4px;">3. Audit and fix bot access and schema</div>
+      <div style="font-size:13px;color:#555;">Verify robots.txt allows major AI crawlers (ChatGPT, Gemini, Perplexity), implement comprehensive schema markup (Organization, Agent, RealEstateAgent types), and standardize NAP across all platforms to eliminate formatting inconsistencies that confuse AI indexing.</div>
+    </li></ol>
+
+<h3 style="margin:0 0 10px 0;font-size:14px;color:#1a1a1a;font-family:'Space Grotesk','Inter','Helvetica Neue',Arial,sans-serif;font-weight:800;text-transform:uppercase;letter-spacing:0.02em;">Gaps They Haven't Filled</h3>
+<ul style="margin:0 0 20px 0;padding:0;">
+    <li style="margin:0 0 6px 0;padding:6px 10px;background:#fff6ea;list-style:none;font-size:13px;color:#333;">Zero AI platform citations despite scale means buyer research starts with Allie Beth Allman or generic luxury agents, not Briggs Freeman</li>
+    <li style="margin:0 0 6px 0;padding:6px 10px;background:#fff6ea;list-style:none;font-size:13px;color:#333;">No active blog or content marketing channel to own search queries about Dallas luxury real estate trends that AI platforms cite as authoritative sources</li>
+    <li style="margin:0 0 6px 0;padding:6px 10px;background:#fff6ea;list-style:none;font-size:13px;color:#333;">Missing structured FAQ schema means conversational AI defaults to competitor recommendations when buyers ask specific luxury market questions</li></ul>
+</body>
+</html>
