@@ -19,8 +19,8 @@ async function getAccessToken(): Promise<string> {
     method: 'POST',
     headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
     body: new URLSearchParams({
-      client_id: process.env.GSC_CLIENT_ID!,
-      client_secret: process.env.GSC_CLIENT_SECRET!,
+      client_id: process.env.GMAIL_CLIENT_ID!,
+      client_secret: process.env.GMAIL_CLIENT_SECRET!,
       refresh_token: process.env.GSC_REFRESH_TOKEN!,
       grant_type: 'refresh_token',
     }),
