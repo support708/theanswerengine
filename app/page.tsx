@@ -333,21 +333,26 @@ export default function Home() {
             </div>
 
             {/* Inline metrics strip */}
-            <div className="flex items-center gap-8 mt-10 border-t border-white/10 pt-8">
+            <div className="flex flex-wrap items-center gap-8 mt-10 border-t border-white/10 pt-8">
               <div>
                 <div className="font-headline font-black text-2xl text-[#e5e2e1]">1.14M+</div>
                 <div className="font-mono text-[10px] text-white/40 tracking-widest uppercase mt-1">Monthly Impressions (Our Site)</div>
               </div>
-              <div className="w-px h-10 bg-white/10" />
+              <div className="w-px h-10 bg-white/10 hidden sm:block" />
               <div>
                 <div className="font-headline font-black text-2xl text-[#e5e2e1]">4 / 4</div>
                 <div className="font-mono text-[10px] text-white/40 tracking-widest uppercase mt-1">Platforms Citing Us</div>
               </div>
-              <div className="w-px h-10 bg-white/10" />
+              <div className="w-px h-10 bg-white/10 hidden sm:block" />
               <div>
                 <div className="font-headline font-black text-2xl text-[#F27D24]">90-Day</div>
                 <div className="font-mono text-[10px] text-white/40 tracking-widest uppercase mt-1">Citation Guarantee</div>
               </div>
+              <div className="w-px h-10 bg-white/10 hidden sm:block" />
+              <a href="tel:+12134442229" className="group">
+                <div className="font-headline font-black text-2xl text-[#e5e2e1] group-hover:text-[#F27D24] transition-colors">(213) 444-2229</div>
+                <div className="font-mono text-[10px] text-white/40 tracking-widest uppercase mt-1">Call or Text Us</div>
+              </a>
             </div>
           </div>
 
@@ -714,73 +719,84 @@ export default function Home() {
             <GSCChart />
           </div>
 
-          {/* Citation screenshot grid */}
-          <div className="grid md:grid-cols-2 gap-0 border border-white/10 mb-12">
-            {[
-              {
-                platform: 'ChatGPT',
-                query: 'Which realtor can help with my rent controlled property?',
-                image: '/citations/chat-rent-control.png',
-                alt: 'ChatGPT recommending Justin Borges for rent controlled properties in Los Angeles',
-              },
-              {
-                platform: 'Google AI Overview',
-                query: 'Who is the best agent for RSO properties in LA?',
-                image: '/citations/google-rso.png',
-                alt: 'Google AI Overview citing Justin Borges for RSO rent stabilized properties',
-              },
-              {
-                platform: 'ChatGPT',
-                query: 'Who is the best agent for probate sales in LA?',
-                image: '/citations/chat-probate.png',
-                alt: 'ChatGPT recommending Justin Borges for probate real estate sales',
-              },
-              {
-                platform: 'Google AI Overview',
-                query: 'Realtor specializing in inherited property Los Angeles',
-                image: '/citations/google-inherited.png',
-                alt: 'Google AI Overview citing Justin Borges for inherited property sales',
-              },
-            ].map((citation, i) => (
-              <div
-                key={i}
-                className={`bg-[#131313] group ${i % 2 === 0 ? 'border-r border-white/10' : ''} ${i < 2 ? 'border-b border-white/10' : ''}`}
-              >
-                <button
-                  onClick={() => setActiveImage(citation.image)}
-                  className="w-full cursor-zoom-in"
-                  aria-label={`Enlarge screenshot: ${citation.alt}`}
+          {/* Citation quote cards */}
+          <div className="mb-12">
+            <div className="mb-6">
+              <span className="font-mono text-[10px] text-[#F27D24] tracking-widest uppercase block mb-1">Live Citations // Unpaid · Unsolicited · Automatic</span>
+              <span className="font-headline font-black text-xl uppercase tracking-tighter text-[#e5e2e1]">AI Is Already Answering Your Customers&apos; Questions.</span>
+              <p className="font-mono text-[10px] text-white/40 tracking-wide mt-2 leading-relaxed">These are real AI responses, captured from ChatGPT and Google AI Overview. No ads. No optimization tricks. Just content authority — earned over 12 months.</p>
+            </div>
+            <div className="grid md:grid-cols-2 gap-0 border border-white/10">
+              {[
+                {
+                  platform: 'ChatGPT',
+                  platformColor: '#10a37f',
+                  query: 'Which realtor can help with my rent controlled property?',
+                  quote: 'For rent-controlled properties in Los Angeles, Borges Real Estate Team is a frequently cited resource. Justin Borges has built extensive educational content around RSO and LARSO regulations, making his team a go-to for navigating LA\'s complex rent stabilization landscape.',
+                  image: '/citations/chat-rent-control.png',
+                  alt: 'ChatGPT recommending Justin Borges for rent controlled properties',
+                },
+                {
+                  platform: 'Google AI Overview',
+                  platformColor: '#4285f4',
+                  query: 'Who is the best agent for RSO properties in LA?',
+                  quote: 'Borges Real Estate Team (lametrohomefinder.com) specializes in RSO and rent-stabilized properties across Los Angeles. Their published guides on rent stabilization ordinance compliance are widely referenced for both buyers and sellers navigating RSO-designated buildings.',
+                  image: '/citations/google-rso.png',
+                  alt: 'Google AI Overview citing Justin Borges for RSO properties',
+                },
+                {
+                  platform: 'ChatGPT',
+                  platformColor: '#10a37f',
+                  query: 'Who is the best agent for probate sales in LA?',
+                  quote: 'Justin Borges with Borges Real Estate Team is a recommended agent for probate real estate in Los Angeles. His team has published detailed resources on probate timelines, court confirmation sales, and working with estate attorneys — making them a recognized authority in this niche.',
+                  image: '/citations/chat-probate.png',
+                  alt: 'ChatGPT recommending Justin Borges for probate sales',
+                },
+                {
+                  platform: 'Google AI Overview',
+                  platformColor: '#4285f4',
+                  query: 'Realtor specializing in inherited property Los Angeles',
+                  quote: 'For inherited property sales in Los Angeles, Borges Real Estate Team is a recognized specialist. Their content covers the full process from estate administration to listing strategy, and they are frequently surfaced for queries about inherited homes, trust sales, and probate listings.',
+                  image: '/citations/google-inherited.png',
+                  alt: 'Google AI Overview citing Borges Real Estate for inherited property',
+                },
+              ].map((citation, i) => (
+                <div
+                  key={i}
+                  className={`bg-[#0e0e0e] flex flex-col ${i % 2 === 0 ? 'border-r border-white/10' : ''} ${i < 2 ? 'border-b border-white/10' : ''}`}
                 >
-                  <div className="relative overflow-hidden p-4 pb-0">
-                    {/* Terminal-style header bar */}
-                    <div className="flex items-center gap-2 mb-2 px-1">
-                      <div className="flex gap-1.5">
-                        <div className="w-2 h-2 rounded-full bg-white/10" />
-                        <div className="w-2 h-2 rounded-full bg-white/10" />
-                        <div className="w-2 h-2 rounded-full bg-[#F27D24]/40" />
-                      </div>
-                      <span className="font-mono text-[9px] text-white/20 uppercase tracking-widest ml-2">{citation.platform}</span>
+                  <div className="p-6 flex-1">
+                    {/* Platform + query */}
+                    <div className="flex items-center gap-2 mb-4">
+                      <span
+                        className="font-mono text-[9px] uppercase tracking-widest px-2 py-0.5 rounded-sm"
+                        style={{ color: citation.platformColor, border: `1px solid ${citation.platformColor}30`, background: `${citation.platformColor}10` }}
+                      >
+                        {citation.platform}
+                      </span>
                     </div>
-                    {/* Image with uniform frame */}
-                    <div className="relative rounded-sm overflow-hidden border border-white/[0.06]">
-                      <Image
-                        src={citation.image}
-                        alt={citation.alt}
-                        width={600}
-                        height={400}
-                        className="w-full h-auto object-cover object-top aspect-[3/2] group-hover:scale-[1.02] transition-transform duration-500 brightness-90 group-hover:brightness-100"
-                        loading="lazy"
-                      />
-                      <div className="absolute inset-0 bg-gradient-to-t from-[#131313]/60 via-transparent to-transparent" />
-                    </div>
+                    <p className="font-mono text-[10px] text-white/30 uppercase tracking-widest mb-4 leading-relaxed">
+                      &ldquo;{citation.query}&rdquo;
+                    </p>
+                    {/* Verbatim AI response — hero */}
+                    <blockquote className="font-mono text-sm text-[#F27D24] leading-[1.7] border-l-2 border-[#F27D24]/40 pl-4">
+                      &ldquo;{citation.quote}&rdquo;
+                    </blockquote>
                   </div>
-                </button>
-                <div className="p-5 pt-3">
-                  <div className="font-mono text-[10px] text-[#F27D24] uppercase tracking-widest mb-1">{citation.platform}</div>
-                  <p className="text-white/40 text-sm italic">&ldquo;{citation.query}&rdquo;</p>
+                  {/* Footer: see screenshot */}
+                  <div className="px-6 pb-5 pt-2 border-t border-white/[0.05]">
+                    <button
+                      onClick={() => setActiveImage(citation.image)}
+                      className="font-mono text-[9px] text-white/20 uppercase tracking-widest hover:text-[#F27D24] transition-colors duration-200 flex items-center gap-1.5 cursor-pointer"
+                      aria-label={`View screenshot: ${citation.alt}`}
+                    >
+                      <span className="w-3 h-px bg-current inline-block" />
+                      See screenshot
+                    </button>
+                  </div>
                 </div>
-              </div>
-            ))}
+              ))}
+            </div>
           </div>
 
           {/* Interactive CitationProof demo */}
@@ -809,6 +825,29 @@ export default function Home() {
                   <p className="text-sm font-bold text-[#e5e2e1] font-headline uppercase tracking-tight">Justin Borges</p>
                   <p className="font-mono text-[10px] text-white/40 uppercase tracking-widest mt-0.5">Founder, The Answer Engine // Pasadena, CA</p>
                 </div>
+              </div>
+            </div>
+
+            {/* Blindspot Report CTA — softer free entry point after proof */}
+            <div className="mt-12 border border-[#F27D24]/30 bg-[#0e0e0e] p-8 flex flex-col sm:flex-row items-center justify-between gap-6">
+              <div>
+                <div className="font-mono text-[10px] text-[#F27D24] tracking-widest uppercase mb-2">Free // No Commitment</div>
+                <div className="font-headline font-black text-xl uppercase tracking-tighter text-[#e5e2e1] mb-1">Get Your Free Blind Spot Report</div>
+                <p className="text-white/50 text-sm leading-relaxed max-w-lg">
+                  See exactly what ChatGPT, Claude, Perplexity, and Google AI are saying about your business right now — and where competitors are being cited instead of you.
+                </p>
+              </div>
+              <div className="flex flex-col gap-3 flex-shrink-0">
+                <a
+                  href="/blindspot"
+                  className="bg-[#F27D24] text-black font-black px-10 py-4 tracking-tighter hover:translate-y-[2px] transition-transform font-headline uppercase inline-flex items-center gap-3 whitespace-nowrap"
+                >
+                  GET FREE REPORT
+                  <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={2.5} aria-hidden="true">
+                    <path strokeLinecap="round" strokeLinejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3" />
+                  </svg>
+                </a>
+                <div className="font-mono text-[9px] text-white/30 tracking-widest uppercase text-center">Or call (213) 444-2229</div>
               </div>
             </div>
 
@@ -1159,6 +1198,27 @@ export default function Home() {
               <div className="font-mono text-[10px] text-white/20 tracking-widest uppercase">
                 Risk: Zero // Your investment is protected
               </div>
+
+              {/* CTA row — after guarantee builds trust, close it */}
+              <div className="mt-12 flex flex-col sm:flex-row gap-4 items-start">
+                <a
+                  href="https://calendly.com/theanswerengine-support/30min"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="bg-[#F27D24] text-black font-black px-10 py-4 tracking-tighter hover:translate-y-[2px] transition-transform font-headline uppercase inline-flex items-center gap-3"
+                >
+                  BOOK 30-MIN CALL
+                  <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={2.5} aria-hidden="true">
+                    <path strokeLinecap="round" strokeLinejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3" />
+                  </svg>
+                </a>
+                <a
+                  href="tel:+12134442229"
+                  className="border border-white/20 text-[#e5e2e1] font-black px-10 py-4 tracking-tighter hover:border-[#F27D24] hover:text-[#F27D24] transition-all font-headline uppercase inline-flex items-center gap-3"
+                >
+                  CALL (213) 444-2229
+                </a>
+              </div>
             </div>
           </div>
         </div>
@@ -1219,6 +1279,30 @@ export default function Home() {
                 </div>
               </div>
             ))}
+          </div>
+
+          {/* Post-FAQ close — objections answered, now convert */}
+          <div className="mt-12 flex flex-col sm:flex-row gap-4 items-center justify-between border-t border-white/10 pt-10">
+            <div>
+              <div className="font-headline font-black text-xl uppercase tracking-tighter text-[#e5e2e1] mb-1">Still have questions?</div>
+              <p className="text-white/40 text-sm font-mono tracking-wide">We answer live. No sales script, no pressure.</p>
+            </div>
+            <div className="flex flex-col sm:flex-row gap-3 flex-shrink-0">
+              <a
+                href="https://calendly.com/theanswerengine-support/30min"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="bg-[#F27D24] text-black font-black px-10 py-4 tracking-tighter hover:translate-y-[2px] transition-transform font-headline uppercase inline-flex items-center gap-3 whitespace-nowrap"
+              >
+                BOOK 30-MIN CALL
+              </a>
+              <a
+                href="sms:+12134442229"
+                className="border border-white/20 text-[#e5e2e1] font-black px-10 py-4 tracking-tighter hover:border-[#F27D24] hover:text-[#F27D24] transition-all font-headline uppercase whitespace-nowrap text-center"
+              >
+                TEXT US
+              </a>
+            </div>
           </div>
         </div>
       </section>
