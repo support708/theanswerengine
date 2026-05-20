@@ -4826,7 +4826,13 @@
     "publishDate": "2026-05-08",
     "lastModified": "2026-05-08",
     "featured": false,
-    "tags": ["DeepSeek", "AI Algorithm", "Open Weight Models", "AI Search", "Business Discovery"]
+    "tags": [
+      "DeepSeek",
+      "AI Algorithm",
+      "Open Weight Models",
+      "AI Search",
+      "Business Discovery"
+    ]
   },
   {
     "id": 227,
@@ -4840,7 +4846,14 @@
     "publishDate": "2026-05-08",
     "lastModified": "2026-05-08",
     "featured": false,
-    "tags": ["Local Search", "Near Me", "AI Search", "Location SEO", "Voice Search", "Google Business Profile"]
+    "tags": [
+      "Local Search",
+      "Near Me",
+      "AI Search",
+      "Location SEO",
+      "Voice Search",
+      "Google Business Profile"
+    ]
   },
   {
     "id": 228,
@@ -4854,6 +4867,34 @@
     "publishDate": "2026-05-08",
     "lastModified": "2026-05-08",
     "featured": false,
-    "tags": ["Brand Mentions", "Backlinks", "Authority Signals", "AI Citations", "Knowledge Graph", "Co-Citation"]
+    "tags": [
+      "Brand Mentions",
+      "Backlinks",
+      "Authority Signals",
+      "AI Citations",
+      "Knowledge Graph",
+      "Co-Citation"
+    ]
+  },
+  {
+    "id": 229,
+    "title": "How Personal Injury Law Firms Get Found on AI Search Engines",
+    "slug": "how-personal-injury-law-firms-get-found-on-ai-search",
+    "excerpt": "Seven directories control 89% of all AI attorney citations. Here is exactly how ChatGPT and Perplexity decide which PI firms to recommend and how to get your firm in the answer.",
+    "category": "Legal Industry",
+    "author": "The Answer Engine Team",
+    "readTime": "14 min",
+    "image": "/blog/how-personal-injury-law-firms-get-found-on-ai-search.webp",
+    "publishDate": "2026-05-19",
+    "lastModified": "2026-05-19",
+    "featured": true,
+    "tags": [
+      "personal injury",
+      "AI search",
+      "AEO",
+      "legal marketing",
+      "ChatGPT",
+      "law firm visibility"
+    ]
   }
 ]
