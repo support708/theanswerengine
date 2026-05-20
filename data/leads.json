@@ -8181,7 +8181,7 @@
     "reviewCount": 138,
     "rating": 4.8,
     "notes": "Auto-discovered by Lead Hunter. AI citation: not cited on 0/1 platforms. Competitors cited: Allie Beth Allman & Associates, Van Poole Properties Group Keller Williams. Outreach-ready: YES (citation data + contact + differentiator verified). Differentiator: Founded 1960, #1 luxury brokerage in North Texas, Sotheby's International Realty network, 381 agents across 6 offices",
-    "status": "queued",
+    "status": "failed",
     "research": null,
     "reportSlug": "briggs-freeman-sotheby-s-international-realty-5ei0",
     "emailDraftId": null,
@@ -8191,10 +8191,26 @@
       {
         "action": "Queued by Lead Hunter (P2, score: 31.5, outreach-ready: true)",
         "timestamp": "2026-05-15T09:23:01.106Z"
+      },
+      {
+        "action": "Research started (auto-pipeline)",
+        "timestamp": "2026-05-20T06:00:12.316Z"
+      },
+      {
+        "action": "Research started (auto-pipeline)",
+        "timestamp": "2026-05-20T06:00:17.318Z"
+      },
+      {
+        "action": "Research started (auto-pipeline)",
+        "timestamp": "2026-05-20T06:00:27.318Z"
+      },
+      {
+        "action": "Dead-lettered after 3 failed attempts: ANTHROPIC_API_KEY not configured",
+        "timestamp": "2026-05-20T06:00:27.319Z"
       }
     ],
     "createdAt": "2026-05-15T09:23:01.106Z",
-    "updatedAt": "2026-05-15T09:23:01.106Z",
+    "updatedAt": "2026-05-20T06:00:27.319Z",
     "huntSource": "hunt_1778836922414_neli",
     "huntScore": 31.5,
     "huntPriority": "P2",
