@@ -8919,7 +8919,7 @@
     "reviewCount": 35,
     "rating": 4.9,
     "notes": "Auto-discovered by Lead Hunter. AI citation: not cited on 1/1 platforms. Competitors cited: Smart Roofing, Final Touch Roofing, Bilt-well Roofing. Outreach-ready: YES (citation data + contact + differentiator verified). Differentiator: Recently established 2024, BBB Accredited A rating, owner Ami B. highlighted for excellent customer service, BuildZoom score 93, owner-involved in every project",
-    "status": "queued",
+    "status": "failed",
     "research": null,
     "reportSlug": "family-roofing-hc31",
     "emailDraftId": null,
@@ -8929,10 +8929,26 @@
       {
         "action": "Queued by Lead Hunter (P1, score: 35, outreach-ready: true)",
         "timestamp": "2026-05-19T14:01:41.634Z"
+      },
+      {
+        "action": "Research started (auto-pipeline)",
+        "timestamp": "2026-05-21T21:30:20.725Z"
+      },
+      {
+        "action": "Research started (auto-pipeline)",
+        "timestamp": "2026-05-21T21:30:25.852Z"
+      },
+      {
+        "action": "Research started (auto-pipeline)",
+        "timestamp": "2026-05-21T21:30:35.963Z"
+      },
+      {
+        "action": "Dead-lettered after 3 failed attempts: Anthropic API error (400): {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CbGRiUwka4fva1LpDd9x6\"}",
+        "timestamp": "2026-05-21T21:30:36.150Z"
       }
     ],
     "createdAt": "2026-05-19T14:01:41.634Z",
-    "updatedAt": "2026-05-19T14:01:41.634Z",
+    "updatedAt": "2026-05-21T21:30:36.150Z",
     "huntSource": "hunt_1779199247659_1ar1",
     "huntScore": 35,
     "huntPriority": "P1",
