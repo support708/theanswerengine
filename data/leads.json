@@ -8981,7 +8981,7 @@
     "reviewCount": 13,
     "rating": 4.8,
     "notes": "Auto-discovered by Lead Hunter. AI citation: not cited on 1/1 platforms. Competitors cited: Smart Roofing, Final Touch Roofing, Bilt-well Roofing. Outreach-ready: YES (citation data + contact + differentiator verified). Differentiator: 10+ years experience, BuildZoom score 117 (top 1% of CA contractors), 98 building permits completed, known for fast emergency response and thorough cleanup",
-    "status": "queued",
+    "status": "failed",
     "research": null,
     "reportSlug": "the-roofer-bros-xur9",
     "emailDraftId": null,
@@ -8991,10 +8991,26 @@
       {
         "action": "Queued by Lead Hunter (P2, score: 33.5, outreach-ready: true)",
         "timestamp": "2026-05-19T14:01:41.635Z"
+      },
+      {
+        "action": "Research started (auto-pipeline)",
+        "timestamp": "2026-05-21T22:00:20.330Z"
+      },
+      {
+        "action": "Research started (auto-pipeline)",
+        "timestamp": "2026-05-21T22:00:25.461Z"
+      },
+      {
+        "action": "Research started (auto-pipeline)",
+        "timestamp": "2026-05-21T22:00:35.581Z"
+      },
+      {
+        "action": "Dead-lettered after 3 failed attempts: Anthropic API error (400): {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CbGU193de4adCzcjF9GHF\"}",
+        "timestamp": "2026-05-21T22:00:35.686Z"
       }
     ],
     "createdAt": "2026-05-19T14:01:41.635Z",
-    "updatedAt": "2026-05-19T14:01:41.635Z",
+    "updatedAt": "2026-05-21T22:00:35.686Z",
     "huntSource": "hunt_1779199247659_1ar1",
     "huntScore": 33.5,
     "huntPriority": "P2",
