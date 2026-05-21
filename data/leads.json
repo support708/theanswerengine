@@ -8672,7 +8672,7 @@
     "reviewCount": 929,
     "rating": 4.8,
     "notes": "Auto-discovered by Lead Hunter. AI citation: not cited on 0/1 platforms. Competitors cited: 75 Degree AC, Spring Branch AC, Air Innovations. Outreach-ready: YES (citation data + contact + differentiator verified). Differentiator: Family-owned and operated, 25+ years experience, 929 Google reviews at 4.8 stars, transparent diagnostics with photo documentation",
-    "status": "queued",
+    "status": "failed",
     "research": null,
     "reportSlug": "all-american-ac-heating-vzhp",
     "emailDraftId": null,
@@ -8682,10 +8682,26 @@
       {
         "action": "Queued by Lead Hunter (P2, score: 34.5, outreach-ready: true)",
         "timestamp": "2026-05-18T14:01:37.264Z"
+      },
+      {
+        "action": "Research started (auto-pipeline)",
+        "timestamp": "2026-05-21T19:30:21.595Z"
+      },
+      {
+        "action": "Research started (auto-pipeline)",
+        "timestamp": "2026-05-21T19:30:26.597Z"
+      },
+      {
+        "action": "Research started (auto-pipeline)",
+        "timestamp": "2026-05-21T19:30:36.598Z"
+      },
+      {
+        "action": "Dead-lettered after 3 failed attempts: ANTHROPIC_API_KEY not configured",
+        "timestamp": "2026-05-21T19:30:36.599Z"
       }
     ],
     "createdAt": "2026-05-18T14:01:37.264Z",
-    "updatedAt": "2026-05-18T14:01:37.264Z",
+    "updatedAt": "2026-05-21T19:30:36.599Z",
     "huntSource": "hunt_1779112846945_e9sz",
     "huntScore": 34.5,
     "huntPriority": "P2",
