@@ -84,5 +84,88 @@
       "computedAt": "2026-04-19T07:13:23.442Z"
     }
   ],
-  "2026-05": []
+  "2026-05": [
+    {
+      "cohort": "real-estate",
+      "cohortDisplayName": "Real Estate",
+      "cohortSize": 3,
+      "median": {
+        "authority_index": 38,
+        "impressions_28d": 1238,
+        "clicks_28d": 11,
+        "avg_position": 25.4,
+        "avg_ctr": 0.0141,
+        "unique_queries": 29,
+        "new_ranking_pages_28d": 40,
+        "review_count": 0,
+        "review_rating": 0
+      },
+      "sampleSlugs": [
+        "borges-team",
+        "davis-agency",
+        "lamh"
+      ],
+      "computedAt": "2026-05-21T08:00:15.710Z"
+    },
+    {
+      "cohort": "property-management",
+      "cohortDisplayName": "Property Management",
+      "cohortSize": 1,
+      "median": {
+        "authority_index": 69,
+        "impressions_28d": 16947,
+        "clicks_28d": 778,
+        "avg_position": 4.8,
+        "avg_ctr": 0.0459,
+        "unique_queries": 87,
+        "new_ranking_pages_28d": 38,
+        "review_count": 880,
+        "review_rating": 4.8
+      },
+      "sampleSlugs": [
+        "rpm-southland"
+      ],
+      "computedAt": "2026-05-21T08:00:15.710Z"
+    },
+    {
+      "cohort": "builder-services",
+      "cohortDisplayName": "Builder Services",
+      "cohortSize": 1,
+      "median": {
+        "authority_index": 34,
+        "impressions_28d": 2,
+        "clicks_28d": 0,
+        "avg_position": 10,
+        "avg_ctr": 0,
+        "unique_queries": 0,
+        "new_ranking_pages_28d": 2,
+        "review_count": 0,
+        "review_rating": 0
+      },
+      "sampleSlugs": [
+        "clearclose"
+      ],
+      "computedAt": "2026-05-21T08:00:15.710Z"
+    },
+    {
+      "cohort": "aeo-agency",
+      "cohortDisplayName": "AEO Agency",
+      "cohortSize": 1,
+      "median": {
+        "authority_index": 41,
+        "impressions_28d": 2524,
+        "clicks_28d": 0,
+        "avg_position": 32.3,
+        "avg_ctr": 0,
+        "unique_queries": 53,
+        "new_ranking_pages_28d": 38,
+        "review_count": 0,
+        "review_rating": 0
+      },
+      "sampleSlugs": [
+        "the-answer-engine"
+      ],
+      "computedAt": "2026-05-21T08:00:15.710Z"
+    }
+  ]
 }
