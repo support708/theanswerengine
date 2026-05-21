@@ -8549,7 +8549,7 @@
     "reviewCount": 350,
     "rating": 4.8,
     "notes": "Auto-discovered by Lead Hunter. AI citation: not cited on 1/1 platforms. Competitors cited: 75 Degree AC, Spring Branch AC, Air Innovations. Outreach-ready: YES (citation data + contact + differentiator verified). Differentiator: Family-owned company, 4.8 star rating, same-day and next-day service availability, Carrier dealer, 10 years experience",
-    "status": "queued",
+    "status": "failed",
     "research": null,
     "reportSlug": "global-air-service-nryv",
     "emailDraftId": null,
@@ -8559,10 +8559,26 @@
       {
         "action": "Queued by Lead Hunter (P1, score: 38.5, outreach-ready: true)",
         "timestamp": "2026-05-18T14:01:37.264Z"
+      },
+      {
+        "action": "Research started (auto-pipeline)",
+        "timestamp": "2026-05-21T18:30:20.855Z"
+      },
+      {
+        "action": "Research started (auto-pipeline)",
+        "timestamp": "2026-05-21T18:30:26.018Z"
+      },
+      {
+        "action": "Research started (auto-pipeline)",
+        "timestamp": "2026-05-21T18:30:36.127Z"
+      },
+      {
+        "action": "Dead-lettered after 3 failed attempts: Anthropic API error (400): {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CbGBzP1sbmnVNBFW6WVkC\"}",
+        "timestamp": "2026-05-21T18:30:36.235Z"
       }
     ],
     "createdAt": "2026-05-18T14:01:37.264Z",
-    "updatedAt": "2026-05-18T14:01:37.264Z",
+    "updatedAt": "2026-05-21T18:30:36.235Z",
     "huntSource": "hunt_1779112846945_e9sz",
     "huntScore": 38.5,
     "huntPriority": "P1",
