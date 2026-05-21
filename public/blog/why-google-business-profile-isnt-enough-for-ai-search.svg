@@ -1,0 +1,134 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="bgGBP" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0d1424;stop-opacity:1"/>
+      <stop offset="55%" style="stop-color:#0F1117;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#2a1a08;stop-opacity:1"/>
+    </linearGradient>
+    <linearGradient id="gbpFloor" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#FF6A00;stop-opacity:0.10"/>
+      <stop offset="100%" style="stop-color:#FF6A00;stop-opacity:0.02"/>
+    </linearGradient>
+    <linearGradient id="layerGrad1" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#FF6A00;stop-opacity:0.30"/>
+      <stop offset="100%" style="stop-color:#FF6A00;stop-opacity:0.06"/>
+    </linearGradient>
+    <linearGradient id="layerGrad2" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#FF6A00;stop-opacity:0.24"/>
+      <stop offset="100%" style="stop-color:#FF6A00;stop-opacity:0.05"/>
+    </linearGradient>
+    <linearGradient id="layerGrad3" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#FF6A00;stop-opacity:0.18"/>
+      <stop offset="100%" style="stop-color:#FF6A00;stop-opacity:0.04"/>
+    </linearGradient>
+    <filter id="glowGBP"><feGaussianBlur stdDeviation="5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <filter id="glowCitationGBP"><feGaussianBlur stdDeviation="10" result="bc"/><feMerge><feMergeNode in="bc"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="630" fill="url(#bgGBP)"/>
+
+  <!-- Subtle grid -->
+  <g opacity="0.025" stroke="white" stroke-width="0.5">
+    <line x1="0" y1="90" x2="1200" y2="90"/>
+    <line x1="0" y1="180" x2="1200" y2="180"/>
+    <line x1="0" y1="270" x2="1200" y2="270"/>
+    <line x1="0" y1="360" x2="1200" y2="360"/>
+    <line x1="0" y1="450" x2="1200" y2="450"/>
+    <line x1="0" y1="540" x2="1200" y2="540"/>
+    <line x1="200" y1="0" x2="200" y2="630"/>
+    <line x1="400" y1="0" x2="400" y2="630"/>
+    <line x1="600" y1="0" x2="600" y2="630"/>
+    <line x1="800" y1="0" x2="800" y2="630"/>
+    <line x1="1000" y1="0" x2="1000" y2="630"/>
+  </g>
+
+  <!-- Orange ambient glow -->
+  <ellipse cx="980" cy="315" rx="180" ry="260" fill="#FF6A00" opacity="0.04"/>
+
+  <!-- Title block -->
+  <text x="600" y="58" font-family="system-ui, sans-serif" font-size="34" font-weight="800" fill="white" text-anchor="middle" letter-spacing="-0.5">Why Your Google Business Profile</text>
+  <text x="600" y="92" font-family="system-ui, sans-serif" font-size="34" font-weight="800" fill="white" text-anchor="middle" letter-spacing="-0.5">Isn&apos;t Enough for AI Search</text>
+  <text x="600" y="124" font-family="system-ui, sans-serif" font-size="14" font-weight="500" fill="#FF6A00" text-anchor="middle" letter-spacing="2">THE OFF-GBP SIGNAL STACK</text>
+
+  <!-- Stacked tower: GBP at the bottom (the floor), other signal layers above -->
+
+  <!-- Citation chip floating at top -->
+  <g filter="url(#glowCitationGBP)" transform="translate(600, 160)">
+    <rect x="-78" y="-22" width="156" height="32" rx="16" fill="#FF6A00" opacity="0.90"/>
+    <text x="0" y="8" font-family="system-ui, sans-serif" font-size="11" font-weight="800" fill="white" text-anchor="middle" letter-spacing="1">AI CITATION EARNED</text>
+  </g>
+
+  <!-- Arrow from chip down to top layer -->
+  <line x1="600" y1="155" x2="600" y2="184" stroke="rgba(255,106,0,0.6)" stroke-width="2" stroke-dasharray="3 3"/>
+  <polygon points="600,186 595,176 605,176" fill="rgba(255,106,0,0.7)"/>
+
+  <!-- Layer 1 (top): Off-GBP Signals - Reviews + Schema + Content (brightest) -->
+  <g transform="translate(220, 190)">
+    <rect x="0" y="0" width="760" height="58" rx="10" fill="url(#layerGrad1)" stroke="rgba(255,106,0,0.55)" stroke-width="1.5"/>
+    <rect x="14" y="14" width="32" height="30" rx="6" fill="rgba(255,106,0,0.25)" stroke="#FF6A00" stroke-width="1"/>
+    <text x="30" y="34" font-family="system-ui, sans-serif" font-size="14" font-weight="800" fill="#FF6A00" text-anchor="middle">1</text>
+    <text x="60" y="26" font-family="system-ui, sans-serif" font-size="13" font-weight="700" fill="rgba(255,255,255,0.92)" dominant-baseline="middle">INDEPENDENT REVIEW PLATFORMS</text>
+    <text x="60" y="44" font-family="system-ui, sans-serif" font-size="10" fill="rgba(255,255,255,0.45)">Yelp · BBB · Trustpilot · G2 · Capterra · Avvo · Healthgrades · Angi</text>
+    <g filter="url(#glowGBP)">
+      <rect x="624" y="14" width="124" height="30" rx="14" fill="rgba(255,106,0,0.18)" stroke="#FF6A00" stroke-width="1"/>
+      <text x="686" y="33" font-family="system-ui, sans-serif" font-size="10" font-weight="700" fill="#FF6A00" text-anchor="middle">VERY HIGH WEIGHT</text>
+    </g>
+  </g>
+
+  <!-- Layer 2: Schema + Owned Domain -->
+  <g transform="translate(220, 258)">
+    <rect x="0" y="0" width="760" height="58" rx="10" fill="url(#layerGrad1)" stroke="rgba(255,106,0,0.50)" stroke-width="1.5"/>
+    <rect x="14" y="14" width="32" height="30" rx="6" fill="rgba(255,106,0,0.22)" stroke="#FF6A00" stroke-width="1"/>
+    <text x="30" y="34" font-family="system-ui, sans-serif" font-size="14" font-weight="800" fill="#FF6A00" text-anchor="middle">2</text>
+    <text x="60" y="26" font-family="system-ui, sans-serif" font-size="13" font-weight="700" fill="rgba(255,255,255,0.88)" dominant-baseline="middle">SCHEMA MARKUP &amp; OWNED DOMAIN</text>
+    <text x="60" y="44" font-family="system-ui, sans-serif" font-size="10" fill="rgba(255,255,255,0.42)">LocalBusiness · Service · FAQPage · Person schema</text>
+    <g filter="url(#glowGBP)">
+      <rect x="624" y="14" width="124" height="30" rx="14" fill="rgba(255,106,0,0.16)" stroke="rgba(255,106,0,0.85)" stroke-width="1"/>
+      <text x="686" y="33" font-family="system-ui, sans-serif" font-size="10" font-weight="700" fill="#FF6A00" text-anchor="middle">VERY HIGH WEIGHT</text>
+    </g>
+  </g>
+
+  <!-- Layer 3: Industry Directories -->
+  <g transform="translate(220, 326)">
+    <rect x="0" y="0" width="760" height="58" rx="10" fill="url(#layerGrad2)" stroke="rgba(255,106,0,0.42)" stroke-width="1.5"/>
+    <rect x="14" y="14" width="32" height="30" rx="6" fill="rgba(255,106,0,0.18)" stroke="rgba(255,106,0,0.72)" stroke-width="1"/>
+    <text x="30" y="34" font-family="system-ui, sans-serif" font-size="14" font-weight="800" fill="#FF6A00" text-anchor="middle">3</text>
+    <text x="60" y="26" font-family="system-ui, sans-serif" font-size="13" font-weight="700" fill="rgba(255,255,255,0.82)" dominant-baseline="middle">INDUSTRY-SPECIFIC DIRECTORIES</text>
+    <text x="60" y="44" font-family="system-ui, sans-serif" font-size="10" fill="rgba(255,255,255,0.38)">Avvo · Justia · Healthgrades · Zocdoc · Angi · HomeAdvisor · Clutch</text>
+    <g filter="url(#glowGBP)">
+      <rect x="624" y="14" width="124" height="30" rx="14" fill="rgba(255,106,0,0.14)" stroke="rgba(255,106,0,0.72)" stroke-width="1"/>
+      <text x="686" y="33" font-family="system-ui, sans-serif" font-size="10" font-weight="700" fill="#FF6A00" text-anchor="middle">HIGH WEIGHT</text>
+    </g>
+  </g>
+
+  <!-- Layer 4: Named-Author Content + Earned Media -->
+  <g transform="translate(220, 394)">
+    <rect x="0" y="0" width="760" height="58" rx="10" fill="url(#layerGrad2)" stroke="rgba(255,106,0,0.36)" stroke-width="1.5"/>
+    <rect x="14" y="14" width="32" height="30" rx="6" fill="rgba(255,106,0,0.16)" stroke="rgba(255,106,0,0.65)" stroke-width="1"/>
+    <text x="30" y="34" font-family="system-ui, sans-serif" font-size="14" font-weight="800" fill="#FF6A00" text-anchor="middle">4</text>
+    <text x="60" y="26" font-family="system-ui, sans-serif" font-size="13" font-weight="700" fill="rgba(255,255,255,0.76)" dominant-baseline="middle">NAMED-AUTHOR CONTENT &amp; EARNED MEDIA</text>
+    <text x="60" y="44" font-family="system-ui, sans-serif" font-size="10" fill="rgba(255,255,255,0.34)">Bylines · Credentials · Trade pub mentions · Local media coverage</text>
+    <g filter="url(#glowGBP)">
+      <rect x="624" y="14" width="124" height="30" rx="14" fill="rgba(255,106,0,0.12)" stroke="rgba(255,106,0,0.65)" stroke-width="1"/>
+      <text x="686" y="33" font-family="system-ui, sans-serif" font-size="10" font-weight="700" fill="#FF6A00" text-anchor="middle">HIGH WEIGHT</text>
+    </g>
+  </g>
+
+  <!-- Floor: GBP (the baseline, dimmest, labeled FLOOR) -->
+  <g transform="translate(220, 462)">
+    <rect x="0" y="0" width="760" height="58" rx="10" fill="url(#gbpFloor)" stroke="rgba(255,106,0,0.20)" stroke-width="1.5" stroke-dasharray="6 3"/>
+    <rect x="14" y="14" width="32" height="30" rx="6" fill="rgba(255,106,0,0.10)" stroke="rgba(255,106,0,0.40)" stroke-width="1"/>
+    <text x="30" y="34" font-family="system-ui, sans-serif" font-size="14" font-weight="800" fill="rgba(255,106,0,0.65)" text-anchor="middle">G</text>
+    <text x="60" y="26" font-family="system-ui, sans-serif" font-size="13" font-weight="700" fill="rgba(255,255,255,0.55)" dominant-baseline="middle">GOOGLE BUSINESS PROFILE</text>
+    <text x="60" y="44" font-family="system-ui, sans-serif" font-size="10" fill="rgba(255,255,255,0.26)">Necessary — but no longer sufficient on its own for AI recommendation</text>
+    <g filter="url(#glowGBP)">
+      <rect x="624" y="14" width="124" height="30" rx="14" fill="rgba(255,106,0,0.06)" stroke="rgba(255,106,0,0.32)" stroke-width="1" stroke-dasharray="4 2"/>
+      <text x="686" y="33" font-family="system-ui, sans-serif" font-size="10" font-weight="700" fill="rgba(255,106,0,0.62)" text-anchor="middle">THE FLOOR</text>
+    </g>
+  </g>
+
+  <!-- Bottom strip -->
+  <rect x="0" y="600" width="1200" height="30" fill="#FF6A00" opacity="0.08"/>
+  <text x="600" y="620" font-family="system-ui, sans-serif" font-size="14" fill="#FF6A00" text-anchor="middle" font-weight="700" letter-spacing="3">THE ANSWER ENGINE — theanswerengine.ai</text>
+</svg>

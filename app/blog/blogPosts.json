@@ -1,5 +1,49 @@
 [
   {
+    "id": 239,
+    "title": "Why Your Google Business Profile Isn't Enough for AI Search",
+    "slug": "why-google-business-profile-isnt-enough-for-ai-search",
+    "excerpt": "A well-optimized Google Business Profile used to be the local visibility ceiling. In the AI search era it is the floor. Here is what AI platforms actually weight when picking businesses to recommend, and why GBP alone leaves you invisible.",
+    "category": "Business Pain Points",
+    "author": "The Answer Engine Team",
+    "readTime": "16 min",
+    "image": "/blog/why-google-business-profile-isnt-enough-for-ai-search.svg",
+    "publishDate": "2026-05-19",
+    "lastModified": "2026-05-19",
+    "featured": false,
+    "tags": [
+      "Google Business Profile",
+      "Local AI Search",
+      "AI Citations",
+      "AEO Strategy",
+      "Local SEO 2026",
+      "Answer Engine Optimization",
+      "AI Visibility"
+    ]
+  },
+  {
+    "id": 238,
+    "title": "How Claude AI Picks Businesses to Cite in Web Searches",
+    "slug": "how-claude-ai-search-picks-businesses",
+    "excerpt": "Claude's web search uses Constitutional AI principles to weight citations differently than ChatGPT or Perplexity. Here is how Claude evaluates which businesses earn citations and what that means for AEO strategy.",
+    "category": "AI Algorithm Series",
+    "author": "The Answer Engine Team",
+    "readTime": "17 min",
+    "image": "/blog/how-claude-ai-search-picks-businesses.svg",
+    "publishDate": "2026-05-19",
+    "lastModified": "2026-05-19",
+    "featured": false,
+    "tags": [
+      "Claude AI",
+      "AI Algorithm",
+      "Constitutional AI",
+      "AI Citations",
+      "Anthropic",
+      "AEO Strategy",
+      "Answer Engine Optimization"
+    ]
+  },
+  {
     "id": 236,
     "title": "AI Cites Your Competitor Using Your Content: Why It Happens and How to Fix It",
     "slug": "ai-cites-competitor-using-your-content",
