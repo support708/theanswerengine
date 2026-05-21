@@ -8611,7 +8611,7 @@
     "reviewCount": 294,
     "rating": 4.1,
     "notes": "Auto-discovered by Lead Hunter. AI citation: not cited on 0/1 platforms. Competitors cited: 75 Degree AC, Spring Branch AC, Air Innovations. Outreach-ready: YES (citation data + contact + differentiator verified). Differentiator: Award-winning (Houston Chronicle Best of the Best twice, Angi Super Service Award 3x), 3000+ AC installations, Premium Lennox Dealer, 50+ years combined experience",
-    "status": "queued",
+    "status": "failed",
     "research": null,
     "reportSlug": "the-chill-brothers-63bc",
     "emailDraftId": null,
@@ -8621,10 +8621,26 @@
       {
         "action": "Queued by Lead Hunter (P2, score: 32.5, outreach-ready: true)",
         "timestamp": "2026-05-18T14:01:37.264Z"
+      },
+      {
+        "action": "Research started (auto-pipeline)",
+        "timestamp": "2026-05-21T19:00:20.301Z"
+      },
+      {
+        "action": "Research started (auto-pipeline)",
+        "timestamp": "2026-05-21T19:00:25.467Z"
+      },
+      {
+        "action": "Research started (auto-pipeline)",
+        "timestamp": "2026-05-21T19:00:35.589Z"
+      },
+      {
+        "action": "Dead-lettered after 3 failed attempts: Anthropic API error (400): {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CbGEH2WYPLPkG3G7jQ3nF\"}",
+        "timestamp": "2026-05-21T19:00:35.704Z"
       }
     ],
     "createdAt": "2026-05-18T14:01:37.264Z",
-    "updatedAt": "2026-05-18T14:01:37.264Z",
+    "updatedAt": "2026-05-21T19:00:35.704Z",
     "huntSource": "hunt_1779112846945_e9sz",
     "huntScore": 32.5,
     "huntPriority": "P2",
