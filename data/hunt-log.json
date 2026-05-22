@@ -488,5 +488,23 @@
       "Pass 2 failed: Anthropic API error (400): {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CbFqNRLh5NUNo4Ts6YkKK\"}"
     ],
     "completedAt": "2026-05-21T14:00:11.986Z"
+  },
+  {
+    "id": "hunt_1779458450329_72e2",
+    "startedAt": "2026-05-22T14:00:50.330Z",
+    "trigger": "cron_daily",
+    "vertical": "Dentist",
+    "metro": "Houston, TX",
+    "prospectsFound": 0,
+    "p1Queued": 0,
+    "p2Queued": 0,
+    "p3Backlogged": 0,
+    "duplicatesSkipped": 0,
+    "outreachReadyCount": 0,
+    "errors": [
+      "Pass 1 failed: Anthropic API error (400): {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CbHjEDhnmD7FgfPr8j2Jd\"}",
+      "Pass 2 failed: Anthropic API error (400): {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CbHjEc1yLFpyaC93XxJJW\"}"
+    ],
+    "completedAt": "2026-05-22T14:00:56.338Z"
   }
 ]
