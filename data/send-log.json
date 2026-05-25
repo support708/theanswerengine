@@ -672,6 +672,12 @@
       "email": "social@briggsfreeman.com",
       "type": "follow_up_1",
       "sentAt": "2026-05-25T16:00:10.552Z"
+    },
+    {
+      "leadId": "lead_1778836981106_yzxjzw",
+      "email": "barbara@vanpoole.com",
+      "type": "follow_up_1",
+      "sentAt": "2026-05-25T16:00:15.004Z"
     }
   ]
 }
