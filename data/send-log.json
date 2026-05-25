@@ -654,6 +654,12 @@
       "email": "barbara@vanpoole.com",
       "type": "initial",
       "sentAt": "2026-05-21T17:30:22.974Z"
+    },
+    {
+      "leadId": "lead_1778836981106_rrtdwb",
+      "email": "relocation@alliebeth.com",
+      "type": "follow_up_1",
+      "sentAt": "2026-05-25T16:00:01.396Z"
     }
   ]
 }
