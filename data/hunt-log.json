@@ -506,5 +506,23 @@
       "Pass 2 failed: Anthropic API error (400): {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CbHjEc1yLFpyaC93XxJJW\"}"
     ],
     "completedAt": "2026-05-22T14:00:56.338Z"
+  },
+  {
+    "id": "hunt_1779717650517_ofpf",
+    "startedAt": "2026-05-25T14:00:50.518Z",
+    "trigger": "cron_daily",
+    "vertical": "Roofing Contractor",
+    "metro": "Los Angeles",
+    "prospectsFound": 0,
+    "p1Queued": 0,
+    "p2Queued": 0,
+    "p3Backlogged": 0,
+    "duplicatesSkipped": 0,
+    "outreachReadyCount": 0,
+    "errors": [
+      "Pass 1 failed: Anthropic API error (400): {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CbPQez8ieQ6Adp2PKLfa3\"}",
+      "Pass 2 failed: Anthropic API error (400): {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CbPQfNEVyq3EAHC1uf9YE\"}"
+    ],
+    "completedAt": "2026-05-25T14:00:56.530Z"
   }
 ]
