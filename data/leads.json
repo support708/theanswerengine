@@ -8019,7 +8019,7 @@
     "reviewCount": 31,
     "rating": null,
     "notes": "Auto-discovered by Lead Hunter. AI citation: not cited on 1/1 platforms. Competitors cited: Allie Beth Allman & Associates, Briggs Freeman Sotheby's International Realty, Van Poole Properties Group Keller Williams. Outreach-ready: YES (citation data + contact + differentiator verified). Differentiator: Established 2023, independently owned, award-winning agents, ranked top 1% nationwide",
-    "status": "sent",
+    "status": "follow_up_1",
     "research": {
       "reviewCount": 31,
       "rating": 0,
@@ -8151,10 +8151,14 @@
       {
         "action": "Initial email auto-sent via Gmail (19e43dd30f17e9e1)",
         "timestamp": "2026-05-20T05:30:30.381Z"
+      },
+      {
+        "action": "follow_up_1 auto-sent via Gmail (19e5fdd65952916d)",
+        "timestamp": "2026-05-25T16:00:07.512Z"
       }
     ],
     "createdAt": "2026-05-15T09:23:01.106Z",
-    "updatedAt": "2026-05-20T05:30:30.381Z",
+    "updatedAt": "2026-05-25T16:00:07.709Z",
     "huntSource": "hunt_1778836922414_neli",
     "huntScore": 27,
     "huntPriority": "P2",
