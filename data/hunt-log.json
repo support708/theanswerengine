@@ -524,5 +524,23 @@
       "Pass 2 failed: Anthropic API error (400): {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CbPQfNEVyq3EAHC1uf9YE\"}"
     ],
     "completedAt": "2026-05-25T14:00:56.530Z"
+  },
+  {
+    "id": "hunt_1779804050392_hp3a",
+    "startedAt": "2026-05-26T14:00:50.392Z",
+    "trigger": "cron_daily",
+    "vertical": "Med Spa",
+    "metro": "Houston, TX",
+    "prospectsFound": 0,
+    "p1Queued": 0,
+    "p2Queued": 0,
+    "p3Backlogged": 0,
+    "duplicatesSkipped": 0,
+    "outreachReadyCount": 0,
+    "errors": [
+      "Pass 1 failed: Anthropic API error (400): {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CbRJTua8mTc4eNX3fFdeZ\"}",
+      "Pass 2 failed: Anthropic API error (400): {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CbRJUHmNnsB4eaG3UYtbL\"}"
+    ],
+    "completedAt": "2026-05-26T14:00:56.628Z"
   }
 ]
