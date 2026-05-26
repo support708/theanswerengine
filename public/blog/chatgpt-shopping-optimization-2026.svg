@@ -1,0 +1,184 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <defs>
+    <radialGradient id="hero-shop-glow-a" cx="30%" cy="40%" r="55%" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#FF6A00" stop-opacity="0.18"/>
+      <stop offset="100%" stop-color="#0F1117" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="hero-shop-glow-b" cx="75%" cy="65%" r="40%" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#FF6A00" stop-opacity="0.10"/>
+      <stop offset="100%" stop-color="#0F1117" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="hero-shop-card-a" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#FF6A00" stop-opacity="0.20"/>
+      <stop offset="100%" stop-color="#FF6A00" stop-opacity="0.04"/>
+    </linearGradient>
+    <linearGradient id="hero-shop-card-b" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#FF6A00" stop-opacity="0.12"/>
+      <stop offset="100%" stop-color="#FF6A00" stop-opacity="0.02"/>
+    </linearGradient>
+    <linearGradient id="hero-shop-bar-full" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#FF6A00"/>
+      <stop offset="100%" stop-color="#FF9A00"/>
+    </linearGradient>
+    <filter id="hero-shop-blur-soft">
+      <feGaussianBlur stdDeviation="2.5"/>
+    </filter>
+    <filter id="hero-shop-glow-filter">
+      <feGaussianBlur stdDeviation="8" result="blur"/>
+      <feComposite in="SourceGraphic" in2="blur" operator="over"/>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="630" fill="#0F1117"/>
+
+  <!-- Ambient glows -->
+  <rect width="1200" height="630" fill="url(#hero-shop-glow-a)"/>
+  <rect width="1200" height="630" fill="url(#hero-shop-glow-b)"/>
+
+  <!-- Grid lines -->
+  <g stroke="#ffffff" stroke-opacity="0.025" stroke-width="0.6">
+    <line x1="0" y1="63" x2="1200" y2="63"/>
+    <line x1="0" y1="126" x2="1200" y2="126"/>
+    <line x1="0" y1="189" x2="1200" y2="189"/>
+    <line x1="0" y1="252" x2="1200" y2="252"/>
+    <line x1="0" y1="315" x2="1200" y2="315"/>
+    <line x1="0" y1="378" x2="1200" y2="378"/>
+    <line x1="0" y1="441" x2="1200" y2="441"/>
+    <line x1="0" y1="504" x2="1200" y2="504"/>
+    <line x1="0" y1="567" x2="1200" y2="567"/>
+    <line x1="100" y1="0" x2="100" y2="630"/>
+    <line x1="200" y1="0" x2="200" y2="630"/>
+    <line x1="300" y1="0" x2="300" y2="630"/>
+    <line x1="400" y1="0" x2="400" y2="630"/>
+    <line x1="500" y1="0" x2="500" y2="630"/>
+    <line x1="600" y1="0" x2="600" y2="630"/>
+    <line x1="700" y1="0" x2="700" y2="630"/>
+    <line x1="800" y1="0" x2="800" y2="630"/>
+    <line x1="900" y1="0" x2="900" y2="630"/>
+    <line x1="1000" y1="0" x2="1000" y2="630"/>
+    <line x1="1100" y1="0" x2="1100" y2="630"/>
+  </g>
+
+  <!-- Left: abstract chat bubble + product cards cluster -->
+
+  <!-- Chat bubble outer -->
+  <rect x="80" y="140" width="340" height="200" rx="18" ry="18" fill="url(#hero-shop-card-a)" stroke="#FF6A00" stroke-opacity="0.30" stroke-width="1.2"/>
+  <!-- Chat bubble tail -->
+  <polygon points="100,340 140,340 115,370" fill="#FF6A00" fill-opacity="0.15"/>
+
+  <!-- Chat bubble inner rows (simulated text lines) -->
+  <rect x="108" y="168" width="180" height="10" rx="5" fill="#ffffff" fill-opacity="0.12"/>
+  <rect x="108" y="188" width="240" height="10" rx="5" fill="#ffffff" fill-opacity="0.08"/>
+  <rect x="108" y="208" width="200" height="10" rx="5" fill="#ffffff" fill-opacity="0.08"/>
+
+  <!-- Product card strip inside bubble -->
+  <rect x="108" y="232" width="80" height="80" rx="8" fill="url(#hero-shop-card-b)" stroke="#FF6A00" stroke-opacity="0.25" stroke-width="1"/>
+  <rect x="108" y="270" width="80" height="10" rx="4" fill="#FF6A00" fill-opacity="0.35"/>
+  <rect x="108" y="288" width="55" height="8" rx="3" fill="#ffffff" fill-opacity="0.10"/>
+
+  <rect x="200" y="232" width="80" height="80" rx="8" fill="url(#hero-shop-card-b)" stroke="#FF6A00" stroke-opacity="0.20" stroke-width="1"/>
+  <rect x="200" y="270" width="80" height="10" rx="4" fill="#FF6A00" fill-opacity="0.25"/>
+  <rect x="200" y="288" width="55" height="8" rx="3" fill="#ffffff" fill-opacity="0.10"/>
+
+  <rect x="292" y="232" width="80" height="80" rx="8" fill="url(#hero-shop-card-b)" stroke="#FF6A00" stroke-opacity="0.15" stroke-width="1"/>
+  <rect x="292" y="270" width="80" height="10" rx="4" fill="#FF6A00" fill-opacity="0.20"/>
+  <rect x="292" y="288" width="55" height="8" rx="3" fill="#ffffff" fill-opacity="0.10"/>
+
+  <!-- Stars row under product cards -->
+  <circle cx="148" cy="325" r="4" fill="#FF6A00" fill-opacity="0.70"/>
+  <circle cx="160" cy="325" r="4" fill="#FF6A00" fill-opacity="0.70"/>
+  <circle cx="172" cy="325" r="4" fill="#FF6A00" fill-opacity="0.70"/>
+  <circle cx="184" cy="325" r="4" fill="#FF6A00" fill-opacity="0.40"/>
+  <circle cx="196" cy="325" r="4" fill="#FF6A00" fill-opacity="0.15"/>
+
+  <!-- Center: node-and-line signal graph -->
+  <g stroke="#FF6A00" stroke-opacity="0.18" stroke-width="1">
+    <line x1="500" y1="200" x2="600" y2="315"/>
+    <line x1="700" y1="185" x2="600" y2="315"/>
+    <line x1="600" y1="440" x2="600" y2="315"/>
+    <line x1="480" y1="390" x2="600" y2="315"/>
+    <line x1="720" y1="400" x2="600" y2="315"/>
+    <line x1="555" y1="260" x2="500" y2="200"/>
+    <line x1="645" y1="255" x2="700" y2="185"/>
+  </g>
+
+  <!-- Central node -->
+  <circle cx="600" cy="315" r="28" fill="#FF6A00" fill-opacity="0.12" stroke="#FF6A00" stroke-opacity="0.60" stroke-width="1.5"/>
+  <circle cx="600" cy="315" r="16" fill="#FF6A00" fill-opacity="0.22"/>
+  <circle cx="600" cy="315" r="7" fill="#FF6A00" fill-opacity="0.90"/>
+
+  <!-- Satellite nodes -->
+  <circle cx="500" cy="200" r="14" fill="#FF6A00" fill-opacity="0.10" stroke="#FF6A00" stroke-opacity="0.40" stroke-width="1"/>
+  <circle cx="500" cy="200" r="5" fill="#FF6A00" fill-opacity="0.70"/>
+
+  <circle cx="700" cy="185" r="14" fill="#FF6A00" fill-opacity="0.10" stroke="#FF6A00" stroke-opacity="0.40" stroke-width="1"/>
+  <circle cx="700" cy="185" r="5" fill="#FF6A00" fill-opacity="0.70"/>
+
+  <circle cx="600" cy="440" r="14" fill="#FF6A00" fill-opacity="0.10" stroke="#FF6A00" stroke-opacity="0.35" stroke-width="1"/>
+  <circle cx="600" cy="440" r="5" fill="#FF6A00" fill-opacity="0.60"/>
+
+  <circle cx="480" cy="390" r="10" fill="#FF6A00" fill-opacity="0.08" stroke="#FF6A00" stroke-opacity="0.30" stroke-width="1"/>
+  <circle cx="480" cy="390" r="4" fill="#FF6A00" fill-opacity="0.55"/>
+
+  <circle cx="720" cy="400" r="10" fill="#FF6A00" fill-opacity="0.08" stroke="#FF6A00" stroke-opacity="0.30" stroke-width="1"/>
+  <circle cx="720" cy="400" r="4" fill="#FF6A00" fill-opacity="0.55"/>
+
+  <!-- Small secondary nodes -->
+  <circle cx="555" cy="260" r="7" fill="#FF6A00" fill-opacity="0.07" stroke="#FF6A00" stroke-opacity="0.25" stroke-width="0.8"/>
+  <circle cx="555" cy="260" r="3" fill="#FF6A00" fill-opacity="0.50"/>
+
+  <circle cx="645" cy="255" r="7" fill="#FF6A00" fill-opacity="0.07" stroke="#FF6A00" stroke-opacity="0.25" stroke-width="0.8"/>
+  <circle cx="645" cy="255" r="3" fill="#FF6A00" fill-opacity="0.50"/>
+
+  <!-- Right: bar chart (signal strength visualization) -->
+  <g>
+    <!-- Bar chart container -->
+    <rect x="850" y="160" width="280" height="260" rx="14" fill="#ffffff" fill-opacity="0.015" stroke="#FF6A00" stroke-opacity="0.18" stroke-width="1"/>
+
+    <!-- Bar chart x-axis base -->
+    <line x1="876" y1="390" x2="1106" y2="390" stroke="#ffffff" stroke-opacity="0.08" stroke-width="1"/>
+
+    <!-- Bars: variable heights, orange gradient -->
+    <!-- Bar 1: Schema -->
+    <rect x="892" y="290" width="32" height="100" rx="4" fill="url(#hero-shop-bar-full)" fill-opacity="0.75"/>
+    <rect x="892" y="390" width="32" height="3" rx="1" fill="#FF6A00" fill-opacity="0.30"/>
+
+    <!-- Bar 2: Reviews -->
+    <rect x="942" y="255" width="32" height="135" rx="4" fill="url(#hero-shop-bar-full)" fill-opacity="0.65"/>
+
+    <!-- Bar 3: Editorial -->
+    <rect x="992" y="230" width="32" height="160" rx="4" fill="url(#hero-shop-bar-full)" fill-opacity="0.90"/>
+
+    <!-- Bar 4: Entity -->
+    <rect x="1042" y="270" width="32" height="120" rx="4" fill="url(#hero-shop-bar-full)" fill-opacity="0.60"/>
+
+    <!-- Bar 5: Schema alone -->
+    <rect x="1062" y="340" width="28" height="50" rx="4" fill="#ffffff" fill-opacity="0.07"/>
+
+    <!-- Horizontal guideline -->
+    <line x1="876" y1="310" x2="1106" y2="310" stroke="#FF6A00" stroke-opacity="0.06" stroke-width="0.8" stroke-dasharray="4 4"/>
+    <line x1="876" y1="360" x2="1106" y2="360" stroke="#FF6A00" stroke-opacity="0.06" stroke-width="0.8" stroke-dasharray="4 4"/>
+  </g>
+
+  <!-- Scattered micro-dots for texture -->
+  <g fill="#FF6A00" fill-opacity="0.20">
+    <circle cx="160" cy="100" r="2"/>
+    <circle cx="300" cy="80" r="1.5"/>
+    <circle cx="450" cy="120" r="2"/>
+    <circle cx="760" cy="100" r="1.5"/>
+    <circle cx="900" cy="80" r="2"/>
+    <circle cx="1050" cy="120" r="1.5"/>
+    <circle cx="1150" cy="90" r="2"/>
+    <circle cx="200" cy="530" r="1.5"/>
+    <circle cx="400" cy="550" r="2"/>
+    <circle cx="800" cy="545" r="1.5"/>
+    <circle cx="1000" cy="555" r="2"/>
+  </g>
+
+  <!-- Accent edge glow line top -->
+  <rect x="0" y="0" width="1200" height="2" fill="#FF6A00" fill-opacity="0.35"/>
+
+  <!-- Accent edge glow line bottom -->
+  <rect x="0" y="628" width="1200" height="2" fill="#FF6A00" fill-opacity="0.18"/>
+</svg>

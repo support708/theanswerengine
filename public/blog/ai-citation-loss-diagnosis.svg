@@ -1,0 +1,117 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <defs>
+    <radialGradient id="hero-diag-glow1" cx="35%" cy="45%" r="50%" fx="35%" fy="45%">
+      <stop offset="0%" stop-color="#FF6A00" stop-opacity="0.18"/>
+      <stop offset="100%" stop-color="#0F1117" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="hero-diag-glow2" cx="75%" cy="60%" r="40%" fx="75%" fy="60%">
+      <stop offset="0%" stop-color="#FF6A00" stop-opacity="0.08"/>
+      <stop offset="100%" stop-color="#0F1117" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="hero-diag-grid" width="48" height="48" patternUnits="userSpaceOnUse">
+      <path d="M 48 0 L 0 0 0 48" fill="none" stroke="rgba(255,255,255,0.04)" stroke-width="0.75"/>
+    </pattern>
+    <linearGradient id="hero-diag-bar-grad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FF6A00" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#FF6A00" stop-opacity="0.3"/>
+    </linearGradient>
+    <filter id="hero-diag-blur-sm">
+      <feGaussianBlur stdDeviation="2"/>
+    </filter>
+    <filter id="hero-diag-glow-filter">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feComposite in="SourceGraphic" in2="blur" operator="over"/>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="630" fill="#0F1117"/>
+  <rect width="1200" height="630" fill="url(#hero-diag-grid)"/>
+  <rect width="1200" height="630" fill="url(#hero-diag-glow1)"/>
+  <rect width="1200" height="630" fill="url(#hero-diag-glow2)"/>
+
+  <!-- Diagnostic panel background left -->
+  <rect x="80" y="100" width="480" height="430" rx="16" fill="rgba(255,106,0,0.03)" stroke="rgba(255,106,0,0.12)" stroke-width="1"/>
+
+  <!-- Diagnostic panel background right -->
+  <rect x="640" y="140" width="480" height="350" rx="16" fill="rgba(255,255,255,0.015)" stroke="rgba(255,255,255,0.06)" stroke-width="1"/>
+
+  <!-- Magnifying glass circle (diagnostic icon) -->
+  <circle id="hero-diag-lens" cx="260" cy="280" r="90" fill="none" stroke="rgba(255,106,0,0.35)" stroke-width="3"/>
+  <circle id="hero-diag-lens-inner" cx="260" cy="280" r="70" fill="rgba(255,106,0,0.04)" stroke="rgba(255,106,0,0.15)" stroke-width="1"/>
+  <!-- Handle -->
+  <line id="hero-diag-handle" x1="330" y1="350" x2="385" y2="405" stroke="rgba(255,106,0,0.45)" stroke-width="5" stroke-linecap="round"/>
+
+  <!-- Cross-hairs inside lens -->
+  <line id="hero-diag-ch-h" x1="175" y1="280" x2="345" y2="280" stroke="rgba(255,106,0,0.2)" stroke-width="1" stroke-dasharray="4 4"/>
+  <line id="hero-diag-ch-v" x1="260" y1="195" x2="260" y2="365" stroke="rgba(255,106,0,0.2)" stroke-width="1" stroke-dasharray="4 4"/>
+
+  <!-- Alert triangle inside lens -->
+  <polygon id="hero-diag-triangle" points="260,230 300,295 220,295" fill="none" stroke="#FF6A00" stroke-width="2.5" stroke-linejoin="round"/>
+  <circle id="hero-diag-dot" cx="260" cy="285" r="3" fill="#FF6A00" opacity="0.9"/>
+  <rect id="hero-diag-excl" x="258" y="247" width="4" height="22" rx="2" fill="#FF6A00" opacity="0.9"/>
+
+  <!-- Diagnostic checklist rows (left panel, below magnifier) -->
+  <rect id="hero-diag-row1" x="100" y="415" width="440" height="28" rx="6" fill="rgba(255,106,0,0.06)"/>
+  <circle id="hero-diag-dot1" cx="120" cy="429" r="5" fill="rgba(255,106,0,0.5)"/>
+  <rect id="hero-diag-line1a" x="135" y="424" width="140" height="5" rx="2" fill="rgba(255,255,255,0.12)"/>
+  <rect id="hero-diag-line1b" x="285" y="424" width="80" height="5" rx="2" fill="rgba(255,106,0,0.3)"/>
+
+  <rect id="hero-diag-row2" x="100" y="451" width="440" height="28" rx="6" fill="rgba(255,255,255,0.02)"/>
+  <circle id="hero-diag-dot2" cx="120" cy="465" r="5" fill="rgba(255,255,255,0.15)"/>
+  <rect id="hero-diag-line2a" x="135" y="460" width="180" height="5" rx="2" fill="rgba(255,255,255,0.08)"/>
+
+  <rect id="hero-diag-row3" x="100" y="487" width="440" height="28" rx="6" fill="rgba(255,255,255,0.02)"/>
+  <circle id="hero-diag-dot3" cx="120" cy="501" r="5" fill="rgba(255,255,255,0.15)"/>
+  <rect id="hero-diag-line3a" x="135" y="496" width="120" height="5" rx="2" fill="rgba(255,255,255,0.08)"/>
+  <rect id="hero-diag-line3b" x="265" y="496" width="60" height="5" rx="2" fill="rgba(255,106,0,0.2)"/>
+
+  <!-- Right panel: citation signal bars (platform diagnostic) -->
+  <!-- Platform label rows -->
+  <!-- ChatGPT bar -->
+  <rect id="hero-diag-bar-bg1" x="680" y="185" width="400" height="14" rx="4" fill="rgba(255,255,255,0.04)"/>
+  <rect id="hero-diag-bar-fill1" x="680" y="185" width="280" height="14" rx="4" fill="rgba(255,106,0,0.6)"/>
+
+  <!-- Claude bar -->
+  <rect id="hero-diag-bar-bg2" x="680" y="218" width="400" height="14" rx="4" fill="rgba(255,255,255,0.04)"/>
+  <rect id="hero-diag-bar-fill2" x="680" y="218" width="120" height="14" rx="4" fill="rgba(255,106,0,0.35)"/>
+
+  <!-- Perplexity bar -->
+  <rect id="hero-diag-bar-bg3" x="680" y="251" width="400" height="14" rx="4" fill="rgba(255,255,255,0.04)"/>
+  <rect id="hero-diag-bar-fill3" x="680" y="251" width="210" height="14" rx="4" fill="rgba(255,106,0,0.45)"/>
+
+  <!-- Google AI bar -->
+  <rect id="hero-diag-bar-bg4" x="680" y="284" width="400" height="14" rx="4" fill="rgba(255,255,255,0.04)"/>
+  <rect id="hero-diag-bar-fill4" x="680" y="284" width="60" height="14" rx="4" fill="rgba(255,106,0,0.2)"/>
+
+  <!-- Separator -->
+  <line id="hero-diag-sep" x1="660" y1="330" x2="1100" y2="330" stroke="rgba(255,255,255,0.05)" stroke-width="1"/>
+
+  <!-- Signal type indicators right panel lower -->
+  <rect id="hero-diag-sig1" x="680" y="355" width="60" height="60" rx="10" fill="rgba(255,106,0,0.08)" stroke="rgba(255,106,0,0.2)" stroke-width="1"/>
+  <rect id="hero-diag-sig2" x="760" y="355" width="60" height="60" rx="10" fill="rgba(255,106,0,0.04)" stroke="rgba(255,255,255,0.06)" stroke-width="1"/>
+  <rect id="hero-diag-sig3" x="840" y="355" width="60" height="60" rx="10" fill="rgba(255,106,0,0.04)" stroke="rgba(255,255,255,0.06)" stroke-width="1"/>
+  <rect id="hero-diag-sig4" x="920" y="355" width="60" height="60" rx="10" fill="rgba(255,106,0,0.04)" stroke="rgba(255,255,255,0.06)" stroke-width="1"/>
+  <rect id="hero-diag-sig5" x="1000" y="355" width="60" height="60" rx="10" fill="rgba(255,106,0,0.04)" stroke="rgba(255,255,255,0.06)" stroke-width="1"/>
+
+  <!-- Signal icons: simple geometric representations -->
+  <circle id="hero-diag-sic1" cx="710" cy="378" r="8" fill="none" stroke="#FF6A00" stroke-width="2"/>
+  <line id="hero-diag-sil1" x1="710" y1="370" x2="710" y2="386" stroke="#FF6A00" stroke-width="1.5"/>
+  <line id="hero-diag-sil2" x1="702" y1="378" x2="718" y2="378" stroke="#FF6A00" stroke-width="1.5"/>
+  <rect id="hero-diag-sigr1" x="700" y="392" width="20" height="4" rx="2" fill="rgba(255,106,0,0.3)"/>
+
+  <!-- Connecting dotted lines between panels -->
+  <line id="hero-diag-connect1" x1="560" y1="280" x2="640" y2="250" stroke="rgba(255,106,0,0.12)" stroke-width="1" stroke-dasharray="5 5"/>
+  <line id="hero-diag-connect2" x1="385" y1="405" x2="660" y2="300" stroke="rgba(255,106,0,0.08)" stroke-width="1" stroke-dasharray="5 5"/>
+
+  <!-- Ambient glow dots -->
+  <circle id="hero-diag-amb1" cx="160" cy="140" r="60" fill="rgba(255,106,0,0.06)" filter="url(#hero-diag-blur-sm)"/>
+  <circle id="hero-diag-amb2" cx="1050" cy="520" r="80" fill="rgba(255,106,0,0.04)" filter="url(#hero-diag-blur-sm)"/>
+  <circle id="hero-diag-amb3" cx="600" cy="315" r="4" fill="#FF6A00" opacity="0.5"/>
+  <circle id="hero-diag-amb4" cx="620" cy="290" r="2" fill="#FF6A00" opacity="0.3"/>
+  <circle id="hero-diag-amb5" cx="595" cy="340" r="2.5" fill="#FF6A00" opacity="0.25"/>
+
+  <!-- Bottom accent line -->
+  <rect id="hero-diag-accent-line" x="80" y="558" width="200" height="2" rx="1" fill="rgba(255,106,0,0.4)"/>
+  <rect id="hero-diag-accent-line2" x="290" y="558" width="60" height="2" rx="1" fill="rgba(255,106,0,0.15)"/>
+</svg>

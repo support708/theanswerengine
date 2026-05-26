@@ -1,0 +1,195 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <defs>
+    <!-- Background gradient -->
+    <linearGradient id="hero-coach-bg-grad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0F1117"/>
+      <stop offset="100%" stop-color="#13151e"/>
+    </linearGradient>
+
+    <!-- Orange radial glow -->
+    <radialGradient id="hero-coach-glow" cx="30%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#FF6A00" stop-opacity="0.12"/>
+      <stop offset="100%" stop-color="#FF6A00" stop-opacity="0"/>
+    </radialGradient>
+
+    <!-- Secondary glow -->
+    <radialGradient id="hero-coach-glow2" cx="75%" cy="35%" r="35%">
+      <stop offset="0%" stop-color="#FF6A00" stop-opacity="0.07"/>
+      <stop offset="100%" stop-color="#FF6A00" stop-opacity="0"/>
+    </radialGradient>
+
+    <!-- Grid pattern -->
+    <pattern id="hero-coach-grid" width="50" height="50" patternUnits="userSpaceOnUse">
+      <path d="M 50 0 L 0 0 0 50" fill="none" stroke="white" stroke-width="0.3" stroke-opacity="0.04"/>
+    </pattern>
+
+    <!-- Dot pattern -->
+    <pattern id="hero-coach-dots" width="30" height="30" patternUnits="userSpaceOnUse">
+      <circle cx="15" cy="15" r="1" fill="white" fill-opacity="0.06"/>
+    </pattern>
+
+    <!-- Clip path for rounded node shapes -->
+    <clipPath id="hero-coach-clip1">
+      <circle cx="300" cy="315" r="120"/>
+    </clipPath>
+  </defs>
+
+  <!-- Base background -->
+  <rect width="1200" height="630" fill="url(#hero-coach-bg-grad)"/>
+
+  <!-- Grid overlay -->
+  <rect width="1200" height="630" fill="url(#hero-coach-grid)"/>
+
+  <!-- Dot overlay -->
+  <rect width="1200" height="630" fill="url(#hero-coach-dots)"/>
+
+  <!-- Orange radial glow left -->
+  <rect width="1200" height="630" fill="url(#hero-coach-glow)"/>
+
+  <!-- Orange radial glow right -->
+  <rect width="1200" height="630" fill="url(#hero-coach-glow2)"/>
+
+  <!-- ── KNOWLEDGE GRAPH VISUALIZATION ── -->
+
+  <!-- Central authority node (large, orange) -->
+  <circle id="hero-coach-node-center" cx="600" cy="315" r="52" fill="#FF6A00" fill-opacity="0.12" stroke="#FF6A00" stroke-width="1.5" stroke-opacity="0.5"/>
+  <circle cx="600" cy="315" r="36" fill="#FF6A00" fill-opacity="0.18" stroke="#FF6A00" stroke-width="1" stroke-opacity="0.7"/>
+  <circle cx="600" cy="315" r="18" fill="#FF6A00" fill-opacity="0.35"/>
+
+  <!-- Concentric ring around center -->
+  <circle cx="600" cy="315" r="70" fill="none" stroke="#FF6A00" stroke-width="0.5" stroke-opacity="0.2" stroke-dasharray="4 6"/>
+  <circle cx="600" cy="315" r="100" fill="none" stroke="#FF6A00" stroke-width="0.5" stroke-opacity="0.12" stroke-dasharray="3 8"/>
+
+  <!-- Connection lines from center to satellite nodes -->
+  <!-- Top left -->
+  <line x1="600" y1="315" x2="360" y2="165" stroke="#FF6A00" stroke-width="0.8" stroke-opacity="0.25"/>
+  <!-- Top right -->
+  <line x1="600" y1="315" x2="840" y2="160" stroke="#FF6A00" stroke-width="0.8" stroke-opacity="0.25"/>
+  <!-- Left -->
+  <line x1="600" y1="315" x2="310" y2="310" stroke="#FF6A00" stroke-width="0.8" stroke-opacity="0.25"/>
+  <!-- Right -->
+  <line x1="600" y1="315" x2="890" y2="310" stroke="#FF6A00" stroke-width="0.8" stroke-opacity="0.25"/>
+  <!-- Bottom left -->
+  <line x1="600" y1="315" x2="370" y2="468" stroke="#FF6A00" stroke-width="0.8" stroke-opacity="0.25"/>
+  <!-- Bottom right -->
+  <line x1="600" y1="315" x2="840" y2="472" stroke="#FF6A00" stroke-width="0.8" stroke-opacity="0.25"/>
+  <!-- Bottom center -->
+  <line x1="600" y1="315" x2="600" y2="510" stroke="#FF6A00" stroke-width="0.8" stroke-opacity="0.2"/>
+  <!-- Top center -->
+  <line x1="600" y1="315" x2="600" y2="120" stroke="#FF6A00" stroke-width="0.8" stroke-opacity="0.2"/>
+
+  <!-- ── SATELLITE NODES ── -->
+
+  <!-- Node: ICF Directory (top left) -->
+  <circle id="hero-coach-node-icf" cx="360" cy="165" r="28" fill="#1a1d27" stroke="#FF6A00" stroke-width="1.2" stroke-opacity="0.45"/>
+  <circle cx="360" cy="165" r="16" fill="#FF6A00" fill-opacity="0.1"/>
+  <!-- Abstract certificate shape -->
+  <rect x="349" y="155" width="22" height="16" rx="2" fill="none" stroke="#FF6A00" stroke-width="1" stroke-opacity="0.6"/>
+  <line x1="354" y1="160" x2="366" y2="160" stroke="#FF6A00" stroke-width="0.8" stroke-opacity="0.5"/>
+  <line x1="354" y1="164" x2="362" y2="164" stroke="#FF6A00" stroke-width="0.8" stroke-opacity="0.4"/>
+
+  <!-- Node: LinkedIn (top right) -->
+  <circle id="hero-coach-node-linkedin" cx="840" cy="160" r="28" fill="#1a1d27" stroke="#FF6A00" stroke-width="1.2" stroke-opacity="0.45"/>
+  <circle cx="840" cy="160" r="16" fill="#FF6A00" fill-opacity="0.1"/>
+  <!-- Abstract person/network shape -->
+  <circle cx="840" cy="155" r="5" fill="none" stroke="#FF6A00" stroke-width="1" stroke-opacity="0.6"/>
+  <path d="M 833 168 Q 840 162 847 168" fill="none" stroke="#FF6A00" stroke-width="1" stroke-opacity="0.5"/>
+
+  <!-- Node: Person Schema (left) -->
+  <circle id="hero-coach-node-schema" cx="310" cy="310" r="32" fill="#1a1d27" stroke="#FF6A00" stroke-width="1.4" stroke-opacity="0.5"/>
+  <circle cx="310" cy="310" r="20" fill="#FF6A00" fill-opacity="0.08"/>
+  <!-- Abstract code/schema brackets -->
+  <text x="298" y="317" font-family="monospace" font-size="14" fill="#FF6A00" fill-opacity="0.55">{  }</text>
+
+  <!-- Node: Editorial Press (right) -->
+  <circle id="hero-coach-node-press" cx="890" cy="310" r="32" fill="#1a1d27" stroke="#FF6A00" stroke-width="1.4" stroke-opacity="0.5"/>
+  <circle cx="890" cy="310" r="20" fill="#FF6A00" fill-opacity="0.08"/>
+  <!-- Abstract document lines -->
+  <line x1="879" y1="303" x2="901" y2="303" stroke="#FF6A00" stroke-width="1" stroke-opacity="0.55"/>
+  <line x1="879" y1="309" x2="901" y2="309" stroke="#FF6A00" stroke-width="1" stroke-opacity="0.45"/>
+  <line x1="879" y1="315" x2="893" y2="315" stroke="#FF6A00" stroke-width="1" stroke-opacity="0.35"/>
+
+  <!-- Node: Psychology Today (bottom left) -->
+  <circle id="hero-coach-node-psytoday" cx="370" cy="468" r="26" fill="#1a1d27" stroke="#FF6A00" stroke-width="1.2" stroke-opacity="0.4"/>
+  <circle cx="370" cy="468" r="14" fill="#FF6A00" fill-opacity="0.08"/>
+  <!-- Abstract star/badge -->
+  <polygon points="370,455 373,463 382,463 375,468 377,477 370,472 363,477 365,468 358,463 367,463" fill="none" stroke="#FF6A00" stroke-width="0.8" stroke-opacity="0.45"/>
+
+  <!-- Node: Outcomes/Case Study (bottom right) -->
+  <circle id="hero-coach-node-outcomes" cx="840" cy="472" r="26" fill="#1a1d27" stroke="#FF6A00" stroke-width="1.2" stroke-opacity="0.4"/>
+  <circle cx="840" cy="472" r="14" fill="#FF6A00" fill-opacity="0.08"/>
+  <!-- Abstract bar chart -->
+  <rect x="829" y="466" width="5" height="12" rx="1" fill="#FF6A00" fill-opacity="0.4"/>
+  <rect x="837" y="460" width="5" height="18" rx="1" fill="#FF6A00" fill-opacity="0.5"/>
+  <rect x="845" y="463" width="5" height="15" rx="1" fill="#FF6A00" fill-opacity="0.4"/>
+
+  <!-- Node: Top center (AI platform) -->
+  <circle id="hero-coach-node-ai" cx="600" cy="120" r="24" fill="#1a1d27" stroke="#FF6A00" stroke-width="1.2" stroke-opacity="0.4"/>
+  <circle cx="600" cy="120" r="12" fill="#FF6A00" fill-opacity="0.1"/>
+  <!-- Abstract neural dot -->
+  <circle cx="600" cy="120" r="4" fill="#FF6A00" fill-opacity="0.5"/>
+
+  <!-- Node: Bottom center (Perplexity/Directory) -->
+  <circle id="hero-coach-node-dir" cx="600" cy="510" r="22" fill="#1a1d27" stroke="#FF6A00" stroke-width="1" stroke-opacity="0.35"/>
+  <!-- Abstract list lines -->
+  <line x1="590" y1="505" x2="610" y2="505" stroke="#FF6A00" stroke-width="1" stroke-opacity="0.4"/>
+  <line x1="590" y1="510" x2="610" y2="510" stroke="#FF6A00" stroke-width="1" stroke-opacity="0.35"/>
+  <line x1="590" y1="515" x2="604" y2="515" stroke="#FF6A00" stroke-width="1" stroke-opacity="0.3"/>
+
+  <!-- ── SECONDARY SMALLER NODES (outer ring) ── -->
+
+  <!-- Far left cluster -->
+  <circle cx="180" cy="230" r="12" fill="#1a1d27" stroke="#FF6A00" stroke-width="0.8" stroke-opacity="0.3"/>
+  <line x1="310" y1="310" x2="180" y2="230" stroke="#FF6A00" stroke-width="0.5" stroke-opacity="0.15"/>
+  <circle cx="155" cy="370" r="9" fill="#1a1d27" stroke="#FF6A00" stroke-width="0.7" stroke-opacity="0.25"/>
+  <line x1="310" y1="310" x2="155" y2="370" stroke="#FF6A00" stroke-width="0.4" stroke-opacity="0.12"/>
+  <circle cx="210" cy="450" r="10" fill="#1a1d27" stroke="#FF6A00" stroke-width="0.7" stroke-opacity="0.25"/>
+  <line x1="370" y1="468" x2="210" y2="450" stroke="#FF6A00" stroke-width="0.4" stroke-opacity="0.12"/>
+
+  <!-- Far right cluster -->
+  <circle cx="1020" cy="225" r="12" fill="#1a1d27" stroke="#FF6A00" stroke-width="0.8" stroke-opacity="0.3"/>
+  <line x1="890" y1="310" x2="1020" y2="225" stroke="#FF6A00" stroke-width="0.5" stroke-opacity="0.15"/>
+  <circle cx="1045" cy="375" r="9" fill="#1a1d27" stroke="#FF6A00" stroke-width="0.7" stroke-opacity="0.25"/>
+  <line x1="890" y1="310" x2="1045" y2="375" stroke="#FF6A00" stroke-width="0.4" stroke-opacity="0.12"/>
+  <circle cx="990" cy="460" r="10" fill="#1a1d27" stroke="#FF6A00" stroke-width="0.7" stroke-opacity="0.25"/>
+  <line x1="840" y1="472" x2="990" y2="460" stroke="#FF6A00" stroke-width="0.4" stroke-opacity="0.12"/>
+
+  <!-- Cross-connections between satellite nodes (entity consensus web) -->
+  <line x1="360" y1="165" x2="840" y2="160" stroke="#FF6A00" stroke-width="0.4" stroke-opacity="0.1" stroke-dasharray="3 9"/>
+  <line x1="310" y1="310" x2="370" y2="468" stroke="#FF6A00" stroke-width="0.4" stroke-opacity="0.1" stroke-dasharray="3 9"/>
+  <line x1="890" y1="310" x2="840" y2="472" stroke="#FF6A00" stroke-width="0.4" stroke-opacity="0.1" stroke-dasharray="3 9"/>
+  <line x1="360" y1="165" x2="310" y2="310" stroke="#FF6A00" stroke-width="0.4" stroke-opacity="0.1" stroke-dasharray="3 9"/>
+  <line x1="840" y1="160" x2="890" y2="310" stroke="#FF6A00" stroke-width="0.4" stroke-opacity="0.1" stroke-dasharray="3 9"/>
+
+  <!-- ── FLOATING DATA TAGS (credential / signal labels) ── -->
+
+  <!-- Tag: Person Schema -->
+  <rect x="118" y="290" width="116" height="24" rx="4" fill="#FF6A00" fill-opacity="0.08" stroke="#FF6A00" stroke-width="0.6" stroke-opacity="0.3"/>
+  <text x="176" y="306" font-family="system-ui, sans-serif" font-size="10" fill="#FF6A00" fill-opacity="0.55" text-anchor="middle" letter-spacing="0.5">PERSON SCHEMA</text>
+
+  <!-- Tag: ICF Certified -->
+  <rect x="288" y="118" width="104" height="24" rx="4" fill="#FF6A00" fill-opacity="0.08" stroke="#FF6A00" stroke-width="0.6" stroke-opacity="0.3"/>
+  <text x="340" y="134" font-family="system-ui, sans-serif" font-size="10" fill="#FF6A00" fill-opacity="0.55" text-anchor="middle" letter-spacing="0.5">ICF CERTIFIED</text>
+
+  <!-- Tag: Entity Consensus -->
+  <rect x="560" y="55" width="122" height="24" rx="4" fill="#FF6A00" fill-opacity="0.08" stroke="#FF6A00" stroke-width="0.6" stroke-opacity="0.3"/>
+  <text x="621" y="71" font-family="system-ui, sans-serif" font-size="10" fill="#FF6A00" fill-opacity="0.55" text-anchor="middle" letter-spacing="0.5">ENTITY CONSENSUS</text>
+
+  <!-- Tag: Cited Expert -->
+  <rect x="806" y="98" width="104" height="24" rx="4" fill="#FF6A00" fill-opacity="0.1" stroke="#FF6A00" stroke-width="0.8" stroke-opacity="0.4"/>
+  <text x="858" y="114" font-family="system-ui, sans-serif" font-size="10" fill="#FF6A00" fill-opacity="0.65" text-anchor="middle" letter-spacing="0.5">CITED EXPERT</text>
+
+  <!-- Tag: Outcomes -->
+  <rect x="810" y="512" width="84" height="24" rx="4" fill="#FF6A00" fill-opacity="0.08" stroke="#FF6A00" stroke-width="0.6" stroke-opacity="0.3"/>
+  <text x="852" y="528" font-family="system-ui, sans-serif" font-size="10" fill="#FF6A00" fill-opacity="0.55" text-anchor="middle" letter-spacing="0.5">OUTCOMES</text>
+
+  <!-- ── SUBTLE EDGE FADE ── -->
+  <defs>
+    <radialGradient id="hero-coach-edge-fade" cx="50%" cy="50%" r="50%">
+      <stop offset="60%" stop-color="#0F1117" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#0F1117" stop-opacity="0.55"/>
+    </radialGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#hero-coach-edge-fade)"/>
+
+</svg>
