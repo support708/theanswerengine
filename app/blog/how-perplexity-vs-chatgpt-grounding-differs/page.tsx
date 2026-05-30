@@ -436,7 +436,7 @@ export default function PerplexityVsChatGPTGroundingPage() {
                 </tr>
                 <tr>
                   <td><strong>Citation Domain Overlap</strong></td>
-                  <td colspan={2} className="text-center">Only 11% of cited domains shared between the two platforms (AuthorityTech, 680M citation analysis)</td>
+                  <td colSpan={2} className="text-center">Only 11% of cited domains shared between the two platforms (AuthorityTech, 680M citation analysis)</td>
                   <td>Platform-specific optimization is required; one strategy does not serve both</td>
                 </tr>
                 <tr>
