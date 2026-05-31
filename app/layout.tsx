@@ -60,13 +60,20 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-        {/* Favicon links for all platforms */}
-        <link rel="icon" href="/favicon.ico" sizes="any" />
+        {/* Favicon — all platforms */}
+        <link rel="icon" href="/favicon.ico" sizes="48x48" type="image/x-icon" />
+        <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png" />
         <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
         <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+        {/* iOS home screen */}
         <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+        {/* Android / PWA */}
         <link rel="manifest" href="/site.webmanifest" />
         <meta name="theme-color" content="#131313" />
+        <meta name="mobile-web-app-capable" content="yes" />
+        <meta name="apple-mobile-web-app-capable" content="yes" />
+        <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+        <meta name="apple-mobile-web-app-title" content="The Answer Engine" />
         
         <script
           type="application/ld+json"
