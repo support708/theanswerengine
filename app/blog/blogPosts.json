@@ -11,7 +11,18 @@
     "publishDate": "2026-05-21",
     "lastModified": "2026-05-21",
     "featured": false,
-    "tags": ["Coaching AI Search", "Consultant AI Visibility", "Person Schema", "AEO for Coaches", "Expert Echo Problem", "ICF Certification", "AI Citations", "Answer Engine Optimization", "Perplexity Coaches", "ChatGPT Coaches"]
+    "tags": [
+      "Coaching AI Search",
+      "Consultant AI Visibility",
+      "Person Schema",
+      "AEO for Coaches",
+      "Expert Echo Problem",
+      "ICF Certification",
+      "AI Citations",
+      "Answer Engine Optimization",
+      "Perplexity Coaches",
+      "ChatGPT Coaches"
+    ]
   },
   {
     "id": 242,
@@ -25,7 +36,17 @@
     "publishDate": "2026-05-21",
     "lastModified": "2026-05-21",
     "featured": false,
-    "tags": ["Perplexity AI", "ChatGPT", "AI Grounding", "RAG Architecture", "AI Citations", "AEO Strategy", "Answer Engine Optimization", "AI Search", "Citation Strategy"]
+    "tags": [
+      "Perplexity AI",
+      "ChatGPT",
+      "AI Grounding",
+      "RAG Architecture",
+      "AI Citations",
+      "AEO Strategy",
+      "Answer Engine Optimization",
+      "AI Search",
+      "Citation Strategy"
+    ]
   },
   {
     "id": 241,
@@ -39,7 +60,17 @@
     "publishDate": "2026-05-21",
     "lastModified": "2026-05-21",
     "featured": false,
-    "tags": ["ChatGPT Shopping", "AI Shopping", "Product Schema", "E-commerce AEO", "Answer Engine Optimization", "OpenAI Shopping", "AI Citations", "Review Velocity", "Brand Entity"]
+    "tags": [
+      "ChatGPT Shopping",
+      "AI Shopping",
+      "Product Schema",
+      "E-commerce AEO",
+      "Answer Engine Optimization",
+      "OpenAI Shopping",
+      "AI Citations",
+      "Review Velocity",
+      "Brand Entity"
+    ]
   },
   {
     "id": 240,
@@ -53,7 +84,18 @@
     "publishDate": "2026-05-21",
     "lastModified": "2026-05-21",
     "featured": false,
-    "tags": ["AI Citation Loss", "AEO Diagnostic", "Answer Engine Optimization", "Entity Consensus", "Schema Markup", "AI Search Visibility", "ChatGPT Citations", "Perplexity", "Google AI Overviews", "Citation Recovery"]
+    "tags": [
+      "AI Citation Loss",
+      "AEO Diagnostic",
+      "Answer Engine Optimization",
+      "Entity Consensus",
+      "Schema Markup",
+      "AI Search Visibility",
+      "ChatGPT Citations",
+      "Perplexity",
+      "Google AI Overviews",
+      "Citation Recovery"
+    ]
   },
   {
     "id": 239,
@@ -5185,6 +5227,499 @@
       "AEO",
       "Local Business",
       "Perplexity"
+    ]
+  },
+  {
+    "id": 244,
+    "title": "aeo-grader",
+    "slug": "aeo-grader",
+    "excerpt": "AEO insights from The Answer Engine.",
+    "category": "AEO Strategy",
+    "author": "The Answer Engine",
+    "readTime": "8 min read",
+    "image": "/blog/aeo-grader.svg",
+    "publishDate": "2026-05-31",
+    "lastModified": "2026-05-31",
+    "featured": false,
+    "tags": [
+      "AEO",
+      "AI Search"
+    ]
+  },
+  {
+    "id": 245,
+    "title": "AEO Models: How AI Search Picks Sources",
+    "slug": "aeo-models-how-ai-search-picks-sources",
+    "excerpt": "A technical breakdown of the retrieval, ranking, and citation selection models inside ChatGPT, Perplexity, Claude, Gemini, and Google AI Mode, and the structural signals that decide which sources get cited.",
+    "category": "AEO Strategy",
+    "author": "The Answer Engine",
+    "readTime": "8 min read",
+    "image": "/blog/aeo-models-how-ai-search-picks-sources.svg",
+    "publishDate": "2026-05-31",
+    "lastModified": "2026-05-31",
+    "featured": false,
+    "tags": [
+      "AEO",
+      "AI Search"
+    ]
+  },
+  {
+    "id": 246,
+    "title": "How to Get Your Law Firm Recommended by ChatGPT and AI Search",
+    "slug": "ai-search-for-law-firms",
+    "excerpt": "Attorneys: learn how to get your law firm cited by ChatGPT, Perplexity, and Google AI. The AEO strategy that puts your firm in AI recommendations — not just Google.",
+    "category": "AI Platforms",
+    "author": "The Answer Engine",
+    "readTime": "8 min read",
+    "image": "/blog/ai-search-for-law-firms.svg",
+    "publishDate": "2026-05-31",
+    "lastModified": "2026-05-31",
+    "featured": false,
+    "tags": [
+      "AEO",
+      "AI Search"
+    ]
+  },
+  {
+    "id": 247,
+    "title": "best-aeo-techniques-2026",
+    "slug": "best-aeo-techniques-2026",
+    "excerpt": "The 7 most effective answer engine optimization techniques in 2026. Each tactic tied to AI citation mechanics.",
+    "category": "AEO Strategy",
+    "author": "The Answer Engine",
+    "readTime": "8 min read",
+    "image": "/blog/best-aeo-techniques-2026.svg",
+    "publishDate": "2026-05-31",
+    "lastModified": "2026-05-31",
+    "featured": false,
+    "tags": [
+      "AEO",
+      "AI Search"
+    ]
+  },
+  {
+    "id": 248,
+    "title": "AERO Scan",
+    "slug": "certified-aeo-specialist",
+    "excerpt": "AEO insights from The Answer Engine.",
+    "category": "AEO Strategy",
+    "author": "The Answer Engine",
+    "readTime": "8 min read",
+    "image": "/blog/certified-aeo-specialist.svg",
+    "publishDate": "2026-05-31",
+    "lastModified": "2026-05-31",
+    "featured": false,
+    "tags": [
+      "AEO",
+      "AI Search"
+    ]
+  },
+  {
+    "id": 249,
+    "title": "does-blocking-gptbot-hurt-ai-search",
+    "slug": "does-blocking-gptbot-hurt-ai-search",
+    "excerpt": "AEO insights from The Answer Engine.",
+    "category": "AEO Strategy",
+    "author": "The Answer Engine",
+    "readTime": "8 min read",
+    "image": "/blog/does-blocking-gptbot-hurt-ai-search.svg",
+    "publishDate": "2026-05-31",
+    "lastModified": "2026-05-31",
+    "featured": false,
+    "tags": [
+      "AEO",
+      "AI Search"
+    ]
+  },
+  {
+    "id": 250,
+    "title": "Does ChatGPT Recommend Personal Injury Lawyers?",
+    "slug": "does-chatgpt-recommend-personal-injury-lawyers",
+    "excerpt": "ChatGPT, Perplexity, Claude, and Gemini name specific personal injury lawyers when claimants ask for a recommendation. A breakdown of the AEO signals that decide which firms get cited and which stay invisible.",
+    "category": "AI Platforms",
+    "author": "The Answer Engine",
+    "readTime": "8 min read",
+    "image": "/blog/does-chatgpt-recommend-personal-injury-lawyers.svg",
+    "publishDate": "2026-05-31",
+    "lastModified": "2026-05-31",
+    "featured": false,
+    "tags": [
+      "AEO",
+      "AI Search"
+    ]
+  },
+  {
+    "id": 251,
+    "title": "does-social-media-help-ai-find-your-business",
+    "slug": "does-social-media-help-ai-find-your-business",
+    "excerpt": "AEO insights from The Answer Engine.",
+    "category": "AI Platforms",
+    "author": "The Answer Engine",
+    "readTime": "8 min read",
+    "image": "/blog/does-social-media-help-ai-find-your-business.svg",
+    "publishDate": "2026-05-31",
+    "lastModified": "2026-05-31",
+    "featured": false,
+    "tags": [
+      "AEO",
+      "AI Search"
+    ]
+  },
+  {
+    "id": 252,
+    "title": "${title}",
+    "slug": "does-updating-your-site-weekly-help-ai-find-you",
+    "excerpt": "AEO insights from The Answer Engine.",
+    "category": "AEO Strategy",
+    "author": "The Answer Engine",
+    "readTime": "8 min read",
+    "image": "/blog/does-updating-your-site-weekly-help-ai-find-you.svg",
+    "publishDate": "2026-05-31",
+    "lastModified": "2026-05-31",
+    "featured": false,
+    "tags": [
+      "AEO",
+      "AI Search"
+    ]
+  },
+  {
+    "id": 253,
+    "title": "does-website-speed-matter-for-ai-search",
+    "slug": "does-website-speed-matter-for-ai-search",
+    "excerpt": "AEO insights from The Answer Engine.",
+    "category": "Technical AEO",
+    "author": "The Answer Engine",
+    "readTime": "8 min read",
+    "image": "/blog/does-website-speed-matter-for-ai-search.svg",
+    "publishDate": "2026-05-31",
+    "lastModified": "2026-05-31",
+    "featured": false,
+    "tags": [
+      "AEO",
+      "AI Search"
+    ]
+  },
+  {
+    "id": 254,
+    "title": "does-website-traffic-affect-ai-search",
+    "slug": "does-website-traffic-affect-ai-search",
+    "excerpt": "AEO insights from The Answer Engine.",
+    "category": "Technical AEO",
+    "author": "The Answer Engine",
+    "readTime": "8 min read",
+    "image": "/blog/does-website-traffic-affect-ai-search.svg",
+    "publishDate": "2026-05-31",
+    "lastModified": "2026-05-31",
+    "featured": false,
+    "tags": [
+      "AEO",
+      "AI Search"
+    ]
+  },
+  {
+    "id": 255,
+    "title": "How ChatGPT Decides Which Plumber to Recommend in Your City",
+    "slug": "how-chatgpt-decides-which-plumber-to-recommend-in-your-city",
+    "excerpt": "How ChatGPT chooses which plumber to recommend by city. The four-source retrieval pass, the five AEO signals that earn the citation, and how to claim yours.",
+    "category": "AI Platforms",
+    "author": "The Answer Engine",
+    "readTime": "8 min read",
+    "image": "/blog/how-chatgpt-decides-which-plumber-to-recommend-in-your-city.svg",
+    "publishDate": "2026-05-31",
+    "lastModified": "2026-05-31",
+    "featured": false,
+    "tags": [
+      "AEO",
+      "AI Search"
+    ]
+  },
+  {
+    "id": 256,
+    "title": "how-chatgpt-search-crawls-business-websites",
+    "slug": "how-chatgpt-search-crawls-business-websites",
+    "excerpt": "AEO insights from The Answer Engine.",
+    "category": "Technical AEO",
+    "author": "The Answer Engine",
+    "readTime": "8 min read",
+    "image": "/blog/how-chatgpt-search-crawls-business-websites.svg",
+    "publishDate": "2026-05-31",
+    "lastModified": "2026-05-31",
+    "featured": false,
+    "tags": [
+      "AEO",
+      "AI Search"
+    ]
+  },
+  {
+    "id": 257,
+    "title": "how-chatgpt-web-search-changes-business-recommendations",
+    "slug": "how-chatgpt-web-search-changes-business-recommendations",
+    "excerpt": "AEO insights from The Answer Engine.",
+    "category": "AI Platforms",
+    "author": "The Answer Engine",
+    "readTime": "8 min read",
+    "image": "/blog/how-chatgpt-web-search-changes-business-recommendations.svg",
+    "publishDate": "2026-05-31",
+    "lastModified": "2026-05-31",
+    "featured": false,
+    "tags": [
+      "AEO",
+      "AI Search"
+    ]
+  },
+  {
+    "id": 258,
+    "title": "how-faq-sections-help-ai-recommend-your-business",
+    "slug": "how-faq-sections-help-ai-recommend-your-business",
+    "excerpt": "AEO insights from The Answer Engine.",
+    "category": "AEO Strategy",
+    "author": "The Answer Engine",
+    "readTime": "8 min read",
+    "image": "/blog/how-faq-sections-help-ai-recommend-your-business.svg",
+    "publishDate": "2026-05-31",
+    "lastModified": "2026-05-31",
+    "featured": false,
+    "tags": [
+      "AEO",
+      "AI Search"
+    ]
+  },
+  {
+    "id": 259,
+    "title": "How Samsung Galaxy AI Finds Local Businesses",
+    "slug": "how-samsung-galaxy-ai-finds-local-businesses",
+    "excerpt": "Samsung Galaxy AI and Bixby now recommend local businesses. Learn how this platform discovers and suggests businesses to millions of Galaxy users.",
+    "category": "AEO Strategy",
+    "author": "The Answer Engine",
+    "readTime": "8 min read",
+    "image": "/blog/how-samsung-galaxy-ai-finds-local-businesses.svg",
+    "publishDate": "2026-05-31",
+    "lastModified": "2026-05-31",
+    "featured": false,
+    "tags": [
+      "AEO",
+      "AI Search"
+    ]
+  },
+  {
+    "id": 260,
+    "title": "how-to-get-cited-by-ai-search",
+    "slug": "how-to-get-cited-by-ai-search",
+    "excerpt": "AI search engines like ChatGPT, Perplexity, Claude, and Google AI cite businesses based on specific signals. Here is exactly what drives citations and how to build them systematically.",
+    "category": "AEO Strategy",
+    "author": "The Answer Engine",
+    "readTime": "8 min read",
+    "image": "/blog/how-to-get-cited-by-ai-search.svg",
+    "publishDate": "2026-05-31",
+    "lastModified": "2026-05-31",
+    "featured": false,
+    "tags": [
+      "AEO",
+      "AI Search"
+    ]
+  },
+  {
+    "id": 261,
+    "title": "local-seo-vs-ai-search",
+    "slug": "local-seo-vs-ai-search",
+    "excerpt": "AEO insights from The Answer Engine.",
+    "category": "Local SEO",
+    "author": "The Answer Engine",
+    "readTime": "8 min read",
+    "image": "/blog/local-seo-vs-ai-search.svg",
+    "publishDate": "2026-05-31",
+    "lastModified": "2026-05-31",
+    "featured": false,
+    "tags": [
+      "AEO",
+      "AI Search"
+    ]
+  },
+  {
+    "id": 262,
+    "title": "meta-ai-whatsapp-recommends-local-businesses",
+    "slug": "meta-ai-whatsapp-recommends-local-businesses",
+    "excerpt": "Meta AI on WhatsApp recommends local businesses by reading your Facebook and Instagram Business profiles. Here is exactly how it works and how to make sure AI recommends you.",
+    "category": "AEO Strategy",
+    "author": "The Answer Engine",
+    "readTime": "8 min read",
+    "image": "/blog/meta-ai-whatsapp-recommends-local-businesses.svg",
+    "publishDate": "2026-05-31",
+    "lastModified": "2026-05-31",
+    "featured": false,
+    "tags": [
+      "AEO",
+      "AI Search"
+    ]
+  },
+  {
+    "id": 263,
+    "title": "squarespace-vs-wordpress-for-ai-search",
+    "slug": "squarespace-vs-wordpress-for-ai-search",
+    "excerpt": "AEO insights from The Answer Engine.",
+    "category": "Technical AEO",
+    "author": "The Answer Engine",
+    "readTime": "8 min read",
+    "image": "/blog/squarespace-vs-wordpress-for-ai-search.svg",
+    "publishDate": "2026-05-31",
+    "lastModified": "2026-05-31",
+    "featured": false,
+    "tags": [
+      "AEO",
+      "AI Search"
+    ]
+  },
+  {
+    "id": 264,
+    "title": "The Retrieval Layer Explained: How AI Search Actually Works in 2026",
+    "slug": "the-retrieval-layer-explained-how-ai-search-actually-works-in-2026",
+    "excerpt": "The retrieval layer is the machinery behind every AEO citation. Defined, decomposed, and mapped to the structural levers that earn LLM citations. Audit yours.",
+    "category": "AEO Strategy",
+    "author": "The Answer Engine",
+    "readTime": "8 min read",
+    "image": "/blog/the-retrieval-layer-explained-how-ai-search-actually-works-in-2026.svg",
+    "publishDate": "2026-05-31",
+    "lastModified": "2026-05-31",
+    "featured": false,
+    "tags": [
+      "AEO",
+      "AI Search"
+    ]
+  },
+  {
+    "id": 265,
+    "title": "What Does AEO Mean in Marketing?",
+    "slug": "what-does-aeo-mean-in-marketing",
+    "excerpt": "AEO in marketing means engineering content to be cited by ChatGPT, Perplexity, and Google AI. The 2026 definition, the research, and the 90-day playbook. Book a call.",
+    "category": "AEO Strategy",
+    "author": "The Answer Engine",
+    "readTime": "8 min read",
+    "image": "/blog/what-does-aeo-mean-in-marketing.svg",
+    "publishDate": "2026-05-31",
+    "lastModified": "2026-05-31",
+    "featured": false,
+    "tags": [
+      "AEO",
+      "AI Search"
+    ]
+  },
+  {
+    "id": 266,
+    "title": "What Is AEO? Answer Engine Optimization 2026",
+    "slug": "what-is-aeo-2026",
+    "excerpt": "Answer Engine Optimization (AEO) is how brands get cited by ChatGPT, Perplexity, and Google AI in 2026. The definition, the research, the playbook. Read now.",
+    "category": "AEO Strategy",
+    "author": "The Answer Engine",
+    "readTime": "8 min read",
+    "image": "/blog/what-is-aeo-2026.svg",
+    "publishDate": "2026-05-31",
+    "lastModified": "2026-05-31",
+    "featured": false,
+    "tags": [
+      "AEO",
+      "AI Search"
+    ]
+  },
+  {
+    "id": 267,
+    "title": "What Is an AEO Prompt?",
+    "slug": "what-is-an-aeo-prompt",
+    "excerpt": "A six-step process for constructing the fixed 20-to-50 prompt library every operator needs to measure citation movement across ChatGPT, Perplexity, Claude, and Gemini.",
+    "category": "AEO Strategy",
+    "author": "The Answer Engine",
+    "readTime": "8 min read",
+    "image": "/blog/what-is-an-aeo-prompt.svg",
+    "publishDate": "2026-05-31",
+    "lastModified": "2026-05-31",
+    "featured": false,
+    "tags": [
+      "AEO",
+      "AI Search"
+    ]
+  },
+  {
+    "id": 268,
+    "title": "what-is-entity-authority-and-why-ai-cares",
+    "slug": "what-is-entity-authority-and-why-ai-cares",
+    "excerpt": "AEO insights from The Answer Engine.",
+    "category": "AEO Strategy",
+    "author": "The Answer Engine",
+    "readTime": "8 min read",
+    "image": "/blog/what-is-entity-authority-and-why-ai-cares.svg",
+    "publishDate": "2026-05-31",
+    "lastModified": "2026-05-31",
+    "featured": false,
+    "tags": [
+      "AEO",
+      "AI Search"
+    ]
+  },
+  {
+    "id": 269,
+    "title": "why-ai-describes-your-competitor-but-not-you",
+    "slug": "why-ai-describes-your-competitor-but-not-you",
+    "excerpt": "AEO insights from The Answer Engine.",
+    "category": "AEO Strategy",
+    "author": "The Answer Engine",
+    "readTime": "8 min read",
+    "image": "/blog/why-ai-describes-your-competitor-but-not-you.svg",
+    "publishDate": "2026-05-31",
+    "lastModified": "2026-05-31",
+    "featured": false,
+    "tags": [
+      "AEO",
+      "AI Search"
+    ]
+  },
+  {
+    "id": 270,
+    "title": "why-ai-still-shows-my-old-business-information",
+    "slug": "why-ai-still-shows-my-old-business-information",
+    "excerpt": "AEO insights from The Answer Engine.",
+    "category": "AEO Strategy",
+    "author": "The Answer Engine",
+    "readTime": "8 min read",
+    "image": "/blog/why-ai-still-shows-my-old-business-information.svg",
+    "publishDate": "2026-05-31",
+    "lastModified": "2026-05-31",
+    "featured": false,
+    "tags": [
+      "AEO",
+      "AI Search"
+    ]
+  },
+  {
+    "id": 271,
+    "title": "Why Your Location Pages Disappear from AI Results",
+    "slug": "why-your-location-pages-disappear-from-ai-results",
+    "excerpt": "Your location pages were optimized for Google but are invisible to AI. Learn why AI platforms ignore templated location pages and what signals they actually need.",
+    "category": "AEO Strategy",
+    "author": "The Answer Engine",
+    "readTime": "8 min read",
+    "image": "/blog/why-your-location-pages-disappear-from-ai-results.svg",
+    "publishDate": "2026-05-31",
+    "lastModified": "2026-05-31",
+    "featured": false,
+    "tags": [
+      "AEO",
+      "AI Search"
+    ]
+  },
+  {
+    "id": 272,
+    "title": "your-listing-vs-competitors-what-ai-compares",
+    "slug": "your-listing-vs-competitors-what-ai-compares",
+    "excerpt": "AEO insights from The Answer Engine.",
+    "category": "AEO Strategy",
+    "author": "The Answer Engine",
+    "readTime": "8 min read",
+    "image": "/blog/your-listing-vs-competitors-what-ai-compares.svg",
+    "publishDate": "2026-05-31",
+    "lastModified": "2026-05-31",
+    "featured": false,
+    "tags": [
+      "AEO",
+      "AI Search"
     ]
   }
 ]
