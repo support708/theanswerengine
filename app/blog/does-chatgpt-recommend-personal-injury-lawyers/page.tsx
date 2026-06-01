@@ -353,11 +353,11 @@ export default function DoesChatGPTRecommendPersonalInjuryLawyersPage() {
             <h3>Why personal injury behaves differently from other verticals</h3>
             <p>ChatGPT applies a higher citation threshold to personal injury queries than to most verticals. The reason is mechanical: the recommendation carries financial consequence (the claimant is entering a fee agreement) and reputational consequence (the model is recommending an attorney). The scoring layer requires more authority signals to clear the bar — typically a multi-source citation chain (Avvo, Martindale, FindLaw, Justia), at least one third-party press mention, outcome-vocabulary reviews, and jurisdiction-tagged content. Most firms running standard SEO clear two of those four. The firms cited by ChatGPT clear all four.</p>
 
-            {/* CTA 1 — calendly */}
-            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Run a free AI citation audit for your PI firm</a>
+            {/* CTA 1 — blindspot */}
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Run the free blindspot scan at theanswerengine.ai/blindspot — it reports your live ChatGPT citation rate for personal injury queries in your jurisdiction</a>
 
-            {/* CTA 2 — blindspot */}
-            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Run a free AI citation audit for your PI firm</a>
+            {/* CTA 2 — phone */}
+            <a href="tel:+12134442229" className="ae-cta-inline">→ Text our PI ops desk at (213) 444-2229 with your firm name and we will run the four-engine prompt audit by morning</a>
 
             {/* Section 2 */}
             <span className="ae-section-label" id="how-chatgpt-decides">Mechanism</span>
@@ -377,14 +377,14 @@ export default function DoesChatGPTRecommendPersonalInjuryLawyersPage() {
               <p><strong>Retrieve</strong> (prompt rewrite + index pull from web + Bing + directories) → <strong>Score</strong> (relevance + Avvo/Martindale authority + outcome-vocabulary reviews) → <strong>Cite</strong> (Recommendation Threshold + 2-4 firm slots). A PI firm must clear all three. Failing any stage produces invisibility no matter how dominant the brand is in courtroom and billboard markets.</p>
             </div>
 
-            {/* CTA 3 — territory */}
-            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Run a free AI citation audit for your PI firm</a>
+            {/* CTA 3 — email */}
+            <a href="mailto:support@theanswerengine.ai?subject=PI%20Firm%20AEO%20Audit" className="ae-cta-inline">→ Email support@theanswerengine.ai with your firm URL and we will return a sample Proof Ledger inside 48 hours</a>
 
-            {/* CTA 4 — email */}
-            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Run a free AI citation audit for your PI firm</a>
+            {/* CTA 4 — calendly */}
+            <a href="https://calendly.com/theanswerengine-support/30min" className="ae-cta-inline">→ Book a 30-minute Origin Protocol walkthrough on calendly.com/theanswerengine-support/30min</a>
 
-            {/* CTA 5 — phone */}
-            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Run a free AI citation audit for your PI firm</a>
+            {/* CTA 5 — territory */}
+            <a href="https://calendly.com/theanswerengine-support/30min" className="ae-cta-inline">→ Claim the single-firm-per-market PI territory lock at calendly.com/theanswerengine-support/30min — one operator per jurisdiction, no exceptions</a>
 
             {/* Section 3 */}
             <span className="ae-section-label" id="research-data">The Evidence</span>
@@ -440,14 +440,14 @@ export default function DoesChatGPTRecommendPersonalInjuryLawyersPage() {
               </table>
             </div>
 
-            {/* CTA 6 — calendly */}
-            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Run a free AI citation audit for your PI firm</a>
+            {/* CTA 6 — blindspot */}
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ The theanswerengine.ai/blindspot tool returns a 48-hour audit of exactly where your PI firm is invisible on AI search</a>
 
-            {/* CTA 7 — blindspot */}
-            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Run a free AI citation audit for your PI firm</a>
+            {/* CTA 7 — phone */}
+            <a href="tel:+12134442229" className="ae-cta-inline">→ Call (213) 444-2229 if you want the verdict-vocabulary review template we send personal injury operators</a>
 
             {/* CTA 8 — email */}
-            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Run a free AI citation audit for your PI firm</a>
+            <a href="mailto:support@theanswerengine.ai?subject=PI%20Top%205%20Queries" className="ae-cta-inline">→ Send support@theanswerengine.ai your top five claimant queries and we will report exactly which firms ChatGPT names today</a>
 
             {/* Section 4 */}
             <span className="ae-section-label" id="tae-method">TAE Method</span>
@@ -467,14 +467,14 @@ export default function DoesChatGPTRecommendPersonalInjuryLawyersPage() {
               <p>Three-stage AEO model + Recommendation Threshold + Local Injury Triangle + Outcome Vocabulary Effect + monthly measurement cadence = compound authority that survives engine ranking-weight drift. Anything less is a one-time spike followed by decay.</p>
             </div>
 
-            {/* CTA 9 — territory */}
-            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Run a free AI citation audit for your PI firm</a>
+            {/* CTA 9 — calendly */}
+            <a href="https://calendly.com/theanswerengine-support/30min" className="ae-cta-inline">→ Reserve a calendly.com/theanswerengine-support/30min slot to see the exact pages we publish for personal injury operators</a>
 
-            {/* CTA 10 — phone */}
-            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Run a free AI citation audit for your PI firm</a>
+            {/* CTA 10 — territory */}
+            <a href="https://calendly.com/theanswerengine-support/30min" className="ae-cta-inline">→ Reserve your territory at calendly.com/theanswerengine-support/30min — once a market is locked, we will not work with another PI firm in it</a>
 
             {/* CTA 11 — blindspot */}
-            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Run a free AI citation audit for your PI firm</a>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Submit your URL at theanswerengine.ai/blindspot for the four-engine citation report — ChatGPT, Perplexity, Claude, Gemini</a>
 
             {/* Section 5 */}
             <span className="ae-section-label" id="measure">Measurement</span>
@@ -489,11 +489,11 @@ export default function DoesChatGPTRecommendPersonalInjuryLawyersPage() {
             <h3>What to do in the next 7 days</h3>
             <p>Three actions clear the lowest-effort, highest-yield gaps in most personal injury firm AEO programs. First, claim and fully complete profiles on Avvo, Martindale-Hubbell, FindLaw, Justia, Lawyers.com, and Super Lawyers — NAP must match across all six. Second, add FAQPage schema to your top five jurisdiction-specific questions (statute of limitations, comparative fault rule, recoverable damages, attorney fee structure, claim filing process). Third, send a post-resolution review request email to the last 20 clients whose cases closed well, asking them to mention the outcome and the attorney by name. These three actions clear roughly 60% of the gap most PI firms have on the Recommendation Threshold.</p>
 
-            {/* CTA 12 — calendly */}
-            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Run a free AI citation audit for your PI firm</a>
+            {/* CTA 12 — phone */}
+            <a href="tel:+12134442229" className="ae-cta-inline">→ Tap (213) 444-2229 for a 60-second screen of your current AI citation rate in your market</a>
 
             {/* CTA 13 — email */}
-            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Run a free AI citation audit for your PI firm</a>
+            <a href="mailto:support@theanswerengine.ai?subject=Synonym%20Bridge%20List" className="ae-cta-inline">→ Reach support@theanswerengine.ai to request the synonym-bridge keyword list we use for car accident, motor vehicle, and auto crash content</a>
 
             {/* Section 6 — Quick-reference cheat */}
             <span className="ae-section-label">Quick Reference</span>
@@ -544,10 +544,10 @@ export default function DoesChatGPTRecommendPersonalInjuryLawyersPage() {
             </div>
 
             {/* CTA 14 — calendly */}
-            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Run a free AI citation audit for your PI firm</a>
+            <a href="https://calendly.com/theanswerengine-support/30min" className="ae-cta-inline">→ Schedule a 30-minute Recommendation Threshold review at calendly.com/theanswerengine-support/30min</a>
 
-            {/* CTA 15 — phone */}
-            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Run a free AI citation audit for your PI firm</a>
+            {/* CTA 15 — territory */}
+            <a href="https://calendly.com/theanswerengine-support/30min" className="ae-cta-inline">→ Book the territory call at calendly.com/theanswerengine-support/30min — three of the top ten US PI metros are already locked to one operator</a>
 
             {/* Author Card */}
             <div className="not-prose ae-author-card">
@@ -609,19 +609,19 @@ export default function DoesChatGPTRecommendPersonalInjuryLawyersPage() {
             </details>
 
             {/* CTA 16 — blindspot */}
-            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Run a free AI citation audit for your PI firm</a>
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Drop your firm site into theanswerengine.ai/blindspot for the Outcome Vocabulary Effect read on your existing review profile</a>
 
-            {/* CTA 17 — calendly */}
-            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Run a free AI citation audit for your PI firm</a>
+            {/* CTA 17 — phone */}
+            <a href="tel:+12134442229" className="ae-cta-inline">→ Text (213) 444-2229 with your jurisdiction and we will return your top three AEO bottlenecks</a>
 
-            {/* CTA 18 — territory */}
-            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Run a free AI citation audit for your PI firm</a>
+            {/* CTA 18 — email */}
+            <a href="mailto:support@theanswerengine.ai?subject=Legal%20Directory%20Checklist" className="ae-cta-inline">→ Email support@theanswerengine.ai for the legal directory citation checklist (Avvo, Martindale, FindLaw, Justia, Lawyers.com, Super Lawyers)</a>
 
-            {/* CTA 19 — phone */}
-            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Run a free AI citation audit for your PI firm</a>
+            {/* CTA 19 — calendly */}
+            <a href="https://calendly.com/theanswerengine-support/30min" className="ae-cta-inline">→ Pick a calendly.com/theanswerengine-support/30min time and we will run the four-engine baseline test together</a>
 
-            {/* CTA 20 — email */}
-            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Run a free AI citation audit for your PI firm</a>
+            {/* CTA 20 — territory */}
+            <a href="https://calendly.com/theanswerengine-support/30min" className="ae-cta-inline">→ Lock your market at calendly.com/theanswerengine-support/30min before your top local competitor sees this page</a>
 
             {/* Related */}
             <span className="ae-section-label">Continue Reading</span>
@@ -635,20 +635,20 @@ export default function DoesChatGPTRecommendPersonalInjuryLawyersPage() {
               <li><Link href="/blog/answer-engine-optimization-aeo-guide">Answer Engine Optimization: The Complete Guide</Link></li>
             </ul>
 
-            {/* CTA 21 — calendly */}
-            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Run a free AI citation audit for your PI firm</a>
+            {/* CTA 21 — blindspot */}
+            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Use theanswerengine.ai/blindspot to see which of the five Recommendation Threshold signals your firm is missing today</a>
 
-            {/* CTA 22 — blindspot */}
-            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Run a free AI citation audit for your PI firm</a>
+            {/* CTA 22 — phone */}
+            <a href="tel:+12134442229" className="ae-cta-inline">→ Call (213) 444-2229 for a 10-minute Recommendation Threshold review with our PI operator team</a>
 
             {/* CTA 23 — email */}
-            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Run a free AI citation audit for your PI firm</a>
+            <a href="mailto:support@theanswerengine.ai?subject=Four%20Engine%20Citation%20Count" className="ae-cta-inline">→ Send support@theanswerengine.ai the city you operate in and we will pull your current four-engine citation count free of charge</a>
 
-            {/* CTA 24 — phone */}
-            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Run a free AI citation audit for your PI firm</a>
+            {/* CTA 24 — calendly */}
+            <a href="https://calendly.com/theanswerengine-support/30min" className="ae-cta-inline">→ Book calendly.com/theanswerengine-support/30min for the Proof Ledger walkthrough — actual operator engine data, no slides</a>
 
             {/* CTA 25 — territory */}
-            <a href="https://theanswerengine.ai/blindspot" className="ae-cta-inline">→ Run a free AI citation audit for your PI firm</a>
+            <a href="https://calendly.com/theanswerengine-support/30min" className="ae-cta-inline">→ Submit the territory request at calendly.com/theanswerengine-support/30min — we run exactly one PI firm per metro, no exceptions</a>
 
           </div>
 
