@@ -3773,7 +3773,7 @@
     "reviewCount": 182,
     "rating": 4.8,
     "notes": "Auto-discovered by Lead Hunter. AI citation: not cited on 0/1 platforms. Competitors cited: Cienega Med Spa, Marina Medspa, Los Feliz Med Spa. Outreach-ready: YES (citation data + contact + differentiator verified). Differentiator: Founded by world-renowned facial plastic surgeon Dr. Paul Nassif; personal selection of all treatments; featured in Entertainment Tonight, Good Morning America, People Magazine; established 2004",
-    "status": "follow_up_2",
+    "status": "follow_up_3",
     "research": {
       "reviewCount": 182,
       "rating": 4.8,
@@ -3910,10 +3910,14 @@
       {
         "action": "follow_up_2 auto-sent via Gmail (19e2c5e28b2342f0)",
         "timestamp": "2026-05-15T16:00:31.364Z"
+      },
+      {
+        "action": "follow_up_3 send failed: Gmail not configured",
+        "timestamp": "2026-06-01T16:00:26.542Z"
       }
     ],
     "createdAt": "2026-04-08T20:59:03.860Z",
-    "updatedAt": "2026-05-15T16:00:31.534Z",
+    "updatedAt": "2026-06-01T16:00:26.713Z",
     "huntSource": "hunt_1775681881534_kh3q",
     "huntScore": 36,
     "huntPriority": "P1",
