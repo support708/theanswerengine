@@ -131,7 +131,7 @@ const jsonLd = {
           name: 'How long does it take for an insurance agent to start getting cited by ChatGPT?',
           acceptedAnswer: {
             '@type': 'Answer',
-            text: 'Agents who execute the Answer Engine Optimization playbook typically earn first citations in 4 to 8 weeks, while operators who rely on DIY trial and error usually take 3 to 6 months. The reason is sequencing: an expert identifies the three or four citation surfaces that move the needle on day one, while DIY operators iterate through 12 to 18 low-impact tasks before they find a leverage point. GEO-SFE (2026) documented that AI models reinforce sources they already cite, so the first ninety days of citation building set the trajectory for the rest of the year.',
+            text: 'Agents who execute the Answer Engine Optimization playbook typically earn first citations in 4 to 8 weeks, while operators who rely on DIY trial and error usually take 3 to 6 months. The reason is sequencing: an expert identifies the three or four citation surfaces that move the needle on day one, while DIY operators iterate through 12 to 18 low-impact tasks before they identify the moves that compound. GEO-SFE (2026) documented that AI models reinforce sources they already cite, so the first ninety days of citation building set the trajectory for the rest of the year.',
           },
         },
         {
