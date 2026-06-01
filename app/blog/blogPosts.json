@@ -5773,5 +5773,30 @@
       "GEO Research",
       "AEO Strategy"
     ]
+  },
+  {
+    "id": 275,
+    "title": "How Does Perplexity AI Choose Which PI Law Firm to Cite?",
+    "slug": "how-perplexity-chooses-pi-law-firm-to-cite",
+    "excerpt": "Perplexity AI cites three PI law firms per injury query. AEO breakdown of the retrieval signals, ranking weights, and how a firm claims the slot before competitors.",
+    "category": "Industry Guides",
+    "author": "Justin Borges",
+    "readTime": "15 min",
+    "image": "/blog/how-perplexity-chooses-pi-law-firm-to-cite.webp",
+    "publishDate": "2026-05-31",
+    "lastModified": "2026-05-31",
+    "featured": false,
+    "tags": [
+      "Perplexity AI",
+      "Personal Injury Law",
+      "PI Law Firm Citation",
+      "Legal AEO",
+      "Answer Engine Optimization",
+      "Statutory Citation Density",
+      "Retrieval-First Citation",
+      "Origin Protocol",
+      "LegalService Schema",
+      "AI Citations"
+    ]
   }
 ]
